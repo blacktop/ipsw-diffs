@@ -1,0 +1,81 @@
+## cpio
+
+> `/usr/bin/cpio`
+
+```diff
+
+-178.0.0.0.0
+-  __TEXT.__text: 0x4d6c sha256:ec540b332c20a84db3aede379aee74de216fcca5d123547b0987def121fbe971
++182.0.0.0.0
++  __TEXT.__text: 0x4d4c sha256:72590af74496796dcee399d8f6aad3e21d911c54aced4a6dce0eedaa49ac2a62
+   __TEXT.__auth_stubs: 0x8e0 sha256:3f9cef6e03ce8e544aadce23c988207863eb324bdec7c5faf9c079cbddc49ee4
+-  __TEXT.__const: 0x38 sha256:d0a002f4cf53bf612a71acfed0025fac7d8307b90ec13adce28549069ff3739d
++  __TEXT.__const: 0x38 sha256:e3a58d733d0cc46aee3460123c2f384e54313b6d4d3abfae348ab4c21959ed0a
+   __TEXT.__cstring: 0x922 sha256:4786851bcd4748a20538c6ee303398d5ce3fc7d13d08cb634503026c4f140876
+-  __TEXT.__unwind_info: 0x90 sha256:f8015dec6b98410e595e82a5f7ffa3111b7f3608aeb589a75685db82329d5d27
+-  __DATA_CONST.__const: 0x230 sha256:79bfb3aab952a5ff99a047da3ffd6e49511c6ac0247e0591168bb02acd37b91c
++  __TEXT.__unwind_info: 0x90 sha256:4f5e33c30187f68e15b8c85873cb38aca8b6aa77ba495f81551831c9eafc26f4
++  __DATA_CONST.__const: 0x230 sha256:8cc952176127a8f455db2fb00e5dbb2e4c930b051e8c9b049cfa002b90149b5a
+   __DATA_CONST.__auth_got: 0x470 sha256:86de2f0b4d923ccc137a61e69f4abe4dca197d00c25c735748607d25f9461317
+   __DATA_CONST.__got: 0x20 sha256:65b3f284a51bf09455583770f835afad94a6d83eac637e0fe8ccb5418fe9f56e
+-  __DATA.__data: 0x10 sha256:869fcf5652f054b1279c1863cf4a3a75cb7c4a3455aac7a407bffd1e8d4eea0e
++  __DATA.__data: 0x10 sha256:a3fe334eeb148ad7961406deb4f2d5601ce16136031d34ab1a0b5d5c15158b63
+   __DATA.__bss: 0x44b8 sha256:895fe7ead7f7e44a4eaa2c4c2a9dd7a3735aca12649282228d8e2407778ed3da
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libarchive.2.dylib
+-  UUID: 0466292A-1BDD-3FBB-96D2-E651476F9FFD
++  UUID: D7B01E24-ADEA-3434-9309-7A2C5E12CEA4
+   Functions: 37
+   Symbols:   378
+   CStrings:  122
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/Symbols/BuiltProducts/libarchive_fe.a(err.o)
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/Symbols/BuiltProducts/libarchive_fe.a(line_reader.o)
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/Symbols/BuiltProducts/libarchive_fe.a(passphrase.o)
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/cpio.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/cpio.build/Objects-normal/arm64e/cmdline.o
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/cpio.build/Objects-normal/arm64e/cpio.o
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/cpio.build/Objects-normal/arm64e/cpio_vers.o
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Sources/libarchive_executables/libarchive/cpio/
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Sources/libarchive_executables/libarchive/libarchive_fe/
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/Symbols/BuiltProducts/libarchive_fe.a(err.o)
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/Symbols/BuiltProducts/libarchive_fe.a(line_reader.o)
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/Symbols/BuiltProducts/libarchive_fe.a(passphrase.o)
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/cpio.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/cpio.build/Objects-normal/arm64e/cmdline.o
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/cpio.build/Objects-normal/arm64e/cpio.o
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/cpio.build/Objects-normal/arm64e/cpio_vers.o
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Sources/libarchive_executables/libarchive/cpio/
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Sources/libarchive_executables/libarchive/libarchive_fe/
+Functions:
+~ _cpio_getopt : sha256 2b57dc471a71c57f33a988a4919673312503328d1f0dc3225f2223cc1acc472b -> fc3770e5ac2c7a1d72e75d44f11f03f3df8ac57649f9c6a4c9af7e7bb3770520
+~ _owner_parse : sha256 e1ee3d66a90364dd30269ba676df4a3d3cec58bd1da4a8b41a4285619d07ad97 -> 0f5bf2c010483f160b99a0b0d1de5bbc80a975c529ab106d99925ed01d5b6d58
+~ _main : sha256 a64fbc571b32dea0e2ada0a558fe40cc06f82ff415f62b5b1ca270a47a3ca7fa -> 55c7ac1eb6986966c698898e59972ed7159784516eee0becb7e6de154d5e274b
+~ _long_help : sha256 3d36cacc8f1ea6710dadc1e0872c1edb4a62823a6ed60a546ca4f3d63b865f4d -> e0e02c18b7c7b71e49e7f16bcf69a6f77c5de959ca222f04bf067e159c6f0aa5
+~ _usage : sha256 251800c7809515adb1a80fdb5ed437e7d5a9976a2abe816a45f0352f083cf541 -> 3ed54cdfb804044be5338c3497ca22d7058b966c4c0f2706dc145be3abf86375
+~ _version : sha256 f9f5198159c90d45016fc15cea7e2e21a3ccd3a0de28c82811b952f673ce3cd1 -> 5820556f308c2c3e031530d5c290496ca75130ddf07c03e77446d762e78314a1
+~ _mode_out : sha256 a6650a0d83281080914c5b6c34c25c3fdae2f9c530bf0f70b16b6641189fe9b7 -> 9b8a2c0d1f568813f89776f4a07af4e6782fe1ce23e7e8db7898ad46ab895f59
+~ _mode_list : sha256 a2c01d0475c34c8ee5a9ed13ac8c9b639dd4616478d67830f88c78734739e5cb -> 0ab7bb83cef1935e48242e6fd7043d76eccb85ab0809d1ce8afadac4a8e09f11
+~ _mode_in : sha256 c061f8346d5f770717966372726c59eadc02ef1be9de0bebee083bd9004eebf0 -> 9512cbfeb9cd06cacb3dfebabf7039e20c385ff3d715b7f7f4302cd23d7bb13b
+~ _mode_pass : sha256 a95f8d3280af87270f86ef641d77c778dba3171d3ef70aa31ac7a8b8bb05f1a7 -> df4ed62d54c4a36eca33a7924caa5b40ae5ae4bbc96738882f5d2139b6e17ecf
+~ _free_cache : 140 -> 136
+~ _passphrase_free : sha256 5d1bbcf527d7c3fb06fb9abc76b7dc699b84e9e8b54ed294868c2c299b2dea38 -> ad7525e044a29d0ef8d3debfd01c28628ba4ac75ac1e8760124d1bb0c237761d
+~ _passphrase_callback : sha256 768128ad50bc1d5ae3dccebc2373f6afee6022bf5bf58e01b3328a2d439fa200 -> f484e814473efc2060f13b1db8e3f110a5a5a689d427b95614fc3fcc18179207
+~ _file_to_archive : sha256 022edbcf6a506b8cfb7a657ded156261feee6967d6cd4f43db9cdf491fbd69b8 -> bf05a00a6ed7dbfe014304dfada7247117ce189987c52890ef246e7ba103f858
+~ _entry_to_archive : sha256 f23bcf7a685fca19dd8db8cea034546a89bc579e99146dfd3f4d96e06c6b993f -> da4c609fbe653cdf8e6b4b333cc08171bccf26aabd7fbe1edcc3adcb5ddce463
+~ _cpio_rename : sha256 e8031cd646f32ea7af98639fff0a45328c18c6eed72247f9fd1b5cf0b6f56da2 -> 69a41c0c40853e7ed00980a3020cfe8ab9dc0f449342a36995a3be2e8afa1053
+~ _restore_time : sha256 a9b4b284a7d7ffb36da2b67bd44fac56c409d610f10ba30d0bfa6f12f86a6013 -> 17ec9fa36376e54257ac871a6271c25e377fad6cac06898b4258ea7dfb84b16f
+~ _extract_data : sha256 c1184b65adb2f4b690ec8c1aa10ad0e7d4c80ebc236c320d5d612841aa6454ad -> 9d6114842fe395719e8a42611ef50b378697ee4a1f32f8fa66099415e663bab8
+~ _list_item_verbose : sha256 b9775ac2f6abc69356ebcb5e428ba596396f8aafd2d92eb88311412dda19e9d8 -> 911bfaf8d9a83efec9a296223ef70f8eda8490ca20f025faa97037e274b9bc21
+~ _lookup_uname : sha256 d4af25ebeac618f25d4225e2d9ce49213ff5b4352aa3a8ec52fcf4e4aaa8bab9 -> 37baf3b9974b2a9ae84d901f70d911508f7d5a95d7bc2161d3614f31200b77f4
+~ _lookup_gname : sha256 69adbe2db62fc55f80b993c004e5d8af1d0aa5608d9e951537115cde160c9f93 -> 8b2399a05a4882f1944fcd2309266511a62df64169f11942ff1ef8c71c2fec91
+~ _lookup_name : 664 -> 636
+~ _lookup_uname_helper : sha256 0bea74d2900352f847c0c7ebf3b0cd934292813f42858c65271a5e30040a61da -> 721d5d8338e6526441c2511f0f77531d55f50c7b56405e450fbade10c8f5b670
+~ _lookup_gname_helper : sha256 e100cc87f6a56175d9eb1ddb15c4db75f5d519ba33f3b2f329fb85989d5857e9 -> fccf9412bb0d6e1157c4f296fc36d6b2931e61153366e9730c1b7abec4c661fd
+~ _lafe_vwarnc : sha256 f9fee7f041e0576aaf461d45c3796cdc7d4d18b8d1d5562e7d5105e0a4d882f6 -> f6982a588f75f8542971ba94897e90c1bdf21f33d54995e879075e9cf99e7ea6
+~ _lafe_readpassphrase : sha256 dc6576fe1af8c41cd010826a3bef8b66bd1e1b4543bb8764fe131b73fac76d7f -> 8124b3665506eeae1845786e3d91323a7dfd3d76a5f0b339cdb87374814f1ee0
+~ _lafe_line_reader : sha256 faaa2105152be59267b2d99d5e891ce1ea07d41a4a9ee66d4706a28229445ea1 -> aec599dcd36ea1476037e8912ed98e73d7bfd0d9fe74fd95dc8f6a43805914f5
+~ _lafe_line_reader_next : sha256 a3c1805cccb2b19ae5c9c96c03e932b53de930d77948387a74174a2ad345c226 -> 72c393fdaae94e98fa20e12d468831da2869dd4831533997c84e3028cd802b57
+~ _lafe_line_reader_find_eol : sha256 da5c016642f4f5b5149ec2ca1b063623e22a0911487005b9672db25a896862b1 -> da4662abc4294bd3f2903c1bf32df5e7b066924787fe99f54afcceb2fa6ce56d
+
+```

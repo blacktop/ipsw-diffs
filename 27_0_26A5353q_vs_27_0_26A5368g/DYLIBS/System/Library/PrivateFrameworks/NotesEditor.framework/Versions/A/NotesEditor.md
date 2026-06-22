@@ -1,0 +1,630 @@
+## NotesEditor
+
+> `/System/Library/PrivateFrameworks/NotesEditor.framework/Versions/A/NotesEditor`
+
+```diff
+
+-3180.0.0.0.0
+-  __TEXT.__text: 0x2529f8 sha256:25a75511d872584a75d204d0f2328462d6189218e14034b2015388b452747fcd
+-  __TEXT.__delay_helper: 0x114 sha256:861ea7ed97c278b63d496f173cda42c80c9aa2536a52f7f93f2778486098ac58
+-  __TEXT.__objc_methlist: 0x11ef8 sha256:cf3dd5e407309d9d09af46475bc4861206bc1f4300e4ce2c42843c914fc168db
+-  __TEXT.__const: 0x9b78 sha256:e96d7a675140973e26938d32527c099efa14ace1127e5c8ecf62accad97c1fe0
+-  __TEXT.__cstring: 0x99a0 sha256:56c009c7fca65ca74f2eb574238259a5948da10269a4497b2a30cd5ffc635a2d
+-  __TEXT.__gcc_except_tab: 0x1cd4 sha256:91253447b3f487add90178300f69f4b55e41f9606bf8e08e2826890afc49af95
+-  __TEXT.__ustring: 0x42c sha256:f719a1346252da30d9e0128faa72f850c19defd694f07a831032f6d192ed206d
+-  __TEXT.__oslogstring: 0x4efc sha256:f15591a23deea93a3ac5a175131cc3918b52e3859c6ccf87d69c37b521c4a068
+-  __TEXT.__constg_swiftt: 0x4048 sha256:5c6d7be0278d35352f7d0108d07371fe19e3bf466f807572e204420feef54019
+-  __TEXT.__swift5_typeref: 0x28cdd sha256:54eaf3fc22087160053a13f7bb4d0b23a605c09774b2d2a13e02c618a8148680
+-  __TEXT.__swift5_builtin: 0x208 sha256:8be827d403aee47c38a2dc8662ce912be66d7250f4a257c92869df9a8c6c8e79
+-  __TEXT.__swift5_reflstr: 0x38fa sha256:ba81cef1222680226b86155ec7091c4526993aff6b6aedb6860d776ea250da61
+-  __TEXT.__swift5_fieldmd: 0x27c8 sha256:1d23715bc2b384921702c184fcc77ec0db0fa0f21049b82a38b0d8127b227343
+-  __TEXT.__swift5_assocty: 0x5e8 sha256:c4e685831e55650bab9db6147d17447905ee961359c7e202c9e0df32e2a9105d
+-  __TEXT.__swift5_proto: 0x280 sha256:7b39e3f72312b378591b77b294fdbad9dea33e744e720a2b81d4073100c4d80b
+-  __TEXT.__swift5_types: 0x230 sha256:82985ac10a566410d10248cb37f139844f677baae76b4262be8f9369fe840f58
+-  __TEXT.__swift5_capture: 0x2358 sha256:58d116eb205f5793afe43fd7a54e715b27ca82daa6777956dca219d443e6e097
+-  __TEXT.__swift5_protos: 0x1c sha256:6f619cf2074cc8ee4fbe8b1a0f80930cdcef9a3b95e7ea48163bab479a225e64
+-  __TEXT.__swift_as_entry: 0x1a0 sha256:58e2883ad0e89a1d0a4575bd63a36f31980c478b6716049209f511eb0af1e775
+-  __TEXT.__swift_as_cont: 0x3d4 sha256:3e3c78d758a7ebb723c1c21597473cbd624bc8cd5902dde44db4f9848ad677bd
+-  __TEXT.__swift_as_ret: 0x194 sha256:05c3ac9bfa1aa25b9c518759e3af10a30863391694da2a34914f9df322aad0af
+-  __TEXT.__swift5_mpenum: 0x10 sha256:99648d4abfc89b2cd494b0b3440b65768255c6f202eb9e768ce220198fe123fe
+-  __TEXT.__unwind_info: 0x7a60 sha256:d0063a7051e7ba802aa1560dfab6cf84fc139a772f871d1887681d39b452c56e
+-  __TEXT.__eh_frame: 0x5b84 sha256:c76fd82bd0b6cbeffdb27f07b61f744ea7b97e18d43ce213942aa1d195255021
++3186.0.0.500.1
++  __TEXT.__text: 0x254230 sha256:c320df34e67bb75925a83d1b20b81b438c7a0afabe3b7d2960f77897f5b1d4a4
++  __TEXT.__delay_helper: 0x114 sha256:8afb43d8ae02a574ebd51ee035ebcc952b3a4e8070d21339ca63aec672792377
++  __TEXT.__objc_methlist: 0x12208 sha256:a7c978e04c8615aebd8a4d7a778e5d323d46c091b9d72acd01fa9ef8c939811d
++  __TEXT.__const: 0x9bc8 sha256:c70b65bf5cbefe255831b8cad5a8fc9af1d8618a086d651f1263e83c3a5d1036
++  __TEXT.__cstring: 0x9990 sha256:f91ab3021bd6f52f3110a4e080f99aa955eca75591340dd0da2e654a7e9c1433
++  __TEXT.__gcc_except_tab: 0x1d5c sha256:2c19623a72dfba7cfd102c8fc437ff68c60934b6ce60319d886a534f6bbd56bd
++  __TEXT.__ustring: 0x42c sha256:38971f26db962ef0316f02423128666d849abdcacb727583a616d08fa9d6d342
++  __TEXT.__oslogstring: 0x4e5c sha256:06ea1ac2116744acb0beaf96068423896572b0fd67b175f20a887ae8ab85a0d8
++  __TEXT.__constg_swiftt: 0x4048 sha256:02acb46e921586b953a4959b8f07609b0535f9e4c800e73264d3f2546df3229c
++  __TEXT.__swift5_typeref: 0x28ebb sha256:46817547abea3663165ad68a89d08154713b41250d0bd1fd0ba9a3fb2dc800f8
++  __TEXT.__swift5_builtin: 0x208 sha256:3ab5858caa0c45f9c7404b8325773b8fbac2cacf532457be89bc11a67e4b1d12
++  __TEXT.__swift5_reflstr: 0x391a sha256:5ec936ca9711c886e8e07d09b27d56a7604d99eff2dc3dd92e303a4370066858
++  __TEXT.__swift5_fieldmd: 0x27c8 sha256:4d2f49eea9cd35b3080a13676f230f7e4316e91903c27f0162d014b749138454
++  __TEXT.__swift5_assocty: 0x5e8 sha256:bcf00e85d3496c63739e5fb28487cc5e056786bfe50acec2dd0d89a9d45728fb
++  __TEXT.__swift5_proto: 0x280 sha256:76e1a757236ec1ef420636ae810b7013334f981367c664f9f757b513df3d9064
++  __TEXT.__swift5_types: 0x230 sha256:45143961bfda12ab255c28a072c86ccb8e3b3b4064d06ae44ea80c4ea623629f
++  __TEXT.__swift5_capture: 0x23d0 sha256:f83339b14e8a90b79cb47bd2d723483d21c993f1cc019d6dc108f85cb0489160
++  __TEXT.__swift5_protos: 0x1c sha256:0d23e04af0c2a174edddf996a8f818f3c30b194ece2737127abbfce521d74d6f
++  __TEXT.__swift_as_entry: 0x1a0 sha256:aa921d6ff9e083f766ecf3143bd1592fd3ff4d1f2d6436db634afd0bf02dd965
++  __TEXT.__swift_as_cont: 0x3d4 sha256:4014d9f87ec97ec18c9f240f741c96e787b7a2dd0fa7645bcb9a953640e00135
++  __TEXT.__swift_as_ret: 0x194 sha256:1fa98b63b613b3c641204e1052699fba1d09f82523baa1c2c194df330cf2c5a0
++  __TEXT.__swift5_mpenum: 0x10 sha256:e06c89134dde98039e2643844e214ee720811a1bb7529f3fad755e9d59366295
++  __TEXT.__unwind_info: 0x7ae8 sha256:a193d36aa5908cabad7b69074d018625e5dd211023237c29eedaa69673ffb512
++  __TEXT.__eh_frame: 0x5b84 sha256:d8f89b91f1fc305d7408b683ab528fee9129c557170b830e1cd322498a0264c4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xbe8 sha256:5a4f9f9b348b6b7d588442eb734568f99ad46c0e6836f31b09821aac92674b8b
+-  __DATA_CONST.__objc_classlist: 0x5d8 sha256:1f8afeee3d57bb3ad690035cd1fd4ce78f5216da89f878c36722c6de57a7e6fe
+-  __DATA_CONST.__objc_catlist: 0x150 sha256:4f2cd5f41a0640adb1314a70dca30245cfc764a340ca8c01a94945189c7177c4
+-  __DATA_CONST.__objc_protolist: 0x410 sha256:749aca40efd08c2bd759f3fc81c68c9ba4d23a5eadcb8ccc1a0f49f288209817
++  __DATA_CONST.__const: 0xbe8 sha256:82d51670298e2bac97a16194bb6fd3f43e82894a1a69337e1c5f02937503e41a
++  __DATA_CONST.__objc_classlist: 0x5e0 sha256:92cf0dd4020123771d8e5944955a6c17c9f4b718ca3764582fa029363cd81640
++  __DATA_CONST.__objc_catlist: 0x150 sha256:ac214dd1c78e88a6e3b0c8ffba6de3dacc4284ac89163f0f9e75883cc872f69b
++  __DATA_CONST.__objc_protolist: 0x418 sha256:95b3209b722521ecebe528cbc21d32a8d06a169b43e8ad5d464274cfe2b99e61
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xc5d8 sha256:63f490f8d14525e0ca69b36cb84dc677b4d9ddab96507cc43b5f80ce4ca13c1d
+-  __DATA_CONST.__objc_protorefs: 0x118 sha256:b8260d9f616bf88f7931a9d76b4bf1bc61dca8e22fd798c3008b051ce7274cb3
+-  __DATA_CONST.__objc_superrefs: 0x360 sha256:62232e3973b660a5e8c17502879c7b1162f7c8301b36c42e97e54c4a6c47928a
+-  __DATA_CONST.__objc_arraydata: 0x20 sha256:a50cb345fa810b81d393e3c326ef65f5fd54e85f98dc804ae0e486e375caaf1c
+-  __DATA_CONST.__got: 0x26e0 sha256:e898ccadbd94bbd1fd51acb47fa214cc4f915b672092e5978ff49514652c7b5d
+-  __AUTH_CONST.__const: 0xa480 sha256:9ad345286849e7bbb65fefd70d0557e82303499308e075e11443c5748c5a32c3
+-  __AUTH_CONST.__cfstring: 0x46c0 sha256:626cecd088152fc9d93d9d8502289c2d190748f207e28df71d2d4b3cef919dcc
+-  __AUTH_CONST.__objc_const: 0x198a0 sha256:66353c286935e994d8d2d95406817ed5c6da8ba10a08460e2147b7e33051d270
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:163f926011ff5dcb93b07b0bdbdc4bf97caf9a99b202d5e31dad4eb09693984d
+-  __AUTH_CONST.__objc_intobj: 0xa8 sha256:e5e07e72b2a98ff0cc4f03223175c3a0e7ac4d897d88488c34120dcb6a0614d8
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:63f71bf7e896f1567e1e82b0a7e694d8d5608772933687534b9bc890431705ed
+-  __AUTH_CONST.__objc_doubleobj: 0x70 sha256:d34511ebb58f3c8541ceb04618eca638f3610d08b05b75933396fc879a9a3ef9
+-  __AUTH_CONST.__auth_got: 0x2e80 sha256:ee83e9b08365cc9d6d707f4cd2d188f71d456712d1f284d74998529a446cf877
+-  __AUTH.__objc_data: 0x34d0 sha256:36fca518ed6e66af39ede091be58788a87d8d81378b427f42b198492bd11ae49
+-  __AUTH.__data: 0x1628 sha256:af71b6813ba6e9a55d47aa4fccc1b95af20d4e139c09ea521d5a356cf16709ed
+-  __DATA.__objc_ivar: 0xd2c sha256:04dc492a77c6d3ab287725cd4623d46a83776ff2f928b6e4f89a15994ff7f1ec
+-  __DATA.__data: 0x677c sha256:c98d5a8e2564441acf53f98e6bdec2d66104a61ed4f1d0e06a3af6735fab1ad5
+-  __DATA.__objc_stublist: 0x8 sha256:6e3f57a9d8c29dddbfad73b8f6f7d5cab13458b6d6d1e089e31977f537a74163
+-  __DATA.__bss: 0x4158 sha256:bc1d5da7142a5abf132fc2fdd38dd51ffca665173060f6c6e5a1325d1ac78d9d
++  __DATA_CONST.__objc_selrefs: 0xc718 sha256:8c69abf863f18a4ea57d19308c549742aeb7c16f768e3d8194cd8d954d18eb3f
++  __DATA_CONST.__objc_protorefs: 0x118 sha256:9663f800128a5070cf15e9d3eee2f91e6a344f324d2a23da1ccbed2096143dda
++  __DATA_CONST.__objc_superrefs: 0x368 sha256:496264a66b30f4184015fccb3a2ad5c499bb650b72f3cb44856678575b21411b
++  __DATA_CONST.__objc_arraydata: 0x20 sha256:ad71610da5c4f5e0face6dbd8ff0753e509b83d06953ff17619b3d3925cfbd58
++  __DATA_CONST.__got: 0x26e8 sha256:9e8f9390b7a0c0740e9439971a1c79637e1fbce8d3a8fa39fab4c2ad7c82c4e0
++  __AUTH_CONST.__const: 0xa5e8 sha256:18a63367fd62207b4235c2249f592d0eb611830e8d85fcbf60a12c81f8cea49e
++  __AUTH_CONST.__cfstring: 0x4c40 sha256:c9d3d2483d0c5d420e22472ccb497a4ea1387ea9106556f51c7195145d1438bf
++  __AUTH_CONST.__objc_const: 0x19ce0 sha256:ecef1563e3f0b6e4a9baff21f0787cf116c2040c43b4430d98a69ca28c415a82
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:e129019cd9202a9c9a457a37fcb8d46eb6792b39a4f237d4ba6077a9f924e888
++  __AUTH_CONST.__objc_intobj: 0xa8 sha256:89395c0bb37f72c48df78b7bd3592cdb976d14f0962e28349554e21d59cdc17c
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:5ff5452243f1c5b75003465b6a1229490f2e0e197d6d96921e3146ce48bd1ae9
++  __AUTH_CONST.__objc_doubleobj: 0x70 sha256:e35f6c8a177397dcb2976f961d20e5735bb926147627f1b4152ac534f6c1f573
++  __AUTH_CONST.__auth_got: 0x2e78 sha256:d56497c486f7e0149ed73bbb0a30fba6f22e970e0e43e7aa0b47f1cec7c1e316
++  __AUTH.__objc_data: 0x3520 sha256:e50576c1388740a76ab026ee998b91d65efda065a4acd0c2e79f15dda4a2dc32
++  __AUTH.__data: 0x1638 sha256:b82c14ab8d1ff63c9b6cbb70e4828d38b4e41e585dfaaaf9dc3ed1f25e006612
++  __DATA.__objc_ivar: 0xd68 sha256:431e2359ce2705d509938e106f5f524d692f4f85619f4e01e2198b3fce02af21
++  __DATA.__data: 0x67f4 sha256:c3375fa6b71c99f814a02d540b0888961345cde423b393d884c5ee253b19cdbd
++  __DATA.__objc_stublist: 0x8 sha256:a27956e3ce4054e8ea18f251cc2345afc0dd582fc3a9c1fd68bac022e43a5c44
++  __DATA.__bss: 0x4148 sha256:f0a2be5cd11929008b591cd214b00a28e023db314da1b4c84e9f8c35e8789d70
+   __DATA.__common: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __DATA_DIRTY.__objc_data: 0x32e0 sha256:1266196e082eacb2d53d4c9ef18fa1d387469b49efdaf76ac73198ff2e519d23
+-  __DATA_DIRTY.__data: 0x1e08 sha256:640093feea4223937f66440230d251c79feb7a5639c8100d8c6fee222ca44513
++  __DATA_DIRTY.__objc_data: 0x32e0 sha256:d2299c34d6ae44afe606b5673c8ecf90f58d951fb036a0009e2bb2f9815a28c4
++  __DATA_DIRTY.__data: 0x1e08 sha256:5bb5f9c63bcaa5d78ba83778b0345bc46ccc5baf36ed0e16785b3364d6467a08
+   __DATA_DIRTY.__bss: 0x14f0 sha256:e697f4cfd4b5a580fe8a195b10c8884ecc13cd1fa2968356368f7c22b4c6df4c
+   __DATA_DIRTY.__common: 0x110 sha256:408575684fbf8659edd3de4d535ddf688142c024436c47924a3cc12eaa86e64d
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 558BC815-09B1-3AF0-BD9F-4DF6D172B9AF
+-  Functions: 11701
+-  Symbols:   16971
+-  CStrings:  1994
++  UUID: 68A8381B-E8B6-3F41-87DD-FD3789CB80C5
++  Functions: 11751
++  Symbols:   17105
++  CStrings:  2073
+ 
+Symbols:
++ -[ICMNoteEditorContextMenuConfiguration .cxx_destruct]
++ -[ICMNoteEditorContextMenuConfiguration addToTagsMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration alwaysShowLightContent]
++ -[ICMNoteEditorContextMenuConfiguration attributionSidebarMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration canAddToTags]
++ -[ICMNoteEditorContextMenuConfiguration canConvertToTag]
++ -[ICMNoteEditorContextMenuConfiguration canConvertToText]
++ -[ICMNoteEditorContextMenuConfiguration canEditChecklistItems]
++ -[ICMNoteEditorContextMenuConfiguration canMoveSelectedListItemDown]
++ -[ICMNoteEditorContextMenuConfiguration canMoveSelectedListItemUp]
++ -[ICMNoteEditorContextMenuConfiguration canScrubNumber]
++ -[ICMNoteEditorContextMenuConfiguration checklistMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration clearPasteAndMatchStyleAlternateFlagInMenu:]
++ -[ICMNoteEditorContextMenuConfiguration configureMenu:atCharIndex:]
++ -[ICMNoteEditorContextMenuConfiguration consolidateWritingToolsMenuItemsInMenu:]
++ -[ICMNoteEditorContextMenuConfiguration convertLinkToAttachmentMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration convertToTagMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration convertToTextMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration dataSource]
++ -[ICMNoteEditorContextMenuConfiguration dividerLineMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration editChecklistMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration initWithDataSource:]
++ -[ICMNoteEditorContextMenuConfiguration insertAddToTagsMenuItemIntoMenu:]
++ -[ICMNoteEditorContextMenuConfiguration insertAttachmentsSubmenuIntoMenu:]
++ -[ICMNoteEditorContextMenuConfiguration insertConvertLinkToAttachmentMenuItemIntoMenuIfNecessary:]
++ -[ICMNoteEditorContextMenuConfiguration insertConvertToTagMenuItemIntoMenu:]
++ -[ICMNoteEditorContextMenuConfiguration insertConvertToTextMenuItemIntoMenu:]
++ -[ICMNoteEditorContextMenuConfiguration insertDebugItemsInMenu:atCharIndex:]
++ -[ICMNoteEditorContextMenuConfiguration insertForceLightContentIntoMenuIfNecessary:]
++ -[ICMNoteEditorContextMenuConfiguration insertOpenLinkMenuItemIntoMenu:]
++ -[ICMNoteEditorContextMenuConfiguration insertParagraphStylesMenuItemIntoMenu:]
++ -[ICMNoteEditorContextMenuConfiguration insertScrubMenuItemIntoMenu:]
++ -[ICMNoteEditorContextMenuConfiguration insertToggleAttributionSidebarMenuItemIntoMenu:]
++ -[ICMNoteEditorContextMenuConfiguration isDarkModeEnabled]
++ -[ICMNoteEditorContextMenuConfiguration isDebugModeEnabled]
++ -[ICMNoteEditorContextMenuConfiguration isInTableCell]
++ -[ICMNoteEditorContextMenuConfiguration isMarkupEnabled]
++ -[ICMNoteEditorContextMenuConfiguration isSharedViaICloud]
++ -[ICMNoteEditorContextMenuConfiguration linkMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration moveChecklistMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration openLinkInNewWindowMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration openLinkMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration paragraphStylesMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration prefersLightBackground]
++ -[ICMNoteEditorContextMenuConfiguration removeLayoutOrientationMenuItemFromMenu:]
++ -[ICMNoteEditorContextMenuConfiguration replaceFontMenuItemInMenu:]
++ -[ICMNoteEditorContextMenuConfiguration scrubMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration setAddToTagsMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setAlwaysShowLightContent:]
++ -[ICMNoteEditorContextMenuConfiguration setAttributionSidebarMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setCanAddToTags:]
++ -[ICMNoteEditorContextMenuConfiguration setCanConvertToTag:]
++ -[ICMNoteEditorContextMenuConfiguration setCanConvertToText:]
++ -[ICMNoteEditorContextMenuConfiguration setCanEditChecklistItems:]
++ -[ICMNoteEditorContextMenuConfiguration setCanMoveSelectedListItemDown:]
++ -[ICMNoteEditorContextMenuConfiguration setCanMoveSelectedListItemUp:]
++ -[ICMNoteEditorContextMenuConfiguration setCanScrubNumber:]
++ -[ICMNoteEditorContextMenuConfiguration setChecklistMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setConvertLinkToAttachmentMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setConvertToTagMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setConvertToTextMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setDataSource:]
++ -[ICMNoteEditorContextMenuConfiguration setDividerLineMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setEditChecklistMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setIconsForSystemLinkMenuItems:]
++ -[ICMNoteEditorContextMenuConfiguration setIsDarkModeEnabled:]
++ -[ICMNoteEditorContextMenuConfiguration setIsDebugModeEnabled:]
++ -[ICMNoteEditorContextMenuConfiguration setIsInTableCell:]
++ -[ICMNoteEditorContextMenuConfiguration setIsMarkupEnabled:]
++ -[ICMNoteEditorContextMenuConfiguration setIsSharedViaICloud:]
++ -[ICMNoteEditorContextMenuConfiguration setLinkMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setMoveChecklistMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setOpenLinkInNewWindowMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setOpenLinkMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setParagraphStylesMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setPrefersLightBackground:]
++ -[ICMNoteEditorContextMenuConfiguration setScrubMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setTableMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration setToggleTodoDoneMenuItem:]
++ -[ICMNoteEditorContextMenuConfiguration tableMenuItem]
++ -[ICMNoteEditorContextMenuConfiguration toggleTodoDoneMenuItem]
++ -[ICMNoteEditorController contextMenuConfiguration]
++ -[ICMNoteEditorController debugMenuItemsAtCharIndex:]
++ -[ICMNoteEditorController isSelectionTokenizedNoteLink]
++ -[ICMNoteEditorController selectedNoteLinkURL]
++ -[ICMNoteEditorController setContextMenuConfiguration:]
++ -[ICMTK2NoteEditorController loadView]
++ -[ICMTK2NoteEditorController viewDidLoad]
++ -[ICTK2MacTextView scrollRangeToVisible:withViewportFractionalOffset:]
++ -[ICTK2MacTextView textViewportLayoutController:configureRenderingSurfaceForTextLayoutFragment:]
++ -[ICTableAttachmentViewController noteFastSyncSessionActiveDidChange:]
++ -[ICTableAttachmentViewController updateSaveDelayerBoundsForFastSync]
++ -[ICTextViewScrollState setViewportFractionalOffset:]
++ -[ICTextViewScrollState topLeftCharacterRangeInTextView:]
++ -[ICTextViewScrollState viewportFractionalOffset]
++ .compoundliteral.1829
++ .compoundliteral.1831
++ .compoundliteral.1833
++ .compoundliteral.1835
++ GCC_except_table139
++ GCC_except_table154
++ GCC_except_table155
++ GCC_except_table184
++ GCC_except_table213
++ GCC_except_table276
++ GCC_except_table281
++ GCC_except_table301
++ GCC_except_table340
++ GCC_except_table389
++ GCC_except_table408
++ GCC_except_table417
++ GCC_except_table424
++ GCC_except_table427
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._addToTagsMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._alwaysShowLightContent
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._attributionSidebarMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._canAddToTags
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._canConvertToTag
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._canConvertToText
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._canEditChecklistItems
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._canMoveSelectedListItemDown
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._canMoveSelectedListItemUp
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._canScrubNumber
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._checklistMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._convertLinkToAttachmentMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._convertToTagMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._convertToTextMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._dataSource
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._dividerLineMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._editChecklistMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._isDarkModeEnabled
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._isDebugModeEnabled
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._isInTableCell
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._isMarkupEnabled
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._isSharedViaICloud
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._linkMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._moveChecklistMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._openLinkInNewWindowMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._openLinkMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._paragraphStylesMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._prefersLightBackground
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._scrubMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._tableMenuItem
++ OBJC_IVAR_$_ICMNoteEditorContextMenuConfiguration._toggleTodoDoneMenuItem
++ OBJC_IVAR_$_ICMNoteEditorController._contextMenuConfiguration
++ OBJC_IVAR_$_ICTextViewScrollState._viewportFractionalOffset
++ _ICNoteFastSyncSessionActiveDidChangeNotification
++ _OBJC_CLASS_$_ICMNoteEditorContextMenuConfiguration
++ _OBJC_METACLASS_$_ICMNoteEditorContextMenuConfiguration
++ __32-[ICMacTextView copyAsMarkdown:]_block_invoke.452
++ __35-[ICMNoteEditorController setNote:]_block_invoke.669
++ __38-[ICMacTextView performDragOperation:]_block_invoke.332
++ __41-[ICMNoteEditorController setInvitation:]_block_invoke.681
++ __41-[ICMNoteEditorController setInvitation:]_block_invoke.687
++ __41-[ICMNoteEditorController setInvitation:]_block_invoke_2.683
++ __41-[ICMNoteEditorController setInvitation:]_block_invoke_2.688
++ __45-[ICTableAttachmentViewController copyTable:]_block_invoke.123
++ __46-[ICTableAttachmentViewController updateTiles]_block_invoke.64
++ __47-[ICMTK2NoteEditorController updateTextStorage]_block_invoke.27
++ __50-[ICTableAttachmentViewController applyUndoGroup:]_block_invoke.126
++ __52-[ICMNoteEditorController insertScanFromPasteboard:]_block_invoke.542
++ __52-[ICMNoteEditorController insertScanFromPasteboard:]_block_invoke_2.543
++ __62-[ICMNoteEditorController didInvokePasteWithAttributedString:]_block_invoke.819
++ __64-[ICTableAttachmentViewController flashAuthorHighlightsIfNeeded]_block_invoke.274
++ __66-[ICTableAttachmentViewController moveCurrentColumnOrRow:toIndex:]_block_invoke.187
++ __66-[ICTableAttachmentViewController moveCurrentColumnOrRow:toIndex:]_block_invoke.190
++ __69-[ICTableAttachmentViewController dragMovedOnColumnOrRow:atLocation:]_block_invoke.178
++ __69-[ICTableAttachmentViewController dragMovedOnColumnOrRow:atLocation:]_block_invoke.182
++ __69-[ICTableAttachmentViewController dragMovedOnColumnOrRow:atLocation:]_block_invoke.183
++ __69-[ICTableAttachmentViewController dragMovedOnColumnOrRow:atLocation:]_block_invoke_2.179
++ __69-[ICTableAttachmentViewController dragMovedOnColumnOrRow:atLocation:]_block_invoke_2.184
++ __71-[ICMNoteEditorController presentRecordingStoppedAlertForNoteIfNeeded:]_block_invoke.718
++ __71-[ICMNoteEditorController showOrHidePasswordScreenIfNecessaryAnimated:]_block_invoke.742
++ __80-[ICMNoteEditorController textView:shouldChangeTextInRanges:replacementStrings:]_block_invoke.418
++ __88-[ICTableAttachmentViewController setSelectionBIUSStyle:toggleOn:onValue:withSelection:]_block_invoke.210
++ __OBJC_$_INSTANCE_METHODS_ICMNoteEditorContextMenuConfiguration
++ __OBJC_$_INSTANCE_VARIABLES_ICMNoteEditorContextMenuConfiguration
++ __OBJC_$_PROP_LIST_ICMNoteEditorContextMenuConfiguration
++ __OBJC_$_PROP_LIST_ICMNoteEditorContextMenuConfigurationDataSource
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ICMNoteEditorContextMenuActions
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ICMNoteEditorContextMenuConfigurationDataSource
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ICMNoteEditorContextMenuActions
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ICMNoteEditorContextMenuConfigurationDataSource
++ __OBJC_$_PROTOCOL_REFS_ICMNoteEditorContextMenuActions
++ __OBJC_$_PROTOCOL_REFS_ICMNoteEditorContextMenuConfigurationDataSource
++ __OBJC_CLASS_RO_$_ICMNoteEditorContextMenuConfiguration
++ __OBJC_LABEL_PROTOCOL_$_ICMNoteEditorContextMenuActions
++ __OBJC_LABEL_PROTOCOL_$_ICMNoteEditorContextMenuConfigurationDataSource
++ __OBJC_METACLASS_RO_$_ICMNoteEditorContextMenuConfiguration
++ __OBJC_PROTOCOL_$_ICMNoteEditorContextMenuActions
++ __OBJC_PROTOCOL_$_ICMNoteEditorContextMenuConfigurationDataSource
++ ___destructor_8_s0_s16
++ __block_literal_global.230
++ __block_literal_global.244
++ __block_literal_global.335
++ __block_literal_global.338
++ __block_literal_global.651
++ __block_literal_global.78
++ __block_literal_global.797
++ __swift_closure_destructor.37Tm
++ _objc_msgSend$alwaysShowLightContent
++ _objc_msgSend$app_setUpStylePopover
++ _objc_msgSend$clearPasteAndMatchStyleAlternateFlagInMenu:
++ _objc_msgSend$configureMenu:atCharIndex:
++ _objc_msgSend$consolidateWritingToolsMenuItemsInMenu:
++ _objc_msgSend$contextMenuConfiguration
++ _objc_msgSend$debugMenuItemsAtCharIndex:
++ _objc_msgSend$ic_itemWithIdentifier:
++ _objc_msgSend$ic_lineRangeForLocation:
++ _objc_msgSend$indexOfItem:
++ _objc_msgSend$insertAttachmentsSubmenuIntoMenu:
++ _objc_msgSend$insertDebugItemsInMenu:atCharIndex:
++ _objc_msgSend$isDarkModeEnabled
++ _objc_msgSend$isDebugModeEnabled
++ _objc_msgSend$isMarkupEnabled
++ _objc_msgSend$isSelectionTokenizedNoteLink
++ _objc_msgSend$isSeparatorItem
++ _objc_msgSend$rangeOfComposedCharacterSequenceAtIndex:
++ _objc_msgSend$removeLayoutOrientationMenuItemFromMenu:
++ _objc_msgSend$renderingSurfaceForKey:
++ _objc_msgSend$saveDelayFastSyncMaxDebounceTime
++ _objc_msgSend$saveDelayFastSyncMinDebounceTime
++ _objc_msgSend$scrollRangeToVisible:withViewportFractionalOffset:
++ _objc_msgSend$selectedNoteLinkURL
++ _objc_msgSend$setAlternate:
++ _objc_msgSend$setAlwaysShowLightContent:
++ _objc_msgSend$setCanAddToTags:
++ _objc_msgSend$setCanConvertToTag:
++ _objc_msgSend$setCanConvertToText:
++ _objc_msgSend$setCanEditChecklistItems:
++ _objc_msgSend$setCanMoveSelectedListItemDown:
++ _objc_msgSend$setCanMoveSelectedListItemUp:
++ _objc_msgSend$setCanScrubNumber:
++ _objc_msgSend$setContextMenuConfiguration:
++ _objc_msgSend$setDelay:
++ _objc_msgSend$setIsDarkModeEnabled:
++ _objc_msgSend$setIsDebugModeEnabled:
++ _objc_msgSend$setIsInTableCell:
++ _objc_msgSend$setIsMarkupEnabled:
++ _objc_msgSend$setIsSharedViaICloud:
++ _objc_msgSend$setKeyEquivalentModifierMask:
++ _objc_msgSend$setMaximumDelay:
++ _objc_msgSend$setPrefersLightBackground:
++ _objc_msgSend$setViewportFractionalOffset:
++ _objc_msgSend$topLeftCharacterRangeInTextView:
++ _objc_msgSend$transcriptAsPlainTextWithoutSpeakerLabels
++ _objc_msgSend$updateSaveDelayerBoundsForFastSync
++ _objc_msgSend$viewportFractionalOffset
++ _symbolic So11NSTextRangeC
++ _symbolic So20NSTextLayoutFragmentCSbIggd_
++ _symbolic So30NSTextViewportLayoutControllerC
++ _symbolic So6NSViewCSo20NSTextLayoutFragmentCSo0B7ElementCIgggg_
++ _symbolic _____yAAyAAy__________y_____SgGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA017HierarchicalShapeL0V AA023AccessibilityAttachmentI0V
++ _symbolic _____yAAyAAy__________y_____SgGG_____y_____GG_____G______t 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA017HierarchicalShapeL0V AA023AccessibilityAttachmentI0V AA4TextV
++ _symbolic _____yAAy__________y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA017HierarchicalShapeL0V
++ _symbolic _____yAAy_____yAAyAAyAAy_____y_____G_____G_____y_____GG_____G_Qo_AGy_____SgGGAEG 7SwiftUI15ModifiedContentV AA4ViewPAAE23toolbarTitleDisplayModeyQrAA07ToolbarghI0VFQO AA01_e9Modifier_D0V 11NotesEditor016ErrorPlaceHoldereK0V AA14_PaddingLayoutV AA022_EnvironmentKeyWritingK0V AA13TextAlignmentO AA010_FlexFrameR0V AA5ColorV
++ _symbolic _____y___________y_____yADyADy__________y_____SgGG_____y_____GG_____G______QPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleO0V AA017HierarchicalShapeR0V AA023AccessibilityAttachmentO0V AA4TextV
++ _symbolic _____y___________y_____y_____y_____yAEyAEy__________y_____SgGG_____y_____GG_____G______QPGG_Qo_G 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA0D0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA12TupleContentV AA08ModifiedP0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleV0V AA017HierarchicalShapeY0V AA0k10AttachmentV0V AA4TextV
++ _symbolic _____y_____yAAyAAyAAy_____y_____G_____G_____y_____GG_____G_Qo_AGy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE23toolbarTitleDisplayModeyQrAA07ToolbarghI0VFQO AA01_e9Modifier_D0V 11NotesEditor016ErrorPlaceHoldereK0V AA14_PaddingLayoutV AA022_EnvironmentKeyWritingK0V AA13TextAlignmentO AA010_FlexFrameR0V AA5ColorV
++ _symbolic _____y_____y_____yACyACy__________y_____SgGG_____y_____GG_____G______QPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleK0V AA017HierarchicalShapeN0V AA023AccessibilityAttachmentK0V AA4TextV
++ _symbolic _____y_____y_____y_____y_____yAAyAAyAAy__________y_____SgGG_____y_____GG_____G______QPGG_Qo_G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleS0V AA017HierarchicalShapeV0V AA0j10AttachmentS0V AA4TextV 11NotesEditor016ErrorPlaceHolderfS0V
++ _symbolic _____y_____y_____y_____y_____yADyADy__________y_____SgGG_____y_____GG_____G______QPGG_Qo_G 7SwiftUI6ZStackV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA12TupleContentV AA08ModifiedM0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleS0V AA017HierarchicalShapeV0V AA0h10AttachmentS0V AA4TextV
++ get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA6VStackVyAA05TupleD0VyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA016_ForegroundStyleS0VyAA017HierarchicalShapeV0VGGAA0j10AttachmentS0VG_AA4TextVQPGG_Qo_G11NotesEditor016ErrorPlaceHolderfS0VGAaFHPA11_AaFHPyHC_A14_AA0fS0HPyHCHC.63
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE23toolbarTitleDisplayModeyQrAA07ToolbarghI0VFQOyACyACyACyAA01_e9Modifier_D0Vy11NotesEditor016ErrorPlaceHoldereK0VGAA14_PaddingLayoutVGAA022_EnvironmentKeyWritingK0VyAA13TextAlignmentOGGAA010_FlexFrameR0VG_Qo_ASyAA5ColorVSgGGAPGAaDHPA4_AaDHPqd__AaDHD2_A_HO_A3_AA0eK0HPyHCHC_ApAA6_HPyHCHC.76
+- -[ICMNoteEditorController _openLinkFromMenu:]
+- -[ICMNoteEditorController _performStandardShareMenuItem:]
+- -[ICMNoteEditorController addToTagsMenuItem]
+- -[ICMNoteEditorController attributionSidebarMenuItem]
+- -[ICMNoteEditorController checklistMenuItem]
+- -[ICMNoteEditorController convertLinkToAttachmentMenuItem]
+- -[ICMNoteEditorController convertToTagMenuItem]
+- -[ICMNoteEditorController convertToTextMenuItem]
+- -[ICMNoteEditorController dividerLineMenuItem]
+- -[ICMNoteEditorController editChecklistMenuItem]
+- -[ICMNoteEditorController fontMenuItem]
+- -[ICMNoteEditorController insertAddToTagsMenuItemIntoMenu:]
+- -[ICMNoteEditorController insertAudioAttachmentMenuItemIntoMenu:]
+- -[ICMNoteEditorController insertAudioAttachmentMenuItemIntoMenu:].cold.1
+- -[ICMNoteEditorController insertConvertLinkToAttachmentMenuItemIntoMenuIfNecessary:]
+- -[ICMNoteEditorController insertConvertToTagMenuItemIntoMenu:]
+- -[ICMNoteEditorController insertConvertToTextMenuItemIntoMenu:]
+- -[ICMNoteEditorController insertDebugItemsInMenu:textView:atIndex:]
+- -[ICMNoteEditorController insertDrawingAttachmentMenuItemIntoMenu:]
+- -[ICMNoteEditorController insertForceLightContentIntoMenuIfNecessary:]
+- -[ICMNoteEditorController insertLinkMenuItemIntoMenu:]
+- -[ICMNoteEditorController insertOpenLinkMenuItemIntoMenu:]
+- -[ICMNoteEditorController insertParagraphStylesMenuItemIntoMenu:]
+- -[ICMNoteEditorController insertScrubMenuItemIntoMenu:]
+- -[ICMNoteEditorController insertToggleAttributionSidebarMenuItemIntoMenu:]
+- -[ICMNoteEditorController insertToggleAttributionSidebarMenuItemIntoMenu:].cold.1
+- -[ICMNoteEditorController linkMenuItem]
+- -[ICMNoteEditorController moveChecklistMenuItem]
+- -[ICMNoteEditorController openLinkInNewWindowMenuItem]
+- -[ICMNoteEditorController openLinkMenuItem]
+- -[ICMNoteEditorController paragraphStylesMenuItem]
+- -[ICMNoteEditorController replaceFontMenuItemInMenu:]
+- -[ICMNoteEditorController scrubMenuItem]
+- -[ICMNoteEditorController setAddToTagsMenuItem:]
+- -[ICMNoteEditorController setAttributionSidebarMenuItem:]
+- -[ICMNoteEditorController setChecklistMenuItem:]
+- -[ICMNoteEditorController setConvertLinkToAttachmentMenuItem:]
+- -[ICMNoteEditorController setConvertToTagMenuItem:]
+- -[ICMNoteEditorController setConvertToTextMenuItem:]
+- -[ICMNoteEditorController setDividerLineMenuItem:]
+- -[ICMNoteEditorController setEditChecklistMenuItem:]
+- -[ICMNoteEditorController setFontMenuItem:]
+- -[ICMNoteEditorController setIconsForSystemLinkMenuItems:]
+- -[ICMNoteEditorController setLinkMenuItem:]
+- -[ICMNoteEditorController setMoveChecklistMenuItem:]
+- -[ICMNoteEditorController setOpenLinkInNewWindowMenuItem:]
+- -[ICMNoteEditorController setOpenLinkMenuItem:]
+- -[ICMNoteEditorController setParagraphStylesMenuItem:]
+- -[ICMNoteEditorController setScrubMenuItem:]
+- -[ICMNoteEditorController setStyleView:]
+- -[ICMNoteEditorController setTableMenuItem:]
+- -[ICMNoteEditorController setToggleTodoDoneMenuItem:]
+- -[ICMNoteEditorController styleView]
+- -[ICMNoteEditorController tableMenuItem]
+- -[ICMNoteEditorController toggleTodoDoneMenuItem]
+- -[ICMTK2NoteEditorController awakeFromNib]
+- -[ICTK2MacTextView textViewportLayoutController:didLayoutTextViewportElement:]
+- .compoundliteral.1953
+- .compoundliteral.1955
+- .compoundliteral.1957
+- .compoundliteral.1959
+- GCC_except_table153
+- GCC_except_table168
+- GCC_except_table169
+- GCC_except_table198
+- GCC_except_table227
+- GCC_except_table290
+- GCC_except_table295
+- GCC_except_table315
+- GCC_except_table354
+- GCC_except_table403
+- GCC_except_table431
+- GCC_except_table436
+- GCC_except_table438
+- GCC_except_table441
+- OBJC_IVAR_$_ICMNoteEditorController._addToTagsMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._attributionSidebarMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._checklistMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._convertLinkToAttachmentMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._convertToTagMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._convertToTextMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._dividerLineMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._editChecklistMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._fontMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._linkMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._moveChecklistMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._openLinkInNewWindowMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._openLinkMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._paragraphStylesMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._scrubMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._styleView
+- OBJC_IVAR_$_ICMNoteEditorController._tableMenuItem
+- OBJC_IVAR_$_ICMNoteEditorController._toggleTodoDoneMenuItem
+- __32-[ICMacTextView copyAsMarkdown:]_block_invoke.450
+- __35-[ICMNoteEditorController setNote:]_block_invoke.701
+- __38-[ICMacTextView performDragOperation:]_block_invoke.330
+- __41-[ICMNoteEditorController setInvitation:]_block_invoke.713
+- __41-[ICMNoteEditorController setInvitation:]_block_invoke.719
+- __41-[ICMNoteEditorController setInvitation:]_block_invoke_2.715
+- __41-[ICMNoteEditorController setInvitation:]_block_invoke_2.720
+- __45-[ICTableAttachmentViewController copyTable:]_block_invoke.121
+- __46-[ICTableAttachmentViewController updateTiles]_block_invoke.62
+- __47-[ICMTK2NoteEditorController updateTextStorage]_block_invoke.26
+- __50-[ICTableAttachmentViewController applyUndoGroup:]_block_invoke.124
+- __52-[ICMNoteEditorController insertScanFromPasteboard:]_block_invoke.575
+- __52-[ICMNoteEditorController insertScanFromPasteboard:]_block_invoke_2.576
+- __62-[ICMNoteEditorController didInvokePasteWithAttributedString:]_block_invoke.851
+- __64-[ICTableAttachmentViewController flashAuthorHighlightsIfNeeded]_block_invoke.272
+- __66-[ICTableAttachmentViewController moveCurrentColumnOrRow:toIndex:]_block_invoke.185
+- __66-[ICTableAttachmentViewController moveCurrentColumnOrRow:toIndex:]_block_invoke.188
+- __69-[ICTableAttachmentViewController dragMovedOnColumnOrRow:atLocation:]_block_invoke.176
+- __69-[ICTableAttachmentViewController dragMovedOnColumnOrRow:atLocation:]_block_invoke.180
+- __69-[ICTableAttachmentViewController dragMovedOnColumnOrRow:atLocation:]_block_invoke.181
+- __69-[ICTableAttachmentViewController dragMovedOnColumnOrRow:atLocation:]_block_invoke_2.177
+- __69-[ICTableAttachmentViewController dragMovedOnColumnOrRow:atLocation:]_block_invoke_2.182
+- __71-[ICMNoteEditorController presentRecordingStoppedAlertForNoteIfNeeded:]_block_invoke.750
+- __71-[ICMNoteEditorController showOrHidePasswordScreenIfNecessaryAnimated:]_block_invoke.774
+- __80-[ICMNoteEditorController textView:shouldChangeTextInRanges:replacementStrings:]_block_invoke.451
+- __88-[ICTableAttachmentViewController setSelectionBIUSStyle:toggleOn:onValue:withSelection:]_block_invoke.208
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSTextViewportLayoutObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSTextViewportLayoutObserver
+- __OBJC_$_PROTOCOL_REFS_NSTextViewportLayoutObserver
+- __OBJC_CLASS_PROTOCOLS_$_ICTK2MacTextView
+- __OBJC_LABEL_PROTOCOL_$_NSTextViewportLayoutObserver
+- __OBJC_PROTOCOL_$_NSTextViewportLayoutObserver
+- __block_literal_global.228
+- __block_literal_global.242
+- __block_literal_global.333
+- __block_literal_global.336
+- __block_literal_global.683
+- __block_literal_global.76
+- __block_literal_global.829
+- __swift_closure_destructor.28Tm
+- _objc_msgSend$deviceIsMac
+- _objc_msgSend$fontMenuItem
+- _objc_msgSend$insertAudioAttachmentMenuItemIntoMenu:
+- _objc_msgSend$insertDebugItemsInMenu:textView:atIndex:
+- _objc_msgSend$insertDrawingAttachmentMenuItemIntoMenu:
+- _objc_msgSend$insertLinkMenuItemIntoMenu:
+- _symbolic _____yAAyAAy_____yAAyAAyAAy_____y_____G_____G_____y_____GG_____G_Qo_AGy_____GGAGy_____SgGGAEG 7SwiftUI15ModifiedContentV AA4ViewPAAE23toolbarTitleDisplayModeyQrAA07ToolbarghI0VFQO AA01_e9Modifier_D0V 11NotesEditor016ErrorPlaceHoldereK0V AA14_PaddingLayoutV AA022_EnvironmentKeyWritingK0V AA13TextAlignmentO AA010_FlexFrameR0V AA0D12SizeCategoryO AA5ColorV
+- _symbolic _____yAAy_____yAAyAAyAAy_____y_____G_____G_____y_____GG_____G_Qo_AGy_____GGAGy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE23toolbarTitleDisplayModeyQrAA07ToolbarghI0VFQO AA01_e9Modifier_D0V 11NotesEditor016ErrorPlaceHoldereK0V AA14_PaddingLayoutV AA022_EnvironmentKeyWritingK0V AA13TextAlignmentO AA010_FlexFrameR0V AA0D12SizeCategoryO AA5ColorV
+- _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA19ContentSizeCategoryO
+- _symbolic _____y_____yAAyAAyAAy_____y_____G_____G_____y_____GG_____G_Qo_AGy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE23toolbarTitleDisplayModeyQrAA07ToolbarghI0VFQO AA01_e9Modifier_D0V 11NotesEditor016ErrorPlaceHoldereK0V AA14_PaddingLayoutV AA022_EnvironmentKeyWritingK0V AA13TextAlignmentO AA010_FlexFrameR0V AA0D12SizeCategoryO
+- _symbolic _____y_____y_____y_____yAAyAAy__________y_____SgGG_____y_____GG______QPGGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA6VStackV AA05TupleD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleL0V AA017HierarchicalShapeO0V AA4TextV 11NotesEditor020ErrorPlaceHolderViewL0V
+- _symbolic _____y_____y_____y_____yADy__________y_____SgGG_____y_____GG______QPGGG 7SwiftUI6ZStackV AA6VStackV AA12TupleContentV AA08ModifiedF0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleL0V AA017HierarchicalShapeO0V AA4TextV
+- block_copy_helper.22
+- block_descriptor.24
+- block_destroy_helper.23
+- get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA6VStackVyAA05TupleD0VyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA016_ForegroundStyleL0VyAA017HierarchicalShapeO0VGG_AA4TextVQPGGG11NotesEditor020ErrorPlaceHolderViewL0VGAA0X0HPA1_AAA6_HPyHC_A4_AA0xL0HPyHCHC.63
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4ViewPAAE23toolbarTitleDisplayModeyQrAA07ToolbarghI0VFQOyACyACyACyAA01_e9Modifier_D0Vy11NotesEditor016ErrorPlaceHoldereK0VGAA14_PaddingLayoutVGAA022_EnvironmentKeyWritingK0VyAA13TextAlignmentOGGAA010_FlexFrameR0VG_Qo_ASyAA0D12SizeCategoryOGGASyAA5ColorVSgGGAPGAaDHPA8_AaDHPA3_AaDHPqd__AaDHD2_A_HO_A2_AA0eK0HPyHCHC_A7_AAA10_HPyHCHC_ApAA10_HPyHCHC.80
+CStrings:
++ "\"\xf1\xb11R\x81"
++ "'"
++ "/AppleInternal/Library/BuildRoots/4~CR7GugAZ4dDM9FM4jXPYAlehjmEPPVDZz6JVIbc/Library/Caches/com.apple.xbs/TemporaryDirectory.S8KEVx/Sources/Notes/Ironcade/Mac/Printing/ICMPrintPanelAccessoryController.m"
++ "/AppleInternal/Library/BuildRoots/4~CR7GugAZ4dDM9FM4jXPYAlehjmEPPVDZz6JVIbc/Library/Caches/com.apple.xbs/TemporaryDirectory.S8KEVx/Sources/Notes/Ironcade/Mac/UI/Autocomplete Suggestions/ICAutoCompleteSuggestionsTableCellView.m"
++ "/AppleInternal/Library/BuildRoots/4~CR7GugAZ4dDM9FM4jXPYAlehjmEPPVDZz6JVIbc/Library/Caches/com.apple.xbs/TemporaryDirectory.S8KEVx/Sources/Notes/Ironcade/Mac/UI/ICMPasswordEntryViewController.m"
++ "/AppleInternal/Library/BuildRoots/4~CR7GugAZ4dDM9FM4jXPYAlehjmEPPVDZz6JVIbc/Library/Caches/com.apple.xbs/TemporaryDirectory.S8KEVx/Sources/Notes/Ironcade/Mac/UI/ICMTextStylesTouchBarController.m"
++ "/AppleInternal/Library/BuildRoots/4~CR7GugAZ4dDM9FM4jXPYAlehjmEPPVDZz6JVIbc/Library/Caches/com.apple.xbs/TemporaryDirectory.S8KEVx/Sources/Notes/NotesEditor/Author Attributions/Layout/ICAttributionLayoutManager.m"
++ "/AppleInternal/Library/BuildRoots/4~CR7GugAZ4dDM9FM4jXPYAlehjmEPPVDZz6JVIbc/Library/Caches/com.apple.xbs/TemporaryDirectory.S8KEVx/Sources/Notes/NotesEditor/TextAttachmentUI/ICTK2TextLayoutManager.m"
++ "/AppleInternal/Library/BuildRoots/4~CR7GugAZ4dDM9FM4jXPYAlehjmEPPVDZz6JVIbc/Library/Caches/com.apple.xbs/TemporaryDirectory.S8KEVx/Sources/Notes/NotesEditor/TextAttachmentUI/ICTK2TodoTextAttachmentViewProvider.m"
++ "/AppleInternal/Library/BuildRoots/4~CR7GugAZ4dDM9FM4jXPYAlehjmEPPVDZz6JVIbc/Library/Caches/com.apple.xbs/TemporaryDirectory.S8KEVx/Sources/Notes/NotesEditor/TextAttachmentUI/TextBased/Tables/ICMacTableAttachmentViewController.m"
++ "/AppleInternal/Library/BuildRoots/4~CR7GugAZ4dDM9FM4jXPYAlehjmEPPVDZz6JVIbc/Library/Caches/com.apple.xbs/TemporaryDirectory.S8KEVx/Sources/Notes/NotesEditor/TextAttachmentUI/TextBased/Tables/ICTableColumnTextView_macOS.m"
++ "/AppleInternal/Library/BuildRoots/4~CR7GugAZ4dDM9FM4jXPYAlehjmEPPVDZz6JVIbc/Library/Caches/com.apple.xbs/TemporaryDirectory.S8KEVx/Sources/Notes/NotesEditor/Utilities/ICNoteDateFormatterController.m"
++ "/AppleInternal/Library/BuildRoots/4~CR7GugAZ4dDM9FM4jXPYAlehjmEPPVDZz6JVIbc/Library/Caches/com.apple.xbs/TemporaryDirectory.S8KEVx/Sources/Notes/NotesEditor/macOS/ICMNoteEditorController.m"
++ "7"
++ "8"
++ "9"
++ "Add Link"
++ "Add to Tags"
++ "Attachments"
++ "B"
++ "Body"
++ "Bulleted List"
++ "Check All"
++ "Convert to Tag"
++ "Dashed List"
++ "Delete Checked"
++ "Down"
++ "Font"
++ "H"
++ "Heading"
++ "Insert Divider Line"
++ "J"
++ "L"
++ "M"
++ "Monostyled"
++ "More"
++ "Move Checked to Bottom"
++ "Move Item"
++ "Numbered List"
++ "Open Note in New Window"
++ "Paragraph Styles"
++ "Show Link Preview"
++ "Subheading"
++ "T"
++ "Title"
++ "U"
++ "Uncheck All"
++ "Up"
++ "Writing Tools"
++ "com.apple.notes.context-menu.attachments"
++ "insert-divider-line"
++ "k"
++ "l"
++ "number"
++ "photo"
++ "rectangle.badge.plus"
++ "t"
++ "text.line.2.summary"
++ "textformat"
+- "!self.paragraphStylesMenuItem.menu"
+- "\"\xf0\xe11\xf0!\"\x81"
+- "-[ICMNoteEditorController insertParagraphStylesMenuItemIntoMenu:]"
+- "-[ICMNoteEditorController replaceFontMenuItemInMenu:]"
+- "/AppleInternal/Library/BuildRoots/4~CQMqugDXJ1z-tZJVokD807SzaPJQ4lPCAZ_7PU4/Library/Caches/com.apple.xbs/TemporaryDirectory.fR0r0j/Sources/Notes/Ironcade/Mac/Printing/ICMPrintPanelAccessoryController.m"
+- "/AppleInternal/Library/BuildRoots/4~CQMqugDXJ1z-tZJVokD807SzaPJQ4lPCAZ_7PU4/Library/Caches/com.apple.xbs/TemporaryDirectory.fR0r0j/Sources/Notes/Ironcade/Mac/UI/Autocomplete Suggestions/ICAutoCompleteSuggestionsTableCellView.m"
+- "/AppleInternal/Library/BuildRoots/4~CQMqugDXJ1z-tZJVokD807SzaPJQ4lPCAZ_7PU4/Library/Caches/com.apple.xbs/TemporaryDirectory.fR0r0j/Sources/Notes/Ironcade/Mac/UI/ICMPasswordEntryViewController.m"
+- "/AppleInternal/Library/BuildRoots/4~CQMqugDXJ1z-tZJVokD807SzaPJQ4lPCAZ_7PU4/Library/Caches/com.apple.xbs/TemporaryDirectory.fR0r0j/Sources/Notes/Ironcade/Mac/UI/ICMTextStylesTouchBarController.m"
+- "/AppleInternal/Library/BuildRoots/4~CQMqugDXJ1z-tZJVokD807SzaPJQ4lPCAZ_7PU4/Library/Caches/com.apple.xbs/TemporaryDirectory.fR0r0j/Sources/Notes/NotesEditor/Author Attributions/Layout/ICAttributionLayoutManager.m"
+- "/AppleInternal/Library/BuildRoots/4~CQMqugDXJ1z-tZJVokD807SzaPJQ4lPCAZ_7PU4/Library/Caches/com.apple.xbs/TemporaryDirectory.fR0r0j/Sources/Notes/NotesEditor/TextAttachmentUI/ICTK2TextLayoutManager.m"
+- "/AppleInternal/Library/BuildRoots/4~CQMqugDXJ1z-tZJVokD807SzaPJQ4lPCAZ_7PU4/Library/Caches/com.apple.xbs/TemporaryDirectory.fR0r0j/Sources/Notes/NotesEditor/TextAttachmentUI/ICTK2TodoTextAttachmentViewProvider.m"
+- "/AppleInternal/Library/BuildRoots/4~CQMqugDXJ1z-tZJVokD807SzaPJQ4lPCAZ_7PU4/Library/Caches/com.apple.xbs/TemporaryDirectory.fR0r0j/Sources/Notes/NotesEditor/TextAttachmentUI/TextBased/Tables/ICMacTableAttachmentViewController.m"
+- "/AppleInternal/Library/BuildRoots/4~CQMqugDXJ1z-tZJVokD807SzaPJQ4lPCAZ_7PU4/Library/Caches/com.apple.xbs/TemporaryDirectory.fR0r0j/Sources/Notes/NotesEditor/TextAttachmentUI/TextBased/Tables/ICTableColumnTextView_macOS.m"
+- "/AppleInternal/Library/BuildRoots/4~CQMqugDXJ1z-tZJVokD807SzaPJQ4lPCAZ_7PU4/Library/Caches/com.apple.xbs/TemporaryDirectory.fR0r0j/Sources/Notes/NotesEditor/Utilities/ICNoteDateFormatterController.m"
+- "/AppleInternal/Library/BuildRoots/4~CQMqugDXJ1z-tZJVokD807SzaPJQ4lPCAZ_7PU4/Library/Caches/com.apple.xbs/TemporaryDirectory.fR0r0j/Sources/Notes/NotesEditor/macOS/ICMNoteEditorController.m"
+- "Cannot find 'Add Table' menu item for Attribution Sidebar menu item insertion"
+- "Cannot find 'Add Table' menu item for Audio Recording menu item insertion"
+- "Cannot find 'Font' menu item for Font menu item replacement"
+- "Cannot find 'Paste' menu item for Paragraph Styles menu item insertion"
+- "Trying to add paragraph style menu item to a menu, but it is already added to another menu"
+- "_UITextLayoutFragmentView"
+- "insertionIndex >= 0"
+- "replacementIndex >= 0"
+- "text.line.3.summary"
+
+```

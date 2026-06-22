@@ -1,0 +1,64 @@
+## libMainThreadChecker.dylib
+
+> `/usr/lib/libMainThreadChecker.dylib`
+
+```diff
+
+-64578.47.1.0.0
+-  __TEXT.__text: 0x41f90 sha256:f90134629eb89c52c433d7d046c083f867ae07dca194826c13a8027e2a15ae3b
++64578.53.1.0.0
++  __TEXT.__text: 0x41f7c sha256:73ee4a7faa9e1cf292ca037e4ffb2f0b26d9af871b04f2fe1ea49d7df29430fd
+   __TEXT.__auth_stubs: 0x4d0 sha256:668bbf44a2e2557ad58c01434aa15a5da127164812f6508e64d4f06c2674318c
+-  __TEXT.__init_offsets: 0x4 sha256:ab655a14886ca4321a97dcf6ee347b4d003d55cde9d2cea205d2825834f0a5e1
+-  __TEXT.__const: 0xd8 sha256:d6427dc9990125aea25fab222b5ebc3b09d24acf5b637974784a60417db3b1b1
++  __TEXT.__init_offsets: 0x4 sha256:2eae9aac27a00f92326afdb49ca2f147fd543339bc3ef7c51bef529cba2fedd8
++  __TEXT.__const: 0xd8 sha256:a958bb1ba7093073e9898d827adb5feec6c92d38e1c4c669c897ffb867a0db8e
+   __TEXT.__cstring: 0x9ee sha256:1c4ded190bfaedf6a449478a7e63bec0f84341da612a418f2d5f530befdde353
+   __TEXT.__oslogstring: 0x3 sha256:2f3a3f9b55f5df846abf81c7d13ff74998bdda8664df664173220675150020ff
+-  __TEXT.__unwind_info: 0xe8 sha256:201af7d03ccfb7b5aaed57ef3a8d7299de8a58910bee26fa2b5155c6ed5e2519
+-  __DATA_CONST.__const: 0x118 sha256:9a7d292c194e07a00ce322e0eb46c4d7deeaf8079a685305440800f9e45bde47
+-  __DATA_CONST.__cfstring: 0x20 sha256:efa49ca6411dbba5fdf03376841c7dc6e37b186d8d04273afb1d76f8d69c90ba
++  __TEXT.__unwind_info: 0xe0 sha256:be3873b4ec01796140c87f4c6045ab3aa8da4d4bd895a7ef27626a69e8e5bbf8
++  __DATA_CONST.__const: 0x118 sha256:0fe967ca6237c7d8a8ac68159cc3c9f62a4d80510cd030a701ed8b1ee55c24ef
++  __DATA_CONST.__cfstring: 0x20 sha256:b99be9341ac976261fdba212d60aba242b6bcd16607a5187072f50cc22e35436
+   __DATA_CONST.__auth_got: 0x268 sha256:1cdda04f957dae89144229e8d0dcd6158219de8346cefeb3c6ec1cef0915cdc4
+   __DATA_CONST.__got: 0x30 sha256:30ee0c93d7d9d37061aa15fb0d550db11f6607571898521cf6e06f4a2acb6895
+   __DATA_CONST.__auth_ptr: 0x8 sha256:2b348986cc328e9657a0c83d490734cccf16b6b56f66e63689c165eb43c705af
+   __DATA.__data: 0x10 sha256:9190d4697a0379aa9f3730c02d6026fac5da387c7bbc0801a230f35d6924f5f1
+-  __DATA.__bss: 0x1000e0 sha256:38aebff573ba42b7901f2c13cd36413941bfdb2777b26fb507d5d593ccac88dd
++  __DATA.__bss: 0x1000e0 sha256:e14a75aa7bc9f75f7a68db29bfbd529cd890516f04e803642435ecbb818fa3ac
+   __DATA.__common: 0x20
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 15D4C8DD-C774-3A15-BB61-E9591D3688A9
++  UUID: CC0EF68E-C4E8-3CFF-BED9-6E455E8FBA43
+   Functions: 32
+   Symbols:   158
+   CStrings:  121
+Functions:
+~ _handler_start : sha256 eb0203eb4b04b04a681858516590d0d16f3d404afbae20dfdde154d6c98c9032 -> 02aeb04ee3c018a3f4a956e9e8273e91ef1ba89753d92fc75a6b76a283e3fc12
+~ _resetDyldInsertLibraries : 436 -> 424
+~ ___main_thread_checker_suppression_begin : sha256 4bddeaca95dfb12942e86ce14204f9fafacd85cf8fea227b7fb55d9d2932fc89 -> 6b7dc7d24830ad9991343ff1eadf7467577154bb52ec90fd24bd4fb5c95167bd
+~ _GetThreadLocalData : sha256 0f74d28c4ea8f28349b23f9ffbd66b3a652ebc5b2b4d13cf8b1ea8531940081c -> d769f36d5a35e1d481d6f1ddf6506d18c169c029fc36aadb98b8786808127a49
+~ ___main_thread_checker_suppression_end : sha256 c0f574dd896d33f8f967160a55c93cc397f0bee1d5600a5940e0d288d1c00caf -> 2a23f3499010ef721212eaec110a1b94d921ffadd3ade283b1ab04c124bb7e69
+~ ___ASSERT_API_MUST_BE_CALLED_FROM_MAIN_THREAD_FAILED__ : sha256 97f0b2119edb26b3e4ab3ef12dc5e3f0df442197ae3a9b961735938cb02e759c -> 9ed02411b3c2b9eb4d5ea6efbb7b4f28927fb37797826b9892de4e27a78ae204
+~ _____ASSERT_API_MUST_BE_CALLED_FROM_MAIN_THREAD_FAILED___block_invoke : sha256 610e8306211e4939de97fa470ae349d3f97b56138bcd19216aeb529f347f098e -> 98f48c15e9f0aff5a9032e920e517fdd57cd43332e46bb0192a9967d850773d4
+~ ___library_initializer : 2352 -> 2348
+~ _DefinedIn : sha256 6884bf4112884c36635c3c3d256e9678c7d421cdbedd1b65bfd4723f6bd21c22 -> 19ecaed93fb9c887a46edb61c91879b6fae8180df59bd4ad315c6bb54c68ff05
+~ _checker_c : sha256 aaaceae5463fe2751c641675dcd558aa4b926cf20cf4c279faac46f161f01104 -> d69993b4b691d60a38cae9d9bc182525e64ba7e3822d603752184847df1297eb
+~ _ma_GrowCapacity : sha256 410913b09a679bac87e253bc092a8f944472a53ac29ffd83d23665d6359cea71 -> 2e335bddc9535c752450a997e2ad9453f5fc9fe5502dc155d3f7cc17891f0477
+~ _SwizzleClasses : 1400 -> 1392
+~ _____library_initializer_block_invoke : sha256 f83209efd32beb0e91f0dff817eeb3fe92691757ab5c9d87ba106fa4d702e0b6 -> 94d97346bdcf987d0c1290cfd73180cd7ce5052724773dd6757ed196801cc28d
+~ ___main_thread_add_check_for_selector : sha256 ec1d33a9d37e1e9c424055a941eb5b51e2e66e60c2a6d8e1598d5f06adabd19e -> 5550d5d3b6c348952695774fc11dc0de5330e23cf5327f5ba648eab8db895331
+~ _prepareSwizzler : sha256 279aa8b3d00e68e4599236f0c208f8e7b6115b1c08eb42407cb3228b21ecbd59 -> cd7fb81ee0815dcea6fac57b32087752f278faebb7339ca922970691e783a162
+~ _OpenSuppressionFileAtDirectory : sha256 32826ba9def939b4ebfb3ee506b283522ff7c0ddff333f90fc1cd8d8c40ff989 -> e148622c1f99083d996268846761acc4f0415156cea157d45b13bb9a0fc9510c
+~ _DetectAppKitNSDocumentAsynchronousSaving : 308 -> 312
+~ _ma_Append : sha256 c81f644625c983d7e90fc0e40f6032d0862e6408c9a51041427eb9d8ccdc83c5 -> fad05ee1f9f675fbd7d9c2d2bf4fe90cef190ed69c668e6b4addd90850019ff8
+~ __main_thread_checker_suppression_begin.cold.1 : sha256 bc835d88e1e73baf8e6119abffe533f5c501132b58f5620e907564c4f16caf6a -> 971d9677b96a80e0ec8ad731ab9d5d0562f218a5850f9a8a3acaad37e01391a2
+~ __main_thread_checker_suppression_end.cold.1 : sha256 96c8306981cb0c45328ae3882a4d2309b23ea87ad8e8f5926df7b33adf01a5f5 -> 2803ce93e9b12bc28f4cd9bfb7015ece68ea630fb64c5bdc8eb2f449edf161e9
+~ __ASSERT_API_MUST_BE_CALLED_FROM_MAIN_THREAD_FAILED__.cold.2 : sha256 e23bcfe02c3296c405a8dd506c9d8ddddad9582a63620688a9541b69cfc60c9b -> 708ad72b33ec14fd7a8ff82389a802df27d4fa942df1a391d179265bbcb4fc43
+~ checker_c.cold.1 : sha256 a623369d370295166c3aeeca64c987566968893a45b5107f3a2385c1d4b5092d -> 59f240fa8dc826f34cfb12bfd85e2ed1783996b4c007bb17ec443d727520bde8
+
+```

@@ -1,0 +1,65 @@
+## libImath.dylib
+
+> `/System/Library/PrivateFrameworks/CoreUSDEdit.framework/Versions/A/Libraries/libImath.dylib`
+
+```diff
+
+-28.0.0.501.1
+-  __TEXT.__text: 0x7838 sha256:6c345548f052e878498efc2fc1640f9d0ae6b4ed7c55db9573660e2ca3f8aad1
++28.0.2.0.5
++  __TEXT.__text: 0x76c4 sha256:fce1df79e51606d19af529f9dbdfe2fbc7500e8a0039509058e7f671029f4203
+   __TEXT.__const: 0x401a0 sha256:439c817443d3e81203be902330d214db97045274af03ea920d42299cf219a3d0
+   __TEXT.__gcc_except_tab: 0x6c sha256:4c91a6c4aced1a1fad18a8276441f5b836fea86dd791bfaa68c7d878a0823e25
+   __TEXT.__cstring: 0xd sha256:d6ed47e24e77e33aca6285c216f03d10026561734411af59c0e2174c57bc40d0
+-  __TEXT.__unwind_info: 0xd8 sha256:54aa2cd0423878f4e4163e6a9fb4a1a45410dbd8fc6f21d537f130c9e6fc9776
++  __TEXT.__unwind_info: 0xd8 sha256:e717b7e3f67907f91cd018a582ed2736f152407317d53c598e2f80b8e5ed7a9e
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__weak_got: 0x8 sha256:93c3ea2c1752dc17d7b5111d1ba66c4e70c2be847efed30d8a24435782faf736
++  __DATA_CONST.__weak_got: 0x8 sha256:355aff58b3c3c53e544b526facd1396f7773b8b0f55b9ef40c403e82fbc00c40
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__weak_auth_got: 0x48 sha256:c67abe36a1615ab07bd3cc8d1e8d896a36db16b96e2a0d15f4630e075b518742
++  __AUTH_CONST.__weak_auth_got: 0x48 sha256:249e6ca4c86ba19caaa7ad669b65e46dac9af389aa15fb77399cb7a2a10b88fa
+   __AUTH_CONST.__auth_got: 0x0
+-  __DATA.__data: 0x8 sha256:7b5a034c1b700764601b50ca678287c527d3af60f7c39b6b73f703fdd5194b2f
++  __DATA.__data: 0x8 sha256:9fc3ed2225f5143c12716b1323bb7a9c22d4270fc5f01145f404f664d7c2e674
+   __DATA.__bss: 0x6 sha256:b0f66adc83641586656866813fd9dd0b8ebb63796075661ba45d1aa8089e1d44
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 6DBD91AF-830F-3502-A3E5-0C7AC949A69A
++  UUID: 8114194F-C7D6-3007-8782-F969F636D3AD
+   Functions: 50
+   Symbols:   72
+   CStrings:  1
+Functions:
+~ __ZlsRNSt3__113basic_ostreamIcNS_11char_traitsIcEEEEN9Imath_3_14halfE : sha256 40ac6168c1e660ce5c06a88f7a03419c7ffbdc7e074788b08de071a89c2746eb -> c1f1d43ad8e5b1843071788d2d347a54c7f01a69624772042ba85b5ceec2f3bd
+~ __ZrsRNSt3__113basic_istreamIcNS_11char_traitsIcEEEERN9Imath_3_14halfE : sha256 8fc537056b00076853a652f4287ff461baf6b85b8a9333164ef4d59e9c280e67 -> ed5763f7ffc884d0cf962033e15ceefefe1426f81e2b2b0698c1e1fc82b484ff
+~ __Z9printBitsPcN9Imath_3_14halfE : sha256 5f4b77d362b8e888203427e95175a2cb72364ceb04eff742dfeabcc0328afe6b -> 51833561d6792cf4daeb88f4ce6264bc641142f97b58892a8dc6ca15b354982e
+~ sub_235fb4878 -> sub_2374c6878 : sha256 6909a0c8ab85a0ac7ce42b70b948f2ad8632feef9cc9d5189586600899c259d7 -> fb363e92c97f9ecb357ee9093b459514aec106c5744d049c107fa80af891b784
+~ sub_235fb488c -> sub_2374c688c : sha256 595b94d8b04c092cb187812fbccca7feba6fa92c25ba26bb76db49775b2d992e -> 888224ba267d1d484b6520c80c06195553f484e80bd97c88f65470dc7ae52c25
+~ sub_235fb4a30 -> sub_2374c6a30 : sha256 fa300ff9ef653baecdce7f2ef04b2cdfe13c000ed936e1ab02ee0115329d1257 -> 78b711757dc182fb008c26ac6b0493daa4a243be9e4d709a396abf4a0aa1f40d
+~ sub_235fb4c1c -> sub_2374c6c1c : sha256 4a7cefc9ec3b744026a1a942836ccd19b9cfebdcc9bc6da1b040ef1311e3372a -> a9883ac8594e1b7d98fe96f6c0bfa383c378614872b2c3c7bed29106385f4c5b
+~ sub_235fb4c34 -> sub_2374c6c34 : sha256 b4b02415f7af245a0af95eeb7f91618b29e82af37b215942f12a66f735a38efe -> 406fedc7798260eba9bb5644f76938484e52df6f6350909c30797610f808b339
+~ sub_235fb4c90 -> sub_2374c6c90 : sha256 d7cdad895cf516a4c58f5f09b5e8854d6f984192c3911fe1c84915034b6646ba -> 778aee0db0bf09039bb1e19b300b0c5f33e4d80148ef11b190a513639b48ff34
+~ __ZN9Imath_3_132procrustesRotationAndTranslationIdEENS_8Matrix44IdEEPKNS_4Vec3IT_EES7_mb : sha256 6d635af468eb103c6d7450f62e8645fa35060e38a380f05a86250a93cf9ac059 -> faa0fb51b6afdd45624df619f65d6a49f60ba4c4294da852a50fde17790cbefe
+~ __ZN9Imath_3_132procrustesRotationAndTranslationIdEENS_8Matrix44IdEEPKNS_4Vec3IT_EES7_PKS4_mb : 3036 -> 3008
+~ __ZN9Imath_3_132procrustesRotationAndTranslationIfEENS_8Matrix44IdEEPKNS_4Vec3IT_EES7_mb : sha256 becb0a688c2992204771f5e0e37d0557249004adb77a60c6890a48f836ee37cf -> aa5435b21b9a1eb7dee781cb963213ac0b69466eaa4e4ccc5b0d16d644eb2b9d
+~ __ZN9Imath_3_132procrustesRotationAndTranslationIfEENS_8Matrix44IdEEPKNS_4Vec3IT_EES7_PKS4_mb : 4096 -> 4112
+~ __ZN9Imath_3_19jacobiSVDIfEEvRKNS_8Matrix33IT_EERS3_RNS_4Vec3IS2_EES6_S2_b : sha256 77ea714dedd37c930ee32759b70b21e2ff2e02fb23af022e3e8dfc6bdde6f375 -> 0e3e050ebef428d060e55a3cc6014da0e76d2af28d655b8f75f51e8a8b0f0bcb
+~ __ZN9Imath_3_19jacobiSVDIfEEvRKNS_8Matrix44IT_EERS3_RNS_4Vec4IS2_EES6_S2_b : 2148 -> 2096
+~ __ZN9Imath_3_19jacobiSVDIdEEvRKNS_8Matrix44IT_EERS3_RNS_4Vec4IS2_EES6_S2_b : 2160 -> 2108
+~ __ZN9Imath_3_117jacobiEigenSolverIfEEvRNS_8Matrix33IT_EERNS_4Vec3IS2_EES4_S2_ : sha256 2973b20f1955e856b11fa32ea2b96e44b6c8303969c9062e18ad157471b6add6 -> 98ba33cf2e8f5d99f81b9fa1db0369d26e11532f0704849e52192e3bafa17016
+~ __ZN9Imath_3_114maxEigenVectorINS_8Matrix33IfEENS_4Vec3IfEEEEvRT_RT0_ : 176 -> 172
+~ __ZN9Imath_3_114maxEigenVectorINS_8Matrix44IfEENS_4Vec4IfEEEEvRT_RT0_ : 228 -> 220
+~ __ZN9Imath_3_114maxEigenVectorINS_8Matrix33IdEENS_4Vec3IdEEEEvRT_RT0_ : 184 -> 180
+~ __ZN9Imath_3_114maxEigenVectorINS_8Matrix44IdEENS_4Vec4IdEEEEvRT_RT0_ : 236 -> 228
+~ __ZN9Imath_3_114minEigenVectorINS_8Matrix33IfEENS_4Vec3IfEEEEvRT_RT0_ : 176 -> 172
+~ __ZN9Imath_3_114minEigenVectorINS_8Matrix44IfEENS_4Vec4IfEEEEvRT_RT0_ : 228 -> 220
+~ __ZN9Imath_3_114minEigenVectorINS_8Matrix33IdEENS_4Vec3IdEEEEvRT_RT0_ : 184 -> 180
+~ __ZN9Imath_3_114minEigenVectorINS_8Matrix44IdEENS_4Vec4IdEEEEvRT_RT0_ : 236 -> 228
+~ sub_235fbae9c -> sub_2374ccdf8 : 1108 -> 1004
+~ sub_235fbb43c -> sub_2374cd330 : 1124 -> 1020
+~ __ZN9Imath_3_17drand48Ev : sha256 be3ac7f96d4c11ad075c5c49da020689966b565e044ecb8b87e658f6cdb4b7f7 -> e9ff78fe5468e5bdf0fe37b489dd30f33d657036b2f45248d3e26de963ac61c4
+~ __ZN9Imath_3_17lrand48Ev : sha256 cca30425d255805ddd0b179e2e035d77f29d28eb0eae273425257a4d4c2fc322 -> 5484ec27e7fdf6432d35051bd9a21a36f043651a96016d325472fe6df9ddb009
+~ __ZN9Imath_3_17srand48El : sha256 5cd57d41b029c3c41ac319d427a49bf20e6c9453406ac424f6cc5d0506dbe717 -> 9afda7fd6522b6aac0a5525a4447adfb4586dc93b3a252da34a6dbb2196c7b80
+
+```

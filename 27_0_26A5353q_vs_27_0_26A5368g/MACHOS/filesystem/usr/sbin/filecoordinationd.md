@@ -1,0 +1,84 @@
+## filecoordinationd
+
+> `/usr/sbin/filecoordinationd`
+
+```diff
+
+-5027.0.51.2.0
+-  __TEXT.__text: 0x170c sha256:0905925c4adc858d6a8d7278b85e55203b987f2c989a60339ce6ded3e3d72f3c
++5027.0.55.1.0
++  __TEXT.__text: 0x1704 sha256:c689747d2f7933e28881403cfecb49054ae048b451bd32bd2a74f4c026b0f26e
+   __TEXT.__auth_stubs: 0x1a0 sha256:f4386972e2609805e5bf12b00aa3661bf201b2b7cef7a12781c863cbaefe1530
+   __TEXT.__objc_stubs: 0x260 sha256:058552035ccd109f80b3c56c705ab4889865aa8393b6bd6edc7707dbfc61b47b
+-  __TEXT.__const: 0x80 sha256:f144624342915a456de7aa17544730650f9bbeb462ce9ce73863339924d134aa
++  __TEXT.__const: 0x80 sha256:ef1f40e81bd7db080bbc9976d60ef286fe12ad9112a6bf657fae2a9d4ee99b87
+   __TEXT.__gcc_except_tab: 0x54 sha256:f722e3b010833a2c733ff6bd8e1900303b428e00641c8a2f7754d0aa4735b807
+   __TEXT.__oslogstring: 0x1e0 sha256:8e3ccf567af65a34b13ed15f6bc80c46bb89a20a09b7d79e27573c88a1fe7725
+   __TEXT.__cstring: 0xf1 sha256:2ca97791ff32d1efad372e858f59a9288c4b69d8f874ff4a1a18b7f31df9e854
+   __TEXT.__objc_methname: 0x29b sha256:fd9cf1d9c74a3ccdc9195a3a63e878c88237bbd932d5c3746735732a5f527036
+-  __TEXT.__unwind_info: 0xd8 sha256:dd39d67de718f0207857ee92ddf85b9385ae83ded5647b10b05658caefb28c7b
+-  __DATA_CONST.__const: 0x220 sha256:e75f3fa35ae3221b7b5576a5c8851e883c3310df3b5a56eceb8b1b79fecab2df
+-  __DATA_CONST.__cfstring: 0x60 sha256:f7f765425199f2691b76a25b42c816784b53523270f6be64280685451d0c9d27
++  __TEXT.__unwind_info: 0xd8 sha256:a9b46f27e15aaf0a6dbec94f52424e0f5ccd97176d47351d6972aece22854701
++  __DATA_CONST.__const: 0x220 sha256:371495ee6ea587acf1d7b6ab9a6307ddf801f8b3028d29b4405a927216b1903b
++  __DATA_CONST.__cfstring: 0x60 sha256:c64d8a7e2c00b13c3cf5fff592acfbc542f71a51957a41d8e4da9af4e6cdb5fb
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__auth_got: 0xe0 sha256:466dc36c9f9470545cbadbd356e8e8a9934aaf7450665881a14547dd3ead5363
+   __DATA_CONST.__got: 0x78 sha256:252cba2fdb4fdcd805c39dbf801e5a3e2442666ac578c50c2175a0712667cc0a
+-  __DATA.__objc_selrefs: 0x98 sha256:f277461828d808ef1479f6d63a0eadec0fe1021fa3b3ecd97646034f2ceabd31
++  __DATA.__objc_selrefs: 0x98 sha256:9ca174a791a7dfbdb8cf50bd4e41d964318bbd7ad8b73c21ecd6e1456108e1e5
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/APFS.framework/Versions/A/APFS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 18A3EBDA-31A4-389D-97A0-0D04D84B0F1C
++  UUID: 84505FC4-73CF-37A1-9C30-11634F6F3E9B
+   Functions: 33
+   Symbols:   271
+   CStrings:  40
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CSIpugCOYoybMZZKP8Ni40ak0u-YlJnDJeh_OfA/Library/Caches/com.apple.xbs/TemporaryDirectory.PVjTf5/Binaries/Foundation/install/TempContent/Objects/Foundation.build/FileCoordinationDaemon.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/4~CSIpugCOYoybMZZKP8Ni40ak0u-YlJnDJeh_OfA/Library/Caches/com.apple.xbs/TemporaryDirectory.PVjTf5/Binaries/Foundation/install/TempContent/Objects/Foundation.build/FileCoordinationDaemon.build/DerivedSources/arm64e/
++ /AppleInternal/Library/BuildRoots/4~CSIpugCOYoybMZZKP8Ni40ak0u-YlJnDJeh_OfA/Library/Caches/com.apple.xbs/TemporaryDirectory.PVjTf5/Binaries/Foundation/install/TempContent/Objects/Foundation.build/FileCoordinationDaemon.build/Objects-normal/arm64e/FCMain.o
++ /AppleInternal/Library/BuildRoots/4~CSIpugCOYoybMZZKP8Ni40ak0u-YlJnDJeh_OfA/Library/Caches/com.apple.xbs/TemporaryDirectory.PVjTf5/Binaries/Foundation/install/TempContent/Objects/Foundation.build/FileCoordinationDaemon.build/Objects-normal/arm64e/filecoordinationd_vers.o
++ /AppleInternal/Library/BuildRoots/4~CSIpugCOYoybMZZKP8Ni40ak0u-YlJnDJeh_OfA/Library/Caches/com.apple.xbs/TemporaryDirectory.PVjTf5/Binaries/Foundation/install/TempContent/Objects/Foundation.build/FileCoordinationDaemon.build/Objects-normal/arm64e/vfs_nspaceServer.o
++ /AppleInternal/Library/BuildRoots/4~CSIpugCOYoybMZZKP8Ni40ak0u-YlJnDJeh_OfA/Library/Caches/com.apple.xbs/TemporaryDirectory.PVjTf5/Sources/Foundation/Foundation/FileCoordination.subproj/
+- /AppleInternal/Library/BuildRoots/4~CQGCugA3sRQjx0q32iNXKKIzYImTqBFC-XJsJxc/Library/Caches/com.apple.xbs/TemporaryDirectory.I97cQq/Binaries/Foundation/install/TempContent/Objects/Foundation.build/FileCoordinationDaemon.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/4~CQGCugA3sRQjx0q32iNXKKIzYImTqBFC-XJsJxc/Library/Caches/com.apple.xbs/TemporaryDirectory.I97cQq/Binaries/Foundation/install/TempContent/Objects/Foundation.build/FileCoordinationDaemon.build/DerivedSources/arm64e/
+- /AppleInternal/Library/BuildRoots/4~CQGCugA3sRQjx0q32iNXKKIzYImTqBFC-XJsJxc/Library/Caches/com.apple.xbs/TemporaryDirectory.I97cQq/Binaries/Foundation/install/TempContent/Objects/Foundation.build/FileCoordinationDaemon.build/Objects-normal/arm64e/FCMain.o
+- /AppleInternal/Library/BuildRoots/4~CQGCugA3sRQjx0q32iNXKKIzYImTqBFC-XJsJxc/Library/Caches/com.apple.xbs/TemporaryDirectory.I97cQq/Binaries/Foundation/install/TempContent/Objects/Foundation.build/FileCoordinationDaemon.build/Objects-normal/arm64e/filecoordinationd_vers.o
+- /AppleInternal/Library/BuildRoots/4~CQGCugA3sRQjx0q32iNXKKIzYImTqBFC-XJsJxc/Library/Caches/com.apple.xbs/TemporaryDirectory.I97cQq/Binaries/Foundation/install/TempContent/Objects/Foundation.build/FileCoordinationDaemon.build/Objects-normal/arm64e/vfs_nspaceServer.o
+- /AppleInternal/Library/BuildRoots/4~CQGCugA3sRQjx0q32iNXKKIzYImTqBFC-XJsJxc/Library/Caches/com.apple.xbs/TemporaryDirectory.I97cQq/Sources/Foundation/Foundation/FileCoordination.subproj/
+Functions:
+~ _receive_vfs_resolve_dir_with_audit_token : sha256 75947045d9996a07ff7e53243122f3ffcb5d2500b46a47b81e079a0b4c1f27da -> 31dc1bab895afffa8aeb1864c8972b9abf66d25438a0dd943a5bbc4de88e2437
+~ _make_nspace_handle_response : sha256 6edf331439c950bfaac9c309c70e06649d8be0cb4125fbdf49deebff42606e98 -> 0686d6b8fde5539f5696a1698e0ee15e5a1293b905058eb2831336ee1acb9e2d
+~ _handle_nspace_request_with_info : sha256 3165cc16e9aaebeb187b7e895092551e8f16d2a3ec8b7f2c08c4c22afbe7757e -> 739ef6a302aaaca13915204260231ddec3aeb0daa9aac1d8e4218b5548870dac
+~ _receive_vfs_resolve_file_with_audit_token : sha256 c37a0902fb020ea8dae94063a75b9e5dba077918ed71c0e9003e38185b7a4afa -> f1c82a5ba22d324fa1443d022f1b13c2042466f89ccf35ddadd9379ad3a2f56a
+~ _receive_vfs_resolve_reparent_with_audit_token : sha256 6ada93c7642905afe1597ee865c291f0295742d00b18d888c9671fb49d49cd30 -> 2865e08e834e9281ed4abaf2c632f941c26c6f7b7430f2a375c3d1dc8c3e0e69
+~ _nspaceErrnoFromNSError : sha256 f1f890c0f79304315953aff7255deb8c909ff98027463aa039f7be2379469d46 -> e64c570c31e7cb99ddafd1828c20a9038b59538bdbd38c0a79f24cd1060e1f20
+~ ___copy_helper_block_e8_32r : sha256 125c55a505215128aa3ca733398132dadcdf0215771c9efdd1e7c767488596ee -> 86a99123bd662177cac398094d4b4305bebe85336542e04a86dfddd9a2370a92
+~ ___destroy_helper_block_e8_32r : sha256 4e53007a8f7d087a7e31d96b5b61ff82879d6d924ee895f101fe74e0e656b25a -> 4b6a50369d8e4c70c59efdbb79f848033c92e843045f5ffebdab0c1ee46b9df6
+~ _receive_vfs_resolve_dir : sha256 8ad1d4ac207425eee2f6bce26fe7ff8d8eafec5be7ed7bdb82414b1f39bcc0d6 -> 1649aa6e02298878e27adcc89fdb38262b69551d83098b293657b7cef4e8b61b
+~ _receive_vfs_resolve_file : sha256 5244563bdf0ec6d0c21389d82402c6ad1e0e18428f185b82927ddbdb41190266 -> 72943b6619d30def8375ec18885cc0785c5b876db849d4ce2decc6219ff1ee11
+~ _receive_nspace_resolve_path : sha256 2d47bb4ff818f4bbe8ee522d8915220278cc44ef79b0ff94c9c7f6b7f2c31b77 -> c03772efd793181cd7597fc2086f533b406e5023ec8dc671b72bd52b6aa967ea
+~ _receive_nspace_resolve_cancel : sha256 ce7918cb1cb27799c23f21f0b924a863c0de34c3a7d17c24bd1e29aff3e1a051 -> ab996634cf35692162844b73437ace040dba6c488fb545bd201eeb4496d7236e
+~ _init_mig_server : sha256 06c3b976188de359c2f6b32552aff2b3dd55328ac75f2c1aa1253d982f3c79ec -> 8b2ded25ce2a9224413f719e6b9ae97b37dc3fc7e57a68d5b3cb2c90e542c3b0
+~ ___init_mig_server_block_invoke : sha256 6245d53516e5ebb90f7fa24c35e517ddb5bfb1872f04cce40ff6be22b27abfc9 -> 7ae02a3865ff1c7d6c534a5cc48b241fe35963221c5c8201ffaabd2e0f020c7d
+~ ___init_mig_server_block_invoke_2 : sha256 bb97217370de03d1150afc1648bec6b9acd3d0eabffdfc2f25489ebb406de4d2 -> c51d7b2986e7f5e8006de063a847fa62569445f81f2d4cab27fd4a027e089d3a
+~ _main : sha256 02c76db5c176f4f05475b127e189e3d4cd0acf2061a0afb0d33b933a7db32423 -> 887a3e39532923d7d6be2680ad355aef46eaf9646ef2677bea65abbe952f9917
+~ _OUTLINED_FUNCTION_1 : sha256 8f89e01844c3ad5e041d3f1f09d76a851cc970f3cb8d1c5b4e9343f34f3a4504 -> fb46dd984eeb71551c4618d2eda47bb0dde39742ade9405f476b5285fba7281c
+~ _vfs_nspace_server_routine : 64 -> 60
+~ __Xnspace_handle : sha256 e89f3ab2994b29f2abef990fff8017b2bf2738d4c31ad99bcf1c0f42d67e98da -> 407140243e957ca8444c456024f2d6a8be59bedfa16ad135d1d0ab9cb6dba16b
+~ __Xnspace_resolve_cancel : sha256 652facac66211d32af088e597b86b1d5eb0eb85c79ffd2a4f4826386042149f2 -> ed716128a13e0d38c840fda3ae96e650bdfff6a8960adc1147c53fe6779fc98b
+~ __Xnspace_resolve_path : sha256 5f2be6252f4fb9b4326de0f31e099a307e384e8124ff54306d5797f26a05db3b -> f53167f94976327b8eac708caf836c736f70c0adc45550a2c4938efb7a771a25
+~ __Xvfs_resolve_file : sha256 328e20746ab98c928cd16a32e5486b7889b41dc05c4312a1089a31d610e73017 -> af766f55cced1aa07e64a1b399c489ab09a8dee9efd68743e5cf3578bc853994
+~ __Xvfs_resolve_dir : sha256 71e10efe5167cb4efd6b9e5312e0033fdab5ad18d2ee81744490b1ba41dca154 -> 78aa4e7642c0b744afebd93517e2da2db30de9a3c98a720b6b31bf6a256bf5de
+~ __Xvfs_resolve_file_with_audit_token : sha256 fedcfc86f61854941f7caacabab1e00b466b8f4f8ec216ed9763caf7b5f6799c -> 82643ee9433c84d67c13f4b2740abbffabf6002e971e2e9366e748603a1a5cc6
+~ __Xvfs_resolve_dir_with_audit_token : sha256 c4e7e5d2bf285a7e2161769969dac669332f77bed2698ba7aaadf27203861500 -> 848a177cd4c73a59fe9e2798700f08608916627afb0ef919713355dac2bda372
+~ __Xvfs_resolve_reparent_with_audit_token : sha256 ad90d472ee91a1d0af689b7eab951506a87b8f977f04986619209f07d3effb3f -> eb82f1db789a71a26ace06973bd3085d1f61abb9b9cb9f1be8df4b0238011cc3
+~ _vfs_nspace_server : 156 -> 152
+~ handle_nspace_request_with_info.cold.1 : sha256 928e82d0dd5a016deda18385018d97c48da5454675ea00f9bbb7d7b9525b5bad -> 2a491c8b1981811d8f2ffa11aa2267c801e1e5d4553dc713a12191cdb22b510d
+
+```

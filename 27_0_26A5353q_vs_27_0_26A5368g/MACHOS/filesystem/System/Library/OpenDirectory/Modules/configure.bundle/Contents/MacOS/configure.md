@@ -1,0 +1,69 @@
+## configure
+
+> `/System/Library/OpenDirectory/Modules/configure.bundle/Contents/MacOS/configure`
+
+```diff
+
+-997.0.0.0.0
+-  __TEXT.__text: 0x3ff4 sha256:a01233555e8a8b793c5c822d4646a98291cc8bc41b6c12dbd48c75ad50dea7e9
++999.0.0.0.0
++  __TEXT.__text: 0x3ff0 sha256:11f1e507c11f6674017f0b25d993f74ede120177d70227f2294af1370eb04a85
+   __TEXT.__auth_stubs: 0x840 sha256:a9637e45481fb9b417215cfbeb6e53c14461ab5317ef7d9305573de0aaacdf90
+-  __TEXT.__const: 0x98 sha256:6685986bc0573fcde89ca7fa785729147c514fc1b8d679dedf9566facc2fc39b
++  __TEXT.__const: 0x98 sha256:1967031a866472dfa6e890d7c5f54a437d2776c5090a513d3b40fa3d47104650
+   __TEXT.__cstring: 0x29d8 sha256:436a3b4acff57c7f625e630619b9e66b96fec09b4dbe074a1da7181a55d503a3
+   __TEXT.__oslogstring: 0x2d4 sha256:d615ff56418ba07a3d0b679dee92ddbf9a426365141fb6a28b30bdf32c5ac6d7
+-  __TEXT.__unwind_info: 0x110 sha256:754c163cf6f8f10dfae9725df003a2543ac825e12aba5353c273c9fabe07af00
+-  __DATA_CONST.__const: 0x320 sha256:0ce063c3caa82fc47d2fc4e14c40ec99cce115080f816ba8217614517b0f7117
+-  __DATA_CONST.__cfstring: 0x3c0 sha256:7677a5332424a100520400fb7e3fd629ee2357d8fef0591d9f472cbd1939996f
++  __TEXT.__unwind_info: 0x110 sha256:e60dc8541119875c543f4d284fbad1990cebff25cd6efaf1470161ef9647d227
++  __DATA_CONST.__const: 0x320 sha256:232712d87ae6d1bdc6e4aee4ab407ffb94b0f9fdd6f08a06de52e8e8ce9d41c3
++  __DATA_CONST.__cfstring: 0x3c0 sha256:ddafc79fc8c892d81a6501425ad53a5cc5ac2fb88b2a62d9eae7841f06daf021
+   __DATA_CONST.__auth_got: 0x420 sha256:e8b65ec7b9917f19bdf6063baf6b53d84ae9c9bfac025b460efc844b66501c67
+   __DATA_CONST.__got: 0x148 sha256:9b498f5c2100923d2af5f79a3c5769b5ad24809e3cbf8516840a8564efc108c4
+   __DATA.__data: 0x10 sha256:dd22a687a325344152be9c4f4f8a5b071ed0c1d6128ca790e5c3ebc8b396a7f7
+
+   - /System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+   - /System/Library/PrivateFrameworks/Heimdal.framework/Versions/A/Heimdal
+   - /usr/lib/libSystem.B.dylib
+-  UUID: F17B07CB-CF59-3A51-8E41-553D3CDB8500
++  UUID: 0E690AFD-1FC1-3C61-94EA-C967ED675DDE
+   Functions: 59
+   Symbols:   567
+   CStrings:  91
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CRwNugBTvRa0SeqWjZhsekO8XDO7US6GyM4paec/Library/Caches/com.apple.xbs/TemporaryDirectory.YUdDdV/Binaries/opendirectoryd_executables/install/TempContent/Objects/opendirectoryd.build/configure.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/4~CRwNugBTvRa0SeqWjZhsekO8XDO7US6GyM4paec/Library/Caches/com.apple.xbs/TemporaryDirectory.YUdDdV/Binaries/opendirectoryd_executables/install/TempContent/Objects/opendirectoryd.build/configure.build/Objects-normal/arm64e/configure.o
++ /AppleInternal/Library/BuildRoots/4~CRwNugBTvRa0SeqWjZhsekO8XDO7US6GyM4paec/Library/Caches/com.apple.xbs/TemporaryDirectory.YUdDdV/Binaries/opendirectoryd_executables/install/TempContent/Objects/opendirectoryd.build/configure.build/Objects-normal/arm64e/configure_vers.o
++ /AppleInternal/Library/BuildRoots/4~CRwNugBTvRa0SeqWjZhsekO8XDO7US6GyM4paec/Library/Caches/com.apple.xbs/TemporaryDirectory.YUdDdV/Sources/opendirectoryd_executables/src/modules/configure/
+- /AppleInternal/Library/BuildRoots/4~CQCHugDwWwANgAfhzcVPua2Ks75Ge7SeKydrIdU/Library/Caches/com.apple.xbs/TemporaryDirectory.6X6jKz/Binaries/opendirectoryd_executables/install/TempContent/Objects/opendirectoryd.build/configure.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/4~CQCHugDwWwANgAfhzcVPua2Ks75Ge7SeKydrIdU/Library/Caches/com.apple.xbs/TemporaryDirectory.6X6jKz/Binaries/opendirectoryd_executables/install/TempContent/Objects/opendirectoryd.build/configure.build/Objects-normal/arm64e/configure.o
+- /AppleInternal/Library/BuildRoots/4~CQCHugDwWwANgAfhzcVPua2Ks75Ge7SeKydrIdU/Library/Caches/com.apple.xbs/TemporaryDirectory.6X6jKz/Binaries/opendirectoryd_executables/install/TempContent/Objects/opendirectoryd.build/configure.build/Objects-normal/arm64e/configure_vers.o
+- /AppleInternal/Library/BuildRoots/4~CQCHugDwWwANgAfhzcVPua2Ks75Ge7SeKydrIdU/Library/Caches/com.apple.xbs/TemporaryDirectory.6X6jKz/Sources/opendirectoryd_executables/src/modules/configure/
+Functions:
+~ _odm_initialize : sha256 bf12240b3104878da00b47136bc6dbc92a829312f6233a2daef98147e5e106d5 -> 3d78b72b5300c68f6f7ce3ab03ad792380959c7145e6d10e39aeaa52a97e4d86
+~ _odm_copy_auth_information : sha256 3e510e4b6db1fbf6613c4b5b5279cae9f29a21f1fbfb6586fa999d0b92d65d4b -> 3440d29fc9c98b42a00e955cb298e1292505aa407b06bd78e2e6b788ce75dcbd
+~ _odm_copy_details : sha256 7982edf7eef0ce5a11f5d318000ef8f90cff77891584188dbd83876d0f380245 -> 810ec832c4bca7e34a870001c6d99ef4753339be7f3e939b9bbeb999b25e3e30
+~ ___odm_copy_details_block_invoke : sha256 4dde2a00e042a23a9cbe2e0fd2ee47572a593eaa6c98a2dc8310d6f91d9a59d1 -> 2687c8ac4a7c62497f993dc4418698b4dab06ba1f39f5a0b01125168547b1200
+~ _odm_create_connection_with_options : sha256 a956c06927ae8de1b8a1800f2560f5cb4a2414365d9e4087895c9676eae1d34d -> 63471eadc32ddfabb314b7e39faffd90b9c594d7e1b0c566846047ac1981ca96
+~ _odm_NodeVerifyCredentialsExtended : 1764 -> 1760
+~ _odm_NodeCustomCall : sha256 43d0ef96b3d2f9a6627b5b415694de0734e511ef95073663fcfc1ff73a57765a -> 9d607f3ce7f6fa0cff38fc52b3321b28091e24af6d40e3cf49bd8358c810b299
+~ __custom_write_systemconfiguration_data : sha256 c3a2ff646cd7a78dcaaa24011e1fa7648b84cb98a853a04bf1b4188f8941e6cf -> 77a6e95a61f26a9de2178c741e35a32047acb8510c0bbac42e7dea71215b384a
+~ __custom_delete_node_configuration : sha256 1a9e6bcfab70dcab1804a1a1af0b28e392b903d26070832272c3a2512f70d105 -> 921d834cfa9521d91feae388dccae24e6b68a8d94a20279aeeced2961412236a
+~ _AddTrust : sha256 d3b6ddfad4cd1e770073950553171ef820e23147ce56198e4ef93751afedd16c -> 090b9670a16112fa0d2a67c628fcdf762e42b1b5cf276c05a3550a3491c24600
+~ __filename_for_nodename : sha256 7201eabbe6a9865611d4f26c4842c17d1c82811df4eb6e1a0d84b142b01aa7f1 -> 6dde7870ee209a431b05ad8334595689160950f341c434846159ae84e98616c3
+~ _RemoveTrust : sha256 31bb9d8ab1955a8deb2544a78994dd3374be7f81847b289e3e9e10a3eb6886e3 -> 2e22ad1f36e028783f291b116747c076ae251cc16ca1b67924912ef031a2ef5c
+~ ____log_session_block_invoke : sha256 ba3100af12f9d5f720d1817f210b8a51aab4b68b552069a614641e5eb424669b -> 5ff16a8f503043e878ffb4b133a383fea98828e1baa18c6f0f4aba143273fb5b
+~ __create_authentry : sha256 d18b53ecae0c29f823ea4c0733387a2e33c529896a6c4c34e426714de5758183 -> 06d697b998fa2818efbe701897b14c8c8cd0a27a677a8a177e38fba3fd74f58f
+~ ____create_authentry_block_invoke : sha256 f88d34a8e4d7d4b8887c8c80a79c84313f1e358fc48970d6e0efd2e9d440ce06 -> a44da2f9a88764160245ec79d1a4c0949a98c027cd878dcd5614f88c58c88731
+~ ____authref_queue_block_invoke : sha256 742433204439f5f8a13c5b07ee70307746469f0314c5b5b14d4461e82e5e71c1 -> e6cf161a96083c27a60d06b88377a4494c25a8e444e4f76fec8a30e580cda802
+~ ____custom_read_node_configuration_block_invoke : sha256 2da682407463688a8272483f4d36af3c2c511ebbb0dc0c114af2faa75d1b69bb -> 790f9333ee90ff372c753c990c23d50f803e157d3d3e671b6203da1e12ca355a
+~ ____get_plugin_list_block_invoke : sha256 8cde3efe91782b12311fc11a4a98ad794a712ba65c00a37289f0a283bd2d843c -> 80e42c4a2d449f0314bcbce0f059bb420200b3847800a0b99094e8ba323f3579
+~ ____top_level_nodes_block_invoke : sha256 131bb168ccf39aba9e032153fc067b486d92b90aa25bbbff79d031334d96a2dd -> 83b3ce685350a79ec4b03be2f46de72cde1cf0469b15b61005bc2b2a2c58ab85
+~ ____top_level_nodes_block_invoke_2 : sha256 0f92c39307d17849ba9434c1eb76415b87153d4051492da2d250b4f37737cf25 -> b51302bbd2b10b8cc4c3804860e964834ae676bf23eb0ffe6e7525f19fe86154
+~ _custom_write_node_configuration.cold.2 : sha256 2102603bbfad716259789fcd947b7f16adf0fd8054af5c69dc22f4bcbfdac498 -> ae19e9b74f41409d6898ccf927671d30154b9de8f70a13112a26c4decf3958a3
+~ ___create_authentry_block_invoke_3.cold.2 : sha256 9a6822d9bef454085a86c3ea2e1e3db1bf207138bfb7d5ec108d93905b13b9b5 -> af1aef4aeff6b527fe28bfc11d4f8a50116f27dfebb91b0ecf1d7f7f2b031b75
+~ ___custom_read_node_configuration_block_invoke.cold.2 : sha256 b4a5821ebaeaa2fce203a7040b28ea5749ddfddb6986b6d8392b54e8650f82c4 -> 660a437d6c25dcd66a2f7a4fc9181ca80e3732c03f2c805d78ded407672204a0
+~ ___custom_read_node_configuration_block_invoke.cold.5 : sha256 f4daae839361c561264d5e7b1962aa0088f01a0a8557bb9a3625c51bcf053f13 -> 1ef4331c4a77638808707af4e342925682f6a5fb4fd81127ce348f2341d31977
+
+```

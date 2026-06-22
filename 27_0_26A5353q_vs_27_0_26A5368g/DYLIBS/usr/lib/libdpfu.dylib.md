@@ -1,0 +1,50 @@
+## libdpfu.dylib
+
+> `/usr/lib/libdpfu.dylib`
+
+```diff
+
+ 323.0.0.0.0
+-  __TEXT.__text: 0x177c sha256:b279077ad9b030d2bbc205710fb99eac63d103df189f60b3e1bc4d6e6aaf8dde
++  __TEXT.__text: 0x177c sha256:b50b1d401bf3495bc88c91644113a42eb45a7f280455cef0bb9a75b9e521b32c
+   __TEXT.__const: 0x3 sha256:7218510317377bf176abefa6be046386dbf3ccf33cf8359844f6443c62daa6b8
+   __TEXT.__cstring: 0x555 sha256:3f134de0ece7a40d22663824a3d1a880b6009fb242225f99a6393c5e9744270b
+   __TEXT.__unwind_info: 0xc8 sha256:2d622a3ec41da9de82b74e2a6e2b1c9c07b01de82115101182a6cfcf79175c02
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x78 sha256:b2458b2131fa85fdf950ddbd51ea59a8732b9d8cf7ca61b0e382834e642f9980
++  __DATA_CONST.__const: 0x78 sha256:0fff7d0f305b4f255aa37b2fbb979633becf0fee91ef401050cb21b419fb97c8
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x60 sha256:2b8e9a2995ce1da13085cfca12c9acb9f1e7f37982654753c5e74c019b1a1d24
++  __AUTH_CONST.__const: 0x60 sha256:30d95b3b6be6ac61a6711e0896e8917e4f465daf5bd00fecf5c6eb5b0c76c8aa
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__data: 0x10 sha256:eba956dc8f5e792f083beb1e308446a00c07f6a663aebe3d3d7ecc6936d4a6ab
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 0249017C-5B4B-30D2-857F-99E7B3271390
++  UUID: DA9F44CF-095B-3C64-A51E-028FBE4B83D1
+   Functions: 39
+   Symbols:   74
+   CStrings:  62
+Functions:
+~ _DPFUSessionGetTypeID : sha256 eb02f90d93ab62debb9219044f8e042e6d501cf51a1472eda8398d080e1627f4 -> 409b79b64715cfbbe68cb9a1fd765585cd7ecb117cd93b3f0d67c600f90962f2
+~ ___DPFUSessionRegister : sha256 f56f1a6779d24502e69ed15a3b56386071646e5130669053460038a0a7aeb0bf -> 637a846be591b623bdb366f5849eabe86755e7e460d56c5b1424a2fdf6dc3347
+~ _DPFUSessionCreate : sha256 51085bcd47ed2789b3b24a4c824b717fd2292a688ec5f929fe8f67bd1fd95ad0 -> b418288057728bfc1766e97f728b916bb2a638cb155cdf0d2804c4e33794b623
+~ ___DPFUSessionWrite : sha256 adc5ad87613b67b89210a146dd8cd77311c9410b6af18eda31dd6d8a56c9c99d -> 5cfb21355047c73ae1b24f6e5c40927b46e1a93a0fdf6b4874f5aad59151c86c
+~ ___DPFULog : sha256 1240846cd4dc1c0e11abd0a3002f05b1448aeeb318bdeb1752b01e44b2094e55 -> bb4127d97ebca44c3a5daf9d7cac475e3d8d93054a0a0bca526f31bc527acb72
+~ _DPFUSessionLeaveUpdateMode : sha256 2d0f33df67e9f7c52e363b37e2611c738f16d3b4491f8a5ada6c75efcd8a508b -> 16ea30329c24aa9bee05484fee9bc8cf1ed67b23d004da4a34414c1cd407223c
+~ _dpfuUpdateDeviceWithContentsOfFile : sha256 7bf6b6cc2d093b5eae6e78dd00d84826a0a2d3df9a7be2986cd493f494426e55 -> 8f944afa916e5dbdc6bc8743d3d46021bb8176c8ce306fb23ea1c296b3dee465
+~ ___DPFUSessionFinalize : sha256 7cd1f28491ddc1b0a532bdd217817da04cb284c047c6cf7001c0474e57c48bfe -> 36fdf2edd363fe596efceeaba4e8ccffef38c3c71b2ace100a7766ee3e440073
+~ ___DPFUSessionRead : sha256 1a7c049184fc0d6467795fd50975cffedb35777fbe513f16f2e25fdf59ff32aa -> ac1060326684db8447d226add1afd0e32be08a18efd7fc33910ccfd8b9f04af7
+~ ___DPFUSessionSendHostCommand : sha256 3501ad12837d561a4e43a553cf4f20c4c59fdf5fa8232e28eb065bc7f3a3e199 -> 7f4aaafefdc8453cee82ea03916a4974b4050f87d5b82d750cea4c0d1cb2bbc6
+~ _DPFUSessionGetDeviceInfo : sha256 0d86729d20af5daf24395524a7ad96c14333ccadb80ac4e98bac9b37d27473a5 -> 3be64c971e55d020d1cda3e7cde42e239d9613f9f14e2224bc3290f9897b272c
+~ _DPFUSessionEnterUpdateMode : sha256 889597a9c29af4bb38b0208914a50a482d82c1898a1672ced0281d44c07de2b9 -> 970ce809c1d9538cd7ad6f8dcbb05bf54b66740b322ba732a8c504b0cb8984f6
+~ _DPFUSessionInstallFilePayload : sha256 36ead6a71f47a729d9ef31d9c6c0a7b546b7fee97b80bdde042ab729ac4cdeb1 -> 39d3aae6187db9a2297490a932557c7027852569596258622248dedeece26cf1
+~ ___DPFUSessionPrepareForDownload : sha256 3d8784891400b32417f84b41fd016dce9d8404e6d42db7fe807d59707355932a -> bbb276bb72930fb99a0ea0e4cf088da33a6d24f0c020026e87755efe9f619149
+~ ___DPFUSessionFinishUpdate : sha256 eb90a786dc38b7823f5d2fd5f0d2f1172798cd939bb08fad11ef7b9154b533ef -> b04e6c490ef63c4e4a9f5e4ee0299e407a5a99e30096d1e9f237c6cdecb6c1e3
+~ ___DPFUSessionGetStatus : sha256 fc8e5b700d285bd4768d60709840b65f9600bcf93ecc5c81a21a82cc935e5b0b -> a166f9295b71026e76f1ee29f4df21c561f955c91dc2b7e08746bc423941222b
+~ ___DPFUSessionPollStatus : sha256 088b225703f815fcd62b48497abe467f85b4d50d93cf917f703f86cc545d05d1 -> 794c6eff6f08dad7f6cabd5740a4b5f08ab35f40501b8613fbd735fdc8ef4a7a
+~ ___DPFUClockIntervalToDeadline : sha256 35161e49a07764747083669f66272874962081621135e73faab779c8f21a11b4 -> 254e9c8209204a61f06173a9e75fadc6c83c93637983bf017bb5228adea557d5
+
+```

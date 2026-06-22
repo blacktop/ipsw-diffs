@@ -1,0 +1,43 @@
+## nfs
+
+> `/System/Library/Filesystems/NetFSPlugins/nfs.bundle/Contents/MacOS/nfs`
+
+```diff
+
+-356.0.0.0.0
+-  __TEXT.__text: 0x1350 sha256:652d79918ae1626cd9df3ea0c605acca1a63f3864e3f08069dc861d58ef3fc65
++356.0.3.0.0
++  __TEXT.__text: 0x136c sha256:07f42d0d7f926fd6a6a73e65f305ff94cae11a6b3b082be9fb11860a3923d42f
+   __TEXT.__auth_stubs: 0x360 sha256:5e34d4f54fe263349315ec68db1dab41b38a2cc63c08f0c9fda57ce858ef33be
+   __TEXT.__cstring: 0x1d4 sha256:d17940a4b92328ce925d7b5ede361b0e6c7ace681d161e8e614d2e28dfbde821
+-  __TEXT.__unwind_info: 0x88 sha256:ad93240ab9ee39e45d118be291ea135fe05e86bd5bc791c3ee435a1f9bc711c5
++  __TEXT.__unwind_info: 0x90 sha256:e987e7476bfd6770736a6b37f76ca71e0d4371cf7afff1bb510bab88ce3b8cf0
+   __DATA_CONST.__const: 0x28 sha256:0fd98550517f03fff91894b19b14b5f008e1721c776a63b5b2945ac068d9ff01
+-  __DATA_CONST.__cfstring: 0x300 sha256:e979e0aa727a5478a87c25f80588addb5b21439f0b49d467e57e69361495e7b0
++  __DATA_CONST.__cfstring: 0x300 sha256:2d02f091165c1d2b647876d25ed1b22e8161421fecda8a7bdfb2ba0b1484f044
+   __DATA_CONST.__auth_got: 0x1b0 sha256:a181abcdbb17d309363554615aec1a02c2dbadf6b2973a022088cf06cabd9da9
+   __DATA_CONST.__got: 0x30 sha256:b8a09fe1465783296ce81ab8685b44b8484f1093c0ed0249ff6020fc959c6836
+-  __DATA.__data: 0x70 sha256:5099aa72301f2f03807545b6b1e61d53af40def502babf972b9b59ff325c1309
++  __DATA.__data: 0x70 sha256:61ddf4f352c6d8a61064336e8a9757270c4f2d453c251b2a1e707173ac9f20c2
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/NetFS.framework/Versions/A/NetFS
+   - /usr/lib/libSystem.B.dylib
+-  UUID: BD3296F0-A3E3-3056-A2B7-D71FDB9E5080
++  UUID: AD026A7F-BA41-3A61-9DF8-095B492D878B
+   Functions: 12
+   Symbols:   67
+   CStrings:  67
+Functions:
+~ sub_620 : sha256 fd0cba471deef2744cdfe6743b81934a968626a0b958706ec8b7a9291b21e7f2 -> 9aa6489b28c9340ec5bfd08c873474f8975db31a0b02668933a6b153a0b6f40b
+~ _NFSNetFSInterfaceFactory : sha256 14caa9938e607f36d915d5d7c79644e08733ebe75ba36444542c9ea75a3e54d2 -> 442b00c19555d3e1de10d62edd3437a035237886d962645280cce8350325ed99
+~ sub_714 : sha256 1e3c40d07686c1779a8dc2e223671d32ff1d8031e257fd2692abb82365a8d6dc -> 65d62ec95b40b911ac7d56888f551aaf41c60e8a64421aed0b50674c50de5eb7
+~ sub_798 : sha256 8bdf9652e90e2d22b62493af0fba213ec7901b502a36457fb4bbc8ada2eeb442 -> 39b201e2aed3bc0b9cec41dd1803a10e0d62a20d83e08b99e09c4a27f842d28d
+~ sub_88c : sha256 850736ff3bf9bb466f7a8602d503ee17cb045b9a6ffb318227af5055b8b3f359 -> 66fd372437f6f2a69a45c1c450e515cb3edfa1d779a7c81376ebeb2ff4aaa3dd
+~ sub_a30 : sha256 66ee92388cbf2315f11daeb22f95ac7df9fe6b86cc0b68a1f62d26752b4ceef7 -> ff49f5cc66cfbca68ae82a44cf41c472583ab1ee6f199a8bf693c3fe13254673
+~ sub_c0c : sha256 f3d072c6d4713bcad4981174e0052a6fbf7ec8461249c527943703f44d2a1acd -> b2ca7c391ff51b215a9733d8f837ef38f5673fec5900790b3d84104ed2ef5523
+~ sub_ca4 : 2452 -> 2456
+~ sub_1638 -> sub_163c : sha256 fc239a0e3e6298295d357f702f326b0f89295e3007c1bc2a6e761c60d7f4246a -> f47c55d14af79016fc88fadc84c813c0589fae39b360a6d2cd33cf9060f0b235
+~ sub_16a0 -> sub_16a4 : sha256 b11d0d6c19f7667b0a34f874dcb75b07c58c02e1020ae6c180e72379c4020538 -> 87e6bf5228d5d6347609827ee4392a37b374f1cf26aa58043f2e24ef31bea0f1
+~ sub_16d8 -> sub_16dc : 664 -> 688
+
+```

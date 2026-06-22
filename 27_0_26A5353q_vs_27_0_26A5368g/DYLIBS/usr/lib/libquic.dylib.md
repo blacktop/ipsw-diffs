@@ -1,0 +1,1406 @@
+## libquic.dylib
+
+> `/usr/lib/libquic.dylib`
+
+```diff
+
+-6681.0.372.0.10
+-  __TEXT.__text: 0xcb024 sha256:1f8144567cd67025c6d3b0e82092bb7973368514629d7261e485381c506d6edf
+-  __TEXT.__objc_methlist: 0x244 sha256:2b9a7e8f97e0b3cdcd78f52195146ba25e324f5cbe50205b6fc75afef393e808
++6681.0.436.0.8
++  __TEXT.__text: 0xcc8a0 sha256:79b4c83b5cfdec2815ac1efe35dbacc94b24d8d5d28f2a2ef27f6ea8b98fecd6
++  __TEXT.__objc_methlist: 0x244 sha256:a4c4a48d3ddaa50a50219f8c04d7d91a6b6b2614cb8c4983fe048a613942cd7b
+   __TEXT.__const: 0x395 sha256:c77e57f60e49dee70dda39c05c914c1a27fbe6208089d852da7e3b76d141fd0e
+-  __TEXT.__cstring: 0x868b sha256:48e45145c77d955d11e5afd64eb6aa69649a84907ab719491b1c78f71441b6a4
+-  __TEXT.__oslogstring: 0x1192b sha256:4a288916292ae29718d860eeafcb5d050cabf687fc1280ecf8cd78d5ca9c07d2
+-  __TEXT.__unwind_info: 0xca8 sha256:14955fde798fce214368bd071cdf17fb9a65f9e21bd32120bcb1358f7eeeaae5
++  __TEXT.__cstring: 0x86e0 sha256:b83f555bee6b7cddf76e81ee0b7a5043567365b612cf6357995b882843b93bad
++  __TEXT.__oslogstring: 0x11a0b sha256:fb72b0463d1eb03df9dabff0ab693950ba26ba220c44af0d166909e4d3c2d833
++  __TEXT.__unwind_info: 0xcb8 sha256:0fc44d9995020e00c4f0979179867834e77f904215112de7094e80e3d46d746f
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1b80 sha256:cf18454adf03f7ea84caac6a1715696532ee5e86cd3ce9fec17fd036bdc18dc6
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:65ae27fc92955552e867c67cbfae2098b88341487011ac8dd7da84139a566f75
++  __DATA_CONST.__const: 0x1b80 sha256:a00e3953e36e7e0f515df54226e21250819fc114328b6cab45393a432782440d
++  __DATA_CONST.__objc_classlist: 0x8 sha256:ecedd850f1a4029c86c4646e68ce8a5658c125f00bdfdb3b7e9acb0e86fe5d25
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1e8 sha256:48491d93dff4e6859a6cffb2b1f7969e29fbdb80e2c568781fcd95e06a0925f8
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:b50ad9a861e83987682f96471e535b504e2bf661f0e8aaf7a42c19c907161d6b
++  __DATA_CONST.__objc_selrefs: 0x1e8 sha256:5b21c46791d21ea15068944cffafde4bf6792f16b5b751ffb43e3c044c6ade5c
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:6353161b7b33d7a6f1e947c15e0f1f253eacc6113b59a888d6e626176f7a2708
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x1840 sha256:736d31ab3f5641c3bcb6f604da973f5b6802693238175e66429a259536844c51
+-  __AUTH_CONST.__cfstring: 0x1320 sha256:3475419473f37fd195f41daac70638f1918c6ca92d8b22f2616a0cc46949c376
+-  __AUTH_CONST.__objc_const: 0xf8 sha256:57684326fbe6f2afc4a3f66c18a38ce4d008daa42ffe2af416ee547a2387f809
+-  __AUTH_CONST.__auth_got: 0xd10 sha256:38dc5f7170e9ff9d8e6ed1f8b5b595e0d0d4c96474d5ef3e63bb8a64d8ffd33b
+-  __AUTH.__objc_data: 0x50 sha256:3d4006eda305d0c07a80bfb731b274e918f693b49ef152073abbbef614aa9735
+-  __AUTH.__data: 0x110 sha256:85248d99cbce351bee117e358a9f17f4d43c5accc95945087c0cca2f2b7390d7
++  __AUTH_CONST.__const: 0x1840 sha256:14e5444a39b25ed6ba550ccf13a2880046444f3ec393a89c71b7315b51f9c703
++  __AUTH_CONST.__cfstring: 0x1320 sha256:a1250d85d50dbd49913bf558c8b0daa0f4b648dcaa412b9cf33878dcbb919c10
++  __AUTH_CONST.__objc_const: 0xf8 sha256:6f171f0115c4f61b1e4056f2543a8aa25e6dba2861d4ecc2db0262d5ab20f557
++  __AUTH_CONST.__auth_got: 0xd20 sha256:9b00b8930d66b11eb3cc96e31d08b2889160b0e617f1f6c229fa37c92578c23c
++  __AUTH.__objc_data: 0x50 sha256:c73f09d6cca4fdaedffa27b84cac5078eae3cdd6d3427334c42d12e9050f09fd
++  __AUTH.__data: 0x110 sha256:6e9adeed7da70a56ed48efc1e0bcb1b1ef86262fe87eb7d6d4986620d2a42b6c
+   __DATA.__objc_ivar: 0xc sha256:a70f1dbb5ee78863c7509e7a851cf2d726f71acae7c1db3cb02da933e6654ed5
+   __DATA.__data: 0x6c sha256:e77d022526d97a9011abbf4bba6bd87332c3288a17f78a5b96dfd19daa1ec946
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5EF1AA57-996F-35A7-96A8-CB8D50306C01
+-  Functions: 1151
+-  Symbols:   2004
+-  CStrings:  2728
++  UUID: 14BC38B3-3F03-3A8F-BD71-F726A33C0F1B
++  Functions: 1155
++  Symbols:   2010
++  CStrings:  2732
+ 
+Symbols:
++ ____quic_signpost_is_enabled_block_invoke.2700
++ ____quic_signpost_is_enabled_block_invoke.3210
++ ____quic_signpost_is_enabled_block_invoke.3733
++ ____quic_signpost_is_enabled_block_invoke.3973
++ ____quic_signpost_is_enabled_block_invoke.4828
++ ____quic_signpost_is_enabled_block_invoke.693
++ ____quic_signpost_is_enabled_block_invoke.957
++ __block_descriptor_tmp.11.4065
++ __block_descriptor_tmp.1182
++ __block_descriptor_tmp.12.2713
++ __block_descriptor_tmp.12.3585
++ __block_descriptor_tmp.13.2339
++ __block_descriptor_tmp.13.4036
++ __block_descriptor_tmp.14.2638
++ __block_descriptor_tmp.14.3122
++ __block_descriptor_tmp.15.3591
++ __block_descriptor_tmp.15.3869
++ __block_descriptor_tmp.15.4883
++ __block_descriptor_tmp.16.2640
++ __block_descriptor_tmp.16.3307
++ __block_descriptor_tmp.168.4306
++ __block_descriptor_tmp.171.4313
++ __block_descriptor_tmp.1756
++ __block_descriptor_tmp.177.1017
++ __block_descriptor_tmp.1889
++ __block_descriptor_tmp.19.4033
++ __block_descriptor_tmp.1965
++ __block_descriptor_tmp.2065
++ __block_descriptor_tmp.2089
++ __block_descriptor_tmp.21.382
++ __block_descriptor_tmp.21.3870
++ __block_descriptor_tmp.2192
++ __block_descriptor_tmp.23.3713
++ __block_descriptor_tmp.2333
++ __block_descriptor_tmp.2494
++ __block_descriptor_tmp.25.4030
++ __block_descriptor_tmp.26.4029
++ __block_descriptor_tmp.2631
++ __block_descriptor_tmp.27.2708
++ __block_descriptor_tmp.27.3871
++ __block_descriptor_tmp.2872
++ __block_descriptor_tmp.3001
++ __block_descriptor_tmp.31.2741
++ __block_descriptor_tmp.31.4026
++ __block_descriptor_tmp.33.2709
++ __block_descriptor_tmp.33.3872
++ __block_descriptor_tmp.3377
++ __block_descriptor_tmp.3496
++ __block_descriptor_tmp.35.187
++ __block_descriptor_tmp.38.2710
++ __block_descriptor_tmp.38.3873
++ __block_descriptor_tmp.39.2730
++ __block_descriptor_tmp.39.3731
++ __block_descriptor_tmp.4040
++ __block_descriptor_tmp.41.2711
++ __block_descriptor_tmp.41.4021
++ __block_descriptor_tmp.42.2712
++ __block_descriptor_tmp.42.3874
++ __block_descriptor_tmp.44.3875
++ __block_descriptor_tmp.4554
++ __block_descriptor_tmp.4598
++ __block_descriptor_tmp.4665
++ __block_descriptor_tmp.471
++ __block_descriptor_tmp.4826
++ __block_descriptor_tmp.49.3876
++ __block_descriptor_tmp.5.2417
++ __block_descriptor_tmp.5.3454
++ __block_descriptor_tmp.5.3510
++ __block_descriptor_tmp.50.2703
++ __block_descriptor_tmp.51.3877
++ __block_descriptor_tmp.53.3878
++ __block_descriptor_tmp.54
++ __block_descriptor_tmp.6.3208
++ __block_descriptor_tmp.6.3829
++ __block_descriptor_tmp.6.466
++ __block_descriptor_tmp.65.3895
++ __block_descriptor_tmp.67.3879
++ __block_descriptor_tmp.691
++ __block_descriptor_tmp.7.4064
++ __block_descriptor_tmp.8.2629
++ __block_descriptor_tmp.8.486
++ __block_descriptor_tmp.80.3884
++ __block_descriptor_tmp.81.3880
++ __block_descriptor_tmp.83.3881
++ __block_descriptor_tmp.84.4076
++ __block_descriptor_tmp.9.307
++ __block_descriptor_tmp.92.4077
++ __block_descriptor_tmp.93.2791
++ __block_descriptor_tmp.955
++ __block_descriptor_tmp.98.3859
++ __block_literal_global.1887
++ __block_literal_global.2087
++ __block_literal_global.2190
++ __block_literal_global.2492
++ __block_literal_global.2696
++ __block_literal_global.3204
++ __block_literal_global.3724
++ __block_literal_global.3828
++ __block_literal_global.423
++ __block_literal_global.464
++ __block_literal_global.4663
++ __block_literal_global.4813
++ __block_literal_global.637
++ __block_literal_global.951
++ __quic_signpost_is_enabled._quic_signposts_enabled.2697
++ __quic_signpost_is_enabled._quic_signposts_enabled.3205
++ __quic_signpost_is_enabled._quic_signposts_enabled.3725
++ __quic_signpost_is_enabled._quic_signposts_enabled.3971
++ __quic_signpost_is_enabled._quic_signposts_enabled.4814
++ __quic_signpost_is_enabled._quic_signposts_enabled.638
++ __quic_signpost_is_enabled._quic_signposts_enabled.952
++ __quic_signpost_is_enabled._quic_signposts_once.2695
++ __quic_signpost_is_enabled._quic_signposts_once.3203
++ __quic_signpost_is_enabled._quic_signposts_once.3723
++ __quic_signpost_is_enabled._quic_signposts_once.3970
++ __quic_signpost_is_enabled._quic_signposts_once.4812
++ __quic_signpost_is_enabled._quic_signposts_once.636
++ __quic_signpost_is_enabled._quic_signposts_once.950
++ _nw_path_uses_interface_subtype
++ _nw_quic_connection_get_close_tls_after_handshake
++ _quic_conn_close_tls_flow
++ _quic_path_get_ifindex
++ _quic_path_unmark_lossy
++ _quic_recovery_declare_packet_lost
+- ____quic_signpost_is_enabled_block_invoke.2693
+- ____quic_signpost_is_enabled_block_invoke.3203
+- ____quic_signpost_is_enabled_block_invoke.3726
+- ____quic_signpost_is_enabled_block_invoke.3966
+- ____quic_signpost_is_enabled_block_invoke.4820
+- ____quic_signpost_is_enabled_block_invoke.688
+- ____quic_signpost_is_enabled_block_invoke.953
+- __block_descriptor_tmp.11.4058
+- __block_descriptor_tmp.1178
+- __block_descriptor_tmp.12.2706
+- __block_descriptor_tmp.12.3578
+- __block_descriptor_tmp.13.2333
+- __block_descriptor_tmp.13.4029
+- __block_descriptor_tmp.14.2632
+- __block_descriptor_tmp.14.3115
+- __block_descriptor_tmp.15.3584
+- __block_descriptor_tmp.15.3862
+- __block_descriptor_tmp.15.4875
+- __block_descriptor_tmp.16.2634
+- __block_descriptor_tmp.16.3300
+- __block_descriptor_tmp.168.4297
+- __block_descriptor_tmp.171.4304
+- __block_descriptor_tmp.1750
+- __block_descriptor_tmp.177.1013
+- __block_descriptor_tmp.1883
+- __block_descriptor_tmp.19.4026
+- __block_descriptor_tmp.1959
+- __block_descriptor_tmp.2059
+- __block_descriptor_tmp.2083
+- __block_descriptor_tmp.21.379
+- __block_descriptor_tmp.21.3863
+- __block_descriptor_tmp.2186
+- __block_descriptor_tmp.23.3706
+- __block_descriptor_tmp.2327
+- __block_descriptor_tmp.2488
+- __block_descriptor_tmp.25.4023
+- __block_descriptor_tmp.26.4022
+- __block_descriptor_tmp.2625
+- __block_descriptor_tmp.27.2701
+- __block_descriptor_tmp.27.3864
+- __block_descriptor_tmp.2865
+- __block_descriptor_tmp.2994
+- __block_descriptor_tmp.31.2734
+- __block_descriptor_tmp.31.4019
+- __block_descriptor_tmp.33.2702
+- __block_descriptor_tmp.33.3865
+- __block_descriptor_tmp.3370
+- __block_descriptor_tmp.3489
+- __block_descriptor_tmp.35.186
+- __block_descriptor_tmp.38.2703
+- __block_descriptor_tmp.38.3866
+- __block_descriptor_tmp.39.2723
+- __block_descriptor_tmp.39.3724
+- __block_descriptor_tmp.4033
+- __block_descriptor_tmp.41.2704
+- __block_descriptor_tmp.41.4014
+- __block_descriptor_tmp.42.2705
+- __block_descriptor_tmp.42.3867
+- __block_descriptor_tmp.44.3868
+- __block_descriptor_tmp.4545
+- __block_descriptor_tmp.4589
+- __block_descriptor_tmp.4655
+- __block_descriptor_tmp.466
+- __block_descriptor_tmp.4818
+- __block_descriptor_tmp.49.3869
+- __block_descriptor_tmp.5.2411
+- __block_descriptor_tmp.5.3447
+- __block_descriptor_tmp.5.3503
+- __block_descriptor_tmp.50.2696
+- __block_descriptor_tmp.51.3870
+- __block_descriptor_tmp.53.3871
+- __block_descriptor_tmp.55.4741
+- __block_descriptor_tmp.6.3201
+- __block_descriptor_tmp.6.3822
+- __block_descriptor_tmp.6.461
+- __block_descriptor_tmp.65.3888
+- __block_descriptor_tmp.67.3872
+- __block_descriptor_tmp.686
+- __block_descriptor_tmp.7.4057
+- __block_descriptor_tmp.8.2623
+- __block_descriptor_tmp.8.481
+- __block_descriptor_tmp.80.3877
+- __block_descriptor_tmp.81.3873
+- __block_descriptor_tmp.83.3874
+- __block_descriptor_tmp.84.4069
+- __block_descriptor_tmp.9.304
+- __block_descriptor_tmp.92.4070
+- __block_descriptor_tmp.93.2784
+- __block_descriptor_tmp.951
+- __block_descriptor_tmp.98.3852
+- __block_literal_global.1881
+- __block_literal_global.2081
+- __block_literal_global.2184
+- __block_literal_global.2486
+- __block_literal_global.2689
+- __block_literal_global.3197
+- __block_literal_global.3717
+- __block_literal_global.3821
+- __block_literal_global.420
+- __block_literal_global.459
+- __block_literal_global.4653
+- __block_literal_global.4805
+- __block_literal_global.632
+- __block_literal_global.947
+- __quic_signpost_is_enabled._quic_signposts_enabled.2690
+- __quic_signpost_is_enabled._quic_signposts_enabled.3198
+- __quic_signpost_is_enabled._quic_signposts_enabled.3718
+- __quic_signpost_is_enabled._quic_signposts_enabled.3964
+- __quic_signpost_is_enabled._quic_signposts_enabled.4806
+- __quic_signpost_is_enabled._quic_signposts_enabled.633
+- __quic_signpost_is_enabled._quic_signposts_enabled.948
+- __quic_signpost_is_enabled._quic_signposts_once.2688
+- __quic_signpost_is_enabled._quic_signposts_once.3196
+- __quic_signpost_is_enabled._quic_signposts_once.3716
+- __quic_signpost_is_enabled._quic_signposts_once.3963
+- __quic_signpost_is_enabled._quic_signposts_once.4804
+- __quic_signpost_is_enabled._quic_signposts_once.631
+- __quic_signpost_is_enabled._quic_signposts_once.946
+Functions:
+~ sub_1afdbd104 -> sub_1b0405104 : sha256 9afaacd81ea0ee5c4fd65438f4b3202d6c8ad25234d37cfc34614db966967fbd -> 8c9548796161529e6d1c20fee79a8a11b9e8cdf121c0356fb31ce854fd0221a9
+~ sub_1afdbd2d0 -> sub_1b04052d0 : sha256 eff01f2031738865f489e8d2d46c6b6f38f664308683d5c8131136246088f649 -> d22da591376fa217164e596da2591ce107c7c99a53ce4498880a16a0353e064c
+~ sub_1afdbd354 -> sub_1b0405354 : sha256 b9e517cc55e7a07e8dd9962fa1e37363f64bc334caf3505c0d2eaae442482eeb -> b3a0b30fe1fe41f3c878495e394e9fa7613f6daca69e1eb87deb909e704c3e9f
+~ sub_1afdbd420 -> sub_1b0405420 : sha256 a08fc5e8d65fd16f08cc4ad957821ac9a7e741f7f4f7e1355c7dd5b62c5e8a33 -> 89ade79f1ab2cfad44b83a0643ecba3af43f0b03e1adcb01bf24b512ce3666c1
+~ _quic_fsm_conn_change : 552 -> 548
+~ _quic_fsm_conn_state_valid : 552 -> 528
+~ _quic_path_fsm_change : 668 -> 664
+~ _quic_path_fsm_valid_transition : 400 -> 392
+~ _quic_fsm_send_stream_change : 532 -> 528
+~ _quic_fsm_send_stream_valid : 536 -> 532
+~ _quic_fsm_recv_stream_change : 532 -> 528
+~ _quic_fsm_recv_stream_valid : 536 -> 532
+~ _quic_ecn_path_state_create : sha256 211e959bbc7f3867ca76d6403c286a09056b60595897780e8d31bc432c5bc210 -> e8656e7a60dce2bc8c4bb457f16c5d371bab6aa6cc4710ed67fa6f469e2dced6
+~ _quic_ecn_create : sha256 5e8ecd552ae03c54e0ae006088e2e2509b4bb1bf3936fe93577eb184c0f98596 -> 6ac00ddbe96440ec781c8dda8793fab7e9af4a67aa2092651e64e866d14a130e
+~ _quic_ecn_set_disable_ect : sha256 6a7dc745cd348929bd407d4389c70a899625a1422e1d67e81839ae9713dad743 -> 2fccaf0698ca1ab63b71704aba199e400a41a9368316b46d1c37369c8524ef0a
+~ _quic_ecn_path_set_disable_ect : sha256 a7b781c40203ffe674d5157c0ce6cd55df62e8711f93d1b7b34b79181e2d2b93 -> 880d7a6dd502a7087825042d76d0729414c1ce6513c13da9f6a2fdb9cd29fd54
+~ _quic_ecn_reset : sha256 a000059f9f6675a071c59087b06cd5956f4f45a2d141c98197961eb2c63f6963 -> 66a1626de51e696482b5ebf9c0900156d4b36d9245909cdc079c936792327ce3
+~ _quic_ecn_inner_state : 304 -> 308
+~ _quic_ecn_validate_ack : sha256 6efb3cb660962c753d90f047bf5e6eb642737ee33ac027bb5163ef0cf5d04ffb -> bc6b9528e210ebc5dae05ca7dae300f5f9babeb4f211efe55c1c2edbcdc8201e
+~ _quic_ecn_fsm_change : 528 -> 524
+~ ___os_log_helper_1_2_8_8_34_8_34_8_0_8_0_8_0_8_0_8_0_8_0 : sha256 b20907924d61c405f2ddd5f494622184be01dcf2098c3b6b9dd4bf12a775ea1a -> e6cda38bf04e065bb9c3d02a8eec253015251c238a82d450fff39081a74a5ed2
+~ _quic_ecn_outgoing_ip_codepoint : sha256 d7f7be844cb9da7eabffbc399cdb67bb6b8b4860022de3746de315934fdb87da -> 238b0e809e73e0cd5ddeb1dc8d3eed7f4a3ee0a24eeb22ebaef4a62052a44e78
+~ _quic_ecn_validation_pkt_lost : sha256 fafb6b0a207d89b07e9a42362b98f0f6b423615a40bdc2410fd03583550abeeb -> 21e31d23e6339987b216661d8dd6517f42bf5d7c1a42c9ae6e92f86b84307a4c
+~ _quic_ecn_process_ip_codepoint : sha256 9bc82b858af1852223272d0eb34e40ec91a25ea0b37db794e73165fcf9ccf015 -> 3bb88469032ea8327a901d41a70dd256362e93a34360eae3e2c3bb407f1fca8b
+~ _quic_ecn_get_received_ip_ecn_counter : sha256 ccce59bc4e70508bec258761568a5639d5c645b30c9ec409c6719347d918c3e7 -> 2ec13d0ebd37c6822336f5da12c144bc7e1cd1c65168365a9f5fe4635d13f19a
+~ _quic_ecn_get_state : sha256 67b4f140cbc89ac5988d17d7e4233bbd10e82069dd8317af7e26901ef0d199ef -> c8c6541bf0ea236326db1d822578edb790ed274867e483c0f4b121a2a32190fe
+~ _quic_recovery_reset_pn_space : sha256 98b6963e4c78449f73c370b08a418cac1a9095c34b387fe872c399024a7b4bf8 -> cec678e81e1ef604a5598e0dc932718c1d03ab435d798e0013e0fd717877456e
+~ _quic_recovery_inner_state : sha256 5757e74b97de2669ada75ed471edaddb57b1e4f70f201d04585f84078b5de2a0 -> a875f40cf84e5dd027ca42c6b4e4474f306a024edaa0d365ee93aeaedfd09e5e
+~ _quic_recovery_inner_reset : sha256 dd496ad92b1cb0f5e2a92d7960502a4c84a7ff90bbbabb7c9efe0051f66c0dfe -> a3b35276dcb094a45e210d5f423e6950818181fae8b57365489eb9d0cfc16c26
+~ _quic_recovery_reset_timer : sha256 951cd1654549f865b4d8349166b0b5ca37fa8552dd1ba8736220fd1f90c81e71 -> d792cf38637d898677b1336cbde5137be25684f4cf58341d8f691e87a021b2f0
+~ _quic_recovery_reset : sha256 909a2c62dab449d2721ddbe8f30d998db1bf2460d56de5103ed1f7ddc4d8587b -> 1e4350d94ae0546bcee3a681d3030f5f9e2e9f63af484ebd59dc51dcf62ccd7d
+~ _quic_recovery_set_timer : sha256 721a54e41394631ce81c408cbcd781043636c47db0964857ef97e9fe1ed5d1a6 -> ded024efd23bbb8234ecf8c8d6f54dd55545d4f43985ba8c2bd58e7197c01b97
+~ ___quic_recovery_reset_block_invoke : sha256 620ee70b42da722e0ca9479c19e1ae1f5a1585efcd439baf6a844cdda0ad41c9 -> 5916c96997200411516bc7410a9f53ccd3d1fd5b85c2e2c864feb2871debe1b4
+~ _quic_recovery_destroy_deferred : sha256 c5d999f6dcfe27cf65dd9cfbb75d071445aadc9d18823e1a55086658d5161a32 -> 76a064d2fdfecb9712866786f5a4e35f4ba770b2a3a23161a7a591df70a37352
+~ _quic_recovery_create : sha256 3f4018109a065b19b26905ce89fef826c479c5bbdadb6e375b8c80e390c38b36 -> 031dc160fc601054bfbc6eb53403eca80b7a11bad82e4866a6a0c376f2f0dcb0
+~ _quic_recovery_init : 1688 -> 1808
+~ _quic_recovery_path_state_create : sha256 ba577360d4888143169b57e8ae173571e713fb87b5effc603cb9b24bef9a64de -> f8bbcdc95e577ea8a9588ada89222a95d9e9bdc677fc486eae9cc9ad4c2e5e8e
+~ __quic_recovery_destroy : sha256 1de78a3805a8452b5ac678593342d295a78e933227457641971d3a6008ce221d -> 196c461d52a12c2b6f565c9af5bbaa0cb7457f201bd0477d835185ae34468b9e
+~ ____quic_recovery_destroy_block_invoke : sha256 a8c9e18e033ea2970e6e4892e64c785d0c4418676d041b3c5f50ce4e89a785df -> ca1cddd1b943198ca789c439f64f9e2de66e2a0c9ba43fe9cf3ed79c58e02903
+~ __quic_recovery_path_state_destroy : sha256 818d0030266bda0e471e11badbd8199449322989f3251d298d796340cc03afbb -> bbbfa558eea9fe9b195e242f7ec952fe35e38c232b9aac5bad2ea6054a0dff02
+~ _quic_recovery_inner_destroy : sha256 5e78bf7fb64fc1883df061e90435dc65705f5bc5e983c9d0b6449aa484110a75 -> d60fd9b3946d299e89655aac7344e569f272a98d3136e6cbe97f43e7747b6d00
+~ _quic_recovery_get_largest_acked_pn : sha256 7509d02329fe8df6962d21e6c86cbf5f329c85c1ad4e9664cba277bd6f01e7dc -> 82355e821d151f6e8270b03037fe555114266606ec1301077ecb268bf6a6eaad
+~ _quic_recovery_get_largest_acked_sent_time : sha256 56ab615eb9dad87808c2567ddb5624c19fc6bb22076474ecc172d9b230863b75 -> 79cb61377ff480d535eb04a16f9f9a30357dcb527636e06b8b9bdfeff1f7c844
+~ _quic_recovery_get_ack_eliciting_in_flight : sha256 9505850654b6c7f4fe8fa9d90710092ef915803138cddc07c17c7f8fc9d8ff18 -> 9cdc9032f2b8ab7b0af59b1ac8170386dfddd1c307f89c60c84b2a49ba41c682
+~ _quic_recovery_get_pto_period : sha256 0cca7a9c2e66be68a3762d49d1dab182d767b39eb3cf0a4273f65da0e97d666b -> 4593eca9665ddaa95c7040c498a406584202fee4879681fa204f9bfa02ec2c46
+~ _quic_recovery_get_pto_count : sha256 9eac1f8f9471561c18bd83f9a851b96480722fa054808c2cc5dcd36f0fff8a37 -> a56bc89d380d42cec3b78ebabea0fa370ad53e9c8753d9ef9e4c76d78fc00d3a
+~ _quic_recovery_pto : 5868 -> 5872
+~ ___quic_recovery_reset_timer_block_invoke : sha256 39cdaadffd9543d5112c831445d621763842149ff2f66e5e6daf5cef7f7859f3 -> eaaa204de6bd33cf170342596e57a3392fb38c013e1b4de749d116e588627931
+~ _quic_recovery_sent_packet : sha256 a99140bf94d801dae8ffd6b841c875e88d719ea217c06a0cdd5970aa1933ce36 -> d27616757f3dd677a424c7f305a8d0a25ca818cb71c15c48be5a96b38c4b18a4
+~ _quic_recovery_remove_stale_packets : sha256 ef2431dac09d8f9c4441e92bd26de35780687d4ee235ed4dae216b9de9ece438 -> 64a27edec33ea5f9745b0ed8a502b2a89d34b5344131a5cf489e5314705db0e6
+~ _quic_sent_packet_insert : 464 -> 472
+~ _quic_recovery_increment_ack_eliciting_packets_in_flight : sha256 e4c53632d0ca232c5bd4c3e3355d34a52304f5211ff19270951573f143d2b590 -> 4863f58449ba53fefaaee260e9665dbe2f7dcbe9a1bc86992e9d1c2fdb5738b2
+~ _quic_recovery_received_ack : sha256 88032f11565481301c0ea416fc3ab5241749cb70c18c21ce8d60de866ba9f744 -> ed93b9fac731429b18ed35d457c1b5d07a3fbd26401a9187bcc7565439272950
+~ _quic_recovery_find_sent_packet : sha256 77ffb718d8bf34e37c1b3988ea3ee23e5d661fa4320e5ea786f4a90415bb6c93 -> 6790f2768dac220ed81943ffb350ec70e7ce1b657162f6325e15d738d50b2ca2
+~ _quic_recovery_find_newly_acked_packets : sha256 ade856c2ee79dafb158e614a0d77f17b4a1a2b623f5748bddcd48dfbb8c08970 -> a6c1e5fa89e11b59a4acffbb2bfeb0200530098e1c9a0727a76961d431c19b3e
+~ _quic_recovery_find_lost_packets : sha256 928aaf0fdc8167fd48a4e70443ec98f04829c5e4526530658876686171e5722b -> a5224b220e2f96b5ed1b4c747a65d50872bfc3c0028bf35785ff838a425d2cf0
+~ _quic_remove_lost_packets : sha256 fb94d7c0a33aa4f17dfae917f45772ddf4fcce431562af6346c1298158c7e20a -> 57588f06e9ebc346308911277028f3d55cb4c358f316a2eb1330ce2fee92a9f3
+~ _quic_recovery_reset_pto_count : sha256 b1895b357dfc8eb91a7aae5e5fc24aa2ec4ec535fee1400209b9009c700b5343 -> 8b8cee4b913536105e7426a304b565d0bad6a5480026e33dafbcc6365baeb159
+~ _quic_recovery_batch_begin : sha256 faae1449321f049f133619588cad1b0d3fb7cd1b8303a9d2b8b377256d3e2a76 -> eb867464192f83c837862ee87853d100ef7570a7ed8ca434e8e1bbdc778730b5
+~ _quic_recovery_batch_end : sha256 17d10be6bca60f03237e955050f0b59127b090d0963397b47d651516a87ffb83 -> 2ddf5d53b43f132d11f66a0df8c60ae17ed61b1dffdeb1a4669822d7b45c615e
+~ ___quic_recovery_reset_pto_count_block_invoke : sha256 73167b898fb8019deb103d26c157d1677fea92fb7f8601a581dc4bf407be6b21 -> 827657c96801cfafb2762dc7caaa9ab605f9d77161715fc059d28723fb504dbe
+~ ___copy_helper_block_8_32r : sha256 1da1a2ae5c8a3915d485a34dcfa543a2240e4763a9f8f2cbaf486350a3aacaa1 -> cee68e2b3324868025dc79af497d2b72896422da0de5cd8df0867be2048e0e31
+~ ___destroy_helper_block_8_32r : sha256 01a6ffa7f2ac76c55ccd8328566a8a21882443b6522f8561c5f19853deb5dbc1 -> 3b7ce3f937231f0d31bca297524fa732e9e263e9b327f49f4e9de738f6f2881d
+~ _quic_recovery_decrement_ack_eliciting_packets_in_flight : sha256 a7b03a1b873ee89f9b80f33218f3237c327f2f7331ab9822635a2db46c38d072 -> 3c077d9b6c93c69cb0c29c140e52ac1d7e9d15f50701fe4f5426a31759382c51
+~ _quic_recovery_closing_path : 612 -> 848
++ _quic_recovery_declare_packet_lost
+~ _quic_recovery_declare_packets_lost : sha256 9bf7bcd729dc051238f426f8cb18520bbd72866ab7a59c5381e2ea13fc542b0b -> a6e7da9828c93b9ed2e95a28f0ab5f7c8beae6f7459bc995a77252ac710876a5
+~ _quic_recovery_destroy_pn_space : sha256 fcfb0e8148a87b7de06137109b3cd60b0e297b83319ff7adce91b5e48e7dc77a -> cf74bceb79430843672c683927375eae6e8fddc2e4a2fcef7d2dcdd49d1f299a
+~ _quic_sent_packet_remove : sha256 d2b96416734ea4057b128f2f45544b6693696b7730bc675a14cc47d417ee018b -> 5d02cc9d3ba053388326f185a904227bd4f1641f777a5429eebb231a1c01e0a0
+~ _quic_recovery_prepare_rxmit : sha256 022266122ea43644df828db6804755a6f7b9f853ed033fe75a31baff4f5a1345 -> 9b5e0713c2094de1e4b83eb4cb0c3af7a452e0e2425c68133e0b7286594e08c7
+~ ___quic_recovery_prepare_rxmit_block_invoke : sha256 f855479a5ebb270ef26e588d491832ef3b3d6ac3e3ba695b5763db2f5aa9d596 -> 89dc2837539c2938f503843b0d79547fb5d8c4b829a7b2feb3f272f3eb07a4b6
+~ _quic_recovery_timer_fired : sha256 e3bcc33f5e6bbd6781e80ab0d2b39caaf2a2e2a164243a9025e9b122e30dd786 -> cfe340f67f51f49537bdaa1e8b957cc65e38006cf9458169adbc2e10b861ba5a
+~ ___quic_recovery_remove_stale_packets_block_invoke : sha256 422295ab3ea006cff448e42968afaf2066b39bf16a385c886362078102012498 -> 8745bf0f5ec620b7293ff3e1c43fb0c3fd9249d5451ddafd4dc32820aa09f609
+~ ___copy_helper_block_8_32r40r : sha256 c9b170b4c8fecc8344e45320b6ca0ea9cc4e7ee71f8c8aee22a87520c1c15d64 -> ef7b2126daf0f25514c085b5ef0a468979dac79c8ad55cd015b434fdcb47be25
+~ ___destroy_helper_block_8_32r40r : sha256 54ef44279f8da4ba56a2b696cc8efa3303afc22ddb9f60374920e2c70926f640 -> c80402c22cef64a9cd14a2fc3294c38083eeb7b805eb254b65e89dc6a805fc53
+~ _quic_spurious_loss : sha256 9b9714f0dd26c75a7d6b53ea6a278565dd2c036af18918e15d58c59d3b5623b1 -> 4b0473db2795434182f808011b7c71562c1e6e6a4322e21201a5186263c7db88
+~ _quic_recovery_packet_acked : sha256 0f3c5dc7048361476cf855e8b0ad5debd4316e8fa7d20abd7dccd5e2cb0bcfff -> 99825a0955be1c793401f236bd1366d07efe568b3b3c8ef5c56b4b3816fa9fcd
+~ _quic_recovery_find_lost_packet_inner : 1816 -> 1432
+~ ___quic_recovery_find_lost_packet_inner_block_invoke : sha256 cd8098e4420e9aec87ab4b3c9aae998d5ccbc3125df2a3763f81dc3f2caa62c1 -> 455467b05e4eb2a6954cb874c2821482e44f786d50d61731eb1e3f0e29281e60
+~ _quic_recovery_notify_loss_to_path : sha256 dfd947a19f70d462d9cf6cc914cfbd3ac42b2b9b56e2ca9a8b580dc3a5c2832d -> 0fece4c5cbd5abaefbd402b713339dbb540ce8a33abf53f9eec8985a122421d7
+~ _quic_migration_create : sha256 dab5e34f2203f7ed65b5c264950c9a9977ebece61f8c711013e4dfd919f09a5e -> 99bb5f249c0f3dab5a234317a84307a35d7c4b14407351e356b8d5a250419543
+~ _quic_migration_timer : 1064 -> 1080
+~ __quic_migration_destroy : sha256 e70de4eaa8a89cf54e4a1bfa62668a52089c8e26f6966e1ee39566731ffd2859 -> 27293182f9de6bcb23f923841f550722c656490abeca9913604c87c49d280a88
+~ _quic_migration_disable_active_migration : sha256 b6181f2717262e6897c22229473a48748cf0c4b509348490a5089fc91118e3e3 -> bab733ee9db2918a464d7d6275d0b793bb0d873033cb071cebbf093cc4c0da8e
+~ _quic_migration_add_preferred_address : sha256 822972f60022c03cadf44b91d93133cbdd108384508bf4967e031722da8daebe -> 86490a6f2654efc930143661371143829eaafd7c552d703cf7b7ed8ef5f71ff4
+~ _quic_migration_pulse_start : sha256 c5f354df74206b753ace6bc905e768f8f40103f715415965636dcd3c764e4f81 -> 9fcaee31dc90a37c3e8a88028a036196d6b0b8faec814d4868a948aef168fa11
+~ _quic_migration_timer_reschedule : sha256 4792a4ac15aa1769ebe2ddb00f1ab09929780b6765fe96a396929f7ca07c2291 -> c66e8b771c34728863967d8fd4c3ccdfb23bd4d27b939eb98e1543599254dfe0
+~ _quic_migration_received_challenge : 2800 -> 2832
+~ _quic_migration_probe_path : 3680 -> 3676
+~ _quic_migration_fallback_is_better : 2480 -> 2516
+~ _quic_get_flow_stats : sha256 427d6cdfbc7a5887f584a16d784b8ccdc3748fbdc788386e1e050ad77766c7f2 -> 1df9095b4aac18c391b8c936610ee68c3dc7a1309939ad4d7306af3513d9cd98
+~ _quic_migration_evaluate : 5724 -> 5776
+~ _quic_migration_received_response : 3448 -> 3436
+~ _quic_migration_has_alternate_path : sha256 18c0fb216417ca678b7848b10ed58a3c0dee826614fa4886504156ce8e0a760d -> 90c64975a428a3baf4a1636c57f4d35e714a5f0fa7bd335bff70f239ae609eac
+~ ___quic_migration_has_alternate_path_block_invoke : sha256 e69383c3a9679f54f256b9ab2fad36d4c68dc581cb9be3fa35793c34cbb3abed -> 4723a1d338a9acd00984f8ca09f4cd8abbd5cf1379d34e9978c57bdbf1087ce5
+~ _quic_migration_prepare_parameters : sha256 de82d2d89ef0236a84709c8ab3aca2e4de80f3023180c02c4ddfb9eadb206bc5 -> 5e0882a207aa581d17da281afe2621c660d406c87050809e24ad115d3a81d481
+~ _quic_migration_can_migrate : sha256 e61e80c0c5642673cf165e046a30bd81dd50c68b05e29a69aab719c6c6178033 -> 840adacf50fc6bdc68cd7ebfe8f952876c11f46f503a445d130d32ee96b8cdb7
+~ _quic_migration_connected : sha256 bae989710448caccb8f970f2dd4c430276d49be2057232c775f50cfc9655c933 -> b0ad25e87698b3ad55ba9c21bb78ab7af6f2bd5e321913140d208e24ad9862e4
+~ ___quic_migration_connected_block_invoke : sha256 399dd85915bdb2bd84af4258d9896b248e70239dea04a3b79ecf7c9f4e377f8a -> 66e1b3bcbc36e30cd5618f1beb43a8522bd3c9758c5b079bf737fcb7db884944
+~ _quic_migration_disconnected : sha256 402b25dd1d66ff8e0f0c47b9684758489754520a03d1f4fc683f27f4a9f846ef -> 52ee2cac90f7609c11f42223cebc634bc648d22d23fa858f43eef24f5a987865
+~ _quic_migration_evaluate_primary : 848 -> 888
+~ ___quic_migration_evaluate_primary_block_invoke : 92 -> 152
+~ _quic_migration_migrate : 2452 -> 2508
+~ ___quic_migration_migrate_block_invoke : sha256 2a509337ad3554197c12def5ac9952d33750e3398f8a957fbf0ae9c5e5004160 -> c9b3ea3152866b939f81ac38b04a44ec969ae5ff315219aaa6be4952d5cc2fe4
+~ _quic_migration_report_event : sha256 38226bd4e4821309354d9e3232928d640ec9eda966f14cddf68ed24a6d5a8d37 -> f2244539fbeb63cec17b867559b7852e81f835efbd6c4c9d42ddb5afca0919f0
+~ _quic_migration_tear_down_path : 1300 -> 1304
+~ _quic_migration_pto_event : 656 -> 668
+~ _quic_migration_keepalive_loss_event : 1536 -> 1552
+~ _quic_migration_new_dcid : sha256 e8bfb2f79047146e8c67df2d9d9c1133981bde597b286ba5f1f4a214231c2d82 -> c233dc25cccd4d0d3909692e0850021b40fc9e7a24146abfc485e5e90e2c3fd2
+~ ___quic_migration_new_dcid_block_invoke : sha256 0607c1750ab4dea43b28cd1cf85140601e9bba5f0d155c120bf97239535352f8 -> 4ebdbafdf53e7915f3b397688f00da2d65b43a4ec7ae89640f1a990e518b8b9e
+~ _quic_migration_assign_path_cid : 4880 -> 4988
+~ _quic_migration_retire_dcid : sha256 5a206429b65513cb276ed9de556c1d90fdfa111c04cab98f3a2bdd72f8290fa4 -> ae77760e3d8b5f29c9a626c35c8cf5936502bcc3d4cddbd60d98fb3f112a5434
+~ ___quic_migration_retire_dcid_block_invoke : sha256 3ba1a5ec72957069902b3ca626644cc587a5654eb3ed7ccf33c19992db156f8a -> 25eda4d956245fc7ab2016999c228cabf78359196d6828aad2643da560b685bb
+~ _quic_migration_retire_scid : sha256 a789120f5de81bc9bfa39dfe1013467a32ba1369adbfe7e63d68e53f86f2d21d -> a5ac97a2ff2190dfc148e61147fd61a8d766884ad18661fbd241556fb28f6c82
+~ ___quic_migration_retire_scid_block_invoke : sha256 bcda13ca1f1f39fa8fd681ef0f7096fabaae5a0f0ba402d7986d62232f7b35e8 -> 4a6a8151edc982538d62da7fd3a5802773193c2e4cbc7250f1094ce7b2608b11
+~ _quic_migration_path_available : 2916 -> 2940
+~ _quic_migration_path_established : 3900 -> 3924
+~ ___os_log_helper_1_2_9_8_34_8_34_8_34_8_34_4_0_4_0_4_0_4_0_4_0 : sha256 1842350d8f1ce985726486f185503f04b02fa2beb792ad137421fd3b9b6a699b -> 56614c37634c52564f49f2600e83083f5708547875b168ca8479417a771dd013
+~ _quic_migration_begin_validation : 2224 -> 2252
+~ ___quic_migration_begin_validation_block_invoke : sha256 e8928b67fcef302aa6a275aa7de71e885816dc2e9f54fc984b797fb8f5301859 -> b6122995292d5d8982a65a7b8c6d61ba1bdb14b5a4d1ef41ec176a55de056d3a
+~ _quic_migration_path_unavailable : 1312 -> 1324
+~ _quic_migration_path_event : sha256 93e57e18958bee529c507c67ef16c14bc8cb577efbadec0e158b1e4532885246 -> d383b348e0d57b3eccb25ea99964989bfd0c176f092cd293089d29a66bf00b1e
+~ ___quic_migration_path_event_block_invoke : 2748 -> 3020
+~ _quic_migration_is_preferred_address_path : sha256 af11cb6a80a6e977b89ea3f8c12112451878220b56419b796c7497f0c9f6af41 -> b4ed801e4e266e18d96ba38b7ba7d9b282590ee2a86e24bd937d6482ca3bcb48
+~ _quic_migration_high_path_rtt : sha256 9753abad7bc29e773002846504a7c4b3de7fa40860cd590fecae0c0ad4f1999e -> 3dc9eb9621205ba83de2e86f2cff679b690f39c9f8fbec7c033a50072a9b71fb
+~ ___quic_migration_high_path_rtt_block_invoke : sha256 8bc1d0151bf736601920957731ce4158ea06f3b6b39e2247c68ca47fc5413293 -> 5a2878da4f220de92f8f775597b324766a9191a822882c09e02d76f540b56a87
+~ _quic_migration_enter_fallback : 960 -> 980
+~ _quic_migration_fallback : 4044 -> 4096
+~ ___quic_migration_fallback_block_invoke : sha256 64002153a4274fdc642f88855501f5d67d7b4398887ce576c15689725b945311 -> f16688b25abad846bd0398626890b478b793a944be45570c9e2cc8778c8a6952
+~ ___os_log_helper_1_2_8_8_34_8_34_8_34_8_34_8_0_4_0_8_32_8_32 : sha256 c185464ee23fa689613eda273b165a34f194e2050a5e17eb18bd37a86fca737b -> b273bcdd0feccba0284e416a6df096850b7115cb7976849bc395fdd0e6d9568e
+~ _quic_migration_fallback_event : sha256 59a90eb4cfa09fc10ebcdeeeb9fa2a6dbf6a9a50c994038eb69c00ebadde0963 -> d1248865697e5c71ab4f0f6ae38c905f3dfa29a3530c43f924831381c2a20d96
+~ ___quic_migration_fallback_event_block_invoke : 780 -> 788
+~ _quic_migration_trigger_validation : 1356 -> 1376
+~ _quic_migration_handle_error : 980 -> 984
+~ _quic_migration_count_in_state : sha256 ef60d616576571530e1664eb669f95a273e8aee225f92841b40a80bfd1bd77d6 -> bb9ef58aef56959fea2434518bd6d605fdc572fc26e96ec740e513a3fdcdbb05
+~ _quic_migration_fillout_data_transfer_snapshot : sha256 4b35313eec7bffd282498c4fb52a2adaf1a2832b8952f25eac92850f3b5aae99 -> 67662323c7c758dcf3fd7d5e6a2ee89af2efbadd4fc5e770662b8a32ad60c2a3
+~ _quic_migration_get_multipath_type : sha256 ffd5a69d57b879ebd0f28b7b6f9cdfad4dba92120d6e0c75e15d4d6707feb961 -> 032334764e64f724a5b284dd1dcac64313ec0930cee8a858c01994373ca578bc
+~ ___quic_migration_timer_block_invoke : sha256 2fa6c389f6e130fb2005dee5e41e161cb4c337cd11dc29027b9135d9451339ce -> dc5e57c7922bc1a50443cd846b62e4c72d428c292ff95f481a3a270e5721a150
+~ ___quic_migration_timer_reschedule_block_invoke : sha256 4bf7c59e4ab9ef7c0d7ed87b90450a96c195f4c3a5719b8201aacedef4c9270e -> f7a1e03333f7fac580899eba059af79e49e09c407a92ce388f0e0fffc85d4d5d
+~ ___os_log_helper_1_2_14_8_34_4_0_4_0_4_0_4_0_4_0_8_34_8_34_4_0_4_0_4_0_4_0_4_0_4_0 : sha256 e2f798b5a2a31393ffa32b94842cbf3cafedad1230580fc3b85ec164425415a4 -> 13b88a9393584f61f049e834d211a10ef34372cf1d1ef7b4cebed140a5ea519c
+~ ___quic_migration_evaluate_block_invoke : 1332 -> 1348
+~ _quic_migration_compare_paths : 112 -> 148
+~ ___copy_helper_block_8_32r40r48r56r64r72r80r : sha256 034992cc9514516045df762dda221279c97c4ae2ae9275774fce98b1f14515b2 -> 6e044543290a3591a4e93ac4f01ba83c1b09c10a6e01e701169bcdd8a436856d
+~ ___destroy_helper_block_8_32r40r48r56r64r72r80r : sha256 ce7e16102b597b8436f198f634e2e76d7cd039118c901e3711a6f1da24507e66 -> 9c99f77fefa891415f3e9201c64dc3f6d1e5fd34542ebee1e76776bba2948dd3
+~ _quic_migration_establish_path : 1324 -> 1344
+~ _quic_migration_establish_paths_with_priority : sha256 1630aa66bcb154efe43b4c5e466b62cb08c290e59c18afdbd21895234ebbdd6f -> 121307782613dacb1ab0f811ea1bb74ada98ad18b6c64fc1d4cc58276bfdb800
+~ ___quic_migration_has_better_path_block_invoke : sha256 1384b4031f28649e8b6724c5c0c0d2e2c88fcf494f26aca2315759f5e6e5f61b -> e1fe68f96dbd54967818065417acd102e11cb8a0c23c508fea06a336f824eca0
+~ ___quic_migration_evaluate_server_block_invoke : 876 -> 888
+~ __quic_migration_evaluate_server_block_invoke.40 : sha256 c6e0219c28cde1965b57f0c3f68835d14d6d39dedbbbf8e3878e74259ed59083 -> 877dec4c771200d75aeeba0d24b3ad3f72e4939437ef0edbf95c5f85eefac6ba
+~ ___quic_migration_establish_paths_with_priority_block_invoke : sha256 2a14c359e1f2dcbf14035a22aba19f54c9ce1ca42592a3483ba948841fd8e93f -> 67d87554c7c3413a0757dbce2b9642ac5b0f6cd78b0634773ff6d5fa361e4d91
+~ ___quic_migration_count_in_state_block_invoke : sha256 f7047f4fa8919f0cb458bc1a7f8af7f254810e72789f2ff1f82e18e6d1972644 -> b83822b88b16b24d3a2e2cde3c9251cd33a91a6ee22c2abb825284ff50accbd9
+~ _quic_now : sha256 41de4621eb340555109ba5bfe3858a175be3387a3a523b9f5aeaadeda72bb161 -> cdee5108cb5546ba4d25f50ede541f44973ccaa90afccd1e130032e9d21fefa4
+~ _quic_timer_create : sha256 a9cc7930dcf4edb7594fb5f1a7cc6ee9ce09328a0eeab625a5b44b6da44797e6 -> 4556e4c4e80ec0030232a4c2488fc5e453c588012b256c67a70dc93310ce25a3
+~ _quic_timer_run : sha256 067d3eb9484d7a0c7f3426a334a69c060afbcaeba5da303ad637d0b9f949e2d5 -> bc8e2a96d8ca9227dbbe081717d3476f82d5b25901ea8d8bdad8e89984f2e000
+~ _quic_timer_stop : sha256 8960ab07f60286d566fd53aafc099beb017e7e26e473b459775b1af8665f37b3 -> 9ea9718ffde449c1b38ec6876477a3f4439fd87d2fd6c1492bbb1e1b976696d7
+~ _quic_timer_insert : sha256 2f30f751559866bc7ff61c4a2bd55a62e7d78121f378b34ba760fc7f09bfeb19 -> 5d16549d5f37b94fb4b1342935e642e9df5a0fa9ff893c1c5167a0450188e097
+~ _quic_timer_recalculate : sha256 8751f79672aad61f783fa0379b4b0577b715d688f2a8287b8b2395fa15828ffd -> efbda61d4c9aae3356d17a09501d30908483d642931d613b8475e3ceb0ddbea6
+~ _quic_timer_reschedule : sha256 0dfe51750d29a500a9c14095e38bd7939a24c2b4891c7f0ac5c51e465450d7d6 -> 3edd5efc75764aa6316c8d20a372abdbe7021a682dd1ad680279892780ade742
+~ _quic_timer_remove : sha256 1237f1adf2e28a17449b2b4faee212063bba3f8c4f7825ff6c712e6fe27c908c -> c974a2d475defb96738080f3cd8c0fe92c06e1e5cbf8f06a715ab94359d238a9
+~ _quic_timer_destroy : sha256 6e4fc06f0b5e4a24332f4427a9ea7d28a5d55b8abaf1e6ee50a18efc37fcced9 -> 1cc082403ef76cfcc6e5b96a57f93f9767e1f787dc867ff7e807fcd475b6cd38
+~ _quic_time_delta : sha256 02b7876a7cb9f1bdc5d9f61152781a051d2741f368da2f55fc2f60904cae17a3 -> cee9ad587688c44d3acc0047357b08b5902e89747e7445449e3af7c3f3cdb789
+~ ___timebase_info_block_invoke : sha256 36ca39bf1659ccc2fa34cd0c51a64dec7b31959465303b3ed3e7123e80ce5869 -> 247904122d877875e0689c062d2d53b9cfbe38686b7795a04e3affe0e013092c
+~ ___quic_timer_run_block_invoke : sha256 9075aa47ca8401dbc4a139fd55aea2b32dc21f1185d5355fd9f75aca42a74ddc -> bd4c139c3207204391d50c6d131d287bde0811f6ea9c23af914309aae85875b0
+~ _quic_fillout_definition_callbacks : sha256 49d287eca90e88cdcb058cb461a17bc6bf33b12266a0ae352021702839265e1a -> 0d092461e8c20bc4bcd1c2ea82e9a9b0688e825d2d5dd160adf5228ecef60913
+~ _quic_protector_encode_label : sha256 f4a0a7f05b1e74cfcb5738449365365a4a7f64b00a90e827a04bf3d282552682 -> cfc3b465dd11f793558f772ed83d86e206292b604e33c1b51d1e8182b3889835
+~ _quic_protector_derive_initial_secrets : sha256 e431e3fa264f8a522a4e5cab8882dc6f1ee49bc29e1a6cef83ec6482c95eda79 -> 507860a1be885ffc505740167e7597afa3162ada82bc179a10ce6b2e0bf02a2a
+~ _quic_protector_derive : sha256 5d4538ffff1c286d8db9021f983adeea6dedb3b12a8e095551566dee2f9f5944 -> c41f99bd096a22461228d280bf6013a88726a6d5a607ccc383e1abacec3d06cd
+~ _sec_framer_init : sha256 3a1d94118fa63ad29ea8223e1a1d2a44e533b4274814fcf7e32b8b93e993e595 -> 972936c5b72eb54b508ff6209fddbdff8840264e17bdd21359c711ba36bd7424
+~ _sec_framer_set_iv : sha256 de28a87e864ba678211ff1d18b19787118b8f1533b4c3001d8dca7f2b8138074 -> d942054563e8b1ebc8db314eb97a0a37463e94e2c74f24a98d9f0fd4387c2347
+~ _sec_framer_set_key : sha256 404221e7a5febf256767adff5497b316210b79189f3658f9da1f2e86e690918b -> a52ff889497d5d9a1ca29c1aeca6e0cb2956f403c78908603009c613da7cfa54
+~ _sec_framer_set_hp_key : sha256 580ac334a2a24756381138b7accf65034cc24c200126b15021cd08c7125cfbe8 -> d7fbb03f141bc956ca18cd5b03344c2d266d83a279a31b2bf07dd94b3c85b2e6
+~ _quic_protector_swap_framers : sha256 b997e6acd77ca0cd93330e4facbdac82f2f565fb7bf5c636f1431ce8acc08b02 -> 1faa080ed2d1503e16d828d0d4532d37272d55516c781a3970fb42b5b0a3232c
+~ _quic_protector_create_server : sha256 a6839255897cdd5c9774d86e1385786ae24c912d4999ab9d2bbf6b93f73b45e3 -> e994bf23686aec799f06c168d040dfac1535ed62f459be841cdd71e2f134fd0d
+~ __quic_protector_destroy : sha256 8526466c6dd7d30390ebeb4bdcf0f276ac6a075d7ff3881d781fba52ffe7050d -> d98db8ed47bafb4e270d8160cd7c0dadc9e1cb9d4afb095e0edffc7e0c05077c
+~ _quic_protector_key_update : sha256 ea4a6d8e963949c69940367d6139bdf9c58ddf604e3cd3fe3f522139e51a16c1 -> e40d09b9379fdbdea8ab6b60fd6235beb7e2c94c11f7c0f718dfd4c9ed5f1977
+~ _quic_protector_qpod_key_update : sha256 66b7357f556d6e193911747f4f331f3ccede7cc5dc92250fa831e0c800c7572d -> 9d867c0339157a071967ff9542f0c0f44150f0682c0558c17725f4accae82f93
+~ _sec_framer_set_qpod_key : sha256 e79f08dafb0b877f6b8f08af124d3c4a1356a97c4b25388764f46d8a5439b700 -> 04b79a279fe3844f34fd476c82a9f70f993da13bc4dba7604e20d9160247ffdd
+~ _sec_framer_set_qpod_hmac_key : sha256 b2b4a07a631df137c363edc91bb05c290c1ccb8c82efce9ed5c6a40451ccfcc3 -> 475fdf2f1261cb484ceee453b8d85caa5200e358d450400553bdb1cc83b93c0f
+~ _quic_protector_seal_key_ready : 288 -> 292
+~ _quic_protector_open_key_ready : 288 -> 296
+~ _quic_protector_keys_ready : 488 -> 492
+~ _quic_protector_advance_pn : sha256 7d482891b6c833a9f77b8d91a1bb826fd2ed365516de43e346d12da0fac4f566 -> c81b83495fa015ab3cfd880c5e919183602ca843a6e5fdb7262b26655d20e25c
+~ _quic_protector_get_tag_size : 308 -> 312
+~ _quic_protector_seal : 1852 -> 1844
+~ _quic_protector_prepare_qpod_nonce : sha256 ca35068ca01058b1f4e1889821d9cff0cdbef7ec1a8f84013b8fac183f00fb44 -> 06ebb9a3f158eb009d8f9133e39017509f9c92307d56bb48a72a8a298a85499f
+~ _quic_protector_prepare_nonce : 1072 -> 1064
+~ _quic_protector_open : sha256 9424f9a08d708540d947861b60c33c0190ec1ed53a7bdeae6d24642a7a0d921c -> 5d1424aceb7a3cc177d578d9f735971eecea00e6071f82fb58fab52f8f5cade5
+~ _sec_framer_open : sha256 cafc9ae658e6e1ab5b88deadaf5be9c423da64ccfb61da41215500d5feea4a7c -> 509ef9121ac53a642e3dfe6d0f43d2e7c24053b4357f07ec051321bd2fa72fbe
+~ _quic_protector_open_header : 792 -> 788
+~ _quic_protector_drop_key_state : 476 -> 468
+~ _quic_protector_traffic_update_internal : sha256 d8b515ca08557596b788983a5d6329a0646bc99e071652ccf793477fbbd1539d -> d6c7e6152d4aac423c0b7b18588dd33296cea8a2fca027d567b28bf1825e3a84
+~ _quic_protector_seal_retry : sha256 4d4d9102efb5c92ccf1126bb5c13dcf75620d24a0b8204681d5b0ee0144ead3a -> c52d6ddc70cc72738022ad2e0ca1f6d9301fbc72ad8374efcd34babca43d23da
+~ _quic_protector_open_retry : sha256 31f2f687e6545ef4256b6a557eb7fd6c3aef79ca1c7f2dac6829144b65f9d7ce -> b8ac1cc8afcb79844c54791c4a63545e96651c964fe58579659a87f5f0fdfee0
+~ _sec_framer_seal_aesgcm : sha256 437dad5c618fe372d67c98aa8cef0f285c02952fa6f7160d40db36cfd5764295 -> d70f4302cfc9200eb9c8254437f99cc016cfce95bfe6839f001021689a515918
+~ _sec_framer_seal_chacha20poly1305 : sha256 2aae7d46c46f581b8fa1d25ac346cc97db162e05f93a2f108c64c4e3bdebb944 -> 43f178a387fcd47988ff874c88fca3ce76aad19fc84df86d99572707bcd320c3
+~ _sec_framer_seal_qpod : sha256 f9bc17b637c4f5c03f5b9c26450ddeb40f9b29611f100a1ccd3cbf207889369b -> 23e4c925cef94369d8bc12bb2656025414e70fbc0aaf4f55a2ca755d26e501aa
+~ ___os_log_helper_1_2_8_8_34_4_0_8_0_4_0_4_0_4_0_4_0_4_0 : sha256 d473b8d4578ff5dc39db5498097b605fc4c1546629535445d1fee9be757dbdf7 -> b5fcb48c62d96929f11b0c97d0d8a4b56c53b42089785fbbfda641161a20ea8c
+~ _sec_framer_seal_header_aes : sha256 bc9f17a178a1ea127e67275ad5d7efb69819eb4ef4000f85829fb8d162f4788a -> cbb5368f4bee19e8b631c4bb925b41b84fab9f1565ca5989273e580bc54dac27
+~ _sec_framer_process_header_protection : 396 -> 388
+~ _sec_framer_open_aesgcm : sha256 e5659948f94060914551a5843d162f28a6f474cea0faa83e55142283921a4c03 -> d1db6ae118ac07343bc10c9451636d6edecb4d589e6bc8cd8115641b36205db9
+~ _sec_framer_open_chacha20poly1305 : sha256 7e97e65b158b49c56d81b9059eb5dc974bb0348b1e1a48c95cfacbc8fb77672f -> 087bd9f697a370b28fa4a62850e24969835faf37a8a04f12b6bcfd470948b2be
+~ _sec_framer_open_qpod : sha256 fa2fdbfe330bb90c5dd01d7a4a1dfce3189eee3a2c619d620c15ff40f931fbd4 -> 0dbe9ec19dce657a2270039983e265e8d60e0e1670a96b3fe2a08e8dd8d8dd62
+~ ___os_log_helper_1_2_9_8_34_4_0_8_0_4_0_4_0_4_0_4_0_4_0_8_0 : sha256 1a8b859d4809d6ba8bed1a54ea20a96ea8a71f7999fa68e3e67fab442807c0ca -> 89d1d5ac203442ff45d9006f0aa810c640541f8dd46e75b5f277001f0e23097f
+~ _sec_framer_open_header_aes : sha256 9bc69b29da59d55afbac189cd7f6b9c7bc7195d1209ba4c62608e3cbfd59fb76 -> 7975c33dce981914562db844ab49c941109326da7345147637a4d091cb2f8b32
+~ _sec_framer_open_header_chacha20poly1305 : sha256 44282041570fe3ba2718c7285af7b56b3baaae9ea35fa5cfb770fd3a2ea993ac -> 62d95fe7d6fb7806be1605a54c4d3e3eb5de9cb5d658d910f4bb8824fae6c67d
+~ _quic_cc_create : 688 -> 704
+~ _quic_cc_get_name : sha256 79d3d99881b05c7f270057df58e7372b94f3643c53bb95fd66f5f1c75769b494 -> 40577daed188f65c66973fdc8f7eee9161087fb3bb797cfad667212b02a292ae
+~ _quic_cc_switch_cc : sha256 aeabd730213a87c6048864680c996db53ccfaf6f4f62baf75273f76cfa14b464 -> 44570e1289b5b6ccf0f082af9373b8c270f11c2906b51e8c7bd8fc80db9931c7
+~ _quic_cc_reset : sha256 d776569294c067fb887460fa2fbcc1ef2a834149578ca9b1b16e6d7806c974ca -> 034956c113706d200b503a5c794ad077e3cb43a9344317ee918d18213987e612
+~ _quic_cc_destroy : sha256 16202ea3193d0ff4928590e6764ec3297a865268ea8682a37462c304d2ead7bd -> 929278b2c58c0ac84e8bda22b129ea1ff6bf401169e99cb8a0617b0b86e35608
+~ _quic_cc_mss_changed : sha256 e7ced6d3a5551f003494c350d4aa834257ab65ca57ec9009ef85fbd053afff95 -> a27b1702eaac2870f8d29dc09b7e066e617e3c70e70f31046fa0b2558336e2f7
+~ _quic_cc_packet_sent : sha256 c5c3931c8a4fe216a7a1eff5cf5c9fe32afe898d0cfc36af2c51b1189951d8eb -> 508edb64f54ef236d9ee9fcf5505637ad252424e4d92a0dd771059101f418a68
+~ _quic_cc_packet_discarded : sha256 79f588039d31baf29bb9660bc1f753a2ffc83ba0ab5a192d2bb5742d87ce7638 -> ee41c468f03dade240fa67114ffef4454916c36c02bdbdf5a5309b37bc1b2bad
+~ _quic_cc_ack_begin : sha256 9b211e1362510816fa5789c50c057885cc305fe58b017cf64d4535dd86efb4df -> 264c2f81a5d8d4255918400b6a75e988f3aff62ad0b9a004ff66b57d72f3c08f
+~ _quic_cc_ack_end : sha256 cc9bd4d440fd1ae685adec5bd22c2ced40385c65cc658d729ef2164c8ec41b78 -> 7def376fd02b71afe27c01ea87ef7abd615dd1ec129f92e4e9ca6c668cb5c7f3
+~ _quic_cc_packet_acked : sha256 1fa57c4a616c6f8062a4b7147e6b00585f5cfd5878c388574588b156ecbfde3c -> 00dc094713bb51d8c7235282aa9dc462da7f7352add7cf10e1d445582626fee1
+~ _quic_cc_packets_lost : sha256 093ced6009607c87c52b77cdf4bd22eb884c8b34c7a7d41b169cd987d7ae2931 -> 05c8d0afc377e436bbc48caff2c615ccc297a6cb4c890a5eaa99fea5f6cad933
+~ _quic_cc_process_ecn : sha256 cd1fe4c661af01579401068a8e7dc6162a294783bf6fd625a8f2eee1a84b5dac -> 2344bd50a544fdfd3c1dfaa1f833cd9e6f8abc1acc759f0af7178bbd4a5e2631
+~ _quic_cc_link_flow_controlled : sha256 eaf57318d4165a43ab2699710bca2640dc0a47b9c30e0529841ee57b501e7b0d -> 8c8e7a3e07d74657cf49b7c0b1df40d6b79a6e26f31964b4bff56b142dd0382d
+~ _quic_cc_process_link_congestion_info : sha256 596b3a301aa30a0d34d75129252f710333f5b4baf55b4413579b4f030675688e -> fee315f5b28d4e3768de4ddf7f4a570cb1efa08ab4d260063c0e96e736f0ce75
+~ _quic_cc_spurious_rxmt : sha256 1484aa5fcab16ef4976f959b6ea57c1486518c29c4e92bb381b1ec547bf6be5a -> 7e1da6e99d8c97b95a5935740e5de326224e126f4e974e6aea52fa6abf7b2879
+~ _quic_cc_persistent_congestion : sha256 7b50ce04b286ac4c6df156e6ccfc65305c5ced8669bdd819fa1d9ff06ffe5d12 -> 36127e94b47a1c1c8062cb0cd0df3dd1534c0b1773d4c987ca4f486e8332497d
+~ _quic_cc_idle_timeout : sha256 8626d3e896f8d17e380e8e7892c91693eeca98b33a69d7390f77dcac83031a05 -> e5c78c88bcde839b00c7022bb8288255dfd91deedffd3c3ff32d042763c08dec
+~ _quic_cc_can_send_packet : sha256 32a1ad34db0117b159ca1ee41e996e2c4b83ecddd2f6894c3638ebd65bfb41fb -> 41abdfdddd2496ed657de5bffc67ced2e83060f7ca01ceba05774ace612995f9
+~ _quic_cc_get_cwnd : sha256 8028c0744cb16cfbe5ec9a026245f9e2a6960e4ad1ab7b4e9d9854e0dbe458f9 -> 369783a2c17f34f3bdf25859a86d5fc6aae7eb052ed26a79189b156b41f69420
+~ _quic_cc_get_allowed_cwnd : sha256 96fddbed70d100e3a0ad5325bf9006aea1d13d2a05a71245050d91f4ce14a137 -> 3f7e5f658430d53ff5b7d9e741c27659572d37cbfabd14295764dfcd0635c7dc
+~ _quic_cc_get_bytes_in_flight : sha256 15c6b01055a7009056998ce1c2d0fe7b27cbe34f0b25ab571900a6558e081b71 -> db7e77016dedc2d7dfe212e452fd0f5305110f14a5d0497017f37e0c4b132f11
+~ _quic_cc_fillout_data_transfer_snapshot : sha256 03f735491c29f70d9663a3b212f861c300f916d25cf6376a2837864315cebf14 -> c82dd13a3a7413db597eaf702f8529ef9509e635a7bf15587fedeedb7fc632df
+~ _quic_cc_inc_bytes_in_flight : sha256 56af5fc82912c0c4f8fe327d2283bbe5f170abcb5dae336d1a9065cbbce664ff -> a48ee8b85852c196700e8441ad469f64313c5130ef79c78b200b5a68b1ded8c6
+~ _quic_cc_dec_bytes_in_flight : sha256 e5e62c213827dcd75d19a7177ef4d5db4b1c5b212353df266b34837d87eebb4a -> 16037920b244fd9f3a7970454dea290dd440b6ae0efee9d35c4073beac20ff67
+~ _quic_cc_can_send : sha256 2a317f4671a53284fc9f55bb33ae55d7b75ae3b22b64f957ac1bb92bcbe95d3b -> c6cf75d7a200c51a838ee742a18f9bd050a07028983a51142ad998ee475a847d
+~ _quic_cc_cwnd_validated : 592 -> 612
+~ _quic_cc_is_validated : 336 -> 440
+~ _quic_cc_set_pipeack_sample : 364 -> 368
+~ _quic_cc_log_update : sha256 740c9b9ca69d9a291a600b4ef4c8531cc7038c014bc7d1b1387aea002643029d -> 747f7198d7e52311d90c4c5a8d5747be3ee9ee3c0df55d88605959e1bcb57b60
+~ _quic_frame_alloc_PADDING : sha256 ca1c846f966a463f7636bbfd9f56ffd4f6518ca9964c89c3587e1976e284d574 -> 8abb96806fd411a58bf629868e13aaae567a944ab7ef7b96975f2e1b327c4014
+~ _quic_frame_alloc_CONNECTION_CLOSE : sha256 0e03aac5837a66ae5806d38d0ca3922077393a8e9dbe9433da9ed08fe57b86bc -> 209147d8018a340f4f3d6138ea3344851aba57e2e26ec15dbab9593325f7a373
+~ _quic_frame_alloc_MAX_DATA : sha256 f245551014e6fdbd6b799b078cb6f491d482b2a452d9af69e203d54cf21f6fe2 -> 606146e1dfff569c5f420ce2234b08fd8045fa0545990cba9f3c5d44b34cc670
+~ _quic_frame_alloc_MAX_STREAM_DATA : sha256 3c154dadbc534d61b82830192ac50ac180ef66a7aa3a7039402390218494d6f0 -> 9dc2d77f01363220aab1112a3f5199777cd755ca13a76f835f196bc22804800e
+~ _quic_frame_alloc_PING : sha256 704a817ba726b2e797ed78b1f51d980ee49b9a4b5534e52f2dfb792eb68acbaa -> 608a4e41afbb0bac90840c68f016b6f545c54ca6073c1c86edde3bc3a6c35e9e
+~ _quic_frame_alloc_NEW_CONNECTION_ID : sha256 aebf685cdbaf91ebac256cce2833902ee4c2dee49b57427bb4a1d3c922c63296 -> 05d19fe6ed0992e2372d3b1b9f84f213191bc7975fc877d8cdb01099fbe7caf1
+~ _quic_frame_alloc_STOP_SENDING : sha256 c9c3ebee6e72eca09177fc92501d0d3c18e82130b12ec650291abc6c9a5df8b4 -> d6969b2e0065204904772af6dfd765efc52a29d7381d2c4050879d28b78d084a
+~ _quic_frame_alloc_ack_block : 1440 -> 1444
+~ _quic_stream_create_stream_frame : sha256 a6b25eeb708b51c7abc57f2c5b39e170494c2a733b490460f8bfe89e644cb341 -> 36a14ac7812ca3d23eba8258368aea5e2fabbecef1f0589bd12223b507a9ed0d
+~ _quic_frame_alloc_DATAGRAM : sha256 3896b9f38223c20a01035442bcc418e77b2922de9689c57b81716ae835cc8275 -> fa26bd727e384fea7f633a59900a7de475187e43b672d45fa85346bc14ad84bd
+~ _quic_frame_parse : sha256 84b7e3e9c9b16f3a2293e490693bf5f12ded84e411cc34413f3dca0a94ac966b -> 01b0a1f72e55295739610f99208742e02dbc4964d118eb0ad2ac7869425ff8b0
+~ _quic_frame_is_type_index_valid : sha256 6f32826a74d4eaad94dafcfc305cab91a0630957bb83dbdae967d05b4345dedf -> 033f6c01835d4cffd1f525a31fd96537358bc9dc7a47ab22d0fd82c59bae55a8
+~ _quic_frame_write : sha256 4d3b06bfe3c89b9181980a63ec0711030f259940ce7838a6fe67def4fe42c114 -> 7a90fc4e7afa200a4446d0233b21ff91fc2a636b0ab63322004dad7fea0bfecc
+~ _quic_frame_acknowledged : sha256 d7b3bd1d50556af9f71d91f553193a0acdefdc00073aee24367279aa7bf35f6c -> 5d00bb6ca6c177231d10a3cf9baf8e8079c1da4e6ad6d597c35fd044b620ecee
+~ _quic_frame_copy_metadata : sha256 0b377275fbb34d0366e3cad6f2840d54c207e742daa131f5d3250086c75c8be0 -> 4985354bca1cb2cc89564ab6e3574aa30295dc57372a9a7df481e2397bc415f1
+~ _quic_frame_parse_PADDING : sha256 9f8b944a2d660078a450ada54dfdd8c3c7a5beec67ef8ad0cb726cbc14bacc24 -> 24f6795f8c85ecb1c1bd7b05bdc77f21c3de1e4f0be395f995abbd05362f0d88
+~ _quic_frame_write_PADDING : sha256 a4e49906675d6514389eb78815d80142c4b08fd0ebe5ca6938e812d33db3d6bc -> 90d315ab47b012d218ab474e0c431ff0ffd99079ae753741e60d9ce604ed8b6a
+~ _quic_frame_acknowledged_PADDING : sha256 4e94def1e625af42428f9bf44b165c16b02204892ff7aa209425a6c3925d9056 -> 5bbe1a53b40a4b27207adfff7207723d4155d471a43563571ff5daff78dd0807
+~ _quic_frame_parse_PING : sha256 578dc024d1aaa77a3f788d388b658eef52945fa576821fc0ade7f602b89ceb6d -> 9e3e8f9f2fabe4323c993b5cb1179b5d30b63c51865354edb27ca12743485ab7
+~ _quic_frame_write_PING : sha256 767fa840f6aaa146fd9347fa7e01492d96080b0f5689e85a310911d9328248fb -> c10cdce536997c68b27a35805564b9f66845d885be4ad1a602d042bf8fab8518
+~ _quic_frame_acknowledged_PING : sha256 b79e4b9f986f762964ddaecd4524a190422fa7429b8b421e12b94ea7eaca025a -> 588d6c446022c381811a4d48fe22b49c685ac9ab0977d748755f570bd13e0f74
+~ _quic_frame_parse_ACK : sha256 443eb35f0f1d9c80bef9a79c8ee19f3545059ba7b72d8460411bd4221cefaf23 -> 0b8691db13730e9f3277bcf5fa53183ca43fa84c3be36133dd47f729e6934262
+~ _quic_frame_process_ACK : sha256 149a8056f4401ca1a3eb3f8e934e51cd408814bcad0682f710ed59bfd3f486da -> 378cc6434a40a9263dc158b7802627c7c11e5c190d545b66b74a9720843e0c8b
+~ _quic_frame_write_ACK : sha256 e6f23f96291d3ac874887aa554a50aeeb214541ea1fe35f1ddd5a4d020fb9661 -> da1568a83aed21da13b2073deb9835c30f1ce3b6bc7fd02973a19a37295dd9c7
+~ _quic_frame_acknowledged_ACK : sha256 4ce9a992cb29c3cd7aa9fccf6f2245f30a633c633931c843ba522c803498457d -> 76a13f58465d3d05e72ecf70d2f6101e6ae0ea535428f88c0a50a2c7b2e286c8
+~ _quic_frame_free_ACK : sha256 ac5d59cd64ba030398d0a7b7a5b0abf0756c5187697401c9663ec874db00c7aa -> b4eb85a324e2d3fffbfdbaff89df61ae597e15634536518f856b69b7b4b152d0
+~ _quic_frame_parse_ACK_ECN : sha256 bdd01aa77c874d1b461ce1af5d2fe207b66366189ef5483c3ae0402f22ab0ae9 -> b8ece4d4e704a19c3d78d65865edc8c2b8787e92b27eb187582a606e0e2d97f5
+~ _quic_frame_process_ACK_ECN : sha256 c65c49d7bd0c695a00040e7e67a339b1c1d5bbe95bd67d9587988072889cd6ef -> 3386c2acce7c1d1b01a86b448caed64a89e1f404e7cb137ba9ffad952bb42c40
+~ _quic_frame_acknowledged_ACK_ECN : sha256 dd9076e882a84bfdc403fb9d6a76d355bde5ec7c590cebf837b92162300343f6 -> bca350d79344405b386d376ab811be979a02f76863658abcd5294ab6b422dd99
+~ _quic_frame_free_ACK_ECN : sha256 06b78308e4da9583b1a89ec4671cf64669527cb33545747e891649034e4b8602 -> bfef7115f029f54ce2105aeafe66cd4ccba7b847756cfec94804fc16b563a18c
+~ _quic_frame_parse_RESET_STREAM : sha256 b9706bf470c6b782cb4ecbecc976779fbbb5e9512a8708f7015cfbb11b3ba3be -> b0f5913f0af5dd8c99f9180cbe00a934bcade60e8c3afbdefce45d4310d8dd56
+~ _quic_frame_process_RESET_STREAM : sha256 764ded6cf4349d2315c2d1bce505cec10a0ea4f2c85db3027ef80d6ed69fd4ae -> 092078e462d40b0faf7b1c79e43257cb6a94a359e18b8fe916d77646b97626ba
+~ _quic_frame_write_RESET_STREAM : sha256 f3ac0be189c328f66b7dab20c72444b52ac48a05b4f840b6a707464ce9558cfb -> 20a30718d506871f58e4d7960b9b2a5d9e7ea912e09064b0d7d63017884007cb
+~ _quic_frame_acknowledged_RESET_STREAM : sha256 a4eb320d78918ad6203bb1d99241fe2753299cf29f5b02448ba796649a496070 -> 89f6e0e5866b2e9938b3ae6ccf783f42abe6b8136bfee2229fa2432e5a9cd63c
+~ _quic_frame_parse_STOP_SENDING : sha256 7c11a74898440fbdcbb921f2facea5fb313e81783aa12d933a9ed274ec2c4010 -> 5de441003358360240ade855cefdc25cb6c20f509fc52b94e5ae840c21acd6d1
+~ _quic_frame_process_STOP_SENDING : 1832 -> 1864
+~ _quic_frame_write_STOP_SENDING : sha256 d08074cf7754c3615fe8f171a22db99dfa60d9b219ebab8bf628071e1566feed -> 0054f293ba741889df59f8a32eabc9ddf0c9cbaada5117bcdfff06b09190855a
+~ _quic_frame_parse_CRYPTO : sha256 71603f796a90c0520f9550ae572337e6281cf982ec037d5ff22ad5f8254ba29f -> 115dff6aa10895b3e47f54caa37c5ba1f3c420427871cd219e1eae71f6ac1f3c
+~ _quic_frame_process_CRYPTO : sha256 6fa1ad3c39d054c0f169bfbbf07aa4d6814aaa65ecf910f4b5e82117473606bf -> 8749eefbb59ed531c74cb72283243b31eb27b26070e145537695aed4b4c6b3de
+~ _quic_frame_write_CRYPTO : sha256 d5f4cfc09f810903fbb5cbbac9d7f1653522d7b799530ae636f10ab82a943829 -> e411045b1ec4ee7398000854e3c49106d37f03a685b70e3619fa4bb59fdd5540
+~ _quic_frame_free_CRYPTO : sha256 c3d5976668fc8fd4150ffd6f337e3fe1c48c8ac50d5f83c37041bd5903f4419f -> ae1d0f483ee255013fc410720037365f1b19776e4478efba262ccaa3f4c8ac2c
+~ _quic_frame_parse_NEW_TOKEN : sha256 712cdd9c4850bf8996778793c5a60836e7728faa5a18ac1b2f407c4a3eef777d -> 68aa63d1922ef9f025e5516cd46efef62c1ab7faeecb58cbe7c9ad80f390b973
+~ _quic_frame_process_NEW_TOKEN : sha256 629fc6796e65156eda5ccdd4e0b217a55ba39c767e235ab15e746cdb5397f35b -> 555c586534dbc321f431a268e72d56bfc06e56b7ff689cbc1cabe105c8d36f18
+~ _quic_frame_write_NEW_TOKEN : sha256 e458306ea4a2e57530d6db6d0b29dc9a91abdcae5d8bd334c4b6628024b28aca -> e25670a0ddb0fca1c2f7efd663c25865eb0ac7c48a750981a724819f16de6efa
+~ _quic_frame_free_NEW_TOKEN : sha256 7ac2d832d24d32bb5c05ddb7a503033ac5ae6fe813cb10c2a7631736034f4956 -> bf7c56df7a5e0689dea970ec7987dac70056106ac06db580e131f9a2b8ca355e
+~ _quic_frame_parse_STREAM : sha256 ba591ae0551cad56a3c51f498caa71c792a85a4304abbfe6e118dff07c9fe17f -> 6813141587a5073bd05169a0d5f93ada80445c61d749e6c4320513d3997d4e4a
+~ _quic_frame_process_STREAM : 1452 -> 1456
+~ _quic_frame_write_STREAM : sha256 e552e6b4b615059ea601092870dd5ec3c7f61a194fdb47c916f5d1f630b44ca7 -> 8e2b1bcabeb9f03c224a0a4b12ff7b41d2922ec6b6762efd48c03963e67d4d41
+~ _quic_frame_acknowledged_STREAM : sha256 142a9c31fdfa6f8ff6e26efa6284d594a86965d8250f13c1f911796175e1b76b -> 917437a092d21cb802be849a7e8205319a77c1891b928fbe3a9d77eed1f93f25
+~ _quic_frame_free_STREAM : sha256 3e99bc2410bf4bb4dc9487707f8a5cb60f80ce4c281abf3316c888ceeb67e140 -> 18ba2eb37d8abc4f38d96b8a4666933d14eda03f65251d91f69a59a06182141a
+~ _quic_frame_parse_MAX_DATA : sha256 13773eea07f5cdfd301215e6d23a7206f13979e22edb127c246b5c79033a4890 -> 32247bd9493a82a74e64b73cd3de6b55dfb807d0a7e4f87e6116a2ba7ee06b1f
+~ _quic_frame_process_MAX_DATA : sha256 f6519d09f294cd4451185d6c6c97e62bb65ae5d84c72a855b43ca9abc6ee5c38 -> 64fb3a4fe8ea3befa7c13aaba11a0e972e5c40ea121a617c49a4236463d648f0
+~ _quic_frame_write_MAX_DATA : sha256 ae42d87cbe10104f96c292c60502b9417ba15b13dc687ebaf3dea511061e5d32 -> 4ba968d6b7eb0ee631ec4606fc90e9141494118c0d7678e2311272ac2bff4d0f
+~ _quic_frame_parse_MAX_STREAM_DATA : sha256 b34cd18f132628975c4996441366cadd7f68a9830ea9d1be1bf6d9818d9c1b95 -> 1b239d1e69d2fd19dae5b8637fe592aa92e4ec14254cc8541ee9cc53e8b864f3
+~ _quic_frame_process_MAX_STREAM_DATA : 1864 -> 1872
+~ _quic_frame_write_MAX_STREAM_DATA : sha256 2c578fe3c8afd61c95b528fdc0c53ee87ab0306e2de4fd73767a55b97e1d74b6 -> 2a7ba6a284a9dab05cf54bffe54f9901359e945fab6a6702d236a093b6c56f82
+~ _quic_frame_acknowledged_MAX_STREAM_DATA : 904 -> 912
+~ _quic_frame_parse_MAX_STREAMS_BIDI : sha256 c6c8556ff968d6a2d978256cd56cb38f32cc4080f6cf26aa827c92e14fcbd294 -> f496d5d7562d890fee0f8a3d9e6a32151b6ab3ae34353fb9e6a3052cea093115
+~ _quic_frame_process_MAX_STREAMS_BIDI : sha256 a47597b955869c5a519bce0295db4e7161f89229018059cbf33ce55ceec84695 -> 2aae2f963b3b9818c082ae982c5b4b914e311042b6994bd81fcf2201ce505930
+~ _quic_frame_write_MAX_STREAMS_BIDI : sha256 46206125967dc37c1db4443b139fb7f018622b4e224c80e9c821db37a9b8c864 -> 7be6aba1fba16f18171fc37b189946679238f6063f16298947120494d1d227fa
+~ _quic_frame_parse_MAX_STREAMS_UNI : sha256 a8b646a94988945c408286fde133ab2a53ea2909c153c4f5c4e52108ba80fe93 -> bf95757033705d2e18a2e607f2636cf5961271e41eb9a737c79483a8a81b2d01
+~ _quic_frame_process_MAX_STREAMS_UNI : sha256 1c32bcee4b9cfe6da0e87df3029770b8a145a65efea1c653e7a2d55e51c9931e -> b00a3e5a9ab00243895323f6a8c3d061cff604addc9b2930d2e6286111b8a695
+~ _quic_frame_write_MAX_STREAMS_UNI : sha256 cbc8988fd0f66655281a0861a353547611f2a99bf287498c3c20f3d58d4084d1 -> 59451afed2f645d1668bdbfdb5200a0534767eaf5f9beb752d1ee793fb9777ef
+~ _quic_frame_parse_DATA_BLOCKED : sha256 6284723680aca2e4904d018a6d18b4be642d8cd2775008dcc52a8616fe391362 -> d45772e3d15b19a90c7334c717947dbc89294d714e92be5a981f94828c176f06
+~ _quic_frame_process_DATA_BLOCKED : sha256 debacf2eee1afcd4eccd29e23d1e4782364d8302c87b477562eb058bc04e48a9 -> fa57347e0b3f6304c3ca40b0ff62c7789ef1419df8ff2975c599b7fcd628a8f5
+~ _quic_frame_write_DATA_BLOCKED : sha256 9b50616e69f8363de08ae71f2b93f8e3ce08ceb9659468301dfb0194b88b746e -> 942c5adfbddb0e0603593aa1266d223b6e78a1abf918074c1efd98f0027ad703
+~ _quic_frame_parse_STREAM_DATA_BLOCKED : sha256 92dca5bcf9cf16fca80f1dca63bbaa0bd429f73b5b8a2bfc9f6a6b9165c7dcfd -> 27962f350851a229c3b9a4d44bd8b225857ed912b87c27797ae6b3c784597c80
+~ _quic_frame_process_STREAM_DATA_BLOCKED : 1216 -> 1220
+~ _quic_frame_write_STREAM_DATA_BLOCKED : sha256 9b7107e4556b766a2090286dad1df1bfbd9e836a7099b5b61093d51c061f3a7c -> df32c438bb341cf58c9f555fd3a027e0e4003ada03d98f8817f54e8f820a1955
+~ _quic_frame_parse_STREAMS_BLOCKED_BIDI : sha256 0d5d934a2361e8643c89b67a2b22b37dba4d29ee7de71f64fb9851450a158f4d -> f7da69576f5973329de1692c69066ab948606452ff606228619f2ff0a8edba13
+~ _quic_frame_process_STREAMS_BLOCKED_BIDI : sha256 c394a8ae1d444906aabbc87292e03283bd356ae334e941005434f46d691947de -> 2e30161c2fbd65663286b7112401e7aaa09f5c70bc1465bf34f9b6c339b671e8
+~ _quic_frame_write_STREAMS_BLOCKED_BIDI : sha256 71939487f7909dbd8e6e91474f6e1c80be102e6176a5d921e736564ec0ab2ec1 -> 407d469dbcdfd1931e734c3f4602ee6d632b61d6f203dddca264be85ed404549
+~ _quic_frame_parse_STREAMS_BLOCKED_UNI : sha256 2209dc8c52d7017ca072ad7179803e58eb90005af6b0a0f015433c87f9c32307 -> 124c11c18f504d6cf7d50cb1ba0eef2ba80f13f374195ee60265cc505fc1ac6c
+~ _quic_frame_process_STREAMS_BLOCKED_UNI : sha256 b96f1c0b672dd8f127e8948735c6b57a02ced69642ce4f3b0fae9b8271460e3a -> edf34e537fcdb5aed760be9b4b17e5207f148c7a548f87cb031b64088bec4022
+~ _quic_frame_write_STREAMS_BLOCKED_UNI : sha256 1325e95ed2530b27de9141b4eeffd75c7dec2f4acd804a0d56b0e3c7667f278c -> 23b5c9c8138b11cc7b0d91d0b704c9c32cc009c411349f9a7fe2c0207e545d16
+~ _quic_frame_parse_NEW_CONNECTION_ID : 2872 -> 2876
+~ _quic_frame_process_NEW_CONNECTION_ID : 5184 -> 5308
+~ _quic_frame_write_NEW_CONNECTION_ID : sha256 32c21c0b1c25674bdf9b429d4d1379110fccae16b7a22a84cfe12e10f966e4e4 -> 90a9d6e39ee711a895ce1c68f086a3a88fb4aed38f59fc83cf573491b53b5f2f
+~ _quic_frame_parse_RETIRE_CONNECTION_ID : sha256 525fec1a54356d814a96fdc0c5d66fa2af2fdf641b86a27e1b183ed0932ab7ca -> c14ed08bbaf9e5b2bd7604a2aee1eae95458c23004464b3144eea5fb61d24501
+~ _quic_frame_process_RETIRE_CONNECTION_ID : 1452 -> 1484
+~ _quic_frame_write_RETIRE_CONNECTION_ID : sha256 670b9959912aec5ab41182623322bc7acb7e0dae7d2bf7c4539deaaee4510810 -> 56a29e8c0a330432d277da17ce7ddb4c46610697a68e328da3c36a838df2d366
+~ _quic_frame_acknowledged_RETIRE_CONNECTION_ID : 724 -> 744
+~ _quic_frame_parse_PATH_CHALLENGE : sha256 1386d4eddd79227bfdf04d9bb929808488c653e5fc0d54169d28cc74995d5f11 -> a2ddb6abcdeacd878b23516e2ab0a1c05a0b7d28924bbe0af66d7b204171e3e3
+~ _quic_frame_process_PATH_CHALLENGE : sha256 864c511ea695b25658491565e0a3200b919d3bb5be57e5e119bda9c9529961de -> c2e944ea51633c71c3eb638d1d684853eb7a7d769df823dd286196ec8bb60847
+~ _quic_frame_write_PATH_CHALLENGE : sha256 04b04fb920422bcdd963e6583595a0f35d665204c48e540fd18b83d9d3459021 -> e9f2de94f187bd8e462cb25cd699734ecc425165430cfb2126de960d2b4fbe06
+~ _quic_frame_parse_PATH_RESPONSE : sha256 abf375324a4a80eb46900327fa11e58483d34a061a9bbb862be8da71e4d6adf2 -> 8f67b616a7912efa26daba693f08a46723ab2f75a656bf62a848c1de859f3dbb
+~ _quic_frame_process_PATH_RESPONSE : sha256 612c6bb119d2770f543c457f1c73fabfc9acddbc581457cc198ea04a5a47a260 -> 8b76b507a7275a286ee4d12c233969ea2f51367c733cba78f355e296eca38415
+~ _quic_frame_write_PATH_RESPONSE : sha256 d0a748b8fbe6b1693d851204c26fc8ab64d0c5c95f2fe2547cb3eb9bf4f3d5ce -> e5fd623eeea9b24248b868fe05d268353ae35a7a3e4ef476c729a9b7d2e18914
+~ _quic_frame_parse_CONNECTION_CLOSE : 2392 -> 2380
+~ _quic_frame_process_CONNECTION_CLOSE : 2668 -> 2732
+~ _quic_frame_write_CONNECTION_CLOSE : 3268 -> 3320
+~ _quic_frame_free_CONNECTION_CLOSE : sha256 82d067f4d4375d35e7f69531160f956d6bcea88f6b16ce686eb4a78b3825016e -> 34d4b53eba97c6ad2a63f1262b2e78d8ac4f3343b819988ead5386207f0e093e
+~ _quic_frame_parse_APPLICATION_CLOSE : sha256 5eeeaaef6f3c1e0a80c97a0e37c0f1f12a4c24763a7ca8ba126e9d463d18e844 -> 5ba7ba7bd86eace8ea5c5c2db1e1ce0898470305c2100e139092659adbd686b6
+~ _quic_frame_process_APPLICATION_CLOSE : sha256 ba29ad582610ccb56eba8a3804bd6069000390ed4bf40c666d5c7dfa34d8d106 -> ec2e8d47643f3d21aa5f6abbdde4cf189abc5d7387ab125cbe102e6c97b3d533
+~ _quic_frame_write_APPLICATION_CLOSE : sha256 b87ac7c8c2f5b586e9982e660e7ad4a33ba77ddc791482918a2cd43f12a3b884 -> dc14e27ee01d2c9ffb19ea1a2f07797f6ecdda488bd0ae52880ecebe1a1efe37
+~ _quic_frame_free_APPLICATION_CLOSE : sha256 38b71c3196c9fc4b9d99e8426673349f4cea2235800ffcc06fc4cf2e50af4c44 -> fd0565263db34aa5e739109af6b3292c20aeae0ce90233b3fe69310536b7d30c
+~ _quic_frame_parse_HANDSHAKE_DONE : sha256 d184d7f12e78a288e526a06a5c3382844933d883bddd3c4fc2d0e5f8960843e4 -> 07b48ddc3d3916667ff183629eb7c17ffe06da1bcc788c3549090730bc2e897e
+~ _quic_frame_process_HANDSHAKE_DONE : sha256 776ea4bf60c7368b2f59f1ed8368a1d5df21be300d94540de4e0a80cd47dc0b5 -> 31a72d5a39920ef1f59901b18549d605ff8f551fb27a039fc29a7773349a2bac
+~ _quic_frame_write_HANDSHAKE_DONE : sha256 26f3fc204c799864da6052d83d48cbe6910f80d6e93ec3bb92ccd0e52ca74864 -> e1da41062b7c1cc3ac0240d8b4abc79241a70f8ed4ec2c620e1635ad3d8403ce
+~ _quic_frame_parse_RESET_STREAM_AT : sha256 b36e3dd296f4014b6d84bcbde5e2574a417faddcedc1af1afb226c778412c48f -> 0eab123ee0836c317aa95b127298a2717fdea35b7469e69ec8a6bea760ce0f75
+~ _quic_frame_process_RESET_STREAM_AT : 2968 -> 3048
+~ _quic_frame_write_RESET_STREAM_AT : sha256 a97daed79bfccbf1b4cbd38f38879cd1e73248751d200040bda0bd8e12aba76e -> 36f165b277b10a5bc5ac16a06ad6a4e906f3fdbb78e38110b2ff0e3030434341
+~ _quic_frame_acknowledged_RESET_STREAM_AT : sha256 cec304691153a92cd083f8b15f934191ccce1d54ff4e12eb6fbf360f991b0dd2 -> b53b4348afb15f5afbb9636c0b882b80e0f7549dc1f36782f0a9d53d26ee3479
+~ _quic_frame_parse_DATAGRAM : 3228 -> 3232
+~ _quic_frame_process_DATAGRAM : 1388 -> 1408
+~ _quic_frame_write_DATAGRAM : sha256 d4ba97e550037f8376ecabd5265ddefd7976a8e076680969c52c8299cc00c1ff -> 31202a1f77b55b645bc4514ee7d89e8eb4f49498472366ed423b9ad3c1bc6f09
+~ _quic_frame_free_DATAGRAM : sha256 91fc1708bfeb6826017b1f88e7a32d4c8ad20f06b6db6dd2429cb6439f980641 -> 4f76ec78598a9bba83fa42b3c5f09558370ee458211bd55b0e427c1b905fbabb
+~ _quic_frame_parse_common_ack_fields : 4672 -> 4668
+~ _quic_frame_write_common_ack_fields : 2596 -> 2580
+~ ___quic_frame_acknowledged_ACK_block_invoke : sha256 d900595cb3c048d2f41a608b364082619ce754d82aaf7c20384270b9d5d474c8 -> 7cbd58574526f31657d4140ff91585a05165326ca5bb301890fbd6be1c5737cc
+~ _quic_frame_validate_reset_send_only_stream : 796 -> 812
+~ ___quic_frame_process_RESET_STREAM_block_invoke : 884 -> 904
+~ _quic_frame_handle_immediate_reset : 1752 -> 1768
+~ ___quic_frame_acknowledged_RESET_STREAM_block_invoke : 832 -> 836
+~ ___quic_frame_process_STOP_SENDING_block_invoke : 1532 -> 1556
+~ ___quic_frame_process_CRYPTO_block_invoke : 1804 -> 1828
+~ ___os_log_helper_1_2_8_8_34_8_34_8_34_8_34_8_0_8_0_8_0_4_0 : sha256 deac4144dfc51d95feaae20a820bdb68c4118c5839794761e636e28a1d5c9a40 -> 23a3f1b01ffe0976ff4cde5a38753a914d5be82683acd39a3c8149d94ee5578b
+~ _quic_frame_write_data_frame : sha256 6e0b3b68a7e61517a6843a47687924feee90c0f7e4531d8b083361325b6ed05a -> 943c261a393ff705d69b620fb1513db99cc74dbc13bda49ba3f28da1c24d6911
+~ ___quic_frame_write_data_frame_block_invoke : sha256 542ad673963451616ca10b67bd0bdcc62829f511b319cd5a6fb7855d3f408da9 -> f5a28917e5132fc4b447b98820443557f89cf81da12b3d624ab57a5b33fe8540
+~ ___copy_helper_block_8_32r40r48r : sha256 ad73d98c91794e71f3e33702d6dfdebbf68af74c96407e79d510474679161f32 -> 361cb93760524f738789af53141b548e9dc30f790dab3dd7154227d982b36eb5
+~ ___destroy_helper_block_8_32r40r48r : sha256 9c685175f5bd60a06de5448e7e08b7599d42a7cc4267c8af083decf8b3d13db0 -> 36888973e28f9caedc6bc04b9e08b59953181fb80952780d73e0fde7290068d3
+~ ___quic_frame_acknowledged_STREAM_block_invoke : sha256 ea0bda75b2fd88aeb5f0e6afa82a019d2dc369446248e1f61c143b8ff10e9e2b -> 7bd4ca0580b1a2ebbd33681aaf4d8b8c88204bb6535e7edbce8c49cecd10b44e
+~ ___quic_frame_free_STREAM_block_invoke : sha256 a5b6e2b321b828f431badf9cb1f006fdab779ae716f03453e203da2656f4ac96 -> 088045925a4077c16be6665e8a3a7ece869b972e9f1e66db51d7e8a9b17645b3
+~ ___quic_frame_process_MAX_STREAM_DATA_block_invoke : sha256 79380e2ffc7c073d78cea010e40e9ad0b0b3da5cc650b5a7d18e828cc8d26e94 -> b172ddbec656d8495438c69e22985b18fdb321f30c5609f3a1465ca16a7263db
+~ ___quic_frame_acknowledged_MAX_STREAM_DATA_block_invoke : sha256 c225dfef751ab16b8f12879bcf3a53914f3e6d77a6fd9207c51f8d4ab8752a11 -> 5a671008ed148aec11f83e629ba43a095554973e4c08861a1fd988e09fb1bb31
+~ ___quic_frame_process_STREAM_DATA_BLOCKED_block_invoke : sha256 9849f68e194d014d42128767a355989a89f563d7951efa66cb698124ccf6f2b6 -> 30fe828fe99997cccadd3dcf29deb94cba48a407adbd8a57bdc70cae7cdd1223
+~ ___quic_frame_process_RESET_STREAM_AT_block_invoke : 3392 -> 3448
+~ ___quic_frame_acknowledged_RESET_STREAM_AT_block_invoke : sha256 220f901fd1c6f24a5e37a1b0203467f396eb00d25d3b8ef8632c41170241d9b5 -> 46e3fa5ecc92ae8062610e418bbc63b97983349aa6bc37661104606f054cc4a5
+~ ___quic_frame_process_DATAGRAM_block_invoke : sha256 e41eafa8d9d345baf33ffeee2d0dcabf0dff2bbf2fd13710ab951117ec5ab007 -> 7837b16abf6a83a50c45d635c11295137fc71c576c57af8156a754ceaf51295c
+~ ___quic_frame_process_DATAGRAM_block_invoke_2 : sha256 551ee724bd435d3b6651de2cc2190817f7c664bc0bc204ccc669940c38cb8510 -> 4ed88b01aaaa32f31feeec81e10a1c845dceb93312f8cbf8b5a3f56582fdd41e
+~ ___quic_frame_process_DATAGRAM_block_invoke_3 : sha256 db265fc7f00137c1b79191f555c4e3bf83160636cee0738ee4def8db891a2fe8 -> 5d245ec76afed62ea5b11c93bf157eff2da4bdb2f4e4c2368f95e5c0946f8978
+~ ___quic_frame_process_DATAGRAM_block_invoke_4 : sha256 056a3239c0013b3f59f0e210dc911f2d7066324a06a34e9c3622aa25636ebda3 -> 27b84b5de3e636195fdada973c84c625f8363b06c6a30abec991f437148ce052
+~ __quic_frame_process_DATAGRAM_block_invoke.169 : sha256 a6e686ef049379d6924eb9d304d56cf54c7d4588a10b49cedfd4347144e09a7f -> af98e79160864dee86db3b88cb7bb4ae1202f40d80f341536e60c3747ecf01e1
+~ ___quic_frame_write_DATAGRAM_block_invoke : sha256 b57dc30035f75573c1bac1b22d88195b9129bd08e4bc567191a6bd9c594dd558 -> 9b3d104969ffc3396374297377603750cec8d6043b84f1839802a7e9700f0d2e
+~ _quic_path_setup : 968 -> 1084
+~ _quic_path_setup_recovery_state : sha256 ff46f2bf07941647e30af565ba2ee9f2974c22efeee9d4fd382ffcd51e7adcde -> 47267cc3d9fbf588eed107643cf629b09cb596f6961af87383ae425e36bd5c07
+~ _quic_path_create : 1028 -> 1024
+~ _quic_path_refresh_interface : sha256 e82152e36432391922a3e6ad4f8cf0f45015d8f01e204f29df3f31bedb61993a -> 0eb7d21f6ee7c0b5418118fd346bde83a380ef2a7ed76c5af7c2939651b2cd0b
+~ _quic_path_setup_ecn_state : sha256 207fbe457d9f7fae6b94f109f198aa61d719821d61fd44bbb5bbb70ba9505e0d -> a239e03fe50db36fe4edda0df7a612fa90852346ad2dc0001d62d9bed152816f
+~ _quic_path_setup_l4s_state : 1512 -> 1520
+~ _quic_path_get_or_create_l4s_cc : 392 -> 396
+~ __quic_path_release : sha256 47c2e0f9aa5e8f63702f4360b4c55eb7d43ea5750de7e96324a5d236cf7f209e -> 47529a4a4129ff172918a3e59613691b79bcb8efbeba4fbe7913d06b9150a37d
+~ _quic_path_destroy : 1148 -> 1152
+~ _quic_path_foreach : sha256 2ecc77ce9f7d27cbde694c6835578efe2121e255b087ff6440dc58afe24c6b29 -> 810f749184210a56fa5c751ad1b289bb9e330dd8ed04e8a382af6a4adb000c6e
+~ _quic_path_set_scid : sha256 7faf5fddf86da492e760b3d00c11c5da346a51fdfb863bf58f4b3e0aeb045356 -> a5d567e0786fc23d2e87e859455140b106db7ffe28c2961d3cd3a3a7fd3e4d07
+~ _quic_path_assign_dcid : sha256 1fb1a67833b107e85e5a7d5b602f89974321f49f47d8081f188084483a262a37 -> 025d515cdeb08259d25a470a501f202fa7d378bebe4c7114b71b85c0f7991286
+~ _quic_path_is_invalid : sha256 2125ef94249c12074212ea6f221cdd478f29382e98831bd4a356f8435cd04707 -> e9afa2675411c70094e55a02f9948820e942b1737f4b0808a5671b5188bc1b88
+~ _quic_path_is_validated : sha256 636e9824f997f63b0dcfbbfd43341ce69f96514100526b61ea87981782f1f4dd -> 3a089a913636eb9cf1a0ff55d6b5a02f45eaf7671f7ca782be9d59a200d3ab06
+~ _quic_path_is_established : sha256 6b6e326d583ab09bf130b37962b733266ff708828ca665e031a6d027d1c24243 -> 2517488b083f8b67f12485b7f6643e62a1879dcd04eff8e9f725e46c4cadff23
+~ _quic_path_is_initial : sha256 245fe8b40a1d0e7ffdcd558aaa5733ab19ac2e933bfde77fd0f67c78ca88a43b -> 5a7cb8cd058025ec00ecd6fe12445aaef281733e05d33a2232354c7a7c90591c
+~ _quic_path_is_preferred_address : sha256 8536f9a1413e826fddd90a7392d7048d01c158779ae6481b90ddfc6af22a0a1f -> 4fef3f0bee51fe063aa2a0056419be14700e3e8414204300fe137c7cd5f1052a
+~ _quic_path_is_injected : sha256 ccb6291fd262850dd24745abf7ecc9dd07b697545c86c5be4e6b2e566a0dc206 -> 9878c2f675244d4902f13dc35d09e6e97eab40189a5eb66267a259ef130e200e
+~ _quic_path_is_pacer_enabled : sha256 1bf3e5930e4ca98bd8d9a7170ae685002b8f3e2fef917e3e5d7b2e16e68d6486 -> 8cb775ef022a59b45c67317c07b1fb5ec6fa5eba8873099880c5bb492b17468c
+~ _quic_path_is_lossy -> _quic_path_unmark_lossy : sha256 ead3390ba06b5c2ca330aa059e350b4d0c4f2455615a4171deb2f23d74ce6eb2 -> b46d946ed55f64718d6b67a204c2530d9f6d0aeae96218535c591ee174d31bf6
++ _quic_path_is_lossy
+~ _quic_path_is_unusable : sha256 4a16c5ca5dedeeb9dd4832834de18bc3f03521fa6b900403ade242e4fb49f436 -> dd487411288be56bbf44ba8da69b6467556dfc221e665f3464d7969ecaed5c91
+~ _quic_path_is_probing : sha256 794a4514b14e16fc4c7db83461883ee05a0eb5d4cb99117b2cf5437d624aa61d -> a9cd03f339b1a9e7b73da5c4a50d77a3ccb3f0e9ce93eeda2e4af9404633c6ed
+~ _quic_path_is_flow_controlled : sha256 2bec3af04255b1d205807004ab150b5f8a6052f8ac5effb9ab485e9d155add00 -> d60fb08363cbacb7f45de53d0575d6dff11c52828fbf76f1879f55846f285c57
+~ _quic_path_fallback_high_rtt : sha256 a3458e38dd1961bddf99c21c413788b477601f473d515af142da6c0a40044abc -> 7e8f81d188e571855b422c0de9fd46da6670aafdfdb254d4d3f0f588f03772c3
+~ _quic_path_link_advisory : sha256 634732d2371e8881ba5e02ac3784e3cda8e935890715b3691f3afd3b708db56d -> b64cb2602a387a7db6d04ce8cb9933987d97e2c2c5209a8640a211df411eff96
+~ _quic_path_cid_pre_assigned : sha256 bd521a1f1728d25888442718a4c0c761a02aeddfff967e63161793221b0d6aed -> df8ae3d76fa04c945cd48cda4ffe1bf42b35225d610b77cfaf1446353d8fcfb2
+~ _quic_path_get_ifname : sha256 c0129bf9b17513bc30cf282bf0ddcd66f6072535253cbc42c6d11a5dc80e6ee9 -> fa8963dd7feef43f4ee1e6ba499cc124b3993df744048ddc721dd4b6a50679ac
+~ _quic_path_delayed_validation : sha256 161a89bec439f7341d97a57674df6d84f4d11336933c251d7133f9aac2e0fa81 -> aac234f795575bee5e66472f6ab59c9c0116aced80be03247455d8f099447c39
+~ _quic_path_get_nw_path : sha256 46c3c659b8a884547b576c211be121564e980cd8fb892c693e6781dae001c292 -> 41849816b24027f01ab38d854e2e12f695f6f26d76586479f082e779aed9d64f
+~ _quic_path_get_state : sha256 aabe95d1eb7b42fdb6e1e2e22ba9c57cf1107b924e37f9e4674ca859b7265a96 -> 833955ebd4c21bf7bd886c582a4dc8321037761ea75da7399bdfc0e51ad5758a
+~ _quic_path_get_priority : sha256 10314b8a51bd104294d3a023f37eda7878d8653182fbad6d1b09d0ef15d4659d -> 36b5631decdd3a9965b6105d1dc4bdedfbdceb10b726024d2829c735892c8369
++ _quic_path_get_ifindex
+~ _quic_path_set_cc : sha256 3f131d9aec80db3714995eadbc492548bea7e0c4d16aea1a5d1f49fc873146d5 -> b21f0b9968f57dec106679ef5849a6d737ec48b7229533b013348ce2ee42e692
+~ _quic_path_get_fg_cc : sha256 85597c04bf0494faf3808965c829ce4cae7c0efcaca73ca160ff4126704925dd -> 3746305c0a772973d2116ae058262558bdda4d5e7610ced7839f84deda765878
+~ _quic_path_get_l4s_cc : sha256 3b8ca4052985e41000c8ba8b5e4b13154b53c5cdaa9f37a2f8fa8ad880f8e0a3 -> 2668329b26d90fc499d1bcbf73a22716426c5db690d09df78c9c133a75e9ca1c
+~ _quic_path_get_pacer : sha256 5d0ad210266d21eed22a04b0befa742161d3555a3b4f558f021dbfee16ac33bc -> f3b085c1d444b397ef2b423a19c6dfa9a93666b2ed91b5d9846ece1b1852b8f0
+~ _quic_path_get_pmtud : sha256 cc24cb4224ac1a8704f50a4130b0e804dd69226a3346f7c7163f97b488032998 -> 832e8342f18d64f3c173441c2bbefe0b310dad6407f627c7d74fb5c27bc276d1
+~ _quic_path_get_loss_recovery_path_state : sha256 d7d3876d7e9d6e9ce476714acc4856a02c400e4b90a5385dbe678dd55be79cba -> d3109b3acd550ab61f90e581a90fc6c89163551a9ec359bff9aad0dd2160d109
+~ _quic_path_set_loss_recovery_path_state : sha256 d502f36df8dcde9065cb0bc15a0bfd988a720848dc77a4ddbac76f4dc7b12246 -> 2253387144fa1eb2a7e61aa108974e1b3baef3cec37d965e69034427e454eeb0
+~ _quic_path_get_ecn_path_state : sha256 31752c166de636fa57af3749f620b6d03b2337826b5b6292bba3610e439435c7 -> 02250e75c1b4c117d1051c91ba68ea35be5458bde775fa905a75a417b1d5bed1
+~ _quic_path_set_ecn_path_state : sha256 22399934d369d29cea498edecc98e5b9e1a874007200d0bec9cfac2632b06939 -> 37110720a7407ad8e4d9c439df8344f9d4269ad3f468c7eee2ee9d977028caa8
+~ _quic_path_get_mss : sha256 e73cc8d52427afd943732b6c8eeb17198789b82b3d9c11582e9acc9224a82d36 -> 2199a705d7a356258a45882ac5b9b5a18ccdebde1c1c6631f9eb45c71fc0c8d3
+~ _quic_path_set_mss : sha256 28ff7735562ec8ff8e8bb1ed5620ea515e37468f770203b454ef5b751a62ba42 -> fdb8bc13cde47b3972fef126cc340c06c64e5477b85213cb77abf6b781b8aec8
+~ _quic_path_get_initial_mss : sha256 b321eec942add7ea4bdb100fe4cb20007f6ab0c451287f87ade7989fb3015c28 -> 73e7ed5d9c595d4d9aa1dce39645dbdfe01cc71f43e1d5bf6eef179aa869ddb0
+~ _quic_path_set_initial_mss : sha256 c953836652f944c102106ed8922ec13368e0d87309e135b401cf44a6d3853b50 -> 3a1bedaaded5a14f6f82c6c1a966b2716455da7eeb5f52c35282d62e8571ff52
+~ _quic_path_get_l4s_enabled : sha256 a5a3d6b619c97c1e66c8db35b909452fbbab1b06351a97b5ee2f576bb731e82f -> 3283b55c29b6f997364848cad23fcfdbf2d6850e27476eec1c11beef58fbdaaa
+~ _quic_path_get_bdp : sha256 a5b8ca721dce9b4464579b8deb69fb4d4b46ca88f93b683a6e04c8829b69ce6d -> c0acc2f981780bad70964b08cec80152dea84099265fa64b4e4951ebf56acaea
+~ _quic_path_get_is_primary_path : sha256 2da25133eab7c90208f765a660288a45a25c75a4d3e65ef18770c30a8b0bddbe -> 202950fa7aee6560d79b552c65b0c21f0bf9042a6bdfcba6947440862dfa940a
+~ _quic_path_set_is_primary_path : sha256 a2f419e86a1c8cfb8298db4b511d32901a97d3594737d453a91d8d948fecfc88 -> 7b976b5a79aca4680fe6b22c22d4234def789804c3400ad33f537b8f032744c3
+~ _quic_path_get_is_fallback_path : sha256 e96ff452d63468898c1bf136be4875afb74ca77280de7a1db5f483ea5cd7d435 -> e58a8a0bdefaec8704e5e0f64e7bf2720a9b275ad7f48a6fe658d46a53a95115
+~ _quic_path_set_is_fallback_path : sha256 41b7c37f82a2aaa644e53cec6fda4354d40de33ee66713ffcba3b99ba4fe78e6 -> 098c8303003d1bed1c275138b61e1286f2eb28fedb0ccf5fdfbc91d0f6a4adf7
+~ _quic_path_get_pending_fallback : sha256 e4b751257093a34dbc371279c3f10f25d77ca2eec2be9080f9c4ccb390091071 -> 6d2803febb15476d02991aeb5be6e962e770ad553ac80c40b5d6408d5d1bebeb
+~ _quic_path_set_pending_fallback : sha256 c3139fb3a47f04ae0ba42930c4a2ee2da684f8532013367042753f96da68d227 -> 199f308dc6d7c02abbe84c49d4db470d89ef1aec962d5166a047797f28229890
+~ _quic_path_get_next_deadline : sha256 c4add4ef22bfba5a630aa6781ea16be6ef90a84dc7e531c07b6ae964c55607b8 -> c78396888174a143fd449a777b280035cd8de99be37cb9978300349f04c8a6ea
+~ _quic_path_get_last_deadline : sha256 82d7c950d06b35454220a7fccbd268807d465580991fbe96f9c0f208b45988ca -> 59fbe8049bd416da4801e17418e0b945f7b58d7bc62996b6175accede97663e5
+~ _quic_path_list_remove : sha256 e529e2c43744e467567b146f485d7aae7172da17113d30a09cfa50ffb24dad72 -> c8c3939664c027e247af95ff36fd145869e9e38413bf0641149616bae17de726
+~ _quic_path_get_lqm : sha256 0f68cb7509042729d430107bea25f3fce245a0e2b9ac4dd0ff6a07358f6ddda3 -> 3985cfc57ababf6cd926be88a0bfc0a39b215659f6e9f10426e526faec65f601
+~ _quic_path_lqm_description : sha256 7b3d2bc6e355e3b9a556b9563b94de954c98e4606be887c75a71ec9e55ebae3a -> 23ce9efdb8dd3b81d6259bc9ff8d90171994b44860903fbb5a977ddab3bea593
+~ _quic_path_release_cid : sha256 d714cdc8b72885cf5ed7e5646539d6b6165ab35553f8282105745aa439bc1015 -> ba41fd773319b160db85d8430a51d27dec9b24e4732f222b38657e7b48cf5687
+~ ___quic_path_release_cid_block_invoke : sha256 fc217970733c5502baf09054e2c5eb1445c562a651a569c811d693f3991d0134 -> 501b18aafa67d00ba68902f739d2b722927d38a9684bbfa212bbedd9aad39db2
+~ _quic_safe_append : 1192 -> 1196
+~ -[QUICLog init] : sha256 916652eeb3fa84574000f30954341e9e21a6a5e8534fb2e65ca7d058432919f5 -> 032b3cda2e57aa77d81accf64960f1157a3a1e9ff8c7886120367d2d6225a76e
+~ -[QUICLog dealloc] : sha256 2dbe7b421a82a7b597d19f7f5ab7c773248337d3ada975878815aea4980035eb -> c2952cb1459151e0c6e4c35595d5be26455fd9960e43abad0dccab52f50b53fb
+~ -[QUICLog createEvent:timestamp:] : sha256 ca3f4d7a2c9ebcb18a91364e837aa5c2069c18481ed6f8edda25c4857d82eb26 -> e06bc83fc5a0838478b81caec530ee39a2cacf7bcb754ce95f85632e6a0b1f52
+~ -[QUICLog createEvent:] : sha256 0e29482508de202a01ad7e9344de0420ab96b84f0b4a752a7f3fb91a3cb0d322 -> 731d5fc3468163729dd8ee6fd03ec19e037454718a7c78c07f5f7aadedef6c53
+~ -[QUICLog deallocEvent:] : sha256 90bd15ee1c0bfc32f2c24a8db47cf3d0e22186fb57b2eefa539be53118f17ab3 -> 6f98c0855cd30540609ebac56cbd94372db4156920056789a689990e960127df
+~ -[QUICLog parametersSet:resumption_allowed:early_data_enabled:tls_cipher:original_dcid:initial_scid:retry_scid:disable_active_migration:max_idle_timeout:max_udp_payload_size:ack_delay_exponent:max_ack_delay:active_cid_limit:initial_max_data:initial_msd_bidi_remote:initial_msd_bidi_local:initial_msd_uni:initial_ms_bidi:initial_ms_uni:preferred_address:] : sha256 db309add91785557940eaef656a8f369031c0c3276db56978b2dd00742d7b2a0 -> 558097faa2461868902866d7948c9e19a977d0ca3f36483a1958cab055a74c04
+~ +[QUICLog packetType:] : sha256 e6b35f86cff7449c5502305153fb273b93470cb0b027f54811f5e04e8634cec3 -> deb6f8e09c238302f7bdb49291693218ab5069dcd9fe80a6a0ccf33eb101ac45
+~ -[QUICLog packetSent:timestamp:] : 1696 -> 1720
+~ -[QUICLog packetReceived:isCoalesced:] : 1700 -> 1724
+~ -[QUICLog packetLost:trigger:] : 1700 -> 1724
+~ -[QUICLog metricsUpdated:smoothed_rtt:latest_rtt:rtt_variance:pto_count:congestion_window:bytes_in_flight:ssthresh:packets_in_flight:in_recovery:] : sha256 dbddf82d494722c2af6e9814b1611447f8f2d462983ef2f5abf8f487fd89fda1 -> 6faa98cec9bf1c4c6a6d38ba21371f1f561cea712fe77fedbd3c2ab7e1d06d12
+~ -[QUICLog streamStateUpdated:stream_type:old_state:new_state:stream_side:] : sha256 488b8d4c346b22c41cdac161c680ce2d92cd3f4f116d32eefb3d557d15cf5106 -> 10bf0612aca37dafa60f1ae9329dd94171d34005cce0a01c1780134c2e799ad2
+~ -[QUICLog logCongestionStateUpdated:new_state:trigger:] : sha256 0cee4ed3f8082ad5342718853449ade173b27f9a7379ed21dbaf79b1ca6c24f0 -> ca4bb144319634f0bfa2fa38d71dadeabbb724b6d1f295c91859d0c1dcd501ee
+~ -[QUICLog logStreamTypeSet:owner:old_state:new_state:] : sha256 c02a9c7eb78bd1d6d8bfab6e98c8c9ea2d60ea434fcc2a1686f0ca951616c113 -> 731eca054ed9b31937b8d5ea58f47845e8f9f51827f3b9490d578fc645d4f23c
+~ -[QUICLog dumpData:] : sha256 f7a9ab86093b0603391062ed1e15f9521c753e3680ce3fe6c7ec31b5ca3a8faa -> cc7ab2c9ce55b90b544667da94f40ccfa57f0ad4953278c24d07472c5ca46304
+~ -[QUICLog processParametersSet:] : 1456 -> 1496
+~ -[QUICLog processPacketSentAndPacketReceived:] : sha256 d8f1a30e96f51bf13af3ff95a20b224048795125f2cb7e7d700f9d70230ceefd -> 976ba6bf401912714e87602a5cd2ba42fe6b832c408124a6d34347d4ac8a9056
+~ -[QUICLog processStreamStateUpdated:] : sha256 616e5c3f16647344df2783046da0375fe97b595bc8885530645e86aced7b2c50 -> ea55f67a2756a13ad7057043c292f7279f0de0ca19b7e03c0984233553dbf504
+~ -[QUICLog processMetricsUpdated:] : sha256 e491046fcd70d1ff58c7852cccff2d124cab99d661287eac43e64d5a529b4267 -> 2778f72e4f3a9fa358e47e67009dc7e8cbb4b0f7429e273dcb3010e19839411c
+~ -[QUICLog processCongestionStateUpdated:] : sha256 e8295f6fd10e741eb19eeb82af9d0253dedef05c9066a8c7c17def86fee66c38 -> 7bb62806869d5417e05d3615ac772d8410abdfa29e2a23b1f64a622b17ef089a
+~ -[QUICLog processPacketLost:] : sha256 af1421714bca1ea7319cc9daf9c318802b4f299cee91ee260d40bb5f85be87a3 -> e52e7244223047609f78839569e9940085d687f4939565a2958e0aff458e409e
+~ -[QUICLog processStreamTypeSet:] : sha256 b348d90b202d6e3aa02f0e738e1dfc87fd8bd4fad726617da11f9330115aa30c -> 238e5cf4726edfcfd943dc4752118f3422c14434c7c628be1802a557111c59b4
+~ -[QUICLog addEventValues:event:] : sha256 ecd8074d22d2cbcb45da9b9a29616d26b94f55e58bdb0639681bfe03d66ff48f -> b1b6b239054dd1782dd9150c9ae2d7592a0cec521d8651d55b14c879b9e59f89
+~ -[QUICLog addPacketHeader:header:] : sha256 bc49defbcb7390e6a4de1203b8ed1a255578543a4e2263ed4a7bd38ab2592d46 -> e6d2a77aad7a8fbc56456e52891effc75ccfd323f0b2dc34e2eb2282df74a6ed
+~ -[QUICLog addFrameList:frame_list:] : 3772 -> 3788
+~ ___35-[QUICLog addFrameList:frame_list:]_block_invoke : sha256 7686220b3ad73a6ef9d04e47b218c3b9fd407e3e3f443d0239d0d4035d2dfc23 -> 2f1374d17f98e72863879b569530e5cbf18799954c5998ea0ef2135437bb49dd
+~ ___copy_helper_block_e8_32s : sha256 9ed2e21479be5d6d68df3e55b7403ca36be37536b1d92298f81a86b7db818f15 -> 849d69e3cd02293cb5de3914563c9ab117786b58ba9dda85932eab2537bb0da2
+~ ___destroy_helper_block_e8_32s : sha256 654989851d2a99837060e57a98f0bf5d9b4474c2a0b6e4be440c94c5b5cc6dbc -> 4cf4e611ebd79eaf927e56b0b1e59a5b0d93f1a2fddfbc1a9ef369e0f93b6bea
+~ +[QUICLog categoryString:] : sha256 14008b1f2581410d9622dbce804d80049f216777dd4adfd734f34dcc48956ba5 -> 0e5cdf36064217508cd2e701cbe8150b7a61e4dcf2d0e09337bad52ffb355e94
+~ +[QUICLog eventTypeString:] : sha256 118cde3990bdf7b934663c5db0c89ac5aa1211fc058de4e4830b236052be0a39 -> e74cdfc48819b5754293c0dbc6b9473ab2f473bb91e7e7355a7dfe10f2d931bd
+~ +[QUICLog ownerString:] : sha256 2d997c52c6de0fa24ec63d125f665bb0b7241f856b93be1e18e58135046ffd39 -> 3e5beb220d9d26089b95fe87b56cf8817c451d34e1f35a4b56a4c569042051db
+~ +[QUICLog packetTypeString:] : sha256 09ceb8a8eaccb5f7fc781b88768ccded174a26b70dab2626aa1f7840813149bc -> f06ab767be4737eb11fdd282e6a6ee0269c6da95dee4cb1ebb4c02b40f96b19c
+~ +[QUICLog streamTypeString:] : sha256 208e82b91f67064a964b7d0c2bd0a04032e30ff20d3ce0bbbdeab58766657e09 -> 4770d8f8a6f43218b67a266e3c04eb670d57be2244bc3e4a2238edc44de9f996
+~ +[QUICLog streamSideString:] : sha256 4b8ecf56a4ad9e2b53642d138d3999c579386075f0765d8462710e65e9451927 -> 7ad1bfae1feb1180da36618bb5bb23b344a41f851a83a49826909ac479b7e220
+~ +[QUICLog congestionTriggerString:] : sha256 b33b056219673bad9bdfb73892ea749233dfcdb8f78bc32366a3e95f1c31f8ac -> 0ebb575589f01eb2cd677a8dfefd991a429e7f6cc487e86b00e533738664db7f
+~ +[QUICLog congestionStateString:] : sha256 32a441dc51fb713da283793883ab039b0d6096c029db9f25c3c6eeb4512c775f -> af722dc0ce7e1b885f6bc8b12f255b23ee3ee04d9a56b0d3589316e3ba0474a7
+~ +[QUICLog packetLostTriggerString:] : sha256 a25f33c75c32746440f6fefa7f674fe4d01de34d9ffc811cad099c54f6d72b94 -> 02276406d1a966da13c8558f3c00682eafade4d1bedb7c7d57096692a0059264
+~ +[QUICLog packetSentReceivedTriggerString:] : sha256 6ab81368f5f0bcf05e904c76445ec5620903fc03a248b70f1f62dc5581526ea8 -> 5a2eb19ce870bf8dfbf56843d407950d5ef52426a07c1373d53ae23abef9e50d
+~ +[QUICLog flowTypeString:] : sha256 ed582cb9677bfc6f0bf306bdd4bb62dc335fea793c155e77fec8c35a8c313546 -> 8d2e0f36c1f8ea55aafa8a9522673d482ec709c985fa1ba7b11e42775f622d3c
+~ -[QUICLog addOptionalCharPointerToObject:key:value:] : sha256 a57fba981b6ae79a71f4451e258f7b521ac879a1b348a6967d97bd694b1f9827 -> 67607654c492d756bf94fb9130b4fcd627c6711451a711d697d06619685c5b07
+~ -[QUICLog addMandatoryCharPointerToObject:key:value:function_name:] : sha256 0afad2adbcafea883c218e1dbe35f4922ac9d4ef6456c179ae6f2e02d3fe7a32 -> bfe193a058fbdc886f5a039a86b7ef22f6a85e24615d143e3c545a07f404233e
+~ -[QUICLog addOptionalSuperBoolToObject:key:value:] : sha256 bb9f5a299af86638be8963871613a82823a0d2c76abadb7f872bfe2d1c3bd9f2 -> 7618d0e047c47b263240c1e623e5140692574a12495fa943e8d8b5c714cc01a5
+~ -[QUICLog addMandatorySuperBoolToObject:key:value:function_name:] : sha256 bd152e5211aa4db71fe66709507fd159139c9646eb474cbac4de8f67427a9cdc -> 0b864c7b770265494c31f44b4405dccae759233f4356a294bda87e813f2f2379
+~ -[QUICLog addOptionalUint64ToObject:key:value:] : sha256 5eced9287b9493e2a65c49317e0e1ee7558d1b0ab2c192b532144feb857f7651 -> 7f3561c90c20ca53c2618973f2853ac46157377f10d11939c4da482e64ef3d6a
+~ -[QUICLog addMandatoryUint64ToObject:key:value:function_name:] : sha256 84a7e7c6165ade19516b146b52de085fb8b275fe4b9aa8916b33f073858c98ea -> 1367012102e78bb7cf983a87d6726e22e334fab35332bbd4fdb530545b564508
+~ -[QUICLog dictToJsonString:] : sha256 7287c21b5612304fe1584e81479217d3827a146743349787d4ab5718a9b795a2 -> 328489cb147e3c5b134d1da22900a135dc829c7f8202a91a2ea5321d60884edf
+~ -[QUICLog jsonStringToDict:] : sha256 a1f992b675f8dc7caedbf0df6e78652128b6d43e437988370a30c9b3b4a5cf33 -> 6411457b85b010ed4a00e618c02946641c67bda1c0f45a569ed004653a9d3a8f
+~ -[QUICLog setEntryInTopLevelObject:value:] : sha256 5e60ee35ab9c2fec970691b7aa073e0cf90fd4991c1748ca69f7f3f22f8c9016 -> a32d567826748afdb4d4301e7a005041107f7c76c64e57c2dddd46604cc01b22
+~ -[QUICLog .cxx_destruct] : sha256 3bc031d45483b034aa4257efceb695770dd52a8ce7b671a2708f8ad7a6b6d2eb -> cd59fa6df641c90129bdc0c66c9ea7c32786b79dce68d1b9a1410c8a05f40cd9
+~ _quiclog_packet_sent : sha256 013d25f50104a61f7d5600e40c9083c3d8a181a1c7e0f14000354bfdbcdc2c73 -> 1e1fa9ba1b468b18f1886d43a0059ee725350c5ff48cdd756726e898b1fd44b9
+~ _quiclog_parameters_set : sha256 fe6ef01f429e8a256938b2b7b86f385802ca0b3745c5b4899ffa1579829735a8 -> c1e01f2f9aae682b239a63c87b6f845cc579ce7b17702e7c1fb7e2c4e55d7871
+~ _quiclog_rtt_updated : sha256 26f48dd55b24e9677d14478108a4253f46a74f40ac974ed45bf46360936caf0c -> 792a158a083504288ecb32bf80a3bff54c9478a5ef3686e5cb3ac23ad22db539
+~ _quiclog_dump_to_file : sha256 c807076de9fa4057eb6c1e08cad9e640a384e713e76cf302bb9f049d5fe3a52f -> 264de9c92782588d56fe4d2a7f6e239e37a207bdcb852939422c5146993e7b1d
+~ _quic_enable_verbose_logging : sha256 0de4a44150ada287d11f4b60675347e0a91b1bb5987947025bda21ce179f4b23 -> b7cb318706716f0660cd9b5a19246402dd38c8b27ea31f16ca593c280d06d649
+~ _quic_enable_nw_verbose_logging : sha256 9909e01c1edd0d857c21db1fccccd34cabecbbb13bb11d0bb63829dba11575c6 -> 8095aefff7f51bcdcf7cbc9285ef5ae6f079bcbdb2e3fc108fa28daeba02ac08
+~ ___qlog_init_block_invoke : sha256 f4baf583ef3e19932f626fd8b15d02c88a949caeaf7ca8560d145852679f4382 -> ac40bc24fc5c1170c1177fc42cbd641a0b08d0283c6b19db530125a3e6802f56
+~ ___qlog_init_block_invoke_2 : sha256 5e6ed212cfd2bedd2cc04170b3e78ad91e536611744c414f395cf2e3a614f6a1 -> 1e1bb3ab827efc4521fb2007644b059578b556799f32f64aa2014a6ff93548b2
+~ _qlog_internal : sha256 06cbdb0ff5bff26407bbb54ac004ce9909dca59108630651d0749254f57bfe35 -> 4a8a7639125673c8b0b1f79733949ff63bc02edee357fa6ea1ac771e256589e3
+~ __qlog_debug : 1368 -> 1372
+~ _qlog_abort_internal : sha256 3d253a2391b02034350eef5daeb72c6e358bf8deee9ba6fc7a7ca2ca5339c3ab -> f4da1e05a60c7d716ce1cccef81f2b2f21ae54c75d906aea5671bfdcda7be858
+~ _qlog_dump_buffer : 988 -> 968
+~ _quic_tp_has : sha256 a685537c112c5d1def8dc5957415f97378282995dc12a5ce562dd5a3d6aab291 -> 4939a47929b970198c2433a48b3cf8d7c3ee3241a2192f036ad6b750ee1e154f
+~ _quic_tp_get : 664 -> 648
+~ _quic_tp_set : sha256 dc65779425ccf3b053a58fece6b5c721ab1761d28c9d3479f1057e44ac20c38f -> 9edb13479ce9afaf61a7364153cb6e90ebdb31a8efb3d7a13939d072828365ea
+~ _quic_tp_type_to_string : sha256 182d6be4c4204f9e4fcca9082230ee12106e46fd7f36886ff729ee2a0d353333 -> 13d0e704597ce9ceba7db3fd57c3f388b2bd41a4eda9324a40ecee96bec37bc0
+~ _quic_tp_serialize_internal : sha256 aede3eb5efdc25d6df2d96ea3a84d934a7107097100d9ffdbc7c5bd1df76337d -> 35e2f3e0f5cf019aba3c32fa6a252051910b8f5731861472e0944ec03c6470f7
+~ _quic_tp_deserialize : sha256 0e90ca0c7c30686a23005ed081dbd4d8b64f51bb27199259fb55b174136f32af -> 785a88a10847225f43324bb61e529febd0d478a929c8e58a3871f138a0f3cc8b
+~ _quic_tp_deserialize_buffer : sha256 ee2c051b99bb60d5e2870bc6a80909166884d34be1c2d44ce1e0f13384177c2e -> cc295c57498a8548139f1b9789bbf8a4d4b8f362b756a5634e5e59f4b8b707c6
+~ _quic_tp_set_original_dcid : sha256 12cd08ce3146ec41d18378893bb28c98709c98a4e961738b651178f261783607 -> 97c10c4208f14de2fae0ce4a7c1c07cb372e247827a436eb37d333d75c6c6bb8
+~ _quic_tp_get_original_dcid : sha256 53ed086c70f8a872d2f8b489020ee655e20bbff57772657911fb554308f80c0b -> 3c612f6ae1746893b7f0a080e3628e601d723b5dc212afe7b70682eecd9c3b73
+~ _quic_tp_set_initial_scid : sha256 6993f06b4ba6d0e205fefa856e57f9feb0fdc0aa8e0e158a0f32620c61f56c64 -> 7ae3cf7d065ae37af79a8a90b693e1337dfd2348e268a9a7f08834ef2cdc2808
+~ _quic_tp_get_initial_scid : sha256 41b51b97cf23fd9e29dac3aa27396a1faf9e87a88e6bd6e6c4b3f668773ee897 -> 71f04a57b363eea4209a7bccd8166778956ab37f3144499860a3a2a0a3e92ee9
+~ _quic_tp_set_retry_scid : sha256 7b78e16a477fa66d1c8d1dd74beecd8127a4ab3eec8a5029f4c730e51e01a482 -> 02b08aa267a8f08da3ff0fac0cfc6e2bc510651261e2a01080ba906eb8ff02fc
+~ _quic_tp_get_retry_scid : sha256 255bfa6ffc10b344e835ce1c59ecbba15e4f352e29fb8874d6298a5d058f4123 -> 65b9be82948be73b494ff77cd4b19bfab564692806da5f821b12327adbd1168c
+~ _quic_tp_set_stateless_reset_token : sha256 b446558b408807c6d8b1513dda65795caa31e0dca373ae47f1f5ee0e3f5f3e58 -> c74f6c482a7e14c297f942c542f9855a7f6a872662ec7832dd0fd339029a67ed
+~ _quic_tp_get_stateless_reset_token : sha256 cf8e5879a0ecdb1cda0411b427ce14046c18405e50995cd9fd04ba3eae7039d7 -> bbde1e97e09084cb32953e3696a7411b474d3bc77ea2a0cdaaac1833391ac0c1
+~ _quic_tp_get_preferred_address : sha256 72922e398c37b80387e44865cbc0014a43bce1f43680f8e5de003f0f99548982 -> dae2985b4cabe4edac0cceb8f021f5fe87fe28676022230f6571167f2618faf3
+~ ___quic_tp_serialize_internal_block_invoke : sha256 8c3d17fd6ff4fbd3bc66dbac6e5865a4543b389706defd1c006ae6c7ebdff0e3 -> 205835ce833b5bb059adbe9eba62d8b28a80f0a3baecccda0d06ad3a1c809a23
+~ __quic_tp_serialize_internal_block_invoke.29 : sha256 8b5923c17832215e27bb02a29964769a348b50e0ade762ac6f2e941f411e6290 -> f29a759d95346e6b933ee43936f74e726f4cdf5a0f632bafe37d803280b2b9e1
+~ _quic_tp_serialize_parameter : 3252 -> 3300
+~ _quic_tp_serialize_cid : 308 -> 312
+~ _quic_tp_srt_describe : sha256 6d29d86709b6cfa0540f24bb01bd80fc92842686e0ee5c0f9f3ac1ea4fda3f66 -> 8dcf9d9eca92d7a8c2c06fa76f2f6f760d03feca981bceab00121dc7fb2d170e
+~ _quic_tp_deserialize_odcid : 780 -> 792
+~ _quic_tp_deserialize_iscid : 780 -> 792
+~ _quic_tp_deserialize_rscid : 780 -> 792
+~ _quic_tp_deserialize_srt : sha256 70f1b32f7c45684c032819cf66f81f7c23e0009e1ac365a51184e56edb14b3c7 -> af2a43e5df3918ea6c0d2a0795c30cc3577264f4cc754222b8c1639882fe00cf
+~ _quic_tp_deserialize_pa : sha256 5c9c0fd4278fb128d2ae4f4610a8e64c3ab0c52df4bd676a3cd41fb550b1daa5 -> 7c86f1398ad9954403f99524bc4bf5ac93473b7babaf543080e3ee01639d49b2
+~ _qpod_conn_create : 1204 -> 1216
+~ _qpod_conn_free : sha256 e0a788dc11fa37777cdb1be82d03b186975c6888801396539eaa46b91a557de6 -> 535d40f46552ecac0703394f45146b9e33cc44746a4b037105d32670935c5ee5
+~ ___qpod_conn_free_block_invoke : sha256 5bcc394304072826eb1a862c4ff576309a54f0bb1c6b66f96a7a5d9e57d41deb -> 4fe6f9c91dd4eb3cb582133579fa03d3e6f41c606f91e537cc18012982e46853
+~ _qpod_conn_encode_datagram : sha256 73ee24df82eec415c774f3405992e04d69ca5e8a04d0f8f6fabadf1d0c124ddb -> 3b5045db7a82fe5a7c5f448fcf745350182322ad810f529cf2017c748fa37456
+~ _qpod_datagram_frame_finalizer : sha256 d89a07d67fff177764e30be9a35df537ff52849c10434c58487209a506120b09 -> ee12af84af9b88cb4d2fdbafbc4e06d1f9b4e641296c2cabb756255fc95dfa29
+~ _qpod_conn_decode_datagram : sha256 d52d4496693cc481caf656b845a248d70a5fb3b24e57223b4fea3cca717975db -> 3ed292df54fc37a2e5ebccf2f43e591ebb3c1dd5a7fec09ce79a2cbd508a228d
+~ __quic_packet_destroy : sha256 c33be4eb66b7ce875a629a19786a1be94fe54e297655e4bfc6282178e7a5c50b -> 894affd2192087e5f0a6fc3ad38bd328078645120435c3651f904ff42c46d2dc
+~ ___quic_cc_cubic_identifier_block_invoke : sha256 5370e2c9dbba7a715e899d64de9fd58604a2a06952fd594648ecc140eef5fa6c -> 6d945b4cd1fdf5dcdb945f53c451e5d2ed1cb94fae9397c5cc311bb0c7abe20d
+~ _cubic_mss_changed : sha256 021633b3fad62dacaa951801b17397dea01b8117094e16085676cb941ee78f06 -> 5bd3c8a7dab8371ac2f0f67b85de58418bde83fb36f115e413bde3243308063a
+~ _cubic_packet_sent : sha256 1cc987b2171f4c414ed0e05a90ca82adfb45865df9b62b0748147c5e291241ae -> 73cab0c5849afc210144fb0153c8deee9265cc72d5dd2db01a6b4848551d3800
+~ _cubic_packet_discarded : sha256 444c883238c67255043fac45400787e98efdc40d3fcc27ee5b732280383095d7 -> c8db4b33caaae2a5adde6e77b33482a6e1b9496cab7f23b7c25c7dd22f4db39f
+~ _cubic_ack_begin : sha256 db0262c8a8b560fde196a9a665b6603640539db80cd217d74df30b36c25c4465 -> efcd8854fe6f87e8647eca613db464a5ffb53ce360c729cee13dde4ba831aed6
+~ _cubic_ack_end : sha256 952482f2fb0e7121edd3a6f2ea71e984c8bf934e69e330c0955850fa7a7e0c53 -> 9b97d6df0b528b2f9710be7c21c182352a11b9110d3d4a0cf6c7a3ad5eee30c8
+~ _cubic_packet_acked : sha256 e58137a51b8e2f19e9c834b2c16df73e3dbbefb838084f20fdffaac666b9f66f -> 096927e197afedcdcf7b8a83e3511b440a0dace2e3650c82151a1d33a4d2a666
+~ _cubic_packets_lost : sha256 034f38ea89bf7f08a9bc9d460f7d28dcdd0e5905b7f7219cef6f88cb30101230 -> aee88578eccfa45a1bb70f709bbcef7c73ac91ed218aa6179dce85d22626b7f6
+~ _cubic_process_ecn : sha256 3885513d6b5bcad156e89879d062c28072d82dab6bf327411c92f9e99767f522 -> 53f042e34e67887356e51bc4f8969c82c9d2d11b516b6fc14daa88620e495193
+~ _cubic_link_flow_controlled : sha256 dcf3c9101007a1d4abc7b282bab09b311df992b286909b862de778cfcf396d02 -> f92affdcd1521f523191571d059a9584438cee437afda0a9d767340c898a6585
+~ _cubic_process_link_congestion_info : sha256 902941291c6c680218a69f19ba3aa7574a2ee33e14ceacd93709d85663115459 -> 9f3d3617161a52cee9d4ce647f523bc96cbd151d8d0d59314f6a6f5a12f4f272
+~ _cubic_spurious_rxmt : sha256 9d1ae6295e06990abc34c5499d7bb14e1531c36142d4cf436e1556c9aa93ce6d -> 82894e3a2d46982d277d011a47398147067fc9ae1fe29892620b785709ed0016
+~ _cubic_persistent_congestion : sha256 befeff2f4ab3a0f34ffb5ca669a4e14890122ccad27bac1188fc6184c202a96f -> e129f4aca1bea748d73d2d90d7b492de620cf0bdac85b7d3be7c1c7fce3795e0
+~ _cubic_idle_timeout : sha256 51c60b95216540d6586776789b5ad7821e94cc301bcdb7cdcc6c4a1f29f32a82 -> 22dc331e49b91714f419462fd60d0777f78f6b2755b378d50f29392b6ff6bd53
+~ _cubic_can_send_packet : sha256 0d3db063f1d8338c3cfb2bd3162fd1e291e16073287c5036d0faa37abf793769 -> 0e7f36ac6613124c6e05db9850565bfa5d98af12752c9526adc410825d1b1e75
+~ _cubic_get_cwnd : sha256 c4690379b79e40407b5b46ebb5432dc3364559aa8493fe8c033a5de5ff94ba32 -> 72988fc8258b4c5efce37b9918b3777a537371a63c339d10ba6003462d80cdc5
+~ _cubic_get_allowed_cwnd : sha256 ea4932936750a510c7a3ba2f3fe99fd2d3df5c1c6ec27662118c24442f14d41d -> 8a659c43464c58b312919f81f7c6727df27fa3dc80a19ebcfffac4bef1c49a5b
+~ _cubic_get_bytes_in_flight : sha256 cd1ca9b490d08cab37f97caad6243cef103318894226110cb74be21535eadff1 -> 87d0c0ed16ab908390f9cac66ebc411e7099d33ab4370fde31783f9e0420e59e
+~ _cubic_fillout_data_transfer_snapshot : sha256 aa859850d9cd6c557efb38412f1e5da837e122c9952395b97f2d6a825acbdd90 -> 52ce5704fceb55294bfec09dd9dda66e5a2127976708f6e106b5a25b65b28048
+~ _cubic_init : sha256 d61cd07f9292b8bb485dd0e1094fc936d4d6cc19f80f92d115bcb375b9e998a2 -> ce2b9f0c7e7ce6b10d207d23f6a46a617c5c3e0eee81d0a2bc1fd843f4e5bdf3
+~ _cubic_create : 216 -> 224
+~ _cubic_switch : sha256 1986bfd77d0f5d7b8d621fa291638a9467b7a83b90be8fbbe4f177d56c0a9bc5 -> e4bf812608dc44b09adb9c7c8c831b627919c6a0d58527c36d5072a9d0957188
+~ _cubic_destroy : sha256 5aa09e3d5c8dc8a93e602280e17065b3d993f427a4c8386e8f235b8092bbb201 -> f437a966c39b1597903f4b2288381e393de74ae3ab1fcf08c74ad893bd97be63
+~ _cubic_cong_event : 604 -> 656
+~ ___quic_cc_ledbat_identifier_block_invoke : sha256 777861b739a633502f7cc8b0a61891f0f7bce7febb2c980e9772f4243272a079 -> 371ac075e0c88ffef7454a75f204cae8bd5c4b25785e8de9871448c970212edc
+~ _ledbat_mss_changed : sha256 9342854fe15fbad066c1699c170c3ca5772887c575844e801fff42bda09d1500 -> a4eb758014ce49bdc767e306c57f8e17efb8ed1a35b3bcdd76ee4a84c445ce66
+~ _ledbat_packet_sent : sha256 392e73a41a50629803027aeeead35fb969509967c4b3f491fc36a9434b085218 -> a14e541bc438bb854abcd666346668a76556c48a587c55a171035b538fb4ca45
+~ _ledbat_packet_discarded : sha256 1bfe47c4543ab53bf585aa91f2fe58827a47c2233ca5d919ccb1db35a9bc8a86 -> fd2276b911d032597ae67f3785a35d8cf8ef3e76ef7cb65da69debc4d7ed9f53
+~ _ledbat_ack_begin : sha256 41406c678c2b450f4827a470c8cbabc91e276af27ddfc209961cb6ba36f253e6 -> c49d331570cd256093f1a111e3ff186bbfe2bcf2087805534232cb1cbb82a898
+~ _ledbat_ack_end : sha256 79f6903258eeefdda398a3ce49c4ab848a9eae61464baa72feb7d72fb99d8f19 -> c141bdaf5b80b3d24186902dbb24e2d9e70b4c2fbc9b24145fa649bee1412cfb
+~ _ledbat_packet_acked : sha256 b0f91eced8850f35d8aa9b12f97b02867239611cc7ddf18948f4e8535f0734c7 -> 4fc9e0ef791ee65ca36d8f81c69e79c0e548bde44c0a3563c405096ad03efbbb
+~ _ledbat_packets_lost : sha256 de81c3a7b2ac30a9cd6e61cc5c6471092c8541b2e63e0d30b6659cf140c5b00d -> 4e54566be9ccba7ef7c7c3b0ccae8f8417646ba1aeaa85c9d50719d525e33947
+~ _ledbat_process_ecn : sha256 7a6382456ef56cc9ecd5cd658b6703315b8ef5645a54c51ef989b24704597fee -> 516557668912f5d44560de9062d3c2ee224753652e306879079c015a713a36cb
+~ _ledbat_link_flow_controlled : sha256 973e910ddb0b6387a7b1d16d10de30314a8e3f623aed15e4b435254072665b55 -> 0739a887be9dbdb1933e856646d1450e9c3eb1f7080d34c0c89d0b212cc12cae
+~ _ledbat_process_link_congestion_info : sha256 132bab9bd6dc38cd20ac34d79aa755f5ffa463e88e979ecf62e89730dea44e17 -> a4bf77adaf09cf85f2cdaa56bbae2ae08bf516f6de6f14dc56425aea752d1ee4
+~ _ledbat_spurious_rxmt : sha256 4be9eb5f7156ecefa9fc80419691b5906b44f557b50a0214ad2f77a076ce38d0 -> af004ff0d013cfdefa4fd2f7fdedd234defaf8abf7d32d97eaca228aefc2d2e6
+~ _ledbat_persistent_congestion : sha256 70e58c3aa31835b0b9982fd0769568b06ed17505aaa9703501b0cfde43a42519 -> 141336bf3705b63a93310ea9f67ecda604d0a72bb34464b82ebeb672be17ab24
+~ _ledbat_idle_timeout : sha256 ce05adbd521f5b85931f685ee6d25f7db7d1ce15a0712a0e3fb1dc5a861d9d68 -> cb8bb5cc052d57a43ca199f145994d0771c9cafcb3bd7b99bfc1e589c3e6372b
+~ _ledbat_can_send_packet : sha256 394635507ed9ea850b68da6f35497d8d59a225d0262f9130e6f5f0bc4f8edf1d -> 8958168d3c95c51495c96d5b086f7d0fc05a30a5eaa23f3aa6cce11a0a0569ec
+~ _ledbat_get_cwnd : sha256 c75476dfd60764f069a5aa600164a6dd985a7e578952ad38c5bb0921f0cb1e5a -> a4dddc9de80e1cbad9bb53e1275a3750f114a14ef300a8e01135283b4268eeb5
+~ _ledbat_get_allowed_cwnd : sha256 fb60f37dc2b066258e27138a28539648a87b060d4f2153c9a4211548e3053732 -> f09ee1180b2ef5f178b978871114b7eaf6f2c03effd79211878f51f2a0d55547
+~ _ledbat_get_bytes_in_flight : sha256 3a6099ad55f60c89765c5a1f3203f868cca321c5542347f6dd9f118900dcf137 -> 06160ae8ec11a896682dd130715c3406402911d28381afbe027815970f5a9a6e
+~ _ledbat_fillout_data_transfer_snapshot : sha256 5d191efef6feab311739a8bcf651b79780f8b7350ef1bf1459de1ffaa0a0369f -> 627bf3822b07b1a59b595dd7b4bfbaee6ffdd75f219e24f7a80b2a3608b8d187
+~ _ledbat_init : sha256 2a9e9ef5d07c305d2edeb95997759c50bbb3d4431edffffe8be55585f766681b -> 17ed4a19c0acb75b0c7b10151feacf5ab7f4200fd7dc31670465dbdac29bf6cf
+~ _ledbat_create : sha256 b5504999a48b78254ab0f161a43cf9404b9346d7cd2914e46aeaf71bfa09a1dc -> 4668dfc1eb8a25bbd4c2a20e2b94e0e500741ad162a0b4a1ef3feb1640c1fb78
+~ _ledbat_switch : sha256 7e356b48c73208fa95bb577e5d4cc0a0707550aa748451771fc5b74f332eb069 -> 4572d8bb776346448659f2e6c84aa285c3947ffee9c94f29611823a142ab79cc
+~ _ledbat_destroy : sha256 160679d610ac9d68b23b28f1fce6d95e008c5cf77c80fea986dbad932cc0df8d -> 9dde4f2fb5ece9f7e244c9dd450a64fd7cd08051c6fcea1e081d5265ff686025
+~ _quic_pmtud_send_probe : 2036 -> 2056
+~ _quic_pmtud_can_send_probe : sha256 8cb5626201515fd0365b0b36855920abb0c268004fee668e54b788d65ca6eff4 -> 78e499eee6671cb5b6b9ab90c8dcb4157303628013cbc7455a3de4d793080ad9
+~ _quic_pmtud_probe_sent : sha256 78b8d33f22fe29e10341551512f73e1844bd1d5f8cba43035373a4a26208eab2 -> d87531e031896f6e38e64e4bd8f4451fa26bdeb05ee693bd3e3e15e85d396e60
+~ ___quic_pmtud_create_block_invoke : sha256 170b4370449fc9fc60d56ef30862eda8c4709b12ba24b1af7242b3cf1e339d7c -> 73f8c3e078a95ffe10efe91b0bf941ba670198706078fd37adb5edbb21869e2f
+~ __quic_pmtud_create : sha256 84489c4452f9dffbb5149bdb1b7a596de8b04547160d9a0fa3d327f5485cddf2 -> aecb8df99eac0ca9b9da4ca7d7b1d8c648ea27709722ae22c422b823490c4216
+~ _quic_pmtud_restart : 1532 -> 1544
+~ _quic_pmtud_timer_reschedule : sha256 a48577d67c5e0182ec93dab48ce92ce443f0000d3613aff7f9212cf9f2cd0ac2 -> 097d73257b64e06e11603164ba90086bd50d20b1a5b790594bd41710db56847e
+~ _quic_pmtud_update_probe_size : 1328 -> 1324
+~ _quic_pmtud_destroy : sha256 7832960e38f168997b5efbbf2f8a3fd7da4ff4fa65918251300d9b1927d3d01a -> c0e77876c6c45690afb31255cddb9c0d10c32414695dbd57ffb82316c14d7008
+~ __quic_pmtud_destroy : sha256 7d683d02616a098c69ba314c58aa7ba9147d522b2004141ca69834a5574a9719 -> 6e3f0be91d6b5310131ab012628daedffb8d1306836d64104c078fc4acdf784f
+~ _quic_pmtud_change_path : 1124 -> 1144
+~ _quic_pmtud_probe_acked : sha256 ce9090369c49272254bdf10b5b26a51d3c1269aad2a2b166d1ce8fcd7d5a7574 -> e507fe9219b36ff564eca193fc152300134bddd9a44892f6a095bd269866260f
+~ _quic_pmtud_conn_set_mss : sha256 a1cd38e1066e9dfcaa451a431de116d54cef7f47615abdd9fb3ca212f0f4331c -> a47e4c1933192d928d250b9fb52c03b043864074b9b3c996f9ec97692454fd53
+~ _quic_pmtud_search_complete : 1064 -> 1080
+~ _quic_pmtud_detect_blackhole : sha256 effccc5cc2607702d366276309e9d45a5ba9736c81db0d209911250d195f5d41 -> 80d02d39ada9012409823473c9ee4a00853f575954d9093f32baff01cb87474f
+~ _quic_pmtud_enter_blackhole_detection : 992 -> 1004
+~ _quic_pmtud_ptb_received : 1992 -> 1996
+~ _quic_pmtud_probe_lost : sha256 ac10c9ec485c75e3b34737c6450d8ca7a0892d1aa4b559978e4ecaa8ac4ccc72 -> 609f60381472ae093e4aca1c36b26da967ce4a3c64fbcda84ffb3dd6cbac7f34
+~ _quic_pmtud_message_size_handler : sha256 2f0b121ce613b783417f3b7a458e082ecd2efe3bdce31d7a01d6fcdecfee7f82 -> c45eab2c6b5aba985a6292479eb51ffde6db0448bc95e1ea96dbe99609f047b3
+~ ___quic_pmtud_message_size_handler_block_invoke : sha256 95e4b05e53f830a880d2dde4736bee8ce7f0e435bf39d2d9e94e04c0cb24763b -> e9e7f3cc71eb91132053eaffc460b27bcd2624425a0e76c64b0e2c0c66bdf2db
+~ _quic_pmtud_should_probe : sha256 a6bc455b3c5c24d29a1120337e696b39266c781110cdef2e3f85fb9290b51073 -> d110bef124e18e0ab7704c76853d3b30f93676d295fb9ca975a1721c61d100f9
+~ _quic_pmtud_get_current_mtu : sha256 eb19e6ad280bb2480513a0d6f685eb4d61571770c03d769c5871b737a90c34ca -> 1eb4f7dbceeb6e52dac819ce861deea04cfc7004ea5f5f9e8742446a24266cea
+~ _quic_pmtud_stop : sha256 9f43321b9f604749ae45e32a259b34db906b3d4e187079a56872cf5cb4cc0b03 -> d4970a5c8e71963671cf8ec559c6171a5bcad09c59c7a6e1aa43a8760d8bea17
+~ _quic_pmtud_increment_data_frame_split_count : sha256 cf1e3e5d7cdc824e2c5f65b280c91267abd34865d1ccbf66123de3d867df5c0b -> ed78a23c4816fcfb7059bd5ea7c65974339a2e1a38b4aa36a14052b4448bdee3
+~ _quic_pmtud_pto_event : sha256 89f0ebc4b4052afc0758f037f937d58511c4b172299b43887072947e74b5604c -> 54b7246061f852ebd745d6f6e97fa01a3d1edc1d43112f1939eca8251a099d4b
+~ _quic_pmtud_try_to_send : sha256 ab167e13b2a6a4b5a8ab89a01529ecf6d24511f167a76595120c2024696398d6 -> faba9c61e2739cabccb8c73b12bfa8bb960276b1166d3b72839b6a5f7e0ab20d
+~ ____quic_pmtud_create_block_invoke : sha256 db3146c14d703ec2bc45506d0fb091576ffa384ac2792ec4b461f5e148900a42 -> d234170572508be43b8e1fc5a5c691a60c37161a5022088f7720f85b800f2dbd
+~ ___quic_pmtud_change_path_block_invoke : sha256 32cb5455ca9bd366b61aadc7af59151feef0f6cb18f07809fbc1b1b044c30f22 -> 0153e8723cfb85daf1a382f4a90f8c4f6bbe0bfd249c33e76ef0054165c4b601
+~ __quic_pmtud_change_path_block_invoke.18 : sha256 ce11138217bac6eefa0cdc8b6cee7a532151dd75ee8f8a966ad04f62406a5873 -> e0791bd28ac230c5c1d8929dd52bf932c0f8fd262f26969c08f23a6eb1ca1a43
+~ _quic_reassq_append : sha256 b7e74af87998cd4e4e14e29337247024876824c9dd3e8e74c58082488cf32be4 -> 67f3a722624ba88cff3ba302cba79ff4552e7bd8ef298576992fe04369b74dde
+~ _quic_reassq_last_offset : sha256 e37684eef409595e67c5fd01aae27e8e6920a01eeddde8859cb46c60624476ff -> 300e9c8cff13ec2af9f57d04bd17c79a520ed897b839cccd70a367e953c60fe1
+~ _quic_reassq_inorder_offset : sha256 191b135f23df79158b971ae9c35bb5335366dd3ed05c482089765189904b2d09 -> b8dc0e65e72faf8b119dd3c122ebe9e4a7e32944a65d44a19e64e61acbf1e553
+~ _quic_reassq_fin_offset : sha256 39534e2629158da19f1a85a686ca1c19637318633500e258a0e0a94f74a038c5 -> 4946a663361a1061b47339c0d9aae63024af2f8a2188df3d5c191ec445f88e70
+~ _quic_reassq_has_fin : sha256 2f02751ca361a9a0ff61a8f166bd6af21111241c16b65ce745435b750f7eabd8 -> 29a89571aa12c3d7d0b61e8033941188fd5df7a467536edb7246f383ce05e500
+~ _quic_reassq_size : sha256 7cee9f13e005fec5a65d3149c842458cbda2977098f41e1fc01452f11c32929c -> 77ae3cd99f4d6d6b33aea2d0746dbe7938b758033fd8e0d7bcba3f334335ef45
+~ _quic_reassq_available : sha256 68381b77132e792c33f404090bc422005b32379a4002a3072ac469502f82543a -> 3e6028f630dc84dc8b1805cfa97d497186d41b5200f0deee944a87afda8c62bc
+~ _quic_reassq_dequeue : sha256 0cef0fdb499c677c20e36756a31c0fe9ef2d67b9267c09cb74f67ab15860cc3a -> a603653333daa8abc86634634524c726efe3b049a5492ebad954c2c257492f3a
+~ __quic_reassq_free_dequeue_item : sha256 64c3f0aafe5090a05b3b163ae3f047b5327fa815c58bbc262932c7afb448259d -> 5faec58d856d4643bc6b151d0220aff2c50b45e9e5101298e09238676baabd06
+~ __quic_reassq_destroy : sha256 ad20eb23fbfb186ffaad79db11717f82495d628004221fcad6aeb8657c877f3c -> cfe71c2847d175946f350fa89dcb54847dc9033e7547effd82c60384a240e0fd
+~ ___quic_cc_prague_identifier_block_invoke : sha256 b1346e88df2c00a4bf14b06238145356cb855be9bcf3b793e76413da03f54c08 -> e392d6ca8f00016bd4a8679db411b33836d7441ebdeff0493ee2b4dcfb0db7be
+~ _prague_mss_changed : sha256 80b5167b0173ad7d9ea657c339f5acd797a67a472bee3c4b1903cae21865c797 -> 44c35204fc6cdf324d3fa870a6bb969669cab076a1dfb58c5e6e4dc10e23119b
+~ _prague_packet_sent : sha256 7f864b6d125b48429c5d6b59adeb19d5790066d3f6499955cfa599610c3c30e4 -> 6c62be940b3efd725f96a997b486032236af694dd8bba8e5903bf8cca7fe7cee
+~ _prague_packet_discarded : sha256 4f3e3c459e0768626422f1b5a00b6dfef84cae5828e8f1acbf434525b2935366 -> 2d80b416bc96cbb570ceb7b244360bc0a044ae93a014d72c7453a259275aee8a
+~ _prague_ack_begin : sha256 54dc7880347313eae9965910146fd196cf5c7eb20418f4f87b8a583cac300336 -> 431d2a7cfafa4f997d70c2c507c58ce7f9b4637b66620464ffe0bc46740c0207
+~ _prague_ack_end : sha256 67eb2f8f523000b17caae6ef05cf51e08fc323a21b78b404f3f10d50bd21b573 -> 900fba63dd8b67e952a9d2fbc7566bd3da41ff13ea26fbe4423aca3aa66789f3
+~ _prague_packet_acked : sha256 60bf6fa1d3cf186540b6ac7e780f1cb0fa97e2f4a0ef765ca389180860fef442 -> d2f32f0fc54a9459a7b4b7524065e0436ca072e3f177f432eb3f8c7b5b2c0dc6
+~ _prague_packets_lost : sha256 f461b2ecaa02189a66f7fda5446b8faace2ec7682a3b8ab30f802210dcc7e443 -> 41f45b24fbc1c78956cedf88b9bc6ad3b9d6327aa8ed51f08aceed0841ab5106
+~ _prague_process_ecn : sha256 888c432a4786e6e5e8f6bf3dc0de21b167772c1329cb57aa36ca20fa070a3d46 -> 917b253349bed894369975e45363356efa1047e3131e5fe9baa97aa3ce4d70f6
+~ _prague_link_flow_controlled : sha256 eab82d5e5be4004bee2fd049f94c8a837df56fdded57aeb2df535defc5af3efe -> 66a0f81e5ffb057e7905a73fad00343349fb7cea00a33e3c859f2bc3bc3faf53
+~ _prague_process_link_congestion_info : sha256 767d45fc290b6d799482d5e60ecaada9b4de3469f215cd4ee146d6fb04c6c216 -> e94722c27ee34c11dda138ca83a91e39bc5d379c58f2584caf649a1d588a675b
+~ _prague_spurious_rxmt : sha256 1524adddc2652c0dacd9f6703113552edae8d4fafe97e52f9c20dec6b027b999 -> 6c87a3f3d45732835e0266dab86965b4152c49083648405c9664a515c6d02236
+~ _prague_persistent_congestion : sha256 d36c60669d3f41d1c004e2a1c6c8679666d034f657b2e4d30b88d6bf1daf3ef4 -> a040070b8d68cb0d6317f7a976373bf480e18b90bce01304a736983b681ab94e
+~ _prague_idle_timeout : sha256 f5c0a207beb91e27c5a35afa361e802ad8efb19870184c6ce8e598e3a11fe219 -> 618a662fc8eaabb9bc73127f2153fe99efa2e86d0d2c9328e8439f4cbf698006
+~ _prague_can_send_packet : sha256 5c7262e8ad0c5d1362d11ff18ad39991729aaf806d2d436398e46377f00fdaf3 -> ed1c3f17560659b7b36c03d995d8cb51bd5534f6550ba6eddcdeb6fc32fa33e3
+~ _prague_get_cwnd : sha256 074d165903c546dee013ebba73f5a1073b13f23ee9284518ca54faf2d63b7875 -> 9ce81a43aada851d06aaceae681d44f5029dc3dc8a7702ffaa18d45e96c8c746
+~ _prague_get_allowed_cwnd : sha256 798e4410f453a8f3ca5ca81273519579e50ba6ec6fd176deee4ff0f601483dcd -> a399113035f6c645e7bd2f9ecb57ec26b441146bcce0dc91e4f5b042decabdfb
+~ _prague_get_bytes_in_flight : sha256 9c2e573572770993817121f311a2bb2ba9e61ff012f76f5eea260c1c1589d365 -> b21b9519d0ed580c7d4ab2be04ef134cecd823ff9db96b4778b5de6659c67e86
+~ _prague_fillout_data_transfer_snapshot : sha256 59c4c739fdb53fa89edb6c0ee10dad561efb95123868042ea8133b7f3ffe5060 -> 5bf056897b7e8c82871aa41b95f0e397f034a9e4b478cbb1af24b6118135aff0
+~ _prague_init : sha256 ac84a28c348e5528345f4a53f7d7cd04e1cf97cae822fc3b045466dcc1b25530 -> 08ec7185b5eee872fb0e8adcf78fee8b0003c0cf36024861c1f7e8d85e2dc04c
+~ _prague_create : sha256 955413a9b84576624a6431068d9b3c39101a27b14ca514d4380d01865780439a -> 175eefeb7b9a6b6a588eaca1bbad372daded1a27ef62bb6b340f52ed619590a3
+~ _prague_switch : sha256 802b650878ff0a7b8d16cba487a2f9d150766afea1da6cebe7e8e26e0b7db98c -> 39c75600b5815541d692bf5ec253f59f8bcd7de3150f1c7dea185dffd9df809e
+~ _prague_destroy : sha256 5a9ca7fe2cc4430b64778c5fab1c97504926809fba60c46dc40b965d1b516322 -> 75c7343e08869b9e0974aedeb176a9d62c18efd95ce486e677c62fe1c6272a3e
+~ _prague_cong_event : sha256 a184b9b2d1cc508a41bd2ce0b9e325431acdb82d20cf10416524a32ec6b5b62a -> 6debc6fee471838974a4a93bad50fd692875007896f8073bd2da4678fa030e12
+~ _prague_update_alpha : sha256 5d377f1ccb712906377ea0931891675216feefa2831c7cc34023e7f20c980007 -> ee507f7fd4137031b56da4148943b86838a037f5f719799aa45d28763a81403d
+~ _quic_crypto_queue_append : sha256 52b4ecc4d91f70f7dcc7c40259acebb67bf3ef06b4d491f31c9e150ca34acf28 -> 225dfac396e452ec63c15cb7f1ab5a1b71384949cb06f0d2df715f0060073dda
+~ _quic_crypto_queue_process : sha256 8dbc49faedb0636e56f426c163accad17a12213c3629e2dd2ed7510939b20a43 -> 8d924393e560b73bd506a4a00456ef2e031c3537155ecf20b3df02375bdacf87
+~ __quic_crypto_queue_destroy : sha256 908a58f8c3c41735261c4c6e989dfb536029122e86e63912dae202f961ada671 -> 29480c54942c7ccf055c33faaca0f8a844d6363066a79a4ba35677295ec33b4c
+~ _quic_crypto_queue_ready : sha256 56a534c35537b195da690379cbb2f6a07421d3aef36e375043131cfddcfc7bc6 -> 101bde5ecdb46b573b4a8e27ed56bca46ca8cf099e7b82a4cbc6e6f1a014c7cb
+~ ___quic_crypto_queue_ready_block_invoke : sha256 490f4acf02b8662a47f7e8de12d7b7a706806ea1adacf5a9a453a01038e64664 -> 124e6674b54f5e37dc35e1f7c5cd1aa67ab3836dc49d1f8aeb2573502c98b859
+~ ___quic_crypto_queue_ready_block_invoke_2 : sha256 b4543c0e5a28a0bbdf3f50c22c86081b0c769e877cc36eec9b844f3119f92706 -> ef6a3615bba51abcc1c044238e90b91d586492b51eb6427b32ee9d27243b4fcf
+~ _quic_crypto_intercept_alpn : sha256 f7fd1222162a362f975464a9a74da22651ed056a6cfd7a42104d9a8f246d6a8c -> 019c1c3153e866dace18adf49c84e38016cb59e52d3eccc2d5344952f0c2762f
+~ _quic_crypto_tls_start : sha256 f1e2108daee489566f519ded75de618764e55507650ce4ba76422a061b7e1e00 -> 8c616986dfa32d23ab2ee0214031ede94d19b449c21e01ceda497d1afcbb09df
+~ ___quic_crypto_tls_start_block_invoke : sha256 fae784e90797e79de841d00083076fc3bb73441985896317dcc2963c574dd119 -> 1409db1aa1362e8cd6670d2cae568b2368fef7e8af81582928104e63b0e97406
+~ ___quic_crypto_tls_start_block_invoke_2 : sha256 5d911c92739000183bcb20696076997e25d839b32f03c28c238208f31e6b378c -> 36016397033e2063b86f03cba2c1d8f1eb026387fea6e5bdd796b7af8e81d828
+~ _quic_crypto_tls_setup : sha256 d3bc05346c884550eba1c59d7b8337386729ca76f84516a78a9e58e14516f7f2 -> 4fb199e1dac540e8e079246c9eb7c524508213a32e4a9e082dbd8f4b98e63168
+~ ___quic_crypto_tls_start_block_invoke_3 : sha256 bd47c1e5bee704eabb2620e30f9cc041b191a10cd9f087756e530e2c6d1aaf1c -> d3f15b00121af64ce7a1e481458ad12b6ff2590d02696738bed3a7a695e02eb0
+~ ___quic_crypto_tls_start_block_invoke_4 : sha256 48c04406ac43996dc746d5ce614693adcdfe47445812203d5680d247f4f69981 -> f08a25d15fb57b96d42b95015f969cc8830451340e1807464be8254967268455
+~ _quic_crypto_new_flow : 1912 -> 1944
+~ _quic_crypto_process_reassq : sha256 d840a77fe9f70e6aaae2b49b0d583ef4a9611d6b1072ab38333c82d6a9d942d7 -> f467c075482efe4994021691a7593ff48236ef3735555fcfa44cec6a65a59304
+~ _quic_crypto_frame_finalizer : sha256 3bb6514a4f923ef6d3634576eb706db90fc608574fa42b08c97d4bf3146177cd -> 9edcea59fd699d0432271c06f10566f5c38d785d168f41059790fac9019da4f6
+~ _quic_crypto_build_pseudo_retry : 968 -> 980
+~ __quic_crypto_setup_sec_options_block_invoke.28 : sha256 600b89b7d073f2c6cf98c26c57279576a7b4fa6f086f141e779f451cf480f334 -> 071bf6e8f2adae586e0e23a861edd1ce32a3903068c5c26ac8c62afa60f8e873
+~ _quic_crypto_output_handler : sha256 3107d3bee3d6f022b553807aea10dabdccb9e9bc0f7485e54902d9452fe0c430 -> ec668b8533d459e75719409ff9975184b7a2f158f839f9e10b4e26c595d49f3b
+~ __quic_crypto_setup_sec_options_block_invoke.34 : sha256 bb20473da6cf00c164a1845502667605c7188411b3355152531235ee58d5dbff -> c6455ce11df0faf86075e5aec9fe1b4f0becf31adf80cafddbddf94e9243136f
+~ _quic_crypto_encryption_secret_update : sha256 fe76c3928a092c8f377f879595a201306e2e952a64d2cf2a8767539da57d13ac -> 5e74d6535971f4eda5e42854c7c7e0e8897dd00a60feba8b0c05d42cece726f2
+~ ___quic_crypto_setup_sec_options_block_invoke_3 : sha256 c737d1c102b335b7037b530578f6d50527b07cc6853415470512393a113c2d61 -> 2399b2b241648ecade33daaca78911335387ba8e1efb19169c163f991b02a15f
+~ _quic_crypto_encryption_level_update : sha256 cd37981c702dedaf087c3d6cc70537edfd4c72aa6be53db056c3ab6fde18aa93 -> 2b904f458f9a4eb1c4537f075fac7540310ae8dbf4412392b66afbba43cb74ef
+~ _quic_crypto_restore_0rtt_state : 916 -> 936
+~ ___quic_crypto_setup_sec_options_block_invoke_6 : sha256 ba87a375deb62ee4de29fc0793e1ac68641162c86bc21310f5b09fa1f9134047 -> 0daa6b3405aeba20ffb2aa22581a585c9039185dd539064ea21222b0aa858900
+~ _quic_crypto_session_update : 1488 -> 1496
+~ _quic_crypto_setup_flow_control : 1576 -> 1596
+~ ___quic_crypto_encryption_secret_update_block_invoke : sha256 f3c57376b9aacadcd7a2b1101cae2dfebf983b1e646cdfdc94903a129a3eef7d -> 52db7f7ef347c8f98c467989772cf7db9d31d1b405690fdbe2b62822d423db99
+~ __quic_signpost : sha256 2b30b571f760cb6f3ba6eee3e713f741f05e89cfb967f1115b05458feb241803 -> 5a3aff40624fd130f9bf342229f41b63e9a5c75297e64477e0d08612a760b636
+~ ___quic_crypto_restore_0rtt_state_block_invoke : 1380 -> 1424
+~ ___quic_crypto_new_flow_block_invoke : sha256 b2a43c22910c279578a5d8cf6633fcbac149b0804c24d08ab71e31797dacb830 -> 03ad91310582daeaa23a15140680ea721e99e034c9b1c7e400a8af793852d163
+~ ___quic_crypto_new_flow_block_invoke_2 : sha256 795bed779f93510c35246cf4879122ece2c1215804da84d341dd9f6a4e6aeabf -> b7664efc921c931e1ea5e024048bfa166f35932f33e90c948ac257225cd32658
+~ _quic_crypto_connection_state_handler : 1268 -> 1288
+~ _quic_crypto_tls_ready : sha256 2f82bb0f9b4aba0add1225e252d06db52992c029905a0568086ea37463f0f871 -> f3264b6958f6218cb0fc86c2873df48eca942a532747270584f32c8f9711ee86
+~ _quic_crypto_tls_ready_inner : 8160 -> 8496
+~ ___quic_crypto_tls_ready_inner_block_invoke : sha256 5248d041b5d8747d9728de4226c727915a9156b40674fb649215e64a833179e2 -> c49d060ecfe13e70dc1e437c7d60491a80079cb293b2478cde3bc712dd09f4f1
+~ __quic_crypto_tls_ready_inner_block_invoke.86 : sha256 f35320aeb050d9e09fb8d4cc6e342d6c0e65e65bf98fe3af36aa5c893d439696 -> a510c1dfe680c0868bb9381cb2917b76f9fb767b6965dd2dab65fa9c078355b4
+~ _quic_crypto_queue_empty : sha256 1b51a5f2b0d00d611e754a9d64339d53dff95118b6b2ac6bc36c0de17e9e525f -> 74281cdabf25a5b772520e2999c9baeba34459ee808c2553a15054d51369ce9d
+~ _quic_crypto_error : sha256 9ac76e820005d7864e59350a7243c26abc74b9940a9bca47a48ff82097b7ed0d -> be8cbc28ccb9670568fe4f8d7ee42416c265b2efff5de8d66bbbc25da6f257ab
+~ _quic_crypto_get_input_frames : sha256 a0bb08a1ea16ab7c8af7a6302ff85091641cf65a2ce4ad5716b938a9ae88f77d -> 57dc5e0462a2121eadeb84b2f58506d9723c3a7cf3f3447e1d112ed6fa79b2ec
+~ _quic_crypto_get_output_frames : sha256 4ad8ab2ec9e9ce031578d3b451201a074f1a5eedbd693445eaa24a89a5869765 -> 0cd87e9de25850adfde6c62473d8f9880f9b900cf4ac1b2666bc2b82b665048a
+~ _quic_crypto_finalize_output_frames : sha256 3c50e3c5277375431c9826781317236510e5cc7e75ea95265b5f7c1f16c80bb7 -> 1f0f7038bcf9002af8c0778ab86ad735691d85452374cd568bcf9e53833031dc
+~ ___quic_crypto_error_block_invoke : 768 -> 772
+~ ___quic_crypto_get_input_frames_block_invoke : sha256 280e6eef39939bb89cd6603bcbb8a25aab0e5fb78fbbf63fa85c11fd67f00f34 -> d74a1007b324e7ba562239963a17a8a716698e3ce165baba8926222f9b1155e2
+~ ___quic_crypto_finalize_output_frames_block_invoke : sha256 22b5c23a31b5e24357340f7e9145500c6f84a15c13f56639031f51bac2c63643 -> 3b77bacada3ed316d4bfaea2e635f362bec22dadffb2a5271f172db9179e8805
+~ ___quic_crypto_finalize_output_frames_block_invoke_2 : sha256 efcdd1850d82a2769aeeb2b553d0491efabc27301d5eda5d03758519527697ab -> 8fe8a67981d2b3d918bf16204e23d7344170c3008cb73fe87a2346751c66d01d
+~ __quic_crypto_finalize_output_frames_block_invoke.95 : sha256 c920c41855175c7795c5149ba69c994c5eebed07c58029e3b5f1b0d7a277e05f -> b1d9cdf4403d11d4355ceda84422d4e56056e3e69c6ad574d438d2ca7eb5f42a
+~ _quic_crypto_send : 2864 -> 2848
+~ _quic_cid_create : sha256 5e674e751360b488be992c586c5d52e1f1c3a7b1f08e9b23e77ff2e84d759113 -> 94a976c809b76e50026f8893099e2c4428c37e96c6658280dcaa5c8187e61855
+~ _quic_cid_describe : 468 -> 484
+~ _quic_cid_read : sha256 5ed5feed0084d9db4cc23299ff9284914ae94d329cc1d76eb7b22bace03cb05b -> ab97147748812f7f99e8b216875144965b135e53753fd62340a0a036f73ed264
+~ _quic_cid_write : sha256 0c18258259d16e6e9ebc84fcea189eb4b79c99cb38bc32a401512044d608f0d5 -> 23ca10852c001cab0cc4e0d1a5a84d02385605c7eaad9b05f2e18a5bc3918f40
+~ _quic_cid_copy : sha256 e1903bbc46ecd21fd135a62ca6ad5634a6824f228bb148f483e4dfac6ed3d1c4 -> 0925f1e95ef33d6637de88f6c9789c7115ec89d1c789edde6c6aeb5af442ed23
+~ _quic_cid_len : sha256 30965003683b3ef9adae5fbc88b3eece5a3132a8cebe83478ac7a69f53a943fa -> a259eb742c041867848d4fef06f5de0cba483fc84351c9400f8c9e9db5e0cba7
+~ _quic_cid_equal : 536 -> 540
+~ _quic_cid_to_dispatch_data : sha256 818b9ee6b2f517434762d9ccd5981954187c650df07d4fe0f54df2ab02cec995 -> a138097248e954b115187cfbf4438926a6c828edc539e02da152384fec5ddd0f
+~ _quic_cid_from_dispatch_data : sha256 553c42c8d8eaaa5c8b64d6d0061d55f0df9e6439997181a2b5e7626157c002bd -> 1f45e154cd5b97ba12dd4fca8459a7efac7fc2f2ad44f0a91a62e3544a5f0b6d
+~ ___quic_cid_from_dispatch_data_block_invoke : sha256 87aeb2a5b60e8e4f019b0dcb88b22f2fbd132ab93d0d6e33ecfab3891e0f55c0 -> 87724d954bf9d2854dd9c2d4dd458008baf7dc0ef4e92de051e6db43c2b43c02
+~ _quic_cid_array_destroy : sha256 be1102ae9b26553ab31c66167f9cb1b0303c1926ac4b96f0363e959c8c59ce0b -> a1ae73554c5ea1aa2c97adce9a8e14f0d8988c7cf7d04b39218b6ed81afde195
+~ _quic_cid_array_should_insert : sha256 fe88cf45ed614b9aadff32ebd52bd860223f00de26e51cafeae25f6b87a5192a -> 71de305a7601f7e22c9d08f9aac25cf229f88107aa0cc211ad9e0149645d0a4b
+~ _quic_cid_array_insert : 1224 -> 1208
+~ _quic_cid_entry_set_stateless_reset_token : sha256 c51bc7b1b66b10a5b3804d3222431f7030386dabf293f31e1168eebf20871018 -> e90f845be91b65ddc635cbc34520aa1262a4e68725a91498dd4e2fb50aed1c7f
+~ _quic_cid_array_retire_by_seq_num : 528 -> 564
+~ _quic_cid_array_find_by_cid : 768 -> 752
+~ _quic_cid_array_find_next_cid : 432 -> 444
+~ _quic_cid_array_find_by_seq_num : 320 -> 332
+~ _quic_cid_array_find_by_srt : 956 -> 972
+~ _quic_cid_array_is_empty : 328 -> 340
+~ _quic_cid_array_apply : 368 -> 356
+~ _quic_ack_for_pn_space : sha256 fbc89a589f1d09c76f4a5913701691e1dc2a9ea5ec3c674f078b9d7f7391f719 -> e3f59a4099aa3bf6ff8aec06efd69006558ca2f77ada55b0b671c5d2cf7024c5
+~ _quic_ack_packets_missing_between : sha256 55cbad10fc38d26bf3d9c1e09532005f3304a389242606f6cc69384d86b5f651 -> 3bfabb906846f5bf2392963ebcf4b1d3c043dbea71fbb3a78cf5d1678444af9d
+~ _quic_ack_space : sha256 440954a0a9eceb8e007bd941eb2989c8edcd09291b44d78e95a1ffea594cf9d3 -> 945b851e9b297b2fefab93bdaad693e97c2c5f7b0d1466bae272db7b1a002e7b
+~ _quic_ack_assemble_for_pn_space : sha256 3e713ec530b36683d258a41b909966e2cc74136d89a20e7485c9a6e718ffaf3a -> 90fda3d3934e5179dc8049f26479f3215f5c32259ae07f59ed967c961b7fdc2c
+~ _quic_ack_sent : sha256 2fc63981322743f4f0495243f509ca518d0e11825d50504d307f08db6fa46361 -> ca82b8e413bd9bebdba4803cfe23ee93bab83b3ad21deb436e1ca31e50e9ca58
+~ _quic_ack_create : sha256 fdf8df0cca0ad00df8993cb56b53bbb1cce313c68d039dfa4fe1ba8a819130ee -> 9acee17b91d67dec145e7c5187038408bdb9ccba2753bfbef5de183fcffe1348
+~ ___quic_ack_create_block_invoke : sha256 37a4261a06374a1aff423d58916d9cafc98641ec25838ef6c0fbb6f4abda84df -> 4e6083388db47328dd110aa826dd457f52d2008ebe413fc4b8f08e53b8a0f39c
+~ _quic_ack_send_pending_acks : sha256 53a42b020c700bc815ef9fdaa0df0c7e8d5a727acb66b671fffd22bb2b8c4e8e -> 504d28c531be090afb03c4ecca8070fe6a29850d23f563b13a9e5e245a8b55e5
+~ __quic_ack_destroy : sha256 8f37f432aab2b6b02b9062136d6e83a8d6c275a9ef60a7c88052f33653e92db5 -> a53bd410dacff40b09aa59e6c2b311e66753e9d07d9773e6e6807efc46e9c7e0
+~ _quic_ack_append : sha256 2347af16cef64febe822f6b55e8b58cbb0a9f3a6bd2fce4cc61cca4058c57c3e -> b63065e4dc470144a79bc3d5b5aabeeca796ece24395cd782a5c9b32c7f97b5f
+~ _quic_ack_coalesce : sha256 ca67a06bd3305382fb417c650671197b88c2c2ba324017c4d0a80c89851a05fb -> 33c1c1d197e230a4f68386f97e8d5f3b433bc64d07f352845fb44c80f4afd3dd
+~ _quic_ack_acknowledged : sha256 9e347f1f95e65badbb369d382ead90549f39873ea37f584930204934dd1205df -> 4088d676cb7187427a7a76f0f76234ae6dfd36f098361e196a6c0b0961a65100
+~ _quic_ack_process_blocks : 624 -> 608
+~ _quic_ack_should_transmit : sha256 bd259fff62928b97478e32bdea3e3fca618887a9f2bfd4ac81c2f0231cfbc874 -> 7a1805bb947b3962be15ddeac2a38d040754456934536edb6fecfc86289ae7fb
+~ _quic_ack_process_pending_acks : sha256 973041128fe2e07cf269663361cb496a903e5793bfcdc528e7d665871f2effda -> 36d89b239278eeaaec6553ab0619ba7f4b651cc9af4731ed309a76e523999a3f
+~ _quic_ack_process_pending_acks_on_path : sha256 be2415c2ba294702e86e43e92b22ebb08c534351ef372f8614ca19a4ab9e76bd -> fca5ca4b5763721c0aad0094b0a6040ae1c606e57a1f966876e012822234dac9
+~ _quic_ack_aggressively : sha256 02e94d3e94e788bd369c907a33a822ebea8c74cfc6fa8616268116df444e5d62 -> 22aa848731237bd9a0d80fb256daa642dbbb7cd3565546b7d67c3943c241a66b
+~ _quic_ack_immediately : sha256 c442c77aba224cc52d50fe9af6615f0f2f1076622aa6937b53c271501c8211da -> 2f67d1bccf5f2594e3f568d559c979b1307fe9a6412648a8b05b4bdf5560dbdf
+~ _quic_ack_increment_unacked_packet_count : sha256 8e7f61bee7be1f73b5b960210e1e5f7504b851216f47065d64a11c203ee66749 -> 89acd01b18412f7dbb574d3d19b082f99c885d43d19c952933816c4745a49076
+~ _quic_ack_flush_for_pn_space : sha256 35b608c696073464d06b0d23c5982640414060a5d1cf6846008d192194590235 -> dcad445ce7f790394ee57abedee889d06251ac4fc3efe899ffe0cc694eff647a
+~ _quic_ack_get_largest_ack_eliciting_pn : sha256 7509e66dd7ac153fdedacc817d471a757c4e9f8e1ce0071a356c6f6bf8ecb726 -> a60abc5489f4e73c24d2b07de825a8cbefd54b049f6fa665b0344ce83075fc0c
+~ _quic_ack_get_largest_pn : sha256 bf6c62aafb2a14b3e50263bd1b520edaa921bd0f877a27828a940c7e10ebda9d -> 1d175f58f1a6258523dbe69afdd530b29c52225a24f07233bcb63950e9cfbc5d
+~ _quic_ack_update_largest_ack_eliciting_pn : sha256 02db53653ad7c662e984654d28127544d9142c4511f327283d43b05051061e04 -> cc2daf88cf77ae310b1416fc4a474fc8edfb9ea2692e1235cc780f5b895849a0
+~ _quic_ack_update_largest_pn : sha256 ca4e674f56a1b41de29b152f6797611f4adf5c963b5c039d0281de866d966878 -> 54d9d5e128b39174dbd361448c78d7df38117130b53c0347fefd3b71f44d8ed5
+~ __quic_ack_bitstring_destroy : sha256 d36bcf64affac7e25b077dd9b60eea0e01cdf9333d022fef9ca145249c8183ca -> a43930346d5745258538ada9a536ad17403b1766e5e442afac42a488ef891358
+~ _quic_ack_bitstring_xor : sha256 7fa408d554d103493f984a07d5169551ee86e62c4d9ece5c740c1541657b3513 -> 13b7467437138aa5c9228df71b07ee23e6791f87019a2c0eb29b1a94ba209e33
+~ _quic_ack_bitstring_validate : sha256 fef6dad3cb5b7d5ab2eb18670a3da7581738cd4bedff0dce71e50312f4637ff1 -> 1a2bf68964156dee54defbad6df06cbf07d6d3a60f4f7e96ca08cbb5bafdbfd1
+~ _quic_ack_bitstring_nset : sha256 0b4efb2b8e4e9eb84f7e353ef7950dae16adfc2d1ee773d7063501755a83a856 -> d5d72e2a14fda2c9bc07c3159b342bb4b827c6807d15cbc6c1b41523faa329f6
+~ _quic_ack_get_generation_count : sha256 b8e5a8adb9af35e7b1fc0b6e207487f46421d0f71723aba4834a7b5b2f273f1d -> 823bced83a5f13dfd8eda9a2429446d9164197e9da7e10aa31433b3489af5511
+~ _quic_ack_delay_set_size : sha256 9cfa8e8668ddd3d5f3fb493dac160c87a4f7d175834c669cee09f2935ba1d297 -> 5987cc2153d78d6aa30893d280bd139ae9adf92e89ad80ef56e7e264604be6ea
+~ _quic_ack_delay_get_size : sha256 1b2d2cfef0779293659807156676fbf28f19c689e9f490c2a6c4760c4dce339f -> 2e33161c30a821c6ce05884a001a5803466c9c0a68258ff40afec10dc43d4737
+~ _quic_ack_init_pn_space : sha256 4be63bf706ba41246ddfc738c5195ed9d84acb59d53503473d298df679d9cfbe -> 4f7cddfa3ef001a13dcb60aeda9c19b98f9afeae5608de7011278399bcc6981e
+~ _quic_ack_assemble_all : sha256 aa3f1cbe2f2f70316d6ff9c9c9489bcca60726160d9c7def89eea40b8485df7c -> 208adeafe5fd3f4caae668c9a196f1a0da48242d1081801b9382123185247a5a
+~ _quic_ack_schedule_delayed_ack : sha256 7f324013b5aae16086d7d606df28c4e399d3672b6a839121a490ccf2b878bdb0 -> db08d35a4e7fe31ff3cf02e24f614cd8ce9a3cb2c6dd847472a47c8dd63cb001
+~ _quic_ack_bitstring_validate_initial : sha256 69562b5f8f7024d84ebc61ff3135b81fa4ac2da47efbfb8423e3f9f8fafc48cf -> b7ad683195c7cb43e95acaf95bdf25f19eee023f12c8791d3fca7a580ac90ef7
+~ _quic_pacer_get_packet_tx_time : sha256 6a841810cb4e60bd349f072309f14dd2af3f35b61ecb2af222ec8871c6719813 -> 9b2ede48b2cb78978b49663bc70febf541953f9ce0ff00c7df681ebab1dbc8fb
+~ _quic_pacer_get_packet_interval : sha256 b03bd91bc3bc7d8073df9b909b6c20f3f8f96771a4e129b8e9f4448619cf13b1 -> 4edbce4710d9791b3b79cf77d618993a9be5b39bdc09a073c6cb889a4b1454b7
+~ _quic_pacer_set_initial_state : sha256 9cadf975d287f950b3d6ebbc0d4ca6110c2317754e4d2288e569e3cd61150ce9 -> 5956a90084ddb6eaac4da05a7ad4cacb175f5ca52992339e86f6f460efa379f5
+~ _quic_pacer_reset : sha256 3bf06edef45096beec72661faf7e338ba6c8d856dcb91bc4966d0e9f6338ceb6 -> 2e147903bd9659f3d61caa6cd3c7153d9fe4aa68a3678890c2e3d058b633cdf2
+~ _quic_fc_init : sha256 30623dca5cc621b4accd1223b8a51e4e7231fab7b0c7e73aa36ef7396d288202 -> 75ace4487e64668e111107cb076175fee0c73664b29b38fbe2c206b2afe41474
+~ _quic_conn_init_hiwat : sha256 df2f5f9518f626958c588fb4a306750024b045eb00e0af0172d53b0ec249342d -> 3fe815fd8dfe7f0e0712d93f32905307a4e0e0c94873f8ab8b662f7896bbb294
+~ _quic_stream_init_hiwat : sha256 288ac7f6ad0cabcf58bbf7219dd1b6858c3a87707af485acca471a2cd6aae00c -> ff6e101a979b29e22257eaa1cec9d46f23f7ccb4a8528de3242a466cc5cf9f25
+~ _quic_update_sndhiwat : sha256 6ddb1b3081c542abf16172ff8d0f8ba569082eb5a8cc57cbacd3cb9694fa4479 -> bfd9dc7b02898e47d198d97fa0ec3b93815b69a0c8ff90dd6f642bdd4fc8141b
+~ _quic_stream_inorder_unread : sha256 a2df8c5d1e9899eb780678df902bcc963abe0e9c1c0c8765f9e707be25c50fd2 -> a5b5fb99d8a6f7258ef4bfc5d76b08976fada67d7051633b088ad2060c1bd7f4
+~ _quic_conn_rcvwnd : sha256 ce49590ecd255d78df4eddb295e757bf13e66277552be1b3cd23a4f1bc9c0d0b -> 153fe6c5622e615e46138398845ea049d50daf14c35618003d758e60f5d9ac62
+~ _quic_stream_rcvwnd : sha256 06b5b303e6ab4465eea1be58d5c2f0fdbe29c4b9655a0f5fc00137552fff64f1 -> c616c1ca107e2ec4aef5003a4580ee9b617e5ed9ca30da4182748741fef4be12
+~ _quic_compute_rcvhiwat_inc : sha256 a5fbccfab1d38ea816260f7e05a0cd5a3ad4d4e7fc58b56dd8da62f9a96b8e82 -> 2ed5f0b92fe484cda4a20dd0d70a72e487f266745f97fc4594afc2e389474488
+~ _quic_grow_rcvhiwat : sha256 c97aea39dec02c709ee50a4f48bdcae0214b52c20235ff4b641ac83346ecef2d -> e5f4543e5b877ab23a46faa0d3ed5532416e32319e138d7c49ea13bcfbec2427
+~ _quic_conn_data_blocked : 1016 -> 1036
+~ _quic_stream_data_blocked : sha256 7d2292a1e70dfaa1fb2f866afa815309ebdd17a0b8d7959c46fd3d022f15d349 -> 86fdbd10515e6b9dad050daefaea63faa659bcdea8fc349d76459f97d4222892
+~ _quic_fc_update_send_limit : sha256 c022f8439f9b25a624c005270d3d0c5dd1abd494970d65b129409095b9886f67 -> 6d142f7b9f6fda4878c942b866240da351c7ed70287faefdf3b9e0d1b55f9d8d
+~ _quic_send_stream_fin : sha256 b120fe387bb607f045e4d55f811fb6cd3826ec601195bb5f82e5c7a1ee90be58 -> a5a687bf5eef38b0186afc66751e6059ae5693edd897a6ff8ad0e27b3110b99d
+~ _send_stream_data : sha256 deae8614eb4059ed3956bd378fb0b820d1cf78ebf6ac9924af20f54018f05def -> d384386049b8c0fca5759791d85d2f3408d5610d08338406ef91f795ebf28a2f
+~ _quic_fc_service_pending_send_data : 1680 -> 1684
+~ _quic_fc_service_loop : sha256 10011386958d0280ad21ba326cd23986d6601e93968fb9be4730299ddb45c98b -> 5cef9472d68cf1e36679b37f844e37d5fce43e9c5149ec7eceda6c6ae5b1fa93
+~ _quic_send_stream_data_blocked : sha256 79ad769a8e962212b0163b136f058ba18b10c05931f6895fc9787d478b7d2a80 -> 4ba8778fe47370cba8c54f203aabd5c54bb9a33701c8bb3b56f6edc4ab1b83e6
+~ _quic_send_data_blocked : sha256 fde56b97cad6dfd6232349bbf8f4460996fd164bdc498513c4a05caf1b59d60c -> c7f64ac51180533db9f636731658d85ec4dada713291c61bd946f5978176c305
+~ _quic_add_stream_data : sha256 5598d70c660f467c9a77f5f5f05e6d4cc8b4c0b18df68e15cb2d42ab17858d0a -> 505e18905a11dd45a58ec003ac1bd4db5af6938cb8a8bc38d110047075511832
+~ _quic_process_max_data : sha256 192523a1daa0170af3d5f62cfe61fafba032678441caffc8c78852a131b20d35 -> 327f03b66b98e6d266c29f3ff7d4b1aa85e8ce07cc19ef534823d3ed76c7d05c
+~ _quic_process_max_stream_data : sha256 cf4156b369a53e7424f28bb5de597a8699fa5ea747d94019f9f9dac96f09c28b -> 82ed0f6a138005bd0a7b29715267fd3d63493954d68b3085805fec8b80c096c4
+~ _quic_fc_process_data_blocked : 1116 -> 1132
+~ _quic_fc_process_stream_data_blocked : 1324 -> 1332
+~ _quic_process_max_streams_bidi : 1468 -> 1472
+~ _quic_fc_check_max_streams : 768 -> 788
+~ _quic_process_max_streams_uni : 1472 -> 1476
+~ _quic_prepare_max_data : sha256 fdc93647127317d46abae6b7b114b7bf5ea9d37e7dd6bfdec3f310fc723d93a1 -> 90135de25aed698cc9d499a5ce999c327d4bc1cce3ac9d4b6c71c91baacf8ff7
+~ _quic_prepare_max_stream_data : sha256 10626e1a271522df03848832b07d347fd91741b4283d0cedb552146f0a8ea820 -> 26dd610bb255d3d9edcbaf62898645e311846929cc5e14b2ea02f8f0cc4bae4d
+~ _quic_send_max_streams_bidi : sha256 acdef14674202be3f86a82ef4e4101405fe1f9b6becf1034394b2bbedac99ab5 -> 8ee550cc7899420d06e1f4682fdcefeec4c256633850745e0f9d28875a92a756
+~ _quic_send_max_streams_uni : sha256 208504bc04362453ddbb1b4637ba38f4b041700195908f7f64ef81435657f39b -> 78e09598f10f078ada190523368fafb8fc62a022257604afbe44b13377f1dbe3
+~ _quic_send_streams_blocked : 2236 -> 2264
+~ _quic_fc_pre_connect : 4004 -> 4020
+~ _quic_fc_setup_stream : sha256 79d9467eec700d41622d25848f8a159dd0b0f63f7e7eab42d64a7fde1f7ac06b -> 91b53a426646d5430defff046e9b1d9a1ee7e4dcc1ccec7becf121f7e424b5b1
+~ _quic_fc_setup_streams : sha256 fcdff58aa68c6a3c5d1055d8bd6a1ba04cd9d0442f5923bc5a6cfeb9e3f1bfb8 -> bab199c490124ed20e8afab6f8019af137b2d17acca7e40957fdf8015640a725
+~ ___quic_fc_setup_streams_block_invoke : sha256 bf98053380cc5a8a275c2af5fb9c78d0b20c0d551c7277e633a7a1f8f3756538 -> 7bea87e7dec7c5dae6115f854e130e9b92847cfbf3fab854faae1f680b5ad31b
+~ _quic_stream_remote_rcv_win : sha256 126b587edf0280bdb9bb02d82dcd223b5966fd212b868bfbb121719d96598c34 -> f7b6759b15792faa6c1d965737b1a0766e759f07b5437b9820ad88b12a78b14e
+~ _quic_stream_get_available_space : sha256 4271b7bc6bca638cfe337717f9d054696bee9d7980c733df4c7ad504e3adc579 -> 33748e735981fc5a8fe26b4470b3ac117a6ab0a027860c5532bc331c78f579e1
+~ _quic_fc_segment_frame_array : sha256 f029b2e674bbb9cb7781fe04d95986b84009dbe73cc5071453b74b95a991d37d -> 0ad1492eda86caf56533e3a513416cd448f8efe5a7f96e35ba877123ea7ce374
+~ ___quic_fc_segment_frame_array_block_invoke : sha256 859286804ddebc73dba8910b03b832014798b5e1e609ca69e244bf505d91dbff -> ba1b3a71e7bb34991b5b2f1851fb605b87e9abea03cb94467528f6249d2118fb
+~ _quic_stream_alloc_new_id : 1304 -> 1308
+~ _quic_stream_reset_metadata_handlers : sha256 b92e52acec8d2438032be9f88dbb029363e0f1fbe9c246b4e2d982fcd103821c -> 32854b1df07a535526ce98be0366c63634a0f8f7b82caabb326bb7e0a5a8d015
+~ _quic_stream_setup_metadata_handlers : sha256 4c7deead115e2de0837d62687b5a3c74e5d72b3740f1ce97f04d647ae82f4c5e -> 298a4624aed0e69af8eb2ad1458d4ee269db9ad00d4c893e944789a758d90ba7
+~ _quic_stream_set_application_error : sha256 7ec0425390567ef44ec34a44e82dc34c17447a7d526ec5986aa4301ebd47450b -> d138bf3db20d292bd8d9563376487d01810a75aceea53e6f84ea9dd08756ef31
+~ ___quic_stream_empty_pending_data_block_invoke : sha256 b952603e62c4803d5c572b3059dce831ac7c4fafde9ad8a35b6a99a30f419802 -> 898f9132fb491ea28d205649e41df802112969cc3f713c69facb5adabeb59f88
+~ _quic_stream_allocate : sha256 aef2bbeed652a84a8b18116728f50829ca73d2a468db8078f2b9c7de34f9e1a3 -> 609369baae97e0c1dc4151078e960c5d00fd62903dedd6735ebc01d930636819
+~ _quic_stream_deallocate : sha256 6909f43c10dd18833db9151b72b44231322a81ac090303c998d812ef3de1e392 -> 04d85abfb35710c0768cb9ac25c541fa6b8928a21b128ec881d6fad77cb7e828
+~ _quic_stream_zombie_create : 1056 -> 1060
+~ _quic_stream_send_stop_sending : sha256 c385c5ac4c23013f30a42dc9e14a96ca938cf6a845d199b292ff7ea14a8be8a4 -> e662001ff49f9890f10a9b4074409d25c8ace2712d80de3d5ffd71416c80baea
+~ _quic_stream_send_reset_stream : 1288 -> 1292
+~ _quic_stream_unmark_pending : sha256 14fc721101fcfe3f0c294b353a50ae417605e28d89d90d5fad5d143198ceca3b -> e3e41bdead35b508958760893cc2bf0eb83846b27219a33f50e1c2643f250b14
+~ _quic_replace_stream_flow : sha256 568bbb012960976b03a6d34eadea15a86be934e017c839fd24bf196dbb01d396 -> 763ee0f00fc673b3796462351f13b670215c8ffde2f2309b65f2048449582cab
+~ _quic_compute_remote_max_stream_data : sha256 a51a1c57dfe448bada37e73032b00f406da3d21410d97873b64bef136a08f79e -> c12010c5a128dfa6062e23c7a91368ab3e5f2f34510960dc4d6478ec60b56fda
+~ _quic_enumerate_data_streams : sha256 7b4fb8100824e462bdf580fe5793878231dc72f02f41d5b1af2c734661fb797b -> 1f1411da89ba5dcf210060a37fdfb60a613a5d68ca16ae14cf68cf47513b876f
+~ ___copy_helper_block_8_32b : sha256 ea326654451a1bf7014bbc3518798b3e3929803c5ef61b9ffd712d27f5fcf66a -> 9307b7d126029f6ab271fc2c54fe7db5313f76f6f959e493fca03a903a78b460
+~ ___destroy_helper_block_8_32b : sha256 21cd499c6843c785b983bdcec8ba9df8a8cef9c899a75d4793cdaeed8092c1ca -> 61075e8c9602c2772cfb44bf84bbf8afc465ec1e1820f54f4fc93ead16155f44
+~ _quic_stream_is_open : sha256 61aff298f004dc4cab2bd1f22fe7fd0b9f02a45289b2ee639e4585d476ebbf9b -> 8fdbf0ec06dd6502f19e189c0bcf1e3d5007cf22c222b6dc67f54de03631efdf
+~ _quic_stream_lookup : sha256 9bbcf2aa91579856ef2ec5754986492b7fc33a7d353900c0aacaa508fcf69f1d -> b5ab5cbb83ba09cfa779c0410fe82321d2f048b2afa2b9862f3fc2b2857f1ffa
+~ _quic_stream_lookup_or_create : sha256 010503892d3b25b62954b438d8caef67e81e364bc8c1bdb2a58ea24efc5249c8 -> 4b79abeb01b61d422c5b34a715f075823721df74904b8f8a38f07625298b6f37
+~ _quic_stream_create_inbound : 4452 -> 4552
+~ _quic_stream_add_new_flow : 1124 -> 1128
+~ _quic_stream_id_to_type : sha256 373f5dd295c065f330d96c136001108b5fd5297464a6c1bfaaacd95a4a1d9f21 -> 9ae9dc77956e3f37ddd4690e20ab2d67c1b94a3048f8223ddcadffdebcedc945
+~ ___quic_stream_add_new_flow_block_invoke : sha256 6dd30c0b2fa4772b9e547262e47449fdc8aeda1a70180c830b37fa42305cdcd5 -> e160016ce81d533367bcbe8b61c7805d4962e0fd0fde6508edba2d57bebad8bc
+~ _quic_stream_closed_already : 2928 -> 2964
+~ _quic_stream_ready : sha256 c9dee3bd4e568f96cc1720a6f98246f1694868b6460a863d792f5a50957a146a -> a2047f81b6eaa4cf580e04d6f0d3847f0610c4c5d03876b7c6669146f263b7d1
+~ _quic_stream_send_create : 3116 -> 3132
+~ _quic_stream_compute_datagram_usable_frame_size : sha256 8b59aff7c97acf37d4be6d4fe545722af4ba4b9328fe4ad1cff083b1b7fa5969 -> ec554b19a4c65a20b9668b900b6d63fbc4f424b15cfffb508b39feae89d7bc76
+~ _quic_stream_id_is_available : sha256 5bf7e826cb0458cd87350551300c1c6eb7027ce8bba1e070f9f5d1e288180ee3 -> e693bd8c4d4344d5a58c8e5e75f72171f81655e7e178d27c1fc5efca9354d535
+~ _quic_stream_update_fc_credit : sha256 ccb662613c15bbd930283c143e26b9c3ff90b48ce9f9a41d2731767900c93ed5 -> 3958db64068545b19994fceeb5eaa61b6d6b5efaa4e7759efdd01078d0d309df
+~ _quic_stream_send_fc_credit : sha256 51a47bfaba9045e9d4297859ae06da6450432203a13cfdca006e2e028e3fb948 -> d11622e6c04511d4558ad2201c0d73be464ea70e44f22ac98094b1e243bd0981
+~ _quic_stream_process : sha256 73cd23cb403a988256b1f3d56d59e05f5fbc46cad5af262a2de5cb5475754cdb -> 59cddd1963870d2e568cedccb0c613523d8b727b19a583f59030fb94da8946a2
+~ ___quic_stream_process_block_invoke : sha256 f7bada125283395dff6cf2af6539eda768bb0b13a5c412ccfea7660505f05b09 -> 2b94366ba4a02e46f43ed447617d84e753e07b3a9357779acb9f4b3b86090cb1
+~ _quic_stream_process_inner : 2664 -> 2684
+~ _quic_stream_close : sha256 c170ba07ef55a3a924811b7d73a1963925c776c701a29b35548f1ad99a0f3a78 -> 956d1e3584f4e7e812a430f35b2f06c0c58c9f08c89610493530f75eb6a39361
+~ _quic_stream_reset_id : sha256 86166a02de126f0b4529fd3dd5dda1d8fff0a18c17ab772fa9f866644edcc026 -> fb512abd84454f113b8bec26044600c0962a78292017dc9a1dc84719115c122c
+~ _quic_stream_update_last_offset : 4576 -> 4592
+~ _quic_stream_send_reset_stream_at : 2260 -> 2304
+~ _quic_stream_zombie_lookup : sha256 82fb7e67e6f0417701639e4f1bdfc01cc1b105f5a46a0806f75ea19bfd125d4b -> b6046c02d4df943b127075bbe4aa2c9f14206407a5f6a4f87b61c7d85e4a27ce
+~ _quic_stream_zombie_final_size : 2108 -> 2116
+~ _quic_stream_app_read : 2412 -> 2408
+~ _quic_conn_allocate : sha256 e90b2ca846bc62d89be0efadc1f68059dc44030443a3f734a52658444d8aad86 -> d9199dc2798856c9aaffc5494440f8988931d4afd839e6be8c650d8d639a8c85
+~ _quic_conn_deallocate : 928 -> 772
++ _quic_conn_close_tls_flow
+~ _quic_conn_initialize : sha256 b6b8aa764eefff6b9fb5fdd2c9620879549cb5f564a60ec441a2056e1d1b57a3 -> ac70be101e55f06b316402d57169f84aa23823dd6347797eae9642cfc4e546a9
+~ _quic_conn_read_preferences : 2608 -> 2612
+~ _quic_conn_initialize_inner : 5524 -> 5612
+~ _quic_conn_destroy : sha256 d014625f9c94c304ebefadd88c47451630dbbdaf970f98f2e427c9a982e6e8ed -> 0b1b1237235c718d91c28a35c13e2afbd446af76f60329123ee762502a9ff724
+~ ___quic_conn_destroy_block_invoke : sha256 6cf029943e7ce7de92ad67650e3ee02d6fe934b63841799860aea293ac41d3e6 -> 15ce73a4adcbadae3e51ece48bc8c7fd95d0239c1ac9cd3b3d868cfbd415b144
+~ ___quic_conn_destroy_block_invoke_2 : sha256 e4015e56ea755c0d2ff807a17406b09d4fd1beecfe6d4ebabfdd16e9197bf669 -> 7eb0bceb4b4abe5b63e0001aafd865725da6a00a40460d7aa1867e851f1a9230
+~ ___quic_conn_set_metadata_handlers_block_invoke : sha256 905679c4ba7d930506b34ed7da0712252f43a790785703ded5522a1df60850ba -> a0503cfa50776b7ba17955ba3f7811b3d71920736da41f2d0d2012a9b5b27312
+~ ___quic_conn_set_metadata_handlers_block_invoke_2 : sha256 783bc1a598092fdede40fc258c887cfa1d91a3f73f1a52ae7ed8b564f195e667 -> 9f3555aae48665274b1229d8a9d9b36cace4a04fef7e3a84fd6fa6765f6d4fa7
+~ _quic_conn_send_frames : sha256 a27d998c75d55f9c722ced526a4ea18e82b55549e0e1edfc1b10f9776a85258c -> 819149155b9f36dec4460ad5e0abc563b2379772929f57f1c569e62be4a75818
+~ __quic_conn_set_metadata_handlers_block_invoke.16 : sha256 b5bfd2433fa17c6d2dc2497f68cadeda2f35c7d05cd8fd3f9de005ba4324f442 -> b8947909ce9f4062f5aa3b7f8fd8af6ef1f114e14e5d2c31145d53d7a5bfc251
+~ __quic_conn_set_metadata_handlers_block_invoke_2.17 : sha256 ddcff46263e9b521789cb4f9d729896a69400adaa363e38a417c596617bdbfe6 -> a3791439a724d6608795602cb4b36c17554f1b39d405bfb31fae65322655cdb2
+~ ___quic_conn_set_metadata_handlers_block_invoke_3 : sha256 9d78d1162085cdd8b98f7d7416dbf445cc4fac5c17dbc4020aa467d6517ea6b8 -> 4323be7907446220a54e802cc06186f2e5a7d06a0474ca223c814ca1187807e1
+~ __quic_conn_set_metadata_handlers_block_invoke.22 : sha256 cc6602a8a7157b7481b2ce173ad6a1c31fab9dce7080f33db02262615de4f390 -> a898b2f48736181f5a4f9aa6a4d24200b840eff6ca263e589153ee053f756a93
+~ __quic_conn_set_metadata_handlers_block_invoke_2.23 : sha256 8914783fb64034839eb81457cb513c3fd52f8177f1e4a2f02939f226b89efcd5 -> ff284a20adf157b905db8517a291fca2ee7829ac1518b4cb0c09b34419461506
+~ __quic_conn_set_metadata_handlers_block_invoke_3.24 : sha256 38eeaae873755eb116841499f362a0e1479dee34ecf3a5bd40a08aadccae55e8 -> 864f6bba75376d7a254b785670a92f9802d5d70d8b9d256759d4182c1d6de21e
+~ __quic_conn_set_metadata_handlers_block_invoke.28 : sha256 44c031ecf9335604d2656765af4f463ede434912af9526bfd320e6ee49bdb516 -> 9c929ccc0c4eafe76469525138d6b61274187d77d6ff1026875acaad509b4685
+~ __quic_conn_set_metadata_handlers_block_invoke_2.29 : sha256 0766ce1f7312ad469d3e05e523f27891f7312d6460007da5a94c228aa75eb4b6 -> 728ded739c6274d096aff26c7c7a5de02af8e01812b148f24f7d2298d75f5923
+~ __quic_conn_set_metadata_handlers_block_invoke_3.30 : sha256 fca464c3932a0dc6ae74c509ed2b7795897590e7349fef04733e018cc0d3ac84 -> 277b52e5946b25d5401c31ba2fff51813fe37db9be37532af10bab8d8cc6dd1c
+~ __quic_conn_set_metadata_handlers_block_invoke.34 : sha256 1a02b4e0951d1908e6929733aca0e2d210ec0f17b5f4ce26745294237d0456a7 -> 119329adfa7e778e24bd10aa74eeeefd8933efbda2d11d85607761c2511ccfa6
+~ __quic_conn_set_metadata_handlers_block_invoke_2.35 : 1444 -> 1460
+~ __quic_conn_set_metadata_handlers_block_invoke.39 : sha256 253ae0812392429f72044a4c88060df9594430a5b0b9f7685f887066708cc792 -> 84f012c79011977ce73c34c12ff1ac761737c9043b558d2df7ec18c6fca32460
+~ __quic_conn_set_metadata_handlers_block_invoke_2.40 : 1444 -> 1468
+~ __quic_conn_set_metadata_handlers_block_invoke.43 : sha256 d6298f7c0e18bb9932bbb3e5cf547d85e7928cb8d361d7e56f599c42b25891e1 -> a74b7b04376433b69c376d30e0f1b74882d5fe41906ed75e6e59a6755c4875eb
+~ __quic_conn_set_metadata_handlers_block_invoke_2.45 : sha256 2d17e97b85716bd82d091dad65103b1e49b3aed3ccf4c831aa8f475281abb2a7 -> b1c2742837d226499adad6dc9ab576d6b2a7273198ca26bbb5d6c2001f256033
+~ _quic_conn_keepalive_configure : 1904 -> 1768
+~ ___quic_conn_set_metadata_handlers_block_invoke_4 : sha256 d3438f3f69ac8a377333f5fddbadda19372804610e3202470297c7b650f44744 -> 2d31214313faababf977f1a91a47dc795fa363fac014b17804e69f435f92821f
+~ __quic_conn_set_metadata_handlers_block_invoke.52 : sha256 26dc5c5387d7f1d3a309a7b02b45fd967cfef70fdf8e38c95d0d614eaf174982 -> 4ef0748dbe43b3372a9d33c874a81149765c671d797aa78425c9dcf063080240
+~ __quic_conn_set_metadata_handlers_block_invoke.54 : sha256 84397a7c037f10108d2d9c0a820d88b21f209b64f9f44df8738ba7b384445330 -> b77405b4da5944932532a82f5777f21eb6c4a73fc180d40d9bb401bf4c40a7f3
+~ __quic_conn_set_metadata_handlers_block_invoke.56 : sha256 565d0eeb132f1d034f2682e70a701d65551d99fa2ac0e2cad109097eb4d89081 -> 0e88fbf0811d0a81ee2ff3f9d563bbe48a0072a36148349b8bccd7ae42432691
+~ __quic_conn_set_metadata_handlers_block_invoke.58 : sha256 4418b13f124ab7fd91aff8ba13bb3bc7523bba6a1a6abf2b4ff0b8be679e0d26 -> d6318c3e4a96f442bff738183c0edabbaff403d39722d966bac675a485951a3b
+~ __quic_conn_set_metadata_handlers_block_invoke_3.63 : sha256 e9fa9080612368fd21e85e8756adef227aa3ed19d6e039f1c12c6db942949ad3 -> c7e7e70a696961a3baa31723fd880536b2a151919ac44b1eb3af869b0a340251
+~ __quic_conn_set_metadata_handlers_block_invoke_4.64 : sha256 57585d1c803b1727809551b905beb87598863268901ccf09caa1814a99ec5b26 -> b92432fa186e9e4e2cb1ee229dcab58b624029b51105b84f07d43c7f6b78d7ad
+~ __quic_conn_set_metadata_handlers_block_invoke.68 : sha256 ddd28f46416d3819f577d658b37f629baba255755c57e190d1e5840e44596f9f -> b84e11eeef55c8da7c6442c9a57e50981ea30a73bb0ee1011ec47a224b1d1a27
+~ __quic_conn_set_metadata_handlers_block_invoke_2.69 : sha256 03a937d89dc44da9679abdc1d8637a79fa564dac9beeed3b5b4bf302da245c39 -> 8fa8e8635f99023ec281298415f745781aa10bd3c1e99f378f4a14567c406b65
+~ __quic_conn_set_metadata_handlers_block_invoke.73 : sha256 dacfabb2ab7a01dfab478a0046e24bcf6e6e2aa52e68d58677c877f434d4c404 -> a9c6ed1ed4da4d9d71b9a8f1dcf926ba0a9604c85e176313c1d561ba414a2314
+~ __quic_conn_set_metadata_handlers_block_invoke_2.74 : sha256 a91cfab9932b43bb0a092f16a6bb0a9b25800e9689a9ddc59b10a7597c75c2f8 -> d2d363ebd93a3794ff53f5c12944a13fa7b365793bf26ed339dde8bb4fff0696
+~ _quic_conn_inject_packet : 880 -> 900
+~ __quic_conn_set_metadata_handlers_block_invoke_3.78 : sha256 272802b257c31d8827464e595f251b7eacafb03bc0a79fdbbc521f81ecfb0353 -> 9b019e2bb5151b3e0a60b95f9842dccb0cc82c6aea11d2ed0567d21514624624
+~ __quic_conn_set_metadata_handlers_block_invoke_4.79 : sha256 c12ae8f2eb09975ea0a99cf4901a46c3d0bfb5847e0fd17492a45a050b2febf4 -> cc316bbe7e46791e6b10aa27a138a4b0ea403a200fee767ac6d7ef79be849159
+~ _quic_conn_copy_metadata : sha256 4dbe7008c73360ffad4dcc70263d88e15cedb9653c844b1d442de051342adda2 -> 3ac2024127738555196ab267993dd1c0e0098d408c5a187985783095ccbdf6e2
+~ ___quic_conn_copy_metadata_block_invoke : sha256 eb33c5d35531b7886753c9141b7120bd890361f9006a153d84af3d0d66d29137 -> 4913d5beadc0ef385f1a2d378031d91e1c4a30323286dd0f4c23acba7f7c87cf
+~ __quic_conn_copy_metadata_block_invoke.85 : sha256 0bb87c70151e359680e08560e6dbd29656db755450c4787ba472779b0e8f7be7 -> dc0f452dee944763184210c669d8873372842a5ce58889e91f5a000e9c13dbd0
+~ __quic_conn_copy_metadata_block_invoke.89 : sha256 443c81ad1a89a2f599000f2926be97d4a9ce596a01eadc55ab366e02b184ae6b -> 3bec65504286ecbb177a307611e5e37be0cb1cdd030208e9ed415c1930022d90
+~ ___quic_conn_copy_metadata_block_invoke_2 : sha256 7b4e53d21f960a0c31aae4c1085b41e680b1fb2a4c571a1cbe4e8a9085a8d84a -> c5bda7188027206fdcf9ab17468b3e83b4335f7c42d53e600e718e974ab17e6c
+~ _quic_conn_set_mss : sha256 feaf9ba5962d8634e30b7186ad21ae436f8775860f95ef56e741b37142b23292 -> b02bbc4d68cc9243f230b511f879dc714131aec95bdbfcf10da692d2b69153d5
+~ _quic_conn_foreach_path : sha256 7f6dc556ad42507c41c48f5155106e4ba9285e910f96adb3fd5bbaff3c4eba42 -> 094919ffad2b68861b4cdac9fd5d852a97cf8913230e05c75a34d16081b3480d
+~ ___quic_conn_set_mss_block_invoke : sha256 7993a8efe61367a607afc4b857470f040afdefae2dfa515520779650f4bbf91e -> c2bcd5db31ec14a66758124a3f5b97bb755d917238c83a7e08094d67d0174e48
+~ _quic_conn_get_min_mss_path : sha256 cada471ee9689fc4c4c7516431858cd7fa3755fd46aed5e6b9fd1043e8f8ca8e -> 66eb0dc09fb817bb0c3456ca573c2e3df087f109ae1e3e607915ad806c96843e
+~ __quic_conn_set_mss_block_invoke.99 : sha256 15b1013a509501131f8a47719d6c6a1f01498ae9f7d407a76367989eb9416ed3 -> a6fae31cf438ea63daa6585515f8fc81921d6c0ad1ce8932bffd0074f552607f
+~ _quic_conn_get_mss_from_interface : 748 -> 744
+~ ___quic_conn_get_mss_from_interface_block_invoke : sha256 1d1cc5498e8bd5fb8ab04b686b07508ca55b3ceda3fa903bc04bc94a828db102 -> ea4be80347cd65295ec85bc899bbee1e816deb6b8d0595d42aab037f7be0306b
+~ ___quic_conn_get_min_mss_path_block_invoke : sha256 10e8a2bbe55cccc17a004854028884c732f4efe68c14d73b831a3b3af2333587 -> 7226aaa268c79d71ceff849cc7bf96a189782cda2bf3b9147f041509534d4b0c
+~ _quic_conn_set_application_error : sha256 d28739d3ac3938cde83d96d8b569eb464b393a4575efeecc9f168ae9755b1e50 -> 867367d84a98da1db03db4d3c05f5f9cda312303f305229e93d2f7fdb17022e1
+~ _quic_conn_is_pacing : sha256 196ee57aae1fd757989d472d43b16ddc7943065f60a3784e18bed94388bbed38 -> cfe948f3575db390e78764fb2e2c701180b81e9b95116dcdd96b45565a059123
+~ _quic_conn_scid_len : sha256 bcfb2b7407ac73928ad1b371e520195265339d364a5c10b80eeab8d6ed2b2465 -> e109655928e554c651f494f659230ba696c805e005b5c4d3fe984b31ec5a4b19
+~ _quic_conn_recompute_mss : sha256 eddfe4f1c9086f45e6b50e261f428b9e58f833c762101a666eb77fdf55504302 -> 0e0f5e3692c7aa5de72f0d3d5a57f780e4c2b6614eaec9103869a65fdacfed60
+~ _quic_conn_setup_pmtud : 5120 -> 5220
+~ ___quic_conn_write_quiclog_block_invoke : sha256 54229372a2a81d47c1452dbca9d3ba0e41a742420f8320643babfff27d9b4569 -> e6c5ea0427ca0bbfed8d463cb8cb3934d6c2eb51f007bafcba578786250e5897
+~ ___quic_conn_write_quiclog_block_invoke_2 : 324 -> 316
+~ _quic_conn_save_token : 1352 -> 1376
+~ _quic_conn_restore_token : sha256 366e262ede1c2f3788c4caa63778bca113b8e09e05a19f595c3d2d8673620089 -> 495023685d0b27e0d80e919d7cfc4fafabe851024683d0f76d2df6d47aeedcad
+~ ___quic_conn_restore_token_block_invoke : 1048 -> 1068
+~ _quic_conn_set_posix_error : sha256 8d7525cb0b38715925172db22adb0fee00f8dbfe5bd4b097c5943b03d79ce40a -> 6a6dcfd8d8e6cba49f0275c3af2dcea26017dcc23f048269abf0cb1f480f5c5a
+~ _quic_conn_packet_dispatched : sha256 f44cbe23aee95146664fffe9010f2b2a1e223d67ee0c5a6b8b49d83723c838cd -> d1115fa01272ce783b618331a7a5c35918ed3f6f38c8b8a4edf18f190aed6c91
+~ _quic_conn_can_send_frames : sha256 6ab9513012df65f24672c13c22aa8edbe8a5e0f90920de9e9495c5f8db34db3d -> 74c599f6344da2c1a263ee19705bf4b57b01397ba651e9197d3349a59ac12c58
+~ _quic_conn_application_close : sha256 e624537aab04fa1754bb90a0f89e68c7e979ffe99920ed7f5b08e0b7d852c2a9 -> 548498900f4c3e07a79a6d0a3f8ddd9b2282c5455b48c3eb4d182022a037be61
+~ _quic_conn_close : sha256 f9d6fb22c62027841048d42548316056b8a6411d5b701d2162acf2a04c61b6ef -> 489d084b781fe36846f42284471bff051aec4f31d69482b71470500b97b6b24c
+~ _quic_conn_check_current_path : sha256 cc48d5a0910585ac40981f71b3f36b109ac9b3b89ee91106297fc6f4702d9ab8 -> 2c98ad19b6df3f50a276d00542a8a9a1085b41caeaa93dcaa5d24956d98e343d
+~ ___quic_conn_check_current_path_block_invoke : 776 -> 796
+~ _quic_conn_assemble_and_encrypt : 2700 -> 2728
+~ _quic_conn_preferred_path : sha256 66f810177f44f05c51aa89048a9bfa7310ee3635a50682ada57e2c263f6c79f8 -> ab2d0308dae27acbc8b80a7ffd2a2c88b3754ca54bed87480f48205f38d2d9d6
+~ _quic_conn_send_internal : sha256 389cb3d015121adc25398d92a5a2d60e7323b12a857a4cb6f1c28c510ad010a7 -> e466f072096a3c6c085af60af7f7633ec1bb672069592e0c696b235d961750ae
+~ _quic_conn_send_frames_for_key_state : 3844 -> 3820
+~ _quic_conn_handle_outbound : sha256 fe671a7a66248417f866637db7b9f7e323cefbe2ce6297d64ee98abbaba2bdfc -> 8849130eaecd734433ee0435bc18e83d0d16d7c56aeb969b24370e7685d4c34e
+~ ___quic_conn_handle_outbound_block_invoke : sha256 0aa80a0f7e710aee68292ad7a1bbe7d376f7148e264ae24c905c21c988f8ddc4 -> 74acb22837d20c3fb6c54f22ef0e4f10465f15e6b00248838f79d0402a8d46d1
+~ _quic_conn_handle_outbound_inner : 1836 -> 1856
+~ _quic_conn_outbound_starting : sha256 94a6060c98cb5ae3498a74eb845d9e44d150c85b6326e3e5cef8f4f83d60a9ce -> 74ca7dbdc0ea9f49524617d57db399bc275906dffb03aaf381bfbbbd52ed7fba
+~ ___quic_conn_outbound_starting_block_invoke : sha256 3201bdc87db2c18924fa5ac17eee1a2500d70e63ca2ce048716bc68bad5b4dcf -> 052e0a1459e7094bd89a95161c9291e7c26a1bf6f12ceaa76622abd253ceff9c
+~ _quic_conn_outbound_stopping : sha256 ecc3bb3da23f2196baa6e5bc25a4178debd5f5b12085b4ead222f17ba862dad7 -> 8bc350dd3a7803613f45cca4027152060e6fff68d5295281d6046b6f35b8e2b5
+~ ___quic_conn_outbound_stopping_block_invoke : sha256 26401890f84bc370d631bd1a1fa1ec7543fcb9be1a492e71f13822bae995e9b9 -> 4845d0f87929f2c2c89cdb65004d664b709f4a94e579aaa53217ddb566f89fea
+~ ___quic_conn_outbound_stopping_block_invoke_2 : sha256 4331575a17d681509c7b5d2e086b82cd8614a5a63a641f16209d8feda9c57a57 -> 2af80f0d8b82ca23862a3842506f223989a4867067d97f21a443bc7ddccd2575
+~ _quic_conn_outbound_data_pending : sha256 2a07600930fb440305de8b815beb053fc80cf13f4584028c773e2038c0b05388 -> 07842b08b5fc09016c873024218ac69001b92c6d4367f9cf237bb5b68f33b318
+~ ___quic_conn_outbound_data_pending_block_invoke : sha256 296e4adc43673c5a39ea0d3cd4f5593947de4420774788d1037c8fdb3aa3d0cb -> 42013627634428fc33e4798917ba92c966664e83e8de6190b5b3ca45322aed0d
+~ _quic_conn_inbound_starting : sha256 0787109b83810ed7f097d8aad18485bde19902618c9eae48c68301b936cc3471 -> cbed147b4214c202ea52d33a5a61eafa23b0ad5bbfca37868bf53989972a36cd
+~ ___quic_conn_inbound_starting_block_invoke : sha256 49c63b2382d9cc0af4d9265b3e7589c14dc335786a78143f7a78901be1c16b1d -> 5e55cbceb73431a7c8eb4cd711f060354c65f9d35a5be6bd5f68db2cb98ed72e
+~ _quic_conn_process_inbound : 5748 -> 5488
+~ _quic_conn_lookup_nw_path : sha256 30d823f658f8b8a5d7f6d5c4df073ad5f80e7f3589811f4a53a6e8cb5e9801a6 -> f1cc1b2f263467377c8f1a9b379ce26adb3f75774267b00609e646ddbfefbc80
+~ _quic_conn_pre_decryption : sha256 9ba3851bf992fa5390a71630724968af0c369c255070ee2fb5f0c2f13b53069c -> bafbb790495e9396c1b121320a4e8b87e91f9533c2b8797ca0ff548ca26d1582
+~ _quic_conn_process_vn : 4804 -> 4912
+~ _quic_conn_failed_decryption : 796 -> 812
+~ _quic_conn_process_retry : 4000 -> 4096
+~ _quic_conn_process_lh : 4572 -> 4608
+~ _quic_conn_process_sh : 1084 -> 1108
+~ _quic_conn_process_frame : 1476 -> 1480
+~ _quic_conn_process_reordering : sha256 3958aef1f7634d92372c1720df16fa821c338c99d5389992aca1d5dcd0bcaeca -> 90e2e2fcbcae0e4654fb062ad6ba14cb7fa33a6d112b649cce3a4ac848cb8f97
+~ _quic_conn_handle_inbound : sha256 ab83b1756d330586496ec3b843743355ed3d4ed11981090a9c71ba1b8ca775eb -> 18cc5c4a835c4e53744abb8ac4812d6ee21b8ba8c75e04931d113f8f748f7d67
+~ ___quic_conn_handle_inbound_block_invoke : sha256 d743bbf24ef68aab5185a205337b52ce997754e3a8da8c03fff6e2e8e23e3c0f -> 4f9b995615b10f2c812700e5c78c7dbb800df1fd375c8ccee427571207beeff2
+~ ___quic_conn_handle_inbound_block_invoke_2 : sha256 e41c48da348892bafb8d4a4b1a8090923e51b8d1dd4fdd96ff367d1e4dffd6a3 -> 70903660c87fe9df5044716524de2e53a6b6b6472cd42ebccbcc8bae088dc68a
+~ _quic_conn_stream_dequeue : sha256 11950d69e4e052c591a5194021278ed830c580f43192fca9be8a1b9ed50cd3e0 -> fe775bc9a27e25b1d3e5defa3e833a5dc796c1e007c10d9c7cc2f24014c194e2
+~ ___quic_conn_stream_dequeue_block_invoke : sha256 47fb96e2dc4cf8cd7e646a723d16d3910d4ecedebb7d762b33cff47de7f6044d -> a8f834d6ae7746c37276a08635604359020c45ed9cebac9acacba828c2c36487
+~ ___quic_conn_stream_dequeue_block_invoke_2 : sha256 a6921a916056329d2ea55c370e3e666c542bdec397d5ee50488ab2914a59d994 -> de1c0e9612a57e462372fe7d22a5e3598db1ed722c2aae535f1e22701cc0985f
+~ ___quic_conn_stream_dequeue_block_invoke_3 : sha256 36596016ef3ee2601b8ae67ef78683d53fb75bde617a3b6330fce495ced5dfc4 -> 5da63555b6bd05fedc4aae613823c3a4aae849aae7d18d5d7d197d7b7614888a
+~ _quic_conn_inbound_stopping : sha256 3d3a753fb46b19feef268368f60ec811a4908761a6c151025e50d5d2520236d3 -> 5142cf01636d172d5633c3549921f2be8be7e7d5b97d281a65c42b2c09a38908
+~ ___quic_conn_inbound_stopping_block_invoke : sha256 c29d7dc640dbe723c7d3f630b19402f82bb310cc3fe2116cf7bf5223d38d4e06 -> e0427d1aa5b532b8152d25226f29810ff4619731ba370bb36c4735fa34f254ce
+~ _quic_conn_inbound_stopping_service_stream : sha256 abb677f7181a74e89c6e064d126fbe126b6b0f8d5c2d68c444a1b700351620eb -> 648d0048debf32af76d2ed9bcb92a603345487b61a6eef9750c8b61be88f5cb8
+~ _quic_conn_handle_start : sha256 3a1bf65d17b4686aa729c0aacdfb77cf1dc2eb82dd0bbf378b00d93fa3401f0c -> 5115eff491981efff0ca02cc6e75fd17a2ff303a33af9f4c9b203173eec15789
+~ _quic_conn_handle_start_inner : 3536 -> 3540
+~ _quic_conn_handle_stop : sha256 b89a12776f04508fb6b4fbf9b49fb24fa5a93e81f9e5e655ad48dc776c3332ea -> 55022c51a1bc27517c003575c576c2bef832465fe620308fc4b84ea7b11cbdd7
+~ _quic_conn_handle_stop_inner : sha256 065cafeda9602cfba50dd5cfb1b4d24cba1e68c20b34af884efa9d891a124d44 -> eddd5f3e787667d59975c173bb4d3189aa1efbafc353b374d95680c3cf95deda
+~ _quic_conn_handle_abort : sha256 9e0a995db22647532e0ce8495b1eae7cb9ad3ef4bcbbc2a50cf3789df84d2d27 -> 65c1c58b6e2f4f25ae9639cdfcf851fe1a1276fbd21823fba6bf2fc7689cc371
+~ ___quic_conn_handle_abort_block_invoke : sha256 788ab6f78cf7016b6384cef74952b5e35cad521235a5777164f3e6d44e7cb275 -> dadf8cd158dcd9167dbe6805379fef0d52a49791d107ba2d9266172223643943
+~ _quic_conn_traffic_mgmt : sha256 a409494b7f8d68329b87d2e5082bf3f51181b2fd7c6b016964c4378c43ae2452 -> 20d1292c5e6003adf9266dcb2c92ee39897231a1cac37b9ca6fbcfeb5c398867
+~ ___quic_conn_traffic_mgmt_block_invoke : 1680 -> 1684
+~ _quic_conn_announce_new_cids : 1012 -> 1016
+~ _quic_conn_generate_dcid : sha256 00f6989d2c5e970c420d33a15119a0084598e9b7e320e81d21fb8535f6944b55 -> 62cca817d34e88eed2a4e2c54b4e92daa7ba08c2cf01f47da537bc2b90729209
+~ _quic_conn_refresh_stateless_reset_token : 1328 -> 1344
+~ _quic_conn_new_dcid : sha256 1b8d5127a60ebd64070d286acc0101038ec26e7fdc5573e65fa827b24f0e14a8 -> 486117be26a6bb4d1c6136a09ff09264f48ba3cc31d74af62560b3c77fd38271
+~ _quic_conn_mark_dcid_used : sha256 8168fdbee51647d2f58933053d98ce1bd0f7c41effb5ef966800dca8d18dafcd -> de5f5b0ee6e7018dd0b0e70a18cea33b12b9c9a5d23df33c7c05435117ece491
+~ _quic_conn_new_scid : sha256 7706821483aeed822016193f16b7c8bf64f605fc46b68a99b9fa04db551396a1 -> 1bbdb4b7b9f30a4763a4c26d774efaa9da07e93fc381c64ad9403be758657ce1
+~ _quic_conn_retire_dcid_by_seq : 1036 -> 1056
+~ _quic_conn_retire_dcid : 940 -> 956
+~ _quic_conn_retire_scid_by_seq : 2448 -> 2500
+~ _quic_conn_allocate_dcid : sha256 0ab3867ee4fb81efbec440d5da0fdf93ce2d4a9079b8990954754c6a2f5ca753 -> 382fa1a62f83dd6e082dda203daefaf3ba56f74a01a0306550569a291d178394
+~ _quic_conn_allocate_preferred_address_dcid : sha256 a77fd30d57947ec12af414799bb90a85fbbfc781c63c84a140c7f207941871a4 -> 3d5deb3ce35380014df8dea4c94d34e5327b740e812a138c97b078f3636f8d15
+~ ___quic_conn_close_block_invoke : sha256 73de2e8f18a9b7fb2fc5be2877ff11e16c1de8a41e13bd87ea8917c4dffd4f90 -> b3811ee0c53f85cc7d0420a2ab6527a6518b58561edbe3f4d88b4a4ed85e8c02
+~ _quic_conn_drain : 2604 -> 2624
+~ ___quic_conn_close_block_invoke_2 : sha256 a15a22dfce8ca469a37810c43de7062d598d8ce9fec0ca01841df97ffb484e53 -> a0f811a996b7699a64a33caae5439142d398c3eb0d14afe4b98522194fc2264c
+~ ___quic_conn_drain_block_invoke : sha256 4ed3fbd31c965c5fed7d19e046713e2c10f9b9da721d2be35f21fd2544942015 -> 8e3cc2696e218e7e8d9db21b9926442804783a9065da259d87019680963e9022
+~ _quic_conn_log_summary : 2864 -> 2896
+~ _quic_conn_keepalive_acked : 1268 -> 1288
+~ _quic_conn_keepalive_reconfigure : sha256 2dd97bce66124d7668a32b48f9608d02b8cf26764f420b04b88246e661b47e72 -> d7130aaa795f26c68f86e476cc70cd33314e5a073e02a7c608bd02f7c94489b2
+~ _quic_conn_keepalive_handler : 5128 -> 6708
+~ _quic_conn_idle_timeout_configure : sha256 3fec6b9d3ae6b8dcf2dbc474e5eccc58cd97d790721fe79f4e6612746d782640 -> 31e91d51567c6e073263d2b1ba47137d536eb9f36db8d50d06319df572c3f07c
+~ _quic_conn_idle_timeout_fired : 1644 -> 1652
+~ _quic_conn_is_idle : sha256 7784d5cdb977a4b57cb09f8a6eb7868b96f117958fb40daa6e32e469a2d61afc -> c4ee72c5e16dd4438d0c9b3444b2806694545890ad220b2e8d58ce19914b5499
+~ ___quic_conn_is_idle_block_invoke : sha256 86097b1d99c92e22f2c12cde9be973a9f0d953e69f87fc03621cbd0710a42153 -> 41ccf2a230bc95261ceb829697b7ab2ed3a4592afce58080d859982c1860f231
+~ _quic_conn_probe_connectivity_internal : 2808 -> 2848
+~ _quic_conn_probe_connectivity : sha256 a9651d5c9b6cce87aa425a7d0a0c9d6733717bd5d1f592bf20a24a542f035088 -> d8404396bbe01d3bb428f2a654597111810b0280257023b9e501e25dfd569ee4
+~ ___quic_conn_probe_connectivity_block_invoke : sha256 6cbc8e6123c576497a8c499c4ab97d678fac47fb59004a67257c80b367d95f31 -> 6f4c1b7739930e4880d00d25ecedb6545724203cf07937be75933a79216554d3
+~ _quic_conn_idle_state : sha256 18bc0a817c040ceb1afc00a0e683082a8f9b3bfb953dd3c99808c9b86b558f27 -> 740ed35f817fda6fd6a56aa15c92e8eea5a0a95934b68e81eaf94956fc75d706
+~ ___quic_conn_idle_state_block_invoke : 804 -> 808
+~ _quic_conn_discard_initial_keys : sha256 d81edede70eaa262dbd3e4d3d66816afad2b43888834c6a2e4cd423e88f81e12 -> 042d4b52c732a90560371b3389303f62eefead963794f6a4f5fa5569af993cae
+~ _quic_conn_discard_keys : sha256 b744a2264efe12672844325cf8d8311a920c1c2ba44c5e091b71f6bdd9002b88 -> 27eca5ce5d3a523ae6c72685c051526759f7478d61d0b27192f5ac407b41927e
+~ _quic_conn_confirm_handshake : sha256 4ea58a7846cb66ffa540b16d0d5ba8fbfb1d7d2b89a06a5c00e766409f97cc1d -> f74a255270bb56685c8161fa854148c590b3072d9e979c450d6153674befa959
+~ ___quic_conn_cleanup_paths_block_invoke : sha256 3450ff8b31ceddcec811ab746a2ac01586406c0f2b1b7e75ab576769d46158bc -> c4c123f4d1cd6ec15b16fb5c82ed05a0829cd5cec0c3a6a026d4cdf233f57bf2
+~ _quic_conn_migrate_to_path : 4436 -> 4476
+~ _quic_conn_set_current_path : sha256 1b87bd74a6ed5c27efc9282ad229130c38e8bc2c94841fa7b19390f7701bf3d6 -> 1252ccf7f35c6e1e7f92f55d9b7ea31876fe86b3bbccf2121502f5ee4a8cdca2
+~ _quic_conn_send_packet : sha256 08c473498f91c164e33660918e8a2358ba6eec92b32dea0924521ef5eb06c184 -> 1cbaa53f13e652aa8bcc39d3825030b1aef56dadcdf3ee36db6c5674d5cc6b48
+~ _quic_conn_max_message_size : sha256 7f1548faade3df2d4f7103fe6744636cca446424aa5d355c98bb62fadfe83c31 -> 793984a8239832fb1b2819eeb04473b8e32e942beb46c2460740d00cb6984351
+~ ___quic_conn_max_message_size_block_invoke : sha256 a1a30c03063d88ff1b6d708c94cd1fac69834cdef1f6b6ef52c0c6a38d746766 -> e929e3bdf34d8f19d34d64330dd82005adc15ce790c0481cd5a1bdf5686dcd2e
+~ ___quic_conn_max_message_size_block_invoke_2 : sha256 10ef902dd989a18568b5160cdd4d6658c9078e755021e7f062a4fbe5318acd88 -> cf60734c1962f44035e7bdefdc5e0ee0a3c49889d4b22a57f22a47c1050f41ab
+~ ___quic_conn_max_message_size_block_invoke_3 : sha256 7f5965a3037f1837cee08f3f88151e4880edda9ac13a82d464699808a582f0c3 -> 5c7d5102d9ff8d6b918a529a6f75cab79774dcbfd54f5222bd119fcb56945dd4
+~ ___quic_conn_max_message_size_block_invoke_4 : 1024 -> 1028
+~ _quic_conn_link_advisory : sha256 be432a88a6149108780dcb2e90ccbe1d6f6a283cc83033fed7c8096201da9c8f -> c5a64e1bce455cfdff140d1656f5f13998ca600d366007e110fc1860c987a0c9
+~ ___quic_conn_link_advisory_block_invoke : 2392 -> 2400
+~ __quic_conn_link_advisory_block_invoke.179 : sha256 4b9df74503aed70f3ecdca23aca69dcae50535298128d527658bee1a9c2a3f22 -> c96d4c52f520565ed6a616ac42142ec17ca1d112e277e8045379f11ae5c5e294
+~ _quic_conn_link_congestion_update : sha256 cdcc26256240da59730b0de8e34d951a20a0c3be14a502eac13fd95769a9d15c -> ba019b9eb8d427f2cd8f0cf4ef19fb400b97f40987b3ab1990fcec67d1b571d1
+~ ___quic_conn_link_congestion_update_block_invoke : sha256 f95e0ebf2df7450c8d094febb0dbe196aa4c882f266c12d10e489887c625631f -> 9b4be021dc98b808d9f06f0b07e8be210c9412391b5ef1ee4c099671c4fbaf36
+~ _quic_conn_copy_establishment_report : sha256 f7a2975cc802ffe0df9aa04aae1fd9251f61521248127516a2ca7ff7ad8b59bb -> ab3f901cc032eaa5ef197888170d52f291c883744fd08e0543f6f22b4baacb9c
+~ ___quic_conn_copy_establishment_report_block_invoke : sha256 ae1483d6f4a396c3effadecc0c6cf241ac06cf2c0fa0b8363efb3ac51dd7acf8 -> 5a3e04ed9251ae3ea9a613b54c6725dea343948f502d362e55e1e983329ac019
+~ _quic_conn_copy_data_transfer_snapshot : sha256 6aa45fdd5c79e93011e81d3b36096a776a40810008fb3061f2992af709dae1a7 -> e028a685bf691b0ac743a1fbfcecb5ddc451c321b36382f27c12180b08637e1f
+~ ___quic_conn_copy_data_transfer_snapshot_block_invoke : sha256 526214b9af1e35ef276b74dfaa75473bfc6da0aeb807c34402ee5b4af32ec2a4 -> 03e2fd68c22f9a1a93dc70f31143bae15a97cbeac31474caf7b17f288fe025b7
+~ _quic_conn_copy_info : sha256 5e96913762f57ec80179fe159f20cf8b365ad0311ee0b85f8a5b9df8f7af9a79 -> 86a0ebf9e01b654e21d523543a94d791be6edd519e1f4f9951f802234528189b
+~ ___quic_conn_copy_info_block_invoke : 1144 -> 964
+~ __quic_conn_copy_info_block_invoke.189 : sha256 4fb66f6c57cef55662e01c941c92b954cab2cef401a9722ddf6fa7f7613a7afb -> 0b09b69b167699dcec403020c37d98b29fdb0608abdb4e2b95fb7bca5ef6e2b8
+~ _quic_conn_handle_error : sha256 15d40f327cca8606e7ec75995242d533493512f00e05f862ef77c5519f2f9e92 -> d909c59c7af27493410ffa1f4ba697c725547f058c427daf874355b1e87dfe8a
+~ _quic_conn_handle_error_inner : 2524 -> 2532
+~ _quic_conn_send_fc_credit : sha256 1a6a92af9008eb7cd771a59d78b3437ece8a9157d9aeecbab37e4a4c86cf8ff2 -> 24e43964514f33ad87963ae439bb5d2a4b29b4e5197da4f654827bc6c9114ba8
+~ _quic_conn_lookup_initial_path : sha256 2405fcf0f0461864523eb0c7715b246babca0c16c03970e23b61e2d7e278a9f6 -> e36ab7e4643a0ee224ea35fbb4703aeb7f3f4e0fd7270eafd178f7cf599d7305
+~ ___quic_conn_lookup_initial_path_block_invoke : sha256 41909509c61360f8fe0e371d8c831a1eb7375fe601fc179aa8713e1471983d34 -> 5615f94d9c758de76dcf2789856e37a79922a4e3f4eef2ec1235a2dbc9a61dcf
+~ _quic_conn_foreach_validated_path : sha256 6ba774b18a917ecfc3e5c5d410bcb9357d91a55191c96e7c8bcb24a5e7860909 -> 908f12b229c0715a442ab0b950203a5952a9129bb8016f357399e1d3e3958f4d
+~ ___quic_conn_foreach_validated_path_block_invoke : sha256 15b26b91bb84e3e6272bfb6b9a6ccd5bdb9e8ae7067e5f9f653586ef2fcb4324 -> 5eb194489525898a9a5cf94388d0d72a4945c322b9d0e5b9dfbdffbe55498b01
+~ ___quic_conn_preferred_path_block_invoke : sha256 bca8e9f2452d2c2336b555edc9a3bc64840b80eb2f9a2b7bb7f299dfc009d164 -> 590a5abf2a0bdd8740347c64e5a699eb10607833fbe39aeb4de51764f195ce5f
+~ _quic_conn_ensure_has_current_path : sha256 7c827d6fb7e27b6de7145fa584cb58b9721a03535d571493295e3f85387508a0 -> e2225cf2c0c3a2341a21d174a49e2aecfe401e7595d1da783e8b18baaf73185d
+~ ___quic_conn_initialize_inner_block_invoke : sha256 2a23ee54330edfd446c295e100210e6f2285b692db70955158a5c51c531921a7 -> 00c6f8673661f39263857bcffc7ee5edd662597cc4d879d32aa939cffbddb3e4
+~ __quic_conn_initialize_inner_block_invoke.241 : sha256 beed94be502ef91101d99801c9aeca28b6622fb7a8ff508d8ecc30aa320cb3cb -> 47e87d2c66c943a437ff9a38df80e5a3b1997949bd7bd4b6098f19eadb7b8f45
+~ ___quic_conn_application_close_async_block_invoke : sha256 e6bee661cbb859076b85f63ea8953a3fe02e8827e0143e59532be07627ddecc6 -> a66962dca6e7bb676659a09e9b3173cc60a32b5f6c6b19f4529c9bc3ad73c4f9
+~ ___quic_conn_application_close_async_block_invoke_2 : sha256 dda21338a1279233c8364a6ccc147c2079f5f4be4d3a626ece565e482c7c4e9a -> 7e0ac03816af2d447c4d0431af049ce73bf6bb54173c94b646f8e036441bc042
+~ ___quic_conn_inject_packet_block_invoke : sha256 493d12671a85e61e33239cc9a5a51783bb72f7a53fca285e2ca23ff403c864ba -> 731e336653794315c69534a68cc5f4403ee65b3f88ed565e2f5541efa3f5dfbf
+~ ___quic_conn_inject_packet_block_invoke_2 : 372 -> 376
+~ ___quic_conn_send_frames_for_key_state_block_invoke : 1008 -> 1024
+~ _quic_conn_handle_sent_packet : sha256 dd19cb1818633ec7747e1392304389c855bc35789711058b9d5bb2609db0b058 -> d25c326cb3abb43c1e606cde6521076069cf11e1d35d1301a49f9cc8ba8b3f9b
+~ ___quic_conn_send_frames_for_key_state_block_invoke_2 : 2176 -> 2188
+~ _quic_conn_handle_small_buffer : 1736 -> 1756
+~ _quic_conn_continue_sending : sha256 a159170f6587f38348ab6607ebced3255ab857c4d75eeca5e319daf6a1cb9850 -> 4d2699a69feffa38f85039d7dff99e3f38dc67c3533afaf0ce0a3d303dd580c5
+~ _quic_conn_process_outbound : sha256 6af2def8b024f4f8069b245123f6b6684afc0649cc49ab057a828d19be9c2e4e -> 3d52040dd3ba7a38e841c3d15c76ab9f379a79716179b727e33ca7ec3b59d9e9
+~ _quic_conn_send_retry : sha256 81e9bbadfa5b44eb31e277429d65212d813772e96346dec3a5f1f265c3d98f23 -> 61e051af5f42e83bc0e7febbcd8f0a8f23f089ef0fa56534d3f10d148444156b
+~ ___quic_conn_send_vn_block_invoke : sha256 b7d758380ec08dea05727d9a42ac400ad0a262d7a3f7a8996b197f3035a2b79c -> 1840973d3e2da05a3664abd1b23bd2416911aaad80faad9a0dd0e0c418e34538
+~ ___quic_conn_send_vn_block_invoke_2 : sha256 fceef09a7a14a4fcc3113883e7880fc4644e9a7450373d5444343c96943db90f -> d4618af63e6f63c1b2f58d2c06eee61d23390607e328624f9e0813e3515934aa
+~ ___quic_conn_send_retry_block_invoke : sha256 df1da9efde5c9627ad59df9a954c0cd440d29dbb4a02354f202c0aab2bd57c8b -> a251e1a171fe34e15c5d294affa9e7e4881a374b77d4c1b88f4514df4dfcc5bd
+~ ___quic_conn_send_retry_block_invoke_2 : sha256 20a5ae2f6aea043efce46283350769956a6bdecfc044b56bd00f4b770bf4b05a -> 684b2fba79f08ac1ffdd1552e63b7e5045d4a5fa9e8afe224f31d87b4c76c26f
+~ _quic_conn_unknown_dcid : 4524 -> 4596
+~ ___quic_conn_handle_start_inner_block_invoke : sha256 4ad256217322edd24c1510732b716240a7a63c5a291fe60e3066784b38b9f5be -> eace205b7e91eabaa91602e41dcf513005813d8cb8ffdf67f124f024df458f64
+~ _quic_conn_handle_stop_read : sha256 e7d5acfea71293a3510cfd2b67957ac3928c2882aebae668a6d21a7e08b6b379 -> 5183bcf88364cd258461cc73a0790eb3dff4cd07dad38ffd1746c9f55be16dae
+~ _quic_conn_handle_stop_write : sha256 09c02bbc91d1a270c50339b48888dec3019aaa33e71d00cf5c04ee4baa67fb32 -> a0a8baa9afbec13bdd30bbd3f32e42abfe4bf04ea8607edaf9e3e660d175b20c
+~ ___quic_conn_handle_stop_inner_block_invoke : sha256 d61934a70c07b28d181549e3c22ae0f2d245e5c97e4705ce4f7c33f033803909 -> 52d773a69e97022e5166cf0a9dabed9dbab45615b32959d29575a25038217134
+~ ___quic_conn_handle_stop_read_block_invoke : sha256 0601cb1b27c585dbab7cb65019d0dfc53f9a921007d68ad2d0c3e212ae7bd428 -> 3a030679432a9b52df5aa6572a04c2606965e624214761cbebdfdbe84c86517b
+~ ___quic_conn_handle_stop_write_block_invoke : sha256 e49b5ce00caed908949b62b8b7931b10e6b759731831257b94cd583ee0852a5d -> df63646f5183078c9788a11044c0ec51b937fb06debe250f9c61776d56b42099
+~ ___quic_conn_set_priority_block_invoke : 656 -> 660
+~ ___quic_conn_drain_connection_async_block_invoke : sha256 7792f954d296cb98ab85bbed49dd8628a0c675e044caa1e51efd3faab6244ae7 -> fe174c80973fb28f2c643fce771ff9ad9630686a619d4a04838a34eeed90b14e
+~ ___quic_conn_drain_connection_async_block_invoke_2 : sha256 fbcbda8cb554cf0edffdead1769f7a27a996da448b3e3b99fe34f067dd915600 -> aee77af6476ac7efbf4a08b3aee244cb9d127da07bfcb5ee065cbc094ff62642
+~ _quic_packet_builder_prepend_for_pn_space : sha256 6b57f266d1e01ef5358e8f9f30a82e2025664d67cb1b0e25fd32b262a7c22f1e -> b43fc4d3afbd97b0a517dd8f2994061ff71d70ff38062a6512a5c723b4f9f4b9
+~ _quic_packet_builder_append_for_pn_space : sha256 ac98b4c71d1463f6c2f075994190aaf0089ff060d4c1f3cba6417b1652e4d768 -> 6a4f5aae3e064c21c17ab88525fc78fbc6c3611ec933e892bc6ab02f4cfccea3
+~ _quic_packet_builder_find_for_pn_space : sha256 82fa81805a36af32f482ad5221229c34952a25a30f305f4a576cdb04a2c0c411 -> c2aace67a278980c8c92b3615ed711c4198c0dfec590bd01b5395dc6bc962fca
+~ _quic_packet_builder_destroy : sha256 5b1dade0b028523da4176519d71589f2de77368a84db133bb428ef12a9b78d5b -> 5e71688603b54fd9f4bfb44471206548323a997d881f10e4760cdff57099d170
+~ _quic_packet_builder_set_version : sha256 aeec3c631160ec6b2172ad513db950ba6cbfdad9b1b72622b45cb5e3d067118f -> cf4b29a1d7db93ac7d7c5ce0d95bae81cebb0f2d6ae1b7415e821c26547c6a4f
+~ _quic_packet_builder_set_initial_token : sha256 cbd4623c9620f728dacd720dd00a51b62346994ad7c0bb3176edf5488f1c14a2 -> 08e49f24d8f3aea6676b9c5372b76f6b450fb185efdbe54463196b6faf5b307a
+~ _quic_packet_builder_has_frames : sha256 2651c0703de4d497ab7de6fb747a682ddabc98038175a7c3b181bd730b719543 -> dba0e05f95df4fda5674e3ab967753132d7c641ab9187a8e627bd302ed3095c9
+~ _quic_packet_builder_has_ack_eliciting_frame : sha256 26002f487e1b2f19552ba2787973fc7f4c0a49ecded25f8e0fe7fcfbfe5a62f7 -> 3955c9995688f17d56d3520f1b551f3c625cbc95225032fb7736467ab1f076ae
+~ _quic_packet_builder_has_non_probing_frame : sha256 f9c726f6eae37a006b82ef0c1b2c26223e12879fb0c1038318e9bd9a872262a3 -> 390492e682d03b62e6104409e482961cafda14346935cbfb01191785682f62f5
+~ _quic_packet_builder_calculate_size : sha256 1e9ab42f92e11981771b22c805e80a51d87b7e34cd5dae0d1e3c03ecc78e85eb -> 29cc4070d2b058740c5c6e1d5a6faa73b820b4c87ec5db19b27c33b6e2202670
+~ __quic_packet_builder_calculate_size : 2056 -> 2052
+~ _quic_packet_builder_remaining_length : sha256 98d8bf1d1534b7a9da8f02989437a74c19694c0266aaf4ef948de4497e1e3db1 -> 706dccb2ea7ddbe8363c438ef88ead446b3b83c941debde936621273395c7801
+~ _quic_packet_builder_flush_for_pn_space : sha256 a628d5430aa6f61c97ef2ae76918913bc063a3539aaa6d0ff70e091214c636e9 -> d26257444e3f52eb1d0d2c915324117f088195997c3da96eaa43bea9d672b416
+~ _quic_packet_builder_rough_size : sha256 aeee9aaa1a198ebf1788309d5c25e6b762a6ef7f68466ee1f834d3954ef6324f -> 3940ccc417b4a0de44fd49888a2756d9830729a5c84c2ab9b274ee0e6d8fe672
+~ _quic_packet_builder_assemble_version_negotiation : 2160 -> 2168
+~ _quic_packet_builder_assemble_retry : sha256 24d360086a8ae5902aac3f636ad1a62abe8947551ed52cae0e693cae914e1608 -> 108a8085bf360b534b81bb2f6cb73da544dd2fd2a55565e056acb8cead8aeca1
+~ __quic_packet_builder_assemble : sha256 abc4287caae3a3328d052173c413fcdf5c445889161c13bc4590cfed2b928d11 -> 3eef1ebd6d0660268de349b5d63287cc0bfbdbe8560d05d73e327af0004d6d78
+~ _quic_packet_builder_split_frames : sha256 1e54f61725a134800a24532aab36008740f7800b8fb85c7da5383f579a825712 -> 5596dbe9036327b0e38be96bdccf78a202d05d113ea2004aa172875e84188970
+~ _quic_packet_builder_split_stream_frame : sha256 8ed6eddd33064a3599650224e50b104ef68cc5f5d330a2c679806f01c3f287a6 -> f40f4bde2d29a820b50b37251c4125195be9f83aa7ffe40084d34533a42e26e3
+~ ___quic_packet_builder_split_frame_inner_block_invoke : sha256 e686bbcf4e47a4c970181ba9204c7bc28d5ca468e36fbcc5c9182851ab7568d5 -> 832a898d3e55ba32f59ec67e51697fa917a7f5c6cdb6c9c9717e28fbb8ee30a9
+~ _quic_packet_builder_insert_frame : sha256 817ad574a29a608e61c2d1d192348aaadd2a6de733a47c9f2dca9ddf66470be4 -> 33eac2b47151707a8e777d7b8fd73192447e7a26ec5b13f7925c6c985f495450
+~ _quic_packet_parser : sha256 fcde659987fa08c22bceb1b3209f3b42e4ae7f13462c82f8a65aa3fa0e1a0089 -> 79793f67143e4448128bc3ae067307c9d5128a01eaf91c18a9cf9c2761bfc87c
+~ _quic_packet_parser_inner : 12104 -> 12304
+~ _quic_packet_parser_prelude : 2192 -> 2212
+~ _quic_packet_parser_describe_header : 1668 -> 1660
+~ ___quic_packet_parser_inner_block_invoke : sha256 49b3c407bdbf9e8700e2ff4aefe2cdf6b38359291d81240c8579d4a2ed792d09 -> 87f1dfaf317b0b9cac86c301bdb4e3da1f37567591f3270ca83bd12820bb9bf4
+~ _quic_packet_parser_open_header : sha256 3ce4ccb1dcddcae2788fb27f4d48d2c4978c14e655eb73edcb997dbf0250105f -> 0fe03a099692cb5afe73a4f11b361618c1d46b92233ddabf015dc1510bb9de92
+~ _quic_packet_parser_open : sha256 b120aeca070f58a73bd648a45c2b25bf63d5d39244281420a970a8b0147f7d50 -> bda416b6da32e0b315fd3e0d05b607c6f24987aed6aab1e4eb48c412c28c9737
+~ ___os_log_helper_1_2_8_8_34_8_34_8_34_8_34_8_34_4_0_8_32_8_0 : sha256 c5947bbc11d17b7476ee3ea35f6d868253b0c89914eb6c9811123b58660b729b -> 37411a32176669d2e74de8a4d9b8da3c0d62fb258db32fce0badfa4d40abbf63
+~ ___quic_init_block_invoke : sha256 9e44e1c521950607bdb0723f73ef91700ddb8b02ff930f6ad986fc3d64733533 -> 21cc07fa5a696818dc75e4442120863c9306ffc8ce5508d4da09b667e3e6bca5
+~ _quic_vle_decode : sha256 ff9d4ab88179ef9a22cea1e7590a13c8cf1b5555bd32060d39a3bd1991f0f9b1 -> 74c52c4f7d62ce55d45c5e13848339d81818a9363b430330f6731c31a2a264c1
+~ _quic_close_code_describe : 344 -> 320
+~ _quic_dispatch_data_copyout : sha256 90c80f360c958d2f6cbbe7b4ac49e3268bf18758623c564e05e664dac09e7c6f -> 3068ca60042c08e97a15ce821398396104ef7bd540693f2b91b202c4f7454afe
+~ ___quic_dispatch_data_copyout_block_invoke : sha256 691ba0820570487b981844efb8f752579abf7793ade95ef86132876eca172812 -> d060022ef57890a5e398dd35379ca6254c59e8b182a9ffc323f19357141ae1c5
+~ _quic_memory_size : sha256 13666bb3de7879c44428eb05bb561d4a89ccd951f5d10860ca770fc49102c08d -> d57402a07b2bde95862fd664d39377e5a0049ae4287d07190f8717c28d2ead1e
+~ _quic_rtt_init : sha256 8c2bd63256cad41a81ea671ef139a252887b1b197cfdaf8d4ab8e4f6909f227a -> be3704eda48cb74a401ab763de3514c7278d6301438b514f29774d04eeb5c119
+~ __quic_rtt_destroy : sha256 27d21e7177c35cb5b67b2b9f91fd12400e228bdd86208bbd76dedbe5725256f0 -> 805c137c49458090b518ebe725444f938147368dd1ee12172eeab9d731f8a690
+~ _quic_rtt_setup_cached_rtt : sha256 2247529d12438a16a403be182b86261852ec4ee85e5cbe126a9cf4e4f10e45a3 -> d7b0526394d0c6c074a980cf534c465285080f3d8341913857b981c3a14cb9ec
+~ _quic_rtt_process_new_sample : sha256 84459b084fcd26d4e2621f71ef2bad66259cc1f31d0ad0d3542deabde512fc99 -> 121235f32f62ca8c938fe002d5ef9d1b85528950140958f3338d93bc6886f39f
+~ _update_base_rtt : sha256 90c7364fda704f3a8f33fce4934af3bfd406023c28a419f327784f222bca3370 -> b49810fac8de36c1d8d14b98cd3cc08ed02c8e0f1fb0edd7785c9cfa6f6d94a2
+~ _quic_rtt_set_remote_max_ack_delay : sha256 0f106d3820b8ae0b70a6714bfb222ea374f852936865719d1346435ad983f192 -> c1633c50a0783001985a804e34d5346f833818d57a5cf2df96fdc62581f5f18f
+~ _quic_rtt_get_remote_max_ack_delay : sha256 3c59011fb678b42837df43fd34be75dd5df3bb0fc97166f323c4abb3d59fc124 -> 9db4cbad8380f99cfbb9c7229805d64648040fd87e8fd4005c77da8a12fc5d33
+~ _quic_rtt_get_smoothed_rtt : sha256 9864a95918376f0a9a0e3bb9142b682ed17d978b0ccc7aca6b1c9dd69c4cb505 -> be590cf457df27dd88d2079878c3657ebb0ad4b4d22765a8aa179c69fc7f33fb
+~ _quic_rtt_get_rtt_variance : sha256 dcf529c3e18c3b5a37f79b9eb094f6cd73b107e466dad88b5afdcaaf95443230 -> 21df8d882bf0f1f9cbb25d94416cac215f16688a95da9b8087c9a04591455120
+~ _quic_rtt_get_min_rtt : sha256 bd77126f75adb56dcb495a2622b923ac1c7dab7a86d287bb124ad824808b8e72 -> e8fedb0dea1ee5f930c490b7eb0ff7ffa43594140ea2e3efc231a85e5c5a173d
+~ _quic_rtt_set_min_rtt : sha256 e94fa0fec4fc5aae8bdfc6eac1da7d68748de1231394836ba63fe5a6a47ed014 -> 2eb0a1a90d3502297295670d3cb5798ee7e3a11ea4ef40e4866acdc5b6afa0ac
+~ _quic_rtt_get_latest_rtt : sha256 729255fccfd9bf5eb2ce8e0e0857993b5cba2365988cac8afc1247f91602b757 -> da6c0550008078413502ebd993cdaee27c7101d5e483c0a5c679e8f782960a5e
+~ _quic_rtt_get_initial_rtt : sha256 2a577ba7db6ecd74c7b0a61d0aeca6908f7ada5515947a6546e12d4a03cce106 -> f935ba26d5a58d1f123627ef343e0e7ce083f5be143e337b6ee4fd1604ec6b6c
+~ _quic_rtt_has_initial_measurement : sha256 bdca9ad655cd7fe2d0c8dcf4f5d7dcaabde57779ac010c939aad1ce760fac710 -> 0f176ffbf3dd9b051bc352363729e07dde189231186c66155e7096e34eb0bcaf
+~ _quic_shorthand_process_packet : sha256 d42dd9f3acf335eedc19f5a45283322171341eec89b41d1fe93604bdd81517e0 -> 3a54dead58982603b5fda1b741b488a01da48ab7b878526cd0566906b1ac8e97
+~ _quic_shorthand_describe_entry : 1664 -> 1660
+~ ___quic_shorthand_process_packet_block_invoke : sha256 9fc8efb6386d0f443f53f4fe1f1ec64c9a2da7dd25d794cec402c5af7fd653f1 -> d8def69a51c44a6eb5f41a804666371e9551ad2d264f5f0cfa17ca4690613361
+~ _____quic_signpost_is_enabled_block_invoke : sha256 568d488bb5c746d85b9fb0c16fe950981475ba17923218bdf49682ed58cc5eb9 -> 8af6b589913d581a02f7113ea06f16f6b4b8d1bb1838fa89e4333992ca65b8c4
+~ ____quic_signpost_is_enabled_block_invoke.688 -> ____quic_signpost_is_enabled_block_invoke.693 : sha256 f3a91d078e8c7888db97fd8df409a194150a110dbfd569dc27cd7dbcab6c6f01 -> 5728f4268266b202aa377431fbffce7b9c52249fea9c1e0a26d41fa4fda7216c
+~ ____quic_signpost_is_enabled_block_invoke.953 -> ____quic_signpost_is_enabled_block_invoke.957 : sha256 5eb1e0acc2e793724c017ed1b89b212b751b7f4c43e1ab5d626afc26fa50aeee -> 0f9ecc4390435061d467966938405137b908d8b14ecdc4aa876b5f0083221a4c
+~ ____quic_signpost_is_enabled_block_invoke.2693 -> ____quic_signpost_is_enabled_block_invoke.2700 : sha256 f48e3e4db7f50ffdc73e546e3982fe5405d6bccef59275af1f4b0897e7e7c7ee -> e0d5b00170ec8d1b755ae28c35a7bfa5342d06f59be33655e509df917173cbf1
+~ ____quic_signpost_is_enabled_block_invoke.3203 -> ____quic_signpost_is_enabled_block_invoke.3210 : sha256 377dc7cdc0c91d4f33aa1b2ad7dcdf13116d9d8190ef679b603d90cf5693c17f -> 2f2cf7cfc4aa7999360d6ffd99da259ac05d4552e5b3fb794f88f807a747b420
+~ ____quic_signpost_is_enabled_block_invoke.3726 -> ____quic_signpost_is_enabled_block_invoke.3733 : sha256 ab1d765a51b34b277858af26ed7bd334c4f48818bdfd19254fe704a57129c0ae -> 6decdb4bbd430ffc6713c08175cabc9e001995d39099f227c296e4ed8506555a
+~ ____quic_signpost_is_enabled_block_invoke.3966 -> ____quic_signpost_is_enabled_block_invoke.3973 : sha256 714243bb5cd1abd5574c921c143004a148ba54db4d71179310821dfd42f9639a -> 39dadf871f5952a00f73572fa6eba93e3653977b8c253362ec66ca253715a7e8
+~ ____quic_signpost_is_enabled_block_invoke.4820 -> ____quic_signpost_is_enabled_block_invoke.4828 : sha256 86920807324a87ead6b348eac5dc0e94f8ad1621dd07abae06eecf3955c6c940 -> 1a83925ee8ee3558bd1727ccded6742893551eb80f735c18b00896bf9a671918
+CStrings:
++ "%{public}s %{public}s [%{public}s-%{public}s] closing TLS stream after handshake"
++ "%{public}s %{public}s [%{public}s-%{public}s] keep-alive timer rearmed after probe failure, interval=%llu us"
++ "%{public}s %{public}s [%{public}s-%{public}s] keep-alive timer rearmed after send, interval=%llu us"
++ "invalid frame type encoding"
++ "quic_path_get_ifindex"
++ "quic_path_unmark_lossy"
++ "quic_recovery_declare_packet_lost"
+- "%{public}s TLS connection not released"
+- "%{public}s empty CID array"
+- "MP_PROTOCOL_VIOLATION"
+
+```

@@ -1,0 +1,46 @@
+## libswift_DarwinFoundation2.dylib
+
+> `/usr/lib/swift/libswift_DarwinFoundation2.dylib`
+
+```diff
+
+-420.0.0.0.0
+-  __TEXT.__text: 0x690 sha256:f49efeb7b0150ca626e1a3f742942e5599784bb0dc5ae6ef083337df66edcd5a
+-  __TEXT.__const: 0x6c sha256:21182b84b7bd5cbaf3717501f30a228cd07186ac72a57eef7dfb7e1836601dc5
+-  __TEXT.__unwind_info: 0x78 sha256:a9e7d16e95b683db711256bd2e9f78f41045595084b0beb32060787151222fca
++428.0.0.0.0
++  __TEXT.__text: 0x6a0 sha256:9247d7211f1047b13f35a80cc68fe082186fd14203b437105f1958e28293e3b0
++  __TEXT.__const: 0x6c sha256:9e1854236eabfe67fb9db9ad47efb977227180efcdcf396fb3706489f7c0c1a7
++  __TEXT.__unwind_info: 0x78 sha256:c0a7e032c9d5dc2837983a417430d8a556c2a50d9f025810ec31af8e2b07b1d2
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__auth_got: 0x0
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  UUID: 6CC6FF28-B0AA-38B2-BD79-7CC93712BA5C
++  UUID: B0B73DB0-63FD-3D55-ADF8-A2AE9055506E
+   Functions: 19
+   Symbols:   38
+   CStrings:  0
+Functions:
+~ _$s6Darwin5stdinSpySo7__sFILEVGvg : sha256 c167a65761d3fba24a56903f6b65e4f0566df9822b6cb85969b36dbff45f29d3 -> 6162126b868b06655c0aaec82a61ccc252be23916ec326fb4470dc1d5af118ce
+~ _$s6Darwin5stdinSpySo7__sFILEVGvs : sha256 78ab30cb6c9613a00411ba6be88d3a714de8ab9303459d1b11659da18792361e -> 75e5baa394b45fc25f35e9dcd1934648768b1624881cac0332ecd81e68a86cd7
+~ _$s6Darwin5stdinSpySo7__sFILEVGvM : sha256 c23e3d1fc8b254511facfa43a89914c790906f7fc4ebfd66456706c9e39fad0a -> f93d92f75ddeff63c63f8cde405ac03776522eda984985f841fc1347379113bb
+~ $s6Darwin5stdinSpySo7__sFILEVGvM.resume.0 : sha256 a036d80a5a2b480af9379732dd14e754c761b9b4a3c85817fd2bf1b7e0cadd76 -> 95432e76991954036fbe4be54fa40fbad1d1df68de26f84368c49e61011912e8
+~ _$s6Darwin6stdoutSpySo7__sFILEVGvg : sha256 0cb3eba6ee01b1f484bb65684cabeb024b5a73d05828b8bec8d76050108c32e5 -> d67c368acd2619eee2ccdd35901896525bec1cb2fb2318439bb6c5e64bddb4e0
+~ _$s6Darwin6stdoutSpySo7__sFILEVGvs : sha256 c9dcb43810cd88f3aed48e1d7035a2d36c8881832885db00ba238e62c31139b0 -> a8999410a94d8ec4a1562a3c793f6997393dfe61e6a3d4480be9178128cd1743
+~ _$s6Darwin6stdoutSpySo7__sFILEVGvM : sha256 1b380d61d6406825ea48cd2e2819870e7340e08beef9e57b0482af2f8f7e4bbf -> 5ed43d084c668cc1dca381226240d2d2c70ae6f87318233df49a4233f8fa42ed
+~ $s6Darwin6stdoutSpySo7__sFILEVGvM.resume.0 : sha256 0598754da3fae0021df1d9bb4a6921e74e64622650a9b529855167e21d0734d9 -> 504f46b87104c743a3d43ab221f3308f39888aa182b6ef745fc6cddd9fbd4bed
+~ _$s6Darwin6stderrSpySo7__sFILEVGvg : sha256 52f8a50156be15caa6f6043221892a1f54b2cb9a46b12e416c8f488b88b57f4f -> 84009a5244f81ba0843906ace8b5fa9313b75577d61d96fe67db8e6a4489c91f
+~ _$s6Darwin6stderrSpySo7__sFILEVGvs : sha256 a3babf7c4761598a5a5ce8a24563fbd75c976e88d179e92a1f39b5b5145095d1 -> 51daed477401e5eda79e842a878dc96dd2e0322124fbfe2eea7ceb1fc759e739
+~ _$s6Darwin6stderrSpySo7__sFILEVGvM : sha256 0afd7b88190482bd19f716e2d78d54dbfa4318d021ac4b80170a7f7317ed4344 -> 2d031f59af52832e1722d4528d24cb7c1a64f2bd5350dedfcbda56b4698976af
+~ $s6Darwin6stderrSpySo7__sFILEVGvM.resume.0 : sha256 ce8999c434649682b83f836452a61f7f241764efbb36f09eafa28b8fe0270a40 -> 4cce71ba50f22dd734100c9d03f8472cdf9f283e89ff952be394528b5526409f
+~ _$s6Darwin7dprintfys5Int32VSi_SPys4Int8VGs7CVarArg_pdtF : 512 -> 520
+~ _$s6Darwin8snprintf3ptr___s5Int32VSpys4Int8VG_SiSPyAGGs7CVarArg_pdtF : 484 -> 492
+~ _$sSo7timevalV6DarwinEyABs8DurationVcfC : sha256 18d63910a7a74477ac0e1104f39adb72373b90903f41fa76fbaaa5e53e7b731c -> 21a555ea73ed3b5d95fbf305c62b00fd231fa5373b467f1dc616ac990de6f3ff
+~ _$ss8DurationV6DarwinEyABSo7timevalVcfC : sha256 0856c347a9608e20b34b516bd2a302b4b1b2297ff205eeb8af118526db344e46 -> 82aae8650da634c08a14ba0c04d8735b72092184065bbf577c10d16cd463180e
+~ _$sSo8timespecV6DarwinEyABs8DurationVcfC : sha256 7a756c9c8be267ffec1c9199ab1ea42a971623c7828bd83fdf0566074c3fd3f0 -> 229225ae358071ebc425e61c6c6ae9825e0f767ad953feb2f1528830b9e74ace
+~ _$ss8DurationV6DarwinEyABSo8timespecVcfC : sha256 f8fbe97b98c3e7446d67b6c0860bb3a7be5c1591fd1b430bfb626679ead05736 -> b56050063d2457dae7a32ab40c3830d73eb45d7e18a567682d802bb838a5719c
+
+```

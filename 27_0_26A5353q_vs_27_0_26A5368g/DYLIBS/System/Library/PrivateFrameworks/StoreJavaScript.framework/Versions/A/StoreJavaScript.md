@@ -1,0 +1,202 @@
+## StoreJavaScript
+
+> `/System/Library/PrivateFrameworks/StoreJavaScript.framework/Versions/A/StoreJavaScript`
+
+```diff
+
+ 717.0.4.0.0
+-  __TEXT.__text: 0x8630 sha256:045ec3cc4e00d819b5f3d7ea6db2208b29aa4a66d1052df19800033a7e275534
+-  __TEXT.__objc_methlist: 0x7d4 sha256:9826b8ac2719cd1ed8007e9ccf4bc2666304717cff3b90b1bf72691c4346a81e
++  __TEXT.__text: 0x85f4 sha256:da47e3e748f61f2ad27bead47a9cc2ed62e25d9b47668e1ab2efbda3f5d09337
++  __TEXT.__objc_methlist: 0x7d4 sha256:ce4e8481cf93a7a58fd0af144b148fa3fdcd6a87861b1174de584c2feae79b83
+   __TEXT.__const: 0x38 sha256:e98e6c49ed5ce7b24123f4cb3d44fc610d363b92336b9cc15370bb152077aad6
+   __TEXT.__cstring: 0x5ab sha256:376f60e6b5ed2edce97b0ef9c2e27bdcc5f174363effcc343c1b55683355290a
+   __TEXT.__oslogstring: 0x3c0 sha256:b6393ad7a5ba2244a4f62f070e89fb8f9ed16bf76d86d939b1223dec38f0e24f
+   __TEXT.__gcc_except_tab: 0xb4 sha256:0a09777cee3eb17a145af57da5a8ff94b38695bfbee428c3fca029eda5a970c1
+-  __TEXT.__unwind_info: 0x238 sha256:491ee94adcf2d05ffc6784735a248d68c2da6e855ac832f3b7984bf1a7be4857
++  __TEXT.__unwind_info: 0x238 sha256:168daf977841b5a4c65234792bc08c9992ffea447eb4ac5464d26c9c0e024fa6
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xe8 sha256:9096cd65404058d80a061cb2e5aef6dd1ea8bf1208e9286041259bbe9b9391e7
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:d4daf5b57e7bcd49b9ae28c2566043a1069164e782109fd1e472b7293d47f155
+-  __DATA_CONST.__objc_catlist: 0x18 sha256:9217fb9b0363b94aa4c5328133fb15f59df10ddae6c6c20488588ffdab120589
+-  __DATA_CONST.__objc_protolist: 0x30 sha256:03fb43ec7f08c87cf4afd6ee8b4039097d2953a809c184603ca4f2fd43ad59d8
++  __DATA_CONST.__const: 0xe8 sha256:55622655337727427e5433dda9eeca43283f7fa8f40cf77c02d37be1d66431e4
++  __DATA_CONST.__objc_classlist: 0x20 sha256:1f4c4e1e9688f7e2a1123070a12baa8657cf6f4ddca46f4bda09e9e402241f61
++  __DATA_CONST.__objc_catlist: 0x18 sha256:c36a7c19edb24b5d31ebf6dcaa8e1eba757ef8f477f8b58e6a841fa57ed14e1a
++  __DATA_CONST.__objc_protolist: 0x30 sha256:2d1baf5f37d4105160d48ca9f6c8f14bb50ec1106e69eb3d161dae40545a938f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x660 sha256:fd53dd1748f1f85846c0e05d2ee2dd14913afb1f3c3847f5f1ab097293db75f9
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:d4daf5b57e7bcd49b9ae28c2566043a1069164e782109fd1e472b7293d47f155
+-  __DATA_CONST.__objc_arraydata: 0x70 sha256:15fee5a7018f7623cbc885a3f53fa154a9c6d47b47b028b9fffaa4dd97200869
+-  __DATA_CONST.__got: 0x108 sha256:acb00cd77f2863e69b0b68fd9e0324872c33586cd57ba6828434c902dad7ea0f
+-  __AUTH_CONST.__const: 0x70 sha256:3b54d4a46fbdca45e35ff604039dc5b44f22beefa239c4585a929c50917f53e1
+-  __AUTH_CONST.__cfstring: 0x900 sha256:595a4d0a36005fab34176778ab7d2bd8e75657f3d2eb53272aceaac1cb6b2609
+-  __AUTH_CONST.__objc_const: 0xc88 sha256:73f7911a8b302ccd377aa06b7e8d1f55ec5f578174f16b9cdf6f79f0dfe4e14c
+-  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:47283d41241deec73db6a643cc5704ddd2c2208fcf9bcfe164824ff825351b8e
++  __DATA_CONST.__objc_selrefs: 0x660 sha256:15f902439dc1df61e2944d4cc63674005907253ecc274bc9b6022591b5ccd4b2
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:1f4c4e1e9688f7e2a1123070a12baa8657cf6f4ddca46f4bda09e9e402241f61
++  __DATA_CONST.__objc_arraydata: 0x70 sha256:cbd6a1388b46fe56f4ffd1d50e9c04bf3c6f4ae1a017d0323575ae25920bf9ac
++  __DATA_CONST.__got: 0x108 sha256:fc35c4b2e5be80300f01a1b0adf22b14724173f42cda0e7535153ed09abb7b47
++  __AUTH_CONST.__const: 0x70 sha256:0d781b2061b73806240820801f84d8470716f3ed311aaed56d1dcfefd69b1767
++  __AUTH_CONST.__cfstring: 0x900 sha256:cc851a241b9fee14f84fe4db599202317afc4474f4724446f701ff2b5a32c4a9
++  __AUTH_CONST.__objc_const: 0xc88 sha256:31cc49d9078c081fbeff7b946ae4b1abd8b16e6840b8c29dff806b3ea3e0621b
++  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:62fcea412f805024ac643b2b303f7efc967e569032ab17d916da4c78fee22ac5
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x140 sha256:12ddc833a139ad3005a177825a0ad76c0e3d72216ea558898b7c7b976eb8b371
++  __AUTH.__objc_data: 0x140 sha256:403eb2146e0f053a856e6039d8efc788a9824674ae498be88335926ca5449543
+   __DATA.__objc_ivar: 0x70 sha256:d8deb6fc272056060b83af81af93421f61946b351dc532c29399ef21ab5922e9
+-  __DATA.__data: 0x248 sha256:be7c00899bfa4b8ede6086a2a0db282084d25fc3b88b27d91c9cf1a788231f4a
++  __DATA.__data: 0x248 sha256:e00081ef16b168e9891fc8694c0a82d548bbcabc789f46482caf6f632af7a664
+   __DATA.__bss: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /System/Library/PrivateFrameworks/StoreFoundation.framework/Versions/A/StoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D20913F6-73C0-3D71-A17C-06E4C28C53EF
++  UUID: 43E1406A-D6A5-3B81-99B1-76B008589811
+   Functions: 171
+   Symbols:   636
+   CStrings:  186
+Functions:
+~ +[FRJSFunction functionForIdentifier:] : sha256 2e9aadcf4175e4a004f1e32922ea3c7062b70c6a729cf24219f129be95125efc -> c05d756b3616dd9e6f64ced869e7dcb2d13ca93235bb1731edf7416ee5770e82
+~ +[FRJSFunction functionForJSFunction:inContext:] : 392 -> 388
+~ +[FRJSFunction addFunctionToGlobalCache:] : sha256 6eb48e6b6492e475bb224926eb5a0f25523b34e8135e6fdb784d17e7659b0c5c -> 1a9850e695f9d94155c72fee0f7f5a556eb472eec5d00f0d822eb1a6b194766f
+~ -[FRJSFunction initWithJavaScriptFunction:inContext:] : sha256 7a316a5a35313ea588cdb296d1a973a9fe6e4031a24ff12404f1796d1decfc01 -> 6929479406240e57f73d50c2ab8b8162689a9ae9f632d4b00c8e36a8890440ea
+~ -[FRJSFunction dealloc] : sha256 eb852b25962ede426a4d1e4f31df4cae28d4ea58642f79ddecb8e5876cab2fe0 -> 6eda124c4d900551f4dfc28c31f9788bcf6c75443baf2585cd7afda99f3296c3
+~ -[FRJSFunction protect] : sha256 86ccb1235375f8c751e93d38859255740710d2fbec35317b9b8968f48be8d943 -> 65bcc2a23c6dc860cd07ff8fb1458024dbd2270b8127e1ae985bdb3e92be4f61
+~ -[FRJSFunction unprotect] : sha256 5ee8d3a8fd8e86ea5ad931d468091c2fb2d94df7584be18cde747769df8321eb -> 31ba1f29ce4797b98b054b46c9d58179b1176df721d1506f4781959c487f26b5
+~ -[FRJSFunction setCapture:] : sha256 7734a9d7fa56c191dfb4008f15bf716d92bc63f28781518287435a25da661867 -> e00c474b24f9f99b61e50869a990607f7b26c2f3d29ef633f00d07a49b9ceb8e
+~ -[FRJSFunction jsObjectInContext:] : sha256 51822cc23c7f6c69a4c14dd9ced26dbc2dfbaf8b1f3e16269b30ba683e8422f1 -> 74f88db3260a814def5bb8b151fa642f9a31ba8c1dd3a2cd6b9759c9d5875d03
+~ -[FRJSFunction doAction:] : sha256 a9b06d3b05109eba4f835b0937319962d2ea16b7a1916dda974f9df2789fe9a4 -> 8621e25846223e8fccbde39e326e6c21f0e9bebd27dabf921292a13ab27e5de0
+~ -[FRJSFunction callWithArguments:] : 584 -> 580
+~ -[FRJSFunction description] : sha256 7fa53ec14811d71671b4b2b8f7518a1b7d9cebb3a248d324fe9f36a8858a9b90 -> a19571ee0546ec5e607cd498a04baeb30ee463a5ec3da71cfee76e7930f8d4e6
+~ -[FRJSFunction initWithCoder:] : sha256 d930c6d8c1835ceed740bbb3a59ed6150ae7724f9ae30d7099408026431abe57 -> 2445a4479ebe177467a2859df3093f6923f95273f481cdee63ecb86c86ecdacc
+~ -[FRJSFunction encodeWithCoder:] : sha256 8627fce8418d098c93ad6509df73d0affe403e443c039387ed3832869baa5355 -> 9c5598e758af7fe1d3dbe7bc1c08cd36cb7060251ac71807d35da6686eefc403
+~ -[FRJSFunction messagingDelegate] : sha256 86a101fb1eb391e93389a0c4ec510fc46fc922215be0cb1dbcabe8c65abd0e29 -> ebc0f0d81319d57ea0e0602d45a124ec64e24aea1e9cdb5a99ced441794b93ae
+~ -[FRJSFunction setMessagingDelegate:] : sha256 9ed5cc2ca9153abc53758f2927ede1abc250123954ad7beb562c9c7b90116648 -> d34b851da295427a8ac77e97518c94e3b64d774db1f1b70f5e3e8ca50eba6f0e
+~ -[FRJSFunction .cxx_destruct] : sha256 d53386f7bd7130f161818ad7005eaf695ec6ebf70afb8c2186e45116b9741120 -> 439d08cde967269da4cedece3b9fc02fadee81af5996eaeded5b1d585a8cbd4f
+~ _JSLogEnabled : sha256 bbd9edff124466c09c8355c8f5c074ec4ff61ea28edd092c7cd077198aaf6023 -> ca2f4ad17e04ff5c33cd6e96dd48fc5d515f881540eaeb9a198106d36f548f07
+~ _JSInvalidateJSLogEnabledCache : sha256 b1939cd53034c28cca58334427045515c18d1fda2cb2dc9a0885b79db256ec14 -> 7840e4c8192b542c2034ade28f420b0f6e487fd3e48cf2389b837376da9a0ad0
+~ -[SSLogManager(JavaScript) JSLogLevel:inFunction:inFile:atLine:withFormat:] : sha256 34251a4c21c2fb8c971cc2101a689e7547b79805f9b04cd138ad7b0cc53a6b20 -> cb8e0217e938c89ab6b08ccc75bd4f2565b4d764e75dd948357e8ea8640782de
+~ -[FRWKBundleMessage initWithMessage:body:] : sha256 a6ebfa7293985c731a74607569790feb111d50c61163dd16d403564e1e3ec408 -> befbe0dc2e1d03879db734d0a90204f4592cbb357fc94d6975f4573d9b318f7c
+~ -[FRWKBundleMessage initWithCoder:] : sha256 9eac2115b293bfbe6e8a692867f892c77a8df29348793badbd7f04fe17313983 -> 97f17ed38e971f348371cedfc1ec0de8521b15b74df7ea3052ebb00199b0f5d6
+~ -[FRWKBundleMessage encodeWithCoder:] : sha256 3b0f45655ab1c562b468a11a3c615f46dc83910f52f46b4587032c3fb2bf198e -> d97d84d50e5c00ddbc0c5fb932b9f3791741327e5685d64c421c793b9696885d
+~ -[FRWKBundleMessage description] : sha256 52464596c1450065be6c4acdfbe51c82702e4032e1b3d4049a7bea36779f737c -> 762b55a9c6cff787beacc3294b5ebd8e0090480bb95d9dead0b1c96dbacadff9
+~ -[FRWKBundleMessage .cxx_destruct] : sha256 c813fb0df1f9ac95890c7a50e44c9cd1a49d23161a2408e702f618e1a510f431 -> 5f07899740b0428d92d1b568a238fdb345f912b5b99095932c5ef4fedcda3c95
+~ +[FRBundleInterface allowedMessageClasses] : sha256 b7e3e37be21de6b0cdd931d90af810ee929f8c2e55115143f28f75219c76aad2 -> a726e5b6eefcd22d45ff89ca988301cfc21ba576cb9f69b2b4e48504c50c9a08
+~ -[FRBundleInterface initWithBundle:userData:] : 1032 -> 1028
+~ _didCreatePage : sha256 cbbafbc8ca8c33208a9836c25113db3e12a9aa8d816e9ed2720f48e34e1fd2ff -> 556143ebbe46d0c0af543aba3ee54ef3c82f0b6d3f5683b3b34ddd96cdd396c6
+~ _willDestroyPage : sha256 c5621eb07bda6d9288a646728935caab234ba1babae3bbbc0a127ab3b291400e -> bb9777ec4a4ca869933419793c02d186234466e2b844c14193b8f01cf3102ae1
+~ _didReceiveMessage : 704 -> 700
+~ -[FRBundleInterface dealloc] : sha256 6910d52a3245973261e09eb6397d9fbe6386d8798366dc30e8f5f52536f23951 -> b0db1195a5c744b513759be7c8c6f9fab437d34c535f5be4b8c3e827fe39ab0b
+~ -[FRBundleInterface sendMessage:messageBody:] : sha256 f382bf120c17d9a1026a668ad821ce04355bded1b9d8339c1ae0f4c1e949a94b -> d2115cb0e9c9d83e810355ae39d2bcee1505c2f24bc4a33647662baffde74041
+~ -[FRBundleInterface sendSynchronousMessage:messageBody:] : sha256 ef599afb7a0fafc18e400eedfeea19f5ec26f1c9266551ba1389c2b1df53724e -> 0516355e086d4fe78a0370f8289ce561c2932e958fe4d985a5eb57cec1a74a4a
+~ ___56-[FRBundleInterface sendSynchronousMessage:messageBody:]_block_invoke : sha256 41a24a325beea80f6585bbf3a07267325690a033208d15e291c5eae14547e40b -> e4aa5670ed98f3ccb45867eab771dcad7f601407690a20c2ceafcbd6deb48cdc
+~ ___Block_byref_object_dispose_ : sha256 6f2261cab2c4b4060f0008270ccde07afde248afd41e6a57dc2693477fa3989e -> 5e888e82b7b187fc6b24961b6fb0405d54e954a29551698c131d99ad20fd790e
+~ __56-[FRBundleInterface sendSynchronousMessage:messageBody:]_block_invoke.103 : sha256 da4dce7628d078508cf2624e1c4c3923d4625b859805ea25bc0f3382af38d17b -> 8f200914d73032d0c2ed9d44c9a0c8168ae263018cb884bccc3b4d369750e1e2
+~ ___copy_helper_block_e8_32s40s48s56r : sha256 9e82f1e318219f1ecdfb937f0241ea6fe01dde4f3fc71862244e352168226a4f -> ef035745fea8234fca7d84d608c59aaec29cb00edfdba90eaa227856b598a5d7
+~ ___destroy_helper_block_e8_32s40s48s56r : sha256 f12793106f6038f7c6107060491b328908b6118a2587223160fd68f6762fb5dc -> 041bc19e7afc98fe0805f05f91530d05963c08c9113c3690a1c1793a4bb9f24b
+~ -[FRBundleInterface didReceiveMessage:messageBody:] : sha256 7b0e314218c60e5804cfec75a95dfc8b5e29f29980091d17118dbaaf3c0fc25e -> 28a5f71c145b6bbaf08622b9239308ff653ac33d8094986ac3808e883fc6aedc
+~ -[FRBundleInterface _getJavaScriptProperty:inContext:thisObject:] : sha256 b5a1186a7002f645cbae9c31c41d628bc4dd2a415b6bb5c0c1a77cb40d4a6c5a -> 3a6ce80571ab62e24f2390b418ec689cbf7d5679ea723f32cbffdbe67f693125
+~ -[FRBundleInterface _callJavaScriptFunction:inContext:thisObject:argumentCount:arguments:] : sha256 bdee5bd4d57a705851da202f1e7d158907980c8bc640ff8506f13d7e1addb204 -> 5cd09cf475311cbd2d9ebe4dfb551de202c6419adc188a64ef80abc920b4ffb2
+~ -[FRBundleInterface dispatchEvent:withEventObject:] : 484 -> 480
+~ -[FRBundleInterface dispatchGlobalEvent:withEventObject:] : 780 -> 776
+~ -[FRBundleInterface hasProperty:forObject:] : sha256 ec8d316d041bd3e292498db679eb21d9cde36306f4089cd1e56312241348abb9 -> 7290fdf5faca6a4d5a4fe12836074eb3f4493939d7d6aafcc91c5307c7026e73
+~ -[FRBundleInterface object:getProperty:] : 568 -> 564
+~ -[FRBundleInterface hasFunction:forObject:] : sha256 9178ab66b9957113b66bbc17374f5e9d9228c6f664e06b1c96ca2db83e537f1f -> 69a006af43a3112324de25ac76e9ab745d54dda52eca420e9ee6eff2838db6f1
+~ -[FRBundleInterface object:callFunction:withArguments:] : sha256 dae524c15c70f2e4650bc325fee174f747b01ce05fc67f9328050eb1be9ceccb -> f195581b7a628f84513ef3dcbdfffe6e0e886f5eafa1f28ca36bb8a0f5df8fd2
+~ -[FRBundleInterface unarchiver:cannotDecodeObjectOfClassName:originalClasses:] : 548 -> 544
+~ _globalObjectIsAvailableForFrame : sha256 4b94e218b6549c3490e5431ae3ef905f03ef07b047bf7c6b30aafad60f64fec6 -> a07eddcb2721a5e83db495f2173187d408285fc24ab3b4b88b1e0098d924e9d1
+~ _didRemoveFrameFromHierarchy : sha256 c4ea614255f2530695884566b5a23416091b03036c48f708720186aef82298bd -> 2ab3843b510a2058f7c7c2640dbf97de90267e50626ce9d7ea8107baa0d92133
+~ _willDestroyGlobalObjectForDOMWindowExtension : sha256 7830605311440c1582399524dc06c089979e307245825e771d35db642a231198 -> f62043582cd75d8c8152421e7eb15e0dc23a17240632d29648337634c4cefd60
+~ _willSendRequestForFrame : 1048 -> 1044
+~ _didReceiveResponseForResource : sha256 91285bbe43f610a9881fbcd7ddef39a79d2fa567c9b9946b4cfe5b1e3f7d97af -> 55e8b1ab41d6eab73a75f6cc8c9ab2195ea90f28b45101a3ccd51396b798bfdb
+~ _getContextMenuFromDefaultMenu : sha256 ef19268d5d9e911b0fad72ca2bf2b90ecd43b693b536ff44d7f5d4e435d77e29 -> 8a14253e1b5be2cab73eeebaffc7fc649eb28f73ad9d5f96510ae8a2dadbdf65
+~ __contextMenuName : sha256 0659a6fafba9cb88d1b21634aa199b9c243d64e47e738c5760f61c056b435420 -> 699b29ddd30af27797be66a455661c8e7ccd0e28043c02347c7ae5a24c66e6ee
+~ -[FRBundleInterface _contextMenuItemsForJSContextMenuNamed:appendingDefaultMenu:withDOMElement:context:] : 936 -> 932
+~ -[FRBundleInterface contextMenuItemClicked:] : 540 -> 536
+~ -[FRBundleInterface contextMenuDismissed] : sha256 c942329fec8e830dcd971b77c86df2fc89cbaeb4e5cbbe8da912b6843460bb21 -> 3fff4ae558c917e3b9877d503b2bf9dc1e397ab768a43c2985ff58d5db1806f2
+~ -[FRBundleInterface setActiveContextMenu:] : sha256 a43eacf2b4f50e278c678182d0f05560ec3248d6f5cbf827b571f808901dc5e3 -> 8b0272ce5d758cdd196a1c3f374bf5b428d81b7a6bc6f90dbc02a9e10f2cd579
+~ -[FRBundleInterface .cxx_destruct] : sha256 d68cb64de546a54dcf8dffed9e3de809332dc26db26c2da264ac0b467d02dd22 -> 9e74b5c9a2a5237ad048eaea7468dc1d4540c73cf0f072bc45f06723506c7887
+~ _OUTLINED_FUNCTION_2 : sha256 700ceacc853f49d00a5cc255ea2ba64bc20dbc79ccff35b0dc9fbb29aadf1e5d -> b0e441217a666f7fdc68c3cda8b3a2944b35c82073d115b49fe1372a1a27bd66
+~ _OUTLINED_FUNCTION_4 : sha256 2a6ad82f114158baa629be69b56bb0720bd2548ddfade1a020f90f5d98cac7df -> 3b45abb51a36448ec05723ba33923ac7c20a3f49bf21be1babee78ddf829589a
+~ +[FRJSObject objectForIdentifier:] : sha256 a32dc446c25f63fb978fe6a056c2c5259fabe427a52a618e2f020babdcb01199 -> f88f2800e8cc6049c19bc42f6adc0cec87b490a031ee55a4299902e74201a6fc
+~ +[FRJSObject addObjectToGlobalCache:] : sha256 34404e7a703145b3e22e84615e90cbf38aa11d676db18e94d757c8de63d327ec -> d9662eac6f2320156b278e282243b7a13e88ae651ac22575e3fdbb6d8b19b9fa
+~ +[FRJSObject classForKeyedUnarchiver] : sha256 e60caa1c17e252aaa75e0475116aa8d885a88f5f905dc8bef9ec0d12c79d1b32 -> e0b71e18c3796309430253887407a7ce795f9ae003f1cc9cbec74874c0926c69
+~ +[FRJSObject jsClassForClassName:] : sha256 406e2ff26161e56a5bcc698c6cd4769b00530edd521e35f7ca22835f4bb868f3 -> 0a8a15db9d46c59bb38540d002df6107a7a5771b274fe2efef27572b1f1acef9
+~ +[FRJSObject setJSClass:forClassName:] : sha256 f7166463e79080e69569cdab66b39a312041a8e00a3b5582ad15f4728da1c160 -> 141e32ddb0cb87de8c76ba5c8f5e2e050235ddc4347af29c270cc5f05c539227
+~ -[FRJSObject init] : sha256 768211f1db8e4c5bd758083726a5da57da518978b122bba5ba82f7d21fbd05c6 -> 8baee80f06d573682e422582e44badaa9ac87ce76d036e2ad2e10faf2cf5243d
+~ -[FRJSObject initWithJavaScriptClassName:] : sha256 538f766daaab8d60dc05476de5b94f11f07c365067b9be34b06e926aa7acf49d -> 421c0686b977ddbff2f09131af88a420b7dea1e8cc76452d97436980b2f45270
+~ -[FRJSObject protect] : sha256 53712e6ecd82d2652c0eefbe7785bab45327eca3296ba20d3624ae6ade5f5e0c -> 17ce0b439061d1aab7d968137593f10f32f2ae46877b1189c3eecdef91936e7f
+~ -[FRJSObject unprotect] : sha256 7d644c6904262f4091b8284cad1def3e9055658b93ffab48aa08da532b76d89c -> cda19c72d322343825d305f02f6375af67288a0c4ed9447739becf1c51f690ea
+~ -[FRJSObject setMessagingDelegate:] : sha256 ffc6e2ed83fed8ba237f13a72db680c89677a2ed956826202e1777b19734948c -> e691c71b80f208b4b4a7d6ea6c5ee17c599d6287f39d78414343d21f4798bcd7
+~ -[FRJSObject dealloc] : sha256 d9674f32e0c3624bd90991432fa0bd07fd60b25c5d3c6c3f5259c7774f950235 -> 308937c4ab9227b0ddfcdc5df40f25ba3591e458ace69c47ae691b431b910e09
+~ -[FRJSObject description] : sha256 24b014c9ae0912f808c7554046176eed0597021a5e4a5520cdff948333ed02d1 -> 19aebcdd4a63312f6d06aa7fe7eba3cce181e08bd0725f7ccf0378f020d2deda
+~ -[FRJSObject doAction:] : sha256 624521c867dad959cf0330290a6eca0345ada47b05c64cb6e8551aa6e10cbf03 -> 6e60bf12fde233c4d32849859a53004a5890d0f92b77c26d97da8ffb1fb0fe95
+~ -[FRJSObject jsObjectInContext:] : sha256 c4bff587c1fac85b86988736d960ed472fa47fae2a47be6a240a730b68d68b39 -> 6719e01d5f1a0490dedbe437d91614fb8084830bd280b93c7ea9ec9319750469
+~ _getProperty : sha256 f5cf17aa9cb2b43c75128104ed4bc20948330575789e0e8a04e92e0d362f82d4 -> 31dff911be3473faeebf55d4460fcbbbcbb6d8de43d4382181d85ad0a3314b87
+~ _setProperty : sha256 79557ac3d8cab5d72de2b1dccdf1dc1c57d0c3f50d265c9b189b0379e72967e1 -> b90ef9e7ceb9774ecf844c9b2aa58eb5de4dbb8f7cb25e152316b8067ef42dd1
+~ _hasProperty : sha256 dba5a681ee5585e387a11188d2271724492fd3ab29ea9f9a4622e00007bbda1d -> d240435f263e8374336f2540beb1128d128482911fe007618215298a0ccc66c4
+~ _finalize : sha256 3457c0d0f891640d166f748863153a91a52482ad4006f60c37421f2080652a8d -> 6d5323f37f045e2f649fcc51a6a5cd864591b5d2cb986f2329993b3553dad414
+~ _callFunction : 548 -> 556
+~ -[FRJSObject initWithCoder:] : sha256 43a0d61b00bb0f1819e51e3d0b2771b3160d3976776f283edbdfb6cd8ca6ad5c -> dfe31c3d24207ed9c4ca84359606bd6e0149860a57d0beb34c97e05f5565d421
+~ -[FRJSObject encodeWithCoder:] : sha256 aa0c14c356bb2f1b0a48a70daa556c3238adba0fda7e3762038268550351d241 -> 55a4d1bf55abce54d21f260c84815de52c6934c738fd6a476945af261b87eaa4
+~ -[FRJSObject addProperty:] : sha256 65f6fb9dfc146e72d6b70aeec85b6179487284d47deb220282d9726066803b60 -> c23cf6ee7496fdcffe56dccecaad8a76b241fc37c69842ba9694b619d90cefb4
+~ -[FRJSObject addProperties:] : 256 -> 252
+~ -[FRJSObject _addProperty:sendMessage:] : sha256 9bb460df54fc523f7217624d9b1f848d2c305883bb7441abf3bec9f9a86238ef -> 2d15bddfd2ca4ffe691a9b6511b8070ff92773bc375157ab0f7035f5074cf9d8
+~ -[FRJSObject getProperty:] : sha256 5599072e9ebd1ef732cec64031df29db9755c7aa670fb018935682701dde4e9a -> e3fd1e19a05eee9249d265def2d54698f0f137cfb4896b8480ebfb63308da4ff
+~ -[FRJSObject setProperty:toNumber:] : sha256 e34728d0174c1b5f0cbf814b5fffe59832b349e1563255152b28cb368498cd9b -> 62b5409927a26dfdb15d5f360ea4ecb3899bc14e8e0a3ae0bb52bd1162a07309
+~ -[FRJSObject setProperty:toString:] : sha256 9ef1595278024e547e4a43ca6f8d19e2d206e2a61135b4e63f9ce041672ad34e -> 9d12cdf37b3b4c6a1e3f27923b988ff7585cd89bc45f1edfc5071b721eb0bd80
+~ -[FRJSObject setProperty:toObject:] : sha256 20e01d7729b30a474c7aab883a4cf875f287c60b12f232d55e0f730551a60ece -> 0277ce40466a82d5b73824413fc4f7b1e2933822cfa638d4757553fe8f46b806
+~ -[FRJSObject setProperty:toArray:] : sha256 0e7bbe1fd6c186afb22d57d44f31d84de567510443c26b0466fc8d6b4dfc0059 -> 0b50cdd41827bfa4a5c6be08740411bfd09bd28f4b6ff920ef0fc89cdc365a6c
+~ -[FRJSObject setProperty:toDictionary:] : sha256 a94c0df7a4b9c51c8cba863884f8a5fc69d590152c81ad03673f02e4b0bec33b -> e357436a367069dca864e14f942adef103a79c16fe89685cea79f54c87b69b5a
+~ -[FRJSObject _setProperty:toValue:sendMessage:] : sha256 19db57c4f7213332da5fd1be2eaf1b5a6e47cd11882d5bf4a23d6b38a2b79fd3 -> 80c2e67377f182d382e8dd1407a9590c061913e7fae202a8b605b0546e3eecee
+~ -[FRJSObject hasProperty:] : sha256 5a6dcae46f32218cab68094a6cb51b6f083e890c41aa002a0adfeeebd74f8781 -> 5c420c847d0ad636c0095c89092bc0906c4abaf0816bffd81a781c43deace5d6
+~ -[FRJSObject addFunction:] : sha256 1fd34272a3a2efd0aab8ab57b3e46803ad571053ef700dd66c8dad0df7c4c38d -> 27fe71ed6832795b4c1eb2a7e97a59f0d9933b31abc35b3e63f5c309c91bd324
+~ -[FRJSObject addFunctions:] : 256 -> 252
+~ -[FRJSObject _addFunction:sendMessage:] : sha256 410cf5f33b727c0a15ca20233791fe8e221e8903a4599113b778651f650a7117 -> 23a93dff74cabe919b03388f0654736eda3473248cb87f39f87ce6abfcc25cdc
+~ __JSValueToNSObject : sha256 8ab7e128c4f3190940cb1c9e09c6aa2c413c252ad6b699a286bd69a0b60d8a86 -> df90cef561cbf4381925a776d8d195b2987888c9f765b9323999736eb52ad5a8
+~ __NSObjectToJSValue : 992 -> 988
+~ -[FRJSObject delegate] : sha256 f48fb9ff4015eac4f57b9e9e2b52fee4be308024f6a4dd1fc568480fb58584d0 -> 5d3d287c8b01aa5d2c74666bd7f7cba6ae35cf17b075e45729f16a13182f1b6b
+~ -[FRJSObject setDelegate:] : sha256 efecd12684ace670f5041048907da9d52eb8ac074fb6e772eefb616c71103224 -> 810adc86b5239c940281c3ca58e78a469703c2bf533ad3e7cc9447f205c43b99
+~ -[FRJSObject setJsObjects:] : sha256 14c7f94e3a41a1d198a6209b43da26ca9eb65a245806fe5c19cba534cade4126 -> b19119290e4009fac3539190b1b7035e971fd997d050f5b8a4071a850dceee78
+~ -[FRJSObject setProperties:] : sha256 c8c16a7979918fff829963252a5f0e69451f8030a4ab6ee463a0339e762947d7 -> a00473dff2f16836adf8bbfa53ba006cecab0ac3cf28a001c741e339cc7227f5
+~ -[FRJSObject setRegisteredProperties:] : sha256 a22f9bcf5952a9650de15ff5c7d961bdf35575e2ca590e78493657aab29189ae -> 94385aa86fc236b8b4924133fe0b932d726882b6b0c48ce31e86d71fc98f16ea
+~ -[FRJSObject setRegisteredFunctions:] : sha256 0eceaeebb4f4f1a8fea8e5c7bab6a075121b6c8d0f5804933479266c1e76fe6b -> 8420ae3752f87643c4348f141bfd3e76669cb3270128af1fc0f4a78e8ff87131
+~ -[FRJSObject messagingDelegate] : sha256 41f37c01bded6d96c9666a4575c7fb7584c1c89c2fb1ebc886d90cd10247c70e -> 2805b946773423d659a5d25f4cc8d0b601fa0219c5547786910136b3e8f70609
+~ -[FRJSObject .cxx_destruct] : sha256 e88224e87761a9981d2d70d15d04d2022065436ecd9631c8cb71ac81dcf0896e -> 29382331a4e01431c3750601c223b3e2a17ef0f3ade8f2789d97f17f65e5d435
+~ -[NSDictionary(FRJSObjectAdditions) protect] : sha256 3e1ea7be89a0ef2d47c82149ee26a41a6759e8b24a76a2450333290f83c523a4 -> a7c5456f480ceab282572f5e4eb307a7249b663de974361cb0c72f902cc4835e
+~ -[NSDictionary(FRJSObjectAdditions) unprotect] : sha256 9b9a32ff5cf536b18a53bf82bb35ee5a526fa3548b4970c07288bf47793b0b7a -> 736cb07a694c47c3ebb58dcaafaa7d13d91dd403e39a93939448b5b71f1c8034
+~ -[NSDictionary(FRJSObjectAdditions) setMessagingDelegate:] : sha256 c593635f7d93c404b3492e33f04c1ccd6ffbc22ee8a68f8d726a0c1421d90ab3 -> ff563eafac552414f108cbddf1dda40c4f1bbc20f6861bcb5acd84b8ef639d2e
+~ -[NSArray(FRJSObjectAdditions) protect] : sha256 a5ea754b964a6ac35b13de1ff4d9283cdb20af0f410cb1688bcdd0a3462d36b7 -> 6ad5cfd5194d7323f8f0f54cdd4efe16bb85cf3a4ecb8220ab4880a03ea02040
+~ -[NSArray(FRJSObjectAdditions) unprotect] : sha256 3f02639a9bb8ade04266336cdf975ee0531fdd9bd27d1200b3a7f389ef7b7eae -> 9622f9d2bac182579e83dced11d570ae31589dca9ba5c8a32e130f4ddac9d06a
+~ -[NSArray(FRJSObjectAdditions) setProtected:] : 388 -> 384
+~ -[NSArray(FRJSObjectAdditions) setMessagingDelegate:] : 404 -> 400
+~ __DOMElementToNSObject : 832 -> 828
+~ __callFunction : sha256 eefca7c88acba39f8d1843e8bd745a95b195449d44cb7dbe2f53de3b4992c6a2 -> 2b1819582827242f322b807a30921cb019a1b635dbe64eecec84e0fea055670a
+~ _OUTLINED_FUNCTION_1 : sha256 1a9ce6bf4f987f6e4327b3bf08625e73e83904e4b849db25ea409092824a78fd -> ffeb15cdee1de58bb25eaf8aa26ca18846c96d12970a664a3070fa09bd2d5e42
+~ _OUTLINED_FUNCTION_2 : sha256 9e10d74e08f7dfa453d26f0ece6a8e34382715b3e2159d48f557dc8f34501bcb -> fe781bd1ebc07a6fc28c0f0d66acd564e2a74244400eff116c50137ed749d992
+~ _FRJSLogObject : sha256 29432c0f4b6c40537d1f929facc404040f57979006cdb8fad50037bf417b9500 -> 697b09ae4a1a9ed0ae01324d5d47d8539e0b962c9168ea1e06393967fc3f032a
+~ ___FRJSLogObject_block_invoke : sha256 59b5b0c4bafc09e873179cb2cfbe9bcab640234f63b375e988ed3cf70121097f -> f1c1bcd47029ab2deb32dd91ee63e36f49ce8153776e168b795fa4534321c28a
+~ +[FRJSFunction addFunctionToGlobalCache:].cold.1 : sha256 8856ecbe111de559dd05963876d970d726a414e33497bf4f9eb9a169cac7b571 -> ed8a5a4585f2c3e4dfa5802bbdf2be645357816f3bcdd73d3d5ca86e6eaecca4
+~ -[FRJSFunction callWithArguments:].cold.1 : sha256 41653133c423b19ef399f885cfba17ef061368986f22ecf560fe48bb41c35cb1 -> ab70323fc0bb998e5e7fbab963b05886cbf0c9b83514424b4b320cd95dc59f3d
+~ -[FRBundleInterface initWithBundle:userData:].cold.1 : sha256 4862e2bea9a0007cb71c64a7ff74de05f673ac27ec3b54985a765d2589446684 -> cfb7a8851c04f678da0a0fecfd10b139160f3f5d1c04a235751d2d9fbb8454b1
+~ -[FRBundleInterface initWithBundle:userData:].cold.2 : sha256 c3311b3c1166463754845d6d5129aad577d317b955da0528831762a11da73fec -> a4009b0dbb312054bf9b7a85472d79789be3da840952d4b7fba642f4cad34b26
+~ -[FRBundleInterface initWithBundle:userData:].cold.3 : sha256 a9b6b2c777e7bcefc091d4f6b00900658b4a011b189644fba546ea21ef8d5512 -> 8bc9c47957fd08a73c18e8f64396d4f868bf8b45155d6b0dca2e23516ff34b82
+~ didReceiveMessage.cold.2 : sha256 bc83ae1ea4e7ea4de776d9fc239bf7c2170733bce07a0f9c8a9fa45e4966f7b0 -> 5a8b65d9b2c2dff851bc39448666d410294a260e63a7826f3f08865a431b329f
+~ -[FRBundleInterface sendSynchronousMessage:messageBody:].cold.1 : sha256 94ab3c77c16c89ca8074bafacdcdd83136b4deabf86dcd534091c27add5913a9 -> 0a99697dd635d52353e89e2b444d626e734e90ec93079a01807a7c8373bd5e1c
+~ __56-[FRBundleInterface sendSynchronousMessage:messageBody:]_block_invoke.103.cold.1 : sha256 8dd81a41b4ed5e2ab429ed479847e3072b766c0cda119bce6f7f1eab10b75ec4 -> b3dc600162cd73878b8766afa81614243449625c621520e4a52213499dbd8380
+~ -[FRBundleInterface object:callFunction:withArguments:].cold.1 : sha256 441a338304e72c97097d32cf35cc581a14f3cde3b10a6de9c4422ea44450035b -> 1322a131c2c33f40c41b724a39c9f6131a6d1b80c7c8b40672cfcc3c99395a29
+~ -[FRBundleInterface object:callFunction:withArguments:].cold.2 : sha256 81a2d42624b9cdff189f02d8ecfd7179e1dd0ee410d2509d74cd31527aaec895 -> 574d8d68e76afee4a27ba4cc8cd2d1d414997864ddde089d8dbb56fc08b2425b
+~ getProperty.cold.1 : sha256 aa2757e106c8ef185c6c693b922483f506b55c9830aaf43f7b1b678f13e718b7 -> b6372dcccf258504cf345897a24d7b8760288d76868eb221fc548031a8c93d6f
+~ setProperty.cold.1 : sha256 8d89693db02945101089c777d7206e1b69cd8127f818c98913e267911bf6b151 -> 8af6dfcda72fe1d6ec2197a429f9be25fa737a5345af0125c3fa09eda86e9423
+~ setProperty.cold.2 : sha256 e12852450a753f73656b953d7082fcbed8c69b019ed8c66f8e960af15b8722f9 -> 98bf4d8614f4b70f5e3ecf3e6c4d1ab473a9d86ecfd29e049a095c2b28d17a05
+~ FRJSLogObject.cold.1 : sha256 1d34dbb1b0af015ff2c9a1297276f790037b3b333ed7859d1bc5be9740815bd4 -> f59e10506a3bc36410b7d66fa2e382ede10b456f5d68298bc019670b58d8440e
+
+```

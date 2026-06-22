@@ -1,0 +1,299 @@
+## InternationalSupport
+
+> `/System/Library/PrivateFrameworks/InternationalSupport.framework/Versions/A/InternationalSupport`
+
+```diff
+
+-121.0.0.0.0
+-  __TEXT.__text: 0x8ca8 sha256:61257bde210d93de68002abe5992109b94853d9676176cdf975135f084fa9b7e
+-  __TEXT.__objc_methlist: 0x59c sha256:1bf7e14a4c050de4375ccadc944b63c20fee02dae4d9129cecbdf0cb6e7b8dd5
+-  __TEXT.__const: 0x19a sha256:aefbd633f1dd7230ac98e227b2c13628a8c31ae644cd6747fa593572fda0caf6
+-  __TEXT.__cstring: 0x1fa0 sha256:bfcf14f2976c8df05d357bbb121c61d5af176a1a9b9eedd13ef3639ff6c18473
+-  __TEXT.__ustring: 0x2f9ab8 sha256:a97cac213ca4b806d1c85f58b2500752a114862ac8a0fc6f32ce3dbc3aa97922
++122.0.0.0.0
++  __TEXT.__text: 0x8d2c sha256:b3fd3ca8dbc8a91d42e8c5668bd65c8ad056ec4c042b8443058629646b10cf4f
++  __TEXT.__objc_methlist: 0x59c sha256:2000721804f53affb7cec896e95c4a4beb532dfd82f53329b4bc347fa93264c5
++  __TEXT.__const: 0x19a sha256:8700a82f808c5dd9c42676f07b4d66678ebf717a8d93f35e422dd6eca1a69711
++  __TEXT.__cstring: 0x2021 sha256:07b4b967104417fd75e105963ae3ccea019d0884ba8095b884d34a1a29b0aafa
++  __TEXT.__ustring: 0x2f9a5c sha256:94acfd45add9eb4e83bdce7adbd8b25d3d03524f51228ae6c8382b8c6b7f75f9
+   __TEXT.__oslogstring: 0x3fc sha256:60c24337a0aab4537537b1ac1420f85f8e6ba58a5a48eb6761c2ab2ed9c64c7c
+-  __TEXT.__swift5_typeref: 0x29 sha256:992b1e9f2bd2df77b25bd3f9b580cd6b07322b8ed33cca501584bd7e054a570c
+-  __TEXT.__constg_swiftt: 0x2c sha256:518eb18c00e0abf25395155388eb8b3b2e025892df66898a263c8cbc90c704b3
+-  __TEXT.__swift5_builtin: 0x14 sha256:78f0d3a7612752689e9adbd6195177e6da77e7ff055e0734e40048e8a3b9a364
++  __TEXT.__swift5_typeref: 0x29 sha256:a1cc3af23be9980bcb1b03258c57b88ef3a2e8f7cf2e1898656e617d5f834cf8
++  __TEXT.__constg_swiftt: 0x2c sha256:6e5d7934411e0139fa15ef2255d6910fd507bb9c0ed62c4ddefb7ea8068c282f
++  __TEXT.__swift5_builtin: 0x14 sha256:7a7b91e5128c331053d9a1373ab96ff63c1457dbfb771b8b4b87246ba3cf3a50
+   __TEXT.__swift5_reflstr: 0x12 sha256:76574f910dd6eb9927d04f9134fe28de3045da0c95add74ff6884ce16fd7aaba
+-  __TEXT.__swift5_fieldmd: 0x1c sha256:9974623a76ddcd226ff83219efe3c9ad0aa7a33d85eb99d729326d6ffea2e450
+-  __TEXT.__swift5_assocty: 0x18 sha256:84ec4fe0066c29ff1a55d6c8313a59e2acd43a70d25c1d70f2ab1cdc71c74a10
+-  __TEXT.__swift5_proto: 0xc sha256:bd51dfcb7346d476d72f217bb05894dd666dfa1f922f1fd957aff48a2aeac77f
++  __TEXT.__swift5_fieldmd: 0x1c sha256:a92d01dbf52f33c1e960da1021a98e06820c5554447fd73d47eba0a7cc37776b
++  __TEXT.__swift5_assocty: 0x18 sha256:f2def672014c885f9473d3950768fdfb25d0b760c9a95d6e716fe6f3b69e4c4d
++  __TEXT.__swift5_proto: 0xc sha256:a8a4cf924c5cdc1425ce1d2d32299f283dbd963e0f6673044bd5194501955637
+   __TEXT.__swift5_types: 0x4 sha256:89a0c13e25d82b47262267b8d29e81b65518c03f1b240eba820097c03c12d982
+-  __TEXT.__unwind_info: 0x280 sha256:8f9bbd2d7b849313015ec5ec45adc2d85372761afd176d8217c4b69d73a4e722
++  __TEXT.__unwind_info: 0x280 sha256:fb01bc0bb02545e9a44efc6ddfc1b7ae522aa5709fca6d122303f095d2f95c6d
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x120 sha256:c6a354fc9f66db40d8e2e9ac33c7d9c38df32d24b3cd7ad5a4e7f7c18a6018d9
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:beaeeb0b0644bcff2b290d3dfde8ff75f8f2ca95b0f2018d6c53a2c2b0728249
+-  __DATA_CONST.__objc_catlist: 0x18 sha256:b6df5daf9d9574f75c0a26410b2be1618018501515dd5a7e626835700d888d1b
++  __DATA_CONST.__const: 0x118 sha256:93ab44f73a41ce9b34cc04df38e6fc5da9f884a62f7bed652d534fef74cb3cbc
++  __DATA_CONST.__objc_classlist: 0x18 sha256:fc3e66f4b5a5773a18597f6d6cf394e95ffe3388d75916d4a3a71216f3d8bdb8
++  __DATA_CONST.__objc_catlist: 0x18 sha256:d8538e90d89ce9d752eee3d6b80dce146feee198fdfcc83adbda4deeb0bf35db
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x5f8 sha256:43e966dccd71f7f5e32f0db3d84a01bfb2752831a334d2714be45f0460198161
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:5d0491ecdb0a205411141fcbd6be7bbae6708c007c942ae9b7cbf3b820ad6092
+-  __DATA_CONST.__objc_arraydata: 0x1aa2a8 sha256:7d7a69f36d404438bde944c33612cabf8fc1bcdafb30628bc2caa2fa61d46ab9
++  __DATA_CONST.__objc_selrefs: 0x5f8 sha256:5d562a8a47af8edc6cc6f1209b5e27ae8bb8021c21425db9b3075219f4b8c4c9
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:f1794adb5afe8a78fdee3ff83d88a2220a77f9c29da01eb9c3abaa2297e5a344
++  __DATA_CONST.__objc_arraydata: 0x1a9fa8 sha256:6c3bddf38b7212c239a368610cc0e1c1f64c4c45ad9cee0de53a77b971f812c4
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x268 sha256:e4a4eb8d3d6116c66ad1d0ab01fed4677eef1ec2310df2f384060157ce4ded64
+-  __AUTH_CONST.__cfstring: 0x68f600 sha256:576b4ed18b268c61b9eec13ae0c750a0caf49979afc2eb271d3c230834f693b7
+-  __AUTH_CONST.__objc_const: 0x5f8 sha256:88289fca79ac0da3eb2dd0b9b59c41177cbbb81d7496bbcb60c6fde4d03e6896
+-  __AUTH_CONST.__objc_dictobj: 0x2cb0 sha256:0456e74141332f1a1708eef638491db6558bb125a36cf82b317f164efd4bc455
+-  __AUTH_CONST.__objc_arrayobj: 0x1d28 sha256:692df6dac22f3b6feac4f31c80716fd109c7813c2fffed185969660957c57b12
+-  __AUTH_CONST.__objc_doubleobj: 0x350 sha256:109936fc36d2d462ec1de3d4a2381b853cb28a5440907b9781b0ddc7c3bbc41d
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:9e57c4b25a47ee70a1ba36771903781e3488be1ff774c108e596d1176d4d613f
++  __AUTH_CONST.__const: 0x268 sha256:fecd6b0e63d23513d8e4709cc715c4a96ea6ff98ce13a6ded6050533263aed60
++  __AUTH_CONST.__cfstring: 0x68f8a0 sha256:dbce49255febe6ff7edf038b4537d9933074b40b30f939f7efe71cec896ddb62
++  __AUTH_CONST.__objc_const: 0x5f8 sha256:0f4caaeba1e109154c2db88ed3ca61afb713f1f8f45050eff098118274041bcc
++  __AUTH_CONST.__objc_dictobj: 0x2b70 sha256:77cfb7923c75af0def96f7c11e674109b602d3fdaef36f140a640bcf906c52c3
++  __AUTH_CONST.__objc_arrayobj: 0x1d10 sha256:bd711caae5cee992186ee34e37912eb6724590063a7db7798cae2a4f067c7bdd
++  __AUTH_CONST.__objc_doubleobj: 0x350 sha256:7f53acff10940f2ebcf586dbaa894045c7e1d38b07a2e5225e34c1f6a9394e70
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:637fd4e9b542ed02d65493657bacddeb1ab1b237adc3c52ea68b677d6ae4257d
+   __AUTH_CONST.__auth_got: 0x258 sha256:bd50e12c55dda3ee443c1cb6d71c7bcf6351c4ec96f7bc8d6adec015d1192eea
+-  __AUTH.__objc_data: 0xa0 sha256:27b44903fe2d22afbb83dad8d94bed49900392bf2268aef301785695043d0d8c
++  __AUTH.__objc_data: 0xa0 sha256:aba9fdeb2dd07ce2889480e7c99df5064e709fca6c2965c95d41ac146759dfc8
+   __DATA.__objc_ivar: 0x44 sha256:da9b62e260a037e8040d1816f0080b434eb129e85d802527a4cfc7b0514f7a0d
+   __DATA.__data: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   __DATA.__bss: 0x1f0 sha256:882993b55cc0c527f0a6059b69b3faf4ef3ccb9cecd3d8847ca0e49a1444debe
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:671dc130981bb62525689651ec27ed573edc0ea3fb0428d7247aa5b916031db7
++  __DATA_DIRTY.__objc_data: 0x50 sha256:8b4e053af6160ff8e3be4c5400dd8976d6b34edbb355898b5bd29cbf5ccc632e
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 1211A9A7-5B53-3DCC-AFD9-F0B035FA5BF0
++  UUID: E1C9E3AF-1419-3164-84E7-A0C9D383219F
+   Functions: 183
+-  Symbols:   514
+-  CStrings:  216192
++  Symbols:   513
++  CStrings:  216234
+ 
+Symbols:
++ _KeyboardLanguages
+- _KeyboardLanguages_iOS
+- _KeyboardLanguages_macOS
+Functions:
+~ -[NSBundle(InternationalSupportExtensions) localizedStringInDeviceLanguageForKey:] : sha256 636cbbe1a216c0b6f325b311dfab763d25482545e389faf71444f8defcf2adf2 -> 7193cdbd28f2e556e6aa4a857d153c71e14ecf3a08dc6998371533f5501755f9
+~ +[NSLocale(InternationalSupportExtensions) _globalPreferredLanguages] : sha256 f861ff094a270960bf7dbcc59389d66ccfe98bd512c8eb3b8f0090a6a39d2aa3 -> 988a464ae0b315cc0b2f0563c91e228256f36a4dfdb058090cf217aac011c9c3
+~ ___82-[NSBundle(InternationalSupportExtensions) localizedStringInDeviceLanguageForKey:]_block_invoke : sha256 02a949a20ab9ba1196d13d45e9e86dd084996417382fad88212a6914a8e6c087 -> fafa6316181385c6e8792902ae56e0b5351f212dd042322135e62ef377ff4507
+~ +[ISUtilities bundle] : sha256 a4a498cc472d40348e3c7c4f7f4a834e58f78d92360c4d5f5527e732fc7ba6ea -> 395d19b55f46f455bb8d9b36fa1541e4a95ca0310fcc256ab4c7091dd9c8799a
+~ _ISEnumerateKnownUrduSequencesInString : sha256 ac7548ce1f389dc7d33d2705cf2e12ba5e76e0686b512e7dca64daaf9086a770 -> 19bda2a70f86cd866983e45eef99a7a05c0c1851793ce0024758502358038d89
+~ ___ISEnumerateKnownUrduSequencesInString_block_invoke : sha256 b555f414b9bbfbd6f122ab8e859413ab09a46ff6e913a8d1bd336a52137c0be8 -> 75db69d9153dea3c4f95c05a3d7eb11f3a56f0fb42797cd188995fc72ca61ce4
+~ ___copy_helper_block_e8_32s40b : sha256 df8f3eb4ec7bb7da72abb8ef6dad6c2ea71c5e225470b63a6a18a5752ddbdf80 -> d889e1f5fed1b9f8d692b7e3b0f61f8670e270857c3b37304be5f09e6aba2c76
+~ ___destroy_helper_block_e8_32s40s : sha256 3d44e3e113d280972862107eb35cf1d8092ccaf7660b44bfe79a04d1be38680b -> aecc88709531ecf1a351e6ee83d69bff5c84b6b8266c40171f0fd6fc144434fe
+~ ___GetKnownUrduWordsSet_block_invoke : sha256 6e973118a09167011e6e707ed7d0acb3adb307824448cd0a2f0f28d6da66548d -> 2e88dadf911adbb4c88ef9bcc7709f89eda856d3e512e4628c5d78dff6297b1e
+~ +[NSLocale(InternationalSupportExtensions) deviceLanguage] : sha256 496818acd9cc4e8305ed2d4aa0b61f481d4f3b19082729d625c9f7d74b05f537 -> f199be061d8657d94ddb5356c1ce703be1c03d13fdea7826ec240ce574b016d0
+~ +[NSLocale(InternationalSupportExtensions) baseSystemLanguages] : sha256 bdca0fb42f4e9187c5c0e61aee1510981305e83c95d197f8443c0d5d21d6878a -> b61d57cb4a710a56a3a6d2b996a0393e7fee613407a8a9ffe1c24c9ffad4e898
+~ ___63+[NSLocale(InternationalSupportExtensions) baseSystemLanguages]_block_invoke : 360 -> 356
+~ +[NSLocale(InternationalSupportExtensions) _deviceLanguages] : sha256 b99a8684c3ddc719e54668541e16e63f6bf829610606299543b42e8cdcc1e486 -> 58323c4e7254cdd397fea581163333c2686173cb931b713af04f728066360cf8
+~ ___60+[NSLocale(InternationalSupportExtensions) _deviceLanguages]_block_invoke : 424 -> 420
+~ +[NSLocale(InternationalSupportExtensions) supportedLanguages] : sha256 6d5648505e89ea3e6f080b3c7e542bd1a427d2a2f4cba3d5c244906f9bc3dc93 -> 4f0de2b52ae5b411f97c2e67a9e2a6e93b9016c5e6fd37396dcbb18036fdab0d
+~ +[NSLocale(InternationalSupportExtensions) exemplarForLanguage:] : sha256 f4c62c6027ef4d14e79d7a05c9b25f69ff022fd0fbaea5541872de25e5aef687 -> f3bbb097b33af12f1d60dd354b08b46c4af6e381e49608536fd5a194d09d0623
+~ +[NSLocale(InternationalSupportExtensions) languagesForRegion:subdivision:withThreshold:filter:] : sha256 10d4b520e6b6d16f13d13f4227683d1d34b69e9f9d815baefea77cf944da8e07 -> 6a72fd79835e5c1b54fd8f0c55f98404a3e9c0ac5487f2841d680238a159292b
+~ +[NSLocale(InternationalSupportExtensions) regionsForLanguage:withThreshold:] : 504 -> 512
+~ +[NSLocale(InternationalSupportExtensions) supportedRegions] : sha256 914cc62eaf9ed1eb5e76d2a893d65400e69b34bc8b0c5c471b6652e167576e57 -> e31b63fc4171b7504478dfd147e509503e138dadf278a603e07061309cc137be
+~ ___60+[NSLocale(InternationalSupportExtensions) supportedRegions]_block_invoke : sha256 2023c6d6633ec170eb79e55d1ec7271eff23aaaecea651f7826b68d521b46626 -> b41e403f4399fd30c5805ce2fa8d2e3225d73f4ae350acd19da7e1e0e1dcf8f0
+~ +[NSLocale(InternationalSupportExtensions) exemplarRegionForLanguage:] : sha256 fcb361fc58fdd0ca2d645a81514ccc898494b909933846633eee9f8115eaa97b -> 1046023f6da45b18d05891725d58a9cb4d085e575aeba7e6fd36fc37daf3ea29
+~ +[NSLocale(InternationalSupportExtensions) availableContinents] : sha256 7e49df0226a80f0eca529268038e1c4c24bc66b021a2857f8e6a531fb661f4bf -> 5246a43219f8e7bf9e1ef46af849270926715bb2457d10ceb4d0dbf3cb11acbb
+~ +[NSLocale(InternationalSupportExtensions) _availableRegionsOfType:] : sha256 86ed3b4ca07da994f93ff710c9500e235cbf07a215344c9f6c7d0d289bad1039 -> 81a8b8f5e2e7cd16361d421863800dd3aa38afd44efb12d5f62daadbc1e736b7
+~ +[NSLocale(InternationalSupportExtensions) containingContinentOfRegion:] : sha256 af9fe5211c6be1f56bd77814427ceb31d00924b10da2e03d8325d6d84243da8f -> 7efe329df3277389578d3ac943878b5867633a70f47249aaa0728f172957d338
+~ +[NSLocale(InternationalSupportExtensions) _containingRegionOfType:forRegion:] : sha256 f51eed2fced3224f1fafbd1c67dd3b2d22fb3ab63a93da7ae6e788e417626f2e -> e21fd1563086c989a411e304877e13e19e449319d975087a6ebdbdb3eac71a31
+~ +[NSLocale(InternationalSupportExtensions) containingRegionOfRegion:] : sha256 0c7c3995c320a5daa00d7c686515a13844c94ff8dbb44136ad0ab60517635d52 -> 1fb5c2ab4aa48653bb2f11e4c92c5e4b3ff5eca1c7c6956e5c605af62230eacc
+~ +[NSLocale(InternationalSupportExtensions) baseLanguageFromLanguage:] : sha256 7a1c610d06847d4bd0f793027b1f683fd2d49eaea5734936a9c989a514aee7c8 -> 8b7c662bb0b0d915e1090dd1e6d1f4e30eabdbc69931ddfd69f2e626aab957bd
+~ +[NSLocale(InternationalSupportExtensions) scriptCodeFromLanguage:] : sha256 00892e42eacd35f9413b2d2fa3bfee1990f08ec93da5c67445cbb5104c59cec0 -> 4e2dfbe3978d8449b31b8bef5dfeb58d0c88d1c1e2279f5e6c82bc66a9cac89d
+~ +[NSLocale(InternationalSupportExtensions) languageFromLanguage:byReplacingRegion:] : sha256 7a525eccf3dcf30a5d004059c629701e553d7c171b76f5b43362f44f4dc89827 -> 523964cf8bc1ce7ad92901c629937bea16a5c1fc0c3d1379bc0becc6e33ec703
+~ +[NSLocale(InternationalSupportExtensions) minimizedLanguagesFromLanguages:] : sha256 9d9639feb6cd3b796c55676a5f1a5c94d0fadf04c8b36e2d285804bcb0fa7429 -> 2841267d4c70a76b86da7ed7c621d33acc122a3f2ce6f2e0ac13168eae21c7cc
+~ -[NSLocale(InternationalSupportExtensions) localizedStringForLanguage:context:] : sha256 c58c4f0da4ace0a13d51c43cf82e3713f9d58ffded4be6237ef8b439d81d2dca -> ae6bdcb0ff6c3d82d2ad9bfd4710817f62de660d37d82f4c42c692203e4eb10b
+~ -[NSLocale(InternationalSupportExtensions) localizedStringForLanguage:context:length:] : sha256 23a5dccfce5cdfae31cf3a36c48f448b9a9a0c17024c284096f3c1d43b956ff4 -> 07aaf4bbdb2a59d99e327d025bd407e3b992698894875be9ac73b5a426bd9d86
+~ +[NSLocale(InternationalSupportExtensions) _displayNameForLanguage:displayLanguage:context:length:] : sha256 89eaf3da1763f17021b557ac29182492edc3275aec4167a2be14e501ba1c41ab -> 734f737d6d0f6339d7887a901dabf65c2ad07efc63a69df238378167e2c6d1b3
+~ -[NSLocale(InternationalSupportExtensions) localizedStringForRegion:context:short:] : sha256 6c0ef4886414dc94a8ffee80bf0a3915f7962856442b521e9e982ee763f16b8b -> 1886ad161cc01bcfcd2037090d0dbe6efc2b75da30dc65b5946be515bd82bc20
+~ +[NSLocale(InternationalSupportExtensions) _displayNameForRegion:displayLanguage:context:short:] : sha256 8c219eddab3f110e648af75c8cd4593b58ba50d74eef7dfe2c612d4a86b861a5 -> 58eb34dfd83b54c3a61c04ba73990116de57c12ea04046871f655660db82cfff
+~ +[NSLocale(InternationalSupportExtensions) matchedLanguagesFromAvailableLanguages:forPreferredLanguages:] : 692 -> 688
+~ +[NSLocale(InternationalSupportExtensions) relatedLanguagesForLanguage:] : 812 -> 808
+~ ___72+[NSLocale(InternationalSupportExtensions) relatedLanguagesForLanguage:]_block_invoke : sha256 1d56310680be148d1999bc74fb221bc82c2b754238e999b7a6632a51774cd92f -> f0aabb3a8598d56ac988dc3b621ca6341c841db9ed8fb59e5c62f29598a25fa4
+~ +[NSLocale(InternationalSupportExtensions) languagesByAddingRelatedLanguagesToLanguages:] : 772 -> 768
+~ +[NSLocale(InternationalSupportExtensions) availableSpokenLanguages] : sha256 b6cc827d5a714d755def915c70ae15a76bba35c93aa1cb79a47de9c900902662 -> 8f4ad991a1d061525d2bea08fdcf2e3ab670930fad3a1e838ca697260f75e497
+~ ___68+[NSLocale(InternationalSupportExtensions) availableSpokenLanguages]_block_invoke : 452 -> 448
+~ +[NSLocale(InternationalSupportExtensions) spokenLanguagesForLanguage:] : sha256 c76d4b561dc2e9ec7863a664b495a337a07b04238e0ccd3bcce0d1712108d4ad -> a5440d0b5f3a6d28d4c80e50f9afc9a68eac2f1806867e1675e240126745838d
+~ +[NSLocale(InternationalSupportExtensions) spokenLanguagesForLanguages:includeLanguagesForRegion:] : 920 -> 912
+~ -[NSLocale(InternationalSupportExtensions) isEquivalentTo:] : sha256 6cdf54fe59af898301901de760f85bd44be0e19da205a9daa64ea590a9656a1c -> 22615c1ac84e7d2f71493be49544207c655801cadfaaab9197077dcde4bd5026
+~ -[NSLocale(InternationalSupportExtensions) numberingSystem] : sha256 af28397e84f33c91be530ff8353daf04b98fcfb1a2aa7cc43c1426c6ffaab2d5 -> e6cff545b02bc5fa2fd280e305737162dcad3800cc79584215a57aae5ae7b582
+~ -[NSLocale(InternationalSupportExtensions) availableNumberingSystems] : 728 -> 724
+~ -[NSLocale(InternationalSupportExtensions) localizedStringForNumberingSystem:short:] : sha256 72921e5a94fbb5731d9560eff12984a74c42203077a189cf5659d07f4ea723ce -> 4ac45b3dcbd35ff8aae7ba370ee373ed0982bf3c381a96be7fee6533254246aa
+~ -[NSLocale(InternationalSupportExtensions) countryCodeTopLevelDomainsUsingPunycode:] : 692 -> 688
+~ -[NSLocale(InternationalSupportExtensions) positionOfDayPeriodInFormattedTime] : sha256 243c392d10ae305cf26f9184e44f99c38d265fd36e0a38f116cd1ecae1bcd740 -> 7b62d121f1cf7e6f17124d0dd491d4982cb70bba5ec41ab3bd70f71eb4e3fa39
+~ +[NSLocale(InternationalSupportExtensions) abbreviationsForLanguages:minimizeVariants:] : 1196 -> 1184
+~ +[NSLocale(InternationalSupportExtensions) displayNameForLanguage:displayLanguage:context:] : sha256 351b124cc8a2001920bd5718bed2fb06dbc306af1864d9200449032dbfe102ec -> f7893eeb1c5c973341f9ad867458ed02912434624b29dd935b335c74410f186f
+~ -[NSLocale(InternationalSupportExtensions) displayNameForLanguage:displayLanguage:context:] : sha256 2f5db84d2ea37c7a4edc32a419495b28dba224fa1bcf1e0fd0d96e6a1725eef7 -> 2aee2ba9bd8c0275f02a8b6a7cf38929a20ba03737c4f692299fec123e8729d8
+~ +[NSLocale(InternationalSupportExtensions) displayNameForRegion:displayLanguage:context:short:] : sha256 79bc602fc1d8c029418e1841cf3010413dccd064382f85f74840595639d009ab -> 9a274fb0ab1908ed6efbe16e1f1fe58cc5603ebb28914403caaaa3fb0d5534ef
+~ -[NSLocale(InternationalSupportExtensions) displayNameForRegion:displayLanguage:context:short:] : sha256 f9ab2cf527f65519100e7d0ed87fca3834b4742921dd357195e0519cea243386 -> c5ae3e90888d2ac03086e87ab0ad741e7d3beae6c18e785032c642d59df5ae34
+~ +[NSLocale(InternationalSupportExtensions) isOnCalciumDevice] : sha256 39f12146aa1cd712e6b5094939dbd7ca177882bf65f75cafb1c8c09887f927ea -> a286ca2abec6a8bed3b986d47950469e555aabc6088b2b37f79c84be90f209c4
+~ +[NSLocale(InternationalSupportExtensions) _displayNameForNormalizedLanguage:context:displayLanguage:length:] : sha256 99d4ae0ed187d47ad5ec87887ff02347519e490593f9bdfed8f955bc8afd6d78 -> a66078b40e1c91c98cc321e907b373214915f2aed2d40d50cf9eae383b895682
+~ +[NSLocale(InternationalSupportExtensions) _displayNameForNormalizedLanguage:context:displayLanguage:length:isCalcium:] : sha256 0337c03114137679cde47ae5499d16cc6f85547fe2f239c0dc01b667d7ddb609 -> 57a6050717fba65efaf210eca32ab84cc71415b70def23c8a7ef91f67d15d7e7
+~ +[NSLocale(InternationalSupportExtensions) _addLikelySubtagsForLocaleIdentifier:] : sha256 25a0d602c69c26d7b97a0c8bf5f74f7b0919c6aaf295103f2caa8d0a0f293a87 -> b3472c2f5772a78ae925e5375e6b7b98319c6f9ef6d19ec9bcdafad4688ac21c
+~ +[NSLocale(InternationalSupportExtensions) _minimizeSubtagsForLocaleIdentifier:] : sha256 fff1af177eeaa4759df844d083a0df16841f243254c63da423473da4ebb4e8b6 -> ca4f8ca22688670b0073731bc90e93f21176f20b23a896149d1d590bb6e496a6
+~ +[NSLocale(InternationalSupportExtensions) _normalizedLanguageIdentifierFromString:] : sha256 67cf6a6de5f6dedd7f66b6534ad0f8687422629bce107e8203b77d6cf68e05f9 -> 3a11edbc366ec71baeff9ed3af79df319679c926f9e48a51c433b7581fcafe90
+~ +[NSLocale(InternationalSupportExtensions) _ICUdisplayNameForLanguage:capitalization:] : sha256 8aaf202bd4379a48403c72dbd62720eef5761c1283372935d5310cd2f7208fdb -> bae9f81b44742e6480500e38e6de5e0bb77fa6669c9321c44ac0bb924aa72bcb
+~ +[NSLocale(InternationalSupportExtensions) _languagesToExemplarStrings] : sha256 1ea45c6144179459da1bde9cef439c73a15f055359e1f1c6d2d2ebbe65d1ec4f -> 4897723efba0bec897242ca7838cca780f32ea9fcdb328f424f4569d987d317b
+~ +[NSLocale(InternationalSupportExtensions) _languagesForRegion:subdivision:withThreshold:] : 1448 -> 1452
+~ ___90+[NSLocale(InternationalSupportExtensions) _languagesForRegion:subdivision:withThreshold:]_block_invoke : sha256 dd297e0959b8607621b505cbbd66d05c7cc03ddc8048565305129a1175c4693f -> 6817e517a06da76dd3b4829dff5a819e1e938f45fead1891e8f78742e6b76aba
+~ ___90+[NSLocale(InternationalSupportExtensions) _languagesForRegion:subdivision:withThreshold:]_block_invoke_2 : sha256 bca992c394b05710fe47f55dfbababb01ada5b9666e1683ca0d276f7d183ccae -> 5c04bd7f966a1c12149218d16c190aaabe5bd99fdfdd7d74cca1c042d3ad373f
+~ +[NSLocale(InternationalSupportExtensions) _regionLanguageDataForRegionCode:subdivisionCode:] : sha256 6ab9155470910ac42894674017b9c011dedd06f69e06c81b4c956c702aae6277 -> bbc6530956889e2f5ed194e5d9b78cf3338ea003279e61a0a17418de435a67b7
+~ +[NSLocale(InternationalSupportExtensions) _regionLanguageData] : sha256 65e8d16f7fea42ccd099469c4feda4f4da3bfd715de3d607dff0dff46cc82e20 -> ca7f8e9b1bcd0f197f8d61c610fc98ae53386fdf4b62d3203b95f810a347b961
+~ +[NSLocale(InternationalSupportExtensions) _supportedKeyboardLanguages] : sha256 bffc212660b06e918d9a0736513604b2c709573ef8dd784d0b93ab69ed19bcd0 -> 04cb8bee0d9a35dc4eb813d3190bfe8ef3d9ff43128678942ba7b4534772b0da
+~ +[NSLocale(InternationalSupportExtensions) _parentLocaleIdentifierForIdentifier:] : sha256 7e15de52f17ba1b3352e31e65969a2b994bf35fc4be01483fb3ca802b9885895 -> 4dbd2d62de2fb1910616e13c98d26a6e90fa1170ce19680d055bd730ab20c9e6
+~ +[NSLocale(InternationalSupportExtensions) _parentLocaleIdentifiersForIdentifier:] : sha256 b1b6f93eee25df40735c97e8b3e7a494649f21e9148a7cd61a70a85cfad1adfd -> df1e1dde168fa87d75aa8399c2f57bacc13df87dace80ee207f2b8767ef39156
+~ +[NSLocale(InternationalSupportExtensions) _locale:hasCommonParentWith:] : sha256 d14978ea538cbb5a9429a4dd5aa2d790f2b812504bd2d0d20ccb9edc1bb84d47 -> 0061459ec600cf09afe32c48439773ca3361acb7e8e537bb109679e6453c932e
+~ -[ISLanguageCarousel initWithItems:] : sha256 c4ea5e85d2e00290974ecfb24d39e57559a7ee9087c53d94b507a9f8678c177a -> 3c4f07a1887cd8dc3d5ab1f1ecaa9f43dfd300bc321148ae48542935e7f76a9b
+~ -[ISLanguageCarousel initWithItems:regionDetectionCompletionHandler:] : sha256 76b0d49f33c321ae36d4e479b4337a3a5ecccde5a839e67875bf6941718a8810 -> 8390400509ac625b5d4335a65205662c2b072444a7532e13986cab828a5f7e89
+~ -[ISLanguageCarousel dealloc] : sha256 0d53e018e9c3e3a26272e093f3302e3d6afe59328fe3d3c31ca4f5df42b498ae -> 57cdadd15768aaa4130349024b517f167c99c14b4b3a180acd63c4ecf4c8aea4
+~ -[ISLanguageCarousel nextItem] : sha256 bf42924e5b508129e4f85206479add5d25bd5dfee8e0953df368cacdef60e48e -> 066664b900a9b911c2be3f1220aa62bb535d6a53d69508b6363b39ef904769fc
+~ ___Block_byref_object_dispose_ : sha256 acddd87b8e748b6386d9a01bb661a88e16236a38eaf81532e40c73d16f19a693 -> 46de0e511177debdf4090857991b35a5b63e276302c28a8a8ffd1e652ca8593e
+~ ___30-[ISLanguageCarousel nextItem]_block_invoke : sha256 e8787cd32bd8bcde9d06e8de01dfe150322232278745cb7984f5349dce724c5d -> 49d03c43ab90ae5ddae03661c5eea0a92e2a6d959b53cf4228094b755b675c5a
+~ ___copy_helper_block_e8_32s40r : sha256 ad12dac5f6ed5a9e0b889c87c47477c41ede48e31dc03c21e2f08ab754674da1 -> 22b9f930e517a98b2e19037729a530f20bec8fff1d054fba91aba23d0ba17a0d
+~ ___destroy_helper_block_e8_32s40r : sha256 73bfd34a7ec291752c9427338c3539481c454d392d9b557d43ef8e1b3f9798d8 -> f45c8cc9942cb49169e2735fbfc6831bc95008241999e258b47b643fe6b89ab3
+~ -[ISLanguageCarousel allItems] : sha256 4d81d442f2b23b550bcd6d61104af211817e067736158260163879d32b5b3c5b -> c4d43ef3a51028e5cab53e1b409dad82ffb8979cd00b76dc26fb3daa0199a7b3
+~ ___30-[ISLanguageCarousel allItems]_block_invoke : sha256 eee4a9fa834aa608e92a5403b1a2b09d3de197547e721447f2416dee47a34102 -> 975d97684bdc555e6b28b39ddaecbba115223558d43d6fb478088c56faac879d
+~ -[ISLanguageCarousel reloadQueue] : sha256 78d40509e83c96d13916005728f38db82074cf6447e28f85fbfa7aa7416f61ce -> d58f903bdca01f9bf0f5124d40739ef1eed0fabd6a0b4c46d3288b9a193ff809
+~ ___33-[ISLanguageCarousel reloadQueue]_block_invoke : sha256 9b8655578c087fa385738ec147716cdbed7f1942139e5fd5737cac3d6122a00b -> 090aec55d930e3125cb8f3f5cc0e70be942f29aaf3492cee22c417c4003dc2d0
+~ ___copy_helper_block_e8_32s : sha256 e473c3a6b50db12d13227918f08cec8769681e930a3d2b0745d358e06109b1c3 -> 449985abd4d163cd486d63035ec2687aef6b7c1d7914c47561c0d7a45c118758
+~ ___destroy_helper_block_e8_32s : sha256 ddb70a5d428fce615da21e8f79a4acdf29d1ccff807b54b06bf4ab0f5445d479 -> 5c23ec1debf30dbe21e786d548cff3145d31151c6027024f9c237c7a66a9e7eb
+~ +[ISLanguageCarousel rankedItemsFromItems:usingSystemLanguages:preferredLanguages:region:] : 1236 -> 1232
+~ ___90+[ISLanguageCarousel rankedItemsFromItems:usingSystemLanguages:preferredLanguages:region:]_block_invoke : sha256 f43293f7d3f4c03707e62761b8cdd664490db71ad9e33163ade7c452d410a7bb -> 40e868ba2ba0c64961ae371f3b622ef2f0171711ba1c74421bcdff31f075f99e
+~ -[ISLanguageCarousel cycle] : sha256 01b2ced9811ba85bdc47a868afe56ad14de476b5a1a404a8b43d3ef1f54df967 -> eff1230e989b1b43c2b19abcbfc681344c8abd5f0f884093b614a824f2b29b8d
+~ -[ISLanguageCarousel setCycle:] : sha256 640591f9cfbf938780543b3ca396faad7330e45170e5dec7abb0ac5a6a82d671 -> b8d81dfad21f5892fca6031d755d956ba96a3bee263ab1680b5378b6e66c1d8e
+~ -[ISLanguageCarousel dispatchQueue] : sha256 4bcfa0d605053677f1f6ce21530a9cc63f151009b738a88c33bacfd562df8a96 -> 0610bad726e665ef3b9fb8b4b4537c938d9cdbc81b6a4512f9135cb719a1d3d6
+~ ___35-[ISLanguageCarousel dispatchQueue]_block_invoke : sha256 2a8aaedf242a3b4b4319825b16e4b57ad6e0b0e1920235092906a453db35b6db -> 08d51ed1d5c7c793e4acd1e26d37d92700f73eb20d975edc29ff27da3c4cd5b7
+~ -[ISLanguageCarousel setDispatchQueue:] : sha256 022ccaa6decc58ae6aab8de216149935fef9567da8cf0c1acac138e64fd808ca -> 3a8d0a43e9e28725ae4f3c2a9dabb60187314022060c882a74b99668a7dae4df
+~ ___39-[ISLanguageCarousel setDispatchQueue:]_block_invoke : sha256 35932caca469a878a88c286bfa66148c2ac4d26c037456b8dd7dd558d27319e5 -> 57c51c040cc9e901c2ef9b6a255a9be5233279361c475aea500984fbcd096808
+~ ___copy_helper_block_e8_32s40s : sha256 bcdf58f4bb491a427fb1adc319d7fda42ab0c26230d8bd1066c48a8e9c0afaac -> 7aa3f9841c71df68a992bdff0287b39ac679708e874c6e4b6331ae71c29bebaf
+~ -[ISLanguageCarousel guessedRegionOverride] : sha256 450b57a2081c696cfb779f9d184c08a6624472104c45c5a43aeeb2e14cf9ddb8 -> 63dba30b28bf6550e4b56bb8de9783f2a7db733e620e1fdac0094d3cb6d96739
+~ ___43-[ISLanguageCarousel guessedRegionOverride]_block_invoke : sha256 e26a1474e7fb3b9598f12409766d866c8db5b22e7c88bb83ec83393805134f80 -> df68040a86736b9407c7ba248f6dbab886bec42b7f58734cf7c8a08206aad703
+~ -[ISLanguageCarousel setGuessedRegionOverride:] : sha256 a8d18a87631edd9ff792351ca73ccd6f7e7ea0b2f34afda195c10963e4c676d8 -> c6e767b2b92753ab2c67fe08c084e7af750dc92343d7a766f4c55a92aef87d4d
+~ ___47-[ISLanguageCarousel setGuessedRegionOverride:]_block_invoke : sha256 83a64a2a1ac3707d5e87fb2bdea941d6d1d049641539eb28048e7aa2ac1d95d9 -> 010939895960965c53f337b44741a5b4edc7217b276109cca8f45e2deab1a964
+~ -[ISLanguageCarousel items] : sha256 f0ab868df312a6ad66997ca44e8d3e83cdba9777dc78e1abfe16913f68bf250e -> 8d8b6ea6f1a654fad209ea300916e4cbb526eb3b6efe6b2ee72fbbe2de18625d
+~ ___27-[ISLanguageCarousel items]_block_invoke : sha256 c41809694212bcf935852f3cb29b1e3badf03293770d1d740c771b45b1701a76 -> c348662c1eb0e680c41a3648e7fd707d43160a4d1c49e3b20e8928c26ed04f48
+~ -[ISLanguageCarousel setItems:] : sha256 928bac0b1508e86a83c47de5b3b34d476da2dce94ac183f7f1fc625b08542c57 -> 8c46d833d94807b7e199f3a92673609dca576a26642a3b5b88d481c055111b20
+~ ___31-[ISLanguageCarousel setItems:]_block_invoke : sha256 060619e980d27c9c978931633edc36e0b2e24480ed7d485aaea66aa485d0b727 -> ee7661d4d70fdcf82d983ee534b1c718c4fde7be286ea5072154e57393c6aadb
+~ -[ISLanguageCarousel mergeDuplicates] : sha256 77315f44f17e6d3efb3ef77c22ab07bb965200b441813197560a292ac96c5fe3 -> e753940ba35c769e6f2155b81d40ab44a7d2d4bd373ed0b98efa02b2a9ce485b
+~ -[ISLanguageCarousel setMergeDuplicates:] : sha256 2d7424e4e784b563503bbe3e4e3c2afab1c61cce8a92faad28db900f261fbcc2 -> 706dc20671e8ae0e74a8a1acabf943d405f4f6d2c01eaa6f586027468af76865
+~ ___41-[ISLanguageCarousel setMergeDuplicates:]_block_invoke : sha256 5720c3a6fa600a2b2513f98c943af9042e7b0f324e726d5d1288da37bf7c78c5 -> f97acba86524cc85ab669d93192783d85843f80ed08dfecf5a016307304a1554
+~ -[ISLanguageCarousel randomize] : sha256 2a4320beee011b61129fb70878eff7882685ba47b6baeace643911ada829b71d -> a476a376493901b7bd9edc8d976dea524c08518dcc72a0f32e901135aa073d04
+~ -[ISLanguageCarousel setRandomize:] : sha256 9ac0cd17fa60474d2e554c87b2659876e88e5d4c718869a835205386e06a732f -> 7fe3e5f98492b32b27ff33fdc5f5527d470579bd62a7440a47d22a3d7590a67b
+~ ___35-[ISLanguageCarousel setRandomize:]_block_invoke : sha256 77478a2024d80e922c0123cc41001c6f497a25e9032ad027348f38f24ddceadf -> fea280f84cfa36c9c3d8a34fe0fa7902cefca80a33f7a2ae101618cf934ccff2
+~ -[ISLanguageCarousel rankingUsesGuessedRegion] : sha256 6eb7da3113516cb9a2f210207afe911f0101f460d3b5e98c962c1f03952186cf -> d2df30f1ffe2495f98468ee20857eb9196670ccb6c7f08086333ac9460f75b71
+~ -[ISLanguageCarousel setRankingUsesGuessedRegion:] : sha256 18dd070b2f60f3f711c5049478b92f392eef157db2d0c79ab3020b129adbb289 -> 1f39a91e7fa2a720fd14af8ad00c18580df855afd6c254f1c1daebb59b96514a
+~ ___50-[ISLanguageCarousel setRankingUsesGuessedRegion:]_block_invoke : sha256 079f74751b5ee95ef89c368f2c0377128d9a772283d6394a5ad92239a8f56711 -> c506b2797329b765f8f6cb024e9896441c90dad872a574bfeb965548854a095a
+~ -[ISLanguageCarousel rankingUsesPreferredLanguages] : sha256 037b82ffa618a4cbb693f63e96504b571f9f34876bb719bf9e4ed7bff16ee8ee -> 135fee0aab5ed1fcfbab6f0b8dea508f65c50ef5bd2d67d88230ab06133b82eb
+~ -[ISLanguageCarousel setRankingUsesPreferredLanguages:] : sha256 4097496c32c7b62dca943567efefff47a970c13c3aa465ca8423ad5415172af8 -> f9ae99365c9065d651e1be4ee6febe65821775265831ee4a3faaed2aa3667a28
+~ ___55-[ISLanguageCarousel setRankingUsesPreferredLanguages:]_block_invoke : sha256 2188081efd94ed965ee96c73956c3afbe6e68966e5c0ce34c317c36998c06ac0 -> 21c08236ef91aef8a0e0b09fd8a73324391f38c6803f44dc3a389ecd997464b1
+~ -[ISLanguageCarousel regionDetectionCompletionHandler] : sha256 88879b1a36bddfe0f108c81b9e3ec9bab64d7581eac2ed5dd6fa772ae356385c -> 34fd01e01576d17e50f03d7367a5d1aa5c1d3c5978d41dfc634cadbfbc693474
+~ __Block_byref_object_copy_.18 : sha256 5bbf373d6646d909f947c4d4e3de88e6d25be1753e47fb4201f87bcec890217e -> fa5b7525d58338aff2f507e8ee20adf869a992c19084947df4dd45db01d9d219
+~ __Block_byref_object_dispose_.19 : sha256 84783e1e040c16e30135b7f9e00c7839fa1135ab5d12abb91efb244d7b053cfd -> 16a255ffb4fdd108d6661bae780c7111822388839174620d20c8feffcbc7013e
+~ ___54-[ISLanguageCarousel regionDetectionCompletionHandler]_block_invoke : sha256 01aeeb71516aef8a151094ea60380e19c750939ba817e0516b3b0ff3ceb83e1d -> 3412aecede560a3b48894addca22e285b425c684145a4e7444c02d381d365dcf
+~ -[ISLanguageCarousel setRegionDetectionCompletionHandler:] : sha256 c53ec87025934dca5b2ad3264f1661af1f4d859d955a81b937a9260366b576ef -> 0fd66b810c96f6cd9638d86880b78d03b6fe9aec6c3c440cffd1e0c1dc0f8316
+~ ___58-[ISLanguageCarousel setRegionDetectionCompletionHandler:]_block_invoke : sha256 06686e023174c669a1ea564da153c8e636040ac805e8d6851f8571dfed942f09 -> 7d107884a2053239a07c48582d109a63575849bfdb4581ddacfbb8157e27ef95
+~ -[ISLanguageCarousel weightedRepetition] : sha256 8edf3643c9e4fe2a3f125b410f0562402f0e03a54d2a4fbb77eebf52b641d200 -> cf3e8d2ab44ed83ba4ddd255c4ca78c5d2fedf4564b650f14dc7f799fa6d3879
+~ -[ISLanguageCarousel setWeightedRepetition:] : sha256 f74eaa33a2b92a8cd73cd25ba0e44102b67fb2726c49a5a9fd9a89763f1f0b02 -> a93c6ad869136a9f78846edfc71e3897837d994a0192451b82dc32e2f4179839
+~ ___44-[ISLanguageCarousel setWeightedRepetition:]_block_invoke : sha256 6e938aabce6ffacef8b980c9c61f6adf02b65ad0fab355063c124130c07c4f16 -> 542a76b86926ffba8062c06cd450e47a9c2ccf17133d85f9809770d3b33737f4
+~ -[ISLanguageCarousel _guessedRegion] : sha256 33d75507a7c781f9e374389b2d9a77f0769a5e35b4146d2a85eef8a8c27db3b9 -> bfd1742719aac52a54ad013296d64b35570324c853422dcfad93a878b72c36cf
+~ -[ISLanguageCarousel _callRegionDetectionCompletionHandler] : sha256 79b5cb109c8fb770163ebb36136c62d539213b2ae0f054de0723c55bb7144a55 -> d3137f7fae8e1497ffcb59045064823e69ef38429baea5d5f681d485d923a457
+~ ___copy_helper_block_e8_32b : sha256 29588c0e0b56db7696705de01ade706bb8f00337ce74270a9f4ea9200da7bf66 -> 895c1a256f000b0b86f914a2a57b444097efdc695383ecdb374bdd2e2012ddc0
+~ -[ISLanguageCarousel _startRegionDetectionIfNeeded] : sha256 9d431b553d976d64b011f86f80e33de61ae29fae26ca23e4eea63538349ff8d7 -> 9094a6a2585529bd698ce1c71e2daf2ea4995e30dbb3a465020354e794be7a4f
+~ -[ISLanguageCarousel _reloadQueue] : sha256 d7dc86898d42a146b7127a394c079ba2db3ce85048ec1f04997cd355bb51c36d -> 7fab0bcbd8a14ea8456f2c50de814e63e332abcd2237dd54a2cc85ec24e976c8
+~ -[ISLanguageCarousel _rankedItems:usePreferredLanguages:guessedRegion:] : sha256 b9a0138f1c907eed62793165e848a809fe383b31d77ba1f68cf7e19e10e91679 -> c10fe8cbbd4c8ccbfc2fa4eeabd04fd15c3df67f775d90284a7fe9815c3eb0fc
+~ -[ISLanguageCarousel _itemsWithMergedDuplicates:] : 1048 -> 1044
+~ -[ISLanguageCarousel setQueue:] : sha256 d902d7e4909dfe1c9fa51abb8f0f83e28add266e4d430f81b43b12fd779e004e -> 28ce51e2465db670b888228df3986699c0e9f12cc9ab84670a3a76d57db4e017
+~ -[ISLanguageCarousel setSerialQueue:] : sha256 57fbaf2fadec99b5e3e040b2f08d96041969edb1e518b5f0209c347bfc530dfc -> 9cd526293bd557e0f1109e9085f8027779b2904ee836a7159d9835bd523e90c1
+~ -[ISLanguageCarousel .cxx_destruct] : sha256 c48f16b34bb427274d68bc98fb5d70e81be3accabb852861904a9b8864843953 -> d3fa3c433ca45e840077c9b31bccd86bd953885e3b5575bd1cf5c372bdfebc18
+~ -[ISLanguageCarouselItem initWithLocale:data:] : sha256 31a81f2c9645141ba4b748400be1e89d159c76f6932cc9d65963f943ff66a3d7 -> 918211ae1691af568efa14a4b1725a7ef98450e728c40376de92d6a7bc2ec65d
+~ -[ISLanguageCarouselItem initWithLanguageIdentifier:data:] : sha256 882b0e6b4c1d115d16c951fa123f21fd814ff40d031abc0b76969942b8230080 -> c03b553cd6fa46ba12c2bd373261f0178256412944153243d8e21b83a2391082
+~ -[ISLanguageCarouselItem description] : sha256 c372a3fc1f18a03e4117e870488f56dd2156f1e5ca5d490da68abb644d7dd368 -> 9c412affec6ace881049b8a253487b829a94fa38add3d0e7b3f10ac071000185
+~ -[ISLanguageCarouselItem locale] : sha256 d59cedae792c3351d5486ac3a3a344a1500c987b771e3edc3cd1792ccd832b40 -> 472666538f7a8dda12fe91bb27600120a28dcad743ce116ed68bf48885f92c4b
+~ -[ISLanguageCarouselItem setLanguageIdentifier:] : sha256 3787b3130445c1d1ee5103843fb2bdd716e399ee73d3bd8d2235610694789a76 -> 2ae2b42c54df5ad878d7518d9b22b16908106b66ed5791b932ba1540b3ada14d
+~ -[ISLanguageCarouselItem setData:] : sha256 47eddae60932a37d8388f49bdb52135da1b6b84797537af21cd8ec3b08625e50 -> c928981bc62286d4a7f37b49ceebf4a683a4610fb9390101ccd93ee2460a4a30
+~ -[ISLanguageCarouselItem .cxx_destruct] : sha256 ce870560d6bcde591479b998b2ff3d6fbfeaac88bd2f9f271aaf382bc96d95ba -> 0db3242aaf7466d4298554c3630cbc9ba66b613c88c73c282c24b5582392e54c
+~ sub_1940b8574 -> sub_194007544 : 984 -> 1152
+~ sub_1940b894c -> sub_1940079c4 : sha256 6f0e573751f22c65eb0dd97b31343f2f94bb7f0aba84c5869400756293a59cf4 -> 1e649b790defb3d1cffaeadb9e3f1ab5fc34a62571ebc5d12a6b0443af8b12eb
+~ sub_1940b8984 -> sub_1940079fc : sha256 b1e454686f4e873dccfb359a0193dd3426c4cefeac41a5d6ff70204feb26ed33 -> 664a8711dc66d1a352819f64140221f693544c0080f22944e10e13e1eb626edf
+~ sub_1940b89cc -> sub_194007a44 : sha256 183730ef67cdf10f1bd5462638703330df506216cc552580cf306b6411967efa -> 638d3a6c8eaf799955951966ffc4ae1fce21d3945b20bd97e290f9c079530dc7
+~ sub_1940b89f8 -> sub_194007a70 : sha256 5ba40775bade1dec2a5b7aee068ca222b06b7b0efb324bc2e579ef8b34bcb35b -> 1c963e529b466f88c43ca7bcf24a347a0d7878820be31c4bf580b06098ae5b44
+~ sub_1940b8a6c -> sub_194007ae4 : sha256 60b2b3df2d3a95e51c50eff7ea5dbec757d3bb97011c514646e497257d3c2c57 -> 034745a46c1a47bccd2d67dae953d07f29bf62da8dfa5075db0648e14f3ddf1e
+~ sub_1940b8ad8 -> sub_194007b50 : sha256 b6dd54d66f9b7f30fcf6d080259d8a5e535e90467573fa468fa8ce0a7a5a17e5 -> 4622ea968ef0ba02527ef0ed58ad88076f5b4d351578524c41e3d5998ec693d8
+~ sub_1940b8db8 -> sub_194007e30 : sha256 d5cc631174dc91b770f510f43569ea581f63d9af8b39c8c8e277fba9542e3fde -> d24df4af6fe39c7c5ff6223209caf23974fa0c856f8cb2f806ba8ea73b6a08ad
+~ sub_1940b8ee8 -> sub_194007f60 : 220 -> 232
+~ sub_1940b8fc4 -> sub_194008048 : sha256 a9710d7e5d63ec7600f8fad1dba55417513066ec3b2a771caaddbd6de3d57236 -> 7d9362a4684ae836174e0dbb080538938fba52bdcf55e7bc2b7fe705a2dddf66
+~ ___swift_instantiateConcreteTypeFromMangledNameV2 : sha256 3ceacba4da2e12cc68f13ad7117e02d0219d60f8f1feca5fbca5ac1a95d7dc2f -> 13b2a459997d94fc3f3c0e74d719be26b56e16fd9d99719161d7e1561e7cf41b
+~ sub_1940b906c -> sub_1940080f0 : sha256 932c56bb91ec2bb26a47e128aa8e8cffcb7535032870930ab4920769a6660d87 -> 127ed04bc86555182a4fb5dc3866a434b5cd05c1ecc8b214c498a98488e6099d
+~ -[NSBundle(InternationalSupportExtensions) localizedStringInDeviceLanguageForKey:].cold.1 : sha256 c18bb6bc01d3d2509df282749eb84118ee81af5a70579b7d24a314e5ad2d5af8 -> 8bc27cc5dce03e5cf21da63704412505a173136777c64723aab2dcf316a7aa5a
+~ ISEnumerateKnownUrduSequencesInString.cold.1 : sha256 1d3c0d8b99da12fb1861c1cf34010621cfeb9246ca6577246e4c7c3444d29c56 -> 55ec7215b02a3532cae383a83b1dff94489caa66092e8cd521c7fbb858c4a722
+~ +[NSLocale(InternationalSupportExtensions) _deviceLanguages].cold.1 : sha256 632ecc080d6627c4fd38904c4796274a46a8058d222367a479926d4896c48724 -> d2dbb9b0d209b3af557117d0ce27131484fb495e6705781be38552b0adc0de0d
+~ +[NSLocale(InternationalSupportExtensions) supportedRegions].cold.1 : sha256 7d2f219d651d1ac9a2bd501d8574e956e008d1e4f0a53571c7ec1ad4534ec814 -> ae25ee8d9b23ae11ead936aa9e354c684505039a9ee8533a8c5179b9217c942f
+~ +[NSLocale(InternationalSupportExtensions) relatedLanguagesForLanguage:].cold.1 : sha256 22cfeae6bff6fd99674a51dc3287aca8e82d812f8e35489de7e54b82f44bf2f1 -> 49d6518d0067aa1e22b7ced15bc9a43272e919f6f1ac4684ca0793cda7bb4bd4
+~ +[ISLanguageCarousel rankedItemsFromItems:usingSystemLanguages:preferredLanguages:region:].cold.1 : sha256 8ff465a37a45961c5e1eedd88462102b6ff41d930ed9b5f835468b2dba69e727 -> cf9c4042e5ae564265756f3d981721a744736042eefebe2d2eedecfc4d523076
+~ +[ISLanguageCarousel rankedItemsFromItems:usingSystemLanguages:preferredLanguages:region:].cold.2 : sha256 b07186b6b868706ecaaaebbf416c5491fe31679a0c89fca032a2c597f4b36d97 -> e7ca085aa7931641df41d674586769c3d55bfe742c39d6cdc82c85c3718e1295
+CStrings:
++ "KeyboardLanguages.plist"
++ "acf"
++ "acf-Latn"
++ "bla-Latn"
++ "crj-Cans"
++ "crk-Cans"
++ "crl-Cans"
++ "crm-Cans"
++ "csw-Cans"
++ "cwd-Cans"
++ "fil-Tglg"
++ "fla"
++ "fla-Latn"
++ "gcf"
++ "gcf-Latn"
++ "kgp"
++ "kgp-Latn"
++ "kio"
++ "kio-Latn"
++ "srs"
++ "srs-Latn"
++ "yrl"
++ "yrl-Latn"
++ "ƛ"
++ "ᐁ"
++ "ᐌ"
++ "ᐍ"
++ "ᙷ"
++ "ᜃ"
++ "ᵰ"
++ "Ỹ"
+- "KeyboardLanguages-iOS.plist"
+- "KeyboardLanguages-macOS.plist"
+- "тыва дыл"
+- "ᐃᓕᓖᒧᐎᓐ"
+- "ᐄᓅ ᐊᔨᒨᓐ"
+- "ᐄᔨᔫ ᐊᔨᒨᓐ"
+- "ᓀᐦᐃᓇᐍᐏᐣ"
+- "ᓀᐦᐃᔭᐍᐏᐣ"
+- "ᓀᐦᐃᖬᐍᐏᐣ"
+- "ᓱᖽᐧᖿ"
+
+```

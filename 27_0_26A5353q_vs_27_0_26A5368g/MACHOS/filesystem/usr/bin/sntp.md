@@ -1,0 +1,27 @@
+## sntp
+
+> `/usr/bin/sntp`
+
+```diff
+
+ 31.0.0.0.0
+-  __TEXT.__text: 0x1fe8 sha256:d5cdad0f180473dff118f883c5a483fcc37e34df4a336174e45aa1f75d4a7def
++  __TEXT.__text: 0x1fe8 sha256:debfdb15670f015fa676172f5d870c7aa30bca89eaeeb21cb978962934d4dfc8
+   __TEXT.__auth_stubs: 0x270 sha256:5d1530c90c316c0745c9681ae04e4d68afc57a50938079226936caed6d271af0
+   __TEXT.__const: 0x28 sha256:0219748a11a67ead35be3bde81c1b06aa37041490571fd68a64ca5981da97545
+   __TEXT.__cstring: 0x3fa sha256:e775ea4f866038bfab32b4fb7bf11178f313c0752f1efd53880fff17e92956e0
+
+   __DATA_CONST.__got: 0x28 sha256:ed8aa3b145ac0fc54c21f99c89799ee29bd7bf5024f12e7b797832b0a8365257
+   __DATA_CONST.__auth_ptr: 0x8 sha256:4d1ef52aeadebeaf5a13081d31341af0f1e74436d8d50750f3ffb077defa32c8
+   - /usr/lib/libSystem.B.dylib
+-  UUID: F482DFFE-EBFE-3FF0-8890-C65FE30CEE97
++  UUID: DEBDA7C5-9D69-3161-A39E-A084921457D8
+   Functions: 54
+   Symbols:   47
+   CStrings:  74
+Functions:
+~ sub_100000590 : sha256 11a4f1fbb1921321b0d6ffec7786f84507bccaf153a79bf9804cab51f22a45d1 -> a213d02c5d921d8036efd5404e0fd26d7c83bab0593920a3f4c5fede3577fbe0
+~ sub_1000014cc : sha256 0bbb4ab41d90bf271a6736ff759e733e7cd6447aed93da265760b6342163fea4 -> 3c00fd2572ac5230ccd7495a7fc1e7b184532d60b5c3c099d909c4d25c6cbc41
+~ sub_100001e5c : sha256 df8ddc80386b24a2a85e2a7358e38ef756cd7e00fa7c8a8c20754a12ba04b6f7 -> ecc5e551cc82ef6a97371baf4801562b964b05029fcf7d47ee891c731a21a116
+
+```

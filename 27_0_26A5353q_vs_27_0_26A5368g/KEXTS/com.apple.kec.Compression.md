@@ -1,0 +1,59 @@
+## com.apple.kec.Compression
+
+> `com.apple.kec.Compression`
+
+```diff
+
+-210.0.0.0.0
++212.0.0.0.1
+   __TEXT.__const: 0x8 sha256:1b03ab083d0fb41e44d480f48d5bba181c623c0594bda1aa8ea71a3b67dbf3b1
+-  __TEXT_EXEC.__text: 0x3cb0 sha256:14d458397eb485d0c932197f304c6a935b9401253bd1c8ffd8165a4c832fd60d
+-  __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xdc sha256:6c30601bc926b58f5abc183f0ae77fc5b043ddbde95b8bac00c728c92cbd772d
++  __TEXT_EXEC.__text: 0x3dbc sha256:f12ce0f6f2b3f0c05bd1da873963b4796454a66f8239739872dd0511639c1a97
++  __TEXT_EXEC.__auth_stubs: 0x60 sha256:97d15ecbec84136f2aded96bf156b05c96bd427518661387f919315587ffa425
++  __DATA.__data: 0xdc sha256:55afae40e02b1e2727eb90dc4a6aa02621ca4eab79ecf845fcbeb4c1ed705ecf
+   __DATA_CONST.__const: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+-  __DATA_CONST.__auth_got: 0x30 sha256:6dc01210991e0d6ff7cd55f3593cfdbba84c51336701339e365dfa4069285d2d
+-  __DATA_CONST.__got: 0x8 sha256:1d87a0df9766f3e8295165a13c096b85270cafb74405ade1b2e8f9968679e276
+-  UUID: B3DA2CD2-CE51-367D-BE3B-7CC53B032B4B
++  __DATA_CONST.__auth_got: 0x30 sha256:00a9e9def00e4e0320439e29c44cd81fcaa105ef7db05bdc9f221a20ec03a5ad
++  __DATA_CONST.__got: 0x8 sha256:39cca664e1eb55b5680829fecb031130feca911f5a225bf760432f0e717797df
++  UUID: 63F3E011-0053-33B1-AF09-987AC5526C1E
+   Functions: 41
+   Symbols:   53
+   CStrings:  0
+Functions:
+~ _lz4_decode_buffer : sha256 1c2d404ce42d8dd592fe3b9257b59a9e287309497f79d3a1c146dd04ea6dfdde -> f129d15601e5f6ba66b0ced622ff36813be963e7f4dd369f2774951802b9308d
+~ _lz4raw_encode_buffer : 320 -> 324
+~ _lz4raw_decode_buffer : sha256 2ad34f9e872688439dac83fab122bacc239c712cdfd1e229441c9947dd59ac83 -> fc7c5007e8858a0f4da0ff5ac4756e8f796b68f45141bced737d0ff8a6ac08b8
+~ _lz4_encode_buffer : 532 -> 544
+~ _lz4_stream_init : 200 -> 204
+~ _lz4_stream_process : 1792 -> 1804
+~ _smb_lz77_decode_buffer : 584 -> 616
+~ _smb_lz77_encode_buffer : 1000 -> 1096
+~ _smb_encode_buffer : sha256 941861355e20540f979f5eec94697910b20ec1898a0e686096492cc4f51778c1 -> 84c3c595e98ca24ff36d2f8b823abb37cbce308c47db6c1db09b9fb5f934dd25
+~ _smb_decode_buffer : sha256 993451dac6115a57fdebc4095e50645d0bb5ebb7f5a4d72c66c9899341de569f -> a7445b24fac93ef9e87aca3d215034aa0287a02537dcb7000702d07984153605
+~ _smb_lz77h_decode_buffer : 1500 -> 1576
+~ _smb_lz77h_encode_buffer : 3060 -> 3000
+~ _smb_lznt1_decode_buffer : 728 -> 760
+~ _smb_lznt1_encode_buffer : 952 -> 964
+~ _realloc_stream_state : sha256 585e4b7802eb2b7832a3cabd7e75a71aecd5f06f08d40c1697c0122e4462d445 -> 1e4d672152b4132423977f4989e62336395de3e3be581811aa5c02f937ffb8f9
+~ _compression_stream_init : sha256 ac3e0e874800a0eae627b36fc613c102457505e0e174910cf480cef5e5f9936c -> 75a39e40288299331b1d52aff6adc1bc6ba55e0caccf1e36c01862262c044092
+~ _compression_stream_reinit : sha256 1cce624786693bff3fa6912c2849c4abaf4f6758df661121111bc16856e29b22 -> 08c4ca0b6091a4b914bc558cecb69afe6c4af80ca8d858400a5e7898a30916cb
+~ _compression_stream_destroy : sha256 0c20bb684d5c5a351086a79ed59f997be976a4ec57a285079bfd1d544f054589 -> 267d0279ed413fc2d5e09deb9f7a5dd7a5d45e078fb77a0c696aaa545484f9eb
+~ _compression_stream_process : sha256 7fc123e579ce974b55c5dd45cf9a2ac4deb8c27e7140ff197bc35ebbf9f6cbb3 -> b253557fee12b9c4bed84a481ef0ef92b522a92881e0421fe8cdbe94d18aca5d
+~ _compression_stream_identify_algorithm : sha256 6627abc723a3d29f858620ca822c78223a8e5e9fcdde14f93563373a63a1c308 -> 94dd1d35d2218182fd89435a0b93581a764c01e05c9c528b292ee3ad0efd98f6
+~ _compression_decode_scratch_buffer_size : sha256 6865948b9f76f0bb45782a22cbc70bf75a9e5803b1144c85ce43c750609931b0 -> 7329d16c6adb8453f1af0dd2871e6c9ca588aac5184db089fbdc7d95cfac6345
+~ _compression_encode_scratch_buffer_size : sha256 13dd148b3737f74a7e96a89d7c2bdf4a5918917c24448f5655166ba8b09442a0 -> 53b5e345d971a9967b6b9f2c00aa89341a6844e32162a18552cac172e0a6f4e3
+~ _compression_encode_buffer : sha256 1e8fca61e1a53f97a60abdc7ce4b149b59c12dc2293dccc3dfc5fb0fb96ae189 -> f42120468ff915eda6b15e431eb71102eb7fa21b06323bcdfa3473d46406da3e
+~ _compression_decode_buffer : sha256 19833b89ec06083dc8027aea81a7802cc4d220c510385da42c37b474bb4208f2 -> d8ec700fdb359fd0f0aacfad7c968691b82cf10d18e9d03c327a3f6f412835da
+~ _compression_kext_start : sha256 f51919e8b4f626d75bf66eb4f6e3c55697b617c90ccf53e054309aff6f3d5b10 -> 508bbfc469f4c3ed06b838dd7d988c6ae57c78b3f9f12394da795e1bf6892cc1
+~ __start : sha256 270c112559624b68a23e492573da3d451af1cdc5c3dfe6f8721ef6f643b0078a -> 71d85443d5f0ddc32e58b68251cdbf065242c35d6cd84c04e8d8f99a1447d3a7
+~ _OSKextGetCurrentIdentifier : sha256 911567e2cbb8a4e2c0a0c7baed6ac29bab05ec4f0a6be897be58150548f33d3c -> 9ba4bc49e4bce7bccdd2ea809ecdf883b31eadc7789ff022412532325ad14904
+~ _OSKextGetCurrentVersionString : sha256 dfe72c209ec741e4273eba342d52c6b666741d0af7aeee386b295e8ef97a170c -> b2096d69d5ecd19097f2a5cbaa5c82c58454c7a50369b747395c5b3d15f7bba7
+~ _OSKextGetCurrentLoadTag : sha256 536d3c49941ab6315ccdd98e900a13cd59c311de20bb63a93f66db4535388381 -> d1fad18d872be3adf10e319ea5258d745e131418d0ccbd2ce93f5123eb2188c8
+~ __stop : sha256 2214fb40013692415ea168b12bfedcd2106afa355117b831c66916929aba6e24 -> c1015c3be7c150371e8f409205d75c9d24be149b5319e39240bea5df29f7267f
+~ _lz4_decode : 564 -> 612
+
+```

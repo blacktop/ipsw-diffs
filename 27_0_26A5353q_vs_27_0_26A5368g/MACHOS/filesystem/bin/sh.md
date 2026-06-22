@@ -1,0 +1,28 @@
+## sh
+
+> `/bin/sh`
+
+```diff
+
+ 16.0.0.0.0
+-  __TEXT.__text: 0x1d4 sha256:ca1df146cf32e0b797881c42c281da1de8e72c03bd56bb8707cd11a806712333
++  __TEXT.__text: 0x1d0 sha256:d650aab5d767c04f79c15184db25a7d1f4b0efcc897f504c8ba878bc708ed640
+   __TEXT.__auth_stubs: 0x80 sha256:bf31dc3382baf9c9c6c143b4109a21e5678de2b0b618f990f94348cf00ac05b9
+   __TEXT.__const: 0x30 sha256:1ff38f80f507e52fe32d843a867f986ec55441803356ca12b604ddde0a77fd5e
+   __TEXT.__cstring: 0xf0 sha256:34b293e51ba35c38e47d20c5832aa05bb5ed508a9f3ec931a9e86791b98b1d8a
+-  __TEXT.__unwind_info: 0x58 sha256:63152cd6017c80928fff2d9d4817f12c0de51d5132d693dd90743124b4d6b7fb
+-  __DATA_CONST.__const: 0x20 sha256:33ad35a59ba7d08373412e059a11792aa01270f6b25edbd853698031f42c6d4c
++  __TEXT.__unwind_info: 0x58 sha256:f15b315050239f09492330d3d098b7f03dabca7c9122dfc6e0dfa63e1c149282
++  __DATA_CONST.__const: 0x20 sha256:dea6d9dc5a75f589cb7f4dd480798cba9f42008996f32f5ede88c2a0988ac651
+   __DATA_CONST.__auth_got: 0x40 sha256:0bb886e6694b925c22435e12adf7d549092a575160bb8b47fc79004fa926779b
+   __DATA_CONST.__got: 0x10 sha256:c926b23deaef8bf729d2d6034bb4a80cb699f45295836b3fc16a34c7cf786bd2
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 78D7C12E-AA92-382D-9210-EB7CE4D82A84
++  UUID: 454EC535-1109-3F4A-9A80-EBCB87D855E8
+   Functions: 1
+   Symbols:   12
+   CStrings:  9
+Functions:
+~ sub_100000540 : 468 -> 464
+
+```

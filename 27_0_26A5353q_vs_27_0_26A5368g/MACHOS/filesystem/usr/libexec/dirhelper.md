@@ -1,0 +1,87 @@
+## dirhelper
+
+> `/usr/libexec/dirhelper`
+
+```diff
+
+ 201.0.0.0.0
+-  __TEXT.__text: 0x4f14 sha256:1fd1ff8f076b2f784c2be97fb015f49fb2e490b67e0b2c36cfd6c156f13ea564
++  __TEXT.__text: 0x4f10 sha256:df35ca2055071078438774662716ec2823107ab366029e42d214c276c89bd596
+   __TEXT.__auth_stubs: 0x5a0 sha256:566b362bce4ab3961299fdf5af3dd0684d274a6d5d9e650edf094f2eaad128e5
+   __TEXT.__const: 0x60 sha256:7dd0f65c9311549434fd77322024b25f320def35b4c1528f7b094acaec272bb1
+   __TEXT.__cstring: 0xa06 sha256:98ae04eafe378703b0d02e506d42141f2d49316c8983043091f47c1bfc8cf253
+-  __TEXT.__unwind_info: 0x100 sha256:5886638655850a42c2b2ac3a67e00974063db97875a5c781b35410e01f022fb5
+-  __DATA_CONST.__const: 0x238 sha256:49bd3c583f18d18995dfa999e961621bc001c3489f32a2effd623f5b59535eb5
++  __TEXT.__unwind_info: 0x100 sha256:4f462179202a20928ae8367ed093bd1ff551904997b8224f22287f39564eeab0
++  __DATA_CONST.__const: 0x238 sha256:d3138be73e22c102412877756a5256c3cad02d41940b06c481daec183fffb432
+   __DATA_CONST.__auth_got: 0x2d0 sha256:6333d198b25a70c3c066c228683ea2d626b17a9bb52be1d8d96c36adf3739879
+   __DATA_CONST.__got: 0x40 sha256:8a139da51aa85e4b4867be861984ef951c50245379f9e7f3abcdc41ff69aade9
+-  __DATA.__data: 0x38 sha256:7946db7d04a565cd426b898baad549e2dc161b4f2d7f8a547d05e811acec1f9b
++  __DATA.__data: 0x38 sha256:e2b57913bc56dfb611d1f80fd907999d5dd6dc4fd261f61367f90993b24a639a
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+-  UUID: 413AFA50-31B0-304E-AAB5-86E95771A860
++  UUID: E74D9A4E-68EF-3672-92C3-97218D4978D9
+   Functions: 38
+   Symbols:   339
+   CStrings:  101
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CSDsugBSTJev-1FGkWgVZXYTk2BP_Ed2pQcITfc/Library/Caches/com.apple.xbs/TemporaryDirectory.qgCuMC/Binaries/libcoreservices_executables/install/TempContent/Objects/libcoreservices.build/dirhelper.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/4~CSDsugBSTJev-1FGkWgVZXYTk2BP_Ed2pQcITfc/Library/Caches/com.apple.xbs/TemporaryDirectory.qgCuMC/Binaries/libcoreservices_executables/install/TempContent/Objects/libcoreservices.build/dirhelper.build/DerivedSources/arm64e/
++ /AppleInternal/Library/BuildRoots/4~CSDsugBSTJev-1FGkWgVZXYTk2BP_Ed2pQcITfc/Library/Caches/com.apple.xbs/TemporaryDirectory.qgCuMC/Binaries/libcoreservices_executables/install/TempContent/Objects/libcoreservices.build/dirhelper.build/Objects-normal/arm64e/dirhelper-1440a83487cc9f59e9b21cd0fba0688c.o
++ /AppleInternal/Library/BuildRoots/4~CSDsugBSTJev-1FGkWgVZXYTk2BP_Ed2pQcITfc/Library/Caches/com.apple.xbs/TemporaryDirectory.qgCuMC/Binaries/libcoreservices_executables/install/TempContent/Objects/libcoreservices.build/dirhelper.build/Objects-normal/arm64e/dirhelperServer.o
++ /AppleInternal/Library/BuildRoots/4~CSDsugBSTJev-1FGkWgVZXYTk2BP_Ed2pQcITfc/Library/Caches/com.apple.xbs/TemporaryDirectory.qgCuMC/Binaries/libcoreservices_executables/install/TempContent/Objects/libcoreservices.build/dirhelper.build/Objects-normal/arm64e/dirhelper_vers.o
++ /AppleInternal/Library/BuildRoots/4~CSDsugBSTJev-1FGkWgVZXYTk2BP_Ed2pQcITfc/Library/Caches/com.apple.xbs/TemporaryDirectory.qgCuMC/Binaries/libcoreservices_executables/install/TempContent/Objects/libcoreservices.build/dirhelper.build/Objects-normal/arm64e/utilities.o
++ /AppleInternal/Library/BuildRoots/4~CSDsugBSTJev-1FGkWgVZXYTk2BP_Ed2pQcITfc/Library/Caches/com.apple.xbs/TemporaryDirectory.qgCuMC/Binaries/libcoreservices_executables/install/TempContent/Objects/libcoreservices.build/dirhelper.build/Objects-normal/arm64e/walk.o
++ /AppleInternal/Library/BuildRoots/4~CSDsugBSTJev-1FGkWgVZXYTk2BP_Ed2pQcITfc/Library/Caches/com.apple.xbs/TemporaryDirectory.qgCuMC/Sources/libcoreservices_executables/common/
++ /AppleInternal/Library/BuildRoots/4~CSDsugBSTJev-1FGkWgVZXYTk2BP_Ed2pQcITfc/Library/Caches/com.apple.xbs/TemporaryDirectory.qgCuMC/Sources/libcoreservices_executables/dirhelper/
+- /AppleInternal/Library/BuildRoots/4~CRCBugCwGFriMzKvRWCtksqCQXEbgMMo1k8YCOE/Library/Caches/com.apple.xbs/TemporaryDirectory.GNaKzp/Binaries/libcoreservices_executables/install/TempContent/Objects/libcoreservices.build/dirhelper.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/4~CRCBugCwGFriMzKvRWCtksqCQXEbgMMo1k8YCOE/Library/Caches/com.apple.xbs/TemporaryDirectory.GNaKzp/Binaries/libcoreservices_executables/install/TempContent/Objects/libcoreservices.build/dirhelper.build/DerivedSources/arm64e/
+- /AppleInternal/Library/BuildRoots/4~CRCBugCwGFriMzKvRWCtksqCQXEbgMMo1k8YCOE/Library/Caches/com.apple.xbs/TemporaryDirectory.GNaKzp/Binaries/libcoreservices_executables/install/TempContent/Objects/libcoreservices.build/dirhelper.build/Objects-normal/arm64e/dirhelper-42807510dd8eea50305ab9f388b74920.o
+- /AppleInternal/Library/BuildRoots/4~CRCBugCwGFriMzKvRWCtksqCQXEbgMMo1k8YCOE/Library/Caches/com.apple.xbs/TemporaryDirectory.GNaKzp/Binaries/libcoreservices_executables/install/TempContent/Objects/libcoreservices.build/dirhelper.build/Objects-normal/arm64e/dirhelperServer.o
+- /AppleInternal/Library/BuildRoots/4~CRCBugCwGFriMzKvRWCtksqCQXEbgMMo1k8YCOE/Library/Caches/com.apple.xbs/TemporaryDirectory.GNaKzp/Binaries/libcoreservices_executables/install/TempContent/Objects/libcoreservices.build/dirhelper.build/Objects-normal/arm64e/dirhelper_vers.o
+- /AppleInternal/Library/BuildRoots/4~CRCBugCwGFriMzKvRWCtksqCQXEbgMMo1k8YCOE/Library/Caches/com.apple.xbs/TemporaryDirectory.GNaKzp/Binaries/libcoreservices_executables/install/TempContent/Objects/libcoreservices.build/dirhelper.build/Objects-normal/arm64e/utilities.o
+- /AppleInternal/Library/BuildRoots/4~CRCBugCwGFriMzKvRWCtksqCQXEbgMMo1k8YCOE/Library/Caches/com.apple.xbs/TemporaryDirectory.GNaKzp/Binaries/libcoreservices_executables/install/TempContent/Objects/libcoreservices.build/dirhelper.build/Objects-normal/arm64e/walk.o
+- /AppleInternal/Library/BuildRoots/4~CRCBugCwGFriMzKvRWCtksqCQXEbgMMo1k8YCOE/Library/Caches/com.apple.xbs/TemporaryDirectory.GNaKzp/Sources/libcoreservices_executables/common/
+- /AppleInternal/Library/BuildRoots/4~CRCBugCwGFriMzKvRWCtksqCQXEbgMMo1k8YCOE/Library/Caches/com.apple.xbs/TemporaryDirectory.GNaKzp/Sources/libcoreservices_executables/dirhelper/
+Functions:
+~ __append_relative_path_component : sha256 f639c6c5b9386edfef135e8efc5ca8add021b90a79af3ea32fe98ea7f76d99fa -> 3eecf693be70be2221632b11c22a2e953ec93a276c8f2ff9ff608cef61f2ee1f
+~ _is_app_sandboxed_with_audit_token : sha256 92f5983b45c09f5decbe390c18d68eb773bc0c682b8400273468eb82d4d61574 -> bf9338f170a0d060c5d87c08fb40b8f5b50cd9cd1ceebdff9edc3efaa9042525
+~ _validate_user_dir_suffix : sha256 467e5830c197d471833e4a1c854da18fd275424e3d2f4b562379791664c1fe06 -> fe3f76f2b32ec8b484e9102f6b40dd395ecbe0f371621b29d96a00ff8bb07987
+~ _makeDirectoryWithUIDAndGID : 1604 -> 1628
+~ __reset_idle_exit : sha256 2313674a1ed497afbab038aea947ee406277da37c9ee09fbb3ae2c82c2c8f5cf -> b19f315354d15d0292dd0f7c6830afe95e458439a7cc7dbc3a60fe405961a5a9
+~ ____reset_idle_exit_block_invoke : sha256 41cea0a9e5106a0f26861da278265882189806219dea6546d0f98ef51a33b8f9 -> 6f67c68fe0425e55af308ace7d23941b98f849bef646a427c0aee2d7103fdc9b
+~ ____reset_idle_exit_block_invoke_2 : sha256 c4836592209824b69d2277ec57680e0e0d318cabb8ef00b62e834195b456bf64 -> 0cc26a6b4a1be2031fdf1325c6b0224817b0fd697ec88f43654a1ae755d70ee5
+~ _do___dirhelper_create_relative_with_error : 1592 -> 1596
+~ _do___dirhelper_create_user_local : sha256 a71135cb032fb26ca04a0d69d25a7250b99d3f18beb022f73130875ccc8ad529 -> 75f7f3840df25c77c4e5fc2cdefcba8f231fe1101fe8e6f2ba27ac3d29e07b83
+~ _create_user_local : 1688 -> 1676
+~ _do___dirhelper_internal_server : sha256 1bb9fc71c1beb78be8d3707dcfd27c9380745f998e7bfb6073621f28112f55e8 -> 3d8a5c8589e7ed89a5df081cfff67d86bdda60504a8b1c3aab5f9b4da7e7babc
+~ __dirhelper_internal_server : sha256 a3fc61e64315e17dfdb0179413c9bd058bb1093afa2d6f2f8e186c685af94e06 -> 62772929a71caebd4a5d78cc2d6f227656b9fb3b262f0ef9ecc3f3d5da5f8d32
+~ _do___dirhelper_remove_test : sha256 e5c3c6c15fd9f39771d158f916dd52717c768ec0acf03ec156533b7750f2450f -> d71455da8ac7deaf75deccdffc3711b79ae739d320cce4e3be3dcf66d9b54be7
+~ _do___dirhelper_internal_server_test : sha256 48d4059cbe6a578c0d5ad0bfdd1c619fe8ee8aecdb06d16d6b5e0327d66239e4 -> 8cfcdc21894080f6206d51347d7432eed3d2be430d1cce62a8cde84c46ac9670
+~ _do___dirhelper_idle_exit : sha256 434590b0559bf76160599809cc605993466aece96d2e756895ce1dd4637a8822 -> 0d0dfe8cd37f8607577709fc29e31759709dc44d385ae2ab4ae3298150e821b3
+~ _main : sha256 459aefc431d99ee6e8ab9757596dabbb2c5a655e3c91eb189f544324eb8db12d -> f0807d1f0d4a04f997a26000c30bae48a774973ba55236b3efffc61d27b3eca9
+~ _clean_directories : 1988 -> 1960
+~ ___main_block_invoke : sha256 480e0dff91152e449408996e6a40924e7015e392d762c6e36e5ef7a234e06030 -> 82b9ccb8cbc60ca22071d79e3c52dc1f5660411623c53f457ffb50b4588b836a
+~ ___main_block_invoke_2 : sha256 012f5a5d526afbc7e42b6d1cb178cfe6f65f3184f09115271e6d9efb40d7197f -> 4709e54a7788930823aa98efc39379a9e8623d7d22da57d918aaf119caf9dc77
+~ _mkdir_rootless : sha256 4f1d69d08290187ac14ab3229a472ca09eca075b524b6a0d18d2254acaf25efa -> 3bb8e119fb334f5da4c6b3c20d17eef046444a338f920a0f678a78a1d12fbb1f
+~ _file_check : sha256 4722d849cc1ac47a3e0b23ba78832ec7f9310cdb361b9570560e6d7c27008d94 -> 6d811f40ecc1d5e83f3793f8a0a65198e435c49502ce5603c5ce1546cf87424c
+~ _clean_files_older_than : sha256 9954477ae08011a549117f772be5016d98a78d26a3db28de3bd3bb7e8d5aba3a -> dcf105deb76211fd36c21f228899d7f5a266d388f42a90ddd175df3419dab973
+~ _start_walk : sha256 20ba912806a49f588307eefd038a3d1812012331e7205f5d67a6e4c06cfdc3b7 -> 31657fa6d63137ee5a771ad0954f2030496e7039e55feeffdbdc78bc01361170
+~ _fillattr : sha256 35c050793ddaad0c62ea0c4a8d67cce8fec4c7c1c012971c42e01a7eb2ec531e -> 9c362ddccca01ccf9ff3d73e8a0ac1dc5e5778c2adbb3b4307d9332d521de5f4
+~ _walk : sha256 bfea561dd30345dcaf45d9d18b1ef9a7e5a9a3bd89079cc841cb0b6b6d47eb6c -> 8c3adb763044e6c948496b230471b2722defb7739428618e8100a0d47420db25
+~ _close_dotdirentriesattr : sha256 5c9aab608dae96577a586f7adee1a099e7f4ea8f143bbdbd6d5b0109452b183d -> 598ee4b886f321654c60293ce7bf6a58a0347c6f21101f6c7e3eaed06626cded
+~ _free_children : sha256 46552bfd12e7f7303435d28afc3e6614dc9bc31d8d57f1ab165781368fd91536 -> bc5b5a29182186532a40a96bf60c72b299dadeea071312e131bb55f28f6006b5
+~ _free_walk : sha256 dc19baf3b383d4d7ee7b1f5f6eb2e903e127c1928fe2511e3a60bfbd718249d4 -> 25df834f4f9f4e6169301082a9740b38eb850fcbcdc717db82c3bdfdb9785f56
+~ _dirhelper_server_routine : 60 -> 64
+~ __X__dirhelper_create_user_local : sha256 6c09e1bfb1bf89e2f54eb7b77a51c365d6c5c1bd76d09e2160a9b976bf6f7b2c -> de363d24401fa1683c4d130e59cfe205c220795c186f203ab85172313dce7171
+~ __X__dirhelper_idle_exit : sha256 cfa1b4a3db1c13f782aa9b8a3c41904a133b785227dbb7b754876e6db4683d34 -> deae21004b6389a3d70559b5945c2b044c7b5d5bc5f50b37b996100a31d952f4
+~ __X__dirhelper_create_relative_with_error : sha256 c218c4fee97b0662de8e8b485ab56cbb6e52c9db23d28421c8355e3048c0844d -> e0223f40db3e17bff29ce7a033412edd5826762e036956f8aefdf116eb4dd076
+~ __X__dirhelper_internal_server : sha256 3238f51748f482bf30fe1d258389caff911d192e25339d23da81c6eff4c1acb4 -> 6720f1e7f73f250e9236c77260d9fc5edc258f173406dacb03621942c70f8fd6
+~ __X__dirhelper_internal_server_test : sha256 57241056908743db5db0a27969c86947cc4f01e25d20b497b84932941a772594 -> ea36143ea0b031e2407bef67c41ab265713037c892a5a1b24d68265f8e096bbe
+~ __X__dirhelper_remove_test : sha256 cc731177e4bc4872d7103b99b342e7612b0cd756ef7fc49563fdfad8c8ca9b50 -> 951b7645795fe06670b7e9c2be343ae17dfd2b99c1508c492fc26ae1e048ae2f
+~ _dirhelper_server : 152 -> 156
+~ clean_directories.cold.1 : sha256 20eae8184a2cf8328de54b0a6188147b18f4971e7e238dea2e657f595e84ae3c -> 656f09c4b8bd85699c6caf76a3e1f4feb87de439f27acd59316ace766d64bc5f
+
+```

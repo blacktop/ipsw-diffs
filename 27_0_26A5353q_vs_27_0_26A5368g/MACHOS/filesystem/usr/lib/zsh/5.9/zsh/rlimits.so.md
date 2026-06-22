@@ -1,0 +1,44 @@
+## rlimits.so
+
+> `/usr/lib/zsh/5.9/zsh/rlimits.so`
+
+```diff
+
+ 118.0.0.0.0
+-  __TEXT.__text: 0x1218 sha256:4ef801db135661dd61e3f25ef3e8f7924f59f2bea60b3153566769782d8fe7bb
++  __TEXT.__text: 0x1204 sha256:69196d91ba710c8566e272758b6c99c88630f9077d965dfab2e9350810f036e1
+   __TEXT.__auth_stubs: 0x140 sha256:e887b6a425054e32947d2f6810ec398988308c3d552daf687b0f7390f79a242e
+   __TEXT.__const: 0x8 sha256:8ad041705ad57138eb90bb9b7dab49557cd5bd9fcb3bb4086dcf3db05fd87cb6
+   __TEXT.__cstring: 0x347 sha256:4fe26d6270d8bac1412ca71f69b431f35c96dab806b411beadf0d490ee426f07
+-  __TEXT.__unwind_info: 0x90 sha256:33637ad4d302720766edde9690b4549e4a7f5ac9aabcf1153e4a09d5ee416f60
+-  __DATA_CONST.__const: 0x168 sha256:bf8167d0c2c6cb1821e9e0b160e6f282f1780790799d086a7ef6ef7afd3616e8
++  __TEXT.__unwind_info: 0x90 sha256:f54cc7e75e9672be9b4d9519fd1219ba28414045054ef0fedf6ad997e71de018
++  __DATA_CONST.__const: 0x168 sha256:b025c2c62affa50b7c66422893c2f3a57d168a1116af7826b3e88bcfb44305c7
+   __DATA_CONST.__auth_got: 0xa0 sha256:b58f6fa62296e56b1c350ff0cbc9f94f2116a125e1fb9d798e0d880312a583a5
+   __DATA_CONST.__got: 0x18 sha256:06af3da91a03939e920746ea211b36d6030144da1a507d82be5b85b483313fe4
+-  __DATA.__data: 0x100 sha256:27885964f127b7b95a36c9bbb047bab92fb0005885f2adc806b8c6333552f004
++  __DATA.__data: 0x100 sha256:939ebe829a28af473fcd92789add7dea593d52e1f065a1913eed2be24a59df53
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libiconv.2.dylib
+   - /usr/lib/libncurses.5.4.dylib
+   - /usr/lib/libpcre.0.dylib
+-  UUID: 9AA5012D-9BBB-3324-B416-43F78B3A37CA
++  UUID: 721677A8-D306-33A2-A82B-8C7C57929DD8
+   Functions: 13
+   Symbols:   30
+   CStrings:  53
+Functions:
+~ _features_ : sha256 8f0b93aa942971d73bc5ab940db70b53e3d957c6df3845dd44ff902ac65f7a9b -> 81ac64d41b214ab61aad6e7a4d9cc5a387f35c91e83cb183d77ff612c9a63f21
+~ _enables_ : sha256 9897894d0b2e52cf64bd52e95c5e3d4574ace8e977465c0b8d8367a0c2fe3d99 -> 87d9cbbb9b8c44e89b05328da4a43b9bd7aa45f9c9690374ce1c6f575795eb4b
+~ _boot_ : 244 -> 248
+~ _cleanup_ : sha256 8b35253105e37f6fb5bcdc52a849239d68d073e809c2f0ace0580761793c54f9 -> d268db3b14e0ce6dec8d695b35909ef48ee6a7d7b25490343a90fd40b635fa9f
+~ sub_848 -> sub_84c : 1044 -> 1036
+~ sub_c5c -> sub_c58 : 1220 -> 1208
+~ sub_1120 -> sub_1110 : 512 -> 508
+~ sub_1320 -> sub_130c : sha256 f0bb7d3fc35e4f03f02752e94eecdbcf2379366244b7eaf0e474036bd8a1a77b -> 9c84b5c58bdcd10806fb2c7e7a091d4391b6068cce3972341aae389ba93a8f76
+~ sub_1388 -> sub_1374 : sha256 1a66e241f5c067767d04a17d202edae265d0fa3d4be977883c44f02f96f933aa -> 9d38cf0e229d8ce2bc6be30e8706c6e2bae4a5d302746af553fdb8683fafae97
+~ sub_1574 -> sub_1560 : sha256 a6cb74c72162aec5a4763ecc648709dacc61c60b5c29a1b6a78a3d7f2438bd45 -> 3978618f8802798b5af13f1fb3eedecd99714d5c2e1e14d6121435d6026eeb1e
+~ sub_1704 -> sub_16f0 : sha256 ec13eb7377935cb2a7743b114cec13da81d3da176565d5599d1899c7e36e4680 -> 482eaa6b2cec589e3306d0192f0b15059c31c5dcc2c702d00a48123fa8d7d678
+
+```

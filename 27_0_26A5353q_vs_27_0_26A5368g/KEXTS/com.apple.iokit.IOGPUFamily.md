@@ -1,0 +1,108 @@
+## com.apple.iokit.IOGPUFamily
+
+> `com.apple.iokit.IOGPUFamily`
+
+```diff
+
+-162.6.0.0.0
+-  __TEXT.__cstring: 0x68c5 sha256:d5e4d1852b1d41674e1b53cfdc003a1868e65d3478f3e6b6268056d4729875cd
+-  __TEXT.__os_log: 0x55b6 sha256:15c32978d825ce45ff13d80bf78b7dabd13c43c3f48aec2a2ce153ed5722cbf6
++162.7.0.0.0
++  __TEXT.__cstring: 0x690a sha256:f8629cdcf48be8a55098d828a7a3c6e184baa888d914a63d2840ba44bf729301
++  __TEXT.__os_log: 0x5600 sha256:8febe6bddcb6f925bc3ae274b1be53f6443dbb59f25bb3947db94391184d1b87
+   __TEXT.__const: 0xe4 sha256:6ed9f0aa2c9fe7655370fc5a547291abe8af5e1acce1e877853a081a015beed0
+-  __TEXT_EXEC.__text: 0x48314 sha256:e8110910a0df5539a8816aace0d292a6934f386a98ca4cfc11c45da439d1ba98
+-  __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x460 sha256:0b8b6e5b7fa8f80d5d9d87ba5d8fd067d1a641b9fee4032420f1a22c18c77bb5
++  __TEXT_EXEC.__text: 0x48944 sha256:e086dff9f4fa8d1b0d5e6b95375cb4568f30abb6a9c0685586fdb7af837f8f77
++  __TEXT_EXEC.__auth_stubs: 0xe30 sha256:e57e39996bb693bb8facd19cf6e3db7ab23cac2e966a1dd8de9e7b6bae3d6e3c
++  __DATA.__data: 0x460 sha256:524e46262763c2ae9fa7f796a81b499c30d0bfcc13ecf65ca2a41de8eda64703
+   __DATA.__common: 0x8e8 sha256:efaa43be4eeea4c13e862aca4e133e7f5b8fee4287aad2442db0ef6b51c066aa
+   __DATA.__bss: 0x9 sha256:3e7077fd2f66d689e0cee6a7cf5b37bf2dca7c979af356d0a31cbc5c85605c7d
+-  __DATA_CONST.__mod_init_func: 0x110 sha256:ff60fb25b6496ba50881ffafc6a83497c49c32d78897662f49fcfa21cb99e758
+-  __DATA_CONST.__mod_term_func: 0x110 sha256:a38fe1def7eb1ab4fe01232d9190998c49fb8a7acd01c59b89dc7780d40c4caf
+-  __DATA_CONST.__const: 0xd2d0 sha256:0f2521e9fce38011a0c9609d6e9c7de7bbc9f414b559342b3c7632537b94380f
+-  __DATA_CONST.__kalloc_type: 0x1240 sha256:8f03a8ea753b06676b529ce6d933453724d5672087ca85d63325585e666ac8a6
+-  __DATA_CONST.__kalloc_var: 0x1090 sha256:1ec6b744a8575b8c535ecc4e8f0f0f4b4595dba8f4c1b0ca93b3c7f657cadf75
+-  __DATA_CONST.__assert: 0x28 sha256:bdbcdc9c412b1b25c13564d59b418d98b1dbacaa09339ca4bd6635fca044a3ab
+-  __DATA_CONST.__auth_got: 0x718 sha256:48fb8a31239f3ae6b56f396c6e93f303bb87128f3597423e777c8dd194da37b5
+-  __DATA_CONST.__got: 0x130 sha256:e6c4052f76ca977b4caf25f1f53d3c7a09dba62f954316282c5f024a81fd1fa0
+-  __DATA_CONST.__auth_ptr: 0x8 sha256:3b1dfdb45418673628eb180f1380398b58135dbe3be60f892f17ea31a3e77c84
+-  UUID: C22F00D4-759D-3373-9FF3-052112C83066
+-  Functions: 2163
+-  Symbols:   3751
+-  CStrings:  976
++  __DATA_CONST.__mod_init_func: 0x110 sha256:42a6ebedb519a3c21be8615e27903c1ad0484cdc700f1afde5359f9440dfb77c
++  __DATA_CONST.__mod_term_func: 0x110 sha256:0eaf3b73da3668e233734f06a1818f86f9279553c33615b43ee62bb2b9e8ee07
++  __DATA_CONST.__const: 0xd2d0 sha256:c35e55ece4bcb7434c639a17ab019fb67c162f2310409738b05392ae56544640
++  __DATA_CONST.__kalloc_type: 0x1240 sha256:151908721c1f56213c2533f909110067341598feb9a1276cd53bd1e4d1c532d4
++  __DATA_CONST.__kalloc_var: 0x1090 sha256:aee97f73c7e8f356cf1fa42741a46368e669d5874b0b310fe982c80c4a319ff0
++  __DATA_CONST.__assert: 0x28 sha256:c277bac6ca64e186d2815660aee3f9d31d770f9e0c335b687f7f459b8d89382f
++  __DATA_CONST.__auth_got: 0x718 sha256:4b582679dc923b5291c68d0974bee4fc86eb2db0ab1597454c09e178b11a2af0
++  __DATA_CONST.__got: 0x130 sha256:3a6fcb36b0df2807aad176a04931bb24db87b3342816333a0f1ca73dd05f5e02
++  __DATA_CONST.__auth_ptr: 0x8 sha256:43358fbcc16aece7ad73cb91f4c86545075412e5a458624eed3117ca4a4f093f
++  UUID: 4EE72AA5-5486-3B33-9198-E0BA3254CF99
++  Functions: 2168
++  Symbols:   3757
++  CStrings:  980
+ 
+Symbols:
++ __ZN11IOGPUMemory31complete_replace_backing_lockedEv
++ __ZN14IOGPUSysMemory28replace_backing_bytes_lockedEP4taskyy
++ __ZN14IOGPUSysMemory29replace_backing_ranges_lockedEP4taskP14IOVirtualRangejb
++ __ZNK13IOGPUResource24owns_replaceable_backingEv
++ __ZNK13IOGPUResource30reject_non_replaceable_backingEPKc
++ __ZZN11IOGPUMemory11add_mappingEP14IOGPUMemoryMapE20kalloc_type_view_226
++ __ZZN11IOGPUMemory11add_mappingEP14IOGPUMemoryMapE20kalloc_type_view_232
++ __ZZN11IOGPUMemory4freeEvE20kalloc_type_view_167
++ __ZZN13IOGPUResource22replace_backing_rangesEP4taskyybbPyE11_os_log_fmt_1
++ __ZZN14IOGPUSysMemory22get_memory_descriptorsEjjPjE21kalloc_type_view_1124
++ __ZZN14IOGPUSysMemory22get_memory_descriptorsEjjPjE21kalloc_type_view_1155
++ __ZZN14IOGPUSysMemory28replace_backing_bytes_lockedEP4taskyyE11_os_log_fmt
++ __ZZN14IOGPUSysMemory28replace_backing_bytes_lockedEP4taskyyE11_os_log_fmt_0
++ __ZZN14IOGPUSysMemory28replace_backing_bytes_lockedEP4taskyyE11_os_log_fmt_1
++ __ZZN14IOGPUSysMemory29replace_backing_ranges_lockedEP4taskP14IOVirtualRangejbE11_os_log_fmt
++ __ZZN14IOGPUSysMemory29replace_backing_ranges_lockedEP4taskP14IOVirtualRangejbE11_os_log_fmt_0
++ __ZZN14IOGPUSysMemory29replace_backing_ranges_lockedEP4taskP14IOVirtualRangejbE11_os_log_fmt_1
++ __ZZN25IOGPUIOLibAllocatorPolicy4freeI14IOGPUMemoryKeyEEvRPT_mmE20kalloc_type_view_885
++ __ZZN25IOGPUIOLibAllocatorPolicy4freeI29IOGPUResourceCountedMapBucketEEvRPT_mmE20kalloc_type_view_885
++ __ZZN25IOGPUIOLibAllocatorPolicy4freeIyEEvRPT_mmE20kalloc_type_view_885
++ __ZZN25IOGPUIOLibAllocatorPolicy9allocZeroI14IOGPUMemoryKeyEEPT_mmE20kalloc_type_view_877
++ __ZZN25IOGPUIOLibAllocatorPolicy9allocZeroI29IOGPUResourceCountedMapBucketEEPT_mmE20kalloc_type_view_877
++ __ZZN25IOGPUIOLibAllocatorPolicy9allocZeroIyEEPT_mmE20kalloc_type_view_877
++ __ZZNK13IOGPUResource24owns_replaceable_backingEvE11_os_log_fmt
++ __ZZNK13IOGPUResource30reject_non_replaceable_backingEPKcE11_os_log_fmt
++ __ZZNK13IOGPUResource30reject_non_replaceable_backingEPKcE11_os_log_fmt_0
+- __ZZN11IOGPUMemory11add_mappingEP14IOGPUMemoryMapE20kalloc_type_view_225
+- __ZZN11IOGPUMemory11add_mappingEP14IOGPUMemoryMapE20kalloc_type_view_231
+- __ZZN11IOGPUMemory4freeEvE20kalloc_type_view_166
+- __ZZN13IOGPUResource14detach_backingEvE11_os_log_fmt_0
+- __ZZN13IOGPUResource22replace_backing_rangesEP4taskyybbPyE11_os_log_fmt_0
+- __ZZN13IOGPUResource22replace_backing_rangesEP4taskyybbPyE11_os_log_fmt_5
+- __ZZN14IOGPUSysMemory21replace_backing_bytesEP4taskyyE11_os_log_fmt
+- __ZZN14IOGPUSysMemory21replace_backing_bytesEP4taskyyE11_os_log_fmt_0
+- __ZZN14IOGPUSysMemory21replace_backing_bytesEP4taskyyE11_os_log_fmt_1
+- __ZZN14IOGPUSysMemory22get_memory_descriptorsEjjPjE21kalloc_type_view_1107
+- __ZZN14IOGPUSysMemory22get_memory_descriptorsEjjPjE21kalloc_type_view_1138
+- __ZZN14IOGPUSysMemory22replace_backing_rangesEP4taskP14IOVirtualRangejbE11_os_log_fmt
+- __ZZN14IOGPUSysMemory22replace_backing_rangesEP4taskP14IOVirtualRangejbE11_os_log_fmt_0
+- __ZZN14IOGPUSysMemory22replace_backing_rangesEP4taskP14IOVirtualRangejbE11_os_log_fmt_1
+- __ZZN25IOGPUIOLibAllocatorPolicy4freeI14IOGPUMemoryKeyEEvRPT_mmE20kalloc_type_view_879
+- __ZZN25IOGPUIOLibAllocatorPolicy4freeI29IOGPUResourceCountedMapBucketEEvRPT_mmE20kalloc_type_view_879
+- __ZZN25IOGPUIOLibAllocatorPolicy4freeIyEEvRPT_mmE20kalloc_type_view_879
+- __ZZN25IOGPUIOLibAllocatorPolicy9allocZeroI14IOGPUMemoryKeyEEPT_mmE20kalloc_type_view_871
+- __ZZN25IOGPUIOLibAllocatorPolicy9allocZeroI29IOGPUResourceCountedMapBucketEEPT_mmE20kalloc_type_view_871
+- __ZZN25IOGPUIOLibAllocatorPolicy9allocZeroIyEEPT_mmE20kalloc_type_view_871
+CStrings:
++ "%s: resource does not own its backing (resType=0x%x child=%u device_cache=%s)\n"
++ "%s: resource does not own its backing (resType=0x%x)\n"
++ "IOGPUSysMemory *IOGPUResource::owns_replaceable_backing() const"
++ "IOReturn IOGPUSysMemory::replace_backing_bytes_locked(task_t, mach_vm_address_t, uint64_t)"
++ "IOReturn IOGPUSysMemory::replace_backing_ranges_locked(task_t, IOAddressRange *, uint32_t, bool)"
++ "NO"
++ "YES"
+- "Attempting to detach memory for invalid resource type: %u\n"
+- "virtual IOReturn IOGPUSysMemory::replace_backing_bytes(task_t, mach_vm_address_t, uint64_t)"
+- "virtual IOReturn IOGPUSysMemory::replace_backing_ranges(task_t, IOAddressRange *, uint32_t, bool)"
+
+```

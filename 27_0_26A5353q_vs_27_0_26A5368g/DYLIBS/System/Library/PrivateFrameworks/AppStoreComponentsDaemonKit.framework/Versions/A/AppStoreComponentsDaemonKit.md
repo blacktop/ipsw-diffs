@@ -1,0 +1,220 @@
+## AppStoreComponentsDaemonKit
+
+> `/System/Library/PrivateFrameworks/AppStoreComponentsDaemonKit.framework/Versions/A/AppStoreComponentsDaemonKit`
+
+```diff
+
+-27.0.31.0.0
+-  __TEXT.__text: 0xf1a30 sha256:95df3d5d538ae970a9fb0a0448ebee993e84c688be5e345109206afae3800b0c
+-  __TEXT.__objc_methlist: 0x4628 sha256:d82f95c209fa87cfc549cdd3130eb4b9b4cc12eff42338524e74cbffb4688147
+-  __TEXT.__const: 0x6870 sha256:003d6e3b32e79a37d78327ee5f978214943796b1f3a830a912cca8531a2da033
+-  __TEXT.__cstring: 0x662c sha256:a777d1c80151d146f188a4c8d5930ed604bd37d63d078f3b9836150bdc2e7090
+-  __TEXT.__oslogstring: 0x1c97 sha256:a625944ac3ed0fb6e6f068773fe0de23a7179cfb75809095fb7e4f2b84f10d17
++27.0.38.0.0
++  __TEXT.__text: 0xf20e0 sha256:12f80c372ec0eba0c10b363404a61568086494373ca57e5ee5e2974b73deb29e
++  __TEXT.__objc_methlist: 0x4630 sha256:246d3cb339bfd2de6e47edf3d121966ebf2c66c45c17b03cae913b097704afbb
++  __TEXT.__const: 0x68d0 sha256:f92873a586230a6d650129199527769dfc51ef7e54d3cf86333021f6aa517d14
++  __TEXT.__cstring: 0x658c sha256:edf49ab3dae4328adf88a2d521d2d0d93c398d410de1cea5a5d25d02b6f24246
++  __TEXT.__oslogstring: 0x1c97 sha256:1289d7f32f642f24be4412d7be3e0791297a15af1775557f8a3dae0d4a49b069
+   __TEXT.__gcc_except_tab: 0x2c sha256:192f14088686397e0ddc8e331aab82b24f110a7efe80cf7a1c253352d029fbb0
+-  __TEXT.__constg_swiftt: 0x1968 sha256:0eac2813d63f20ad968e76ce87798b471820bf7a6b8f89085760cc31e12517fa
+-  __TEXT.__swift5_typeref: 0x30f9 sha256:550370e38c3f1bac78e39b76ce1ffba73efe7adb716c4af32f5498987ad7c412
+-  __TEXT.__swift5_fieldmd: 0x1668 sha256:27c0a6f12d4bc952ee5071e580aadc6492c955b8b8c1815419879049061647a9
+-  __TEXT.__swift5_builtin: 0x1cc sha256:05c4d4fe5e62939b2ce2121bedf9b2e65da37340ff1b5cfaf2263bb423ae79be
+-  __TEXT.__swift5_reflstr: 0x1186 sha256:489b1002a191e5cc36eb490edd538b610fbb679be595c663d0a6d75b20d49dd1
+-  __TEXT.__swift5_assocty: 0x6a8 sha256:761d53b72aaa358fc972035df2b60a2844b2193c25aebc2002ff056d5413f7a5
+-  __TEXT.__swift5_capture: 0x17e8 sha256:2c447659d6996451ebc12964eec03d44e4a733519c60a2be8c713a3d4f30d421
+-  __TEXT.__swift5_proto: 0x404 sha256:48713bece1e571957e41751e4946ac23928011dbb1feae8e16056a45566ce903
+-  __TEXT.__swift5_types: 0x21c sha256:04475d013bce7cdca792a0bc88a893b9236106beca4b1beadbb456b4359dfd26
+-  __TEXT.__swift_as_entry: 0x194 sha256:777dca4e28a63119748692710553f5ffda0202f96eb8d4f370fcaf73baf06986
+-  __TEXT.__swift_as_ret: 0x1d4 sha256:dd657717742e33829f125e7a1a8752199d5d933e4b06efdfdad5d6cad50dc6b5
+-  __TEXT.__swift_as_cont: 0x434 sha256:aa916b1c640b63bc8ceb2be1689210134153a200464da4a0ca819d778a344401
+-  __TEXT.__swift5_mpenum: 0x24 sha256:4af0d9700eabe303037a80eaa11df351300bb47e12838e423f0100d7b9a18f3d
+-  __TEXT.__swift5_protos: 0x40 sha256:eb3f7bf962751ff47ce0d962f0024bca3dc49275385b9d658945c78fc7e0d5dc
+-  __TEXT.__unwind_info: 0x33a0 sha256:8415a1f0a6d1d2bc5c452672483bef2601dd5623abe8b9a677f705dacd653bdf
+-  __TEXT.__eh_frame: 0x68cc sha256:907e913f96587778a811685948407d1b8da37fa5124c2728a5329359051c5bb1
++  __TEXT.__constg_swiftt: 0x19d0 sha256:526f17a28eb14a1a78c1f03baf48df8ffc6366497baaa0f3bf50e8b80d5bc1f3
++  __TEXT.__swift5_typeref: 0x311d sha256:7cd66528377223f928c825b31303c6f15760608e3f39f7d2d7f11219c29febcf
++  __TEXT.__swift5_fieldmd: 0x1694 sha256:a4bbe8a296194cfac4c36d4f0aa0f6162bdeca47d039e9cd7bf4058ec459aa6c
++  __TEXT.__swift5_builtin: 0x1cc sha256:2af7ae520e4c0539e5404e84f1ec2884dbd33692bf7810a9d1423634a6d1aed0
++  __TEXT.__swift5_reflstr: 0x1160 sha256:096fb0b7e6648a102a53be430644cd5801318d1bdc6ffa9058e6723fc5ae1ea5
++  __TEXT.__swift5_assocty: 0x6a8 sha256:ebd9444c66b0474839a5d8f0152171e66de4f376ee535c26a08fefbc03738ba3
++  __TEXT.__swift5_capture: 0x17c0 sha256:f41cd085ff622f290955f8b7146562428ec2c0c8618455b3d4be9defc07298b5
++  __TEXT.__swift5_proto: 0x404 sha256:4362e86c91d8e4ffe17420fcdadbebf4779e0a9bf4691b016df4ff358cc1a3b8
++  __TEXT.__swift5_types: 0x224 sha256:14763723c9917e886dbd867e4b95e1f46f66009c70d20a0be74edb2c28cd7fe8
++  __TEXT.__swift_as_entry: 0x188 sha256:48fabe920997a06385c50cd3e9ee7397cc83bc0977b618ab0b489ce1a91ea0e1
++  __TEXT.__swift_as_ret: 0x1c8 sha256:68ecbd717dad5800ca39b5325c4c0c70a013a8e6896da084ff18fdeb237d2647
++  __TEXT.__swift_as_cont: 0x40c sha256:3309636717908a28057193955db89e43c2f7ebca570f7528422101782f419363
++  __TEXT.__swift5_mpenum: 0x24 sha256:00be199cc98290b44b04faa87d9ce6cfd2837d736607ffe0ca337e1fcb2f9a63
++  __TEXT.__swift5_protos: 0x40 sha256:d7473ac79c0c97f105fc9619bebfed132ddec9a8a5bb8f842ae41d7cd68a7a69
++  __TEXT.__unwind_info: 0x3368 sha256:b25ff02c726642e8bb013d00e7fa98bd17c410cf0e1d877eb510b400209403db
++  __TEXT.__eh_frame: 0x66bc sha256:9dd2aea06ce74ad6da0f3f276ef88a0768a2d26a9437065c25eb6032ce186d7d
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x5a0 sha256:8e911fc38982e659ae4e8be7790ad1260e0ab3bafc27f7d73afbff0630749692
+-  __DATA_CONST.__objc_classlist: 0x310 sha256:e09ef04dc157e637be3e883162bc10b5351798a5474f9a33c22d53669d053185
+-  __DATA_CONST.__objc_catlist: 0x28 sha256:03e8df948c93ea03f8ed11069bafccb3a23c471ced7cd57e54da2ec1921cb53a
+-  __DATA_CONST.__objc_protolist: 0x1b0 sha256:8b448d79ed6fca45129b440e25b6eb8e58056bf4aeeb5025db2f1b243d7d7597
++  __DATA_CONST.__const: 0x5a8 sha256:c07a30de6ec56663a37733c636092d119ba033feaf697e647df116e11503bccf
++  __DATA_CONST.__objc_classlist: 0x318 sha256:1db88b5dbcd105dce6837a555177d2421eefd2e023f039b77f7b91489df5b4de
++  __DATA_CONST.__objc_catlist: 0x28 sha256:d7c06290d9ff737a36d59462e3101a6744fc26ab9beac9a5d2e8319efe2a6c53
++  __DATA_CONST.__objc_protolist: 0x1b0 sha256:60f6ea6f9400954aa313da118929bced525addf01a73a2e81b6a2754631af8f9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x1d20 sha256:187b0c2320ee73c0199b50b73a85153a7645ee37af61663c8186e6ed750a0772
+-  __DATA_CONST.__objc_protorefs: 0x140 sha256:e28d12b4aeffd07756defec2fca21ab19896908a48b6b01bb0837e55f936f728
+-  __DATA_CONST.__objc_superrefs: 0x1d8 sha256:4747caedf92ba1bdb65222af34dda22cfd2eb1dcde9e944128d758419956459b
+-  __DATA_CONST.__objc_arraydata: 0x10 sha256:53d3275baf324a263444116b23441303173a0f566a26a97d7a1cbdfdb40963f6
+-  __DATA_CONST.__got: 0xc70 sha256:851f4c0c9c125bad4bba9913416d37721ba774ff11870d5a3c796f12c4d56c8b
+-  __AUTH_CONST.__const: 0x59f8 sha256:6c6aa69d1b51220bdfc01393b5f82f690891341a3d6e622b7fa7e97d82490432
+-  __AUTH_CONST.__cfstring: 0x37e0 sha256:fa3d24a5adb72c1214702cb8842a9fb7d39f64a301e6db71cc88ff8cd0f9a79b
+-  __AUTH_CONST.__objc_const: 0x9f18 sha256:1a4a572e3a2cd8d0498af6ed25beb6e4560ae04eef97149f67f17df859b520bc
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:5e4096fb8bb8f9bf165f77f9caa7044c139fc9fad94b9a2fc22641550a701aa1
+-  __AUTH_CONST.__auth_got: 0x1b60 sha256:4306acc3609b02b9b1912b4ef1ed8fd92ff85d9ccdd258d5f16877d90c2c61d5
+-  __AUTH.__objc_data: 0xb90 sha256:05bb63cc54cd98fdd8eeab57a441739b056df63621d93a0aaa5646a60269f062
+-  __AUTH.__data: 0x2f0 sha256:6493492a334834730f5eec803923c87b9fd403050dcec1b1429984bd63f9f951
+-  __DATA.__objc_ivar: 0x3c4 sha256:4a786d22fa7a088c9cbb07e22ebfde5dd0a2e5023e4672c8c99265e0263d13b8
+-  __DATA.__data: 0x1710 sha256:7c18db2c679093830b8b09625b792ffc079e6af06ce708c65e8b79c89c791ec7
++  __DATA_CONST.__objc_selrefs: 0x1d30 sha256:f2b33d9ffae61c1852c294745d2d2cdc49922f13faed091d97a91d3077efd685
++  __DATA_CONST.__objc_protorefs: 0x140 sha256:0608fe949c55bced4aeb5dfaba24f9e9f9f40a60aaee83cbc373d9dc2d0badde
++  __DATA_CONST.__objc_superrefs: 0x1d8 sha256:10817475a957b23d307b09cbeaa1331b68bd1e7a113b846f565e9fc7655828b5
++  __DATA_CONST.__objc_arraydata: 0x10 sha256:90c385cfe0bd84e17d7dba69c5ae34b346107c146c3bd0a4e38eeb89d7c6c266
++  __DATA_CONST.__got: 0xc70 sha256:f7c20ec625009ad41f276d2f5d7c6161222171bf3dbeb06af201b17e9f9366fd
++  __AUTH_CONST.__const: 0x5a08 sha256:ed9f81571af070f28980fb4e842eec531c0b8c1faa96ca93befb0d78e46c2a15
++  __AUTH_CONST.__cfstring: 0x3820 sha256:b3444dff7217514c72121ddd2ffb2ce992737294f1e1fb5665d23c28b9634db6
++  __AUTH_CONST.__objc_const: 0x9f98 sha256:f89a467a05a9ad4c7d1d0142927d9d42c7e8d4cc8690fa201db24e01052f3cb9
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:19a58399739a9444cdb04368f2d9dfb24acc2838643f8ee37772961832470722
++  __AUTH_CONST.__auth_got: 0x1b68 sha256:a447d5ef2f0e0ebfb6acb01a9da5dbc7fffe2128796221c7444ebd67cce04dab
++  __AUTH.__objc_data: 0xb90 sha256:02c65966732a20cbc23c9f68837c918a739727ac4b5051a61a24e4f1a3f31b63
++  __AUTH.__data: 0x458 sha256:55ee45a504fb7b757187807e6984e37b5770b7e72c9c957c9042640554abf3b7
++  __DATA.__objc_ivar: 0x3c8 sha256:6d2a1fdf7acddc81f744e307c09f7380009afbbebf7ec309e8ae4e77b9fd9cdc
++  __DATA.__data: 0x1758 sha256:bdbf619e374ec14060ce39ec1ef5c3528b44b6adea34040d59a9e20e1409bed6
+   __DATA.__bss: 0x5090 sha256:02ada00324796e23004edb591feec40ebfec7cd5fc3f176021beee1797d112ef
+-  __DATA.__common: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __DATA_DIRTY.__objc_data: 0x1c20 sha256:09ed7592d8623b6cb9528e306b52a61ddf3a0d51129d297fe11914bb477fc053
+-  __DATA_DIRTY.__data: 0x2148 sha256:586b4459eaac4d6d682fa194711415c4def3081a14d8500b3fa42f5d6cd98ea3
++  __DATA.__common: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
++  __DATA_DIRTY.__objc_data: 0x1c18 sha256:ac14eb593244e47d9af80ae4709daa487f6846cc07e694b80237f44629dbe659
++  __DATA_DIRTY.__data: 0x2078 sha256:e4caeeb10b098e1a3fd09dfb3b400076525974e638b461be114a0a799a47cd59
+   __DATA_DIRTY.__bss: 0x15e0 sha256:1677f96c3d965a44953cb644796fd1137be5df37e38513fd5587e55751f23880
+   __DATA_DIRTY.__common: 0xf8 sha256:b3ab6982980fddf460a2f47adb428475ce9afa89092fd034499d017a35993f05
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DA95FA4E-E934-3346-9EC1-B8E4428EA7C9
+-  Functions: 4186
+-  Symbols:   5067
+-  CStrings:  1432
++  UUID: 786E42BF-28AA-32C0-A88F-37A680A603EF
++  Functions: 4192
++  Symbols:   5079
++  CStrings:  1435
+ 
+Symbols:
++ -[ASCIAPOffer initWithID:titles:subtitles:flags:ageRating:metrics:productIdentifier:productName:appName:appAdamId:appBundleId:subscriptionFamilyId:minimumShortVersionSupportingInAppPurchaseFlow:additionalBuyParams:streamlinedOffer:]
++ -[ASCIAPOffer subscriptionFamilyId]
++ OBJC_IVAR_$_ASCIAPOffer._subscriptionFamilyId
++ _ASCOfferTitleVariantPurchased
++ __DATA__TtC27AppStoreComponentsDaemonKit24ASDInAppPurchaseDatabase
++ __DATA__TtC27AppStoreComponentsDaemonKit31ASDInAppPurchaseStateController
++ __IVARS__TtC27AppStoreComponentsDaemonKit31ASDInAppPurchaseStateController
++ __METACLASS_DATA__TtC27AppStoreComponentsDaemonKit24ASDInAppPurchaseDatabase
++ __METACLASS_DATA__TtC27AppStoreComponentsDaemonKit31ASDInAppPurchaseStateController
++ _objc_msgSend$hasUsedFreeOffer
++ _objc_msgSend$hasUsedIntroPricingOffer
++ _objc_msgSend$initWithID:titles:subtitles:flags:ageRating:metrics:productIdentifier:productName:appName:appAdamId:appBundleId:subscriptionFamilyId:minimumShortVersionSupportingInAppPurchaseFlow:additionalBuyParams:streamlinedOffer:
++ _objc_msgSend$initWithNumberValue:
++ _objc_msgSend$subscriptionFamilyId
++ _swift_runtimeSupportsNoncopyableTypes
++ _symbolic $s27AppStoreComponentsDaemonKit02InA23PurchaseStateControllerP
++ _symbolic Ieg_
++ _symbolic SDySo8NSNumberCSo10ASDIAPInfoCG
++ _symbolic So8NSNumberC_So10ASDIAPInfoCt
++ _symbolic _____ 27AppStoreComponentsDaemonKit05ASDInA16PurchaseDatabaseC
++ _symbolic _____ 27AppStoreComponentsDaemonKit05ASDInA23PurchaseStateControllerC
++ _symbolic _____ 27AppStoreComponentsDaemonKit05ASDInA23PurchaseStateControllerC0H033_88CAC76BBD8C2F405DC135248702BDD0LLV
++ _symbolic _____ 27AppStoreComponentsDaemonKit18XPCConnectionOwnerC5StateV
++ _symbolic _____SgXw 27AppStoreComponentsDaemonKit05ASDInA23PurchaseStateControllerC
++ _symbolic _____SgXwz_Xx 27AppStoreComponentsDaemonKit05ASDInA23PurchaseStateControllerC
++ _symbolic ______p 27AppStoreComponentsDaemonKit02InA23PurchaseStateControllerP
++ _symbolic _____ySo8NSNumberCSo10ASDIAPInfoCG s18_DictionaryStorageC
++ _symbolic _____ySo8NSNumberC_So10ASDIAPInfoCtG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 27AppStoreComponentsDaemonKit05ASDInC23PurchaseStateControllerC0J033_88CAC76BBD8C2F405DC135248702BDD0LLV
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 27AppStoreComponentsDaemonKit18XPCConnectionOwnerC5StateV
++ _symbolic _____yytG 9JetEngine10AsyncEventC
++ _symbolic _____yytG 9JetEngine17EventSubscriptionV
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
++ _type_layout_string 27AppStoreComponentsDaemonKit05ASDInA23PurchaseStateControllerC0H033_88CAC76BBD8C2F405DC135248702BDD0LLV
++ _type_layout_string 27AppStoreComponentsDaemonKit18XPCConnectionOwnerC5StateV
++ get_type_metadata 15Synchronization5MutexVy27AppStoreComponentsDaemonKit05ASDInC23PurchaseStateControllerC0J033_88CAC76BBD8C2F405DC135248702BDD0LLVG noncopyable.3
++ get_type_metadata 15Synchronization5MutexVy27AppStoreComponentsDaemonKit18XPCConnectionOwnerC5StateVG noncopyable.2
+- -[ASCIAPOffer initWithID:titles:subtitles:flags:ageRating:metrics:productIdentifier:productName:appName:appAdamId:appBundleId:minimumShortVersionSupportingInAppPurchaseFlow:additionalBuyParams:streamlinedOffer:]
+- __DATA__TtC27AppStoreComponentsDaemonKit39ASDContingentPricingSubscriptionManager
+- __IVARS__TtC27AppStoreComponentsDaemonKit39ASDContingentPricingSubscriptionManager
+- __METACLASS_DATA__TtC27AppStoreComponentsDaemonKit39ASDContingentPricingSubscriptionManager
+- _objc_msgSend$initWithID:titles:subtitles:flags:ageRating:metrics:productIdentifier:productName:appName:appAdamId:appBundleId:minimumShortVersionSupportingInAppPurchaseFlow:additionalBuyParams:streamlinedOffer:
+- _objc_msgSend$refreshIAPsForActiveAccountWithCompletionHandler:
+- _symbolic $s27AppStoreComponentsDaemonKit34ContingentOfferSubscriptionManagerP
+- _symbolic Sccyyt______pG s5ErrorP
+- _symbolic ShySo8NSNumberCGIegg_
+- _symbolic ShySo8NSNumberCGSg
+- _symbolic ShySo8NSNumberCGSgIeAgHr_
+- _symbolic _____ 27AppStoreComponentsDaemonKit39ASDContingentPricingSubscriptionManagerC
+- _symbolic _____ 27AppStoreComponentsDaemonKit39ASDContingentPricingSubscriptionManagerC5State33_D9E03E4480FEA50667E941DD5B832D35LLV
+- _symbolic _____ 8AppState6AdamIDV
+- _symbolic _____Sg 8AppState6AdamIDV
+- _symbolic _____SgXw 27AppStoreComponentsDaemonKit39ASDContingentPricingSubscriptionManagerC
+- _symbolic _____SgXwz_Xx 27AppStoreComponentsDaemonKit39ASDContingentPricingSubscriptionManagerC
+- _symbolic _____XDXMT 27AppStoreComponentsDaemonKit39ASDContingentPricingSubscriptionManagerC
+- _symbolic ______p 27AppStoreComponentsDaemonKit34ContingentOfferSubscriptionManagerP
+- _symbolic _____yShySo8NSNumberCGG 9JetEngine10AsyncEventC
+- _symbolic _____yShySo8NSNumberCGG 9JetEngine17EventSubscriptionV
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 27AppStoreComponentsDaemonKit39ASDContingentPricingSubscriptionManagerC5State33_D9E03E4480FEA50667E941DD5B832D35LLV
+- _symbolic _____y__________G s13ManagedBufferCsRi__rlE 27AppStoreComponentsDaemonKit39ASDContingentPricingSubscriptionManagerC5State33_D9E03E4480FEA50667E941DD5B832D35LLV So16os_unfair_lock_sV
+- _type_layout_string 27AppStoreComponentsDaemonKit39ASDContingentPricingSubscriptionManagerC5State33_D9E03E4480FEA50667E941DD5B832D35LLV
+- block_copy_helper.11
+- block_copy_helper.20
+- block_descriptor.13
+- block_descriptor.22
+- block_destroy_helper.12
+- block_destroy_helper.21
+CStrings:
++ " as an active recurring subscription"
++ "ASCOfferIsInAppPurchase"
++ "Failed to refresh IAP data, reason: "
++ "Finished refreshing IAP data"
++ "OfferButton.Title.Subscribed"
++ "Received kASDIAPInfoDatabaseUpdatedNotification"
++ "Refreshing IAP data"
++ "Subscription without a family ID encountered"
++ "Updated IAP state"
++ "Updating IAP state"
++ "Updating offers for IAP state change"
++ "rdar://158957691 workaround – temporarily marking "
++ "subscriptionFamilyId"
+- "Adding temporary active recurring IAP subscription: "
+- "Contingent Pricing Purchases"
+- "Could not update Contingent Offer subscriptions state, reason: "
+- "Daemon.keepAlive"
+- "Error fetching active recurring IAP subscriptions from asd: "
+- "Failed to update Contingent Offer subscription state during bootstrap, reason: "
+- "Refreshing active recurring IAP subscriptions"
+- "Successfully fetched active recurring IAP subscriptions using asd: "
+- "Updated Contingent Offer subscriptions state to "
+- "Updating Contingent Offer subscriptions state"
+- "Updating offers for contingent purchases change"
+- "kASDIAPInfoDatabaseUpdatedNotification received"
+
+```

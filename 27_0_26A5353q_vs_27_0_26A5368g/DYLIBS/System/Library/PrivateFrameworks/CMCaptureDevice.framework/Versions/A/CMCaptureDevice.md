@@ -1,0 +1,59 @@
+## CMCaptureDevice
+
+> `/System/Library/PrivateFrameworks/CMCaptureDevice.framework/Versions/A/CMCaptureDevice`
+
+```diff
+
+-748.0.0.0.2
+-  __TEXT.__text: 0x424 sha256:9c83abfc5dd5440cef7c752e20efc36180002e0357d6ed0a78f3fc9c00162c70
+-  __TEXT.__cstring: 0xd13 sha256:297ed4d748e992c53e6079dc64117ff08f3c73c5ddb3d393544ccbada2610f4e
++753.0.0.121.4
++  __TEXT.__text: 0x424 sha256:002c6cdd2f7379a8c98c7ed207ea0582a2e8ece7008902ccb72a35ad1dcdf5f9
++  __TEXT.__cstring: 0xd15 sha256:9e06ea5998236d7dccddb5ea8904ff6d45cecaac34b77ad4056b95dd034844b5
+   __TEXT.__unwind_info: 0x80 sha256:e1c26f676c83690dbdf1eaf4812820ec3c53c3e7cc1cbc413a453520d7d42ee6
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x510 sha256:e66bcb728e6b1f4e7451535d043e440d2e708efcb1fe6d754b9003f06b84ff58
++  __DATA_CONST.__const: 0x510 sha256:f65d65673788892e5e277c99d1f80b2704ca8a77dc2bb14a8103023458862d4d
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xa0 sha256:db8b1b95d181b029bfcc34b2da0d8049cdfb64499475e56ba0944fa467d8b8af
+-  __AUTH_CONST.__cfstring: 0x1300 sha256:fd7a9ccd31c5d2b93c8a28394eb212bd274642143ac5b3a7b1899f8ec1444748
++  __AUTH_CONST.__const: 0xa0 sha256:7735257ed2c06c91551234195a74c5dc4d74cdd358fc47851fdf4846b9d78a83
++  __AUTH_CONST.__cfstring: 0x1300 sha256:b5c685ce45d661156e50f4fa9fdbc3ce2cb3adb6bab4239f828621487e24784f
+   __AUTH_CONST.__auth_got: 0x0
+-  __DATA.__data: 0x8 sha256:451724004ccbdd0b18d61f02f76cc349865d7287e84439a69e3b33a8de035996
++  __DATA.__data: 0x8 sha256:47efeee0db34c6cd78eb210987b666b3147c7a981518679b719096975fd4bc5c
+   __DATA_DIRTY.__data: 0x30 sha256:6a02f10fd9678c104f33dcbf52d942dfe9b4abd1856577ecf3d97a16b8863b6d
+   __DATA_DIRTY.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 89A801C7-C2D5-3CEA-9A9F-25BCF023104A
++  UUID: 7BB05BC3-0C85-3A21-A283-4B8D199418F8
+   Functions: 22
+   Symbols:   206
+   CStrings:  310
+Functions:
+~ _FigCaptureISPProcessingSessionGetClassID : sha256 757420baa15bc9088e0ad6a4e271de7dbbc1a8d6996c94d36c9474b053e4b45a -> 0ce3a78e418539e69cff5605587502e123a84eb641a5f76da0882230e82e78d1
+~ ___FigCaptureISPProcessingSessionGetClassID_block_invoke : sha256 d210f0715ea59c1cbbbd1ae7e5161b181e008a690875abfbc4ee2b4a0b3d1bd6 -> f33bebb9edbc57f8207656ea3b8ad29452b3a07da31b0ddcde7870601b529ed8
+~ _FigCaptureISPProcessingSessionGetTypeID : sha256 0d54d1893238f76171f939fe3faac37a607a5eb1ff0c6cc0820b055af1cd4669 -> 1ce51602f88f579dfda01c9efc067c0493f196c0b13f062ccaaaf27314222cf8
+~ _FigCaptureISPProcessingSessionCopyFormattingDesc : sha256 2d6198d8e983d33c7eceab9d9872cb1e1f211ec310a3dda338e7e25d1505c2c5 -> 3606311040a41cd8e8b2155fe0b3ae5cdaa3b20ce305a70fe2e9685b6154f048
+~ _OUTLINED_FUNCTION_0 : sha256 288fcc9bf316cb4541c233ceb23fad4a48350248415fde734a923cf77b82f2a7 -> 25ba78c0bd85a5f0c190bba4a7be2ab6eb5903155789e9fe929d07a5cf697137
+~ _FigCaptureDeviceGetClassID : sha256 990bd30f764a9cf11fbd7fbea7b190fc4dab32661310bb10956d9d818a62b8dd -> b94f39720f5acfa2252fbaf3c166e2d526125bce267bec9fe61e1e18f6a42658
+~ _RegisterFigCaptureDeviceType : sha256 9063e101dc90a7365d931c85c167970a435a49d2b10a209368c5a362746ef12c -> ea5be5806710ea5bfdbd4df749224ee90b5c7de720ffe551adf608ed2c5ecf15
+~ _FigCaptureDeviceGetTypeID : sha256 a4978b015ff3879b315e4d28a1e3a4d63f033dba790cd2886c8c60ab72cd9408 -> bc3f319ddc8a9e77972ef750e16433d843aa0a33898e8cb8fd6edccf184a8094
+~ _FigCaptureDeviceGetNotificationCenter : sha256 fda0b61098b7751322af1b450eb92127b68abfaf3d79941847514935ccb99da2 -> 1a439f974f22f262d201d906b5fe227210e7c802cc1c682c487b877c2e430e97
+~ _FigCaptureStreamGetClassID : sha256 cdbc5c1210cab8df2c37e697933f0ebcd2f9aba897fe208dea18ea88d4cd5124 -> e19d73f2316a587e2aa1d95d395027631bd1767aabbf38bac1bf0a50388074b5
+~ _RegisterFigCaptureStreamType : sha256 6e64659ea6bdf5357396fd98507f6ec13eeb0e6ba7aafc8666adcb61a8eca978 -> c5d4eead372552cc4819e57138173192d438be5bcc671030f6974130e654101f
+~ _FigCaptureStreamGetTypeID : sha256 3f5eb3acf14fb56fa4f8fc4fe0814c5dc995329c7b1c061aabcbc84d19bacd55 -> 9acc27f713c350a7e6982eb9e4461fe5479ed47d02c3dcaf0c89056cf7e09189
+~ _FigCaptureSynchronizedStreamsGroupGetClassID : sha256 b54a91bfd2780d0403e00ef8744cbbdec1c641812f00196511bd6c69cc2311ec -> 04a686fab43c5b818dba5370fd113cf8bf637686ea784479f2b5106ad05bcbc9
+~ _RegisterFigCaptureSynchronizedStreamsGroupType : sha256 5170183f2e7b0f111cb2324555536884c0e933f4bb0379de1d0110bed6bfe921 -> ff10c1a8e3858aafa5d942a980b892dc3106ae7580f9c63c8efccfba7b6617f0
+~ _FigCaptureSynchronizedStreamsGroupGetTypeID : sha256 ce5367dc38a461889fbfe8f003c21733e474d8e075c96f9a63c878a0ab37ed6d -> 0875cd6643439fb3f2e2d9430b6ed7e3830f71c099b8dfca34be1560995da78c
+~ _FigCaptureDeviceCopyFormattingDesc : sha256 ef1323cf2b50e30ff49288055f796373969900e65531c99b014e893180a82475 -> ae975a03afd8d1235a0640cfba2b8a39c46594256fb19e4669a9236be2ae5b18
+~ _FigCaptureStreamCopyFormattingDesc : sha256 407e9049ce8bb16e8cd1bf23a8171474a3497dc6557c3162597a58bfb5530d6f -> 56a7b61be51907bb7d689b3cddcde904d67b898291060474a093afa619730dad
+~ _FigCaptureSynchronizedStreamsGroupCopyFormattingDesc : sha256 25c207a4819af375395abf6e6ad0f0203e6ddd6fd263786921414f78776e59aa -> 39ae2bdbe15acc3a6edabd81796979d8b059a342f782c2711a61b018222a750c
+CStrings:
++ "description=CameraCapture_CMDevice-753.0.0.121.4"
+- "description=CameraCapture_CMDevice-748.0.0.0.2"
+
+```

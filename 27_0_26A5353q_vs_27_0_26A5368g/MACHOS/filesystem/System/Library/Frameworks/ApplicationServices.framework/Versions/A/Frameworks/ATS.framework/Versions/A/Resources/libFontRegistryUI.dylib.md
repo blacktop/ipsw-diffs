@@ -1,0 +1,78 @@
+## libFontRegistryUI.dylib
+
+> `/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistryUI.dylib`
+
+```diff
+
+-418.0.0.0.0
+-  __TEXT.__text: 0x4258 sha256:011cb2c0a50ba531596692f599c289ed2ecf8969f94f88902a611d250229668a
++420.0.0.0.0
++  __TEXT.__text: 0x4300 sha256:439f3cc41c51b1329e81421a1cfc61bd49863cceec6cc6f6ba16447bf63b13bd
+   __TEXT.__const: 0x4a sha256:e8bc3d2f04079464b7d4eecd1fedc47506aa1ba5fa59e8001016e7cf43edd67a
+-  __TEXT.__gcc_except_tab: 0x360 sha256:183a7c56fac578b99e53569bb274e6976df247223c82b21c4da8c2f8387c7360
++  __TEXT.__gcc_except_tab: 0x3b4 sha256:7b366fa1ae90a544f5e2199a772056a89ea7ec4caeabdf23e1a0dbaf81c10ac6
+   __TEXT.__cstring: 0x407 sha256:2472c2177187c53f5fd0118f21fb6f6975f4f8826061a3295efb1cb0e9464d1f
+   __TEXT.__oslogstring: 0x3 sha256:2f3a3f9b55f5df846abf81c7d13ff74998bdda8664df664173220675150020ff
+-  __TEXT.__unwind_info: 0x280 sha256:bdb49a13a1ed7f7782ec74414bb9470dac32f9a98b3f41714d0399c35dda4794
++  __TEXT.__unwind_info: 0x2a8 sha256:970941f62d76d25790a82ff9d9f69e5d19e9c83c48d9b995f9ed1c6001fb892c
+   __TEXT.__objc_stubs: 0x280 sha256:eefc493b4a47c05b6978f4666d54135bc4f4787c51c92ff24ac4951b60fa5ba5
+-  __TEXT.__auth_stubs: 0x630 sha256:54f5adbc76d013d07d0af7e343c327bbc6eedb14ebfcc2d25234bea21cdff009
++  __TEXT.__auth_stubs: 0x650 sha256:8f8d0b74fc73fa6b8097edf4ff121443ee4857bd74946071615d426c57b1e91d
+   __TEXT.__objc_methname: 0x169 sha256:eee938d44e9123493d62874aa918f015767d96f1721ff439e8c439efbf1ac6d8
+-  __DATA_CONST.__const: 0x70 sha256:63f1bebb7bc57129289caa9d38e5b676969f27b162bf381eecab81f956a06931
++  __DATA_CONST.__const: 0x70 sha256:ea63b9830b11be97773941b129d7f9a9f19f047d68c9ed32cb0560c68be72e5f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__weak_got: 0x8 sha256:161f4c0b1a18a0501127332c387e782b5acc10c6c7a9f7e494c1e3394c49bad5
+-  __DATA_CONST.__objc_selrefs: 0xa0 sha256:e3a3a90c2cd3ae786590beda7ec768b6a4ae823b7a70ae6d3e137162aeb4529d
++  __DATA_CONST.__objc_selrefs: 0xa0 sha256:cc38eebfc5fd71aabe00f0b674ec54fea07cc0987a31915409eadfee93e0e9c4
+   __DATA_CONST.__got: 0xf8 sha256:080bb4fc9d3f79fca6c5194f85cca35ccfbc0d7fe74e01d956956339664bd08e
+-  __AUTH_CONST.__const: 0x220 sha256:043049e1aa0cb6e3df4903b8baf5ff2ef5c3ddc2dd50d21d9b692e5438f03b5a
+-  __AUTH_CONST.__cfstring: 0x360 sha256:e06e63663d0489fbee8588dce68aab2677bbd0cda7dc992512699e937e15a02d
++  __AUTH_CONST.__const: 0x220 sha256:11328c24cba3f1dc56f7818fe590e8e82dbd326ae01dc59a78a5aea3b6001c88
++  __AUTH_CONST.__cfstring: 0x360 sha256:08c450c9b99a1edeba9a46e84abc958c53d7d4b4bff277a36555c3fc1fe64056
+   __AUTH_CONST.__weak_auth_got: 0x18 sha256:32bbc50e6b01b7ebe99968fb2d4036844d0033798042f24918fd20585fc24242
+-  __AUTH_CONST.__auth_got: 0x310 sha256:930948a2ae3a355f9b4c01047754eb15bcf9c1b67b689876929d5167985e7d6a
++  __AUTH_CONST.__auth_got: 0x320 sha256:8119572b352f3c7c59b51f3040ef01e09602505abaf03033e9cb4592d927b813
+   __DATA.__bss: 0x28 sha256:c9d8e994c0517e8516eb60adc44c2b0c367b1a37a8c2cd78c67507efc43412cf
+   __DATA.__common: 0x8 sha256:ba1271f1dba2e7ab633bbdbb087d3ace2abd997764807a9f309ef65f17e20018
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A885BC41-58FB-35C3-BDCE-FD23AF7EB3A4
+-  Functions: 102
+-  Symbols:   313
++  UUID: B88B1AEA-8CCC-3748-B111-D5840EE1394E
++  Functions: 103
++  Symbols:   320
+   CStrings:  94
+ 
+Symbols:
++ GCC_except_table47
++ GCC_except_table5
++ __ZN19TCFStringUniquerImpC2Ev
++ __ZNK16TCFStringUniquer16CopyUniqueStringEPKhm
++ __ZNK19TCFStringUniquerImp16CopyUniqueStringEPK10__CFString
++ __ZNK19TCFStringUniquerImp16CopyUniqueStringEPKhm
++ __ZNSt12length_errorC1B9nqe220106EPKc
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPKvEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9nqe220106EPKc
++ __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe220106Ev
++ __ZSt28__throw_bad_array_new_lengthB9nqe220106v
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain
++ _objc_retainAutorelease
+- __ZNK16TCFStringUniquer15GetUniqueStringEPKhm
+- __ZNK19TCFStringUniquerImp15GetUniqueStringEPK10__CFString
+- __ZNK19TCFStringUniquerImp15GetUniqueStringEPKhm
+- __ZNSt12length_errorC1B9nqe220100EPKc
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPKvEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__120__throw_length_errorB9nqe220100EPKc
+- __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe220100Ev
+- __ZSt28__throw_bad_array_new_lengthB9nqe220100v
+- _objc_autorelease
+
+```

@@ -1,0 +1,196 @@
+## FreeformDataclassOwner
+
+> `/System/Library/Accounts/DataclassOwners/FreeformDataclassOwner.bundle/Contents/MacOS/FreeformDataclassOwner`
+
+```diff
+
+-646.0.0.201.2
+-  __TEXT.__text: 0x23548 sha256:3af1bfd8b86a3d677aa6d14d4806a57eff2e61ea35f7c1f8699c913102fa897e
+-  __TEXT.__auth_stubs: 0xba0 sha256:3e5ea5ed0f6130def13d0f07e3dfff7252c98f3b0439914bacbabe02e9372f82
+-  __TEXT.__objc_stubs: 0x6e0 sha256:36756daa8e48d103a72dae2ddfe4465c24b5f5de463854a1ba5d736c956191f9
+-  __TEXT.__objc_methlist: 0x744 sha256:7a7a5ee14bb021495c0d3b920eb685e4272c662adff9ae8bb83b1cf5b9e5985c
+-  __TEXT.__cstring: 0x43c2 sha256:8f4b9129eda63c5fb1a02b229a00eeb2fc2ad5c3fc85fc683a399c15374303ed
++649.0.0.0.3
++  __TEXT.__text: 0x237e4 sha256:24c25860d27b47bbe19f18969eacafdfc103699694b37e0c23a837351a6bc0b4
++  __TEXT.__auth_stubs: 0xba0 sha256:41b89a553e5622c017488825086295c732b2ee380f36c41c7b6d5d3639c78995
++  __TEXT.__objc_stubs: 0x6e0 sha256:c71ec6c835f2034c7efffe8c00cb7f6b720a89e441f39ca97c059354e7ba3383
++  __TEXT.__objc_methlist: 0x744 sha256:9466f5d84880639edb2741991bb6dfb89ad5a421069e2c67638b8c0e1f76ef3c
++  __TEXT.__cstring: 0x43e2 sha256:975b2aa2ca04d6a0aae6d62f1f57b89c4b0967c6ebbcb3429de3dbc7d1d0591d
+   __TEXT.__objc_classname: 0x2f9 sha256:16ac6cd8dcedd0a2546fe099f324a3d3105d478b04f63cc1ae6eda1a13912686
+   __TEXT.__objc_methname: 0x1960 sha256:54ec74bd57d54f8be72a772282880ead451bb2903b38c10295c1f80be4d73610
+   __TEXT.__objc_methtype: 0x2f4 sha256:9c6835525d96227e7105ee0f4dd8d5eccf4065d60898e90b05f6b66cf5771b4e
+-  __TEXT.__const: 0x12ec sha256:53c6fea906b41e96aa075e949c187b1d0cb901b619e596f49e1bb8260b2da0df
++  __TEXT.__const: 0x139c sha256:628243c8c36a936f36187e0346c241278ea332aa03b4a755e987d7e1d576ba49
+   __TEXT.__oslogstring: 0x63 sha256:f43ff39ab39f472547313159022520f8620e8d49e7ba57d47c454283a14291d5
+-  __TEXT.__constg_swiftt: 0x8f4 sha256:c11e3f41593d393c57eee3564d315c11c1003bcf10dd4c28a48d116654b53b4f
+-  __TEXT.__swift5_typeref: 0x5bf sha256:945adc755f411d54cfc2e304db8a3c50d3bc5302f312b6539698f5cb484bef4e
+-  __TEXT.__swift5_builtin: 0x3c sha256:c480dfef258e78a0d0061f28bd48633e6a98c4bf4add1b8b02e1d7a39585c75d
+-  __TEXT.__swift5_reflstr: 0x1015 sha256:094e34411c6643eb14ddb31b3ed25cfdd187f7eeb3010e27b58c1d5188810a30
+-  __TEXT.__swift5_fieldmd: 0x9c0 sha256:418732a568213bc8f861d474a767e6613b33b7e43f2d14c2bc096c7aa72bd2fc
+-  __TEXT.__swift5_assocty: 0xb0 sha256:f05daa0d9143d5716e9183f80b8a00370f037b28f631954c5deecb626e7ac7b9
+-  __TEXT.__swift5_proto: 0xb4 sha256:d003e05a15fa08b8bbe3b44b12d3c54623d32bc466928f2207036f57607f945f
+-  __TEXT.__swift5_types: 0x6c sha256:90490089f8e42ce898d46f60cedac9417e3dfc0f04926f56df007e943a316f7b
+-  __TEXT.__swift5_protos: 0x28 sha256:05909ae63499eee3f0ac83113dfc20e3ffb0f2662a7f8af8e1999879356999e0
+-  __TEXT.__swift5_capture: 0x110 sha256:73a0b7fcd325f93688155b427a1b1009a7967831a1efb25bd198d7eece9b1bca
+-  __TEXT.__swift_as_entry: 0x18 sha256:929ae652083457422df9bbf2f1b1a492da478427b60a5f509c613bebb2d33dc4
+-  __TEXT.__swift_as_ret: 0x18 sha256:0e8e350544b07bf8ecc3c5eb507ed1aa607dda126203a8340eb7f4a3765cf878
+-  __TEXT.__swift_as_cont: 0x14 sha256:79f44609ac1919d71f2d53cbd440ceb6586f815c31c10e2468fe0a341e633122
+-  __TEXT.__unwind_info: 0x6a8 sha256:aea71965fe8f57878fe917225248e48e7995b36732237c5f3a8c5dcd2dce5ea7
+-  __TEXT.__eh_frame: 0xf90 sha256:4fe14d2f5519404c13dc54cc84872207edff327628a56646c84ce17adbccfa6d
+-  __DATA_CONST.__const: 0xec8 sha256:f2cf935507d591c518c8396834f47c29a86ec7154d7282d632b06d3481b593bf
+-  __DATA_CONST.__cfstring: 0x840 sha256:4e5b877fc867425f7ba3c5f126c727c194b915c234c76039373909fc8c7ee615
+-  __DATA_CONST.__objc_classlist: 0x68 sha256:c9e525f7d025f76e3df53cbbfcca70283932c95f37dd52a56dbdc8af34aebb91
++  __TEXT.__constg_swiftt: 0x918 sha256:5fa84547e048251a2083432713694786d72cdda8e7875a1c2edaf57130415eec
++  __TEXT.__swift5_typeref: 0x5cd sha256:0fe76bcedd95524945f6d53658cf883bfdb6894a9fe7112deb5b9dbe79610f78
++  __TEXT.__swift5_builtin: 0x3c sha256:01d6f03922976896e9515a5125dec74cc32b35c8e1c7fca4d6f3adec04a35448
++  __TEXT.__swift5_reflstr: 0x1025 sha256:e14647d7cd8534968691c2e158050fcc480f23d25601f6cad1d2ab210168d788
++  __TEXT.__swift5_fieldmd: 0x9dc sha256:2c06d864192cbaabd941d5c0864c7538192242932d7dff1df6800cb3dd3c6fe8
++  __TEXT.__swift5_assocty: 0xb0 sha256:9d70a7ceca58265459896f3a99742386e3add267e0db6de1992089f2120dd8eb
++  __TEXT.__swift5_proto: 0xc0 sha256:0cdff6ece1c83b506512d7543cf88c2e54e2a1393d1105c46105d5132dc52cd4
++  __TEXT.__swift5_types: 0x70 sha256:c38277ba2e1051e39d6b2702c43f3e710586e090cd7e3c829f30e708a04ac33b
++  __TEXT.__swift5_protos: 0x28 sha256:df7f8aa9257ac92c4753fcd26b04ba9e0d91043dc5c01c4808ab035bcc58b585
++  __TEXT.__swift5_capture: 0x110 sha256:41230afeda7d9e8f93fa5542d0527238f759f0dedde55c5e518295469bf15bde
++  __TEXT.__swift_as_entry: 0x18 sha256:68c6a4ea310a61516d30bee8e4eff232fafb031e2aebc5c8444c42d0690c93f7
++  __TEXT.__swift_as_ret: 0x18 sha256:64615129baa64b57e67ebdc7b3765460c57e87cc1eeb15098defbcbdf7a3e90e
++  __TEXT.__swift_as_cont: 0x14 sha256:62b805691aa4bbb3c4cb8d66e16dc92ea1dda29438f87d7bc3cab374e440fc73
++  __TEXT.__unwind_info: 0x6c0 sha256:3b25da5d0c1d531917fcba8626ad84a9c63d9a0c074cee5e9e651bac475d7186
++  __TEXT.__eh_frame: 0xf90 sha256:4081fe75e959c6bac1b217ad55d36b691c61a0b700ec4ce7f179d802c3e77de1
++  __DATA_CONST.__const: 0xf58 sha256:10e3ceeb1f5dfee4a61c59c90a01c80e04c3fcc389ebb1ade0cfbc6663bfaeaa
++  __DATA_CONST.__cfstring: 0x840 sha256:f8e26ba6f483b21305b1dce7d1f8436e5f91fe4b794bde427bfccbf63baa4158
++  __DATA_CONST.__objc_classlist: 0x68 sha256:d790dfacce5200d8db8debff15ab664cbb83b94ca5fc7a43dcfadf06c2cffa34
+   __DATA_CONST.__objc_catlist: 0x10 sha256:0d43edfef06562bed4f5278fb735fa5b505a1184f368364620c26c475662a1af
+   __DATA_CONST.__objc_protolist: 0x20 sha256:1812890870e4f2a25d788bf0b16dc9efc4ff080e06dd279244c8cac02d4ea4f1
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+   __DATA_CONST.__objc_protorefs: 0x10 sha256:a023fc2408a0ef568309c8523ec99fa8be4157dfc48a6b2f9c98abb37e4f3e40
+-  __DATA_CONST.__objc_intobj: 0x78 sha256:9b4a559dcf0e42d0e02a33024f42cb94be148b4c8916799d423822f7fa6bbe3b
++  __DATA_CONST.__objc_intobj: 0x78 sha256:111960abbd9974d7a23676ccc0952f8cca5ae44c20f42fbaaea300b06f93a676
+   __DATA_CONST.__auth_got: 0x5d8 sha256:1b3587211e7b72e837d2d6f85dcd8c3403f7ca01be6e3042102f5fc0e796d996
+   __DATA_CONST.__got: 0x208 sha256:75b303ea76b212c28266c43eacde5921a6c98a914e3aff2bf147468c976f4e26
+-  __DATA_CONST.__auth_ptr: 0x250 sha256:2f865a68fb82f8a77492753feb89d2b26e686332256a090eb4dfd7286f2648a0
+-  __DATA.__objc_const: 0x1530 sha256:aaab4c99fc6cd8fa3271234e98a30e1f1ef84a5962784828765a2261ded39024
+-  __DATA.__objc_selrefs: 0x598 sha256:05ae178e3693686d02d0a87e91a67e94f36556f5fd3d2c04f8187c3d849d831f
+-  __DATA.__objc_data: 0x5b8 sha256:062bca54fdf864c5d24f9059b88425093786dc851d9e272207c401ca0d8214c2
+-  __DATA.__data: 0xa90 sha256:645c376da79810d7535f72dd167ab544c2b527374f82faffd4388d7aed7c7db1
++  __DATA_CONST.__auth_ptr: 0x250 sha256:ac56ef7f28c1af88d7052f16a866a08eb7dc31ed0e81b972d5da4040a8a2aefc
++  __DATA.__objc_const: 0x1530 sha256:8420124b6eba19bee7c6fb3a373fc3f9bc29ef9568517a3c15a7e425526c086f
++  __DATA.__objc_selrefs: 0x598 sha256:5aa42fd9f29cdc09d7a2fdaff969bf9fc3f6fd007db60ef3ebee23ff30251695
++  __DATA.__objc_data: 0x5b8 sha256:bdf4c79d926d4a0e227c405965abc0cccc2fcf8af70c6a45160a18113509f1ba
++  __DATA.__data: 0xaa0 sha256:973a5f890d9611401ca35b453b7bf2f2ac8c59b2c86aa684d36dd10b39649220
+   __DATA.__common: 0x1a8 sha256:e6a4dd1cc11fe045554f993bb765eba87d46248a8b85a7c8dbaa5c40594e0214
+-  __DATA.__bss: 0x1650 sha256:b7cb7dd328394c2b16f11102250ecabfb654d2d08e7186f0970a6d7b3969bf49
++  __DATA.__bss: 0x17d0 sha256:6eada2df55a4abe45e394a294e3b9e9f6266ca7e83bf3f41047eb875c6b25bb8
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 930D5BD4-BB05-3CAA-89D0-94F349968B24
+-  Functions: 572
+-  Symbols:   5025
+-  CStrings:  707
++  UUID: 705EACC3-4D81-3035-B3B2-91FAE1AF24F0
++  Functions: 579
++  Symbols:   5099
++  CStrings:  709
+ 
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/ACAccount_CRLAdditions.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLAssetFileManager.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLBackgroundAppLauncher.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLBoardDataStore.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLBoardDataStoreProvider.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLBundleUtilities.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLCloudSyncConstants.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLDataclassOwner.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLDataclassOwnerAssert.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLDataclassOwnerAssertHelper.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLDataclassOwnerLogHelper.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLDeviceManagementRestrictionsManager.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLFeatureFlags.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLSideStoreProvider.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLStore.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLUserDefaults.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLVersion.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/Error_CRLAdditions.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/FileManager_CRLAdditions.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/FreeformDataclassOwner.swiftmodule
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/SQL.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/UUID_CRLExtensions.o
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Sources/Freeform/src/freeform/Source/CRLKit/
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Sources/Freeform/src/freeform/Source/CRLUtility/
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Sources/Freeform/src/freeform/Source/Persistence/
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Sources/Freeform/src/freeform/Source/Sync/
++ /AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Sources/Freeform/src/freeform/Source/Sync/DataclassOwner/
++ _$s22FreeformDataclassOwner19CRLFeatureFlagGroupC34isWritingToolsInHandwritingEnabledSbvgZTf4d_n
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLO0fG00fG3KeyAAMc
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLO0fG00fG3KeyAAMcMK
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLO0fG00fG3KeyAaeFP6domains12StaticStringVvgTW
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLO0fG00fG3KeyAaeFP7features12StaticStringVvgTW
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOAD0fG00fG3KeyAAWL
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOAD0fG00fG3KeyAAWl
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOADSQAAWL
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOADSQAAWl
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOMF
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOMXX
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOMa
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOMf
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOMn
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOSHAAMc
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOSHAAMcMK
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOSHAASH9hashValueSivgTW
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOSHAASQWb
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOSQAAMc
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOSQAAMcMK
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOSQAASQ2eeoiySbx_xtFZTW
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOWV
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOwet
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOwst
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOwug
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOwui
++ _$s22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOwup
++ _associated conformance 22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLOSHAASQ
++ _symbolic _____ 22FreeformDataclassOwner27CRLWritingToolsFeatureFlags33_ADB763FF20F759414814821D0736E60DLLO
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/ACAccount_CRLAdditions.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLAssetFileManager.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLBackgroundAppLauncher.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLBoardDataStore.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLBoardDataStoreProvider.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLBundleUtilities.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLCloudSyncConstants.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLDataclassOwner.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLDataclassOwnerAssert.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLDataclassOwnerAssertHelper.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLDataclassOwnerLogHelper.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLDeviceManagementRestrictionsManager.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLFeatureFlags.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLSideStoreProvider.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLStore.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLUserDefaults.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/CRLVersion.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/Error_CRLAdditions.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/FileManager_CRLAdditions.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/FreeformDataclassOwner.swiftmodule
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/SQL.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Binaries/Freeform/install/TempContent/Objects/Freeform.build/FreeformDataclassOwner_macOS.build/Objects-normal/arm64e/UUID_CRLExtensions.o
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Sources/Freeform/src/freeform/Source/CRLKit/
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Sources/Freeform/src/freeform/Source/CRLUtility/
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Sources/Freeform/src/freeform/Source/Persistence/
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Sources/Freeform/src/freeform/Source/Sync/
+- /AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Sources/Freeform/src/freeform/Source/Sync/DataclassOwner/
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Sources/Freeform/src/freeform/Source/Persistence/CRLBoardDataStore.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Sources/Freeform/src/freeform/Source/Persistence/CRLStore.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Sources/Freeform/src/freeform/Source/Persistence/SQL.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp5ugALSF3l9-zv8HM6E7uqkCzntMXIeR4X8ms/Library/Caches/com.apple.xbs/TemporaryDirectory.9IsUgJ/Sources/Freeform/src/freeform/Source/Sync/ACAccount_CRLAdditions.swift"
++ "SiriIntegration"
++ "WritingTools"
+- "/AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Sources/Freeform/src/freeform/Source/Persistence/CRLBoardDataStore.swift"
+- "/AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Sources/Freeform/src/freeform/Source/Persistence/CRLStore.swift"
+- "/AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Sources/Freeform/src/freeform/Source/Persistence/SQL.swift"
+- "/AppleInternal/Library/BuildRoots/4~CRDgugBp_BV_555KWedJ86J2ST911bzjXyi4mcE/Library/Caches/com.apple.xbs/TemporaryDirectory.rXnhSc/Sources/Freeform/src/freeform/Source/Sync/ACAccount_CRLAdditions.swift"
+
+```

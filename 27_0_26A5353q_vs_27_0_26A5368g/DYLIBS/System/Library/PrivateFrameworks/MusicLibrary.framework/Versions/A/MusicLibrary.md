@@ -1,0 +1,2242 @@
+## MusicLibrary
+
+> `/System/Library/PrivateFrameworks/MusicLibrary.framework/Versions/A/MusicLibrary`
+
+```diff
+
+-4026.100.61.0.0
+-  __TEXT.__text: 0x20da0c sha256:f16883b5b30d00dcee94ea72bce116f404ae2853a42a363d443f0d9125eafd75
+-  __TEXT.__objc_methlist: 0xe33c sha256:c598b2ca6aa9dcb1cf18aa8510ce6f03f35fa516c3c07448db731f9c702c5bbc
+-  __TEXT.__const: 0x7688 sha256:e77c4671927f51afecc0d2b12401b03fda7a9b706a1e57de87667c51576a2635
++4026.100.68.0.0
++  __TEXT.__text: 0x20f100 sha256:8087f1830ab113966182a0dd96610b1f68b70328aa6f2bd43511cd258a32a343
++  __TEXT.__objc_methlist: 0xe334 sha256:297855c70e7556df841cb8a7d1553a3f537de22833d1607e5a1676cf2948bdc6
++  __TEXT.__const: 0x7698 sha256:c6a203e0d430f9a29dacd55363595704d1b7d6d8352a322f808b21cb087cf497
+   __TEXT.__dlopen_cstrs: 0xec sha256:69dd75fadec858e44bafd7c38208cd917629f88f46f93a548e77460a1009aa99
+-  __TEXT.__gcc_except_tab: 0x13d18 sha256:1257f5bd5610a2fd9d9ed28d7e49c04fde4edd45a0dfe9353074d6e6c812acb7
+-  __TEXT.__cstring: 0x715a8 sha256:ef86cbe08f3cb323d995ea882a6155b892a0abcb4967d2c5c1734849fa77e785
+-  __TEXT.__oslogstring: 0x1a8b1 sha256:25b56281100b2fde7460e49dd53c80ceb62d52946b133ae1d0413966018198f7
++  __TEXT.__gcc_except_tab: 0x13d98 sha256:812bc32b970edd44921126de3cbd6211a9ae074b40f6bdf66d586b35799a292b
++  __TEXT.__cstring: 0x716bc sha256:798771eac90fa16077ef6a8da13b6e5a1b428dd710bf4c7f19cf90866c8d305d
++  __TEXT.__oslogstring: 0x1b37c sha256:9964a3428e36e0470d4fc94b0bafc133adacf7ce14fe4716a5744cd4e15d5a97
+   __TEXT.__ustring: 0xc sha256:627dd5dad39e19570dff4913d5bcd284d581965602b1a49344fc1ed56c1e6cf4
+-  __TEXT.__unwind_info: 0x6d38 sha256:b0b2c4b9c1bd40a27a594f6779a8277c97c9ea52e3d65a5b5f0d0579457ba21d
++  __TEXT.__unwind_info: 0x6d38 sha256:5c44326c31d56a9ff757a787b5c9cb43cbbba4d08ef7519cee21e5c6b882046f
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x5ed0 sha256:f36f0e3076045d7287dbe77fcf7d93eb697a0c9ce1b146b7ecec7c14a4e1ee8d
+-  __DATA_CONST.__objc_classlist: 0x700 sha256:aa652ba20e753b92024e11c1e1e8f061e05172a948f66c39a5baef398fd33536
+-  __DATA_CONST.__objc_catlist: 0x50 sha256:275e1f788d20d40f26789c42ab3683bb2a1e857a4609761a58c230ad3fdca373
+-  __DATA_CONST.__objc_protolist: 0xa8 sha256:e8ad7a44e043474a5d18517befc74120cccb977e9561ad41b305342f6efd2896
++  __DATA_CONST.__const: 0x5ed8 sha256:687e38b1be46df1235bd791a6d15869f62487a71ef7e17956bb1969405366b20
++  __DATA_CONST.__objc_classlist: 0x6f8 sha256:45a8ef71bef7e2f7db43def917c8c6c28dbc9bc50d7f970d2e84159d30028e08
++  __DATA_CONST.__objc_catlist: 0x50 sha256:a0ffc8f31d7405ffbefee7cd0bd68f13b59b507ac638b437a085a4114e671b4b
++  __DATA_CONST.__objc_protolist: 0xa8 sha256:42bd47f8e04de8087225d19ba53239564fd96df467b186887131ab58e7268191
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__weak_got: 0x18 sha256:dfd811ba3e901f4f0d914fcb05a231eab67e331e029e60db35b1e7fd1cc69d3a
+-  __DATA_CONST.__objc_selrefs: 0x6c00 sha256:14dec381801be86664cbe4d4a0cdc7bc8746bfdd8ef4fe4dab07cb998d212cf3
+-  __DATA_CONST.__objc_protorefs: 0x30 sha256:2ac452b060896f29e23b3d38df762a9b507fd4fe7fb943859f646062bb8defe3
+-  __DATA_CONST.__objc_superrefs: 0x518 sha256:e1d7aa2cf55920c9350241ccfe8a64b88081b7c77e28657df4f3204b00f39214
+-  __DATA_CONST.__objc_arraydata: 0x13d0 sha256:d6cd6720496655f934e6e2373e2a3da33665208435ee282d7df26a323ea65597
+-  __DATA_CONST.__got: 0xa18 sha256:c094a503cccee344c5415e422b3205d23ed8b6645cf9a98bd98f18913e455eac
+-  __AUTH_CONST.__const: 0xc7a8 sha256:fc9bfa8b113d6f309889fc68b8c72b510d8f50c97f84e43b671d8e86eb584905
+-  __AUTH_CONST.__cfstring: 0x24de0 sha256:fe874ac3e236a6ea77e2246123ce2f91419c27c5d17393feb269d1caa8bbd107
+-  __AUTH_CONST.__objc_const: 0x155f0 sha256:fc70a45a43b123f387c5540fd54dcae0b3555051c0a0c543ebde96eeca37cf6d
+-  __AUTH_CONST.__weak_auth_got: 0x20 sha256:0b7ba9f9c7082a0018beb42e15da283c9fe2e57f09f8a5b04d76693bece092af
+-  __AUTH_CONST.__objc_arrayobj: 0x2250 sha256:bab0714ecdb4720011e2fa42c0ead321f458ba256c06459dca617700e64512fc
+-  __AUTH_CONST.__objc_intobj: 0x2058 sha256:fd7f9775266d0c4098a5c3c793d58b50f975735952589cec3848022e681c17d3
+-  __AUTH_CONST.__objc_dictobj: 0xf0 sha256:6f70825c58c8736eb50e40078039c5c814d6e2b06e8269cf5e32333642693f55
+-  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:405589564331bfeb407fab90a6f13a9bbb6811895974acea7fb488f6e27925a3
++  __DATA_CONST.__weak_got: 0x18 sha256:9e9a88192f488d87d362535dac50ee8f87cd97a045b3aff4ad409e3c40ee40a0
++  __DATA_CONST.__objc_selrefs: 0x6c20 sha256:54f1eaa2359a52fdfaf4833fe36d7dc5ccf6c62ff5be8df0e99e769d00f0e629
++  __DATA_CONST.__objc_protorefs: 0x30 sha256:37d2b5e4a9a47fe3168785b61e7a22c642ff44d5af6aed15ef6f18bb69c04240
++  __DATA_CONST.__objc_superrefs: 0x510 sha256:1ed04e9b1bf81d71650c1882fba9be72a11100dcc8f773ac70a5d85052b5c3aa
++  __DATA_CONST.__objc_arraydata: 0x13d0 sha256:f71a996813b347eeb9a44215cdfde014e7b6cd6f68f38802aa5d49cb4731639b
++  __DATA_CONST.__got: 0xa18 sha256:9799571eeeebbb0fab1f1999b28d94a14795287ffc6f412225d812a6527d1b9a
++  __AUTH_CONST.__const: 0xc788 sha256:1f8a817b9108e162772561756c9beaadc9d68b644ed5b050e5df76147d9616ba
++  __AUTH_CONST.__cfstring: 0x24e20 sha256:5958e043e6d5be28fc8c67d172281571018d84869dd53d3ddf262c7f8608c6c5
++  __AUTH_CONST.__objc_const: 0x15538 sha256:18d757c3e5c6d74e0886cb6fd604b4da69c0576b19bbc41038507b15ee573ef0
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:9e2df50a98d206e7c7dfcaf21cc145b09a4fb8fc023886999a8373faebd714be
++  __AUTH_CONST.__objc_arrayobj: 0x2250 sha256:5c0036557387e751c912dffbb844e0c16a2a206650839dedb7dc94befaad3b19
++  __AUTH_CONST.__objc_intobj: 0x2058 sha256:5a470ccd985c652ac47de18b419dd347a6bdd2255a264adc95e086bed8a60f4b
++  __AUTH_CONST.__objc_dictobj: 0xf0 sha256:21bc3eebe8e0e95ea2a61f9c39002198df18d59529fda4d1ae27a8cc72b5f2c5
++  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:a2ff0d856eb12b9ea69e291478b45d26848365563c35df43d0e5e09e7cf8ec24
+   __AUTH_CONST.__auth_got: 0xd70 sha256:9da461c14a7f567f87c06106967f2f90611c94d77d3dfa5ff3002310a2f27742
+-  __AUTH.__objc_data: 0x20d0 sha256:88312917cb4cd00005e195ae3ed5f100f1ade4e5e9094ec14db72da4e1eb65d4
+-  __AUTH.__data: 0x118 sha256:0af182efa42f113b47bda152b79b33d3690848ace5773917d07f241ce67fb46a
+-  __DATA.__objc_ivar: 0xee4 sha256:a870c2af6923d29bef51a593c82a91ac42be4352513d0513694084101bcaecd6
+-  __DATA.__data: 0xa40 sha256:5a9baaac147a26cbf4dea48850f5a81b1b9899a173f87696ec092da165c47640
+-  __DATA.__bss: 0xb10 sha256:8cd1a50718b9a73c9392cb94aea3cea616382f3287f82a16ecf3d9810ecfff76
+-  __DATA_DIRTY.__objc_data: 0x2530 sha256:12646a401d5db47f62880918d5f863efdebd65b762dc9ba9cabf5cb9d6b40f92
++  __AUTH.__objc_data: 0x2080 sha256:ddb56d8254324cacfbbdd5d199f95804ae715cbb6bb22fa58c955b9616af706e
++  __AUTH.__data: 0x118 sha256:1ce05fd5eecc7f704e56470e1b41b8710bba4f8a4a9f8ad255bd15fb1debfa32
++  __DATA.__objc_ivar: 0xee4 sha256:cd2a57efdef060d167da70f642705bbbde9d355369e6f32776efafab5d999cc8
++  __DATA.__data: 0xa40 sha256:a4966f4f55d8822fb63f02d6f70e6d26ddf5a9daf22efeeca800774c4d3d0bb9
++  __DATA.__bss: 0xb20 sha256:d71a85341166dbd4085df5276b3534cc813d748f3ad9957b00f6b4102bf9b3a2
++  __DATA_DIRTY.__objc_data: 0x2530 sha256:70e9910f2370bb5faf66293b496248801b902b8cc0c93fa84f7fb979787d1ad2
+   __DATA_DIRTY.__data: 0x80 sha256:54d5f97230200d405bcaf557d4927b761c723547976bf666eafe2b3d27994b83
+-  __DATA_DIRTY.__bss: 0x418 sha256:de2ca1d3d1c0862b06e5e5e33aefe44a2d0290e4ef6228128a1e797e35d3457c
++  __DATA_DIRTY.__bss: 0x428 sha256:3b449f81c553e3972dd31acc7df0ccfa308b1a290a103632c751828372f7ba3e
+   __DATA_DIRTY.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 07673B5E-4E80-3D14-AB0B-508B97C88516
+-  Functions: 8078
+-  Symbols:   17220
+-  CStrings:  11601
++  UUID: 0DC4FEBF-4B73-3F97-93F8-0AC3EE23C3D1
++  Functions: 8077
++  Symbols:   17223
++  CStrings:  11630
+ 
+Symbols:
++ +[ML3DatabaseConnection _poisonedConnectionErrorWithReason:underlyingError:]
++ -[ML3DatabaseConnection _isPoisoned]
++ -[ML3DatabaseConnection _poisonReason]
++ -[ML3DatabaseConnection _poisonWithReason:sqliteError:]
++ -[ML3DatabaseConnection _returnToPoolAfterCheckin]
++ -[ML3DatabaseConnection _setReturnToPoolAfterCheckin:]
++ -[ML3DatabaseConnectionPool _invalidateIdleAndBusyConnectionsForPoisonedState]
++ -[ML3MusicLibrary _autogenerateArtworkForRelativePath:artworkType:mediaType:variantType:qualityOfService:completionHandler:]
++ -[ML3MusicLibrary _convertOriginalArtworkToDevicePreferredFormatFromSourceURL:toDestinationURL:qualityOfService:completionHandler:]
++ -[ML3MusicLibrary connection:didEncounterSQLErrorOfType:error:]
++ -[ML3MusicLibrary generateArtworkForRelativePath:sizes:qualityOfService:completionHandler:]
++ -[ML3MusicLibrary importOriginalArtworkFromFileURL:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:qualityOfService:completion:]
++ -[ML3MusicLibrary importOriginalArtworkFromImageData:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:qualityOfService:completion:]
++ -[_ML3DatabaseConnectionSubPool invalidateIdleAndBusyConnectionsForPoisonedState]
++ GCC_except_table1707
++ GCC_except_table1718
++ GCC_except_table1732
++ GCC_except_table1748
++ GCC_except_table1750
++ GCC_except_table1752
++ GCC_except_table1774
++ GCC_except_table1787
++ GCC_except_table1789
++ GCC_except_table1810
++ GCC_except_table1815
++ GCC_except_table1817
++ GCC_except_table1819
++ GCC_except_table1825
++ GCC_except_table1827
++ GCC_except_table1829
++ GCC_except_table1839
++ GCC_except_table1841
++ GCC_except_table1843
++ GCC_except_table1852
++ GCC_except_table1889
++ GCC_except_table1897
++ GCC_except_table1904
++ GCC_except_table1913
++ GCC_except_table1920
++ GCC_except_table1960
++ GCC_except_table1967
++ GCC_except_table1969
++ GCC_except_table1989
++ GCC_except_table1993
++ GCC_except_table2001
++ GCC_except_table2005
++ GCC_except_table2015
++ GCC_except_table2016
++ GCC_except_table2031
++ GCC_except_table2040
++ GCC_except_table2042
++ GCC_except_table2076
++ GCC_except_table2106
++ GCC_except_table2113
++ GCC_except_table2116
++ GCC_except_table2117
++ GCC_except_table2133
++ GCC_except_table2151
++ GCC_except_table2152
++ GCC_except_table2153
++ GCC_except_table2154
++ GCC_except_table2155
++ GCC_except_table2164
++ GCC_except_table2165
++ GCC_except_table2166
++ GCC_except_table2172
++ GCC_except_table2178
++ GCC_except_table2179
++ GCC_except_table2180
++ GCC_except_table2181
++ GCC_except_table2182
++ GCC_except_table2188
++ GCC_except_table2189
++ GCC_except_table2190
++ GCC_except_table2192
++ GCC_except_table2202
++ GCC_except_table2203
++ GCC_except_table2204
++ GCC_except_table2210
++ GCC_except_table2211
++ GCC_except_table2223
++ GCC_except_table2225
++ GCC_except_table2226
++ GCC_except_table2229
++ GCC_except_table2247
++ GCC_except_table2248
++ GCC_except_table2249
++ GCC_except_table2255
++ GCC_except_table2256
++ GCC_except_table2257
++ GCC_except_table2258
++ GCC_except_table2264
++ GCC_except_table2265
++ GCC_except_table2266
++ GCC_except_table2267
++ GCC_except_table2268
++ GCC_except_table2278
++ GCC_except_table2285
++ GCC_except_table2287
++ GCC_except_table2291
++ GCC_except_table2293
++ GCC_except_table2297
++ GCC_except_table2299
++ GCC_except_table2303
++ GCC_except_table2307
++ GCC_except_table2316
++ GCC_except_table2333
++ GCC_except_table2334
++ GCC_except_table2335
++ GCC_except_table2336
++ GCC_except_table2337
++ GCC_except_table2350
++ GCC_except_table2351
++ GCC_except_table2352
++ GCC_except_table2358
++ GCC_except_table2359
++ GCC_except_table2360
++ GCC_except_table2376
++ GCC_except_table2387
++ GCC_except_table2390
++ GCC_except_table2391
++ GCC_except_table2393
++ GCC_except_table2394
++ GCC_except_table2400
++ GCC_except_table2401
++ GCC_except_table2534
++ GCC_except_table2556
++ GCC_except_table2560
++ GCC_except_table2619
++ GCC_except_table2635
++ GCC_except_table2658
++ GCC_except_table2665
++ GCC_except_table2668
++ GCC_except_table2679
++ GCC_except_table2681
++ GCC_except_table2685
++ GCC_except_table2692
++ GCC_except_table2698
++ GCC_except_table2702
++ GCC_except_table2708
++ GCC_except_table2714
++ GCC_except_table2715
++ GCC_except_table2716
++ GCC_except_table2940
++ GCC_except_table2989
++ GCC_except_table2997
++ GCC_except_table3020
++ GCC_except_table3049
++ GCC_except_table3060
++ GCC_except_table3066
++ GCC_except_table3069
++ GCC_except_table3075
++ GCC_except_table3082
++ GCC_except_table3086
++ GCC_except_table3089
++ GCC_except_table3092
++ GCC_except_table3107
++ GCC_except_table3126
++ GCC_except_table3129
++ GCC_except_table3139
++ GCC_except_table3141
++ GCC_except_table3142
++ GCC_except_table3150
++ GCC_except_table3188
++ GCC_except_table3195
++ GCC_except_table3198
++ GCC_except_table3215
++ GCC_except_table3216
++ GCC_except_table3217
++ GCC_except_table3218
++ GCC_except_table3224
++ GCC_except_table3225
++ GCC_except_table3233
++ GCC_except_table3234
++ GCC_except_table3235
++ GCC_except_table3236
++ GCC_except_table3237
++ GCC_except_table3245
++ GCC_except_table3246
++ GCC_except_table3249
++ GCC_except_table3274
++ GCC_except_table3285
++ GCC_except_table3291
++ GCC_except_table3295
++ GCC_except_table3298
++ GCC_except_table3301
++ GCC_except_table3305
++ GCC_except_table3307
++ GCC_except_table3318
++ GCC_except_table3319
++ GCC_except_table3320
++ GCC_except_table3322
++ GCC_except_table3329
++ GCC_except_table3330
++ GCC_except_table3342
++ GCC_except_table3345
++ GCC_except_table3349
++ GCC_except_table3396
++ GCC_except_table3415
++ GCC_except_table3441
++ GCC_except_table3442
++ GCC_except_table3453
++ GCC_except_table3454
++ GCC_except_table3455
++ GCC_except_table3456
++ GCC_except_table3471
++ GCC_except_table3482
++ GCC_except_table3483
++ GCC_except_table3484
++ GCC_except_table3494
++ GCC_except_table3495
++ GCC_except_table3496
++ GCC_except_table3497
++ GCC_except_table3498
++ GCC_except_table3504
++ GCC_except_table3506
++ GCC_except_table3507
++ GCC_except_table3515
++ GCC_except_table3518
++ GCC_except_table3528
++ GCC_except_table3529
++ GCC_except_table3530
++ GCC_except_table3531
++ GCC_except_table3538
++ GCC_except_table3540
++ GCC_except_table3541
++ GCC_except_table3542
++ GCC_except_table3556
++ GCC_except_table3581
++ GCC_except_table3617
++ GCC_except_table3917
++ GCC_except_table3927
++ GCC_except_table3929
++ GCC_except_table3952
++ GCC_except_table3954
++ GCC_except_table3966
++ GCC_except_table4125
++ GCC_except_table4134
++ GCC_except_table4137
++ GCC_except_table4140
++ GCC_except_table4152
++ GCC_except_table4153
++ GCC_except_table4159
++ GCC_except_table4169
++ GCC_except_table4180
++ GCC_except_table4209
++ GCC_except_table4212
++ GCC_except_table4215
++ GCC_except_table4219
++ GCC_except_table4223
++ GCC_except_table4227
++ GCC_except_table4230
++ GCC_except_table4233
++ GCC_except_table4406
++ GCC_except_table4425
++ GCC_except_table4426
++ GCC_except_table4428
++ GCC_except_table4432
++ GCC_except_table4443
++ GCC_except_table4447
++ GCC_except_table4466
++ GCC_except_table4468
++ GCC_except_table4650
++ GCC_except_table4661
++ GCC_except_table4668
++ GCC_except_table4669
++ GCC_except_table4670
++ GCC_except_table4676
++ GCC_except_table4743
++ GCC_except_table4745
++ GCC_except_table4746
++ GCC_except_table4749
++ GCC_except_table4755
++ GCC_except_table4758
++ GCC_except_table4761
++ GCC_except_table4774
++ GCC_except_table4779
++ GCC_except_table4793
++ GCC_except_table4794
++ GCC_except_table4795
++ GCC_except_table4900
++ GCC_except_table4903
++ GCC_except_table4908
++ GCC_except_table4911
++ GCC_except_table4929
++ GCC_except_table4930
++ GCC_except_table4931
++ GCC_except_table4932
++ GCC_except_table5056
++ GCC_except_table5058
++ GCC_except_table5059
++ GCC_except_table5060
++ GCC_except_table5132
++ GCC_except_table5142
++ GCC_except_table5145
++ GCC_except_table5146
++ GCC_except_table5161
++ GCC_except_table5162
++ GCC_except_table5170
++ GCC_except_table5179
++ GCC_except_table5180
++ GCC_except_table5181
++ GCC_except_table5183
++ GCC_except_table5188
++ GCC_except_table5190
++ GCC_except_table5200
++ GCC_except_table5201
++ GCC_except_table5203
++ GCC_except_table5204
++ GCC_except_table5205
++ GCC_except_table5214
++ GCC_except_table5219
++ GCC_except_table5226
++ GCC_except_table5231
++ GCC_except_table5275
++ GCC_except_table5277
++ GCC_except_table5279
++ GCC_except_table5282
++ GCC_except_table5284
++ GCC_except_table5293
++ GCC_except_table5295
++ GCC_except_table5302
++ GCC_except_table5307
++ GCC_except_table5314
++ GCC_except_table5330
++ GCC_except_table5335
++ GCC_except_table5340
++ GCC_except_table5349
++ GCC_except_table5350
++ GCC_except_table5351
++ GCC_except_table5353
++ GCC_except_table5364
++ GCC_except_table5437
++ GCC_except_table5440
++ GCC_except_table5442
++ GCC_except_table5444
++ GCC_except_table5445
++ GCC_except_table5532
++ GCC_except_table5536
++ GCC_except_table5540
++ GCC_except_table5541
++ GCC_except_table5543
++ GCC_except_table5558
++ GCC_except_table5559
++ GCC_except_table5561
++ GCC_except_table5562
++ GCC_except_table5566
++ GCC_except_table5575
++ GCC_except_table5577
++ GCC_except_table5580
++ GCC_except_table5584
++ GCC_except_table5585
++ GCC_except_table5599
++ GCC_except_table5635
++ GCC_except_table5644
++ GCC_except_table5651
++ GCC_except_table5789
++ GCC_except_table5790
++ GCC_except_table5797
++ GCC_except_table5815
++ GCC_except_table5816
++ GCC_except_table5824
++ GCC_except_table5839
++ GCC_except_table5842
++ GCC_except_table5868
++ GCC_except_table5896
++ GCC_except_table5904
++ GCC_except_table5917
++ GCC_except_table5925
++ GCC_except_table5953
++ GCC_except_table6000
++ GCC_except_table6004
++ GCC_except_table6018
++ GCC_except_table6019
++ GCC_except_table6025
++ GCC_except_table6028
++ GCC_except_table6030
++ GCC_except_table6031
++ GCC_except_table6059
++ GCC_except_table6060
++ GCC_except_table6065
++ GCC_except_table6066
++ GCC_except_table6104
++ GCC_except_table6105
++ GCC_except_table6109
++ GCC_except_table6117
++ GCC_except_table6119
++ GCC_except_table6124
++ GCC_except_table6171
++ GCC_except_table6217
++ GCC_except_table6218
++ GCC_except_table6219
++ GCC_except_table6245
++ GCC_except_table6246
++ GCC_except_table6250
++ GCC_except_table6254
++ GCC_except_table6256
++ GCC_except_table6260
++ GCC_except_table6264
++ GCC_except_table6265
++ GCC_except_table6273
++ GCC_except_table6277
++ GCC_except_table6278
++ GCC_except_table6286
++ GCC_except_table6287
++ GCC_except_table6288
++ GCC_except_table6292
++ GCC_except_table6293
++ GCC_except_table6294
++ GCC_except_table6299
++ GCC_except_table6303
++ GCC_except_table6308
++ GCC_except_table6319
++ GCC_except_table6320
++ GCC_except_table6324
++ GCC_except_table6350
++ GCC_except_table6360
++ GCC_except_table6362
++ GCC_except_table6367
++ GCC_except_table6391
++ GCC_except_table6416
++ GCC_except_table6417
++ GCC_except_table6465
++ GCC_except_table6467
++ GCC_except_table6476
++ GCC_except_table6477
++ GCC_except_table6478
++ GCC_except_table6490
++ GCC_except_table6492
++ GCC_except_table6494
++ GCC_except_table6504
++ GCC_except_table6506
++ GCC_except_table6514
++ GCC_except_table6516
++ GCC_except_table6520
++ GCC_except_table6525
++ GCC_except_table6531
++ GCC_except_table6539
++ GCC_except_table6541
++ GCC_except_table6543
++ GCC_except_table6545
++ GCC_except_table6555
++ GCC_except_table6561
++ GCC_except_table6562
++ GCC_except_table6563
++ GCC_except_table6569
++ GCC_except_table6570
++ GCC_except_table6571
++ GCC_except_table6578
++ GCC_except_table6587
++ GCC_except_table6593
++ GCC_except_table6595
++ GCC_except_table6605
++ GCC_except_table6606
++ GCC_except_table6607
++ GCC_except_table6618
++ GCC_except_table6622
++ GCC_except_table6623
++ GCC_except_table6627
++ GCC_except_table6631
++ GCC_except_table6633
++ GCC_except_table6637
++ GCC_except_table6642
++ GCC_except_table6643
++ GCC_except_table6647
++ GCC_except_table6665
++ GCC_except_table6675
++ GCC_except_table6676
++ GCC_except_table6683
++ GCC_except_table6684
++ GCC_except_table6688
++ GCC_except_table6703
++ GCC_except_table6706
++ GCC_except_table6710
++ GCC_except_table6711
++ GCC_except_table6721
++ GCC_except_table6722
++ GCC_except_table6728
++ GCC_except_table6734
++ GCC_except_table6738
++ GCC_except_table6742
++ GCC_except_table6745
++ GCC_except_table6746
++ GCC_except_table6755
++ GCC_except_table6759
++ GCC_except_table6780
++ GCC_except_table6781
++ GCC_except_table6803
++ GCC_except_table6928
++ GCC_except_table6933
++ GCC_except_table6949
++ GCC_except_table6966
++ GCC_except_table6967
++ GCC_except_table6974
++ GCC_except_table6979
++ GCC_except_table6980
++ GCC_except_table7019
++ GCC_except_table7020
++ GCC_except_table7026
++ GCC_except_table7027
++ GCC_except_table7030
++ GCC_except_table7031
++ GCC_except_table7041
++ GCC_except_table7042
++ GCC_except_table7052
++ GCC_except_table7053
++ GCC_except_table7065
++ GCC_except_table7066
++ GCC_except_table7079
++ GCC_except_table7080
++ GCC_except_table7086
++ GCC_except_table7087
++ GCC_except_table7095
++ GCC_except_table7096
++ GCC_except_table7102
++ GCC_except_table7122
++ GCC_except_table7144
++ GCC_except_table7145
++ GCC_except_table7167
++ GCC_except_table7176
++ GCC_except_table7183
++ GCC_except_table7207
++ GCC_except_table7230
++ GCC_except_table7231
++ GCC_except_table7297
++ GCC_except_table7346
++ GCC_except_table7536
++ GCC_except_table7605
++ GCC_except_table7612
++ GCC_except_table7618
++ GCC_except_table7624
++ GCC_except_table7641
++ GCC_except_table7645
++ GCC_except_table7691
++ GCC_except_table7697
++ GCC_except_table7701
++ GCC_except_table8008
++ GCC_except_table8016
++ GCC_except_table8018
++ GCC_except_table8022
++ MSVFastHexStringFromBytes.hexCharacters.26909
++ OBJC_IVAR_$_ML3DatabaseConnection._poisonError
++ OBJC_IVAR_$_ML3DatabaseConnection._poisonReason
++ OBJC_IVAR_$_ML3DatabaseConnection._poisoned
++ OBJC_IVAR_$_ML3DatabaseConnection._returnToPoolAfterCheckin
++ _ML3CanShowAlertToUser
++ _ML3DatabaseConnectionPoisonReasonUserInfoKey
++ _MLMediaLibraryReportIOErrorForDatabasePath
++ _MSV_XXH_XXH32_update.26900
++ _MSV_XXH_XXH64_digest.26905
++ _MSV_XXH_XXH64_update.26901
++ _ZZL37ML3LibraryPinDefaultActionDescriptionxE38__pinnedEntityDefaultActionDescription.22765
++ _ZZL37ML3LibraryPinDefaultActionDescriptionxE38__pinnedEntityDefaultActionDescription.4462
++ _ZZL37ML3LibraryPinDefaultActionDescriptionxE9onceToken.22764
++ _ZZL37ML3LibraryPinDefaultActionDescriptionxE9onceToken.4461
++ _ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE29__pinnedEntityTypeDescription.22763
++ _ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE29__pinnedEntityTypeDescription.4459
++ _ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE9onceToken.22762
++ _ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE9onceToken.4457
++ __136-[ML3MusicLibrary enumeratePersistentIDsAfterRevision:revisionTrackingCode:maximumRevisionType:forMediaTypes:inUsersLibrary:usingBlock:]_block_invoke.702
++ __136-[ML3MusicLibrary enumeratePersistentIDsAfterRevision:revisionTrackingCode:maximumRevisionType:forMediaTypes:inUsersLibrary:usingBlock:]_block_invoke.717
++ __141-[ML3MusicLibrary importOriginalArtworkFromFileURL:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:]_block_invoke.787
++ __143-[ML3MusicLibrary importOriginalArtworkFromImageData:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:]_block_invoke.803
++ __169-[ML3MusicLibrary importOriginalArtworkFromFileURL:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:qualityOfService:completion:]_block_invoke.795
++ __45-[ML3MusicLibrary checkInDatabaseConnection:]_block_invoke.250
++ __47-[ML3MusicLibrary _tearDownNotificationManager]_block_invoke.1147
++ __47-[ML3MusicLibrary removeArtworkAssetWithToken:]_block_invoke.809
++ __52-[ML3MusicLibrary removeOrphanedTracksOnlyInCaches:]_block_invoke.899
++ __58-[ML3MusicLibrary _closeAndLockCurrentDatabaseConnections]_block_invoke.1141
++ __59-[ML3MusicLibrary savePlaylistsSinceRevision:withGrappaID:]_block_invoke.542
++ __59-[ML3MusicLibrary savePlaylistsSinceRevision:withGrappaID:]_block_invoke.553
++ __59-[ML3MusicLibrary savePlaylistsSinceRevision:withGrappaID:]_block_invoke.576
++ __63-[ML3MusicLibrary _removeOrphanedArtworkAssetsUsingConnection:]_block_invoke.1115
++ __65-[ML3MusicLibrary _removeOrphanedArtworkMetadataUsingConnection:]_block_invoke.1084
++ __65-[ML3MusicLibrary _removeOrphanedArtworkMetadataUsingConnection:]_block_invoke.1095
++ __65-[ML3MusicLibrary _removeOrphanedArtworkMetadataUsingConnection:]_block_invoke.1102
++ __76-[ML3MusicLibrary sanitizeSortMapContentsUsingConnection:didSortMapEntries:]_block_invoke.1043
++ __77-[ML3MusicLibrary migrateExistingArtworkToken:newArtworkToken:newSourceType:]_block_invoke.825
++ __77-[ML3MusicLibrary migrateExistingArtworkToken:newArtworkToken:newSourceType:]_block_invoke.826
++ __95-[_ML3DatabaseConnectionSubPool closeConnectionsForOwningPoolClosed:andWaitForBusyConnections:]_block_invoke.244
++ __99-[ML3MusicLibrary autogenerateSupportedSizesForAllOriginalArtworkWithConnection:completionHandler:]_block_invoke.756
++ __99-[ML3MusicLibrary enumerateArtworkRelativePathsWithConnection:matchingRelativePathContainer:block:]_block_invoke.774
++ __Block_byref_object_copy_.10207
++ __Block_byref_object_copy_.11020
++ __Block_byref_object_copy_.11127
++ __Block_byref_object_copy_.11984
++ __Block_byref_object_copy_.12153
++ __Block_byref_object_copy_.13000
++ __Block_byref_object_copy_.14277
++ __Block_byref_object_copy_.16789
++ __Block_byref_object_copy_.17151
++ __Block_byref_object_copy_.17690
++ __Block_byref_object_copy_.17820
++ __Block_byref_object_copy_.18574
++ __Block_byref_object_copy_.19023
++ __Block_byref_object_copy_.19279
++ __Block_byref_object_copy_.20251
++ __Block_byref_object_copy_.20622
++ __Block_byref_object_copy_.22191
++ __Block_byref_object_copy_.22876
++ __Block_byref_object_copy_.24713
++ __Block_byref_object_copy_.24795
++ __Block_byref_object_copy_.24902
++ __Block_byref_object_copy_.25185
++ __Block_byref_object_copy_.25575
++ __Block_byref_object_copy_.2599
++ __Block_byref_object_copy_.27045
++ __Block_byref_object_copy_.27878
++ __Block_byref_object_copy_.3704
++ __Block_byref_object_copy_.4652
++ __Block_byref_object_copy_.4842
++ __Block_byref_object_copy_.503
++ __Block_byref_object_copy_.524
++ __Block_byref_object_copy_.591
++ __Block_byref_object_copy_.6025
++ __Block_byref_object_copy_.621
++ __Block_byref_object_copy_.642
++ __Block_byref_object_copy_.708
++ __Block_byref_object_copy_.7231
++ __Block_byref_object_copy_.7320
++ __Block_byref_object_copy_.7935
++ __Block_byref_object_copy_.840
++ __Block_byref_object_copy_.846
++ __Block_byref_object_copy_.853
++ __Block_byref_object_copy_.8562
++ __Block_byref_object_copy_.857
++ __Block_byref_object_copy_.864
++ __Block_byref_object_copy_.869
++ __Block_byref_object_copy_.9043
++ __Block_byref_object_copy_.9164
++ __Block_byref_object_copy_.918
++ __Block_byref_object_copy_.9269
++ __Block_byref_object_dispose_.10208
++ __Block_byref_object_dispose_.11021
++ __Block_byref_object_dispose_.11128
++ __Block_byref_object_dispose_.11985
++ __Block_byref_object_dispose_.12154
++ __Block_byref_object_dispose_.13001
++ __Block_byref_object_dispose_.14278
++ __Block_byref_object_dispose_.16790
++ __Block_byref_object_dispose_.17152
++ __Block_byref_object_dispose_.17691
++ __Block_byref_object_dispose_.17821
++ __Block_byref_object_dispose_.18575
++ __Block_byref_object_dispose_.19024
++ __Block_byref_object_dispose_.19280
++ __Block_byref_object_dispose_.20252
++ __Block_byref_object_dispose_.20623
++ __Block_byref_object_dispose_.22192
++ __Block_byref_object_dispose_.22877
++ __Block_byref_object_dispose_.24714
++ __Block_byref_object_dispose_.24796
++ __Block_byref_object_dispose_.24903
++ __Block_byref_object_dispose_.25186
++ __Block_byref_object_dispose_.25576
++ __Block_byref_object_dispose_.2600
++ __Block_byref_object_dispose_.27046
++ __Block_byref_object_dispose_.27879
++ __Block_byref_object_dispose_.3705
++ __Block_byref_object_dispose_.4653
++ __Block_byref_object_dispose_.4843
++ __Block_byref_object_dispose_.504
++ __Block_byref_object_dispose_.525
++ __Block_byref_object_dispose_.592
++ __Block_byref_object_dispose_.6026
++ __Block_byref_object_dispose_.622
++ __Block_byref_object_dispose_.643
++ __Block_byref_object_dispose_.709
++ __Block_byref_object_dispose_.7232
++ __Block_byref_object_dispose_.7321
++ __Block_byref_object_dispose_.7936
++ __Block_byref_object_dispose_.841
++ __Block_byref_object_dispose_.847
++ __Block_byref_object_dispose_.854
++ __Block_byref_object_dispose_.8563
++ __Block_byref_object_dispose_.858
++ __Block_byref_object_dispose_.865
++ __Block_byref_object_dispose_.870
++ __Block_byref_object_dispose_.9044
++ __Block_byref_object_dispose_.9165
++ __Block_byref_object_dispose_.919
++ __Block_byref_object_dispose_.9270
++ __MLMediaLibrarySetIOErrorReportHandler
++ __OBJC_$_CLASS_METHODS_ML3DatabaseConnection
++ __ZNKSt3__111__copy_implclB9nqe220106IPKNS_10shared_ptrI27ML3DatabaseImportDataSourceEES6_PS4_Li0EEENS_4pairIT_T1_EES9_T0_SA_
++ __ZNKSt3__111__copy_implclB9nqe220106IPNS_10shared_ptrI13ML3ImportItemEES5_S5_Li0EEENS_4pairIT_T1_EES7_T0_S8_
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9nqe220106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__114default_deleteIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS_10shared_ptrI13ML3ImportItemEEE26_ContainerItemReactionInfoEclB9nqe220106EPS5_
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe220106ERKS6_S9_
++ __ZNSt11range_errorC1B9nqe220106EPKc
++ __ZNSt12length_errorC1B9nqe220106EPKc
++ __ZNSt12out_of_rangeC1B9nqe220106EPKc
++ __ZNSt3__110shared_ptrI10ML3CPPDataEC2B9nqe220106IS1_Li0EEEPT_
++ __ZNSt3__110shared_ptrI12ML3AlbumDataED1B9nqe220106Ev
++ __ZNSt3__110shared_ptrI12ML3GenreDataED1B9nqe220106Ev
++ __ZNSt3__110shared_ptrI13ML3ArtistDataED1B9nqe220106Ev
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220106I25ML3SubscriptionImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220106I26ML3ContainerItemImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220106I27ML3ProtoSyncAlbumImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220106I27ML3ProtoSyncTrackImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220106I28ML3ContainerAuthorImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220106I28ML3ITunesSyncAlbumImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220106I28ML3ITunesSyncTrackImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220106I28ML3ProtoSyncArtistImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220106I28ML3ProtoSyncDeleteImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220106I29ML3ITunesSyncArtistImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220106I31ML3ProtoSyncContainerImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220106I32ML3ITunesSyncContainerImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220106I34ML3ContainerItemReactionImportItemLi0EEEPT_
++ __ZNSt3__110shared_ptrI15ML3ComposerDataED1B9nqe220106Ev
++ __ZNSt3__110shared_ptrI27ML3DatabaseImportDataSourceEC2B9nqe220106I36ML3ItemStoreDatabaseImportDataSourceLi0EEEPT_
++ __ZNSt3__110shared_ptrIN6ML3CPP7ElementEE18__enable_weak_thisB9nqe220106IS2_S2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__hash_node_destructorINS6_ISB_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS9_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEEPvEENS_22__tree_node_destructorINS6_ISH_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__tree_node_destructorINS6_ISB_EEEEED1B9nqe220106Ev
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EEEEvPT_
++ __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE16__copy_constructB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS6_PvEEEE
++ __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE16__copy_constructB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS6_PvEEEESJ_m
++ __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE17__deallocate_nodeB9nqe220106EPNS_11__hash_nodeIS6_PvEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIx20ML3CollectionInfoSetEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS7_SB_S9_EENS_9allocatorIS7_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqe220106Em
++ __ZNSt3__112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE22__init_internal_bufferB9nqe220106Em
++ __ZNSt3__115allocate_sharedB9nqe220106I12ML3AlbumDataNS_9allocatorIS1_EEJRxRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_SA_RiSB_SB_SB_R12ML3NameOrderSB_S4_S4_SA_SB_RbS4_S4_SE_SE_R11MLAlbumTypeS4_S4_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9nqe220106I13ML3ArtistDataNS_9allocatorIS1_EEJRxRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_S9_S9_S4_R12ML3NameOrderSC_S4_SA_RbRiS4_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9nqe220106I13ML3ArtistDataNS_9allocatorIS1_EEJRxRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_SA_SA_S4_R12ML3NameOrderSC_S4_S9_RbiiELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9nqe220106I18ML3AlbumImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI12ML3AlbumDataEERNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEERbRU8__strongP6NSDataxRxSJ_SE_ELi0EEENS4_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9nqe220106I18ML3LibraryPinsDataNS_9allocatorIS1_EEJRxS4_13ML3EntityTypeS4_S4_S4_RA1_KcRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9nqe220106I18ML3LibraryPinsDataNS_9allocatorIS1_EEJRxS4_13ML3EntityTypeS4_S4_S4_RNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESB_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9nqe220106I19ML3ArtistImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI13ML3ArtistDataEERU8__strongP6NSDataRxELi0EEENS4_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9nqe220106I24ML3AlbumArtistImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI13ML3ArtistDataEERU8__strongP6NSDataRxELi0EEENS4_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9nqe220106I24ML3AlbumArtistImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI13ML3ArtistDataEERU8__strongP6NSDataxELi0EEENS4_IT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB9nqe220106I29ML3SetCloudIDArtistImportItemNS_9allocatorIS1_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9nqe220106IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9nqe220106IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9nqe220106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220106INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9nqe220106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220106IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9nqe220106IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9nqe220106EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9nqe220106IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9nqe220106IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9nqe220106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220106INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9nqe220106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220106IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9nqe220106IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9nqe220106EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9nqe220106IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9nqe220106IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9nqe220106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220106INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9nqe220106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220106IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9nqe220106IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9nqe220106EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9nqe220106IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9nqe220106IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9nqe220106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220106INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9nqe220106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220106IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9nqe220106IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9nqe220106EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9nqe220106IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9nqe220106IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9nqe220106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220106INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9nqe220106IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220106IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
++ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9nqe220106IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9nqe220106EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
++ __ZNSt3__116__variant_detail6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9nqe220106Ev
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS9_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEEPvEEEEE7destroyB9nqe220106INS_4pairIKS8_SE_EELi0EEEvRSI_PT_
++ __ZNSt3__118codecvt_utf8_utf16IwLm1114111ELNS_12codecvt_modeE0EED0B9nqe220106Ev
++ __ZNSt3__118codecvt_utf8_utf16IwLm1114111ELNS_12codecvt_modeE0EED1B9nqe220106Ev
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_10shared_ptrI13ML3ImportItemEEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_10shared_ptrIN6ML3CPP7ElementEEEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS1_IS7_EEEEEENS_16allocator_traitsISE_EEEENS_19__allocation_resultINT0_7pointerENSI_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPNS_10shared_ptrIN6ML3CPP6Parser15ParserContainerEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIxEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIyEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB9nqe220106Ev
++ __ZNSt3__119__throw_range_errorB9nqe220106EPKc
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe220106Ev
++ __ZNSt3__120__optional_copy_baseINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELb0EEC2B9nqe220106ERKSC_
++ __ZNSt3__120__throw_bad_weak_ptrB9nqe220106Ev
++ __ZNSt3__120__throw_length_errorB9nqe220106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9nqe220106EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB9nqe220106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEbEEPvEEEEEclB9nqe220106EPSB_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEExEEPvEEEEEclB9nqe220106EPSB_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIj14ML3ImportValueINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEPvEEEEEclB9nqe220106EPSD_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIx20ML3CollectionInfoSetEEPvEEEEEclB9nqe220106EPS7_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEEPvEEEEEclB9nqe220106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI12ML3GenreDataEEEEPvEEEEEclB9nqe220106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEEPvEEEEEclB9nqe220106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEEPvEEEEEclB9nqe220106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI15ML3ComposerDataEEEEPvEEEEEclB9nqe220106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEEPvEEEEEclB9nqe220106EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB9nqe220106EPSB_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_6vectorINS_4pairIxxEENS1_IS6_EEEEEEPvEEEEEclB9nqe220106EPSB_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIyNS_10shared_ptrI13ML3ImportItemEEEEPvEEEEEclB9nqe220106EPS9_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEExEEPvEEEEEclB9nqe220106EPSB_
++ __ZNSt3__124__put_character_sequenceB9nqe220106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__126__throw_bad_variant_accessB9nqe220106Ev
++ __ZNSt3__127__tree_balance_after_insertB9nqe220106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B9nqe220106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_8optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEEPSE_EEED2B9nqe220106Ev
++ __ZNSt3__130__default_three_way_comparatorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_vEclB9nqe220106ERKS6_S9_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9nqe220106INS_9allocatorINS_10shared_ptrI13ML3ImportItemEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9nqe220106INS_9allocatorINS_10shared_ptrI27ML3DatabaseImportDataSourceEEEEPKS4_S7_PS4_EET2_RT_T0_T1_S9_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS7_I13ML3ImportItemEEE26_ContainerItemReactionInfoEENS_4lessIS6_EENS4_INS_4pairIKS6_SC_EEEEEC1B9nqe220106ERKSJ_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS7_I13ML3ImportItemEEE26_ContainerItemReactionInfoEENS_4lessIS6_EENS4_INS_4pairIKS6_SC_EEEEEaSB9nqe220106ERKSJ_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEE6insertB9nqe220106EOSB_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExNS_4lessIS6_EENS4_INS_4pairIKS6_xEEEEED1B9nqe220106Ev
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EEEENS5_ISI_EEE12__find_equalB9nqe220106IS7_EENSG_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERST_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EEEENS5_ISI_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeISE_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EEEENS5_ISI_EEE18__assign_from_treeB9nqe220106IZNSN_18__copy_assign_treeB9nqe220106EPNS_11__tree_nodeISE_PvEESS_EUlRSI_RKSI_E_ZNSN_18__copy_assign_treeB9nqe220106ESS_SS_EUlSS_E_EESS_SS_SS_T_T0_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EEEENS5_ISI_EEE21__construct_from_treeB9nqe220106IZNSN_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeISE_PvEEEUlRKSI_E_EESS_SS_T_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EEEENS5_ISC_EEE12__find_equalB9nqe220106IS7_EENSA_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSN_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EEEENS5_ISC_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EEEENS5_ISC_EEE21__construct_from_treeB9nqe220106IZNSH_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESM_SM_T_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_19__map_value_compareIS7_NS_4pairIKS7_xEENS_4lessIS7_EEEENS5_ISC_EEE12__find_equalB9nqe220106IS7_EENSA_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSN_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_19__map_value_compareIS7_NS_4pairIKS7_xEENS_4lessIS7_EEEENS5_ISC_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIjNS_10shared_ptrIN6ML3CPP7ElementEEEEENS_19__map_value_compareIjNS_4pairIKjS5_EENS_4lessIjEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIjmEENS_19__map_value_compareIjNS_4pairIKjmEENS_4lessIjEEEENS_9allocatorIS6_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIxNS_3mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS9_I13ML3ImportItemEEE26_ContainerItemReactionInfoEENS_4lessIS8_EENS6_INS_4pairIKS8_SE_EEEEEEEENS_19__map_value_compareIxNSH_IKxSL_EENSF_IxEEEENS6_ISP_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeISM_PvEE
++ __ZNSt3__16vectorI21ML3VirtualTableColumnNS_9allocatorIS1_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorI21ML3VirtualTableColumnNS_9allocatorIS1_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE5clearB9nqe220106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE9push_backB9nqe220106EOS3_
++ __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE9push_backB9nqe220106ERKS3_
++ __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE16__init_with_sizeB9nqe220106IPKS3_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE18__assign_with_sizeB9nqe220106INS_17_ClassicAlgPolicyEPKS3_SA_EEvT0_T1_l
++ __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE5clearB9nqe220106Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN6ML3CPP7ElementEEENS_9allocatorIS4_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN6ML3CPP7ElementEEENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB9nqe220106IPKS6_SB_EEvT_T0_m
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB9nqe220106IPS6_SA_EEvT_T0_m
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_13unordered_mapIxyNS_4hashIxEENS_8equal_toIxEENS_9allocatorINS_4pairIKxyEEEEEENS6_ISB_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_13unordered_mapIyxNS_4hashIyEENS_8equal_toIyEENS_9allocatorINS_4pairIKyxEEEEEENS6_ISB_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEENS5_ISD_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEENS5_ISD_EEE16__init_with_sizeB9nqe220106IPSD_SH_EEvT_T0_m
++ __ZNSt3__16vectorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEENS5_ISD_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_4pairIxxEENS_9allocatorIS2_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_8optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEENS6_ISD_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_8optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEENS6_ISD_EEE16__init_with_sizeB9nqe220106IPKSD_SI_EEvT_T0_m
++ __ZNSt3__16vectorIP11_constraintNS_9allocatorIS2_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIP17_constraint_stateNS_9allocatorIS2_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE16__init_with_sizeB9nqe220106IPxS5_EEvT_T0_m
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIxNS_9allocatorIxEEEC2B9nqe220106Em
++ __ZNSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__18optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEaSB9nqe220106IS7_Li0EEERSC_OT_
++ __ZNSt3__19allocatorI18DAAPParserDelegateE9constructB9nqe220106IS1_JRU8__strongKP22ML3DAAPImportOperationRNS_10shared_ptrIN6ML3CPP6ParserEEER32ML3DAAPImportOperationEntityTypebEEEvPT_DpOT0_
++ __ZSt28__throw_bad_array_new_lengthB9nqe220106v
++ __ZZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE16__emplace_uniqueB9nqe220106IJRKS6_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEEDpOT_ENKUlSF_SF_E_clESF_SF_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE16__emplace_uniqueB9nqe220106IJSF_EEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEEDpOT_ENKUlRSE_OSF_E_clES10_S11_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE16__emplace_uniqueB9nqe220106IJSF_EEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEEDpOT_ENKUlRSE_OSF_E_clES10_S11_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE16__emplace_uniqueB9nqe220106IJSF_EEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEEDpOT_ENKUlRSE_OSF_E_clES10_S11_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlRSB_SP_OSS_OST_E_clES14_SP_S15_S16_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_bEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlSR_SP_OSS_OST_E_clESR_SP_S14_S15_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_xEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlRSB_SP_OSS_OST_E_clES14_SP_S15_S16_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_xEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlSR_SP_OSS_OST_E_clESR_SP_S14_S15_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS7_SB_S9_EENS_9allocatorIS7_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJOxEEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlRS6_SL_OSO_OSP_E_clES10_SL_S11_S12_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS7_SB_S9_EENS_9allocatorIS7_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSN_SL_OSO_OSP_E_clESN_SL_S10_S11_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIx20ML3CollectionInfoSetEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS7_SB_S9_EENS_9allocatorIS7_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSN_SL_OSO_OSP_E_clESN_SL_S10_S11_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9nqe220106IJS9_EEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_OS9_E_clESV_SW_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9nqe220106IJS9_EEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_OS9_E_clESV_SW_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9nqe220106IJS9_EEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_OS9_E_clESV_SW_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9nqe220106IJNS7_IxS4_EEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_OSL_E_clESW_SX_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS6_SA_S8_EENS_9allocatorIS6_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEEDpOT_ENKUlSM_SK_OSN_OSO_E_clESM_SK_SZ_S10_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxyEENS_22__unordered_map_hasherIxNS_4pairIKxyEENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS6_SA_S8_EENS_9allocatorIS6_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEEDpOT_ENKUlSM_SK_OSN_OSO_E_clESM_SK_SZ_S10_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIyNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIyNS_4pairIKyS4_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJOyEEENSO_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_SN_OSQ_OSR_E_clES12_SN_S13_S14_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIyxEENS_22__unordered_map_hasherIyNS_4pairIKyxEENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS6_SA_S8_EENS_9allocatorIS6_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJOyEEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEEDpOT_ENKUlRS5_SK_OSN_OSO_E_clESZ_SK_S10_S11_
++ __ZZNSt3__112__hash_tableIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEE16__emplace_uniqueB9nqe220106IJRKiEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIiPvEEEEbEEDpOT_ENKUlSA_SA_E_clESA_SA_
++ __ZZNSt3__112__hash_tableIxNS_4hashIxEENS_8equal_toIxEENS_9allocatorIxEEE16__emplace_uniqueB9nqe220106IJRKxEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIxPvEEEEbEEDpOT_ENKUlSA_SA_E_clESA_SA_
++ __ZZNSt3__112__hash_tableIxNS_4hashIxEENS_8equal_toIxEENS_9allocatorIxEEE16__emplace_uniqueB9nqe220106IJxEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIxPvEEEEbEEDpOT_ENKUlRKxOxE_clESL_SM_
++ __ZZNSt3__112__hash_tableIy15echo_hash_shiftIyENS_8equal_toIyEENS_9allocatorIyEEE16__emplace_uniqueB9nqe220106IJRKyEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIyPvEEEEbEEDpOT_ENKUlSA_SA_E_clESA_SA_
++ ___169-[ML3MusicLibrary importOriginalArtworkFromFileURL:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:qualityOfService:completion:]_block_invoke
++ ___171-[ML3MusicLibrary importOriginalArtworkFromImageData:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:qualityOfService:completion:]_block_invoke
++ ___63-[ML3MusicLibrary connection:didEncounterSQLErrorOfType:error:]_block_invoke
++ ___81-[_ML3DatabaseConnectionSubPool invalidateIdleAndBusyConnectionsForPoisonedState]_block_invoke
++ ___91-[ML3MusicLibrary generateArtworkForRelativePath:sizes:qualityOfService:completionHandler:]_block_invoke
++ ___91-[ML3MusicLibrary generateArtworkForRelativePath:sizes:qualityOfService:completionHandler:]_block_invoke_2
++ ___ZL37ML3LibraryPinDefaultActionDescriptionx_block_invoke.22799
++ ___ZL37ML3LibraryPinDefaultActionDescriptionx_block_invoke.4469
++ ___ZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityType_block_invoke.22802
++ ___ZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityType_block_invoke.4479
++ ___ZN16ML3ImportSession13_finishImportEv_block_invoke.301
++ ___ZN16ML3ImportSession13_finishImportEv_block_invoke.308
++ ___ZN16ML3ImportSession13_finishImportEv_block_invoke.315
++ ___ZN16ML3ImportSession13_finishImportEv_block_invoke.324
++ ___ZN16ML3ImportSession13_finishImportEv_block_invoke.326
++ ___ZN16ML3ImportSession13_finishImportEv_block_invoke_2.330
++ ___ZN16ML3ImportSession34_prepareContainerAuthorImportItemsENSt3__110shared_ptrI13ML3ImportItemEE_block_invoke.867
++ ___ZN16ML3ImportSession38_prepareContainerItemPersonImportItemsENSt3__110shared_ptrI13ML3ImportItemEE_block_invoke.852
++ ___ZN16ML3ImportSession5flushEb_block_invoke.192
++ ____ZN16ML3ImportSession11removeTrackEx_block_invoke
++ ___block_descriptor_101_e8_32s40s48s56bs_e17_v16?0"NSError"8l
++ ___block_descriptor_80_e8_32s40r48r56r64r72r_e5_v8?0l
++ ___copy_helper_block_e8_32s40r48r56r64r72r
++ ___destroy_helper_block_e8_32s40r48r56r64r72r
++ ___ioErrorReportHandler
++ ___ioErrorReportHandlerLock
++ __block_literal_global.10224
++ __block_literal_global.1023
++ __block_literal_global.10279
++ __block_literal_global.1037
++ __block_literal_global.1045
++ __block_literal_global.11042
++ __block_literal_global.1129
++ __block_literal_global.1143
++ __block_literal_global.11466
++ __block_literal_global.121.19296
++ __block_literal_global.121.2947
++ __block_literal_global.12959
++ __block_literal_global.13159
++ __block_literal_global.14103
++ __block_literal_global.15051
++ __block_literal_global.15899
++ __block_literal_global.16234
++ __block_literal_global.16845
++ __block_literal_global.18021
++ __block_literal_global.19022
++ __block_literal_global.19302
++ __block_literal_global.19469
++ __block_literal_global.19597
++ __block_literal_global.19629
++ __block_literal_global.19829
++ __block_literal_global.20373
++ __block_literal_global.21110
++ __block_literal_global.21694
++ __block_literal_global.22524
++ __block_literal_global.24820
++ __block_literal_global.24954
++ __block_literal_global.25587
++ __block_literal_global.25925
++ __block_literal_global.2963
++ __block_literal_global.3905
++ __block_literal_global.4068
++ __block_literal_global.4458
++ __block_literal_global.4651
++ __block_literal_global.4823
++ __block_literal_global.5491
++ __block_literal_global.5631
++ __block_literal_global.5993
++ __block_literal_global.617
++ __block_literal_global.6423
++ __block_literal_global.6497
++ __block_literal_global.657
++ __block_literal_global.7208
++ __block_literal_global.784
++ __block_literal_global.8219
++ __block_literal_global.83.5691
++ __block_literal_global.8553
++ __block_literal_global.8794
++ __block_literal_global.881
++ __block_literal_global.886
++ __block_literal_global.888
++ __block_literal_global.9022
++ __block_literal_global.9151
++ __block_literal_global.917
++ __block_literal_global.921
++ __block_literal_global.9708
++ __block_literal_global.985
++ __getICStoreArtworkInfoCropStyleSquareCenterCropSymbolLoc_block_invoke.17456
++ __getICStoreArtworkInfoImageFormatJPEGSymbolLoc_block_invoke.17437
++ __getICStorePlatformMetadataKindPlaylistSymbolLoc_block_invoke.17466
++ __iTunesCloudLibraryCore_block_invoke.17450
++ _objc_msgSend$_autogenerateArtworkForRelativePath:artworkType:mediaType:variantType:qualityOfService:completionHandler:
++ _objc_msgSend$_convertOriginalArtworkToDevicePreferredFormatFromSourceURL:toDestinationURL:qualityOfService:completionHandler:
++ _objc_msgSend$_invalidateIdleAndBusyConnectionsForPoisonedState
++ _objc_msgSend$_isPoisoned
++ _objc_msgSend$_poisonReason
++ _objc_msgSend$_poisonWithReason:sqliteError:
++ _objc_msgSend$_poisonedConnectionErrorWithReason:underlyingError:
++ _objc_msgSend$_returnToPoolAfterCheckin
++ _objc_msgSend$_setReturnToPoolAfterCheckin:
++ _objc_msgSend$connection:didEncounterSQLErrorOfType:error:
++ _objc_msgSend$generateArtworkForRelativePath:sizes:qualityOfService:completionHandler:
++ _objc_msgSend$importOriginalArtworkFromFileURL:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:qualityOfService:completion:
++ _objc_msgSend$importOriginalArtworkFromImageData:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:qualityOfService:completion:
++ _objc_msgSend$invalidateIdleAndBusyConnectionsForPoisonedState
++ _objc_msgSend$library:didDetectDatabaseCorruptionWithConnection:sourceError:
++ _objc_msgSend$timeout
++ audit_stringiTunesCloud.17453
++ getICStoreArtworkInfoCropStyleSquareCenterCropSymbolLoc.ptr.17455
++ getICStoreArtworkInfoImageFormatJPEGSymbolLoc.ptr.17436
++ getICStorePlatformMetadataKindPlaylistSymbolLoc.ptr.17465
++ iTunesCloudLibrary.17438
++ iTunesCloudLibraryCore.frameworkLibrary.17449
++ propertiesForGroupingKey.onceToken.5490
++ propertiesForGroupingKey.onceToken.7207
++ propertiesForGroupingKey.onceToken.9021
++ propertiesForGroupingKey.onceToken.9150
++ propertiesForGroupingKey.propertiesForGroupingKey.5492
++ propertiesForGroupingKey.propertiesForGroupingKey.7209
++ propertiesForGroupingKey.propertiesForGroupingKey.9023
++ propertiesForGroupingKey.propertiesForGroupingKey.9152
+- -[ML3DatabaseConnection _alreadyAttemptedCorruptionRecovery]
+- -[ML3DatabaseConnection _closeConnectionWhenCheckingIn]
+- -[ML3DatabaseConnection _setAlreadyAttemptedCorruptionRecovery:]
+- -[ML3DatabaseConnection _setCloseConnectionWhenCheckingIn]
+- -[ML3DatabaseRecoveryOperation .cxx_destruct]
+- -[ML3DatabaseRecoveryOperation _createSQLiteErrorWithCode:description:]
+- -[ML3DatabaseRecoveryOperation _lastCorruptionRestoreAttemptDate]
+- -[ML3DatabaseRecoveryOperation _recreateDatabaseWithCompletion:]
+- -[ML3DatabaseRecoveryOperation _updateLastCorruptionRestoreAttemptDate]
+- -[ML3DatabaseRecoveryOperation error]
+- -[ML3DatabaseRecoveryOperation initWithDatabaseFilePath:]
+- -[ML3DatabaseRecoveryOperation main]
+- -[ML3DatabaseRecoveryOperation path]
+- -[ML3MusicLibrary _autogenerateArtworkForRelativePath:artworkType:mediaType:variantType:completionHandler:]
+- -[ML3MusicLibrary _convertOriginalArtworkToDevicePreferredFormatFromSourceURL:toDestinationURL:completionHandler:]
+- -[_ML3DatabaseConnectionSubPool closeConnection:]
+- GCC_except_table1706
+- GCC_except_table1716
+- GCC_except_table1729
+- GCC_except_table1745
+- GCC_except_table1747
+- GCC_except_table1749
+- GCC_except_table1771
+- GCC_except_table1775
+- GCC_except_table1786
+- GCC_except_table1807
+- GCC_except_table1809
+- GCC_except_table1814
+- GCC_except_table1816
+- GCC_except_table1822
+- GCC_except_table1824
+- GCC_except_table1826
+- GCC_except_table1833
+- GCC_except_table1837
+- GCC_except_table1838
+- GCC_except_table1847
+- GCC_except_table1879
+- GCC_except_table1892
+- GCC_except_table1894
+- GCC_except_table1908
+- GCC_except_table1915
+- GCC_except_table1955
+- GCC_except_table1962
+- GCC_except_table1964
+- GCC_except_table1984
+- GCC_except_table1988
+- GCC_except_table1996
+- GCC_except_table2000
+- GCC_except_table2010
+- GCC_except_table2011
+- GCC_except_table2026
+- GCC_except_table2035
+- GCC_except_table2037
+- GCC_except_table2071
+- GCC_except_table2101
+- GCC_except_table2107
+- GCC_except_table2108
+- GCC_except_table2111
+- GCC_except_table2128
+- GCC_except_table2137
+- GCC_except_table2141
+- GCC_except_table2143
+- GCC_except_table2144
+- GCC_except_table2145
+- GCC_except_table2159
+- GCC_except_table2160
+- GCC_except_table2161
+- GCC_except_table2167
+- GCC_except_table2169
+- GCC_except_table2170
+- GCC_except_table2173
+- GCC_except_table2176
+- GCC_except_table2177
+- GCC_except_table2183
+- GCC_except_table2184
+- GCC_except_table2185
+- GCC_except_table2187
+- GCC_except_table2193
+- GCC_except_table2194
+- GCC_except_table2195
+- GCC_except_table2196
+- GCC_except_table2197
+- GCC_except_table2209
+- GCC_except_table2213
+- GCC_except_table2220
+- GCC_except_table2221
+- GCC_except_table2242
+- GCC_except_table2243
+- GCC_except_table2244
+- GCC_except_table2245
+- GCC_except_table2246
+- GCC_except_table2252
+- GCC_except_table2253
+- GCC_except_table2254
+- GCC_except_table2260
+- GCC_except_table2261
+- GCC_except_table2262
+- GCC_except_table2263
+- GCC_except_table2273
+- GCC_except_table2276
+- GCC_except_table2280
+- GCC_except_table2282
+- GCC_except_table2283
+- GCC_except_table2292
+- GCC_except_table2294
+- GCC_except_table2296
+- GCC_except_table2298
+- GCC_except_table2302
+- GCC_except_table2305
+- GCC_except_table2319
+- GCC_except_table2322
+- GCC_except_table2323
+- GCC_except_table2326
+- GCC_except_table2339
+- GCC_except_table2340
+- GCC_except_table2341
+- GCC_except_table2342
+- GCC_except_table2343
+- GCC_except_table2355
+- GCC_except_table2371
+- GCC_except_table2379
+- GCC_except_table2382
+- GCC_except_table2383
+- GCC_except_table2385
+- GCC_except_table2386
+- GCC_except_table2395
+- GCC_except_table2396
+- GCC_except_table2529
+- GCC_except_table2551
+- GCC_except_table2555
+- GCC_except_table2614
+- GCC_except_table2630
+- GCC_except_table2643
+- GCC_except_table2660
+- GCC_except_table2663
+- GCC_except_table2674
+- GCC_except_table2676
+- GCC_except_table2680
+- GCC_except_table2682
+- GCC_except_table2693
+- GCC_except_table2697
+- GCC_except_table2703
+- GCC_except_table2709
+- GCC_except_table2710
+- GCC_except_table2711
+- GCC_except_table2935
+- GCC_except_table2984
+- GCC_except_table2987
+- GCC_except_table3015
+- GCC_except_table3044
+- GCC_except_table3055
+- GCC_except_table3061
+- GCC_except_table3064
+- GCC_except_table3070
+- GCC_except_table3077
+- GCC_except_table3079
+- GCC_except_table3081
+- GCC_except_table3087
+- GCC_except_table3102
+- GCC_except_table3121
+- GCC_except_table3124
+- GCC_except_table3134
+- GCC_except_table3136
+- GCC_except_table3137
+- GCC_except_table3145
+- GCC_except_table3183
+- GCC_except_table3190
+- GCC_except_table3193
+- GCC_except_table3210
+- GCC_except_table3211
+- GCC_except_table3212
+- GCC_except_table3213
+- GCC_except_table3219
+- GCC_except_table3220
+- GCC_except_table3226
+- GCC_except_table3227
+- GCC_except_table3228
+- GCC_except_table3229
+- GCC_except_table3230
+- GCC_except_table3240
+- GCC_except_table3241
+- GCC_except_table3244
+- GCC_except_table3269
+- GCC_except_table3280
+- GCC_except_table3286
+- GCC_except_table3290
+- GCC_except_table3293
+- GCC_except_table3296
+- GCC_except_table3300
+- GCC_except_table3302
+- GCC_except_table3313
+- GCC_except_table3314
+- GCC_except_table3315
+- GCC_except_table3317
+- GCC_except_table3324
+- GCC_except_table3325
+- GCC_except_table3335
+- GCC_except_table3337
+- GCC_except_table3344
+- GCC_except_table3386
+- GCC_except_table3410
+- GCC_except_table3436
+- GCC_except_table3437
+- GCC_except_table3443
+- GCC_except_table3449
+- GCC_except_table3450
+- GCC_except_table3451
+- GCC_except_table3459
+- GCC_except_table3461
+- GCC_except_table3462
+- GCC_except_table3468
+- GCC_except_table3475
+- GCC_except_table3476
+- GCC_except_table3487
+- GCC_except_table3488
+- GCC_except_table3489
+- GCC_except_table3499
+- GCC_except_table3501
+- GCC_except_table3502
+- GCC_except_table3510
+- GCC_except_table3513
+- GCC_except_table3514
+- GCC_except_table3522
+- GCC_except_table3523
+- GCC_except_table3525
+- GCC_except_table3526
+- GCC_except_table3533
+- GCC_except_table3535
+- GCC_except_table3536
+- GCC_except_table3551
+- GCC_except_table3576
+- GCC_except_table3612
+- GCC_except_table3912
+- GCC_except_table3922
+- GCC_except_table3924
+- GCC_except_table3947
+- GCC_except_table3949
+- GCC_except_table3961
+- GCC_except_table4120
+- GCC_except_table4124
+- GCC_except_table4132
+- GCC_except_table4135
+- GCC_except_table4144
+- GCC_except_table4147
+- GCC_except_table4148
+- GCC_except_table4164
+- GCC_except_table4175
+- GCC_except_table4199
+- GCC_except_table4207
+- GCC_except_table4210
+- GCC_except_table4214
+- GCC_except_table4218
+- GCC_except_table4222
+- GCC_except_table4225
+- GCC_except_table4228
+- GCC_except_table4401
+- GCC_except_table4415
+- GCC_except_table4418
+- GCC_except_table4421
+- GCC_except_table4427
+- GCC_except_table4433
+- GCC_except_table4442
+- GCC_except_table4461
+- GCC_except_table4463
+- GCC_except_table4645
+- GCC_except_table4656
+- GCC_except_table4663
+- GCC_except_table4664
+- GCC_except_table4665
+- GCC_except_table4671
+- GCC_except_table4738
+- GCC_except_table4739
+- GCC_except_table4740
+- GCC_except_table4741
+- GCC_except_table4750
+- GCC_except_table4753
+- GCC_except_table4756
+- GCC_except_table4768
+- GCC_except_table4773
+- GCC_except_table4787
+- GCC_except_table4788
+- GCC_except_table4789
+- GCC_except_table4894
+- GCC_except_table4897
+- GCC_except_table4902
+- GCC_except_table4905
+- GCC_except_table4923
+- GCC_except_table4924
+- GCC_except_table4925
+- GCC_except_table4926
+- GCC_except_table5042
+- GCC_except_table5044
+- GCC_except_table5052
+- GCC_except_table5053
+- GCC_except_table5126
+- GCC_except_table5130
+- GCC_except_table5139
+- GCC_except_table5140
+- GCC_except_table5155
+- GCC_except_table5156
+- GCC_except_table5164
+- GCC_except_table5167
+- GCC_except_table5169
+- GCC_except_table5172
+- GCC_except_table5174
+- GCC_except_table5176
+- GCC_except_table5177
+- GCC_except_table5187
+- GCC_except_table5189
+- GCC_except_table5191
+- GCC_except_table5192
+- GCC_except_table5194
+- GCC_except_table5208
+- GCC_except_table5213
+- GCC_except_table5220
+- GCC_except_table5225
+- GCC_except_table5263
+- GCC_except_table5267
+- GCC_except_table5271
+- GCC_except_table5276
+- GCC_except_table5278
+- GCC_except_table5281
+- GCC_except_table5283
+- GCC_except_table5296
+- GCC_except_table5301
+- GCC_except_table5308
+- GCC_except_table5324
+- GCC_except_table5329
+- GCC_except_table5334
+- GCC_except_table5343
+- GCC_except_table5344
+- GCC_except_table5345
+- GCC_except_table5347
+- GCC_except_table5352
+- GCC_except_table5425
+- GCC_except_table5428
+- GCC_except_table5432
+- GCC_except_table5436
+- GCC_except_table5439
+- GCC_except_table5526
+- GCC_except_table5529
+- GCC_except_table5530
+- GCC_except_table5534
+- GCC_except_table5537
+- GCC_except_table5552
+- GCC_except_table5553
+- GCC_except_table5555
+- GCC_except_table5556
+- GCC_except_table5560
+- GCC_except_table5567
+- GCC_except_table5569
+- GCC_except_table5571
+- GCC_except_table5572
+- GCC_except_table5574
+- GCC_except_table5593
+- GCC_except_table5629
+- GCC_except_table5638
+- GCC_except_table5645
+- GCC_except_table5741
+- GCC_except_table5784
+- GCC_except_table5785
+- GCC_except_table5792
+- GCC_except_table5809
+- GCC_except_table5818
+- GCC_except_table5827
+- GCC_except_table5836
+- GCC_except_table5862
+- GCC_except_table5890
+- GCC_except_table5898
+- GCC_except_table5911
+- GCC_except_table5919
+- GCC_except_table5947
+- GCC_except_table5992
+- GCC_except_table5996
+- GCC_except_table6003
+- GCC_except_table6010
+- GCC_except_table6017
+- GCC_except_table6020
+- GCC_except_table6022
+- GCC_except_table6023
+- GCC_except_table6049
+- GCC_except_table6050
+- GCC_except_table6051
+- GCC_except_table6052
+- GCC_except_table6114
+- GCC_except_table6116
+- GCC_except_table6118
+- GCC_except_table6120
+- GCC_except_table6127
+- GCC_except_table6128
+- GCC_except_table6174
+- GCC_except_table6220
+- GCC_except_table6221
+- GCC_except_table6222
+- GCC_except_table6251
+- GCC_except_table6253
+- GCC_except_table6257
+- GCC_except_table6261
+- GCC_except_table6262
+- GCC_except_table6267
+- GCC_except_table6269
+- GCC_except_table6271
+- GCC_except_table6281
+- GCC_except_table6283
+- GCC_except_table6285
+- GCC_except_table6289
+- GCC_except_table6290
+- GCC_except_table6291
+- GCC_except_table6296
+- GCC_except_table6297
+- GCC_except_table6305
+- GCC_except_table6310
+- GCC_except_table6311
+- GCC_except_table6312
+- GCC_except_table6322
+- GCC_except_table6326
+- GCC_except_table6327
+- GCC_except_table6359
+- GCC_except_table6363
+- GCC_except_table6365
+- GCC_except_table6370
+- GCC_except_table6397
+- GCC_except_table6419
+- GCC_except_table6420
+- GCC_except_table6470
+- GCC_except_table6471
+- GCC_except_table6483
+- GCC_except_table6484
+- GCC_except_table6485
+- GCC_except_table6495
+- GCC_except_table6503
+- GCC_except_table6508
+- GCC_except_table6509
+- GCC_except_table6510
+- GCC_except_table6517
+- GCC_except_table6519
+- GCC_except_table6523
+- GCC_except_table6528
+- GCC_except_table6534
+- GCC_except_table6542
+- GCC_except_table6548
+- GCC_except_table6550
+- GCC_except_table6552
+- GCC_except_table6558
+- GCC_except_table6565
+- GCC_except_table6566
+- GCC_except_table6567
+- GCC_except_table6575
+- GCC_except_table6580
+- GCC_except_table6582
+- GCC_except_table6584
+- GCC_except_table6590
+- GCC_except_table6599
+- GCC_except_table6601
+- GCC_except_table6613
+- GCC_except_table6614
+- GCC_except_table6615
+- GCC_except_table6624
+- GCC_except_table6625
+- GCC_except_table6630
+- GCC_except_table6634
+- GCC_except_table6635
+- GCC_except_table6639
+- GCC_except_table6640
+- GCC_except_table6645
+- GCC_except_table6649
+- GCC_except_table6650
+- GCC_except_table6668
+- GCC_except_table6678
+- GCC_except_table6679
+- GCC_except_table6694
+- GCC_except_table6695
+- GCC_except_table6705
+- GCC_except_table6708
+- GCC_except_table6713
+- GCC_except_table6714
+- GCC_except_table6726
+- GCC_except_table6730
+- GCC_except_table6736
+- GCC_except_table6740
+- GCC_except_table6743
+- GCC_except_table6744
+- GCC_except_table6748
+- GCC_except_table6749
+- GCC_except_table6757
+- GCC_except_table6767
+- GCC_except_table6783
+- GCC_except_table6804
+- GCC_except_table6805
+- GCC_except_table6930
+- GCC_except_table6935
+- GCC_except_table6953
+- GCC_except_table6969
+- GCC_except_table6970
+- GCC_except_table6976
+- GCC_except_table6982
+- GCC_except_table6983
+- GCC_except_table7021
+- GCC_except_table7022
+- GCC_except_table7028
+- GCC_except_table7029
+- GCC_except_table7036
+- GCC_except_table7037
+- GCC_except_table7047
+- GCC_except_table7048
+- GCC_except_table7055
+- GCC_except_table7056
+- GCC_except_table7075
+- GCC_except_table7076
+- GCC_except_table7081
+- GCC_except_table7082
+- GCC_except_table7090
+- GCC_except_table7093
+- GCC_except_table7097
+- GCC_except_table7100
+- GCC_except_table7104
+- GCC_except_table7124
+- GCC_except_table7146
+- GCC_except_table7147
+- GCC_except_table7169
+- GCC_except_table7178
+- GCC_except_table7185
+- GCC_except_table7209
+- GCC_except_table7233
+- GCC_except_table7234
+- GCC_except_table7298
+- GCC_except_table7343
+- GCC_except_table7451
+- GCC_except_table7537
+- GCC_except_table7606
+- GCC_except_table7613
+- GCC_except_table7619
+- GCC_except_table7627
+- GCC_except_table7642
+- GCC_except_table7646
+- GCC_except_table7692
+- GCC_except_table7698
+- GCC_except_table7702
+- GCC_except_table8011
+- GCC_except_table8017
+- GCC_except_table8020
+- GCC_except_table8023
+- MSVFastHexStringFromBytes.hexCharacters.27000
+- OBJC_IVAR_$_ML3DatabaseConnection._alreadyAttemptedCorruptionRecovery
+- OBJC_IVAR_$_ML3DatabaseConnection._closeConnectionWhenCheckingIn
+- OBJC_IVAR_$_ML3DatabaseRecoveryOperation._error
+- OBJC_IVAR_$_ML3DatabaseRecoveryOperation._path
+- _MSV_XXH_XXH32_update.26991
+- _MSV_XXH_XXH64_digest.26996
+- _MSV_XXH_XXH64_update.26992
+- _OBJC_CLASS_$_ML3DatabaseRecoveryOperation
+- _OBJC_METACLASS_$_ML3DatabaseRecoveryOperation
+- _ZZL37ML3LibraryPinDefaultActionDescriptionxE38__pinnedEntityDefaultActionDescription.22881
+- _ZZL37ML3LibraryPinDefaultActionDescriptionxE38__pinnedEntityDefaultActionDescription.4646
+- _ZZL37ML3LibraryPinDefaultActionDescriptionxE9onceToken.22880
+- _ZZL37ML3LibraryPinDefaultActionDescriptionxE9onceToken.4645
+- _ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE29__pinnedEntityTypeDescription.22879
+- _ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE29__pinnedEntityTypeDescription.4643
+- _ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE9onceToken.22878
+- _ZZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityTypeE9onceToken.4641
+- __136-[ML3MusicLibrary enumeratePersistentIDsAfterRevision:revisionTrackingCode:maximumRevisionType:forMediaTypes:inUsersLibrary:usingBlock:]_block_invoke.692
+- __136-[ML3MusicLibrary enumeratePersistentIDsAfterRevision:revisionTrackingCode:maximumRevisionType:forMediaTypes:inUsersLibrary:usingBlock:]_block_invoke.707
+- __141-[ML3MusicLibrary importOriginalArtworkFromFileURL:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:]_block_invoke.778
+- __143-[ML3MusicLibrary importOriginalArtworkFromImageData:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:]_block_invoke.794
+- __152-[ML3MusicLibrary importOriginalArtworkFromFileURL:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:completion:]_block_invoke.786
+- __45-[ML3MusicLibrary checkInDatabaseConnection:]_block_invoke.240
+- __47-[ML3MusicLibrary _tearDownNotificationManager]_block_invoke.1138
+- __47-[ML3MusicLibrary removeArtworkAssetWithToken:]_block_invoke.800
+- __49-[_ML3DatabaseConnectionSubPool closeConnection:]_block_invoke.244
+- __52-[ML3MusicLibrary removeOrphanedTracksOnlyInCaches:]_block_invoke.890
+- __58-[ML3MusicLibrary _closeAndLockCurrentDatabaseConnections]_block_invoke.1132
+- __59-[ML3MusicLibrary savePlaylistsSinceRevision:withGrappaID:]_block_invoke.532
+- __59-[ML3MusicLibrary savePlaylistsSinceRevision:withGrappaID:]_block_invoke.543
+- __59-[ML3MusicLibrary savePlaylistsSinceRevision:withGrappaID:]_block_invoke.566
+- __63-[ML3MusicLibrary _removeOrphanedArtworkAssetsUsingConnection:]_block_invoke.1106
+- __65-[ML3MusicLibrary _removeOrphanedArtworkMetadataUsingConnection:]_block_invoke.1075
+- __65-[ML3MusicLibrary _removeOrphanedArtworkMetadataUsingConnection:]_block_invoke.1086
+- __65-[ML3MusicLibrary _removeOrphanedArtworkMetadataUsingConnection:]_block_invoke.1093
+- __76-[ML3MusicLibrary sanitizeSortMapContentsUsingConnection:didSortMapEntries:]_block_invoke.1034
+- __77-[ML3MusicLibrary migrateExistingArtworkToken:newArtworkToken:newSourceType:]_block_invoke.816
+- __77-[ML3MusicLibrary migrateExistingArtworkToken:newArtworkToken:newSourceType:]_block_invoke.817
+- __95-[_ML3DatabaseConnectionSubPool closeConnectionsForOwningPoolClosed:andWaitForBusyConnections:]_block_invoke.246
+- __99-[ML3MusicLibrary autogenerateSupportedSizesForAllOriginalArtworkWithConnection:completionHandler:]_block_invoke.747
+- __99-[ML3MusicLibrary enumerateArtworkRelativePathsWithConnection:matchingRelativePathContainer:block:]_block_invoke.765
+- __Block_byref_object_copy_.10325
+- __Block_byref_object_copy_.11148
+- __Block_byref_object_copy_.11255
+- __Block_byref_object_copy_.12113
+- __Block_byref_object_copy_.12282
+- __Block_byref_object_copy_.13129
+- __Block_byref_object_copy_.14371
+- __Block_byref_object_copy_.16876
+- __Block_byref_object_copy_.17238
+- __Block_byref_object_copy_.17777
+- __Block_byref_object_copy_.17907
+- __Block_byref_object_copy_.18661
+- __Block_byref_object_copy_.19110
+- __Block_byref_object_copy_.19366
+- __Block_byref_object_copy_.20338
+- __Block_byref_object_copy_.20707
+- __Block_byref_object_copy_.22325
+- __Block_byref_object_copy_.22997
+- __Block_byref_object_copy_.24833
+- __Block_byref_object_copy_.24915
+- __Block_byref_object_copy_.25022
+- __Block_byref_object_copy_.25304
+- __Block_byref_object_copy_.25688
+- __Block_byref_object_copy_.2601
+- __Block_byref_object_copy_.27137
+- __Block_byref_object_copy_.27968
+- __Block_byref_object_copy_.3912
+- __Block_byref_object_copy_.4829
+- __Block_byref_object_copy_.500
+- __Block_byref_object_copy_.5019
+- __Block_byref_object_copy_.518
+- __Block_byref_object_copy_.588
+- __Block_byref_object_copy_.6145
+- __Block_byref_object_copy_.618
+- __Block_byref_object_copy_.639
+- __Block_byref_object_copy_.705
+- __Block_byref_object_copy_.7359
+- __Block_byref_object_copy_.7448
+- __Block_byref_object_copy_.8047
+- __Block_byref_object_copy_.837
+- __Block_byref_object_copy_.843
+- __Block_byref_object_copy_.850
+- __Block_byref_object_copy_.854
+- __Block_byref_object_copy_.861
+- __Block_byref_object_copy_.866
+- __Block_byref_object_copy_.8669
+- __Block_byref_object_copy_.915
+- __Block_byref_object_copy_.9158
+- __Block_byref_object_copy_.9280
+- __Block_byref_object_copy_.9385
+- __Block_byref_object_dispose_.10326
+- __Block_byref_object_dispose_.11149
+- __Block_byref_object_dispose_.11256
+- __Block_byref_object_dispose_.12114
+- __Block_byref_object_dispose_.12283
+- __Block_byref_object_dispose_.13130
+- __Block_byref_object_dispose_.14372
+- __Block_byref_object_dispose_.16877
+- __Block_byref_object_dispose_.17239
+- __Block_byref_object_dispose_.17778
+- __Block_byref_object_dispose_.17908
+- __Block_byref_object_dispose_.18662
+- __Block_byref_object_dispose_.19111
+- __Block_byref_object_dispose_.19367
+- __Block_byref_object_dispose_.20339
+- __Block_byref_object_dispose_.20708
+- __Block_byref_object_dispose_.22326
+- __Block_byref_object_dispose_.22998
+- __Block_byref_object_dispose_.24834
+- __Block_byref_object_dispose_.24916
+- __Block_byref_object_dispose_.25023
+- __Block_byref_object_dispose_.25305
+- __Block_byref_object_dispose_.25689
+- __Block_byref_object_dispose_.2602
+- __Block_byref_object_dispose_.27138
+- __Block_byref_object_dispose_.27969
+- __Block_byref_object_dispose_.3913
+- __Block_byref_object_dispose_.4830
+- __Block_byref_object_dispose_.501
+- __Block_byref_object_dispose_.5020
+- __Block_byref_object_dispose_.519
+- __Block_byref_object_dispose_.589
+- __Block_byref_object_dispose_.6146
+- __Block_byref_object_dispose_.619
+- __Block_byref_object_dispose_.640
+- __Block_byref_object_dispose_.706
+- __Block_byref_object_dispose_.7360
+- __Block_byref_object_dispose_.7449
+- __Block_byref_object_dispose_.8048
+- __Block_byref_object_dispose_.838
+- __Block_byref_object_dispose_.844
+- __Block_byref_object_dispose_.851
+- __Block_byref_object_dispose_.855
+- __Block_byref_object_dispose_.862
+- __Block_byref_object_dispose_.867
+- __Block_byref_object_dispose_.8670
+- __Block_byref_object_dispose_.9159
+- __Block_byref_object_dispose_.916
+- __Block_byref_object_dispose_.9281
+- __Block_byref_object_dispose_.9386
+- __OBJC_$_INSTANCE_METHODS_ML3DatabaseRecoveryOperation
+- __OBJC_$_INSTANCE_VARIABLES_ML3DatabaseRecoveryOperation
+- __OBJC_$_PROP_LIST_ML3DatabaseRecoveryOperation
+- __OBJC_CLASS_RO_$_ML3DatabaseRecoveryOperation
+- __OBJC_METACLASS_RO_$_ML3DatabaseRecoveryOperation
+- __ZNKSt3__111__copy_implclB9nqe220100IPKNS_10shared_ptrI27ML3DatabaseImportDataSourceEES6_PS4_Li0EEENS_4pairIT_T1_EES9_T0_SA_
+- __ZNKSt3__111__copy_implclB9nqe220100IPNS_10shared_ptrI13ML3ImportItemEES5_S5_Li0EEENS_4pairIT_T1_EES7_T0_S8_
+- __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9nqe220100ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
+- __ZNKSt3__114default_deleteIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS_10shared_ptrI13ML3ImportItemEEE26_ContainerItemReactionInfoEclB9nqe220100EPS5_
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe220100ERKS6_S9_
+- __ZNSt11range_errorC1B9nqe220100EPKc
+- __ZNSt12length_errorC1B9nqe220100EPKc
+- __ZNSt12out_of_rangeC1B9nqe220100EPKc
+- __ZNSt3__110shared_ptrI10ML3CPPDataEC2B9nqe220100IS1_Li0EEEPT_
+- __ZNSt3__110shared_ptrI12ML3AlbumDataED1B9nqe220100Ev
+- __ZNSt3__110shared_ptrI12ML3GenreDataED1B9nqe220100Ev
+- __ZNSt3__110shared_ptrI13ML3ArtistDataED1B9nqe220100Ev
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220100I25ML3SubscriptionImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220100I26ML3ContainerItemImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220100I27ML3ProtoSyncAlbumImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220100I27ML3ProtoSyncTrackImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220100I28ML3ContainerAuthorImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220100I28ML3ITunesSyncAlbumImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220100I28ML3ITunesSyncTrackImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220100I28ML3ProtoSyncArtistImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220100I28ML3ProtoSyncDeleteImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220100I29ML3ITunesSyncArtistImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220100I31ML3ProtoSyncContainerImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220100I32ML3ITunesSyncContainerImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI13ML3ImportItemEC2B9nqe220100I34ML3ContainerItemReactionImportItemLi0EEEPT_
+- __ZNSt3__110shared_ptrI15ML3ComposerDataED1B9nqe220100Ev
+- __ZNSt3__110shared_ptrI27ML3DatabaseImportDataSourceEC2B9nqe220100I36ML3ItemStoreDatabaseImportDataSourceLi0EEEPT_
+- __ZNSt3__110shared_ptrIN6ML3CPP7ElementEE18__enable_weak_thisB9nqe220100IS2_S2_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__hash_node_destructorINS6_ISB_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS9_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEEPvEENS_22__tree_node_destructorINS6_ISH_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__tree_node_destructorINS6_ISB_EEEEED1B9nqe220100Ev
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EEEEvPT_
+- __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE16__copy_constructB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS6_PvEEEE
+- __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE16__copy_constructB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS6_PvEEEESJ_m
+- __ZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE17__deallocate_nodeB9nqe220100EPNS_11__hash_nodeIS6_PvEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISB_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIx20ML3CollectionInfoSetEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS7_SB_S9_EENS_9allocatorIS7_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3GenreDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqe220100Em
+- __ZNSt3__112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__112basic_stringIwNS_11char_traitsIwEENS_9allocatorIwEEE22__init_internal_bufferB9nqe220100Em
+- __ZNSt3__115allocate_sharedB9nqe220100I12ML3AlbumDataNS_9allocatorIS1_EEJRxRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_SA_RiSB_SB_SB_R12ML3NameOrderSB_S4_S4_SA_SB_RbS4_S4_SE_SE_R11MLAlbumTypeS4_S4_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe220100I13ML3ArtistDataNS_9allocatorIS1_EEJRxRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_S9_S9_S4_R12ML3NameOrderSC_S4_SA_RbRiS4_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe220100I13ML3ArtistDataNS_9allocatorIS1_EEJRxRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_SA_SA_S4_R12ML3NameOrderSC_S4_S9_RbiiELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe220100I18ML3AlbumImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI12ML3AlbumDataEERNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEERbRU8__strongP6NSDataxRxSJ_SE_ELi0EEENS4_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe220100I18ML3LibraryPinsDataNS_9allocatorIS1_EEJRxS4_13ML3EntityTypeS4_S4_S4_RA1_KcRNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe220100I18ML3LibraryPinsDataNS_9allocatorIS1_EEJRxS4_13ML3EntityTypeS4_S4_S4_RNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESB_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe220100I19ML3ArtistImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI13ML3ArtistDataEERU8__strongP6NSDataRxELi0EEENS4_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe220100I24ML3AlbumArtistImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI13ML3ArtistDataEERU8__strongP6NSDataRxELi0EEENS4_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe220100I24ML3AlbumArtistImportItemNS_9allocatorIS1_EEJRNS_10shared_ptrI13ML3ArtistDataEERU8__strongP6NSDataxELi0EEENS4_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB9nqe220100I29ML3SetCloudIDArtistImportItemNS_9allocatorIS1_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9nqe220100IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9nqe220100IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9nqe220100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220100INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9nqe220100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220100IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm0EEE10__dispatchB9nqe220100IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9nqe220100EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9nqe220100IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9nqe220100IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9nqe220100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220100INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9nqe220100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220100IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm1EEE10__dispatchB9nqe220100IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9nqe220100EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9nqe220100IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9nqe220100IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9nqe220100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220100INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9nqe220100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220100IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm2EEE10__dispatchB9nqe220100IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9nqe220100EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9nqe220100IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9nqe220100IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9nqe220100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220100INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9nqe220100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220100IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm3EEE10__dispatchB9nqe220100IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9nqe220100EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9nqe220100IONS1_9__variant15__value_visitorIR26ML3StatementBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9nqe220100IONS1_9__variant15__value_visitorIR29ML3VirtualTableBindingVisitorEEJRKNS0_6__baseILNS0_6_TraitE1EJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEDcT_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9nqe220100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220100INS0_18__move_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSP_E_JONS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSO_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9nqe220100IOZNS0_6__ctorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEE19__generic_constructB9nqe220100IRKNS0_18__copy_constructorISH_LNS0_6_TraitE1EEEEEvRSI_OT_EUlSR_E_JRKNS0_6__baseILSL_1EJxfbSD_SG_EEEEEEDcSQ_DpT0_
+- __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm4EEE10__dispatchB9nqe220100IOZNS0_6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9nqe220100EvEUlRT_E_JRNS0_6__baseILSI_1EJxfbSD_SG_EEEEEEDcSK_DpT0_
+- __ZNSt3__116__variant_detail6__dtorINS0_8__traitsIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELNS0_6_TraitE1EE9__destroyB9nqe220100Ev
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS9_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEEPvEEEEE7destroyB9nqe220100INS_4pairIKS8_SE_EELi0EEEvRSI_PT_
+- __ZNSt3__118codecvt_utf8_utf16IwLm1114111ELNS_12codecvt_modeE0EED0B9nqe220100Ev
+- __ZNSt3__118codecvt_utf8_utf16IwLm1114111ELNS_12codecvt_modeE0EED1B9nqe220100Ev
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_10shared_ptrI13ML3ImportItemEEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_10shared_ptrIN6ML3CPP7ElementEEEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS1_IS7_EEEEEENS_16allocator_traitsISE_EEEENS_19__allocation_resultINT0_7pointerENSI_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPNS_10shared_ptrIN6ML3CPP6Parser15ParserContainerEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIxEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIyEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB9nqe220100Ev
+- __ZNSt3__119__throw_range_errorB9nqe220100EPKc
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe220100Ev
+- __ZNSt3__120__optional_copy_baseINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEELb0EEC2B9nqe220100ERKSC_
+- __ZNSt3__120__throw_bad_weak_ptrB9nqe220100Ev
+- __ZNSt3__120__throw_length_errorB9nqe220100EPKc
+- __ZNSt3__120__throw_out_of_rangeB9nqe220100EPKc
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB9nqe220100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEbEEPvEEEEEclB9nqe220100EPSB_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEExEEPvEEEEEclB9nqe220100EPSB_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIj14ML3ImportValueINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEPvEEEEEclB9nqe220100EPSD_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIx20ML3CollectionInfoSetEEPvEEEEEclB9nqe220100EPS7_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEEPvEEEEEclB9nqe220100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI12ML3GenreDataEEEEPvEEEEEclB9nqe220100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEEPvEEEEEclB9nqe220100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEEPvEEEEEclB9nqe220100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI15ML3ComposerDataEEEEPvEEEEEclB9nqe220100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEEPvEEEEEclB9nqe220100EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB9nqe220100EPSB_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIxNS_6vectorINS_4pairIxxEENS1_IS6_EEEEEEPvEEEEEclB9nqe220100EPSB_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIyNS_10shared_ptrI13ML3ImportItemEEEEPvEEEEEclB9nqe220100EPS9_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEExEEPvEEEEEclB9nqe220100EPSB_
+- __ZNSt3__124__put_character_sequenceB9nqe220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__126__throw_bad_variant_accessB9nqe220100Ev
+- __ZNSt3__127__tree_balance_after_insertB9nqe220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B9nqe220100Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_8optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEEEEPSE_EEED2B9nqe220100Ev
+- __ZNSt3__130__default_three_way_comparatorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_vEclB9nqe220100ERKS6_S9_
+- __ZNSt3__135__uninitialized_allocator_copy_implB9nqe220100INS_9allocatorINS_10shared_ptrI13ML3ImportItemEEEEPS4_S6_S6_EET2_RT_T0_T1_S7_
+- __ZNSt3__135__uninitialized_allocator_copy_implB9nqe220100INS_9allocatorINS_10shared_ptrI27ML3DatabaseImportDataSourceEEEEPKS4_S7_PS4_EET2_RT_T0_T1_S9_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS7_I13ML3ImportItemEEE26_ContainerItemReactionInfoEENS_4lessIS6_EENS4_INS_4pairIKS6_SC_EEEEEC1B9nqe220100ERKSJ_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS7_I13ML3ImportItemEEE26_ContainerItemReactionInfoEENS_4lessIS6_EENS4_INS_4pairIKS6_SC_EEEEEaSB9nqe220100ERKSJ_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEE6insertB9nqe220100EOSB_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExNS_4lessIS6_EENS4_INS_4pairIKS6_xEEEEED1B9nqe220100Ev
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EEEENS5_ISI_EEE12__find_equalB9nqe220100IS7_EENSG_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERST_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EEEENS5_ISI_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeISE_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EEEENS5_ISI_EEE18__assign_from_treeB9nqe220100IZNSN_18__copy_assign_treeB9nqe220100EPNS_11__tree_nodeISE_PvEESS_EUlRSI_RKSI_E_ZNSN_18__copy_assign_treeB9nqe220100ESS_SS_EUlSS_E_EESS_SS_SS_T_T0_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS8_I13ML3ImportItemEEE26_ContainerItemReactionInfoEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EEEENS5_ISI_EEE21__construct_from_treeB9nqe220100IZNSN_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeISE_PvEEEUlRKSI_E_EESS_SS_T_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EEEENS5_ISC_EEE12__find_equalB9nqe220100IS7_EENSA_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSN_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EEEENS5_ISC_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_19__map_value_compareIS7_NS_4pairIKS7_S7_EENS_4lessIS7_EEEENS5_ISC_EEE21__construct_from_treeB9nqe220100IZNSH_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESM_SM_T_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_19__map_value_compareIS7_NS_4pairIKS7_xEENS_4lessIS7_EEEENS5_ISC_EEE12__find_equalB9nqe220100IS7_EENSA_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSN_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_19__map_value_compareIS7_NS_4pairIKS7_xEENS_4lessIS7_EEEENS5_ISC_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIjNS_10shared_ptrIN6ML3CPP7ElementEEEEENS_19__map_value_compareIjNS_4pairIKjS5_EENS_4lessIjEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIjmEENS_19__map_value_compareIjNS_4pairIKjmEENS_4lessIjEEEENS_9allocatorIS6_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIxNS_3mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIZN16ML3ImportSession40_prepareContainerItemReactionImportItemsENS9_I13ML3ImportItemEEE26_ContainerItemReactionInfoEENS_4lessIS8_EENS6_INS_4pairIKS8_SE_EEEEEEEENS_19__map_value_compareIxNSH_IKxSL_EENSF_IxEEEENS6_ISP_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeISM_PvEE
+- __ZNSt3__16vectorI21ML3VirtualTableColumnNS_9allocatorIS1_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorI21ML3VirtualTableColumnNS_9allocatorIS1_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE5clearB9nqe220100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE9push_backB9nqe220100EOS3_
+- __ZNSt3__16vectorINS_10shared_ptrI13ML3ImportItemEENS_9allocatorIS3_EEE9push_backB9nqe220100ERKS3_
+- __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE16__init_with_sizeB9nqe220100IPKS3_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE18__assign_with_sizeB9nqe220100INS_17_ClassicAlgPolicyEPKS3_SA_EEvT0_T1_l
+- __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_10shared_ptrI27ML3DatabaseImportDataSourceEENS_9allocatorIS3_EEE5clearB9nqe220100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN6ML3CPP7ElementEEENS_9allocatorIS4_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN6ML3CPP7ElementEEENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB9nqe220100IPKS6_SB_EEvT_T0_m
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB9nqe220100IPS6_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_13unordered_mapIxyNS_4hashIxEENS_8equal_toIxEENS_9allocatorINS_4pairIKxyEEEEEENS6_ISB_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_13unordered_mapIyxNS_4hashIyEENS_8equal_toIyEENS_9allocatorINS_4pairIKyxEEEEEENS6_ISB_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEENS5_ISD_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEENS5_ISD_EEE16__init_with_sizeB9nqe220100IPSD_SH_EEvT_T0_m
+- __ZNSt3__16vectorINS_13unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS7_EENS_8equal_toIS7_EENS5_IS7_EEEENS5_ISD_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_4pairIxxEENS_9allocatorIS2_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_8optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEENS6_ISD_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_8optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEENS6_ISD_EEE16__init_with_sizeB9nqe220100IPKSD_SI_EEvT_T0_m
+- __ZNSt3__16vectorIP11_constraintNS_9allocatorIS2_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIP17_constraint_stateNS_9allocatorIS2_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE16__init_with_sizeB9nqe220100IPxS5_EEvT_T0_m
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIxNS_9allocatorIxEEEC2B9nqe220100Em
+- __ZNSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__18optionalINS_7variantIJxfbNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI10ML3CPPDataEEEEEEaSB9nqe220100IS7_Li0EEERSC_OT_
+- __ZNSt3__19allocatorI18DAAPParserDelegateE9constructB9nqe220100IS1_JRU8__strongKP22ML3DAAPImportOperationRNS_10shared_ptrIN6ML3CPP6ParserEEER32ML3DAAPImportOperationEntityTypebEEEvPT_DpOT0_
+- __ZSt28__throw_bad_array_new_lengthB9nqe220100v
+- __ZZNSt3__112__hash_tableINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEE16__emplace_uniqueB9nqe220100IJRKS6_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEEDpOT_ENKUlSF_SF_E_clESF_SF_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE16__emplace_uniqueB9nqe220100IJSF_EEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEEDpOT_ENKUlRSE_OSF_E_clES10_S11_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE16__emplace_uniqueB9nqe220100IJSF_EEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEEDpOT_ENKUlRSE_OSF_E_clES10_S11_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrI15ML3ComposerDataEEEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_SA_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SF_SJ_SH_EENS5_ISF_EEE16__emplace_uniqueB9nqe220100IJSF_EEENSD_INS_15__hash_iteratorIPNS_11__hash_nodeISB_PvEEEEbEEDpOT_ENKUlRSE_OSF_E_clES10_S11_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS_22__unordered_map_hasherIS7_NS_4pairIKS7_S7_EENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlRSB_SP_OSS_OST_E_clES14_SP_S15_S16_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEbEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_bEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlSR_SP_OSS_OST_E_clESR_SP_S14_S15_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_xEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJOS7_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlRSB_SP_OSS_OST_E_clES14_SP_S15_S16_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEExEENS_22__unordered_map_hasherIS7_NS_4pairIKS7_xEENS_4hashIS7_EENS_8equal_toIS7_EEEENS_21__unordered_map_equalIS7_SC_SG_SE_EENS5_ISC_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSB_EEENSQ_IJEEEEEENSA_INS_15__hash_iteratorIPNS_11__hash_nodeIS8_PvEEEEbEEDpOT_ENKUlSR_SP_OSS_OST_E_clESR_SP_S14_S15_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS7_SB_S9_EENS_9allocatorIS7_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJOxEEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlRS6_SL_OSO_OSP_E_clES10_SL_S11_S12_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIx12ML3NameOrderEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS7_SB_S9_EENS_9allocatorIS7_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSN_SL_OSO_OSP_E_clESN_SL_S10_S11_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIx20ML3CollectionInfoSetEENS_22__unordered_map_hasherIxNS_4pairIKxS2_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS7_SB_S9_EENS_9allocatorIS7_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSN_SL_OSO_OSP_E_clESN_SL_S10_S11_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI12ML3AlbumDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9nqe220100IJS9_EEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_OS9_E_clESV_SW_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ArtistDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9nqe220100IJS9_EEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_OS9_E_clESV_SW_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9nqe220100IJS9_EEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_OS9_E_clESV_SW_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxNS_10shared_ptrI18ML3LibraryPinsDataEEEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9nqe220100IJNS7_IxS4_EEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_OSL_E_clESW_SX_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS6_SA_S8_EENS_9allocatorIS6_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEEDpOT_ENKUlSM_SK_OSN_OSO_E_clESM_SK_SZ_S10_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxyEENS_22__unordered_map_hasherIxNS_4pairIKxyEENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS6_SA_S8_EENS_9allocatorIS6_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEEDpOT_ENKUlSM_SK_OSN_OSO_E_clESM_SK_SZ_S10_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIyNS_10shared_ptrI13ML3ImportItemEEEENS_22__unordered_map_hasherIyNS_4pairIKyS4_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJOyEEENSO_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlRS8_SN_OSQ_OSR_E_clES12_SN_S13_S14_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIyxEENS_22__unordered_map_hasherIyNS_4pairIKyxEENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS6_SA_S8_EENS_9allocatorIS6_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJOyEEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEEDpOT_ENKUlRS5_SK_OSN_OSO_E_clESZ_SK_S10_S11_
+- __ZZNSt3__112__hash_tableIiNS_4hashIiEENS_8equal_toIiEENS_9allocatorIiEEE16__emplace_uniqueB9nqe220100IJRKiEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIiPvEEEEbEEDpOT_ENKUlSA_SA_E_clESA_SA_
+- __ZZNSt3__112__hash_tableIxNS_4hashIxEENS_8equal_toIxEENS_9allocatorIxEEE16__emplace_uniqueB9nqe220100IJRKxEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIxPvEEEEbEEDpOT_ENKUlSA_SA_E_clESA_SA_
+- __ZZNSt3__112__hash_tableIxNS_4hashIxEENS_8equal_toIxEENS_9allocatorIxEEE16__emplace_uniqueB9nqe220100IJxEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIxPvEEEEbEEDpOT_ENKUlRKxOxE_clESL_SM_
+- __ZZNSt3__112__hash_tableIy15echo_hash_shiftIyENS_8equal_toIyEENS_9allocatorIyEEE16__emplace_uniqueB9nqe220100IJRKyEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIyPvEEEEbEEDpOT_ENKUlSA_SA_E_clESA_SA_
+- ___152-[ML3MusicLibrary importOriginalArtworkFromFileURL:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:completion:]_block_invoke
+- ___154-[ML3MusicLibrary importOriginalArtworkFromImageData:withArtworkToken:artworkType:sourceType:mediaType:variantType:shouldPerformColorAnalysis:completion:]_block_invoke
+- ___36-[ML3DatabaseRecoveryOperation main]_block_invoke
+- ___43-[ML3DatabaseConnection _handleDiskIOError]_block_invoke
+- ___49-[_ML3DatabaseConnectionSubPool closeConnection:]_block_invoke
+- ___49-[_ML3DatabaseConnectionSubPool closeConnection:]_block_invoke_2
+- ___50-[ML3DatabaseConnection _handleDatabaseCorruption]_block_invoke
+- ___64-[ML3DatabaseRecoveryOperation _recreateDatabaseWithCompletion:]_block_invoke
+- ___74-[ML3MusicLibrary generateArtworkForRelativePath:sizes:completionHandler:]_block_invoke
+- ___74-[ML3MusicLibrary generateArtworkForRelativePath:sizes:completionHandler:]_block_invoke_2
+- ___ZL37ML3LibraryPinDefaultActionDescriptionx_block_invoke.22916
+- ___ZL37ML3LibraryPinDefaultActionDescriptionx_block_invoke.4653
+- ___ZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityType_block_invoke.22922
+- ___ZL37ML3LibraryPinnedEntityTypeDescription13ML3EntityType_block_invoke.4660
+- ___ZN16ML3ImportSession13_finishImportEv_block_invoke.298
+- ___ZN16ML3ImportSession13_finishImportEv_block_invoke.305
+- ___ZN16ML3ImportSession13_finishImportEv_block_invoke.312
+- ___ZN16ML3ImportSession13_finishImportEv_block_invoke.321
+- ___ZN16ML3ImportSession13_finishImportEv_block_invoke.323
+- ___ZN16ML3ImportSession13_finishImportEv_block_invoke_2.327
+- ___ZN16ML3ImportSession34_prepareContainerAuthorImportItemsENSt3__110shared_ptrI13ML3ImportItemEE_block_invoke.864
+- ___ZN16ML3ImportSession38_prepareContainerItemPersonImportItemsENSt3__110shared_ptrI13ML3ImportItemEE_block_invoke.849
+- ___ZN16ML3ImportSession5flushEb_block_invoke.189
+- ___block_descriptor_56_e8_32s40s48r_e20_v20?0B8"NSError"12l
+- ___block_descriptor_93_e8_32s40s48s56bs_e17_v16?0"NSError"8l
+- __block_literal_global.1020
+- __block_literal_global.1034
+- __block_literal_global.10342
+- __block_literal_global.1036
+- __block_literal_global.10397
+- __block_literal_global.11170
+- __block_literal_global.1120
+- __block_literal_global.1134
+- __block_literal_global.11594
+- __block_literal_global.121.19383
+- __block_literal_global.121.3161
+- __block_literal_global.13088
+- __block_literal_global.13288
+- __block_literal_global.14197
+- __block_literal_global.15138
+- __block_literal_global.15986
+- __block_literal_global.16321
+- __block_literal_global.16932
+- __block_literal_global.18108
+- __block_literal_global.19109
+- __block_literal_global.19389
+- __block_literal_global.19556
+- __block_literal_global.19684
+- __block_literal_global.19716
+- __block_literal_global.19916
+- __block_literal_global.20460
+- __block_literal_global.21195
+- __block_literal_global.21300
+- __block_literal_global.21836
+- __block_literal_global.22651
+- __block_literal_global.24940
+- __block_literal_global.25074
+- __block_literal_global.25700
+- __block_literal_global.26027
+- __block_literal_global.3177
+- __block_literal_global.4089
+- __block_literal_global.4252
+- __block_literal_global.4642
+- __block_literal_global.4828
+- __block_literal_global.5000
+- __block_literal_global.5668
+- __block_literal_global.5808
+- __block_literal_global.607
+- __block_literal_global.6125
+- __block_literal_global.6532
+- __block_literal_global.654
+- __block_literal_global.6606
+- __block_literal_global.7336
+- __block_literal_global.775
+- __block_literal_global.83.5868
+- __block_literal_global.8326
+- __block_literal_global.8660
+- __block_literal_global.877.2749
+- __block_literal_global.878
+- __block_literal_global.885
+- __block_literal_global.8909
+- __block_literal_global.912
+- __block_literal_global.9137
+- __block_literal_global.914
+- __block_literal_global.9266
+- __block_literal_global.982
+- __block_literal_global.9828
+- __getICStoreArtworkInfoCropStyleSquareCenterCropSymbolLoc_block_invoke.17543
+- __getICStoreArtworkInfoImageFormatJPEGSymbolLoc_block_invoke.17524
+- __getICStorePlatformMetadataKindPlaylistSymbolLoc_block_invoke.17553
+- __iTunesCloudLibraryCore_block_invoke.17537
+- _objc_msgSend$_alreadyAttemptedCorruptionRecovery
+- _objc_msgSend$_autogenerateArtworkForRelativePath:artworkType:mediaType:variantType:completionHandler:
+- _objc_msgSend$_closeConnectionWhenCheckingIn
+- _objc_msgSend$_convertOriginalArtworkToDevicePreferredFormatFromSourceURL:toDestinationURL:completionHandler:
+- _objc_msgSend$_recreateDatabaseWithCompletion:
+- _objc_msgSend$_setAlreadyAttemptedCorruptionRecovery:
+- _objc_msgSend$_setCloseConnectionWhenCheckingIn
+- _objc_msgSend$closeConnection:
+- audit_stringiTunesCloud.17540
+- getICStoreArtworkInfoCropStyleSquareCenterCropSymbolLoc.ptr.17542
+- getICStoreArtworkInfoImageFormatJPEGSymbolLoc.ptr.17523
+- getICStorePlatformMetadataKindPlaylistSymbolLoc.ptr.17552
+- iTunesCloudLibrary.17525
+- iTunesCloudLibraryCore.frameworkLibrary.17536
+- propertiesForGroupingKey.onceToken.5667
+- propertiesForGroupingKey.onceToken.7335
+- propertiesForGroupingKey.onceToken.9136
+- propertiesForGroupingKey.onceToken.9265
+- propertiesForGroupingKey.propertiesForGroupingKey.5669
+- propertiesForGroupingKey.propertiesForGroupingKey.7337
+- propertiesForGroupingKey.propertiesForGroupingKey.9138
+- propertiesForGroupingKey.propertiesForGroupingKey.9267
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRoPugAhzQk6HWFZcYOiWvZsLh2vsGVg3wsmQ5o/Library/Caches/com.apple.xbs/TemporaryDirectory.NEF1pm/Sources/MusicLibrary/MusicLibrary/Sorting/iPhoneSortKey/iPhoneSortKey.c"
++ "<%@ %p, path=%@, open=%@, readonly=%@, returnToPoolAfterCheckin=%@, poisoned=%@, in transaction=%@, owning pool=%@>"
++ "Can prompt the user: %{BOOL}u (setupAssistantNeedsToRun=%{BOOL}u, springBoardRunning=%{BOOL}u, dataMigratorRunning=%{BOOL}u, lastIgnoreTime=%@)"
++ "Connection %{public}@ already poisoned (reason=%d), ignoring repeat poison reason=%d underlying=%{public}@"
++ "Connection %{public}@ notifying delegate %{public}@ of corruption"
++ "Connection %{public}@ notifying delegate %{public}@ of disk I/O error"
++ "Connection %{public}@ poisoned by corruption but no delegate implements -connection:didEncounterSQLErrorOfType:error:; no recovery will be triggered. delegate=%{public}@"
++ "Connection is poisoned (reason: %@) and cannot service further SQL."
++ "Daemon-side recovery FAILED (path=%{public}@) err=%{public}@"
++ "Daemon-side recovery succeeded (path=%{public}@)"
++ "Database at path %@ is corrupted"
++ "Error detected while executing statement %{public}@, error=%{public}@"
++ "Library %{public}@ (client) requesting daemon recreate of corrupted DB (path=%{public}@ err=%{public}@)"
++ "Library %{public}@ has no delegate to handle corruption (path=%{public}@ err=%{public}@)"
++ "Library %{public}@ ignoring unrecognized poison reason=%ld (path=%{public}@)"
++ "Library %{public}@ notified of SQL error reason=%d from connection %{public}@ err=%{public}@ daemon=%{BOOL}u path=%{public}@"
++ "Library %{public}@ skipping recovery for CORRUPT (out of scope) path=%{public}@ multiLibrary=%{BOOL}u isDeviceLibrary=%{BOOL}u"
++ "Library %{public}@ will handle DISK IO error asynchronously (path=%{public}@)"
++ "ML3DatabaseConnectionPoisonReasonUserInfoKey"
++ "Not checkpointing database because connection %{public}@ is poisoned"
++ "Not executing query because connection %{public}@ is poisoned (sql=%{public}@)"
++ "Not executing statement because connection %{public}@ is poisoned (stmt=%{public}@, err=%{public}@)"
++ "Not executing update because connection %{public}@ is poisoned (sql=%{public}@, err=%{public}@)"
++ "Not opening blob in table %{public}@ because connection %{public}@ is poisoned"
++ "Not opening connection %{public}@ because it's poisoned (path=%{public}@)"
++ "Not opening database at path %{public}@ because connection %{public}@ is poisoned (flags=%d)"
++ "Not preparing statement because connection %{public}@ is poisoned (sql=%{public}@, err=%{public}@)"
++ "Not registering module %{public}@ because connection %{public}@ is poisoned"
++ "Not returning last insertion rowid because connection %{public}@ is poisoned; returning 0"
++ "Pool %{public}@ _invalidateIdleAndBusyConnectionsForPoisonedState done (path=%{public}@)"
++ "Pool %{public}@ _invalidateIdleAndBusyConnectionsForPoisonedState start (path=%{public}@ locked=%{BOOL}u closed=%{BOOL}u)"
++ "SELECT album.album_pid, representative_item_pid FROM item JOIN album ON (item.album_pid=album.album_pid) WHERE item_pid=?"
++ "SubPool %{public}@ closing idle wrapper=%{public}@"
++ "SubPool %{public}@ invalidateIdleAndBusyConnectionsForPoisonedState: idleClosed=%lu busyMarked=%lu busyAlreadyMarked=%lu (was idle=%lu busy=%lu)"
++ "UPDATE album SET date_released=COALESCE((SELECT item_store.date_released FROM item JOIN item_store USING(item_pid) WHERE item.item_pid=album.representative_item_pid AND item_store.date_released != 0), (SELECT item_store.date_released FROM item JOIN item_store USING(item_pid) WHERE item.album_pid=? AND item_store.date_released != 0 GROUP BY item_store.date_released ORDER BY COUNT(*) DESC, item_store.date_released ASC LIMIT 1), date_released) WHERE album_pid=?;"
++ "UPDATE album SET is_prerelease = EXISTS(SELECT 1 FROM item JOIN item_extra USING(item_pid) WHERE item_extra.is_preorder AND item.album_pid = ?) WHERE album_pid = ?;"
++ "UPDATE album SET store_id=COALESCE((SELECT item_store.store_playlist_id FROM item JOIN item_store USING(item_pid) WHERE item.item_pid=album.representative_item_pid AND item_store.store_playlist_id != 0), (SELECT item_store.store_playlist_id FROM item JOIN item_store USING(item_pid) WHERE item.album_pid=? AND item_store.store_playlist_id != 0 GROUP BY item_store.store_playlist_id ORDER BY COUNT(*) DESC, item_store.store_playlist_id ASC LIMIT 1), store_id) WHERE album_pid=?;"
++ "Will recompute dateReleased for deleted representative trackPID=%lld, albumPID=%lld"
++ "Will recompute preprelease for deleted trackPID=%lld, albumPID=%lld"
++ "Will recompute storeID for deleted representative trackPID=%lld, albumPID=%lld"
++ "YES (%@)"
++ "[%{public}@] ✘ Database corruption detected on %{public}@ (path=%{public}@)"
++ "[_handleDiskIOError] _closeAndFlushTransactionState:NO returned NO on %{public}@"
++ "[_handleDiskIOError] disk I/O error on %{public}@ path=%{public}@"
++ "[_handleDiskIOError] re-entered while already handling IO error on %{public}@; ignoring"
++ "_distrustQueriesDuringBlock: connection %{public}@ has NULL _sqlitedb (poisoned=%{BOOL}u); invoking block without authorizer"
++ "corruption"
++ "could not enumerate orphaned person, error=%{public}@"
++ "could not enumerate orphaned reaction, error=%{public}@"
++ "creating new composer entry: pid=%lld, syncID=%lld, name='%{public}s', sortName='%{public}s'"
++ "creating new genre entry: pid=%lld, syncID=%lld, name='%{public}s'"
++ "disk I/O"
++ "enumerateRowsWithBlock: bailing on finalized statement (sqliteStatement=NULL) connection=%{public}@ stmt=%{public}@"
++ "enumerateRowsWithBlock: bailing on poisoned connection %{public}@ stmt=%{public}@"
++ "failed to compute prerelease for albumPID=%lld, error=%{public}@"
++ "failed to compute release date for albumPID=%lld, error=%{public}@"
++ "failed to compute storeID for albumPID=%lld, error=%{public}@"
++ "failed to set parent of container=%lld to parent=%lld, error=%{public}@"
++ "failed to update compilations for albumPID=%lld, error=%{public}@"
++ "failed to update contains classical work for albumPID=%lld, error=%{public}@"
++ "failed to update year for albumPID=%lld, error=%{public}@"
++ "finished import session %p of %lld items in %.2f seconds (%lld items/s), success=%{BOOL}u"
++ "lastInsertionRowID called on connection %{public}@ with NULL _sqlitedb; returning 0"
++ "openBlobInTable: connection %{public}@ has NULL _sqlitedb after _ensureConnectionIsOpen; bailing"
++ "opening connection failed %{public}@ because it's poisoned (path=%{public}@)"
++ "qq"
++ "registerModule: cannot register module %{public}@ on connection %{public}@ with NULL _sqlitedb"
++ "⚠️ Poisoning connection %{public}@ reason=%d, dbPath=%{public}@ underlying=%{public}@, transactionLevel=%lu"
+- "/AppleInternal/Library/BuildRoots/4~CQGNugAK38KzPzmbT7FXcP48L5p9QRMTDHM3fIg/Library/Caches/com.apple.xbs/TemporaryDirectory.dpt3wU/Sources/MusicLibrary/MusicLibrary/Sorting/iPhoneSortKey/iPhoneSortKey.c"
+- "<%@ %p, path=%@, open=%@, readonly=%@, _closeConnectionWhenCheckingIn=%@, in transaction=%@, owning pool=%@>"
+- "Asking service to recreate database..."
+- "Attempting corruption recovery using disk IO recovery routine"
+- "Attempting database recovery..."
+- "Can prompt the user to delete the database: %{BOOL}u (setupAssistantNeedsToRun=%{BOOL}u, springBoardRunning=%{BOOL}u, dataMigratorRunning=%{BOOL}u, lastIgnoreTime=%@)"
+- "Cannot register module. SQLite handle not available, or connection is not open."
+- "DISK IO ERROR: attempting to close and re-open connection for recovery."
+- "Database at path %@ is corrupted. (Detected on connection %@) backtrace: %@"
+- "Database recovery failed. %{public}@"
+- "Database recovery was reported to be successful."
+- "LastCorruptionRestoreAttempt"
+- "NSSQLiteErrorDomain"
+- "UPDATE album SET date_released=COALESCE((SELECT MIN(item_store.date_released) FROM item JOIN item_store USING(item_pid) JOIN album ON (item.album_pid=album.album_pid) WHERE album.album_pid=? AND EXISTS (SELECT 1 FROM item WHERE (item.item_pid=album.representative_item_pid))), date_released) WHERE album_pid=?;"
+- "UPDATE album SET is_prerelease = COALESCE((SELECT 1 FROM item JOIN item_extra USING(item_pid) WHERE (is_preorder AND item.album_pid = ? AND EXISTS (SELECT 1 FROM item WHERE (item.item_pid=album.representative_item_pid))) LIMIT 1), is_prerelease) WHERE album_pid = ?;"
+- "UPDATE album SET store_id = COALESCE((SELECT item_store.store_playlist_id FROM item JOIN item_store USING(item_pid) WHERE (item.item_pid = album.representative_item_pid AND item_store.store_playlist_id != 0 AND album.album_pid = ? AND EXISTS (SELECT 1 FROM item WHERE (item.item_pid=album.representative_item_pid)))), store_id) WHERE album_pid = ?;"
+- "[%{public}@] ✘ Database Corruption Detected ✘"
+- "[ML3DatabaseRecoveryOperation] Error backing up database file: %{public}@"
+- "[ML3DatabaseRecoveryOperation] Failed to recreate database. %{public}@"
+- "[ML3DatabaseRecoveryOperation] Internal device. Backing up database file for analysis..."
+- "[ML3DatabaseRecoveryOperation] Recovery operation complete. err=%{public}@"
+- "[ML3DatabaseRecoveryOperation] Starting recovery operation..."
+- "[ML3DatabaseRecoveryOperation] Successfully backed up database file to %{public}@"
+- "[ML3DatabaseRecoveryOperation] Successfully recreated database at path %{public}@"
+- "[_handleDiskIOError] Database integrity check failed - treating as corrupted"
+- "[_handleDiskIOError] Database integrity check passed."
+- "[_handleDiskIOError] FAILED TO HANDLE DISK IO ERROR"
+- "[_handleDiskIOError] SHM file not found—unable to unlink"
+- "[_handleDiskIOError] checking database consistency"
+- "[_handleDiskIOError] failed to close database connection"
+- "[_handleDiskIOError] failed to delete SHM file from disk (errno = %d)"
+- "[_handleDiskIOError] failed to re-open database connection"
+- "[_handleDiskIOError] failed to restart transaction after re-opening database connection"
+- "[_handleDiskIOError] successfully recovered from disk IO error"
+- "[_handleDiskIOError] unlink successful."
+- "[_handleDiskIOError] unlink successful. performing coordinated termination."
+- "bak"
+- "creating new composer entry: pid=%lld, name='%{public}s', sortName='%{public}s'"
+- "creating new genre entry: pid=%lld, name='%{public}s'"
+- "finished import session %p of %lld items in %.2f seconds (%lld items/s)"
+- "qQ"
+
+```

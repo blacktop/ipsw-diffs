@@ -1,0 +1,146 @@
+## CloudSettings
+
+> `/System/Library/PrivateFrameworks/CloudSettings.framework/Versions/A/CloudSettings`
+
+```diff
+
+ 115.0.0.0.0
+-  __TEXT.__text: 0x7468 sha256:5c22e8406d25793983bcf1357eb38b70e230ade3cc250c4a2ca8ea5a66a2945a
+-  __TEXT.__objc_methlist: 0x56c sha256:32ae0912240cc723ed84a40e25289c4f9c90d00c2687002451bdde33d3cb2d3c
++  __TEXT.__text: 0x7450 sha256:adef87a9719808c09274a3b260403aadb2464961377c711d82b6eafa661b7d1d
++  __TEXT.__objc_methlist: 0x56c sha256:fce3bf790f82ca7d0232ee4755398d90b8017ce7e2751ac36c28fd40f1cece85
+   __TEXT.__const: 0x98 sha256:0fd87e2d69ec52ad27a093229bfd762ac8060a855b5f5c7f2b930ebc9b2f3942
+   __TEXT.__cstring: 0x354 sha256:5ef5a6b89b5ab94a3fd497b8d1186acb631cf3030db7384f070f5d9f7b3d53e3
+   __TEXT.__oslogstring: 0x2861 sha256:b3fec51decfec99eb97bbd942605e6e20f0cec806ebb7b741b034cde7d6b52b2
+-  __TEXT.__gcc_except_tab: 0x50 sha256:7b4286b98f996ee2eb0a02de7ca4f759631945f8ea882816121d48f080729a15
+-  __TEXT.__unwind_info: 0x118 sha256:99697e6d9ad4975ac3957dc13fa8f5a9695f425d5703abc83d8b670ee727da65
++  __TEXT.__gcc_except_tab: 0x50 sha256:34aa152b6b1201c4b17504d4893a5221a87c4f61825afac2501bfe0850bc157c
++  __TEXT.__unwind_info: 0x118 sha256:9765bf49d76baf61dc2800a95e8badf84d9b97767e7db9cb9e9c368ce66a82c8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x20 sha256:a4b650b02a205b7f81ea6cbdc0d625802a294b2cf4941f7ef985bf58168e77ce
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:e55d9654d34073ba36205c9bc7432610d84acb74cf243c01befaf12ce1fd4f4b
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:08d2d8d9830e9524b19a060a7e787a446393441ae0f2543d62565475f1bccde3
++  __DATA_CONST.__const: 0x20 sha256:f48252d6b7d43d9924332cf34354f7507c1ad70f786f8e40a65147e3c0de20af
++  __DATA_CONST.__objc_classlist: 0x28 sha256:737ca718c167482396030f2873eef745cf1cb3b0ee43660af0555e631090e8b3
++  __DATA_CONST.__objc_protolist: 0x20 sha256:8419b1d40d36d492f135172a078fdff581b8f65df699b5e13744141d1b13f6e3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x3e0 sha256:a926af23b602ea4c072e2c4c2da9487114cdb9931b3d37554aa1ea478d95279a
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:132b2932f182449a58bc88ae7909355ff3aa57a1bd54922a32615cc5f91e058c
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:f5f8f6a37773641873a75956645e83fc00d3150677513e7cbb78c30cabd5e324
+-  __DATA_CONST.__objc_arraydata: 0x200 sha256:bc6bbf5ad29600794cc42dee5aebc7b6aa328ee336537631d47f7e71ba9ac285
+-  __DATA_CONST.__got: 0xc8 sha256:40a64d4f1d3ab77013774157cfd16ab58223c74234af83cfdac223375f9478e9
+-  __AUTH_CONST.__const: 0x80 sha256:2cf91bae11b903b856edbb47d57b062a08e83cd2cf08b787a358bed11c1dae31
+-  __AUTH_CONST.__cfstring: 0x360 sha256:f8bc10e27a0693e1717c7b07682b2d2250944133ad69e4d36e71873d19469742
+-  __AUTH_CONST.__objc_const: 0x808 sha256:e2b48d582e822926ab33dddcb563b748109c3f0ec95a0dea33986ec59a988ac4
+-  __AUTH_CONST.__objc_dictobj: 0x2a8 sha256:add06f3d5d1c832ae3520fc20128b85acda3f8e275483cd563b5754c9f49d4ec
++  __DATA_CONST.__objc_selrefs: 0x3e0 sha256:4b8ff0577ee0b251b33cb7c5e48a336952d0b66ff353391f27e9db64a20ccbf6
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:e44650317c6329fe82443f054ad8478ec1cfb6096c26ac2e17f55a1816f17352
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:3f743779b368e925ac6380eb956e40dadc007a34453ff03de42adb4fef8e2754
++  __DATA_CONST.__objc_arraydata: 0x200 sha256:1fab8e8577d5873735c0c76594769587e77b3640bf23ef15b6cc7205bdc51a16
++  __DATA_CONST.__got: 0xc8 sha256:d64b8ef34634f88fb0e6449790f01078d57b19b774cac5be90ad918c9cefd710
++  __AUTH_CONST.__const: 0x80 sha256:5e7d22d12ddb2d3c7068815bae32da9a0b341b0c470b02ab657ba1e0a3740269
++  __AUTH_CONST.__cfstring: 0x360 sha256:e1f977533e557dcef667167875e0c320e51023dad8acae5a88abed7621cd845f
++  __AUTH_CONST.__objc_const: 0x808 sha256:c891d7879507fbc4ef0c3841688e37f0b2fc58517df11b8fa4ec5ef30151e3b3
++  __AUTH_CONST.__objc_dictobj: 0x2a8 sha256:8d2624238f9f76eb4f9de14b134c94cfbf6a3f35f7247bdd470b90d5864f259e
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x20 sha256:6b36b2eb747b9d2eb1b7548cc16cede3fbadc66d292479136be42f24e7aa25e8
+-  __DATA.__data: 0x180 sha256:3f772f6053d424ca298e641e7570df0db5edc2b14cd15e3df662c40f4af9af9a
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:57af57143ca3d54cf6f898876ab89f050af392ccaff9b4da7729330dff27130a
++  __DATA.__data: 0x180 sha256:732e24f4a6f8eb3db29faa4f812976679c5088ad67b08c264dc8ee4b3189b0f5
++  __DATA_DIRTY.__objc_data: 0x190 sha256:80b7e201199a715c6b47bc14eba71c4bb40c4047c6a39f102030bfb240a5f7eb
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /System/Library/PrivateFrameworks/AppleAccount.framework/Versions/A/AppleAccount
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 57776CD1-D2EF-3C41-B118-5F622FD5A9E2
++  UUID: 98559F07-B64E-3CA1-B9D0-8C840F9F72CF
+   Functions: 85
+   Symbols:   318
+   CStrings:  220
+Functions:
+~ +[CloudSettingsManager sharedCloudSettingsManager] : sha256 aed9a7be0fd48d4f4a0ed45c2e6f39abd7acbeea7b51972c48bf6468f5b8f7f9 -> dc8bdbcd4d8beecf52ef0c506ed42a0b943d90471aa594d89bbf2a05d763bfeb
+~ ___50+[CloudSettingsManager sharedCloudSettingsManager]_block_invoke : sha256 fe3c940e0d084a34d2e4a96ebdb426e3fbb4f1180dc3120265fcaecec355e60f -> 96c1b41d92b8e76859089bccf51ca7cd5b5a3b4ccf6425cad2ab752c62b4c343
+~ -[CloudSettingsManager setCloudSyncingEnabled:] : sha256 a2fd03335b85f351e0db06e05e1808c7aebf34601b8ba9b37d90a549250a3804 -> da5e3dbbf8709475e7b7c75e62d50e86ccc1668bd1dd5de1969e1f21e3a63884
+~ -[CloudSettingsManager isCloudSyncingEnabled:] : sha256 d38174832cdc7c2d455bc49cbf230be9b48afc6940352d80e8d8b31ba949a5d0 -> 6120052264ba2fa82567b3498e726dd6ee151d9aba5eaa2e0fa8aa3a417e5202
+~ -[CloudSettingsManager setEnabled:forStore:] : sha256 22c5d6816d4885227d569ac682adc3dba699cf16b4abe8279f0f48aed48d756a -> dbfb101d52761541b0a6b7fcab36e8bd01cb3e141fbda06ac989d93c5b246bd8
+~ -[CloudSettingsManager isEnabledForStore:] : sha256 85f5453978940e2818f0cc1e70e779fae342ef13dafd2e3f3a1f551646bcaab2 -> 280bb2172b0b313c8697fc3d4b5651002f363195af7b0f598cdb07636cb63d0a
+~ -[CloudSettingsManager setConflict:forStore:] : sha256 827b79b2d3b9e049926c3cec335cf8ea4a8091a6579e096298a711544deb66f9 -> f865073f93ffc0c413a49f9e66d8613f22f2e6457d311d92a1516891025e87c1
+~ -[CloudSettingsManager conflictStateForStore:] : sha256 9c80dac1bee30b666d9ebaef2b30dc0d1c9328df0938f43d143609d9d939fe8b -> 250f612aaf53df31d8992cea2c6ae90d643aa5ec1527d71c737340739bfded79
+~ -[CloudSettingsManager isServiceKnownForStore:] : sha256 7c0fb715b256c1e5e814932fe44079cb094319f465fa13e4738cab63bf1b4b43 -> ae423de74e3147a91a1d632f01f0f583fc8f80d41e774c6cc7c5c913306ef7df
+~ -[CloudSettingsManager performFirstTimeSetup:] : 1140 -> 1136
+~ -[CloudSettingsManager applyCloudSettingsToDevice:forStore:] : sha256 71eaf3113364274a060216fe03b94b404d7845ff75a29d3f0359093678a96e4b -> 43158c5147208fe02ed138b40e2845a040fcb11fcef73df9868e602ee2a6e9ad
+~ -[CloudSettingsManager writeToCloudSettings:forStore:] : sha256 15ed7f031dc42646d9323992914cfe27f9d03a33f858ec3fd7d8c4d275bad83f -> c03c926ab8d1f4cc8f82649aefd560b311c77d6b1305b9783eb9e460a626dc93
+~ -[CloudSettingsManager deviceSettingsForStore:] : sha256 8f86d35b0b1358b9d9afc67a11765b0c83f92257972fa3ac675bad0c3cf4ccf4 -> 0fdafac621afd59f6d9364567905ea9629ad3119a450361da0a877a56710d703
+~ -[CloudSettingsManager applySettingsToDevice:forStore:] : sha256 16193f214b3dcbb1db9f4ce88422d861cdae4d044efe94568b9b290aeaae3846 -> 2a8ccd742a3f26ea222e84d0f68d7c0968e437aa32332204a1c4ad9b064c7152
+~ -[CloudSettingsManager knownServiceNames] : sha256 6289889a6a5a6b32ee952337dd9a6afdd82319376d2927a6eb3e42934c4b7a82 -> 9112caaa94af0486b766638a1ac0a68cdabb8974863d4af6ed88ddd993d8fa57
+~ -[CloudSettingsManager defaultSettingsDictionary] : sha256 38ef0113baa4b1943678661860b900ea7f3c54949fa125b9cb84db195190f030 -> fab4b0231fbabf523a3560c0976583acbf7757b36cdacde5fc3fbc304db7b931
+~ -[CloudSettingsManager writeSettingsDictionaryToPrefs:] : sha256 f9b4f368dee4375785eb65b4ef85edd1dd7d3762d0b7abec99c090581c801c8f -> d98041fe787ea2f8d339feda9ecd06cc5ea39e653982e76f8df239d2be78df71
+~ -[CloudSettingsManager currentStateDictionary] : sha256 1d40ad1336f6515189b6418a70e75808924d63f61292f0f4c95e131041a25b9d -> 1915c015c61592be97ac3ff4eecbd33292ef75b45acd8921180b98a42cc4d9f7
+~ -[CloudSettingsManager activeXPCConnectionForStore:] : sha256 8fe9b0736d71710c3ae69b1c48ed12efd980da20664831307795676d17b30527 -> e4b2f930169d7d8e6b94947cd90bfac9850cbb27b1d3c67e5dab42325d59d6cb
+~ -[CloudSettingsManager currentConflictDictionary] : sha256 55aaf7a9f1fcc5c07308e7e86ce3dd2068c40ba4db4e3007477a51a9832c3c70 -> 70f70b982580b09e940d7c598ea5483f8c0609e5760ef17cb8a23ba3c7d9c894
+~ -[CloudSettingsManager writeConflictsDictionaryToPrefs:] : sha256 7092b3cb6a3591932a2b9681c8a36c141be75b2c0851ab37e0fff6f29a3412ff -> 9f2878caf5bc3ae13d63bab8d5fcb557b087f171114c0c25d06c161da93f6d70
+~ -[CloudSettingsStore initWithStoreIdentifier:] : sha256 b5cd2a2c67fde33abfefd41cc9d451186e6a1fa26f7e846489880cd2673b9d98 -> f2bda9b78667ef270b03259052b0afb21546c8812cf3c92fa9b3e203c257865f
+~ -[CloudSettingsStore keyExists:andIsOfType:] : sha256 e7f4d3b3cb70fa42328ad67aa948d97fa226fcb869db1dc0e13aa06ea4b39741 -> 32876ad665ab1d35761f56c7734264f5d61af9d8fc50b79a8b6f843e0b2ee500
+~ -[CloudSettingsStore setBool:forKey:] : sha256 61cec07d4ddb7b061a9b2a299dd837d8e5a526063c8fc6cf83f4e19747ced291 -> 4521e0ae173db73817e07419d1bef439b58b8397664652d9fee7f4527b025d98
+~ -[CloudSettingsStore boolForKey:] : sha256 84fcc8b505c894a6dddf984fc0fa4b60b63903fa9848cc55382e7a5cce1c34e5 -> 5c9a64f904d4cebae3d1dffda7fe9420e28b260272af9690d1189f66bb68c974
+~ -[CloudSettingsStore setNumber:forKey:] : sha256 6824922c7073435a7bdff2fe8b28c39fd628e92317660d5f436fbab39afecb9b -> d5315841666c0cfe5e82476d363c51fea8dcad984c27a12680bc59ea31960a60
+~ -[CloudSettingsStore numberForKey:] : sha256 071b61c2af5a72e522013a048ddc385891760094d96eed9016d1f1782527d1df -> 93b54a6fdbf5c5a8fbcb1d2652bc8a47885c4731b1d2548415ceb862742e50a3
+~ -[CloudSettingsStore setString:forKey:] : sha256 28fd32f02769cf1c6cdb553c81d2ebacb1f265948d51df5927d6a754b2105d81 -> 8abd1c0cfa13c613c1f6aec3421e901c8c87ae0c1b2bcf4686b0c2e5b28ff836
+~ -[CloudSettingsStore stringForKey:] : sha256 63c99f64e30c92338fd010222ca792822ba1ec035773c44be8e99f4458d32fb8 -> 4cf03f4450d1b140141ed041533523f40000e6c46a2072c4e5aaf9d16bd2b245
+~ -[CloudSettingsStore setArray:forKey:] : sha256 10ea6c0e5cefc05e5d49bed8d38f1ea818b1e806fe130b78eaf55b85b4c9dafe -> 04fc8e249e27456d36d3723250744b6847d70415f5ebe947c1ba30577ebe25a6
+~ -[CloudSettingsStore arrayForKey:] : sha256 1a77ce678ec9d190d9888497d3a8bfc4cad3b1f49d4d6f75c197f925f08e7c7d -> f044a37627de22fa293013fe430461f2386b3cad5af90c40799f30aee55cd11b
+~ -[CloudSettingsStore setData:forKey:] : sha256 a7e8f4db86e24f3641e34fbaecb45236dd7538fce86f37e301503a769cce8c3e -> 24e9ed8cd77d9d4525c41414d884f398d5a324812870c798deecdd19a1105c14
+~ -[CloudSettingsStore dataForKey:] : sha256 76d601f65d7c4c8432a1573383c547e37f7ad9470575bb0ee3a03cd4bc842d03 -> a1e3d989a960c4a5a08f8849e1095f2ace1fdbbcd615706ade0a7666c00ba451
+~ -[CloudSettingsStore setColor:forKey:] : sha256 efcf4eb1227d8ca110e45d9cae735e9d4f9cf2af76d9524d018d8973c71e19c1 -> f6bda9eb7b48875fc029074b5e11334e469f6c460a2f1941f4eb37a558d71241
+~ -[CloudSettingsStore colorForKey:] : sha256 5c0b6c4ec136f60fb5948d6289b7b5d088f10cdd80abea50164626c01d317d92 -> 874d102dc702b32ccadc573d7c9dd3fc910b3e3c86db252c2b263f3da63c3b0f
+~ -[CloudSettingsStore setDictionary:forKey:] : sha256 8419e7e8f7d5382092f7008e447f494ca92721f21a5d603129decc1a9de474cd -> 1390869442da41c90c021cda3e9560ea5ec2524759a11b3b03af8b0cb16df3f6
+~ -[CloudSettingsStore dictionaryForKey:] : sha256 b4cb8b59befb84a4fddf13118e3fe3fb24451683f09ca05ee6c2d1a4862a6adb -> 61dbcfa454361a24cb3702f37d766cec2f89d14ec77ead8bc26df8be57a4a863
+~ -[CloudSettingsStore removeObjectForKey:] : sha256 393ffff85e655a09d3ab7aece391b568392611d95f9052602133d6333481715f -> fa5e0201a9310b1c6de8b32e39a5a0c06adf5f9c49807eef25ec1cad2d29f6a5
+~ -[CloudSettingsStore dictionaryRepresentation] : sha256 bed42de1642696555de34a6810377e06aa50e8474964e399cb067867134081a8 -> 30b14346b2c4d8f07a95d92a6463c3b002a485a3e7e65c6a35e81ebbe6e01a4f
+~ -[CloudSettingsStore syncNow:] : sha256 2aa899cee9ac7436e66cad19da555ce2be989bd09e2396fedd28dced66f50092 -> ad652a7b9f90fa87890fe8e3b58544ca2f97eb34be587f64e4bfe0638ae7e4b9
+~ -[CloudSettingsStore setObject:forKey:] : sha256 5f3986de20fa818d044b2dc7d30a373d5fc02e36ea951abbc80d8b7bf7c773f8 -> 966e71f620c41256b600199dd6c37a632bc1e148e84fa2281ab364ba0b8963d7
+~ -[CloudSettingsStore objectForKey:] : sha256 d955cb57839633b5c6460e9a844e480d738e17a1789473ecd7903f000d486b9b -> cacb9b52c58878c49318eee5cf20494fc2f7bff916191984286f793d1f48aa2c
+~ -[CloudSettingsStore serviceIdentifier] : sha256 dc72b24ed802aeca562dfac4635770733ac51d42b87baab86c0a040e042d5119 -> 6dfea506c7f64ef1aa9eb56d15905b28aa3ae6d8be588164a6304f78bb19abd3
+~ -[CloudSettingsStore kvsStore] : sha256 ac7dc2361d766d3cc81c9c9e6f7af5a772dff249bfca68bfb4597b5d19a43bc2 -> 94d5f376358251532673a694bdc3c24c1fce7d79c8c9cac7861962d686e5f12e
+~ -[CloudSettingsStore .cxx_destruct] : sha256 176b439e8a7a21b922881388e79af9ca2b08bf50ac79d003e13bd6071b76e32c -> d93516d97188b800cf288d069fc42671302c05b129725e4e44660d04e69e1600
+~ -[CloudSettingsService initWithStoreIdentifier:settingsMediator:] : sha256 952c9d7e3b047e7277f4558887e750a10bcbda8300df80558573e7cae0967861 -> 221f76990644f4effffadcdbd0e13abdfe73aed7aa4af132705b70745f9d4141
+~ -[CloudSettingsService performFirstTimeSetupForStore:newDevice:] : sha256 0b0c1b5848529f094fc4e3414cd40c557ef9b9ef2f682833e3e0c6c9c37fb0ec -> 3ae2c545754ce2dc12f4ccf8d6de2f5a4d5632dc8a244584ed8a436673844fc5
+~ -[CloudSettingsService applyCloudSettingsToDevice:forStore:] : 972 -> 968
+~ -[CloudSettingsService writeToCloudSettingsDict:forStore:] : 804 -> 800
+~ -[CloudSettingsService writeToCloudSettings:forStore:] : sha256 052730a5b643683c86f436f6a04b40f3dff0d9a55ef2ef9ab69b85b8591c78fc -> 75f576156ea8bff96f10fef3d704e07f2dc7dadce1b18d7ca7885298f010f714
+~ -[CloudSettingsService performSmartMergeWithStoreSettings:] : 1484 -> 1480
+~ -[CloudSettingsService setIdentifier:] : sha256 be078ab7b7ee52afeac353e84939baf73c3f7847d934abd521258fb2806cacf6 -> 44e18a00d0507ef2e52ab7989387c94c4b567f0cb3a042d44fbf60688702166d
+~ -[CloudSettingsService setStore:] : sha256 0f665b868ef42d8bac9df6b16c96d04e536163c2a5701bbde91f32313f9f316c -> 6b7ff8b051093962a89f28b841eecfbaa763a8f5aa1c6d797c96c98efabbcece
+~ -[CloudSettingsService setMediator:] : sha256 0e39c2099795cf4c0b1b1af7e6157fadf6ab2b6a67fe357ac5f658603dac8cf7 -> add55baf491618b2ad47f302156157136b04ec1cb23811c44fc3ebbb4d0fa743
+~ -[CloudSettingsService .cxx_destruct] : sha256 2e81b620bb3b0f2cd4565f0ff5b0e478ce98463b10a601dddc08b1a611e45f68 -> 42b9bb41c20848ef9170dbb0d3f7c6580363cb4dc94567585dca722f887f5e24
+~ -[CloudSettingsServiceDelegate initWithStoreIdentifier:settingsMediator:] : sha256 e842f94a62244c51b9324d57117aaab0e04f086920e86bff2c6c3ed4157fc121 -> a7ee20b92b7f2dd46d54bbffb03dc64348dec11116323e8dc04ba18900572302
+~ -[CloudSettingsServiceDelegate listener:shouldAcceptNewConnection:] : sha256 2e24270a731dca12713698e3d9794cab8671d6426c0960c3ba9cbabc003ba18b -> 3a93df0e75bb4f6e4c6d625ec2d5ee9b44a791be7b959fafccff4324166e1bee
+~ -[CloudSettingsServiceDelegate service] : sha256 8b45a4adb42d2e4ab4e44a3f6a75169a594238476607770e2471b14b0b8333c2 -> 1002cf765ddf17fd761b5bb381ab1c8c6ae52c35d7cf37850066626a3714636f
+~ -[CloudSettingsServiceDelegate setService:] : sha256 8d0b4b52b7c240bdf7a3301b6d9aa3d376f0ea27a3b8866b65633e3b0cf10693 -> dd63ab2838162abf2fedb8a09bd0c91abe2f3f1ef18e3e99c20981e27e443581
+~ -[CloudSettingsServiceDelegate .cxx_destruct] : sha256 eaff7c8f182ff0ae829816aae2c3b88693ecbad38d3400974e09ca7af3b75a24 -> ef888a8d54b2185443d80c95a1c659546b03bd3db0cf1109b35c2ce31f0d72ed
+~ -[CloudSettingsDispatchingMediator init] : sha256 1b55a0442f7acc28b2dd1323f841e7aafccd5e4c60f0025368c2e06f41e43eac -> 70608c170476efe7e97362661dcbd08fa84ed1d4ac479034e543d2f9850b1177
+~ -[CloudSettingsDispatchingMediator registerKeys] : sha256 4ab019ee1b2a5ee3a9c4d8b6540b06d1397da3941df658c86ac7a2872ff69ed7 -> 244e2df15d2415a36754990a1d2944cf1a40ea5f3ba8a30fa1920ac1f063fee9
+~ -[CloudSettingsDispatchingMediator registerKey:getter:setter:] : sha256 31b5218746e245702263333b3d3528d067c6f6cb40cb7c235ae2a8ff425d4463 -> 15d93864a51562aeea704abad7682c36aaffe32f64a652b2e183a0b9fd3998be
+~ -[CloudSettingsDispatchingMediator registerKey:getter:setter:merger:type:] : sha256 0f08619c091c35f2a5b0dc258c5c203f60647198e2855e5c2fc0b202901c24aa -> 5b79d57a71192bbc599c0f62010b2affd587f895eaf0fcefc5bb711431a7c22e
+~ -[CloudSettingsDispatchingMediator deviceSettingsForKeys:] : 596 -> 592
+~ -[CloudSettingsDispatchingMediator mergeSettings:] : 1212 -> 1208
+~ ___50-[CloudSettingsDispatchingMediator mergeSettings:]_block_invoke : sha256 e75b73a7ec7192c5505d8c5a232b28b60acf05ca0a4eac13ef73dae680ea1105 -> 59358a55117649bfac56c5c565816621867c971c332944254d2bcf11fc26302a
+~ ___copy_helper_block_e8_32s40s48s : sha256 d79a18a6bf967a6b4497774c8dd493392ce8aa0390abe7d45ea2be10113dfe04 -> 764b2cb8b41a0ff2ceba6626c289bf0f070c95106e7ed32bf3e5658571b9848a
+~ ___destroy_helper_block_e8_32s40s48s : sha256 263a4b7303a13dee46448643cc3aa77f81f34b595054604cbbbadbd480918387 -> f189dee8828c8f5630aedb30aad32607e0c9ed2ff87092094bc55cc1118d9f66
+~ ___Block_byref_object_dispose_ : sha256 8a7025d44d0a115cde303405edda3172240a5c5bae27f81539e9b7ad3f22b34d -> 100adb99ff7c7edae20695a1766c3864164631d79e7341155bfe69c06f381c2a
+~ __50-[CloudSettingsDispatchingMediator mergeSettings:]_block_invoke.3 : sha256 a0e015faeacabb73c7eed0a5cb59f94e1028c74251548b45a5abea58f452efea -> 4ece5a5bf2cf71295e6725d5e331e4ebf70f42a6af23d0365eb5d86265129a82
+~ ___copy_helper_block_e8_32s40s48s56r : sha256 0957d34b7bb44bc1ab912813b6a2f93c3085813243090ee2079ac71cf2f57794 -> 655edc385c87cf2d101ddf713cac7b0064908c002a2caa45facf701b8a05c4aa
+~ ___destroy_helper_block_e8_32s40s48s56r : sha256 1b5088ed81520bc2cb89fa0be376940f0f953f9916980b55fad5f82363f4f05c -> 611be4992c3703820c085a84a047211c7d16db15fc5b90ee103a1a8f5660720b
+~ -[CloudSettingsDispatchingMediator keysMap] : sha256 fb090911e42d49807733c1c62b633d1a67b5afe30bd07a8743d970d81780dd54 -> fbeec2f07209bf2b654ac11e26fb0b8703ca0ef11eeebb819c81d7d3daa1f9d5
+~ -[CloudSettingsDispatchingMediator setKeysMap:] : sha256 bd6146a9ce7c324a010c3a670e904d89c3fefc696038711cde9fb4d01b5b51bf -> 0d6c6765de8f62fedbddfbecf9ee93ff26eda615740e01a7b78c3a4bd7a9b114
+~ -[CloudSettingsDispatchingMediator .cxx_destruct] : sha256 3569b3546b56495550aaea898f8a6d5faa5f674c99cc80b93bcbda3b6e9155da -> 1c8ef0eaab8d60570cd33a73152aabf2b6fedcca84688939c67812da07f7838a
+~ +[CloudSettingsManager sharedCloudSettingsManager].cold.1 : sha256 09f9eaff24de234bf8807d5f5cd7d55543c30683c3c449f9daf48aaf13cfdf8c -> a53bdad7236f6ecc184ecd182c277d681b6c66f89becf85900764979c2d1d095
+
+```

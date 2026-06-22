@@ -1,0 +1,492 @@
+## TextInputUI
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/TextInputUI.framework/Versions/A/TextInputUI`
+
+```diff
+
+-9127.0.66.1.402
+-  __TEXT.__text: 0x105f90 sha256:90dab64e369fa8f6751606f7d7e1f9cc5519c4ccec8633556c48c309862e5b09
+-  __TEXT.__objc_methlist: 0xead4 sha256:7619396460706b9612fd85d99aca984d5b2d8966c11d4c15b7c5d908b8bd8b86
+-  __TEXT.__const: 0x2d80 sha256:bb57f84dd7feb86048ec457cd6e6f4cd004e71befc31ba38ce44e3e6ad23f29d
++9127.0.71.1.401
++  __TEXT.__text: 0x10962c sha256:1db2b91d899799e40f9ccb441c4744286b422362840336b92f396c030d7547c4
++  __TEXT.__objc_methlist: 0xecc4 sha256:d7939f9656dac7a27ed088b545fa645bb2e43559d1590768fd74b3c3b28eca7b
++  __TEXT.__const: 0x2da0 sha256:3a257e1738f43612965adea95cb564cb28b53e2fe894c62a2cb8772f8bf8c73b
+   __TEXT.__dlopen_cstrs: 0x151 sha256:1f4eafa6f80c0d1bb748c98dbb1b12d74c06f542fc880dd179bd967ad4ffc839
+-  __TEXT.__swift5_typeref: 0x17fa sha256:edbff0719431e4278910875899c58e5503d0d4bae654d4aff6fe5be4f3047939
+-  __TEXT.__constg_swiftt: 0x1380 sha256:b91a416e40653a3a233592f9f2d26bfec8bd1d849ae00dc68e3d66097ea3871b
+-  __TEXT.__swift5_builtin: 0x12c sha256:2c25578f17c18216b81f4ea77d1fe0642f8f6287033a5837667efce7ea972e06
+-  __TEXT.__swift5_reflstr: 0x7b5 sha256:6e339dcedd96c67c7fc63152520edce7b9fcca2c3321ac0b3ccc4441141600ea
+-  __TEXT.__swift5_fieldmd: 0x9a4 sha256:2c3cca0426fcec90fc82e377a0870b509b9089fd3d1b1dee5c82e6b66df0c46e
+-  __TEXT.__swift5_assocty: 0x258 sha256:f77a626917c8bca2349163dc16d63de20887be11fc4dd141fc753b7c040903b6
+-  __TEXT.__cstring: 0xc9c2 sha256:e04d50fa19150e45ed3f868d775585fc23f1060d88e8185880b23a148ec89c41
+-  __TEXT.__swift5_proto: 0x108 sha256:11ac941a4942a015e8fb4d82a70c0be6176df811dcd14cbc199f2b915df53c8b
+-  __TEXT.__swift5_types: 0xf4 sha256:75d180f8c0697d978995732c370e2698cc6c86697c63a4fb90f5e701aff160a1
+-  __TEXT.__oslogstring: 0x4595 sha256:4672ab7acde09ab2b14ff5a200f6074ef322f0caec3180dc20cc075d60bbdeb0
+-  __TEXT.__swift5_capture: 0x440 sha256:87cc28033a4dd66f64490ef9fb00999343c8bd7c547986cc4429ff1195f8794a
+-  __TEXT.__swift_as_entry: 0x50 sha256:2a5e6fca7b10ec96a5b0a7ccdc5b333872882d34fc286c290f2c0e22fc97fb15
+-  __TEXT.__swift_as_ret: 0x48 sha256:e4a5c2cae2ea174652039f8b59aef5538fbe0d28743695b8adee049b3ed2ea8e
+-  __TEXT.__swift_as_cont: 0xcc sha256:6f50766af45a2ca4b65ffd602d4b4b3f6fce5d02857783f827ea409a23e74847
+-  __TEXT.__swift5_mpenum: 0x1c sha256:3724dac3896bd442b42f9ad1f2239415d4dc45113d4bb396f8012f04fdcb0360
+-  __TEXT.__swift5_protos: 0xc sha256:322ab473a2d252c3014dc5943c2df888a962118b0e56a9516d46be90c47b5c05
++  __TEXT.__swift5_typeref: 0x168e sha256:f687e35be63c9bcfbca4ea8d05d508d17aba2b33476ef54db328de4bf9c523d2
++  __TEXT.__constg_swiftt: 0x13c4 sha256:eff1634560f273805d4c80c358757fe2e3102a44841a67886faf577296d4b068
++  __TEXT.__swift5_builtin: 0x12c sha256:64567563b71d2aa9d0f904e72148625497ba573c83907f0908ba2f26710255f1
++  __TEXT.__swift5_reflstr: 0x7e5 sha256:38d8aba7fb032993cf703629bdf286ca0166a1af3b3ec68a97eb0d58f1763300
++  __TEXT.__swift5_fieldmd: 0x9cc sha256:b8d3bb4757847aff0c002293b622503e4a348f8e680b12209b94a5e2d1cfd72d
++  __TEXT.__swift5_assocty: 0x270 sha256:2a98210d4b8c863916ee7dd80dac03407024a669e231b70005296dd37336af55
++  __TEXT.__cstring: 0xcb6e sha256:6e0ac756684afaa706f7c8d96d3f77c15833935bd20ef049a33ec8473aae63e2
++  __TEXT.__swift5_proto: 0x10c sha256:813fd55a951209065d3484ac9c2ab06b1940a5b883b80470907bd649b3b36333
++  __TEXT.__swift5_types: 0xf8 sha256:cc634e1cf62862247c8081a899c1f3f91950685af2b06ba344220704feb5580e
++  __TEXT.__swift5_capture: 0x448 sha256:dec1d12382edca13a442ee045302ee275817f2910ed0d486af2e36c9f39e033b
++  __TEXT.__swift5_protos: 0xc sha256:6937e6789e35b232558f17d3f86dde4901eaecb4b08fff28008ef8e8fbff5ce7
++  __TEXT.__oslogstring: 0x4684 sha256:dd27736d792dbecc75de5bf2beb9c94696a64fff5b617dde5eba5a48f70292a0
++  __TEXT.__swift_as_entry: 0x50 sha256:9a6c0e669f57eaa60c3fec7a5f149f47934f99ca5dec69bbe28a66efcc8368aa
++  __TEXT.__swift_as_ret: 0x48 sha256:fc734b4e8198f69e710875743cf268348ffbb01ccfb1fecfc1cada8de888884c
++  __TEXT.__swift_as_cont: 0xcc sha256:bac552250d0e500840e830259f1147338adfc1ea00967e7c5e8f3365628e7539
++  __TEXT.__swift5_mpenum: 0x1c sha256:1008a75365e815c9b3898458c3d863c5403a110060f3ae0a34bd605c1189c61d
+   __TEXT.__ustring: 0x254 sha256:4f609ccc0612f47768b3e20a5a692828013b8f6a193bba58bf14e9ef822c93ed
+-  __TEXT.__unwind_info: 0x3648 sha256:45bb6675272920df4f937f75018a318fa4761103a057f491ba75dcde44d40efa
+-  __TEXT.__eh_frame: 0x11b4 sha256:c741032d00b9ed5dffe14d9e8c83a2bbc7da40a366bcafb8d30d0f975f1e3e44
++  __TEXT.__unwind_info: 0x36a0 sha256:02233bde76307c676bc85cf64177791715e355b5a75b3326ee16f2bcc6a1dc78
++  __TEXT.__eh_frame: 0x11b4 sha256:a948f7c84a25d8955494206832f1bb8fb3328cef24b188c0cf14aeb7a199b1a4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x75f0 sha256:d286e051d4b66c24d8f884370f21ddc8df28630b5664e7aad2e80647bd9d74bc
+-  __DATA_CONST.__objc_classlist: 0x660 sha256:4b003e3cbcd8a299d5a3482fa1759fd4572b48b00789093fbc75d516baf87375
+-  __DATA_CONST.__objc_catlist: 0x40 sha256:41d490fd529dfdb70b356086f25f321807d4e6b035aba8ff9aa3460b6ee469c5
+-  __DATA_CONST.__objc_protolist: 0x268 sha256:9eab5d6d9b0340ea0e854b7c6fee8e8db6a8e10b74add835603c03f8fb23382f
++  __DATA_CONST.__const: 0x7640 sha256:2dad3da65ddb11a9bd17a9a1cc79a776035dfe3cff43b0d4e56d42483021579a
++  __DATA_CONST.__objc_classlist: 0x670 sha256:df3b75abd1c12159c6b203b8f78a5150243986540293bbc35d748567f72e9174
++  __DATA_CONST.__objc_catlist: 0x48 sha256:2e1d14f23d12fcce8a451a113a534bf154fb9dadbe132345a5fa663de151fe99
++  __DATA_CONST.__objc_protolist: 0x268 sha256:b71332b646c2b972013cda831632df36ae03b62756422274de97b1cf98eadb82
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x95c8 sha256:00641a573438ec462e4ee13899090fd08cf5b1b8810f9305729545a39f362c91
+-  __DATA_CONST.__objc_protorefs: 0x80 sha256:1d6f5de82eb7f0cff026becc0c7a2c267bf36c1851319a88bc5e2f714f965461
+-  __DATA_CONST.__objc_superrefs: 0x410 sha256:082402374e9b8f7e364cdf120013684185f35ec928051727f7e7ff6835268277
+-  __DATA_CONST.__objc_arraydata: 0x8d0 sha256:4977143defad953ed42ca32a81dbf3d21db5a790011c22a21387faeb6e814e4c
+-  __DATA_CONST.__got: 0x1240 sha256:28c302e6b4d2c1493ee8c06b352e1674f382685871d7c1df3a495982f86b9d4c
+-  __AUTH_CONST.__const: 0x2540 sha256:8f7857ccf07ba87187895bc39d0b00c52d8269958853c19c537e06d880abf7ed
+-  __AUTH_CONST.__cfstring: 0xdae0 sha256:6bad87cdacfada152058bd8b86498d2f349b7603d3fd8481110cea394cb3672d
+-  __AUTH_CONST.__objc_const: 0x177f0 sha256:57346dbaf0a6039f19fe9b613d975ebdee3cd0bd2a51e96435d2c8a25faa1bb7
+-  __AUTH_CONST.__objc_intobj: 0x348 sha256:b8525218b250191cd9e6af28d9bd79b1b8af94d126dc1f5bc434f7bc4485f694
+-  __AUTH_CONST.__objc_arrayobj: 0x228 sha256:77b5859bd4a685713b3791a8c50ee3266df405b186ec9bc5d1be110cb3be3873
+-  __AUTH_CONST.__objc_doubleobj: 0x110 sha256:2fdc5b5694eb404bb7eefa43a0e562d9f931631826ebda07c454b9f967017c7c
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:7075aa3aea87ce322c0c619ffa59f705cf4c75c1894ab8e6728480834a689892
+-  __AUTH_CONST.__objc_floatobj: 0xe0 sha256:c3f27540f3bcc0e1d4c54167b4ad406a3af6c51e5ae4a612595d947109f11cad
+-  __AUTH_CONST.__auth_got: 0x15d8 sha256:5ca4b1fe5e72f74fe07551c12eda9a40ba749d6936731c7dda4ab351bb9157e7
+-  __AUTH.__objc_data: 0x2f20 sha256:a857f41a87c96d745ad35ffb7bcae8ab6fdfd7f300d46cffd3ec04fa6f09dc25
+-  __AUTH.__data: 0x748 sha256:65ab2b3db3a05bb72d1a2b3a1664bf92d88e7eda1f99482bfaa332a56a4314c0
+-  __DATA.__objc_ivar: 0x10d4 sha256:44f2e722687d543ffc10f174355b73c90afe4a5e3a8724110ae88bc3e3ffe77b
+-  __DATA.__data: 0x23b0 sha256:1f219566709959ffc909023b569ba4f5f5508639ea74d3ca3a9c57fc0b454e41
+-  __DATA.__bss: 0x2298 sha256:2ca463bec00eafc5b20bec240b288b0df8a49444a993535bb792893809c3b273
++  __DATA_CONST.__objc_selrefs: 0x96d8 sha256:9155aae74f39346c8ba3811ccde337bb7ac6e50d8efde0be720af48e52031896
++  __DATA_CONST.__objc_protorefs: 0x80 sha256:2ba1b992aa9470df6341907481c395635de57b6ec8ad3258fd4dcaad2ba7cf43
++  __DATA_CONST.__objc_superrefs: 0x410 sha256:c5903bc4d1e83ba478b0be5ba101e359bf2fabe8f9d0c9688f5eec52bba8ede5
++  __DATA_CONST.__objc_arraydata: 0x8f0 sha256:d13efe3136f7684c2b6fcb9df0847c80c7bc5c5047d965576696fc4671cad18a
++  __DATA_CONST.__got: 0x1258 sha256:97aee5799a5e8332fe494ec1f6031e058cd7b16114b4593f9f7890359479554a
++  __AUTH_CONST.__const: 0x24e8 sha256:3467b084780d46065fffeeb7c4595e23e644c2276cade433abec12e26a6a4a17
++  __AUTH_CONST.__cfstring: 0xdca0 sha256:17d88f56eff79150cb69c5c9db1f8499f60cbf59bd8efc440fbcf4c56f57fc02
++  __AUTH_CONST.__objc_const: 0x17ac0 sha256:718724e8e924e036b5cf665efdf25772f33838ee85d7d2ccc80449877fc71d03
++  __AUTH_CONST.__objc_intobj: 0x348 sha256:8d85aa3c8c33c47e893c18b412a6c67aade10988a2bcde1950033105274ef822
++  __AUTH_CONST.__objc_arrayobj: 0x228 sha256:7bfcc079fef8e4cf14b50f4e6876b0d4ab691d504c38be48e266702cf6ceada0
++  __AUTH_CONST.__objc_doubleobj: 0x110 sha256:325bea26f5f7c014faf75d6067af2cd87366507ed08601bfd85817ad6d2e3e06
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:ae9df45ed2dffea2ce47f8054a1bbdef3f23fa4edba7b08e7bb94bc9c9366527
++  __AUTH_CONST.__objc_floatobj: 0xe0 sha256:03bc65a0f886c1d0f905a8076ac2b7b7553cdea79acac910566a20b261476f46
++  __AUTH_CONST.__auth_got: 0x15f0 sha256:424ab5b733822be22bf433895a37bc44d20e51b19e42a24069beff0157c93395
++  __AUTH.__objc_data: 0x3030 sha256:368e0bcb476bf567e6c00cff48af639b1a83bc36bf0be69b75a6eeca5ef63a6e
++  __AUTH.__data: 0x778 sha256:c2a8812b6e5b50dfe24d9f071058a6336fc3ef088e90bc90e5cee4078c0c800a
++  __DATA.__objc_ivar: 0x10f8 sha256:1bc33a1d8089c317b2ec4706b65e3abf8b7a8513b0fe778218387b3e6dddae24
++  __DATA.__data: 0x2368 sha256:06272a2b54a1d3a372e806ab6b286b723547d8296fd0d98709e2a9f72a3ba828
++  __DATA.__bss: 0x2318 sha256:8cecad49040109af81a8047eb14ce748e351038c9b46778a660774478d1fbbdd
+   __DATA.__common: 0x168 sha256:d3df611a0ed2e328b050d285287637c60643ba96ec09e4aaefaad7f2cd114b77
+-  __DATA_DIRTY.__objc_data: 0x2030 sha256:3be9bf37a02be2e9b734e12c36c15699823704aad1f9f401ffd9b20f43a9707e
+-  __DATA_DIRTY.__data: 0x390 sha256:f358fff56ddeefc17af80b24287061368023412ee69b4421e96c47f3c1dcfc0d
++  __DATA_DIRTY.__objc_data: 0x2030 sha256:05899c1face22ba51358127dfc4ba06bacf68645298a9af332bfb373a00b092e
++  __DATA_DIRTY.__data: 0x390 sha256:d97a820721d641fca8134f10c234a8f0e030470574eb9bddf1d0d5fe8ecc45d1
+   __DATA_DIRTY.__bss: 0x578 sha256:671a03b622d3d43fba5bbe87536a2f2b381488a896d9199522aec397ec5de576
+   __DATA_DIRTY.__common: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 838DE753-3485-3262-BA30-4C4AD65DFB5F
+-  Functions: 6023
+-  Symbols:   14084
+-  CStrings:  4139
++  UUID: 72354AE0-846F-37EC-8DEA-7712AFF6BB0E
++  Functions: 6072
++  Symbols:   14174
++  CStrings:  4175
+ 
+Symbols:
++ +[TUIPredictionViewCell defaultTextMarginWithImage]
++ -[TUIHostedInputCandidateContainerSceneDelegate forwardRenderConfigToClient:]
++ -[TUIHostingInputCandidateController forwardRenderConfigToClient:]
++ -[TUIInputSession notifyCandidateAccepted:]
++ -[TUIInputSession setSharedKeyboardContext:]
++ -[TUIInputSession sharedKeyboardContext]
++ -[TUIInputSessionManager _propagateSharedKeyboardContext]
++ -[TUIInputSessionManager notifyCandidateAccepted:forHostAuditToken:]
++ -[TUIInputSessionManager setSharedKeyboardContext:]
++ -[TUIInputSessionManager sharedKeyboardContext]
++ -[TUIKBKeyView isDuplicatedSplitKey]
++ -[TUIKey isDuplicatedSplitKey]
++ -[TUIKey isSplitDuplicate]
++ -[TUIKey setIsDuplicatedSplitKey:]
++ -[TUIKeyplane keyplaneHasCustomSplitLayout]
++ -[TUIKeyplane(TransitionSupport) customSplitKeyplaneTreeForLayoutName:screenTraits:]
++ -[TUIKeyplaneRow extraSplitKeys]
++ -[TUIKeyplaneRow setExtraSplitKeys:]
++ -[TUIPredictionView applyDefaultAssistantStyle]
++ -[TUIRecentPasteCellContentView _captionBaselineDistance]
++ -[TUIRecentPasteCellContentView _contentSizeCategoryDidChange]
++ -[TUIRecentPasteCellContentView _refreshLabelFonts]
++ -[TUIRecentPasteCellContentView _shadowOpacityForCurrentTraits]
++ -[TUIRecentPasteCellContentView _userInterfaceStyleDidChange]
++ -[TUISharedKeyboardContext copyWithZone:]
++ -[TUISharedKeyboardContext description]
++ -[TUISharedKeyboardContext lastInsertedPasteContentIdentifier]
++ -[TUISharedKeyboardContext setLastInsertedPasteContentIdentifier:]
++ -[_TUIKeyboardCandidateGenerationContext setSharedKeyboardContext:]
++ -[_TUIKeyboardCandidateGenerationContext sharedKeyboardContext]
++ OBJC_IVAR_$_TUIInputSession._sharedKeyboardContext
++ OBJC_IVAR_$_TUIInputSessionManager._sharedKeyboardContext
++ OBJC_IVAR_$_TUIKey._isDuplicatedSplitKey
++ OBJC_IVAR_$_TUIKeyplaneRow._extraSplitKeys
++ OBJC_IVAR_$_TUIRecentPasteCellContentView._captionBaselineConstraint
++ OBJC_IVAR_$_TUIRecentPasteCellContentView._contentWrapper
++ OBJC_IVAR_$_TUIRecentPasteCellContentView._imageContainer
++ OBJC_IVAR_$_TUIRecentPasteCellContentView._labelGroup
++ OBJC_IVAR_$_TUISharedKeyboardContext._lastInsertedPasteContentIdentifier
++ OBJC_IVAR_$__TUIKeyboardCandidateGenerationContext._sharedKeyboardContext
++ UIKitLibrary.3954
++ UIKitLibraryCore.frameworkLibrary.3957
++ UIKitLibraryCore.frameworkLibrary.4758
++ _OBJC_CLASS_$_TUISharedKeyboardContext
++ _OBJC_CLASS_$_UITraitPreferredContentSizeCategory
++ _OBJC_CLASS_$__TtC11TextInputUI22InvocationHostToClient
++ _OBJC_METACLASS_$_TUISharedKeyboardContext
++ _OBJC_METACLASS_$__TtC11TextInputUI22InvocationHostToClient
++ _PROTOCOLS_TUIInputSessionCoordinator.2
++ _TUIKeyboardTrackingLogger.10395
++ _TUIKeyboardTrackingLogger.log.10408
++ _TUIKeyboardTrackingLogger.onceToken.10406
++ _UIKBAttributeNameCustomSplitLayout
++ _UIKBAttributeNameSplitIndex
++ _UIKBTreePropertySplitDuplicate
++ __55-[TUIInputSessionManager _handleNewIncomingConnection:]_block_invoke.15
++ __55-[TUIInputSessionManager _handleNewIncomingConnection:]_block_invoke.16
++ __55-[TUIInputSessionManager _handleNewIncomingConnection:]_block_invoke.21
++ __55-[TUIInputSessionManager _handleNewIncomingConnection:]_block_invoke.30
++ __Block_byref_object_copy_.10126
++ __Block_byref_object_copy_.2648
++ __Block_byref_object_copy_.3951
++ __Block_byref_object_copy_.4507
++ __Block_byref_object_copy_.7458
++ __Block_byref_object_copy_.8864
++ __Block_byref_object_dispose_.10127
++ __Block_byref_object_dispose_.2649
++ __Block_byref_object_dispose_.3952
++ __Block_byref_object_dispose_.4508
++ __Block_byref_object_dispose_.7459
++ __Block_byref_object_dispose_.8865
++ __CATEGORY_BSMutableSettings_$_TextInputUI
++ __CATEGORY_CLASS_METHODS_BSMutableSettings_$_TextInputUI
++ __DATA__TtC11TextInputUI22InvocationHostToClient
++ __INSTANCE_METHODS__TtC11TextInputUI22InvocationHostToClient
++ __METACLASS_DATA__TtC11TextInputUI22InvocationHostToClient
++ __OBJC_$_CLASS_METHODS__TtC11TextInputUI28TUITextComposerClientWrapper(TextInputUI)
++ __OBJC_$_INSTANCE_METHODS_TUISharedKeyboardContext
++ __OBJC_$_INSTANCE_VARIABLES_TUISharedKeyboardContext
++ __OBJC_$_PROP_LIST_TUISharedKeyboardContext
++ __OBJC_CLASS_PROTOCOLS_$_TUISharedKeyboardContext
++ __OBJC_CLASS_RO_$_TUISharedKeyboardContext
++ __OBJC_METACLASS_RO_$_TUISharedKeyboardContext
++ __UIKitLibraryCore_block_invoke.3958
++ __UIKitLibraryCore_block_invoke.4759
++ ___57-[TUIInputSessionManager _propagateSharedKeyboardContext]_block_invoke
++ ___TUIKeyboardTrackingLogger_block_invoke.10411
++ ___block_descriptor_60_8_32s40w48w_e5_v8?0lw40l8s32l8w48l8
++ __block_literal_global.10.12775
++ __block_literal_global.10185
++ __block_literal_global.10407
++ __block_literal_global.10522
++ __block_literal_global.10659
++ __block_literal_global.11121
++ __block_literal_global.11311
++ __block_literal_global.11387
++ __block_literal_global.11480
++ __block_literal_global.11736
++ __block_literal_global.12409
++ __block_literal_global.12780
++ __block_literal_global.12964
++ __block_literal_global.13378
++ __block_literal_global.15982
++ __block_literal_global.16507
++ __block_literal_global.1883
++ __block_literal_global.1982
++ __block_literal_global.2397
++ __block_literal_global.2670
++ __block_literal_global.28.11419
++ __block_literal_global.3.11737
++ __block_literal_global.3301
++ __block_literal_global.3588
++ __block_literal_global.3874
++ __block_literal_global.3998
++ __block_literal_global.4.16002
++ __block_literal_global.4079
++ __block_literal_global.41.11394
++ __block_literal_global.43.11396
++ __block_literal_global.43.3567
++ __block_literal_global.4358
++ __block_literal_global.4509
++ __block_literal_global.5.11738
++ __block_literal_global.5009
++ __block_literal_global.5256
++ __block_literal_global.5321
++ __block_literal_global.5561
++ __block_literal_global.561
++ __block_literal_global.6.12966
++ __block_literal_global.666
++ __block_literal_global.6821
++ __block_literal_global.7.11739
++ __block_literal_global.7005
++ __block_literal_global.7604
++ __block_literal_global.793
++ __block_literal_global.8059
++ __block_literal_global.8392
++ __block_literal_global.8528
++ __block_literal_global.870
++ __block_literal_global.8800
++ __block_literal_global.9090
++ __block_literal_global.915
++ __block_literal_global.926
++ __block_literal_global.96.3971
++ __block_literal_global.9658
++ __swift_closure_destructor.34Tm
++ __swift_closure_destructor.44
++ __swift_closure_destructor.47
++ __swift_closure_destructor.54
++ __swift_closure_destructor.57
++ __swift_closure_destructor.61
++ __swift_closure_destructor.64
++ _associated conformance 11TextInputUI21CalistogaFeatureFlags33_C90572265959E209E1BF186B5F2EDED5LLOSHAASQ
++ _associated conformance 11TextInputUI22InvocationHostToClientCs12IdentifiableAA2IDsADP_SH
++ _objc_msgSend$__swift_objectForKeyedSubscript:
++ _objc_msgSend$_captionBaselineDistance
++ _objc_msgSend$_refreshLabelFonts
++ _objc_msgSend$_shadowOpacityForCurrentTraits
++ _objc_msgSend$applyDefaultAssistantStyle
++ _objc_msgSend$constraintGreaterThanOrEqualToAnchor:constant:
++ _objc_msgSend$constraintLessThanOrEqualToAnchor:constant:
++ _objc_msgSend$conversationTypeFor:
++ _objc_msgSend$customSplitKeyplaneTreeForLayoutName:screenTraits:
++ _objc_msgSend$decimalDigitCharacterSet
++ _objc_msgSend$defaultTextMarginWithImage
++ _objc_msgSend$extraSplitKeys
++ _objc_msgSend$firstBaselineAnchor
++ _objc_msgSend$forwardRenderConfigToClient:
++ _objc_msgSend$initWithInput:rawInput:
++ _objc_msgSend$initWithSettings:
++ _objc_msgSend$invertedSet
++ _objc_msgSend$isDuplicatedSplitKey
++ _objc_msgSend$isSplitDuplicate
++ _objc_msgSend$keyboardRenderConfig
++ _objc_msgSend$keyplaneHasCustomSplitLayout
++ _objc_msgSend$lastBaselineAnchor
++ _objc_msgSend$lastPushedRequestToken
++ _objc_msgSend$notifyCandidateAccepted:
++ _objc_msgSend$registerForTraitChanges:withTarget:action:
++ _objc_msgSend$rowSetForType:
++ _objc_msgSend$setClientViewKeyboardRenderConfigWithRenderConfig:
++ _objc_msgSend$setExtraSplitKeys:
++ _objc_msgSend$setIsDuplicatedSplitKey:
++ _objc_msgSend$setKeyboardRenderConfigWithRenderConfig:
++ _objc_msgSend$setProperties:
++ _objc_msgSend$setSharedKeyboardContext:
++ _objc_msgSend$sharedKeyboardContext
++ _objc_msgSend$splitIndex
++ _objc_msgSend$usesControlKeyAppearance
++ _symbolic So15TIKeyboardStateC
++ _symbolic So33_UISceneHostingActionHostToClientC
++ _symbolic _____ 11TextInputUI21CalistogaFeatureFlags33_C90572265959E209E1BF186B5F2EDED5LLO
++ _symbolic _____ 11TextInputUI22InvocationHostToClientC
++ _symbolic _____Sg 12TextComposer14DocumentFormatV
++ _symbolic _____yAAyAAy_____y_____yAAyAAyAAy__________G_____G_____y_____GG_AAy_____yACyAAy__________ySiSgGG_ARQPGGAKGQPGG_____G_____GAOy_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA21_TraitWritingModifierV AA0j8PriorityL3KeyV AA6VStackV AA4TextV AA012_EnvironmentpmN0V AA08_PaddingJ0V AA05_FlexkJ0V AA15DynamicTypeSizeO
++ _symbolic _____yAAyAAy_____y_____yAAyAAy__________G_____y_____GG_AAy__________ySiSgGGQPGG_____G_____GALy_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA12_FrameLayoutV AA21_TraitWritingModifierV AA0i8PriorityJ3KeyV AA4TextV AA012_EnvironmentnkL0V AA05_FlexhI0V AA08_PaddingI0V AA15DynamicTypeSizeO
++ _symbolic _____yAAyAAy_____y_____yAAyAAy__________G_____y_____GG_AAy_____yACyAAy__________ySiSgGG_APQPGGAIGQPGG_____G_____GAMy_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA12_FrameLayoutV AA21_TraitWritingModifierV AA0i8PriorityJ3KeyV AA6VStackV AA4TextV AA012_EnvironmentnkL0V AA08_PaddingI0V AA05_FlexhI0V AA15DynamicTypeSizeO
++ _symbolic _____yAAy_____y_____yAAyAAyAAy__________G_____G_____y_____GG_AAy_____yACyAAy__________ySiSgGG_ARQPGGAKGQPGG_____G_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA21_TraitWritingModifierV AA0j8PriorityL3KeyV AA6VStackV AA4TextV AA012_EnvironmentpmN0V AA08_PaddingJ0V AA05_FlexkJ0V
++ _symbolic _____yAAy_____y_____yAAyAAy__________G_____y_____GG_AAy_____yACyAAy__________ySiSgGG_APQPGGAIGQPGG_____G_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA12_FrameLayoutV AA21_TraitWritingModifierV AA0i8PriorityJ3KeyV AA6VStackV AA4TextV AA012_EnvironmentnkL0V AA08_PaddingI0V AA05_FlexhI0V
++ audit_stringUIKit.3961
++ audit_stringUIKit.4764
++ block_copy_helper.39
++ block_copy_helper.45
++ block_copy_helper.67
++ block_descriptor.41
++ block_descriptor.47
++ block_descriptor.69
++ block_destroy_helper.40
++ block_destroy_helper.46
++ block_destroy_helper.68
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6HStackVyAA05TupleD0VyACyACyAA5ImageVAA12_FrameLayoutVGAA21_TraitWritingModifierVyAA0i8PriorityJ3KeyVGG_ACyAA4TextVAA012_EnvironmentnkL0VySiSgGGQPGGAA05_FlexhI0VGAA08_PaddingI0VGAVyAA15DynamicTypeSizeOGGAA4ViewHPA5_AAA10_HPA2_AAA10_HPA_AAA10_HPyHC_A1_AA0vL0HPyHCHC_A4_AAA11_HPyHCHC_A8_AAA11_HPyHCHC.28
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6HStackVyAA05TupleD0VyACyACyAA5ImageVAA12_FrameLayoutVGAA21_TraitWritingModifierVyAA0i8PriorityJ3KeyVGG_ACyAA6VStackVyAGyACyAA4TextVAA012_EnvironmentnkL0VySiSgGG_A_QPGGAQGQPGGAA08_PaddingI0VGAA05_FlexhI0VGAXyAA15DynamicTypeSizeOGGAA4ViewHPA10_AAA15_HPA7_AAA15_HPA4_AAA15_HPyHC_A6_AA0wL0HPyHCHC_A9_AAA16_HPyHCHC_A13_AAA16_HPyHCHC.29
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6HStackVyAA05TupleD0VyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameJ0VGAA21_TraitWritingModifierVyAA0j8PriorityL3KeyVGG_ACyAA6VStackVyAGyACyAA4TextVAA012_EnvironmentpmN0VySiSgGG_A2_QPGGATGQPGGAA08_PaddingJ0VGAA05_FlexkJ0VGA_yAA15DynamicTypeSizeOGGAA4ViewHPA13_AAA18_HPA10_AAA18_HPA7_AAA18_HPyHC_A9_AA0yN0HPyHCHC_A12_AAA19_HPyHCHC_A16_AAA19_HPyHCHC.30
++ sharedInstance.__instance.12776
++ sharedInstance.onceToken.12774
++ sharedInstance.onceToken.8527
+- -[TUIKeyplaneRow extraSpaceBar]
+- -[TUIKeyplaneRow setExtraSpaceBar:]
+- -[TUISmartReplyGenerator conversationType:]
+- OBJC_IVAR_$_TUIKeyplaneRow._extraSpaceBar
+- UIKitLibrary.3472
+- UIKitLibraryCore.frameworkLibrary.3475
+- UIKitLibraryCore.frameworkLibrary.4267
+- _PROTOCOLS_TUIInputSessionCoordinator.3
+- _TUIKeyboardTrackingLogger.10427
+- _TUIKeyboardTrackingLogger.log.10440
+- _TUIKeyboardTrackingLogger.onceToken.10438
+- __55-[TUIInputSessionManager _handleNewIncomingConnection:]_block_invoke.13
+- __55-[TUIInputSessionManager _handleNewIncomingConnection:]_block_invoke.19
+- __55-[TUIInputSessionManager _handleNewIncomingConnection:]_block_invoke.28
+- __Block_byref_object_copy_.10158
+- __Block_byref_object_copy_.2195
+- __Block_byref_object_copy_.3468
+- __Block_byref_object_copy_.4018
+- __Block_byref_object_copy_.7044
+- __Block_byref_object_copy_.8420
+- __Block_byref_object_dispose_.10159
+- __Block_byref_object_dispose_.2196
+- __Block_byref_object_dispose_.3469
+- __Block_byref_object_dispose_.4019
+- __Block_byref_object_dispose_.7045
+- __Block_byref_object_dispose_.8421
+- __CLASS_METHODS__TtC11TextInputUI28TUITextComposerClientWrapper
+- __UIKitLibraryCore_block_invoke.3476
+- __UIKitLibraryCore_block_invoke.4268
+- ___55-[TUIInputSessionManager _handleNewIncomingConnection:]_block_invoke_2
+- ___TUIKeyboardTrackingLogger_block_invoke.10443
+- __block_literal_global.10.12780
+- __block_literal_global.10217
+- __block_literal_global.10439
+- __block_literal_global.10554
+- __block_literal_global.10691
+- __block_literal_global.11163
+- __block_literal_global.11353
+- __block_literal_global.11428
+- __block_literal_global.11521
+- __block_literal_global.11777
+- __block_literal_global.12417
+- __block_literal_global.12785
+- __block_literal_global.12969
+- __block_literal_global.13381
+- __block_literal_global.1464
+- __block_literal_global.1560
+- __block_literal_global.15975
+- __block_literal_global.16521
+- __block_literal_global.1965
+- __block_literal_global.2216
+- __block_literal_global.28.11460
+- __block_literal_global.2839
+- __block_literal_global.3.11778
+- __block_literal_global.3111
+- __block_literal_global.3395
+- __block_literal_global.3514
+- __block_literal_global.3595
+- __block_literal_global.3870
+- __block_literal_global.4.15995
+- __block_literal_global.4020
+- __block_literal_global.41.11435
+- __block_literal_global.43.11437
+- __block_literal_global.43.3090
+- __block_literal_global.4519
+- __block_literal_global.4765
+- __block_literal_global.4899
+- __block_literal_global.5.11779
+- __block_literal_global.5219
+- __block_literal_global.560
+- __block_literal_global.6.12971
+- __block_literal_global.6440
+- __block_literal_global.6625
+- __block_literal_global.7.11780
+- __block_literal_global.7167
+- __block_literal_global.7620
+- __block_literal_global.7950
+- __block_literal_global.8085
+- __block_literal_global.834
+- __block_literal_global.8356
+- __block_literal_global.8646
+- __block_literal_global.909
+- __block_literal_global.920
+- __block_literal_global.9214
+- __block_literal_global.9484
+- __block_literal_global.96.9475
+- __block_literal_global.9630
+- __swift_closure_destructor.31Tm
+- __swift_closure_destructor.40
+- __swift_closure_destructor.46
+- __swift_closure_destructor.53
+- __swift_closure_destructor.56
+- __swift_closure_destructor.60
+- __swift_closure_destructor.63
+- _associated conformance 11TextInputUI24IconServicesFeatureFlags33_C90572265959E209E1BF186B5F2EDED5LLOSHAASQ
+- _objc_msgSend$conversationType:
+- _objc_msgSend$extraSpaceBar
+- _objc_msgSend$infoDict
+- _objc_msgSend$setExtraSpaceBar:
+- _symbolic _____ 11TextInputUI24IconServicesFeatureFlags33_C90572265959E209E1BF186B5F2EDED5LLO
+- _symbolic _____yAAyAAyAAyAAy_____y_____yAAyAAy__________G_____y_____GG_AAy__________ySiSgGGQPGG_____G_____GATGATGALy_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA12_FrameLayoutV AA21_TraitWritingModifierV AA0i8PriorityJ3KeyV AA4TextV AA012_EnvironmentnkL0V AA05_FlexhI0V AA08_PaddingI0V AA15DynamicTypeSizeO
+- _symbolic _____yAAyAAyAAy_____y_____yAAyAAyAAy__________G_____G_____y_____GG_AAy_____yACyAAy__________ySiSgGG_ARQPGGAKGQPGG_____GAXGAXGAOy_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA21_TraitWritingModifierV AA0j8PriorityL3KeyV AA6VStackV AA4TextV AA012_EnvironmentpmN0V AA08_PaddingJ0V AA15DynamicTypeSizeO
+- _symbolic _____yAAyAAyAAy_____y_____yAAyAAy__________G_____y_____GG_AAy__________ySiSgGGQPGG_____G_____GATGATG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA12_FrameLayoutV AA21_TraitWritingModifierV AA0i8PriorityJ3KeyV AA4TextV AA012_EnvironmentnkL0V AA05_FlexhI0V AA08_PaddingI0V
+- _symbolic _____yAAyAAyAAy_____y_____yAAyAAy__________G_____y_____GG_AAy_____yACyAAy__________ySiSgGG_APQPGGAIGQPGG_____GAVGAVGAMy_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA12_FrameLayoutV AA21_TraitWritingModifierV AA0i8PriorityJ3KeyV AA6VStackV AA4TextV AA012_EnvironmentnkL0V AA08_PaddingI0V AA15DynamicTypeSizeO
+- _symbolic _____yAAyAAy_____y_____yAAyAAyAAy__________G_____G_____y_____GG_AAy_____yACyAAy__________ySiSgGG_ARQPGGAKGQPGG_____GAXGAXG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA21_TraitWritingModifierV AA0j8PriorityL3KeyV AA6VStackV AA4TextV AA012_EnvironmentpmN0V AA08_PaddingJ0V
+- _symbolic _____yAAyAAy_____y_____yAAyAAy__________G_____y_____GG_AAy__________ySiSgGGQPGG_____G_____GATG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA12_FrameLayoutV AA21_TraitWritingModifierV AA0i8PriorityJ3KeyV AA4TextV AA012_EnvironmentnkL0V AA05_FlexhI0V AA08_PaddingI0V
+- _symbolic _____yAAyAAy_____y_____yAAyAAy__________G_____y_____GG_AAy_____yACyAAy__________ySiSgGG_APQPGGAIGQPGG_____GAVGAVG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA12_FrameLayoutV AA21_TraitWritingModifierV AA0i8PriorityJ3KeyV AA6VStackV AA4TextV AA012_EnvironmentnkL0V AA08_PaddingI0V
+- _symbolic _____yAAy_____y_____yAAyAAyAAy__________G_____G_____y_____GG_AAy_____yACyAAy__________ySiSgGG_ARQPGGAKGQPGG_____GAXG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA21_TraitWritingModifierV AA0j8PriorityL3KeyV AA6VStackV AA4TextV AA012_EnvironmentpmN0V AA08_PaddingJ0V
+- _symbolic _____yAAy_____y_____yAAyAAy__________G_____y_____GG_AAy_____yACyAAy__________ySiSgGG_APQPGGAIGQPGG_____GAVG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA12_FrameLayoutV AA21_TraitWritingModifierV AA0i8PriorityJ3KeyV AA6VStackV AA4TextV AA012_EnvironmentnkL0V AA08_PaddingI0V
+- audit_stringUIKit.3479
+- audit_stringUIKit.4273
+- block_copy_helper.36
+- block_copy_helper.42
+- block_copy_helper.66
+- block_descriptor.38
+- block_descriptor.44
+- block_descriptor.68
+- block_destroy_helper.37
+- block_destroy_helper.43
+- block_destroy_helper.67
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6HStackVyAA05TupleD0VyACyACyAA5ImageVAA12_FrameLayoutVGAA21_TraitWritingModifierVyAA0i8PriorityJ3KeyVGG_ACyAA6VStackVyAGyACyAA4TextVAA012_EnvironmentnkL0VySiSgGG_A_QPGGAQGQPGGAA08_PaddingI0VGA6_GA6_GAXyAA15DynamicTypeSizeOGGAA4ViewHPA9_AAA14_HPA8_AAA14_HPA7_AAA14_HPA4_AAA14_HPyHC_A6_AA0vL0HPyHCHC_A6_AAA15_HPyHCHC_A6_AAA15_HPyHCHC_A12_AAA15_HPyHCHC.29
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6HStackVyAA05TupleD0VyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameJ0VGAA21_TraitWritingModifierVyAA0j8PriorityL3KeyVGG_ACyAA6VStackVyAGyACyAA4TextVAA012_EnvironmentpmN0VySiSgGG_A2_QPGGATGQPGGAA08_PaddingJ0VGA9_GA9_GA_yAA15DynamicTypeSizeOGGAA4ViewHPA12_AAA17_HPA11_AAA17_HPA10_AAA17_HPA7_AAA17_HPyHC_A9_AA0xN0HPyHCHC_A9_AAA18_HPyHCHC_A9_AAA18_HPyHCHC_A15_AAA18_HPyHCHC.30
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA6HStackVyAA05TupleD0VyACyACyAA5ImageVAA12_FrameLayoutVGAA21_TraitWritingModifierVyAA0i8PriorityJ3KeyVGG_ACyAA4TextVAA012_EnvironmentnkL0VySiSgGGQPGGAA05_FlexhI0VGAA08_PaddingI0VGA4_GA4_GAVyAA15DynamicTypeSizeOGGAA4ViewHPA7_AAA12_HPA6_AAA12_HPA5_AAA12_HPA2_AAA12_HPA_AAA12_HPyHC_A1_AA0vL0HPyHCHC_A4_AAA13_HPyHCHC_A4_AAA13_HPyHCHC_A4_AAA13_HPyHCHC_A10_AAA13_HPyHCHC.28
+- sharedInstance.__instance.12781
+- sharedInstance.onceToken.12779
+- sharedInstance.onceToken.8084
+CStrings:
++ "-Split"
++ "-Wide"
++ "-[TUIHostingInputCandidateController forwardRenderConfigToClient:]"
++ "<%@: %p; _lastInsertedPasteContentIdentifier = %llu>"
++ "Candidate"
++ "InterruptionHandler: stale, ignoring"
++ "InvalidationHandler: stale, ignoring"
++ "KBSplitDuplicate"
++ "Manipuri-MeeteiMayek-QWERTY"
++ "Middle Padding"
++ "No custom split layout available for %@"
++ "No session found for versionedPID %@; cannot forward candidateAccepted"
++ "Padding"
++ "Small-Split"
++ "TextInputUI.InvocationHostToClient"
++ "UIKBAttributeNameCustomSplitLayout"
++ "UIKBAttributeNameSplitIndex"
++ "Unsupported performAction. Will do nothing."
++ "Uyghur"
++ "custom-split-layout"
++ "setKeyboardRenderConfig"
++ "split-index"
+
+```

@@ -1,0 +1,140 @@
+## SiriMessagesUI
+
+> `/System/Library/PrivateFrameworks/SiriMessagesUI.framework/Versions/A/SiriMessagesUI`
+
+```diff
+
+-3600.41.21.4.1
+-  __TEXT.__text: 0x8c93c sha256:1b82eae249e553513ec5fd91cf20fae728e3305ff4a60267a50548751866f6ca
+-  __TEXT.__objc_methlist: 0x3c4 sha256:0e80ad58a2b7aa16341910bb0494b3cff9562d97ca027005e6d45a15d8efce8e
+-  __TEXT.__const: 0x5904 sha256:8f3089f85a4c513060ce4db914fe2e9915ba8c86ac52f5c590eb13343d720a27
+-  __TEXT.__constg_swiftt: 0x22fc sha256:466c5143d2debc3b01709a2f82e2a2bb7c497b98cfc3cf757f9baec10273308d
+-  __TEXT.__swift5_typeref: 0xb144 sha256:96d7d51004d509d3a743432906c3407a4a53847024c0cf1e34bfbf7a9d814094
+-  __TEXT.__swift5_builtin: 0xb4 sha256:39a96f79ad9734a1804aaf59a29ba54a0650ae167349f78a27ef416e7720fb98
+-  __TEXT.__swift5_reflstr: 0x16b5 sha256:acea493dea2039b5e235a256d6aa4b0e0a6287741c7b26a6e6797aa909fb53bf
+-  __TEXT.__swift5_fieldmd: 0x1650 sha256:14a0da4cda76bef3343bd09d376f75c3d7dcdb66b27833a9d3747761a23b3212
+-  __TEXT.__swift5_assocty: 0x7b8 sha256:71a3b51b6e3dc16633f71c0ae581f4b7e5c79236235f3656c73eefbb09bf5909
+-  __TEXT.__swift5_capture: 0xa70 sha256:2c363374d5fc5af40e6b58f7fd193f6e2cd1c5cbe59b81a3e512c0054e93a8f6
+-  __TEXT.__oslogstring: 0x31da sha256:a8047ddc67e01c0cb28682f510b9d36601bf5ba9aa8f52209962499ebadfca5b
+-  __TEXT.__swift5_proto: 0x26c sha256:a94fe9b3af97fd8d5b1e2dd79c4238f01247ee9f582a39cdf7233f7740c4ada3
+-  __TEXT.__swift5_types: 0x188 sha256:173afbef4dec81b0b8fc1abbf48da7c661e489177d1c9d73285ad1a2ce5e47e7
+-  __TEXT.__swift_as_entry: 0x80 sha256:136e5ace78f50ac47de11020c5570b940397ed8509dc10b3dc760ff9ec3d88fd
+-  __TEXT.__swift_as_ret: 0x84 sha256:c71bc9cbed573139e3195a90c02099a4458e726499110dc886bd265d3cc9f355
+-  __TEXT.__swift_as_cont: 0xe0 sha256:93bcd1ca134e48ebedd25f2750e313d2610ff8acf94d0bc12daa13e84385e8ae
+-  __TEXT.__swift5_mpenum: 0x8 sha256:43f25e8cab7b85e5b8623f5216ae0f99db766b0717d0a38864bbc832e15fd21f
+-  __TEXT.__cstring: 0xa0d sha256:9cd620257455030d8c6e5a1013e8f0e00b0a015a2171b14e2c92da36a7e6cb47
+-  __TEXT.__swift5_protos: 0x24 sha256:f0a1bb99bdd6bd5b9237b03d668cdd584d836448ecd8c64b4f7e1ff296a49a6b
+-  __TEXT.__unwind_info: 0x2008 sha256:efe2d714cc18b63a39694a00ca1b5e13202e063280000e10d926be25e4afd655
+-  __TEXT.__eh_frame: 0x1a1c sha256:3569008c235f4bd8d0aaf6b07b9677981fb40d5e38699d4d6c0e9c0d776b41f6
++3600.47.5.0.0
++  __TEXT.__text: 0x8d478 sha256:2862c200bdd6e0aee0d6dad57288e03a6c6276658dc4e1a19c6c35aa9e06326f
++  __TEXT.__objc_methlist: 0x3fc sha256:27bb43cc1126f1b93839ff51499e95d0ca55afd879ddd35812a01434ed86669a
++  __TEXT.__const: 0x5954 sha256:d662f1c209b0555ca6b808fe764a3776b7973bc6b18a53c847b184107dd0639c
++  __TEXT.__constg_swiftt: 0x2340 sha256:4cce000009228295b7292ded4040c9c1e0272c1f4ba41d2882c2e182ba32a6c7
++  __TEXT.__swift5_typeref: 0xb16c sha256:28ba7f132da93fc2bd1eb3c7c3aa70db1069f580f6c1e668fc96de62e1133792
++  __TEXT.__swift5_builtin: 0xb4 sha256:823eaa0741fa1376425bc12fa41ce4a4f8748ee8f3fe34a06de5446e9cc507ea
++  __TEXT.__swift5_reflstr: 0x16d5 sha256:090fa38f2171f91944c27914497d1bfcc75ece85230289a966cd2dbdfe53467f
++  __TEXT.__swift5_fieldmd: 0x1678 sha256:6c2f1d6e4509eeb6a010a3ff0a6f09afa09c302ff9334bfb9e467c16362e59c4
++  __TEXT.__swift5_assocty: 0x7b8 sha256:cc31cc429444d8b2d1d2bdcb5eb65ba7a6efe8a3acbf4b27d4cfc343eeb49ce9
++  __TEXT.__swift5_capture: 0xa70 sha256:847c7e9f98d86eafdffb81821fa7601ef199aa5b5d09cdeb86d96914bc86e881
++  __TEXT.__oslogstring: 0x321a sha256:48435a320b2e24b74ac6cbafa4f79a56f84da0f7fe2cbce72b0e8c5f445f328a
++  __TEXT.__swift5_proto: 0x26c sha256:9ff56b13345f620a9575df4a95780cfd158a82e136be6b56b9c0d523faf08174
++  __TEXT.__swift5_types: 0x18c sha256:745a7e555bb69bc610c2120f9b0265cb5c32430ab9fc6af74b4e61d7deda11c2
++  __TEXT.__swift_as_entry: 0x80 sha256:c71b9881a029a98a57a83287763af57e0871b5435920ed27428ed6578f57a40b
++  __TEXT.__swift_as_ret: 0x84 sha256:129e22ace0077e31a68fc9955e734bb5beafbe2a72897f851ef58c3dcadfb2f8
++  __TEXT.__swift_as_cont: 0xe0 sha256:5550c0f5da4c4ff2922b3212052e5275e25cbbe9eeec3158819f8ab8ebe5f9ec
++  __TEXT.__swift5_mpenum: 0x8 sha256:f56d49b4f31285258d1ba77cea3bca78753c584d80a82e9bc3f75c1fc37bbbbf
++  __TEXT.__cstring: 0xaad sha256:473c0fb0495118087cb579cf6db54fccd32191d31c49cb92c1e43e80a1355b59
++  __TEXT.__swift5_protos: 0x24 sha256:db917357fe57d1ad62f88497900c949d9890e52eda50b7097aff6fe864c577b6
++  __TEXT.__unwind_info: 0x2040 sha256:8bf8c535a50fb8b6b2ef596755eed92f1e96e742983283066e06e58b0b460491
++  __TEXT.__eh_frame: 0x1a3c sha256:14f3999a726a5b9b2f36817da25bd44179555f080dd80a5436ed071295fa0c52
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0xd8 sha256:a5645e7a3fa0866cde8842c4dab96567507c3d1a3c028b816bc63f6966367b70
+-  __DATA_CONST.__objc_classlist: 0x68 sha256:a6cf2ffe28643c01ab130ab100f678d5d9d75572b0030b4c7f1e009f8e60d84e
+-  __DATA_CONST.__objc_protolist: 0xc0 sha256:c19b57361aceee3f6e54c93c9d9e4748a14e5859053ecffbe7a6ffe37f1dc146
++  __DATA_CONST.__objc_classlist: 0x70 sha256:ee914b994579a32326a2a9f9779c4022f2034e01091396f89206d888c5327554
++  __DATA_CONST.__objc_protolist: 0xc0 sha256:fc90382e1727b08cf2d12e98dd8029b5ac9e802f807714979cd59e43dc93005b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x430 sha256:408988a862120baa02b65dc4c4db6b5e0b5064713fbac786851fbd735bfee0d6
+-  __DATA_CONST.__objc_protorefs: 0x60 sha256:32971ab49bf2170976153a5c89948ade1d47794a0487825ac32a0b23d5ca9359
++  __DATA_CONST.__objc_selrefs: 0x468 sha256:7edd251ef07442ff7e5ff6c3be8c85c2ea7fe6d1c951cb85a27a4fb90f18ef36
++  __DATA_CONST.__objc_protorefs: 0x60 sha256:c3bd22069c1bea2e7c5f12956f5e47f7fe6b8c5cfa4e0c8f6d78374a1e18705e
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x2e18 sha256:77a896dbddc05f048d8a7dd8ffa7fd683b57b0cbc1d1a6cd5aeb79118d11f33d
+-  __AUTH_CONST.__objc_const: 0xf10 sha256:84024c7ba06d1ab32cbf7bcac9da40c4cc629c69d0d0e87ecf3838b935959dac
+-  __AUTH_CONST.__auth_got: 0x1b58 sha256:1a928a483e78f37d8bd8909a89851c13902d4bf1fad56df8d67cbc8cd1321519
+-  __AUTH.__objc_data: 0x550 sha256:4d3656f9c5f2dadc0c28bb8a8d61880c88d0f845da29021b6c3f8d974c59b090
+-  __AUTH.__data: 0x3028 sha256:1a9dfbbde059208c32444fa0b05dff87bcd378ccb4206cc4e57c675416f692b9
+-  __DATA.__data: 0x2d18 sha256:7058381e2dfc9f6b552dd5228d4dac71a3957030a6e456dab21c96a6e3f8daf7
++  __AUTH_CONST.__const: 0x2e18 sha256:979119336810e659c44ee1badd3a4ee3d0093c282e4e473d2652c9c2b8dd0e92
++  __AUTH_CONST.__objc_const: 0xf80 sha256:fc3b0d29799d92cf3c0481b56883781205e23ccabf03d38a2c795dff05168617
++  __AUTH_CONST.__auth_got: 0x1b88 sha256:83d2abc3b9da29c9a4b302932fa56bdea6699b4289f0219f24467191d24320f0
++  __AUTH.__objc_data: 0x610 sha256:fffc1862c05c7a4aeb59a170a6e2805d7dad73a1063c9d0861c78031e5251fb8
++  __AUTH.__data: 0x3058 sha256:e216f5c83ab3e8479b4ad8e6ea5e7d1c6f0139bf04a9fdbde744484ab33206db
++  __DATA.__data: 0x2d48 sha256:80ac9a017ef29206f60480b944d67d1e8d30bfb6e12b140d0776ec69d1a590bb
+   __DATA.__bss: 0x4eb8 sha256:174f099e8ccce2eb5cb066dd2cfcbff0bb07364a81da9470a701eeb166ae9dd6
+   __DATA.__common: 0x160 sha256:cd606d8cc8bf98d97db8c2bcab6c741870dac1d6b0a67a6d6dd73d5a853712d2
+-  __DATA_DIRTY.__data: 0xa8 sha256:0eb1d89249c642055ce4a6729efe23614f6f301179467cb9ab27cbddd266364e
++  __DATA_DIRTY.__data: 0xa8 sha256:aaa9c5556f70db7ca5d3f06e5e545bb6042b9512f3a12bac315a9f7ce32e62b3
+   __DATA_DIRTY.__bss: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A263A332-0934-307A-841C-CB1CC9817BC3
+-  Functions: 3318
+-  Symbols:   2479
+-  CStrings:  303
++  UUID: F38FA185-C7C8-3017-A3F3-77D6880EB812
++  Functions: 3357
++  Symbols:   2522
++  CStrings:  309
+ 
+Symbols:
++ _OBJC_CLASS_$_NSNotificationCenter
++ _OBJC_CLASS_$_NSView
++ _OBJC_METACLASS_$_NSView
++ _OBJC_METACLASS_$__TtC14SiriMessagesUIP33_2BB6B5FCF9D189A7A3DCE81383E085E719NSLinkContainerView
++ _OUTLINED_FUNCTION_123
++ _PROTOCOLS__TtC14SiriMessagesUI16LinkViewDelegate.4
++ __DATA__TtC14SiriMessagesUIP33_2BB6B5FCF9D189A7A3DCE81383E085E719NSLinkContainerView
++ __INSTANCE_METHODS__TtC14SiriMessagesUIP33_2BB6B5FCF9D189A7A3DCE81383E085E719NSLinkContainerView
++ __IVARS__TtC14SiriMessagesUIP33_2BB6B5FCF9D189A7A3DCE81383E085E719NSLinkContainerView
++ __METACLASS_DATA__TtC14SiriMessagesUIP33_2BB6B5FCF9D189A7A3DCE81383E085E719NSLinkContainerView
++ __swift_exist.box.addr_destructor.119
++ _objc_msgSend$addSubview:
++ _objc_msgSend$bounds
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$postNotificationName:object:
++ _objc_msgSend$setFrame:
++ _symbolic _____ 14SiriMessagesUI19NSLinkContainerView33_2BB6B5FCF9D189A7A3DCE81383E085E7LLC
++ _symbolic _____ 9SnippetUI9SceneModeO
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 07SnippetB09SceneModeO
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO 07SnippetB09SceneModeO
++ block_copy_helper.11
++ block_descriptor.13
++ block_destroy_helper.12
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA012_ConditionalD0VyAA05TupleD0VyACyACy012SiriMessagesB015LinkViewWrapper33_2BB6B5FCF9D189A7A3DCE81383E085E7LLVAA12_FrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA0W9DirectionOGG_AA6SpacerVQPGAIyAX_AVQPGGGAA08_PaddingW0VGAUGAA0K0HPA3_AAA5_HPA0_AAA5_HPyHC_A2_AA0K8ModifierHPyHCHC_AuAA6_HPyHCHC.23
++ get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAC07SnippetB0E15ambientDrawable22renderWithDrawingGroupQrSb_tFQOyAA15ModifiedContentVyAKyAKyAA6HStackVyAA012_ConditionalP0VyAA05TupleP0VyAKyAOy012SiriMessagesB0018ShareThisPhotosRowC0VAR0xyC0VGAA30_EnvironmentKeyWritingModifierVyAA15LayoutDirectionOGG_AA6SpacerVQPGAQyA3__A1_QPGGGAA14_PaddingLayoutVGA0_GAA25_AppearanceActionModifierVG_Qo__SDySS0tU8UICommon10PhotoAssetCGQo_HO.12
+- _PROTOCOLS__TtC14SiriMessagesUI16LinkViewDelegate.2
+- __swift_exist.box.addr_destructor.118
+- block_copy_helper.8
+- block_descriptor.10
+- block_destroy_helper.9
+- get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA012_ConditionalD0VyAA05TupleD0VyACyACy012SiriMessagesB015LinkViewWrapper33_2BB6B5FCF9D189A7A3DCE81383E085E7LLVAA12_FrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA0W9DirectionOGG_AA6SpacerVQPGAIyAX_AVQPGGGAA08_PaddingW0VGAUGAA0K0HPA3_AAA5_HPA0_AAA5_HPyHC_A2_AA0K8ModifierHPyHCHC_AuAA6_HPyHCHC.20
+- get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAC07SnippetB0E15ambientDrawable22renderWithDrawingGroupQrSb_tFQOyAA15ModifiedContentVyAKyAKyAA6HStackVyAA012_ConditionalP0VyAA05TupleP0VyAKyAOy012SiriMessagesB0018ShareThisPhotosRowC0VAR0xyC0VGAA30_EnvironmentKeyWritingModifierVyAA15LayoutDirectionOGG_AA6SpacerVQPGAQyA3__A1_QPGGGAA14_PaddingLayoutVGA0_GAA25_AppearanceActionModifierVG_Qo__SDySS0tU8UICommon10PhotoAssetCGQo_HO.8
+CStrings:
++ "#PhotosRowView deferring preview for island transition"
++ "Fatal error"
++ "SiriMessagesUI.NSLinkContainerView"
++ "SiriMessagesUI/LinkAttachmentView.swift"
++ "init(coder:) has not been implemented"
++ "init(frame:)"
+
+```

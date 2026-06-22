@@ -1,0 +1,103 @@
+## libUAEHZoom.dylib
+
+> `/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Frameworks/UAEHCommon.framework/Versions/A/Libraries/libUAEHZoom.dylib`
+
+```diff
+
+-767.0.0.0.0
+-  __TEXT.__text: 0xe38 sha256:7de4a9368492d9b2e937c0e949be35bfb57b45e87777bff01f46bca9c86ec408
+-  __TEXT.__objc_methlist: 0x2cc sha256:26e882b1461f322bfc55a24c6df5aa4e3acd49f466e9af09a979097fa0d7b353
+-  __TEXT.__cstring: 0x33 sha256:09a42dcef0fc62a854d5c060efdad7c0c3fb2e3a331a2de069be9dca78b36936
++770.0.0.0.0
++  __TEXT.__text: 0xe2c sha256:44ad709fea20d9651ad8d23fd44f09c5b1def5a24f1878922d837c7f97fdff9b
++  __TEXT.__objc_methlist: 0x2cc sha256:0ab056a3df17bed88e66993784b767c75e200648272acf32b4a5e822e947c896
+   __TEXT.__oslogstring: 0x22 sha256:83ba9536d777a776f67191b63577b943f61848d50115b98b7e3329bfa9a35738
+-  __TEXT.__unwind_info: 0xc0 sha256:712480147c70a58a959a60227855fa554456dc01ff4f8b2b124712ea10fc1f75
+-  __TEXT.__objc_stubs: 0x520 sha256:71938bb7d6ead140bdb37e2bf8aeec674dcd9331b9e20e47c4a856c66aa04c18
+-  __TEXT.__auth_stubs: 0x160 sha256:003810ccaace37d9802b92efae6ca3b036a8947e68bd25c8f2024ed86af147f5
++  __TEXT.__cstring: 0x2 sha256:99be5efb88ca2013bd8e4eb035fd42d5245468fe9afa70d8ba9c1c419a48c4e8
++  __TEXT.__unwind_info: 0xc0 sha256:cb167de2655046268a49892559b8c457d0697cb3b5fc7d8e2e2bbc67f3b0aba3
++  __TEXT.__objc_stubs: 0x500 sha256:164fd46c530cb2292e8e112a2f31f56af3d37a7377af917a37e61db47ec36fae
++  __TEXT.__auth_stubs: 0x160 sha256:e5a7f3f594f3cc41e2549235d418f71a09e66c9c3ef7382bfd22b9014c5a83a1
+   __TEXT.__objc_classname: 0x2c sha256:e7c597900635b29e1a59d9addcad1f286fa262ddd9218bdfc903a6ff935b9ee1
+-  __TEXT.__objc_methname: 0x76a sha256:32a5951902ac2e6dc4203caf02aa166e676077c5458b74389bbade1d272485ee
++  __TEXT.__objc_methname: 0x735 sha256:fd8e1f2ef09b87d685c73192b7ace96b25b63e03325276d16be678deb149a909
+   __TEXT.__objc_methtype: 0x132 sha256:88c8ca166765b56581ce0b0c8d19af7e0439ee44dd36d461b9c361ae0c1b56e7
+   __DATA_CONST.__objc_classlist: 0x8 sha256:c369b252302387030203781fde8c378dbefd1666a9e351e2824b14c05b402501
+   __DATA_CONST.__objc_protolist: 0x10 sha256:c29812f316f9b9c43559060f5663e47582e3f2bd2aae2135287fb3d622bd2fac
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+-  __DATA_CONST.__objc_selrefs: 0x240 sha256:74493422caabbb6d6ff6371576ec738990a537eb04be626c17081c98ab2fb23b
++  __DATA_CONST.__objc_selrefs: 0x238 sha256:0f08ee0fbfa2421a97d86b0bef478d93d2289983a01030c10be21fba639de1de
+   __DATA_CONST.__objc_superrefs: 0x8 sha256:c369b252302387030203781fde8c378dbefd1666a9e351e2824b14c05b402501
+   __DATA_CONST.__got: 0x58 sha256:28647790bd89ea3aab64a9cf510e8aeb97678fb2357e0217f3cc272749708a55
+-  __AUTH_CONST.__cfstring: 0x20 sha256:de85890b73c210193ed5faccd1e85ba1df0fa38aab75c10dbbcbfac5b31404ce
+-  __AUTH_CONST.__objc_const: 0x2c0 sha256:fac3566dc2c59b555e5e3ec50885df9903d09ff088a2f2c9d799189b14c42461
+-  __AUTH_CONST.__auth_got: 0xb8 sha256:b85f040326657babc7bd7040abef4db47b54ba60849d30064d91bda4b5a0418a
+-  __AUTH.__objc_data: 0x50 sha256:59767fc005b8c08f5967b6dcce7257d5f1df83e64d0affed376c5573b1dac71d
++  __AUTH_CONST.__objc_const: 0x2c0 sha256:60d82ef69443c173f267eb09ad086fe1384e2249cc398e7e706be5d4cd09e5ba
++  __AUTH_CONST.__auth_got: 0xb8 sha256:7896c28a900566c6fb08c788f2025ea704e8df7f20240137872771793255516d
++  __AUTH.__objc_data: 0x50 sha256:c1c084a67a55fa332fde4a1e973bba87966e97b65ecaefd07cee4bbd63c011e0
+   __DATA.__objc_ivar: 0xc sha256:c84c1fbbf39c0a89150136565215405e3ec7d8da36c0e974943eb63fac6fc05b
+-  __DATA.__data: 0xc0 sha256:899573162552c244110a390662a887a6b0b88e82a078af2171cf16aa4adb20f0
++  __DATA.__data: 0xc0 sha256:d9d95856eb2c7f3bd2b09768782642617f645e896b851a62966595d84a5f76a0
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+
+   - /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/UniversalAccess
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BC20E14B-2DA3-3F11-8C2D-E61CAFCB771E
++  UUID: 2D387FBC-996A-3A69-86B3-9B58E9E57C12
+   Functions: 38
+-  Symbols:   141
+-  CStrings:  110
++  Symbols:   139
++  CStrings:  107
+ 
+Symbols:
++ ___kCFBooleanTrue
++ _objc_msgSend$enableResizeMode:
+- _OBJC_CLASS_$_NSDistributedNotificationCenter
+- ___CFConstantStringClassReference
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$postNotificationName:object:userInfo:deliverImmediately:
+Functions:
+~ _handleEvent : sha256 ed1c4e18b2743987862a9bbe8653fb0335662a092db41cbdc64b0d81a5880c5c -> eb293ccfae9e0f41a27ebbca76fd98cc783dfa61c80ad05ea638cd15b88c9c81
+~ _safeToQuit : sha256 742e6a6c3e6d2410b96aebffe69651d06cdcaa90ebaa5de064ddfc85c65bd724 -> ef389ce2330b8f4af65500661350de8e5685b93310bd02393605ffca6d3f51a5
+~ _handleMessage : 112 -> 100
+~ _initialize : sha256 1826d3a0194d08092b1ac86fddac7904e3bf904b0275ff23640dfbdd12dffd6b -> 0a779ff2f11408a704542a3c13ec3bd5e188233565aeee16497a8f374c0a09be
+~ _libraryWillUnload : sha256 14a09ea7f7887e1ce47c1b340e8bf0c6421d26ea0d9794a6e4980f3e06e3d9b6 -> 82ca8fcfcf158510e57b9edc4c973fc8b754ac69846ec54fba549cb0860c7756
+~ _updateSettings : sha256 5610658e2d884789e74363e5c9384bee1cfffdee08aaeb37afbd00ea4cff724f -> 627c06ac3a2ac0fd78880b57cca8fcb382230877700df770e982b77472a9dfa8
+~ _userSessionDidChange : sha256 735b382f2cb9af44efec3e3467ce65074020d38406054e79387d35f9415d30db -> d3d7cd4990dd530ebd69f549b32523c6bb7943d84cba39c9bf0547b82974e7c7
+~ _UADEventHandlerGetVtable : sha256 f2dbf40e07032998097e88890b09f6a6a7aef1fe9a8e39f09d90ed2ae123def8 -> 5ec86c4cbe08e358e169b87a9f2d1c3b2787d0c81c0fe07c57b41bfca92f5f03
+~ -[UAEHZoomDriver initWithEnableCaptureFunction:safeToQuitFunction:] : sha256 42b9c28a22aadf51872c46902cb1123deadbad4cc382929cb1853e8abb8e26d0 -> 8f4541d57a9c8daf08ad0e622de718802ea7c7206f67b4852cd63d278ceed9a0
+~ -[UAEHZoomDriver dealloc] : sha256 99603aebb80a66044685590600ef01801790f58b9283052dd0abdb05d870737c -> 53af14f48a921bc262c4d4f590fd66740eeb50e993715ace006c6272324f6a90
+~ -[UAEHZoomDriver description] : sha256 aa86f4fe97c575fdc7a119bcd5ad4602effc6c91607cbc18519cb706f80d1068 -> be3aa3305c4f11821499044d5da489428dd8bc2e697b807bc3ac2fc636f7f57b
+~ -[UAEHZoomDriver startZoomWindow] : sha256 3d57915dbd9754a81f622f58d9c712766e3544eecd0a6f11e70a23d7f860befe -> 4c1d61e3a01b53136b7262e4a3b956fd4e76ad7c4cb659a40d35c75b105ba1b5
+~ -[UAEHZoomDriver handleEvent:] : sha256 616d10f6b33f9304fb313a7b065dc5f2fd9ac3d8141ea9bfd4b2a9fb62b88b2d -> 3b96c5d81058fed2e53dd2b4709bf95018c9404408e1344e3e4b01c63d1ac015
+~ -[UAEHZoomDriver startDriver] : sha256 f908e630de2b5d1e834eb9fdb14d09588d7b8bc8bca06eed4c1e280abcba037a -> 87bc675646f91e5590c4901ca274fd88a45730e9b4f0966170321d149ad35dea
+~ -[UAEHZoomDriver isSafeToQuit] : sha256 a1252ae129e13235b83c894df14dc1b539717c9a376d2aeedf623bff886171e2 -> b99e6dafbf4b92be7e714b15445ddf94632c3113186b50b339054427053229e6
+~ -[UAEHZoomDriver userSessionDidChange] : sha256 a44dd84629aa89b65d607de00a1807fd779e3a6cba166014f621f13d72d964e0 -> c631ba3083b1e692eabaaddc8eacd05f97597964365b13a93347f069437d9cab
+~ -[UAEHZoomDriver _zoomIsNeededForAssistiveControl] : sha256 fef602123b1f25b4a7ed52e3a00da1fea61e1e6edc75832a2221c50b04bc790f -> dd0f4945cf566b24c45f6fd09834e22a8e0ee7254d2dbaa5075fb34f9fe6904f
+~ -[UAEHZoomDriver _zoomIsNeededBasedOnPreferences] : sha256 3398249e73786ac548ec73a26bce553749b05d144277cf366821e909a378a243 -> 5446db47d7e04710e57dfbd3e5e14905135b5a7a5451ed1d452502b87ed63549
+~ -[UAEHZoomDriver applySettingsFromPreferences] : sha256 c56215ca02530f5092cbfd8b222d1274447deb9821c1a9c33cd987e5a63258c5 -> 2639af6ecde8f611e80039d7310a0f751e9e2607c8edc982adaaaef5424e4710
+~ -[UAEHZoomDriver _settingsChangedNotificationsToObserve] : sha256 c1e1e94f1ab36d6a17c5ce898f489cf420a215f575884f165484f613361b2a58 -> 56d1cc9c4ae4553a7c11e224e6a2b10cfec4d03dc19f20950e158177f17a6c53
+~ -[UAEHZoomDriver fullscreenZoomManagerInformSafeToQuit] : sha256 3f944066acce1e17f22782ecde19586189345189170afa0d6dcfac25715dc08d -> ecfd0a34ca4a19862f94e73e35822890e6763cb9e8df9f9a777ee9222399a7fc
+~ -[UAEHZoomDriver fullscreenZoomManagerPauseListeningForSettingsNotifications] : sha256 a5edd236798746342e27a3913b1ba0ce1777bf578c21a9ad6642b31e259ebd0f -> 168071cf0608aad26a232e1dd63a106d4915c7aeeae71d53daca08c70e12f513
+~ -[UAEHZoomDriver fullscreenZoomManagerResumeListeningForSettingsNotifications] : sha256 e4fedaddb3e580f790a6e3b03e2449c4def33bd9bc05f34f350d2fc0f450c5cd -> aabbd7640baf610b1f7cec4e5f49dcaf0b32cc61b8df4def3d5c0b0a3f1d0319
+~ -[UAEHZoomDriver fullscreenZoomManagerStopListeningForSettingsNotifications] : sha256 5eed86a0da994e5921c2806f68840ed6f1ccea8c7ceb533742f0bea196e08af0 -> f11028ae27acabad6c910581f78943fab966c0fedcd311361654dee43b4dbd88
+~ -[UAEHZoomDriver fullscreenZoomManagerStartListeningForSettingsNotifications] : sha256 c8947f03ffed9720f217c719be6a215bc44ce82517b6ef64b070f59017e31ba3 -> 3b8f7052f619396d4fffbda3ce713e58183d1eb41f153922852c0e55bf76319a
+~ -[UAEHZoomDriver _isZoomWindowRunning] : sha256 c03af3e810a1756353ce9907821f7d27b08f8124b0eea3b54634d2c28c26fcf7 -> 07c3c55908d43f894be37ff80668fb2db9c553f1d540499b1af98306ddf080d2
+~ -[UAEHZoomDriver _startZoomWindowIfNeeded] : sha256 b217773a420b3d2e83e2b4881de6128bc67be2fee96779d7ce8d67e7ce9f6796 -> c57a8086b3c32b92703bf2fada8eff2bafd148b29373ee9d994abe1ee30d9b38
+~ -[UAEHZoomDriver _stopZoomWindow] : sha256 b48dbc1a6c497d69873afdc5da2ecba81fdb38e3b34a8cd47f767e51a702b67f -> 206fc5a5eeb657dc035cc3e3fcf6f4aad2c70ba26213254f7619d0878a7e1e43
+~ -[UAEHZoomDriver set_fullscreenZoomManager:] : sha256 f939a1795d4b9a69a87521e9c6007a02066d85c222fd90de6ba8df8ae553ae23 -> 1553f07fc1eecb78e3fe21dc9bb08246a2a814de5c8218b36efc125f00416aec
+~ -[UAEHZoomDriver set_zoomWindowWorkspace:] : sha256 67b10e053b81365cd0debc86c13821c555c1742ca543f6c09656b1b71ba594c3 -> 885a7749b85f1a7bc08db9b2467b84a487c807f32ea9846f734a00198e413bc2
+~ -[UAEHZoomDriver .cxx_destruct] : sha256 12a1fec6d3149b5eebbabb68bd68cf010d79d1c12c54ade548b3d015653dfd7e -> f3f6abacc13244e7f6e90f6861b8c5c34f9ab1de9734fd08f4ed52442f2bdfea
+CStrings:
++ "enableResizeMode:"
+- "com.apple.universalaccess.zoomwindow.enterResize"
+- "defaultCenter"
+- "postNotificationName:object:userInfo:deliverImmediately:"
+
+```

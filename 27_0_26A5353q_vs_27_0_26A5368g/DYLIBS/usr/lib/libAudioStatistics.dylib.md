@@ -1,0 +1,96 @@
+## libAudioStatistics.dylib
+
+> `/usr/lib/libAudioStatistics.dylib`
+
+```diff
+
+-291.1.0.0.0
+-  __TEXT.__text: 0xb1c sha256:f1515e1f2e233a867e8034cf01e1cafbde7a28f94213a10b55b2104da26f0849
+-  __TEXT.__objc_methlist: 0x1a4 sha256:2b796314ee3d2d5cafd6e6c8ec2f8ea574a29449a9fc8174a1f794b927f8d9c7
++294.0.0.0.0
++  __TEXT.__text: 0xb1c sha256:32704b383a6494fc944fc1ca60309280c2e993a9b28dae65ed7a6fa02f2effed
++  __TEXT.__objc_methlist: 0x1a4 sha256:7804829475464937b8bdc362d925af3b47d589e57a2e1353b74de23d8217ac7c
+   __TEXT.__const: 0x42 sha256:ff7beb5e36b5bd45b96b11937e46993a04af47e4d8c2cbdcac8da6d8f98c603e
+   __TEXT.__gcc_except_tab: 0x150 sha256:c7c8c470d31380a65d7e3428fbcb281474ef1b7b4a7b5f58d60898c523c32e4f
+   __TEXT.__cstring: 0x249 sha256:153d4e0c8a89a3ebffbbd9ba98537e962b3d89a3e60ff8c4ba8c518b1f2f370f
+   __TEXT.__swift5_typeref: 0x25 sha256:63492011e03a4cd1ad28eb4c04c49691b1b3fede79cd1286804aa1327dc25008
+   __TEXT.__swift5_fieldmd: 0x10 sha256:2f65f6f174ba52fa728ba0dd759e7d8ab6bc4aec61235139ae71d99347128582
+-  __TEXT.__unwind_info: 0x140 sha256:78e234f481b848db9ecc9b54ad73f542985e399c023ab2db30e72e670995968f
++  __TEXT.__unwind_info: 0x140 sha256:8ac2ce2b7452b1144ac5760f011ba481cd2cd51b6ea8f1791b4e67761bdc64b2
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x148 sha256:ac16fe8d8d02a05e5cbb02841b6fc9f964672a5908bed0f0955fe5f054f1836f
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:df309cb76c25e8bd743ae0c67f927fbd610f064b4cb625677b31605d12baacec
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:69abd0cad136143fb9f67edaea557b6395da6468060396ee2a77050849d3ace5
++  __DATA_CONST.__const: 0x148 sha256:ac6ad0352da5ceb048196d8143dd5b02e3069fbd43e6caf8f90c15a88b35ecbe
++  __DATA_CONST.__objc_classlist: 0x10 sha256:1d79aa6dcd01b1fd64e1e38fd9024af878335a0ce99134435264c814353994c8
++  __DATA_CONST.__objc_protolist: 0x8 sha256:3e29b096e00819b578ef2ccab82a5a08c287cfb6902edb2ed2265bd391f07c41
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x128 sha256:e31b00eb12f688d2204165c858727879e1a31ae0d92b1aaa14cd9d4c65cbfb5d
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:41246bae6e50843cae67dd3cfbef850f90e7986d3bff46a96034a2b407be970b
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:63d41f2538ac8afd8f26772cf6465557e54f1ef5913aedde4e99917a5d103f73
++  __DATA_CONST.__objc_selrefs: 0x128 sha256:8e3e7449468f83cca181e5efb6fdb64b7fd04843ada8f3eedf442b42ee7607ed
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:16bad6f15d4e725411c6a32f87de7e1a8d0480a3cea8421a7f2a4c321654aa1d
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:5427bf8449d64dc3e9cf850342d36170b573ef55239da97a7544e2eb2997d355
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x460 sha256:ef623ef8af114eeb4755728b91bd5ddb1f7563b6410f69f770eed1f3e092ee04
+-  __AUTH_CONST.__objc_const: 0x2a8 sha256:b106e42a76caf324f33b68d29852c6918a072b3067046b1ce9fb34769b94711a
+-  __AUTH_CONST.__objc_intobj: 0x1e0 sha256:268ba3c549f86c7a6ff97a7b1425bf14a64b6583cdb55325db8ee6a34e542c09
++  __AUTH_CONST.__cfstring: 0x460 sha256:e53d651f65fa6ed97160e51c11081098f3c086d8a4ec3ef96762fd57e2a83232
++  __AUTH_CONST.__objc_const: 0x2a8 sha256:7242209ad9530080d7bf5ca84164e21ec64790ea1059db8abe564ca36ac24d59
++  __AUTH_CONST.__objc_intobj: 0x1e0 sha256:9960cf3098a7233a4bffc13cb2ee5f4b79d791c0bf3c8ee5671b77539ad33972
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__objc_ivar: 0x10 sha256:05176b5c6c1109e7668bedf89b1ffaee0b9bc77ecd0daf6a6f9fbe67a3aad043
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:6dc1f7ca1f88aec31d8b9c4c66c38beb4d095ad4b2aa4c0df5fb7a01aef6b768
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:eccf0898c543a2f46038ebf75a20674d631e6fe1b955852cfebe9a692ccb64ca
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/AudioAnalytics.framework/Versions/A/AudioAnalytics
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 4EC4B7D6-CB2F-3A67-A68F-1F7E4E334F97
++  UUID: A6E1BA14-70C2-3191-9DE7-87769DDE38AC
+   Functions: 36
+   Symbols:   156
+   CStrings:  72
+Functions:
+~ -[CAReporter initWithNewReporterID] : sha256 e5b0f05c256589577c404397cbb3229ea1b4df4b1e9c38cb0885981c07237934 -> 331a4f0f193492f073351f752b119566a886d02c89653cb023a0e79326e9a61e
+~ -[CAReporter reporterID] : sha256 c302e98762b848125ece1051d5fc4ed326ad35568521b7b2dce2b65ea3646184 -> 88db2375d1ba379671550e895465d05f386d0077876203cdaf9029c1bb54d3ed
+~ -[CAReporter setServiceType:] : sha256 f0b6cb610d26a2451b1b007d0e62d6fef3de1fbffc78255ab3f369e28ffc6d22 -> bcc059c9e0905e35111514ef8a95e9218659aac0b59f84ed30f9eceef42bd2ed
+~ -[CAReporter cacheServiceType:] : sha256 d87dcf7ee32c922a5c9c668af54dc76434bd6af139f2c0726c76ea5d0cf86314 -> 897e1720b47109ac005254265c602cea44bc8797d0140fc10f2d836bdf468ad9
+~ -[CAReporter setConfiguration:] : sha256 33f0b416bc7633bf24b08ec4262a67f55efc1a7a27331c9df7df7d5b5be5244f -> aabc18e41c05044be649b7b49ecae0174ab78995585c4e21f283ac3e7b081e56
+~ -[CAReporter sendMessage:category:type:] : sha256 0fc01d8f729ec83f2eff1b978286e96086be2c29ee06c6f447a04122c0bb1d14 -> 3483bd113fd561fbe775e61c5223272a12e0e90abd00f5b3015a25210cb8ee23
+~ +[CAReporter sendSingleMessage:category:type:] : sha256 2c54bb0db958b847361e6543a6a9e87b7d28a0f26631e14c5647d2e5854a5f56 -> 0fc0a7bfbcefa7fc9065b2954dec0f4f0c938a4bfe0b3ed29e32b5f7154b3f3f
+~ -[CAReporter initWithReporterID:serviceType:] : sha256 00c62ec67e8ad7566dca08687f6e37cb3fa90ec68cc0033b8d964b6cd4e602bc -> 815c51b9b617a0660f084dab2beeab086245a55a4a9848a741902771d44f50d6
+~ -[CAReporter initWithSessionID:serviceType:] : sha256 fd4f8d184350d539e11df42c05c267d7813fefab856e09ceb15df4c1828888ce -> ab53a479f91cc2dbde68f3d3def2ba25cf99fbeff5b6c6fd99f7853abdc2bcb7
+~ -[CAReporter updateWithReporterID:] : sha256 002770d3574d1e1b51cb45d16db63a12d3db67ecb6a5bd44e45ced31b871e9cd -> 7e7c1d8be90c14cfe2a97548b07135f1a54f9274230ba0835bfd57a37587572c
+~ -[CAReporter serviceType] : sha256 6a544a556b527fb7d67d66013485586add6cdf87d88eccda7b186d497e057c21 -> 0965e415820ddf51365803b5e2dc85298820567259c5fd1df80e8e119acc043e
+~ -[CAReporter configuration] : sha256 a8f50cd3bb96c3df9225b72686469a6328a725059ac17d347a38b63e2b9540be -> 0a06be04d7b08170475d7ebf171e9f24f80d1d0087095cb27957e30c28580900
+~ -[CAReporter start] : sha256 bc9dbf9cd164f9a56cc3ad0a15272edfc79acc90ecbef701f2a4e928582c162b -> bbae3254e63e569a232148f01830cd2786c4fb59fa8f8bbdd180bcba8e93245d
+~ -[CAReporter stop] : sha256 75673d1cf9f9879aa8f676221f301ec50f34d8843aebe1a06d80f86649958d91 -> a4a8f0e066b496e82b291e510997701e7f3b1ba0c8234c09ea1f6fdf3dc3d61b
+~ -[CAReporter dealloc] : sha256 f58d8f8bc9e759f65a6bb0f10bc126537f4ca7bbfff713d709757387f7e64ef1 -> 0cacbfc2b1c6930b87f609504daf9d9d92821cd0cf8b849e377898189be51d67
+~ -[CAReporter requestMessageForCategory:type:callback:] : sha256 f6224ac28e47903145a31f600b2ef0032cc4bb30d04f888395eeb1d0fdd3ec79 -> 72053ff3d3b6167da75f1b2898e87be884d883fe3bb9d949e2442e7b752ae2cd
+~ -[CAReporter setSwiftReporter:] : sha256 1cb597dfd479e159dbaf8c385d23bb8fc3b39658da77562a3de2634d5c025eeb -> df55a6ab4d56e6fabc9548758a6215fbefb3963568d1ac6f7f987801bdae515d
+~ -[CAReporter .cxx_destruct] : sha256 a34974b4785c31e25b6bff615f4a7a7c4a5c0435dcf3355838f300d68bb26573 -> 4f2346ccbb9465f8969afe10f35e5add9d7d36f715c076dc55384c9ba3d71add
+~ -[CATestReporter initWithNewReporterID] : sha256 77bf631d7d165fa317d2e24ab15a27432c40f14b1c8e42b9bff7aeeb1132407d -> c8b2ac912e0669a33d6bf1f1eea11c98c5917b67bc7fd1bc2f779a844463652b
+~ _CAReportingClientCreateReporterID : sha256 c35ffd02aa71c28aa03eef05d34da94447390fb49225e858871adb097ac8d0c5 -> d4165a63eec9bbc1c6d771a043d8f2153512338d236887a35e19e6bca2959a9a
+~ _CAReportingClientCreateReporterIDFromSessionID : sha256 4e62c8f454075c42323aacd896ea0d9ce7292467a867b0a364e0cef7e2edd977 -> 2b1538f3374c32f87aea172ab4ed45fe42633120350c65999335ef16b8d8b518
+~ _CAReportingClientStartReporter : sha256 3cde841bf74a91cb626fbf90ff1cbd06eb3da959c8f10b0f16fcbbba6d0b3e9f -> 28c37ecfcbc12fb07acf612bc0558806bced92b9420b5a3e276d916702d255c6
+~ _CAReportingClientStopReporter : sha256 bbcaf9ae53b5f86ac14038ce92ea9fa068e71a2a41d020259142c9dfa8e2322f -> a0ab65b8c7f052e5cb493dc18a259572b29ddff9e519c8c71b4682183cdfc2ff
+~ _CAReportingClientSetAudioServiceType : sha256 5dd32e91db7b58e991df2cc30932255e1ddabc8b4618726a2cffa3fab36b2d17 -> c155c8d37f30072ac659993623691710a65fcb3ddfa8673b31b439b25d59d0a2
+~ _CAReportingClientGetAudioServiceType : sha256 4dee7c166977de402a22a13e48bedf24c27ff2384eaf6c001cd83a768ef56df4 -> 01dfe0c3e54f30e50cbe38c56eafb33e7734695bcc61156202c8e9e44981cd2b
+~ _CAReportingClientCopyConfiguration : sha256 b2be921cf3eec84ad0672330b0195e230d9dd8d0a9558b301ae8c904dc186b16 -> 82bd67b7b9fa41491acb79205eca04fb2b8cc510dd07ac6533871a19e0a270df
+~ _CAReportingClientSetConfiguration : sha256 358ece94db81f994266b67ec84dee65e351decccb383093b132276d217da054a -> 2c84485e7d52e7e67ca080a5903f59ff15dc9e416e25170a3749f8259ee9c700
+~ _CAReportingClientSendMessage : sha256 ef33bcd8a1dbc98edc5423df74e0a60198779628f99a16677a75e3812524b751 -> 4bc2d66807d14a5a32c521c25aa2a1394d3e12b698bdba5983c6caea1cce9124
+~ _CAReportingClientSendSingleMessage : sha256 7c291133a2de246af24bc4910ac989db8399cab32150fdcd5c2ccce55f16b3d4 -> 1e17f68e2fb61d1febc33c2219b2ef8b24be684ac0cd90339bfc220eeeaf092e
+~ _CAReportingClientDestroyReporterID : sha256 53c70be6135566b92b71955e2a1cb4380e9d6e3eac2869ae1aa5cb7f35c056d7 -> cb8d8412b3f2785dc2ec4d810cb77a9dd6c4ef206bff3d5bf39a7be02827c34d
+~ _CAReportingClientRequestMessage : sha256 f7a326fa2133d76b02eb41de33fe86ba011769a2d2d63d9858b49157e3fb542d -> a991b3a90ebe3626c655d8eb0bfd075a780dc5832e3e2d7edca869fd33ffc294
+~ _CAReportingUtilityGenerateServiceTypeFromServiceName : sha256 872c34a5a7d072f3e8b240c6ee7a4400d013a70f8f6d546e2d13e47f2ba9a55b -> 6a84867ec496eb2b015ae4416ad44f5e021d0eabd17fb592f18dd882eda91b82
+~ _CAReportingUtilityGenerateServiceNameFromServiceType : sha256 1bb66c3ab31ec7fd63dbd8ea2beb629c51b0c4fcb6818c33d2431967544e1bd4 -> 1426d4ebf14163369d153ecead48dc454322c516f3f896f52a97840b60a45320
+
+```

@@ -1,0 +1,59 @@
+## mDNSResponderHelper
+
+> `/usr/sbin/mDNSResponderHelper`
+
+```diff
+
+-3066.0.0.501.1
+-  __TEXT.__text: 0x5544 sha256:f085fb0e00a36d121a156b2a98920f61bd0a0dbc0d4afb6078e5e6ec3aef0bcb
++3083.0.0.0.1
++  __TEXT.__text: 0x5550 sha256:534e22358786a7e056912d662db768daf2fa86bbaebeadd2f20c3f64862c8994
+   __TEXT.__auth_stubs: 0x800 sha256:ab8cab502a04dbd143ada9593d0e640596f00a0d857ce2a13262737b9cda51f8
+   __TEXT.__objc_stubs: 0x320 sha256:cb28e49c0cdf12ea582b0e9ba0e28df9d15baa8039b8aaadc41e4a8d813b1c17
+   __TEXT.__const: 0x1c4 sha256:d96e0afa7c5566d5510cde54dfea68c2138f079ac879ff820459c3598d976385
+   __TEXT.__cstring: 0x73b sha256:b41f6dcb111f209d86d91aedc8f0a08f52bff79e7a1124095f4cf45e05e23134
+   __TEXT.__oslogstring: 0x1774 sha256:61651a5a5d71c8b60fcba623175dcb8f2d917fdd77dab700a13a8523ad4160a8
+   __TEXT.__objc_methname: 0x18d sha256:18160ddc527f851c72098a38de95147ae65518d4850a316da091e5dfd277d1d6
+-  __TEXT.__unwind_info: 0xc8 sha256:486a9528cde2eee2ec1137555de29549492f1b359b0e647f8a12cb1deca01b1a
+-  __DATA_CONST.__const: 0x140 sha256:f8acf41c6ec3bb49292bb31dba857a099bcded2a25bb735241ea37a0057b5ef4
++  __TEXT.__unwind_info: 0xc8 sha256:411f111eae22a04187f61102d2395e0eb81b4ff193badda1094acac807332170
++  __DATA_CONST.__const: 0x140 sha256:0b0e9150a0151813d82e02622af1da8d256a15c15f396a29347a44f73f1f8787
+   __DATA_CONST.__cfstring: 0x240 sha256:af8308195793b3db8b43e368b0606e630c2d09b4527ac08210c7da90c5486d6e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__auth_got: 0x408 sha256:555ed6de1573672b7cd756491dea52750b31808a1fd43b0437f0361b8e67522d
+   __DATA_CONST.__got: 0x108 sha256:bdb7668e62a8a162630f50ad0cff894982228a3c6731709ad8567047f37d09e9
+   __DATA_CONST.__auth_ptr: 0x8 sha256:f94a70f028b7fd1430c9c95f2c161cd2742d12c7bb9a307c38dd1b10564fccc5
+-  __DATA.__objc_selrefs: 0xc8 sha256:a4afa197a1b0c188d5427a198658bf39d2f6f9ba9fc41b29f60c81764b463d1e
++  __DATA.__objc_selrefs: 0xc8 sha256:01935e19ab8021a85669c707c5a46a86014255c163f893770d9e1ec1c31b6609
+   __DATA.__data: 0x40 sha256:d88b487d25e561668629ec8713cffa01eeeb0900f2d43cb285245d870f2a459f
+   __DATA.__bss: 0x1c0 sha256:5c55c8f4db4010ba9203d83536d0609856af8c847ac039e37e7dde8fbd574b61
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A4D00FDD-6400-3FE0-895F-20C023701F1B
++  UUID: 73530E0A-1C7F-3BFF-8779-962848FA4E57
+   Functions: 27
+   Symbols:   279
+   CStrings:  235
+Functions:
+~ _mdns_bpf_open : sha256 a66c2984686cb5282fc849459c2bfb77f6fcad62beb4a282f9f16f4d0da78182 -> ead655352e9988fec486333868636fad9489a771ad95c882768b86ef3f41cec3
+~ ____mdns_bpf_log_block_invoke : sha256 80e61df9311a314cf6df7ff5eb13095c2750281b44ffffdad51c574f48d47631 -> 174ff4e1e900fcf87586e5e483c58a03430eb6084cbc06875c2a7e5fbde02186
+~ _helper_exit : sha256 7fe7d6d6b02fa12a0f3bf39ab771e83013c88f6db03aa9b87c05ec75389ee611 -> 1d47c1c36dfa067f1aca5607f87d6a84db8eb24dae71e53f2ce33b32d07eed34
+~ _PowerSleepSystem : sha256 52c1b49fd410e37a146e71916917a3f882ac368bae7c0ad770e10e3072740e86 -> 7e468f711cc18c7211640930b4a821a5a84594ee890773db1dfeab40b06f26e2
+~ _SetLocalAddressCacheEntry : sha256 97d2df2c58b40f9715ea487392a324bc215d7a82a9ef894a37b6ca30b2c3fc1a -> 5e47a0a21a45ecce91d8e5d06b81aed24194e0e090126b62847733d2f27e7a3f
+~ _PreferencesSetName : sha256 e4a41c5f35ecbaf5b363343c6ef45611c0972c04094925258d6be6016f31af86 -> 68a53584850cc9fbd309a7aedae7ee2cabbd7b9eeafa3cc8553d0290384e664c
+~ _update_notification : sha256 3934d5a1fadaf526ee4c1c10da1d077ccdf3fe1138199ae3dffa3e77584d432a -> 3f060f86c0c69bbf50a28e3f4738506f7baca3d0143eccbca24e821a3a6782e3
+~ _KeychainGetSecrets : 2692 -> 2704
+~ _SendWakeupPacket : sha256 0b0d12f4b79fca303693e70213abd05dc77ba4991c7c2bce71ddd34480f5c2f5 -> 4f4f0c70f454445be6c0b57a3041f901efe1b986d1a7155f7018ff13748486dc
+~ ___update_notification_block_invoke : sha256 c12291c760082033e0a1e7b44f019914d04966a9fd62df6400ee6d4a0f5e956f -> 32254fc2498fab33c82effa24cc5e94915dc72c3d7c5d9d06539dffc5c23cdbf
+~ _unpause_idle_timer : sha256 a47eee7963416c42168cdc84579986fe2376f38e702bfa796237ed89000836fd -> 817c926b037e4868440a56e2f2c756c8715e59d744d58540c3db9de34acce358
+~ _main : sha256 73c7cb13d5fda2224c67c7d25cf66c2d901ed45b14f36ae2032f83fdee1d7cce -> 22b1453ee0b568ac8c73c6cc47d5a71e1dcdf782a3142834797a0fc276f905e8
+~ _handle_sigterm : sha256 1147417edd46f7026b4e2585d51464956aa4ecae0ff821fba198e288da94ea11 -> 83a4d689b02b047f179bfff2554feab1dc455666bcf7bf82eaffb343b70ba262
+~ _diediedie : sha256 8b314bafab9ad8af425df0d605ae9b5f8d8800c77f3b90ac4703a2778e1260ea -> e3a033fc11df344b7e8e505ccdde3a9d7bd50514f9d07a669da36d34d6a9f002
+~ ___init_helper_service_block_invoke : sha256 7f97a54195dce8554ae719a9a412950e71b11bda7de6c115dcc393da5a384d01 -> 5550c266335298cf2d8d098985dbff07fdcff79a22a1f65b870c79da779aa934
+~ ___accept_client_block_invoke : sha256 50f858fe21dfa48266812bcc15a50b33646d9f40c177bef5dec35ec9ae3261f4 -> e24240b69c7df5bd30264bfb9a15dd47985db22aa48a306c65e663f7be7ffc5c
+~ _util_copy_trust_info : sha256 aa156c9836341f68299aba32e4a00232b626d8fef98bbe2dbeb6ada6b61d9480 -> 761a9b307bf696cda6118b4541e9c2598980f9334e90975e00933437aa5aa21e
+
+```

@@ -1,0 +1,55 @@
+## com.apple.audio.DriverHelper
+
+> `/System/Library/Frameworks/CoreAudio.framework/Versions/Current/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper`
+
+```diff
+
+-466.1.0.0.0
+-  __TEXT.__text: 0x18d4 sha256:88ac804226707c0d0530f9eda4d5001cc0c56c9009d4cb0a9a7399cb3fbad244
++474.0.0.0.0
++  __TEXT.__text: 0x18dc sha256:f22ee2ae58d388ec63427f77d2303aee8e6fe0ff9b26729da2bb0a64f27960cb
+   __TEXT.__auth_stubs: 0x400 sha256:4dc6962f9772ed0b19b3a3133b08926e18d03becf2e3eb82b52487875fa2c7fb
+   __TEXT.__const: 0x20 sha256:ab4ef8a8b2c83dc602857e9a3dd7320d29813393006e089a834b6a3cd9278234
+-  __TEXT.__gcc_except_tab: 0x390 sha256:333e1b6c15289809e436781ffc394715e0d190a44b888d3cd377a8620cc244fd
++  __TEXT.__gcc_except_tab: 0x390 sha256:e921cb2242e84235d65b63cdeb6ee106a391db98b46743b05b3bfb5dea143e51
+   __TEXT.__oslogstring: 0x19d sha256:3643bac4bb81eaca5bc46aaf110525b19ae459a2af7e7646408c78160dfd0dd5
+   __TEXT.__cstring: 0x1ba sha256:c41aa7e247ae4a47a2683a87aa61b483910985161d289d8e4983672776c7719b
+-  __TEXT.__unwind_info: 0x190 sha256:8d8ca4f705ad03d9cb28883289112555eb9c48cf500f85f5e84d9bf9485b007d
+-  __DATA_CONST.__const: 0x20 sha256:f51fd2c6d1b29120fa6c1ae2c72669362e7fdc206f714eea73936d186aaf4ab4
+-  __DATA_CONST.__cfstring: 0x40 sha256:8ba2aee26d45c63894777703a5c1081fef9ce35211af130df3dd43058bdabfef
++  __TEXT.__unwind_info: 0x190 sha256:cf1a245764eb1c0e33e871387429dba03f26e495b813b78e1801c66f250a8703
++  __DATA_CONST.__const: 0x20 sha256:36368a5b10e1140a803316162259fce24cfd708db9a1a33fc9468262483bafb3
++  __DATA_CONST.__cfstring: 0x40 sha256:3a282690a3b5f4e1b8551ec7597edb26fb6c95d7ac4bf69c4547d0f23e93e6c2
+   __DATA_CONST.__auth_got: 0x208 sha256:13da94a520d65c94d65fe20916ff22ee01b7d0036a828b56620e5e4a4bb436a9
+   __DATA_CONST.__got: 0x68 sha256:f8a72a96971224a7fb205f3d25987905eec27fecf6eae8aa36c3c44f290a8bd7
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 7DB3D619-66B3-3D78-BA70-224FACD375E7
++  UUID: 8392439E-9509-35A5-B45E-327F814A8F1B
+   Functions: 29
+   Symbols:   131
+   CStrings:  26
+Symbols:
++ __ZNSt12length_errorC1B9nqe220106EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqe220106Em
++ __ZNSt3__120__throw_length_errorB9nqe220106EPKc
+- __ZNSt12length_errorC1B9nqe220100EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqe220100Em
+- __ZNSt3__120__throw_length_errorB9nqe220100EPKc
+Functions:
+~ _main : sha256 dd3287fb7ce582263760968480b74da272b47a28ce823ce88854e2776411450f -> 54cc035f9c82d993b83809edbb63e5a60364005cd02a751cc53bd6fd0945da85
+~ __ZL18connection_createdP17_xpc_connection_s : sha256 09f00a359fe9a085e06fa29f4d358baab717d629c19eb163ab43004f7f9eb94c -> 6ed46aee8beacce68df4d1aa632b2016650812f07d477268d8767db9fd424d3b
+~ ____ZL18connection_createdP17_xpc_connection_s_block_invoke : sha256 0395eeeb9be009944a320f1d4372f2e8ed2487e6872db51842c68e83f42f9829 -> 304d0e0d73d8df61021eeb4d63b5070e6ecf0434ac714ce21cca2f6c913a664c
+~ __ZL27handle_get_driver_name_listP17_xpc_connection_sPvS1_PKc : 996 -> 1004
+~ __ZL27handle_apply_resource_usageP17_xpc_connection_sPvS1_PKc : sha256 40e15909b910528750841565329a1ebd9c74daf8c59c4deb1aac7f771c0509c1 -> 891d19294437e96309c3a57f9967470b50afc459be27ea3e48bde3c48e5c7d58
+~ __ZN5caulk11make_stringEPKcz : sha256 34e902f5e46ae3455c9c44850e975751205b6c91a4a918b80193b98f509c7838 -> b54d84bfee455e1a4e1337ec9c50a1fa691550f2186e0f290e7514e152801b5e
+~ __ZNSt12length_errorC1B9nqe220100EPKc -> __ZNSt12length_errorC1B9nqe220106EPKc : sha256 f65978b3a2f638b02863825b9b70f60f828f05c660c4201996b74728102c1460 -> 0fabbac0f008e455a7d3aed5db31e9d749bb92c1a51834c619e936764f809d8f
+~ __ZN10applesauce2CF7details5at_toINS0_9StringRefEEET_PK9__CFArraymNS1_17applesauce_cf_tagE : sha256 28dc49b8455b390ff9de7bb375ba91f964e7dc31a05bf5ea71c0821754d063eb -> 80acb24e45c414b224421833a1ac105f91ea0b6c2684e5151b5219a8933d134b
+~ __ZN10applesauce2CF9not_foundEv : sha256 4d7123b192e450e77a872866c0b0563193a29856976bda66a967faaa755fb220 -> ee7af2b0d6132026a4635bcb23918e2e9583dd2cd5aa59bc6601b858442bab91
+~ __ZN10applesauce2CF13convert_errorEv : sha256 1eae68d229157588a51298c4cca153961bb0d24ae2ff47a5f459a0b5a466bf35 -> c12156c408cd34b6a9237dfe3778b963efd2cc665ddb5a5fc5195b0698851207
+
+```

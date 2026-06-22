@@ -1,0 +1,160 @@
+## WebContentRestrictions
+
+> `/System/Library/PrivateFrameworks/WebContentRestrictions.framework/Versions/A/WebContentRestrictions`
+
+```diff
+
+-63.0.0.0.0
+-  __TEXT.__text: 0x108f4 sha256:f0ec84f960e4f04803ab245d75beffe1f47f9a7a7ec75ca3acd056ddf5c6c61b
+-  __TEXT.__objc_methlist: 0xbe8 sha256:1480e1d588cc148ffe1b990ef84e2a1174c081f87c373d853296cf8b3ac12277
+-  __TEXT.__const: 0x650 sha256:e76d0792096f9b974db0d1493efd5cf0aed04aab7cbcb41a1fb5498c2d66700b
+-  __TEXT.__cstring: 0x1561 sha256:01ee46d46024f036dd6c822973344f3fb193443c351c017a092e245cc8375083
+-  __TEXT.__gcc_except_tab: 0x1cc sha256:ba8b5e0eaa5042397f2a43a94ce6dee0b8da6892d8aa36bb9dc86e7a16e3e155
+-  __TEXT.__oslogstring: 0x4f6 sha256:ac2192190b0957af780654cadbc59075d8c3655d68be30f2071254b6cb34dee3
++64.0.0.0.0
++  __TEXT.__text: 0x10b2c sha256:f20bb1c780d356f4e1886a9a660629ce41b2fe36ff1e1ce1454f81e9dd4e0e08
++  __TEXT.__objc_methlist: 0xc00 sha256:3c7bd4f3c0d2f7ac18e3dc8f880d941a37589d2fb456eb5af3dc7dd35ffc5162
++  __TEXT.__const: 0x650 sha256:415cdaebb4f1d5ca6fb8ddc4514a1517cb494c079ef63562213f9d945d876e16
++  __TEXT.__cstring: 0x15e1 sha256:75de96c5f65d715feef7396831d7b0b090f45a7b38adb60f7a8846eb11113c83
++  __TEXT.__gcc_except_tab: 0x1cc sha256:dd06af54dcccb5640662ffb7fff51ce36dfbda9143dd35aafef064748130afc8
++  __TEXT.__oslogstring: 0x4c6 sha256:d0856a42ba35022a2c04fec25e6bf76845f8e8ea259d1a17bb828e0c4183eca1
+   __TEXT.__ustring: 0xf2 sha256:047b43fbb61c6cf8382fe3a5f546d439b848992d77ef9caca34cf134ec258a93
+-  __TEXT.__swift5_typeref: 0x102 sha256:0de4c49ac089adda9e9a8bb6ce34dda2cda471a8e2b620c7d0c60ed1ecee542b
+-  __TEXT.__constg_swiftt: 0x220 sha256:07227bc3c5de8dc79e6100c9e963c9dea48c487563dd041026c2d81a6ee9dc0c
++  __TEXT.__swift5_typeref: 0x102 sha256:74bd9abde90256be1b59de14f9f2e37787a291610ee5135eb1bbe1ed7b886962
++  __TEXT.__constg_swiftt: 0x220 sha256:0a7a872deee22f764a2e5591af68920c39415b788b9b84c30580a6ec82c17975
+   __TEXT.__swift5_reflstr: 0x107 sha256:f7bb465f4e2fc216045ab75b359830c78ed9da3d1ec930acbd06397e89ec06ab
+   __TEXT.__swift5_fieldmd: 0x144 sha256:abd9223e9a8245f9a43ef8a13d5d74df3a502a1fe5710e9bef8f13e2a9b210f7
+   __TEXT.__swift5_types: 0x1c sha256:a807eab7cf47e3fe175c26d8c68aca4d984e6611443f2091c26b36d341a052f0
+
+   __TEXT.__swift5_builtin: 0x14 sha256:b97d9f85822999170e160fe3158f64cad4c5e625db5bb8f58c615fa403371e6c
+   __TEXT.__swift5_mpenum: 0x8 sha256:560ae9f565e838cf76c3a6c7e79940c00aedb384edba87a00491522d391656cd
+   __TEXT.__swift5_assocty: 0x18 sha256:0834cf97c7d1b0b13e9a96ad4fd0f1fada2eecf2134f307c02816754bf38b906
+-  __TEXT.__swift5_proto: 0x34 sha256:d4ffbb1cec4c44c8839da6800509f59fe708750ad0404ca97b5aff5255bf7d65
+-  __TEXT.__unwind_info: 0x430 sha256:7fcaee22299a2d1bc311e826282c2465b8a61d06b0f4ad533959369d49e97c59
+-  __TEXT.__eh_frame: 0x2a8 sha256:7c9c3314ddeff0211d84a00be299904f0a5c802fec333d7baa0b34c41246c495
++  __TEXT.__swift5_proto: 0x34 sha256:26910a26b833234d0f30021c437da961b0b1cf0c6022f5485fe4a7b5957306c1
++  __TEXT.__unwind_info: 0x430 sha256:acbe8597b4d9c5b28c202f7463b1a088fdbef95230859b16224e963c1fcce6d0
++  __TEXT.__eh_frame: 0x2a8 sha256:2879a8b44a60701a454e3c6adf7c2d43c2d19f71be853bf08aa8eab235429f4e
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x108 sha256:4cb8e7ab50d37f0e95c16f44cb8f6e35a735aa97ce700e49b98792c9c23526f5
+-  __DATA_CONST.__objc_classlist: 0x78 sha256:741842530b81ccdd6ab27f906356c0cf243d8d17e09b386880074fb56a35dd9f
+-  __DATA_CONST.__objc_protolist: 0x28 sha256:985194cc290505ce24b3b0e9d7c9896124d2e8a038b576533cf342ccffa612aa
++  __DATA_CONST.__const: 0x108 sha256:0d5775aef9968690c3afb0462fa837b06b3a4720324f722072a5ac7be1cc7dd7
++  __DATA_CONST.__objc_classlist: 0x78 sha256:3fe3d6b42cc7336d773a68905c0dbb0c2c47351cab1609ee9d90571d209571a2
++  __DATA_CONST.__objc_protolist: 0x28 sha256:e06eb74af9921f1b26e996610e730f5008bd8498a52560adac7b77191f9bc476
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x878 sha256:fc21b23555b33b8bdc3e13d2e51328b22ac1848274f1a3a29e12a08ea8dee782
+-  __DATA_CONST.__objc_superrefs: 0x38 sha256:0d17362657e2a7b662731f903ee3d2cdea08c8d2cdf6fb3971f42ac3ce0e2ffd
+-  __DATA_CONST.__objc_arraydata: 0x78 sha256:a63d0ea50c35d7d465a326a056abbedea8bc853860204e4425a31b5de0d54d38
+-  __DATA_CONST.__got: 0x1b8 sha256:a02cbe6dd3eb606fc9c7e3a0785ccbdf5d07cb3986efe655764a3dc760e20e5d
+-  __AUTH_CONST.__const: 0x609 sha256:6e97a44dbc547450a6fdb19e9b878a9485840c745a596951f50da016afe4f563
+-  __AUTH_CONST.__cfstring: 0x1840 sha256:923c0a5f1c54452dcdf5defd5dce2ffa550a3713c0308429f3040d6d7d740057
+-  __AUTH_CONST.__objc_const: 0x1508 sha256:572164039e8a5704951f615f2fd9b9f3c78234176632a48b326a0d4e87b4258a
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:1a33bea6eeffcb2a725f536e5e7cae08f808ca431d5eb9fc94c0584db1075800
+-  __AUTH_CONST.__objc_intobj: 0x78 sha256:dda474758611c30916e84036e69e7d7a717af2e14f3edf5666a2fd8303f89514
++  __DATA_CONST.__objc_selrefs: 0x888 sha256:1d275ec9220801184fdac4a07e052f24763744b4ce4cbb001eef658fdbbeed66
++  __DATA_CONST.__objc_superrefs: 0x38 sha256:c3fa42fde2d6ead3dc62c68035dfd53335160a8ce54e0ff6ef495b8528032ed7
++  __DATA_CONST.__objc_arraydata: 0x78 sha256:892706e1afd27a18396f34badafee666304e0426a5ced2c07166320363b12745
++  __DATA_CONST.__got: 0x1b8 sha256:6ad48172078d2ee2f09792386231188063e786baf0bc7e232877088820e10a67
++  __AUTH_CONST.__const: 0x609 sha256:633482c4669fec3b59db07d74293dc73d5e321a11db1c13e5e041ca5081dabd4
++  __AUTH_CONST.__cfstring: 0x1880 sha256:7c651d19cbf3d98deac93132770f0656680085144fa493cfe6da7bc198fe0de9
++  __AUTH_CONST.__objc_const: 0x1538 sha256:f1fa076aa55c220c1ee31dddac48ee6615b57fb58de205ca56af80d0cba230ce
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:e59c1c09e196ad66c08f8dc189fab4036b11e29028a76a1934bbb738e0bc0f69
++  __AUTH_CONST.__objc_intobj: 0x78 sha256:c4198b425ca381358f6cf29906fa196a807c3ade2c2fa51a9217d7655d3ab5fc
+   __AUTH_CONST.__auth_got: 0x4f0 sha256:e448b18d634ce66c2f440daeaeb067966ea286db6e9f130879352e97d8f098ec
+-  __AUTH.__objc_data: 0x4a0 sha256:19551b933104d370cf78b14598f39ebabe5ffff42c06ea5cd85f1d3ff305b03f
+-  __AUTH.__data: 0x168 sha256:87323e0e6160f2bc6cfea92917d85d3c9237760908cd880104a119bb840b6561
+-  __DATA.__objc_ivar: 0xc8 sha256:d5d4dca141bd148b960002a272dbeeb453186454c44c06bdfc7a74d5da641c3e
+-  __DATA.__data: 0x2a8 sha256:9bf861604ee148ebcc4efc152e9eeff85c3ba49964b267d7683354219e5fd09c
++  __AUTH.__objc_data: 0x4a0 sha256:edc22e057ba94470f9cd8db85a45a73072f232afcb8982fce549bb7108ec8654
++  __AUTH.__data: 0x168 sha256:e6653550c154f81cc2158e2bd15b853630f60f72b5d76723a4f2603e0c9bbd9e
++  __DATA.__objc_ivar: 0xcc sha256:27c464278b91a963b93abc7070b20292ef4921ec65a6ca331c0f81bc55ca61c7
++  __DATA.__data: 0x2a8 sha256:94dc42d3389f94d0dfd3f11d5b443b7f3b48d2c60a338d040a7567c6b89d870c
+   __DATA.__bss: 0x690 sha256:065cc6b2b996ca729f6aa0208e13ac4b494dd0d74a4c4df6053d08b0c11da865
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:e56793f9192325497d598273142c7e4548adf71e2de277f48ee4ed7b45715c82
++  __DATA_DIRTY.__objc_data: 0x50 sha256:afb4c57a97083936f50be0804f9c5267832acd002fa3797675108081602b179a
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/CipherML.framework/Versions/A/CipherML
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: A6545147-F756-3514-92F2-D8218F84ACA2
+-  Functions: 409
+-  Symbols:   1262
+-  CStrings:  449
++  UUID: ED203D04-4D29-34F6-A788-5EFD3058A5E4
++  Functions: 413
++  Symbols:   1268
++  CStrings:  453
+ 
+Symbols:
++ +[WCRBrowserEngineClient _blockPageForURL:inLanguage:shieldType:overridePolicy:iframe:ageVerificationText:]
++ +[WCRBrowserEngineClient _evaluateURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:overridePolicy:ageVerificationText:withCompletion:onCompletionQueue:]
++ +[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:ageVerificationText:withCompletion:onCompletionQueue:]
++ +[WCRBrowserEngineClient shieldStateForURL:shieldType:overridePolicy:iframe:ageVerificationText:language:]
++ -[WCRBrowserEngineClient cachedAgeVerificationText]
++ -[WCRBrowserEngineClient setCachedAgeVerificationText:]
++ GCC_except_table48
++ GCC_except_table54
++ OBJC_IVAR_$_WCRBrowserEngineClient._cachedAgeVerificationText
++ __287+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:ageVerificationText:withCompletion:onCompletionQueue:]_block_invoke.85
++ __287+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:ageVerificationText:withCompletion:onCompletionQueue:]_block_invoke.87
++ __287+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:ageVerificationText:withCompletion:onCompletionQueue:]_block_invoke.88
++ __287+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:ageVerificationText:withCompletion:onCompletionQueue:]_block_invoke.89
++ __287+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:ageVerificationText:withCompletion:onCompletionQueue:]_block_invoke.90
++ __287+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:ageVerificationText:withCompletion:onCompletionQueue:]_block_invoke.91
++ __287+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:ageVerificationText:withCompletion:onCompletionQueue:]_block_invoke_2.92
++ ___106+[WCRBrowserEngineClient shieldStateForURL:shieldType:overridePolicy:iframe:ageVerificationText:language:]_block_invoke
++ ___107+[WCRBrowserEngineClient _blockPageForURL:inLanguage:shieldType:overridePolicy:iframe:ageVerificationText:]_block_invoke
++ ___287+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:ageVerificationText:withCompletion:onCompletionQueue:]_block_invoke
++ ___287+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:ageVerificationText:withCompletion:onCompletionQueue:]_block_invoke_2
++ ___287+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:ageVerificationText:withCompletion:onCompletionQueue:]_block_invoke_3
++ ___block_descriptor_96_e8_32s40s48s56s64s72bs_e8_v16?0Q8l
++ ___copy_helper_block_e8_32s40s48s56s64s72b
++ ___destroy_helper_block_e8_32s40s48s56s64s72s
++ _objc_msgSend$_blockPageForURL:inLanguage:shieldType:overridePolicy:iframe:ageVerificationText:
++ _objc_msgSend$_evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:ageVerificationText:withCompletion:onCompletionQueue:
++ _objc_msgSend$cachedAgeVerificationText
++ _objc_msgSend$shieldStateForURL:shieldType:overridePolicy:iframe:ageVerificationText:language:
+- +[WCRBrowserEngineClient _blockPageForURL:inLanguage:shieldType:overridePolicy:iframe:]
+- +[WCRBrowserEngineClient _evaluateURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:overridePolicy:withCompletion:onCompletionQueue:]
+- +[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:withCompletion:onCompletionQueue:]
+- +[WCRBrowserEngineClient shieldStateForURL:shieldType:overridePolicy:iframe:language:]
+- GCC_except_table46
+- GCC_except_table52
+- __267+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:withCompletion:onCompletionQueue:]_block_invoke.85
+- __267+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:withCompletion:onCompletionQueue:]_block_invoke.89
+- __267+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:withCompletion:onCompletionQueue:]_block_invoke.90
+- __267+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:withCompletion:onCompletionQueue:]_block_invoke.91
+- __267+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:withCompletion:onCompletionQueue:]_block_invoke.92
+- __267+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:withCompletion:onCompletionQueue:]_block_invoke.93
+- __267+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:withCompletion:onCompletionQueue:]_block_invoke_2.94
+- ___267+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:withCompletion:onCompletionQueue:]_block_invoke
+- ___267+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:withCompletion:onCompletionQueue:]_block_invoke_2
+- ___267+[WCRBrowserEngineClient _evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:withCompletion:onCompletionQueue:]_block_invoke_3
+- ___86+[WCRBrowserEngineClient shieldStateForURL:shieldType:overridePolicy:iframe:language:]_block_invoke
+- ___87+[WCRBrowserEngineClient _blockPageForURL:inLanguage:shieldType:overridePolicy:iframe:]_block_invoke
+- ___block_descriptor_88_e8_32s40s48s56s64bs_e8_v16?0Q8l
+- _objc_msgSend$_blockPageForURL:inLanguage:shieldType:overridePolicy:iframe:
+- _objc_msgSend$_evaluateURL:mainDocumentURL:inMode:usingBloomFilter:userSettings:language:allowList:appleAllowList:denyList:allowedWebsitesOnlyList:macOSExemptURLList:authenticationSites:allowTransitiveTrust:overridePolicy:withCompletion:onCompletionQueue:
+- _objc_msgSend$shieldStateForURL:shieldType:overridePolicy:iframe:language:
+CStrings:
++ "Change Restriction"
++ "This device is required to restrict adult content for anyone who hasn't confirmed they are an adult."
++ "WCRAppleAllowList-2026-03-31.plist"
++ "WCRFilter-2026-03-31.plist"
++ "overridePolicy from DC: unverifiedAdultLegacyScreenTime"
++ "overridePolicy from DC: unverifiedAdultScreenTime"
+- "WCRAppleAllowList-2026-02-06.plist"
+- "WCRFilter-2026-02-06.plist"
+- "overridePolicy from DC: unverifiedAdultLegacyScreenTime. Using unset for now."
+- "overridePolicy from DC: unverifiedAdultScreenTime. Using unset for now."
+
+```

@@ -1,0 +1,271 @@
+## MailUI
+
+> `/System/Library/PrivateFrameworks/MailUI.framework/Versions/A/MailUI`
+
+```diff
+
+-3891.100.17.1.3
+-  __TEXT.__text: 0x27d594 sha256:c13c6a32d1796329fb422c9734605eb1278b36db22f2257a2cb0c4c312ee1efc
+-  __TEXT.__objc_methlist: 0xf6c4 sha256:0b611f154e0c052d49571f6aee5eec1acf28bbf252fb8700703307a1526bd230
+-  __TEXT.__cstring: 0xfd59 sha256:186f5dccaac20bd80f594e6d4dc274c63a103967813dd8a31187a5187f33be75
+-  __TEXT.__const: 0x163e4 sha256:a8d8a63da251d0132fd359a5076175acc124ef373fd354847b99156aa6d00e0e
+-  __TEXT.__gcc_except_tab: 0x1260 sha256:eff4aa0bcd0fdc20a7c4225e6cd6e0bdac951dd1beea4e02f7957760be2071ed
++3893.100.7.1.1
++  __TEXT.__text: 0x2890a4 sha256:7ea46954eafb04a0963fa5869833f717c4bdb547e904807e871d1c57a235516c
++  __TEXT.__objc_methlist: 0xf6ec sha256:aac3413de3a7cdb0207c84ee55271a6d9d12815260b18197da78a424a0e6172c
++  __TEXT.__cstring: 0x100b9 sha256:80835ed0a10957698e1ba7c7422fca78d0505198038986b7ba7cbe7d1be78a2a
++  __TEXT.__const: 0x16bb4 sha256:b5e2ba480fd7e8184721c6b58733c5b3baa73b7b020f0fd4494c4ccc5b70b5ea
++  __TEXT.__gcc_except_tab: 0x1260 sha256:d2a58530839be64444f139cfe3c304eeea913190d61c11d7165f23a55ac7b5b0
+   __TEXT.__oslogstring: 0x7446 sha256:d53866908e4ce64016eaf53d8f3e8636d505dc8e47c91e5b437b9f21e6518b47
+   __TEXT.__dlopen_cstrs: 0xba sha256:d29a26ab2394c525e712ec45db79f569a2aa9ca670cfbbe3a44cf42dcc289451
+   __TEXT.__ustring: 0x30c sha256:87bb951b67355a2f5445797344d4baf9b995bdb60a9a5cc06d2d0f34cf1a3c40
+-  __TEXT.__swift5_typeref: 0xa040 sha256:e913bb1b8112fe356d13c3511b72976b37736653e15094beb5b4dd2118fec6c9
+-  __TEXT.__swift5_capture: 0x3728 sha256:6fc020075973a0ffb5e9e14df2e5723b49d1b0f3afd3eaad1ff08446a9ee2ca9
+-  __TEXT.__constg_swiftt: 0x2fb0 sha256:3304baebae3cded12936b1f80129b428c47566138028309635eb4ae435db0b5b
+-  __TEXT.__swift5_builtin: 0x3c0 sha256:44c1ce74bedd5a030fe1ac9ebb6c87019d49bc553ae4e873e810e9d23f4c3049
+-  __TEXT.__swift5_reflstr: 0x27f1 sha256:197ed525ce1a4df45a84e95a1566a2e232e4ad7f6ce24549657edbcd959cab9f
+-  __TEXT.__swift5_fieldmd: 0x2458 sha256:2228ffe18eabaefb24b8c947516362f3be754ad111f62b3611b9856330b936bb
+-  __TEXT.__swift5_assocty: 0xdf0 sha256:041e5c60bc6d0385b7f04abf1cc52fc16edaa2e309a03671f7a576666182a432
+-  __TEXT.__swift5_proto: 0x534 sha256:d3cc6363c7217c4897f9d98382585e96745e250a6f0b45ad5b0c588ebd2135ad
+-  __TEXT.__swift5_types: 0x368 sha256:4f5cb9dc2b189a865c4c5d427aca9a0702b02a67445a0afc08f27c3a99317504
+-  __TEXT.__swift_as_entry: 0x17c sha256:1a3035dcc603947a539c78e1786e966d0bc115152124eb537eec65fb7a4758ee
+-  __TEXT.__swift_as_ret: 0x150 sha256:b648c6bbcb97f7bdf5b34260eca1912f1e3d648e3ff57f4ff0510e7cd63435b2
+-  __TEXT.__swift_as_cont: 0x240 sha256:6d48f6bcb9c83ecf469841ba80a4cb835a8241ae6da80df62ab681e1b8cf76f6
+-  __TEXT.__swift5_protos: 0x20 sha256:44659709e150d2aa2143795ff68b05ede2a54a994bb593cc87dc1623725a7424
+-  __TEXT.__swift5_mpenum: 0x20 sha256:b6aad716c95f8b1c0292ac7338a3094b2aabcd4774b931620caf74f348f72b06
+-  __TEXT.__unwind_info: 0x5fe0 sha256:f245675f5c2cd8aed166de6d70b517fe95d40489966a9be5fff50bd17ac95a29
+-  __TEXT.__eh_frame: 0x2654 sha256:73078c1411ef4eef45c1062c1bca33d29fec43ed8395d6a66387a96598c1aab2
++  __TEXT.__swift5_typeref: 0xaa22 sha256:007c838a91308faab0a88d219764e388c44d9559a2e096e62d1efb50e63e9e64
++  __TEXT.__swift5_capture: 0x37d8 sha256:61192ec3769a9e2c0f3879e678b4151ea07082f79250f06cf74b5abf28937b2f
++  __TEXT.__constg_swiftt: 0x30f8 sha256:af3e21cae0834b36fcbe53c751b1621827af79bd724ba40a7bd284ebc0afe9a8
++  __TEXT.__swift5_builtin: 0x3d4 sha256:8ab3b79c85fc65e74e184bc5b5267c620ecda967b1726b6933d6f42369f34d58
++  __TEXT.__swift5_reflstr: 0x28e1 sha256:70137fc172b9d8302fdb51fdf01a6a04c7318a6064f0f0dddb5f5ffb8d8f602e
++  __TEXT.__swift5_fieldmd: 0x2548 sha256:251378585d4531f37849d9d4fa650feccf826bbf81425260f8b26923c2be70b4
++  __TEXT.__swift5_assocty: 0xe80 sha256:4baafbdf7d9ae8f9323ed9df717ac681a0cbe95ce88633810909ffd2fc37d1e5
++  __TEXT.__swift5_proto: 0x568 sha256:ce1aceea79df574b7322671d156461d561d34401276691c08d594562b22d4d98
++  __TEXT.__swift5_types: 0x388 sha256:99eeeacf49e8b3cd78093bd32e973d442cbfe6f5b5f4aa58267768980a37bb0f
++  __TEXT.__swift_as_entry: 0x180 sha256:d550f069b6d426f18d6535615f0eeb551dd7dc312ac2c1f7c93abb77b838b4aa
++  __TEXT.__swift_as_ret: 0x154 sha256:3426d3b33b0ee867aadd70717ebd892b1decf5c046c0629835651995bdba23f3
++  __TEXT.__swift_as_cont: 0x24c sha256:4a035e893ef47826178ca194aa63bac0a725204a9f133ab0383ef8d672ec3d14
++  __TEXT.__swift5_protos: 0x20 sha256:d27e771876d9bd98944d03e8ad43fec8ea4e1bf7d22039e6014e95a7abcaac75
++  __TEXT.__swift5_mpenum: 0x20 sha256:b0c95c15460096f0ab5dc85289f70f591e620a3c03324d274e220de6dddc16e0
++  __TEXT.__unwind_info: 0x61c8 sha256:e3c4ca7ad848ed5ead1f43b8e6dd5152a7d65d4c3df64606ccd90fcfccbf5fd8
++  __TEXT.__eh_frame: 0x286c sha256:cb744cd3ef1b300919d6688eee7c57d25811e5a622b84dae490d74c369dc13e0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1d18 sha256:10442cccf7fafe3a16fb115981d7b27bb6960a06baa2cf52cb807a3f4b27aadf
+-  __DATA_CONST.__objc_classlist: 0x600 sha256:00485ddd0f29b428964227b0eb5281d63b8093efc8b351f1655d309fcb18e7ad
+-  __DATA_CONST.__objc_catlist: 0xb0 sha256:e9b06fbb0aaea1fa4dddaa46260b5fb002a74b2942af0ebb4628bdc1c9db2420
+-  __DATA_CONST.__objc_protolist: 0x458 sha256:aa6ebfeae6e0dfe89ceba8f2a882adb67394369a0bc8768c325190df321dfb8b
++  __DATA_CONST.__const: 0x1d18 sha256:4a672de091c6b984d8060e29ec4e2fd0de9f2eabc3861df0ebc5157bded1f200
++  __DATA_CONST.__objc_classlist: 0x608 sha256:eac1bd6d19c4a6a2ce39b297cc32e96ab3ae555a40f1495ae2cbfcdf4e922132
++  __DATA_CONST.__objc_catlist: 0xb0 sha256:01a8bed35890e1f5a0d0e50df33f9e39f60fc7a44b7dcc54afee3dcb56fbbb02
++  __DATA_CONST.__objc_protolist: 0x458 sha256:ed1875ce1f5d936ab2372844c7922abad13eb19c777cd2c7f2310a960d64124e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xa630 sha256:367cd70a3f161d7f1382404a147ac5a53be85b5d5182bf8a9873a66c33d93176
+-  __DATA_CONST.__objc_protorefs: 0x130 sha256:14c8fdbb61473aa3ccb20a0650376af956c6315aef8a2223dcfacbb7852f416a
+-  __DATA_CONST.__objc_superrefs: 0x388 sha256:40930c452602df7dfed68ca82ffc6e057430592704125ddf3ae8bf178e7a4608
+-  __DATA_CONST.__objc_arraydata: 0x40 sha256:cf5b22aae94c5d719d22014b121d1a50c179be2c7453b9db0841479f8924472e
+-  __DATA_CONST.__got: 0x2140 sha256:707232ebc88db82552b86fd4b68808d43cefcb024519ba9fc7ed7030a8817690
+-  __AUTH_CONST.__const: 0xf0a0 sha256:55649239b4c73963e3df459df05a4c2eda29d4c208e8c489fa6a42d9928018ca
+-  __AUTH_CONST.__cfstring: 0x8080 sha256:59980c0d78cabfa9490b830bd12f401cff728c27186350f14818639fce3aa33e
+-  __AUTH_CONST.__objc_const: 0x1ab08 sha256:b35d7d5b27a9989823b02b648238e1ef4dcd96faf3014c2e975a22a976fd69ac
+-  __AUTH_CONST.__objc_intobj: 0x1e0 sha256:9800ce58d936b57b9e54e6cabe000aef548be4f5a2458ab4627dc037729ee278
+-  __AUTH_CONST.__objc_arrayobj: 0x48 sha256:f0d5ba2c7b23339b54216b4b921198c19590695fd0ea1ae4c7ca34de8463a7ae
+-  __AUTH_CONST.__objc_floatobj: 0x10 sha256:72505d9efb0c1bb24296286bc98328eda78a7171e1d1536b6faabecfd2f5e9c1
+-  __AUTH_CONST.__auth_got: 0x2508 sha256:2e45a620af0831acf209e501b7aefd795bddc4f663dc0e1ca452f2f7fbd69f6c
+-  __AUTH.__objc_data: 0x1968 sha256:5a9ec79f888cf62eed0e7ef3cdca4dc0dc62313f2ec560072eb88c621e5562aa
+-  __AUTH.__data: 0xc08 sha256:1245d13bc3f83715a1ff1afe752c5e72ebbb6f96046a91095843223bd62cd5e9
+-  __DATA.__objc_ivar: 0xe5c sha256:68cbf2b85b18c95872efc5ba2c6a5513fbdf492a7d584a0eae3e5219d8b3914d
+-  __DATA.__data: 0x5d30 sha256:e97516f0eb5b2371b66cc44518a85540455568126505881c3b662bdec02e8249
+-  __DATA.__objc_stublist: 0x8 sha256:f507ba7e64169bc982503e47bcbb61e44c86dc55fc934e088f564cbbcdbaad0c
+-  __DATA.__bss: 0x6c30 sha256:454142a7f817e2aa375ecb05e8e157063909d0d9bf47cfefb4ac2ba0bd4c04f3
+-  __DATA.__common: 0x3c8 sha256:a038ee252f6057f767a2e97566457a8ade06fc1203c8e9be326a5c29181df5ba
+-  __DATA_DIRTY.__objc_data: 0x2cb8 sha256:931084e83d9369816699d0363af82dacc78de556b332a51d004fcf038da62786
+-  __DATA_DIRTY.__data: 0x2950 sha256:b3db9c82375680a40d35a537c2fa98be25802840ccfecc92251df5124116aa4f
++  __DATA_CONST.__objc_selrefs: 0xa650 sha256:a6899b1c7688ebd014c2541d1398f43d6b182d6c6db45148eeb31096c1cdc803
++  __DATA_CONST.__objc_protorefs: 0x130 sha256:9b1129bc5082081d6a8ab5bc5e8f05a09bd6964d5c6f50261d05674162c6c112
++  __DATA_CONST.__objc_superrefs: 0x388 sha256:bc909b9c150d2a4360b5272244c78cf41d1e49ade907aa242dd6730e3d546553
++  __DATA_CONST.__objc_arraydata: 0x40 sha256:53d58d13bab25b0fa6b264c9eee58db326f20f7ed5a6c63ac047e109244c4fc9
++  __DATA_CONST.__got: 0x2180 sha256:c7cfd580e2d6e50f7bfe271339238651bfcc0e996a9f6b9661500e28f51a1300
++  __AUTH_CONST.__const: 0xf410 sha256:66794ed0b2727d2eea0e36545ffb171e986b39cb1598371d1c1c61680cc3c01a
++  __AUTH_CONST.__cfstring: 0x8080 sha256:88016928e3f08668797ac80967d9c813e1c1f295f7f3728f6763f44267a2f4bc
++  __AUTH_CONST.__objc_const: 0x1ac08 sha256:d46ffb8d99794aebe947fda0c990d2daa37591eb5cf21312d5ac80b01539bbcd
++  __AUTH_CONST.__objc_intobj: 0x1e0 sha256:f3d42d660d198c6b036b13f1d9ccd6f4186e92ecf4e06059333d3d8948130b31
++  __AUTH_CONST.__objc_arrayobj: 0x48 sha256:b1695d5ba8f03b183490f887ee1f8675f782e10c835f0321d9dcfc7586d000d4
++  __AUTH_CONST.__objc_floatobj: 0x10 sha256:50d0612f106483e98140e3f6b8e0def9d57424df2fb917175256fcd0ac00ea29
++  __AUTH_CONST.__auth_got: 0x25c8 sha256:ebfb366d82c628870685b13f28b362a138360a01bae05485f13e81ef6d333aae
++  __AUTH.__objc_data: 0x19b8 sha256:3bf6865fe7297d2d93b3fd469b8f1809d244767b12ba75820c54c2bb12771b99
++  __AUTH.__data: 0xcc8 sha256:de0a203196dac1ea39a906db11644da8591f3e9231d6cc2ca55709862045d7e7
++  __DATA.__objc_ivar: 0xe60 sha256:5daca89eb3c932edc241ad5f997d0e4400c1d6e75ccd9907aadc2e91974e7d10
++  __DATA.__data: 0x5f60 sha256:18cc9b2142503a83d7c837175d48ad00f9bc06dd759371d55b539fe871793e9f
++  __DATA.__objc_stublist: 0x8 sha256:6d58788d84ef558bd770af159700327dce9ae569fea428a5d9a2325dc226c470
++  __DATA.__bss: 0x72d0 sha256:57dbe38535785d8bcb0dd3dfa1ce116460eff624ef9d10f62e0d749bb307ec2b
++  __DATA.__common: 0x3d0 sha256:116d7399ce18e417bb9d1586091987731f6b78e79edbea12349960da3b9269b2
++  __DATA_DIRTY.__objc_data: 0x2cb8 sha256:e99a3508de816b26ddfa234511bae75118c2d67ef607ef0d96c2fa796fbc86cd
++  __DATA_DIRTY.__data: 0x28c0 sha256:c714fffd058bd905174e4b60a3ca4257cf29481f1fcee04290c981ba4b6ea7c3
+   __DATA_DIRTY.__bss: 0x3fa0 sha256:7f5051293d1fe6aad6ac02ac53ab7e971e74943e540319dc380e369177d14aa0
+   __DATA_DIRTY.__common: 0x58 sha256:10eef285deef7a4b7c82b22aa53589b7833df29de3814649c772bbd5c832f365
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: A555561D-3DA3-300D-961A-7CC4BB13D55B
+-  Functions: 13018
+-  Symbols:   15895
+-  CStrings:  3416
++  UUID: AC7C96C3-DF7C-3C22-9D01-5045B9F85CFC
++  Functions: 13227
++  Symbols:   15963
++  CStrings:  3434
+ 
+Symbols:
++ -[MUISearchSuggestionPhraseManager filterQueryMessageIDs]
++ -[MUISearchSuggestionPhraseManager setFilterQueryMessageIDs:]
++ -[MessageListDataSource messageListContainingItemID:]
++ GCC_except_table120
++ GCC_except_table78
++ GCC_except_table93
++ OBJC_IVAR_$_MUISearchSuggestionPhraseManager._filterQueryMessageIDs
++ _OBJC_CLASS_$_OS_os_log
++ __DATA__TtC6MailUI17PPTTestsViewModel
++ __IVARS__TtC6MailUI17PPTTestsViewModel
++ __METACLASS_DATA__TtC6MailUI17PPTTestsViewModel
++ _associated conformance 6MailUI0A22MessageQueryScopeErrorOSHAASQ
++ _associated conformance 6MailUI12PPTTestsViewV05SwiftB00D0AA4BodyAdEP_AdE
++ _associated conformance 6MailUI17PPTTestDefinitionVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 6MailUI22PPTTestsViewModelErrorO10Foundation09LocalizedF0AAs0F0
++ _associated conformance So31NSPropertyListMutabilityOptionsVs10SetAlgebraSCSQ
++ _associated conformance So31NSPropertyListMutabilityOptionsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So31NSPropertyListMutabilityOptionsVs9OptionSetSCSY
++ _associated conformance So31NSPropertyListMutabilityOptionsVs9OptionSetSCs0F7Algebra
++ _objc_msgSend$initWithIsGLPActive:statistics:
++ _objc_msgSend$messageObjectIDsForURLs:
++ _objc_msgSend$messagesForObjectIDs:
++ _objc_msgSend$propertyListWithData:options:format:error:
++ _objc_msgSend$setWritingToolsBehavior:
++ _symbolic SDyS2SG
++ _symbolic SDySSypG
++ _symbolic SaySDySSypGG
++ _symbolic Say_____G 6MailUI17PPTTestDefinitionV
++ _symbolic So17EMMessageObjectIDCSg
++ _symbolic _____ 6MailUI0A22MessageQueryScopeErrorO
++ _symbolic _____ 6MailUI12PPTTestsViewV
++ _symbolic _____ 6MailUI17PPTTestDefinitionV
++ _symbolic _____ 6MailUI17PPTTestsViewModelC
++ _symbolic _____ 6MailUI22PPTTestsViewModelErrorO
++ _symbolic _____ So31NSPropertyListMutabilityOptionsV
++ _symbolic ______A2ASgt 7SwiftUI4TextV
++ _symbolic _____yS2S_G SD4KeysV
++ _symbolic _____ySSyp_G SD4KeysV
++ _symbolic _____ySSyp_G SD8IteratorV
++ _symbolic _____ySaySSGSS_____y_____y_____y_____G______Qo______y_____SgGGG 7SwiftUI7ForEachV AA15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TextiJ0Rd__lFQO AA0kI0V AA0K0V AA013RoundedBorderkiJ0V AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____ySay_____GG 7SwiftUI7BindingV 04MailB017PPTTestDefinitionV
++ _symbolic _____ySo7NSArrayCG 15EmailFoundation8EFFutureC
++ _symbolic _____ySo9EMMessageCG 15EmailFoundation8EFFutureC
++ _symbolic _____y_____G 7SwiftUI5StateV 04MailB017PPTTestsViewModelC
++ _symbolic _____y_____G 7SwiftUI7BindingV 04MailB017PPTTestDefinitionV
++ _symbolic _____y_____G 7SwiftUI7BindingV 04MailB017PPTTestsViewModelC
++ _symbolic _____y______A2BSgQPG 7SwiftUI12TupleContentV AA4TextV
++ _symbolic _____y___________y_____yACy______AEQPGG___________yAEGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA6VStackV AA4TextV AA6SpacerV AA6ButtonV
++ _symbolic _____y___________y_____yACy_____yACy______AFQPGG___________yAFGQPGG______ySaySSGSS_____y_____y_____yAFG______Qo______y_____SgGGGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA6HStackV AA0F0V AA4TextV AA6SpacerV AA6ButtonV AA7ForEachV AA08ModifiedI0V AA0D0PAAE14textFieldStyleyQrqd__AA0krS0Rd__lFQO AA0kR0V AA013RoundedBorderkrS0V AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y__________y______A2DSgQPGABG 7SwiftUI7SectionV AA9EmptyViewV AA12TupleContentV AA4TextV
++ _symbolic _____y__________y______A2DSgQPGABG______y_____ySay_____GGSS_____y_____yACy_____yACyANyACyAD_ADQPGG___________yADGQPGG_AHySaySSGSSAMy_____y_____yADG______Qo______y_____SgGGGQPGG_____GGt 7SwiftUI7SectionV AA9EmptyViewV AA12TupleContentV AA4TextV AA7ForEachV AA7BindingV 04MailB017PPTTestDefinitionV AA08ModifiedG0V AA6VStackV AA6HStackV AA6SpacerV AA6ButtonV AA0E0PAAE14textFieldStyleyQrqd__AA0huV0Rd__lFQO AA0hU0V AA013RoundedBorderhuV0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV
++ _symbolic _____y_____yAAy______ACQPGG___________yACGQPG 7SwiftUI12TupleContentV AA6VStackV AA4TextV AA6SpacerV AA6ButtonV
++ _symbolic _____y_____yAAy_____yAAy______ADQPGG___________yADGQPGG______ySaySSGSS_____y_____y_____yADG______Qo______y_____SgGGGQPG 7SwiftUI12TupleContentV AA6HStackV AA6VStackV AA4TextV AA6SpacerV AA6ButtonV AA7ForEachV AA08ModifiedD0V AA4ViewPAAE14textFieldStyleyQrqd__AA0goP0Rd__lFQO AA0gO0V AA013RoundedBordergoP0V AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____ySay_____GGSS_____y_____y_____y_____yAHyAGyAHy______AJQPGG___________yAJGQPGG_AAySaySSGSSAFy_____y_____yAJG______Qo______y_____SgGGGQPGG_____GG 7SwiftUI7ForEachV AA7BindingV 04MailB017PPTTestDefinitionV AA15ModifiedContentV AA6VStackV AA05TupleJ0V AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA4ViewPAAE14textFieldStyleyQrqd__AA0nsT0Rd__lFQO AA0nS0V AA013RoundedBordernsT0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____AAy______A2DSgQPGACG______y_____ySay_____GGSS_____y_____yAAy_____yAAyANyAAyAD_ADQPGG___________yADGQPGG_AHySaySSGSSAMy_____y_____yADG______Qo______y_____SgGGGQPGG_____GGQPG 7SwiftUI12TupleContentV AA7SectionV AA9EmptyViewV AA4TextV AA7ForEachV AA7BindingV 04MailB017PPTTestDefinitionV AA08ModifiedD0V AA6VStackV AA6HStackV AA6SpacerV AA6ButtonV AA0G0PAAE14textFieldStyleyQrqd__AA0huV0Rd__lFQO AA0hU0V AA013RoundedBorderhuV0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____G______Qo_ 7SwiftUI4ViewPAAE14textFieldStyleyQrqd__AA04TexteF0Rd__lFQO AA0gE0V AA0G0V AA013RoundedBordergeF0V
++ _symbolic _____y_____y______ACQPGG___________yACGt 7SwiftUI6VStackV AA12TupleContentV AA4TextV AA6SpacerV AA6ButtonV
++ _symbolic _____y_____y_____yAByAAyABy______ADQPGG___________yADGQPGG______ySaySSGSS_____y_____y_____yADG______Qo______y_____SgGGGQPGG 7SwiftUI6VStackV AA12TupleContentV AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA7ForEachV AA08ModifiedE0V AA4ViewPAAE14textFieldStyleyQrqd__AA0goP0Rd__lFQO AA0gO0V AA013RoundedBordergoP0V AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____y_____yABy______ADQPGG___________yADGQPGG 7SwiftUI6HStackV AA12TupleContentV AA6VStackV AA4TextV AA6SpacerV AA6ButtonV
++ _symbolic _____y_____y_____yABy______ADQPGG___________yADGQPGG______ySaySSGSS_____y_____y_____yADG______Qo______y_____SgGGGt 7SwiftUI6HStackV AA12TupleContentV AA6VStackV AA4TextV AA6SpacerV AA6ButtonV AA7ForEachV AA08ModifiedE0V AA4ViewPAAE14textFieldStyleyQrqd__AA0goP0Rd__lFQO AA0gO0V AA013RoundedBordergoP0V AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____y_____y_____ABy______A2ESgQPGADG______y_____ySay_____GGSS_____y_____yABy_____yAByAOyAByAE_AEQPGG___________yAEGQPGG_AIySaySSGSSANy_____y_____yAEG______Qo______y_____SgGGGQPGG_____GGQPGG 7SwiftUI4FormV AA12TupleContentV AA7SectionV AA9EmptyViewV AA4TextV AA7ForEachV AA7BindingV 04MailB017PPTTestDefinitionV AA08ModifiedE0V AA6VStackV AA6HStackV AA6SpacerV AA6ButtonV AA0H0PAAE14textFieldStyleyQrqd__AA0ivW0Rd__lFQO AA0iV0V AA013RoundedBorderivW0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____G______Qo______y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TextgH0Rd__lFQO AA0iG0V AA0I0V AA013RoundedBorderigH0V AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____y_____y_____yACyAByACy______AEQPGG___________yAEGQPGG______ySaySSGSSAAy_____y_____yAEG______Qo______y_____SgGGGQPGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA7ForEachV AA4ViewPAAE14textFieldStyleyQrqd__AA0hoP0Rd__lFQO AA0hO0V AA013RoundedBorderhoP0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y_____ABy______A2ESgQPGADG______y_____ySay_____GGSS_____y_____yABy_____yAByAOyAByAE_AEQPGG___________yAEGQPGG_AIySaySSGSSANy_____y_____yAEG______Qo______y_____SgGGGQPGG_____GGQPGG______Qo_ 7SwiftUI4ViewPAAE9formStyleyQrqd__AA04FormE0Rd__lFQO AA0F0V AA12TupleContentV AA7SectionV AA05EmptyC0V AA4TextV AA7ForEachV AA7BindingV 04MailB017PPTTestDefinitionV AA08ModifiedH0V AA6VStackV AA6HStackV AA6SpacerV AA6ButtonV AcAE09textFieldE0yQrqd__AA0kxE0Rd__lFQO AA0kX0V AA013RoundedBorderkxE0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA07GroupedfE0V
++ _symbolic _____y_____y_____y_____y_____y_____ACy______A2FSgQPGAEG______y_____ySay_____GGSSAAy_____yACy_____yACyAOyACyAF_AFQPGG___________yAFGQPGG_AJySaySSGSSAAy_____y_____yAFG______Qo______y_____SgGGGQPGG_____GGQPGG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE9formStyleyQrqd__AA04FormG0Rd__lFQO AA0H0V AA05TupleD0V AA7SectionV AA05EmptyE0V AA4TextV AA7ForEachV AA7BindingV 04MailB017PPTTestDefinitionV AA6VStackV AA6HStackV AA6SpacerV AA6ButtonV AeAE09textFieldG0yQrqd__AA0lxG0Rd__lFQO AA0lX0V AA013RoundedBorderlxG0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA07GroupedhG0V AA16_FlexFrameLayoutV
++ _symbolic xq_xq_Iegnnrr_
++ _symbolic ySS_SDySSypGtScMYcc
++ _symbolic ypSg
++ _type_layout_string 6MailUI12PPTTestsViewV
++ _type_layout_string 6MailUI17PPTTestDefinitionV
++ _type_layout_string 6MailUI22PPTTestsViewModelErrorO
++ get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE9formStyleyQrqd__AA04FormG0Rd__lFQOyAA0H0VyAA05TupleD0VyAA7SectionVyAA05EmptyE0VAKyAA4TextV_A2QSgQPGAOG_AA7ForEachVyAA7BindingVySay04MailB017PPTTestDefinitionVGGSSACyAA6VStackVyAKyAA6HStackVyAKyA3_yAKyAQ_AQQPGG_AA6SpacerVAA6ButtonVyAQGQPGG_AVySaySSGSSACyAeAE09textFieldG0yQrqd__AA0lxG0Rd__lFQOyAA0lX0VyAQG_AA013RoundedBorderlxG0VQo_AA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGGQPGGAA14_PaddingLayoutVGGQPGG_AA07GroupedhG0VQo_AA16_FlexFrameLayoutVGAaDHPqd0__AaDHD3_A42_HO_A44_AA0E8ModifierHPyHCHC.3
++ get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA05TupleD0VyAA6HStackVyAGyAEyAGyAA4TextV_AKQPGG_AA6SpacerVAA6ButtonVyAKGQPGG_AA7ForEachVySaySSGSSACyAA4ViewPAAE14textFieldStyleyQrqd__AA0hoP0Rd__lFQOyAA0hO0VyAKG_AA013RoundedBorderhoP0VQo_AA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGGQPGGAA14_PaddingLayoutVGAaXHPA15_AaXHPyHC_A17_AA0mV0HPyHCHC.4
+- GCC_except_table103
+- GCC_except_table77
+- GCC_except_table92
+- _EMPersistenceStatisticsKeyMessagesInLargestRemoteAccount
+- _objc_msgSend$colorWithPatternImage:
+- _objc_msgSend$colorWithRed:green:blue:alpha:
+- _objc_msgSend$initWithColor:location:
+- _objc_msgSend$initWithLocalMessagesIndexed:totalLocalMessages:remoteMessagesIndexed:totalRemoteMessages:messagesInLargestRemoteAccount:isGLPActive:statistics:
+- _objc_msgSend$messageListItemsForObjectIDs:
+- _symbolic Say______pSgG So17EMMessageListItemP
+- _symbolic _____y_____GSg 16GenerativeSearch15ComposableQueryV AA11MailContentV
+- _symbolic _____y______pG 15EmailFoundation8EFFutureC So17EMMessageListItemP
+- block_copy_helper.9
+- block_descriptor.11
+- block_destroy_helper.10
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/Library/PrivateFrameworks/Email.framework/Headers/EMContentRequestOptions.h"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/common/Avatars/MUIAvatarImageGeneratorResult.h"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/common/Avatars/MUIBusinessServiceProvider.h"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/common/Avatars/MUISenderHeaderColors.h"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/common/Bucket/About Categories/MUIAboutCategoriesViewController.h"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/common/Bucket/Model/MUILastSeenBucketHelper.swift"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/common/Conversation View/CatchUp/MUIManualSummaryController.h"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/common/Conversation View/CatchUp/MUIManualSummaryViewManager.h"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/common/Feedback/Model/FeedbackListViewModel.swift"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/common/Message List/CatchUp/MUIHighlightedMessage.h"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/common/Message List/CatchUp/MUIHighlightedMessagesController.h"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/common/Search/Feedback/SearchTTR/Model/MUISearchTTRCollectedDiagnostics.h"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/common/Search/Snippets/SnippetGenerator.swift"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/common/Search/Suggestion/MUISiriResultsToken.h"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/macOS/Categories/MUIRecategorizationMenuController.h"
++ "/AppleInternal/Library/BuildRoots/4~CSAuugBq_G1vOWuwyP9nJQyvW_SRPWv7pGL7yco/Library/Caches/com.apple.xbs/TemporaryDirectory.3vgsvB/Sources/Mail/MailUI/MailUI/macOS/Categories/MUIRecategorizationViewModel.h"
++ ": "
++ "Could not find resource: "
++ "Dialog to show and say when the user has asked to do something with an email draft, but we did not find any matching results."
++ "Draft_Not_Found_Dialog"
++ "Failed to load PPT test definitions: %@"
++ "List of top result messages"
++ "Mail is organizing messages for better results. This may take more than a few days."
++ "PList contains unexpected data"
++ "Power & Performance Tests"
++ "Run"
++ "Running tests from here is only useful for development — **no performance metrics are gathered and certain tests may not work out-of-the-box**. This list and the editable parameters are populated from `testDefinitions.plist`; the tests are implemented in `MailAppControllerTesting` (defined on each platform)."
++ "Sorry, I couldn't find any matching email drafts."
++ "Swift/Sequence.swift"
++ "Top Results"
++ "aggregate"
++ "plist"
++ "testDefinitions"
++ "testDefinitions.plist"
++ "testName"
++ "timeoutInSeconds"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/Library/PrivateFrameworks/Email.framework/Headers/EMContentRequestOptions.h"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/common/Avatars/MUIAvatarImageGeneratorResult.h"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/common/Avatars/MUIBusinessServiceProvider.h"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/common/Avatars/MUISenderHeaderColors.h"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/common/Bucket/About Categories/MUIAboutCategoriesViewController.h"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/common/Bucket/Model/MUILastSeenBucketHelper.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/common/Conversation View/CatchUp/MUIManualSummaryController.h"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/common/Conversation View/CatchUp/MUIManualSummaryViewManager.h"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/common/Feedback/Model/FeedbackListViewModel.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/common/Message List/CatchUp/MUIHighlightedMessage.h"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/common/Message List/CatchUp/MUIHighlightedMessagesController.h"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/common/Search/Feedback/SearchTTR/Model/MUISearchTTRCollectedDiagnostics.h"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/common/Search/Snippets/SnippetGenerator.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/common/Search/Suggestion/MUISiriResultsToken.h"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/macOS/Categories/MUIRecategorizationMenuController.h"
+- "/AppleInternal/Library/BuildRoots/4~CQq7ugDXFKFuYJSF96TqLXM03jq61Qhm8EVFqhk/Library/Caches/com.apple.xbs/TemporaryDirectory.cArdtm/Sources/Mail/MailUI/MailUI/macOS/Categories/MUIRecategorizationViewModel.h"
+- "List of top hit messages"
+- "Mail is organizing messages for better results. This may take up to a week."
+
+```

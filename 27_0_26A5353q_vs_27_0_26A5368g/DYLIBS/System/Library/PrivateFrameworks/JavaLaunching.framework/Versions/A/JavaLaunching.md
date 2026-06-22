@@ -1,0 +1,138 @@
+## JavaLaunching
+
+> `/System/Library/PrivateFrameworks/JavaLaunching.framework/Versions/A/JavaLaunching`
+
+```diff
+
+ 326.0.0.0.0
+-  __TEXT.__text: 0x5848 sha256:1c07b28eb80f0379c1a6e0e1a629e2198b2caa8adadbd438fd5db8b1736721c9
+-  __TEXT.__objc_methlist: 0x2b8 sha256:c06ab55a49941e218a8000442d4532c8da7cc437252a294513cad11d6326f267
++  __TEXT.__text: 0x5824 sha256:cc97963877f8399c628f0e84c3fd945e784fb107e3069f9798186a95eceec06b
++  __TEXT.__objc_methlist: 0x2b8 sha256:c2bfb01e7a5454cb3af97b46666656e1e9068340489afae00b156a08f3a70a95
+   __TEXT.__const: 0x88 sha256:f2d7701659666735b0539b21551a96a8eeac86d994a4ad5b786f3bb3641b51e5
+   __TEXT.__cstring: 0xcc0 sha256:555e4f5a6f9549860d32defa42d9e41010a50be08ff2fc146860c6015f689265
+   __TEXT.__oslogstring: 0x404 sha256:0324c9b494f2460d4014551d0cb6b16d80aa353b56aaa420147fe6848c296439
+-  __TEXT.__unwind_info: 0x100 sha256:214ef8fa690accc936672962d1488b8fc0111924a9c13a553c6c37cd37b6e1e7
++  __TEXT.__unwind_info: 0x100 sha256:8eda584c1e7e9237ef3bd40c7e4508b0b442de972bf946096f8ed2979684673d
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x58 sha256:9acdcd82fe1cffe35286f8bc81562dcf7e72481710ad970e8c14c3d560a521f6
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:12cec604ff6c784b27de7a18e400b2caad35e2e7fd02571b4e2212b0c8aa0951
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:02593766ed678bfb23d964e66f6637a8651924a0e47b255e159c0e1615892e5a
++  __DATA_CONST.__const: 0x58 sha256:aed88c8efac1575e8b98d086cf896be46bb2bfd12428005246483c698b054f48
++  __DATA_CONST.__objc_classlist: 0x10 sha256:339bf0f9b9e85498aeaccaf256b4de127c6057efbd00a49e220db2722ca19cf6
++  __DATA_CONST.__objc_catlist: 0x10 sha256:c083c6f8e69f1173e8775077a3ceb96c3975c4d1a83aa607b5d5ff0e4bf5a47b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2f8 sha256:581c0d2adcfe2b1935ee4484ba17321f8b5f7ae6de01ddd9ec01cfdf8c119a6b
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:12cec604ff6c784b27de7a18e400b2caad35e2e7fd02571b4e2212b0c8aa0951
+-  __DATA_CONST.__objc_arraydata: 0x1a0 sha256:07a60f51a6f03ea2aaaa7883ef608ade5beb7ba92cf26e58e518a393d5de3082
+-  __DATA_CONST.__got: 0xb8 sha256:8fde16fcaf56f7b612b04e197d8e37ea176b7e3e0a4df207f18456647a0de242
+-  __AUTH_CONST.__const: 0xc0 sha256:1c20c70941e6111633f92dd2c08ba617f104278aed6e290dd2c003ca63288e92
+-  __AUTH_CONST.__cfstring: 0xca0 sha256:9caab1de2879836fbb4ecaefe887376068470901247dc3e1b02e070fe489f68c
+-  __AUTH_CONST.__objc_const: 0x478 sha256:e5a63d5152c68d88f6add8b45b6d79a7cfe7e6a538be7c9e8736f0ba869b5407
+-  __AUTH_CONST.__objc_intobj: 0x198 sha256:3bce90959c8d75ad83f1ee1c0fee4410e61b3504078d839dddff5a166583f38b
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:28346b0d149f2ea17af217ec1808f07b613fa3d88ce8ab2e93629961f08fe0f2
++  __DATA_CONST.__objc_selrefs: 0x2f8 sha256:e310f2b3c284f875fce4b01a3df7372f87e46988fd19200889aec32acac023d8
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:339bf0f9b9e85498aeaccaf256b4de127c6057efbd00a49e220db2722ca19cf6
++  __DATA_CONST.__objc_arraydata: 0x1a0 sha256:eb358ed3f80b06a6015c7a584e85ae905501e003099be64eae5424c05ac843e8
++  __DATA_CONST.__got: 0xb8 sha256:da899060b2ced2bca36be6c88e6b25d7d70cf483389539c83e2f136c64983cd4
++  __AUTH_CONST.__const: 0xc0 sha256:dfc909861c8d6c7e03a30691d47629990d12bbf4a18df4ebb492c0f6490b2c7f
++  __AUTH_CONST.__cfstring: 0xca0 sha256:67a6325fbb845290fa5835cd178bc2f5d924bf97ea017c9812eaf99151aefb81
++  __AUTH_CONST.__objc_const: 0x478 sha256:d2496231b54827f5f5231fe805cb832aaf850ead7359998d858834fd5c456c07
++  __AUTH_CONST.__objc_intobj: 0x198 sha256:b58019c67731a0b9c0b9a8660120afaaa9b63eaae9d74af63f73baebdc01b983
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:8b76746f1382d1589b0b5a8dde5176615a6423e2d6c8f7a967ed935af90d043c
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:63a476dfca3cbb155de7c66fa6589a71372a878569f8e33556bf7c8e405edb6d
++  __AUTH.__objc_data: 0xa0 sha256:e67cdd45daa0eca2d5bfc9ba865e91aef4e955e16c3c37401b7f3a51dc2c3bc9
+   __DATA.__objc_ivar: 0x30 sha256:1083dde3505d9cc241ec4c58fb96207ce16c687bba6687f8f9457045fa28c804
+   __DATA.__bss: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DFD30DD5-C910-35D5-ABCF-29A398591987
++  UUID: 4CA17FC8-426F-37CC-BB81-8E1A74798641
+   Functions: 92
+   Symbols:   307
+   CStrings:  224
+Functions:
+~ +[NSArray(JLArgv) jl_argumentsForArgv:] : 164 -> 160
+~ -[NSArray(JLArgv) jl_argv] : 212 -> 208
+~ -[NSArray(JLArgv) jl_freeArgv:] : sha256 8c6045a2c22f8e74d639abcb3cedf71ddbdee2cc3dd8e2b1e8645938f4d05056 -> bbf643ca8b3d26ca3548c82c4d8f22ef90869be616e432baa3b81bd2249e8432
+~ _OUTLINED_FUNCTION_0 : sha256 2955f8cd96e6ffa8fac9e75d3bbb00ba1e262a37e799a2634e8b956a6f041200 -> 6522947d790a2122567359d747b669904c3d9e1372ad918d2dfacea1d7566ac2
+~ +[JLRuntime allRuntimes] : sha256 f29b74f3b413381965f26aced71223c2ee221bf9af0c0af412b5d7bc5c70bcdc -> bcbe6bef6fc8a1bb4439851585554dcc58f5cc89a71fae566863948b406f9cd2
+~ _initRuntimesQueues : sha256 6cf565f6c52eb2b4e3ff34b7d6db5266ff222e42d1565384359af1d274e2244c -> 8a1722d39a1884a045a9ca11cdd00bf4ccb309cd0093858f83fbb8cc156e378e
+~ ___Block_byref_object_dispose_ : sha256 b2ac699172c0183c0b03294f00baeca7610240e5fef4394322f1c32c70c1e6bd -> c3694d237a68205c599a7c813c04652513e5afbdf6856ca1bd925a793ad47f8e
+~ ___24+[JLRuntime allRuntimes]_block_invoke : sha256 f256596f63ac13eb9a7714c3393c71b55a0841ddd6577e4182e7cc601e23d28e -> cba06166a9e4c78d648a2d7b3a2cde7f2b5d10cc4993b7811a17abe66c07bad7
+~ ___copy_helper_block_8_32r : sha256 107e41ed23fa02b141cde7a7e15a5687c67ddbb83ad9b6a7047d728445dc2333 -> a3b55108a805f21955eeb3de94729dcf7918934482417f7439447c0f7d9af3c3
+~ ___destroy_helper_block_8_32r : sha256 4ad27e3c11f97b5c7f9ac2f043c69b59d6480da5849b190125cfdaccee18dde6 -> f64a276cda106d626032af441afde58966c6b32ffeb570fa681ebfee79a941d6
+~ __24+[JLRuntime allRuntimes]_block_invoke.1 : 1148 -> 1144
+~ +[JLRuntime supportedRuntimes] : sha256 5aa99f2d64ca2b67b00573bb72ceccc76517c9b886ffd73e4a2609baf8eda1fe -> 23b7cee327ada2f095dc83a9d9c27f5d92711fc15dd211e1d393ca56f90190f9
+~ ___30+[JLRuntime supportedRuntimes]_block_invoke : sha256 0af45e27092701c968822ea3e085018bfc397affe10a0c41ef2de6a6907e0400 -> 2482c9b685b6df41d935084b1046d03631d28a1e9ac13e41bf5e58c2507677b9
+~ ___30+[JLRuntime supportedRuntimes]_block_invoke_2 : 1228 -> 1224
+~ +[JLRuntime filteredRuntimes] : sha256 ae958e993034aadf3d68b5171a388836ca551fbe63ac2e93d5665cf7db435d3e -> c7621053c46d04c4f054857ee5e8138d9d95ec7a9eb04590e1df5910c3cad1a4
+~ ___29+[JLRuntime filteredRuntimes]_block_invoke : sha256 d5b14edd7f47795b979512432974b778b2b2ec887d291771e19c592f6a31b683 -> ba26469fe1d2be60c98600f861e61631e61968a366ff1240dc687a080307e997
+~ ___29+[JLRuntime filteredRuntimes]_block_invoke_2 : 1592 -> 1588
+~ -[JLRuntime initWithName:identifier:javaHome:vendor:platformVersion:version:minSystemVersionString:maxSystemVersionString:error:] : sha256 66356e5e2e97edfdc795af1f1f15df69cffa706f2db20276a51f37be3abca6c9 -> 2ec8d53d3a4ebde3ad7dc2281e7eb4cf9e74c15f2019cef606521efcf66e57b9
+~ +[JLRuntime runtimeWithJVMBundlePath:error:] : sha256 976bded33f6a96689c037a36e38ea2e56a96a7697e517413d7cfb12e767727b3 -> 5792659ef014cef61c5c0c4774cd51405a34d3e0fea975fdbbc5cb00e9f3864d
+~ +[JLRuntime runtimeWithPluginBundlePath:error:] : sha256 a475d0a4e8db1cb9f8adf7ce35e7d28f9c83af52a125844965f90e678201ae94 -> 2841fca06bc0f041b408f354e7136def5effd592147b1d6e94dabef50c80725d
+~ +[JLRuntime runtimeWithJavaHome:error:] : sha256 fe06f48759874d1351dba3ac74e72a961e29232b98e4f8b02bbba136dad9d680 -> 3e79de12ac99f3f45eb86f9de5dc268912e9e9b952401b4412cf2ba5e90e4147
+~ +[JLRuntime preferredRuntimeForTool:fallbackOnSupported:error:] : 924 -> 916
+~ -[JLRuntime reverseOrderByVersion:] : sha256 54e5f41d638b09072550dd533587f7c03dc06cc0ecd45e5aed98a95efec79881 -> 3df0bd1296ec426f0158aea6eac8341365d2df80295d68b7a512388823e0c59a
+~ -[JLRuntime description] : sha256 ea785e5bb5ed8a30d24ba6f312911ed89398384e750b0377948c9576cb7dc11d -> fe687ef0fe1f836fa58da59292635860ddb31f6f619bc2f5a60ebfb92c6cc893
+~ -[JLRuntime supportsTool:] : sha256 b90619841960d64052d883ef4ece58c7eee344dd65d020183e12757402ad6407 -> 711da56ad728cc175ab05aba19c9b53d352c758283e077c0203f86911b55692d
+~ -[JLRuntime spawnTool:arguments:setExec:error:] : sha256 aaf8dec74605f1e4ed8096df63c8da0cfacad1165e5f6a2bc1d281afe3e87982 -> 5c1ab801acf9036cff8bf3d4f3be94413868341cf0f744f34f07481758bef3da
+~ -[JLRuntime setName:] : sha256 b65f8eb09d759c4c588f699ec8d00b07a14a12c0d9dcae6b1102c1d710c51b7b -> 5de072204c8cdee9a506187dcb66a75e71505340498f946f18d01d7982175ac5
+~ -[JLRuntime setIdentifier:] : sha256 1746ce100a26e920dfea322b4801d7032a3d8121c0394fec772a35c75e272707 -> eadf9bc41e01a79c9e1786c9a364fc626b3f2cb84424ce12d2845f6abec86117
+~ -[JLRuntime setVendor:] : sha256 16e1d1da5b3f6f790d55a974bbf1729d70036b77ac90a6ab357b639d5084ff94 -> eb0ab0e3a61e9d8ccd339b428dca19750aa489c575865e2a36a86e891c177b47
+~ -[JLRuntime setPlatformVersion:] : sha256 454efb04d4cd839ed6044201f10b6a07be3680a58d9d9a7f85df75a0588e485c -> a6acc3bf01205d01dd25eb454cdc31e0d7d743e9be3589d62de9b3d0b446fe20
+~ -[JLRuntime setVersion:] : sha256 28eed5931167f8897f74141a23ca2565334ae405b584c21f894b328b450ad652 -> 00202acffd241f6dff3ed782c5b93c85e8560686b498e6b080bef725525c9a46
+~ -[JLRuntime setArchs:] : sha256 173e27cf280808491d8d6d4b9aff9e306892293ff7f7ce31ad3fb5829fd606b1 -> 99827f719e41f0e9fd5924832a20d5d2680c3b735d78e3fe6d640dce0734cd34
+~ -[JLRuntime setJavaHome:] : sha256 a528022fdf850ea1f8e7a82a254dab599018ce6c5e496f6c151fed3178cb9877 -> 35484d669bac386923fddecf7f03091fada0fa3b60e0aae20c5e809a05c13f69
+~ -[JLRuntime .cxx_destruct] : sha256 0629aee5f9de72d70357f6b4e9436a9dbf30c48d64de724d6909b11f02aed2e2 -> 4aab5ea96ac44eb5fcdf61bfe6a64c3c1ab1b2cb2a5f42223b1e7b5c667177ae
+~ _OUTLINED_FUNCTION_0 : sha256 9bcb65374319a6867c22b1a97ef7b72e5b44a567bb8510496ff45290c23f488c -> 4d6c270c7db21ece9c9ea552fc5f05f536c5ef66557bcf46f5c0c65102c26d01
+~ _OUTLINED_FUNCTION_2 : sha256 b61dca584f88b6b37e4e854ab5298fac5d6f27a51297b95aa3fe7f54aaed1da9 -> d0b4bfc092d3fef5d9bac9bb745893527af445cc3e34d281cc3b006b9761c139
+~ +[JLArchitecture archWithArchString:error:] : sha256 2a7f2276507e5565ce8a4734f02952f1245bfd1f6b39a3801f9f2b9e4ff02cbf -> f622473194127cd3894b41b2bb11358423ff575f335a09e74c3ee5324dc5abc2
+~ +[JLArchitecture archWithCPUType:CPUSubtype:] : sha256 f51437bc2b1edb47708f206933efc597278156a82d3cdc0abf297d270fe2128f -> de32ecedb536325164e6d390371b7eaff72af81123a654cc2ae893f2a61566fc
+~ -[JLArchitecture initWithArchString:CPUType:CPUSubtype:] : sha256 53da2121039d0d07ba9d20c14ccc6ea6b0634acde2ae8e5d76dc3c308f1ee867 -> 91c0a15e70c6cd3bedc6224492a93b3e99a2c9b5c91ecd7ba4dd39c405a3ad22
+~ +[JLArchitecture archsForExecutable:error:] : sha256 7d052b76aa04ebb5ec2045c1e32d347edd4d17e802d4d2629c2b6eb9c05f9c06 -> b0092c3ac02657c494bc8f757a0ca3786c4739636bf7c645231925b62e59fa60
+~ ___43+[JLArchitecture archsForExecutable:error:]_block_invoke : sha256 81740826f1b5f02fffe168bcc234af543bf386f1a38f206d46f08be6b77af315 -> fa660169da7aab5f847f74a103703061762495de07e6ca10f26edd82dcbcff20
+~ ___copy_helper_block_8_32s : sha256 1339cbe004ddf29b5f887c5dc4ce2996b516592d47134b6694fab7ac9acf88e2 -> 3b5a9f7e514e3334cd030c1502eefa5fc61ba10296b3a0bcb7729e6b4a9ccdf1
+~ ___destroy_helper_block_8_32s : sha256 0854784de945cdac7e9170f63911e065b34a1cf0028920d6972ced85f4483bb7 -> 0c7dc85945a69daa3ecb459a562a2419733410b7820643edbe2907f8f84ba752
+~ -[JLArchitecture isEqual:] : sha256 3e2743036321eb99f1fc222fe4a1482af527ff664c10c8740d57e3372e1b1a9c -> 9fdbceaffd02c7a9b065979cfd37df6edb2451e04ae5fbc453e0f72df27b6ee1
+~ -[JLArchitecture matches:] : sha256 e3836c3d5e54e5ee48520f2fd002357a363c739c35ee33e65cf2639ad5f4afd1 -> 37fa89015c40ad98f58994f586aab05d5c50050b5e295dc5b3eba6a7bc754101
+~ -[JLArchitecture description] : sha256 21aec8045503a98b79ce8662fc3d8b7fae73d641dcf27f2c95974d543b816d23 -> 2d2d25d7a7338762b25cbb8e58761510fd9a33433a5846bed8e448c62d062d28
+~ -[JLArchitecture executableOnHost] : sha256 7f10534d9fa0958d9f3bc26fe91aa3da6453292516de25c73e33a82d53def037 -> 577e8573b5eefb6ebb8260197925e53bf521b779daed4ee3383783f2ee59c4a2
+~ -[JLArchitecture setArchString:] : sha256 7209ef189cecdfd897eedeb33af792306f69a2e6e616dbdec8c5a2f2c57433f2 -> 95f9ed39d8387f3c298a5d0e4abc8e7b38475d414d80fdb8f124ed476bdc1c00
+~ -[JLArchitecture .cxx_destruct] : sha256 d2b5d2975df37b47044abb014d7911aeeda8f66725a0ea3f76cb65024049d401 -> e2748f5fe13c4026a7e0fb1eda76c1b55022d8b920287ecea20fb9aa689c17aa
+~ _jlmacho_iterate_slices : 2868 -> 2860
+~ __read_macho_header_and_load_commands : sha256 9cbf544cbf4235a96a7ce251969449b7777f4f783d31490a4bbcd2250280ce83 -> 7ddb2be4aef2db527f05508c40700c49aa74ce8b027876fe1af9ff3f293b4073
+~ _OUTLINED_FUNCTION_0 : sha256 4ba3bae5963e8da3d120093e26444909f992067c31226805ece24cd34c2d3b18 -> d808a6dd47ef4b9bacdf2a7e562e03fb640589ccac92ee6cc9aa83d384afa251
+~ _OUTLINED_FUNCTION_1 : sha256 eb794aebae497a232d2e4e08aaee195eb639685d4fc889d56039f23b0313b67d -> aa6e1cf78e7c977ac6b3047f91da173ffe19b5dd01edb1535a268e61688969b1
+~ +[NSString(JLOperatingSystemVersion) jl_stringForOperatingSystemVersion:] : sha256 120171f52fc840c4de74ffdcbe9dd82d15d1284df4e7ea96c68c2287d8cb9bcd -> d331258cde1f9784bc9fb57d8bafa139dafcb20179d14bec002c5f6a6f485737
+~ -[NSString(JLOperatingSystemVersion) jl_operatingSystemVersion] : sha256 3374c88e83a043ab7b936e6ab4881b90ed5f6ea0f1e6bafb53e750e8e7c75c9f -> 7741b0b7775a64e90b46c76c4fc6347ffa5a73029b10eaf3fca6dc94de1c2b64
+~ +[NSArray(JLArgv) jl_argumentsForArgv:].cold.1 : sha256 ed1fa708ddeb02b094928528b606ce6aa17a92a23fc7aeb19f7d37ce368a1c92 -> c02222484ddf367105cd69e2db69e119df836bf571b0228586a2ebfeeb127c90
+~ -[NSArray(JLArgv) jl_argv].cold.1 : sha256 6c98f54373f49e531bb99c5eaa9d5129c980fedb95c9829f37e4d456cad8b576 -> 52349a5489128099ec5fb64355711e3f8ff64ae6413602a9d28d7b151cde0f7e
+~ +[JLRuntime allRuntimes].cold.1 : sha256 3eccc685858a5b9398571a365eccff85df116274b0c1ff7af3b326689454f28c -> cbd2b985fa60390a169bdfc4c6458f3d606e8a8f4bd12e6faadf6d42a79e5eb7
+~ __29+[JLRuntime filteredRuntimes]_block_invoke_2.cold.1 : sha256 b44ddf09fee89efbab46de32a3d6e04ee242c6fcc5e20fb1b848e5d0f1b3651b -> f198027f565bf6d3bbc65ca22ea54fd6d5e4889f2a498735c19acb4cac3619fa
+~ -[JLRuntime initWithName:identifier:javaHome:vendor:platformVersion:version:minSystemVersionString:maxSystemVersionString:error:].cold.1 : sha256 e4bd8627e0d0710a053e3f62644d3da1e619a2806a380d7db9fd630477131606 -> 372c6465097db30595f0f765c92e31f9451d21cc8af5c51c27dfd6cb862a380d
+~ -[JLRuntime initWithName:identifier:javaHome:vendor:platformVersion:version:minSystemVersionString:maxSystemVersionString:error:].cold.2 : sha256 91c49230aa27d01e615c918bd48ce2bf183649035e4a4eeb768f67d9490f3469 -> de2e8cc0070c0597ed386bc20b6338f969eaf5f1521fd30262e7b04817f47477
+~ -[JLRuntime initWithName:identifier:javaHome:vendor:platformVersion:version:minSystemVersionString:maxSystemVersionString:error:].cold.3 : sha256 8f484060e5c6559283d107efc3bcbc6e1fc8b57f2f6f59d450a9669d8472b09b -> f8fc14708645e5d12b5aaecf8f7fbf64aeaf8377675ea3bbcc05cb2c3ffdb67d
+~ -[JLRuntime initWithName:identifier:javaHome:vendor:platformVersion:version:minSystemVersionString:maxSystemVersionString:error:].cold.4 : sha256 3b36b6c1bd633b5f406f293d8bcf1e03189b179f75007aa48448d4ab21508ca0 -> 25eabecde222bf9b3af49c73ad1f520480c07b036bf9ced7372be3e35e746d15
+~ -[JLRuntime initWithName:identifier:javaHome:vendor:platformVersion:version:minSystemVersionString:maxSystemVersionString:error:].cold.5 : sha256 f4e8d6792292b4dc79f05d0ce195726d2c780bf8e3c6c9be81d5c19fd3e4029b -> f6b2e57aa81877cc8e7a8f51d5b22ab3eeb87bc2b007b6d02c0ed74506c13cb8
+~ -[JLRuntime initWithName:identifier:javaHome:vendor:platformVersion:version:minSystemVersionString:maxSystemVersionString:error:].cold.6 : sha256 eaeba4b65ef0f390bcd7c8ad4e5a1457627ab98445ea64f9a2d098403a123cdf -> e9613343fcf0ff057a421a5e3aa9419c4ac324ca6d2c67aafcb6054a44a837f0
+~ +[JLRuntime runtimeWithJavaHome:error:].cold.1 : sha256 68d82f4a843922b7b14755021b862ec63fde284e9f5c3c0a1c792f0538efc7db -> 085ed24c948aefb2fc05524dadef5a10460f7cfd6f7489e6e33211c2b22fe056
+~ -[JLRuntime reverseOrderByVersion:].cold.1 : sha256 9764acf9fcf49e6f741e8b713df2ac5132a5501aa84c27c2f8ba78d00e9ec413 -> 840d62e5f8b170401ca11df51b6cd1cc4179ebadf77c52014c9df5ff6a2ed858
+~ -[JLRuntime reverseOrderByVersion:].cold.2 : sha256 dce1f1d7fdf229c67fce3a6fecd31d0d94171c26b1608272ec4b6c0f76b711ff -> c8b7a6a4fe281a1ec13c30ccb7e3d8e1fdde078f2592cc75aef45ad6c98df9c2
+~ -[JLRuntime spawnTool:arguments:setExec:error:].cold.1 : sha256 910c9dcaf786fad15329182a2ebfcb0c753b159c98c1f345824fd91983d24729 -> 3d49f51d7447485af91e93b5611ecf4e3a23e177c66bfdc1d7d456a8004d0e93
+~ -[JLRuntime spawnTool:arguments:setExec:error:].cold.2 : sha256 c5524a4b5a1c416c869a0b995edac35bf8937a998dd5f306ca593917fee3ac14 -> 6ce794bf3fb641d1bebde309c70d5a292bd5d33918fb67f31dc54e38d488ff78
+~ +[JLArchitecture archWithArchString:error:].cold.1 : sha256 61a0e6606f02401603f90b52e16f88827672a6149f2ba585f825e657ecc1b372 -> 68e5abc090d50ec96fbb0bca1c708175eaf333f6be159cd7aaf90240ae0b338d
+~ -[JLArchitecture executableOnHost].cold.1 : sha256 187fdb78de3101cc59fffdb59759c29ff30f52325808327a98352fd856e41954 -> 7562ac60c32ed0d0d63f1265d83be7dcc03043b556aa42cdbcb316028c5fdce8
+~ jlmacho_iterate_slices.cold.1 : sha256 e77dce55119debf1d86d8156d0482eb6a3f4fdc4885d92f20cc08361a38a125b -> ec1c2c1d2b0fb26b034eff013c1b758eff1df7979fdc464539fc01aa1aa515f5
+~ jlmacho_iterate_slices.cold.2 : sha256 d19386115bdb8ce213c5227fdeb6bd413a0f870ed4845f06a0aef8a315e4b263 -> fab18202f4a43fb6e1a02b06b67a27c63811275b21f25d5e5bebc3d3724680dc
+~ jlmacho_iterate_slices.cold.3 : sha256 70ad559d841c8d031760f2841807818c36f3369f9fca682665d344f6db29cf6b -> f6bf0f78c7946c0b975e9bf88c2715d7bbe8ca16b0d408f24fd3b52d37aaaef4
+
+```

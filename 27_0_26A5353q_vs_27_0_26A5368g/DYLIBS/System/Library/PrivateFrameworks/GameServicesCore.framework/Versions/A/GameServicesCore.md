@@ -1,0 +1,190 @@
+## GameServicesCore
+
+> `/System/Library/PrivateFrameworks/GameServicesCore.framework/Versions/A/GameServicesCore`
+
+```diff
+
+-821.0.13.1.2
+-  __TEXT.__text: 0x317748 sha256:acd8d50a5822809e1f660d01d0ba2a0ccc28a3c958c8a18c58cf04081f112a73
+-  __TEXT.__objc_methlist: 0x27c sha256:f3e397d354a0244e8dbb0cba2c3af568aebca63b2d8b8ee0dbfd27758214c124
+-  __TEXT.__const: 0x274d0 sha256:5cb523e5ef552988bd3d87a3ec3395cc3f12560c114bc66316046aa8be433842
+-  __TEXT.__swift5_typeref: 0xb8d0 sha256:e1621ee380dcf146b99f1e998cbf225cc890d29711b8995cf639b57b18f03425
+-  __TEXT.__swift_as_entry: 0x1350 sha256:f1eba4717e71d439d15a46eb750fa61897d31e288e5e2ed5cd3e5387dc52cde8
+-  __TEXT.__swift_as_ret: 0x18a8 sha256:092cf95f6db3b73b6310b3fdd1d0b6de8dbc8795041c7b8b3f46345f7ff9882f
+-  __TEXT.__swift_as_cont: 0x26bc sha256:3a781f9b67ac5dec7ccc972c83f13d236a96c92afaa628f173149c5f59f15247
+-  __TEXT.__cstring: 0x472f sha256:795983f96a880289cf7b622aa2351ad3a7a9d4f69ad460fe513711bfd22f977e
+-  __TEXT.__oslogstring: 0x3dbf sha256:5995ec28d14815092d01a126bb948fc3c9b5eda433356a6c8cc923c91da220bb
+-  __TEXT.__swift5_capture: 0x12bc sha256:7557ae5ea10a10f4faaf819a62760f25f3c1a0d9616891f96a58d37715fd5876
+-  __TEXT.__constg_swiftt: 0x6834 sha256:0465f17f6eada068750d70578e633df005325f1018cdcab0a578f4aa9fe3ef61
+-  __TEXT.__swift5_reflstr: 0x4ec6 sha256:2856079420ef0e983e1fc960544093c8274693244161519b9ecbe95576b2e3d2
+-  __TEXT.__swift5_fieldmd: 0x7058 sha256:a039b1097cc785e83d436ac6f125934e48d12fdac8896a2403f30d79d822f0fd
+-  __TEXT.__swift5_protos: 0x104 sha256:d24c40217a3f3e1d2a7524834d9e7f817c53fc38a664307563a83e35aab99739
+-  __TEXT.__swift5_proto: 0x1700 sha256:cf5b7a6933757439a9d9ae93a4bb214243e736d8bf540342c1135e6d66d59baf
+-  __TEXT.__swift5_types: 0x734 sha256:36b4182693a31281dffe1e5af31d9ca1f4f4e58f75f3a45f6728213cf024bcc6
+-  __TEXT.__swift5_assocty: 0x1100 sha256:68b5e7951cebec2e576544802c07d105d143b6098868f983356fefd49e23a106
+-  __TEXT.__swift5_builtin: 0x104 sha256:adea71c09462ad179385490ce71c2266e66ea22e93be3a40a4431527f48288de
+-  __TEXT.__swift5_mpenum: 0x30 sha256:76971f27fb61c1ec4044fbbee443c15479c86def228b5b7851a5ac1645b3820f
+-  __TEXT.__swift5_acfuncs: 0xe4c sha256:223b83cb4a6dd6642b090b2bc45624513ec8e35b816492522e33c97f8f73a27a
+-  __TEXT.__unwind_info: 0x109b8 sha256:6df9ab521306361e342c53b7aba480c4263e776490036320ae09060a1b532c51
+-  __TEXT.__eh_frame: 0x2ebf4 sha256:822876811a528c2dfbcf5794e8f79f3347a584d17aa757661f368d1d96879060
++821.0.16.1.1
++  __TEXT.__text: 0x32f00c sha256:c8a9f09b31204735778330ed7631765918cab0c8ddd746d079683ecc6206ff9b
++  __TEXT.__objc_methlist: 0x27c sha256:e50f516cff18179bc3c6900deb9e0dfbcd42a2fa89ce5269e4d932bbf99d91df
++  __TEXT.__const: 0x27a40 sha256:a09a1c82eea192fb5c06b14834db9bb61a11ad91590ba20bcc8acff55ac4e38c
++  __TEXT.__swift5_typeref: 0xbad6 sha256:95792e2ac1425e76da393a32948c5185f24727b127ea22f7766e68e6192c2aac
++  __TEXT.__swift_as_entry: 0x13e4 sha256:d7ded173a664d75330c422caba799cb4246b50725831cc739cd0b0fe9927b705
++  __TEXT.__swift_as_ret: 0x19a4 sha256:e338f6e500b8c1341a7f9f8c92bec0cec4d69c21b39047770560c9df4a9c8acb
++  __TEXT.__swift_as_cont: 0x281c sha256:54c05ff96267d34ed5ee610395a640c6be62743031c92add484db3870d925ee1
++  __TEXT.__swift5_reflstr: 0x4f06 sha256:fa314bd980e518b7f3b13d2b15b32de78b210d01fb2f1ae6b24f05b81d6cab31
++  __TEXT.__swift5_assocty: 0x1128 sha256:dc23733c3a5d7d75f7e005d9c686c6a5595430238a1714424af433f478a4e628
++  __TEXT.__constg_swiftt: 0x6920 sha256:7b0e47feac9074b904259af358dcc45c6633eb344a85a4b71c2c5638cb8be1e0
++  __TEXT.__swift5_fieldmd: 0x70d0 sha256:f1807dd4fc129f3c1dc7c29d2a23ff3f682be1b3fa258c6960c65e54616fbbc4
++  __TEXT.__swift5_proto: 0x1714 sha256:01af578b6facb9a3e3acc3a82d3f4d37cca5e6ce57b4426aec8720b431b9c01d
++  __TEXT.__swift5_types: 0x740 sha256:c5f8e77b9cccc61e75be996c1709af48ac7c65dfdb1af35298799d3cbe12b070
++  __TEXT.__cstring: 0x476f sha256:fe3f3538caca0b0dcba47dde07c18dd7021dbf36d865fc8c1e5b4c41f895e021
++  __TEXT.__swift5_protos: 0x104 sha256:b55127bab2ab503dff2a1ea52a99da40adc1e4c8dbe721589d66801b1f5d7d1f
++  __TEXT.__swift5_builtin: 0x104 sha256:9e105c3885dca01ca979f6499fbb04435efcd54be6dd578ffc517056c91a844e
++  __TEXT.__swift5_capture: 0x12bc sha256:fe331685d83b0fdef0431f4eda75f3cc360f759116a2561d1d2ba6d469c8d627
++  __TEXT.__swift5_mpenum: 0x30 sha256:55cce015de70cc61c4e1051e7499183af613410f1e904eaf79aaafe1cabf4114
++  __TEXT.__oslogstring: 0x3ec8 sha256:9457c215000bb76769dfe5ed323ad31267b4f402d670f8f0c84c776853f5ed66
++  __TEXT.__swift5_acfuncs: 0xe9c sha256:195ccdb74facd029ed17b6e3dfca684251c0dede11518747c06513718f10ca75
++  __TEXT.__unwind_info: 0x10f40 sha256:59923da1bb055dcf838ed039dfec92c00df16eccbe25903a502d2f7d835322e7
++  __TEXT.__eh_frame: 0x306c4 sha256:ff5e1f60e446d0eaf8e0740c97852a47dfaa8ac5f8d4d54e070e76ca37f8a30e
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x270 sha256:88ddf41017e9df35b6151d9348e7e57dbfefe4ef313eb71c754cee0e37c5f789
+-  __DATA_CONST.__objc_classlist: 0x258 sha256:c3065becc4567944078d0b5aae8548c98d46253f073cc7d9eb61385437ff92b4
+-  __DATA_CONST.__objc_protolist: 0x30 sha256:997a4de9a78d50d3c649acbffe6502326ca392bf099083bccad7b318c5fcb43f
++  __DATA_CONST.__const: 0x270 sha256:4dbfcb54ad7b071affd7bdae0d4621fcfe4607710751b3a415e7ae39aae40869
++  __DATA_CONST.__objc_classlist: 0x260 sha256:626dc7aebe537a446815b3452a20892f88175dd6574d0dd8be924fe432a5d3a1
++  __DATA_CONST.__objc_protolist: 0x30 sha256:ca63ca3a82fb3006c70e5ca027e31f12067067af3c67837f202c8a4e41247bcc
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x6d8 sha256:7d0e0919c250c8adda0a8c7539fe234891cb20caf4a220fa708caf806e4f12f8
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:d30c79c7d558abe0ba77210a80a75bd66584de1f93a09af740e7e2f35754ff5f
++  __DATA_CONST.__objc_selrefs: 0x6d8 sha256:04e02d114976ca757269bd37115b0cbb1368fde5fbeffa750f59cf6ae98cef5f
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:21824fad71156f0fc3b416fef5d8c7fd8ac00ed9465ca3df4f75741a0cdb049e
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x10080 sha256:8f19e61101c0978532b27e1e5d67bfa2f24e89202a2d50039dd6456cf3800b3c
+-  __AUTH_CONST.__objc_const: 0x5240 sha256:4582d9424904209044b64ba370fbc1db65d4de00734822033cc1f9447b335d8a
+-  __AUTH_CONST.__auth_got: 0x3650 sha256:f75b191322dff8e37cb0dabdbda4ccc14618a50593e1c39a8d40e7b7563cd2c4
+-  __AUTH.__objc_data: 0x708 sha256:b24a5ff86d47f5113341182816f41a84fddd2ebd4cc12766b9476cdca48b2038
+-  __AUTH.__data: 0x38b0 sha256:4729b519c06916c74c05940319659d732362bf22227a5adbc08a735fcefc3177
+-  __DATA.__data: 0x4850 sha256:5e123df5f365cc1aeadf1b529f2b67ad9fa3585a56f68031ff19b9f09c2786e3
+-  __DATA.__bss: 0x27858 sha256:24bc4f2c711d7068cbcb23a0ec6f243fe8e1dc2d5ec5f9f997fd3047a26db3b8
++  __AUTH_CONST.__const: 0x101d0 sha256:7a1988dc0b6446718e1eb0a174f7d7534d601bdbf26e27db8ef458c7c5da2d74
++  __AUTH_CONST.__objc_const: 0x5338 sha256:2a4640d4198509daa9d934ec8c609c23c42552bac29456802220270749b7f0e3
++  __AUTH_CONST.__auth_got: 0x3690 sha256:eeb130a1b859afe3f018874d3d7b0ea264b880947ce541ab398fc273f16f2a27
++  __AUTH.__objc_data: 0x708 sha256:a27fd4351a9eff995e7d110033d33c2f1750c88a80856acd3b03f3c3a39f6833
++  __AUTH.__data: 0x3a88 sha256:b807d8332b58d85d0d3383ae8c24259ea86a94a5abe7d9bb70025e1e2a534ee8
++  __DATA.__data: 0x48f0 sha256:d4d3685987c840c60280a4f70e5a10be031416d97d39f6996cf010e75785dfb0
++  __DATA.__bss: 0x27ad8 sha256:bd196d7736ddf0b900a5dcea0d1094fc55c0bff6021bb73c53aa76f889b325da
+   __DATA.__common: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+-  __DATA_DIRTY.__objc_data: 0x618 sha256:60cc51ad5851c13f1240d04bd6b3d6e963e2ec371255c4676c55ac75ef283379
+-  __DATA_DIRTY.__data: 0x4240 sha256:196e01bd075199342e9acc8148984b098a5a6a634ef37f7680b1424a59692d67
++  __DATA_DIRTY.__objc_data: 0x618 sha256:0943867080ef19b155700d3f16344ab01e2f6b7625991bc5d16be526d481064b
++  __DATA_DIRTY.__data: 0x4240 sha256:437682cd406bed1734e590c74470a1906a296768de8efde59f65372345d8130a
+   __DATA_DIRTY.__common: 0x168 sha256:d3df611a0ed2e328b050d285287637c60643ba96ec09e4aaefaad7f2cd114b77
+-  __DATA_DIRTY.__bss: 0x63b0 sha256:9211273cd7ec5faf35ee7fb72f2a780868ec936ed2e3d25140c23a3d8bfc11eb
++  __DATA_DIRTY.__bss: 0x63d0 sha256:8354085699ca055228200c50058957db89bbb4e3c4b579135fe86a81681a5870
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D881810F-40CE-3647-8F46-7B2149CF33FF
+-  Functions: 21172
+-  Symbols:   13382
+-  CStrings:  808
++  UUID: C5568A66-AF08-38CF-B177-F618DE7F0125
++  Functions: 21631
++  Symbols:   13715
++  CStrings:  813
+ 
+Symbols:
++ _OUTLINED_FUNCTION_798
++ _OUTLINED_FUNCTION_799
++ _OUTLINED_FUNCTION_800
++ _OUTLINED_FUNCTION_801
++ _OUTLINED_FUNCTION_802
++ _OUTLINED_FUNCTION_803
++ _OUTLINED_FUNCTION_804
++ _OUTLINED_FUNCTION_805
++ _OUTLINED_FUNCTION_806
++ _OUTLINED_FUNCTION_807
++ __DATA__TtC16GameServicesCore28AchievementProgressGRDBStore
++ __DATA__TtC16GameServicesCore29AchievementsGRDBStoreRegistry
++ __IVARS__TtC16GameServicesCore28AchievementProgressGRDBStore
++ __IVARS__TtC16GameServicesCore29AchievementsGRDBStoreRegistry
++ __METACLASS_DATA__TtC16GameServicesCore28AchievementProgressGRDBStore
++ __METACLASS_DATA__TtC16GameServicesCore29AchievementsGRDBStoreRegistry
++ __swift_closure_destructor.136
++ __swift_closure_destructor.143
++ __swift_closure_destructor.202Tm
++ __swift_closure_destructor.247
++ _associated conformance 16GameServicesCore23SyncErrorClassificationOSHAASQ
++ _associated conformance 16GameServicesCore28AchievementProgressGRDBStoreCAA13SyncableStoreAA11RefreshKeysAaDP_AA04SynciJ0
++ _associated conformance 16GameServicesCore28AchievementProgressGRDBStoreCAA13SyncableStoreAA6EntityAaDP_AA0gI0
++ _associated conformance 16GameServicesCore28AchievementProgressGRDBStoreCAA13SyncableStoreAA7RequestAaDP_AA04SyncI0
++ _associated conformance 16GameServicesCore28AchievementProgressGRDBStoreCAA17GRDBSyncableStoreAA6EntityAA08SyncableH0P_AA0gI0
++ _symbolic S2SSd_____Sb______pIetMHgTgTyTgdzo_ 16GameServicesCore15GamesCLIServiceC s5ErrorP
++ _symbolic SDySSScTy_____11description______6friend_____8progresst______pGG 16GameServicesCore31AchievementDescriptionGRDBStoreC AA0d6FriendF0C AA0d8ProgressF0C s5ErrorP
++ _symbolic SDySS_____G 16GameServicesCore28AchievementProgressGRDBStoreC
++ _symbolic SS3key______5valuet 16GameServicesCore22AchievementProgressRowV
++ _symbolic SSSaySSG_____SaySDyS2SGG______pIetMHgTgTgozo_ 16GameServicesCore15GamesCLIServiceC s5ErrorP
++ _symbolic SS_____SaySDyS2SGG______pIetMHgTgozo_ 16GameServicesCore15GamesCLIServiceC s5ErrorP
++ _symbolic SS___________pIetMHgTgzo_ 16GameServicesCore15GamesCLIServiceC s5ErrorP
++ _symbolic SaySSG6rowIds______7requestt 16GameServicesCore30AchievementProgressSyncRequestO
++ _symbolic Say_____G 16GameServicesCore22AchievementProgressRowV
++ _symbolic ScTy_____11description______6friend_____8progresst______pG 16GameServicesCore31AchievementDescriptionGRDBStoreC AA0d6FriendF0C AA0d8ProgressF0C s5ErrorP
++ _symbolic _____ 16GameServicesCore19SyncErrorClassifierO
++ _symbolic _____ 16GameServicesCore23SyncErrorClassificationO
++ _symbolic _____ 16GameServicesCore28AchievementProgressGRDBStoreC
++ _symbolic _____ 16GameServicesCore29AchievementsGRDBStoreRegistryC
++ _symbolic _____11description______6friend_____8progresst 16GameServicesCore31AchievementDescriptionGRDBStoreC AA0d6FriendF0C AA0d8ProgressF0C
++ _symbolic _____Sg 16GameServicesCore22AchievementProgressRowV
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 16GameServicesCore22AchievementProgressRowV
++ _symbolic _____ySSSay_____y______pGGG s18_DictionaryStorageC 12GameServices3RefV AC11AchievementP
++ _symbolic _____ySSScTy_____11description______6friend_____8progresst______pGG s17_NativeDictionaryV 16GameServicesCore31AchievementDescriptionGRDBStoreC AC0f6FriendH0C AC0f8ProgressH0C s5ErrorP
++ _symbolic _____ySS_____G s17_NativeDictionaryV 16GameServicesCore22AchievementProgressRowV
++ _symbolic _____ySS_____G s17_NativeDictionaryV 16GameServicesCore28AchievementProgressGRDBStoreC
++ _symbolic _____ySaySSG6rowIds______7requesttG s23_ContiguousArrayStorageC 16GameServicesCore30AchievementProgressSyncRequestO
++ _symbolic _____y_____G 14GRDBv7Internal21QueryInterfaceRequestV 16GameServicesCore22AchievementProgressRowV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16GameServicesCore22AchievementProgressRowV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16GameServicesCore30AchievementProgressSubmitEntryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16GameServicesCore30AchievementProgressSyncRequestO
+- __DATA__TtC16GameServicesCore39AchievementDescriptionGRDBStoreRegistry
+- __IVARS__TtC16GameServicesCore39AchievementDescriptionGRDBStoreRegistry
+- __METACLASS_DATA__TtC16GameServicesCore39AchievementDescriptionGRDBStoreRegistry
+- __swift_closure_destructor.121
+- __swift_closure_destructor.128
+- __swift_closure_destructor.171
+- __swift_closure_destructor.175
+- __swift_closure_destructor.179
+- __swift_closure_destructor.187
+- __swift_closure_destructor.187Tm
+- __swift_closure_destructor.191
+- __swift_closure_destructor.200
+- __swift_closure_destructor.204
+- __swift_closure_destructor.220
+- __swift_closure_destructor.224
+- __swift_closure_destructor.232
+- _symbolic SDySSScTy_____11description______6friendt______pGG 16GameServicesCore31AchievementDescriptionGRDBStoreC AA0d6FriendF0C s5ErrorP
+- _symbolic ScTy_____11description______6friendt______pG 16GameServicesCore31AchievementDescriptionGRDBStoreC AA0d6FriendF0C s5ErrorP
+- _symbolic _____ 16GameServicesCore39AchievementDescriptionGRDBStoreRegistryC
+- _symbolic _____11description______6friendt 16GameServicesCore31AchievementDescriptionGRDBStoreC AA0d6FriendF0C
+- _symbolic _____ySSScTy_____11description______6friendt______pGG s17_NativeDictionaryV 16GameServicesCore31AchievementDescriptionGRDBStoreC AC0f6FriendH0C s5ErrorP
+CStrings:
++ "Achievement progress refresh: %ld entry(s) for %s"
++ "Cannot open achievement store: no authenticated player"
++ "GameServicesCore/AchievementProgressGRDBStore.swift"
++ "Suppressed sync result for %ld row(s): %@. Deleting rows silently."
++ "[BGT] Reindex cancelled before indexing (context: %s)"
++ "[BGT] Reindex cancelled during indexing (context: %s)"
+- "Cannot open achievement description store: no authenticated player"
+
+```

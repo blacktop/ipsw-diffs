@@ -1,0 +1,415 @@
+## MonitorPanel
+
+> `/System/Library/PrivateFrameworks/MonitorPanel.framework/Versions/A/MonitorPanel`
+
+```diff
+
+ 149.0.0.0.0
+-  __TEXT.__text: 0x10548 sha256:a7a12df2da6dc308bc00f17685a1fe107272760ecc17c53bf2c942bb10b50c12
+-  __TEXT.__objc_methlist: 0xdc8 sha256:25ac71a47dcba9719b37a6ba7e35a06d81db640967eb401d6c4c98396dd2e23a
++  __TEXT.__text: 0x10450 sha256:cd59f26fcdf81c7906351eda408f703247e1aa33a2be1061813979bb81044b52
++  __TEXT.__objc_methlist: 0xdc8 sha256:40aa82acb72134128870563a88b7e4726fc4129733365545df612b312a560823
+   __TEXT.__cstring: 0x127c sha256:bef5ccce49fd536ae5e6248995ec738f0226ac342ecc34f8648f6455540f3cc2
+   __TEXT.__oslogstring: 0x1167 sha256:97e43c1e24b86ca918c82b2311e88b6081cfe48ab34cf6f4934edc1cd92bac81
+   __TEXT.__const: 0xac sha256:9bf154f4dc6097f60ec283ef3936dac49e05141d6e801bf8495c1dba2645cc39
+   __TEXT.__gcc_except_tab: 0x10 sha256:73744fe1d0e1784499ec99857a63bd67fcaf1c4fcbde9cbb2a693acfc4e4d552
+   __TEXT.__ustring: 0x42 sha256:d3bb75fdd9e4ee02fdc828ecc5f4b83ff33a58794a213125eb3c8b1204e01f23
+   __TEXT.__dlopen_cstrs: 0x4e sha256:801d53cb4bc8aaf796dd7248540fd72c4148bcc339e0ee97eafd8dac5bac1cad
+-  __TEXT.__unwind_info: 0x468 sha256:91ffb9e201ca2a39f97204f71341ba0ca991a634dabd57076ace2ff59157d9c9
++  __TEXT.__unwind_info: 0x468 sha256:3b2d6c914353ec9cbcff3880b69a61c09012d286f037b121adb9689e8a57a3dc
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x170 sha256:85545be94dbca44c0ddbe57ce45685b805f0588ac0007288a6bf0a66d71ebc59
+-  __DATA_CONST.__objc_classlist: 0x40 sha256:b16e1912c267ea0314fbfffd5cd033f0b0b27a11d43556476ba2f8b9c4f2bbc0
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:541c898a41b5b2af789eee7c2bc4f4d7a68353d0f40902ae2cc616dd7ef11e69
++  __DATA_CONST.__const: 0x170 sha256:032f8d999cb632ec6366dcceac3144b1ef5d63ef37f68e3796f7526fcff86f45
++  __DATA_CONST.__objc_classlist: 0x40 sha256:20f521037b52b41fc0c7c3113c66a88347678f2436b2241ccb86f4afe5d243e4
++  __DATA_CONST.__objc_catlist: 0x8 sha256:1a2425f3d09314f666fea83f6aeae39e92b6f282a5c6abe5857cb8e779a511a9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xb58 sha256:6476cde0af81d1a24f12cdaa1e2e3333cd3d4b0bfbbc09b35e1467304d263f74
+-  __DATA_CONST.__objc_superrefs: 0x40 sha256:b16e1912c267ea0314fbfffd5cd033f0b0b27a11d43556476ba2f8b9c4f2bbc0
+-  __DATA_CONST.__objc_arraydata: 0xe0 sha256:8293654fdf826c80de0f3435acef6ef2ebe0e9fba2ea785c35892278c292023d
+-  __DATA_CONST.__got: 0x158 sha256:1075204d6a435c8dcdf792d0634e599350580b39339f0c319b8f34605d94c6cc
+-  __AUTH_CONST.__const: 0x2a0 sha256:76e68f5730e2f830a61b805eeb17dc9db0546e2d958d28bbb6c0435537293461
+-  __AUTH_CONST.__cfstring: 0x1820 sha256:ee880b509ec07880a8bf0ecf6c032e333a575cbebc4c91f65c7e02a0680d8947
+-  __AUTH_CONST.__objc_const: 0x1920 sha256:9d059a87668bff35f94bffe72601bbcd9e423b54d48ead3b53fd1b860997e5da
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:77807f87d9ac776db9ee56d9e28cea046fac23524aeb201c141fb7115cd082f6
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:a699fcad3f1f494de4515506ed5725a5e8063b05be11a483ae8349cf674aa34f
++  __DATA_CONST.__objc_selrefs: 0xb58 sha256:003f236d146b32845669a018485bcfec42c403e46687dc8d7b30dfb99dcabafa
++  __DATA_CONST.__objc_superrefs: 0x40 sha256:20f521037b52b41fc0c7c3113c66a88347678f2436b2241ccb86f4afe5d243e4
++  __DATA_CONST.__objc_arraydata: 0xe0 sha256:14c26d1ad5d12167e3b21725e623c600e0f971d3ec56fc6f5749fdee6a452fa2
++  __DATA_CONST.__got: 0x158 sha256:e00177bc35d3e703cd8298e6b2be2f66f6903f8ddb5211b90779855ec9170696
++  __AUTH_CONST.__const: 0x2a0 sha256:c9a02af3fa309162078b5c660066abafc698fa6fbe4dafceb3d24ae0b06a4fb4
++  __AUTH_CONST.__cfstring: 0x1820 sha256:3ac2ab831b9def68f4432c413fe3b7ddace24546e8cb7a2afffffb97aea1a5ab
++  __AUTH_CONST.__objc_const: 0x1920 sha256:b9a0030d8548bf35cc140adf95d6c7726a9f2566684340c8e308de8550e40ce9
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:f88e66781b5f5daf1a758472ccea16c279677822409e31b7491e46f2249103cd
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:ca1d731b884dbf3b6b7ab847cfc958f5d357c1662c24f7156bae561b8179ca80
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:43850c10bec60dbb265fc43bb66bbf106889b9620a660cd54109fafc40a5b03e
++  __AUTH.__objc_data: 0xa0 sha256:ca977d6aaab96228a3c8fce6e0fad471ccb06bbc37a3aedee321dba44d02d62b
+   __DATA.__objc_ivar: 0x1a8 sha256:d10346565d4faa7077ec79fa3cec9f23ca64dcaddda32324cefa519609a3de09
+-  __DATA.__data: 0x40 sha256:663d9808231b169a7229cdbf2f4e877c256576d29dff7870aa0007b93d749e76
++  __DATA.__data: 0x40 sha256:e97494a323af1cfe1dd25845ea6157a5f3d5a45862013a69d5bc53f08e27c5b4
+   __DATA.__bss: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+-  __DATA_DIRTY.__objc_data: 0x1e0 sha256:d42b7cac62a4df4ed867b40591b3cc2e8cb4a14abb2860f6793782a925c18770
++  __DATA_DIRTY.__objc_data: 0x1e0 sha256:6ae29d09ab46d01586192822159f299b038bfa3c3635c2dd2a8e4598fedf92c2
+   __DATA_DIRTY.__bss: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/CoreDisplay.framework/Versions/A/CoreDisplay
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B1C2AF3C-D08B-3941-998C-6742CCE6F258
++  UUID: E3120207-FE15-3CB5-9B4D-A5E734E6FA63
+   Functions: 441
+   Symbols:   1135
+   CStrings:  525
+Functions:
+~ +[MPDisplayMgr sharedMgr] : sha256 7c39090f10087ec155b66e7de5c5a6670294ecf9cf9d2567ce0d218259ecdabf -> c0e71f5ea48254324cdf85afd40c195fa795866db7a7ec21d5e1900a090654f8
+~ -[MPDisplayMgr init] : sha256 eb9a7db283e31eb53f0340ac714b911201e0d2054221934cb60dc6dd6d142e1e -> beed1539f2a13e520fef51575504903efa65ceda10b5e9ea3b7171d90288f4b6
+~ -[MPDisplay initWithCGSDisplayID:] : sha256 910cfd2eb3d44b7d1b242fdb8f00f45e99d5d618d5acc72d6548d74d434991a3 -> 9c6de20f800bc09b4a5d8470eb738207527dd186924815891464cf4019c8a5e3
+~ -[MPDisplay refreshModes] : 2556 -> 2552
+~ -[MPDisplayMode isHiDPI] : sha256 839556d7d7ca58357c22024cf08287001b4a4e209e75acf19711af69ccd183f4 -> 4b5a0bc15a95fa30e94263a38099e039ae65bafac211f1fa5edb7b69f15e729c
+~ -[MPDisplay determineTrimmedModeList] : 4256 -> 4224
+~ -[MPDisplay bucketizeDisplayModes] : 2604 -> 2580
+~ -[MPDisplayModeBucket addModeToBucket:] : sha256 5cf51235dc4d9474b8d080bbe19a0279c0859f6f8032c3809cdbcb716f0b418b -> a037c5a801f9419beaef914194c610b17fb5b936371750fac68e9d1a48e69047
+~ -[MPDisplayModeBucket modeFitsBucket:] : sha256 1ed7ce5e8c150e56735fea6a451cce26b78e4cb05c7857ef0dbb5dc4a53aad42 -> 358ef62a4e0d75df379a1a8abe44fd262997ac9914bdf52ab1a8957c64ba518d
+~ -[MPDisplayModeBucket bestModeForNativeHeight:] : sha256 ae10885098f80ac2e156fe0f07385c034d13252fdac885382617db47d6b9aa83 -> 4c86b70074622e43f7763fbefbefe201daf3424857c8ec21f533c3059b97d443
+~ __CompareModesByResolution : 460 -> 444
+~ -[MPDisplayMode tvMode] : sha256 56025909c03482564a39ab6be225cf9cb0dce15b3c2cdb30f146500911cc3a33 -> 5f36026f44e4fa1c4f835ccac2ba8e2484dbf1a4080b724e229aa6f0f97273a6
+~ -[MPDisplay isModeNative:] : sha256 450d391d11b508c96cee312368e0e7e157d965f6894ff6fdcaa0cf73e4f29bff -> 95c0b67e8ed693802873845c0dc55bb9457e8e8c505393a10a98dae6e3cc1eb1
+~ -[MPDisplay addMatchingModesToTrimmed] : 444 -> 440
+~ -[MPDisplayMode modeResolutionMatches:] : sha256 4b10b5d10074a16f0859c7bf7be0397651563d70465297bdb5086be0cd48bc36 -> ae0f932f64dfeb058fa99be4d717738feabb2d0de61e6956b17183216d386563
+~ __CompareModesByPointSize : 308 -> 292
+~ -[MPDisplay refreshResolutions] : sha256 ed46a246b78dfbc22256cdb7113730a227298c978d11f9a3745d06fba2404a8d -> a538954dcc119c156549b93dd5bae2c6013ce66a988722d44af714f8c6e605c8
+~ -[MPDisplay refreshResolutions:usingModeList:] : 344 -> 340
+~ -[MPDisplayMode resolutionString] : sha256 021937725654b2c279399428e3944cbcf497aadcc14994494b4c7725637ced99 -> 7c4835a7c0e2f847e9556063a35a7640c21e30438ff7f422d85f5624583cd94b
+~ -[MPDisplayMode resolutionFormat] : sha256 c0e64caa723991744605a5fb4884af37034da7538fa6f3b72acdeabeadee6c45 -> 0dbc506943965eac3df6b8bdd2150b1387a71456fe24b935910bb58e90906a37
+~ -[MPDisplayMode isRetina] : sha256 f566ab88e7e8bd6635dbf970ab5453f904654a50f24016889a3447564c7f46cd -> de1ae0856a589409ae5975eb7f21ae7e5e0e8cc9f6027b0480cc38b6c30ebd0e
+~ -[MPDisplay refreshScanRates] : 544 -> 536
+~ -[MPDisplayMode scanRate] : sha256 0bf5d0a399a42b0daec08046ebe9ca4b2d05032f2993e37d3b939656fb151268 -> 8557d91286588e20d730935c9db277980fe2858ef8a70b3478990ff91a1c2762
+~ -[MPDisplayMode refreshString] : sha256 1845be3ead20172853e1532e5e8a13d586b664272d7ac771625c303228f1a6a5 -> 72d2acd73d869312fb0cdd0958d57467e220c5b6fa06e98a3e0297070b863678
+~ -[MPDisplay hasMenuBar] : sha256 2d430cd3e87cc09b522bf60ecaa42364cb18976e3b148636e3f7384f3cf3ff3c -> 8bfc2b7687dde97800a93cb87c8a63cb68b282f3c028afb4240f451ff51b3e10
+~ -[MPDisplay setDisplayName:] : sha256 b1e501796bbd96885fdcac910d970656304d269348deacc8113b2c0335247bb2 -> 3851b363a0bd47a329513f9f08ab59972b30fafb450aaf3ebaf79724f74ac5a7
+~ -[MPDisplay defaultMode] : sha256 567c118b9046a7cbcea8f016d5505147450df43501d3bd5da52722bde931c76c -> 5459eb4943f664fffb50e1376f1628beebbee25454778ebc9ef8423da179f401
+~ -[MPDisplayMgr displays] : sha256 ddc0d03975433c56f1983b36f33e3dfd69559411e03b9b330ce949fceb90bf10 -> eaf34de06e9f3626aff99adde532e66231d4440b6ee5ef6f7c3085e19d78d9fe
+~ -[MPDisplayMgr displayWithID:] : 304 -> 300
+~ -[MPDisplay isAlias:] : 172 -> 176
+~ -[MonitorPanel initWithDisplayID:] : sha256 57fd53ba112eea2cd3e153357f67c538835faac5778b3b8e24539e2a33f0c94a -> dab95ef4a4be511ecfc747d2b8eed8b0975b2261493c9b11e27b3af126287962
+~ -[MPDisplay modesOfType:] : sha256 2460c2c477ef8404afced60b5afe18894ee785a98404ef2fe5fc81197f79f3c1 -> 50cda403250accf5e9ab1e6f2f9790c071f499b9e4f9354a1711f9d86fa7101f
+~ -[MonitorPanel setBundle:] : sha256 d570c5afe1af152c52ad14ee53b0dca75aa29230c973256a8afbb21fc87e45e0 -> 1f2d1b63c6c16281ec60ece360ae59d32ea32dc617d7810d0b21a21fefdbcbaa
+~ -[MonitorPanel nibName] : sha256 dd552473ec3ccba9649c9c90fc4726222c318e6c818a1a55a58750c275fc9c22 -> 93b45780a08c19892c96cb64086c41c84ed31b602f7d9a69524a2980646d4d85
+~ -[MonitorPanel didLoadNib] : sha256 942e53b99c211917007f8480adb67252587e37e050be0e5d38e38779aad911d7 -> 9bc81560174235b73b5fadac3ffee7f8f69f6c212534831421793746acc1de42
+~ -[MonitorPanel majorOrder] : sha256 bb5f0d272c676960d3cd0a6d25972805fc32fb5f9fffe42cf82c32feebbbb220 -> 2e110c753103e7641592453c0e49a68130a63ec0ecec811d57c7195d55c4002c
+~ -[MonitorPanel type] : sha256 2dd4886a7e9a6312f95acadc9485a1fa65baffce0c40b40c8cf999d1d9bf5696 -> e68278094dedadfae5227a661ac3ce96b0031b532ec6a373ca8ca0e3b5bd7cd4
+~ -[MPDisplay canChangeOrientation] : sha256 b6e024083b11e89d70326fdabae9aa1f079aa06131bc182d8320646b039e2359 -> 015a795d488bf54841dacdcfe85d735e7acc215c24155d7859a8945e9e675469
+~ -[MPDisplay supportsBestForVideoMode] : sha256 54232d5e43c98a5ed6bf88d93ae0da50ae3b5c8d2b12af84fe64da7d0bebea24 -> 3b37d509ebbb6d2d4fe0c21c0e579a723326ffbff8131819217abccc162973ce
+~ -[MPDisplay displayResolutionPreviewRect] : sha256 2d6ca96ae886d8ca8b4354a0dda16807ba5916b6fa07c104d1936c251c9c586c -> f121cd9480571acd647d8ad65f22c61ce0207b59f38267755b44d019e8dd46aa
+~ -[MPDisplay inDefaultMode] : sha256 a8236daea22c13d5fca0069bf7cb9965a6ca1d1c54e98bebb81eb37940c7befb -> 024d0d994ae1ce6938a60f429bb7cef1234c1870d482e08cfc34442aee595e3f
+~ -[MPDisplay currentMode] : sha256 4f36610c076bb73b5e30fa362920573b27c0ad90259c5eb7e49bd4f9121b1463 -> 5ec4687ebc941a825412472711d2ecf94047c13a0f3a6539cff67f12b806173a
+~ -[MPDisplay resolutionsOfType:] : 520 -> 516
+~ ___31-[MPDisplay resolutionsOfType:]_block_invoke : sha256 6b0c19ac76d33aba3d781e6c31edf91500db261fdda92e5f055cd4aad3d27026 -> 134334f839998e43458f31750f2b89df567d34b1873e50f6d7610ea3280d9b83
+~ -[MPDisplay bestForVideoMode] : sha256 7baf811cdfe85b7b2237b6c10a35da930cfe7421b0e424ee6ccdb09a9af7486b -> 1ec8227377347717af3122e052522ffc6e54e04db51b4163d8c2a7a8192fc597
+~ -[MPDisplay supportsUnderscan] : sha256 1ebb418024e098399037014bc7d70287d3af035bd604b1d8a44da7458f708ec0 -> c5690b074ca8dbbf59dfde0b211a703adc3d0af5369eb533fe3b502ce1ae75b0
+~ -[MPDisplay overscanEnabled] : sha256 66eb15736555b7410d4ba1638f525325e8dd08b2e6b7b1c5414e28055dcaf7ab -> 817b5ec48c7605c73e879c0b291ac563fb4a2d209fdf0533909cf135c336dde4
+~ -[MPDisplay titleName] : sha256 69e4a22a2b319a962acfe151c57e3a4a9796a96dea543312719de1480d8afc34 -> b4a88d1551d5c592b338c029ad0edbeb0655cceb9c4e26dad604382d349c62ce
+~ -[MPDisplay displayName] : sha256 8f224bf6b9e17a0dd9263b6e05d5ebd991a376223f242a9b2a8ad1203bfebd0e -> 948e0da01b733a546291262bd6d17c512b43337985b7c0c9d991d00e11748a6e
+~ -[MPDisplayModeBucket dealloc] : sha256 b662c91e9c79d612a78d18d2463512ca6bf6ef4ab43e32a056109754207e40b0 -> b6d48812048b43c50f3a491e0fe36d5e4a174a22cc625401ac65ec30cea6807a
+~ -[MonitorPanel dealloc] : sha256 71af675332459295680f248b868fa31d9a54a04debff6af4e0eddca7b09b037b -> a46c8d6d8db678d3a0eb6c0b0e54cfd4a693ee8c5a1fcfd71ac6c9895fa6fb0c
+~ -[MonitorPanel minorOrder] : sha256 9158b7f598a91fb8cc67a48a102de077b310455f801ac414f574593e98105f6a -> e8047a91a01f2763e5767a7df0c9f5ebc65f980558e3fc1daf10f57127fe6632
+~ -[MonitorPanel family] : sha256 d8a6f1a858d89b67e55cee44de12d3d91e40678dccb55d98f4e687256ca9136e -> 77c2d970cb5f6001e5c79143f7516466f8031a60a78cc34e2ab6ad488ff774a1
+~ _OSLogForCategory : sha256 09afcb3dcfff01925de2e14fc7b1799f958db9de0b8d6f8a1172346364ffa019 -> 531f5eb077dbac53b98e4b4df7780f1e5a1c2ecaa2538d85c265cad32771d334
+~ ___OSLogForCategory_block_invoke : sha256 ae85b3f23f1c416af3cbd4d12858fd46ef2323552847d16dfca527e31f8169c0 -> 7df7ffebd0673b5629b0fd81c6585ede714bf4b97e53ee306f912547e61dc730
+~ -[MPDisplayHW initWithDisplayID:] : sha256 df27aa91e2bb119872c2107515494e696fd10ee4a4c9d4509506e769ebaedba9 -> 535197182dace404272d8d83e1d592bc22f9f1adfdec6776f51c60c8de613dd2
+~ -[MPDisplayHW initWithDisplayInfoDict:] : sha256 af0ee8c5bc37311aa8b70cb388d4453d0eacd23d27fce0ed2f9a92d5b90e357c -> 0369afcf8450d211caadea911bae2902d3d3f4ef63a16a7e7fd0d2f39bc5ea81
+~ -[MPDisplayHW dealloc] : sha256 d6cbc27ad664ad1b6b8d81199c61b3e9bfa38bc12050902d171c94f7000bcc36 -> a59ccd1047ace0427429147cffa4f51e713a5004f80ae5f7a8906be99b02b8f6
+~ -[MPDisplayHW arrayForKey:inDict:] : sha256 24dce01fedc1c33f51311c7ced87af05bd8bda7bb8c33c013c9423f5d80f596f -> 6fdc2f36a7c3d7a395b604d2a8b59fc0609f84cc46ab7cf388892a5f1bd744be
+~ -[MPDisplayHW dictForKey:inDict:] : sha256 0c5c21fa3d07c8a6541421b2ab77b699c3f30b32ffed60ec68101d8570de29bc -> ee01eb60e19468e66c1edb84274296199b7756727ffe325306037895e0e2aa60
+~ -[MPDisplayHW numberForKey:inDict:] : sha256 d4d3978a2027c7a7b117d6f2e073c3d3ac90ae4a5cd2087ee5452b60815d0ccd -> c7afc2412d88336a347e339cd692296f3ed8a68ef2e8eabbfd4244b9c11a68ad
+~ -[MPDisplayHW stringForKey:inDict:] : sha256 4a7b129abd166587993076594822bb1e7d7bf4328797d85e96352d00d244d923 -> 6cbf940769ea6e53b17cd9e06ed33272bb1853debd9b3b033becbdc06340fca2
+~ -[MPDisplayHW arrayForDisplayInfoKey:] : sha256 4cd02318ab6930c10ccd38afec854720134cfc659ea94eb6cdc7fe7bc8973459 -> bc6b1166a79c2a3322a333deeda7549c372d4cc4930f76401911201ca684c6fc
+~ -[MPDisplayHW dictForDisplayInfoKey:] : sha256 b85f14a3e75089c4d9893327cdd2b48c5bba204ba975cd1106413a1a9df88e94 -> 6c69f6c7b65190f6762df7f4321f98737b484bc051328ee17f2df71856293d75
+~ -[MPDisplayHW numberForDisplayInfoKey:] : sha256 e9f883a5333dc42338b507389b7edff4536a82d68d5ebd48304cd656720b38c8 -> 021f2db198004dcba0f192f136c440352eb9269749f249ca9971f77040bdce13
+~ -[MPDisplayHW stringForDisplayInfoKey:] : sha256 32e7a8cf78d0e1ad738cdfc26c6eb62bf05d8550a8f44fd8541df6177a207968 -> c327ba3e409a4b980d55d8fc27d3cf7c98925c9f15dcc6aea9eaf31734fe1638
+~ -[MPDisplayHW setActivePresetIndex:] : sha256 d83e8a55b217a28edc4b6c7d4c8bee19bd95ec93c6ad47d9ff72913cab2ee751 -> 7d89a1804ac2079eefc6af320dbfea4ea12e87ea582b8eece5b5d46d753a7315
+~ -[MPDisplayHW isProjector] : sha256 ec9f5d238b2d6a6924a41914385bc1d9f9381ec4c84b5bdbd27c819f320a025a -> 9a8dc17e1c4f8842295e2fedfeef5239f977ef18766e173c87616b6445a6dee7
+~ -[MPDisplayHW coreDisplayInfoDictionary] : sha256 d246760e177183b13dee511e29b43ea5dcca9318ce99d90236acd775ec6791b2 -> 1687cd7601abf2b21882163f87b0bf6c14a947939393171efe0561eb445b53dd
+~ -[MPDisplayHW hasMenuBar] : sha256 452eabeaf6c485f4dcd159406f52c59fb2de21b1bf993ed871178bf4a97e80bc -> de3b62fbb95bcef6ee9e4806cc06be494eb9735b5fc69f6c056788a1b0fbcb74
+~ -[MPDisplayHW isVRRDisplayMode:] : 436 -> 432
+~ -[MPDisplayHW displayStatusQuery:] : sha256 d147b8c99525a96fc98c081d7c9759298b8f8f78ea0f3767c4d94e696afd2106 -> 966510ed6ba503314db13d3ab30f70d8777ed4212affa880492a189248e3968b
+~ -[MPDisplayHW currentModeNumber] : sha256 be63df28581319f18a5430cc7255006d7b9e063c7e601efe116f9730ae3a310e -> 6e5f54a4e040ae6ac3f6df136305e73b99326765bceaa5f60eb311d811b762bf
+~ -[MPDisplayHW numberOfDisplayModes] : sha256 db7f008eeed4f865697b047e14e7584794ded35abe572e4248aac7f10fd8cdda -> d4750b8a5e548ec0b8d49f7aa156ad23909ff41a5bb121680760415b4503bf0c
+~ -[MPDisplayHW getDisplayModeDescriptions:count:] : 1212 -> 1208
+~ -[MPDisplayHW presetsCount] : sha256 6db3ca6db0b0e84100d18fc43568ca11963bf271ea1b568a37df4cd17cbe1586 -> e8aef00438d0d7f166bdacfc35d98fc67b021ce5b917a883a577f6e949f4dd5e
+~ -[MPDisplayHW presetAtIndex:] : sha256 4858c5ea82f7366cb6e2b8f4d21ee64d7aca89b475816c46955635504a79a80b -> bb8d515d635a7b12184774d1bb5d6e36e299b244298dcb8ecbb08a9af89c10ca
+~ -[MPDisplayHW isProMotionModeAtIndex:modeNumber:] : sha256 f15aad74a1cc616fbb77500bda00087bd7bdf0a25f36341e3719e0ca6280601e -> 051bf81146fca8070bbb03bcba1efdc2ea521c1ef12affa2a3daa2662a1fc757
+~ -[MPDisplayHW isVRRModeAtIndex:modeNumber:] : sha256 ed2372fe93e47c6e7245869b32edaff5c5bcdb1868869ad22d0a0ce99f10bf01 -> 4b878bccd8764ac53f45d6ea39c1344ea982c2229a934d0db964153d4a352182
+~ -[MPDisplayHW minRefreshRateForModeAtIndex:modeNumber:] : sha256 115f501dd483c4ab455ce896b79cb0f83a54b3f4361f4dd4cfa4983d361f63f0 -> 9c33f56574fcced67c2fc7aea34f8dbda3af723023d7ef7f7b508ab8f7f10631
+~ -[MPDisplayHW displayInfo] : sha256 afdfcec16ad0b2d474c03522bad4e55d18fda6051fdff67b2d1180e2c9b0a375 -> 1bc81c3d646d3f8d46288fa6d009b96a1a763410a802c7f7e67b3bd2d700fc4c
+~ -[MPDisplayHW setDisplayInfo:] : sha256 3cc2266e5d30ebc3f7c80a812b38df8071820c453ab25fe03980eb65e2076424 -> 124ec7a82add2c4d53b07b316f866e4115c686362736b81dd1a38125eeb031be
+~ +[MPDisplayMode modeWithDescription:forDisplay:] : sha256 ca47ed9af354f212f005d8adc3c93d22d8a2ac237d3ac244fb02d9c2d7a97d6d -> 4b6ed9d78f27d8ff968b7c91094837ab1a0b8de6518bd97b6fd1982c3806bcd6
+~ -[MPDisplayMode initWithModeDescription:displayModeIndex:forDisplay:] : sha256 472d812acd54f91f5824526fe83564b4e494815e9186fd9f5561f45de3e05506 -> bbf58323fd567470845531fd57e960008471b15ae0bc7c8579907e0aa4eb31b7
+~ -[MPDisplayMode initWithModeDescription:isProMotion:isVRR:minRefreshRate:forDisplay:] : sha256 c0a1d42ff86bbc902baa2b357dcc3f150699121c70528af70e0000c6ab4577ad -> 40dc7fc3b3e1b5f54d9d45d79e3c08c658521de57f55c791f3da48b4a1dc224f
+~ -[MPDisplayMode dealloc] : sha256 1011d532df808abe886e0b482ca62bfcbed44a51bdc9b2c90fb64d25e8aa2ddd -> f2e69820e587e8cd8384d6e10e9396411374b5cd468a1c70964e844a18b0d4fc
+~ _FindTVMode : sha256 fe987a87c17de8df172ceb87308e7279cd5d45626b43b419e4147688a2be5281 -> 6fcd2afc8bb7d9b7b2354352c7c5e7b65fc65f8032ee28268100d74b8a2a3e68
+~ -[MPDisplayMode description] : sha256 50d950aa41ab2675e1d9c62741e0f5632367180a8ba0e9d305d2db724a225ee0 -> b56ce7315de87659e4076f6ee6bf7c04da0e3767fb638dbffc09e513d60d63ed
+~ _LocString : sha256 27f8dcd6f5350f88bbda83ed3728acd746c9a3c7e39dd469ac29aebc5799f207 -> b375df242a8d5d99b0799d09823543d10ea48016df675c72853e6beb38f9a436
+~ -[MPDisplayMode _nonTVKeys] : sha256 11714e26c67182c675dbbee73f46e9089609655ecb59ae15917ba9170393281a -> 8294cb49c011404c28027d9f3158a24cc44aaed32566f2a9aa656058a25af602
+~ -[MPDisplayMode resolutionKeyFormat] : sha256 48d31111b1aafb32b67262474c6bf3ff1f1ed2d7023c3edbfdcfd9d82a27cb11 -> 1871326e2f53135c5ef505db7156668a94cae2db6f882d74d4274b5402d5d0b4
+~ -[MPDisplayMode resolutionKey] : sha256 c44087947ff6c78868293aea12d81269e1ab5843d3646b4732bff5988978048b -> 640fd4f2074097f98b2dafc39627930d0a730d3d7c44d0d833567266459fbf04
+~ -[MPDisplayMode display] : sha256 cb81dde96841c1339d2951fc5ac95b9f55fc17e0f9973876241b3f8ced27321d -> b523c00a26491babef434c6d4cbce83c488ceba04d23ded2b2e37dc8beb8b1f1
+~ -[MPDisplayMode .cxx_destruct] : sha256 1cce0d414a2b64e8e01207ab68cb2cda615c1bb8c1224dee4e0d0e6a5be74596 -> 1c99d24fdc827d4d9ad22d1644a1a1a90374d177dccd0d6a4e011349a45bbad1
+~ _SkyLightLibraryCore : sha256 290c47ebe3772fa9b123f39e590251fbc907e361da7da51f5457a1ec95de3fee -> bb64ace57dbc2544a479cb7ea85c6d38ec3ebb835d0914d344cc8b5d07aa4227
+~ _getSLSIsDisplayModeOnlyVisibleInListViewSymbolLoc : sha256 a3701abb6cf4825bd5ea5b8bc3eeb47a1deb7f82becb873e07e39a927f2d8f9d -> 48e19a6987db6d7b6b1d74fb731fe82d278b2d7e95afcb6691aa1f212be9a5fa
+~ ___SkyLightLibraryCore_block_invoke : sha256 b52d1babacb08d1c5e0cb8d75be28ec67508637edc2e4194cfc359ffdd8e5c70 -> 27e284d58c41fb18d742b75c7c9ec07afdf8ac309e3392f49cdda1cc311797c8
+~ ___getSLSIsDisplayModeOnlyVisibleInListViewSymbolLoc_block_invoke : sha256 8cd13016deb1ad34d9780a3cf8fef70bde10df49467625f4156834bac20f4f6a -> a9d1d944b36d81fea687f665349d6fe666bb446f0fb80df57dea4b055244b04b
+~ ___copy_helper_block_e8_32r : sha256 aa07cc21ed5cb5f09c69cc384bb4bee38810679bed6bb3cd32bcedd7dfa720e5 -> 92ded551c4983bd34f79a169b630c7d96c3f84a65b95ae0d09ee7253f3828155
+~ ___destroy_helper_block_e8_32r : sha256 31dc711ad671e6a78600ab1d3e5d9e6ea27bf075ff8b8ab6f844aaf05e8cd020 -> 193972f7f12ce915918fdb34a5ec3896b529e636d6da70c2c3a8d59d7354c029
+~ ___LocString_block_invoke : sha256 13fe3785d6f822aa2b05fbf32fdb919f9987fdbb60a717fda8672c6d8e7b906d -> 3fec801f8467c17902ad5efde14372eacbeb77dd50ba8100a48b93e5881c1257
+~ -[MPDisplayModeBucket initWithMinHeight:maxHeight:targetHeight:usingPreciseRate:] : sha256 e19bc34a67d7c24cafbf9ae4b5beba36856508097dd530081bd25524a629654a -> f2073e85e890db39661c06e6f2856033a6832b7c5dc77e169067ef0247f2bb5a
+~ -[MPDisplayModeBucket highMode] : 336 -> 332
+~ -[MPDisplayModeBucket lowMode] : 336 -> 332
+~ -[MPDisplayModeBucket bestMode] : 516 -> 512
+~ -[MPDisplayModeBucket bestModeForNativeHeight:excludingListViewOnly:] : 628 -> 624
+~ _CopyDisplayModesAux : 360 -> 356
+~ _IsShowingAllDisplayModes : sha256 ddd13d98d48297366697ac635466a60eb3358b6eb57fc520b0ba847025fdb265 -> 330e35ddfd8c5de5987415fb6156b9385fe47dd9186507d09f57cb0e5e07296e
+~ _CopyPreferredModes : sha256 7c554d695942d6530053cf7183ed3c5beaf868d05492eccf6937007ba16b8896 -> 904b0295c0cb3f3f0b8ed29b7513fb0a4f2ad4465529ae02de5ac8ab5223c7c8
+~ _DisplayHasMultipleScanRates : 320 -> 316
+~ _SetShowAllDisplayModes : 268 -> 280
+~ +[MPDisplayEnclosurePreview previewWithImage:size:orientation:rect:cornerRadius:] : sha256 bea677fe2dad6cd25c4c1d13d0c69e2322131455a32243d7844cd747ae864228 -> d87fe5bfd4d5262ac7f84064208bc7d0bcdbfe49e830819140621d6a38757d82
+~ -[MPDisplayEnclosurePreview initWithImage:size:orientation:rect:cornerRadius:] : sha256 70ebb15a1a52d81f5fd6e197c04749a8908d4626875f290704fa05566c575136 -> ab88e9e54c21b9c68a70f226ca6a94a6d1a8abad813bb69df3f5f6eafebe3801
+~ -[MPDisplayEnclosurePreview dealloc] : sha256 77b4c9047aaf463ddf63ce0688fb0e60df6b3d5505fa3388d6389df43149edb7 -> e9f9e3b289528ae560d2272b95a12a73183947eaa49ddd4e9088311602f8c046
+~ -[MPDisplayEnclosurePreview image] : sha256 cdb095a0bad768c8a72d72a2ab0f18429625386bfda87ece85a6a857f781f0a3 -> c5d87c088ac458529cfa17bdf7d2486a822c3fa16e160c7dfd57cda41ab95f19
+~ -[MPDisplayEnclosurePreview rect] : sha256 a704cbc85542b7b6c70f954a36fd4223403ff3310de16d454636da4684241389 -> 91c99bcebbb3f4bd40572fde9e837250bc275a0bbd0aa975d6e68122658d8bee
+~ -[MPDisplay initWithTestDisplayInfo:] : sha256 c3392df261525a64ea4c0c5827da8ae2a27177f06d103ff49c20e26c072460b0 -> 8f3fe5764313b964c2cb0ef85ee17ca64374a1118dc4b4593bb54d97e5c43ce8
+~ -[MPDisplay initWithCGSDisplayID:testDisplayInfo:] : sha256 c6edcb195813932c969a573d9e5f924a4894edfe0730e80f530e015f89f1cd27 -> 542b4d1ed7c863a816fb5c8b604f699ddeb33b8df8420e7eee21c336d2532442
+~ -[MPDisplay dealloc] : sha256 4c08f4605839d1c21b8be637e6901bf7543f79f846755535d5b680745213c348 -> 094589a0e3296bf7d19c0aae56a81cfe29e4e358bc837e4209168c9f8196b0a0
+~ _LocString : sha256 1ee659880dfd12c21b325b993722916f1e59d498fad0e9e2b28c2f81dcfbeaeb -> 8d0835fe88fe105b56e272e0f7bdda79dfe4543bbcebb13ae7930f68e6880d03
+~ -[MPDisplay multiscanModesForMode:] : 308 -> 304
+~ -[MPDisplay addTVModesToPreferred] : 732 -> 720
+~ ___29-[MPDisplay refreshScanRates]_block_invoke : sha256 ab9e8d38670d2f1f0e0114e1282137bd49c65358860d54794927819093402989 -> 043b43c33ff3a9972e82b49ad24e4be33108f2c58e675ca30ba9320c411e0718
+~ -[MPDisplay stringForScanRate:] : sha256 c6707e2af92af3c15f3a259bd28839d14423d5676ce705a8b93d9a3e5f40b8e1 -> 509a9d5a57e8185ed5a6752b58a4b953321fa2fcc13f2367fe6606f5db760a43
+~ -[MPDisplay scanRateForString:] : sha256 0424799ec6f68c8fe27c9884560ace11e455ea0f2815d16a68d55c8ebf4dbade -> edaddad042ec9f0f222fa087c5de9e41d53d7d97a4bc7ff2717692fea7cbedf8
+~ ___31-[MPDisplay refreshResolutions]_block_invoke : sha256 9a484c7eeffabf374bf466a32db245e87f7c2d637ab94419ffddd3f5d77bcb3e -> 3f4957bf8acef289405864463ebe3a7aaaed0b6a1d0b52d8a0b7c20299388a2f
+~ ___copy_helper_block_e8_32o : sha256 54e49f99c531baaf908905422df355be794a84d7163a274d14c2011b5b7ca6c9 -> 3517d51a9a1ab6b6bc0e164810d30f75121bc88bfa56bc371a9f07710e03cbb5
+~ ___destroy_helper_block_e8_32o : sha256 7d5c04b8e51ea5429c18853d36b932fc03c7f287057a861e048a09744e04dd11 -> bf7d07aee7b9a191b37eda4588027508d8ab174ff10c342ff9b4a77475ec32b8
+~ ___copy_helper_block_e8_32o40o : sha256 c6719fe4500b8c37bbf5a0602e73723e5b7429bdac8f8b1c9aaa50cb5ab8cef7 -> 85a29e9c6bba6b502fddf19564b696e2b5b9a27c393409271be11de524fdec54
+~ ___destroy_helper_block_e8_32o40o : sha256 069539eedd60bd583306583d9ef320fd9f8ebc5d56f06e18dd77c11b52e423b2 -> abb884751e7838e4ce6be80e52fac2ecb0660ba64ecf4c476cb5c0f590ed67ba
+~ -[MPDisplay hasMatchingHiDPIMode:inModes:] : 316 -> 312
+~ -[MPDisplay hasMatchingHiDPIMode:] : sha256 9ae346cde8c1ecb93bf2ba2e3790f87e72f88dd50a775c0e5f3a29e56e04570f -> f071591e103c0f06af9db896a2e8c7c9ebbbbbc996ee517d6475921a9a0ff7b2
+~ -[MPDisplay shouldExclude:from:] : 360 -> 356
+~ -[MPDisplay modesMatchingResolutionOfMode:] : 388 -> 384
+~ -[MPDisplay modeMatchingResolutionOfMode:withScanRate:] : 272 -> 268
+~ -[MPDisplay modeWithNumber:] : 272 -> 268
+~ -[MPDisplay displayBounds] : sha256 50615353237a9e79937c4386dbd692be7e5d769117fdfe92b457cb3daf6f7ee1 -> 13662998acbcf6faa71d144c845357cd2968560bf24040faa10ea9e6de7c1d8a
+~ -[MPDisplay hasMultipleScanRates] : sha256 9dbc447cba6f70bfaf4a0c2a2e7f66019888b6e936fee484e3fbb9bafea0e2b7 -> 34bdc912b1f37a007b20b313ddc7fa6425c8fdddfe34fef67ceee4a65e6da475
+~ -[MPDisplay setOrientation:] : sha256 07149db5f6b3ce0b0daaeb997ce329b0570b679b09f85fba178661aedb57a793 -> 1827369b7896cd693e63f89575dcfe52bf5c46886f0b291aaf7273d947914b85
+~ -[MPDisplay setBestForVideoMode:] : sha256 69632a455a5b7c53c359a6ce274a4d28c960757041ba85f3d3786c0c3002de64 -> ff8ce1e80efdfcad5c75f2371b73cbb761d1752266a5ce88faa17a146055b442
+~ -[MPDisplay allModes] : sha256 30d6da58869fd8fd40c3e5a1272ee8b2ca9b56b8763950bcc42679155d525535 -> feeac83677c7994a6a51610e595e11e199904f266c74fd26b682389652440c8c
+~ -[MPDisplay scanRates] : sha256 f2178e210a9466599570c3feef9d2bd7fda72402ff46d9269f5ed4032c5a9df7 -> dae2db7eda9fa20b9f8bf6b9e4be22438b88ff2acb52d2f8c45268eea67b786b
+~ -[MPDisplay scanRateStrings] : sha256 d6da45a603d4cff01d341acba92fa8e783bf738fdbfaf16adc9ff974629b428f -> 7a3b36c345713c01bdc91c1ebd77e3be99db2388d93893dd0c6fffc19117ea49
+~ -[MPDisplay modesForResolution:] : sha256 a8d7a0eeba704047cd9eb9bf819b6a0d4cd6be061ec61a29407b1ea08a38b6c3 -> 54361c86a4b35cb190f937a978dd0adafd8b71d1377980dfa9ebca1d9f02cd5f
+~ ___32-[MPDisplay modesForResolution:]_block_invoke : sha256 2fcc3a2501a0b1905f3d6ee5b24e305a2572546520d9ddcd93f65e6ce9fe11ce -> eaebab1416872fc372b6f7dae076cd5a60be2dcbf92ce85a64c4b3bc9b9294bf
+~ -[MPDisplay setModeNumber:] : sha256 1ad1d1b9cfa90a4731bf2e888c8a33d092af1944dc3ca3340368ee8fd63081da -> f213c309b81c6f92ed76048db42edce666898078e8e00726d59b32dca0d58c8a
+~ -[MPDisplay setMode:] : sha256 2249515b43fb007a5ec737b038a8254072ef3dce90cbe12166c0b14d8880397b -> ab7b08144f495221cc887990f004cd2df32450aa643b273685da1622e5faba0f
+~ -[MPDisplay setMirrorModeNumber:] : sha256 3c1b6bbf2b09ad77dda942d61bce79338a2c0b072e14d1b0c74df927fc54f5e1 -> 4b20fff9d1e24489eea55d420a6f138e8b54f45fd5bed7e9b92e06610b99f357
+~ ___33-[MPDisplay setMirrorModeNumber:]_block_invoke : sha256 fa6f905bcb278c4bc76198196544058aa00897308f0290f87bea9e644d62bd97 -> 19202a089ce8e015e7225991d30886f45122452aefeb475f3c09d35c96d37bc5
+~ -[MPDisplay setMirrorMode:] : sha256 d95e0cd2979fc232eab6d47eb1e13e77f9927081597dc3873c70447e7914f906 -> e96c857d8b19fe4d312e460275b65fd4ee6ab6eb5609977be7ce4edbb799dae9
+~ ___27-[MPDisplay setMirrorMode:]_block_invoke : sha256 b50b0e520e87989259b3e49ff44f1a19c9aece363ab72764d3b619e54efad749 -> 23989db3e1af2111fd4298ecc384f8c6523d1463352e7d2c20578eb47b493136
+~ -[MPDisplay setMirrorMaster:] : sha256 ce44112ec965017a8bebb85a4e219401976c812befd486ea8d756f591acf27a0 -> a32e2dcc4ba8e9a6afa0ade551ef76f31d6f6db222841eddd96be56f25172eea
+~ ___29-[MPDisplay setMirrorMaster:]_block_invoke : 92 -> 88
+~ -[MPDisplay isForcedToMirror] : sha256 9732b1739488f7c14b74d4a6dd9fc381d56eeb8ab08b5d505f1202cf8f0cad48 -> 6d2791359bf01b9550c15bb6cd44580cc69b52a496757444af2ac6ca8fb5ddf6
+~ -[MPDisplay mirrorMasterDisplayID] : sha256 1f6a76f2850740b74fdb48111714dac0c88c60e34b7e555037020e6c4b1c6fd2 -> d4b0dcbc32b22f97ad20a469ae42ec28a55d412c071bbcda4f32ade0057fa621
+~ -[MPDisplay hardwareBounds] : sha256 18f397641c3dfa8a9e289d4152a87806b2c240ec349e46a09f4afd116438174f -> 6d5cae7fd39ef90867fc894338c58f4147dcd729c17e3810c2e2d4de6e0d2f54
+~ -[MPDisplay uuid] : sha256 d94defe8bb7bec80f3528ed5194c4aac5c18b10dcb855c7d347e2a8993cd370a -> abbe5cf547805db9fa075c259f2a84fb65b2484a5e75f247f5c0e33998d707b1
+~ -[MPDisplay supportsOverscan] : sha256 3c6ceb68f9505a5ecb120ed8da25b22489876b751b879d5d882551cbfb6be825 -> e3f25b60043fe109eacc33856eab73c011906454e398a418e96772b631045ea1
+~ -[MPDisplay setOverscanEnabled:] : sha256 12658b48b11f427faa22106efd71eece4e0f1f8dfd62024587ea4ed387b02e92 -> 8bb9dba4b70d8bda0fde2c031bdc337aac5f6082602e7c7cb7a223aae7847f10
+~ -[MPDisplay minUnderscan] : sha256 deb66492d586312f05a667c8dba4a4f1c2ff6711489e63ebb5dd087cf5ccbd21 -> 54185ea8443d82981979e1cdf034c0f3dc8b5f23cea080ba9c77e9dd04a43e22
+~ -[MPDisplay maxUnderscan] : sha256 829fb3c644765ac51500e98b1cb00f45e223994a5b878e09a8274c410d390a50 -> 7452f0171d79cfc344a8bcf077080f9b51093427512fc9d4bddf6ee3c27a81d6
+~ -[MPDisplay underscan] : sha256 58a7f2efb7362bc5ca7a7d2d08a6bf684c94b1855e93aea732d9e4386f9f0e91 -> 25dfea80ac9d8371854278d4c36a196e2f586dc217d1689ffdc76983fb2a4da1
+~ -[MPDisplay setUnderscan:] : sha256 03a253f5835dddba9062bd5b06d961cb0d0ebefc3534ba1ce3398499fda5f075 -> 1747db0a1bb16e87976e863ce7564a8407adfb465294262f0e77d12583593891
+~ -[MPDisplay displayIcon] : sha256 0d96cfce56aa986718bdacc5b8079c771ddce8189bdb4e2060010f365d16121f -> 9c6bbe3211cee6eb20d32fa43c19e980b8e8cfe6b8eeaef1229ee419d5f71165
+~ -[MPDisplay displayEnclosurePreviewIcon] : sha256 a133549cd8598b9b0eba023666a592563ba14eb9eb251011c561e6df10ac52fa -> 687fcd4f5b8e4ca7f08c23d89b445db0a48beb3efe7d4d9479fd8ff71923e48f
+~ -[MPDisplay displayEnclosurePreviewRect] : sha256 6d58eb16eeeab38f566ef72ee5ddd5dc184a1e40e8830086bcc22625262821cc -> dd3b9b97b6c9bf28c934e6132c02979e574416bcf5465e7ed78dc25e9c51d1db
+~ +[MPDisplay displayEnclosurePreview:typeIdentifier:orientation:] : sha256 782d37409b2f1b7a657fc53567914e12901df511b89ce86bb48ca697275172a4 -> 3accbb3bfe50a068b2a90735399c0b49d8b3b9fa97e195a57827aa37dc5eac79
+~ +[MPDisplay displayResolutionDict] : sha256 0117d818fc40ad7778b1211f010ca713d5dfc3f5f28a7caa63ad8ff8f0d992ae -> c70cb7bf970e80bbbe9f4ab76840bb481cd31e66ee79847d1090e70212b9d227
+~ ___34+[MPDisplay displayResolutionDict]_block_invoke : sha256 c093355efaf3e2bbb14dba323ecf8c1ea17d7bb5b3e40333d57edbb178dc5545 -> 8c14380323e3f87053c3e22e162b275e33e87997c407905bc3cb626fee8e0d88
+~ +[MPDisplay displayEnclosurePreview:vendorID:productID:orientation:fallback:] : sha256 a09455c5bc1c1075545ad92bbd03c5aae3bdc7d62a9bba661b7162d6f1b0a075 -> d6c26606df15662fdd8d7f2bc2e5795c3a083b46b3c94304fac247087b9f7db4
+~ +[MPDisplay displayEnclosurePreview:typeIdentifier:orientation:fallback:] : 876 -> 872
+~ ___73+[MPDisplay displayEnclosurePreview:typeIdentifier:orientation:fallback:]_block_invoke : sha256 0b58235e995b36a3dffbbc0990301694f43efb6829200489a613c83761558822 -> cb4baedbd541cfdb6949202aedf3d24b75e6d9a1a15624aff868a0c66cc751f0
+~ -[MPDisplay displayEnclosurePreview:] : sha256 ca7269170f17d3eb41d65de7228cd3202b8637967db1540681e562cdc5785505 -> 78bb09a5d4199a71b1b2c72570b6582823dfc81998d94cecfa6d7e78301769f0
+~ -[MPDisplay displayEnclosurePreview:fallback:] : sha256 8aef521412eaf1adcc689e85f0a4df4adbde34bce5e999ce5a8e5917f7aab2cd -> f2deac7d1a02d69a4441dc59d8446effe80b7ce1e679648cba090faf4b8603fb
+~ +[MPDisplay _findPreviewFromDictionary:forOrientation:size:iPad:fallback:] : sha256 90a4416d5ead2be8f3b577bb513a42788461f02363baab2ee15856ccb23f7e72 -> 0f8a724a7f05553663093eed46c91817caeeead7ace795d2d492067b3973b5d2
+~ +[MPDisplay _previewFromDictionary:forOrientation:size:] : sha256 5455a389e83ed143ac488fe186f1b6bff87dd8408e9c8f1f1289c6a945c48b5d -> 2ec895a4a8e4a243067e10888f7acecdcc231f1d305e9556ec2b760132704732
+~ +[MPDisplay _imageForDisplay:] : sha256 834f006a7a64ec6be05aff79cb58fa0aa74e12443c5d8dd6b15ca9c7ed603ff2 -> dd33a9e3e0da49626b0d7a173bbccc41f380b698cef06c86712d2926301b19c7
+~ -[MPDisplay _loadPreview:fallback:] : sha256 6ce77cdc1968cfcf865ef179025da723015d25b9ef5f1d7cbf1de932be47e509 -> 9daf90b47d8215b3f0b56ffe58f397a8e429a360cfb57d315e0a45939298ef25
+~ -[MPDisplay activePreset] : 536 -> 532
+~ -[MPDisplay buildPresetsList] : sha256 6b63081b646da9ad2600bc73a70bc432b0ac3ce4a979e4a3326235baab007e74 -> 82ab460689843d00005164b935a6c2f8938f1edf7907755d6d73b0f4f263ff08
+~ ___29-[MPDisplay buildPresetsList]_block_invoke : sha256 832853740e1c99ee7922590105a3d83e5b56a3fb29cbbfc77a57c806543ba42a -> 198ae737683f3211db522ab729f7164cf7bf2a875871c29a3bb2fa1757f6c339
+~ -[MPDisplay defaultPreset] : 324 -> 320
+~ -[MPDisplay presets] : sha256 7775f8127f2d4baa87c5e510f07ce8c01b153a5b4e8aec9f78bb5eee970bc8ac -> ba750469c23c65699060306f120a353fd33adbc26c8eb060faa798dafa47dc91
+~ -[MPDisplay setActivePreset:] : sha256 3539f7d3c4da7b04b549c59c96822a1eddc2b05b3bb3f348e8c75a6713a5cf9b -> 862d8aec111618fc5dba46a400eecd678f171cf3220e226ff15e498ef05138e5
+~ -[MPDisplay isProMotionModeAtIndex:modeNumber:] : sha256 95ac7c3233f8511bbcb1179c7a140bd14b2b805f79590a7c138f322337b41e99 -> f17827037d53ab393ed29d56feb2cb9afa9ec85b4a725138cb6dddf485bf848b
+~ -[MPDisplay isVRRModeAtIndex:modeNumber:] : sha256 2f55229e6bebe98a0f8d921f4d7a757ed0fa4c44b2d4a6bfa97ec5b06145411d -> ec233071df504322d2da4cbbf80cac0be3dce3d3db4f4b7b2f44aeea2b7d59d5
+~ -[MPDisplay minRefreshRateForModeAtIndex:modeNumber:] : sha256 2f37ea9c14d8d2fd33e557291d17d18c0bbf193da913373e80bde7a8adbfae62 -> 2a3846ac311b34f5911ed61eb2669384b3f82eb0a963b8b807534d55e396e68f
+~ -[MPDisplay setCurrentMode:] : sha256 2e2ef84febf8ca9edce7e171e38882de507ecb07e816ae3b71707c5da3b8021d -> 4a4008a093846a1504347c88f259d534c6287e87409506b36e8c459c5a64f4e7
+~ -[MPDisplay nativeMode] : sha256 9f1d0a227a6c633c5671962ad79a6a7947c3f32af3c564f528676cd128b61289 -> caa33071a4d2200053cc3b075cef2595d32024edfa5299838bd3acbf2204dff6
+~ -[MPDisplay setNativeMode:] : sha256 ab8d3a0d4b9b5ea58bc0303aafc9ee595d5387d29abeafa94513a91ec81fed3e -> 15841aa073065e0559ef03889ac4b63aba57c07317584ca3d5a54b333412a8ca
+~ -[MPDisplay setDefaultMode:] : sha256 86a49f3e7b126543c8a0b1eca75f1f41edf13609c37f052b8fd76b90daeb101c -> 3a803cbbeec01b222bb344ca503a757384683b94f68993fb945f0fb5882fb386
+~ ___LocString_block_invoke : sha256 253233d4e90b3827a63ee820c5b36844e5045b0ed490a5417a522d4c23fa44bb -> 304d66fc13e322c94c13f71478f45818a5c3c2689b616954831aa7da74db8a9e
+~ _OUTLINED_FUNCTION_2 : sha256 772fb4cd70d72d9d4b179890d6b73cb6771f857901262bcb65db282c57dd3269 -> 430e3aef164e93d2d0fc9953dfa55c97a47f42597eff7348409b661067dd310d
+~ _OUTLINED_FUNCTION_6 : sha256 0ee591c468ef88e2ab98268037a0248aed4162ab63517fbb719f3ac8cdf425fe -> df6b175459c8ab4b22ef77387c2c5f2629ec86139bc6cf761bac4608e676dc48
+~ _OUTLINED_FUNCTION_8 : sha256 d73a293511c5d18629122dff07284e401b34ee4c5d67f5953a6b9ccb463746a7 -> a66946923f480950900c4d641ff43e83722820743ca27b77b5302ffc5af7f65d
+~ _OUTLINED_FUNCTION_9 : sha256 6054d402a8b254f6973fea10750304d4d306c25685927fe44c2601f1ed12282a -> 5fb206a08329c9969fe11a7ea9669d663dfac54e444d2dabd3954de698df0231
+~ _MPCopyDisplayAliasList : sha256 44787bf563d1744287e017d8b2eb1346946adb8ef045186fcd3d155d2f7db89c -> a5ee7b8498fd050ef8d0b4debce46fd464b0afba19dc29bfee647fc9071778bf
+~ _MPFreeDisplayAliasList : sha256 56ed91704421da4f8ba1120eae240b82f5541c9dbdde502f64f73a4e7817e638 -> b20b28e8e1c8d9e388168ba8b7aa4c0452ddb3566b0f269c71948b23aa9fea6e
+~ _MPCopyOnlineDisplayList : sha256 4d51fa9d49374b473eb00a8376e322866cc42953fd740ca51cfb213c38c165e4 -> 2c00c3b9dc4e13cec35fe792b4f2dab4a53f97a7161f2f93bf52a8938e07a6ed
+~ _MPFreeOnlineDisplayList : sha256 aa6fae782884b7f6449dbe963680147cca0222e732ef0e6fbe7cfc2b13f02baa -> 04ade070c078312eb0890858c2e5afdf047b0c26f0c789bdd0399f59fc9733d8
+~ _CalibrateDisplay : sha256 993c27fefae088c46c899f27848b3381afab02f4267b1a94ebe1c31eaa0b9bbb -> eb96efcc7bfd8ea89d87c02943eb3794ab7e7c73861c905783fc734dd61068e1
+~ _calEqual : sha256 c0e3f0835c3a6a7f85929798493fedc24ef047d19b9d25ea397a6bfdd6688796 -> 8595b6accd8d080915cc5b0405e91a33bc39353a8840f920ee03d2d90d4ac616
+~ _calCompare : sha256 8dcfaedf27a1e283e5babb142f86c8694d7f88780f9406dc9beb59decfbc32bd -> a5774b14ab8b8cfd7c2f6768573c73c5fe61959e4b8c89d86b8d86496045c5b8
+~ _OUTLINED_FUNCTION_0 : sha256 99602ad56864b21f9ae192981167626e1af53edfc25805f3841193430e7295ee -> d99f9f4f4beeefcc35b39cd984d731d6c61d5ac51a1e0e9fb47a9d63f53fe41c
+~ __WillReconfigureProc : sha256 ace0e8a2ca840b91eb48305607b9a7799cfe5b8d7aca43e1403397479258d586 -> c542811ad7b4e392b4d7cec2e9a5070bb6a0ec098be95be111bbf504634d7993
+~ __HardwareChangedProc : sha256 a91a666b7a6f77e8a82884d1b022f7e35e62b932c6b22860bd45209dd99f5756 -> d9f3c98c2be34067a9b75fcc309a722d1a1ee1d22549663ec0582af455f42fd3
+~ __ReconfiguredProc : sha256 102a9c0af2e1afb4139b6b21e8d92bdad97e8251028414629b08623a24845111 -> 210269bc00b817d4ac3d547b14064807449ce7046a70e5fed25981f7b3be83df
+~ -[MPDisplayMgr _removeNotifications] : sha256 92a83dfbc10bd8ea7aa5289b7b8c8fc53a2de2a5d416a5c45d95687e00b8872d -> 6c9c7ed7bc04a69e85bf3dbd4a7129369d5641661a96ae93d9a8283f6e3e67f5
+~ -[MPDisplayMgr dealloc] : sha256 f37b9b6eabc8f359ad320f6b39214655a04c60b16f55b96bfc8fe72311d76452 -> 6eb878fd37b5dfdc39a30a4c679d0881989c31b58fb63f761763389094119859
+~ -[MPDisplayMgr _nameDisplays:] : 1684 -> 1676
+~ _LocString : sha256 a50d334fb85ed633b1743dd239d75e783abb2a927a765fde423629f49dd5fb54 -> c0b09ead4f8c930bd83df4d31fa17642aece8b38459f1e5f33f6652a18847761
+~ -[MPDisplayMgr _updateDisplaysList] : 776 -> 764
+~ ___35-[MPDisplayMgr _updateDisplaysList]_block_invoke : sha256 249e01aec6cb1c7cc1d1f3e7a36bc64d6d5874096fcef3fd14be4095e9327122 -> a3e266b738035fa5940d48369e18b81953c332f7a23f0a56834b15a41e19dc17
+~ -[MPDisplayMgr independentOutputDisplays] : sha256 17bb56cbe3baeaaa34aeda42fb52da22c95bef5261397431cbfb0863d52266b4 -> e07c200c5f1f4f1967e0de6103d1093e21866bf8980df0955c36cacf7d4fc69b
+~ -[MPDisplayMgr _refreshDisplays] : 400 -> 392
+~ -[MPDisplayMgr serviceReconfigure:] : sha256 f3d8bd9ac104cfe5b54d8fcc55b0382e17d75d6fa2a0e30590863bfd604e9972 -> 31a8ab5612e3b242d3772eefc08a9c63e566cbe94a21dcf0f802ca52d2d9b1f2
+~ -[MPDisplayMgr postNotification:] : sha256 f65b75730cc1026b6a9805168da34f3e01746bd7f04d247dd37d30e6b5b9b0c8 -> b704f26f41a724b9b6f85252ab0dd1ffea0d6f1563a1ae5e0b8d8beb67dd0147
+~ -[MPDisplayMgr notifyReconfigure] : sha256 fb6b80666bea1e9fef48bd39b6260281a70e8bfe62479f082c60180da2942246 -> 529b7725859e4a51cb4b1190ee1c1d15cdefbaa7d00d68d7f82fe1337acc9ee2
+~ ___33-[MPDisplayMgr notifyReconfigure]_block_invoke : sha256 03659d9aa387454b808db13e94b0085fc5479daf9f501481a5ef573c784c55f0 -> 7bd4fea6bed5dd52c9deef4f915498adf541f89a314c72a57d6cb5c5dcc0574f
+~ -[MPDisplayMgr notifyHardwareChange] : sha256 208e51fff776076cf39c0b9b10051fc1f0943d028293bdc0750d82b00b946d70 -> 9f9ea33076f33d9a2959a9fb657b2dfbd35b396697446c4bb93863bdbb1b7368
+~ -[MPDisplayMgr notifyWillReconfigure] : sha256 5942d95cf0f22acc78b4b62ed4c2aa1a12c8d7fdd791f89dd1e834b1e1afa2de -> 2f3fdb3bc9c56260f2e995afcf4576638797880aa919e3ce33b287b089e50651
+~ -[MPDisplayMgr lockAccess] : sha256 dcaf522c6bbf2e955c77ce6bf987a2d7b2b453ac11d3f89548f2f6a4ee8be7be -> 0f9118731779ba4939fc0755606e5d14173ffcd1c1cbd63be864f71e5c8f5862
+~ -[MPDisplayMgr unlockAccess] : sha256 ba8b3ceebbe4bd6e9511f132ac76b5834e40affbe570604d7a7edd34090d28d2 -> ea3f80f935bd9eafdc3474988409170f3c352178ae8c5961edb3551fd711fec0
+~ -[MPDisplayMgr tryLockAccess] : sha256 294b9499b8aa65677ba630e1924e26e961e4839c3ff919d2555c729d3666f661 -> 0db63ea93c7c4df4be6aa3c05f1c5db4cfe6ed47f7ae8dac92d8f0bf2d979276
+~ -[MPDisplayMgr createMirrorSet:] : sha256 a1467835d796586b1146c4e387d34405dfe8fd1335e8965041308f7a78561983 -> b35883210ee916ac15cdbdc58561eede71756fe66dd61a11e9c70841a5410ab6
+~ ___32-[MPDisplayMgr createMirrorSet:]_block_invoke : 792 -> 784
+~ -[MPDisplayMgr isAnyDisplayMirrored] : 288 -> 284
+~ -[MPDisplayMgr _mirrorAllDisplaysTo:useBestMode:] : sha256 500950eee5378e1e55a37497c3736577797da7e659eedb42fe1fc18d86ddae8e -> 8c8e04c5d0f876779149d06fa2446bef71b25a7988df5c68340e117da7ccbdc7
+~ ___49-[MPDisplayMgr _mirrorAllDisplaysTo:useBestMode:]_block_invoke : sha256 de428b99d28d0b1c5d794ff5fe84795447ceb2eac40d542ce0f1950d38a94ae5 -> 8bea98df06a7b1590b726ea853afb405597f04da4d7e031680044eb6cb435a16
+~ -[MPDisplayMgr mirrorMasterForDisplay:] : 476 -> 468
+~ -[MPDisplayMgr mirrorSetForDisplay:] : 376 -> 372
+~ -[MPDisplayMgr setMirrorMaster:useBestMode:] : sha256 34c10fff448b7120ac26bccc69235453b11d129c387ad0340943e02ee82db2d3 -> c0eb40a35d2a39b28a2f96b466aa1c21147c8977ac997d3e9f4abff7489fa499
+~ ___44-[MPDisplayMgr setMirrorMaster:useBestMode:]_block_invoke : sha256 00b47e6f242958b5dc0905e080897d45f4d1777ab4ca001a87d4d02db325df75 -> 9825452f1b2757aabf0b2c955ee20cbddf6d698590f2132a91b2d1e180884195
+~ -[MPDisplayMgr setMirrorMasterMode:] : sha256 f08a09c5c038d7695c0738278043b7eac83e0b0b04a7808312f2e78c36a2058c -> f69bf6db2c537e530cc47831c64dbc055bf75427eb9bf3864c9962b42a1fc740
+~ ___36-[MPDisplayMgr setMirrorMasterMode:]_block_invoke : sha256 912733d57b1861ca1483f1e856eb3031366964f36a2824e4e8bc96362311f753 -> 3a84dc46fab61a38f73297258f3a2345673ebdb81c11b4728ab3b3014d3f7b0d
+~ -[MPDisplayMgr setMirrorState:useBestMode:] : sha256 8d0c0b24509d42c389d5973883671d9d05e056882b5fc434b2b0d76ae63ceb42 -> 4a230e3b9d129d24cdea90cfbf78974a1644bbf755bc1b1c047128fe9d1597b0
+~ -[MPDisplayMgr stopAllMirroring] : sha256 b519a8366dd5ee31fe0d0bcc8a2df2224625c0738b4b18354ed5bc930c6dad91 -> 079182a70498b99d9deda6fc8ed25f7bcac0d519c2b466fa47c1afb899180552
+~ ___32-[MPDisplayMgr stopAllMirroring]_block_invoke : 492 -> 484
+~ -[MPDisplayMgr stopMirroringForDisplay:] : sha256 487099dd5c1918d07dd51c6b4776018ebe755fb26a70c7385de4e4b2321a4987 -> e288e1016903accea652c29961c6f29d2b8261d0441c7f4483dfc40f7e9245b0
+~ ___40-[MPDisplayMgr stopMirroringForDisplay:]_block_invoke : 336 -> 332
+~ -[MPDisplayMgr hasNightShiftCabableDisplays] : sha256 6d892d77dbd3d90576713f014a895adb13da1215617ac1fa79723a7d1ffc216c -> ac8319b12b94b65ae238333c7c4cf30e0c5a508c77a94f2d6101ee4c7ab493f9
+~ -[MPDisplayMgr hasNightShiftCapableDisplays] : 248 -> 236
+~ -[NSUUID(Compare) compare:] : sha256 030d7f4254645fd4fbafd547957791617bda15af10f248d17c8daee5864e8936 -> 633c4d812aeb84f814006e836eef4adb172759ceed0d4fb4a27b1a27fbb8c583
+~ ___LocString_block_invoke : sha256 06b7d858167110c8806014d88654e705ca7d2c52d6a794faa21626d8c98c297b -> c6926b0ef9e516c164fd16442931009e671d25608c14eefbad883831c38a209f
+~ -[MPDisplayPreset initWithIndex:dictionary:forDisplayID:] : sha256 b7c537eb25c4e346e62d33de63c4ad90efdb715cc820cb21a24887aafdb13582 -> b5965009312181302d6281ff9b71586f0e20953e6f6aa2e5c01223c94b6341a3
+~ -[MPDisplayPreset dealloc] : sha256 b01a7e5b59e2d9bc2229cfed8e50e16ce1c8676dd9a69b6212f2998f63a00597 -> 64b1fddf71cb5cd288ec6ae6758e52ae01ec589634e4d550df53dd8973039cb6
+~ -[MPDisplayPreset isValid] : sha256 54a44321ef0582da04256fec71a1312b2473166a3f1b665a12076097d9eee31d -> 8c6692cbc023d0fa975397831a3ce4acbb1364579a84f4b7ae29dd5ec9fb5199
+~ -[MPDisplayPreset makeInvalid] : sha256 3cbda0fb6f1c5f45429c2c4ff9780efb6ffd3ba2f9433c29c7229de81a084a90 -> 8145b42b987ffa39659e09471b55970a3a8e6c4ac3d3e2f95f57e200523884fb
+~ -[MPDisplayPreset makeValidWithSettings:] : sha256 c7a75a77a51fce72ae5d72bd79b334abdae09937564fd56715a8d2542325d7b1 -> ac039e40d4304b0c9daeb7fb3b03d423f9297eff706382cdc84f70feac53ccdb
+~ -[MPDisplayPreset presetDescription] : sha256 9d026e888f7acf2b7eebda9dea01cb2606bf6b16208720641f3c546323c44a6d -> d4b80943981eabf5139459f036b1f062b84b52d69899e48fa0063d8456688b27
+~ -[MPDisplayPreset presetName] : sha256 5a8a0a3660ff0112142022c8907cab058eaac863f0b4e8e3bee9b122e38f283f -> 85c09abb5508dc2fb11c04e5835a36c56468db33d83ed317cc18a340551a117e
+~ -[MPDisplayPreset _getStringFromStringRef:] : sha256 98c8df014626ed5829426a68d3218cccb81d9fc835545bffecb12a99e91e0ca6 -> 48f7a60d9c2d5fc78e9f1d75fb45689d13aa8ffee7af98f463a50945045e4d70
+~ -[MPDisplayPreset _initializeWithIndex:dictionary:forDisplayID:] : sha256 ca74612c2f564c23ffa047230243778ce3baec0b42f50dcc354dcbb606a3350e -> 139a3c3ff435720c57750e75e277d180103533af124a33776a32e9c162fd90cc
+~ -[MPDisplayPreset _mutableDictionaryWithNewSettings:] : sha256 21e3375f9208fac847d270478bec0947eb0ba0a40594c0f2731a8e7cd5e1c961 -> 8309d1931f9537998ea8b780c0cd844c92bbc44fa048756c7c0b44063251a919
+~ -[MPDisplayPreset _safeCopyKey:fromDict:toDict:] : sha256 6529e3fc1d5011e87e097ffcb0322e1d92850af52939651ee6d389baf3481ef8 -> 74a1d49420f803e320d60c36b15811fad43ad53197d8dd91098a25f30e91df40
+~ _OUTLINED_FUNCTION_0 : sha256 3bb9f9532fb887548ab5c97d56245b026c9dab1e57bf1442ede9ce8d7752bf08 -> 2caf74b70ff36256d77e9a1867c66c9918c27c6e15533bb6cf6595eaf7d72ecb
+~ _OUTLINED_FUNCTION_4 : sha256 93aa85b595083fea3fb5e82a4748ac7a9636cac3565166f9eeb8c46dc4b0b35c -> 9b62223fede4cd6217fa029f18b377b82d1da19a5fc419645cd7e3c9e152829d
+~ _OUTLINED_FUNCTION_5 : sha256 b7cd93b162fef9680fe0b86d89f1310a4af8986ebf119881ccc1926c2e73f306 -> 8926f8e4d363ff6b306509b5f93be5d4d1cec3fbfe729922c9e9ba51a8ecf276
+~ _SetModeForDisplay : sha256 e368160afae000f1594580ba0762ff502c08f49c0af1579e70e97d2dac4d8395 -> 5cd50acc2a43d88e86c80c9d65eabc8f99c2c39322132d7bedb6d58f4e656dd0
+~ _ChangeMirrorMaster : sha256 8af6cb86b76a8773a18130fd0107e06bb3101f690dae31e03d13810d0bf1245e -> 1db587d6ed352584e1b59cf5f6a78f505cb02aa0a8562132cefe5a1474d5477c
+~ _GetDisplayMaster : sha256 2ac0a0ab40c75774e1ab696172049ebf8f6286e73019c2216b8bb150425f3e3f -> 8aff27fd6550381fe9f1a2600877b557fc4290cdd34e1e7d4205a21c8c5be2a6
+~ _MirrorAllDisplays : 752 -> 764
+~ _OUTLINED_FUNCTION_1 : sha256 1faeb780c703d2f659c44fdbaae8c0c5ecf1131417f1f4fc0c7be3f68ae33cc7 -> 81959d95000b799b0e03a946aed19b28b15c599abb8db4fa6a4da76201f8ced1
+~ _OUTLINED_FUNCTION_3 : sha256 9034ed1e65d477bc85175018dc0665a6fbdb40a4e8810a4ea5346ae53618cfae -> 18eee0938c76bd212f621e0238ac54f8a7592f15d91625e4468278ba6b9503a1
+~ OSLogForCategory.cold.1 : sha256 d543b5f813609ee700f380e48b22d52585b1f2e9e0d6fd873131e814b3278d04 -> b12a8ffcf6e89498f2169b422137dd53a1bd3c4a28f680a47df6da6e034120d3
+~ -[MPDisplayHW minRefreshRateForModeAtIndex:modeNumber:].cold.1 : sha256 a85787257956fe08def00a5bb6d286990d6aa93306cae06576e164af951ddcaf -> 9828353357f7daef5c0706eba4def6a62fd2b7826cb55f27211bd95b94fe24ad
+~ -[MPDisplayMode initWithModeDescription:displayModeIndex:forDisplay:].cold.1 : sha256 aab498a3c5747b53a5369ea2acd35bbfd26ab20565496f305cb2baef1219c903 -> ee1f664319d0f3cbb593cda74c192436974aeafe1a0248676600baf6c7a52fc6
+~ LocString.cold.1 : sha256 f4aedabbde1eca1343ac5d7a8623a860e6a11bc07001fd59d210952bf65a4070 -> 096eadfd4bafa18c781b74a1a687d9eef6ebf34abc749eadc4a6ed959653f326
+~ __getSLSIsDisplayModeOnlyVisibleInListViewSymbolLoc_block_invoke.cold.1 : sha256 0547bd0618b23c8ebf5c3ed4bd3cba9eb75d4a41cc51368eeaa5d9c69f9991f3 -> ce3fdf471151e0ef45ad24552a273147829f9ff110ca81befbe9f2629c67d845
+~ SetShowAllDisplayModes.cold.1 : sha256 f388a216d845478825dea145e1f2eba72f841ae50bcd20f80f21f5667ffe56ea -> d6174dbb31225f27b4421f75622e262654ddb113c1f513ca68fda6e7c71a1ded
+~ LocString.cold.1 : sha256 e196db9d41e34439e5b1284f6022df57a7ec9b00ac083ad2bd86de306235d180 -> 50d48f98ac4f34e1ca22ad07d66fcf8be97871613496f53e995de9a09312c369
+~ -[MPDisplay bucketizeDisplayModes].cold.1 : sha256 bcb9fb698c059b1ec073dc235a59f2a320e6cc8890ca98024c5fcd339a4c34c7 -> e52ece7bc924f5aa52fb2749e23e163d5bc1b3d2bfdaf0328f76bb367d3cb9aa
+~ -[MPDisplay determineTrimmedModeList].cold.1 : sha256 b991fead72fa0ee09e498ff2e996e2f2e955f2c136c1eefe4656990b32a94a49 -> 8f06d1de89987b7441a7f4854ab940891c31d19a434975a3761fc064eccd7312
+~ -[MPDisplay determineTrimmedModeList].cold.2 : sha256 b28fe25bcb6999a9b4a5109b10aa3b77ec757fafb757c94567f4863c8fc8e9ab -> 3844500e8be446695cdbe4278b214704cc37429a70f86bc11ce86394aa45fd89
+~ -[MPDisplay determineTrimmedModeList].cold.3 : sha256 f5618dcf26c6d4504a03b17150f8cc6b0b3790b05626077512a595eb9fc2bb7d -> 9735042a926111958c32ab9464e5556d76b148c5df9f9f7ee27581afc61347ec
+~ -[MPDisplay determineTrimmedModeList].cold.4 : sha256 24fed831c730f68c09ab4ee77200b14436937d7d6285aad9a91f295f4a1c26ad -> dde95f5b42738e93fecdac70d5eedfce6a2795c275dbc152a6024dcdb59bb81f
+~ -[MPDisplay determineTrimmedModeList].cold.5 : sha256 f86a63cfd40816840a98e43cd7141a3ee9b8b7017dc93fd9c45ecb2799fbfbb3 -> 39f23b71cf6b950e49a4d5b1e7c7e9bc6f006ba7c9f49d3e6dd01f04ce4de1bb
+~ -[MPDisplay determineTrimmedModeList].cold.6 : sha256 719f082bca4b2e862a3448f4471ccb7f77184b96d494303550a34cdda0cb0f8b -> 111350ca0bf21d5585e7f5cb99acbb32530c79514a89b6ed9bbb5536a6309c7a
+~ -[MPDisplay determineTrimmedModeList].cold.7 : sha256 c3daece63c867600c333841b857ba78536f989e1e931ddb3367dc0708c3749ac -> f8fb8171ada9a6278e6b4256045b6b039ffd637e5331e36e9e683f089e75d6cf
+~ -[MPDisplay determineTrimmedModeList].cold.8 : sha256 21ecd94aa6e4ad909495097ec228d76aa6ec3f5935aaf187e56928ee9336f689 -> 3d3be621376c2320722275200dfa427fb4f1ee55c86ab9bfde72285eeaa4986b
+~ -[MPDisplay determineTrimmedModeList].cold.9 : sha256 dd211d87b3eb7ef3cbb9c64591412337494c3244a4ce836701c2d329970dee80 -> 259e654931845ecc687b4fe7ce81791c99e3af796900da89cd6dfc0736739462
+~ -[MPDisplay determineTrimmedModeList].cold.10 : sha256 6f1c6adba46437514c67b9f671549582078623cf3a20153010b4242149f05b1d -> 0b38ebcd740ccda5b72074aa3be5468a5d570ca082dc54e432e0d7a5010b7e33
+~ -[MPDisplay determineTrimmedModeList].cold.11 : sha256 4cd00c1aea7a4f0367509eb287c3f472fcaa7bc54c953658ed392c77c8b02517 -> 6c4fbe42766217064c74d08123b7f2b35fcef34b18ceb21866c98d621dc0c762
+~ -[MPDisplay refreshModes].cold.1 : sha256 12797f9d58d87e3053d337e7bade131fad14908ec02953777112318a1d639de5 -> faca5dccfcd756463347856f59812f18b7d1a516b4c9bd35ebfe85752a8341b8
+~ -[MPDisplay refreshModes].cold.2 : sha256 874e321fc6634199e4173fb3e2d8d23b95d8103f7b282d9a9ed94c6c8b089b4b -> 35bda0ddf9371c514ca6052ff6681eedb2c0a983e948b0b0fc3a4405c46af929
+~ -[MPDisplay refreshModes].cold.3 : sha256 90004f867e9a49f3ff42d544370aadd2b86efa1238259991fea5f4365c1a2227 -> 1da88217ea9398465dc8284a0daa699ee6cbb74cf4f33fd62008c2a2db8a9ff9
+~ -[MPDisplay setOrientation:].cold.1 : sha256 22080a634e52e288183304eedd70d029a8449a6889db7a5780e502685c7c3af8 -> 63f8bb0cd242cacab62ee3e368b4c27568c7541f495b0b3db2d0f47511ac436f
+~ -[MPDisplay inDefaultMode].cold.1 : sha256 220a5432588736c03e80ca167718e185beab110bfa32970742df7f48b77610ac -> 7a055d6cdc1b7da3780c050abdb569ace8b2cb80a7fcc72667f2ba2443710d4f
+~ -[MPDisplay setOverscanEnabled:].cold.1 : sha256 0f5e8f25bebb634274995a90c66e1f27ab835844286c8b6e7c934a64e34e2c51 -> 31bf794dfcfe66c59825ab3070b5da8919d3be5e7c653960a05ba4b32193a243
+~ -[MPDisplay setOverscanEnabled:].cold.2 : sha256 2ebfb6e01b2c4e64bd085f32aff93f53ce3ef1dbfe74d6dd799dabc2e64623b4 -> e31378fa4a5b000a068a888d6dca321d952ef419e6ace4d6a79a3d0c380e7478
+~ -[MPDisplay minUnderscan].cold.1 : sha256 40ebd51987c8fcfba50839a78c835185b65ac24fcac7cecd1917bf2ea52f0f8f -> ec2649df047284642bd5bb64fb5f7e39ea5f65b7d85140afb4bc34d3f4bd0a69
+~ -[MPDisplay maxUnderscan].cold.1 : sha256 dc8041a52aa15ff89345d01d33b37c3f31d533a48f7884ba27e52a50eed847c1 -> 925dc77bc4868938d89611b587881aaf92be86ed4bb1f9a7d9ee098fc78b9430
+~ -[MPDisplay underscan].cold.1 : sha256 7ad16d79ece1499768b27352eb4d88d0dd218642a97c60d76f6ac124ba5a0a31 -> 5796bfcee8aad51021b356657d22e5d6ce9a3922123bfbc0da98acdf74ce758d
+~ -[MPDisplay setUnderscan:].cold.1 : sha256 c9f884ba53379a06db47b4e6448786fc21bf36dd641a1867754adaa62fe677d8 -> 4e26ba940f7ca2874109c9245124ebed4931318a40f6fc214a1b2e168c57b754
+~ -[MPDisplay setUnderscan:].cold.2 : sha256 55b256e1e6a523e52ec2b1443caaa46886dbdc44ddba81d9fdd440c517c81669 -> 6d1daccbe5d9517b9721fa52cad0a3b5c948ddab63beb689eb0ab716a53d8037
+~ -[MPDisplay displayIcon].cold.1 : sha256 a9951c3d409177b4dc2eb77e3f9fac4bd1ee8cd423ddb9392cd5d25b01a44f2f -> 8776a63f52a8cc1b8974324a961697d64c14d64193cb513af216ff5270c47742
+~ -[MPDisplay displayIcon].cold.2 : sha256 f9f126b2d77c353a8fdb4af9cb393281a8cf362ed89a5f17ce61f121311a43e8 -> a7c359d20fbd3e77b29005bb71531f1e77c3c80c068fc452a2f56845031b1023
+~ +[MPDisplay displayResolutionDict].cold.1 : sha256 e67f673db5926ada29c21313c0baf58e70e91fcf4cfdb327031b4985e4b896fb -> d8d2444171f0b2915874b677d84b7f0c3ac41d4a183b3df7060b9ab3052a624e
+~ +[MPDisplay displayEnclosurePreview:typeIdentifier:orientation:fallback:].cold.1 : sha256 30367d223c1281cca5834217e2c35c816f48fcf52163e467d4a012779f988537 -> d9611b37da930e163a37e74421e0d8ad5cbf9e2264af114906721b702b2f0f02
+~ +[MPDisplay _previewFromDictionary:forOrientation:size:].cold.1 : sha256 ce6b7ca490a15f24ebabb90aa5077b23f3ef359394261fe52556a7bc16fb6ae1 -> 35c2a9762f192de0619dbb94d0eadd480a4c461af712cfb54e080a7485c90ef0
+~ +[MPDisplay _imageForDisplay:].cold.1 : sha256 b1df3b2ca725c0b229bd01a1507dec0fc6f62d45f0745805b20ce5dc445b52dd -> c128586ca3470da0bf5776a2aaaeff8603efabdf8e7c78e42981efeed97c2759
+~ -[MPDisplay activePreset].cold.1 : sha256 2298eb896dacad024c447c2342236fd1ddf317496917c931bb6db2a763417bae -> ef88a7591e849edc8c82885061e996cffb358ce6df2dd8f8b4b63fdc0ba8aa3b
+~ -[MPDisplay defaultPreset].cold.1 : sha256 a0705e7f255f00c49a3f331b64ebeef162f4c475e3dc9aa7407e3ac3c3800fac -> 0eb718687a451b2ebeff1f65e63682ed7357256ea7d4b5eeba1588b58f565de6
+~ -[MPDisplay setActivePreset:].cold.1 : sha256 e82159f6064d990833f93971c6b995af28ce84b57754bb7e2f80abcb54f009c8 -> aff072d99832e6f151c1f37b62f296bfe96729cfafc0c621b12d08916aa954fd
+~ MPCopyDisplayAliasList.cold.1 : sha256 b8ff0aa40f4fb20e8998c83932b6339a46d6543c5633d3f49e33a456130a599f -> 6e4ce9753a4159288d115246c7d5ddb8cb4cd381959472c9f504e2a352cb5138
+~ MPCopyDisplayAliasList.cold.2 : sha256 6e4b3d26ed8f9399fbb5539f5c56f10be862bf4035f843f337fe892dd1ce1176 -> d2c3f9b0736caaaa38dfcad12e5eb86ab40472a27ed83df86a0311de992c7a4c
+~ MPCopyOnlineDisplayList.cold.1 : sha256 3d811dcacb97c3105fd9ad55e334cfb6b44bcb689b397b7ae2782dc6396209df -> 74ee3b0a41deadda8f2394769b4a44d01bd52effcad40650b7bb1675298c8312
+~ MPCopyOnlineDisplayList.cold.2 : sha256 1fbcda500e25d694632671ae78d1088b1775ccd8615aad2785810c84d28091f5 -> a138275d83af9e6201c79efff989d98641df156fb587a762bdbaf1723b5b01f1
+~ CalibrateDisplay.cold.1 : sha256 65c8fa1c19c103d75a381baec35e5fcd0a59af54e607496f9b6b060bd9046522 -> 42d6a0540a4dbb546cf365ce38016503e649c708e5a3f3d1a609e35ec9159727
+~ CalibrateDisplay.cold.2 : sha256 a32c6e4dacafbc92273124c05b09882aa845575ecb2c61996d7405b6f8544d71 -> 71e742d8587c2a5090748a2febff23599f362ae13284d2046190926d19d749b8
+~ CalibrateDisplay.cold.3 : sha256 6707b96c2a8af8e95055086eea918e6c9b2316f06a0c54b03f32012251d914dc -> 8a3191bfb1daddbf472f82a3e3d766f1826c653721bf9b511d5a640200afc4a9
+~ CalibrateDisplay.cold.4 : sha256 cc34706fd4f4167950387def5e4c8a7cd16db192fda4dcf59645c3c00634d60b -> 83375090f1ee2df31e491faa83aa5ab9cd1c198134dba4645ff124bc8fd2f5d9
+~ LocString.cold.1 : sha256 64b3070d6c4fe410e43814e0f1fd02e9b2952dd5bc601797743e1bb443424830 -> d70b17e63c219f80a46172f81af7fecc8dc8af28a2135513db97f2995894e094
+~ -[MPDisplayPreset makeInvalid].cold.1 : sha256 780f62017b2ebc8ce5227c5b8fc8a68176c45887d1608a5b3e3c666bd129c10a -> 27661d471dec185c53787079e188195feebc968310153834172b2968c679815e
+~ -[MPDisplayPreset makeInvalid].cold.2 : sha256 b0288c7a6ac49a8bf87368264e5dcab9800f56f12bf4b03b540088cac8ac07c7 -> dfab00ae8a7a713ef0bd628ea342b5c2ee520d3b6b4f75d6ead529b18f00bc01
+~ -[MPDisplayPreset makeValidWithSettings:].cold.1 : sha256 34d73f12408cd555385e31b1d487f0f3843aeae8e119c8cfcea5628c3e393862 -> 83660c2f77b7affc55f33058854b715e2869b7065a42311eed06e3d11482c8df
+~ -[MPDisplayPreset makeValidWithSettings:].cold.2 : sha256 9c22f1592b66b9b1f9b599c419bb949b7d9bd37889e2fcbb33422cbb3af8db01 -> fb9b930f36cd012d1ea0ea03bab69403d88d8bd01621d360cfe467755ef1c1f7
+~ -[MPDisplayPreset presetDescription].cold.1 : sha256 8ab3b1be3812e77e1a3e3baf4c8a0e74c455286bc90d398d58ee2f85b95c89b5 -> c6a9b974231545495f48981e6a6c10d633f20ba888bc1af281f391c164d378d4
+~ -[MPDisplayPreset _getStringFromStringRef:].cold.1 : sha256 cd18a5863084528b1bc557cfb2a160e38e3c20f68a6567d42d4e7551d490f202 -> 94e5b63631b0eab54d3df52f2a44805b6a170a7f096e5b528c67a609f918afd1
+~ -[MPDisplayPreset _initializeWithIndex:dictionary:forDisplayID:].cold.1 : sha256 ee2cd6318095433cafe60815e8a2795e2e2128a80833906a1433497e3ab6ea03 -> 57a16e5fb74cd423aa3886c8a78743fdf7c32c4282c32466a8de5304d2951d8b
+~ -[MPDisplayPreset _initializeWithIndex:dictionary:forDisplayID:].cold.2 : sha256 aa2155f16ef0b6c5d7af5443b29bde8f234a2fe25f5e9b139c41b8a85ac8921d -> 2ec5c4db21e0c5678d7970e7d3e43d64821eb433e007def00be5551d807afd31
+~ -[MPDisplayPreset _initializeWithIndex:dictionary:forDisplayID:].cold.3 : sha256 8d638c71a02f608cbcedbbd6f6d7f89cb098d5847d50bf1d942f702607a577af -> 20fef1d62680c26fad2106af4b531a8070d1b7538630b6011e54c2db23ccb6e1
+~ -[MPDisplayPreset _initializeWithIndex:dictionary:forDisplayID:].cold.4 : sha256 74c1271635448bd74cf80d0887f6c8a4d36a3caa5d4d3f96bedd1765b37cbd4f -> 29c4eb1c8d1638d5fe6271d400a4f58219459cc04ee9fdcdc6e1de91934d64ce
+~ SetModeForDisplay.cold.1 : sha256 faf7b9ad094be214391c8a4014a1912cc446868fd4341d5ea1707e6d4ec56d74 -> 27697587ffc9da6fd4ae4f3c722d80bd1b01e12e62a33eaf52840ca78b01983f
+~ SetModeForDisplay.cold.2 : sha256 426b4b2dcf28810599df3a947860457e3787162683702966c5ac64c287081171 -> 2bc366d2380d7eaba036ad7060f60ad28f56a8afde2aad1e9269ad3de705ce2d
+~ SetModeForDisplay.cold.3 : sha256 f0a0b19c442ec0c75242394aebae116c83e665391b53d2e5b4ba1f43f45d272b -> 36b6fe7ef33a346aac34cdbd16b8233a44ae468a5d6e9bfa2efa222da6e3fe53
+~ SetModeForDisplay.cold.4 : sha256 91230cafc00d468138fc38737e89b872a22683b1889d6e033b2ad152f986b359 -> a4874a9766214df3adc057e569815fe0275c0457f161bc953265d3b54fd05cd1
+~ SetModeForDisplay.cold.5 : sha256 199d30537939c3c06c76e776becbe0d8e221694d303e7f8019e94c92bb7b5e19 -> 260041ab57d39e3d2d404b3a5adbebd1b68c8c261be56f1962cfc1b43c27d728
+~ SetModeForDisplay.cold.6 : sha256 8295035234d69d841c18750e2a790e04279b0688a48c02a19f359062d5e94575 -> ac8f40cbdf951abcc385435fa1f7b6ff3b35e4e5d73e9b37beb21dab832ae4fb
+~ SetModeForDisplay.cold.7 : sha256 7b612e1a1635b4d2c308120f22f64ab9b7b8509e7b42ef5100fdb9d3c417176b -> 8387b3c7d115dcd9b9b7aeb4b70a585eb0491383def81aee4f0253869fec9499
+~ SetModeForDisplay.cold.8 : sha256 b055db4f30d868d0b63361df8e40b3c865228cbf732aa2f238a338be9ec9904b -> de1309944999dbbf544b58b344c6e60eba55781016d388ac0f3b5bc6e4848f4d
+~ SetModeForDisplay.cold.9 : sha256 54ec6f33fa4fabaa2273f3e3f52a7859269e29f07ff4d681aba1c0666e9cde35 -> 2cb8882f3911e54f22e2793963ef6f7fcfcb0bcd3cf8aa4294d5a7df02f4a5be
+~ ChangeMirrorMaster.cold.1 : sha256 db1b36cef33d88545daac8bf52d922b27a46a8dd8810efe60dfd6f8a2f449f52 -> a6a87171394a86d992c2d15a85ab3b66f04d388d105c3da869fa86a39527ae97
+~ ChangeMirrorMaster.cold.2 : sha256 8683dd0f5bfe2941aa4cd6a8977b64de339e9c29dce92cfd583162473eaef2c9 -> 18d7ec7bf49e48e23eb7abcf8220d004465d6abd6961e3989e9391a56631e5c9
+~ ChangeMirrorMaster.cold.3 : sha256 941999829791f2ee08846d74beba90fdddae5e463840aff95c1ff1b215cd27cc -> 7253c41fa4e5a8e1bcec6f15f39f3fd22aebfebba708b63b2a3595d2d3507022
+~ ChangeMirrorMaster.cold.4 : sha256 defd550b9dd970c4bd46162010b4cf8b5094067c91f0682c3de215378b25c70e -> 589bd9f4699f673f20e1b7c7a7d0fd6fad31f9058f6ca5c98dd9235b05767f47
+~ ChangeMirrorMaster.cold.7 : sha256 6ab711ec156c45192fa1ec5aa014cc2c01304545a44a16b69d7253d252ecc26d -> 791f8e3adc71db2bba67a7c959c534d47f6fcc0e22ca207d31b4a99736d22d1e
+~ MirrorAllDisplays.cold.1 : sha256 83156545bbddb15d0e2274027740fb3170108db0dbd4c13f5008a08e774f7674 -> 3250fe0988f6281433deef7ec2cfae5e7eddbfda4df89d97b7fb6599b7587b3e
+~ MirrorAllDisplays.cold.2 : sha256 5a654b82391ab2e2c83b8948bbada1e1fa9974a0d546ca03b24cd2f977a5f917 -> a042f300412bc193b6ef3a0c585302cf23768c3ae73857e013fb318bafa1da46
+~ MirrorAllDisplays.cold.3 : sha256 097dfc858eb9c92918ca60137034fb15f41aa4be63c24b78ff7ec4b0a1b333c9 -> 9258f7617436f9ad7697ac6ec9428b331b5be221c58e17c8b5237710fbf7a28e
+~ MirrorAllDisplays.cold.4 : sha256 e4114abd9eb04e500ee7dcea59a13a2d337444a9c444a0883b2c97cc9ee5da26 -> 397e5391c13bc61482982ee643b0e01cdd237814c7205f24c44cd1b300dfb5df
+~ MirrorAllDisplays.cold.6 : sha256 e55b338ffa4652e4dfd13489c0793b57f75355a64ea3662d2946838b52abcd91 -> 0e9e696cef826b475a62cd12a0c13f268053cfabad6b8493c9d71202fcff8694
+
+```

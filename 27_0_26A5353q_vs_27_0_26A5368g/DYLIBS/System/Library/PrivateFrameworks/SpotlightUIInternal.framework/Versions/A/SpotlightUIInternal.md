@@ -1,0 +1,393 @@
+## SpotlightUIInternal
+
+> `/System/Library/PrivateFrameworks/SpotlightUIInternal.framework/Versions/A/SpotlightUIInternal`
+
+```diff
+
+-228.401.0.0.0
+-  __TEXT.__text: 0x157210 sha256:51400ab70be9c4fb10bcd8123b566762d65df1cb9d03cf6bff6a831e08c08f50
+-  __TEXT.__objc_methlist: 0x3be0 sha256:71dff687113300f9ea11524eb010e8c9b9038ab2bcb4aa0020fc39953df76ca8
+-  __TEXT.__const: 0xb5d4 sha256:3eb3a82fb2449b678f6eacb4663480b214562f644dc412d360a8a47422f7bd3e
+-  __TEXT.__cstring: 0x2f9f sha256:cecdaeb9c86a82f2dc076e6f76efd30c8a0e04eef0bb39dce29bedb3105a9c33
++235.3.400.0.0
++  __TEXT.__text: 0x15cb4c sha256:889936e53145954732b88c3007fb2b86aef4b644c67af9316a906c5f5153db7a
++  __TEXT.__objc_methlist: 0x3c30 sha256:25244e9f7ff47776d64f39493425b14c96652db6191862e18a8f468042a6556d
++  __TEXT.__const: 0xb874 sha256:76bbf1537d5405f18ae13091331c118bce07239fa3825b16311a9d672f198fc9
++  __TEXT.__cstring: 0x323f sha256:c15952a99e389096bb9f5a0153e187878f356da471dd2088606069e3da570e06
+   __TEXT.__ustring: 0x6 sha256:e5909826ecc6285b18025f92058e4f51254314ea7f948db5e2b64008a8f5f6b6
+   __TEXT.__gcc_except_tab: 0x10 sha256:c3b02378866131ab5c42fadbddac51379e3e1c6753e5f502d59e1fedf8b88ba8
+-  __TEXT.__oslogstring: 0x244f sha256:68ed18ea5dd01d20ceeee1dbde0fd2efed89adb7d19c91ffb0c79c530fb812fe
+-  __TEXT.__swift5_typeref: 0xbc32 sha256:42fee943550c40b71a243517b466b336124e980303cc450e15ab297a8a3036a4
+-  __TEXT.__swift5_capture: 0x137c sha256:63d1b3ef8ab67dfb7291cc5da899c53e52c803f1eb3bafd3343897863b9d0869
+-  __TEXT.__constg_swiftt: 0x7cc8 sha256:a6ea6058a38089d5e86e7b00f901c34eafb0638c53a6ca94dc6b61b6d9a65afa
+-  __TEXT.__swift5_reflstr: 0x3d8b sha256:0a717cd076b0f0245ffbfdf42961c453bba34cf2f843f7258ee8ab3779495e0a
+-  __TEXT.__swift5_fieldmd: 0x37d8 sha256:37345f7413463e851b2bbc7e1086dd16be02999f07928319bdd998ce2be3f4f3
+-  __TEXT.__swift5_types: 0x450 sha256:79c28743a05dbbf5561b63e5fe69cf53c2e90d7bbe5f7810a716d1c085deea67
+-  __TEXT.__swift_as_entry: 0x10c sha256:95baae8791734de3a6b6681dabff764f751eb14b76efe84acf5bdb033c2043ba
+-  __TEXT.__swift_as_ret: 0x140 sha256:3fb0f315f04f73a7d2018909833c31d7397897dbaeb3494ba65b8c47406a70cc
+-  __TEXT.__swift_as_cont: 0x2a0 sha256:2b5124a334ac78607311db526157c0a132d5a6a9468743f111729f3285d9af16
+-  __TEXT.__swift5_builtin: 0x17c sha256:e001bfa5f7e2eab8345e83989c0d6f12f793aded4166f53622031358c793b987
+-  __TEXT.__swift5_proto: 0x538 sha256:84e8d146a338823f0e97d134acf2a14a8b9a3cc305a7e8ad6851e31ac6f66f51
+-  __TEXT.__swift5_assocty: 0x850 sha256:9385d5fad96bd501460714a0bcbcc843b15a15568d7c03541171399b659c6936
+-  __TEXT.__swift5_protos: 0x8c sha256:d2887a72f0536eac9cd0d95d126cd52ae35377e25bd083b5fcf7ae7c96753974
+-  __TEXT.__swift5_mpenum: 0x30 sha256:f0e5bffdf69b55d98f44eac677adbdf71c9af4079ba3f436667bb69dfffb4dfd
+-  __TEXT.__unwind_info: 0x4ef8 sha256:48e36a3a2783a3bf972e67cb86a02d32155ca46b409480c6e75d78fc2903f01c
+-  __TEXT.__eh_frame: 0x3ef8 sha256:6f46e9769b4085c7935c2d3bda51f29b0423d45f7ea9467812a42c117167a292
++  __TEXT.__oslogstring: 0x24ef sha256:341ec1576de28f51f026810898e25857b82846518ca3ee5f1f13edce3086d956
++  __TEXT.__swift5_typeref: 0xbd32 sha256:086a13781df25203897b455a74e9537e64ad64bda2018066aa914bbf62266647
++  __TEXT.__swift5_capture: 0x1494 sha256:dfa4e2ca64f8d43527fc5d30c3ba135c52fd2e13e52d4644ee36c19aa5ec397b
++  __TEXT.__constg_swiftt: 0x7dd8 sha256:7ca7301a180627d22aee4dc98a1e6b94825191ffea457e36760669a1a48d99c9
++  __TEXT.__swift5_reflstr: 0x3eab sha256:2869b8a4a5d28659035406fd6ee188d1b7a90837515345c412658daddbaa3c08
++  __TEXT.__swift5_fieldmd: 0x38cc sha256:d083d0036bdc329de2bb65df84578f0942ad4d080a4db199086196e58e18bf1d
++  __TEXT.__swift5_types: 0x46c sha256:2ce400eecbe072bd3436c555a3e3600ff5a242f5d7b17a943fa599f981a2bce2
++  __TEXT.__swift_as_entry: 0x10c sha256:1f44b6f32b7b1421a033b6e15417511d22d6f8fe5cd9d3cb869b1a6c0d7ae17d
++  __TEXT.__swift_as_ret: 0x140 sha256:1452800dedd1b0a55b5d50ef61057936ef0f02f5739242425bade9622ac3136a
++  __TEXT.__swift_as_cont: 0x2a0 sha256:78f812fe7fabb23c25d2c0b8822c6d28d96ceb8edbef04f1604c077192886a4c
++  __TEXT.__swift5_builtin: 0x17c sha256:b125d7fadaf986953ff67e4efd8a96efd54b8abbaeda736ffb09bf0bf18bbb57
++  __TEXT.__swift5_proto: 0x544 sha256:6ef8e70e80d0d82e8eecc848c110c8756dafeae11f76713879db64ca6d50d03a
++  __TEXT.__swift5_assocty: 0x868 sha256:445af6f4b458aac34348f639c7fae0d807498528f0693ae0d7cef90c5bc3b03e
++  __TEXT.__swift5_protos: 0x8c sha256:38a1c811e0eb0be6e6dd07689e9ecda599b3a2f4085ff3f552255b17feecacc5
++  __TEXT.__swift5_mpenum: 0x30 sha256:222340879c71143901d9edbda88ddb60b622349bcd15168c0b2b912dc2da2427
++  __TEXT.__unwind_info: 0x4fc8 sha256:341d1393b8bbb7c1bf563beadd61699ec9f885e60dd9ca6572dc26fec4a14750
++  __TEXT.__eh_frame: 0x3e78 sha256:2b7235e3719b81461d471c430148e4d9c2e12f895a8cdc8170c1d0db2a12bff5
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x508 sha256:ec3d42c35b9deaccf218324753fa6fa35c127c6868d062195e33e302cf91aeb3
+-  __DATA_CONST.__objc_classlist: 0x388 sha256:82e87630eab095e3d0bacbc299ac6a2ec4be0e2f2b35fe287672504b143a7359
+-  __DATA_CONST.__objc_catlist: 0x50 sha256:441089dd2e43738a335ee7b0ccdc247fc5b93617978065ebe125ef3ce5bea3cb
+-  __DATA_CONST.__objc_catlist2: 0x8 sha256:109f6f8ffa9043d153ff2d63b212d465b8ff30f4169c360abdda191dda49cd9b
+-  __DATA_CONST.__objc_protolist: 0x280 sha256:ec5695f973c8392cb57e85939a354fba5a02004057d9b07319a2d82a08d6200f
++  __DATA_CONST.__const: 0x528 sha256:eef611ebea5d12d532034746daf62d43d51e87d58831badc743c3c0bdeb63d8d
++  __DATA_CONST.__objc_classlist: 0x398 sha256:23aaa885048da648dce1bcedf1a0441b27e5f3e2cee6eb62c58f78ea16f463e0
++  __DATA_CONST.__objc_catlist: 0x50 sha256:0f23b0f88c3fa5bc3370a2044869c159a404a45a3684d1253b78bc7db6c476aa
++  __DATA_CONST.__objc_catlist2: 0x8 sha256:fe4bb99142b9c8642ea505187ce98708346be0a32923a5e2a008e7980eded62b
++  __DATA_CONST.__objc_protolist: 0x280 sha256:b968e755dfab5bec4c3bd82169d9f1e8ea69e516fe192a896f167457dfd67ee5
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x3068 sha256:c6e87c42e96b96b389b5411c042dd44ce3ff295679bc91156cb222cf9d975fa4
+-  __DATA_CONST.__objc_protorefs: 0x138 sha256:68bcb5d2bf39680fbe6f7ac7bce0a67d9183a3d4570e98b2106053fa5459bbd8
+-  __DATA_CONST.__objc_superrefs: 0xb0 sha256:2fbe4613da27685f455a125107a976fb7c8640b928c437bc568aad4a814c658e
+-  __DATA_CONST.__objc_arraydata: 0x148 sha256:4709f26043aea779332584e5d56d34ff6a6d75d528ed5c6fd3fa21424d36917d
+-  __DATA_CONST.__got: 0x1490 sha256:d7cacf144680f00df5d15cc40858bdc39a7ff41e0e818183550bc598500e4617
+-  __AUTH_CONST.__const: 0x70d8 sha256:c4c6e18fbcb76270c2f97df2961db77e987b3abb35d31169cb911aa7a7e760c8
+-  __AUTH_CONST.__cfstring: 0xea0 sha256:3291eb0f76ed6c99e2ece144fc6877143c97d27e42315b506e64ffcc43bc24c7
+-  __AUTH_CONST.__objc_const: 0x9750 sha256:87128feab53ff5b36601cd560950fef4957b51cb70a204653c0944d0aaeb1791
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:b7f49b69aeb891daf414a361b9df9a2394d9ba51b05fb17339785674730d084d
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:cc8b054cf55bd185d54d09d9d6da6d03599d9afd563648093197f39d2e79b0fc
+-  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:801c4707c4f71ee27c72845a165c9ada52d1a3a7721d88b958215011f557a9b5
+-  __AUTH_CONST.__auth_got: 0x2750 sha256:bca6941a9c34c33ce6ae54ed17ad743ed9b94bf350b37134f3cb5270376984e4
+-  __AUTH.__objc_data: 0x64a0 sha256:09662d8bae837c08546568815942bb098f6d259feb3c1610e5111cdcf140eff4
+-  __AUTH.__data: 0x4c50 sha256:771612bfaccc89f9bc67e326831d8fcd65c2b42e1e226764f8c382fe1d654d93
++  __DATA_CONST.__objc_selrefs: 0x3090 sha256:7ce4559caf8a5a33d5fc94fb2097e33c9e9308f0e1f9d5b5d43f8844d342b523
++  __DATA_CONST.__objc_protorefs: 0x138 sha256:a1b752086c3425a5e8fc5f0f7ed8c3f239613d62f45091814cef1a60d67a8581
++  __DATA_CONST.__objc_superrefs: 0xb0 sha256:fd0e636f8ab6d0277200af6778ec11c5fbb26c4de0d72282c335bc405957897d
++  __DATA_CONST.__objc_arraydata: 0x148 sha256:8a6ba971b4713d558288e3c50195521170e2c6c83fec8b305b0c20b98a61532c
++  __DATA_CONST.__got: 0x14b8 sha256:b518ead2a40e3936d915a4651f06af12b5b69113207c02c61aea2193a4385008
++  __AUTH_CONST.__const: 0x7398 sha256:e50456b957afa514ea3defa2443b6bf95510adef9089cbb7976b9834235dfbb0
++  __AUTH_CONST.__cfstring: 0xea0 sha256:4088a405497fd78d2059c86c7e90d332c8f142ecb05422e52cf059f8cd7cc72a
++  __AUTH_CONST.__objc_const: 0x9a10 sha256:73943c9bc58a2a8d6b4d05ae530b30c3d2fcca4ade30d9e2035c5f878ac90ecf
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:9bd236637d3f98c1771722fba15d4da3284b6a432b551d58ca0683c0ab8319df
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:48b77ae26ee6392cf2d903be2eabc28fc47a351aab36b23aee2a7721b5674666
++  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:5a85d28c3e6de81c565d421b1bb5169b1e4870f2707948d738214b66b9b0a72f
++  __AUTH_CONST.__auth_got: 0x27d0 sha256:a429ab859739ed150fae27d5e21ce15f8cff194d4a6c9706b87b937a6f546344
++  __AUTH.__objc_data: 0x6530 sha256:bc6241d055ce237a5350737111d2581fad44e18b9f0acaa825e63871c50fe8db
++  __AUTH.__data: 0x4ca8 sha256:10fba09612066a81f296b1f3e62b2b53ae4284994b17d90660c0bc5376578043
+   __DATA.__objc_ivar: 0x1dc sha256:3d19e541c73001e683f4bf980e1e7f81bc2f9cb44813d5e41019d0f2ee65ad13
+-  __DATA.__data: 0x3bf0 sha256:be40b8c4d34170468826ccbf5fac06af4f2f871f84741cf0c95cca87ca9123b7
+-  __DATA.__objc_stublist: 0x8 sha256:363023261c694eb4662745d02ad1d23e4a95203c0e07b7108c8c9afe44840850
+-  __DATA.__bss: 0x9a48 sha256:ba424b233609952298187038d1161826e4b98dbbd8c2da93966ab7186182a112
++  __DATA.__data: 0x3c50 sha256:4c75b7b0cda1776afc809141551e1adb5443b3260696301151386ced16f07236
++  __DATA.__objc_stublist: 0x8 sha256:e0814995a1fc5e61bc0afa9d311edeee3a6ccb50eb21d46c5932a3f569ff1e30
++  __DATA.__bss: 0x9a38 sha256:89b71bd6cdc8e81850ef4fac771f4f405a85c67eb91ae362f18f23b5f36ba01a
+   __DATA.__common: 0x260 sha256:0de9bc81393bf2e7aeb999800099c35e6128cabcfdd1947c16a836df21f22d2a
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0F077F4F-CD73-3DB5-979F-C51302A9AA53
+-  Functions: 7290
+-  Symbols:   5324
+-  CStrings:  651
++  UUID: 44C7A01C-FF51-3FB5-BAFF-6F8BA85FAFEC
++  Functions: 7393
++  Symbols:   5375
++  CStrings:  674
+ 
+Symbols:
++ -[SPUISpotlightIndexingView dealloc]
++ _CFNotificationCenterRemoveObserver
++ _OBJC_CLASS_$_SFCommandEngagementFeedback
++ _OBJC_CLASS_$_SPUIExternalProviderFeedback
++ _OBJC_METACLASS_$_SPUIExternalProviderFeedback
++ _PROTOCOLS__TtC19SpotlightUIInternal20MainWindowController.13
++ __CLASS_METHODS_SPUIExternalProviderFeedback
++ __DATA_SPUIExternalProviderFeedback
++ __DATA__TtC19SpotlightUIInternal14AnimationTrace
++ __DATA__TtC19SpotlightUIInternal21SpotlightBootstrapper
++ __INSTANCE_METHODS_SPUIExternalProviderFeedback
++ __IVARS__TtC19SpotlightUIInternal14AnimationTrace
++ __METACLASS_DATA_SPUIExternalProviderFeedback
++ __METACLASS_DATA__TtC19SpotlightUIInternal14AnimationTrace
++ __METACLASS_DATA__TtC19SpotlightUIInternal21SpotlightBootstrapper
++ ___swift_memcpy104_8
++ ___swift_memcpy128_8
++ __swift__destructor.13
++ __swift_closure_destructor.104
++ __swift_closure_destructor.104Tm
++ __swift_closure_destructor.110
++ __swift_closure_destructor.110Tm
++ __swift_closure_destructor.116
++ __swift_closure_destructor.119
++ __swift_closure_destructor.120
++ __swift_closure_destructor.122
++ __swift_closure_destructor.125
++ __swift_closure_destructor.128
++ __swift_closure_destructor.131
++ __swift_closure_destructor.134
++ __swift_closure_destructor.135
++ __swift_closure_destructor.140
++ __swift_closure_destructor.143
++ __swift_closure_destructor.146
++ __swift_closure_destructor.16Tm
++ __swift_closure_destructor.171
++ __swift_closure_destructor.181
++ __swift_closure_destructor.187
++ __swift_closure_destructor.21Tm
++ __swift_closure_destructor.23
++ __swift_closure_destructor.31
++ __swift_closure_destructor.39Tm
++ __swift_closure_destructor.40
++ __swift_closure_destructor.45
++ __swift_closure_destructor.4Tm
++ __swift_closure_destructor.56
++ __swift_closure_destructor.7
++ __swift_closure_destructor.77
++ __swift_closure_destructor.78
++ __swift_closure_destructor.79Tm
++ __swift_closure_destructor.91
++ __swift_closure_destructor.97
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy19SpotlightUIInternal16SessionAnalyticsCSg_G
++ _objc_msgSend$_zeroScreenHeight
++ _objc_msgSend$cancel
++ _objc_msgSend$initWithCommand:cardSection:
++ _objc_msgSend$isAnimationTraceEnabled
++ _objc_msgSend$setAllowedPocketEdges:
++ _objc_msgSend$setServiceProvider:
++ _objc_msgSend$setTriggerEvent:
++ _swift_unownedRelease
++ _swift_unownedRetain
++ _swift_unownedRetainStrong
++ _symbolic $s19SpotlightUIInternal35HostingSizingPropagationControllingP
++ _symbolic ScTyyt_____G s5NeverO
++ _symbolic _____ 17SpotlightUIShared21CoalescedUserDefaultsC
++ _symbolic _____ 19SpotlightUIInternal0A12BootstrapperC
++ _symbolic _____ 19SpotlightUIInternal14AnimationTraceC
++ _symbolic _____ 19SpotlightUIInternal30ExternalProviderFeedbackBridgeC
++ _symbolic _____ 19SpotlightUIInternal33IslandSearchFieldContentViewModelV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV19SpotlightUIInternalE22__Key_sessionAnalytics33_4735294EB4CAB50E7387216ECB660E50LLV
++ _symbolic _____Iego_ 19SpotlightUIInternal33IslandSearchFieldContentViewModelV
++ _symbolic _____Sg 19SpotlightUIInternal14AnimationTraceC
++ _symbolic _____Sg 19SpotlightUIInternal15HeartbeatLogger33_3A8276BA51A5ED939D3EEE6D174E894DLLC
++ _symbolic _____SgXw 19SpotlightUIInternal23SearchSizingCoordinatorC
++ _symbolic _____SgXw 19SpotlightUIInternal35IslandSearchResultsContentViewModelC
++ _symbolic _____SgXwz_Xx 19SpotlightUIInternal19IslandSearchManagerC
++ _symbolic _____SgXwz_Xx 19SpotlightUIInternal23SearchSizingCoordinatorC
++ _symbolic _____SgXwz_Xx 19SpotlightUIInternal35IslandSearchResultsContentViewModelC
++ _symbolic _____Xo 19SpotlightUIInternal19IslandSearchManagerC
++ _symbolic ______A2AtSg So6CGSizeV
++ _symbolic ______pSgXw 19SpotlightUIInternal21ViewOptionsMenuTargetP
++ _symbolic _____yAAyAAyAAyAAy__________y_____GGACy_____GGACy_____GGACy_____GGACy_____GG 7SwiftUI15ModifiedContentV 19SpotlightUIInternal14WindowRootViewV AA30_EnvironmentKeyWritingModifierV AD0G20AnimationCoordinatorC AD010ObservableG5StateC AD0pG4SizeC AD01_gD8ProviderC AD015PerformanceTestJ0C
++ _symbolic _____y_____G 7SwiftUI10LazyState2V 19SpotlightUIInternal33IslandSearchFieldContentViewModelV
++ _symbolic _____y_____G 7SwiftUI36NSViewControllerRepresentableContextV 19SpotlightUIInternal30IslandSearchResultsHostingViewV
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 19SpotlightUIInternal19IslandSearchManagerC
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 19SpotlightUIInternal33IslandSearchFieldContentViewModelV
++ _symbolic _____y_____SgG 7SwiftUI11EnvironmentV 19SpotlightUIInternal16SessionAnalyticsC
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 19SpotlightUIInternal19IslandSearchManagerC
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 19SpotlightUIInternal33IslandSearchFieldContentViewModelV
++ _symbolic _____y_____yAByAByAByAByABy__________y_____GGADy_____GGADy_____GGADy_____GGADy_____GGADy_____SgGGG 19SpotlightUIInternal19AnchoredHostingViewC 7SwiftUI15ModifiedContentV AA010WindowRootE0V AD30_EnvironmentKeyWritingModifierV AA0J20AnimationCoordinatorC AA010ObservableJ5StateC AA0rJ4SizeC AA01_jI8ProviderC AA015PerformanceTestL0C AA16SessionAnalyticsC
++ _symbolic xSg
++ _type_layout_string 19SpotlightUIInternal0A11WindowStateV
++ _type_layout_string 19SpotlightUIInternal33IslandSearchFieldContentViewModelV
++ block_copy_helper.106
++ block_copy_helper.136
++ block_copy_helper.137
++ block_copy_helper.148
++ block_copy_helper.183
++ block_copy_helper.189
++ block_copy_helper.25
++ block_copy_helper.33
++ block_copy_helper.52
++ block_copy_helper.58
++ block_copy_helper.81
++ block_copy_helper.87
++ block_copy_helper.93
++ block_copy_helper.99
++ block_descriptor.101
++ block_descriptor.108
++ block_descriptor.138
++ block_descriptor.139
++ block_descriptor.150
++ block_descriptor.185
++ block_descriptor.191
++ block_descriptor.27
++ block_descriptor.35
++ block_descriptor.54
++ block_descriptor.60
++ block_descriptor.83
++ block_descriptor.89
++ block_descriptor.95
++ block_destroy_helper.100
++ block_destroy_helper.107
++ block_destroy_helper.137
++ block_destroy_helper.138
++ block_destroy_helper.149
++ block_destroy_helper.184
++ block_destroy_helper.190
++ block_destroy_helper.26
++ block_destroy_helper.34
++ block_destroy_helper.53
++ block_destroy_helper.59
++ block_destroy_helper.82
++ block_destroy_helper.88
++ block_destroy_helper.94
++ get_witness_table 19SpotlightUIInternal0A11ContentViewV7SwiftUI0D0HPyHC.7
++ get_witness_table 7SwiftUI12ViewModifierRzlAA15ModifiedContentVyAA01_cd1_F0Vy19SpotlightUIInternal015WindowSizeAwareD0VyxGGxGAA0C0HPAkaMHPyHC_xAaBHD1_HC.52
++ get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy19SpotlightUIInternal021ScopedWindowSizeGroupF033_B97909ECBE36663F66290F42260D7F0FLLVGAA022_EnvironmentKeyWritingF0VyAF0ijkL5StoreAHLLVGGAA0E0HPAjaQHPyHC_AoA0eF0HPyHCHC.90
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx19SpotlightUIInternal23WindowSizeAwareModifierVyAE06ScopedhiK0VGGAaBHPxAaBHD1__AjA0cK0HPyHCHC.54
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx19SpotlightUIInternal29ScopedWindowSizeGroupModifier33_B97909ECBE36663F66290F42260D7F0FLLVGAaBHPxAaBHD1__AhA0cL0HPyHCHC.53
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx19SpotlightUIInternal34WindowAnimationCoordinatorModifier33_5F76C2076713132FD8341A851BF79C5ALLVGAaBHPxAaBHD1__AhA0cK0HPyHCHC.150
++ get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAHyAHyAA01_c9Modifier_I0Vy19SpotlightUIInternal016ScopedWindowSizeJ0VGAA022_EnvironmentKeyWritingJ0VyAK010ObservablenO0CGGAA017_AppearanceActionJ0VGAVG_SbSgQo_HO.51
++ get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA15ModifiedContentVyAA01_c9Modifier_I0Vy19SpotlightUIInternal026WindowAnimationCoordinatorJ033_5F76C2076713132FD8341A851BF79C5ALLVGAA022_EnvironmentKeyWritingJ0VyAK0mnO0CGG_ASQo_HO.210
+- _PROTOCOLS__TtC19SpotlightUIInternal20MainWindowController.12
+- __DATA__TtC19SpotlightUIInternal33IslandSearchFieldContentViewModel
+- __IVARS__TtC19SpotlightUIInternal33IslandSearchFieldContentViewModel
+- __METACLASS_DATA__TtC19SpotlightUIInternal33IslandSearchFieldContentViewModel
+- ___swift_memcpy88_8
+- __swift_closure_destructor.100
+- __swift_closure_destructor.100Tm
+- __swift_closure_destructor.106
+- __swift_closure_destructor.109
+- __swift_closure_destructor.111
+- __swift_closure_destructor.112
+- __swift_closure_destructor.115
+- __swift_closure_destructor.121
+- __swift_closure_destructor.124
+- __swift_closure_destructor.133
+- __swift_closure_destructor.136
+- __swift_closure_destructor.168
+- __swift_closure_destructor.175
+- __swift_closure_destructor.184
+- __swift_closure_destructor.18Tm
+- __swift_closure_destructor.29Tm
+- __swift_closure_destructor.3Tm
+- __swift_closure_destructor.42
+- __swift_closure_destructor.48
+- __swift_closure_destructor.57
+- __swift_closure_destructor.58
+- __swift_closure_destructor.69
+- __swift_closure_destructor.69Tm
+- __swift_closure_destructor.6Tm
+- __swift_closure_destructor.75
+- __swift_closure_destructor.87
+- __swift_closure_destructor.94
+- __swift_closure_destructor.94Tm
+- _objc_msgSend$doubleForKey:
+- _objc_msgSend$setDouble:forKey:
+- _objc_msgSend$stringForKey:
+- _symbolic $s19SpotlightUIInternal28SearchViewControllerDelegateP
+- _symbolic _____ 19SpotlightUIInternal33IslandSearchFieldContentViewModelC
+- _symbolic _____Iego_ 19SpotlightUIInternal33IslandSearchFieldContentViewModelC
+- _symbolic _____Sg 19SpotlightUIInternal0A11WindowStateV
+- _symbolic ______pSg 19SpotlightUIInternal21ViewOptionsMenuTargetP
+- _symbolic ______pSgXw 19SpotlightUIInternal28SearchViewControllerDelegateP
+- _symbolic _____y_____G 7SwiftUI10LazyState2V 19SpotlightUIInternal33IslandSearchFieldContentViewModelC
+- _symbolic _____y_____G 7SwiftUI9LazyStateV 19SpotlightUIInternal22BrowseButtonControllerC
+- _symbolic _____y_____G 7SwiftUI9LazyStateV 19SpotlightUIInternal33IslandSearchFieldContentViewModelC
+- _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 19SpotlightUIInternal22BrowseButtonControllerC
+- _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 19SpotlightUIInternal33IslandSearchFieldContentViewModelC
+- _symbolic _____y_____yAByAByAByABy__________y_____GGADy_____GGADy_____GGADy_____GGADy_____GGG 19SpotlightUIInternal19AnchoredHostingViewC 7SwiftUI15ModifiedContentV AA010WindowRootE0V AD30_EnvironmentKeyWritingModifierV AA0J20AnimationCoordinatorC AA010ObservableJ5StateC AA0rJ4SizeC AA01_jI8ProviderC AA015PerformanceTestL0C
+- block_copy_helper.126
+- block_copy_helper.128
+- block_copy_helper.138
+- block_copy_helper.15
+- block_copy_helper.180
+- block_copy_helper.186
+- block_copy_helper.23
+- block_copy_helper.53
+- block_copy_helper.54
+- block_copy_helper.71
+- block_copy_helper.77
+- block_copy_helper.82
+- block_copy_helper.83
+- block_copy_helper.89
+- block_copy_helper.96
+- block_descriptor.128
+- block_descriptor.130
+- block_descriptor.140
+- block_descriptor.17
+- block_descriptor.182
+- block_descriptor.188
+- block_descriptor.25
+- block_descriptor.55
+- block_descriptor.56
+- block_descriptor.73
+- block_descriptor.79
+- block_descriptor.84
+- block_descriptor.85
+- block_descriptor.91
+- block_descriptor.98
+- block_destroy_helper.127
+- block_destroy_helper.129
+- block_destroy_helper.139
+- block_destroy_helper.16
+- block_destroy_helper.181
+- block_destroy_helper.187
+- block_destroy_helper.24
+- block_destroy_helper.54
+- block_destroy_helper.55
+- block_destroy_helper.72
+- block_destroy_helper.78
+- block_destroy_helper.83
+- block_destroy_helper.84
+- block_destroy_helper.90
+- block_destroy_helper.97
+- get_witness_table 19SpotlightUIInternal0A11ContentViewV7SwiftUI0D0HPyHC.4
+- get_witness_table 7SwiftUI12ViewModifierRzlAA15ModifiedContentVyAA01_cd1_F0Vy19SpotlightUIInternal015WindowSizeAwareD0VyxGGxGAA0C0HPAkaMHPyHC_xAaBHD1_HC.49
+- get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy19SpotlightUIInternal021ScopedWindowSizeGroupF033_B97909ECBE36663F66290F42260D7F0FLLVGAA022_EnvironmentKeyWritingF0VyAF0ijkL5StoreAHLLVGGAA0E0HPAjaQHPyHC_AoA0eF0HPyHCHC.78
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx19SpotlightUIInternal23WindowSizeAwareModifierVyAE06ScopedhiK0VGGAaBHPxAaBHD1__AjA0cK0HPyHCHC.51
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx19SpotlightUIInternal29ScopedWindowSizeGroupModifier33_B97909ECBE36663F66290F42260D7F0FLLVGAaBHPxAaBHD1__AhA0cL0HPyHCHC.50
+- get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx19SpotlightUIInternal34WindowAnimationCoordinatorModifier33_5F76C2076713132FD8341A851BF79C5ALLVGAaBHPxAaBHD1__AhA0cK0HPyHCHC.147
+- get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAHyAHyAA01_c9Modifier_I0Vy19SpotlightUIInternal016ScopedWindowSizeJ0VGAA022_EnvironmentKeyWritingJ0VyAK010ObservablenO0CGGAA017_AppearanceActionJ0VGAVG_SbSgQo_HO.48
+- get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA15ModifiedContentVyAA01_c9Modifier_I0Vy19SpotlightUIInternal026WindowAnimationCoordinatorJ033_5F76C2076713132FD8341A851BF79C5ALLVGAA022_EnvironmentKeyWritingJ0VyAK0mnO0CGG_ASQo_HO.207
+CStrings:
++ "  +%7.1fms  %-22@"
++ " (count will be "
++ " heightCanPersist="
++ " → install animation padding"
++ " → restore standard padding"
++ "%s: host initialized (controller deferred)"
++ "%s: lazy-creating controller"
++ "(t:%.0f l:%.0f b:%.0f tr:%.0f)"
++ "Optional<SessionAnalytics>"
++ "SpotlightUIInternal/SearchNavigationBarContentScrollView.swift"
++ "WindowAnim trace ["
++ "behavior.dynamic="
++ "behavior.idealW="
++ "behavior.preferredW="
++ "com.apple.askSiri"
++ "com.apple.otherProvider"
++ "debouncedUpdateAccessoryState triggered (delay: instant, queryLength: %ld)"
++ "defaultPositionOrigin"
++ "fallbackToMainScreen"
++ "first assertion="
++ "getting forced state: isStaticEntity %{bool}d"
++ "invalidate(padding:)"
++ "noScreen → identity "
++ "singleScreenClamp"
+- "%s: initialized with controller %s"
+
+```

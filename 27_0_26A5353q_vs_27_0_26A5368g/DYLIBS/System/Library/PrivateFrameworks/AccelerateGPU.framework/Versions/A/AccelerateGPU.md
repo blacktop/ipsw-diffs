@@ -1,0 +1,70 @@
+## AccelerateGPU
+
+> `/System/Library/PrivateFrameworks/AccelerateGPU.framework/Versions/A/AccelerateGPU`
+
+```diff
+
+ 35.0.0.0.0
+-  __TEXT.__text: 0x45e8 sha256:b1e293226caf42000b8724d4db9469e0287755e3e5063823652923c2a4522c8a
+-  __TEXT.__gcc_except_tab: 0x8f0 sha256:f75e56265f9b2ca7138cdcf367aa60d8d04006b551162e0145d782c30403358a
++  __TEXT.__text: 0x45a0 sha256:4599db111d12fa59bcea3676aae159eb9330476b93f26f12a2dd0b8b8466682f
++  __TEXT.__gcc_except_tab: 0x8f0 sha256:e4044ea3a5d6f3cdcb92708241a043973cb2675b525bc0045639bcf298ce087a
+   __TEXT.__const: 0x58 sha256:6e8ee4de7b1b70cfe9cc6df44d09ca2720c4a53b2d74e4873c15be0b642e7d55
+   __TEXT.__cstring: 0x82f sha256:2297cf122e213c0a4269ee528d5d2becefd1fe1cd3a08285e80900205b8132fc
+-  __TEXT.__unwind_info: 0x190 sha256:dc6c0fd0198f1d942ec42bbbbcc9fe0a14f716e7e4758d8f83b012a9190aae53
++  __TEXT.__unwind_info: 0x190 sha256:02a5bb0f604e438a95349064154d3efbece01375567925ab3748ed6f800cd193
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_methname: 0x0
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x128 sha256:fe6c860dc379a8d2d39a3b3239df0d3a4f4126af6a18686b7576d4f0b8083877
++  __DATA_CONST.__objc_selrefs: 0x128 sha256:df094cdd4c045b5d420a822c364734c6aad341d28bbcc95602fed1ab9ed37b1b
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x30 sha256:c8a327ba60309b7137f2febe3896c1787f210b8174909756dcd6623a3b8bb0ea
+-  __AUTH_CONST.__cfstring: 0x6e0 sha256:b0541ec0ada97ebd23fe5569de8f07475778e81adfbf7bcdffa7e78f488e0267
++  __AUTH_CONST.__const: 0x30 sha256:e4d67ba756ac0f34b65b3b2283d266e8d1b08e583b2989cb418508996e7dcdd0
++  __AUTH_CONST.__cfstring: 0x6e0 sha256:d2e3a2ad0ab613cc7f84ea52377525b7bd2cbbb67c8bd2c87b1390fa3dbb477e
+   __AUTH_CONST.__auth_got: 0x0
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6B4F6BE5-39F1-3B3A-850A-1A9712D0AE14
++  UUID: 9D0FB469-224F-35AB-B4D6-3B3B6A9DA013
+   Functions: 41
+   Symbols:   121
+   CStrings:  111
+Functions:
+~ _gpuImageBufferCreate : sha256 6a152bd0f932453dfe2a2bf86953808ab96be343818f697156307f982d64e38d -> 2ec57d97e778fd246cbc2fbc9778f1c34d554770fddcc82f0765783f413d58ee
+~ _gpuImageBufferDestroy : sha256 22f1f139cda3e4f39ceed7f288dc6ac54743fee16c434b83bac3c14d31d434da -> 82850fb33152845f00b6398230a9d4e9323e61fc8f133d2f55db565af3f98f10
+~ _gpuImageBufferGetInfo : sha256 1247c171e34ca99d4a971d1f771975f30828e56b8dd90d2cac7d5796e8e0e9da -> 40e4c14dad36f7561bb806b434a3b081fa5a110a05a141a5291464a96b5e2600
+~ _gpuImageBufferGetData : sha256 1d01b2bb59fa483c029b8545cfd5d2df1c39443c0e88e62b26b123584aa6df1d -> c784cc7fd87f1126e8b14684c5f81cf542f9d68232a05b6983ba2ef04c0cb5eb
+~ _gpuImageMatrixMultiply_ARGB8888 : sha256 61d7dbf9cb6ce1f53762b09bbb4eab1f0cc955d13e08cf7da118a7c4a6a4a9ab -> 9065138545d47f2266ba552803127c054fc65e7880f09431a7b5d5b5f28c227b
+~ _gpuImagePiecewisePolynomial_PlanarF : sha256 ea27bfe6a233fe568a9cb8fb150bab5ac095d1fa2a21cebaab9d766e23af1d51 -> 46e1b99d18cc2160a29c8082252c3116000d2687fa3f513d97d9c6edf7933b6f
+~ _gpuCreateSession : 4428 -> 4424
+~ _gpuExecuteBlockBegin : sha256 a0e02fedda6f994b045d859b0313f89967f878ca8a95887f08f5cb45c1e0788d -> 5184bfd6a0fdce0c555f1ffa356f17c7b8600097e043909f4758adf4c0b07bcf
+~ _gpuExecuteBlockEnd : sha256 c6f4de3ba0fcfdc3f8ef69eeeae8a470708a3e2a90815776fbc11fc9a113a895 -> 2407d7222fc5a1cf5eeb048c8a53bd61404033a1362f680309ef28cb4259bd62
+~ _gpuExecuteBlockEndWithCompletionHandler : sha256 3f22a8ffc524d957d7dfa8fdb6b8f7fb801bb1846e929a3e056ea27db78d316c -> a380e1c7a09fb2dc97d7b1ac54790df522dfe4b42f3eac0c7ee08dacc4848119
+~ ___copy_helper_block_ea8_32b : sha256 bbaa4d554dc52edc406a454fe5a0ea7432fc9fdfa2881270011f36bd5db3c92e -> 705c8d5552324495f0ddbd5f23d901c04e9ccd4957050b004760ffbf6c7f801b
+~ ___destroy_helper_block_ea8_32s : sha256 453d255805104db8c918939a8f9c19ec04a81d2a2fabb0195ddb0c294417cdac -> cc8ddc9b3d38c8b4197e718e00b745dbf472302fbf70c8cc4e0f2986412a63ff
+~ _gpuImageRotate90_ARGB8888 : sha256 70b76f601709d2588b9ec80a84345c52a6a1b6c9e9eabd5a1c3883933a794344 -> a73086c8501f8d6aed8b62516f690c4293340ef5bfcff38ad23ad17eba4e30fb
+~ _gpuImagePiecewiseGamma_Planar8 : sha256 4c67e5d821fc00f99d9e31bf4e59df047b9f3ab3b1e4d8e87909ecfdd5126e69 -> 22be65b45f35dc4510aceacc65594cee6ac49b157ca8c341315beed89cb081ae
+~ _gpuImagePiecewiseGamma_PlanarF : sha256 a538d7bb1c4588b3b5ff5148db7af252f1addb4dfe56336b7350b0e9f7661cd8 -> 44148e146a8258f7b1c5fcc2710eb4ac19e4c8b3a5e5acd807cbc11a8a87bae0
+~ _gpuImageHistogramCalculation_ARGB8888 : 1168 -> 1152
+~ _gpuImageConvert_ARGB8888toPlanar8 : sha256 e41675c468fbb7535248e3ffb87cf60148f2da991e09faeba3f5fdd2e950c793 -> 08e65023de787bf655503b420af627a9975dafa472e7b553dcaef332de745c68
+~ _gpuImageConvert_Planar8toARGB8888 : sha256 1cefcefda5db9cdc2d3305d04bb558a501e045669c00b1e510d0336cd767401d -> 4088d4badcc4c1565294eacededbfb465c0ea19daecd968a217ab75e5e0031e0
+~ _gpuImagePermuteChannels_ARGB8888 : sha256 71e7f86c1acf917347e75f1285e37b57cbcf01d9c9d0245d0756d04be0b3e8b4 -> fc00c6827038f755de914520b6e2fc0f1f1482d1a07ef11107897cc2ed9fb4af
+~ __ZL13gpuImageBlendPU34objcproto23MTLComputePipelineState11objc_objectPU35objcproto24MTLComputeCommandEncoder11objc_objectP16gpuImageBuffer_sS4_S4_13GPUImageFlags : sha256 1a3fc9e3158c656599cf9c13e15355d3a38943be81be641051a447fe8de29ef2 -> df7df698294d8516d293877111dcc417507b664ac4a44e5403eea5b01a22ed35
+~ _gpuImagePremultipliedConstAlphaBlend_ARGB8888 : sha256 aecea12184336e3c75b2bd1292cc6996815334d62885e020dd39694c20025bf3 -> 6f30b4c6bb153e443e0e99c6fca6268cbb5b1498a4c919234c041a31c067a75d
+~ _gpuIsAppleFamily : sha256 e5e0402b48469ed7b6b6c8daf765900c708362801497dcca3b394bbf5c6a5617 -> 095d90d132e612b839790bebf9055f64fdaa4a4d88fcc62ef6233d12fa245d9b
+~ _gpuGetLibrary : sha256 dc40ef017448036ed236d3e56a57b1a9a96d7a54415b5b352e1c450e2dab8c5f -> 0ab6eb1fb8fc47dd2d1bed5b2f01aabaa6125988df89ab935b00f87e92572eb3
+~ _gpuMaxBufferLength : sha256 c0cad62c4019cc7b233fc51fda7369cb1d696a672b17a670bd634e71dc0226bb -> dc4dd389e388b9a633c2a6e64e44bbc1b7f4feaa07c7da4cf7f31af0d7a2a727
+~ _gpuImageTentConvolve_ARGB8888 : 448 -> 440
+~ __ZL32gpuImagePremultiplyUnpremultiplyPU34objcproto23MTLComputePipelineState11objc_objectPU35objcproto24MTLComputeCommandEncoder11objc_objectP16gpuImageBuffer_sS4_13GPUImageFlags : sha256 22c8f2a3f62da294b15c4eee4a734c2e439e57d8950a95cdb35500adbae38139 -> b7e1a369c37fdf35acc53fd65e77d5d28b0230637263882e72a5fd5c6bba2438
+~ _gpuImageConvolution_ARGB8888 : 1316 -> 1284
+~ _gpuImageSeparableConvolution_ARGB8888 : 1724 -> 1716
+~ _gpuImageBoxConvolve_ARGB8888 : 1852 -> 1848
+
+```

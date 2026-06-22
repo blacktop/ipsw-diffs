@@ -1,0 +1,64 @@
+## TextInput_intl
+
+> `/System/Library/TextInput/TextInput_intl.bundle/Versions/A/TextInput_intl`
+
+```diff
+
+-3557.12.1.0.0
+-  __TEXT.__text: 0xeb0 sha256:2bc805b415be31d71ad3d9787793df451885f4bdd1d850256a823a2ec81891b2
+-  __TEXT.__objc_methlist: 0x164 sha256:8c3cc40abdb8417435bf50aa156b81ff943d13154fe48c7ce5cac66e8c4a248f
++3557.15.0.0.0
++  __TEXT.__text: 0xea8 sha256:01328e5898e9f3b218ab1f9269fb4d6c03eb78614537810d7da15486c44561ff
++  __TEXT.__objc_methlist: 0x164 sha256:8ca11bf9bb7cc4c35b82097288e45e57947c7de37c932f19ce60c196faf432d1
+   __TEXT.__cstring: 0x15 sha256:be2139ac20d052ea617055d6cd5505863e9047c2de6c318ad33caf113f2daaf1
+   __TEXT.__ustring: 0x8 sha256:d072f36ed95226e20ffc15c16f1f3e65898f05959f2bd5fed2b9ca3074b67686
+-  __TEXT.__unwind_info: 0xb8 sha256:714d2dc0fb20a261ec56c7cda3228d03df5bdc7baac99317b237412a51825adf
++  __TEXT.__unwind_info: 0xb8 sha256:8bb4f215045a81d727d292dface5f8747fe5e2157b8f5d637d8c0bc2e0bfd95d
+   __TEXT.__objc_stubs: 0x680 sha256:fb7fd9a64a199f1ba4b2ee1ba264ab4e11b478088c9e64232f62c8a5d59f0b26
+   __TEXT.__auth_stubs: 0xc0 sha256:4c79d10d66f5ba59df4470a83be472dc9a4d273f4aca46df5d50987caf623dca
+   __TEXT.__objc_classname: 0x20 sha256:82f31c60cd3b1ab9bf31474c5148176b7492f562cdc3faca20fcff4f6eee9270
+   __TEXT.__objc_methname: 0x5a4 sha256:80f06e0e1ef31e51e819617493bb3a927b9bfa15cc3822c11dac8a80b9273ec8
+   __TEXT.__objc_methtype: 0x96 sha256:a68c9dbea0d619381e42430a23c021abe717a40ce1d632fdc29b3b00df250384
+-  __DATA_CONST.__const: 0x20 sha256:77c692567fbd0cd59940ffa1216df8d0693a3d054297c510bb60276cea767423
++  __DATA_CONST.__const: 0x20 sha256:79b784008aa9e3f506e2fd586da7de78e6b0ed0f94e2a3bb7046c8236d8629cd
+   __DATA_CONST.__objc_classlist: 0x8 sha256:400c52dd5bd0047d64c0582af027b387a7938a64283d0d4f727331140cb6462c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__objc_selrefs: 0x210 sha256:9c4ddcf15bf4c7ae0f122a8f54e795fe2150601ec99ee418add0b7f581bc0062
+   __DATA_CONST.__objc_superrefs: 0x8 sha256:161f4c0b1a18a0501127332c387e782b5acc10c6c7a9f7e494c1e3394c49bad5
+   __DATA_CONST.__got: 0x68 sha256:7dd2eb3d195cd0d309039dc5860290ef94f28d33031de292ccc4c8b0808e0677
+   __AUTH_CONST.__const: 0x20 sha256:da48f4af2b099afb150ebb68c7f4881e559184a8e6192180c2ebf2e55decd644
+-  __AUTH_CONST.__cfstring: 0xa0 sha256:e4f5a48d280fd9a954981e5e827abf64064a5b4dd61dae603c48a6e8c921472d
+-  __AUTH_CONST.__objc_const: 0x110 sha256:e4cad18572a5dccb8a83a2b886d29726e0a6134050c2369e90c044dc970f7e9e
++  __AUTH_CONST.__cfstring: 0xa0 sha256:13f13d54bf5a47681851c056f1b1686dfb221cb40ca5ea46e8b5b09e393119b1
++  __AUTH_CONST.__objc_const: 0x110 sha256:aabf6dd1951649ce0b19d273f73f8bcd574160de511b5137da133df121d6b51c
+   __AUTH_CONST.__auth_got: 0x68 sha256:6aaa2f7fcc80702a2ad282872e5dc5986e5c79f919827cf40ccfca0286e9df8f
+   __AUTH.__objc_data: 0x50 sha256:1f7c0824c929b7ad1092af1a52d508688c7052e66bab62fa456fb713149dbedb
+   __DATA.__objc_ivar: 0x8 sha256:4dfd743b3a45bb7d0edaa48566020743094dfab4a6099fad3fd3d8ad48d5331e
+
+   - /System/Library/PrivateFrameworks/TextInputCore.framework/Versions/A/TextInputCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 08DA267D-C1F0-3072-8156-C8855757BCFC
++  UUID: AACF1755-CE49-3FAC-833C-F16F11982B6A
+   Functions: 31
+   Symbols:   128
+   CStrings:  94
+Functions:
+~ -[TIKeyboardInputManager_intl_HWR recognizer] : sha256 2111a119de5b7e932248531e0e9f249ff5193a047ca35e8cf0df5ba9c69533ea -> 001bca592cb475056be34c8199ed5f2a4c71db9ebf95557cd67f0fcb47eb9969
+~ -[TIKeyboardInputManager_intl_HWR updateCandidates] : 612 -> 608
+~ -[TIKeyboardInputManager_intl_HWR candidateResultSet] : sha256 c10a5c1b3953424bdaaa401c0c6a361f7adede32739478ba9bdc1bee06d0c586 -> 2f76f75e8d0f24c4ebb8aaa34ec27d815c48fd346ed38292f6dcead073ec8732
+~ -[TIKeyboardInputManager_intl_HWR defaultCandidate] : 352 -> 348
+~ -[TIKeyboardInputManager_intl_HWR initialSelectedIndex] : sha256 4f381a140223dbbe0db4bdd39034d874dd2de060a4a7c4d38c52519a00e16513 -> f5c1ad1d117f8c5a08631c250f7893a6d2e909d9e38067d6ad0eaaad5fc8fd24
+~ -[TIKeyboardInputManager_intl_HWR isDummyCandidate:] : sha256 9b7943d952159ee2dea94a77f981b54b8230a39a2f49ad8a1549c10e541b622f -> 5c4b6911ddc62e7140667b61b1f620536bbe9ad2b7ce44abefa53f10c660e00b
+~ -[TIKeyboardInputManager_intl_HWR handleKeyboardInput:] : sha256 1bc9d397d50ae9d1707157bfc5a0301682d92f86d54c9fb36ca348c7c32da113 -> 0bc6c6048556882a220f38b9641b4f8ae8ba9b8757c31433a12d4596dc7aff9a
+~ -[TIKeyboardInputManager_intl_HWR addInput:withContext:] : sha256 cae81c7e22166a3d4ef84d22b854bc4ecc49776a2a072e3193ba2601d31e67e1 -> bd7a169b7c35a2d6151e84889538fa76dc228a75adc7595ff16fb59f6f353b3d
+~ -[TIKeyboardInputManager_intl_HWR addInputObject:withContext:] : sha256 89dc83d75264d8bdbf95145f8951d399e94972b11caf29f6fdda3a85dd9f979b -> 3e1eb9f78a75b67a9545eb8540ca23120ada85b71e704e55a4733dcfa1ac58bb
+~ -[TIKeyboardInputManager_intl_HWR clearInput] : sha256 25fc4be4a621005e793da5d8d800ca070752cb20eeacc965bd754d6de157ff1b -> ffbb3b61f2d111ff412bdba9baee972855ba6686fe263d4677bd8c00d33d824f
+~ -[TIKeyboardInputManager_intl_HWR deleteFromInputWithContext:] : sha256 a385710cd5b211a285f76a71b6c963522e9e5be7c7b6a3b2f6ef80bc65abdf49 -> fda8620414b57820788dd2532b1861570db7b4d6bff074bb4f0c026b11a75ebf
+~ -[TIKeyboardInputManager_intl_HWR inputCount] : sha256 989a445b96b6f61c8becf4a3130b453c2ce4163a6c5a44736a0aa8fe766bcea3 -> 792910235aaa252a488e7100f1750a4718a590b4970628fd45a97cc368491b5c
+~ -[TIKeyboardInputManager_intl_HWR setUserDrawing:] : sha256 f9a391287acdca49702a82058990a171f022bff5decf2745fb5fb22a2c035b32 -> 542d067053a7ba11796a16943f8478d14e7da391e1cc63460d6105eb2658c0a7
+~ -[TIKeyboardInputManager_intl_HWR setCandidates:] : sha256 182ab4cf02acb493390e99c27a2323a76e384af1e4689c0de5f8e6e658e7c85b -> 59a2c704a0df476b76f8d63ff5d4052d3f94f3069a76fc2ef61879dc0ca1380c
+~ -[TIKeyboardInputManager_intl_HWR .cxx_destruct] : sha256 9a16fd4228b72c9d9bad32341b6f0eb4a2eb78ba8dbca1850493b90a53fb585f -> 056120633fe1f26e4fb917ebb105eb26546e754f474d3684c1dfe9961ca22719
+~ -[TIKeyboardInputManager_intl_HWR recognizer].cold.1 : sha256 796d644cf891b26a8e69a8b76f77e7c3860b1c35a8c69b3bff9fc59ea46dbca0 -> 035b226accc479340b52468c1ca083cd886970003eda5ecd9bb8a43778439a40
+
+```

@@ -1,0 +1,478 @@
+## libLaunchServicesSupport.dylib
+
+> `/usr/lib/libLaunchServicesSupport.dylib`
+
+```diff
+
+-1498.401.0.0.0
+-  __TEXT.__text: 0x1b6d0 sha256:26c0fbc316e375a730f396dcef297b98eed08230e836aded7f2b5fd9eef0a66d
+-  __TEXT.__auth_stubs: 0xb70 sha256:29d6f8108acf201336f8194ac0c685c7e6bd3f84c031456302f366636aff53c9
+-  __TEXT.__objc_stubs: 0xea0 sha256:94303be14f7b55562480c8b84b031a4cc8487e2f2c6961904b3665e2a8aeec99
+-  __TEXT.__objc_methlist: 0x3ec sha256:9459aaae044f9a59d394395c5d3360b493bd75edc99b78e27f39781a42e68319
+-  __TEXT.__const: 0x140 sha256:7b2e7e45dd729181cd038c8900625b57b303a633d642d33f54ccfebc258f3236
+-  __TEXT.__cstring: 0xaf7 sha256:f80f73bd737d57d359172d5bf314e3953cfac2686f9a227964d4fa6ea8f330b7
+-  __TEXT.__oslogstring: 0x48cf sha256:0897686beb0308129c3137c12c08271937952a88c8dcd630d36b30129b75d4a9
+-  __TEXT.__gcc_except_tab: 0x26c0 sha256:bcdfc3185b0be274bc3ee97e6a8df746c10b379e7b9fe1c761f53464ed6fe518
+-  __TEXT.__objc_methname: 0xd6d sha256:3affb8b47baf1d77d7d57e20e410a9aab088d083a5e4725c2ebef6465c3a6094
++1504.0.401.0.0
++  __TEXT.__text: 0x1d774 sha256:2279c1c402e004d4769aa50cfd7bfbe73ae4a85529f944c152c63f6a2447a17f
++  __TEXT.__auth_stubs: 0xbd0 sha256:a4472c95ed30e6c64c43cd82c6423a16d856d15509cdaea9794866bc7cd7e13b
++  __TEXT.__objc_stubs: 0xec0 sha256:d58a19e016ba488304bf5d9c8d2bce5d6e6d6f1a962212438691c060cf39d62c
++  __TEXT.__objc_methlist: 0x3f4 sha256:e53b67e774b630da46f474bc63752ae7464816a767bd943945beca6057c3c53f
++  __TEXT.__const: 0x138 sha256:c0f9b9fc625976d8ebdaeb8d67497e9770ee1559fd1b9744157da1b8415bc9e0
++  __TEXT.__cstring: 0xb8c sha256:4222760e8916202e2740bc9e77b39173643090e661b797738eccf163e8a0ed85
++  __TEXT.__oslogstring: 0x504a sha256:e0b19faa18f39a5c19f3167dec1e9f0a764a02d686dd2c29d789e2ef9f584d35
++  __TEXT.__gcc_except_tab: 0x2a78 sha256:ef8623e75fe1d7c2297929603f21b643c06e52a1952011afbd92f3b7c229d272
++  __TEXT.__objc_methname: 0xd8c sha256:b84ebaa2366738a1058d71850c381a5589f8856945870aa788028ce898df0c5a
+   __TEXT.__objc_classname: 0x3d sha256:6a38859986052fd63297aa16815c1cc2b954ceb6ed877050ecbc1ad5c773eff8
+   __TEXT.__objc_methtype: 0x1ff sha256:8edf82c0ddfbd9b581ca273140d1d829626cf597e2e723085efbc4b18aa7c415
+-  __TEXT.__unwind_info: 0x930 sha256:5c696488394bba6b137f15ec7e429f75d113912b70bada741668a7189920d337
+-  __DATA_CONST.__const: 0xdb8 sha256:f31444dfa192368df4734efc5e301ea5f29f52ca51a2fc2a3ccc27a9d9d355f0
+-  __DATA_CONST.__cfstring: 0xbc0 sha256:a9b8ad041a8b317e42ce36c2afea617d504a39b0f95dca833e499123952cdff7
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:6f6545cfa061dc3308bb213011db1699a33e244b9cca01ec08700dd82a681593
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:59b5916060bf28b843e22a9bbe5ba6c0efef496a61c6a81bbb04014e5310e2bf
++  __TEXT.__unwind_info: 0xa50 sha256:610b20e11e4d1b02b354926237212ed96cbcab3c57a3232c59ce8c8f34a15e85
++  __DATA_CONST.__const: 0xe38 sha256:6e839bef5508ac0dfd89a3ad59f089e7c2a60555803d68e3f775db586ad40801
++  __DATA_CONST.__cfstring: 0xc20 sha256:924ac7ae02a02e9b4891ef6a433c3206bb30823d274d709c9acb861df96363ff
++  __DATA_CONST.__objc_classlist: 0x10 sha256:374341db1b1d8ab57ff33929cf2e0e7c1a5ebe627493d36f88a24881336aa86b
++  __DATA_CONST.__objc_protolist: 0x10 sha256:4831614f177c9e8056456c2c5d2314af2d096af967fb22f5411ee611bc0ac5b1
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+-  __DATA_CONST.__objc_selrefs: 0x490 sha256:7b4fa3e4189a4f7351ed85f13b537b0177ed4954d85710b794f9aa2a1333bce6
+-  __DATA_CONST.__auth_got: 0x5c8 sha256:399f610e68d75170f6160bc2fce3e1f46d99b1df206097a4d363b68242c2b140
+-  __DATA_CONST.__got: 0x220 sha256:b267ac368c40ed1247231b5328e6840849b5e24d1a02e2e3d78fb9ee0c4e1797
+-  __DATA_CONST.__auth_ptr: 0x8 sha256:42f218d0e0f022148208bb5e92fe3481f6d77245c80bebd555a8cc76d3671867
+-  __DATA.__objc_const: 0x548 sha256:214f08937d2ec4d5a110ee2659006a7796880ab302d79896dd17a0a5e6063acf
+-  __DATA.__objc_classrefs: 0x90 sha256:7e7700574e682507a9b9dd273c64d0f498b1ceff3e07875972ae8a66926ccea2
+-  __DATA.__objc_superrefs: 0x8 sha256:5a05d3a649e400732265c680d021cdacf2e195b2e93474823808e3fc443c3e34
++  __DATA_CONST.__objc_selrefs: 0x498 sha256:e234343e73caa557ea50d6476e3cb813e0447e7e54edfeb59e8da65416bc3b7c
++  __DATA_CONST.__auth_got: 0x5f8 sha256:a8799da35eba942e420d6dc052e1af863718fc8e1f070c13132ef56b1fd3ccc0
++  __DATA_CONST.__got: 0x220 sha256:3c1838671a9518b31f001a487a728818e41c5d5b2ef768ebc047edf049d65af5
++  __DATA_CONST.__auth_ptr: 0x10 sha256:53c3d3d76b0a1e9c54e37bc0bf6e33512d0299b64504971fb09bfd4ed0700875
++  __DATA.__objc_const: 0x548 sha256:9fd0d1133e2422acd6c73bcceffeb1441c342545b18e41935d2c839c86e01e25
++  __DATA.__objc_classrefs: 0x90 sha256:42e0082e7d2fa4d405d177c45f254fa8bc18613f57bb73fd58fb7e780cd5e907
++  __DATA.__objc_superrefs: 0x8 sha256:bdb543e5347bdec1596efb950de84538281b1c41c300cd9265943deca4b38b74
+   __DATA.__objc_ivar: 0x3c sha256:4a5c52f0f3cf2e8a8b6f0af49c940adec1e09027e6686848ffab1de90b5d1278
+-  __DATA.__objc_data: 0xa0 sha256:9f76ba8fffc381d392febf7df338c032d3442a5b8c680b78aa722c2457812f14
+-  __DATA.__data: 0xd8 sha256:1425303f6ba38d42e49510636842b866294cdf27c7ae3e8ee9a9543f504286bb
+-  __DATA.__bss: 0x220 sha256:44ddd2f478477ebd1c1cd5b99400af48cd46033c59173195f48870e608cec810
++  __DATA.__objc_data: 0xa0 sha256:99b5d9cd56569164350b913af4e5ec27e1e58742a41d718dbb9abdaba10b7e78
++  __DATA.__data: 0xe8 sha256:54e59240eac7cfb972feaf0668d7dcd736ce0cef009aceab0c1a2aa3f980544e
++  __DATA.__bss: 0x230 sha256:738c079dff6c9b77a0891ac42db1cabcab933a672b14aed8ecfcf94c0e77bb40
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libquit.dylib
+-  UUID: AA28B83F-B475-38AB-A990-A4692889A66B
+-  Functions: 382
+-  Symbols:   1126
+-  CStrings:  662
++  UUID: 11546224-6FEC-32BD-9A3E-636FCEB0A229
++  Functions: 417
++  Symbols:   1197
++  CStrings:  688
+ 
+Symbols:
++ -[LSApplication quitOrKillSubordinateProcesses]
++ GCC_except_table101
++ GCC_except_table103
++ GCC_except_table113
++ GCC_except_table117
++ GCC_except_table119
++ GCC_except_table12
++ GCC_except_table125
++ GCC_except_table126
++ GCC_except_table137
++ GCC_except_table15
++ GCC_except_table152
++ GCC_except_table157
++ GCC_except_table166
++ GCC_except_table167
++ GCC_except_table168
++ GCC_except_table169
++ GCC_except_table17
++ GCC_except_table20
++ GCC_except_table21
++ GCC_except_table23
++ GCC_except_table29
++ GCC_except_table30
++ GCC_except_table34
++ GCC_except_table36
++ GCC_except_table4
++ GCC_except_table43
++ GCC_except_table46
++ GCC_except_table5
++ GCC_except_table51
++ GCC_except_table54
++ GCC_except_table61
++ GCC_except_table69
++ GCC_except_table76
++ GCC_except_table8
++ GCC_except_table9
++ GCC_except_table91
++ GCC_except_table92
++ GCC_except_table93
++ GCC_except_table94
++ GCC_except_table95
++ GCC_except_table96
++ GCC_except_table97
++ GCC_except_table98
++ GCC_except_table99
++ _AECreateAppleEvent
++ _AECreateDesc
++ _AEDisposeDesc
++ _AESendMessage
++ _CFArrayContainsValue
++ _LSRestrictionsLog.cold.1
++ _LSRestrictionsLog.once
++ _LSRestrictionsLog.result
++ __37-[BTMManagerSupport forceQuitAppURL:]_block_invoke.254
++ __37-[BTMManagerSupport forceQuitAppURL:]_block_invoke.259
++ __37-[BTMManagerSupport forceQuitAppURL:]_block_invoke.260
++ __37-[LSApplication analyticsDictionary:]_block_invoke.75
++ __LSApplicationRemoveFromApplicationList
++ __LSRestrictionsLog
++ __Z11arrayStringP7NSArray
++ __Z11arrayStringPK9__CFArray
++ __Z14applicationPIDPK7__LSASN
++ __Z14asnDescriptionPK7__LSASN
++ __Z16dictionaryStringP12NSDictionary
++ __Z16dictionaryStringPK14__CFDictionary
++ __Z17CFArrayApplyBlockIPK7__LSASNEvPK9__CFArraymU13block_pointerFvT_E
++ __Z17CFArrayApplyBlockPK9__CFArraymU13block_pointerFvPKvE
++ __Z17mergeDictionariesP12NSDictionaryS0_
++ __Z19copyChildrenAppASNsPK7__LSASN
++ __Z20applicationBundleURLPK7__LSASN
++ __Z20applicationIsRunningPK7__LSASN
++ __Z22applicationCoalitionIDPK7__LSASN
++ __Z22applicationDisplayNamePK7__LSASN
++ __Z22applicationGetPlatformPK7__LSASN
++ __Z22applicationIsUIElementPK7__LSASN
++ __Z23CFArrayCopyMergedArraysPK9__CFArrayS1_b
++ __Z23applicationIsForegroundPK7__LSASN
++ __Z23pidIsRunningApplicationi
++ __Z24applicationVersionStringPK7__LSASN
++ __Z27applicationBundleIdentifierPK7__LSASN
++ __Z27applicationCopyCanonicalASNPK7__LSASN
++ __Z27applicationCopyParentASNRefPK7__LSASN
++ __Z27applicationIsBackgroundOnlyPK7__LSASN
++ __Z27copyCanonicalApplicationASNPK7__LSASN
++ __Z28applicationCopyCoalitionPIDsPK7__LSASN
++ __Z31applicationHasControlCenterIconPK7__LSASN
++ __Z31sendQuitAppleEventToApplicationPK7__LSASNPU15__autoreleasingP7NSError
++ __Z32applicationIsMacCatalystOrAlmondPK7__LSASN
++ __Z32copyFilteredApplicationASNsArrayPK9__CFArrayU13block_pointerFbPK7__LSASNE
++ __Z33CFArrayCreateArrayByAppendingItemPK9__CFArrayPKvb
++ __Z34applicationCopyRelatedCoalitionIDsPK7__LSASN
++ __Z35applicationCopyRelatedCoalitionPIDsPK7__LSASN
++ __Z35applicationLastTimeAsTypeForegroundPK7__LSASN
++ __Z36applicationSupportsSuddenTerminationPK7__LSASN
++ __Z37applicationHasAVisibleWindowOrContextPK7__LSASNPU15__autoreleasingP8NSString
++ __Z38applicationCopyApplicationChildrenASNsPK7__LSASN
++ __Z38applicationCopyApplicationsInCoalitiony
++ __Z39applicationSupportsAutomaticTerminationPK7__LSASN
++ __Z40copyAllChildrenApplicationsOfApplicationPK7__LSASNU13block_pointerFbS1_E
++ __Z41applicationCopyAppAndRelatedCoalitionPIDsPK7__LSASN
++ __Z42applicationCopyRelatedApplicationASNsArrayPK7__LSASN
++ __Z42applicationCopyVisibleParentApplicationASNPK7__LSASN
++ __Z44applicationEntitledToExecuteWithoutVisibleUIPK7__LSASN
++ __Z45applicationCopyVisibleApplicationsInCoalitionyPK7__LSASN
++ __Z47applicationCopyCoalitionNonApplicationPIDsArrayPK7__LSASN
++ __Z47copyNonForegroundNonVisibleChildrenApplicationsPK7__LSASN
++ __Z50applicationCopyChildAndRelatedApplicationASNsArrayPK7__LSASN
++ __Z52applicationRepresentsAnApplicationWhichIsUserVisiblePK7__LSASN
++ __Z53applicationHasExitedButLeftBehindSubordinateProcessesPK7__LSASN
++ __Z57applicationCopyCoalitionNonForegroundApplicationPIDsArrayPK7__LSASN
++ __Z61applicationStillHasNonForegroundChildrenOrRelatedApplicationsPK7__LSASN
++ __ZNSt3__111__sift_downB9nqn220106INS_17_ClassicAlgPolicyELb0ERU13block_pointerFbRKPKvS5_EPS3_EEvT2_OT1_NS_15iterator_traitsISA_E15difference_typeESF_
++ __ZNSt3__111__sort_implB9nqn220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPPKvEEU13block_pointerFbRKS4_S8_EEEvT0_SB_RT1_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqn220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqn220106Em
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqn220106Ev
++ __ZNSt3__116__insertion_sortB9nqn220106INS_17_ClassicAlgPolicyERU13block_pointerFbRKPKvS5_EPS3_EEvT1_SA_T0_
++ __ZNSt3__116__pad_and_outputB9nqn220106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__117__floyd_sift_downB9nqn220106INS_17_ClassicAlgPolicyERU13block_pointerFbRKPKvS5_EPS3_EET1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__119__partial_sort_implB9nqn220106INS_17_ClassicAlgPolicyERU13block_pointerFbRKPKvS5_EPS3_S9_EET1_SA_SA_T2_OT0_
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqn220106Ev
++ __ZNSt3__124__put_character_sequenceB9nqn220106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__126__insertion_sort_unguardedB9nqn220106INS_17_ClassicAlgPolicyERU13block_pointerFbRKPKvS5_EPS3_EEvT1_SA_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqn220106INS_17_ClassicAlgPolicyERU13block_pointerFbRKPKvS5_EPS3_EEbT1_SA_T0_
++ __ZNSt3__131__partition_with_equals_on_leftB9nqn220106INS_17_ClassicAlgPolicyEPPKvRU13block_pointerFbRKS3_S6_EEET0_SA_SA_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9nqn220106INS_17_ClassicAlgPolicyEPPKvRU13block_pointerFbRKS3_S6_EEENS_4pairIT0_bEESB_SB_T1_
++ __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE11__vallocateB9nqn220106Em
++ __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB9nqn220106Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqn220106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqn220106Ev
++ __ZNSt3__17__sort4B9nqn220106INS_17_ClassicAlgPolicyERU13block_pointerFbRKPKvS5_EPS3_Li0EEEvT1_SA_SA_SA_T0_
++ __ZNSt3__19__sift_upB9nqn220106INS_17_ClassicAlgPolicyERU13block_pointerFbRKPKvS5_EPS3_EEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__19allocatorIPKvE17allocate_at_leastB9nqn220106Em
++ __ZNSt3__1lsB9nqn220106INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_RKNS_8__iom_t4IcEE
++ __ZSt28__throw_bad_array_new_lengthB9nqn220106v
++ ___47-[LSApplication quitOrKillSubordinateProcesses]_block_invoke
++ ___LSForceQuitApplication_block_invoke.325
++ ___LSForceQuitApplication_block_invoke.328
++ ___LSForceQuitApplication_block_invoke.330
++ ___LSForceQuitApplication_block_invoke.331
++ ___LSForceQuitApplication_block_invoke.334
++ ___LSForceQuitApplication_block_invoke.337
++ ___ZL13appDictionaryPK7__LSASNb_block_invoke.504
++ ___ZL13appDictionaryPK7__LSASNb_block_invoke.519
++ ___ZL27registerForApplicationExitsv_block_invoke.403
++ ___ZL27registerForApplicationExitsv_block_invoke.404
++ ___ZL27registerForApplicationExitsv_block_invoke.405
++ ___ZL27registerForApplicationExitsv_block_invoke.408
++ ___ZL27registerForApplicationExitsv_block_invoke.409
++ ___ZL27registerForApplicationExitsv_block_invoke.410
++ ___ZL27registerForApplicationExitsv_block_invoke.411
++ ___ZL27registerForApplicationExitsv_block_invoke.412
++ ___ZL44scheduleCheckApplicationForExitedApplicationP13LSApplicationd_block_invoke.445
++ ___ZL44scheduleCheckApplicationForExitedApplicationP13LSApplicationd_block_invoke.446
++ ___ZL44scheduleCheckApplicationForExitedApplicationP13LSApplicationd_block_invoke.450
++ ___ZL54confirmNonForegroundApplicationStillHasVisiblityToUserP13LSApplicationd_block_invoke.426
++ ___ZL54confirmNonForegroundApplicationStillHasVisiblityToUserP13LSApplicationd_block_invoke.432
++ ___ZL54confirmNonForegroundApplicationStillHasVisiblityToUserP13LSApplicationd_block_invoke.433
++ ___ZL54confirmNonForegroundApplicationStillHasVisiblityToUserP13LSApplicationd_block_invoke.437
++ ___ZL54confirmNonForegroundApplicationStillHasVisiblityToUserP13LSApplicationd_block_invoke.441
++ ___ZL54confirmNonForegroundApplicationStillHasVisiblityToUserP13LSApplicationd_block_invoke.442
++ ____LSRestrictionsLog_block_invoke
++ ____Z11arrayStringP7NSArray_block_invoke
++ ____Z17CFArrayApplyBlockIPK7__LSASNEvPK9__CFArraymU13block_pointerFvT_E_block_invoke
++ ____Z32copyFilteredApplicationASNsArrayPK9__CFArrayU13block_pointerFbPK7__LSASNE_block_invoke
++ ____Z40copyAllChildrenApplicationsOfApplicationPK7__LSASNU13block_pointerFbS1_E_block_invoke
++ ____Z42applicationCopyVisibleParentApplicationASNPK7__LSASN_block_invoke
++ ____Z45applicationCopyVisibleApplicationsInCoalitionyPK7__LSASN_block_invoke
++ ____Z47copyNonForegroundNonVisibleChildrenApplicationsPK7__LSASN_block_invoke
++ ____Z61applicationStillHasNonForegroundChildrenOrRelatedApplicationsPK7__LSASN_block_invoke
++ ___block_descriptor_40_ea8_32s_e18_v16?0^{__LSASN=}8l
++ ___block_descriptor_48_ea8_32bs_e20_v20?0B8"NSError"12l
++ ___block_descriptor_48_ea8_32r_e18_B16?0^{__LSASN=}8l
++ ___block_descriptor_52_ea8_32s_e5_v8?0l
++ ___block_descriptor_68_ea8_32s48c30_ZTS10CFReleaserIPK9__CFArrayE_e18_v16?0^{__LSASN=}8l
++ ___block_descriptor_77_ea8_32s40r56c29_ZTS10CFReleaserIP9__CFArrayE_e25_v32?0"NSNumber"8Q16^B24l
++ ___copy_helper_block_ea8_32s40r56c29_ZTS10CFReleaserIP9__CFArrayE
++ ___copy_helper_block_ea8_32s48c30_ZTS10CFReleaserIPK9__CFArrayE
++ ___destroy_helper_block_ea8_32s40r56c29_ZTS10CFReleaserIP9__CFArrayE
++ ___destroy_helper_block_ea8_32s48c30_ZTS10CFReleaserIPK9__CFArrayE
++ __block_literal_global.100
++ __block_literal_global.252
++ __block_literal_global.318
++ __block_literal_global.346
++ __block_literal_global.402
++ __block_literal_global.423
++ __block_literal_global.452
++ __block_literal_global.455
++ __block_literal_global.458
++ __block_literal_global.73
++ __block_literal_global.81
++ __block_literal_global.97
++ __kLSForceQuitApplicationASNsToIgnoreArrayKey
++ __kLSForceQuitApplicationSendQUITAppleEventForApplicationsKey
++ _objc_msgSend$quitOrKillSubordinateProcesses
++ _proc_pidinfo
+- GCC_except_table104
+- GCC_except_table109
+- GCC_except_table112
+- GCC_except_table114
+- GCC_except_table118
+- GCC_except_table122
+- GCC_except_table132
+- GCC_except_table136
+- GCC_except_table144
+- GCC_except_table154
+- GCC_except_table158
+- GCC_except_table162
+- GCC_except_table172
+- GCC_except_table173
+- GCC_except_table174
+- GCC_except_table175
+- GCC_except_table176
+- GCC_except_table177
+- GCC_except_table178
+- GCC_except_table179
+- GCC_except_table183
+- GCC_except_table184
+- GCC_except_table185
+- GCC_except_table187
+- GCC_except_table188
+- GCC_except_table189
+- GCC_except_table191
+- GCC_except_table192
+- GCC_except_table193
+- GCC_except_table195
+- GCC_except_table196
+- GCC_except_table197
+- GCC_except_table198
+- GCC_except_table199
+- GCC_except_table200
+- GCC_except_table203
+- GCC_except_table3
+- GCC_except_table31
+- GCC_except_table64
+- GCC_except_table7
+- GCC_except_table70
+- GCC_except_table71
+- GCC_except_table78
+- GCC_except_table79
+- GCC_except_table80
+- GCC_except_table81
+- GCC_except_table82
+- GCC_except_table85
+- GCC_except_table89
+- __37-[BTMManagerSupport forceQuitAppURL:]_block_invoke.247
+- __37-[BTMManagerSupport forceQuitAppURL:]_block_invoke.249
+- __37-[BTMManagerSupport forceQuitAppURL:]_block_invoke.250
+- __37-[LSApplication analyticsDictionary:]_block_invoke.70
+- __Block_byref_object_copy_.464
+- __Block_byref_object_dispose_.465
+- __LSApplicationQuitting
+- __Z23CFArrayCopyMergedArraysPK9__CFArrayS1_
+- __ZL11arrayStringP7NSArray
+- __ZL14applicationPIDPK7__LSASN
+- __ZL14asnDescriptionPK7__LSASN
+- __ZL16dictionaryStringP12NSDictionary
+- __ZL20applicationBundleURLPK7__LSASN
+- __ZL22applicationCoalitionIDPK7__LSASN
+- __ZL22applicationDisplayNamePK7__LSASN
+- __ZL22applicationGetPlatformPK7__LSASN
+- __ZL22applicationIsUIElementPK7__LSASN
+- __ZL23applicationIsForegroundPK7__LSASN
+- __ZL23pidIsRunningApplicationi
+- __ZL27applicationCopyParentASNRefPK7__LSASN
+- __ZL28applicationCopyCoalitionPIDsPK7__LSASN
+- __ZL31applicationHasControlCenterIconPK7__LSASN
+- __ZL34applicationCopyRelatedCoalitionIDsPK7__LSASN
+- __ZL35applicationCopyRelatedCoalitionPIDsPK7__LSASN
+- __ZL35applicationLastTimeAsTypeForegroundPK7__LSASN
+- __ZL36applicationSupportsSuddenTerminationPK7__LSASN
+- __ZL37applicationHasAVisibleWindowOrContextPK7__LSASNPU15__autoreleasingP8NSString
+- __ZL38applicationCopyApplicationChildrenASNsPK7__LSASN
+- __ZL39applicationSupportsAutomaticTerminationPK7__LSASN
+- __ZL40copyAllChildrenApplicationsOfApplicationPK7__LSASNU13block_pointerFbS1_E
+- __ZL41applicationCopyAppAndRelatedCoalitionPIDsPK7__LSASN
+- __ZL42applicationCopyVisibleParentApplicationASNPK7__LSASN
+- __ZL47applicationCopyCoalitionNonApplicationPIDsArrayPK7__LSASN
+- __ZL52applicationRepresentsAnApplicationWhichIsUserVisiblePK7__LSASN
+- __ZL53applicationHasExitedButLeftBehindSubordinateProcessesPK7__LSASN
+- __ZNSt3__111__sift_downB9nqn220100INS_17_ClassicAlgPolicyELb0ERU13block_pointerFbRKPKvS5_EPS3_EEvT2_OT1_NS_15iterator_traitsISA_E15difference_typeESF_
+- __ZNSt3__111__sort_implB9nqn220100INS_17_ClassicAlgPolicyENS_11__wrap_iterIPPKvEEU13block_pointerFbRKS4_S8_EEEvT0_SB_RT1_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqn220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqn220100Em
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqn220100Ev
+- __ZNSt3__116__insertion_sortB9nqn220100INS_17_ClassicAlgPolicyERU13block_pointerFbRKPKvS5_EPS3_EEvT1_SA_T0_
+- __ZNSt3__116__pad_and_outputB9nqn220100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__117__floyd_sift_downB9nqn220100INS_17_ClassicAlgPolicyERU13block_pointerFbRKPKvS5_EPS3_EET1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__119__partial_sort_implB9nqn220100INS_17_ClassicAlgPolicyERU13block_pointerFbRKPKvS5_EPS3_S9_EET1_SA_SA_T2_OT0_
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqn220100Ev
+- __ZNSt3__124__put_character_sequenceB9nqn220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__126__insertion_sort_unguardedB9nqn220100INS_17_ClassicAlgPolicyERU13block_pointerFbRKPKvS5_EPS3_EEvT1_SA_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqn220100INS_17_ClassicAlgPolicyERU13block_pointerFbRKPKvS5_EPS3_EEbT1_SA_T0_
+- __ZNSt3__131__partition_with_equals_on_leftB9nqn220100INS_17_ClassicAlgPolicyEPPKvRU13block_pointerFbRKS3_S6_EEET0_SA_SA_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB9nqn220100INS_17_ClassicAlgPolicyEPPKvRU13block_pointerFbRKS3_S6_EEENS_4pairIT0_bEESB_SB_T1_
+- __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE11__vallocateB9nqn220100Em
+- __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB9nqn220100Ev
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqn220100Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqn220100Ev
+- __ZNSt3__17__sort4B9nqn220100INS_17_ClassicAlgPolicyERU13block_pointerFbRKPKvS5_EPS3_Li0EEEvT1_SA_SA_SA_T0_
+- __ZNSt3__19__sift_upB9nqn220100INS_17_ClassicAlgPolicyERU13block_pointerFbRKPKvS5_EPS3_EEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__19allocatorIPKvE17allocate_at_leastB9nqn220100Em
+- __ZNSt3__1lsB9nqn220100INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_RKNS_8__iom_t4IcEE
+- __ZSt28__throw_bad_array_new_lengthB9nqn220100v
+- ___LSForceQuitApplication_block_invoke.315
+- ___LSForceQuitApplication_block_invoke.318
+- ___LSForceQuitApplication_block_invoke.320
+- ___LSForceQuitApplication_block_invoke.321
+- ___LSForceQuitApplication_block_invoke.326
+- ___LSForceQuitApplication_block_invoke.329
+- ___ZL13appDictionaryPK7__LSASNb_block_invoke.553
+- ___ZL13appDictionaryPK7__LSASNb_block_invoke.568
+- ___ZL27registerForApplicationExitsv_block_invoke.439
+- ___ZL27registerForApplicationExitsv_block_invoke.442
+- ___ZL27registerForApplicationExitsv_block_invoke.443
+- ___ZL27registerForApplicationExitsv_block_invoke.446
+- ___ZL27registerForApplicationExitsv_block_invoke.447
+- ___ZL27registerForApplicationExitsv_block_invoke.448
+- ___ZL27registerForApplicationExitsv_block_invoke.449
+- ___ZL27registerForApplicationExitsv_block_invoke.450
+- ___ZL44scheduleCheckApplicationForExitedApplicationP13LSApplicationd_block_invoke.488
+- ___ZL44scheduleCheckApplicationForExitedApplicationP13LSApplicationd_block_invoke.489
+- ___ZL44scheduleCheckApplicationForExitedApplicationP13LSApplicationd_block_invoke.493
+- ___ZL54confirmNonForegroundApplicationStillHasVisiblityToUserP13LSApplicationd_block_invoke.468
+- ___ZL54confirmNonForegroundApplicationStillHasVisiblityToUserP13LSApplicationd_block_invoke.474
+- ___ZL54confirmNonForegroundApplicationStillHasVisiblityToUserP13LSApplicationd_block_invoke.475
+- ___ZL54confirmNonForegroundApplicationStillHasVisiblityToUserP13LSApplicationd_block_invoke.479
+- ___ZL54confirmNonForegroundApplicationStillHasVisiblityToUserP13LSApplicationd_block_invoke.483
+- ___ZL54confirmNonForegroundApplicationStillHasVisiblityToUserP13LSApplicationd_block_invoke.484
+- ____ZL11arrayStringP7NSArray_block_invoke
+- ____ZL32copyFilteredApplicationASNsArrayPK9__CFArrayU13block_pointerFbPK7__LSASNE_block_invoke
+- ____ZL40copyAllChildrenApplicationsOfApplicationPK7__LSASNU13block_pointerFbS1_E_block_invoke
+- ____ZL42applicationCopyVisibleParentApplicationASNPK7__LSASN_block_invoke
+- ____ZL45applicationCopyVisibleApplicationsInCoalitionyPK7__LSASN_block_invoke
+- ____ZL47copyNonForegroundNonVisibleChildrenApplicationsPK7__LSASN_block_invoke
+- ___block_descriptor_40_ea8_32bs_e20_v20?0B8"NSError"12l
+- ___block_descriptor_44_ea8_32s_e5_v8?0l
+- ___block_descriptor_60_ea8_32s_e18_B16?0^{__LSASN=}8l
+- ___block_descriptor_69_ea8_32s40r_e25_v32?0"NSNumber"8Q16^B24l
+- __block_literal_global.245
+- __block_literal_global.308
+- __block_literal_global.338
+- __block_literal_global.438
+- __block_literal_global.501
+- __block_literal_global.504
+- __block_literal_global.507
+- __block_literal_global.510
+- __block_literal_global.581
+- __block_literal_global.78
+- __block_literal_global.91
+- __block_literal_global.94
+CStrings:
++ "LSForceQuitApplicationASNsToIgnoreArrayKey"
++ "LSForceQuitApplicationSendQUITAppleEventsForApplicationsKey"
++ "_LSForceQuitApplication(asn=%{public}@ options=%{public}@)"
++ "_LSForceQuitApplication: Coalition pid %{public}d in coalition should be handled as an application, app=%{public}@."
++ "_LSForceQuitApplication: asn=%{public}@ Attempt to synchronously call _LSForceQuitApplication() failed with options %{public}@"
++ "_LSForceQuitApplication: asn=%{public}@ Completed async _forceQuit, calling completion block with %{BOOL}d error=%{public}@"
++ "_LSForceQuitApplication: asn=%{public}@ blocking waiting for LQReportHang for pid %{public}d to complete."
++ "_LSForceQuitApplication: asn=%{public}@ calling LQReportHang for pid=%{public}d"
++ "_LSForceQuitApplication: asn=%{public}@ considering children & related applications %{public}@"
++ "_LSForceQuitApplication: asn=%{public}@ pid=%{public}d, is no longer running so skipping the kill()."
++ "_LSForceQuitApplication: asn=%{public}@ sending 'quit' AppleEvent to application."
++ "_LSForceQuitApplication: asn=%{public}@, coalition pids to consider killing:%{public}@."
++ "_LSForceQuitApplication: asn=%{public}@, finished LQReportHang for pid=%{public}d"
++ "_LSForceQuitApplication: asn=%{public}@, skipping force quit of child application %{public}@ as it is in the asns-to-ignore list %{public}@."
++ "_LSForceQuitApplication: asn=%{public}@, skipping kill of child application %{public}@ because it is not running anymore."
++ "_LSForceQuitApplication: asn=%{public}@, skipping kill of this application as it is in the asns-to-ignore list, %{public}@"
++ "_LSForceQuitApplication: killing coalition %{public}lld pid %{public}@"
++ "application: app=%{public}@, had non-application coalition pids, %{public}@, but they all appear to have exited already."
++ "applicationStillHasNonForegroundChildrenOrRelatedApplications: app=%{public}@ child app=%{public}@ "
++ "applicationStillHasNonForegroundChildrenOrRelatedApplications: app=%{public}@ child app=%{public}@ is non-foreground/non-visible so this app still has lingering subprocesses."
++ "applicationStillHasNonForegroundChildrenOrRelatedApplications: app=%{public}@ childAndRelatedApps: %{public}@"
++ "controlcenter"
++ "forceQuitAppURL: app=%{public}@, successfully force quit it and its subordinates."
++ "forceQuitAppURL: app=%{public}@, unable to enqueue _LSForceQuitApplicaiton"
++ "forciblyRemoveApplication: app=%{public}@ could not be removed from the application list, err=%{public}@"
++ "forciblyRemoveApplication: app=%{public}@ removed from application list."
++ "killSubordinateProcesses: Failed to kill application %{public}@, error=%{public}@"
++ "killSubordinateProcesses: Successfully killed application %{public}@"
++ "quitOrKillSubordinateProcesses"
++ "quitOrKillSubordinateProcesses: Failed to quit or kill application %{public}@, error=%{public}@"
++ "quitOrKillSubordinateProcesses: Successfully quit or killed application %{public}@"
++ "restrictions"
++ "sendQuitAppleEvent: app=%{public}@"
++ "sendQuitAppleEvent: app=%{public}@, error=%{public}d/%{public}s"
++ "v16@?0^{__LSASN=}8"
+- "_LSForceQuitApplication(asn=%{public}@ options=%{public}@"
+- "_LSForceQuitApplication: Completed async _forceQuit, calling completion block with %{BOOL}d eror=%{public}@"
+- "_LSForceQuitApplication: asn=%{public}@ blocking waiting for LQReportHang for pid %{public}d."
+- "_LSForceQuitApplication: asn=%{public}@ killing coalition pids %{public}@."
+- "_LSForceQuitApplication: asn=%{public}@ killing non-foreground children & related applications %{public}@"
+- "_LSForceQuitApplication: calling LQReportHang for pid=%{public}d"
+- "_LSForceQuitApplication: finished LQReportHang for pid=%{public}d"
+- "_LSForceQuitApplication: killing coalition %{public}lld pid %{public}d"
+- "forciblyRemoveApplication: app=%{public}@"
+- "forciblyRemoveApplication: app=%{public}@ err=%{public}ld%{public}s"
+- "schedule: Failed to kill application %{public}@, error=%{public}@"
+- "schedule: Successfully killed application %{public}@"
+
+```

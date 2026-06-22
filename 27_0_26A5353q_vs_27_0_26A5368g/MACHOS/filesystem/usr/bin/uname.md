@@ -1,0 +1,33 @@
+## uname
+
+> `/usr/bin/uname`
+
+```diff
+
+ 334.0.0.0.0
+-  __TEXT.__text: 0x98c sha256:4ed2d71e1fc27297b7567927be0353b221857766f779efd458e0d73852e5b527
++  __TEXT.__text: 0x994 sha256:42aaa3ab2b79c7f94ac5cc92f9bde2bff3e9b323f7112bed900e49efee0186b7
+   __TEXT.__auth_stubs: 0xc0 sha256:a1481c29e874a6e655d44771d049e056f4c3cb5a9887774f6fa4882dfc60f24a
+   __TEXT.__const: 0x42 sha256:78b98426824c66faec1ccdfea7f1c0676efdfab657cabc5e29cd7dce7f12ba8c
+   __TEXT.__cstring: 0xcc sha256:a1850309c2f03790c83d4ab186cf27eca6cb7a44373740f9cf85c63920d40acf
+-  __TEXT.__unwind_info: 0x70 sha256:64e2f9295f41df67da054f3e08fa93d1a659556a8e45d99cc55f0bc901ffcc07
+-  __DATA_CONST.__const: 0x50 sha256:954955d9b3d554a8e368d3e41f9bf63172f7ba9ac47622971756e1163e294cf7
++  __TEXT.__unwind_info: 0x70 sha256:1b0a387572f30f20839a1ece6b73142d92c04b60c68042eeab578ecc82546852
++  __DATA_CONST.__const: 0x50 sha256:d77d3161fca6755c4e95ee40e6d118a42db2687f19e811b1dbf613312776133b
+   __DATA_CONST.__auth_got: 0x60 sha256:75443b2d7eb304af704e135ce779b1582e40b4e112f49dba1aedc8490c781a2a
+   __DATA_CONST.__got: 0x20 sha256:b326b40f269ff6947f06040b870b6b366b39ef6ca69954dbbdaf1ca1a9635a0d
+-  __DATA.__bss: 0x1461 sha256:3be4f25fc59e3272f433e5eeac27b2d206b63d9245dd551f71a74c2482c3de3d
++  __DATA.__bss: 0x1461 sha256:5d750edc65b1ba66206917f8bedd4fc3f05274764cbedee7ddc6c7d8b373d0e4
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 81848E98-C79E-3A66-8C63-BB11CF36579A
++  UUID: B283CBE0-0AE7-347F-9D5F-3BDBEFBDEA9F
+   Functions: 10
+   Symbols:   18
+   CStrings:  24
+Functions:
+~ sub_1000005d8 : 1504 -> 1512
+~ sub_100000ef0 -> sub_100000ef8 : sha256 011b58ebc70eda7fd60f89f2c61e4191caf32eb9d88bc85cabd92980b634fbd7 -> b8720e49d775aa2ad0f1af9de32c4707e729535814f700b9716c23ba7bdd1a3f
+~ sub_100000f04 -> sub_100000f0c : sha256 e58e3c0db2ad09360580d44073175af0695304c692e5ae8fb099bf00190a137d -> ad03ccdca36dfb02815ffa21a6d2d9f5b14deae238d53014297e66c95743c417
+~ sub_100000f20 -> sub_100000f28 : sha256 36cc1ad701f68dc58f606197ab819cf4f0339ccfdaa79e12df289a5e9cefb176 -> ced71537bb685d827d1accaaa1c6d403cab11eff3157ba6d3cca6239c8557199
+
+```

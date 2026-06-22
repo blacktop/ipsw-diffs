@@ -1,0 +1,125 @@
+## DeviceExpertSnippetProviderPlugin
+
+> `/System/Library/FlowTools/SnippetService/ResponsePlugins/DeviceExpertSnippetProviderPlugin.bundle/Contents/MacOS/DeviceExpertSnippetProviderPlugin`
+
+```diff
+
+-3600.29.3.4.1
+-  __TEXT.__text: 0x7dfc sha256:75af79ec4ea13889e42e9dfe547cdf1f2222afa4ba6c7eafba1209895288d65e
+-  __TEXT.__auth_stubs: 0x930 sha256:76817a525d940059744b7615b83d5430e3c622bf52b6913f120c5a50964b32f6
++3600.35.2.0.0
++  __TEXT.__text: 0x8210 sha256:e7d1e402120d690e8303238e74695a70c2c49b9c532c5cb9522a1196a15b0c50
++  __TEXT.__auth_stubs: 0xa10 sha256:b7537c3e0efd2160f1f3b86a4f015cb6a0aac34d1a90ae52faec2ee16344eee8
+   __TEXT.__objc_stubs: 0x80 sha256:a8d28da09250b89ad30fdc58856c62bcd58892b86b8aacc576654b56932c78d5
+-  __TEXT.__const: 0x3d8 sha256:a5795aa585bc3ffa53cb67455081b8664c5f05a97f5d0b21a25e950ec05aada2
+-  __TEXT.__swift5_typeref: 0x146 sha256:5af2de1a312832b9651a743e90a77fbcb71d1b8c6113de4886fc04e7c1e4bd0b
++  __TEXT.__const: 0x3d8 sha256:cfb38545a6aebfdff05f5db369d69543eb1c4105541b1b26bf7d0116fcb3b9eb
++  __TEXT.__swift5_typeref: 0x14c sha256:32d73c8aaa722648833dc7472481fc1617770a6a96210f4c62100749cb433253
+   __TEXT.__cstring: 0x1fc sha256:c82672acdb135ddd8c72a0fab929b4d296dc34fdb3be3ab63abe2b02ae293df3
+-  __TEXT.__swift5_capture: 0x80 sha256:2e3af8f66ef15d1f9acae90137b81f5ff0882efef8ea6a5810d534be0ceafafd
++  __TEXT.__swift5_capture: 0x80 sha256:d919da8939c2da33b3981572bc9f052276fae82c17daaaa2794e31e6d13faed0
+   __TEXT.__oslogstring: 0x10c sha256:2f072ed0643d4fc60b49208f08c5a9d9f89744322691571aec2c80851b2d6d19
+-  __TEXT.__swift5_reflstr: 0x6b sha256:b73dbf99e5dbbbf5dfba94fef7cacc77fc61e6ee501ce3b7127e36aa829d8a43
+-  __TEXT.__swift5_assocty: 0x18 sha256:a3bdc145db907512da0471eb073af02a01842254ef4a68cad5b84c7ec7568e72
+-  __TEXT.__constg_swiftt: 0x88 sha256:ef4fa7270a9f4f49a10934fe5f7af732196d14238c777ec899eb36c685f1f46d
+-  __TEXT.__swift5_fieldmd: 0x60 sha256:dedecfe00b5c9082b324ed3983158787f378924f889f087beaf0cf07d43e8695
+-  __TEXT.__swift5_proto: 0x18 sha256:bf7fbf89dbda6f2a85e7c9b1ca4180dd4615e54652cff377846d8dd9f34a6fb3
+-  __TEXT.__swift5_types: 0xc sha256:91b7e48a86cf216637b3fe3897d73a058f259b1f61efe9789676704a7b440e6c
+-  __TEXT.__swift_as_entry: 0x20 sha256:714f2ad670328f4389ccf828ce40998a7efd7b93ffc0ea6f8de3964eaafd60a8
+-  __TEXT.__swift_as_ret: 0x18 sha256:6c08951a7706b462a3c414f7486a2f2ebab1a35f5748621ae3dc09dd1d5fa12b
+-  __TEXT.__swift_as_cont: 0x20 sha256:db7b7a4df2af78b13c4d05f53cd45f9cfae99efbc16e2aed8cb3dcb32a26f002
++  __TEXT.__swift5_reflstr: 0x8b sha256:cadb39255cfaca1dd253ce0b22e68acc9bd8e17ceded671507e0d9f438621f99
++  __TEXT.__swift5_assocty: 0x18 sha256:dbe61b22ead55db918a52c9b70176829dc7bfd410fd346df32e7398a76f4fd6f
++  __TEXT.__constg_swiftt: 0x88 sha256:2936a8599f823389fd19509df8e1e2f93ed9b447ffaebc1444f0321f6d521db5
++  __TEXT.__swift5_fieldmd: 0x6c sha256:cd9f9a5e705f2c1da1d852ed8c9fdd1a9b9506fb7ad2bfd8387b36585a132c3a
++  __TEXT.__swift5_proto: 0x18 sha256:be24b8846d3a82861b5ef03a0951a3651c119f2169ea122a12454e2ec120ddb1
++  __TEXT.__swift5_types: 0xc sha256:2c38e7ddfd390000f1cbf51de96c65da7ff958f74a86678ac0de0f087632ffa0
++  __TEXT.__swift_as_entry: 0x20 sha256:2a5914c570efdd7d60b74a876ba2f6b045e12f4612efc137a5766095a07ebd51
++  __TEXT.__swift_as_ret: 0x18 sha256:3127d38c0a2337321c6c6607e8a0731402e14a603701c7ffac3ad167a8dcae43
++  __TEXT.__swift_as_cont: 0x20 sha256:77743cc1d522e84b51741509e370a9b25c4ca45e6a608d9faf86a70f3cc5d6f2
+   __TEXT.__objc_classname: 0x4b sha256:6a06c963ec0b02c0155126ff9c2684cd43bfed2ba99ebdefa304e7c2f6abd28c
+   __TEXT.__objc_methname: 0x22 sha256:a14d59bedc712435b4493e9d1e87b41936f6f6d58d6e0d7ea0c617d9913cd079
+-  __TEXT.__unwind_info: 0x190 sha256:4b551225f21a73e4865d446dbf207e32338bd7775c36c9feade5f0310c12bceb
+-  __TEXT.__eh_frame: 0x250 sha256:6ee79f7b6089abd3626335f1794f1736a1814edbf423902e7a08136b1142f23b
+-  __DATA_CONST.__const: 0x270 sha256:27de35984f59566e43e3aa8e5cac307585cd37f802ec508dde7eabf6a9efc484
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:43bf3ec0cd69555d6739a9d0c474b58f28c19ac68302200b3d689efd227085aa
++  __TEXT.__unwind_info: 0x198 sha256:cc3104f4b9688b0fd558a4630ef0caaa2d0c4ab932bf50a4f0dd92a02232100f
++  __TEXT.__eh_frame: 0x258 sha256:70e901805a889e8a176c0e27099b5fc05337abff4caa84863893d8907483d9d3
++  __DATA_CONST.__const: 0x270 sha256:6fea30b2777a87d78eccb832ca909a73dd4344d45574ba6bd192d5a675e36226
++  __DATA_CONST.__objc_classlist: 0x8 sha256:ba13758f7a81316da183aa9fd5cf1dcdc3d4844fe998654ff25ab0effa91b879
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__auth_got: 0x4a0 sha256:95d90aa0388f4e1cce003ccf5aad87bbaf144486bc7bf3a0cc775fab570ee4a9
+-  __DATA_CONST.__got: 0xe8 sha256:28e7528463eb987e13d19e26c548d2b824ba13d4eb7b058925755c98b197a005
+-  __DATA_CONST.__auth_ptr: 0x188 sha256:1e50af29872ae2e72418942bec0b6cb3144ebe07f895b07f504f4e0457ab40ad
+-  __DATA.__objc_const: 0x90 sha256:678150918cc27cfb7538c14836b36404b6c674c56ae594c463368c3621f6f8a7
+-  __DATA.__objc_selrefs: 0x20 sha256:7de4d9c0f7e475198f23ec11ca41e9b56d62a7b3c6a7f27ffa0808f54cc6e56a
+-  __DATA.__data: 0x168 sha256:e8cfed76b80bc4a54cdadab57f1e1dd3bc6e3801296baa47a0d1c2f2235752a4
++  __DATA_CONST.__auth_got: 0x510 sha256:c41e6fb2edd639564912bdea7dcdb3e060f76f57691257ef331f1c6fe92f4c12
++  __DATA_CONST.__got: 0x110 sha256:d2dc9655bf6cbc9b8f7cffb74a4df89c728794acd710c2a6a73f62dde0860326
++  __DATA_CONST.__auth_ptr: 0x190 sha256:0801d6e703cc089b61e121424d2e9384b23f3d5c692c161f304e7719f9a25b1f
++  __DATA.__objc_const: 0x90 sha256:0c3b99adffaf9f574c89d06514da4e863d71414f6286e3684dd759b10bdb7834
++  __DATA.__objc_selrefs: 0x20 sha256:a00242cb3fe2fc36079866cf3aecb430f3044c262a0b9de784cdbb78c49de1ba
++  __DATA.__data: 0x170 sha256:cf1d0fd2aae306b4eb8499ff300898c8ff0448eff5ce210351a9ea54e380d155
+   __DATA.__bss: 0x300 sha256:ef115a0e0c15cdc41958ca46b5b14b456115f4baec5e3ca68599d2a8f435e3b8
+   __DATA.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 72B7A42B-3230-3464-BF41-CBF356CE7FEB
+-  Functions: 114
+-  Symbols:   1188
++  UUID: AE5777DD-8169-3C01-882B-CD0AE5E1BCBA
++  Functions: 115
++  Symbols:   1218
+   CStrings:  27
+ 
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CRcuugBJuSzScxvktsDM2HBPrpL4kVC7B8x1NQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.NsTIOf/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/4~CRcuugBJuSzScxvktsDM2HBPrpL4kVC7B8x1NQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.NsTIOf/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/Objects-normal/arm64e/DeviceExpertSnippetHandler.o
++ /AppleInternal/Library/BuildRoots/4~CRcuugBJuSzScxvktsDM2HBPrpL4kVC7B8x1NQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.NsTIOf/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/Objects-normal/arm64e/DeviceExpertSnippetProviderPlugin.o
++ /AppleInternal/Library/BuildRoots/4~CRcuugBJuSzScxvktsDM2HBPrpL4kVC7B8x1NQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.NsTIOf/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/Objects-normal/arm64e/DeviceExpertSnippetProviderPlugin.swiftmodule
++ /AppleInternal/Library/BuildRoots/4~CRcuugBJuSzScxvktsDM2HBPrpL4kVC7B8x1NQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.NsTIOf/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/Objects-normal/arm64e/DeviceExpertSnippetProviderPlugin_vers.o
++ /AppleInternal/Library/BuildRoots/4~CRcuugBJuSzScxvktsDM2HBPrpL4kVC7B8x1NQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.NsTIOf/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/Objects-normal/arm64e/Logger.o
++ /AppleInternal/Library/BuildRoots/4~CRcuugBJuSzScxvktsDM2HBPrpL4kVC7B8x1NQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.NsTIOf/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/Objects-normal/arm64e/SystemResponse+Extras.o
++ /AppleInternal/Library/BuildRoots/4~CRcuugBJuSzScxvktsDM2HBPrpL4kVC7B8x1NQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.NsTIOf/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/Objects-normal/arm64e/ToolKit+Extras.o
++ /AppleInternal/Library/BuildRoots/4~CRcuugBJuSzScxvktsDM2HBPrpL4kVC7B8x1NQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.NsTIOf/Sources/SiriSettings_swiftoverlay_AppIntents/DeviceExpertSnippetProviderPlugin/
++ /AppleInternal/Library/BuildRoots/4~CRcuugBJuSzScxvktsDM2HBPrpL4kVC7B8x1NQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.NsTIOf/Sources/SiriSettings_swiftoverlay_AppIntents/DeviceExpertSnippetProviderPlugin/Extensions/
++ _$s19DeviceExpertIntents0aB6ResultV5tipIDSSSgvg
++ _$s19DeviceExpertIntents11FlowContextC9sessionIdSSvgTj
++ _$s19DeviceExpertIntents16AnalyticsManagerC4sendyyAA0D5Event_pF
++ _$s19DeviceExpertIntents16AnalyticsManagerC7backendAcA0D7Logging_p_tcfc
++ _$s19DeviceExpertIntents16AnalyticsManagerCMa
++ _$s19DeviceExpertIntents16AnalyticsManagerCMn
++ _$s19DeviceExpertIntents18ContentViewedEventV17sessionIdentifier07clusterH07context10hasSymbols12responseType16tipCorrelationID14rewriteSummary9highlightACSS_S2SSgSbAA015SnippetResponseN0OAlA017ContextualRewriteS0VSbtcfC
++ _$s19DeviceExpertIntents18ContentViewedEventVAA09AnalyticsF0AAWP
++ _$s19DeviceExpertIntents18ContentViewedEventVMa
++ _$s19DeviceExpertIntents19CoreAnalyticsLoggerVAA0E7LoggingAAWP
++ _$s19DeviceExpertIntents19CoreAnalyticsLoggerVACycfC
++ _$s19DeviceExpertIntents19CoreAnalyticsLoggerVMa
++ _$s19DeviceExpertIntents19SnippetResponseTypeO3tipyA2CmFWC
++ _$s19DeviceExpertIntents19SnippetResponseTypeOACSQAAWL
++ _$s19DeviceExpertIntents19SnippetResponseTypeOMa
++ _$s19DeviceExpertIntents19SnippetResponseTypeOSQAAMc
++ _$s19DeviceExpertIntents25SnippetResponseComponentsV10hasSymbolsSbvg
++ _$s19DeviceExpertIntents25SnippetResponseComponentsV12responseTypeAA0deH0Ovg
++ _$s19DeviceExpertIntents25SnippetResponseComponentsV13hasHighlightsSbvg
++ _$s33DeviceExpertSnippetProviderPlugin0abC7HandlerV16analyticsManager0aB7Intents09AnalyticsH0Cvg
++ _$s33DeviceExpertSnippetProviderPlugin0abC7HandlerV16analyticsManager0aB7Intents09AnalyticsH0CvpMV
++ _$sSQ2eeoiySbx_xtFZTj
++ ___swift_memcpy16_8
++ _symbolic _____ 19DeviceExpertIntents16AnalyticsManagerC
+- /AppleInternal/Library/BuildRoots/4~CQdGugD6LCb233g1SF189kf99HJluyIYgWzKGyo/Library/Caches/com.apple.xbs/TemporaryDirectory.tkUwUY/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/4~CQdGugD6LCb233g1SF189kf99HJluyIYgWzKGyo/Library/Caches/com.apple.xbs/TemporaryDirectory.tkUwUY/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/Objects-normal/arm64e/DeviceExpertSnippetHandler.o
+- /AppleInternal/Library/BuildRoots/4~CQdGugD6LCb233g1SF189kf99HJluyIYgWzKGyo/Library/Caches/com.apple.xbs/TemporaryDirectory.tkUwUY/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/Objects-normal/arm64e/DeviceExpertSnippetProviderPlugin.o
+- /AppleInternal/Library/BuildRoots/4~CQdGugD6LCb233g1SF189kf99HJluyIYgWzKGyo/Library/Caches/com.apple.xbs/TemporaryDirectory.tkUwUY/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/Objects-normal/arm64e/DeviceExpertSnippetProviderPlugin.swiftmodule
+- /AppleInternal/Library/BuildRoots/4~CQdGugD6LCb233g1SF189kf99HJluyIYgWzKGyo/Library/Caches/com.apple.xbs/TemporaryDirectory.tkUwUY/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/Objects-normal/arm64e/DeviceExpertSnippetProviderPlugin_vers.o
+- /AppleInternal/Library/BuildRoots/4~CQdGugD6LCb233g1SF189kf99HJluyIYgWzKGyo/Library/Caches/com.apple.xbs/TemporaryDirectory.tkUwUY/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/Objects-normal/arm64e/Logger.o
+- /AppleInternal/Library/BuildRoots/4~CQdGugD6LCb233g1SF189kf99HJluyIYgWzKGyo/Library/Caches/com.apple.xbs/TemporaryDirectory.tkUwUY/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/Objects-normal/arm64e/SystemResponse+Extras.o
+- /AppleInternal/Library/BuildRoots/4~CQdGugD6LCb233g1SF189kf99HJluyIYgWzKGyo/Library/Caches/com.apple.xbs/TemporaryDirectory.tkUwUY/Binaries/SiriSettings_swiftoverlay_AppIntents/install/TempContent/Objects/SiriSettings.build/DeviceExpertSnippetProviderPlugin.build/Objects-normal/arm64e/ToolKit+Extras.o
+- /AppleInternal/Library/BuildRoots/4~CQdGugD6LCb233g1SF189kf99HJluyIYgWzKGyo/Library/Caches/com.apple.xbs/TemporaryDirectory.tkUwUY/Sources/SiriSettings_swiftoverlay_AppIntents/DeviceExpertSnippetProviderPlugin/
+- /AppleInternal/Library/BuildRoots/4~CQdGugD6LCb233g1SF189kf99HJluyIYgWzKGyo/Library/Caches/com.apple.xbs/TemporaryDirectory.tkUwUY/Sources/SiriSettings_swiftoverlay_AppIntents/DeviceExpertSnippetProviderPlugin/Extensions/
+- ___swift_memcpy8_8
+
+```

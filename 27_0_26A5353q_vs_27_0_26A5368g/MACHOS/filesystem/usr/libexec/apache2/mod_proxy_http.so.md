@@ -1,0 +1,61 @@
+## mod_proxy_http.so
+
+> `/usr/libexec/apache2/mod_proxy_http.so`
+
+```diff
+
+-886.0.0.0.0
+-  __TEXT.__text: 0x91d4 sha256:ddf012bdd4c752a0397d283d11516ec45e96f1d959c4922ba898e48484bf2800
++888.0.0.0.0
++  __TEXT.__text: 0x91d0 sha256:08f0ab913f4d000ba40809e2372e48352790ea38d4d92323a645570fb87ee43e
+   __TEXT.__auth_stubs: 0x600 sha256:bf3bdff8168b819b7d6ab4a52d522f3d95f0dcc5c7afaddafcb65dda518ee207
+-  __TEXT.__cstring: 0xd87 sha256:26792e1e2b2da1f97362c7ec1948720fd7ef7bcc953a174c9e10d9e6ce56e45f
+-  __TEXT.__unwind_info: 0x80 sha256:e7b58745e082cf4ef1e8d0b3a02fba06995ac188f7f403b0f1aa75c5c6b8cdb8
+-  __DATA_CONST.__const: 0x60 sha256:7eaa5a3af962101ea72a4717626ed1b8a30d977057105f29801c090117900e4b
++  __TEXT.__cstring: 0xd87 sha256:bdcdf82d8c807a07ff9659d7564e088841181a144b7ce1bfb7bd4fdfc2a6b299
++  __TEXT.__unwind_info: 0x80 sha256:ac47bf940e38e565481e538f3b7a00901855a6503449bd4000f57bc2d1accc92
++  __DATA_CONST.__const: 0x60 sha256:b34c0ce647f2cb3d933f7c77610c2fe18b48f20d1972a6cea0e95fea9412154e
+   __DATA_CONST.__auth_got: 0x300 sha256:394d7024df2faf2237e4af10704e2aa7fa4af6206e8f648815d2bfd18b17d662
+   __DATA_CONST.__got: 0x18 sha256:41c119884206ae5766e1c9403fe3bb383e63e95b568a52ce063f60ed69e5c546
+   __DATA_CONST.__auth_ptr: 0x8 sha256:2a0f3986469dee4368ce380a45c87f1debcd0bb41a18b4d7181860058346979e
+-  __DATA.__data: 0xc0 sha256:1ec9c83526ba4d5acf4bf36974bd4e444af2990f2eaa04b7430136353dbef242
++  __DATA.__data: 0xc0 sha256:b9cae0f5fbfd80facad59bafb392aeb8a5b8217325774902569a10d47aaba650
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcrypto.46.dylib
+   - /usr/lib/libssl.48.dylib
+-  UUID: D785A1F6-717C-3882-997C-B100561273B9
++  UUID: DF2C0E5C-8A99-31F1-B6E5-8F0786B967C6
+   Functions: 23
+   Symbols:   131
+   CStrings:  129
+Functions:
+~ _ap_proxy_http_register_hook : sha256 b35dd89fb016d29b3c557e8c810099ef2e375f45e50135528026db8a55a3c329 -> 568facf69193542b1b6a1663c84fb079a62f4d93cb0bf2deab40dfe3edbbf282
+~ _proxy_http_post_config : sha256 9a2a1e6513af25af898d8ceafc981bd56f8ac6b328b3c6e54f67ec9ad6175144 -> c3e8986a915431042ffcf516944600736d4fbf269c17312943a79d23c7017e18
+~ _proxy_http_handler : sha256 c6fdd761f7515b773711c403418392b3c2ce35884421e8a2557b5f4da56b74b1 -> e3535a31429a2b5da478ea51798c0eb09055256f1185743a82f06fd93b896aea
+~ _proxy_http_canon : sha256 45e965bb3b25f0764a056f87db8e0581450d7ec7850eb02708471cf855695084 -> 6a736ee88a2325e2a360fe21434bf162f69105eff6bb305825d1a469d9516ea4
+~ _get_url_scheme : sha256 85ba645e757c57067b874fba48f96dd838a62b8611e76bb385bb56b140a0aead -> 17af237454c978d2b2c6ae4e43cc88d1d76ceca230c853633a9b7a6e8fba9c13
+~ _ap_proxy_http_prefetch : sha256 d0972373971221f500a881e87b8b4b50acc828f3857792ba97a2755cec2b6ea6 -> b5ee323ccd2ade7f086fd1fcc1dc7bfc6e6d9495db7ff578e9a3afde4d66f486
+~ _ap_proxy_http_request : sha256 fffd93652e1b219fb43bc40b52737215ecc0cae0cce71b5be8f76f30607d41fe -> 887dddb6bfa12cea44331e8e9da5935f2d20128780a7b51029b8acbddad91f44
+~ _ap_proxy_http_process_response : sha256 c17f8785b09bfabd8e1074e1b0999bb2f7ebcf5819bbc2b4bb4c836ef55cd274 -> 1c48aba39e2efc342e6e26a0f9a924b65905b587dd05843c7a0260d941e0a276
+~ _ap_proxy_http_cleanup : sha256 8f0240f637e6ace8268b9e04c793cffd5f695791f121e0cc933e8b9aa5ef4650 -> 3463e7fec190de794de1d37390dd1c365ae6dde7c1c1cad217bedb84917a4877
+~ _add_te_chunked : sha256 2edc8cbfa75b1b4ff81068fa0a5e3d5c9fe14b71aa5d22f2e962df26fef3b22b -> c5a8478b1d8c60689f9ce417f60c9dff3dd34d67e1507b4a1d3426ec09847165
+~ _add_cl : sha256 1f13d78d32d2b0ead9afd6d11d0a36cc5e3f46b77267dac4d8ced9177be80007 -> 02039aa10daa29f557600afab6095ad6c43801059c65c2266b1a955e8518514a
+~ _terminate_headers : sha256 751a0b9bf622b933c3946605ba7f2c1f64375f998a60ad29a68facaf31c3c656 -> 3e2702e83db72225184220b68136b5c807174d15162dcd20114975ececd90ea6
+~ _stream_reqbody : sha256 50ad8702354f4b6fc759f8ccb16dd90e3b3d96c2b1c275a0dafc27768348a9aa -> 54eb2cbdee1a1ad9f21f5b9c568e5714dd341beb10d1c4af9b08eeeb075a4b93
+~ _make_fake_req : sha256 b3604cf04bf663e86a2a519c899323bd0553ba7dae446b479706d910f46ddd7e -> 5a33bc90acc3a6f108fdd99f9199acd88e49586c94050eddffd94b62d69b72ff
+~ _ap_proxygetline : sha256 70facec30a38c33f435fe6a805fe654cd9e639fb3cee9cf5777f46474977f5f6 -> aa2457196d595385d4e95986edebad6c00f8515604dce55b3bb00084e9d3a4ca
+~ _addit_dammit : sha256 3641c06ee567b2731e7cd828707c7c69ec669d7d8cae1aa399d3e54632626d63 -> 8c4922c51a526644d29404cb253470944017b06bc2a52f9a8353b35cbdd2ec58
+~ _ap_proxy_read_headers : sha256 10ba0a0ea658ca646159b99caeaa57504d9132fab28db73901aa73c2b0f7e6d0 -> 47dbb915065833b2c9d8046837e63dab43b94d4c43a7b5c9a8bfcbe7a4f4e912
+~ _ap_proxy_clean_warnings : sha256 66b15347bd47912448ef378f3621e85466d8e9e7b144e329c410578793d8ef03 -> 744ef8d7a313157dcfe8b104bfc743d1bbc4d89212dcff8368654a722f0d30d9
+~ _send_continue_body : sha256 06874fc8845242f9a82d95a82cffba3820fe9f319b5babeaecc62490139f4fb1 -> 05f5785bc5f21d0b350f0aa08b0ec37f2244a9a21f3c03b43ad836e44e6246e4
+~ _add_trailers : sha256 1e20629daa5c3b1307d5908f4955dd0e9c0de0170a9180530147180b2fa84778 -> 658411c27c9501d6bc362fed14ff795ef99f1493fc4f2deaac323a58eafb3f72
+~ _process_proxy_header : 384 -> 380
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRbjugDs63E_nh9LrKXIzNhaKOKGLV_zLQv5WSg/Library/Caches/com.apple.xbs/TemporaryDirectory.QaP6H4/Sources/apache/httpd/modules/proxy/mod_proxy_http.c"
++ "Apache/2.4.67"
+- "/AppleInternal/Library/BuildRoots/4~CQCNugBXuVk5QyWQghtZ7Xdpnx7s5XYALnb8teQ/Library/Caches/com.apple.xbs/TemporaryDirectory.AuKlu0/Sources/apache/httpd/modules/proxy/mod_proxy_http.c"
+- "Apache/2.4.66"
+
+```

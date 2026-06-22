@@ -1,0 +1,25 @@
+## write
+
+> `/usr/bin/write`
+
+```diff
+
+ 70.0.0.0.0
+-  __TEXT.__text: 0x8bc sha256:a4ee58e1053acf37e31d8ca622426ec78e2ae0d172e2997a0568f78f85cd29b0
++  __TEXT.__text: 0x8bc sha256:a406dd27c9d9009e3247642f6f294702f703b50729476b0bf69d76a54c161343
+   __TEXT.__auth_stubs: 0x270 sha256:854dd6da7a14f42320916faeb66cb05ec164e2495ff652c16f6306340b6be657
+   __TEXT.__const: 0xb8 sha256:411887a6a3119a68af0d4557399706841f44379b23c2a955b58f3c0b58e72ae3
+   __TEXT.__cstring: 0x14c sha256:b2f2d9bb01679acc257d578c68b977ddc5328ec8894939a2d5011c3c2c667ced
+
+   __DATA_CONST.__auth_got: 0x138 sha256:b23f0e8b6b5869c67cb6b3d2618e64a855637eb24150b7a1b5659a3a2c88ee05
+   __DATA_CONST.__got: 0x30 sha256:46e5efb73b8e863c9c28396bf2e7480ab3eb2afc91b14f922495b2cde85ee5a5
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 223F5359-4211-33D1-A7E3-26F107F2E617
++  UUID: 93C5EA5D-ADAB-32B6-A5F6-5F8531233946
+   Functions: 9
+   Symbols:   47
+   CStrings:  16
+Functions:
+~ sub_100000500 : sha256 f7462683620ac67787acf31e8a61bd82dad9f7ee340b8f8652d527dec11e322a -> 094073cdfebea7c93341d4e56441c2975353f0fa17c2a1ad29eea43e9b64fffb
+
+```

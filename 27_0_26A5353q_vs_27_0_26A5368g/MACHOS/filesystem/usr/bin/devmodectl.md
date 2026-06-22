@@ -1,0 +1,99 @@
+## devmodectl
+
+> `/usr/bin/devmodectl`
+
+```diff
+
+-1166.0.0.0.0
+-  __TEXT.__text: 0x18f8 sha256:a9b7b1ea3ebb3a8f3b157a8c5f9c7a91a5cc5186ee55a3ebd80c97a5c96d0331
++1171.0.3.0.0
++  __TEXT.__text: 0x18ec sha256:2152b0be628ba6a4bf6990adff613522ac5feff24432f890af163a6c3d5034c4
+   __TEXT.__auth_stubs: 0x200 sha256:6a8842e1a2dfddeefafae32bc3b49620eccbf4a07f3a55e8b955c9dfadf3f7d7
+   __TEXT.__objc_stubs: 0x2c0 sha256:411d07a427efb78c7b8f65e57196bfc575c88a21fb6b19ce0a7de6b07798a655
+-  __TEXT.__objc_methlist: 0x80 sha256:ec994f0d9e173f3a541e4bcf966efc27d39d8fffc12f823fd5f7f939d51fe41e
++  __TEXT.__objc_methlist: 0x80 sha256:ba70eb3f87beb89f2c7dab42bd3b3ee122591b7e83f1d01af80dab4d789cc3b0
+   __TEXT.__cstring: 0x50f sha256:6942ab62301c0df7ae87e68531b696fb5c23029c2d81847736807e9c23354aba
+   __TEXT.__objc_methname: 0x192 sha256:e353c243800fa6819a0993a5d2085b44b3093ce93acd9f667008dbcd36b2a324
+   __TEXT.__objc_classname: 0xa sha256:05dc54dab561e38301a2c7ffc2949c17122e5e8784e0c4a1f8c7af32562ae6b3
+   __TEXT.__objc_methtype: 0x8d sha256:75b1b7a2e2b76cfc0e1e8ef75b4bc69ecf66ad2d47093f40896ac25b268f983a
+   __TEXT.__const: 0x180 sha256:2a6068ba558ea51ac92e9d3112e8e3da625806fd40f1fc6717c0cc34bb98fe96
+-  __TEXT.__unwind_info: 0xb8 sha256:0e28290cc3917bacd431fcfdfc37830dbd980e31936a5444236e645132436645
+-  __DATA_CONST.__const: 0x368 sha256:d40503217fa5636cb5a280440787fc7e5f5fcefc19aedc007e47e05f88a45adc
+-  __DATA_CONST.__cfstring: 0x300 sha256:640fad6e8fe14aec31bff984dd9f2a9b7b6b2ce4e89296438be0042812f27cf5
++  __TEXT.__unwind_info: 0xb8 sha256:83c155ad8641ef04b66ad16f085b614c1e2bc2bdb7ba9d2b1c037103e9877f90
++  __DATA_CONST.__const: 0x368 sha256:e758412af3208753b4d5b208f07fc870279c25f68cf1cc5ed64bd650f865f6fd
++  __DATA_CONST.__cfstring: 0x300 sha256:5aa84ce58073f57da4f82370bb2bdda4ce210f7d1350ebf6f0f208e26147bc94
+   __DATA_CONST.__objc_classlist: 0x8 sha256:c0f4bbfb739609b5736c91451a1b1353b1f654c4601af6131856a802af3c4539
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__objc_superrefs: 0x8 sha256:4c80eac5be79a793cfb1e8feb11339251360d4f1f7a86f260704d2fcad0d54e0
+-  __DATA_CONST.__objc_intobj: 0x78 sha256:46c8616063866627829e19357c156b5725b2e6cb653b628eeb3f226e22cfe6fd
++  __DATA_CONST.__objc_intobj: 0x78 sha256:d44943525838fd362a51347feb1c262faac1cc6cad39269d941ac473b176f508
+   __DATA_CONST.__objc_arraydata: 0x50 sha256:153a33f07634b9abaf678059b58da2e390b592a5053aaf2de2bcfd3831ae33f4
+   __DATA_CONST.__objc_dictobj: 0xc8 sha256:74ec306e06f40aa1fc27e6116b68ba1e50fe1b9400e18a78483faf82dbb6af17
+   __DATA_CONST.__subcommands: 0x20 sha256:98fab5c7f343cfe7095a960170389001f15705e907ae3a5e48aab488fcaf46b9
+   __DATA_CONST.__auth_got: 0x108 sha256:bfb86f13f5eca089bb91a990371fad5c98b78c2ba7135bb46f2ded023ad827d6
+   __DATA_CONST.__got: 0x48 sha256:85833cbe0f08e9a6b6b79f5c82c176f81241b530a0b88920f44f954d82910a13
+-  __DATA.__objc_const: 0xf0 sha256:72503418a189abecbf838b0984c8e3957fe39b1853306729261b65e82317ced4
+-  __DATA.__objc_selrefs: 0xc0 sha256:c717c963130e04e6e2d78ddb104d00dfc5f9635dc1fd6b10c2e2ef7da6b88f94
++  __DATA.__objc_const: 0xf0 sha256:8fdc8e20004ac0a8eab68370d49302c2c59fe8e7a174dba632d4dcaf2301a197
++  __DATA.__objc_selrefs: 0xc0 sha256:407d99739dbc57a5217069a680ae4ed8697500b26d51f21d205631ace4871906
+   __DATA.__objc_ivar: 0x8 sha256:1842d9d60985977543496f68d38a01a5470beb95bdae33af49b8167ada489f83
+   __DATA.__objc_data: 0x50 sha256:92517bf6bebb13e365e15bfd22e3f80dcc91f163985afbbd0dfa8cfa15126bdb
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+
+   - /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 14DC8740-8829-3119-94E5-980487ECDB66
++  UUID: A891DE15-34B8-35F9-8B34-14517B3F76C7
+   Functions: 29
+   Symbols:   326
+   CStrings:  112
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CRuXugDLQEAylrUBGAETnN7CKLu3zeWr9DpzURU/Library/Caches/com.apple.xbs/TemporaryDirectory.gT8xRJ/Binaries/AppleMobileFileIntegrity_executables_macos/install/TempContent/Objects/AppleMobileFileIntegrity.build/devmodectl.build/Objects-normal/arm64e/info.o
++ /AppleInternal/Library/BuildRoots/4~CRuXugDLQEAylrUBGAETnN7CKLu3zeWr9DpzURU/Library/Caches/com.apple.xbs/TemporaryDirectory.gT8xRJ/Binaries/AppleMobileFileIntegrity_executables_macos/install/TempContent/Objects/AppleMobileFileIntegrity.build/devmodectl.build/Objects-normal/arm64e/list.o
++ /AppleInternal/Library/BuildRoots/4~CRuXugDLQEAylrUBGAETnN7CKLu3zeWr9DpzURU/Library/Caches/com.apple.xbs/TemporaryDirectory.gT8xRJ/Binaries/AppleMobileFileIntegrity_executables_macos/install/TempContent/Objects/AppleMobileFileIntegrity.build/devmodectl.build/Objects-normal/arm64e/main.o
++ /AppleInternal/Library/BuildRoots/4~CRuXugDLQEAylrUBGAETnN7CKLu3zeWr9DpzURU/Library/Caches/com.apple.xbs/TemporaryDirectory.gT8xRJ/Binaries/AppleMobileFileIntegrity_executables_macos/install/TempContent/Objects/AppleMobileFileIntegrity.build/devmodectl.build/Objects-normal/arm64e/single.o
++ /AppleInternal/Library/BuildRoots/4~CRuXugDLQEAylrUBGAETnN7CKLu3zeWr9DpzURU/Library/Caches/com.apple.xbs/TemporaryDirectory.gT8xRJ/Binaries/AppleMobileFileIntegrity_executables_macos/install/TempContent/Objects/AppleMobileFileIntegrity.build/devmodectl.build/Objects-normal/arm64e/streaming.o
++ /AppleInternal/Library/BuildRoots/4~CRuXugDLQEAylrUBGAETnN7CKLu3zeWr9DpzURU/Library/Caches/com.apple.xbs/TemporaryDirectory.gT8xRJ/Binaries/AppleMobileFileIntegrity_executables_macos/install/TempContent/Objects/AppleMobileFileIntegrity.build/devmodectl.build/Objects-normal/arm64e/utils.o
++ /AppleInternal/Library/BuildRoots/4~CRuXugDLQEAylrUBGAETnN7CKLu3zeWr9DpzURU/Library/Caches/com.apple.xbs/TemporaryDirectory.gT8xRJ/Sources/AppleMobileFileIntegrity_executables_macos/devmodectl/
++ /AppleInternal/Library/BuildRoots/4~CRuXugDLQEAylrUBGAETnN7CKLu3zeWr9DpzURU/Library/Caches/com.apple.xbs/TemporaryDirectory.gT8xRJ/Sources/AppleMobileFileIntegrity_executables_macos/devmodectl/cmd/
++ /AppleInternal/Library/BuildRoots/4~CRuXugDLQEAylrUBGAETnN7CKLu3zeWr9DpzURU/Library/Caches/com.apple.xbs/TemporaryDirectory.gT8xRJ/Sources/AppleMobileFileIntegrity_executables_macos/devmodectl/lib/
+- /AppleInternal/Library/BuildRoots/4~CQC9ugD1iw1sqKRCakpwAyi5sIMNnfOAPd5NT54/Library/Caches/com.apple.xbs/TemporaryDirectory.AHRgcv/Binaries/AppleMobileFileIntegrity_executables_macos/install/TempContent/Objects/AppleMobileFileIntegrity.build/devmodectl.build/Objects-normal/arm64e/info.o
+- /AppleInternal/Library/BuildRoots/4~CQC9ugD1iw1sqKRCakpwAyi5sIMNnfOAPd5NT54/Library/Caches/com.apple.xbs/TemporaryDirectory.AHRgcv/Binaries/AppleMobileFileIntegrity_executables_macos/install/TempContent/Objects/AppleMobileFileIntegrity.build/devmodectl.build/Objects-normal/arm64e/list.o
+- /AppleInternal/Library/BuildRoots/4~CQC9ugD1iw1sqKRCakpwAyi5sIMNnfOAPd5NT54/Library/Caches/com.apple.xbs/TemporaryDirectory.AHRgcv/Binaries/AppleMobileFileIntegrity_executables_macos/install/TempContent/Objects/AppleMobileFileIntegrity.build/devmodectl.build/Objects-normal/arm64e/main.o
+- /AppleInternal/Library/BuildRoots/4~CQC9ugD1iw1sqKRCakpwAyi5sIMNnfOAPd5NT54/Library/Caches/com.apple.xbs/TemporaryDirectory.AHRgcv/Binaries/AppleMobileFileIntegrity_executables_macos/install/TempContent/Objects/AppleMobileFileIntegrity.build/devmodectl.build/Objects-normal/arm64e/single.o
+- /AppleInternal/Library/BuildRoots/4~CQC9ugD1iw1sqKRCakpwAyi5sIMNnfOAPd5NT54/Library/Caches/com.apple.xbs/TemporaryDirectory.AHRgcv/Binaries/AppleMobileFileIntegrity_executables_macos/install/TempContent/Objects/AppleMobileFileIntegrity.build/devmodectl.build/Objects-normal/arm64e/streaming.o
+- /AppleInternal/Library/BuildRoots/4~CQC9ugD1iw1sqKRCakpwAyi5sIMNnfOAPd5NT54/Library/Caches/com.apple.xbs/TemporaryDirectory.AHRgcv/Binaries/AppleMobileFileIntegrity_executables_macos/install/TempContent/Objects/AppleMobileFileIntegrity.build/devmodectl.build/Objects-normal/arm64e/utils.o
+- /AppleInternal/Library/BuildRoots/4~CQC9ugD1iw1sqKRCakpwAyi5sIMNnfOAPd5NT54/Library/Caches/com.apple.xbs/TemporaryDirectory.AHRgcv/Sources/AppleMobileFileIntegrity_executables_macos/devmodectl/
+- /AppleInternal/Library/BuildRoots/4~CQC9ugD1iw1sqKRCakpwAyi5sIMNnfOAPd5NT54/Library/Caches/com.apple.xbs/TemporaryDirectory.AHRgcv/Sources/AppleMobileFileIntegrity_executables_macos/devmodectl/cmd/
+- /AppleInternal/Library/BuildRoots/4~CQC9ugD1iw1sqKRCakpwAyi5sIMNnfOAPd5NT54/Library/Caches/com.apple.xbs/TemporaryDirectory.AHRgcv/Sources/AppleMobileFileIntegrity_executables_macos/devmodectl/lib/
+Functions:
+~ _dev_mode_state_for_device : sha256 d80385b736031fb93faa2e46bf79588b1a8ebb57e1564c9fe14924069ebbad4f -> ac6725fde660c0548367d4dfd9ca60904c8aaf91be8e95a30fbeb162adf3462e
+~ _getAMDErrorString : sha256 6b1bed821aa5184ba7f747862e62838cfb052e77f807970cb2cdc5017a537619 -> 452e0ce5e3475aac0d8dfe03d026ab5b63958864fe38f2b5eb5a50fe314cc266
+~ _getDictionaryFromConnection : sha256 8febba55b0d7e0a18c3a2bafe4d42adcb02484afae335b44a52020db59db523f -> d69e9f31d7a0fa82dbc2e96e60687aa7ce4bc1bb401d342c04cf6049db811c02
+~ +[DeviceRef fromMobileDevice:] : sha256 5dac3d1c9862d8e309530be28c3c029e2c0fb77268e076f5830f0aa1718f9579 -> 6a0bd5adfb5f8a67a9b0eaa3e6b5011edc2c453fb2a08c12539403abfcee3942
+~ -[DeviceRef dealloc] : sha256 f6abe4a877d5fa5fef74b47f4ba44cafd39d116c0b9946df0b3c9fb439a2e246 -> cf6a1ecc311e7e1dabbc7b779958abdb37355960575691ae7f5b3982de1d8ad0
+~ -[DeviceRef connect] : sha256 5694c0c0a973fa63a8eaffe53ae38a8b474f025b57e8c65623cc7e5c3359a2c2 -> db0505b467cf8aaf243c2a8eb33e2b369c505cc94d6c7b4cefde9afb5fbc9e41
+~ -[DeviceRef startSession] : sha256 cf6e9298cf43d310257bd09b68add5f36be3aed77d30bcfae70c9c1950648ac8 -> d011a48c4f1480074001c6d7f3b05058481bd4059b0a168c8454fe4e6f9ab28b
+~ -[DeviceRef startService:options:] : sha256 46383236d2b7c6984b7a3f191c959e6228ff5e66cd05af12a6fbe8517c31f042 -> 83dad65bc9456c758eb35deb7b1007dd4d12f8a986e2710e733a33c95ee262f7
+~ -[DeviceRef getService:] : sha256 334ad49b073a7790611450255642b686d05f8d0b8e2c3e0af0ad1c9fbf26db38 -> 8e4c2ba6b4be5ac3affadfabefdb1fe8d24924e3b7a43bfe36ebcae981309617
+~ -[DeviceRef udid] : sha256 0b330d1b6b0d5965267398d575d8a87519d88ef7dec4ebe4ae5cf773462ea92c -> 9e15fb6262e6f9746f84773946c1983740a65b69b04fbba967b12ef99d17d594
+~ -[DeviceRef .cxx_destruct] : sha256 af021eaf252c14fca4e47fc3d662b2500d3d23a7de5bc9322d56e582a0a03d06 -> 77b8ef4da5e7fdbbe9491988e83bd142506793acedca4d2174393d128123ebd7
+~ _info_invoke : 756 -> 752
+~ _single_invoke : 872 -> 868
+~ _device_callback : sha256 4e394f310d32554a3fcfaebd396df489474b4bc7919e0f5473eb96d11d87360e -> 1dde1086017599b9ad1b404c4843cfab59c553df628f8fb0d24b6e5d0cc51c14
+~ _OUTLINED_FUNCTION_0 : sha256 ab0f75b105cb587558df481b7b294593600ff3f5d166cece5841c805440c0dbc -> 76f6603cf3a502aaf8283fef5d9f42c9330ee1668b1c2147d2590911815a808c
+~ _list_invoke : 536 -> 532
+~ _device_callback : sha256 e4957688cbe0471d8e5a4a9d9d6c757164ccfcb4f9faa0e1c3e848a2b61160e6 -> 92a9bf7466f36177a86d37f00b36f80e50fc66190e2342e4cc958002344abcdb
+~ _streaming_invoke : sha256 3313ad5e3e25de9ecc321aa76b0cc4e177c546658dd5179e66fad71d5b6eb08c -> 64e5c71b4b63e8c9f4d44f4a472d84c41ccd7d637a78ca4695c10d7f2cde2d9f
+~ info_invoke.cold.1 : sha256 b4ae21ffc5fc45b0ad5b302f8e30537c4e4e2cb428a9b9968c4c1a2907088642 -> a17f5c8bb8cd2a11084a47ff49778a21859c4bae3b1efad3b4852f55a830c045
+~ info_invoke.cold.2 : sha256 0c1f40ee2a279bf406d42022174a93649c5aec35949ecfe67aea8556279abaa6 -> 8af8022a92e7828c3004766130608db61133ace34cc70d3fe2fc2a7723671bb7
+~ info_invoke.cold.3 : sha256 8a43e01ebdba8682e46d399aec732984c31af03e02cf7ca42fe5e3b974fb208d -> 565e43f16f8d65ca25ae680f69e16eac0a6747d8074bc171b891d429ae69955c
+~ info_invoke.cold.4 : sha256 6fcca3c684cee9cbd69dcb9e15578380472dbcf9244ec65f1c71418aa5c9fbd4 -> bf855f09af6c261c1d34d54c30332a76b296e18b799620f732c6c775ae1e205e
+~ device_callback.cold.1 : sha256 734b84f4f89b2aa91fc8c223c9c48be5ca5e995511def67d5d1f7707c2ca096e -> bbd1e3d755a049ad59de5ff7705e3ac4c907ed30e0c8dd26e01a937da3639244
+~ device_callback.cold.3 : sha256 fa8118b7bb2c18a73e7757ef94af5ea3e10a2a8e5464b3e52e22baec7eb0e636 -> 2f6694f51ce748e2108e45c9a98acd46c1bb8733a985257034cb6c37c32d6e9c
+~ device_callback.cold.5 : sha256 20d367205630f0b3d0c23f2b0e06800620a808aebc1dd3d015b9b75ef0aa1778 -> 1d5a66fcfecc07a3ab1ddc903e028d0be77ae047055b564b1bfd99f115979045
+~ device_callback.cold.7 : sha256 00009352e8bbe4e76b4d7ecd120d6acbe03c01d9cac153e793bd411a2ce5def9 -> 83ba35c8964c8c1c9dcca90dd7747f08c15c05d84d257df2a9cd29575e2df230
+
+```

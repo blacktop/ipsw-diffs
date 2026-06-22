@@ -1,0 +1,510 @@
+## TextEdit
+
+> `/System/Applications/TextEdit.app/Contents/MacOS/TextEdit`
+
+```diff
+
+ 419.0.0.0.0
+-  __TEXT.__text: 0x1500c sha256:e0e19bf76e755d01d2f3ddb7ae63c737ad8d5c4a9f31e347e3313c331e639311
++  __TEXT.__text: 0x14fcc sha256:5cf77e1b7e47ae44c15324a557479d695e6e0eb7abba442f9188530c21f2af79
+   __TEXT.__auth_stubs: 0x490 sha256:827798f470c1d4f7a962dbffc81d4a38f861755e537f1b2081ad8ed1b8022274
+-  __TEXT.__objc_stubs: 0x5440 sha256:2b693e7c431e6c7876d40d43883edbf5f744beaee287dd341835486a42a41301
+-  __TEXT.__objc_methlist: 0x1730 sha256:2bfd84573ffd30ebcd4beb403cde218a61032d9eb18c8e107c9ee35e11a9506e
+-  __TEXT.__const: 0x234 sha256:e23a103bef526e17acca6659fc426f4361fcb26335fc743ba2b43ff3af05e5cb
++  __TEXT.__objc_stubs: 0x5440 sha256:e7dae4339509a6c758f6c324cb5847d51192d19adfe4cd367ec9d3414826e80d
++  __TEXT.__objc_methlist: 0x1730 sha256:a854be46020f61fe62361f042b2312bfb63075e1b16a7994be4998276419d905
++  __TEXT.__const: 0x234 sha256:6533274a966926e7e0380a88abb590d5c3f7a9f92c101c118a5e3aecb851f484
+   __TEXT.__cstring: 0x1650 sha256:0d7a16aef488b1fa44ba9ec03636ea1c9df019a7d1595f3900f121b1629319fa
+   __TEXT.__objc_methname: 0x5c9f sha256:754e9c0234432866c5169114da25babb56582a0d07babf971e97c6958df39381
+   __TEXT.__objc_classname: 0x2d7 sha256:efd24b733f06481b4ea88c7fb2f4951d1c3f2d4e2759f700a8ab8d0d952e43ec
+   __TEXT.__objc_methtype: 0x18de sha256:70422e3ee33335afe2b9825eae3a2058c8c659ea4820f682ebd6468181627fdb
+   __TEXT.__ustring: 0x4 sha256:795be3664a9a5ea9aaa41d0912e42823abe5bb29972db13f470582763ad0f8e3
+   __TEXT.__gcc_except_tab: 0x4c sha256:d4984aff9a3013e9e97c52b3d9eef8095202bc35d09e6a6e904f20f2567ce1dd
+-  __TEXT.__constg_swiftt: 0x218 sha256:2712cf5258e9abcd86e29ea3f587c806ad3a8d1fba49f9511fc6680cc84790df
+-  __TEXT.__swift5_typeref: 0xcc sha256:8df19e2b1a256b75d8e0974caa64416e4958f2b1b2ebdf871fc23183ecf4fa7b
++  __TEXT.__constg_swiftt: 0x218 sha256:0b7131c55482065561c45a105cda715c32d40b28662435b1e71669e363ec8d9a
++  __TEXT.__swift5_typeref: 0xcc sha256:77fd3775b7f1d50f714b85d63b728f511afd805612e500e22def300c1069f737
+   __TEXT.__swift5_reflstr: 0xc7 sha256:a1820c2af1f673ebe235297b4158cfda7ea0a5727842c2a36fc46241297840e5
+   __TEXT.__swift5_fieldmd: 0x110 sha256:30a552572ba361a1570581683aebfa57a331c627193bb3cd12dd9bada17812c6
+   __TEXT.__swift5_builtin: 0x50 sha256:506fbd42fcf9d92ab5266854a7b0f3c6f3d7ebad4e0fe89a2c9a32912f9fb315
+
+   __TEXT.__swift5_capture: 0x20 sha256:17882320c2e565d207fdf1d54b0c510df0f1a51d009581495e87e9f378fd8ee9
+   __TEXT.__swift5_proto: 0x8 sha256:1e4ddda144c0dcb47790b2a7accf9386345d27041afd7a2411af65b3c200f19d
+   __TEXT.__swift5_types: 0x18 sha256:2feeb62bbbead510586255e64b17c090084964800a8594c5a0408aad58139877
+-  __TEXT.__unwind_info: 0x688 sha256:3bbc0260db337a7d4bf60755cd5f31bd834c7197b1d07898817045b2fa5a64dd
+-  __DATA_CONST.__const: 0x940 sha256:ceb75e4de5be78745cca37efbc7d2653e81a1e8a17db9f81a749f7509ca4f998
+-  __DATA_CONST.__cfstring: 0x1a20 sha256:34ccd7a9f6e963164bb8662cb53f1f3c656870f8a4e57d06c89fd35f85201249
++  __TEXT.__unwind_info: 0x688 sha256:deade85fe8113e582fe880d0ed9333a955ff225d61b420a0fa5bb9e26b3769ba
++  __DATA_CONST.__const: 0x940 sha256:929cc84c0e997e7252b972d4e208bb1bcdb4cc89f13808cb61cad317e70ca109
++  __DATA_CONST.__cfstring: 0x1a20 sha256:473d85e6cd090f2ed4f1c83cf1c423c18a1409aa840451233aa631a745166f73
+   __DATA_CONST.__objc_classlist: 0x98 sha256:c9e253fad0a0fcf992ecdee87cfc97ae07771e7f62f3fa9beee49374530a43f0
+   __DATA_CONST.__objc_catlist: 0x8 sha256:ee1eef507a79f0070881f9a1277ac32048694065db214488da71065a4d135174
+   __DATA_CONST.__objc_protolist: 0x38 sha256:6433e9ea17779a78aa5068624c5d2ae7d050ce6fdccd6910a4ea9efbbe21ceca
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+   __DATA_CONST.__objc_superrefs: 0x68 sha256:147f340a3b7f531064a8865a60fdd5338ea3301a914efd487f332990d9d3811e
+-  __DATA_CONST.__objc_intobj: 0x18 sha256:df52a1514f1ab298cf4285fd033b6682a3cd6314fc2e9af1fe74c0506283f7a3
++  __DATA_CONST.__objc_intobj: 0x18 sha256:75c8a0d9a8fb174a4e720e61270d3f4a587bbe36c8883f826a8b11be0c610bfc
+   __DATA_CONST.__auth_got: 0x258 sha256:0e8383facd3dded7581a1af497c73ec641f015d3672b4bb88044f4e21ba88851
+   __DATA_CONST.__got: 0x480 sha256:80f2c3edc228376178a701b71249dfe7ba13109e9c8906aeb0677af0183c39ac
+   __DATA_CONST.__auth_ptr: 0x38 sha256:e084cfeea0ad5f3a7e5ceeb3f7aaf87ae5a924b0830564af625793188f864658
+-  __DATA.__objc_const: 0x2aa8 sha256:097752d00de6b7d73430b5615828fe3c51e8f2571bad433cfabbdf100173cd6d
+-  __DATA.__objc_selrefs: 0x1bf8 sha256:b3d4495285dde0fa04c2a1c60c45c3c8c76989b5ebbd530164279767c52c8f27
++  __DATA.__objc_const: 0x2aa8 sha256:f5f0f919da5e44b65fd796121cc3894a53c55c99b9590015948cbf90198b5223
++  __DATA.__objc_selrefs: 0x1bf8 sha256:018c67236d16bd6539553af1435e199fb29143770106851904274e9b25d45c62
+   __DATA.__objc_ivar: 0x128 sha256:fbd6bcd2d4762b865174e07ec03f255d897f55f9279f9b3d2cadc143222301d2
+-  __DATA.__objc_data: 0x758 sha256:e888aa862f5b5440946f48a9e4be9266f18ee7b7cde39b121e36520a037c91f4
+-  __DATA.__data: 0x3e8 sha256:99800f3539f4bb0bdd243ff3d4dfab6c0d6addf1ee191b9133060ebb7e02263d
++  __DATA.__objc_data: 0x758 sha256:ea963a66035aaff1c7a1d4de91d5f7dbf829a795972288c0d4d7aa5b4a312937
++  __DATA.__data: 0x3e8 sha256:228bdabf77b36d5e0784490f5a56ed7a11d4fcd0317e753695b7fca6514fd0bf
+   __DATA.__bss: 0x1c0 sha256:5c55c8f4db4010ba9203d83536d0609856af8c847ac039e37e7dde8fbd574b61
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 13C5FB39-B837-38A2-AB16-9ADF0ED650EA
++  UUID: B637A5A3-5DD0-35E9-993D-F649F95653F1
+   Functions: 536
+   Symbols:   4509
+   CStrings:  1652
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/Controller.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/Document.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/DocumentController.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/DocumentPropertiesPanelController.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/DocumentWindowController.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/Edit_main.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/EncodingManager.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/EncodingsWindowController.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/FontNameTransformer.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/GeneratedAssetSymbols.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/LinePanelController.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/MultiplePageView.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/MultiplePageViewForTextKit2.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/Preferences.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/PrintPanelAccessoryController.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/PrintingTextView.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/ScalingScrollView.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/TextEdit.swiftmodule
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/TextEdit_vers.o
++ /AppleInternal/Library/BuildRoots/4~CRbxugBn5TwZqtMfSDHyZwKwmDdXYcX9zoeJ6uk/Library/Caches/com.apple.xbs/TemporaryDirectory.VS7ft9/Sources/TextEdit/
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/Controller.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/Document.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/DocumentController.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/DocumentPropertiesPanelController.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/DocumentWindowController.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/Edit_main.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/EncodingManager.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/EncodingsWindowController.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/FontNameTransformer.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/GeneratedAssetSymbols.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/LinePanelController.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/MultiplePageView.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/MultiplePageViewForTextKit2.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/Preferences.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/PrintPanelAccessoryController.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/PrintingTextView.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/ScalingScrollView.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/TextEdit.swiftmodule
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Binaries/TextEdit/install/TempContent/Objects/TextEdit.build/TextEdit.build/Objects-normal/arm64e/TextEdit_vers.o
+- /AppleInternal/Library/BuildRoots/4~CQKkugBlPnkcw2NqB-0n1vMQmKlnYuhPBXQnoXw/Library/Caches/com.apple.xbs/TemporaryDirectory.jz1Dp8/Sources/TextEdit/
+Functions:
+~ _main : sha256 4e1527d89c7b476627668cff8b6199b48fbfda41e02afae0fc64d88d55cdc0f6 -> ecd047ec1b923b8232ae5e4d8feefbcad4987051b2c378b2bdfac5f5dee1836b
+~ -[LinePanelController init] : sha256 4ff81477e2dc8e02d52dfbf536d43672d75d36a003eb9806683273c0b1e0cf6e -> b451e3f79ef71e050bc579f0ae44b135c77f6255ec7d98e64c99fd531e912f34
+~ -[Preferences init] : sha256 7d6758879d8686fc1d165337e6346a46b787c71bad614b3178100cb81910cc92 -> 83e86b6156bb97a8dc9e376dbbd0521f5c890757e173e926bbb08b476ebd347a
+~ -[DocumentPropertiesPanelController init] : sha256 193a3605785332ee0553e7e835b8bb685e1be9ac148c8cd4890132c3c30c531a -> a02c92bf81658f68da2cb997d1ff7453defa86cd15b683ba7e8866be6f3e4aee
+~ +[Controller initialize] : sha256 3a9d3d0111ef90e90fffdf1eebb36abbbb11c4ff3efd05c35b5231e99614384c -> 1edf9b7de48a1a5235104639a90a85b5c522dfadb5822417af7f677b4dd409e5
+~ _defaultValues : sha256 3324a6b3b724a0403858017902b3dac30b92941399f19821ee589ac1522461b8 -> 2c646cbf2b59dd73d3140952a6debba0c068fe4b09baf06c0c514174131b97d4
+~ -[DocumentController awakeFromNib] : sha256 d43b2f90c8d7f220399b57c22ab2574c7761ab4183ae6508f9ad55665d13745c -> 2f7c14260a5871a367d86ef32a01f03686db2c45d3f1c762889431e85312cee4
+~ -[Controller applicationDidFinishLaunching:] : sha256 4e07bf67ef30c31001bf2cd9223b0c523b2a10a1305d77d7cf2788e2dd4e63e6 -> 8dcf24504503090f2db481a3a7287e3922c4c7d68e87967e729102dab16c9742
+~ +[Document(TextEditNSDocumentOverrides) canConcurrentlyReadDocumentsOfType:] : sha256 e78b684b7686e7fa964805f7b762bf1c6eb6ec9ae0392f63c5d3923f871d5a68 -> 9c059732c03fe3c9068ee65513575362660aee97f6003bbdb9fa5c91fb7bbda2
+~ -[Document init] : sha256 0aefdff6b8b531de325988953aeb50933636e90c72ac3fafa03033cba2588727 -> 8db7d5bb2cfbf8777f2d493712cc6569d5f71931d579ae56b98641f10a5a3351
+~ -[Document setBackgroundColor:] : sha256 b49cb621479bcc146e51962e920b2cfcd141cfac17879f71e796f16fa705d83f -> 53da4312527b746ac75d2633faaf0cce2b0790e98d563a84a76e61a5762b9377
+~ -[Document setDocumentPropertiesToDefaults] : 276 -> 272
+~ -[Document knownDocumentProperties] : sha256 004bcba4da0af70c4925d7c44f8d69ca6d2a560f40abf1c86ce4ddff50d4c39d -> e514436f1291944650417b7a92c39dbf3dee00f794f145d451c81e46dd986920
+~ -[Document documentPropertyToAttributeNameMappings] : sha256 f9d81d65080ffa289e4897ad5adab85ba071625e6b804ff365dfd2936aee9d29 -> 5b5d3935628a0c262aa20580b7ab4146198f1fc2a495aef76b2dfa203b60b37b
+~ -[Document setValue:forKey:] : sha256 d3820673f2a0f808329de13f6c728219df69cd699cec5ec90c424b0d8fff4172 -> 4f5f70d0152cd1c3be682c64fb00ea62a9b5fbccd591f20bf50606e62c53eaa2
+~ -[Document setValue:forDocumentProperty:] : sha256 64bab6a55a9bfd360ef50f2e55dca8b3f1b5bc84940f7f178c0465764af173cb -> 50efb4ab590e36b54fc7ddc4488ed262b1e2ac54ea7fd9b8450c019bef26245a
+~ -[DocumentController defaultType] : sha256 3d82565a4b199bdb59e1951695e6f948a4c724d8e61dc222a1765a95c6e3c591 -> e60b25be0d8cdaab20471665f74d424ef83df2c8065c52abb850c9f13b0a9045
+~ -[Document printInfo] : sha256 94f7b47f9f028b6a15b1250fa26d141c0e61f1776279b8b5d67de3fac37b6ff4 -> 4bf516dd4714cceccb45616449a50cc166d6f19f21a49526693243cceb46cd90
+~ -[Document readFromURL:ofType:error:] : sha256 db5dd182dd8e6534c7359e9ba202a91f39b73bd51da3e1adad7ebf0d72e95a5a -> cc625892b9744a85a992bcab13dc8fac518fa7d0afdd7add63fe3449a659f05b
+~ -[DocumentController lastSelectedIgnoreHTMLForURL:] : sha256 a24a24c8eac3f268c8f5192d5795a9e4469ffb0f0760ed272f247dc1cfd646d5 -> 948ee622d8a934d92a10b82f72cdba26449ade0ef9848d86fe69a8f777206fb2
+~ -[DocumentController lastSelectedIgnoreRichForURL:] : sha256 b41b2d77e45c4a943ac67e49e7a00a41d3ee9d26c5a880a4323ef48f63eeac30 -> bf4409ed7f20f6adeda6c57af91fc8fd826bb18470ab09a48ef3dbada18b8e6c
+~ -[DocumentController lastSelectedEncodingForURL:] : sha256 3b6ae864bf3778036a3f0c225bdb8b4bae1cde439062f35d4cea1fe6ff4e653c -> fafee40468a4b332a7e0f18394338522139c248805e23a7394cb323c5827e6e9
+~ -[Document readFromURL:ofType:encoding:ignoreRTF:ignoreHTML:error:] : 2368 -> 2364
+~ -[Document textDocumentTypeToTextEditDocumentTypeMappingTable] : sha256 6ee45039f5e341bbbb0eeabd7e3db283bb15c06f80d0cf941efc2a9efe8a7627 -> 24189d6f37c11c7fe4a1df846ec26fe7031c733b296841da57543901f4861fd4
+~ -[Document applyDefaultTextAttributes:] : sha256 08da9f533a5c6b226f5e41b3accd2b9855a5ae4c8df4975468fab665bc487085 -> a7ffd81065a2eb429b949c4295018ac52ead4c36e5d5251670895acd5cf47dc9
+~ -[Document defaultTextAttributes:] : sha256 fda8bf50e3f8722aa2066872cd3afe5b8d898b8715162e7d6a4eba784a3a6df1 -> c59caf0a45c8f73c5a5081aa350e8f2058d15d151846144abcff20dabee778a8
+~ -[Document setOriginalOrientationSections:] : sha256 4c07119c3864eb6b9f0ca5cef83f26dd18ed1c8c2c0d7244dcb3139d527b032f -> 1e45293609564f8467bd8c65254201d78be0e429a56b3f7b22663500d4db3bec
+~ -[Document(TextEditNSDocumentOverrides) updateChangeCount:] : sha256 51d7dfb2dce762b76cb0fee7b14fd8d601b91f965037c0b11d33c24a62cb9d6f -> 1611351130b227213b02fe4c7a797b0c6582815e3422b45235b71b020b1c6481
+~ -[DocumentController addDocument:] : sha256 85199e8c14e7cbc6a89fe16d09ea691c4274b9513f07ee382640953c3ebf7924 -> adeb1af110f9a0fdf9d13c527725bd985218d1c26c464f5ff96054a886a06591
+~ -[Document(TextEditNSDocumentOverrides) makeWindowControllers] : sha256 d0fdfc6f92d000f31ca8a73b18923f38ee4f4046167caedfbaebb1dd2da00f8f -> 4e17b4156b27cfeb36a4afb4db30b827475a91f92e37935d3d007cef92268cec
+~ -[DocumentWindowController init] : sha256 56f1b765bb8819422eeb080dd1bd36b8ba54c34a9695e8d6ad5ceee537532056 -> 0c160bb68ca2c606c9127637f30491687523823b36443024d3410c04b212058b
+~ -[DocumentWindowController setDocument:] : sha256 d48bb3595c84e982b00d6d0a45c9ec863fb6d1dec0d57dabaccf73301da93994 -> ed2d08c545ac36554cb7038271d1fd7093017a7ab7ee90d7e85112ebfb782a38
+~ -[Document(TextEditNSDocumentOverrides) checkAutosavingSafetyAndReturnError:] : sha256 282e577e52635a47eed267708c5b23989aaaf3e0cbae7ffadd46265de6170a56 -> 5b7c381a9a2f5983845a28ffef2de122e41a97f29091540a8e9b90579e6ab066
+~ -[Document hyphenationFactor] : sha256 14f20370cb023f5390af4611819b33cb6d691ceeeb9f927e530d79e7eed288f9 -> d53378f7b579db4e63237ba67b82c3dddcf708a516b574ca0aa0847d3d4ea302
+~ -[DocumentWindowController firstTextView] : sha256 4a6be33601a139f92aa8e867bf4807bef476a52b348cac0f39b5828fa87e65fc -> 8b9519e72a6ff11a197e3bb90dea60cefc3e9387ef6a382e848ea9bca2cecadb
+~ -[DocumentWindowController windowDidLoad] : sha256 5d0361c79628a94e52796474a8e9e9efe0072530e265a5f07decddd957a01365 -> b1746bd92b927d722b1ed1c162866985efb1b45bdf06c4d3edd6807c38ce49b9
+~ -[DocumentWindowController setHasMultiplePages:force:] : sha256 239270f7e98932a7e997c167790b3df29f689aa61d8d70d9192532502a99c12b -> 4d2778284de80424ef3ae43b12a9532fcfbb9b31b30b186a9a60943f5a0853e6
+~ -[DocumentWindowController configureTypingAttributesAndDefaultParagraphStyleForTextView:] : sha256 c75f474e66ccf9cda6f79fc18af3fe513dd25a87b43df0eb3f44161901b800e1 -> d056cbef6cf8bb652abdef92a23e29843ecf5f39be11f50f441548929211ead5
+~ -[Document isRichText] : sha256 8e208a596f8b68cb60b528edf477d4c41f56f22bd72dcde2c9f2365298183c06 -> 7aa16502b4f99fb1582a9370e8af76c5187884b9019f464a1ead7ee6dcd8d62b
+~ -[ScalingScrollView setScaleFactor:adjustPopup:] : sha256 59472bba8ee1579abe8a09513607633a281c588e4a575e51b7bbdc73b6cf6008 -> 6c2f99d5f4255db3910c328c1ebd7a25b4eb0a7d5221b6629ee0dd74d46434f6
+~ -[ScalingScrollView setScaleFactor:] : sha256 98be2080432749d669f65d60a90a911a54fc448d6e2975a3c13bc625031a7d81 -> dab20b6d256a142eaf36281f163504d849710c22a46b5b027135bd94f3b27972
+~ -[DocumentWindowController(Delegation) layoutManager:didCompleteLayoutForTextContainer:atEnd:] : sha256 53a1e01bfd8e18d9fabb9170ae5d5d4b3a2727f35ca73aa3a64d9a22d55c78fb -> 1f87f093bbd1cb1c58515c44c86ff1b323d5b59bdc5bc0ae8df644378f3c2c76
+~ -[DocumentWindowController setupInitialTextViewSharedState] : sha256 2edfde0f8e8a68e97c1ec7431569b28bf4901e15e4c44aa56f7b63ade56df87f -> 082c91b447877e00464d1d2959b082a4f2218238b878a1674b38330652a9a338
+~ -[DocumentWindowController setupWindowForDocument] : sha256 9cc05a38b7bcba6fdbb172c91ed91f1071418548aab153644019bb25b2ab98d6 -> 742b85bd9ab87859d2fcbbea9f39305678e7a81c31ecc4bdf3ff18fed21da441
+~ -[DocumentWindowController setupTextViewForDocument] : 476 -> 472
+~ -[DocumentWindowController observeValueForKeyPath:ofObject:change:context:] : sha256 a9149640aff98d5bbc54c839da064c2972d01affc0c223f391f3a34bde53e56e -> 5e99d6b61f037b297407eb0ca94290b2fd172fcad18c77a74d66291bc4950e0f
+~ -[DocumentWindowController resizeWindowForViewSize:] : sha256 89483b55aa0dbfad706f9bdee49ef2ef82b9fad6172fb4fe07820292f42e700d -> 24da63c011c5acffa3062d58e5df5eeb822f4b72fe2725409f71e402ca1cdcb3
+~ _defaultTextPadding : sha256 e4bd42615ae0d2d4b5b5b2c9edfd9772067d99637a89fdbb9bd9d479249aaa0c -> 051b6866604f6ae4624593908e7dbd30f5ecb950be81e2af5a64c6dc76cfdce8
+~ -[DocumentWindowController(Delegation) windowDidResize:] : sha256 aed75614d77e8d2be40ec6cd875719517f89e33121141e85f742f0a670ef625c -> 7ae392025dd8aa3f77ceca2f1842484c5cf1deb2ce43932abf034041e0938b44
+~ -[Document validateMenuItem:] : sha256 df92f57d376fa02122ef9a09380179cd3c5e3059ee8691017e9c2cabb87463db -> c309f2b1b6cd5304513646c92bccad5b3eea9c9732b84953d6999e9f81e6f888
+~ -[DocumentWindowController(NSMenuValidation) validateMenuItem:] : sha256 6dbd967cad97f532087eaa3410218ad3107038959537b458db672db8974a6aea -> fbd3c67d4fdae5127969b30c7065f4ed6282224e5960dfeb003d88dbfed6b81b
+~ -[DocumentPropertiesPanelController validateMenuItem:] : sha256 48c818cbf54fc2bb4d121d6492c7b562b0a4ed62b119d19600159f2b705717f7 -> f895ba9420afd51c23f37ad171afb0e97b1dce72494b507039ee1b03584ed626
+~ _validateToggleItem : sha256 521301ddbccbb0815ef46c69294d68b376d64370f571f6fd9863d980127cf993 -> 6e30d63987e6c19fb5c7b6bde68901bbefaa596e18e8f4b0cc41dd76d34af030
+~ -[DocumentController openUntitledDocumentAndDisplay:error:] : sha256 9e85b3d7e09cd4f38f3fd41c318677933fb00b5e5330727d91376d6a9e416344 -> f87d625abe072093a659d234968a49417ee28a1db95a79033a1017a2597b4cbb
+~ -[DocumentWindowController(Delegation) windowWillUseStandardFrame:defaultFrame:] : sha256 dcea365a91cad7fec52dafdf37e2072a8a9db3b22c54104e7723c85b7f5ddfe4 -> 577c00d02d9dd0397946f7990841018a8e71c554740614333a226877a156f33b
+~ -[DocumentWindowController showRulerDelayed:] : sha256 66c0141cd163787474534a32bd73dd0136f5dfe9bde176ec658068174137c678 -> 2260487900ee2d984c266382de3ffc5034c44a37d673bcf619d75a70c5397e35
+~ -[DocumentWindowController(Delegation) windowDidMove:] : sha256 ebfe1f409dd4c55d928693a8a9f22dabd19b5ad595cb43caf095a3981087ffbc -> 34a13324be0dd85dd02a04891b2e40a8e99e0dac349c064f8bccc05ca038ff5e
+~ -[DocumentWindowController showRuler:] : sha256 2c6b057492d44557565cead8443fd518f333887e106450e0ab688d75bd426ea2 -> 7a9235e3e1a49c5e877d47b30645060a1e3928e495f98f3a9dc6631395bdd5d6
+~ -[Document(TextEditNSDocumentOverrides) checkAutosavingSafetyAfterChangeAndReturnError:] : sha256 9e84f40ce8687bd4088163f382d30d7347c0f4e97eb31fed7f37b6874aad87f9 -> bd3e478e2f76ce84593a8083ddc642b14c3df86e4666d33414e5e7c87d3fe2be
+~ -[DocumentWindowController toggleRich:] : sha256 489702a15390a935352b0146bf1b74594a5034f9cd0e63602797f2c507f85658 -> d22f1ca2553837dc310bc50dd96885696fd9d87cbab9072ed79c6fa2ff79bd4c
+~ -[Document toggleRichWillLoseInformation] : sha256 ede8a50f22fb8ad50cd332888dff55341a38371afd9378c6d0a91295e27bc834 -> cd080120433c00a59828758ead23736fdee44cd0d38f944ca8c86b76eec7afb8
+~ +[DocumentController encodingAccessory:includeDefaultEntry:encodingPopUp:checkBox:] : sha256 849b4249bfd22f76b0b871e946ed729431e1bad0d3804240330d7b227d288b06 -> 013f8e7dd2b0414cea332153c4ae3a59a11d8d5d81a356bb81b41346073337f9
+~ -[EncodingPopUpButtonCell initWithCoder:] : sha256 4b58c40267208e92b4b19e2a70865189779d1c5466b20fd95e3bd781568dc0b1 -> 859581f1a8a91af20677e00a876ce6d5940ec923fb6295c077257bd02db3949f
+~ -[EncodingPopUpButtonCell selectItemAtIndex:] : sha256 ae6c30414b6ab8e188bc4749af3205571fdb43909675be229f904c9a377f9962 -> bd484c5b8939d583377a5e50a61e47d5ead7881a07617ae93d4d262683a9a0c1
+~ +[EncodingManager sharedInstance] : sha256 ba749504ee8c88f8588a1331611036e53655640df31c66540300d86a8d685323 -> 78d44288f8d494ad687cc597351712e9dac40a75ddadba9baafc0bb28e16c0f3
+~ -[EncodingManager init] : sha256 9d1af088c827d0d84e03d3ac02164d3f6fa228c1e76b81949c998c8662f38114 -> 0ce423f2f69aacf64d99b34d13aca08ac74b092319e47aababe8ce42dd00c9f4
+~ -[EncodingManager setupPopUpCell:selectedEncoding:withDefaultEntry:] : sha256 edd20b7158b58fab2238c104c4083a06048ce8dedd542bd6f1e988bac48465b9 -> 556bf39affa6154cd18a0ddf7a12d9d9e42fe1112454c613d8fdd19d693d5eb2
+~ -[EncodingManager enabledEncodings] : 272 -> 276
+~ -[DocumentController openDocumentWithContentsOfURL:display:error:] : 608 -> 604
+~ -[DocumentController transientDocumentToReplace] : sha256 574e39e7acc8ce35d5e3145adf53545e7df8d00e8e34b06d82e1804f59754b4c -> e86a4b678456dd906e12173f0052865209c13cf361073389f9cd08d183fd6749
+~ -[Document(TextEditNSDocumentOverrides) writableTypesForSaveOperation:ignoreTemporaryState:] : sha256 9cb0162769e91cf01243155f6da6a9a598e03734e8cd089643348c4d7c0ff9a4 -> 9456793500dd47bb9f7036f3bce5924168d6b1d93685745f62e151dbe90bc967
+~ -[Document setPaperSize:] : sha256 279bdfdeab119c236b443fcc2d9239a693535ea1fe9cdf1e5b408cd2ceb8a5ea -> c02a1a38fd77601dc8ffa2e17da49ce7172b5cd6a93aaefb9abe317f72c64ef6
+~ -[DocumentController displayDocument:] : sha256 cf6b8f1692614669fa5ca63963c6dddc9753cfe8e99c7af2c2ee7b96f91b9728 -> fa372ca15f2d04bd8b78ae238e75db29858e7bcac604eb1e775d48f508b78c81
+~ -[Document(TextEditNSDocumentOverrides) writableTypesForSaveOperation:] : sha256 3b2282f3061c4303ec537ee9067a79801ed0ac0aa1cebdee535194df3677143a -> c4b72d1f1f66ac4d164c01b095ae7be08e0b70b467df52660f792c22d6c71b7c
+~ -[Document(TextEditNSDocumentOverrides) saveToURL:ofType:forSaveOperation:completionHandler:] : sha256 436a17675afc01280992e7a7b8f465e00a8d3786e509500f6595a3ce62288031 -> 88e9887da843d8731ec8112c2589e1609285edaa752999d1e2700f65090a844c
+~ -[DocumentWindowController breakUndoCoalescing] : sha256 6f595b14456eda9537a554bab5aaf713ffd88fb81af1f92d370d73fb4ae4d195 -> 04fc5ed6401abff2b65020e3fcbd19b1dd42352544472ba1a93c6b6488b71eba
+~ -[Document(TextEditNSDocumentOverrides) canAsynchronouslyWriteToURL:ofType:forSaveOperation:] : sha256 7054c36d7d32589fa82658c0c6014745dfb106266b1a1c4b38dc00243ccc9575 -> a71596daee297546348495e7693eb36b59d8fb26f477fdca847f5c24b3ecf351
+~ -[Document(TextEditNSDocumentOverrides) fileWrapperOfType:error:] : 2452 -> 2448
+~ -[Document paperSize] : sha256 05f1507fd66a7dcc20abcc2e2bcf07d558424c6cf95a7ba0d63141852d28d351 -> 7ad689811c812528a1fc85eab77f989a69ec131e99558e294e4a88498c29bf94
+~ -[DocumentWindowController layoutOrientationSections] : 908 -> 904
+~ -[Document(TextEditNSDocumentOverrides) duplicateAndReturnError:] : sha256 a311a47c1474e794b8ceca4730b39c8863b7feda3f6cceaa12fb9ae977dc88d1 -> 1e230d86531148eab982b59d928c55aef1eb66424796c827d1a9227fda50c83f
+~ -[Document(TextEditNSDocumentOverrides) autosavingFileType] : sha256 d0685d94de38aa7308c4046ff69873310c3fd650871c8096082828fe52e5e586 -> 7c97878df696b8fdb34f927758e826f70a56df849a8ce0c514a9b1cc2f2616b0
+~ -[Document printOperationWithSettings:error:] : sha256 efdc6a045652eba65841f0e715d992ad6d3f9deda8094cfb29e90badbf81fbfe -> 39ee628bf3f852a1eb1333615beaf3c87da8323eec180f8c511c0b5edab56a4c
+~ -[PrintPanelAccessoryController initWithNibName:bundle:] : sha256 20037ff0c6abfe39ff1982e6a651448ce3901230d921c8f5dca7a27d8220c0e8 -> 1ae63aa5432f3dfe3207e68219c67a16fd9daf5bb579ab2c70531aa174efd90f
+~ -[PrintingTextView setOriginalSize:] : sha256 b269709a549b123ca9f5580a43cb2f7ee13ceb8f56a10a1d04747642e4c0a247 -> ecd8a37e09d6624965644b39d32ab8c62ec79e44ae41844a59603dde7b33d388
+~ -[PrintPanelAccessoryController setRepresentedObject:] : sha256 10684f85028840f3289b4a69dff28d74112df3f937d910ecc67b3746595d00c1 -> 6c310ba448fc82d2f09fe3f05ffd8f2bb83d28954751350b37575cba0434a138
+~ -[PrintPanelAccessoryController setPageNumbering:] : sha256 c377b8c332c7f7f00af0b387309ce7cfc685dac2f92fcb4b85f789d9e4691e31 -> c4cfe644df541f7bcee0ed247968d8f5a423e7341768fb94cda361552e3d31d9
+~ -[PrintPanelAccessoryController keyPathsForValuesAffectingPreview] : sha256 475bee29a14e81e76b4753bd3afcaf89dcdf91ee81d2c32a7d5cea9941b2cf99 -> 67f4ff9986cc5b7a13d71fd6b8143592ffbfd0529dd3670560732a8913367e25
+~ -[PrintingTextView knowsPageRange:] : sha256 b32246615d247bc3d053d30f59989f850029a2d7e484f0d40094a993a638d8c9 -> 55079a6631601911f12fea6f44e6935aa1731be85a8ecf41ce33f7b92dc87567
+~ _documentSizeForPrintInfo : sha256 27a145f0d65d866f81929278bc0c787c16e244117c9405fd1c60663fb6773abd -> 8704ed5cafea5f9d5e0553c8f1421b83c215f80a423d76ea6c788e62b1e659e5
+~ -[NSTextView(TextEditAdditions) textEditDoForegroundLayoutToCharacterIndex:] : sha256 3cde46a7c8762345f6b1fb8346590d02a3a7f1fa0991616916441ff315a1b068 -> 447e814b3599ca6d30ba3c1abc000fde93487a6a4e2383cb87411bd29324e4d6
+~ -[PrintPanelAccessoryController localizedSummaryItems] : sha256 7104bca7ac5cda401d02cc2f9afde6ad3d3df01c6afd63662ec4d341de4c7489 -> 345d8d0f4b953c7124a632618b291aa2d1bc99715e8d0baea8583aab874891dc
+~ -[PrintPanelAccessoryController pageNumbering] : sha256 1705513c67d134f3fc157c09c35effcc0e6058749122d922105f7fb968b02e3e -> f89f8f5dd4f7c85831f6771e6c765cb0d3fbcd1b0b81abeae76eb3348b46a126
+~ -[DocumentWindowController printInfoUpdated] : sha256 7b5a71c6a85b01ddeaff7fcee750792f7353b93b4f4cd431e7134f0ef57303b7 -> 5a51cd033080a365e35ed1054695ae1949332d957a6b9bd74801d602554b10d1
+~ -[Document togglePageBreaks:] : sha256 4a0c275f8fda6ee8923ed7f1c5ec386cf7863666174a9d53fcd419e2804419e5 -> 49d57ea0b747c42361263aa47eae131002e52339f429f92434138ed6e8257028
+~ -[MultiplePageView initWithFrame:] : sha256 3fa72e0371aae9b5a8e6aa3149220ddb5eade71b1614c44368d5b585c03d4a16 -> 8f575c7959a1a7d18bd929b3bfceab08e885b73909a0678d89183ac01c7aff4c
+~ -[MultiplePageView setLineColor:] : sha256 064efc67ee3d74565d2c8f5838a5d8fcbdb779d78b9922e3fe0bccf9bb65f886 -> 111422cdf10ee8be55f71d582f847c8c8b3c55d35f7f7360ff97386463479870
+~ -[MultiplePageView setMarginColor:] : sha256 de6cdef179912d90fb001056c712aeee545e3cd2409989b8aecb2acce1ef729b -> b0bcabeba91adcc9f62883bd2f3a7f03c41a3d722ec9bd8cf4da236f55d1a155
+~ -[MultiplePageView setPrintInfo:] : sha256 43f99f49cc250f25b40bdb3254c61bbbd714eb98622290f79d39f1b9c66028b8 -> 9d9c62589dde85d3cffbbe6e13979ee40523eb22725f989a444d9f86ae1b2af9
+~ -[MultiplePageView updateFrame] : sha256 719d3079299c8c867d26a3c73a4710f4a5fa054436541344985c9204a5aa8567 -> f6466680b0ed906b8383f4503e7e0a05732c47eb6b82dd9d0c8edd0ae96f293c
+~ -[MultiplePageView setLayoutOrientation:] : sha256 3b32e2e0d7cf4b518cc8233e8ab1f8b84643e032860b423b8ed67ce283dc15fd -> 02183628a075f95f284653b89a1db86cd19eccad6c059ddaf5ec2d872a561d96
+~ -[DocumentWindowController addPage] : sha256 aed171c12c0edc146158936e64b194090400a537fea2dfcd06413bc7bafb9233 -> eebe7afc66d319249839948900517dc60350bc03ffaa03a23f82389b1434021a
+~ -[DocumentWindowController numberOfPages] : sha256 678e29f1eaf891eb3cbfc4138ee9d7c06210a794f844f04cbbbf4b3f59fa406d -> a6303715394504f10c11d6d9ba11d9a130baf5b5faad77dff342b73799a43743
+~ -[MultiplePageView setNumberOfPages:] : sha256 103eb2414de0114fc2407dd8d671b65429e3bbdb2463ed76a10934c2e262682e -> 8cf5004ff79e94dab8474d095f09f25e5bfc8c57a11e866056bef585817bc031
+~ -[MultiplePageView documentRectForPageNumber:] : sha256 2927999c1d96a86a07600e98765601e1c40409d7a5a68b1e0134b9d93c26f4f1 -> b8df96a25cb46f5eeccc1b959b352b487d26552fbc13cf1dde3bb6c24edd285e
+~ -[MultiplePageView pageRectForPageNumber:] : sha256 f3f8c8b262358c2d9e6992a15df04a24e7efff96477b01a3ead90b765c7710ed -> e752cc0cb0c5570623f5bcc66c99eb19628a11fb8d4fb3e749d98ff5f1292c22
+~ -[MultiplePageView drawRect:] : sha256 8f305cec3001d018e1a73115408ed3de6dc4034130b11a784900beaa45486621 -> be73cecfabc921d9bf7717f12e3430904e3727c8ddd367f47b42511218dc09db
+~ -[Document clearDocumentProperties] : 244 -> 240
+~ -[DocumentWindowController removeAttachments] : sha256 809253555ce9f5a687fe8cc17f95ffad586a9e2421e3dc27d9f24f7fa88ace14 -> a61e964613c3f63b7f9e2f1c1aaa1922349b21b4198a2b54eac8210727bd4774
+~ -[Document hasDocumentProperties] : 312 -> 308
+~ -[Preferences HTMLStylingMode] : sha256 011d56c80aaf56443174ac1cacbdc2dc8236ddf29a1a6f018a9e0c6f6769fa00 -> 1bf6fc98bc6c9451c1a988faa9eb18f36bbc5c4c212bd23787d18f86430ed156
+~ -[Preferences HTMLDocumentType] : sha256 2afc1f6fb32b8724d12067b0bb02e5166dbf70949d6faa5cd2ab602250e8b0b5 -> f1e8b14fe4fc8a159169fb2f5def20e4a3b0cb1d159cd677e3a319307d5dcb40
+~ -[Preferences plainTextFont] : sha256 fd37a28ab155037b71719a09fd5acde01dfea69259807e2768b1971a5b96f3d0 -> 5a593715194e67f40b8041a6794625172e866355a3d8bf1e468d750e518cca14
+~ -[FontNameTransformer transformedValue:] : sha256 918dd62b2181a500af9f853e1ebdd02b643bfc269cd5462652c7cb2e96556117 -> ab3cfecc98c98cebbc216967ac55a63462b685c68344bc7c46b893cf7054cf0b
+~ -[Preferences richTextFont] : sha256 9c7c903cfc1741210091a58e90975cf7374a6b9f5dd1376bc50e90754862184e -> 6a3ebd67aa69099fc502a64b39021a30e4f46f051d865c6d0d77b3d66a9e5ff2
+~ -[Preferences windowDidLoad] : sha256 2206741136c2ce0cd9370cf89d92ef81302d5e33f43c49981e5d06c97ee33a7b -> acc2c7b755d6f92d832c51f0ae5cc4b59bcd6871887d8c507dfbf23d4737024a
+~ -[Preferences windowShouldClose:] : sha256 c785a7fd1d531f09fa984dce489ebebb78367b9a7ac67335d6742d1e668f69ed -> ba8260662036d67f67f2db14cf5af5917ba1a38218bb110d8549df5518e56dbb
+~ -[DocumentWindowController setDocumentEdited:] : sha256 57350aa39e209cd44563d852db7565690091b40bc41a58cb8f86611897ba3075 -> f117422a08edf7dbcdea69da37c52f37b13b5fa0dc53677004e34a1d7b309971
+~ -[DocumentWindowController dealloc] : sha256 03990ca332876320dabe736881f86e654567413c2dcef12fd6bc8aa8f65410d7 -> 063d62728e2238b80600ffd46c07934fddc80d9c23dad899da98c9fe0bea3823
+~ -[MultiplePageView dealloc] : sha256 bb1ea5c6eb0f1020096c9794ef470b602c20ea0e891044ef129a6d91ec54d80f -> 080e4be6bf1699972066c14e1ee3405d32d945dd0c9c20d5c1bcd7004e2e65d9
+~ sub_1000094d0 -> sub_1000094b4 : sha256 a00fe9c10c91aa5ed7bde242b9693c7b0129b5fce4d1cb8ae9992deff346addd -> b9d8195eb1b454dad1ac896fe6185fdebd894215212ccf93f06b8d049bd234d5
+~ sub_1000094e0 -> sub_1000094c4 : sha256 bc3c4d6f45214924d181e99609fbb02743cb44955b8c8452e184fb3e0d586693 -> 6d87be1ec540500fc32c0cb977539bf845052df836ab46ef171b0669016a255a
+~ +[Document isRichTextType:] : sha256 f704e77c71110ca4bd4c5786af01a7aa5b00e53266820fba0bd11a5c3cef22fd -> 3727066c463eb7699c17d8099e3d0a15b7ef9aad76d1df0213313db87a768c62
+~ +[Document readableTypeForType:] : 416 -> 412
+~ ___32+[Document readableTypeForType:]_block_invoke : 316 -> 312
+~ ___32+[Document readableTypeForType:]_block_invoke_2 : sha256 ded8275a66ab3ba9bb58839a6d539abd35f2bcfaa35dcd7e38de2ea0fcc39171 -> 93390b5eb50632060347ce8fa5226622e9fb91bb6a835cb35567b54514425d1f
+~ ___copy_helper_block_e8_32o : sha256 290122d519318b9e15345f62dc9d3e0e1654d7760dc10bfa0c238082e997b68e -> 087dcd4cd1edbff0690ef4a56805a0666c9eaa947b06b951432e03d0d5c3c3c8
+~ ___destroy_helper_block_e8_32o : sha256 91b695993470f8486620ea8bf0d9ba3b414a659f985b75257ca85f33cd3757ba -> c5020f04d296db2c3b2e27d9ad168fa35bd3a49ea4ea664d3427077687d4563f
+~ +[Document initializeCustomTypes] : sha256 5fbeeae5f8edbbb4a90d912fa6ba49674494096a5405138309f109255a519126 -> f7d402555272ab01f56e20f16a8c1434d028972d9c0ea7ba944334aa0a237189
+~ ___62-[Document textDocumentTypeToTextEditDocumentTypeMappingTable]_block_invoke : sha256 096282241f9a2485eea007f3bd11618df908f04b6e6c8685ec5149cd8e09fd93 -> 08cfdf9b75e2a936b19970911a3bb8ab021910b62bdcb08d2509176814a272d2
+~ ___39-[Document applyDefaultTextAttributes:]_block_invoke : sha256 67c916a396ed1231e4f0476708ea2d1ceabcb143e6acedfee224b4a5dff14691 -> 186495082d7d487e6090e798bc45041c8dfe4cbfa63e0f69b69fb62ee0b62457
+~ ___39-[Document applyDefaultTextAttributes:]_block_invoke_2 : sha256 e8a8014db61484b90f446d3c489e5b94b03b3ce4ae18dbdf936b8944b27e8b93 -> 4aad9dd533b90337636b6f18063b873cbb9636de53ea22459659e8c0f2f26439
+~ ___copy_helper_block_e8_32o40o : sha256 cd2a549aa2aaed5d3e540f965e8cfd0340f538650d1325050ce500d056abc6a4 -> ac093b92a657719c8c0d2d44e48893c97c6ecd9c4516052376522ad2a70ce0e8
+~ ___destroy_helper_block_e8_32o40o : sha256 982dfa9d48a9ce4cf3d1e427c35e1b4ab6bdc4154129617cc5fbd69ce17196ca -> ff4e0047f1f2423078b7471d2a6ad97af19bf3367322b9f1cd7da42766a711ce
+~ -[Document suggestedDocumentEncoding] : sha256 5171ce04dc8411a1dc8352f12d89392458a5d4dec24ce67961935a17e0d46c64 -> 0b4a799166afcdaef96e612362f644af33e4f233fb708d0b903d7a854c076345
+~ -[Document dealloc] : sha256 048f9e690c9b30242ba9d526a2f21f3a55fa2ee17836d08abf17dea9cb74bf16 -> af6dabee22d5e9cbbde7c95562ccfb605b14a5fe6095056475af2e3ef85bfd3d
+~ -[Document isTransientAndCanBeReplaced] : 268 -> 264
+~ -[Document setFileType:] : sha256 271639d59c63c96df22a504fe809babf1b58dac6f75342f2f25bfeff5e974505 -> 6fa862b750441c222eb9639248008ee0fffe45db8880affabdaf79775d23b7a1
+~ ___51-[Document documentPropertyToAttributeNameMappings]_block_invoke : sha256 6522e42b4c40a10dcd5388ab8998a12e47bb84f1cfd6c99638eb35ad0284ca1a -> 98b17786baa1e6395eeeaf36e6f72f925495712ca2504915d78c9fbd45e9a3d1
+~ ___45-[Document printOperationWithSettings:error:]_block_invoke : sha256 8e09905c3a6212c3b2bec8c7e3d54de8368c690f083e8e14c019198b45044293 -> 82e4af9292870263bf80f1fb2381564eac9d8c8562033a6787e8be1d79541646
+~ -[Document toggleReadOnly:] : sha256 d75c4445c6b53b16fcf53b341249f600515493f33304f76c65b81016dd81b901 -> b6f4411b81159f42e7e76367d19f703d31db9517db19f5d0a33eb653427f18a4
+~ -[Document toggleHyphenation:] : sha256 49eb6d4be3684edb85060a4ad03ff4fdad7360e9cc4f5ee7952aab72c5429ab2 -> 95850fe14670e79a19d628f74ff5414865e0f36864ce6154025619db513d6f82
+~ -[Document appendPlainTextExtensionChanged:] : sha256 1ed0e752ad0099502f69716f1c24ccc31c4c274543dfb4aa2640aa3f2a3864a8 -> 8df37c08d418dc04a9a3b59e52ba20efd807a1bc04cf4de537d1c4fb368fc8bb
+~ -[Document encodingPopupChanged:] : sha256 f622bfb5661b7856d0c913bd27b7c7ef29725f42528b5f2b90aa584f9f5fd413 -> 7c4d4dfccca19fe9e066dac4ec74675226a2cfc42ab1bae2508b18b43f5fd2f7
+~ -[Document setTextStorage:] : sha256 ed798bdebc801fb5417e01cfbad491913f7bc8287403556bbfd1b624ee05f260 -> 69af309476764b92d2e3540bd90f87ff437969a7b03258847c008c40bbbe016a
+~ -[Document revertToContentsOfURL:ofType:error:] : sha256 524bd8904ac7943110685d5c4c4d5a75e9ea76248a30ed06589304e346dd35f2 -> ea2cd48b4f68e37171783764e30c342d250e2f01684c6b0aa9851660519dbb9b
+~ -[Document(TextEditNSDocumentOverrides) fileNameExtensionForType:saveOperation:] : sha256 69f9a954cd49cfdf539ff103e97d7addecc58b3751389f3d964a02414882b343 -> 8b80a7838d1c4d799ff9083e2e443e2dd603c59fa5555e06b3220c2767804aee
+~ ___93-[Document(TextEditNSDocumentOverrides) saveToURL:ofType:forSaveOperation:completionHandler:]_block_invoke : sha256 87bb0a767fd10b065c31c6841295523efb9962f2074d1827f51199d4615bacb4 -> f58f8db6ebcb5756c1b55473cf866a5a577184d8a615c82b95be5caadf695c2b
+~ ___93-[Document(TextEditNSDocumentOverrides) saveToURL:ofType:forSaveOperation:completionHandler:]_block_invoke_2 : sha256 e604af8e9ba99f55c8f67639fa7e2e5863d1c92b1b1e226aeaf5063592bb550d -> 54b578c05ea08b0a88c85d72ff2813cc18e553cc2755ee285e415164f124c26f
+~ ___copy_helper_block_e8_32o40b48b : sha256 bdc3c8135b0778a5e388f83c1ce36c0831de90f4a92de8a2a5e8a05539557c89 -> 17e48a5694dc33895f2bd131546d9480f6199aaac4730cca51aca385bf86ce0e
+~ ___destroy_helper_block_e8_32o40b48b : sha256 097c114726bb9d9dc35e4803030100d32f3654d576f027208c8a8ed9ad5c4518 -> c3c01c3f35b7a8c8fcebb610076dfe2a520f9a0cbba46e7fcc1c9346b662b424
+~ ___copy_helper_block_e8_32o40o48o56b : sha256 45db480e36665527f5a20fad1f2bd0f81b64461ce3d2f708371e444868bd9771 -> 5408646edfa72967437d9769df0b6726d2fc06971d162ca6479e3bef384c07a0
+~ ___destroy_helper_block_e8_32o40o48o56b : sha256 b4c6edb205d72b9554ff63804e6a2005fef2fbe003b556a84ea0f3826b234ed0 -> f8421fb78b52408da16ecc08d64f72df02e5c088d55345313d623b10f38e7562
+~ -[Document(TextEditNSDocumentOverrides) errorInTextEditDomainWithCode:] : sha256 2b2b4423684fc3b51145c45aef5e46178db7e576e9362fb5ffd9e1f76dfc18bd -> 6d6d627766579346cb71084a3d9a8b59a623ed855fed633db46810e5a6953592
+~ ___59-[Document(TextEditNSDocumentOverrides) updateChangeCount:]_block_invoke : sha256 8a8f94468d73fc2536f6dee6224b72de52f877b49748969d4e963f225a991013 -> a54ae97adae1210295678db12a539a777b3348be3bfea9e644268d6af50bca3d
+~ __59-[Document(TextEditNSDocumentOverrides) updateChangeCount:]_block_invoke.309 : sha256 249772ce73d8b367d3ddba27aff815438f80f240a2715e2536fb278c860b419d -> 3b3d47937e100c62733e2a6a3cecbfb4bc91088d81ca6545f710001a5dc01a2d
+~ ___59-[Document(TextEditNSDocumentOverrides) updateChangeCount:]_block_invoke_2 : sha256 c472b731bc974e394b20d249fc750f7546e068568dbba4ea52ec78e49d9455d5 -> aff4582fe4dbf48326720b415d1245d015aa20c21da887e20e28f40e6d1ed6e5
+~ ___copy_helper_block_e8_32o40b : sha256 b94f618b5904ad35ce6806cda1c7f6e0e46406376fe7096cb28192a1e50d5397 -> dc98da7d2c8b9128a3cee217c283b9368d2728507df600d211df38120383e32c
+~ ___destroy_helper_block_e8_32o40b : sha256 82e07d7f3f930b45a4c013a5f8e7a6b209c1cdb4052b28d37ef81612d0cadee7 -> fe7355db0cce6341fea49ec7b31044f224afd1ddb988f45b73c549c160b49060
+~ ___copy_helper_block_e8_32o40o48o : sha256 54e836ff12654eea2ecedc670e2e9d8f11b457940b65cea15d03db91731d2025 -> 17c961560036f4f33b22bf30f6e6ebc1493cfc19eae19d4bf4ed771402db295c
+~ ___destroy_helper_block_e8_32o40o48o : sha256 fb9722cd937056f241e90580d56057a8286291c3bae0d527c92a37143fb11cb9 -> 25d3d7898d410c660a9150c214ae61986932fec3a4f96d140927b4ab6ba69e7d
+~ -[Document(TextEditNSDocumentOverrides) document:didSave:block:] : sha256 89e6fe3e4653df92bdab05166cb1358ca9a8f71fcc243d65542b300ca7717b82 -> 5a62e93299ef65c467d318d10ac9ca5eb94d1bdaf929f95ec6f2514ece4f7569
+~ -[Document(TextEditNSDocumentOverrides) didPresentErrorWithRecovery:block:] : sha256 5fbae17eca0af52edc61a512f637354d22758d2915c1783eb44260258c2d2dae -> c1139de59ff3ea47d29125571ad28fdc4a82be6cdb95af051e546226fa2b3e59
+~ -[Document(TextEditNSDocumentOverrides) attemptRecoveryFromError:optionIndex:delegate:didRecoverSelector:contextInfo:] : sha256 97fe5560b9a48ea06a0e08122c98ea61aac61fe0c2d6c1105fbba3cd12b2b0d5 -> dc60935bfd36cc7f7bda8ae1e0bf8c80c4dac4cfc1f04b7dd26adeedd75c1b51
+~ ___118-[Document(TextEditNSDocumentOverrides) attemptRecoveryFromError:optionIndex:delegate:didRecoverSelector:contextInfo:]_block_invoke : sha256 fdfccee063591de4d204e34e2e926eb51973cb5c27a189a46667d072b9103c42 -> 4f348ed97c695ba17998b1614d8ea04d53ea71c3cec37a50ba466f7456fe0c65
+~ __118-[Document(TextEditNSDocumentOverrides) attemptRecoveryFromError:optionIndex:delegate:didRecoverSelector:contextInfo:]_block_invoke.318 : sha256 1c3f57b091f42087fd26b00969f2443f74955ff19d95c01e8f0382dc07147081 -> 95fdc3e7777569d8b83fc03c48fcc7b5eb6e859bb16cce0c7ef4c6e426106bbf
+~ ___118-[Document(TextEditNSDocumentOverrides) attemptRecoveryFromError:optionIndex:delegate:didRecoverSelector:contextInfo:]_block_invoke_2 : sha256 9223154e88484cf7c739eccb3b3fd5bf531dca96919d45b818853d44b34107f3 -> 50786e46994ac243a1e4a2052f34ca3a638c84770b1196c36d618e6215f132e7
+~ -[Document(TextEditNSDocumentOverrides) shouldRunSavePanelWithAccessoryView] : sha256 13ae3c26aad41d98f74fe157121cd85f3b225bc3e02c79b2415bb5cbbd481a17 -> 097ed2bd6112cc8001e2a04c5e1ced12b7f5a061ce8625bd1530e1d5dc993478
+~ -[Document(TextEditNSDocumentOverrides) prepareSavePanel:] : sha256 09454f3be14f3c18765f200ef13b42c0bf7ff76f899600a404f8cf668a8118db -> e92c55bfedc2ca229a9469dabdc47b60ddd08291891f88021ce67b3569abaaca
+~ _truncatedString : sha256 6e97977221dae7e2b28b2687ddf1f11dcf1b82ee3fb9b2840063ba73dd14af5c -> c319771b0431313197e9a5a310ab533947911fc389bf18a79036b550956164e2
+~ -[IsLightAppearanceValueTransformer transformedValue:] : sha256 61d2d8bb18fc330a8791eb34c592e83e3d7a36e1b7cad4e69f726be5923daf0e -> dea524d52d849035f4def7f49520c3009da0ead18ef19243fd53068e0843d2f2
+~ -[Controller openFile:userData:error:] : sha256 133ab0b33819eacc93e8fca97b1eb1f5c0a258477c70111a5082161941fdf30c -> b034ac90635651adc3804ebb5df4104892e5742444cbea84e67ccc3fbade3169
+~ -[Controller openSelection:userData:error:] : sha256 d73475b56fad3db524ec665dacdb95f70488a336d2aa2f7b7222b415b4108aa0 -> 11801868cc57cd4b805a0adc3754727e103dd18a898541c63d5a678f7ab8b866
+~ -[Controller _setUpFormatMenu] : sha256 42b6cd62d773bbc69cfc8c9842154842709b45cb5fdb9f3c8505814286ed5896 -> ca658fde9507b3cd6f13a8beb3d69d19af5fcdcda5bf13415173d637cd7e23b2
+~ -[Controller _setUpHighlightMenu] : 316 -> 312
+~ -[Controller(AppleSelfTestSupport) endTest:] : sha256 398fa91dd659795a018050710e1a5bddbee5a66ee1f8d6ee9f4e3273c2b56275 -> ec9be11bce49fed9bf8b404c1e8411107c47c6a3355e7a325728d486373b8c90
+~ -[Controller(AppleSelfTestSupport) application:runTest:duration:] : sha256 45ad6937349f72a5bdc09b8fc4e278f4459a2ee2c6de67c3e0f6b12ad9490e86 -> ef0814decf1e0e13634bc4b8fc6739c00f5ec8e36511b9d13cbdcad054fade51
+~ -[Controller(AppleSelfTestSupport) doOneTest:] : sha256 5452a65cf0af46b2e7e573818c827da747f36b69826e2e7180fff4a995ea16c9 -> 4b05484390ad65eac522ce5f5f504803958328480ff9b5d33d1c1ddd705312fb
+~ -[Controller(AppleSelfTestSupport) application:runTest:options:] : sha256 606dd4a47d4e33969a4354d4a6d739ca80e5371c8cd2d880e4d2de67b0fd653e -> f0e6a3bdf123f08a0098ab448bfaeb1f98f54631aa17b4d88e71047804f89d73
+~ ___64-[Controller(AppleSelfTestSupport) application:runTest:options:]_block_invoke : sha256 c61e3bf38b804dc9dab7321467bae34afd594e704c846dcd2300e6fe8f6ab7c7 -> d8a95c25f0def456aa77ec2ea71262d0edda230205d2c5d41849b003247e7992
+~ ___64-[Controller(AppleSelfTestSupport) application:runTest:options:]_block_invoke_2 : sha256 d4db38600f86e236e87e21a8d88bd8a646942421d0b9bd63fd18ebe885c035df -> 639be050dc378f283e0b8356dee5378f35c7cff2e5325bcfa5bee9e6ff917b3a
+~ __64-[Controller(AppleSelfTestSupport) application:runTest:options:]_block_invoke.300 : sha256 ff5d8089f3204eb43b007bda2b367ec2fb7ea6eff9088d0481b0bb306b5b429a -> 3db9e0e5c6e8f1449b84981b6a80351c8bd1613fa4af5739b8cc27c2974ed2cd
+~ __64-[Controller(AppleSelfTestSupport) application:runTest:options:]_block_invoke_2.302 : sha256 d5545583831c01760cd747a566bb7d39097cc7d8699491dd12a8b7004163b1e7 -> 4c3bc0cd780a84630f86105d56e5a3b8c4809565d4ddb9d58d103e0212f40c6f
+~ ___64-[Controller(AppleSelfTestSupport) application:runTest:options:]_block_invoke_3 : sha256 6b6eb5c96a4d2411c0b3e98c31046f59721462bd40b8749b28baea20ebb145db -> 0dd59cfecdc34f4bec2bf6920b00847cf1f1bfa28d23faa5fa18e37f74053b66
+~ __64-[Controller(AppleSelfTestSupport) application:runTest:options:]_block_invoke.309 : sha256 c4296ee872577bac07575170fbe91f10b0c10ee33e73153778cec3dc4eb013aa -> c882b4a56d1de51057847f5086efef9c746ff1df75eb751b78ab9871b727507b
+~ -[ScalingScrollView awakeFromNib] : sha256 aaef0aae2d8fca7c94bfa417197541a74e8d202b10b1e8650d6f67b80cce94f0 -> aab5c4c8a9f59c00c27102662c8b60123fa5f13e8e87be9946cd928a82fd418a
+~ -[ScalingScrollView scaleFactor] : sha256 0bff54c772422a89a19b6bf13552ab76f0a6d13c0d1dc97ddd6709539be7274c -> 2de1af6c1440efb8e2f3c5ece2da54311a38e1e377048b0d648ba202fd3015d0
+~ -[ScalingScrollView zoomToActualSize:] : sha256 a3728a04c4d97d33e0a4f2a29775b0ed649a358e315704741cded4252b2435b8 -> 59c8a128695c1b5e471292f7fdfb8cac6522f3a9075c96ae25f5df6b38ba6cbb
+~ -[ScalingScrollView zoomIn:] : sha256 bbaff47aeae3b3e0a3cd62569cc1b497787a1cfd9aaea75e5224f0c13010c159 -> ba1388272469af20ea6658c3e48590f46d3b8e52f99c009a9bc65424a9dd3453
+~ -[ScalingScrollView zoomOut:] : sha256 63e0dba66b56619d83205eeecc9ad0b3bc06721a7dc6ac484391dd6a9cac30cd -> 326683c04eda38b2a87f684e1a385b2a654458dd34581739ced705d0b28829f6
+~ -[ScalingScrollView preservesContentDuringLiveResize] : sha256 085a4ffc63652d5ba2897da28503f98c9289247024964ae6eccdab4245cba95c -> 46c589a705a5ee66f18b970bf6f8dcdc2a85fe8de12140cc3928c5db59174dae
+~ -[MultiplePageView pageNumberForPoint:] : sha256 75c5bec9cf0a352c5221272d7c438f8e38306c34408c1b0ca864a532a4e8332f -> a1c16e27892cf0c2732697d3e179eff2877a07f514572d683a626b58f400a069
+~ -[MultiplePageView rectForSmartMagnificationAtPoint:inRect:] : sha256 b6d53efc27faeb2ac4d1a1c0e7e6ffe028fdae96facb894c020caa8b94c4b70d -> 119a83e55512f4cec264ba04e53c8486e7a3f88169871311117a168524449db0
+~ -[MultiplePageView knowsPageRange:] : sha256 f5544f7af9f509c247709c127f50b773f837c6bda3a92930d0bce7f2d128b3bf -> c0dc9a50904a530936086f2bf21ee27a88758446b414666422fbcec9700a8a71
+~ -[MultiplePageView rectForPage:] : sha256 567d973bffb9687567ae823e19677ba08321058502be4af6cffe92a471cfd7ec -> feb07035fff785182d3f7d68096d37f9bb595e416c3b01099e1c439f1608bd4d
+~ -[MultiplePageView locationOfPrintRect:] : sha256 d0326050cc3123aaeea094506951bf9cd5f2b66f0ca9b15f0554ee6084d627c1 -> 7356b6abadd20d13bfedcbfea2e552eb370631b101ec0ab5367fbacfa63b4639
+~ -[MultiplePageView beginPageInRect:atPlacement:] : sha256 79b84a12248af173e660e02aed5c0c1f8e2691d3d2c0fe473be32543fb3b1902 -> c3063c0fe45e97aa38b16c3842564142bc84a051acf45289935253b4e503f31c
+~ -[MultiplePageView endPage] : sha256 4029aa5b013144f99f487d521a8b6474931d63d5b373a34a4fcb27ef41a7d921 -> 3f63855b4a1106cd9c32f5e2d5b1e3b55735d553f97cc876f21ad8ada392b43e
+~ +[Preferences restoreWindowWithIdentifier:state:completionHandler:] : sha256 0cf3b4881eaef3067b200b76fb471d42008d0f228e049474f625da8dc12d72be -> 55d10fbf0010afeb045e9e9d2cbee4f23e988893303d4f0531b6b6a37a7738bb
+~ -[Preferences changeRichTextFont:] : sha256 798b43ef7c1eee07e5771fdb54b149f86b0b7b8d2b65ed1189fce68a6f4c3fa0 -> 09da050291aca1547cce9a05aca4ef54839a4596f8070d09328f808bd1c74ad8
+~ -[Preferences changePlainTextFont:] : sha256 a9f3893f7a3c693a620ca86266c8dedfe75b572ff980402f14112564daac6b0a -> 78cf8c8f03ff463c2e0cdd4dcc5997104bc7891883093a454e9605c1780c27d4
+~ -[Preferences changeFont:] : sha256 0ef1257a3e8797508520e04977199215f32719fc83d469fff357c2c5994fb907 -> e128773ba13c34b19ddbc0a09d9055e75598c0f3b7b6d3d8137c190ec3465828
+~ -[Preferences setRichTextFont:] : sha256 62c99e5f53b5bd40c2b40f99ca03c0d615eb2a01f0285912b7309cbed5ba0c40 -> 4c4940bfe595688863b7d7537fd749ebdeaf78623d52f1a3ab114595ceb95607
+~ -[Preferences setPlainTextFont:] : sha256 320facbccd67a0d6aabf841b7a73c156897726088e4c27e2fb01542fa69643de -> cdb497ee29c7587a9e92f93ca32ec3301733db8fe232436bcb73097ff7297eb4
+~ -[Preferences setHTMLDocumentType:] : sha256 c17ba0c282595c7541d7f68b00518847f81c6c23c021b0bc046fc14a3b222d0e -> d8327ba0d1df4a1bcb8928a4b960bc4c66b4136e9f8b29493cf749759d65feab
+~ -[Preferences setHTMLStylingMode:] : sha256 1d56273d98260a9433f6606a73f24a5dfdff136bf212c6e7c48ab20dc9775710 -> 48dc6ecfb48d325ece97a352d3d010785a4cab80fc7e23cee21b92c79b46d5bc
+~ -[Preferences revertToDefault:] : sha256 e6ace1824e0190306bd7be8e486a884b8c3e61c6be04031778c5387c9fb0ba83 -> 3d3a9a46a4accc1ab012756e3805e5c770ef7927596e683f19ed745c33184c34
+~ -[Preferences controlTextDidBeginEditing:] : sha256 720338cdb68d831cd9b5ea4c363973ecbdb0dcfb2853d2778cada5a20863c20c -> 9b24d8ba00120a0b64063f731ee976a0f2b54dbd585042989b7b30bea48bfe6b
+~ -[Preferences control:didFailToFormatString:errorDescription:] : sha256 b1ec4d32d7c26e64a487ef5707e9db3622f625b1a75f50c51b236fd837a885cf -> 802b3b49f24f5147a265d700cfe0629bb2f7a2b8271a1b3f8c6fda1369e8a2aa
+~ +[EncodingsWindowController sharedInstance] : sha256 e0e41ef9308a03e4768514b322249023d1188d5ab8980bd4ff11b9a5ab9486cc -> 3754a79340cc45edcc75b6ff7f109bbb3579fa7de97e4bd0393f457785edbed0
+~ ___43+[EncodingsWindowController sharedInstance]_block_invoke : sha256 e37ae3a0e5f973583342601e8ca2aa36ea92405e9ae49845734a9ab8c44a3090 -> 53c170f58738273fde3f43e1477797ee215f6e1147ab909ae3225ee856ada850
+~ -[EncodingsWindowController windowDidLoad] : sha256 476d274dbb047c1bbc6265275c50d37f3f6f8d1fe436972f54c09067526aca22 -> 34483489f18d4aacd7357cf8ee11224aa4bec6571220b82357200c7b5ff5992c
+~ -[EncodingsWindowController updateEncodingList] : sha256 0bd8c8720fdbdbd6120224bf9b19a95f49f7c6abb09b9c1aec89b9ce9e2333c2 -> beb7012f7d5620a361073d94304e0b6f12a57ceb1e1e60ee5206ab06bbdf0df3
+~ -[EncodingsWindowController encodingListChanged:] : sha256 97d4d4fae20479438008d48796cabcc867fd39af1fc69476868e16e2d64d018f -> 96ef5871cfd969b50a6b1792b635cce95333863fbed133133acb299ab51ca541
+~ -[EncodingsWindowController clearAll:] : sha256 1dc36412c821768f9c4b2e413da4703888860d8249212dc36860f6db2ad197ce -> d344910e079b217d38278310ed55f744860b7c5540666b2f14c20aa0bc2bf05b
+~ -[EncodingsWindowController selectAll:] : sha256 464da0d2b4a141e3e9e3e3183daa9d5bd22253414ee9b6fc0a1589e0550aca74 -> 450d05e98b04a6a8f26f04783d343aa440aa69362b366024f69f46078361e7a9
+~ -[EncodingsWindowController revertToDefault:] : sha256 b8934b37a902986a0ef724d6fa003495e7289581271989cd98b876504f6463a6 -> c7a6fa390ea53310225d8a7e08a389311bfd515dd9738a08c6d7ee5ca264c31f
+~ -[EncodingManager(UIExtension) showPanel:] : sha256 6cbaf1a3dbe641ed174897208e368a2ebb77f6131b678527a49d386ac8e438d9 -> 39ef497b38c1c8620f4bbe04a3158845451b5ace148de3ba6c1de8165d17a888
+~ -[EncodingPopUpButtonCell initTextCell:pullsDown:] : sha256 41afa7532054f5bb980203431ffaf61c25f4d737bdd06a35bd00d1b4ef1ff2e5 -> 32aa70a6171b14b8a3be7717470d0fc28b31d34e31af102b706b3d56a6164b12
+~ -[EncodingPopUpButtonCell dealloc] : sha256 cb133dd0367e55d8fe68034ad73d5dd8d1fc744b8ab20b698b23807496fe41d5 -> 502521ae4afef0c2e828132803b83004f3b64bb53cf5e026aa0b7ad87255bf5f
+~ -[EncodingPopUpButtonCell encodingsListChanged:] : sha256 d969d86a1911e15d08b767f7893c605ac70d219edf660f7fde552385490d3805 -> b062b00325bc54e4de8337f51bd73606356e8abbd0f9c5bcf26ddf82649ff189
+~ -[EncodingManager dealloc] : sha256 a52976c4f56b08b169163a81c85bbb25a6e0e32970c54508904790638d270669 -> a27fad144842f7775e72aa9352ba7ef288f22557ff38294adcaddaec5cf3df03
+~ +[EncodingManager allAvailableEncodings] : 312 -> 308
+~ _encodingCompare : sha256 a8cb24ff35c9a780bb757c3bf6b4cdd70e23cb44196c88d7b281bfbc35d882d6 -> 742816d185efea4c23e6d8edd8c76346a64db084d27412c42d9b47a27868e236
+~ -[EncodingManager setEnabledEncodings:] : sha256 81b46affef47deffc983c2e787adf28d733fdb68d5e3e09ccfecbdb068ef50ab -> 6964009b5a044ecb9e180814c4562aafebcfcc2d42cfdfcc4587901b81e8df98
+~ -[EncodingManager noteEncodingListChange:postNotification:] : sha256 82308dedf5c862a1decc3f2359239bf49cba196cb987b93964418b1d0bf2dcec -> c3e688ce17e07cb5c772824951d96227da9464740cd43b3f074f8d37259207f5
+~ -[EncodingManager clearAll] : sha256 60f50ce32ecb080c388eb0e4f840a6bf321bf6d34e6f9d3ea9f1ca4e815fa6a3 -> 84cfb4f96d9bf76596dd5608b5a8e4aeed3ee328ec4103bf95a8ffb93ec56fe6
+~ -[EncodingManager selectAll] : sha256 661076231254d826612c610a35ce640b8334780fca45092c402e370f7155c04f -> 00f0ca796a2c0f01e3dc3dcbe97ee96ac8585a6e795f33a4df9b06b817c7303c
+~ -[EncodingManager revertToDefault] : sha256 e94df5262d81f344899ad32225c7a0c1e9bb6a9b4669baa67f050db0d985ace3 -> c67a4b8560c73455f05de84fed56425c07789305bd9532a49a7bff4e93d6df31
+~ -[DocumentController dealloc] : sha256 189328484d625810dac374f1866ec09741330d3c2aa63ca5e5631d29ef349830 -> 1f3d55a04edd3e78b384b94d90c19011b9fd2ebb59b7210b8cab75867c7efbd0
+~ -[DocumentController openDocumentWithContentsOfPasteboard:display:error:] : sha256 4e455c8bae7e0009fda778769c7154a35f1008880971cb583885c0a79bb2b8f9 -> a5fa66146301b0435c02d4d0e14c7608dd221a966cb0a999f6ddf55a9d1bbc4c
+~ -[DocumentController replaceTransientDocument:] : 712 -> 708
+~ -[DocumentController beginOpenPanel:forTypes:completionHandler:] : sha256 8caac6f249df281fc3f137d2620f7b594d92895bfcc10602f0188073002bb8d8 -> 43f1b6749c9835774495fb2c04026d02c160df2a407c4988bae0827d993354fd
+~ ___64-[DocumentController beginOpenPanel:forTypes:completionHandler:]_block_invoke : 476 -> 472
+~ ___copy_helper_block_e8_32o40o48o56o64b : sha256 0d7091f875e79ca3c3f6654421027881c4effc9310df3f31711cb39f9a3c6d71 -> eedda208fbea41e0fc4a7543a0b4796864c656cb30bf2b5b7691397842a925ed
+~ ___destroy_helper_block_e8_32o40o48o56o64b : sha256 1aadc14311de51cfd3b45a80a12f692fa220bb7c3c64c35d0315b8e55ada7d10 -> d9da5457cd15375b0c379e18c224401aca63c5224c9430f940392c2ed2cdb3bf
+~ -[DocumentController newDocumentFromDockMenuItem:] : sha256 bf47e14f207c27a06d0ed1dba6c73c09d30a5915c6fa6de15b2ab3ff0b7b8056 -> 8280066685bc9e9da8678446d0cea8dfa5c42a1b56ad7033131713c97a9e3e11
+~ +[DocumentWindowController usesTextLayoutManagerForPlainDocuments] : sha256 8b0b24c03a63277bb50e3830ccab5eecba25f19133093b8058b554d0856483c4 -> fc0c23f9678ef5c659e767de94c65fe4ef1a0eb9aa147fed21bfc26848c21422
+~ ___66+[DocumentWindowController usesTextLayoutManagerForPlainDocuments]_block_invoke : sha256 dff59d81b3a0760e91d5e53a9cfd3310d3876fe9fb8fc4fbb46cda636dcfa6f1 -> 5a39a620724de21af5fda44125701649fd751b00196bb72b294cf8c759088576
+~ +[DocumentWindowController usesTextLayoutManagerForRichDocuments] : sha256 f976a5bc51444559929489422fc3b04ad0522f91ad3df71a36c02bbafabd483c -> b86823d91ca0fe4a7faee0778309d0322c6926d414d27988c7200896b6bfe186
+~ ___65+[DocumentWindowController usesTextLayoutManagerForRichDocuments]_block_invoke : sha256 465d4fdfad145bab1acb44fb07485d4c908d6d0d32b8ddc4d4ee2e46b8f0238b -> f04edcb96264c843ce3f93ed741bb24713819c2b6aed4a8020606331436f1d98
+~ +[DocumentWindowController usesTextLayoutManagerForMultiplePageDocuments] : sha256 453f9eaca6b7d82ecceaf808282fd25056d7efe40c77576ca4d4de87aebeb1e4 -> 1bedccf543644f28c8f732f5eb493910e9049e5f41f1a730e582ef817fcf1277
+~ ___73+[DocumentWindowController usesTextLayoutManagerForMultiplePageDocuments]_block_invoke : sha256 2fbb48c283d62ba5e72220e5e0097b21167a325407304faf926453ccd026fd67 -> 6178bbe12c967b05b57e55aecdb0c6cbbdbc1ff5d09da77625d5d774ca2e4b06
+~ -[DocumentWindowController usesTextLayoutManagerForRichText:wrappedPage:] : sha256 c16670c3058131474811075f26ae7dd06f0bb5dd16b479e16449bf31bd3e080b -> 04cc7d50ac6380cbf2316b5f5a7be716b7764837aeb561cc92256472da662981
+~ +[DocumentWindowController includesTextListMarkersInsideDocuments] : sha256 3593be851fbe923e74f2aaddca1e752a214b1cf9f5ae189aff58940ab50f320a -> 5d2d042af462e573d675ec3a5f636d64dc19ff288d32f097f23a874c3b39d2a8
+~ ___66+[DocumentWindowController includesTextListMarkersInsideDocuments]_block_invoke : sha256 b42a124ed11ddd268eee10e1f8a9aac09eccf4f442ab6e9c0e012369931067e5 -> 8961f76409efdd31af922e0b90c9cc0c76a7b14a60f3afe167752ce8be5e8da4
+~ -[DocumentWindowController usesTextLayoutManager] : sha256 d03c936720c863109d498cced0c9f61e15eb0d336574026feb38cb43227b3e39 -> a77b361e4427ec61f9e3b2b42ef839b2a584283ddf14d3bf1e7a049d8c150df2
+~ -[DocumentWindowController _setTextStorage:] : sha256 17354fa4c9b44b8fd4b812be3a5a6d1ba6fefbfb601debf2a16dc72d76748b8c -> e6e423beb7baaff3ec5e9c5bce8511fa1a76bfda8bd51065f98374c8ac4b8f71
+~ ___44-[DocumentWindowController _setTextStorage:]_block_invoke : sha256 080ba4194f7b57ca4e5eb0871aefb479c66869202af4d1d1e731a78ec6a9d554 -> 9c989d5b69015777cff62366bf28a2befeefb9913cc0e397d9fcfa70990c6575
+~ -[DocumentWindowController _createTextView:usingTextLayoutManager:] : sha256 759c2bf671cb401dd14f238acfae2af6d99f6fae9260df0ddd416f57176ea4a3 -> 227e96719e5733566a39b520490a46e7ebd1972fc40d98359efe39650a7893b1
+~ ___67-[DocumentWindowController _createTextView:usingTextLayoutManager:]_block_invoke : sha256 58502c9147527db50cf8bedd839d53eff5af163edb39ee01d9f3bb7925e029a3 -> 39e90f898d84ca7433212a48a076946006a68c712bcb14df729d30002b8f7ff8
+~ -[DocumentWindowController reconfigureWrappedWindowTextViewUsingTextLayoutManager:layoutOrientation:] : sha256 8f0e6792550d52cc6aa273de664ee473102864e89a39f3b3be6e790696fc682c -> cacde6b1e1466b2790796b96793eee57e57abc20ea03b3fdfa8adc4d48f0592e
+~ ___40-[DocumentWindowController setDocument:]_block_invoke : sha256 683d1a506be9b03debb5af99894235fd7d377afff6acc8f07b93dc700c7e248a -> ee652428a23252580825a8ce9c8bd7b4f0cfa9e13c92de9c7dd31ade3925738f
+~ -[DocumentWindowController firstTextViewUsingTextLayoutManager:] : sha256 05e889ea713eba16f46085bdc559a6f4bace5d11b01386919bd796d6d806825f -> b6ec8acbf09298ea1b08275e1573422c8b5d0594f6ef04a3ffba9aac24455b41
+~ -[DocumentWindowController setupRichTextDependentSubstitutions:] : sha256 0c9704e4803951ff94f94d79f6067f6a189fa5ade689cf8d50ee5d249c3a7a63 -> b85a023c4ea3cec1b7c2e65052f5f5d587a4b4e1f1b79b3c671b95485f92c0c0
+~ -[DocumentWindowController setupInitialTextViewSharedStateForTextView:] : sha256 f26d89729458203d61e42e5a36443fe9b19f44e94e6a3638e5460be643779a3a -> 647dd6d1835e075c90864f2ac828664c70ba22c5ce2029cd5ee4f4a79db16933
+~ -[DocumentWindowController presenterDidPresent:soContinue:] : sha256 238e19f1e6fb702640bd93c5c38ea7d21f0b6491d54bfd6e13d5a59ee2dc5555 -> d26056039f97f7633fbdb48e12169dbdb4b6e3b388ab626fb962c93d8812a5e5
+~ -[DocumentWindowController chooseAndAttachFiles:] : sha256 d34c9290143d4ad250327c628cfd7d0c0eab4acc0ee8e64cf635cdedd37ae7d8 -> ced3493f02bbbe1407270d463f041bfd5009d1172c969d57ca568246e5d08281
+~ ___49-[DocumentWindowController chooseAndAttachFiles:]_block_invoke : sha256 a5a9c5de53feccc00d0099eb91b7aad2172141bf6c2018d1c8aec2201820d571 -> ebe25dd4e40de36bb5c36e16e228f62d80c06057b915335c71683950d0b7582f
+~ ___49-[DocumentWindowController chooseAndAttachFiles:]_block_invoke_2 : 1004 -> 1000
+~ ___copy_helper_block_e8_32b : sha256 5e761130c8786af7f46e4cb77881be1ee278fe43d22cdfc8b375ff55c2529e64 -> 0552455f1b51a6d02d2d940b06ee4afb460cec1748bcdbeff4e1c76fa08357ee
+~ ___destroy_helper_block_e8_32b : sha256 153b4ebbd951ad46458b47b2f76e5c4784271fe9feed705f9e2578f616e0c0c1 -> 7e161d4e3f44ce67a04b7bb76201db3a195e84e06e5cc84a7178d69d4a029915
+~ ___copy_helper_block_e8_32o40o48b : sha256 d243fbe6bcc8563d9bb4aa49a17ecd61ad87351f3bfa6237bead9d882ac210b5 -> 3e3330cfe92cb0e08e0b77b661cef339f5270c89b81ae2b2f94eaedb96510873
+~ ___destroy_helper_block_e8_32o40o48b : sha256 ca9e64c5620e85b3752494c3e54a1964b0acd6a3b8f8f37402e4f7979f9610d0 -> 59fb98c93ce47195411e8d959954a6539f57d99e959f9fa383e753e971c5423b
+~ -[DocumentWindowController updateForRichTextAndRulerState:] : sha256 d4c605ce837316ae909fb09b60eb4e146b8db75c37e870c69ffefcc2969650c7 -> 9ca7c37fc51297889b1811c87fa4398f17f2bc168b34d7388463e8300b8800da
+~ -[DocumentWindowController updateBackgroundAppearance] : sha256 f6fc50f8075c2c08098ae8ba425140e7805fa66d7755979f1cf5753493837ef6 -> a8f87f829ed23c466035867227bdad59aeba11b0f6544800ecc2a383b31b6778
+~ -[DocumentWindowController convertTextForRichTextState:removeAttachments:] : sha256 ce1332299929439b436df1e3ad159477946e6e316c78fd4f1730484d47210e5c -> f75a927f32701ee2e49a38a82339e69f10f0a2b7c6003287d2e9f97dd76144fc
+~ -[DocumentWindowController updateTextViewGeometry] : sha256 1cb4ab636c3d533b1138f2b4e95a6371e8c4b7b84397aafa7956c62474e61f46 -> 496bae9862c3407f967e408e524ff92fb501f9f4f03009271cfeb9588777dd51
+~ ___50-[DocumentWindowController updateTextViewGeometry]_block_invoke : sha256 e8a3491611c8e544a4bb4f1227ae690a559a74c648d73608b1a30dbbb1861f5c -> 8b75ec48e89dc93599f6237d4849d3ab0979327a3347dccf6af601206a69eb67
+~ -[DocumentWindowController setupPagesViewForLayoutOrientation:] : sha256 033dcff24dbd414287203dcd360e8b6050bf8edfd7222717f6ec41bfd1e845c9 -> c6b01900415eb808e0959ef384f794c7d04f61d9edf775992b560d447b15d9e8
+~ -[DocumentWindowController textContainerWithSize:layoutOrientation:] : sha256 42df01b3fa0d58437b40a4094a1b0c2c53fce7dbc9418c14ce1cc0e86d6983d1 -> 2bbebfc04dae39d4df581c2a282968a148fcbd35f72271b8e214235d372f0c05
+~ -[DocumentWindowController removePage] : sha256 710baa81f39f92a8b91d2884ea4322c8e20b2433deaad9c32c43e969e4602637 -> f6bc87047a42217a4551e42b1836d095487463edb2cf64be689047d865936470
+~ -[DocumentWindowController documentView] : sha256 14db2f7eab44c0d387ef154a1619f1af8c1d9147ad90601937c6c9d7819850b0 -> 96f7fdec4b45acd5df295f3e48044968a49ae994c3d5d672146fe95308bb2ff8
+~ -[DocumentWindowController configureLayoutManager:] : sha256 92d4a4b104eacc8b57f6ae2e0b365bc0ff8b0c846c991c7632bef5d1358b5fc7 -> 041521dcfe5d9e6ce1e65315b95e706574e8257b06ae8b61ee8a162160a1fecc
+~ -[DocumentWindowController textViewDidDowngradeToLayoutManager:] : sha256 201073d71d93176974789aabf3d36435c9ea45ef697a8f67f88342b84799fee7 -> 1e39fd91a9b169dade21cebc9c2f87603691b351cd4d5a4897072ee2efa276c0
+~ ___64-[DocumentWindowController textViewDidDowngradeToLayoutManager:]_block_invoke : sha256 66682dd44575508cd7adb4a9681981106d42f62853316e4faf5677c01754834b -> 4cc4f98c6d68f2cbe65864bf934d4e100ec75f817ead228447e31b76e8bac665
+~ -[DocumentWindowController unusedTextView] : 296 -> 292
+~ -[DocumentWindowController restoreStateWithCoder:] : sha256 e58b3a01bcde5fc3cb92e86ece16962fe47fc2e0880dbd8a505d8a02c6213333 -> 3507e472b8372743270a1bdea1a36a2221f97e3ecf85c20515ff04e4f539c81d
+~ -[DocumentWindowController toggleRichWithNewFileType:] : sha256 270618af27fa5400b8a79e268ba7763e44b00b8ac7123f176ea5e1dfd70946b3 -> 97fedfd338c97432d9f58eb0fa497490994d1b227fc15e2ca74d9db6e00e1544
+~ ___54-[DocumentWindowController toggleRichWithNewFileType:]_block_invoke : sha256 0684b48b166ba767fb4e99c91bf751d5cc86764535f7085886d21e2d6300279f -> 0c988b1824f6b3c08f76bd697527abcd18b2af9b901920802619077fe6ead44e
+~ ___39-[DocumentWindowController toggleRich:]_block_invoke : sha256 d9122106bdd94b2d5b8fd54b1e17424c54f7eedf31c515f34bc95e67e77d30f0 -> 8c6d63fc998e9aa6fafd7d0c82d8d841dfbf05868a46025da174d23d4de77094
+~ ___39-[DocumentWindowController toggleRich:]_block_invoke_2 : sha256 392648548f8977abbaadc9f492d56480e9704324c443128b8ffd311b2204b2ab -> 5f71dae473e56cdf308c78df15c29e5a6cd984af60035809b73faab26d805398
+~ __39-[DocumentWindowController toggleRich:]_block_invoke.225 : 36 -> 32
+~ ___copy_helper_block_e8_32b40b : sha256 7f5e7e4a49c399a9a4673757644f6fb1820ae60cee1a8f243d773f25f07852ec -> 03eec8ea537f9f4b4cc6a68f2079ffccf7bb0a47de57dfd77bd7cd0c14f4aec4
+~ ___destroy_helper_block_e8_32b40b : sha256 7ce7c8744e2c8b6ecc241bbbf1df7724234a9f533ce93335a84a4a23c1fe77af -> add2f854fcbe16f14e76e1dfc98e0a9e3e1e3c084d68e18696cd0fd8a9c6e127
+~ -[DocumentWindowController toggleLayoutOrientation:] : sha256 43eb14dec6194f1b23cb9881c0a8ab475e4ef0bf879217d348f73c6a9afbfe88 -> 4b898769b4a42910d2f02ce489904e0c5901d8dc08d10d2afa99a01f9185ae81
+~ -[DocumentWindowController(Delegation) textView:clickedOnLink:atIndex:] : 684 -> 680
+~ ___71-[DocumentWindowController(Delegation) textView:clickedOnLink:atIndex:]_block_invoke : sha256 e4e3a1ae94e8c8d9284e35d1f162b9d06afc4bdbcfa1dde905d30775ec0b6469 -> 83aee1cdb21ec218abd175a95bd74ea409f97016f97c674d0673b6b564f34ba3
+~ -[DocumentWindowController(Delegation) textView:URLForContentsOfTextAttachment:atIndex:] : sha256 6fa920d331154737f3233ce202c659692bb36da63fda68e7987ffe10f52efc45 -> 72c496d5f7c878d29c7ec7e7435a111b147251bd959fa2013dc46e88d1195644
+~ -[DocumentWindowController(Delegation) textView:writablePasteboardTypesForCell:atIndex:] : sha256 4c6e8b88cedcd371e6fa67fb3fbec87c3be4c72cb221797769491d4c435e4370 -> 392109e1c52587175e494f513607cfe3070de46fb068cee176c42236987bdb62
+~ -[DocumentWindowController(Delegation) textView:writeCell:atIndex:toPasteboard:type:] : sha256 389fd16fccb01648df1cd065ad7f0bb05c30057cc6efce5d1787fca3c507c824 -> f1fb2c0cd4fe7847cd43ce83e1daab9974332cb3a2f4d221bd47ad615afa0632
+~ -[DocumentWindowController(NSMenuValidation) textView:menu:forEvent:atIndex:] : sha256 d61d4f4b67ed89926df5dcdcea264db58027a359d9c810a72759d94a0831c437 -> bee1acf095edcff6cd550e81d8ed9b6abb4d754cd1cfc76f1eee419a0c82ff9c
+~ ___77-[DocumentWindowController(NSMenuValidation) textView:menu:forEvent:atIndex:]_block_invoke : sha256 d66262cd627cd6b56a9df71cd4644ee9d373cf14c3467e35f3f32ad55fdddb6b -> bbee0262a187c61e1527a1e15783f6ad1d8e5dbd61777ed038f8f3297510ee6e
+~ ___77-[DocumentWindowController(NSMenuValidation) textView:menu:forEvent:atIndex:]_block_invoke_2 : sha256 a8ac326f37299752e1170cdaf8f819831b6ddd6bc427403fb5be57095a3f61bb -> 7b55e0e1f9c2c5a3f699d19e7b90b1e42120bf0be7b7eadfd738a5cbda907519
+~ -[LinePanelController windowDidLoad] : sha256 fe7963b345cb49da981007d1f6a843efe5a8bcee75a948f9a1af8a0495a1958c -> 71616be048b2fd4bfccee2ca98aa0b2a6921fbdaee9e5ec3ff23c29c8c8edf72
+~ +[LinePanelController restoreWindowWithIdentifier:state:completionHandler:] : sha256 e7747bf3bb6261cd0106c5201b793bbdea0253fbcd72c9e4ba39b02f128c189b -> f528129e2f63472a250bb6eb38c0ae89988e42d17b999fcf6050d5bbd281ab5d
+~ -[LinePanelController parseLineDescription:fromLineSpec:toLineSpec:relative:] : sha256 8fef98f88eae85af7ba17a16e33ff637c5bfb64413cd994c564c43c0e319e7c5 -> 87a2fd9eb66911504e79b6a4ce87ec7d1ccaee99a1c25c6f3b08d6f26b4de39b
+~ -[LinePanelController getRange:inTextView:fromLineSpec:toLineSpec:relative:] : sha256 611f6d38b4e5a3b6a7d9fddd430cf063860549e439c1d5933c3b252f0825c02d -> a9c118504d0e42bcf32f6edc3465b99e9e2da3815c69a632b2dac3268f551180
+~ -[LinePanelController selectLinesUsingDescription:error:] : sha256 4b32704bc99fb95e18774cc279696ed959927cd952ecd108a2ea546787718e29 -> 915812363674ef88f0e85abe0294e6eab6f7ad913ee0608d81f221ad851b08ef
+~ -[LinePanelController lineFieldChanged:] : sha256 761c477b650b4e0d8acac5c295ad1d53ca3425ac29605f1647ba807dc5f4c657 -> aa4d1c4daa752b4b7984ce062aa10f778c67df522292e5ab0942b9f088f4d1de
+~ -[LinePanelController selectClicked:] : sha256 78cd9e83d25788d626505146bca8f9957ff51793d447324421e797b176dd2163 -> fc189954c8f3d053cf88fc932badcb916012eddbc8aef1cefc10a63e5c7775b0
+~ -[PrintPanelAccessoryController dealloc] : sha256 1953f75035935bf5e652ff13a6440fc1004b67e1b7719c8a29176fadbef8ac67 -> 60528df2b6420e2f3edd7b94b3e700695645d5011c99e79fc8c584a85959c065
+~ -[PrintPanelAccessoryController observeValueForKeyPath:ofObject:change:context:] : sha256 41f0e5f83aea8cee0afbd6b13489c4989f242faa92c406bc6780551f25e4a42e -> 80ca15eeb33c42925b79e948eb0f4c35c7da0a044829072e1275e984bc15a7be
+~ -[DocumentPropertiesPanelController dealloc] : sha256 da5a4975636ec8ecd78db89f8667d7c8d47d57e8f04371877bb4008b8a5ee492 -> ac9f918d787df898ba1b8377708df57ec1864c2c259e6cd61a5ba8ffa1526e1a
+~ -[DocumentPropertiesPanelController activeDocumentChanged] : sha256 e03c07df2cdae8773ac6268f081f2063ddc244409483c389d7524f276f692607 -> 2a48244dd225ce8d4ab78e02f193b27b6da0a2873c8486ba3c3154ee26331e05
+~ -[DocumentPropertiesPanelController observeValueForKeyPath:ofObject:change:context:] : sha256 247daf48a86ca04a4bc99224949da1a975988eaf61a061e5ecff0fcdc2d5dd35 -> ee56870dbd7b50b2b84b2b1e6fb1f62143818952b14ed12c63d406891b98bbca
+~ -[DocumentPropertiesPanelController objectDidBeginEditing:] : sha256 2a441c33a1c445b1e2b8bf216e2463891fcf8929912871c41455a05ff841e8a9 -> b5c6070f71232f58d81d1991a16b7443cefecd036cfc6d91ca56d5010af5719d
+~ -[DocumentPropertiesPanelController objectDidEndEditing:] : sha256 797b7a5e2e1d76c67ac6294beb7748e6ff8f00dc116b0b7118d12056fc23e0ba -> 639818c791b2e6b03ec44d537ee8ec5d23c66e1782bc17c2ea596c7587cac725
+~ -[DocumentPropertiesPanelController windowDidLoad] : sha256 9aae1bd45a15868a32e945d9bdf90c17995b9d1f9070da9f7817d6a4b0c34411 -> 6e0b367030e6c2491c383a6bfc39d1e0e2f8a1e24aa66a3e0c3c0d42610f2577
+~ +[DocumentPropertiesPanelController restoreWindowWithIdentifier:state:completionHandler:] : sha256 8b787f3575dd95c70a3f17ddde5aec63f2a7915e34612def1ac40c0ba389ce11 -> 458371220eac370eceb4459da9093af1fa7ed941829c911bb42e33c642a047d3
+~ -[DocumentPropertiesPanelController documentPropertiesPanelDidResignKey:] : sha256 891931fec88c15458a32015512ecbfce98d4dec8bd1dedb2e894e0384f4b610a -> d931f2fa858676873dc6e08fe7ec4abafe850d979b26661d237ff09394c890c9
+~ -[DocumentPropertiesPanelController toggleWindow:] : sha256 ef83427e7148c5bd860d2593ab501f1f2309ea220c57293e3eeb6f49c090df78 -> 7c0d704749e3e9e84464c89f1d00561ac20b8f7a062e7cf7cb5c3664ecc51b3d
+~ +[FontNameTransformer tranformedValueClass] : sha256 f8da8e0604bd73b1b83d1f0a4e783adc814a86ab1d042df08230dd971bded2ff -> 1b88a9ca03fe5f93c92e121257a7c114046456d6c7cad08a17aec58915f18118
+~ -[PrintingTextView dealloc] : sha256 6d0203ef8f2bf9434d7bf0337fab0cb85b585c2c3e48336fcb7a964075861282 -> 92b2a168ccc7a6cef1c1dca5b2bb7fedd01c2982a7dc2ec556f7fe3e84204aad
+~ -[PrintingTextView originalSize] : sha256 0ac47b8c1105f689ad171fe4c53efc19e8d8bc62f27890c268b28850989f5077 -> 45ef5b565206645662d23601b1f88d8a409051f8abed20eaebf27eed59c674e6
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C10pageNumber33_E7AF2F6DE1FD2F92654F83C21E9E0266LL3forSuSo7CGPointV_tF : sha256 3c0ef32b77d37560ce543f1cabc0199662cbbcbec8040c450e75ccd7d79bad9e -> 9719d518d15f31dbc95de5dc7120757353837843b2470fc7bbf50c26f4957d66
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C9printInfoSo07NSPrintI0Cvpfi : sha256 ea032fef9c4c462c54385c86d93807824bb33772c9964713e6468d7efcaac83e -> 6bbb3d746546e25e1a5ceee7a114511e11d2fa36c02286976268e668eccb7da4
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C9printInfoSo07NSPrintI0CvgTo : sha256 6ed361422fc1a7bfef973f48198e031cf33f8b9284055ce76ba32e3c37ec9135 -> 597db27d08a7c4fd1a2151d72f4b39d25e50f5f936138feb3166b45477fc162e
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C9printInfoSo07NSPrintI0Cvg : sha256 59ca11c49aed4063fe7a895b4e45be1d8e8a85ce45686110fa71aa6e8c7059af -> 1107c964fac2e2ed7af4c7f28a73e9efff0bb8040ccccf82e6b2205c7919508d
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C9printInfoSo07NSPrintI0CvsTo : sha256 97d45647d9d4e5f7c74f5ca2d01f2f4d5e90396ca4131be56e2d5f9c96d22eb8 -> 439ee13a09df47c21b75e119d5bc39e4dba7f97fa40bee3595a4d12e141051aa
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C9printInfoSo07NSPrintI0Cvs : sha256 5be7f5e605005811f39d67c024998e92964dbb48c0e11ab0b549f08b7f5eb785 -> 8068006182bd0956cc8f970080ce6b50e1e3be5692bce47f506cebc1d0971f81
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C9printInfoSo07NSPrintI0CvM : sha256 d572aeea30d9a4be923746328547b93edc59b80c11ffcc34417eb70ef7046f27 -> 9e3e414a09e6f9526e90543b346527efc8d6176d81c9779eed9e2763ae56aca9
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C13numberOfPagesSuvgTo : sha256 6c457fabf7bbfae61b394125537892e3b4d8dc1f7656a70258feacbab221d755 -> 794756f21544ba99eeea850582371925f3b0827e3e5fcba732a4ff6b3f5cba24
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C13numberOfPagesSuvg : sha256 20f941ead9e9ccf916a1a7fc5ed118660027c0449f31a6a2af809cfc4b9555d3 -> 93b2d05230360b594f8b5b52f1c53b47fdb10c7e36fda979916f8f197e460931
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C13numberOfPagesSuvsTo : sha256 a7881572d3f593fafea800ae0714913c39e39792efef345ec26154b0b725c925 -> 75abfd4c3a73895cbe8bbdfd5367f29a00b4634fff26281b67c2afdd98c4298c
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C13numberOfPagesSuvs : sha256 de9f46f6517f7ac9d5aab884468895550a86a0d68905472ad19af2bb14a1e72b -> 0b7a44f44c2b3a6e5ee3eb1c2fb157bbb52a706fe6186188e2b463faaf192889
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C13numberOfPagesSuvM : sha256 36c0ee9139ea458eca9786f35742140bdad6947703d7526163dd0988d647b176 -> 946cffd2936261fcdee4aead69f49a56aa8d2cc4bcf37763c2bb6d7661d8f4dc
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C17layoutOrientationSo012NSTextLayoutI0VvgTo : sha256 7ce1f57f5b8dacd6cc2a7eb62c20d008fa78b14c469e6ccf5981a96689ba184d -> 05bb7998be1e4431dba4a2e9c7d22301fc19643abc9326be08dc57d592cb4fb0
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C17layoutOrientationSo012NSTextLayoutI0Vvg : sha256 34c721338dfb626a26ccadb9a23fb1d58ab8b545bfb98afa161c04c7910790be -> 2e163a746c50b258da23cb69d8e06d86ac3ef133ed138cc9dd2c5607d640cc65
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C13numberOfPagesSuvsToTm : sha256 4c815748c65ac91b0ee357fa0a8dcfa61ea8b5245927c7e7bbde407af8d80f68 -> c9576aba0b13f7fcf76b5c8e5eae5d647ef0ae0faef669cfece31158a27b9131
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C13numberOfPagesSuvsTm : sha256 332708b25b7712ca26b986348a99aff0b5750e7459878a6b6ae65c7cb03fce7e -> c3354fcf5729863c95d0b49723912747bc29b0a1eec2dadb4d51931146c22359
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C17layoutOrientationSo012NSTextLayoutI0VvM : sha256 8921e43cd46c6a377059ab32b1b19179d7472368a45835a079becc7707996aba -> a92c953b5062c66bc8e92ad0304e6fb9682d540e4b75d89cda31bf1721a52ff1
+~ $s8TextEdit019MultiplePageViewForA4Kit2C9printInfoSo07NSPrintI0CvM.resume.0Tm : sha256 fe7dff877509cee541d776f92674fea32d96622bef772b18bb663593bc39fe3f -> 264a3b8b0fc59300ff7825cb63afb589e795ecf02f7966d155f124a67240596a
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C014documentSizeInD0So6CGSizeVvgTo : sha256 0332bd6c1a698aef1e8be72be01f576cde9d26cb315171d21ea20814ebbc25e4 -> 06ac1616e2b4f062d273d334da8181c6b9969eb85a40d36e49295dd12a2f76ea
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C014documentSizeInD0So6CGSizeVvg : sha256 713b99ab96e3ed62737735d94b5d3bb158a2c3c52bad80988e771df657c4d5d1 -> 98e1278be75b3b63a6ead45a78001bd3ef909b1df8a54bd0a94a529767467a91
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C12viewProviderSo6NSViewCSgSu_So6CGSizeVtcSgvgTo : sha256 32c0c318d730a20bec6feca43819dbcb898db9be498068a6b17d25bd6e6ff59f -> f3501992a443f3cda19da8c69eee8e7cf1a72ac8bf85445d75ffb955befa4987
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C12viewProviderSo6NSViewCSgSu_So6CGSizeVtcSgvg : sha256 0b47ef291b436299128ec752927bf2f047dd4b5cf4c8078c653eb9ddf4168402 -> 4beafa4682a2cd12ba34b88690d6b41554e316daa6a7ff9eade99474ccbf6542
+~ _$sSuSo6CGSizeVSo6NSViewCSgIegyyo_SuAbEIeyByya_TR : sha256 e700cea0efc4086f48759bfffe1be972d5699699001da07bc3b3367efc9fe5de -> 85755a991110be1486cde4d1cbfade05185e9eee887f4c810ff058134e3aa0c8
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C12viewProviderSo6NSViewCSgSu_So6CGSizeVtcSgvsTo : sha256 d6d0283df80ea38df5dd9b4f0da6a5b29d5ed008e0608c80bd52b514d0fe7ba1 -> 0f8069408ded3abeb1a0b32f71d355bc2884062adcd0d1b6203f3e9b7194e35c
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C12viewProviderSo6NSViewCSgSu_So6CGSizeVtcSgvs : sha256 27234ac24b3f6ba51b4e0b62163dbe1d00032d7ec6401395fb9b5a5ed751ef93 -> e7531967657f4a7780014858d73f4d1b7e5d622758ac274c51c261c9cb351541
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C12viewProviderSo6NSViewCSgSu_So6CGSizeVtcSgvM : sha256 68f7cc8088f69251c58c695bfff2dd14e661b310e66e75e32736bb4bae1ad702 -> 231368aae21e5d1c2372b17af4c524852f898a4b9916f1992bf16049cbddec4e
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C13prepareLayoutySo6CGRectVcSgvgTo : sha256 4ac80b9dc875079d03c96d9db3bc3f8fc0f4c6ba985d832866f54d0d4efca0ee -> a9d4a8f7c1cd8949f919479803ffe009904b154ae92b78ccc493a1a9e2c53f5e
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C13prepareLayoutySo6CGRectVcSgvg : sha256 f31023d2a07b449740704ce98f88862d2260ada8c3c31a8892579f013b166406 -> 92af2dd127054c6c3c8d95dba039c5e75446d475e1a0300e966d3488773cfb62
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C12viewProviderSo6NSViewCSgSu_So6CGSizeVtcSgvgTm : sha256 2d03f4a454bdac7c14e6102b7e099d4310c9538310f361ace8eb5f3fc94b35c5 -> 37dd5367bb02d78cad4323013d4e7693d847d6dc405b213c12a85a80a8ddc277
+~ _$sSo6CGRectVIegy_ABIeyBy_TR : sha256 8cd04102c37045446698e004d165f38656708bf8aaca2e50387e673e5d2a9529 -> 75566369cc64e26e8ab7459942e0455a98b54013dc59bd8db9953c9c4007aca9
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C13prepareLayoutySo6CGRectVcSgvsTo : sha256 3b2cd2d17ae0628e7c93d00e224ff0f15cdcf127f370b5191cf4eab985da6941 -> d30aad0379f5a36f457e6c5c14baf088f93fd0b87c00cfc9441ce95b9a982bad
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C13prepareLayoutySo6CGRectVcSgvs : sha256 b8d884c64fa3d0ee2b83deee47f87f9bf974d862ebba8393ce42c5921c1dc566 -> d215022521dc53d5b75ffdc98de4fc76a6ac3c6ec73556c9d5e709d0efe3f8ad
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C12viewProviderSo6NSViewCSgSu_So6CGSizeVtcSgvsTm : sha256 e6997d9964dc04654dd6bf566bfbb8c1de1511d0174f87dd3e2a729159b8891e -> ae051f9688bce32128bcccea737fbefcacef3dddef76f23bb5c66e084d152e40
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C13prepareLayoutySo6CGRectVcSgvM : sha256 c7f05156cfe67e2c987f011e7618302bb54819a40b8509a05f247ad6c6627e16 -> 517ae65b63f377403e8c0584b04e93784cd878dfc9961be18b31a2f5efd4ba8f
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C12documentRect3forSo6CGRectVSu_tF : sha256 b9585cede72d8a76a0d4169aaf7c6c889b4c2343cb3456aafc04f9e254a50735 -> cff6e65d16dba09c1ffc9e2dfc2147a8c3fa9e6a6ff0ef011f4d2f309a6f1c1c
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C12documentRect3forSo6CGRectVSu_tFTo : sha256 ae00c5b895d583752b99d054d4bb0dbf647d051f352276ace7bdc124594565d5 -> cb7eba2a3d03e24ab1c244fbb82e4082f4d29f83be46f1a78b2ed851426ba5dd
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C8pageRect3forSo6CGRectVSu_tF : sha256 63c724b109aa9eb49976dfa9c5308edce5b55df2e855be9de6dacd8272573f56 -> 2e44fff4a4845c4ea0ff17a49cfa95285529ebadddf687fdf2591c79be4ab6f7
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C8pageRect3forSo6CGRectVSu_tFTo : sha256 83e7f6040da533e90bd981deaae4e853699be841cd82f91400a41ffe18ecd954 -> 37c4eac7643485727a2e34d9bf53f5e53fa1fd51e10e30ed18571b1925fe38b3
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C9lineColorSo7NSColorCvpfi : sha256 8703c7002fa5ca2e08155e1584652d43e77fcb04126a5485c495f13f2472f723 -> a43ffc4b64a49754b91cd4118fba33b89e319125b22e79f15359cf6f747416d3
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C9lineColorSo7NSColorCvgTo : sha256 36f7e488074d3a0a8b933fe3b0552f0eda51ce0a3b23554116cc1006808a7c64 -> 9e5895a04a0f035c0b85ce52b862df8db9394a605fb981bea85b4b54b14fecb6
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C9lineColorSo7NSColorCvg : sha256 92fdd02b86ed64918468d2235da7496c9d8137c943eae5b18d33aa88833a26fd -> 821e6d6a51041c8e81b5741d22c6dc27fb6911b930c3c2c1bd747cd70ef29cf2
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C9lineColorSo7NSColorCvsTo : sha256 e48c88c5cee30ebc976522259e296fda943b502fef365b3e86f3179bbd9f440a -> 31ddee9f8b890c2587902d7c0dbde3ee7931c3014ae7f2bc74ce2f29f6577ed1
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C9lineColorSo7NSColorCvs : sha256 f95f80655b8eb38f8532b7050e872e9e5b26cd571ae8bab79bfc99111d0504d8 -> bfdcba5c5b807c494feb8cda8a1471056dd3d4dc92fe7eab68abe7a45458bab7
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C9lineColorSo7NSColorCvM : sha256 f608390f5c08f9fbed40af54af90eb03c87ea49826a7d7b07f6bf8771014f248 -> e77f5bf2734c3771b2119e610dd62937d850a1f2122c92c7e5334e2f4055952d
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C11marginColorSo7NSColorCvpfi : sha256 41d16fde8c6fe8d5b722158dd7d7f0f03a12670abc70ecc0a197244690ed7589 -> f31121305212dbd2b4e52ee7ba8b501f1a2a1bbcf59afe3d5ce1829ebe177a6e
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C11marginColorSo7NSColorCvgTo : sha256 fb3349700ff5b26ebb1b95409bb53f06188258fbf5458b45116d911c7be3ae72 -> c8370ab761b47094d72566adcac989144f834d94040e1e3704fa656f66006e8c
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C11marginColorSo7NSColorCvg : sha256 f68bbe3bdfd3c1a579f932a05ed0e42a56dc2e30fdf700db977b585454efb321 -> c2b107975a65c2822792d5ba03d94139672b1ebf5a468176a316c5dc7c66afc9
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C11marginColorSo7NSColorCvsTo : sha256 eca54d79d4fd8c18c22e2938df439e9963f1ff89eb234fde970434cb8cd6ff8c -> 9dfe91dbbea5c727bb2be64de2a3904cf2e83729b70474a43de40ec68cb4ca07
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C11marginColorSo7NSColorCvs : sha256 b2b15ff4911c7498b196f9b01e522a9905a65a48ce7b9c28e4eacbd730828348 -> aa7b7c53778b96f246aeac0fcc44590cdbd4f25941ec3236f106417a81c40d2f
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C11marginColorSo7NSColorCvM : sha256 6148cf7eeb641ba8d2b7629300801eae9b25a305e7e4361ff15ffc1239f8af79 -> 56e6b6b945a48f00f00469b92588a85f3ad77b6a73b9171f8b53f137f30b6219
+~ $s8TextEdit019MultiplePageViewForA4Kit2C11marginColorSo7NSColorCvM.resume.0 : sha256 c5ce4b5a9845ba47a86b733949919a60a12c7f805c24c63b4cc73a348adb5fd7 -> 05259be5ec60cf5ad54dd7476a3acbcbf5e2f60e2e955fa7d0b6b364d39ba22b
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C5frameACSo6CGRectV_tcfC : sha256 77a0ce86cfb410aef94063bedf9e9b87069608ddd7386269e30fb0051da80ae3 -> cc3751cdffd22984afe93a20c25c30a790ce30c9e5f3b7272d332f3efbb2c776
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C5frameACSo6CGRectV_tcfc : sha256 4e454e6c7d46262bfbf9b3e981273cb082117da1c3a48d78d8d0669ddf0c6119 -> 0066eb7a1781742de634275e638e4d9caa9416a75978330ff8d15b9935edb1f3
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C5coderACSgSo7NSCoderC_tcfC : sha256 99ef526f4395720e219c08f84096af2a0c57ddc936c1470c6fb8d814db9cecc0 -> 5212d31044631bc2e4c463910251090a8ef2b35ca47c4872cbc7f6d576f22187
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C5coderACSgSo7NSCoderC_tcfc : sha256 e015e773a381da2de0c1126351b3c7273713e30621558963ca9591482e9c9871 -> 53cb9cd6d9da3a0f22aaff80f1256eecd5d60a84ed8dc94897b0de854902715c
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C5coderACSgSo7NSCoderC_tcfcTo : sha256 c9706a5672cbd6b62c88b0fb203f90f0c12f219cafd4cd07834814f91ab726a6 -> f4c3b694de808706e18de648df1effb87ca185716121598bad9a02fda11ae1db
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C15widthConstraintSo08NSLayoutI0CSgvpACTk : sha256 c07987afedc8d83db9a85e3edbb0a1ed994f4bd12fc191cd428b95e5a6165f1c -> 3909986006257ad75f402f482410c7c7b333eee33c06d20f70e3d8f66858be9a
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C15widthConstraintSo08NSLayoutI0CSgvg : sha256 14fd3526c828d6de739aa4bd2bae322ea6cf63457c22d2cafc0e3c5511d63a7b -> e77573ccc2eee8116f77267a11e13b3507c4b578de218c083a7c8d7fd23e7293
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C15widthConstraintSo08NSLayoutI0CSgvs : sha256 f99640f65319beb69f5725f4c0687b03508d31857da5f752ee3491d2a1b44ece -> 294b702c718726ee397028cb39748f78b51a2da84e15ae44f442c78157386c8d
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C15widthConstraintSo08NSLayoutI0CSgvM : sha256 6ed4960a649346d9604fa692c772d865e4fa9e35454d53d3910a8aba055922ca -> 97ccdafaddc1981132e3ee98d923199052247a87ad4828b45cf73540614120c6
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C16heightConstraintSo08NSLayoutI0CSgvpACTk : sha256 3bace46bc78bac361c6d87c689e2d80d921ee5703e2f2d86b543282bafe1b8c0 -> 45d999a1d18c9db3ad3cc9f1e10f498bc1a224f3c376f94b20694414a7ca2459
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C16heightConstraintSo08NSLayoutI0CSgvg : sha256 ef1461cd47d889fff564258ba8f2e64d5ae3ceb3413d0a5333323d940578129c -> 8da0c2c097f24b2d4938280548b3f82b7e4b649c2fb49dd6535eb792b8b922b0
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C16heightConstraintSo08NSLayoutI0CSgvs : sha256 f60f1b95d0ed0716325d02dba70e54e83204fb96e45616a0060c3fa76aa18473 -> 1b3dc626128f9214ce6b06242eedecbcc47401882957baaafdba8363a74fe908
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C16heightConstraintSo08NSLayoutI0CSgvM : sha256 4290a10d4b8b3d086738cb8c210daf079e06914e0bf608599b3f4e49e44d92a7 -> 33bb8dbcd57f1d1067cefb34c676e84fb47e1631291dbb20a88b608880cd7362
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C17updateConstraintsyyF : sha256 f78cc8645bd82b8d0b1c09cbdc92555286c8fdc433db812aa775fe73f5cab68e -> afb1a40e8ffddc157f993b2699d1c637ae87067657784500530ff6e7b4775af2
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C17updateConstraintsyyFTo : sha256 d8b9df58df413f83c1cd4a6833e21822e6a9cfcc3887c39ff7678408e87c1b27 -> 1ecf492c64996fd9ea6a665d89e3938d25787edb89b279d5d798c0085e5ff9d8
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C06layoutA5ViewsyySo6CGRectVF : 1064 -> 1072
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C6layoutyyF : sha256 2f45918689d51f7cf570c733a3191d83171eba955c1557bbb85af8ffc44f88b1 -> b4b41e6599069d249aa1a93512be187c682d8aba12fbee296c451f2d5f5a765c
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C6layoutyyFTo : sha256 1e539fdeecb475caa005fa6909a112e0449b6836c7e2dc18419b541b676203cb -> a7c9214538a44dc05aba3cc73ee52f1c5f6839d9507b0b63ad265cdb30d3c962
+~ _$s8TextEdit019MultiplePageViewForA4Kit2C4drawyySo6CGRectVF : sha256 8782ae090b17764567fcbc5616b5158a6b66ca0b4396ff3fb34e72968563d6f1 -> edb8f8e214434974607f037ea2dcf850946f0911550ba04a3efe668a50c60545
+~ _$s8TextEdit019MultiplePageViewForA4Kit2CfETo : sha256 cf9dd57bd13bbe01255e3460904779771b9ecff4648ac4933723a8652efddde3 -> 93ac2dec75a27ea28c64a8d9265e4220d47758f5b3544a102e046d3472acfb6b
+~ _$sSo6CGRectVwst : sha256 6a5a26c01f80373db6938bfefbb7586eaa96f15a30a276de40f89d755734966c -> 2552a8a6dff1c0709646ef16a26f6b480cca63931e2e53ee62560715d8494591
+~ $s8TextEdit019MultiplePageViewForA4Kit2C13prepareLayoutySo6CGRectVcSgvM.resume.0 : sha256 c29f10ad9ecc78191ad0bba0ba49b99d44052ff6bc83860883c0ae35db1fabc1 -> 69585bb386475c98425060c81daa2aa7aeeeadc0482b8c84a303fe268607b4b6
+~ _$sSo7CGPointVwst : sha256 f23daf6df9c0a8edbbdc7fc5fb4a06b8c63e9f7611b2b09b7a5575e543f7fc4f -> f5349a42f7d480314f4b0b849bff95552f522a6ecb92efafe0207f9bbcc9dbf7
+~ _$sSo7CGPointVwet : sha256 a106fc3dfc344a70e19708a6bddbccf6ad9e46dc36cdd65e03e0391e98a25fe4 -> f23daf6df9c0a8edbbdc7fc5fb4a06b8c63e9f7611b2b09b7a5575e543f7fc4f
+~ $s8TextEdit019MultiplePageViewForA4Kit2C9printInfoSo07NSPrintI0CvM.resume.0 : sha256 9dfe9e3bc71d0474013f6d4390dc416859e84ef1ab5fbc74b7aa6a290b9fde5a -> 05e5636b2b9341eb71c1e3999b92f4e083dd96d3b35608394d49cea5f948778c
+~ _$sSuSo6CGSizeVSo6NSViewCSgIegyyo_SgWOy : sha256 50f6b871f037bddfdc18eb739913358748043121aca582cc157c0f1c35ff838a -> 233b4bcc6834543089ffc487fee1cbfe45785d3273312afde08d68bbb8421dff
+~ _$sSuSo6CGSizeVSo6NSViewCSgIegyyo_SgWOe : sha256 c17e3293f6c6422ca6cab6f0d64eddc64555bae28fd89a32f6c7cffc99df116d -> 0d8b8f5a497ec09b55d67f8e8d9cd23ff8056de2dd3553d07a790832f9f8092e
+~ -[DocumentWindowController _setTextStorage:].cold.1 : sha256 8f15d433d12ab3e39a6d741ebbf583defe0b05391e3c78d18f52397bc91c7c03 -> f42d65e2dc850c950638f75e546732130cf07e287626ae838a76712932d550c6
+
+```

@@ -1,0 +1,552 @@
+## PlatformSSOCore
+
+> `/System/Library/PrivateFrameworks/PlatformSSOCore.framework/Versions/A/PlatformSSOCore`
+
+```diff
+
+-635.0.0.501.1
+-  __TEXT.__text: 0xfd218 sha256:3c0f0731f34365dc2e2f6d5751efa744937594ec8a73eef031c6e927ce1e312e
+-  __TEXT.__objc_methlist: 0x70a8 sha256:17cbf2dad94728b623fe5d26834b34aa41dc4d38216eaefc41bd35d9687f3f30
+-  __TEXT.__const: 0x32b0 sha256:e3a69a11bc04533568de37af260620948a8f2c5d034230fa592f3933822009dd
+-  __TEXT.__cstring: 0xf283 sha256:92425ea739a29100c0ec1ca54c48f9a0fe1fc3f960808423c569edebaf3e264d
+-  __TEXT.__oslogstring: 0x5e73 sha256:3ec39cd73c3149fb0067817a896ada0b5b66aa6e8bf5c21de2835c89d166d537
+-  __TEXT.__gcc_except_tab: 0x1110 sha256:0ac13a1e73dac7449a10f84dc2ccdd8c3c525bc7c9217019cfc4f4f4ccf9891c
++643.0.12.0.0
++  __TEXT.__text: 0xfe1fc sha256:139ee2e9ff279cb81cb7e1f9a0799fd2e1cdb58644b81472f28bdade6a04f6c2
++  __TEXT.__objc_methlist: 0x7118 sha256:8a344df61dff7284a61b3a703ed2fe98c261b621c2e289c44be2cf2416e3da84
++  __TEXT.__const: 0x32b0 sha256:1b1a495ee4fe45461b74bb5c8d4de91420b89ae9bd4e86f4be7616b1912fad17
++  __TEXT.__cstring: 0xf48b sha256:ba6b6ae53282aae8e0ccc19fc617be44dedae6c6387d1171aaba70ae6d5a974c
++  __TEXT.__oslogstring: 0x5f03 sha256:d69447e7a57c9d0eda8e1bf654e9cac6d31e313fe067bc778fb8637b80247b9c
++  __TEXT.__gcc_except_tab: 0x111c sha256:b1c95d5971485142b030d3099014387c31e2b5a8a9489897ca0c093980b2af08
+   __TEXT.__dlopen_cstrs: 0x363 sha256:211ee959f6ea1440942a39de1907bddabc8f939570154e357b4352858435cb8f
+-  __TEXT.__swift5_typeref: 0x664 sha256:5a072915122f66545a478103f0737b83a7711186ac6445cc3f6e8a09239a7c32
+-  __TEXT.__constg_swiftt: 0xba8 sha256:2b81fe552c023dba2f0c623072e0b4b74b2cc5945365a16ed083a0f23f059351
++  __TEXT.__swift5_typeref: 0x66e sha256:de2155f0a1d3220f566f13254720a538690c1b80fbf2ddaafe1b10d99ad20379
++  __TEXT.__constg_swiftt: 0xbb0 sha256:dfe829e8a1356cfbe0ffad55ab9fd59ca5dcc57c22baee1491fe6763f1e2ac82
+   __TEXT.__swift5_reflstr: 0x92a sha256:04988415924fc272b7bb728a8e71b1d68a1a2d5b4d5ea50aa3fe9cda042dd69a
+-  __TEXT.__swift5_fieldmd: 0x9a4 sha256:e08d338ccf30f9cd77037ec8fe7bca472ed2d467871159615125788a25effe17
+-  __TEXT.__swift5_builtin: 0xa0 sha256:8c9e97e71399d759909f78ba5bff081b96dae035da77954f1c8a9af287d48272
+-  __TEXT.__swift5_assocty: 0x78 sha256:c6965dd62fbf10eb20f68cd1d9aa0c71c6f4e6d8bb5d5c5eee4023b3d0cfdfbb
+-  __TEXT.__swift5_proto: 0xb0 sha256:5f655bc5e4adab464e238f5a069175f5db6156f3d5241fe39cf6a711a9e775d8
+-  __TEXT.__swift5_types: 0x9c sha256:8a51c05a83d9505922e14ceee67c56329ddf49f8938060ec3f3221f24ead6ec9
+-  __TEXT.__swift5_capture: 0x30 sha256:594787638e2c0be518e894cb1a9dc24b2757e04675178254648fb990e4609dcd
+-  __TEXT.__swift_as_entry: 0x154 sha256:7f7062ffb72f94373561c50a7facc514383f1b5717d8e444a6a885d9dd6c0055
+-  __TEXT.__swift_as_ret: 0xc0 sha256:a20cf45aecbe003b535ef69131919067c412cfc8f650706c27b82d22e68e4edd
+-  __TEXT.__swift_as_cont: 0x110 sha256:61489ea48a280a70d2966369870e89e11016222dde1cad1aeef432a8437b3e3a
+-  __TEXT.__swift5_protos: 0x18 sha256:68ce5ce471eef3e94c62b5e5416206010d16f6ef2edc7804984fcbd969406521
+-  __TEXT.__swift5_mpenum: 0x40 sha256:40876425c89644815c5634184a2edbe48fea9e9fcb4809aa93a41019e2983288
+-  __TEXT.__unwind_info: 0x34c8 sha256:6b31673a9dc3bca01efb20fe7cefe594c0f568b33ac0e50614bfbca225d29f57
+-  __TEXT.__eh_frame: 0x1f98 sha256:63022a85de6d0c5e98db32b50d4cbdc9003448baf42e9f83d49a40a8817a0263
++  __TEXT.__swift5_fieldmd: 0x9a4 sha256:5da473a762739cefc1dc45a670c4e4c65c049102df5f05520d32e72309310820
++  __TEXT.__swift5_builtin: 0xa0 sha256:efad88fb8d7d85ef16beaeea9211b9a0e91386a9e065f560884f0e971a00a121
++  __TEXT.__swift5_assocty: 0x78 sha256:b1e4182c247356d15ced9e2f58cb9e04277db3c9c7cfa618c5295fbab139b80e
++  __TEXT.__swift5_proto: 0xb0 sha256:312dae670030626cc6391c3305e9613bc854668b7f11b7a3dd467a73f2fd3bbc
++  __TEXT.__swift5_types: 0x9c sha256:80d540fb8147c338de68a13a21bfd5b57870c433c7ce89fddd345e94260fbadc
++  __TEXT.__swift5_capture: 0x30 sha256:968008c6b2dc7771c17f5922ac37be92c93301f26e056f7f3186a4618b86ca53
++  __TEXT.__swift_as_entry: 0x154 sha256:ee3d92d4e48e64decde7bb84f6bfe15028ff98cce701846c840d9cb52b5c5cd9
++  __TEXT.__swift_as_ret: 0xc0 sha256:1756f203273e1b356c299ee8960068528674d0cf59bad06f05254869c005349a
++  __TEXT.__swift_as_cont: 0x110 sha256:1bbb167383f28dd71ee4863bfd9d7a1509e814c9a1a637b1a5401c819d1172e6
++  __TEXT.__swift5_protos: 0x18 sha256:8a8f54fbdfb8897c44992271c4304608140453b705a8d414da91df63291f41b8
++  __TEXT.__swift5_mpenum: 0x40 sha256:635f312f162388f6ad0363c37711ba3507e1776c6c3e0a6d56a4b1c6018ea522
++  __TEXT.__unwind_info: 0x3500 sha256:86322b7fc59a6193525f2f5b6e11caa7c5e56fbd029b3d4ff1e9771ddc683e34
++  __TEXT.__eh_frame: 0x1f98 sha256:05df72b753e347a69412f607a89ca8099edd5b1a56166f64be6245dea4b99112
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1ea0 sha256:f0f476abf9b3185e84c6360b3dad91037f0c4e4c9fa6282d3b1c93131472a690
+-  __DATA_CONST.__objc_classlist: 0x570 sha256:6630f7a2001b589479bb8c2f9599c452dd1687498ff0de5ee149a2299a49beea
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:2c9cfe709093cb7a5e91ce8e7388dcabfa03b02ba08867e2ddd6892c74e4fbc8
+-  __DATA_CONST.__objc_protolist: 0xa8 sha256:9a86a09508a09016e410bc7a7b19a6a68e88571d74a845c0a27b41077f544067
++  __DATA_CONST.__const: 0x1f68 sha256:1e45c3dee5c8f407073641c8d492d22607934f5668a82f47d6b4d4a6d8a1f3f1
++  __DATA_CONST.__objc_classlist: 0x570 sha256:6e0dafc989ab2ebadd76628a50b9c84a875e56c2e8edf0e8a5804c15d2b7786b
++  __DATA_CONST.__objc_catlist: 0x10 sha256:bc63e0e8d76aa2c310beab36240caa9c6da9d06f85443b651750a7add86eefd3
++  __DATA_CONST.__objc_protolist: 0xa8 sha256:f2c32690c55b819b564cdbc4338eebf1d1d122570e47a842affe066853d06b81
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x3650 sha256:23833d2953bae7e6133984ee5a29ac5f47c8c63b3d3bd0c87abb9252908bbb28
+-  __DATA_CONST.__objc_protorefs: 0x40 sha256:081b311501a80cab22757e6defe758874a8b4bd14a33aa15cc510f2cf9e09196
+-  __DATA_CONST.__objc_superrefs: 0x230 sha256:054c237983e187cdae877473d30c6013dd39dfa378f3ace6c306025e8a7d3467
+-  __DATA_CONST.__objc_arraydata: 0x68 sha256:3d0c6c11791abb511c4f79f84dd88074f389049db72393977afd4bbc8fbbb68c
+-  __DATA_CONST.__got: 0xb40 sha256:a96a5112a19c9567eb880e894819300e016bdb096896d3520a37673a71fd2098
+-  __AUTH_CONST.__const: 0x2de0 sha256:3ff4a796d9cc4d674cd44420f864e1288999a855b74538bc3c0de4ec6e0226f0
+-  __AUTH_CONST.__cfstring: 0x8920 sha256:71ae4d078a65eb498c66cc3a5fa09b5fd68384a18aabd629840a80cb10aa1447
+-  __AUTH_CONST.__objc_const: 0x17770 sha256:bfdb8b83f0867cf79213e6751946cce8fa22960505cdd006e9ca1bd58938fab7
+-  __AUTH_CONST.__objc_intobj: 0x210 sha256:8b0e59fae193c092ad02c21329a79f38df92b33415cf617e4b40a660ee273116
+-  __AUTH_CONST.__objc_doubleobj: 0x60 sha256:000117aba546c441251c3acb308e9f2bc9a39ce899b05cd626726a8e4d218651
+-  __AUTH_CONST.__objc_arrayobj: 0x90 sha256:4611c3f94b12b24b4ebe5405e46ba4c92c98629a44cedd59a3620b9d3c998647
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:fbf8fda68909c41c92ead08aca02d50dbc050118980ab3a42c8a6236eea5b932
+-  __AUTH_CONST.__auth_got: 0x1070 sha256:31fb5d4b4a6f5fa99617cd77dfab4ca388c9a6b1ae3ea5917c76d1b450c0e95b
+-  __AUTH.__objc_data: 0x3438 sha256:67e975159759a3627009f3e9dc54ec252cf03f7909ee86ba7689e40ed73d6038
+-  __AUTH.__data: 0x918 sha256:295f05047ab7015b94d40315d2efd9ffd65dbb4c0572df8a990ca3dddd71cc4b
++  __DATA_CONST.__objc_selrefs: 0x3688 sha256:2b814af6e496b9c849477939ab62b115b0d5967d92c490ac313aed2dce794a70
++  __DATA_CONST.__objc_protorefs: 0x40 sha256:575e05d0b758d96cfa67f4d6a4490305c642ad7f9fc8cded433746a5b72c7b07
++  __DATA_CONST.__objc_superrefs: 0x230 sha256:8c8fc54c86ece07803605416fc8d8f48b563249b66a737360254fd1276ef0b57
++  __DATA_CONST.__objc_arraydata: 0x68 sha256:09e542606a87593331ff0de6978b3dac6a3c6d2125857935350ac935acb9368b
++  __DATA_CONST.__got: 0xb48 sha256:5dd5c0f3f04d8f30fb3341ec99eedb2286d6906d63c7cb8508dec86a8b15ec16
++  __AUTH_CONST.__const: 0x2de0 sha256:122f5fb4088b71d52c00e4de21b21dde781eeea6d61471f8c65bab6dfe864300
++  __AUTH_CONST.__cfstring: 0x8a80 sha256:349d9d13695e860ec0464158329eabd8309722163d29338e4ea0042b08a9c794
++  __AUTH_CONST.__objc_const: 0x17800 sha256:e2e61eaa994173c87eaea19cb65ee677b9bd2a0df6ff981cee4c333c07c76732
++  __AUTH_CONST.__objc_intobj: 0x210 sha256:6c74693ef6221c2efcf2c80d280cc1b71d5a812c2844f804e7cb505ff23ed4b2
++  __AUTH_CONST.__objc_doubleobj: 0x60 sha256:04ed86ca00652616b6bbc636195d753d3f299c8400552c438fc857cf038ac417
++  __AUTH_CONST.__objc_arrayobj: 0x90 sha256:35faae89136d4dd57c897facd8e498ea68043d4a91384ac005371cb61d02fd95
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:f57ec1eb882569ac84802c155c258880d5bb5dfe7adfe531d2a0b98e390e0af4
++  __AUTH_CONST.__auth_got: 0x1078 sha256:a698ae42ac067be9d7df2c0078a31214d77894aad5b8130c01505ed5719be593
++  __AUTH.__objc_data: 0x3438 sha256:5507270444f06c17c3ba1a4a144a99cf5607f81f9568faf18fb0cb5225f44199
++  __AUTH.__data: 0x928 sha256:445e6dbecd41d08fc4cb2858ff84cd58fb3eb54290e6c7ca223b8e6f66953ead
+   __DATA.__objc_ivar: 0x6f8 sha256:2e4a7358958440ff9625505425a382939ec7124b3d867984240890a271fc93cc
+-  __DATA.__data: 0x1490 sha256:ff0d4c48bd0308adab7a68f94772b583db3ca97b99d22a2203c5f66d88015763
++  __DATA.__data: 0x1490 sha256:7e7260af56f9d9247c14f8dfc9cea9542a68056d803d665f58a9a57430ce103e
+   __DATA.__bss: 0x16e0 sha256:0404c19e0464b9646a6aaadfc08180452dd69bc985144d2d1a5e015317855bda
+   __DATA.__common: 0x89 sha256:f8cb882ad3e7442fb77ec495d0fce174ce8c7b1b4d7c02f993de80130b9900bb
+-  __DATA_DIRTY.__objc_data: 0x6e0 sha256:59538d5d0e78f969d44b6615a6d1ca8b89f248a4acc44c7f57a812b74ed6fee8
++  __DATA_DIRTY.__objc_data: 0x6e0 sha256:422efaaf8201d02f5208aedba74a0f9d9fc57331b6ee5b5448553773fdd36f26
+   __DATA_DIRTY.__bss: 0x140 sha256:7b6436b0c98f62380866d9432c2af0ee08ce16a171bda6951aecd95ee1307d61
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 8544EF10-A4B1-346C-88A9-0C4FA30375D0
+-  Functions: 5646
+-  Symbols:   10648
+-  CStrings:  3712
++  UUID: 76491761-0C57-39B7-BD65-4CBDB63AC805
++  Functions: 5656
++  Symbols:   10678
++  CStrings:  3736
+ 
+Symbols:
++ +[POTokenHelper parseUserNameFromMailboxData:].cold.6
++ -[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]
++ -[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]
++ -[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]
++ -[POAuthPluginCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:returningRequest:]
++ -[POAuthPluginCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:returningTokens:]
++ -[POAuthenticationProcess _mergedScopes:withScopes:]
++ -[POAuthenticationProcess createSignedOpenIDAuthorizationRequestWithURL:authorizationRequestValues:scope:deviceConfiguration:error:]
++ -[POServiceCoreConnection retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]
++ -[POServiceCoreConnection verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]
++ GCC_except_table43
++ _OBJC_CLASS_$_NSMutableOrderedSet
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1106
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1109
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1109.cold.1
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1115
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1115.cold.1
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1121
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1121.cold.1
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1128
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1128.cold.1
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1135
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1135.cold.1
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1145
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1145.cold.1
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1149
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1149.cold.1
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1152
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1152.cold.1
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1155
++ __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1155.cold.1
++ __101-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke.287
++ __101-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke.287.cold.1
++ __101-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke.290
++ __101-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke.290.cold.1
++ __101-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke.293
++ __101-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke.293.cold.1
++ __101-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke.294
++ __101-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke.300
++ __101-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke.300.cold.1
++ __101-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke.cold.1
++ __101-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke_2.cold.1
++ __106-[POServiceCoreConnection retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke.cold.1
++ __114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke.311
++ __114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke.311.cold.1
++ __114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke.314
++ __114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke.314.cold.1
++ __114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke.317
++ __114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke.320
++ __114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke.320.cold.1
++ __114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke.323
++ __114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke.323.cold.1
++ __114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke.326
++ __114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke.326.cold.1
++ __114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke.cold.1
++ __114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke_2.cold.1
++ __119-[POServiceCoreConnection verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke.cold.1
++ __121-[POAuthenticationProcess extractNewUserValuesFromTokens:deviceConfiguration:loginUserName:returningName:userName:error:]_block_invoke.1257
++ __121-[POAuthenticationProcess extractNewUserValuesFromTokens:deviceConfiguration:loginUserName:returningName:userName:error:]_block_invoke.1257.cold.1
++ __132-[POAuthenticationProcess createSignedOpenIDAuthorizationRequestWithURL:authorizationRequestValues:scope:deviceConfiguration:error:]_block_invoke.cold.1
++ __134-[POAuthenticationProcess extractGroupsAndSubUsingAuthorizationWithLoginConfiguration:tokens:returningGroups:identifier:refreshToken:]_block_invoke.1248
++ __134-[POAuthenticationProcess extractGroupsAndSubUsingAuthorizationWithLoginConfiguration:tokens:returningGroups:identifier:refreshToken:]_block_invoke.1248.cold.1
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.105
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.108
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.108.cold.1
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.115
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.115.cold.1
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.119
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.120
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.120.cold.1
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.124
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.124.cold.1
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.128
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.128.cold.1
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.132
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.133
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.133.cold.1
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.137
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.138
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.138.cold.1
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.142
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.142.cold.1
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.98
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.98.cold.1
++ __186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke.cold.1
++ __44-[POServiceCoreConnection _connectToService]_block_invoke.97
++ __44-[POServiceCoreConnection _connectToService]_block_invoke.97.cold.1
++ __58-[POAuthenticationProcess createKeyRequestJWTWithContext:]_block_invoke.1168
++ __58-[POAuthenticationProcess createKeyRequestJWTWithContext:]_block_invoke.1168.cold.1
++ __59-[POAuthenticationProcess createKeyRequestWithContext:jwt:]_block_invoke.1187
++ __59-[POAuthenticationProcess createKeyRequestWithContext:jwt:]_block_invoke.1187.cold.1
++ __67-[POAuthenticationProcess createKeyExchangeRequestWithContext:jwt:]_block_invoke.1222
++ __67-[POAuthenticationProcess createKeyExchangeRequestWithContext:jwt:]_block_invoke.1222.cold.1
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1035
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1038
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1038.cold.1
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1044
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1044.cold.1
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1050
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1050.cold.1
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1057
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1057.cold.1
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1064
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1064.cold.1
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1074
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1074.cold.1
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1078
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1078.cold.1
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1081
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1081.cold.1
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1084
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1084.cold.1
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1090
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1090.cold.1
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1096
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1096.cold.1
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1102
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1102.cold.1
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1103
++ __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1103.cold.1
++ __69-[POAuthenticationProcess performOpenIDLoginUsingContext:completion:]_block_invoke.1014
++ __69-[POAuthenticationProcess performOpenIDLoginUsingContext:completion:]_block_invoke.1017
++ __69-[POAuthenticationProcess performOpenIDLoginUsingContext:completion:]_block_invoke.1018
++ __69-[POAuthenticationProcess performOpenIDLoginUsingContext:completion:]_block_invoke.1018.cold.1
++ __69-[POAuthenticationProcess performOpenIDLoginUsingContext:completion:]_block_invoke.1021
++ __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke.1190
++ __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke.1190.cold.1
++ __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke.1194
++ __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke.1200
++ __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke.1205
++ __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke.1206
++ __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke_2.1201
++ __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke_2.1201.cold.1
++ __76-[POAuthenticationProcess URLSession:didReceiveChallenge:completionHandler:]_block_invoke.1275
++ __76-[POAuthenticationProcess URLSession:didReceiveChallenge:completionHandler:]_block_invoke.1275.cold.1
++ __76-[POAuthenticationProcess URLSession:didReceiveChallenge:completionHandler:]_block_invoke.1281
++ __76-[POAuthenticationProcess URLSession:didReceiveChallenge:completionHandler:]_block_invoke.1281.cold.1
++ __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke.1225
++ __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke.1225.cold.1
++ __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke.1229
++ __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke.1235
++ __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke.1240
++ __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke.1241
++ __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke_2.1236
++ __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke_2.1236.cold.1
++ __86-[POAuthenticationProcess createKeyExchangeRequestJWTWithContext:otherPartyPublicKey:]_block_invoke.1212
++ __86-[POAuthenticationProcess createKeyExchangeRequestJWTWithContext:otherPartyPublicKey:]_block_invoke.1212.cold.1
++ __88-[POAuthenticationProcess _retrieveDynamicOpenIDAuthorizationURLWithContext:completion:]_block_invoke.974
++ __88-[POAuthenticationProcess _retrieveDynamicOpenIDAuthorizationURLWithContext:completion:]_block_invoke.977
++ __88-[POAuthenticationProcess _retrieveDynamicOpenIDAuthorizationURLWithContext:completion:]_block_invoke.977.cold.1
++ __88-[POAuthenticationProcess _retrieveDynamicOpenIDAuthorizationURLWithContext:completion:]_block_invoke.981
++ __88-[POAuthenticationProcess _retrieveDynamicOpenIDAuthorizationURLWithContext:completion:]_block_invoke_2.982
++ __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke.1000
++ __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke.1001.cold.1
++ __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke.1002
++ __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke.1009
++ __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke.994.cold.1
++ __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke.995
++ __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke.998
++ __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke_2.1010
++ __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke_2.999
++ __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke_2.999.cold.1
++ ___101-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke
++ ___101-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke_2
++ ___106-[POServiceCoreConnection retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]_block_invoke
++ ___112-[POAuthPluginCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:returningRequest:]_block_invoke
++ ___112-[POAuthPluginCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:returningRequest:]_block_invoke_2
++ ___114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke
++ ___114-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke_2
++ ___119-[POServiceCoreConnection verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]_block_invoke
++ ___124-[POAuthPluginCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:returningTokens:]_block_invoke
++ ___124-[POAuthPluginCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:returningTokens:]_block_invoke_2
++ ___132-[POAuthenticationProcess createSignedOpenIDAuthorizationRequestWithURL:authorizationRequestValues:scope:deviceConfiguration:error:]_block_invoke
++ ___186-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]_block_invoke
++ ___block_descriptor_96_e8_32s40s48s56s64s72s80r88r_e5_v8?0l
++ ___copy_helper_block_e8_32s40s48s56s64s72s80r88r
++ ___destroy_helper_block_e8_32s40s48s56s64s72s80r88r
++ __block_literal_global.134
++ __block_literal_global.1542
++ __block_literal_global.1546
++ __block_literal_global.487
++ __block_literal_global.491
++ __block_literal_global.62
++ _kPOAuthorizationScopeAuthPrompt
++ _kPOAuthorizationScopeCreateUser
++ _kPOAuthorizationScopeElevation
++ _kPOAuthorizationScopeFVUnlock
++ _kPOAuthorizationScopeFallback
++ _kPOAuthorizationScopeLogin
++ _kPOAuthorizationScopePasswordChange
++ _kPOAuthorizationScopeRefresh
++ _kPOAuthorizationScopeSetupAssistant
++ _kPOAuthorizationScopeTemporarySession
++ _kPOAuthorizationScopeUnlock
++ _objc_msgSend$_mergedScopes:withScopes:
++ _objc_msgSend$_verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:
++ _objc_msgSend$componentsSeparatedByCharactersInSet:
++ _objc_msgSend$createSignedOpenIDAuthorizationRequestWithURL:authorizationRequestValues:scope:deviceConfiguration:error:
++ _objc_msgSend$orderedSet
++ _objc_msgSend$retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:
++ _objc_msgSend$retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:returningRequest:
++ _objc_msgSend$verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:
++ _objc_msgSend$verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:returningTokens:
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ generate_wrapping_key_curve25519.cold.1
+- -[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]
+- -[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:].cold.1
+- -[POAuthenticationProcess createSignedOpenIDAuthorizationRequestWithURL:authorizationRequestValues:deviceConfiguration:error:]
+- _OUTLINED_FUNCTION_100
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1098
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1101
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1101.cold.1
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1107
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1107.cold.1
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1113
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1113.cold.1
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1119
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1119.cold.1
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1120
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1120.cold.1
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1133
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1133.cold.1
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1137
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1137.cold.1
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1144
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1144.cold.1
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1147
+- __100-[POAuthenticationProcess performKeyExchangeRequestUsingContext:otherPartyPublicKeyData:completion:]_block_invoke.1147.cold.1
+- __121-[POAuthenticationProcess extractNewUserValuesFromTokens:deviceConfiguration:loginUserName:returningName:userName:error:]_block_invoke.1249
+- __121-[POAuthenticationProcess extractNewUserValuesFromTokens:deviceConfiguration:loginUserName:returningName:userName:error:]_block_invoke.1249.cold.1
+- __126-[POAuthenticationProcess createSignedOpenIDAuthorizationRequestWithURL:authorizationRequestValues:deviceConfiguration:error:]_block_invoke.cold.1
+- __134-[POAuthenticationProcess extractGroupsAndSubUsingAuthorizationWithLoginConfiguration:tokens:returningGroups:identifier:refreshToken:]_block_invoke.1240
+- __134-[POAuthenticationProcess extractGroupsAndSubUsingAuthorizationWithLoginConfiguration:tokens:returningGroups:identifier:refreshToken:]_block_invoke.1240.cold.1
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.105
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.108
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.108.cold.1
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.115
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.115.cold.1
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.119
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.120
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.120.cold.1
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.124
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.124.cold.1
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.128
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.128.cold.1
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.132
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.133
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.133.cold.1
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.137
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.138
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.138.cold.1
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.142
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.142.cold.1
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.98
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.98.cold.1
+- __160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke.cold.1
+- __44-[POServiceCoreConnection _connectToService]_block_invoke.91
+- __44-[POServiceCoreConnection _connectToService]_block_invoke.91.cold.1
+- __58-[POAuthenticationProcess createKeyRequestJWTWithContext:]_block_invoke.1160
+- __58-[POAuthenticationProcess createKeyRequestJWTWithContext:]_block_invoke.1160.cold.1
+- __59-[POAuthenticationProcess createKeyRequestWithContext:jwt:]_block_invoke.1179
+- __59-[POAuthenticationProcess createKeyRequestWithContext:jwt:]_block_invoke.1179.cold.1
+- __67-[POAuthenticationProcess createKeyExchangeRequestWithContext:jwt:]_block_invoke.1214
+- __67-[POAuthenticationProcess createKeyExchangeRequestWithContext:jwt:]_block_invoke.1214.cold.1
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1027
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1030
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1030.cold.1
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1036
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1036.cold.1
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1042
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1042.cold.1
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1048
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1048.cold.1
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1049
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1049.cold.1
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1062
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1062.cold.1
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1066
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1066.cold.1
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1073
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1073.cold.1
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1076
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1076.cold.1
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1082
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1082.cold.1
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1088
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1088.cold.1
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1094
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1094.cold.1
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1095
+- __68-[POAuthenticationProcess performKeyRequestUsingContext:completion:]_block_invoke.1095.cold.1
+- __69-[POAuthenticationProcess performOpenIDLoginUsingContext:completion:]_block_invoke.1005
+- __69-[POAuthenticationProcess performOpenIDLoginUsingContext:completion:]_block_invoke.1006
+- __69-[POAuthenticationProcess performOpenIDLoginUsingContext:completion:]_block_invoke.1009
+- __69-[POAuthenticationProcess performOpenIDLoginUsingContext:completion:]_block_invoke.1010
+- __69-[POAuthenticationProcess performOpenIDLoginUsingContext:completion:]_block_invoke.1010.cold.1
+- __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke.1182
+- __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke.1182.cold.1
+- __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke.1186
+- __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke.1192
+- __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke.1197
+- __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke.1198
+- __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke_2.1193
+- __75-[POAuthenticationProcess performKeyRequestWithContext:request:completion:]_block_invoke_2.1193.cold.1
+- __76-[POAuthenticationProcess URLSession:didReceiveChallenge:completionHandler:]_block_invoke.1267
+- __76-[POAuthenticationProcess URLSession:didReceiveChallenge:completionHandler:]_block_invoke.1267.cold.1
+- __76-[POAuthenticationProcess URLSession:didReceiveChallenge:completionHandler:]_block_invoke.1273
+- __76-[POAuthenticationProcess URLSession:didReceiveChallenge:completionHandler:]_block_invoke.1273.cold.1
+- __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke.1217
+- __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke.1217.cold.1
+- __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke.1221
+- __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke.1227
+- __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke.1232
+- __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke.1233
+- __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke_2.1228
+- __83-[POAuthenticationProcess performKeyExchangeRequestWithContext:request:completion:]_block_invoke_2.1228.cold.1
+- __84-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:]_block_invoke.287
+- __84-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:]_block_invoke.287.cold.1
+- __84-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:]_block_invoke.290
+- __84-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:]_block_invoke.290.cold.1
+- __84-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:]_block_invoke.291
+- __84-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:]_block_invoke.291.cold.1
+- __84-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:]_block_invoke.294
+- __84-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:]_block_invoke.300
+- __84-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:]_block_invoke.300.cold.1
+- __84-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:]_block_invoke.cold.1
+- __84-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:]_block_invoke_2.cold.1
+- __86-[POAuthenticationProcess createKeyExchangeRequestJWTWithContext:otherPartyPublicKey:]_block_invoke.1204
+- __86-[POAuthenticationProcess createKeyExchangeRequestJWTWithContext:otherPartyPublicKey:]_block_invoke.1204.cold.1
+- __88-[POAuthenticationProcess _retrieveDynamicOpenIDAuthorizationURLWithContext:completion:]_block_invoke.966
+- __88-[POAuthenticationProcess _retrieveDynamicOpenIDAuthorizationURLWithContext:completion:]_block_invoke.969
+- __88-[POAuthenticationProcess _retrieveDynamicOpenIDAuthorizationURLWithContext:completion:]_block_invoke.969.cold.1
+- __88-[POAuthenticationProcess _retrieveDynamicOpenIDAuthorizationURLWithContext:completion:]_block_invoke.973
+- __88-[POAuthenticationProcess _retrieveDynamicOpenIDAuthorizationURLWithContext:completion:]_block_invoke_2.974
+- __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke.986
+- __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke.986.cold.1
+- __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke.987
+- __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke.990
+- __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke.992
+- __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke.993
+- __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke.993.cold.1
+- __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke_2.1002
+- __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke_2.991
+- __95-[POAuthenticationProcess performOpenIDPreAuthenticationRequestWithContext:request:completion:]_block_invoke_2.991.cold.1
+- __97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke.311
+- __97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke.311.cold.1
+- __97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke.314
+- __97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke.314.cold.1
+- __97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke.317
+- __97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke.320
+- __97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke.320.cold.1
+- __97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke.323
+- __97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke.323.cold.1
+- __97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke.326
+- __97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke.326.cold.1
+- __97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke.cold.1
+- __97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke_2.cold.1
+- ___107-[POAuthPluginCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:returningTokens:]_block_invoke
+- ___107-[POAuthPluginCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:returningTokens:]_block_invoke_2
+- ___126-[POAuthenticationProcess createSignedOpenIDAuthorizationRequestWithURL:authorizationRequestValues:deviceConfiguration:error:]_block_invoke
+- ___160-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]_block_invoke
+- ___84-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:]_block_invoke
+- ___84-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:]_block_invoke_2
+- ___95-[POAuthPluginCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:returningRequest:]_block_invoke
+- ___95-[POAuthPluginCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:returningRequest:]_block_invoke_2
+- ___97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke
+- ___97-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]_block_invoke_2
+- ___block_descriptor_64_e8_32s40s48r56r_e5_v8?0l
+- ___copy_helper_block_e8_32s40s48r56r
+- ___destroy_helper_block_e8_32s40s48r56r
+- __block_literal_global.128
+- __block_literal_global.1533
+- __block_literal_global.1537
+- __block_literal_global.482
+- __block_literal_global.486
+- __block_literal_global.59
+- _objc_msgSend$_verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:
+- _objc_msgSend$createSignedOpenIDAuthorizationRequestWithURL:authorizationRequestValues:deviceConfiguration:error:
+- _objc_msgSend$retrieveOpenIDAuthorizationRequestForLoginUserName:returningRequest:
+- _objc_msgSend$verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:returningTokens:
+CStrings:
++ "%s loginUserName = %{public}@, additionalScopes = %{public}@ on %@"
++ "%s userName = %{public}@, passwordContext = %{public}@, additionalScopes = %{public}@ on %@"
++ "%s:%spid:%d,%s:%s%s%s%s%s%u:%s cccurve25519 failed: small-order point used%s\n"
++ "-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:authorizationContextScope:completion:]"
++ "-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:completion:]"
++ "-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:completion:]"
++ "-[POAuthPluginCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:additionalScopes:returningRequest:]"
++ "-[POAuthPluginCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:additionalScopes:returningTokens:]"
++ "/AppleInternal/Library/BuildRoots/4~CRwIugDg8Hiu5LXNJzNgQ94lEibU8AUaJ12fWxE/Library/Caches/com.apple.xbs/TemporaryDirectory.6yKJWu/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
++ "/AppleInternal/Library/BuildRoots/4~CRwIugDg8Hiu5LXNJzNgQ94lEibU8AUaJ12fWxE/Library/Caches/com.apple.xbs/TemporaryDirectory.6yKJWu/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c"
++ "/AppleInternal/Library/BuildRoots/4~CRwIugDg8Hiu5LXNJzNgQ94lEibU8AUaJ12fWxE/Library/Caches/com.apple.xbs/TemporaryDirectory.6yKJWu/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
++ "/AppleInternal/Library/BuildRoots/4~CRwIugDg8Hiu5LXNJzNgQ94lEibU8AUaJ12fWxE/Library/Caches/com.apple.xbs/TemporaryDirectory.6yKJWu/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c"
++ "/AppleInternal/Library/BuildRoots/4~CRwIugDg8Hiu5LXNJzNgQ94lEibU8AUaJ12fWxE/Library/Caches/com.apple.xbs/TemporaryDirectory.6yKJWu/Sources/AppleCredentialManager_ClientLibs/common/LibSerialization.c"
++ "/AppleInternal/Library/BuildRoots/4~CRwNugBJxO3grXb-O-F9-0hhURm1hDFPRgqPJdM/Library/Caches/com.apple.xbs/TemporaryDirectory.KI8RaQ/Sources/AppleKeyStore_libs/aeskeywrap.c"
++ "/AppleInternal/Library/BuildRoots/4~CRwNugBJxO3grXb-O-F9-0hhURm1hDFPRgqPJdM/Library/Caches/com.apple.xbs/TemporaryDirectory.KI8RaQ/Sources/AppleKeyStore_libs/backup_serialize.c"
++ "/AppleInternal/Library/BuildRoots/4~CRwNugBJxO3grXb-O-F9-0hhURm1hDFPRgqPJdM/Library/Caches/com.apple.xbs/TemporaryDirectory.KI8RaQ/Sources/AppleKeyStore_libs/platform/platform.c"
++ "/AppleInternal/Library/BuildRoots/4~CRwNugBJxO3grXb-O-F9-0hhURm1hDFPRgqPJdM/Library/Caches/com.apple.xbs/TemporaryDirectory.KI8RaQ/Sources/AppleKeyStore_libs/platform/platform_lib.c"
++ "/AppleInternal/Library/BuildRoots/4~CRwNugBJxO3grXb-O-F9-0hhURm1hDFPRgqPJdM/Library/Caches/com.apple.xbs/TemporaryDirectory.KI8RaQ/Sources/AppleKeyStore_libs/shared_crypto.c"
++ "Mailbox sequence is empty"
++ "generate_wrapping_key_curve25519"
++ "urn:apple:platformsso:auth:auth-prompt"
++ "urn:apple:platformsso:auth:create-user"
++ "urn:apple:platformsso:auth:elevation"
++ "urn:apple:platformsso:auth:fallback"
++ "urn:apple:platformsso:auth:fvunlock"
++ "urn:apple:platformsso:auth:login"
++ "urn:apple:platformsso:auth:password-change"
++ "urn:apple:platformsso:auth:refresh"
++ "urn:apple:platformsso:auth:setup-assistant"
++ "urn:apple:platformsso:auth:temporary-session"
++ "urn:apple:platformsso:auth:unlock"
+- "%s loginUserName = %{public}@ on %@"
+- "-[POAgentCoreProcess _verifyLogin:passwordContext:smartCardContext:tokenId:callbackResponse:deviceConfiguration:loginConfiguration:forAuthorization:completion:]"
+- "-[POAgentCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:completion:]"
+- "-[POAgentCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:completion:]"
+- "-[POAuthPluginCoreProcess retrieveOpenIDAuthorizationRequestForLoginUserName:returningRequest:]"
+- "-[POAuthPluginCoreProcess verifyOpenIDUser:loginUserName:callbackResponse:passwordContext:returningTokens:]"
+- "/AppleInternal/Library/BuildRoots/4~CQBWugBujH6OssTHEKDmVwxxp8ZjLaQDVeCVBF4/Library/Caches/com.apple.xbs/TemporaryDirectory.fzuHkP/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
+- "/AppleInternal/Library/BuildRoots/4~CQBWugBujH6OssTHEKDmVwxxp8ZjLaQDVeCVBF4/Library/Caches/com.apple.xbs/TemporaryDirectory.fzuHkP/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c"
+- "/AppleInternal/Library/BuildRoots/4~CQBWugBujH6OssTHEKDmVwxxp8ZjLaQDVeCVBF4/Library/Caches/com.apple.xbs/TemporaryDirectory.fzuHkP/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
+- "/AppleInternal/Library/BuildRoots/4~CQBWugBujH6OssTHEKDmVwxxp8ZjLaQDVeCVBF4/Library/Caches/com.apple.xbs/TemporaryDirectory.fzuHkP/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c"
+- "/AppleInternal/Library/BuildRoots/4~CQBWugBujH6OssTHEKDmVwxxp8ZjLaQDVeCVBF4/Library/Caches/com.apple.xbs/TemporaryDirectory.fzuHkP/Sources/AppleCredentialManager_ClientLibs/common/LibSerialization.c"
+- "/AppleInternal/Library/BuildRoots/4~CQPCugCrXGp5ZlPvCO8__HSIiRqEBmvAcTju1RQ/Library/Caches/com.apple.xbs/TemporaryDirectory.dr6Iqt/Sources/AppleKeyStore_libs/aeskeywrap.c"
+- "/AppleInternal/Library/BuildRoots/4~CQPCugCrXGp5ZlPvCO8__HSIiRqEBmvAcTju1RQ/Library/Caches/com.apple.xbs/TemporaryDirectory.dr6Iqt/Sources/AppleKeyStore_libs/backup_serialize.c"
+- "/AppleInternal/Library/BuildRoots/4~CQPCugCrXGp5ZlPvCO8__HSIiRqEBmvAcTju1RQ/Library/Caches/com.apple.xbs/TemporaryDirectory.dr6Iqt/Sources/AppleKeyStore_libs/platform/platform.c"
+- "/AppleInternal/Library/BuildRoots/4~CQPCugCrXGp5ZlPvCO8__HSIiRqEBmvAcTju1RQ/Library/Caches/com.apple.xbs/TemporaryDirectory.dr6Iqt/Sources/AppleKeyStore_libs/platform/platform_lib.c"
+- "/AppleInternal/Library/BuildRoots/4~CQPCugCrXGp5ZlPvCO8__HSIiRqEBmvAcTju1RQ/Library/Caches/com.apple.xbs/TemporaryDirectory.dr6Iqt/Sources/AppleKeyStore_libs/shared_crypto.c"
+- "ACMCredential - ACMCredentialDataPKITokenValidated"
+- "ACMCredential - ACMCredentialDataPKITokenValidated2"
+
+```

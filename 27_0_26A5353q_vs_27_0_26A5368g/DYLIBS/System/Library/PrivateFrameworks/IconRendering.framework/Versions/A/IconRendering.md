@@ -1,0 +1,355 @@
+## IconRendering
+
+> `/System/Library/PrivateFrameworks/IconRendering.framework/Versions/A/IconRendering`
+
+```diff
+
+-111.2.0.0.0
+-  __TEXT.__text: 0x89a88 sha256:fc8cbd23a5351606ff371df42d76847bf7612158f4eb8e5d11194e7105f69c34
+-  __TEXT.__objc_methlist: 0xb50 sha256:f51e9e104a53e3aa36667417e3a402049545887aadb717b7b3a13b1d58ee1b04
+-  __TEXT.__const: 0xa3a8 sha256:844c1e0382f36eb069ce3c52870f1fac11ac88362dd2de581981f7763d9d8a8b
+-  __TEXT.__swift5_typeref: 0x20fc sha256:ceffa3cad40c0784dddab0b58fcf216deca3475efa621c6021bace2bcb33dae1
+-  __TEXT.__constg_swiftt: 0x1de0 sha256:cc717b1ba35b2cf64273e4c8b5cc76fe1b9381b36ff9fff3c2687c3c45d31140
+-  __TEXT.__swift5_builtin: 0x294 sha256:9764e28f8a24a001729b3d23f79084d9b308f8d61a4afbc735c273190095e4f1
+-  __TEXT.__swift5_reflstr: 0x1dd6 sha256:8f418ef5fc98c1b4260c456fcd5220efab9a153e5a18235e90f2dbfcb0457b6f
+-  __TEXT.__swift5_fieldmd: 0x2e70 sha256:9d3b8e4ecc00b30c4d1b4620286c1db5344d182d439d0569ffe698ce6b15df7c
+-  __TEXT.__swift5_assocty: 0x3f0 sha256:0844857c4eacb612f736eca4643eabceb18c31d24293f37fa94f3b3b3af434b0
+-  __TEXT.__cstring: 0x12c5 sha256:1f33b570c4dd037b1b023c47b8f2fd270e03ec5ff37d087daa85e62412f6fb4d
+-  __TEXT.__oslogstring: 0xb48 sha256:f8b0c6a6b7e76313b2fc90051759e89aecf5bc3fdc96d083c18bee5059ed9e17
+-  __TEXT.__swift5_capture: 0x360 sha256:8625a17630cbe9de105c8510f77594004115d7a1815d358352bd8dd8c9ab45e8
+-  __TEXT.__swift5_proto: 0x848 sha256:51d0004369c7c4dddfb6e8e1fa2fcb67e910a53dd2d9cf94854bbfb0685a8ef4
+-  __TEXT.__swift5_types: 0x320 sha256:25ad0e0756ad8501d295da5455bdb28bbc6d4de2a4097a20e10ee21a00ac7b92
+-  __TEXT.__swift5_protos: 0x14 sha256:edb3bd9d1822f7b40aeafd314f6e4882de909e0352d22044f6d74cb35c2996aa
+-  __TEXT.__swift_as_entry: 0x4c sha256:345e931477dc2d52b02be749fc2a83adc36ab31d56454ab1366590ce74f23442
+-  __TEXT.__swift_as_ret: 0x40 sha256:1233aba77146bdbc1957ed793a0b5a516923e4faaca91e81ab87b8e8a716a18d
+-  __TEXT.__swift_as_cont: 0x7c sha256:5007e116ca5c707e0690e6ab0a101cded13a7db07bcc3cc65537c8d4450feecc
+-  __TEXT.__swift5_mpenum: 0x100 sha256:a1455bd3eed4f408c0cae92ab02976ac4706671f141337a725a993f5626c299b
+-  __TEXT.__unwind_info: 0x1f60 sha256:639885ae9909aec2ee650f45784acd13e298d4be7d74b74b6e39f6ea6d4376aa
+-  __TEXT.__eh_frame: 0x2580 sha256:6d8b8e1223bd9bcd7e60ce4885ba330cbdc458a213cc95ed8e18153abf2c00b3
++113.0.0.0.0
++  __TEXT.__text: 0x8c268 sha256:cc326bcbba4786761895d84d5ace89d44e6c20798585b45f1ba35177fabd38ff
++  __TEXT.__objc_methlist: 0x2ac8 sha256:8a710887e26f7ee8af8490aab6a11d989239dc7765c6dafcd2391edd8767222a
++  __TEXT.__const: 0xab08 sha256:d866c581e4113cd05c6ffb93061de7db3e1b25d8890dc710e33a872e43b9804c
++  __TEXT.__swift5_typeref: 0x21ae sha256:401ed0e3891b1b1a0ee7e5edf5e5c57b8e79e900a2ec12d127a829c787f4d0d1
++  __TEXT.__constg_swiftt: 0x1ecc sha256:70de94ebd5d7fc35d91b3e3d0a1d406ebffb64fb7966ba422679a9ba21da7fa3
++  __TEXT.__swift5_builtin: 0x244 sha256:499a3d1fe71bf65704c25f17bbd9e43269a4141ca80285885a99117d3295a447
++  __TEXT.__swift5_reflstr: 0x1ef6 sha256:be5e3b8c51e4203170342f65bfc91c633c36e9a6825fe3087c2f5f16520d704e
++  __TEXT.__swift5_fieldmd: 0x3004 sha256:d1911503113171b2a71f05ea3d3f8696e3feffe11527278d48fe1150dbdfabd7
++  __TEXT.__swift5_assocty: 0x360 sha256:a24c0607b02f4da2fdd050e31b12eb62d833fb168b140e5068701d561e0e538b
++  __TEXT.__cstring: 0x13d5 sha256:ae0e256f79d4e1de2c12de41fdb43386324404b0d2ac7ed97def734918b65695
++  __TEXT.__oslogstring: 0xbac sha256:7c628ad8588f7052046ad6bd209390cf3ab40c26f525f5b19f0ca837c36050c7
++  __TEXT.__swift5_capture: 0x350 sha256:0c4b4fc75fa60a59d4fc6c372cad8629ccf9dfed3df043929471ce0911428fc6
++  __TEXT.__swift5_proto: 0x8b4 sha256:d768033943eb82995a72bbc350010e77eb3cca4957d030de26b0241f9c7c9b05
++  __TEXT.__swift5_types: 0x32c sha256:21e3a38ce3f66d5c5973a9a715ee3fa5b3398e8639cf8f4b4fb1cbd8b3d59c97
++  __TEXT.__swift5_protos: 0x18 sha256:e2cbeb2431c152e611423ddf142f473d7d4fb590b6b43b5093726324e82cdbf1
++  __TEXT.__swift_as_entry: 0x4c sha256:b2d1e58544509b5a4f17bc1a8474990541314ee9770deb17bbde7cfb44c8ec88
++  __TEXT.__swift_as_ret: 0x40 sha256:8f7ef5ddf321144639fe95100193ad3c4da0c4a70f19964ca62fe7ff9a7a19ec
++  __TEXT.__swift_as_cont: 0x7c sha256:ca7f62f4a93cc9d2a3e989f5e17c11276e654cb2267ba8455160ba03c5a0cdb9
++  __TEXT.__swift5_mpenum: 0x120 sha256:114d10c8b215e00168c5ac036dda518b2e22ef35fbbd3b0bc7554edc6a6a6f5c
++  __TEXT.__unwind_info: 0x21a8 sha256:81f9ea8adef78c5a3e889572616286c5ea6d2cc5338a5e13537daf7acbf0df2b
++  __TEXT.__eh_frame: 0x26f0 sha256:660a025b13e666a52e7bf886f790b8532da1212e741bd4473b2bbcf63fc5e5f4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2a0 sha256:e129eed975048440e88c825e53d4d2f87ad408a9e76fe19f964f9bb7c37784f5
+-  __DATA_CONST.__objc_classlist: 0xa0 sha256:3f5e84ac44940a5f31022b727f7508023e86405edce5d0060e7821c429657108
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:3a23b05729a35d04a1cc64feab2acdb97facf06b7bd62383ac8d7ff5d6ecb54e
+-  __DATA_CONST.__objc_protolist: 0x90 sha256:2a8707ebc482c1f2c1499c1c4489c1e61230c212d69bce9a583e0a3fc9b04c3e
++  __DATA_CONST.__const: 0x2a0 sha256:4a67b980b666233fcbe3e15f4ccfb9ee2237f2f5e9dd0aa4100b8b56017e7664
++  __DATA_CONST.__objc_classlist: 0xa8 sha256:537f22d3a678f42ac9ff05a44f66b8eef1f5b29dab16e60e10af51601a88ae26
++  __DATA_CONST.__objc_catlist: 0x8 sha256:c0c65e6c912dcc20ddf2137b40d5654f67f9a88e90415ba48e437e8d6ccb6d43
++  __DATA_CONST.__objc_protolist: 0xd0 sha256:b9edf3102576df387717911dff52baaf728ab33bf56294ba9a52bdb1bf2a1df8
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xad8 sha256:52a5bfd3e880da2cc96e576d8d243826eb2232d3a65c2948db10fd1d227b7baa
+-  __DATA_CONST.__objc_protorefs: 0x48 sha256:4633e2a8893aeeba159f8cf85c40a212b824f4eea36d4d7dd2fbf6118481b775
+-  __DATA_CONST.__got: 0x430 sha256:3a4d10641d241bf1463e89c06519df7829f72385f735622155674d73b6a53e17
+-  __AUTH_CONST.__const: 0x6400 sha256:611b7fb0f9a4029e26cf14a6106b82de92fd42fa876c6b513da8c0ff15465e36
+-  __AUTH_CONST.__objc_const: 0x1858 sha256:a7b0f722229368b162832552f23b20b63d6d42781bd2bbb6ecb889c675a6457d
+-  __AUTH_CONST.__auth_got: 0xc40 sha256:b00cd820a573181c37db022786eec519e6440cc3643181e0449da9c3f8f3e271
+-  __AUTH.__objc_data: 0x438 sha256:43e4e868303cabadf268ced0134916df8163fbfc2e8e6e81f3e80940506b5de2
+-  __DATA.__data: 0x18f0 sha256:518dc303edc91cf237316b8c6cc4505172147371fcd981b42b4d2df932b1154e
+-  __DATA.__bss: 0xde80 sha256:543e9ba6c4a1aadccd66ea114dcc6656e78ca5863ccd14f642ffa126c0659f38
+-  __DATA.__common: 0x1c0 sha256:5c55c8f4db4010ba9203d83536d0609856af8c847ac039e37e7dde8fbd574b61
+-  __DATA_DIRTY.__objc_data: 0x5a0 sha256:583808fca7981c7e7c40b1901e7382e15f26a49a5305c914011d67cbfff1bc8e
+-  __DATA_DIRTY.__data: 0x1390 sha256:80d101846ddb15ea900bb9a1b592e5ec28e4e7acac11f042adb8c88ac39d99eb
++  __DATA_CONST.__objc_selrefs: 0x1ea8 sha256:94eb64665a3b41b50e0222a00232882b73704e5ac2751c168381c8b89fdb8d94
++  __DATA_CONST.__objc_protorefs: 0x68 sha256:dadfdcab2864ced90642a71f5228ec88a9e8058acd57a2ab5cc2d4897d87e227
++  __DATA_CONST.__got: 0x440 sha256:83d08dc3b17df427280f27177cd4370a40a7204b51e1257c571052166367773a
++  __AUTH_CONST.__const: 0x6750 sha256:ea1dfae2e9b2c57a8497b9f03e5f80964d4d38e931d040bedaae9e5beb868b62
++  __AUTH_CONST.__objc_const: 0x4770 sha256:15d18b589e1ca8658529c9dfcbaad3738b5151f4406f964c15f5456bcce997ff
++  __AUTH_CONST.__auth_got: 0xcf0 sha256:d38935ed0eff0e0647f2865ee1f4c7c51b03249dce7ed0da44a19b36f46a6d46
++  __AUTH.__objc_data: 0x520 sha256:f2d99096fd797379984610688cfc521c9d8bf42e23f295c2606cb5d735cc81bb
++  __AUTH.__data: 0x50 sha256:01e7a90399fae015267cc13b2f47756e876f0c2680234c0793d704a7531d315d
++  __DATA.__data: 0x1be0 sha256:fa3598d3d9e15e21a3fb561a13fa35571ea59efbce32214aa0556b002d967d5f
++  __DATA.__bss: 0xec00 sha256:a44cb528bc0e23dde59e1d6365c600dadf8fa01e4ff7faf9245360abb1ff7cdb
++  __DATA.__common: 0x1c9 sha256:a33995be2a2e8f6aef5e2e8838086a50c8d49dbbad7f9509565dbd24149d1608
++  __DATA_DIRTY.__objc_data: 0x5a0 sha256:8cddcb20501c88c4dc3715482249b5737271df50ed090dcd8998f7b8d69ef277
++  __DATA_DIRTY.__data: 0x13f0 sha256:bdc2e7e8bd63c2d4b1508ff054f1e93d55af987488518e2cba0149059d805f22
+   __DATA_DIRTY.__bss: 0x2580 sha256:e9a15a094703faaea3fdf53af7e04da21717008ab4bb228799712b2fced03c65
+   __DATA_DIRTY.__common: 0x58 sha256:10eef285deef7a4b7c82b22aa53589b7833df29de3814649c772bbd5c832f365
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BA2CB2C2-F77E-3B7C-BDBA-B7F21A105E2D
+-  Functions: 3743
+-  Symbols:   1778
+-  CStrings:  194
++  UUID: 48AEE8CE-40E0-340D-AF95-91EE72778FFE
++  Functions: 3902
++  Symbols:   1852
++  CStrings:  203
+ 
+Symbols:
++ _CGBitmapContextGetColorSpace
++ _CGContextClipToRect
++ _CGImageCreateCopyWithColorSpace
++ _OBJC_METACLASS_$__TtC13IconRenderingP33_839C30B0168865B33C25CB5A88135E2123TextureDrawingOperation
++ _PROTOCOLS__TtC13IconRenderingP33_839C30B0168865B33C25CB5A88135E2123TextureDrawingOperation.3
++ __DATA__TtC13IconRenderingP33_839C30B0168865B33C25CB5A88135E2123TextureDrawingOperation
++ __INSTANCE_METHODS__TtC13IconRenderingP33_839C30B0168865B33C25CB5A88135E2123TextureDrawingOperation
++ __IVARS__TtC13IconRenderingP33_839C30B0168865B33C25CB5A88135E2123TextureDrawingOperation
++ __METACLASS_DATA__TtC13IconRenderingP33_839C30B0168865B33C25CB5A88135E2123TextureDrawingOperation
++ __OBJC_$_PROP_LIST_MTLDevice
++ __OBJC_$_PROP_LIST_MTLDeviceSPI
++ __OBJC_$_PROP_LIST_RBPlaceholderDrawingOperation
++ __OBJC_$_PROP_LIST_RBPlaceholderObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_MTLDevice
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_MTLDeviceSPI
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_MTLDevice
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_MTLDeviceSPI
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_RBPlaceholderDrawingOperation
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_RBPlaceholderDrawingOperation
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_RBPlaceholderObject
++ __OBJC_$_PROTOCOL_METHOD_TYPES_MTLDevice
++ __OBJC_$_PROTOCOL_METHOD_TYPES_MTLDeviceSPI
++ __OBJC_$_PROTOCOL_METHOD_TYPES_RBPlaceholderDrawingOperation
++ __OBJC_$_PROTOCOL_METHOD_TYPES_RBPlaceholderObject
++ __OBJC_$_PROTOCOL_REFS_MTLDevice
++ __OBJC_$_PROTOCOL_REFS_MTLDeviceSPI
++ __OBJC_$_PROTOCOL_REFS_RBPlaceholderDrawingOperation
++ __OBJC_$_PROTOCOL_REFS_RBPlaceholderObject
++ __OBJC_LABEL_PROTOCOL_$_MTLDevice
++ __OBJC_LABEL_PROTOCOL_$_MTLDeviceSPI
++ __OBJC_LABEL_PROTOCOL_$_RBPlaceholderDrawingOperation
++ __OBJC_LABEL_PROTOCOL_$_RBPlaceholderObject
++ __OBJC_PROTOCOL_$_MTLDevice
++ __OBJC_PROTOCOL_$_MTLDeviceSPI
++ __OBJC_PROTOCOL_$_RBPlaceholderDrawingOperation
++ __OBJC_PROTOCOL_$_RBPlaceholderObject
++ __PROPERTIES__TtC13IconRenderingP33_839C30B0168865B33C25CB5A88135E2123TextureDrawingOperation
++ __PROTOCOLS__TtC13IconRenderingP33_839C30B0168865B33C25CB5A88135E2123TextureDrawingOperation
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_memcpy106_8
++ ___swift_memcpy146_8
++ ___swift_memcpy1577_8
++ ___swift_memcpy16089_8
++ ___swift_memcpy17872_8
++ ___swift_memcpy257_8
++ ___swift_memcpy264_8
++ ___swift_memcpy57_8
++ ___swift_memcpy65_8
++ ___swift_memcpy73_8
++ ___swift_memcpy747_8
++ ___swift_memcpy835_8
++ __swift_closure_destructor.10Tm
++ __swift_closure_destructor.14Tm
++ __swift_closure_destructor.22
++ __swift_closure_destructor.27
++ __swift_closure_destructor.30
++ __swift_closure_destructor.35
++ __swift_closure_destructor.43
++ _associated conformance 13IconRendering0A0V10SystemFillOSHAASQ
++ _associated conformance 13IconRendering0A0V10SystemFillOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 13IconRendering0A5ColorV14LinearGradientV10CodingKeys33_F68710AD28C0DD0844BCCBAE907809FBLLOSHAASQ
++ _associated conformance 13IconRendering0A5ColorV14LinearGradientV10CodingKeys33_F68710AD28C0DD0844BCCBAE907809FBLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13IconRendering0A5ColorV14LinearGradientV10CodingKeys33_F68710AD28C0DD0844BCCBAE907809FBLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13IconRendering0A5ColorV14LinearGradientV4StopV10CodingKeys33_F68710AD28C0DD0844BCCBAE907809FBLLOSHAASQ
++ _associated conformance 13IconRendering0A5ColorV14LinearGradientV4StopV10CodingKeys33_F68710AD28C0DD0844BCCBAE907809FBLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13IconRendering0A5ColorV14LinearGradientV4StopV10CodingKeys33_F68710AD28C0DD0844BCCBAE907809FBLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13IconRendering0A5ColorV14LinearGradientV4StopVSLAASQ
++ _associated conformance 13IconRendering14CopyOnWriteBoxVyxGAA20ParameterDataWrapper33_E6443ABD9AF368869A8F703B72C1D801LLA2A0gH0Rzl6ParamsAaeFLLP_AaG
++ _associated conformance 13IconRendering22ICRRenderingParametersV5FillsV10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOSHAASQ
++ _associated conformance 13IconRendering22ICRRenderingParametersV5FillsV10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13IconRendering22ICRRenderingParametersV5FillsV10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13IconRendering22ICRRenderingParametersV5FillsV17AutomaticGradientV10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOSHAASQ
++ _associated conformance 13IconRendering22ICRRenderingParametersV5FillsV17AutomaticGradientV10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13IconRendering22ICRRenderingParametersV5FillsV17AutomaticGradientV10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _get_enum_tag_for_layout_string 13IconRendering0A0V12ResolvedFillV8ContentsO
++ _get_enum_tag_for_layout_string 13IconRendering0A0V4FillV8ContentsO
++ _get_enum_tag_for_layout_string 13IconRendering0A0V4FillVSg
++ _objc_msgSend$colorStops
++ _objc_msgSend$drawPlaceholder:
++ _objc_msgSend$limits
++ _objc_msgSend$setTargetColorSpace:
++ _objc_msgSend$setWorkingColorSpace:
++ _swift_allocBox
++ _swift_bridgeObjectRetain_n
++ _swift_dynamicCastObjCProtocolConditional
++ _symbolic $s13IconRendering20ParameterDataWrapper33_E6443ABD9AF368869A8F703B72C1D801LLP
++ _symbolic 6Params_____Qz 13IconRendering20ParameterDataWrapper33_E6443ABD9AF368869A8F703B72C1D801LLP
++ _symbolic SQ_p
++ _symbolic SSSg5label_yp5valuet
++ _symbolic SSSg5label_yp5valuetSg
++ _symbolic SS_SSt
++ _symbolic SaySSG
++ _symbolic Say_____G 13IconRendering0A0V10SystemFillO
++ _symbolic Say_____G 13IconRendering0A5ColorV14LinearGradientV4StopV
++ _symbolic _____ 13IconRendering0A0V10SystemFillO
++ _symbolic _____ 13IconRendering0A5ColorV14LinearGradientV
++ _symbolic _____ 13IconRendering0A5ColorV14LinearGradientV10CodingKeys33_F68710AD28C0DD0844BCCBAE907809FBLLO
++ _symbolic _____ 13IconRendering0A5ColorV14LinearGradientV4StopV
++ _symbolic _____ 13IconRendering0A5ColorV14LinearGradientV4StopV10CodingKeys33_F68710AD28C0DD0844BCCBAE907809FBLLO
++ _symbolic _____ 13IconRendering22ICRRenderingParametersV5FillsV
++ _symbolic _____ 13IconRendering22ICRRenderingParametersV5FillsV10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____ 13IconRendering22ICRRenderingParametersV5FillsV17AutomaticGradientV
++ _symbolic _____ 13IconRendering22ICRRenderingParametersV5FillsV17AutomaticGradientV10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____ 13IconRendering23TextureDrawingOperation33_839C30B0168865B33C25CB5A88135E21LLC
++ _symbolic _____Sg_ABt 13IconRendering0A0V4FillV
++ _symbolic ______AAt 13IconRendering0A0V4FillV8ContentsO
++ _symbolic ______Sd7opacitySb15alignsToChiclett 13IconRendering0A0V10SystemFillO
++ _symbolic ___________Sg9placementt 13IconRendering0A5ColorV14LinearGradientV AA0A0V0E9PlacementV
++ _symbolic ______p 13IconRendering13ParameterDataP
++ _symbolic ______p 13IconRendering20ParameterDataWrapper33_E6443ABD9AF368869A8F703B72C1D801LLP
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13IconRendering0D5ColorV14LinearGradientV10CodingKeys33_F68710AD28C0DD0844BCCBAE907809FBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13IconRendering0D5ColorV14LinearGradientV4StopV10CodingKeys33_F68710AD28C0DD0844BCCBAE907809FBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13IconRendering22ICRRenderingParametersV5FillsV10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13IconRendering22ICRRenderingParametersV5FillsV17AutomaticGradientV10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13IconRendering0D5ColorV14LinearGradientV10CodingKeys33_F68710AD28C0DD0844BCCBAE907809FBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13IconRendering0D5ColorV14LinearGradientV4StopV10CodingKeys33_F68710AD28C0DD0844BCCBAE907809FBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13IconRendering22ICRRenderingParametersV5FillsV10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13IconRendering22ICRRenderingParametersV5FillsV17AutomaticGradientV10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13IconRendering0D5ColorV14LinearGradientV4StopV
++ _type_layout_string 13IconRendering0A0V12ResolvedFillV8ContentsO
++ _type_layout_string 13IconRendering0A0V4FillV8ContentsO
++ _type_layout_string 13IconRendering0A5ColorV14LinearGradientV
++ _type_layout_string 13IconRendering0A5ColorV14LinearGradientV4StopV
++ _type_layout_string 13IconRendering22ICRRenderingParametersV5FillsV
++ _type_layout_string 13IconRendering22ICRRenderingParametersV5FillsV17AutomaticGradientV
++ block_copy_helper.14
++ block_copy_helper.20
++ block_copy_helper.31
++ block_copy_helper.39
++ block_copy_helper.48
++ block_copy_helper.54
++ block_copy_helper.8
++ block_descriptor.10
++ block_descriptor.16
++ block_descriptor.22
++ block_descriptor.33
++ block_descriptor.41
++ block_descriptor.50
++ block_descriptor.56
++ block_destroy_helper.15
++ block_destroy_helper.21
++ block_destroy_helper.32
++ block_destroy_helper.40
++ block_destroy_helper.49
++ block_destroy_helper.55
++ block_destroy_helper.9
+- ___swift_memcpy1337_8
+- ___swift_memcpy13689_8
+- ___swift_memcpy144_8
+- ___swift_memcpy15432_8
+- ___swift_memcpy160_8
+- ___swift_memcpy178_8
+- ___swift_memcpy217_8
+- ___swift_memcpy232_8
+- ___swift_memcpy304_8
+- ___swift_memcpy42_8
+- ___swift_memcpy58_8
+- ___swift_memcpy682_8
+- ___swift_memcpy72_8
+- ___swift_memcpy754_8
+- ___swift_memcpy91_8
+- ___swift_memcpy97_8
+- __swift_closure_destructor.16
+- __swift_closure_destructor.23
+- __swift_closure_destructor.28
+- __swift_closure_destructor.29
+- __swift_closure_destructor.3
+- __swift_closure_destructor.33
+- __swift_closure_destructor.4
+- __swift_closure_destructor.47
+- __swift_closure_destructor.4Tm
+- __swift_closure_destructor.55
+- __swift_closure_destructor.59
+- __swift_closure_destructor.66
+- _associated conformance So12RBImageFlagsVs10SetAlgebraSCSQ
+- _associated conformance So12RBImageFlagsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
+- _associated conformance So12RBImageFlagsVs9OptionSetSCSY
+- _associated conformance So12RBImageFlagsVs9OptionSetSCs0D7Algebra
+- _associated conformance So15RBGradientFlagsVs10SetAlgebraSCSQ
+- _associated conformance So15RBGradientFlagsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
+- _associated conformance So15RBGradientFlagsVs9OptionSetSCSY
+- _associated conformance So15RBGradientFlagsVs9OptionSetSCs0D7Algebra
+- _get_enum_tag_for_layout_string 13IconRendering4FillO
+- _objc_msgSend$setTiledRBImage:transform:sourceRect:interpolation:tintColor:colorSpace:flags:
+- _symbolic Say_____G 13IconRendering14LinearGradientV4StopV
+- _symbolic So8RBShaderC
+- _symbolic _____ 13IconRendering14LinearGradientV
+- _symbolic _____ 13IconRendering14LinearGradientV4StopV
+- _symbolic _____ 13IconRendering4FillO
+- _symbolic _____ 13IconRendering4FillO9ImageModeO
+- _symbolic _____ So12RBImageFlagsV
+- _symbolic _____ So15RBGradientFlagsV
+- _symbolic _____ So19RBInterpolationModeV
+- _symbolic _____10sourceRect_t So6CGRectV
+- _symbolic _____5start_AA3end_____Sg9placementt 13IconRendering0A5ColorV AA0A0V17GradientPlacementV
+- _symbolic _____Sg So12RBColorSpaceV
+- _symbolic ___________10colorSpace_____5startAD3end_____5flagst 13IconRendering14LinearGradientV So12RBColorSpaceV So7CGPointV So15RBGradientFlagsV
+- _symbolic ___________10colorSpace_____6centerSd5angle_____5flagst 13IconRendering14LinearGradientV So12RBColorSpaceV So7CGPointV So15RBGradientFlagsV
+- _symbolic ___________4mode_____9transform_____9tintColor_____13interpolation_____5flagst So7RBImagea 13IconRendering4FillO9ImageModeO So17CGAffineTransformV AC0B5ColorV So015RBInterpolationF0V So0A5FlagsV
+- _symbolic ________________Sg9placementt 13IconRendering0A5ColorV So19ICRDesignGenerationV AA0A0V17GradientPlacementV
+- _symbolic ___________t So7RBColora So0A5SpaceV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13IconRendering14LinearGradientV4StopV
+- _type_layout_string 13IconRendering14LinearGradientV
+- _type_layout_string 13IconRendering14LinearGradientV4StopV
+- _type_layout_string 13IconRendering22ICRRenderingParametersV19SpatialHighlightingV
+- _type_layout_string 13IconRendering4FillO
+- block_copy_helper.32
+- block_copy_helper.43
+- block_copy_helper.6
+- block_copy_helper.62
+- block_copy_helper.71
+- block_copy_helper.74
+- block_copy_helper.77
+- block_descriptor.34
+- block_descriptor.45
+- block_descriptor.64
+- block_descriptor.73
+- block_descriptor.76
+- block_descriptor.79
+- block_descriptor.8
+- block_destroy_helper.33
+- block_destroy_helper.44
+- block_destroy_helper.63
+- block_destroy_helper.7
+- block_destroy_helper.72
+- block_destroy_helper.75
+- block_destroy_helper.78
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRssugBN3-hHhQBxe_NlAcfS7RxS0miLdPipzaY/Library/Caches/com.apple.xbs/TemporaryDirectory.KfBIR7/Sources/IconRendering/IconRendering/FinalizedIcon+Serialization.swift"
++ "Attempting to create too large MTLTexture (max: %ux%u)"
++ "ICRRenderingParameters diff:"
++ "IconRendering.TextureDrawingOperation"
++ "IconRendering/CustomShaders.swift"
++ "attempting to render %s with incorrect display list profile!"
++ "automaticGradient"
++ "brightLightening"
++ "midBrightLightening"
++ "midDimLightening"
++ "supportsChicletAlignmentForSystemFills"
++ "systemDarkGradient"
++ "systemLightGradient"
+- "/AppleInternal/Library/BuildRoots/4~CQl5ugC4I_5j2FY7vkhDMIHYFhHIZCNuxgNrVJ8/Library/Caches/com.apple.xbs/TemporaryDirectory.xd8Bt3/Sources/IconRendering/IconRendering/FinalizedIcon+Serialization.swift"
+- "IconRendering/AutomaticGradient.swift"
+- "IconRendering/Icon.ResolvedFill.swift"
+- "gradient needs two colors: %s"
+
+```

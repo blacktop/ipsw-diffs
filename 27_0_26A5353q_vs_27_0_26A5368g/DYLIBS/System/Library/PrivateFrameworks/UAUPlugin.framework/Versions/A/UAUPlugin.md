@@ -1,0 +1,124 @@
+## UAUPlugin
+
+> `/System/Library/PrivateFrameworks/UAUPlugin.framework/Versions/A/UAUPlugin`
+
+```diff
+
+ 537.0.0.0.0
+-  __TEXT.__text: 0x1e10 sha256:4cf40efdc8d00fa3d53cca04df7a1c78de1f6271c76e8f34a85d4463c1123e4b
+-  __TEXT.__objc_methlist: 0x3ec sha256:98f4d3e0de88ecac62eaf9424dec37ecbd9fd987a2196a7b39a2b5cb44b2697e
++  __TEXT.__text: 0x1e0c sha256:f440ddd316332341f64ebdd3df92827d0b8d8dd37f774a941d45b6e72b92f520
++  __TEXT.__objc_methlist: 0x3ec sha256:ff96ff70426b671643a0601b5d35d5f775a963185facc115af12dbdc2a1abcf2
+   __TEXT.__const: 0x50 sha256:db19d9671b53477f8f49e228303d47417fc86561456bf2a41358a2bc2ba93249
+   __TEXT.__cstring: 0x59d sha256:34a651f4169f3fae096a9754c6dfe9b9bcd773a0a67fbff6b3d40e8ebe551210
+   __TEXT.__oslogstring: 0x1c sha256:07e399d237ccbd1283055fbe2d25b48a36d435bd6b2d1286e9424aa6458e6e4d
+-  __TEXT.__gcc_except_tab: 0xc4 sha256:fdf8e212628e67307bd0b48ddfb7f19dc6b5f25310f7caca45065c9819140bdf
+-  __TEXT.__unwind_info: 0xe0 sha256:2375c8152adda6d32d9317b4079d5250715d2639be5e1b29d479e94da333ef7d
++  __TEXT.__gcc_except_tab: 0xc4 sha256:4bb9a0c1eb36a949abe6b09f871a7095a9eec551f2005ff5e1b03f9de824dfbd
++  __TEXT.__unwind_info: 0xe0 sha256:a06af80c9af7a78704ed0ba796b452c68e6db8a30cba471a14379e79b0bc7b87
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x60 sha256:1d682e017144d84567870e1c993eecf438b8ed20436172634babc967b6f5241c
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:1e98d7129963ee2f217caa4a68f327a9a124c4b4480e49429080e9097d02fabb
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:b33c3cf5672686b855669106ec278e99b0d14bbe5dff60cdaf68229251f6171e
++  __DATA_CONST.__const: 0x60 sha256:044538c47e43a1b238b7c0556e36411d9017e10c4a9476b6e79aacb2d6554fd7
++  __DATA_CONST.__objc_classlist: 0x20 sha256:e6d292807a3b9955987bbfea2f4851d69090e72bcfc844aabdfd18116ec286b8
++  __DATA_CONST.__objc_protolist: 0x18 sha256:bc3f397d7b67a4bb359a33b5a4f5b348a3a60ea2dfd8c7ebb953b4c315f2e45c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x378 sha256:7c724fea141ca017bd6f5cc9a70a685df249b9e33e5eb7924728e5136b004c72
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:2003e9a97d3db891befa088dd3393b7d935ce5db63ca6f3264718de3ba07e0f6
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:84fdb0d793060c2e61ec19b2f63abf12640fc12181cbd548efe9b191b6e072f1
+-  __DATA_CONST.__objc_arraydata: 0x8 sha256:bcb789fcb19c0a2be95f1fb12de5d3908404a324972bcfa158f21287c8ab6332
+-  __DATA_CONST.__got: 0xa0 sha256:29d7ba4db1b78090c83a31a4b63424374f346f2a277f4dcd82f2371e48704d4d
+-  __AUTH_CONST.__const: 0xb0 sha256:d65b566f32db27f7175653dc4b51644f6c715949391007c178097cff16fc498c
+-  __AUTH_CONST.__cfstring: 0x500 sha256:6e9627560e771ebba8da4c2b25f4cd8b63bcc46682bdbbef6a2970dd80a7b0a1
+-  __AUTH_CONST.__objc_const: 0x690 sha256:2a613cf2aa1de428fe31be058ffbe790974ad1c97f668e57457cdfc4d105728e
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:915fca00b8c34acc8628ab8847659c4b5f47d0603579c29d143ac63ace7a01dc
++  __DATA_CONST.__objc_selrefs: 0x378 sha256:6ce1aacc06487b2083c56f569ee04b2478fe11621754a5d72a47d4475d325b13
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:f35ce62a20a898f946aa074f20fa2e53fb7a3c907b7aed33789549be942ce581
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:329de140102d8b6fd5bfc9de5a1627fb34dbf25f42abdc1a0454811822a4f6f8
++  __DATA_CONST.__objc_arraydata: 0x8 sha256:1189c020d8368cf7b3c3d3c0c94596c0fec40e1a31e1ce0d4e2b37a2796a9811
++  __DATA_CONST.__got: 0xa0 sha256:0855a818c2a13fb0f20b58fa50108af99d04b10555ee96657714870837291f20
++  __AUTH_CONST.__const: 0xb0 sha256:02b81965df98776de6f838319cd0b885ae5a5c5585b0ac88cf8315d8a6e3c219
++  __AUTH_CONST.__cfstring: 0x500 sha256:634194017023aa33d74f9152070fb9b2bff00baa473dbf568aaa14999a72b24c
++  __AUTH_CONST.__objc_const: 0x690 sha256:a975dba982804e157343655b790aedd392664e9e42c2d21f101875676c6e58f6
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:c2ff1e9b098ca1a39f733bcec726fe84780e54c73d851db360eb9860f582a4a4
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x140 sha256:6b963c4bf3118e636f75911300a5fad06649acc214aca42e667bc43f75f72afc
++  __AUTH.__objc_data: 0x140 sha256:cff3e9d3618d4849d96dd74a8f0dab7bd0468696b8734b0bedf72c8416f510bb
+   __DATA.__objc_ivar: 0x3c sha256:a35bd6a71b56afe5a7d938fdfd0c28f1a520b051d8990544cab42584cbc515ef
+-  __DATA.__data: 0x120 sha256:82a45063a84e2a0d50cc95c7a1b01c6dd949e7254f6a1391319fb264b65bc4e9
++  __DATA.__data: 0x120 sha256:393292200be17443dda2cac47476046037c01e88487afb106892300e26fd369c
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libDiagnosticMessagesClient.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E066F41C-A440-3853-A650-4EE92B3BDF25
++  UUID: 7A42DEF8-62CC-3D94-AA94-CFE2C541636E
+   Functions: 64
+   Symbols:   276
+   CStrings:  87
+Functions:
+~ +[UAULaunch requiredODProperties] : sha256 986970281b4b272555b7ee7412392bee88805b2fe0a02213fa453d9e5bdceb9f -> c6e3210c8eb3edc0a45486c32d08c9e963a96fda6114a1391bf7c830743e67c8
+~ +[UAULaunch shouldLaunchUAU:useCLIArguments:] : sha256 adcf2b05bdfc1bee0c0f3b011cd5543c7d64e6091f03880e23b2cfb4fc10a400 -> a855b23265e4334d80888d8cc88fb740739cfd772e539b18bf5501814a41f27c
+~ +[UAULogging logType:withString:] : sha256 f3a9e92f161fec1b0f2a617048f4954f6fed3a60bd5b4a88d2d530c20488d84b -> 2851504e84df382510b8ddd513cbe98f411192cad643dc07eead1712471ae8e8
+~ +[UAULogging logHandle] : sha256 5723558930e82fac8711546c573d1fda554cc14df0aa5e25e7a62a94cdd36d51 -> 09c65fc726416beaf9999baa7a2113bde0599cefb89b68920c8b4b8edbc4fde0
+~ ___23+[UAULogging logHandle]_block_invoke : sha256 10e0a7cc4b23076bf959e35daea888d8e43097ceedaa0f24137bd027cebb63ce -> 177ad18588cbbddd3921c16f04a100928d27a019978dbb322c972e76254cdf71
+~ -[UAUSession initWithParameters:] : sha256 3907a60b287e995d98954c3188f979e3b8d362fcb3af9e18d4dcfc3f8a39abbb -> a452d19693da8e8a0ce911b1e18ddd8ad80210216065d02af133f9b4da5e0b24
+~ -[UAUSession loadOnePlugin:fromBundle:withOverrideID:] : sha256 7bb71b629ec1c69a179134ec4a8a3427a6122390edb96a81f9409a89cb6479a5 -> 12b978b9882aa124dfb1209474b25e13fd332976e4ebfb475b926b1dd8bf40e3
+~ -[UAUSession loadPlugins] : sha256 5feea5e1346e2f66afb08ba30629bfd386ff9b8edc3ddce9e34c34af6b5b7323 -> 9e2d5f40385fd70012c65b5c5326e10044b268f814c5401f13bdf4f8c81ca535
+~ -[UAUSession runOnePlugin:withPrivilege:withCompletedSet:andQueue:] : sha256 66e54c22130eaf4fc4126de09a9ff7004bd3d8a859a0b2d7987625f8f7e11fa2 -> 721bce79bbc7f0e78d2376cf1317cd3f23baba691edc54bf2e6dfe7f4946fb5a
+~ ___67-[UAUSession runOnePlugin:withPrivilege:withCompletedSet:andQueue:]_block_invoke : sha256 cf2e4e7152a3bfcd0aae24048a6734a45d696c6e835a7f53c8b7d2b679264633 -> b610e5da293ebbf77c0ab4ba3f226e4a031e120cedb00d7ee8680b8d6893e243
+~ ___copy_helper_block_e8_32s40s : sha256 842435c47602399353ff4fac6c2fa98f50282fb4dd8801644aa9acfb27987990 -> b37f235e0ca45f32bd5dda475f5e062fd397d18e17711332f49231c444874c92
+~ ___destroy_helper_block_e8_32s40s : sha256 af914c24f97543ec8686c0e809578440b3b99b5a4a2397eb6055e9d866ef854d -> 1c490fd4a48a72e9661558f5a1d3c474f39610f13a66a9f41d90e5f88be08d4a
+~ -[UAUSession processPluginsWithPrivilege:] : 1208 -> 1204
+~ ___42-[UAUSession processPluginsWithPrivilege:]_block_invoke : sha256 942f8b3683ced3da65b2873a4d81285a2fd2244280fc58ee3256f610e3e8550d -> ecdbd167cd9194bba3f8f5470c15a685694cd534b7ba053612472db5ebcc6810
+~ ___42-[UAUSession processPluginsWithPrivilege:]_block_invoke_2 : sha256 09d1792073768ecb414b80c150aa1ae6c179f4fbd6542fa1bb1b470cffa381ed -> e144ab6f69ae6ffdfbc557e6f814b87f9cce2802eae896be4666d27a3ccad68d
+~ ___copy_helper_block_e8_32s40s48s56s : sha256 457dfec58a6b0bfb0756500b0ab6b23305ccd5e4c64c47d6c13b61c85698dd6a -> d496ee497dea86133447531ea486810c35ce09011252fa0140cf9fa33a30c8ac
+~ ___destroy_helper_block_e8_32s40s48s56s : sha256 e392b9666977f9ee42802c6609089f6993fd55b37de701c7bcfa2c8d941bb621 -> f7d87be5549b2be2d034950bf9bbe3f9cc0e6a8f2ffd291e45fa1f4fcef75253
+~ ___copy_helper_block_e8_32s40s48s : sha256 216222089f2f03e01e61a11998c6fc49786fdc013cfb2114f401a50714d3734a -> 6af04f5e286ce6f48c8aa1dd1d72d435ffaaf5aeaec0b7dbacf9ce0e52659dee
+~ ___destroy_helper_block_e8_32s40s48s : sha256 1a53644a2daef26a13a3d58dbe6d1f6f7e510f730830196b858647db6863139a -> d93c3bbada957438cf9f06cc645b0822e83bb5bc3117c632e511360ddc497ff1
+~ __42-[UAUSession processPluginsWithPrivilege:]_block_invoke.135 : sha256 e241334347ab8137f693365eedd422a1246e0a862541516800466c3e21751fcf -> 350e941d827e58c7cb579a657d07183d96e00c776aaf793187ee920c619f6adf
+~ -[UAUSession shouldAllowPasswordAccessForPlugin:] : sha256 cf4e19dea348129bef0a803fcac0b946bb35d2a547cecd276fe90aaa0c45a16a -> 6aeaa162fac488c8b60d89c6d246ea2633a436970c4474e892b80f08327674f6
+~ -[UAUSession sessionParams] : sha256 f211813b8b751d47758c7197f59d14826b28bac54502f617f62a8bd0cd2cc039 -> d1cfe35dcdfc928342c42e704911cbaa3b52b9d4d7af6b894d3dd938ccc701f9
+~ -[UAUSession setSessionParams:] : sha256 eabe1195a84f3c2ed4d1ed5e210ebbce33d602b22f37831219e8153ac83777b0 -> af62dc5d72f139ee87009961b96c8e784df9223ea26bb0a1c863af8ddd9731ba
+~ -[UAUSession asyncSafePlugins] : sha256 855f5db1381995f99b13e20e403c247dbe61ff565f98339ab0e355fcb1233320 -> 9f441692230f4ea89e480edf428b05c5a993cf54bb17f75c6d73b9e2e205d0cc
+~ -[UAUSession setAsyncSafePlugins:] : sha256 b813669a043636ae54936a996d4fc6a63332be080335ad9b3157d5681718259c -> 588d44e439133418e52a573da9df2bfa76e1109d7febc48d81448550eb6a2468
+~ -[UAUSession plugins] : sha256 4eae3fec52cc7ff96af67fb5ebeb5b9e27f4f5d7201c9aadff234a8119a78264 -> e0351cf794971f71407872929c3498ef32df15a4d3f07d555542fcd18f558014
+~ -[UAUSession setPlugins:] : sha256 26570e2b0ef994c3b7ab966b06b0db51c33a134a2fa0f015559cd2794c225aa1 -> c5fb29bc87def5287de5af3f77fa49f0d72a63b9b488ffed40544c411360e3f8
+~ -[UAUSession optedOutPluginIDs] : sha256 1d0241051a988f97d2b2ef886a9562e4ab3c2cc00572a1d7408a3fb1d0dd46e5 -> 16f8cf0d853197e507466c18d268a1b3cafc26f068a4e32fe33963055f0283c7
+~ -[UAUSession setOptedOutPluginIDs:] : sha256 e5659f24b772ccd8197d48fd48dff36e503c6892aa92676d02de74e82c2292ff -> 31035affb722621b9aac9bd5edb152e05ca37a4bf561351d1b3f966c059548f0
+~ -[UAUSession pluginToBundleIDMap] : sha256 3caef154e46fbcf9292b6a39caa429221e6cdd14d8c6b3fdc05e6ebb1a005abf -> 11825e4a46f3715a339d580f3a9dba6bd00058381abf2b0c72dd4a9505d81447
+~ -[UAUSession setPluginToBundleIDMap:] : sha256 eeddf73332bcb97f4a00b1d8bc7d79e6f37ef928e90b4e1fca3033a199e3685b -> 35cac2cbb90b8663fcaeb4a20dc7233f2914efcaaae94d4792ced43993db9939
+~ -[UAUSession .cxx_destruct] : sha256 5dd063254912f4496afd44da7a7e1ead64b83e376834b5b9bf3315365836b7fd -> a8552ac20094d1c0d46cd490aecaf4d3d6e1a7617fe9ec9e8c52e13b65369906
+~ -[UpdaterSessionParameters copyWithZone:] : sha256 f2bc3db0f2bff7da6fe60b0968d077a706966d03f21d3ccc458436b3aa7f9cfe -> 17654e29c4092b724efcebb103be56cd989c73018ff5f5d317fa34a75eb2e54b
+~ -[UpdaterSessionParameters newUser] : sha256 4641dd140dad62b392092388ac065dde96ef5232e1fd929cbbb408aad7c7d7aa -> fd36b0ecaa6db27c0bb0f714766242c47be11834e9e36592b8fb084f7859480b
+~ -[UpdaterSessionParameters compareOSVersion] : sha256 55820b627e8596dcc3049176bcd5f1204c1e22c5bde0df5993ae1a392a207d1d -> 94915adca1187c1a88436cb2b5dff7c525fab5cd66dfc84da524650354216a65
+~ -[UpdaterSessionParameters compareToSpecificOSVersion:] : sha256 483cb5174649f3b3d0b1a0bedde3fc5f0c0b61f49f96c6ee3d01b5de7b1a606a -> 70d23314471be3b71259e667e05f56d0110598483fe7374c035f98214ba6041f
+~ +[UpdaterSessionParameters compareSpecificOSVersion:toSpecificOSVersion:] : sha256 7f4fc140e43646c7b227ee040ecb9e2b2c012d19a04cd0246baa69dd51d25001 -> 71d105ecef00db21ffe3d0cd43d3f7f3707af8c2f32f01c4ec1eff3863915141
+~ -[UpdaterSessionParameters compareSpecificOSVersion:toSpecificOSVersion:] : sha256 190b37ea9fc87b6c3a20f5240a83bae4fb7acfc1127eae36b8b76f04972441e0 -> 0e447694bacf82db5554455085de24d72f88a5bd4259d39f916a2c811020661a
+~ -[UpdaterSessionParameters homeDirectory] : sha256 dd0c52010ed1af006a0851c040945fc7d7e73f46f682bb57a73609e57824f391 -> cdfdae6976f1f518ea1b07a0f56e11875abb47ba8179460a5cb9da2ffc73f65e
+~ -[UpdaterSessionParameters setHomeDirectory:] : sha256 caf41cabaf0b988f42a2993cf78a38788480048f8abc7f76b04d507bcb433c8a -> 5b03d3130fa2cfef6c1c4e65be1ade656a0f61a3bcc29c751d401dc9288c24c2
+~ -[UpdaterSessionParameters previousOSVersion] : sha256 7a8b428930935c27ef73efdcc97946edbdffa814bfed2b4cf5ffb9e4d826410f -> a2d7678da702e5cdffb6fedf21c78d7d248b11b63834d96cf73c27807ef4183b
+~ -[UpdaterSessionParameters setPreviousOSVersion:] : sha256 cff2aef170c669d9ba48f74c2f2f5a45b5713ae3422ecfd2b2343e1320695eb6 -> f7051ca3f7cb910527511c3f70f801501f6130e5cdf8bc95f642135f0d9670ab
+~ -[UpdaterSessionParameters previousOSBuild] : sha256 4c1e43804086c86336c0ed158fe4ff09fd99df7aa37fd658f1986dab871bdc37 -> 80d5293a7cbc4bfab2d6a3cc4aee98f85f28b85b95305bf8ab384219f040ad75
+~ -[UpdaterSessionParameters setPreviousOSBuild:] : sha256 c885e2aff449d75913e354b45d05e5ac4ada4b98fba2f8b843540f870fab8a05 -> fad199f3408b65c9b2609dc24b179f8c4ad122ded56715df8deb41af0758e2bb
+~ -[UpdaterSessionParameters currentOSVersion] : sha256 c58a95513054eb7593077a6ffee56d0d69ace7e6af48feb805328c86f1cfd70b -> d8f9ef950391d02a0fe44306ecf24789e770dc8a12a301c70927c79cacc1f0a4
+~ -[UpdaterSessionParameters setCurrentOSVersion:] : sha256 6c8fd7d5ae84dd6d830c867987aaf81061dfc691eb41c7bcc0192dba469f5560 -> a55fc304b2d47680a2fd34ae437b01b575d148bc6da3e5a3fbbef5cc983bc9ea
+~ -[UpdaterSessionParameters currentOSBuild] : sha256 c4cf487e9fc6f05aee337267404da2bd9fcd9e15393a1620c9f20872f2c7bcce -> 40982ab4cea0ea41aa61d74d043ef7476c43b6a58f3c45568bcd4c473743e5e6
+~ -[UpdaterSessionParameters setCurrentOSBuild:] : sha256 ecaf56626a2ab7080acd76b328be74ac4389114fd02ba30bf0174ee4355df926 -> bad3ca3a9bf2582c5d06e9a0c2d11d6086c8fa7b7dc9776d50df06caf528b362
+~ -[UpdaterSessionParameters password] : sha256 88f7a285ba7eff9834efe921cc0d7fde8a8a88aa3f44972421bf1da27f24125f -> 6f89481f4a0df3cb8af80d25e6be92f68dcee892c00faacbcf98c33e428b4fe1
+~ -[UpdaterSessionParameters setPassword:] : sha256 04ddcec7359f40cc2891982afb5bf56b2fc5ac6a7b3059396ffdb29c36cc128a -> d1e959fd6705b8de3d679ebf53ebbedb6243ec3c65007eb59ba42ebe4aad84c7
+~ -[UpdaterSessionParameters .cxx_destruct] : sha256 0c72ede6a6f71a519cd3fd9a215b7e5272498a9cbca036187ff7d220095b3640 -> f87444bf1d9721123fc03be91b0fb4262aa3e62d8832a1eb1ca00ff11fa8a050
+~ +[UAULogging logType:withString:].cold.1 : sha256 c3bac59489b4a203aebe8dfaaa6f1475e7199203092f44d356b58c31aea47f9a -> 5f3f75913ada596770a056aaec7a0d2b7f762d5d6e4195b1e380be195152fb15
+~ +[UAULogging logType:withString:].cold.2 : sha256 3991a031edb5e8005dff1d08b23b1594c7677336011b4d18b7c4b330c4e77c86 -> 90d5e9a7aca450c22cb2117cdc0eab5e1693cb63b3e3c22d6b4d423fa4ecf08e
+~ +[UAULogging logType:withString:].cold.3 : sha256 ed0ccebc239660e15e1149f5f3d6412d46acaf96a8475e93fdc3f14e218409c1 -> bc475a086847ab5f565a416a40ebbb2d3c360d22efe39798253ad11fc9bb3843
+~ +[UAULogging logHandle].cold.1 : sha256 58603de3a429abad56d34dbfb2063da3b5be0dfda705b03ce9a91ba2a0fa7d06 -> 6d00474e4fedf97ec088d7b3c11e3bd890c00a97ae49cbee93e13a0dc78cc1d7
+
+```

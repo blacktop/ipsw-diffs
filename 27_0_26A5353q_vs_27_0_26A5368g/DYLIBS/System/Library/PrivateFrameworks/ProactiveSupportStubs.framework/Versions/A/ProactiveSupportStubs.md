@@ -1,0 +1,72 @@
+## ProactiveSupportStubs
+
+> `/System/Library/PrivateFrameworks/ProactiveSupportStubs.framework/Versions/A/ProactiveSupportStubs`
+
+```diff
+
+ 422.0.0.0.0
+-  __TEXT.__text: 0xdd0 sha256:fe88642c4aea203a2bba229825bb7d7e0335639896cb327c3f73579f48899093
+-  __TEXT.__objc_methlist: 0x5c sha256:79b09ceeff75b6791cd9b5ebacc0b3238ee42578a256c26646a34e1b74d8eb87
++  __TEXT.__text: 0xdc8 sha256:d8c4373c2b740a8c7b73c1e03013fbca8bf789bcb5c2051c96e6e372cb9d35ca
++  __TEXT.__objc_methlist: 0x5c sha256:a43b979d681b4bb64b9b8f35ee3f25c43e50a2328c8cef9d0c81abd662863050
+   __TEXT.__const: 0x68 sha256:1a5ecc828397d2d7b9f5fd784a9f1ddea06c520ff140ee0beb86c562c69e3778
+-  __TEXT.__gcc_except_tab: 0x170 sha256:0cc63a2dd5634e726e17ea07b205aad1e7817c7e8cd4875d79d4029e81229cb9
++  __TEXT.__gcc_except_tab: 0x170 sha256:6f008e12d8b31180fbf9c77a1811da6d04ca5eb8baed462940f9a7efd3f82802
+   __TEXT.__cstring: 0x57 sha256:dc2348904cd36204031b0c8f91daf971263910f39a47d1f5edc3d431e86baed3
+-  __TEXT.__unwind_info: 0x100 sha256:99477040db15af9c7765956587383bd5bd89027216298d889e8abf16f53b27e7
++  __TEXT.__unwind_info: 0x100 sha256:adb9a771f7007449013f061bcd0b13d1ea7c2062bb895402aebe41f5ebb300a8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:a403a9479f0751468b6aafa2d920d3ef1d3d8857cef0d5c83b9fb847e756d2da
++  __DATA_CONST.__objc_classlist: 0x8 sha256:5e46826b64f19ca17604a5760be93dc6b78a78d98020abbe6148339af48a370d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x98 sha256:b1216d26615f4e2a21bdbbeca999f975117dffb79e18972ec14f439c2340e4d9
+-  __DATA_CONST.__got: 0x38 sha256:9f6a01667b19ce7bd18da0320298b099d6859bf1e7efde0b4764c3b2c34f2c10
+-  __AUTH_CONST.__cfstring: 0x40 sha256:673dc46a73a8100d54739a2e5ec78bbf93f90eb867d295430e2abffd4a34f9a1
+-  __AUTH_CONST.__objc_const: 0x90 sha256:19df24204a9b6f5292e0eb420336cab4ca7ab805349ffd3bba37e86f5698eebc
++  __DATA_CONST.__objc_selrefs: 0x98 sha256:680272aeddde9b795f09571be9ce6b8fd681f7000b287a7161cf335f3fe0a1c7
++  __DATA_CONST.__got: 0x38 sha256:3a1b53534f01e1c4918f6594cee76ceaa40c12bbd1716e05fcf3b2945004f784
++  __AUTH_CONST.__cfstring: 0x40 sha256:919f91574bba3b788edeb6adef99d7244ed567e5f99906c33086501cb50b8fef
++  __AUTH_CONST.__objc_const: 0x90 sha256:ea05139f60fa8fd49037cc6ea3c06c956ef3cb5901a58fa8f99bf921c217dc94
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:1ac37f1d737740513dacc816c8012c08dad6748f8cdeb043ab6f33acd6725aed
+-  __AUTH.__data: 0x68 sha256:e04e08d39eda5670c2939550a5f722e75527936c3cce7323575a16b97ae0b2a4
++  __AUTH.__objc_data: 0x50 sha256:79d9546baf54b655e00dcff8b683026768100fd7a6c8f2026f0fb926f4ac4cb6
++  __AUTH.__data: 0x68 sha256:0cfb15c25e47716885814ca5d1847e780ea6ef15afc543b6a412e6e39164c1c1
+   __DATA.__data: 0x8 sha256:7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8
+   __DATA.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/ProactiveSupport.framework/Versions/A/ProactiveSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 83803A94-D612-38DC-BEAE-B2DD49839F14
++  UUID: 2CC42E34-2FFD-3A9D-AE2D-3488DE71FC4E
+   Functions: 19
+   Symbols:   83
+   CStrings:  5
+Functions:
+~ +[_PASDeviceStateStub startMockingSystem] : sha256 5fa1deb0709c6f19a34554391929bc64ba2e3f5447250329d18f40c6193face9 -> 63e365fa3a652d4c2207ce8d25dc2e32d7486fec915b492b5d1db404d83be47b
+~ +[_PASDeviceStateStub stopMockingSystem] : sha256 5bb7168d2b5f2249b40f6f880d8d05b24887a2fc576eb2858e31511f50a0b16c -> 203b9eacb805306ff523d6f0cc4762125a66f4af4a863d0561a0d9d3c810cd84
+~ +[_PASDeviceStateStub setLockState:] : 388 -> 384
+~ +[_PASDeviceStateStub setClassCLocked:] : sha256 f47c8cb7bc568bcf74260e8cb5055115cbccb14bcef531b87179f67b3b38ac7a -> a0cff52b82a4d6dd1f1cbc1916ed1f4c268fadbf74842a21709240762d65d8c4
+~ +[_PASDeviceStateStub setLockStateAKS:] : 408 -> 404
+~ +[_PASDeviceStateStub setDeviceFormattedForProtection:] : sha256 190aa5189a97b60beea8f099ea81e84a1dfe634c918052db5b2d3c033d447211 -> 12b73cfbae5687b0ab3eee6bb6c70295ef23fd03b0726aeaa90e11556a5fb352
+~ +[_PASDeviceStateStub setCurrentOsBuild:] : sha256 10789e5cfd93919bf05fcb867ff89e97ff2924aefb58e079ea265b41181e1278 -> ad77da150a286a1e5d0253cf863970abed44e019bc4b60fd47b3a450793b8f3e
+~ _unlockedSinceBoot : sha256 eb1d0e88675b240835d42a6302550b9632fff3c128a20e1700a34061b1edab0b -> 70ecd903e4dd498e13633f511ec46edc5523fa80062b54bcece500e1acc28190
+~ _formattedForContentProtection : sha256 ad1cfb705fc0d4e58186bc3a44bb210074dfd419cef4b7c31a26436343996bfa -> 404c712a51b7e3412f662a2a0cc33ed4785d57f9f76cacbea38844d9e151e4f5
+~ _lockState : sha256 9eadfabc4850b2969ba3bf2fbe904f931f2945cd51102ea449de55eca1603a2f -> c9078e136c3835bc744e64418be650520314b3cec4f98bbe299001377f458386
+~ _deviceLockState : sha256 784e340fcee2fa4be9e5c8bb7b7274e7a5e66ec45372a1b85d4f62743675bd0f -> 35d66a50dc954181a5cd92fb22bfcd30932f65a8074fcbbefb33c65aa5035fdb
+~ _currentOsBuild : sha256 ae8f1ce3878bd2878abf1f35cabd768a2b702c963fab553cf55bc433c439f41a -> c581d57a4fc559145cae1da6d741d802bb08eda968963a88f010e44d39278395
+~ _registerForLockStateChanges : sha256 54217dfaf16f5b1480ca84c72cdb0a95baa39db452d612d372b90cd77197bc42 -> edc8bf32a9dfa8252b2a4e4a1764456b1d07e2b893bc4c2e7130b3fc5a06f5b5
+~ _unregisterForLockStateChanges : sha256 ed9b84137b29b7e87663a7e41d4b2267404b2de3c0446a042fc4a5f5ce72e98c -> a02d0660164dd2dcf4a5cd6ef9e5ebb5ecc4c459f4b971d9945866b419db28fe
+~ _registerForLockStateChangesForDevice : sha256 a13b676dd0dd10b6acb733891deec0ae7692bb6d3c147e9f6c0144a8f8d974f8 -> beab7c631fabcf404057adf12d473838c5b0844be61eeef13fa6dadf83fcdb5a
+~ _unregisterForLockStateChangesForDevice : sha256 95143fb858354f9dbaf34a9c91b377fdc59ee79a3c7d9a26d42fb987f6f758f9 -> 636ad71a12d485939250ec31181785da615c84f5e88acada160185fc8f70cffc
+~ _registerForAKSEvents : sha256 28f37f22f6ecdf2a6f51bb9d8457ee83da48b0997bcf3f124ac953636cb65f02 -> 3f5d695d40081e2de35bd8c8f2159a9f3ca81d9f14bd06779ae144bf479a3e2c
+~ _unregisterForAKSEvents : sha256 76d468ede0641cfe3117436832d43fb1f1a210f85cf02879381412c542ee0f9e -> 174ca8ab79797e1f0d5ba69007ac0c6ca92c80f19ebe518a78a9f5e2e758a4c2
+~ _registerOnceForFirstUnlock : sha256 0723f449faf54b42e8605ea8983029d5439595578a0caf23394d05356a1da7c2 -> e40e9a09457c2a7a7d58c5cb572da10ecbf3ed1e806ce95520a079919008afe0
+
+```

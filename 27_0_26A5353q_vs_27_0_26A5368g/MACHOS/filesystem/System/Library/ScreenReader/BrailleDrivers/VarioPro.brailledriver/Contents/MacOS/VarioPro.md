@@ -1,0 +1,53 @@
+## VarioPro
+
+> `/System/Library/ScreenReader/BrailleDrivers/VarioPro.brailledriver/Contents/MacOS/VarioPro`
+
+```diff
+
+-1036.1.1.0.0
+-  __TEXT.__text: 0x25a4 sha256:3fca6ab3bb1c4b7d525e269f4646b83c5aa4907079d0ce660a0484946cdcdd04
++1039.0.0.0.0
++  __TEXT.__text: 0x25b0 sha256:5f50bc9f922a9f552e9bcf12be301ff1c8d1239510129826f8595062d3a8c986
+   __TEXT.__auth_stubs: 0x240 sha256:ff5dad6b28f6b5000f3c4499fda0acdffc22ee04fc9e6eda84f14eed94cd8ad6
+   __TEXT.__objc_stubs: 0x4a0 sha256:581b2f13d3452378799ec8ab50d02851c69abec7758c95d96dccafde9a6dbe6d
+-  __TEXT.__objc_methlist: 0x334 sha256:59ea79bdecf1a79a68099c45e923f3b012fb54dece65b23f29c590ad50c02275
++  __TEXT.__objc_methlist: 0x334 sha256:bcd37d06fbc1ef06e134e6e20d8a9e63fabdb93e0b7d266a4b800d71cc4df9bb
+   __TEXT.__const: 0x18 sha256:957980a093cfa289a77985b6414f44c1bda976e1457fa14fbaeaf5797e8e365f
+   __TEXT.__objc_methname: 0x646 sha256:a447ceb908229e1f3c6e6ff6d50956b172e07bd300f0f79f28b88bb7504edb97
+   __TEXT.__oslogstring: 0x3b2 sha256:af23ae9205136111b61786ab98f380cee66c839c391eb9936a02711503b8a9ed
+   __TEXT.__cstring: 0xc9 sha256:9b648b54e34d3ec3bab97c3dc61f1e63dad21b3bfd8939614dcd30e33395b938
+   __TEXT.__objc_classname: 0x41 sha256:07c32630d0dc9910f4e1eb4c799413e35e0efecc3a71dcf674387b39a6bf6e78
+   __TEXT.__objc_methtype: 0x215 sha256:8c3bd6a255a35fa204ab3b771a2a258322e67097ff50cdaa719cf638ba700c83
+-  __TEXT.__unwind_info: 0xb0 sha256:eca652615da928e36f7654915d07ea90d917f49aed6f86613f17b84060b3f1fe
++  __TEXT.__unwind_info: 0xb0 sha256:e974fc57143c62d31406c90bb2d00997edb796b180d7307f4941852566c9a015
+   __DATA_CONST.__cfstring: 0x80 sha256:bfbd1d9e7bbfaf6a31cc5797f096593ee739b4a1195143cc9198b917a2ea3425
+   __DATA_CONST.__objc_classlist: 0x8 sha256:20b69aae3468aece223963a9cb39a823eb5c04aedc83a67b2bca0c7b69be8c9f
+   __DATA_CONST.__objc_protolist: 0x10 sha256:6b672b9031556b9aa487bf359e54bd7793e3133080484fd039b92b43635e38b7
+
+   - /System/Library/PrivateFrameworks/ScreenReader.framework/Versions/A/Frameworks/ScreenReaderOutput.framework/Versions/A/ScreenReaderOutput
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AB0E71AC-22BD-37AD-84E3-D180C7BD0379
++  UUID: 6DF97AC0-9695-330F-BABA-C035BB3A32FA
+   Functions: 26
+   Symbols:   52
+   CStrings:  156
+Functions:
+~ sub_c80 : sha256 ed1f3d0112ea09bb2c28bd528049d3c39d7c1acf86e1c19470b5d51a06e8f8c2 -> b99701a3dfda360b1addab0ab766e52336cb246fceb3ded8f3ca869b4b057429
+~ sub_cd0 : sha256 46f95e453db6cbc954dba4257af209b6464fe36bc9d458d0d42d11fc4559e7e0 -> e4889f94caf3eeea9d7571b70dc97d549018e5dac630393df0d888de6b68b254
+~ sub_d20 : sha256 bf881d4d0d2d47d34edc0b8a33c751ef1514b7cf6aefc96f5729e94728dad2cb -> ae314cc40310e1dbbae15d96c86ebaf46be22889734276ce54f0380f92fa9f57
+~ sub_1568 : sha256 5da29059e1a5cfd817ab1b918c97f11b67a11d5fbdf9d9e15dad7dea604c6606 -> e6d14d36aa002a4c70a11f7d78baed32aef76b9042ed448841ecf40d82a6a940
+~ sub_169c : sha256 686d9e44da36615de625b3858fb72a2528a8613a57387767a1b3bf0ba48608b4 -> 36edb86e50701aa5ad62ef80801bde6e321c0541a5647a4a54aeb111af33fba0
+~ sub_16d4 : sha256 4feeee05446470bacccece4695d22a5d623631fabd815d845b5504b55263fcd8 -> 1fffa253a17d0a3f1269f5de87137f2dccf203a7c7d9faf888db8dba76df03f2
+~ sub_188c : 2100 -> 2108
+~ sub_20c0 -> sub_20c8 : sha256 a60729f1c591e0b6497ca52f02d636c2819996065465b818ff73f91c9d6012cb -> ab197eab31d0bce2e60229fe72063cb0c340d79c2e3c7ac7997f63636a99f644
+~ sub_20ec -> sub_20f4 : sha256 6180818fe890af6ac85f5df90045f187e941a9b29fa29f1f477185943ff8e532 -> 8e5a20613507b3db7dcbf96ba16497fe8d9b907a86700bd85cfc4ec088a3ccd9
+~ sub_218c -> sub_2194 : sha256 15607622f19dc1486893989eae22b7c59a6744d077a40199228f7c9d2093948e -> db460c317fda4bd31bc5c792e2fc9db44b267d8a55a71c2e0dcf01000a307e54
+~ sub_2304 -> sub_230c : sha256 7e2d0a5cc284ef2d73c00e782ff5375ef7fde12d40966f8be727b491d724647b -> 18a5764fee4fff2850c43be59ce304ce353e28b55f2d546850ae3e0b848c8aaa
+~ sub_2654 -> sub_265c : sha256 3eadbc59ba360909ed5f2a86859c37122ee7b6960abdb0e572c41bef60e0a959 -> 7bfffdc7d0221074d4d0644c911d8799c95e6e666f7b9bac421cc06002bbbdb2
+~ sub_27d0 -> sub_27d8 : 1796 -> 1808
+~ sub_2ed4 -> sub_2ee8 : sha256 110098d151a3b915e8eebdb0ff4e70debb0b9a4cb25e996e63f03698ed6b0dd9 -> a545990274dcbf90e68089a01e02968170dfed6875a9cdf63cdc5be1ca4639d2
+~ sub_2f18 -> sub_2f2c : sha256 e14920557d8932efa6b31718871a85ca9643926f2c19995b1c926cf4e9766959 -> 529fe1e43040137d4938879912eac3117f71de2f67e4485c21862aded185e272
+~ sub_3068 -> sub_307c : 444 -> 436
+
+```

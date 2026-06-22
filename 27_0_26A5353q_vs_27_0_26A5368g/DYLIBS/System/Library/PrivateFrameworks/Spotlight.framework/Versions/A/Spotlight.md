@@ -1,0 +1,377 @@
+## Spotlight
+
+> `/System/Library/PrivateFrameworks/Spotlight.framework/Versions/A/Spotlight`
+
+```diff
+
+-2444.403.0.0.0
+-  __TEXT.__text: 0xe0e6c sha256:ba37c1cb5cddca08f09c3cc9bfe753217497f37f996b8bee7a362f8a4e99b6fe
+-  __TEXT.__objc_methlist: 0x56cc sha256:8038763c615ce930cedbb93dcf3b431883014ef585281f98c0b4c17fb48cf08c
+-  __TEXT.__const: 0x2688 sha256:a0203ffb33ada1eca0a3d380829f9d4143b04d2c9dac5b34342515c830bbac93
+-  __TEXT.__gcc_except_tab: 0x41b0 sha256:dee59cfa404454af2a1930e28d3c152854e74bfc2dae1305bec6a8b76f7dcf18
+-  __TEXT.__cstring: 0x71fa sha256:3b25288d8ac11e14a54ef723e995722f6dfeff5463a7993d21fd02c772fd387d
+-  __TEXT.__oslogstring: 0x65c5 sha256:93a1151084c8ab92b5f9f4472d0b5388a915d2dbe79e0679ebd18ce3b52f9ff5
++2448.0.0.0.0
++  __TEXT.__text: 0xe27b8 sha256:90293a4cae02b9e6a393b9643509fc6173cdcb261a04f0644c7127610ba1fc55
++  __TEXT.__objc_methlist: 0x56b4 sha256:c800eaf340662f7335bc7dc95c4925d1ecc55ed6ca9d639307f97fcef7cf649e
++  __TEXT.__const: 0x2708 sha256:b76d3f71684a562473eba9c845070a9b4058eaef0bb165001535d94a721d38a1
++  __TEXT.__gcc_except_tab: 0x420c sha256:d05e665af78f29f6320fa80ade257a7c77dfb80ae81498cfa2bfd342b217b01b
++  __TEXT.__cstring: 0x725a sha256:7a261a2d1a55b0ed31aeb7c9736dd2c8dfc99a9b83c2d1104dc480b755e37867
++  __TEXT.__oslogstring: 0x6665 sha256:8ac088be3751552ec0141d3586e7723f36f60a8cde838f1177d9640602a40507
+   __TEXT.__ustring: 0x32 sha256:3237690005261b9c684b4aa4520ddf10bf2a9f8702d39624c5ebb28f728135dc
+-  __TEXT.__constg_swiftt: 0xad4 sha256:811117bbd0b9cd48c9317436927bea2e372f262ae4f3d43d7d0e493c190c7711
+-  __TEXT.__swift5_typeref: 0xd4d sha256:67db8f94df4381c485529146bc44d90d6915eae8879ce06fefd9385b6e4f9f59
+-  __TEXT.__swift5_reflstr: 0x823 sha256:b8a23b799719144b0f088fc3b3495a941c6e3ed0cd4c6df54838d5bb733f22a9
+-  __TEXT.__swift5_fieldmd: 0x858 sha256:8ea464df7d643b8fdcef39c7346a78282ff31a56e83763f2dbc21f4c0ad5cddc
+-  __TEXT.__swift5_types: 0xa4 sha256:ae90d14cf76163bcaea65761da00332ad68ca1645436625e3e802102aac2435a
+-  __TEXT.__swift5_capture: 0x54c sha256:013a03a595439cc25d9f9e5155987b7a332cdb6e70d55847173e90f397ba7d4a
+-  __TEXT.__swift5_assocty: 0x180 sha256:27fa1aad605298c90257068e74e4f27f4cedf8541cc6992fd3e92583d8ecdcd7
+-  __TEXT.__swift5_builtin: 0x64 sha256:3b45bb636de67d13ae021b2eb84b4859a7f1d980babbe58570920a9a149a5e0c
+-  __TEXT.__swift5_protos: 0x14 sha256:b0a5a81db0d424dab547867609287c754a9428043c52e26492621178cebf15f5
+-  __TEXT.__swift5_proto: 0x14c sha256:a394978fd1fb5e2b987ab4d68ff8711e39b18a5faa2b9302864a95f8889ef708
+-  __TEXT.__swift_as_entry: 0xb8 sha256:11c93dac3a83dda4970e5dc81876dc0385b2363d9ba5277297f343422e8cf0c9
+-  __TEXT.__swift_as_ret: 0xa8 sha256:ba4db57fe23afd002b0dc30e65b74283eb5cb3954b36e014145513e644bed01c
+-  __TEXT.__swift_as_cont: 0x154 sha256:37ecb64f8ab977cc122fec8806c5496654d67a076b7ef6bc44855f8d2bd04ddd
+-  __TEXT.__swift5_mpenum: 0x14 sha256:dc109b79c139ea2569071d0d8f5ccc89090a7f59a7649cfa3939e27df8de8be5
+-  __TEXT.__unwind_info: 0x28e0 sha256:a80d63d119d52ae9213b455bdb2de958d343babf2927589dc734c57493f59c6c
+-  __TEXT.__eh_frame: 0x1b68 sha256:48b1a1ac48b8ee613319f8ea028ab6e65b21ae952ffa3b8dae700d823bce1ead
++  __TEXT.__constg_swiftt: 0xb04 sha256:ea09719b869d133772ab0339c0186872987fba5b253d01ed59faf5cb30617bfd
++  __TEXT.__swift5_typeref: 0xe1f sha256:63e1f468abc3f4ee2c9697b613f62c7c26ca20e04a8d9a95b9d42e34630357bd
++  __TEXT.__swift5_reflstr: 0x873 sha256:ffd048189af8c390677960747032c3c4c912550091c64429a1623ce99948bde2
++  __TEXT.__swift5_fieldmd: 0x880 sha256:e2942ec141e37fc24fe2061581cd46159740ca6baf4b6cf55611fa9e953b2b22
++  __TEXT.__swift5_types: 0xa4 sha256:eaa758378b7917a45d88310eb258331d1b4ba61246663506a0d3c452f3a1dbee
++  __TEXT.__swift5_capture: 0x54c sha256:5d6043aefcad732f7331ea9a1cac3bbff38e1823fe64d76009131e470c549a6c
++  __TEXT.__swift5_assocty: 0x180 sha256:5d688011eb8c76aa85da6ddc4aa5a278ef4335b91e942741b13ab75d4565184d
++  __TEXT.__swift5_builtin: 0x64 sha256:0642efed6e6708a31b80e3466d08162bc1fbc3566f26aee6edd2017b11e7b29e
++  __TEXT.__swift5_protos: 0x18 sha256:10b855d68eb9459e2d4e1e7f84691c90d7744f24c945c03a4eef33d814958705
++  __TEXT.__swift5_proto: 0x150 sha256:6d74518128fc00ca950116f7dfa32820fedae9656b3a02ce5d5b6ab3a5428052
++  __TEXT.__swift_as_entry: 0xbc sha256:1ad406abef4b3d79063370b933e0ea0202b6e621a1f95f09e93be5ac37072d86
++  __TEXT.__swift_as_ret: 0xac sha256:4d97c80e80695aac237ad46288e44ce1b3b4b34abc4d15e5d32149ad564289fc
++  __TEXT.__swift_as_cont: 0x164 sha256:ad8e472b04ecc0a6bddceb01707b82c5f0ec7a45cce54c8ee60f3816d43ad604
++  __TEXT.__swift5_mpenum: 0x14 sha256:98a392793fdd8271f19bc7ada0843d6edb21474f7fd9a82b69f31166a21ae2fb
++  __TEXT.__unwind_info: 0x2900 sha256:a970583c7e0410ad9c5eb49be1b05b26b720868b17910f521d978b0c3d53db15
++  __TEXT.__eh_frame: 0x1c08 sha256:036704736ebe16574b15f424b8ddf1f200b0d687b9ebfe56f44f886049469364
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xd00 sha256:fe09d4d5f42d975e000e80e194dd487645450901c8a7f7e1cafdb10310a6d868
+-  __DATA_CONST.__objc_classlist: 0x2b8 sha256:6ed8c32d01fa726e0f6e290ae066ea63123ae712983aecafe13b8c92ed3b4649
+-  __DATA_CONST.__objc_catlist: 0x30 sha256:aa7c1e049df8e5192fa4326503f06c99737f630d21295160589cfccc62c1274a
+-  __DATA_CONST.__objc_protolist: 0x78 sha256:9c5a19c59c5c729e433b306223e5728246c69d618e28c51d69ab94dcf8482f34
++  __DATA_CONST.__const: 0xd00 sha256:7b53ff490852203fda4368b8f7909d46bf8bb48d629d83e940ec84b3495313ed
++  __DATA_CONST.__objc_classlist: 0x2b8 sha256:3685a183ae058531ac33fca37df9f95982d48ee29b131ac12c1da8bc91cf56d3
++  __DATA_CONST.__objc_catlist: 0x30 sha256:f42d22cb01401fcd451b1582bcb4f3594d1d4acde06fc1c2ade421e135647d8d
++  __DATA_CONST.__objc_protolist: 0x78 sha256:b57ef117f16969ef8e6c03a00c59e82ab7e551fdb6d645990989cdd6ee03f937
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x4750 sha256:dc37a8e4f7f1daa1ecba7b357e53f5f1ae4b2bff60ae5a3727278b8438b84675
+-  __DATA_CONST.__objc_superrefs: 0x190 sha256:4203acc15ecb59f8ba2ca2ff97bfa99757c1ef7cfc765714d85d640184a8fff9
+-  __DATA_CONST.__objc_arraydata: 0xa38 sha256:dd8e681c14d78ee98280bdc26012351cff6daa602afadfd68f930e1ca80759b8
+-  __DATA_CONST.__got: 0x15b0 sha256:a513321f931a02eb2432426a5220e6cdecddc245d9198a8c5a6bbb045f27e6f3
+-  __AUTH_CONST.__const: 0x4658 sha256:503ff9da490ded7759bd30f2608634ecf99ec534d687b7aa281deceab29022b8
+-  __AUTH_CONST.__cfstring: 0x70a0 sha256:e1ca3efbb012d65c35e8c1dd682b98df67d25e7ae8a09d86cc9cc7c622b62ac0
+-  __AUTH_CONST.__objc_const: 0x80e0 sha256:13bc9a37d4a304abf4f78b4ffeb6a392fc9c9629029ddfa6d16277e38582b015
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:1d8209500731514a8e483fe47525c5f9f96f6bba84aa104b22463a9434595006
+-  __AUTH_CONST.__objc_intobj: 0x888 sha256:8d9786685314d57606e33a21304669d939fa0afe19444cc03d90c547312c5ea5
+-  __AUTH_CONST.__objc_arrayobj: 0x2d0 sha256:ad2bf6b4fd8ec4f7c069f06b2660ee6b6430192806cbdce0f86e8552f189093d
+-  __AUTH_CONST.__objc_dictobj: 0xc8 sha256:968c7071f9ef98d9055bd7e8b9963a2dbfed085101261c95ab3452414b4ebc6c
+-  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:5084cf456302a252cb00aeb22c2fa44e474cdb4e3ebedfa7fa7d20c81bbbd29e
+-  __AUTH_CONST.__auth_got: 0x1808 sha256:a9afea070753d11caed41fabaf9835c3a232abe0e8684c69197c2a75fab4190b
+-  __AUTH.__objc_data: 0x860 sha256:d427ffa098e51769ddaef9be500c521a577e83f9b0042b29ae9502c9e1b68ccb
+-  __AUTH.__data: 0x1c0 sha256:b76457e555ccdfc7d2883c56f0ea0677b07f2056c7a166be10b9e346897e8541
+-  __DATA.__objc_ivar: 0x5bc sha256:edda83eb52a86380857a757f6dc0e36363b69867dc93c86f5a03c8e6da65dff2
+-  __DATA.__data: 0xc78 sha256:0845e5302cc54164e80408f72da3511e958e3cc240277097abb656461f69520c
++  __DATA_CONST.__objc_selrefs: 0x4760 sha256:0d96fea3ba8aff4927dd72cb995e380b2c21deef596b7cbda0a276152d2d6456
++  __DATA_CONST.__objc_superrefs: 0x190 sha256:7b9f3dada008b436444d7f7d7b041a6f07cf085eb0533ed3c606a6c1e166f539
++  __DATA_CONST.__objc_arraydata: 0xa38 sha256:210590aff40f2967a9c37f60b52ddedd736961cfb32fed5c2b5fd4fa455fa050
++  __DATA_CONST.__got: 0x15d0 sha256:304df852237a0dedc650890d03f0604f6c2ff5b1e32c7d9683b733dc2bff2b1b
++  __AUTH_CONST.__const: 0x4660 sha256:bbb0c19c707a50f58bd2eafbbea07bf08a17a88855d76b4522ae8ffd0f063302
++  __AUTH_CONST.__cfstring: 0x70a0 sha256:b8d2c85ad150b0882f1d51eff5555cdece0f43f9df700679c19f49ba6f77377f
++  __AUTH_CONST.__objc_const: 0x8100 sha256:4b56bdceead0c0b457466c6f265224f1255684682a4f930f66c5cfd425c0b750
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:07b32a75be5cd349c75a5752f99a57a42afde016bc7deeb33b333ba1dea860a2
++  __AUTH_CONST.__objc_intobj: 0x870 sha256:7744be665c9aba622b64b5614355b0c49a8efa94886ae4cf48656c130752e8ac
++  __AUTH_CONST.__objc_arrayobj: 0x2d0 sha256:8c7b4126bea04b4c43a93c93fe56b8ff53c212e9466a61c0f2d2228c651db90d
++  __AUTH_CONST.__objc_dictobj: 0xc8 sha256:bec220f4b9c8535f9cff0f4e876432993156393cd38a810c62d5d7096003f9e5
++  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:4344d343eb7d631e6546db17866246d65e9c7256d60c7dd3748eeceb48f0768d
++  __AUTH_CONST.__auth_got: 0x1858 sha256:11cd85d36277eb5f60dcde74f76cd21ffc8cc41bd97d4a3870a179d9f0f024be
++  __AUTH.__objc_data: 0x8b0 sha256:f5440bba1c54e06b7603778b9f8e76c37fedba8d41189415d9d5a180a59ffec5
++  __AUTH.__data: 0x1c0 sha256:aa874f33924c50559fbb4cb03020aacda8733c9ce537a44b7e33d7fa8ff506d2
++  __DATA.__objc_ivar: 0x5bc sha256:e27e546a2197c57558d81c727a6d9f2b4d8d402254ed0109e780f46f4053c29b
++  __DATA.__data: 0xd00 sha256:c68e41c8107434fe6969e812c8c63492648facb2d4ccd8b3cbf7cfcd5d4b6823
+   __DATA.__bss: 0x2650 sha256:409cfae7f1cfff06071612a69e8fbecdbfeca0ae434935c4397e933c717ebe1e
+   __DATA.__common: 0x10 sha256:9361df19a7dba8ecbaf3672d56a618df1e16228e53c82b716272ba93f2b48b9a
+-  __DATA_DIRTY.__objc_data: 0x1940 sha256:08563d282005328ad5e18e706d65d373d85f52d70032e905f4e5c6a58d3accb9
+-  __DATA_DIRTY.__data: 0x7a0 sha256:152cce6307fb9bc9313a9a2fce64c6c68108e8d46f451c993ad2b841ee6021d5
++  __DATA_DIRTY.__objc_data: 0x1910 sha256:be2594771ba8531f5c54cbe772bd0462e8c20d84451219be53f8bde908e114d8
++  __DATA_DIRTY.__data: 0x7a0 sha256:ee65746b039279e678e0524bcaa68993c261bc3784231e7c7c200ad1552f175b
+   __DATA_DIRTY.__bss: 0xb60 sha256:f4ce85408b2dab5393970481191d34b816e4b70021a8e62ed9e1f90b635b2891
+   __DATA_DIRTY.__common: 0x58 sha256:6c6dc10dec88f8ec0376c3f203b785860e8e0b56c9d1c412fe956235d5dc0ade
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4D6DAE42-3148-38ED-AF9E-AFC8B6233B84
+-  Functions: 3421
+-  Symbols:   7399
+-  CStrings:  2481
++  UUID: 98E31387-9800-3BB9-AC5C-B3BD16EBF009
++  Functions: 3433
++  Symbols:   7412
++  CStrings:  2483
+ 
+Symbols:
++ +[SPKGenerativeSearchSiriTranscriptQuery activate]
++ +[SPKGenerativeSearchSiriTranscriptQuery deactivate]
++ +[SPKGenerativeSearchSiriTranscriptQuery defaultResultLimit]
++ +[SPKGenerativeSearchSiriTranscriptQuery defaultResultLimit].cold.1
++ +[SPKGenerativeSearchSiriTranscriptQuery isQuerySupported:]
++ +[SPKGenerativeSearchSiriTranscriptQuery preheat]
++ +[SPKGenerativeSearchSiriTranscriptQuery searchDomain]
++ +[SPKGenerativeSearchSiriTranscriptQuery sourceKind]
++ -[SPKGenerativeSearchSiriTranscriptQuery .cxx_destruct]
++ -[SPKGenerativeSearchSiriTranscriptQuery _cancel]
++ -[SPKGenerativeSearchSiriTranscriptQuery _injectTestClient:]
++ -[SPKGenerativeSearchSiriTranscriptQuery _start]
++ -[SPKGenerativeSearchSiriTranscriptQuery beginQuerySignpostInterval]
++ -[SPKGenerativeSearchSiriTranscriptQuery createActivity]
++ -[SPKGenerativeSearchSiriTranscriptQuery dealloc]
++ -[SPKGenerativeSearchSiriTranscriptQuery endQuerySignpostInterval]
++ -[SPKGenerativeSearchSiriTranscriptQuery handleEmptyResults]
++ -[SPKGenerativeSearchSiriTranscriptQuery handleQueryError:]
++ -[SPKGenerativeSearchSiriTranscriptQuery handleQueryError:].cold.1
++ -[SPKGenerativeSearchSiriTranscriptQuery handleQueryError:].cold.2
++ -[SPKGenerativeSearchSiriTranscriptQuery handleSuccessfulResults:queryContext:]
++ -[SPKGenerativeSearchSiriTranscriptQuery handleSuccessfulResults:queryContext:].cold.1
++ -[SPKGenerativeSearchSiriTranscriptQuery initWithUserQuery:queryGroupId:options:queryContext:]
++ -[SPKGenerativeSearchSiriTranscriptQuery isGenerativeSearchQuery]
++ -[SPKGenerativeSearchSiriTranscriptQuery needsIO]
++ -[SPKGenerativeSearchSiriTranscriptQuery queryResponseReceivedSignpostEvent:]
++ OBJC_IVAR_$_SPKGenerativeSearchSiriTranscriptQuery._client
++ OBJC_IVAR_$_SPKGenerativeSearchSiriTranscriptQuery._injectedClient
++ OBJC_IVAR_$_SPKGenerativeSearchSiriTranscriptQuery._queryQueue
++ _OBJC_CLASS_$_SPKGenerativeSearchSiriTranscriptQuery
++ _OBJC_METACLASS_$_SPKGenerativeSearchSiriTranscriptQuery
++ __48-[SPKGenerativeSearchSiriTranscriptQuery _start]_block_invoke.77
++ __OBJC_$_CLASS_METHODS_SPKGenerativeSearchSiriTranscriptQuery
++ __OBJC_$_INSTANCE_METHODS_SPKGenerativeSearchSiriTranscriptQuery
++ __OBJC_$_INSTANCE_VARIABLES_SPKGenerativeSearchSiriTranscriptQuery
++ __OBJC_CLASS_RO_$_SPKGenerativeSearchSiriTranscriptQuery
++ __OBJC_METACLASS_RO_$_SPKGenerativeSearchSiriTranscriptQuery
++ __ZNSt3__110__pop_heapB9nqn220106INS_17_ClassicAlgPolicyEPFbRK17SPResultValueItemS4_ENS_11__wrap_iterIPS2_EEEEvT1_SA_RT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__111__sift_downB9nqn220106INS_17_ClassicAlgPolicyELb0ERPFbRK17SPResultValueItemS4_ENS_11__wrap_iterIPS2_EEEEvT2_OT1_NS_15iterator_traitsISB_E15difference_typeESG_
++ __ZNSt3__114__split_bufferI17SPResultValueItemRNS_9allocatorIS1_EEE5clearB9nqn220106Ev
++ __ZNSt3__116allocator_traitsINS_9allocatorI17SPResultValueItemEEE7destroyB9nqn220106IS2_Li0EEEvRS3_PT_
++ __ZNSt3__117__floyd_sift_downB9nqn220106INS_17_ClassicAlgPolicyERPFbRK17SPResultValueItemS4_ENS_11__wrap_iterIPS2_EEEET1_SB_OT0_NS_15iterator_traitsISB_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB9nqn220106INS_9allocatorI12IndexResultsEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqn220106INS_9allocatorI17SPResultValueItemEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqn220106INS_9allocatorI31SPResultValueItemHashTableEntryEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__134__uninitialized_allocator_relocateB9nqn220106INS_9allocatorI12IndexResultsEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB9nqn220106INS_9allocatorI17SPResultValueItemEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9nqn220106INS_9allocatorI17SPResultValueItemEEPS2_S4_S4_EET2_RT_T0_T1_S5_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9nqn220106INS_9allocatorI31SPResultValueItemHashTableEntryEEPS2_S4_S4_EET2_RT_T0_T1_S5_
++ __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE16__destroy_vectorclB9nqn220106Ev
++ __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE20__throw_length_errorB9nqn220106Ev
++ __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE20__throw_out_of_rangeB9nqn220106Ev
++ __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE5clearB9nqn220106Ev
++ __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE11__vallocateB9nqn220106Em
++ __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE16__destroy_vectorclB9nqn220106Ev
++ __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE16__init_with_sizeB9nqn220106IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE20__throw_length_errorB9nqn220106Ev
++ __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE5clearB9nqn220106Ev
++ __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE11__vallocateB9nqn220106Em
++ __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE16__destroy_vectorclB9nqn220106Ev
++ __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE16__init_with_sizeB9nqn220106IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE20__throw_length_errorB9nqn220106Ev
++ __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE5clearB9nqn220106Ev
++ __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEEC2B9nqn220106EmRKS1_
++ __ZNSt3__19__sift_upB9nqn220106INS_17_ClassicAlgPolicyERPFbRK17SPResultValueItemS4_ENS_11__wrap_iterIPS2_EEEEvT1_SB_OT0_NS_15iterator_traitsISB_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB9nqn220106v
++ ___48-[SPKGenerativeSearchSiriTranscriptQuery _start]_block_invoke
++ ___48-[SPKGenerativeSearchSiriTranscriptQuery _start]_block_invoke_2
++ ___49-[SPKGenerativeSearchSiriTranscriptQuery _cancel]_block_invoke
++ ___60+[SPKGenerativeSearchSiriTranscriptQuery defaultResultLimit]_block_invoke
++ __swift_closure_destructor.109
++ __swift_closure_destructor.112
++ __swift_closure_destructor.116
++ __swift_closure_destructor.120
++ __swift_closure_destructor.124
++ __swift_closure_destructor.128
++ __swift_closure_destructor.132
++ __swift_closure_destructor.137
++ __swift_closure_destructor.143
++ __swift_closure_destructor.147
++ __swift_closure_destructor.152
++ __swift_closure_destructor.158
++ __swift_closure_destructor.162
++ __swift_closure_destructor.167
++ __swift_closure_destructor.174
++ __swift_closure_destructor.174Tm
++ __swift_closure_destructor.179
++ __swift_closure_destructor.207
++ __swift_closure_destructor.211
++ __swift_closure_destructor.222
++ __swift_closure_destructor.226
++ __swift_closure_destructor.231
++ __swift_closure_destructor.27
++ __swift_closure_destructor.32
++ __swift_closure_destructor.48
++ _enableNotificationBundle
++ _objc_msgSend$applyEngagementPolicyWithIsSearchToolClient:
++ _objc_msgSend$executeTranscriptQueryWithUserQuery:limit:completionHandler:
++ _objc_msgSend$setContentCreationDate:
++ _objc_msgSend$suppressEngagement
++ _objc_msgSend$unpenalizedTextScores
++ _swift_getTupleTypeMetadata2
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _symbolic $s9Spotlight31TranscriptSearchClientProvidingP
++ _symbolic Say_____G13conversations______17l2RankingMetadatat 23GenerativeSearchAdapter16TranscriptDomainO012ConversationB6ResultV 0aB017L2RankingMetadataV
++ _symbolic Si6offset______7elementt 23GenerativeSearchAdapter16TranscriptDomainO012ConversationB6ResultV
++ _symbolic _____3key______5valuet 16GenerativeSearch014SiriTranscriptB7ContentV19SearchableAttributeO AA0B9TermScoreV
++ _symbolic _____Sg 16GenerativeSearch014SiriTranscriptB7ContentV
++ _symbolic _____Sg 16GenerativeSearch014SiriTranscriptB7ContentV06StoredE0O
++ _symbolic _____Sg 16GenerativeSearch33SiriTranscriptConversationContentV
++ _symbolic ______Sit 23GenerativeSearchAdapter16TranscriptDomainO012ConversationB6ResultV
++ _symbolic ______p 9Spotlight31TranscriptSearchClientProvidingP
++ _symbolic ______pSg 9Spotlight31TranscriptSearchClientProvidingP
++ _symbolic _____y_____G 16GenerativeSearch6ResultV AA014SiriTranscriptB7ContentV
++ _symbolic _____y_____G 16GenerativeSearch6ResultV AA33SiriTranscriptConversationContentV
++ _symbolic _____y_____GSg 16GenerativeSearch6ResultV AA33SiriTranscriptConversationContentV
+- +[SPKGenerativeSearchGlobalQuery activate]
+- +[SPKGenerativeSearchGlobalQuery deactivate]
+- +[SPKGenerativeSearchGlobalQuery defaultResultLimit]
+- +[SPKGenerativeSearchGlobalQuery defaultResultLimit].cold.1
+- +[SPKGenerativeSearchGlobalQuery isQuerySupported:]
+- +[SPKGenerativeSearchGlobalQuery preheat]
+- +[SPKGenerativeSearchGlobalQuery searchDomain]
+- +[SPKGenerativeSearchGlobalQuery sourceKind]
+- -[SPKGenerativeSearchGlobalQuery .cxx_destruct]
+- -[SPKGenerativeSearchGlobalQuery _cancel]
+- -[SPKGenerativeSearchGlobalQuery _injectTestClient:]
+- -[SPKGenerativeSearchGlobalQuery _start]
+- -[SPKGenerativeSearchGlobalQuery beginQuerySignpostInterval]
+- -[SPKGenerativeSearchGlobalQuery buildEntityTypesFilter]
+- -[SPKGenerativeSearchGlobalQuery createActivity]
+- -[SPKGenerativeSearchGlobalQuery dealloc]
+- -[SPKGenerativeSearchGlobalQuery endQuerySignpostInterval]
+- -[SPKGenerativeSearchGlobalQuery handleEmptyResults]
+- -[SPKGenerativeSearchGlobalQuery handleQueryError:]
+- -[SPKGenerativeSearchGlobalQuery handleQueryError:].cold.1
+- -[SPKGenerativeSearchGlobalQuery handleQueryError:].cold.2
+- -[SPKGenerativeSearchGlobalQuery handleSuccessfulResults:queryContext:]
+- -[SPKGenerativeSearchGlobalQuery handleSuccessfulResults:queryContext:].cold.1
+- -[SPKGenerativeSearchGlobalQuery initWithUserQuery:queryGroupId:options:queryContext:]
+- -[SPKGenerativeSearchGlobalQuery isGenerativeSearchQuery]
+- -[SPKGenerativeSearchGlobalQuery needsIO]
+- -[SPKGenerativeSearchGlobalQuery queryResponseReceivedSignpostEvent:]
+- -[SPKGenerativeSearchGlobalQuery sendEmptyResponseIfNecessary]
+- OBJC_IVAR_$_SPKGenerativeSearchGlobalQuery._client
+- OBJC_IVAR_$_SPKGenerativeSearchGlobalQuery._injectedClient
+- OBJC_IVAR_$_SPKGenerativeSearchGlobalQuery._queryQueue
+- _OBJC_CLASS_$_SPKGenerativeSearchGlobalQuery
+- _OBJC_METACLASS_$_SPKGenerativeSearchGlobalQuery
+- __40-[SPKGenerativeSearchGlobalQuery _start]_block_invoke.79
+- __OBJC_$_CLASS_METHODS_SPKGenerativeSearchGlobalQuery
+- __OBJC_$_INSTANCE_METHODS_SPKGenerativeSearchGlobalQuery
+- __OBJC_$_INSTANCE_VARIABLES_SPKGenerativeSearchGlobalQuery
+- __OBJC_CLASS_RO_$_SPKGenerativeSearchGlobalQuery
+- __OBJC_METACLASS_RO_$_SPKGenerativeSearchGlobalQuery
+- __ZNSt3__110__pop_heapB9nqn220100INS_17_ClassicAlgPolicyEPFbRK17SPResultValueItemS4_ENS_11__wrap_iterIPS2_EEEEvT1_SA_RT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__111__sift_downB9nqn220100INS_17_ClassicAlgPolicyELb0ERPFbRK17SPResultValueItemS4_ENS_11__wrap_iterIPS2_EEEEvT2_OT1_NS_15iterator_traitsISB_E15difference_typeESG_
+- __ZNSt3__114__split_bufferI17SPResultValueItemRNS_9allocatorIS1_EEE5clearB9nqn220100Ev
+- __ZNSt3__116allocator_traitsINS_9allocatorI17SPResultValueItemEEE7destroyB9nqn220100IS2_Li0EEEvRS3_PT_
+- __ZNSt3__117__floyd_sift_downB9nqn220100INS_17_ClassicAlgPolicyERPFbRK17SPResultValueItemS4_ENS_11__wrap_iterIPS2_EEEET1_SB_OT0_NS_15iterator_traitsISB_E15difference_typeE
+- __ZNSt3__119__allocate_at_leastB9nqn220100INS_9allocatorI12IndexResultsEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqn220100INS_9allocatorI17SPResultValueItemEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqn220100INS_9allocatorI31SPResultValueItemHashTableEntryEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__134__uninitialized_allocator_relocateB9nqn220100INS_9allocatorI12IndexResultsEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__134__uninitialized_allocator_relocateB9nqn220100INS_9allocatorI17SPResultValueItemEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__135__uninitialized_allocator_copy_implB9nqn220100INS_9allocatorI17SPResultValueItemEEPS2_S4_S4_EET2_RT_T0_T1_S5_
+- __ZNSt3__135__uninitialized_allocator_copy_implB9nqn220100INS_9allocatorI31SPResultValueItemHashTableEntryEEPS2_S4_S4_EET2_RT_T0_T1_S5_
+- __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE16__destroy_vectorclB9nqn220100Ev
+- __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE20__throw_length_errorB9nqn220100Ev
+- __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE20__throw_out_of_rangeB9nqn220100Ev
+- __ZNSt3__16vectorI12IndexResultsNS_9allocatorIS1_EEE5clearB9nqn220100Ev
+- __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE11__vallocateB9nqn220100Em
+- __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE16__destroy_vectorclB9nqn220100Ev
+- __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE16__init_with_sizeB9nqn220100IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE20__throw_length_errorB9nqn220100Ev
+- __ZNSt3__16vectorI17SPResultValueItemNS_9allocatorIS1_EEE5clearB9nqn220100Ev
+- __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE11__vallocateB9nqn220100Em
+- __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE16__destroy_vectorclB9nqn220100Ev
+- __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE16__init_with_sizeB9nqn220100IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE20__throw_length_errorB9nqn220100Ev
+- __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEE5clearB9nqn220100Ev
+- __ZNSt3__16vectorI31SPResultValueItemHashTableEntryNS_9allocatorIS1_EEEC2B9nqn220100EmRKS1_
+- __ZNSt3__19__sift_upB9nqn220100INS_17_ClassicAlgPolicyERPFbRK17SPResultValueItemS4_ENS_11__wrap_iterIPS2_EEEEvT1_SB_OT0_NS_15iterator_traitsISB_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB9nqn220100v
+- ___40-[SPKGenerativeSearchGlobalQuery _start]_block_invoke
+- ___40-[SPKGenerativeSearchGlobalQuery _start]_block_invoke_2
+- ___41-[SPKGenerativeSearchGlobalQuery _cancel]_block_invoke
+- ___52+[SPKGenerativeSearchGlobalQuery defaultResultLimit]_block_invoke
+- __swift_closure_destructor.103
+- __swift_closure_destructor.110
+- __swift_closure_destructor.114
+- __swift_closure_destructor.118
+- __swift_closure_destructor.122
+- __swift_closure_destructor.125
+- __swift_closure_destructor.129
+- __swift_closure_destructor.134
+- __swift_closure_destructor.140
+- __swift_closure_destructor.144
+- __swift_closure_destructor.149
+- __swift_closure_destructor.156
+- __swift_closure_destructor.156Tm
+- __swift_closure_destructor.161
+- __swift_closure_destructor.189
+- __swift_closure_destructor.193
+- __swift_closure_destructor.198
+- __swift_closure_destructor.213
+- __swift_closure_destructor.219
+- __swift_closure_destructor.223
+- __swift_closure_destructor.228
+- __swift_closure_destructor.26
+- __swift_closure_destructor.31
+- __swift_closure_destructor.49
+- _objc_msgSend$buildEntityTypesFilter
+- _objc_msgSend$executeGlobalQueryWithUserQuery:entityTypes:limit:completionHandler:
+- _objc_msgSend$textScores
+- _symbolic SaySo8NSNumberCGSg
+- _symbolic Say_____G 16GenerativeSearch10EntityTypeV
+- _symbolic _____ 16GenerativeSearch0B6ResultV
+CStrings:
++ "Executing transcript query [%s]: '%{private}s' limit: %ld"
++ "GenerativeSearchTranscriptQueryLatency"
++ "SPKGenerativeSearchSiriTranscriptQuery"
++ "SPKGenerativeSearchSiriTranscriptQuery Response"
++ "Transcript query [%s] cancelled during error handling"
++ "Transcript query [%s] cancelled with CancellationError"
++ "Transcript query [%s] failed: %s"
++ "Transcript query [%s] returned %ld/%ld conversations (filtered for conversationMatch + turnMatches)"
++ "Transcript search client not initialized"
++ "TranscriptSearchClient"
++ "[qid=%lu] Cancelling GenerativeSearch TranscriptQuery"
++ "[qid=%lu] Constructing result sections using %lu results received from GenerativeSearch TranscriptQuery."
++ "[qid=%lu] Error executing GenerativeSearch TranscriptQuery: [%ld] %@"
++ "[qid=%lu] No entity types enabled or received 0 results from GenerativeSearch TranscriptQuery, returning empty results"
++ "siriTranscript(conversation)"
++ "status=success conversationCount=%ld"
++ "transcriptClientAdapter is nil - cannot execute transcript query"
+- "Executing global query [%s]: '%{private}s' entityTypes: %s limit: %ld"
+- "GenerativeSearch"
+- "GenerativeSearchGlobalQueryLatency"
+- "Query [%s] cancelled during error handling"
+- "Query [%s] cancelled with CancellationError"
+- "Query [%s] failed: %s"
+- "Query [%s] returned %ld results"
+- "SPKGenerativeSearchGlobalQuery"
+- "SPKGenerativeSearchGlobalQuery Response"
+- "Skipping result with unsupported entity type '%s' (id=%s)"
+- "[qid=%lu] Cancelling GenerativeSearch GlobalQuery"
+- "[qid=%lu] Constructing result sections using %lu results received from GenerativeSearch GlobalQuery."
+- "[qid=%lu] Error executing GenerativeSearch GlobalQuery: [%ld] %@"
+- "[qid=%lu] No entity types enabled or received 0 results from GenerativeSearch GlobalQuery, returning empty results"
+- "gsClient is nil - cannot execute query"
+
+```

@@ -1,0 +1,53 @@
+## angie_shadow_catcher_aov.dylib
+
+> `/System/Library/PrivateFrameworks/CoreUSDEdit.framework/Versions/A/module/angie_shadow_catcher_aov.dylib`
+
+```diff
+
+-28.0.0.501.1
+-  __TEXT.__text: 0xd3c sha256:c8bee83a9560e3736af4daca75a870c8597afa1591209b9251d71aa581a08e3a
++28.0.2.0.5
++  __TEXT.__text: 0xd24 sha256:e936cc9f1c8776ec06e3e7b21c58300176be7cbf07ae3e3cba6998ee2faa1ecf
+   __TEXT.__const: 0x7a sha256:bfe656d5b376c9d2798cfcf0309c615d12533b48849a2f47f7e815c0f3a4a101
+-  __TEXT.__gcc_except_tab: 0x44 sha256:d4170a707f59735b9100afcec3991e603f6c722b380ea9a21bf2af2bdd955bb6
++  __TEXT.__gcc_except_tab: 0x44 sha256:e4046d8362b44a6145b11f3d949dc2e90ea280f8a6948cb1b7fce3fedb662b2c
+   __TEXT.__cstring: 0x264 sha256:4d5e7a852e502661356a640044476763029082bc1add56891422045c4448c6f5
+-  __TEXT.__unwind_info: 0xb0 sha256:0dda849d108b5d31ce167024c7e727898bde926e28f35d86ba775154ec343082
++  __TEXT.__unwind_info: 0xb0 sha256:7bc7ab1faf6a2cf3ad8097aea1e409a4c32dcd486a8b017df2cb4f1be62d43af
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xb8 sha256:f3279516dc8db1eb5a2eff8f5173de0b86bbd81ed5fd56586d30aacd78cfe416
+-  __AUTH_CONST.__weak_auth_got: 0x20 sha256:b7a04fda26841a0040c3791c7f7affdc0629031506fbb84d682fccd222e021f0
++  __AUTH_CONST.__const: 0xb8 sha256:9f266a56bfcd0f2ca101124347408b0e8677e70d1bfdb20675976b5a4751261e
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:396e67293ba6b13027ef3965f36dc8d7505225f73159bf94255b9e4c198352ac
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__data: 0xc sha256:59982d741dceb7da226ba0b17a8f26d44006183ffb8ecfa0096e368af98cfadf
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/usd/libusd_ms.dylib
+-  UUID: 061BC01E-1CBA-36F9-BF93-1A0C809A25E1
++  UUID: C492B5EE-F21C-392B-9954-A2641B1F8CA2
+   Functions: 22
+   Symbols:   70
+   CStrings:  8
+Symbols:
++ __ZN16NgRenderDelegate14s_ng_aovs_infoEv
+- __ZN16NgRenderDelegate14s_ng_aovs_infoE
+Functions:
+~ __ZN41_ModuleModuleShadowCatcherAovNgCallbacks_10init_classER7OfClass : 412 -> 392
+~ __ZN41_ModuleModuleShadowCatcherAovNgCallbacks_18module_constructorER8OfObjectP8OfModule : sha256 7386aebe39ce44cfd97a89d7748b5a6c65ed3aa0c5a8afe8f66ab9cc2df257eb -> b341363b22f6a89b4205fe0376663594ae809e405f12f170c5a63faa7b8aa3f5
+~ __ZN41_ModuleModuleShadowCatcherAovNgCallbacks_13on_new_presetER8OfObject : sha256 daa57be0d7c4d0c76bd9ad8b2939c8d7a4e9b6bd980af83030845d9372b59d15 -> bc81f1982c4acb8275d491bbc9e3cc7aee0f7385ef45a7985480edbac8389f8a
+~ __ZN41_ModuleModuleShadowCatcherAovNgCallbacks_19on_attribute_changeER8OfObjectRK6OfAttrRiRKi : 240 -> 236
+~ __ZN21AngieShadowCatcherAov11on_registerER5OfAppR10CoreVectorIP7OfClassE : sha256 8101e221b3acbc5b0a77c90f4b32df1be0ace2d339e6ec97c94d964f2735faa1 -> 661ded0e19af0333bf065c3721bf4647dd55fb2d8b6d7be0e3d17666bc6c39d1
+~ __ZL10create_cmaPK7CtxEval : sha256 8c9463d4847c28b444b331565b9ac646a3ce6191e5f5daebbe11ae29689275b0 -> 13de7858516e2b5cf87990f06bea0c095e0dfa1262e734ba26e388ad6e877cae
+~ __ZN41_ModuleModuleShadowCatcherAovNgCallbacks_D1Ev : sha256 cd1840da2bf52557f18e5a3e82669df439aac6fbad0330acdfbe8e06edeebd2b -> 0e9b01cdf989c19e268261e765c72b24653228c0da93e0d5b6261234be55ed6f
+~ __ZN41_ModuleModuleShadowCatcherAovNgCallbacks_D0Ev : sha256 ab35ff2faf8d3d34d30a1189ba45ebca901a58b4b6ca6b939f55fb90f4809d05 -> daa13504942003ccb694426aa3f29325392c45e343c029827abee2d25e6ebbc8
+~ __ZN21ModuleObjectCallbacks14init_callbacksER16OfClassCallbacks : sha256 863547226ea761ca9d36c2a6de2fa10742f3fd0b68a68cc0efa5ad8e577579c0 -> 6cd4d00f8ddc8abeee3ae0bb8033098325e53ff3d3c8c6049e4cef1bf6ec6069
+~ __ZN24CmaAngieShadowCatcherAovD1Ev : sha256 c5e8708b5da6bb4b330f4d2a74295255abd95753fc5a31d611e2c0c2046bf627 -> 4b7911d8e97760b7920565c9559ca0e315320f02e88c762fc58140d239c8eeb9
+~ __ZN24CmaAngieShadowCatcherAovD0Ev : sha256 779fe7087a82afab07d86ac598dca47edbc448f16186d8e6568d09a175ca87c3 -> 572f4c484db07f424666dcb70460ed1d8f96f6d236560644a539f18b1c80aec3
+~ __ZNK9ModuleCma14get_class_infoEv : sha256 38a783537ef2783d48dc41f4b70592383d03d57ec8d00ede578361de1ad593d0 -> 0727e41842247346f7b70bffc02e800a372a29f5fd81c75b7fd37efc147ccf75
+~ __ZN24CmaAngieShadowCatcherAov21sync_attribute_valuesERK8OfObject : sha256 27272e7641b878df0e14fbe3cdb7380e3c2ea8c3c567bc17f888b052b8d94506 -> b4a5f783588d9529a7be138c422cda9d64f39b321a4b42517213004d73ad2ec9
+
+```

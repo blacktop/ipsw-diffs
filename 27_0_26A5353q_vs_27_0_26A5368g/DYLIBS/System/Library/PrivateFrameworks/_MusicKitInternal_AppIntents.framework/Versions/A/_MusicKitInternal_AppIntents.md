@@ -1,0 +1,308 @@
+## _MusicKitInternal_AppIntents
+
+> `/System/Library/PrivateFrameworks/_MusicKitInternal_AppIntents.framework/Versions/A/_MusicKitInternal_AppIntents`
+
+```diff
+
+-4026.100.68.0.0
+-  __TEXT.__text: 0x8c6ec sha256:423db7ff7c4e2276150a2317435682d9c1e207b23b511fd8a0c9adb90e606a7d
+-  __TEXT.__objc_methlist: 0x14 sha256:2efc85225308c6f6080647f4c9e33ddcf0c8c60f1aea19dacc92242dceb4f01c
+-  __TEXT.__const: 0xa302 sha256:34ffd71348896b4a062bac25473841623209b58693b1832d1ba289d525c1d72b
+-  __TEXT.__cstring: 0x1819 sha256:aceece3cbdc4ee19ac9320f36285bcc099d69b7928e5f32ba7717db04bdd2852
+-  __TEXT.__swift5_typeref: 0x2ec2 sha256:2ab36b662c3ca5dbff87fd7f38dfede9e55d8e0fdecee5631656ac61de147c3c
+-  __TEXT.__swift5_reflstr: 0x181a sha256:be589ca3dddd0a6c1602e5a8689eb633bc93c6de2b2b84a20f97571f27c0e1a1
+-  __TEXT.__swift5_assocty: 0xdc8 sha256:2894311e7070fa7d8c33a9f866dec3c59ae75cedd58d74eb89db015f4caaa973
+-  __TEXT.__constg_swiftt: 0x1088 sha256:a078c670498a999de1d7bbca52af962cdff2bfe6843b5e522a9233c313d9e9c1
+-  __TEXT.__swift5_fieldmd: 0x1474 sha256:9d8c70280e95c007eec6361e794cddd0a3e9ee35e9bb291854d8051c48679956
+-  __TEXT.__oslogstring: 0x1637 sha256:1587f0199a9f89be57a22a6fc5cbe32ad0d6487a9faa1e07aa1d72ac4fcb32dd
+-  __TEXT.__swift5_protos: 0x24 sha256:a967cff599d76added52c0453e97a55756d132b048201bf295099f4b8ca1b744
+-  __TEXT.__swift5_proto: 0x91c sha256:b74a353715a16e1b88506278859ddbadec5fe731d97eae045c2aac634360fbcb
+-  __TEXT.__swift5_types: 0x178 sha256:a2ff8eb64a48a8302abf7de6dac05187c771c4311e8ed92bcc0cf9def3f84762
+-  __TEXT.__swift_as_entry: 0x390 sha256:a972caf87a5b53cd9f22fe11d65929a838afeadf46a62811f5e0709a1c905429
+-  __TEXT.__swift_as_ret: 0x39c sha256:a07a76f6d3d8c6cfc179b5e5bd530dfdc8223defb2a1e4ed43f81097ef19e501
+-  __TEXT.__swift_as_cont: 0x49c sha256:bfe3d64f382f7534e12b72a9dd0dfaa9c75fbbf328aab4d4d51cb470de34e8cc
+-  __TEXT.__swift5_capture: 0x754 sha256:b454ec1eefb93f1eb90802b5a46034ec34ee2daafd812a69acb7222ddee2209a
+-  __TEXT.__swift5_builtin: 0x14 sha256:832e37f711cb5af9584f37e7f5b202f54517ed54126e34ccd380d22058d5c38d
+-  __TEXT.__swift5_mpenum: 0x8 sha256:c90843b89306eabf24952810618ba51e75b312bf66e8adee5aa1362d992667d0
+-  __TEXT.__unwind_info: 0x30d0 sha256:29d6fd5b534dcfe4139d3007cc1507d530f5d83db06f0451c061656ae12f0972
+-  __TEXT.__eh_frame: 0x5ac0 sha256:4d0885dac88d6a14dd307e32d3e55b8a6c64be11fb04d630e1bdf915e62da529
++4026.100.78.1.0
++  __TEXT.__text: 0x899cc sha256:dd0c57abfea41c7c38c1400a11e35f14a16d34e1a655662f4cde06976682d391
++  __TEXT.__objc_methlist: 0x14 sha256:1db5cfb2e98b5d36c7313de47ec503a7b184e58d0c8c815d44d1b6c4cc81735a
++  __TEXT.__const: 0xa572 sha256:0747cd0b960d49515c12aab2fe9d526abbe537443951a34284742260ebe0fbe1
++  __TEXT.__cstring: 0x1849 sha256:4fa0d306652626d0acf3b453234bf8e2b2c7f3ec676160ed5d2b69606406dca4
++  __TEXT.__swift5_typeref: 0x2d94 sha256:4c7f3b22c3ae48f1c3cb8ca9a3bbaccfc5747e6d3308fb545e45bfc24d2af0c1
++  __TEXT.__swift5_reflstr: 0x185b sha256:80d6659b78f10a56966d2070d53d8ee07d1f2700a8ec4fe0e1405a559dff3f22
++  __TEXT.__swift5_assocty: 0xdf8 sha256:65a86b34ecd0582708e2cd0ac3b30b543f723e4e3a118f54a47204e3589fd9d0
++  __TEXT.__constg_swiftt: 0x1108 sha256:81c3b08c3131356ed6e7cbd5d461fe170d51f1c7edf997f1ad6c89b5ac54914f
++  __TEXT.__swift5_fieldmd: 0x1550 sha256:bd21cdf9e59c17752d610252bb5ee0a0025ad0aed12fd34c19a78dba9a3fa568
++  __TEXT.__oslogstring: 0x1767 sha256:a49ea3dfd3c87b293a838aa9516cefa2a54d72e54dbdde31722ab8ab3fbe090b
++  __TEXT.__swift5_protos: 0x24 sha256:cb27c58514b936aa3a31d946cc3483160b8516ebd000378698c63004895d3d5d
++  __TEXT.__swift5_proto: 0x968 sha256:20d7e20ea53ab4be44464222c867d6f24f4a1da35e0480b4c195580f9d93f5b7
++  __TEXT.__swift5_types: 0x188 sha256:81b41eaf5120e9770eda2657937f83701fb611cd0113a487f5b0696c6143dedf
++  __TEXT.__swift_as_entry: 0x2cc sha256:d4de454940fb4f188511c527827f8d8b5e8a7b45fdcf7b3eb9bc13d9f43a2ee3
++  __TEXT.__swift_as_ret: 0x2d8 sha256:8a9c34bdda04c06fe6ca19c3ddc9c444a6de4aacb7fb41bf26d55a088ddae19a
++  __TEXT.__swift_as_cont: 0x430 sha256:83cba0a3e4808f49e9264d9c84d60ccaa3e90f15dd02ab39b8a37ae25ae29345
++  __TEXT.__swift5_capture: 0x614 sha256:95cb985e5a8fcc8d362d92e11c10a05b8d8bbccbd7e379457cbab70b7ff6cdb5
++  __TEXT.__swift5_builtin: 0x28 sha256:8b2cc52fc33671986018274707d5a3ec4589e3de498b194990beca595d202e89
++  __TEXT.__swift5_mpenum: 0x10 sha256:9b602be73d15bef156d2afdff1413cb328d47e48e78f463fecdae34850f74934
++  __TEXT.__unwind_info: 0x2ed8 sha256:37f4483e6bb694b1c2efbf0fe5896467cc5c40c247d4aed18193df0945ec290a
++  __TEXT.__eh_frame: 0x5090 sha256:d780e287a346539371c5e66aad78aaa4324e7afeca32c5529c905c80479f22ae
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x440 sha256:2502fcad83d5b41a2737860b924dbcee7bf910b076984e529247f72bf9a6e504
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:dd9fd5b0968f39cd3b42c7efb5728905b0114beb3896a0da2b8d3f2efc97bb8a
++  __DATA_CONST.__const: 0x440 sha256:615eaa70dd964bc15f3bf2e3f8320d2e1908c2e6b37dc6b5624983ee2f8c6a70
++  __DATA_CONST.__objc_classlist: 0x8 sha256:8bb0a03445d0ff493c6e1ccf230a590d13be63c43866cfabe4fae4e0f5ca76a9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xe8 sha256:37f92c434f72caa910906ecd1c960bb0f411a523bcf14fee5aa20db236d0d553
++  __DATA_CONST.__objc_selrefs: 0xe8 sha256:b252dc5c24f4bafa0820ddbb11929171ec41cc13029d3b2dd14c5b060e8b9079
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x4428 sha256:83a0d9b7fb7acbd20e5cbca85cd210df72adc3a1fa685d1f87116532e1b55a77
+-  __AUTH_CONST.__objc_const: 0x48 sha256:b1a6a7eebbd59dc3a7f180556440f20ae804b1204fb1f89df8923a55cf00307f
+-  __AUTH_CONST.__auth_got: 0xe98 sha256:16790b7dfcf32410dfab85a0353c4607afca32769e82787865e90bab467e3b93
+-  __AUTH.__objc_data: 0xb0 sha256:1be58d040ef460ca1b3e6be8d317706d601872870fb8c320177b0cb5e02d445a
+-  __AUTH.__data: 0x328 sha256:7930da906eb1babb3c5d7fbe8ed55857d8c97ba6a008c014f616f1065a27b222
+-  __DATA.__data: 0x16c8 sha256:e9e79c5c26710f66fb88f2f4e00da1f08f1b14804af2b197373b45bf69682a54
+-  __DATA.__bss: 0xca80 sha256:d8d644c2de1739d4791d4cf324f5eafa9b29fa9c8db235462f0af08a8e00b73f
++  __AUTH_CONST.__const: 0x4430 sha256:b2431708adb9c08b8de15eca439284204295599029fbc134d20058fd64bebb57
++  __AUTH_CONST.__objc_const: 0x48 sha256:17baa8715a07fecd54cc4f1d25c033c49c2e61a3639b3a9d40ed469efe115f97
++  __AUTH_CONST.__auth_got: 0xe50 sha256:fca1b643f509971edde92c0ec86f8bde2de8e9a39aef3626e9b26d9267d7ddf1
++  __AUTH.__objc_data: 0xb0 sha256:4b83e12f57b78c759e6f1452e62beb949c7654a18394104dc497a38eece89795
++  __AUTH.__data: 0x328 sha256:3837e3055e227c0710d3ade63576608316242901fdad7469fb2e37bdd16994ec
++  __DATA.__data: 0x17b0 sha256:8262a88fe80664acfea38c0aa8386e57f1934890485b0873bf1f0b47b5c63a02
++  __DATA.__bss: 0xd400 sha256:6e3f8306efe61d6de2f2d15a3ec324db6a00bd63abc7aa2065d0498ba8c1e535
+   __DATA.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_DIRTY.__data: 0xf08 sha256:b272ab4d7f3755cf839f23d496a87a50aac14d1dc7df419d0ab5312f2a8be9b7
++  __DATA_DIRTY.__data: 0xeb8 sha256:ca35639c95bd6ad2224c0f891914f51701dfab4b67dedd47e675567c018f08cd
+   __DATA_DIRTY.__bss: 0x4a80 sha256:60f40376223ae05ee2f7bea1ea42bf1046d07fe72f6a6dcafe67f7ab745578bf
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+
+   - /System/Library/Frameworks/MediaIntents.framework/Versions/A/MediaIntents
+   - /System/Library/Frameworks/MusicKit.framework/Versions/A/MusicKit
+   - /System/Library/Frameworks/_MediaIntents_AppIntents.framework/Versions/A/_MediaIntents_AppIntents
+-  - /System/Library/PrivateFrameworks/CollectionsInternal.framework/Versions/A/CollectionsInternal
+   - /System/Library/PrivateFrameworks/MediaPlaybackCore.framework/Versions/A/MediaPlaybackCore
+   - /System/Library/PrivateFrameworks/MediaRemote.framework/Versions/A/MediaRemote
+   - /System/Library/PrivateFrameworks/MusicKitInternal.framework/Versions/A/MusicKitInternal
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9805BFC5-F1CD-3703-8890-F56C11CDB630
+-  Functions: 4856
+-  Symbols:   3246
+-  CStrings:  298
++  UUID: F1932FD6-B8D5-37E1-BB20-2749C681939A
++  Functions: 4733
++  Symbols:   3130
++  CStrings:  304
+ 
+Symbols:
++ ___swift_memcpy48_8
++ ___swift_memcpy49_8
++ ___swift_memcpy65_8
++ _associated conformance 28_MusicKitInternal_AppIntents0A16ItemSnippetModelV9CellStyleOSHAASQ
++ _associated conformance 28_MusicKitInternal_AppIntents0A18SnippetPluginModelO33IntelligentPlaylistEditCodingKeys019_22B59A278892E972D1Q12D917A417C970LLOSHAASQ
++ _associated conformance 28_MusicKitInternal_AppIntents0A18SnippetPluginModelO33IntelligentPlaylistEditCodingKeys019_22B59A278892E972D1Q12D917A417C970LLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 28_MusicKitInternal_AppIntents0A18SnippetPluginModelO33IntelligentPlaylistEditCodingKeys019_22B59A278892E972D1Q12D917A417C970LLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 28_MusicKitInternal_AppIntents14SongSiriEntityV0dE008SyncableH0AaD0dH0
++ _associated conformance 28_MusicKitInternal_AppIntents15AlbumSiriEntityV0dE008SyncableH0AaD0dH0
++ _associated conformance 28_MusicKitInternal_AppIntents16ArtistSiriEntityV0dE008SyncableH0AaD0dH0
++ _associated conformance 28_MusicKitInternal_AppIntents18PlaylistSiriEntityV0dE008SyncableH0AaD0dH0
++ _associated conformance 28_MusicKitInternal_AppIntents19RadioShowSiriEntityV0dE008SyncableI0AaD0dI0
++ _associated conformance 28_MusicKitInternal_AppIntents21LiveStationSiriEntityV0dE008SyncableI0AaD0dI0
++ _associated conformance 28_MusicKitInternal_AppIntents26RadioShowEpisodeSiriEntityV0dE008SyncableJ0AaD0dJ0
++ _associated conformance 28_MusicKitInternal_AppIntents28AlgorithmicStationSiriEntityV0dE008SyncableI0AaD0dI0
++ _associated conformance 28_MusicKitInternal_AppIntents35IntelligentPlaylistEditSnippetModelV0iB00iJ0AASE
++ _associated conformance 28_MusicKitInternal_AppIntents35IntelligentPlaylistEditSnippetModelV0iB00iJ0AASe
++ _associated conformance 28_MusicKitInternal_AppIntents35IntelligentPlaylistEditSnippetModelV10CodingKeys019_22B59A278892E972D1P12D917A417C970LLOSHAASQ
++ _associated conformance 28_MusicKitInternal_AppIntents35IntelligentPlaylistEditSnippetModelV10CodingKeys019_22B59A278892E972D1P12D917A417C970LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 28_MusicKitInternal_AppIntents35IntelligentPlaylistEditSnippetModelV10CodingKeys019_22B59A278892E972D1P12D917A417C970LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 28_MusicKitInternal_AppIntents35IntelligentPlaylistEditSnippetModelVs12IdentifiableAA2IDsADP_SH
++ _get_enum_tag_for_layout_string 28_MusicKitInternal_AppIntents0A18SnippetPluginModelO
++ _symbolic _____ 28_MusicKitInternal_AppIntents0A16ItemSnippetModelV9CellStyleO
++ _symbolic _____ 28_MusicKitInternal_AppIntents0A18SnippetPluginModelO33IntelligentPlaylistEditCodingKeys019_22B59A278892E972D1Q12D917A417C970LLO
++ _symbolic _____ 28_MusicKitInternal_AppIntents35IntelligentPlaylistEditSnippetModelV
++ _symbolic _____ 28_MusicKitInternal_AppIntents35IntelligentPlaylistEditSnippetModelV10CodingKeys019_22B59A278892E972D1P12D917A417C970LLO
++ _symbolic _____Sg 10Foundation4DataV
++ _symbolic _____yS2SG 10AppIntents24SyncableEntityIdentifierV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 28_MusicKitInternal_AppIntents0D18SnippetPluginModelO33IntelligentPlaylistEditCodingKeys019_22B59A278892E972D1T12D917A417C970LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 28_MusicKitInternal_AppIntents35IntelligentPlaylistEditSnippetModelV10CodingKeys019_22B59A278892E972D1S12D917A417C970LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 28_MusicKitInternal_AppIntents0D18SnippetPluginModelO33IntelligentPlaylistEditCodingKeys019_22B59A278892E972D1T12D917A417C970LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 28_MusicKitInternal_AppIntents35IntelligentPlaylistEditSnippetModelV10CodingKeys019_22B59A278892E972D1S12D917A417C970LLO
++ _symbolic _____y_____y_____GG s16IndexingIteratorV 8MusicKit0C14ItemCollectionV 0cD8Internal07GenericcE0O
++ _type_layout_string 28_MusicKitInternal_AppIntents35IntelligentPlaylistEditSnippetModelV
+- _OUTLINED_FUNCTION_364
+- _OUTLINED_FUNCTION_365
+- _OUTLINED_FUNCTION_366
+- _OUTLINED_FUNCTION_367
+- _OUTLINED_FUNCTION_368
+- _OUTLINED_FUNCTION_369
+- _OUTLINED_FUNCTION_370
+- _OUTLINED_FUNCTION_371
+- _OUTLINED_FUNCTION_372
+- _OUTLINED_FUNCTION_373
+- _OUTLINED_FUNCTION_374
+- _OUTLINED_FUNCTION_375
+- _OUTLINED_FUNCTION_376
+- _OUTLINED_FUNCTION_377
+- _OUTLINED_FUNCTION_378
+- _OUTLINED_FUNCTION_379
+- _OUTLINED_FUNCTION_380
+- _OUTLINED_FUNCTION_381
+- _OUTLINED_FUNCTION_382
+- _OUTLINED_FUNCTION_383
+- _OUTLINED_FUNCTION_384
+- _OUTLINED_FUNCTION_385
+- _OUTLINED_FUNCTION_386
+- _OUTLINED_FUNCTION_387
+- _OUTLINED_FUNCTION_388
+- _OUTLINED_FUNCTION_389
+- _OUTLINED_FUNCTION_390
+- _OUTLINED_FUNCTION_391
+- _OUTLINED_FUNCTION_392
+- _OUTLINED_FUNCTION_393
+- _OUTLINED_FUNCTION_394
+- _OUTLINED_FUNCTION_395
+- _OUTLINED_FUNCTION_396
+- _OUTLINED_FUNCTION_397
+- _OUTLINED_FUNCTION_398
+- _OUTLINED_FUNCTION_399
+- _OUTLINED_FUNCTION_400
+- _OUTLINED_FUNCTION_401
+- _OUTLINED_FUNCTION_402
+- _OUTLINED_FUNCTION_403
+- _OUTLINED_FUNCTION_404
+- _OUTLINED_FUNCTION_405
+- _OUTLINED_FUNCTION_406
+- _OUTLINED_FUNCTION_407
+- _OUTLINED_FUNCTION_408
+- _OUTLINED_FUNCTION_409
+- _OUTLINED_FUNCTION_410
+- _OUTLINED_FUNCTION_411
+- _OUTLINED_FUNCTION_412
+- _OUTLINED_FUNCTION_413
+- _OUTLINED_FUNCTION_414
+- _OUTLINED_FUNCTION_415
+- _OUTLINED_FUNCTION_416
+- _OUTLINED_FUNCTION_417
+- _OUTLINED_FUNCTION_418
+- _OUTLINED_FUNCTION_419
+- _OUTLINED_FUNCTION_420
+- _OUTLINED_FUNCTION_421
+- _OUTLINED_FUNCTION_422
+- _OUTLINED_FUNCTION_423
+- _OUTLINED_FUNCTION_424
+- _OUTLINED_FUNCTION_425
+- _OUTLINED_FUNCTION_426
+- _OUTLINED_FUNCTION_427
+- _OUTLINED_FUNCTION_428
+- _OUTLINED_FUNCTION_429
+- _OUTLINED_FUNCTION_430
+- _OUTLINED_FUNCTION_431
+- _OUTLINED_FUNCTION_432
+- _OUTLINED_FUNCTION_433
+- _OUTLINED_FUNCTION_434
+- _OUTLINED_FUNCTION_435
+- _OUTLINED_FUNCTION_436
+- _OUTLINED_FUNCTION_437
+- _OUTLINED_FUNCTION_438
+- _OUTLINED_FUNCTION_439
+- _OUTLINED_FUNCTION_440
+- _OUTLINED_FUNCTION_441
+- _OUTLINED_FUNCTION_442
+- _OUTLINED_FUNCTION_443
+- _OUTLINED_FUNCTION_444
+- _OUTLINED_FUNCTION_445
+- _OUTLINED_FUNCTION_446
+- _OUTLINED_FUNCTION_447
+- _OUTLINED_FUNCTION_448
+- _OUTLINED_FUNCTION_449
+- _OUTLINED_FUNCTION_450
+- _OUTLINED_FUNCTION_451
+- _OUTLINED_FUNCTION_452
+- _OUTLINED_FUNCTION_453
+- _OUTLINED_FUNCTION_454
+- _OUTLINED_FUNCTION_455
+- _OUTLINED_FUNCTION_456
+- _OUTLINED_FUNCTION_457
+- _OUTLINED_FUNCTION_458
+- _OUTLINED_FUNCTION_459
+- _OUTLINED_FUNCTION_460
+- _OUTLINED_FUNCTION_461
+- _OUTLINED_FUNCTION_462
+- _OUTLINED_FUNCTION_463
+- ___swift_memcpy64_8
+- __swift_closure_destructor.100
+- __swift_closure_destructor.115
+- __swift_closure_destructor.119
+- __swift_closure_destructor.134
+- __swift_closure_destructor.138
+- __swift_closure_destructor.153
+- __swift_closure_destructor.157
+- __swift_closure_destructor.172
+- __swift_closure_destructor.176
+- __swift_closure_destructor.42
+- __swift_closure_destructor.77
+- __swift_closure_destructor.81
+- __swift_closure_destructor.96
+- _associated conformance 28_MusicKitInternal_AppIntents14SongSiriEntityV0dE009_SyncableH0AaD0dH0
+- _associated conformance 28_MusicKitInternal_AppIntents15AlbumSiriEntityV0dE009_SyncableH0AaD0dH0
+- _associated conformance 28_MusicKitInternal_AppIntents16ArtistSiriEntityV0dE009_SyncableH0AaD0dH0
+- _associated conformance 28_MusicKitInternal_AppIntents18PlaylistSiriEntityV0dE009_SyncableH0AaD0dH0
+- _associated conformance 28_MusicKitInternal_AppIntents19RadioShowSiriEntityV0dE009_SyncableI0AaD0dI0
+- _associated conformance 28_MusicKitInternal_AppIntents21LiveStationSiriEntityV0dE009_SyncableI0AaD0dI0
+- _associated conformance 28_MusicKitInternal_AppIntents26RadioShowEpisodeSiriEntityV0dE009_SyncableJ0AaD0dJ0
+- _associated conformance 28_MusicKitInternal_AppIntents28AlgorithmicStationSiriEntityV0dE009_SyncableI0AaD0dI0
+- _swift_isUniquelyReferenced_native
+- _symbolic _____SgIeAgHr_ 28_MusicKitInternal_AppIntents14SongSiriEntityV
+- _symbolic _____SgIeAgHr_ 28_MusicKitInternal_AppIntents15AlbumSiriEntityV
+- _symbolic _____SgIeAgHr_ 28_MusicKitInternal_AppIntents16ArtistSiriEntityV
+- _symbolic _____SgIeAgHr_ 28_MusicKitInternal_AppIntents18PlaylistSiriEntityV
+- _symbolic _____SgIeAgHr_ 28_MusicKitInternal_AppIntents19RadioShowSiriEntityV
+- _symbolic _____SgIeAgHr_ 28_MusicKitInternal_AppIntents21LiveStationSiriEntityV
+- _symbolic _____SgIeAgHr_ 28_MusicKitInternal_AppIntents26RadioShowEpisodeSiriEntityV
+- _symbolic _____SgIeAgHr_ 28_MusicKitInternal_AppIntents28AlgorithmicStationSiriEntityV
+- _symbolic _____SgSg 28_MusicKitInternal_AppIntents14SongSiriEntityV
+- _symbolic _____SgSg 28_MusicKitInternal_AppIntents15AlbumSiriEntityV
+- _symbolic _____SgSg 28_MusicKitInternal_AppIntents16ArtistSiriEntityV
+- _symbolic _____SgSg 28_MusicKitInternal_AppIntents18PlaylistSiriEntityV
+- _symbolic _____SgSg 28_MusicKitInternal_AppIntents19RadioShowSiriEntityV
+- _symbolic _____SgSg 28_MusicKitInternal_AppIntents21LiveStationSiriEntityV
+- _symbolic _____SgSg 28_MusicKitInternal_AppIntents26RadioShowEpisodeSiriEntityV
+- _symbolic _____SgSg 28_MusicKitInternal_AppIntents28AlgorithmicStationSiriEntityV
+- _symbolic _____m 16MusicKitInternal0A18SiriRepresentationV
+- _symbolic _____yS2SG 10AppIntents25_SyncableEntityIdentifierV
+- _symbolic _____y_____SgG s23_ContiguousArrayStorageC 28_MusicKitInternal_AppIntents14SongSiriEntityV
+- _symbolic _____y_____SgG s23_ContiguousArrayStorageC 28_MusicKitInternal_AppIntents15AlbumSiriEntityV
+- _symbolic _____y_____SgG s23_ContiguousArrayStorageC 28_MusicKitInternal_AppIntents16ArtistSiriEntityV
+- _symbolic _____y_____SgG s23_ContiguousArrayStorageC 28_MusicKitInternal_AppIntents18PlaylistSiriEntityV
+- _symbolic _____y_____SgG s23_ContiguousArrayStorageC 28_MusicKitInternal_AppIntents19RadioShowSiriEntityV
+- _symbolic _____y_____SgG s23_ContiguousArrayStorageC 28_MusicKitInternal_AppIntents21LiveStationSiriEntityV
+- _symbolic _____y_____SgG s23_ContiguousArrayStorageC 28_MusicKitInternal_AppIntents26RadioShowEpisodeSiriEntityV
+- _symbolic _____y_____SgG s23_ContiguousArrayStorageC 28_MusicKitInternal_AppIntents28AlgorithmicStationSiriEntityV
+- _symbolic _____y_____Sg_G ScG8IteratorV 28_MusicKitInternal_AppIntents14SongSiriEntityV
+- _symbolic _____y_____Sg_G ScG8IteratorV 28_MusicKitInternal_AppIntents15AlbumSiriEntityV
+- _symbolic _____y_____Sg_G ScG8IteratorV 28_MusicKitInternal_AppIntents16ArtistSiriEntityV
+- _symbolic _____y_____Sg_G ScG8IteratorV 28_MusicKitInternal_AppIntents18PlaylistSiriEntityV
+- _symbolic _____y_____Sg_G ScG8IteratorV 28_MusicKitInternal_AppIntents19RadioShowSiriEntityV
+- _symbolic _____y_____Sg_G ScG8IteratorV 28_MusicKitInternal_AppIntents21LiveStationSiriEntityV
+- _symbolic _____y_____Sg_G ScG8IteratorV 28_MusicKitInternal_AppIntents26RadioShowEpisodeSiriEntityV
+- _symbolic _____y_____Sg_G ScG8IteratorV 28_MusicKitInternal_AppIntents28AlgorithmicStationSiriEntityV
+- _symbolic _____y_____yS2SGG s23_ContiguousArrayStorageC 10AppIntents25_SyncableEntityIdentifierV
+CStrings:
++ "%{public}s getting entities for %{public}ld identifier(s)."
++ "%{public}s query for %{public}ld identifier(s) got %{public}ld item(s)... returning %{public}ld entities."
++ "%{public}s query for %{public}ld identifier(s) threw an error: %{public}@. Returning an empty list of entities."
++ "%{public}s unable to make an entity out of %{public}s"
++ "hero"
++ "intelligentPlaylistEdit"
++ "small"
+- "%{public}s query found entity %{public}s"
+
+```

@@ -1,0 +1,741 @@
+## PhotosFormats
+
+> `/System/Library/PrivateFrameworks/PhotosFormats.framework/Versions/A/PhotosFormats`
+
+```diff
+
+-910.15.106.0.0
+-  __TEXT.__text: 0xdd69c sha256:aa6e67e24375a588059de78b7e71dedc3bba7fe2f6c7c49d169444107d0ee8cd
+-  __TEXT.__objc_methlist: 0xc710 sha256:c38d9f7a7defdbb8f937e75c6b886d6b92f76e01b612661024310b930e2dcdf2
++910.22.101.0.0
++  __TEXT.__text: 0xdd584 sha256:71b3e90b244053aa7fb2dff8e5340ddc9f522560cbdaffcc95297de3989e7503
++  __TEXT.__objc_methlist: 0xc728 sha256:2e57f82ebacb49988524ff3a0cfa1a1454d34d76fb8f1f36b6f14f8e8afd79ba
+   __TEXT.__const: 0x2da0 sha256:11b16f92b09f2c4343a3f5f3cd26ce750ee37412979e9511b948edbf4457835e
+   __TEXT.__dlopen_cstrs: 0x43 sha256:e1f72b8b78ee221d731fcef9e413e0164bbe4bd3f75bf8697dfd658569646a65
+-  __TEXT.__gcc_except_tab: 0x2c24 sha256:ebb1cfc092019b04f12338d7e0e197f26b543c84caebd63859021df1e18e65d2
+-  __TEXT.__cstring: 0xdcc8 sha256:77175332e009635e3392d448f7fa5a4ebd617c626101401a3acc06b6314b411e
+-  __TEXT.__oslogstring: 0x6d25 sha256:de23b9ce7a0ba8f2ff3e72beeb4bd1bd6de954834a9e66456e404a19a2f547e3
++  __TEXT.__gcc_except_tab: 0x2c24 sha256:225b0765ff335894fd906ab2b80c985184b8d2e635c99d7d0649994255cc8e0b
++  __TEXT.__cstring: 0xdcff sha256:0c850e89697c3844bf713e0f6af56571bba660877282a20bc7074f1c196d53a5
++  __TEXT.__oslogstring: 0x6d61 sha256:f1299604bf6e120cc3f3d8da270ccb472403881915f854069d20f70594089677
+   __TEXT.__ustring: 0x44 sha256:19e1a199634152dfd5bdf9fccbea729833505cf66a14827b69d2e0838bf1fda9
+-  __TEXT.__unwind_info: 0x32e0 sha256:f5a9f16786a0e6bb91e328fec8168ce6db8ff114bcc4d6276abc1034a4aad3fe
++  __TEXT.__unwind_info: 0x3300 sha256:5c312c5a2b89f888ae10dc790a2a19976c0e847d380a9ed3c53f4167fef9d1cd
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1568 sha256:0f5f99982c2c41fd539ddb875faf04c6c7826b2b5cd15445076dcce4650d1cef
+-  __DATA_CONST.__objc_classlist: 0x538 sha256:6a7de7a6d4ef16a443a2e377101c913b4f98e2fcb118e117756e9ba3b5d7aa73
+-  __DATA_CONST.__objc_protolist: 0x100 sha256:f4d7ed40e8bebcd41766c366ffaed94a7262ead10151edced6ea7374a56c5366
++  __DATA_CONST.__const: 0x1568 sha256:62511435c49a235404897b68c0d4760329c3e9b81b744b14fad0f98bd70de2d5
++  __DATA_CONST.__objc_classlist: 0x538 sha256:fe6bad2fa9015d88c72cc22fb4a084bb4e145400111c782dc6e85f89ce50c9b8
++  __DATA_CONST.__objc_protolist: 0x100 sha256:df11e66d980303d1756bf8680232c06d3f2f7ef161fb8eb2c17c14644ccfcbee
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__weak_got: 0x10 sha256:5f90a93d32c0ac04a9be51199194fca3a1d4c01f7662798cc004b7228c2e149f
+-  __DATA_CONST.__objc_selrefs: 0x6100 sha256:d0cf6661866f71bd64b74bae6455baa84330dab57cde2bffd20a27d276445b09
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:2996aeb2401d9147aff05ea28f84069c46f87993a3ede8601f09e61eeb65166e
+-  __DATA_CONST.__objc_superrefs: 0x388 sha256:39e574a40b938c4e288828c6c894c43e9cdc6bc1d6f8bd5d0b2302a292c4bb85
+-  __DATA_CONST.__objc_arraydata: 0x800 sha256:090eb8688901949880b0b28542eecb1ee2cf0323fe46e5073b62e443a3536f00
+-  __DATA_CONST.__got: 0x15c0 sha256:ca667fbd283ae096c8c5ffee5f8a483c0383bba5beb4fa983fae8f50d16ba62e
+-  __AUTH_CONST.__const: 0x33b0 sha256:687dbd45cf9701ba77d03dcf60ce3715c5bcc367aa50dfb84eb952b842325007
+-  __AUTH_CONST.__cfstring: 0xc9a0 sha256:98c4be2dc0ae364cb45118f73863415031d6f20161a151ab32776c4a5e9dd53c
+-  __AUTH_CONST.__objc_const: 0x14268 sha256:b9e0e549c43439a0a73a2b2b3fe7e412ab78d5ad97285bd762b0689f08acf687
+-  __AUTH_CONST.__weak_auth_got: 0x20 sha256:e975a9f837bc7579f6fe3f3cd4125560e9f727239c31d592492ce3d2c7ba2ca1
+-  __AUTH_CONST.__objc_intobj: 0x900 sha256:59c313ef5153d1da4ee8f46bcdcf683a9eaee121e8e9b81f087cdd17d2520f0c
+-  __AUTH_CONST.__objc_arrayobj: 0x348 sha256:fe8acc63bba1fb0356baed2c3f3a28034d4420c73e1065691f2096cce97a039e
+-  __AUTH_CONST.__objc_doubleobj: 0x1b0 sha256:86b7b6796849551931fd32188987fd404b7cf1251834c0d53c7affeef020d9d2
+-  __AUTH_CONST.__objc_dictobj: 0x208 sha256:821a804cf1a11e97ce4e5ae6bb0b1de5632abd5b411ab6922e2f3bdcbb5287e2
++  __DATA_CONST.__weak_got: 0x10 sha256:4ddd0b64e5009f663c80034e5f9a16dfaf087529da39e173e756820bdd5e9362
++  __DATA_CONST.__objc_selrefs: 0x6110 sha256:b528f47bd0d46afbe8e2548eaf301804924309984034b9ffd59a5465da6ce71e
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:afaf39996ba38a6d4fd42895fe0ee992434834b9834f438fcc7fa1fc5c10f45c
++  __DATA_CONST.__objc_superrefs: 0x388 sha256:36c247dcbe221408763afecd8c4005190c80b53ac3fca1310587a3494e3f53fe
++  __DATA_CONST.__objc_arraydata: 0x800 sha256:99e0ee0e37d2df1a8ee7137a5c9993cc3fa2676ff7653b5ba481a3c8126336a4
++  __DATA_CONST.__got: 0x15c0 sha256:cfac6b1a600340b15993cbc55b06615a4cd155ce9eca7e908aa890826761dc01
++  __AUTH_CONST.__const: 0x33d0 sha256:0d22ba01caa8ad293b227906f11f0d9a75e6ee5eb0ec5ccc086f3b9a0ca4a887
++  __AUTH_CONST.__cfstring: 0xc9a0 sha256:da28adde17d1c2a4d80110f88b23c0b6f510b9d594cac140195b16fb02f51a42
++  __AUTH_CONST.__objc_const: 0x14268 sha256:3a08e10d1c3462568468656d6c526638b7f6ecf30facc4048f40a6a9c9b61ce9
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:2322eb1984e44eccd6e9f6e272c4901cb9c05a3247102e7dd87a37df330c1c74
++  __AUTH_CONST.__objc_intobj: 0x900 sha256:606ac6f7bfc057011d479e3c424b4a6eb86043129b2db425b87f1f2de5652f21
++  __AUTH_CONST.__objc_arrayobj: 0x348 sha256:e2415bdb118acd22236c026721601ef56e60227722c6e5c60eefa8de533f1839
++  __AUTH_CONST.__objc_doubleobj: 0x1b0 sha256:697152fe241bb8971bfcdb8c13cf156b31ddad651de04ba642e4ba505c1db7f5
++  __AUTH_CONST.__objc_dictobj: 0x208 sha256:a2daab395b16d98ab79d941d1cf503c506aac95a0e6b7358d125fbecf6a2a917
+   __AUTH_CONST.__auth_got: 0xe48 sha256:8481efabdade8976126aae06eed415f0536dee8cda96c25e2e5f1d8ca842ecbe
+-  __AUTH.__objc_data: 0x640 sha256:e0ef52309b4f60efafaf35b9e38d36f0a161d6fc9587ae4c79112c8948020b47
++  __AUTH.__objc_data: 0x640 sha256:69a5eda1d1926433cd56ef598c70d71b09ee398de8b7819305ca221d9322fd57
+   __DATA.__objc_ivar: 0xcf8 sha256:64a5a1554aac7b0cc78cfdeeb7721debb5e802f12db6008e638ed0611042bbf6
+-  __DATA.__data: 0xd28 sha256:8d711e99313cff8a63ddf28177124e93a75ffc12d7510a28358599c753991a89
+-  __DATA.__bss: 0x818 sha256:6145fc6f0263e92523c0a8ff26a1d01852c934c7511ef7c0ff6c5d4afa8d1ec5
+-  __DATA_DIRTY.__objc_data: 0x2df0 sha256:a5b95a238d17ff21ffb3e40ab3313bac1f58e4fc5865ab9a0f81c1d19a1990a1
+-  __DATA_DIRTY.__bss: 0x708 sha256:09cec5a5bd8afffbb758753810a20c55ccb06a46d7bf54eda69ecd2ad645ef11
++  __DATA.__data: 0xd28 sha256:8db0c0a87a886cf835ccbb1c944826ed4d8d8ec547532f496e4224f9b241ff1e
++  __DATA.__bss: 0x838 sha256:3bff857daf1c246b3ba79bff08805f403b65b0e2a5cffb40b078a383eb861514
++  __DATA_DIRTY.__objc_data: 0x2df0 sha256:9bc237cde37ce3360be9ad7f103b77a92b97ae95fe428d64c982317d37f6c5bc
++  __DATA_DIRTY.__bss: 0x6e8 sha256:7314b978571ffc723887d81a40c88dbd2de4b221b4a0149d14f284b074eec9f9
+   __DATA_DIRTY.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4C999C9F-D68B-3042-8DBD-86AC609ADDE3
+-  Functions: 4839
+-  Symbols:   11740
+-  CStrings:  4130
++  UUID: 8FD3E6B3-5865-3FD7-B5DD-2181DFAA66DA
++  Functions: 4842
++  Symbols:   11744
++  CStrings:  4132
+ 
+Symbols:
++ -[PFMetadata initWithAVAsset:contentType:options:timeZoneLookup:]
++ -[PFMetadata initWithAVProxyData:contentType:timeZoneLookup:]
++ -[PFMetadata initWithAVURL:contentType:options:timeZoneLookup:]
++ -[PFMetadataLegacyMovieProperties initWithAVProxyData:contentType:timeZoneLookup:]
++ -[PFMetadataMovie initWithAVAsset:contentType:options:timeZoneLookup:]
++ -[PFMetadataMovie initWithAVProxyData:contentType:timeZoneLookup:]
++ -[PFMetadataMovie initWithAVURL:contentType:options:timeZoneLookup:]
++ GCC_except_table1151
++ GCC_except_table1510
++ GCC_except_table1517
++ GCC_except_table1520
++ GCC_except_table1555
++ GCC_except_table1571
++ GCC_except_table1676
++ GCC_except_table1729
++ GCC_except_table1755
++ GCC_except_table1757
++ GCC_except_table1845
++ GCC_except_table1856
++ GCC_except_table1895
++ GCC_except_table1897
++ GCC_except_table1922
++ GCC_except_table1933
++ GCC_except_table1960
++ GCC_except_table1968
++ GCC_except_table1971
++ GCC_except_table1985
++ GCC_except_table2006
++ GCC_except_table2011
++ GCC_except_table2022
++ GCC_except_table2127
++ GCC_except_table2166
++ GCC_except_table2230
++ GCC_except_table2241
++ GCC_except_table2263
++ GCC_except_table2331
++ GCC_except_table2336
++ GCC_except_table2343
++ GCC_except_table2447
++ GCC_except_table2549
++ GCC_except_table2550
++ GCC_except_table2560
++ GCC_except_table2565
++ GCC_except_table2596
++ GCC_except_table2619
++ GCC_except_table2621
++ GCC_except_table2736
++ GCC_except_table3015
++ GCC_except_table3081
++ GCC_except_table3087
++ GCC_except_table3088
++ GCC_except_table3092
++ GCC_except_table3096
++ GCC_except_table3100
++ GCC_except_table3101
++ GCC_except_table3109
++ GCC_except_table3113
++ GCC_except_table3115
++ GCC_except_table3117
++ GCC_except_table3125
++ GCC_except_table3133
++ GCC_except_table3140
++ GCC_except_table3141
++ GCC_except_table3142
++ GCC_except_table3166
++ GCC_except_table3167
++ GCC_except_table3175
++ GCC_except_table3176
++ GCC_except_table3177
++ GCC_except_table3183
++ GCC_except_table3188
++ GCC_except_table3245
++ GCC_except_table3392
++ GCC_except_table3399
++ GCC_except_table3400
++ GCC_except_table3401
++ GCC_except_table3405
++ GCC_except_table3411
++ GCC_except_table3422
++ GCC_except_table3424
++ GCC_except_table3429
++ GCC_except_table3430
++ GCC_except_table3431
++ GCC_except_table3437
++ GCC_except_table3444
++ GCC_except_table3445
++ GCC_except_table3465
++ GCC_except_table3517
++ GCC_except_table3524
++ GCC_except_table3525
++ GCC_except_table3575
++ GCC_except_table3584
++ GCC_except_table3659
++ GCC_except_table3738
++ GCC_except_table3740
++ GCC_except_table3757
++ GCC_except_table3781
++ GCC_except_table3783
++ GCC_except_table3872
++ GCC_except_table4105
++ GCC_except_table4107
++ GCC_except_table4109
++ GCC_except_table4116
++ GCC_except_table4121
++ GCC_except_table4131
++ GCC_except_table4141
++ GCC_except_table4142
++ GCC_except_table4143
++ GCC_except_table4147
++ GCC_except_table4149
++ GCC_except_table4156
++ GCC_except_table4160
++ GCC_except_table4167
++ GCC_except_table4171
++ GCC_except_table4172
++ GCC_except_table4173
++ GCC_except_table4180
++ GCC_except_table4182
++ GCC_except_table4184
++ GCC_except_table4192
++ GCC_except_table4196
++ GCC_except_table4209
++ GCC_except_table4216
++ GCC_except_table4221
++ GCC_except_table4222
++ GCC_except_table4226
++ GCC_except_table4231
++ GCC_except_table4260
++ GCC_except_table4267
++ GCC_except_table4269
++ GCC_except_table4271
++ GCC_except_table4285
++ GCC_except_table4287
++ GCC_except_table4292
++ GCC_except_table4293
++ GCC_except_table4297
++ GCC_except_table4368
++ GCC_except_table4435
++ GCC_except_table4441
++ GCC_except_table4510
++ GCC_except_table4514
++ GCC_except_table4519
++ GCC_except_table4520
++ GCC_except_table4540
++ GCC_except_table4557
++ GCC_except_table4559
++ GCC_except_table4561
++ GCC_except_table4563
++ GCC_except_table4826
++ GCC_except_table4835
++ GCC_except_table4839
++ GCC_except_table716
++ GCC_except_table723
++ GCC_except_table764
++ GCC_except_table769
++ GCC_except_table778
++ GCC_except_table782
++ GCC_except_table786
++ GCC_except_table789
++ GCC_except_table798
++ GCC_except_table804
++ GCC_except_table810
++ GCC_except_table814
++ GCC_except_table824
++ GCC_except_table830
++ GCC_except_table833
++ GCC_except_table838
++ GCC_except_table842
++ GCC_except_table847
++ GCC_except_table861
++ GCC_except_table865
++ PFSharedFigDecodeSession.s_flushQueue
++ Vertices.12315
++ _AuxiliaryImageCVPixelBufferReleaseBytesCallback.3725
++ _OBJC_$_PROP_LIST_PFMetadataImage.6745
++ _ZN5boost12interprocessL8ec_tableE.8686
++ __54-[PFMetadataMovie _computeFirstVideoTrackCodecAndName]_block_invoke.179
++ __75-[PFMetadataMovie _audioVideoProxyPropertyListForAsset:propertyList:error:]_block_invoke.304
++ __75-[PFMetadataMovie _audioVideoProxyPropertyListForAsset:propertyList:error:]_block_invoke.314
++ __Block_byref_object_copy_.10429
++ __Block_byref_object_copy_.12008
++ __Block_byref_object_copy_.12744
++ __Block_byref_object_copy_.14126
++ __Block_byref_object_copy_.4282
++ __Block_byref_object_copy_.4732
++ __Block_byref_object_copy_.5173
++ __Block_byref_object_copy_.5286
++ __Block_byref_object_copy_.5870
++ __Block_byref_object_copy_.6357
++ __Block_byref_object_copy_.6997
++ __Block_byref_object_copy_.8056
++ __Block_byref_object_copy_.9146
++ __Block_byref_object_copy_.9664
++ __Block_byref_object_copy_.9980
++ __Block_byref_object_dispose_.10430
++ __Block_byref_object_dispose_.12009
++ __Block_byref_object_dispose_.12745
++ __Block_byref_object_dispose_.14127
++ __Block_byref_object_dispose_.4283
++ __Block_byref_object_dispose_.4733
++ __Block_byref_object_dispose_.5174
++ __Block_byref_object_dispose_.5287
++ __Block_byref_object_dispose_.5871
++ __Block_byref_object_dispose_.6358
++ __Block_byref_object_dispose_.6998
++ __Block_byref_object_dispose_.8057
++ __Block_byref_object_dispose_.9147
++ __Block_byref_object_dispose_.9665
++ __Block_byref_object_dispose_.9981
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9nqe220106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe220106ERKS6_S9_
++ __ZNSt12length_errorC1B9nqe220106EPKc
++ __ZNSt3__110unique_ptrIN5boost12interprocess25basic_managed_mapped_fileIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEENS_14default_deleteISA_EEED1B9nqe220106Ev
++ __ZNSt3__111__sift_downB9nqe220106INS_17_ClassicAlgPolicyELb0ERN5boost8geometry5index6detail5rtree8visitors15pair_first_lessENS_11__wrap_iterIPNS_4pairIdPKNSB_INS3_5model5pointIfLm2ENS3_2cs9cartesianEEEtEEEEEEEEvT2_OT1_NS_15iterator_traitsISN_E15difference_typeESS_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqe220106Em
++ __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_IN2pf18SceneGeographyNodeENS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEEEENS_4pairIKNS1_9container12basic_stringIcNS_11char_traitsIcEENS3_IcSG_EEEES8_EEEESG_EEE10deallocateB9nqe220106ERSS_NSC_ISR_lmLm0EEEm
++ __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_INS2_10offset_ptrIN2pf17SceneTaxonomyNodeElmLm0EEENS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS7_IvlmLm0EEELm0EEENS2_10iset_indexEEEEESA_EESH_EEE10deallocateB9nqe220106ERSK_NS7_ISJ_lmLm0EEEm
++ __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_INS_4pairIKNS1_9container12basic_stringIcNS_11char_traitsIcEENS3_IcNS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEEEEEEN2pf17SceneTaxonomyNodeEEESJ_EESP_EESJ_EEE10deallocateB9nqe220106ERSS_NSF_ISR_lmLm0EEEm
++ __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_INS_4pairIKyNS2_10offset_ptrIN2pf17SceneTaxonomyNodeElmLm0EEEEENS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS9_IvlmLm0EEELm0EEENS2_10iset_indexEEEEESD_EESK_EEE10deallocateB9nqe220106ERSN_NS9_ISM_lmLm0EEEm
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_4pairIN5boost8geometry5model5pointIfLm2ENS4_2cs9cartesianEEEtEEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_4pairIdPKNS2_IN5boost8geometry5model5pointIfLm2ENS4_2cs9cartesianEEEtEEEEEENS_16allocator_traitsISE_EEEENS_19__allocation_resultINT0_7pointerENSI_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPKN2pf17SceneTaxonomyNodeEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPPKvEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9nqe220106EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEtEEPvEEEEEclB9nqe220106EPSB_
++ __ZNSt3__15dequeIPKvNS_9allocatorIS2_EEED2B9nqe220106Ev
++ __ZNSt3__16vectorIN5boost8geometry5index6detail5rtree8visitors14distance_queryINS3_5rtreeINS_4pairINS2_5model5pointIfLm2ENS2_2cs9cartesianEEEtEENS3_9quadraticILm32ELm8EEENS3_9indexableISF_EENS3_8equal_toISF_EENS1_12interprocess9allocatorISF_NSM_15segment_managerIcNSM_15rbtree_best_fitINSM_17null_mutex_familyENSM_10offset_ptrIvlmLm0EEELm0EEENSM_10iset_indexEEEEEE14members_holderENS4_10predicates7nearestISE_EEE11branch_dataENS_9allocatorIS13_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_4pairIN5boost8geometry5model5pointIfLm2ENS3_2cs9cartesianEEEtEENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_4pairIPKN5boost8geometry5index6detail5rtree8ptr_pairINS3_5model3boxINS8_5pointIfLm2ENS3_2cs9cartesianEEEEENS2_12interprocess10offset_ptrINS2_7variantINS6_12variant_leafINS1_ISD_tEENS4_9quadraticILm32ELm8EEESE_NS6_10allocatorsINSF_9allocatorISJ_NSF_15segment_managerIcNSF_15rbtree_best_fitINSF_17null_mutex_familyENSG_IvlmLm0EEELm0EEENSF_10iset_indexEEEEESJ_SL_SE_NS6_23node_variant_static_tagEEESW_EEJNS6_21variant_internal_nodeISJ_SL_SE_SX_SW_EEEEElmLm0EEEEES15_EENS_9allocatorIS16_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_4pairIdPKNS1_IN5boost8geometry5model5pointIfLm2ENS3_2cs9cartesianEEEtEEEENS_9allocatorISC_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIPKN2pf17SceneTaxonomyNodeENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB9nqe220106IRN5boost9container12vec_iteratorIPNS_4pairINS4_8geometry5model5pointIfLm2ENS8_2cs9cartesianEEENS_11__wrap_iterIPNS7_ISD_tEEEEEELb0EEESL_EEvOT_OT0_
++ __ZNSt3__19__sift_upB9nqe220106INS_17_ClassicAlgPolicyERN5boost8geometry5index6detail5rtree8visitors15pair_first_lessENS_11__wrap_iterIPNS_4pairIdPKNSB_INS3_5model5pointIfLm2ENS3_2cs9cartesianEEEtEEEEEEEEvT1_SN_OT0_NS_15iterator_traitsISN_E15difference_typeE
++ __ZNSt3__19__sift_upB9nqe220106INS_17_ClassicAlgPolicyERN5boost8geometry5index6detail5rtree8visitors16branch_data_compENS_11__wrap_iterIPNS7_14distance_queryINS4_5rtreeINS_4pairINS3_5model5pointIfLm2ENS3_2cs9cartesianEEEtEENS4_9quadraticILm32ELm8EEENS4_9indexableISJ_EENS4_8equal_toISJ_EENS2_12interprocess9allocatorISJ_NSQ_15segment_managerIcNSQ_15rbtree_best_fitINSQ_17null_mutex_familyENSQ_10offset_ptrIvlmLm0EEELm0EEENSQ_10iset_indexEEEEEE14members_holderENS5_10predicates7nearestISI_EEE11branch_dataEEEEEvT1_S1A_OT0_NS_15iterator_traitsIS1A_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB9nqe220106v
++ ___PFSharedFigDecodeSession_block_invoke_4
++ __block_literal_global.101.3590
++ __block_literal_global.10142
++ __block_literal_global.10548
++ __block_literal_global.12.6367
++ __block_literal_global.12003
++ __block_literal_global.122.2241
++ __block_literal_global.12261
++ __block_literal_global.12361
++ __block_literal_global.127.5684
++ __block_literal_global.12741
++ __block_literal_global.13020
++ __block_literal_global.13178
++ __block_literal_global.132.13863
++ __block_literal_global.132.5679
++ __block_literal_global.13605
++ __block_literal_global.13797
++ __block_literal_global.13933
++ __block_literal_global.1476
++ __block_literal_global.1579
++ __block_literal_global.165.10066
++ __block_literal_global.195.2203
++ __block_literal_global.2022
++ __block_literal_global.2306
++ __block_literal_global.2545
++ __block_literal_global.270
++ __block_literal_global.294
++ __block_literal_global.3.12259
++ __block_literal_global.3.6349
++ __block_literal_global.3017
++ __block_literal_global.3425
++ __block_literal_global.3589
++ __block_literal_global.37.4349
++ __block_literal_global.3887
++ __block_literal_global.4143
++ __block_literal_global.4380
++ __block_literal_global.4436
++ __block_literal_global.4452
++ __block_literal_global.47.2280
++ __block_literal_global.4920
++ __block_literal_global.5.12254
++ __block_literal_global.5010
++ __block_literal_global.5229
++ __block_literal_global.5314
++ __block_literal_global.5700
++ __block_literal_global.5875
++ __block_literal_global.5947
++ __block_literal_global.6284
++ __block_literal_global.6347
++ __block_literal_global.7049
++ __block_literal_global.7110
++ __block_literal_global.7742
++ __block_literal_global.7907
++ __block_literal_global.83.10125
++ __block_literal_global.8844
++ __block_literal_global.9.13795
++ __block_literal_global.97.9673
++ __block_literal_global.9718
++ _exifDateTimeFormatter.dateTimeFormatter.6285
++ _exifDateTimeFormatter.onceToken.6283
++ _exifSubsecTimeFormatter.onceToken.6269
++ _exifSubsecTimeFormatter.subsecTimeFormatter.6270
++ _gpsDateFormatter.dateFormatter.6308
++ _gpsDateFormatter.onceToken.6307
++ _gpsTimeFormatter.onceToken.6312
++ _gpsTimeFormatter.timeFormatter.6313
++ _objc_msgSend$initWithAVAsset:contentType:options:timeZoneLookup:
++ _objc_msgSend$initWithAVProxyData:contentType:timeZoneLookup:
++ _objc_msgSend$initWithAVURL:contentType:options:timeZoneLookup:
+- -[PFMetadataLegacyMovieProperties initWithAVProxyData:timeZoneLookup:]
+- -[PFMetadataMovie initWithAVAsset:options:timeZoneLookup:]
+- -[PFMetadataMovie initWithAVAsset:options:timeZoneLookup:preloadValues:]
+- -[PFMetadataMovie initWithAVProxyData:timeZoneLookup:]
+- -[PFMetadataMovie initWithAVURL:options:timeZoneLookup:]
+- GCC_except_table1150
+- GCC_except_table1506
+- GCC_except_table1513
+- GCC_except_table1516
+- GCC_except_table1551
+- GCC_except_table1567
+- GCC_except_table1672
+- GCC_except_table1725
+- GCC_except_table1751
+- GCC_except_table1753
+- GCC_except_table1837
+- GCC_except_table1852
+- GCC_except_table1891
+- GCC_except_table1893
+- GCC_except_table1918
+- GCC_except_table1929
+- GCC_except_table1956
+- GCC_except_table1964
+- GCC_except_table1967
+- GCC_except_table1981
+- GCC_except_table2002
+- GCC_except_table2007
+- GCC_except_table2018
+- GCC_except_table2124
+- GCC_except_table2163
+- GCC_except_table2227
+- GCC_except_table2238
+- GCC_except_table2260
+- GCC_except_table2328
+- GCC_except_table2333
+- GCC_except_table2340
+- GCC_except_table2444
+- GCC_except_table2546
+- GCC_except_table2547
+- GCC_except_table2554
+- GCC_except_table2556
+- GCC_except_table2593
+- GCC_except_table2616
+- GCC_except_table2618
+- GCC_except_table2733
+- GCC_except_table3012
+- GCC_except_table3078
+- GCC_except_table3079
+- GCC_except_table3084
+- GCC_except_table3089
+- GCC_except_table3091
+- GCC_except_table3093
+- GCC_except_table3095
+- GCC_except_table3105
+- GCC_except_table3106
+- GCC_except_table3107
+- GCC_except_table3112
+- GCC_except_table3122
+- GCC_except_table3124
+- GCC_except_table3137
+- GCC_except_table3138
+- GCC_except_table3139
+- GCC_except_table3161
+- GCC_except_table3163
+- GCC_except_table3170
+- GCC_except_table3171
+- GCC_except_table3172
+- GCC_except_table3180
+- GCC_except_table3185
+- GCC_except_table3242
+- GCC_except_table3387
+- GCC_except_table3389
+- GCC_except_table3391
+- GCC_except_table3398
+- GCC_except_table3402
+- GCC_except_table3408
+- GCC_except_table3415
+- GCC_except_table3419
+- GCC_except_table3426
+- GCC_except_table3427
+- GCC_except_table3428
+- GCC_except_table3434
+- GCC_except_table3441
+- GCC_except_table3442
+- GCC_except_table3462
+- GCC_except_table3514
+- GCC_except_table3518
+- GCC_except_table3522
+- GCC_except_table3572
+- GCC_except_table3581
+- GCC_except_table3656
+- GCC_except_table3735
+- GCC_except_table3737
+- GCC_except_table3754
+- GCC_except_table3778
+- GCC_except_table3780
+- GCC_except_table3869
+- GCC_except_table4102
+- GCC_except_table4104
+- GCC_except_table4106
+- GCC_except_table4113
+- GCC_except_table4118
+- GCC_except_table4128
+- GCC_except_table4138
+- GCC_except_table4139
+- GCC_except_table4140
+- GCC_except_table4144
+- GCC_except_table4146
+- GCC_except_table4153
+- GCC_except_table4154
+- GCC_except_table4164
+- GCC_except_table4166
+- GCC_except_table4168
+- GCC_except_table4170
+- GCC_except_table4177
+- GCC_except_table4178
+- GCC_except_table4179
+- GCC_except_table4186
+- GCC_except_table4187
+- GCC_except_table4206
+- GCC_except_table4213
+- GCC_except_table4218
+- GCC_except_table4219
+- GCC_except_table4223
+- GCC_except_table4228
+- GCC_except_table4257
+- GCC_except_table4262
+- GCC_except_table4263
+- GCC_except_table4264
+- GCC_except_table4273
+- GCC_except_table4274
+- GCC_except_table4281
+- GCC_except_table4288
+- GCC_except_table4290
+- GCC_except_table4365
+- GCC_except_table4432
+- GCC_except_table4438
+- GCC_except_table4507
+- GCC_except_table4511
+- GCC_except_table4513
+- GCC_except_table4517
+- GCC_except_table4537
+- GCC_except_table4554
+- GCC_except_table4555
+- GCC_except_table4556
+- GCC_except_table4560
+- GCC_except_table4823
+- GCC_except_table4832
+- GCC_except_table4836
+- GCC_except_table715
+- GCC_except_table722
+- GCC_except_table763
+- GCC_except_table767
+- GCC_except_table777
+- GCC_except_table780
+- GCC_except_table783
+- GCC_except_table788
+- GCC_except_table792
+- GCC_except_table802
+- GCC_except_table808
+- GCC_except_table813
+- GCC_except_table819
+- GCC_except_table825
+- GCC_except_table832
+- GCC_except_table834
+- GCC_except_table841
+- GCC_except_table846
+- GCC_except_table860
+- GCC_except_table862
+- PFSharedFigDecodeSession.s_memoryQueue
+- Vertices.12319
+- _AuxiliaryImageCVPixelBufferReleaseBytesCallback.3726
+- _OBJC_$_PROP_LIST_PFMetadataImage.6735
+- _ZN5boost12interprocessL8ec_tableE.8682
+- __54-[PFMetadataMovie _computeFirstVideoTrackCodecAndName]_block_invoke.178
+- __75-[PFMetadataMovie _audioVideoProxyPropertyListForAsset:propertyList:error:]_block_invoke.303
+- __75-[PFMetadataMovie _audioVideoProxyPropertyListForAsset:propertyList:error:]_block_invoke.313
+- __Block_byref_object_copy_.10434
+- __Block_byref_object_copy_.12012
+- __Block_byref_object_copy_.12748
+- __Block_byref_object_copy_.14128
+- __Block_byref_object_copy_.4281
+- __Block_byref_object_copy_.4734
+- __Block_byref_object_copy_.5166
+- __Block_byref_object_copy_.5279
+- __Block_byref_object_copy_.5865
+- __Block_byref_object_copy_.6350
+- __Block_byref_object_copy_.6987
+- __Block_byref_object_copy_.8045
+- __Block_byref_object_copy_.9142
+- __Block_byref_object_copy_.9660
+- __Block_byref_object_copy_.9985
+- __Block_byref_object_dispose_.10435
+- __Block_byref_object_dispose_.12013
+- __Block_byref_object_dispose_.12749
+- __Block_byref_object_dispose_.14129
+- __Block_byref_object_dispose_.4282
+- __Block_byref_object_dispose_.4735
+- __Block_byref_object_dispose_.5167
+- __Block_byref_object_dispose_.5280
+- __Block_byref_object_dispose_.5866
+- __Block_byref_object_dispose_.6351
+- __Block_byref_object_dispose_.6988
+- __Block_byref_object_dispose_.8046
+- __Block_byref_object_dispose_.9143
+- __Block_byref_object_dispose_.9661
+- __Block_byref_object_dispose_.9986
+- __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9nqe220100ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe220100ERKS6_S9_
+- __ZNSt12length_errorC1B9nqe220100EPKc
+- __ZNSt3__110unique_ptrIN5boost12interprocess25basic_managed_mapped_fileIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEENS_14default_deleteISA_EEED1B9nqe220100Ev
+- __ZNSt3__111__sift_downB9nqe220100INS_17_ClassicAlgPolicyELb0ERN5boost8geometry5index6detail5rtree8visitors15pair_first_lessENS_11__wrap_iterIPNS_4pairIdPKNSB_INS3_5model5pointIfLm2ENS3_2cs9cartesianEEEtEEEEEEEEvT2_OT1_NS_15iterator_traitsISN_E15difference_typeESS_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqe220100Em
+- __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_IN2pf18SceneGeographyNodeENS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEEEENS_4pairIKNS1_9container12basic_stringIcNS_11char_traitsIcEENS3_IcSG_EEEES8_EEEESG_EEE10deallocateB9nqe220100ERSS_NSC_ISR_lmLm0EEEm
+- __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_INS2_10offset_ptrIN2pf17SceneTaxonomyNodeElmLm0EEENS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS7_IvlmLm0EEELm0EEENS2_10iset_indexEEEEESA_EESH_EEE10deallocateB9nqe220100ERSK_NS7_ISJ_lmLm0EEEm
+- __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_INS_4pairIKNS1_9container12basic_stringIcNS_11char_traitsIcEENS3_IcNS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEEEEEEN2pf17SceneTaxonomyNodeEEESJ_EESP_EESJ_EEE10deallocateB9nqe220100ERSS_NSF_ISR_lmLm0EEEm
+- __ZNSt3__116allocator_traitsIN5boost12interprocess9allocatorINS1_9unordered6detail4nodeINS3_INS_4pairIKyNS2_10offset_ptrIN2pf17SceneTaxonomyNodeElmLm0EEEEENS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS9_IvlmLm0EEELm0EEENS2_10iset_indexEEEEESD_EESK_EEE10deallocateB9nqe220100ERSN_NS9_ISM_lmLm0EEEm
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_4pairIN5boost8geometry5model5pointIfLm2ENS4_2cs9cartesianEEEtEEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_4pairIdPKNS2_IN5boost8geometry5model5pointIfLm2ENS4_2cs9cartesianEEEtEEEEEENS_16allocator_traitsISE_EEEENS_19__allocation_resultINT0_7pointerENSI_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPKN2pf17SceneTaxonomyNodeEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPPKvEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__120__throw_length_errorB9nqe220100EPKc
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEtEEPvEEEEEclB9nqe220100EPSB_
+- __ZNSt3__15dequeIPKvNS_9allocatorIS2_EEED2B9nqe220100Ev
+- __ZNSt3__16vectorIN5boost8geometry5index6detail5rtree8visitors14distance_queryINS3_5rtreeINS_4pairINS2_5model5pointIfLm2ENS2_2cs9cartesianEEEtEENS3_9quadraticILm32ELm8EEENS3_9indexableISF_EENS3_8equal_toISF_EENS1_12interprocess9allocatorISF_NSM_15segment_managerIcNSM_15rbtree_best_fitINSM_17null_mutex_familyENSM_10offset_ptrIvlmLm0EEELm0EEENSM_10iset_indexEEEEEE14members_holderENS4_10predicates7nearestISE_EEE11branch_dataENS_9allocatorIS13_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_4pairIN5boost8geometry5model5pointIfLm2ENS3_2cs9cartesianEEEtEENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_4pairIPKN5boost8geometry5index6detail5rtree8ptr_pairINS3_5model3boxINS8_5pointIfLm2ENS3_2cs9cartesianEEEEENS2_12interprocess10offset_ptrINS2_7variantINS6_12variant_leafINS1_ISD_tEENS4_9quadraticILm32ELm8EEESE_NS6_10allocatorsINSF_9allocatorISJ_NSF_15segment_managerIcNSF_15rbtree_best_fitINSF_17null_mutex_familyENSG_IvlmLm0EEELm0EEENSF_10iset_indexEEEEESJ_SL_SE_NS6_23node_variant_static_tagEEESW_EEJNS6_21variant_internal_nodeISJ_SL_SE_SX_SW_EEEEElmLm0EEEEES15_EENS_9allocatorIS16_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_4pairIdPKNS1_IN5boost8geometry5model5pointIfLm2ENS3_2cs9cartesianEEEtEEEENS_9allocatorISC_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIPKN2pf17SceneTaxonomyNodeENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB9nqe220100IRN5boost9container12vec_iteratorIPNS_4pairINS4_8geometry5model5pointIfLm2ENS8_2cs9cartesianEEENS_11__wrap_iterIPNS7_ISD_tEEEEEELb0EEESL_EEvOT_OT0_
+- __ZNSt3__19__sift_upB9nqe220100INS_17_ClassicAlgPolicyERN5boost8geometry5index6detail5rtree8visitors15pair_first_lessENS_11__wrap_iterIPNS_4pairIdPKNSB_INS3_5model5pointIfLm2ENS3_2cs9cartesianEEEtEEEEEEEEvT1_SN_OT0_NS_15iterator_traitsISN_E15difference_typeE
+- __ZNSt3__19__sift_upB9nqe220100INS_17_ClassicAlgPolicyERN5boost8geometry5index6detail5rtree8visitors16branch_data_compENS_11__wrap_iterIPNS7_14distance_queryINS4_5rtreeINS_4pairINS3_5model5pointIfLm2ENS3_2cs9cartesianEEEtEENS4_9quadraticILm32ELm8EEENS4_9indexableISJ_EENS4_8equal_toISJ_EENS2_12interprocess9allocatorISJ_NSQ_15segment_managerIcNSQ_15rbtree_best_fitINSQ_17null_mutex_familyENSQ_10offset_ptrIvlmLm0EEELm0EEENSQ_10iset_indexEEEEEE14members_holderENS5_10predicates7nearestISI_EEE11branch_dataEEEEEvT1_S1A_OT0_NS_15iterator_traitsIS1A_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB9nqe220100v
+- __block_literal_global.101.3591
+- __block_literal_global.10147
+- __block_literal_global.10553
+- __block_literal_global.12.6360
+- __block_literal_global.12007
+- __block_literal_global.122.2242
+- __block_literal_global.12265
+- __block_literal_global.12365
+- __block_literal_global.127.5677
+- __block_literal_global.12745
+- __block_literal_global.13023
+- __block_literal_global.13181
+- __block_literal_global.132.13865
+- __block_literal_global.132.5672
+- __block_literal_global.13609
+- __block_literal_global.13800
+- __block_literal_global.13935
+- __block_literal_global.1478
+- __block_literal_global.1580
+- __block_literal_global.165.10071
+- __block_literal_global.195.2204
+- __block_literal_global.2
+- __block_literal_global.2023
+- __block_literal_global.2307
+- __block_literal_global.2546
+- __block_literal_global.269
+- __block_literal_global.293
+- __block_literal_global.3.12263
+- __block_literal_global.3018
+- __block_literal_global.3426
+- __block_literal_global.3590
+- __block_literal_global.37.4348
+- __block_literal_global.3888
+- __block_literal_global.4144
+- __block_literal_global.4379
+- __block_literal_global.4435
+- __block_literal_global.4451
+- __block_literal_global.47.2281
+- __block_literal_global.4911
+- __block_literal_global.5.12258
+- __block_literal_global.5003
+- __block_literal_global.5222
+- __block_literal_global.5307
+- __block_literal_global.5693
+- __block_literal_global.5870
+- __block_literal_global.5942
+- __block_literal_global.6279
+- __block_literal_global.6342
+- __block_literal_global.7039
+- __block_literal_global.7100
+- __block_literal_global.7730
+- __block_literal_global.7896
+- __block_literal_global.83.10130
+- __block_literal_global.8840
+- __block_literal_global.97.9669
+- __block_literal_global.9714
+- _exifDateTimeFormatter.dateTimeFormatter.6280
+- _exifDateTimeFormatter.onceToken.6278
+- _exifSubsecTimeFormatter.onceToken.6264
+- _exifSubsecTimeFormatter.subsecTimeFormatter.6265
+- _gpsDateFormatter.dateFormatter.6303
+- _gpsDateFormatter.onceToken.6302
+- _gpsTimeFormatter.onceToken.6307
+- _gpsTimeFormatter.timeFormatter.6308
+- _objc_msgSend$initWithAVAsset:options:timeZoneLookup:
+- _objc_msgSend$initWithAVProxyData:timeZoneLookup:
+- _objc_msgSend$initWithAVURL:options:timeZoneLookup:
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/boost/geometry/index/detail/exception.hpp"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFAppleArchive.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFParallaxAsset.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFParallaxLayer.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFParallaxLayerStack.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFParallaxLayerStackArchiver.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFParallaxLayoutConfiguration.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFParallaxLayoutUtilities.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFPosterConfiguration.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFPosterLayout.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryAutoEditConfiguration.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryAutoEditFrequencyTable.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryRecipeAsset.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryRecipeDisplayAsset.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryRecipeDisplayAssetNormalization.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryRecipeLibrary.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryRecipeSongAsset.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6pugBPvCGKn5nlB09eBjOyIvR97UOvfT82XNA/Library/Caches/com.apple.xbs/TemporaryDirectory.SFN77L/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryRecipeStyle.m"
++ "5"
++ "Failed to get a content type for movie URL '%@' (ERROR: %@)"
++ "com.apple.PhotosFormats.PFSharedFigDecodeSession.flush"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/boost/geometry/index/detail/exception.hpp"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFAppleArchive.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFParallaxAsset.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFParallaxLayer.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFParallaxLayerStack.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFParallaxLayerStackArchiver.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFParallaxLayoutConfiguration.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFParallaxLayoutUtilities.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFPosterConfiguration.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/PFPosterLayout.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryAutoEditConfiguration.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryAutoEditFrequencyTable.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryRecipeAsset.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryRecipeDisplayAsset.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryRecipeDisplayAssetNormalization.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryRecipeLibrary.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryRecipeSongAsset.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu1ugDlpq_wgeaXgHDbRbnZL7UfbPK8PJf4V1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.pnoRtW/Sources/Photos_Foundation/Projects/PhotosFormats/PhotosFormats/story/PFStoryRecipeStyle.m"
+- "4"
+
+```

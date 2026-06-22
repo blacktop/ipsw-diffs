@@ -1,0 +1,25 @@
+## pwd
+
+> `/bin/pwd`
+
+```diff
+
+ 334.0.0.0.0
+-  __TEXT.__text: 0x1f0 sha256:51396c904b53a3797df0543212febee5eb9ba71f33e8882355f9fcfa6612c5f4
++  __TEXT.__text: 0x1f0 sha256:bb8d3a22753fa019866bd8e22b06444630134ab9dbad901ac7725faca79fc48d
+   __TEXT.__auth_stubs: 0x90 sha256:3984b881284d80acfc462421de2232535940bf6319352f18e9b56f0daa6741b7
+   __TEXT.__const: 0x38 sha256:f88345d394fb91c180f47a4cd2e4012382830b4f925a07594d8afe7711266335
+   __TEXT.__cstring: 0x26 sha256:5325fd984ad3b4472ce11b1dc31a43e3a5be3604f85b69a0aaaa7cbf13daf434
+
+   __DATA_CONST.__got: 0x18 sha256:7a5032b2e73fa6ff00a94b48abc51a39142e38d75e5ea8acc58834826474b233
+   __DATA.__bss: 0x400 sha256:f7f0cb60e3d99ec71e73c5ce546c3df64f0bf3a45c6e729410a812871ad0727f
+   - /usr/lib/libSystem.B.dylib
+-  UUID: F42BE229-DFB7-3DE8-8EC8-D55AAB25732C
++  UUID: 7BD72236-3A71-3342-BEA3-700C61B0832A
+   Functions: 2
+   Symbols:   14
+   CStrings:  5
+Functions:
+~ sub_100000588 : sha256 0235a2953a5863537f233b0ca8a03a6bdc0f62fd31a5b4f184cbf8e32b527ed9 -> 167731f3e1744bb0084c8fd3947c2c5b60e828a1688101d8ecb45e747580c16e
+
+```

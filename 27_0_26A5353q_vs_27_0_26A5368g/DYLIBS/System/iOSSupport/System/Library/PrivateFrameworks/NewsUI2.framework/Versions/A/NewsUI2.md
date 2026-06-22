@@ -1,0 +1,466 @@
+## NewsUI2
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/NewsUI2.framework/Versions/A/NewsUI2`
+
+```diff
+
+-5916.0.1.0.0
+-  __TEXT.__text: 0x1469ad8 sha256:9b20efabdcadf1e61c6e32874e31c5905c131ff28622e61ec9b8e27526ca8721
+-  __TEXT.__objc_methlist: 0xd6cc sha256:338f6c70df96e9e3a61e158075aecb758e1658622ea8dd5d6f77f51712599ce1
+-  __TEXT.__const: 0xd75b4 sha256:25a77337a6f1f7ff9a2e4ccad1085feea9a6bb782d27a65bb36d6bd06e27f6df
+-  __TEXT.__cstring: 0x5b098 sha256:76d50390b14b8b1793cf8697cc3dffb48cdf3f6e5f124ddb5e6547792988b17e
+-  __TEXT.__constg_swiftt: 0x418a0 sha256:c46f6571bd9d3c48296cda46b3ff1e566f57f3f633ca48cebd7a5e3b96be2d54
+-  __TEXT.__swift5_typeref: 0x2ee02 sha256:724c5d93b90fceea0a6b1d6e50493a16b45d607db6320f11b6ef362a38e391f5
+-  __TEXT.__swift5_builtin: 0xeb0 sha256:3259843721c425f8f6019d9c2165a99e09ad0a2c11fbf184a6ddc1182220ff14
+-  __TEXT.__swift5_reflstr: 0x41784 sha256:411f01a01375474172a8ec61e22e81312b263f0044104e6655f7dafa60684539
+-  __TEXT.__swift5_fieldmd: 0x42c90 sha256:b24941c6aeecc2b917e3d47456d604a998be6cf02e9e810380a56210a3abc380
+-  __TEXT.__swift5_assocty: 0x7650 sha256:961cad39aa68e49bc04b30ee4d7553fa72287433f59eba24b333272aae70cb03
+-  __TEXT.__swift5_proto: 0xabb4 sha256:f15b42965bb7932808986184664c7ff42c0291d0a19d98a2a87adc6a5d78a38a
+-  __TEXT.__swift5_types: 0x46ec sha256:6ada1e671bc325bd1625a605b46e3175b37ad0fc7fe9cbaceb3163890c6c22be
+-  __TEXT.__oslogstring: 0x149cb sha256:b42e39120dcba63b13f5f777eb218eb769f87054238c679b447643aab4f0d772
+-  __TEXT.__swift5_capture: 0x19528 sha256:ce964554cb2b8e59a7aefbfa48701177da9427f96f734cd784703c635f100b22
+-  __TEXT.__swift5_mpenum: 0x704 sha256:061eb12f61e2beeb06d92887f9da908d79d04fa478719e0193e576c80a7efa36
+-  __TEXT.__swift5_protos: 0xef8 sha256:f92dc1136fb99a71eefa417aa028b40a53dbb6d53ebc7f032c645eb29ac97631
+-  __TEXT.__swift_as_entry: 0xdd4 sha256:214707629f8f756c90101bc4aea0fbfc8b34cd179f148aafbbeae096a05a924b
+-  __TEXT.__swift_as_ret: 0xef0 sha256:f329ca18b520dbcad8d10542d0cdf713337eb888424703be10f46df2a46c3457
+-  __TEXT.__swift_as_cont: 0x2894 sha256:09351f47b8bd1c4d70e95a359a3b91e728ea9497a8beff1be42a250dacfa579e
+-  __TEXT.__unwind_info: 0x3cbc8 sha256:fd9dc64f3f7f656d361e7ac777cbc5587878eb69495e4144c0848316b429291a
+-  __TEXT.__eh_frame: 0x564b8 sha256:9a11cfab745e49cd6fed34380b50995a2f3a8e618e609c264937d9b5892233a9
++5920.0.0.0.0
++  __TEXT.__text: 0x147462c sha256:a09a7bb679a6eb04052b76080e5c62c4bcee3075ce2d389a3b0fc6d63242ca45
++  __TEXT.__objc_methlist: 0xd734 sha256:b88e3ab2ffe802c23b012c347fdff604d73f33a884ad57e66cede137ed777826
++  __TEXT.__const: 0xd7614 sha256:48a004209ed4ef1d02dd228bf7b70c75f22f231fb14f1906fa76f2679fcc8838
++  __TEXT.__cstring: 0x5b728 sha256:3972cbc4585fd6669269492d07a2777eb7f35922359d581f8b2da943f451ab79
++  __TEXT.__constg_swiftt: 0x418c0 sha256:f8ff0356be8836eabc12377fa1602ef218b9645c3f8931c931282f85977f2da1
++  __TEXT.__swift5_typeref: 0x2ee28 sha256:64d5aa07143fac3c90bd1e6eb48844839b138fec67736c7187d0fb058e5ac93f
++  __TEXT.__swift5_builtin: 0xeb0 sha256:4ec13a97a0c7dc0dc60cfd76476eccfc8296990644ff306f086af191a86d8fc6
++  __TEXT.__swift5_reflstr: 0x41804 sha256:ab937421c2fb827899d7cf71af4e05d676f5eb10567bac04b6f9cba5d6e67975
++  __TEXT.__swift5_fieldmd: 0x42c90 sha256:c70cd4e31691655fdd2ecdd7217d22547f9de41b50f31f38f969de48ac181c34
++  __TEXT.__swift5_assocty: 0x7650 sha256:5709b3545eaf011e67431ce939d91f35a979e278967fdb388231a11cab911bc0
++  __TEXT.__swift5_proto: 0xabb4 sha256:3dcd5641a3808132edbff034b9c40ab0a2d19a59500f83c66374894d1cf13d5a
++  __TEXT.__swift5_types: 0x46ec sha256:89dba4f3623833fa9aa5bd5e48ac5b12819aacadb52c5617945ff8bba1c3dab5
++  __TEXT.__oslogstring: 0x14c1b sha256:05a27ef1ae8f6ba4a3a41acfd36bc4d1e9eeff32c5252a38a6c178656d115f13
++  __TEXT.__swift5_capture: 0x1960c sha256:b2e6986686d9e30c34bf16198c937fab7fb43b3953255b7f5c98187cb07aec52
++  __TEXT.__swift5_mpenum: 0x704 sha256:dd1d51bcb719867db881dfa334292826a34ac808b7e0e1d6a2838c6a3a2033dc
++  __TEXT.__swift5_protos: 0xef8 sha256:cc1da869e0bb62defd97efe73cdff9dcbe73e84c8d8c731a25af4d853f55f81d
++  __TEXT.__swift_as_entry: 0xdd4 sha256:602ebf7fc253ba30ed8433200a8f7ceaac3d286efb2a304c51c3fe870150783e
++  __TEXT.__swift_as_ret: 0xef0 sha256:ebaf19051c786b4a37f0e959f1a7805e0ccffaef9ac2e0b383f7244de137c92d
++  __TEXT.__swift_as_cont: 0x28a4 sha256:d67315dedb4b4cff87880f2f227cf12209318c5d4475e7f22ce5c5afb30dca8a
++  __TEXT.__unwind_info: 0x3cc68 sha256:d3694bc119f00b2c07033d9f911ce578bba09ccc2df5cc6ebd04568f33aec153
++  __TEXT.__eh_frame: 0x5661c sha256:a6f01f133d6471dc70fde376c48d98dc14d84fa6a7c0fab853bea5a401978799
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1ae8 sha256:fa28ba67a9ea62d3f9dabb3f55f4f4fc0ead26248c87b20cf79780e2d7ccaea7
+-  __DATA_CONST.__objc_classlist: 0x33a0 sha256:10302715ba1bb3277520b7cd442cb5ce68e82e2be143b5f66d9bdc3719327917
+-  __DATA_CONST.__objc_catlist: 0x28 sha256:73dffcaf13b0776e914edce71e9c6b8ccf5e6cf69c35d7e4070b5a7c18e5d9ff
+-  __DATA_CONST.__objc_catlist2: 0x30 sha256:e4bfbdc9537f2930893a4ce498b223ea1d30718186f3d67acede0c0c6f92c89e
+-  __DATA_CONST.__objc_protolist: 0xb38 sha256:b5ce712332e54c4540ff6ae86c75b1da39e0b17b0715285eff69fa817a0217e7
++  __DATA_CONST.__const: 0x1ae8 sha256:41ff85752be3f7414d119812902a0880be3991b284f8ac87722731a05245f2c7
++  __DATA_CONST.__objc_classlist: 0x33a0 sha256:c990295bc16e7171df40ff278e02f9110a03235a86098697700fb1719065119b
++  __DATA_CONST.__objc_catlist: 0x28 sha256:f1ce4b4d52bc887e8d9feafba0eff00891e00b15b2b910485f0c2040d2d1d894
++  __DATA_CONST.__objc_catlist2: 0x30 sha256:801958ba69652f5f7c4e95acee328d4e647cf4e77d348df1ec737a02619bdc62
++  __DATA_CONST.__objc_protolist: 0xb38 sha256:7f7f80e0c832f872ec6492479f6cd1b1fb5c661365bf6ea8d19f5bb9e17a4776
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x7d78 sha256:e864a04750251514a4ee77d6815ed61fbf868b8a150b0d474405a9b48b90c9cf
+-  __DATA_CONST.__objc_protorefs: 0x630 sha256:311ab36e87a2baac1812b22bec40161c6fdf0a1afe88398f12b87e039488a474
+-  __DATA_CONST.__got: 0xba00 sha256:b0f91c9899e0db80fe3bcfd354c0d85e53ca36e6eff4fbbda272ff9f9794ffdf
+-  __AUTH_CONST.__const: 0x867d0 sha256:36d14d3e24cece36ef516e1ca691d3496aea9dd7650f60750542606fb13e7583
+-  __AUTH_CONST.__cfstring: 0x80 sha256:c2c11361ce5aeae27cdbd098bd1e7c91d76c509c930695afd18720b6fc71668a
+-  __AUTH_CONST.__objc_const: 0x74d80 sha256:efb6426263b85f17e1e61212fed43badb41647b3805a54982575b8c0eccdf189
+-  __AUTH_CONST.__auth_got: 0xfcd0 sha256:e5e007ad3319f9463737cff5df55c2ebfd40aeb98031ca5d4994223ebffba7f9
+-  __AUTH.__objc_data: 0x92b8 sha256:dc51f828a614f6726f96fb83d99399a419d1b28b2b6f821beb1609dc774e5415
+-  __AUTH.__data: 0x1b638 sha256:76f633c0e05802d4dd9edd6054e165227413b67c35a59bc165d802ca1e99fb23
+-  __DATA.__data: 0x1dc68 sha256:a104bf99fe8e9c0073f3d9154209b189e7058defccd4311c4452242699ef8593
+-  __DATA.__objc_stublist: 0x70 sha256:71bd245bd869fd53b6a5fc6625e26402bfc34a85d6a492ac7be4fc3380ed3a8a
+-  __DATA.__bss: 0xb6518 sha256:f2205cd5ddc92a9dbb797c86c40507f61e3f735e79f2a92d73225f8a0382451a
++  __DATA_CONST.__objc_selrefs: 0x7da8 sha256:eed181b9bd2396b9578d8e6b4a32840570be8064fea69a4300715c1a9c2db783
++  __DATA_CONST.__objc_protorefs: 0x630 sha256:9657f41474a86e7917a7e9748fc0355ec904d5ab203a005fbbaaad89a9f89f53
++  __DATA_CONST.__got: 0xba58 sha256:eff12a3cff36ee4511a581062eda8f4cc6674bee3e335fc7cb679de710b082d7
++  __AUTH_CONST.__const: 0x86958 sha256:dbdc965047ccbc2fd7f8aa3f2f726b15f2171de5a101d355ef5a3efa7f3c8a25
++  __AUTH_CONST.__cfstring: 0x80 sha256:e474f244ce1a1f47814d1d47355a8da734bbe53a5d5c806a746a2b2534197be6
++  __AUTH_CONST.__objc_const: 0x74e70 sha256:3432270375e4a4b4e4fe3a8a32ccc0c3acbf809bb3bb4ae08b8e171171aa79c0
++  __AUTH_CONST.__auth_got: 0xfce0 sha256:b508342d3ccc00e9f95631648ead8e931dd192a2b357bb62afc5e84a59b1f6e2
++  __AUTH.__objc_data: 0x92c8 sha256:c897ffb2cb4b6fa8eff71f57acafbc44785bc313344c7dbb14d771faa3cfdbf2
++  __AUTH.__data: 0x1b668 sha256:b9baa262f6513ce03e5e99f44e1179f63e7c41c431d6baca27d3eab54127b306
++  __DATA.__data: 0x1dc78 sha256:55ce65986bc153d4ca3eb37b4e1d96da7f1253e0d7582f15740ffc6b64a1dd49
++  __DATA.__objc_stublist: 0x70 sha256:3d6c866e10b76075afd729fb670ecc8efb7a6daf039f3c552c1babe9386b5865
++  __DATA.__bss: 0xb6528 sha256:275be87a48a2dfb8b73b560dcfee2305df2e67f26f61dc2868c55982d1e17d4c
+   __DATA.__common: 0xf98 sha256:2f2afd0b77b4c14934fbc79031d32f8de1114189fed26df22f9a659ee1dd6cab
+-  __DATA_DIRTY.__objc_data: 0xba70 sha256:6e40a6e7773419429f3737b5af5068f469205bf6c68790900e63c18cb8799acd
+-  __DATA_DIRTY.__data: 0x62390 sha256:2c87d0474014069f621a299bbaa37ddcb4cab5ec71651cb2658a2492bc9d93be
++  __DATA_DIRTY.__objc_data: 0xba78 sha256:8257a920bb91bc1fdc80bb07bd015e78c4760bc3bd742b8e70d538097a753fd5
++  __DATA_DIRTY.__data: 0x62450 sha256:9d5a121df932a99c3b6c2ab584c1547ececbe79ae270bc649085d49fbb2c2261
+   __DATA_DIRTY.__bss: 0x7f880 sha256:e836c1d5abceae85406a814bcfb387717835addefa53de3a032d3a16eeec302c
+-  __DATA_DIRTY.__common: 0x1328 sha256:34f6d5c6b4fcde241ac64abb284dfe5316bae3d4625f3bf987b095aec893e8d4
++  __DATA_DIRTY.__common: 0x1320 sha256:f8ac0d22b98cd9cb7c3eadf964d9ddb476c35e6198e0800ce621e3f95a01dfca
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+   - /System/Library/Frameworks/ActivityKit.framework/Versions/A/ActivityKit
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3C51A213-8686-3075-B9FF-4C9C368EB328
+-  Functions: 80719
+-  Symbols:   34389
+-  CStrings:  7307
++  UUID: C763EF88-11BC-3EF2-90AC-297ACFE69175
++  Functions: 80804
++  Symbols:   34409
++  CStrings:  7329
+ 
+Symbols:
++ _FCNewsInternalExtrasBundle
++ _OBJC_CLASS_$__TtC7NewsUI231LocationAvailabilityCoordinator
++ _OBJC_METACLASS_$__TtC7NewsUI231LocationAvailabilityCoordinator
++ _PROTOCOLS_TSAppDelegate.4
++ _PROTOCOLS__TtC7NewsUI231LocationAvailabilityCoordinator.4
++ __DATA__TtC7NewsUI231LocationAvailabilityCoordinator
++ __INSTANCE_METHODS__TtC7NewsUI231LocationAvailabilityCoordinator
++ __IVARS__TtC7NewsUI231LocationAvailabilityCoordinator
++ __METACLASS_DATA__TtC7NewsUI231LocationAvailabilityCoordinator
++ __PROTOCOLS__TtC7NewsUI231LocationAvailabilityCoordinator
++ __PROTOCOL_INSTANCE_METHODS_OPT__TtP8NewsFeed32LocationDetectionManagerObserver_
++ ___swift_memcpy296_8
++ ___swift_memcpy336_8
++ __swift__destructor.116
++ __swift_closure_destructor.101Tm
++ __swift_closure_destructor.104Tm
++ __swift_closure_destructor.119Tm
++ __swift_closure_destructor.130
++ __swift_closure_destructor.130Tm
++ _associated conformance 7NewsUI231LocationAvailabilityCoordinatorC7Combine16ObservableObjectAA0H19WillChangePublisherAdEP_AD0K0
++ _dynamic_cast_existential_3_conditional
++ _objc_msgSend$bottomAccessory
++ _objc_msgSend$performBatchUpdates:
++ _objc_msgSend$setAdditionalOverflowItems:
++ _symbolic SaySSG9recipeIDs_ScTySaySo8FCRecipeCG______pG0A4Taskt s5ErrorP
++ _symbolic SaySo5UITabCG
++ _symbolic _____ 7NewsUI231LocationAvailabilityCoordinatorC
++ _symbolic _____SgXw 7NewsUI229SearchHomeContainerControllerC
++ _symbolic _____y_____G 7SwiftUI11StateObjectV 7NewsUI231LocationAvailabilityCoordinatorC
++ _symbolic _____y_____y_____y_____y_____yACyACyACy__________GAEGAEG_____G_ACyACy__________GAEGSgACyACyACyACy_____y_____yACyACyACyACy_____yABy_____yACy__________y_____SgGGACyAX_____y_____GGG_ADQPGGAEGAEG_____yAZGG_____y_____GGG______Qo_ATyAZSgGGAIGAEGAEGSgARyARy_____yACy_____y_____y_____y_____yAByACy_____ALG_ARy_____ySay_____GA29______GA28_ySaySo23MKLocalSearchCompletionCGA34_A31_GGQPGGG_Qo__Qo______yACyACy_____ALG_____GGGGACy_____y_____A52_G_____GGACyAAyAByAD_ADQPGGA54_GGQPGG_SbQo_______Qo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AcAE0G6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6VStackV AA12TupleContentV AA08ModifiedP0V AA4TextV AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV 7NewsUI2021LocalOnboardingSearchC0V27LocationButtonRepresentableV AA06_FrameT0V AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA6HStackV AA012_ConditionalP0V AA5ImageV AA022_EnvironmentKeyWritingW0V AA4FontV AA016_ForegroundStyleW0V AA5ColorV AA016_BackgroundStyleW0V AA11_ClipEffectV AA7CapsuleV AA16PlainButtonStyleV AA14GeometryReaderV AcAE14scrollDisabledyQrSbFQO AcAE23scrollDismissesKeyboardyQrAA27ScrollDismissesKeyboardModeVFQO AA06ScrollC0V AA04LazyN0V AA6SpacerV AA7ForEachV A_0Z23SearchCuratedSuggestionV A_21LocationSuggestionRowV AA08_OverlayW0V AA14LinearGradientV AA017_AllowsHitTestingW0V AA08ProgressC0V AA05EmptyC0V AA010_FlexFrameT0V A_0z24OnboardingCustomizeDebugC0V
++ _symbolic y_____cSg 7NewsUI227TagFeedViewerViewControllerC
++ block_copy_helper.83
++ block_descriptor.85
++ block_destroy_helper.84
++ get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAcAE0G6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA6VStackVyAA12TupleContentVyAA08ModifiedP0VyATyATyATyAA4TextVAA14_PaddingLayoutVGAXGAXGAA31AccessibilityAttachmentModifierVG_ATyATy7NewsUI2021LocalOnboardingSearchC0V27LocationButtonRepresentableVAA06_FrameT0VGAXGSgATyATyATyATyAcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAA6ButtonVyATyATyATyATyAA6HStackVyARyAA012_ConditionalP0VyATyAA5ImageVAA022_EnvironmentKeyWritingW0VyAA4FontVSgGGATyA29_AA016_ForegroundStyleW0VyAA5ColorVGGG_AVQPGGAXGAXGAA016_BackgroundStyleW0VyA33_GGAA11_ClipEffectVyAA7CapsuleVGGG_AA16PlainButtonStyleVQo_A24_yA33_SgGGA1_GAXGAXGSgA20_yA20_yAA14GeometryReaderVyATyAcAE14scrollDisabledyQrSbFQOyAcAE23scrollDismissesKeyboardyQrAA27ScrollDismissesKeyboardModeVFQOyAA06ScrollC0VyAA04LazyN0VyARyATyAA6SpacerVA9_G_A20_yAA7ForEachVySayA3_0Z23SearchCuratedSuggestionVGA78_A3_21LocationSuggestionRowVGA76_ySaySo23MKLocalSearchCompletionCGA84_A81_GGQPGGG_Qo__Qo_AA08_OverlayW0VyATyATyAA14LinearGradientVA9_GAA017_AllowsHitTestingW0VGGGGATyAA08ProgressC0VyAA05EmptyC0VA107_GAA010_FlexFrameT0VGGATyAPyARyAV_AVQPGGA110_GGQPGG_SbQo__A3_0z24OnboardingCustomizeDebugC0VQo_HO.143
+- _OBJC_CLASS_$__TtC7NewsUI230LocationPermissionsCoordinator
+- _OBJC_METACLASS_$__TtC7NewsUI230LocationPermissionsCoordinator
+- _PROTOCOLS_TSAppDelegate.1
+- _PROTOCOLS__TtC7NewsUI230LocationPermissionsCoordinator.4
+- __DATA__TtC7NewsUI230LocationPermissionsCoordinator
+- __INSTANCE_METHODS__TtC7NewsUI230LocationPermissionsCoordinator
+- __IVARS__TtC7NewsUI230LocationPermissionsCoordinator
+- __METACLASS_DATA__TtC7NewsUI230LocationPermissionsCoordinator
+- __PROTOCOLS__TtC7NewsUI230LocationPermissionsCoordinator
+- ___swift_memcpy344_8
+- __swift_closure_destructor.109Tm
+- __swift_closure_destructor.124Tm
+- __swift_closure_destructor.149
+- __swift_closure_destructor.80Tm
+- __swift_closure_destructor.85Tm
+- __swift_closure_destructor.88Tm
+- _associated conformance 7NewsUI230LocationPermissionsCoordinatorC7Combine16ObservableObjectAA0H19WillChangePublisherAdEP_AD0K0
+- _dynamic_cast_existential_2_conditional
+- _objc_msgSend$setSelectedViewController:
+- _objc_msgSend$viewController
+- _symbolic ScTySaySo8FCRecipeCG______pG10recipeTask_t s5ErrorP
+- _symbolic _____ 7NewsUI230LocationPermissionsCoordinatorC
+- _symbolic ______p 13NewsAnalytics30AggregateStateModeProviderTypeP
+- _symbolic _____y_____G 7SwiftUI11StateObjectV 7NewsUI230LocationPermissionsCoordinatorC
+- _symbolic _____y_____y_____y_____y_____yACyACyACy__________GAEGAEG_____G_ACyACy__________GAEGACyACyACyACy_____y_____yACyACyACyACy_____yABy_____yACy__________y_____SgGGACyAW_____y_____GGG_ADQPGGAEGAEG_____yAYGG_____y_____GGG______Qo_ASyAYSgGGAIGAEGAEGSgAQyAQy_____yACy_____y_____y_____y_____yAByACy_____ALG_AQy_____ySay_____GA28______GA27_ySaySo23MKLocalSearchCompletionCGA33_A30_GGQPGGG_Qo__Qo______yACyACy_____ALG_____GGGGACy_____y_____A51_G_____GGACyAAyAByAD_ADQPGGA53_GGQPGG_SbQo_______Qo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AcAE0G6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6VStackV AA12TupleContentV AA08ModifiedP0V AA4TextV AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV 7NewsUI2021LocalOnboardingSearchC0V27LocationButtonRepresentableV AA06_FrameT0V AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA6HStackV AA012_ConditionalP0V AA5ImageV AA022_EnvironmentKeyWritingW0V AA4FontV AA016_ForegroundStyleW0V AA5ColorV AA016_BackgroundStyleW0V AA11_ClipEffectV AA7CapsuleV AA16PlainButtonStyleV AA14GeometryReaderV AcAE14scrollDisabledyQrSbFQO AcAE23scrollDismissesKeyboardyQrAA27ScrollDismissesKeyboardModeVFQO AA06ScrollC0V AA04LazyN0V AA6SpacerV AA7ForEachV A_0Z23SearchCuratedSuggestionV A_21LocationSuggestionRowV AA08_OverlayW0V AA14LinearGradientV AA017_AllowsHitTestingW0V AA08ProgressC0V AA05EmptyC0V AA010_FlexFrameT0V A_0z24OnboardingCustomizeDebugC0V
+- block_copy_helper.47
+- block_descriptor.49
+- block_destroy_helper.48
+- get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAcAE0G6Change2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA6VStackVyAA12TupleContentVyAA08ModifiedP0VyATyATyATyAA4TextVAA14_PaddingLayoutVGAXGAXGAA31AccessibilityAttachmentModifierVG_ATyATy7NewsUI2021LocalOnboardingSearchC0V27LocationButtonRepresentableVAA06_FrameT0VGAXGATyATyATyATyAcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAA6ButtonVyATyATyATyATyAA6HStackVyARyAA012_ConditionalP0VyATyAA5ImageVAA022_EnvironmentKeyWritingW0VyAA4FontVSgGGATyA28_AA016_ForegroundStyleW0VyAA5ColorVGGG_AVQPGGAXGAXGAA016_BackgroundStyleW0VyA32_GGAA11_ClipEffectVyAA7CapsuleVGGG_AA16PlainButtonStyleVQo_A23_yA32_SgGGA1_GAXGAXGSgA19_yA19_yAA14GeometryReaderVyATyAcAE14scrollDisabledyQrSbFQOyAcAE23scrollDismissesKeyboardyQrAA27ScrollDismissesKeyboardModeVFQOyAA06ScrollC0VyAA04LazyN0VyARyATyAA6SpacerVA9_G_A19_yAA7ForEachVySayA3_0Z23SearchCuratedSuggestionVGA77_A3_21LocationSuggestionRowVGA75_ySaySo23MKLocalSearchCompletionCGA83_A80_GGQPGGG_Qo__Qo_AA08_OverlayW0VyATyATyAA14LinearGradientVA9_GAA017_AllowsHitTestingW0VGGGGATyAA08ProgressC0VyAA05EmptyC0VA106_GAA010_FlexFrameT0VGGATyAPyARyAV_AVQPGGA109_GGQPGG_SbQo__A3_0z24OnboardingCustomizeDebugC0VQo_HO.147
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Activities2/NewsAppURLHandler.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/AdAnalyticsJournalEntryProcessor.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/BannerAdTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/FeedPreroll/FeedVideoAdProviderFactory.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/InterstitialAdTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/ModalAdTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/SponsorshipAdTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/VideoAdTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/CookingKitExternalTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/HeadlineExposure/DefaultHeadlineExposureTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/HeadlineExposure/HeadlineExposureTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/HeadlineExposure/SportsHeadlineExposureTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/RecipeRatingsSubmissionManager.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+AppData.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+CommandObservation.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+ContentEnvironment.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+DebugData.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+DeviceData.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+SessionData.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+SportsData.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+UserBundleSubscriptionContextData.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+UserData.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+UserSubscriptionContextData.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/Sync/SportsSyncFavoritesTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/TelemetrySessionManager.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Audio/AudioSessionManager.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Commands/Handlers/DownloadIssuesCommandHandler.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Commands/Handlers/ManageChannelNotificationsCommandHandler.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Commands/Handlers/OpenRecipeCommandHandler.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Commands/Handlers/RemoveIssuesDownloadCommandHandler.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/ContinueReading/ContinueReadingPromptTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/ArticleCoordinator.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/EndOfArticleCoordinator.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/EndOfRecipeCoordinator.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/FormatVideoPlayerCoordinator.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/IssueCoordinator.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/IssueTableOfContentsArticleCoordinator.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/PDFReplicaCoordinator.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/PDFReplicaViewerCoordinator.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/RecipeCoordinator.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/ReplicaAdvertisementCoordinator.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/WebEmbedCoordinator.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Handlers/UserActivityHandlers/NewsUserActivityHandler.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/LiveActivities/NewsLiveActivitiesTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/AudioFeed/AudioFeedModule.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/AudioFeed/AudioFeedTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/AudioHistoryFeed/AudioHistoryFeedModule.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/AudioHistoryFeed/AudioHistoryFeedTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/AudioPlaylistFeed/AudioPlaylistFeedModule.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/AudioPlaylistFeed/AudioPlaylistFeedTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/ChannelIssues/ChannelIssuesInteractor.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/ChannelIssues/ChannelIssuesModule.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/ChannelPicker/ChannelPickerTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/ChannelPickerDetail/ChannelPickerDetailTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/ContentShortcuts/ContentShortcutsTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/EmailSignup/EmailSignupInteractor.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Following/FollowingTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/FollowingDisliked/FollowingDislikedTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/FollowingNotifications/FollowingNotificationsTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/HistoryFeed/HistoryFeedModule.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/HistoryFeed/HistoryFeedTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/MagazineCatalog/MagazineCatalogTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/MagazineFeed/MagazineFeedInteractor.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/MagazineFeed/MagazineFeedModule.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/MagazineFeed/MagazineFeedTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/MagazinesGrid/MagazineGridTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Main/MainTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/MyMagazines/MyMagazinesTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/MyRecipes/MyRecipesTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Onboarding/OnboardingTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Puzzle/PuzzleTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/PuzzleContinuePlaying/PuzzleContinuePlayingTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/RecipeBox/RecipeBoxTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/RecipeHistory/RecipeHistoryTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SavedFeed/SavedFeedModule.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SavedFeed/SavedFeedTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Search/SearchTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SearchHome/SearchHomeTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SearchMore/SearchMoreTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SharedWithYouFeed/SharedWithYouFeedModule.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SharedWithYouFeed/SharedWithYouFeedTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SportsFavorites/SportsFavoritesTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SportsFavoritesSync/SportsFavoritesSyncTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SportsManagement/SportsManagementTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SportsManagementDetail/SportsManagementDetailTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SportsNavigation/SportsNavigationTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/TagFeed/TagFeedInteractor.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/TagFeed/TagFeedModule.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/TagFeed/TagFeedTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/TagFeedViewer/TagFeedViewerBarButtonItemFactory.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/TagFeedViewer/TagFeedViewerTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Today/TodayFeedPoolTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Today/TodayInteractor.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Today/TodayModule.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Today/TodayTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/WebEmbed/WebEmbedTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Welcome/WelcomeTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+Blocking.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+CopyArticle.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+CopyLink.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+Following.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+Liking.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+ReportConcern.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+SaveRecipe.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+Saving.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+SharingComplete.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+Shortcuts.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+Sports.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+Suggestions.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Router/ArticleRouter.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Router/CampaignLandingPageRouter.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Router/Router+Subscription.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/AppLaunchUpsellTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/CampaignLandingPageTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/ChannelUpsellTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/PaywallTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/PurchaseTransactionTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/SubscriptionOffersTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/WebEmbedFailureTracker.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/UserNotifications/NotificationResponseHandling/AMSNotificationHandler.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRqDugBhYB4sZLYeYGbGEhUYNoWhHs9FYmGD_Nk/Library/Caches/com.apple.xbs/TemporaryDirectory.urtbwd/Sources/Feldspar/Modules/news-reader/NewsUI/UserNotifications/UserNotificationDelegate.swift"
++ "Cached feed availability threw for identifier=-%s, feedConfig=%s, error=%@"
++ "Check for New Updates"
++ "Error in background fetch: %{public}@"
++ "LocalChannelSelection: emitter cursor resolved channels=[%{public}@] (service=[%{public}@] ∩ config=[%{public}@])"
++ "LocalChannelSelection: fetchHomeLocationTagID → %{public}@ (smallest of [%{public}@])"
++ "LocalChannelSelection: fetchHomeLocationTagID → <nil> (mostFrequentLocation present but no valid auto-favorite channels after muted/ignored filter; raw count=%d)"
++ "LocalChannelSelection: fetchHomeLocationTagID → <nil> (no mostFrequentLocation)"
++ "LocalChannelSelection: fetchLocalNewsChannelIDsPrimaryFirst → fallback to all-channels order (no primary resolved)"
++ "LocalChannelSelection: fetchLocalNewsChannelIDsPrimaryFirst → primary=%{public}@ + others=[%{public}@]"
++ "LocalChannelSelection: fetchPrimaryLocalChannelID → %{public}@ (source=followed)"
++ "LocalChannelSelection: fetchPrimaryLocalChannelID → %{public}@ (source=home-location-fallback)"
++ "LocalChannelSelection: fetchPrimaryLocalChannelID → <nil> (no followed locals AND no home-location channel)"
++ "LocalChannelSelection: fetchPrimaryLocalNewsChannelIDs falling back to fetchLocalNewsChannelIDs (localOnboardingEnabled=false)"
++ "LocalChannelSelection: fetchPrimaryLocalNewsChannelIDs no cache, fetching primary fresh"
++ "LocalChannelSelection: fetchPrimaryLocalNewsChannelIDs serving cached primary=%{public}@ (background-refreshing)"
++ "LocalChannelSelection: subscribed local channels in user order: [%{public}@] → primary=%{public}@"
++ "Localized string for recipe catalog search placeholder on Mac Catalyst"
++ "Localized string for saved recipes search placeholder on Mac Catalyst"
++ "NewsUI2.LocationAvailabilityCoordinator"
++ "Sports sync manager does not require iTunes account status, ignoring check..."
++ "Suppressing app level sheet engagement request on indirect launch"
++ "Sync TagFeedViewer construction failed, falling through to async path: %@"
++ "The title for Download bar button item"
++ "The title for the remove downloads bar button item"
++ "The title for the remove issues and downloads bar button item"
++ "Title for menu item when checking for live coverage updates"
++ "puzzleEmbedDidReceiveProgress: ended background task id=%ld"
++ "puzzleEmbedDidReceiveProgress: invalidated background task id=%ld "
++ "sceneWillResignActive: running background task id=%ld"
++ "sceneWillResignActive: self deallocated."
++ "sceneWillResignActive: system expired background task id=%ld; ending."
++ "sceneWillResignActive: taskID is nil, no need to end background task."
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Activities2/NewsAppURLHandler.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/AdAnalyticsJournalEntryProcessor.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/BannerAdTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/FeedPreroll/FeedVideoAdProviderFactory.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/InterstitialAdTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/ModalAdTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/SponsorshipAdTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Ads/VideoAdTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/CookingKitExternalTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/HeadlineExposure/DefaultHeadlineExposureTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/HeadlineExposure/HeadlineExposureTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/HeadlineExposure/SportsHeadlineExposureTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/RecipeRatingsSubmissionManager.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+AppData.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+CommandObservation.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+ContentEnvironment.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+DebugData.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+DeviceData.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+SessionData.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+SportsData.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+UserBundleSubscriptionContextData.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+UserData.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/SportsSessionObserver+UserSubscriptionContextData.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/Sports/Sync/SportsSyncFavoritesTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Analytics/TelemetrySessionManager.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Audio/AudioSessionManager.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Commands/Handlers/DownloadIssuesCommandHandler.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Commands/Handlers/ManageChannelNotificationsCommandHandler.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Commands/Handlers/OpenRecipeCommandHandler.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Commands/Handlers/RemoveIssuesDownloadCommandHandler.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/ContinueReading/ContinueReadingPromptTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/ArticleCoordinator.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/EndOfArticleCoordinator.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/EndOfRecipeCoordinator.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/FormatVideoPlayerCoordinator.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/IssueCoordinator.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/IssueTableOfContentsArticleCoordinator.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/PDFReplicaCoordinator.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/PDFReplicaViewerCoordinator.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/RecipeCoordinator.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/ReplicaAdvertisementCoordinator.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Coordinators/WebEmbedCoordinator.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Handlers/UserActivityHandlers/NewsUserActivityHandler.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/LiveActivities/NewsLiveActivitiesTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/AudioFeed/AudioFeedModule.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/AudioFeed/AudioFeedTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/AudioHistoryFeed/AudioHistoryFeedModule.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/AudioHistoryFeed/AudioHistoryFeedTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/AudioPlaylistFeed/AudioPlaylistFeedModule.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/AudioPlaylistFeed/AudioPlaylistFeedTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/ChannelIssues/ChannelIssuesInteractor.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/ChannelIssues/ChannelIssuesModule.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/ChannelPicker/ChannelPickerTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/ChannelPickerDetail/ChannelPickerDetailTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/ContentShortcuts/ContentShortcutsTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/EmailSignup/EmailSignupInteractor.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Following/FollowingTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/FollowingDisliked/FollowingDislikedTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/FollowingNotifications/FollowingNotificationsTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/HistoryFeed/HistoryFeedModule.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/HistoryFeed/HistoryFeedTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/MagazineCatalog/MagazineCatalogTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/MagazineFeed/MagazineFeedInteractor.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/MagazineFeed/MagazineFeedModule.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/MagazineFeed/MagazineFeedTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/MagazinesGrid/MagazineGridTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Main/MainTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/MyMagazines/MyMagazinesTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/MyRecipes/MyRecipesTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Onboarding/OnboardingTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Puzzle/PuzzleTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/PuzzleContinuePlaying/PuzzleContinuePlayingTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/RecipeBox/RecipeBoxTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/RecipeHistory/RecipeHistoryTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SavedFeed/SavedFeedModule.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SavedFeed/SavedFeedTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Search/SearchTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SearchHome/SearchHomeTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SearchMore/SearchMoreTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SharedWithYouFeed/SharedWithYouFeedModule.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SharedWithYouFeed/SharedWithYouFeedTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SportsFavorites/SportsFavoritesTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SportsFavoritesSync/SportsFavoritesSyncTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SportsManagement/SportsManagementTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SportsManagementDetail/SportsManagementDetailTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/SportsNavigation/SportsNavigationTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/TagFeed/TagFeedInteractor.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/TagFeed/TagFeedModule.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/TagFeed/TagFeedTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/TagFeedViewer/TagFeedViewerBarButtonItemFactory.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/TagFeedViewer/TagFeedViewerTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Today/TodayFeedPoolTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Today/TodayInteractor.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Today/TodayModule.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Today/TodayTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/WebEmbed/WebEmbedTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Welcome/WelcomeTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+Blocking.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+CopyArticle.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+CopyLink.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+Following.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+Liking.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+ReportConcern.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+SaveRecipe.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+Saving.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+SharingComplete.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+Shortcuts.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+Sports.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Observers/CommandObserver+Suggestions.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Router/ArticleRouter.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Router/CampaignLandingPageRouter.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Router/Router+Subscription.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/AppLaunchUpsellTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/CampaignLandingPageTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/ChannelUpsellTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/PaywallTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/PurchaseTransactionTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/SubscriptionOffersTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/WebEmbedFailureTracker.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/UserNotifications/NotificationResponseHandling/AMSNotificationHandler.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQdLugCh6-lt-LbelvVlNliLJHjwOCmKAS7RKG8/Library/Caches/com.apple.xbs/TemporaryDirectory.KycKlP/Sources/Feldspar/Modules/news-reader/NewsUI/UserNotifications/UserNotificationDelegate.swift"
+- "Error in application performFetchWithCompletionHandler error %{public}@"
+- "Localized string for recipe catalog search placeholder"
+- "NewsUI2.LocationPermissionsCoordinator"
+- "news.features.articleEmbeddingsScoring"
+- "newsui.general.check_for_new_stories"
+- "puzzleEmbedDidReceiveProgress: ended background task %ld "
+- "sceneWillResignActive: timed out performing background task... canceling..."
+- "sportsLeagueType"
+- "sportsPrimaryName"
+- "sportsSecondaryName"
+
+```

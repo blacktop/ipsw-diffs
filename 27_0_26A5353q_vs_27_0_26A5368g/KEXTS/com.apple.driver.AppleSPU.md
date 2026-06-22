@@ -1,0 +1,83 @@
+## com.apple.driver.AppleSPU
+
+> `com.apple.driver.AppleSPU`
+
+```diff
+
+-1084.0.0.0.0
+-  __TEXT.__cstring: 0x4dec sha256:52b5a7b4ed28be5bea80b814df82cbf796fd206d5acb13a2580f7f747f58f89c
+-  __TEXT.__os_log: 0xa4d sha256:ea17d468d7cde94cc3a8ebc0f0a0a7cb8ef3301f10de97d7d9ff69246b4ec3ec
++1087.0.0.0.0
++  __TEXT.__cstring: 0x4e2f sha256:3d7e140b82178b5adbba4db426591463700862ee8a411ad65bbef078cdbb0e1b
++  __TEXT.__os_log: 0xb12 sha256:cfd9d4979e4f4b2f0f2ad155b0fceaed2406cf03e9c97fcfe39dbaefd3e1b8d7
+   __TEXT.__const: 0x248 sha256:dae97f60050ed2204c0051296b4b32b5c620f76859ff2ac48ba58089f2dabb79
+-  __TEXT_EXEC.__text: 0x422e4 sha256:0a6eba02ad8d482f47959de028536e03612b86292a9df0ca0c2e884e11504bff
+-  __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x908 sha256:a96be7c0b2a9202294e3e91a195b477949a3a917caecc9d8f88004c93694edb7
++  __TEXT_EXEC.__text: 0x42da4 sha256:1fdce73bc707808f8fec136b9a1becedb33a715a631b96e2267bf9e4f9fd11e7
++  __TEXT_EXEC.__auth_stubs: 0xbc0 sha256:6057f32404c5576b8c927866f841ca7ab8bc9c6a12cc9a0f8c6d9c1c6d90094a
++  __DATA.__data: 0x908 sha256:e8f4989440a8864d5b53d0c1a2cba187a2b59cd812317a6ee98f58adcdcfd317
+   __DATA.__common: 0x8f8 sha256:12b81f0e9e06baf8b74c51497aedd8eeaa89709595942ec8c63beb483fc6e0d4
+   __DATA.__bss: 0x580 sha256:bffeeb2d12ba6108806a508082dee2f5ce23d1edeaf81acd4feb8c0d08038978
+-  __DATA_CONST.__mod_init_func: 0x160 sha256:070fadf202b9a37d220a3cde57ca7e8006e35784f27bf701eaa90435123ec22c
+-  __DATA_CONST.__mod_term_func: 0x160 sha256:386b97c65650ac90aa6deec48647ee193e28623750b8d985d843edc7f5aba90d
+-  __DATA_CONST.__const: 0x20fd0 sha256:3f86282f3753d5d094fd935e0d1b910f379e59ea2022ef7c4c27d88be45eaf84
+-  __DATA_CONST.__kalloc_type: 0xe00 sha256:7de826bc3d9eb562dc1881d950b7b7eda93aa345c5c4fdf1adfb909c8c6ecc77
+-  __DATA_CONST.__kalloc_var: 0x320 sha256:652667f0b7a9a6e7ed23dee1af25b09ee881c38f9b119c5ed1b482e277f6dae8
+-  __DATA_CONST.__auth_got: 0x5d8 sha256:1b332a9b590a3dc93cb53979bd7bf139bcbfa17e07c411b8abef624e65756125
+-  __DATA_CONST.__got: 0x1b8 sha256:3c220a9ea1e28946df2b749cb74b7a8d142d2e354c587c753667a6d0021638a5
+-  UUID: 2B404B02-45C8-3CAD-B4B7-9AEA99AA1B56
+-  Functions: 2108
+-  Symbols:   3383
+-  CStrings:  879
++  __DATA_CONST.__mod_init_func: 0x160 sha256:60ddf287e9c79fe9173b2b74c8113fc6b1b7fc56d8c09fe4b1491274f8e7b2a5
++  __DATA_CONST.__mod_term_func: 0x160 sha256:2fa1888f7fbaa07557e5b6630856ff91ee998f230c567ffc4ddee0fcd8f6e975
++  __DATA_CONST.__const: 0x20ff0 sha256:9121001cb338e47e3c7498e0ef0cd17cb19279beb34c84d96f07d7c5666728fb
++  __DATA_CONST.__kalloc_type: 0xe00 sha256:650fd8169a1d6a5a8bc143252bb44e0e988a7ae3d91e66e36776b5f171f1ed2e
++  __DATA_CONST.__kalloc_var: 0x320 sha256:9eff540a10294654abc7f68945e9d861dc96b707218767cd4b76c79716577c00
++  __DATA_CONST.__auth_got: 0x5e0 sha256:9095173f6ceba60353e84f568ab637053346844415ecb827ac95901b9aab9025
++  __DATA_CONST.__got: 0x1c0 sha256:806c7ab6d9dc7edb17c19f4f0932cd64bdad86c04122688f0c2b46e254581f7e
++  UUID: C6318A0C-ADD3-3716-82D4-CC836A91B5DA
++  Functions: 2118
++  Symbols:   3395
++  CStrings:  885
+ 
+Symbols:
++ _OUTLINED_FUNCTION_35
++ __ZL30iop_streaming_ringbuffer_abortP28iop_streaming_ringbuffer_refPKci
++ __ZN10IOHIDEvent11getChildrenEv
++ __ZN10IOHIDEvent9metaClassE
++ __ZN17AppleSPUHIDDriver13dispatchEventEP10IOHIDEventj
++ __ZN20AppleSPUHIDInterface23markEventTreeContinuousEP10IOHIDEvent
++ __ZN22AppleSPUHIDEventDriver13dispatchEventEP10IOHIDEventj
++ __ZN22AppleSPUHIDEventDriver13setPropertiesEP8OSObject
++ __ZN22AppleSPUHIDEventDriver18setPropertiesGatedEP12OSDictionary
++ __ZN22AppleSPUHIDEventDriver18setPropertiesGatedEP12OSDictionary_vfpthunk_
++ __ZZN17AppleSPUHIDDriver11handleStartEP9IOServiceE21kalloc_type_view_1162
++ __ZZN17AppleSPUHIDDriver11handleStartEP9IOServiceE21kalloc_type_view_1292
++ __ZZN17AppleSPUHIDDriver27freeCompassCompensationDataEvE21kalloc_type_view_1913
++ __ZZN17AppleSPUHIDDriver4freeEvE21kalloc_type_view_1938
++ __ZZN18AppleSPUGNSSDriver18_setDataQueueGatedEP17IOSharedDataQueueE11_os_log_fmt
++ __ZZN18AppleSPUGNSSDriver19_setEventQueueGatedEP17IOSharedDataQueueE11_os_log_fmt
++ __ZZN18AppleSPUGNSSDriver29_setDataNotificationPortGatedEP8ipc_portE11_os_log_fmt
+- __ZL32__iop_streaming_ringbuffer_abortP28iop_streaming_ringbuffer_refPKci
+- __ZN16IOHIDEventDriver13dispatchEventEP10IOHIDEventj
+- __ZN16IOHIDEventDriver13setPropertiesEP8OSObject
+- __ZN17IOHIDEventService13dispatchEventEP10IOHIDEventj
+- __ZZN17AppleSPUHIDDriver11handleStartEP9IOServiceE21kalloc_type_view_1161
+- __ZZN17AppleSPUHIDDriver11handleStartEP9IOServiceE21kalloc_type_view_1287
+- __ZZN17AppleSPUHIDDriver27freeCompassCompensationDataEvE21kalloc_type_view_1907
+- __ZZN17AppleSPUHIDDriver4freeEvE21kalloc_type_view_1932
+CStrings:
++ "1211111212221212111111111222222"
++ "12111112122212121111111211111122111111222222"
++ "AppleSPUGNSSDriver::_setDataNotificationPortGated kIOReturnNotReady"
++ "AppleSPUGNSSDriver::_setDataQueueGated kIOReturnExclusiveAccess"
++ "AppleSPUGNSSDriver::_setEventQueueGated kIOReturnExclusiveAccess"
++ "IMMERSION_TEMP"
++ "aop_flip"
++ "com.apple.aop.hid-driver.hid-service.cma"
+- "121111121222121211111111122222"
+- "1211111212221212111111121111112211111122222"
+
+```

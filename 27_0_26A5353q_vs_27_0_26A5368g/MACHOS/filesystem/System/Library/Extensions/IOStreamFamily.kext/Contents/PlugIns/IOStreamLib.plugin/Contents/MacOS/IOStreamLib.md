@@ -1,0 +1,45 @@
+## IOStreamLib
+
+> `/System/Library/Extensions/IOStreamFamily.kext/Contents/PlugIns/IOStreamLib.plugin/Contents/MacOS/IOStreamLib`
+
+```diff
+
+ 120.0.0.0.0
+-  __TEXT.__text: 0x1700 sha256:1ad3838843986f3c70ef79c3726859ea5395dabb2fc103ef069383696f298d48
++  __TEXT.__text: 0x16f8 sha256:6345fcd67aa3655d320cd2868f54d9837a01e26c584513b6b6c85b7dea376e94
+   __TEXT.__auth_stubs: 0x1f0 sha256:41bc372acfa1471f324f9b0304bded53df936169520dfcc9808b150da6acf0e2
+   __TEXT.__gcc_except_tab: 0x34 sha256:2dc1a50e29aa6cdf297ae6d0d71e393404dfe18efb1709b80d16e7d6ace7b131
+   __TEXT.__const: 0x2a sha256:5b1ca06a37250c51d1ac9f8ddeefec3efc7e442ae0eed01cb31bd85bcf80f1fb
+   __TEXT.__cstring: 0x9 sha256:d23fb3f799ec72714ac3edfafda2819d707733b9a96f0fd8b046e1d981bc93af
+-  __TEXT.__unwind_info: 0xf8 sha256:6eebb2c02e2cfab0974162569ebf359a608e3b327770fba016774684aafd5796
+-  __DATA_CONST.__const: 0x180 sha256:f5b11888aaeaadc940e300844377f5d856855720bda95b70c838c66274f4dbd0
++  __TEXT.__unwind_info: 0xf8 sha256:310f392aaa5c8891ab44913d9585bbe95a215828e3691a51dbc46a6b25fda8a7
++  __DATA_CONST.__const: 0x180 sha256:6322ad3942901ca9de0443e61902a9ac288d2821246c1c2e08776c7a9431b941
+   __DATA_CONST.__auth_got: 0x100 sha256:f7ad8b39b4495a2f2a4665b9cbef77c0155dfc966ae4060232e5872e885a52f0
+   __DATA_CONST.__got: 0x20 sha256:f8035918d969a79698dd88be4d1d431ecb540bf7beea3d19a6c70230efab963b
+   __DATA.__data: 0x138 sha256:5da97aed1c9b856d744d86f5d051440a7c9a211f3bdbdeb5019eecaccaee9fc2
+
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: B7DBC75B-14D0-3030-8E8D-9E5FFE57C528
++  UUID: 4835AC9D-D85F-3EA6-9909-D11DFB2B6394
+   Functions: 80
+   Symbols:   128
+   CStrings:  1
+Functions:
+~ _IOStreamLibFactory : sha256 31857879a009475e21244c312446d497670cb68d154969121abed70a141e6d8b -> d8cc9e77c998759901eb289552ded55c7b05f5a31e806ea24161d84b3c1ff201
+~ __ZN16IOStreamIUnknown13factoryAddRefEv : sha256 1b89e77857256e6e761d7b4e7e20310d3b86e72591bd621d61443c3720da9093 -> c90f783fd51cfb011c5fdcb6e4a35efe34180cc1ec4be68f8abc12d841f48a64
+~ __ZN16IOStreamIUnknown14factoryReleaseEv : sha256 204632da8e6a97a3e2eaccab19701514a0eb9275bdef33db5194578002fc9416 -> a9d9b74d94690ae74f0a9dd4f4eb4d2107fccbd84c7f2bc0c3651fb05bdffc39
+~ sub_994 : sha256 44622f8154e4e59c8ebe1eb5ec43f3d8314697f31a3e3b1c9143a24a844a2682 -> bf87364a3ff425a5956a92b0e3a659214d060fcbdd28320f25fa5b8920f64669
+~ __ZN20IOStreamServiceClassD2Ev : sha256 12a48becd73cd114ea3fc6bab477badd468a2b9377b9a90d3acf1ae6f394dd16 -> 5ce0741089868cb946afa677d55657608403b71898cd9aa2c4ccbd6419de9783
+~ __ZN20IOStreamServiceClassD0Ev : sha256 43bf50a9f39135e5ac296f25ee0cb5ef055285399a94a2ff43248d38cf069041 -> cd22fffaa63f13770954841170f37ffc8e29910d17b5c643a028a24b649e3fd2
+~ __ZN20IOStreamServiceClass5allocEv : sha256 4e7a04e1b4e391f4e07f41aed364ee8f73895e191f3c37ae62cb824e7c1150c9 -> 92d209c044282ae0c4d5889cdacb56042c710bb757ea8bf884190716ff9f85f3
+~ __ZN20IOStreamServiceClass14queryInterfaceE11CFUUIDBytesPPv : sha256 d52437196a7784c31c612ed460cf0b9e2e0c0deaa10c28e9cf060cb3edb8fe90 -> df9a3b939a0a8f911c81d48d1ac652b0e0a231c63f085a51e37f7ceaed6e12c2
+~ __ZN20IOStreamServiceClass5probeEPK14__CFDictionaryjPi : sha256 e847da0db884f51c72f48a8ad7269b566a00d95ec0b50b9ce79bdf633a026fbe -> 1ef487ab49f5189f1fd199f17851ddd999bb566c14e17171c5d00823d7bedbeb
+~ __ZN20IOStreamServiceClass5startEPK14__CFDictionaryj : sha256 5510c087681970c29c61e1153a48c1c972b527884f16d2c8d78c26e9aab36f5b -> b08bcd58a06636741dd2f7c54366dcb890f0a95b39a099cd102d3a0c3cc5ff45
+~ __ZN20IOStreamServiceClass4openEj : sha256 00376f8cc804c8b2e751c04df60e18d00a44fd3d783610ebcf22e982ca333752 -> 0cf2ebf3853be74d5379ad28187af64c8c4fbcea3f7bf63a2b3b49b47fb3c0ce
+~ __ZN20IOStreamServiceClass5closeEv : 336 -> 328
+~ __ZN20IOStreamServiceClass13getOutputPortEv : sha256 2b76160a3cd6bc7d8c5b01be7db7d61da1cf183b94a8267a8a410b66bef9ec1f -> 8f877a5f715d8c6903a834a2a55781c72a735f9f6ba5c5a2aff069e429fb53ce
+
+```

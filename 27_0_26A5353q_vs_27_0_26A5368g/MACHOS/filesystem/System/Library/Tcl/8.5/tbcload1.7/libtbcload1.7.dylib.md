@@ -1,0 +1,52 @@
+## libtbcload1.7.dylib
+
+> `/System/Library/Tcl/8.5/tbcload1.7/libtbcload1.7.dylib`
+
+```diff
+
+ 154.0.0.0.0
+-  __TEXT.__text: 0x27e0 sha256:3e54b4a9b6814a31507629e5268415928bd8a6e33903edd68d538c9aab429b2f
++  __TEXT.__text: 0x27c8 sha256:8c29db45ee655ea91cb801d5a337e07f894cd6948b62b93a9c7e74efd4d999c8
+   __TEXT.__auth_stubs: 0x80 sha256:b8ea90188645e80faa4ebcbf0a62c5e66eaad30a556537238ab87dc51dcfc825
+   __TEXT.__cstring: 0x509 sha256:89a8e39997ed36252f67c490d2e7099efbd78428bc3cee91f8f426dbc39cc28c
+   __TEXT.__const: 0x240 sha256:b025cba975f7e81aaba3fb6de28604eb6663bcf0783742f1531df2abd4209eee
+-  __TEXT.__unwind_info: 0xc0 sha256:bfd27bc13ad6b7e457f67e1d35c4eca740f6a138d8e1d19aff8f4c62d9f73ebd
+-  __DATA_CONST.__const: 0x48 sha256:0ca833cac9f2ba65e6aba49308d391f1747925b56f296a89396c22c96a911ca8
++  __TEXT.__unwind_info: 0xc0 sha256:f8de4035da346917c180f5588ca3111204106c7cf20067140994806a74d34098
++  __DATA_CONST.__const: 0x48 sha256:824e29824c955431024711d465d8d3244caec95af66de0b467ae0f8ed3b1dde9
+   __DATA_CONST.__auth_got: 0x40 sha256:0bb886e6694b925c22435e12adf7d549092a575160bb8b47fc79004fa926779b
+   __DATA_CONST.__got: 0x10 sha256:c926b23deaef8bf729d2d6034bb4a80cb699f45295836b3fc16a34c7cf786bd2
+-  __DATA.__data: 0xd4 sha256:7744ed373fdb5b9b69e2a763fd1bb9270f329d95d59ce2fc8f8970b351c6b559
++  __DATA.__data: 0xd4 sha256:8e9c6bb613ea79808ef886396a7d74780394817dc1acbd57d5c5594ad78e9c65
+   __DATA.__bss: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+   __DATA.__common: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 16CB019D-31D2-3A70-A2F2-20E47E57E2C8
++  UUID: 621F1D8D-C6BE-3BFF-ACEB-0D9D17E6D8B6
+   Functions: 29
+   Symbols:   71
+   CStrings:  50
+Functions:
+~ _ProcBodyNewObj : sha256 be3e01af87cc7c886d383b3accf2cecdf0d8dd8aeb95358e981614ee807a5f4c -> d3aac0605f94293bdaf69fe21078f5edce86ecbadb30710017214f3e70c71b5a
+~ _ProcBodyUpdateString : sha256 a7c4de1d6ec06f0a7c88f3f6e64f40e872e2bc4f48d696f94e5fe81942f1af05 -> ca9b9a9ec3526d58f83e4d43c4b2e1c96379f9f08d8382ffc99e520551dc266f
+~ _ProcBodySetFromAny : sha256 fd7fd0670ba9784dde4748547da4cfa3922c18894241b30a1541c9193bfe0dfc -> 95a7ed181fb9b068871e991c139dadaee1011f3a34226410e108f3f78bc388c7
+~ _TbcloadInitInternal : 328 -> 324
+~ _Tbcload_SafeInit : sha256 a276f90472f416476ff9f82e65c8545949e4741e5f88ab0dfcb1481bc5f4768e -> b9d5fd450b34f2be5b3fe040dab8a14d061ac5fe1170cb8a8a66da8e5bccf127
+~ _Tbcload_EvalObjCmd : sha256 ea02a9a675c57e5d5e629db56a627321f775e9de7b8f0ac0f9134f36d07cdda0 -> a5951d666ad49f291d3faac3cb1d8c36ba0426f670479dbea408d5dccda00941
+~ _ExtractSignature : sha256 1dedc8889ea0f6062b895091b6598b554d31d869b2961081bd7a4d7a9dc82f5e -> 2471d18bb15004aade255d5af240f5bf68da2967d2090348389862adce10f984
+~ _TbcloadInit : sha256 2cf3c6152d1bff9a7211ebee791c160f8fa17a5052e74a02846db55ffc1aec7c -> a677b1f3b1ccee71062777d7d207903b17e7f08415f84a5c770a2c3ac2e5e09a
+~ _ExtractByteCode : sha256 8405df5b2a4fd17c2befe41a340fd10119dadc815c53b75d603cfc14fe5a69a9 -> f240d12635df58cdd60671b6b0ad96098bbd4e35afe2334db1feeb72388bf9db
+~ _ExtractByteSequence : 748 -> 744
+~ _ExtractObjArray : 220 -> 228
+~ _ExtractExcRangeArray : sha256 49fa738a2039125f42fb40a1ba4d1e69dbef02e6128e7ec699d0e7cd39bc7397 -> 7bca2cb6cb39dc4a55255db518ae4619819a18f803b4a9169507dd597ced9879
+~ _ExtractAuxDataArray : 1136 -> 1140
+~ _ExtractInteger : sha256 09d1a8bf2ac042d0b2f69e4aa1c3fc1c1ce65dd98aa7f05c69d2b390bc483210 -> 52a10154e0cac6c51cefdfc481ece274a5e7ab30c1c0c1c958aedbecd7035013
+~ _AppendErrorLocation : sha256 0387785b8acd5b4c2a0d70b26989af4b16a16a18dc7ec98e7772494a6de3aaa6 -> 2a923d6d1fd30b0d32a3a6ac91d068e287e49c669883f65c122cc87afdeeabe7
+~ _ExtractObject : 1460 -> 1444
+~ _AllocAndExtractByteSequence : sha256 9aaac7d7a8f02c2daa718e866d1a01881c72ae856f80c1c8b0bfe65dbb54dcd8 -> 131cd73851edd696c919b0348977554276a15609187748102b517570f068ddac
+~ _CreateSimpleObject : sha256 99aa3bc6e6ad955d7800ae372288171d68b388a377885b31820ae278a36b2b09 -> 5345bbe7eb8046d788078d9a58c301ea4d82cc8a5c520f9c43839cb90535135c
+~ _ExtractProcBody : sha256 e367b7d032c5ca41e9590d7fb98805d288d017af82de6c31bc53ac6e0e4df03a -> 67a4b687cbf7dba7ac4355e38e2501cd995db054a27e6636e2217e65855b7b8a
+~ _Tcl_InitStubs : 408 -> 396
+~ _TclTomMathInitializeStubs : sha256 72316299e078d20b7e8a9712c99923bc35c20ebb8a7cb2ec3af2a9a863da406f -> 29664efcb43967db87eefc42d0381eb6c1bb50676954ebbe43c6683ebd0d701a
+
+```

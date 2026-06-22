@@ -1,0 +1,84 @@
+## libmalloc_exclaves_introspector
+
+> `/System/Library/PrivateFrameworks/libmalloc_exclaves_introspector.framework/Versions/A/libmalloc_exclaves_introspector`
+
+```diff
+
+-883.0.0.0.0
+-  __TEXT.__text: 0x4840 sha256:2dd3866c98b85dad67f68af6876a4bb1146d807f07dfba84dbd5991418bea54d
++886.0.2.0.0
++  __TEXT.__text: 0x47f8 sha256:76bd53df606e0be1ff65c07ee26746373e89c36ac222bfd4d7e62de58d741c14
+   __TEXT.__const: 0x83 sha256:5a10372d4d71b7b05627a6971be5cf4657109876fa9c1e7b5021321354f66b61
+-  __TEXT.__cstring: 0x21c3 sha256:0b57f5329b18300038837589eaf18ca08c302a3c13fa0ba8dbc15087ac3026ae
+-  __TEXT.__unwind_info: 0x108 sha256:647cddfee67b44c9ab612c9facc091950a80deb4d9ece40a97ca00dd84d01dbf
++  __TEXT.__cstring: 0x21c3 sha256:4a1793f2ad540f2d2617b69195c93f688f597859412b24e80a464bc2f9aebd28
++  __TEXT.__unwind_info: 0x108 sha256:81bc54fa07230f6d8f34dba531e48cc27b92f52415a0f359c74bddfd5430cc40
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x188 sha256:fffd6075be9f3e1493e8a8630912bc9d5072ffb36c34b18107edff40094edd62
++  __DATA_CONST.__const: 0x188 sha256:b9378786d0fc6470930c5152774bf211b321af90b03f8be9e650cf51190bff2e
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x280 sha256:1b34b1472bed27914d0db6d8d9e2afd22723aa7e03aa716c38d81b6e90063963
++  __AUTH_CONST.__const: 0x280 sha256:546d46b90b603e641e7d5208becc3b7feb5aa39d0c99a203b91d40f36cefc828
+   __AUTH_CONST.__auth_got: 0x110 sha256:e4d879a3407de578f579dfab4366fcea75a6649c683d9efe4f056f6505437574
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+   __DATA.__bss: 0x11 sha256:0a88111852095cae045340ea1f0b279944b2a756a213d9b50107d7489771e159
+   __DATA.__common: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 5AA72B64-1A1A-3F30-B02A-15BFC3FE8944
++  UUID: AFCB95F7-6A0A-3135-A68D-66D0B5819E29
+   Functions: 57
+   Symbols:   123
+   CStrings:  269
+Functions:
+~ _mfm_lock : sha256 628967c1ed513b3a8534b20542531bc145a37c6817a2055fcc29b1161b93990e -> 7dac1c8b09636224bd39a0520569dec27e1c3f16b67a3607108b34b88e7cda5b
+~ _mfm_reinit_lock : sha256 f956bf848582fdc42445444dcf1de904f3c70f45f5be9410b76e69e0a71b80ec -> 6d7711e061048f5025aad6c38d5728f2fb0e000bf7c4cc42d4201c98cf797de9
+~ _mfmi_enumerator : sha256 15008c0113f7afbddb60d86d8e58f74e19d5d63f5674e51339aa10c77c540dfe -> c5bb13ee016f663a348e36058d9f831afa4866b7fa4a971a0b4a95d6103ab010
+~ _mfmi_print_self : sha256 fcf5598f8d068f3a57e67f63bc6056f275867ff7e29b4939fe7c08ef25e89afa -> 017b73fcb668b1fe2eee418d2a7af6a4e025a06f944e5cfcd544166f48eb6022
+~ _mfmi_force_lock : sha256 42ce9c1c19fe79726a87f96a441109ef344125b88fe33762db361b4303edecbf -> e58dd4ed74773d5b4b43235c246d71805b3b9f23dd51b4c7191fcd07d452c6b6
+~ _mfmi_force_unlock : sha256 a289ab1035854ab21374649e92c2911f25ab2830cf89b0815b6434468408bcc2 -> 02c4ded7174c931c80f23398d549911ae659554309640e062b371577467a6ca9
+~ _mfmi_statistics_self : sha256 f5df620b1bb8016cfae10e1a11fadb212a4ce5e558949c92a97be14bb75dd155 -> 079185ce840c07f3516cbc9f2c19f3a26a5c9a41378e95a0d7a3d0dec20c891f
+~ _mfmi_locked : sha256 9116f60c8ba2787c76b90bcfeeffda6b8364bdda5287ece8124f963e1dd6110b -> 9fd62ff68231db6ec5a4315a9e812802cc555ebba37a0304df0b4185420974de
+~ _mfmi_reinit_lock : sha256 f956bf848582fdc42445444dcf1de904f3c70f45f5be9410b76e69e0a71b80ec -> 6d7711e061048f5025aad6c38d5728f2fb0e000bf7c4cc42d4201c98cf797de9
+~ _mfmi_print_task : sha256 0add7b34e17c53d0280a694a74b551e534cd5478a436f2226299c0ae5b540730 -> c1e8b5a68e184c9e4879678ffefab92d40fa605db2657997be3648aef1c76e91
+~ _mfmi_statistics_task : sha256 02782e9124d0dbe6d800fd131a39476341764ed6aa84cdb3de4e14f497246056 -> 8c15429b1b9f294966f6146c4526849bf77f0dca122095953b39fa1b6185e5b7
+~ _mfmi_read_zone : sha256 7d0361ac54133c93a5de65e530cf1df7d495df38f6a34cdcec6d6b28eced9595 -> 5b68f90a90c29349804e9e469bd95fc57f4752d816dee918aed9953e9c187c05
+~ __malloc_default_reader : sha256 9ac924a3c83dbb895050d48c0a58bedf671eebbc9efb46585c5c94e21a785de2 -> 4e7d6ab4e470911bcbac26fb55daef8231b67d5c293e04fe8567ba87da48c32a
+~ _print_mfm_arena : sha256 8921ae565d8936518dcd2ec6faa929bf5ef49c411683e341163ce0d8dad3f8ef -> e7052fc9f1fa1711e7472f5e0ca52d41d749e187d8b5fb2a500bd81c5e7cd063
+~ _xzm_segment_group_segment_foreach_span : 412 -> 416
+~ _xzm_ptr_in_use_enumerator : sha256 0f094ee6c7c7cb61796a911961bcf2b42e446729cb346c679deb1fe8f611331e -> aa70f8528dfe4bdb6fd6603ff69f3d24b636cfd4734db0053c5a49ae958757c5
+~ _xzm_print_task : 5148 -> 5072
+~ __xzm_introspect_enumerate : 860 -> 852
+~ __malloc_default_reader : sha256 f5d583d34cb2e0b4d6641087ebff222394df41f858e6239b50270cc047699529 -> 34739024ab44d290c3672c3725c195c336504a7777fff27e7ab0196cded70e66
+~ ____xzm_introspect_enumerate_block_invoke : sha256 99428c39dade3a27dbc8b9372f57123cb73ec7d2e10d048b8c7d85996ee93f4a -> b3bb6ae2dfc2f93848c5ef6813ffc10832ddb01b51ad8482480a0dcc8aa0501f
+~ ____xzm_introspect_enumerate_block_invoke_2 : 1404 -> 1412
+~ ___copy_helper_block_8_32b40b : sha256 fabbf2c13fe856d1a5542cf25d9b9721adf5deb2226c335696f13ff7fe5b9da5 -> bbbc47af015b0a40948e2069d462d56550e3a05f44af1d4b98d5f092f43424d4
+~ ___destroy_helper_block_8_32b40b : sha256 b7579260ffcea2770f5ec18787b0c268c02405142526274fe54ce0aa7dbd8578 -> ffa6b54174da316f7ab7b70aedf3e7446ca00fab3b57dd004101e35341ac3387
+~ ___copy_helper_block_8_32b40b48b : sha256 5367bc0b0eb299d6657177eddd562b9c7a5657d0eba0ee7ab27185e6335c35fb -> 8aa6be4feb8f87b0ffda5db9586ccb9285e693c71a4be35360e4920aba08f743
+~ ___destroy_helper_block_8_32b40b48b : sha256 c12b523cf74327c3425710bd9a82c2d4569733235c2b29d2a49a990bf6a62736 -> 5a70d8bbfcf82387aab34e0ead6e92ca756da1c4e7d3dada8a6f1592cd0f792c
+~ ___xzm_print_block_invoke : sha256 be72f61850450fb1ff2f970a78b4e1bc862ad7cf837e53e5fd08251f385f1471 -> 161b230a62752606be967d092880681f2491d57817f29d023d6aaf8871a20d1e
+~ ___copy_helper_block_8_32r40r48r : sha256 6029b2c204140330aedf03699e02ead1c05102de8347ce8a49b7d850f499db57 -> 690504d9d8263285d2c139021bf1d26d233ec1d63dfc40554682a43c35243dfe
+~ ___destroy_helper_block_8_32r40r48r : sha256 159a2245a3ad717c936e876f5702d283ef5c13b2c1fd48be38a2071d4d025f82 -> 03509c8ce37d9e2de50d59e2d94f12e60ef8d3228eb4e8464178718b4c33c18a
+~ __xzm_print_block_invoke.37 : 480 -> 476
+~ ___copy_helper_block_8_32b40r48r : sha256 b11049d024584ad7fd5f2baba113bc3b5a625dc66a354129c77afae84b4be31f -> c40d556c8ae7b345ecc1c8ed6def550b67092d1a49aa697dc610453c649fe48d
+~ ___destroy_helper_block_8_32b40r48r : sha256 968037d2bac5df7818c3d88a9f64f4dc667e1c4d45dbe348ee1f1a097405b06d -> dbfb5c0bb331785e58d9a0ba67501ab118943cdb50bad977042743e701932ade
+~ __xzm_print_block_invoke.179 : sha256 2c34f1e5980de98c610551ab31c74b3be7ba8889fbd703a69a5186ba5ad68b00 -> 40c82375aa876d6660208ede6a000acc364c24d0df580c9b822d533367af3d5d
+~ ___copy_helper_block_8_32b40r : sha256 316631c034421f8e512fa51a9da6b5c6464bc11c36a39426bea71dad3203804c -> 1d598685d1252d0c078cd0831deadbb250ed5e1745d98a36af61a015a9ab9fd2
+~ ___destroy_helper_block_8_32b40r : sha256 d25b2d3f3a69604c757b04b7c2932dbdced955fae85d0554c8a1d47ce823a107 -> 4daaacb58671daf54057ce35d4f5bb17e27158f07a69db7cf459ff53f8829a29
+~ __xzm_print_block_invoke.185 : sha256 b6dd5fbdb37eea5ca0d97b637c1745c087534cc78b4f884c27b076d8796b6055 -> 5c1eab21bf18e45a70cdaa1996fbd772ac7bf03d662bb9ebf5f7bdcc69eab157
+~ __xzm_print_block_invoke.220 : 560 -> 556
+~ __malloc_default_debug_sleep_time : sha256 54ebc1650c78b3bf1a43e1dc998d550f401128c8eddd2e82624bb90d5fba5568 -> e31474bec625900e32fbeeb2859d166112461295a4c5ed66f55e7d15dcbc5164
+~ _malloc_print_configure : sha256 0f0e67f73cfeb7a2914854b05e76237e89e9f1bd8fe4938684f4705801f05425 -> c47e58915df79be872cd93833c88c2c52797ff3bbcae4a1f51faf833e9ae0222
+~ _malloc_vreport : 892 -> 900
+~ __malloc_put : sha256 66ab20775cffa8f6a5f92511ef576f15dcf1ae758c7a1e56956e17c5989c7eb8 -> 84eb8b10c7d733144913716c7553eb5a908a54e1cfb26957a770d80669f71b79
+~ _malloc_report : sha256 a2052aee1ca72bb3bcc462199f790ec7efb0729c9c9b535a1bc02f82108723dc -> 34f628ddc46f5a6756057ac363979df603172a883fd8dd288be68cae5186cad2
+~ _malloc_report_simple : sha256 d0c6ff9cf0c61644696eccf856288a8dbac9eff808b49c0628e295c87cac04bd -> 3743296f3b94e1f6d91549668d7f43524f24677f56e6d2a03ff559dad360d562
+~ _malloc_zone_error : sha256 2713b5a36fd535596e9fb986c53f18042137d47bc04b7af5c7b64f38cb2cb5ce -> de14316086131f8dca0f3233f98b357975ae73712739c7efb23a7e2a74f930fd
+~ _xzm_introspect_map_zone_and_main.cold.1 : sha256 06347512c2e9e3ce0a3783f3762e3be124e1a28a772f5e6d8e9f0a0a64e1c1b7 -> 985e292188b044138b30fa553fad01f03cc15c4d9513ae04270eadfb736bd4c5
+~ _xzm_introspect_map_zone_and_main.cold.2 : sha256 53418cf353cb93297234feca778e930249777189682c49f4d51014037efc7486 -> 8d4f7b44cba0c6e2d8d192f6b3d11db14150190077c38718329d8f5d50ec983f
+CStrings:
++ "BUG IN LIBMALLOC: malloc assertion \"main_address\" failed (/AppleInternal/Library/BuildRoots/4~CRa8ugAkmJ9RrtbowckPuziS9n60Suf2D3DfcDA/Library/Caches/com.apple.xbs/TemporaryDirectory.8krqxC/Sources/libmalloc_frameworks/src/xzone_malloc/xzone_introspect.c:960)"
++ "BUG IN LIBMALLOC: malloc assertion \"zone\" failed (/AppleInternal/Library/BuildRoots/4~CRa8ugAkmJ9RrtbowckPuziS9n60Suf2D3DfcDA/Library/Caches/com.apple.xbs/TemporaryDirectory.8krqxC/Sources/libmalloc_frameworks/src/xzone_malloc/xzone_introspect.c:958)"
+- "BUG IN LIBMALLOC: malloc assertion \"main_address\" failed (/AppleInternal/Library/BuildRoots/4~CQBgugCrKJU8Mk_oDzswu6vAQGR6Aijy71pxtqc/Library/Caches/com.apple.xbs/TemporaryDirectory.gJkR63/Sources/libmalloc_frameworks/src/xzone_malloc/xzone_introspect.c:960)"
+- "BUG IN LIBMALLOC: malloc assertion \"zone\" failed (/AppleInternal/Library/BuildRoots/4~CQBgugCrKJU8Mk_oDzswu6vAQGR6Aijy71pxtqc/Library/Caches/com.apple.xbs/TemporaryDirectory.gJkR63/Sources/libmalloc_frameworks/src/xzone_malloc/xzone_introspect.c:958)"
+
+```

@@ -1,0 +1,53 @@
+## angie_renderer_aov.dylib
+
+> `/System/Library/PrivateFrameworks/CoreUSDEdit.framework/Versions/A/module/angie_renderer_aov.dylib`
+
+```diff
+
+-28.0.0.501.1
+-  __TEXT.__text: 0xd70 sha256:dcfd3e0b61877d26f467f81169518e6e32a35ec600b91062cb112fb7ad2bc2fd
++28.0.2.0.5
++  __TEXT.__text: 0xd6c sha256:a5fcdd5d9e88700f3b33737f366685a6a8d486c851391c6dfa0ad91f95f3f65c
+   __TEXT.__const: 0x70 sha256:ceec101e6581ec5facd489c928d24e170cc795191cc41885280f6394f19a425e
+-  __TEXT.__gcc_except_tab: 0x44 sha256:3527ffac14b9d04dbaf83968d0abfc97275c29fd9347c2f08b80cc8000470efb
++  __TEXT.__gcc_except_tab: 0x44 sha256:7e5fc806237cf577789e5d0cc814bd9c07ba9ad19f2db7e01e3ee46914f2bddf
+   __TEXT.__cstring: 0x224 sha256:68cbd5d0face453d255765655df0d1d87beed353dc3c5662d40bdbfa45547872
+-  __TEXT.__unwind_info: 0xb0 sha256:3341ac636d11dbc6d2e63ba7efed596b79d07be3560b3ca8e53d5b8e165110c1
++  __TEXT.__unwind_info: 0xb0 sha256:61727bcab27c0dbe86495b8136eb997c1bf885f0b599351edb6dd6038f97b3e1
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xb8 sha256:75381405a9b71f94275b815b1c8a6e8d8aaeac4e2fa87acc5f77e6a52c6c094d
+-  __AUTH_CONST.__weak_auth_got: 0x20 sha256:b7a04fda26841a0040c3791c7f7affdc0629031506fbb84d682fccd222e021f0
++  __AUTH_CONST.__const: 0xb8 sha256:e51be432af78990bb881070a9b20f35f21ca275e49624e5dfe092ad28a1c0b15
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:396e67293ba6b13027ef3965f36dc8d7505225f73159bf94255b9e4c198352ac
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__data: 0x4 sha256:7d8e29fa389a36cca29bc0f07a7892dddd6f9070b9e33d12dce8ce3569f81810
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/usd/libusd_ms.dylib
+-  UUID: 1579C184-7D25-3055-835D-7A5690C9A418
++  UUID: 64FB9F5F-6096-345F-B0F5-F0D5C844A2F1
+   Functions: 22
+   Symbols:   70
+   CStrings:  8
+Symbols:
++ __ZN16NgRenderDelegate14s_ng_aovs_infoEv
+- __ZN16NgRenderDelegate14s_ng_aovs_infoE
+Functions:
+~ __ZN36_ModuleModuleRendererAovNgCallbacks_10init_classER7OfClass : sha256 997f683af84544d520ce2f3c964d8f9fa4a26b26963035dba1b30823ae6a1b7d -> de8cb8c0633a6e325dd9985123611a75558583e0c021ba418780f4f0edf50f1d
+~ __ZN36_ModuleModuleRendererAovNgCallbacks_18module_constructorER8OfObjectP8OfModule : sha256 582a02aa0e55921c694489ad50f98ad1cc8d379ad59d05a74e42d275db3522b0 -> bdbf51faaefa2eae1c9d52e6b00654fe02742463a6faa7b8ff3d1464efdb5094
+~ __ZN36_ModuleModuleRendererAovNgCallbacks_13on_new_presetER8OfObject : sha256 6f9d86a016ab2b4eaea693daf4e379cff4df59559890d733a13be8a500fa5c73 -> 5a336474ebf9d34aefd6a4ee981d09cb6bababc467734aa6530e25da6e18a8a4
+~ __ZN36_ModuleModuleRendererAovNgCallbacks_19on_attribute_changeER8OfObjectRK6OfAttrRiRKi : 240 -> 236
+~ __ZN16AngieRendererAov11on_registerER5OfAppR10CoreVectorIP7OfClassE : sha256 51c3e4e7cf5028d949a60b188f312980fe95f98d69d3a25f9697436401eaa56a -> 29937e1a915dcfe9a7121dd0fd3b8ffa05cd7756a2c7411a4e6d952160c47ea2
+~ __ZL10create_cmaPK7CtxEval : sha256 ca707dea2f201995b6b3076c99c3d759aff4648691a90475dcc44690794a41fb -> 4c9242377bf12fd83448e8cbea6ab8b0b4a1305efab7ee7246d4d80a5c433e9c
+~ __ZN36_ModuleModuleRendererAovNgCallbacks_D1Ev : sha256 e5f25fa12225ec9b3b8b01239c1810821e5e3a398333d0d954d302f07eac0f18 -> a4e54758379687a4bdb2b19cd341a7f24e8e1c8314a524bd5b452eb2dbeeb86b
+~ __ZN36_ModuleModuleRendererAovNgCallbacks_D0Ev : sha256 3290a93477edb5739a7d99e009078facc886d5cd356ab149ce0d48971b5f666f -> bd48565518dfe137786a4d48997147ff72547d8c8dd6881c8ff4fdf959ec5706
+~ __ZN21ModuleObjectCallbacks14init_callbacksER16OfClassCallbacks : sha256 2baa9b4e474cab1a459fec078ef114b062aed8890848ba837aaf66900e33cf83 -> 3c9bed1551ff0f7c2385622e61bf03fa9b215ceadec9740edc06354587d48e3c
+~ __ZN19CmaAngieRendererAovD1Ev : sha256 46eddb591bed26ac27843a28cd3a80d6364e654809e38bf107a54f55739388a5 -> 3daac7076b43cdeb0a0ba48a4ae78bdbafba86393987506dcc1e75dea0507a14
+~ __ZN19CmaAngieRendererAovD0Ev : sha256 74b2808ea7720259d3dd0ab8f9962a2f73a86ed0873217f09cc09b274b10f5fa -> 4a2794c5b7025263052212e8fe3572930b90997153a76cee1e59e38c10cd1a73
+~ __ZNK9ModuleCma14get_class_infoEv : sha256 d1eb10be6f40801ff3cb13146ed1813e1b08ac9eec439eb3ce223e7fe16193b0 -> ece0f8452e8b58a3603faaea53f2fb63e25e6fc46b0529cd7cecd7361e044312
+~ __ZN19CmaAngieRendererAov21sync_attribute_valuesERK8OfObject : sha256 d637b9e12dd85f1100187c2fed564e7f7afa43a0efd0e29c2eebf1efbee65969 -> a2cf9365893e1e3a17c8f6fdfb01e50960d1a21e5ada276d3b9c012a12bf9af4
+
+```

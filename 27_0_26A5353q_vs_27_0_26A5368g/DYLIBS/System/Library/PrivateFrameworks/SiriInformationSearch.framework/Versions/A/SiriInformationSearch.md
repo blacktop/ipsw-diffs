@@ -1,0 +1,236 @@
+## SiriInformationSearch
+
+> `/System/Library/PrivateFrameworks/SiriInformationSearch.framework/Versions/A/SiriInformationSearch`
+
+```diff
+
+-3600.35.13.0.0
+-  __TEXT.__text: 0x26753c sha256:5bc6724f7a3cad3235f6ca0e4308b372804fea14b7d99cd1b5f33d9c096faeac
+-  __TEXT.__objc_methlist: 0x7cc sha256:009ccd1f7355e1cfc429fc854eb6322e2064d96c74ccd2586f774afe1b9a2cca
+-  __TEXT.__const: 0xa9bc sha256:4a61015606fc4cfa98f77ff7a4f57020fa2870a93bf927168970c3471b6bc100
+-  __TEXT.__cstring: 0x68b1 sha256:d059d0685f38dccccbcba40b136f76de3d526e36416e75249871942e174b709f
+-  __TEXT.__swift5_typeref: 0x40d4 sha256:88954aba7236dff6ea022b70f358bb1c03d413212ab3f20c437b037a94a845e0
+-  __TEXT.__swift5_fieldmd: 0x4304 sha256:95ff6d3b1ba62d1d5d7d53e537934ab449074852172e19e7ffcea402964d11e4
+-  __TEXT.__constg_swiftt: 0x5f74 sha256:ef1d169172ff9319326268f309e03032dbfd6fe58881259b4786f970eff5d963
+-  __TEXT.__swift5_builtin: 0x168 sha256:e9bd3fb29acfaef208da3a547254ceef4c1bdbf7ac3f6cd9a5eb6728f71a6eb9
+-  __TEXT.__swift5_reflstr: 0x47ca sha256:fcc013924ab92bb52b685ae7d529f997675ceb452a26d32fa08acee057197f92
+-  __TEXT.__swift5_assocty: 0x480 sha256:6b0af44289bfb5fcd38d49b3b01c0ca89a4c83cecbe39006349365309be5d0e4
+-  __TEXT.__swift5_protos: 0xa4 sha256:e6c1fc1d3b72270c4796b83fb2baed43e7a4c278f01898ae30dfe760519eb6c7
+-  __TEXT.__swift5_proto: 0x428 sha256:00fe9dcd9d702f5a6da3988d4c8395c81ee1e53fb47ff8c1c1ebbc78ed89ddd1
+-  __TEXT.__swift5_types: 0x3e4 sha256:17f3d905e4b3fc6ae8575ea7e4a9adbb0a32dce2dd06c088e379fe2e0935351d
+-  __TEXT.__oslogstring: 0x12c9b sha256:ff309e17428d237aac6b0526df3fc15cf6912742c3dad58bd1b0083dc8450687
+-  __TEXT.__swift5_capture: 0x1060 sha256:b2ef573151d6d0f3740b6d813fac020b6246e5f9086de5cc668d908b16e5c60b
+-  __TEXT.__swift_as_entry: 0x120 sha256:7090b77d2b0e75a7da59d7b3d3b3c03b352e15fcba11822ec56939cff01b8d3a
+-  __TEXT.__swift_as_ret: 0x108 sha256:8029f2e670c677ea3117c35b7c2d2e962889647d9c336ac33ef32b7b3919b3e7
+-  __TEXT.__swift_as_cont: 0x2b4 sha256:c132eaae1825cfe04a8efa6fcc3bb3c4f284889d5267fc1df209f673876e8b3c
+-  __TEXT.__swift5_mpenum: 0x28 sha256:1cec4df73103b757bf80675c4f60e33cf889f10fed1a5e2d72557b1f3486291a
+-  __TEXT.__unwind_info: 0x5118 sha256:8d939438cd9767e17d938c9b736c992658e6ed78d41cfb87fb5c4590a357d0cc
+-  __TEXT.__eh_frame: 0x6ee8 sha256:f6ffb2ae24d804f656ef8a7a96728fa51869d91baae450319e40b9aca7b2dc45
++3600.38.2.0.0
++  __TEXT.__text: 0x26957c sha256:c80b9312f3ab22c051e4409179b5d7e505116e3b754c050ff898610ea98cfed7
++  __TEXT.__objc_methlist: 0x7dc sha256:bc3db77a606efee533dd663cc4b03cc40e6cbd9e796ff18c6b5bb2cb31110eaf
++  __TEXT.__const: 0xaabc sha256:eaa08e764060ea5ff1e522cdaa4f6b95b7608857e780343e686d7b5b7e1520f9
++  __TEXT.__cstring: 0x68e1 sha256:cd99f42f1d7e2e8c52ebc99738609578c4abf22c2ce564684682064cb8137b9f
++  __TEXT.__swift5_typeref: 0x4124 sha256:6e627b72d150ec3893b30eb0ea027ec8e44ad2ade51a5081296e823ce2834efc
++  __TEXT.__swift5_fieldmd: 0x4338 sha256:2889eacf9c0d6c55c162804404750e2f197ddc250aac49b847cd402dd67cd4af
++  __TEXT.__constg_swiftt: 0x5fd0 sha256:66bdf3d38f67f78d203773a95a740225beb7bb3d78809820e31af091282b7ac1
++  __TEXT.__swift5_builtin: 0x168 sha256:ec5057fb60c17c2ff86a6f616b15aca9cbb1f904f5a2a594474db40cd673b854
++  __TEXT.__swift5_reflstr: 0x480a sha256:62463d47b73340b90b8d2c5491095726e6b35ca85485aa345ad5bccab70b1660
++  __TEXT.__swift5_assocty: 0x480 sha256:af68bcb75e60d8da55bde87c7c5e0db7384da8d19ddd9857cbea43e9cf7d5b1c
++  __TEXT.__swift5_protos: 0xa4 sha256:34786b89c9eb1d647f561a37481d780e8c1898e3ec57cf9e4e4e3a1b72473604
++  __TEXT.__swift5_proto: 0x42c sha256:74d270b54780c5c7c38d2dc1b11fe008869462f57b6ec1aaec9b022d878d6da4
++  __TEXT.__swift5_types: 0x3e8 sha256:7074352681f247ac36657700eac6f8f61dd616db310555279c6858405182263f
++  __TEXT.__oslogstring: 0x12d4b sha256:7448a4b0c55dd7c07985ed6bec71040bbe9a34f49d71e912b793ef5db27e3546
++  __TEXT.__swift5_capture: 0x1080 sha256:71ca8428c6ed1993e3c00bd64852fc398a6d3feebe5698c0c0c6adfbc25fadce
++  __TEXT.__swift_as_entry: 0x128 sha256:52a578a020ff6ce33c3ba3ee3c0bb9bd942ab37513eb6aa5faf47e19b0dcc8da
++  __TEXT.__swift_as_ret: 0x110 sha256:42a7c20ed66055ff7ce64c290defcada08933f080b418d32e1b8e69079fccf06
++  __TEXT.__swift_as_cont: 0x2c0 sha256:f8d6ed4f2b7f33f282b0c6bd9d444113153b6c3c7f41b4b7dd75e4ae2daaf3a8
++  __TEXT.__swift5_mpenum: 0x28 sha256:b648c5252261aa14d8e628b0fbf7d64abeb72bf8c9ad0f287c0e9c86512d46ee
++  __TEXT.__unwind_info: 0x5178 sha256:8796cf242f021be3f854ad28030172a43ad5fb308da8991b95caa45689394163
++  __TEXT.__eh_frame: 0x6fc0 sha256:82d8fd39a18cccf6c3ebac02f8ee0c95026a141e17f441ee9f8c5e4d5a370932
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1148 sha256:d0adb06a402dd292c4f74a8782a48d189fbe8d89cc9882514fb1c44d5cd5a3be
+-  __DATA_CONST.__objc_classlist: 0x358 sha256:084d2da3c0c4abd277f6fc812e0142ff4906e35589dbcdfdf691b4a704788931
+-  __DATA_CONST.__objc_protolist: 0xe8 sha256:b73a8350eac2c25f0a0db7c0d9aa6fcf66a3a6bfbeaefb102176fee2e07bda87
++  __DATA_CONST.__const: 0x1158 sha256:d4091ffbd69b603e54dca276d9e976ed20d92e306649d1479bbaec1d1b08f253
++  __DATA_CONST.__objc_classlist: 0x360 sha256:49fdaa8bfd831a00e8ee7439598c8df2f6c20398ea56307024ca1da8d13d4284
++  __DATA_CONST.__objc_protolist: 0xe8 sha256:f914fd269526436a4934ebd4ac0367bda040588c4dc55e645cfa1f330ca11dfc
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x1448 sha256:60dba848adcce940c72477f146e153fbb5ac7fd661e897ba973fd17b0df0f1a1
+-  __DATA_CONST.__objc_protorefs: 0x78 sha256:96385959bafb17ef74332418d5d6e47d7bd8ed250438c97fda5c33d6da24764f
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:d5658381f901e90a0e721a41c4956fa3d07ce9952194d5f9e12b0f8d17d42a68
++  __DATA_CONST.__objc_selrefs: 0x1478 sha256:cef6ea7ce9049b882c0cf398b2efa0f7f2e9692ee6208ec9edd4a886fdbe38a4
++  __DATA_CONST.__objc_protorefs: 0x78 sha256:b60c19902a69afb677ce77fae5309c741e3b1494e7a360740baad407a0188312
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:dde53b66ab28968e4c31c0f9eebbc7f0dc4613fd3ba02b61fc3c1d35d8b988bb
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xa741 sha256:6256c2f236654c17caea63b73cc903ff51b8c34c60fc53451cd39c3211a26e2e
+-  __AUTH_CONST.__objc_const: 0xf8e0 sha256:1d4e37f9550f6390480072a588107d2dd13e2a5aa69d1d7db34d943e80e4ec13
+-  __AUTH_CONST.__auth_got: 0x4a60 sha256:1e65d7aa4ac090e4667c7427892629dd44c0d684e592e33389684ed5c525bc4b
+-  __AUTH.__objc_data: 0x720 sha256:014aecdad1761f4c47d511bdd5a223b79733cafc08af6ab454188279835efc4d
+-  __AUTH.__data: 0x2050 sha256:1a529a89eba705417809aa9d106ff8afc88d30b43bd6f53fb09aef491a61aa67
++  __AUTH_CONST.__const: 0xa7b9 sha256:de3c173537417003322b1d7a4c658c8d1be663e29984397873e0acb2fc538d6d
++  __AUTH_CONST.__objc_const: 0xfb08 sha256:b08532c6b09aa97adea467ae1a3fe71fe09595abced955afd6828f2d1335dc47
++  __AUTH_CONST.__auth_got: 0x4a88 sha256:bbfe14db73cee7f53b3fb555b73d4e332342c5a0c6c3bf93ebbe70ee9a3eea31
++  __AUTH.__objc_data: 0x720 sha256:9314a3da1a8b84d78d577b3565b00eb3eee57c066fc1d3fcf8cf3634ab309726
++  __AUTH.__data: 0x2100 sha256:fac4579e303e2ccecfcdda55a0f6035fb8540f9f3bd122f40603c59a708af2ed
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+-  __DATA.__data: 0x1a50 sha256:f280ba6dafd6e31788767fde0ff4e79f69364706f8df9504b93c1ae74497077d
+-  __DATA.__bss: 0x4990 sha256:137cd596d6cecbb272129342af58306e950e0bbc623300e9086a8de4a97e04c7
++  __DATA.__data: 0x1a70 sha256:12fde5e81409ec1426f623b64dc9c47a87d077978d2ab55eeb40d8362ad7b80f
++  __DATA.__bss: 0x4a10 sha256:af82390ff3493fcdd64d0ca17f68fa48590b83ba772956383b73a647f3383c66
+   __DATA.__common: 0x230 sha256:738c079dff6c9b77a0891ac42db1cabcab933a672b14aed8ecfcf94c0e77bb40
+-  __DATA_DIRTY.__objc_data: 0xc20 sha256:12143b5f5f1f3fd055e42444d0cfe7c9c298f4cde17a47cd8b0d5aeb4bcd87fe
+-  __DATA_DIRTY.__data: 0x7a38 sha256:bf6c6ef5272d002b010c4acd12ff79f6ea512d067df7072e3f81348b299cc8b2
++  __DATA_DIRTY.__objc_data: 0xc20 sha256:af2748354434fc635efe907e74e02c8531f8d18efd23489090dd618b331e8ea6
++  __DATA_DIRTY.__data: 0x7ab8 sha256:e1d1cf6dfa4da2995f789b7ce249f7d5fbf19970f9fe2842b671a3ad74e0a95b
+   __DATA_DIRTY.__bss: 0x1380 sha256:3b628fecece8197f561fb51e00f8fb1ad33c4e4bc3ff7b0a5d8ba1eb9ed8cb49
+   __DATA_DIRTY.__common: 0x350 sha256:4925b9b6329f24346bce043f2cdabb940199fd87188f3ae77c9559bf7cfa9f43
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+
+   - /System/Library/PrivateFrameworks/MorphunAssets.framework/Versions/A/MorphunAssets
+   - /System/Library/PrivateFrameworks/MorphunSwift.framework/Versions/A/MorphunSwift
+   - /System/Library/PrivateFrameworks/Navigation.framework/Versions/A/Navigation
++  - /System/Library/PrivateFrameworks/NetworkServiceProxy.framework/Versions/A/NetworkServiceProxy
+   - /System/Library/PrivateFrameworks/PegasusAPI.framework/Versions/A/PegasusAPI
+   - /System/Library/PrivateFrameworks/PegasusKit.framework/Versions/A/PegasusKit
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CA4D23DD-90FA-3A94-8B43-ECAEB70C9AB7
+-  Functions: 8449
+-  Symbols:   22406
+-  CStrings:  1798
++  UUID: 994EB5C2-CB0B-39C7-8AFD-ACC1BC34CF0D
++  Functions: 8481
++  Symbols:   22492
++  CStrings:  1801
+ 
+Symbols:
++ $s21SiriInformationSearch0C5ProxyC24appleIntelligenceEnabledSbycvM.resume.0
++ _$s10PegasusKit0A27ProxyForSAMIntelligenceFlowC20defaultPATIssuerNameSSvgZ
++ _$s10PegasusKit0A27ProxyForSAMIntelligenceFlowC9BatchItemV5query6domain5hints0I2IDAESS_0A3API14Typespb_DomainOAJ40Apple_Parsec_Sam_V1alpha_SearchToolHintsVSgSStcfC
++ _$s10PegasusKit0A27ProxyForSAMIntelligenceFlowC9BatchItemV7queryIDSSvg
++ _$s10PegasusKit0A27ProxyForSAMIntelligenceFlowC9configure10patFetcheryAA26PrivateAccessTokenFetching_p_tFTj
++ _$s10PegasusKit23PrivateAccessTokenErrorO20challengeDataMissingyA2CmFWC
++ _$s10PegasusKit23PrivateAccessTokenErrorOACs0F0AAWL
++ _$s10PegasusKit23PrivateAccessTokenErrorOMa
++ _$s10PegasusKit23PrivateAccessTokenErrorOs0F0AAMc
++ _$s10PegasusKit26PrivateAccessTokenFetchingMp
++ _$s10PegasusKit26PrivateAccessTokenFetchingP05fetchE010Foundation4DataVyYaKFTq
++ _$s13SiriUtilities15InteractionTypeOSgWObTm
++ _$s21SiriInformationSearch0C5ProxyC24appleIntelligenceEnabledSbycvM
++ _$s21SiriInformationSearch0C5ProxyC24appleIntelligenceEnabledSbycvMTj
++ _$s21SiriInformationSearch0C5ProxyC24appleIntelligenceEnabledSbycvMTq
++ _$s21SiriInformationSearch0C5ProxyC24appleIntelligenceEnabledSbycvg
++ _$s21SiriInformationSearch0C5ProxyC24appleIntelligenceEnabledSbycvgTj
++ _$s21SiriInformationSearch0C5ProxyC24appleIntelligenceEnabledSbycvgTq
++ _$s21SiriInformationSearch0C5ProxyC24appleIntelligenceEnabledSbycvpACTk
++ _$s21SiriInformationSearch0C5ProxyC24appleIntelligenceEnabledSbycvpMV
++ _$s21SiriInformationSearch0C5ProxyC24appleIntelligenceEnabledSbycvpWvd
++ _$s21SiriInformationSearch0C5ProxyC24appleIntelligenceEnabledSbycvpfiSbycfU_
++ _$s21SiriInformationSearch0C5ProxyC24appleIntelligenceEnabledSbycvs
++ _$s21SiriInformationSearch0C5ProxyC24appleIntelligenceEnabledSbycvsTj
++ _$s21SiriInformationSearch0C5ProxyC24appleIntelligenceEnabledSbycvsTq
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC05fetchF010Foundation4DataVyYaKF
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC05fetchF010Foundation4DataVyYaKFTQ1_
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC05fetchF010Foundation4DataVyYaKFTY0_
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC05fetchF010Foundation4DataVyYaKFTY2_
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC05fetchF010Foundation4DataVyYaKFTY3_
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC05fetchF010Foundation4DataVyYaKFTu
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC10PegasusKit0deF8FetchingAAMc
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC10PegasusKit0deF8FetchingAAMcMK
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC10PegasusKit0deF8FetchingAadEP05fetchF010Foundation4DataVyYaKFTW
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC10PegasusKit0deF8FetchingAadEP05fetchF010Foundation4DataVyYaKFTWTQ0_
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC10PegasusKit0deF8FetchingAadEP05fetchF010Foundation4DataVyYaKFTWTu
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC10issuerNameACSS_tKcfC
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC10issuerNameACSS_tKcfCTj
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC10issuerNameACSS_tKcfCTq
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC10issuerNameACSS_tKcfc
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC5queue33_58B9B5644818F10B8A27C182E4649D21LLSo012OS_dispatch_H0CvpWvd
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherC7fetcher33_58B9B5644818F10B8A27C182E4649D21LLSo010NSPPrivateefG0CvpWvd
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherCAC10PegasusKit0deF8FetchingAAWL
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherCAC10PegasusKit0deF8FetchingAAWlTm
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherCMF
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherCMa
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherCMf
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherCMm
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherCMn
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherCMo
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherCMu
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherCN
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherCfD
++ _$s21SiriInformationSearch25PrivateAccessTokenFetcherCfd
++ _$s21SiriInformationSearch9SAMSearchC06remoteC6ClientAcA15SAMPegasusProxyC_tcfC
++ _$s21SiriInformationSearch9SAMSearchC06remoteC6ClientAcA15SAMPegasusProxyC_tcfCTj
++ _$s21SiriInformationSearch9SAMSearchC06remoteC6ClientAcA15SAMPegasusProxyC_tcfCTq
++ _$s21SiriInformationSearch9SAMSearchC06remoteC6ClientAcA15SAMPegasusProxyC_tcfc
++ _$sSbIegd_SbIegr_TRTA
++ _$sSbIegr_SbIegd_TRTA
++ _$sSccy10Foundation4DataVs5Error_pGMR
++ _$sSccy10Foundation4DataVs5Error_pGMd
++ _$sSh8IteratorV8_VariantOy7Combine14AnyCancellableC__GWOe
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO8workItemyA2EmFWC
++ _$sSo20StateCacheActionTypeVMB
++ _$sSo20StateCacheActionTypeVML
++ _$sSo20StateCacheActionTypeVMa
++ _$sSo20StateCacheActionTypeVMf
++ _$sSo20StateCacheActionTypeVMn
++ _$sSo20StateCacheActionTypeVSQSCMc
++ _$sSo20StateCacheActionTypeVSQSCMcMK
++ _$sSo20StateCacheActionTypeVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo20StateCacheActionTypeVSYSCMA
++ _$sSo20StateCacheActionTypeVSYSCMc
++ _$sSo20StateCacheActionTypeVSYSCMcMK
++ _$sSo20StateCacheActionTypeVSYSCSY8rawValue03RawF0QzvgTW
++ _$sSo20StateCacheActionTypeVSYSCSY8rawValuexSg03RawF0Qz_tcfCTW
++ _$sSo6NSDataCSgSo7NSErrorCSgIeyBhyy_10Foundation4DataVTz_
++ _AFIsAppleIntelligenceEnabled
++ _OBJC_CLASS_$_NSPPrivateAccessTokenChallenge
++ _OBJC_CLASS_$_NSPPrivateAccessTokenFetcher
++ __DATA__TtC21SiriInformationSearch25PrivateAccessTokenFetcher
++ __IVARS__TtC21SiriInformationSearch11SearchProxy
++ __IVARS__TtC21SiriInformationSearch25PrivateAccessTokenFetcher
++ __METACLASS_DATA__TtC21SiriInformationSearch25PrivateAccessTokenFetcher
++ _objc_msgSend$challengeData
++ _objc_msgSend$fetchTokenWithQueue:completionHandler:
++ _objc_msgSend$initForKnownIssuerWithChallenge:
++ _objc_msgSend$initRSABlindSignatureChallengeWithIssuerName:redemptionNonce:originNames:
++ _objc_msgSend$setSystemClient:
++ _symbolic SbIegd_
++ _symbolic SbIegr_
++ _symbolic Sbyc
++ _symbolic Sccy___________pG 10Foundation4DataV s5ErrorP
++ _symbolic So28NSPPrivateAccessTokenFetcherC
++ _symbolic _____ 21SiriInformationSearch25PrivateAccessTokenFetcherC
++ _symbolic _____ So20StateCacheActionTypeV
+- _$s10PegasusKit0A27ProxyForSAMIntelligenceFlowC9BatchItemV5query6domain5hintsAESS_0A3API14Typespb_DomainOAI40Apple_Parsec_Sam_V1alpha_SearchToolHintsVSgtcfC
+- _$s13SiriUtilities15InteractionTypeOSgWOb
+- _$sSD8IteratorV8_VariantOyS2S__GWOe
+- _$sSS3key_SS5valuetSgWOe
+- _$sSo10ActionTypeVMB
+- _$sSo10ActionTypeVML
+- _$sSo10ActionTypeVMa
+- _$sSo10ActionTypeVMf
+- _$sSo10ActionTypeVMn
+- _$sSo10ActionTypeVSQSCMc
+- _$sSo10ActionTypeVSQSCMcMK
+- _$sSo10ActionTypeVSQSCSQ2eeoiySbx_xtFZTW
+- _$sSo10ActionTypeVSYSCMA
+- _$sSo10ActionTypeVSYSCMc
+- _$sSo10ActionTypeVSYSCMcMK
+- _$sSo10ActionTypeVSYSCSY8rawValue03RawD0QzvgTW
+- _$sSo10ActionTypeVSYSCSY8rawValuexSg03RawD0Qz_tcfCTW
+- _$ss15LazyMapSequenceV8IteratorV4nextq_SgyFSDyS2SG_SS_SStTg5
+- _symbolic _____ So10ActionTypeV
+CStrings:
++ "SAMPegasusProxy: Configured PAT fetcher (issuer: %{public}s)"
++ "SAMPegasusProxy: Failed to construct PAT fetcher: %s; SAM requests will be sent without an Authorization header"
++ "com.apple.siriinformation.PATTokenFetcher"
+
+```

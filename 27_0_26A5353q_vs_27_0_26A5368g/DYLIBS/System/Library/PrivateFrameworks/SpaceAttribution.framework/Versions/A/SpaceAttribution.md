@@ -1,0 +1,618 @@
+## SpaceAttribution
+
+> `/System/Library/PrivateFrameworks/SpaceAttribution.framework/Versions/A/SpaceAttribution`
+
+```diff
+
+-488.0.0.0.0
+-  __TEXT.__text: 0x14234 sha256:933f4d118c72e343201e85f880cb025fb44d0ec0c0ef1ec1044a73d36f0389ec
+-  __TEXT.__objc_methlist: 0x14b0 sha256:c96e6f5ccfc029a07a2e798fccfaeeb01d982350325f671935706afbb7cb301f
++490.0.0.0.0
++  __TEXT.__text: 0x141d4 sha256:c3b03d7ddc02c75ba9b00e9cd0d7fdfcc2087789c56ab3d5dbaee48adafee87e
++  __TEXT.__objc_methlist: 0x14b0 sha256:a5f69e90b3c8173c811edb8338f7741e28c9e2d0f582d659528fae1414042ed1
+   __TEXT.__const: 0x160 sha256:a12fa295316445c7fd082de571eeb28497b48407f3859b978751a72ca26b2d81
+   __TEXT.__cstring: 0x1326 sha256:6dff6879bb359beb2edcb40dac82c96b6a4387cd855694a8b2d894889ed573b0
+   __TEXT.__oslogstring: 0x11e6 sha256:18ccf415fada6d7eab52ef87f15965aadeedae9b518dcde5bef91d7aef18c2df
+   __TEXT.__gcc_except_tab: 0x6c0 sha256:d4362acb0f5f30a12af39e7d3a17012d618419b37a994f977bbfdf28445cc033
+-  __TEXT.__unwind_info: 0x688 sha256:d9aec3ea4e0ea549df6279fc2e10f6f8dea45c08b88228b7e3fae7d409bc84f5
++  __TEXT.__unwind_info: 0x688 sha256:882f06f0966cc95a10416a23499e3f3667786e8102b764231bf12e15310f86c8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x60 sha256:e853e4522797d5601e71c41c5a7b77e3611c72febc7981ff4c68d1b7bf2348f3
+-  __DATA_CONST.__objc_classlist: 0xb0 sha256:0940d269b7537f4f010d04857fcfd2427a4b1f78f79452a8a9ba638e3900c75c
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:1414db0e12807b6e50e5567a08e522a64c3dda774def7f27f5e235984309974f
++  __DATA_CONST.__const: 0x60 sha256:15bd9b4c6f395337533ca095d65fa6b3b99cba612ffdb89cb23820dea6e7b3ba
++  __DATA_CONST.__objc_classlist: 0xb0 sha256:f5ae890283ecd8892a7b1e9c536efe83a3801d43fa7a48c511a82b9a38a7b36c
++  __DATA_CONST.__objc_protolist: 0x20 sha256:52a26bfaf3578ffbdb54447cadad5bfb73a8c712fe23808dfcb65ac3bb2c5d43
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xdf0 sha256:faac4c906a9c93a23be64c6442d41f57c8a88315296d7869723e2f52eeb5b9f7
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:060339bb1684055980631689dc1db88967dd85f2a18de6f948af5cfc6d8e0923
+-  __DATA_CONST.__objc_superrefs: 0x68 sha256:4a56e53bc6e2a2a056510f2b568114a78f3d49bb595ea0320bb9e3f3352fe250
+-  __DATA_CONST.__objc_arraydata: 0x138 sha256:de2722209babaf37333a9ff8e609701733bf49bcec492bab22cd1b80445ec12f
+-  __DATA_CONST.__got: 0x148 sha256:dfc47bf41e4b41ca989adf2b714ee02713db9539768f8d3d153b328a2f42e0b9
+-  __AUTH_CONST.__const: 0x5f0 sha256:b09102de1ab72b23c9aa34fd02d5c0693bf51ce8527d155f7abf8952ecf11ab7
+-  __AUTH_CONST.__cfstring: 0x1400 sha256:b301e1baa1d5795420bd19bf312a206318ae18f441bb48ea510dc657684feede
+-  __AUTH_CONST.__objc_const: 0x1ec8 sha256:05c6fed70aab6abdd8833de3ebaec9edf11d8a3de41bccaf78886bd624b4433e
+-  __AUTH_CONST.__objc_intobj: 0x60 sha256:cf372861cb27936f402f4ff7cd69502d037c65cd1daf5b0b25a0db90fb628140
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:3cb74d7d5dd263f57567118d86f16074b96bab19e79a362a01e083e9d646efb0
+-  __AUTH_CONST.__objc_arrayobj: 0x90 sha256:9d550534926cd3bb0d363d4e858300315de6cdfb03fd024823d2cb4744768790
++  __DATA_CONST.__objc_selrefs: 0xdf0 sha256:52c40bea0ce7bbe77845749e381ad7baf91aa42e4de8f326112f2c5e485ad232
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:a5d27101dc478e89476eb4a2024b130ff16bf4935c723da081807ca47487dd6d
++  __DATA_CONST.__objc_superrefs: 0x68 sha256:256977b34065b64e7c65b5e59c5d6787d255e24cbe96e9f948eff46df825dbc8
++  __DATA_CONST.__objc_arraydata: 0x138 sha256:e8ea60773d726c7b9e1d6a8ac26fe8c64101e9c7fbab4323c5030691e5b220e1
++  __DATA_CONST.__got: 0x148 sha256:e24863fed26a8f773298cd844592137d5c4fc2de2830d8da5a47e220fb0e43ee
++  __AUTH_CONST.__const: 0x5f0 sha256:f3beac41367340e2aca4abf0c9c2b5f318a291a9eebfb5b77d79f2566e5a5f1b
++  __AUTH_CONST.__cfstring: 0x1400 sha256:76e66cfd410c0dc4deb6920bf83881c1bdde050f6e116f7b8a31ea9ad642f5ff
++  __AUTH_CONST.__objc_const: 0x1ec8 sha256:3ba10c6d1cf074d84e91e53ee7aa53fcc7e3916e25ba40d3a546bb84ee760112
++  __AUTH_CONST.__objc_intobj: 0x60 sha256:8d023225ea4eb8de5a9ac46cdd6f461103721df11f39ce2b6dd425c4f27d161e
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:ceb6f473e5815cde80b97a3f3c69f9b4bfec0ca0c9baa04cb32b55303d8a1fd9
++  __AUTH_CONST.__objc_arrayobj: 0x90 sha256:a3d6d2f1a987133b4d6f06bc1ccb3862ca8e0eb7bb46628464cbc957dc420bc9
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x348 sha256:f817d3fd84fb2f4c50f6f21c45eb2e40ac86f3fd2be9b41474a2947cb1862154
++  __AUTH.__objc_data: 0x348 sha256:ecd3eca3b6aae122024864006daa4309fe35b4b8f566f66c4c17e0c27911a5af
+   __DATA.__objc_ivar: 0x140 sha256:43b6201c7bab89ba00b3e25b65495a14d3429f47999682d253f44e9f47afbe33
+-  __DATA.__data: 0x180 sha256:4711f9d1d83e216c97ea3c6952889d3aff4921945c983b4617968860c8bcb105
++  __DATA.__data: 0x180 sha256:564840ecab54cd78c2eeace34886f80d00a612cb1c91b3e5136b8cb9a2bf9d90
+   __DATA.__bss: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __DATA_DIRTY.__objc_data: 0x398 sha256:02c3ef535366a514c95482f0124ca603ebc0fe549d062cb2b2672a02770a0341
++  __DATA_DIRTY.__objc_data: 0x398 sha256:4ea198bce2a1d20f4f8cdece22240ebf4f0f5d7f2fb6539457861cd949c603ec
+   __DATA_DIRTY.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6D07DD57-79B2-3938-BE00-D457EE779680
++  UUID: 7ECC8EB2-5377-3D70-B3B7-980E2C88A7DC
+   Functions: 607
+   Symbols:   1346
+   CStrings:  474
+Symbols:
++ __33+[SASupport getAllAppsUsageTime:]_block_invoke.151
++ __37-[SAPathManager checkUnAllowedPaths:]_block_invoke.184
++ __38-[SADaemonXPC setInvalidationHandler:]_block_invoke.118
++ __38-[SADaemonXPC setInvalidationHandler:]_block_invoke.118.cold.1
++ __42+[SAInternalAPI addAppSizerHandler:reply:]_block_invoke.69
++ __43+[SAInternalAPI getAppPaths:options:reply:]_block_invoke.53
++ __43+[SAInternalAPI getAppPaths:options:reply:]_block_invoke.54
++ __47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke.129
++ __47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke.130
++ __47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke.134
++ __49-[SAPathManager registerPaths:completionHandler:]_block_invoke.195
++ __51-[SAPathManager unregisterPaths:completionHandler:]_block_invoke.196
++ __51-[SAPathManager unregisterPaths:completionHandler:]_block_invoke.196.cold.1
++ __58-[SAAppSizer startObservingWithScanOptions:updateHandler:]_block_invoke.60
++ __58-[SAAppSizer startObservingWithScanOptions:updateHandler:]_block_invoke.61
++ __58-[SAAppSizer startObservingWithScanOptions:updateHandler:]_block_invoke.65
++ __63+[SAInternalAPI setAppSizerFilteringOptionsToDefaultWithReply:]_block_invoke.71
++ __64+[SAPerfPowerMetrics getStorageConsumptionMetrics:maxAge:reply:]_block_invoke.140
++ __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.75
++ __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.77
++ __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.77.cold.1
++ __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.77.cold.2
++ __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.77.cold.3
++ __block_literal_global.120
++ __block_literal_global.139
++ __block_literal_global.141
++ __block_literal_global.150
++ __block_literal_global.83
++ __block_literal_global.91
+- __33+[SASupport getAllAppsUsageTime:]_block_invoke.148
+- __37-[SAPathManager checkUnAllowedPaths:]_block_invoke.181
+- __38-[SADaemonXPC setInvalidationHandler:]_block_invoke.115
+- __38-[SADaemonXPC setInvalidationHandler:]_block_invoke.115.cold.1
+- __42+[SAInternalAPI addAppSizerHandler:reply:]_block_invoke.66
+- __43+[SAInternalAPI getAppPaths:options:reply:]_block_invoke.50
+- __43+[SAInternalAPI getAppPaths:options:reply:]_block_invoke.51
+- __47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke.126
+- __47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke.127
+- __47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke.131
+- __49-[SAPathManager registerPaths:completionHandler:]_block_invoke.192
+- __51-[SAPathManager unregisterPaths:completionHandler:]_block_invoke.193
+- __51-[SAPathManager unregisterPaths:completionHandler:]_block_invoke.193.cold.1
+- __58-[SAAppSizer startObservingWithScanOptions:updateHandler:]_block_invoke.57
+- __58-[SAAppSizer startObservingWithScanOptions:updateHandler:]_block_invoke.58
+- __58-[SAAppSizer startObservingWithScanOptions:updateHandler:]_block_invoke.62
+- __63+[SAInternalAPI setAppSizerFilteringOptionsToDefaultWithReply:]_block_invoke.68
+- __64+[SAPerfPowerMetrics getStorageConsumptionMetrics:maxAge:reply:]_block_invoke.137
+- __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.71
+- __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.71.cold.1
+- __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.72
+- __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.74.cold.2
+- __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.74.cold.3
+- __block_literal_global.117
+- __block_literal_global.136
+- __block_literal_global.138
+- __block_literal_global.147
+- __block_literal_global.80
+- __block_literal_global.88
+Functions:
+~ +[SAPerfPowerMetrics getStorageConsumptionMetrics:maxAge:reply:] : sha256 3c2afe8beca8a572e89e2563965736e57fcdf6c99567f40cbf37970e9d5ca18e -> 4b82aff49055a808be6e03423aa516ee22efde9258cf01d5a592f7b96639d971
+~ ___64+[SAPerfPowerMetrics getStorageConsumptionMetrics:maxAge:reply:]_block_invoke : sha256 d72a731f72b84c5c840dd50351d78064ccfd80f9ac2ba6076daa3d424c72ba24 -> 027b0d1f68be0a766dd2a55b7d8cefc995e03b82c5bc14b73bebdca458538056
+~ __64+[SAPerfPowerMetrics getStorageConsumptionMetrics:maxAge:reply:]_block_invoke.137 -> __64+[SAPerfPowerMetrics getStorageConsumptionMetrics:maxAge:reply:]_block_invoke.140 : sha256 a466ae119ff434c6b718ff5bc299bf8aceabaeb121a948282b5f7b7934b055a0 -> a1f0656946b1dafd5c012b0968a3cf34bb21e1c051d3a5834f8afb854be36f39
+~ ___copy_helper_block_e8_32s : sha256 435ec0c08dbba18814b6776b679699c6c7eb28b5ed5ef857f4e0b2ff45a4e17c -> 9735dae95cc19e9f42511e83d2fb8afb5ceb2b2d194037e2d3799429803edc3c
+~ ___destroy_helper_block_e8_32s : sha256 56eb8107d00fd441e0a11433af2d759aff795c3095197ede48a2e54ac990282c -> e98e7ba09bcef8129a1b79dee25a12cff4122ddacb19ea7cdc8c9ab617a8ffa0
+~ ___copy_helper_block_e8_32b : sha256 97a13c0fe5230af0f06f5cd6936d1ee444af9f4cd8967bdb79dc543c63e6d059 -> 019e73cfd523d4986a04497ba88617665faf06550284a97ee84ed772ce7d57ee
+~ ___Block_byref_object_dispose_ : sha256 78296f7b89327a292fa5bd5c7fda97fd1ec87d95cb28b75bf81a4ab6d732816b -> 32d3f11e7c29d2935d877259adef3b74cfe7941f91f7978db01876553a19faec
+~ ___copy_helper_block_e8_32r : sha256 50767e1eb5fd8e63b4a186023f6f09c69c7f71e448c0ecceb859ad2a3d1af4c4 -> 3f691542eab5e4c55cc5dc4afa5ff85781a4a6498c6ed4a7d0dc8e2c04402a69
+~ ___destroy_helper_block_e8_32r : sha256 66abd3c0ec4edfd614c17e658d9e3e9031d7835e5afc4a963d6998ed4975edec -> 27c01fdbad321764e25bd32198c882a51ca2b4665d91fe688a306655b8481a26
+~ +[SASupport isItemMountedOnSystemVolume:] : sha256 1f21e60c2bb2f90cffe054b498b672a9c6c26cdd12bdd8bb158f747304911b31 -> dd5c16798c5d0c45b642ca96734c0a39687b0c41076364aeab63198afbea0dd9
+~ +[SASupport enableDirStatsForPath:orFD:withOptions:] : sha256 4d3c6785ac77dfb1b8fab4238de8d602544f5c2395ae80510db0ca2d2d975464 -> cef3cc83fad7ae19cb1a3b9218be54be28029e70c3f894d174080e9db3ec271a
+~ +[SASupport getPathOfiNode:inVolume:] : sha256 e4d4eb085bd7b7f5d0858569aa2152b10e72ece2e180d1b5ffac4f37cf43a3ed -> 3036a332c9b9d3ddafba6a96aed2b4948d22cabc325418afdc0e157e7dcd86c6
+~ +[SASupport getDirStatKeyForOriginID:ofMount:] : sha256 2d8dfefb5973a1057e6530c326c62db6255b76f62c410537fb7db8dd3b19618f -> 3d552562c61be1e74722e113701a75b9d18817d3ffc9f6a1a07956924e1516e9
+~ +[SASupport getInodeForDirStatKey:volumePath:] : sha256 cb5c7d3c216ed558407e71dd2b7eb97d90ff0742843cd99b02752f7b550ac82f -> f6b427c473dec90c7245a2715c8453e99d4f192282cda12b5ac2fd601e6a17f5
+~ +[SASupport getPathForDirStatKey:volumePath:] : sha256 fe02de33239a37591e48d0530d3d185dfeb611b59f5bbca1841e57aadb2a1288 -> a67fd6ae37e4d22586ac90a9e1d9e2f30df1dee1f5171d5424440a200281696c
+~ +[SASupport getDirStatInfoForPath:orFD:withOptions:info:] : sha256 dc1ee2fe7c338342d966cf0bfefd5c243130595d0dcbcb7c678a5b9771f85ab6 -> beae50ef172623349bc2b8be3c6ccf52440fb531f947f92f691ce8ed2d5e3b90
+~ +[SASupport isSDHierarchyEnabledForPath:orFD:] : sha256 d712cfe0ff1ca8964b6caac08a96bf757f264ea58cc9e9993be45affcf7db33b -> 31671b4e08a7320cf25a1dc54b518a636016f7b7d020db1514395bef31e58ac0
+~ +[SASupport enableDirStatInfoForPath:orFD:withOptions:andGetInfo:] : sha256 ba677f239f12c7956251e4ce17576512286cedbd538d3ff1da1f0b833405e42b -> 11bae8074f389057b72975d09d99f85c914b7a8aab7753b5cf299ed98354c019
+~ +[SASupport targetDeviceIsIpad] : sha256 38d85b2c5eaaf74ad808612696d29b1cce53024868c19c7b9fdb2f983a178f19 -> ef883cb343f5eab9f237a90274141510681b8c91fad789db23ef83f53841088b
+~ ___31+[SASupport targetDeviceIsIpad]_block_invoke : sha256 7c289e56edb22db329d711e58b1e6ba262d2e5590cb56dfc6735504d0e702bc1 -> 77d89689c483cf2668f5beda19faac0916f2a54fbbc72527ecacefff4c64acbe
+~ +[SASupport targetDeviceIsHomePod] : sha256 e473293f3ba3c4424cd2ff4eea8f1eabd20e655886b005be3d961c6b1ad78922 -> 76d64d07050d352728a18a5176e7e74552da02ad279239bd806d50846ac839da
+~ ___34+[SASupport targetDeviceIsHomePod]_block_invoke : sha256 97506cc50dc438fe90114f99c56ab709406b6b691d406d94bf5d008632d5cb06 -> e4deeec462e65cbfd04828bd4e37ebfbb74cf66e3d90c3f8d88692278bddeef4
+~ +[SASupport volumeSupportsAttributionTags:] : sha256 1ed31315d0932f021eb6fcd55623a024b7d12e596145258cf1e61a0a76dd16cb -> f7df4d67f754b5b3e8a65d1384c51f238ce57cd86cd33c4d46e33a532cd40eb5
+~ +[SASupport volumeSupportsCloneMapping:] : sha256 13d7eb15f744654a7e5eb226b03af91dc12ae544089d5e76cb2dd7d9f8eb4e8b -> 7128b5a1823656611e3891239715b8f356ed2ec3dc1dccde4cf31eea9850fe5a
+~ +[SASupport volumeSupportsCloneGroups:] : sha256 f2a1771977ec6bbfe89274f932741661a5d028cffa2999236c1fb75e9a816998 -> e06ae94762791698cb47ff2a03c33405b442c39cd687e945cb693207686830e1
+~ +[SASupport getResolvedPathForFD:] : sha256 240af5d783c876dd0bae891fa56ecdb85ab5f962c112393990e055eb1d4dcc3c -> 53724dbb2e4517039d1756bb42919b15094f7d8af83cd75d3e213447d86d1a59
+~ +[SASupport getResolvedURL:] : sha256 85ea7a2ab55eb46deff30dc91a174511c573f954896b89e417d9439b88a5bf3f -> 8d2c5bb8943cec231c6e8d098046fc427abfd7c796903a1a523f233da0d0afc4
+~ +[SASupport getResolvedPath:] : sha256 40ccdc83d2321ed6852adcaadf45a0c722427fb4e502e8bedfc2ed5e3a3fea78 -> 9a1adb16b3d0595401a6fb07815096f78c01eb097db634f50bf1271465bc8327
+~ +[SASupport getURLMountPoint:] : sha256 75f852488a02db637948da9ea1245b8a1ce85bc9b2ef344ca26d17c752332f3b -> 30f1310f92f8688e615f92225b3a47a2e54d93642e1b6a9a04631de12f9003c4
+~ +[SASupport targetDeviceIsWatch] : sha256 fe1985edf19881f8901bc061e0594438e177aa5f1b99294bfb0606c4d6e1ab2d -> 6a1efb0469dca4bfa81f20fbce22c206a8a8e68134f7dbea96a715a236429a9e
+~ ___32+[SASupport targetDeviceIsWatch]_block_invoke : sha256 55f3d40b9f71b46094d96845c4060eaf986c7f7bac892c9e85a76ef5e58779ee -> 8eca5c006290daddbea4196fbc18516eede1cc258cd7c3ea2837f6cf3ca4af09
+~ +[SASupport getLSAppRecordForBundle:reply:] : sha256 a46db065e3ee6948d9de53bf335f2de9d0f87f0ade12bb2294b9752253e86429 -> e6fab601db86fd221667b8d4f0c7cc658f52a1823469b8838f93b458371a4eeb
+~ +[SASupport getPathOfNodeID:FSid:] : sha256 4deaef5dcb36c3f5b29c0348ed1fd879ac47a09cda04dae22c218a8b382a60be -> 8c61ddefd49c694d2d916934f9be5993057c93a34e3a5891b968ff14a81394a2
+~ +[SASupport getFSPurgeableDataOnVolumes:] : 1016 -> 992
+~ +[SASupport getFSPurgeableOnVolume:purgeableUrgency:respectZeroSizeFiles:] : sha256 c3700dd092f1a4a14f87f71823bd5ed3fefe8fb5a4a6550b287fcca1f229d2c7 -> 759f88b47580c39e1240f65a4dc1dd6a6e5b3fc7f234ac612ab22a2914c265fe
+~ +[SASupport isFilePurgeable:] : sha256 83d0af8cd1ffaecd1f71df9b34473fad686a11b9e40979a4365fd1ae6fb86208 -> cd2dbd6345f5f5f668244e2796ed9a681fb32322462436264b4c8f68a3c50327
+~ +[SASupport isFileCloned:] : sha256 ec249a53d188cd6cd3b517510468418441c2004b355f127cebdf2548a2d8d166 -> 2dfbd3b84ab1140f7319103ac6966d09f475136ca032b641de380cdd96626af9
+~ +[SASupport getInodeIDForPath:] : sha256 30ca5fd080d42d0c4737013fbee4aa6a3256e4264ad34fcbf8e2b069a8f1bb5d -> 04a4fe1fdfef0f00cbea50e60e3790571052349f1b79f690e826477ac8ad0ce9
+~ +[SASupport getCloneDstreamIDForPath:] : sha256 2a415e8f19746106aae0f97e6251d2266c25483ad417a38c694246cf1ee852c7 -> 5d0ede9bbba589741b754d4ccac81265066830f75120811b24d427489ad88137
+~ +[SASupport getVolSizeFromAttrList:completionHandler:] : sha256 cf8afeab20750da3edc44cc92da26741caac61d4c3c65dcc6b02dbee618337ff -> 20bce797df0ea748ce4a7724302b98c45d946aadad8ffd5527d17da33362ccaa
+~ +[SASupport getVolumesPaths] : sha256 ed60ccb5eeaa94d97d3239bc5dfcdb91ca000a447dc0b9d76e0dd09da44a7d62 -> 3a4d168e39bf0cde8a1b0bf37fbe76dcec128370415930ab0927e801d398a96a
+~ ___28+[SASupport getVolumesPaths]_block_invoke : 244 -> 264
+~ +[SASupport getEnterpriseVolumesPaths] : 452 -> 448
+~ +[SASupport shouldExcludeCacheSizeForBundle:] : 332 -> 328
+~ +[SASupport getRelevantVolumes] : sha256 84b7610fd325265f7f31461ddc87d0db54da573ed723b41fd785571e30f643e2 -> 96fed13eca115d2eff34214cb2ad4860f8ba19c72b9a078f61b47c73f8536fa4
+~ ___31+[SASupport getRelevantVolumes]_block_invoke : 432 -> 428
+~ +[SASupport buildVersion] : sha256 280f5cd1eaca47afc12c836c0390130cd5e11e5190dc53bc99382abfd7967ff7 -> b068ac1a4e09c46034a8769827a0822ddc2f818445e1daed8176339468b3d7c9
+~ ___25+[SASupport buildVersion]_block_invoke : sha256 197f74dc3a0b9f3d3ee680bf133b2eadddec581065dd6337fbbfa257d4439eb2 -> 458189ff412144730eb7ee893dab74bbe8971116cf1e6a54e30c6debef115c2c
+~ +[SASupport getAllAppsUsageTime:] : sha256 eafddf02f7c92db57b12abf8e6b4ecc440538b27597e42b2df9e9277bc109011 -> d616f071d375a6db9d53274130911928490a1abfdf33c51a5935193f7fd0ebc2
+~ ___33+[SASupport getAllAppsUsageTime:]_block_invoke : sha256 b95c9dba5bab2f97523e75cf6ce8fd557a19836c6102d2b37d1d18f66df9a33a -> e33c6934ef3279949ecca1b5eb240a21af0a07c081630be863b4089078cd01c7
+~ __33+[SASupport getAllAppsUsageTime:]_block_invoke.148 -> __33+[SASupport getAllAppsUsageTime:]_block_invoke.151 : sha256 61126aaea77b3292ea08bdee48c9b3159c04e0cc1e1dae8ec6abdee8837614b4 -> c5f5570c8f40643b285d11d110b2309b3a18b203e304091ffbdaeb2122741055
+~ ___copy_helper_block_e8_32s40r48r : sha256 1367a1ee69a144c03eadd5d4e342a454d3ee17b91857b1c967c03042fc78ceab -> 997309a73951d30ffd586909d939cfa1d8f267b36a24cf922b835ea879fb2c85
+~ ___destroy_helper_block_e8_32s40r48r : sha256 20c95dfa22ae8defc66296a1301524e18acac889bb769dc36132023500ec8765 -> 66d781a33f08d03a4ffdea294e066378b5c592c8dcdab54b386162540410d114
+~ +[SASupport getDiskUsed] : sha256 af8374b416ed2a84809441a8a0f7441cca7c8892cd1c5a088a9a493cadfd6af8 -> b298de5519934356d8ea8eaf958ad39538e1080f314592424d4b4b8cc244983f
+~ _OUTLINED_FUNCTION_4 : sha256 d9198d5365be52926852261367c1cd80462bd5f3157efe962f4dfb98ceadec1c -> 7fde0537388ea360358daa0d2344615152ad1950bca364c2a9b6bd69b7feee81
+~ _OUTLINED_FUNCTION_8 : sha256 c8c5f55557c76f254579def2e16f81d4c363de974175cf185a8e398ffd5083f5 -> 1585b7f02f51aef0bc194a17b6472f956293228f0de9aa83bd80cc9b611ff36b
+~ _OUTLINED_FUNCTION_9 : sha256 d016bdf8f089f817ee267ebcd6b5d3f1fbfe94f75a14dead79750bdebbad6924 -> b4cd013a771adc8f5d9abe9ff780ca2d1fc17de6fdee7e23b835ce002de72c4c
+~ +[SAAppSizerCacheManager cacheFilePath] : sha256 41e402f672ca56a3f2be0c5a82944179dfa908780136242470202c5a49c0e338 -> f9508457c3381a7547e9c7049a762e618e619bc6a3df550ae085b6c132a55c83
+~ +[SAAppSizerCacheManager getCacheDict] : sha256 06c261b078478a61f7c2310fb655d1f0a6071339225e7afca5fe186aac8875c1 -> 238fa250f8f4eef5c3ace152a6a3f741d7cbfd3236982bc745d87d8830e350ad
+~ +[SAAppSizerCacheManager cacheAppSizes:] : sha256 9c91774747f0414544d7ffd95c2cedb02117f83d688d6ad5c318e256aefc5e54 -> 96a61b42972faf93494b6a3a1165587e4659289cc0f25631813d90f33547747e
+~ +[SAAppSizerCacheManager getLastCachedAppSizes:maxAge:reply:] : sha256 d714b076d2921633deff830447ccec8dc83f249779eda9ab53ae949564108189 -> 26d07910270739749190e4b3b57854e82cfc568a897618129f2af6b24370834c
+~ _OUTLINED_FUNCTION_1 : sha256 1ff9ae1a54f6eabd174380b6bfc55c2365ea371bc52559c88c5e38a8ec5e79a3 -> 8ddfa6081892182836cbf9546b14f6539ce4088e36064576c417738289603fe6
+~ -[SAAppSizeBreakdownList init] : sha256 648840218bde2fa51834cd5e7151755309987565dded9022479569d64c7299eb -> 96ec095260f66864b7a4129c2c9e1a24a295fd4811690aa702f9c91c3b43976a
+~ -[SAAppSizeBreakdownList addPath:fixedPath:size:bundleIDs:] : sha256 b1a6fbd480c0d057f0f2812cfbdc245519233ee0d7a13b822c67e11db2ebe2de -> ef21ccd028881a3b9cb539490c1aaa8cff08ded8a4a5c488ce8d679244ef8932
+~ -[SAAppSizeBreakdownList addTagSize:bundleIDs:] : sha256 82b11311ae451131d23cdebc34a1f0d7aa042839ef669b52dbf4d837274353e8 -> 648915fa15cf10891ef55395162d85dfd66a278bdb00fb57abfb2d1409053623
+~ -[SAAppSizeBreakdownList updatePath:cacheSize:bundleIDs:] : sha256 4108a290cad90fb1931664adfb6620023b2e419a25e8b9a25441fc480456e56c -> 35f27de5f315cfb0e09da13a54a04713eeb171ec8b912eb9196ec952aca34aae
+~ -[SAAppSizeBreakdownList addPluginSize:bundleIDs:] : sha256 bf120a88341f405a5b718daabb9d3667fd8161d4b0ccfc6ffa0b65e0de769c2f -> b001ea9707adec9d21898ff21266e6707b2664b815b2279c8878a916dbee7a6a
+~ -[SAAppSizeBreakdownList updateBundleIDs:newIDs:] : sha256 22494718a385546d029a46a8eebea167c6ed5e2af956b1cba57ea15df047d1b7 -> f68ccc92d4ee9ba86449fffe0e7bc21306cba94b4030b15a3f5c88656b0edf77
+~ -[SAAppSizeBreakdownList mergeBundleIDs:withBundleIDs:newBundleIDs:] : sha256 598391614a53b4cd92a305e0dbe79894cb11a0e45022e81baf99bb01acc0a89d -> e68967232206dfee044ab84bf8a69b33360861c0615433115ece53226a1e5f10
+~ -[SAAppSizeBreakdownList updatePath:cloneSize:bundleIDs:] : sha256 60fa38556575ebafbbb2cb50aea36ef111d503e7808b24d71bb8e7300585865c -> af1dd474abee9a9c108dd4711e8b72a30b9dcae1587489b7a286b837ad8abd75
+~ -[SAAppSizeBreakdownList updateTagsWithCloneSize:bundleIDs:] : sha256 db2a694851b14dcc4b5389c2430ef8ba8a70d4ce08f2d9e52c9b5d4f7c15882a -> 4d3ffff08ac1a43954e1f76062ed768996ee121ae963f06db22cc985d1381729
+~ -[SAAppSizeBreakdownList generateDictionary] : sha256 30f76c460210252d31181eb2059b840fd2d69c8af7fae6ffa64ebe5817809d91 -> f53e846f5695c876f0b8da1448192464d383417df488f45b1368fcf3e1707005
+~ ___44-[SAAppSizeBreakdownList generateDictionary]_block_invoke : sha256 2ee50c842cca1f3b2ffd8ff1718d9a1a7c6e7db84f40d55055bc825d1203075e -> d0d0eadbbc99e6be1b0b95f4f75be213b68b5a8cc8a2a67c3edd98af50a70907
+~ -[SAAppSizeBreakdownList removeBundleIDs:] : sha256 315a25979b355f9a114d424fbee502bb5ed833b593cd2a485d847e58736e2fa8 -> 058536a9610dc32a4ef4657b095f1db1a588116bf9999dd9004651b6ba18db39
+~ -[SAAppSizeBreakdownList appSizeBreakdownList] : sha256 d2cd75ebc5741bc55b3179e9ab1427446c79dbc40c509bd6f489bd0ac4c8b0e5 -> 9921ff279bf95ad801b24f57ba7c1986e44f0dedfadd6e8fb1df440561c00ac2
+~ -[SAAppSizeBreakdownList setAppSizeBreakdownList:] : sha256 f1887885cc1c4ef6367d840d5dcdbe868f79d0fad02a98a86f82eb8374c16a8d -> 494a363f5a013bfacb77217ae8e87307f5be27452518c91d1b9aff7773248d88
+~ -[SAAppSizeBreakdownList .cxx_destruct] : sha256 0345c9ad9fc5a8cc7c70a74adc93cb56b12b3e450ffb15c25257908aaff9e9fd -> 93b7babe105be16c9dbb2ac9e3932bdc42681a28c87c09007a4af4480b6bc61a
+~ +[SAVolumeSizer isInternalVolume:] : sha256 9047759a8a58a182e1230d16218d301d10cb88681a1471ee1558d95757ef494f -> 5a7066ffab3995adb8a31556fce6536ab888af717bfe1ba95130a25ff894b455
+~ +[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:] : sha256 7e0fa293060301bbbb26ce4a4a0413fc150e8d21c778727b1d29abdf291a01e0 -> a1b0aaeb9a207573f2a1adf4304f2ff837c1c9d2ea599191fbd01df849e770b5
+~ ___Block_byref_object_dispose_ : sha256 cb616f16b244ff489f57441480dc28750a3876dafb02c16c6c4ac0ffd6d9a2c9 -> 9ca1596ac77783728c9f5269712ff77c155967a01c7c5a1755d8222a1e78abda
+~ ___68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke : sha256 5a9c8ca55f75475bace291246041ef5a5e56cd9d44a3c5d4ba8cb62833b67c0e -> c733e274be1337890d682a0168aba40c9491b32addc9d8bbfbdf41bd9fd5fd5d
+~ ___copy_helper_block_e8_32s40r : sha256 754184e368ca6f501abab3d972ff679b4b5c9d6ffb49d9a12a9a2e0985f72d6f -> 5cff77af84c7d91b62bf449118fcbdbe9072af55386b3892c7060057210beaaf
+~ ___destroy_helper_block_e8_32s40r : sha256 bb8d32226f83c5c911ca404a5b851bebeeccd112e93836f6587ba9e664542260 -> 8d7b1cc08c8ab0b0335ed8697b7fb55802e963b9c67b18e5e39589ef559f23e6
+~ __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.71 -> __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.74 : sha256 6a19eba9ac9ec38c32c9549101faf2723a404d3c31b5661fda35dcbb2571ea23 -> 8192e0eeea71e07ce74d9c11035ae7a7dea2b9213a09cb23cae6058ab5c50062
+~ __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.72 -> __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.75 : sha256 8b566084f09c822a09771cffad19e8955264068b976d6d20d7398b346a4c6f08 -> abdaf0cc4d29d5391d07a14a907492fa164ba82a9009dc7bb799d7e03a34eca1
+~ ___copy_helper_block_e8_32s40r48r56r64r : sha256 6cb0191ea0aa8ed5bf87e61f63bfea8c8824f139ed389b0cacd59a0183c59e86 -> 0d1c14a70fa295e061650c8780928230ed30515b883a5cff3fa48b258692d13c
+~ ___destroy_helper_block_e8_32s40r48r56r64r : sha256 1a82ad50bd60c77b143bfd2f29a22a8de1325e68c37244bbb77f8bf992940df6 -> 268bb6eb27a02848efc5576a1e2f841536eafc826e90b61edd8c13553fc2f13d
+~ __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.74 -> __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.77 : sha256 adfe178b61ba53ff8a65bc761b1cd0e4975b0f14ca7858c873c08aabce133379 -> 17b636a35c017fb8326b28c61714d62cba00b4cdf651f46aff130d74fb34fcf1
+~ +[SAVolumeSizer computeSizeOfVolumeAtURL:completionHandler:] : sha256 47c29a0d7a19c78a6d3c350f79fe341a59ff5a325262772b4abd834099d91984 -> eb98ffbe9f619fe778be493ffddd80885edf6c20fc826c5c44b6f68512e5b4da
+~ -[SAURLSize initWithSize:mayBePartOfCloneChain:] : sha256 1702b6c3ae7d38448e7a5c643c234544da305300aa851922aedf265a39f87020 -> 5beafd63a2c5389a2c1df371c753b43f3cc7d2437f3396c1479afabd58155638
+~ +[SAURLSize newWithSize:] : sha256 e80e100d41cd7f403c972449b1ab80ac9472c50737bb2ef43236c518b7f33bbe -> cd275aaf27ffe4073cbfb5883ed469fb2d486c82c8482a713e56d23811e5b178
+~ +[SAURLSize newWithSize:mayBePartOfCloneChain:] : sha256 1d489a09bf6e31e3998ac43dbe4fe010acee26c6200594300d605988c13be2f2 -> 7fabe9a23db1ffe14214e391712b0076371de91b15257fa4c674a8e094c1642c
+~ -[SAURLSize encodeWithCoder:] : sha256 ae5d7ce8e5f7af2d53b3c61c95dccfb1a3c94ad7d5426292deefe80c30099391 -> 7ac11553151846fcd5372d08a3aec2fe983815d16d4152448f57e24831ca1087
+~ -[SAURLSize initWithCoder:] : sha256 789588b0611337cb7036c5905bf0aaaee1a45c3bb4487350750bb153db39d93a -> 33641cc60e80dc157c21fec37e6913d048cdc20df178639e7c9bc2b1021b518c
+~ -[SAURLSizerResults init] : sha256 32b67c5a4eb363a8ed488eb02d670d9d2d09a0971b39269b27480f64ae2e4e53 -> 7ccecc97f04c0b7392f19178ae88e2bf64689b6b181e88677838786087b7134e
+~ -[SAURLSizerResults addURL:withSizeInfo:] : sha256 d24e2949ed856028afac523e334a2a04b5715b779e6bbcb3422f6e07d459034e -> 844dc69ee30a3ef7b5928bef9455b664c4b61e0c03cc590111d3feadec42b747
+~ -[SAURLSizerResults encodeWithCoder:] : sha256 86db8ef908b0f97c5e98b336f71284c55056101ecd76e150e8c625f2184b151a -> c844b7ec2b5266132076aeb74d23102085a90056ebba12bddf736cddee4cd56c
+~ -[SAURLSizerResults initWithCoder:] : sha256 9e66d5c3df22b5f1af5a1bdc51f4e0392057db91c8ce532f5122278b0ffa61d4 -> c3f7989d1468cf2ed753b31212cf70fee78770857f2f010dfcc2b44533955daa
+~ -[SAURLSizerResults urlInfo] : sha256 a8572d49b6c1292dc60c6451e5b3fcfb7f751a6c8594b723b94a08f32df4675c -> 73a47d0598c88329a8be31fbf886b20db131ccd5dec926452509ec93a0957a46
+~ -[SAURLSizerResults setUrlInfo:] : sha256 0cf202a4d6a4d837225f97c93eb48d8b5112fbe8b15d247c98a344d6bd915368 -> 93b86da6c851050bd367f1d9d796a056191dd0082a5d37aa457a9c95a69055a6
+~ -[SAURLSizerResults .cxx_destruct] : sha256 37a86a652dcdd5f6bfa9cedf55d737eff9046575c2f0cc99860b96be4e483ef4 -> 26cf303173d1f3238e9e1e5c4c3feac1623a3ad4a64a13cfac3c43424fafa31a
+~ -[SAURLSizer init] : sha256 847d1ef538fecdf27696c3b33cded99cff1bf61785bba54683e07bcc79b75d70 -> 9a289f1c7363cb416cb6b1e9daac96077e2bab020487752abc2b77f6222e2ec0
+~ -[SAURLSizer invalidateConnection] : sha256 f854d550f59b4fd58981484deb8785ff44f86b4e75833e97ed08beaba28493b9 -> eb940a96a03e7994d0496acab78a89429505694fcfdd6156b501656bb8f6182b
+~ -[SAURLSizer callHandlerWithError:] : sha256 2d035f1826f084f7dd75162861f5257e74193848b086259bd1ded61263d41ed0 -> 53803d528ac9b62e7e89139987bb1d2ebf7b361a7c9cf88dc44fd3af77ac470d
+~ -[SAURLSizer startObservingURLs:updateHandler:] : sha256 36b81d0acac80b2f6ab577e167d9d934c1bbc0898c5b73aadf77a47f2384190f -> 7bad6d7e9a8ab46f5c3c414d87d42bad47bec89de195792ddbae92523bfa839d
+~ ___47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke : sha256 b3898b44fdadf4109f93adce20cefe4fa4a2618af582d2bbeaf369bd0121692a -> 09418018a062b8411290863a2dc60d34e8ab4767d6ad09136a09401e537821a8
+~ __47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke.126 -> __47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke.129 : sha256 d5a591426203f05abde489610a6d66c3d0459bcfd177e3a1acaf65d9416bdfff -> db535294d3b352feea433b84079ff7e892e00286a328ada72122ca23cb971260
+~ ___copy_helper_block_e8_32s40s : sha256 764d75cd62e67d5f24e1ba8ac239afdda67a80d37b620f7acce1f4cc59a2a4e0 -> 4dc2f3439789e9a8892b389aa23b8e73e4830b098f3bf44613cd707be70fd2e4
+~ ___destroy_helper_block_e8_32s40s : sha256 4dc81d061be990bc6c6b804c90df04cc1f8ea650ce3591da2005b0801f526616 -> 17817b7142d3dc43fd854d4dc77be44d50d2f2e76b2be5e3c2828e92b8fcd4c6
+~ __47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke.127 -> __47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke.130 : sha256 15a8f69af7eba1b6920752f8cc906e8a8fc6aa699a99b5d331d2f9abf62f2dbe -> 0ba5b89c7852dc1e7c107da03c95039828e7ad1caf669ebb2b7048b1fcbf2e8a
+~ __47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke.131 -> __47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke.134 : sha256 160f294a9a16a7ab1e1cf568817ff60097e2d27bd5ab50a9d688f88b860355fb -> ba7cb844f3d1f1887d2ad017ac40e7a066663d99a733181515e0adac99dafbb8
+~ ___47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke_2 : sha256 bc1459dc08362bb39316257bcc0526ebb88a0dca4576600fd9f3c84f5ea60db3 -> 2d4330e92cd5b68bda1fddfc7c4a8c6d30a2bc5309802b59bbe226bd70d77f23
+~ -[SAURLSizer stopObserving] : sha256 47f562f184e52a8d4f212f5d47d33eb5dc38f392fec9591238fca8e0b253b342 -> 148e22c6e9fdb31a0b282f67fbef451b9c76bf94e8d43cb702b0b74f9ebc7bb2
+~ ___27-[SAURLSizer stopObserving]_block_invoke : sha256 479ac613978f59d4835ea91088b18398ad268c125e2c81ee6fcd7e53bd9cae6e -> 5d5ad1b809c954ea28424c8ff207d3f7ba04195b11b02810eac7d299e0395fd7
+~ -[SAURLSizer sarc] : sha256 9a2af667f9960ff7b236f4318c9e9e11d9c955650a7eb21ad3fb7510372a7255 -> 81aa3bffb2ce3782569092d5262dcccf0e511063286b991bdeb5ad246a499b39
+~ -[SAURLSizer setSarc:] : sha256 968c3adecd6fa73f99154767a7647d3f7f5541cbf34fcdf4577907704722c7a5 -> 3dc56d695167aa25fa38df61fb11301558d267284f08e65591433f4c0283b5b2
+~ -[SAURLSizer xpcOut] : sha256 a0907adf62e68c68e03eb6ffc2d1ead48b069cabaa4d9c6e36568c8f7f19bed6 -> 63627251c7e527e35f2a1f26b317dc6fe71c6119e3ea694adf4da0a8aa4ed4c4
+~ -[SAURLSizer setXpcOut:] : sha256 f77c6d4069f37362aa52eabd5f76ca7fdeaca8c07d12a7a81aeb44056c8da7f1 -> bb5a325c3a1b32d0bcc929f0dabb6089166268fbbbb8017b75e4a59feaf6099e
+~ -[SAURLSizer sizerID] : sha256 4f0ec702c00a4a048d5cb6359af33c070cc2c58935f2b519b97fd532cf97dc0d -> 20df76f11124a52d1451c1eaa2b3549e0e7b752be829677a24272343079b7522
+~ -[SAURLSizer setSizerID:] : sha256 f1923cf1df3ea5c72d0b835fe79e2d8aa1c49cccdc42b18f733c75d4eae3be54 -> 70f81cd6fa4eb515fb8d3b37267db496617f3e1c696ca83361d18ee8048d5dfa
+~ -[SAURLSizer .cxx_destruct] : sha256 ee0e20e8b8cec81d56c4712dea3d61978fb13e3bf591d609d55d2b4724f71d1e -> 3eee612b40f724b59c7bfc9ccc09e61f29802d9cf3786d75db03e2a670152cde
+~ +[SAUtilities splitArray:into:] : sha256 9935a10a7ce68baa882a987dee37f262ee7988c0cfa647030eca2a3c1a1b8c57 -> b61ed8c98b535213c67dcbdb22f2fb3dff965c7b3405e033081ad6ba420f2e41
+~ +[SAUtilities getFileSize:reply:] : sha256 14e3da3cf9ce3e43f19e90de8873f80aa5bd3728b4014a981d09abbc5a3ac586 -> d67c6c240f28ccbcf05977dcb2fde0ae5b1213c99ac59bb8f265dd2071f04bf6
+~ +[SAUtilities processArrayConcurrently:number:queue:group:block:] : 568 -> 564
+~ ___65+[SAUtilities processArrayConcurrently:number:queue:group:block:]_block_invoke : 272 -> 268
+~ ___copy_helper_block_e8_32s40s48b : sha256 e811a1be84cb681911878b040267a1eabe601139ec5a9e5e53bb3013b230e1bd -> 6c0e7a5091c84249b7c9f1bb1a8914a9e68502c60ee968434d35517dee60c8f0
+~ ___destroy_helper_block_e8_32s40s48s : sha256 a09c1752f78cc25c0931b73820c8d48bdcd70753e20fd6da5cafdf4d4a437b68 -> 7923517663344989d4a3ddeeb27aad05c0f9b9f4886e34534506462d55be628e
+~ +[SAUtilities createCommaSeparatedString:] : sha256 8209bd1a7c26dcbe3b2c11e35840be8c8fc0d968e8f594923c6d542307ca1020 -> 78d0ddc4099cd978ce48ab288bcb84ef5f96cd8965ef801091e2c99a8c28f325
+~ +[SAUtilities breakCommaSeparatedStringToComponents:] : sha256 fe0291e1115527fd94f6fb1ea29653d14856621ace2f00d81b2c12087eeb5f14 -> 927882e491e6e9db40df1b0f0ec7de3526b3f0d0258de93f612945c096e1710c
+~ +[SAUtilities killSADaemon] : sha256 b08cd7a479f9d4850cdfd53c1c0cd164e5892e8ad2f64106d6ec94c131458ba6 -> df8c690b26283de6668618b16c36bffc7fefafc25612cceca29271cbf0867c33
+~ +[SAUtilities loadSADaemon] : sha256 118cd1bae81824acf82e72d67fa78e251d61ea34486e50d3c069448ce20806e5 -> 234c1fbf79c9fd0cb57d9f6c7b518bcebab9c2bf01f5af9426bbfe93fd1052d5
+~ -[SABGSystemTask initWithBGTask:] : sha256 a705f4ee8b7f243d41ba29bc33c740c8cd499c8e7aafc17745a5178541d93682 -> 9c6ba860434770f59cb7b78a05adcc70d303e2414db41a02f64ebb0e4263cef8
+~ +[SABGSystemTask newWithBGTask:] : sha256 955d4b3639c5b8aa2c1d274d9e9499255b66976f1326832a7ab4adb18c4e6091 -> 748db8f6a75052a189250a6ef0684fd76e47ab7e2e5be5d6e79c33d471a7b5a6
+~ -[SABGSystemTask deferTask] : sha256 5d769d1b83461779dc56e6a3382bc7d68be12b53609aa703c68e32887d914c34 -> a59669c4760b37e8e0e36b9be85d1eefed4e1999fb7b4451a6da5956c51cbc18
+~ -[SABGSystemTask shouldDefer] : sha256 06b892e3003ff4a3de20e91c1ae459e249b60ba0cb73783beb125201845625f6 -> 48c0d04c3969726b0f77b3a1572a37f4649d1cd4ea2dda4b57b1cff56a382b9b
+~ -[SABGSystemTask task] : sha256 818eb0685add73466e49f863f08730a61b231785cc92378f8b6dc0e133600f9b -> 460b492cc5dfcff86bdd1f16bbb3739f2f4d701ad01118851ebabfc16006d2f3
+~ -[SABGSystemTask setTask:] : sha256 279ac34a77890147962dc01cc4f42d88bcd4332f2de5ce3bdc46c99c316a92b9 -> 12f5763c60beae269a9a5ac9ddf16b1c889a222fcde22b16ebb69f4ee18ee44d
+~ -[SABGSystemTask .cxx_destruct] : sha256 aaf87e91d5aeaf2c609486449b6a9ca505f9385cdb982260062c04fc6ccec123 -> 87bfb7ce601d0ba75f0278b4e5a5702972d95267fefd3d115b8de0753ed2ceb7
+~ -[SADispatchGroup init] : sha256 f84fe8667942bfdbbe3f1f29ba554671a2d93fe5984243e5ab6964f4b5281405 -> 033e321163b06d85a3c3a673638fb1ebbe102a6ee2c1d8aad9a4f2838de4abf9
+~ +[SADispatchGroup new] : sha256 c618fa64253e1105134388875977df6ac1fa578a2830e823523b0fceb90cc761 -> 1fb1f5a95890caea30b3fcbaa1a8eadd0103cd3fd355610f41cb646f0e91fa93
+~ -[SADispatchGroup enter] : sha256 a5ec22784cd6a987bab4b1c6be840f8111e98577317deb3d8b727517d6106f41 -> 266778b452f621983c662a47a5f551e3c3f8f6372fec86fa080f84efabf5f74c
+~ -[SADispatchGroup leave] : sha256 03a33523a442dc97597758f2c7fc0bfa8d95ca6bdddb47f780af9d7b98ef23e9 -> d395a011cb1512709cb5d9806ab6368e90580d70f46cd160d9aa3ae3d0f3099d
+~ -[SADispatchGroup wait:] : sha256 3aa853699c6a25112a9282f58fac141624ac0d0ae0172a7e6bdea6c8c4636d75 -> de1a542813c8dc28de6769324dd381acf61b6bc46b8cbd268464dd6ea82620f1
+~ -[SADispatchGroup group] : sha256 3b262e2be39608123e2df1ccb769256282e3816b7af9faf1641be8a127aedf0c -> 427da94c72bc0490385720f1b44beb0bec29064c02fff02aba67a2e1f2decc5b
+~ -[SADispatchGroup setGroup:] : sha256 1dc3e4365da7279775c2d518f4d1cefae72af35ae6da76b8cf1b61cead5e0e43 -> bd63b29ecaa8af96e068e3f8b5068d6aee9b60fafd4b826c14e7c21fc95319c0
+~ -[SADispatchGroup .cxx_destruct] : sha256 ffb33559677cfa328ca2ceb0b0beef2061b08b5c5be0addbafc0efeafaaea347 -> 3c7496eaea39a10f59d94efb2dafa7fdbb89fde1771ad6744a63f9172448ed9e
+~ -[SAVolumeSizeInfo init] : sha256 3588eb1d8928f5422ac80f01d7b989f6e19663b8a74bc813ba07d71e3c08c678 -> 5e738312865f40e708264fc2b0aa73d85f61f9519d9a74174a4ad6cf48383189
+~ -[SAVolumeSizeInfo encodeWithCoder:] : sha256 729a5e93050fac44b684723245cf06debdeebc5976defff231a88a5fdb0d00e9 -> 0ec1a44564a8d7ae0f1a3ae19933aea55dfc713b080b21a7114d7c8c272d459f
+~ -[SAVolumeSizeInfo initWithCoder:] : sha256 6ef65ede39c902cfb9ffd18cf798682f1119fdbc5dfa85c00e570b642da4e28f -> 5d89ff0666a3bb3f9273c08a1927ab3af2ac6f677f48987bac9d6f213a7d6cdc
+~ -[SAVolumeSizeInfo mountedOn] : sha256 180691a72ac3c71c28dbafa9b4bd746e5fa8a874c4c66711c43e3b8e5e2f201d -> 1f1a6476901c46c86f3c9cd245dafb4f207af55d5b773c88459798c43f75eee2
+~ -[SAVolumeSizeInfo setMountedOn:] : sha256 6d7731c103964f9aac14ad517469b97d7859c9f8c8de0255b4b9e536fef153ed -> 10b265d498edd764e35b0bfc80801f7a7e4b7fd4ec7a94d76846ae9fca54bd01
+~ -[SAVolumeSizeInfo .cxx_destruct] : sha256 584d5391830c7b82c44d36149803fde0d31f670c734e9a260945c9488a6cd78e -> b60b4ca60d0dff03bc975abdbec025ac9b995473bf4a27fc7b6d1b8406c31dc6
+~ _OUTLINED_FUNCTION_0 : sha256 c80fecff2f4c22c14b2e245b15716a6c41697418e91eb865faae8bc5ad7f292b -> 6a9536a207b40cf13740a5aa51d71aef7170ef4bf11c228e973ac88c3394386e
+~ +[SAReporter collectSAFAppSizeResults:] : sha256 da40d7c05148c08dcd8207e9d6e5a33c75350d4edd95e2f1519ec8e5c97d5e65 -> 7a5f5947733df93507d9cd2babe4caf5223e81249f3c8b5aea773b8b1d87f376
+~ ___Block_byref_object_dispose_ : sha256 48cbf41b0a84be89aa833330a22526d9ef4354f353f78251e5706d9c3a328fe5 -> bebdf587846688cede6b63f34dd13da568973b65982078f889d77cba8862d49b
+~ ___39+[SAReporter collectSAFAppSizeResults:]_block_invoke : 2816 -> 2800
+~ _OUTLINED_FUNCTION_0 : sha256 51683f702fcf14cf69c6cd6aef11ba358fc401bfd85f8a84536013606b9297f3 -> ddd1d5872789be724c7e5df8d7074620ba767a015265be0b26d6c4159da87528
+~ _SALog : sha256 d4240afd5efb02c9b6f1961248328d3b35e63f7099ee3a1e95fb01c8d889ccf4 -> 45df5996ec24cdbc914a73e0cca461f0da2d65e04ac4782c99a10b4502869810
+~ ___SALog_block_invoke : sha256 869d62370e77c3836755d273b5a377ffe6cac1d83ee5ae656fb3d7e1d47b632c -> c8af795f77b166ee5455a3ed084bba4acfceca773024ee921499f9b96c04134b
+~ -[SADaemonXPC init] : sha256 abb53e1321df4315539fb204443a99e3c88d58483c8b875320413f33e53645d4 -> 6ce8d10c90ac9fa5c7de704a2028eefe56a13138e57def901cb26b10ce78ec53
+~ -[SADaemonXPC initWithInvalidationHandler:] : sha256 5a8e4c468010703d189493af71efcc417f8def7934c79ec4726cc9ff8406b899 -> 527ed9251d657fc8febed657d0e3b9a30ae40b27cef226312b95b1c2f84110b0
+~ +[SADaemonXPC newWithInvalidationHandler:] : sha256 0d601e5a7f09897dae4ada4afa79307ce2d1a1f48554062fb816c5952394e62d -> 88192db03e320cc47abcd533cb2d5b290a279081708852a50f0c6135c1a62178
+~ -[SADaemonXPC setInvalidationHandler:] : sha256 62f71ecaf3c5703efec26e3695052550bbdec634309eb64c3e8d89d0fe3f1df3 -> c6b8f0a1b22150716b4985167918055a86aa8142e3e6db17b992dae539108cfb
+~ ___38-[SADaemonXPC setInvalidationHandler:]_block_invoke : sha256 d2efa5e6f83177d54fe701ae52c72ce05d62b04d907afe294f74e51ef007e55f -> 28bdcd7fb77577eff3d7d88c8812d27374ce76e9aef65d70fa44494b2599e35a
+~ __38-[SADaemonXPC setInvalidationHandler:]_block_invoke.115 -> __38-[SADaemonXPC setInvalidationHandler:]_block_invoke.118 : sha256 851000e7c1d9d76b18f5508191b75b1d3e78da2c73bd5b33e154e9c3ea007750 -> 1ab070613ead9cc059713fb8ac556a6cb3b5e2b4d0d6bf9882ab9a775d88b024
+~ -[SADaemonXPC invalidate] : sha256 544272c8943b681183e26d5ddbe42525332840dbf57398d969df2e02aacccefc -> 94f7d9f8ccfc4ac8768f7bb99eaf5f589390fa14785ee3ad3127369a119a205a
+~ -[SADaemonXPC remoteObjectProxyWithErrorHandler:] : sha256 63258ecdf7909dbd7c931564b4d1c948bc86ab19f3f3d409c142e2c6c2785a8c -> ccd427f7c14990e3f0408217e89734bf70c2b0b81e967ff27c54858af7e1f1ed
+~ ___49-[SADaemonXPC remoteObjectProxyWithErrorHandler:]_block_invoke : sha256 4c5a3e4fc147384d014a747b19cce2407f4b93ad8bd945627baa408bbfaf9858 -> fa8909a6d7a2cb2bf47cf6341c13929922ca4b64fdb8ef301c39bc5c1c14e91a
+~ -[SADaemonXPC synchronousRemoteObjectProxyWithErrorHandler:] : sha256 0e9d8bb35bca1177222fb61d5bd20df406148ee564b13c11b38da8325d3ee6ca -> f19b97ddf8ce5e1315282e8e2fc46b6e05363956061cab70a5b59504632f8b47
+~ ___60-[SADaemonXPC synchronousRemoteObjectProxyWithErrorHandler:]_block_invoke : sha256 10408d40144ecce8eafa8871b59500c2367b262e6a9bf6a9be1b24606ea1c2a1 -> 904cb849a5f8d922b20c20e1cf0791f805c8e870275746b645bf54c333a8b39d
+~ -[SADaemonXPC remoteInterface] : sha256 02543e3da49a6a9683ff52dd9d4f8ab90e970caf65d5c642a163834e406a2a42 -> eee09baa6387056d4c6eb27d9e858f085a95e6ecf572dc5cd5acf41dffc970d8
+~ -[SADaemonXPC setRemoteInterface:] : sha256 11624a971db4b5c5c5bd2f0478dd53678065c9c51a666caf1fb8dd6157803bac -> fed240385beb16145e9d39d61b18b2052eb3afa59fbc305c1efaf27b5e45d519
+~ -[SADaemonXPC xpcConnection] : sha256 814acb43b11e5e6e51e298bcb8c08411c9307efb2e06043b657002b22a82a7ab -> 880dbcf603f16ba5ae01aadc335a102b753a8ce8022586745ab75f5557c08624
+~ -[SADaemonXPC setXpcConnection:] : sha256 5c3cff2a0997e381cd05aacd6632aaa99d3894bf35131c1c4993c05107a9e925 -> 58c3f9fd8a5001779cecd6417f77205b14953b7baf0f296d8885c2b640cb86dc
+~ -[SADaemonXPC .cxx_destruct] : sha256 595f313d4c5380132cbeab544a7c69318f971a17a41dd661cf57b5e3f78a14cf -> 3759fdd3b8942464983e3f0839fc0ee4bf0c5812d2257d6c4245b108606df6fb
+~ -[SAReplyController controllerID] : sha256 455118ea7cb0147f816f0860861fda5b38a82535d12e162f739c719f32c9a1fb -> 7733e83dcffdab7356d6d6565bfe34a408d2285db6e0d7db76652b1b53614995
+~ -[SAReplyController setControllerID:] : sha256 9f6f1e54358ca467f6125bdf1daa8bd82825bace992274cd5eac88b36e9881fd -> 548d7871f9e854853718428bf2f03d662d49c41879609381ebdfb4eb15326975
+~ -[SAReplyController callAppSizerHandlerWithError:] : sha256 7caeb77e2806d2e912a25d0105010db37a95c6c824d82e1a846fbf8387a75b8b -> 52f2dba3e5a3f5efe0eb53b24d1eabc7a67550cb20baa93f247c516b6fbb2cfe
+~ -[SAReplyController callURLSizerHandlerWithError:] : sha256 0584b1f5ecbf20d23f685b7d8476c78f9a95b1798c646b7bec12d92d4c5b5ed4 -> 0df5afd3bf389ea28b6b2b8228e0ff5687444be34b890898e4e0846dd22643aa
+~ -[SAReplyController callAppSizerHandlerWithResults:error:withHandlerResultBlock:] : sha256 301ca176e88ccbaca040329f1ff967cafb8c9be85ce5c032f4c6b8fdd55326ec -> ca26695fca7c7a7015b3a0c8a59a4c1d7bca30c1b8e7017b9c200cce77e12b13
+~ -[SAReplyController callURLSizerHandlerWithResults:error:withHandlerResultsBlock:] : sha256 c2eb7aab1178bb765f92d5d1366cbde7deb3740aa35fc992cd5a964057b193cd -> 0d5b6a60fc9942116730030567ddd436f598f6f63104aa73e394604aaf9c512b
+~ -[SAReplyController appSizerUpdateHandler] : sha256 ad2e999cec0ed1758c815515a012d1ab83e0a7ed38a2a896290ae47275595b3f -> ecb1e366c8713fade2463ea583143ccaf1831895f67527fc0c3c757f57169d7f
+~ -[SAReplyController setAppSizerUpdateHandler:] : sha256 a7571fe43d5e72ec4505967c5b3d80e1d096b6f8b55f9108dd2a3550188c17b3 -> 1af042be45c94e47c1326cf100b48b8e3e9a0fd0fe9062468fe58b8d5ab39aab
+~ -[SAReplyController urlSizerUpdateHandler] : sha256 dd7c102348fb74c80b3d637434379662f5c8c37114632ac30e1e4ae45fc3a94c -> 002213ebccc9e2ecedbca4bbb5414a78873b3753ad10d91ba4602488b5253684
+~ -[SAReplyController setUrlSizerUpdateHandler:] : sha256 26fab72724d9b62a3f889b22c707101f1543af56e3fa83be1ece24fd21497101 -> fbf3df3535b0f7f63297d6b4f4f360c41dc8264aeb06224af9fc842982233163
+~ -[SAReplyController .cxx_destruct] : sha256 00bddf36566744eabb470fcfba0aec04de574baa006d22266a50e65a90707733 -> a0f00b104aec0534a969638e682fe1921db9b65df45f5783db9a8415a22791cb
+~ _OUTLINED_FUNCTION_0 : sha256 fe547de0f4636e2a5525bc17004699c7de83d96254b2e272d92883f46fedb1da -> 592f8ed89560bb33ffbf2bf9f325abfb0a957d970bc3232354d8405286d0f7e2
+~ -[SAAppSizeBreakdown init] : sha256 ce45d4bcd6491a864c1c27e0d156c62f1efbb8ab2ac6b850a5591ad079e5e744 -> 5b784d0f3ff8500fbb68ffd99bb804569940f185c62dd59fa711c339cac9b3e6
+~ -[SAAppSizeBreakdown addPath:fixedPath:size:] : 176 -> 172
+~ -[SAAppSizeBreakdown updatePath:cacheSize:] : sha256 7110f02b0bcdf95710ca68720c334b0aa8b792170ae4aac4bd4ea63787c4f961 -> ddc88beaf3095572c1508fe915fb9410949e8d16aee0e155f8ecbfdb174c9343
+~ -[SAAppSizeBreakdown updatePath:cloneSize:] : sha256 300b4369be4e55a4550aa0b057133a6b4f80cf1b08067bde3b4d9f8efd0985e7 -> 74fa52fab443e4e5b80878520263a2b5a78b27523c517ae6f636fcb48b0bb22d
+~ -[SAAppSizeBreakdown mergeWithAppSizeBreakdown:] : sha256 5edaf93d6d1613c7109a2226bedd4d65060e71c46a5cbdb7d0b89aefde4f4787 -> c28a2e46106566ec90e44f65a4482b1264f60fe52572ba4cbc5ae1a465e2fb97
+~ -[SAAppSizeBreakdown generateDictionary] : sha256 b20d833eb6fa8bde3b378841bddccf58cee6935956aea992875a899006eb57a6 -> 967de91296e6017f482a6c08221daa3754f8edfa6b28d5379fe4211bc4354ee9
+~ -[SAAppSizeBreakdown dataPathsSizes] : sha256 7caaf5e67023eb55bd7a78f82eb8cecf3c12f6dc4cebe086e064c69aa6555b03 -> c3b68888f895be6236e646cf9d6c0bcb3ba6ba642112284a087e2e0d8b3c8e8a
+~ -[SAAppSizeBreakdown setDataPathsSizes:] : sha256 355b7c9d4813b6d2396ae7dfda522c7f982ffa059011ac0dacf5423db261de25 -> 88029e3e72eb6fcec2b5995fd840d7c4c15177b4691b984d85490af33dcd9951
+~ -[SAAppSizeBreakdown fixedPathsSizes] : sha256 dfe1254693314cd83ce3cfd6053ea3bd1fe4deb7ca285bf252cd06ddce37c8b4 -> 5f4c264f723638106bd2f7d064594eb94386b6826841f0a875fb3e546e1df139
+~ -[SAAppSizeBreakdown setFixedPathsSizes:] : sha256 a0bf860528d8076a4b90d60f065d4f0c8a13c7d70b1599e35327fa2d49548a43 -> 6bb09829963ca6c05bc73c61d56c55740c7b5d53f56b3ba7bf9e03c6882e5aef
+~ -[SAAppSizeBreakdown .cxx_destruct] : sha256 fb01ad39e08119d49c08bce2071f2a68bc0fc80f117b429de26da2113c710326 -> 5e8f1623aefbe2f3b325b6d9e7c4db27810a04fccc960eb9ec321feac786881f
+~ -[SAAppSizer init] : sha256 d7af5356f277276405cc089ac3120416acfaadc7ed6663e84da829c8c106b8f6 -> 9a9b7150fbff85cd458c4288773dd519aacd0baecc7c9632d1efacd26bbcd544
+~ -[SAAppSizer invalidateConnection] : sha256 1de2d9b4ee41d4a43385fbfabb8bbf7e14c07c1a2262e9063da654a2a1feb900 -> 7b22c9c1e71bcc3223284aa2451b3358a78eee5df373f1c7da8cf253f22fba00
+~ -[SAAppSizer callHandlerWithError:] : sha256 8ff9596d7e0f229c20a70ac9f98395caf90a4306f46bb3f71be9ee682bce345d -> ee50e7ea3d6d93410b8b70a164236d5d4991a41f7a15337ed8152bc340991ebc
+~ -[SAAppSizer startObservingWithUpdateHandler:] : sha256 e5eb774236aa4551265f227aae0750ee335e7c62225e760fe44ab69b2b63015e -> ab5906d12c2c426e81a8e2b1db8c39b76a599f72eeac996621d9bbe45ad64870
+~ -[SAAppSizer startObservingWithScanOptions:updateHandler:] : sha256 2d4b0735f14e9becc8374a18b670ec58f7d28d54a55d254131a34c9e439552c6 -> 8612b51a99d519ccabdf9c61e990ed782296f37c17e8063d6b76672568020de0
+~ ___58-[SAAppSizer startObservingWithScanOptions:updateHandler:]_block_invoke : sha256 f2728b03633d698da92f29a53e1f30723381a361214c37b1c0ef45179fe6112b -> c822e84588123d19a92b9fa7c27aa1b63224740e3f6b4da24b5d0c837ae199d3
+~ __58-[SAAppSizer startObservingWithScanOptions:updateHandler:]_block_invoke.57 -> __58-[SAAppSizer startObservingWithScanOptions:updateHandler:]_block_invoke.60 : sha256 7ecc46f40045c672161a4145fe53de16a5bc25927013d78deb38e9c635ac426a -> 4013d1a1b486fbf3b6b5ac2ca3155c5bd909aac545d23c8a7f501351a45ad6db
+~ __58-[SAAppSizer startObservingWithScanOptions:updateHandler:]_block_invoke.58 -> __58-[SAAppSizer startObservingWithScanOptions:updateHandler:]_block_invoke.61 : sha256 91ee30aa9ef37314b26ab0e8bc879e76358033113eb77b81216e3836ea9f0059 -> c4a045fa694f91400172b8cfc7080024310c9b2213f1c9805aeecab0e6fba240
+~ __58-[SAAppSizer startObservingWithScanOptions:updateHandler:]_block_invoke.62 -> __58-[SAAppSizer startObservingWithScanOptions:updateHandler:]_block_invoke.65 : sha256 2eefd107eb29b43ee180e8f406beb3df30cf41168bbd1848b4a14d94e96faffb -> fe576fcce13d55639836701ee7a7e30177d614ed390f17fa9d30369b51c742e4
+~ -[SAAppSizer stopObserving] : sha256 82437fffcfaf4724def68f4e897a0ce84eb51fc4f9a67bf90ed8de5a8f6b8ed5 -> 68b7ee30f58781df703e5a8804e2987cb199c95f1837bf62074313ab89f36835
+~ ___27-[SAAppSizer stopObserving]_block_invoke : sha256 c83be0613fcaa76c00eb023f5c5e38d061d521db61c9ad0b241f862dab4ce939 -> 2c78c950f8c702797703026b2f0d6faf58d35f52c3e367249e4fe19b71a64d3d
+~ -[SAAppSizer sarc] : sha256 778835887dd4d32fb092538af3327e3e92f9ad359c9cfbe5edc2c4b577f0be3a -> 5fe29598e5456c743a4fc9b5b0a5607af651662ddf3dff145780c863e8e54435
+~ -[SAAppSizer setSarc:] : sha256 31d7d1ced5668e295e11d7c112c4cb76448f3bbb7078660a7e2f2e22358bfd20 -> c5023bc48546bc6f48e297f7e7f572fd2ca51ff5d6d4b51a5027a1faa27d4c20
+~ -[SAAppSizer xpcOut] : sha256 69ae172b39a35ce79b1cb9c2dc0046dc7b4dd3abba05febf76b669b9aae8cb56 -> 27f198716b1d3e7f46d15099036f9ac4369aadb10295d1b68f37f595c05ea44f
+~ -[SAAppSizer setXpcOut:] : sha256 2a48f2fce214eb14c5b2dd1e9852e7747b89899e529bfceffd742d50daa593f5 -> 9fbd4cfb779350d40b34de5dbeeea613049af6925009687705a327353b95ade9
+~ -[SAAppSizer .cxx_destruct] : sha256 c8a42606610981fc79a6f3b8b908130cd95fb968d3d0d04559a9e81c5fad547e -> cd80c74fbd5d13fbf4b369ed8f401b6dbe0ecbfd5312fe8cf310a14259ef3142
+~ +[SAPathManager defaultManager] : sha256 6c8ee2d93af152b584132236874aebc77723abfc0121049fa29e38d64fc06afe -> 6cae3256e4f8a44450ca8dbc66577979f03f5ef39fb4c1cc2b6bee8606cbfb33
+~ ___31+[SAPathManager defaultManager]_block_invoke : sha256 a217794f621c5bfd84ee976d20e92bd0419b328a3c2e8941ab4f534505c296f0 -> 369f1538fbd3661d23fda91feb9775e5c030c275093f8985bc8f8a099702a53a
+~ -[SAPathManager checkUnAllowedBundleIDs:] : 592 -> 588
+~ -[SAPathManager checkUnAllowedPaths:] : sha256 7697c8d537c17dd809ae7bcea70878a2725e6043e1d6e7fbbe6eb47f364263ee -> f4db496489b627dba303634da43b33fad8fbb9f4fa94d798d6fe04312c3ee0c9
+~ ___Block_byref_object_dispose_ : sha256 5dfb37c23f9cbbf1264232f442579d016535f5f7e333f5735ee0a0b997d81d81 -> 734cb83c6892f3f1470ed1a210b8afa96ef8b118ef1a3370ae2ae84ed9732ef0
+~ ___37-[SAPathManager checkUnAllowedPaths:]_block_invoke : sha256 fd138bfcec8927360a950f1cdfdd66d4df02922893a26daaadc557234ddcbb4f -> 50c210c01de7586976c1aaea0bd7a4266105decd38334eaeb0d924a5156cb48f
+~ ___37-[SAPathManager checkUnAllowedPaths:]_block_invoke_2 : sha256 8e4a70bfe2e0f1c7105eb4e3228bc47d4e375784be9f5d5e433947c3a6f79e2c -> 6611c89372179d9d52fe8a1dfac5ed65db78297b62cda26c3dc4de2a9bde3e62
+~ __37-[SAPathManager checkUnAllowedPaths:]_block_invoke.181 -> __37-[SAPathManager checkUnAllowedPaths:]_block_invoke.184 : sha256 e8b01ed01e0be351647dc29e9fbd0f4b3fd038663c5cf40a9106222f45d36251 -> 13c94ce673a697fd33abffa7290163f98e47ea785efb0c4b764f13e359f38782
+~ -[SAPathManager checkForDuplicatePathsWithDifferentExclusivity:] : 752 -> 748
+~ -[SAPathManager validatePaths:] : 352 -> 348
+~ -[SAPathManager registerPaths:forBundleID:completionHandler:] : 408 -> 404
+~ -[SAPathManager registerPaths:completionHandler:] : sha256 26665c83f885d795e7d9d948b74fe36af579b6503532fb247c6df540674fbd68 -> 9f1d042734c4ec162f6c0ec9fa38e133ebcbd07607f40513096aba9275f012e7
+~ ___49-[SAPathManager registerPaths:completionHandler:]_block_invoke : sha256 1c13c2968b054467a29d8f6b1879669f495e4471fcc37d69b29cc4a023530b28 -> b74c9962af19137420d7f2eb4585cb56075604665dbc7249fdf28a55a6bee844
+~ ___copy_helper_block_e8_32b40r : sha256 182f43306f1128b38f9dccb98c69cff0b2d8353857570c9f04c493d1097ccd10 -> 2a93a2e519f7c5df3364c29109d9f732c2b60eeaa02fc31409e8719d2a180919
+~ __49-[SAPathManager registerPaths:completionHandler:]_block_invoke.192 -> __49-[SAPathManager registerPaths:completionHandler:]_block_invoke.195 : sha256 9d14c1ac606a2eadbf07adc16acc5cebf1112e9fcf0a9c4b62b969e12024b8a6 -> 41182338f63bbddece282e4189d83fa485be1566c839021c6fa28568d871d6b7
+~ -[SAPathManager unregisterPaths:completionHandler:] : sha256 bdb799e7ca59bc1c767eaae744feaee79d0d275fc15602206fa584acc5ea3690 -> a18c8dc518681cf18b5692c7a71dbe397fb534d27a2804cb40a2da842527f25d
+~ ___51-[SAPathManager unregisterPaths:completionHandler:]_block_invoke : sha256 ab350da0f6754f11eafda8721ff0062ed9864e09c892559f30d19e4bde70cbe3 -> 2b7c7d525b8ec40435b4bb10d4e07fcb90d7fa876343eba67cde2d141a73ef77
+~ __51-[SAPathManager unregisterPaths:completionHandler:]_block_invoke.193 -> __51-[SAPathManager unregisterPaths:completionHandler:]_block_invoke.196 : sha256 33f7f730291c86e219c3441841ae04b52b48c4b3dd4c2b4c1aed25e6a5361651 -> 38765e2d1d4a3e5d98cf3587bff77c28572442944ab68ef0e05f99de91f681b3
+~ -[SAPathManager unregisterURLs:forBundleID:completionHandler:] : 412 -> 408
+~ -[SAAppSize init] : sha256 0e0c3d675a739e1295d51417e634ffedb96cedb4eb475db64f629a7dbd14d3a8 -> dcc8b8b853dfbe9677e4424462eb5ace76c7faafeedf32da270de667a221f790
+~ +[SAAppSize sizeWithFixedSize:andDataSize:] : sha256 597116a302f570238c180f7531157daf1acf22c806a2043451c74c9040f39e61 -> 845943fd73eca355e1ae7b4361705bc8a08cee7043d03f98c3536ce2965c9e9c
+~ +[SAAppSize sizeWithFixedSize:dataSize:] : sha256 2acf7910ac8e58f2eba40aea23880814e8ea677fa6de57785864016f0ca00ebd -> b172540a727cb79da224a6cd89f63b51b70b3e64906e1400750bf06b7e87c82b
+~ +[SAAppSize sizeWithDataSize:purgeableSize:] : sha256 5542eb4a374bbf3d18012d6c01455b621e9a4913ef1261a058f9d260fd8f3580 -> 887342af9b686b34189a33dc4125c3f5d9e949f70c363ca37b3d81f59db52ed3
+~ -[SAAppSize addAppSize:] : sha256 adc559b0f3bbb3746da3fc4af138985d78c1739b9a3fc82fc0d95eeff09207ae -> 7d486658f612fa33656bdbb18a93fb907a36fa0f9afef6ff150c7c7ba7cd84ba
+~ -[SAAppSize withFixedSize:] : sha256 bc7c0a49ff19ba6f7a636a13dbab99e6e13301aa3171c9a24ad11b8b55a187cf -> 8984ceb0e5adad2216a41c50a602bc5696961d30de468f947464ad7eb2d15b60
+~ -[SAAppSize withDataSize:] : sha256 868d5b3f85af28be15a7b2ba53c696879f8edb2616ad7fb3d3c996477ce547ee -> 1f782308d6bcb3b02f330cb9792fefcec9dcc59afb972428a923f21ca0d43b18
+~ -[SAAppSize withCloneSize:] : sha256 e23044cee61617b4a478a9a47550551c909c313549ccd3bce1c3bd46989286e8 -> 1c63fda4a1913cc07e4948996bafd33b30de8852c5bcae37a13fc5946aeb6430
+~ -[SAAppSize withPurgeableSize:] : sha256 ac2a98a1555b4da341e9fbd1daa42dd6e6f7efd4849be683b3bebfc621f08168 -> 419c2b64527a9e95fd968140c588d1a148842d25b66173486b899dc73a300e50
+~ -[SAAppSize withPhysicalSize:] : sha256 c7f837ce791ffbe40b7995ccab86191714cbee860bd30e8a77b49b3b82650fea -> 4d58e74839bdd39dc95b42accc382d6bef35b6144117ce0a2aff6637d1c05da9
+~ -[SAAppSize withAppCacheSize:] : sha256 3b9a99d6e22aa48733a4388e491556de3c40535006a23793cce8dffa3713c1fb -> e73d0955ff7ca692836550423d76688abab84cbdc9121ec1095ceedbdb20125c
+~ -[SAAppSize withCloneFixUpSize:] : sha256 ab4ccbff7c86f91f9c497e62daa0cf7b1093e9af9d25e06bde424391b4529836 -> 8beabada612b99b633e33d3531b32e390528b6e491ab647fb44f1b3b663f24aa
+~ -[SAAppSize withCacheDeletePluginSize:] : sha256 41dbe2030d0961bd6d5bd6a1e84c4b58d85a4ca8af33ba77ca5b73f23185b79b -> 50bccfcbf8844f315426cbaa0f0de2c159c3df4501c73c55d0e90b8c57ff2fd2
+~ -[SAAppSize copy] : sha256 283bde89d765dd2858b5a939a0747920f9afbc6167af82f3d373ef5c1b4c5fd1 -> e569596a04635eaa2481ddb7e47a8b3c441e5375db4f8559e579d8f9172c75c1
+~ -[SAAppSize encodeWithCoder:] : sha256 19d267a3180c32cde9d11c36d2b7b5c9da33713439320fade58e1a698019c096 -> 3ff66214a5c11faf0d73d5f3f1d0df658b7c77a00206d2c95d90948fdea45934
+~ -[SAAppSize initWithCoder:] : sha256 8d62ff6a270bcf895325010a96f6272dd7166a9d55e57bc2c28509f7c145a4e3 -> 64f39d737d791cc2937d3de3f69cce8f6ee33dcff72bec5af61ead0620797240
+~ -[SAAppSize description] : sha256 a9afa2400a1cc6407923f93e48ff25488b4cfb096d0562273b2c99173da01ad9 -> 3654b8b6074fdc10b5849502de8b7ca5e2822afd884789481dd142d2da461686
+~ -[SAAppSize vendorName] : sha256 36fdbe1dce3424f89312fc9a582cc802d22d9987e78ba262718cb17fa7530a5a -> 9f4f3a033584fe6244369e9f275446c2a5d4c2da30ac53bc0124ccd9dc6f1a6c
+~ -[SAAppSize setVendorName:] : sha256 b395179cc57f8de53f78e1d4b594d1d83789fd7d1b5375447dc8f6f2b45a9311 -> ac65d8c8cd31971921a43cfa259df096f481c4ca8a818d100fffee6ebd3561ce
+~ -[SAAppSize .cxx_destruct] : sha256 7e8d279dfcd5c9a811a457e8d6a6c9db546f7f14f305ae5d3a5e45bb679615d2 -> 6d69dd886ed560f615ec74606b2632f47f4ff39e48023f80a8376d1a3272b0ba
+~ -[SAAppSizerResults init] : sha256 25401f2f58f8f9dbd0343d46b2d4229cc79264162ff8ecd9bddcd764ab7e804d -> f5b6f210082559736f11f83239f231b2560951ff8f418f04ab1b3cbdc7f91205
+~ -[SAAppSizerResults systemDataApp] : sha256 c3f8390a81db4cf6321a7a3eca3350e3f16d0e68600ec27251bc4c5926758470 -> bc8658f30b878d5c9e6bcafe327f9d2a9ced1cbeae8283ed3c79165bd0134d24
+~ -[SAAppSizerResults systemApp] : sha256 edb2c420f2023682de54749a4e7b9198000696e9be54b931d293a6a20479ead6 -> a0dcf918ca2eb502877f7ce0c23b7f4637fda7f87b3c861f4002f3213d3029bb
+~ -[SAAppSizerResults enableAppSizeBreakdown] : sha256 ea9ed3f532f885afade6f130f9e6abdc9750ee825795caf1325b68968f40212c -> c9568fe8dd747316d541e56a85e9a425ca0cd566b9bbab87616a033fccfaa7ed
+~ -[SAAppSizerResults convertBundlesSetToBundlesKey:] : sha256 08bd4c7b6408780ff5751d1f82df853956fa0f6139b64279b59b65d4b62d8f2b -> 04395a69cbd186455b40273c64c75f4dce2bd928963757cbef60a997315c09ca
+~ -[SAAppSizerResults convertBundlesKeyToBundlesSet:] : sha256 79df4991e315e8a2f66104bf931239a893db2b9cabc7c4af2bac033cc29da1e6 -> e8a6b100004f85a74b1185c03c4928dd3f60e9aa27b53e2edfc09505ec3057a4
+~ -[SAAppSizerResults populateAppsData] : sha256 ef9eea452e5fbd849ee9659f3d60b8f0b41210e0d4945092ca43ccec52edbe1b -> 063f0ff8c358f724462f840e9736873cbac12ead4fe16e2f650f2e0509dcb856
+~ ___37-[SAAppSizerResults populateAppsData]_block_invoke : sha256 f01dbdb6d7c2298321219acdd727f5396742f4ed2dc8c8bb8cd4f1bde102b8bc -> 958e27ae8c0945151ddb1db957339eb6248cc20f5aa9f9cc29851b4122533e86
+~ -[SAAppSizerResults updateBundleIDs:fixedSize:stagedSize:dataSize:cloneSize:purgeableSize:cloneFixUpSize:physicalSize:appCacheSize:CDPluginSize:] : sha256 30a958f36964c556eb92ef1d8f659b1d48ee21571ccc476129f9af562c674405 -> a3daac8032172dc89555b60fa46a2141f17d13310a6c94350de0f1cf534e7ef4
+~ -[SAAppSizerResults setBundleIDs:vendorName:] : sha256 1410c1cfab4895c995d1cd56d3faab2f5a4a5818e05161cafe1d2f78a92ea253 -> 048ceb4cf8202eb31aef1e1f1a5559098db295bc89433bf9dee412585c088f53
+~ -[SAAppSizerResults getPhySizeForAppSet:] : sha256 4e19e2ca3ff6e4c72d227ced77bed9b79f6ec037e106643b334a63a3db2a2acf -> cedc03804ca516dd3a5d78ffdb78fd6e9dff1212f5b24d90dd4a48e96bc1a3c2
+~ -[SAAppSizerResults updateBundleIDs:withAppSize:] : sha256 312beb556d5c1adc0f2a5a0c0e557615c523c12a9e1d8b225fbab343bc64105f -> 92f0aa050bec72bd6a719c3f4c3ab0d0a8e4c83c9fa766e3c1b470795482a847
+~ -[SAAppSizerResults accountSUPurgeableFor:purgeableSize:] : sha256 5b78f96a207e19a0c636d696d6ef1ee6d86630e0cb4f2bf477073a94d7b4a96d -> 40ecdd12337d931613d86e7f52dfe5347a25db1acd788b02a61ba0640ebc0130
+~ -[SAAppSizerResults accountPurgeableTagsFor:purgeableTagsSize:] : sha256 f4b4d6f276eb0d887dc4ffef89d4e2faef73681f783a088983c4b34b36bacd38 -> 5b53dc887b359d18dc6afaf100e755b8133cf5a18b07bdc5380210ef679076ce
+~ -[SAAppSizerResults updateHiddenApp:withSUPurgeableSize:] : sha256 d7237307a02fa230609af517d438a4dbdc28c0f0c5318e4cd9e389d9958a6349 -> cdba4267c030775afe8d2a066ed33887244f9ab13e900ec3f6d91c70b028d86a
+~ -[SAAppSizerResults updateHiddenApp:withPurgeableTagsSize:] : sha256 82cd316ff93e1611fcebe099cddc6e7059506ff9955c6486108cfae7b3fab237 -> e55bfb6696154e4c3a46cb1e3413b7cfb2040a96c38907f0f8bec105230e9819
+~ -[SAAppSizerResults mergeAppSet:withAppSet:] : sha256 c25d7cd4869af1be553a7bd960485082336a0c96fbd8c3168058d56f14751b55 -> 2b3aae3e79657de2b1d25bd218012b0159da6c367fdfe73818e8b7640e8e867b
+~ -[SAAppSizerResults updateSystemDataDetailsWith:andSize:] : sha256 1443f1be6861f4fd61fb668fed111c18ac1e0b39254e1f2cba64d972d44ffbf5 -> 4ef0c62064e1742f4d0d0263e45ded63ab717fe79106801839a45bf3994e1d64
+~ -[SAAppSizerResults enumerateAppsDataUsingBlock:] : sha256 4d29ef0ed15cd80a01afffb6c4154d4dfee6f2cc830692e9ca4b8f13d27b9c3f -> d50b70aa2b2c6ee5fe58a9c2576037f002a5482853f53f55ce4440b6799b17b7
+~ -[SAAppSizerResults addToSystemDetails:key:] : sha256 aeb24f716f3dae4d54a190747227231eb0c0683be03ce0f567fdcc58a601c825 -> ee59def481992052d6654e42977786cca902bc32b6f1d7295dd5159ad7676cd9
+~ -[SAAppSizerResults addToSoftwareUpdateDetails:key:] : sha256 3a20072cf797af3740d2189e8777df18c43f91fe3cffdb1f3b3c82a42923cbd3 -> a3d7551cbd988270b31f3f6d9f41febc5929c16e8a7338550a01b4a1825ff6f2
+~ -[SAAppSizerResults print] : 788 -> 776
+~ -[SAAppSizerResults updateTimestamp] : sha256 43cb7201b8ab1022875fe40e2302c1b5599a299265f71473b09a8181783587ea -> a4577d015db410542a54d019e2b56540df743eacddcbea7cb729e516d2ae2177
+~ -[SAAppSizerResults updateBundleIDs:withDataSize:] : sha256 d4ea0bf7c2367d9f9186211edcd3624354c6f8a4c55a0f9f4a1a18e21cb7f7c5 -> ec8cbafcb04e475396ddb20c45d434a7fefa0f81deec90fa01737f57201d10a3
+~ -[SAAppSizerResults updateCacheSize:cacheIsPurgeable:bundleIDs:] : sha256 b5d43335705b15e3fe14bb951fcb3d47573a53eca5f775a3f333f307089f5a55 -> 4c544e88d6c048ceb86b8cda08ee1173f1bb5bb39972479cf9c4eaabe509c561
+~ -[SAAppSizerResults removeBundleIDs:] : sha256 16b0a28d231f1eb8357177224d38e417a1501a36828b45f581d7e11bfe1bdf5e -> c29bbc8e36a29fdc2c3a31e4c084620ae07009eb19a1f4fb6c1b45538bf3af62
+~ -[SAAppSizerResults zeroSizeAppsFiltering] : 468 -> 464
+~ -[SAAppSizerResults postProcessFilteringWithAppPathList:] : 1936 -> 1940
+~ ___57-[SAAppSizerResults postProcessFilteringWithAppPathList:]_block_invoke : sha256 13d060d81fa4b80d1492aed1459a540b62c48abb144fa9633666d97840811247 -> 33f2202b5ae3a67bdd43a70e089b5515f92ad1305e1cbf98f9911141a206fea5
+~ -[SAAppSizerResults postProcessMerging] : 1032 -> 1016
+~ -[SAAppSizerResults initDiskUsedAndCapacity] : sha256 9e97c2e181c23c64cd27aed5f58b4758af9f8334409f8c603d13e468f7c146d7 -> 34ed56d3d912b51ae9a2ebc49f8ea6fbd0e763db595e8168034371c3be30ce1b
+~ -[SAAppSizerResults collectPathSizeInfo:info:] : sha256 5ddffe79e4ac9c1fc941713147d24e9ada0d29e7f082a88cb4991fa50e845114 -> 4854558f84c88907dea7d7132776f21fc8070e5f5e25054948d5d2ba3ec3d8e7
+~ -[SAAppSizerResults encodeWithCoder:] : sha256 56bbcfe4f34bde1dabde53af8b080b98288adced5e2d5003f4c62be1bd56fa61 -> 7b9781c4f45689b666a30f6854a7d504b8155970745f1df7ed3c7a205af3a1b8
+~ -[SAAppSizerResults initWithCoder:] : sha256 22cea4b73453172f94b0f316783c9a96c1aa036011f4a673e7ae611b45a5319d -> 6b1dc740af0e2a4ffb1cd10579aa2df6458b6e209c83ea4b2b38d635a49cfa40
+~ -[SAAppSizerResults appData] : sha256 df727727778e1e7397696a41929a214e01701eacfe32bbbb40b3c8151df59fc9 -> d0114b1d291af8409941b6e3b5c5408e95163d02af3a631f2fd29516cc9adc75
+~ -[SAAppSizerResults setAppData:] : sha256 4d757ab208c43b817e97dbda3c40e2e32e96a2a3c2ca3df76c9d0056449f8b2e -> 869353b4cce17738223e49a1d8f48912ba0f0050d712feb4c65f341c4af4b48c
+~ -[SAAppSizerResults systemDataDetails] : sha256 69dab6ae122e4f8df7b8d848b571d10840e4cfef55fdeca1812124dd56791595 -> f2d201fc7e5955f1a275b519e6a01fdbf1d037cedd0bc606eb2cca21268de284
+~ -[SAAppSizerResults setSystemDataDetails:] : sha256 600a08bee5cae2f5643168df76d7e1e065b3ccb9f61b92187e42036dc9ea8795 -> 29645bb20386f1b6d5496127bc709837ae5f9c0d071f5c6282dc91eb496f3765
+~ -[SAAppSizerResults systemDetails] : sha256 30548638ee52ae204aaa884413364304efb1f40edd5b187670f21eb6181b61f2 -> 81498d9ce4456155743cc86c5a782728ceb2fd5de11293c3f6048d08312ed7bd
+~ -[SAAppSizerResults setSystemDetails:] : sha256 0d3f1c254352fa5046fc121fea4979599f515124a16f95ee0fbd3478311ec21a -> c090ae1f573ba966366dafee036bb7f30e4b635947d0b590e79fb41255b3b7ab
+~ -[SAAppSizerResults softwareUpdateDetails] : sha256 2c946cab30024f19a38c56dd602682190885dcd182416d8f64af72484a247fa5 -> 4c19964702665ad3bcba2ff6f1f4857eb78587cbe74e3f71620b7e0f43dc2cbc
+~ -[SAAppSizerResults setSoftwareUpdateDetails:] : sha256 b9de26347dcdd72596811e699d977aeba17ac30e31c1d1a583e4fe9af5b86699 -> 229b9bf9cb123835f513163a7bfe710b88d06ec9456126c28e169a3ecad58794
+~ -[SAAppSizerResults reportedTelemetry] : sha256 4af8e5245bc6a4754480e3f579deb39efbee452c6ad0db168c5c9e0557195fb4 -> f760d241bec4e0945edd6e7fe4c3ca988b35b396bac1f4eaf4236c4a2001bd00
+~ -[SAAppSizerResults setReportedTelemetry:] : sha256 802569ff6faa05d95c6fb191d8e52edff277ab66220d6a2401f7bcd1221b4fb1 -> 7af9838e7f02bf0134173686dd7d90b78a65e6bd896f715975403c68cbc1c655
+~ -[SAAppSizerResults pathsList] : sha256 da09df4c483f49c178d6559b327cdd76caff079721ff20f5aaed0094cab6070e -> b7f4e053d85a886846d004ec356bc2247d333a1ff7faca52804ba31213c9926b
+~ -[SAAppSizerResults setPathsList:] : sha256 d3940fa4eb10c4a7e26927021f904387c88f6835c184952699fc19b0ce50d756 -> 1a3f55f34335038834de3e2be24f2aa6ee6aa443afc745f0d8acf6a592d842eb
+~ -[SAAppSizerResults attributionTags] : sha256 042157a45e790449c7a24bad76a8f01ae7d40bf73b8a13cab8c9b6ae663b1365 -> 1e8a5a56f9973aaf4e340897e87866eb0962b5de16ef77e21811450b51b82d87
+~ -[SAAppSizerResults setAttributionTags:] : sha256 981e13befba76e1b024fe1a6f19ad45c9c2d9e3968e21b41981503847380e188 -> b42164b95da0797d92d748680bd600e6d95b1acf7a30f374a7b886155a62bb27
+~ -[SAAppSizerResults clonesInfo] : sha256 becedc55370aa9122ab43874742eb5568dbb0a387b4b0a16062963c9e2fd4a39 -> 9deed85ce48fc9573bbae9327a3dc38f7b291345957ca07b6987f3faac08adb4
+~ -[SAAppSizerResults setClonesInfo:] : sha256 2a439a5d9dae7c4978045d5cbddbc00fa9deb2e384656c05286abcac4ed4cbfc -> ce3df2a742e751ce3f1cb9886f4fe91e99d70ce968299364b67a3bde712db0ed
+~ -[SAAppSizerResults FSPurgeableData] : sha256 9238816041a2648fdb99163d6610b2724254243e86fbda3053f8488ae66c947d -> 91fdd7be7029574e5ff00224e24f5a2d1bf6b844be107f39072c531266bab40f
+~ -[SAAppSizerResults setFSPurgeableData:] : sha256 f127d1c8f141cc9736c0edc082200a5f23849978e0e6aa7213c58d2d93f43270 -> 46a0e623a45d3a072248d1e637b6a7506455c453c2accc26cbfac40656784dec
+~ -[SAAppSizerResults hiddenAppsData] : sha256 3c394ac4741f6574b5ffc6475256ca9560896c273791d5e1ee33f5d2ae583c59 -> 1032b5caaf817b22d4573294e60e3dc44db99dd98a809cf60cd9617c61c91201
+~ -[SAAppSizerResults setHiddenAppsData:] : sha256 de8aa6513c4b31b0e80c3fc7afd4be8718e433638b8632ad5daf915152f508e7 -> 1d9d7c1fb86e910de4580742239c7bdf5b926467d1a183f333e6c7d6c291be8b
+~ -[SAAppSizerResults appsList] : sha256 90d9a05e10133cae948acd0510fd22561b8e0e64eb2db5526460cf77a3e0c564 -> d4b4f8be22b0136d3e67c19ca5d8ccc417132b8bc02910af7a14c3b191586ce0
+~ -[SAAppSizerResults setAppsList:] : sha256 fafb655c5677ca3edc59fbbacc078366867c6245616f5cef11c2ae8d242621c4 -> df92b308a84cf5836c8849b94100bbc852c73d81f63abf6641bfd8a04045968e
+~ -[SAAppSizerResults zeroSizeApps] : sha256 2cbecd605f7084c9a6ca38c3ebc7a973558a8768a98764b7709f014485d0a849 -> d20a375d00d26811f84f18d5147b1e9a23707967ca3fbbede0a79e7316f25eee
+~ -[SAAppSizerResults setZeroSizeApps:] : sha256 425954910fa621410bdac8bf76be205874e72bbd430653a0514e0b398e8ee5b0 -> 8f0c26877b1ec1e90aef750e529a1fed03530a7226fee70db246b83fd4f147bc
+~ -[SAAppSizerResults appsInfo] : sha256 4cee4fb2b533d300cab57fd4d3cc578224f4801e50618af700a2c66b6fae15a1 -> 60d58e7322022a753448238a55f2efb0733f4fd99125b0980b81d00a195f7c6b
+~ -[SAAppSizerResults setAppsInfo:] : sha256 6325d55540a6a55caba4fe6094119e8465941b79573d553fe696935134891fa9 -> 099be4dd9159768ed4f77682dfec14a310b57f838cd532c604d0d54bc4649789
+~ -[SAAppSizerResults appSizeBreakdownList] : sha256 29abccb0a443c15a2d8cab7adab81a4919d71a13a00283bd80873b707c84280e -> 925d24d1b30ace85d48fa6e19a08a6b91fe536e2f44cce4884997371a32f3a3f
+~ -[SAAppSizerResults setAppSizeBreakdownList:] : sha256 747e70d09659b2645c18da4cd409930ff7384ec6f31fa22b020d8ec09b7b894f -> 0d6db5fcdc5dbb0dd2ac130ec724fbb840c1e9b41fa109ce49a00803096ca8d5
+~ -[SAAppSizerResults appsDataInternal] : sha256 86aceb9d8e801d72686d9d6e5badde8a444feef08624e644911d1682f0fd5e1c -> 54ee07cf58ab47038677990a1085d832879f76956039fcf606b4dac198db7103
+~ -[SAAppSizerResults setAppsDataInternal:] : sha256 f42555a70fbba5112367a4b4ff2c755f9ef9cab62df914c3d76f3d6476895ada -> 0f0723091f49a5409df69518dbe9c3b23fa9440f4ff7c1d83a7dce5bcaa0fa1f
+~ -[SAAppSizerResults .cxx_destruct] : sha256 be70f34c901acf02c847d82e362e0eee2c2c2d2d31d2fe7a6adceab9f35efc16 -> 4515defcef8b7a14d95909c712fcfe88920b757ff9d11c0af3d6736b8d0fdc6f
+~ -[SAPathInfo initWithURL:exclusive:bundleID:isDataURL:] : sha256 5442bb8fa99db8ed41a6aed0a63d582e3775a589e6a270baedf102007a9ecd03 -> c09aa31009cb0af827d529a2a34c5757c9c53ee96d4cb1f260cb89ef5ca5b813
+~ -[SAPathInfo initWithURL:] : sha256 5760ee3c204591f921262ae5ec819056c154b8e203cad62155bc5ffc6e32dccc -> 241da1819ab71e09e5530deb47ede0b6d7a283bbfd86ff050201d3281befa702
+~ -[SAPathInfo initWithURL:exclusive:] : sha256 1407fff5d39910506df00c152a90ea32d52d69af2a8bd6ac6f98a5bad15aec0c -> e0c16d1c9ee8f27531ca78ee36c9cef359daa7c8e2e9da183c28558eebb094d2
+~ +[SAPathInfo pathInfoWithURL:exclusive:] : sha256 d55adec80d74abe49d95ec4cedf3ba5f654976ae6d2aa1a10cb81558f2e3bc20 -> 6a09eb64c70faba6d1423c92ab1f5b2ddbb7a1fbbd876f311d05c5e61e61461f
+~ +[SAPathInfo pathInfoWithURL:] : sha256 df248edf4b06a26676861c9dafed9382d78a4e59b290188b4a602d858b8e1646 -> 53a13f308dbbe4d848a5fc3374d7177397f67c47e97084a797ea97e555c5d3f6
+~ +[SAPathInfo pathInfoWithURL:bundleID:] : sha256 2c737aed57cba54942b2eb7739ddf80ebd844afd92d41dd8efd51e5c0f54312e -> 95635cc7b9dd559327a6609814d3513a360ec32ca259e63319dbbbc1e294bcd0
+~ +[SAPathInfo pathInfoWithURL:bundleID:exclusive:] : sha256 18654cb2f2d85f12bae89dc4b6011378bdcd8ace7ddf0fbb4cbe25af30b69f02 -> 631262ddafd091b061bf1ecb24175f24923d772174d60441916ccca0f944a8c7
+~ +[SAPathInfo pathInfoWithBinaryURL:] : sha256 6b46d2f23d47d8d61a56c0416e8449a746d2d91c9d836932b02651d626da1c5a -> c920de378cd2c4d478f821a58f383e0e42fc5a82f55983bb666115edbf9a3d3b
+~ -[SAPathInfo encodeWithCoder:] : sha256 bdd2f8b81d7f21b97002201f8d4d265f49803fe735cd4afaef7744a93ed20a83 -> 8800c3715a2b0a26db5aba8e04897e2a85df37c0ee0ea67fc831442c9d6bbb86
+~ -[SAPathInfo initWithCoder:] : sha256 2c3b3eb3156eb45e14d5a0f51eb592c84b0ac5298798654abff2ccf0a8a03b6a -> c40b363c93bb2d0d85d01022c9f92330b3938073f7f6f3c10a4de06b0cce90b3
+~ -[SAPathInfo bundleID] : sha256 dcc2d01b4ffec63d3ce165dd41816ce85d048ac3f0adb7229124b2d797ed8c82 -> 34a245bd263674b35d43367fb1225d318455940eb53800768b115c47c9e49ae1
+~ -[SAPathInfo setBundleID:] : sha256 7e8129ef5993372f1660eac7a68708efecd2a93e8aa2c4d269ec5b70db434382 -> 49b9855772a108b948c4f670b98aa96f53aa87bbb6ad565541dfdbecccadd49c
+~ -[SAPathInfo url] : sha256 e7ab32a2997e160bfc3a200ddd71dc7bed2fbb6e74562c087b5232887ec17878 -> 3b9a7fb1dc9e684075295a0ccd5ee7a1a0c9c17e595d4b31fb2ef21c3b6a6fd5
+~ -[SAPathInfo setUrl:] : sha256 d503006e5ecc17607b89001dd139d4949d4fad740db74a65256642531bb9f1ea -> 440b7ce3ebc1aed7a86ecc5b3555d663b1b0cd422bf777b0ee677990544272ae
+~ -[SAPathInfo .cxx_destruct] : sha256 0ff33a31102b5675d162cee20a2ce5f4b8e9e207bb77b961e03829dcf6150431 -> 8cccc0a220687d2cf29c4d1c0c1c0d7fb472dca5ea784c185f2d7728bcb44714
+~ +[SAInternalAPI getAppPaths:options:reply:] : sha256 e91e96e11c4d567d48ed97906650f4321c3f08c9ff59ac8dcbca12f9c1b04267 -> 850ed238a0b18928a5f3982ee89642392f2de171fbedc9ae8ddd9ed90bcadf7a
+~ ___Block_byref_object_dispose_ : sha256 4a387a664b6af32e43e353675c258e105aa30f26791190224098382bdea63ac4 -> 7ca15d824b09bc26f36977b6c93660852ee7bc9be867182be13c21264ce31d01
+~ __43+[SAInternalAPI getAppPaths:options:reply:]_block_invoke.50 -> __43+[SAInternalAPI getAppPaths:options:reply:]_block_invoke.53 : sha256 a3c65cf8d892c553ca202822e392d8b0f9758fe32258479f6338a277b9fb25fb -> 8e82827bddf9bd4a697a686b7f9680c5e3221906d0c341ed095cd5f404b906a3
+~ ___copy_helper_block_e8_32b40r48r : sha256 46dd3bda2dc8721f87f452828cada7a073543594d86f58b8cb8300829a7dcb3b -> c3ea0dc368c53f1da069183dbb48412baada09478cc5962560f033aab52598e8
+~ __43+[SAInternalAPI getAppPaths:options:reply:]_block_invoke.51 -> __43+[SAInternalAPI getAppPaths:options:reply:]_block_invoke.54 : sha256 64b439fda83ff4cd6ccc87a46b7bea92b826f239fc30689e404488b3078aa8c0 -> 9a351f28e1f90735cbde3408461412573d8c3abfd5c269c760fed290f7a7e6ee
+~ +[SAInternalAPI getAppPathsWithReplyBlock:] : sha256 e4d60cf837253c19bee426bae6301040e433be41cd3cc7c33ffe2dfc8bb0a49c -> f8b4bbeef36abd867a3879b026bfadfeb6eabddd06dc052e9273a464f1b79bcc
+~ ___43+[SAInternalAPI getAppPathsWithReplyBlock:]_block_invoke : sha256 25108e7cf1d5be07d12ede141f81ad4ade229a6b06ae9d391dfee46a76759846 -> 942627c85e1cf8c144904a7d3461b0c0dbabbace631c491632757853b8271dbc
+~ ___43+[SAInternalAPI getAppPathsWithReplyBlock:]_block_invoke_2 : sha256 594abaca09c78eb1c447d0b6954e632fa09ed0b283f530b59bad40890c7df72b -> 83e09f986712fe8d0e14fee31ce4f9308566bbf1516a750989ab33cf5240ec5c
+~ ___43+[SAInternalAPI getAppPathsWithReplyBlock:]_block_invoke_3 : 476 -> 472
+~ +[SAInternalAPI runAppSizerWithReplyBlock:] : sha256 1dd26ac07f03573942941111710fc2f25511d58ec81afb707462a378503d4601 -> b15fc94213f4182050bdce3915f2d712ad255fa0fa2d937ee5ce1c25523760a2
+~ ___43+[SAInternalAPI runAppSizerWithReplyBlock:]_block_invoke_2 : sha256 6ed84a0012ed90557a9958e32271f3a963d268b519905c1e596be9677c3ccfcc -> 347cf8c5628ae4791e7b16021d0a5ebcdda9f0116c37f34a33736c09f83dcbec
+~ ___43+[SAInternalAPI runAppSizerWithReplyBlock:]_block_invoke_3 : sha256 b2089abc9ed66594a99afbbde7a2e7cac92befcea075a0242b151b38cc9ae265 -> 9f584359c17ac536611683582140252740b28ce88417a2b85f3cbb22a752cf05
+~ +[SAInternalAPI getPurgeableInfo:options:reply:] : sha256 0319ad0b643f2a5786588867c739e234c68b478e2dfa31bd0f2b590203675035 -> 04019a27cffb91a53125bb24a98c9e4a7617ba9cf4da00de7a2937995a65bbd4
+~ ___48+[SAInternalAPI getPurgeableInfo:options:reply:]_block_invoke_2 : sha256 5b0b8a6b9f303ee65ff0282d06aca0b245ee7389fca0f54ab706a4c685b6b093 -> 2823cf47b886d25ecb8509c5a3408713b7ec8add4fe1245f97474bf092450789
+~ ___48+[SAInternalAPI getPurgeableInfo:options:reply:]_block_invoke_3 : sha256 14344da5e35d8a0d263775a17ed1b7df011474187fcd8149f500c13c2fad6560 -> 93879430babda5914dc3b6581304d90db3dd4f6bbbafa72d1d7cfa0830984384
+~ +[SAInternalAPI addAppSizerHandler:reply:] : sha256 e845be11ce69963d0b53d3243dfd5eb30401b527f25afe617862fe4c9ab229e5 -> 525163f61b8d023ae9cfb936cc3627fbb0dd0e75a08b6f0e72534fbcfed9c809
+~ ___42+[SAInternalAPI addAppSizerHandler:reply:]_block_invoke : sha256 26ed125d9c00a4fedf1a3a0f7d394fcbf31f0b7fee60524eeb0acacc5b520c15 -> ff999aad38172c8c41186a15f3d76d3cf307ce3a133eb462f0c553d97063d361
+~ ___copy_helper_block_e8_32s40b48r : sha256 3676a908507b81643349006c3272d1148949ba88810ff204b6d1ed6ac51ea88f -> 1d532bb8dcd02a6628b3f03b09238c6eb18a5464659e769e69d7a96ef145bf05
+~ ___destroy_helper_block_e8_32s40s48r : sha256 4bc4f7d498a8969f824b32a9b011ea706fa535522e11b8a5f0915a7fbd7eaf4c -> 00400add4470019511e14cf178c4c2d15b135d7a0cb5bf1ca7cce2e64c0c507d
+~ __42+[SAInternalAPI addAppSizerHandler:reply:]_block_invoke.66 -> __42+[SAInternalAPI addAppSizerHandler:reply:]_block_invoke.69 : sha256 147eb555c4611e16537ac557c4531aab3b958ae480a029d4b8fc68278c3d0887 -> 4176c098ef357cd87bd7119b2c6c17f7dba35dc36a9e53a62e1ef590629c44f9
+~ ___copy_helper_block_e8_32s40b : sha256 6938e0a392d77cd2176543f34cac40070cca7b472f19ccd96bdeee6da38f782f -> 140754e733de5a0aa0229f869a10cb7e2cab2efe75d9ee397520c86bbb98067e
+~ +[SAInternalAPI removeAppSizerHandler:reply:] : sha256 750a8eb564308b2a5f70cd17f01e95454a6f05ce7765f3cc817a4de644466254 -> 1210ada992a4d6536b4c8624a2e8fc0e5ecbb67ded6c8d21ae155f0e28c35f71
+~ ___45+[SAInternalAPI removeAppSizerHandler:reply:]_block_invoke : sha256 59079d8e11f045b957ca8f300682ddb3669395d741151e9cb7b8131219cc094c -> 8dd1cae6a88d2e184f8728b227323722c2a7b8c1576f820b471c7aa8417e98c6
+~ +[SAInternalAPI disableAppSizerResultsFilteringWithReply:] : sha256 71914c8fd66ac55847456d2afb07bf471db87fd348e31581c718e03fd0a30f3f -> fc12e2cf639fb15dde933c5ade19ad5cb306923c264ec9422ca69d10fa7543f0
+~ ___58+[SAInternalAPI disableAppSizerResultsFilteringWithReply:]_block_invoke : sha256 c14b44aca8195d319ad6fba8a3cacc803c915def17527028d52923cb1482cbc9 -> e17c5bab710dd68a6c822fb96b642c1c48ff779cc90585674d4cc700e874b27b
+~ ___58+[SAInternalAPI disableAppSizerResultsFilteringWithReply:]_block_invoke_2 : sha256 07610575cf74a87302855ed2ccff1ea218d4a0de003c14a47bffc72ed1402db9 -> ade91f849280deb1efbb05b55d2695ea1015cd5f0b728c1afc23e1bfa84e8638
+~ +[SAInternalAPI setAppSizerFilteringOptionsToDefaultWithReply:] : sha256 44718be8edba99e609b72963dba60109d8d5dd51edc18559121184657ce61a3d -> e8fd13638022e595b57542e19889d3e5ce6ef4fbc528d06bee7fb35881ab4fcf
+~ __63+[SAInternalAPI setAppSizerFilteringOptionsToDefaultWithReply:]_block_invoke.68 -> __63+[SAInternalAPI setAppSizerFilteringOptionsToDefaultWithReply:]_block_invoke.71 : sha256 71d37726534565545fe63f7be34393af34ee08be1555055c7ecbb60d98c37ac9 -> e04449d8eeddb3f0701ba1baf30323cccc6ebb7ae9f5362a8d4aea0539b84992
+~ ___63+[SAInternalAPI setAppSizerFilteringOptionsToDefaultWithReply:]_block_invoke_2 : sha256 2637bc87eece446549e62704974f5c1e4ce4d556ab24ac637ca990560e4c238c -> 872942aab4ee1b0f95665b7fd17bf872536ea2108ae68a7d9db34e596fd5f408
+~ +[SAInternalAPI setForceTelemetry:] : sha256 779fb626150e1f8ea48f96cdbb6a84543a53729d57f91ff0eec4228f4a4a61a4 -> 441196446122274c1e1408459ee797954a3909fec6905fb41c5626a24b4555f0
+~ ___35+[SAInternalAPI setForceTelemetry:]_block_invoke_2 : sha256 5c2e7e51dd4808d436b080ad91e50d17649caeedaecf2a1f3156e71c52197027 -> bbcea8a7e2b4016a436b0bcddbc5e24bd02d46ce3818949feb030ab8a075ada6
+~ ___35+[SAInternalAPI setForceTelemetry:]_block_invoke_3 : sha256 b4072783bf8ebfa408f406a7ebd1d3de9821b43060d7ad7bb61c169cc9baf1de -> c59010c0b2efbb900a6e7246ab96f915f9c99fc907c1f44a9d3f7c0d405f1f39
+~ +[SAInternalAPI setForceSDAAbort:] : sha256 0a6edb5d89f5bfc6d1e68e78146ddf1fee8fd99e88455a6dd3be76780aefa608 -> af5a73a47f315ea73155706c627560c9645f7c76e9a4ae1b9913cd4c612faabf
+~ ___34+[SAInternalAPI setForceSDAAbort:]_block_invoke_2 : sha256 6869fc6901b7e5ab443613c82fc87a444fe16a4aca3b627376db518949c4abbc -> 4f6a1c7b96143fdfcc1ad51c0bd55d8b2186aac88cb4795e96a56f7f79d0d6af
+~ ___34+[SAInternalAPI setForceSDAAbort:]_block_invoke_3 : sha256 96a857f0eb1ef43946a4ffa9e96ffa9b3ff5053c59ad03916a5213d69525c2de -> 0997491e7c359f50c352a83a2c4b83f65e6ce91e616487879966554511e0a6b2
+~ +[SAInternalAPI adjustDenomAgeBy:reply:] : sha256 b3326a58a7e10ed9637b30c15bd471a8a6bdac0f3f996b2aabd264c927741686 -> 97336c560345b5d34fb22b837747d9cd2ddf9dc534c677a52aa4db29dd22ba29
+~ ___40+[SAInternalAPI adjustDenomAgeBy:reply:]_block_invoke_2 : sha256 d800444d788a06d87f6217dcc5bb2d77e48bc73bc5df06ba6847558fc780782e -> 052aa33826ecc5380baf24759efd938f4dee6dfe5d203f0af53746f5443cdde8
+~ ___40+[SAInternalAPI adjustDenomAgeBy:reply:]_block_invoke_3 : sha256 e2bb40fee1b640445f97442c4e37528fdc773193cc2f93d9bf3ed6d1adb72c19 -> cdb97cac8bf84b8659fe6305083552f838370b13ad8d434058dec9dd2c866ec0
+~ +[SAInternalAPI setForceTTR:reply:] : sha256 15a3b9848a5c0782ef62ecd33c00328054d24d3723ef2297f4340ff62573f442 -> 808603355b134ba9f911cb487b27e5c62f631e1db997f4f26e62615382dcf221
+~ ___35+[SAInternalAPI setForceTTR:reply:]_block_invoke : sha256 9028091bfd7d62466233118b1add5685200cd33bf407210507ea9ed8d83ffd91 -> 4ce2f79aa9e27d1a0ab9a757dec2127908083b2b7a44585853353422b9e75978
+~ ___35+[SAInternalAPI setForceTTR:reply:]_block_invoke_2 : sha256 879e0b405d49e486a036119bf69c3af7c3621c1335c75c35a04924f895ec1ba7 -> db62d25c08e9bf228d19f4d78b7ddf4b67664183fd0afa6d017dab4efba67b2c
+~ +[SAInternalAPI setEnableTTR:reply:] : sha256 1d8cd5ba5ba73911d9ff10ad5e0e0e50fc1985d45f0379df0ec6b5b5ffe51da9 -> 73b8f9bd63575e2517ba698d83ad59ac2a8b345ccadae6b48722b9584dbf9d53
+~ ___36+[SAInternalAPI setEnableTTR:reply:]_block_invoke : sha256 560cc0254db70749106330f15a5ac4d7b3144c575a57fad4b5018543b739c513 -> d0e9e72aae11c1b96d9659d82de29ae48b64ab49229d837545b517a2ff16a0cf
+~ ___36+[SAInternalAPI setEnableTTR:reply:]_block_invoke_2 : sha256 a80aa996a187fad8fdb80ae71a1cb9c363ccfd431de310443b982e046627a835 -> 78333c7764315879d23af4856496da3e42158bf973364a209682e1d532dae504
+~ +[SAInternalAPI setAppSizerMaxRerunTimeout:reply:] : sha256 b68bcd91aeede8da8c56627a342db616daf8f41796f466eeed408da019e72b98 -> 2e887cf30491f48964de282f2b81cba114c4534b3ea5ef7800b168e01a6919de
+~ ___50+[SAInternalAPI setAppSizerMaxRerunTimeout:reply:]_block_invoke : sha256 265ae94656758a6c11fe03ddc48ede3125ab3dfaa011da5b39b8643cbf308e4c -> 3757f7d2971d78c80657123e6bda0978fc0a9577e731d284d8d7e598640f5fdb
+~ ___50+[SAInternalAPI setAppSizerMaxRerunTimeout:reply:]_block_invoke_2 : sha256 941c5e5834e74a7cdb29218a3d9e9ce1c4041c3efd8f94c984db6fa6b09fe1d7 -> 2d89bb2187bbc313eff62ddf09ec44110ee77c4cf6ee140b5429a553385d2468
+~ +[SAInternalAPI getLastTelemetryData:] : sha256 bd861315288921c553153c41d2bf46e1a2d4297c70ed24af49bcabaa7e2219e6 -> 28d77b4bea18c27120240c8a09c433c46949cd4070cb17db007030fd2a70c64a
+~ ___38+[SAInternalAPI getLastTelemetryData:]_block_invoke_2 : sha256 b397c8494c7e0a7b7374948a232d2462632142a8c8df73c3513604ee020c3f85 -> ecd286da5d1908b06fd49e658dffe5b788ca6307a5bd37b48c1b1fc90b34a677
+~ ___38+[SAInternalAPI getLastTelemetryData:]_block_invoke_3 : sha256 b47db03e28ba4be0a5249ac99286d03b6ac0c3cae40c9823307abab2a6548896 -> f852b2257aa356535506efc9a21c6cf4a32f857f105c64719242fb2090f72fea
+~ +[SAInternalAPI importFromPlist:reply:] : sha256 c1566afc9f95080ca717db2b3f187e414d9837cc0c20ab2e6175b75905f60f76 -> 0d14392011689fce9459e2795a8513697d4d761a69b054d42dff6f31e30a3501
+~ ___39+[SAInternalAPI importFromPlist:reply:]_block_invoke_2 : sha256 255ffb5555cb7941c0764db6dbf3d2eb2a4c7f7d504df69d35eb34bffe71ce02 -> 6797b77d8fd7700b6bb0696b35703026bb25e74457e78c628102718e8d9851d5
+~ ___39+[SAInternalAPI importFromPlist:reply:]_block_invoke_3 : sha256 f6c3c794a9f6ba2bd38ec79e1ddcc126ac65fe3bdd08c44292068655f4f903c1 -> 620b5b359b91dcae90bbc41bf6defffde784a8dbd87e00dfa97f8ae9a6868a88
+~ +[SAInternalAPI clearLastTelemetryData:] : sha256 7e2591bcd0f6d3481082c425089facc4eba49108712bb11c03a27e24c3c16afd -> 80375399f08939721ea134c4898f5be227e337f48b593f7e7b07056246696818
+~ ___40+[SAInternalAPI clearLastTelemetryData:]_block_invoke : sha256 655749c595a79ef41be25165ea4c9c58dc6aa4148d53fb916f60488f25195ddf -> e1e4884ca48f4e426f609c27d2618625a1401c97ce359b6f633bea46c5909f47
+~ ___40+[SAInternalAPI clearLastTelemetryData:]_block_invoke_2 : sha256 30202b69f3d4b3b15aa31fc0efdf018af9b9ebebcbdb234870208bc4247d585d -> 41e363cacba0d34c6b7ed0a5d6779827a39f4cc91a50b6c63a6b75e8d81165d6
+~ +[SAInternalAPI setAppPathListPathOnDisk:reply:] : sha256 e30ac882119f6c401fda1acb5a67a604cf6f06b488d5d7f0cf459698a3fcb9f0 -> 5121b29a3f958d72c468e2f543cfa85868d4a8c21a9918cebcb985179bde5a98
+~ ___48+[SAInternalAPI setAppPathListPathOnDisk:reply:]_block_invoke : sha256 b71898568d9911b2cfa3792e91da97d237da6bee3ee296a974c54cfbab7c9f29 -> d8cf8c5561d1d3f1713700415a73bb1ab5a7d2bab0d46f909896dbeef5a6819b
+~ ___48+[SAInternalAPI setAppPathListPathOnDisk:reply:]_block_invoke_2 : sha256 99ed784e49956dd444e8c4e321b765619801e37df76b38a6405d01876e05d263 -> d823aaee719f70849b3b36384f2642f50e4bfa2af51fd7d7abd007362d2cfe7c
+~ +[SAInternalAPI setAppPathListPathOnDisktoDefaultWithReply:] : sha256 0a34b8231dfd4defe6dbeff4d341b208ca0fd8a6fb0e2d31f3460eedb8589066 -> c3a904752b57e1c8c3ff920f1afb112047ed3aef2d8edb3833f2d50da99027fa
+~ ___60+[SAInternalAPI setAppPathListPathOnDisktoDefaultWithReply:]_block_invoke : sha256 d5e0dea0a2bfbf6908c46a74b5cd83a07d522add6a6ad05bdc8741c6eacb964c -> bbab8b8447b3dd27fcc2cf98f89ad4fd054f7d637bb88697f3623a6866e3449a
+~ ___60+[SAInternalAPI setAppPathListPathOnDisktoDefaultWithReply:]_block_invoke_2 : sha256 56073951019d3778132f68385404b5c8d1388604718d38bddfdcdc7cfa68e2c0 -> 15848606da5fc14ccdf246064113161ea814cbfe63dd8dba00a8a0708338ce5f
+~ __64+[SAPerfPowerMetrics getStorageConsumptionMetrics:maxAge:reply:]_block_invoke.cold.1 : sha256 9560198fde60b617bcd5d85267d7a1d14d45e9779b0febc497a2d7e0b2e3f4c3 -> 4fbc0bb131555794a727205d0b12e862efc23df85c18387917a5331332ed763d
+~ +[SASupport isItemMountedOnSystemVolume:].cold.1 : sha256 624a6dc2980d285ed21f70c17b6c5c314ef0fa1d14f46e016fc24379b4b8fce0 -> 747a6eeb0a316becad6327d012e0c0353be39f8d5958e935fa8e652695f430f7
+~ +[SASupport enableDirStatsForPath:orFD:withOptions:].cold.1 : sha256 a49a19ada4fad4ca39f2fb941390f0cfe343b931f7cea65e1d2a149a12fa4569 -> 66eaf5678cca3a7f0328ec9845212486f170e756155e68a283b6e7de630bb213
+~ +[SASupport getPathOfiNode:inVolume:].cold.1 : sha256 df13bd6a934a458a56f24fd7c17dec5093092e3ac9d8517ce102d9acbe91dafd -> f86ccb254c44f843d0d7fd42bbebdbd7395ab9aad3452e4604d46fb2d552fe12
+~ +[SASupport getDirStatKeyForOriginID:ofMount:].cold.1 : sha256 7cda2157b5b0c078002a5e1c8dcf15ee3cfafc0992161f679bc6c7258458e860 -> b5895b5f4a32ce9887f94665771f5a0052857cc951f6e64a00f726334498e85e
+~ +[SASupport getInodeForDirStatKey:volumePath:].cold.1 : sha256 c3af3a36b39b2608ee3a30805e44aad9d87b749188436398b4896214f7f1e7fe -> 05df2fd677ec39c92c4d968efa70307857b9401a23c1352aa61b9375a985e744
+~ +[SASupport getDirStatInfoForPath:orFD:withOptions:info:].cold.1 : sha256 d4a9298bf50fe4da9fe73e7aae13e615990c6f3353d928c58a6e5b4d2063743b -> 68490480864f194fd726150926f47823ca17a36a69f6cae7b711bbb8375d822e
+~ +[SASupport getDirStatInfoForPath:orFD:withOptions:info:].cold.2 : sha256 4d21051c3df604b71d75f1279eb6fd46ead106c5bba48653e4e52ce97b3308ba -> ffe3fc607e2083fbf0114ba225fa15835708a2750b298efd1ce56a9b99d6cf12
+~ +[SASupport isSDHierarchyEnabledForPath:orFD:].cold.1 : sha256 0516a27740818f8210797aec9047e0714fecdfd1809511d0c0cbc7b792188739 -> 7bbd9d9232ef18e90e8e7aa15d2348e64dd05104d5d7d84ba27cfed0487d12d8
+~ +[SASupport targetDeviceIsIpad].cold.1 : sha256 d8f31d60ef23fe4cee8c95b58328ab88ea5282e3d9b4dfd31f962d27594fca5b -> 69ba3a39e79f9f492601d6d4a82da5c9806f01ea53091459b0db8417fbceb0ba
+~ +[SASupport targetDeviceIsHomePod].cold.1 : sha256 0b1d964694518ddd2571bbf2e2680f5b3068d764204121d68c78c34962086643 -> 244b2e27bec51234c7e29f03ca33d666b40703dccbea0cacad8d07500e936392
+~ +[SASupport volumeSupportsAttributionTags:].cold.1 : sha256 a8fdb5a8be1fe44cb8b8db044d6de4145689d9afc54868a751dce63f82b19cbe -> 255eb5d9ebdc715cac2119292181ab294e25edc40f3a8eb4adc8312cdfe72ce2
+~ +[SASupport volumeSupportsAttributionTags:].cold.2 : sha256 1be4c4ad617d1e2616400f15813903006bdd8a128340346d6944533e07ef20e9 -> f76fc1f7a20cfdd6fd83f01bc0cfbd248e12e57f157dfdee7a82ccd16b045f88
+~ +[SASupport volumeSupportsCloneMapping:].cold.1 : sha256 65fda6237d007390470deaf2bb7695d6596d07156bc3934d231022c117786547 -> a592ed7569efd6276847fc3731d8122433eda7cb106496b96f8baec4ddf69e2c
+~ +[SASupport volumeSupportsCloneMapping:].cold.2 : sha256 1e45ba7e321f21dfa0e18fc1ce80e2333273411a4258c57610f00218bb5cb371 -> 79822dba4aca5f7fef6650de3b516365be553193707187c5757cb210e4ce3b2a
+~ +[SASupport volumeSupportsCloneGroups:].cold.1 : sha256 113bbed3ae602b006f74090ff14283e9f9f04de7c88650157a042edf38adb13b -> 4685da98112b58588b44f20418435e45d9daa947de6e68c203300548dbe48481
+~ +[SASupport getResolvedPathForFD:].cold.1 : sha256 447e75625fed060aa44834bd674f74d2d396492359c789177ddb0e2c28779a1b -> 9696c44a7a84841d6391238d4f98d8edcc3596300e80b5ff62e2ea6ea79b1878
+~ +[SASupport getResolvedURL:].cold.1 : sha256 a6042651e02335ff5c4159af47abb10f79a0e871999f01a4abff2f8e36d5b657 -> 8d9a16457a91835cb840358bd7cb3502fa0b511a36e344ce693bd796a63237b3
+~ +[SASupport getURLMountPoint:].cold.1 : sha256 65c7698b3261c9d9e790dac2b3b6dcf974f95284e755fd5b15681913a9bcc9b9 -> 5f8d4b38313edbceb895f255a0c51e1854dbd8f29385fefb6975915eca893f98
+~ +[SASupport targetDeviceIsWatch].cold.1 : sha256 0a35817424943d91b6591fe130898a63ca53231ff2d7cdac17a1a62f3578b2ef -> 4fba84e5b2d224d41b1b2f51893c4edbd41671e77a3b8c8a3c9a7e139224e985
+~ +[SASupport getPathOfNodeID:FSid:].cold.1 : sha256 a37af0f3109214e40d19259f934d68e0ce8a64e76865d4df3ea3f561883d8052 -> 63f81126a78076052cb8cff994a6a7e2212fe7f61840e7585eeeb46221d00eed
+~ +[SASupport isFilePurgeable:].cold.1 : sha256 b8114e2aa367bdd079478be79bfa9b844960be21cd7f6d17eb529216d3e4109c -> e01f75f0c1e378daad3837d3d9ea0e15ee9d97f29b62a19799a3fc4abb9f3d67
+~ +[SASupport isFileCloned:].cold.1 : sha256 769e8e1a77749b3cf6143eee8e18927a4351c62f6beb3f6883a9b8d5c709c1c6 -> eca8d6260baccc2469b287cb38f5fff9c06eebf87ba075b67156b9d667c32b8c
+~ +[SASupport getInodeIDForPath:].cold.1 : sha256 c328280e29f728c662529c59d78bf0202ca7b130845f8dd8cc561f5024638696 -> fea354a19e3cda25bf81e2822aeb8a22cc6dabf705e5f7fab6f4771b5ff85ba7
+~ +[SASupport getVolSizeFromAttrList:completionHandler:].cold.1 : sha256 4190b339b6ef84c033462c5546ef982fad221fbe22b4a6dca02db9b1d3f940c7 -> 1c8479ef0f964d599e569008b077d84383c715c7fcd13159ba8167a114c3f405
+~ +[SASupport getVolumesPaths].cold.1 : sha256 fe676421a507ed212865df909bbb40b3b5317bb7b481aca7be0605c0d0c84b7c -> 4b5f7a736217abd5cb8e2fc9f2555e02258c2acf8f408749be12e8126a70018b
+~ __28+[SASupport getVolumesPaths]_block_invoke.cold.1 : sha256 ee4df7644fff14595fa6e8b0b2aca95b1c6a9b8a1c0f593838ab63928b592378 -> aaf8a51df45cf27acf77e7a36ac633755cba0e9d72d52b49b637d03580eaeba3
+~ +[SASupport getEnterpriseVolumesPaths].cold.1 : sha256 b332c386a564ecd666286313e11f4882136c36a214589a8531d15b3fde98f7ff -> b983eb124f57a17bb60c217fcde16dca3cd16a36f150b4a80aafcf9d915ff9c4
+~ +[SASupport shouldExcludeCacheSizeForBundle:].cold.1 : sha256 ee5b88256c6f88777f7eb5bfe154ff624d2b1a0358838dcb284db2f3ddd8726a -> 3256d8974b1d5b442e3b9de33d12753217946e9d0c9e7b6952a637975ba1236d
+~ +[SASupport getRelevantVolumes].cold.1 : sha256 73996c37795e71aff8f4d347645e34d07c6f9656f3abfe61deef831701a295df -> 25a9260b238bf1eb571ed46b5dea6eb0a523f749f1f76b1c1341aeb71fe26ae9
+~ +[SASupport buildVersion].cold.1 : sha256 48eb6fd7a8a30ca6059b336c3742cde8347238487c858f246fe691ce3d3517fa -> a01ba6613e33c1478d9f0479190f828162d406a95c98d11bdb1b4679f74a2aa6
+~ +[SASupport getDiskUsed].cold.1 : sha256 0d5a1bce8dbcf7d0beb44692bc0036a4062fc52c647173b94cd36c4a4b38e02f -> b0d561e168a944c2fba2ef4a38b4d804e93e2ded496f32acbd425e7fbb0d8a39
+~ +[SASupport getDiskUsed].cold.2 : sha256 8262714b76904a57e868e1043c3ab077cbc23c4775ff2d0535c19a30ece55d34 -> 7ad98d0aeac273d31a7d1c176a8632c316bf68304d3a84c541863c65ba4e95c2
+~ +[SAAppSizerCacheManager getCacheDict].cold.1 : sha256 b0340883ec9d7a6026df7b2768a559b9beafd2743e50c189af9dfb6419960ddd -> 4c8488b5eb315ecc4e171cfcdb05a44bc2f503af0e9b0a2315465c14a2d225d2
+~ +[SAAppSizerCacheManager getCacheDict].cold.2 : sha256 1a987c4fedbce19af30d84834ec4b68833abd495a2e9971942ea77051e95ec9d -> 308780fde85254e882359690db869c5764c079cca1b18bb7ca45353c9bfa061e
+~ +[SAAppSizerCacheManager getCacheDict].cold.3 : sha256 ba8cc712e50e8f6d45d907bc7009e3879fdab15ebadd0788b3f8e563ed67b0f3 -> 53c8f269ad23b761483c40edabe083f843bd821d622e3573bd83ae35cf1df0ce
+~ +[SAAppSizerCacheManager cacheAppSizes:].cold.1 : sha256 2289ae9ae456a176dd48a81d211d6bf70daf6db5271dab77295fc8f93e2b5b24 -> 834361241a0cfdc36a225e66a381feb02366d7b51a9e0935800afb48b844058a
+~ +[SAAppSizerCacheManager cacheAppSizes:].cold.2 : sha256 58c665b4ab4fc1cd0682e77341bff01b6418f47474d86e68d2f659004a2490b3 -> 8e5cc71ef2d438fa9c62f2110d4b72a7ff51aec3fd2fb1747a5b9df60d2c948a
+~ +[SAAppSizerCacheManager cacheAppSizes:].cold.3 : sha256 0cb4aab3d1c5cb40262e5361e94680ce45f9a1795a2083fd824cc2a4309a9500 -> 62df38d1c025d11c2b7e9e4d6887b774939e9e801283b467b533512adc8e3214
+~ +[SAVolumeSizer isInternalVolume:].cold.1 : sha256 792059ec38ee85d775a9786698d26052c32c07a84f9665b25267b419a4a43db5 -> e258b0e6fbe5277bbbd17eb5407a0acb07ae1c066fd195758199c2d0ccb58045
+~ +[SAVolumeSizer isInternalVolume:].cold.2 : sha256 72d3f1a05d8b0841aaa38e7c310694ef4d9866b8cf6d475640553e18c7ebdf7c -> e1390eaeecd933dd246be0b908de54dec57a68da42f44387e19b7e33cfc66ad9
+~ +[SAVolumeSizer isInternalVolume:].cold.3 : sha256 d9c75f58df3cce8e1253e0fdb84134d748b2591aebfcd364b25359a3fe6d5bb1 -> 0d661d24121d9ffb1c34efa9ef641dbc5477374aca8859822ffbb98f3d4312b6
+~ +[SAVolumeSizer isInternalVolume:].cold.4 : sha256 fe1ef75bbf142dc54f003491a55630767b1a6cffabe8f26336ab0a04997ec37b -> ca0fe5d8703c24795614371df7d4543e168d7ebe6ebfee3283a540c24aed44b0
+~ +[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:].cold.1 : sha256 a8632403323c08505093b9fe4e0d5811670600b87890264bd1a5e97a4cc9f3b1 -> 71fec1a16607ce483d80205b3685baf80ae9e43b98c010a933282c48402a4ff9
+~ __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.cold.1 : sha256 c99e12f85389046c972b80969e1b8150fd82a5e2e858cb3aa9f869647e9ed773 -> ef32485b036120c4cce0a6a31b10b0228c6a9c5aa065b959db59b660c1011864
+~ __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.71.cold.1 -> __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.74.cold.1 : sha256 9b0c904cfacac5ff04fe17aaddc9edd8d24fdbdfae5586d67a56739b03553fb5 -> 7d0b82a076a6c1e047a133822e4bf4fd80e228bda466ccbc9ed7f83652dacd48
+~ __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.74.cold.1 -> __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.77.cold.1 : sha256 e30cbe64d32d3187dae20d72d01e35df6384761833297a47627b8d5e8f5830c9 -> 563fb2da70d7a0686c7b6216faf579b66d21d181cb0f31c1820cd32552df6e64
+~ __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.74.cold.2 -> __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.77.cold.2 : sha256 fc7d9616f9ab81adb8256fb1dafba5f0ddf0eadfd3e42c1b1f1bc8e9150cc78c -> 02d5f905ca9db3611dcb9ed4d6c7fb467a2b82997fd6dfc0162e085c019bf821
+~ __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.74.cold.3 -> __68+[SAVolumeSizer computeSizeOfVolumeAtURL:options:completionHandler:]_block_invoke.77.cold.3 : sha256 633c674ea9d11632385124aa64898a1a0afdc87f07540191c62fc81ef3698d77 -> 60bfec62563915d4e5d8a043a4ecd2303e12b5e1a9941d94a48c1a255592c964
+~ +[SAVolumeSizer computeSizeOfVolumeAtURL:completionHandler:].cold.1 : sha256 901cedd3d509fab2384412a042a8dc224972f1478424e2c4e03aecc782cb7107 -> aa1f463b97bf54c6ebc2b4e51e0e5305a1d8cb73f0b0b06c8428ff8fe216b606
+~ +[SAVolumeSizer computeSizeOfVolumeAtURL:completionHandler:].cold.2 : sha256 62cdeaec775bf25d7921d170d91816f678aa31a987a640e633cf10eb442325e1 -> c863ce916b64ab38ea92d135760f418143720fa9fb91972fa3265997fe130ae8
+~ -[SAURLSizer startObservingURLs:updateHandler:].cold.1 : sha256 869268a73785506062af53850f68826695415efe0b9f5cfda2877f5d1c380ed8 -> 5238c03f9b3b158dfe5925f56f6bb77206f4d3c5d6d812ae95f97dd9ecf1242d
+~ -[SAURLSizer startObservingURLs:updateHandler:].cold.2 : sha256 7d2188765542abf1861f83d6eab3ff2a41b6789f072c2f7503b18d62ab67f04f -> 3b94f818113fbac52a94c98541934846b2cba4e121091ddee1e8888c5afc1c81
+~ __47-[SAURLSizer startObservingURLs:updateHandler:]_block_invoke_2.cold.1 : sha256 9b71e41cfae65dbac943f9ada25a5258dad7495f4dccda858e73e0e1de86c072 -> e3204ab309d4f72657760a2742a540056f169edc1b68faa69ec95015e89806b9
+~ -[SAURLSizer stopObserving].cold.1 : sha256 178fb58d8a6c672ba3fb58b6b86fe5c0c6d7124de582d0a84d89a81d0386d28b -> fb3da2d4282cb7a299c6ba7c11d5d7dd6a4b559313bd690e32b62d834e936dea
+~ __27-[SAURLSizer stopObserving]_block_invoke.cold.1 : sha256 7b498ceabc9577bf87eda5a2ad591753980f99f902a2c98d23953a729aa76626 -> 96aec9dfe77bf0304cce6a836f0fb4d3fac7a10d53ebeae9e930859637876c28
+~ +[SAUtilities splitArray:into:].cold.1 : sha256 d178d578de8bb97762b42394ec76e365a0bc0c88508cb319edc3bca941b27b38 -> c931b195cdc053a4acd31883e5cfd03ae256b7b3275f65b38604a9e5dcaf1027
+~ +[SAUtilities splitArray:into:].cold.2 : sha256 beaaa31b053eed7922649ce6696a57d8619716defadb196b02d4ee3c2e209e17 -> f1a45769e3f835ce35abb9417232e2227abd68f6b7882ef8c9a8723619dc6b82
+~ +[SAUtilities splitArray:into:].cold.3 : sha256 30d49a199e499a554461e3424673364bb68f72910062beac9478a10ee993d7a7 -> 1c1c9b784a6d939b451ee1b904128b0435ef223dc0ed659a72798b435027320b
+~ +[SAUtilities processArrayConcurrently:number:queue:group:block:].cold.1 : sha256 4d7be3c45d08a51d0938bb2e58b20b0c94bbf2321b94123367eff40a90009c1d -> a5684311e2ef9e9541e364045dbcf66d3edbc4f5af21441b666e2ff52a54ab2b
+~ +[SAReporter collectSAFAppSizeResults:].cold.1 : sha256 bbb152cd0c39610c47c98cf14d19018d0880df55db0919a0c623a4c306411835 -> 789ee755275d40cccf80b71c13713d1404e5f2aa79d5f38ea99cb3df9e541903
+~ +[SAReporter collectSAFAppSizeResults:].cold.2 : sha256 5457d0cc2ce88704b0a36d0147ee05ffda6c98d373dde3438fb3d2d18a020fd5 -> d875cc0554e48969a1bbbb53d6cf490a378bef03270e4945dbebf487b963bf0c
+~ +[SAReporter collectSAFAppSizeResults:].cold.3 : sha256 c71f50af6c0349675ff36b00b678c123ddf9fed2fe61b36e446ab4b4eebff971 -> dfe9e1a3c174032e113e6fe236f50385e25c766ff7ef28b3377410280f2f4e69
+~ +[SAReporter collectSAFAppSizeResults:].cold.4 : sha256 0fbda19cd92962566986a36c8d38d776e7bcadd752897bcbbdf653c779942d0b -> db11e1756465878d90a9e53c420cffcb6247f81ca43ad8fa557d8141648cb64d
+~ __39+[SAReporter collectSAFAppSizeResults:]_block_invoke.cold.1 : sha256 84027c173334c04e4b98d0467839aaf817d4626457749a0ae443920592a21aa7 -> 88435eea30b8038f2635ac55fe6a5710be2c3b5cab2a64a11581dd47db8356ff
+~ SALog.cold.1 : sha256 d39aba08abfbee73277f6c8104fdbfbba8304cb13d3aad636fed5e6d4e480b0f -> 1fd7ef3375edeaa5a715e685097b18f831fbb060400af7586a76531bb19db0a8
+~ __38-[SADaemonXPC setInvalidationHandler:]_block_invoke.cold.1 : sha256 321933840d49fbf652243c98a85b1eb6d5a6b1c783582964962a36b5ce339de3 -> 06d58c4e727456d34a9abfbeaa7b892375f355cbd4f766519fc03a3b3a2bb81e
+~ __38-[SADaemonXPC setInvalidationHandler:]_block_invoke.115.cold.1 -> __38-[SADaemonXPC setInvalidationHandler:]_block_invoke.118.cold.1 : sha256 85a6610b3845a4ed3a24ce38d713c472d0f23b3c5ef5547fce52696299c63639 -> dbd2dc37d28c3cbcaf02c2f64573932dc622b76d4734bae7dc0b810d810606fc
+~ -[SADaemonXPC invalidate].cold.1 : sha256 fa3ab3f643e0c5af720eba4f902480391f8b6d17d645f4b8b384ba8ce122ccf1 -> 452e31a6de08510d8def32ddfee858cf19a783e2ec175108af347d6648c12416
+~ -[SADaemonXPC invalidate].cold.2 : sha256 c3ccb0de0d9c627635e9d457576c46bd5db0f82f1656486c44805f698ca739e3 -> bc013b3a8fbcdbd2bdd28bc9834eac01e414accb9bbb5f828a4a4b8315896508
+~ __49-[SADaemonXPC remoteObjectProxyWithErrorHandler:]_block_invoke.cold.1 : sha256 d8b42d22828d1bf4fdcc170a4b8ab95e9fce9ccfb37d96d26cf2ff8952b47d8c -> fa2f33c1d312f7f0cc2e62720215efbbbfcacca11ba7f36f6be3af954ffaa4c6
+~ __60-[SADaemonXPC synchronousRemoteObjectProxyWithErrorHandler:]_block_invoke.cold.1 : sha256 00b98f00b1d4aeec516b7930a8b49c3a17cb8ae715442c1b479984ffb857861e -> 5273848a4d8a33e916744961f8f6ac8c47bf576109ab7e58496b5120d5dcfbe3
+~ -[SAAppSizer startObservingWithScanOptions:updateHandler:].cold.2 : sha256 3c150e40bde0109c2e6f48d5a52675fc8a5288f689ef4eea26de84ca00e2ffdf -> 5c33e789db54e89f2c5c859307d4ddf699bff5563f1abf0ba66d29dbbde898bf
+~ -[SAAppSizer stopObserving].cold.1 : sha256 0ce065b2e6747c9fbc4511794beb471717929c49fa6431549ae75fbadbe7a1bd -> 8e5b54a11e61bf517ba29ecb8c7dd2304687ed5832c029ecb8c4e7be372ca6b0
+~ __27-[SAAppSizer stopObserving]_block_invoke.cold.1 : sha256 61dc6bfedb51f04a5ae8607ee93256d78507113d3453a09d052e166643e28693 -> 34cab2e4a789d886a1a72698f20e52c03365ca15e60c05c45d5f9d11c5313f5a
+~ -[SAPathManager registerPaths:completionHandler:].cold.1 : sha256 f310b2a4631d9a00173fb44b73d0879dc57267cdb38f0b3a511db0c19f0c2c3c -> d0b52420c98ec43442465c3519a6f6688595be56db08511a34fe324eb9f2d670
+~ -[SAPathManager unregisterPaths:completionHandler:].cold.1 : sha256 e328aead38405302306771f401ab330c5e402f0b58b8a6aac6ec944cf52c0450 -> c717b336b30604f53f5d4c04d162cb860f20d67928ae70efa84cde949f9163d2
+~ -[SAPathManager unregisterPaths:completionHandler:].cold.2 : sha256 a671cd0e6f929cbad00c435d02079568ca3c66ea0dbf55ed2a9302390bd21866 -> bacb47de8e40472c74beddb9195ef2f343c4197db895f575845f531c1140ed13
+~ __51-[SAPathManager unregisterPaths:completionHandler:]_block_invoke.cold.1 : sha256 459cc3476d57ef9822c394ee864477ef5bbdb9a7871e31b48d13e29011484ed1 -> c96d47e85048793b081ce83f3643360ca5d78b8f4b52d27d16c5f20b01d3a8f2
+~ __51-[SAPathManager unregisterPaths:completionHandler:]_block_invoke.193.cold.1 -> __51-[SAPathManager unregisterPaths:completionHandler:]_block_invoke.196.cold.1 : sha256 87d670d3b7b047a6254c76e7fb8623c0dc1a08997ac6da5038dd8a9bd662c4ab -> 386757a30763eeb3c771e8183c3c015490558e643927270dca6bafd55c7504e1
+~ -[SAAppSizerResults setBundleIDs:vendorName:].cold.1 : sha256 e969ce379bdc9fbed7f6ec2097a8858029d2bf8a963cf739f5b4a9774af4be50 -> 3ba2f1d046d20b209f367e492c60a535a39ac522602d63b5e24de4d1df807216
+~ -[SAAppSizerResults updateHiddenApp:withSUPurgeableSize:].cold.1 : sha256 701c5f29dc6d9ddf1a3e7a1fc7beab323ce6540384fc531af55aa48155c10d28 -> d5abdbe424852137874c3a357558f62ea9de652c2f70d6119fb7abd03e65d9be
+~ -[SAAppSizerResults updateHiddenApp:withPurgeableTagsSize:].cold.1 : sha256 b1bc6423ef88a6a22f071bcb7761a796f1e60cfe86ccb503cd6c2561d1f48912 -> 0b9d072be309f21f4399fae64ac8e13af0c23b4d1215ad75f6aad58708a893f6
+~ -[SAAppSizerResults updateBundleIDs:withDataSize:].cold.1 : sha256 d9b01bf546e5d5c760aa81c5e1e7ef228ed0c5ea3a2fb7f18b7552a107d42f6d -> e9533abc29f2b4e54e262ac1f8cd913a74e73af93817afa250e90274627f7e2a
+~ -[SAAppSizerResults updateBundleIDs:withDataSize:].cold.2 : sha256 867ad94e87dac214875b7a6784e76d98555a5a93e5310ddea379ed8e3b0dd47f -> 1b984d8df67db43e4ba0a7dd77bd47f25a23b8e7f1ada038b9edf2f91afa496f
+~ -[SAAppSizerResults updateCacheSize:cacheIsPurgeable:bundleIDs:].cold.1 : sha256 6853d87f0d4a3bc67f682d588ff142bcc6409bca5ecd585ae791f29c44d1d459 -> f20faa585525659ff93dc2ed0747ca27278927c512005764c266c74d32f9a580
+~ -[SAAppSizerResults updateCacheSize:cacheIsPurgeable:bundleIDs:].cold.2 : sha256 1c4d1374c161377d53cf1ba7c24d38113c217b6aeae2507aa53feec313ff6383 -> c73bd4e6655a428203f96f97634d13e81492988875c1a0a543a90f4a655e51ad
+~ -[SAAppSizerResults initDiskUsedAndCapacity].cold.1 : sha256 4d0bc32c2eb8969244593ddfb4bffab84499ec86aa812b22070280723937d771 -> 0a763aacd40732f04a2895dbf880da4f587a13a3309c5b116405a507897bba75
+
+```

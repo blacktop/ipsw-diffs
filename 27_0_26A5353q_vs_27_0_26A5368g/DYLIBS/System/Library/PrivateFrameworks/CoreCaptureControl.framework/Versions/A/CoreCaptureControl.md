@@ -1,0 +1,51 @@
+## CoreCaptureControl
+
+> `/System/Library/PrivateFrameworks/CoreCaptureControl.framework/Versions/A/CoreCaptureControl`
+
+```diff
+
+-1345.34.0.0.0
+-  __TEXT.__text: 0x17ec sha256:66b50b01aa1c2614a677f9d26783dcf58d5cf49a1a2bda5637a3669b26ce82ff
++1345.38.0.0.0
++  __TEXT.__text: 0x17ec sha256:a39e6dfef34e3a122cd068b63de193cda4dda5515351ba1c01748afea5ec4b53
+   __TEXT.__const: 0x40 sha256:747618b8b8fbd8695de42bea6b2a43bc4a7b6e63cbc32de1e88516f955955701
+   __TEXT.__cstring: 0x3c8 sha256:959b07283dc40f12df0c39f4df6ce3adffac7d9ef6431edce40af314a8310500
+   __TEXT.__unwind_info: 0x98 sha256:cfd12c0ec10a19b1f1454cf162c35e47911fae464baf4a51b8d6180335575005
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x40 sha256:074a20649bbfeb770b2911f308085bd03000198546d595b2d7fac0ab0203f0c4
++  __DATA_CONST.__const: 0x40 sha256:8b5a27317283dc50d7da8b0057814f57419080f087526ce97c95f04f1597f3a0
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xa0 sha256:ef3571e5b3068a042b017a59c2f6c15ec16b6274e65f44823b2e2a3a2f81ad1b
+-  __AUTH_CONST.__cfstring: 0x240 sha256:cf3668f403985fefcb59d899eb01be3ee57d0bc82e43b8a0ee29dd1231ee7c5d
++  __AUTH_CONST.__const: 0xa0 sha256:7fa9d2ca5bad9bebf6bea667665b96811dbf49a7a150ae7695d0457ba6635e91
++  __AUTH_CONST.__cfstring: 0x240 sha256:ec4337a49739f371f66ea4d76c9ade6e379eff802f32200b9138817b7d6c0c7d
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA_DIRTY.__data: 0x10 sha256:eba956dc8f5e792f083beb1e308446a00c07f6a663aebe3d3d7ecc6936d4a6ab
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 58F56BBA-B754-32A0-B318-4D7B069900FE
++  UUID: 3E3E1293-5197-3827-A10B-A83D71F114ED
+   Functions: 17
+   Symbols:   85
+   CStrings:  72
+Functions:
+~ _CoreCaptureControlGetTypeID : sha256 54b80ab0527ff7ffa0ca0fb3b55d7dcff4a4feed69e376bc8e918f6d3a1a0e3b -> 013b98f0f394d7ae070c937765c8da91ba4e1f0dcea63c851d23e891414eaf71
+~ ___CoreCaptureControlRegister : sha256 ad5f53c26098e40bafb8c361ef8253cea473488a99a0d17444bf8c6c658491df -> 76c4f22b551f21471a969eb92a50ccc812365c1ca9903e03e356bf0657d4dc90
+~ _CoreCaptureControlCreate : sha256 4dcf9145eca6a5373663be32a8ae9d79ea3dcc7583c152c6d96421caa5b7f7c1 -> 3b3b3a24f49c5370428e85f5cfcc536934b2280bef1eec08d7798f6d43f9f8a8
+~ _CoreCaptureControlStart : sha256 02bbee9047018bfe72f8e53395c9f3147bcabee672441055292785bc1c5d274d -> 655cb8dc7707cdaf6894ca88145b692b7e7b0c5fa9ce1bf4c62ab84effdd35d7
+~ _CoreCaptureControlStop : sha256 84e7b46aac06bf5ca5e6fa6e130cb53592fb6bbb8355f57c0f554f0cde7df698 -> 29c24a563252d45b79112521b92018baf5620f4f867e09cf442fdc10420beb44
+~ _CoreCaptureControlCapture : sha256 38c419811f394c53c4b15e5065c2e54d439a3d1e7759aa4c32a46bbffa68448a -> 730a0ebc0d86b87c8563caf5605b7dc7b1795cb6b416856efc3fafdcb82afda7
+~ _CoreCaptureControlCaptureWithComponentDirectory : sha256 fa2e653bcffcb2247fc2cce330a554a5576386a50b15044c65c1bdbf43132f1a -> 655026aa21dbd48793a8548dcc48e4d14153dbfbf8c9b4278ebafed38dbae352
+~ _CoreCaptureControlConfigureProfile : sha256 13d6c2d902c51894a2cadbcfc1f286cc27879cd6dc81dca81c888146bbde0a07 -> 139fcc1cde853e36d8c762d0fec9ddf82c41be5b7438e4c2326e4f29d55ad9d5
+~ _CoreCaptureControlConfigureStream : sha256 3a33f719537c2add7d7e471ba52047da91495b88a229201e5edcf9f8a9c8bad6 -> 0caad07fa6e63e30617b2b7fd965b5bbaac66455c624dcddfae8f52a72985d7e
+~ _CoreCaptureControlConfigurePipe : sha256 dea6d4e8d19b3cb7d5babcd844d27d25f97dd1bae5fb680cf98155b5c354f457 -> 2b96b28d028fbe93bcc834d260ed6c3117a31cbadf00646561d0614eac6e8e93
+~ _CoreCaptureControlSetLogging : sha256 94eeea0f0004e88c4eb19ffaa8b9ec56459dbe3096bf8489ed3dbd43bf380595 -> 99d688c6b0d1e1a4214b82b358e22555fef30d82b9d9982d6e5adb7164b1d447
+~ _sendXPCRequest : sha256 273b38fe1ef0122aceb623c2d5663ddaa6e0d04a9dd0d0912717d95fb7386fef -> 184fb74cd87ca0ea727bb2cbc77c94c9f6a66577a622ccfadc036c6f74d503e7
+~ ___connect_block_invoke : sha256 9a1a08a58f5438602c5fbe3cb28262d306942f8b1c42cb2c9e5bd9979d4bc5da -> 3ce1fffe5469e3bc711144ace211fd1f8b9534f0f8ed0085d228b2423da84f7c
+~ _isValidNumber : sha256 8dffee5e56a16638caeead089bf6c628718f076bb672c3ac8448a5608e878083 -> 528ab04157c5b8a0a5a3a8407dd86ffb6ad4d90b132b95b970b0d6cefb7f7b48
+~ ___sendXPCRequest_block_invoke : sha256 6c707e5d6f9325fe000b3e115257e3dffc3bafd74cba114b915c26d61af0a813 -> dc68683ac611fd504561247285ccffa69651e62453bde658de70b6f4b7e96dcd
+~ _connect : sha256 d1d2d3789abe8aa72b35075685de6512aa1c1d179a2caf580a54540729e7df46 -> 1e4e621f6f431944900e63e1735ec3af58871a4ea2c4dfd3f531d4cd3d04762d
+
+```

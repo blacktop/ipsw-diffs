@@ -1,0 +1,36 @@
+## lsbom
+
+> `/usr/bin/lsbom`
+
+```diff
+
+ 277.0.0.0.0
+-  __TEXT.__text: 0x1050 sha256:2f071f0cf3ab5d52dc89129908a1035045fdec3cf949f1bb31093de072184b10
++  __TEXT.__text: 0x1038 sha256:a5a06f30038c36ee1842bbe721bb32c00e42dfd4ca48a61ff91dcf6d30c8a505
+   __TEXT.__auth_stubs: 0x2e0 sha256:032ab44ed8fa7416c9dc3ce4891cae965712e2736444a879ebc77aca03ffabaa
+   __TEXT.__cstring: 0x7a6 sha256:4c2750d4b7b52fa14144b64169f5df22f2578b029cc4b11ecb5831b010db0944
+-  __TEXT.__unwind_info: 0x80 sha256:1fdbf08d6f399dc269a35e0c3243e75e137bdf9224e504e9824bce35a012850f
++  __TEXT.__unwind_info: 0x80 sha256:7db71373ef979453761baa581aabbc718d5a24cc3172c8096ea0bc50ff18337e
+   __DATA_CONST.__auth_got: 0x170 sha256:c82f2851339a11ac962a9548d27c2a22361a2dee37606e411ddaf56966fff486
+   __DATA_CONST.__got: 0x20 sha256:648fe53a01c1d3f4383c9e9537c9d390a8d40eaeae3c86caea70eff8ca84b35e
+-  __DATA.__data: 0x60 sha256:5e4450a3b8a25d727c308935ecefc44eb98b5c61f7a22c3d31fda83d8e11d7bf
++  __DATA.__data: 0x60 sha256:0ee5fcc653662e4203c95c1e53fcc675fb5b821b7172c5a5f969ca73ff6fefa3
+   __DATA.__common: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom
+   - /usr/lib/libSystem.B.dylib
+-  UUID: B3817BF5-9C0D-3636-BDA5-3B6AC40CE610
++  UUID: 5A8F69A8-89EC-3BAA-8254-992C94AC5304
+   Functions: 8
+   Symbols:   52
+   CStrings:  47
+Functions:
+~ sub_1000005e8 : 2740 -> 2728
+~ sub_10000109c -> sub_100001090 : sha256 77a5af37756cf61886f6f043b301fa19296af140415f9b3b119b517bf40515b8 -> 2676e7953d0941d53223a779161a744d346ad7781c3f67b348b1c38e40569fe5
+~ sub_1000010fc -> sub_1000010f0 : sha256 0bfc37196cd567208f29b4dfd8c7950a5db36c05fabb5bafaf8b83dde1944b50 -> 266663a6b1914c17cf1bcbc8ba2b38dda96eee5ce827f19b92091365f33ce954
+~ sub_100001160 -> sub_100001154 : sha256 3a3e1b48cdb9a9f479ca0e2c7d504c4266a204e30a0c62666879dea3825a5649 -> 77f2da5d7928823b74932a349c13e931ed0fb7afbe24da400e01db27efff8d91
+~ sub_10000126c -> sub_100001260 : 104 -> 100
+~ sub_1000012d4 -> sub_1000012c4 : sha256 84d8c4721e0e39a6312e2d6b869f13b5fd1d495dad02cb0b8fc1bab7b637dcc5 -> b7825b0615564c7ff3dec4aa46b25b924c4d1a2e5b8e9eacba90db0f2178d4eb
+~ sub_10000134c -> sub_10000133c : 276 -> 260
+~ sub_100001460 -> sub_100001440 : 472 -> 480
+
+```

@@ -1,0 +1,31 @@
+## lsvfs
+
+> `/usr/bin/lsvfs`
+
+```diff
+
+ 240.0.0.0.0
+-  __TEXT.__text: 0x324 sha256:852047fe8845ef18fe2aea22bcd3b3082861dab86efd6a20a69ef5bbc2647be3
++  __TEXT.__text: 0x314 sha256:297594156705a0bcf86a06d7dfd41f97a9e36dad7422a8c07d56f219a886e1b5
+   __TEXT.__auth_stubs: 0xc0 sha256:6da9e6d49f959b62af4f950e1705253b5e9ff3e280e7a3ba2d256c710e9bca41
+   __TEXT.__const: 0x40 sha256:bdd16ce09277e9d6e9b3a06ecdffa8faf8fa020065731caa0bb1d231545a6a01
+   __TEXT.__cstring: 0xcf sha256:67614e671c9c74ce863b656a14386f02e01f72e829b9d2a92a39ad06a6e7f0c5
+-  __TEXT.__unwind_info: 0x60 sha256:47d2dd3befc723452f95be47c026d418e08a402f6113e75e363b46728fb837b4
++  __TEXT.__unwind_info: 0x68 sha256:56c0991acc2312a17e6e192ee94b8a38ddd4603f0120de6cebac95c70f25a006
+   __DATA_CONST.__auth_got: 0x60 sha256:75443b2d7eb304af704e135ce779b1582e40b4e112f49dba1aedc8490c781a2a
+   __DATA_CONST.__got: 0x10 sha256:40cb96e58e665ad64a2cf8f5ec089104d0e2d98f344bfd9e55d74bd7c0b96392
+   __DATA.__data: 0x48 sha256:a9bbdbe3642171e1e47df987fcd7d6493157f70dde14a02a4c08fb8b48af21d8
+   __DATA.__bss: 0xa20 sha256:b2069f33fd956c79679b2e5a25c60cd0eab63b023d12111ff0242ae50896e9e1
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 9394DDAC-8257-3591-8F21-052E36787BA7
++  UUID: 703A2B22-2F22-3A7E-8265-4E0AC702B850
+   Functions: 4
+   Symbols:   16
+   CStrings:  11
+Functions:
+~ sub_1000005d8 : 552 -> 544
+~ sub_100000800 -> sub_1000007f8 : 196 -> 188
+~ sub_1000008c4 -> sub_1000008b4 : sha256 da7fd5baeaf15dc46894a0713218e68c3c8c007037ae1c16ff1490906182250c -> 03f1a4d48445046a8ea6f1d8a1b3719d093c0cd30177cff17c46622a3d8a322b
+~ sub_1000008e0 -> sub_1000008d0 : sha256 465cad00b968eecc657f5c85af9d8d8a124b83e28063451e891f93ace6d2f196 -> 4b1c27fe52e7cee9b7fca5d52c27cca750773173d8cf9cf115fcdd78e0829ac2
+
+```

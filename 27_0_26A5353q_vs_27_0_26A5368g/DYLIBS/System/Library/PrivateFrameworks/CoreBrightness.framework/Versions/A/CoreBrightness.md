@@ -1,0 +1,910 @@
+## CoreBrightness
+
+> `/System/Library/PrivateFrameworks/CoreBrightness.framework/Versions/A/CoreBrightness`
+
+```diff
+
+-2285.0.0.501.3
+-  __TEXT.__text: 0x1490e4 sha256:0071d784234c4015a3b0bc12170deacb4135a100fcebaf136180028d829e6cbf
+-  __TEXT.__objc_methlist: 0xca44 sha256:d2a0e11afa14bddd3544dba7ad405da0e1a5bd6c86667d3296c2aa894b9af3fa
+-  __TEXT.__cstring: 0xc9ba sha256:701028fd07defc4645308af0d13fb01bedb7e4f72467c1bb4cd5796ec6a0264d
+-  __TEXT.__const: 0x15b40 sha256:b9ec94174b9ccc61a342888d1741bb4608cf3f238970e6971623b5ae37906371
+-  __TEXT.__gcc_except_tab: 0x1cf8 sha256:b01446259b973800ac946d3664f8bc349e6e2da89a12b1e45ab0ee89a6b34bc4
+-  __TEXT.__oslogstring: 0x169cd sha256:21ad22441a2acd7666de772804f65a12d418fcd38a0c807a7210ae33c2e86170
++2300.0.0.501.1
++  __TEXT.__text: 0x15d2f0 sha256:c5f5f44a8ebde57b08456b95594a379c3169b69b213129ad08c6a843289089c9
++  __TEXT.__objc_methlist: 0xcf34 sha256:06c4c3e0ad189f1fbe3097a454aa0c1e5fce415af619b08542d6f31f12f2d7dd
++  __TEXT.__cstring: 0xcdda sha256:a3c8f8cabd2e16e49f00c70665b9920fff4736e14e0416546956cc50b5b7e217
++  __TEXT.__const: 0x16e08 sha256:f1da2105a7f1b99da175a93ce64185393b523d1060c6a9e2494d8430e811229d
++  __TEXT.__gcc_except_tab: 0x1eec sha256:2ec97168221f075e05cf1b7c91d399e652043a7bfc37f178d5a90097e9dac77c
++  __TEXT.__oslogstring: 0x1797d sha256:077f18cbdda1fafb4e40e47fcd2634bc4ed75b240b811fb2ac4126aadbe9739f
+   __TEXT.__dlopen_cstrs: 0x10d sha256:d913ef3bd6858bad1ddcddd1a2649144331de6b08aae3acadd88c6be79f715a5
+-  __TEXT.__swift5_typeref: 0xb7a sha256:07bfa004f71aa313b441bb98272708eabd9b70131478906cb8b8a95a82424828
+-  __TEXT.__constg_swiftt: 0x8f0 sha256:4657505567e421cab5bf40c2bde8b482f9ae6ca9b80ee0706fb54e73131f944b
+-  __TEXT.__swift5_reflstr: 0x6ed sha256:679f3d2f5fa7fcfc6fe6ec584c28419f8513180fdafa6dca386c67693247bea2
+-  __TEXT.__swift5_assocty: 0x198 sha256:4a3ca82274b09643a41ccd1440239d8986bffabe1088f2ba1db423bf8582f3e1
+-  __TEXT.__swift5_fieldmd: 0xa00 sha256:17c03bb47495fa77c27f015b5d1f189c26db953418dd49252f7e85703bcebc81
+-  __TEXT.__swift5_builtin: 0xdc sha256:d72b26d72c4a122c8fd64c2dfd4b4887e6649c8aa15976265167b9a34d483cb0
+-  __TEXT.__swift5_capture: 0x3d0 sha256:e6ca032f160b210bed2fdbef0497034d8949fee99d46835ed4ce1cfb6507e3d3
+-  __TEXT.__swift5_protos: 0x4 sha256:1405bf6efada58090fb6d58428da3b693a73382afa952728f8ca44fa13a32a20
+-  __TEXT.__swift5_proto: 0x210 sha256:c92f815e40118984e96a4bb076ea3a956eb71fdc5ca096b8b26f53d7e914c6a0
+-  __TEXT.__swift5_types: 0xc4 sha256:7aefcd941e20c5a7e194cbae5d0f984741c1bf7f0d1c64218bf8d78a618d19b9
+-  __TEXT.__swift5_mpenum: 0x20 sha256:70037919d25c8bc865ce3296d270b86a37de0ea4304f26ad98605602f52ef556
+-  __TEXT.__unwind_info: 0x4c60 sha256:ea15d902409a92675748ff4f318e76d16c114d723af6f0ae2c36c708ed516b04
+-  __TEXT.__eh_frame: 0x928 sha256:a3a24b7b8e5af73a977842729a0ce9de642109006765f69467383d85fce4c078
++  __TEXT.__swift5_typeref: 0xeb6 sha256:d05490082a63a56dafbe24a487d76d02022b9798ce43d47d6a541a173181f025
++  __TEXT.__constg_swiftt: 0xc2c sha256:4fbdb95ff95117a4e9928a103d1b189ead1e1c268a831c61897c3fbab080697b
++  __TEXT.__swift5_reflstr: 0xa44 sha256:825e95c04f6330884ecc4159b0df5a5e075a7e456fa6393be1433ba7dc697427
++  __TEXT.__swift5_assocty: 0x288 sha256:17b3c794692e9c2b3e8d0fa9bc69297fde0d956cd1278ce8cce64bf35850bd7d
++  __TEXT.__swift5_fieldmd: 0x100c sha256:1ddea9494b8f2b4b14da1f44cc8e0c5d4ef96105253c646a71ddf7653f7a5a02
++  __TEXT.__swift5_builtin: 0xdc sha256:43a81849035ead070155b720cbd9ce4de9839bfbf72e9ffc6aeb06e8d0e40e92
++  __TEXT.__swift5_capture: 0x3d0 sha256:c5d758c1c2532afd84304d1800960dad6c91abd879df3f513f906b98c6949ba8
++  __TEXT.__swift5_protos: 0x8 sha256:ad47570fe12375da1ec510eaf8bfe45ee865dcae50d4387524183ddebee9931c
++  __TEXT.__swift5_proto: 0x308 sha256:b1da8ad8612c582b368facd570ad497c48439e67160a0300d063338ab913ca60
++  __TEXT.__swift5_types: 0x120 sha256:ea77f7337451ebb85233684833e9830aa2a36bf8ff858f7dc5e621edd43a3fe1
++  __TEXT.__swift5_mpenum: 0x28 sha256:86a38453a25ab6ad097bb5402a9011ec205a35b588522016e2b57e6410ed3c9f
++  __TEXT.__unwind_info: 0x5230 sha256:13827d5f92ab16014a0fc70fd4feb00f4105f587937982faaf69c5732e81a692
++  __TEXT.__eh_frame: 0xb88 sha256:3a6efbfd725e646cef87a7ca90329cfd3de1a8455b723257fbbc36f1e645d8c6
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1158 sha256:b73f08c53777fda24f514d86984ccbbddcad4d2b62859c811be3e8012dd69b93
+-  __DATA_CONST.__objc_classlist: 0x6a0 sha256:e5373725c10c99535c5f3ad0ed6620f40e9184da990948d8fcf53a4f9297f7b0
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:7903249ad6f1d472fc5d90e71de38e7687f6cb5416986600c958e5e09cce225c
+-  __DATA_CONST.__objc_protolist: 0x2f0 sha256:197f39720c7da9f55496d2937aa37ba46e3cd8eb3dbe20e761918fa3ee8407f2
++  __DATA_CONST.__const: 0x1168 sha256:8d112579c70b8df7fa06b5e9e463857f7488afe6483c14da3b1fb8de9a581e40
++  __DATA_CONST.__objc_classlist: 0x6d8 sha256:83866718ac858e99080565908b41c2f54d8a1dd21b0460fd5e29d75865652669
++  __DATA_CONST.__objc_catlist: 0x10 sha256:08317d586573059c364d2d44a78eeecb15d67c4b766caf7bce3d61d8ddc93aad
++  __DATA_CONST.__objc_protolist: 0x330 sha256:8fd1150a5000207acabf0c3a65da3ae0b3bc26918a1df54ebc46f3258178ab1b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__weak_got: 0x10 sha256:59722db8d30c54df39763f55dfd35ffb1060a034af2f8d4edc4c3c0ad9e957cb
+-  __DATA_CONST.__objc_selrefs: 0x5420 sha256:cfc53792f1a18f110d12b8eb9e42de0145561d0a297a24c28ad316df24a8a8e5
+-  __DATA_CONST.__objc_protorefs: 0x108 sha256:d840e3b597eba6d6879d2489e2a6a7891c09b4d746e0f46cd2984491f1eeae1c
+-  __DATA_CONST.__objc_superrefs: 0x598 sha256:5cbffa1f75c28aaab339cd32f5f7b735db82f5b659b20b873cb9af22b4d16bb9
+-  __DATA_CONST.__objc_arraydata: 0xba0 sha256:7d236d41de68d87f27cff5fd6027b6d72525a07924657c60791d8c431a73dda9
+-  __DATA_CONST.__got: 0x668 sha256:d1950338618f29ab244cb41457e8a8973245bd77df49bbca422ee5c7c0c9ac53
+-  __AUTH_CONST.__const: 0x4868 sha256:e6c58f6e98ae1d1bcf9ee922c2f6d4b5e647cd9337e0d1b79a8cee63eea7e476
+-  __AUTH_CONST.__cfstring: 0xe180 sha256:7b86009ee9971be8757468af8f838bec213a00eb9717637e3a637f5f396cf4fa
+-  __AUTH_CONST.__objc_const: 0x31608 sha256:f592699831ed8c72fcde5c69e3c7d4409507043ada7d67e41b9243013ca8341a
+-  __AUTH_CONST.__weak_auth_got: 0x20 sha256:0b7ba9f9c7082a0018beb42e15da283c9fe2e57f09f8a5b04d76693bece092af
+-  __AUTH_CONST.__objc_intobj: 0xcf0 sha256:44bf284e25703700cf4f0cdbb6ef0beb3fdb7d809f5226ab5b4acbec465f2b2e
+-  __AUTH_CONST.__objc_floatobj: 0x170 sha256:25dcf8bf8b824eb7e41ce21b8538e6cd8bfb912498a7973f86ab4af94c156ef4
+-  __AUTH_CONST.__objc_arrayobj: 0x2b8 sha256:e4248e37c7d8483bd1cd31cd966385176d39d6f849df4fab4485d81122002dc6
+-  __AUTH_CONST.__objc_dictobj: 0x5f0 sha256:ca08def537bf1f74ddca3c07618a1e82ba03be311ba66f19409c4fc46d932df6
+-  __AUTH_CONST.__objc_doubleobj: 0x40 sha256:af6590caf6d435faff5e20434f4ddcf800e5736855c1a12f81a1f9f595c099fb
+-  __AUTH_CONST.__auth_got: 0x11c0 sha256:348d4b9dc0cc8900dd3a8a6d78f7077389e6831d38c3e57256fe33289b4e0f7c
+-  __AUTH.__objc_data: 0x1a88 sha256:c44bd17a8193bcc4c4ed77a616a673e5a71ae2fa7225742f3672b563e5faee75
+-  __AUTH.__data: 0x700 sha256:e6d492d8d45e6bd9978b9223cded92d51c2cb996678a3cac5acc2222b586c70f
+-  __DATA.__objc_ivar: 0x16e4 sha256:681ca85e6d8f8e194053cc0039dd28b9bc58fde603b8089c171653c7ab680409
+-  __DATA.__data: 0x5a2b0 sha256:ee7445b196b3de5350808a521eeb40f5b222d17a3fe471881c37cd13fa26e124
+-  __DATA.__bss: 0x4610 sha256:a4cbd29d0ae8596b30a9c52487a6ae2412be78fa5faa9ffde69715d994d6221d
++  __DATA_CONST.__weak_got: 0x10 sha256:a3483de4f45d9b57afaee3421cd5418098f757e708ddf7ddf74790e6657bb6fd
++  __DATA_CONST.__objc_selrefs: 0x5500 sha256:3352fcd4a9ec35f3a708c15e29f9fb18add4d0ef5c6701e2a456c18b8d00a747
++  __DATA_CONST.__objc_protorefs: 0x130 sha256:61987a7cde3b621c57e57080f75a8bfbbb5ed1e9f78c0d35474a9a7315fef16a
++  __DATA_CONST.__objc_superrefs: 0x5a0 sha256:991672f8650d21640321d4bd76dc8497521139d341434e83ca3edd2afd631111
++  __DATA_CONST.__objc_arraydata: 0xba0 sha256:8e51a3db317b752275965017665ebbfa15cf75633eea0fbe4f715bc24a0e81c7
++  __DATA_CONST.__got: 0x6b0 sha256:4aef3428a5bafaa2c1e3438737dab22db59c3c57088e831680f1ac8ed160b832
++  __AUTH_CONST.__const: 0x5848 sha256:9a1274394538b86e067ada7124bda13a6bb4fc2c00929b51f54313102126b5a2
++  __AUTH_CONST.__cfstring: 0xe260 sha256:c86670f66a3d956bb597221470cd05910964fdbd6cc1048482594a42509df53c
++  __AUTH_CONST.__objc_const: 0x33478 sha256:725c94ed831e7887094682a1d8ac38770c33753e6cb06f725ba541ff29baff10
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:9e2df50a98d206e7c7dfcaf21cc145b09a4fb8fc023886999a8373faebd714be
++  __AUTH_CONST.__objc_intobj: 0xcf0 sha256:2bca8cbf6e634a4a5a87ff82ede371b8da98b38eee3484cbb5564a7c3ecc3431
++  __AUTH_CONST.__objc_floatobj: 0x180 sha256:62b4aa7dfb132eef6ecc66d79eed3d402542dd1e5d335f389c6924320fb92032
++  __AUTH_CONST.__objc_arrayobj: 0x2b8 sha256:0a3d2f2136304116efea4977442d9e039effa40f53f2e9a9ccb05e119b239f7a
++  __AUTH_CONST.__objc_dictobj: 0x5f0 sha256:4c8558ada370ffb27c82024518564452d52dc4e11c4f62d7f9a70b9125a0683e
++  __AUTH_CONST.__objc_doubleobj: 0x40 sha256:2fa608b97b26cf7daaf70eb43ab47918ed180c6b44d28fa68a433b3b8e7575d1
++  __AUTH_CONST.__auth_got: 0x1280 sha256:373e58db31dbad517dfede6bb84a58f4f7d5bf03630597ca677658b8bd136106
++  __AUTH.__objc_data: 0x1ea0 sha256:e4d936da3fabc8781772eb9c2a4443bbe117f3ce9d98e1821dfd8d04d42add21
++  __AUTH.__data: 0x7f0 sha256:773b4ba8e4a8c56cb7184a4bb602e41ebbd63ad42352864f53a99e5953e4d41c
++  __DATA.__objc_ivar: 0x16f4 sha256:abd6415df63cd679b2ceace7d661363d46f3929b5b5d568ee356bc8adf7d80cf
++  __DATA.__data: 0x5a668 sha256:e40a860900edee13c8e127f80520d2c1a2f29a7ded3e11257916f1854d7e506e
++  __DATA.__bss: 0x63f0 sha256:68652faf829f4e14800e9bb935e4dff696bba62c40e5dcf6f2c0f48bf28237ab
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0x28d8 sha256:396087337fec1940391ab1a6606c9cf2f666aa639b7c380c96fc5a8258683893
+-  __DATA_DIRTY.__data: 0x340 sha256:c84a254c30012f555e8272d88d464bcd62ee442cc429d6ecb3c11f98ca961487
++  __DATA_DIRTY.__objc_data: 0x28d8 sha256:6b49fabf2463068fb76743255f3017d8841fcb99cc34045a3607d6850250a50f
++  __DATA_DIRTY.__data: 0x340 sha256:39059ebd30faa526f02f748a1c2033b93366347ed737a34dfc394b778a1e6300
+   __DATA_DIRTY.__bss: 0x150 sha256:52a3e0804d93dc525ec3c67ef8ac5b01756ecf0513e36f3c19435e4c82cb5d29
+   __DATA_DIRTY.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreDisplay.framework/Versions/A/CoreDisplay
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 29495E68-E6B1-397D-8003-0B06EBB76117
+-  Functions: 7505
+-  Symbols:   14997
+-  CStrings:  6304
++  UUID: 9C662946-D3E4-3263-96B5-BAD1BAADB665
++  Functions: 8072
++  Symbols:   15307
++  CStrings:  6394
+ 
+Symbols:
++ -[CBAABiOSCurveWrapper copyUserPrefState]
++ -[CBAABiOSCurveWrapper getNitsForLux:]
++ -[CBAABiOSCurveWrapper resetToDefaultState]
++ -[CBAABiOSCurveWrapper scaleFactor]
++ -[CBAABiOSCurveWrapper setSavedPreferences:]
++ -[CBAABiOSCurveWrapper setScaleFactor:]
++ -[CBAABiOSCurveWrapper updateALSParametersForNits:andLux:]
++ -[CBAABiOSCurveWrapper version]
++ -[CBALSSelectionPolicyBase dealloc]
++ -[CBALSSelectionPolicyBase initWithLogCategory:displayId:]
++ -[CBAutoBrightnessModuleSKL newCurveWithConfiguration:brightnessCapabilities:curvePrefsKey:]
++ -[CBColorFilter initWithIdentifier:panelPlacement:]
++ -[CBColorFilter isFrontALS:]
++ -[CBColorFilter isRearALS:]
++ -[CBColorModuleShared handleCoexUpdates:]
++ -[CBColorModuleShared hasCoexForALS:]
++ -[CBColorModuleShared initCoexTracker]
++ -[CBColorModuleShared initCoexTracker].cold.1
++ -[CBColorModuleShared isRearALS:]
++ -[CBColorModuleShared uvThresholdPropertyHandler:forKey:]
++ -[CBColorModuleShared uvThresholdPropertyHandler:forKey:].cold.1
++ -[CBDigitizerNode newFiltersForALS:logCategory:]
++ -[CBDisplayModuleSKL loadNitsFromCapabilitiesTo:]
++ -[CBDisplayModuleSKL loadNitsFromPreferencesTo:]
++ -[CBDisplayModuleSKL loadNitsFromPreferencesTo:].cold.1
++ -[CBDisplayModuleSKL loadReductionFactorFromPreferencesTo:]
++ -[CBDisplayPassthroughPolicy cancel]
++ -[CBDisplayPassthroughPolicy containerDidAdd:]
++ -[CBDisplayPassthroughPolicy containerWillRemove:]
++ -[CBDisplayPassthroughPolicy copyStatusInfo]
++ -[CBExternalDisplayKeyPolicy cancel]
++ -[CBExternalDisplayKeyPolicy containerDidAdd:]
++ -[CBExternalDisplayKeyPolicy containerWillRemove:]
++ -[CBExternalDisplayKeyPolicy copyStatusInfo]
++ -[CBProxNode newFiltersForALS:logCategory:]
++ -[CBSBIM initWithContext:andDisplayModule:andEDRModule:andEDRThreshold:]
++ -[CBSBIM initWithContext:andDisplayModule:andEDRModule:andEDRThreshold:].cold.1
++ -[CBSBIM initWithContext:andDisplayModule:andEDRModule:andEDRThreshold:].cold.2
++ -[CBSBIM initWithContext:andDisplayModule:andEDRModule:andEDRThreshold:].cold.3
++ -[CBStandardALSSelectionPolicy select:]
++ -[CBSystemContext alsClientRegistry]
++ -[CBSystemContext setAlsClientRegistry:]
++ -[NSArray(PrimitiveDataProvider) maxFloatValue]
++ -[NSArray(PrimitiveDataProvider) maxInt32Value]
++ -[NSArray(PrimitiveDataProvider) maxUint32Value]
++ -[TMDisplayModule handleDisplayStateChange]
++ -[VMBLControl parseCacheKey:displayIdentifier:builtIn:]
++ CBU_IsTransitionPolicyEnabled.cold.1
++ CBU_IsTransitionPolicyEnabled.once
++ CBU_IsTransitionPolicyEnabled.result
++ CFXSetUVColorMitigatedTh1.cold.1
++ CFXSetUVColorMitigatedTh2.cold.1
++ CFXSetUVTh1.cold.1
++ CFXSetUVTh2.cold.1
++ GCC_except_table122
++ GCC_except_table138
++ GCC_except_table140
++ GCC_except_table147
++ GCC_except_table148
++ GCC_except_table151
++ GCC_except_table152
++ GCC_except_table156
++ GCC_except_table157
++ GCC_except_table160
++ GCC_except_table161
++ GCC_except_table165
++ GCC_except_table166
++ GCC_except_table174
++ GCC_except_table175
++ GCC_except_table180
++ GCC_except_table181
++ GCC_except_table196
++ GCC_except_table233
++ GCC_except_table248
++ GCC_except_table52
++ GCC_except_table67
++ GCC_except_table70
++ GCC_except_table88
++ GCC_except_table94
++ OBJC_IVAR_$_CBAABiOSCurveWrapper._scaleFactor
++ OBJC_IVAR_$_CBALSSelectionPolicyBase._logHandle
++ OBJC_IVAR_$_CBCPMSModule._currentSDRNits
++ OBJC_IVAR_$_CBColorFilter._panelPlacement
++ OBJC_IVAR_$_CBColorModuleShared._alsSelectionPolicy
++ OBJC_IVAR_$_CBColorModuleShared._coexTracker
++ OBJC_IVAR_$_CBColorModuleShared._continueWithSelectedALSs
++ OBJC_IVAR_$_CBColorModuleShared._panelPlacement
++ OBJC_IVAR_$_CBDisplayModuleSKL._dynamicSliderUniversal
++ OBJC_IVAR_$_CBSystemContext._alsClientRegistry
++ OBJC_IVAR_$_VMBLControl._cachedHeadroomRequests
++ _CBU_DeviceHasDisplayRearALSSamplingPolicy
++ _CBU_IsDualColorRampThresholdingEnabled
++ _CBU_IsTransitionPolicyEnabled
++ _CFNumberGetType
++ _CFXSetUVColorMitigatedTh1
++ _CFXSetUVColorMitigatedTh2
++ _CFXSetUVTh1
++ _CFXSetUVTh2
++ _CFXUpdateTarget.cold.1
++ _CFXUpdateTarget.cold.2
++ _CFXUpdateTarget.cold.3
++ _IOMobileFramebufferOpenByName
++ _OBJC_$_PROP_LIST_CBSystemContext.63
++ _OBJC_CLASS_$_ALSDefaultRateManager
++ _OBJC_CLASS_$_CBALSSelectionPolicyBase
++ _OBJC_CLASS_$_CBBrightnessBoost
++ _OBJC_CLASS_$_CBStandardALSSelectionPolicy
++ _OBJC_CLASS_$_CBThreeSegmentAABCurve
++ _OBJC_CLASS_$__TtC14CoreBrightness20ThreeSegmentAABCurve
++ _OBJC_CLASS_$__TtC14CoreBrightness31ThreeSegmentAABCurvePreferences
++ _OBJC_METACLASS_$_ALSDefaultRateManager
++ _OBJC_METACLASS_$_CBALSSelectionPolicyBase
++ _OBJC_METACLASS_$_CBBrightnessBoost
++ _OBJC_METACLASS_$_CBStandardALSSelectionPolicy
++ _OBJC_METACLASS_$_CBThreeSegmentAABCurve
++ _OBJC_METACLASS_$__TtC14CoreBrightness20ThreeSegmentAABCurve
++ _OBJC_METACLASS_$__TtC14CoreBrightness31ThreeSegmentAABCurvePreferences
++ _OUTLINED_FUNCTION_24
++ _PROTOCOLS_ALSClientContext.42
++ _PROTOCOLS_ALSDefaultRateManager.3
++ _PROTOCOLS_CBThreeSegmentAABCurve.26
++ _PROTOCOLS__TtC14CoreBrightness20ThreeSegmentAABCurve.21
++ _PROTOCOLS__TtC14CoreBrightness31ThreeSegmentAABCurvePreferences.77
++ _ZN4AABC12setALSClientEPU28objcproto17ALSClientProtocol11objc_object.cold.1
++ _ZN4AABC15registerServiceEP20__IOHIDServiceClient.cold.7
++ _ZN4AABC40UpdateALSStateFunctionInternalNoAutoRateEP20__IOHIDServiceClientPNS_3ALSEPNS_15_ALSApplierArgsE.cold.4
++ _ZN4AABC40UpdateALSStateFunctionInternalNoAutoRateEP20__IOHIDServiceClientPNS_3ALSEPNS_15_ALSApplierArgsE.cold.5
++ __25-[CBSBIM startMonitoring]_block_invoke.42
++ __28-[CBColorModuleShared start]_block_invoke.22
++ __34-[TMDisplayModule setupNextUpdate]_block_invoke.277
++ __37-[CBColorModuleShared updateActivity]_block_invoke.402
++ __54-[CBIndicatorBrightnessModule startMonitoringForRTPLC]_block_invoke.88
++ __61-[CBDisplayModuleSKL rampAuroraScaler:withLength:properties:]_block_invoke.582
++ __62-[CBDisplayModuleSKL rampSDRBrightness:withLength:properties:]_block_invoke.573
++ __62-[CBDisplayModuleSKL rampSDRBrightness:withLength:properties:]_block_invoke.573.cold.1
++ __65-[CBDisplayModuleSKL rampBrightnessScaler:withLength:properties:]_block_invoke.581
++ __65-[CBDisplayModuleSKL rampBrightnessScaler:withLength:properties:]_block_invoke.581.cold.1
++ __DATA_ALSDefaultRateManager
++ __DATA_CBBrightnessBoost
++ __DATA_CBThreeSegmentAABCurve
++ __DATA__TtC14CoreBrightness20ThreeSegmentAABCurve
++ __DATA__TtC14CoreBrightness31ThreeSegmentAABCurvePreferences
++ __DisplaySetProperty_block_invoke.455
++ __INSTANCE_METHODS_ALSDefaultRateManager
++ __INSTANCE_METHODS_CBBrightnessBoost
++ __INSTANCE_METHODS_CBThreeSegmentAABCurve
++ __INSTANCE_METHODS__TtC14CoreBrightness20ThreeSegmentAABCurve
++ __INSTANCE_METHODS__TtC14CoreBrightness31ThreeSegmentAABCurvePreferences
++ __IVARS_ALSDefaultRateManager
++ __IVARS_CBBrightnessBoost
++ __IVARS_CBThreeSegmentAABCurve
++ __IVARS__TtC14CoreBrightness20ThreeSegmentAABCurve
++ __IVARS__TtC14CoreBrightness31ThreeSegmentAABCurvePreferences
++ __METACLASS_DATA_ALSDefaultRateManager
++ __METACLASS_DATA_CBBrightnessBoost
++ __METACLASS_DATA_CBThreeSegmentAABCurve
++ __METACLASS_DATA__TtC14CoreBrightness20ThreeSegmentAABCurve
++ __METACLASS_DATA__TtC14CoreBrightness31ThreeSegmentAABCurvePreferences
++ __OBJC_$_INSTANCE_METHODS_CBALSSelectionPolicyBase
++ __OBJC_$_INSTANCE_METHODS_CBStandardALSSelectionPolicy
++ __OBJC_$_INSTANCE_VARIABLES_CBALSSelectionPolicyBase
++ __OBJC_$_PROP_LIST_ALSRateManagerProtocol
++ __OBJC_$_PROP_LIST_CBAABCurveProtocol
++ __OBJC_$_PROP_LIST_CBStandardALSSelectionPolicy
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ALSRateManagerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ALSRateManagerProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CBALSSelectionPolicyProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ALSRateManagerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ALSRateManagerProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CBALSSelectionPolicyProtocol
++ __OBJC_$_PROTOCOL_REFS_ALSRateManagerDelegate
++ __OBJC_$_PROTOCOL_REFS_ALSRateManagerProtocol
++ __OBJC_$_PROTOCOL_REFS_CBALSSelectionPolicyProtocol
++ __OBJC_CLASS_PROTOCOLS_$_CBStandardALSSelectionPolicy
++ __OBJC_CLASS_RO_$_CBALSSelectionPolicyBase
++ __OBJC_CLASS_RO_$_CBStandardALSSelectionPolicy
++ __OBJC_LABEL_PROTOCOL_$_ALSRateManagerDelegate
++ __OBJC_LABEL_PROTOCOL_$_ALSRateManagerProtocol
++ __OBJC_LABEL_PROTOCOL_$_CBALSSelectionPolicyProtocol
++ __OBJC_METACLASS_RO_$_CBALSSelectionPolicyBase
++ __OBJC_METACLASS_RO_$_CBStandardALSSelectionPolicy
++ __OBJC_PROTOCOL_$_ALSRateManagerDelegate
++ __OBJC_PROTOCOL_$_ALSRateManagerProtocol
++ __OBJC_PROTOCOL_$_CBALSSelectionPolicyProtocol
++ __PROPERTIES_ALSDefaultRateManager
++ __PROPERTIES_CBBrightnessBoost
++ __PROPERTIES_CBDynamicSliderUniversal
++ __PROPERTIES_CBThreeSegmentAABCurve
++ __PROPERTIES__TtC14CoreBrightness20ThreeSegmentAABCurve
++ __PROTOCOLS_ALSDefaultRateManager
++ __PROTOCOLS_CBThreeSegmentAABCurve
++ __PROTOCOLS__TtC14CoreBrightness20ThreeSegmentAABCurve
++ __PROTOCOLS__TtC14CoreBrightness31ThreeSegmentAABCurvePreferences
++ __ZN10applesauce2CF10convert_asINSt3__16vectorIfNS2_9allocatorIfEEEELi0EEENS2_8optionalIT_EEPK9__CFArray
++ __ZN10applesauce2CF10convert_asINSt3__16vectorIiNS2_9allocatorIiEEEELi0EEENS2_8optionalIT_EEPK9__CFArray
++ __ZN10applesauce2CF10convert_asINSt3__16vectorIjNS2_9allocatorIjEEEELi0EEENS2_8optionalIT_EEPK9__CFArray
++ __ZN10applesauce2CF10convert_asIbLi0EEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF10convert_asIfLi0EEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF10convert_asIiLi0EEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF10convert_asIjLi0EEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details17number_convert_asIbEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details17number_convert_asIfEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details17number_convert_asIiEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details17number_convert_asIjEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details20CFArray_get_value_asINSt3__16vectorIfNS3_9allocatorIfEEEEEENS3_8optionalIT_EEPK9__CFArray
++ __ZN10applesauce2CF7details20CFArray_get_value_asINSt3__16vectorIiNS3_9allocatorIiEEEEEENS3_8optionalIT_EEPK9__CFArray
++ __ZN10applesauce2CF7details20CFArray_get_value_asINSt3__16vectorIjNS3_9allocatorIjEEEEEENS3_8optionalIT_EEPK9__CFArray
++ __ZN10applesauce2CF7details28treat_as_bool_for_convert_asIbEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details28treat_as_bool_for_convert_asIfEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details28treat_as_bool_for_convert_asIiEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF7details28treat_as_bool_for_convert_asIjEENSt3__18optionalIT_EEPK10__CFNumber
++ __ZN10applesauce2CF9NumberRef8from_getEPK10__CFNumber
++ __ZN10applesauce2CF9NumberRefD1Ev
++ __ZN10applesauce2CF9ObjectRefIPK10__CFNumberED2Ev
++ __ZN4AABC12setALSClientEPU28objcproto17ALSClientProtocol11objc_object
++ __ZNKSt3__110__val_exprINS_9_BinaryOpINS_7greaterIfEENS_8valarrayIfEES5_EEE3maxB9nqe220106Ev
++ __ZNSt12length_errorC1B9nqe220106EPKc
++ __ZNSt12out_of_rangeC1B9nqe220106EPKc
++ __ZNSt13runtime_errorC1EPKc
++ __ZNSt13runtime_errorD1Ev
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorI11FrameSampleEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIfEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIiEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIjEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9nqe220106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9nqe220106EPKc
++ __ZNSt3__16vectorI11FrameSampleNS_9allocatorIS1_EEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorI11FrameSampleNS_9allocatorIS1_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorI11FrameSampleNS_9allocatorIS1_EEE20__throw_out_of_rangeB9nqe220106Ev
++ __ZNSt3__16vectorI11FrameSampleNS_9allocatorIS1_EEEC2B9nqe220106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9nqe220106IPfS5_EEvT_T0_m
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB9nqe220106INS_17_ClassicAlgPolicyEPfS6_EEvT0_T1_l
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE7reserveEm
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE24__emplace_back_slow_pathIJiEEEPiDpOT_
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE7reserveEm
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE24__emplace_back_slow_pathIJjEEEPjDpOT_
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE7reserveEm
++ __ZSt28__throw_bad_array_new_lengthB9nqe220106v
++ __ZTISt13runtime_error
++ __ZZ49-[CBDisplayModeOneOf displayModeProvidersUpdate:]E13mode_priority
++ ___CBU_IsTransitionPolicyEnabled_block_invoke
++ ___ZN4AABC25scheduleWithDispatchQueueEPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.507
++ ___ZN4AABC25scheduleWithDispatchQueueEPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.507.cold.1
++ ____DisplayUpdateSlider_block_invoke.762
++ ____DisplayUpdateSlider_block_invoke.764
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_memcpy17_8
++ ___swift_memcpy25_8
++ ___swift_memcpy29_4
++ ___swift_memcpy32_4
++ ___swift_memcpy33_4
++ ___swift_memcpy36_4
++ ___swift_memcpy41_8
++ ___swift_memcpy9_4
++ ___swift_mutable_project_boxed_opaque_existential_1
++ __block_descriptor_tmp.125
++ __block_descriptor_tmp.132
++ __block_literal_global.127
++ __block_literal_global.134
++ __block_literal_global.31
++ __block_literal_global.576
++ __swift_closure_destructor.27
++ __swift_closure_destructor.36
++ __swift_closure_destructor.46
++ __swift_closure_destructor.50
++ __swift_closure_destructor.59
++ __swift_closure_destructor.66
++ __swift_closure_destructor.73
++ _associated conformance 14CoreBrightness11CurveUpdateV10CodingKeys33_42516BEE8D90C15A4A1A8ED1DD2E2F3DLLOSHAASQ
++ _associated conformance 14CoreBrightness11CurveUpdateV10CodingKeys33_42516BEE8D90C15A4A1A8ED1DD2E2F3DLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14CoreBrightness11CurveUpdateV10CodingKeys33_42516BEE8D90C15A4A1A8ED1DD2E2F3DLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14CoreBrightness11FitPriorityOSHAASQ
++ _associated conformance 14CoreBrightness12ABCurvePointV10CodingKeys33_4A39D4208AEC32D8E64F643932C9EA11LLOSHAASQ
++ _associated conformance 14CoreBrightness12ABCurvePointV10CodingKeys33_4A39D4208AEC32D8E64F643932C9EA11LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14CoreBrightness12ABCurvePointV10CodingKeys33_4A39D4208AEC32D8E64F643932C9EA11LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14CoreBrightness13InnerPrefsKeyOSHAASQ
++ _associated conformance 14CoreBrightness13InnerPrefsKeyOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 14CoreBrightness13OuterPrefsKeyOSHAASQ
++ _associated conformance 14CoreBrightness13OuterPrefsKeyOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 14CoreBrightness13PreferenceAgeOSHAASQ
++ _associated conformance 14CoreBrightness13PreferenceAgeOSLAASQ
++ _associated conformance 14CoreBrightness16PreferenceRegionOSHAASQ
++ _associated conformance 14CoreBrightness16PreferenceRegionOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 14CoreBrightness36DSBucketedRatchetingAdjustmentConfigV10CodingKeys33_C330FD7761047F37E0F5715B981A595BLLOSHAASQ
++ _associated conformance 14CoreBrightness36DSBucketedRatchetingAdjustmentConfigV10CodingKeys33_C330FD7761047F37E0F5715B981A595BLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14CoreBrightness36DSBucketedRatchetingAdjustmentConfigV10CodingKeys33_C330FD7761047F37E0F5715B981A595BLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14CoreBrightness36DSBucketedRatchetingPowerStateConfigV10CodingKeys33_C330FD7761047F37E0F5715B981A595BLLOSHAASQ
++ _associated conformance 14CoreBrightness36DSBucketedRatchetingPowerStateConfigV10CodingKeys33_C330FD7761047F37E0F5715B981A595BLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 14CoreBrightness36DSBucketedRatchetingPowerStateConfigV10CodingKeys33_C330FD7761047F37E0F5715B981A595BLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14CoreBrightness36DSBucketedRatchetingPowerStateConfigV15RangeCodingKeys33_C330FD7761047F37E0F5715B981A595BLLOSHAASQ
++ _associated conformance 14CoreBrightness36DSBucketedRatchetingPowerStateConfigV15RangeCodingKeys33_C330FD7761047F37E0F5715B981A595BLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 14CoreBrightness36DSBucketedRatchetingPowerStateConfigV15RangeCodingKeys33_C330FD7761047F37E0F5715B981A595BLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _get_enum_tag_for_layout_string 14CoreBrightness29DynamicSliderAdjustmentPolicyO
++ _keypath_get_selector_boostEnd
++ _keypath_get_selector_boostFull
++ _keypath_get_selector_boostFullEnd
++ _keypath_get_selector_boostScaler
++ _keypath_get_selector_boostStart
++ _objc_msgSend$addSensors:
++ _objc_msgSend$addSensorsHandler
++ _objc_msgSend$adjustedNits:
++ _objc_msgSend$applyInterval:forSensor:
++ _objc_msgSend$boostEnd
++ _objc_msgSend$boostFull
++ _objc_msgSend$boostFullEnd
++ _objc_msgSend$boostScaler
++ _objc_msgSend$boostStart
++ _objc_msgSend$coexStateForALS:
++ _objc_msgSend$containerDidAdd:
++ _objc_msgSend$containerWillRemove:
++ _objc_msgSend$copyWithZone:
++ _objc_msgSend$currentMaxFactor
++ _objc_msgSend$dataWithJSONObject:options:error:
++ _objc_msgSend$deviceName
++ _objc_msgSend$dictionaryWithObject:forKey:
++ _objc_msgSend$factorFromMode:
++ _objc_msgSend$getClients
++ _objc_msgSend$handleAABStateChange:
++ _objc_msgSend$handleBatteryStateChange:
++ _objc_msgSend$handleCoexUpdates:
++ _objc_msgSend$handleDisplayStateChange
++ _objc_msgSend$hasCoexForALS:
++ _objc_msgSend$initCoexTracker
++ _objc_msgSend$initWithCapabilities:minNits:maxNits:UUID:displayID:curvePrefsKey:
++ _objc_msgSend$initWithConfiguration:
++ _objc_msgSend$initWithIdentifier:panelPlacement:
++ _objc_msgSend$initWithRateManager:
++ _objc_msgSend$isFrontALS:
++ _objc_msgSend$isRearALS:
++ _objc_msgSend$loadNitsFromCapabilitiesTo:
++ _objc_msgSend$loadNitsFromPreferencesTo:
++ _objc_msgSend$loadReductionFactorFromPreferencesTo:
++ _objc_msgSend$newCurveWithConfiguration:brightnessCapabilities:curvePrefsKey:
++ _objc_msgSend$newFiltersForALS:logCategory:
++ _objc_msgSend$parseCacheKey:displayIdentifier:builtIn:
++ _objc_msgSend$preAdjustedNits:
++ _objc_msgSend$reevaluate
++ _objc_msgSend$scheduleOnQueue:
++ _objc_msgSend$select:
++ _objc_msgSend$setAddSensorsHandler:
++ _objc_msgSend$setBoostEnd:
++ _objc_msgSend$setBoostFull:
++ _objc_msgSend$setBoostFullEnd:
++ _objc_msgSend$setBoostScaler:
++ _objc_msgSend$setBoostStart:
++ _objc_msgSend$setPreferredInterval:forSensor:error:
++ _objc_msgSend$superFastIntegrationTime
++ _objc_msgSend$updateRestrictionsForLux:
++ _objc_msgSend$updateRestrictionsImmediate
++ _objc_msgSend$uvThresholdPropertyHandler:forKey:
++ _swift_getAtKeyPath
++ _swift_getKeyPath
++ _swift_makeBoxUnique
++ _swift_setAtReferenceWritableKeyPath
++ _symbolic $s14CoreBrightness22CBParsableFromProviderP
++ _symbolic SDySSypG
++ _symbolic SNySfGSg
++ _symbolic SS______ySo17CBBrightnessBoostCSfGt s24ReferenceWritableKeyPathC
++ _symbolic SaySNySfGG
++ _symbolic SaySiG
++ _symbolic Say_____G 14CoreBrightness11CurveUpdateV
++ _symbolic Say_____G 14CoreBrightness13InnerPrefsKeyO
++ _symbolic Say_____G 14CoreBrightness13OuterPrefsKeyO
++ _symbolic Say_____G 14CoreBrightness16PreferenceRegionO
++ _symbolic Say______pGIeghg_ So17CBALSNodeProtocolP
++ _symbolic Sd
++ _symbolic SiSg
++ _symbolic So17CBBrightnessBoostC
++ _symbolic So7NSArrayCIeyBhy_
++ _symbolic _____ 14CoreBrightness11CurveUpdateV
++ _symbolic _____ 14CoreBrightness11CurveUpdateV10CodingKeys33_42516BEE8D90C15A4A1A8ED1DD2E2F3DLLO
++ _symbolic _____ 14CoreBrightness11FitPriorityO
++ _symbolic _____ 14CoreBrightness12ABCurvePointV
++ _symbolic _____ 14CoreBrightness12ABCurvePointV10CodingKeys33_4A39D4208AEC32D8E64F643932C9EA11LLO
++ _symbolic _____ 14CoreBrightness13AABPreferenceV
++ _symbolic _____ 14CoreBrightness13InnerPrefsKeyO
++ _symbolic _____ 14CoreBrightness13OuterPrefsKeyO
++ _symbolic _____ 14CoreBrightness13PreferenceAgeO
++ _symbolic _____ 14CoreBrightness14FittedSegmentsV
++ _symbolic _____ 14CoreBrightness15PendingOverrideV
++ _symbolic _____ 14CoreBrightness15ReferencePointsV
++ _symbolic _____ 14CoreBrightness16PreferenceRegionO
++ _symbolic _____ 14CoreBrightness19PreferenceRegionMapV
++ _symbolic _____ 14CoreBrightness20ThreeSegmentAABCurveC
++ _symbolic _____ 14CoreBrightness26ThreeSegmentAABCurveConfigV
++ _symbolic _____ 14CoreBrightness31ThreeSegmentAABCurvePreferencesC
++ _symbolic _____ 14CoreBrightness33ThreeSegmentDefaultSegmentsConfigV
++ _symbolic _____ 14CoreBrightness36DSBucketedRatchetingAdjustmentConfigV
++ _symbolic _____ 14CoreBrightness36DSBucketedRatchetingAdjustmentConfigV10CodingKeys33_C330FD7761047F37E0F5715B981A595BLLO
++ _symbolic _____ 14CoreBrightness36DSBucketedRatchetingPowerStateConfigV
++ _symbolic _____ 14CoreBrightness36DSBucketedRatchetingPowerStateConfigV10CodingKeys33_C330FD7761047F37E0F5715B981A595BLLO
++ _symbolic _____ 14CoreBrightness36DSBucketedRatchetingPowerStateConfigV15RangeCodingKeys33_C330FD7761047F37E0F5715B981A595BLLO
++ _symbolic _____Sg 14CoreBrightness13AABPreferenceV
++ _symbolic _____Sg 14CoreBrightness15PendingOverrideV
++ _symbolic ______p6sensor_SiSg8intervalt So17CBALSNodeProtocolP
++ _symbolic _____ySNySfGG s23_ContiguousArrayStorageC
++ _symbolic _____ySS______ySo17CBBrightnessBoostCSfGtG s23_ContiguousArrayStorageC s24ReferenceWritableKeyPathC
++ _symbolic _____ySS_____ySo17CBBrightnessBoostCSfGG s18_DictionaryStorageC s24ReferenceWritableKeyPathC
++ _symbolic _____ySiG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14CoreBrightness11CurveUpdateV10CodingKeys33_42516BEE8D90C15A4A1A8ED1DD2E2F3DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14CoreBrightness12ABCurvePointV10CodingKeys33_4A39D4208AEC32D8E64F643932C9EA11LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14CoreBrightness11CurveUpdateV10CodingKeys33_42516BEE8D90C15A4A1A8ED1DD2E2F3DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14CoreBrightness12ABCurvePointV10CodingKeys33_4A39D4208AEC32D8E64F643932C9EA11LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14CoreBrightness36DSBucketedRatchetingAdjustmentConfigV10CodingKeys33_C330FD7761047F37E0F5715B981A595BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14CoreBrightness36DSBucketedRatchetingPowerStateConfigV10CodingKeys33_C330FD7761047F37E0F5715B981A595BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14CoreBrightness36DSBucketedRatchetingPowerStateConfigV15RangeCodingKeys33_C330FD7761047F37E0F5715B981A595BLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14CoreBrightness11CurveUpdateV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14CoreBrightness13PreferenceAgeO
++ _symbolic _____y______p6sensor_SiSg8intervaltG s23_ContiguousArrayStorageC So17CBALSNodeProtocolP
++ _type_layout_string 14CoreBrightness11CurveUpdateV
++ _type_layout_string 14CoreBrightness12ABCurvePointV
++ _type_layout_string 14CoreBrightness13AABPreferenceV
++ _type_layout_string 14CoreBrightness14FittedSegmentsV
++ _type_layout_string 14CoreBrightness15PendingOverrideV
++ _type_layout_string 14CoreBrightness15ReferencePointsV
++ _type_layout_string 14CoreBrightness19PreferenceRegionMapV
++ _type_layout_string 14CoreBrightness26ThreeSegmentAABCurveConfigV
++ _type_layout_string 14CoreBrightness29DynamicSliderAdjustmentPolicyO
++ _type_layout_string 14CoreBrightness33ThreeSegmentDefaultSegmentsConfigV
++ _type_layout_string 14CoreBrightness36DSBucketedRatchetingAdjustmentConfigV
++ _type_layout_string 14CoreBrightness36DSBucketedRatchetingPowerStateConfigV
++ block_copy_helper.29
++ block_copy_helper.38
++ block_copy_helper.53
++ block_copy_helper.62
++ block_copy_helper.69
++ block_copy_helper.76
++ block_descriptor.31
++ block_descriptor.40
++ block_descriptor.55
++ block_descriptor.64
++ block_descriptor.71
++ block_descriptor.78
++ block_destroy_helper.30
++ block_destroy_helper.39
++ block_destroy_helper.54
++ block_destroy_helper.63
++ block_destroy_helper.70
++ block_destroy_helper.77
+- +[CBSBIM needsSBIM]
+- -[CBAABiOSCurveWrapper reset]
+- -[CBABCurve reset]
+- -[CBABCurve transferStateFrom:]
+- -[CBABCurveNitsBased reset]
+- -[CBCPMSModule rampCPMSNitsCap:withCurrentSDRNits:]
+- -[CBColorModuleShared addProxFilterWithALSNode:]
+- -[CBColorModuleShared handleFilterNotificationForKey:withProperty:]
+- -[CBDigitizerNode newFilterForALS:logCategory:]
+- -[CBDisplayModuleSKL caluclateExtendedAABTargetScaler]
+- -[CBDisplayModuleSKL extendedAABRampTo:]
+- -[CBDisplayModuleSKL initialiseBrightDotMitigation]
+- -[CBDisplayModuleSKL initialiseExtendedAABRange]
+- -[CBDisplayModuleSKL initialiseExtendedAABRange].cold.1
+- -[CBDisplayModuleSKL initialiseExtendedAABRange].cold.2
+- -[CBDisplayModuleSKL initialiseExtendedAABRange].cold.3
+- -[CBDisplayModuleSKL initialiseFrameStats]
+- -[CBDisplayModuleSKL initialiseSDR].cold.1
+- -[CBDisplayModuleSKL newAmmolite]
+- -[CBDisplayModuleSKL newTwilight]
+- -[CBDisplayModuleSKL rampBDMNitsCap:length:]
+- -[CBDisplayModuleSKL rampExtendedAABScaler:withLength:properties:]
+- -[CBDisplayModuleSKL rampRTPLCCap:to:withSpeed:]
+- -[CBDisplayModuleSKL startRTPLCRampFrom:to:withSpeed:]
+- -[CBDisplayModuleSKL updateBDMWithLux:]
+- -[CBDisplayModuleSKL updateExtendedAABAutoBrightnessState]
+- -[CBProxNode newFilterForALS:logCategory:]
+- -[CBSBIM initWithQueue:andDisplayModule:andEDRModule:andEDRThreshold:]
+- -[CBSBIM initWithQueue:andDisplayModule:andEDRModule:andEDRThreshold:].cold.1
+- -[CBSBIM initWithQueue:andDisplayModule:andEDRModule:andEDRThreshold:].cold.2
+- -[CBSBIM initWithQueue:andDisplayModule:andEDRModule:andEDRThreshold:].cold.3
+- -[CBSBIM initWithQueue:andDisplayModule:andEDRModule:andEDRThreshold:].cold.4
+- -[VMBLControl cacheBrightnessTransaction:builtIn:displayIdentifier:]
+- -[VMBLControl removeCachedBrightnessTransactionForDisplayIdentifier:builtIn:]
+- GCC_except_table121
+- GCC_except_table137
+- GCC_except_table142
+- GCC_except_table206
+- GCC_except_table243
+- GCC_except_table258
+- GCC_except_table37
+- GCC_except_table51
+- GCC_except_table53
+- GCC_except_table55
+- GCC_except_table91
+- GCC_except_table93
+- GCC_except_table95
+- OBJC_IVAR_$_CBDisplayModuleSKL._ammolite
+- OBJC_IVAR_$_CBDisplayModuleSKL._bdm
+- OBJC_IVAR_$_CBDisplayModuleSKL._bdmCurrentCap
+- OBJC_IVAR_$_CBDisplayModuleSKL._extendedAABRange
+- OBJC_IVAR_$_CBDisplayModuleSKL._rtplc
+- OBJC_IVAR_$_CBDisplayModuleSKL._sbim
+- OBJC_IVAR_$_CBDisplayModuleSKL._twilight
+- _CFDictionaryRemoveAllValues
+- _EXTENDED_AAB_SCALING_RAMP
+- _IOMobileFramebufferGetMainDisplay
+- _OBJC_$_PROP_LIST_CBSystemContext.55
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _PROTOCOLS_ALSClientContext.43
+- _RTPLC_RAMP
+- __25-[CBSBIM startMonitoring]_block_invoke.61
+- __28-[CBColorModuleShared start]_block_invoke.19
+- __34-[TMDisplayModule setupNextUpdate]_block_invoke.274
+- __37-[CBColorModuleShared updateActivity]_block_invoke.387
+- __44-[CBDisplayModuleSKL rampBDMNitsCap:length:]_block_invoke.cold.1
+- __48-[CBColorModuleShared addProxFilterWithALSNode:]_block_invoke.cold.1
+- __48-[CBDisplayModuleSKL rampRTPLCCap:to:withSpeed:]_block_invoke.cold.1
+- __54-[CBIndicatorBrightnessModule startMonitoringForRTPLC]_block_invoke.87
+- __61-[CBDisplayModuleSKL rampAuroraScaler:withLength:properties:]_block_invoke.622
+- __62-[CBDisplayModuleSKL rampSDRBrightness:withLength:properties:]_block_invoke.613
+- __62-[CBDisplayModuleSKL rampSDRBrightness:withLength:properties:]_block_invoke.613.cold.1
+- __65-[CBDisplayModuleSKL rampBrightnessScaler:withLength:properties:]_block_invoke.621
+- __65-[CBDisplayModuleSKL rampBrightnessScaler:withLength:properties:]_block_invoke.621.cold.1
+- __66-[CBDisplayModuleSKL rampExtendedAABScaler:withLength:properties:]_block_invoke.cold.1
+- __DisplaySetProperty_block_invoke.449
+- __OBJC_$_CLASS_METHODS_CBSBIM
+- __OBJC_CLASS_PROTOCOLS_$_CBABCurve
+- __ZNKSt3__110__val_exprINS_9_BinaryOpINS_7greaterIfEENS_8valarrayIfEES5_EEE3maxB9nqe220100Ev
+- __ZNSt12length_errorC1B9nqe220100EPKc
+- __ZNSt12out_of_rangeC1B9nqe220100EPKc
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorI11FrameSampleEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIfEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__120__throw_length_errorB9nqe220100EPKc
+- __ZNSt3__120__throw_out_of_rangeB9nqe220100EPKc
+- __ZNSt3__16vectorI11FrameSampleNS_9allocatorIS1_EEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorI11FrameSampleNS_9allocatorIS1_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorI11FrameSampleNS_9allocatorIS1_EEE20__throw_out_of_rangeB9nqe220100Ev
+- __ZNSt3__16vectorI11FrameSampleNS_9allocatorIS1_EEEC2B9nqe220100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE16__init_with_sizeB9nqe220100IPfS5_EEvT_T0_m
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB9nqe220100INS_17_ClassicAlgPolicyEPfS6_EEvT0_T1_l
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB9nqe220100Ev
+- __ZSt28__throw_bad_array_new_lengthB9nqe220100v
+- ___33-[CBDisplayModuleSKL newAmmolite]_block_invoke
+- ___33-[CBDisplayModuleSKL newTwilight]_block_invoke
+- ___43-[CBColorModuleShared addHIDServiceClient:]_block_invoke
+- ___44-[CBDisplayModuleSKL rampBDMNitsCap:length:]_block_invoke
+- ___48-[CBColorModuleShared addProxFilterWithALSNode:]_block_invoke
+- ___48-[CBDisplayModuleSKL rampRTPLCCap:to:withSpeed:]_block_invoke
+- ___51-[CBCPMSModule rampCPMSNitsCap:withCurrentSDRNits:]_block_invoke
+- ___66-[CBDisplayModuleSKL rampExtendedAABScaler:withLength:properties:]_block_invoke
+- ___ZN4AABC25scheduleWithDispatchQueueEPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.505
+- ___ZN4AABC25scheduleWithDispatchQueueEPU28objcproto17OS_dispatch_queue8NSObject_block_invoke.505.cold.1
+- ____DisplayUpdateSlider_block_invoke.756
+- ____DisplayUpdateSlider_block_invoke.758
+- ___block_descriptor_40_e8_32r_e19_f20?0f8"CBRamp"12l
+- ___swift_memcpy25_4
+- __block_descriptor_tmp.129
+- __block_literal_global.131
+- __block_literal_global.28
+- __block_literal_global.30
+- __block_literal_global.616
+- __swift_closure_destructor.34
+- __swift_closure_destructor.37
+- __swift_closure_destructor.47
+- __swift_closure_destructor.60
+- __swift_closure_destructor.67
+- __swift_closure_destructor.74
+- _load_integer_array_from_edt
+- _objc_msgSend$addProxFilterWithALSNode:
+- _objc_msgSend$addSensor:
+- _objc_msgSend$addSensorHandler
+- _objc_msgSend$cacheBrightnessTransaction:builtIn:displayIdentifier:
+- _objc_msgSend$calculateNitsCapForLux:
+- _objc_msgSend$caluclateExtendedAABTargetScaler
+- _objc_msgSend$cap
+- _objc_msgSend$clockRamp
+- _objc_msgSend$currentCap
+- _objc_msgSend$extendedAABRampTo:
+- _objc_msgSend$handleBrightnessUpdateWithSDRNits:andAppliedHeadroom:
+- _objc_msgSend$handleFilterNotificationForKey:withProperty:
+- _objc_msgSend$initWithFrameInfoProvider:
+- _objc_msgSend$initWithProvider:withName:andPrefix:
+- _objc_msgSend$initWithQueue:andDisplayModule:andEDRModule:andEDRThreshold:
+- _objc_msgSend$initWithQueue:frameInfoProvider:rtplcCapabilities:movingAverageDuration:
+- _objc_msgSend$initialiseBrightDotMitigation
+- _objc_msgSend$initialiseExtendedAABRange
+- _objc_msgSend$initialiseFrameStats
+- _objc_msgSend$needsSBIM
+- _objc_msgSend$newAmmolite
+- _objc_msgSend$newFilterForALS:logCategory:
+- _objc_msgSend$newTwilight
+- _objc_msgSend$rampBDMNitsCap:length:
+- _objc_msgSend$rampExtendedAABScaler:withLength:properties:
+- _objc_msgSend$rampRTPLCCap:to:withSpeed:
+- _objc_msgSend$removeCachedBrightnessTransactionForDisplayIdentifier:builtIn:
+- _objc_msgSend$setAddSensorHandler:
+- _objc_msgSend$setCurrentHeadroom:
+- _objc_msgSend$setCurrentHeadroomRequest:
+- _objc_msgSend$setReferenceModeState:
+- _objc_msgSend$transitionLengthFrom:to:
+- _objc_msgSend$updateBDMWithLux:
+- _objc_msgSend$updateExtendedAABAutoBrightnessState
+- _symbolic SDySSSiG
+- _symbolic SS_Sit
+- _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
+- _symbolic _____ySSSiG s18_DictionaryStorageC
+- _symbolic _____ySS_SitG s23_ContiguousArrayStorageC
+- block_copy_helper.30
+- block_copy_helper.39
+- block_copy_helper.54
+- block_copy_helper.63
+- block_copy_helper.70
+- block_copy_helper.77
+- block_descriptor.32
+- block_descriptor.41
+- block_descriptor.56
+- block_descriptor.65
+- block_descriptor.72
+- block_descriptor.79
+- block_destroy_helper.31
+- block_destroy_helper.40
+- block_destroy_helper.55
+- block_destroy_helper.64
+- block_destroy_helper.71
+- block_destroy_helper.78
+CStrings:
++ "AAB off factor not found"
++ "ABCurvePoint: (lux: "
++ "ALSDefaultRateManager"
++ "ALSSensorConfiguration: interval=none"
++ "Adjusting AAB curve for preference point: %s (uncapped lux: %f, unscaled nits: %f"
++ "BatteryReductionFactor"
++ "Boosted %f * %f to %f at %flux"
++ "CBDisplayPassthroughPolicy"
++ "CBExternalDisplayKeyPolicy"
++ "CFXSetUVColorMitigatedTh1: invalid ref or harmony context"
++ "CFXSetUVColorMitigatedTh2: invalid ref or harmony context"
++ "CFXSetUVTh1: invalid ref or harmony context"
++ "CFXSetUVTh2: invalid ref or harmony context"
++ "CPMSCurrentSDRNits"
++ "CPMSSetNitsCapWithDuration"
++ "Caching headroom request:%@ from displayUUID:%@ builtIn:%d"
++ "ColorUVColorMitigatedTh1"
++ "ColorUVColorMitigatedTh2"
++ "ColorUVTh1"
++ "ColorUVTh2"
++ "CoreBrightness.ThreeSegmentAABCurve"
++ "CoreBrightness.ThreeSegmentAABCurvePreferences"
++ "CoreBrightness_Internal.CBBrightnessBoost"
++ "CoreBrightness_Internal.CBThreeSegmentAABCurve"
++ "Could not construct"
++ "Could not create battery factor curve for max brightness restriction"
++ "Could not create charger factor curve for max brightness restriction"
++ "Curve segments before updating:\n    dark: (start: %s, end: %s)\n    mid: (start: %s, end: %s)\n    bright: slope: %f"
++ "DarkLightThreshold"
++ "EXBrightMIB"
++ "Failed to activate ALS client: %{public}@"
++ "Failed to clear ALS interval: %{public}@"
++ "Failed to create coex tracker."
++ "Failed to set ALS interval: %{public}@"
++ "Failed to set ALS test mode interval: %{public}@"
++ "Falling back to legacy dynamic slider macOS implementation"
++ "Incorrect values in age array: %s"
++ "Initialized preferences for UUID %s:\n    dark segment: (start: %s, end: %s),\n    mid segment: (start: %s, end: %s),\n    brightSlope: %f,\n    preferences: %s,\n    pendingOverride: %s,\n    justOverridenBrightValue: %{bool}d,\n    updateTimestamp: %f,\n    curveUpdates: %s"
++ "Initializing AAB curve for curveName: %s with config:\n    minNits: %f, maxNits: %f,\n    slopeMin: %f, slopeMax: %f,\n    darkSlopeMax: %f, luxDarkLightThreshold: %f,\n    minMidEndLux: %f, maxLux: %f"
++ "Initializing AAB curve preferences for UUID: %s with AAB contraints dict: %s"
++ "Insufficient configuration to initialize bucketed ratcheting adjustment policy"
++ "Invalid prefs dictionary: %s"
++ "Invalid three-segment preferences dictionary: %s"
++ "Max nits not provided in configuration, can't create max brightness restriction"
++ "MaxSlope"
++ "Migration from legacy linear brightness single segment AAB curve not implemented yet, using default curve"
++ "Migration from linear brightness single segment AAB curve not implemented yet, using default curve"
++ "Migration from nits single segment AAB curve not implemented yet, using default curve"
++ "MinE2"
++ "MinSlope"
++ "Misconfiguration in AAB curve config: darkStartLux cannot be equal to darkEndLux"
++ "Misconfiguration in AAB curve config: minSlope cannot be 0"
++ "Misconfiguration in preferences config: midEndLux cannot be 0"
++ "Misconfiguration in preferences config: midEndLux cannot be equal to darkEndLux"
++ "New dynamic slider initialized: %s"
++ "Nits for lux: %f is: %f (unscaled nits: %f"
++ "No AAB contraints dict, cannot initialize curve"
++ "Pivot nits for max restriction not provided"
++ "PreferenceRegionMap: [dark: "
++ "Preferences applied: %s (%s)"
++ "Preferences were not initialized, cannot initialize curve"
++ "PropertyPolicy"
++ "Replaying %lu cached headroom request(s)"
++ "Resetting preferences to default state"
++ "Restoring cached MIB: %f"
++ "SBIM Initialization | SBIM supported (panel index: %d, fbname: %@)"
++ "Saved preferences could not be loaded, starting with default preferences from config"
++ "Selected preference region: %s"
++ "Selected reference points:\n    dark: %s\n    bright: %s\n    priority: %s"
++ "Set %s to %f"
++ "Setting UV Color Mitigated Th1 (1D Harmony - start new ramp threshold) to: %f"
++ "Setting UV Color Mitigated Th2 (1D Harmony - interrupt ramp threshold) to: %f"
++ "Setting UV Th1 (1.5D Harmony - start new ramp threshold) to: %f"
++ "Setting UV Th2 (1.5D Harmony - interrupt ramp threshold) to: %f"
++ "Some of the required keys to initialize curve are missing in capabilities"
++ "Some of the required keys to initialize preferences are missing in capabilities"
++ "Three segment curve could not be initialized, falling back to single segment"
++ "Three segment curve initialized successfully"
++ "Updated curve segments:\n    dark: (start: %s, end: %s)\n    mid: (start: %s, end: %s)\n    bright: (slope: %f"
++ "Updating current factor from %f to %f immediately"
++ "Wrong value type for UV threshold property (%{public}@) %@"
++ "[CPMS] Current SDR brightness updated: %f -> %f"
++ "[CPMS] Display turning on - sending immediate cap update to terminate active thermal ramp (cap=%f)"
++ "[CPMS] Sending nits cap ramp to display: target=%f duration=%fs"
++ "[CPMS] Using current SDR nits (%f) instead of cap (%f) for ramp duration calculation"
++ "[Coex] MITIGATION: Cancel color ramp, all ALSes with coex"
++ "[Coex] MITIGATION: coex detected on ALS[%@]"
++ "[Coex]: ALS discarded by coex [%@]"
++ "[Display] CPMS ramp request: target=%f duration=%f"
++ "[Harmony thresholds] 1.5D Harmony: uv_thr1(new_ramp)=%f, uv_thr2(interrupt)=%f Lux=%f"
++ "[Harmony thresholds] Interrupt ramp by forceUpdate =%d || deltauv=%f >= uv_thr2(interrupt)=%f Lux=%f"
++ "[Harmony thresholds] Mitigation triggered -> 1D Harmony: uv_thr1(new_ramp)=%f, uv_thr2(interrupt)=%f Lux=%f"
++ "[Harmony thresholds] Start new ramp by deltauv=%f >= uv_thr1(new_ramp)=%f Lux=%f"
++ "[Linear Weighted] xy= %f | %f ratio=%f"
++ "[Log Weighted] xy= %f | %f ratio=%f"
++ "[dcpRoleID=%d] SIL=%d, monotonicTimeUS=%llu. Sending to EXBright: %@."
++ "boostEnd"
++ "boostFull"
++ "boostFullEnd"
++ "boostScaler"
++ "boostStart"
++ "brightness update: SDR=%f | EDR.applied=%f | EDR.nits=%f | EDR.req=%f | EDR.curr=%f | EDR.ref=%f | EDR.available=%f | EDR.max=%f | lux=%f | limit=%f | gcp=%f | pcc=%f | Indicator.brightness=%f | Indicator.limit=%f"
++ "brightness.device.current %f -> factor %f"
++ "bucketedRatcheting"
++ "buckets"
++ "com.apple.CoreBrightness.ALSDefaultRateManager"
++ "com.apple.CoreBrightness.CBALSSelectionPolicy.%d"
++ "com.apple.CoreBrightness.CBBrightnessBoost"
++ "com.apple.CoreBrightness.SBIM.%d"
++ "com.apple.CoreBrightness.ThreeSegmentAABCurve."
++ "com.apple.CoreBrightness.ThreeSegmentAABCurvePreferences."
++ "deadZone"
++ "lastAppliedInterval"
++ "lowerBound"
++ "matchBright"
++ "matchDark"
++ "max_factors_charger"
++ "max_thresholds_charger"
++ "primary"
++ "sensor (p:%d|o:%d): interval %d -> %d ms"
++ "targetNits"
++ "upperBound"
+- "AMMOLITE_RAMP"
+- "Aurora not supported -> Extended AAB range is not supported"
+- "BDM"
+- "BDMNits cap transition %f -> %f"
+- "BDM_NITS_CAP_RAMP"
+- "CBAmmolite"
+- "CBTwilight"
+- "CPMSNitsCapStartRamp"
+- "CPMSUpdateNitsCap"
+- "CPMS_NITS_CAP_RAMP"
+- "EDR headroom is being capped by SBIM: request=%f cap=%f"
+- "EXTENDED_AAB_SCALING_RAMP"
+- "Extended AAB Ramp | CurrentScaler=%f TargetScaler=%f RampTime=%f"
+- "Extended AAB range is not supported"
+- "MITIGATION: Cancel color ramp on prox mitigation"
+- "MITIGATION: Cancel color ramp on touch mitigation"
+- "PCC: Starting New HDR AAP Ramp: Factor:=%0.4f Lux:=%0.4f Nits:=%0.4f HDRFactor:=%0.4f\n"
+- "RTPLC"
+- "RTPLC cap ramp clocked: %f -> %f - %f%%"
+- "RTPLC cap transition %f -> %f (speed=%f)"
+- "RTPLC tables not found"
+- "RTPLC_RAMP"
+- "SBIM Initialization | SBIM supported"
+- "SBIM Initialization | Unable to obtain SBIM tables"
+- "SBIMEnabled"
+- "Sending SIL ON to EXBright %@"
+- "Starting BDM cap ramp to %f over %f seconds cause lux is %f"
+- "TWILIGHT_RAMP"
+- "Touch state changed = %{public}@, orientation = %{public}@"
+- "[CPMS Nits cap] cpms ramp update: %f"
+- "[CPMS Nits cap] instant transition: %f -> %f"
+- "[CPMS Nits cap] ramp clocked: %f -> %f - %f%%"
+- "aml"
+- "ammolite"
+- "brightness update: SDR=%f | EDR.applied=%f | EDR.nits=%f | EDR.req=%f | EDR.curr=%f | EDR.ref=%f | EDR.available=%f | EDR.max=%f | lux=%f | limit=%f | gcp=%f | pcc=%f | Twilight.Strength=%f | Ammolite.Strength=%f | Indicator.brightness=%f | Indicator.limit=%f"
+- "handleEvent: %{public}@"
+- "handleHIDEvent: %{public}@"
+- "tw"
+- "twilight"
+- "xy= %f | %f ratio=%f"
+
+```

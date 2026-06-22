@@ -1,0 +1,178 @@
+## AppleNeuralEngine
+
+> `/System/Library/PrivateFrameworks/AppleNeuralEngine.framework/Versions/A/AppleNeuralEngine`
+
+```diff
+
+-382.7.4.0.0
+-  __TEXT.__text: 0x5a510 sha256:133c47218bbd5ea7804d67e40734da3c9068d4e9dba81b893189765b2b08ff10
+-  __TEXT.__objc_methlist: 0x2aec sha256:4f4b30cc0a1579a72183f7ee857bf666c946114b5460bea81a0f803d88bc313e
++382.9.0.0.0
++  __TEXT.__text: 0x5ae34 sha256:711a0530f81130e2a9f41193498629d03958d23ab3b4132b93eb3748fad85637
++  __TEXT.__objc_methlist: 0x2b0c sha256:c1b446236f7a1a0abc86819e31252cc97aac95100c6c7eedf2aee8a5ba12f4ed
+   __TEXT.__const: 0x2b8 sha256:fa6f4665ac61ab08dedc626252a8c66f2c5ad3dd010635746a57bbdcc3b45cf9
+-  __TEXT.__oslogstring: 0xb42b sha256:2e3dcb6c41202f182ff7033af4a7fb1c618a3861729aa7d4352b30a216c51a7c
+-  __TEXT.__cstring: 0x3732 sha256:5c230111aeeba7aae026b2e2f30d9862590dca9994403273225e876050e8a4df
+-  __TEXT.__gcc_except_tab: 0x6584 sha256:c2420a778cbd40596b237794c89ed40a0b147fa0724996b010555c41552c5f56
+-  __TEXT.__unwind_info: 0x1340 sha256:637ba60727ed18a57e5eb96a4ac427e4dacf077c577d1bf95e7a25bf4a2feebc
++  __TEXT.__oslogstring: 0xb49e sha256:312bd20f2f42abc1445366617d9d1c803fbad2ee11e132e8f0dadf1e93da7610
++  __TEXT.__cstring: 0x3730 sha256:db7e1b37e504af4cf41fbd733a26d2d329f99076bbb7e8c1e679b6b1f871755e
++  __TEXT.__gcc_except_tab: 0x65a8 sha256:fd859657c015b95ffd9ddbd19bbe73e8e1ec85d780d08ca1f4ef75f38f15df0f
++  __TEXT.__unwind_info: 0x1368 sha256:9b4845bfacc58817cd2a86e93874bbfec121d7e6751c3be6a92c894d8e01447a
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x188 sha256:e5e0bbdd6f7b3d677268f84c7ee81208902262cd3dd0cebd7cac0498170e1887
+-  __DATA_CONST.__objc_classlist: 0x130 sha256:ce1afd0ddf6ef1a85d8cc7c803c1310ab547a1374ae0dc86c7d70ac55ee22bd0
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:8aa982397cb3e3bbadfbbf0b4be0686f0c90c73f5b1a081a8078c8c2a1501904
+-  __DATA_CONST.__objc_protolist: 0x28 sha256:13a62b2b737f982d9733a57f28c699e1b9f6802e24942643ab05aa05b3d3052c
++  __DATA_CONST.__const: 0x188 sha256:b6120f782d4933395f4db1e79f1ddcb6c7964c3c3aa4fa1c4a06548089333cb8
++  __DATA_CONST.__objc_classlist: 0x130 sha256:dcf6ad1a6addd4f4504581cdaaf1106fcb043282d5c122db7ec593fe88b6aff1
++  __DATA_CONST.__objc_catlist: 0x8 sha256:1835026906bc8de1797b1761f446e303aab790cde1cb004acd5576371c977c4b
++  __DATA_CONST.__objc_protolist: 0x28 sha256:0136bd0e201d6e23f0b874a83de5f206a45bb31619cc1622c62f75f2f5329799
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__weak_got: 0x10 sha256:452565527b0f26bf98c383e45ad8c67b2b0a32c46b2c9556d3756f815618520a
+-  __DATA_CONST.__objc_selrefs: 0x19c8 sha256:917502e094296c610642b93184045bda48544442e681f8af6828b1c7a323f522
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:68d36366152a754877a2a26c5dd573c58a47c5da228a4c5d09f8076f328e361b
+-  __DATA_CONST.__objc_superrefs: 0xd8 sha256:0e6c2cd5f80e6b72d557457e64452155b9a26e88ec6d5555659db923e5bdf2ac
+-  __DATA_CONST.__objc_arraydata: 0x120 sha256:79ab64e826ea4ae02352dec1966f4747693225106dca985d379b903d9e4efa8e
+-  __DATA_CONST.__got: 0x2f8 sha256:ed778dc34bc06242f9d81b45ae23d7888d53b3aaedab156b1b67d6ee892cdd2b
+-  __AUTH_CONST.__const: 0xc80 sha256:b1d8a4954823cfd99aa3de397243bfd85e86f05fd21f06cad85250b90d096bef
+-  __AUTH_CONST.__cfstring: 0x48e0 sha256:0a5b1f2b018391b7cdc2c31ad1cef632f044cee85dc9264412cfbdfcc08b4012
+-  __AUTH_CONST.__objc_const: 0x3c48 sha256:4da49950467ca0384a44dbed6c8a86902cea8a1eca8127386526e3d18e224988
+-  __AUTH_CONST.__weak_auth_got: 0x28 sha256:e1ecf525621538654b165c2e26be1079a0018a64007bd94825526887e344d9ca
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:35cca19c614d2031c4463c5f9d252e7b98427dfbe31482dcbcb2aa2e616a7064
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:161267863f6c3ba9cbbe2587fc6a0f5bb4705472479f5b3bf29a395f6ab3819d
+-  __AUTH_CONST.__objc_arrayobj: 0x60 sha256:3ef21dc15089c63aa5a7b20360da1df502efc27aca9954d9b540e222c9843378
++  __DATA_CONST.__weak_got: 0x10 sha256:72c70f5e35c952877602bc3a58fe0ed8aca22e071af916dc814acdc603dc1d9d
++  __DATA_CONST.__objc_selrefs: 0x19d8 sha256:878306a0c9ddec5ecd966df9064ab33cb406f48bbbae4445f525dbced2201e51
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:a79293a6d790b3493525a1d4608567efd16b73f523e44c95cbfce8b2bcc86e80
++  __DATA_CONST.__objc_superrefs: 0xd8 sha256:49aa6f3f0b65fa5d7706b001c2a503ec97b115b2fb827a9a5f7fc4b163c1fe83
++  __DATA_CONST.__objc_arraydata: 0x120 sha256:f9c55506c8fe9d48e23109e32f50be89f88b6c14d7f2270ee95fddea0ed73974
++  __DATA_CONST.__got: 0x300 sha256:e27f839d49183b5dd0ceb5038fdd179bd6af831b2dc768a11675086549fd9fc5
++  __AUTH_CONST.__const: 0xd10 sha256:b7a244a8f82ad1acf4d185e04701afdb38549537e2b23040e149bb0a2f6e0569
++  __AUTH_CONST.__cfstring: 0x48e0 sha256:248eceb465e9435e14b9f5776dbfe5dd828e7cb46a9cbe41d4d2b5780876f452
++  __AUTH_CONST.__objc_const: 0x3c70 sha256:5de4cb8fa15893d11d29e4f84b1e31a4753e6da241082fb5ad4d861af1a11dea
++  __AUTH_CONST.__weak_auth_got: 0x28 sha256:1d86bd97a506dff429771089bfa4c7a172cf002cb883f490243d1559a6cb43e5
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:5b98de484e337488b37cd6f039ebc85901eaca56af7c6588fa0b2c2556099b46
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:47f9a681f41b51f45f105242062216588743d9d5dfbd537d374684c225f0f840
++  __AUTH_CONST.__objc_arrayobj: 0x60 sha256:d1316e996f4217dc95f3e5a34ffeb9a348aa08e405b3afa67cfd0133c4138e72
+   __AUTH_CONST.__auth_got: 0x560 sha256:49a28074f77667d03ee25c87c88bbe7ccba834fb8b9c0b09db7b70035c8a703e
+-  __AUTH.__objc_data: 0x190 sha256:cd41a340a31bf3efdaf10ac1e7b6700d8482d6d3dd1a6d5e40062b6a96795f56
++  __AUTH.__objc_data: 0x190 sha256:ce25819f5c11c7d0e33f6f904efa28224352f5a37d07378b68a37a1945fcb50b
+   __DATA.__objc_ivar: 0x234 sha256:38d729bf5028ada66896c5bb8e03d42cf618243da0daccdbf7477af80fff17ed
+-  __DATA.__data: 0x6e8 sha256:4f4ce2cb4996a04bfdc1f34aeb2db2fe8aab0c2c5a438cce7c7a8b3874b00abe
++  __DATA.__data: 0x6e8 sha256:0d934ef39906d2e7bfcebd9111e530198fba52384cf2ebef94ad51d07187fc89
+   __DATA.__bss: 0x178 sha256:70d6aad73b9cfd0facdee81f4aac5bbf30d603300653623c57f7c26e1c376271
+-  __DATA_DIRTY.__objc_data: 0xa50 sha256:fd7d1680d0ed523caf7f3cd87f22cbd6be41c14a946ce31c1d03d0565b3eb907
+-  __DATA_DIRTY.__data: 0x10 sha256:7a03e5c7b1276237cd2903a715cff3b0b1302a34887b68dac61cf2b5bb9a47c3
++  __DATA_DIRTY.__objc_data: 0xa50 sha256:7a2b2abdb549d4a79fde5703974669b6f98f3119f27573ce4707281c2246a015
++  __DATA_DIRTY.__data: 0x10 sha256:21a4567e8031a9b11396575aee41bb53629caf592a6fd536c14f5579195081d4
+   __DATA_DIRTY.__bss: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsandbox.1.dylib
+-  UUID: 23116C72-C603-3962-926A-958891B824B3
+-  Functions: 1740
+-  Symbols:   3827
+-  CStrings:  1977
++  UUID: 6CABC64E-4F13-374F-8BD5-B79989FA1D0C
++  Functions: 1751
++  Symbols:   3844
++  CStrings:  1979
+ 
+Symbols:
++ +[_ANEErrors requestCancelledErrorForMethod:]
++ -[_ANEClient compiledModelExistsInCacheFor:]
++ -[_ANEDaemonConnection compiledModelExistsInCacheFor:withReply:]
++ GCC_except_table58
++ GCC_except_table68
++ GCC_except_table72
++ GCC_except_table75
++ GCC_except_table83
++ __44-[_ANEClient compiledModelExistsInCacheFor:]_block_invoke_2.cold.1
++ __64-[_ANEDaemonConnection compiledModelExistsInCacheFor:withReply:]_block_invoke.29
++ __64-[_ANEDaemonConnection compiledModelExistsInCacheFor:withReply:]_block_invoke.cold.1
++ __65-[_ANEDaemonConnection purgeCompiledModelMatchingHash:withReply:]_block_invoke.31
++ __65-[_ANEDaemonConnection purgeCompiledModelMatchingHash:withReply:]_block_invoke.31.cold.1
++ __66-[_ANEDaemonConnection compiledModelExistsMatchingHash:withReply:]_block_invoke.30
++ __66-[_ANEDaemonConnection compiledModelExistsMatchingHash:withReply:]_block_invoke.30.cold.1
++ __71-[_ANEClient doLoadModelNewInstance:options:modelInstParams:qos:error:]_block_invoke.49
++ __71-[_ANEClient doLoadModelNewInstance:options:modelInstParams:qos:error:]_block_invoke.49.cold.1
++ __71-[_ANEClient doLoadModelNewInstance:options:modelInstParams:qos:error:]_block_invoke.49.cold.2
++ __71-[_ANEClient doLoadModelNewInstance:options:modelInstParams:qos:error:]_block_invoke.49.cold.3
++ __71-[_ANEClient doLoadModelNewInstance:options:modelInstParams:qos:error:]_block_invoke.49.cold.4
++ __ZNKSt9type_infoeqB9nqe220106ERKS_
++ __ZNSt12length_errorC1B9nqe220106EPKc
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIy25MutableWeightsBufferEntryEEPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9nqe220106Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIy25MutableWeightsBufferEntryEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS7_SB_S9_EENS_9allocatorIS7_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqe220106Em
++ __ZNSt3__113unordered_mapIy25MutableWeightsBufferEntryNS_4hashIyEENS_8equal_toIyEENS_9allocatorINS_4pairIKyS1_EEEEE5eraseB9nqe220106ENS_19__hash_map_iteratorINS_15__hash_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeIyS1_EEPvEEEEEE
++ __ZNSt3__119__shared_weak_count16__release_sharedB9nqe220106Ev
++ __ZNSt3__120__throw_length_errorB9nqe220106EPKc
++ __ZSt28__throw_bad_array_new_lengthB9nqe220106v
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIy19MutableWeightsEntryEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS7_SB_S9_EENS_9allocatorIS7_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSN_SL_OSO_OSP_E_clESN_SL_S10_S11_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIy25MutableWeightsBufferEntryEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS7_SB_S9_EENS_9allocatorIS7_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSN_SL_OSO_OSP_E_clESN_SL_S10_S11_
++ ___44-[_ANEClient compiledModelExistsInCacheFor:]_block_invoke
++ ___44-[_ANEClient compiledModelExistsInCacheFor:]_block_invoke_2
++ ___64-[_ANEDaemonConnection compiledModelExistsInCacheFor:withReply:]_block_invoke
++ ___block_descriptor_48_e8_32s40bs_e20_v20?0B8"NSError"12l
++ ___block_descriptor_56_e8_32s40r_e20_v20?0B8"NSError"12l
++ ___block_descriptor_64_e8_32s40s48r_e5_v8?0l
++ ___copy_helper_block_e8_32s40b
++ ___copy_helper_block_e8_32s40r
++ ___destroy_helper_block_e8_32s40r
++ __block_literal_global.234
++ __block_literal_global.239
++ __block_literal_global.250
++ __block_literal_global.264
++ __block_literal_global.269
++ __block_literal_global.42
++ _objc_msgSend$compiledModelExistsInCacheFor:withReply:
++ _objc_msgSend$numANECores
++ _objc_msgSend$requestCancelledErrorForMethod:
+- +[_ANEStrings vm_tmpBaseDirectory]
+- GCC_except_table63
+- GCC_except_table73
+- GCC_except_table92
+- __65-[_ANEDaemonConnection purgeCompiledModelMatchingHash:withReply:]_block_invoke.30
+- __65-[_ANEDaemonConnection purgeCompiledModelMatchingHash:withReply:]_block_invoke.30.cold.1
+- __66-[_ANEDaemonConnection compiledModelExistsMatchingHash:withReply:]_block_invoke.29
+- __66-[_ANEDaemonConnection compiledModelExistsMatchingHash:withReply:]_block_invoke.29.cold.1
+- __71-[_ANEClient doLoadModelNewInstance:options:modelInstParams:qos:error:]_block_invoke.47
+- __71-[_ANEClient doLoadModelNewInstance:options:modelInstParams:qos:error:]_block_invoke.47.cold.1
+- __71-[_ANEClient doLoadModelNewInstance:options:modelInstParams:qos:error:]_block_invoke.47.cold.2
+- __71-[_ANEClient doLoadModelNewInstance:options:modelInstParams:qos:error:]_block_invoke.47.cold.3
+- __71-[_ANEClient doLoadModelNewInstance:options:modelInstParams:qos:error:]_block_invoke.47.cold.4
+- __ZNKSt9type_infoeqB9nqe220100ERKS_
+- __ZNSt12length_errorC1B9nqe220100EPKc
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIy25MutableWeightsBufferEntryEEPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9nqe220100Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy25MutableWeightsBufferEntryEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS7_SB_S9_EENS_9allocatorIS7_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqe220100Em
+- __ZNSt3__113unordered_mapIy25MutableWeightsBufferEntryNS_4hashIyEENS_8equal_toIyEENS_9allocatorINS_4pairIKyS1_EEEEE5eraseB9nqe220100ENS_19__hash_map_iteratorINS_15__hash_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeIyS1_EEPvEEEEEE
+- __ZNSt3__119__shared_weak_count16__release_sharedB9nqe220100Ev
+- __ZNSt3__120__throw_length_errorB9nqe220100EPKc
+- __ZSt28__throw_bad_array_new_lengthB9nqe220100v
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIy19MutableWeightsEntryEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS7_SB_S9_EENS_9allocatorIS7_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSN_SL_OSO_OSP_E_clESN_SL_S10_S11_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIy25MutableWeightsBufferEntryEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIyS7_SB_S9_EENS_9allocatorIS7_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlSN_SL_OSO_OSP_E_clESN_SL_S10_S11_
+- __block_literal_global.237
+- __block_literal_global.242
+- __block_literal_global.253
+- __block_literal_global.267
+- __block_literal_global.272
+- __block_literal_global.40
+- _objc_msgSend$vm_tmpBaseDirectory
+CStrings:
++ "%@: Request cancelled"
++ "[proxy compiledModelExistsInCacheFor:%@ ...] returned exists = %d with error = %@"
++ "compiledModelExistsInCacheFor:%@"
+- "/var/tmp/com.apple.ane/"
+
+```

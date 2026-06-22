@@ -1,0 +1,49 @@
+## libWrapGL.dylib
+
+> `/System/Library/Frameworks/CoreImage.framework/Versions/Current/Frameworks/libWrapGL.dylib`
+
+```diff
+
+-1653.0.0.120.3
+-  __TEXT.__text: 0x2348 sha256:a8a421ae2a49e3d38340e773ef85d9980a4752bf83e1b64f7b514d837e2796d4
+-  __TEXT.__auth_stubs: 0x330 sha256:fa19af4ab6835d7b34336df69ea6620ee8f27649401f6cd671b5490821684c34
++1657.0.0.0.0
++  __TEXT.__text: 0x2340 sha256:2738ee9404eead7866c904b969de4874ad44192360184befba243a60802819bf
++  __TEXT.__auth_stubs: 0x330 sha256:b8fdd42a3c307e427e27539f5497dd510219cb0aa19db3c34852ef0dd4bdbb5d
+   __TEXT.__objc_stubs: 0x120 sha256:ca0d923298ab7b76c61687c448cb8f22c44b40ff9624a40f535de86daf28fdd6
+   __TEXT.__const: 0x2c sha256:336b03ba1ca4faa93e07ae4a38a05bb764853e7fa392fecd1a83a418bfec4f03
+   __TEXT.__gcc_except_tab: 0x28 sha256:c34d96ee902764f038c2802fddbd254828c0abb7b37aa58246f1504b5ead6f3e
+   __TEXT.__cstring: 0x60 sha256:5008e7a4d4744c44d947155cd3f3b7ed58febccbb1d2fba8f8a03bdf67d9b6fa
+   __TEXT.__oslogstring: 0x1ad sha256:1bbf50fe82c6f1b1206d220e9dad54c24c1664c0beb80040cd78c21f74828a8d
+   __TEXT.__objc_methname: 0x9c sha256:7ae8950897aa1436c97acef6bf6b0a9097220c1a98e3331bcf74fa03581a0082
+-  __TEXT.__unwind_info: 0x108 sha256:7f10f3a393dbf6c08055eb378c3bc7d3402ff55b796bbbdfba6719c2f38f065e
+-  __DATA_CONST.__const: 0x1a0 sha256:92240ac15f8181e560b1e1ae70f7acffeb8232c4f901f0deb482dcc2b7baba80
++  __TEXT.__unwind_info: 0x108 sha256:51d2ead54294303d88c35408b9cc6a3427ebdd77e36b8ca213f021732a439b69
++  __DATA_CONST.__const: 0x1a0 sha256:d90c8fe325f83b53d9acd163223ac556562da2c9a887fde9a218da52ca09259f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__objc_intobj: 0x90 sha256:aa61942dc8ba815fc7ece4a5f6062386d804bcbffd6362600b9d194fd48eed2c
+   __DATA_CONST.__auth_got: 0x1a8 sha256:d4642d95afc2ce3ebaffad2853ff29dbe4fba76e56d847537f646b1a290f369d
+
+   - /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A5D327D3-6D54-3987-872A-14272BD6A901
++  UUID: 4586D16D-EE3F-3F12-80F7-58D7D7844BC3
+   Functions: 137
+   Symbols:   233
+   CStrings:  28
+Functions:
+~ _wrapGLIsUsable : sha256 3e9cebe320b110a7bb2524f75e2848fd2856a6f7365ac971ba69f2baf074372a -> 0715d83f3d65835e4e2a62a8f9c8dbf488faf441e9904b450c36e3eb2a66ab17
+~ ___wrapGLIsUsable_block_invoke : sha256 8f1e48845946be9bfff53b95aaac792c289cb663ee8a4354a07556dbf5c2904c -> 59d7d430f9a79e976bb66961434ec1ca5631df95add3e1cec053eda6b41e981d
+~ _wrapGLIsAccelerated : sha256 07d8fb258c250eff9666a2d5da270ef02ad50ac886fca12345d23163f68d5236 -> 25e38de3f168a156ffd46fa253da7e9ef87e649d6c0d7fbb4599aec3f012540a
+~ ___wrapGLIsAccelerated_block_invoke : sha256 9f0c3885c2083e5885c81894b73b84c9867ea9a478185f8cbb814854db7341d2 -> 7fd6922a28a0793ba3830b64bc4e7b136a5d982b6347a6ac12f460429984d53d
+~ _wrapGetCurrentContext : sha256 36eb64f64da70d3f3a5f4ac828cf6aabc9554a8a790e21ce603bd15c1712182d -> 5bac94c542d56fe3dd96f151d0a2766f18e6ff3896132fd2bee40da5af5816d2
+~ _wrapSetCurrentContext : sha256 763deff0d1aee3b3b2ded95b6c6925f265e0092e55f3202780745241259c4025 -> 56a3cb2d4b3f9231d3a478e3e544da0957d8a4482c60eb86363cbe009b69a36e
+~ _wrapCGLContextCreate : sha256 6a7da44db6c04930110943b5d89f644bf984be0c6c5cb9cbb4cfdc587f9cbce3 -> cd10569e0971215dc9ac4eaf2191dd48b689f40408841466b4b7ef19e9949801
+~ __CGLContextCreateWithSharing : 980 -> 972
+~ _wrapEAGLContextTexImageIOSurface : sha256 bdea646d1d96eb437b629517bc0e28b54d8b2872f3c9f0abe96905425b83aacc -> 4e7457a28b80f72fc616c5916dae78c472c60b5a578613cefbb58ac83a13021a
+~ _wrapGetMacroContext : sha256 f179f48b641732773e1b087a30618b4a5262a1ea0810f3f22e0c810d1faa1e54 -> 367224982fcd80ed258884941f9697e773e3b6ffd5060974ea19b7bf577127d0
+~ _CI_AddAttributeIfNecessary : sha256 2dcdba8ef437a32de668524a816503c34fade21d67744d46b864dc2e0593ac91 -> 4d9a911ee88e0d5306e4d70234b8233c9cd30d6d0d7bd41f927be7b510f677ba
+~ __PixelFormatAllValuesForContext : sha256 56ab92a1b427bfae6f2d01aecb716eaea854059a20c91457dc57e735213e4b9e -> 1e93c4c544c67e1bf4e97af326862b1ffb6665bfc804d9ccd3e6a1b861cbbb9c
+
+```

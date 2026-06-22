@@ -1,0 +1,100 @@
+## QuickTime Player
+
+> `/System/Applications/QuickTime Player.app/Contents/MacOS/QuickTime Player`
+
+```diff
+
+-1268.12.0.0.0
+-  __TEXT.__text: 0xc5a88 sha256:2743d72088b17e2bb2b17c9a1712527b59ccfb5451aceabf4e475603f937269d
+-  __TEXT.__auth_stubs: 0x1660 sha256:b4e84618a94a83a8060c266629e43c0cc1621a3db5027970d777641ada8c156a
+-  __TEXT.__objc_stubs: 0x159e0 sha256:f4312133065056d70f6bd69c76477dde5c22631f7e48bbf91ce66d758e72d8d8
+-  __TEXT.__objc_methlist: 0xa5f0 sha256:6c33db56b4e60cf664337d3fbf69b825bfaf8d17d2b647363bd33915ebf74fc6
+-  __TEXT.__const: 0x32b2 sha256:3e2c74fd106da6f8af826bbc4b2f3d560cd3a5c51f70094867095a111f67d172
+-  __TEXT.__cstring: 0xa264 sha256:d70caf51d306c51bc9c6949e266a91e5df4d54dcf11522729fc069326011db92
+-  __TEXT.__objc_methname: 0x1c8ac sha256:434848d69b86daeffe4f71e32077df61be62f202d81608ac68738e8c5d30d144
++1268.14.0.0.0
++  __TEXT.__text: 0xc58a4 sha256:9c7785d32ac22a4f40de2024fc3ca3088ad5c2e80b9f10bb94d9017162b521d4
++  __TEXT.__auth_stubs: 0x1660 sha256:866a65d3c0bd9516a90bba784b5a289b9d502fd93c4f7d3975a2d4b3bf9ef976
++  __TEXT.__objc_stubs: 0x15a20 sha256:d02d3da98fb25345fc976a38a33842023eb970ab68a9cec53f6d8e74b703c4b3
++  __TEXT.__objc_methlist: 0xa5f8 sha256:693b6c92ed2489fb3861abad10cceaaa286e78c9319a928d558927f9ad71cb9a
++  __TEXT.__const: 0x32b2 sha256:d9eaf821e84567848408a76239edc467806d4d3e4fa8ff1dac043bf12ee6e1aa
++  __TEXT.__cstring: 0xa274 sha256:6973cd7e837a1dfe66ae07866967648c6e2033ffbaacdf0837ca37af29306b15
++  __TEXT.__objc_methname: 0x1c8af sha256:4980423f204ce947e022904bdac817d56097a7ade523b0beefd513ad2a8a3081
+   __TEXT.__objc_classname: 0x1790 sha256:b6b379fb07ca1185ff82813baa0e243d46773d1cdb6f0b87854f00b681cf0617
+   __TEXT.__objc_methtype: 0x47df sha256:2f700a81d3acbd068131d12fca84278b1041c6824162b7683e6d3f3b092b241f
+-  __TEXT.__gcc_except_tab: 0x108c sha256:7637995402f629588874bac810eedbc5e1a33148b43ba07b12e60a645f842fed
++  __TEXT.__gcc_except_tab: 0x108c sha256:75e1f7fa39494a6558becb695640cfee389d8cbf06915dec033522fb1a6f2911
+   __TEXT.__oslogstring: 0x13c9 sha256:3e56e48604e4269b70fae84fa482e43533b0f0a4dc26be438415a27fca4caf26
+   __TEXT.__ustring: 0xca sha256:4f67fc96351ea5ddf6f4fc5fd318a086e53e9f6de1c6be91dc04ac035c94ec4a
+-  __TEXT.__constg_swiftt: 0x130 sha256:b6fefceadda14bce67c1e08bbcf72ffd13b2fd90820f8ce50e54780884c8184d
+-  __TEXT.__swift5_typeref: 0xe8 sha256:431d7555657d9ee29ad1576697d42e6f0b89115625e930eff3175fdbf4272813
++  __TEXT.__constg_swiftt: 0x130 sha256:b5638ed563e9749aa74668a58fc92d4adb773d0c74119007e6f13450f97f96d0
++  __TEXT.__swift5_typeref: 0xe8 sha256:aa5baf2197897470a369445dce72da959522d5837c535ca1f81c0f9745b57d4f
+   __TEXT.__swift5_reflstr: 0x4d sha256:17bbd1805391b2cee5f2a3d3517e8e272959b75a5b6354b0d1376d3bd12fa4dc
+   __TEXT.__swift5_fieldmd: 0x80 sha256:9f91584042c8787d67f94fe246c62f1eef3440adb313a33390e794abdbaa5ebc
+-  __TEXT.__swift5_proto: 0x8 sha256:8895512cfb112c724884bca79846be94119bde2e60269e566f2d59021fa079fc
++  __TEXT.__swift5_proto: 0x8 sha256:2f48723849b65980ee9cc9fb53937a0b3e2cb732753b61512d32326282038f5a
+   __TEXT.__swift5_types: 0x14 sha256:266f5eeeff19a0dfeb5b629439755fea3a99db23145b63342166e5fbcb903e31
+   __TEXT.__swift5_assocty: 0x18 sha256:68401c84bdc590ad47050b208f54d712cf8f1672af631c00ca34a4ea300574c7
+-  __TEXT.__unwind_info: 0x28b8 sha256:11f2d2c59361950bf546295a8f6790848147157757ffa26b849637210da54474
+-  __DATA_CONST.__const: 0x2f28 sha256:e7a6237071129ad960a1c29a2f4019ab121000d5f18dd1989f8985184dd767eb
+-  __DATA_CONST.__cfstring: 0xa280 sha256:9f78556ac4fbc0032cb6f1879b5a88c34ff9836233c8ff093e4e02af8e79992a
+-  __DATA_CONST.__objc_classlist: 0x4a0 sha256:67a67f9df9ed2fdcf9a1400c7f6323db52ab3408e1f593036fa38a1dee03dbdd
++  __TEXT.__unwind_info: 0x28c0 sha256:b0e5d2959e52c64b60d9a6d01c164832d318ad1cdc5fe78df8c4296410863c83
++  __DATA_CONST.__const: 0x2f28 sha256:597ac62483d4fcb5bfba0c8bc606becba2c8e49a2758cfaa270f4aee3d6c3c76
++  __DATA_CONST.__cfstring: 0xa2a0 sha256:d271abe148469a57a04639c2f96a642279986594301b3f14b8c1fee8ff0ebcfd
++  __DATA_CONST.__objc_classlist: 0x4a0 sha256:c9f8eca3e81be5bd1f031b05d6f17756ae7d9150dfc8654df8e2fb4d705198f4
+   __DATA_CONST.__objc_catlist: 0xc0 sha256:ebd532a0e3b73d4f66d17cc99400eca42ecdc8ab024b0d37dbaf596b0b70ece0
+   __DATA_CONST.__objc_nlcatlist: 0x8 sha256:8c7a65beb8f2457ffcbf6f147e740f1528ca9e330494b6bda15a56d7556b07a3
+-  __DATA_CONST.__objc_protolist: 0x188 sha256:8bbaa7fe00de6a1d76611af694b3bc7bf9ff47ea787c12f6690f667a17aa63dd
++  __DATA_CONST.__objc_protolist: 0x188 sha256:5513d9b7ff66a7bc8d79440a46295f5bbf2efa36472773324db99fea83b4bc1f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0x28 sha256:3f6b0c1f7d9fdb6abec4301f71ed40db4270d9a5672c5e017528190acb119d37
+-  __DATA_CONST.__objc_superrefs: 0x3f0 sha256:ee794e24e33c0ff61bf4a3f525e9681d3b3f1678db26f7260aa3e7d649e52f17
++  __DATA_CONST.__objc_protorefs: 0x28 sha256:12cf9ca0719996ad3cd9c1fcdd10668d93cd7c1808f0ef15aebae192026b0683
++  __DATA_CONST.__objc_superrefs: 0x3f0 sha256:97dff0700a25a633151598f634f2d077914f78e46e47b6a5f3a85ae6ef504d51
+   __DATA_CONST.__objc_floatobj: 0x10 sha256:96e7664cd01cad7aa2e031d9d3fc9a9241ee587270b2fe2767860349bf7f2aed
+-  __DATA_CONST.__objc_arraydata: 0x3a0 sha256:c7831ae4de154bf3436499b38674cd256fecb2a645188cd947cb4894ddfc3e86
+-  __DATA_CONST.__objc_arrayobj: 0x150 sha256:5b79a08fbae87f8691f175877ee33ccfc1f86100a365466a6ae85cb4456f55cf
+-  __DATA_CONST.__objc_dictobj: 0x258 sha256:61cbdc7d75339c6accb08b6f087b16df7e3a7c3bc715f519c9826ba04765895f
+-  __DATA_CONST.__objc_intobj: 0x1b0 sha256:834188131d906564874b119fed460a48fa6aa359363ff8be1fff5588aafbaa42
++  __DATA_CONST.__objc_arraydata: 0x3b0 sha256:9975a437384478b2f5d46f65c89f2394091fa1fe2b0ab6eda79142c1fc4511c9
++  __DATA_CONST.__objc_arrayobj: 0x168 sha256:93e16fd87806f2952174329ed27388669165233e294e3c7f5f8fca940e7a96d4
++  __DATA_CONST.__objc_dictobj: 0x258 sha256:a3ec08fbbfedb8601c90aaeb463c6a2c57ba07e04a6a1051d32c176105bab342
++  __DATA_CONST.__objc_intobj: 0x1b0 sha256:0bdd372e936bd31b2c5fe376b4bc0b4115d2f624fd6e48c78981e34c147af2cd
+   __DATA_CONST.__objc_doubleobj: 0xb0 sha256:f22fb9254c99bfe50d136aa6664486efeaf8e635018319e23acb4e9f64003077
+   __DATA_CONST.__auth_got: 0xb40 sha256:e89aac4a8d03a23fff8cb097ba7f21e52ed1dc51ec2d01eb3ae31eb7f3d13eb6
+-  __DATA_CONST.__got: 0x1098 sha256:db3d8558bc7929d9c99436a507f5429dc4952a6fa3ceffdad29c0da2b186b6fd
++  __DATA_CONST.__got: 0x1098 sha256:97426df6fb88e52a1944c15ae2126d240a435f7f246d65406e0051e5dc07d99e
+   __DATA_CONST.__auth_ptr: 0xc0 sha256:12952a7f11c3a389fd2971f3932b78056fcf7fc3203a1da9ab1f82079571033c
+-  __DATA.__objc_const: 0x1a728 sha256:317977c16e737cb43c9b705794712a8a975d54ec056ff8e76d5a47f694bc3067
+-  __DATA.__objc_selrefs: 0x6f38 sha256:ab563050897778529bab53dd359e2e7cccec770f128fbd57bbe81a460efb4cc8
++  __DATA.__objc_const: 0x1a728 sha256:9a84d1ad6abb884600412746f850b60977ddf89b45d62d6fcc864f1648dda02f
++  __DATA.__objc_selrefs: 0x6f40 sha256:c08702a91ca5d15b527bed594f752fd35733ef5226eeab1628f3806e015705ea
+   __DATA.__objc_ivar: 0xcd4 sha256:63636982e1628ecd9e889fc1a9f266a4c1fa546845058f5d579e639a7516bef2
+-  __DATA.__objc_data: 0x2e90 sha256:5bcd0b1d6f616d4f0a1edb2c7b731972f707d0d41d544fd87a0b1a44a8e13b44
+-  __DATA.__data: 0x1678 sha256:337c1ed9b08004bc81ebf6283037d05c5fcac6df79430eff67a3dd2293f618e2
++  __DATA.__objc_data: 0x2e90 sha256:946e790da58fb67e6690a653c5450ed707fbb4447c97c2d64747107ac9366028
++  __DATA.__data: 0x1678 sha256:932f6d4c90f0d67bcfd52ffc360b92116812198eedc65148fc595cc997ed911b
+   __DATA.__bss: 0x310 sha256:0c37ddc45244523ca3b841e3ea85e147a1d35c6ae1cd767e8c30dabf057516fd
+   __DATA.__common: 0xd8 sha256:a5645e7a3fa0866cde8842c4dab96567507c3d1a3c028b816bc63f6966367b70
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8E8D4409-E10A-3027-A1F9-CA86C682E46A
+-  Functions: 3801
++  UUID: 6587CB8C-7E9B-38CB-B873-19FC72789295
++  Functions: 3803
+   Symbols:   988
+-  CStrings:  8357
++  CStrings:  8360
+ 
+CStrings:
++ "cacheAsset:forIdentifier:"
++ "playable"
++ "timeRange"
+- "updateDragWithGesture:"
+
+```

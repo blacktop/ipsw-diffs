@@ -1,0 +1,104 @@
+## AACDependencies
+
+> `/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Versions/A/Frameworks/AACDependencies.framework/Versions/A/AACDependencies`
+
+```diff
+
+-50.0.0.0.0
+-  __TEXT.__text: 0x1cb0 sha256:1177f92899d47cb5aac9cbedb8c8e479206bcbb9ecf3e2ccd98ea5af8f6b846d
+-  __TEXT.__objc_methlist: 0x4ac sha256:3415e04f5cc2d6b9520ba09e67ba5f86f1d86af49947b58059e4ee20dfe5437a
++53.0.0.0.0
++  __TEXT.__text: 0x1cac sha256:eadaa393c5e686fdde9bc6690d5141650f275b608beca02a536a764ab1770d7e
++  __TEXT.__objc_methlist: 0x4ac sha256:3d9975a465d642d5e486a2b464d5c4c21cfc7ddcaab81637d26b42ce2ce96efb
+   __TEXT.__const: 0x60 sha256:9ecf9c95fa2d2296151e612a3c6ee714b9e01a4f2d170062c8a9b56fa532711f
+   __TEXT.__cstring: 0x78 sha256:ed65dbbf4dc9c0e5ef98b421a82b178f92b0ee14c59926f4d151dd1e10748523
+   __TEXT.__gcc_except_tab: 0x3c sha256:b8db37c6958def699387b597fdf66960b72b80750738b96c6fe2861fc28dc257
+-  __TEXT.__unwind_info: 0x100 sha256:03c7007076ec4bdc36f2aed3884fda7c98ce6523a4011c0ffd72b21669b4d674
++  __TEXT.__unwind_info: 0x100 sha256:6c5151a009755591af90a6779d9dee81d5d68b2290766df5fe2360941b94757d
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:7d4b5fa540f5e77c693133c6cbafe65aafc8ec625a6977b839ff9e8f31126669
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:cb29fb277fffe4b3d8ca89db3b67d13d9880148458d06eb246bec8e6921d5b5c
++  __DATA_CONST.__objc_classlist: 0x38 sha256:a906065238484314d989a0cfb0dd0dd926043bd77f5c0cae24dcd75f2515a642
++  __DATA_CONST.__objc_protolist: 0x20 sha256:56f25d05ce06a741c31e984cc4a7496fa91757639b1664455d336034a855b3f1
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x298 sha256:f91b0a330e25618724b50e142b4a367e582b0c25cdcb3af6e5baf2dc8c0601d7
+-  __DATA_CONST.__objc_superrefs: 0x28 sha256:2fe2d4668cc1e314d253ce0df57b06dca6d535c6e8f0af2b8301d00f11b718e4
++  __DATA_CONST.__objc_selrefs: 0x298 sha256:bf45efd6fed483b210c4e277c0237296dbecbe83dcd8ebabfbebf3ba58a73842
++  __DATA_CONST.__objc_superrefs: 0x28 sha256:07ec7554c46f2235d1c7516e3ca15312fea0e7b07b4a3c52035ce5f0b5d230a2
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xc0 sha256:da3ce3cfdb7c3ed0573fed931941909eac3a0a92d2f854acd47d6fdfa55b75bf
+-  __AUTH_CONST.__cfstring: 0x60 sha256:23ad4a97120bd73bdad0c4d19b6067947460af39b8b58c9bef8cd228e7e03b20
+-  __AUTH_CONST.__objc_const: 0xbc0 sha256:fbcbf57ae59e8b2f1a88a3b5410f0c6efb2352c9571de9f19ccbd40c438b34b7
++  __AUTH_CONST.__const: 0xc0 sha256:d65a5fb36b955628d79c14792659e0f9aa5c20356c8e30b021c4a16b6ffa7642
++  __AUTH_CONST.__cfstring: 0x60 sha256:f03ab3e78a6591c5a206751236f1016667304cdceb80a84698f5c977a514da86
++  __AUTH_CONST.__objc_const: 0xbc0 sha256:066ba688042ce26ea2be8832e480273ca35f6fc9f1cf19a08f9c229193f73d7a
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x230 sha256:39cb4dfbb6ccce8d6a899a614dc2c7a5ae63db5a168f62f8acc6108b4c1b41ae
++  __AUTH.__objc_data: 0x230 sha256:504da6d43ae98c3664d006dd2fd5de719e6e53bfb65d08ae464c21516396c806
+   __DATA.__objc_ivar: 0x80 sha256:0c195df429e01f518890fd8064e2c834eea96a44ac29e2294d7077870725e802
+-  __DATA.__data: 0x180 sha256:33c1f9b90bbbef288248e8060f008d87f287672a409f03150c4165a87bda7012
++  __DATA.__data: 0x180 sha256:6cf05a3602eee3589de4b214bbfa9d93de057df80f654a92b8bb1a3d4737d4b3
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+   - /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 856A8051-05F4-3B53-9BD5-4B81A350148E
++  UUID: 98FF8C25-A853-35DA-BAE0-175BA629E6D6
+   Functions: 85
+   Symbols:   263
+   CStrings:  10
+Functions:
+~ -[AEDNSWindow constrainFrameRect:toScreen:] : sha256 61d8c026ebcb8aed59646e081146f2079131547980bf1fa55c4a6323aa039bf9 -> 26693079a3c6e067b479b62cc50a34b706477bd261f2b0fc11f2fca9bef051a7
+~ -[AEDConcreteWindowPrimitives initWithApplication:connectionID:notificationCenter:queue:] : sha256 6805992a877c0ee8c9010d0974ab59adbc97d5fbf99d3d1643574aa65f3c74f0 -> ad352b62ae5dc8288076133ceb5f6e1d87256dab3493cac10b50091bd86164b9
+~ ___45-[AEDConcreteWindowPrimitives currentWindows]_block_invoke : sha256 7c68c9d3c87052bfdb8ddc2b90918d65465ae35ead76d53fd2f9bbfe9740ec99 -> 252a8c874c0f0e773dd0c72ccb1b14939bc5d4d395bf9615fc037e21856bdb5b
+~ ___copy_helper_block_e8_32s : sha256 3301f65cc00aa9a984616ed79b422a618b0c72d274194988ae174c29769987ff -> 59e8b9f75663ffad70bd16272d0ed2804efcf8412fb062c21ff8af87be709174
+~ ___destroy_helper_block_e8_32s : sha256 3506843bea037630d416873bd8f432defc12faeb6cdddeab1fe2efe45b4c8da4 -> 408e6d706396b242ccce2383546d80e077028eb74873599e3ec1d33b2a515bad
+~ -[AEDConcreteWindowPrimitives windowForWindowNumber:] : sha256 bce8c666d09d90d65c60fc084ca6dacbf645fa2c64df0621c534d3dc9224db98 -> 82bdac7c2987953ecbd6fe32df42f05afd3d15a656fa8e7889b1dd0408352076
+~ -[AEDConcreteWindowPrimitives observeWindowLifecycleChangesWithHandler:] : sha256 aecce25b3ebb0a661fb5dbaff04fdd77b17a37eaf3195e1762bbd85e29b83a33 -> 16e00a692eb097c874c105e408e8534da29619b2ddf392d04392084a3161aac1
+~ ___copy_helper_block_e8_32b : sha256 2ca2a94807aa7c01cf33805fc64e69ba949295ff845838e9a584a6b31533ca32 -> c904658a60f53d2551a577696ddc80c05ba729ee9ac382e5a178d5a48e7b34e7
+~ -[AEDConcreteWindowPrimitives .cxx_destruct] : sha256 187f0b848f2cae4620c5d611c3e56c501f79392b84400bd6dd8115e2af7120a3 -> 2b66fce3b31ab5032f39cc1395bdf434bce7b3194d6a7a32d7d30e77b0be3241
+~ -[AEDWindowPrimitivesProvider initWithQueue:] : sha256 8270dd6d21e848839d29d281aa4fd7d0b335d160a8aac4f01deef55e759e96fb -> b7ec48c58be773ad7c929d58467ddec19aa0b1bbe6bd17eead485b677838b871
+~ -[AEDWindowPrimitivesProvider .cxx_destruct] : sha256 ad1e3b5ac0797fac23808b7f40e5f4357a2fcdf9c38cbe0ef919925fb6c7c2ae -> d8f9d01b3ffc0b4f92e20c3e99362fc679dcfe1bf602ba5b2538b9e330a61cc4
+~ -[AEDNotificationObservation dealloc] : sha256 fc8871bcab097e0bb9e40e58c03639411ba15139b41e9765d1066e998ac2d4b6 -> 3f3bffa0f549570882e4418e65894454f7b49644b0140e6525960502da4e3bac
+~ ___40-[AEDNotificationObservation invalidate]_block_invoke : sha256 0279bab4a327ae2e8c4a5ed4bb4dc12e78e4deef31f8c3b423d02ff5a25fc989 -> 9a84d22a2f6dbaad6e2306f23723960b861a1ef22db2a65944a7ef203e19c3cb
+~ ___copy_helper_block_e8_32w : sha256 6245c0eb8af381609bb97c0a15a4d3b35a6cace142a685b477d5a8d00e0fa85d -> d4e243a217e3044e0d0d6e1dbb9ee43c4d81724b70f6e17bcebdac6ffaf015c9
+~ ___destroy_helper_block_e8_32w : sha256 3064d30ea85d86aa56ddd5169fa3391a623842f77c53d5b0bd9a89615d259fe6 -> a0fa9fd681f79ff4401dc9c1c3d7c8eca050bdb2c98103e6eb4e97f5f45b91de
+~ ___50-[AEDNotificationObservation notificationDidFire:]_block_invoke : sha256 57b96e312aca44272a75d2c820235b6a8ccbfe16140d5e875b19d7123483a93e -> 68518fa85d794d06beeb68b40c23442d216a17108b062bc62797daefc89097c5
+~ ___copy_helper_block_e8_32s40w : sha256 7bc234f4416c1ae92b7253486d906e28ce5e84d7fee677b2710df8e36a2688aa -> 55a21ee54d0d5644e595b5457649e937f9b0313db5e5216a9905214d45cc05b3
+~ ___destroy_helper_block_e8_32s40w : sha256 d20a2732317cccd9296e482d773af6e4a3a9d63254304b2e224b59b31b754b2a -> 6a8ea395175040c634fb895e9b4ef584d5bc4c000db13096e15c888ac50d79fa
+~ -[AEDNotificationObservation .cxx_destruct] : sha256 6518ff215f028d2c9cb65bde45b3fc7035be10a5d7e5425d39da1e6b6dc19059 -> 400649fd3b1544cb4360d820cfd4cdcee9a0068349656d141465979379b27138
+~ -[AEDUnionObservation dealloc] : sha256 3860ec6f3d76d6b5b852851da976e4b0b8bfeba14f19165968f2cf4a7da25d30 -> 504d06faac077f01244e4fa5a0636ab8ce738c573a6b27e39f1ee2f5017316a3
+~ -[AEDUnionObservation .cxx_destruct] : sha256 3bfee507907d2a503529a570a6432e94a9018bd0745a7ea030b939b5944b9b7e -> 19c7cd442cf24d6e01d2d1eeb84637ed3eaffc829f2c08ec27cf101c2c270f8f
+~ -[AEDConcreteWindow observeWindowResizeEventsWithHandler:] : sha256 42a6b126eaa0cd4d9ee43bc6ee6e61adae4f66f6a335f7cef73890f246f954e4 -> d4485a96444580dbbf890f09ab0b772d758d04122dd4b2ed87b328129830f348
+~ -[AEDConcreteWindow isEqual:] : sha256 b39d1b426f27c8071dbca80edf9fb75171e7e564a1f22423359399b8564b2c7a -> f9a72bf8d46a08795bdede0e80b77be07be7a287597b2317a80584cb5e8e1c2e
+~ -[AEDConcreteWindow hash] : sha256 90db4c0a18d43d3428541764d2b9f3f24169d1d3f77cc93a231a6a55eff54141 -> 9fd210644130e6dbecf6613bad6bc8ae180186189affa9d495f3fdf5cf9bdb78
+~ -[AEDConcreteWindow .cxx_destruct] : sha256 d6c2c2d7b7d8fc18f8efa9f7f31538a222120adfff1fa8c08d41b514e857597b -> 1178017da111a34dda2a2089d59f8d0b9edd5a94901e3f099fd9cd5a8bc31421
+~ -[AEDConcreteWindowPrimitives currentWindows] : sha256 e014b1989d15b579b12c35fbaad6328db9b752746526523ee0d7352602b220d4 -> 016f5cc27256cc46e6c33d755dd984beda6b62322a90c29e8c6d2cc7c1bb67f9
+~ -[AEDConcreteWindowPrimitives isPrivateAppKitWindow:] : sha256 366cf3f7cf7dbd95b5b93ddad81275e7da28502022af440b5e8b9155013dfb81 -> 5d708dea398eed82e1498122cceb1bff3d66f3513af2b7cc121d06f2966e6f1a
+~ __45-[AEDConcreteWindowPrimitives currentWindows]_block_invoke.cold.1 : sha256 ea43e6bb0604dad4cd6e8172057b46dd68df9be4bbbd7c8c19eaad6d518a63a0 -> ce92a86c9138476a4ebafb6499e1f1cc73f856c06aebec6cb0c44bc0ac56f7d6
+~ -[AEDWindowPrimitivesProvider makePrimitives] : sha256 3ecf81f474bbcf7b7b10d2516f686885a83d995632506b194db8fdbd9352173d -> 67a1bbaf140359ced7456730073d950727686c991891f51a2e1370e1d6a7cfa1
+~ -[AEDNotificationObservation endObserving] : sha256 b2b968f9b6a239f53b742c1991c2f95a16d68a1ed1d949d5815b14020604e875 -> 6d745d339d333739b6eebe4a42409ccc3d598d020e0826061c131047b5daebdb
+~ -[AEDNotificationObservation initWithNotificationCenter:notificationName:queue:object:notificationHandler:] : sha256 ace645ad78a9a9a4a4fe31665fdef3635832afbfaf433a880519186e075d867f -> 6c9a1c8d7c2e91facab4511b5a61eaebfc217920ba81cc3cb9f973b295e31400
+~ +[AEDNotificationObservation observationWithNotificationCenter:notificationName:queue:object:notificationHandler:] : sha256 b7fe04b778b0597751ffe0d51ec54d73a41c441b087b518e947af908f47aab22 -> 9e193d2edbb3836ea225bec5a95e91ec9e8d7784e92feecb9d1dcb6b8a8c3150
+~ -[AEDNotificationObservation beginObserving] : sha256 9133be4926d16521cdb4aa30b506155d3bae25107523cd4cb6f4721250402719 -> 1ab2b23a2f9a672c9060c6d18c2ebf7c9dccf7078f6e9128227a4e3156fc1e0d
+~ -[AEDNotificationObservation invalidate] : sha256 487f35d7c752051654e7f6d64d69c39b8b3fe2f2b55a2d1be74265377e57635d -> 1268cdde76f33dc489232fb5bcb70eadcec511bc7d50266e77e84eac96bf2568
+~ -[AEDNotificationObservation notificationDidFire:] : sha256 13f16634001c587ba9171aac5bb15720f7e63247083060acafd40a19a930ed9f -> 1d886de55ac4c1affe912db6dfee867b2f0e4a60b0158150a13567dcc12c5ad9
+~ __40-[AEDNotificationObservation invalidate]_block_invoke.cold.1 : sha256 12e8b6508e6f55fcd988b0a35c6858fedcbb77fcea91acd1775793a5518c4ab2 -> 6976fc820fba25f0a0bc983a738ee6436c590a8b9414525d4b99b14a5d595cb1
+~ -[AEDUnionObservation initWithObservations:] : sha256 0d0fb863030ff0e7427a311027922ec1efe909ae94cc867284e75f4f5f7deff1 -> d72678967752bbf5568cabe3c70e8394749c4a49b9d323af18bc4019607b5b4c
+~ -[AEDUnionObservation invalidate] : 248 -> 244
+~ -[AEDConcreteWindow initWithWindow:connectionID:notificationCenter:queue:] : sha256 ee133a7396b75f6827d85cfce79a8f0e3dec3ef6c920a68e457ad95a008cb76e -> 1d22f76884c8153d19f5fea87a7fcf5ca893b706355d29faeb7b529dec1af316
+~ -[AEDConcreteWindow frame] : sha256 7f1a328501dd20ee5d68f62948ff7e85b7402f17e9adce83b1f5275e751a73f8 -> 338c252c0f1194956c1dfc55dab14f76d502cbff00a07629ecb418da026cc9e1
+~ -[AEDConcreteWindow isVisible] : sha256 7c7d05c2001f7a53d86e8f11ac4468840bbac3709a1691213ed906f9d10166e8 -> 12399451bb703d67dd223e8440a6d4832568f6164b20c6be46875bf618834866
+~ -[AEDConcreteWindow close] : sha256 d563ec3b24576c77eadcbf201d0dca5cced7e2dd15430da55d3dc6430dc26b5d -> a5600f51b6022ae913d56a3bb7af08380dbd5e4ef40c02a395dfc782458443b9
+~ -[AEDConcreteWindow refresh] : sha256 dc0ef6b36028d9141fe44892a13a8b3ee331811f4d99a0c9a28204845407eacb -> 3e94e6f57f8cd861fb6fd9187092f08ee9b0e98c2739feb1345efef2256244c3
+~ -[AEDConcreteWindow setRestrictsContentCapture:] : sha256 3eca0baa934dac8df157951368687375b3886305e2d626dfa17fad918be33b05 -> 831f1f61c650619a7c3bdd90e4dfe82392ee4cab3735e4f76720e9291bf4030c
+~ -[AEDConcreteWindow isEqualToWindow:] : sha256 e45ad04983d1f58b58a4a3d671251566199d0fe1e3ce1f314c5a1f4b5058ffdf -> 211b56b9dfc619d054a823f134903bc7878e9aa55d3bab1782a749c465cf3463
+
+```

@@ -1,0 +1,58 @@
+## libremovefile.dylib
+
+> `/usr/lib/system/libremovefile.dylib`
+
+```diff
+
+-94.0.0.0.0
+-  __TEXT.__text: 0x2008 sha256:cc28d5a4ea1b946ce6abb8dd6bc3ef0ae283078ded2282d060d1d3bc27b21ee4
+-  __TEXT.__const: 0x48 sha256:437fa67da750c53d2b9a90cbf996d0ddd1c09b504edf7fdb8cd6e6b3ff4e0fd9
++95.0.0.0.0
++  __TEXT.__text: 0x2018 sha256:3eae9d6ebfede925ac9e5eb023d4714d3da0e2005339d916ea93d0da0517499e
++  __TEXT.__const: 0x48 sha256:a50bb74ac9249242458560b557da96a921114ff85470c55a1fc84b758495a503
+   __TEXT.__cstring: 0x5d sha256:0fac8eb5fdabfc29717a74e015081cc88c412d3890b3c9f865632163a3847dd5
+-  __TEXT.__unwind_info: 0xb8 sha256:a41bafdfbde725e4cedc591db754f996410613946ce94fbe7b9493dcded612d5
++  __TEXT.__unwind_info: 0xb8 sha256:054132884805c92709819e1c6f12164824143e0ab8ddc4b838d43469ec3ca777
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x60 sha256:cab1030ebe67c24dc394d04f918d5085232ca64e6401a97015ffa44ee2419dd3
++  __AUTH_CONST.__const: 0x60 sha256:6bc57c5752b50d592e0e486aab6136bfbd53b2a14c105f508213c0b89a3f2431
+   __AUTH_CONST.__auth_got: 0x1a8 sha256:e6a4dd1cc11fe045554f993bb765eba87d46248a8b85a7c8dbaa5c40594e0214
+   - /usr/lib/system/libcompiler_rt.dylib
+   - /usr/lib/system/libdyld.dylib
+
+   - /usr/lib/system/libsystem_kernel.dylib
+   - /usr/lib/system/libsystem_malloc.dylib
+   - /usr/lib/system/libsystem_platform.dylib
+-  UUID: 7B364485-306D-35AD-A9FD-BCB933611B08
++  UUID: 26514197-C62C-3434-8C95-CC0F58749672
+   Functions: 24
+   Symbols:   85
+   CStrings:  6
+Functions:
+~ _removefile_state_alloc : sha256 1a237b6f1b7e16a130b4c172c0052db333535a5c57818d938c3af3eba4adbf19 -> 62611f732a0d0b9523a90f941c14bf2a10eaacd046cb2bda933025b670913b2e
+~ _removefile_state_set : sha256 e2e42c6ea216f12cd6373e51c2defbf1d6a5edfd7ea427d51fb9ea951bed03d6 -> ea3cc4199e9fc316517e50f74b5a31729b494ffe340d9e45c097232df7138c46
+~ _removefile : sha256 fb61230c7631b6d659c33e17af62e30f4f60dd5aef7037a8997ef64037bee50a -> 9d3e1dbb69a8efc586c5788fc263c25e3e538513311c49e9637e01ad16c4814c
+~ ___removefile_tree_walker : sha256 2172af38c76313922379ab0bed9e911710f3e7f5add24f2f577507bda4202f69 -> 12b2085ddae91bd2626c562f0ca4894b1c145cc0c58dabfeaa6b50d5ade755de
+~ _removefile_state_get : sha256 d9bd69372f6a14227f4a84b83fbe7415b331efa3349e10bb79723b515d4d9ce7 -> 1551be59c377f05a8323afd6efe3f035b217c2611787cca33b90dd0593b65328
+~ _removefile_state_free : sha256 7ffa160180307174cec23b3a4969442e5406df501ff5edd50d3ea9a045ce06f5 -> d750f8a556e230faed5f2c40eb1579878d47b419d0a8b52327e195a47be0f706
+~ ___removefile_init_random : sha256 4335ed1172b8be93db4fcb988bfff96be11861cb91fd2d36edfacb607946b912 -> e016b430bb2736b3306c2acb5647c2bed864ca16a5c09f40d07825b9804ba3b9
+~ ___removefile_random_char : sha256 1208f1cda56b285cf4fc0fd4692a7c35e500987742029a0796f393c114039e71 -> 3e37414ef8911992de42d141ee1ca0cbeabc0ef6d3400710680cb006219aa1b3
+~ ___removefile_randomize_buffer : 104 -> 124
+~ ___removefile_rename_unlink : sha256 a0b5508232bbec8d025b4052fc053ad6e48915fa799e3db7e694a814de5dd171 -> 2c22202cb5ca7f9882080c63a5f2e1af5b2bf2af15d9654bc6dc2b5521cfde41
+~ ___removefile_sunlink : sha256 bafb901b2a3847a9f0ca78cea643cfb0bbcbe687c2259d7b38e20d1ad7c3cc0f -> 4ce611e201b21142519b227bd959e9c72d0066f0369f34322c61564b1a1bef6a
+~ _init_write_buffer : sha256 23a86ee506a3b9f9b85c70ea8c5ebbd6234c7482f8fd71b1561d2e8d3638f788 -> 8c5c99f9eafd65f56cf3d2bdcd357bf5e309906dad69e6ad2c521d6a77b8b9a3
+~ _overwrite_file : sha256 11e0b16fbc69d57d8aa2f2f0adfb1c9020266e5a300127394320f991cda7b91c -> 89053343dc911552d6ce7c400489117b5f6095cecc60aa9d96d16092f1b380ce
+~ _overwrite_bytes : 300 -> 296
+~ _overwrite : sha256 80a796a1a02e2d3a74b2c5a871fc5898a3ea9c98cdea92f31d483a934fb27687 -> fd3d894a526de3d80d1aadd11df86383c9ce15be6a4436b5f0b0844b3391f858
+~ ___removefile_tree_walker_slim : sha256 9b359a8e32e0e505880ce1bd675626633617baf9f5c5305a1d92f79e9d87a57e -> c7d0aa14561ddaa217d20950c2093265ff01c87b415d1e68df3ffa5ddbbb6447
+~ _____removefile_tree_walker_slim_block_invoke : sha256 4aeb8bd016fd1a65ac1e828d6cb0943f791c2b78d430b025970f548f5459925f -> 159293078ff9cc45d5e161ea3dbe4bec62706371875418c0a2ff8cb2125f016a
+~ _check_error_cb : sha256 b1a82f949fb33443f6e873ebc75f4ee4054846af603a66bb5f6ab8da01b6b3ca -> 1b576ddcb27cd41d489f6a4b107ce186cdf1892a6247fc43e155364295d2c514
+~ ___copy_helper_block_8_32r : sha256 d4ef9539edba43b3157fd0e11011d8bc30a4f867ba2a25a8ef609110ce3aedc0 -> 8a07c8849f88b6576e60d4df6daf69b09ac90702d7ad37b74813edfa1a2bf6c2
+~ ___destroy_helper_block_8_32r : sha256 8e428103f53986da89bb7cfd497fd76a7713fa1470d6b0283f48dcfa8139b7ce -> 65b6ecfbed53b21b42112083095c63d67ad026702ae14bf70a80af49fd588278
+~ ____removefile_tree_walker_slim_block_invoke.1 : sha256 a003539e2314c32caa02e6bf0fee88a1849e80f84a573bc395a2d87af8d5866b -> da34eac22f2bc04ad8ea6de050861225d7349670a2cd5e30c2d39ea7591d15f0
+~ _iopolicy_materialization_on : sha256 f2be39a05512f078e45fd4a53384dfdacaeececec2e09306d70144fed247b4f2 -> dbee022a614e104be4600e65bfa0587b4e06438ddd6b033f0e2714fedf5c5d11
+~ _removefile_cancel : sha256 799ab5a41bcf762f1da405c6775b6953693be7cc4289a640426f73347596dd35 -> a5d06a562115c8221847c12335ccd7f405fe5aba6130e748ca70ecee369aa0cb
+~ _removefileat : sha256 74de6b5aaaafbf03eeb9afdaba73f38be147574b52dfa27c2b42b7586f466fc2 -> b36026a5de0a441480d735dba88e06b48261a0cb052009842f80d4824e1098a7
+
+```

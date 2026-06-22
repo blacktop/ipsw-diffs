@@ -1,0 +1,62 @@
+## mod_headers.so
+
+> `/usr/libexec/apache2/mod_headers.so`
+
+```diff
+
+-886.0.0.0.0
+-  __TEXT.__text: 0x2c7c sha256:4f5716cdbd8ed6a58f626152e73b1773bdc3d49138031a68511f2b8ae7db1880
++888.0.0.0.0
++  __TEXT.__text: 0x2c74 sha256:1e119dc23995b8aca44ca551c43cf2710bfb66859a9e386a28fda6f108457e4b
+   __TEXT.__auth_stubs: 0x380 sha256:d2794d3d4d2713b01dcf01ba3fc7684e6d689b67e1268c9c06780be1fd938490
+-  __TEXT.__cstring: 0x5e0 sha256:46ba953edae5d8348a002e0eb045fc1c6fa92cc7770ae17b0eab830e4aa3cf93
++  __TEXT.__cstring: 0x5e0 sha256:7f047ab32ec2b6895467864793008816d2ef85911489e77a76ab646bdb77bad1
+   __TEXT.__const: 0x2 sha256:96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7
+-  __TEXT.__unwind_info: 0x80 sha256:cc594364db4f6e3867302a4d5c19afb1d91dbda4679375984a8fba1ba9252673
+-  __DATA_CONST.__const: 0x78 sha256:cec9528bc8cc346398c6fbd57c01f87140aa5c96e7622b63b30e6ff9cfc3209f
++  __TEXT.__unwind_info: 0x80 sha256:31834dc7df505cf872fd15e75e16afc61814490d972f9a14b1f6477c9665b053
++  __DATA_CONST.__const: 0x78 sha256:e67842e36ab32953bf0a19ba2a3154b6b54bac59208ae46985e08ce50c05d3fa
+   __DATA_CONST.__auth_got: 0x1c0 sha256:6c406d1ffd4f692629f26fe3e0499ac79f3057a7381612ccbc844244cb94de18
+   __DATA_CONST.__got: 0x8 sha256:cb484bed5b15d943349e72f26d24c38dfdfd43abdddf98f7e8b48d6f83d54097
+-  __DATA.__data: 0x80 sha256:f12f669c122c28e7bb7e6a749fd73187aa1fde6efc287810492cfaa5e21272de
++  __DATA.__data: 0x80 sha256:38acac937a6790f9d1cadfefced5bc03dd468c1bef4f940a180a1f326f6f9949
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcrypto.46.dylib
+   - /usr/lib/libssl.48.dylib
+-  UUID: D191C40A-B658-3878-8294-D674669ECA96
++  UUID: 59429C73-5CA0-3A6F-A4DD-7BEE8C43ECF0
+   Functions: 33
+   Symbols:   96
+   CStrings:  58
+Functions:
+~ _create_headers_dir_config : sha256 aba35a8a8a32c808f0eb3ec6b6f3a5893b981e7585e64cbd52e626ad05740343 -> eff83120df298bd722bc7e64c9a77632ce436592a33315a05e6cde97d735cb7b
+~ _merge_headers_config : sha256 319b1b8a3aebcc1fef6b68b7b9e61e09ceba1316371672e5d07c5b60cd930f34 -> 1b3e285b0393a1a33147b0140183ac0b56202625e4eea0d4b8d4f4146ccbab46
+~ _register_hooks : sha256 b1883e45a6fb9404d325abe4d848acd07934d21a3e2244f5e730ab9abdc4fc2c -> 49f204805ae167ce53db923d6e597ff83da32924218fa541526c068b5d447496
+~ _header_cmd : sha256 20c70fdabd57d2c494ee664ceffb0fac48067e934c0b3e84b30f889240eccf54 -> f826506a2110b08b80764b0e0482a40dabae3e273b75d5e0731efdbd633f4043
+~ _header_inout_cmd : sha256 09780d9ccee52bddc58fa1114197c0c2dfa2cc451fda0393bbada34140503e5c -> 6510a86b237f08f0fb28aeb407800a6af2d1ceadb351bb2b8c9806f9d863c439
+~ _parse_format_string : sha256 16c5b82339980a852cdd607a2aefec91d9f330c1193cc73944f4c96b5a38892c -> 412833e3dfbfb2416e63ea921fa52aac10f9eb16b96081ee3a0b668940884857
+~ _parse_format_tag : sha256 01f1ad1369ea3e927aca02c18519b031becc87edf74f2958e50cc2448161ec5d -> 484991b804e4babd878e879518056f5b242d9353b11780ae75eb1603fc557e45
+~ _parse_misc_string : sha256 7114e4ce8076c8605eb04b76753ba9df4be6a278f7a4a415e6d5d24e0875a814 -> 17cb1cc2409d0facde2fac5b801be0dccc9381f393f77e34cb9b564c87552156
+~ _ap_headers_output_filter : sha256 ad8778104916bbec81f0f5935c1be0f2b3683b45183889662a64099a2d10a33e -> d9847a28d886fbebe21f114d3ddc84a070dfa3d7e871eb0a63813821d106dd98
+~ _ap_headers_error_filter : sha256 c30bc74d4c49f2f579f1d8f583da27940345c09460631d94ad5dfd0d41de3233 -> 1cb6be15328ca6aafc45de3647259c305923428a753afa84ecd95b66e9144e42
+~ _header_pre_config : sha256 7c680cd6043280718051c8e28785c44a63c41cf902de8b225a71505801abaaca -> f558fda83d47a65cb6243ce7a609912f6bfcbab732d9910a717c0b087365c04c
+~ _ap_headers_insert_output_filter : sha256 444c9ef1ae8b5468ab650b692445b50dc5d855751c38d92674275b60154e45f1 -> ce94c92638c9ef974a6ed0584f95f665a7d347ccf3c4a6a0a9a525e2bd5bcbe1
+~ _ap_headers_insert_error_filter : sha256 2d72190d968862f3632b523bd799c9199f7baf293cb58c91bf6daa2d608df2f3 -> a125bc9f2840d2dba246b444c44613f2df5049c1fafc6e3bb3a85647552de46a
+~ _ap_headers_early : sha256 1d25857f3040b7c07b02a47ead404c62247aa4ea795d6a2093f14e370a433d64 -> 272e19952f718a65be8cd3dea294b4a8475af8a5ef6d5f9d5a3f8030af1347b6
+~ _do_headers_fixup : 2108 -> 2104
+~ _process_tags : 520 -> 516
+~ _process_regexp : sha256 a08747e49cfbfc533d81555b8472f84081abc681e4eba5f0b12b2906bf727b8d -> 6fe5a0d938f4b125b412d7d4e605d478be2a8afa296093eaef9da4ad99b4247a
+~ _header_request_duration : sha256 2b59cbca78ffc34f92d33187e0ff6d123856483b1e226b5a16863f63b5876fc4 -> fc3ce52f78c75be404ff3c5703168971fa2f4c842f8b8a54a1f9b90bed3c1088
+~ _header_request_time : sha256 f779de4aa25a1005b67d578241a45c685b0dde535a1502f9e0a854f304eb3f86 -> 02fdce4ebb30fd0ca4b97d12be1f9a14ae3c4581c429f5bd5009dea205574e52
+~ _header_request_env_var : sha256 be5216db01f9dfe0eb3e20b5932c88953b23844a69b83a2404831d8ba67295d3 -> 23335b5a6b9737aebc85d63951e21d2fff5a02e46f4c08c59aa3c8bb85940297
+~ _header_request_ssl_var : sha256 d031e5f1f3ac44c98a2f95675ea19dbcb64e107f2ffd36ce10c004423ebcdaa3 -> c9953fb07c5ca32c4ed2977b42738ebbfd1d5d4c199375559ffd3a04c6c46ef0
+~ _header_request_loadavg : sha256 738166cee073825ef8e907d8c6006b2cf09d2bc3470e768b4f97005c31ba9c1e -> 9706a027006943cd9e5a065421f7202b6a6bbd8e9b0de22ae0bf88d2badb94cd
+~ _header_request_idle : sha256 f309db48a8bec3243c740538918a7d8e31a40c4fb58390a21945473cb0b40ee9 -> f07b15f24404cc27dc48a5f9a9053d1eaac84f4fa770b3479b053c2905b66716
+~ _header_request_busy : sha256 77105d8dfb6ddf48e8f51398065c0913efb2f198aa45b4fa732ac3f9f6d2a314 -> 8c437a2c6522f4f8e46e7f74534e3bb5277921b77eebba820bf5c91e47f7dfb3
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRbjugDs63E_nh9LrKXIzNhaKOKGLV_zLQv5WSg/Library/Caches/com.apple.xbs/TemporaryDirectory.QaP6H4/Sources/apache/httpd/modules/metadata/mod_headers.c"
+- "/AppleInternal/Library/BuildRoots/4~CQCNugBXuVk5QyWQghtZ7Xdpnx7s5XYALnb8teQ/Library/Caches/com.apple.xbs/TemporaryDirectory.AuKlu0/Sources/apache/httpd/modules/metadata/mod_headers.c"
+
+```

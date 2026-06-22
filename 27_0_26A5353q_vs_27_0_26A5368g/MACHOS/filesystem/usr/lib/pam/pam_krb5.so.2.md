@@ -1,0 +1,52 @@
+## pam_krb5.so.2
+
+> `/usr/lib/pam/pam_krb5.so.2`
+
+```diff
+
+-230.0.0.0.0
+-  __TEXT.__text: 0x2fec sha256:2e967ff461d6a3e0330b2f60d19563915659695aef3a6e536f842b9573530e32
++231.0.0.0.0
++  __TEXT.__text: 0x3018 sha256:ffa2e9c16c692ae95cb3958368d4eb42fd7a77c88a36f3dff4a64b0de33a6ea1
+   __TEXT.__auth_stubs: 0x620 sha256:646f79ab0574ad6edc3d7de3684e2a0171bab847d2f716ee163a8030894398cc
+   __TEXT.__cstring: 0xe64 sha256:b993720e458a30381483b7a2c4014dad4a9c1dbdd225188b7fca532988293139
+   __TEXT.__const: 0x1c sha256:123af544ff6f5a9e023cbbadd5c86ead88344135fe475270fda909681521f74a
+-  __TEXT.__unwind_info: 0xa8 sha256:715f11b94a2ff57b7e5b5b97b988fb727921fe9aeaa064d8d5dafd7be9ba9407
+-  __DATA_CONST.__cfstring: 0xe0 sha256:4062193c3ba385e9843eaa89a7f4658d7f5cfaed116e31faf70eab9e4e5ec7ac
++  __TEXT.__unwind_info: 0xa8 sha256:dbcc6203968856272eb660d3a6e1a7233657b355f9f7ebd75a82a17974ec5980
++  __DATA_CONST.__cfstring: 0xe0 sha256:d84eeee7718fcf45c4ae03c9d0c8c63079274fbe6eb00f3c99d8341a9445df83
+   __DATA_CONST.__auth_got: 0x310 sha256:cb4559029ae0784e7f69b68f96b224c6e2cec6b90fdc7ddd3db10757cd6ad5fe
+   __DATA_CONST.__got: 0x58 sha256:3bdc8411fd2084e9e9d5d42ca8818ddf31bcc6af71c6052a8df922dba345f8bc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/Heimdal.framework/Versions/A/Heimdal
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libpam.2.dylib
+-  UUID: 423F63F7-EEBA-32AB-B5B9-9DBF0583534C
++  UUID: 8D2A4AD6-6069-3A35-AD89-AAE161244661
+   Functions: 21
+   Symbols:   135
+   CStrings:  171
+Functions:
+~ _pam_sm_authenticate : sha256 cecc0182e776ccf62ec9ca5e44ee4672b4161add55a56faadd7913de541d8a2a -> 120d6370071ab5401e1b1c606d8df81093ba101604e73d74f64ba9435d857fe5
+~ _verify_krb_v5_tgt : 576 -> 588
+~ _pam_sm_setcred : sha256 1ea4cb13ed7418b640776f91d14acbf1e496c930e7f669d80b5b776946ab21c1 -> 287883a8082a7faaed2a2ec64e771298cdbd1ea4ae595bb8bcc39bd66941be91
+~ _pam_sm_acct_mgmt : sha256 4426d8d9192ca2b34534725736dc5815779b82ad2ab4a94fbff7fb70ff4c103f -> 4309f287f14549dec54d43d0a37783a0e4cf961588716fd8e9ecc6f82aa849c4
+~ _pam_sm_chauthtok : sha256 f2ba67877ed8c39f93caaf8747cac5bd77598603a369c2215f8e649820c5f4b6 -> 2a7b5fc1c78295ccffd6289f8033ebd793a4c3c87fcae2092a164c99a6d72e66
+~ _cstring_to_cfstring : sha256 4ec19ef165c046b6ffb3a0515ec1ea970974e7c7e3de9050e45aef46a2b9980c -> 24a5c915f0586d6688e0a4b5790dfdc9a27982c506ba1090fbdb59adb13271b5
+~ _cfstring_to_cstring : sha256 9d087790a80faddccdc20781e68bf7d02477f0db59023bd72db75ef1698a935d -> 0ac4f9840adf2184443115e19507fb99355ce02eff17f8077125b9d8002a4e25
+~ _od_record_create : sha256 ef366f903a494a2da5ec11ab3b096a8396f39981cb10b1424c340a4096e2e0a9 -> dd8383fc1ff63c2746dd8d5a1fddb70bcafdf7714cc4ee32324846d3b4b24204
+~ _od_record_create_cstring : sha256 19e4f2885fd660a2723b06cf4c818f5226d4485d48259b87da14f08940e8dfae -> 4f2817dc36538937a9b62e8ce8d2299b1f207d82fb2d26f8142c2f7e275a0115
+~ _od_record_attribute_create_cfarray : sha256 f3ae39748a755941205a8c16699ab938af2d1e8fa8207e26f6390501e7e83919 -> 57477c6dd698334f124c9efa399acd0497455d52c7a7559bcc1bb1d66776727f
+~ _od_record_attribute_create_cfstring : sha256 85475b6006fcf2345793a856f9de33ee691625ab29b66e7bb7e9be33ddd6bfd2 -> 356643176fe53db5bf80befb4282ac75f8b5174b13227ae95a8b6e9f0a382be1
+~ _od_record_attribute_create_cstring : sha256 5b02ac4abf4b30996942ee8c71696c8f26f1b24aa3262e1e8dd39437da113f24 -> 9a06e70a96d04181fb8190e90be00b0b113788be5b1256695ed08c084c3a8919
+~ _od_record_check_pwpolicy : sha256 c20f5b39ab8b8064811a16058a425697a1881153001ad6bb10d96cc7a081e10c -> 78fb714fdf215cc49ced7bf3ca8486f20fa4d70393ebf7b1e35cc62f2826fc79
+~ _od_record_check_authauthority : sha256 9a39e608d4eed12c572564c81a34b23c1c66cadfa96e27f54709e2cd56d99499 -> 1a2369ef2aecda4e640e840e914e7ecf422be4cb1aef96d9e33991baa3c1abd4
+~ _od_record_check_homedir : sha256 68d2968fbfce3d348c57ccde58ca60d3957293eba327c3963c081081e8ef4883 -> 26c3fe6a215c9c4a5cc3a6956a21c28c0e08b0701f382eb00181067d26a6cd4f
+~ _od_record_check_shell : sha256 08f9ad3fa980fd6f13e427f7282e514a5b750d1b22ab49db24a508734c0a1834 -> a763736344baeb2e13a6e506d030c430ed9a7b56254c9414c910a61d51cc9b07
+~ _od_string_from_record : sha256 97b43b996ca3bfbd842dbd30585007aaf5bc93984f129180f43c2004829893e8 -> ee9dc786ec56f6d3ed0a0a2bb0ffb005d810d9e2a7d5ce48436b9f99f1dbba3b
+~ _extract_homemount : 468 -> 500
+~ _od_extract_home : sha256 ccfbe6a4ac2cca2464790acf544f2c8e3e7fa6ea6c1b788d8079f04e8e78f58b -> f9017912cc973706540dcf30e66084834e9a94e5455f1df6b53e92fbdf60eac1
+~ _od_principal_for_user : sha256 079bbfb001450dda27c341514b1a3f61e7466e800c47554782b5d90bd7aea335 -> d24ae83d0019231f1b3a39d3317f357bbab7615acc48ee8cadc29e1dbd949ff1
+
+```

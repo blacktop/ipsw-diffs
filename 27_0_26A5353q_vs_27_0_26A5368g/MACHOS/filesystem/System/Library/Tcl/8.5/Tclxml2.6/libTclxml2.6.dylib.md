@@ -1,0 +1,47 @@
+## libTclxml2.6.dylib
+
+> `/System/Library/Tcl/8.5/Tclxml2.6/libTclxml2.6.dylib`
+
+```diff
+
+ 154.0.0.0.0
+-  __TEXT.__text: 0x4270 sha256:ebdd1be1a5b7a055f4b639d9569f97b8e9778c308f343f148533a65e6c795d50
+-  __TEXT.__auth_stubs: 0x20 sha256:1695d59b01c3ea76ec71e53ab2a1c8e0f2696fff1e3accd4a4186ad32d854a8d
++  __TEXT.__text: 0x4288 sha256:b5ec942123afdbfc1fb8c126ef51d8092f1e37de9cd516641611f36315492c84
++  __TEXT.__auth_stubs: 0x20 sha256:bc9891e900c86f5c77fc521b6c9b5b1c5a0d9763396fff5fa9f9315466bcad7a
+   __TEXT.__cstring: 0x5ce sha256:eb8f08a54e902f0e20ee5d544803354cd895becab8913d2e231365baac976f57
+-  __TEXT.__unwind_info: 0xe0 sha256:21a88ed5c79954b170346e0629ece2ea6d4752a76bf03dc07b1d3571f61e03b3
++  __TEXT.__unwind_info: 0xe8 sha256:e13998cb792141eb5c4b8d850b5929472e2c7d844adbeebdf03618624b2f0c2d
+   __DATA_CONST.__auth_got: 0x10 sha256:935b037c1e1aa06c5bd2fcb6d6056c6f049900ffd3b42115689ec4dfe82b5314
+   __DATA_CONST.__got: 0x8 sha256:7bec1c4a60b65f8ec319bade4d385885b5f64eaa9f87d3ccae7e1c9c6d63aaef
+-  __DATA.__data: 0x2e0 sha256:46a25ea1daaab2c21fa6ba80c2825d0a558e92a125dcf1c621596bac24e19c00
++  __DATA.__data: 0x2e0 sha256:994e23b895a8e5688575026dcf99062f1269ea2622d47e158a9a83ac0ff4a209
+   __DATA.__bss: 0x6c sha256:77133f431d5e12dd850002c0d3d4e0fecbe3a7a699d604dc8c5eae9976e1d260
+   __DATA.__common: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /usr/lib/libSystem.B.dylib
+-  UUID: BC3CFB84-0340-3ACD-BC3E-411F3292DE92
++  UUID: 97881946-857D-38A0-BA83-1580D49998DB
+   Functions: 52
+   Symbols:   71
+   CStrings:  90
+Functions:
+~ _Tclxml_Init : sha256 f02f3390f5e195cc71778b46adb3b7e1b553a038cc6b8b64ffd3c16269d7a35e -> aba4b02a6a8e753d2f95d0bf8cea55f103fedc117500cff7a056aa4ae62617a1
+~ _TclXMLCreateParserCmd : 1116 -> 1104
+~ _TclXMLParserClassCmd : 1040 -> 1048
+~ _Tclxml_SafeInit : sha256 4fd630cb9f5a33d7dfc51d5008bccfbc0843e31f1a327d6e94711b9ba5afe982 -> 56c4c70d6b8dd214b232ca3d5d34df2fc72374d3a2a1484de22516336bb59f6f
+~ _TclXML_RegisterXMLParser : sha256 12b8ad0e4c085ee624bc59772e55d86f57389d53eb7028ef7fb412786b2fb653 -> 543ec7a157699195fb24b43780e515a80d751ec022c48baa514acbaac829ee9f
+~ _TclXML_UnknownEncodingHandler : sha256 2bdd1010029759480a50fe10ca1cb99bb85a264db946619a5d70b3b04523e9ea -> 60958296785a650fc322c9fd2d598dd899b1140e87b6e2415aa575a43e9f8ed1
+~ _FindUniqueCmdName : sha256 954e85a45bdb5b2947696ae1e970f79e844b6e473700398d5434c732e8e8c00f -> 02a1331d2fb6cd9217e49e88a27b7813d2882ec3d2c3c8d9c2c484f8b75663a0
+~ _TclXMLResetParser : 848 -> 864
+~ _TclXMLInstanceCmd : 988 -> 996
+~ _TclXMLInstanceDeleteCmd : sha256 e8d7f3a053c03ecb15cfacf2c58615436f0691b3dda0a676e61ff877f7ed05e9 -> 35392850c2ea78cda013b40c55c25203837f486ee768ca4f65fb46da5f3ed9ec
+~ _TclXMLInstanceConfigure : 1780 -> 1796
+~ sub_4430 -> sub_4454 : sha256 724aef35bd774120568e5f7d84826284b50dabccaa963d8346a8c18769d221e5 -> 3b3ea7510be1df3d18b9079662a3f7d0b840a7f14f173ca789c501e449f39db9
+~ _TclXMLCget : sha256 109dd3dbc2623e1e0833cf6f39ad2bf33400e02ed4d08caf829f90a27ea16c1d -> 9153c62292e0ce0b7ab9948839d69108e042b110258c531d041a6f7b1008604f
+~ _TclXMLCreateEntityParser : sha256 ea85516d3806a6e8477fc4b5fceb9395d83c0b32f9de0c1fe2640e091b4e5ec9 -> feef4eae92e8125a63e971d1bbe0de168c7c2951592af4be0b8280d3f7897b81
+~ _TclXMLParse : sha256 48106fbca85a17839b2a9659a9ff89a03d7cc1e9f63dd968934e14fce3576a6d -> 0a71f378e73da18ab92cc87010696195f23bf7609c546c70742e64aa03a6e3fc
+~ _TclXML_InitStubs : sha256 f5bd303f9d265e4e3f2c3ffcc718cab105d8b56f9d5ca2af1c7cd125de74ed67 -> 0b8391b61d6744e599b3011ff6bbdcc9f0899d5bb8072c3e097bcb73dd501dfa
+~ _Tcl_InitStubs : 408 -> 396
+~ _TclTomMathInitializeStubs : sha256 e3b5f726219f5e44cf4ec7113c5e4677c479ede7e2c2c0ab90a27a7aa0832d94 -> da23cb2de3132e8e3a1f5704d22ad94680fce29475e6544bb6fecb60f756abb8
+
+```

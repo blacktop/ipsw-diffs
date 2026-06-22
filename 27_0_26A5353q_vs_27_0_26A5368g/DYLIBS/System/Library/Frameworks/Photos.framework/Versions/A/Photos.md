@@ -1,0 +1,3437 @@
+## Photos
+
+> `/System/Library/Frameworks/Photos.framework/Versions/A/Photos`
+
+```diff
+
+-910.15.106.0.0
+-  __TEXT.__text: 0x2ede30 sha256:bef04971f89d7584baca839fa8a8ce9c2b3df41ab34dae21f84868951c5cec7b
+-  __TEXT.__objc_methlist: 0x25944 sha256:7b51351ad0c553c306a387abf7d1b3226c1b8f550a5c7eca1dee854f8f1c817a
+-  __TEXT.__const: 0x1740 sha256:7fb4491e6d3ff7238a064e5af037eaee8300398a9d16d8a3300d9a4bb46a13fd
++910.22.101.0.0
++  __TEXT.__text: 0x2f2810 sha256:ebb039d1f47d5ba37af29403edb31816c9b6f9a0e91065b84c5051e689db7dcf
++  __TEXT.__objc_methlist: 0x25b2c sha256:b53cbed2380203573eacdfb9992e42588a947fc3b379993cfe3cf5b75cf9e83b
++  __TEXT.__const: 0x1770 sha256:c261379a143904bfa1b7ac2462c5518b146c64122331eb27213747062fce3b23
+   __TEXT.__dlopen_cstrs: 0x280 sha256:9b24a8aecda310308f1178573749ab493910d6b9b9037918f2f82700385b468e
+-  __TEXT.__constg_swiftt: 0x544 sha256:8b2b8623afc33de77dc27aa2a0aa83263ad64afd4ff8011f157f2453090c9826
+-  __TEXT.__swift5_typeref: 0x4cd sha256:f292599c3950a65d40553825fedc7e62e44904bd0c93a12bd96bcc2b05acb7c8
++  __TEXT.__constg_swiftt: 0x544 sha256:0b68868a1657aa83eeeaffa1e058aaac9dfc2bddef33647e6b6a84d6980dce4b
++  __TEXT.__swift5_typeref: 0x4cd sha256:7e0ef66b536578cd0a9ab134359b7032cd804d798bc409f494e90fbc5a1604d4
+   __TEXT.__swift5_reflstr: 0x161 sha256:91f60d020c436dbc5bf837b3f2099284210848bc36bbe28019bbf494109e3475
+   __TEXT.__swift5_fieldmd: 0x1a8 sha256:14d5388cc2b821e2bc1565e4043e7e8790521f1986a533e0d278ee40296dd290
+   __TEXT.__swift5_builtin: 0x3c sha256:ed9c5266ac4541c5a308ef3764cc3495b11e078a592fcaf7620c5bc18b507830
+   __TEXT.__swift5_assocty: 0xd0 sha256:84669caaae35062e988e0e3640c2bb0651b9b52bf0fd4af9309032158488cf44
+-  __TEXT.__swift5_proto: 0x4c sha256:587f1867f19d603c2c151358cba46781ee35cde5398f4640da020982157ebf98
++  __TEXT.__swift5_proto: 0x4c sha256:7a338629a0dcde1b24754155ddc8a6ad144e0a8a5de482e3d6d805cadcf602d8
+   __TEXT.__swift5_types: 0x34 sha256:becbef97a48589d8aa3acba5fca8e4b759297b7d503fe9eeaf76d76ae7f4e049
+   __TEXT.__swift5_capture: 0x198 sha256:ba163d7c9f844915eb59a51373c3d9cf8b0304c3eedd20a942f9759e61cc9bb0
+-  __TEXT.__cstring: 0x315fd sha256:f726d3215173163d68b302d94f4145ce0ff48c9427d6c77e727f9119a832a667
+-  __TEXT.__swift_as_entry: 0x10 sha256:31a698e4e22baea1d05eab79874dd3e543dee72b14e86c6a53b82e1b733d3f4c
+-  __TEXT.__swift_as_ret: 0x10 sha256:1e9af34e97bf88ce722aec2df2dd448857001f308e6e3d777973e7cf616e080b
+-  __TEXT.__swift_as_cont: 0x14 sha256:81bd30e1443d86054a3cc0eceb72431b65597e2dc99fb5a62e730969ff6994d2
+-  __TEXT.__oslogstring: 0x208bb sha256:2ebaeb26a09407dff547960ccff2f7697ba27fa660cf39cdc8a24500b29ef57f
+-  __TEXT.__swift5_protos: 0x8 sha256:c992ffd3ec05fb74a25a8fbe57170772894d5bf154460406dfdd963e95d41c7d
+-  __TEXT.__gcc_except_tab: 0x8cd8 sha256:d27d3f42a2af516967e5ebeb540e754e134874d15b7f791d046dfa212791243c
++  __TEXT.__cstring: 0x31d56 sha256:8a9f1912d9681daaa1b13bc07578cb79cc5cf65d80c6229c11509fe6e1518a85
++  __TEXT.__swift_as_entry: 0x10 sha256:a11cc890496245762458eccdd173e9618d4f7ebf055a61dde4a3bf6a6db3b9d0
++  __TEXT.__swift_as_ret: 0x10 sha256:28beb5444a11174dd2d065e6f14d38aea8b63e3f88919b958a356117c14d6890
++  __TEXT.__swift_as_cont: 0x14 sha256:d273e68a7bfca0f8378c6b39f953347c952847bb4ad95c135d08489790f0437a
++  __TEXT.__oslogstring: 0x210d7 sha256:0df3eeba8154d154ab918c59ad93b4d216b4f075a57ec6cd1f506ddb005fb621
++  __TEXT.__swift5_protos: 0x8 sha256:301e1244df7123685cd5fa3311e473d9479d687712afa8542d93022a1d33f6cb
++  __TEXT.__gcc_except_tab: 0x8f58 sha256:70c76d0e2028bccb924a121589990752475a628967312fa087ff84a5a1e53177
+   __TEXT.__ustring: 0x1e sha256:00407e6b4a24a63f74c814f3e1efeb95b20169398daa252881d57729ad062abc
+-  __TEXT.__unwind_info: 0x9380 sha256:c43de8260be3bde36bc171ae661c7750961137e44826e878bbd0b51b76f1f95f
+-  __TEXT.__eh_frame: 0x480 sha256:b444b1e76d706d6fff3d0134f69ef0f00e9c5207744fce1383f3c7fccf75716b
++  __TEXT.__unwind_info: 0x94f8 sha256:8bf083fb8071dea83d18d9d08c22feb8728f932c75dd83316213f91d109112a1
++  __TEXT.__eh_frame: 0x480 sha256:1f9701e88a401b60f02090ba1512196457f2511c9ba68c48ffa49496c9a9dd32
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x3128 sha256:c17e7e03a86ed58b56f1426730e233713eb3bd57f77dd33ffbde070f7822968b
+-  __DATA_CONST.__objc_classlist: 0xeb8 sha256:91e2b4872a6445b50f8ad9ec8a8221666031e8247d330962c52cfea5a01eda9c
+-  __DATA_CONST.__objc_catlist: 0x68 sha256:934c16cdc4a48e69720e6492127fe7a8854714f690ab52e762b95183e8ab9c96
+-  __DATA_CONST.__objc_protolist: 0x2d0 sha256:c3c93122425d26c7dd94032cfbd62400ba353d58a7005c1ff10a87d44f323b5e
++  __DATA_CONST.__const: 0x31f0 sha256:f61ed52a34415b52d63975a9cc6e0830f6ea4ef3a28075aa8ab852e0b94e731a
++  __DATA_CONST.__objc_classlist: 0xeb8 sha256:b1258c4aa6e20f98f76a0b37a18652280e4986f151c0bcb23ef1a77d8330e86f
++  __DATA_CONST.__objc_catlist: 0x68 sha256:846b2fd99de62addb66d65f5eb39cdd9bcaf0997236e044ece17e2d8a4945cc3
++  __DATA_CONST.__objc_protolist: 0x2d0 sha256:a931c35b15d16b2edd795fbb0afe4f0988efadf27c0f5cfc369cbfba8b13472c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x13b20 sha256:1a1587c76cfa0724c68a32776f7cc181106f95333d486c7d30237742cd38da56
+-  __DATA_CONST.__objc_protorefs: 0x40 sha256:df925f2b705953e82bcb9044d45b35edb17a595a5c1ed5694012ee099be8b9e7
+-  __DATA_CONST.__objc_superrefs: 0xc10 sha256:44b88079baf27abdf36dd1565c87174eb8ea100c7b63da4f39f90bae198a569d
+-  __DATA_CONST.__objc_arraydata: 0x818 sha256:104292e2a60941aab4cf61280e21c26465bf3e8e0ebe92cc9fd6c2c875fad625
+-  __DATA_CONST.__got: 0x27a0 sha256:b74705b76dcf2dc24444e614e46af15b91947a2364e5d30ae71ee45c5bd9f42d
+-  __AUTH_CONST.__const: 0xb1a8 sha256:c7fcad9ace77ef1a29d732097087ba6d0ac158b5d616ded4af05275ae6dbbfb8
+-  __AUTH_CONST.__cfstring: 0x2c500 sha256:245826d9e63a502ec0657e69800ca26c441a48747e91eb48fbc66bb9fc65a5b0
+-  __AUTH_CONST.__objc_const: 0x3ff38 sha256:833e2de95eb69db465375879cea2ab72e85f6a62b27e844aa3dd139f4758076e
+-  __AUTH_CONST.__objc_intobj: 0x2250 sha256:60a4322aaef349a5dd89d0ea46292c59c38589f8e8fd1ac6234e07d696ab81cd
+-  __AUTH_CONST.__objc_arrayobj: 0x798 sha256:d8f54dc09736e88d4c97dae486c6f2fdd40737a77f8dcdd9db95042829cae99c
+-  __AUTH_CONST.__objc_doubleobj: 0x130 sha256:f7244a0be93bf94777f97dcf9c6c8453c92896a8f5985a6fa7ce5a348b4899bb
+-  __AUTH_CONST.__objc_dictobj: 0xa0 sha256:4cda2643e39d0106ae61e3a386bdef0319fc657652027e2971d4eed93181f673
+-  __AUTH_CONST.__auth_got: 0x1660 sha256:9d5c75a5bc689ce375e06e8530236708ecb04300792ba9a385c1ca44e432b556
+-  __AUTH.__objc_data: 0x5098 sha256:81fc6d600e9eba8d541cb32b875accaf900d5a5b21b5cf792574669e45f94aab
+-  __AUTH.__data: 0x180 sha256:1b099fafaff2f82fe4c6abe1c76e477f65cf10ae51ee224b96cc7fb5b2234175
+-  __DATA.__objc_ivar: 0x3424 sha256:376519d9c75daa48a42c56ca31358d0d852f7b1e3b8bf6e759a2612c6f2e9888
+-  __DATA.__data: 0x2880 sha256:3c0e466f0386057f3c2f3aa454259f75f8dafae515a1ebdb24ecb60b3eac1114
++  __DATA_CONST.__objc_selrefs: 0x13c48 sha256:8fe4f1f6ddc9e9e599717eef31ef233f97acfe6f091d330a0193c421c7ddc831
++  __DATA_CONST.__objc_protorefs: 0x40 sha256:695967965e62f54ee5e8b907ce87032dd60804baf6f9affa1b9e11ff1ab7fcb7
++  __DATA_CONST.__objc_superrefs: 0xc10 sha256:9de139b6667e2e868ec96724b19fa5b061e99765ff9cd997504216743fbe8469
++  __DATA_CONST.__objc_arraydata: 0x830 sha256:b12a5c716fa013183886917abbe32baeb2d08ef8fa92a12c8e9066cabe332017
++  __DATA_CONST.__got: 0x27b0 sha256:ed72e53e708f9627bcf477a9b8855900f2f0c367ab8a3d6d42fd396764545b1a
++  __AUTH_CONST.__const: 0xb478 sha256:391e9cd6f53a5c881b83719c004c93fa43cb0fbc9d0a3c4ed25c5629c61c5159
++  __AUTH_CONST.__cfstring: 0x2c740 sha256:259028d9ebc9a3553b8c24663ca47db9707fb55332621a0c976b5073790af347
++  __AUTH_CONST.__objc_const: 0x40118 sha256:f3118974b8762ccc79073ea56baec2c5ce937e252a540d1e7d7901a7797fb7f5
++  __AUTH_CONST.__objc_intobj: 0x2280 sha256:520c30563c1ea3e9101441161d678a8caae6c6d4a9b1dce1a28dc0b12e1f6d3b
++  __AUTH_CONST.__objc_arrayobj: 0x798 sha256:11937b9e5ce590c9319f03c020b2ebc8c2ed77fc5d7bb38d3ff641dc7ee8dbec
++  __AUTH_CONST.__objc_doubleobj: 0x130 sha256:06e7f028df207be246087a65b7e5e1a2d762b4a5ce7622b376de03167239eaa0
++  __AUTH_CONST.__objc_dictobj: 0xc8 sha256:a0a38dae03c607f1b886f5aed569c35a10488aeec13f893450ebde347cc2fc81
++  __AUTH_CONST.__auth_got: 0x1680 sha256:32ead73abab870ab0c7ba67a2337215e63ae49394d3c22dbf133e7ce1c7a2a0a
++  __AUTH.__objc_data: 0x5098 sha256:4f68451355eb6c877438699df88c3bb977c0e903a51b3311a59404345dd6baf2
++  __AUTH.__data: 0x180 sha256:154c627c1c1ae3099b3c51d9ed261149fc1f207438bd7e85b69900378cb97990
++  __DATA.__objc_ivar: 0x3448 sha256:19162a92c3837ad156ebc26084cd2770eb998e49e4c6fa08ce7ab9d331c393cf
++  __DATA.__data: 0x2910 sha256:65a93b4f4ed4561b190e511e78d3e123380809a5a4e4bdabd7bd7d4c18f8b49b
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+   __DATA.__bss: 0x17a8 sha256:1b8f9fc5feaf83e0b22c7fd2a267bf03881b04d1236a0fa6282d50463ee62294
+   __DATA.__common: 0x49 sha256:9c56f48ae9bafd205262034bfcc2232b2c63348cb723d681ec39f13409f990cc
+-  __DATA_DIRTY.__objc_data: 0x4300 sha256:caaf40703ca661d8397c2b2774998870f9dd4681a072c7194718f53482eff26d
+-  __DATA_DIRTY.__data: 0x1a8 sha256:3762c058c362b9ffa7cac2a725c14bffb300d478add8160435d49b5bd0fd9712
++  __DATA_DIRTY.__objc_data: 0x4300 sha256:d4190a5fa7f41c60263ac990d0a4de9f411a281330beba5a17d9d1dc39e99461
++  __DATA_DIRTY.__data: 0x1a8 sha256:295758f180fb0e67c937a81880e43f0430704f1e130578b5efe17fde6dc573ce
+   __DATA_DIRTY.__bss: 0x3c8 sha256:a038ee252f6057f767a2e97566457a8ade06fc1203c8e9be326a5c29181df5ba
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1E9200B4-52C0-396E-A665-0632BC8667D0
+-  Functions: 14583
+-  Symbols:   34015
+-  CStrings:  14290
++  UUID: DE654641-172C-3378-807E-07E78B67E6E0
++  Functions: 14657
++  Symbols:   34200
++  CStrings:  14356
+ 
+Symbols:
++ +[PHCollectionShare fetchCollectionSharesWithUnreadActivityWithOptions:]
++ +[PHQuery identificationBlockForTransientAssetCollectionIdentificationType:]
++ +[PHQuery identificationBlockForUtilityCollectionType:]
++ +[PHQuery queryForCollectionSharesWithUnreadActivityWithOptions:]
++ +[PHQuery queryForPostsFromOthersCreatedAfterSubscriptionSince:options:]
++ +[PHQuery setIdentificationBlockOnTransientAssetCollectionOptions:]
++ +[PHSearchIntentTranslator _entitiesForText:searchIntentToken:searchStore:resultTypes:]
++ +[PHSearchIntentTranslator _suggestionForText:searchIntentToken:searchStore:resultTypes:]
++ +[PHSearchIntentTranslator searchQuerySuggestionForWhatAndExpandedString:containsIdentificationDocumentIntent:resultTypes:]
++ +[PHSearchIntentTranslator searchQuerySuggestionFromSearchIntentToken:text:containsIdentificationDocumentIntent:resultTypes:searchStore:]
++ +[PHSearchQueryManager(SPI) parseResultForIntentQuery:photoLibrary:queryType:resultTypes:allowUnattributedQuery:allowExpandedWhatAttributes:]
++ +[PHSearchResultProcessor _rankedCollectionResultsFromSearchResults:maxResults:excludedCollectionTypes:options:]
++ +[PHSearchResultProcessor _searchResultsFromResultItems:rankingOptions:excludedCollectionTypes:]
++ +[PHSearchResultProcessor applyRankingForSystemPhotoLibraryRankedAssetSearchResults:syndicationLibraryRankedAssetSearchResults:syndicationLibraryAllSearchResults:maximumRankedResultCount:]
++ +[PHSearchUtility _photosSearchQueryForSearchIntentsQuery:allowUnattributedQuery:queryType:resultTypes:allowExpandedWhatAttributes:photoLibrary:]
++ +[PHSearchUtility _photosSearchQueryForSearchIntentsQuery:searchStore:allowUnattributedQuery:queryType:resultTypes:allowExpandedWhatAttributes:]
++ +[PHSearchUtility _photosSearchQueryForWhatAndExpandedString:queryContainsIdentificationDocumentIntent:resultTypes:]
++ +[PHSharePost fetchPostsFromOthersCreatedAfterSubscriptionSince:options:]
++ +[PHUtilityCollection _fetchIdentityDocumentsUsingLeoWithOptions:]
++ -[PHAsset isPlaceholderAsset]
++ -[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithSensitiveMetadataRemoved:sourceExternalResources:photoLibrary:error:]
++ -[PHCollectionList rootFolderIncludesBuiltInSingletons]
++ -[PHFetchOptions includeBuiltInSingletons]
++ -[PHFetchOptions setIncludeBuiltInSingletons:]
++ -[PHFindQueryOptions allowedBundleIdentifiers]
++ -[PHFindQueryOptions isCardQuery]
++ -[PHFindQueryOptions setAllowedBundleIdentifiers:]
++ -[PHFindQueryOptions setIsCardQuery:]
++ -[PHFindQueryResult formattedResultCountsByType:]
++ -[PHFindQueryResultItem expirationDateIdentifier]
++ -[PHFindQueryResultItem initWithResultSubtype:uuid:metadataRelevanceScore:embeddingRelevanceScore:matchedThumbnailIdentifier:utilityClassificationPriority:expirationDateIdentifier:dateCreated:isOCRTextMatch:bundleIdentifier:retrievalType:]
++ -[PHGraphQuery _fetchResultIdentifier]
++ -[PHGraphQuery _graphQueryTypeName]
++ -[PHInternalRootFolder rootFolderIncludesBuiltInSingletons]
++ -[PHLivePhotoRequestOptions description]
++ -[PHPhotoLibrary setDisableSyncMode:completionHandler:]
++ -[PHQuery _setIdentificationBlockIfNotSet:]
++ -[PHQuery setFallbackIdentificationBlockForTransientAssetCollection]
++ -[PHResourceChooserListResourceInfo description]
++ -[PHSearchIntentQueryOptions setSyndicationPhotoLibrary:]
++ -[PHSearchIntentQueryOptions setSystemPhotoLibrary:]
++ -[PHSearchIntentQueryOptions syndicationPhotoLibrary]
++ -[PHSearchIntentQueryOptions systemPhotoLibrary]
++ -[PHSearchQueryManager _photosSearchQueryForSearchIntentsQuery:allowUnattributedQuery:queryType:resultTypes:allowExpandedWhatAttributes:]
++ -[PHSearchQueryManager cooldownSearch]
++ -[PHSearchQueryOptions allowedBundleIdentifiers]
++ -[PHSearchQueryOptions isCardQuery]
++ -[PHSearchQueryOptions setAllowedBundleIdentifiers:]
++ -[PHSearchQueryOptions setIsCardQuery:]
++ -[PHSearchQueryResult formattedTopAssetsDescription]
++ -[PHSearchResult shortDescription]
++ -[PHShareParticipant contactPersonUri]
++ -[PHTransientAssetCollectionOptions identificationType]
++ -[PHTransientAssetCollectionOptions setIdentificationType:]
++ CloudKitLibraryCore.frameworkLibrary.40823
++ GCC_except_table10005
++ GCC_except_table10019
++ GCC_except_table10020
++ GCC_except_table10126
++ GCC_except_table10127
++ GCC_except_table10128
++ GCC_except_table10129
++ GCC_except_table10130
++ GCC_except_table10131
++ GCC_except_table10132
++ GCC_except_table10133
++ GCC_except_table10134
++ GCC_except_table10135
++ GCC_except_table10136
++ GCC_except_table10137
++ GCC_except_table10138
++ GCC_except_table10139
++ GCC_except_table10140
++ GCC_except_table10141
++ GCC_except_table10142
++ GCC_except_table10143
++ GCC_except_table10144
++ GCC_except_table10145
++ GCC_except_table10146
++ GCC_except_table10147
++ GCC_except_table10148
++ GCC_except_table10149
++ GCC_except_table10150
++ GCC_except_table10151
++ GCC_except_table10152
++ GCC_except_table10153
++ GCC_except_table10154
++ GCC_except_table10155
++ GCC_except_table10156
++ GCC_except_table10157
++ GCC_except_table10158
++ GCC_except_table10159
++ GCC_except_table10160
++ GCC_except_table10161
++ GCC_except_table10162
++ GCC_except_table10163
++ GCC_except_table10164
++ GCC_except_table10165
++ GCC_except_table10166
++ GCC_except_table10167
++ GCC_except_table10168
++ GCC_except_table10169
++ GCC_except_table10170
++ GCC_except_table10281
++ GCC_except_table10290
++ GCC_except_table10291
++ GCC_except_table10292
++ GCC_except_table10293
++ GCC_except_table10294
++ GCC_except_table10295
++ GCC_except_table10296
++ GCC_except_table10307
++ GCC_except_table10325
++ GCC_except_table10358
++ GCC_except_table10359
++ GCC_except_table10360
++ GCC_except_table10361
++ GCC_except_table10362
++ GCC_except_table10372
++ GCC_except_table10390
++ GCC_except_table10391
++ GCC_except_table10393
++ GCC_except_table10394
++ GCC_except_table10395
++ GCC_except_table10396
++ GCC_except_table10397
++ GCC_except_table10398
++ GCC_except_table10399
++ GCC_except_table10436
++ GCC_except_table10437
++ GCC_except_table10441
++ GCC_except_table10461
++ GCC_except_table10468
++ GCC_except_table10549
++ GCC_except_table10642
++ GCC_except_table10808
++ GCC_except_table10828
++ GCC_except_table10831
++ GCC_except_table10832
++ GCC_except_table10858
++ GCC_except_table10860
++ GCC_except_table10950
++ GCC_except_table10968
++ GCC_except_table1109
++ GCC_except_table1127
++ GCC_except_table11478
++ GCC_except_table1153
++ GCC_except_table11635
++ GCC_except_table11638
++ GCC_except_table11645
++ GCC_except_table11653
++ GCC_except_table11657
++ GCC_except_table11659
++ GCC_except_table11663
++ GCC_except_table11669
++ GCC_except_table11775
++ GCC_except_table11794
++ GCC_except_table11796
++ GCC_except_table11798
++ GCC_except_table11800
++ GCC_except_table11835
++ GCC_except_table11884
++ GCC_except_table11891
++ GCC_except_table11893
++ GCC_except_table11895
++ GCC_except_table11901
++ GCC_except_table11938
++ GCC_except_table12068
++ GCC_except_table12094
++ GCC_except_table12106
++ GCC_except_table12148
++ GCC_except_table12162
++ GCC_except_table12247
++ GCC_except_table12292
++ GCC_except_table12305
++ GCC_except_table12306
++ GCC_except_table12313
++ GCC_except_table12351
++ GCC_except_table12358
++ GCC_except_table12368
++ GCC_except_table12373
++ GCC_except_table12423
++ GCC_except_table1247
++ GCC_except_table12515
++ GCC_except_table12518
++ GCC_except_table12524
++ GCC_except_table12528
++ GCC_except_table12568
++ GCC_except_table12587
++ GCC_except_table12598
++ GCC_except_table12656
++ GCC_except_table12659
++ GCC_except_table1266
++ GCC_except_table12667
++ GCC_except_table12673
++ GCC_except_table12675
++ GCC_except_table12739
++ GCC_except_table12817
++ GCC_except_table12821
++ GCC_except_table12825
++ GCC_except_table12862
++ GCC_except_table12886
++ GCC_except_table12893
++ GCC_except_table13023
++ GCC_except_table13035
++ GCC_except_table13128
++ GCC_except_table13195
++ GCC_except_table13401
++ GCC_except_table13479
++ GCC_except_table13521
++ GCC_except_table13570
++ GCC_except_table13580
++ GCC_except_table13615
++ GCC_except_table13643
++ GCC_except_table13645
++ GCC_except_table13658
++ GCC_except_table13660
++ GCC_except_table13662
++ GCC_except_table13681
++ GCC_except_table13827
++ GCC_except_table13838
++ GCC_except_table13861
++ GCC_except_table13867
++ GCC_except_table13883
++ GCC_except_table13953
++ GCC_except_table13955
++ GCC_except_table14001
++ GCC_except_table14003
++ GCC_except_table14026
++ GCC_except_table14029
++ GCC_except_table1414
++ GCC_except_table14183
++ GCC_except_table1433
++ GCC_except_table1459
++ GCC_except_table1501
++ GCC_except_table1576
++ GCC_except_table1676
++ GCC_except_table1778
++ GCC_except_table1782
++ GCC_except_table1808
++ GCC_except_table1813
++ GCC_except_table1817
++ GCC_except_table1827
++ GCC_except_table2014
++ GCC_except_table2028
++ GCC_except_table2031
++ GCC_except_table2042
++ GCC_except_table2054
++ GCC_except_table2116
++ GCC_except_table2127
++ GCC_except_table2132
++ GCC_except_table2139
++ GCC_except_table2169
++ GCC_except_table2172
++ GCC_except_table2175
++ GCC_except_table2279
++ GCC_except_table2284
++ GCC_except_table2294
++ GCC_except_table2306
++ GCC_except_table2346
++ GCC_except_table2529
++ GCC_except_table2559
++ GCC_except_table2576
++ GCC_except_table2595
++ GCC_except_table2605
++ GCC_except_table2642
++ GCC_except_table2647
++ GCC_except_table2709
++ GCC_except_table2814
++ GCC_except_table2825
++ GCC_except_table2827
++ GCC_except_table2833
++ GCC_except_table2841
++ GCC_except_table2873
++ GCC_except_table2952
++ GCC_except_table2958
++ GCC_except_table2966
++ GCC_except_table2976
++ GCC_except_table2989
++ GCC_except_table2991
++ GCC_except_table2998
++ GCC_except_table3129
++ GCC_except_table3136
++ GCC_except_table3203
++ GCC_except_table3211
++ GCC_except_table3246
++ GCC_except_table3250
++ GCC_except_table3255
++ GCC_except_table3379
++ GCC_except_table3412
++ GCC_except_table3418
++ GCC_except_table3421
++ GCC_except_table3431
++ GCC_except_table3435
++ GCC_except_table3446
++ GCC_except_table3449
++ GCC_except_table3458
++ GCC_except_table3462
++ GCC_except_table3476
++ GCC_except_table3483
++ GCC_except_table3494
++ GCC_except_table3495
++ GCC_except_table3511
++ GCC_except_table3520
++ GCC_except_table3617
++ GCC_except_table3624
++ GCC_except_table3645
++ GCC_except_table3647
++ GCC_except_table3649
++ GCC_except_table3696
++ GCC_except_table3723
++ GCC_except_table3754
++ GCC_except_table3756
++ GCC_except_table3776
++ GCC_except_table3779
++ GCC_except_table3938
++ GCC_except_table3972
++ GCC_except_table3980
++ GCC_except_table3982
++ GCC_except_table4000
++ GCC_except_table4002
++ GCC_except_table4040
++ GCC_except_table4041
++ GCC_except_table4295
++ GCC_except_table4301
++ GCC_except_table4332
++ GCC_except_table4353
++ GCC_except_table4356
++ GCC_except_table4367
++ GCC_except_table4378
++ GCC_except_table4382
++ GCC_except_table439
++ GCC_except_table4400
++ GCC_except_table443
++ GCC_except_table4466
++ GCC_except_table456
++ GCC_except_table463
++ GCC_except_table468
++ GCC_except_table471
++ GCC_except_table4791
++ GCC_except_table4801
++ GCC_except_table482
++ GCC_except_table4861
++ GCC_except_table4865
++ GCC_except_table4867
++ GCC_except_table4870
++ GCC_except_table491
++ GCC_except_table493
++ GCC_except_table4940
++ GCC_except_table4945
++ GCC_except_table4978
++ GCC_except_table501
++ GCC_except_table503
++ GCC_except_table5108
++ GCC_except_table5456
++ GCC_except_table5487
++ GCC_except_table5533
++ GCC_except_table5559
++ GCC_except_table5592
++ GCC_except_table5597
++ GCC_except_table5621
++ GCC_except_table5625
++ GCC_except_table5629
++ GCC_except_table5651
++ GCC_except_table5657
++ GCC_except_table5661
++ GCC_except_table5675
++ GCC_except_table5678
++ GCC_except_table5681
++ GCC_except_table5704
++ GCC_except_table5745
++ GCC_except_table576
++ GCC_except_table5766
++ GCC_except_table5777
++ GCC_except_table5816
++ GCC_except_table5828
++ GCC_except_table5862
++ GCC_except_table5871
++ GCC_except_table5875
++ GCC_except_table5887
++ GCC_except_table5912
++ GCC_except_table5941
++ GCC_except_table5967
++ GCC_except_table5969
++ GCC_except_table5981
++ GCC_except_table6050
++ GCC_except_table612
++ GCC_except_table6132
++ GCC_except_table6137
++ GCC_except_table6295
++ GCC_except_table6300
++ GCC_except_table6313
++ GCC_except_table634
++ GCC_except_table6349
++ GCC_except_table6352
++ GCC_except_table636
++ GCC_except_table6390
++ GCC_except_table640
++ GCC_except_table6427
++ GCC_except_table6429
++ GCC_except_table643
++ GCC_except_table6828
++ GCC_except_table6848
++ GCC_except_table685
++ GCC_except_table6861
++ GCC_except_table6874
++ GCC_except_table6893
++ GCC_except_table692
++ GCC_except_table6923
++ GCC_except_table6926
++ GCC_except_table6928
++ GCC_except_table6930
++ GCC_except_table6932
++ GCC_except_table694
++ GCC_except_table6941
++ GCC_except_table6988
++ GCC_except_table7002
++ GCC_except_table7038
++ GCC_except_table7040
++ GCC_except_table7079
++ GCC_except_table7332
++ GCC_except_table7336
++ GCC_except_table7337
++ GCC_except_table7343
++ GCC_except_table7365
++ GCC_except_table7372
++ GCC_except_table7390
++ GCC_except_table7394
++ GCC_except_table7398
++ GCC_except_table7399
++ GCC_except_table7408
++ GCC_except_table7409
++ GCC_except_table7410
++ GCC_except_table7567
++ GCC_except_table772
++ GCC_except_table7787
++ GCC_except_table783
++ GCC_except_table7832
++ GCC_except_table7850
++ GCC_except_table7851
++ GCC_except_table7910
++ GCC_except_table7935
++ GCC_except_table7939
++ GCC_except_table7946
++ GCC_except_table8000
++ GCC_except_table8204
++ GCC_except_table8206
++ GCC_except_table8253
++ GCC_except_table8293
++ GCC_except_table8297
++ GCC_except_table8299
++ GCC_except_table8301
++ GCC_except_table8313
++ GCC_except_table8318
++ GCC_except_table8358
++ GCC_except_table8386
++ GCC_except_table8428
++ GCC_except_table8511
++ GCC_except_table8569
++ GCC_except_table8590
++ GCC_except_table8593
++ GCC_except_table8612
++ GCC_except_table8671
++ GCC_except_table8677
++ GCC_except_table8683
++ GCC_except_table8684
++ GCC_except_table8685
++ GCC_except_table8686
++ GCC_except_table8687
++ GCC_except_table8691
++ GCC_except_table8695
++ GCC_except_table8706
++ GCC_except_table8709
++ GCC_except_table8730
++ GCC_except_table877
++ GCC_except_table8775
++ GCC_except_table8840
++ GCC_except_table8997
++ GCC_except_table9038
++ GCC_except_table9044
++ GCC_except_table9047
++ GCC_except_table930
++ GCC_except_table9310
++ GCC_except_table9314
++ GCC_except_table9318
++ GCC_except_table9342
++ GCC_except_table9343
++ GCC_except_table9440
++ GCC_except_table9450
++ GCC_except_table9483
++ GCC_except_table9535
++ GCC_except_table956
++ GCC_except_table9580
++ GCC_except_table960
++ GCC_except_table9600
++ GCC_except_table9628
++ GCC_except_table9656
++ GCC_except_table9689
++ GCC_except_table9691
++ GCC_except_table971
++ GCC_except_table973
++ GCC_except_table9782
++ GCC_except_table9873
++ GCC_except_table9995
++ OBJC_IVAR_$_PHFetchOptions._includeBuiltInSingletonsNumber
++ OBJC_IVAR_$_PHFindQueryOptions._allowedBundleIdentifiers
++ OBJC_IVAR_$_PHFindQueryOptions._isCardQuery
++ OBJC_IVAR_$_PHFindQueryResultItem._expirationDateIdentifier
++ OBJC_IVAR_$_PHSearchIntentQueryOptions._syndicationPhotoLibrary
++ OBJC_IVAR_$_PHSearchIntentQueryOptions._systemPhotoLibrary
++ OBJC_IVAR_$_PHSearchQueryOptions._allowedBundleIdentifiers
++ OBJC_IVAR_$_PHSearchQueryOptions._isCardQuery
++ OBJC_IVAR_$_PHTransientAssetCollectionOptions._identificationType
++ SensitiveContentAnalysisLibraryCore.frameworkLibrary.20045
++ SensitiveContentAnalysisLibraryCore.frameworkLibrary.23183
++ SensitiveContentAnalysisLibraryCore.frameworkLibrary.38063
++ _NSOSStatusErrorDomain
++ _OBJC_$_CLASS_PROP_LIST_PHAssetPropertySet.2806
++ _OBJC_$_PROP_LIST_PHAssetPropertySet.2813
++ _OBJC_$_PROP_LIST_PHAssetResourceRequest.311
++ _OBJC_CLASS_$_LEODate
++ _OBJC_CLASS_$_PHInternalRootFolder
++ _OBJC_METACLASS_$_PHInternalRootFolder
++ _PHAssetVideoDeferredProcessingNeededDescription
++ _PHCloudIdentifierIsValidForLookup
++ _PHCloudIdentifiersFilteredForLookup
++ _PHErrorIsCorruptImage
++ _PHFileStatusErrorForFailedDecodeAtURL
++ _PHImageRequestOptionsDeliveryModeDescription
++ _PHImageRequestOptionsVersionDescription
++ _PHQueryForAssetCollectionType_Album_block_invoke_108
++ _PHQueryForAssetCollectionType_CollectionShare_block_invoke_120
++ _PHQueryForAssetCollectionType_Conversation_block_invoke_117
++ _PHQueryForAssetCollectionType_ImportSession_block_invoke_116
++ _PHQueryForAssetCollectionType_Memory_block_invoke_112
++ _PHQueryForAssetCollectionType_MomentShare_block_invoke_114
++ _PHQueryForAssetCollectionType_Moment_block_invoke_109
++ _PHQueryForAssetCollectionType_NoFetchType_block_invoke_122
++ _PHQueryForAssetCollectionType_Other_block_invoke_121
++ _PHQueryForAssetCollectionType_PhotosHighlight_block_invoke_113
++ _PHQueryForAssetCollectionType_Project_block_invoke_118
++ _PHQueryForAssetCollectionType_SmartAlbum_block_invoke_110
++ _PHQueryForAssetCollectionType_Suggestion_block_invoke_115
++ _PHQueryForAssetCollectionType_Unknown_block_invoke_111
++ _PHQueryForAssetCollectionType_Utility_block_invoke_119
++ _PHQueryForAssetInAlbumKind_1WaySyncAlbum_block_invoke_40
++ _PHQueryForAssetInAlbumKind_1WaySyncEvent_block_invoke_41
++ _PHQueryForAssetInAlbumKind_1WaySyncFolder_block_invoke_43
++ _PHQueryForAssetInAlbumKind_1WaySyncLibraryAlbum_block_invoke_42
++ _PHQueryForAssetInAlbumKind_1stSpecial_block_invoke_30
++ _PHQueryForAssetInAlbumKind_ActionCamVideoAlbum_block_invoke_98
++ _PHQueryForAssetInAlbumKind_AllAssetsAlbum_block_invoke_45
++ _PHQueryForAssetInAlbumKind_AllHiddenAlbum_block_invoke_57
++ _PHQueryForAssetInAlbumKind_AllImportedAlbum_block_invoke_49
++ _PHQueryForAssetInAlbumKind_AllLibraryDuplicatesAlbum_block_invoke_89
++ _PHQueryForAssetInAlbumKind_AllNonPhotoStreamAssetsAlbum_block_invoke_46
++ _PHQueryForAssetInAlbumKind_AllPhotoStream_block_invoke_47
++ _PHQueryForAssetInAlbumKind_AllPhotosAlbum_block_invoke_75
++ _PHQueryForAssetInAlbumKind_AnimatedAlbum_block_invoke_68
++ _PHQueryForAssetInAlbumKind_BurstsAlbum_block_invoke_60
++ _PHQueryForAssetInAlbumKind_CameraSession_block_invoke_34
++ _PHQueryForAssetInAlbumKind_CapturedByMeAlbum_block_invoke_94
++ _PHQueryForAssetInAlbumKind_CinematicVideoAlbum_block_invoke_90
++ _PHQueryForAssetInAlbumKind_CloudSharedAlbum_block_invoke_35
++ _PHQueryForAssetInAlbumKind_ConversationAlbum_block_invoke_39
++ _PHQueryForAssetInAlbumKind_DepthEffectAlbum_block_invoke_66
++ _PHQueryForAssetInAlbumKind_Duplicate_block_invoke_88
++ _PHQueryForAssetInAlbumKind_Event_block_invoke_28
++ _PHQueryForAssetInAlbumKind_EventsSmartFolder_block_invoke_85
++ _PHQueryForAssetInAlbumKind_EventsStandIn_block_invoke_83
++ _PHQueryForAssetInAlbumKind_FacesSmartFolder_block_invoke_86
++ _PHQueryForAssetInAlbumKind_FacesStandIn_block_invoke_82
++ _PHQueryForAssetInAlbumKind_FavoriteMemoriesSmartFolder_block_invoke_87
++ _PHQueryForAssetInAlbumKind_FavoritesAlbum_block_invoke_55
++ _PHQueryForAssetInAlbumKind_FilesystemImportProgressAlbum_block_invoke_78
++ _PHQueryForAssetInAlbumKind_Folder_block_invoke_81
++ _PHQueryForAssetInAlbumKind_FrontBackAlbum_block_invoke_95
++ _PHQueryForAssetInAlbumKind_HorizontalPanoramasAlbum_block_invoke_54
++ _PHQueryForAssetInAlbumKind_ImportSessionAlbum_block_invoke_36
++ _PHQueryForAssetInAlbumKind_ImportStandIn_block_invoke_84
++ _PHQueryForAssetInAlbumKind_LastImportAlbum_block_invoke_48
++ _PHQueryForAssetInAlbumKind_LegacyFaces_block_invoke_27
++ _PHQueryForAssetInAlbumKind_LivePhotosAlbum_block_invoke_67
++ _PHQueryForAssetInAlbumKind_LongExposuresAlbum_block_invoke_69
++ _PHQueryForAssetInAlbumKind_NotUploadedAlbum_DEPRECATED_block_invoke_71
++ _PHQueryForAssetInAlbumKind_OTARestoreProgressAlbum_block_invoke_77
++ _PHQueryForAssetInAlbumKind_PanoramasAlbum_block_invoke_50
++ _PHQueryForAssetInAlbumKind_PhotoStream_block_invoke_31
++ _PHQueryForAssetInAlbumKind_PictureFrame_block_invoke_33
++ _PHQueryForAssetInAlbumKind_PlacesSmartAlbum_block_invoke_65
++ _PHQueryForAssetInAlbumKind_Places_block_invoke_29
++ _PHQueryForAssetInAlbumKind_ProResAlbum_block_invoke_97
++ _PHQueryForAssetInAlbumKind_ProjectAlbumRootFolder_block_invoke_79
++ _PHQueryForAssetInAlbumKind_Project_block_invoke_38
++ _PHQueryForAssetInAlbumKind_RAWAlbum_block_invoke_91
++ _PHQueryForAssetInAlbumKind_RecentlyAddedAlbum_block_invoke_62
++ _PHQueryForAssetInAlbumKind_RecentlyEditedAlbum_block_invoke_73
++ _PHQueryForAssetInAlbumKind_RecentlySavedAlbum_block_invoke_92
++ _PHQueryForAssetInAlbumKind_RecentsAlbum_DEPRECATED_block_invoke_72
++ _PHQueryForAssetInAlbumKind_RecoveredAlbum_block_invoke_93
++ _PHQueryForAssetInAlbumKind_Regular_block_invoke_26
++ _PHQueryForAssetInAlbumKind_RootFolder_block_invoke_80
++ _PHQueryForAssetInAlbumKind_SavedPhotos_block_invoke_44
++ _PHQueryForAssetInAlbumKind_ScreenRecordingsAlbum_block_invoke_74
++ _PHQueryForAssetInAlbumKind_ScreenshotsAlbum_block_invoke_64
++ _PHQueryForAssetInAlbumKind_SelfPortraitsAlbum_block_invoke_63
++ _PHQueryForAssetInAlbumKind_SharedLibrarySharingSuggestionsAlbum_block_invoke_96
++ _PHQueryForAssetInAlbumKind_SlomoVideosAlbum_block_invoke_61
++ _PHQueryForAssetInAlbumKind_SpatialAlbum_block_invoke_51
++ _PHQueryForAssetInAlbumKind_SyncProgressAlbum_block_invoke_76
++ _PHQueryForAssetInAlbumKind_TimelapsesAlbum_block_invoke_56
++ _PHQueryForAssetInAlbumKind_TrashBinAlbum_block_invoke_58
++ _PHQueryForAssetInAlbumKind_UnableToUploadAlbum_block_invoke_70
++ _PHQueryForAssetInAlbumKind_UserLibraryAlbum_block_invoke_59
++ _PHQueryForAssetInAlbumKind_UserSmartAlbum_block_invoke_37
++ _PHQueryForAssetInAlbumKind_VerticalPanoramasAlbum_block_invoke_53
++ _PHQueryForAssetInAlbumKind_VideosAlbum_block_invoke_52
++ _PHQueryForAssetInAlbumKind_Wallpaper_UNUSED_block_invoke_32
++ _PHQueryForAssetResourceUploadJobsInUploadJobConfiguration_block_invoke_13
++ _PHQueryForAssetsAlbum_SortKeyOther_block_invoke_99
++ _PHQueryForAssetsInAlbum_SortKeyContentTitle_block_invoke_107
++ _PHQueryForAssetsInAlbum_SortKeyCreationDate_block_invoke_101
++ _PHQueryForAssetsInAlbum_SortKeyImportDate_block_invoke_103
++ _PHQueryForAssetsInAlbum_SortKeyLastModifiedDate_block_invoke_102
++ _PHQueryForAssetsInAlbum_SortKeyManual_block_invoke_100
++ _PHQueryForAssetsInAlbum_SortKeyPublishDate_block_invoke_106
++ _PHQueryForAssetsInAlbum_SortKeyTitle_block_invoke_105
++ _PHQueryForAssetsInAlbum_SortKeyTrashDate_block_invoke_104
++ _PHQueryForAssetsInCollectionShare_block_invoke_16
++ _PHQueryForAssetsInConversation_block_invoke_22
++ _PHQueryForAssetsInImportSession_block_invoke_21
++ _PHQueryForAssetsInMemory_block_invoke_17
++ _PHQueryForAssetsInMomentShare_block_invoke_15
++ _PHQueryForAssetsInMoment_block_invoke_14
++ _PHQueryForAssetsInOtherSmartAlbum_block_invoke_24
++ _PHQueryForAssetsInPhotosHighlight_block_invoke_18
++ _PHQueryForAssetsInSearchIndex_block_invoke_25
++ _PHQueryForAssetsInSharedLibrarySuggestion_block_invoke_19
++ _PHQueryForAssetsInSuggestion_block_invoke_20
++ _PHQueryForAssetsInUserSmartAlbum_block_invoke_23
++ _PHQueryForAssetsInUtility_GenericDocument
++ _PHQueryForAssetsInUtility_GenericDocument_block_invoke_132
++ _PHQueryForAssetsInUtility_Handwriting
++ _PHQueryForAssetsInUtility_Handwriting_block_invoke_135
++ _PHQueryForAssetsInUtility_IdentityDocuments
++ _PHQueryForAssetsInUtility_IdentityDocuments_block_invoke_138
++ _PHQueryForAssetsInUtility_Illustrations
++ _PHQueryForAssetsInUtility_Illustrations_block_invoke_134
++ _PHQueryForAssetsInUtility_Maps
++ _PHQueryForAssetsInUtility_Maps_block_invoke_137
++ _PHQueryForAssetsInUtility_Other
++ _PHQueryForAssetsInUtility_Other_block_invoke_139
++ _PHQueryForAssetsInUtility_QRCodes
++ _PHQueryForAssetsInUtility_QRCodes_block_invoke_136
++ _PHQueryForAssetsInUtility_Receipts
++ _PHQueryForAssetsInUtility_Receipts_block_invoke_133
++ _PHQueryForCollectionsInInternalRootFolder
++ _PHQueryForCollectionsInInternalRootFolder_block_invoke_7
++ _PHQueryForCollectionsInUserCollectionRootFolder
++ _PHQueryForCollectionsInUserCollectionRootFolder_block_invoke_6
++ _PHQueryForKeyAssetsInAssetCollection_block_invoke_11
++ _PHQueryForKeyAssetsInCollectionShare_block_invoke_10
++ _PHQueryForKeyAssetsInMomentShare_block_invoke_9
++ _PHQueryForKeyAssetsInSuggestion_block_invoke_8
++ _PHQueryForKeySharingSuggestionAssetsInHighlight_block_invoke_12
++ _PHQueryForTransientAssetCollectionType_Generic
++ _PHQueryForTransientAssetCollectionType_Generic_block_invoke_123
++ _PHQueryForTransientAssetCollectionType_ImportHistory
++ _PHQueryForTransientAssetCollectionType_ImportHistory_block_invoke_124
++ _PHQueryForTransientAssetCollectionType_Other
++ _PHQueryForTransientAssetCollectionType_Other_block_invoke_131
++ _PHQueryForTransientAssetCollectionType_RecentlyEdited
++ _PHQueryForTransientAssetCollectionType_RecentlyEdited_block_invoke_125
++ _PHQueryForTransientAssetCollectionType_RecentlyShared
++ _PHQueryForTransientAssetCollectionType_RecentlyShared_block_invoke_126
++ _PHQueryForTransientAssetCollectionType_RecentlyViewed
++ _PHQueryForTransientAssetCollectionType_RecentlyViewed_block_invoke_127
++ _PHQueryForTransientAssetCollectionType_SavedToday
++ _PHQueryForTransientAssetCollectionType_SavedToday_block_invoke_130
++ _PHQueryForTransientAssetCollectionType_SearchCollectionResults
++ _PHQueryForTransientAssetCollectionType_SearchCollectionResults_block_invoke_129
++ _PHQueryForTransientAssetCollectionType_SearchTopResults
++ _PHQueryForTransientAssetCollectionType_SearchTopResults_block_invoke_128
++ _PLManagedAssetVideoDeferredProcessingNeededDescription
++ _PLResourceRecipeIDIsDeferredFinalization
++ _PLResourceTypeName
++ _PLResourceVersionName
++ __101+[PHResourceLocalAvailabilityRequest indexesForAssetsRequiringResourceRetrieval:requestType:options:]_block_invoke.406
++ __106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke.271
++ __106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke.275
++ __106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke.283
++ __106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke.290
++ __106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke_2.291
++ __109-[PHSearchQueryManager suggestionsForSearchQuery:rangeOfSuggestionText:searchQueryResult:suggestionsHandler:]_block_invoke.137
++ __109-[PHSearchQueryManager suggestionsForSearchQuery:rangeOfSuggestionText:searchQueryResult:suggestionsHandler:]_block_invoke.140
++ __110-[PHResourceLocalAvailabilityRequest _fetchResourcesForDuplicatingAsset:options:networkAccessAllowed:handler:]_block_invoke.298
++ __110-[PHResourceLocalAvailabilityRequest _fetchResourcesForDuplicatingAsset:options:networkAccessAllowed:handler:]_block_invoke.302
++ __117-[PHResourceLocalAvailabilityRequest _simulateFetchResourcesWithDuration:success:networkAccessAllowed:queue:handler:]_block_invoke.304
++ __121-[PHPhotoLibrary _sendChangesRequest:onExecutionContext:withInstrumentation:remainingRetryCount:progressContainer:reply:]_block_invoke.560
++ __123+[PHSearchIntentTranslator searchQuerySuggestionForWhatAndExpandedString:containsIdentificationDocumentIntent:resultTypes:]_block_invoke.70
++ __123+[PHSearchIntentTranslator searchQuerySuggestionForWhatAndExpandedString:containsIdentificationDocumentIntent:resultTypes:]_block_invoke.74
++ __136-[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithSensitiveMetadataRemoved:sourceExternalResources:photoLibrary:error:]_block_invoke.81
++ __136-[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithSensitiveMetadataRemoved:sourceExternalResources:photoLibrary:error:]_block_invoke.85
++ __136-[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithSensitiveMetadataRemoved:sourceExternalResources:photoLibrary:error:]_block_invoke.89
++ __136-[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithSensitiveMetadataRemoved:sourceExternalResources:photoLibrary:error:]_block_invoke.92
++ __136-[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithSensitiveMetadataRemoved:sourceExternalResources:photoLibrary:error:]_block_invoke.95
++ __136-[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithSensitiveMetadataRemoved:sourceExternalResources:photoLibrary:error:]_block_invoke.98
++ __187-[PHAssetCreationRequest duplicatedAssetResourcesFromAsset:creationOptions:flattenLivePhotoIntoStillPhoto:duplicateWithAdjustmentsBakedIn:duplicatePhotoAsData:contentEditingOutput:error:]_block_invoke.795
++ __187-[PHAssetCreationRequest duplicatedAssetResourcesFromAsset:creationOptions:flattenLivePhotoIntoStillPhoto:duplicateWithAdjustmentsBakedIn:duplicatePhotoAsData:contentEditingOutput:error:]_block_invoke.797
++ __188+[PHSearchResultProcessor applyRankingForSystemPhotoLibraryRankedAssetSearchResults:syndicationLibraryRankedAssetSearchResults:syndicationLibraryAllSearchResults:maximumRankedResultCount:]_block_invoke.90
++ __188+[PHSearchResultProcessor applyRankingForSystemPhotoLibraryRankedAssetSearchResults:syndicationLibraryRankedAssetSearchResults:syndicationLibraryAllSearchResults:maximumRankedResultCount:]_block_invoke.94
++ __30-[PHImageRequest startRequest]_block_invoke.92
++ __35-[PHAsset adjustmentsDebugMetadata]_block_invoke.1273
++ __35-[PHAsset canPerformEditOperation:]_block_invoke.1039
++ __35-[PHAsset metadataDebugDescription]_block_invoke.1750
++ __38-[PHAssetResourceRequest startRequest]_block_invoke.68
++ __38-[PHAssetResourceRequest startRequest]_block_invoke.73
++ __43-[PHSearchIntentQueryResult jsonDictionary]_block_invoke.155
++ __44-[PHPhotoLibrary _processCPLStatusDidChange]_block_invoke.521
++ __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke.469
++ __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke.478
++ __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke.485
++ __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_2.479
++ __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_2.486
++ __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_3.480
++ __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_3.487
++ __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_4.481
++ __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_4.488
++ __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_5.483
++ __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_5.489
++ __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_6.491
++ __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_7.492
++ __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_8.497
++ __55-[PHPhotoLibrary _processPendingChangesWithDebugEvent:]_block_invoke.773
++ __55-[PHPhotoLibrary _processPendingChangesWithDebugEvent:]_block_invoke.779
++ __62-[PHImageManager requestStreamForVideo:options:resultHandler:]_block_invoke.746
++ __62-[PHImageManager requestStreamForVideo:options:resultHandler:]_block_invoke.750
++ __63-[PHImageManager requestAVAssetForAsset:options:resultHandler:]_block_invoke.786
++ __63-[PHImageManager requestAVProxyForAsset:options:resultHandler:]_block_invoke.815
++ __66-[PHImageManager requestPlayerItemForVideo:options:resultHandler:]_block_invoke.729
++ __66-[PHImageManager requestPlayerItemForVideo:options:resultHandler:]_block_invoke.734
++ __66-[PHImageManager requestPlayerItemForVideo:options:resultHandler:]_block_invoke.738
++ __66-[PHImageManager requestPlayerItemForVideo:options:resultHandler:]_block_invoke.742
++ __66-[PHImageManager requestPlayerItemForVideo:options:resultHandler:]_block_invoke_2.735
++ __66-[PHImageManager requestPlayerItemForVideo:options:resultHandler:]_block_invoke_3.736
++ __71-[PHSearchQueryManager _performLeoSearch:searchOptions:resultsHandler:]_block_invoke.101
++ __72-[PHSearchQueryManager performBatchSearch:searchOptions:resultsHandler:]_block_invoke.87
++ __72-[PHSearchQueryManager performBatchSearch:searchOptions:resultsHandler:]_block_invoke.94
++ __72-[PHSearchQueryManager performBatchSearch:searchOptions:resultsHandler:]_block_invoke.97
++ __73-[PHPhotoLibrary _resourceBytesUsedForPredicate:minVideoSize:completion:]_block_invoke.822
++ __76-[PHSearchQueryManager suggestionsForSearchText:options:suggestionsHandler:]_block_invoke.145
++ __82-[PHImageManager requestExportSessionForVideo:options:exportPreset:resultHandler:]_block_invoke.725
++ __88-[PHImageManager requestLivePhotoForAsset:targetSize:contentMode:options:resultHandler:]_block_invoke.698
++ __88-[PHImageManager requestLivePhotoForAsset:targetSize:contentMode:options:resultHandler:]_block_invoke.706
++ __88-[PHImageManager requestLivePhotoForAsset:targetSize:contentMode:options:resultHandler:]_block_invoke.713
++ __89-[PHImageManager requestNewCGImageForAsset:targetSize:contentMode:options:resultHandler:]_block_invoke.773
++ __97+[PHSearchQueryManager _performIntentSearch:searchOptions:allowUnattributedQuery:resultsHandler:]_block_invoke.168
++ __97+[PHSearchQueryManager _performIntentSearch:searchOptions:allowUnattributedQuery:resultsHandler:]_block_invoke.169
++ __Block_byref_object_copy_.10371
++ __Block_byref_object_copy_.11141
++ __Block_byref_object_copy_.11902
++ __Block_byref_object_copy_.12183
++ __Block_byref_object_copy_.12400
++ __Block_byref_object_copy_.13244
++ __Block_byref_object_copy_.13498
++ __Block_byref_object_copy_.14001
++ __Block_byref_object_copy_.14511
++ __Block_byref_object_copy_.15475
++ __Block_byref_object_copy_.16358
++ __Block_byref_object_copy_.18373
++ __Block_byref_object_copy_.1928
++ __Block_byref_object_copy_.19532
++ __Block_byref_object_copy_.20976
++ __Block_byref_object_copy_.21248
++ __Block_byref_object_copy_.21563
++ __Block_byref_object_copy_.22147
++ __Block_byref_object_copy_.22981
++ __Block_byref_object_copy_.23193
++ __Block_byref_object_copy_.2496
++ __Block_byref_object_copy_.25078
++ __Block_byref_object_copy_.25975
++ __Block_byref_object_copy_.27813
++ __Block_byref_object_copy_.28271
++ __Block_byref_object_copy_.29154
++ __Block_byref_object_copy_.29452
++ __Block_byref_object_copy_.30176
++ __Block_byref_object_copy_.30992
++ __Block_byref_object_copy_.31541
++ __Block_byref_object_copy_.32123
++ __Block_byref_object_copy_.32886
++ __Block_byref_object_copy_.33202
++ __Block_byref_object_copy_.34675
++ __Block_byref_object_copy_.35264
++ __Block_byref_object_copy_.35835
++ __Block_byref_object_copy_.36534
++ __Block_byref_object_copy_.3683
++ __Block_byref_object_copy_.37114
++ __Block_byref_object_copy_.37392
++ __Block_byref_object_copy_.38429
++ __Block_byref_object_copy_.38996
++ __Block_byref_object_copy_.40772
++ __Block_byref_object_copy_.41368
++ __Block_byref_object_copy_.4253
++ __Block_byref_object_copy_.45402
++ __Block_byref_object_copy_.45834
++ __Block_byref_object_copy_.46054
++ __Block_byref_object_copy_.46285
++ __Block_byref_object_copy_.47553
++ __Block_byref_object_copy_.47740
++ __Block_byref_object_copy_.48165
++ __Block_byref_object_copy_.48650
++ __Block_byref_object_copy_.48959
++ __Block_byref_object_copy_.49206
++ __Block_byref_object_copy_.49395
++ __Block_byref_object_copy_.50263
++ __Block_byref_object_copy_.50908
++ __Block_byref_object_copy_.51572
++ __Block_byref_object_copy_.51773
++ __Block_byref_object_copy_.51989
++ __Block_byref_object_copy_.52028
++ __Block_byref_object_copy_.52538
++ __Block_byref_object_copy_.5279
++ __Block_byref_object_copy_.54412
++ __Block_byref_object_copy_.54718
++ __Block_byref_object_copy_.55459
++ __Block_byref_object_copy_.56644
++ __Block_byref_object_copy_.56851
++ __Block_byref_object_copy_.57515
++ __Block_byref_object_copy_.5932
++ __Block_byref_object_copy_.7061
++ __Block_byref_object_copy_.7531
++ __Block_byref_object_copy_.9090
++ __Block_byref_object_copy_.9461
++ __Block_byref_object_copy_.9756
++ __Block_byref_object_dispose_.10372
++ __Block_byref_object_dispose_.11142
++ __Block_byref_object_dispose_.11903
++ __Block_byref_object_dispose_.12184
++ __Block_byref_object_dispose_.12401
++ __Block_byref_object_dispose_.13245
++ __Block_byref_object_dispose_.13499
++ __Block_byref_object_dispose_.14002
++ __Block_byref_object_dispose_.14512
++ __Block_byref_object_dispose_.15476
++ __Block_byref_object_dispose_.16359
++ __Block_byref_object_dispose_.18374
++ __Block_byref_object_dispose_.1929
++ __Block_byref_object_dispose_.19533
++ __Block_byref_object_dispose_.20977
++ __Block_byref_object_dispose_.21249
++ __Block_byref_object_dispose_.21564
++ __Block_byref_object_dispose_.22148
++ __Block_byref_object_dispose_.22982
++ __Block_byref_object_dispose_.23194
++ __Block_byref_object_dispose_.2497
++ __Block_byref_object_dispose_.25079
++ __Block_byref_object_dispose_.25976
++ __Block_byref_object_dispose_.27814
++ __Block_byref_object_dispose_.28272
++ __Block_byref_object_dispose_.29155
++ __Block_byref_object_dispose_.29453
++ __Block_byref_object_dispose_.30177
++ __Block_byref_object_dispose_.30993
++ __Block_byref_object_dispose_.31542
++ __Block_byref_object_dispose_.32124
++ __Block_byref_object_dispose_.32887
++ __Block_byref_object_dispose_.33203
++ __Block_byref_object_dispose_.34676
++ __Block_byref_object_dispose_.35265
++ __Block_byref_object_dispose_.35836
++ __Block_byref_object_dispose_.36535
++ __Block_byref_object_dispose_.3684
++ __Block_byref_object_dispose_.37115
++ __Block_byref_object_dispose_.37393
++ __Block_byref_object_dispose_.38430
++ __Block_byref_object_dispose_.38997
++ __Block_byref_object_dispose_.40773
++ __Block_byref_object_dispose_.41369
++ __Block_byref_object_dispose_.4254
++ __Block_byref_object_dispose_.45403
++ __Block_byref_object_dispose_.45835
++ __Block_byref_object_dispose_.46055
++ __Block_byref_object_dispose_.46286
++ __Block_byref_object_dispose_.47554
++ __Block_byref_object_dispose_.47741
++ __Block_byref_object_dispose_.48166
++ __Block_byref_object_dispose_.48651
++ __Block_byref_object_dispose_.48960
++ __Block_byref_object_dispose_.49207
++ __Block_byref_object_dispose_.49396
++ __Block_byref_object_dispose_.50264
++ __Block_byref_object_dispose_.50909
++ __Block_byref_object_dispose_.51573
++ __Block_byref_object_dispose_.51774
++ __Block_byref_object_dispose_.51990
++ __Block_byref_object_dispose_.52029
++ __Block_byref_object_dispose_.52539
++ __Block_byref_object_dispose_.5280
++ __Block_byref_object_dispose_.54413
++ __Block_byref_object_dispose_.54719
++ __Block_byref_object_dispose_.55460
++ __Block_byref_object_dispose_.56645
++ __Block_byref_object_dispose_.56852
++ __Block_byref_object_dispose_.57516
++ __Block_byref_object_dispose_.5933
++ __Block_byref_object_dispose_.7062
++ __Block_byref_object_dispose_.7532
++ __Block_byref_object_dispose_.9091
++ __Block_byref_object_dispose_.9462
++ __Block_byref_object_dispose_.9757
++ __CloudKitLibraryCore_block_invoke.40824
++ __OBJC_$_INSTANCE_METHODS_PHInternalRootFolder
++ __OBJC_CLASS_RO_$_PHInternalRootFolder
++ __OBJC_METACLASS_RO_$_PHInternalRootFolder
++ __PHFindRangeEndsAtMeaningfulEnd
++ __SensitiveContentAnalysisLibraryCore_block_invoke.20046
++ __SensitiveContentAnalysisLibraryCore_block_invoke.23184
++ __SensitiveContentAnalysisLibraryCore_block_invoke.38064
++ ___123+[PHSearchIntentTranslator searchQuerySuggestionForWhatAndExpandedString:containsIdentificationDocumentIntent:resultTypes:]_block_invoke
++ ___136-[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithSensitiveMetadataRemoved:sourceExternalResources:photoLibrary:error:]_block_invoke
++ ___144+[PHSearchUtility _photosSearchQueryForSearchIntentsQuery:searchStore:allowUnattributedQuery:queryType:resultTypes:allowExpandedWhatAttributes:]_block_invoke
++ ___188+[PHSearchResultProcessor applyRankingForSystemPhotoLibraryRankedAssetSearchResults:syndicationLibraryRankedAssetSearchResults:syndicationLibraryAllSearchResults:maximumRankedResultCount:]_block_invoke
++ ___34-[PHPhotoLibrary closeWithReason:]_block_invoke
++ ___38-[PHSearchQueryManager cooldownSearch]_block_invoke
++ ___55-[PHPhotoLibrary setDisableSyncMode:completionHandler:]_block_invoke
++ ___72+[PHCollectionShare fetchCollectionSharesWithUnreadActivityWithOptions:]_block_invoke
++ ___73+[PHSharePost fetchPostsFromOthersCreatedAfterSubscriptionSince:options:]_block_invoke
++ ___87-[PHFetchResult initWithQuery:library:oids:registerIfNeeded:usingManagedObjectContext:]_block_invoke
++ ___block_descriptor_113_e8_32s40s48s56s64s72s80s88r_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32l
++ ___block_descriptor_147_e8_32s40s48bs56r64r72r80r88r96r104r112r120r_e5_v8?0l
++ ___block_descriptor_160_e8_32s40s48s56s64s72s80s88r96r104r112r120r128r136r144r_e14_v20?0I8B12f16l
++ ___block_descriptor_40_e57_q24?0"PHFindQueryResultItem"8"PHFindQueryResultItem"16l
++ ___block_descriptor_40_e8_32r_e30_v24?0"NSError"8"NSString"16l
++ ___block_descriptor_40_e8_32s_e62_v44?0^{CGImage=}8^{__CVBuffer=}16I24"NSNumber"28"NSError"36l
++ ___block_descriptor_48_e8_32bs_e30_v24?0"NSString"8"NSError"16l
++ ___block_descriptor_60_e8_32s40s48bs_e62_v44?0^{CGImage=}8^{__CVBuffer=}16I24"NSNumber"28"NSError"36l
++ ___block_descriptor_64_e8_32s40s48s56s_e20_v20?0B8"NSError"12l
++ ___block_descriptor_65_e8_32s40s48bs_e30_v24?0"NSString"8"NSError"16l
++ ___block_descriptor_66_e8_32s40s48s56bs_e44_v32?0"PHSearchQueryResult"8Q16"NSError"24l
++ ___block_descriptor_72_e8_32s40r48r56r64r_e56_v48?0"NSArray"8"NSArray"16"NSArray"24Q32"NSError"40l
++ ___block_descriptor_80_e8_32s40r48r56r64r72r_e56_v48?0"NSArray"8"NSArray"16"NSArray"24Q32"NSError"40l
++ ___copy_helper_block_e8_32s40s48b56r64r72r80r88r96r104r112r120r
++ ___copy_helper_block_e8_32s40s48s56s64s72s80s88r96r104r112r120r128r136r144r
++ ___destroy_helper_block_e8_32s40s48s56r64r72r80r88r96r104r112r120r
++ ___destroy_helper_block_e8_32s40s48s56s64s72s80s88r96r104r112r120r128r136r144r
++ ___fetchNonHintResources_block_invoke.240
++ ___handleKeyUsageFailureDuringChoosing_block_invoke.230
++ ___loadImageFromStoreAndKey_block_invoke.204
++ __block_literal_global.10002
++ __block_literal_global.10475
++ __block_literal_global.1096
++ __block_literal_global.1098
++ __block_literal_global.11281
++ __block_literal_global.1130.38461
++ __block_literal_global.115.57308
++ __block_literal_global.1161
++ __block_literal_global.1163
++ __block_literal_global.1168.38769
++ __block_literal_global.1197
++ __block_literal_global.12004
++ __block_literal_global.12203
++ __block_literal_global.125.12546
++ __block_literal_global.125.50341
++ __block_literal_global.12549
++ __block_literal_global.12703
++ __block_literal_global.1306
++ __block_literal_global.1308
++ __block_literal_global.1310
++ __block_literal_global.1312
++ __block_literal_global.1314
++ __block_literal_global.1316
++ __block_literal_global.1318
++ __block_literal_global.13551
++ __block_literal_global.1357
++ __block_literal_global.1359
++ __block_literal_global.1361
++ __block_literal_global.1363
++ __block_literal_global.1365
++ __block_literal_global.1367
++ __block_literal_global.1369
++ __block_literal_global.137.34071
++ __block_literal_global.1371
++ __block_literal_global.1373
++ __block_literal_global.1375
++ __block_literal_global.1377
++ __block_literal_global.1379
++ __block_literal_global.1381
++ __block_literal_global.1383
++ __block_literal_global.1385
++ __block_literal_global.1387
++ __block_literal_global.1389
++ __block_literal_global.1391
++ __block_literal_global.1393
++ __block_literal_global.1395
++ __block_literal_global.1397
++ __block_literal_global.1399
++ __block_literal_global.1401
++ __block_literal_global.1403
++ __block_literal_global.14327
++ __block_literal_global.14513
++ __block_literal_global.1481
++ __block_literal_global.1489
++ __block_literal_global.1504
++ __block_literal_global.15097
++ __block_literal_global.1514
++ __block_literal_global.1537
++ __block_literal_global.15555
++ __block_literal_global.159
++ __block_literal_global.16338
++ __block_literal_global.169.29776
++ __block_literal_global.180
++ __block_literal_global.181.30651
++ __block_literal_global.181.46064
++ __block_literal_global.18610
++ __block_literal_global.1930
++ __block_literal_global.1947
++ __block_literal_global.19563
++ __block_literal_global.1957
++ __block_literal_global.19615
++ __block_literal_global.20570
++ __block_literal_global.207
++ __block_literal_global.209.29746
++ __block_literal_global.20987
++ __block_literal_global.21538
++ __block_literal_global.222.14899
++ __block_literal_global.224.28783
++ __block_literal_global.224.30662
++ __block_literal_global.22514
++ __block_literal_global.228
++ __block_literal_global.22978
++ __block_literal_global.230.30665
++ __block_literal_global.231.35562
++ __block_literal_global.232
++ __block_literal_global.23619
++ __block_literal_global.244
++ __block_literal_global.246.15438
++ __block_literal_global.24902
++ __block_literal_global.2510
++ __block_literal_global.26352
++ __block_literal_global.27046
++ __block_literal_global.28064
++ __block_literal_global.2851
++ __block_literal_global.28852
++ __block_literal_global.2894
++ __block_literal_global.29130
++ __block_literal_global.2937
++ __block_literal_global.2951
++ __block_literal_global.29779
++ __block_literal_global.3.12208
++ __block_literal_global.300
++ __block_literal_global.30048
++ __block_literal_global.30127
++ __block_literal_global.30179
++ __block_literal_global.3020
++ __block_literal_global.3050
++ __block_literal_global.30649
++ __block_literal_global.31112
++ __block_literal_global.31529
++ __block_literal_global.31631
++ __block_literal_global.31846
++ __block_literal_global.32134
++ __block_literal_global.32565
++ __block_literal_global.3313
++ __block_literal_global.332
++ __block_literal_global.33466
++ __block_literal_global.336
++ __block_literal_global.33613
++ __block_literal_global.3365
++ __block_literal_global.3383
++ __block_literal_global.34
++ __block_literal_global.3404
++ __block_literal_global.34091
++ __block_literal_global.3432
++ __block_literal_global.3449
++ __block_literal_global.3470
++ __block_literal_global.34763
++ __block_literal_global.3488
++ __block_literal_global.3538
++ __block_literal_global.35565
++ __block_literal_global.35849
++ __block_literal_global.3589
++ __block_literal_global.36009
++ __block_literal_global.36178
++ __block_literal_global.36372
++ __block_literal_global.3680
++ __block_literal_global.36854
++ __block_literal_global.3719
++ __block_literal_global.37401
++ __block_literal_global.3758
++ __block_literal_global.3767
++ __block_literal_global.37946
++ __block_literal_global.380
++ __block_literal_global.382
++ __block_literal_global.384
++ __block_literal_global.3850
++ __block_literal_global.38860
++ __block_literal_global.39068
++ __block_literal_global.3910
++ __block_literal_global.39671
++ __block_literal_global.39987
++ __block_literal_global.40.33512
++ __block_literal_global.40.49880
++ __block_literal_global.4067
++ __block_literal_global.40844
++ __block_literal_global.4111
++ __block_literal_global.41112
++ __block_literal_global.41484
++ __block_literal_global.42036
++ __block_literal_global.42285
++ __block_literal_global.4236
++ __block_literal_global.42791
++ __block_literal_global.43098
++ __block_literal_global.44390
++ __block_literal_global.44983
++ __block_literal_global.45.45392
++ __block_literal_global.45406
++ __block_literal_global.4584
++ __block_literal_global.4590
++ __block_literal_global.46110
++ __block_literal_global.46302
++ __block_literal_global.4642
++ __block_literal_global.4673
++ __block_literal_global.46917
++ __block_literal_global.4726
++ __block_literal_global.4743
++ __block_literal_global.4783
++ __block_literal_global.47844
++ __block_literal_global.48194
++ __block_literal_global.4848
++ __block_literal_global.48567
++ __block_literal_global.4891
++ __block_literal_global.4930
++ __block_literal_global.49305
++ __block_literal_global.4947
++ __block_literal_global.4978
++ __block_literal_global.4984
++ __block_literal_global.49887
++ __block_literal_global.4996
++ __block_literal_global.4998
++ __block_literal_global.5032
++ __block_literal_global.50348
++ __block_literal_global.5050
++ __block_literal_global.50505
++ __block_literal_global.5061
++ __block_literal_global.5076
++ __block_literal_global.50806
++ __block_literal_global.5087
++ __block_literal_global.5089
++ __block_literal_global.513
++ __block_literal_global.51537
++ __block_literal_global.516
++ __block_literal_global.5178
++ __block_literal_global.5183
++ __block_literal_global.51991
++ __block_literal_global.52043
++ __block_literal_global.52242
++ __block_literal_global.52391
++ __block_literal_global.52623
++ __block_literal_global.52861
++ __block_literal_global.5291
++ __block_literal_global.5330
++ __block_literal_global.54.20988
++ __block_literal_global.54.49290
++ __block_literal_global.54118
++ __block_literal_global.553
++ __block_literal_global.55553
++ __block_literal_global.56382
++ __block_literal_global.565
++ __block_literal_global.57401
++ __block_literal_global.58235
++ __block_literal_global.6001
++ __block_literal_global.621
++ __block_literal_global.633
++ __block_literal_global.661
++ __block_literal_global.663
++ __block_literal_global.691
++ __block_literal_global.7139
++ __block_literal_global.730
++ __block_literal_global.748
++ __block_literal_global.7543
++ __block_literal_global.762
++ __block_literal_global.764.23577
++ __block_literal_global.82.56362
++ __block_literal_global.8232
++ __block_literal_global.8512
++ __block_literal_global.8685
++ __block_literal_global.88.56358
++ __block_literal_global.880
++ __block_literal_global.900
++ __block_literal_global.9450
++ __block_literal_global.9542
++ __block_literal_global.98.19526
++ __getSCSensitivityAnalysisClass_block_invoke.20044
++ __getSCSensitivityAnalysisClass_block_invoke.23181
++ __getSCSensitivityAnalysisClass_block_invoke.38062
++ _currentTimestampString.s_formatter.49881
++ _currentTimestampString.s_onceToken.49879
++ _fetchTypeForAssetCollectionLocalIdentifierCode.pl_once_object_25
++ _fetchTypeForAssetCollectionLocalIdentifierCode.pl_once_token_25
++ _objc_msgSend$_entitiesForText:searchIntentToken:searchStore:resultTypes:
++ _objc_msgSend$_fetchIdentityDocumentsUsingLeoWithOptions:
++ _objc_msgSend$_fetchResultIdentifier
++ _objc_msgSend$_graphQueryTypeName
++ _objc_msgSend$_photosSearchQueryForSearchIntentsQuery:allowUnattributedQuery:queryType:resultTypes:allowExpandedWhatAttributes:
++ _objc_msgSend$_photosSearchQueryForSearchIntentsQuery:allowUnattributedQuery:queryType:resultTypes:allowExpandedWhatAttributes:photoLibrary:
++ _objc_msgSend$_photosSearchQueryForSearchIntentsQuery:searchStore:allowUnattributedQuery:queryType:resultTypes:allowExpandedWhatAttributes:
++ _objc_msgSend$_photosSearchQueryForWhatAndExpandedString:queryContainsIdentificationDocumentIntent:resultTypes:
++ _objc_msgSend$_rankedCollectionResultsFromSearchResults:maxResults:excludedCollectionTypes:options:
++ _objc_msgSend$_regenerateResourcesWithSensitiveMetadataRemoved:sourceExternalResources:photoLibrary:error:
++ _objc_msgSend$_searchResultsFromResultItems:rankingOptions:excludedCollectionTypes:
++ _objc_msgSend$_setIdentificationBlockIfNotSet:
++ _objc_msgSend$_suggestionForText:searchIntentToken:searchStore:resultTypes:
++ _objc_msgSend$allowedBundleIdentifiers
++ _objc_msgSend$applyRankingForSystemPhotoLibraryRankedAssetSearchResults:syndicationLibraryRankedAssetSearchResults:syndicationLibraryAllSearchResults:maximumRankedResultCount:
++ _objc_msgSend$executeQueryPredicate:withOptions:
++ _objc_msgSend$expirationDateIdentifier
++ _objc_msgSend$formattedTopAssetsDescription
++ _objc_msgSend$identificationBlockForTransientAssetCollectionIdentificationType:
++ _objc_msgSend$identificationBlockForUtilityCollectionType:
++ _objc_msgSend$identificationType
++ _objc_msgSend$includeBuiltInSingletons
++ _objc_msgSend$initWithAVAsset:contentType:options:timeZoneLookup:
++ _objc_msgSend$initWithAVURL:contentType:options:timeZoneLookup:
++ _objc_msgSend$initWithDate:calendar:
++ _objc_msgSend$initWithResultSubtype:uuid:metadataRelevanceScore:embeddingRelevanceScore:matchedThumbnailIdentifier:utilityClassificationPriority:expirationDateIdentifier:dateCreated:isOCRTextMatch:bundleIdentifier:retrievalType:
++ _objc_msgSend$int64Representation
++ _objc_msgSend$isCardQuery
++ _objc_msgSend$isSyncable
++ _objc_msgSend$not
++ _objc_msgSend$operandWithCategories:
++ _objc_msgSend$predicateForCollectionSharesWithUnreadActivity
++ _objc_msgSend$queryForCollectionSharesWithUnreadActivityWithOptions:
++ _objc_msgSend$queryForPostsFromOthersCreatedAfterSubscriptionSince:options:
++ _objc_msgSend$rangeOfCharacterFromSet:options:range:
++ _objc_msgSend$rootFolderIncludesBuiltInSingletons
++ _objc_msgSend$searchQuerySuggestionForWhatAndExpandedString:containsIdentificationDocumentIntent:resultTypes:
++ _objc_msgSend$searchQuerySuggestionFromSearchIntentToken:text:containsIdentificationDocumentIntent:resultTypes:searchStore:
++ _objc_msgSend$setAllowedBundleIdentifiers:
++ _objc_msgSend$setDisableSyncMode:reply:
++ _objc_msgSend$setFallbackIdentificationBlockForTransientAssetCollection
++ _objc_msgSend$setIdentificationBlockOnTransientAssetCollectionOptions:
++ _objc_msgSend$setIncludeBuiltInSingletons:
++ _objc_msgSend$setIsCardQuery:
++ _objc_msgSend$setRating:
++ _objc_msgSend$setSyndicationPhotoLibrary:
++ _objc_msgSend$setSystemPhotoLibrary:
++ _objc_msgSend$statFileAtURL:error:
++ _objc_msgSend$syndicationPhotoLibrary
++ _objc_msgSend$systemPhotoLibrary
++ _objc_msgSend$uuidsForResultItemSubtype:
++ allowedInfoKeys.allowedKeys.19713
++ allowedInfoKeys.allowedKeys.42596
++ allowedInfoKeys.onceToken.19712
++ allowedInfoKeys.onceToken.42595
++ audit_stringCloudKit.40835
++ audit_stringSensitiveContentAnalysis.20055
++ audit_stringSensitiveContentAnalysis.23188
++ audit_stringSensitiveContentAnalysis.38068
++ corePropertiesToFetch.array.23622
++ corePropertiesToFetch.array.29774
++ corePropertiesToFetch.array.35566
++ corePropertiesToFetch.array.52618
++ corePropertiesToFetch.onceToken.23621
++ corePropertiesToFetch.onceToken.29773
++ corePropertiesToFetch.onceToken.35564
++ corePropertiesToFetch.onceToken.52617
++ defaultManager.onceToken.54499
++ entityKeyMap.pl_once_object_2.11985
++ entityKeyMap.pl_once_object_2.12714
++ entityKeyMap.pl_once_object_2.14317
++ entityKeyMap.pl_once_object_2.14632
++ entityKeyMap.pl_once_object_2.28845
++ entityKeyMap.pl_once_object_2.30138
++ entityKeyMap.pl_once_object_2.34082
++ entityKeyMap.pl_once_object_2.37936
++ entityKeyMap.pl_once_object_2.42063
++ entityKeyMap.pl_once_object_2.46325
++ entityKeyMap.pl_once_object_2.48185
++ entityKeyMap.pl_once_object_2.48559
++ entityKeyMap.pl_once_object_2.50502
++ entityKeyMap.pl_once_object_2.5081
++ entityKeyMap.pl_once_object_2.52660
++ entityKeyMap.pl_once_object_2.58247
++ entityKeyMap.pl_once_object_2.8517
++ entityKeyMap.pl_once_object_3.35554
++ entityKeyMap.pl_once_object_3.35996
++ entityKeyMap.pl_once_object_3.42272
++ entityKeyMap.pl_once_object_3.4572
++ entityKeyMap.pl_once_object_3.49296
++ entityKeyMap.pl_once_object_3.56369
++ entityKeyMap.pl_once_token_2.11984
++ entityKeyMap.pl_once_token_2.12713
++ entityKeyMap.pl_once_token_2.14316
++ entityKeyMap.pl_once_token_2.14631
++ entityKeyMap.pl_once_token_2.28844
++ entityKeyMap.pl_once_token_2.30137
++ entityKeyMap.pl_once_token_2.34081
++ entityKeyMap.pl_once_token_2.37935
++ entityKeyMap.pl_once_token_2.42062
++ entityKeyMap.pl_once_token_2.46324
++ entityKeyMap.pl_once_token_2.48184
++ entityKeyMap.pl_once_token_2.48558
++ entityKeyMap.pl_once_token_2.50501
++ entityKeyMap.pl_once_token_2.5080
++ entityKeyMap.pl_once_token_2.52659
++ entityKeyMap.pl_once_token_2.58246
++ entityKeyMap.pl_once_token_2.8516
++ entityKeyMap.pl_once_token_3.35553
++ entityKeyMap.pl_once_token_3.35995
++ entityKeyMap.pl_once_token_3.42271
++ entityKeyMap.pl_once_token_3.4571
++ entityKeyMap.pl_once_token_3.49295
++ entityKeyMap.pl_once_token_3.56368
++ getSCSensitivityAnalysisClass.20042
++ getSCSensitivityAnalysisClass.38055
++ getSCSensitivityAnalysisClass.softClass.20043
++ getSCSensitivityAnalysisClass.softClass.23180
++ getSCSensitivityAnalysisClass.softClass.38061
++ handleUnsupportedAssetCollectionFetchTypeForLocalIdentifier.pl_once_object_38
++ handleUnsupportedAssetCollectionFetchTypeForLocalIdentifier.pl_once_token_38
++ identifierPropertiesToFetch.array.36855
++ identifierPropertiesToFetch.array.52620
++ identifierPropertiesToFetch.onceToken.36853
++ identifierPropertiesToFetch.onceToken.52619
++ propertiesToFetchWithHint:.array.12000
++ propertiesToFetchWithHint:.array.12721
++ propertiesToFetchWithHint:.array.14657
++ propertiesToFetchWithHint:.array.28853
++ propertiesToFetchWithHint:.array.30148
++ propertiesToFetchWithHint:.array.34092
++ propertiesToFetchWithHint:.array.37947
++ propertiesToFetchWithHint:.array.42081
++ propertiesToFetchWithHint:.array.48195
++ propertiesToFetchWithHint:.array.50506
++ propertiesToFetchWithHint:.array.58236
++ propertiesToFetchWithHint:.array.8545
++ propertiesToFetchWithHint:.onceToken.11999
++ propertiesToFetchWithHint:.onceToken.12720
++ propertiesToFetchWithHint:.onceToken.14326
++ propertiesToFetchWithHint:.onceToken.14656
++ propertiesToFetchWithHint:.onceToken.23615
++ propertiesToFetchWithHint:.onceToken.28851
++ propertiesToFetchWithHint:.onceToken.29778
++ propertiesToFetchWithHint:.onceToken.30147
++ propertiesToFetchWithHint:.onceToken.34090
++ propertiesToFetchWithHint:.onceToken.35558
++ propertiesToFetchWithHint:.onceToken.37945
++ propertiesToFetchWithHint:.onceToken.42080
++ propertiesToFetchWithHint:.onceToken.4582
++ propertiesToFetchWithHint:.onceToken.48193
++ propertiesToFetchWithHint:.onceToken.50504
++ propertiesToFetchWithHint:.onceToken.52622
++ propertiesToFetchWithHint:.onceToken.58234
++ propertiesToFetchWithHint:.onceToken.8544
++ propertiesToFetchWithHint:.pl_once_object_2.36010
++ propertiesToFetchWithHint:.pl_once_object_2.42286
++ propertiesToFetchWithHint:.pl_once_object_2.49306
++ propertiesToFetchWithHint:.pl_once_object_2.56383
++ propertiesToFetchWithHint:.pl_once_token_2.36008
++ propertiesToFetchWithHint:.pl_once_token_2.42284
++ propertiesToFetchWithHint:.pl_once_token_2.49304
++ propertiesToFetchWithHint:.pl_once_token_2.56381
++ propertiesToFetchWithHint:.propertiesToFetchByHint.14329
++ propertiesToFetchWithHint:.propertiesToFetchByHint.23617
++ propertiesToFetchWithHint:.propertiesToFetchByHint.29781
++ propertiesToFetchWithHint:.propertiesToFetchByHint.35560
++ propertiesToFetchWithHint:.propertiesToFetchByHint.52625
++ propertiesToFetchWithHint:.propertyQueue.14328
++ propertiesToFetchWithHint:.propertyQueue.23616
++ propertiesToFetchWithHint:.propertyQueue.29780
++ propertiesToFetchWithHint:.propertyQueue.35559
++ propertiesToFetchWithHint:.propertyQueue.52624
++ propertiesToPrefetch.onceToken.23200
++ propertiesToPrefetch.onceToken.29431
++ propertiesToPrefetch.onceToken.35240
++ propertiesToPrefetch.propertiesToPrefetch.23201
++ propertiesToPrefetch.propertiesToPrefetch.29432
++ propertiesToPrefetch.propertiesToPrefetch.35241
++ propertySetAccessorsByPropertySet.accessorByPropertySetName.13987
++ propertySetAccessorsByPropertySet.accessorByPropertySetName.29618
++ propertySetAccessorsByPropertySet.accessorByPropertySetName.35526
++ propertySetAccessorsByPropertySet.onceToken.13986
++ propertySetAccessorsByPropertySet.onceToken.29617
++ propertySetAccessorsByPropertySet.onceToken.35525
++ propertySetClassForPropertySet:.onceToken.13989
++ propertySetClassForPropertySet:.onceToken.29625
++ propertySetClassForPropertySet:.onceToken.35534
++ propertySetClassForPropertySet:.propertySetClassByPropertySetName.13990
++ propertySetClassForPropertySet:.propertySetClassByPropertySetName.29626
++ propertySetClassForPropertySet:.propertySetClassByPropertySetName.35535
++ sQueryId.56737
++ sharedDecoder.s_onceToken.52860
++ sharedDecoder.s_shared.52862
++ transformValueExpression:forKeyPath:._passThroughSet.11960
++ transformValueExpression:forKeyPath:._passThroughSet.12710
++ transformValueExpression:forKeyPath:._passThroughSet.14306
++ transformValueExpression:forKeyPath:._passThroughSet.14617
++ transformValueExpression:forKeyPath:._passThroughSet.23606
++ transformValueExpression:forKeyPath:._passThroughSet.28803
++ transformValueExpression:forKeyPath:._passThroughSet.29762
++ transformValueExpression:forKeyPath:._passThroughSet.30134
++ transformValueExpression:forKeyPath:._passThroughSet.34073
++ transformValueExpression:forKeyPath:._passThroughSet.35542
++ transformValueExpression:forKeyPath:._passThroughSet.37930
++ transformValueExpression:forKeyPath:._passThroughSet.42052
++ transformValueExpression:forKeyPath:._passThroughSet.4561
++ transformValueExpression:forKeyPath:._passThroughSet.46307
++ transformValueExpression:forKeyPath:._passThroughSet.48173
++ transformValueExpression:forKeyPath:._passThroughSet.50499
++ transformValueExpression:forKeyPath:._passThroughSet.52655
++ transformValueExpression:forKeyPath:._passThroughSet.56325
++ transformValueExpression:forKeyPath:._passThroughSet.58241
++ transformValueExpression:forKeyPath:.onceToken.11959
++ transformValueExpression:forKeyPath:.onceToken.12709
++ transformValueExpression:forKeyPath:.onceToken.14305
++ transformValueExpression:forKeyPath:.onceToken.14616
++ transformValueExpression:forKeyPath:.onceToken.23605
++ transformValueExpression:forKeyPath:.onceToken.28802
++ transformValueExpression:forKeyPath:.onceToken.29761
++ transformValueExpression:forKeyPath:.onceToken.30133
++ transformValueExpression:forKeyPath:.onceToken.34072
++ transformValueExpression:forKeyPath:.onceToken.35541
++ transformValueExpression:forKeyPath:.onceToken.37929
++ transformValueExpression:forKeyPath:.onceToken.42051
++ transformValueExpression:forKeyPath:.onceToken.4560
++ transformValueExpression:forKeyPath:.onceToken.46306
++ transformValueExpression:forKeyPath:.onceToken.48172
++ transformValueExpression:forKeyPath:.onceToken.50498
++ transformValueExpression:forKeyPath:.onceToken.52654
++ transformValueExpression:forKeyPath:.onceToken.56324
++ transformValueExpression:forKeyPath:.onceToken.58240
+- +[PHPlaceholderImageHelper placeholderImageDataForImageSize:qualityClass:dataSpecification:]
+- +[PHSearchIntentTranslator _entitiesForText:searchIntentToken:searchStore:]
+- +[PHSearchIntentTranslator _suggestionForText:searchIntentToken:searchStore:]
+- +[PHSearchIntentTranslator searchQuerySuggestionForWhatAndExpandedString:containsIdentificationDocumentIntent:]
+- +[PHSearchIntentTranslator searchQuerySuggestionFromSearchIntentToken:text:containsIdentificationDocumentIntent:searchStore:]
+- +[PHSearchQueryManager(SPI) parseResultForIntentQuery:photoLibrary:queryType:allowUnattributedQuery:allowExpandedWhatAttributes:]
+- +[PHSearchResultProcessor _searchResultsFromResultItems:rankingOptions:]
+- +[PHSearchResultProcessor applyRankingForSystemPhotoLibraryRankedSearchResults:syndicationLibraryRankedSearchResults:syndicationLibraryAllSearchResults:maximumRankedResultCount:]
+- +[PHSearchUtility _photosSearchQueryForSearchIntentsQuery:allowUnattributedQuery:queryType:allowExpandedWhatAttributes:photoLibrary:]
+- +[PHSearchUtility _photosSearchQueryForSearchIntentsQuery:searchStore:allowUnattributedQuery:queryType:allowExpandedWhatAttributes:]
+- +[PHSearchUtility _photosSearchQueryForWhatAndExpandedString:queryContainsIdentificationDocumentIntent:]
+- -[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithLocationDataRemoved:sourceExternalResources:photoLibrary:error:]
+- -[PHFindQueryResultItem initWithResultSubtype:uuid:metadataRelevanceScore:embeddingRelevanceScore:matchedThumbnailIdentifier:utilityClassificationPriority:dateCreated:isOCRTextMatch:bundleIdentifier:retrievalType:]
+- -[PHSearchQueryManager _photosSearchQueryForSearchIntentsQuery:allowUnattributedQuery:queryType:allowExpandedWhatAttributes:]
+- CloudKitLibraryCore.frameworkLibrary.40663
+- GCC_except_table10001
+- GCC_except_table10004
+- GCC_except_table10028
+- GCC_except_table10029
+- GCC_except_table10031
+- GCC_except_table10032
+- GCC_except_table10033
+- GCC_except_table10034
+- GCC_except_table10035
+- GCC_except_table10036
+- GCC_except_table10037
+- GCC_except_table10038
+- GCC_except_table10039
+- GCC_except_table10040
+- GCC_except_table10042
+- GCC_except_table10043
+- GCC_except_table10044
+- GCC_except_table10045
+- GCC_except_table10046
+- GCC_except_table10047
+- GCC_except_table10048
+- GCC_except_table10049
+- GCC_except_table10050
+- GCC_except_table10052
+- GCC_except_table10061
+- GCC_except_table10062
+- GCC_except_table10071
+- GCC_except_table10086
+- GCC_except_table10096
+- GCC_except_table10235
+- GCC_except_table10244
+- GCC_except_table10245
+- GCC_except_table10246
+- GCC_except_table10247
+- GCC_except_table10248
+- GCC_except_table10259
+- GCC_except_table10277
+- GCC_except_table10309
+- GCC_except_table10310
+- GCC_except_table10311
+- GCC_except_table10312
+- GCC_except_table10313
+- GCC_except_table10323
+- GCC_except_table10341
+- GCC_except_table10342
+- GCC_except_table10343
+- GCC_except_table10344
+- GCC_except_table10345
+- GCC_except_table10346
+- GCC_except_table10347
+- GCC_except_table10348
+- GCC_except_table10349
+- GCC_except_table10350
+- GCC_except_table10387
+- GCC_except_table10388
+- GCC_except_table10412
+- GCC_except_table10419
+- GCC_except_table10500
+- GCC_except_table10593
+- GCC_except_table10759
+- GCC_except_table10779
+- GCC_except_table10782
+- GCC_except_table10783
+- GCC_except_table10809
+- GCC_except_table10811
+- GCC_except_table10901
+- GCC_except_table10919
+- GCC_except_table1108
+- GCC_except_table1126
+- GCC_except_table11425
+- GCC_except_table1152
+- GCC_except_table11582
+- GCC_except_table11585
+- GCC_except_table11592
+- GCC_except_table11600
+- GCC_except_table11604
+- GCC_except_table11606
+- GCC_except_table11610
+- GCC_except_table11616
+- GCC_except_table11722
+- GCC_except_table11741
+- GCC_except_table11743
+- GCC_except_table11745
+- GCC_except_table11747
+- GCC_except_table11782
+- GCC_except_table11829
+- GCC_except_table11836
+- GCC_except_table11838
+- GCC_except_table11840
+- GCC_except_table11846
+- GCC_except_table11883
+- GCC_except_table12013
+- GCC_except_table12039
+- GCC_except_table12051
+- GCC_except_table12093
+- GCC_except_table12107
+- GCC_except_table12192
+- GCC_except_table12196
+- GCC_except_table12237
+- GCC_except_table12241
+- GCC_except_table12250
+- GCC_except_table12258
+- GCC_except_table12303
+- GCC_except_table12314
+- GCC_except_table12319
+- GCC_except_table12369
+- GCC_except_table1246
+- GCC_except_table12461
+- GCC_except_table12464
+- GCC_except_table12470
+- GCC_except_table12474
+- GCC_except_table12514
+- GCC_except_table12533
+- GCC_except_table12544
+- GCC_except_table12601
+- GCC_except_table12604
+- GCC_except_table12612
+- GCC_except_table12618
+- GCC_except_table12620
+- GCC_except_table1265
+- GCC_except_table12684
+- GCC_except_table12760
+- GCC_except_table12764
+- GCC_except_table12768
+- GCC_except_table12805
+- GCC_except_table12829
+- GCC_except_table12836
+- GCC_except_table12965
+- GCC_except_table12977
+- GCC_except_table13070
+- GCC_except_table13137
+- GCC_except_table13340
+- GCC_except_table13418
+- GCC_except_table13460
+- GCC_except_table13509
+- GCC_except_table13519
+- GCC_except_table13539
+- GCC_except_table13554
+- GCC_except_table13583
+- GCC_except_table13596
+- GCC_except_table13598
+- GCC_except_table13619
+- GCC_except_table13761
+- GCC_except_table13772
+- GCC_except_table13795
+- GCC_except_table13801
+- GCC_except_table13817
+- GCC_except_table13887
+- GCC_except_table13889
+- GCC_except_table13934
+- GCC_except_table13936
+- GCC_except_table13959
+- GCC_except_table13962
+- GCC_except_table14112
+- GCC_except_table1413
+- GCC_except_table1432
+- GCC_except_table1458
+- GCC_except_table1500
+- GCC_except_table1575
+- GCC_except_table1675
+- GCC_except_table1776
+- GCC_except_table1780
+- GCC_except_table1806
+- GCC_except_table1811
+- GCC_except_table1815
+- GCC_except_table1825
+- GCC_except_table2012
+- GCC_except_table2016
+- GCC_except_table2029
+- GCC_except_table2036
+- GCC_except_table2052
+- GCC_except_table2084
+- GCC_except_table2117
+- GCC_except_table2128
+- GCC_except_table2133
+- GCC_except_table2165
+- GCC_except_table2170
+- GCC_except_table2173
+- GCC_except_table2277
+- GCC_except_table2282
+- GCC_except_table2292
+- GCC_except_table2304
+- GCC_except_table2344
+- GCC_except_table2526
+- GCC_except_table2556
+- GCC_except_table2573
+- GCC_except_table2592
+- GCC_except_table2602
+- GCC_except_table2639
+- GCC_except_table2644
+- GCC_except_table2706
+- GCC_except_table2811
+- GCC_except_table2822
+- GCC_except_table2824
+- GCC_except_table2830
+- GCC_except_table2838
+- GCC_except_table2870
+- GCC_except_table2949
+- GCC_except_table2955
+- GCC_except_table2960
+- GCC_except_table2973
+- GCC_except_table2986
+- GCC_except_table2988
+- GCC_except_table2995
+- GCC_except_table3126
+- GCC_except_table3130
+- GCC_except_table3200
+- GCC_except_table3208
+- GCC_except_table3243
+- GCC_except_table3247
+- GCC_except_table3252
+- GCC_except_table3374
+- GCC_except_table3407
+- GCC_except_table3413
+- GCC_except_table3416
+- GCC_except_table3426
+- GCC_except_table3430
+- GCC_except_table3441
+- GCC_except_table3444
+- GCC_except_table3453
+- GCC_except_table3457
+- GCC_except_table3471
+- GCC_except_table3478
+- GCC_except_table3489
+- GCC_except_table3490
+- GCC_except_table3506
+- GCC_except_table3515
+- GCC_except_table3612
+- GCC_except_table3619
+- GCC_except_table3640
+- GCC_except_table3642
+- GCC_except_table3644
+- GCC_except_table3691
+- GCC_except_table3718
+- GCC_except_table3749
+- GCC_except_table3751
+- GCC_except_table3769
+- GCC_except_table3771
+- GCC_except_table3933
+- GCC_except_table3967
+- GCC_except_table3975
+- GCC_except_table3977
+- GCC_except_table3992
+- GCC_except_table3995
+- GCC_except_table4030
+- GCC_except_table4036
+- GCC_except_table4290
+- GCC_except_table4296
+- GCC_except_table4327
+- GCC_except_table4348
+- GCC_except_table4351
+- GCC_except_table4357
+- GCC_except_table4373
+- GCC_except_table4377
+- GCC_except_table438
+- GCC_except_table4395
+- GCC_except_table442
+- GCC_except_table4461
+- GCC_except_table455
+- GCC_except_table462
+- GCC_except_table467
+- GCC_except_table470
+- GCC_except_table4784
+- GCC_except_table4794
+- GCC_except_table481
+- GCC_except_table4854
+- GCC_except_table4858
+- GCC_except_table4860
+- GCC_except_table4863
+- GCC_except_table490
+- GCC_except_table492
+- GCC_except_table4933
+- GCC_except_table4938
+- GCC_except_table4971
+- GCC_except_table500
+- GCC_except_table502
+- GCC_except_table5101
+- GCC_except_table5449
+- GCC_except_table5480
+- GCC_except_table5526
+- GCC_except_table5552
+- GCC_except_table5585
+- GCC_except_table5590
+- GCC_except_table5614
+- GCC_except_table5618
+- GCC_except_table5622
+- GCC_except_table5644
+- GCC_except_table5650
+- GCC_except_table5654
+- GCC_except_table5668
+- GCC_except_table5671
+- GCC_except_table5674
+- GCC_except_table5697
+- GCC_except_table5736
+- GCC_except_table575
+- GCC_except_table5757
+- GCC_except_table5768
+- GCC_except_table5807
+- GCC_except_table5819
+- GCC_except_table5852
+- GCC_except_table5855
+- GCC_except_table5861
+- GCC_except_table5877
+- GCC_except_table5902
+- GCC_except_table5931
+- GCC_except_table5957
+- GCC_except_table5959
+- GCC_except_table5971
+- GCC_except_table6040
+- GCC_except_table611
+- GCC_except_table6117
+- GCC_except_table6122
+- GCC_except_table6285
+- GCC_except_table6290
+- GCC_except_table6303
+- GCC_except_table6327
+- GCC_except_table633
+- GCC_except_table6341
+- GCC_except_table635
+- GCC_except_table6378
+- GCC_except_table639
+- GCC_except_table6415
+- GCC_except_table6417
+- GCC_except_table642
+- GCC_except_table6816
+- GCC_except_table6836
+- GCC_except_table684
+- GCC_except_table6849
+- GCC_except_table6862
+- GCC_except_table687
+- GCC_except_table6881
+- GCC_except_table6911
+- GCC_except_table6914
+- GCC_except_table6916
+- GCC_except_table6918
+- GCC_except_table6920
+- GCC_except_table6929
+- GCC_except_table693
+- GCC_except_table6976
+- GCC_except_table6990
+- GCC_except_table7026
+- GCC_except_table7028
+- GCC_except_table7067
+- GCC_except_table7319
+- GCC_except_table7323
+- GCC_except_table7324
+- GCC_except_table7330
+- GCC_except_table7352
+- GCC_except_table7359
+- GCC_except_table7377
+- GCC_except_table7381
+- GCC_except_table7382
+- GCC_except_table7383
+- GCC_except_table7384
+- GCC_except_table7385
+- GCC_except_table7386
+- GCC_except_table7554
+- GCC_except_table771
+- GCC_except_table7774
+- GCC_except_table7819
+- GCC_except_table782
+- GCC_except_table7837
+- GCC_except_table7838
+- GCC_except_table7897
+- GCC_except_table7922
+- GCC_except_table7926
+- GCC_except_table7933
+- GCC_except_table7987
+- GCC_except_table8189
+- GCC_except_table8191
+- GCC_except_table8238
+- GCC_except_table8278
+- GCC_except_table8282
+- GCC_except_table8284
+- GCC_except_table8286
+- GCC_except_table8298
+- GCC_except_table8303
+- GCC_except_table8343
+- GCC_except_table8371
+- GCC_except_table8413
+- GCC_except_table8494
+- GCC_except_table8552
+- GCC_except_table8573
+- GCC_except_table8576
+- GCC_except_table8595
+- GCC_except_table8654
+- GCC_except_table8660
+- GCC_except_table8666
+- GCC_except_table8667
+- GCC_except_table8668
+- GCC_except_table8669
+- GCC_except_table8670
+- GCC_except_table8672
+- GCC_except_table8674
+- GCC_except_table8678
+- GCC_except_table8692
+- GCC_except_table8711
+- GCC_except_table8756
+- GCC_except_table876
+- GCC_except_table8821
+- GCC_except_table8978
+- GCC_except_table9019
+- GCC_except_table9025
+- GCC_except_table9028
+- GCC_except_table9288
+- GCC_except_table929
+- GCC_except_table9292
+- GCC_except_table9296
+- GCC_except_table9320
+- GCC_except_table9321
+- GCC_except_table9418
+- GCC_except_table9428
+- GCC_except_table9461
+- GCC_except_table9513
+- GCC_except_table955
+- GCC_except_table9558
+- GCC_except_table9578
+- GCC_except_table959
+- GCC_except_table9606
+- GCC_except_table9634
+- GCC_except_table9667
+- GCC_except_table9669
+- GCC_except_table970
+- GCC_except_table972
+- GCC_except_table9760
+- GCC_except_table9851
+- GCC_except_table9979
+- GCC_except_table9993
+- GCC_except_table9994
+- SensitiveContentAnalysisLibraryCore.frameworkLibrary.19958
+- SensitiveContentAnalysisLibraryCore.frameworkLibrary.23156
+- SensitiveContentAnalysisLibraryCore.frameworkLibrary.37978
+- _OBJC_$_CLASS_PROP_LIST_PHAssetPropertySet.2803
+- _OBJC_$_PROP_LIST_PHAssetPropertySet.2810
+- _OBJC_$_PROP_LIST_PHAssetResourceRequest.289
+- _OBJC_CLASS_$_PHPlaceholderImageHelper
+- _OBJC_CLASS_$_PLPlaceholderThumbnailManager
+- _OBJC_METACLASS_$_PHPlaceholderImageHelper
+- _PHQueryForAssetCollectionType_Album_block_invoke_106
+- _PHQueryForAssetCollectionType_CollectionShare_block_invoke_118
+- _PHQueryForAssetCollectionType_Conversation_block_invoke_115
+- _PHQueryForAssetCollectionType_ImportSession_block_invoke_114
+- _PHQueryForAssetCollectionType_Memory_block_invoke_110
+- _PHQueryForAssetCollectionType_MomentShare_block_invoke_112
+- _PHQueryForAssetCollectionType_Moment_block_invoke_107
+- _PHQueryForAssetCollectionType_NoFetchType_block_invoke_120
+- _PHQueryForAssetCollectionType_Other_block_invoke_119
+- _PHQueryForAssetCollectionType_PhotosHighlight_block_invoke_111
+- _PHQueryForAssetCollectionType_Project_block_invoke_116
+- _PHQueryForAssetCollectionType_SmartAlbum_block_invoke_108
+- _PHQueryForAssetCollectionType_Suggestion_block_invoke_113
+- _PHQueryForAssetCollectionType_Unknown_block_invoke_109
+- _PHQueryForAssetCollectionType_Utility_block_invoke_117
+- _PHQueryForAssetInAlbumKind_1WaySyncAlbum_block_invoke_38
+- _PHQueryForAssetInAlbumKind_1WaySyncEvent_block_invoke_39
+- _PHQueryForAssetInAlbumKind_1WaySyncFolder_block_invoke_41
+- _PHQueryForAssetInAlbumKind_1WaySyncLibraryAlbum_block_invoke_40
+- _PHQueryForAssetInAlbumKind_1stSpecial_block_invoke_28
+- _PHQueryForAssetInAlbumKind_ActionCamVideoAlbum_block_invoke_96
+- _PHQueryForAssetInAlbumKind_AllAssetsAlbum_block_invoke_43
+- _PHQueryForAssetInAlbumKind_AllHiddenAlbum_block_invoke_55
+- _PHQueryForAssetInAlbumKind_AllImportedAlbum_block_invoke_47
+- _PHQueryForAssetInAlbumKind_AllLibraryDuplicatesAlbum_block_invoke_87
+- _PHQueryForAssetInAlbumKind_AllNonPhotoStreamAssetsAlbum_block_invoke_44
+- _PHQueryForAssetInAlbumKind_AllPhotoStream_block_invoke_45
+- _PHQueryForAssetInAlbumKind_AllPhotosAlbum_block_invoke_73
+- _PHQueryForAssetInAlbumKind_AnimatedAlbum_block_invoke_66
+- _PHQueryForAssetInAlbumKind_BurstsAlbum_block_invoke_58
+- _PHQueryForAssetInAlbumKind_CameraSession_block_invoke_32
+- _PHQueryForAssetInAlbumKind_CapturedByMeAlbum_block_invoke_92
+- _PHQueryForAssetInAlbumKind_CinematicVideoAlbum_block_invoke_88
+- _PHQueryForAssetInAlbumKind_CloudSharedAlbum_block_invoke_33
+- _PHQueryForAssetInAlbumKind_ConversationAlbum_block_invoke_37
+- _PHQueryForAssetInAlbumKind_DepthEffectAlbum_block_invoke_64
+- _PHQueryForAssetInAlbumKind_Duplicate_block_invoke_86
+- _PHQueryForAssetInAlbumKind_Event_block_invoke_26
+- _PHQueryForAssetInAlbumKind_EventsSmartFolder_block_invoke_83
+- _PHQueryForAssetInAlbumKind_EventsStandIn_block_invoke_81
+- _PHQueryForAssetInAlbumKind_FacesSmartFolder_block_invoke_84
+- _PHQueryForAssetInAlbumKind_FacesStandIn_block_invoke_80
+- _PHQueryForAssetInAlbumKind_FavoriteMemoriesSmartFolder_block_invoke_85
+- _PHQueryForAssetInAlbumKind_FavoritesAlbum_block_invoke_53
+- _PHQueryForAssetInAlbumKind_FilesystemImportProgressAlbum_block_invoke_76
+- _PHQueryForAssetInAlbumKind_Folder_block_invoke_79
+- _PHQueryForAssetInAlbumKind_FrontBackAlbum_block_invoke_93
+- _PHQueryForAssetInAlbumKind_HorizontalPanoramasAlbum_block_invoke_52
+- _PHQueryForAssetInAlbumKind_ImportSessionAlbum_block_invoke_34
+- _PHQueryForAssetInAlbumKind_ImportStandIn_block_invoke_82
+- _PHQueryForAssetInAlbumKind_LastImportAlbum_block_invoke_46
+- _PHQueryForAssetInAlbumKind_LegacyFaces_block_invoke_25
+- _PHQueryForAssetInAlbumKind_LivePhotosAlbum_block_invoke_65
+- _PHQueryForAssetInAlbumKind_LongExposuresAlbum_block_invoke_67
+- _PHQueryForAssetInAlbumKind_NotUploadedAlbum_DEPRECATED_block_invoke_69
+- _PHQueryForAssetInAlbumKind_OTARestoreProgressAlbum_block_invoke_75
+- _PHQueryForAssetInAlbumKind_PanoramasAlbum_block_invoke_48
+- _PHQueryForAssetInAlbumKind_PhotoStream_block_invoke_29
+- _PHQueryForAssetInAlbumKind_PictureFrame_block_invoke_31
+- _PHQueryForAssetInAlbumKind_PlacesSmartAlbum_block_invoke_63
+- _PHQueryForAssetInAlbumKind_Places_block_invoke_27
+- _PHQueryForAssetInAlbumKind_ProResAlbum_block_invoke_95
+- _PHQueryForAssetInAlbumKind_ProjectAlbumRootFolder_block_invoke_77
+- _PHQueryForAssetInAlbumKind_Project_block_invoke_36
+- _PHQueryForAssetInAlbumKind_RAWAlbum_block_invoke_89
+- _PHQueryForAssetInAlbumKind_RecentlyAddedAlbum_block_invoke_60
+- _PHQueryForAssetInAlbumKind_RecentlyEditedAlbum_block_invoke_71
+- _PHQueryForAssetInAlbumKind_RecentlySavedAlbum_block_invoke_90
+- _PHQueryForAssetInAlbumKind_RecentsAlbum_DEPRECATED_block_invoke_70
+- _PHQueryForAssetInAlbumKind_RecoveredAlbum_block_invoke_91
+- _PHQueryForAssetInAlbumKind_Regular_block_invoke_24
+- _PHQueryForAssetInAlbumKind_RootFolder_block_invoke_78
+- _PHQueryForAssetInAlbumKind_SavedPhotos_block_invoke_42
+- _PHQueryForAssetInAlbumKind_ScreenRecordingsAlbum_block_invoke_72
+- _PHQueryForAssetInAlbumKind_ScreenshotsAlbum_block_invoke_62
+- _PHQueryForAssetInAlbumKind_SelfPortraitsAlbum_block_invoke_61
+- _PHQueryForAssetInAlbumKind_SharedLibrarySharingSuggestionsAlbum_block_invoke_94
+- _PHQueryForAssetInAlbumKind_SlomoVideosAlbum_block_invoke_59
+- _PHQueryForAssetInAlbumKind_SpatialAlbum_block_invoke_49
+- _PHQueryForAssetInAlbumKind_SyncProgressAlbum_block_invoke_74
+- _PHQueryForAssetInAlbumKind_TimelapsesAlbum_block_invoke_54
+- _PHQueryForAssetInAlbumKind_TrashBinAlbum_block_invoke_56
+- _PHQueryForAssetInAlbumKind_UnableToUploadAlbum_block_invoke_68
+- _PHQueryForAssetInAlbumKind_UserLibraryAlbum_block_invoke_57
+- _PHQueryForAssetInAlbumKind_UserSmartAlbum_block_invoke_35
+- _PHQueryForAssetInAlbumKind_VerticalPanoramasAlbum_block_invoke_51
+- _PHQueryForAssetInAlbumKind_VideosAlbum_block_invoke_50
+- _PHQueryForAssetInAlbumKind_Wallpaper_UNUSED_block_invoke_30
+- _PHQueryForAssetResourceUploadJobsInUploadJobConfiguration_block_invoke_11
+- _PHQueryForAssetsAlbum_SortKeyOther_block_invoke_97
+- _PHQueryForAssetsInAlbum_SortKeyContentTitle_block_invoke_105
+- _PHQueryForAssetsInAlbum_SortKeyCreationDate_block_invoke_99
+- _PHQueryForAssetsInAlbum_SortKeyImportDate_block_invoke_101
+- _PHQueryForAssetsInAlbum_SortKeyLastModifiedDate_block_invoke_100
+- _PHQueryForAssetsInAlbum_SortKeyManual_block_invoke_98
+- _PHQueryForAssetsInAlbum_SortKeyPublishDate_block_invoke_104
+- _PHQueryForAssetsInAlbum_SortKeyTitle_block_invoke_103
+- _PHQueryForAssetsInAlbum_SortKeyTrashDate_block_invoke_102
+- _PHQueryForAssetsInCollectionShare_block_invoke_14
+- _PHQueryForAssetsInConversation_block_invoke_20
+- _PHQueryForAssetsInImportSession_block_invoke_19
+- _PHQueryForAssetsInMemory_block_invoke_15
+- _PHQueryForAssetsInMomentShare_block_invoke_13
+- _PHQueryForAssetsInMoment_block_invoke_12
+- _PHQueryForAssetsInOtherSmartAlbum_block_invoke_22
+- _PHQueryForAssetsInPhotosHighlight_block_invoke_16
+- _PHQueryForAssetsInSearchIndex_block_invoke_23
+- _PHQueryForAssetsInSharedLibrarySuggestion_block_invoke_17
+- _PHQueryForAssetsInSuggestion_block_invoke_18
+- _PHQueryForAssetsInUserSmartAlbum_block_invoke_21
+- _PHQueryForKeyAssetsInAssetCollection_block_invoke_9
+- _PHQueryForKeyAssetsInCollectionShare_block_invoke_8
+- _PHQueryForKeyAssetsInMomentShare_block_invoke_7
+- _PHQueryForKeyAssetsInSuggestion_block_invoke_6
+- _PHQueryForKeySharingSuggestionAssetsInHighlight_block_invoke_10
+- __101+[PHResourceLocalAvailabilityRequest indexesForAssetsRequiringResourceRetrieval:requestType:options:]_block_invoke.405
+- __106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke.270
+- __106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke.274
+- __106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke.282
+- __106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke.289
+- __106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke_2.290
+- __109-[PHSearchQueryManager suggestionsForSearchQuery:rangeOfSuggestionText:searchQueryResult:suggestionsHandler:]_block_invoke.136
+- __109-[PHSearchQueryManager suggestionsForSearchQuery:rangeOfSuggestionText:searchQueryResult:suggestionsHandler:]_block_invoke.139
+- __110-[PHResourceLocalAvailabilityRequest _fetchResourcesForDuplicatingAsset:options:networkAccessAllowed:handler:]_block_invoke.297
+- __110-[PHResourceLocalAvailabilityRequest _fetchResourcesForDuplicatingAsset:options:networkAccessAllowed:handler:]_block_invoke.300
+- __111+[PHSearchIntentTranslator searchQuerySuggestionForWhatAndExpandedString:containsIdentificationDocumentIntent:]_block_invoke.70
+- __111+[PHSearchIntentTranslator searchQuerySuggestionForWhatAndExpandedString:containsIdentificationDocumentIntent:]_block_invoke.74
+- __117-[PHResourceLocalAvailabilityRequest _simulateFetchResourcesWithDuration:success:networkAccessAllowed:queue:handler:]_block_invoke.303
+- __121-[PHPhotoLibrary _sendChangesRequest:onExecutionContext:withInstrumentation:remainingRetryCount:progressContainer:reply:]_block_invoke.557
+- __131-[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithLocationDataRemoved:sourceExternalResources:photoLibrary:error:]_block_invoke.81
+- __131-[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithLocationDataRemoved:sourceExternalResources:photoLibrary:error:]_block_invoke.85
+- __131-[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithLocationDataRemoved:sourceExternalResources:photoLibrary:error:]_block_invoke.89
+- __131-[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithLocationDataRemoved:sourceExternalResources:photoLibrary:error:]_block_invoke.92
+- __131-[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithLocationDataRemoved:sourceExternalResources:photoLibrary:error:]_block_invoke.95
+- __131-[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithLocationDataRemoved:sourceExternalResources:photoLibrary:error:]_block_invoke.98
+- __178+[PHSearchResultProcessor applyRankingForSystemPhotoLibraryRankedSearchResults:syndicationLibraryRankedSearchResults:syndicationLibraryAllSearchResults:maximumRankedResultCount:]_block_invoke.90
+- __178+[PHSearchResultProcessor applyRankingForSystemPhotoLibraryRankedSearchResults:syndicationLibraryRankedSearchResults:syndicationLibraryAllSearchResults:maximumRankedResultCount:]_block_invoke.94
+- __187-[PHAssetCreationRequest duplicatedAssetResourcesFromAsset:creationOptions:flattenLivePhotoIntoStillPhoto:duplicateWithAdjustmentsBakedIn:duplicatePhotoAsData:contentEditingOutput:error:]_block_invoke.798
+- __187-[PHAssetCreationRequest duplicatedAssetResourcesFromAsset:creationOptions:flattenLivePhotoIntoStillPhoto:duplicateWithAdjustmentsBakedIn:duplicatePhotoAsData:contentEditingOutput:error:]_block_invoke.800
+- __30-[PHImageRequest startRequest]_block_invoke.89
+- __35-[PHAsset adjustmentsDebugMetadata]_block_invoke.1272
+- __35-[PHAsset metadataDebugDescription]_block_invoke.1749
+- __38-[PHAssetResourceRequest startRequest]_block_invoke.46
+- __38-[PHAssetResourceRequest startRequest]_block_invoke.51
+- __43-[PHSearchIntentQueryResult jsonDictionary]_block_invoke.144
+- __44-[PHPhotoLibrary _processCPLStatusDidChange]_block_invoke.520
+- __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke.468
+- __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke.477
+- __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke.484
+- __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_2.478
+- __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_2.485
+- __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_3.479
+- __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_3.486
+- __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_4.480
+- __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_4.487
+- __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_5.482
+- __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_5.488
+- __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_6.490
+- __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_7.491
+- __50-[PHPhotoLibrary initWithPhotoLibraryBundle:type:]_block_invoke_8.496
+- __55-[PHPhotoLibrary _processPendingChangesWithDebugEvent:]_block_invoke.770
+- __55-[PHPhotoLibrary _processPendingChangesWithDebugEvent:]_block_invoke.776
+- __62-[PHImageManager requestStreamForVideo:options:resultHandler:]_block_invoke.728
+- __62-[PHImageManager requestStreamForVideo:options:resultHandler:]_block_invoke.732
+- __63-[PHImageManager requestAVAssetForAsset:options:resultHandler:]_block_invoke.768
+- __63-[PHImageManager requestAVProxyForAsset:options:resultHandler:]_block_invoke.797
+- __66-[PHImageManager requestPlayerItemForVideo:options:resultHandler:]_block_invoke.711
+- __66-[PHImageManager requestPlayerItemForVideo:options:resultHandler:]_block_invoke.716
+- __66-[PHImageManager requestPlayerItemForVideo:options:resultHandler:]_block_invoke.720
+- __66-[PHImageManager requestPlayerItemForVideo:options:resultHandler:]_block_invoke.724
+- __66-[PHImageManager requestPlayerItemForVideo:options:resultHandler:]_block_invoke_2.717
+- __66-[PHImageManager requestPlayerItemForVideo:options:resultHandler:]_block_invoke_3.718
+- __71-[PHSearchQueryManager _performLeoSearch:searchOptions:resultsHandler:]_block_invoke.100
+- __72-[PHSearchQueryManager performBatchSearch:searchOptions:resultsHandler:]_block_invoke.85
+- __72-[PHSearchQueryManager performBatchSearch:searchOptions:resultsHandler:]_block_invoke.91
+- __72-[PHSearchQueryManager performBatchSearch:searchOptions:resultsHandler:]_block_invoke.96
+- __73-[PHPhotoLibrary _resourceBytesUsedForPredicate:minVideoSize:completion:]_block_invoke.819
+- __76-[PHSearchQueryManager suggestionsForSearchText:options:suggestionsHandler:]_block_invoke.144
+- __82-[PHImageManager requestExportSessionForVideo:options:exportPreset:resultHandler:]_block_invoke.707
+- __88-[PHImageManager requestLivePhotoForAsset:targetSize:contentMode:options:resultHandler:]_block_invoke.674
+- __88-[PHImageManager requestLivePhotoForAsset:targetSize:contentMode:options:resultHandler:]_block_invoke.682
+- __88-[PHImageManager requestLivePhotoForAsset:targetSize:contentMode:options:resultHandler:]_block_invoke.689
+- __89-[PHImageManager requestNewCGImageForAsset:targetSize:contentMode:options:resultHandler:]_block_invoke.755
+- __97+[PHSearchQueryManager _performIntentSearch:searchOptions:allowUnattributedQuery:resultsHandler:]_block_invoke.164
+- __Block_byref_object_copy_.10346
+- __Block_byref_object_copy_.11111
+- __Block_byref_object_copy_.11868
+- __Block_byref_object_copy_.12151
+- __Block_byref_object_copy_.12368
+- __Block_byref_object_copy_.13203
+- __Block_byref_object_copy_.13458
+- __Block_byref_object_copy_.13975
+- __Block_byref_object_copy_.14420
+- __Block_byref_object_copy_.15392
+- __Block_byref_object_copy_.16276
+- __Block_byref_object_copy_.18286
+- __Block_byref_object_copy_.1927
+- __Block_byref_object_copy_.19441
+- __Block_byref_object_copy_.20910
+- __Block_byref_object_copy_.21183
+- __Block_byref_object_copy_.21498
+- __Block_byref_object_copy_.22090
+- __Block_byref_object_copy_.22955
+- __Block_byref_object_copy_.23163
+- __Block_byref_object_copy_.2494
+- __Block_byref_object_copy_.25055
+- __Block_byref_object_copy_.25957
+- __Block_byref_object_copy_.27797
+- __Block_byref_object_copy_.28254
+- __Block_byref_object_copy_.29133
+- __Block_byref_object_copy_.29433
+- __Block_byref_object_copy_.30156
+- __Block_byref_object_copy_.30942
+- __Block_byref_object_copy_.31483
+- __Block_byref_object_copy_.32060
+- __Block_byref_object_copy_.32823
+- __Block_byref_object_copy_.33139
+- __Block_byref_object_copy_.34596
+- __Block_byref_object_copy_.35183
+- __Block_byref_object_copy_.35755
+- __Block_byref_object_copy_.36453
+- __Block_byref_object_copy_.3694
+- __Block_byref_object_copy_.37032
+- __Block_byref_object_copy_.37310
+- __Block_byref_object_copy_.38318
+- __Block_byref_object_copy_.38843
+- __Block_byref_object_copy_.40612
+- __Block_byref_object_copy_.41209
+- __Block_byref_object_copy_.4261
+- __Block_byref_object_copy_.45229
+- __Block_byref_object_copy_.45661
+- __Block_byref_object_copy_.45876
+- __Block_byref_object_copy_.46104
+- __Block_byref_object_copy_.47362
+- __Block_byref_object_copy_.47550
+- __Block_byref_object_copy_.47974
+- __Block_byref_object_copy_.48459
+- __Block_byref_object_copy_.48768
+- __Block_byref_object_copy_.49024
+- __Block_byref_object_copy_.49212
+- __Block_byref_object_copy_.50077
+- __Block_byref_object_copy_.50722
+- __Block_byref_object_copy_.51381
+- __Block_byref_object_copy_.51582
+- __Block_byref_object_copy_.51798
+- __Block_byref_object_copy_.51837
+- __Block_byref_object_copy_.52366
+- __Block_byref_object_copy_.5283
+- __Block_byref_object_copy_.54224
+- __Block_byref_object_copy_.54530
+- __Block_byref_object_copy_.55272
+- __Block_byref_object_copy_.56418
+- __Block_byref_object_copy_.56624
+- __Block_byref_object_copy_.57284
+- __Block_byref_object_copy_.5930
+- __Block_byref_object_copy_.7052
+- __Block_byref_object_copy_.7506
+- __Block_byref_object_copy_.9063
+- __Block_byref_object_copy_.9435
+- __Block_byref_object_copy_.9730
+- __Block_byref_object_dispose_.10347
+- __Block_byref_object_dispose_.11112
+- __Block_byref_object_dispose_.11869
+- __Block_byref_object_dispose_.12152
+- __Block_byref_object_dispose_.12369
+- __Block_byref_object_dispose_.13204
+- __Block_byref_object_dispose_.13459
+- __Block_byref_object_dispose_.13976
+- __Block_byref_object_dispose_.14421
+- __Block_byref_object_dispose_.15393
+- __Block_byref_object_dispose_.16277
+- __Block_byref_object_dispose_.18287
+- __Block_byref_object_dispose_.1928
+- __Block_byref_object_dispose_.19442
+- __Block_byref_object_dispose_.20911
+- __Block_byref_object_dispose_.21184
+- __Block_byref_object_dispose_.21499
+- __Block_byref_object_dispose_.22091
+- __Block_byref_object_dispose_.22956
+- __Block_byref_object_dispose_.23164
+- __Block_byref_object_dispose_.2495
+- __Block_byref_object_dispose_.25056
+- __Block_byref_object_dispose_.25958
+- __Block_byref_object_dispose_.27798
+- __Block_byref_object_dispose_.28255
+- __Block_byref_object_dispose_.29134
+- __Block_byref_object_dispose_.29434
+- __Block_byref_object_dispose_.30157
+- __Block_byref_object_dispose_.30943
+- __Block_byref_object_dispose_.31484
+- __Block_byref_object_dispose_.32061
+- __Block_byref_object_dispose_.32824
+- __Block_byref_object_dispose_.33140
+- __Block_byref_object_dispose_.34597
+- __Block_byref_object_dispose_.35184
+- __Block_byref_object_dispose_.35756
+- __Block_byref_object_dispose_.36454
+- __Block_byref_object_dispose_.3695
+- __Block_byref_object_dispose_.37033
+- __Block_byref_object_dispose_.37311
+- __Block_byref_object_dispose_.38319
+- __Block_byref_object_dispose_.38844
+- __Block_byref_object_dispose_.40613
+- __Block_byref_object_dispose_.41210
+- __Block_byref_object_dispose_.4262
+- __Block_byref_object_dispose_.45230
+- __Block_byref_object_dispose_.45662
+- __Block_byref_object_dispose_.45877
+- __Block_byref_object_dispose_.46105
+- __Block_byref_object_dispose_.47363
+- __Block_byref_object_dispose_.47551
+- __Block_byref_object_dispose_.47975
+- __Block_byref_object_dispose_.48460
+- __Block_byref_object_dispose_.48769
+- __Block_byref_object_dispose_.49025
+- __Block_byref_object_dispose_.49213
+- __Block_byref_object_dispose_.50078
+- __Block_byref_object_dispose_.50723
+- __Block_byref_object_dispose_.51382
+- __Block_byref_object_dispose_.51583
+- __Block_byref_object_dispose_.51799
+- __Block_byref_object_dispose_.51838
+- __Block_byref_object_dispose_.52367
+- __Block_byref_object_dispose_.5284
+- __Block_byref_object_dispose_.54225
+- __Block_byref_object_dispose_.54531
+- __Block_byref_object_dispose_.55273
+- __Block_byref_object_dispose_.56419
+- __Block_byref_object_dispose_.56625
+- __Block_byref_object_dispose_.57285
+- __Block_byref_object_dispose_.5931
+- __Block_byref_object_dispose_.7053
+- __Block_byref_object_dispose_.7507
+- __Block_byref_object_dispose_.9064
+- __Block_byref_object_dispose_.9436
+- __Block_byref_object_dispose_.9731
+- __CloudKitLibraryCore_block_invoke.40664
+- __OBJC_$_CLASS_METHODS_PHPlaceholderImageHelper
+- __OBJC_CLASS_RO_$_PHPlaceholderImageHelper
+- __OBJC_METACLASS_RO_$_PHPlaceholderImageHelper
+- __SensitiveContentAnalysisLibraryCore_block_invoke.19959
+- __SensitiveContentAnalysisLibraryCore_block_invoke.23157
+- __SensitiveContentAnalysisLibraryCore_block_invoke.37979
+- ___111+[PHSearchIntentTranslator searchQuerySuggestionForWhatAndExpandedString:containsIdentificationDocumentIntent:]_block_invoke
+- ___131-[PHAssetCreationRequestPlaceholderSupport _regenerateResourcesWithLocationDataRemoved:sourceExternalResources:photoLibrary:error:]_block_invoke
+- ___132+[PHSearchUtility _photosSearchQueryForSearchIntentsQuery:searchStore:allowUnattributedQuery:queryType:allowExpandedWhatAttributes:]_block_invoke
+- ___178+[PHSearchResultProcessor applyRankingForSystemPhotoLibraryRankedSearchResults:syndicationLibraryRankedSearchResults:syndicationLibraryAllSearchResults:maximumRankedResultCount:]_block_invoke
+- ___97+[PHSearchQueryManager _performIntentSearch:searchOptions:allowUnattributedQuery:resultsHandler:]_block_invoke_2
+- ___97+[PHSearchQueryManager _performIntentSearch:searchOptions:allowUnattributedQuery:resultsHandler:]_block_invoke_3
+- ___block_descriptor_105_e8_32s40s48s56s64s72s80s88r_e41_v40?0"NSDictionary"8{_NSRange=QQ}16^B32l
+- ___block_descriptor_139_e8_32s40s48bs56r64r72r80r88r96r104r112r_e5_v8?0l
+- ___block_descriptor_152_e8_32s40s48s56s64s72s80s88r96r104r112r120r128r136r_e14_v20?0I8B12f16l
+- ___block_descriptor_40_e8_32s_e50_v36?0^{CGImage=}8^{__CVBuffer=}16I24"NSNumber"28l
+- ___block_descriptor_57_e8_32s40s48bs_e30_v24?0"NSString"8"NSError"16l
+- ___block_descriptor_60_e8_32s40s48bs_e50_v36?0^{CGImage=}8^{__CVBuffer=}16I24"NSNumber"28l
+- ___block_descriptor_64_e8_32s40s48s56bs_e44_v32?0"PHSearchQueryResult"8Q16"NSError"24l
+- ___block_descriptor_64_e8_32s40s48s56s_e8_v12?0B8l
+- ___block_descriptor_72_e8_32s40r48r56r64r_e44_v40?0"NSArray"8"NSArray"16Q24"NSError"32l
+- ___copy_helper_block_e8_32s40s48b56r64r72r80r88r96r104r112r
+- ___copy_helper_block_e8_32s40s48s56s64s72s80s88r96r104r112r120r128r136r
+- ___destroy_helper_block_e8_32s40s48s56r64r72r80r88r96r104r112r
+- ___destroy_helper_block_e8_32s40s48s56s64s72s80s88r96r104r112r120r128r136r
+- ___fetchNonHintResources_block_invoke.226
+- ___handleKeyUsageFailureDuringChoosing_block_invoke.234
+- ___loadImageFromStoreAndKey_block_invoke.207
+- __block_literal_global.10446
+- __block_literal_global.1095
+- __block_literal_global.1097
+- __block_literal_global.11
+- __block_literal_global.1114
+- __block_literal_global.1116
+- __block_literal_global.1118
+- __block_literal_global.1120
+- __block_literal_global.1122
+- __block_literal_global.11250
+- __block_literal_global.1129
+- __block_literal_global.115.57080
+- __block_literal_global.1160.38133
+- __block_literal_global.1162.38131
+- __block_literal_global.1167
+- __block_literal_global.1196.38129
+- __block_literal_global.11972
+- __block_literal_global.12171
+- __block_literal_global.123
+- __block_literal_global.125.50155
+- __block_literal_global.12508
+- __block_literal_global.12663
+- __block_literal_global.1309
+- __block_literal_global.1311
+- __block_literal_global.1313
+- __block_literal_global.1315
+- __block_literal_global.1317
+- __block_literal_global.1319
+- __block_literal_global.1321
+- __block_literal_global.13518
+- __block_literal_global.137.34008
+- __block_literal_global.14235
+- __block_literal_global.14422
+- __block_literal_global.1477
+- __block_literal_global.1485
+- __block_literal_global.1500
+- __block_literal_global.15014
+- __block_literal_global.1510
+- __block_literal_global.1533
+- __block_literal_global.15472
+- __block_literal_global.156
+- __block_literal_global.16256
+- __block_literal_global.167
+- __block_literal_global.169.29757
+- __block_literal_global.177
+- __block_literal_global.178
+- __block_literal_global.178.55362
+- __block_literal_global.18523
+- __block_literal_global.1888
+- __block_literal_global.1898
+- __block_literal_global.1929
+- __block_literal_global.19472
+- __block_literal_global.19524
+- __block_literal_global.20480
+- __block_literal_global.209.29728
+- __block_literal_global.20921
+- __block_literal_global.210
+- __block_literal_global.210.30614
+- __block_literal_global.214
+- __block_literal_global.21473
+- __block_literal_global.216
+- __block_literal_global.218
+- __block_literal_global.222.14812
+- __block_literal_global.22486
+- __block_literal_global.22952
+- __block_literal_global.231.35481
+- __block_literal_global.23595
+- __block_literal_global.246.15355
+- __block_literal_global.248
+- __block_literal_global.24879
+- __block_literal_global.2508
+- __block_literal_global.26335
+- __block_literal_global.27029
+- __block_literal_global.28047
+- __block_literal_global.2848
+- __block_literal_global.28831
+- __block_literal_global.2893
+- __block_literal_global.29109
+- __block_literal_global.2934
+- __block_literal_global.2948
+- __block_literal_global.29760
+- __block_literal_global.299
+- __block_literal_global.3.12176
+- __block_literal_global.30028
+- __block_literal_global.30107
+- __block_literal_global.30159
+- __block_literal_global.3017
+- __block_literal_global.3047
+- __block_literal_global.30603
+- __block_literal_global.31061
+- __block_literal_global.31486
+- __block_literal_global.31575
+- __block_literal_global.31783
+- __block_literal_global.32071
+- __block_literal_global.32502
+- __block_literal_global.33.52667
+- __block_literal_global.331
+- __block_literal_global.3310
+- __block_literal_global.33403
+- __block_literal_global.335
+- __block_literal_global.33550
+- __block_literal_global.3362
+- __block_literal_global.3380
+- __block_literal_global.3401
+- __block_literal_global.34028
+- __block_literal_global.3429
+- __block_literal_global.3446
+- __block_literal_global.3467
+- __block_literal_global.34684
+- __block_literal_global.3485
+- __block_literal_global.3535
+- __block_literal_global.35484
+- __block_literal_global.35769
+- __block_literal_global.3586
+- __block_literal_global.35928
+- __block_literal_global.36097
+- __block_literal_global.36291
+- __block_literal_global.3677
+- __block_literal_global.36772
+- __block_literal_global.3716
+- __block_literal_global.37319
+- __block_literal_global.3755
+- __block_literal_global.3778
+- __block_literal_global.37860
+- __block_literal_global.379.22481
+- __block_literal_global.381
+- __block_literal_global.383
+- __block_literal_global.3847
+- __block_literal_global.38707
+- __block_literal_global.38915
+- __block_literal_global.3918
+- __block_literal_global.39515
+- __block_literal_global.39831
+- __block_literal_global.40.33449
+- __block_literal_global.40.49694
+- __block_literal_global.4064
+- __block_literal_global.40684
+- __block_literal_global.40953
+- __block_literal_global.4108
+- __block_literal_global.41325
+- __block_literal_global.41876
+- __block_literal_global.42125
+- __block_literal_global.4233
+- __block_literal_global.42631
+- __block_literal_global.42938
+- __block_literal_global.44216
+- __block_literal_global.44810
+- __block_literal_global.45.45219
+- __block_literal_global.45233
+- __block_literal_global.4587
+- __block_literal_global.45930
+- __block_literal_global.4594
+- __block_literal_global.46121
+- __block_literal_global.4639
+- __block_literal_global.4670
+- __block_literal_global.46737
+- __block_literal_global.4723
+- __block_literal_global.4753
+- __block_literal_global.47654
+- __block_literal_global.4780
+- __block_literal_global.48003
+- __block_literal_global.48376
+- __block_literal_global.4845
+- __block_literal_global.4888
+- __block_literal_global.49122
+- __block_literal_global.4927
+- __block_literal_global.4944
+- __block_literal_global.49701
+- __block_literal_global.4975
+- __block_literal_global.4981
+- __block_literal_global.4993
+- __block_literal_global.4995
+- __block_literal_global.50162
+- __block_literal_global.5029
+- __block_literal_global.50319
+- __block_literal_global.5047
+- __block_literal_global.5058
+- __block_literal_global.50620
+- __block_literal_global.5073
+- __block_literal_global.5084
+- __block_literal_global.5093
+- __block_literal_global.512.22299
+- __block_literal_global.51346
+- __block_literal_global.515
+- __block_literal_global.5175
+- __block_literal_global.51800
+- __block_literal_global.51852
+- __block_literal_global.5187
+- __block_literal_global.52066
+- __block_literal_global.52219
+- __block_literal_global.52451
+- __block_literal_global.52690
+- __block_literal_global.5294
+- __block_literal_global.5333
+- __block_literal_global.53947
+- __block_literal_global.54.20922
+- __block_literal_global.54.49107
+- __block_literal_global.550
+- __block_literal_global.55365
+- __block_literal_global.56172
+- __block_literal_global.562
+- __block_literal_global.57171
+- __block_literal_global.57991
+- __block_literal_global.5999
+- __block_literal_global.618
+- __block_literal_global.630.23590
+- __block_literal_global.660
+- __block_literal_global.660.22437
+- __block_literal_global.693
+- __block_literal_global.7130
+- __block_literal_global.727
+- __block_literal_global.745
+- __block_literal_global.7518
+- __block_literal_global.756
+- __block_literal_global.761
+- __block_literal_global.82.56152
+- __block_literal_global.8210
+- __block_literal_global.8487
+- __block_literal_global.862
+- __block_literal_global.8660
+- __block_literal_global.88.56148
+- __block_literal_global.902
+- __block_literal_global.9424
+- __block_literal_global.9516
+- __block_literal_global.97
+- __block_literal_global.9975
+- __getSCSensitivityAnalysisClass_block_invoke.19957
+- __getSCSensitivityAnalysisClass_block_invoke.23154
+- __getSCSensitivityAnalysisClass_block_invoke.37977
+- _currentTimestampString.s_formatter.49695
+- _currentTimestampString.s_onceToken.49693
+- _fetchTypeForAssetCollectionLocalIdentifierCode.pl_once_object_24
+- _fetchTypeForAssetCollectionLocalIdentifierCode.pl_once_token_24
+- _objc_msgSend$_entitiesForText:searchIntentToken:searchStore:
+- _objc_msgSend$_photosSearchQueryForSearchIntentsQuery:allowUnattributedQuery:queryType:allowExpandedWhatAttributes:
+- _objc_msgSend$_photosSearchQueryForSearchIntentsQuery:allowUnattributedQuery:queryType:allowExpandedWhatAttributes:photoLibrary:
+- _objc_msgSend$_photosSearchQueryForSearchIntentsQuery:searchStore:allowUnattributedQuery:queryType:allowExpandedWhatAttributes:
+- _objc_msgSend$_photosSearchQueryForWhatAndExpandedString:queryContainsIdentificationDocumentIntent:
+- _objc_msgSend$_regenerateResourcesWithLocationDataRemoved:sourceExternalResources:photoLibrary:error:
+- _objc_msgSend$_searchResultsFromResultItems:rankingOptions:
+- _objc_msgSend$_suggestionForText:searchIntentToken:searchStore:
+- _objc_msgSend$applyRankingForSystemPhotoLibraryRankedSearchResults:syndicationLibraryRankedSearchResults:syndicationLibraryAllSearchResults:maximumRankedResultCount:
+- _objc_msgSend$initWithAVAsset:options:timeZoneLookup:
+- _objc_msgSend$initWithAVURL:options:timeZoneLookup:
+- _objc_msgSend$initWithResultSubtype:uuid:metadataRelevanceScore:embeddingRelevanceScore:matchedThumbnailIdentifier:utilityClassificationPriority:dateCreated:isOCRTextMatch:bundleIdentifier:retrievalType:
+- _objc_msgSend$placeholderDataForFormat:photoImageSize:width:height:bytesPerRow:dataWidth:dataHeight:imageDataOffset:
+- _objc_msgSend$searchQuerySuggestionForWhatAndExpandedString:containsIdentificationDocumentIntent:
+- _objc_msgSend$searchQuerySuggestionFromSearchIntentToken:text:containsIdentificationDocumentIntent:searchStore:
+- allowedInfoKeys.allowedKeys.19622
+- allowedInfoKeys.allowedKeys.42436
+- allowedInfoKeys.onceToken.19621
+- allowedInfoKeys.onceToken.42435
+- audit_stringCloudKit.40675
+- audit_stringSensitiveContentAnalysis.19968
+- audit_stringSensitiveContentAnalysis.23161
+- audit_stringSensitiveContentAnalysis.37989
+- corePropertiesToFetch.array.23598
+- corePropertiesToFetch.array.29755
+- corePropertiesToFetch.array.35485
+- corePropertiesToFetch.array.52446
+- corePropertiesToFetch.onceToken.23597
+- corePropertiesToFetch.onceToken.29754
+- corePropertiesToFetch.onceToken.35483
+- corePropertiesToFetch.onceToken.52445
+- defaultManager.onceToken.54310
+- entityKeyMap.pl_once_object_2.11953
+- entityKeyMap.pl_once_object_2.12674
+- entityKeyMap.pl_once_object_2.14225
+- entityKeyMap.pl_once_object_2.14541
+- entityKeyMap.pl_once_object_2.28824
+- entityKeyMap.pl_once_object_2.30118
+- entityKeyMap.pl_once_object_2.34019
+- entityKeyMap.pl_once_object_2.37850
+- entityKeyMap.pl_once_object_2.41903
+- entityKeyMap.pl_once_object_2.46144
+- entityKeyMap.pl_once_object_2.47994
+- entityKeyMap.pl_once_object_2.48368
+- entityKeyMap.pl_once_object_2.50316
+- entityKeyMap.pl_once_object_2.5085
+- entityKeyMap.pl_once_object_2.52488
+- entityKeyMap.pl_once_object_2.58003
+- entityKeyMap.pl_once_object_2.8492
+- entityKeyMap.pl_once_object_3.35473
+- entityKeyMap.pl_once_object_3.35915
+- entityKeyMap.pl_once_object_3.42112
+- entityKeyMap.pl_once_object_3.4581
+- entityKeyMap.pl_once_object_3.49113
+- entityKeyMap.pl_once_object_3.56159
+- entityKeyMap.pl_once_token_2.11952
+- entityKeyMap.pl_once_token_2.12673
+- entityKeyMap.pl_once_token_2.14224
+- entityKeyMap.pl_once_token_2.14540
+- entityKeyMap.pl_once_token_2.28823
+- entityKeyMap.pl_once_token_2.30117
+- entityKeyMap.pl_once_token_2.34018
+- entityKeyMap.pl_once_token_2.37849
+- entityKeyMap.pl_once_token_2.41902
+- entityKeyMap.pl_once_token_2.46143
+- entityKeyMap.pl_once_token_2.47993
+- entityKeyMap.pl_once_token_2.48367
+- entityKeyMap.pl_once_token_2.50315
+- entityKeyMap.pl_once_token_2.5084
+- entityKeyMap.pl_once_token_2.52487
+- entityKeyMap.pl_once_token_2.58002
+- entityKeyMap.pl_once_token_2.8491
+- entityKeyMap.pl_once_token_3.35472
+- entityKeyMap.pl_once_token_3.35914
+- entityKeyMap.pl_once_token_3.42111
+- entityKeyMap.pl_once_token_3.4580
+- entityKeyMap.pl_once_token_3.49112
+- entityKeyMap.pl_once_token_3.56158
+- getSCSensitivityAnalysisClass.19955
+- getSCSensitivityAnalysisClass.37970
+- getSCSensitivityAnalysisClass.softClass.19956
+- getSCSensitivityAnalysisClass.softClass.23153
+- getSCSensitivityAnalysisClass.softClass.37976
+- handleUnsupportedAssetCollectionFetchTypeForLocalIdentifier.pl_once_object_37
+- handleUnsupportedAssetCollectionFetchTypeForLocalIdentifier.pl_once_token_37
+- identifierPropertiesToFetch.array.36773
+- identifierPropertiesToFetch.array.52448
+- identifierPropertiesToFetch.onceToken.36771
+- identifierPropertiesToFetch.onceToken.52447
+- propertiesToFetchWithHint:.array.11968
+- propertiesToFetchWithHint:.array.12681
+- propertiesToFetchWithHint:.array.14566
+- propertiesToFetchWithHint:.array.28832
+- propertiesToFetchWithHint:.array.30128
+- propertiesToFetchWithHint:.array.34029
+- propertiesToFetchWithHint:.array.37861
+- propertiesToFetchWithHint:.array.41921
+- propertiesToFetchWithHint:.array.48004
+- propertiesToFetchWithHint:.array.50320
+- propertiesToFetchWithHint:.array.57992
+- propertiesToFetchWithHint:.array.8520
+- propertiesToFetchWithHint:.onceToken.11967
+- propertiesToFetchWithHint:.onceToken.12680
+- propertiesToFetchWithHint:.onceToken.14234
+- propertiesToFetchWithHint:.onceToken.14565
+- propertiesToFetchWithHint:.onceToken.23589
+- propertiesToFetchWithHint:.onceToken.28830
+- propertiesToFetchWithHint:.onceToken.29759
+- propertiesToFetchWithHint:.onceToken.30127
+- propertiesToFetchWithHint:.onceToken.34027
+- propertiesToFetchWithHint:.onceToken.35477
+- propertiesToFetchWithHint:.onceToken.37859
+- propertiesToFetchWithHint:.onceToken.41920
+- propertiesToFetchWithHint:.onceToken.4592
+- propertiesToFetchWithHint:.onceToken.48002
+- propertiesToFetchWithHint:.onceToken.50318
+- propertiesToFetchWithHint:.onceToken.52450
+- propertiesToFetchWithHint:.onceToken.57990
+- propertiesToFetchWithHint:.onceToken.8519
+- propertiesToFetchWithHint:.pl_once_object_2.35929
+- propertiesToFetchWithHint:.pl_once_object_2.42126
+- propertiesToFetchWithHint:.pl_once_object_2.49123
+- propertiesToFetchWithHint:.pl_once_object_2.56173
+- propertiesToFetchWithHint:.pl_once_token_2.35927
+- propertiesToFetchWithHint:.pl_once_token_2.42124
+- propertiesToFetchWithHint:.pl_once_token_2.49121
+- propertiesToFetchWithHint:.pl_once_token_2.56171
+- propertiesToFetchWithHint:.propertiesToFetchByHint.14237
+- propertiesToFetchWithHint:.propertiesToFetchByHint.23592
+- propertiesToFetchWithHint:.propertiesToFetchByHint.29762
+- propertiesToFetchWithHint:.propertiesToFetchByHint.35479
+- propertiesToFetchWithHint:.propertiesToFetchByHint.52453
+- propertiesToFetchWithHint:.propertyQueue.14236
+- propertiesToFetchWithHint:.propertyQueue.23591
+- propertiesToFetchWithHint:.propertyQueue.29761
+- propertiesToFetchWithHint:.propertyQueue.35478
+- propertiesToFetchWithHint:.propertyQueue.52452
+- propertiesToPrefetch.onceToken.23169
+- propertiesToPrefetch.onceToken.29412
+- propertiesToPrefetch.onceToken.35159
+- propertiesToPrefetch.propertiesToPrefetch.23170
+- propertiesToPrefetch.propertiesToPrefetch.29413
+- propertiesToPrefetch.propertiesToPrefetch.35160
+- propertySetAccessorsByPropertySet.accessorByPropertySetName.13961
+- propertySetAccessorsByPropertySet.accessorByPropertySetName.29598
+- propertySetAccessorsByPropertySet.accessorByPropertySetName.35445
+- propertySetAccessorsByPropertySet.onceToken.13960
+- propertySetAccessorsByPropertySet.onceToken.29597
+- propertySetAccessorsByPropertySet.onceToken.35444
+- propertySetClassForPropertySet:.onceToken.13963
+- propertySetClassForPropertySet:.onceToken.29605
+- propertySetClassForPropertySet:.onceToken.35453
+- propertySetClassForPropertySet:.propertySetClassByPropertySetName.13964
+- propertySetClassForPropertySet:.propertySetClassByPropertySetName.29606
+- propertySetClassForPropertySet:.propertySetClassByPropertySetName.35454
+- sQueryId.56510
+- sharedDecoder.s_onceToken.52689
+- sharedDecoder.s_shared.52691
+- transformValueExpression:forKeyPath:._passThroughSet.11926
+- transformValueExpression:forKeyPath:._passThroughSet.12670
+- transformValueExpression:forKeyPath:._passThroughSet.14214
+- transformValueExpression:forKeyPath:._passThroughSet.14526
+- transformValueExpression:forKeyPath:._passThroughSet.23568
+- transformValueExpression:forKeyPath:._passThroughSet.28785
+- transformValueExpression:forKeyPath:._passThroughSet.29743
+- transformValueExpression:forKeyPath:._passThroughSet.30114
+- transformValueExpression:forKeyPath:._passThroughSet.34010
+- transformValueExpression:forKeyPath:._passThroughSet.35461
+- transformValueExpression:forKeyPath:._passThroughSet.37844
+- transformValueExpression:forKeyPath:._passThroughSet.41892
+- transformValueExpression:forKeyPath:._passThroughSet.4570
+- transformValueExpression:forKeyPath:._passThroughSet.46126
+- transformValueExpression:forKeyPath:._passThroughSet.47982
+- transformValueExpression:forKeyPath:._passThroughSet.50313
+- transformValueExpression:forKeyPath:._passThroughSet.52483
+- transformValueExpression:forKeyPath:._passThroughSet.56115
+- transformValueExpression:forKeyPath:._passThroughSet.57997
+- transformValueExpression:forKeyPath:.onceToken.11925
+- transformValueExpression:forKeyPath:.onceToken.12669
+- transformValueExpression:forKeyPath:.onceToken.14213
+- transformValueExpression:forKeyPath:.onceToken.14525
+- transformValueExpression:forKeyPath:.onceToken.23567
+- transformValueExpression:forKeyPath:.onceToken.28784
+- transformValueExpression:forKeyPath:.onceToken.29742
+- transformValueExpression:forKeyPath:.onceToken.30113
+- transformValueExpression:forKeyPath:.onceToken.34009
+- transformValueExpression:forKeyPath:.onceToken.35460
+- transformValueExpression:forKeyPath:.onceToken.37843
+- transformValueExpression:forKeyPath:.onceToken.41891
+- transformValueExpression:forKeyPath:.onceToken.4569
+- transformValueExpression:forKeyPath:.onceToken.46125
+- transformValueExpression:forKeyPath:.onceToken.47981
+- transformValueExpression:forKeyPath:.onceToken.50312
+- transformValueExpression:forKeyPath:.onceToken.52482
+- transformValueExpression:forKeyPath:.onceToken.56114
+- transformValueExpression:forKeyPath:.onceToken.57996
+CStrings:
++ "\n "
++ "%@ state changed to unlocked"
++ "%@, retrieval: %tu, match: %tu, score: %@, ocr: %@, thumb: %@"
++ "%@: %tu"
++ "%@:%@:%@:%tu"
++ "%K == nil OR %K >= %K"
++ "%K > %@ AND %K.%K == NO"
++ "%ld-%ld - Making edit request in preparation for live rendering live photo's video complement for asset: %{public}@"
++ "%{public}@ Applying %tu scoped identifiers to query results"
++ "%{public}@ Attempted to instantiate assetUUID based Leo operand with 0 assetUUIDs, aborting token initialization"
++ "%{public}@ Attributed parse is empty for query: %@"
++ "%{public}@ Attributed parse length (%tu) does not match query string length (%tu) for query: %@"
++ "%{public}@ Beginning query execution for predicate: %@"
++ "%{public}@ Completed query execution. %@"
++ "%{public}@ Content classification priority ranking: %tu input items"
++ "%{public}@ Created %lu final ranking buckets with sizes: %@"
++ "%{public}@ Empty text provided for text operand in range: %@ of query string: %@"
++ "%{public}@ Encountered operand with undefined type: %@"
++ "%{public}@ Error generating LEOOperand for queryToken: %@ when processing associated operands: %@"
++ "%{public}@ Error generating LEOOperator for queryToken: %@ when processing associated operands: %@"
++ "%{public}@ Evaluating parse substring %@: %@ for query: %@"
++ "%{public}@ Exceeded the max token count of %tu for high precision search for query: %@, standard precision will be used"
++ "%{public}@ Extracting tokens: %@ from text: %@ for language: %@"
++ "%{public}@ Failed to execute LEO query: %@"
++ "%{public}@ Failed to execute cardinality query: %@"
++ "%{public}@ Failed to execute exclusive query: %@"
++ "%{public}@ Failed to execute semantic query: %@"
++ "%{public}@ Failed to fetch date lexemes: %@"
++ "%{public}@ Failed to fetch lexeme IDs for uuid: %@: %@"
++ "%{public}@ Failed to fetch lexemes for asset UUIDs: %@"
++ "%{public}@ Failed to fetch lexemes for bundle identifier: %@"
++ "%{public}@ Failed to fetch lexemes for cardinality operand: %@: %@"
++ "%{public}@ Failed to fetch lexemes for geo region: %@"
++ "%{public}@ Failed to fetch lexemes for identifier bitmask: %@"
++ "%{public}@ Failed to fetch lexemes for location name: %@: %@"
++ "%{public}@ Failed to fetch lexemes for numeric range: %@"
++ "%{public}@ Failed to fetch lexemes for parse token %@: %@"
++ "%{public}@ Failed to fetch lexemes for ranking: %@"
++ "%{public}@ Failed to fetch lexemes for span: \"%@\" in query: %@, error: %@"
++ "%{public}@ Failed to fetch lexemes for text: %@: %@"
++ "%{public}@ Failed to fetch lexemes for uuid: %@: %@"
++ "%{public}@ Failed to fetch person lexemes for parse token %@: %@"
++ "%{public}@ Failed to get geo region for location name \"%@\": %@"
++ "%{public}@ Failed to resolve lexemeID (%@) in query match details for precision mode: %@. Query context lexemes: %@"
++ "%{public}@ Failed to resolve lexemeID (%u) in per-item match processing for precision mode: %@. Query context lexemes: %@"
++ "%{public}@ Falling back to approximate location query for text based operand: %@, matchMode: %@, matchOptions: %@, identifier: %@, categories: %@"
++ "%{public}@ Found %tu associated tokens for semantic phrase: %@ with associated operands: %@"
++ "%{public}@ Found %tu lexemes for text: %@, matchMode: %@, matchOptions: %@, identifier: %@, categories: %@"
++ "%{public}@ Found %tu lexemes for uuid: %@"
++ "%{public}@ Found 0 lexemes for approximate location based operand: %@, matchMode: %@, matchOptions: %@, identifier: %@, categories: %@"
++ "%{public}@ Found 0 lexemes for text based operand: %@, matchMode: %@, matchOptions: %@, identifier: %@, categories: %@"
++ "%{public}@ Found 0 semantic results for semantic phrase: %@, with threshold type: %@, filtered asset UUIDs count: %tu"
++ "%{public}@ Found no lexemes for approximate location (lat, lon) = (%f, %f), expansionInMeters = %f"
++ "%{public}@ Found no lexemes for approximate location: %@"
++ "%{public}@ Found no lexemes for assetUUIDs: %@"
++ "%{public}@ Found no lexemes for associated operand in cardinality operand: %@"
++ "%{public}@ Found no lexemes for exclusion in cardinality operand: %@"
++ "%{public}@ Found no lexemes for identifier bitmask: 0x%llx, categories: %@"
++ "%{public}@ Found no lexemes for min value: %@, max value: %@, categories: %@"
++ "%{public}@ Found no lexemes for start date components: %@, end date components: %@"
++ "%{public}@ Found no results for cardinality operand"
++ "%{public}@ Found no results for the associated operands: %@ for the semantic phrase: %@, will not execute semantic phrase search"
++ "%{public}@ Found person grounded term: %@ in parse: %@"
++ "%{public}@ Found unsupported associated operand: %@ for owning operand with type: %@, unable to process query"
++ "%{public}@ Generated LEOItemQuery:\n%@\n from predicate:\n%@\n"
++ "%{public}@ Generated date components: %@ from ISO week date dictionary: %@"
++ "%{public}@ Generated date components: %@ from date dictionary: %@"
++ "%{public}@ Generated date op: %@ for date string: %@ in range:%@ in query: %@"
++ "%{public}@ Generated text op: %@ for substring: %@ in range:%@ in query: %@"
++ "%{public}@ Generated text op: %@ for word: \"%@\" in range:%@ in query: %@"
++ "%{public}@ Generating operand for %tu asset uuids "
++ "%{public}@ Generating operand for cardinality operands: %@, min value: %@, max value: %@"
++ "%{public}@ Generating operand for exclusive operands: %@, associated operator: %@"
++ "%{public}@ Generating operand for identifier bitmask: 0x%llx, categories: %@"
++ "%{public}@ Generating operand for location: %@ with expansion type %@, expansion amount %f"
++ "%{public}@ Generating operand for min value: %@, max value: %@, categories: %@"
++ "%{public}@ Generating operand for semantic phrase: %@ with threshold: %@, associated operands: %@, associated operator: %@"
++ "%{public}@ Generating operand for start date components: %@, end date components: %@"
++ "%{public}@ Generating operand for text: %@, matchMode: %@, matchOptions: %@, identifier: %@, categories: %@"
++ "%{public}@ High precision mode will return 0 results: %@"
++ "%{public}@ High precision predicate: found full-text match for span: \"%@\", matched %tu lexeme(s), in query: %@"
++ "%{public}@ High precsion predicate: found fuzzy person matched lexemes for parse token: %@: %@, in query: %@"
++ "%{public}@ High precsion predicate: found unexpected token type for parse token:%@, aborting high precision predicate generation for parse: %@"
++ "%{public}@ High precsion predicate: start generating high precision predicate from parse tokens %@, in query: %@"
++ "%{public}@ Invalid range: %@ provided for text operand: %@ in query string: %@"
++ "%{public}@ Match details not requested for query. Options: %@"
++ "%{public}@ MatchedThumbnailIdentifier: %@, for asset: %@ with lookupIdentifiers: %@ for precision mode: %@"
++ "%{public}@ Metadata search disabled, not generating operand for cardinality operands: %@, min value: %@, max value: %@"
++ "%{public}@ Metadata search disabled, not generating operand for identifier bitmask: 0x%llx, categories: %@"
++ "%{public}@ Metadata search disabled, not generating operand for min value: %@, max value: %@, categories: %@"
++ "%{public}@ Metadata search disabled, not generating operand for start date components: %@, end date components: %@"
++ "%{public}@ Metadata search disabled, not generating operand for text: %@, matchMode: %@, matchOptions: %@, identifier: %@, categories: %@"
++ "%{public}@ No dates provided in date dictionary"
++ "%{public}@ No filtered tokens are available for query: %@, generating a high precision predicate, standard precision will be used"
++ "%{public}@ No qualifying asset results found for high precision mode - will return 0 results"
++ "%{public}@ No supported date components found for date string: %@ in range:%@, attributes: %@, query: %@"
++ "%{public}@ Not constructing approximate location operator, feature LeoPIRLocationSearch is not enabled"
++ "%{public}@ PHFindNonSuggestionTextSpansFromTokens called with nil parseTokens or queryString"
++ "%{public}@ Preparing query options for SPL query with bundleIDs: %@"
++ "%{public}@ Preparing query options for syndication library query with bundleIDs: %@"
++ "%{public}@ Processing %tu query results for precision mode: %@"
++ "%{public}@ Query context: %@"
++ "%{public}@ QueryParser lexicon safety annotation source %{public}@ blocked semantic search. SemanticPhrase: %@, Query: %@"
++ "%{public}@ Ranking date bucketing: %lu items, epsilon=%.1f days, minSize=%lu, initial buckets=%lu"
++ "%{public}@ Ranking disabled due to request for sorted results"
++ "%{public}@ Ranking is disabled, returning unranked items to final result, query options: %@"
++ "%{public}@ Ranking is enabled, ranking results with ranking options: %@"
++ "%{public}@ Selected parse with confidence %tu from %tu candidates. Parse: %@"
++ "%{public}@ Semantic search and metadata search disabled, not executing semantic phrase: %@, or associated operands: %@"
++ "%{public}@ Semantic search disabled, not executing semantic phrase: %@, only associated operands: %@"
++ "%{public}@ Skipping embedding search due to unit test config"
++ "%{public}@ Skipping lexeme with invalid data: lexemeID=%u, rawCategory: %td, text: %@, identifier: %@"
++ "%{public}@ Skipping lexeme with unrecognized rawCategory: %td, text: %@, identifier: %@"
++ "%{public}@ Skipping result with disallowed bundleIdentifier (%{public}@)"
++ "%{public}@ Skipping text token '%@' at range %@ because it overlaps with a date token"
++ "%{public}@ Standard predicate: generated final predicate: %@ for query %@"
++ "%{public}@ Standard predicate: generated semantic op: %@ in range: %@ of query: %@"
++ "%{public}@ Standard predicate: generated text based predicate for semantic terms: %@ for query %@"
++ "%{public}@ Standard predicate: generated text based predicate: %@ for query %@"
++ "%{public}@ Standard predicate: skipping stop word(s): %@ in range: %@ of query: %@"
++ "%{public}@ Start enumerating attr for QP parse: %@ for queryString: %@"
++ "%{public}@ Stripped all tokens from semantic phrase: %@ after removing suggestion: %@"
++ "%{public}@ Stripped suggestion: %@ from semantic phrase: %@, result: %@"
++ "%{public}@ Top Assets (%tu):\n %@"
++ "%{public}@ Unable to access Leo datastore with error: %@, for lexemes query:\n%@\n"
++ "%{public}@ Unable to access Leo datastore with error: %@, for predicate:\n%@\n"
++ "%{public}@ Unable to generate operand for suggestion: %@ at range: %@ in query string: %@"
++ "%{public}@ Unable to generate text op for substring: %@ in range:%@ in query: %@"
++ "%{public}@ Unable to ground date dictionary to a concrete date: %@"
++ "%{public}@ Unable to process token:\n%@\n for predicate:\n%@\n"
++ "%{public}@ Unable to resolve ISO week date components to a concrete date: %@"
++ "%{public}@ Unexpected missing NLTag for word: %@ at range: %@ in query: %@, will not include in query"
++ "%{public}@ Unsupported operand: %@ generated for query: %@ in range: %@"
++ "%{public}@ Utility query identified (isCardQuery: %@, queryContainsUtilityClassificationLexemes: %@). Including utility ranking signals."
++ "%{public}@ VSK query: error executing semantic query: %@, %@"
++ "%{public}@ VSK query: error generating query embedding for semantic phrase: %@, %@"
++ "%{public}@ VSK query: found %tu semantic search results above threshold %f after processing for semantic phrase: %@"
++ "%{public}@ VSK query: no results found semantic query: %@, %@"
++ "%{public}@ VSK query: post-filter semantic query with %tu assetUUIDs for semantic phrase: %@"
++ "%{public}@ VSK query: processing %tu semantic search results for semantic phrase: %@"
++ "%{public}@ VSK query: requesting embedding for semantic phrase: %@"
++ "%{public}@ VSK query: semantic phrase is unsafe: %@ (isSafeByClassifier=%@, isSafeByLexicon=%@)"
++ "%{public}@ VSK query: timed out waiting for query embedding generation for semantic query: %@"
++ "%{public}@ VSK query: unable to generate embedding vector for retrieved query result: %@ for semantic query: %@"
++ "%{public}@ Will not gather lexemes to fetch for bundle identifier, result bundle ids have not been requested:%@"
++ "%{public}@ Will not gather lexemes to fetch for ranking, ranked results have not been requested:%@"
++ "%{public}@ Will not keep track of matched lexemes for query, metadata search is disabled or no per result match info has been requested:%@"
++ "%{public}@ Will not keep track of query embeddings for query, query embedding: %@ does not exist or semantic search is disabled:%@"
++ "%{public}@ Will not keep track of query embeddings indices for query, either no indices were provided: %@ or semantic search is disabled:%@"
++ "%{public}@ Will not keep track of query embeddings scores for query, either no relevance scores were provided: %@ or semantic search is disabled:%@"
++ "%{public}@ [%{public}@] Completed intent query for query: %@ with %tu results, %tu ranked results: %@ and status: %tu"
++ "%{public}@ [%{public}@] Completed intent query for query: %@ with error: %@, with %tu results, %tu ranked results: %@ and status: %tu"
++ "%{public}@ ⚠️ Time diversity disabled, ranking by score only"
++ "%{public}@ ⚠️ Time diversity disabled, ranking with content classification priority"
++ "%{public}@ 🛑 Encountered lexeme: %@ with undefined category for UUID: %@, ignoring lexeme"
++ "%{public}@ 🛑 Unexpected suggestion type, unable to generate operands for suggestion: %@"
++ "&$"
++ "/AppleInternal/Library/BuildRoots/4~CR6uugDr_5XCJa6PgQ3RNcQMqyfrhspQnNA-i08/Library/Caches/com.apple.xbs/TemporaryDirectory.c1NpFB/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportAsset.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6uugDr_5XCJa6PgQ3RNcQMqyfrhspQnNA-i08/Library/Caches/com.apple.xbs/TemporaryDirectory.c1NpFB/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportAvchdAsset.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6uugDr_5XCJa6PgQ3RNcQMqyfrhspQnNA-i08/Library/Caches/com.apple.xbs/TemporaryDirectory.c1NpFB/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportController.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6uugDr_5XCJa6PgQ3RNcQMqyfrhspQnNA-i08/Library/Caches/com.apple.xbs/TemporaryDirectory.c1NpFB/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportDeviceAsset.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6uugDr_5XCJa6PgQ3RNcQMqyfrhspQnNA-i08/Library/Caches/com.apple.xbs/TemporaryDirectory.c1NpFB/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportLegacyLibrarySource.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6uugDr_5XCJa6PgQ3RNcQMqyfrhspQnNA-i08/Library/Caches/com.apple.xbs/TemporaryDirectory.c1NpFB/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportLibrarySource.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6uugDr_5XCJa6PgQ3RNcQMqyfrhspQnNA-i08/Library/Caches/com.apple.xbs/TemporaryDirectory.c1NpFB/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportResults.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6uugDr_5XCJa6PgQ3RNcQMqyfrhspQnNA-i08/Library/Caches/com.apple.xbs/TemporaryDirectory.c1NpFB/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportSource.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6uugDr_5XCJa6PgQ3RNcQMqyfrhspQnNA-i08/Library/Caches/com.apple.xbs/TemporaryDirectory.c1NpFB/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportUrlSource.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6uugDr_5XCJa6PgQ3RNcQMqyfrhspQnNA-i08/Library/Caches/com.apple.xbs/TemporaryDirectory.c1NpFB/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImporter.m"
++ "/AppleInternal/Library/BuildRoots/4~CR6uugDr_5XCJa6PgQ3RNcQMqyfrhspQnNA-i08/Library/Caches/com.apple.xbs/TemporaryDirectory.c1NpFB/Sources/Photos/Projects/PhotoKit/Sources/PHPhotoLibrary.m"
++ "1!!1c"
++ "<%@ %p> hintBased: %@, resourceType: %@, recipeID: %@, version: %@, resourceScale: %f"
++ "<%@ %p> ver: %@, del: %@, net: %@, live: %@, dl-int: %@, dl-pri: %@"
++ "<PHFindQueryResultItem: uuid=%@, bundle=%@, itemSubType=%@, retrievalType=%@, dateCreated=%f, ocrTextMatch=%@, eligibleForSuggestions=%@, matchedThumbnailIdentifier=%@, compositeScore=%.3f, metadataScore=%.3f, embeddingScore=%.3f, utilityPriority=%tu, expirationDate=%lld>"
++ "Asset resource file URL not local, may have been pruned, will attempt availability change request"
++ "Asset resource file is zero bytes, will attempt availability change request"
++ "Asset resource file stat failed: %@"
++ "Cooldown Search for PhotoLibrary identifier %{public}td"
++ "Failed to regenerate resources with sensitive metadata removed for placeholder asset: %@ error: %@"
++ "Fast"
++ "File does not exist at path: %@"
++ "File is zero bytes at path: %@"
++ "Found %tu best matching person text category entities by query text components for text: %@ for intent token: %@"
++ "Found existing trashed asset (%@) with same syndication id (%@) that cannot be reset (hasMetadata=%d, canMoveToTrash=%d); expunging"
++ "HighQuality"
++ "Match details: %@"
++ "Opportunistic"
++ "PHFetchResult init with no fetch request, library not available, setting fetchError to %@\n\tself: %@"
++ "PHFindQueryContext: queryId: %lld, photoLibrary: %td, leo: %p, queryEmbeddingsCount: %tu, findOptions: %@, leoOptions: %@, embeddingRelevanceScoresByUUID: %@, lexemesForQueryByLexemeId: %@, fetchedLexemeIDs: %@>"
++ "PHFindQueryOptions: photoLibrary: %td, resultTypes: %@, precisionMode: %@, clientIdentifier: %@, isCardQuery: %@, enableQueryMatchDetails: %@, enableResultItemBundleIdentifier: %@, disableMetadataSearch: %@, disableSemanticSearch: %@, fetchContextualThumbnailData: %@, allowedBundleIdentifiers: %@, sortDescriptors: %@, scopedIdentifiers: %@>"
++ "PHFindQueryResult: queryId: %lld, rankingOptions: %@, error: %@, %tu results (%@), rankedAssetResultItemsCount: %tu, matchDetails: %@"
++ "PHPhotosErrorBeforeFirstUnlock"
++ "PHPhotosErrorGCBDRestricted"
++ "PHQueryForAssetCollectionType_Album_block_invoke_108"
++ "PHQueryForAssetCollectionType_CollectionShare_block_invoke_120"
++ "PHQueryForAssetCollectionType_Conversation_block_invoke_117"
++ "PHQueryForAssetCollectionType_ImportSession_block_invoke_116"
++ "PHQueryForAssetCollectionType_Memory_block_invoke_112"
++ "PHQueryForAssetCollectionType_MomentShare_block_invoke_114"
++ "PHQueryForAssetCollectionType_Moment_block_invoke_109"
++ "PHQueryForAssetCollectionType_NoFetchType_block_invoke_122"
++ "PHQueryForAssetCollectionType_Other_block_invoke_121"
++ "PHQueryForAssetCollectionType_PhotosHighlight_block_invoke_113"
++ "PHQueryForAssetCollectionType_Project_block_invoke_118"
++ "PHQueryForAssetCollectionType_SmartAlbum_block_invoke_110"
++ "PHQueryForAssetCollectionType_Suggestion_block_invoke_115"
++ "PHQueryForAssetCollectionType_Unknown_block_invoke_111"
++ "PHQueryForAssetCollectionType_Utility_block_invoke_119"
++ "PHQueryForAssetInAlbumKind_1WaySyncAlbum_block_invoke_40"
++ "PHQueryForAssetInAlbumKind_1WaySyncEvent_block_invoke_41"
++ "PHQueryForAssetInAlbumKind_1WaySyncFolder_block_invoke_43"
++ "PHQueryForAssetInAlbumKind_1WaySyncLibraryAlbum_block_invoke_42"
++ "PHQueryForAssetInAlbumKind_1stSpecial_block_invoke_30"
++ "PHQueryForAssetInAlbumKind_ActionCamVideoAlbum_block_invoke_98"
++ "PHQueryForAssetInAlbumKind_AllAssetsAlbum_block_invoke_45"
++ "PHQueryForAssetInAlbumKind_AllHiddenAlbum_block_invoke_57"
++ "PHQueryForAssetInAlbumKind_AllImportedAlbum_block_invoke_49"
++ "PHQueryForAssetInAlbumKind_AllLibraryDuplicatesAlbum_block_invoke_89"
++ "PHQueryForAssetInAlbumKind_AllNonPhotoStreamAssetsAlbum_block_invoke_46"
++ "PHQueryForAssetInAlbumKind_AllPhotoStream_block_invoke_47"
++ "PHQueryForAssetInAlbumKind_AllPhotosAlbum_block_invoke_75"
++ "PHQueryForAssetInAlbumKind_AnimatedAlbum_block_invoke_68"
++ "PHQueryForAssetInAlbumKind_BurstsAlbum_block_invoke_60"
++ "PHQueryForAssetInAlbumKind_CameraSession_block_invoke_34"
++ "PHQueryForAssetInAlbumKind_CapturedByMeAlbum_block_invoke_94"
++ "PHQueryForAssetInAlbumKind_CinematicVideoAlbum_block_invoke_90"
++ "PHQueryForAssetInAlbumKind_CloudSharedAlbum_block_invoke_35"
++ "PHQueryForAssetInAlbumKind_ConversationAlbum_block_invoke_39"
++ "PHQueryForAssetInAlbumKind_DepthEffectAlbum_block_invoke_66"
++ "PHQueryForAssetInAlbumKind_Duplicate_block_invoke_88"
++ "PHQueryForAssetInAlbumKind_Event_block_invoke_28"
++ "PHQueryForAssetInAlbumKind_EventsSmartFolder_block_invoke_85"
++ "PHQueryForAssetInAlbumKind_EventsStandIn_block_invoke_83"
++ "PHQueryForAssetInAlbumKind_FacesSmartFolder_block_invoke_86"
++ "PHQueryForAssetInAlbumKind_FacesStandIn_block_invoke_82"
++ "PHQueryForAssetInAlbumKind_FavoriteMemoriesSmartFolder_block_invoke_87"
++ "PHQueryForAssetInAlbumKind_FavoritesAlbum_block_invoke_55"
++ "PHQueryForAssetInAlbumKind_FilesystemImportProgressAlbum_block_invoke_78"
++ "PHQueryForAssetInAlbumKind_Folder_block_invoke_81"
++ "PHQueryForAssetInAlbumKind_FrontBackAlbum_block_invoke_95"
++ "PHQueryForAssetInAlbumKind_HorizontalPanoramasAlbum_block_invoke_54"
++ "PHQueryForAssetInAlbumKind_ImportSessionAlbum_block_invoke_36"
++ "PHQueryForAssetInAlbumKind_ImportStandIn_block_invoke_84"
++ "PHQueryForAssetInAlbumKind_LastImportAlbum_block_invoke_48"
++ "PHQueryForAssetInAlbumKind_LegacyFaces_block_invoke_27"
++ "PHQueryForAssetInAlbumKind_LivePhotosAlbum_block_invoke_67"
++ "PHQueryForAssetInAlbumKind_LongExposuresAlbum_block_invoke_69"
++ "PHQueryForAssetInAlbumKind_NotUploadedAlbum_DEPRECATED_block_invoke_71"
++ "PHQueryForAssetInAlbumKind_OTARestoreProgressAlbum_block_invoke_77"
++ "PHQueryForAssetInAlbumKind_PanoramasAlbum_block_invoke_50"
++ "PHQueryForAssetInAlbumKind_PhotoStream_block_invoke_31"
++ "PHQueryForAssetInAlbumKind_PictureFrame_block_invoke_33"
++ "PHQueryForAssetInAlbumKind_PlacesSmartAlbum_block_invoke_65"
++ "PHQueryForAssetInAlbumKind_Places_block_invoke_29"
++ "PHQueryForAssetInAlbumKind_ProResAlbum_block_invoke_97"
++ "PHQueryForAssetInAlbumKind_ProjectAlbumRootFolder_block_invoke_79"
++ "PHQueryForAssetInAlbumKind_Project_block_invoke_38"
++ "PHQueryForAssetInAlbumKind_RAWAlbum_block_invoke_91"
++ "PHQueryForAssetInAlbumKind_RecentlyAddedAlbum_block_invoke_62"
++ "PHQueryForAssetInAlbumKind_RecentlyEditedAlbum_block_invoke_73"
++ "PHQueryForAssetInAlbumKind_RecentlySavedAlbum_block_invoke_92"
++ "PHQueryForAssetInAlbumKind_RecentsAlbum_DEPRECATED_block_invoke_72"
++ "PHQueryForAssetInAlbumKind_RecoveredAlbum_block_invoke_93"
++ "PHQueryForAssetInAlbumKind_Regular_block_invoke_26"
++ "PHQueryForAssetInAlbumKind_RootFolder_block_invoke_80"
++ "PHQueryForAssetInAlbumKind_SavedPhotos_block_invoke_44"
++ "PHQueryForAssetInAlbumKind_ScreenRecordingsAlbum_block_invoke_74"
++ "PHQueryForAssetInAlbumKind_ScreenshotsAlbum_block_invoke_64"
++ "PHQueryForAssetInAlbumKind_SelfPortraitsAlbum_block_invoke_63"
++ "PHQueryForAssetInAlbumKind_SharedLibrarySharingSuggestionsAlbum_block_invoke_96"
++ "PHQueryForAssetInAlbumKind_SlomoVideosAlbum_block_invoke_61"
++ "PHQueryForAssetInAlbumKind_SpatialAlbum_block_invoke_51"
++ "PHQueryForAssetInAlbumKind_SyncProgressAlbum_block_invoke_76"
++ "PHQueryForAssetInAlbumKind_TimelapsesAlbum_block_invoke_56"
++ "PHQueryForAssetInAlbumKind_TrashBinAlbum_block_invoke_58"
++ "PHQueryForAssetInAlbumKind_UnableToUploadAlbum_block_invoke_70"
++ "PHQueryForAssetInAlbumKind_UserLibraryAlbum_block_invoke_59"
++ "PHQueryForAssetInAlbumKind_UserSmartAlbum_block_invoke_37"
++ "PHQueryForAssetInAlbumKind_VerticalPanoramasAlbum_block_invoke_53"
++ "PHQueryForAssetInAlbumKind_VideosAlbum_block_invoke_52"
++ "PHQueryForAssetInAlbumKind_Wallpaper_UNUSED_block_invoke_32"
++ "PHQueryForAssetResourceUploadJobsInUploadJobConfiguration_block_invoke_13"
++ "PHQueryForAssetsAlbum_SortKeyOther_block_invoke_99"
++ "PHQueryForAssetsInAlbum_SortKeyContentTitle_block_invoke_107"
++ "PHQueryForAssetsInAlbum_SortKeyCreationDate_block_invoke_101"
++ "PHQueryForAssetsInAlbum_SortKeyImportDate_block_invoke_103"
++ "PHQueryForAssetsInAlbum_SortKeyLastModifiedDate_block_invoke_102"
++ "PHQueryForAssetsInAlbum_SortKeyManual_block_invoke_100"
++ "PHQueryForAssetsInAlbum_SortKeyPublishDate_block_invoke_106"
++ "PHQueryForAssetsInAlbum_SortKeyTitle_block_invoke_105"
++ "PHQueryForAssetsInAlbum_SortKeyTrashDate_block_invoke_104"
++ "PHQueryForAssetsInCollectionShare_block_invoke_16"
++ "PHQueryForAssetsInConversation_block_invoke_22"
++ "PHQueryForAssetsInImportSession_block_invoke_21"
++ "PHQueryForAssetsInMemory_block_invoke_17"
++ "PHQueryForAssetsInMomentShare_block_invoke_15"
++ "PHQueryForAssetsInMoment_block_invoke_14"
++ "PHQueryForAssetsInOtherSmartAlbum_block_invoke_24"
++ "PHQueryForAssetsInPhotosHighlight_block_invoke_18"
++ "PHQueryForAssetsInSearchIndex_block_invoke_25"
++ "PHQueryForAssetsInSharedLibrarySuggestion_block_invoke_19"
++ "PHQueryForAssetsInSuggestion_block_invoke_20"
++ "PHQueryForAssetsInUserSmartAlbum_block_invoke_23"
++ "PHQueryForAssetsInUtility_GenericDocument_block_invoke_132"
++ "PHQueryForAssetsInUtility_Handwriting_block_invoke_135"
++ "PHQueryForAssetsInUtility_IdentityDocuments_block_invoke_138"
++ "PHQueryForAssetsInUtility_Illustrations_block_invoke_134"
++ "PHQueryForAssetsInUtility_Maps_block_invoke_137"
++ "PHQueryForAssetsInUtility_Other_block_invoke_139"
++ "PHQueryForAssetsInUtility_QRCodes_block_invoke_136"
++ "PHQueryForAssetsInUtility_Receipts_block_invoke_133"
++ "PHQueryForCollectionsInInternalRootFolder_block_invoke_7"
++ "PHQueryForCollectionsInUserCollectionRootFolder_block_invoke_6"
++ "PHQueryForKeyAssetsInAssetCollection_block_invoke_11"
++ "PHQueryForKeyAssetsInCollectionShare_block_invoke_10"
++ "PHQueryForKeyAssetsInMomentShare_block_invoke_9"
++ "PHQueryForKeyAssetsInSuggestion_block_invoke_8"
++ "PHQueryForKeySharingSuggestionAssetsInHighlight_block_invoke_12"
++ "PHQueryForTransientAssetCollectionType_Generic_block_invoke_123"
++ "PHQueryForTransientAssetCollectionType_ImportHistory_block_invoke_124"
++ "PHQueryForTransientAssetCollectionType_Other_block_invoke_131"
++ "PHQueryForTransientAssetCollectionType_RecentlyEdited_block_invoke_125"
++ "PHQueryForTransientAssetCollectionType_RecentlyShared_block_invoke_126"
++ "PHQueryForTransientAssetCollectionType_RecentlyViewed_block_invoke_127"
++ "PHQueryForTransientAssetCollectionType_SavedToday_block_invoke_130"
++ "PHQueryForTransientAssetCollectionType_SearchCollectionResults_block_invoke_129"
++ "PHQueryForTransientAssetCollectionType_SearchTopResults_block_invoke_128"
++ "PHSearchResultTypePerson"
++ "PHSearchSuggestionCategoriesTypeRecencyType"
++ "RecencyType"
++ "Semantic search string: %@, "
++ "Spotlight annotated query: %@, "
++ "Stat failed at path: %@"
++ "Unknown(%ld)"
++ "[PHResourceLocalAvailabilityRequest: %llu] Asset resource %{public}@ for asset %{public}@ marked locally available, but file is zero bytes. Requesting service to fix."
++ "[PHResourceLocalAvailabilityRequest: %llu] Asset resource %{public}@ for asset %{public}@ stat failed: %@"
++ "[RM]: %@ Failed to decode image, error: %@"
++ "[RM]: %@ failed to decode for asset: %@, error: %@"
++ "[RM]: %ld-%ld requesting live photo for asset %@ def proc needed: %@, vid def proc needed: %@, with options: %@"
++ "acceptanceDate"
++ "kQPQUOutputSafetyAnnotationSource"
++ "queryForAssetsWithCloudIdentifiers: cannot include both PHAssetSourceTypeCloudShared and PHAssetSourceTypeCollectionShare"
++ "queryForAssetsWithCloudIdentifiers: cannot include both PHAssetSourceTypeCloudShared and PHAssetSourceTypeCollectionShare — cloudAssetGUID is not unique across these scopes"
++ "v44@?0^{CGImage=}8^{__CVBuffer=}16I24@\"NSNumber\"28@\"NSError\"36"
++ "v48@?0@\"NSArray\"8@\"NSArray\"16@\"NSArray\"24Q32@\"NSError\"40"
+- "%@ Applying %tu scoped identifiers to query results"
+- "%@ Attempted to instantiate assetUUID based Leo operand with 0 assetUUIDs, aborting token initialization"
+- "%@ Attributed parse is empty for query: %@"
+- "%@ Attributed parse length (%tu) does not match query string length (%tu) for query: %@"
+- "%@ Beginning query execution for predicate: %@"
+- "%@ Completed query execution with result: %@"
+- "%@ Content classification priority ranking: %tu input items"
+- "%@ Created %lu final ranking buckets with sizes: %@"
+- "%@ Empty text provided for text operand in range: %@ of query string: %@"
+- "%@ Encountered operand with undefined type: %@"
+- "%@ Error generating LEOOperand for queryToken: %@ when processing associated operands: %@"
+- "%@ Error generating LEOOperator for queryToken: %@ when processing associated operands: %@"
+- "%@ Evaluating parse substring %@: %@ for query: %@"
+- "%@ Exceeded the max token count of %tu for high precision search for query: %@, standard precision will be used"
+- "%@ Extracting tokens: %@ from text: %@ for language: %@"
+- "%@ Failed to execute LEO query: %@"
+- "%@ Failed to execute cardinality query: %@"
+- "%@ Failed to execute exclusive query: %@"
+- "%@ Failed to execute semantic query: %@"
+- "%@ Failed to fetch date lexemes: %@"
+- "%@ Failed to fetch lexeme IDs for uuid: %@: %@"
+- "%@ Failed to fetch lexemes for asset UUIDs: %@"
+- "%@ Failed to fetch lexemes for bundle identifier: %@"
+- "%@ Failed to fetch lexemes for cardinality operand: %@: %@"
+- "%@ Failed to fetch lexemes for geo region: %@"
+- "%@ Failed to fetch lexemes for identifier bitmask: %@"
+- "%@ Failed to fetch lexemes for location name: %@: %@"
+- "%@ Failed to fetch lexemes for numeric range: %@"
+- "%@ Failed to fetch lexemes for parse token %@: %@"
+- "%@ Failed to fetch lexemes for ranking: %@"
+- "%@ Failed to fetch lexemes for span: \"%@\" in query: %@, error: %@"
+- "%@ Failed to fetch lexemes for text: %@: %@"
+- "%@ Failed to fetch lexemes for uuid: %@: %@"
+- "%@ Failed to fetch person lexemes for parse token %@: %@"
+- "%@ Failed to get geo region for location name \"%@\": %@"
+- "%@ Failed to resolve lexemeID (%@) in query match details for precision mode: %@. Query context lexemes: %@"
+- "%@ Failed to resolve lexemeID (%u) in per-item match processing for precision mode: %@. Query context lexemes: %@"
+- "%@ Falling back to approximate location query for text based operand: %@, matchMode: %@, matchOptions: %@, identifier: %@, categories: %@"
+- "%@ Found %tu associated tokens for semantic phrase: %@ with associated operands: %@"
+- "%@ Found %tu lexemes for text: %@, matchMode: %@, matchOptions: %@, identifier: %@, categories: %@"
+- "%@ Found %tu lexemes for uuid: %@"
+- "%@ Found 0 lexemes for approximate location based operand: %@, matchMode: %@, matchOptions: %@, identifier: %@, categories: %@"
+- "%@ Found 0 lexemes for text based operand: %@, matchMode: %@, matchOptions: %@, identifier: %@, categories: %@"
+- "%@ Found 0 semantic results for semantic phrase: %@, with threshold type: %@, filtered asset UUIDs count: %tu"
+- "%@ Found no lexemes for approximate location (lat, lon) = (%f, %f), expansionInMeters = %f"
+- "%@ Found no lexemes for approximate location: %@"
+- "%@ Found no lexemes for assetUUIDs: %@"
+- "%@ Found no lexemes for associated operand in cardinality operand: %@"
+- "%@ Found no lexemes for exclusion in cardinality operand: %@"
+- "%@ Found no lexemes for identifier bitmask: 0x%llx, categories: %@"
+- "%@ Found no lexemes for min value: %@, max value: %@, categories: %@"
+- "%@ Found no lexemes for start date components: %@, end date components: %@"
+- "%@ Found no results for cardinality operand"
+- "%@ Found no results for the associated operands: %@ for the semantic phrase: %@, will not execute semantic phrase search"
+- "%@ Found person grounded term: %@ in parse: %@"
+- "%@ Found unsupported associated operand: %@ for owning operand with type: %@, unable to process query"
+- "%@ Generated LEOItemQuery:\n%@\n from predicate:\n%@\n"
+- "%@ Generated date components: %@ from ISO week date dictionary: %@"
+- "%@ Generated date components: %@ from date dictionary: %@"
+- "%@ Generated date op: %@ for date string: %@ in range:%@ in query: %@"
+- "%@ Generated text op: %@ for substring: %@ in range:%@ in query: %@"
+- "%@ Generated text op: %@ for word: \"%@\" in range:%@ in query: %@"
+- "%@ Generating operand for %tu asset uuids "
+- "%@ Generating operand for cardinality operands: %@, min value: %@, max value: %@"
+- "%@ Generating operand for exclusive operands: %@, associated operator: %@"
+- "%@ Generating operand for identifier bitmask: 0x%llx, categories: %@"
+- "%@ Generating operand for location: %@ with expansion type %@, expansion amount %f"
+- "%@ Generating operand for min value: %@, max value: %@, categories: %@"
+- "%@ Generating operand for semantic phrase: %@ with threshold: %@, associated operands: %@, associated operator: %@"
+- "%@ Generating operand for start date components: %@, end date components: %@"
+- "%@ Generating operand for text: %@, matchMode: %@, matchOptions: %@, identifier: %@, categories: %@"
+- "%@ High precision mode will return 0 results: %@"
+- "%@ High precision predicate: found full-text match for span: \"%@\", matched %tu lexeme(s), in query: %@"
+- "%@ High precsion predicate: found fuzzy person matched lexemes for parse token: %@: %@, in query: %@"
+- "%@ High precsion predicate: found unexpected token type for parse token:%@, aborting high precision predicate generation for parse: %@"
+- "%@ High precsion predicate: start generating high precision predicate from parse tokens %@, in query: %@"
+- "%@ Invalid range: %@ provided for text operand: %@ in query string: %@"
+- "%@ Match details not requested for query. Options: %@"
+- "%@ MatchedThumbnailIdentifier: %@, for asset: %@ with lookupIdentifiers: %@ for precision mode: %@"
+- "%@ Metadata search disabled, not generating operand for cardinality operands: %@, min value: %@, max value: %@"
+- "%@ Metadata search disabled, not generating operand for identifier bitmask: 0x%llx, categories: %@"
+- "%@ Metadata search disabled, not generating operand for min value: %@, max value: %@, categories: %@"
+- "%@ Metadata search disabled, not generating operand for start date components: %@, end date components: %@"
+- "%@ Metadata search disabled, not generating operand for text: %@, matchMode: %@, matchOptions: %@, identifier: %@, categories: %@"
+- "%@ No dates provided in date dictionary"
+- "%@ No filtered tokens are available for query: %@, generating a high precision predicate, standard precision will be used"
+- "%@ No qualifying asset results found for high precision mode - will return 0 results"
+- "%@ No supported date components found for date string: %@ in range:%@, attributes: %@, query: %@"
+- "%@ Not constructing approximate location operator, feature LeoPIRLocationSearch is not enabled"
+- "%@ PHFindNonSuggestionTextSpansFromTokens called with nil parseTokens or queryString"
+- "%@ Processing %tu query results for precision mode: %@"
+- "%@ Ranking date bucketing: %lu items, epsilon=%.1f days, minSize=%lu, initial buckets=%lu"
+- "%@ Ranking disabled due to request for sorted results"
+- "%@ Ranking is disabled, returning unranked items to final result, query options: %@"
+- "%@ Ranking is enabled, ranking results with ranking options: %@"
+- "%@ Selected parse with confidence %tu from %tu candidates. Parse: %@"
+- "%@ Semantic search and metadata search disabled, not executing semantic phrase: %@, or associated operands: %@"
+- "%@ Semantic search disabled, not executing semantic phrase: %@, only associated operands: %@"
+- "%@ Skipping embedding search due to unit test config"
+- "%@ Skipping lexeme with invalid data: lexemeID=%u, rawCategory: %td, text: %@, identifier: %@"
+- "%@ Skipping lexeme with unrecognized rawCategory: %td, text: %@, identifier: %@"
+- "%@ Skipping text token '%@' at range %@ because it overlaps with a date token"
+- "%@ Standard predicate: generated final predicate: %@ for query %@"
+- "%@ Standard predicate: generated semantic op: %@ in range: %@ of query: %@"
+- "%@ Standard predicate: generated text based predicate for semantic terms: %@ for query %@"
+- "%@ Standard predicate: generated text based predicate: %@ for query %@"
+- "%@ Standard predicate: skipping stop word(s): %@ in range: %@ of query: %@"
+- "%@ Start enumerating attr for QP parse: %@ for queryString: %@"
+- "%@ Stripped all tokens from semantic phrase: %@ after removing suggestion: %@"
+- "%@ Stripped suggestion: %@ from semantic phrase: %@, result: %@"
+- "%@ Unable to access Leo datastore with error: %@, for lexemes query:\n%@\n"
+- "%@ Unable to access Leo datastore with error: %@, for predicate:\n%@\n"
+- "%@ Unable to generate operand for suggestion: %@ at range: %@ in query string: %@"
+- "%@ Unable to generate text op for substring: %@ in range:%@ in query: %@"
+- "%@ Unable to ground date dictionary to a concrete date: %@"
+- "%@ Unable to process token:\n%@\n for predicate:\n%@\n"
+- "%@ Unable to resolve ISO week date components to a concrete date: %@"
+- "%@ Unexpected missing NLTag for word: %@ at range: %@ in query: %@, will not include in query"
+- "%@ Unsupported operand: %@ generated for query: %@ in range: %@"
+- "%@ VSK query: error executing semantic query: %@, %@"
+- "%@ VSK query: error generating query embedding for semantic phrase: %@, %@"
+- "%@ VSK query: found %tu semantic search results above threshold %f after processing for semantic phrase: %@"
+- "%@ VSK query: no results found semantic query: %@, %@"
+- "%@ VSK query: post-filter semantic query with %tu assetUUIDs for semantic phrase: %@"
+- "%@ VSK query: processing %tu semantic search results for semantic phrase: %@"
+- "%@ VSK query: requesting embedding for semantic phrase: %@"
+- "%@ VSK query: semantic phrase is unsafe: %@ (isSafeByClassifier=%@, isSafeByLexicon=%@)"
+- "%@ VSK query: timed out waiting for query embedding generation for semantic query: %@"
+- "%@ VSK query: unable to generate embedding vector for retrieved query result: %@ for semantic query: %@"
+- "%@ Will not gather lexemes to fetch for bundle identifier, result bundle ids have not been requested:%@"
+- "%@ Will not gather lexemes to fetch for ranking, ranked results have not been requested:%@"
+- "%@ Will not keep track of matched lexemes for query, metadata search is disabled or no per result match info has been requested:%@"
+- "%@ Will not keep track of query embeddings for query, query embedding: %@ does not exist or semantic search is disabled:%@"
+- "%@ Will not keep track of query embeddings indices for query, either no indices were provided: %@ or semantic search is disabled:%@"
+- "%@ Will not keep track of query embeddings scores for query, either no relevance scores were provided: %@ or semantic search is disabled:%@"
+- "%@ state chaged to unlocked"
+- "%@ ⚠️ Time diversity disabled, ranking by score only"
+- "%@ ⚠️ Time diversity disabled, ranking with content classification priority"
+- "%@ 🛑 Encountered lexeme: %@ with undefined category for UUID: %@, skipping result"
+- "%@ 🛑 Unexpected suggestion type, unable to generate operands for suggestion: %@"
+- "%@sCount: %tu"
+- "%ld-%ld - Making edit request in preparation for live rendering live photo's video complement"
+- "%{public}@ QueryParser flagged semantic phrase as unsafe. SemanticPhrase: %@, Query: %@"
+- "%{public}@ [%{public}@] Completed intent query for query: %@ with %tu results: %@ and status: %tu"
+- "%{public}@ [%{public}@] Completed intent query for query: %@ with error: %@, with %tu results: %@ and status: %tu"
+- ", rankedAssetResultItemsCount: %tu"
+- "/AppleInternal/Library/BuildRoots/4~CQu_ugA2lunHDQbpcbbte0Ek-hcIGyHE-SqI62A/Library/Caches/com.apple.xbs/TemporaryDirectory.0zOc0b/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportAsset.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu_ugA2lunHDQbpcbbte0Ek-hcIGyHE-SqI62A/Library/Caches/com.apple.xbs/TemporaryDirectory.0zOc0b/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportAvchdAsset.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu_ugA2lunHDQbpcbbte0Ek-hcIGyHE-SqI62A/Library/Caches/com.apple.xbs/TemporaryDirectory.0zOc0b/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportController.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu_ugA2lunHDQbpcbbte0Ek-hcIGyHE-SqI62A/Library/Caches/com.apple.xbs/TemporaryDirectory.0zOc0b/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportDeviceAsset.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu_ugA2lunHDQbpcbbte0Ek-hcIGyHE-SqI62A/Library/Caches/com.apple.xbs/TemporaryDirectory.0zOc0b/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportLegacyLibrarySource.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu_ugA2lunHDQbpcbbte0Ek-hcIGyHE-SqI62A/Library/Caches/com.apple.xbs/TemporaryDirectory.0zOc0b/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportLibrarySource.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu_ugA2lunHDQbpcbbte0Ek-hcIGyHE-SqI62A/Library/Caches/com.apple.xbs/TemporaryDirectory.0zOc0b/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportResults.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu_ugA2lunHDQbpcbbte0Ek-hcIGyHE-SqI62A/Library/Caches/com.apple.xbs/TemporaryDirectory.0zOc0b/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportSource.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu_ugA2lunHDQbpcbbte0Ek-hcIGyHE-SqI62A/Library/Caches/com.apple.xbs/TemporaryDirectory.0zOc0b/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportUrlSource.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu_ugA2lunHDQbpcbbte0Ek-hcIGyHE-SqI62A/Library/Caches/com.apple.xbs/TemporaryDirectory.0zOc0b/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImporter.m"
+- "/AppleInternal/Library/BuildRoots/4~CQu_ugA2lunHDQbpcbbte0Ek-hcIGyHE-SqI62A/Library/Caches/com.apple.xbs/TemporaryDirectory.0zOc0b/Sources/Photos/Projects/PhotoKit/Sources/PHPhotoLibrary.m"
+- "1!!1b"
+- "<PHFindQueryContext: queryId=%lld, photoLibrary=%p, leo=%p, findOptions=%@, leoOptions=%@, queryEmbeddingsCount=%tu, embeddingRelevanceScoresByUUID=%@, lexemesForQueryByLexemeId=%@, fetchedLexemeIDs=%@>"
+- "<PHFindQueryOptions: photoLibrary=%@, resultTypes=%@, scopedIdentifiers=%@, enableQueryMatchDetails=%@, enableResultItemBundleIdentifier=%@, disableMetadataSearch=%@, disableSemanticSearch=%@, precisionMode=%@, fetchContextualThumbnailData=%@, sortDescriptors=%@, clientIdentifier=%@>"
+- "<PHFindQueryResult: queryId=%lld, rankingOptions=%@, matchDetails=%@ error=%@, "
+- "<PHFindQueryResultItem: itemSubType=%@, uuid=%@, retrievalType=%@, metadataRelevanceScore=%f, embeddingRelevanceScore=%f, compositeRelevanceScore=%f, matchedThumbnailIdentifier=%@, utilityClassificationPriority=%tu, dateCreated=%f, bundleIdentifier=%@, isOCRTextMatch=%@, isEligibleForSuggestions=%@>"
+- "Asset resource file URL not reachable, may have been pruned, will attempt availability change request"
+- "Failed to decode because file does not exist at path: %@"
+- "Failed to open the library: %tu with error: %@ for query: %@"
+- "Failed to regenerate resources with location data removed for placeholder asset: %@ error: %@"
+- "Found existing trashed asset (%@) with same syndication id (%@), but it is missing both media metadata and original"
+- "PHFetchResult init after library became unavailable, setting fetchError to %@\n\tself: %@"
+- "PHQueryForAssetCollectionType_Album_block_invoke_106"
+- "PHQueryForAssetCollectionType_CollectionShare_block_invoke_118"
+- "PHQueryForAssetCollectionType_Conversation_block_invoke_115"
+- "PHQueryForAssetCollectionType_ImportSession_block_invoke_114"
+- "PHQueryForAssetCollectionType_Memory_block_invoke_110"
+- "PHQueryForAssetCollectionType_MomentShare_block_invoke_112"
+- "PHQueryForAssetCollectionType_Moment_block_invoke_107"
+- "PHQueryForAssetCollectionType_NoFetchType_block_invoke_120"
+- "PHQueryForAssetCollectionType_Other_block_invoke_119"
+- "PHQueryForAssetCollectionType_PhotosHighlight_block_invoke_111"
+- "PHQueryForAssetCollectionType_Project_block_invoke_116"
+- "PHQueryForAssetCollectionType_SmartAlbum_block_invoke_108"
+- "PHQueryForAssetCollectionType_Suggestion_block_invoke_113"
+- "PHQueryForAssetCollectionType_Unknown_block_invoke_109"
+- "PHQueryForAssetCollectionType_Utility_block_invoke_117"
+- "PHQueryForAssetInAlbumKind_1WaySyncAlbum_block_invoke_38"
+- "PHQueryForAssetInAlbumKind_1WaySyncEvent_block_invoke_39"
+- "PHQueryForAssetInAlbumKind_1WaySyncFolder_block_invoke_41"
+- "PHQueryForAssetInAlbumKind_1WaySyncLibraryAlbum_block_invoke_40"
+- "PHQueryForAssetInAlbumKind_1stSpecial_block_invoke_28"
+- "PHQueryForAssetInAlbumKind_ActionCamVideoAlbum_block_invoke_96"
+- "PHQueryForAssetInAlbumKind_AllAssetsAlbum_block_invoke_43"
+- "PHQueryForAssetInAlbumKind_AllHiddenAlbum_block_invoke_55"
+- "PHQueryForAssetInAlbumKind_AllImportedAlbum_block_invoke_47"
+- "PHQueryForAssetInAlbumKind_AllLibraryDuplicatesAlbum_block_invoke_87"
+- "PHQueryForAssetInAlbumKind_AllNonPhotoStreamAssetsAlbum_block_invoke_44"
+- "PHQueryForAssetInAlbumKind_AllPhotoStream_block_invoke_45"
+- "PHQueryForAssetInAlbumKind_AllPhotosAlbum_block_invoke_73"
+- "PHQueryForAssetInAlbumKind_AnimatedAlbum_block_invoke_66"
+- "PHQueryForAssetInAlbumKind_BurstsAlbum_block_invoke_58"
+- "PHQueryForAssetInAlbumKind_CameraSession_block_invoke_32"
+- "PHQueryForAssetInAlbumKind_CapturedByMeAlbum_block_invoke_92"
+- "PHQueryForAssetInAlbumKind_CinematicVideoAlbum_block_invoke_88"
+- "PHQueryForAssetInAlbumKind_CloudSharedAlbum_block_invoke_33"
+- "PHQueryForAssetInAlbumKind_ConversationAlbum_block_invoke_37"
+- "PHQueryForAssetInAlbumKind_DepthEffectAlbum_block_invoke_64"
+- "PHQueryForAssetInAlbumKind_Duplicate_block_invoke_86"
+- "PHQueryForAssetInAlbumKind_Event_block_invoke_26"
+- "PHQueryForAssetInAlbumKind_EventsSmartFolder_block_invoke_83"
+- "PHQueryForAssetInAlbumKind_EventsStandIn_block_invoke_81"
+- "PHQueryForAssetInAlbumKind_FacesSmartFolder_block_invoke_84"
+- "PHQueryForAssetInAlbumKind_FacesStandIn_block_invoke_80"
+- "PHQueryForAssetInAlbumKind_FavoriteMemoriesSmartFolder_block_invoke_85"
+- "PHQueryForAssetInAlbumKind_FavoritesAlbum_block_invoke_53"
+- "PHQueryForAssetInAlbumKind_FilesystemImportProgressAlbum_block_invoke_76"
+- "PHQueryForAssetInAlbumKind_Folder_block_invoke_79"
+- "PHQueryForAssetInAlbumKind_FrontBackAlbum_block_invoke_93"
+- "PHQueryForAssetInAlbumKind_HorizontalPanoramasAlbum_block_invoke_52"
+- "PHQueryForAssetInAlbumKind_ImportSessionAlbum_block_invoke_34"
+- "PHQueryForAssetInAlbumKind_ImportStandIn_block_invoke_82"
+- "PHQueryForAssetInAlbumKind_LastImportAlbum_block_invoke_46"
+- "PHQueryForAssetInAlbumKind_LegacyFaces_block_invoke_25"
+- "PHQueryForAssetInAlbumKind_LivePhotosAlbum_block_invoke_65"
+- "PHQueryForAssetInAlbumKind_LongExposuresAlbum_block_invoke_67"
+- "PHQueryForAssetInAlbumKind_NotUploadedAlbum_DEPRECATED_block_invoke_69"
+- "PHQueryForAssetInAlbumKind_OTARestoreProgressAlbum_block_invoke_75"
+- "PHQueryForAssetInAlbumKind_PanoramasAlbum_block_invoke_48"
+- "PHQueryForAssetInAlbumKind_PhotoStream_block_invoke_29"
+- "PHQueryForAssetInAlbumKind_PictureFrame_block_invoke_31"
+- "PHQueryForAssetInAlbumKind_PlacesSmartAlbum_block_invoke_63"
+- "PHQueryForAssetInAlbumKind_Places_block_invoke_27"
+- "PHQueryForAssetInAlbumKind_ProResAlbum_block_invoke_95"
+- "PHQueryForAssetInAlbumKind_ProjectAlbumRootFolder_block_invoke_77"
+- "PHQueryForAssetInAlbumKind_Project_block_invoke_36"
+- "PHQueryForAssetInAlbumKind_RAWAlbum_block_invoke_89"
+- "PHQueryForAssetInAlbumKind_RecentlyAddedAlbum_block_invoke_60"
+- "PHQueryForAssetInAlbumKind_RecentlyEditedAlbum_block_invoke_71"
+- "PHQueryForAssetInAlbumKind_RecentlySavedAlbum_block_invoke_90"
+- "PHQueryForAssetInAlbumKind_RecentsAlbum_DEPRECATED_block_invoke_70"
+- "PHQueryForAssetInAlbumKind_RecoveredAlbum_block_invoke_91"
+- "PHQueryForAssetInAlbumKind_Regular_block_invoke_24"
+- "PHQueryForAssetInAlbumKind_RootFolder_block_invoke_78"
+- "PHQueryForAssetInAlbumKind_SavedPhotos_block_invoke_42"
+- "PHQueryForAssetInAlbumKind_ScreenRecordingsAlbum_block_invoke_72"
+- "PHQueryForAssetInAlbumKind_ScreenshotsAlbum_block_invoke_62"
+- "PHQueryForAssetInAlbumKind_SelfPortraitsAlbum_block_invoke_61"
+- "PHQueryForAssetInAlbumKind_SharedLibrarySharingSuggestionsAlbum_block_invoke_94"
+- "PHQueryForAssetInAlbumKind_SlomoVideosAlbum_block_invoke_59"
+- "PHQueryForAssetInAlbumKind_SpatialAlbum_block_invoke_49"
+- "PHQueryForAssetInAlbumKind_SyncProgressAlbum_block_invoke_74"
+- "PHQueryForAssetInAlbumKind_TimelapsesAlbum_block_invoke_54"
+- "PHQueryForAssetInAlbumKind_TrashBinAlbum_block_invoke_56"
+- "PHQueryForAssetInAlbumKind_UnableToUploadAlbum_block_invoke_68"
+- "PHQueryForAssetInAlbumKind_UserLibraryAlbum_block_invoke_57"
+- "PHQueryForAssetInAlbumKind_UserSmartAlbum_block_invoke_35"
+- "PHQueryForAssetInAlbumKind_VerticalPanoramasAlbum_block_invoke_51"
+- "PHQueryForAssetInAlbumKind_VideosAlbum_block_invoke_50"
+- "PHQueryForAssetInAlbumKind_Wallpaper_UNUSED_block_invoke_30"
+- "PHQueryForAssetResourceUploadJobsInUploadJobConfiguration_block_invoke_11"
+- "PHQueryForAssetsAlbum_SortKeyOther_block_invoke_97"
+- "PHQueryForAssetsInAlbum_SortKeyContentTitle_block_invoke_105"
+- "PHQueryForAssetsInAlbum_SortKeyCreationDate_block_invoke_99"
+- "PHQueryForAssetsInAlbum_SortKeyImportDate_block_invoke_101"
+- "PHQueryForAssetsInAlbum_SortKeyLastModifiedDate_block_invoke_100"
+- "PHQueryForAssetsInAlbum_SortKeyManual_block_invoke_98"
+- "PHQueryForAssetsInAlbum_SortKeyPublishDate_block_invoke_104"
+- "PHQueryForAssetsInAlbum_SortKeyTitle_block_invoke_103"
+- "PHQueryForAssetsInAlbum_SortKeyTrashDate_block_invoke_102"
+- "PHQueryForAssetsInCollectionShare_block_invoke_14"
+- "PHQueryForAssetsInConversation_block_invoke_20"
+- "PHQueryForAssetsInImportSession_block_invoke_19"
+- "PHQueryForAssetsInMemory_block_invoke_15"
+- "PHQueryForAssetsInMomentShare_block_invoke_13"
+- "PHQueryForAssetsInMoment_block_invoke_12"
+- "PHQueryForAssetsInOtherSmartAlbum_block_invoke_22"
+- "PHQueryForAssetsInPhotosHighlight_block_invoke_16"
+- "PHQueryForAssetsInSearchIndex_block_invoke_23"
+- "PHQueryForAssetsInSharedLibrarySuggestion_block_invoke_17"
+- "PHQueryForAssetsInSuggestion_block_invoke_18"
+- "PHQueryForAssetsInUserSmartAlbum_block_invoke_21"
+- "PHQueryForKeyAssetsInAssetCollection_block_invoke_9"
+- "PHQueryForKeyAssetsInCollectionShare_block_invoke_8"
+- "PHQueryForKeyAssetsInMomentShare_block_invoke_7"
+- "PHQueryForKeyAssetsInSuggestion_block_invoke_6"
+- "PHQueryForKeySharingSuggestionAssetsInHighlight_block_invoke_10"
+- "Preparing query options for SPL query with bundleIDs: %@"
+- "Preparing query options for syndication library query with bundleIDs: %@"
+- "Semantic search string: %@"
+- "Spotlight annotated query: %@"
+- "[PHResourceLocalAvailabilityRequest: %llu] Asset resource %{public}@ for asset %{public}@ marked locally available, but doesn't exist in file system. Possibly purged due to CacheDelete. Requesting download."
+- "[RM]: %@ Failed to decode image"
+- "[RM]: %@ failed to decode for asset: %@, error code: %ld, description: %@"
+- "expect trashable asset"
+- "kQPQUOutputIsUnsafe"
+- "match details: %@, "
+- "v36@?0^{CGImage=}8^{__CVBuffer=}16I24@\"NSNumber\"28"
+- "v40@?0@\"NSArray\"8@\"NSArray\"16Q24@\"NSError\"32"
+
+```

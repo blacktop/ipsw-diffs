@@ -1,0 +1,191 @@
+## LinkPresentation
+
+> `/System/Library/Frameworks/LinkPresentation.framework/Versions/A/LinkPresentation`
+
+```diff
+
+-308.1.0.0.0
+-  __TEXT.__text: 0xf6518 sha256:22a83d6188962f1d8ce06e39a7d81dc008da2cf81b9422dd00109a9c612ff8ef
+-  __TEXT.__objc_methlist: 0x102b4 sha256:e87030d5611f99dc5609b8fd0cd29953b1041972533544981e1fa80bf0bcf6f0
+-  __TEXT.__cstring: 0x7b6b sha256:ff24766c876d24536c047a66aa3d6d91de2eaccd8f3aff4d78a66e210b1e723b
+-  __TEXT.__gcc_except_tab: 0x2022c sha256:d07c5ba536d00b9712c600ba993e775d16ae76db7833721c9dd97f83e85d1bba
+-  __TEXT.__const: 0x1a84 sha256:f8120e71198fdee555fb8e9d9541d58d8ca9d3381878e392d51c0b418b1c5dc7
+-  __TEXT.__ustring: 0x3f6 sha256:e4cc605266d51dc483ceeca4f4fb6eda7ba969e7a15da6c9c2b68f6d2faeab5f
++310.0.0.0.0
++  __TEXT.__text: 0xf63cc sha256:5ff9aac7e0bcb44f491e57041e722e9c8bc75bf76b59cbb170ba10e86851c985
++  __TEXT.__objc_methlist: 0x102c4 sha256:3ea5b6008f77022eef00045ade3da67ae28dc0b9a92c95025c537b91f903ab2b
++  __TEXT.__cstring: 0x7b6b sha256:b2a64cac4c6ab0c7071c628134df3f6c45f892840a7ff07ce7f6484229984932
++  __TEXT.__gcc_except_tab: 0x20158 sha256:256c97db1746ceae51efda6f250a295de38025d11892071cfa6ab45224e753bc
++  __TEXT.__const: 0x1ab4 sha256:e4ec7fc3b5df29d742c1097d76b5de0944fc4928ade31ad32b82188cb4c1f436
++  __TEXT.__ustring: 0x3f6 sha256:d6fe4fb84507d1d52efd0b1841e383dd81ba85e5fb7a4318c8de6ce9d6580d5c
+   __TEXT.__oslogstring: 0x3504 sha256:2f2549b3b3c30980b4bf9f5730a8b1f577f99badc86eed680ac7df0111d7c70a
+   __TEXT.__dlopen_cstrs: 0x5ac sha256:4ceced15bb2e13607f36995c5ed3fc16751e9c38fe939df21cbb4f03eb181323
+-  __TEXT.__swift5_typeref: 0x5b8 sha256:6acaa0358f8eba7e90e2c769d68286b6d1453d6975b1e069b02eb5e2b3048920
+-  __TEXT.__constg_swiftt: 0x54c sha256:f5557e1c30fd19c2e963fc14da76c745220c4f8bb07b7857ace140466ec416ad
++  __TEXT.__swift5_typeref: 0x5b8 sha256:106b413d4011042598a30e54c5441090bef45264f73d30381bd1ed928b26d608
++  __TEXT.__constg_swiftt: 0x54c sha256:ad93e946f9fe373e123c55ede5e21b8157518c3b4bd49a4c45af34c947fe6995
+   __TEXT.__swift5_fieldmd: 0x2c0 sha256:825f5d287b1b4342b9b4d94355f33b28ee168322529e223c841eadcba2bae1dc
+   __TEXT.__swift5_types: 0x5c sha256:9bb8673c70d7ba99c215bc7bc4803dfb7bca47a322f2decad1c274c3e2cd4147
+   __TEXT.__swift5_reflstr: 0x24b sha256:15a8fb5adf5846e6f6d8c98fc08cc92a14ebd850b1ee4b6304d2eac436f8abff
+
+   __TEXT.__swift5_assocty: 0x138 sha256:75ac70280ceeebfa1e7f724f5017e463ff27969378725bb81d205700b3f3cb0e
+   __TEXT.__swift5_proto: 0x94 sha256:2d5faa5dbe9694e8f42b7d4200c58ae5cf40367b925f6361c9bfaf2485a79b34
+   __TEXT.__swift5_capture: 0xa8 sha256:c6be084c1cf90bfeeaa04419d81fea599c17407a4c813a644751b8f483cb90dd
+-  __TEXT.__swift_as_entry: 0x24 sha256:13390df3a5d8fff2d5e47c3ae0ae3a82049958f94da7ffb9781dbc7750d6f9b8
+-  __TEXT.__swift_as_ret: 0x1c sha256:9888fd4a81f1186daaad2845c45eb615e9c1842b494e54d1daf5451939b0a060
+-  __TEXT.__swift_as_cont: 0x44 sha256:10dfb91b97cec854f85fc1a460a8d41079f5ca1f5e5e61aadbf3a02ac7032e40
+-  __TEXT.__unwind_info: 0x75d0 sha256:34e53b547b2456a2842e6f8ff5a57718719d17471e29e72be2655ad4f225e190
+-  __TEXT.__eh_frame: 0x958 sha256:d1b40b3e1c44699aaf50f7d5903570d29a1b710720f5d39be2e8d4de7e6a999d
++  __TEXT.__swift_as_entry: 0x24 sha256:66af179d831a6c2ea29a4bef497329033ccb8868f5ff1a08d22b2eb6185339cf
++  __TEXT.__swift_as_ret: 0x1c sha256:444e495cecf527b1bc2a9b0a61fa8e0c0febf2557b43510629c4f0d5876c8853
++  __TEXT.__swift_as_cont: 0x44 sha256:18b2a398ddeef836c1d37f1b464e0df195801350128fceb23c4fac9fba13e3bb
++  __TEXT.__unwind_info: 0x75e0 sha256:ac910cd40799d07edaefb037e5427cfc44a9485f745018962cb0361c0492fc2c
++  __TEXT.__eh_frame: 0x958 sha256:032f8967aba0b210203d22d2aaf731d57809fff7e861f19319c3a95c26be9cac
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xa78 sha256:bf2e7d98bb9456d297d00088352081ac3b0ff44d6c6aa9e3060868d40539b1a5
+-  __DATA_CONST.__objc_classlist: 0x850 sha256:5856225a513bb42c8f1c8e4f5562a5430cbc3125d6da5c28656d62db2d754814
+-  __DATA_CONST.__objc_catlist: 0xa0 sha256:840946b45adaec13ffae21b502dcea4f05b35c98f81cd1976a748a2ffe204922
+-  __DATA_CONST.__objc_protolist: 0x1d8 sha256:2cf0c8c30d3205dbafa8c4ca4bccfd708e928ed95111fcb0c0e80c354d391387
++  __DATA_CONST.__const: 0xa78 sha256:d060656afb270341bf7f47d00a60e001433fbee44bcd3c59ba9695db9a311902
++  __DATA_CONST.__objc_classlist: 0x850 sha256:90bc107c798b1c3f92a35a874c0c41de70c1f4ca54168e1837d6f7f32efdc1a4
++  __DATA_CONST.__objc_catlist: 0xa0 sha256:28d1b74cd7d7409384c749e2bc73e3f9aeeb812e014eef5b9b54ce1f906753bb
++  __DATA_CONST.__objc_protolist: 0x1d8 sha256:c172b068976bef1090f2f4eb581b1af214e4c0ec5acfcf85705dbde2367d9e36
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x6dc8 sha256:88e7349d11231dffc962dbb0efc4da85616e7a5150064102c5239d71aaaef053
+-  __DATA_CONST.__objc_protorefs: 0x78 sha256:5d238af362ad899a1908244c645659683a78f8a907944f44bafe4494b93e5465
+-  __DATA_CONST.__objc_superrefs: 0x598 sha256:a0c95b109f45fe15cbe5ec0853ec154700207856e5c24b4a01adbc017577cded
+-  __DATA_CONST.__objc_arraydata: 0x1620 sha256:4e4f7e98ac8d3c85da6b0f56af399207e41c932e93b5bdf5c152cada71a7d15a
+-  __DATA_CONST.__got: 0xc70 sha256:6d555a2b1916685cbe49af88871dad021705c9f09bb35d24f1fd1f6ca3e5e741
+-  __AUTH_CONST.__const: 0x3200 sha256:3f6fb3d54d4ebc5dd7e330f6398c3639f8a7f273233d1483cc4065eb7bdcb889
+-  __AUTH_CONST.__cfstring: 0xd400 sha256:bb91ae944a70ee07790e3984019b82b4b4699d28423fd6a0512ede6ff6bd4b45
+-  __AUTH_CONST.__objc_const: 0x2ac10 sha256:5578c37e317a51c7c49e35b9af1eead47491ee3f21cff12220a0ffa5abbc7d9e
+-  __AUTH_CONST.__objc_intobj: 0x258 sha256:7c0550a4eddb917b6dbbc4f7bfed85048fea28fd1b7eaa06228cf27de708cfe1
+-  __AUTH_CONST.__objc_arrayobj: 0x630 sha256:f13b1eac8ace2b16376fbc8a64c6d86eb79e4feec5a9d6baee5e99ff81b8b551
+-  __AUTH_CONST.__objc_dictobj: 0xc8 sha256:8ec3ddeca29e44c4550f3ab76a9b1ee719610a90dd498e3a31f89e38ad35ae5f
+-  __AUTH_CONST.__objc_doubleobj: 0x60 sha256:6da265c556b9a83d63be9a5180644bc47e4db170e45ebbcdafc8e4e1e9d66586
++  __DATA_CONST.__objc_selrefs: 0x6dd8 sha256:d9fe0aec0ed9b37bf1e2d330b50a6126dc8d1784c22ec72f4a0fb7a077743e39
++  __DATA_CONST.__objc_protorefs: 0x78 sha256:358cb867b6e0c5b462890ba11eeeb1576e329244cf3c236f555ded362d2b0154
++  __DATA_CONST.__objc_superrefs: 0x598 sha256:c04ea82ada7198b2ad51caa69a41762c9400430ffa81dec890ecf2c2eabb4224
++  __DATA_CONST.__objc_arraydata: 0x1630 sha256:e4ed34573da28e1f73babc211d822015dd1d463514fc8f87c7034212225a5858
++  __DATA_CONST.__got: 0xc78 sha256:40df72dc9b119d00881bde396d840092102ead5c33d50597e563d06a4a93bb95
++  __AUTH_CONST.__const: 0x3200 sha256:b9b797313abd09e3c93ba59d2d0da5577e8d76d03ae65312ccb006c5dc0f21c2
++  __AUTH_CONST.__cfstring: 0xd420 sha256:72c6f163c0a3bd512b75bed63cc51cce42a1b547cb9199eb59fa9ffa8600f4e7
++  __AUTH_CONST.__objc_const: 0x2ac10 sha256:82b9899e0d8109f5461e975bbbd2a5ff7fba73114a9d8615f7a276aed66f60ed
++  __AUTH_CONST.__objc_intobj: 0x258 sha256:4933c2ababf56521b2ccc7789cc54f077ca8e9d86f7aed1601281fd8d8596c3e
++  __AUTH_CONST.__objc_arrayobj: 0x630 sha256:27ff22786cb3e1c66b8b0d15431e184a4e28dd70c5186c144b082f5a4bd3d62b
++  __AUTH_CONST.__objc_dictobj: 0xc8 sha256:6a7ac20e753e82a7abedfe913dd66f7532a9fab90560cd45e0cb5f1997b24601
++  __AUTH_CONST.__objc_doubleobj: 0x60 sha256:a7209a9ab81a414912080ef5f4ae3bceaf10518fcea5cb842c79461ab9449ad4
+   __AUTH_CONST.__auth_got: 0xc30 sha256:863648b07f6bb668f8963d175e3594d49d502583517155c9ea8156b4bb5f0b00
+-  __AUTH.__objc_data: 0x2548 sha256:c002d872c74939f106b08583a5dbad39663d69cfa923ef017f448db9d2738f26
+-  __AUTH.__data: 0x160 sha256:5c2fa0b774e099f9ff18fd13fabbc37784c6c39ac31971b4de1e4f01e9332e86
++  __AUTH.__objc_data: 0x2548 sha256:dd3552230e881b7685d1a21a1d9c53cd850f29e18571d00115c1f4ce4a9297d5
++  __AUTH.__data: 0x160 sha256:6b6d70edc08eabdb0817c69b7103aa48d8a873ee18b4d12776b7795424513789
+   __DATA.__objc_ivar: 0x170c sha256:f2e7cb6f190a457c5723d51fe3cbcebc373214ddf1f49ed39019be2757b94eb5
+-  __DATA.__data: 0x1850 sha256:23bc2f774287d0ba4fdecc06c6c4875b9e1a6c9a9a568dde412bc7a80907909c
+-  __DATA.__bss: 0x1b18 sha256:2910dc8d13bace0cfe170d1ac684392e2ace3a986908afb2a3d810363b76c841
++  __DATA.__data: 0x1850 sha256:2e3d11671f4b6d2711b4b3d5938cc2598c0168885f63d7a6a10eb5a81eed8797
++  __DATA.__bss: 0x1b08 sha256:105027e8d6baa0ca645140b7eb63907b99f8ab0cdcfebb9b0f2d60ce0edb0395
+   __DATA.__common: 0x1c8 sha256:b960fb5cb94682dfc4a873035d65f8befdcb9bed0e7db0feb905f0dcf437b38c
+-  __DATA_DIRTY.__objc_data: 0x2d70 sha256:d2f0a6f7e1c13bbec8da4128b61ec7023b71b038b1d9e82a66578ecabdd6396f
+-  __DATA_DIRTY.__data: 0x210 sha256:6957adf18dfe0c6f886d63513d3828420b49f45dbc8395bf19f6932820dd95bc
++  __DATA_DIRTY.__objc_data: 0x2d70 sha256:99d68d566dfd4113896b1e7d11f489e0443210c639c91b6ad5e47f5f4ce6bfc5
++  __DATA_DIRTY.__data: 0x210 sha256:58cf28ad678ad6dc8aebed59e8742c7988298c0783f2b66185d1ad47a73e2054
+   __DATA_DIRTY.__bss: 0x1b8 sha256:360d579dbd14759b41afdf7fb5e80c0101e15150ae401d59f92a1e32d129f7cb
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 67D0D173-60A9-3830-ADAA-3C9AFCF5AE4C
+-  Functions: 6266
+-  Symbols:   16269
+-  CStrings:  3796
++  UUID: 273D75EF-3731-3FF7-B3E6-1F83F0F0C754
++  Functions: 6268
++  Symbols:   16274
++  CStrings:  3798
+ 
+Symbols:
++ -[LPFileMetadata(Transformers) sharedObjectOverridePresentationPropertiesTransformer:]
++ -[LPMetadataProvider _generateSpecializationIfPossibleForCompleteMetadata:MIMEType:completionHandler:]
++ -[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]
++ -[LPThemeBuilder createShadowForApplicationBadge]
++ -[LPiCloudSharingMetadata(Transformer) _effectiveImageForTransformer:]
++ -[LPiCloudSharingMetadata(Transformer) _shouldUsePhotosSharedCollectionPresentationForTransformer:]
++ -[LPiCloudSharingMetadata(Transformer) sharedObjectOverridePresentationPropertiesTransformer:]
++ GCC_except_table123
++ GCC_except_table143
++ GCC_except_table152
++ GCC_except_table173
++ GCC_except_table179
++ _NSFontTextStyleTitle2
++ __95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke.148
++ __95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke.152
++ __95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke.156
++ __95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke.157
++ __95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke.159
++ __95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke.164
++ __95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke_2.153
++ __95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke_2.160
++ __95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke_2.165
++ __95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke_3.166
++ __95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke_4.167
++ __95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke_5.168
++ ___102-[LPMetadataProvider _generateSpecializationIfPossibleForCompleteMetadata:MIMEType:completionHandler:]_block_invoke
++ ___102-[LPMetadataProvider _generateSpecializationIfPossibleForCompleteMetadata:MIMEType:completionHandler:]_block_invoke_2
++ ___95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke
++ ___95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke_2
++ ___95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke_3
++ ___95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke_4
++ ___95-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:]_block_invoke_5
++ _objc_msgSend$_effectiveImageForTransformer:
++ _objc_msgSend$_generateSpecializationIfPossibleForCompleteMetadata:MIMEType:completionHandler:
++ _objc_msgSend$_internalPostProcessResolvedMetadataWithEvent:MIMEType:completionHandler:
++ _objc_msgSend$_shouldUsePhotosSharedCollectionPresentationForTransformer:
++ _objc_msgSend$createShadowForApplicationBadge
++ _objc_msgSend$sharedObjectOverridePresentationPropertiesTransformer:
+- -[LPFileMetadata(Transformers) sharedObjectIconPropertiesForTransformer:]
+- -[LPMetadataProvider _generateSpecializationIfPossibleForCompleteMetadata:completionHandler:]
+- -[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]
+- -[LPiCloudSharingMetadata(Transformer) computeIconPropertiesWithURL:]
+- -[LPiCloudSharingMetadata(Transformer) sharedObjectIconPropertiesForTransformer:]
+- GCC_except_table111
+- GCC_except_table130
+- GCC_except_table138
+- GCC_except_table155
+- GCC_except_table175
+- __86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke.148
+- __86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke.150
+- __86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke.154
+- __86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke.155
+- __86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke.157
+- __86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke.162
+- __86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke_2.151
+- __86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke_2.158
+- __86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke_2.163
+- __86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke_3.164
+- __86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke_4.165
+- __86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke_5.166
+- ___86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke
+- ___86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke_2
+- ___86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke_3
+- ___86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke_4
+- ___86-[LPMetadataProvider _internalPostProcessResolvedMetadataWithEvent:completionHandler:]_block_invoke_5
+- ___93-[LPMetadataProvider _generateSpecializationIfPossibleForCompleteMetadata:completionHandler:]_block_invoke
+- ___93-[LPMetadataProvider _generateSpecializationIfPossibleForCompleteMetadata:completionHandler:]_block_invoke_2
+- _objc_msgSend$_generateSpecializationIfPossibleForCompleteMetadata:completionHandler:
+- _objc_msgSend$_internalPostProcessResolvedMetadataWithEvent:completionHandler:
+- _objc_msgSend$computeIconPropertiesWithURL:
+- _objc_msgSend$sharedObjectIconPropertiesForTransformer:
+- photosIconOuterMargin.visionSize
+CStrings:
++ "Freeform-Folder"
++ "rectangle.stack.and.person"
+- "rectangle.stack.badge.person.crop.fill"
+
+```

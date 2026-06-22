@@ -1,0 +1,433 @@
+## ImageGenerationServices
+
+> `/System/Library/PrivateFrameworks/ImageGenerationServices.framework/Versions/A/ImageGenerationServices`
+
+```diff
+
+-186.1.502.0.0
+-  __TEXT.__text: 0x83d10 sha256:d43aec6fee6c3e5896cd4cda83cd047f4002d08a7e7d343e67be7bc750b0cadb
+-  __TEXT.__const: 0x5f55 sha256:3a41b2bf681c4eb2f191db1c80ae5199e5202a0145274539e107901cf6fb6cb8
+-  __TEXT.__gcc_except_tab: 0x7b8 sha256:8fb94b5c3a4617bbc62cf7deac68904ee0abc32bf08dc50c9f0cf3354cbba53d
+-  __TEXT.__cstring: 0x8150 sha256:b98d04091be68c2d572f3d5c3b455b370821ca79a99f067ef9a10eafe381ad9e
+-  __TEXT.__constg_swiftt: 0xf64 sha256:c7566bba5d10291175c74c69516a44da096071d433cdefd505baeda501a3c6ee
+-  __TEXT.__swift5_typeref: 0x15b6 sha256:79661d57a20416d6f05a87f089b731a303a5c136bfd762ee975f7ea0e2ddfb57
+-  __TEXT.__swift5_builtin: 0xf0 sha256:f5ab96cb7637a0c7230342b93c7e61a315af5d26ec6699ac8db102fcc150adba
+-  __TEXT.__swift5_reflstr: 0x1555 sha256:3763c057d3770ffdd7a95d58175a9f35da1a5802263430127f84c25bb410760e
+-  __TEXT.__swift5_fieldmd: 0x1588 sha256:8aa01d8fbe49b6761ef6f6683f0d9dd438eb80b4d1c3748baae658ac4ba86973
+-  __TEXT.__swift5_assocty: 0x210 sha256:5292cbca9474efebdf0e585e90e93a73bc49a99f436f087e87714141490ba6b7
+-  __TEXT.__swift5_capture: 0x280 sha256:f71f0002ea49e2735a7be10f7d579829f9d34bf0039177720f1e44ab24832328
+-  __TEXT.__oslogstring: 0x14a7 sha256:8db2379a3bec980f702dbc77af844c1474f1946dbea2ed8a412c01e19f264a92
+-  __TEXT.__swift5_proto: 0x350 sha256:e3382dc440a83473388345ba128bc6fda525a43be019102ad7a9d564cd6639eb
+-  __TEXT.__swift5_types: 0x17c sha256:2e28829c5220808eb6d1ee7d3be3d759c2cddce22af26c48324e2d783db01fab
+-  __TEXT.__swift_as_entry: 0x104 sha256:9f886311e111ae7c4475cd272368b505c45c7ae09c1f62598509dd3e5d27ebed
+-  __TEXT.__swift_as_ret: 0x174 sha256:edf6e70e00ab18e31fa62317f971fc96bae21b13a6ded945c6240c21e0ddc3f3
+-  __TEXT.__swift_as_cont: 0x2bc sha256:2e4d07638f43097bdabb7c4a9aa6c0bc735ac3eaa4f09ca04422c411e13e32cf
+-  __TEXT.__swift5_protos: 0x8 sha256:a62a20b07618f9f37939f5a988ae3953a973a86aa2d9cb35e23f4deb8f754204
+-  __TEXT.__swift5_mpenum: 0x20 sha256:b5e6fa43463d0bb3eb8498c122b1512c840cd64b1dfb3c1386e04483dd21ec28
+-  __TEXT.__unwind_info: 0x1fa0 sha256:12d76b1d3b7a7c12fc37feccacaf49f42af835ee82ed1a8d4d9c33307f81ea44
+-  __TEXT.__eh_frame: 0x3cf0 sha256:ae8fd0ac9d096139b8dbba0dd09a2636604cbb63bfbf87e3d9faa0de6d7ebe90
++190.0.0.0.0
++  __TEXT.__text: 0x89d1c sha256:e4dd741539da78be8513757a499af8e596f0a039b8fb2664e40aeca21daf8774
++  __TEXT.__const: 0x61d5 sha256:0e93c08a70697020c78fd3a95d3e0506050086837928f265c36fb8f6ceb59de9
++  __TEXT.__gcc_except_tab: 0x7b8 sha256:d602c6a75b96d51a0966f3171dbeb53e2c0177894b964137bc29c484dc9a3c84
++  __TEXT.__cstring: 0x8240 sha256:2f5e08be146736510ff15de4fcc13aa84b19e7e342198047a057e2f7d343d4f6
++  __TEXT.__constg_swiftt: 0xfe4 sha256:9addb19fff8844b627c0ba2f4cd81923495eb6f1066e6060059c1e1e454e1ce6
++  __TEXT.__swift5_typeref: 0x1644 sha256:2720cd512dfd42c06fddde2015e0fa0a629c9fbda5980c3412124300a5b284fe
++  __TEXT.__swift5_builtin: 0x104 sha256:5b06a5a138f20299656c9f9806dfd22d6d6908e6072ec9b9325a31905c6e651c
++  __TEXT.__swift5_reflstr: 0x1575 sha256:f55d3f65c3025f5cfdeeff1275d99bfbdca5c91ea2a4e36ab8df5f9eda443bda
++  __TEXT.__swift5_fieldmd: 0x15e0 sha256:dd1717791cf1cd9a2b0c02e5d2a85e22370f1d1208da6ea6c720bbe5ca4109af
++  __TEXT.__swift5_assocty: 0x240 sha256:73104e9da0b5a6ea1af3ab8b752b2e19be9fb01ca06af13dca63afb6be6d4e2a
++  __TEXT.__swift5_capture: 0x294 sha256:9a9f958b732317f51200a6434acb43f71faa5c0ebd0aafe289a044fff77dae4c
++  __TEXT.__oslogstring: 0x16f2 sha256:4cda10a99bcf5a5affb56dbbd62ff0aecf5276b6601533d936397c0bfd2d6dd9
++  __TEXT.__swift5_proto: 0x368 sha256:380c850f472181ed960e8a00a5367d815758f78ab200d9829ac49579daa184b9
++  __TEXT.__swift5_types: 0x18c sha256:f06885a3d9b4023159624a532da84ec6cc6aa34c639c87f876805818bb9c440c
++  __TEXT.__swift_as_entry: 0x108 sha256:25e4fa61c4d9c9a5aa7bd8e8acb8367d5b0b8a614975b2b558221c6a20ed444b
++  __TEXT.__swift_as_ret: 0x178 sha256:a160e50d15cd5d379a8e63872a8a73fc22cc0d6400b955606c6bbbd9bcbe681d
++  __TEXT.__swift_as_cont: 0x2c4 sha256:257549f4e7794297e9ff7e1dbb391200b06948bae662d34ac9e6073c49d12af7
++  __TEXT.__swift5_protos: 0x8 sha256:9b38360454a3964bff131a1c9ac24c6696bebecb0047b61d74325ed54d95c9bd
++  __TEXT.__swift5_mpenum: 0x20 sha256:e5f163ed1eedc7ccb1f261ebd288fc3eb191df1a5731ce1d18a5a506d4332299
++  __TEXT.__unwind_info: 0x2050 sha256:57c2d32dffd34aadc42d8574fdba79834a9104a0af2bae4685992bc63d621d50
++  __TEXT.__eh_frame: 0x3d58 sha256:3fae6218fbd5bd5bcbdb4dee8f904bf2a19f6b863ee4a74d884c1ed816dcd0e8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xd0 sha256:b5e62865648b9f38c94b86294f92f78fe0037cf6046f1251b1714c4f6baf9e94
+-  __DATA_CONST.__objc_classlist: 0x50 sha256:bf7cea4056bb95fb25ddd7e6e6294ceaa8210b3c2663d2b751ca4405baab7347
++  __DATA_CONST.__const: 0xe0 sha256:94e53f9b8d25df81bb3cca7b8aaf15610e664af78f494ebe609f86e1f576a6e1
++  __DATA_CONST.__objc_classlist: 0x50 sha256:6c90a40a0360dfeb5f50f632a0e64831706ded5eabf0c628c23bb41ba591e2f3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__weak_got: 0x10 sha256:59722db8d30c54df39763f55dfd35ffb1060a034af2f8d4edc4c3c0ad9e957cb
+-  __DATA_CONST.__objc_selrefs: 0x110 sha256:48ad69d281ee8586bd7ea37ac01b21c4eb2448fb3c8cb639100aa6010828e173
+-  __DATA_CONST.__got: 0x7c0 sha256:3bde7fd71a60fba412ac38aeeced6c7299684d1c2fa9afb38ca45cd73426d267
+-  __AUTH_CONST.__const: 0x3b50 sha256:0e2e8fb9e51b4579c2a33a2e913a7f3bcbeaa3e9e88409ed4a419168ea4abaf0
+-  __AUTH_CONST.__objc_const: 0x990 sha256:879119f647592664528df8d3ccaf91101beaddb382b9749a52f5f41747120df9
+-  __AUTH_CONST.__weak_auth_got: 0x40 sha256:f50d4e930956b71cb0bacbf689868a76dc650fb5738ff5594b7e212d56e97090
+-  __AUTH_CONST.__auth_got: 0x1358 sha256:99184d47a05b25ec564d26545e05dcb3d3c26c973088f25d9f62ba2dd49e9ebb
+-  __AUTH.__objc_data: 0xa0 sha256:85c1a934fceb532d4c4eac6490ebca6fe433d31390b4764951784173104afde4
+-  __AUTH.__data: 0x8e0 sha256:c1468e34a938dc66eaca26a44ce7efd38e5cbdd31cf1a7726c5985a2e9983295
+-  __DATA.__data: 0xec8 sha256:7785da77c6ff98bf157f7575f77f682b01131182ac9df140406f1d06f1238fc0
+-  __DATA.__bss: 0x6680 sha256:4d1021570e18f9a7fe46b8f21f1dfc93435f752464bc8353d8b3fd45ddceaec3
++  __DATA_CONST.__weak_got: 0x10 sha256:a3483de4f45d9b57afaee3421cd5418098f757e708ddf7ddf74790e6657bb6fd
++  __DATA_CONST.__objc_selrefs: 0x158 sha256:a1c48d0f6cb3d6dece05139fe2a5b082ad73a7f86984bda353689f70b7219a1f
++  __DATA_CONST.__got: 0x840 sha256:990619f5af277092b3204af74ab00ade7c27749efef61cae6e05c436c766dc21
++  __AUTH_CONST.__const: 0x4560 sha256:1b4d74f93c0e1154d92e0c807f1d0ea3482c50eac91d2c7a634593de6952fd02
++  __AUTH_CONST.__objc_const: 0x990 sha256:ac7d0f27657b6839931af2ada915e3a4812c2d46886fad61576d95bf0c51859b
++  __AUTH_CONST.__weak_auth_got: 0x40 sha256:bae76bd8fe615008766c543ba6553f54551b6a54a8c0d1fd959568a9d469e3ee
++  __AUTH_CONST.__auth_got: 0x1498 sha256:c094f57aed27ae252712fba300ceb81283199519f38272008a9fcc1d30d72013
++  __AUTH.__objc_data: 0xa0 sha256:61d3d033e118d72d229fd3002cedd3fc57e85a04587609a0ea5273d70ee81f03
++  __AUTH.__data: 0x8e0 sha256:c0b495f1d329e61eb3317d12f697a5e1f5acef73afbefc6c6784f13449c2e15e
++  __DATA.__data: 0xff8 sha256:b8e70afa9d21077d3fcbca5dc46588320ac02e39a55aa42941af4ce54d29d59a
++  __DATA.__bss: 0x6980 sha256:88db205bcff1673384a59a920d15cc77f887422cc7fdef7b4c0c78417c4074f0
+   __DATA.__common: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:a6bbb6633e4ffcce2740496e93779897e8a1ed2c40d6164fd94b87f4275871c9
+-  __DATA_DIRTY.__data: 0xac8 sha256:66f001a17a3035a7939b81d94bd4942220f521ce7ffa1f39b9b5541394977965
++  __DATA_DIRTY.__objc_data: 0x50 sha256:38d444598ad63fcaf41cebfffba36bd2f3f69e5dfc9b55bee2dea4f6d1d4d655
++  __DATA_DIRTY.__data: 0xad0 sha256:95eb4826aad745752979b4fb208d9a320ddefaa0c02cc63aeaab1590c04f0f31
+   __DATA_DIRTY.__common: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+   - /System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+   - /System/Library/Frameworks/NaturalLanguage.framework/Versions/A/NaturalLanguage
+   - /System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox
++  - /System/Library/Frameworks/Vision.framework/Versions/A/Vision
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+   - /System/Library/PrivateFrameworks/GenerativeFunctions.framework/Versions/A/GenerativeFunctions
+   - /System/Library/PrivateFrameworks/GenerativeFunctionsFoundation.framework/Versions/A/GenerativeFunctionsFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 456C9B33-2257-3AD8-B1E1-1CB1862C1D29
+-  Functions: 2359
+-  Symbols:   1519
+-  CStrings:  324
++  UUID: B596CC7D-C578-37FA-A49C-24BBEA806BB0
++  Functions: 2438
++  Symbols:   1583
++  CStrings:  339
+ 
+Symbols:
++ _CGAffineTransformMakeTranslation
++ _CGBitmapContextCreate
++ _CGBitmapContextCreateImage
++ _CGColorSpaceCreateWithName
++ _CGContextSetInterpolationQuality
++ _CGImageCreateWithImageInRect
++ _CGImageGetHeight
++ _CGImageGetWidth
++ _CGRectGetMinX
++ _CGRectGetMinY
++ _CVPixelBufferGetBaseAddress
++ _CVPixelBufferGetBytesPerRow
++ _CVPixelBufferGetHeight
++ _CVPixelBufferGetPixelFormatType
++ _CVPixelBufferGetWidth
++ _CVPixelBufferLockBaseAddress
++ _CVPixelBufferUnlockBaseAddress
++ _OBJC_CLASS_$_NSUserDefaults
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$_VNDetectFaceRectanglesRequest
++ _OBJC_CLASS_$_VNFaceObservation
++ _OBJC_CLASS_$_VNGenerateAttentionBasedSaliencyImageRequest
++ _OBJC_CLASS_$_VNImageRequestHandler
++ _OBJC_CLASS_$_VNRequest
++ _OBJC_CLASS_$_VNSaliencyImageObservation
++ _ZNSt3__116__if_likely_elseB9nqe220106IZNS_6vectorINS_17basic_string_viewIcNS_11char_traitsIcEEEENS_9allocatorIS5_EEE12emplace_backIJPKcmEEERS5_DpOT_EUlvE_ZNS9_IJSB_mEEESC_SF_EUlvE0_EEvbT_T0_.cold.1
++ __ZNKSt9type_infoeqB9nqe220106ERKS_
++ __ZNSt12length_errorC1B9nqe220106EPKc
++ __ZNSt12out_of_rangeC1B9nqe220106EPKc
++ __ZNSt3__110__function12__value_funcIFvcRKN8internal6marisa6CursorERbEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvjNS_17basic_string_viewIDsNS_11char_traitsIDsEEEERbEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvmNS_17basic_string_viewIcNS_11char_traitsIcEEEERbEED2B9nqe220106Ev
++ __ZNSt3__111__sift_downB9nqe220106INS_17_ClassicAlgPolicyELb0ERNS_6__lessIvvEEPNS_4pairIjjEEEEvT2_OT1_NS_15iterator_traitsIS8_E15difference_typeESD_
++ __ZNSt3__112basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__112basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEE22__init_internal_bufferB9nqe220106Em
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqe220106Em
++ __ZNSt3__113random_deviceC1B9nqe220106Ev
++ __ZNSt3__114__split_bufferINS_12basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEEERNS4_IS6_EEE17__destruct_at_endB9nqe220106EPS6_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe220106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe220106Ej
++ __ZNSt3__116__if_likely_elseB9nqe220106IZNS_6vectorINS_17basic_string_viewIcNS_11char_traitsIcEEEENS_9allocatorIS5_EEE12emplace_backIJPKcmEEERS5_DpOT_EUlvE_ZNS9_IJSB_mEEESC_SF_EUlvE0_EEvbT_T0_
++ __ZNSt3__116__insertion_sortB9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEvT1_S8_T0_
++ __ZNSt3__116__insertion_sortB9nqe220106INS_17_ClassicAlgPolicyERNS_7greaterIN8internal6marisa8grimoire4trie13WeightedRangeEEEPS7_EEvT1_SB_T0_
++ __ZNSt3__117__floyd_sift_downB9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__118__stable_sort_implB9nqe220106INS_17_ClassicAlgPolicyEPN8internal6marisa8grimoire4trie13WeightedRangeENS_7greaterIS6_EEEEvT0_SA_RT1_
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe220106Ev
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIDsEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_12basic_stringIDsNS_11char_traitsIDsEENS1_IDsEEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_17basic_string_viewIcNS_11char_traitsIcEEEEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPN8internal6marisa8grimoire4trie5RangeEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIjEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorImEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__merge_move_assignB9nqe220106INS_17_ClassicAlgPolicyERNS_7greaterIN8internal6marisa8grimoire4trie13WeightedRangeEEEPS7_SA_SA_EEvT1_SB_T2_SC_T3_T0_
++ __ZNSt3__119__partial_sort_implB9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEES7_EET1_S8_S8_T2_OT0_
++ __ZNSt3__120__throw_length_errorB9nqe220106EPKc
++ __ZNSt3__121__insertion_sort_moveB9nqe220106INS_17_ClassicAlgPolicyERNS_7greaterIN8internal6marisa8grimoire4trie13WeightedRangeEEEPS7_EEvT1_SB_PNS_15iterator_traitsISB_E10value_typeET0_
++ __ZNSt3__122__merge_move_constructB9nqe220106INS_17_ClassicAlgPolicyERNS_7greaterIN8internal6marisa8grimoire4trie13WeightedRangeEEEPS7_SA_EEvT1_SB_T2_SC_PNS_15iterator_traitsISB_E10value_typeET0_
++ __ZNSt3__122__rotate_random_accessB9nqe220106INS_17_ClassicAlgPolicyEPN8internal6marisa8grimoire4trie13WeightedRangeES7_EET0_S8_S8_T1_
++ __ZNSt3__124__buffered_inplace_mergeB9nqe220106INS_17_ClassicAlgPolicyERNS_7greaterIN8internal6marisa8grimoire4trie13WeightedRangeEEEPS7_EEvT1_SB_SB_OT0_NS_15iterator_traitsISB_E15difference_typeESG_PNSF_10value_typeE
++ __ZNSt3__125__throw_bad_function_callB9nqe220106Ev
++ __ZNSt3__126__insertion_sort_unguardedB9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEvT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEbT1_S8_T0_
++ __ZNSt3__131__partition_with_equals_on_leftB9nqe220106INS_17_ClassicAlgPolicyEPNS_4pairIjjEERNS_6__lessIvvEEEET0_S8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB9nqe220106INS_17_ClassicAlgPolicyEPNS_4pairIjjEERNS_6__lessIvvEEEENS2_IT0_bEES8_S8_T1_
++ __ZNSt3__15dequeIN8internal6marisa8grimoire4trie5RangeENS_9allocatorIS5_EEED2B9nqe220106Ev
++ __ZNSt3__16vectorINS_12basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEEENS4_IS6_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_12basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEEENS4_IS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_12basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEEENS4_IS6_EEE5clearB9nqe220106Ev
++ __ZNSt3__16vectorINS_17basic_string_viewIcNS_11char_traitsIcEEEENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE16__init_with_sizeB9nqe220106IPKcS6_EEvT_T0_m
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE16__init_with_sizeB9nqe220106IPKjS6_EEvT_T0_m
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEELi0EEEbT1_S8_S8_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEELi0EEEvT1_S8_S8_S8_S8_T0_
++ __ZNSt3__18__rotateB9nqe220106INS_17_ClassicAlgPolicyEPN8internal6marisa8grimoire4trie13WeightedRangeES7_EENS_4pairIT0_S9_EES9_S9_T1_
++ __ZNSt3__19__sift_upB9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB9nqe220106v
++ ___CGBitmapContextCreate
++ __swift_closure_destructor.100
++ __swift_closure_destructor.105
++ __swift_closure_destructor.108
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance So13VNImageOptionaSHSCSQ
++ _associated conformance So13VNImageOptionas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So13VNImageOptionas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _free
++ _kCGColorSpaceSRGB
++ _kCIFormatBGRA8
++ _objc_msgSend$boundingBox
++ _objc_msgSend$createCGImage:fromRect:format:colorSpace:
++ _objc_msgSend$imageByApplyingTransform:
++ _objc_msgSend$initWithCGImage:options:
++ _objc_msgSend$initWithSuiteName:
++ _objc_msgSend$objectForKey:
++ _objc_msgSend$performRequests:error:
++ _objc_msgSend$pixelBuffer
++ _objc_msgSend$results
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_coroFrameAlloc
++ _swift_getObjCClassMetadata
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
++ _symbolic ScCy_____Sg_____G So6CGRectV s5NeverO
++ _symbolic _____ 23ImageGenerationServices20RegionOfInterestCropO
++ _symbolic _____ 23ImageGenerationServices24RegionOfInterestDetectorV
++ _symbolic _____ 23ImageGenerationServices33TwoPassPersonalizationPreferencesO
++ _symbolic _____ So13VNImageOptiona
++ _symbolic _____y_____G s11_SetStorageC 10Foundation4UUIDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So6CGRectV
++ _symbolic _____y_____ypG s18_DictionaryStorageC So13VNImageOptiona
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
+- _ZNSt3__116__if_likely_elseB9nqe220100IZNS_6vectorINS_17basic_string_viewIcNS_11char_traitsIcEEEENS_9allocatorIS5_EEE12emplace_backIJPKcmEEERS5_DpOT_EUlvE_ZNS9_IJSB_mEEESC_SF_EUlvE0_EEvbT_T0_.cold.1
+- __ZNKSt9type_infoeqB9nqe220100ERKS_
+- __ZNSt12length_errorC1B9nqe220100EPKc
+- __ZNSt12out_of_rangeC1B9nqe220100EPKc
+- __ZNSt3__110__function12__value_funcIFvcRKN8internal6marisa6CursorERbEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvjNS_17basic_string_viewIDsNS_11char_traitsIDsEEEERbEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvmNS_17basic_string_viewIcNS_11char_traitsIcEEEERbEED2B9nqe220100Ev
+- __ZNSt3__111__sift_downB9nqe220100INS_17_ClassicAlgPolicyELb0ERNS_6__lessIvvEEPNS_4pairIjjEEEEvT2_OT1_NS_15iterator_traitsIS8_E15difference_typeESD_
+- __ZNSt3__112basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__112basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEE22__init_internal_bufferB9nqe220100Em
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqe220100Em
+- __ZNSt3__113random_deviceC1B9nqe220100Ev
+- __ZNSt3__114__split_bufferINS_12basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEEERNS4_IS6_EEE17__destruct_at_endB9nqe220100EPS6_
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe220100Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe220100Ej
+- __ZNSt3__116__if_likely_elseB9nqe220100IZNS_6vectorINS_17basic_string_viewIcNS_11char_traitsIcEEEENS_9allocatorIS5_EEE12emplace_backIJPKcmEEERS5_DpOT_EUlvE_ZNS9_IJSB_mEEESC_SF_EUlvE0_EEvbT_T0_
+- __ZNSt3__116__insertion_sortB9nqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEvT1_S8_T0_
+- __ZNSt3__116__insertion_sortB9nqe220100INS_17_ClassicAlgPolicyERNS_7greaterIN8internal6marisa8grimoire4trie13WeightedRangeEEEPS7_EEvT1_SB_T0_
+- __ZNSt3__117__floyd_sift_downB9nqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__118__stable_sort_implB9nqe220100INS_17_ClassicAlgPolicyEPN8internal6marisa8grimoire4trie13WeightedRangeENS_7greaterIS6_EEEEvT0_SA_RT1_
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe220100Ev
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIDsEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_12basic_stringIDsNS_11char_traitsIDsEENS1_IDsEEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_17basic_string_viewIcNS_11char_traitsIcEEEEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPN8internal6marisa8grimoire4trie5RangeEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIjEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorImEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__119__merge_move_assignB9nqe220100INS_17_ClassicAlgPolicyERNS_7greaterIN8internal6marisa8grimoire4trie13WeightedRangeEEEPS7_SA_SA_EEvT1_SB_T2_SC_T3_T0_
+- __ZNSt3__119__partial_sort_implB9nqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEES7_EET1_S8_S8_T2_OT0_
+- __ZNSt3__120__throw_length_errorB9nqe220100EPKc
+- __ZNSt3__121__insertion_sort_moveB9nqe220100INS_17_ClassicAlgPolicyERNS_7greaterIN8internal6marisa8grimoire4trie13WeightedRangeEEEPS7_EEvT1_SB_PNS_15iterator_traitsISB_E10value_typeET0_
+- __ZNSt3__122__merge_move_constructB9nqe220100INS_17_ClassicAlgPolicyERNS_7greaterIN8internal6marisa8grimoire4trie13WeightedRangeEEEPS7_SA_EEvT1_SB_T2_SC_PNS_15iterator_traitsISB_E10value_typeET0_
+- __ZNSt3__122__rotate_random_accessB9nqe220100INS_17_ClassicAlgPolicyEPN8internal6marisa8grimoire4trie13WeightedRangeES7_EET0_S8_S8_T1_
+- __ZNSt3__124__buffered_inplace_mergeB9nqe220100INS_17_ClassicAlgPolicyERNS_7greaterIN8internal6marisa8grimoire4trie13WeightedRangeEEEPS7_EEvT1_SB_SB_OT0_NS_15iterator_traitsISB_E15difference_typeESG_PNSF_10value_typeE
+- __ZNSt3__125__throw_bad_function_callB9nqe220100Ev
+- __ZNSt3__126__insertion_sort_unguardedB9nqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEvT1_S8_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEbT1_S8_T0_
+- __ZNSt3__131__partition_with_equals_on_leftB9nqe220100INS_17_ClassicAlgPolicyEPNS_4pairIjjEERNS_6__lessIvvEEEET0_S8_S8_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB9nqe220100INS_17_ClassicAlgPolicyEPNS_4pairIjjEERNS_6__lessIvvEEEENS2_IT0_bEES8_S8_T1_
+- __ZNSt3__15dequeIN8internal6marisa8grimoire4trie5RangeENS_9allocatorIS5_EEED2B9nqe220100Ev
+- __ZNSt3__16vectorINS_12basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEEENS4_IS6_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_12basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEEENS4_IS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_12basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEEENS4_IS6_EEE5clearB9nqe220100Ev
+- __ZNSt3__16vectorINS_17basic_string_viewIcNS_11char_traitsIcEEEENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE16__init_with_sizeB9nqe220100IPKcS6_EEvT_T0_m
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE16__init_with_sizeB9nqe220100IPKjS6_EEvT_T0_m
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEELi0EEEbT1_S8_S8_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEELi0EEEvT1_S8_S8_S8_S8_T0_
+- __ZNSt3__18__rotateB9nqe220100INS_17_ClassicAlgPolicyEPN8internal6marisa8grimoire4trie13WeightedRangeES7_EENS_4pairIT0_S9_EES9_S9_T1_
+- __ZNSt3__19__sift_upB9nqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB9nqe220100v
+- __swift_closure_destructor.104
+- __swift_closure_destructor.107
+- __swift_closure_destructor.99
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.cc"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.cc:115: MARISA_STATE_ERROR: !is_open()"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.cc:116: MARISA_IO_ERROR: size > avail_"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.cc:80: MARISA_NULL_ERROR: (ptr == NULL) && (size != 0)"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.cc:89: MARISA_STATE_ERROR: !is_open()"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.cc:90: MARISA_IO_ERROR: size > avail_"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.h"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.h:31: MARISA_NULL_ERROR: (objs == NULL) && (num_objs != 0)"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.h:32: MARISA_SIZE_ERROR: num_objs > (MARISA_SIZE_MAX / sizeof(T))"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc:118: MARISA_STATE_ERROR: !is_open()"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc:132: MARISA_IO_ERROR: size_written <= 0"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc:137: MARISA_IO_ERROR: ::fwrite(data, 1, size, file_) != size"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc:138: MARISA_IO_ERROR: ::fflush(file_) != 0"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc:143: MARISA_IO_ERROR: !stream_->write(static_cast<const char*>(data), static_cast<std::streamsize>(size))"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc:145: MARISA_IO_ERROR: std::ios_base::failure"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc:79: MARISA_STATE_ERROR: !is_open()"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.h"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.h:33: MARISA_NULL_ERROR: (objs == NULL) && (num_objs != 0)"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.h:34: MARISA_SIZE_ERROR: num_objs > (MARISA_SIZE_MAX / sizeof(T))"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/config.h"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/config.h:117: MARISA_CODE_ERROR: undefined tail mode"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/config.h:138: MARISA_CODE_ERROR: undefined node order"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/config.h:52: MARISA_CODE_ERROR: (config_flags & ~MARISA_CONFIG_MASK) != 0"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/config.h:96: MARISA_CODE_ERROR: undefined cache level"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/header.h"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/header.h:25: MARISA_FORMAT_ERROR: !test_header(ptr)"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/louds-trie.cc"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/louds-trie.cc:198: MARISA_BOUND_ERROR: payload_id >= size()"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/louds-trie.cc:467: MARISA_MEMORY_ERROR: std::bad_alloc"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/louds-trie.cc:491: MARISA_MEMORY_ERROR: next_trie_.get() == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/louds-trie.cc:509: MARISA_MEMORY_ERROR: next_trie_.get() == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/louds-trie.cc:585: MARISA_MEMORY_ERROR: next_trie_.get() == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/tail.cc"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/tail.cc:172: MARISA_RANGE_ERROR: current.length() == 0"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/tail.cc:17: MARISA_NULL_ERROR: offsets == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/tail.cc:194: MARISA_SIZE_ERROR: buf_.size() > MARISA_UINT32_MAX"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/tail.cc:40: MARISA_CODE_ERROR: undefined tail mode"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/bit-vector.h"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/bit-vector.h:134: MARISA_FORMAT_ERROR: temp_num_1s > size_"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/bit-vector.h:58: MARISA_SIZE_ERROR: size_ == MARISA_UINT32_MAX"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/flat-vector.h"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/flat-vector.h:132: MARISA_FORMAT_ERROR: temp_value_size > 32"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/vector.h"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/vector.h:114: MARISA_STATE_ERROR: fixed_"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/vector.h:122: MARISA_STATE_ERROR: fixed_"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/vector.h:210: MARISA_FORMAT_ERROR: (total_size % sizeof(T)) != 0"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:100: MARISA_STATE_ERROR: trie_.get() == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:109: MARISA_STATE_ERROR: trie_.get() == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:115: MARISA_STATE_ERROR: trie_.get() == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:121: MARISA_STATE_ERROR: trie_.get() == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:127: MARISA_STATE_ERROR: trie_.get() == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:134: MARISA_STATE_ERROR: trie_.get() == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:140: MARISA_STATE_ERROR: trie_.get() == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:147: MARISA_STATE_ERROR: trie_.get() == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:153: MARISA_STATE_ERROR: trie_.get() == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:195: MARISA_STATE_ERROR: trie_.get() == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:20: MARISA_MEMORY_ERROR: temp.get() == NULL"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:41: MARISA_NULL_ERROR: (ptr == NULL) && (size != 0)"
++ "/AppleInternal/Library/BuildRoots/4~CRbBugDlRVo9fiYFoYVB8DMyfx7mvJkDSDr8DmU/Library/Caches/com.apple.xbs/TemporaryDirectory.FNykuA/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:44: MARISA_MEMORY_ERROR: temp.get() == NULL"
++ "CILanczosScaleTransform produced no output image"
++ "CoreGraphics fallback crop produced no image"
++ "CoreGraphics fallback failed to create bitmap context"
++ "CoreGraphics fallback failed to create sRGB color space"
++ "CoreGraphics fallback failed to render image"
++ "Failed to create CILanczosScaleTransform filter"
++ "Failed to render processed image via CIContext"
++ "Failed to resolve output color space"
++ "Locale %s has no region code; falling back to %s"
++ "No demographics data for region code %s; falling back to %s"
++ "RegionOfInterest"
++ "Used region fallback %s → %s for demographics lookup"
++ "Vision perform failed: %{public}s"
++ "com.apple.ImagePlayground.ImageGenerationServices.RegionOfInterest"
++ "group.com.apple.GenerativePlayground"
++ "regionOfInterest(in:)"
++ "two-pass-personalization-shim-enabled"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.cc"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.cc:115: MARISA_STATE_ERROR: !is_open()"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.cc:116: MARISA_IO_ERROR: size > avail_"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.cc:80: MARISA_NULL_ERROR: (ptr == NULL) && (size != 0)"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.cc:89: MARISA_STATE_ERROR: !is_open()"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.cc:90: MARISA_IO_ERROR: size > avail_"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.h"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.h:31: MARISA_NULL_ERROR: (objs == NULL) && (num_objs != 0)"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/mapper.h:32: MARISA_SIZE_ERROR: num_objs > (MARISA_SIZE_MAX / sizeof(T))"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc:118: MARISA_STATE_ERROR: !is_open()"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc:132: MARISA_IO_ERROR: size_written <= 0"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc:137: MARISA_IO_ERROR: ::fwrite(data, 1, size, file_) != size"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc:138: MARISA_IO_ERROR: ::fflush(file_) != 0"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc:143: MARISA_IO_ERROR: !stream_->write(static_cast<const char*>(data), static_cast<std::streamsize>(size))"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc:145: MARISA_IO_ERROR: std::ios_base::failure"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.cc:79: MARISA_STATE_ERROR: !is_open()"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.h"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.h:33: MARISA_NULL_ERROR: (objs == NULL) && (num_objs != 0)"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/io/writer.h:34: MARISA_SIZE_ERROR: num_objs > (MARISA_SIZE_MAX / sizeof(T))"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/config.h"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/config.h:117: MARISA_CODE_ERROR: undefined tail mode"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/config.h:138: MARISA_CODE_ERROR: undefined node order"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/config.h:52: MARISA_CODE_ERROR: (config_flags & ~MARISA_CONFIG_MASK) != 0"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/config.h:96: MARISA_CODE_ERROR: undefined cache level"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/header.h"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/header.h:25: MARISA_FORMAT_ERROR: !test_header(ptr)"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/louds-trie.cc"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/louds-trie.cc:198: MARISA_BOUND_ERROR: payload_id >= size()"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/louds-trie.cc:467: MARISA_MEMORY_ERROR: std::bad_alloc"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/louds-trie.cc:491: MARISA_MEMORY_ERROR: next_trie_.get() == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/louds-trie.cc:509: MARISA_MEMORY_ERROR: next_trie_.get() == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/louds-trie.cc:585: MARISA_MEMORY_ERROR: next_trie_.get() == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/tail.cc"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/tail.cc:172: MARISA_RANGE_ERROR: current.length() == 0"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/tail.cc:17: MARISA_NULL_ERROR: offsets == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/tail.cc:194: MARISA_SIZE_ERROR: buf_.size() > MARISA_UINT32_MAX"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/trie/tail.cc:40: MARISA_CODE_ERROR: undefined tail mode"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/bit-vector.h"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/bit-vector.h:134: MARISA_FORMAT_ERROR: temp_num_1s > size_"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/bit-vector.h:58: MARISA_SIZE_ERROR: size_ == MARISA_UINT32_MAX"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/flat-vector.h"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/flat-vector.h:132: MARISA_FORMAT_ERROR: temp_value_size > 32"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/vector.h"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/vector.h:114: MARISA_STATE_ERROR: fixed_"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/vector.h:122: MARISA_STATE_ERROR: fixed_"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/grimoire/vector/vector.h:210: MARISA_FORMAT_ERROR: (total_size % sizeof(T)) != 0"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:100: MARISA_STATE_ERROR: trie_.get() == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:109: MARISA_STATE_ERROR: trie_.get() == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:115: MARISA_STATE_ERROR: trie_.get() == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:121: MARISA_STATE_ERROR: trie_.get() == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:127: MARISA_STATE_ERROR: trie_.get() == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:134: MARISA_STATE_ERROR: trie_.get() == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:140: MARISA_STATE_ERROR: trie_.get() == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:147: MARISA_STATE_ERROR: trie_.get() == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:153: MARISA_STATE_ERROR: trie_.get() == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:195: MARISA_STATE_ERROR: trie_.get() == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:20: MARISA_MEMORY_ERROR: temp.get() == NULL"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:41: MARISA_NULL_ERROR: (ptr == NULL) && (size != 0)"
+- "/AppleInternal/Library/BuildRoots/4~CQFsugBIykOmGzquatBFVqnUbD2ezIETCIOiQ8U/Library/Caches/com.apple.xbs/TemporaryDirectory.5SiciX/Sources/TrieUtils/src/third_party/marisa/lib/marisa/trie.cc:44: MARISA_MEMORY_ERROR: temp.get() == NULL"
+- "Locale %s has no region code"
+- "No demographics data for region code %s"
+
+```

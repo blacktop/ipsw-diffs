@@ -1,0 +1,34 @@
+## NDBM_File.bundle
+
+> `/System/Library/Perl/5.34/darwin-thread-multi-2level/auto/NDBM_File/NDBM_File.bundle`
+
+```diff
+
+ 175.0.0.0.0
+-  __TEXT.__text: 0x194c sha256:334020711215e93d2c7cf10255670c90561b79a6942f0bdf9e3bce196d44c0fb
++  __TEXT.__text: 0x1984 sha256:c1b7d214b5101714fd14aed0e1e512bb7b176f7a6983621c1388e6cbd2f616ad
+   __TEXT.__auth_stubs: 0x270 sha256:123e5821a54b4cc524bce011d3992a14868a94c473b935c35a97df4a0cf8a24d
+   __TEXT.__cstring: 0x274 sha256:147fc4cff059cf9c982dde9e79fcd5962717b68de68e41af357726d78686c905
+-  __TEXT.__unwind_info: 0x90 sha256:da800a1cc7fa824d19eb6c9b78c487f871079166f39d7ef1a2b58202eeeb52c4
++  __TEXT.__unwind_info: 0x90 sha256:1f3e824dc2c6744a463e1918f40afe85956ac4786a175640f2ca3371c7ed866e
+   __DATA_CONST.__auth_got: 0x138 sha256:31b203c114f3b2118fd0cd3dd2b90157e0b48a051b32d22f77f6ddb62c2d2c03
+   - /usr/lib/libSystem.B.dylib
+-  UUID: E385F596-FE1B-31A2-9DF9-322C3B5DA873
++  UUID: 0EBD282F-EADD-381B-BC0D-81F56934D85E
+   Functions: 12
+   Symbols:   41
+   CStrings:  31
+Functions:
+~ _boot_NDBM_File : sha256 abd9bbd8142f4a548627f6f2d9e81ba24a69c5198a8424d4c0c078161da44a8c -> 1f4855309758f8a8c23bdde3a8f43aff4bddc7cfe8d26a4e8dbaa5165a009177
+~ sub_604 : 452 -> 464
+~ sub_7c8 -> sub_7d4 : 300 -> 316
+~ sub_8f4 -> sub_910 : sha256 c54afa3a52ad33df562363acae9b026837f83c923479a9cb489cfe9d16966ee0 -> 7d0d0fb4205250e1fe836fe6e6a054f34658b232ac9daa50610e27be8f4e2f13
+~ sub_c78 -> sub_c94 : 1328 -> 1340
+~ sub_11a8 -> sub_11d0 : 768 -> 772
+~ sub_14a8 -> sub_14d4 : sha256 75eb91bb343165f606e1aa6e4d00d728acc125650db5947937b824d121650441 -> b58dd7c7337302b40716b9d2bbe99a9f14ce554d4b3597be73c97b74c238ff1f
+~ sub_16c4 -> sub_16f0 : sha256 3bc7a5a47a19fa827c778099a8797bd59aba23b0c12f3b7dbb71d4b5271b9e67 -> a1b4c1382a46b73424a2b6a648c1280bbf2ee77c6135ba3c02525e2ce255eb01
+~ sub_18e0 -> sub_190c : sha256 be093053d95466d05bec6bfdfe84b265d68f90f771edae3e082eb5852014382c -> 74175e1701c6104dbd036071ecc6f6c4dfd1290788e1849738a113322543ce21
+~ sub_1a60 -> sub_1a8c : sha256 0654240edde11f6702f011cba0226d1d173ac1f4d1a0120c8a037541a9dfe385 -> 34ab1ef40d0273b6470e9666abb773203d2c1364afd0769e0ecf63369153bb7c
+~ sub_1b60 -> sub_1b8c : 436 -> 448
+
+```

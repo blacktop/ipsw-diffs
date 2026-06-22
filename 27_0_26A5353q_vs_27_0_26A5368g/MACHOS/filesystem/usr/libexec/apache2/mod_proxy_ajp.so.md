@@ -1,0 +1,88 @@
+## mod_proxy_ajp.so
+
+> `/usr/libexec/apache2/mod_proxy_ajp.so`
+
+```diff
+
+-886.0.0.0.0
+-  __TEXT.__text: 0xeb10 sha256:82839acecf4696339248d7994c8a1de0bd5ed4a94cb75713878e6912fca11e9b
++888.0.0.0.0
++  __TEXT.__text: 0xebd8 sha256:ebe8e1964a4d919f551a7b4e9f021f1042dbd4a9ab5d727a07cc033adf454b20
+   __TEXT.__auth_stubs: 0x440 sha256:27079bd1097edea02d4a7456e07fe3ceffd7700b821a086d2f865dd376fe445c
+-  __TEXT.__cstring: 0x1ded sha256:6fa94ec9010aa16868cbabf206ed0cb4f9c3d8e1a7f1ce0252777ddd34770a68
++  __TEXT.__cstring: 0x1e18 sha256:c38881a55b9d593ba6ffa0e65acb818536a75680c7f30e486a59f5029c9c0deb
+   __TEXT.__const: 0x1b sha256:df1c554bfe53769e87ed6d00a892bffe8986c5161fa23aafc3f292eaa9d203cf
+-  __TEXT.__unwind_info: 0xb0 sha256:472a57049e8493094ad05355e9fd83d4d676e074a484d28a2e019dc1f1976ab3
++  __TEXT.__unwind_info: 0xb0 sha256:ee651d1b79b23efbe65e5763d10b86b24b62030606eedcdf2ffbf8025315ec1b
+   __DATA_CONST.__auth_got: 0x220 sha256:6bc663becc0ffb921d359e707ca64c728e912554a92957d421cbf7e6b532d9c7
+   __DATA_CONST.__got: 0x18 sha256:505a05e506ab52e0da5089833888fc0d2829f6892c560e0c8ae84090118c0e08
+-  __DATA.__data: 0xd0 sha256:b28b9455abbf5684f0c419228fd73d1567b1ce56fa43bf9a3693cfe45d6cd02c
++  __DATA.__data: 0xd0 sha256:a343559edb344f545192c6bccbfa1019dd7843896ac931bfc6ba2465aa35ed96
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcrypto.46.dylib
+   - /usr/lib/libssl.48.dylib
+-  UUID: D620C4C2-CC2E-3657-B760-CA7C8695B5E1
++  UUID: D9DDF11B-4CD9-3BDE-92FC-41B50626091D
+   Functions: 48
+   Symbols:   123
+-  CStrings:  201
++  CStrings:  202
+ 
+Functions:
+~ _ap_proxy_http_register_hook : sha256 e0e482d97655ae838b2083f0bb0ac9159a13a9488d4561945b52875aa65a8ff3 -> 1d18b0631cb5643fc247c3bcd8c918aa5d1d8aac713995ed0cab4f0938b84e85
+~ _proxy_ajp_handler : sha256 cd69f1131e864aa189e11dd3b82f1dce4afc6379de45bc3a7c11423d2d00aa71 -> efe1fc2c65f85da2c0c1e80d13611520cc89d1fdf1e7fb1cc4466376b8761aa9
+~ _proxy_ajp_canon : sha256 850d7f1812dff9437d3624d186502ac9c56db2b1cd54f707bd1f2862d0932c7c -> b68cbbd26090513630c2aa5425b385393c971c1829144400726f05ff1df387e4
+~ _ap_proxy_ajp_request : sha256 b0e45293400d9e00c7e15b36f40f2f02a8a005e35e024d1997ddfe71c5d0ec7a -> 3308d6181a712bebb8c1978e50b29b5270f3ab54abace13b1c684e1ef2de86e3
+~ _get_content_length : sha256 87e0a46d271c8a27acd54dbda6d3a97770f97761a57c4313f3427919af42f6dd -> c348d8487858ffe919154d9385c9ba88e35ccdd1142764d5a102ed8d10c6d78e
+~ _ajp_send_header : sha256 949841554fdd681ddc94017ad2130f58eaac6854872c18b865c65beed1469de8 -> b0c7c796354fae496218ec56ba1f72bc7aebc60424e1ea3dfae02822f763aa05
+~ _ajp_marshal_into_msgb : sha256 907849f82f4a5718941b011fa3b5487632887e2ba532fbdca7d17380b18c5b28 -> c35d2b9a10794bea5e6edac7de5e35af65d5774e15b51c64187e7e74bb4222c1
+~ _ajp_read_header : sha256 8992b86ce363e118aad6aaffb3566705602a446c7fae42abb8ee915d2ade5332 -> 53524f675cbca4f8003105930167bf975a188d99ba7752ca7b37bc2921dafd0a
+~ _ajp_parse_type : sha256 9a658324bde6e69c86671f3fa7bf6bba70a6252fa3e5af77f5e238fbdf0bf02d -> cfdc46c6c5a6de0c30752e5363dc31ba758c36f8f8e680e722202ff388550cd9
+~ _ajp_parse_header : sha256 83f2a68233a102225ad28ff084bbb29e1a110f59d40dc6dc5bd02d59ef326d30 -> 1e5f8a4a5e5a62de1c500bae64073b910f3062a1ea5eefdc179fc45dbb3f2ba6
+~ _ajp_unmarshal_response : sha256 f98faf0cb7f891c979fa982c189019634138b6ba0458553ebd52c8701cc7eb57 -> 1d9248c0c53d1db1b757b311f25dc44416fd5d53da4cee9b3ef5eb47efd63359
+~ _ajp_parse_data : 680 -> 816
+~ _ajp_parse_reuse : sha256 e3eb9ed2f921774dd93c007009ff558508ca8592c3db9f00b0fa3b1e43c40928 -> e56069a7ce6538c8a3c1eb5c19d395949ffce2bedb6513677f530bd3f43e898c
+~ _ajp_alloc_data_msg : sha256 7c75e7f5e2799955b66a05dc8070c19dd2edd4bd0b3f230ebf9e137036be2b57 -> 41de110bc7475ca53cf3d7d8cf4d74921b894cc6116962e1d6a3be8f5a034cb4
+~ _sc_for_req_method_by_id : sha256 1cfb58e2cb1902cdef8fa502855b8aa9d79a1753bbc89d8ccffd4efb01121417 -> 3d8a7cb5711d62fbe61a25a4ac20d3a177e896484149470587f21ff3c6b2a3e9
+~ _sc_for_req_header : sha256 ed664b2c279bc7e13adf313d61f0302bf3d68a8418b12d98a9cf247feab2c3c1 -> 689e8310a111436bf972d7c898ce2458f3943b842b1c9aa56522c15ca549f416
+~ _addit_dammit : sha256 cfefacd43377ec99fcb0d093f624b2e92d07a813a6430dea3e41d62be1e95d5e -> fd35350c2acaa7e6afc0d80c0577f3517f7c5c76a5ba2b71b3fa3e873a23b094
+~ _ajp_ilink_send : sha256 09fbf4096d580013827e7072be6093782a8cab7d0af1723c7b4a38ac84988682 -> 4c375b0ff2a6117284c0833ab1152035971a494cad00d31d96a01193abc50f19
+~ _ajp_ilink_receive : sha256 dcca5f09c97f1309ce6d64a007c196159a8243bbbec04c07d1ecb74bb869ba65 -> 142740c7593906e11ce6da51029563ea68112bc0c73a7259203bda655a9000d7
+~ _ilink_read : sha256 995b46ba326aabcaa672ba94a76268714bad263b27dd7b152ca71ebddd4ef994 -> 941a2e492116378931ef26a3820216c4d549c902bc80b52c1af88583b70f1532
+~ _ajp_msg_dump : sha256 2a3e5765fe6cbe61840bd1e91cc870d7d179d22dbc220e44e9c099f9ffec81f0 -> 72b34951689fa83d211922eec44774b3137b21d164e23ddbd688f4416b8d6330
+~ _ajp_msg_log : sha256 679b63ead989f6ba07c3f02607e4ab4b1fcfe5d0fb1dc1f1f2e50ff6e4798c56 -> 31daaae48e17b6d003ab0e26d33a4c0aa6bd8c9263b2c1e147db2eafd961d0cd
+~ _ajp_msg_check_header : 552 -> 560
+~ _ajp_msg_reuse : sha256 7d9a09d5c7701c7e0367a59b25f1cc2493c622e54f5ac6311cac686e79c241af -> 9ce8a7d19963e19d7cc7cf30d9de810cfc50f0f4492ee4461ad2833739b40640
+~ _ajp_msg_append_uint32 : sha256 a18126cd7a460cdd3b31e5a0ebeba0321d239033f57684bf60c27dfe82169d52 -> be1f3b2ada7279478fcdd5dd563153329d070b3e258c21c003a6669e0b92701d
+~ _ajp_log_overflow : sha256 bceb523f23f8dd1dfeb68c281f4161eb0600a94a6f42c256646acc541fa84783 -> 07677b7fd03996eb9e2929a24139e48e863bf8b692245c31bff832ab350c2415
+~ _ajp_msg_append_uint16 : sha256 1dcd45e07cad76753740483dfc685587f08c7659d85068028cf2d6611ebccff8 -> 0189962016c47498ba25303ee4306446df325edb243d0d11fce71bf0b56a93b5
+~ _ajp_msg_append_uint8 : sha256 8e3a116e009667b45cd2aa62256600922283fad1b6588b2d28635ff98f7cf981 -> c502fb681b489946e5aff78798c44cbdfeb197564a7a4eec9d7c88d22f41dc48
+~ _ajp_msg_append_string_ex : sha256 e1ce65dece1568bab75d797f89ef857425fdd1f0917a919bd69f0e8efc75ce91 -> abcfb19b0e74fb12b68ba752bea4ea05fd29a5c6903b39fed16e39fa42761af4
+~ _ajp_msg_append_bytes : sha256 d801570c069ca84841d8eb37652b83a24faf721f348bc6eb8e6e7772a3bee5e9 -> a26081d21d2f27c034ce0c62820da7c36fec0df8d1456620893b3fb9bf73a29a
+~ _ajp_msg_get_uint32 : sha256 fa3791eb9dd21a0e68f6c7949f1bdcf04ffaf202ebb46ce078f6beec05b17330 -> fcffa0b2783eb12c823c9299d9fcd87003134c3263416ae50da046d40303e268
+~ _ajp_msg_get_uint16 : sha256 eac1c1bc8e08c244c0f109d5104df80152aa00e3b4b612efdc152936d1a0e249 -> d0e54eb32543670b4959646f9f5912f85f5bba025b906c5471e2e53d3c38aa37
+~ _ajp_msg_peek_uint16 : sha256 cc26bc879febf1dd0be8fc04f229c917fd2420640eb6d4750d2d7f9871fa8339 -> aeebb1f036da23035e009915b85770c49777af3fb7cef0d38ef3256b4a40be1a
+~ _ajp_msg_peek_uint8 : sha256 07a977f3245067ec68351b06dd24384c7066ed1f22829b4754d3d299be7b59ee -> 8b7d2e8fe8f4e5932fbd2f1f98d72b9ca449997b4a6310b25236641f160ee411
+~ _ajp_msg_get_uint8 : sha256 4e102cd4eeb89bf8a06b3d8ba8a3f9130461ceb28634386f60f49ceaf90fd55f -> 0b06a05cb185ef803c265c588f419a5b4ad8efba7e056ba75c61d779dcb30f82
+~ _ajp_msg_get_string : 220 -> 276
+~ _ajp_msg_get_bytes : sha256 e365e0b79bafb9af1ae9f7db7c428ccfb6bdf22f9fdee2b67209fb40b854e5ec -> 969225073689d4d07e2b9b9c30f964a823694b9fdf24f4457f4fd4bf2290603f
+~ _ajp_msg_copy : sha256 ac707818bee122d10f3c7d6921271f35ae2c4d793d649ab276324556d0ea76ac -> 46216a6b845670a806c2f8028d0b6bc38d64a81cea228a50730d7575f7c2b676
+~ _ajp_msg_serialize_ping : sha256 5d5a24ec56d8f2e1ad967e9208ca9e9c57a339629ac54a7f01704762e10c43cd -> 1b2a1caac9c154618db7ddfa1e43a0e07bd492027d62c5097f2dd325d5d6b73b
+~ _ajp_msg_serialize_cping : sha256 5ef5cb106daa286faa3c6a334a8b66d3a5e381f5af96f19972af31e96998584b -> bf13c3734173fd6e3efb2fd0679034c88e3ae5520d690ac2e59b486dbaaf913a
+~ _ajp_handle_cping_cpong : sha256 acfac9f8ad2e22a628cfebf36b822ce8ead6c077982b82ef1b83dc770b976fb8 -> 9d021fc0290a43d995553142add7673c823bfca83136ec864e29a5971c689869
+~ _ajp_type_str : sha256 6ee9afe588e63e0271089c951f0b4eb5757b2bf8179d3d74886927c3f34ca9c1 -> 99e3c5252c35d8766ac696c6969ae5f244da19fdeac07a93196294d8f0ffaac7
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRbjugDs63E_nh9LrKXIzNhaKOKGLV_zLQv5WSg/Library/Caches/com.apple.xbs/TemporaryDirectory.QaP6H4/Sources/apache/httpd/modules/proxy/ajp_header.c"
++ "/AppleInternal/Library/BuildRoots/4~CRbjugDs63E_nh9LrKXIzNhaKOKGLV_zLQv5WSg/Library/Caches/com.apple.xbs/TemporaryDirectory.QaP6H4/Sources/apache/httpd/modules/proxy/ajp_link.c"
++ "/AppleInternal/Library/BuildRoots/4~CRbjugDs63E_nh9LrKXIzNhaKOKGLV_zLQv5WSg/Library/Caches/com.apple.xbs/TemporaryDirectory.QaP6H4/Sources/apache/httpd/modules/proxy/ajp_msg.c"
++ "/AppleInternal/Library/BuildRoots/4~CRbjugDs63E_nh9LrKXIzNhaKOKGLV_zLQv5WSg/Library/Caches/com.apple.xbs/TemporaryDirectory.QaP6H4/Sources/apache/httpd/modules/proxy/ajp_utils.c"
++ "/AppleInternal/Library/BuildRoots/4~CRbjugDs63E_nh9LrKXIzNhaKOKGLV_zLQv5WSg/Library/Caches/com.apple.xbs/TemporaryDirectory.QaP6H4/Sources/apache/httpd/modules/proxy/mod_proxy_ajp.c"
++ "AH10546: ajp_parse_data: Message too small"
+- "/AppleInternal/Library/BuildRoots/4~CQCNugBXuVk5QyWQghtZ7Xdpnx7s5XYALnb8teQ/Library/Caches/com.apple.xbs/TemporaryDirectory.AuKlu0/Sources/apache/httpd/modules/proxy/ajp_header.c"
+- "/AppleInternal/Library/BuildRoots/4~CQCNugBXuVk5QyWQghtZ7Xdpnx7s5XYALnb8teQ/Library/Caches/com.apple.xbs/TemporaryDirectory.AuKlu0/Sources/apache/httpd/modules/proxy/ajp_link.c"
+- "/AppleInternal/Library/BuildRoots/4~CQCNugBXuVk5QyWQghtZ7Xdpnx7s5XYALnb8teQ/Library/Caches/com.apple.xbs/TemporaryDirectory.AuKlu0/Sources/apache/httpd/modules/proxy/ajp_msg.c"
+- "/AppleInternal/Library/BuildRoots/4~CQCNugBXuVk5QyWQghtZ7Xdpnx7s5XYALnb8teQ/Library/Caches/com.apple.xbs/TemporaryDirectory.AuKlu0/Sources/apache/httpd/modules/proxy/ajp_utils.c"
+- "/AppleInternal/Library/BuildRoots/4~CQCNugBXuVk5QyWQghtZ7Xdpnx7s5XYALnb8teQ/Library/Caches/com.apple.xbs/TemporaryDirectory.AuKlu0/Sources/apache/httpd/modules/proxy/mod_proxy_ajp.c"
+
+```

@@ -1,0 +1,56 @@
+## mod_mpm_prefork.so
+
+> `/usr/libexec/apache2/mod_mpm_prefork.so`
+
+```diff
+
+-886.0.0.0.0
+-  __TEXT.__text: 0x4bb8 sha256:5a660133d7f23fb8b870a3a52cd761c60118b7082f7963e39ea458c638d03485
++888.0.0.0.0
++  __TEXT.__text: 0x4bb4 sha256:3558c0e411ec81f13aadec48232b2ef1914cf31cc6471acb1015431ea03fbd3d
+   __TEXT.__auth_stubs: 0x5c0 sha256:c3bf2648bba7e7baa5621c0f5e2a43f0589458b561d79c0b538732abfd0a4451
+-  __TEXT.__cstring: 0xedd sha256:43074449ddb17a0d3c1fa30e5a844f489fa419df8308180b2f8c459d627dd9ed
+-  __TEXT.__unwind_info: 0x90 sha256:7aa9d896a86eae78985147c9f8109ce340e814a7862f1c97e4c7d8cc4915c8ef
+-  __DATA_CONST.__const: 0x240 sha256:9fbd3131dccdeb07cefa64e39b1e439cbd226dbd0afc6190e5625bb3a8d3cc13
++  __TEXT.__cstring: 0xedd sha256:96cdad52b850f5bb6378d4e037a0826379aa8108252ac2bfc07e400708d73a39
++  __TEXT.__unwind_info: 0x90 sha256:39ab1b24805d5e9f9a4c2ac5a3d98bb8c0270a80f5a5ebd2d67d58facb39cea6
++  __DATA_CONST.__const: 0x240 sha256:91961e8623c3637a47d5a6f31a5a1f53db0a95a42247c3c04576410230112d25
+   __DATA_CONST.__auth_got: 0x2e0 sha256:ab7f6c809eef6763547d27be0af657894d501b7fa15f06ab090e90e007b4f87d
+   __DATA_CONST.__got: 0x50 sha256:2930e759cd7c7b1e113b2df825d0e2682a1973ea0232596b9a332d147d8d71c3
+-  __DATA.__data: 0x74 sha256:45204f9a30340d12cc85c94d6309e7a1d53789032442bbd3b4b7f4fabafd82f1
++  __DATA.__data: 0x74 sha256:a51d1f46d8f822831e962578dc77c30d9a8f994144fc1c19bfd0d524a14180a7
+   __DATA.__bss: 0x5c sha256:62b14867e4e79d50673d2f7474335229f54c478f56d2a910235e1953c6d29206
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcrypto.46.dylib
+   - /usr/lib/libssl.48.dylib
+-  UUID: 12803AD8-5A36-32F1-9CEB-6550C5D52593
++  UUID: C26E5611-538A-34D7-A4E4-C6C110D71EED
+   Functions: 25
+   Symbols:   154
+   CStrings:  86
+Functions:
+~ _prefork_hooks : sha256 e1f423d34fca14d5b408e50930030bc7454b9d6d34b1872e99da33a1095e39c0 -> c98bcbeb6a9050620e9893b63ff80811af7df6db5aed9e2f88e845cd24d6a994
+~ _set_daemons_to_start : sha256 33354ebd252f09873d1b113a313c2742c12324688f251ac2f0058e3263fad440 -> 18b30a1ace5cd833c798998504fd895fd951abb18050fc0fc111edc8fd9b1b04
+~ _set_min_free_servers : sha256 a0158f3925483779f1fae153d2c34390d06f15ef4169528ab7b22a1a7e63a0ff -> a82d4950d2b9b6ffafade25a09f6200314e3aa5074e77a001bb6f14467ac34e1
+~ _set_max_free_servers : sha256 489c2f68d544d09e3e9396debacb113f5eb0045820b6e67dd4a7af08fb5b2fdf -> ae7267f1562cf73b21286fb9d45c0d5b1dce3e31fdd554112101f804b48415c4
+~ _set_max_clients : sha256 663bdce35531e78c5a227535199a2707dd2de64c4639a17532a73687884bfed2 -> 3d7a25bbbdb15817e198ce1638a4d1e9953f303eaa6f03c51a07697b603ee10f
+~ _set_server_limit : sha256 cd8a093dbeabf4bd042373523198736828e7114edfe54eb7a67db8f430a18f56 -> fcba2e06eeece748c32b828dd30435f87eb49bc86c0a81565aa5cfe73dde5881
+~ _prefork_open_logs : sha256 a53202259f205bff4024ee95a164fd2b5b7f3c22f4aa2e4d244415ac709d33df -> 9c88154010359f9db732fe11559ff1d82833427bb7e140ec21505b9191e6d4c4
+~ _prefork_pre_config : sha256 03efda0a1ebfecacaec794d8cfeea8e21522b4edca25bac96b3f5fe794a856db -> b7aa20cc19dda43b85faddd56fecbff0686fe624bf3a19fece93cc338b747de7
+~ _prefork_check_config : sha256 89625d320a753f1e7c58315ad200c9a5aa93e1699c3d928da9a51ddd951cfb59 -> d135ffbf6f9a5b57861c9487ed935c03d1455196a1e7451fd57f069f6900ca6e
+~ _prefork_run : sha256 2ba4efa0aa19f6be28e4ad16e9d9ac3612c0ee6703ece2dfae1830fbaf509fbe -> 8c060400534aec03eac55af5e2ea75d14c8ded4bf300be2605ed141d5a31b00b
+~ _prefork_get_name : sha256 17fd9425261af43235076eb5172b8b901b14d187ecdd19ac24aa266b3b508191 -> 97c9904b2ca18726ff94767a8ccdea13186dd7910d2959228bec9f08f06fc27b
+~ _make_child : sha256 88d515112cd5e2140e3a4f5058856d0fffe7fdaa85fa7e775473c7dd9af3920e -> fd53ca285dd47158cb4a7b2e0bf0d3e9c3fd4d210dec922051db32aa8d136e87
+~ _prefork_note_child_killed : sha256 143fdb7ab627e24a32c596851cb3f43453f2143eb03e94d8649bfbfa62e9d314 -> 2de07d737049208bde8c32a999d79b36f42e54fa9a4b8951203cfa9f8cf4e971
+~ _perform_idle_server_maintenance : sha256 76559d73ea7df4ed0788edae0df4c3259e2f153af97e00ba2c1e70506c6de3f3 -> 0cf6f0f01af0e444f05b634215aa8f89572ac761d6283f86d67d24b8ec42fe78
+~ _prefork_note_child_started : sha256 e6d29e6bfcca8950b3f1e3893ff1e130b76c51c4a18fe6091f754f7095d2e661 -> df3de418fc19f30890173dd48ccc9465e62d1c130ea0f51a024d32e8ff2dcf47
+~ _child_main : 2968 -> 2964
+~ _clean_child_exit : sha256 17529748e0774c1af4c98cbfca0cff5b582606f9fdcebfd56abb1e821a1c7dd1 -> b3a58828b4c64f4527a60f4791402cf57480fa5ef5af13173705d1d5ca134cfd
+~ _accept_mutex_on : sha256 ca04866624cd7f37c975c1c84b2aec0a077a3f31680cf4138fc41f8016ae5cfc -> f5b8376a7ffabd8da1109b5f790b1f50361ce5ad51a02e5d284ccd9452be6533
+~ _accept_mutex_off : sha256 a9e46a06debc6af632e520a644b1836b91bcf71f9dd42201853b4add30859929 -> 4731d260b611fb6fc2303cc3b14bcba2403a8353e27d1cb66e7cce963f428e3c
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRbjugDs63E_nh9LrKXIzNhaKOKGLV_zLQv5WSg/Library/Caches/com.apple.xbs/TemporaryDirectory.QaP6H4/Sources/apache/httpd/server/mpm/prefork/prefork.c"
+- "/AppleInternal/Library/BuildRoots/4~CQCNugBXuVk5QyWQghtZ7Xdpnx7s5XYALnb8teQ/Library/Caches/com.apple.xbs/TemporaryDirectory.AuKlu0/Sources/apache/httpd/server/mpm/prefork/prefork.c"
+
+```

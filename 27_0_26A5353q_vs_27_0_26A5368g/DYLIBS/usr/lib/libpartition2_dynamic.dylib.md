@@ -1,0 +1,205 @@
+## libpartition2_dynamic.dylib
+
+> `/usr/lib/libpartition2_dynamic.dylib`
+
+```diff
+
+-3689.0.0.0.1
+-  __TEXT.__text: 0xb800 sha256:79e88f88c33beabe0e5b675afdbf6bb95450e5140ed62a16a67712122f8cac31
+-  __TEXT.__objc_methlist: 0x584 sha256:345c573d06c6d5f7ee9f75d832a98573c09d0797e65bec36785a7ba9866bd817
++3695.0.0.0.0
++  __TEXT.__text: 0xb810 sha256:02ecd78bc8ea82e9125c74a6d25078b967375ce34793f1a32c5e331ce71fb71d
++  __TEXT.__objc_methlist: 0x584 sha256:62c31496c45b0e4c8d0cd39295c3c819cc0e3fc6c44141fad7e583b26a8f76cf
+   __TEXT.__const: 0xc8 sha256:6d2e9d4fb8549ee4663abef803fe94171806484104ab9d3d8c4afedb0c35882b
+   __TEXT.__oslogstring: 0x1201 sha256:4bca12ca19d00477a78280cb07bada54cf12bb9ed5730ab120f196d60a1a39f1
+   __TEXT.__cstring: 0xc8e sha256:826ad70a4f32bc52b7af729b1fc1575fb0ef57f419444c4d38184371252d5f56
+   __TEXT.__gcc_except_tab: 0x7c sha256:55d270deda5f7d6a4e0e64ddd8f8c39c97670e71c3b11e8a63e9fc72308cc9af
+-  __TEXT.__unwind_info: 0x258 sha256:32549069f243b1c11fa2091cfa1b9626bc2a2de0651ebd50326e147d50177df8
++  __TEXT.__unwind_info: 0x258 sha256:85ff3cfcf3cd34074c08b3a5d394ab67f76f8e0be4444b49fb47f76cdf61a9a4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x3d0 sha256:f2ac692766cc485ca9ca1a166d1f1463bf8c60964d8dc78b5bc657130257d081
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:17edc3dd9b13e1a5c66463e9f2f64df3f430575c6c9789ff3e3d77077e09308f
++  __DATA_CONST.__const: 0x3d0 sha256:38425e4ddb1b3358f7342f6e0298c7133cea0c311aab48704bdb25e68cdc1656
++  __DATA_CONST.__objc_classlist: 0x28 sha256:67726215024d8bdac9b2b128288d041fc2a75f5bf45edb0abb74620e56cfd20f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x4b8 sha256:717722034f8ea99fe6641133ca7d5a9b389f3f42328c2e81014423b6ff794d34
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:c58f534b3e3b10b80a13abca5bd8d23f73eb2d26fe5e9f88429aeeb6bc020552
+-  __DATA_CONST.__objc_arraydata: 0x58 sha256:4f0e0586b3456b7da71d2abc11ac76ba89fad2d5200f5876a814c0cfbbe754d9
+-  __DATA_CONST.__got: 0x118 sha256:dcbd92c9fe03a212bb88e4d09cb3c1c2fac1cc718830f409d3b1cbcc61964fa1
+-  __AUTH_CONST.__const: 0x190 sha256:02acda02caf66aa48ad6cb8a7f4fbeb92321f095164f72f9990ddc8d9dea7efe
+-  __AUTH_CONST.__cfstring: 0xac0 sha256:8c8df0d83a797c12c0a57a984d99875c0606f3b8dc15107cdbc4c17208769f3b
+-  __AUTH_CONST.__objc_const: 0x3c0 sha256:eb34abaf104c5b7c01887c15ca9155d52380a95c353abc2ee3fc69e621af6fab
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:b822787b400fced97c06d1b630cac56f91c7951db6cfaa9ec4d9cdc0f93f78a7
+-  __AUTH_CONST.__objc_dictobj: 0x78 sha256:7c9bc0b698c524934ddd6f2fcfd7c5bbfbe34e713e699506a3b91c5b79677c1a
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:c81b44073a677d9e41c1464ece47cb675ac17649eb884ad0b8cce572de34885d
++  __DATA_CONST.__objc_selrefs: 0x4b8 sha256:2b8a3ff0d7cc3b0b2ae0d3b82fc52cb35b9a4d6834458f356d600d1a9fb1cb17
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:825dfe81f2725974b587db1e412d46f639b8127e8cbfbc52842ec2ede78c547a
++  __DATA_CONST.__objc_arraydata: 0x58 sha256:101845bdfcaf1d0930362e8540322c3180c4427870e7175c144ed09fe786762a
++  __DATA_CONST.__got: 0x118 sha256:5185baa4a9d8bc0f9fa47c2af3c2aa614db9b08400dfa5f77e4883a5ce3ea4fd
++  __AUTH_CONST.__const: 0x190 sha256:6bb710aefca5aa0c324e94af40839733604858ed9da6752c29922424d658b5b0
++  __AUTH_CONST.__cfstring: 0xac0 sha256:7121eebc994426979b9470709b787e87f8616d1f0d607efced4d6b7a2dd4735a
++  __AUTH_CONST.__objc_const: 0x3c0 sha256:5f84ca35fd67ad131fc287b173393380257dd9c566339c65e4356b3c6b7e0472
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:22dfaa00dc59f0d24a774b31f3c56b18ac8c56a9ee779f832b2f8dab0b837c61
++  __AUTH_CONST.__objc_dictobj: 0x78 sha256:c3d0ea38f63d8371e233177e2b1fdde41efa1661526a24781cb4abb905d2ee50
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:b0c9d0d01b4b94a0c87ec52f0c83de9feba7fcab6f840a2dfca71b170715e2c7
+   __AUTH_CONST.__auth_got: 0x3a0 sha256:202115097d1bee389d4d4d81db00117252be97d5691af316941f3843ef7a05f5
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+-  __DATA.__data: 0xac sha256:21a63e9e0d1156b5aeff3d7da8f6fa241056a99957c05d595917ba649fd18a7c
++  __DATA.__data: 0xac sha256:34e9f5fdf56573200424de9f498e5dc93f4a82929f7b0b9bc7bbc85b972fb20a
+   __DATA.__bss: 0x9 sha256:3e7077fd2f66d689e0cee6a7cf5b37bf2dca7c979af356d0a31cbc5c85605c7d
+-  __DATA_DIRTY.__objc_data: 0x190 sha256:fe9a5c0cb99419883494273f464b732ebab6da11fe643518ccda0f91398b21bc
++  __DATA_DIRTY.__objc_data: 0x190 sha256:86c766c16ab21808df3f435f41d52e2b277773fb058b4135013210e0d08be6f8
+   __DATA_DIRTY.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /System/Library/PrivateFrameworks/APFS.framework/Versions/A/APFS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 04B9B3F9-B2B3-39E9-9A2A-FB5F34F61708
++  UUID: 67694B67-814B-3D00-8994-C4C2B07EDE8F
+   Functions: 141
+   Symbols:   505
+   CStrings:  349
+Functions:
+~ +[LPAPFSContainer supportedContentTypes] : sha256 bee75eb8c04162edee6c032b7e56f3ebefa15a7d7a1056f41d37ab6cef48e5e0 -> f640381f3c3c2488910890cb292cfbfe6336348977f9b35001155484e29e6d33
+~ +[LPAPFSContainer allAPFSContainers] : 412 -> 408
+~ +[LPAPFSContainer _containerWithPhysticalStoreRole:] : 564 -> 560
+~ +[LPAPFSContainer diagsContainer] : sha256 17d03a0fdba9ba6357030a11a6d25f7c51cb4e7659f1ec43721a89ab88906dca -> 8d11496ec4677e04836465ec71021d32c025b7715ea5d462f5084e68aeabf5bf
+~ +[LPAPFSContainer recoveryContainer] : sha256 11ab151bda35cc2b12f4f9049abbf29d530fd2d49425163541b42c013653f522 -> 1c9180ba9371494945f8246f7ebe05cde7ca7fefab548814904badb835733e33
+~ -[LPAPFSContainer addVolumeWithName:role:caseSensitive:reserveSize:quotaSize:pairedVolume:error:] : sha256 8431a0aa4c1d629f5bb97c6b5b23b972184911e63029655e2493ce9af84a447e -> 620ee6ff2a8d9801093a1e30abea3644dee0a2b4d91a4c8c6f8f3bcc849d020a
+~ -[LPAPFSContainer _matchVolumesWithRole:group:] : sha256 5fc983e16b85b4fad546aefd611eb618a3f33bc8cc34014acf9122773719debb -> 371021b5f781e7be8dffcd84d584f4d503558d1c4ec621da2416d9ad79a9e0dd
+~ -[LPAPFSContainer volumesWithRole:group:] : sha256 1aadacde3d85e46b8cb33a448f2acc0b8194e5b74667e549b1f2d074df3f6dd4 -> c193546fdd3557cc708d44d621e8f121cec0f15a03655a99464ade63e003efdd
+~ ___41-[LPAPFSContainer volumesWithRole:group:]_block_invoke : sha256 586d5261cbf22afc16ba465124fa35988e6584bc62ee1c693f78177592b4b82e -> 3e49c8e0978b87ede7e3328ca6a30e96f057c8d82d9d614794d9db5cd61c7121
+~ ___copy_helper_block_e8_32s : sha256 0988ee3e3d66b45d302be359a89ebf462ccb0911319c3815d2e40617b7933cf5 -> 8e7683c3671b42e23cc8681c8239c12e6b9253c1822de1c16d0dfd3ae9263230
+~ ___destroy_helper_block_e8_32s : sha256 59c1a39c214ea1436267c25a127b58de5e92dc6cbff834f7d6c356cbbd75d921 -> 45219a9b3a4dca64f45f823e80a8bd9d595fe3a1c7d9617faf0b472c0d02edd0
+~ __41-[LPAPFSContainer volumesWithRole:group:]_block_invoke.48 : sha256 0d8f4af6c6a96f449c3b4707a7c57773dbde3c16a254099f7f7490486cba0fd6 -> b3fe5ad62b5dc2cd876d345e4cfa0d6ed413013f69db317a0f0082288286dd41
+~ -[LPAPFSContainer volumesWithRole:] : sha256 b77af38964c5e92c7653d4ccfd749f60ce24e2a039d41e8ba4a8fca4f53379cd -> a0c4aa9dfb63092357c511592d0f79e82517e7278e120e51a8f21a86281d95fe
+~ -[LPAPFSContainer volumes] : sha256 5743081615632e07e6247458382f4fab4910a55142e4bfae10808f901bc30685 -> b43436227bc2000278cd0245942ac12b4d4e55d29fc0c3e1b61f57803e11300d
+~ -[LPAPFSContainer physicalStores] : sha256 1e328e919407bf4eb2b6a4401a52e536b0c6800180db5b1f26092e5958928a78 -> 0aba4062bea10daaad33091f5c6283e9805d479cd4ffe8c7f211d02c660f013c
+~ -[LPAPFSContainer volumeWithRole:group:] : sha256 26b2b916677815f639e08b6b12bbd2a8f0829e71d66852293bd5d0e6e20f6661 -> b984c0e035854747c832c11aa574b74e084a8baec9f198bcd26c88d149555581
+~ -[LPAPFSContainer prebootVolume] : sha256 158d0eb2a3b98b0ef8da468f4312b436fe09ad901c206e7788c60e9ab217b5c4 -> e6432f40f08250bb15f902a1e495fcd4a27a8e1badbbc406faba331ef0511170
+~ -[LPAPFSContainer recoveryVolume] : sha256 4ec6834a3e0a09f3ca3c8c60ac15243c71024de8e1b2f4d6de62097be28f8ea0 -> ccf9f3e62d32e2f4bcacc1f584462fe526d9d61cc84e3a3f1dfa7e7a96c3c2d1
+~ -[LPAPFSContainer updateVolume] : sha256 b00bd42667ae706f32cb3a0b8790f08c035ad7b97a73bbb83591daa30b6c3a9c -> 309b14388db06feaf442e87c26e0ba4a9a6970f90163701538f64e2e3d0eba69
+~ -[LPAPFSContainer VMVolume] : sha256 1e2486b62be15a97c40c1d601dc9fc8e1222d47672f0c13b663811099c02ed47 -> d4391bca59a14a922d784c4ad4b5a03964f4c3f4d6555d3554ce283bb16fe41a
+~ -[LPAPFSContainer xARTVolume] : sha256 4b60cb37c24d771126b10fcea40db6c96e75c045cb4a28b3d0a8e60ebfe73ea4 -> f90b847908f6076f31e957633450e8b0a8ee936bc431352d9bf2a4c87baf05ac
+~ -[LPAPFSContainer hardwareVolume] : sha256 008128818800a2fdba06c7b8e6569243b7f03595a4a726b58a97720dc5325fd2 -> fac0a40cc6d6924a2fe2a4e3c9d085831ac0382694c9068464e6dc3c83893650
+~ +[LPAPFSPhysicalStore supportedContentTypes] : sha256 39abbddbe8e87a714da74ed593bfa6e36564655a16a2e572243929fc8ee36269 -> 1d33c3e3984c618dbe0fb696f8636c54e5d18277e5154824ee9bad610103ffea
+~ -[LPAPFSPhysicalStore role] : sha256 b23272c14611ce218962bfdb26ffdc2e0b6149b19c7e01efeead0bd915fad3d9 -> 141562e99495fa304444f92cd1003cdc4541f4a3b3dce4d71ac1e9cc1dfda5cd
+~ -[LPAPFSPhysicalStore parent] : 708 -> 704
+~ -[LPAPFSPhysicalStore container] : sha256 f878aea1c0140bbf35b7afa0467b0de5009b9cef96e3c0695cfc850350aaeaae -> bbf66fa5b9fdcc8dcf78b5287571037b8f13e85c89d25869a90b4b7b3677c0e2
+~ +[LPAPFSVolume initialize] : sha256 590907c25add611e52c7695dc1b7a07da36d03b5343952adf1dacfe2a745586e -> cc369ad1d0f948b829ceb5dc4106627c19dad221b40c6b69bd21e7b5149ac442
+~ +[LPAPFSVolume supportedContentTypes] : sha256 303c301d4ac7c17550b3729abb9c89865b232ba98416d69f1582b16717708306 -> ee125959586ca2b6e582107469a678a627e9de5615835982128730b1f51f0b6f
+~ +[LPAPFSVolume _loadMountPointTableForMode:] : 276 -> 284
+~ +[LPAPFSVolume enumerateRoleMetadataUsingBlock:] : 84 -> 100
+~ +[LPAPFSVolume roleMetadataForRole:] : sha256 6014cd887c7327c62043ac7fbf59957dcac02581937b329d781559cec576a1d8 -> 5ddee760842b88991848afe1db66495876eb6987f32e970e32946ef4b614ac87
+~ ___copy_helper_block_e8_32r : sha256 725515a5409724eed9410dc6eedd0fe27c8e434966eb764693b0a54971ed7847 -> 2ef49801fb7661ce2337de0cf85d79e492797c37b1cfcad6603119f0895c9721
+~ ___destroy_helper_block_e8_32r : sha256 17ab9c6ba95189c2c7bf9214ecacc3f24853b2a81eb9a11f761b605a46e9f89f -> 65746a56b9f0b480bbfce24cb1099b00bab9a2cf77498ce80b37a1b3c1992344
+~ +[LPAPFSVolume defaultMountPointGivenRole:] : sha256 6541ffa07495b9121382b53a1e953bf626f7c26b5bafb5c80fb933df42e1139c -> 28734d6c17d6f5de8357fc75ea80a1847bdd7bc6fab9486b90ebf3abfe34ece0
+~ +[LPAPFSVolume defaultVolumeNameGivenRole:] : sha256 0edab42eea0d1096dd30138fbcb85203492aeed28029fb19aff636a2c9f0c79f -> ba4a891e7030713e2abf23cb0f71f33a1675f2da36d1481e9dd922e045e95f70
+~ ___Block_byref_object_dispose_ : sha256 7aa1bbb2016c1fbf087f93b722ed5227966375ed230d0421ebf383af82e2a189 -> 9c297e6f9c264c030f964e51cbb37cab4e3f5928f84b5e2a55533d648729e761
+~ ___43+[LPAPFSVolume defaultVolumeNameGivenRole:]_block_invoke : sha256 65f0863a8d94508c56ebc074476a7a4b046f689e13452dc68ee769e5175f7226 -> be6dcb352dcac15df5e01112afe2a4d33cba939680791e0083f5a0fcdfa84856
+~ -[LPAPFSVolume setRole:withError:] : sha256 ba4c146c51f3a62393fdc985bf17194cae1b1a62db052ececa596187028df69d -> 2ecefd73c90f93e97fe5edc225f46af006706a5f428ca02a7225f2671e87db44
+~ -[LPAPFSVolume role] : sha256 e9bf50dfeda3b9aca68ac7099d7a5c3099a47ac826ffbbe302de4cd561590276 -> d2db359c87293dba03c99bd11aa9d3654e45cab3cec1d08e6e1a47080129be37
+~ -[LPAPFSVolume volumeGroupUUID] : sha256 47c7c6d08587f4f88f4c5b921404aec447b2b26b42fb612a78eca94f169c435e -> 38bf8963a9e0a4a358a2b01d6f43591d35be0c3b474d89aab4d40d33a03a13b1
+~ -[LPAPFSVolume container] : sha256 885d4735f8df3a3b7440715be8b32034375a80fd749bfd4611bbee8adef73ccb -> 3dbda59d4a32e3444c19e6159771e4d7041f653593e32de5b22a3df3c31601f4
+~ -[LPAPFSVolume isCaseSenstive] : sha256 4fc01be9c88ae61415b79f4718b4561ea9a34b73125a649ca4e4e78e559f2d30 -> aa9b8e2fbcc8c8276cdceb44cd78523a30d6137b99b0a1481188f72e5a946e2b
+~ -[LPAPFSVolume isEncrypted] : sha256 487a684b53d769e467408ff6330ecffb9e048f8edb3823e38ed1773f4763d5bd -> 12080542d066f3b43f823b85b54f97226ece5c43ecee009820c377bfaa831fa7
+~ -[LPAPFSVolume isFilevaultEncrypted] : sha256 1e8d15fd4ee3923cfb3bd0a4822f9994f1764143e0caa8792ca90738ce0f8fce -> e86e553f65ffef1a39d086348bdd19b85742640e317a2bc1256244e6be25deff
+~ -[LPAPFSVolume pairedVolumeWithRole:] : sha256 68591834257f6a5b59ba154873ea9495429423087e0e1597b26916e3a1c2aec2 -> e2e2047690a03992ffdae3dbc994f7952837f0ce9d12de390d76fbd189e7ea85
+~ -[LPAPFSVolume pairedVolume] : sha256 d79939f63213544b325aaa4a740929da5d401c6f9654be81bf59c9ef271b7535 -> 19bd0ab275c6b8625bb48276883c8f2374333e60c89b26f23eb469f2fd65069b
+~ -[LPAPFSVolume snapshotMountPoints] : 732 -> 744
+~ -[LPAPFSVolume isMounted] : sha256 9d0632206e82a891207c9042686f6c70ad1f842bfdd181e24127b385e45893d6 -> 0e4882779dfca2934449497e81ff586d83c8af71f8c2ff21b8e89c61e119ec9e
+~ -[LPAPFSVolume eraseVolumeWithError:] : sha256 71d0f4cb2ea20cae883b559db87faa3657706df70c3a5c6c01417c516ca5e159 -> c67837a5c9f3a35488c3293f0e47dce4dd8f6fc1a3364225f8bb62c522ac523d
+~ __lp2_delete_directory_contents : sha256 1403f033706e9cdb16186a3b847c60f5f5f921e4a6dd86112619a9ffc4dd4c30 -> 4d19186e6051335a73edf929158c9a6e6d073c0eb8941dfd495b8793acbeb6af
+~ -[LPAPFSVolume mountWithError:] : sha256 9a131103f6b881479419ac88e25e8e59d6801bdb6d53a093c180621e2521b258 -> 7f03ef9773f378f22ff0f869586d9e0f952701a96c5ab94cf354577e5f601884
+~ -[LPAPFSVolume mountAtPath:error:] : sha256 8e0a9ec5287c8f209e8aebd2ed16f6b5421d2a4869d77b79f46ee524b06a95cb -> be2e0944b44236e0a6e0867526af13fec04d0cb2047e2e89e4572c96c684117b
+~ -[LPAPFSVolume _pathIsTemporaryMount:] : sha256 a129a9767510d6ee144efde841d68e063b7c62a99fb1ddb9f1c1472677bc0da5 -> 4de80743c2be0383e1087af4b93601e94ff621b29c82e78c41f7e3323fc7247b
+~ -[LPAPFSVolume _createTemporaryMountPointWithError:] : sha256 ef44d722eb050702e7345529584e8675baeaf24437528b9a60a69afa7406f2de -> b7451a18fccafe72a7c4fc0273f139af7430ea344b4e7412978b7b6f6496861a
+~ -[LPAPFSVolume mountAtTemporaryPathWithError:] : sha256 00e439f931e01e4a366332d5dbf9d4203527a8a164709839c76dff5a244f43d5 -> ce0714d6133e4ceb6779d1fb491fc6920d5068205c43acb0397b961f803fa72b
+~ -[LPAPFSVolume mountAtTemporaryPathWithOptions:error:] : sha256 49716e32ebbdbcc197506a1523d38edf958dba2309ce02c7543f0ba3ab62d959 -> 5c175379b41749b55bcb9a26d5907616874a2d909552f8175e12147972f460e6
+~ -[LPAPFSVolume mountAtPath:options:error:] : sha256 d4ba44c0505a55c2c7c4b7ac45404b0c88c830300c82d9bcb4206cf1d367e13a -> 0ee45565a9a179183d6b9d64ea162a47c929e2690b4665673fa030198423b501
+~ __execForLibpartition : sha256 14756abed1a8b99f73d972c4369810d29109f72e56542dd0e77255664e2f36bb -> 15f5594126551fbbead698110584ca4ee7354cad451a56d924714e9bf18adb74
+~ -[LPAPFSVolume unmountWithError:] : sha256 6bb91ad03ca600f4a6e336b4657e91f364667bd67b23689983011967ddedfaed -> aa3aa84332b7740d50d5dd17436198f690b1078be2f9d9e4f6affe506d6e92b8
+~ -[LPAPFSVolume unmountWithOptions:error:] : 2892 -> 2888
+~ ___41-[LPAPFSVolume unmountWithOptions:error:]_block_invoke : sha256 90e515a2816b889402942c56965b0a7b1fc4975e51040e2e9e18eeef0684a1b4 -> 005428d6bf7b6f1cb4997e2048ee3fc499c6d1d3ec639e81d62e8922e83fb994
+~ -[LPAPFSVolume unmountAllWithError:] : sha256 2aa4fd960e53c1f564baf41215217646b3a9cd9b95888cc49b1e80cd44160b75 -> adf8d6d979818aedf0f31951ce91b8a127258caee600f4d86bc886493be8fc38
+~ -[LPAPFSVolume deleteVolumeWithError:] : sha256 95d752a2e8077c820d0ff66dfe127959da6b0d9b760b884840639cdb50a679f2 -> 9a82916da9b31b9a09d54721c8ed75b77884bd64de2d1745787d4753003ae7d0
+~ -[LPAPFSVolume snapshotsWithError:] : 380 -> 376
+~ -[LPAPFSVolume snapshotInfoWithError:] : sha256 45e1a032227bbdeb2548907ccc0bb228d8d65c4466f25f244f0e44e5076bf540 -> 258a427dd29e2e1f861ddf444e947d6fbf0f2af6ab60e22ea01013d13e31e902
+~ -[LPAPFSVolume createSnapshot:error:] : sha256 1afa2d8b38b86b971a3020e413ac28f3ac57f00307a4f17e66c5973140855325 -> 7108d1b1e4fd6b6df7aa7d8bf97e26ed1da4bcff5a7dbd3f736cca57aee01bda
+~ -[LPAPFSVolume deleteSnapshots:waitForDeletionFor:error:] : 1532 -> 1528
+~ -[LPAPFSVolume renameSnapshot:to:error:] : sha256 871fa3d8af9df0c47cb310bec8ecfd84afd6f880231c2d59c18179614160efbd -> 1281a8cdf9c61578852dabae6ae3a6d9a5405b2782da87aa55b3d67e47fac083
+~ -[LPAPFSVolume revertToSnapshot:error:] : sha256 3bbdfdab17eba8f233b3ab985c6092d60b58d6cfb25667336bf4bcd62c1cdabc -> d2e20aa2b56f020c530b96a16f4cc2007f349f62e83bc8309c5ba45f983f8d03
+~ -[LPAPFSVolume revertToSnapshot:options:error:] : sha256 adfcfa513e351775b0b1dcf8d59eb4e96f501fdaa26e1a8491af004be04bd2ef -> 2a941b98498936aa5ce845d179f889cd5572d16608081d1cbab58d26da628255
+~ -[LPAPFSVolume rootToSnapshot:error:] : sha256 6b7824b116789cebcbe6813594d1ae0807da277aa11b5d2d278020f1e82c01ef -> 551532aba82c83d6e11004836d23cdc7d41afb92a21ac0574ac6f6b72ccc5bab
+~ ____is_running_in_ramdisk_block_invoke : sha256 73604ace06fe479d02049a010b525016195fd68be08bedf4d3997cc4d4ec5981 -> 87cd7fe46ad474672960d12c139205c3ae94de551a17a61ea34d59f9e69adf65
+~ __lp2_delete_directory_contents_confirm : sha256 a15e749f624e4aef8dbb6934c8a6802949ca4301002bbac8ebeee317d867dbcd -> d4743893cb433b6cb95a6c55edbdc03be97c55bdd0a2d1fc301f4a38a472bf28
+~ __lp2_delete_directory_contents_error : sha256 86aa3788f82006f33b22fcf46583dd287716581efe181b8a88e8d652ff4c3f09 -> b6e1192f56036c778ac512ce5b2990fb75b887a81ae7e997dcbe39a29834215c
+~ _execlogfunction : sha256 c14a6c21eb1396b2075f90906292b87dec9269705f41adcb07444bb5836e623f -> adb6417a016fe01e3e615c769b8090ae25858fea6854a85c7f1a4ae89bc08ed6
+~ _OUTLINED_FUNCTION_0 : sha256 25a01604ea475e91edd6469b29be913484dc0fc4530a5d01c9ff5389096f4c6c -> 21f4c25ae85148737f8e750fccda5b665ef91eba80d6109d75afe001b4a8c8bb
+~ __LPLogObject : sha256 29d8efc46e9333ff2efde0c11f892e8e55e164060c25751c65697ebba4eb78b4 -> 2be9d2c66d9cc9ca2d3f1569c393b14a7f1dae84562ad8fe2c491cb6a9af9695
+~ ____LPLogObject_block_invoke : sha256 24d1ff1365faed5fc86ad4d2527b7a141b62fd2f138d51101228b3b5ddfa050e -> b4ce684a6e4a91953e8861ba486085186e771669f0ada4faf72ed3df0438bcdf
+~ __LPLogPack : sha256 eacfad4816f41fd5f4e7557067d06d3a7defbe0b6654a259a3c41404e3c4a249 -> c89b3bb5ae3bd761d1c246aebf1a67ca4efcc4dc6a178c3a12b8ab16944c344f
+~ _LPLogSetOutput : sha256 6789226a76658068d387d2c9404c14356068375d637cbe5a9ad25b6d45b5c506 -> 59466953a7fe9346568f59a3456aba054f7089ce46622ad1a0650b993c2defe0
+~ _LPLogSetVerbosity : sha256 0db599678e4d4eb1e7af20519db3657125abc57b453f2ed39da41e6c8b25e8d7 -> 5a029723c0efdff7d464555cbafca989f5c32691f8438ab13d6cda81ebfd2996
+~ +[LPMedia supportedContentTypes] : sha256 f247dbe02f9f0a0d448696aea8ea7efc6786be5a38515bb8487e83cda0ea6f53 -> 4b771c69d2c3d06793144532bc9805c13ef8e4ac0066a4780268c7b01096e090
+~ +[LPMedia hasEmbeddedDeviceTypeRoot] : sha256 5604fcabd893ea2170865cf4f974cbf01f6f12f3a406d81af9a9096c8e5cf033 -> e543863a10e998c15cc367acaa75ef1a4e6735ae55437a670740240f6f8d8f4d
+~ +[LPMedia allMedia] : sha256 c1c368a0fa63fa02c2120693e0539b4b329e40b8342bdc701164472be1895752 -> 16f8fb7eb6db751f3a4dcaf7cecf8e6037d06d23a4ac111d79c48c25942445f5
+~ +[LPMedia mediaForPath:] : sha256 cf059e8e6e8123a6673077c46b2e5988977ee3579354fba81d36c854351c4cc7 -> c734e19af1ef59dca6d2fcb0bd47751175c3b5c0e52fe073cb9b14052211b80f
+~ +[LPMedia mediaForPath:isSnapshot:] : sha256 aefdea97ee75bfbe0231cb7bba0b965b8fc4159f893ae88e3cbec723e19bf4e4 -> 02e45086eb348b90071ab5dbc8b8df877a5b3db9c6348293ac99e6b8f738838a
+~ +[LPMedia mediaForPath:snapshotName:] : sha256 cbe5e12e16903daf652fa8a753ba91e89c6f35f8138971be8b384152f5c70966 -> 566b23aa38b4d51b1e88e4ac1daf87f848e1fa237fd55185909c6901fcc5fe63
+~ +[LPMedia snapshotNameForMediaForPath:] : 1672 -> 1668
+~ ___39+[LPMedia snapshotNameForMediaForPath:]_block_invoke : sha256 049fda6258fb5ef430ec0015fa36b460dca6ff3486fd8a88eebeddbd92e452f7 -> fbb46c011aaea59c30e8a14311df74fe041ac6008f66b484bbd8fd2ead101e88
+~ +[LPMedia liveMediaForSnapshotAtPath:] : sha256 11e5123dbc22d23e02fac1dad48e3ccdf1e366362df52c2ab3b5efe3ce8f6a56 -> c8880843e739e7017680412d739234e173764cb41eef452d92fbd4d1e006725b
+~ +[LPMedia mediaForUUID:] : sha256 ed0c4a6a6dbeb38aa76e48ab7f974181edb33dcc413d0339ecb055fde3fd3dc6 -> cbd5203d7601e782d40161ae9d976915f19e01f29bf8b14ff7b2548430395003
+~ +[LPMedia mediaForBSDNameOrDeviceNode:] : sha256 b0c394f2072e120feac95f12d241411abf45fcc3969e47a220dbc49d8a8e8192 -> 26d35dedb637568e59bf7748ab6b32b1190758240b9bfb9d584afc93491b3003
+~ -[LPMedia wholeMediaForMedia] : sha256 a358fa07435a1facaff55beb375c1e5363cac94dfde7b6b5b044fce49d8492f2 -> 0423349b50f228080051e852388810fb38bc5f0147ed646fe8f2d92f5593c9af
+~ -[LPMedia initWithIOMediaObject:] : sha256 68bb25262aa595bccf6a2d6f226eba8ac82431bfb67aa2deb20295ca7dc7798d -> 8bcb06daf058c8e8641c76d9057ad6d65cfe26ae68e00089b68b8a23b6831fcd
+~ -[LPMedia dealloc] : sha256 cc3aed6ac842e6bdf748776f70e4d0d94bfbdc3d76f219de1212313ca3535cf9 -> 9246dca65613cc1fbbaab776b945638dab187a8fda0139d6600d247ec92cbf43
+~ -[LPMedia content] : sha256 d860cb650a2b470b85a933e7a831b49a5b5b0a6a7d11b0606b9cc62b16c91991 -> e34b3a755a3f0a9904570c3ac0b0b96968aaec5b4e79485f4d89027938c45472
+~ -[LPMedia mediaUUID] : sha256 5ed345bb890325392220e09b9fe45ce5532f719870f021c8fee7c1d90090cbbc -> 281ba9207586f7e49560566c2612f8ad2f66c45692df0bbb4b229c20a52f66e3
+~ -[LPMedia name] : sha256 9a7bf9e97db6459f25e57787cd039978908c2ab1a1cea2b38c9ebbdbd8c8bc42 -> 2879bc5af467df69296d789f44287704033d6dcb9e1fe4d28dc7c9eea5ef7f0b
+~ -[LPMedia setName:withError:] : sha256 26095e6937829e682b1ccd43c0db94afc85e3fa272a94aae5fa5908dce74e8c7 -> 5c80b00e0e9fc3272c881baf333016493da5d43cdef1dde147f4d2b4d03473f7
+~ -[LPMedia BSDName] : sha256 0511bf75ba529839a9f9a8fa0e7620a4cfca6c744f6ea34d5c426161e538a2ad -> bb1d07804e7d1a66253d1f5098e63a0fdb67e3f0ecfb258f51e09f35d1fdb6f9
+~ -[LPMedia devNodePath] : sha256 269c851975ed8b71888800383fb841d05c5ec25c82b1a10dad1dbfc335e438e6 -> 9236dc718104422ce30d6543d63276610c2b3817f2c1644355416ce4e3a7cd31
+~ -[LPMedia mountPoint] : 224 -> 240
+~ -[LPMedia vendorName] : sha256 9d5cef8b200119fdfced6debddd51bbdbf433ce4e19b8a692f5e468db0c46b28 -> b74556b3ed491291f2334f0e0bf5ee7d22fc8d9c78d3d6d63b23232b1befd400
+~ -[LPMedia deviceModel] : sha256 6c31ddbe21ed0914f4672decc089979d9cb6018da688845c9726e735796c92e5 -> 385c0d0fc1c982e03d9ac196624d60044906b2dc189d6d187e95079f8c9636eb
+~ -[LPMedia storageMedium] : sha256 4f996ee8e8aa2fdce430bbd7a12de525d2748f54aa3005c2a5c086b72ad5e05d -> e3fa47ee45b102d32a9c662d61b8928aab75695b6011a21b2dd16efd0ff957e6
+~ -[LPMedia isWhole] : sha256 aae21b3be40288b40d73688f5cef1618648a3997dc9799c4f6ae3fd9a74e003a -> 06f9012334a07fc3764135ab56e18efc5090557f9885b431a63c5d25876f5cf3
+~ -[LPMedia isInternal] : sha256 60092bce4a6454469531a035807aacfe22f15e3c73323589112fbaf9a60abdde -> 15613430f89b843254e30afbb766b3a6fea4f4dd3e29ab660080e9e4bf18ce08
+~ -[LPMedia isEmbeddedDeviceTypeRoot] : sha256 2e83e0e6c729b3edd3131392685135b6434aa84730db2c86ca1bfea32f03aca5 -> d33745fcb48352de08f5ba4870bd23157477c2ad180e8f8234da4da0db8b0a3c
+~ -[LPMedia isPrimaryMedia] : sha256 63828e736e1662271b45132185522af2ccbd740128abf403c1c026643330952b -> 690bde4088299fbdbf7e770d0c6966cf4bbcfb94f0788e465ad9968c3bb6900b
+~ -[LPMedia isReadOnly] : sha256 969b6646739401091dfa267eb359b419c8d1b239560ed9dc64f32c487eb3f91b -> 2392822626716b2306420224b9b7e758d011572d939089965de2dbae5b9b99ee
+~ -[LPMedia isJournaled] : sha256 abed185b9019463f33cfb979980e85bb4752eb1bf9e672507817402e0896a7ae -> 6feb78626fcf6d714b34219dbfd6a983872605b3f975c7143d1c478c66a24606
+~ -[LPMedia description] : sha256 7f69c959dff2dc9bfb59bfe859470c76fa8f29e1df0c86c81568abf38665cc48 -> e0529e1ab4ae4d3bcf9da5efa1a08ee5eb4e59c1daee157222cb23e3bc7e7b79
+~ -[LPMedia isEqual:] : sha256 910eea860c21255b18155a81c4c173e1930b6b27789db553a4114527d24d8ac6 -> 2daa92f2c38f263f0549c7dac377f46d82a46c5d7cb7feeb3cb829aa8200a069
+~ -[LPMedia _deviceCharacteristicStringForKey:] : sha256 315e22f356e76eb73fa2b85af750ce05680037c705db4abc1b4940765787b671 -> 24e88b71a771c100aae2d0009a89947f3aa57fe3f4b5d08a5d350ebde3a7421a
+~ +[LPMedia _copyIOMediaForDiskWithPath:] : sha256 ae0eb53809281a4078980f386a0b64e3619f69f7216e0bb2a5740d88ba7824ff -> 3afde65b13e5abe183111dc29861f474dc7b412d47e5d1eb11b587513092707a
+~ +[LPMedia _copyLiveFilesystemIOMediaForRootedSnapshot] : sha256 c447a4863d39d53bfac911cbe53b7c76751898712b15554346e526dd4bb48f8e -> 450ab7f15fb2beba5ccdc7416ab4259aee240283beaa51ccd929859d0bf0fde3
+~ +[LPMedia(Private) IOMainPort] : sha256 5b13dac2ee555b7da1d35eba8e849dfe4cb8134f7b10f407c72066d79109d53a -> 9fedd8df0fed69ef43c3dcfbd5dcc2da947f2a976ca7ef62aff65697f5413e45
+~ +[LPMedia(Private) contentTypeToSubclassMap] : sha256 6a8dd58a74eae6c81e5fdc9df3e8b65284090779c0fdcb4b8835ef21fee10cb5 -> a51a2ee3502ce8566af782082b756bbe525ad6b482f12d8895c63ddef5491c7e
+~ ___44+[LPMedia(Private) contentTypeToSubclassMap]_block_invoke : 604 -> 600
+~ -[LPMedia(Private) getPropertyWithName:] : sha256 22ee2ce005e514b528853d3620c93d440a9be76c4fa6c05e445601d6a4be8192 -> 5a39c01e5ab3fa9c2cec38c5378056211f0adf77b5e5eac537593dd36cfdbe66
+~ -[LPMedia(Private) getBoolPropertyWithName:] : sha256 c4d70c1ed72d49d5699b385824fa273a04806da3b3b9b1244a245a708c54a8f5 -> f483dc8a923fc7216be271059c4dfbc0fd8772af17bbb6857c47500f6245bd82
+~ -[LPMedia(Private) getStringPropertyWithName:] : sha256 d7ca42c645198695df40338936b0d9043e54bdc2731de7ef7b149dca3f4f5ad1 -> c5b06af7e1535a8d8ff8476309cf76990180334ab8d53909d833c2f3019194d3
+~ +[LPMedia(Private) mediaOfCorrectTypeGivenIOMedia:] : sha256 19124d445028b265ab7c4b75174ca325938dda1964b67fd7d1e415e82f7c4793 -> 88847070529bfc65e8d4c8127482d15873d38ba75aa758f4e0706a5c80a28fdc
+~ +[LPMedia(Private) waitForIOMediaWithDevNode:] : sha256 82402eebd664324b27b5812e4590de3be95f4c3ea4cd4af181fa47e26b075bec -> 1630bcfa40906b9ced9a01ff1c79896f7f77624853e41380a6f4abef9e2382d8
+~ +[LPMedia(Private) waitForBlockStorage] : sha256 169bbeaec94cbfeb6338ce97b32e5d4d6b141eb7e37ee2a709e70a93156fa862 -> cae6ab4a61ffbf5f6aff3a6ae0e05e8e7099ad08a1196923c85329ec3d41dece
+~ +[LPPartitionMedia supportedContentTypes] : sha256 0c3dae95788275938e4fbb41058e57babcb183b113f9adc1b6af2bf09ef29bf6 -> f5645a6fe9365cfd31e520704cb0645dab9ee970a15daac694abbfac4c988f98
+~ +[LPPartitionMedia contentTypesForPartitionMedia] : sha256 7bcc2c6c5d1de6f76c8db8ef273d04d1b84f0b7ebb4bb9415c0b35418846c706 -> 090c96aee6fea20f0c4810cf80d2eb97f5d05b9ced4462add13d734fe99bbb71
+~ +[LPPartitionMedia primaryMedia] : 348 -> 344
+~ -[LPPartitionMedia children] : sha256 4cbd3fdca43da97701122d566f67bbe213c8f724259659085465a5528b4e94b6 -> 57d2f1de2d61667e05f9010cb2d3921dfc4358b73f99431defd748b54212cc89
+~ ___28-[LPPartitionMedia children]_block_invoke : sha256 ab33fe244e74f9d83938e960642b52b52f50b4228c841c4f2573477c58a73808 -> 6785bd7c0504eec8b0a472cfd9ce5dce25c21b2e7f36230e85e93666a687c271
+~ __28-[LPPartitionMedia children]_block_invoke.12 : sha256 33933234a0d4c3a6862daeb81dd1b72fadb0e982590e8373c92d4488f14f9edc -> a5e4229502bd406912cc485b9ef39d0ee7b29efb4c7c10c8d3826b4f8f34a0e1
+~ _iterateSafely : sha256 a09f6151b7f4094373b9eae0b8f5573aa69498f7318dc34b8a02d6ede7ccb7f5 -> ad575c1a20daff69e56e87b10199bda8957c901606cfbc874ed4d58d88c2ee5a
+~ +[LPAPFSVolume initialize].cold.1 : sha256 0bb2d93aeb2de9d8979b53c482824134192c2a1e86f731c71d6eaacd87db76d5 -> ec8e0788ea0a78926121cb0c353eeaee30af555c9d3ed6db9ccf2fc2afd198c4
+~ _LPLogObject.cold.1 : sha256 c5383e9b0df3d2a60c7630008cf551be8c498b1cca1a8f1fd252e687f6142842 -> eadb0bcefa3a0e5dfe5d6931ba325f14d7003a05fdfc38800ff5dde2b4a26f95
+~ +[LPMedia(Private) contentTypeToSubclassMap].cold.1 : sha256 74103ad30bb916feec3ae0518fec4299e8e50e14ebc9e5df7588b78a7672b6ab -> 3b0782f8effac5edcda7eb72f397b434fad8fec6ca93224bebf44e827915af47
+
+```

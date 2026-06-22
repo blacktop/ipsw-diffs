@@ -1,0 +1,46 @@
+## angie_light_infinite.dylib
+
+> `/System/Library/PrivateFrameworks/CoreUSDEdit.framework/Versions/A/module/angie_light_infinite.dylib`
+
+```diff
+
+-28.0.0.501.1
+-  __TEXT.__text: 0x1c34 sha256:270463940e3aaabdf01d1383e8a0d74d4e0a4467d4f6cf2ec9d622c01bb5bd59
++28.0.2.0.5
++  __TEXT.__text: 0x1c34 sha256:28e2d3af9d9a79103246781fac627c663bcf71a911d3edba8831672b8fcb91ab
+   __TEXT.__gcc_except_tab: 0x24 sha256:007dae8f904148e033d1528dadd6b582e54d64d41d5bcd70abf217459b0d5bd4
+   __TEXT.__const: 0x121 sha256:243ffad2d162ec4bd10e1749791e066ae19b7ca87e3b112e522df1adef24359c
+   __TEXT.__cstring: 0x2ba1 sha256:8cfe37c4b874153bae18c603d0f6397e36daacc129d013ce8179451c55176db3
+-  __TEXT.__unwind_info: 0xb0 sha256:65d01e1459a208570a5b6a3682e65e5631ca8635f3961940f305d533e77e5302
++  __TEXT.__unwind_info: 0xb0 sha256:9de68d46ca13b6f05350e98e0dff921efa458fe657c3375221a2472cddbb3fd0
+   __TEXT.__auth_stubs: 0x0
+-  __AUTH_CONST.__const: 0xe8 sha256:ef3621bd5f60428ffb76963bef5ebbef7fcb05723b0b23eb78d74c2abe04167f
+-  __AUTH_CONST.__weak_auth_got: 0x20 sha256:b7a04fda26841a0040c3791c7f7affdc0629031506fbb84d682fccd222e021f0
++  __AUTH_CONST.__const: 0xe8 sha256:224165ca9d01b2ea3a1f6da8a5d0682215e896b46b9fe46ef1e0a592292496f6
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:396e67293ba6b13027ef3965f36dc8d7505225f73159bf94255b9e4c198352ac
+   __AUTH_CONST.__auth_got: 0x0
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/usd/libusd_ms.dylib
+-  UUID: DD231D64-6653-3EF8-B89B-788D7E1493BD
++  UUID: ECBA01B2-132C-342E-9740-25BDC370FA05
+   Functions: 14
+   Symbols:   57
+   CStrings:  55
+Functions:
+~ __Z12create_classI30NgModuleLightInfiniteCallbacksFP7OfClassR14OfClassFactoryRKbEFPvPK7CtxEvalEEPT_R5OfAppR10CoreVectorIS2_ERKT0_RKT1_ : sha256 6b38b21356d042467aac1ce00d68c56db53b2fb3a21c1210ef73d8be387dae08 -> 10b012a0cc98db37c943528c14066837c42fbe7b99795883dfebe75fe291ce85
+~ __ZL13declare_classR14OfClassFactoryRKb : sha256 412911a7c852a72446ab8e0ecd03f3db896f54e261081936575afcca5cbd9f4a -> 796ecacf5caaa33ab772d518edb41d6054885ffe23fbb49415bcd5d02146df66
+~ __ZL10create_cmaPK7CtxEval : sha256 377f4c962311775c6dd4982a9e8714e913ee0df65d52f947e70e1586d029347e -> ccfadb8acb66aa5dd60d112a54a5a07973d0ad99388040d54cb521dc4cc2eb2c
+~ __ZN21CmaAngieLightInfiniteD1Ev : sha256 3135015bba30966e7f6ca195bd060064f9a5f7dfef6d9cf773462e9b087bc213 -> d6a93a63a1f276b6475d384697d594af67af0bf1e5493ca3bbd61f77faeab994
+~ __ZN21CmaAngieLightInfiniteD0Ev : sha256 f12654e9ac10d9813b125c439799ef8869661f500122ab2f60e86f0f48d9436c -> 92e3e90a8386210418c9fce05deeddf71774f3e915f1bd9e500e96f81279f90a
+~ __ZNK9ModuleCma14get_class_infoEv : sha256 fc5dab7e5fad51d8bd30024045c4c814255828c0d0abfbf837fa2c82521d1924 -> c72f3efc8dddf6b6bcc7b667867462afbc0ef339d73712c36f869ffbd3314b8a
+~ __ZN21CmaAngieLightInfinite21sync_attribute_valuesERK8OfObject : sha256 058bdbd2fbd9f561b0d6f0c8a4f36e97e94a763e96f0183bda02b38e6a347d98 -> cef1b600c4bcb6fe3eaeb987cb38a933386a8627419af6a27330c4f538a91470
+~ __ZZN2Ng26on_register_light_infiniteER5OfAppR10CoreVectorIP7OfClassEEN3$_08__invokeER8OfObjectR15OfObjectFactory : sha256 51a253493dd216a630d5e1ec100107c7018dac17323af12e89748c65e6883987 -> fa409f6c1851420e5173467d7597a8b5e9674e9e3e8b1c8f414f69eaea22f05c
+~ __ZN30NgModuleLightInfiniteCallbacksD1Ev : sha256 e3343b927a91e9e4f86440cfda14fa1d012cb8ba8ae55456926e5f2785fb0568 -> e6a1a2c592869cfffd8653405d36e9d3db5eee98220824bc3e60e7c40c05ac3d
+~ __ZN30NgModuleLightInfiniteCallbacksD0Ev : sha256 4093cab304510f0fbc00a60d5dc07236f57de9be292c05ca53ab4499205949a6 -> d1bbf5228826864ffa7891c386e21319d63f362726fbe09788d0ddad3e2be4ef
+~ __ZN30NgModuleLightInfiniteCallbacks14init_callbacksER16OfClassCallbacks : sha256 737822f642495f3aa5cc8019c74673fabbb168155f5f5035fe9b68b618f223d9 -> 88f0a225446bda931ae8a91a4d8ed82b719d4c69e81ea77612a5b933bcb34167
+
+```

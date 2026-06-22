@@ -1,0 +1,66 @@
+## SESMacUIHelper
+
+> `/System/Library/PrivateFrameworks/SESMacUIHelper.framework/Versions/A/SESMacUIHelper`
+
+```diff
+
+-70.31.1.0.0
+-  __TEXT.__text: 0x7ec sha256:efa56820f0e7f836f6174d1aedad63443f9232227cd9a6a24d9b3fb8152b66b5
+-  __TEXT.__objc_methlist: 0x110 sha256:5946bc100f040f745db8bc8b78c867c79db4eda20cf0ab73e1e2b4c1cde86b92
++70.34.0.0.0
++  __TEXT.__text: 0x7ec sha256:1d0d162ad183ce62d30f319ecec88c7f638ea42a84f79ffce667fb9366e01269
++  __TEXT.__objc_methlist: 0x110 sha256:34befa66a47c30a4687d779f5121acf8ca392e5782c84cd9f48040785d696ed5
+   __TEXT.__const: 0x40 sha256:e13ade02679ccd5b838e7c267d32eddf4ddc8a4b9ce6e0f783278ab139aa4418
+   __TEXT.__cstring: 0x2 sha256:47dc540c94ceb704a23875c11273e16bb0b8a87aed84de911f2133568115f254
+   __TEXT.__unwind_info: 0x80 sha256:2ba64a07aa9c07c9abffe3af46a8bbc864b51a088749a9e50be0a8fb398c263a
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:fc18fd60d3f2a944150efdd994488857248158fe7e17fdecf4f622a220f61dbb
++  __DATA_CONST.__objc_classlist: 0x10 sha256:8b430eaf4fad5c13a8bf89ea6df6b4ce2d8074f8d4661a724eac8b67f6703610
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xc0 sha256:590eceaeacb97c8caeb0c73d78c1f29a398d0ae041c4aa55c05f89e39cde8822
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:2ff13917350f1e1f9d4e440226bbe56d773c13a5e03d86566e30be864da9d7af
++  __DATA_CONST.__objc_selrefs: 0xc0 sha256:86dce307f1cc8ecbb27745656010719f3dea00d230a83773576be904f41b8ef2
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:467dbc18aaa5353797f08cf2dcaee30c5d44bc62072e4a5e78409dfcbb38d0ac
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__objc_const: 0x148 sha256:a26375ad2b6e216d088123f25111975e85e4e5ccdf77870a624107d465243185
++  __AUTH_CONST.__objc_const: 0x148 sha256:149a8915d8c7174cb0147aeb51e525323c30409386434e66b34a3391ea57517a
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:bc54642ad66b5bd4be7724b7fc868b05d15490b61f6e013d8c13408326275e04
++  __AUTH.__objc_data: 0xa0 sha256:be488409514c0bd76b1a8b0224cdce8d2fec609dd5251789e232ea893e3f60b0
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EBFDEDBF-8AB6-3815-8950-30FFC4C0CC15
++  UUID: 131D90D3-A9C8-31B7-A623-E72AE8501404
+   Functions: 21
+   Symbols:   66
+   CStrings:  0
+Functions:
+~ -[SESMacSetupAssistantHost init] : sha256 13a5072eb4a350cdcf5b6913baaaabc238eba69d6ab67ab04b56d67e1b30a6e0 -> 4be6674c95cb9c6692e06f70d0e140b63dd7406005d412533f73273ac5458b9f
+~ -[SESMacSetupAssistantHost initWithHost:] : sha256 f5c1cce3b68dc7fbfa9c4ddb6a56b87065d7677ad5991a6e26dc9c778e55afa2 -> 1b420e135147474175d1135a254c51912b1f303b15f1ff0c1137e14c33c9af95
+~ -[SESMacSetupAssistantHost invalidate] : sha256 51e9185077eb8636d3fb6d265b5be32f44a6360c5794e6987f22b58ffd499629 -> b9adba24592b90dade322e14f1fade51aa7407e24234933ff2faf00befc6ec79
+~ -[SESMacSetupAssistantHost setAssistantPreviousButtonEnabled:] : sha256 196199fb42ef3d869bc7a15fa365045bd2745a8d80e762f64b96c00cc8802cbb -> 11232946498bfc0b2af7275a711f6af534a20a68dae901e3647f37249f3a0d4b
+~ -[SESMacSetupAssistantHost setAssistantPreviousButtonTitle:] : sha256 1b00fdba7638c9fce7549203a244c65fa5e2b2d7ec6d07d9f9385fdc6d189e7d -> e2ae150a1b872611af281ce42fc3c5141a03acb3f9803a87113deefffd6fb2b6
+~ -[SESMacSetupAssistantHost setAssistantPreviousButtonAction:] : sha256 61ec49f04e5d1ffdfeb8af6a095f262f732681ce68ed6a0d823acd2ee8fad269 -> 426fdba4947fb4c582480d53b57547547059017e9cfbb0f8506ba8c57726c4cc
+~ -[SESMacSetupAssistantHost setAssistantNextButtonEnabled:] : sha256 2bfc19be2a60a52cd34ad3e485a387b504ed12be4392fbb6daed6db2b6ba29df -> 6d3812c68bd20e2c5bdf0bada3da281b0e91e74e8e9ee944869e43783aadeadd
+~ -[SESMacSetupAssistantHost setAssistantNextButtonTitle:] : sha256 5aa2cbff4a4f41ce0cf7e26ec836e0b2ea174845622148dc0c94968d6b1642f8 -> 52d7016258b094cde6e947a6953ee43fa84d6485ebb55b99b51ddad3d020343f
+~ -[SESMacSetupAssistantHost setAssistantNextButtonAction:] : sha256 0b626d66800c04c8894b78cf547cedea268a6285b61328586fa9505ad74eb529 -> 24541681b647ec2807d6b0d4e691cbd1544a0a6bb321897cfb0cde5a211a9927
+~ -[SESMacSetupAssistantHost setAssistantAlternateButtonHidden:] : sha256 2e6309f2e82497897beee8384bffdd0ddd568c227a65183f8e2733c9c891667e -> dda147912349f3802c0d1c001d3f9e89b652a91785494dc8322f12d58f6e969a
+~ -[SESMacSetupAssistantHost setAssistantAlternateButtonTitle:] : sha256 edc2813852ec4658249e4b57a69bea2faae924cd8615f93836cf99e859251372 -> 0be37954e0e2c65a52b452fe86b02cda57fe8d9b6c1146fd032b2b718fac4211
+~ -[SESMacSetupAssistantHost setAssistantAlternateButtonAction:] : sha256 6783e888c5c3c4126c70d8c3416214bf80e00d92ffffda2e4c0b878ec85cc3b3 -> 3b77cf81d5085e835ed3be6b1b2c338bac413efc0ae37ee3d1bb4ee4ccca59d3
+~ -[SESMacSetupAssistantHost setAssistantWindowTitle:] : sha256 abcdb3e7b2a70ee279aff28aebb9339db22ebc4f26597776948844aa69908565 -> c7c19328ab889b15d72a9988757b175ebb8f9e836cd95b2383f714cb1999e8b4
+~ -[SESMacSetupAssistantHost setAssistantWindowDescription:] : sha256 5c69314588396551fcdb23e18a370547c0c7a891c360579faaf4614eefecc2ed -> c61607d9e4ad58a0b4af425b5e1a1d9129fd257f0ff29293d3e5334e682fae4d
+~ -[SESMacSetupAssistantHost setAssistantControlsEnabled:] : sha256 69f7b47a61747e2bfb503b1a62302fd257569b47542946149b31da07544f6959 -> dedf12408d0a58d17ce398144c12c15d33ccd552617e71f70e841eab98a844e7
+~ -[SESMacSetupAssistantHost secondPartySetupComplete] : sha256 6c91a2314de229d2d6b5a465b2d50cb86b2cbda2182f7cbd29851a79b88426d7 -> efeb7b89c6929d1409cae02444572c1909198a199dd696182bea07ee5a38e168
+~ -[SESMacSetupAssistantHost secondPartyHasNewTemplate] : sha256 a4056502314ef6042d6e126e634c591ce68ce1e483819fa6bd6606916d07ddca -> 50604ac4f8248e0470d4b45bb54e141bde53ac937412112ed9be6e21257eb489
+~ -[SESMacSetupAssistantHost disableControlsAndShowSpinnerWithStatus:] : sha256 5f67a8f8ae0106d679c853af15631ebfcfea45a74e2bff5781595c74cad80830 -> 000c4971ce34bb19fd1b8990c1ef87935ba7e6295f0b5946c2b395d1b5a5f0c2
+~ -[SESMacSetupAssistantHost enableControlsAndHideSpinner] : sha256 646dc377192f94bb7b9e8e2f260ec2602839157a43cf60a9c7f8184d449d58ea -> 707241a5b1d6ec92d5ff331ef30ae197ba15d708b4bc8b52ebe6a5db0cc90582
+~ -[SESMacSetupAssistantHost .cxx_destruct] : sha256 628d2cc29cd50ccd4049da16a9349cbcbcb2912045c333f620983d54dfb1ea03 -> aec4c6f345d009931b3dba39c344b5ea0966d773bd61133dfb47356e7e1938f9
+~ +[SESOBTemplateView largeContentTemplateWithTitle:contentArea:needsBodyText:] : sha256 1a166dc0ee413705788845c95de135cb6c1244b5b399797880e071206e61f3dc -> 1f0ff03476109fb43545f423ae22d37bd2bc729f835353817c0a095907f2d9c0
+
+```

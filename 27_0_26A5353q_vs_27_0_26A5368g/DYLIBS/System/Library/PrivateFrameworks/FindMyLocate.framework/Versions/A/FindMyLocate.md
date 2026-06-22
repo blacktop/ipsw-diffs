@@ -1,0 +1,229 @@
+## FindMyLocate
+
+> `/System/Library/PrivateFrameworks/FindMyLocate.framework/Versions/A/FindMyLocate`
+
+```diff
+
+-138.20.5.16.1
+-  __TEXT.__text: 0x147b2c sha256:fc305719f0c6e42b4ef4843528c310182b5165ef3ac69276ca9a3b8305f86c0b
+-  __TEXT.__objc_methlist: 0x10f4 sha256:da3ac97a78f5bf278c3a8d066ceb42fc339e6dadc33cba894967a40d78662d40
+-  __TEXT.__cstring: 0x28d3 sha256:5da74d753c427bc1d0c4779f89435eac1fd7f65cbfc30406fadd2a319235d07c
+-  __TEXT.__swift5_typeref: 0x389f sha256:8b039a8aee92fadfb075d90b2ab6c3d43839290392b5ec3e192c2b44550e3d14
+-  __TEXT.__const: 0x109f0 sha256:b88bcbb6e480f33244c148b6237f55fd945b2d35d7ccee4094d1b45a0335864e
+-  __TEXT.__oslogstring: 0x2756 sha256:6b4294d27ef9584cf8dd30d8869aa6b03138cc78ac58b27757feeb959e6c0a5a
+-  __TEXT.__constg_swiftt: 0x2f20 sha256:b596794c2512f74eca8f0213e2654423c6667ad678bba0ba09e7a2d6ab09cc65
+-  __TEXT.__swift5_builtin: 0x64 sha256:dbb18001d9ac32b18b245185c06655f9c78e99e23031ab1e1f5ba889d7181e0b
+-  __TEXT.__swift5_reflstr: 0x204a sha256:54d85f419a4cf7d667cc274f2d1e8a17005c9ce0605674a07e11884fb6ab0f7b
+-  __TEXT.__swift5_fieldmd: 0x35f0 sha256:fceb65ada31112517e1850edbcf57571c2b10acc8f05c6a58f51ad6239b174c9
+-  __TEXT.__swift5_types: 0x410 sha256:8faf6102cc77595c69324668b27398a79c36dd9a5a1bc836d777e4a496c130f4
+-  __TEXT.__swift5_protos: 0x1c sha256:ea485d2f2ec267abb94cc023148b70298e1ff79d279b1a0c17c6669478199351
+-  __TEXT.__swift5_assocty: 0x388 sha256:5694298386d1d2c831275ced89309d59f90a4dd26b181fbdaaae07b3650f3fca
+-  __TEXT.__swift5_proto: 0xe98 sha256:964f4823b228bde8aa00e0538149120dc008ec7787846480347d476a44bce1ad
+-  __TEXT.__swift5_capture: 0x188c sha256:ec658bc02e1cc509b88a319aed70be1f7bfbc04792d355013ae47a89620429f8
+-  __TEXT.__swift_as_entry: 0x69c sha256:3a441ffad40b6442265050cbee4eef27f0bdad895a54406a7edbd5d18b548803
+-  __TEXT.__swift_as_ret: 0x810 sha256:8f72242688027fca9062ad818e489b8df826037fc052b78fe00b3e6017f146cb
+-  __TEXT.__swift_as_cont: 0x102c sha256:9d04fdff9989804ba3d40b974e06b4a4e82a9bb1ab771a4a4f21eeae5afefe2f
+-  __TEXT.__swift5_mpenum: 0x24 sha256:e3e0e43ed172e4a2b1bb3f375e7c379ba5dd10bb30a911734fcd175c55ce74c3
+-  __TEXT.__unwind_info: 0x5858 sha256:628282e4fa91b2a2e5d0f75c93980ca0958f16e5ddf2516665b4b4404430e369
+-  __TEXT.__eh_frame: 0xdbdc sha256:a5b83f88aa2ab672ea3fe168a77d9e4fc77b3427a461f52d840b7a93fe5a670c
++140.20.6.7.1
++  __TEXT.__text: 0x14cc18 sha256:98de46cbd39b13f0688f42876bc6a3b3a327c369a68152c6647340a33d0a7d64
++  __TEXT.__objc_methlist: 0x10fc sha256:6c648884cfb4c71cf563adc723d46133ca9b088c80f6a940acec2cedb54844fb
++  __TEXT.__swift5_typeref: 0x399b sha256:49f4127244923ddeee19e31d1982a45a83c0b028024a8319b3524dd39f5679bd
++  __TEXT.__swift5_fieldmd: 0x373c sha256:a5d7af21ae31fb8c3de609b2c217c841f7909a8da12c88674b4ec8e99bc58bd2
++  __TEXT.__const: 0x1105c sha256:bb0d813dc41c9067d46e10c6a5e436eee0f3341cf1c64679a879d6bd772a686a
++  __TEXT.__constg_swiftt: 0x300c sha256:1a1202128176e2bc2ff25239cf42149d3f401bb215f0e5954bd6e732055f13d9
++  __TEXT.__swift5_builtin: 0x64 sha256:e1927b6d4f05c4f6c706091e9342c247df47e7646a80233602d56aa18bc9c4ee
++  __TEXT.__swift5_reflstr: 0x212a sha256:417df6ca3b67106ce155903120c2ef2ea5a3c5c519f24144b3d7a4d31a217fa7
++  __TEXT.__swift5_protos: 0x1c sha256:0519134b8a2d281e8287d820ce2ccf49ad9e1fd4195d4b9e233a213a8d66580e
++  __TEXT.__swift5_types: 0x424 sha256:e7b2966868473c93939f6e183f8ad10c897439f4e71058445030181b0afd4d90
++  __TEXT.__cstring: 0x29d8 sha256:027712399d0b868f3e37e47baf38ddd05f521db8de30c4698effcd8f69d4fe1b
++  __TEXT.__swift5_assocty: 0x388 sha256:0935a5356fa71f597b05741d4965a56c59839b86a0140aef80a36bca8bfbabcc
++  __TEXT.__swift5_proto: 0xef8 sha256:88bf952ccd69ecb7a0ce8fb6cf21ad695c8636390b7799c4c45e8b2c22feec1f
++  __TEXT.__swift5_capture: 0x18d8 sha256:1f1fbe6b41c9a9da3537be1107415251d160eb37cdb7d89413ff238d5a9485f8
++  __TEXT.__oslogstring: 0x2725 sha256:690cd6fcc12e2871f251073ad177b619b764f38aa3cff906eba29966e7ba26ea
++  __TEXT.__swift_as_entry: 0x6b4 sha256:37eb9621489977e459451f9a8716c36aa767c2ec86f65d58b976585efc108bcf
++  __TEXT.__swift_as_ret: 0x82c sha256:c9e2f2f650199fdf4508ab37b52ea040d345d7ff072014107ca39c21c7f6d6de
++  __TEXT.__swift_as_cont: 0x1060 sha256:854eb619e21b8fb091a9fb7bea85ee7d6636d0ca6e820a318a952bf99da9ff70
++  __TEXT.__swift5_mpenum: 0x24 sha256:23051b82441713ea38a7551817d0d250c5ec0fb52dfa2a710643712a96416419
++  __TEXT.__unwind_info: 0x59d8 sha256:4a2500e8f58fd5fa1e57bd70303b67dbf5136c60b74025e3ec2233c702f5d30b
++  __TEXT.__eh_frame: 0xdedc sha256:76be5fda0b8876e844f4ae512c1c01af6f9e014fa130f0d82875cc56fee95ef0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xd8 sha256:77dd18dede31c395a8a067e3c66590d9a17d98ff0bb9ed244f50a3a6539c361c
+-  __DATA_CONST.__objc_classlist: 0x78 sha256:b02c7fee95bc6d4aaeca70acbc337e5f90f84341028a5d3c5fbcf4f04853243d
+-  __DATA_CONST.__objc_protolist: 0xa0 sha256:2cf603af352687039c1fb03309e8b1dd1627d73c89022e601643ab2b2edfb7db
++  __DATA_CONST.__const: 0xd8 sha256:f256e35e13f9212374525e28d9cf00d66b9cb9d9e4319e4d6acbcc5e765dbb0d
++  __DATA_CONST.__objc_classlist: 0x78 sha256:f05fd57dbc8e2beb8ea9b9fd28a65801132600a84234f9fb1e316c29c031d1bc
++  __DATA_CONST.__objc_protolist: 0xa0 sha256:18d4e1a5c47972a0d32b1c3c2fad50f00db16bfde346a3e669f88592c94cbc88
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xbf8 sha256:927dcd748c632e48da3b4fa22929e6e5508b5d8434fc24fcc870c13dce2d1258
+-  __DATA_CONST.__objc_protorefs: 0x70 sha256:3541650c95f789544be3f5292ad61d564c61d2f515ea67682a8b3dff29073d0d
++  __DATA_CONST.__objc_selrefs: 0xc00 sha256:567587faa540d878a4cdcbc8cca1c6d4ff0ce7a69bd91862de9789ef32a59eb9
++  __DATA_CONST.__objc_protorefs: 0x70 sha256:1f29a49da50703e478e6567116199659e27b51bbc87f49f94fdfd8f70aec5343
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xaaf8 sha256:b0d3ce749396b0b9b7e41ac32eed90e4e423ea72fb88e841380bfa524ba54126
+-  __AUTH_CONST.__objc_const: 0x2d40 sha256:3df48c9ba25e564933ea5c557ac1215c03d9ae4da76cfeb4fe665047bfd6b5c4
++  __AUTH_CONST.__const: 0xae90 sha256:49d29e42315352bde956c4f2d6fb4e9860de37787d5de9a4b0a5f2a69bb2af9b
++  __AUTH_CONST.__objc_const: 0x2d48 sha256:93312a3edf98e52da0d6496e190a2804f5a8161972494dfc81004dedaf9a798b
+   __AUTH_CONST.__auth_got: 0xcb8 sha256:669dd572c72d49a37a1df59b4cb6620573856e99aa1db95491aff970f5878c67
+-  __AUTH.__objc_data: 0xe0 sha256:2b53b07e17a4f3cfafc4247d4eef6121493ec9d40070a2c7e0ae09e2fefab406
+-  __AUTH.__data: 0x5f8 sha256:a0a3c36953245471030b19f63ca453fb10a0d17973f32fd72768b77f6d099303
+-  __DATA.__data: 0x1f70 sha256:d92f5a28cd5fc5f8042951d3b77a0e797da301c9c01b9adf4d88a9209d1083c6
+-  __DATA.__bss: 0x15200 sha256:b333cd3229d1535c49129cf0e276c03d4216fdd2937b10842dfcd6d5335caa1a
++  __AUTH.__objc_data: 0xe0 sha256:d4674fc3e45e11268939f64ad067b18242e37cb704f82877528f9083a1be4e93
++  __AUTH.__data: 0x5f8 sha256:acb5b0aa98e0409ddb16fc94355e219c5575a7c5f7e1fe9abd9d61f7b631cab7
++  __DATA.__data: 0x2058 sha256:f9bf632bc5836d5260b5f9f9a0d91433975429a2b7a4cf1a6b149cb15f79225c
++  __DATA.__bss: 0x15e00 sha256:a6430511b6325d09ced3334a8eb3172755a07f3224265eed8c80005f182ccde3
+   __DATA.__common: 0xa0 sha256:b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4
+-  __DATA_DIRTY.__objc_data: 0x388 sha256:3446d330a994f2523ba941a7dd719bb27ea5ce5de31af80e44440ff69939586f
+-  __DATA_DIRTY.__data: 0x2f10 sha256:326429ec4dfdf0d46ba0c85c2b261359468eb3b139196b10278f3e771c3ef009
+-  __DATA_DIRTY.__common: 0x298 sha256:a9696dcbc2bef81a08d6b1a798091d2b1a49654218d3ebdb12f9b255cbb1476f
++  __DATA_DIRTY.__objc_data: 0x388 sha256:9a3d18377e01d01eda90c464c0475d47e9b3125bfc909d408584d72d18e820fe
++  __DATA_DIRTY.__data: 0x2f00 sha256:cd5d6cba8fcb6ebb9e34b2671d822c7775f19ea3ff0dbc3839bb1c4f4141a633
+   __DATA_DIRTY.__bss: 0x7b80 sha256:5cdf13660016f019956bc120bcb341741d265bfba1324d36043e7a6ada2820ec
++  __DATA_DIRTY.__common: 0x298 sha256:a9696dcbc2bef81a08d6b1a798091d2b1a49654218d3ebdb12f9b255cbb1476f
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9C08E1C6-8BE3-3F04-A12C-84B739A6F719
+-  Functions: 6627
+-  Symbols:   2414
+-  CStrings:  481
++  UUID: 38FBD05E-7986-38B7-B001-77ADFFEE561E
++  Functions: 6752
++  Symbols:   2450
++  CStrings:  488
+ 
+Symbols:
++ ___swift_memcpy109_8
++ ___swift_memcpy50_8
++ ___swift_memcpy72_8
++ __swift_closure_destructor.121
++ __swift_closure_destructor.125
++ __swift_closure_destructor.133
++ __swift_closure_destructor.137
++ __swift_closure_destructor.146
++ __swift_closure_destructor.154
++ __swift_closure_destructor.158
++ __swift_closure_destructor.163
++ __swift_closure_destructor.167
++ __swift_closure_destructor.175
++ __swift_closure_destructor.179
++ __swift_closure_destructor.184
++ __swift_closure_destructor.188
++ __swift_closure_destructor.188Tm
++ __swift_closure_destructor.196
++ __swift_closure_destructor.200
++ __swift_closure_destructor.217
++ __swift_closure_destructor.224
++ __swift_closure_destructor.59
++ _associated conformance 12FindMyLocate18AutoMeCapableWatchV10CodingKeys33_8C9B927C7C8601ACF0F4422070573DB2LLOSHAASQ
++ _associated conformance 12FindMyLocate18AutoMeCapableWatchV10CodingKeys33_8C9B927C7C8601ACF0F4422070573DB2LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12FindMyLocate18AutoMeCapableWatchV10CodingKeys33_8C9B927C7C8601ACF0F4422070573DB2LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12FindMyLocate18AutoMeCapableWatchVSHAASQ
++ _associated conformance 12FindMyLocate22PreferenceStreamChangeO39LocationSharingCapableDevicesCodingKeys020_F06C4528932A4D910E2Q11F7DCF8FC906LLOSHAASQ
++ _associated conformance 12FindMyLocate22PreferenceStreamChangeO39LocationSharingCapableDevicesCodingKeys020_F06C4528932A4D910E2Q11F7DCF8FC906LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 12FindMyLocate22PreferenceStreamChangeO39LocationSharingCapableDevicesCodingKeys020_F06C4528932A4D910E2Q11F7DCF8FC906LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12FindMyLocate29LocationSharingCapableDevicesV10CodingKeys33_78FF91131ECD6065AEEF9918438F5E4ALLOSHAASQ
++ _associated conformance 12FindMyLocate29LocationSharingCapableDevicesV10CodingKeys33_78FF91131ECD6065AEEF9918438F5E4ALLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12FindMyLocate29LocationSharingCapableDevicesV10CodingKeys33_78FF91131ECD6065AEEF9918438F5E4ALLOs0H3KeyAAs28CustomDebugStringConvertible
++ _objc_msgSend$locationSharingCapableDevicesWithCompletion:
++ _symbolic Say_____G 12FindMyLocate18AutoMeCapableWatchV
++ _symbolic ScCy___________pG 12FindMyLocate29LocationSharingCapableDevicesV s5ErrorP
++ _symbolic _____ 12FindMyLocate18AutoMeCapableWatchV
++ _symbolic _____ 12FindMyLocate18AutoMeCapableWatchV10CodingKeys33_8C9B927C7C8601ACF0F4422070573DB2LLO
++ _symbolic _____ 12FindMyLocate22PreferenceStreamChangeO39LocationSharingCapableDevicesCodingKeys020_F06C4528932A4D910E2Q11F7DCF8FC906LLO
++ _symbolic _____ 12FindMyLocate29LocationSharingCapableDevicesV
++ _symbolic _____ 12FindMyLocate29LocationSharingCapableDevicesV10CodingKeys33_78FF91131ECD6065AEEF9918438F5E4ALLO
++ _symbolic _____yScSy_____G_____G s23AsyncCompactMapSequenceV 12FindMyLocate22PreferenceStreamChangeO AC29LocationSharingCapableDevicesV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12FindMyLocate18AutoMeCapableWatchV10CodingKeys33_8C9B927C7C8601ACF0F4422070573DB2LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12FindMyLocate22PreferenceStreamChangeO39LocationSharingCapableDevicesCodingKeys020_F06C4528932A4D910E2T11F7DCF8FC906LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12FindMyLocate29LocationSharingCapableDevicesV10CodingKeys33_78FF91131ECD6065AEEF9918438F5E4ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12FindMyLocate18AutoMeCapableWatchV10CodingKeys33_8C9B927C7C8601ACF0F4422070573DB2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12FindMyLocate22PreferenceStreamChangeO39LocationSharingCapableDevicesCodingKeys020_F06C4528932A4D910E2T11F7DCF8FC906LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12FindMyLocate29LocationSharingCapableDevicesV10CodingKeys33_78FF91131ECD6065AEEF9918438F5E4ALLO
++ _type_layout_string 12FindMyLocate18AutoMeCapableWatchV
++ _type_layout_string 12FindMyLocate29LocationSharingCapableDevicesV
++ block_copy_helper.127
++ block_copy_helper.148
++ block_copy_helper.169
++ block_copy_helper.190
++ block_copy_helper.242
++ block_copy_helper.251
++ block_copy_helper.254
++ block_descriptor.129
++ block_descriptor.150
++ block_descriptor.171
++ block_descriptor.192
++ block_descriptor.244
++ block_descriptor.253
++ block_descriptor.256
++ block_destroy_helper.128
++ block_destroy_helper.149
++ block_destroy_helper.170
++ block_destroy_helper.191
++ block_destroy_helper.243
++ block_destroy_helper.252
++ block_destroy_helper.255
++ get_witness_table s23AsyncCompactMapSequenceVyScSy12FindMyLocate22PreferenceStreamChangeOGAC20LocationSharingStateOGSciHPyHC.57
++ get_witness_table s23AsyncCompactMapSequenceVyScSy12FindMyLocate22PreferenceStreamChangeOGAC29LocationSharingCapableDevicesVGSciHPyHC.58
+- ___swift_memcpy108_8
+- ___swift_memcpy52_8
+- __swift_closure_destructor.119
+- __swift_closure_destructor.131
+- __swift_closure_destructor.135
+- __swift_closure_destructor.144
+- __swift_closure_destructor.152
+- __swift_closure_destructor.156
+- __swift_closure_destructor.161
+- __swift_closure_destructor.173
+- __swift_closure_destructor.182
+- __swift_closure_destructor.194
+- __swift_closure_destructor.198
+- __swift_closure_destructor.205
+- __swift_closure_destructor.209
+- __swift_closure_destructor.215
+- __swift_closure_destructor.226
+- __swift_closure_destructor.24
+- __swift_closure_destructor.46
+- __swift_closure_destructor.61
+- __swift_closure_destructor.65
+- block_copy_helper.125
+- block_copy_helper.146
+- block_copy_helper.167
+- block_copy_helper.188
+- block_copy_helper.246
+- block_copy_helper.249
+- block_descriptor.127
+- block_descriptor.148
+- block_descriptor.169
+- block_descriptor.190
+- block_descriptor.248
+- block_descriptor.251
+- block_destroy_helper.126
+- block_destroy_helper.147
+- block_destroy_helper.168
+- block_destroy_helper.189
+- block_destroy_helper.247
+- block_destroy_helper.250
+- get_witness_table s23AsyncCompactMapSequenceVyScSy12FindMyLocate22PreferenceStreamChangeOGAC20LocationSharingStateOGSciHPyHC.51
+CStrings:
++ " autoMeCapableWatches: "
++ " isInQuickSwitchCircle: "
++ " quickSwitchedDevices: "
++ ".locationSharingCapableDevices("
++ "autoMeCapableWatches"
++ "isInQuickSwitchCircle"
++ "locationSharingCapableDevices"
++ "quickSwitchedDevices"
+- "activeLocationSharingDevice succeeded: %s"
+
+```

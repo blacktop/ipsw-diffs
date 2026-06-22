@@ -1,0 +1,207 @@
+## MacSystemUI
+
+> `/System/Library/PrivateFrameworks/MacSystemUI.framework/Versions/A/MacSystemUI`
+
+```diff
+
+-17.0.0.0.0
+-  __TEXT.__text: 0x3353c sha256:5048ec21f35e2e261aa786e0eb2f12eba480f7ace444a4b47c06b5b9213e47e9
+-  __TEXT.__const: 0x3628 sha256:e999ca6a78e20719ffc6580eed595098b2a6b5998df5f47a79ccd3def9362500
+-  __TEXT.__swift5_typeref: 0x9f6 sha256:1983fb6819489d8905ca6159a36928f98f9fedf09de009d62cc32601ad3b175e
+-  __TEXT.__swift5_fieldmd: 0xb10 sha256:defbb2d7d5b63aacf80c54edb8a4abb58a3e567267120e314ee00659f9646c84
+-  __TEXT.__constg_swiftt: 0xd14 sha256:8b73ae3f54511632b337dc3d866113879cfc8b4765d2b5b3dfe6f4951481a756
+-  __TEXT.__swift5_builtin: 0x50 sha256:bdf1dd449b65bac9f933fec979f6c4816ac30b2a31e64704c9b44aa3a798c8c9
+-  __TEXT.__swift5_reflstr: 0x77f sha256:11470421db3403b2575f138ad3bca56850c40c67c08d36c71efc4a3df261f0d5
+-  __TEXT.__swift5_protos: 0x34 sha256:4596c52fe5286df8a7cda6b7840b63135e7f2bafd8ef3ccb249fbdd0eae72a8e
+-  __TEXT.__swift5_proto: 0x324 sha256:14b4a3e728b3da76b3ac4d4d1aba9484de73461b564d2250adbc498c3fff58d6
+-  __TEXT.__swift5_types: 0xe0 sha256:33cee00679d9abf4585dfdbd779f2e7c6223169a9d42403aff9f89360e4cfbb9
+-  __TEXT.__cstring: 0x2e1 sha256:c83c7b15289edd26fc2bdfbff8983eebb36782ba4a6b8a70af87504171f6e97b
+-  __TEXT.__swift5_assocty: 0x1d0 sha256:fab94f19b9ecbd9c7aa698fdf4291526315d52ded9a97d5f446ec2f4e185c679
+-  __TEXT.__swift5_capture: 0xac sha256:8b3677bbf0aeb563ff8c820f22e326c282342bbff0d95edd3dbef2a472a4b2b9
+-  __TEXT.__unwind_info: 0x1400 sha256:493a05435bf713088622bf5969ad5197d720f032f8ec3b9060a0fe34c9e6039e
+-  __TEXT.__eh_frame: 0x9b8 sha256:6f0b9a72180e84569ce2a6d88aff79d02de15a28fdd58e80ba4f40e6d8c959b1
++18.0.0.0.0
++  __TEXT.__text: 0x20dd4 sha256:2b32a10392631b9e073b83392b22a1b5bfea7f3f48fa8fb763058022f22be3e4
++  __TEXT.__const: 0x29b8 sha256:009b9751a66adbb3c48f1aad50bf7a07878d7d43ea3695c1438bd1224f97e2b3
++  __TEXT.__swift5_typeref: 0x6cd sha256:7cb87e385a3643c6cab64a4dc145cd166f658ad58fb4825172b78d108f65fcb1
++  __TEXT.__swift5_reflstr: 0x58f sha256:96c67b4b6bed58d95e8692a93aa0e7e75075de15d289d947b1d4a84033fa15fa
++  __TEXT.__swift5_assocty: 0x1d0 sha256:ef7678286f63b8d60d763089d7f2c0a6c60beff082cdf5b155f41313cf3c9823
++  __TEXT.__constg_swiftt: 0x734 sha256:44116512c9a7e8503b0f7e1f7abcb54f3c0c5a60875fc39d01d7e33252908e2a
++  __TEXT.__swift5_builtin: 0x50 sha256:a79dd897e0216be7ff396310209835a193fab40c1fa7d4cc88a6169b35d44678
++  __TEXT.__swift5_fieldmd: 0x7a4 sha256:6919d4c81d86b7be57f6aabab2780262cda94dc72140ead41295935f990cc407
++  __TEXT.__swift5_proto: 0x240 sha256:b185daafcd21fd49fdf3ef5942837b11d15d896745eb3771df9fae3cd9e6ab1c
++  __TEXT.__swift5_types: 0xa4 sha256:5c06e4709525cc0f2d794ee34eef04bca64568dd4776c5be97012a169bb20dbc
++  __TEXT.__swift5_protos: 0x10 sha256:1d94427483713ac15ceafc657b101d1e65600c753c365a85eba20aa326819c52
++  __TEXT.__swift5_capture: 0xac sha256:4fd8cb496702009041c3ccd04cd46985ea78a1b4b741e8e4bebbd3ef1bb9b806
++  __TEXT.__cstring: 0x2c1 sha256:87452d25122fbdbf747857bd2b2ebc4b3df0e9fe5923775f83021be843e52f45
++  __TEXT.__unwind_info: 0xe58 sha256:4eb838afe9eb0a156ae6649b51b7997488708c4f9232697a367a9059c68cb380
++  __TEXT.__eh_frame: 0x7b8 sha256:0387e0c58340c16e81b98de49d85b0e8ca6f017a44c2cdb9569815b120cbc886
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x600 sha256:3ab39f6f4cf9713ecaf18b7d7b4fc4a633c53e71b52787a39c62f70583251fbc
+-  __DATA_CONST.__objc_classlist: 0x30 sha256:6d1b26403e0b4300d3b3211138cfcc3c3bb9464cb514e907cfdb86b593502351
++  __DATA_CONST.__const: 0x598 sha256:72a63c17ff7b63867148c9a128c57380885d4e6ef261bc94e1cc07f9bdfadb12
++  __DATA_CONST.__objc_classlist: 0x8 sha256:72cfc2f6caf11812a09094a39bbad3f4d5d295f1620b1f4fa4b934a92f7b8bde
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x78 sha256:f6dfaf0948bce02fb92a145aa4d025574f80977848d7bfefa30675f74691b5b8
++  __DATA_CONST.__objc_selrefs: 0x50 sha256:437f13b67299b92d953a9d79fa303967498ace10fa4dbe3c2420d5a613ff6b8c
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x2280 sha256:95ac1e7bffe51c93587a2817ce5f4290a54dabd2160b6ac0b4cacceb95c2bd23
+-  __AUTH_CONST.__objc_const: 0x6c8 sha256:a1ac20fc90144d9591c60fe1f3534f70972837a33ae19490117b224b88a44534
+-  __AUTH_CONST.__auth_got: 0x808 sha256:d5fe696dc1aa5c0a800bf800ce8fc6e26ab622c7dd7de4b9fd0c304fe4036256
+-  __AUTH.__data: 0x650 sha256:0dd28bc0b34a7e0f6579e61acdcca0c9de17f06618f07cb82e00f39694d545a5
+-  __DATA.__data: 0x908 sha256:35956830dc0e1c6938923d39e417eba774c6b059bb38a8a8de026da72f74da51
+-  __DATA.__bss: 0x5480 sha256:f53136d1ebaa697da488ed23236b5aae5f3deb2f334c0d0296e8b7be6576647a
++  __AUTH_CONST.__const: 0x1420 sha256:c48f9fef3262e16b7fbf4448e8b4a2180ce7f038ec394e3b30545a3af5cf5d36
++  __AUTH_CONST.__objc_const: 0x168 sha256:2b89bfe9c50fa64c77539b60790944936e30ed67e1d18d491db177a7b45954e8
++  __AUTH_CONST.__auth_got: 0x688 sha256:256984cb62bc879971463ff0ff7567042dc95d8b0fb2bc676f246c2293c77ae8
++  __AUTH.__data: 0x288 sha256:84706701cf2bd8d9e90d71166f5487899c3344abeda43d8f352077450008d618
++  __DATA.__data: 0x638 sha256:86a618c687c518ca93f7151a26391ef0e19101986d30f7eeefa420b0574fc5ec
++  __DATA.__bss: 0x4680 sha256:a0360b87d0a46c918c0b4d6219bc9824c804590988557900bdb0e8b52c1d6cb9
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 83955A0B-AE7C-3D4B-9335-3557BE04EF10
+-  Functions: 2649
+-  Symbols:   888
+-  CStrings:  23
++  UUID: D8358EC9-0882-3C64-9680-ABB137D3871F
++  Functions: 1898
++  Symbols:   630
++  CStrings:  22
+ 
+Symbols:
+- _OBJC_CLASS_$_CASpringAnimation
+- _OUTLINED_FUNCTION_46
+- _OUTLINED_FUNCTION_47
+- _OUTLINED_FUNCTION_48
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_50
+- _OUTLINED_FUNCTION_51
+- _OUTLINED_FUNCTION_52
+- _OUTLINED_FUNCTION_53
+- _OUTLINED_FUNCTION_54
+- _OUTLINED_FUNCTION_55
+- _OUTLINED_FUNCTION_56
+- _PromotedConst.1
+- _PromotedConst.4
+- __DATA__TtC11MacSystemUI14AnimationGroup
+- __DATA__TtC11MacSystemUI14SpringBehavior
+- __DATA__TtC11MacSystemUI16AnimationContext
+- __DATA__TtC11MacSystemUI8Animator
+- __DATA__TtCC11MacSystemUI16AnimationContextP33_3E636E6E2907D30599B3DBE60FB5ED7E10Generation
+- __IVARS__TtC11MacSystemUI14AnimationGroup
+- __IVARS__TtC11MacSystemUI14SpringBehavior
+- __IVARS__TtC11MacSystemUI16AnimationContext
+- __IVARS__TtC11MacSystemUI8Animator
+- __IVARS__TtC11MacSystemUI9Animation
+- __IVARS__TtCC11MacSystemUI16AnimationContextP33_3E636E6E2907D30599B3DBE60FB5ED7E10Generation
+- __METACLASS_DATA__TtC11MacSystemUI14AnimationGroup
+- __METACLASS_DATA__TtC11MacSystemUI14SpringBehavior
+- __METACLASS_DATA__TtC11MacSystemUI16AnimationContext
+- __METACLASS_DATA__TtC11MacSystemUI8Animator
+- __METACLASS_DATA__TtCC11MacSystemUI16AnimationContextP33_3E636E6E2907D30599B3DBE60FB5ED7E10Generation
+- __ZL13__tg_isfiniteDv2_d
+- __ZL13__tg_isfiniteDv3_d
+- __ZL13__tg_isfiniteDv4_d
+- __ZL8simd_absDv2_d
+- __ZL8simd_absDv3_d
+- __ZL8simd_absDv4_d
+- ___unnamed_4
+- _associated conformance 11MacSystemUI14AnimationGroupC15DiagnosticStateV10CodingKeys33_6CB7BC16102FD1FCB8A04A65B6A8EF1ELLOSHAASQ
+- _associated conformance 11MacSystemUI14AnimationGroupC15DiagnosticStateV10CodingKeys33_6CB7BC16102FD1FCB8A04A65B6A8EF1ELLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 11MacSystemUI14AnimationGroupC15DiagnosticStateV10CodingKeys33_6CB7BC16102FD1FCB8A04A65B6A8EF1ELLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 11MacSystemUI14AnimationGroupC3Key33_6CB7BC16102FD1FCB8A04A65B6A8EF1ELLVSHAASQ
+- _associated conformance 11MacSystemUI23SpringRotationDirectionOSHAASQ
+- _cosh
+- _exp
+- _get_enum_tag_for_layout_string 11MacSystemUI14AnimationGroupC5State33_6CB7BC16102FD1FCB8A04A65B6A8EF1ELLO
+- _get_enum_tag_for_layout_string 11MacSystemUI20SpringAnimationStyleV4ModeO
+- _objc_allocWithZone
+- _objc_msgSend$init
+- _objc_msgSend$setDamping:
+- _objc_msgSend$setMass:
+- _objc_msgSend$setStiffness:
+- _objc_msgSend$settlingDuration
+- _sinh
+- _swift_cvw_enumFn_getEnumTag
+- _swift_cvw_initStructMetadataWithLayoutString
+- _swift_dynamicCastClass
+- _swift_getObjectType
+- _swift_isUniquelyReferenced_nonNull_bridgeObject
+- _swift_readAtKeyPath
+- _swift_setAtReferenceWritableKeyPath
+- _swift_setAtWritableKeyPath
+- _swift_unknownObjectRetain_n
+- _swift_unknownObjectWeakAssign
+- _swift_unknownObjectWeakDestroy
+- _swift_unknownObjectWeakInit
+- _swift_unknownObjectWeakLoadStrong
+- _symbolic $s11MacSystemUI12AnyAnimationP
+- _symbolic $s11MacSystemUI12_CopyOnWriteP
+- _symbolic $s11MacSystemUI15AnimatingObjectP
+- _symbolic $s11MacSystemUI15SpringAnimatingP
+- _symbolic $s11MacSystemUI17AnimationSteppingP
+- _symbolic $s11MacSystemUI19LinearInterpolatingP
+- _symbolic $s11MacSystemUI19_CopyOnWriteStorageP
+- _symbolic $s11MacSystemUI20_C2SpringIntegrationP
+- _symbolic $s11MacSystemUI23AnimatingObjectObserverP
+- _symbolic 7ElementSTQz
+- _symbolic 7Storage_____Qz 11MacSystemUI12_CopyOnWriteP
+- _symbolic SDySO______pG 11MacSystemUI15AnimatingObjectP
+- _symbolic SDySO______pG 11MacSystemUI23AnimatingObjectObserverP
+- _symbolic SDySi______pG 11MacSystemUI12AnyAnimationP
+- _symbolic SDy_____ShySiGG 11MacSystemUI14AnimationGroupC3Key33_6CB7BC16102FD1FCB8A04A65B6A8EF1ELLV
+- _symbolic Say_____G 11MacSystemUI16AnimationContextC10Generation33_3E636E6E2907D30599B3DBE60FB5ED7ELLC
+- _symbolic Say______pG 11MacSystemUI15AnimatingObjectP
+- _symbolic ShySiG
+- _symbolic _____ 11MacSystemUI14AnimationGroupC
+- _symbolic _____ 11MacSystemUI14AnimationGroupC15DiagnosticStateV
+- _symbolic _____ 11MacSystemUI14AnimationGroupC15DiagnosticStateV10CodingKeys33_6CB7BC16102FD1FCB8A04A65B6A8EF1ELLO
+- _symbolic _____ 11MacSystemUI14AnimationGroupC3Key33_6CB7BC16102FD1FCB8A04A65B6A8EF1ELLV
+- _symbolic _____ 11MacSystemUI14AnimationGroupC5State33_6CB7BC16102FD1FCB8A04A65B6A8EF1ELLO
+- _symbolic _____ 11MacSystemUI14SpringBehaviorC
+- _symbolic _____ 11MacSystemUI15SpringAnimationV
+- _symbolic _____ 11MacSystemUI16AnimationContextC
+- _symbolic _____ 11MacSystemUI16AnimationContextC10Generation33_3E636E6E2907D30599B3DBE60FB5ED7ELLC
+- _symbolic _____ 11MacSystemUI20SpringAnimationStyleV
+- _symbolic _____ 11MacSystemUI20SpringAnimationStyleV4ModeO
+- _symbolic _____ 11MacSystemUI20SpringAnimationValueV
+- _symbolic _____ 11MacSystemUI23SpringRotationDirectionO
+- _symbolic _____ 11MacSystemUI8AnimatorC
+- _symbolic _____ 11MacSystemUI9AnimationC
+- _symbolic _____Sg 11MacSystemUI14AnimationGroupC
+- _symbolic ______p 11MacSystemUI12AnyAnimationP
+- _symbolic ______p 11MacSystemUI15AnimatingObjectP
+- _symbolic ______p 11MacSystemUI23AnimatingObjectObserverP
+- _symbolic ______pSgXw 11MacSystemUI15AnimatingObjectP
+- _symbolic _____ySO______pG s17_NativeDictionaryV 11MacSystemUI15AnimatingObjectP
+- _symbolic _____ySO______pG s17_NativeDictionaryV 11MacSystemUI23AnimatingObjectObserverP
+- _symbolic _____ySO______p_G SD8_VariantV 11MacSystemUI15AnimatingObjectP
+- _symbolic _____ySiG s11_SetStorageC
+- _symbolic _____ySi______pG s17_NativeDictionaryV 11MacSystemUI12AnyAnimationP
+- _symbolic _____ySi______p_G SD8_VariantV 11MacSystemUI12AnyAnimationP
+- _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
+- _symbolic _____y_____G s22KeyedEncodingContainerV 11MacSystemUI14AnimationGroupC15DiagnosticStateV10CodingKeys33_6CB7BC16102FD1FCB8A04A65B6A8EF1ELLO
+- _symbolic _____y_____ShySiGG s17_NativeDictionaryV 11MacSystemUI14AnimationGroupC3Key33_6CB7BC16102FD1FCB8A04A65B6A8EF1ELLV
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 11MacSystemUI15AnimatingObjectP
+- _symbolic _____yxG 11MacSystemUI15SpringAnimationV
+- _symbolic xSg
+- _symbolic yyc
+- _type_layout_string 11MacSystemUI14AnimationGroupC15DiagnosticStateV
+- _type_layout_string 11MacSystemUI14AnimationGroupC3Key33_6CB7BC16102FD1FCB8A04A65B6A8EF1ELLV
+- _type_layout_string 11MacSystemUI14AnimationGroupC5State33_6CB7BC16102FD1FCB8A04A65B6A8EF1ELLO
+- _type_layout_string 11MacSystemUI20SpringAnimationStyleV
+- _type_layout_string 11MacSystemUI20SpringAnimationStyleV4ModeO
+- get_witness_table Say11MacSystemUI15AnimatingObject_pGSTHPyHC.3
+CStrings:
+- " animationSpeed="
+
+```

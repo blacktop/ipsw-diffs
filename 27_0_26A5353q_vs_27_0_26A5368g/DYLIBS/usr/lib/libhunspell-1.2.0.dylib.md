@@ -1,0 +1,287 @@
+## libhunspell-1.2.0.dylib
+
+> `/usr/lib/libhunspell-1.2.0.dylib`
+
+```diff
+
+ 16.0.0.0.0
+-  __TEXT.__text: 0x1a060 sha256:0b81f948aa8087925e74af66c37b9f08e2b8bdbe9dce2255a9eab163e7a68993
++  __TEXT.__text: 0x19ec8 sha256:80aab3518fe1de8adf84e977a2e06ee82f427e87c60ea6cb430ad9bac6d04fcc
+   __TEXT.__cstring: 0x4c2 sha256:275584beecd792c268484c1acec53f7a855fe3875a984c74f0410f78e37e586c
+   __TEXT.__const: 0xc780 sha256:82c1a975cc3e564119f464274eed4e87a9171b6a821980240ac788a42c9f70e1
+-  __TEXT.__gcc_except_tab: 0x128 sha256:53828d60625c224a8f99081e361fafbd902956d4553e01e77c0d927f5dec657d
+-  __TEXT.__unwind_info: 0x3e8 sha256:befb2455bda85c7bfeafcdc1aa7b438458c31e5662d630c8b10316095eadeb33
++  __TEXT.__gcc_except_tab: 0x128 sha256:d12d31ec8423b2a8c2c22ad990fc305be9e1c35d6a93f9c43b216f73f67b6678
++  __TEXT.__unwind_info: 0x3e8 sha256:b3a87be268dd42e373d54a9ac5e29ce72df63447d236d071bb8081f11ec8c1cc
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x110 sha256:c453186faac97935b251498dd57355bb651bb67b4deeec73fa943db353e57dc7
++  __DATA_CONST.__const: 0x110 sha256:6c5330f328b9a98d5ae972aeab66ed70d04896311b3c01b54f52da7b3bd1ed61
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:5b48ab1ce0475c30ffee8199b33b4175f7b0fe2bafeeeb3beb30b6804d6ca458
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:0255156178df21c82c70e4a51107f300fba94a836c4d4ad3321e439f78dfe10a
+   __AUTH_CONST.__auth_got: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+-  __DATA.__data: 0x3558 sha256:aecd8e47757f5bc78c72db346eb066ba8db103cd0f60eec47a887025df281eaf
++  __DATA.__data: 0x3558 sha256:679b8e9705e306279133f068d6e46a51f2caf9895c2ed1a6c7314f1cad14cb25
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 63810BCB-18FC-3502-B700-3F5B3722942B
++  UUID: 3FB697DD-5000-39E6-97AC-50EB526DEC11
+   Functions: 319
+   Symbols:   391
+   CStrings:  144
+Functions:
+~ __ZN8PfxEntryD2Ev : sha256 5b469ba7ca1164c6ab9c1a7facbc38ff2314dbea568f99ceb66b4b195d6c0f52 -> 57415b8f77f4376f6e5608c191fced79e0e4243db0eec86aab35f1d9b74a0e42
+~ __ZN8PfxEntry3addEPKci : 268 -> 272
+~ __ZN8PfxEntry14test_conditionEPKc : 868 -> 860
+~ __ZN8PfxEntry9checkwordEPKcict : sha256 76e536c2dbc2761904c0cebd9de185fa94d62e6029b2bfb93bc3f6f750a0e1da -> ec8d2071054f222a71dd7cb0baf8dd9f86b25c7076ed679a5ee0753d2c77107d
+~ __ZN8PfxEntry12check_twosfxEPKcict : sha256 5601a370b899efc0e4d81ffc1126b88db0820aa00922a0c66656665c362f457f -> c4aca184f762f55cd370bd355e35b4e3ad85f5cc7dd4c6aea654c85c8eedc754
+~ __ZN8PfxEntry18check_twosfx_morphEPKcict : sha256 d19af0a26f5b0a9344fbb7d2434fcf82392a7a382aef9d9846a96e96fc8f698d -> c6b45234dd90dd71d9b9ba603e191803a280b453cd7d52889ad7f881bbaa5689
+~ __ZN8PfxEntry11check_morphEPKcict : sha256 fbca9167ca9e362c304551bc6e5c53577e6d000ec8fc1ecc24f475402032b924 -> f3ca747496bcea66332351c4a4dd74c4d25b7ef7e93214aeb141fbca37c0c9d9
+~ __ZN8SfxEntryC2EP8AffixMgrP8affentry : sha256 877d2327e89d4e70f9c4b2fea7a25618dd16fe2c47f58936277205d259fe78ab -> af28f01dc0e97d9e9f9515ab045a0d5f0fbb4dab9f6dcddf2f1b5b6daff71d03
+~ __ZN8SfxEntryD2Ev : sha256 d40075a80ae51bb676bdb8d659f647a5ed2d18072129b77130bf934048fce999 -> ed081fc7238dea3a2cedc1f9b0383f6c7fb00a0dc4cc4eeb2eec92f559b3b71b
+~ __ZN8SfxEntry3addEPKci : 296 -> 300
+~ __ZN8SfxEntry14test_conditionEPKcS1_ : 1160 -> 1156
+~ __ZN8SfxEntry9checkwordEPKciiP8AffEntryPPciPittt : sha256 022f31139be318af6e96799a787b07ffdcf720f65fcc4977cdb6f2f24213717c -> f5a721cb6f415436bb5b0c2ada586b560900f902ee3406f4c68a7fc0180be8d0
+~ __ZN8SfxEntry12check_twosfxEPKciiP8AffEntryt : sha256 fc9e84e0ecc2734095a91c0751953074809aa9c31bbf564f6b15e3a1368b0976 -> 6d50a3b598c8121e0ecf6f34410b0e96c5a8d13d8c81321bee2d9ddce168ce58
+~ __ZN8SfxEntry18check_twosfx_morphEPKciiP8AffEntryt : sha256 e418d34db3114cc397fd51b1e1bff845e6cb311fcd39264d53013ecabc315f7d -> d0ea650f50832fa80a8a1ef0933a200dbf9a677c35e57838f8b51f8ca35d9956
+~ __ZN8SfxEntry16get_next_homonymEP6hentryiP8AffEntrytt : sha256 a90ce9e0074a45a733b50338fb1654a05abe9dfae242ed20ddc4e9234ec20df3 -> 3c01db31b86ca1b24ae5f051dfaeece0437fdf6abacb7ffefba6570887ca4d69
+~ __ZN8AffixMgrC2EPKcPP7HashMgrPiS1_ : sha256 798956472803782f9fe527232404a26801b8bfa0f0e5cf915eca99ad8eae7af0 -> 4c5850fc1fbee714836835dd534117c6d883b77561720216e74a190112d3c2f4
+~ __ZN8AffixMgr10parse_fileEPKcS1_ : sha256 bf756b458240c0e4d10d81a87dba26dc7a60c35efb7c8574c36aa6a79f651d3e -> 68583f228333e48eca6a71b564c4770c48f28f41148ef0522220965669dac266
+~ __ZN8AffixMgrD2Ev : 1052 -> 996
+~ ___clang_call_terminate : sha256 833dc6016e5268d4f5042d838a6b8e776a6aa0b20a81e22eac1e7a1d4613252b -> ec90f6828ce7369e92e19931c070599f858d869de47d255099e49f55884e79d6
+~ __ZN8AffixMgrD1Ev : sha256 347bac8c848dcbd0b1e84f4c6bc5158c513634001bf0de0e83c845f3dc22ea36 -> 1d699ccf4ddcf855a0872a45c508d4068d9f91237e24cdec85991f263869d4a1
+~ __ZN8AffixMgr10parse_flagEPcPtP7FileMgr : sha256 c9633fcd7784ef3eab9eb1f572f7d60291bea53312baec9db1c902fc0d8dfc12 -> 0b4045889d83327c7455c276f42196ebb2d61d3b5923fb615d3f61691733fe99
+~ __ZN8AffixMgr9parse_numEPcPiP7FileMgr : sha256 1a40aa6a9fa5ff39e5129f8eec12641d9ffc9ccbb2a35617df0e139c537a5d3f -> b9d3cf4ea7fbbb7a464a8af202ff470af5d73475bb4c54d67a89d0384b69a0f9
+~ __ZN8AffixMgr17parse_cpdsyllableEPcP7FileMgr : sha256 bfaccdc0bf99f5bb075a299008b0accbe6d636cebd5df882a0c1a34676a2c450 -> ab6900925aeab34965bef5beadd60456b17b84d67b64c3fd8a9b51b4ff93263f
+~ __ZN8AffixMgr14parse_reptableEPcP7FileMgr : sha256 cb4e4c68edf9f7092ab8f93a29cb84aff87354da646a6fa0db18e5887624b3aa -> 3899f91c92bbd5c9c67f56cc2f815214405354ac7af668b67ffe601de41e5dfe
+~ __ZN8AffixMgr15parse_convtableEPcP7FileMgrPP7RepListPKc : sha256 a5ffa6f243692c15e89caddc5fcaebb660104fc4ff728da09e853978cfe479da -> 660f33356ba1cb65618c92a0661e21d920142b05b88f866b608a960288232f08
+~ __ZN8AffixMgr16parse_phonetableEPcP7FileMgr : 624 -> 628
+~ __ZN8AffixMgr19parse_checkcpdtableEPcP7FileMgr : sha256 c51fa8be6fa9bff661577ba35d185b6793091e195679a4fb486ab8c8d8b51699 -> bc798ee1a53175553e9fa4856869197a0bee8bce7aff36ac0bebd4f9c620c764
+~ __ZN8AffixMgr17parse_defcpdtableEPcP7FileMgr : 716 -> 728
+~ __ZN8AffixMgr14parse_maptableEPcP7FileMgr : sha256 fb39481d3aaefb0fdec6655d2780bfc77cc1ac6f90d989977dedf4970651fe72 -> 055ed9116e42c626d2d699b4ea90274c6dce274d6670eec13e7417103b3cb426
+~ __ZN8AffixMgr16parse_breaktableEPcP7FileMgr : sha256 e6f54c39285e1d0da59229cc0cff0a242c78ad7f0aab121a4cc4ec4597f8ea45 -> 1d0cb874ad659246c0d1b0898e6969a5a42b8b323c7dcccdb47b90bce1b9ccad
+~ __ZN8AffixMgr11parse_affixEPccP7FileMgrS0_ : 1880 -> 1876
+~ __ZN8AffixMgr24process_pfx_tree_to_listEv : sha256 5179fbfdcf58cbb39bc7811b07e81329c11d17c432d001f1ef81cd7cb7e4cec7 -> 035f3bfa3a153ee1ddbdf27d627ada457b3d862fcca39b0927bfd9bbac9d5c15
+~ __ZN8AffixMgr24process_sfx_tree_to_listEv : 84 -> 88
+~ __ZN8AffixMgr17process_pfx_orderEv : 384 -> 380
+~ __ZN8AffixMgr17process_sfx_orderEv : 388 -> 384
+~ __ZN8AffixMgr12get_encodingEv : sha256 a93015c5929db821afa50d9969723d7081692eaaa212d540ec1d0a503fbd1ea6 -> c529aaeca93a06cdaca8e606b7334aa9cfc5a25b19d30c3d2dbd5f7dfe26406e
+~ __ZN8AffixMgr13build_pfxtreeEP8AffEntry : 176 -> 172
+~ __ZN8AffixMgr13build_sfxtreeEP8AffEntry : sha256 22d72276a63c3284891173ac831c8863b272403abf9b83347984dfa1c2fa85db -> 7e02029166270eecffbac5f9cb73f3287b828f427845db4eba6211bf9932d7f9
+~ __ZN8AffixMgr9debugflagEPct : sha256 64aecb2120c383c68ef55d9925a105f64e727336344269fa6e7a62343b4c416d -> 7d3894b73aeb506dd27f5ec321a87bc530477f779f96c9599aeb38d685ebf73d
+~ __ZN8AffixMgr11encode_flagEt : sha256 4068bd334630b207618d9bf529f4ef689932df024066c0ff5b39a4b47e7c682a -> e0c1585822a345bf5478ec45993b6a3147ab658c92f1310b0f2a33a1bb2485c6
+~ __ZN8AffixMgr8encodeitEP8affentryPc : sha256 23b7d09c49bb7d60cb5ca02146c4e5bc55889241a26c7b531eebd254b811574c -> 092c5df47278afead9561e046f23ddf17b2225ea1d0388ae2ae8f2bf3f95b384
+~ __ZN8AffixMgr12prefix_checkEPKcict : 416 -> 404
+~ __ZN8AffixMgr19prefix_check_twosfxEPKcict : 280 -> 260
+~ __ZN8AffixMgr18prefix_check_morphEPKcict : 488 -> 476
+~ __ZN8AffixMgr25prefix_check_twosfx_morphEPKcict : 444 -> 424
+~ __ZN8AffixMgr12cpdrep_checkEPKci : 480 -> 484
+~ __ZN8AffixMgr12cpdpat_checkEPKciP6hentryS3_ : 348 -> 344
+~ __ZN8AffixMgr13cpdcase_checkEPKci : 284 -> 276
+~ __ZN8AffixMgr12defcpd_checkEPPP6hentrysS1_S2_c : 1264 -> 1256
+~ __ZN8AffixMgr12get_syllableEPKci : 276 -> 280
+~ __ZN8AffixMgr10setcminmaxEPiS0_PKci : 196 -> 192
+~ __ZN8AffixMgr14compound_checkEPKcissssPP6hentrycc : 4724 -> 4640
+~ __ZN8AffixMgr6lookupEPKc : 120 -> 124
+~ __ZN8AffixMgr12suffix_checkEPKciiP8AffEntryPPciPittc : 948 -> 936
+~ __ZN8AffixMgr11affix_checkEPKcitc : sha256 b1aea788b7ebf37027fbebd7f13fab6c6db8de5f0d8e41c26d67e486df3bc085 -> 8e00ab5a7830538f5628f160060f3f371d52f59064c24246d0a512bfd024df99
+~ __ZN8AffixMgr20compound_check_morphEPKcissssPP6hentrycPPcS5_ : 5580 -> 5516
+~ __ZN8AffixMgr17affix_check_morphEPKcitc : sha256 58b31be841876d757b9fb4bd76f7febd40090473158ce7a6f79158f57f20f7fc -> cdc4066012bbe69e19549c755058f5ea5abaf7e6599896370f9210a9e1123191
+~ __ZN8AffixMgr19suffix_check_twosfxEPKciiP8AffEntryt : 400 -> 392
+~ __ZN8AffixMgr25suffix_check_twosfx_morphEPKciiP8AffEntryt : 920 -> 912
+~ __ZN8AffixMgr18suffix_check_morphEPKciiP8AffEntryttc : 2092 -> 2084
+~ __ZN8AffixMgr8morphgenEPciPKttS0_S0_i : 812 -> 804
+~ __ZN8AffixMgr15expand_rootwordEP9guesswordiPKciPKttPciS6_ : 1412 -> 1404
+~ __ZN8AffixMgr14get_key_stringEv : sha256 bebfef121d1e294517880b57a6f19bce6576efb76188f6338d17deebeb65a2a2 -> 6bf9124a430664561c0aba37fb514558483e62f0732e1e2eab715552aa3a83ce
+~ __ZN8AffixMgr14get_try_stringEv : sha256 a099a15806b54687092976ba2053071ceae922afd90150ddf2d7e7658b579887 -> fc51be8f9fe8a354463e25c85cdf66c0c3589478914ad349bd4d6fa84f6814f0
+~ __ZN8AffixMgr17reverse_conditionEPc : sha256 d5af1c2fa37c4ac31147c8d68f66926c6e5b6af3f0a61ba53a954cd02a68abc8 -> 05f04135509b60274f02efa9c2eef494ba68ca8b967d64b49f112a4267f957cd
+~ __ZN8AffixMgr19redundant_conditionEcPciPKci : 708 -> 648
+~ __Z6u16_u8PciPK6w_chari : 256 -> 260
+~ __Z8mystrsepPPcc : 132 -> 156
+~ __Z8mystrdupPKc : sha256 b724c31a60e434ac03dae6a64c5232e671165e3b19863182d8cc8f13c2e74dbe -> af27d80a609917367928185a42115a6aae92d4d0e714d3dc4e08ac431015c3e6
+~ __Z8mystrcatPcPKci : sha256 4dcfadfe2514fc9a9a1044f4c4bc413d64481e0b25064a855f34080bf4f53e17 -> 977dd2ab6122ac71fbe3442a80765566734c6546f0c8588443adb56322586a27
+~ __Z7mychompPc : sha256 2f4e5f03ca142f33d108ce88513080574cda16841c1de8a2d1d9e8d6511e9b0f -> 4a92a473ee3e0342cded058bd7635953a836a09c7f767d822af52662fdc7e665
+~ __Z11myrevstrdupPKc : sha256 9dd479b64f271a5e0f09edc5176ce6e6e9b08ea43f6a29a7e2a949ead8bc70cf -> e39405a47281c1feb375bb2db0875973b44e882181ec349fd0d75fa47aaf92fe
+~ __Z8line_tokPKcPPPcc : 260 -> 268
+~ __Z9line_uniqPcc : 292 -> 296
+~ __Z13line_uniq_appPPcc : 448 -> 460
+~ __Z8freelistPPPci : 116 -> 120
+~ __Z10strlinecatPcPKc : sha256 627a7d7ffb39b7d16b359ffe7ee65bf587dda7098aafe690657e96757254b65f -> 0a7f9f29edc6d23d4eec550a60260cb713dd0f9609530a537775ab5d572df350
+~ __Z2trPccc : 40 -> 48
+~ __Z8morphcmpPKcS0_ : sha256 c2fff3ebec3bfeb3a1c0dc52cbf0396ec325abcd3808201b30c0c795d86e5253 -> 6095b8957815befa8373a2e79759e5ac239d3cc12e8037e8d2f9e5652f7ab80a
+~ __Z12get_sfxcountPKc : sha256 cc21efb2ea5af05e6330bd1381b5305ee80b8fa4983c8465e08aa3ec84cebc70 -> 203d5b68dbeabf770858e419b91f7ee0aa961030a94e3506c9c7374f6deca41a
+~ __Z10copy_fieldPcPKcS1_ : sha256 9fa91662a9642a61086fb1e143526c19056b9cdd4edb977f9c606482e067a76c -> 94e42cdbbcd5f0685cc06440698f82af16cfaa74914dcc999a55703590c80a8a
+~ __Z8mystrrepPcPKcS1_ : sha256 a0db636ced2db761e42251d311eabfa22942c5cf3939237242cfd7da8595b738 -> bdd1fe77c497e57454690faf3b4a250adba24ac4cfc65caceb8f837d8297949c
+~ __Z11reversewordPc : 88 -> 92
+~ __Z15reverseword_utfPc : 196 -> 200
+~ __Z8uniqlistPPci : 188 -> 192
+~ __Z8mkallcapPcPK7cs_info : 44 -> 48
+~ __Z10mkallsmallPcPK7cs_info : 44 -> 48
+~ __Z14mkallsmall_utfP6w_charii : 196 -> 208
+~ __Z14unicodetolowerti : 68 -> 72
+~ __Z12mkallcap_utfP6w_charii : 196 -> 208
+~ __Z14unicodetoupperti : 68 -> 72
+~ __Z9mkinitcapPcPK7cs_info : sha256 25a4df8a66ea9005ca92b083a3f0b4706cee5734ce323528dc9ddfc5095737ff -> 6c531e222a4d8bb1358e8d6c75d4f47b07db00cd2c9ebe82e9b0ec0cae8d68b0
+~ __Z10enmkallcapPcPKcS1_ : 156 -> 168
+~ __Z14get_current_csPKc : 100 -> 116
+~ __Z12enmkallsmallPcPKcS1_ : 156 -> 168
+~ __Z11enmkinitcapPcPKcS1_ : 160 -> 176
+~ __Z13get_casecharsPKc : 244 -> 260
+~ __Z15get_default_encPKc : 92 -> 112
+~ __Z12get_lang_numPKc : 96 -> 116
+~ __Z18initialize_utf_tblv : 168 -> 184
+~ __Z12free_utf_tblv : sha256 01b4947ef11582f5c228f8bf0600aba8be5638c8a118efaafe93ff9ccfe1cbd3 -> 89b5de79257449f8b483af62721c6daef4553f67f135f0c9f81e843b64ba5f92
+~ __Z14unicodeisalphat : sha256 84bee7bbc6a9a5d3e27dd1ff6a17dbf320356dccb6a4593a0d880d4b2aaf5098 -> 39d003537a5ed66d44eb589e692d742c124da4594d4217707910d64052d7733d
+~ __Z11get_captypePciP7cs_info : 164 -> 156
+~ __Z16get_captype_utf8P6w_charii : 356 -> 372
+~ __Z24remove_ignored_chars_utfPcPti : 272 -> 268
+~ __Z20remove_ignored_charsPcS_ : 88 -> 96
+~ __Z12parse_stringPcPS_i : sha256 1f03274be805c3570038e75dc80c8042319c7bba585d79b8f3c3d56cf8e318dd -> 8a6b9c45ee00897c4d894b1230a7a3f264ed9167d40dff9c52fdf45b9e9e9a2a
+~ __Z11parse_arrayPcPS_PPtPiii : sha256 15fdaa394ae052ce0927b6245e02e875b2f3223451ad57d53cc32f1b86aebe6b -> 49e06c6228096dca23aa618eac4d9ee7062dcf7b688ea12f2dfe6cd7334ab404
+~ __ZN7DictMgrC2EPKcS1_ : sha256 ffe9985e817151c357dc2bb502bd846f51c72f1aaefa966c4f212fa207c1758e -> 8a5e55e760bc968f68ef2921c528c178f67bd549f77f15fd80f21cb37ab3e1f9
+~ __ZN7DictMgr10parse_fileEPKcS1_ : sha256 eac8bb8c1818379636c5150a0cf3e27eb1c5d4edacde0a54d8cfe0b284b9ee25 -> 56173ff8eb31c2eb979116dfc44542c3fc0c6f16eac69dab467c2a429e7b8414
+~ __ZN7DictMgrD2Ev : 156 -> 164
+~ __ZN7DictMgrD1Ev : sha256 c7258dcebf4068ba632add97fe6758cd68e86d4879e96b7cb46cbb8828a2ebcd -> c0e3a9d2f08bad9ce0782644661d66ac66cc909da5d5e39b85b66838fc1ec69d
+~ __ZN7DictMgr7mychompEPc : sha256 8ee0a2d200a6951c6cafa3fb50c0d325ec004a908c367c94349131ff9be1dc1d -> 97a18eff6109d22bdcdd80ef7e982458f78ec06afd93290bf74a7f6e8cc471d1
+~ __ZN7DictMgr8mystrsepEPPcc : 228 -> 224
+~ __ZN7DictMgr8mystrdupEPKc : sha256 766abad21f834196f506b9ece43677de3a28f4c4fc39bba442910c8bdd97dc9e -> fea31e5b9b2901e0ab3c7569e72c19dcb6a15e3e1ddf06d0abe68c95376f67e8
+~ __ZN7HashMgrC2EPKcS1_S1_ : sha256 eff4d9f8fedb95d14a4a4c821fa2c39f6ffedacf6341c68a6329b3ca111adf14 -> 63f8a3d78c205f77bbca24783f9bb102a7c75c7ebf34570386a824784855526a
+~ __ZN7HashMgr11load_configEPKcS1_ : sha256 8c69bbb5470e91a934ecb2da4142c50f899451883e79923e82b39f5c855c052f -> 989f3b705152ca1ed26ff22e694abae4752d066c86dff0bf0c0d4cc161120d74
+~ __ZN7HashMgr11load_tablesEPKcS1_ : 928 -> 932
+~ __ZN7HashMgrC1EPKcS1_S1_ : sha256 f8f8e509a9045e76a361a00fb8525afc5561ce2da3fe3c91e9e8937ae0be55e1 -> 70967a0c0a55a178d2eac4d6ab51cdafeb0568af7fa77552e92937c3ed249657
+~ __ZN7HashMgrD2Ev : 388 -> 380
+~ __ZN7HashMgrD1Ev : sha256 2407e757a8e81e6b754f3706518b1b529c7ef17ec7fd636a999c9281ae065f4e -> ec3d02b99b91a1d8e448f096a7277016ff8fc485816a52dd81121e3c9a9797ea
+~ __ZNK7HashMgr6lookupEPKc : sha256 3c20a0bafd23c56f1bd0a44a1b9c31989d9c90c55f0e0e34b3170fd3adb0a5c7 -> 6f562755888e8df45e13de6cc31afaddb26bc7d5e051b4ac19ccb3c1de114ebb
+~ __ZNK7HashMgr4hashEPKc : 88 -> 92
+~ __ZN7HashMgr8add_wordEPKciiPtiS1_b : 824 -> 820
+~ __ZN7HashMgr10get_aliasmEi : 44 -> 40
+~ __ZN7HashMgr27add_hidden_capitalized_wordEPciiPtiS0_i : sha256 da7d50bb4658de798594652ca3b3ed6ac7be6fb068621bb3f920de9f3ca6e91a -> 040840e71f1ac3e10e00c84641d2116efda03499990e67e81afcef4e8b4e01ae
+~ __ZN7HashMgr20get_clen_and_captypeEPKciPi : sha256 b27fce6aa6c6e2fd407fc1c43613b2de758da95bae005d0b5aad256eb5fbbb52 -> 37a9ac0c97649f7fc5a154b8171ac18e18439d10a2adcfe5ea0e65347be8673e
+~ __ZN7HashMgr6removeEPKc : 212 -> 204
+~ __ZN7HashMgr21remove_forbidden_flagEPKc : 208 -> 204
+~ __ZN7HashMgr3addEPKc : sha256 a2b1b77399f0f094027046367dc32e9487f707445d1ff7cd26be7ea36e06aeae -> f20d5d0806fdef57f1adda77f80c2057cbb3ff96b7d41f92a31d2a04044bf5ed
+~ __ZN7HashMgr14add_with_affixEPKcS1_ : sha256 a127a5d4e78f350d8222f4d3bc131b97a6d6748c242703825e774a9bfaa99d49 -> a1f399d19d9c0fe84ece4e6ee1aacc832e2ed7a0e9facd26f41f7276f9248233
+~ __ZNK7HashMgr14walk_hashtableERiP6hentry : sha256 5046def94a8e491e621509769fd1df7a6570916973afccbc3a2e22eeb9e9b247 -> 14fbaeef6bfc8769eb62ecdc91f66833dff8b57a2198f6003e5c1519c8cf65b9
+~ __ZN7HashMgr10get_aliasfEiPPtP7FileMgr : sha256 2a397cd98095c8d98e918ec2451b831a4d6fdd422543aca0d664fbe43f158055 -> 4753729c3c9c2c3f3f0943cf53c2245ab1f169dab17c903bcf5c5d7295617e41
+~ __ZN7HashMgr12decode_flagsEPPtPcP7FileMgr : 616 -> 632
+~ __ZN7HashMgr11decode_flagEPKc : sha256 0667e3f3d3b31add4d7fe8f9e08efd78dedcdb4f7dc68bbe898cb9a7a2a7d47b -> b54ec8067a2cc8f41f2f44252cb898ff20b895c1971039b531a1e7c368b60fc0
+~ __ZN7HashMgr11encode_flagEt : sha256 1b302bfc34e7b9934a2399fe681e14e0feaa3b9450415861b7259704163a96e8 -> 13b60f4a915c0af45f05fcf1b7d2daaed3a0e57187e0e06c1264f242a8a20192
+~ __ZN7HashMgr12parse_aliasfEPcP7FileMgr : 564 -> 556
+~ __ZN7HashMgr12parse_aliasmEPcP7FileMgr : sha256 c1560e45d025af38e3e9f1081d2522ceb04469773250d6f0251222f42b1ac696 -> 6c4cb138c55c5b1101708700e477139d00f02025e8a0698c0d14bfd12023d150
+~ __ZN8HunspellC2EPKcS1_S1_ : sha256 a72f4283578380f7598e95eb628fb685ca26db49f691f69372bb92c247e15b92 -> ab9e241e91c76b4b9cb112983eaff23d00b2b4f11ea7aea622b746e03b7b8cfb
+~ __ZN8HunspellD2Ev : 180 -> 176
+~ __ZN8HunspellD1Ev : sha256 accdd98ed1adcadda0b0c8b333c988b014f18926d604fbf24d0d043883c2a965 -> f47bf9ed35e43d2c5b992878b4342f429abaf0b78b95db2eea414cb049cd5487
+~ __ZN8Hunspell7add_dicEPKcS1_ : sha256 bae0c8989222533ab0b3c16d9afa7660bf7de42b2a5c6606e8e5d695eece3981 -> f82328bab81bb7be53194930db61e13a66cb8be78751240ace1280786971eb12
+~ __ZN8Hunspell10cleanword2EPcPKcP6w_charPiS5_S5_ : 312 -> 328
+~ __ZN8Hunspell9cleanwordEPcPKcPiS3_ : 628 -> 652
+~ __ZN8Hunspell8mkallcapEPc : 300 -> 316
+~ __ZN8Hunspell9mkallcap2EPcP6w_chari : 224 -> 232
+~ __ZN8Hunspell10mkallsmallEPc : 48 -> 52
+~ __ZN8Hunspell11mkallsmall2EPcP6w_chari : 224 -> 232
+~ __ZN8Hunspell12sharps_u8_l1EPcS0_ : 76 -> 72
+~ __ZN8Hunspell11spellsharpsEPcS0_iiS0_PiPS0_ : 372 -> 368
+~ __ZN8Hunspell9checkwordEPKcPiPPc : sha256 d40582a2b4895c0ec9a0b480980a39ff75e59fbbbda21bd972e7c48a2f74c26f -> d5c73435b62dac4535c1eccedee14def0bf5f0021ca6f7cdcff79bf20c7fa5f1
+~ __ZN8Hunspell11is_keepcaseEPK6hentry : sha256 4a9e2c312a68d9fe820d8947b04ee3bb3dbd09f37a1672127a918fc7fdf0f875 -> bd5d0c4903e2a8f6ea5699ed16c09efbb5342ba9ab54f8afdd4b5f55761f048f
+~ __ZN8Hunspell10insert_sugEPPPcS0_i : 140 -> 152
+~ __ZN8Hunspell5spellEPKcPiPPc : 2220 -> 2208
+~ __ZN8Hunspell10mkinitcap2EPcP6w_chari : sha256 fbdf9df6b5c5d7aee7802cd59f5455e7b5194cc9d677d65e2c7c8a505bd7c459 -> 94ab85ae935bb0c5d7c72862d30b1e748a95e43951f7e2fccbf15488fb664e22
+~ __ZN8Hunspell7suggestEPPPcPKc : 3544 -> 3472
+~ __ZN8Hunspell7spellmlEPPPcPKc : 940 -> 944
+~ __ZN8Hunspell12mkinitsmall2EPcP6w_chari : sha256 06a9bc481fa14f5c48713c4ab5a3b8b6461501e009af89cb3ec315a43bef2679 -> 1953345364ea99837c0ce4de0e9edfec20a8c1690f8c54a5672ec2ae17eb0f74
+~ __ZN8Hunspell9mkinitcapEPc : sha256 d2f7ae8b117864aba5fb137157341097733ad7d31ed101c1a35fa2e294a97734 -> d3cfc753a1102019533a698a7138b351d41d6f160c6e876a33373c910dc821b2
+~ __ZN8Hunspell9free_listEPPPci : sha256 826582ac4bc48efe690590262a866378a486bc1ea857291ae319d3df9fc350bd -> 57e08862312c0dff7b48cbd9c84eb00a742e26a353b1e31603bba8603db3a8e4
+~ __ZN8Hunspell4stemEPPPcS1_i : 892 -> 924
+~ __ZN8Hunspell4stemEPPPcPKc : sha256 d7939455e27f85e2ff65fc7ec391a8772dd3f96c29c5ce8a5776240116d22108 -> b053c1b130a691010a78e327b30baa01b5871ddbfb024d990a97197fd5a0066b
+~ __ZN8Hunspell7analyzeEPPPcPKc : 2340 -> 2336
+~ __ZN8Hunspell13get_wordcharsEv : sha256 45d80d9e71e1cb843666664b3a09e7fbd544300970a907d8439ea2e79e0c1d53 -> d9c7ff765a6e0a78fa8d8766030b899c0a1c2f2e37efe06a4be146c6b75feacd
+~ __ZN8Hunspell19get_wordchars_utf16EPi : sha256 45d80d9e71e1cb843666664b3a09e7fbd544300970a907d8439ea2e79e0c1d53 -> d9c7ff765a6e0a78fa8d8766030b899c0a1c2f2e37efe06a4be146c6b75feacd
+~ __ZN8Hunspell3addEPKc : sha256 61170b1ba896d7967db2cf59bf3a24d2f623fc1fad721513205585b1c25a0018 -> 72dd1e66d2315f7f01d6ee455de88228265b9fb3849e5253912164790363a828
+~ __ZN8Hunspell14add_with_affixEPKcS1_ : sha256 27209eb554f9b40c2efce6900bd5be93130fd72ff6eb3a306bf1d2b4cf45bd6c -> 5e2bb5a71f0aa9c53a0b7c17757052a190a7699fb1dd14bfd99db1f17cb747f8
+~ __ZN8Hunspell6removeEPKc : sha256 ff3ad8a4a2002c6fe5ba72087c83b74d24861e4f5365e12cd4151fb08972e649 -> cec949cb647029ea386aeb4e8cbad21c7280ea3acfd73ee64e314cf00d450191
+~ __ZN8Hunspell11get_versionEv : sha256 85e7ba7563fff78632f3925cd89cc43aa81db25a9defa97b6e55a9c737e28906 -> de8fb2ac0722997538b8f7a2c36946949959c3d5835e1267736c75babb7935ee
+~ __ZN8Hunspell10cat_resultEPcS0_ : sha256 4e56885d7b2c5244a9c4b9620888169dcc44e71ac2bd7b1234f6a02a39c4e0a2 -> 18f8d46155026a66b2df757f79fc227eb48563bda16ddbfa3a89c8dc30ce2467
+~ __ZN8Hunspell8generateEPPPcPKcS1_i : 596 -> 592
+~ __ZN8Hunspell8generateEPPPcPKcS4_ : sha256 e06e10c3681dc654f6f60359fe0afa17ede6bdcad5985fb20f38c1f4334917e7 -> 18f77fc299f4fc46e5a6861d1e80b42cd197a3c38f773bd16a262c5fe40adc19
+~ __ZN8Hunspell11get_xml_parEPcPKci : 196 -> 192
+~ __ZN8Hunspell11get_xml_posEPKcS1_ : sha256 e9ef84d2ab740b09b4e903d00894135e237628fdb3e41f91392c6474af211e87 -> 9359057ba903ffc0d044c9579a361e1e5f44d5c6a1786e4ea70cf7652326689e
+~ __ZN8Hunspell13check_xml_parEPKcS1_S1_ : sha256 63e96d73f68582d763caaa3d98676e06d75bd16e3d5a0d2241948d0e51bfcdf5 -> 26df011413e2da865f7ac5c69e9040579f1fa3462f4b59dfb380a927e959c8b0
+~ __ZN8Hunspell12get_xml_listEPPPcS0_PKc : 256 -> 252
+~ _Hunspell_create : sha256 14d4b8ab2675df6b21f53922737385b52a7ffd517f85b72671d9465995170dfb -> 72d3b1cead78b85c1028bf483dc7db9699b53fb893d0996d0a9b69fc5c54c0f3
+~ _Hunspell_create_key : sha256 d8edf5d5f3fd52ce2a7621394bdaaac831d387aca075ed7fbeb38ff8f6816bca -> 1c9fa1bd8a50e32bf1a064d87db79c9b4ad897ea12f1288337609c460b858365
+~ _Hunspell_destroy : sha256 d8f13f37a3d52c8fe88be25e539dbb2aa5b1e6c90f76bc9a01a6b91530afd7bd -> 85d95c8d2eee514caf99b7aee08a69aed25061443961fb3313c6820a938da3f7
+~ _Hunspell_spell : sha256 9e7a0f3cd37107c7efdc4060cbf7c0159c549fc58e77f1b4a09803bf9f44f511 -> 6b9324ea3c3bfa0e651eb2ad2d3a1d5c8514a112531a64e7316bb6d446904146
+~ _Hunspell_suggest : sha256 2c16bbf77b65e76c44f59824b1c5e100730a3cd76deba7f37e761f20fffaeaf3 -> bd7f95ebe3a0b74179b51ccf665b7592a67ab4e7fd630721d85b67d915342593
+~ _Hunspell_analyze : sha256 1a21a5cdc4c778c98ed934f3f019cf3de0e735848d0a5d2173eed8211c9792b2 -> 37e3ebd0af61ac8c27697764143156544426b1c3c54d72cecf0df6bb70117941
+~ _Hunspell_stem : sha256 eb12c5655001039ff9bf7506b873c276ede70d45436c58c99417cfbc7cd274d1 -> 164811d2785f96804c64d97c780ced4000b90f18c76793234aa7efeb2191e94e
+~ __Z13Hunspell_stemP9HunhandlePPPcS2_i : sha256 9aa5703067facf0e28a522c1afbb8d8626e226a3c7e55d95869ad889432e582d -> 3fc9b29c97dae8fcc867855e6bc0c5f1a277446b600f77709b51d6414c97a0c1
+~ _Hunspell_generate : sha256 bab3e604973408d3283a1ea09f0ebf5b2404a08e6c42cfd596a4fb6743fc25de -> b5336c76337ec09262a49c1e45f598d68ad163a03985d9453ddf69282d698c27
+~ __Z17Hunspell_generateP9HunhandlePPPcPKcS2_i : sha256 188a45e84db12d4cc741367d5348ff317c713cf320685c0b3d46fc5a832eb0f2 -> fd8517c95d1a906422e79a587f63a6e8217ad91098d497f1017d9c47f71f6a7b
+~ _Hunspell_add : sha256 6926b2ac3ea4603db0c9f50cb03902ac6e50ef82cdbf577a50f1375c4340b405 -> 11b0ba4ca28f60b922b33fb665980f3d648ee966068b692280dbf15abdf7a0d3
+~ _Hunspell_add_with_affix : sha256 d8e5ad5241c40ae73e28b9d6a4a4ee5e9b088c9897772bcd25d96109f9504cc7 -> 0102ef80da95f3bfd7050d9f2f0c469435ac929a134431e457050a77691fed5c
+~ _Hunspell_remove : sha256 5201adf23ac73858b4daecd9c8690e7da6fb0c1874761edfa2bdde8a51079de0 -> 2babe014c308b0fdbbd24b84dc1e5021b25d0b4e8d510e6901462fd7aea97568
+~ _Hunspell_free_list : sha256 ff9e38965cedf3732696ca0cba7d40248e1aabc7e7203e6137116eed4fb32e8c -> dd01aee6d3548e635edb3e261baf29b522ccae90ee8d074fc8acec348e50db6a
+~ __ZN10SuggestMgrC2EPKciP8AffixMgr : sha256 e167f0108015a44d4078c7636bd5ad7cd895b2859527e7ac005668963e40e56a -> 0edf0bc910f8ece3131c1ac938fe467d723b6de39a86aa9b8c7bf150afe1acc6
+~ __ZN10SuggestMgrD2Ev : sha256 94ab9825918a296768d36e53709e4130ad632c9907713af1bbfe14b5841cfc18 -> 597821c48dc032ad91b10cfa01c06f35bc6f148bf69e5064e4311c559e791733
+~ __ZN10SuggestMgr7testsugEPPcPKciiiPiPm : 260 -> 272
+~ __ZN10SuggestMgr9checkwordEPKciiPiPm : sha256 29ba3851cf1bf9813a4f83bb1a68509cd7175f30b53a3b1a290782aa97db8f05 -> 7d4c1a0188dba3bd3234017a68df859399514cf4419badad18a1395d0e3dab9f
+~ __ZN10SuggestMgr7suggestEPPPcPKciPi : 1364 -> 1360
+~ __ZN10SuggestMgr12capchars_utfEPPcPK6w_chariii : sha256 a634d685eece6a395b82149f43d2cacd5630ce3de23dcd288e5e6423070f0409 -> 5325c99dcbe9b05a67a05b7ca98084649fbf6b10b4ef2b7f55afa2389272709e
+~ __ZN10SuggestMgr8capcharsEPPcPKcii : sha256 47c6deca0030804e034039434bdf9ae1fca048669ce5fad85690b8a3e65798c0 -> 3a898733f02813851ce8a1b1a5a6671e1be511f6d303a6aff0c1b0eda338cf98
+~ __ZN10SuggestMgr9replcharsEPPcPKcii : sha256 93ac892a1b5835125074c12441591d94748d2a7e7da8429776ab0af18b8b937d -> bf109e19532b0b0c277d29ac45862d7465f9e74a672174985455f3a43ae56173
+~ __ZN10SuggestMgr8mapcharsEPPcPKcii : sha256 802670e81d35b3875d0bcd09b8f4ccd1495ca09592c545edb199a3ad6a794d59 -> 618130a3ea4ae6089aee3af7c4c51d0c445e966e4d0dbdf278bd3a9de4457f64
+~ __ZN10SuggestMgr12swapchar_utfEPPcPK6w_chariii : sha256 005bc0924ecd55b857c8ad4ad3847071e6e6fd9f91eacb736f1cfbc1a432b5b3 -> a98f422826af0eba900d58312ad27d1b08fca7c7e8547e1c83f282e294874957
+~ __ZN10SuggestMgr8swapcharEPPcPKcii : 444 -> 452
+~ __ZN10SuggestMgr16longswapchar_utfEPPcPK6w_chariii : sha256 aae4ee9cfa0f16762ce806a2f7164321564510e184f50546b8570836beb5c047 -> a839db98f8e8c1d01620d565071318179cfe5f1bcaf5fc3cb153a9589160bc1f
+~ __ZN10SuggestMgr12longswapcharEPPcPKcii : 304 -> 320
+~ __ZN10SuggestMgr14badcharkey_utfEPPcPK6w_chariii : 744 -> 756
+~ __ZN10SuggestMgr10badcharkeyEPPcPKcii : 508 -> 488
+~ __ZN10SuggestMgr13extrachar_utfEPPcPK6w_chariii : sha256 67b9897582edaee5660076b118528410fcdaec3bf7162a9f059c5a9c1a349895 -> 917eb4c195c5683a8b80805483fa84ed9b39d47b8a18ebd4ab516f909007d806
+~ __ZN10SuggestMgr9extracharEPPcPKcii : sha256 c2d382fe45d71b57a1cb848d996960a9e750bd6f4c01a4f61e0aa2ada9823f2c -> 575fd4b1d7a2a937012f72055733da0e1117118cf6d056a88d72c2a0847bd8ca
+~ __ZN10SuggestMgr14forgotchar_utfEPPcPK6w_chariii : 356 -> 352
+~ __ZN10SuggestMgr10forgotcharEPPcPKcii : 332 -> 328
+~ __ZN10SuggestMgr12movechar_utfEPPcPK6w_chariii : 572 -> 588
+~ __ZN10SuggestMgr8movecharEPPcPKcii : 476 -> 496
+~ __ZN10SuggestMgr11badchar_utfEPPcPK6w_chariii : 396 -> 392
+~ __ZN10SuggestMgr7badcharEPPcPKcii : 344 -> 336
+~ __ZN10SuggestMgr18doubletwochars_utfEPPcPK6w_chariii : 364 -> 376
+~ __ZN10SuggestMgr14doubletwocharsEPPcPKcii : sha256 73a0d523bd3f38eee239768de6f86e7b8edd4d95f9086507a4553b66b9a4440d -> 89427d41b0bb6fe210b41ef7c33ae3018afe281b8167ecfb6ff06adf231604db
+~ __ZN10SuggestMgr8twowordsEPPcPKcii : 808 -> 836
+~ __ZN10SuggestMgr15map_related_utfEP6w_chariiiPPciPK8mapentryiPiPm : 576 -> 580
+~ __ZN10SuggestMgr11map_relatedEPKciPPciiPK8mapentryiPiPm : 516 -> 520
+~ __ZN10SuggestMgr15check_forbiddenEPKci : sha256 551c7f0712e2084a6b1d1cfc65fe3c12dfffc14932be1b1997e390690a8955ed -> 2b340927171682a3dabaf979ec3a0e3d50f6195384051743b235c3ab16621be8
+~ __ZN10SuggestMgr8mystrlenEPKc : sha256 2da0bdc805cb75a7989574ceb7d8566e524269ce31053e4851d9cb6c57e02cd0 -> c3f97cb05fd35da5a24d827a92343c1d655920bc72943a4b52233972ebc441b3
+~ __ZN10SuggestMgr9ngsuggestEPPcS0_iPP7HashMgri : 3792 -> 3600
+~ __ZN10SuggestMgr5ngramEiPcPKci : 724 -> 708
+~ __ZN10SuggestMgr19leftcommonsubstringEPcPKc : 520 -> 496
+~ __ZN10SuggestMgr10bubblesortEPPcS1_Pii : 148 -> 128
+~ __ZN10SuggestMgr6lcslenEPKcS1_ : sha256 daa7a31778ea15c9a2a41efa679f5bfdabe6cc8a06f206120952ec7b1b2e2253 -> a4ed7c60583da6d61994f7b55bfc86e61cff32e6393d03066511c49398f38d3e
+~ __ZN10SuggestMgr24commoncharacterpositionsEPcPKcPi : 640 -> 600
+~ __ZN10SuggestMgr13suggest_morphEPKc : sha256 6086a8dade18cf2ab2988321ed86a2475cefa7addf188cbe40273a5ddcf5708c -> 517ba7dde401c6ca4e622c422d03a0a071ae68d21791bc4279b69f0b40a89cc3
+~ __ZN10SuggestMgr18suggest_hentry_genEP6hentryPc : sha256 8ca9cf37a8fc81353489d783f02c747642d38679717f52e17b6d1d3232ac4fa4 -> 168bab53488a2d03b525f0cb489fd0174eb184e6a8a76c98e9b4d9ab75d5f35b
+~ __ZN10SuggestMgr11suggest_genEPPciS0_ : 1224 -> 1228
+~ __ZN10SuggestMgr3lcsEPKcS1_PiS2_PPc : 616 -> 628
+~ __Z16init_phonet_hashR10phonetable : 104 -> 108
+~ __Z9myisalphac : sha256 ed64ec828d071cfbcbab15845fbd1a16f5667f423a313ff5cfc90e722fe32d88 -> 0b785c8219548d55fd6e93c441f6ad136ec053597039400ad37c5e26262c4847
+~ __Z6phonetPKcPciR10phonetable : 2284 -> 2184
+~ __ZN7FileMgr4failEPKcS1_ : sha256 758f684eab992e34a9bb8112ce75c92b614a8222d470a07a2295adc95db95599 -> fc2bb0497d72d2bcb6630a2737faf76ce88f85b434bed69ab05f738f4e934578
+~ __ZN7FileMgrC2EPKcS1_ : sha256 8189dd85b599316625fc9cbc2ff8538f400c300718d4fa889216731b9fc1b154 -> b306efdc497d8e7f65b2b3e7924875cdd292e97df9c814b5cdb5b25c960a4df2
+~ __ZN7FileMgrD2Ev : sha256 f6320ae55d8782f1aa39902310a306a2a0e4cdc4d7fc68ec54747b205702e99b -> 33c8b588d69c0d8412293e33260d255d1f421f0afe28c26e538d639f86968f88
+~ __ZN7FileMgr7getlineEv : sha256 712f804ece544f55df13f42464739bf0234243f5863570ffdeceba110ec63ebf -> 715e842ab57ff4a162b7bdc08b9600afde9061f03fa70b29d4c14221dbf8f035
+~ __ZN6Hunzip4failEPKcS1_ : sha256 8e4782b2b50afb5ac32a79a733f437c356eeb92f580ab42766cc74c74d5c0b3d -> 18bb2d5543c06aa7b4786f93157d8a32a8b1a33cd3da5d65dd0321f4f5164f54
+~ __ZN6HunzipC2EPKcS1_ : sha256 65cb1abb412c652f191513dd0ec604e61191a239462ceaa09e039cbc011a5568 -> 77fede06633598de214c82e43f75956b9e1d6975ecbf028fc8d935ad9c22ab1b
+~ __ZN6Hunzip7getcodeEPKc : 1108 -> 1112
+~ __ZN6Hunzip6getbufEv : sha256 d9cf30506b253d4d80fd1fd6f384b112213863cd444115881b4cf6a07256ca64 -> ba32a2042f5bc24e2f65240eb3ef96b87cef3d4c817c71b8d351681d087282c8
+~ __ZN6HunzipC1EPKcS1_ : sha256 ac8a482f65996b00fe8371079b56e2d11242d0956803a745091ff65b32979185 -> a46531f060a2246c75beaf4013a3f07947ec96e550d7ca4827b67be42e449c1a
+~ __ZN6HunzipD2Ev : sha256 44c0fe6f185a4e83ca3e7ee8cb6741de120d685b7925d1335117cb3cdfcbf900 -> 1c2270707238d79834f1c303d1b2163f2bf4bd9f9931b8b3e230547b7ae82c88
+~ __ZN6Hunzip7getlineEv : 552 -> 556
+~ __ZN7RepListC2Ei : sha256 2085cade3b724f58b4a4d2124bbbff164ce47a7a0726ae18a8526970d29fb8c0 -> 5ceb038b730866beffbb2cbdae70c66476a3341793ba8f3b3c60ff296431c67a
+~ __ZN7RepListC1Ei : sha256 edea69cd036775bb7429f8cbd868a7f5906c67fd90788b4c7524a1d687c8d6f9 -> efbd7d09a48e3a9167a945d04f9a50c7d6c2d51f20172d97b7eb5b066e0a0e68
+~ __ZN7RepListD2Ev : 132 -> 120
+~ __ZN7RepListD1Ev : sha256 c4401b4cf57266dc01c321591a3e1acf8064a1b8f53c9bf3590747cc2789d752 -> bf9475f857991a4bb81625ac6fd7b84106e09bebfb84c221813aeaa35af21ba0
+~ __ZN7RepList4nearEPKc : sha256 1f0dfc6b06faea5070d6e1e12498d9fc0a9db1c2384500d3f1dbcc50425895e7 -> cbe0724ecf50e4301c579afe6f48f750ca5c68ac605e0ae907509a9559692438
+~ __ZN7RepList5matchEPKci : sha256 2ba648b98a20d7746c31f9216d0ddaf184d3443e6d234f2e45409c35f2754bef -> ba58727480b56bd457752ab199483857b9e7db45bf57a5293a0724c628b52e1a
+~ __ZN7RepList3addEPcS0_ : 248 -> 260
+~ __ZN7RepList4convEPKcPc : sha256 511c2dfaba67d3a3285d92e9ffee9150b1e753b224a0b3e8f5725ac27e545a93 -> f1aad6dda52f5c623a9e010aa563cf8e805d22803db224994a73449c6ea1f522
+
+```

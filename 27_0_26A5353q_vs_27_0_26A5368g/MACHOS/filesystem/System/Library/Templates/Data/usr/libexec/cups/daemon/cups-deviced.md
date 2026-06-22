@@ -1,0 +1,35 @@
+## cups-deviced
+
+> `/System/Library/Templates/Data/usr/libexec/cups/daemon/cups-deviced`
+
+```diff
+
+ 527.0.0.0.0
+-  __TEXT.__text: 0x15a8 sha256:cc5fbb312ed471ab8ff3098b12bdf93441c361915c62e51280541b8dab7bfe97
++  __TEXT.__text: 0x15dc sha256:5e86cf31bc1bae190f6639f1834c1e380fe2aa164ffdd2d005a5b1cfa61cb1a7
+   __TEXT.__auth_stubs: 0x380 sha256:4d157ae1afeeb8b568e84476e4d77daf5b3b0fe06a4fdd065528e6e8633584ae
+   __TEXT.__const: 0x10 sha256:9ae44b338e0c4374b7603b909db9a14225b618fb596b27b9e4825c409a23a432
+   __TEXT.__cstring: 0x475 sha256:932bbced45deaa9bbd38dbedd642c14016f7d84d0c390e08421bff513b268715
+-  __TEXT.__unwind_info: 0x98 sha256:6438654161f650634fe7324453d62aa5b0cf395587314132ea3ab1c434c359cd
++  __TEXT.__unwind_info: 0x98 sha256:1f20104de9560b416d328f87adcc584c3155465149244ac3b3ae58150fbaac02
+   __DATA_CONST.__auth_got: 0x1c0 sha256:6c406d1ffd4f692629f26fe3e0499ac79f3057a7381612ccbc844244cb94de18
+   __DATA_CONST.__got: 0x30 sha256:2c0420205250a4ad53720da9085df77b2d8c733ca2a19dc89a707ad2a258cd80
+   __DATA_CONST.__auth_ptr: 0x10 sha256:616d1e277132a01118ddb2f38cd550f41dd66209f50f541f3b9265deb33c3446
+-  __DATA.__bss: 0x1f71 sha256:7ad11bb3ed8c10f8c879748a3bafcfd2c25c3709b7eaa7dd8a0c26d46b69c0a1
++  __DATA.__bss: 0x1f71 sha256:5cb700d534f381c1d1bba22c6e425c5af01a7dc17f281a70861edfb8a2222f8d
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcups.2.dylib
+-  UUID: 56743636-C006-3966-82E0-6156688F5609
++  UUID: 4B369A07-644C-39BF-95F7-3D5AF3873108
+   Functions: 12
+   Symbols:   65
+   CStrings:  42
+Functions:
+~ sub_100000620 : 3620 -> 3720
+~ sub_100001454 -> sub_1000014b8 : sha256 3ed39cd6c321e8af86539470786f8fba78038bd5a5c2455923c0a7230d55d223 -> 4d004b7f19ad141eca187868af523f6a9c3ef7ab8571916634fcef387abda280
+~ sub_1000014bc -> sub_100001520 : 392 -> 340
+~ sub_100001644 -> sub_100001674 : sha256 b141ab7b3b8f518bef7c9592a245e7513518111477e98da9b3ebff7b94ce8ef4 -> 3fa12c5a4ddb1034b5d309ce888cc53ca2902f143843dff94eab8b8cf2496d26
+~ sub_100001660 -> sub_100001690 : 500 -> 504
+~ sub_100001854 -> sub_100001888 : sha256 ef7b742b7d52ba749a9ac311c9e05f5be89d47ea375882ca2b66d1b98b1869ba -> c17d67287efd888ef978a798fc1396965f78d752df4597f313464d76e0f4427e
+
+```

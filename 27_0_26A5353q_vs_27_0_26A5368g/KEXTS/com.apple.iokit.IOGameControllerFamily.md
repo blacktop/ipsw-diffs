@@ -1,0 +1,43 @@
+## com.apple.iokit.IOGameControllerFamily
+
+> `com.apple.iokit.IOGameControllerFamily`
+
+```diff
+
+-14.0.14.0.0
++14.0.17.0.0
+   __TEXT.__const: 0x480 sha256:8ac690c50ee5b0abff83b0bd38a1d1b9232e3e6b709117ad373542e490163196
+   __TEXT.__cstring: 0x101c sha256:d4542dc6f7aa6d2e21dffe1d350e1e95636ba409cd87b4f3e9936f0da4e8227e
+   __TEXT.__os_log: 0x1c4a sha256:65c1810ef3494ab2c6b1a92d6a1e78567c5b7eefb2c37bf1d615837f641d6080
+-  __TEXT_EXEC.__text: 0x1b5ac sha256:0db4f2cb572aa88c09e01f607d6979dfbed649a3d7414d378eb567e2a1a55a36
+-  __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0xc8 sha256:2240b157a35a225e47b39ea68c81034168c2b82ad8c1ca9fe5d5de28aa6b90ff
++  __TEXT_EXEC.__text: 0x1b610 sha256:77638f9b51038c7eb3c53ec9098bbeb3a431ce1c9525ab6d0e5a5a2b9aba7380
++  __TEXT_EXEC.__auth_stubs: 0x540 sha256:1afea21b196760bbc1e5f0734e8256f5a6c57ef8b5bb6fa3c3478688cc1828a2
++  __DATA.__data: 0xc8 sha256:88246d0f85068de46125998b035413f020721f76bb064cb6d3ea81cbc6ccb720
+   __DATA.__common: 0x290 sha256:e06e79cdfedfc6d6107b945613e65b2de3a209e40115b9b00ab048d2b91cd7d5
+   __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_CONST.__mod_init_func: 0x60 sha256:38be45d9e85e6e36606c420d43c48e8218adf5f2521742c8e31dca28ac6e2beb
+-  __DATA_CONST.__mod_term_func: 0x60 sha256:59e90625b5d03ce757f6c8781aa17cc1dd41b52ddb797e48f420ffed0b2c6873
+-  __DATA_CONST.__const: 0x8c10 sha256:6ac1e55d295379656ba8df1b9bb2673d514c94f65f18b386824af758a4a212d9
+-  __DATA_CONST.__kalloc_type: 0x840 sha256:dc6ababaeef6225e1d96aafaccf953003aa460f2f8dca8717a87f49cf9f1f7b7
+-  __DATA_CONST.__auth_got: 0x2a0 sha256:21656a3ee4a311f329acb4e982510575f4fa36aaada27e34c4347e08945b21b4
+-  __DATA_CONST.__got: 0xd8 sha256:1557a1f81c442681237ad2251887b3c8e0e7648eee834936147543e37040469e
+-  UUID: 5D1CCB0E-D52B-3FA2-B83E-AD1E0D28BE51
+-  Functions: 676
+-  Symbols:   1060
++  __DATA_CONST.__mod_init_func: 0x60 sha256:87e13ff3af3f7d5966320f5e08b62076380c7df1429752be20965c0016532a77
++  __DATA_CONST.__mod_term_func: 0x60 sha256:59ae9c421e7366c7bcd2c8dc2203a5a6205e893fc40becd78739f53cfbf72b28
++  __DATA_CONST.__const: 0x8c10 sha256:e1c07bc2f80154d80fc1b7fbc8517e9950d99ff16888bde66e07b02587d5ab77
++  __DATA_CONST.__kalloc_type: 0x840 sha256:cd3a01415378720932aaa50911d674a66ffdae2712bcfbf5e4892fdbcce871cb
++  __DATA_CONST.__auth_got: 0x2a0 sha256:ea999d7d3bf28abae589fbc4c32eb8f926308c42adb84f2dbf8f4194f96ea1a3
++  __DATA_CONST.__got: 0xd8 sha256:68ba88b8d4c2160195a7182803375f934f54e26c71d65fc1226713881cd719f3
++  UUID: C83A0DF9-6721-3E69-A038-AF034C614D00
++  Functions: 675
++  Symbols:   1059
+   CStrings:  298
+ 
+Symbols:
+- _OUTLINED_FUNCTION_23
+
+```

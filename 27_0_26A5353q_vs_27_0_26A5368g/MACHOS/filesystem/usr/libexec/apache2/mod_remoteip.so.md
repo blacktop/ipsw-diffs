@@ -1,0 +1,57 @@
+## mod_remoteip.so
+
+> `/usr/libexec/apache2/mod_remoteip.so`
+
+```diff
+
+-886.0.0.0.0
+-  __TEXT.__text: 0x4408 sha256:b03d6289b1d26755b2b53a327c3bb2b47d86080dd70fc4795617663e9063e111
++888.0.0.0.0
++  __TEXT.__text: 0x4404 sha256:503f539a7ef60d861019c51d563983ac64d250df7838bf79eb4dca5b4f53ef20
+   __TEXT.__auth_stubs: 0x2f0 sha256:14ab3ffbd25d84737aa6b17bc548f3406335453ba831879be368c8ae217a4d07
+-  __TEXT.__cstring: 0xd4f sha256:ed0a7ea6e0c71f98c1bb73424b4702d47a12844f7ba9356194581c5f63329139
++  __TEXT.__cstring: 0xd4f sha256:0e04d777a3cb4767773002a27c4a98649d254ac76925c2bced36b558afe5ee7a
+   __TEXT.__const: 0xc sha256:fd4c1cb6e4e3cf46e91b759bf77cf52307770bbfa357881fe06079f2e0ce50fc
+-  __TEXT.__unwind_info: 0x90 sha256:8da8608e6b28cefd9915c3c0f351dc29be248132592616490df85145319f6ace
+-  __DATA_CONST.__const: 0x168 sha256:7d88750a893309fd846f7fd27da29c901d12252cb4f379f3830524995cc13cf8
++  __TEXT.__unwind_info: 0x90 sha256:e528e9d9478ef0e30676f6ef32e85f989cf0b39db21febb7334754dbd76fc6f3
++  __DATA_CONST.__const: 0x168 sha256:a51b7f8f2875711910227adb48e5b6cf882a66fc519142eac663b4634046cd68
+   __DATA_CONST.__auth_got: 0x178 sha256:21cb9ec0cab6dbbd0dd690a1be06d604b8444a21a62640231797633979f093d9
+   __DATA_CONST.__got: 0x18 sha256:1ce2cd5e1054eef830c9d2d927dc324b68414a30810e80b01e6ed625b088485c
+   __DATA_CONST.__auth_ptr: 0x8 sha256:7915a851fd5e4cd0b5598e906031c7b1d213c83f708d14b4a66b5de1123aff98
+-  __DATA.__data: 0x70 sha256:ea6a918995b0098bd40f74c0f8ded2148aed0a5ec4f0d60eacadde5807915c46
++  __DATA.__data: 0x70 sha256:3acfffc1825e93b0005db2df43ad4d3bc7f31202d5e22d3a7fa4288f9dd4011f
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcrypto.46.dylib
+   - /usr/lib/libssl.48.dylib
+-  UUID: 0D208FAA-7EF2-36BD-844E-B0426E9970B4
++  UUID: A8DA2CEB-E09F-3B5E-9236-FFB92C26EF6C
+   Functions: 24
+   Symbols:   79
+   CStrings:  68
+Functions:
+~ _create_remoteip_server_config : sha256 e72d2b9fc89273199f445d2163513ec8e60fb0e0b8c8b9f2cecfd09be2cf94dc -> 66973dad64a4fc05a3225307b93f93c3fd463c076395ac701598635b2b587e27
+~ _merge_remoteip_server_config : sha256 9d23d292a2e8036540567cd269e3a8332014cd01e04acd9aec15f57ebacdbc8d -> 9ec6082ea1a09dd49933d999cbf7b3271bcef4a2de1090fddb41fda3ec8488fe
+~ _register_hooks : sha256 cca55b96c1e9d86b2c07359d2e4f1344457b5323876ab78b7504e7f642465382 -> b2f3f1f2a5bbc3f9dd971cdde7e05d309ce3246140aa38ea3651ff7a6942b69b
+~ _proxies_set : sha256 232dbb38b0580556b0da3d027bc7c6002a4ac989d4b1bad555cd8f73a68cbb51 -> 18d8bf6a8e91badc107a4f953ba27516a4a13b9e2d81277be8a9d4c2f1ae9fcf
+~ _proxylist_read : sha256 b9dd9edf4d7ce1316efd946e14591eee0975bd2b50c5fab751c48cd499bdbc97 -> 78af5a8534981a630a57b5c10514aeaf54ee2446124b79d2ec2c69fa32519e6f
+~ _remoteip_enable_proxy_protocol : sha256 25dd07e832caa8814c4524f643371ef9a7682340be57671fd3699c2329123e94 -> ca09ac7d87810d6cccc28f4b76c6410191a5dd6812ab54cde11387b91a5984ae
+~ _remoteip_disable_networks : sha256 93b4341945efa7ee07205aee8345151c19dc5924716250a507846faf2a5bc035 -> 3e8f14b17f73e7ff890231cef299a4822ca8f83883927c039785f160caa649b3
+~ _looks_like_ip : sha256 0f1e60eccb5077d8200e87613046b30319dc172ab653f996179377ef5166eabc -> ff023011bb5e568901cd7311a7bb78c3679da4bff04839725d6dee47c688007f
+~ _remoteip_sockaddr_equal : sha256 66d3886ea20da92181a76f6e7acf5d41a2fb2ab315561086bb4ac3cf090a5e52 -> fb0d4714ef31e4a156974731d0345eb12e5913a0bd2a322bc7e9cc5814b2bf88
+~ _remoteip_warn_enable_conflict : sha256 37b5ea303ff39b490913e7b1323936cc89f6474cf63925c484e9472bb58235ae -> 05a6c8ea62356e658f681ab481a672f66409168a17455f620c0c220f470b31b8
+~ _remoteip_sockaddr_compat : sha256 d5b28febd394ae4f73595c4a67502444e88f28424fe9287844d676af02f43c65 -> e2f92c43993d3dbcec3240198310398444775d59feb069a6ab9f3711d3c325bb
+~ _remoteip_input_filter : sha256 f206407f1ee8a340fd31e4e0114022e05bf13bb1465f071699158701dd016c09 -> 846475718bfa6351871b58d38787af704b71390b121eb040589d42dbe24a34bc
+~ _remoteip_hook_post_config : sha256 fbad1c1936b7afc078845fca03048492e14c66b66d903d3277a33c5436f3337f -> acaf7d024b40f90725380925927a7a54ab799246c7a1a40442a2d90d809f77a5
+~ _remoteip_hook_pre_connection : sha256 b090e2f963e1daf33ee30d4c045c66cf73e645110467f68060c7d214c6550842 -> 4262eddb5f7a0f97432aade6432fb9d93046521a630e25888305d4b694fa4870
+~ _remoteip_modify_request : 5336 -> 5332
+~ _remoteip_determine_version : sha256 bc4081f448309e905905b407884267879999e77213428f8c904c748056e29c46 -> 3ebfd9e743af16873701317c7145cd32eab741bf8a941167dde944df529c98e9
+~ _remoteip_process_v1_header : sha256 f878ec4f3d09993351108e57f6c53b72fe04970ea7f7862a20ebff81c5161582 -> cfb2740cefc28be7ee4035292079125c2e0184b44183b067df8bc1d50af6a794
+~ _remoteip_process_v2_header : sha256 03dcdb1e9cb5d61bc14bfac45abb28c4231d52c90148b32b92c51e186e6531a8 -> ad777531c4d9af5f3a61915d90ec9a681312cf5b7f149f6d668c6615e894ab5c
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRbjugDs63E_nh9LrKXIzNhaKOKGLV_zLQv5WSg/Library/Caches/com.apple.xbs/TemporaryDirectory.QaP6H4/Sources/apache/httpd/modules/metadata/mod_remoteip.c"
+- "/AppleInternal/Library/BuildRoots/4~CQCNugBXuVk5QyWQghtZ7Xdpnx7s5XYALnb8teQ/Library/Caches/com.apple.xbs/TemporaryDirectory.AuKlu0/Sources/apache/httpd/modules/metadata/mod_remoteip.c"
+
+```

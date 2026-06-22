@@ -1,0 +1,91 @@
+## LibraryRepair
+
+> `/System/Library/PrivateFrameworks/LibraryRepair.framework/Versions/A/LibraryRepair`
+
+```diff
+
+ 21.0.0.0.0
+-  __TEXT.__text: 0x10bc sha256:331e39a95c23dc3cccc55819ac4a89a81b712e609c50d436d97e4b5c34441a2f
+-  __TEXT.__objc_methlist: 0x188 sha256:a9a7140974f3d29f596f6caa76b3f8bc5e8cca8d10db21f75cf1fe8eda6d72ce
++  __TEXT.__text: 0x10bc sha256:4db11500da9e71557730cd99456f266dab7ec88990ad5da669502610250d3693
++  __TEXT.__objc_methlist: 0x188 sha256:baadb7c61fb0781ed14e8d7b8279734f0e5091f30c12fe91a5073331de742ca0
+   __TEXT.__const: 0x40 sha256:f3cc9b7d75d634eb240f0b636ffe0ef0c2549bbbc2adb7b921d8cfc006d1a418
+   __TEXT.__cstring: 0x108 sha256:c109bbe0ecaf9d26d8ba30d478f9d8cf6710c6b426d7145ad42c55c09d83108d
+   __TEXT.__unwind_info: 0x90 sha256:d7717038b3e809970c73dc9e9c53d48179b8017ceedc8c0280ddd4f0ba799f98
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x20 sha256:d16b2763d3f18feec5137f6f57270e48884b58a4f86b4ff48d39b87e15a4cc35
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:1391f1590d0ebe0923a8088d247bcd8e4920ef5dcc7a132160942644008e6a7f
++  __DATA_CONST.__const: 0x20 sha256:1450a597d9ec3981c0bf35ff0aa72e79ef877ad735840ffac04941cd56c2b4d0
++  __DATA_CONST.__objc_classlist: 0x10 sha256:b9f0a9b34e66a5d34d9738d5f7dc7bf920e935eaef3e109cb3e7f0d06f39ad80
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x118 sha256:243885cd6704432688d9dfb94305a76cd6f40657cebdaf9a56e45e128421ff41
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:7bb23310cc45e9da019319b5560206315680a1c4c210466ff7df6e08c10561cf
++  __DATA_CONST.__objc_selrefs: 0x118 sha256:a707951b5331194c19be5ac75d932304102b1ea2e41b2ff781caf47d75253f6b
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:18a3cb7d61afa159ab2a1b4b0e46b72f2f60b242402fea520f0724fed865dbdf
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xf0 sha256:df8368dba72c870fbeb2914176e4838a51f67985f0a009747288c42e6389a224
+-  __AUTH_CONST.__cfstring: 0x80 sha256:f441e9d048328de5e97218dab3b16e3f77b11bc07e303cb4f1e3a29207d3d899
+-  __AUTH_CONST.__objc_const: 0x330 sha256:38200bbc2fa689b44f51ee1e82fb6b961cc8b7220fb39ed537c23cf51b7d3c19
++  __AUTH_CONST.__const: 0xf0 sha256:4abde6b72e12c6be812a89f49c6bdec6beb356a8a681279cf84a97bdccb589be
++  __AUTH_CONST.__cfstring: 0x80 sha256:4706f6fa7b14519c748ba0aa2c878dbcbb3cc08d3ccedf87715b824b760bf26f
++  __AUTH_CONST.__objc_const: 0x330 sha256:75d1afc59449e2f594239ba8a44497f2016a3f46d188dddaa857fd3ad10bbb26
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:953e85aa913daa0d9d3a8de598725f247846fcfc081dc0e06c9f27269784917f
++  __AUTH.__objc_data: 0xa0 sha256:937ed5bd6bc0f50ab461704e20043e2e6855691a6f66d8b8f2198472a933dd01
+   __DATA.__objc_ivar: 0x28 sha256:54e66bf2fd29ecb80d5f03d0055cb38004f43de183c646dd05b5d2f8b5797c07
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 02E294DF-3503-35F4-8A09-5D733D5CB71C
++  UUID: 7E482BE8-198F-322C-AE20-1FEF9D132532
+   Functions: 44
+   Symbols:   161
+   CStrings:  23
+Functions:
+~ -[_LRConcreteOperation init] : sha256 58ecf07bffad45e09e3387c95f016d58c6207a2db33f862706bc3e34a1605abe -> 7ab90b58ae126b6129ccbf7bca83c314a1686825342af8a008b947922f0f0164
+~ -[_LRConcreteOperation dealloc] : sha256 350de1890964cfcdf29258b8ef34b3c42bd3af04a02b0b9de9442118052b62f3 -> e1236f3bb0d634c943276659ea5ec7a829b0617b1787037e1a8b56763f02b966
+~ -[_LRConcreteOperation beginRepair] : sha256 d6435edba5b0245020e214a47514d5c524b2ccc35cb5076a62235f936db30a47 -> afa7812a0ae803dd7564f91e03df98fd17573bc54f352c1f7014b7e133195f7b
+~ ___35-[_LRConcreteOperation beginRepair]_block_invoke : sha256 6d5c9f178055fb0fdbd7a47fa070c769665a623d2f886bb74fe97da2709297b0 -> 1d287075e8f6e989a39155ed3da4dc3cc4c4dc4fd0641a915ea8f37e0adcc65d
+~ ___35-[_LRConcreteOperation beginRepair]_block_invoke_2 : sha256 ce2ea08a8d36cb366afb95a7549d83fedd93f2f39e6601d3bd618783d108e06f -> 739ca770abf9a2699437fa65d789c13f8b61cd8fef97a1d7d4b51b31351959bd
+~ ___copy_helper_block_e8_32o : sha256 f9092d9bfb4c29b049c7e82b955cbd23b534a65eee9140907e50b63f69f4dd4d -> 16e72a7f00c59d029a14ca45ece969a3b78e76019451506690e9ccfa8078bd96
+~ ___destroy_helper_block_e8_32o : sha256 6daf727f715d94029850830a986fa182e71dab11c599c7eb831dc2f832acc2b4 -> f71288637cb330fc4ce595a796ebdbd6419ff43ca4c987c09d4174c8397735df
+~ __35-[_LRConcreteOperation beginRepair]_block_invoke.18 : sha256 90e4dc5d1ee5e862564ab21075c87808601e8867164689bba39320d9566d98da -> 64d439a33bd5dafc6a9094656f7a21088ce385bca97d2d953bfbe9f0d76f2e57
+~ -[_LRConcreteOperation invalidate] : sha256 458108345025f2aa4d9361602b1c826d3ae6c2067dc4a8af8f3dc0283e21995a -> 2365d6e0815ffa2955c695c87fe5b9cb9312e8d1273fe7ccc3449b642b5bcc8e
+~ ___34-[_LRConcreteOperation invalidate]_block_invoke : sha256 fbddb3b8d3b06abb0b663080df332088821706b398ae56f40bfb9e31889128d6 -> 76c48e109a28dd3f0ba63ce780e7fe44ffd38c7ece67f58b72224ee5608cf6c9
+~ -[_LRConcreteOperation cancel] : sha256 aaa1b7b43f1a7dff6fe20bdcb48784a944a333fbed8de2b5290e6dbaba367c7d -> 4b24b1b8b6a9360f7ac70fd31758afbefe26883f23678479dd337dd33b8877a2
+~ ___30-[_LRConcreteOperation cancel]_block_invoke : sha256 a8cdaa87b94713e15cc837dc90311effab0bd90619bd11478ba4d7e5c18aa7e7 -> 3f58ed22c7c08219eb075eafa490e84d1182650a318d937953c1f23374596b70
+~ -[_LRConcreteOperation _handleEvent:generation:] : sha256 9182c3877b843bfde22f468a3f70808bf0f7d05276d2097ccfad3a6305143c6c -> e7959f9e6dfe2eee5cbee8ea67b887b5524df42849f6bf6b4725c2dddbf9151a
+~ ___48-[_LRConcreteOperation _handleEvent:generation:]_block_invoke : sha256 97da52c0a4d994917731d657549c2fdb07deba441399bfbddb63acdd3f7a82c7 -> 024943d5b457f573acd1c236b4974ee0e7a448ca3627a2a7ccc3294fb2da3d43
+~ ___48-[_LRConcreteOperation _handleEvent:generation:]_block_invoke_2 : sha256 fc3df99b8de07cc2acf5098fbb5ece7da1e2c0794cc8c8c9fa69fd6d2c97590f -> 5e206b913283bb8aeea4cec74661f716ddaab1ce8b2e212e190da4af3a2cd73c
+~ ___48-[_LRConcreteOperation _handleEvent:generation:]_block_invoke_3 : sha256 0bc1ac139c3374a46b4ee383960b84e362d3104e98e3f5281e14897618fa8c05 -> 1c38518c31eae117b4a97126c765b7fc0696d9b8665a046497311b12ff70462a
+~ ___48-[_LRConcreteOperation _handleEvent:generation:]_block_invoke_4 : sha256 7edc05b237733bbcc554acfd9822c06fc4f2272e4052e47432945153ea8fbeea -> b635273247df0f249394fd1fe1dfa859649b0fad5e33cb71a73c0afcaef4843d
+~ __48-[_LRConcreteOperation _handleEvent:generation:]_block_invoke.36 : sha256 5b5bae8a3d39ea3dd317be18e178daf54cde482c726efef9b31d0accc756d525 -> 943c2a35e525bac503aa51dc64fc373dc28fc4bb03525233f82d27abb0861906
+~ __48-[_LRConcreteOperation _handleEvent:generation:]_block_invoke_2.37 : sha256 1a7e5c0d5cd381f96f027c07f395eb9b1bb2dfa18468588294fca384a3fa6f8d -> c8ca2d7a14a1d43df78cae3c21f9145911c6d2836cd957a731fb40f0e363f3b5
+~ __48-[_LRConcreteOperation _handleEvent:generation:]_block_invoke_3.42 : sha256 6dd104f7d2ad6c28897fc1990ab8cc92d6ceca5119d2b71944cf3d062404b32f -> d147753121f277536c7ec257fc352bafa56fd37a2513d9722c5653ae72452803
+~ -[_LRConcreteOperation url] : sha256 4a3f9ce3640e5f987d67d919a5d68c2f32bc4406572dd8dfcc9ec60743e8cc21 -> 036875d020f94be185cc5206e0e785654bc387b22cc3765a55535205652aec2f
+~ -[_LRConcreteOperation setUrl:] : sha256 0ea440f50412e978f19410aca7f523ba4a495286dd62dc5b67523915e2585f35 -> bca60475e0755a9002e2f02a421d420e721a11d5d3477108e7e1d71dc60130d3
+~ -[_LRConcreteOperation flags] : sha256 068035f8345b70fa00e02d58029025755514dbce446208b75d2debf2ae6bebf9 -> 00c2d7f992b13eed0f87f32f5b22d4a394519e4f697816d162d3cb61120220a2
+~ -[_LRConcreteOperation setFlags:] : sha256 21548b6f775a4a76ac1ea3127d5fb85975a2d172a070ad85c42128fdc933056f -> 3c6c106314b6d81b334919c982d0baf35aabb10beeb4e1340a0b56dd35df493a
+~ -[_LRConcreteOperation auth] : sha256 048c7349dc1e910147c1099a9d2cd337445e9099dad777faa7a0c003b663589c -> d3c697be0288c181c806086b185388a52c5f86f194b620445fc38756f35eddc4
+~ -[_LRConcreteOperation setAuth:] : sha256 ae0a3100f65d61a3c29bc5557462f01e41d0fa1c60e4fbe3c6edf76cd64d5acd -> 9a3196f4efed4cd3e47b8e57b3d37d748cdad5ffcd72d9037ecb47f0615b813a
+~ -[_LRConcreteOperation delegate] : sha256 1db35f4eeff3b78e0a2f7f4ced89b91faaceae3718d8323b7d3edd7bb485267f -> b493f4f714b312b14014e396efe922fd04fb19e51b4656369719f6f4dfecea52
+~ -[_LRConcreteOperation setDelegate:] : sha256 64849609af40657c80275668e2b199102bc1db6b17f48868b011440247ab6b24 -> 8d7050360d4b393ad81ab4c43aeff8a04c244f6875a54c3331c7e6d6706ffd34
+~ -[_LRConcreteOperation connection] : sha256 7f7fedce0aadd31fea22f9a2f1b398939bf2db0a553d7e9fa86356fc2cda420a -> 1b77eb0d3d6f5f955185a8a5180ae9284177f785fa0b449f496ef6e518aa5094
+~ -[_LRConcreteOperation setConnection:] : sha256 e2a759945de035c0722cdabfb460d069fd9627724a5830273f634c7b9f36a0a2 -> fe5a2a20ff0886644d9adcaa50eae4978c4aa59b4f3ba03b081fa6249d4f6af8
+~ -[_LRConcreteOperation queue] : sha256 b656fbcefedbec4519f91d4d25f6aba3de26a5dbea5ab8ccf8f96ecd7f6ac7ec -> a87c3f77f2bf5adf904d421a2edfe74671b10c734401bc467cdbd589a8606912
+~ -[_LRConcreteOperation setQueue:] : sha256 6c2652a2e632a8e9ab7be4bc056fe938344a89fd6420748cdc4255799252640e -> 6a27e6173d70f4d2e8edb1424be2a22797543a6df7d00381c8262026a34aaf0a
+~ -[_LRConcreteOperation generation] : sha256 4d97ffe84b4f4ab17ce4c7a6646a83aa5f3825be3d63e2efd3e38fe4b10bb1cd -> 784bdb347b634e6498f7501253e882b5f0f969a4e7a9ea620ba47f7a275a45e1
+~ -[_LRConcreteOperation setGeneration:] : sha256 dbc6d8a21359e774e6a6efd255ae0567783af435541f24157007cca386048720 -> 6dd593cf9c41dfa0e8528c59ab39cf77e94bba75da3d673fad0578c3fa4e7cb5
+~ -[_LRConcreteOperation pathsNeedingRepair] : sha256 dd9dc6138e94e6aa49ee9cc08bc8c7c658318042aa0ffc889aa81a14498b61ed -> 543936d13c1b5070d5f3e23ee9c8096ca032b9805e3b3d26e4f8eb7995621a6e
+~ -[_LRConcreteOperation setPathsNeedingRepair:] : sha256 4940b1e3a0e761f4958863e2563b09b8bff0fc43aaad6c33f8b9c311ada897bc -> 95a5e64b4ee58b440072a945e36c75eacd925f2356639d488735e380d3edcd95
+~ -[_LRConcreteOperation pathsNeedingRepairCount] : sha256 e857309ffa0d966d0b7a7ca39b38541e412873e4d420e1ab728c3690ab937c23 -> 41ff5061aa88e28898bcb1a94c129dda70a37d8a9bce87ef5c884092ec77aea9
+~ -[_LRConcreteOperation setPathsNeedingRepairCount:] : sha256 0f87b5627ffbb0e480936d5d316cfb521cb635dcd42a67b2bd01bd9951da0b09 -> 61a76a6731ed5ca3a74d23f3c741b7fba238d7c16e29d1d42c85f0b4e95c0224
+~ +[LROperation alloc] : sha256 0953c093e35661c3655f2f2bad2a1c830a51f30fcd201ade31885abb1f6f0454 -> c930a1a7a1630bcf7781b5e71b442e6fb6cf16f5b5755c99024133111214883a
+
+```

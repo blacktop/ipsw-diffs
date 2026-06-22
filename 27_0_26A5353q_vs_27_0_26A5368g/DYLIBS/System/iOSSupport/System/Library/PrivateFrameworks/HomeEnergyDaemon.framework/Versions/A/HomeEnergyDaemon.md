@@ -1,0 +1,194 @@
+## HomeEnergyDaemon
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/HomeEnergyDaemon.framework/Versions/A/HomeEnergyDaemon`
+
+```diff
+
+-471.0.0.0.2
+-  __TEXT.__text: 0x3e9c14 sha256:262d1c71f0815ab2dfa2d8bba4c1c39c7426a2821855e642292059dbc343a7a4
+-  __TEXT.__objc_methlist: 0xce0 sha256:de27f799e57eac78c7f350660950928cf918b7d9d2c116e090a810067b6675c0
+-  __TEXT.__const: 0xb770 sha256:4e3ae7cbaaec8542bcf8823ca486254f67edefaaf180b3b0e0a9d8e083439ae7
+-  __TEXT.__cstring: 0x5f41 sha256:c08564bc7e4743e767e28fbed711f86e09ccbc9ae1446a498ee4103a36b961cf
+-  __TEXT.__swift5_typeref: 0x34c2 sha256:344ecd0a1b16ecc0fc351e6fb738a35d05a4fb84284ce3226444be7d482d58d4
+-  __TEXT.__oslogstring: 0x1131f sha256:c06b92421069a92e7d907a0c2282ec035546a43945c3ae9d4defc1e0252e42fa
+-  __TEXT.__swift5_capture: 0x3b58 sha256:a243bb4572fc9af0e53e5983a7a7541474fa03b804c5211ad906c15b2674b058
+-  __TEXT.__constg_swiftt: 0x4234 sha256:dc9d1068450f8f2007219454f05e744ff5401549b1ba6255ab8b07464edce655
+-  __TEXT.__swift5_reflstr: 0x38d4 sha256:9d8944c9fcb010b3f695b20c67ddb342bd49a05e307ca2656977350adfdb9945
+-  __TEXT.__swift5_fieldmd: 0x36fc sha256:f2286ea4bfbb3c991b1b4296e97e26909fd4669fa213fb189b3ec1b2c75a2127
+-  __TEXT.__swift5_builtin: 0xb4 sha256:42336febb516b54f057e60e752c36f0649272e0d492f601a1757b179cfb0d489
+-  __TEXT.__swift5_assocty: 0x318 sha256:8be668f543a1fe34d3e30980a693d8b7974524df789d9fdf9fe5053e04097002
+-  __TEXT.__swift5_proto: 0x428 sha256:6f4240c74adac9dfd88bc693680bf339994c31773eac7b0a0a42354f5d685db4
+-  __TEXT.__swift5_types: 0x378 sha256:3e708273f186c2740b64083272611a71f05bd23c16bb29c1cb55a522d3c317b6
+-  __TEXT.__swift_as_entry: 0xa8c sha256:f6ec634ef4fb3f257cf48c3eee2865a28a026cc4a50c3d43790ce2fa0a1db2c5
+-  __TEXT.__swift_as_ret: 0xda8 sha256:fd00456f333daa2b0aaebc0caf9612c8a95149ffee4053b40785094d5999a11c
+-  __TEXT.__swift_as_cont: 0x1c70 sha256:a08557f1d777564fc7258ad8427024e1278cce4dfcfbebaa76a3a1a5a28c7b65
+-  __TEXT.__swift5_protos: 0x48 sha256:31f4008e47c5b8db0a79afffad615b48ac5f4375b57e1acfbf31c0e52b2b00b4
+-  __TEXT.__swift5_mpenum: 0x18 sha256:d54cbde65f42a972df6f995d029dacd89f35afa4eee89695e0afe4ae3b227980
+-  __TEXT.__unwind_info: 0xba18 sha256:75ada7a6ed4658170cbdd5477b51b58d8a2db2636ad78656bb141fa1b2bb1706
+-  __TEXT.__eh_frame: 0x24408 sha256:350b8e64b4f8b29130117ba05df7fa4e274eeae812bfcc4a9707b26754b53140
++481.0.0.0.0
++  __TEXT.__text: 0x3eb0f8 sha256:5d18c26656a5d975ebf8bc5abb4382623267acdb9ccbe5e358a143ee23cd60ef
++  __TEXT.__objc_methlist: 0xcf8 sha256:1852ed2371cf03026aa6d14ae26e8a92071ee794c058755fb56ebc13197c7068
++  __TEXT.__const: 0xb830 sha256:c42a53527643460a8a1af047a3989e2e1e2ed57e867d52f30760989db54c28cc
++  __TEXT.__gcc_except_tab: 0x18 sha256:6cd26881822c162233d9a4b3a30672c7d3fcc10449a29d4377beee0090e6ca57
++  __TEXT.__cstring: 0x5fb1 sha256:b53bd2b405f7e5026ac6bacbacb6111cefcb7cc95da5671937532e918f95a064
++  __TEXT.__swift5_typeref: 0x34d0 sha256:0b1b5b627dc3fd3ddc46d901fe012d88f8d06918160c934e301c20989938daf1
++  __TEXT.__oslogstring: 0x1152f sha256:7a220f7688efc7be2722c850310d7c2ddfe466faefa7529a00107ffe43406331
++  __TEXT.__swift5_capture: 0x3b58 sha256:2f5a0b8dd7da5aadbbac592981c597b66a104a045dda5d2e54f1aa88a6a0183e
++  __TEXT.__constg_swiftt: 0x4250 sha256:e4f0951a35b86dedfd61b7a3b86eb7f68a462f1cbf5835e5c706c55b84e9fe7a
++  __TEXT.__swift5_reflstr: 0x3934 sha256:04ea000120244f581c1d701650923a8ac244403e4ee5899b18eeac95460f6288
++  __TEXT.__swift5_fieldmd: 0x3748 sha256:95bb34707738764c010490aa4ffe7727ba576f1f61e72aadad398d5f8a0589bb
++  __TEXT.__swift5_builtin: 0xb4 sha256:3e03e7cb980598665434c56b53e8455b511695f520bf112fdd7efd175dc5fb40
++  __TEXT.__swift5_assocty: 0x330 sha256:ec31c4186761fc76f514857ea378c09aa4b1ad3b169d339cd713b93296789b53
++  __TEXT.__swift5_proto: 0x434 sha256:ccf1ec8e6d0ee1006d4abea8d59997dde2aeb0751619cb123f8181f1920725a4
++  __TEXT.__swift5_types: 0x37c sha256:88e5fcf1ea430252acbd99afaebaaafea125deba855a7cdf68afdf6c008c2e4b
++  __TEXT.__swift_as_entry: 0xa8c sha256:9ad3dacd943f934f4f3eede63eb18366119a3ff9c5a8dd3846c77289cf1179c4
++  __TEXT.__swift_as_ret: 0xda8 sha256:13ece45f8e74bf963eb82347f0254c0bd35e8fa4ba1ae1d9a7736f67dff59013
++  __TEXT.__swift_as_cont: 0x1c70 sha256:97c607142f2eb526a4a7e2b86cba0628fa8e87aadad186a379e0250459ee6a92
++  __TEXT.__swift5_protos: 0x48 sha256:fa1a2224d91b7e92eaceea0d977a9387dbd1dee8496f779c070c2c675904efaa
++  __TEXT.__swift5_mpenum: 0x18 sha256:f173b68ed0b1424a271a3794b75bbdb8af4ec8bdd72a1d413b2d417dbd3d808d
++  __TEXT.__unwind_info: 0xb5c8 sha256:8382e73e0265c052e4822a07aefaa7d3da871632e77074c86510a504774b7b20
++  __TEXT.__eh_frame: 0x24400 sha256:04d22a1b498fc40eb2df1750fe9b08d2b700de3d0d87539c091eb70dc4c40e15
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x520 sha256:8024e542561ff5df172c39421c010969a684fc5ffc0e5969250be7f96c4c25b5
+-  __DATA_CONST.__objc_classlist: 0x290 sha256:7b422b6b27f4f963a89b2021f767cd08b59c024a381b2ed7745b95deeca57202
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:490bcf3f7898fe52ea4fa04a990163799ea67b49c71904e326571996e3c312e0
+-  __DATA_CONST.__objc_protolist: 0x98 sha256:c32371ec74c8af81fa81e12d09061c29bc7e1436c3988511afefd3337668839c
++  __DATA_CONST.__const: 0x520 sha256:de30c2dc1d66058ee9d0238405f0961a1a199a96f0f5e9c08fb82444268973dd
++  __DATA_CONST.__objc_classlist: 0x290 sha256:2a133fac093d445700c5e54e5a6177333bfed7bdf7d3345612433a0c16054692
++  __DATA_CONST.__objc_catlist: 0x10 sha256:fb2ed491c4df284f6504f8603a2a85402bc3556ab32ad871a4df9a92635a3a5f
++  __DATA_CONST.__objc_protolist: 0x98 sha256:b305a9ebfee375345f473c68be4f06c5afa42663fc421c2a89befc8504a8ceeb
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x15c8 sha256:73133278396e80013bcc41c8b6d5fd907d0ca80b130692f3d3e3c9103fb44794
+-  __DATA_CONST.__objc_protorefs: 0x50 sha256:04d5450676890fb2b4868f6f0e4f721cd690d083d1fbcd264df36fff967b8fed
++  __DATA_CONST.__objc_selrefs: 0x15e8 sha256:ba7a39375e954e2d09377633b374ad6007302c280a991a92b4b0519e3d2a4377
++  __DATA_CONST.__objc_protorefs: 0x50 sha256:cbaf93b153a92a48eba92f92e46f52d1e63c9fce0106dea8f901390c14cc174b
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xc1a0 sha256:6bd4253554d9cd0a63cedaaa9cf22ab7b4da37711225c6d3e965b52ba2ccc26a
+-  __AUTH_CONST.__objc_const: 0x6550 sha256:2e729f8dbfb7d97996778d56e6bd4e7c8e53632f1c93ffa2316d6ee76f1ede93
+-  __AUTH_CONST.__auth_got: 0x32c0 sha256:9ac969833773b851f9bd17cef76dbf06b4c325b56a17b4d26130bb625e17e95e
+-  __AUTH.__objc_data: 0x2a0 sha256:cede52e9b8c89bdf66cb7b92debb7afea70b824a8a273fb3fc89ac27a8c5b826
+-  __AUTH.__data: 0x25d8 sha256:c64ff6b727d84031a3524b1d7f62bdb5e260b31343e8f0b1759feabadfd919ea
+-  __DATA.__data: 0x1aa8 sha256:7dd65655e2cb060495c54d47e73e892c75b917b2532a315b735a9ca47f56d508
++  __AUTH_CONST.__const: 0xc2c8 sha256:3f7a0228bae53e85e1d9829d20ed59a3eb2b25c6e52de9b8ce2b78cf4495ac06
++  __AUTH_CONST.__objc_const: 0x6590 sha256:35a33d8d1bd741e32f5d0206fb471f22aa51d1d44a085229f3897b6282a3002d
++  __AUTH_CONST.__auth_got: 0x32d8 sha256:1747eb14f5dae6e0c84f72bea90f960e79cbb091a9b585b2d8da20c194d2eab7
++  __AUTH.__objc_data: 0x2a0 sha256:1a28cc15b5bd9ece82a97ae7747cc631138fc98367d2a29050e802396c8c5675
++  __AUTH.__data: 0x25d8 sha256:d605f55c94701b131ebee13f8c5553cd80158c89c1e02a04ee8c718911d87b20
++  __DATA.__data: 0x1ab8 sha256:5238c003eeb3b3578da15d5aca81082c82b916d5c51627d58cc0162fb3ea8ab2
+   __DATA.__common: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+-  __DATA.__bss: 0x7190 sha256:d8fa4e162734ac6f9cad855db680a9088904799147c5e57533490b9b86dcc81d
+-  __DATA_DIRTY.__objc_data: 0x5b8 sha256:0af714b2d0ec88b03b140f24f9bc979ce588db4e8724f99383b437320093dd37
+-  __DATA_DIRTY.__data: 0x4d68 sha256:0ebfe8f7fcd0189a42d406026c8545787126a3a8a388afb98e751164eb8e88ef
++  __DATA.__bss: 0x7310 sha256:fcfacc54f5e83d697c56ce4fef99a1d80e26ee101b5aaeb0c3b72dd5331cb124
++  __DATA_DIRTY.__objc_data: 0x5b8 sha256:6d5a3f206773449d49d9f4a3efcc9b1e3b19cb6ea745c3eaaa893b93d2c02398
++  __DATA_DIRTY.__data: 0x4d68 sha256:3c013fcb1d1ecf248a6eef5e59c2a368e8423fbb022a75155c273d9a045e2803
+   __DATA_DIRTY.__bss: 0xa80 sha256:bb270d5b01806f81489807bec2d3a07d07d3df4ecca188d9390cf4323ddbbee1
+   __DATA_DIRTY.__common: 0x248 sha256:62ec1707572ac5078d31a687a5d23de0c6d2a58d3462efb7039957548a7986cc
+   - /System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+
+   - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 68576D81-B5E8-30B2-B3FE-CE3FA4665477
+-  Functions: 10866
+-  Symbols:   23233
+-  CStrings:  1694
++  UUID: 3749DE9C-5FB9-3DC7-822B-007E9288A2AB
++  Functions: 10884
++  Symbols:   23278
++  CStrings:  1701
+ 
+Symbols:
++ -[CKShare(HomeEnergyDaemon) homeenergyd_safeRemoveParticipant:]
++ GCC_except_table0
++ _$s16HomeEnergyDaemon0B11SiteManagerC18updateSubscription6siteID07utilityI0012subscriptionI011accessToken07refreshM0010ckFunctionM011accountName0Q6Number7address015serviceLocationI017alternateSupplier0lM14ExpirationDate0k5StartZ00k8CreationZ00H9Tombstone5state25includeRatePlanInGuidance0B13KitFoundation08EKEnergyD0CSS_SSSgA9Y10Foundation0Z0VSgA1_A1_A1_AYs5Int32VSgtYaKFSSycfu1_
++ _$s16HomeEnergyDaemon12ShareManagerC13refusalReason11forResolvedAC014RemovalRefusalG0OSgSo18CKShareParticipantC_tF
++ _$s16HomeEnergyDaemon12ShareManagerC19argumentClaimsOwner_2ofSbSo18CKShareParticipantC_So0J0CtF
++ _$s16HomeEnergyDaemon12ShareManagerC19resolvedParticipant3for2inSo07CKShareG0CSgAH_So0J0CtF
++ _$s16HomeEnergyDaemon12ShareManagerC19resolvedParticipant3for2inSo07CKShareG0CSgAH_So0J0CtFTf4nnd_n
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonO8rawValueAESgSS_tcfC
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonO8rawValueAESgSS_tcfCTf4nd_n
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonO8rawValueAESgSS_tcfCTv_r
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonO8rawValueSSvg
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonO8rawValueSSvpMV
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOAESQAAWL
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOAESQAAWl
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOMF
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOMa
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOMf
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOMn
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonON
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSHAAMc
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSHAAMcMK
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSHAASH9hashValueSivgTW
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSHAASQWb
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSQAAMc
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSQAAMcMK
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSQAASQ2eeoiySbx_xtFZTW
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSYAAMA
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSYAAMc
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSYAAMcMK
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSYAASY8rawValue03RawJ0QzvgTW
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSYAASY8rawValuexSg03RawJ0Qz_tcfCTW
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOWV
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOwet
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOwst
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOwug
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOwui
++ _$s16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOwup
++ _$s16HomeEnergyDaemon12ShareManagerC23safelyRemoveParticipant_4fromSo11NSExceptionCSgSo07CKShareH0C_So0K0CtF
++ _$s16HomeEnergyDaemon18CleanWindowMetricsVwstTm
++ _OBJC_EHTYPE_$_NSException
++ __OBJC_$_CATEGORY_CKShare_$_HomeEnergyDaemon
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_CKShare_$_HomeEnergyDaemon
++ ___objc_personality_v0
++ __swift_closure_destructor.51
++ __swift_closure_destructor.59
++ _associated conformance 16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonOSHAASQ
++ _objc_begin_catch
++ _objc_end_catch
++ _objc_msgSend$homeenergyd_safeRemoveParticipant:
++ _objc_msgSend$isCurrentUser
++ _objc_msgSend$isEqual:
++ _objc_msgSend$reason
++ _objc_msgSend$userRecordID
++ _symbolic _____ 16HomeEnergyDaemon12ShareManagerC20RemovalRefusalReasonO
+- _$s16HomeEnergyDaemon0B11SiteManagerC18updateSubscription6siteID07utilityI0012subscriptionI011accessToken07refreshM0010ckFunctionM011accountName0Q6Number7address015serviceLocationI017alternateSupplier0lM14ExpirationDate0k5StartZ00k8CreationZ00H9Tombstone5state25includeRatePlanInGuidance0B13KitFoundation08EKEnergyD0CSS_SSSgA9Y10Foundation0Z0VSgA1_A1_A1_AYs5Int32VSgtYaKFSo8NSObjectCycfu1_
+- _$sSo20NSJSONReadingOptionsVSYSCSY8rawValue03RawD0QzvgTW
+- _$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
+- _$sSo20NSJSONReadingOptionsVs10SetAlgebraSCsACPxycfCTW
+- _$sSo20NSJSONReadingOptionsVs9OptionSetSCsACP8rawValuex03RawF0Qz_tcfCTW
+- _$sSo20NSJSONWritingOptionsVSYSCSY8rawValue03RawD0QzvgTW
+- _$sSo20NSJSONWritingOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW
+- _$sSo20NSJSONWritingOptionsVs10SetAlgebraSCsACPxycfCTW
+- _$sSo20NSJSONWritingOptionsVs9OptionSetSCsACP8rawValuex03RawF0Qz_tcfCTW
+- block_copy_helper.54
+- block_descriptor.56
+- block_destroy_helper.55
+CStrings:
++ "\t...%s count=%ld latest=%s"
++ "%s site %s set location to %s"
++ "[ShareManager] CKShare.removeParticipant raised despite pre-checks: reason=%{public}s name=%{public}s exceptionReason=%{public}s ownerRecordID=%{private}s participantRecordID=%{private}s"
++ "[ShareManager] Fetching share participants to remove with Apple IDs:%{private}s"
++ "[ShareManager] Refusing removeParticipant: reason=%{public}s participantRecordID=%{private}s"
++ "[ShareManager] Refusing removeParticipant: reason=%{public}s pointer=%{bool}d role=%ld ownerRecordID=%{private}s"
++ "[ShareManager] Refusing removeParticipant: reason=%{public}s resolvedRole=%ld resolvedIsCurrentUser=%{bool}d ownerRecordID=%{private}s participantRecordID=%{private}s"
++ "argumentClaimsOwner"
++ "ckShareRaised"
++ "notOnShare"
++ "resolvedIsCurrentUser"
++ "resolvedIsOwner"
+- "\t...%s returning %@"
+- "\t...%s%s"
+- "%s site %s set location to %@"
+- "[ShareManager] Attempted to remove share owner — skipping"
+- "[ShareManager] Fetching share participants to remove with Apple IDs:%{public}s"
+
+```

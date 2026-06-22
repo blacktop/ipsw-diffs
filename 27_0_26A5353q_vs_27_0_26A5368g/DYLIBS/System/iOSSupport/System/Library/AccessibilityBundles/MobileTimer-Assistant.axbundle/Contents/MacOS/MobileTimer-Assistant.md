@@ -1,0 +1,84 @@
+## MobileTimer-Assistant
+
+> `/System/iOSSupport/System/Library/AccessibilityBundles/MobileTimer-Assistant.axbundle/Contents/MacOS/MobileTimer-Assistant`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0xd00 sha256:ff4913ffea34121f4edd44041f172f676b2ccc87ae5a1026b88bba5c036bed50
+-  __TEXT.__objc_methlist: 0x16c sha256:a75953c5c4c6aedae12600933cf91c898cd74ce49428327759064bea8b543982
++3039.1.0.0.0
++  __TEXT.__text: 0xd00 sha256:0e1799f660e2d1125eb8d9d1ffa68b8ffa1bd77781d7fe210e3b02d7fbb54436
++  __TEXT.__objc_methlist: 0x16c sha256:636c871ca55fb8a5686f8f40a43c4a8331032ac84bb827e7f141c5fbbdbf6c1e
+   __TEXT.__cstring: 0x2fd sha256:a861c3eaf04265600e17fa7f182d6b10b689677d017cb6d0f42fdd3508ea8fd6
+   __TEXT.__unwind_info: 0xb8 sha256:4e9377bb762ccaed3d3a4d76c5020bbc2c71f7868db3ab9aa180722acf4dcc64
+   __TEXT.__objc_stubs: 0x0
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x40 sha256:be8c1d7fba6f6901d6f3fb680ea8fd7f01d1fcb6a23c7601a12a7b32176f5978
+-  __DATA_CONST.__objc_classlist: 0x48 sha256:3bc4969bd8d8d536aedd25c84c860efc07e51e73464f0dcf9788fec27cc3988b
++  __DATA_CONST.__const: 0x40 sha256:3a73ae38655aa3fde437a135710e2aa0e531e62422abbcaf4b9e229d08a9af49
++  __DATA_CONST.__objc_classlist: 0x48 sha256:c7cfc9c7cca768e3f7b1707c4572906fec0476363161b392d742476a1fcdbff3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x138 sha256:e201dc66c7765ec0c32e4b6690efae980359be2e34cfe13128dd6365cc2756b8
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:5c9530de7eff8d3f84ecda02b2dbbb5fc4fb92e1b1692bf7ddafc9e064ae0fbb
+-  __DATA_CONST.__got: 0x70 sha256:19996fd27aeae02d33c52db8d34b185cf150b81b5ae1a445d1b689d8423a0aaf
+-  __AUTH_CONST.__const: 0x60 sha256:0c9b8ff8f1ca8785d19d81faaf49b4bba2679ca62c98886ee7e9f36aed2a9f21
+-  __AUTH_CONST.__cfstring: 0x440 sha256:b01d3fdf6827752a0900c44ca054ad51d173d9421747e8d28d6770859ff7ec02
+-  __AUTH_CONST.__objc_const: 0x510 sha256:064bc3f7518583b94d9e17285338182315b30a836082a90eee06de988559de09
++  __DATA_CONST.__objc_selrefs: 0x138 sha256:bd46c35c1f04ba2e65bf78756292c8527829441c146d1494f0d25c104e61caf8
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:197483af1b7fdbbdb053a13e41643f71be9c1aae7a2645f35a0ca457ae597780
++  __DATA_CONST.__got: 0x70 sha256:e8008e3cc7e37589eba1a3e3312d2deae6158459d2b8b714237149dc2848b6ec
++  __AUTH_CONST.__const: 0x60 sha256:d5ca507c8f38b7fa2050c4fbffe68042fc8ab23af790a8fdfee91e196745f64b
++  __AUTH_CONST.__cfstring: 0x440 sha256:faef74bac104c3e8ffe6518b5aea903dc67f6f5a120af3baaf84f2c24c138412
++  __AUTH_CONST.__objc_const: 0x510 sha256:96f9733f4789b78ad70f6051c8866f9f22ae214576df2ddaaef0cf675d637106
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x2d0 sha256:0529ab5ece34d1839bb000107d7306d530cb85e88bf41f848fd8cee1094d831c
++  __DATA_DIRTY.__objc_data: 0x2d0 sha256:827ac05b4e56196b96acde0c2e518540539c1541ad99fb21b54dd8946574fff6
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C956C28B-CF48-383D-8E41-851D3AD52E18
++  UUID: 10108460-4DC4-3E81-AD96-C0F0248C6371
+   Functions: 27
+   Symbols:   160
+   CStrings:  73
+Symbols:
++ __block_literal_global.411
++ __block_literal_global.420
+- __block_literal_global.405
+- __block_literal_global.414
+Functions:
+~ +[AXTimerAssistantUIGlue accessibilityInitializeBundle] : sha256 3fad039c343f74b382185ce4b3fde0ad84fffbf3b7275627fa1d59081f2c9ffb -> 868fecca885f5bae389b5595935bfd6ad3c8f3a392ad1f5ca7ddf1cc00da0ac2
+~ ___55+[AXTimerAssistantUIGlue accessibilityInitializeBundle]_block_invoke : sha256 45bbb6e89eb4f0a7901e89224c174c3799e653ff03bec5c7afdcfc0662b9e44d -> 88c2fa5cb2492151979f2eaf0d3d22148dd744bcda1ee8aafba88835d02b682b
+~ ___55+[AXTimerAssistantUIGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 a98ac4528032f8f6e764e27bc549e650f69a5e4ed4b154e290abe4b9e76a99f7 -> 082b90ac71ba0f2fcfc7ffe8692e9877c371155a4a8df32bda9fc5f503efbe9b
+~ ___55+[AXTimerAssistantUIGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 f37c484d3accd7aa5fe8d9958e07a647022c625c0eee3edba10e7adae5d20d9a -> 9f458bb1dd0559f9c8993978f4d032236d8eda6aaceaa488c014db61038afa9e
+~ _accessibilityLocalizedString : sha256 c911aa93b08fa81d669cb93cff481d2e974e1e7ad7b87f1b526287cd8bc8bb9a -> 2114c89326d3ff080ec3e9ce3faafcb443e52f3112b56570ab57a503f9e57a58
+~ +[MobileTimerAssistantAlarmSnippetCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 0b4926f0a49aeb711b3f8f8fb6e474a37c90755df50d6e301a1e5bca0c1985d0 -> 8476ac05b1279ced17e4f4148168f7bcbd65589da35e73a95770b85d5df74880
+~ +[MobileTimerAssistantAlarmSnippetCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 2960c7268d6ad5506c802155d26c005c7bb95f05927f45e26d83777bab1b2df5 -> 3837cba8c837cdfac23473943bc5d1e54a1e4202857254ee09ca0dd1e0aa20fd
+~ -[MobileTimerAssistantAlarmSnippetCellAccessibility accessibilityLabel] : sha256 bd580ca13c61d5d330b6bf1c404c6e167d31737db89cef148bf4e068ec027bc9 -> 3c68af4381338545877aeb9c68628d16fdbd5621cddf47b32e76cfab865242a9
+~ -[MobileTimerAssistantAlarmSnippetCellAccessibility accessibilityTraits] : sha256 a702d1590f5db3408873addc488d6814c807f5c0dfc9fcd96343d1c19eeb3460 -> 3720a43318623ae381f0100c2abe5dcfd207e60f72346888faaa6de1f1359e10
+~ -[MobileTimerAssistantAlarmSnippetCellAccessibility accessibilityValue] : sha256 dbac421014a35d013ed6a078879d2e9f4fdb45132fb496305f00e0f0d3b99886 -> b5cd890c85c9cf0ca6e00429259bebce9af00196d0dfbe85390b4f6dc17cd49e
+~ -[MobileTimerAssistantAlarmSnippetCellAccessibility accessibilityActivationPoint] : sha256 ae62f6bfed866e5679ae2b9d1e75d31a9fa4cfe609ed261b5350de4f64e0fd84 -> 3f4095dd3136bc1d0d4466d13f8353a64dcf09ed4032ad35757a6485eeed9e79
+~ -[MobileTimerAssistantAlarmSnippetCellAccessibility init] : sha256 7bd1866433ea4ea0a97725bb01c6d0f9d8c58d504d6ab406da5ec74b17b01982 -> afa05bb56c256d34d2bb7466e7927c00f328cf4faf550b69e978b990f694db0b
+~ +[MobileTimerAssistantTimerSnippetCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 accab56c20c38ffde487b625345edb84efb9ded370434ad0f0f162464e9524f2 -> d525347b8d9d51089b7821555cf639d290f13916cc8994fe5ab941a461e70e82
+~ +[MobileTimerAssistantTimerSnippetCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 b7dbe2c34fe515a4238b276ded26ee891ee930eb9364db5ca07b057f801240cf -> 89f7c0fe2ee1f54c3b442df6035302d57ae1151c5e53586c6e729899207cc2b1
+~ -[MobileTimerAssistantTimerSnippetCellAccessibility accessibilityTraits] : sha256 ed9ee2465ca78fbe56f8a332cc7f910a1f149c92f0257ca15e86e27bfff05217 -> ec4b9328bc69b5a13840f6e35f0fb5adcc16dbf45040d57e3b96b44f053ad21f
+~ -[MobileTimerAssistantTimerSnippetCellAccessibility accessibilityLabel] : sha256 8827e526466c049a2f801aa144a492ad7668f0d307a37e7ffaeb0de3ac52345b -> 5df14e11faf5af7803810137d878e148ce465d2b78141b54c36c0e36643f3e8e
+~ +[MobileTimerAssistantWorldClockSnippetCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 ba6c7f9b78d2e4e18a409728d699ccbda74dcfca4ac73f11eceee1ec9067d2f5 -> c0bd5f7eafc67ebfd11398d429a980d0e779850e86c523a540b293d393aaec10
+~ +[MobileTimerAssistantWorldClockSnippetCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 e2810a4189024e134ede79bc0409a3c9d52e5e0737f7373505b991242cc97770 -> 40e33866a5cc92d47d1aadc2b33e9e241ce9e446c67a23c366c17384aff58544
+~ +[MobileTimerAssistantWorldClockSnippetCellAccessibility _accessibilityPerformValidations:] : sha256 2cfb39bf4d2b8c7fae923f7bfb731c6f0b7b163f19643c76813172066db1ebe7 -> f85e4948bdef8e0a01f052e0b14192e7e0855717c3d6e7f5c45b3d7701069ec1
+~ -[MobileTimerAssistantWorldClockSnippetCellAccessibility accessibilityLabel] : sha256 9ccc814000e5e8e1e0e8d8b879814a07203d876b54e4a6273f4ad1ecff9c34d0 -> df7156956152cf9d54afabcedc209f8a1d25cbad1d0e65772cd653777bf8eef4
+~ -[MobileTimerAssistantWorldClockSnippetCellAccessibility accessibilityValue] : sha256 2324343b14ddf213f54cd7459730ba64e430083673390a78b387b3f881d27c0c -> fe75d2d3edb7efe6ba81e17ab1cfbb408f45399b468a015318f151a1cbb31394
+~ +[TimerSnippetTimeViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 581b72fba04f44a8c7c0132cea0669c535907597d7f629b3f49a75cd2f9a0339 -> 172bf22c0ce281f4e8b8ba4ad2f9ff1ffbeab13ddcf3780051c6eed543372d15
+~ +[TimerSnippetTimeViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 9485cb09282589b0dda33434ee53b606c7411a2957ddcdf76870fe4344b5b209 -> 7a1ae263bc72abb8c87b08582fd51e5040f53655a3602cdf10f11eb94159b2ed
+~ -[TimerSnippetTimeViewAccessibility updateDisplayWithTime:] : sha256 c4b854f5c0d8a91d10074a038a6f8a5d69c5ba6d54577de2176667ba1c0dc691 -> aafa17250663a9b48d9dfbb25b9699269c70ec578384663ce5df5079a6bc0688
+
+```

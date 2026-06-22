@@ -1,0 +1,91 @@
+## mdt
+
+> `/System/Library/Filesystems/acfs.fs/Contents/bin/mdt`
+
+```diff
+
+ 813.0.0.0.0
+-  __TEXT.__text: 0x4bc4 sha256:f122ea678f37430b7a5fe2d87cf61176c744feb1c7bb778eb4437a03e056c9ed
+-  __TEXT.__auth_stubs: 0x400 sha256:5c316f9944239d0b737d6d645a7e164db0d8b512251a480285ffdbf6f279a70b
++  __TEXT.__text: 0x4bd0 sha256:fe4ac5664de047f22206e78021677f664184f0c38d56255c2b9d88237814681c
++  __TEXT.__auth_stubs: 0x400 sha256:c2ae0c89f1e7a505aa97efebf4563097089b5722064b7c8dfafd0b7fc5a9371c
+   __TEXT.__const: 0x28 sha256:e1b41cf8d40dd126c19d185208297143c2c4c300370b89bad9403879198caf7f
+   __TEXT.__cstring: 0xd64 sha256:29225303e3c14a2bdb567de59e40b70ee6cef358202003a2cd7df588e9ae464a
+-  __TEXT.__unwind_info: 0x1b8 sha256:cf6d54ac15fc0a6f0cb5586e17ba08e094eed7668b86e7121fc7647b18fc979a
++  __TEXT.__unwind_info: 0x1b8 sha256:46a6819320b18b375e738babb77d80ab1a60d9121562294280f4dcfacbfaef66
+   __DATA_CONST.__auth_got: 0x200 sha256:84ca3841cd6f8d898c958e35cff04dc992e09e1194e4c8e078010aba293437e9
+   __DATA_CONST.__got: 0x28 sha256:1523b0927b037ff28916dc21e5c1e3a5ccbd8d24123b104963e337575d46a28d
+   __DATA.__data: 0xbc sha256:419aec6b8f5c7c5463187060d91543f50c1c9ab61d732635a620633b581d3d1e
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: 705C71AA-5680-325D-96C2-93461C4977F6
++  UUID: D2A90219-06E3-3158-A475-76984CD57E16
+   Functions: 151
+   Symbols:   907
+   CStrings:  118
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/vidio/../extapi/libcvextapi.a(cvapi.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/vidio/CMakeFiles/mdt_test.dir/mdt.c.o
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/vidio/CMakeFiles/mdt_test.dir/pio.c.o
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/vidio/CMakeFiles/mdt_test.dir/vio.c.o
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Sources/XsanFS/snfs/extapi/
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Sources/XsanFS/snfs/vidio/
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/vidio/../extapi/libcvextapi.a(cvapi.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/vidio/CMakeFiles/mdt_test.dir/mdt.c.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/vidio/CMakeFiles/mdt_test.dir/pio.c.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/vidio/CMakeFiles/mdt_test.dir/vio.c.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Sources/XsanFS/snfs/extapi/
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Sources/XsanFS/snfs/vidio/
+Functions:
+~ _mdt_run_test : 272 -> 260
+~ _mdt_remount : sha256 b69e84239d3c51ed4c29e753117786f36b7ef84ddcdf1ae5f58e909de89bb597 -> 45a4378b783e0898ac64e6ee87f3ad55a5787f4e2a633ee23364d1a10e066586
+~ _mdt_wait_streams_done : sha256 10bf7e274ce96cd3897bae1dfb30c721f12fa6cae8d80d92c4927f7c666fe317 -> f2c67b66d9442f1cee1f9beb1f8af73cc8eb7d93b5191d71afe2210be665c5e7
+~ _main : 1268 -> 1260
+~ _mdt_einit : sha256 69ded007546f4d83e8c641b3a0fa1fd0c8832736830a1cd3ab70195829a955d5 -> 235d78e4b3bc55cdc2c510bceade1b5e0bfc6d5a84ff27371e9dc3d090670467
+~ _mdt_mpinit : 312 -> 316
+~ _mdt_do_create_test : sha256 097c5f37e432bcd4f640b41a490492c16361bf1596cc34f3303a223d5a4c1c14 -> 1af1a2fc7e9efe04f3945f1f3db415160e8f6a8cbab202d36fab9768fa38c164
+~ _mdt_do_stat_test : sha256 b48465436ffd8774973f61a47efcea111cdf8206533da175457bef331593c402 -> da0d2d49ed8bb2b46b76d49b993813059541144a026cae1d8d43ada1f398fba6
+~ _mdt_do_chmod_test : sha256 8e6a5c9e8807495cd923e8ba3bac152acf8014012caef09fd1ff35518b048a75 -> 52feb1921b608fc233c3896506f80e602ae6de83d0c1677d21582229600c8821
+~ _mdt_do_move_test : sha256 0d381e7af0a460d02069bb21572e743c9c49355d356effeaa417fab1fbfd9147 -> 6cbfcd3c69d3e624fc4807d4935f02b2565388a0cb638f8bbbf4a5f568df8dcf
+~ _mdt_do_remove_test : sha256 7df8da86f23f16485d5e78e71a51c07130bd5534674a3e62cea7180e11d15280 -> c4a8487cff24d95c82a670ed17fa0224a23738babc2653caeb6dd64a4e2ea1b0
+~ _mdt_do_cleanup : sha256 8be7e930e2cffe191fa85a26d32e3ed7156130f7b931133e415addc2e25d1e8c -> f635f3ab7b3683b6bfcd297e9ef19e584cca350b78288a57bb6c9a3a61c8931d
+~ _mdt_gen_parent : sha256 550f6336fbc4702568bda6cab86e9d9e23b5aaf9162b344c987d58fc7112fcf5 -> 9130233cd11744d9ad6149b4ea4da465d00d424006861a526956fa655f192297
+~ _mdt_gen_filename : sha256 fa8b790f902ed51d6c2c2481cde4f79763a79914ae9c136e57b25e3542484d0b -> 427e852a27242211a30d61cf17ab70b2c8fcff56d7b61c88852d98ab8d552f3b
+~ _mdt_gen_mv_filename : sha256 c643c261d6db5a2e90ab87e95d8be04a0fed08126fff631f07ace511dd7bf91e -> 389e090224590de53353607eaf028b0d5deb1911af64125bdb5b8cb91524e92b
+~ _mdt_getfs : sha256 b4cd4fa9ce44a37d8c313154be0b9986a9c890502a607f8050312a839af27416 -> 73468d3d734b6a282a3533020f8ab78a54088c2a3fc01358a74364ccee2a2db7
+~ _mdt_create_thread : sha256 28fa0c66b5fdccca85092bfcc51785db5a64b6d07918e9338184b5f07c6be9ff -> 9ad3ce1a9edd234ab56653a6d98b2ebe5b184bcdad1db0f13758aeb694929188
+~ _mdt_stat_thread : sha256 5aa5e960af3563098facddda8936153bc0f5d5f3c2a7ef455d30e7144283e113 -> 4febc20ea45c84e464e6b0c08e14309bb44b086c04a03985d8690edb2a6821af
+~ _mdt_chmod_thread : sha256 85aed0ab6619dc13fe9a347fbafbbce174ee3ea9c27d619bcc080e6ee461dba7 -> 69526b4705d164fb026effbf34b64a919617bb556e9903cda06fa6c331b4b43c
+~ _mdt_move_thread : sha256 c5b6b9b9aa747695deebd64c50b0a3d6a043fa42bbc4b0b6bb0bc28d8c2fb221 -> 5eb0b99e37eeaf6ca67658050648836385d94781578c8a02dc8064b395749032
+~ _mdt_remove_thread : sha256 10ced9427b1a5c15761bb5a78bab95e93e6a8904dfb0d929ceba5bab12312dfe -> 603f299af1f2ffd8aeea38e3cca570fabb75ea09ef85b8daee8dcfc45ca9b3c2
+~ _mdt_print_rate : sha256 934a54fda287fa72cc4acd63f96a799d1f1f3132567e79828b57df3b89cb092e -> 384bdc93d929e88c5b9e07373e97e0bfb30e76c1b7b411c4d56398b183b04a6f
+~ _mdt_print : 336 -> 332
+~ _mdt_mprint : sha256 d54cfc655c439726c166a92d88112bda8b46f6180acd727430a33d01b9ecbc8e -> 9e78a353bd91cb2c66d12b318340ab03602223598fb96f407f215ba2bcf7c534
+~ _mdt_umount : sha256 42ee2a8b327c5cd5fd3909c27d5728714d461094b4bcd73619dcf514eef42659 -> 1701230bb6586665c81157155aa39fcef7dc41a9bec1d2687d3e0e689cfbe6c6
+~ _mdt_mount : sha256 279803446b5bfcba5081eaae5a41dc9dd7dd9bdfb381d7c2de4fa9628950345d -> d6d7b4c1b3cf8aef828c8af06afb176557e207b69d98cdc314b2e4001f3e8c30
+~ _mdt_eheader : sha256 5699e2607a3860940f87ebf59a0002dfe224fa64bea089be4c9bf28084fee7ea -> 3be3bf047fbb0ecd6566b91e8e9a214df29b9cc1869eb32c5c42e4a6e14346f3
+~ _OUTLINED_FUNCTION_0 : sha256 370dbd09185ef12aa75aeae52e25b0e13f3a857cf78b25bba29d76f2d37acbd4 -> dd6119a5b83f63eb3aa98c671a9756eea236697e9b08d196a11b4da86fecc83a
+~ _vio_ktxt : 36 -> 52
+~ _vio_print : 352 -> 368
+~ _vio_isdir : sha256 586df1d50a55dbf3a8728234d78235f5def73ac3407a2ce509027ee9db636947 -> 5dcb2d50c2b5f6290d177dbd9b4fd8e3fa2a4c7209c050a3def984272bda43ce
+~ _pio_popen : sha256 f8c2afb752d59a2b5de22b48d533955e9183a72258bbe32dc5811fdb691fa121 -> cea96871e0e30cd7bae849516df5d855519894ea2d4b1fa7908596e270dbd55c
+~ _pio_pthread_create : sha256 d58114d72270f754e70b5139acd745b7366170d89357c16f0613da9aadcae50e -> 7d54272c863fad8eb21565fccf9ca122a2437f8f40d6ca63e14a588a69cb111e
+~ _pthread_create_rt : sha256 b7742e83fa610b9a84f1b833777802cad2820a9b09a69b7c354b3557648a18c3 -> 16a94ca7d7396c1206d201767a2d1f1e4c220ebbc6ec71ad8bb8ab2ac9641efb
+~ mdt_einit.cold.1 : sha256 a10035db791cd8a84f256e229e5e11d6dbf90e11204a7ea50adfbeccee0295c4 -> c18bd455efd2348186f3e96ac003b1dda26a00a6805a4c06a8db09969a13e424
+~ mdt_mpinit.cold.1 : sha256 d188bcd3ba0009a4b481c47598a1420a2d0f92cb9afb524a38f6b7f163e4e8e2 -> 4d58452688ec47d0cc92285cd0ce2097aa9dc04b3f26e2e577d98394c66b3c62
+~ mdt_mpinit.cold.2 : sha256 e56b4332e211c6e16657a221e340e7e6bb6946135896dca4dc21623288e23e76 -> 95967ab51515f5ed872dc8537c0f84e9a8a0d5a62ede7be10dc95fb6424e96f9
+~ mdt_do_create_test.cold.1 : sha256 1f022e95d75573400d99a344920e8cf0702eff35548f0fafb5be5de2367433bd -> e1e2f6ad8e1f2cabfcd3e711cdab0dc59179dea2231d294de702afff216ed1e9
+~ mdt_create_thread.cold.1 : sha256 879d1270ae06ee867c252c0d0ca146b8da281658585f69ca95a0794f3fa1470b -> 38c47cbb6fa5dd72d0f1d6c11655b4fa84747cf231a1a53a6dcd6875e1716ada
+~ mdt_create_thread.cold.2 : sha256 a61298e9276fa77ad7ebe2df208ea7b0193eea8557e8c228923aeee410bb7026 -> abc94bed1cb65660d2b04ed4df6d81159b2711c1b4a02a5dba01b9f490778b26
+~ mdt_create_thread.cold.3 : sha256 903e45fc9bd43ea1f9858ed35e34f2d250810db379f5b3cf2ce7e7bbcdd79e0a -> 0b3ee2c81ec99deb75236b22a57198319ddd64c71fc0da9174bb1dfe74fed94b
+~ mdt_stat_thread.cold.1 : sha256 ea9006a0dc11296a2d2bb03643510171f9119c3a1b08783056eb0d88ccb10afb -> 0020bf6c2fb1a60cbec4bc9aa9c1e002d8e4aea9e9ad1e842d64ba644a5380f3
+~ mdt_stat_thread.cold.2 : sha256 eeacd453d56bb5aba49a8b0001429531aaae197e183acee8753ca61863b3235c -> 70d533d3b918394929d7b303c9a8562276e8988ea754946147a33a8296f21c02
+~ mdt_chmod_thread.cold.1 : sha256 8e336cfaad9b204bc12b290cbdc6fb1e542f0b6030268b5d3439299c65f9f2ff -> 8c880f40dfba5c01e4ead591461a423c616e3b1654936eb4c4031d9a9699b780
+~ mdt_move_thread.cold.1 : sha256 8c94313ed6b1e836d4706b42540f231e3ea299db210afb2cdc8e03246c480f65 -> 8410e953eca421937a1c0b21fd4841598ff0529a29b68596a16c921be1730b8f
+~ mdt_remove_thread.cold.1 : sha256 e9cdb0c5b06600d61d27066d4b4ab667a12faf2c1ca8d3c52417a7f91921ee62 -> c7b8ef76ab7d84a0f15b9f73a7331845921933d8a0193174abcd9db25e6f4b86
+~ mdt_umount.cold.1 : sha256 ea30ef333de084760c8d993087be591adaee695b876c269606e3c8594ba14029 -> 4a5606cf265d2d2b7af5ead0b51d32b282d2fd78fccc99fa7f53e52f5c26cfad
+~ mdt_mount.cold.1 : sha256 58dec2357119a882cf11f5641a18a864fdbccb418ac714b05624498cb07646bd -> 16ddbe30239c69956694b772510cb6e0d77470dd1902c0abf69bba7732643a79
+
+```

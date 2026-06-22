@@ -1,0 +1,81 @@
+## AppTrackingTransparency
+
+> `/System/Library/Frameworks/AppTrackingTransparency.framework/Versions/A/AppTrackingTransparency`
+
+```diff
+
+ 106.2.2.0.0
+-  __TEXT.__text: 0x12a8 sha256:ea254e7c40bdb01adde30ac59d99c9977f323f80d8ebd2c7f9903fcc6871b459
+-  __TEXT.__objc_methlist: 0xc8 sha256:229e5dcdf967e77071dd91655838c8a576f2e817b0e2c62d023e2d762fa860f6
++  __TEXT.__text: 0x12a8 sha256:4ecb864002340b4d493a9d87af5a6c7a4a0012baacd248a3845407d5a61a87a0
++  __TEXT.__objc_methlist: 0xc8 sha256:b6090a70388faa16ff31aa85519814dec675fa85748aa0547ee57f2724b7b8d7
+   __TEXT.__const: 0x68 sha256:d3b52573162db9417ef48489787f4e7b8ee032d6e80e99932fb8aba2fe264532
+   __TEXT.__gcc_except_tab: 0x54 sha256:67ebad5f1a5a6573ff2d3b8574c49938352a9d769499355494819c451b295f85
+   __TEXT.__cstring: 0x179 sha256:7799f5f20ef496290c629c37f2b64a172bd6d2376cdf46e689906e8b1de92985
+   __TEXT.__oslogstring: 0x456 sha256:d1c96e5197f23830aa5107587fd3fb82ccbed7d2f0b82e4b79228b154629a41b
+-  __TEXT.__unwind_info: 0xd8 sha256:7665ee1124f0d5966af53c33e895049c6bdb9c398c4bdc9cb11076f2872ce65e
++  __TEXT.__unwind_info: 0xd8 sha256:8d437f13fc8487d3b56d9bc1ba223b8f070dbe0064aec65293736619d94f4c44
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x20 sha256:9cf92024d392569b11f240c444af610faf929c51104bddc46e6d9e0417577545
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:389deb802750e286ab83a0c0abe8491dcf4c2458a6a7ed69fbfc0cbd30d245bf
++  __DATA_CONST.__const: 0x20 sha256:9df1b1015a083d65a37a7530fd5ee9d095a4ea2a984a03a1241a9958e67caa9c
++  __DATA_CONST.__objc_classlist: 0x10 sha256:7578e6c814cdaf2c4b55a06ccad445cf334f727846aa86e0e90cea6dfa714b41
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xb8 sha256:1baff33aae5f78e07721f7d0441104839d2daf5c4e9499856fd84ba5d5d67446
++  __DATA_CONST.__objc_selrefs: 0xb8 sha256:a22b3a97ed524e06165fa8529f444c93458a97b172b7c7aa75905fee05a260cb
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xf0 sha256:f7fd8f3ee2c2e88f4ee6063ac06b5b66b783247d1f90a6393339b7c02fee2c64
+-  __AUTH_CONST.__cfstring: 0x180 sha256:0a6c90fbeaf1afb6329185648ea77d5cb5e71307218b1d7ef61d6327c489bf7a
+-  __AUTH_CONST.__objc_const: 0x138 sha256:7300ea7c746c267ef85cd6b33ff3e595eba0ad8e3293c6f1afd7b4c7b1f17e8f
++  __AUTH_CONST.__const: 0xf0 sha256:6d0d332925c0afbff9c6d18eb46d3f639f1bb0df54f12be854bcd69e821d5a05
++  __AUTH_CONST.__cfstring: 0x180 sha256:99a7ccd414c537fde8be579486114ffcf616c0509e702dc71f9b51ec2c5a6d48
++  __AUTH_CONST.__objc_const: 0x138 sha256:c0c3ba8f5ec8eca30d3ec397f021aec0234452d27aebae18dd506b598b936410
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:d815c9b229d9cc9e46d0b8b6f75860e73117c46c1cc10c4559ae62bb74df90b7
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:72ebb9ec8170764033e4c6ece6f37a08551d6a073b82500e06f33cdeb0b5c85b
+   __DATA_DIRTY.__bss: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A3E0327B-9C3A-3B91-BA02-F060EB25FE6C
++  UUID: 381CA61F-1DDB-3C07-914D-BE217560FEF1
+   Functions: 28
+   Symbols:   125
+   CStrings:  41
+Functions:
+~ +[ATTrackingManager _applicationHasDisqualifyingEntitlement] : sha256 5b347688ee55efad0e161e363ea6423b8355a818f8d69fbf61fe7f8c1772eb55 -> 68a693f4be27eac00c725047a15a28f115033a97edcb1fc734007a156daff427
+~ ___60+[ATTrackingManager _applicationHasDisqualifyingEntitlement]_block_invoke : sha256 c30ea258a93245bcf1ad0ad02d7e774f442fa3c6e85ebe4e5b3e7376bb973a95 -> ae8c54e2a6c325dc7851ac32f58350affa07beb17cb96fddace458130773191e
+~ +[ATTrackingManager _userAllowedToChangeSettings] : sha256 1c85f9150375d540a64c745e5278c4939fd993a235645593362cb1e665a5d4c1 -> 296a4cf64b6e70f0eb046bc4eba061f6426ba9b40f4b349962584638ca9a1a62
+~ +[ATTrackingManager _isCrossAppTrackingAllowed] : sha256 604e75eaaa61407877f938ad856e5d18b8e6557a8d8409d76c24a41d973b1409 -> 6469aad7bba8f1cd00ad7b25991d067ee4110605c0128267264614c63b3d9e6a
+~ +[ATTrackingManager _sendRequestTrackingAnalytic:prompted:deniedReason:] : sha256 583389fc1dbed424acc9d14cd33abe03d43b76ed6616508f41b8e4e818aa253c -> 0838e67ce5682121c78cb35e9d33ccbb37ec855d2051be241f8d6ec030c87c72
+~ +[ATTrackingManager _sendTrackingStatusAnalytic:prompted:deniedReason:] : sha256 20cb8689457bd2fb5c3fe9a9ec4190d10337e475b034540dbdab635bdd068634 -> 4269db54f814852199a3b205e6011926400ff39a79cf2b5a760979d70ba7eab9
+~ +[ATTrackingManager _TCCServer] : sha256 7845ff8faa2f52ffe8d2f00751e598a6b18b0ff50cd678c5f16770b5049ed966 -> ec86c577f157bf5b7cafde3551748f4e7a2ea25ff6f25c2fd15bdca9144fb4ce
+~ ___31+[ATTrackingManager _TCCServer]_block_invoke : sha256 77e8ba176225da4de9b4285be91ee1eee9e01c300a58f4c5e35cbd7ac6a8ec5f -> 9a7abdc067f87e5d1051373c4d28f3b4e866bfb1e9c886baad1da6d04faa2be4
+~ +[ATTrackingManager _performTCCPreflightRequest] : sha256 55a9de18b972ecbae0c218b1f932461e4cfb2d013e4f57285193fe6f6a374ecc -> 67b25a1cb8ef525eefb293c7a7c2e32b6e119128a52b4e3307e13504b5ae0aaa
+~ ___48+[ATTrackingManager _performTCCPreflightRequest]_block_invoke : sha256 d539775fc823148150c6e5ff50bbb1ffac4fb06d9b1d73f48bcda4572775505d -> ca5b8968809f4b210b182f3c6209b57ae34d9d47a5cbba9e9150f2674ea27041
+~ ___copy_helper_block_e8_32r : sha256 3648df809cc9ec4efd9951985576d374fbff0df78cfd4d584f6899232c46112f -> 522a8088ab15a4530882575f6767a45e5b79a954db8e0a502f7d812206e8b7cd
+~ ___destroy_helper_block_e8_32r : sha256 0ae6cb11136ddbc3b82f84ae15b10eea20e280d1e6ffd368463b12daefd0e4ba -> 335c5cace7d3e004d95fd3e09b7577e0ccc233be4a91f284e2f51fd6eae678a4
+~ +[ATTrackingManager _performTCCAccessRequest:] : sha256 fed40ba2a4fadefb0e70b4d395d1912615db651ff771e7e554b2a45aebc332af -> 5626fd451c275c7ca9f3963b9a037830b1be04ceb6852fbcadc15fd99eeb5155
+~ ___46+[ATTrackingManager _performTCCAccessRequest:]_block_invoke : sha256 ed437be63641e469d3669361439967e11162fb04918597cc8e03777009fdcf05 -> 34258a5f2c66b1823db47af2c2d1ebe96c641188e87f5e0085dc0971e060caeb
+~ ___copy_helper_block_e8_32b : sha256 1f33501818c561a6cc12db7174a6a1330384593cba316645e5047a3ad01561a0 -> fd12237c6493d19e8628ec1da6da933f238a86428b5d2e5d06a545a097647309
+~ ___destroy_helper_block_e8_32s : sha256 1367165feecdbe1b070272b15e191962e1ee2d8dd706b0f4b1c11079e7348164 -> 0c4a457da52119f7d12793606433c6cfc0157475ec9d3c0728616370d4ab157d
+~ +[ATTrackingManager _trackingAuthorizationStatus] : sha256 d5cb10422311c030c0f746d21c1737481244302597041e3517badfdb08d00ac3 -> 7f606996af5af305d5e78026353de4787f27eb125385839fdddc1b84914aad5e
+~ +[ATTrackingManager trackingAuthorizationStatus] : sha256 767f47b1ec2f4e3cb79927b7ee00458653f9974f2febc94f41edf424577c120c -> 3bb123c3f5f6b7ab46d944afbefd4fd8b3559e4d4a95c5f43943346afc8725ca
+~ ___48+[ATTrackingManager trackingAuthorizationStatus]_block_invoke : sha256 0664d3ebb7c8ca18efc1427456beeace3db56a36f88e1d43b101e8968ea01789 -> b753e43e91545cf7d2676da5d1c7d8098a4875d9af24711ee68c37b111bac492
+~ +[ATTrackingManager applicationStateActive] : sha256 ea57bf5dd1e4c0eaa9693cb4947ea49d3cd49b8b6b8c0df1fdd76c291c764498 -> 830624c8774d5573ecbd251c9afbca2c0ce072b69829eae1b467d8645d410d72
+~ ___43+[ATTrackingManager applicationStateActive]_block_invoke : sha256 972e4f16008a788fb52e04cd066b3f4a06cee73d3dac283f4012f3fe399ee0df -> 844e2f04d2b471b60cbb349d2ec9c760f3684f099972f957cfad09af5ff64fa4
+~ +[ATTrackingManager isApplicationExtension] : sha256 cecb40285e73dea22606a9303f36ff44a74f022b8ca055f327bf0e7174345293 -> 28ffd21e07e3d36a2326578f054a9724b55658a8209781fd903ed12ccf90a738
+~ +[ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:] : sha256 e68de2e77a434b193d7e67ed4d8e58f6d6cdb2ba62a3c74199de611cb6fc7227 -> ee52691cefaacfe267487491ac8080eba3c5a783a042aadc32575717b5d6dd6e
+~ +[ATTrackingManager _applicationHasDisqualifyingEntitlement].cold.1 : sha256 6ab1abb369c8c4eafaf0e9198ed64b525a5656652d216b013704b92176352b77 -> c797f8c76e151cb88c1d63c354561431f4620a0c87783fe702b3f1d342bd72b7
+~ +[ATTrackingManager _TCCServer].cold.1 : sha256 8baffac3b5e5916fd222801a361fcdd1b73adfac73149f628fede0e46347c418 -> 88612c8a03a5138a22248d97d7ad1fd38e85c8a346f251840bae963f64f74d33
+~ +[ATTrackingManager applicationStateActive].cold.1 : sha256 d385869a6b303dbe65018df0d16e526912131fd33170df5c6a7c0c4c4d9e45c0 -> c1bc5cc3e6123ffba4b795185d78a6f866972eb6f7f9fd265118527a15833432
+
+```

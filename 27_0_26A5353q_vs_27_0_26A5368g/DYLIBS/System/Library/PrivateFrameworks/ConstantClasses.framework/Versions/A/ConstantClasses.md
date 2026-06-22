@@ -1,0 +1,102 @@
+## ConstantClasses
+
+> `/System/Library/PrivateFrameworks/ConstantClasses.framework/Versions/A/ConstantClasses`
+
+```diff
+
+ 25.0.0.0.0
+-  __TEXT.__text: 0x162c sha256:35c77dbfd460246ee156fd3dd8683f432bf2d45718b0626e72e5065600f1594a
+-  __TEXT.__objc_methlist: 0x59c sha256:3a4581450484a9f3b752ab2be891a2b855f3dc3a09ed5b2aef763288cb322789
++  __TEXT.__text: 0x1680 sha256:a56104335e7e139bac35b67cb442babb8eae9a0d5d5b6af29b769a067526194f
++  __TEXT.__objc_methlist: 0x59c sha256:c0a6d65ead5b3555dec5761e19ca0b4d0b81918c3bd9f6bae1be9aa2d77da7c8
+   __TEXT.__cstring: 0xb7 sha256:c27743eeb78e54355eff924c9d9e7b366800824de6e76e0efa478691916c52ae
+   __TEXT.__const: 0x18 sha256:020c341260ec769c6a6240841443b8cb7db327b06c6a4caeacd60a6f61177ecd
+-  __TEXT.__unwind_info: 0xf0 sha256:b40286b9ce23fc5c0868815a1eacedae5ab3b46447077cdb3db8b3107db8dea4
++  __TEXT.__unwind_info: 0xf0 sha256:caf9dc0f96326753e26cfefe6db2e869f6d8f48666ca935d809e77421a949282
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__objc_classlist: 0x50 sha256:0b2a61d2a791af4882c52db3d0d0bdd64d2f3a16537aed54e2a33c590ea82f16
+-  __DATA_CONST.__objc_nlclslist: 0x38 sha256:bc88619d01fc8214fee804ae67f1851583fef4a7a9432ea31e540b1a0d678b95
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:5ec95593a30b7eba69cb5c5de5cf7c6d9337d4c03d4a2ad501a47e1b3275ebe1
++  __DATA_CONST.__objc_classlist: 0x50 sha256:c85a34869972615f7ade0b0f563070f87e0651264bbb6f38e08c480d3ae5ea1a
++  __DATA_CONST.__objc_nlclslist: 0x38 sha256:97573571017f545296d9dfc5c6802e7bd28ac591b092d6a657e8d6e7f6a6f5f2
++  __DATA_CONST.__objc_protolist: 0x8 sha256:d9ea35c132be0d2cabb99be8da1056ebbca5f3ae5ea9982d6d1f394fca09a189
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1e8 sha256:7806213a8ee52966dd67911b17bd9a3ba4352a7cd937be7de53e77a63698331d
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:49aebac871d2306c73f7485de9fdc81d3b3d9fe53693663655225d6825a1d479
+-  __DATA_CONST.__got: 0x58 sha256:fdc2a01757740a6df41cd8e3efde676f0bf5824ccc296a8c71044ba21fe9fdb4
+-  __AUTH_CONST.__const: 0x30 sha256:2f68d49101ebced27c8dd7148682edc1700031adc43d81b1d4dd60740a7d4e50
+-  __AUTH_CONST.__cfstring: 0xe0 sha256:1aee59b7510b895fdf1a8bccfb43408247d2123d2c1057897f637a819d390149
+-  __AUTH_CONST.__objc_const: 0x690 sha256:1bbbe016d8d137301721604f53e2347a292008d57525446ebf51d94c1b696dc2
++  __DATA_CONST.__objc_selrefs: 0x1e8 sha256:f497700d0eaac65883b9b0de82c60fa8a3d8e75ce9138464086c2a669dd7d3f8
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:7c63a311b916a3031c5e67121e5186a0691dc141b71dc7a99bec80c1be17ed40
++  __DATA_CONST.__got: 0x58 sha256:9e5ff3eb944934bdf14111d2eb88c9286b763bfcf49665d52fe78ccffdc9c962
++  __AUTH_CONST.__const: 0x30 sha256:217fdbe571652be387195130a7f2a719318f3a84e412c1803f5482e0af976120
++  __AUTH_CONST.__cfstring: 0xe0 sha256:1c11d74098248f813c0b622bdd49b89ec9864236ccc739bf86445b1f273e8eba
++  __AUTH_CONST.__objc_const: 0x690 sha256:33c1983358e3e078f64311eab0d8463c16e5aa120da2746a532c67749e802428
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:239fdd873553eae09d3e4bdb783bb2eb03a7e5f6185ab1632f74f8e03aa991c5
++  __AUTH.__objc_data: 0xa0 sha256:0782375cfec98bc49a8f65473917e7cc6b8bd50958a4eb1022ba9e5e9f5c652e
+   __DATA.__objc_ivar: 0x18 sha256:c2e3e8c47f1dd544e933e24c077cbae7150a93352e06e9c7f38e2eeea3192d03
+-  __DATA.__data: 0x60 sha256:66b55884eb2456b04c9bc73ee2fc0935fa6e6d49d6ac94ecf6d67e0c61a01aec
+-  __DATA_DIRTY.__objc_data: 0x280 sha256:9008cc16854d298e393d21169bbfeae316dbda329f122b0d8a235febad035cb3
++  __DATA.__data: 0x60 sha256:85b3226345661233a4e28dd1fd971fbb3e663f768cde4ce81be4fb8279b85007
++  __DATA_DIRTY.__objc_data: 0x280 sha256:19621f544aae4580ffc8e2e21bda11bc7f38e2680f1099d72ac23c091374df3a
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2ADF8142-FE49-30A2-9F0F-2710C3C4F60D
++  UUID: E56C387F-D342-3516-9448-EA3279A61500
+   Functions: 109
+   Symbols:   245
+   CStrings:  18
+Functions:
+~ _CFStringHashNSString : 352 -> 348
+~ __NSConstantDictionaryKeyHash : sha256 a69b04093df68c21d104e4355a8755e40722464c90ad41a73c63e998a2e44fd4 -> 6cb499dec767b807c5ad161e4793283f8ca58e742f86938d73a6d1ad23f7e68e
+~ -[_NSConstantArrayEnumerator initWithArray:capacity:] : sha256 0d23be869833cd325d3f5a5f9923b8d3d8a8e0140ad367dc6e210e567591ed4c -> aea634416b0d7caec9b673f3696a741a4b04c442fb9a8d301d97885f06bd6df4
+~ -[_NSConstantArrayEnumerator allObjects] : sha256 d573db22155000336d6c4f2cccc365e1789c5e64b4d5ba9c7bfedd687a4f1ebb -> ea10d8c5871066625d0f774cd8a748ea4115ccd4f181a1280abe7b80fd532439
+~ -[_NSConstantArrayEnumerator nextObject] : sha256 1108d0cc95054c7b2443ac1e53b549dbaae6c2bddde311f90b7cb03e6306673f -> 35ead1c539f1bbc6c95dcd38006364a87a34a369de05fcaa82d2d137561ba02a
+~ +[_NSConstantArray alloc] : sha256 a43559244c5659b3afdf7513e0f9c24049237a16c2e2263eb57c7ae76411851e -> 8d9e694ca556243a30441677afeb22d07abab414a82cf555f6f8ecf2bb45ac5a
+~ -[_NSConstantArray dealloc] : sha256 a122d2294463ae88ef8cedf733ec7a48aa58e565832a946ab434d17092cebc69 -> 95686cc4441a409e34b040fd7d8e9471accde2b9569df4b8a0baf7c961a21a5b
+~ -[_NSConstantArray objectAtIndex:] : sha256 482ba53fa641b4e3e109c6578f1bf89df57b278091b687f6bc7da16f7bdf56e9 -> 4a63cf8058c9e1de0b4e88b0ab67072872ee709438c0507f52185ce63df7f4c2
+~ -[_NSConstantArray objectEnumerator] : sha256 c27b819a3ae7c42b82b409d46cca99e087a014d938c113b1055e2c7231669a03 -> 39b36fd93cf13306576b2c46bf6b5ebc0be1cbfb2c4437903699866b3eb68884
+~ -[_NSConstantArray countByEnumeratingWithState:objects:count:] : sha256 5cb08b2c676782ed237bb1f14dcc9a5f49ba49f09742beef477402cf8cfc7539 -> 4b07249cff9ce5bc336ba33fe31fde297a24044637cfc18e8e483e0c60121a92
+~ -[_NSConstantArray enumerateObjectsUsingBlock:] : sha256 9eae4454e4099bf9c48af287a6607f201abf8f398f23c8b7ef05897e1de63bb7 -> e3891da6c7f2110393092b548b88cfad7e26f676db51de6fb577bde93bbf2a4a
+~ -[_NSConstantArray enumerateObjectsWithOptions:usingBlock:] : 212 -> 208
+~ -[_NSConstantArray enumerateObjectsAtIndexes:options:usingBlock:] : sha256 063f59ee11b5c60aa4b873b5c97a0c9499a185b40a0cf93d2a804c8697fe2f70 -> fec79a572f74315242998280536fbe3f4db8aeb97a6c022a793c1d4bebbeb2b3
+~ +[_NSConstantNumber alloc] : sha256 3657ff3d8af7728bf8ba9b2c005ff55d66ec9cbe296b86d4ddac4a1a812a64e5 -> 75e298b2c8d94f4d98c32c361f5bcad6ef914d1df35e6b4f541fcc4c062ad8d1
+~ -[_NSConstantNumber dealloc] : sha256 1210b5c218414e8c11e5673a852b12ca29a377ed4f86de5023b347e001fa86e1 -> b3e740bf7e23b91a67a7f3f607d2f356e001f5e6dc26bf8a1d158d6bb7549019
+~ -[_NSConstantNumberInt decimalValue] : sha256 632ae4269665659217f4b9621a2d3b6326fd4233542fa36f2e5f8a8c58620762 -> 7e8b767f82b6e4d43105e7d51250bf48def19d443f0ab3b8661358d45385fc9e
+~ -[_NSConstantNumberInt objCType] : sha256 c00228649a87588b9fcf92aa384df85555cb8a5fbd8c4630dbe6c08e9c98392e -> 5bc26141de1d724e97ab955b15a948f08caa2663ec32227f4ea5163c84764504
+~ -[_NSConstantNumberFloat objCType] : sha256 473ebcb1291e98d3db0769ad3b3f3cbc78129fa954086ca058fcb4c7677deff1 -> a1db66edc24a26ddbea0fa414489b12211ada009fa1f16ebd7aa07e05317b0a6
+~ -[_NSConstantNumberFloat decimalValue] : sha256 863ff143db19cf077d9b4feecd687ed16ea9712ad2faf423bc7b9d5b79c1c519 -> 7c5ba6fed239aaa9adbc8e9d4956157286af3323f4d4ef4dbc34eff55c1ca6ac
+~ -[_NSConstantNumberBool objCType] : sha256 9ac2c4f018c62419cb2123dba0c624e219504d40cce8d6ce5d20a4c40fe3bd2c -> a10d77c088b097ccb869d0a4932319cd7e878f05a33a26f23a156df4fec6f50e
+~ -[_NSConstantNumberBool decimalValue] : sha256 ae8e69882c47a3678621e09102e37b345f5a74f07c4ff97295e302147ba77a1e -> c5dab62d9163a7261bf90ca7d3cd9538246267dc59c8a86e57832770284306c7
+~ +[_NSConstantData alloc] : sha256 565be70210da35533d65da0da81a5bcd3773a81475f8c9b2a2dd17c310759b57 -> 86f1684a9f302b2075a5e658fb047c1c5cf231113defc3061d5b7ff3a6c4ba7f
+~ -[_NSConstantData dealloc] : sha256 25cc48ca6386f7a9b532750d2b3981befd3aec23cd5ceda8c494db0e340d4743 -> a6ee637744af8b8edbcfaa429c3e4af8cd22d70cacbb8d5a122ac148a81989c6
+~ +[_NSConstantDate alloc] : sha256 c3625b85475ed99a87210f97c8b87d51f10770ba1b6a88c0003fda9362782e26 -> 359f562e9ab164b545bda92055456a964b55bb0d27217a69b64bed5734d9cee1
+~ -[_NSConstantDate dealloc] : sha256 24becfddd291af12fe8973b29bfa453ef6466ba945dc7251c9fd92c21423e397 -> 95173b44511cb17fbf721e4186d7df32d956d57058104b0d3299ee4dbef9d184
+~ -[_NSConstantDictionaryEnumerator initWithFirstKeyPointer:capacity:] : sha256 834895955768d992f1098a8cd1080af2c161b17b518fcfc5d109e08978c08aa5 -> 6ac2aa68aa384d6460d0e24d41a7d40efb1281700cdfa376678b2be86b145952
+~ -[_NSConstantDictionaryEnumerator allObjects] : sha256 534c991750d82c5a6435b6de2bbc67d4ea56947f30a3bdc55cf2b5cbfbef719a -> 9c377e59b3d3b64aa6e1c03f640227474e77020ccf7f12f36dd8adcc412b981f
+~ -[_NSConstantDictionaryEnumerator nextObject] : 116 -> 120
+~ +[_NSConstantDictionary alloc] : sha256 d8e53d1a5f62735a1c06377b9c8ae257c796413ff6dbfdf7778e965361b8d91a -> 81b91fa0769128b95c4fe5d233a0af1f669b5de4b3cab510c6d40647d33a7f75
+~ -[_NSConstantDictionary dealloc] : sha256 8788b150bd93f8a10a196e12cd2803dbeb523b6026a81901daaf55e7ae37ad49 -> d176900a7e0afe044523092b54343c65a4e9e68ae848639f293e5ddb81b2df74
+~ -[_NSConstantDictionary objectForKey:] : sha256 ce6e4353daeebcc9475a1003ba9e2dffbbca820725a3b3829f8e315b4c2b6c21 -> 1ac0d8018415437135e5f67fabd67be41cb20b64a313d063269c2e32e4c10a20
+~ -[_NSConstantDictionary keyEnumerator] : sha256 3c6481caf5e0cd8bcc66f2be18945a9cd03e9eb9be2984ddc637a00a0afccf1e -> 177c5bce88f48a6db193783aaae670a182b804f25bcd9bf043c058a5130bc847
+~ -[_NSConstantDictionary objectEnumerator] : sha256 96bc9f165ea3e0a1b32d4f483c4cfb1f0751bc3a792652957f2a703096bc0471 -> 688b49435f272999e4fbee735f8c046920baa64b9b51c937c42ba258abefd9eb
+~ -[_NSConstantDictionary allKeys] : 152 -> 164
+~ -[_NSConstantDictionary allValues] : 152 -> 176
+~ -[_NSConstantDictionary descriptionWithLocale:indent:] : sha256 fbb0800bc9dcd4d2be58ce7991c20b1cfdea49bdead14e32c429c23986931f87 -> 06aa9773b798d49b4bb548a9ad9192a0d8a57d89402ee566e7c6eb14b892fce0
+~ ___54-[_NSConstantDictionary descriptionWithLocale:indent:]_block_invoke : sha256 24ae83cedbc8eae8b021456c05c4632798da919fc16902a797e20e5cf317958a -> 7031170908608a21e76a191c532e58c5cdc174bf1f867e4d41bcb36dddd7a296
+~ ___copy_helper_block_e8_32o40o48o56o : sha256 bb2a5168422f686cee9b54f833d988949c09db98d264d5d77ab0cb0e1d650029 -> 88d3b11b2edac33458a56a76a2a14978db688a96eeb37f2213e83600b5102194
+~ ___destroy_helper_block_e8_32o40o48o56o : sha256 b54ea7ff6b89dbd33e44fbe5ef79633ee1ed3851576c2c16459d2ed109fdf7bc -> 9b6ee000e89862bc5bce2106ef79ded28d2d448e748935c539dece8d3f5d2937
+~ -[_NSConstantDictionary getObjects:andKeys:] : 104 -> 124
+~ -[_NSConstantDictionary countByEnumeratingWithState:objects:count:] : sha256 4502da19840b55609bcc0b434a7cfb3f9f820648dab4efb61bb3d73b16b36489 -> 93cc0032c6bd5a46437b3bd714f4d7dbd0f56d189d53322c6a9c086b788444f9
+~ -[_NSConstantDictionary enumerateKeysAndObjectsUsingBlock:] : sha256 8938448889098db4d913c6eb1ad5e486ccdb2797ae2ed07e88f0a635007d0e5c -> 602ec8f29e352713fbc39c44c34de19b6b99362b0cc12144916a282b4597ffc8
+~ -[_NSConstantDictionary enumerateKeysAndObjectsWithOptions:usingBlock:] : 276 -> 308
+
+```

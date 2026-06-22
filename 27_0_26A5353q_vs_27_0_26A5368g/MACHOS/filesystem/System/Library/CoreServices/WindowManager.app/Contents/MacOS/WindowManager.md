@@ -1,0 +1,436 @@
+## WindowManager
+
+> `/System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager`
+
+```diff
+
+-439.0.501.0.0
+-  __TEXT.__text: 0x3f8c04 sha256:6cf3158a2d0f830bc31ea7918b4326b1d7dfc16eef6d352d20cbcfbf8cd7c43a
+-  __TEXT.__auth_stubs: 0x7860 sha256:b62b4d9c05f3d50a3735713182c7a3d51de52ca502dffb4ce60d5c9d8bb2bdba
+-  __TEXT.__objc_stubs: 0x3a00 sha256:97f1bd43e3549079c45505274dd31b9340b3ecde94a94f278687fc7adedf340c
+-  __TEXT.__objc_methlist: 0x132c sha256:1bfc8ab0ed58c5621ccf45c04a0a34de4ddc3f245b5f28b4749f6381e1fb4fd6
+-  __TEXT.__const: 0x3f008 sha256:681e179ebd3b04458465123289759f30881c8be7bf7a44d089646b7c48598ad1
+-  __TEXT.__oslogstring: 0x304b sha256:21e42faad13ed0b1d81c16077fa0259cefd08ff41d4c124eae4445f8a8668cb0
+-  __TEXT.__cstring: 0x4c5f sha256:8227a96367fadb7b247bc9f8a2c72e1b443c16707327364eee6b769d5add41a2
+-  __TEXT.__swift5_entry: 0x8 sha256:582be37731a25ffa0bf048a07e20dac4964b5f05767d0e57233f2ff9006be2da
+-  __TEXT.__swift5_typeref: 0x10a05 sha256:fa9a58bbfdacde813fda6cc310e645f5f37fd5d55e37671d8ea4dcbe4df54cfa
+-  __TEXT.__objc_classname: 0x4dfc sha256:f169d35212185bb6fd76cd76aae905833d977ed3ddce9a91c137bd850c6c8225
+-  __TEXT.__objc_methname: 0x8fc5 sha256:4c4c33ecd1deef5fb7c9164122d1ae9bf0be22d10605da38ae37650c23d9192d
+-  __TEXT.__constg_swiftt: 0x16dc4 sha256:56c124ae3c90038aa84300e07542f4bec465d313b10b7c382202990b2c3bcd37
+-  __TEXT.__swift5_reflstr: 0x18ac0 sha256:e8bc15db88d2af3afd29b68534f7fd686b3fcf955af5ac03a502e59aa9b6447b
+-  __TEXT.__swift5_fieldmd: 0x178b4 sha256:4726b03eef18931fdc9f2fdd567670e2e6867e12e86f2fce82e6843337312d7a
+-  __TEXT.__swift5_capture: 0x3060 sha256:e1c2741a6d4807235683245d9b16eeed8ab627099e08199b24ea3cb0feb705ef
+-  __TEXT.__swift5_proto: 0x29a4 sha256:887f0786f2142543268e5ab709f58ee23e59652b7c54358366767fea81e4cfa5
+-  __TEXT.__swift5_types: 0x1a48 sha256:bb598865ab655726a4f3f70e4d186bad69f8b0bc3a146a3401153a0c0957a267
+-  __TEXT.__swift5_assocty: 0x4cc8 sha256:65a6447477ca5419e0b1cb42fd972ce9aa6355f332607ab5edbff532e379f912
+-  __TEXT.__objc_methtype: 0x1651 sha256:e69fdc369334bb6dfbb3cacb690eeb48ae13e2caee233c068fd2990cf40a5a29
+-  __TEXT.__swift5_builtin: 0xab4 sha256:9035b2713df9484109a9bd2d9e0616edb629e4398c626413660576afff2f6357
+-  __TEXT.__swift5_protos: 0x248 sha256:726496691532aa3e3108e24da9297f954c9acdd2c4229901427653f5a0328b5d
+-  __TEXT.__swift5_mpenum: 0x664 sha256:9220c82a77f554d2bfd26401627c71fae5140dead93ceb5ed7857c0d8dc5071e
+-  __TEXT.__swift_as_entry: 0x10 sha256:ccf4892abcf26dd9849b1190e81f42cdcab67780cc317de93e338a703ce75a9f
+-  __TEXT.__swift_as_ret: 0x10 sha256:2499d8c85238e647081b81138f1546d25ca7ab8ad3b0584bffd13d2fa12e3dc5
+-  __TEXT.__swift_as_cont: 0x24 sha256:26fa82c61350f84ab17a9d0d0269ae145f54921ec4eac14534bf335082cd4fb1
+-  __TEXT.__unwind_info: 0xfa00 sha256:486c52dd96e8d8478354872ad8d44ee0b2306167357a0a51b94ff96de69a323c
+-  __TEXT.__eh_frame: 0x9468 sha256:856f8748121383b47ae0b0c682e7f4497295fcff8a2a18f797d6a5b11b1f76e5
+-  __DATA_CONST.__const: 0x2ec28 sha256:e13da8310e799d565d3f1350572893fd93b0188c19f29db27f1d760d48c00541
+-  __DATA_CONST.__cfstring: 0x80 sha256:75e856e17b3a96644e896bfb876d766c8537e457cf7959488d53b7722b853f81
+-  __DATA_CONST.__objc_classlist: 0x8b8 sha256:a622d37548b278fa3b8822807ba12316b98d975256edfcc9a15c14cfb6968c1f
+-  __DATA_CONST.__objc_protolist: 0x168 sha256:e2365c21f5197312b598ef9e0085a09a4ade68e45135c3d2ab9bfe4c68b26d73
++447.0.0.0.0
++  __TEXT.__text: 0x428254 sha256:fc0f6165fe43703a8709b0e8d31be05054e7f202bb4b36184c9e0d8e7f7dd54f
++  __TEXT.__auth_stubs: 0x78e0 sha256:83f69c83fa104bedd1ae5d36723c367f824a5eeb8560ceff4963d5d49ea87f6f
++  __TEXT.__objc_stubs: 0x3a80 sha256:67b8f28061b808b125fd1206ca597b9aeb17cb01190d528a8939bade477098b8
++  __TEXT.__objc_methlist: 0x132c sha256:425676b7f8ffc85ae4ebf4c09afed85bc1103bdc7d5a3e253d190068eb0d0d13
++  __TEXT.__const: 0x4bf98 sha256:242b286266bcb541223847797cb24ad2f46b2d30d4557f478cb4df420f092a9f
++  __TEXT.__oslogstring: 0x322b sha256:07d2db9793e131c1bbfeb9cb59815225af8104d05b8e846361e26a6f7d6b087e
++  __TEXT.__cstring: 0x4d1f sha256:02a76b873bd391a41b691b663fb785796f87d3796a27b3b0e965d71059356580
++  __TEXT.__swift5_entry: 0x8 sha256:2ac20983e3fc15db9f35f2de301fccf36675ee40f0d95f2a43546742946b7460
++  __TEXT.__swift5_typeref: 0x10efb sha256:b7d8db7d316b5304a9a25789f74f010ef70f8b693c802f733b25b288891e84e9
++  __TEXT.__objc_classname: 0x507c sha256:8c764a02a01300910ce666e4ea265be0c97deb9139f2126c6c5d4c048e7604f5
++  __TEXT.__objc_methname: 0x94f5 sha256:8145daa864f56f68370112506c7cd6ac18f1e27e9f4e2c030e3ba5cd7c5516e7
++  __TEXT.__constg_swiftt: 0x17450 sha256:2b1f42a8db857dd8a207463df918b5dcf38e794936ef08f5459f319cee4f771c
++  __TEXT.__swift5_reflstr: 0x19620 sha256:845e5e161660f302fa37096c3e70910cf1fb1cbdbbfa187d98497f2f3331498c
++  __TEXT.__swift5_fieldmd: 0x18184 sha256:6503791eb22b7e5d39edf8c0bef89f7afb891a1bfd23380d74af6b3ca1864604
++  __TEXT.__swift5_capture: 0x3950 sha256:5ac5e806512265bb42fb1f3c0307a5905b1aa5b1f67fde17c28510b0baf7fc92
++  __TEXT.__swift5_proto: 0x2ae0 sha256:ccab2b36799cf9d61976c2adb30c5392dd6ab079123e413c4aeae2d5daf42cfb
++  __TEXT.__swift5_types: 0x1ab4 sha256:8262def158683254f06d813d94fbe522abdcde4ca582b0c2173297b72056c755
++  __TEXT.__swift5_assocty: 0x4df0 sha256:f49002d40a993ed35f4734271d4a0b073572c62cb91bf66e18ecae3c523398cc
++  __TEXT.__objc_methtype: 0x1681 sha256:b06aef00c8661d7c3045ed4490130af2a79f127008869049702c28f7e53e03b6
++  __TEXT.__swift5_builtin: 0xab4 sha256:38aa5d2420856e68cc451c0195b1044927cb88edd4fd929a6f96e50102d057fc
++  __TEXT.__swift5_protos: 0x26c sha256:5f6486fe8a72ba04b88b56d2b49c37097500aabb2e77b830643af165a78319ad
++  __TEXT.__swift5_mpenum: 0x654 sha256:697a4f7fd516a21c18a53638ecc1031154fa531566bdaa88056706a46fb5f7e9
++  __TEXT.__swift_as_entry: 0x10 sha256:9833892fb0c64468a70075c81cbe72d45dafac730a5e1e2b848ae9878af2eac6
++  __TEXT.__swift_as_ret: 0x10 sha256:5c5f0dd8edd95325b81ea47e9afb0e0527e6e603dc0599d3e1b04830a765f986
++  __TEXT.__swift_as_cont: 0x24 sha256:a7171499aa0acf171de70cb1d35913726544940c6b53549a093ec7072fd0335d
++  __TEXT.__unwind_info: 0x10220 sha256:2da4b7254bdf8639c35b1204e11f8d691a7e97ca03981df4901d427a564b348d
++  __TEXT.__eh_frame: 0x9a2c sha256:8f850e2248ccf40d995122bb5d84e43d2587166c830afdc74e5ae2bf6674bc24
++  __DATA_CONST.__const: 0x32560 sha256:9ba4bb6e36c2f980cf6cf0e4317942fc607fab652b2d2924b1bf0d0105f6c409
++  __DATA_CONST.__cfstring: 0x80 sha256:4a570fcb2004d1f3567a1a662d996f93e6c5da5b8e454ca1fe189ff221c7f495
++  __DATA_CONST.__objc_classlist: 0x900 sha256:ebe6817f1ed3f36f545c611928c583c9bb52527de68406d00c8844a8a2dab4af
++  __DATA_CONST.__objc_protolist: 0x168 sha256:7d0ac061c26ce005842514ae9b3c116053d4474b564daec35a117e23c09d40da
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0xb0 sha256:0bf49e3f771f2fac2f838e373aa82b0dbe4df9608e8cea9c2175754e9616cb41
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:4d92474efec64bb2dd7d754f2d2d22a347a20d2d82298fe51f48f7ddf6505293
+-  __DATA_CONST.__linkguard: 0xf sha256:c7a8e73bdd9c1382932caa27ab77a408d0abfeb62b1e770eb8daacd366781c10
+-  __DATA_CONST.__auth_got: 0x3c38 sha256:fff3c155a14944c0d7716658933867632c5633275d30f7ecb932faad6eb28e84
+-  __DATA_CONST.__got: 0x1650 sha256:6b7f0686835a1140ada94671c3a2c85f97318e8a42941f33e00c82895c851aef
+-  __DATA_CONST.__auth_ptr: 0x39a0 sha256:9d00c99f36ce67e014589c9e25a130752c17c0f621ce2c2e0dba1d17c68694b9
+-  __DATA.__objc_const: 0x15cd0 sha256:f169e246d13b954cdd9a3cb560dfd7631880e6c6356d3d068a398c07ba12d257
+-  __DATA.__objc_selrefs: 0x1080 sha256:2bb255fde05f80aea28f2ef5d9bd72adc91e38d784bbfe86f35efcb54c57d829
++  __DATA_CONST.__objc_protorefs: 0xb0 sha256:d5d1ec87e5a88060cf536e8dcac20a5a9cc2b4956804e1edd9a8ab571693b4df
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:cf8ec366892a5b97fe260ffbdba05b376d437f4849f8a1713eee07e7a50b1945
++  __DATA_CONST.__linkguard: 0xf sha256:4d4a4f238562c0a73d3663e8f450425999c8a9cf2faf1957ec224a512d4e1aed
++  __DATA_CONST.__auth_got: 0x3c78 sha256:487751057063eec04bf2dcac28d33edd1ba0ed9f8477c894ccb70c8ee48f9a51
++  __DATA_CONST.__got: 0x1758 sha256:8c010fb9db19bc08e6f898568a99b88e23dd30e086f01af3cdba01547d2e6c16
++  __DATA_CONST.__auth_ptr: 0x38c8 sha256:2b19a3b0d40b12ec16fb45760a3b14ab5f1c80997896c17efcd0960ec114fb97
++  __DATA.__objc_const: 0x16a10 sha256:a1e6d0eed6a9dcfbba7a6f4ea7984654e9731569190393bbb514bd96ee25400e
++  __DATA.__objc_selrefs: 0x10a0 sha256:cb360016ede6a1292365d50714a75c86110d018c1d3b28ba0d363f2d43516a9a
+   __DATA.__objc_ivar: 0x48 sha256:c5f4457374ae2577726784daa1afe396181a5ef092a1bc8f3a6c83aeef087b4a
+-  __DATA.__objc_data: 0x3208 sha256:34e4348e177328c8ad284290c4befea4ebbdee25c125c495e2d6940a04a495e7
+-  __DATA.__data: 0x27d70 sha256:9dc87238950d48978ee539001832a4615fe2c18fea6cee6bfb66bcb6c28c27bf
+-  __DATA.__common: 0x5e8 sha256:ce74475c230513d255bf8e9c6dfafae15f6c650efa6e4117ef58aadfccc22c1e
+-  __DATA.__bss: 0x42440 sha256:2882b5fdfd3eea8efae26ce2e3984256597c5f543bcd33253f1db7c7fd946115
++  __DATA.__objc_data: 0x3100 sha256:7421f1b7c13d006a3939f40afe749843c92d0777fe68ebe18148b71be7379c4a
++  __DATA.__data: 0x26f20 sha256:6c48ab6a55fe5f3bfc635e767c5c7905b1bf6b2b4d47a7fdeb4f68045133c9bf
++  __DATA.__common: 0x500 sha256:bfe492baf731a0dbf6e1e050f5bc3fe8c1b049383194dcdf82f023bfa409f462
++  __DATA.__bss: 0x43040 sha256:6eb23110b9fe9120bf9b56582df0cdfce80ec0db007580501a75046b28d4e678
+   - /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5420EA2E-988D-3F05-AA03-E5C1F3C130D0
+-  Functions: 30614
+-  Symbols:   3148
+-  CStrings:  2722
++  UUID: 861B0F61-7C7D-3B3F-9515-85A9738F5B6A
++  Functions: 31742
++  Symbols:   3150
++  CStrings:  2790
+ 
+Symbols:
++ _$s11MacSystemUI17SIMDRepresentableP9simdValue9SIMDValueQzvMTj
++ _$s11MacSystemUI17SIMDRepresentableP9simdValue9SIMDValueQzvgTj
++ _$s11MacSystemUI17SIMDRepresentableP9simdValuex9SIMDValueQz_tcfCTj
++ _$s11MacSystemUI17SIMDRepresentableTL
++ _$s11MacSystemUI4SizeV1doiyA2C_ACtFZ
++ _$s11MacSystemUI4SizeV1moiyA2C_ACtFZ
++ _$s11MacSystemUI4SizeV1poiyA2C_ACtFZ
++ _$s11MacSystemUI4SizeV1soiyA2C_ACtFZ
++ _$s11MacSystemUI4SizeV2deoiyyACz_ACtFZ
++ _$s11MacSystemUI4SizeV2meoiyyACz_ACtFZ
++ _$s11MacSystemUI4SizeV2peoiyyACz_ACtFZ
++ _$s11MacSystemUI4SizeV2seoiyyACz_ACtFZ
++ _$s11MacSystemUI4SizeV4zeroACvgZ
++ _$s11MacSystemUI7Point3DVSQAAMc
++ _$s11MaskStorages4SIMDPTl
++ _$s12CoreGraphics7CGFloatVSQAAMc
++ _$s13WindowManager0aB11PreferencesV31spacesBarDeleteButtonHoverDelaySdvg
++ _$s13WindowManager0aB11PreferencesV38missionControlTopZonePostEntryDistanceSdvg
++ _$s13WindowManager0aB11PreferencesV48missionControlTopZoneMaxAngleFromVerticalRadiansSdvg
++ _$s13WindowManager0aB13ExposeShownByO03appC0yAcA0ab3AppcdE0OcACmFWC
++ _$s13WindowManager0aB13ExposeShownByO14missionControlyAcA0ab7MissiongdE0OcACmFWC
++ _$s13WindowManager0aB13ExposeShownByO7desktopyAcA0ab7DesktopdE0OcACmFWC
++ _$s13WindowManager0aB13ExposeShownByO9undefinedyA2CmFWC
++ _$s13WindowManager0aB13ExposeShownByOMa
++ _$s13WindowManager0aB13ExposeShownByOMn
++ _$s13WindowManager0aB14DesktopShownByO6hotKeyyA2CmFWC
++ _$s13WindowManager0aB14DesktopShownByO7gestureyA2CmFWC
++ _$s13WindowManager0aB14DesktopShownByO8rawValueSSvg
++ _$s13WindowManager0aB14DesktopShownByO9undefinedyA2CmFWC
++ _$s13WindowManager0aB14DesktopShownByOMa
++ _$s13WindowManager0aB14DesktopShownByOMn
++ _$s13WindowManager0aB14DesktopShownByOSQAAMc
++ _$s13WindowManager0aB16AppExposeShownByO6hotKeyyA2CmFWC
++ _$s13WindowManager0aB16AppExposeShownByO7gestureyA2CmFWC
++ _$s13WindowManager0aB16AppExposeShownByO8rawValueSSvg
++ _$s13WindowManager0aB16AppExposeShownByO9undefinedyA2CmFWC
++ _$s13WindowManager0aB16AppExposeShownByOMa
++ _$s13WindowManager0aB16AppExposeShownByOMn
++ _$s13WindowManager0aB16AppExposeShownByOSQAAMc
++ _$s13WindowManager0aB21MissionControlShownByO6hotKeyyA2CmFWC
++ _$s13WindowManager0aB21MissionControlShownByO7gestureyA2CmFWC
++ _$s13WindowManager0aB21MissionControlShownByO8rawValueSSvg
++ _$s13WindowManager0aB21MissionControlShownByO9undefinedyA2CmFWC
++ _$s13WindowManager0aB21MissionControlShownByOMa
++ _$s13WindowManager0aB21MissionControlShownByOMn
++ _$s13WindowManager0aB21MissionControlShownByOSQAAMc
++ _$s13WindowManager0aB21PreferencesControllerC020windowTilingVelocityA0Sdvg
++ _$s13WindowManager24AdminXPCListenerDelegateP05adminD0_17exposeCoordinator16toggleExposeMode10transition7shownBy10completionyAA0cD0C_AA0jH0C2IDVAA0abjK0OAA0abJ16ToggleTransitionOAA0abj5ShownN0Oys5Error_pSgctKFTq
++ _$s13WindowManager24AdminXPCListenerDelegateP05adminD0_46connectionDidTakeSystemGestureDisableAssertion11assertionIDyAA0cD0C_AA0cD10Connection_pAA0jklM0C0O0VtKFTq
++ _$s13WindowManager24AdminXPCListenerDelegateP05adminD0_49connectionDidReleaseSystemGestureDisableAssertion11assertionIDyAA0cD0C_AA0cD10Connection_pAA0jklM0C0O0VtKFTq
++ _$s13WindowManager24ShowDesktopSystemGestureV13ConfigurationV9DirectionOSQAAMc
++ _$s13WindowManager24ShowDesktopSystemGestureV13ConfigurationV9DirectionOs23CustomStringConvertibleAAMc
++ _$s13WindowManager29SystemGestureDisableAssertionC2IDV2eeoiySbAE_AEtFZ
++ _$s13WindowManager29SystemGestureDisableAssertionC2IDVMa
++ _$s13WindowManager29SystemGestureDisableAssertionC2IDVMn
++ _$s13WindowManager29SystemGestureDisableAssertionC2IDVSHAAMc
++ _$s13WindowManager29SystemGestureDisableAssertionC2IDVSQAAMc
++ _$s13WindowManager29SystemGestureDisableAssertionC2IDVs23CustomStringConvertibleAAMc
++ _$s18IntegerLiteralTypes013ExpressibleByaB0PTl
++ _$s6Scalars11SIMDStoragePTl
++ _$sSD10startIndexSD0B0Vyxq__Gvg
++ _$sSD5IndexV2eeoiySbAByxq__G_ADtFZ
++ _$sSD5IndexVyxq__GSLsMc
++ _$sSD5index5afterSD5IndexVyxq__GAE_tF
++ _$sSD8endIndexSD0B0Vyxq__Gvg
++ _$sSF8infinityxvgZTj
++ _$sSIyxGSKsSKRzrlMc
++ _$sSIyxGSlsMc
++ _$sSKsE5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF
++ _$sSKsE5index_8offsetBy5IndexQzAD_SitF
++ _$sSKsE8distance4from2toSi5IndexQz_AEtF
++ _$sSL1loiySbx_xtFZTj
++ _$sSL2geoiySbx_xtFZTj
++ _$sSL2leoiySbx_xtFZTj
++ _$sSS5index6beforeSS5IndexVAD_tF
++ _$sSSySJSS5IndexVcig
++ _$sSdSFsMc
++ _$sSlsE19underestimatedCountSivg
++ _$sSlsE20_failEarlyRangeCheck_6boundsy5IndexQz_SNyADGtF
++ _$sSlsE20_failEarlyRangeCheck_6boundsy5IndexQz_SnyADGtF
++ _$sSlsE20_failEarlyRangeCheck_6boundsySny5IndexQzG_AEtF
++ _$sSlsE22_copyToContiguousArrays0cD0Vy7ElementQzGyF
++ _$sSlsSIyxG7IndicesRtzrlE7indicesAAvg
++ _$sSlss5SliceVyxG11SubSequenceRtzrlEyACSny5IndexQzGcig
++ _$sSo6CGRectVSQ12CoreGraphicsMc
++ _$sSo6CGSizeVSQ12CoreGraphicsMc
++ _$sSo7CGPointVSQ12CoreGraphicsMc
++ _$sSo9CAPoint3DVSQ11MacSystemUIMc
++ _$sSz1ooiyxx_xtFZTj
++ _$sSz8_lowWordSuvgTj
++ _$sSz8bitWidthSivgTj
++ _$sSz8isSignedSbvgZTj
++ _$ss11SIMDStorageP11scalarCountSivgTj
++ _$ss11SIMDStorageP6ScalarAB_SHTn
++ _$ss11SIMDStoragePxycfCTj
++ _$ss11SIMDStoragePy6ScalarQzSicigTj
++ _$ss11SIMDStoragePy6ScalarQzSicisTj
++ _$ss11SIMDStorageTL
++ _$ss18AdditiveArithmeticP1soiyxx_xtFZTj
++ _$ss25isKnownUniquelyReferencedySbxzRlzClF
++ _$ss27ExpressibleByIntegerLiteralP07integerD0x0cD4TypeQz_tcfCTj
++ _$ss27ExpressibleByIntegerLiteralP0cD4TypeAB_s01_ab7BuiltincD0Tn
++ _$ss27ExpressibleByIntegerLiteralTL
++ _$ss35_ExpressibleByBuiltinIntegerLiteralP08_builtindE0xBI_tcfCTj
++ _$ss3absyxxSLRzs13SignedNumericRzlF
++ _$ss4SIMDP11MaskStorageAB_6Scalars11SIMDStoragePSZTn
++ _$ss4SIMDP11MaskStorageAB_6Scalars11SIMDStoragePs17FixedWidthIntegerTn
++ _$ss4SIMDP11MaskStorageAB_sAATn
++ _$ss4SIMDTL
++ _$ss5SIMD2VyxGSQsMc
++ _$ss5SIMD3VMn
++ _$ss5SIMD3VyxGSQsMc
++ _$ss5SIMD4VyxGSQsMc
++ _$ss8SIMDMaskVMa
++ _OBJC_CLASS_$_CASpringAnimation
++ __LSCopyFrontUIApplication
++ __LSModifyNotification
++ __LSScheduleNotificationOnQueueWithBlock
++ __LSUnscheduleNotificationFunction
++ ___sincos_stret
++ __kLSUIPresentationOptionsKey
++ _cosh
++ _exp
++ _sinh
+- _$s11MacSystemUI14AnimationGroupC13setCompletionyyyycF
+- _$s11MacSystemUI14AnimationGroupC15DiagnosticStateVMa
+- _$s11MacSystemUI14AnimationGroupC15DiagnosticStateVMn
+- _$s11MacSystemUI14AnimationGroupC15DiagnosticStateVSEAAMc
+- _$s11MacSystemUI14AnimationGroupC15diagnosticStateAC010DiagnosticG0VyF
+- _$s11MacSystemUI14AnimationGroupC16animatingObjectsQrvg
+- _$s11MacSystemUI14AnimationGroupC16animatingObjectsQrvpQOMQ
+- _$s11MacSystemUI14AnimationGroupC7isEmptySbvg
+- _$s11MacSystemUI14AnimationGroupCACycfc
+- _$s11MacSystemUI14AnimationGroupCMa
+- _$s11MacSystemUI14AnimationGroupCMn
+- _$s11MacSystemUI14SpringBehaviorC12dampingRatio8responseACSd_Sdtcfc
+- _$s11MacSystemUI14SpringBehaviorC12dampingRatioSdvg
+- _$s11MacSystemUI14SpringBehaviorC16settlingDurationSdvg
+- _$s11MacSystemUI14SpringBehaviorC2eeoiySbAC_ACtFZ
+- _$s11MacSystemUI14SpringBehaviorC7tensionSdvg
+- _$s11MacSystemUI14SpringBehaviorC8frictionSdvg
+- _$s11MacSystemUI14SpringBehaviorC8responseSdvg
+- _$s11MacSystemUI14SpringBehaviorCMa
+- _$s11MacSystemUI14SpringBehaviorCMn
+- _$s11MacSystemUI14SpringBehaviorCSQAAMc
+- _$s11MacSystemUI15AnimatingObjectMp
+- _$s11MacSystemUI15AnimatingObjectP12wrappedValue07WrappedG0QzvMTq
+- _$s11MacSystemUI15AnimatingObjectP12wrappedValue07WrappedG0QzvgTq
+- _$s11MacSystemUI15AnimatingObjectP12wrappedValue07WrappedG0QzvsTq
+- _$s11MacSystemUI15AnimatingObjectP14projectedValue07WrappedG0QzvgTq
+- _$s11MacSystemUI15AnimatingObjectP16animationContextAA09AnimationG0CSgvMTq
+- _$s11MacSystemUI15AnimatingObjectP16animationContextAA09AnimationG0CSgvgTq
+- _$s11MacSystemUI15AnimatingObjectP16animationContextAA09AnimationG0CSgvsTq
+- _$s11MacSystemUI15AnimatingObjectP8animatorAA8AnimatorCSgvMTq
+- _$s11MacSystemUI15AnimatingObjectP8animatorAA8AnimatorCSgvgTj
+- _$s11MacSystemUI15AnimatingObjectP8animatorAA8AnimatorCSgvgTq
+- _$s11MacSystemUI15AnimatingObjectP8animatorAA8AnimatorCSgvsTq
+- _$s11MacSystemUI15AnimatingObjectPAA17AnimationSteppingTb
+- _$s11MacSystemUI15AnimatingObjectPAAE02isD0Sbvg
+- _$s11MacSystemUI15AnimatingObjectPAAE02isD0ySbSiF
+- _$s11MacSystemUI15AnimatingObjectPAAE10invalidateyyF
+- _$s11MacSystemUI15AnimatingObjectPAAE18withAnimationGroup_4bodyyAA0gH0C_yyXEtF
+- _$s11MacSystemUI15AnimatingObjectPAAE21projectedValueChangedyyF
+- _$s11MacSystemUI15AnimatingObjectPAAE4step9deltaTimeySd_tF
+- _$s11MacSystemUI15AnimatingObjectPAAE9_setValue_3for3key15defaultBehavior08trackingK07epsilonyAA015SpringAnimationG0Vyqd__G_s15WritableKeyPathCy07WrappedG0Qzqd__GSiAA0nK0CSgATqd__tAA0nD0Rd__lF
+- _$s11MacSystemUI15AnimatingObjectPs23CustomStringConvertibleTb
+- _$s11MacSystemUI15SpringAnimatingMp
+- _$s11MacSystemUI15SpringAnimatingP3onexvgZTq
+- _$s11MacSystemUI15SpringAnimatingP4zeroxvgZTq
+- _$s11MacSystemUI15SpringAnimatingP5roundyys25FloatingPointRoundingRuleOFTq
+- _$s11MacSystemUI15SpringAnimatingP7epsilonxvgZTq
+- _$s11MacSystemUI15SpringAnimatingP7isEqual2to7epsilonSbx_xtFTq
+- _$s11MacSystemUI15SpringAnimatingP8isFiniteSbvgTq
+- _$s11MacSystemUI15SpringAnimatingPAA03_C2D11IntegrationTb
+- _$s11MacSystemUI15SpringAnimatingPSQTb
+- _$s11MacSystemUI16AnimationContextCMn
+- _$s11MacSystemUI16AnimationContextCyAA0D0CyxGSgSicAA15SpringAnimatingRzluig
+- _$s11MacSystemUI17AnimationSteppingMp
+- _$s11MacSystemUI17AnimationSteppingP11isAnimatingSbvgTq
+- _$s11MacSystemUI17AnimationSteppingP4step9deltaTimeySd_tFTq
+- _$s11MacSystemUI17SIMDRepresentablePAA15SpringAnimatingTb
+- _$s11MacSystemUI17SIMDRepresentablePAAs5SIMD2VySdG9SIMDValueRtzrlE7isEqual2to7epsilonSbx_xtF
+- _$s11MacSystemUI17SIMDRepresentablePAAs5SIMD2VySdG9SIMDValueRtzrlE8isFiniteSbvg
+- _$s11MacSystemUI17SIMDRepresentablePAAs5SIMD4VySdG9SIMDValueRtzrlE7isEqual2to7epsilonSbx_xtF
+- _$s11MacSystemUI17SIMDRepresentablePAAs5SIMD4VySdG9SIMDValueRtzrlE8isFiniteSbvg
+- _$s11MacSystemUI19LinearInterpolatingMp
+- _$s11MacSystemUI19LinearInterpolatingP11interpolate6toward6amountyx_SdtFTj
+- _$s11MacSystemUI19LinearInterpolatingP11interpolate6toward6amountyx_SdtFTq
+- _$s11MacSystemUI19LinearInterpolatingP12interpolated6toward6amountxx_SdtFTq
+- _$s11MacSystemUI19LinearInterpolatingPAAE11interpolate4from6amountyx_SdtF
+- _$s11MacSystemUI20SpringAnimationStyleV11nonanimatedACvgZ
+- _$s11MacSystemUI20SpringAnimationStyleV6customyAcA0D8BehaviorCFZ
+- _$s11MacSystemUI20SpringAnimationStyleV7defaultACvgZ
+- _$s11MacSystemUI20SpringAnimationStyleV8trackingACvgZ
+- _$s11MacSystemUI20SpringAnimationStyleVMa
+- _$s11MacSystemUI20SpringAnimationStyleVSQAAMc
+- _$s11MacSystemUI20SpringAnimationValueV11nonanimatedyACyxGxFZ
+- _$s11MacSystemUI20SpringAnimationValueV11nonanimatedyyF
+- _$s11MacSystemUI20SpringAnimationValueV14animationStyleAA0deH0Vvg
+- _$s11MacSystemUI20SpringAnimationValueV5value14animationStyleACyxGx_AA0deI0VtcfC
+- _$s11MacSystemUI20SpringAnimationValueV5valuexvM
+- _$s11MacSystemUI20SpringAnimationValueV5valuexvg
+- _$s11MacSystemUI20SpringAnimationValueV5valuexvs
+- _$s11MacSystemUI20SpringAnimationValueV7animateyyAA0D8BehaviorCF
+- _$s11MacSystemUI20SpringAnimationValueV7animateyyAA0dE5StyleVF
+- _$s11MacSystemUI20SpringAnimationValueVMa
+- _$s11MacSystemUI20SpringAnimationValueVMn
+- _$s11MacSystemUI20SpringAnimationValueVyxGAA19LinearInterpolatingA2aERzrlMc
+- _$s11MacSystemUI20SpringAnimationValueVyxGSQAAMc
+- _$s11MacSystemUI20_C2SpringIntegrationMp
+- _$s11MacSystemUI20_C2SpringIntegrationP1doiyxx_xtFZTq
+- _$s11MacSystemUI20_C2SpringIntegrationP1moiyxx_xtFZTq
+- _$s11MacSystemUI20_C2SpringIntegrationP1poiyxx_xtFZTq
+- _$s11MacSystemUI20_C2SpringIntegrationP1soiyxx_xtFZTq
+- _$s11MacSystemUI20_C2SpringIntegrationP2deoiyyxz_xtFZTq
+- _$s11MacSystemUI20_C2SpringIntegrationP2meoiyyxz_xtFZTq
+- _$s11MacSystemUI20_C2SpringIntegrationP2peoiyyxz_xtFZTq
+- _$s11MacSystemUI20_C2SpringIntegrationP2seoiyyxz_xtFZTq
+- _$s11MacSystemUI20_C2SpringIntegrationPyxSdcfCTq
+- _$s11MacSystemUI23AnimatingObjectObserverMp
+- _$s11MacSystemUI23AnimatingObjectObserverP09animatingE7ChangedyyAA0dE0_pFTq
+- _$s11MacSystemUI4RectVAA17SIMDRepresentableAAMc
+- _$s11MacSystemUI5PointVAA15SpringAnimatingAAMc
+- _$s11MacSystemUI7Point3DVAA15SpringAnimatingAAMc
+- _$s11MacSystemUI7Point3DVAA19LinearInterpolatingAAWP
+- _$s11MacSystemUI8AnimatorC10invalidateyyF
+- _$s11MacSystemUI8AnimatorC11isAnimatingSbvg
+- _$s11MacSystemUI8AnimatorC11setObserver_3foryAA015AnimatingObjectF0_p_AA0hI0_ptF
+- _$s11MacSystemUI8AnimatorC14animationSpeedSdvs
+- _$s11MacSystemUI8AnimatorC4step9deltaTimeySd_tF
+- _$s11MacSystemUI8AnimatorCACycfc
+- _$s11MacSystemUI8AnimatorCMa
+- _$s11MacSystemUI8AnimatorCMn
+- _$s11MacSystemUI8AnimatorCs23CustomStringConvertibleAAMc
+- _$s11MacSystemUI9AnimationC14projectedValuexvg
+- _$s12CoreGraphics7CGFloatV11MacSystemUI15SpringAnimatingADMc
+- _$s12WrappedValue11MacSystemUI15AnimatingObjectPTl
+- _$s13WindowManager24AdminXPCListenerDelegateP05adminD0_17exposeCoordinator16toggleExposeMode10transition10completionyAA0cD0C_AA0jH0C2IDVAA0abjK0OAA0abJ16ToggleTransitionOys5Error_pSgctKFTq
+- _$sSd11MacSystemUI15SpringAnimatingAAWP
+- _$sSd11MacSystemUI19LinearInterpolatingAAWP
+- _$sSfN
+- _$sSo6CGRectV11MacSystemUI15SpringAnimatingACMc
+- _$sSo6CGSizeV11MacSystemUI15SpringAnimatingACMc
+- _$sSo7CGPointV11MacSystemUI15SpringAnimatingACMc
+- _SLSGetDockRectWithOrientation
+- _atan
+CStrings:
++ " animationSpeed="
++ " shownBy "
++ " transition animated shownBy "
++ "$__lazy_storage_$_trackable"
++ ", setViaGesture:"
++ "Add StageManagerShowDesktopTransitionModifier [%{public}s] direction=%{public}s"
++ "Skipping fullscreen close: no target space available for %{public}s"
++ "System Gesture Disable Assertions: %{public}s"
++ "SystemUIModeMonitor _LSModifyNotification failed: %{public}d"
++ "SystemUIModeMonitor failed to schedule LS notification"
++ "Terminating system gesture disable assertion for disconnected connection on target: %{public}s"
++ "WSSpaceManager: 'shouldPosition' was true, but 'displayID' was nil. A space cannot be positioned without a display."
++ "_TtC18WindowManagerAgent14AnimationGroup"
++ "_TtC18WindowManagerAgent14SpringBehavior"
++ "_TtC18WindowManagerAgent16AnimationContext"
++ "_TtC18WindowManagerAgent19SystemUIModeMonitor"
++ "_TtC18WindowManagerAgent39StageManagerStripPeekTransitionModifier"
++ "_TtC18WindowManagerAgent41StageManagerShowDesktopTransitionModifier"
++ "_TtC18WindowManagerAgent8Animator"
++ "_TtCC18WindowManagerAgent16AnimationContextP33_BA5AE5F374FA51CBCA60D515B8A048A710Generation"
++ "_TtCC18WindowManagerAgent39ShowDesktopOverlayDisplayItemControllerP33_B28126D94FE90E92DDEF2AD50AD9BA3816RevealProjection"
++ "activeShowDesktopGestureEnded"
++ "animatingObjects"
++ "animationSpeed"
++ "animations"
++ "barVisibleContentHeight"
++ "com.apple.ec.Dock.appExposeShown"
++ "com.apple.ec.Dock.desktopShown"
++ "com.apple.ec.MissionControl.shown"
++ "com.apple.windowmanager.SystemUIModeMonitor"
++ "dampingRatio"
++ "dirtyKeys"
++ "enclosingInstance"
++ "finalized"
++ "forceFullEmission"
++ "friction"
++ "generations"
++ "gestureProgress"
++ "hasBeenCancelled"
++ "initialSourceOutputModel"
++ "isProcessSwitchingDisabled"
++ "keys"
++ "labelInteractionHandler"
++ "lastHasOriginOverride"
++ "lastIntrinsicInfo"
++ "lastNotifiedProjectedValue"
++ "latestShowDesktopGestureProgress"
++ "notificationID"
++ "notificationQueue"
++ "onProcessSwitchingStateChanged"
++ "preferencesHideDesktopIcons"
++ "preferencesHideWidgets"
++ "response"
++ "revealProjection"
++ "revealProjector"
++ "setDamping:"
++ "setMass:"
++ "setStiffness:"
++ "settlingDuration"
++ "showDesktopTransitionKey"
++ "stripPeek"
++ "stripStage"
++ "suppressNextStripStageTransition"
++ "systemGestureDisableAssertionIDsForConnection"
++ "systemGestureDisableAssertions"
++ "systemUIModeMonitor"
++ "tension"
++ "translationAtZoneEntry"
++ "updatedObjects"
++ "v48@?0i8d12@20r^{__LSASN=}28i36^v40"
++ "windowConstraintsCache"
+- " transition animated "
+- "<StageManagerStripStagePhasedTransitionInternalModifier>"
+- "Shield window dismissal completed but we were not in the expected state"
+
+```

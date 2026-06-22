@@ -1,0 +1,29 @@
+## uuconv
+
+> `/usr/sbin/uuconv`
+
+```diff
+
+ 22.0.0.0.0
+-  __TEXT.__text: 0xcf2c sha256:1b411d9da7c0cefd998e71baa155f92bc23c108bcaa01e6fbab709c2c8fa28b4
++  __TEXT.__text: 0xcf44 sha256:c3211940e8de30c3e120b19746114694f9830154a84d7a497a143b7debaae69b
+   __TEXT.__auth_stubs: 0x280 sha256:7445960441c7ecd91ef7abdaf2a44143a45f6127f062713aa3800907931b4362
+   __TEXT.__const: 0x9e0 sha256:9d951f80b8412e485cfc80041c62dfae977e6ce70e6022e0a049f59434eaab63
+   __TEXT.__cstring: 0x10fc sha256:48c03238308f10351d49e448a0c5ca6856da2a9e58e6ae966efe1c67dc2e55cd
+-  __TEXT.__unwind_info: 0x228 sha256:5a9d5dd8ee6fcef9b69edaec7d4395821427c165737133d5b884ae37e4b47c51
+-  __DATA_CONST.__const: 0x1608 sha256:8380c3c7ba853395f4d0d10aaac03eb5a7d1e037cca92cb02b54063db7736545
++  __TEXT.__unwind_info: 0x228 sha256:7f86178938fa32c52aab75717142525e3d09ebc217cf7e4840bdb924dd197706
++  __DATA_CONST.__const: 0x1608 sha256:9f5f661207cca23dc5e85da44569337e557b81c34ada1f57457cc96513b620ef
+   __DATA_CONST.__auth_got: 0x140 sha256:cb2ab2c5388d87a404b8ba8db66629842d7460bd3f4aee48e1ac0dac0a84cd7c
+   __DATA_CONST.__got: 0x28 sha256:625a1bddae5b7bb5b1e2dfd1bc534d996aba7d9e3248a00f73ca9210576ef32e
+   __DATA.__data: 0x4 sha256:67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450
+   __DATA.__bss: 0x1c sha256:3addfb141cd7c9c4c6543a82191a3707ac29c7a041217782e61d4d91c691aee8
+   __DATA.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 7220F1E9-7603-327F-A034-0C57BFCACF9D
++  UUID: C9122641-F617-3D4D-ADEF-957E89186A23
+   Functions: 131
+   Symbols:   45
+   CStrings:  336
+
+```

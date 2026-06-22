@@ -1,0 +1,101 @@
+## AppleVirtualPlatformSystemService
+
+> `/System/Library/PrivateFrameworks/AppleVirtualPlatform.framework/Versions/A/XPCServices/AppleVirtualPlatformSystemService.xpc/Contents/MacOS/AppleVirtualPlatformSystemService`
+
+```diff
+
+ 193.0.0.0.0
+-  __TEXT.__text: 0x36dc sha256:6c317210af5e61b61af692588f22c5189ec77e0920fb94625bf0dde4f5b63575
++  __TEXT.__text: 0x36e0 sha256:b8fa6ce8d483be2f601b57786a404fcf803b3f640564919bda70f4b8bd22262c
+   __TEXT.__auth_stubs: 0x3f0 sha256:87e9135be644b55d4bf44e8fedaaa77eacb1233f4c5f301a4814993b4af6ef1d
+   __TEXT.__objc_stubs: 0x420 sha256:3ef3d60342c5e36ca1e434a054960d58f338b8c7db34d671cce4d46e2f7894d7
+-  __TEXT.__objc_methlist: 0x20c sha256:de9f9b8b80c1e3da4f9d361255c07f0259ba075708ecbf19fc99a9459c3d0eff
+-  __TEXT.__gcc_except_tab: 0x4c4 sha256:a8abe0c51c5b579f6cc6c7c083c376f696ce6b1659fc81dc3984513f942a63f4
+-  __TEXT.__cstring: 0xcc6 sha256:173703d7ba25f6bee0c118b5cec5a82d8c8daf4ba3c3d6b336559b9b3bea9324
++  __TEXT.__objc_methlist: 0x20c sha256:4e6048fd9b4f96a1f9a4a09930f3bed9eae6c7a40593b98b9d0db31098cff836
++  __TEXT.__gcc_except_tab: 0x4c4 sha256:b52b4155703429df4853df84ca9a2fd641fd1b9785a4ff190f14e6b2a8804c82
++  __TEXT.__cstring: 0xcc6 sha256:ab8d59c1a8b62ad126f0526dc5e53f034de1b8bdaa58f766834a3a66b5bb4d84
+   __TEXT.__objc_methname: 0x5d3 sha256:21f48f1500f1b248aef6593531dd50347da3ce6a46a2d93bf094d9b82b2098aa
+   __TEXT.__objc_classname: 0x9d sha256:4eef0c1a44445598f7bb172beb4876d99a2d25293e54d297fa11a591528e3ef2
+   __TEXT.__objc_methtype: 0x1fa sha256:d7419f0a66ab4fdbd90c6429de77c4a268afe5b594901564da4cc5d9113bd780
+   __TEXT.__const: 0x10 sha256:3f00ffb54c3d946931c0931c650c1e5a54a4ddea13e5434e1d806897d29aad1c
+   __TEXT.__oslogstring: 0x17 sha256:61ee2cff2ad01f50dcd5f3181dfeb6f6fd83e803bb86dfa8d12977c18cad106d
+-  __TEXT.__unwind_info: 0x1e8 sha256:b015425216f58277b93fd30b04e05ce3139c80c776b589518e8e30ce7c9d4f8f
+-  __DATA_CONST.__const: 0xf0 sha256:9f68fff2e9d9e3e549db2ccad1e46f28f1c4ee708fc7b33f3fc330eed10513f2
++  __TEXT.__unwind_info: 0x1e8 sha256:4fb84a3c542ee8adc850589567a272091f8e83e28fcf747b99bf1f633c6feab8
++  __DATA_CONST.__const: 0xf0 sha256:b56e394e460031659262ade3dfc3f2b4e72468b11eaa04037583498cb4d59522
+   __DATA_CONST.__cfstring: 0x5a0 sha256:c8f720e1b425aec55492be98ee90dc15779724f2fde36d162ee8137510e91b32
+   __DATA_CONST.__objc_classlist: 0x18 sha256:b9b6f0196516b9f74e10aaee68a7ee944e4bffdce5ef0dfaf0f9ddb4f58dd52b
+   __DATA_CONST.__objc_protolist: 0x18 sha256:74ad60ab106e5ca06d647fd76f2df94f8217239b514a3c7f7196ffc03fc17c3b
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 224B7CC5-009D-3BA3-8431-66DD15C617E8
++  UUID: 7C3A1E9F-D7BC-3290-9423-022F9E00C948
+   Functions: 59
+   Symbols:   103
+   CStrings:  246
+Functions:
+~ sub_100000e18 : sha256 b8aaaab656b0ae754e59e31338feea28a31a34d0612b9a245d1a2a12fc40dafe -> d254bb74a198e0ce7977c340f93fefdbc1e08c8b372e10f79d894ed4bde3c570
+~ sub_1000012fc : sha256 1d36e4d97301facd59332d6ace80d2b4be1b13551fee540ec43af46d575de2d1 -> 8e920cc0050f386daacea2ef8886a17794c71623594a2b55f5a1737bcee28d44
+~ sub_1000013fc : sha256 8de9244261e51b1f15aca553a154838e2a7e60321a7db6ce1599710110189278 -> 08cf4371fd71dfc7ee103bf58af1732313eb8e23e9907d5cb833c39436d0aa1c
+~ sub_100001640 : sha256 66f6762745c2002e8804f59b898411e26f258e3155f24d0b6b36c1c719c6589e -> 0466476718e7b987c61020806c508a9c26d7253826276840b3f6bbcccbe11e9d
+~ sub_100001708 : sha256 b947656f8b9ead367e19f37987dde92e7aae24c97d826bdc00311723ec4ee2a1 -> f74ee0f6b16f6aff3d0c66437c8819a6863d79c384e3c4f5ebde8ec0a5c053e7
+~ sub_1000017c8 : sha256 c9c2543c488ce3776b02280dcd0e328a1b0dd5853b070e13e269571054ad36bc -> 1439fc5a214a1f5084c7a31ba109fc7bb105a7c0fc34d64f7ed605eba3751fc3
+~ sub_100001844 : sha256 5471a0de80e123a2a9b832e0dbb08f95c6cf9e91a1f762b74c2135bc962df516 -> 27c1d1acd93fd493f5879906015b864504f43cca725e051cc9119e69e28c41ed
+~ sub_100001858 : sha256 fcda960789d43163f95c57e5d871f2e68eb6cf7872a9d5fd27e18dd3176bd2a2 -> f1a8b52a88ca83a368d23a5150100a35695cc9214fe5f0c4b0c05eed303e7f3b
+~ sub_100001860 : sha256 e0fe0b216297cd890a1abb0a5e7c9598f6008c9db8fe2b6f625bddc74d5151d4 -> 422a172864d0fce656a528b8009faffd58d664521dea9acbd07302b867f31925
+~ sub_100001914 : sha256 1b6244e8b568494edba4fb237627a65ea00a450fa139ff1c18ca17dd6816f2d4 -> 89d0b621833df4781e41ce006990ce1ae394acf32e683380a60b92e45a9f9289
+~ sub_100001970 : sha256 156e6c1371e2ae6c3c66b63654d6784340b24e7bdf042c7f3c8b391af44c0c69 -> b826636a607f7afcd26f153b24e8260ebad55ce00613ea0148401c09175a5b9b
+~ sub_100001bb8 : sha256 9689348362da5596c5a79b5463721c8185dba15cae04499419f94414d2fbd470 -> b6649d0a8ddeecaf2de1654891a6af21974358e7ea0644a610a911bfb2dc373a
+~ sub_100001c58 : sha256 efe46f64616b1c6f6f0535a23bf1fb11c2b4f3b03a1dae2d480c20d933c6a243 -> 99b89f68b302118937966e534ddf8fbb92568be903ff87639e325f539f8819d9
+~ sub_100001cf8 : sha256 a1c5145c00d0bdb84c81e97dfc863fa3d1373687ece390d6e495f836c776c357 -> 1995dff58fa85122cb07284755a35a6099b7aa8a4ee2536ccd3875e3d225ff63
+~ sub_100001d40 : sha256 f197d58dd4bb7ff46024adbf3a929f867fd781534fb10298d14c54911930c089 -> c7403a5c6a2f453fa123dbbeb62d325016b095bed986defedda7fb98e0fe6874
+~ sub_100001d7c : sha256 d345dfccf157fa8ed989d2f3fe0bf3d75f748c8594bb5e646fb41a7f8080664f -> 76ac4df225548d1fa01ab5f398308c97832b33b5cdd14009a41b97d56335c093
+~ sub_100001e80 : sha256 4c8f3e2497bc4f191635c846b53395cc1e5db8452c49f58fc7edde4890dd7394 -> e20d3a1cacc441d3dececa1e31f0cffb41ab299915b56cfaa03723553a8a5e94
+~ sub_1000022b0 : sha256 5152e3fd942da655870b78edde48df276ab3ff28ef0ff7bcc73b1eab456793c1 -> 6a3ac0646aac4a4fc846cb710d31b8905004e2ae2f1b2f9e51712d028274ed96
+~ sub_1000024a4 : sha256 398274bab9ca44454432ad26ef4f6a9fd8adde04582f61b74b1479aeeb81d376 -> a9530363eba4675621f43f9321cfc5d5b52a5771226a6639dcb48d97222167c3
+~ sub_1000025b8 : sha256 301d7f35555babc9e0d7fce244ff403f0643bd384fb455c0c40e01de936621b5 -> 6a62518d24296bca0e443985aea3f23e8bea3f6eca9df218115a3f6ea3718f11
+~ sub_100002610 : sha256 4fb4d3c1fd1a7a7816cd67a91b1bf7cffbabd4c67ca659b46cb37ac745a1f5dc -> d94d033e3b76bdd75f3d35805519ebe990bb7d5d1eef30a4a8bc243b8090ef67
+~ sub_10000265c : sha256 2ba7c09a78c35584693744ec7180b48883aa6b4c2def846508551cd8f50fb473 -> eef7ca6e1c34cfca1dfcca98fe683f7959a16a938c5fb885c929dbf5ac875dfc
+~ sub_100002718 : 648 -> 644
+~ sub_1000029a0 -> sub_10000299c : sha256 7cb37547a2a594fc4cb388f536f6ee2f51f9482e24402d3408f1ecc860c425af -> 2d7b0ae67c58a03c0c9db581c85edc7bdd8ba73096bf196c1662311df707fef5
+~ sub_100002a34 -> sub_100002a30 : sha256 0f7293ff640989e90628a12d3bedf64a56ef80ccff664f0044f5d3c2331d1584 -> 121ef0184ab34d59816c80a018692a4829890f7acdbfc4d2f8df90229f10cbe3
+~ sub_100002a70 -> sub_100002a6c : sha256 477adbc69d6c172ed203a15426127a2d55471ecbf03a7eb01e872c58aadd02b8 -> 6d8b938408837dacb2e45bd5c6c9f54051e762b0b5bf88331aa2d70f396bb04b
+~ sub_100002ac0 -> sub_100002abc : sha256 f8b341cd0c22355cc17f825eb755de56a491547f85b147e973f554b66e4149eb -> 65f2d31ef0625e2db28539d489bee5e5f25e0ba79126665437c8086fece5a6ca
+~ sub_100002b34 -> sub_100002b30 : sha256 8cc2f0b42b98e2a2682332a7d05783be12081f27019a05f90ec3cc59a248307e -> 24a08da0bcb50a6054f7db4415f63b55a69f09e01e2c54624780154f538a66b8
+~ sub_100002bac -> sub_100002ba8 : sha256 e2e13cfe249d2ac5bee8e3ed1ae2eceb22d98de5d43c993b442fffd1401fb8ef -> b2ceffd132cccc9a6ad5bb58980eb214fee7d52a3a835934bbe28cee1a1bc450
+~ sub_100002c14 -> sub_100002c10 : sha256 e54ed6ef7d9ee8bdbadb14e0bc834146ad6e6025d3edf40b14cb65589ceece64 -> 72e863f8249b6d60e6a1d3084f4bcceb8f827ac0c41123c1c7d486ca42c64556
+~ sub_100003194 -> sub_100003190 : sha256 c47ddf152182188918eb915c48eea7cc7a10556ddd19b159c9756a986ce42e7d -> 0fa6bd25ae9ed6772a7d6539e417ead962b1015ed8b17b621f4213889854261f
+~ sub_1000031a0 -> sub_10000319c : sha256 14a168f3d02ef89685c414e9ea839532ed4eee856a9b8425b1eea02a82c0df8a -> 4ba70ca57347fba015780a1e1754f3a45e226f29d4cf7b44489afe1559b47339
+~ sub_100003230 -> sub_10000322c : sha256 ff0412b8569b07b116342c6fbe67263c0da796c388059116bc6b3a434c9ef430 -> bcaa77545616d27e3687e7357d22390864f832d62173e62bdffaf019ad7a67ab
+~ sub_10000329c -> sub_100003298 : sha256 ecf2abe9d6ca47c8988583d82beda2cde6c1c13c7e8a3dbfd8bfbe6f3a66a807 -> 7bfd3c0375c4ff755ae6b003231a190b506df5a06f8ad9306e72444f05c3c9a7
+~ sub_1000032bc -> sub_1000032b8 : sha256 e90faaeea58b110fc914cbb2b8cb7687d700e37e381f1c76872acba62ec36347 -> 5292d7245e67c777337dfede9109016990bcf04c4263b2122eea597c02fe65e4
+~ sub_1000032f4 -> sub_1000032f0 : sha256 a3f9d8fef613d5e03112d1bba95b483d76bec47ecab9a640cbcb148c17849c32 -> 74748e41f61969131b13b53ac916c5cd00feaa1be7a5c52c3bb1ae6fac763ecc
+~ sub_100003354 -> sub_100003350 : sha256 6a841da31de0244a4b1d61e1fdc611eb52f43cacffd86acfc6b040ded67f7810 -> b8e8b000c6cab772286024e3034b0bdaa83cc632819e82a76249ac0c1a9db79c
+~ sub_1000034d8 -> sub_1000034d4 : sha256 b80568d400671e883d3e915474329421b432ceac1153b43c890dde1fc9ed55c9 -> 9389b47b4d8988195ec7a558e2e7ce5a2cacf05be2b73110ec95ce7e899bf351
+~ sub_100003678 -> sub_100003674 : sha256 81e9d2453ac202fd563fae0ca3ad24bfb4d962636956ff6c2b8be3d3890e9942 -> d16bc1c0df402d0760347cf55f26518868848163abd23a769548b9555661415d
+~ sub_100003718 -> sub_100003714 : sha256 d7a74883055731333fd6bb83cbb47b84364339b912867865679dd5f39def855d -> 6292cccf4a576bfa271877d807a8fde404e823b4ecdac9195c0f50e2c301c157
+~ sub_1000038a4 -> sub_1000038a0 : sha256 23cebdbb5b8ab3212524d29d414826b3b110c420745a4ddbdaaf718d41ae308e -> 576532874f6540b16bcfa1525eff6b8a35785758cada5bbf2fa077ff78b81746
+~ sub_100003aac -> sub_100003aa8 : sha256 5f55ee4b4e5b47f33bce6f7f3116d20d86b6ae8519529cdd18cbbfdda8b8a4ab -> ad69168c310b6f5e14823c84cb55ecf2d3c1e3c4e339f8bab993c83df3ccdf70
+~ sub_100003f70 -> sub_100003f6c : sha256 cd5a07a30d79349b899b09c9cdc149cfd873553316a0f0f0634f440b666a6503 -> abc9d6bd921267b1f94130995706918e2f9bb997793e45b1035d44f747728eec
+~ sub_1000041a4 -> sub_1000041a0 : sha256 309e1ab916fb249c4eb35ddb5e879bb2ec6cd563aa9aca5fab0f70eb188cadf7 -> 91cffdddbc52f345109e0196dfc815d44a204536ece57b803445ca22e5fffa10
+~ sub_100004218 -> sub_100004214 : sha256 b046d05a703e6417ebfa1d9921cd19d7a1af548065566966c74aa536e4260ece -> a85616bffd4d66b25220818c0068c583110c37597d542598e418f96219041254
+~ sub_100004270 -> sub_10000426c : sha256 1cddd87d7e1a43a5313d793bf8eda15a85aaf3a73c741a1b1a1355f54c8c87a2 -> 39a835767d52695772f84ac7c83d72b0921df4e6fb916dd62cf9086f503da1a0
+~ sub_100004284 -> sub_100004280 : 100 -> 108
+~ sub_1000042e8 -> sub_1000042ec : sha256 b95d3dc8ce501d46608e4fd5f6f942de6335a8f7afae7b8627ed7664f51ca62e -> ad5fcff579ed15e637bc25b851b3134e2f1a3804aa05865e84cae981ec14b6b1
+~ sub_1000043bc -> sub_1000043c0 : sha256 232e3a43f5f1a1782ab850f4527172d7cd0415526b405f598a9d1b2bb95dae2c -> 7b5a6fb903018ed70c3716eb05d348667fbf1c61e3de383f1acb2c7eff78f774
+~ sub_1000043d4 -> sub_1000043d8 : sha256 f4394c7f301de0f68382bc66c9ecf28a9ee93ffaab01c843a07a58f64676af00 -> 2d7c751a592e0573edfff5b571334b6bdf527d9fdc2185aebe28a38afeaeccf9
+~ sub_100004438 -> sub_10000443c : sha256 cbca43335be30ddd19cd4c2e1e87b15f06333d74fb033919bc8bf0ec045add54 -> 4c8a53e35beed87606a94aee9f33266b4b19d73b54b5f5a5ecf717696144d165
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRwPugDYoRH0naIor73cjz-_xxn9qzyPd7Nfoew/Library/Caches/com.apple.xbs/TemporaryDirectory.RioUPi/Sources/AppleVirtualPlatform_libs/Identity/Framework/AppleVirtualPlatformHostKey.mm"
++ "/AppleInternal/Library/BuildRoots/4~CRwPugDYoRH0naIor73cjz-_xxn9qzyPd7Nfoew/Library/Caches/com.apple.xbs/TemporaryDirectory.RioUPi/Sources/AppleVirtualPlatform_libs/Identity/Shared/AppleVirtualPlatformIdentityUtils.mm"
++ "/AppleInternal/Library/BuildRoots/4~CRwPugDYoRH0naIor73cjz-_xxn9qzyPd7Nfoew/Library/Caches/com.apple.xbs/TemporaryDirectory.RioUPi/Sources/AppleVirtualPlatform_libs/Identity/SystemService/SystemService.mm"
++ "/AppleInternal/Library/BuildRoots/4~CRwPugDYoRH0naIor73cjz-_xxn9qzyPd7Nfoew/Library/Caches/com.apple.xbs/TemporaryDirectory.RioUPi/Sources/AppleVirtualPlatform_libs/Identity/SystemService/SystemServiceMain.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQPDugBdD-A2CTFoUuc40jW17ojTVUC2GwPGEhg/Library/Caches/com.apple.xbs/TemporaryDirectory.pNWHZP/Sources/AppleVirtualPlatform_libs/Identity/Framework/AppleVirtualPlatformHostKey.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQPDugBdD-A2CTFoUuc40jW17ojTVUC2GwPGEhg/Library/Caches/com.apple.xbs/TemporaryDirectory.pNWHZP/Sources/AppleVirtualPlatform_libs/Identity/Shared/AppleVirtualPlatformIdentityUtils.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQPDugBdD-A2CTFoUuc40jW17ojTVUC2GwPGEhg/Library/Caches/com.apple.xbs/TemporaryDirectory.pNWHZP/Sources/AppleVirtualPlatform_libs/Identity/SystemService/SystemService.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQPDugBdD-A2CTFoUuc40jW17ojTVUC2GwPGEhg/Library/Caches/com.apple.xbs/TemporaryDirectory.pNWHZP/Sources/AppleVirtualPlatform_libs/Identity/SystemService/SystemServiceMain.mm"
+
+```

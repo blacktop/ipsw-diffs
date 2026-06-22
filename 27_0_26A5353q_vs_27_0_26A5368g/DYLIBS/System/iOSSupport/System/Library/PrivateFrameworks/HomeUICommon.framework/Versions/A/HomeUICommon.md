@@ -1,0 +1,185 @@
+## HomeUICommon
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/HomeUICommon.framework/Versions/A/HomeUICommon`
+
+```diff
+
+-1216.4.0.4.2
+-  __TEXT.__text: 0x2f674 sha256:f5ab9144c8f7b05bc49b8deebf16e168ac11e6d52098857e8c3d998577f517b5
+-  __TEXT.__objc_methlist: 0xe6c sha256:4151eb6ba18e5ef5917996306877c551805fbc5a0bbc8bd46c2c64172510942b
+-  __TEXT.__const: 0x1bc8 sha256:a1f5519b06a07f532863ae199f85e578df12dc9dbe4048f5b837f529fe1ab061
+-  __TEXT.__constg_swiftt: 0xdd8 sha256:f8cc07ce81e38bf7d7cc8b179b3cb8b371ac0cb36221abe571cd1306b8948ce2
+-  __TEXT.__swift5_typeref: 0x1858 sha256:45a38a6f71594d03180ef120629cdb8eec53b90b30007770d0fe0f7df2beb9e9
+-  __TEXT.__swift5_builtin: 0x28 sha256:cdd48c264f32dc066322a083917cf143bf4d7bb4e582c409b3a3fa7c59e4e58a
+-  __TEXT.__swift5_reflstr: 0xc6b sha256:45493d95a1cfeb9663e07acf3883c353d995bfdff0486eb58e639b190a2a6dff
+-  __TEXT.__swift5_fieldmd: 0xaf8 sha256:485a507f983015d1affe23023dc3930f04105ccf224573cccf37a596848e1519
+-  __TEXT.__cstring: 0x2866 sha256:63f1acd5f7db833cdcf5fb6e37c46de944bf01b33bf772fbb3ba2048d738965e
+-  __TEXT.__swift5_types: 0x8c sha256:547041632fca5a6d3105e5182e00b18b8db25ddabf25d44f2b8ba0544b922663
+-  __TEXT.__swift5_assocty: 0x208 sha256:b92fba50d873ec1cd9b31e20b7b150de490c023e0bc1d1ae92d6c66a63d9344d
+-  __TEXT.__swift5_proto: 0x98 sha256:8937017e789b70610b87d06d9bafbc07b08c62a1c34fa5f643a6a97e0abc6f99
+-  __TEXT.__swift5_capture: 0x1f4 sha256:29d529d07381d6cfc3fecc467b95c7b36b4ecc613601a2b4ceef4e8ade24f2eb
+-  __TEXT.__swift_as_entry: 0x18 sha256:a518c3f57e2423469f3a9c6a6d7cbcd95e57e743a327c3e4ed8d6533d8cd4be6
+-  __TEXT.__swift_as_ret: 0x10 sha256:4dd2d4ce01c9b2241f7769199e11cb85b712dcfdd788ff1738a5514f28c4fa59
+-  __TEXT.__swift_as_cont: 0x44 sha256:1e2c1a80f960c23fbc9141409d313372c8585b629a38b6e29426ccbc1b2f9885
+-  __TEXT.__oslogstring: 0x80d sha256:15ce0f5f212f0f30fec490c35d4c2a1b94db389786ce17a2c82f561ac263f4ac
+-  __TEXT.__swift5_protos: 0x4 sha256:5783d41e34c564afd82d68fa4419be3ca1f825f7e6c7a7857bbcd8b0c123145a
++1227.0.0.0.1
++  __TEXT.__text: 0x3494c sha256:3b7d341a9be41ac105a4c92f48ad5c4c6419e6a79c3601f676a4b3c20c1f88f7
++  __TEXT.__objc_methlist: 0xe6c sha256:04230f93c6221ab73f7427c56b33807ab32b3beb4b29c1c86a56df0576dd211c
++  __TEXT.__const: 0x1c88 sha256:89e42ea402c66d3ff777149809673658dbb485cf609c825d21c53c751d8f5fd4
++  __TEXT.__swift5_typeref: 0x19c6 sha256:6d3c05b0469656a70141bde2300d5c9f06d4a54dbfca7a9765bf1e738439bfbc
++  __TEXT.__swift5_reflstr: 0xc7b sha256:eeed6ab0cf386048f950e571aaf91d263bb00e9e08b6764c6726eb5d3f288c83
++  __TEXT.__swift5_assocty: 0x208 sha256:4691f4a3034f8604c882b0f8e566ca51e59d301d307f5103adf59134a63772fa
++  __TEXT.__constg_swiftt: 0xdd8 sha256:101ddca797d00bf4dd0776ee91ee6b0e7a96560b72412dfe78608ee6c4509e24
++  __TEXT.__swift5_fieldmd: 0xb04 sha256:865e53845887bd0fceeb45a82825789d68f8790a7dc9f261e031fba16f9594b0
++  __TEXT.__swift5_builtin: 0x28 sha256:a7825247f053d969a6dedbe95795d00fc53ca7221b4655a7d8dea74caca09290
++  __TEXT.__swift5_proto: 0x98 sha256:cc9fbe5175fff4ce71028a940f8c0879e9787b0960f1b73bd9c4ef6b791fb04b
++  __TEXT.__swift5_types: 0x8c sha256:662da4f377ecc002a598fd288490cb23c53a50acebe4372d54c2e34b8ac4d8a0
++  __TEXT.__cstring: 0x2869 sha256:b8e700c4870c340ba4e0e9dd7fc756d47051a9cb5bb07e16297492ee2c61c171
++  __TEXT.__swift5_capture: 0x208 sha256:9c1b68e511b019f708885d77aa609e449d95e47e5d8ae98da68034e7badc1ad1
++  __TEXT.__swift_as_entry: 0x18 sha256:5a2562fc6d09716f9d71e44f0a08b3705543f3bcdf6f6ec6ea00800a30fdee7a
++  __TEXT.__swift_as_ret: 0x10 sha256:2b9c38a0289b147fc8270ed88ebdbb8c17a38cfeb676b56bb7d8f95052f62a5b
++  __TEXT.__swift_as_cont: 0x44 sha256:45f593b55d8befa6ab783dac0db38830bf047449a0378d2e9959b056f8de900b
++  __TEXT.__oslogstring: 0x9dd sha256:45023b2debe0802f8a2175936177ab27a16993b152881fb2151edf5db907b496
++  __TEXT.__swift5_protos: 0x4 sha256:f0a07d97bed3afdf6c3d79bd645429484e467197030fa05b4a1c3faa365a3680
+   __TEXT.__gcc_except_tab: 0x50 sha256:ee8397a38c6a15d1151934b3052c6ae8cf961cb20af911f5ec23cd5a30a381fd
+-  __TEXT.__unwind_info: 0xd48 sha256:e0c8f462a0e6a6ce2757cba9b47c685e40844d3fdaa16ee55ef746c57603706c
+-  __TEXT.__eh_frame: 0x6a8 sha256:ead8ffb105d32b14cf2e1e537bac00366b7c6624b113c3c93e7fa70212a882ee
++  __TEXT.__unwind_info: 0xdb8 sha256:7d973ec1772043bec7a6afce43078b83b329a9e3c35af5527cafc0053d73edf5
++  __TEXT.__eh_frame: 0x748 sha256:fea6c87d95147dbf0a129c5cc07aade00db58af5ccf80bffa8af23e91822be9d
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x4f8 sha256:5a3272e2f54e242ada09dae025127b9cb9931c9afcc4f748e8d79649ee062251
+-  __DATA_CONST.__objc_classlist: 0xd0 sha256:78494126444523813c312d1eebc1544f53fee4f7e7e56c5ff08768779b074407
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:3b04b7aa6f7426c2f0e7a50aaa0aab50dbe2818f0800aaec13a5491edeb0c1fb
+-  __DATA_CONST.__objc_protolist: 0x60 sha256:0225fab9267c05903b009c403e723cefd437bc9bbc4db995f8ba29b5deb0817e
++  __DATA_CONST.__const: 0x508 sha256:3ac2d0c60d79b72d4b4f2b6f6343a7351aab212dec2567cae346b80512e5ed5e
++  __DATA_CONST.__objc_classlist: 0xd0 sha256:c97d0f31e940df8626415fed4e5dc27d4668a7eb6e67dc8f9c6a3e26a2c332b0
++  __DATA_CONST.__objc_catlist: 0x8 sha256:29bd78cc7e448a6ba2436928aa7fccdda2e87f6eaf53c0a59a5f9993910df31a
++  __DATA_CONST.__objc_protolist: 0x60 sha256:9fab1aeecd66a7b3c8c061678464760f7605bd671ea85b253b9236a3ccc99679
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xde0 sha256:d14d315d66eec50a94d7d6763495cd64d8314c41ce1fc9d41e3e5516b304cc81
+-  __DATA_CONST.__objc_protorefs: 0x30 sha256:5caaac7492e51dea9c8e146740c66e3f362bf3a0bb13f3cdabe34461a5a38984
+-  __DATA_CONST.__objc_superrefs: 0x58 sha256:5f62f573d20dadd4796f5e5082062717e33fb342e176cc9b9c36d860225e2662
+-  __DATA_CONST.__got: 0x688 sha256:d68265f070b7526b1309dd64e7d88eaafeda590cad86aa37be1ba85c039ecdc2
+-  __AUTH_CONST.__const: 0x1688 sha256:1fd1ac5dc844ab680b291645077dfe65e2c398bd75db54340b716f54f2f512a3
+-  __AUTH_CONST.__cfstring: 0x9e0 sha256:c5fce557d80b0684c88ec6d50069af7662f517d881ad97f9d5d75763abf2c9fd
+-  __AUTH_CONST.__objc_const: 0x1e40 sha256:fa63a21df29be77e3f82095cd99c194e25447826df5cb9c48b95c143d9d8381e
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:91a6d9e97267dff839ab8df8715b6aa0365e9d7c0130ba2205366a25bc00a93e
+-  __AUTH_CONST.__auth_got: 0xe08 sha256:2d4a4691da95f22b8ae8f1671f6185252e8f47d0c5dc35bbac90f3dd618ec95b
+-  __AUTH.__objc_data: 0x5f8 sha256:964674f905dd6f65c3ca80480bc152e47f63a263225387b97aea55224ee15182
+-  __AUTH.__data: 0xba8 sha256:e47edaa74ad6c009d0e3610182e476115b142e810e6084300b145c8c0080e314
++  __DATA_CONST.__objc_selrefs: 0xe08 sha256:32114ebd1dc81e058eb949b7a9723230c63c2b3570dabc5e4e02ea101c16ccec
++  __DATA_CONST.__objc_protorefs: 0x30 sha256:d4833f1c7421a7f3e702d1b119a136705663fb9d66d64fe3a5affb8f272225d3
++  __DATA_CONST.__objc_superrefs: 0x58 sha256:bd83089adec106509f55f5a2b4232dc5c302c0da6e65e77373c1244d44bae71b
++  __DATA_CONST.__got: 0x730 sha256:26e1a871fcdebc5b2c7fec243cf5b0d6ac5b1768b3938c1e324c36495a20fdc4
++  __AUTH_CONST.__const: 0x16b0 sha256:bbfc81936a963819d2df8cd3c7ed2dcdc91ea0041f581e68b846a155aef24933
++  __AUTH_CONST.__cfstring: 0x9e0 sha256:fac3b28bcda5a5f5cbcfb95ece814cd427a6756212cc1f4e1a48b241c28bc1aa
++  __AUTH_CONST.__objc_const: 0x1e60 sha256:f3c8dfd90c3ccaa180020a9527f6ec1f2cd69f30d655f753e8e33ef80836174f
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:eaca9f71f85b7ec6cdd918fd9331e6516c7f4be702c141a79ceb615f696fdfa5
++  __AUTH_CONST.__auth_got: 0xf88 sha256:e94f652436e9938c29030e4aaaf965473b812b5f1b5420ba295e918cfcee2991
++  __AUTH.__objc_data: 0x5f8 sha256:f98ad5419d04cea72b36bc6cc0717c5b5c98c495f5c69102ca600b63e33bcb0b
++  __AUTH.__data: 0xba8 sha256:58101a77da81c5340dfce75f4daeabed8d415548b8f9570dc0ab7228d8e5b8bf
+   __DATA.__objc_ivar: 0x88 sha256:f63e5df73161b71bba145ecf7c24d65b5e0d1c39081d6fdc70bfd581fea9faef
+-  __DATA.__data: 0xb48 sha256:a38b87aa40b66284d20a9683e1b197e23205f7631241cd479c9391670afa757c
++  __DATA.__data: 0xc08 sha256:00818bef777ddaa804e598106ad42a8756d8b6258e4e30208603e62d6325588a
++  __DATA.__bss: 0x1028 sha256:662ed99fd6988095d24698ff0ba032a989b21be86ca4443b68dc622de3303604
+   __DATA.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA.__bss: 0x1008 sha256:4f2cfec1c5dc3827cdeb42906713b37cae91e009aa0e2d211c376ccb9969b3ea
+   __DATA_DIRTY.__objc_ivar: 0x4c sha256:245dda1aa8f0f46f0227af15d184a1ea18900de17675d3f30140af03d435e1d0
+-  __DATA_DIRTY.__objc_data: 0x3e8 sha256:c52eccea815a3dfe8ed6b1896d376d3df3439e338672d7795137a5fad7084ed4
+-  __DATA_DIRTY.__data: 0x3a0 sha256:1270bc6e86c05c268eb2315af2ade23985d7e6bde78d54484ffc6c02b5ef4e01
+-  __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
++  __DATA_DIRTY.__objc_data: 0x3e8 sha256:2ad7de5711b9ed33d6b7b2486fa9cc441813e94a131644099fd1020ded6527a9
++  __DATA_DIRTY.__data: 0x370 sha256:db8fefa071049ac1063398ed9e4990a1e8af48531dc1a795fbdba27424d2c5c6
+   __DATA_DIRTY.__bss: 0x3d0 sha256:116d7399ce18e417bb9d1586091987731f6b78e79edbea12349960da3b9269b2
++  __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
++  - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+   - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/Versions/A/NetAppsUtilities
++  - /System/iOSSupport/System/Library/Frameworks/EnergyKit.framework/Versions/A/EnergyKit
+   - /System/iOSSupport/System/Library/Frameworks/HomeKit.framework/Versions/A/HomeKit
+   - /System/iOSSupport/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+   - /System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BFA60986-A77D-30F9-9C13-9BA9A0014BDE
+-  Functions: 1179
+-  Symbols:   1598
+-  CStrings:  412
++  UUID: 47EF46E9-FA33-3FD8-B7B5-8487362B09D9
++  Functions: 1219
++  Symbols:   1619
++  CStrings:  418
+ 
+Symbols:
++ _OBJC_CLASS_$_HMService
++ __swift_closure_destructor.21
++ __swift_closure_destructor.24
++ __swift_closure_destructor.27
++ _objc_msgSend$adaptiveTemperatureEnabled
++ _objc_msgSend$home
++ _objc_msgSend$isPrimaryService
++ _objc_msgSend$services
++ _objc_msgSend$supportsAdaptiveTemperature
++ _symbolic SOSg
++ _symbolic _____Sg 12HomeEnergyUI12FeatureStateV
++ _symbolic _____Sg 12HomeEnergyUI16LoadDeviceUIInfoV
++ _symbolic _____Sg 13HomeDataModel14StaticEndpointV
++ _symbolic _____Sg 13HomeDataModel18StaticMatterDeviceV
++ _symbolic _____Sg 13HomeDataModel19MatterStateSnapshotV
++ _symbolic _____SgXwz_Xx 12HomeUICommon0A20EnergyDashboardModelC
++ _symbolic _____XDXMT 12HomeUICommon0A20EnergyDashboardModelC
++ _symbolic ______So11HMAccessoryCt 10Foundation4UUIDV
++ _symbolic _____y_____AAyAB_____y_____y_____yACyADyAEy______ACy_____y______Qo______GSgQPGGAIGSg______y_____SOSgGSgQPGGAIGGG 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15ModifiedContentV AA6VStackV AA05TupleJ0V 010HomeEnergyB0015GridForecastAppD0V AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AO18InlineEducationTipV AA25_AppearanceActionModifierV AA6IDViewV AO020UtilityUsageAndRatesD0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12HomeEnergyUI16LoadDeviceUIInfoV
++ _symbolic _____y_____SOSgG 7SwiftUI6IDViewV 010HomeEnergyB024UtilityUsageAndRatesViewV
++ _symbolic _____y_____SOSgGSg 7SwiftUI6IDViewV 010HomeEnergyB024UtilityUsageAndRatesViewV
++ _symbolic _____y_____So11HMAccessoryCG s18_DictionaryStorageC 10Foundation4UUIDV
++ _symbolic _____y______So11HMAccessoryCtG s23_ContiguousArrayStorageC 10Foundation4UUIDV
++ _symbolic _____y__________G s18_DictionaryStorageC 12HomeEnergyUI16AccessoryFeatureO AC0G5StateV
++ _symbolic _____y___________y_____y_____yACy______ADy_____y______Qo______GSgQPGGAIGSg______y_____SOSgGSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA0F0V 010HomeEnergyB0015GridForecastAppD0V AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AN18InlineEducationTipV AA25_AppearanceActionModifierV AA6IDViewV AN020UtilityUsageAndRatesD0V
++ _symbolic _____y__________y_____y_____yACyADyAEy______ACy_____y______Qo______GSgQPGGAIGSg______y_____SOSgGSgQPGGAIGG 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15ModifiedContentV AA6VStackV AA05TupleJ0V 010HomeEnergyB0015GridForecastAppD0V AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AO18InlineEducationTipV AA25_AppearanceActionModifierV AA6IDViewV AO020UtilityUsageAndRatesD0V
++ _symbolic _____y_____y_____yAAyAByACy______AAy_____y______Qo______GSgQPGGAGGSg______y_____SOSgGSgQPGGAGG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 010HomeEnergyB019GridForecastAppViewV AA0L0PAAE12onTapGesture5count7performQrSi_yyctFQO AH18InlineEducationTipV AA25_AppearanceActionModifierV AA6IDViewV AH020UtilityUsageAndRatesL0V
++ _symbolic _____y_____y_____y______AAy_____y______Qo______GSgQPGGAGGSg______y_____SOSgGSgt 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 010HomeEnergyB019GridForecastAppViewV AA0L0PAAE12onTapGesture5count7performQrSi_yyctFQO AH18InlineEducationTipV AA25_AppearanceActionModifierV AA6IDViewV AH020UtilityUsageAndRatesL0V
++ get_witness_table 7SwiftUI16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVACyAhA15ModifiedContentVyAA6VStackVyAA05TupleJ0VyAJyALyANy010HomeEnergyB0015GridForecastAppD0V_AJyAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAO18InlineEducationTipV_Qo_AA25_AppearanceActionModifierVGSgQPGGA_GSg_AA6IDViewVyAO020UtilityUsageAndRatesD0VSOSgGSgQPGGA_GGGAaRHPyHC.8
+- __swift_closure_destructor.17
+- __swift_closure_destructor.20
+- __swift_closure_destructor.23
+- _symbolic _____Sg 12HomeEnergyUI24UtilityUsageAndRatesViewV
+- _symbolic _____yS2SG s18_DictionaryStorageC
+- _symbolic _____y___________y_____y_____yACy______ADy_____y______Qo______GSgQPGGAIGSg______SgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA0F0V 010HomeEnergyB0015GridForecastAppD0V AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AN18InlineEducationTipV AA25_AppearanceActionModifierV AN020UtilityUsageAndRatesD0V
+- _symbolic _____y__________y_____y_____yACyADyAEy______ACy_____y______Qo______GSgQPGGAIGSg______SgQPGGAIGG 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15ModifiedContentV AA6VStackV AA05TupleJ0V 010HomeEnergyB0015GridForecastAppD0V AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AO18InlineEducationTipV AA25_AppearanceActionModifierV AO020UtilityUsageAndRatesD0V
+- _symbolic _____y_____y_____yAAyAByACy______AAy_____y______Qo______GSgQPGGAGGSg______SgQPGGAGG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 010HomeEnergyB019GridForecastAppViewV AA0L0PAAE12onTapGesture5count7performQrSi_yyctFQO AH18InlineEducationTipV AA25_AppearanceActionModifierV AH020UtilityUsageAndRatesL0V
+- _symbolic _____y_____y_____y______AAy_____y______Qo______GSgQPGGAGGSg______Sgt 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 010HomeEnergyB019GridForecastAppViewV AA0L0PAAE12onTapGesture5count7performQrSi_yyctFQO AH18InlineEducationTipV AA25_AppearanceActionModifierV AH020UtilityUsageAndRatesL0V
+- get_witness_table 7SwiftUI16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAA15ModifiedContentVyAA6VStackVyAA05TupleJ0VyAJyALyANy010HomeEnergyB0015GridForecastAppD0V_AJyAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAO18InlineEducationTipV_Qo_AA25_AppearanceActionModifierVGSgQPGGA_GSg_AO020UtilityUsageAndRatesD0VSgQPGGA_GGAaRHPyHC.5
+CStrings:
++ "Falling back to primary service '%{public}s' (endpoint=%{public}s)"
++ "Malformed endpoint suffix in deviceID %{public}s"
++ "No HMAccessory found for deviceID %{public}s"
++ "Resolved via Power Topology: outlet '%{public}s' for endpoint %{public}hu"
++ "handleUtilitySubscriptionChange notification received"
++ "nameAndIcon hit accessory-level fallback for accessory %{public}s; accessory has no resolvable HMService or StaticMatterDevice"
+
+```

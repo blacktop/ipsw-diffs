@@ -1,0 +1,44 @@
+## EXDisplayPipe
+
+> `/System/Library/PrivateFrameworks/EXDisplayPipe.framework/Versions/A/EXDisplayPipe`
+
+```diff
+
+-9.1.41.0.0
+-  __TEXT.__text: 0xa68 sha256:901db7d3e2cb5a9e7fbd225974850e1bd404c72d74f5ac173cc1e77629c4608b
++9.1.42.0.0
++  __TEXT.__text: 0xa68 sha256:c0c29de612e3cdb024a4987cca54f41e7d4fbc57ee646629ef0c030412f7aa7c
+   __TEXT.__const: 0x40 sha256:3cd4c3344b83de580fd6913858c9b98c9a5cb604525b7ab74c713eac3966cbb7
+   __TEXT.__cstring: 0x2a1 sha256:6d10b7da83207eb59aeff0e4b486ed64c17af19af33808c8a97c02e0db9e9028
+   __TEXT.__unwind_info: 0x68 sha256:4fed4a4546ca01938523c06631e296d6037b3a5433549cf8ab0dd5e28685955e
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x20 sha256:57f92924c29cae7ee235e2e5642111bca619182019f61daf5704bc5fb2e87404
++  __AUTH_CONST.__cfstring: 0x20 sha256:3a1eebabb9dba39bf345a15cc989a324449f2fbe8b275ac8a17e20f073283886
+   __AUTH_CONST.__auth_got: 0x0
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 64EB93C8-7831-34E1-ADDC-0979E5B9FD2E
++  UUID: 37C018F0-58CB-3689-9F6D-55F1167AAE9D
+   Functions: 16
+   Symbols:   38
+   CStrings:  25
+Functions:
+~ _EXDisplayPipeOpenDisplay : sha256 056918f062c28f3120bdc92e5053979a9d1bacbe7966461ea53a9526516476e4 -> 0885368b57c45afe0b8be9a396d9f46f6b5af178d0c87449c5d2b630d347ea99
+~ _EXDisplayPipeClose : sha256 adbdcfd5f1a9740d3b2dfb8a6c20be088c59d8eedc168a2afc66e1b841ae87ed -> b950bc82d519b83c7f5e71dc392bf5d37608bd1d1297337c7714e9f5e4def5dc
+~ _EXDisplayPipeSetPower : sha256 224de67c8babe51d24442470b9ca1648040be9daa8c6c9451c6f718f85a3e588 -> ab4b6550ad20a04e3879bf41860d4f08f00522c748c38616247ad50b587dc467
+~ _EXDisplayPipeShowIndicator : sha256 60ede11e711989dae80bb0865b6edc7b5ad996496857fd7fc227451e8ec67398 -> daf934827fcd66fff89ba87031fc8cacf3dfd33e52e9584971a76e9e10edd742
+~ _EXDisplayPipeHideIndicator : sha256 16f24fcc24a8df058a543fc5cc854a2aee638b2a7d56902c00af3d8568aaa1cb -> 8e3dea8fac7b2d43f5166256c15654ce1eb8bc0ab21653e443cfa7c8877d8417
+~ _EXDisplayPipeSetIndicators : sha256 4702d0da1e56c9b1c45fb00bae413298bdea429c15b1f68d3909aa36134b997e -> 22bb985b213d0eb3c3cd51664998fdb92d1242c1393bb802fd9587a6bdf48e0c
+~ _EXDisplayPipeGetStatus : sha256 4bc46d6395335b29ac0a8a3faff51c1cf443134658b2b0f214ef3caf9c867f90 -> 2e5cd3cdcecfd75c722ce3275171482ace291c9d7167545c0ddcb891e84eb110
+~ _EXDisplayPipeGetSecureTEStatus : sha256 24e569031d2681f6e403529b6bd08ff956d4ad0d77239638d00370fb19f55683 -> 4faf2ff65c44044be6e5c20965db406c67282554ea075d6682b72211b5713a59
+~ _EXDisplayPipeSetLogLevel : sha256 6d03e0ffaedf883e8a39fb8e2661945a3d2f23174f2df9b5440908aca83d41c4 -> f44f57514a859a5ddea5867c7d94e0bab590fdcc0d3388afec606cc467563a90
+~ _EXDisplayPipeSetLogMask : sha256 2bf0374301f89a03bc1d6053cb58f67ebc9306b63292b8afa1b38693dcf9118c -> 21b3e62f5705e6931cc69695e5eb7358f96fcd4f6670c7b5cf7ad1a2bcc6e059
+~ _EXDisplayPipeSetALSSEnable : sha256 f20f9d9f8c85d2e6c5600181644ed42f7dd0eb56bbbd912e2e16e3483dafe1f8 -> e1c4a6d428e440a0078e63e48e25801236eecb61bd62b4082aad67a2140d1acb
+~ _EXDisplayPipeFlushTelemetry : sha256 b4db669023622871844edb325f53b4f75e9b76361b9daa443d3769828ed552d7 -> 7b8b14a60473cb77af80a4feb94717a37235fce1c6a6c790c149e94415bf2fe6
+~ _EXDisplayPipeGetSCASessionHealth : sha256 cd7872716a6729cfcba3cf07225d295860e268fff7d78f93cb8a4673271c5cad -> a406d96356d179265baac5ff7f93e3f38ef62228523daafc38647078fc94e11b
+~ _EXDisplayPipeGetStats : sha256 5f2d644565c3067bb64847a420a897d03b45e4f4f29330e6813b9a05837e4f07 -> 08dff1bcc70f0443eb8f1b610c9a742f6f783fd321659ed8e339fb3994b2b9ec
+~ _EXDisplayPipeGetFrameInfo : sha256 dc8c5f13e0be5833f1e7aa0ccc6b88540cadeedfdaf90603106d6ccf233b2272 -> bd7382ef463273dcc47bb6f7707caf904ea2ea6ca6fae0bdc378e26e46af7f98
+
+```

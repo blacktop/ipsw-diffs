@@ -1,0 +1,56 @@
+## libswiftGameplayKit.dylib
+
+> `/usr/lib/swift/libswiftGameplayKit.dylib`
+
+```diff
+
+ 2.0.0.0.0
+-  __TEXT.__text: 0x51c sha256:76a3c8751d4c93fd261bf5b699acca497a7d9b3461b98f2a5e0b3eaa40cff1d9
+-  __TEXT.__objc_methlist: 0x14 sha256:9b21b0cc3a704f9ab860914d3c94b41ac80098438e32f2f123e6e31762831249
++  __TEXT.__text: 0x51c sha256:bb28ad7593c2d2c5b7d2547f423debdb37c621bc6bc2bfa5eb9aaf4eaaf1a9bf
++  __TEXT.__objc_methlist: 0x14 sha256:4bd702e560e35a004954f24ce1abb13c19010d1b6e992618b8fe3b4e8069be3a
+   __TEXT.__const: 0x1a sha256:c706d35fc49a7a0b101eab8164d995bb95ff13934ee69e7090ac035d26cfdda8
+-  __TEXT.__swift5_typeref: 0x4f sha256:8e7e417bb1aa19aedae4e557087139b90d048f362529a2e15eafa6f3af9e48b0
++  __TEXT.__swift5_typeref: 0x4f sha256:73e6775b5b9a421cc7f14fcee722d7d94cb79c0541d9496efe511eb737bebc41
+   __TEXT.__swift5_fieldmd: 0x10 sha256:5422b1e092f2cee50f9c9808f528bf788f588b59ee8bfa5d5b9cf79e10f562b7
+   __TEXT.__unwind_info: 0x80 sha256:82b079fc1b4f76009429f509f774734aab8fa93a1284c5d9133f245f8dcf1147
+   __TEXT.__objc_stubs: 0x0
+
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:22ca03f10215987840e5c1727d3c561202cfe19c24449738e9bc1763ebe19006
++  __DATA_CONST.__objc_protolist: 0x8 sha256:f1fa0333ecc4d089b3f0d1850e13044cbe737746865e1fe8635202f9f10d96c9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x38 sha256:d6979157565fc664c630d24d38c94706d42f91adba37aaf43eb10c18617708ed
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:bda7a5000f63fee0f2453fdc80a51fd617e449cb1bd34ea05648d8965d8b2070
++  __DATA_CONST.__objc_selrefs: 0x38 sha256:76cf51dac61a08157e4388a3153d6424dd2b5c31c99e96047f38b4a63674d121
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:35e0be74cfaebea2fba9748f8b037ca396488572c060c8ce607b499d29efb0bc
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__objc_const: 0x68 sha256:2d45e894428c1d2cb75066957debafe3780e0b61b5271f4ab2b417e8ea0b5afb
++  __AUTH_CONST.__objc_const: 0x68 sha256:3090397d52f8d917aa202413ca0eca06d9210edb247d45e9a2aed38afccdd2bd
+   __AUTH_CONST.__auth_got: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+   __DATA.__data: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA.__common: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: BABF0A21-D00C-3014-A11D-1BCBA7A81853
++  UUID: 393F3E00-97FE-3BD1-9DDB-73D71B33E387
+   Functions: 10
+   Symbols:   90
+   CStrings:  0
+Functions:
+~ _$sSo6GKPathC11GameplayKitE6points6radius8cyclicalABSays5SIMD2VySfGG_SfSbtcfC : sha256 3c91af2bc2fe4cac918206b2c1def825f870ec81e6379c3b3b32e40852e5c0b8 -> 480e0714b2b53cf4651018c00d5e2c0227b706931ad07e92b9bca5ec729ccbb8
+~ _$sSo6GKPathC11GameplayKitE6points6radius8cyclicalABSays5SIMD3VySfGG_SfSbtcfC : sha256 5ac36223c55b9fa98e7876717e589ec6c1ca7273978fcccb5e2cad5826c0dcce -> 42472929abcb61a3b673e945b913dd6a02ad1f1c6f7304df48669aca001c70cb
+~ _$sSo17GKPolygonObstacleC11GameplayKitE6pointsABSays5SIMD2VySfGG_tcfC : sha256 b2b18db8cd68eca99a9e3e02f32a47f8a1de8700d795939c32c9262dabf1f627 -> ded06b6a867b4542ff453ba89c48679b1731170dc53b711c7e85d39509104670
+~ _$sSo8GKEntityC11GameplayKitE9component6ofTypexSgxm_tSo11GKComponentCRbzlF : sha256 94ee6f34251687f61b8e2f8603e3b898fdd1a6e7023dce67af34eede79b3f757 -> 37f2d986154d58334f31e1e28f4675c460907b31a75f9626b6790517b5499eca
+~ _$sSo8GKEntityC11GameplayKitE15removeComponent6ofTypeyxm_tSo11GKComponentCRbzlF : sha256 767c34bc70a4482025207883c4f054d490faad2be404d9a4ea32223767cdfe4b -> 1a04558ac6c4a03bccfa164624b8e4f0b4236e2265c1d46b3c61ff0a7bfcfe5a
+~ _$sSo14GKStateMachineC11GameplayKitE5state8forClassxSgxm_tSo0A0CRbzlF : sha256 6f8fce09dc1d18d7a637ba8a48ee16ce1b99920a66f490aecebbc7f6f23eff56 -> 99fbc3e22510fe02bb5cf01f2dece4625ed540c8ca8e416da02e0e006f37c96f
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5SIMD2VySfG_Tg5 : sha256 e662fcc7d97d26496e27766714aae92c4551b34579f1ea993580a91e60436d0c -> a687521a5d1af55564c8e84aa87b7225763bcc87e141737d090b29da6ba2eafb
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5SIMD3VySfG_Tg5 : sha256 af73a683b5d633c5d8e4b9d740d58d6a3c04a4c68656ad7e6b14da3a686bfde6 -> cc8ef0d883f1f44ce2213ce646452ad58f49687c1506e5b9fa39cfd5a7a2693b
+~ ___swift_instantiateConcreteTypeFromMangledNameV2 : sha256 cae41b41b171f089584f5bc4f470803afb75d59016cdea1ad3f7f5d24964a01a -> bf90505e394c4612c606f559f9d6597a6a313962479e1d2c1321ec389321726d
+~ __swift_stdlib_malloc_size : sha256 cb1cb1861f141064bad3f98997707f2831ea5e2acc1d73419080d84dba562c56 -> f899e7d39d143ce427244caf04a49fff6e8f59bb430490a40756fe0ab96f1a37
+
+```

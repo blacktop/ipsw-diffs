@@ -1,0 +1,67 @@
+## libffi.dylib
+
+> `/usr/lib/libffi.dylib`
+
+```diff
+
+ 40.0.0.0.0
+-  __TEXT.__text: 0xddec sha256:ce3571cd7cb738559e6e4ab78c7303dc1d04ff7e3afe61ad2ca4cffdd3da19e7
++  __TEXT.__text: 0xde58 sha256:ed7da12b398bc037161428bb94da559e681e80aabc1039636dff0e5d8d88cbb1
+   __TEXT.__const: 0x150 sha256:0467b040c1bcf39f61032dbee8973c2bdc705e7b7e7feb18cd5b2ae2302839f2
+   __TEXT.__cstring: 0xa5 sha256:02f6b52a6a100f698eb6afc0d768f9248d03ee79cdb00ec5bff2407f1d45bbd5
+-  __TEXT.__unwind_info: 0x118 sha256:8b3cc17327950b9a8fe3bf03b94f5a6b6e22896b4ca8b2370cbd88c875fa3e53
+-  __TEXT.__eh_frame: 0x90 sha256:f06e910363a891f9c18917927a7bb60099e50000409dbeb86fd3ea9835ad1fec
++  __TEXT.__unwind_info: 0x120 sha256:0196ecc1bf670b3dd83fbeab7065a01b3c97a084e17cd8a7980cd9c68db8051f
++  __TEXT.__eh_frame: 0x90 sha256:447b1111c1fecf3bf937e00f7b77dabf7600ac4a97b233e5e7983d8e8cb897f6
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x50 sha256:77269c0488a773961c5181e4543ffd496f7a12159386c732a1b051e1763f6a39
++  __DATA_CONST.__const: 0x50 sha256:34c3ab0f6eeca6b25310ceb9b504b91766e9bab03297c352ea448fd5a8a5aa1d
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x20 sha256:f4fdefb60949ab3ded1d3f35866231278042b1d41cfc7395bac31266072fe894
++  __AUTH_CONST.__const: 0x20 sha256:b10479a89ae79ba0dfdcb526a26b4cff619dbccf697bc2cf2677568ddc054188
+   __AUTH_CONST.__auth_got: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __DATA.__data: 0x20 sha256:d59a2cc65717655e33b47d7a0a488c29e92ae98c59995d05ee302c54a70f9de6
++  __DATA.__data: 0x20 sha256:efd0c2dea4f8fcc1c6a158d0f0e0080a11967681eb860bbe3257c006577461d7
+   __DATA_DIRTY.__data: 0x40 sha256:2ef4656d02cfb45347e2bb830799aab79d899ae45081de2a4906fe1290b69b93
+   __DATA_DIRTY.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 61382EB4-A9EB-31E6-A5BB-AF45F8252E89
++  UUID: 59D87B60-57AF-326F-AA6F-04A63A875858
+   Functions: 48
+   Symbols:   89
+   CStrings:  7
+Functions:
+~ _ffi_closure_SYSV : sha256 988aa3e099972605832b3262499fc73994eefdbac2eb7080064c55b0e92e183e -> fb1173bedbc8ecfa1d2b91ab1413b3abedf6c7bcddf757976d73ee678e028d4a
+~ sub_19644f040 -> sub_1963a2040 : sha256 a575f278696ba23ce9731cc2642733a34c93ba7edf7ef727f91223f202b416b8 -> e01e9d6668df8efae10ececf8847449859bd16809c2e8fb9d3b3ffd9c9b28200
+~ _ffi_java_raw_size : sha256 942185f9f32f2b82b8a82cee8ac1ee0da448d58e0247b20d804b2af29301b890 -> faf5236a4e71b68c6249553536a99a3ceae86de3f4bea62df5c6ceda70e63413
+~ _ffi_java_raw_to_ptrarray : sha256 7f1d9a3ecade5b43c08b622bd14d92357837523b7b57456cd379410f871b21ef -> 6d4a102bc9968408470de7d7c071a62c9ec6d8376cb441d827ad940d3354f19e
+~ _ffi_java_raw_call : sha256 8ae3c3d37cbfe5b9cfb4f507f1a00a42c1a5e6cbd2c5b374e90560aec4041eec -> 6af0ea3ac0639c4fd58867cdd8f8dbf4c786769f1130179df7830d04b85cfd3b
+~ _ffi_prep_java_raw_closure_loc : sha256 20c5eee6134079dd3d6335ec710cd96edb5504012f010d4e1cd8bcfee924b480 -> 91d36c67cce6eef05bbe8a6d62244b2836fdf34490b9671091ee4209a06fd547
+~ _ffi_java_translate_args : sha256 db0d5d98963835b2f36baf219ea83fe846c116b50273a48f7de46f5ba6aebf70 -> f19d4ed82dd269cc206ccba80de9f31440713b369aa7b6f9f1c548912a266140
+~ _ffi_prep_java_raw_closure : sha256 9b8d67bdca6a7bb0a329a0c3412f12bd50383a851a90adee8e7b8d39c3dbd594 -> 516b9468c18c93d7b0a26a04d491e0c9723d1e5e4c5357ffc90cfb7bfb6cc94f
+~ _ffi_raw_to_ptrarray : 96 -> 100
+~ _ffi_ptrarray_to_raw : 316 -> 320
+~ _ffi_raw_call : sha256 07d1dd2c991a8063e19a4b1735ba7f6fe3844e354c60e7ec6ffc43f87ba0ab65 -> ad9835082c0c5b99e47caf96065e2fc891383fe1a62cb2dc115ea015329cbc73
+~ _ffi_prep_raw_closure_loc : sha256 55f8d9c684ebf54930ca332193d845b3369b26b6cd8d5903a48da2c0c392a5a0 -> f75275acc09c707317497c89a923ed0a2217267ae3619813285809399c711468
+~ _ffi_translate_args : sha256 d629a3aa4989fcd31386493028884477df88fcc015959fa6824546ffc229eb0c -> 199c2fd5845fccf7bfebc4e80e6addc8d099e42c6f1a5e6290a36def182a90bd
+~ _ffi_prep_raw_closure : sha256 117b8167a6b9cc78da3fe9961ae50e5f4741a40b405a368fbf2424c6f7ea2376 -> 42935b38ca240793c25c4c70cf69361ae5e8fbd545f38b1508993d7be9754950
+~ _ffi_prep_cif_core : sha256 104705812f4f2a524fd11c2ea923c2432d888e6bf059278fd484f6ee3cd52d23 -> 2b9925d8705a59dbb0fec6b3c2a2e0ab740cc50422b98ac2ec1d05057f504d3a
+~ _ffi_prep_cif_var : 172 -> 176
+~ _ffi_get_struct_offsets : sha256 f987668803470adb85b690deded5563d4e120026dd6b90ef1375e56907168cd2 -> 4b8be5d6222a9501abdefc738f2771983a116337ceaf00b035182da1b174d5c8
+~ _ffi_closure_alloc : 560 -> 564
+~ _ffi_closure_free : sha256 eea6086df6b8438bf6ecaaf5b7ab95346fe569878614d2c93b50a0bfa3a4c713 -> ee00231fa4c7d5f564dc1d6c9ebc751a9f1495af43a697f2e2a7edf7cc2c76c2
+~ ___ffi_trampoline_table_alloc_block_invoke : sha256 eca5a167c171e6e5c09e30d979351e2afde54ced9accdcb528639e40059fe5a2 -> 2fea9436cf07357dd0bea1441139b73a4b4ebec5b0cab6f698fa3b99015d97e9
+~ _ffi_prep_cif_machdep : 300 -> 308
+~ _is_vfp_type : 312 -> 320
+~ _ffi_prep_cif_machdep_var : sha256 07b8df95acf45d71b4dd97ae0b31d15929231427f9a1289daa0603d5a4804309 -> a006370433da4637ba7a841d466369b5efe0811e47a4d040b2a3646bad0c680d
+~ _ffi_call_int : 1304 -> 1348
+~ _ffi_closure_SYSV_inner : 952 -> 988
+~ _compress_hfa_type : sha256 92e4848b40963dae74218f08884e7b285f0931d44ed4db9749bd1f1b74f03cd8 -> a02d2abf2b13fbc6b61a2f2bae2b2de90586ede23d3e5de86ae35e77627c4736
+~ _is_hfa0 : 100 -> 92
+~ _is_hfa1 : sha256 90f7b2f1d1348ee2f4928d8e9a10ca8240409bfc738a5e9b85d51c6cb1e7f0e5 -> e6f8bd1e0c5549e289304d1870f536974cd372be1c909bb8ed4bb01c65125cf8
+~ _initialize_aggregate : 244 -> 248
+~ ffi_closure_alloc.cold.1 : sha256 2482635a05b02aacb92540917b41027b8fefde1e4d2ef0c2411f8f3ba83b56c2 -> 7c8613d56408a7c8b7c7222833af68607125ed4e34b8011a6545963de8b33931
+~ __ffi_trampoline_table_alloc_block_invoke.cold.1 : sha256 385d7ce95b22bc7975bc19edf91026b7ca5549e77c3b47f2c208049c45ec2257 -> fc60572b49995c2d347ee0cc8b0e676d4c70e4e2b666bf452254b66bbd414b59
+~ __ffi_trampoline_table_alloc_block_invoke.cold.2 : sha256 f07a8efebcbfcbd73e1620959e5ab141525ed080733e81abc504109604b0ea86 -> f0a30c2e4e36bcb98773d4ecbb3b82eaee875b4b8c6f1ac536f6b58f6e819239
+
+```

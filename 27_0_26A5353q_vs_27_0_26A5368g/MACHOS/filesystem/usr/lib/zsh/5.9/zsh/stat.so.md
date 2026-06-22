@@ -1,0 +1,38 @@
+## stat.so
+
+> `/usr/lib/zsh/5.9/zsh/stat.so`
+
+```diff
+
+ 118.0.0.0.0
+-  __TEXT.__text: 0xe70 sha256:3ba632aa405895e54165303062eda8ab3e923ea58277045a77d6c1d0d533ccd6
++  __TEXT.__text: 0xe3c sha256:f3d46f43416cd97b56f67d360b317072d9cf5c36ca8f21e5782a7af3eaf32fb3
+   __TEXT.__auth_stubs: 0x220 sha256:d143da0e5486f1768fa4c347d8787b4b994383aabdf9a5a2f2455461437b5839
+   __TEXT.__cstring: 0x1bd sha256:1ca5d446c9f114ba5de2871f7330c0b4c7bd8de2678f10675e95592b4c6f59ea
+   __TEXT.__const: 0x1e sha256:745d4b63f2d826630f6118263c4322ed7c00b5da9c182d1ba3421f70f381f6ae
+-  __TEXT.__unwind_info: 0x80 sha256:72eab2f7cdbd7cf33d54dcead9a3227192ac6694181d1bab1a502b95f42de5a3
++  __TEXT.__unwind_info: 0x80 sha256:9d8df2d6010340327749f7fa8607001e45ce0f41a9f89c557e4d737142a2dd9f
+   __DATA_CONST.__auth_got: 0x110 sha256:b7bf205078ad7679b97926989044dce19064b62454608461891b6acbc6cae7fa
+   __DATA_CONST.__got: 0x10 sha256:6d6b2a44d801964f231ccccdec276dcba11fa2b5a07239bb384b360be64f64c7
+-  __DATA.__data: 0x138 sha256:d842df4f8090b79f0982b2cb118a0ef9886ddf49fea1ca4ed83f1c651735c859
++  __DATA.__data: 0x138 sha256:66eb10dcbb7cb54b2631fd73ec2648bac18c8f303e29f78c57df5fcf6244319c
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libiconv.2.dylib
+   - /usr/lib/libncurses.5.4.dylib
+   - /usr/lib/libpcre.0.dylib
+-  UUID: B093280A-B901-35BA-BB12-9F190F01873A
++  UUID: 89207197-9350-39B0-91C7-BF4C6FF69C1C
+   Functions: 10
+   Symbols:   43
+   CStrings:  43
+Functions:
+~ _features_ : sha256 2842b4447f5c83c6a463b5aad5b7bb71ebbdb485f0a1e29b4a5dd0e0621f125a -> 58294223f9c7df9b83fb7500e011821f98afb15c025d9080a8197abbae160dcf
+~ _enables_ : sha256 bc3562eb77a98d940b025c6bd5f9678ef3695f77dd8b6fd50b82a3ffa8e9d922 -> a404dab15726b370afec9696aaa86f16a591a6d79b0795027e56b8e706a552b5
+~ _cleanup_ : sha256 184ddda6690f9c01799f92663445c7aa55e9d6f47f7f9c5ddc09b62401e491f0 -> 3feb7d51dab82330c04a89e88b2de720b973ec0ff6db50e9f69692ee79555b67
+~ sub_688 : 2356 -> 2304
+~ sub_fbc -> sub_f88 : sha256 a5d6d88a7d7f65c5d5e8a30da692b74f8ff9c547d9e60538e2cbfc42f392022b -> ef9e606ccd907b65603ed7a3769a948bac330f1b05397bed689d21f64ec50adc
+~ sub_1384 -> sub_1350 : sha256 3f000662d93c8deb505e5478eaf68743722057760f6c827c8e94351b0b19c92f -> 65bbf2c4ab2d49f32d88bcaecefcea76fc09ddc73cf48941ca3cc4ad8fb33980
+~ sub_13bc -> sub_1388 : sha256 d349b9991901ecc9d4f384bb540e2b549291aa3c56368300085b4ea951dd9076 -> f23b496d8c0903619913033c472234b9dddacf40004f36499bb4649dfdfc7817
+
+```

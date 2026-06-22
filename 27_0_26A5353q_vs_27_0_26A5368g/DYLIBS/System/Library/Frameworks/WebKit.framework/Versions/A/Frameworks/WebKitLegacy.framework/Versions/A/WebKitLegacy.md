@@ -1,0 +1,460 @@
+## WebKitLegacy
+
+> `/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebKitLegacy.framework/Versions/A/WebKitLegacy`
+
+```diff
+
+-625.1.18.11.5
+-  __TEXT.__text: 0x1a2124 sha256:6acb97a817c0f4435cc3324b3b64de4b14fe84cbd3a4ce4ca34b5f33aed5de6b
+-  __TEXT.__objc_methlist: 0x10288 sha256:07d3da83cf7d350544a1fec966ffd67b6424c5e35f0b05515dcde3193b7e03e2
+-  __TEXT.__const: 0x67a sha256:6a99c42469a999637658999351bfe433d41f48dd813024843ed747668f51c431
++625.1.20.11.3
++  __TEXT.__text: 0x1a2fe4 sha256:04aeb888ded1dead5fbf7b0a5a66dfb2365f7ae87f881c75c92e4147280cf613
++  __TEXT.__objc_methlist: 0x10288 sha256:3b6608d36d22bc6abc147e9e51dbf84334fecb8cacdd0098b8f9f252c500e09c
++  __TEXT.__const: 0x68a sha256:7d74c5768736af13ff378846a20143f1521e782fdc35b3330c462dab0ec4ed5d
+   __TEXT.__getClass_cstr: 0x30 sha256:e467c6a5ff1f6e0107aecb7920d73f3a9d095350828ec39355885d750185558b
+-  __TEXT.__gcc_except_tab: 0x14ba4 sha256:8907e0df795153528c59a54a130861c8b4bb8c2f752f6fa08810141e88a15d17
+-  __TEXT.__cstring: 0x1e0cc sha256:a9ade8c70a88291f1a892c557e38dd2bb7137dd32537e114eeaf19ffa034f25a
+-  __TEXT.__oslogstring: 0x141 sha256:50ba77c9317d77fc93f86a4017734320e988c9cbe1ac1fe5ed9df8c35cef1e80
++  __TEXT.__gcc_except_tab: 0x14bfc sha256:17a32fc954228b7dc6c6b08737f33b925f5d069d433e1e4210cfa357fac710d0
++  __TEXT.__cstring: 0x1e6c2 sha256:2b5e3aa6fdc158d21001439bc05bc005fe08ca1cf63c3049e6f4ceaf14836a44
++  __TEXT.__oslogstring: 0x155 sha256:08991283f76aed83387ce0e90d007ce61c1c01992a590c2336cbbd7330323385
+   __TEXT.__ustring: 0x4 sha256:709eddfc631541f3ecea46e733bbf3043279bddfb51fdfd7be60efbc2714537e
+-  __TEXT.__unwind_info: 0x9d78 sha256:4c1275db95c072fc9190123207bfae54621b352a0868be2cb46a10cdbdabc6f1
+-  __TEXT.__eh_frame: 0x80 sha256:a8dcfca6e94cbf73b8c2c0ed8e3c0dce57376407d118092bedbfd477f202b0db
++  __TEXT.__unwind_info: 0x9d68 sha256:abe6dabb2ca6acdf20c2aeda4639901eae9752c548bcc78809b64b571bec3bb6
++  __TEXT.__eh_frame: 0x80 sha256:2f83d61917430e003a70e86bf7aa38777139b8cd042b5dfbcaf1c177f2f4623b
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x640 sha256:1413e28bd69097c3981f2fbdd50cb4c2f30e30f46d1c2b56cfd9b2a24963d998
+-  __DATA_CONST.__objc_classlist: 0x720 sha256:183dd8296948224a29141fa3af3bda002fdc2d144066b79bbb2f63c37dc345a5
+-  __DATA_CONST.__objc_catlist: 0x98 sha256:2032c3aded57428b683f059d09a41b48505660519699be254a71a1ada955d1a0
+-  __DATA_CONST.__objc_protolist: 0x1a8 sha256:2e40e969b09a0af0adc75daca3b7fd281611cac5a2b2d7052482dcfa6522874f
++  __DATA_CONST.__const: 0x640 sha256:7737d68e97f4e0898256136a50bf20b49ebd9ee20d75ea978da03d18a58c3e65
++  __DATA_CONST.__objc_classlist: 0x720 sha256:d3fbcac57938ee80f5b25a51bc1421bdc1dc99286969a2ef10ef153a5895ac4e
++  __DATA_CONST.__objc_catlist: 0x98 sha256:7f173dc979c5c244c4041f601deef9830961e5d326f0f5f22ace4415710005e8
++  __DATA_CONST.__objc_protolist: 0x1a8 sha256:1d8c895f0053651cb225c9eb798a78800c1d5e4c02d781a453d344ae16b9cd2b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x94c0 sha256:203ca9897b5134cd641d94e80834809219340979d3bfbe387e53652a4b50c256
+-  __DATA_CONST.__objc_protorefs: 0x58 sha256:bb26e0b3cd2c93c52391ddfc97d082ce723ab1024523d28064f7e5d1fb188540
+-  __DATA_CONST.__objc_superrefs: 0x368 sha256:82a1fe8184ce17566c8f314ab7ca3fc7cfe97f659dc5533af42f962362323944
+-  __DATA_CONST.__objc_arraydata: 0x38 sha256:315f5543c677c3f8672cc7dd4c4ba1ecbcca92b66be4022551c35750d2c6a890
+-  __DATA_CONST.__got: 0x1400 sha256:e2463eb0d1c6dc4773fe6dcde7eafdeb2c4812a595dafc19a8ccc6cd41466cfe
+-  __AUTH_CONST.__const: 0x52f0 sha256:d4b75381b83f0085b9ed8fe0d95ba7c2542082df311125c1e9c0bdcb5ca37e24
+-  __AUTH_CONST.__cfstring: 0xf9c0 sha256:348aa5dcfd118d02783ab17a5f0afcef3b686a588d4c28464d998d8c55613e5a
+-  __AUTH_CONST.__objc_const: 0x114b0 sha256:6bdf3479c42ed849acbc780ead36c03182b00876c0eb8ec1fc4bf92e26704a16
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:9d1cf291f2774af3ca9170d122c331f80623ad981ae5c63d6f33aa535c2f1337
+-  __AUTH_CONST.__objc_intobj: 0x3d8 sha256:cafad5be3aecfdbd983efbafca1367ff24d3849cb6f31c9d048d152cdeb3644d
+-  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:b1c3045b58702d3826a3f19d9acfbb0848e1ef4551cb747cc4fffee92675a2cf
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:52fdf5dd09d098275f61a6e55e1dfe8799fd45754a1e1b9d82f21edcfc75782c
++  __DATA_CONST.__objc_selrefs: 0x94c0 sha256:3044063dc6b0f0647b62a3164d1b351e7e91a6d1e467e53469decbeb326c5c2e
++  __DATA_CONST.__objc_protorefs: 0x58 sha256:83e1b0f48bb4394432d1354365a45179017d02d7c7be597625e19233b22ca61c
++  __DATA_CONST.__objc_superrefs: 0x368 sha256:b38fcd689a98fa88c856fd2679b66ebb3fe533f9cf6d46ba5b22ac3af04f6c37
++  __DATA_CONST.__objc_arraydata: 0x38 sha256:6aaf10596fa624b2b7281084f61b5c60b0cffff2696cde764a364a4237c90281
++  __DATA_CONST.__got: 0x1400 sha256:1770eb32ef2138c2f8374d3c9d9cb372e43862cd5e18a30a5040e51c28d86a4d
++  __AUTH_CONST.__const: 0x5328 sha256:482d7c1aac0bd19488b797daf44c83f66bfd4320d5cb2cbd5b4539a36ec2efee
++  __AUTH_CONST.__cfstring: 0xfd20 sha256:0821e3b59911894bf946a7a4696223aa6469f643b18ff2a59704ff5f0aa88670
++  __AUTH_CONST.__objc_const: 0x114b0 sha256:c40fd4b0152f2845d21211a573beb88be89c9625176d5b5adc106f81e91b6635
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:dbb69cb34767113a9cc64abbc237e01e8b6b8182a73f93a32e553b9a8892895c
++  __AUTH_CONST.__objc_intobj: 0x3d8 sha256:fc8c3d0c909f9f0ed2a46dd46c7a57df4077c31fa7405f3dc58a650f98ba500a
++  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:cf21f0b6695598b582cbdc3a1f9e451a0b7d8e54c090abbdfbfa2fb8dfc29509
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:a7ee77c996be8106c77e9018c80fab3025f6e640dfa729e180f276e135e8e93f
+   __AUTH_CONST.__auth_got: 0x4770 sha256:7db9e3910cb98af021f9acda365943400cc3eeffde47c9142c326fda8b9a835a
+-  __AUTH.__objc_data: 0x3ed0 sha256:87d8a254a14108125085d7439d1e8cd57f9cd047ea9727b60b0a3a5d916c6dc1
+-  __AUTH.__data: 0xf0 sha256:f34b11795cdb3cdf6de9ab4f967196e942985be6a3c3c010e4ff62e7051fd309
++  __AUTH.__objc_data: 0x3ed0 sha256:a52d4c72136531d53fcf52bc53c8b7074eaf530ebae3abd28c74060e464d99de
++  __AUTH.__data: 0xf0 sha256:496fabb4d83391985f243a2d73ba16d06094e132aff0eac4b048122c6d957b45
+   __DATA.__objc_ivar: 0x508 sha256:7d5000a5ab7068ddf122a4b278a3d85e3872cf9ce98664c42f0128969a901d9a
+-  __DATA.__data: 0x19d8 sha256:07842ec3d6223f33dce17b7ad8fa33b23256e62b3662ff5f35751e4d5bd8e366
++  __DATA.__data: 0x19d8 sha256:45b221dc48d9cff43665a7626a8119f7fb6bfcf98595cb401404b2cc4a92178d
+   __DATA.__common: 0x369 sha256:982e59655c52892fb3df0a2d034295d5d5cd7755556b3442cedfe688f4b96b04
+   __DATA.__bss: 0x340 sha256:e0084b66cb4a03e2aba6cc7342eead6a91610ad915d66f9ae2c734f99b772ac7
+   __DATA_DIRTY.__objc_ivar: 0x114 sha256:5804698f38962315acec38754e314e3db415f905c278efc778167554adc797ef
+-  __DATA_DIRTY.__objc_data: 0x870 sha256:1b4c8b0ef01724a5ce21aa1d9e8f98cfdb489c3639043c60eb206ecaeca6a688
+-  __DATA_DIRTY.__data: 0x20 sha256:5b1e4d8c8671d8d5133bba5ec3997694cdd6c01e36dc233859532287115bccef
++  __DATA_DIRTY.__objc_data: 0x870 sha256:61dcb789424c6557eba0843960d0c952fcbae04e3c5b1915db24e463f4621cf1
++  __DATA_DIRTY.__data: 0x20 sha256:cea916eb24b406ea7c45c8793bf332e513c9fa62ea87f077b00bae6bc0726218
+   __DATA_DIRTY.__common: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+   __DATA_DIRTY.__bss: 0x408 sha256:934ee56ad6539fb9e5c276ecee2f3985f2d252d22acd690108bda80313c6bd58
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 55C161D5-8909-3FB6-85B9-8FEE12DCDA15
+-  Functions: 7530
+-  Symbols:   17814
+-  CStrings:  4480
++  UUID: 60576A3E-460E-38C1-83B7-F98A6D7BCE56
++  Functions: 7531
++  Symbols:   17805
++  CStrings:  4535
+ 
+Symbols:
++ GCC_except_table1008
++ GCC_except_table1019
++ GCC_except_table1044
++ GCC_except_table210
++ GCC_except_table215
++ GCC_except_table216
++ GCC_except_table248
++ GCC_except_table251
++ GCC_except_table254
++ GCC_except_table454
++ GCC_except_table522
++ GCC_except_table524
++ GCC_except_table528
++ GCC_except_table533
++ GCC_except_table541
++ GCC_except_table544
++ GCC_except_table548
++ GCC_except_table556
++ GCC_except_table564
++ GCC_except_table570
++ GCC_except_table572
++ GCC_except_table577
++ GCC_except_table585
++ GCC_except_table590
++ GCC_except_table598
++ GCC_except_table616
++ GCC_except_table621
++ GCC_except_table623
++ GCC_except_table628
++ GCC_except_table645
++ GCC_except_table650
++ GCC_except_table668
++ GCC_except_table672
++ GCC_except_table676
++ GCC_except_table687
++ GCC_except_table692
++ GCC_except_table694
++ GCC_except_table706
++ GCC_except_table710
++ GCC_except_table712
++ GCC_except_table716
++ GCC_except_table730
++ GCC_except_table738
++ GCC_except_table748
++ GCC_except_table792
++ GCC_except_table795
++ GCC_except_table797
++ GCC_except_table805
++ GCC_except_table808
++ GCC_except_table813
++ GCC_except_table816
++ GCC_except_table817
++ GCC_except_table825
++ GCC_except_table828
++ GCC_except_table833
++ GCC_except_table836
++ GCC_except_table837
++ GCC_except_table842
++ GCC_except_table843
++ GCC_except_table848
++ GCC_except_table851
++ GCC_except_table858
++ GCC_except_table861
++ GCC_except_table867
++ GCC_except_table868
++ GCC_except_table873
++ GCC_except_table876
++ GCC_except_table879
++ GCC_except_table881
++ GCC_except_table885
++ GCC_except_table888
++ GCC_except_table897
++ GCC_except_table900
++ GCC_except_table906
++ GCC_except_table909
++ GCC_except_table910
++ GCC_except_table918
++ GCC_except_table921
++ GCC_except_table927
++ GCC_except_table930
++ GCC_except_table931
++ GCC_except_table939
++ GCC_except_table942
++ GCC_except_table956
++ GCC_except_table966
++ GCC_except_table970
++ GCC_except_table973
++ GCC_except_table980
++ GCC_except_table993
++ GCC_except_table997
++ GCC_except_table998
++ _MergedGlobals.463
++ __ZL30nsTextAlignmentFromRenderStylePKN7WebCore5Style13ComputedStyleE
++ __ZN3WTF13NativePromiseINS_6VectorIN7WebCore14DOMCacheEngine17CrossThreadRecordELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEEENS3_5ErrorELj0EE7StorageD1Ev
++ __ZN3WTF6VectorIN7WebCore20CompositionHighlightELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEED1Ev
++ __ZN5mpark6detail10visitation3alt12visit_alt_atIZNS0_4baseIJN7WebCore18SecurityOriginData5TupleENS5_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS5_26OpaqueOriginIdentifierTypeENS9_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEEE14generic_assignINS0_8impl_smfILb0EJS7_SF_EEEEEvOT_EUlRSK_OT0_E_JRSG_SJ_EEEDTclsr3libE6invokeclsr3stdE7declvalISK_EEspclsr6access4baseE7get_altIXLi0EEEclsr3stdE7declvalIT0_EEEEEmSL_DpOSR_
++ __ZN5mpark6detail10visitation3alt7fold_atIJLm0ELm1EENS1_7variant13value_visitorIZN3WTF3addIJN7WebCore18SecurityOriginData5TupleENS8_16ProcessQualifiedINS6_23ObjectIdentifierGenericINS8_26OpaqueOriginIdentifierTypeENS6_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEEEEvRNS6_6HasherERKNS_7variantIJDpT_EEEEUlRT_E_EEJRKNS0_8impl_smfILb0EJSA_SH_EEEEEEDTclsr3libE6invokeclsr3stdE7declvalIT0_EEspclsr6access4baseE7get_altIXLi0EEEclsr3stdE7declvalIT1_EEEEENSt3__116integer_sequenceImJXspT_EEEEmOSY_DpOSZ_
++ __ZN5mpark6detail10visitation3alt7fold_atIJLm0ELm1ELm2ELm3ELm4ELm5ELm6ELm7ELm8EEZNS0_4baseIJDnN7WebCore10IDBKeyData7InvalidEN3WTF6VectorIS6_Lm0ENS8_15CrashOnOverflowELm16ENS8_10FastMallocEEENS8_6StringEdNS6_4DateENS5_20ThreadSafeDataBufferENS6_3MinENS6_3MaxEEE7destroyEvEUlRT_E_JRSI_EEEDTclsr3libE6invokeclsr3stdE7declvalIT0_EEspclsr6access4baseE7get_altIXLi0EEEclsr3stdE7declvalIT1_EEEEENSt3__116integer_sequenceImJXspT_EEEEmOSN_DpOSO_
++ __ZN5mpark6detail4baseIJN3WTF6StringENS2_6VectorIS3_Lm0ENS2_15CrashOnOverflowELm16ENS2_10FastMallocEEEEE14generic_assignINS0_8impl_smfILb0EJS3_S7_EEEEEvOT_
++ __ZN5mpark6detail4baseIJN3WTF6VectorIN7WebCore14DOMCacheEngine17CrossThreadRecordELm0ENS2_15CrashOnOverflowELm16ENS2_10FastMallocEEENS5_5ErrorEEE14generic_assignINS0_8impl_smfILb0EJS9_SA_EEEEEvOT_
++ __ZN5mpark6detail4baseIJN3WTF6VectorIyLm0ENS2_15CrashOnOverflowELm16ENS2_10FastMallocEEEN7WebCore14DOMCacheEngine5ErrorEEE14generic_assignINS0_8impl_smfILb0EJS6_S9_EEEEEvOT_
++ __ZN5mpark6detail4baseIJN7WebCore14DOMCacheEngine10CacheInfosENS3_5ErrorEEE14generic_assignINS0_8impl_smfILb0EJS4_S5_EEEEEvOT_
++ __ZN5mpark6detail4baseIJN7WebCore18SecurityOriginData5TupleENS2_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS2_26OpaqueOriginIdentifierTypeENS6_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEEE14generic_assignIRKNS0_8impl_smfILb0EJS4_SC_EEEEEvOT_
++ __ZN5mpark6detail8impl_smfILb0EJN3WTF13NativePromiseIN7WebCore14DOMCacheEngine10CacheInfosENS5_5ErrorELj0EE7Storage8NoResultENSt12experimental15fundamentals_v38expectedIS6_S7_EENS2_8FunctionIFSE_vEEEEED2Ev
++ __ZN5mpark6detail8impl_smfILb0EJN3WTF7SecondsEN7WebCore13ResourceErrorEEED2Ev
++ __ZN5mpark7variantIJN7WebCore17PageConfiguration32LocalMainFrameCreationParametersEN3WTF17CompletionHandlerIFNS4_9UniqueRefINS1_17RemoteFrameClientEEERNS1_11RemoteFrameEEEEEED2Ev
++ __ZN6WebKit15StorageAreaSync24blockUntilImportCompleteEv
++ __ZN7WebCore11ExceptionOrIN3WTF3RefINS_22DeprecatedCSSOMCounterENS1_12RawPtrTraitsIS3_EENS1_21DefaultRefDerefTraitsIS3_EEEEED2Ev
++ __ZN7WebCore12ChromeClient29showDigitalCredentialsChooserERKN5mpark7variantIJNS_43DigitalCredentialsMobileDocumentRequestDataEEEEON3WTF17CompletionHandlerIFvONSt12experimental15fundamentals_v38expectedINS_30DigitalCredentialsResponseDataENS_13ExceptionDataEEEEEE
++ __ZN7WebCore12ChromeClient32dismissDigitalCredentialsChooserEON3WTF17CompletionHandlerIFvbEEE
++ __ZN7WebCore14DOMCacheEngine17CrossThreadRecordD2Ev
++ __ZN7WebCore14SocketProvider32countWebSocketChannelsForTestingEON3WTF17CompletionHandlerIFvjEEE
++ __ZN7WebCore15IDBKeyRangeDataC2EOS0_
++ __ZN7WebCore17FrameTreeSyncDataD2Ev
++ __ZN7WebCore22LocalFrameLoaderClient23didCacheBackForwardItemENS_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS_29BackForwardItemIdentifierTypeENS2_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENS1_INS3_INS_34BackForwardFrameItemIdentifierTypeES6_yEEEE
++ __ZN7WebCore22LocalFrameLoaderClient23didEvictBackForwardItemENS_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS_29BackForwardItemIdentifierTypeENS2_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEE
++ __ZN7WebCore22LocalFrameLoaderClient30applyMonitorUnloadToOwnerFrameENS_18IFrameUnloadReasonE
++ __ZN7WebCore22LocalFrameLoaderClient36didTakeBackForwardItemForRestorationENS_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS_29BackForwardItemIdentifierTypeENS2_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEE
++ __ZN7WebCore22LocalFrameLoaderClient57dispatchDidChangeCSPOriginsThatUpgradeInsecureNavigationsERKN3WTF7HashSetINS_18SecurityOriginDataENS1_11DefaultHashIS3_EENS1_10HashTraitsIS3_EENS1_15HashTableTraitsELNS1_17ShouldValidateKeyE1EEE
++ __ZN7WebCore4Page8goToItemERNS_10LocalFrameERNS_11HistoryItemENS_13FrameLoadTypeENS_27ShouldTreatAsContinuingLoadENS_33ShouldRestoreFromBackForwardCacheE
++ __ZN7WebCore8IDBValueC1EOS0_
++ __ZN7WebCore8IDBValueD1Ev
++ __ZNK3WTF8WallTime17secondsSinceEpochEv
++ __ZNK7WebCore12ChromeClient21scrollOriginDidChangeERKNS_10LocalFrameE
++ __ZNKSt3__114default_deleteIN6WebKit19DidModifyOriginDataEEclB9sqn220106EPS2_
++ __ZNSt3__110unique_ptrIN7WebCore10UserScriptENS_14default_deleteIS2_EEED1B9sqn220106Ev
++ __ZNSt3__110unique_ptrIN7WebCore14UserStyleSheetENS_14default_deleteIS2_EEED1B9sqn220106Ev
++ __ZNSt3__110unique_ptrIN7WebCore15IDBDatabaseInfoENS_14default_deleteIS2_EEE5resetB9sqn220106EPS2_
++ __ZNSt3__110unique_ptrIN7WebCore15RunLoopObserverENS_14default_deleteIS2_EEED1B9sqn220106Ev
++ __ZNSt3__110unique_ptrIN7WebCore27AlternativeTextUIControllerENS_14default_deleteIS2_EEE5resetB9sqn220106EPS2_
++ __ZNSt3__117__call_once_proxyB9sqn220106INS_5tupleIJOZ31WebInstallMemoryPressureHandlerE3$_0EEEEEvPv
++ __ZNSt3__127__throw_bad_optional_accessB9sqn220106Ev
++ __ZNSt3__18optionalIN7WebCore12DetectedItemEEaSB9sqn220106EOS3_
+- GCC_except_table1001
+- GCC_except_table1002
+- GCC_except_table1011
+- GCC_except_table1022
+- GCC_except_table1047
+- GCC_except_table209
+- GCC_except_table218
+- GCC_except_table219
+- GCC_except_table224
+- GCC_except_table227
+- GCC_except_table231
+- GCC_except_table234
+- GCC_except_table247
+- GCC_except_table250
+- GCC_except_table253
+- GCC_except_table453
+- GCC_except_table460
+- GCC_except_table515
+- GCC_except_table521
+- GCC_except_table523
+- GCC_except_table525
+- GCC_except_table530
+- GCC_except_table537
+- GCC_except_table542
+- GCC_except_table545
+- GCC_except_table555
+- GCC_except_table562
+- GCC_except_table568
+- GCC_except_table571
+- GCC_except_table576
+- GCC_except_table584
+- GCC_except_table588
+- GCC_except_table597
+- GCC_except_table615
+- GCC_except_table618
+- GCC_except_table622
+- GCC_except_table627
+- GCC_except_table644
+- GCC_except_table649
+- GCC_except_table667
+- GCC_except_table670
+- GCC_except_table674
+- GCC_except_table683
+- GCC_except_table691
+- GCC_except_table693
+- GCC_except_table709
+- GCC_except_table711
+- GCC_except_table714
+- GCC_except_table725
+- GCC_except_table728
+- GCC_except_table736
+- GCC_except_table744
+- GCC_except_table793
+- GCC_except_table796
+- GCC_except_table801
+- GCC_except_table806
+- GCC_except_table809
+- GCC_except_table815
+- GCC_except_table821
+- GCC_except_table822
+- GCC_except_table827
+- GCC_except_table830
+- GCC_except_table835
+- GCC_except_table839
+- GCC_except_table840
+- GCC_except_table844
+- GCC_except_table845
+- GCC_except_table850
+- GCC_except_table853
+- GCC_except_table859
+- GCC_except_table864
+- GCC_except_table869
+- GCC_except_table870
+- GCC_except_table875
+- GCC_except_table878
+- GCC_except_table880
+- GCC_except_table882
+- GCC_except_table886
+- GCC_except_table893
+- GCC_except_table898
+- GCC_except_table901
+- GCC_except_table908
+- GCC_except_table914
+- GCC_except_table915
+- GCC_except_table920
+- GCC_except_table923
+- GCC_except_table929
+- GCC_except_table935
+- GCC_except_table936
+- GCC_except_table941
+- GCC_except_table944
+- GCC_except_table957
+- GCC_except_table968
+- GCC_except_table972
+- GCC_except_table975
+- GCC_except_table982
+- GCC_except_table995
+- _MergedGlobals.472
+- __ZL30nsTextAlignmentFromRenderStylePKN7WebCore11RenderStyleE
+- __ZN3WTF13NativePromiseIN7WebCore14DOMCacheEngine30CacheIdentifierOperationResultENS2_5ErrorELj0EE7StorageD1Ev
+- __ZN3WTF13NativePromiseIbN7WebCore14DOMCacheEngine5ErrorELj0EE7StorageD1Ev
+- __ZN3WTF13NativePromiseIvN7WebCore14DOMCacheEngine5ErrorELj0EE7StorageD1Ev
+- __ZN3WTF20VectorTypeOperationsIN7WebCore14DOMCacheEngine17CrossThreadRecordEE8destructEPS3_S5_
+- __ZN3WTF6VectorIN7WebCore20CompositionHighlightELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEED2Ev
+- __ZN5mpark6detail10destructorINS0_6traitsIJN3WTF13NativePromiseIN7WebCore14DOMCacheEngine10CacheInfosENS6_5ErrorELj0EE7Storage8NoResultENSt12experimental15fundamentals_v38expectedIS7_S8_EENS3_8FunctionIFSF_vEEEEEELNS0_5TraitE1EED2Ev
+- __ZN5mpark6detail10destructorINS0_6traitsIJN3WTF13NativePromiseINS3_6VectorIN7WebCore14DOMCacheEngine17CrossThreadRecordELm0ENS3_15CrashOnOverflowELm16ENS3_10FastMallocEEENS7_5ErrorELj0EE7Storage8NoResultENSt12experimental15fundamentals_v38expectedISB_SC_EENS3_8FunctionIFSJ_vEEEEEELNS0_5TraitE1EED2Ev
+- __ZN5mpark6detail10destructorINS0_6traitsIJN3WTF7SecondsEN7WebCore13ResourceErrorEEEELNS0_5TraitE1EED2Ev
+- __ZN5mpark6detail10destructorINS0_6traitsIJNSt3__19monostateEN7WebCore26SourceBrushLogicalGradientEN3WTF3RefINS5_7PatternENS7_12RawPtrTraitsIS9_EENS7_21DefaultRefDerefTraitsIS9_EEEEEEELNS0_5TraitE1EED2Ev
+- __ZN5mpark6detail10visitation3alt12visit_alt_atIZNS0_10assignmentINS0_6traitsIJN7WebCore18SecurityOriginData5TupleENS6_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS6_26OpaqueOriginIdentifierTypeENSA_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEEEEE14generic_assignINS0_15move_assignmentISH_LNS0_5TraitE1EEEEEvOT_EUlRSN_OT0_E_JRSI_SM_EEEDcmSO_DpOT0_
+- __ZN5mpark6detail10visitation3alt12visit_alt_atIZNS0_10assignmentINS0_6traitsIJN7WebCore18SecurityOriginData5TupleENS6_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS6_26OpaqueOriginIdentifierTypeENSA_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEEEEE14generic_assignIRKNS0_15copy_assignmentISH_LNS0_5TraitE1EEEEEvOT_EUlRSP_OT0_E_JRSI_SO_EEEDcmSQ_DpOT0_
+- __ZN5mpark6detail10visitation3alt9visit_altINS0_4dtorEJRNS0_10destructorINS0_6traitsIJDnN7WebCore10IDBKeyData7InvalidEN3WTF6VectorIS8_Lm0ENSA_15CrashOnOverflowELm16ENSA_10FastMallocEEENSA_6StringEdNS8_4DateENS7_20ThreadSafeDataBufferENS8_3MinENS8_3MaxEEEELNS0_5TraitE1EEEEEEDcOT_DpOT0_
+- __ZN5mpark6detail10visitation3alt9visit_altINS0_4dtorEJRNS0_10destructorINS0_6traitsIJN3WTF3RefIN7WebCore22DeprecatedCSSOMCounterENS7_12RawPtrTraitsISA_EENS7_21DefaultRefDerefTraitsISA_EEEENS9_9ExceptionEEEELNS0_5TraitE1EEEEEEDcOT_DpOT0_
+- __ZN5mpark6detail10visitation3alt9visit_altINS1_7variant13value_visitorIZN3WTF3addIJN7WebCore18SecurityOriginData5TupleENS8_16ProcessQualifiedINS6_23ObjectIdentifierGenericINS8_26OpaqueOriginIdentifierTypeENS6_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEEEEvRNS6_6HasherERKNS_7variantIJDpT_EEEEUlRT_E_EEJRKNS0_4implIJSA_SH_EEEEEEDcOSQ_DpOT0_
+- __ZN5mpark6detail15move_assignmentINS0_6traitsIJN7WebCore14DOMCacheEngine10CacheInfosENS4_5ErrorEEEELNS0_5TraitE1EEaSEOS9_
+- __ZN5mpark7variantIJN3WTF6VectorIyLm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEEN7WebCore14DOMCacheEngine5ErrorEEEaSEOS9_
+- __ZN6WebKit15StorageAreaImpl22clearForOriginDeletionEv
+- __ZN6WebKit15StorageAreaImpl4syncEv
+- __ZN7WebCore11ExceptionOrINS_15StorageEstimateEED2Ev
+- __ZN7WebCore11ExceptionOrINS_5Range14CompareResultsEED2Ev
+- __ZN7WebCore11ExceptionOrIPNS_4NodeEED1Ev
+- __ZN7WebCore11ExceptionOrIPNS_7ElementEED1Ev
+- __ZN7WebCore11ExceptionOrIPNS_7ElementEED2Ev
+- __ZN7WebCore11ExceptionOrIbED1Ev
+- __ZN7WebCore11ExceptionOrIbED2Ev
+- __ZN7WebCore11ExceptionOrIdED1Ev
+- __ZN7WebCore11ExceptionOrIdED2Ev
+- __ZN7WebCore11ExceptionOrIfED2Ev
+- __ZN7WebCore11ExceptionOrIiED2Ev
+- __ZN7WebCore11ExceptionOrIjED2Ev
+- __ZN7WebCore11ExceptionOrIsED1Ev
+- __ZN7WebCore12ChromeClient28showDigitalCredentialsPickerERKN5mpark7variantIJNS_43DigitalCredentialsMobileDocumentRequestDataEEEEON3WTF17CompletionHandlerIFvONSt12experimental15fundamentals_v38expectedINS_30DigitalCredentialsResponseDataENS_13ExceptionDataEEEEEE
+- __ZN7WebCore12ChromeClient31dismissDigitalCredentialsPickerEON3WTF17CompletionHandlerIFvbEEE
+- __ZN7WebCore20DeprecatedCSSOMValuedlEPS0_St19destroying_delete_t
+- __ZN7WebCore21GeolocationController4fromEPNS_4PageE
+- __ZN7WebCore4Page8goToItemERNS_10LocalFrameERNS_11HistoryItemENS_13FrameLoadTypeENS_27ShouldTreatAsContinuingLoadE
+- __ZN7WebCore8IDBValueD2Ev
+- __ZNK7WebCore20DeprecatedCSSOMValue12cssValueTypeEv
+- __ZNK7WebCore20DeprecatedCSSOMValue7cssTextEv
+- __ZNKSt3__114default_deleteIN6WebKit19DidModifyOriginDataEEclB9sqn220100EPS2_
+- __ZNSt3__110unique_ptrIN7WebCore10UserScriptENS_14default_deleteIS2_EEED1B9sqn220100Ev
+- __ZNSt3__110unique_ptrIN7WebCore14UserStyleSheetENS_14default_deleteIS2_EEED1B9sqn220100Ev
+- __ZNSt3__110unique_ptrIN7WebCore15IDBDatabaseInfoENS_14default_deleteIS2_EEE5resetB9sqn220100EPS2_
+- __ZNSt3__110unique_ptrIN7WebCore15RunLoopObserverENS_14default_deleteIS2_EEED1B9sqn220100Ev
+- __ZNSt3__110unique_ptrIN7WebCore27AlternativeTextUIControllerENS_14default_deleteIS2_EEE5resetB9sqn220100EPS2_
+- __ZNSt3__117__call_once_proxyB9sqn220100INS_5tupleIJOZ31WebInstallMemoryPressureHandlerE3$_0EEEEEvPv
+- __ZNSt3__127__throw_bad_optional_accessB9sqn220100Ev
+- __ZNSt3__18optionalIN7WebCore12DetectedItemEEaSB9sqn220100EOS3_
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/DisallowVMEntry.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/Library/Frameworks/WebKit.framework/Frameworks/WebCore.framework/PrivateHeaders/StyleScrollbarWidth.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/CheckedPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/Deque.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/HashTable.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/Markable.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/RefCounted.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/WeakPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/WeakRef.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/text/StringCommon.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Library/Caches/com.apple.xbs/TemporaryDirectory.jkRd3C/Sources/WebKitLegacy/Source/WebKitLegacy/WebCoreSupport/WebResourceLoadScheduler.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Library/Caches/com.apple.xbs/TemporaryDirectory.jkRd3C/Sources/WebKitLegacy/Source/WebKitLegacy/mac/DOM/ExceptionHandlers.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Library/Caches/com.apple.xbs/TemporaryDirectory.jkRd3C/Sources/WebKitLegacy/Source/WebKitLegacy/mac/WebCoreSupport/WebEditorClient.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Library/Caches/com.apple.xbs/TemporaryDirectory.jkRd3C/Sources/WebKitLegacy/Source/WebKitLegacy/mac/WebCoreSupport/WebFrameLoaderClient.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Library/Caches/com.apple.xbs/TemporaryDirectory.jkRd3C/Sources/WebKitLegacy/Source/WebKitLegacy/mac/WebView/WebFrame.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Library/Caches/com.apple.xbs/TemporaryDirectory.jkRd3C/Sources/WebKitLegacy/Source/WebKitLegacy/mac/WebView/WebPreferences.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Library/Caches/com.apple.xbs/TemporaryDirectory.jkRd3C/Sources/WebKitLegacy/Source/WebKitLegacy/mac/WebView/WebVideoFullscreenController.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSI5ugDUdjmfQaRO-Hjlv8G5Tl6zldvR2LeCTZU/Library/Caches/com.apple.xbs/TemporaryDirectory.jkRd3C/Sources/WebKitLegacy/Source/WebKitLegacy/mac/WebView/WebView.mm"
++ "::Class initAVPlayerView()"
++ "::Class initAVTouchBarPlaybackControlsProvider()"
++ "CSS Scroll State Container Queries"
++ "CSSScrollStateContainerQueriesEnabled"
++ "DOMNode *kit(WebCore::Node *)"
++ "Enable MediaSession hangup, previousslide, nextslide, and enterpictureinpicture actions"
++ "Enable scroll-state value for container-type CSS property"
++ "Frame Resource Monitor Network Usage Threshold For Testing"
++ "Frame Resource Monitor Network Usage Threshold Randomness For Testing"
++ "Horizontal Banner View Overlays"
++ "HorizontalBannerViewOverlaysEnabled"
++ "IFrameResourceMonitorNetworkUsageThresholdForTesting"
++ "IFrameResourceMonitorNetworkUsageThresholdRandomnessForTesting"
++ "MediaSession extended actions"
++ "MediaSessionExtendedActionsEnabled"
++ "Origin-Agent-Cluster header"
++ "OriginAgentClusterEnabled"
++ "Storage Access API Per-Page Scope"
++ "StorageAccessAPIPerPageScopeEnabled"
++ "Support for the Origin-Agent-Cluster HTTP response header and window.originAgentCluster getter"
++ "Test override for the iframe resource monitor network usage threshold in bytes (0 means use production default)"
++ "Test override for the iframe resource monitor network usage threshold randomness factor (only applied when the threshold-for-testing preference is set)"
++ "WebKitCSSScrollStateContainerQueriesEnabled"
++ "WebKitHorizontalBannerViewOverlaysEnabled"
++ "WebKitIFrameResourceMonitorNetworkUsageThresholdForTesting"
++ "WebKitIFrameResourceMonitorNetworkUsageThresholdRandomnessForTesting"
++ "WebKitMediaSessionExtendedActionsEnabled"
++ "WebKitOriginAgentClusterEnabled"
++ "WebKitStorageAccessAPIPerPageScopeEnabled"
++ "When enabled, storage access granted to one frame is shared with all same-origin frames on the page"
++ "void *AVKitLibrary(bool)_block_invoke"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/DisallowVMEntry.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/Library/Frameworks/WebKit.framework/Frameworks/WebCore.framework/PrivateHeaders/StyleScrollbarWidth.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/CheckedPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/Deque.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/HashTable.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/Markable.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/RefCounted.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/WeakPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/WeakRef.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/text/StringCommon.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Library/Caches/com.apple.xbs/TemporaryDirectory.Wrkhbq/Sources/WebKitLegacy/Source/WebKitLegacy/WebCoreSupport/WebResourceLoadScheduler.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Library/Caches/com.apple.xbs/TemporaryDirectory.Wrkhbq/Sources/WebKitLegacy/Source/WebKitLegacy/mac/DOM/ExceptionHandlers.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Library/Caches/com.apple.xbs/TemporaryDirectory.Wrkhbq/Sources/WebKitLegacy/Source/WebKitLegacy/mac/WebCoreSupport/WebEditorClient.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Library/Caches/com.apple.xbs/TemporaryDirectory.Wrkhbq/Sources/WebKitLegacy/Source/WebKitLegacy/mac/WebCoreSupport/WebFrameLoaderClient.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Library/Caches/com.apple.xbs/TemporaryDirectory.Wrkhbq/Sources/WebKitLegacy/Source/WebKitLegacy/mac/WebView/WebFrame.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Library/Caches/com.apple.xbs/TemporaryDirectory.Wrkhbq/Sources/WebKitLegacy/Source/WebKitLegacy/mac/WebView/WebPreferences.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Library/Caches/com.apple.xbs/TemporaryDirectory.Wrkhbq/Sources/WebKitLegacy/Source/WebKitLegacy/mac/WebView/WebVideoFullscreenController.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAkFv-jMqLfw_uhrGtMbZgtytGSWf3LFGs/Library/Caches/com.apple.xbs/TemporaryDirectory.Wrkhbq/Sources/WebKitLegacy/Source/WebKitLegacy/mac/WebView/WebView.mm"
+- "Class initAVPlayerView()"
+- "Class initAVTouchBarPlaybackControlsProvider()"
+- "DOMNode *kit(Node *)"
+- "void *AVKitLibrary()_block_invoke"
+
+```

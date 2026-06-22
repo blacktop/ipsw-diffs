@@ -1,0 +1,66 @@
+## scene_object.dylib
+
+> `/System/Library/PrivateFrameworks/CoreUSDEdit.framework/Versions/A/module/scene_object.dylib`
+
+```diff
+
+-28.0.0.501.1
+-  __TEXT.__text: 0x2090 sha256:95db3ef8b7108a35736b43c6c06251280bbce1270383eea93c609c9357d65c82
+-  __TEXT.__gcc_except_tab: 0x3c sha256:fe45fffa122dd5280e8cb234b9f6224a25e4f43dcca7a20a5c7f0db3506fb0d6
++28.0.2.0.5
++  __TEXT.__text: 0x2120 sha256:44f74bd675955f76f5c6ae205b37f7fcbe868a627a806410d4686b30114eeeb1
++  __TEXT.__gcc_except_tab: 0x48 sha256:c09da6e840fcbdeed50dc9faac4722c876a86c36e288d4f8a2506366cc4f79b3
+   __TEXT.__const: 0xdb sha256:58e5e9a863e84f5cc941bded88a2a0f578b48f921c7a99b1204ea306dc382cd4
+   __TEXT.__cstring: 0x32e2 sha256:5eb30cff189177834f225c4f5633b9a06a1459b6f4b2e72227c5816faaa71241
+-  __TEXT.__unwind_info: 0xc0 sha256:613a2c5f66a4d05d0e18e16b6e44f0141191e5a1054f52292921fb52b0483330
++  __TEXT.__unwind_info: 0xc0 sha256:d32e128391a8dd83e2da332aae98484cc843cc72ded80fb2b4d63aa7e03c6121
+   __TEXT.__auth_stubs: 0x0
++  __DATA_CONST.__weak_got: 0x10 sha256:901acc65b16fef08f65d1a24f17b4a49c1e2a86ac43e06f45fb08024fc295ce2
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x108 sha256:cf41f71adeffc4f23cd1844a98fb6a8befb9196c497fd4ec978e184acfa6d0d9
+-  __AUTH_CONST.__weak_auth_got: 0x20 sha256:b7a04fda26841a0040c3791c7f7affdc0629031506fbb84d682fccd222e021f0
++  __AUTH_CONST.__const: 0x108 sha256:f983787fc02c0b39d2bb69d941a3e3ed52b7473e8c5e8d065916bbb35b587613
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:396e67293ba6b13027ef3965f36dc8d7505225f73159bf94255b9e4c198352ac
+   __AUTH_CONST.__auth_got: 0x0
++  __DATA.__data: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/usd/libusd_ms.dylib
+-  UUID: 99584A20-DE73-35BC-8E97-F2F4412DB6DC
++  UUID: 46971B33-8AE2-3FBF-B1F5-F30788E0755A
+   Functions: 17
+-  Symbols:   80
++  Symbols:   85
+   CStrings:  56
+ 
+Symbols:
++ __ZGVZN14CoreLogHandler12main_handlerEvE18s_main_log_handler
++ __ZN14CoreLogHandlerC1Ev
++ __ZZN14CoreLogHandler12main_handlerEvE18s_main_log_handler
++ ___cxa_guard_abort
++ ___cxa_guard_acquire
++ ___cxa_guard_release
+- __ZN14CoreLogHandler18s_main_log_handlerE
+Functions:
+~ _on_register_module : sha256 2769ef45ced509d9fd25aca466f39351314c9220d80c2640d51d883a7a14887b -> fbce8aee746566016ae6166cacd45cf34c7fc837f689f101d73f6f91ceadd260
+~ __ZL10create_cmaPK7CtxEval : sha256 75b140b3ad4a3ed8f5ae9e95083db8316629f615989e4da058f07bc8ca31df0c -> 00ed14285c86bbc0e30036a4b49e5932a70ec832c7678aa946abbe3a8817f806
+~ __ZN28_ModuleSceneObjectCallbacks_10init_classER7OfClass : sha256 fe36418e552ede635e0509cd3fa09c216313e5088946045d7f3cc35bb113bf6a -> 4973ccbecd053c7c623049d8386610f70b416b6def4526a83a1c2e1ea00f434e
+~ __ZN28_ModuleSceneObjectCallbacks_19on_attribute_changeER8OfObjectRK6OfAttrRiRKi : 736 -> 720
+~ __ZN28_ModuleSceneObjectCallbacks_14declare_moduleER8OfObjectR15OfObjectFactory : sha256 def57f647387e196284f3660395012d3f88267338973b96c411371166f268e29 -> d6d9402709382f9fba19e5565e39847af55ce409cd23d035c95159c175cc42be
+~ __ZN28_ModuleSceneObjectCallbacks_25on_pre_deserialize_objectERK11CoreVersionR11ParserGroup : 328 -> 488
+~ __ZN13CoreLogStreamD1Ev : sha256 1782391c44f7f45d99cebd759b0c8de2531148757429d493a5992828456ebd89 -> 98441387a4e7e5b022eb93e4e42a6867d9b09fa5b55dfa91e31182001a3bd93f
+~ __ZN28_ModuleSceneObjectCallbacks_D1Ev : sha256 1137520d4e7cca3320c366ae79ccb744cf1b7be8823fe1cf6ce50193a8df9d49 -> 3a2143b9393f212be41638096c1fe9cf91c57d662e4691db87c4cfeee7e62304
+~ __ZN28_ModuleSceneObjectCallbacks_D0Ev : sha256 e483b74b5e4f12d83e39b62b001a5e7871cebcebcc2d637ec5e9d769da6827f2 -> 3d958e18439a41afce8dd233de2e079ba4304f8737b57092ebb9ca0bec110af0
+~ __ZN14CmaSceneObjectD1Ev : sha256 b71441f735ea7760f499963b1ca1f6175e99a56e4cb53e4feac2350a4e706ed4 -> 4350925f6204478e65c8111cdf23970e00054524bdcc5ee820f0c1bfe05d422a
+~ __ZN14CmaSceneObjectD0Ev : sha256 4333f30980fc0297c218373aac0dc375a58266af82c9092b4304f325d543dfe2 -> f635e65939d08450e3ca0d5e1a91a25901a1b78c606b4ad7d4325015ff362845
+~ __ZNK9ModuleCma14get_class_infoEv : sha256 273af9377dcba34462fa23d176c5b4dc8b86675bcd92049fd5f9c05fe19d3a3b -> cc038f8eba261c1e498ce91bfffa0b2e54d2d79eb476d5a4e85e24de5874ae36
+~ __ZN14CmaSceneObject21sync_attribute_valuesERK8OfObject : sha256 3bc3663c34d2026c2a8a9ba10bf496d34026a0b612bb45a5b161a7575e5e4499 -> adb15a4f18cd0dfbe346135804e11b80d82d455228baa561c72f8af421d49cb3
+~ __ZZ18on_register_moduleEN3$_08__invokeER8OfObjectR10GlUtilsCtx : sha256 58392733c471a5d3a2bf56f595dd2c924565a011f732de7b83b2877477136774 -> cb1a5729571e8ae472829e36a1aa55e132d3909032d82c1f86e7c56584c6903d
+~ __ZN13CoreLogStreamD0Ev : sha256 466c0ad009c53bc13f83be02a6c29313f17780786d78a492426d76d8d38643d5 -> cc4279677db6b00bc72d09b8d02feefe91629c89623dfb7eff58a1d088a5d56f
+~ __ZNK13CoreLogStream14get_class_infoEv : sha256 0ea51a1ccdbdd55992d1987fbdce00eb485dc605981e7ea40e65ad4ffdb5b9f4 -> 73b0767da6c81b469d287d05052a09eff68f3e88608113cf5d1ae0b682471774
+
+```

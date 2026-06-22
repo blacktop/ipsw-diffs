@@ -1,0 +1,36 @@
+## xsltproc
+
+> `/usr/bin/xsltproc`
+
+```diff
+
+-21.13.0.0.0
+-  __TEXT.__text: 0x1ba8 sha256:926b4aa6cb0693899960ffb6f0e05a1910c67789c21bed4bbb7d51b736244b9d
++21.13.2.0.0
++  __TEXT.__text: 0x1bd8 sha256:67d6d375dac86ad62d8b7b0a8f619a0fe86a45f383e14d189e70f696766dbe6f
+   __TEXT.__auth_stubs: 0x340 sha256:f43813138360045d4e3bb003b7905b23537ee0660138924c56dff17fc245a528
+   __TEXT.__cstring: 0xdf3 sha256:c2971ccf4fb6f7cb6e9794520cc0f0f8f3ab90b54f3984c2b126eeb191f22789
+-  __TEXT.__unwind_info: 0x80 sha256:c706dceb49c0fc3e61db4bf31b773d69ba02209482154079117f618bfefa208b
++  __TEXT.__unwind_info: 0x80 sha256:074055d759f88e976140ce226b28a4bdf2de1bad63b5d25736defabb521ab421
+   __DATA_CONST.__auth_got: 0x1a0 sha256:ec42948938e95575abd5f1556dd17714229598cfff4320567315f03cb0bddbd6
+   __DATA_CONST.__got: 0x68 sha256:99ed4b026a2579c17e451d608171b91c8a7f55fb0fd8b3a94e5f83883e80b7ee
+   __DATA.__data: 0x4 sha256:8d82d3f1442a59f985607ecb963e292dd638c0dde7813e83ca7a8cf2aabceef4
+
+   - /usr/lib/libexslt.0.dylib
+   - /usr/lib/libxml2.2.dylib
+   - /usr/lib/libxslt.1.dylib
+-  UUID: 4F6B254C-D93E-3A1D-92B6-FDEF22F30E03
++  UUID: 7066DBD9-85C9-31EB-BD6F-4470CAA2FD7C
+   Functions: 7
+   Symbols:   67
+   CStrings:  134
+Functions:
+~ sub_100000680 : 4336 -> 4360
+~ sub_100001770 -> sub_100001788 : sha256 8397e65b4129e9d10aab042c3441b448d770f653bf04db6b5bd74ac58be2d5fd -> adf7b9326f999a5661a27daaa440462fc1abebeaf682302cbaa44e36ed5be4af
+~ sub_100001990 -> sub_1000019a8 : 568 -> 580
+~ sub_100001bc8 -> sub_100001bec : sha256 e5fe651e48cacab72c038e366efadbd565bddeee6e056e0f1bd0d6915d5638e3 -> d22b6db3e9eebe0e0071ee4cd056dc589d01e5d46639bf48a2d175f74daeefcb
+~ sub_100001c1c -> sub_100001c40 : 292 -> 304
+~ sub_100001d40 -> sub_100001d70 : sha256 6cb446d7266529a708a5c5756975f4d931cee49690b077cd6383473d37de9b3b -> 90558bc266de2965d64209c5203fdcbe53aa563ca926146a279cd8a6ba9a4506
+~ sub_100001dfc -> sub_100001e2c : sha256 76458ce5cd923c4e6590ec80191295e9064c49475e4f571837fcd1c698c25fa8 -> 0c2669ebb2541fae8d14c435381e1b2196ce5a45832547cf5a40fbbf4d0273ca
+
+```

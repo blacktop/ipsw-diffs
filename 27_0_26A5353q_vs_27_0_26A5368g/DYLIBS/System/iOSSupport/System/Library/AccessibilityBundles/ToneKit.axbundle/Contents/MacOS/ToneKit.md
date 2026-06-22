@@ -1,0 +1,82 @@
+## ToneKit
+
+> `/System/iOSSupport/System/Library/AccessibilityBundles/ToneKit.axbundle/Contents/MacOS/ToneKit`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x69c sha256:bb5d3cbf77db86c647ae012bfdce695d98a4ad9c3e017c45078a9ff078bcffbf
+-  __TEXT.__objc_methlist: 0x154 sha256:87bbf54c650cf80e6e5d07ddb9f1dbd6d59afb3b0905725bad589ddd8abae8d8
++3039.1.0.0.0
++  __TEXT.__text: 0x698 sha256:f30c40db3fff00919213dde163bd8ed5f42e496d1167d5a5c8e9d2a28f802185
++  __TEXT.__objc_methlist: 0x154 sha256:00796a5729c3ef81e41d4e2f7355295e30fa0454bad1d8031ff76397f40232d0
+   __TEXT.__cstring: 0x1e7 sha256:284811133cc53e10376bf0d1d28469bc2b0bc103a51f583088e13acae1877205
+-  __TEXT.__unwind_info: 0xa8 sha256:96c6bf444e8830b118e2d91ed8fde8cffea8b6de8f33183a8b421c638b262dbe
++  __TEXT.__unwind_info: 0xa8 sha256:0e662357a20cd1aae5d7269334378820eb1aee17cabc77a5b5b6dbdf13054e92
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x40 sha256:479937de1a61ba96c82731fe2eb9e01db822dfe11731a989f0dae37b77e0ded0
+-  __DATA_CONST.__objc_classlist: 0x48 sha256:378c0530a420e70922fb950a589fe333bd32a69cf8a1b8f99bcbf997fe27d872
++  __DATA_CONST.__const: 0x40 sha256:34d46370cf5f8b26a9da9879b6733ecbea9f313f5518df09325197ddff1788ab
++  __DATA_CONST.__objc_classlist: 0x48 sha256:a3c43317227bd4e785496f5d3a85857e4dfbdd5cd025fbfa307119c98014eb04
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xe0 sha256:d6667334b801e477ba2e459fa2716b6ad9e9689335e231364f3beaaf43d305b5
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:2c3fa5314ac01203fe6b5030a0d097e03f69349dab740b8693824e03c14b46b2
+-  __DATA_CONST.__got: 0x50 sha256:931910c38bddf83be1a7dc64dd3dc0f6b275d30320c0a6f9d675a99525836afb
+-  __AUTH_CONST.__const: 0x60 sha256:939355520c4535494bab20c277bc10b755532ab420cca1bbe61244b32c1972fd
+-  __AUTH_CONST.__cfstring: 0x1e0 sha256:ce8b0f16c8040d4b39cd953f80b6395ef22e5a662e59ca075de6b11866f50e96
+-  __AUTH_CONST.__objc_const: 0x510 sha256:4bb1426cc4f3f57d6bff0273a3e18dcc5d22dd16b749ea4742535060edd08610
++  __DATA_CONST.__objc_selrefs: 0xe0 sha256:c20f94355739eb3824e35e18f2146dedc0363d235c9f10c2743a80a81efd8db9
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:cbf08b0a2c999bc033609caf322949c8a6c45f439470c6e1f1a26d0121de1beb
++  __DATA_CONST.__got: 0x50 sha256:9bccfb02de6f1f35d6540f257255dc98fcf7e5413a6491282ff1ec4b6d8260c1
++  __AUTH_CONST.__const: 0x60 sha256:ebe4060866416eeea429daec7a9fe0262ef3553232c7642ddf0de8e62d7eec68
++  __AUTH_CONST.__cfstring: 0x1e0 sha256:f40a0ad65cc2586deb2ef01ad7078a9314ff6cd7f804b21d6df2031b95a1da90
++  __AUTH_CONST.__objc_const: 0x510 sha256:053ec6cd05160091075e525a8c125040db4786ae0d1b7f6c3202ce95a6797c29
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:5e17d4229896155ae35724d2dab96615c688167bb7b73cc859f34e85b105495d
+-  __DATA_DIRTY.__objc_data: 0x230 sha256:75f9251c396c75b6a0ca5247d658e9db5d6d1a31e27f3b389b4b1877b6046737
++  __AUTH.__objc_data: 0xa0 sha256:0d145928e2dd9cd74ebec126d3044ed28342841a81fb2d63f80319afcd706871
++  __DATA_DIRTY.__objc_data: 0x230 sha256:95a885a094c9fd4201c76d1c0425c654bf700863e62e6695ae38aeee39c780b1
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E50C60D7-0843-33E4-80AB-64D0EEAECA72
++  UUID: EE90BEF2-48AF-30EB-9FB3-1132B7CA001A
+   Functions: 24
+   Symbols:   131
+   CStrings:  35
+Symbols:
++ __block_literal_global.357
++ __block_literal_global.366
+- __block_literal_global.351
+- __block_literal_global.360
+Functions:
+~ +[AXToneKitGlue accessibilityInitializeBundle] : sha256 e5ef7f1fc4eaa90f8db76250e6f06ccd21b28f67e163924e93ff57610d43e280 -> 870046f18b43f4f95f8a7082791d501d095d0d4563ca8990300a9c5c79067dac
+~ ___46+[AXToneKitGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 ffc45dce06cb942cd3dd0b9b7ada6b765a2caa19e05215631428634e95c84044 -> c831b0f05c23a64004976775bc2cf35f70044473566bdb13b602a9ce0aecef4c
+~ ___46+[AXToneKitGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 7a82dcdf5d08afd8e4c958bdf32d30cbbff5bb84a85eab679b089efb6d57af80 -> 30fe67d82d2b841d7192f42041a293fea464ba6fa7c2b856a4d373f09fafa56d
+~ _accessibilityLocalizedString : sha256 1a37c8656704388826f2ed2afd12602febbb9459c3619612cdadc0a7b84be61d -> 40fc533e1c44cc2310282b8dbb818330163cc50b906d267cb309c99e0604d1cb
+~ +[TKVibrationRecorderTouchSurfaceAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 27e967e550f006bf75c20c72f3c23397cb81c37feb29cde08a3bc71928272aca -> 89082563751f291342d44ba84da2843850909874af7ab6c26c3c04c925b38fb3
+~ +[TKVibrationRecorderTouchSurfaceAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 ffe3720c4ea560b70f9360aa06122e7957aa64f8746e6ee9a9f9a7c7d8d1f523 -> b24e9109767ebca6cf08344dec6d70147c5adc2b10b1a7a22c14ff02c8cb30bc
+~ +[TKVibrationRecorderTouchSurfaceAccessibility _accessibilityPerformValidations:] : sha256 e3e70aba23320e7e63fa3707421a475cbdd980246cb01b656fd1df5921bba36b -> 8ea678768373c64fb90b2dc9dd9c9a2a6f7381e439465af067a0ec0011785c6a
+~ -[TKVibrationRecorderTouchSurfaceAccessibility accessibilityTraits] : sha256 9edc5eb52b3a1c65da2d296bc7405faa4210e78b8249c3dd15d313baa27b2dfa -> 18b736cf590c18b9d1b1d9886349ae178b5a7a1462049411c89cfd11e4633f18
+~ +[TKPickerTableViewCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 4bbd5ae94e9f8ea7da2c26e2a248cdcf4fabe799fc3d4ba22f281877355c9fcb -> 1c325013d1861b0397b2d2fa3c7b548831f5cdfaf2a38b831cd44a7361db24d2
+~ +[TKPickerTableViewCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 18b653f293ba0190d03f9f41d084f087e166137889fd2fb4fdcc152864f7ecac -> 92b726ae592c8831ba29849f6e94805045431e258df14930ccda129bc19a1b88
+~ -[TKPickerTableViewCellAccessibility accessibilityTraits] : sha256 81575a46f22979086c100f3b532c39b665c03551027db3e0b0a605b6d7d9633c -> 129660ab8b839df490bde395701c5cd22c0c6391b4e3579872727a67e65a36c6
+~ +[TKTonePickerViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 1ada6223a2be12e5f16ac6eed0cbfc8822d4f610594cabbbf625332f802f2f92 -> 98365d04be8d4cc86f769f2aff6792cdaaf047f7bc4f656ea4db15d85594d857
+~ +[TKTonePickerViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 a19e6792de5c298c241a7aad3d6f0a95d990e1c35fd287118297d357be3ee20c -> e94924d741aab90c3be59e2d5a9843cdf8e5cc2ef5abb46acfc119c08eb6c345
+~ +[TKTonePickerViewControllerAccessibility _accessibilityPerformValidations:] : sha256 3684736d5e0b5919b24d8fbc218de5be5d9edfa7185659b53bdf48b6882be43c -> bf08ef0173ee3744e392c80d0d11ca174dec67c829a5a5cc950c4a5a5cd6c074
+~ -[TKTonePickerViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 376 -> 372
+~ -[TKTonePickerViewControllerAccessibility _configureTextColorOfLabelInCell:shouldTintText:checked:] : sha256 2a8749ccf0c72cfd387ec3cb0c344c1d73fec5f68f55ecfdc27636462300e211 -> 536ec5284e9eef54a24d6e7f4cb5b4ae924ffb88f223f3a0b6ea7519b005dda4
+~ -[TKTonePickerViewControllerAccessibility _axUpdateCell:] : sha256 7a756a9512ca1920be668c63072b022fce23a5052576de4f9a42e98d21547978 -> 9c191d80829e2bb61622b78c1a52d0df93e523b96dc5a0fca96a6dc3d60dd33d
+~ +[TKPickerDividerTableViewCellAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 d3ff873d500e4ea280d080df0585b7c3c2d318f901eb4364b748a57a2d65db04 -> e7747833ddab48d7f245f36cb8f125d24c358264d08c0db91c31669f6159dc72
+~ +[TKPickerDividerTableViewCellAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d427d089bc0881fbf6c55ca04572560cf7667e4b75386558cef3189197071328 -> 9cce393afa970843f7a5cd263268dc9859f6bc38e2d2e7153d4c8ad2101a71e9
+~ -[TKPickerDividerTableViewCellAccessibility accessibilityTraits] : sha256 2a0e2ef5f53ad970f87af5819948fa018138381d809387078a11593379b1c3a0 -> bb681664255b93cd93356c99a0f821c3f86120a621c8bf21473eaedc85aa89f8
+
+```

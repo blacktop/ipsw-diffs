@@ -1,0 +1,24 @@
+## wait4path
+
+> `/bin/wait4path`
+
+```diff
+
+-1066.0.0.0.0
++1068.0.0.0.0
+   __TEXT.__text: 0x10c sha256:5000ff305c9e2ddb7492cc5d2c44fad6de6347e52da4b33a014f4991683dc8f1
+   __TEXT.__auth_stubs: 0x70 sha256:dd450eb38f030c86e698c1f804f9f431060d40715fee04f22c176299df681348
+-  __TEXT.__const: 0x40 sha256:94607407a54b25f2339dde8775ead3d0c0d61d179717ee916b338966f8d18195
++  __TEXT.__const: 0x40 sha256:1c7f44617014fc41e7425bb50fc78c8bfb6be0cd9f438c99aae6d09ba939687f
+   __TEXT.__cstring: 0x4a sha256:10c62a25b79e3d56f5a32e22f4a8bd025d215e8d188c000345ad9a10dd5e76aa
+   __TEXT.__unwind_info: 0x58 sha256:cebedee968f419c6fcacd1119f8756046677168e491ab4be27515888c0faefa0
+   __DATA_CONST.__auth_got: 0x38 sha256:c64f604af69e89d20227b8d936c3d0a50ceaa156663427d7a57463c70460dc89
+   __DATA_CONST.__got: 0x8 sha256:475110884308dba560919bdded9b819901f8f309a264327f1c8a717b122ec956
+   - /usr/lib/libSystem.B.dylib
+-  UUID: B335C8C2-32FA-3301-B99C-E1B18FEDADD6
++  UUID: 70174033-CF55-33AE-B99A-B9D03EEB8256
+   Functions: 1
+   Symbols:   10
+   CStrings:  2
+
+```

@@ -1,0 +1,426 @@
+## WritingToolsUI
+
+> `/System/Library/PrivateFrameworks/WritingToolsUI.framework/Versions/A/WritingToolsUI`
+
+```diff
+
+-129.1.104.0.0
+-  __TEXT.__text: 0x56880 sha256:db9b73035ee21ab5b2d5219c35429f11af86474d6b2d5e4f54cb874cbdd1f099
+-  __TEXT.__objc_methlist: 0x3184 sha256:1e161572bc37d1fed17f91d75a490f8dbd1596c1652f454ad372631a93fb477a
+-  __TEXT.__const: 0x2c74 sha256:cf4c59005f15dd63f50a3928b1261dd8a84dfcbdbc75f17ba826494e64afc3e7
+-  __TEXT.__cstring: 0x2222 sha256:35f7ac36cc4dd6f7e5e461ec6ba62c7238928fd1a14be3e2a33ae818bda436e2
+-  __TEXT.__gcc_except_tab: 0x6b4 sha256:d27ee20de7399920b7f05083388b2bb9993d449655d7123ce68aaf46934122c1
++134.500.0.0.0
++  __TEXT.__text: 0x59b20 sha256:bc98b4d44f47186e487117c9a1c8f725b482c21d6bafb174e79ea23bbc746eae
++  __TEXT.__objc_methlist: 0x336c sha256:4decf6188fe5a6a227d022e889259d12b0d3718897be8d8ad345a78d2141f52e
++  __TEXT.__const: 0x2c94 sha256:bd28378f0f546084a3acd4553236b897e740e864729256f607023e397f5f20a1
++  __TEXT.__cstring: 0x2852 sha256:637323048570967f1416cef6f9b50bf7d2325a01b27437678bfec1bee4a9ecc0
++  __TEXT.__gcc_except_tab: 0x860 sha256:48690ec35f8fd26e95382092bc1369fd140244e7a686c3d101891bb3b13b8d1a
+   __TEXT.__oslogstring: 0x10a5 sha256:e5e2c1baab0e3f185ac0afbaeb3308d63ac4c570f1f41c52dd0bc79dffe0cd4c
+   __TEXT.__dlopen_cstrs: 0xb4 sha256:62a78d96f310147a588e379cf6a17277b4d4b73dc2cecd990d3a78ecbf819b93
+-  __TEXT.__swift5_typeref: 0x9244 sha256:d0e95afe292c5f7ef6e4c9d28b12476dd11e9350c81216cd63fb165860e1edef
+-  __TEXT.__swift5_reflstr: 0x95c sha256:03582790a1303df10da51496e74af636bdfe10d88e587e30fdb8021348808975
+-  __TEXT.__swift5_assocty: 0x1e8 sha256:1141affab5795210b7556be53cfc3f783e492dd76a34e6ed82588a85f4440f9c
+-  __TEXT.__constg_swiftt: 0xad8 sha256:21d294cf9491038071ebce04b3c34c7b66eaea26f87ea5cf6be189d221304f0c
+-  __TEXT.__swift5_fieldmd: 0x84c sha256:b0d3c4eb362f2e242f7329d7c1ea222537b08690e6d55e9c973d861e91ed3bf8
+-  __TEXT.__swift5_builtin: 0xa0 sha256:a78076a822d8f40eb9df37deca583f572b85ab269d3b5f0fc0f963a305af406e
+-  __TEXT.__swift5_capture: 0x364 sha256:73f5c3fc5e7a5d965aeb6391e35d1e136d6e762631baf6f65b8fe8ef2bab56b8
+-  __TEXT.__swift5_proto: 0x170 sha256:31342ca4f17997210b0f9b77a26b8cfb7a08398b046f2a5be99ee427a3028364
+-  __TEXT.__swift5_types: 0x98 sha256:90edc5002660d50fe06f354ed25b40526e524724553d85b726c1a58bafa038f2
+-  __TEXT.__swift_as_entry: 0x44 sha256:687b490f8b0bf34f5850a80e8e3ea0f87400f2b1ff25a503cf884f5b082eddf4
+-  __TEXT.__swift_as_cont: 0x40 sha256:69d27ffc13b9e7c3417076f972e57ac2c6a6757bfded13d5207aa29c43236fb7
+-  __TEXT.__swift_as_ret: 0x20 sha256:34f7395bdcbf5f69358936007a25decba23a16e029d4e4d5b824f1e8383c9eca
+-  __TEXT.__unwind_info: 0x15a8 sha256:1794c3a9f4ce6632c3480e35ff98557f8f8d9da946c600ee841d6fd46d121962
+-  __TEXT.__eh_frame: 0xa40 sha256:67087bcb6f636ee40f001175eac4577211f393573e09ee44f531b3f999ec8520
++  __TEXT.__swift5_typeref: 0x9244 sha256:c166cf25b7ee349c4d39e67793498c0e7e084c4903a9e02b25869a9996d872ca
++  __TEXT.__swift5_reflstr: 0x99c sha256:72838af58306c41004efe1cd3d170930e7acd97a0bcab3cae97cf6941d83f610
++  __TEXT.__swift5_assocty: 0x1e8 sha256:99b6c24131d1f88d5a342d1411d5c8dcd57a04f08b89f34a77a17b99cd3d8f56
++  __TEXT.__constg_swiftt: 0xae0 sha256:bda29c8a396e10f70210eba881254d2308d4c0ce5db82f04fcab9ea5cba388dd
++  __TEXT.__swift5_fieldmd: 0x864 sha256:07ff9440b547c1782e780427cc765e9ebea8ba2c26b131d5442b24b377a33d73
++  __TEXT.__swift5_builtin: 0xa0 sha256:cad980be1541178a495e72832472a737e74f958773eaa72b4982192fedb70467
++  __TEXT.__swift5_capture: 0x364 sha256:7bb62f54ab7e6cd431c9bf83286ccc32ea9946019d9488a66f514316b98ee681
++  __TEXT.__swift5_proto: 0x170 sha256:6b6f0692b414079bdb704208f0f30f80449d9157b981fdb8b2ff6e2e77c11b20
++  __TEXT.__swift5_types: 0x98 sha256:cca2fd262eb19a77c0d9d7b09533cd73b5e18216304b68c4c58e33787fcf0fc8
++  __TEXT.__swift_as_entry: 0x44 sha256:a5f6b6b549d51ec0e1b755ee2368a23b1ac936cb23b55478edd0b416e107cba3
++  __TEXT.__swift_as_cont: 0x40 sha256:2d5af89c4c05a2423c0fb7ba2cfd89c0a699d05f4071f18aa02fdd6cba9d7bda
++  __TEXT.__swift_as_ret: 0x20 sha256:3ca9b5c611764463c9e9da223bd80a32596062063f0d893d175b66964185945a
++  __TEXT.__unwind_info: 0x1700 sha256:4733bfda473edb51a4cfeef00da1619f3e468ac0276d06c3d20d50fe2e000220
++  __TEXT.__eh_frame: 0xa40 sha256:d1d97b805d462c43db535f3a0fcccba6029fe4f9ddcc522e928c013e1acd893d
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x248 sha256:159268e044c920ce29291aa415600f5e880827d93d07e4ca6eb0d29a23dff136
+-  __DATA_CONST.__objc_classlist: 0x150 sha256:f6930a1129e7cd08e6aa249814cb04adf87594a906a820f8c957f09cba1ba69e
+-  __DATA_CONST.__objc_catlist: 0x38 sha256:0ff21bf61269d05b416e75c787f6cbc6a7e3625934cf1d8c6d35ab66fe5378b8
+-  __DATA_CONST.__objc_protolist: 0x98 sha256:94cadb50fb8e0c342577170fe8dd7e7531115a595290bf77d9b349e61441a954
++  __DATA_CONST.__const: 0x240 sha256:d04e1a718785c50160f274457b28e7409ddd32de5fc2c60dfda4819c03373e2e
++  __DATA_CONST.__objc_classlist: 0x150 sha256:7a512d53ae343175c48b9e60fa8e61fdbbf3dd1cb2432647e372c9677b26e3cb
++  __DATA_CONST.__objc_catlist: 0x38 sha256:76c5e7cfafda4247a96205244482a0582a31c57c8d016e76bdc5582fc5891690
++  __DATA_CONST.__objc_protolist: 0x98 sha256:4cd23da655ee13abe0bfa40506dcdde46ee4fe6c38d01576b6a2678d052c8c20
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x2688 sha256:9b90430ba1cbb4f1fcc2081006467339029425dc8e4ae274568708885ea75a85
+-  __DATA_CONST.__objc_protorefs: 0x20 sha256:1a24ab54cb0255a30e96b2ea29800c3189c8ad62220bc58bb306ca143b164418
+-  __DATA_CONST.__objc_superrefs: 0xb0 sha256:06b557ed0a56e854eb1b5455da0d8d5c04e7012a06e0924d438be9933c6f4ca6
+-  __DATA_CONST.__objc_arraydata: 0x60 sha256:f78947f3266564fc077b43d15daa885e170429b858527b1c3868124983ede3e0
+-  __DATA_CONST.__got: 0x940 sha256:c0afa731d8dfdf2a12221297bbce4e5c331848e0f26f321b9cf5237e0df8ce20
+-  __AUTH_CONST.__const: 0x2818 sha256:e40a02254345f2596ad0b5d881df7ae9401d2f21ea4752e00138deed4782e059
+-  __AUTH_CONST.__cfstring: 0xb40 sha256:cb3536af93842fd4b61de5277ceb7314fb111f8cff46c9c72fb422d9a32a3951
+-  __AUTH_CONST.__objc_const: 0x4c80 sha256:17896a986d8fc274284d32569b39b7da27f97e9d60abad17b7da526ab30dce9f
+-  __AUTH_CONST.__objc_doubleobj: 0x80 sha256:bf526d2401f41ebc7cbcb916d608578febf5b8bbc01dd782ec4e74dcbe843cc0
+-  __AUTH_CONST.__objc_intobj: 0xd8 sha256:1d13622328d2afb525967b0ea90dcf4daa5fe784fe79b85e2c80683e614c2e1e
+-  __AUTH_CONST.__objc_arrayobj: 0x60 sha256:d2431e267ec5ae6d96b71b3be9a1de066124da0281d717fa151795674cf2ad89
+-  __AUTH_CONST.__auth_got: 0xe40 sha256:301efe9642b0328c0b3b5cf0efc4b71ad0ea550e1433583f59c392fa9d7d3bbb
+-  __AUTH.__objc_data: 0xd88 sha256:67d7fa3e84711cc3875f3a847b438a41fec4f81d407af9a1fcbb819e5eaa2fc2
+-  __AUTH.__data: 0x800 sha256:bbc8789378a9a6cef2f1d5388ef8cd27ca19635eba8547cbf89e0723aacf199e
+-  __DATA.__objc_ivar: 0x2d0 sha256:fd6affaba38bcc3c6ec15b039df3d3f297babfbf4126fa4cd1cb9f8c5901d6ff
+-  __DATA.__data: 0x1580 sha256:8ef3494e84e1ade8e76673360a2824d71f98173dba5f802ab1931fdebc26b414
+-  __DATA.__bss: 0x3060 sha256:130d0890ba45996aaa45c0af139f951a3c3b623002e52708142a0de8937d0dd7
+-  __DATA.__common: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __DATA_DIRTY.__objc_data: 0x140 sha256:672dac1a490ff08ffdf3e26d175ee6a22ad26a7224c8d46956b48652b1a6a857
++  __DATA_CONST.__objc_selrefs: 0x2818 sha256:720a009093894604aafdde301d459cafbb093a515c82d0204d7650e06edeb435
++  __DATA_CONST.__objc_protorefs: 0x20 sha256:048dd667bca4f2118dfbbb64d32f437951b864a51b31aeb21537da576220c297
++  __DATA_CONST.__objc_superrefs: 0xb0 sha256:9091f25ce9cf0dbc5bbee9eb484fbe7b609c115fd61d959e49163852474d9729
++  __DATA_CONST.__objc_arraydata: 0x60 sha256:8a84685e286197e9e27b69b813fece07c3b1c2e046707a48cb46e2f0aaa4b53e
++  __DATA_CONST.__got: 0x948 sha256:6d217f4e3b2ad20d2cc58b373282ecd0c2519fbaf696b77c5db6a2c0f7ac8a19
++  __AUTH_CONST.__const: 0x28a8 sha256:148fdc7daca0e6063f78bdc46bfeded64b26be2cc18042314def3283ac66a614
++  __AUTH_CONST.__cfstring: 0xd80 sha256:60d10b924f2f33091e6eb5b1dd1d45de77cf3f432620aef21f86d2d3f35a0db9
++  __AUTH_CONST.__objc_const: 0x4d30 sha256:5668cff413591127223548234d51968056f01ac91e6d8a09088de3b1bdf37c95
++  __AUTH_CONST.__objc_doubleobj: 0x80 sha256:433a5a50d2747c70b14017133e3ddd588736a88317d028443694f9fe57941dee
++  __AUTH_CONST.__objc_intobj: 0xd8 sha256:e6ed05dde454edce432e9eb44e0ec31c34121f5075521247aa85ed5271abd9f5
++  __AUTH_CONST.__objc_arrayobj: 0x60 sha256:cd7241eaf47e1b087ffb359e9826a35ac83f4820284cbf191ea09740877ea0b8
++  __AUTH_CONST.__auth_got: 0xe50 sha256:fca1b643f509971edde92c0ec86f8bde2de8e9a39aef3626e9b26d9267d7ddf1
++  __AUTH.__objc_data: 0xd90 sha256:35204b825bc9aad2959ced0b476aa03ba919811d1208bd30ee4284cf28b157f1
++  __AUTH.__data: 0x808 sha256:a06c4f437bdaf448a986c1e5970fc5ce450365509bf6f51b979a9b377b240005
++  __DATA.__objc_ivar: 0x2dc sha256:6f70be45082f4092c9cdd515fa149a23778c00c36c17ebee6882226bb4f8752b
++  __DATA.__data: 0x15a8 sha256:42464ee57a1b50e23fe2397ccf43a76f4ac082dacf0d2c90e054e314f32ab1cf
++  __DATA.__bss: 0x30f0 sha256:f28c0687a923bddc3fe78a80de13e3fb5b53894039532aaa76452ffffbeb1bf0
++  __DATA.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
++  __DATA_DIRTY.__objc_data: 0x140 sha256:a93d4823b2a88cd5358943ab6690d3a97864caee4fabe1ea8356140916adb810
+   __DATA_DIRTY.__data: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA_DIRTY.__bss: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 940A8BA5-F753-3048-99BB-1C3DBF21BDA0
+-  Functions: 2068
+-  Symbols:   3763
+-  CStrings:  436
++  UUID: 62A66355-C2A7-3218-AD8D-94169915028B
++  Functions: 2150
++  Symbols:   3944
++  CStrings:  492
+ 
+Symbols:
++ +[WTInputAnalytics _aopPayloadForSuggestion:bundleIdentifier:]
++ +[WTInputAnalytics _sendAOPSignal:forSuggestion:bundleIdentifier:]
++ +[WTInputAnalytics asyncSendSignal:toChannel:withPayload:]
++ +[WTInputAnalytics asyncSendSignal:toChannel:withPayload:].cold.1
++ +[WTInputAnalytics asyncSendWritingToolsSignal:payload:]
++ +[WTInputAnalytics getIAPayloadKeyAlwaysOnBundleID]
++ +[WTInputAnalytics getIAPayloadKeyAlwaysOnBundleID].cold.1
++ +[WTInputAnalytics getIAPayloadKeyAlwaysOnGrammarUUID]
++ +[WTInputAnalytics getIAPayloadKeyAlwaysOnGrammarUUID].cold.1
++ +[WTInputAnalytics getIAPayloadKeyAlwaysOnModelInfo]
++ +[WTInputAnalytics getIAPayloadKeyAlwaysOnModelInfo].cold.1
++ +[WTInputAnalytics getIAPayloadKeyAlwaysOnSuggestionCategory]
++ +[WTInputAnalytics getIAPayloadKeyAlwaysOnSuggestionCategory].cold.1
++ +[WTInputAnalytics getIAPayloadKeyAlwaysOnSuggestionCount]
++ +[WTInputAnalytics getIAPayloadKeyAlwaysOnSuggestionCount].cold.1
++ +[WTInputAnalytics getIAPayloadKeyWritingToolsInputLanguage]
++ +[WTInputAnalytics getIAPayloadKeyWritingToolsInputLanguage].cold.1
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingAcceptAllSuggestionsEngaged]
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingAcceptAllSuggestionsEngaged].cold.1
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingIgnoreAllSuggestionsEngaged]
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingIgnoreAllSuggestionsEngaged].cold.1
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingPanelDismissed]
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingPanelDismissed].cold.1
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingPanelIndexChanged]
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingPanelIndexChanged].cold.1
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingPanelShown]
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingPanelShown].cold.1
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingSuggestionAcceptedInPanel]
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingSuggestionAcceptedInPanel].cold.1
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingSuggestionAccepted]
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingSuggestionAccepted].cold.1
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingSuggestionBubbleShown]
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingSuggestionBubbleShown].cold.1
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingSuggestionIgnored]
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingSuggestionIgnored].cold.1
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingSuggestionShown]
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingSuggestionShown].cold.1
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingTemporarilyPauseSuggestionsEngaged]
++ +[WTInputAnalytics getIASignalAlwaysOnProofreadingTemporarilyPauseSuggestionsEngaged].cold.1
++ +[WTInputAnalytics sendAOPAcceptAllSuggestionsWithCount:bundleIdentifier:]
++ +[WTInputAnalytics sendAOPIgnoreAllSuggestionsWithCount:bundleIdentifier:]
++ +[WTInputAnalytics sendAOPPanelDismissedForSuggestion:bundleIdentifier:]
++ +[WTInputAnalytics sendAOPPanelIndexChangedForSuggestion:bundleIdentifier:]
++ +[WTInputAnalytics sendAOPPanelShownForSuggestion:bundleIdentifier:]
++ +[WTInputAnalytics sendAOPSuggestionAcceptedInPanelForSuggestion:bundleIdentifier:]
++ +[WTInputAnalytics sendAOPSuggestionIgnoredForSuggestion:bundleIdentifier:]
++ +[WTInputAnalytics sendAOPTemporarilyPauseSuggestionsWithBundleIdentifier:]
++ -[WTWritingToolsRemoteViewController _writingToolsResponderTargetForAction:]
++ -[WTWritingToolsViewController setTransitioningContainers:]
++ -[WTWritingToolsViewController transitioningContainers]
++ -[_WTReplaceTextEffect _ownLineHeight]
++ -[_WTReplaceTextEffect _sharedSweepFrame]
++ -[_WTReplaceTextEffect _sharedSweepHeight]
++ -[_WTTextEffectView replaceLineHeight]
++ -[_WTTextEffectView replaceSweepFrameHeight]
++ -[_WTTextEffectView setReplaceLineHeight:]
++ -[_WTTextEffectView setReplaceSweepFrameHeight:]
++ GCC_except_table108
++ GCC_except_table169
++ GCC_except_table182
++ GCC_except_table213
++ GCC_except_table3
++ GCC_except_table53
++ GCC_except_table55
++ GCC_except_table59
++ GCC_except_table61
++ GCC_except_table63
++ GCC_except_table65
++ GCC_except_table67
++ GCC_except_table69
++ GCC_except_table71
++ GCC_except_table73
++ GCC_except_table76
++ GCC_except_table77
++ GCC_except_table80
++ GCC_except_table81
++ GCC_except_table83
++ GCC_except_table89
++ GCC_except_table95
++ OBJC_IVAR_$_WTWritingToolsViewController._transitioningContainers
++ OBJC_IVAR_$__WTTextEffectView._replaceLineHeight
++ OBJC_IVAR_$__WTTextEffectView._replaceSweepFrameHeight
++ _OBJC_CLASS_$_NSRunningApplication
++ __110-[WTWritingToolsViewController proofreadingRetrieveResultOptionsForAlwaysOnSuggestionWithUUID:feedbackAction:]_block_invoke.598
++ __110-[WTWritingToolsViewController proofreadingRetrieveResultOptionsForAlwaysOnSuggestionWithUUID:feedbackAction:]_block_invoke.598.cold.1
++ __116-[WTWritingToolsRemoteViewController _showAlwaysOnProofreadingSuggestionsInProcess:selectedIndex:anchor:sourceView:]_block_invoke.278
++ __116-[WTWritingToolsRemoteViewController _showAlwaysOnProofreadingSuggestionsInProcess:selectedIndex:anchor:sourceView:]_block_invoke.283
++ __116-[WTWritingToolsRemoteViewController _showAlwaysOnProofreadingSuggestionsInProcess:selectedIndex:anchor:sourceView:]_block_invoke.287
++ __43-[WTWritingToolsViewController viewDidLoad]_block_invoke.516
++ __43-[WTWritingToolsViewController viewDidLoad]_block_invoke.519
++ __61-[WTWritingToolsViewController showInPanelWithConfiguration:]_block_invoke.500
++ __83-[WTWritingToolsRemoteViewController willBeginWritingToolsSession:requestContexts:]_block_invoke.195
++ __83-[WTWritingToolsRemoteViewController willBeginWritingToolsSession:requestContexts:]_block_invoke.200
++ __99-[WTUIAttributedStringController reconstitutedAttributedStringForContext:digestedAttributedString:]_block_invoke.20
++ ___58+[WTInputAnalytics asyncSendSignal:toChannel:withPayload:]_block_invoke
++ ___99-[WTUIAttributedStringController reconstitutedAttributedStringForContext:digestedAttributedString:]_block_invoke
++ ___block_descriptor_40_e8_32r_e27_v40?08{_NSRange=QQ}16^B32l
++ ___block_descriptor_48_e8_32s40s_e27_v40?08{_NSRange=QQ}16^B32l
++ ___block_descriptor_64_e8_32s40s48s_e5_v8?0lu56l8
++ ___getIAPayloadKeyWritingToolsAlwaysOnBundleIDSymbolLoc_block_invoke
++ ___getIAPayloadKeyWritingToolsAlwaysOnGrammarUUIDSymbolLoc_block_invoke
++ ___getIAPayloadKeyWritingToolsAlwaysOnModelInfoSymbolLoc_block_invoke
++ ___getIAPayloadKeyWritingToolsAlwaysOnSuggestionCategorySymbolLoc_block_invoke
++ ___getIAPayloadKeyWritingToolsAlwaysOnSuggestionCountSymbolLoc_block_invoke
++ ___getIAPayloadKeyWritingToolsInputLanguageSymbolLoc_block_invoke
++ ___getIASignalWritingToolsAlwaysOnProofreadingAcceptAllSuggestionsEngagedSymbolLoc_block_invoke
++ ___getIASignalWritingToolsAlwaysOnProofreadingIgnoreAllSuggestionsEngagedSymbolLoc_block_invoke
++ ___getIASignalWritingToolsAlwaysOnProofreadingPanelDismissedSymbolLoc_block_invoke
++ ___getIASignalWritingToolsAlwaysOnProofreadingPanelIndexChangedSymbolLoc_block_invoke
++ ___getIASignalWritingToolsAlwaysOnProofreadingPanelShownSymbolLoc_block_invoke
++ ___getIASignalWritingToolsAlwaysOnProofreadingSuggestionAcceptedInPanelSymbolLoc_block_invoke
++ ___getIASignalWritingToolsAlwaysOnProofreadingSuggestionAcceptedSymbolLoc_block_invoke
++ ___getIASignalWritingToolsAlwaysOnProofreadingSuggestionBubbleShownSymbolLoc_block_invoke
++ ___getIASignalWritingToolsAlwaysOnProofreadingSuggestionIgnoredSymbolLoc_block_invoke
++ ___getIASignalWritingToolsAlwaysOnProofreadingSuggestionShownSymbolLoc_block_invoke
++ ___getIASignalWritingToolsAlwaysOnProofreadingTemporarilyPauseSuggestionsEngagedSymbolLoc_block_invoke
++ __block_literal_global.230
++ __block_literal_global.243
++ __block_literal_global.249
++ __block_literal_global.274
++ __block_literal_global.508
++ __block_literal_global.578
++ __block_literal_global.580
++ __block_literal_global.582
++ __block_literal_global.584
++ __block_literal_global.594
++ __block_literal_global.600
++ __swift_closure_destructor.117
++ __swift_closure_destructor.117Tm
++ __swift_closure_destructor.121
++ __swift_closure_destructor.126
++ __swift_closure_destructor.130
++ __swift_closure_destructor.148
++ __swift_closure_destructor.155
++ __swift_closure_destructor.159
++ __swift_closure_destructor.92
++ _dispatch_get_global_queue
++ _getIAPayloadKeyWritingToolsAlwaysOnBundleIDSymbolLoc
++ _getIAPayloadKeyWritingToolsAlwaysOnGrammarUUIDSymbolLoc
++ _getIAPayloadKeyWritingToolsAlwaysOnModelInfoSymbolLoc
++ _getIAPayloadKeyWritingToolsAlwaysOnSuggestionCategorySymbolLoc
++ _getIAPayloadKeyWritingToolsAlwaysOnSuggestionCountSymbolLoc
++ _getIAPayloadKeyWritingToolsInputLanguageSymbolLoc
++ _getIASignalWritingToolsAlwaysOnProofreadingAcceptAllSuggestionsEngagedSymbolLoc
++ _getIASignalWritingToolsAlwaysOnProofreadingIgnoreAllSuggestionsEngagedSymbolLoc
++ _getIASignalWritingToolsAlwaysOnProofreadingPanelDismissedSymbolLoc
++ _getIASignalWritingToolsAlwaysOnProofreadingPanelIndexChangedSymbolLoc
++ _getIASignalWritingToolsAlwaysOnProofreadingPanelShownSymbolLoc
++ _getIASignalWritingToolsAlwaysOnProofreadingSuggestionAcceptedInPanelSymbolLoc
++ _getIASignalWritingToolsAlwaysOnProofreadingSuggestionAcceptedSymbolLoc
++ _getIASignalWritingToolsAlwaysOnProofreadingSuggestionBubbleShownSymbolLoc
++ _getIASignalWritingToolsAlwaysOnProofreadingSuggestionIgnoredSymbolLoc
++ _getIASignalWritingToolsAlwaysOnProofreadingSuggestionShownSymbolLoc
++ _getIASignalWritingToolsAlwaysOnProofreadingTemporarilyPauseSuggestionsEngagedSymbolLoc
++ _objc_msgSend$_aopPayloadForSuggestion:bundleIdentifier:
++ _objc_msgSend$_ownLineHeight
++ _objc_msgSend$_sendAOPSignal:forSuggestion:bundleIdentifier:
++ _objc_msgSend$_sharedSweepHeight
++ _objc_msgSend$_writingToolsResponderTargetForAction:
++ _objc_msgSend$addAttribute:value:range:
++ _objc_msgSend$asyncSendSignal:toChannel:withNullableUniqueStringID:withPayload:
++ _objc_msgSend$asyncSendSignal:toChannel:withPayload:
++ _objc_msgSend$asyncSendWritingToolsSignal:payload:
++ _objc_msgSend$attribute:atIndex:effectiveRange:
++ _objc_msgSend$currentApplication
++ _objc_msgSend$enumerateAttribute:inRange:options:usingBlock:
++ _objc_msgSend$getIAPayloadKeyAlwaysOnBundleID
++ _objc_msgSend$getIAPayloadKeyAlwaysOnGrammarUUID
++ _objc_msgSend$getIAPayloadKeyAlwaysOnSuggestionCategory
++ _objc_msgSend$getIAPayloadKeyAlwaysOnSuggestionCount
++ _objc_msgSend$getIASignalAlwaysOnProofreadingAcceptAllSuggestionsEngaged
++ _objc_msgSend$getIASignalAlwaysOnProofreadingIgnoreAllSuggestionsEngaged
++ _objc_msgSend$getIASignalAlwaysOnProofreadingPanelDismissed
++ _objc_msgSend$getIASignalAlwaysOnProofreadingPanelIndexChanged
++ _objc_msgSend$getIASignalAlwaysOnProofreadingPanelShown
++ _objc_msgSend$getIASignalAlwaysOnProofreadingSuggestionAcceptedInPanel
++ _objc_msgSend$getIASignalAlwaysOnProofreadingSuggestionIgnored
++ _objc_msgSend$getIASignalAlwaysOnProofreadingTemporarilyPauseSuggestionsEngaged
++ _objc_msgSend$grammarUUID
++ _objc_msgSend$initWithSuggestions:selectedIndex:isCatalystHost:hostBundleIdentifier:onUpdateState:onNavigateFromSuggestionToSuggestion:onToggleGrammarChecking:onFeedbackAction:
++ _objc_msgSend$isEnhancedSiriAvailable
++ _objc_msgSend$isFromExternalResult
++ _objc_msgSend$mutableCopy
++ _objc_msgSend$nextResponder
++ _objc_msgSend$replaceLineHeight
++ _objc_msgSend$replaceSweepFrameHeight
++ _objc_msgSend$sendAOPAcceptAllSuggestionsWithCount:bundleIdentifier:
++ _objc_msgSend$sendAOPIgnoreAllSuggestionsWithCount:bundleIdentifier:
++ _objc_msgSend$sendAOPPanelDismissedForSuggestion:bundleIdentifier:
++ _objc_msgSend$sendAOPPanelIndexChangedForSuggestion:bundleIdentifier:
++ _objc_msgSend$sendAOPPanelShownForSuggestion:bundleIdentifier:
++ _objc_msgSend$sendAOPSuggestionAcceptedInPanelForSuggestion:bundleIdentifier:
++ _objc_msgSend$sendAOPSuggestionIgnoredForSuggestion:bundleIdentifier:
++ _objc_msgSend$sendAOPTemporarilyPauseSuggestionsWithBundleIdentifier:
++ _objc_msgSend$setReplaceLineHeight:
++ _objc_msgSend$setReplaceSweepFrameHeight:
++ _objc_msgSend$setTransitioningContainers:
++ _objc_msgSend$transitioningContainers
++ _objc_msgSend$windowNumber
++ _os_variant_has_internal_content
++ getIAPayloadKeyWritingToolsAlwaysOnBundleIDSymbolLoc.ptr
++ getIAPayloadKeyWritingToolsAlwaysOnGrammarUUIDSymbolLoc.ptr
++ getIAPayloadKeyWritingToolsAlwaysOnModelInfoSymbolLoc.ptr
++ getIAPayloadKeyWritingToolsAlwaysOnSuggestionCategorySymbolLoc.ptr
++ getIAPayloadKeyWritingToolsAlwaysOnSuggestionCountSymbolLoc.ptr
++ getIAPayloadKeyWritingToolsInputLanguageSymbolLoc.ptr
++ getIASignalWritingToolsAlwaysOnProofreadingAcceptAllSuggestionsEngagedSymbolLoc.ptr
++ getIASignalWritingToolsAlwaysOnProofreadingIgnoreAllSuggestionsEngagedSymbolLoc.ptr
++ getIASignalWritingToolsAlwaysOnProofreadingPanelDismissedSymbolLoc.ptr
++ getIASignalWritingToolsAlwaysOnProofreadingPanelIndexChangedSymbolLoc.ptr
++ getIASignalWritingToolsAlwaysOnProofreadingPanelShownSymbolLoc.ptr
++ getIASignalWritingToolsAlwaysOnProofreadingSuggestionAcceptedInPanelSymbolLoc.ptr
++ getIASignalWritingToolsAlwaysOnProofreadingSuggestionAcceptedSymbolLoc.ptr
++ getIASignalWritingToolsAlwaysOnProofreadingSuggestionBubbleShownSymbolLoc.ptr
++ getIASignalWritingToolsAlwaysOnProofreadingSuggestionIgnoredSymbolLoc.ptr
++ getIASignalWritingToolsAlwaysOnProofreadingSuggestionShownSymbolLoc.ptr
++ getIASignalWritingToolsAlwaysOnProofreadingTemporarilyPauseSuggestionsEngagedSymbolLoc.ptr
+- GCC_except_table107
+- GCC_except_table168
+- GCC_except_table181
+- GCC_except_table212
+- GCC_except_table4
+- GCC_except_table5
+- GCC_except_table6
+- GCC_except_table7
+- GCC_except_table88
+- GCC_except_table94
+- __110-[WTWritingToolsViewController proofreadingRetrieveResultOptionsForAlwaysOnSuggestionWithUUID:feedbackAction:]_block_invoke.593
+- __110-[WTWritingToolsViewController proofreadingRetrieveResultOptionsForAlwaysOnSuggestionWithUUID:feedbackAction:]_block_invoke.593.cold.1
+- __116-[WTWritingToolsRemoteViewController _showAlwaysOnProofreadingSuggestionsInProcess:selectedIndex:anchor:sourceView:]_block_invoke.277
+- __116-[WTWritingToolsRemoteViewController _showAlwaysOnProofreadingSuggestionsInProcess:selectedIndex:anchor:sourceView:]_block_invoke.282
+- __116-[WTWritingToolsRemoteViewController _showAlwaysOnProofreadingSuggestionsInProcess:selectedIndex:anchor:sourceView:]_block_invoke.286
+- __43-[WTWritingToolsViewController viewDidLoad]_block_invoke.514
+- __43-[WTWritingToolsViewController viewDidLoad]_block_invoke.517
+- __61-[WTWritingToolsViewController showInPanelWithConfiguration:]_block_invoke.498
+- __83-[WTWritingToolsRemoteViewController willBeginWritingToolsSession:requestContexts:]_block_invoke.199
+- __83-[WTWritingToolsRemoteViewController willBeginWritingToolsSession:requestContexts:]_block_invoke.201
+- __block_literal_global.231
+- __block_literal_global.244
+- __block_literal_global.250
+- __block_literal_global.273
+- __block_literal_global.506
+- __block_literal_global.563
+- __block_literal_global.570
+- __block_literal_global.577
+- __block_literal_global.579
+- __block_literal_global.589
+- __block_literal_global.595
+- __swift_FORCE_LOAD_$_swiftCoreMIDI
+- __swift_FORCE_LOAD_$_swiftCoreMIDI_$_WritingToolsUI
+- __swift_closure_destructor.120
+- __swift_closure_destructor.120Tm
+- __swift_closure_destructor.124
+- __swift_closure_destructor.129
+- __swift_closure_destructor.133
+- __swift_closure_destructor.151
+- __swift_closure_destructor.158
+- __swift_closure_destructor.162
+- __swift_closure_destructor.95
+- _objc_msgSend$initWithSuggestions:selectedIndex:isCatalystHost:onUpdateState:onNavigateFromSuggestionToSuggestion:onToggleGrammarChecking:onFeedbackAction:
+CStrings:
++ "2`"
++ "AlwaysOnProofreadingAcceptAllSuggestionsEngaged"
++ "AlwaysOnProofreadingIgnoreAllSuggestionsEngaged"
++ "AlwaysOnProofreadingPanelDismissed"
++ "AlwaysOnProofreadingPanelIndexChanged"
++ "AlwaysOnProofreadingPanelShown"
++ "AlwaysOnProofreadingSuggestionAccepted"
++ "AlwaysOnProofreadingSuggestionAcceptedInPanel"
++ "AlwaysOnProofreadingSuggestionBubbleShown"
++ "AlwaysOnProofreadingSuggestionIgnored"
++ "AlwaysOnProofreadingSuggestionShown"
++ "AlwaysOnProofreadingTemporarilyPauseSuggestionsEngaged"
++ "BundleID"
++ "DisableInvisibleTextWorkaround"
++ "GrammarUUID"
++ "IAPayloadKeyWritingToolsAlwaysOnBundleID"
++ "IAPayloadKeyWritingToolsAlwaysOnGrammarUUID"
++ "IAPayloadKeyWritingToolsAlwaysOnModelInfo"
++ "IAPayloadKeyWritingToolsAlwaysOnSuggestionCategory"
++ "IAPayloadKeyWritingToolsAlwaysOnSuggestionCount"
++ "IAPayloadKeyWritingToolsInputLanguage"
++ "IASignalWritingToolsAlwaysOnProofreadingAcceptAllSuggestionsEngaged"
++ "IASignalWritingToolsAlwaysOnProofreadingIgnoreAllSuggestionsEngaged"
++ "IASignalWritingToolsAlwaysOnProofreadingPanelDismissed"
++ "IASignalWritingToolsAlwaysOnProofreadingPanelIndexChanged"
++ "IASignalWritingToolsAlwaysOnProofreadingPanelShown"
++ "IASignalWritingToolsAlwaysOnProofreadingSuggestionAccepted"
++ "IASignalWritingToolsAlwaysOnProofreadingSuggestionAcceptedInPanel"
++ "IASignalWritingToolsAlwaysOnProofreadingSuggestionBubbleShown"
++ "IASignalWritingToolsAlwaysOnProofreadingSuggestionIgnored"
++ "IASignalWritingToolsAlwaysOnProofreadingSuggestionShown"
++ "IASignalWritingToolsAlwaysOnProofreadingTemporarilyPauseSuggestionsEngaged"
++ "InputLanguage"
++ "ModelInfo"
++ "SuggestionCategory"
++ "SuggestionCount"
++ "WTHostAppClientParametersKeyHostWindowNumber"
++ "v40@?0@8{_NSRange=QQ}16^B32"
+
+```

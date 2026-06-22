@@ -1,0 +1,51 @@
+## PhotosPluginAddToPhotos
+
+> `/System/Library/PrivateFrameworks/ShareServicesCore.framework/Versions/A/PlugIns/PhotosPluginAddToPhotos.appex/Contents/MacOS/PhotosPluginAddToPhotos`
+
+```diff
+
+-910.15.106.0.0
+-  __TEXT.__text: 0xa94 sha256:b6605e4ba7ef96c7d69c0cbce362e19819315a9d77d3bb83cfe40781f8f6f2f4
++910.22.101.0.0
++  __TEXT.__text: 0xa8c sha256:74c1072f9a28e9cb747dcd2979a09bbcd87832bc45a072e32c2ecac827608ac6
+   __TEXT.__auth_stubs: 0xf0 sha256:5caf7c491dbeed986d8935114af3a12598c5e69231fcb365a0033110dbffb8d0
+   __TEXT.__objc_stubs: 0x2a0 sha256:e87c6dcf45cb9219f8a1dbd2ec504c9d5981e568e4f5f00acfdc96cbb084db90
+-  __TEXT.__objc_methlist: 0x44 sha256:0147fd86146c6dbcc2c99c9016154c55a3fd0a345006edb19ac89f0e2b34cd16
++  __TEXT.__objc_methlist: 0x44 sha256:65a4b5d4b04f76ffa704abd197974c354efec08ddd96566442f9d23421403d9f
+   __TEXT.__const: 0x8 sha256:11f7f91b8de3f383135a8659c6a5dfc940152c8fc38c23490701b78a83b29aa6
+   __TEXT.__cstring: 0x96 sha256:0ab9c931f8d208fa8d3ba258e935f94a7e7fa130406a23a40923677195f35be0
+   __TEXT.__objc_classname: 0x3b sha256:868720b6f9045cbad693adf52c2e08fd6d4d2024f30c00d7a9a2f2c8f16ab9ab
+   __TEXT.__objc_methname: 0x279 sha256:0fc2bc2cc2bde0d8b87a58267f0889f98e11f52514bb2389ce976ba0e4b3f4f9
+   __TEXT.__objc_methtype: 0x30 sha256:bb09e675f0d0ba5c4310adc822941ceb475fd12fd453466b6d2a03240c83d55c
+-  __TEXT.__unwind_info: 0x90 sha256:0c06df1838db61bf3fc856ed987bd3367311fe994bf3b0cd7c550b2432f4dc1a
+-  __DATA_CONST.__const: 0x130 sha256:86ace039c2179acfcac7f2eba27e30e40842a77ab00695b9b636609dfba4b5a8
++  __TEXT.__unwind_info: 0x90 sha256:9448e3850a123240fee7907260b0a1a15a6cc389ac6d0f194cc18ba3c3a1ee79
++  __DATA_CONST.__const: 0x130 sha256:71f29c34727bdb9dd117f9099f6dfbb5903326632a6419b1a8aff9e8be469fa3
+   __DATA_CONST.__cfstring: 0x40 sha256:caa47901626f4a84959999461fa25237076cadb01a7c7de294dddb296f435266
+   __DATA_CONST.__objc_classlist: 0x10 sha256:ae62268d158c9de4c04100bb4e718459baab1b12101094648ad90390d3526c4d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+
+   - /System/Library/PrivateFrameworks/ShareKit.framework/Versions/A/ShareKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C7989A0D-B5E3-3ADA-AA33-022F3AC08846
++  UUID: BC7B7AB9-5424-3DAB-B5F2-357068740F9D
+   Functions: 16
+   Symbols:   34
+   CStrings:  38
+Functions:
+~ sub_100000c58 : 652 -> 648
+~ sub_100000ee4 -> sub_100000ee0 : sha256 131193a9b6bb08abeb6e3c8dbc312bca0a40f81e165ae6417ad0b5d1ada317e4 -> 813c49ce4f31f89d83885c03f235f60dc0e06285eb566cf2631bbece8d96ef76
+~ sub_100000f28 -> sub_100000f24 : sha256 7b175b57c62cd9868ee3362eeef482fae2d6e8049e56d6b3db8f5c7ab1faf265 -> 0b8a55a383ea97e349ce2029d845816079555f265c86638c768fc595acf769f6
+~ sub_100000f64 -> sub_100000f60 : sha256 f5dc93bb2fd29dfae0d3ae6ace68b3378fe166d60ad0741a68e5cf4a3faf0d71 -> 5422461bfc1d2a4a30772cc957164e4c6dad5a703c1b26c0eb2a2bcf69907333
+~ sub_100000fa0 -> sub_100000f9c : sha256 90dfaca60959fcd6c76e4d6e6e4140a64282759542c85a74f63f79a18fdd47b9 -> 70f3574e9e6af13940120e4c7e1939c9ddc3be976928795f09c441357645d766
+~ sub_100000ff4 -> sub_100000ff0 : 660 -> 656
+~ sub_100001288 -> sub_100001280 : sha256 d97b8b8a4ef5d549612d881578ce6bef3f9423a7ab984b6d11cdf84a14456493 -> 6f84c40638ace5d87dc0db21a3ca7e5504f620de2926451377607b8b9b369983
+~ sub_1000012dc -> sub_1000012d4 : sha256 ac88469d0e91378a72b38059efb15787c8b6236615e80d62b1f29d9b29faccff -> d720d2c3f3c9ac8123552c39abca5856b36b97f49ea4f72f5c99352db1470df7
+~ sub_1000013a0 -> sub_100001398 : sha256 fff99fea96f61b72353bdd586cba7a91d0ada5c9ffbb2e0c1f9d871d6373dd05 -> c3c0b8c3b78bd24801a5d9dd899c047b08fb49a5731895f4265decc3a7d204e5
+~ sub_100001510 -> sub_100001508 : sha256 dffb3467442892138d6f33493555aecbcc9ccf4014f48627d7e0efc93621bcf6 -> e8e8d95437bdd7e6961c95f4ed46825aed68f74691215673e18ffcdce0b14915
+~ sub_100001520 -> sub_100001518 : sha256 f50eb755e669317358c5960dc047da2d49798d5e752095d637f7c9a913e3ccef -> 88c646c6c336ba1d97c3ead82acf0c5339423a9b32f8b86f0ec354fd19987b97
+~ sub_100001610 -> sub_100001608 : sha256 f210adf5a412d5f4995b8acfaf8b52f687339ef086d5eb52ac4b57ca3c5f903b -> 72e926feb61fc679effe33502871210fd0bcda65ecb040b32af9baec0502f22e
+~ sub_10000161c -> sub_100001614 : sha256 93ceccedea7ab13b68aa47d4a55cbc8161b143abd118f048802ed290458a06e5 -> 7af38b84cab3d243899b1ccb8ebcfd8711b2258c1dc0be8bfac51375c9dd6dfc
+
+```

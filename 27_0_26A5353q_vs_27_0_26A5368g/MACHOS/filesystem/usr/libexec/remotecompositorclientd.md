@@ -1,0 +1,72 @@
+## remotecompositorclientd
+
+> `/usr/libexec/remotecompositorclientd`
+
+```diff
+
+-467.0.0.0.2
+-  __TEXT.__text: 0x131c sha256:aee3703a54996897521247d8288cea21c4187012bc62adf9a474f47fc3b7e615
++467.0.4.0.0
++  __TEXT.__text: 0x131c sha256:ea7cb623b0b233a85543ded26bde5e3ed71f681a20d6e841eddcea82b3314cb5
+   __TEXT.__auth_stubs: 0x2d0 sha256:e37ed07099c15526c07917e4c857e879e932b8df7c9bea11bee21165bb963c67
+   __TEXT.__objc_stubs: 0x40 sha256:d2c11f980aea58373be3cd56793560da8c62f6dfdb56f611ff219d9afd1f5c04
+-  __TEXT.__const: 0x92 sha256:f7ba55507ce612d1274534066b3e7d02b796ae9ea95b8d5c4ff2083fc48d4619
+-  __TEXT.__swift5_typeref: 0x20 sha256:1e8c25b722c26a684ddf2a087c0c9ce636e003b961f34c81092c83a368c47b39
++  __TEXT.__const: 0x8a sha256:f8c09a0a72523b7ba8a4a42cb4565c03fd679e7d617f8df650e19865de92302a
++  __TEXT.__swift5_typeref: 0x20 sha256:89744f86f7fa59ff414283463ab1fa86afb7291f3db2150b56fc0cd1042a0a35
+   __TEXT.__swift5_capture: 0x30 sha256:92343b30993353de619e80a874c2fd1b9d6b584ade340a53807bbdec69c03803
+   __TEXT.__oslogstring: 0x18 sha256:66340bdd0923938dbf6281b1d063a73d45e4d3509fcc54e8ac7548147c8e92df
+-  __TEXT.__swift5_entry: 0x8 sha256:6deb337fd9dec7a00ab549705632d3f274065105e7bba83217fb8fc004cbfad7
+-  __TEXT.__swift_as_entry: 0xc sha256:fcc2140f33f162ed10c022b902e7f202bdbe71a79be2c801eb591727aeec7a35
+-  __TEXT.__swift_as_ret: 0x8 sha256:6ad017ee2e05a3bef7c19f85c776464451d2d9b132638550e2386525a2369859
+-  __TEXT.__swift_as_cont: 0x4 sha256:f344ac9dce14958382e1bd147a8a645f6ef3202792dd3a6da8f2cd00528bd7f6
++  __TEXT.__swift5_entry: 0x8 sha256:9e795257f5d6959b3805ce38d01c994b0318516be3b8ff7a5d5f811300246c8f
++  __TEXT.__swift_as_entry: 0xc sha256:81f67078d7171a86f311b354f935526f8aa9797f188b33074430803f0d52201c
++  __TEXT.__swift_as_ret: 0x8 sha256:fda554c33b101dd2e6957d924e77954305ba2a7543e2831aa89e22c82d15b1a4
++  __TEXT.__swift_as_cont: 0x4 sha256:ebf7c2997d4e487cd95fa0d29224a33ed304493f280769e1f24a201fd3795634
+   __TEXT.__objc_methname: 0x16 sha256:38b8f078c4f5792f3a893f57ab6e591bf7bb372db840a5a3f3ac640c708dcf6f
+   __TEXT.__unwind_info: 0xa8 sha256:a770538d144d206f2a895651c8f818a62c557e2353764d12822e71a9298ea713
+-  __TEXT.__eh_frame: 0xf0 sha256:b4e7c4d011ab57b28f47818f560e3c999713277e10bfd08d117293595000d964
+-  __DATA_CONST.__const: 0x118 sha256:8a92c831260a3c6f2fa275b5968f687b2e92ebaaff3884260e95779150c0dac9
++  __TEXT.__eh_frame: 0xf0 sha256:1e61aa3f7ef5f6724ff5319dd417332883810f70c3f11b9deec7a39ba52295b4
++  __DATA_CONST.__const: 0x118 sha256:5ca4be7216225ccf645bb5fcd4d819a9eb91b517c88c6722465d50182e3898ab
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+   __DATA_CONST.__auth_got: 0x170 sha256:c82f2851339a11ac962a9548d27c2a22361a2dee37606e411ddaf56966fff486
+   __DATA_CONST.__got: 0x38 sha256:0ab75409c3f0d9ebd2e020318afe629697ead704f02ad7d04b7a6f0e084bb679
+   __DATA_CONST.__auth_ptr: 0x10 sha256:6b89cedd7df2515f42ae9823720d24ae127b86cd834a1f48975715b9ce13a710
+-  __DATA.__objc_selrefs: 0x10 sha256:802672433e85569c74a6ce35dc60bd9ec014816cd977524857ed9aef73227621
++  __DATA.__objc_selrefs: 0x10 sha256:a521dd580e95a2fccd72a9d16bfe414dd3e017cd6722bbf9c8e43ba6be0442be
+   __DATA.__data: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   __DATA.__common: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E08C4607-C37F-3E95-938A-3CC88B79DB88
++  UUID: 2967534E-87AD-3047-BAB4-0134FBF13270
+   Functions: 22
+   Symbols:   287
+   CStrings:  3
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CSDxugDjqFNKyWcCLPD6EiDs9o4KQooQHQmUo-E/Library/Caches/com.apple.xbs/TemporaryDirectory.eZD5JS/Binaries/WakeBoard_swiftoverlay/install/TempContent/Objects/WakeBoard.build/remotecompositorclientd.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/4~CSDxugDjqFNKyWcCLPD6EiDs9o4KQooQHQmUo-E/Library/Caches/com.apple.xbs/TemporaryDirectory.eZD5JS/Binaries/WakeBoard_swiftoverlay/install/TempContent/Objects/WakeBoard.build/remotecompositorclientd.build/Objects-normal/arm64e/main.o
++ /AppleInternal/Library/BuildRoots/4~CSDxugDjqFNKyWcCLPD6EiDs9o4KQooQHQmUo-E/Library/Caches/com.apple.xbs/TemporaryDirectory.eZD5JS/Binaries/WakeBoard_swiftoverlay/install/TempContent/Objects/WakeBoard.build/remotecompositorclientd.build/Objects-normal/arm64e/remotecompositorclientd.swiftmodule
++ /AppleInternal/Library/BuildRoots/4~CSDxugDjqFNKyWcCLPD6EiDs9o4KQooQHQmUo-E/Library/Caches/com.apple.xbs/TemporaryDirectory.eZD5JS/Binaries/WakeBoard_swiftoverlay/install/TempContent/Objects/WakeBoard.build/remotecompositorclientd.build/Objects-normal/arm64e/remotecompositorclientd_lto.o/0.arm64e.thinlto.o
++ /AppleInternal/Library/BuildRoots/4~CSDxugDjqFNKyWcCLPD6EiDs9o4KQooQHQmUo-E/Library/Caches/com.apple.xbs/TemporaryDirectory.eZD5JS/Sources/WakeBoard_swiftoverlay/RemoteCompositor/RemoteCompositorClient/
+- /AppleInternal/Library/BuildRoots/4~CQMqugCsqqrk9GxJhylFkQJmWbtq_ChF4b1Q5YI/Library/Caches/com.apple.xbs/TemporaryDirectory.KFTQqS/Binaries/WakeBoard_swiftoverlay/install/TempContent/Objects/WakeBoard.build/remotecompositorclientd.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/4~CQMqugCsqqrk9GxJhylFkQJmWbtq_ChF4b1Q5YI/Library/Caches/com.apple.xbs/TemporaryDirectory.KFTQqS/Binaries/WakeBoard_swiftoverlay/install/TempContent/Objects/WakeBoard.build/remotecompositorclientd.build/Objects-normal/arm64e/main.o
+- /AppleInternal/Library/BuildRoots/4~CQMqugCsqqrk9GxJhylFkQJmWbtq_ChF4b1Q5YI/Library/Caches/com.apple.xbs/TemporaryDirectory.KFTQqS/Binaries/WakeBoard_swiftoverlay/install/TempContent/Objects/WakeBoard.build/remotecompositorclientd.build/Objects-normal/arm64e/remotecompositorclientd.swiftmodule
+- /AppleInternal/Library/BuildRoots/4~CQMqugCsqqrk9GxJhylFkQJmWbtq_ChF4b1Q5YI/Library/Caches/com.apple.xbs/TemporaryDirectory.KFTQqS/Binaries/WakeBoard_swiftoverlay/install/TempContent/Objects/WakeBoard.build/remotecompositorclientd.build/Objects-normal/arm64e/remotecompositorclientd_lto.o/0.arm64e.thinlto.o
+- /AppleInternal/Library/BuildRoots/4~CQMqugCsqqrk9GxJhylFkQJmWbtq_ChF4b1Q5YI/Library/Caches/com.apple.xbs/TemporaryDirectory.KFTQqS/Sources/WakeBoard_swiftoverlay/RemoteCompositor/RemoteCompositorClient/
+Functions:
+~ _main : sha256 4efb13e38e23e9195aa781f02ea6ef2c052d84cedeb5a9784458c87ad723d02c -> 35394f61782a7755939726d6b8e830ad0f05a68ba693c753a71a7b9e7c56e9a6
+~ _$s23remotecompositorclientdyyYa24RemoteCompositorServices13AppStateActorCYccfU0_ : sha256 b4447fc3183bb358831ca326ff03702ee0e8e13d0c471549209d4d6a89dc571a -> c4cb110ff1e7c4fb85c4aeb353f7a2716769997d2cba8369a4523e987a634d7e
+~ _$s23remotecompositorclientdyyYa24RemoteCompositorServices13AppStateActorCYccfU0_TY0_ : sha256 82884522973610314979949fec30683648fb9dbeccb55dbb8d311dce64bf494d -> 5fd0415dbadabaccc8b9da8894800dd3dce7405edb0179feacb9fbe8792d08bb
+~ _$s23remotecompositorclientdyyYa24RemoteCompositorServices13AppStateActorCYccfU0_TA : sha256 b964b796a33d2781ec4f4cc81ea96f111d4b45e869fb8532216188b377ab123f -> 9b032a46d65e085d54f9496e0dee1e2b042737f731c88b96a52f83ed9799d9b4
+~ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA : sha256 563115cbff094213cffe682e4295500629b3d10896d546aca897471b9eb48756 -> 11975d3260d266bf3477ebf201e70666058c0b2be16fa483e661d8d0dc77f615
+~ _$s23remotecompositorclientdyyYaKcfU_TA : sha256 0b9176aa4a82dfeacbd36eae43564bd178cb8271dadc77f592d9d5276a344a93 -> 7348a7e4776d22b7d670bb8e763201af91f4543bffb8d8c36a7f1008bb85b01e
+~ _$s24RemoteCompositorServices0aB6ClientVSgWOd : sha256 690d9079db7da830e7a0049274d281c07eb0cce2facd698d99c880e054705906 -> 2dc04d5435fc59cc801b636073d50573f4cd8ee76daaeb1328b18dddb6ba32a4
+~ _$s24RemoteCompositorServices0aB6ClientVSgWOc : sha256 f3b5f842374eaa65ab8e78c4f45d08a9796366808131fdc8345877d587a15bff -> 72bd00d1d5ce35cb97aa45897b54e84f49636e5c184d3798e57f81dd20461686
+
+```

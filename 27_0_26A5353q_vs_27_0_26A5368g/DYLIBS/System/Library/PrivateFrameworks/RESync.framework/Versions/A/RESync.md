@@ -1,0 +1,91 @@
+## RESync
+
+> `/System/Library/PrivateFrameworks/RESync.framework/Versions/A/RESync`
+
+```diff
+
+-453.0.0.0.11
+-  __TEXT.__text: 0x78cdc sha256:24a833f97a88c8bb578930f34aedfa4a76a71da3c4f628a8e9c1bb413bbd63f0
+-  __TEXT.__objc_methlist: 0x2d4 sha256:48db86624129a77a18d11969746654233d005eadb2eb517aace562db27160a03
+-  __TEXT.__const: 0x1ff8 sha256:ec70efe6604d97beb4bed3302d24ca3ee22e121c75246a95545e0a2d3b0931bc
++453.0.2.501.1
++  __TEXT.__text: 0x78e8c sha256:385daca6e13a714343dcacbd2b18c208cca32fd98ac8a4c902bf9077d9ad45d4
++  __TEXT.__objc_methlist: 0x2d4 sha256:8800e9b9c05965e70451917c37396f4a91ca5c854bf9067d3e049c8956f2b0a6
++  __TEXT.__const: 0x1ff8 sha256:51fa462123ce15b2dd683d0de8e77c1235a1cb6efc9de731660f0423b8418598
+   __TEXT.__cstring: 0x6e48 sha256:87b9fbf17075a2e999ec21a5585d34d64bcb49079679f83b43ce3d64babe369d
+   __TEXT.__oslogstring: 0x4680 sha256:21e826e938d4f083781828602bbcf8089a9fe8d265e4180e3349484f5c8884be
+   __TEXT.__objc_stubs: 0x0
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x290 sha256:30942bd2230c372ffccd24b44d5963e1fac5ed1e9f00509c9ac6050456a76184
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:4d6eb00986ae59736ae26462ed2c34350e023abf29d8cbc3c02ff0d432393074
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:78ad820d9697471dbe7cda7b6af52fde83f1c7d7496123513de7069bba8cda82
++  __DATA_CONST.__const: 0x290 sha256:70abdd6bcdbd5641cfbfbba4701a285c3a8f60fca8769571797e54d0603324be
++  __DATA_CONST.__objc_classlist: 0x20 sha256:3d181862c1b66fee7b64d9908fc3df1fb5df2e40b32b38d33776c083c3cfedec
++  __DATA_CONST.__objc_protolist: 0x10 sha256:0c4be6b9e0c23cf5ec6a0763cc0fd62552b4f58a3d8b03566bf2a22bccc91054
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x280 sha256:39758b0860e53741f5f8b712a04262ce61f25b685c4b6100e5022220ca893f32
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:41b536c7342ff1b64f54c3f53f1ff71fbe8b02e8cb8cead1acecaf4df9474a2f
++  __DATA_CONST.__objc_selrefs: 0x280 sha256:ff08376848bd19c7c9ddbbb573415a02c4adb7541798732a9d08105bf5a9acc5
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:c1ec129d46790bbddd2b31a3921992af2dd57e37c3ea241fbe388cc28e823c3d
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x3a98 sha256:a94e6e285aa10d00264e52077f848c30b9e1684e94d7b87e25993455c958b825
+-  __AUTH_CONST.__cfstring: 0xa0 sha256:e6dafbcf9f805ac35e30572fcd2854a47feb45153c0995b6bb209a0c59c21ed4
+-  __AUTH_CONST.__objc_const: 0x5e8 sha256:837d91cac00e7e0b6df0e4cb6f0f86431a8fc6f2f03c0907a8fc3b74145b205b
+-  __AUTH_CONST.__weak_auth_got: 0x20 sha256:3e8c91e1a214c24d9b373d6445872193453afed8ef7ba0056d1dd9b28ac8299f
++  __AUTH_CONST.__const: 0x3a98 sha256:f3a076b9e8406f59ea643fecff13d4fef5e5a42896fbf95a2068d612ad0181af
++  __AUTH_CONST.__cfstring: 0xa0 sha256:bbf3f8ac58dbaf473649f379916e5e05dd178cec88b862c1d9d438ee47a4a336
++  __AUTH_CONST.__objc_const: 0x5e8 sha256:7e8743cee9819ced0c33065d2913155d37a2fdd9c88752d6af0ff10fc5f818db
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:4ee6f396c9ff888744fdcf32ec894a9641dbff718ab8aafd7ca6f5565d893ff7
+   __AUTH_CONST.__auth_got: 0x6f8 sha256:161e5073a0bdc6cd6a4842aae8e537e13998336cc3545fe0572174b8ae0160cd
+-  __AUTH.__thread_vars: 0x48 sha256:4d2e8ee3c0d32b767410b12e37587e1450afe0b6c57df35fa1e114e69f7691cc
++  __AUTH.__thread_vars: 0x48 sha256:f2da247bbec8e292d47c24b2a0de18d3171099b78ea9d528502a115c90cbdca6
+   __AUTH.__thread_bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   __DATA.__objc_ivar: 0x34 sha256:19cd6f90f5ba19536f3464b246fac911dc99603e377f81abc487a5dbf9972fab
+-  __DATA.__data: 0x108 sha256:4ae06c9915c33e5a4c845d6a6d73e5ef7bdb2ff78fddd4a0c55e2902ebea933b
++  __DATA.__data: 0x108 sha256:0fb9e472bc3e454dae91ef79346462264205ad94b6856ccb16c8199c31a88fda
+   __DATA.__common: 0x1148 sha256:cece14a89443d1943d2002260e8cb050694608257c12c56b8b452046c93c5753
+   __DATA.__bss: 0x150 sha256:52a3e0804d93dc525ec3c67ef8ac5b01756ecf0513e36f3c19435e4c82cb5d29
+-  __DATA_DIRTY.__objc_data: 0x140 sha256:1bea3fa445f0b904ce3d7f3fdd4dd72193e7429a05a1e15a0f7775ed4abc5340
++  __DATA_DIRTY.__objc_data: 0x140 sha256:700eaf816aaa90bbee9f60885e9d6f2716d27bccede409c2a04b8ef9338e05b1
+   __DATA_DIRTY.__common: 0xc8 sha256:6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libc++abi.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5C005ECD-9535-35DF-8C13-AF6D6B50FF82
+-  Functions: 2341
+-  Symbols:   3662
++  UUID: 6408A142-6F67-3765-88AF-257767D411C4
++  Functions: 2342
++  Symbols:   3663
+   CStrings:  1006
+ 
+Symbols:
++ __ZN2re18NetworkSyncManager22removeDeferredSessionsEv
++ __ZNSt3__110__function12__value_funcIFbPKvPvEED2B9nqn220106Ev
++ __ZNSt3__110__function12__value_funcIFvPvEE4swapB9nqn220106ERS4_
++ __ZNSt3__110__function12__value_funcIFvPvEED2B9nqn220106Ev
++ __ZNSt3__110unique_ptrIN2re20SharedAppSyncManager9PeerStateENS1_11SyncDeleterIS3_EEE5resetB9nqn220106EPS3_
++ __ZNSt3__110unique_ptrINS_15__thread_structENS_14default_deleteIS1_EEED1B9nqn220106Ev
++ __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEMN2re33TransportCommandsThreadedProtocolEFvvEPS7_EEENS3_ISB_EEED1B9nqn220106Ev
++ __ZNSt3__114__thread_proxyB9nqn220106INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEMN2re33TransportCommandsThreadedProtocolEFvvEPS8_EEEEEPvSD_
++ __ZNSt3__125__throw_bad_function_callB9nqn220106Ev
++ __ZNSt3__127__insertion_sort_incompleteB9nqn220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPPN2re10SyncViewerEEEbT1_S9_T0_
++ __ZSt28__throw_bad_array_new_lengthB9nqn220106v
+- __ZNSt3__110__function12__value_funcIFbPKvPvEED2B9nqn220100Ev
+- __ZNSt3__110__function12__value_funcIFvPvEE4swapB9nqn220100ERS4_
+- __ZNSt3__110__function12__value_funcIFvPvEED2B9nqn220100Ev
+- __ZNSt3__110unique_ptrIN2re20SharedAppSyncManager9PeerStateENS1_11SyncDeleterIS3_EEE5resetB9nqn220100EPS3_
+- __ZNSt3__110unique_ptrINS_15__thread_structENS_14default_deleteIS1_EEED1B9nqn220100Ev
+- __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEMN2re33TransportCommandsThreadedProtocolEFvvEPS7_EEENS3_ISB_EEED1B9nqn220100Ev
+- __ZNSt3__114__thread_proxyB9nqn220100INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEMN2re33TransportCommandsThreadedProtocolEFvvEPS8_EEEEEPvSD_
+- __ZNSt3__125__throw_bad_function_callB9nqn220100Ev
+- __ZNSt3__127__insertion_sort_incompleteB9nqn220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPPN2re10SyncViewerEEEbT1_S9_T0_
+- __ZSt28__throw_bad_array_new_lengthB9nqn220100v
+
+```

@@ -1,0 +1,244 @@
+## libsasl2.2.dylib
+
+> `/usr/lib/libsasl2.2.dylib`
+
+```diff
+
+-215.0.0.0.0
+-  __TEXT.__text: 0xf2d0 sha256:b4209442d5d6b84ec2dcef3773573efa02fe4634afa6a3513fc2428cf41892cf
+-  __TEXT.__cstring: 0x24f5 sha256:ce7ca598bc3c8461baa87dfd31c34e53280ffa1a95ea228a2b30559ee2f26dc5
++217.0.0.0.0
++  __TEXT.__text: 0xf420 sha256:ae6222425a36958fd8f159d6d8e1b46949fdc4fc64cd4b6d11e28d2dceea4007
++  __TEXT.__cstring: 0x24f5 sha256:dcbeeb6ad78b01dc769b860ba9d3e4a09b25562b2ad9a64122cdf492b992591b
+   __TEXT.__const: 0xd8 sha256:fb7e7826f1a25152ff941b4de9853ab63e378495a45845f3ea7d938969b27992
+-  __TEXT.__unwind_info: 0x300 sha256:c2da3c6d6108ad9d1de058ef73416733ef0175a7067854ceddfde209ab8fb5ec
++  __TEXT.__unwind_info: 0x300 sha256:b475683be8c32742c40b06fc7b54ba2a3c5b9b216052bd4fb9c85474b6cb88f9
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x198 sha256:82b326c770f1fcd6553aaa0cff2936974c1433fc78834df9dfa9e16c49007e12
++  __DATA_CONST.__const: 0x198 sha256:4c5463399f83119e8e1cc4816a3679963e7b07223bbc0a05a42090bb4ac961aa
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xe8 sha256:e83d96986c550d7247da7f826ef8db07d253d8083cc58d2740dc159de9168dbc
++  __AUTH_CONST.__const: 0xe8 sha256:eacca180f1487951b8fc161e4d834054e10d89db01cae6c81e9d95135c20d10b
+   __AUTH_CONST.__auth_got: 0x270 sha256:afc249b32e5549092c980b1995ea5401e73af3fcda168c1da9ae1bdbfce0d447
+-  __AUTH.__data: 0x1d0 sha256:98957446f05f974acd968dfbe359d3f8a3b626952324f68dfa988e44fdff2b96
+-  __DATA.__data: 0xc4 sha256:8ce59eed87b53ac80bf17c5e8145c9a544355292f827d4ee4f4c04e4c76705c6
++  __AUTH.__data: 0x1d0 sha256:ef694a939ad5444961fdca12dbd2635651f885c9131eaec049b8a57ca362ba90
++  __DATA.__data: 0xc4 sha256:9c94ab8cd2a200a106a7d5328939e5e8af1165e3251f4ace7635587c62684cef
+   __DATA.__bss: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA_DIRTY.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   __DATA_DIRTY.__common: 0x24 sha256:6db65fd59fd356f6729140571b5bcd6bb3b83492a16e1bf0a3884442fc3c8a0e
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 08957136-7015-36B3-85B5-E970FB23E712
++  UUID: 81B00AAB-7B6C-3D67-A858-E48F34FBE8FA
+   Functions: 190
+   Symbols:   312
+   CStrings:  252
+Functions:
+~ _sasl_client_init : sha256 fa4bd1f1338a7eae06cd97659d0efd60f531b434d006a9c3a5889dfdd3588996 -> cd490234c2ee88cf646f8e7c0701926fdc35a8087dda612dba1a9a84d524ae69
+~ __sasl_alloc_utils : sha256 851787185ba36de7be127357d5a654b288951a433476a562d0efc9ad6c7f0c3f -> 93262507a886b62ffbfb1b0db63413cec456a9a6589d071df19ec3f9752983ae
+~ _sasl_randcreate : sha256 e048cc456a9b0ebde6ccdb7d712956e5b2334bffee1c4a70788102d08db96b1b -> 9b30abac52790b9fde33ebadb461f4b6b5d238fd0f166c55ef24d0857971489a
+~ _sasl_client_add_plugin : sha256 f97cb02e65fabc932f72a01aadcd98b836847ba2590957cae6b8bef54a57e549 -> 4474db650861774a0239dee1184e103c4c89aa8e3ab3548d16de8af24ccbdfa0
+~ _external_client_plug_init : sha256 63a2c55657f99e9c2034c94df7e60ac83285d54c4d5c3b5804a0c06dfcb79059 -> 6a45dc9e296b464bd1b050f68133e54b182d9cf0637fe5c84639a80132f721ec
+~ __sasl_strdup : sha256 f01abd7b367d46f7684dbc603252b92f74296759cacac0b30de0bc21a9263df3 -> a5ba260d91d1a4284bdbed0b5b01302bb33707ec65fa6e04459f25203e566115
+~ __sasl_common_init : sha256 4490df0a935838f8a891c4626f2474c0c2e9667ba64e779825be608f8228dd46 -> 19f9d53c18a836f34847fcb8795e7c4d6674bcda72dbf017a35c43d9c1904c24
+~ _sasl_canonuser_add_plugin : sha256 42cc81a97b5c9bea995d78b95347787bee05319c35b0476a084261dec4189384 -> 0f09b58075709e0f0548bc2ec5b7c84db1cdcf3076ca419103f1a7dc3825fe35
+~ _internal_canonuser_init : sha256 6080f3827bcfdb06ffe2b7e2f5200c291661370d29c27e1171b71fbaba3c65d3 -> 3eff8f65dbea842fe1dfd71f0ad1efadfef127abdcb6d8fb28b7be0c89ad9496
+~ _sasl_mutex_alloc : sha256 1b6bda863fc0bedd16baa3bbf03498177c7b86742d29bd13cc19a40942dac648 -> e557c82c55b7963a7a2071793972bc81209a8e56b7458ed33e70a74848a9fd97
+~ __sasl_find_getpath_callback : 52 -> 68
+~ __sasl_find_verifyfile_callback : 52 -> 68
+~ __sasl_load_plugins : 816 -> 796
+~ __sasl_getpath : sha256 9a1e2cac39b6dd4290550e5582194fa7fffec3e3df13f96a4c48da5c711720cd -> c16dd77d3d63ab2e715475086517ed6adaebab4af2d9d88feb45cd1fe1b7d611
+~ __sasl_get_default_unix_path : sha256 a455f5c9e577d5590bfe3996428066f4c48ea7295255705f9c26d19386030bfb -> 88830fc312df3ff0161bee65661546a8e65c9efc017a2d6bc4a0614af9839855
+~ __parse_la : sha256 4925f5895e648999f827ad30eb04f9a59c2831e0281fb9e18d42c0d13bd1a51d -> adc3a3f307814054cbb5840abba4bc1a52e0bbb259dfdcf2034b982d461ab0ce
+~ __sasl_get_plugin : sha256 60b78f6714b1004815fc81029f3545f6b2d8a357a7019f16457d68e6efb8615f -> e67c707c0365d30f13fcd8dd76e4becd777a4f175b22d4453bfc58fb4101eb9b
+~ __sasl_plugin_load : sha256 53b3b297b2502e372e0498d43825f2db1e5dce8946d1ac444a4d5702445cf684 -> 747a48f8a06c1feb3f90bf0e7a7f12848c8d680566c76ac02894dcf6f6d4f34b
+~ __sasl_locate_entry : sha256 6f2936d2ebbbd59aa8ab753b442ef1e3affab12731fa97b9c25b5d0ac6e486db -> 3410e852b2d1deb99bdc11d2db851ae4c9039fe2894fb48397d0d39ab349cf5c
+~ __sasl_build_mechlist : sha256 e9efd503722835a58ed68aa10d2dcf39395d77ce3b38de2f9647f205ef42fb87 -> b424ff9c11d37302c7a6e96177b1127a23c70a380d4320d592b2bb443ba698fe
+~ __sasl_client_mechs : sha256 56fb053ae7a96abef54d3159ba8ab952da3f9c9c510062c6c471788e7bc094cb -> ee4ba987255165c289a820c412da1a533dd62fd1835355cacde0309a3cc2499d
+~ __sasl_server_mechs : sha256 46a390d8487f94ba254ed52a9a61f97da7bce6d29f139a814b16fe4e87f34ecd -> eacd7163f44e7e9505722ac0f715672321948cafef7abef61120741b5a34392e
+~ _sasl_client_new : 1108 -> 1112
+~ __sasl_conn_init : sha256 992b20edbabe2a732c6303c3ba889dbbcc0957a41cc55b110f5baf700f88d50f -> 79823ff7684bff3f9ce90c15d6da80d3cef3d8413961323ef2a03fa062d1c78d
+~ _sasl_setprop : sha256 efbc35832f25dec19370a871186e5afc61ff3cdea8a11a71d89b6cdca9800558 -> acabfba2bcf75ca630311fd3f68b0d5387b21a0a7127037b254ea4534e3c734b
+~ __buf_alloc : sha256 74f2c6037c66b4e13410487a76ee0ab7d6abec80207ed994044a45a088e8e0c8 -> 784166fd76a54189b8c3ce98540974adb36931b4e979084f024b6150c7614bd5
+~ __sasl_getcallback : 560 -> 552
+~ __sasl_conn_getopt : 196 -> 212
+~ __sasl_global_getopt : 196 -> 200
+~ _sasl_config_getstring : 136 -> 144
+~ _get_fqhostname : sha256 4f0189e1e1158c15dd28f17ace233ebafbcebdecb892834deea77c190c4c7499 -> 33c5eb70033b6f37e9afccdf5041194bbcbf57d919c611d169d7c7dc95511150
+~ _sasl_client_start : sha256 30758ffd78cd8879c092afadb504549f74cd15e1564de99be0dfd98503e6ad9d -> c2154b46edacabdbc15046717f8fbb772ab171afb8a95067102ab43c2e672bb1
+~ __sasl_is_equal_mech : sha256 df64a7eedfd03ddada3e96770a3c579e113efe1c5b209c577cdb0d71a4c10d31 -> d4cb9c27a9d870e2a6e4a04f1cf868cc6d38a74fa4f70f9c20291ef419a62379
+~ _have_prompts : 120 -> 116
+~ _sasl_client_step : sha256 5ddcbee6b3e9b7e70954b95a3bcf2a85749ec64aa81f23cf260d204b071fc13a -> 4b8433f66d1f27adb9e1172a4445e6cb96d6019bfe7ea1df27906d93d6b00aa5
+~ __sasl_canon_user_lookup : sha256 121054f667600b7a1d9a303be4d3c9b6e3fc491e03f436ec0f1647d7d8a2ea7d -> f2edd8b13aaf86059b308859be828f4a526897192a75393502c736ea6c09a159
+~ __sasl_canon_user : 644 -> 652
+~ _sasl_seterror : 808 -> 832
+~ __sasl_add_string : sha256 12da56ee68680304a3cd03896adc455c1688db8e652c663debbb2607d728b2e8 -> 90e1cac75ca258bae1f84f5929fa48e6dff8a5a337c43f78e34783f02be1cec9
+~ __canonuser_internal : 652 -> 620
+~ _sasl_getprop : sha256 5af0c06912ebe8eedf5698aabf239419aed82cce6446bac7c3a0b72345338164 -> 4233f71d92df317e8581938e32a85d66e318ae410f6bf7dde7ee8eae3723c166
+~ _sasl_client_plugin_info : sha256 c67e7e6588918d93f1625ba6ef18b56e22970d2a5d8541bf89e6e115af12066f -> ad0aa8c0b72944ef37c68af27b1f46ebde27af4ab82b46e37e01e9668538c416
+~ _sasl_dispose : sha256 4d72d6d4fb0f2caddcc33269c92217573d18bbda107538a11c2def8b1c6cf4ee -> 178879851eb28610b33979a8187dae7d9a042235fc2b687e7f22b3553ea56cd7
+~ _sasl_mutex_lock : sha256 1525b09b9c17e5bb6578053b9a2b17bbc09ecbf5609b60153f3b14e4c6f58106 -> 99aa0f851ebc71c6e3bd66083535cb3338cf18ae0ca0f0a100458bd67de7385d
+~ _client_dispose : sha256 60600b42dacd66e18dfbe712ae4e197c04b797a22ef464d58ec35ec970f722bf -> e9307ea71cd03826d315bef4106570f501829d576f8604775bb0f47e042cb6a6
+~ __sasl_free_utils : sha256 b04eb589e8afc4007a4cd4ca532344cd7951eb5c4648b8ba77e1253b48cd08b3 -> 50ae95b27d9327378bdeba438543dd864e29715174353f57fefe3e9f0060c644
+~ _sasl_randfree : sha256 0415ec3001c3a2fb65456ef55d63d8c9a6393ec2b96acf4748dbfa225dd4531c -> dc9c164bec414159beb9d8f116d59d831948fa76dc79c05fd15f46e6354682af
+~ __sasl_conn_dispose : sha256 ae9a78eb07f393789f8145c2d655b31971cc6f4bf263d31f739307c6efafded3 -> 476378962a214b264f3f8ad3b085b35c7c036d2c86dd9a01b18903e715dcc61c
+~ _sasl_mutex_unlock : sha256 2d712c1073e7d94d3bb9f65d75fe2a62807b578575c55f7880b7e3c1ed921195 -> 25b58f87e0811d09eb6e9456720176b692a8348303a6c76c98dd005ee15ab6b4
+~ __plug_ipfromstring : 572 -> 568
+~ __plug_iovec_to_buf : 340 -> 364
+~ __plug_buf_alloc : sha256 a843683330bb14d0122a4fa878cc3ade822d2f6ad4683c20cfc0d65982925936 -> f26d467161d8bb5d02a55c2007e526d5f152d3d578b75d77bf3329ad6f5f698f
+~ __plug_strdup : sha256 7be044f8f4a5118d7c0ef14644e18634f7062ac0c63f6051048c6c23b27a68bf -> 941a21c48b8d780bc5d09bb6f51c729920242e1e2129238041e49ef07a129a18
+~ __plug_free_string : sha256 19f748fdd91b3fe211df977ed62dc0b30ca8320cd4d189a39a1011a70f1ade8d -> fafc926a2397f07216c74e076bc882a3d01a57bf86ad1770d898fc869851d1d4
+~ __plug_find_prompt : 48 -> 64
+~ __plug_get_simple : sha256 7339816280ffd755fd5f5e88c1fc4b98bcc3716bb0656a7e1f1c1f5bc5b02f59 -> 45a2ccc24f6b8ee548dce7f331217bd43a7edb37c417ace32218a4f805e8d46d
+~ __plug_get_password : 372 -> 364
+~ __plug_challenge_prompt : sha256 5d13e5e34daed915563013e35fca0b918636abac7c9b0c104dde5b96e22bf7b1 -> 5c3c87d7f1809356bd3b62156827725fb21be9c66dc5e3c90b63ad06c1e28199
+~ __plug_get_realm : sha256 695633328e643d0634feed77261b207f2bc559a2dd7ad5dd7af6e7f693e90f87 -> 2fbf72c3694c89e7915cde7db4754827d4a7c33d9f9278e668c0dadea27b12ce
+~ __plug_make_prompts : sha256 93cfa6546d2b65a4e7a36eca4afc8f3cbaca923ec0abceefa41c56223efd9897 -> 642b071d5237bed5bf95b88588c1e05ba72836e24ac3a1a097d3c566371da735
+~ __plug_decode : sha256 8adad9cc679a41dd8791e76cf5ea5f5115c7bf505d744d3fed05e81594ef7d01 -> bed09318c3e3566c706dbef1527df24f180638feed40a71260910090255ddd91
+~ __plug_parseuser : sha256 5967150a545035c361052467009d61e16ccca5822d3d053b812014e300d3cd64 -> 66b274e42976d36544c33cde05808682fafb3bc9f0a0f0d4b3736add5042ce45
+~ _sasl_setpass : sha256 2d2e2f7f6db6746fb10852d3863d1647dfbc462f8443733cd73660a00d7c527c -> e04126a9550b2ef9c046d1a068e34e3e9d294bdf612309e3f78f1f9856bade59
+~ _sasl_server_add_plugin : sha256 cf4d793ea905441bd5c77e869e9eb150fd9667c5531d88b8d23271f808311c8b -> f4146ddba1cddefd3e716de0c5dc47e4e9cc98bc59eaa390d32a5bba2d7c6249
+~ _sasl_server_done : sha256 98e9fd855b1683e12fb425fe15d2086ecf3a5338fc7ff2b706684334c6b6ccad -> b5a232dcc968c82f0244465d2ca743cfaf65f2969b1d4f33148a079b78361bd1
+~ _sasl_server_init : sha256 c19d653e6878d812bae091f3da2efd20665dd3a35fd9899d493fc5a109d524ee -> 9747ee5e59657c63d27d3528ab0c9b502154041e17ecc1e8f59036bcc4446d48
+~ _server_done : sha256 4e6947a78de991804bf722a07a06c08d17e9ff24463d8b84d8c8e6cfb56c560b -> b6d484ccc9643dc465e02ee0484617973be913dba46887db2d169dd41323d104
+~ _init_mechlist : sha256 666222511ee7991e320eba70df017f475a9c0af72541ebd2bc615ed9cc60723e -> 989f793af14725d89328bc1d4baf4580c9c6a6ae743cbd68ce108a262f7e8b1a
+~ _load_config : sha256 05c7ab2c44cfbf249710399efff7e6ff30e209347ead3fbe0ce0eda124338782 -> d462953c08fb1d8fdb8dd5795a79f659ec6e281d311b8cb54477a30609a108bd
+~ _parse_mechlist_file : sha256 8c0cfb3c1d5b58f8635deafa13f10cd69bca78e3f60fe630d6d19222f17c5005 -> 352d5ae99a661f2676ddd62b8ee8b5f324c3b825ef4a595c4a3782298a47f629
+~ _server_idle : sha256 1f7991bbb139266b040d203f6b5705cdba06b4cc975563d449f905eba48549cd -> 98b41f410deea4cf189c16a53b6a323a90af8f0b64f13b147287995024169985
+~ _sasl_server_init_alt : sha256 932356f6affecfdf534ee9f77eb5b5b4fa5bb4df882be99fb6300b4dd135730d -> fbadf74a58777a3e7470c5a522839fe07b33efc9c05b29e0f152bda1239e9697
+~ _sasl_server_new : 1316 -> 1324
+~ _server_dispose : sha256 aa568447fb87250ce63a409d7f64ebbe378e121e50b14807e5da78645468fafc -> 4d90cd406611ef79b8f6fc2647dc4e9149cf874ab7ee1af84c4b9098d6e7c55f
+~ __sasl_checkpass : sha256 a3e78948a723e91c0639a226db9b17c79d6db9aea62c57df0de0bf268ffaa6dc -> d19cc853d5c91dac261bd5797c8b6e9b11da2315bb44b4b0b4c2f6fe7bfea1fa
+~ __sasl_transition : sha256 131dfa1a70b1cf0fa52802e2055e8f8c2923385af4faf57c09e21527d9268433 -> cd6194101434c61ceba139dee90b173d300699da8792630b9be87d5166ea68c2
+~ _sasl_server_start : 1048 -> 1056
+~ _mech_permitted : sha256 ab036fb62c96ec454473994e9f1c085baee9077d21f16f4c0914b4974bb176c8 -> 89e5d4e6b8ee89d23fc726692f823cf05eb22007e044b2e64982b29a43ce2472
+~ _sasl_server_step : sha256 031892403e5e753437e5f51e0243e9f67cbb8c333a63367fbfe63ab316313367 -> a1701dc8bc7da114ce1093b4539769811b7d1d1e8e369bfd56187650347c530d
+~ _do_authorization : sha256 c64cf52c63397c68df1c60871b3c8e3959365568c3857d0d6bd84a0d70f0cf8f -> 6d80b900e737abea789bfdb7a002c63b4d6999e45fedb7ebafa7046ad771681c
+~ __sasl_server_listmech : sha256 569f6b38e8d69abefa1ff487d89fdf7fd1e91ef627b5ab3885c440c8d88cdb43 -> aee53727ce392c01541fcdd0a26719d68c906ebc2d899a0b9f412a1f6dff4571
+~ _sasl_checkpass : sha256 0e6103843d84521c4c36382a82d92d1f5192a01c7baa0d8f792afc5d9e98e338 -> 5cb43be92aed03776e0dce6516b906ecf2e57862843eef89610133aca141df39
+~ _sasl_user_exists : sha256 3dec9f2d4c4e89e874a6c28b9f81a5b7bc480d3a09df4679d7ac430e52adb817 -> 4af755f866c6695873c50141d0f74d0637f8d5742deda45847e11d6bc64c1048
+~ _is_mech : sha256 20966bd5e305f4805e5b6ce82162904f81732dfe0ea2fcb4cca5b0d7de5cf52f -> 08e8d2ccb439e94b1e7816c0f589fb34635c7895d9f1f4f8ba19a3566d0ac5ed
+~ _sasl_checkapop : sha256 5264add31d68563d51e0ae8470c0cf2424138d7b72dadf85e90263f70560dae1 -> ae1126e60a8ef8dcb30114cac84ed48208d9000e3d82295f30abbdf2f0347808
+~ _sasl_server_plugin_info : sha256 aa58ad091ff47cd2d1c03ed7606a439f50faf0d17b19f0191c736cb5d3dfdfae -> e40d2004cd84b34f37285d2657d7d86707c900733844acdd3acf3f09e717b0a4
+~ __sasl_print_mechanism : sha256 93cf3516a3c25305bd22c76f5057d07fde916e00ee226bc79b2045862ab636fe -> 2038df5614bfca66262d432c21234a458eb54ae50a84b198798f563a285415ac
+~ _grab_field : 264 -> 248
+~ _sasl_encode64 : 336 -> 312
+~ _sasl_decode64 : 648 -> 616
+~ _sasl_mkchal : sha256 a7497730a885884ab99d8b07f941708bb14a07c5e7759ac325e6f632fcff10ba -> 7569b203c15782c5c53bc33ba74d89d45367217895be9255fe390f5d29d703c8
+~ _sasl_rand : 116 -> 124
+~ _sasl_utf8verify : 76 -> 72
+~ _getranddata : sha256 ca7720748327ae7b9270b2a71d52d454be94d29f3cee58a8f3f2e13eb9cb5bb5 -> 2b3f8d86339e292b8057e1c58d63aecfff8d95bbebd055e2a0268f137ef13552
+~ _sasl_randseed : 80 -> 72
+~ _sasl_churn : 152 -> 148
+~ _sasl_erasebuffer : sha256 43ddcf71eeeca1ef788fe5adc92d076dd2eb924a22989025f024840a52d9588e -> 5892a7ec1e749eed736ac3ad240a37e752d51fee6eaaf4c7344b82c124ea3011
+~ __sasl_MD5Init : sha256 3eb162ddee3bbb844c0921c6e36380bbcb416468038ae38d3ebb8068037799d7 -> bc41b49f95416685e7cea95b6ecda364cc1d51d688802b835aff0a71692d6e81
+~ __sasl_MD5Update : sha256 fb25f4dadec478638c92b3ab676e02137c0a7d00815e9af29c48b97518c8faf3 -> b1a90bdb1b168166321bc9bd8d7bdfaec56906c581ea3f5e3884da9e08ec269a
+~ __sasl_MD5Final : 276 -> 336
+~ __sasl_hmac_md5_init : 404 -> 400
+~ __sasl_hmac_md5_precalc : sha256 db342d498a6ff990c3051fd789f489ae826d470ad1e0869ffb455fcd5b5d2244 -> b374b28c563eec982a3a63bbfa01176dc165c471a2566842a0f03fa9d2f9e63a
+~ __sasl_hmac_md5_import : 92 -> 96
+~ __sasl_hmac_md5_final : sha256 9419b1d10883f2907bc05bc20798cfe8dc421563b7d9eafd0cdc0a98057b4d44 -> d66e02e4d44d76de5b7fbc3948fac9a46b2f4fe48a97a181d544f82631b8f01e
+~ __sasl_hmac_md5 : 500 -> 496
+~ _MD5Transform : 2524 -> 2720
+~ _MD5_memset : sha256 58458e6cbe78a451245229c8095f683bda1fba0a7bee7d2da8963626e3208e2d -> 24bddd822fd8103624623b846a10068a2ac73901af60bb0e4cfd7c8092cafbd7
+~ _sasl_config_init : 832 -> 828
+~ _sasl_config_done : 176 -> 160
+~ _sasl_client_done : sha256 7e044563cb1e227f2128e688d2eaa5a4a9f34122875c3b8a5aad2187da03eda3 -> 20271321e004cb19ab7f518cde3ac29356ec48f6f4a733a69e71ea88fac81eab
+~ _client_done : sha256 70272b79adc827c80b3dbf78a37e99415b7df5f1a63bd19a00bb3d099db93335 -> a3b27e00fbc6e2353d6caf26d9cd9f5138f6e320f13dfb578be26476a37954ad
+~ _client_idle : sha256 b2f5cbd9ac89d7adcf2391544ee9b2acf281549681c9ae53fd26645a205c5274 -> daf0b927159a90e31b46dfb135b6855979a5aecdc2c13c5458ae314c90edf2ca
+~ __sasl_client_listmech : sha256 3e90261d755a4a422a4fccb9d02e3e5de7d99183cb2c1c904e72f4a2aaad2ac6 -> 481d18fa302dc64a357eb1635dd81f59646f0f3ba73b37d0e325490b981af1b4
+~ __sasl_print_mechanism : sha256 7f592333141fe5d2c89aa74ed0f525b7b9a3d71cbb2f9dc1b8c7dc5fdfd2a93b -> 7972677fac526b807bd7257843db25f6bfab46dae80dc1cbcc04f317d6ef8428
+~ __sasl_mech_index : sha256 db9a4659e0fb01704ff30e0fd1cf782e05c075ba9e40a0d78ae7a4d4faf49c4c -> 4610f8408872eb858c718703f85951134a9555a39ec001516156663e18efda68
+~ _sasl_mutex_free : sha256 e851f2a98c67174df655a33409a53577b198d6cefc8817aad3967479c371704f -> 3372207e82243a7f69124bfa0c74dda82036b9e4b2f0be44704dfeb641fdd58b
+~ _sasl_set_mutex : sha256 32aacd6dd94c5754ddac27714000bc88bab82ce4f8dd8756b06515c3d6b57277 -> 8fdf3d0535cbce13b006f905f91034d1cfa3081afa33907400d26b7028623f60
+~ _sasl_set_path : sha256 f058fd6d365b9c0144139dcd3e43f6f7221692393d995d4c37fd08246106c843 -> efbec3668a07991f160fa42fa79d768adafed6a556be513408d6ea40f97c0085
+~ __sasl_getpath_simple : sha256 c373c34d7c08360ce2c5775f980d4195fcfc09561782c06cb518dde5e16e052d -> 6523ebfef7e88b5c74ae0b02910db7c025cbfbd0db5e904f566a35da693647d7
+~ __sasl_getconfpath_simple : sha256 9f42036f4edfe59a2b9b3d039a51316a2c34a8bd6464fdb950ed86a686fea4ff -> b60a030df9726c0bade23cd8473cd68282e4e756e9619f8a050ec738bb9bb266
+~ _sasl_version : sha256 e7a73d6d0124cf73d771d9b4321a0ececbbd9681659f75fae4b072cb537e47ff -> 79d2fce6e28a370bec60751177547f2dc92f072f1ec01fff93ee358779317249
+~ _sasl_version_info : sha256 4de05b702ca1726a1fa6f3174c9e23221c7d48e1958d83123323c9cdf0bd14e5 -> 61ae3cdf1798dcf05c47edc255ccdd103675a93f93581a65a1c0a9900685064b
+~ _sasl_encode : sha256 2abf89ed975da0b9beb85249477b31a73677450ee46dc1853c49793ed30a829e -> 56ec9d11a929f76556c7d9d9505b5ac0440556f09cb9644a548ab86b2c639bf6
+~ _sasl_encodev : 920 -> 940
+~ __iovec_to_buf : 232 -> 264
+~ __sasl_encodev : sha256 8f6b365b79750c9c0328e19e929eaebe857115e002396443aa3f2d6fa2e07391 -> 59013dfdd500cd35a1a2ec901c224c661bbefbfead899d077fba1e89dacd1bb3
+~ _sasl_decode : sha256 694514452a10ee72b1e7606f8ce76f61891b7057e4cc75fd4ba7fd72be5b4706 -> 3c09b8fb628033a22d37641170396bc4640825d0e7476a81f970b4dc0109b85a
+~ _sasl_set_alloc : sha256 7ec34be10f81c58d845dcf15ddf9866b3095fca4e91af0a98dac06f032cc1242 -> 98281ea7d6864ac418950a70b9127119d9814602cf637bf998faa9ace8fe545d
+~ _sasl_common_done : sha256 a2e7fc1c6f2050e3db559f998aeb0a813fb31ff076f6d35cd5cb9c79e56c1136 -> 9b9acfd4d486fe7a8dc749578668fd433b4ef2763ce1677d1117305ca2e5255e
+~ _sasl_done : sha256 240a1a64bf738021ad00834aeb6fd4d84e428787ea36a113c6a4fd22cbb37e52 -> a2bfeac7f0543730c12fa8fcbaa5286b1bb08faf1c46fc1fa1180ec38d11fc19
+~ __sasl_ipfromstring : sha256 3063d13743c2cba4e120fdb795ec457bf2237759aa1a892e12df8f39b7a60cdd -> 8488e9f2ea524d6b49690a9b862ae232aadcee1705105334c8b82b1af1571b72
+~ _sasl_errstring : sha256 057af426e8508f89979f6880c67151290452960eb577972b58f9a205ae17678b -> 9cd76838451c60f5f051d211e581ae93a4b9a64b8c67c32f4bd1ceb70026fa36
+~ _sasl_errdetail : sha256 7080647a0c2cd8f9f120ae251ee65fa6cfe036b5a6986a29812cfef55d5b93e0 -> 2da56efa6c2f14d9ca642177998cc953263c6f8a37f68ae135a82cdbecc90be1
+~ __sasl_syslog : sha256 1aeb2ffaf13657d7ea60bb0fa29c6be4cb1ead8315267c9e339907ed2783d0f9 -> acb49ed75ee8de9b25394dc5871f8e2ceb222839ba181ecf5e0f9c77727d6cd6
+~ __sasl_getsimple : sha256 04f94fee167b2d705e355ede968b9ab55f65aa38b84fa4b4837027b86b81a816 -> 0cde03be92b0f7b9fa126419c4f3276cac7e68c5a8d146593cab03d96a2f6116
+~ __sasl_proxy_policy : sha256 23b678134be517bc5858ceeb9b146ea5bd37622a1eef975bddfcc37b4f4f3588 -> 9079f557b129b52eb58abd15efedcea3e8cc8896dcbe0a4c956889e0b82bd05b
+~ __sasl_log : 812 -> 828
+~ _sasl_idle : sha256 281c0481c0fb6a207fcbc5676b06814dc8f12f0fad2155771e1505eee29dbc3c -> 68a2194ce0e0473cf516816c0d0ffebc4a9dd1a466cd10e4b3e88906e5aaf70f
+~ __sasl_find_getconfpath_callback : 52 -> 68
+~ _sasl_global_listmech : sha256 245c887aa5dedd74e190862327ddc5be8b5b453225b9c89b0453174e48c33586 -> 86f2ed6acc7b4fdb82448a37e35e890d9f327ab8db41a2714b85086fcd2831f6
+~ _sasl_listmech : sha256 a6624ba178be52a0c3036be817c39f8409b6c3fa13190a78cbb483fcc20b6831 -> ce73c820b4b65ec1a3c0632565c77898ecaaa932e14b7e00b3d44ce464a30480
+~ __sasl_getconfpath : sha256 5ab16a87fa0eae9a071a16dd389b370ac3c2c17cc021736ac6240adb9fe7ed64 -> 058417b8dfa8e79bdcef55ba98c0f9f69cf9d20be2ae760bce7ac4af0f671f31
+~ __sasl_auxprop_verify_apop : 528 -> 532
+~ _auxprop_verify_password : sha256 698f4d7baf014111e54669d4562942615eb09bb235f413f09fa7c0d07acbe94c -> 814c385c2c934e5e04e59f41fad72d21544c4197701e8db1dff773a2862580a3
+~ _auxprop_verify_password_hashed : sha256 cf61c8be6966b3bfe3c4eb38c65072bf765cc76aa6fe398a334a6ef9f1430662 -> db5c38cee8345d8eda9249433a088f654b92c84cbc1c6ae6de51cb9cd7c9919f
+~ _saslauthd_verify_password : 1168 -> 1148
+~ _authdaemon_verify_password : 968 -> 980
+~ __sasl_make_plain_secret : sha256 bb74d18700999b6f3f7c1e8a8e515223ca151fa5aa57f20a6dfb33ae602b6445 -> f852b1d7b799beb7ac5d15affe60b38c4fb400c049f2ca0c89e176f7fa28670b
+~ _retry_writev : 524 -> 516
+~ _retry_read : sha256 bc9b490df5fce1d22379f53bc80f7a41c59f31799a126e5ac688ec7c8e42f09b -> 859562c1a1ccaa579e531420fa2584c98fc68e53e90720a33facb80c21a11ca1
+~ _authdaemon_blocking : sha256 1f14ef943b314e04f6e9ffdb543ad2c064caaca5e4e740767cef9778ea30d476 -> 4d07e841eec7cf33a14092902063eabc63069df1d57ce0032f9bd3e2e462d1a4
+~ __sasl_canonuser_free : sha256 fa658e6c4c0f98f54655a51a19b1e1428dfbe587530cbba49003a08a91870939 -> f72c91fd5922ec3bbb9f6b9bd9b3cd8435bbe57f7f292cac865386426bcc8914
+~ __cu_internal_server : sha256 3cb5899be569eab7e614c9738cc9f22ff4ad28461ff24102afdd04f361702e2f -> e3c1e354e6655922219a9f1fafdb8da4f78ed9835ac63521d5435f7823aafcb2
+~ _prop_new : sha256 74efaf6ae45476f47d766d52d655dbd968a0aa190f4b22fac399e90fb3bf13b2 -> 5c49558625311b6bd79d8dcf09b101f88b0087fd9b5a7554ab9a05dcc8b5b90a
+~ _prop_dispose : sha256 31ae2044c09143ebf3f10b7addf7aac5b9f42e7090f48d55292a4ae5db4c1b09 -> 18c68806dbe7edcaf4dce89c4afc57f6bf225f7dc5c546db42a37d6946fdb49b
+~ _prop_dup : 316 -> 308
+~ _prop_setvals : sha256 2727c26e876ba85608f019c1294cebf9a6874e65498810090ff995f0529f2973 -> 0af58dd01352abf070223f160d956de074e117cd92a4ff1d77da3cbe8c6e0e52
+~ _prop_request : 468 -> 460
+~ _prop_clear : 224 -> 236
+~ _prop_getnames : 172 -> 188
+~ _alloc_proppool : sha256 a43136a8fd497402599ded9c629b99861448c4bc71ce374d6cea4ea7e41dabf6 -> 3c4783266e3e3e482f3749d04a7a2579bbe973cd026db919b5c023bc497da66f
+~ _prop_erase : 156 -> 148
+~ _prop_format : 276 -> 280
+~ _prop_set : 836 -> 844
+~ _sasl_auxprop_request : sha256 e2ec4d97cf8339f63036845e25a64105a5a82c1b10a5a526f568c5e208e06c3c -> cdbb8feebd95c62050577b5c86065ac6f1c22b26e2388ae658e51a2c4aa2d8fd
+~ _sasl_auxprop_add_plugin : sha256 9d1ee1bf08521916d4401a4f906a3fb0786ecb289f93a4e66bab732c80191b2c -> 97fbe391f5ed547f13579dea95c09729b88512a1dbca86b8e0ae0b6e45e915ac
+~ _sasl_auxprop_add_plugin_nolog : sha256 a0e4831ba61c375c907eb3b679ac4c6a9a4cae2eb35a1898a7e1b1d6293e3354 -> d2c56d8dedd9ee81be384b1ab49c3311a6d32206aaaf74e7e8facf58dfd2b248
+~ __sasl_auxprop_free : sha256 75a4e76727384ac04af83761e567dddb2a13bee302cea4d25acea8ec3069543b -> bb3cb7f2054110ee56779360e6302b668494e215b7003d7242de3365439c0169
+~ __sasl_auxprop_lookup : 708 -> 712
+~ _sasl_auxprop_store : 728 -> 744
+~ _external_server_plug_init : sha256 2c001eadd2c03f3ee3c350a3ed491505067d1d6b8a02bdb081b458f6f32b799e -> 5b7ebbe6b61dce557e176e55bb86c8cd97108a38a406dbb0299706e812283ae0
+~ _external_server_mech_step : sha256 980492ba56e1dd77864979e0b08c881a4c20959da795b70257213292737679b4 -> e9127272fe7ff50242a9343863da0df5047316f7ef03565c76d5e59cf0dce26d
+~ _external_client_mech_new : sha256 3c97abe777fa6ed1d21f92584a4a52bc3e507f5e554c93900e9d2eac9e30603a -> c506fe3db67241504a99d9e2cf5d6803999ff4938f0447d57b7e2c497a837b4b
+~ _external_client_mech_step : sha256 782b75c972251cc1d7bf55fe500ea60e28bb27022039edb5fd9ec5f7ce7c0bae -> c9ec981d55afda5145908b3ad610d43195dcd53fd8cb07b78ed607bcc42de74a
+~ _external_client_mech_dispose : sha256 33d5c29e55910f55d55691ed5d943c3bb9b8f9899c12dcb3b9337f7c2081d196 -> dc117a22f82c652771d8cf49f65597f71dd38b7920bab59a83bb0cb13434e26a
+~ __sasl_load_plugins_alt : sha256 56eb3e5abb4d39cd066cd9ad44172b9a1506897ccaa12951fc05e8e0e29ddb29 -> c3a978ce5540949ab2c367ef9d4d8105aaa0f06a7967e7e13a8a27220ccd32ee
+~ __sasl_done_with_plugins : sha256 97327c6178032d897498003f4bbe129e1c12de089e8a973ebefd3117fafea95e -> 3d8a62a1f9b85a2407084176e60d54e5bf300812a972ed17280b2e5bf95c6ad3
+~ _sasl_encodev.cold.1 : sha256 879d972a71888764bf7bc363bc42ac6a7f16354539e73a5ba85f4bb96732d9a4 -> 124365e74b0db6ad9b8f60a7a4c559cfe80bbf7bd24eeebe1afaea042968ea71
+CStrings:
++ "Internal Error %d in /AppleInternal/Library/BuildRoots/4~CRa8ugDo-VpAEDF3itcuZTO06m8KJ3w-H10Y3KY/Library/Caches/com.apple.xbs/TemporaryDirectory.d2EdcA/Sources/passwordserver_sasl/cyrus_sasl/lib/client.c near line %d"
++ "Internal Error %d in /AppleInternal/Library/BuildRoots/4~CRa8ugDo-VpAEDF3itcuZTO06m8KJ3w-H10Y3KY/Library/Caches/com.apple.xbs/TemporaryDirectory.d2EdcA/Sources/passwordserver_sasl/cyrus_sasl/lib/common.c near line %d"
++ "Internal Error %d in /AppleInternal/Library/BuildRoots/4~CRa8ugDo-VpAEDF3itcuZTO06m8KJ3w-H10Y3KY/Library/Caches/com.apple.xbs/TemporaryDirectory.d2EdcA/Sources/passwordserver_sasl/cyrus_sasl/lib/server.c near line %d"
++ "Out of Memory in /AppleInternal/Library/BuildRoots/4~CRa8ugDo-VpAEDF3itcuZTO06m8KJ3w-H10Y3KY/Library/Caches/com.apple.xbs/TemporaryDirectory.d2EdcA/Sources/passwordserver_sasl/cyrus_sasl/lib/client.c near line %d"
++ "Out of Memory in /AppleInternal/Library/BuildRoots/4~CRa8ugDo-VpAEDF3itcuZTO06m8KJ3w-H10Y3KY/Library/Caches/com.apple.xbs/TemporaryDirectory.d2EdcA/Sources/passwordserver_sasl/cyrus_sasl/lib/common.c near line %d"
++ "Out of Memory in /AppleInternal/Library/BuildRoots/4~CRa8ugDo-VpAEDF3itcuZTO06m8KJ3w-H10Y3KY/Library/Caches/com.apple.xbs/TemporaryDirectory.d2EdcA/Sources/passwordserver_sasl/cyrus_sasl/lib/server.c near line %d"
++ "Out of Memory in /AppleInternal/Library/BuildRoots/4~CRa8ugDo-VpAEDF3itcuZTO06m8KJ3w-H10Y3KY/Library/Caches/com.apple.xbs/TemporaryDirectory.d2EdcA/Sources/passwordserver_sasl/cyrus_sasl/plugins/plugin_common.c near line %d"
++ "Parameter Error in /AppleInternal/Library/BuildRoots/4~CRa8ugDo-VpAEDF3itcuZTO06m8KJ3w-H10Y3KY/Library/Caches/com.apple.xbs/TemporaryDirectory.d2EdcA/Sources/passwordserver_sasl/cyrus_sasl/plugins/plugin_common.c near line %d"
++ "Parameter error in /AppleInternal/Library/BuildRoots/4~CRa8ugDo-VpAEDF3itcuZTO06m8KJ3w-H10Y3KY/Library/Caches/com.apple.xbs/TemporaryDirectory.d2EdcA/Sources/passwordserver_sasl/cyrus_sasl/lib/auxprop.c near line %d"
++ "Parameter error in /AppleInternal/Library/BuildRoots/4~CRa8ugDo-VpAEDF3itcuZTO06m8KJ3w-H10Y3KY/Library/Caches/com.apple.xbs/TemporaryDirectory.d2EdcA/Sources/passwordserver_sasl/cyrus_sasl/lib/checkpw.c near line %d"
++ "Parameter error in /AppleInternal/Library/BuildRoots/4~CRa8ugDo-VpAEDF3itcuZTO06m8KJ3w-H10Y3KY/Library/Caches/com.apple.xbs/TemporaryDirectory.d2EdcA/Sources/passwordserver_sasl/cyrus_sasl/lib/client.c near line %d"
++ "Parameter error in /AppleInternal/Library/BuildRoots/4~CRa8ugDo-VpAEDF3itcuZTO06m8KJ3w-H10Y3KY/Library/Caches/com.apple.xbs/TemporaryDirectory.d2EdcA/Sources/passwordserver_sasl/cyrus_sasl/lib/common.c near line %d"
++ "Parameter error in /AppleInternal/Library/BuildRoots/4~CRa8ugDo-VpAEDF3itcuZTO06m8KJ3w-H10Y3KY/Library/Caches/com.apple.xbs/TemporaryDirectory.d2EdcA/Sources/passwordserver_sasl/cyrus_sasl/lib/server.c near line %d"
+- "Internal Error %d in /AppleInternal/Library/BuildRoots/4~CQBgugA2CeLdOJHHJvfzbXVHc2KPps42fc0MheQ/Library/Caches/com.apple.xbs/TemporaryDirectory.kHcsmx/Sources/passwordserver_sasl/cyrus_sasl/lib/client.c near line %d"
+- "Internal Error %d in /AppleInternal/Library/BuildRoots/4~CQBgugA2CeLdOJHHJvfzbXVHc2KPps42fc0MheQ/Library/Caches/com.apple.xbs/TemporaryDirectory.kHcsmx/Sources/passwordserver_sasl/cyrus_sasl/lib/common.c near line %d"
+- "Internal Error %d in /AppleInternal/Library/BuildRoots/4~CQBgugA2CeLdOJHHJvfzbXVHc2KPps42fc0MheQ/Library/Caches/com.apple.xbs/TemporaryDirectory.kHcsmx/Sources/passwordserver_sasl/cyrus_sasl/lib/server.c near line %d"
+- "Out of Memory in /AppleInternal/Library/BuildRoots/4~CQBgugA2CeLdOJHHJvfzbXVHc2KPps42fc0MheQ/Library/Caches/com.apple.xbs/TemporaryDirectory.kHcsmx/Sources/passwordserver_sasl/cyrus_sasl/lib/client.c near line %d"
+- "Out of Memory in /AppleInternal/Library/BuildRoots/4~CQBgugA2CeLdOJHHJvfzbXVHc2KPps42fc0MheQ/Library/Caches/com.apple.xbs/TemporaryDirectory.kHcsmx/Sources/passwordserver_sasl/cyrus_sasl/lib/common.c near line %d"
+- "Out of Memory in /AppleInternal/Library/BuildRoots/4~CQBgugA2CeLdOJHHJvfzbXVHc2KPps42fc0MheQ/Library/Caches/com.apple.xbs/TemporaryDirectory.kHcsmx/Sources/passwordserver_sasl/cyrus_sasl/lib/server.c near line %d"
+- "Out of Memory in /AppleInternal/Library/BuildRoots/4~CQBgugA2CeLdOJHHJvfzbXVHc2KPps42fc0MheQ/Library/Caches/com.apple.xbs/TemporaryDirectory.kHcsmx/Sources/passwordserver_sasl/cyrus_sasl/plugins/plugin_common.c near line %d"
+- "Parameter Error in /AppleInternal/Library/BuildRoots/4~CQBgugA2CeLdOJHHJvfzbXVHc2KPps42fc0MheQ/Library/Caches/com.apple.xbs/TemporaryDirectory.kHcsmx/Sources/passwordserver_sasl/cyrus_sasl/plugins/plugin_common.c near line %d"
+- "Parameter error in /AppleInternal/Library/BuildRoots/4~CQBgugA2CeLdOJHHJvfzbXVHc2KPps42fc0MheQ/Library/Caches/com.apple.xbs/TemporaryDirectory.kHcsmx/Sources/passwordserver_sasl/cyrus_sasl/lib/auxprop.c near line %d"
+- "Parameter error in /AppleInternal/Library/BuildRoots/4~CQBgugA2CeLdOJHHJvfzbXVHc2KPps42fc0MheQ/Library/Caches/com.apple.xbs/TemporaryDirectory.kHcsmx/Sources/passwordserver_sasl/cyrus_sasl/lib/checkpw.c near line %d"
+- "Parameter error in /AppleInternal/Library/BuildRoots/4~CQBgugA2CeLdOJHHJvfzbXVHc2KPps42fc0MheQ/Library/Caches/com.apple.xbs/TemporaryDirectory.kHcsmx/Sources/passwordserver_sasl/cyrus_sasl/lib/client.c near line %d"
+- "Parameter error in /AppleInternal/Library/BuildRoots/4~CQBgugA2CeLdOJHHJvfzbXVHc2KPps42fc0MheQ/Library/Caches/com.apple.xbs/TemporaryDirectory.kHcsmx/Sources/passwordserver_sasl/cyrus_sasl/lib/common.c near line %d"
+- "Parameter error in /AppleInternal/Library/BuildRoots/4~CQBgugA2CeLdOJHHJvfzbXVHc2KPps42fc0MheQ/Library/Caches/com.apple.xbs/TemporaryDirectory.kHcsmx/Sources/passwordserver_sasl/cyrus_sasl/lib/server.c near line %d"
+
+```

@@ -1,0 +1,44 @@
+## AppLaunchIntentExtension
+
+> `/System/Library/PrivateFrameworks/SiriAppLaunchIntents.framework/PlugIns/AppLaunchIntentExtension.appex/Contents/MacOS/AppLaunchIntentExtension`
+
+```diff
+
+-3600.5.1.0.0
+-  __TEXT.__text: 0xd44 sha256:95a1cb7a7799595dc0d5d8a007b5337d92ab0739be3c7d0b0e7b936aae2ed5c0
++3600.8.1.0.0
++  __TEXT.__text: 0xd40 sha256:feb77993765265f9e8e24062b2fb2dd79c9eea447b647afe194e335ac719eb2f
+   __TEXT.__auth_stubs: 0x270 sha256:87c972fa9c624f57bf410f697b3c3f48bc9587dae498146ab9297d9057ef86ce
+   __TEXT.__objc_stubs: 0x20 sha256:e18f4eb5a7a5afa35a16158f3669eff84bcaf12d6531f64fb4a4ede096449f32
+   __TEXT.__objc_methlist: 0x2c sha256:82bef743bbd5c9ac86a35bc1868c0f152b83fff1cdd785da0694428a81f0ef86
+
+   __TEXT.__cstring: 0x79 sha256:fda5b17fce1f392c1f9c293aa23c7477b83f1c2eece250f20ad3d2787542239a
+   __TEXT.__oslogstring: 0x20 sha256:dc1848b2d8a8e898f7058a6a03b367e261c6ebbc64788cecee566bfbc940ea1b
+   __TEXT.__swift5_types: 0x4 sha256:fe7d39cca37ff9254fd2c1912252ebc34e00b8033479d401b3242048f2de89fa
+-  __TEXT.__unwind_info: 0xb0 sha256:15f17722d4fbcc0a7193945ac856cc2fa078addbcac70a305a4ca02e0a2c2039
++  __TEXT.__unwind_info: 0xb0 sha256:6c28956a558847b910d31578fe572895e9a774d859d10498af9858ddb5024df7
+   __DATA_CONST.__const: 0xf8 sha256:698dab1884d8a4a08dab457f7098cce7fb9783373211bfe4393aafe997c121d9
+   __DATA_CONST.__objc_classlist: 0x8 sha256:d5a40f7dc9b936cb6f472fd85343365de96c4d7378fd7a76b7fe5afc04e11a3c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 25571A9B-10BE-3798-9399-5D39386BD492
++  UUID: 15D061AF-0FCA-3533-9A8A-F90FC7A3035C
+   Functions: 25
+   Symbols:   62
+   CStrings:  14
+Functions:
+~ sub_100001460 : sha256 35014a46bf3b8035f74471ba1a3de0b1db653d8d2eddf83b1fbfccc9a55b94b4 -> 07dd182bafa01eb911d892b487e823611ba61e5d1076cdfd08d680c425d4f5ce
+~ sub_100001494 : sha256 fba9e7e4a8df6a720d5d39381c4297676243b16c6d2af93590ad64918c741a74 -> aed8fc7f03543f2264532541d14b1d8b4958cf27680ce22d4bb44c6ba3ea4393
+~ sub_1000017cc : sha256 8d3117f71fc28e416522f971d99094dab9cb1384aafb74a25d388f6aeb1efe92 -> 03729f96e123593dd18ecd0c0a32e35caa244db63a28fe16ef1878577555769c
+~ sub_100001860 : sha256 0231be32cc8ff344ce1c7539cfac8d38a184c92314eba697319311d35d8f1f74 -> 4a8c9f31a61a8ba344a7c7d92936938939c42cd57c0df352c93fe777f005d590
+~ sub_1000018b8 : sha256 3967cd74ef82c9f9f35ed435101e1ab55375e383652bb3f33f9c8bcc4c6fb283 -> d4324fec81155d5a62fc09deb237c4df1a20ab5a213ed3a8a9fc4847968ddcc2
+~ sub_1000018f0 : sha256 c4ca4309740fd32436757bc9ebb3a14a55fa0296c57dd170d9958b72e79d6ef3 -> 2a8d0bc06b4d47e0a9a1fc2f2431787ca2a547046df23fc094a0e168943651da
+~ sub_100001958 : sha256 380120d3483c27ba11ce55b8ae1e1abf2a7a28a5d1b05eec4d8aa646b9ad45cd -> 066468dda62b4b494f7d71360b39b3086119af806bb4548ee2c66ebbfc6f02ce
+~ sub_1000019d4 : sha256 3dbd7f43bc4f72d6ca15deece025206b4f10254dae2dec3750c914a7907e5b66 -> 389fe75fe52f72f33f97618b191bef4517e73a0bac7e94c62769b6ab0b18ca0a
+~ sub_100001aa8 : 268 -> 264
+~ sub_100002074 -> sub_100002070 : sha256 b2f3822f7d79f801ce30e4c89c5c21a64cecc7df0c4a128a26c0135f9e8f3812 -> ec9fc66bcdba51046a3349846f48714716d7a7ac154e05e5f004785ac2c02410
+
+```

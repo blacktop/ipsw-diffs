@@ -1,0 +1,136 @@
+## CallAudioServiceClient
+
+> `/System/Library/PrivateFrameworks/CallAudioServiceClient.framework/Versions/A/CallAudioServiceClient`
+
+```diff
+
+-2750.1.0.0.0
+-  __TEXT.__text: 0xf3b0 sha256:79f6304f40af1f9557704b4f288393dc96cf8840ead98ba225db1fb4dd4a53bc
+-  __TEXT.__objc_methlist: 0x1260 sha256:545d7b39ccfe7530bae99037080a11df8b3e7547f7d31ce075f9cfc3d83232e3
++2756.0.0.0.0
++  __TEXT.__text: 0xf414 sha256:c54fc57814f9dc38d7a4355cc40906e57cc96eb92b905b0b8ec0d4a5ad878bfa
++  __TEXT.__objc_methlist: 0x1260 sha256:a9ae307cbce3f892205db928144dec171118b65fb5dbf763070dcde656577b33
+   __TEXT.__const: 0x90 sha256:77d943f39a1d18d1fe1817975f991acbce8ae677cc762e3363174b4c58f108a9
+-  __TEXT.__cstring: 0x10c2 sha256:17bf18742d12e360b09d108be4aafc85fa13d732ff91adf30c71763c09ab101e
+-  __TEXT.__gcc_except_tab: 0x1348 sha256:350f8aac2934b925bfe2f02d2aced9e65a8b92f62414a4ef571a89e2240009e8
++  __TEXT.__cstring: 0x11d0 sha256:734e13f30557541996d174e7e1ef60c49ceed840b78687134a954b222c75b287
++  __TEXT.__gcc_except_tab: 0x1344 sha256:6dff916e90ceee79642d4e9c0b1a8e8caa0247e44253f9e948a73e5bf03fdf25
+   __TEXT.__oslogstring: 0x12e2 sha256:e67e1b2187f6330485a0c3e446d3ec4116863efc1b57e49654c8da4cf3b55340
+-  __TEXT.__unwind_info: 0x7f0 sha256:242acebc6fb8830a9a62136f3a796a3007e4407a1da6b8fd05e033990ddad9e6
++  __TEXT.__unwind_info: 0x7f0 sha256:a053c7a898dcf2fd8043ecd0c24733336319390a45574caf1dcbc681628539cc
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1a8 sha256:6a52c738fbfea4f8a13e3b739cc3b7b54531a92e409b089bb109511d36a40970
+-  __DATA_CONST.__objc_classlist: 0x70 sha256:151b1e1cf86f731f1f691b782b9d274b363957138de79aec8fe24b18c91951bf
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:596b308ae1ab328a092d1cef3e6c42d8c91c18efde9aa131d513eee71ae41161
++  __DATA_CONST.__const: 0x238 sha256:f6a1fbebd7d26f6d6cb8ca8c8a2e636b543b07de1a13704dfaa9ef13651f1d57
++  __DATA_CONST.__objc_classlist: 0x70 sha256:8190b3f9acbaef51b35eb83b4797938c47cb797c02926bbb26e9acaae518b117
++  __DATA_CONST.__objc_protolist: 0x20 sha256:ae242d1f76797273977706591b196e5fcb037d216bf91cfe37f52ef2c2d7330d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__weak_got: 0x10 sha256:59722db8d30c54df39763f55dfd35ffb1060a034af2f8d4edc4c3c0ad9e957cb
+-  __DATA_CONST.__objc_selrefs: 0x978 sha256:ab676f2160ebaca2ed81bc0003b49639a7690fb8fdda9e71925cd57fa1fa00cd
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:fdc1cfa39868bd4f38e13d653a5f837b5a60b85b93b80773fddba38e9e7d4887
+-  __DATA_CONST.__objc_superrefs: 0x68 sha256:d41ddc86757b16b138b18d171a25e99cd8494e24e3790c7777b51a01a838cb41
+-  __DATA_CONST.__got: 0x110 sha256:174bef54044f49c265dcabe793c35a1d87690f991d50014a70cb6b27fb7306bb
+-  __AUTH_CONST.__const: 0x330 sha256:4059ae5e630cd2301b9cb97c018ef8110099c88ea55da8a6acbec526be50d080
+-  __AUTH_CONST.__cfstring: 0xd00 sha256:b62fc5fcb7026dbf056c8a1823ab2933e6e4c9589fbd2183f775a8f1f5b97ca9
+-  __AUTH_CONST.__objc_const: 0x1fa0 sha256:1985c37e958cf0b83d608890552ffc3f47a4352eabddf39e2a6d62fbcb8f74a8
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:1d8209500731514a8e483fe47525c5f9f96f6bba84aa104b22463a9434595006
++  __DATA_CONST.__weak_got: 0x10 sha256:a3483de4f45d9b57afaee3421cd5418098f757e708ddf7ddf74790e6657bb6fd
++  __DATA_CONST.__objc_selrefs: 0x978 sha256:e5b24f261a31e0ff658931499de8b1190fc6c4c3ba9a6978a33d750210fa2ed4
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:4207b0f8b54374980ae0632e4cea4063d3bcc250e87961d19e10b4a8c74ee10a
++  __DATA_CONST.__objc_superrefs: 0x68 sha256:24eababd65ecdf3a461b0a1350d8ea0ba0da7466e75b805fca499d18d52211b6
++  __DATA_CONST.__got: 0x110 sha256:299904e7748dd6cfc00109562f0f3e466dbf322651df82b09226eeadd4acf650
++  __AUTH_CONST.__const: 0x330 sha256:04db2f44fb8421b82deca5ab1a6c68a4080cdfb91d5883e45a1c342e51ebb1d4
++  __AUTH_CONST.__cfstring: 0xd00 sha256:6464631db3c9610b541368a4d026d95dc972a425491a2cb396839d9fecbd7249
++  __AUTH_CONST.__objc_const: 0x1fa0 sha256:522e34643f84b4997abd301ad5e33cd5ada478a7814d280d27d2f7f796f55f0d
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:07b32a75be5cd349c75a5752f99a57a42afde016bc7deeb33b333ba1dea860a2
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x460 sha256:496301394f394089513e88137b70f6a20d04458437b481a1db1444cd86d3b7f3
++  __AUTH.__objc_data: 0x460 sha256:b2c567f73dd48bd181d972322ccd265465257115d8b3734e01aa16b4d131960d
+   __DATA.__objc_ivar: 0x198 sha256:5cc26f98757837a20d01cd5e55958d4117a49055445e3b221bcf7057041be73b
+-  __DATA.__data: 0x180 sha256:909282a643cddab88638685f5f4baae9fa8289800428e0e6f5c6a83fc1fdbb83
++  __DATA.__data: 0x180 sha256:30ddeb7d18892baf1e4285904651aae7f73dbb308c78ad073f82c08d14912172
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4D6F3D1E-DE30-348C-BADA-DECE6E3FAD06
+-  Functions: 406
+-  Symbols:   1107
+-  CStrings:  405
++  UUID: 9A40330D-97B5-3FE0-B69F-97C33EFAC5AC
++  Functions: 410
++  Symbols:   1111
++  CStrings:  427
+ 
+Symbols:
++ __ZN3ims8asStringENS_11DeviceEvent9EventTypeE
++ __ZN3ims8asStringENS_13FlowDirectionE
++ __ZN3ims8asStringENS_15SipVerstatLevelE
++ __ZN3ims8asStringENS_16RegFailureReasonE
++ __ZN3ims8asStringENS_25RegistrationIdentityStateE
++ __ZN3ims8asStringENS_9MediaTypeE
++ __ZNSt12length_errorC1B9sqe220106EPKc
++ __ZNSt12out_of_rangeC1B9sqe220106EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9sqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB9sqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9sqe220106Em
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9sqe220106ILi0EEEPKc
++ __ZNSt3__116__if_likely_elseB9sqe220106IZNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEE12emplace_backIJS7_EEERS7_DpOT_EUlvE_ZNSA_IJS7_EEESB_SE_EUlvE0_EEvbT_T0_
++ __ZNSt3__119__allocate_at_leastB9sqe220106INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9sqe220106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9sqe220106EPKc
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9sqe220106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9sqe220106Ev
++ __ZNSt3__1eqB9sqe220106IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
++ __ZSt28__throw_bad_array_new_lengthB9sqe220106v
+- GCC_except_table13
+- __ZN3ims11DeviceEvent12nameForEventENS0_9EventTypeE
+- __ZN3ims28RegistrationIdentityStateStrERKNS_25RegistrationIdentityStateE
+- __ZNSt12length_errorC1B9sqe220100EPKc
+- __ZNSt12out_of_rangeC1B9sqe220100EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9sqe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB9sqe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9sqe220100Em
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9sqe220100ILi0EEEPKc
+- __ZNSt3__116__if_likely_elseB9sqe220100IZNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEE12emplace_backIJS7_EEERS7_DpOT_EUlvE_ZNSA_IJS7_EEESB_SE_EUlvE0_EEvbT_T0_
+- __ZNSt3__119__allocate_at_leastB9sqe220100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
+- __ZNSt3__120__throw_length_errorB9sqe220100EPKc
+- __ZNSt3__120__throw_out_of_rangeB9sqe220100EPKc
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9sqe220100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9sqe220100Ev
+- __ZNSt3__1eqB9sqe220100IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EEPKS6_
+- __ZSt28__throw_bad_array_new_lengthB9sqe220100v
+CStrings:
++ "Audio"
++ "Authentication Failed"
++ "Bidirectional"
++ "Call Failure"
++ "Disabled"
++ "DisabledCountry"
++ "Fail"
++ "Limited Access"
++ "Media Request Timed Out"
++ "None"
++ "Normal"
++ "One-way"
++ "Other"
++ "Pass"
++ "Provisioning expired"
++ "Proxy Redirect"
++ "Push URL expired"
++ "Registration Expired"
++ "Service Unavailable"
++ "Sip Error"
++ "Text"
++ "Video"
+
+```

@@ -1,0 +1,91 @@
+## PerlObjCBridge.bundle
+
+> `/System/Library/Perl/Extras/5.34/darwin-thread-multi-2level/auto/PerlObjCBridge/PerlObjCBridge.bundle`
+
+```diff
+
+ 85.0.0.0.0
+-  __TEXT.__text: 0x42f4 sha256:a564414f3a60be971267d1df95b2ba24310c8d1408a0af31213055e9577f6144
+-  __TEXT.__auth_stubs: 0x490 sha256:099ff3faa23f16cc010145e0cb333c02b24e328ac472c0c1c8a2bd14fdaeebc3
++  __TEXT.__text: 0x429c sha256:0426cbbd01b12f9c8683d599f4ad411e468871e60aa1923cc6e1fd95a2eb7276
++  __TEXT.__auth_stubs: 0x490 sha256:7db7d89ec6dd4ae896a8a5c91c6a922dcc08e77d0bef489f21d2e680266481ff
+   __TEXT.__objc_stubs: 0x460 sha256:06746b1d3c954c9307a608fcd7f13c46629f5500e356aa9b6febb8d5ec95501b
+-  __TEXT.__objc_methlist: 0x68 sha256:f8b7fea999271c87e0504a129cc47ff65aa0b855f0fb1dac04d8821a63578cfa
+-  __TEXT.__gcc_except_tab: 0x1bc sha256:c51907776ef99ef361e3ea21c7a4ab20e4c33873d12bced3aa707a07668d46c7
++  __TEXT.__objc_methlist: 0x68 sha256:a749b3317360efb16c69aeca4a0b0c14eb911c5a5139ca51e65f839c505a8058
++  __TEXT.__gcc_except_tab: 0x1bc sha256:6f767249d10fabc48d8ab5ac7380c22ed05ec9b0fad497b912b5971b609157a9
+   __TEXT.__objc_methname: 0x2b9 sha256:77a005563fad56a3b9192dca92bc258c7aef7df1106dd1b19bf60ef24b867967
+   __TEXT.__cstring: 0x202e sha256:af18a8ac1ca122657f18f8e6416fe0220d27d0265efd34ce7286d601f94fe921
+   __TEXT.__objc_classname: 0xa sha256:ec989ea64c11bccce97277702d6dcf86463350d8385c704578784eab1c9fd579
+   __TEXT.__objc_methtype: 0xdd sha256:46ed71a55db82098e16e921cf7e740dbcb89a047d1c8cd93cf95a0fad33e47cd
+-  __TEXT.__unwind_info: 0xf8 sha256:4015dd8b798b66cef3002595124aaf101ef0b686f2a9e2158429450b18085520
+-  __DATA_CONST.__cfstring: 0x6c0 sha256:ae3ec2517dec56821d7c6bfb0d2da4dec3ea149c63a84a16073e9d1373709dad
++  __TEXT.__unwind_info: 0xf0 sha256:aba94609f0585094e1e25ac4cd082fee7f5a1c637234084eb3bc37f0b87c6cf8
++  __DATA_CONST.__cfstring: 0x6c0 sha256:4c9a8920f00bc0eb76eb9ad132717b9c78699a8ae41c93ee3c791520642cca24
+   __DATA_CONST.__objc_classlist: 0x8 sha256:94e174ee693ec38228b23f84e99fbd9904447a9db811122d5365a6a7a56b9afb
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__objc_superrefs: 0x8 sha256:d1bd8875d77285665fefc3ea90d3dea8766e1a9846c79fbca2f5c4937c48b456
+   __DATA_CONST.__auth_got: 0x258 sha256:612da51c7bd56d4c33417a0719b6eeb0eac867bef243e327cca466700fedab87
+   __DATA_CONST.__got: 0x58 sha256:e15c0cd5ab9cf5b836c77518a9340087e2e13460034bb6fd560674eb0b56d991
+-  __DATA.__objc_const: 0xf8 sha256:f62dbe81a32ef0e829f41f77638fe7d770368564a50b9c97bf9cda528de5608c
+-  __DATA.__objc_selrefs: 0x140 sha256:d701ab8decbc993e55c82dcd70a4bc15e5e6cd4d8483544eb15d755f221d3df4
++  __DATA.__objc_const: 0xf8 sha256:45387f96e386e991c3bb63312b4e18806063724baa48f8ff028f9cddef2b1351
++  __DATA.__objc_selrefs: 0x140 sha256:239d9849bfd87d21d59f6b7358a15e965580cb9f06fafd62e8c56b9cc09560a6
+   __DATA.__objc_ivar: 0xc sha256:2e5c9862856b0c6f8e0cea23282dc6a269bad2a2cc34aa0668a8eeae66326835
+   __DATA.__objc_data: 0x50 sha256:f6d1bab5b506c000caa41d36ca79c72f93f1320b87054798955c68cb9b0c08ad
+   __DATA.__bss: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 46EC750F-1F34-36B0-9336-B584A6BB72F5
++  UUID: 61C44006-AFAB-3843-A019-25DD52748289
+   Functions: 44
+   Symbols:   200
+   CStrings:  245
+Functions:
+~ -[PerlProxy initWithPerlObject:andPackage:] : sha256 ac6f89f62f2eec38e9cb5151c9e817564f0eddaad10c4610616219fff0a24d80 -> fe7c319989a11b3afcac4da087e6975cd7ddeb89afcb5a5f99c4c28a5089da68
+~ _getClassFromName : 436 -> 424
+~ -[PerlProxy dealloc] : sha256 1dec063bbc3a90894cdae12504cf273790205fd6fb68004650bb2bfcd2f62e4a -> ebec65f1acfc0a80c5b0f58df46440847b198e9a67a96992a4ae202eb1ecacad
+~ -[PerlProxy methodSignatureForSelector:] : sha256 b485503ecc1f9a40629c109ee725d4c4e1a91e4edcf11acfd438f472baa7b120 -> 0639fe970f736ec6dd782d010e50cbe32378b8cc690730088f2280fc23f79f65
+~ -[PerlProxy _respondsToSelector:] : sha256 ecaa1676a8d4539b3318e06f4f0d1b559071116cb619a7287c2ac3b07b697cfa -> 63e8b405911b3c9847f90ea6bd1be3209541a84104ede37e03ca00c30c28d5ab
+~ _convertObjCSelectorToPerlMethodName : sha256 cf332f94e5c4191536818d5751fd801a9f2fe942f9af5af3045fca6016b0cc40 -> c8f67eff29a4e1e7a52a4b27af176ecd384be95d53af05184b5cac442585b4a9
+~ -[PerlProxy respondsToSelector:] : sha256 1ad10222779bfb80c25fc9c4d10259af002bee2bb5d93bf2e039e956e68e4b48 -> e8f5e43b65ba33fa6b372663ced5b746237e0621f32fcc42519183904459e952
+~ -[PerlProxy _forwardInvocation:] : sha256 d8c0f89970e05d645521c10a164180d1d325478642adff3dcb711aa3cc6c1a32 -> 1fbebf2f1aa30402be5f89eb887d71e2ecdee3eba0dc5c14828537398e4b00b2
+~ _convertObjCToPerl : sha256 5df758021912ae088c3dd7b217f40661530178b5382150cb4453996f2ceb46c5 -> 1213c2cd87ca42cbe3550ab226d085268fab96d2cdbed9a82b0aaa5a933efc1b
+~ _convertPerlToObjC : 2532 -> 2560
+~ -[PerlProxy forwardInvocation:] : sha256 a1ba1413902424f2b2dd9a675fff309cca761a5adeb8ae0598c9493421d6742e -> ef3aafdd59038faeebf9b29edec2f03b109157e71c12d909cc68ba7f7b297c63
+~ _boot_PerlObjCBridge : sha256 ea1a89af7e6f2926aecb85238f84258acd52fa8bf19616c50fba1ad83d1ea3a4 -> 3db8d970064e1f1ad5127c83bd8b580261b2e31cde5d7e2b35c1dab74270a858
+~ _XS_PerlObjCBridge_setBridgeTracing : sha256 b5e6003c47e637c4f5ba11b1900ca5342b79e39a8e30118fbc2a4952b2599fb4 -> 9cfa709908cec3925cc39cbd7ef4b69a53d6d6b639c5d70c1574fe0b656d2658
+~ _XS_PerlObjCBridge_sendObjcMessage : 3484 -> 3368
+~ _XS_PerlObjCBridge_releaseObjectiveCObject : 376 -> 380
+~ _XS_PerlObjCBridge_releaseStruct : 292 -> 296
+~ _XS_PerlObjCBridge_releaseProxyForPerlObject : sha256 f055be9d77a5c268184ad4551093650b6b94f23c7e0d95d2ee2c61c69247b6a6 -> f794653d77a620c1d9371f68cd396dfad4a189b8c14420ce2e46071d595aed93
+~ _XS_PerlObjCBridge_preloadSelectors : sha256 98597021d8cf81425bff980457d0873a31740d892d34724bd1496e2fde8dce78 -> d9a1749c4c00f395a38f1ec3f08f2eb887dd30af41b13d57a91ee7a88453214d
+~ _XS_PerlObjCBridge_dumpPerlRefCount : 224 -> 228
+~ _addSelectorToCache : sha256 a6a0c77857381093f4a3f7b6fcfc23fceb6312238650d6171b3d0715824fa5c9 -> 0f698125efe8516d9d870782c11029ce77815ca9a655caa5fe0f7ed7648920cc
+~ __uniqueString : sha256 1180b804b0bf470ad47ca67ee12fedf751456a199967e6d2bf9a180182e16ca2 -> faf68bc23714ab5f518fcd1f0b20df629f578c9d4ecacdb188f9e1321f97ed1f
+~ _pocb_bless : sha256 932c2e4b47346f882a3d66a26026f4ffea5be0b4d741cfe53d5efcb8ec283c87 -> bcea69e2781cc2a14346b3dc374f686376b69fdbac5ba0b2a9ed28e95815c196
+~ _convertResult : sha256 b784e62bfa468b163953673dc1f98d135977b66d41ff77699a7dd24a526361cc -> c81e260d16bea2eb1f98b359f34978cd85a3cf7f1c6734e7b6d16fe1a09d70eb
+~ _OUTLINED_FUNCTION_0 : sha256 694d64f7fcc6ac4016a2522cc205579cafae1168a95fabd8e0d0cac69315b112 -> 772f0be085994875474f8f2c5c1f03069f62b9c9c43e8c55316f2915a0717b86
+~ _OUTLINED_FUNCTION_1 : sha256 0ba61a1576ee3299025ea16d210cb6059ab8aa6753fb6005af994a137039dbe6 -> 10d778bcd26809d7f2efc5f645cf4691cb956a892e1646f06ed6ea0fe1da6eed
+~ -[PerlProxy _forwardInvocation:].cold.1 : sha256 a5c2fd4a318e3d135892dd8c293d6b36582d340b20f968806989dcc5b2fe2cf6 -> d51402467c91cb0ab2b2bc737ee7d0dc89abd0712696e450e69b6b3b85a5c3cc
+~ convertObjCToPerl.cold.1 : sha256 4502ba02f2e4e50537ab27e96237d78edd6201340bed2ddfe36eba1dff520ab8 -> 1379537045328f99cd1dcab48b633abaf5084a00a6b5ff04737911921be49007
+~ convertObjCToPerl.cold.2 : sha256 1af6a9c6d1836f54e1adabaa5b944f7d6e505cbda3e275d6825901b4f85a07ce -> ef34312a4418c6bd1feeddf423f46a33ed3bc7b6633d830d00ed0cd4e702fdd9
+~ convertPerlToObjC.cold.1 : sha256 9cd03a6b31fa21c4612e7c9854eaf5d649678765519eddb2eeefafb5c57f7381 -> 8c606e451a94441f17fd5b2cd5d0188aff104275cc4881aa5683cfa9ee736c94
+~ convertPerlToObjC.cold.2 : sha256 f5e6986d7d2925fa1423eade3f13e58674e5fba31a0be51d1d37109369288aa5 -> cb346578b24c47d5ad9e222f8a936e88e87880a97d2f7b33a30acb779db00eef
+~ boot_PerlObjCBridge.cold.1 : sha256 94df257d4748f25a085b1fcfa0002032cab73b8f4bd73b24c989cb2d2a6909b8 -> 7740e613cf8793d3b1846f64927e157ec4a9e07cb36837ed5d7ad93606109fa9
+~ boot_PerlObjCBridge.cold.2 : sha256 fc79e9f71d693a9daa512847019b3243b68aeea40889357e99f2b9da938902cd -> aae36c2179ee6e73c566dd15e09395b0f6c935c2b36c7e8f2e3fba99e100c196
+~ boot_PerlObjCBridge.cold.3 : sha256 5d4077f00e79c1545bbd0f93413d3ddf14c031d6ba83fe822a96225ba0d0cbf0 -> 160badeeea79c485a377d59bfdf727de2a8d21061f0d6090d682edb199cea58b
+~ boot_PerlObjCBridge.cold.4 : sha256 5fed468f8080ba2ea9c63cdd9e16fc82b2d4ec1322af09effc6f1f930c378c3f -> f4135c97879bb71e1faed87890f211f3531a3205ba02f7e46f1627d04b69a75d
+~ boot_PerlObjCBridge.cold.5 : sha256 d34287090127d3b60cedfa58e129fe360ce6447520f302f27ca086d6261c45d5 -> e8bb4cc307c5b4492f8910a4d4c005dba9534ab4cf87c998fc18771f4716dd57
+~ boot_PerlObjCBridge.cold.6 : sha256 205a416167a736c0571ec7d0ce5d230557b3278c802a9ec0964e045ad6b6ff4a -> 5185211aca5b78d5befaf929831b47089e422a511556e0a69ab42d3eb96c6fbb
+~ boot_PerlObjCBridge.cold.7 : sha256 274163ab8b3e07baa33487b28d918c257cae34f8bb001f85c5cafba3946e1af5 -> da6fa6987d98bbe57fa45621b0ee3b02d3dc6b86920fd0b73e5f64bb4e208192
+~ boot_PerlObjCBridge.cold.8 : sha256 724359e0bd21ce05aa01dcbdfbc278d43d116f240dd0d942ad38ebf2ad2ba767 -> 01e415181750b2f74d98ac106dd49386866a4e49292af8259781e22637b4edc8
+~ boot_PerlObjCBridge.cold.9 : sha256 4e512a422ca419a3122d27a8fbf562acdda263aad4cee8d9bce4ecae5069ad48 -> 1d34232e7a122b24bdaa4de9ccb973c46981d9bb913360769b4ac5c6d4def8a8
+~ XS_PerlObjCBridge_sendObjcMessage.cold.1 : sha256 05cc00a846e2eb0b77ac6fbab7d892dde0176c6154fa733e815380cbc72864eb -> 5d4e5bede884695a15ef3f76014252ffac0937444217ce421d63a3f0f4c03b7a
+~ _uniqueString.cold.1 : sha256 87bfeeddf222097f564e084e79abf3e2af6f26d0a1e644930004de432d14011b -> d8961d75aa6816bd33cde7faf7f268a343d822158fec079e6bbd2cd7c48f5658
+~ _uniqueString.cold.2 : sha256 c4c989bbf2999c71f2a6ead0094f686adfb6303e756f2319566789eb1f260705 -> 52e1008988b937fd07b472f47b4b037728e46f034ab12f2ac4dfd07acf542de9
+~ convertResult.cold.1 : sha256 4f6d7ee138eada9462de248cb9e88490cb6ae7587d01f422d3a1c2190108fa3b -> 4d966179b1c90d654b54df8b47d4837c6e3ba4232b6e36ef3b74c4692bd0b2ff
+
+```

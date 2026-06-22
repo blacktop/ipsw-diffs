@@ -1,0 +1,241 @@
+## ProximityReader
+
+> `/System/iOSSupport/System/Library/Frameworks/ProximityReader.framework/Versions/A/ProximityReader`
+
+```diff
+
+-150.26.1.0.0
+-  __TEXT.__text: 0x9e404 sha256:6ba59a4b92dffc5f50c90786bad8b73f93ee92e238c08f683bbcca7bdd9839b5
+-  __TEXT.__objc_methlist: 0x2d0 sha256:070f4f03b0b14385decf9611fe12ef6973a829aad69d619c0fa35acd8cd1b639
+-  __TEXT.__const: 0x6c10 sha256:87b9c21378eb7ebdbf6944bdda6fd176533775395b09bc9a2faf27ef0328205f
+-  __TEXT.__cstring: 0x33a7 sha256:509eb2ae85145a3dc26ad151774a084736900231f0dbc036cdc6a9ae081bd7c5
+-  __TEXT.__swift5_typeref: 0x1792 sha256:1901a46df620133f170aa7e4f583ace6e5dfe0061415632b586f91571c17adb8
+-  __TEXT.__swift5_reflstr: 0x2cd4 sha256:cf5af29aaef60d4b3cc45e4e612c088b4f5d040512d142e09f82e8089a7bc75c
+-  __TEXT.__swift5_assocty: 0x270 sha256:dd0ec02cff3bc9fa85762f4a472754a9d4441e0f92bad2dd9e968d93a308b0f6
+-  __TEXT.__constg_swiftt: 0x1ed4 sha256:d3500345c8b8b69e903560a10fa4e0beade066eb98fa7ae229c4425680419897
+-  __TEXT.__swift5_fieldmd: 0x2874 sha256:af61a720371ca474e0694d0f07f7b8feef647c17c826014a79cb9eac0c829086
+-  __TEXT.__swift5_proto: 0x434 sha256:b6adbaf1db1f555d5246f9ffaa235e74740c31d7146120bc1a085760cd9d142e
+-  __TEXT.__swift5_types: 0x27c sha256:4c8fafaab5070792434d895fd35781b33d5260a111a2c21a4d8ce8470a713069
+-  __TEXT.__swift5_capture: 0x874 sha256:e59a19abd448acf3b0d1853344dbff50fe0a1f5c0f1ee7de3414bbdcbc6cd192
+-  __TEXT.__oslogstring: 0x1bb8 sha256:eff844ebe1288a9ba84344a58b88e5bfe77a85a7821d4b62a39472cf9aa0c217
+-  __TEXT.__swift5_builtin: 0x78 sha256:88b1910e0051659ed4a69322f33e6e5891996596b3d93db6de34e56ac315aedb
+-  __TEXT.__swift_as_entry: 0x228 sha256:570fe90c941c10b94d5817e9acae2ab3c15bea6016178206f76e8f178ceabfee
+-  __TEXT.__swift_as_ret: 0x1fc sha256:9f352995e6521b18723e6dd68afdcfab9d43a16e9ebe6bbb2ee3483cfb9eb5a7
+-  __TEXT.__swift_as_cont: 0x460 sha256:f7fb52ba87fd01963c0de94309a13fc66c538a666455669783adc5194d078a22
+-  __TEXT.__swift5_mpenum: 0x18 sha256:1d2d8a11f954ae63a382188798c282e5a65583207a08a8ed51f1c45de3cda40e
+-  __TEXT.__swift5_protos: 0x24 sha256:81ac704a1cfb1eb6ee15a5a4501eb9ab53e478ab91d3a878a09468e7bc1c1813
+-  __TEXT.__unwind_info: 0x2b80 sha256:e8c41bbdb4d1d5181521b7ed0f8dd9a4a7774da4c4bea52a9b0f7b9fbd00453e
+-  __TEXT.__eh_frame: 0x4c80 sha256:a1ad3d451707932d3bbb473119601e1c71c8ee41ab20e925718f3de8c809d838
++150.28.1.0.0
++  __TEXT.__text: 0x9f9b8 sha256:c456579e8e6eab370592e876f8ad83a9ee2d370821ea08527825bfbb9b56deaa
++  __TEXT.__objc_methlist: 0x2d0 sha256:0a1b379ddd74aed743fa54acdfb833df3e7e9f18b4857b7df8b8a65b694305e2
++  __TEXT.__const: 0x6ce0 sha256:ee11b867896511a5f2617deea8b7f59d1fbf74c63037d49d24a6cdf28de98dc4
++  __TEXT.__cstring: 0x33a7 sha256:d9a93e7e6d07eda490139e7269cc96be18e6de4d9e99e1c6f38a300271614c98
++  __TEXT.__swift5_typeref: 0x17c4 sha256:e565b2babb72de7e332bb7643b88dd82ad4f30759333807dfc8fa23f86f45a00
++  __TEXT.__swift5_reflstr: 0x2d44 sha256:de3f8328829e90f9888dbc9626a0e7444c2dfe4ade673b6ddaa91717a7dbf8bf
++  __TEXT.__swift5_assocty: 0x288 sha256:8f6f64a202ec4ae7fb5f5475175176c3afa106d2dde0b86d8601ffeaa6dc3090
++  __TEXT.__constg_swiftt: 0x1ee4 sha256:fa09cd8e79305a3af32f457d30014d1448d69c6c7b89114f38b35100321126dc
++  __TEXT.__swift5_fieldmd: 0x2888 sha256:8224d64d31b98b562fbdd8173bbcf4912f3c6fc6ad8a8724e8462088493db256
++  __TEXT.__swift5_proto: 0x43c sha256:71b8cea7f9c45dd6e06abac750f2c2d7fe49a0cb922954b0cfb65ff2f055b553
++  __TEXT.__swift5_types: 0x274 sha256:128bc2c4be2a9b5b3b14120ea75af684740c91b06a757c9b51d821211a4cb66e
++  __TEXT.__swift5_capture: 0x8dc sha256:79479095c5443ce2802dc014eea242202064dff75caabe07a4f37c7eaa2026dc
++  __TEXT.__oslogstring: 0x1bf8 sha256:2567cae32031e0a8e69ee9f7174d3a87ae5ce0a4306df35f6576698dded122df
++  __TEXT.__swift5_builtin: 0x78 sha256:d671ce56a544f42d31fc324745656355c9e331b52cfb8eb0bd76b20f86368a32
++  __TEXT.__swift_as_entry: 0x238 sha256:30d07cd96c1d37e6313ce51685f8317c035d5d2769ec321bbc4f771afafda516
++  __TEXT.__swift_as_ret: 0x200 sha256:ba20a867b4a872d795008025814259c0d2dc5f3a70db7b4c5c05e50c7ff6c623
++  __TEXT.__swift_as_cont: 0x490 sha256:f79f17a8470dae21e4fc7dd6c41ffb864eed8b192d0176680b382f8f502e5552
++  __TEXT.__swift5_mpenum: 0x18 sha256:c840885c41a00cf4080ffbcffa7d35af6f03c1e8c3e615e44300ac57c139e64b
++  __TEXT.__swift5_protos: 0x24 sha256:250c8bf014fd45b6820ed02f9ce652ee4ec898da5d44a27d4f6c138310c68e49
++  __TEXT.__unwind_info: 0x2be0 sha256:a32ad9793f4c5658396e3ce7038f45e8c6936fca2e26e9703429ff4dfd7746c4
++  __TEXT.__eh_frame: 0x4d10 sha256:9f976812c8e345c7c87093b5990725cf65a67658f7d7eaf3e283a64844fc9db0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1d0 sha256:66514ec60c3ddcd137ef36df12fbcef510a074ca495d5cf28b72ac702ea5c133
+-  __DATA_CONST.__objc_classlist: 0xb8 sha256:cf04a465882df688040b0fc08b22fe339fd42b42a59b951258bdfd3b9a6f8d0d
+-  __DATA_CONST.__objc_protolist: 0x38 sha256:3f63ee1e9c40ea2b9e6faa3230ed11fb59edac3e68124aeeb88a7a096b9e4856
++  __DATA_CONST.__const: 0x1d0 sha256:c430ecfaf68498f85f2ddee572a60745f05af0081a4d218d4b8bec41e6c0a6ac
++  __DATA_CONST.__objc_classlist: 0xb8 sha256:0f53d6e4084e7b429fabceef91832bea9b0d1d74de6bb0379afd05c0b876d38a
++  __DATA_CONST.__objc_protolist: 0x38 sha256:c34f6678710174571ac7d04ce71684550940704772a4ce697400467120cb5446
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x320 sha256:cd99811f9fba705ce3007400dfe855d989a9f04a26f38952020187e25b6dbcc5
+-  __DATA_CONST.__objc_protorefs: 0x38 sha256:c3bca03c616ca6a291c68f06233d4429cdcc44df68a1be7f74bed7ee72610518
+-  __DATA_CONST.__got: 0x798 sha256:ea3b04469cb7baf55f35e290691135f23790af13427f1e927be9853dfd8ff620
+-  __AUTH_CONST.__const: 0x4ef8 sha256:a6d278a8e6788b70e91cf657e366e5c780e2c9825d84aa23279af24d559e098a
+-  __AUTH_CONST.__cfstring: 0x5a0 sha256:8cee5136ab9d19bb86347f8d8cbc90f611a67a446b74c0ca9150fb89c3eaf6db
+-  __AUTH_CONST.__objc_const: 0x16a8 sha256:cd37bfa5d2acf1afdaf5c7cbceeb68b0df2229f89d8e533087d0293721c21731
+-  __AUTH_CONST.__auth_got: 0x1248 sha256:8e2bd3192e1592ceb531972422295469f12428bcd0ab3283c1806d0f2cd1a9c6
+-  __AUTH.__objc_data: 0x2d0 sha256:b2b909265b33960f807416165edded9434316130080053fb5e012708513acd84
+-  __AUTH.__data: 0x2fa0 sha256:9cc099c48c03d51d2c512632d86f30f52b5fe1ebcbb180e497c801b99ebcd9d2
+-  __DATA.__data: 0xd00 sha256:6bb4877dfebc6d4f819999f0f8b65d06aa540746bc63b7c1261282636efcaa15
+-  __DATA.__bss: 0x9870 sha256:8fa7ed30a37819a42caada0023aaa7b4bc47e6c87bbc4f08f059fcbf9ab00818
++  __DATA_CONST.__objc_selrefs: 0x320 sha256:1b40a73e7e0230ffeed6e078b9ba4106175176b72b45651f0eff7814a14f05e4
++  __DATA_CONST.__objc_protorefs: 0x38 sha256:dd9842a6e37b03dd324b935d627c762c17e0459b744282af23947161cc17e8be
++  __DATA_CONST.__got: 0x7a8 sha256:76f4245b17e445f6623397cc9379de8e06b377edb420313be98120dc7e36e799
++  __AUTH_CONST.__const: 0x4fd8 sha256:998c4fb2561839d5b25ec6aa64d14732c8576c2aa61af6f9d90da3c1d06f7b19
++  __AUTH_CONST.__cfstring: 0x5a0 sha256:e20b5d5da24a72b93b9cccb51043f12832ee254dbf82aeb3f439c9f484220757
++  __AUTH_CONST.__objc_const: 0x1708 sha256:906e657f0b8ce65c6fc853bce430cfb1c20c503560737fbe448f9fb515d156e5
++  __AUTH_CONST.__auth_got: 0x1288 sha256:c8d75900dee037810a1bf3174905ef42c05ac84e94b4cb1247cb85025302066f
++  __AUTH.__objc_data: 0x2d0 sha256:d183a9973958a517cff443123b21da5e0f56d1c7f1914fb6788d51969ba10f92
++  __AUTH.__data: 0x2f70 sha256:3b60d8a0a74a7d24742a9c5ace6de49aebfaf5675b708c1cf79a2f1083513113
++  __DATA.__data: 0xd10 sha256:38dc5f7170e9ff9d8e6ed1f8b5b595e0d0d4c96474d5ef3e63bb8a64d8ffd33b
++  __DATA.__bss: 0x9960 sha256:1ea9c82816f2a4b5bf9d331d9d3e557cb55d0bec0b4da0df344ab9d94121c4cd
+   __DATA.__common: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:cb95e80d83ee2b328ac0e1c28776cc4c7c27abaac9a5ace6012a610aac866115
++  __DATA_DIRTY.__objc_data: 0x50 sha256:6bf9d5513a3e97bd45514adff9b0a4c528f11cc170c576ba7a3700274a4cfcdb
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3D8F64D5-21FD-36E7-A9D0-C2E7A0CE5CFF
+-  Functions: 3545
+-  Symbols:   1339
+-  CStrings:  516
++  UUID: 0247FC73-808D-3E7A-A163-506EF92529E8
++  Functions: 3560
++  Symbols:   1354
++  CStrings:  517
+ 
+Symbols:
++ _PROTOCOLS__TtC15ProximityReader25EngagementSessionDelegate.79
++ __DATA__TtC15ProximityReader22EngagementRequestQueue
++ __IVARS__TtC15ProximityReader22EngagementRequestQueue
++ __METACLASS_DATA__TtC15ProximityReader22EngagementRequestQueue
++ __PROTOCOL_INSTANCE_METHODS__TtP19ProximityReaderCore34EngagementMerchantServiceInterface_
++ __PROTOCOL_METHOD_TYPES__TtP19ProximityReaderCore34EngagementMerchantServiceInterface_
++ __PROTOCOL__TtP19ProximityReaderCore34EngagementMerchantServiceInterface_
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_deallocate_boxed_opaque_existential_0
++ __swift_closure_destructor.109
++ __swift_closure_destructor.114
++ __swift_closure_destructor.120
++ __swift_closure_destructor.124
++ __swift_closure_destructor.128
++ __swift_closure_destructor.137
++ __swift_closure_destructor.145
++ __swift_closure_destructor.15
++ __swift_closure_destructor.154
++ __swift_closure_destructor.15Tm
++ __swift_closure_destructor.160
++ __swift_closure_destructor.164
++ __swift_closure_destructor.169
++ __swift_closure_destructor.188
++ __swift_closure_destructor.193
++ __swift_closure_destructor.197
++ __swift_closure_destructor.20
++ __swift_closure_destructor.29
++ __swift_closure_destructor.33
++ __swift_closure_destructor.38
++ __swift_closure_destructor.38Tm
++ __swift_closure_destructor.42
++ __swift_closure_destructor.98Tm
++ _associated conformance 15ProximityReader22EngagementRequestQueueC5Entry33_C401A88382FB15EBB6F6EE2C02F53DA9LLVs12IdentifiableAA2IDsAGP_SH
++ _associated conformance 15ProximityReader22EngagementRequestQueueC9BusyErrorOSHAASQ
++ _flat unique 19ProximityReaderCore34EngagementMerchantServiceInterface_p
++ _swift_task_future_wait_throwing
++ _swift_task_immediate
++ _swift_task_isCancelledWithFlags
++ _swift_task_isCurrentExecutorWithFlags
++ _symbolic B0
++ _symbolic IegH_
++ _symbolic Say_____G 15ProximityReader22EngagementRequestQueueC5Entry33_C401A88382FB15EBB6F6EE2C02F53DA9LLV
++ _symbolic ScSyytG
++ _symbolic ScTyyp______pG s5ErrorP
++ _symbolic ScTyyt______pGSg s5ErrorP
++ _symbolic _____ 15ProximityReader22EngagementRequestQueueC
++ _symbolic _____ 15ProximityReader22EngagementRequestQueueC5Entry33_C401A88382FB15EBB6F6EE2C02F53DA9LLV
++ _symbolic _____ 15ProximityReader22EngagementRequestQueueC9BusyErrorO
++ _symbolic _____Sg 15ProximityReader22EngagementRequestQueueC5Entry33_C401A88382FB15EBB6F6EE2C02F53DA9LLV
++ _symbolic ______p 19ProximityReaderCore34EngagementMerchantServiceInterfaceP
++ _symbolic ______pScCySS______pGIeggn_ 19ProximityReaderCore34EngagementMerchantServiceInterfaceP s5ErrorP
++ _symbolic ______pScCy___________pGIeggn_ 19ProximityReaderCore34EngagementMerchantServiceInterfaceP AA0dE7MessageO s5ErrorP
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 15ProximityReader22EngagementRequestQueueC5Entry33_C401A88382FB15EBB6F6EE2C02F53DA9LLV
++ _symbolic _____y______pG 19ProximityReaderCore30UncheckedSendableXPCConnectionV AA34EngagementMerchantServiceInterfaceP
++ _symbolic _____yyt_G ScS12ContinuationV
++ _symbolic _____yyt_G ScS8IteratorV
++ _symbolic _____yyt__G ScS12ContinuationV11YieldResultO
++ _symbolic _____yyt__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic x______pIegHrzo_ s5ErrorP
++ block_copy_helper.100
++ block_copy_helper.116
++ block_copy_helper.139
++ block_copy_helper.156
++ block_descriptor.102
++ block_descriptor.118
++ block_descriptor.141
++ block_descriptor.158
++ block_destroy_helper.101
++ block_destroy_helper.117
++ block_destroy_helper.140
++ block_destroy_helper.157
+- _PROTOCOLS__TtC15ProximityReader25EngagementSessionDelegate.68
+- __DATA__TtC15ProximityReader20AsyncReentranceGuard
+- __IVARS__TtC15ProximityReader20AsyncReentranceGuard
+- __METACLASS_DATA__TtC15ProximityReader20AsyncReentranceGuard
+- __PROTOCOL_INSTANCE_METHODS__TtP19ProximityReaderCore26EngagementServiceInterface_
+- __PROTOCOL_METHOD_TYPES__TtP19ProximityReaderCore26EngagementServiceInterface_
+- __PROTOCOL__TtP19ProximityReaderCore26EngagementServiceInterface_
+- __swift_closure_destructor.111Tm
+- __swift_closure_destructor.115
+- __swift_closure_destructor.121
+- __swift_closure_destructor.121Tm
+- __swift_closure_destructor.130
+- __swift_closure_destructor.133
+- __swift_closure_destructor.138
+- __swift_closure_destructor.144
+- __swift_closure_destructor.153
+- __swift_closure_destructor.159
+- __swift_closure_destructor.163
+- __swift_closure_destructor.178
+- __swift_closure_destructor.187
+- __swift_closure_destructor.25
+- __swift_closure_destructor.30Tm
+- __swift_closure_destructor.75
+- __swift_closure_destructor.88
+- __swift_closure_destructor.96
+- _associated conformance 15ProximityReader20AsyncReentranceGuardC12AcquireErrorOSHAASQ
+- _flat unique 19ProximityReaderCore26EngagementServiceInterface_p
+- _swift_retain_x9
+- _symbolic Say_____G 15ProximityReader20AsyncReentranceGuardC6Waiter33_308C398B816FB7F0DA81C86847BE8FDBLLV
+- _symbolic ScCy___________pG 10Foundation4UUIDV s5ErrorP
+- _symbolic ScTyyt_____G s5NeverO
+- _symbolic ScTyyt_____GSg s5NeverO
+- _symbolic _____ 15ProximityReader20AsyncReentranceGuardC
+- _symbolic _____ 15ProximityReader20AsyncReentranceGuardC12AcquireErrorO
+- _symbolic _____ 15ProximityReader20AsyncReentranceGuardC5State33_308C398B816FB7F0DA81C86847BE8FDBLLV
+- _symbolic _____ 15ProximityReader20AsyncReentranceGuardC6Waiter33_308C398B816FB7F0DA81C86847BE8FDBLLV
+- _symbolic _____ s8DurationV
+- _symbolic ______p 19ProximityReaderCore26EngagementServiceInterfaceP
+- _symbolic ______pScCySS______pGIeggn_ 19ProximityReaderCore26EngagementServiceInterfaceP s5ErrorP
+- _symbolic ______pScCy___________pGIeggn_ 19ProximityReaderCore26EngagementServiceInterfaceP AA0D15MerchantMessageO s5ErrorP
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 15ProximityReader20AsyncReentranceGuardC5State33_308C398B816FB7F0DA81C86847BE8FDBLLV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 15ProximityReader20AsyncReentranceGuardC6Waiter33_308C398B816FB7F0DA81C86847BE8FDBLLV
+- _symbolic _____y__________G s13ManagedBufferCsRi__rlE 15ProximityReader20AsyncReentranceGuardC5State33_308C398B816FB7F0DA81C86847BE8FDBLLV So16os_unfair_lock_sV
+- _symbolic _____y______pG 19ProximityReaderCore30UncheckedSendableXPCConnectionV AA26EngagementServiceInterfaceP
+- block_copy_helper.123
+- block_copy_helper.140
+- block_copy_helper.155
+- block_copy_helper.98
+- block_descriptor.100
+- block_descriptor.125
+- block_descriptor.142
+- block_descriptor.157
+- block_destroy_helper.124
+- block_destroy_helper.141
+- block_destroy_helper.156
+- block_destroy_helper.99
+CStrings:
++ "%s - a previous engagement request is running, returning busy"
++ "Fields cannot be empty"
++ "Incompatible attributes for this client type)"
++ "mockP2PInactivityTimeoutSeconds"
+- "%s - timed out waiting for previous request"
+- "Fields cannot be empty)"
+- "acquire(timeout:)"
+
+```

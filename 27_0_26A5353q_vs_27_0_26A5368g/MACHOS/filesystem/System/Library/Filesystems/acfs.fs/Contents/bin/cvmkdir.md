@@ -1,0 +1,284 @@
+## cvmkdir
+
+> `/System/Library/Filesystems/acfs.fs/Contents/bin/cvmkdir`
+
+```diff
+
+ 813.0.0.0.0
+-  __TEXT.__text: 0x91dc sha256:80e8cbf51448659850aaad9c044c52d544c91550cdefd2df77d5eeaef05722fc
++  __TEXT.__text: 0x92f4 sha256:18606b6b2bf4c54dcda4d36d2526e25df6a78de5b27cf470c278817a384c919d
+   __TEXT.__auth_stubs: 0x5e0 sha256:a6208b0b6c24e93e3955f59f633b2b2eb2a73d5904359e31a4a89cf71ec95a60
+-  __TEXT.__cstring: 0xfbc sha256:3fba682e2aa85043d4c1b1e91b46dd136b0c4e25ae4ce061fe60de22f30b71ac
++  __TEXT.__cstring: 0xfbc sha256:deb276a7d73381dd70d75fdfa43dfb788eca8807aac222f1b56e7b30ff58d124
+   __TEXT.__const: 0x4e0 sha256:00603cb4e563299ca229b50a48dddb1c254155e96df1fd0f9f910b080d44fc64
+-  __TEXT.__unwind_info: 0x2a8 sha256:e5c4ed130b7d8e81f1e03b2806e50603d8e5f58d9eb2204f033e4227bd8a5e73
++  __TEXT.__unwind_info: 0x2a8 sha256:ca73abf46d651d0b56926e50bab7e952a1fc98c0448c676ff9a0aaa42bcc7683
+   __DATA_CONST.__auth_got: 0x2f0 sha256:a2a4693113f869bd37397ed5078e4b12aacdcb33a92589fc79d6fe0b70983caa
+   __DATA_CONST.__got: 0x40 sha256:1bc8f085502e8bc79a3f40b75349d146291b7edd353fd9ac949274528728e6da
+   __DATA_CONST.__auth_ptr: 0x8 sha256:c46ad3183dfd4df6e789d6665acea53de22ca8fb6c32e3fc518c3d69071b1f03
+-  __DATA.__data: 0x20a0 sha256:436bafc55831be60a1da7db52fc7eb0f82785ce6645bf6a84cbc1adbb21cb5c6
+-  __DATA.__common: 0xff10 sha256:a96253041fd8da496a98656ad20134d17fc20b0eb3ed14a45dd9e16d77568cfc
+-  __DATA.__bss: 0x30d8 sha256:a1eea3f2a8d26e6f5a03542549fb5012631e2e4777e34c53e989ab95ba14dfd4
++  __DATA.__data: 0x20a0 sha256:a0b483f7332d11d418a2f714735091875e09fc5ef83270e477d3588d951a2827
++  __DATA.__common: 0xff10 sha256:1ff737f88db2cb957b2e502c170d3b524d4d2b0bf4097c1860c7c6b591a110be
++  __DATA.__bss: 0x30d8 sha256:63eefb3ef465659dd9a163a1bdad49417ab4734f1d79a3575b5fa96e6aa07beb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libxml2.2.dylib
+-  UUID: 6D572FA3-1A52-3A15-BED5-9F99049F2DE0
++  UUID: 5ADD149B-691F-37AB-B2F5-4CB464D4AFBB
+   Functions: 239
+   Symbols:   1690
+   CStrings:  171
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../authlib/libcvfsauth.a(auth_connection.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../authlib/libcvfsauth.a(auth_globals.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../authlib/libcvfsauth.a(md5.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../authlib/libcvfsauth.a(utilities.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../extapi/libcvextapi.a(cvapi.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../fsmlib/libfsmlib-static.a(program_init.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../fsmlib/libfsmlib-static.a(subr_nomad.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../fsmlib/libglobals-static.a(globals.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(alloc.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(cvras.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(dopanic.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(getroot.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(list.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(logger.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(priv_check.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(rawip.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(resolvshim.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(snprintf.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(sock46.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(subr2.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(thread_common.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(thrpri.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(timer.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/CMakeFiles/cvmkdir.dir/cvmkdir.c.o
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/libcvmkcommon.a(cvsubrs.c.o)
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Sources/XsanFS/snfs/authlib/
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Sources/XsanFS/snfs/cvmkfile/
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Sources/XsanFS/snfs/extapi/
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Sources/XsanFS/snfs/fsmlib/
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Sources/XsanFS/snfs/include/common/
++ /AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Sources/XsanFS/snfs/libutil/
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../authlib/libcvfsauth.a(auth_connection.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../authlib/libcvfsauth.a(auth_globals.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../authlib/libcvfsauth.a(md5.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../authlib/libcvfsauth.a(utilities.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../extapi/libcvextapi.a(cvapi.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../fsmlib/libfsmlib-static.a(program_init.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../fsmlib/libfsmlib-static.a(subr_nomad.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../fsmlib/libglobals-static.a(globals.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(alloc.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(cvras.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(dopanic.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(getroot.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(list.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(logger.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(priv_check.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(rawip.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(resolvshim.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(snprintf.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(sock46.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(subr2.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(thread_common.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(thrpri.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/../libutil/libsnutil-static.a(timer.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/CMakeFiles/cvmkdir.dir/cvmkdir.c.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Binaries/XsanFS/install/TempContent/Objects/snfs/cvmkfile/libcvmkcommon.a(cvsubrs.c.o)
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Sources/XsanFS/snfs/authlib/
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Sources/XsanFS/snfs/cvmkfile/
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Sources/XsanFS/snfs/extapi/
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Sources/XsanFS/snfs/fsmlib/
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Sources/XsanFS/snfs/include/common/
+- /AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Sources/XsanFS/snfs/libutil/
+Functions:
+~ _main : sha256 24a1cea8a1513e2420a1193d161dd06ceb12d49289a7b82429fe9ed8709fecb7 -> 8fc37b94690a1fe7daaa4c536e318d6ac0e975ab4c442fa025c10662ecdc7f4a
+~ _GetExtAttr : sha256 7502b56f1f56ccc2ed08e5c77ca8798454351afccf238feeacd7d1d197a5055b -> dc285fc9d6d9794487c00f38ee659f80a490ef32c7036a9f4cc6c7f8a5096064
+~ _CreateDir : sha256 f3db489af5a021c4320ea29c1d40c543d0afd1486a13284ed747def55ed775b0 -> 79eb4dbc2d375ba4a3c4863fd1c1c8c1249871860322ce0e7c058959952e5b3d
+~ _AllocFile : sha256 3c3fd37594ffcb3a02f4bb8c07a4919c274ab668219242217b3ea2fc12d96756 -> eb05c068ed2bbbccecf3a98340f89df1a1e3638c4abbd744c92aabfa6bc00fce
+~ _CvSetUnixRtio : sha256 7c55141eb09e8b7332aa45579f350236a0b51d6e881223deb6e76887e0e94532 -> 8b308df52a58dba30e443745dce8cd5188257cb030d8a3567752d0f39c1ee781
+~ _CvClearUnixRtio : sha256 d945751d11b8fd6231e6872eda13d3eb2051bcebcd9646dec513c783af0cfd84 -> 1affccc67fa930617d826e89117ffba41513f2a13995ee49732582c73e142407
+~ _CvApi_GetSgName : sha256 f3ab960e8c4250866d1c7b0a48b225f802cf4b33b5639a5da3c4bd72a8694572 -> 04fa28baf99a186c3073bf13ffe7def2e3495007fe2381b6c1236d0601fd8fdf
+~ _FsSysCtlExtapi : sha256 fc1319d082eb89423f9c001be310c2b348caa39d7155270ee617f0bf7a792e13 -> 97ed819199da9d6e2708efd9d303f907b44c767905d8899635fb8d46c659b5b5
+~ _CvApi_GetDiskInfo : sha256 b5739578ba8085f76e9758544266b0806a3dca336e666642fcdfec7602314524 -> bee1bd19c973c2eb8679399c04d3aded91d7e9ddfe550df7736d89ff177fa112
+~ _CvApi_GetSgInfo : sha256 e8d2b01f2c7cd1764e1b2192056358719c94a4dcad3eb86c028454c1e87fbc8a -> c4418463ee922f6012d1f4ad9b991f08655b60853f1c931954f619ed080b8686
+~ _CvApi_SetRtio : sha256 dc9f72c15ccddaaf81308b7104167257057ec5e114b8af684c906388d54a7a74 -> 2bf63e678995fe4cc5a62a3a82f27932f1eeb17599d78a3828288ff595ea3619
+~ _CvApi_GetRtio : sha256 9cdf50f6a2c5c4d341dab7af6ed89a4068e9fc8ad3861d944ffbe1a30ebdec47 -> 1844f09e924d775fd16757796aabe2bca74253661c89ec5e5834ff62cc28726a
+~ _CvApi_GetRtio_V3 : sha256 39ed5d041c851e31c3b33a609a9283e3fffc827824d6680475fb1dc9a34ceea6 -> 26263d94a20c45ccefa4952dbc86c7cdc8b83b307bf3e1ef179296409b8819c0
+~ _CvApi_EnableRtio : sha256 395c90be40ea03cc188a6f95f9b7139b8a30014677959bf4264e685c2d6cf17e -> 2b263f39ab68689bc5866db640f6b10d698665046ce4e1ded97c4214dc66552e
+~ _CvApi_DisableRtio : sha256 8c5aa2b36e714d115acaca278880215e37d16ea575bf6b981bef701ff4864728 -> f7dc14516c6e32f96cf9841e602cfe8f65c1557fea3ff97ea3c7322a5a8cc122
+~ _CvApi_SetConcWrite : sha256 15f7a00529db53186ba2e4a5dfe990918bd26313ded8a8a3e488655f5ee55f35 -> 44d390e696e63ba68b907b453053fff645afed15a51f007f0d579354b4d73e22
+~ _CvApi_ClearConcWrite : sha256 ce6ed9383798ef2b85f54a56b9bdbdbd6d149f53b9f3bf842e6862bbfd5ea7ea -> 5f4d38ef80c299b93f335a321e8ccb07dde67067a29a7738613d9250ea8ea11a
+~ _CvApi_SetAdminLock : sha256 993a968e4da24a28cb0c93117a56483aebd44605e1a5bb53d75e7b5a7e2853ea -> ed988e747078c4fd5d85401939276753ee7246ad79fe3d1090a1555989bb8e1c
+~ _CvApi_ClearAdminLock : sha256 9f84ccf88f5ba85e3bf5744ebe4d1d0411de898c5b7d0986790b00de739acc61 -> 47cd6cb0d4d9ed5823571cd4efcfacc1f489743fe2b0fe171fc122ce783965cd
+~ _CvApi_SetRdHoleFail : sha256 2bd4dd76fac13c2150b93ae3fe8a7326a78972f7aaa7ad02c5797fb9cf80e0d3 -> 61b026479dd5d1eb3056ab0004c07ea49bf3b220be13d08326850886385ecabc
+~ _CvApi_ClearRdHoleFail : sha256 54299ae1addffd79a18a5a9c4fd40608f75aae2fb9959936807ae07b5fa9812e -> 24ca7747969ab13d0cb3991f84e92419366e44601739903f35ec10ad3635fb33
+~ _CvApi_SetErrInjection : sha256 1aec1f67bc59d61e7981b58469832671adf210d8c469e475a8d8a807caf0c8a5 -> fbdb08241a3faf03bafc0950af89ea1dcdf19028ec2ab23f9ccb939672642d51
+~ _CvApi_ClearErrInjection : sha256 7bb24ace3d174bd41f5eef3627d9d7a3efeae6bf1819ad8377b09f0d09089f2d -> 93b3788c546796da78bdb9fb375982e164f608456bb3e6588e6904834ab42c2a
+~ _CvApi_LoadExtents : sha256 6ed2a283cece0b16f048c9fef635e6cc700518b9b74ede384490128293d496eb -> 72c5e692fa01aa4fdab125e772e500c1ab72badbd2c6e274b2cdfa0426e96d3d
+~ _CvApi_AllocSpace : sha256 aeeabaa8406e529307cfdc9bd7f8121fe54b8176a6aaf62e3335976e3922c3f2 -> 27036ebc5b834c2ee83dde58b353dec1b3019f9c2d24b2a2d9703a24fcad93fc
+~ _CvApi_GetExtList : sha256 1cc2c0c4ee01768a502824cd1a53f52a50b4aa8bef671f59415b12504a008d3f -> f9ccb964e43ea2722fc2ef24fdb6a0176ca28ce66401ccbf7cb9a77444e059f3
+~ _CvApi_GetSGExtList : sha256 ae569f25e24a3556cf8b649209f143911a5ddc30a87c8f8116b1822ef31e51fe -> 36dc105625f3cc16cf874f0a9a1c4868f164597d98259ffcbcc3cd3373fc8493
+~ _CvApi_CvFstat : sha256 f5d8b52963f69d5e0dd293416e1df805a1df4bc57ebaa1e9cb593723dcdee65b -> 1dcf0e649a20608b4bb3b58dc53d1bf9a4be189a69beef7b798f7b626371fcbc
+~ _CvApi_CvOpenStat : sha256 ecd9e3555023344efe039d5045331135bc55dc636cc24b8e3321fe72196d2795 -> 6045e46ca04b338f6a434f54c1c5e32193b93bb6e9fb507314fcbe7a7b4eedd7
+~ _CvApi_PunchHole : sha256 0386ee84021fc5ccbc59fcc9adadb567b93d0a7275f0c9a1cbdb7c7dd8c6c206 -> 26daca6b509d73c189796860f3f08ffa1deae8742455c81f2f5a4672985b28ca
+~ _CvApi_GetAffinity : sha256 9f61e8b090965761f07de6b96507c80aaf330d18fc764d8f956c126d3e38330f -> 461faa532af8194b4ff0aa4a2560548697db35f173f1c2f2bbff30aab77d0868
+~ _CvApi_SetAffinity : sha256 0a644bc8b2c4be4942f78a8eb6db387dd7c3898c5e4b97e5672fcfce0da096dc -> 9f8f11c935a9c1e6f8c33073d44a04801f877647485ce3f748a732630cb636e8
+~ _CvApi_SetAffinity_Exact : sha256 93ed0e61c71e2d718aa1b123afb2dd74208b92a9bd02140631ba165a2cf0be0b -> 4f504b1d1a093a51adc125adf045200a7f00afa57e6135461096a5b9553b0f2f
+~ _CvApi_SetFsStatus : sha256 8912cfcf4657c19ae69e357e9533c3bdfeed762974691d4e0d5ee5f87b10092b -> 1c4cdeb2b802dc5709e33fda85219509c0228512e799b4ad8b89d1dc95b6d2a3
+~ _CvApi_GetSession : sha256 1736bfff58f7aa7d3a08e56c181cd0efa30d78508221b2b0b946152d876fb47c -> 0d9dac00078fa272e430dac5228a894dd729f1807696978735e4160747cef54b
+~ _CvApi_SetSession : sha256 c66c2bfd6bffeac1dc1ec47707bc6d7b0e4e9841395f9286499d359a45db5aae -> e2985ae3bee2dfd13ceaf0ca9920ff9a7a41ac25785e11cb882535e0411be972
+~ _CvApi_GetPhysLoc : sha256 a69b56465a778b48bf5ba085fdabd6781ea311a00eb5304ba813932b717e5ba0 -> 31510a52c1273695457b3db3af8771bfe14083d1b9b5775572c8c8ab821cd0dc
+~ _CvApi_SwapExtents : sha256 42383f895d1af18ac791d08bc9f5216a2849d2bedf5e96f97db492c989433a42 -> 32f424ab039bf9917e02aac6b933261b452f322f48d47d62c1018428cb3c90e1
+~ _CvApi_SwapRange : sha256 b67d0381fb0dd53250d967fd1e9dc431ce03cd9932937bf7908105115cfecf45 -> f815af32176dc79171dcef50da1070aec25837c51534e8edd3f9c11c0585e048
+~ _CvApi_MoveRange : sha256 8ea2d007cbd8731500d94c730a7b52287742b5844b33e2fcfba1ecc419af0308 -> 19d79fc77f9eb447fc925091ed76e3d645272e7a746b2ba1a303bd18446106f7
+~ _CvApi_SetQuota : sha256 fc6850f52e3a7c563b68d39809e571095d70a3fed06ff6764adb8d7a3ba6c2cb -> a892db47a5ed2b250907ec504ea3c824d01dc255b36aa9f5abdabf0614d7ae2e
+~ _CvApi_GetQuota : sha256 75f951324b8bbb04a5e1b88048d50e262c063b007d43585ff0e25e9a21d11450 -> ac0400bd30e102dd27ffa4e674c25065be601da86598e124fc98227524dfe8e4
+~ _CvApi_DirQuota : sha256 0e191f6189be5ae01453705fd0068ea693b98ae1eeed8cba4e39669070fc7819 -> de7cd8b809d47cfafb4c8cd4245e16b191b2519ccd0f15da74ad7277700e2849
+~ _CvApi_GetFullPath : sha256 4a82ae63df629b4fb0ff3d26f04f4d475f02dfa5fa1938b7c778b4f15e176d8c -> 3b418811172b29efbb622f6ddca41fa7ed685b33619cf6daa1f097c85d5d6f54
+~ _CvApi_GetVerInfo : sha256 3d69da2464f02466ce84a7673288408af1c5f6606a86bf48a239bcd08a79feed -> e986d39d2ea27e6aa8af606fbd1d97093b439c40b47f17ab0c62573cda73d09c
+~ _CvApi_GetPerfectFitStatus : sha256 5c93eb22abd18d6727faf9e27cbcf768c0c367f0ffe328d06276a52b48d149be -> 8f6f722c677170881a9bce149d1db52107284ee779aa5f800d7d6cd9cad1c1f6
+~ _CvApi_SetPerfectFitStatus : sha256 1dedce16ef3503ed9fd663cc07bfd472a249f1df59aa9b8b90b8e71bb836a4fc -> 1bd36bef28f43a0a6991c12ba10f7325f62c3849dbd14795ab169c0663365dad
+~ _CvApi_BulkCreate : sha256 eddc5aad24a5685b99a8a58de10ec64d5f91f1790d9718b5ebb7fa4f995ab05c -> 5aaaf4687d79309d5f9ae6507967a9d7ad22291923d4ac852fb009a3d38d551c
+~ _CvApi_BulkFlush : sha256 7f3328260d828d4b4d349a166d670bf434bcf1d625150ab46d47140c158aee95 -> 21b660ef5edd970f1ec195d2369fd1d81ea39b14a353ab234614698c0f6e61f3
+~ _CvApi_BulkOpenTargetDir : sha256 437b8cf38c157636c5a087cef5dece2ed9eeedaad27e111b73d99a9c0ec243e6 -> 5537d688595aaee206f960fb02fea134eec72a1c7eab5c9066aec2b9e1842d46
+~ _CvApi_BulkCloseTargetDir : sha256 4e02337e7b1d43e6f582c033e73c638523bf001adb1d00d081f02dceaa3710bb -> 34bcbe378eea65cd34274d987dc3dac12f581670fdd85d15227e844259998528
+~ _CvApi_QosClientStats : sha256 5787737e74a3230ce7e31a4916bffa350a13c454c46258553c90a0df5346932e -> c87bda53b04ddc29b506e03dbd00ad7cf51f42948ad63c1da690f602289b480e
+~ _CvApi_QosClientStats_V3 : sha256 6e7616dbc2b8f795417122bce2ce028e38a4395e2904316fe3595dd61c75fa35 -> c9b95077605375abdff05b4d154f612c2eddb4e35226ecff2c4120cab3c94444
+~ _CvApi_SetFileSize : sha256 94a0adbc229e14b56880c6a60b71135901c4814978e3bce447f1f24046b0ffdc -> 61bdb2ed26546cdb57f0c5913a6a16cb35fece631b7c2a838bfcdcd283cbc25e
+~ _CvApi_StatPlus : sha256 33e100654fb07469bc1a9eb2ccb408111883d71f8d0c075a567e9e806c89ff32 -> be42886cd5dda2448bea3def152b9c3b3390a4d193c1314ad7903e3c3e0cb202
+~ _CvApi_ExtendedStat : sha256 565b92df08cc02c88e348e85e2a27e83edb22bb710f0004cf175caf055bb8eb5 -> 0bb8bdb8fb1dcc95faaf9f9d5021970152cff41b05305aa5c2f2a523caec423a
+~ _CvApi_StatFs : sha256 80df1af836f6d1febd6a4460eb0396fc6cffce71f593934305aac8746fa363a4 -> fd3753e1e133bfce0ff4f11225218ed3f2c2dc745ccc91bcd1a8c363ea4c2ca0
+~ _CvApi_GetXattrByName : sha256 9c6d73e47af8260eb906ba116c1e5aefa831edccc05d8e3d4dc3d7848d738147 -> c51749c77ebd1e2909b2ef547744c7b2ffd605ef58bb0c3b180fc4ea4ceedc71
+~ _CvApi_SetXattrByName : sha256 901a30edde80fe318b8254b500c0335214581ddb87b0f46a4e07f958fb3e2092 -> 58b3aae6b3486455d706a2d276ed32a3c522580a4d48061d069c8700122ac2fc
+~ _CvApi_VerifyAlloc : sha256 cfc628e06d37a25cb8dff67e223c96e7f8ef8395754921d7fc350cd55fa5e1af -> a2e66a6ed88114b3caace553be02e472cdb800f92065fb4bbca7ee0f24009c17
+~ _CvApi_GetAllocatedRange : sha256 b225c594ebb568a7d5cfaa313401b5d9e9afa320c13942389ca63cd48cdb5c35 -> 471b8a940b34fcc0ea9f628293e32f703794717d304c5506a492748c7ba392ea
+~ _CvApi_GetFsName : sha256 f861023474c2850b3de878c07dccd99fb9921e4cc5f53abd93673fc2bdc0ce28 -> 6588b3495d5800b00cf45c6d5cd0e7e50d547c8024d2fc85f8c91057cca66194
+~ _CvApi_GetClFsName : sha256 d252d139dffbbb84cce7d95925ce60177897f6f45661660ab14809cc69db1710 -> 2b8d1a6636b03998b5c560777d70780bbd81d814a4c4ef7b51ffca6e31a26374
+~ _CvApi_CheckLicense : sha256 f4e507eb41974d36094f9319ee8a07cba8e3a4d456f754aa00773664df6c305b -> 03130b3f4b9a600e28b386751df5f6b2d93628dbba01c281daeae5949b6ddcc2
+~ _CvApi_RetrieveFile : sha256 01d1eed00b8ca96aeaf744f1238f4ee6e6c0ed6101883434e565a80392a8e02c -> b3513c624a8d92159e00f7d2bd4781120958507af56723e21af154f27fda6473
+~ _CvApi_GetLinkInfo : sha256 baabc44da225213ee19d5615331316b40fa67bb73347cfaf33c2ea1f8a0bddc0 -> 75e5d21aa442bbb00c8194a45efcf87b672ea36f35cf55c22e58dcafb1512ca9
+~ _CvApi_MeasureLatency : sha256 3819fea74ed5364f0a5644bc63ddd5a71267040d2e4bb7fd3e6bafdd3540ed39 -> f8779974454ae2893324f1e0cb24c802c8223df7f368d859d9c58668817c9a20
+~ _CvApi_NamedStreamFlags : sha256 6f1d201a37d26d4651d0c6c95eb84b28a7519c969a6723d80465f6dba4f0657e -> a1b6180345ad0b083e74957504c8b6495d19d17fd5c9633cfc1f5550498ab19c
+~ _CvApi_GetVolumeInfo : sha256 6a1a5f2f9d1a6ddfab1b1ec2edd65ef03736c964ba8d60da9ac1078114ccc6d7 -> 42944a8a35fed4e9e3d382e570fc1193f4cbc140dc3a239007d4c51c07d67571
+~ __ProgramInit : sha256 7fd0577c39855559cbf6c54a729d643767c21f987df65b496a858fd82cee7c8c -> 10227147aae831e502e2151ea62189eca994bb3dfc68f446cb522b7942abad59
+~ _DisallowMultiplePaths : sha256 ebe197b6332ff540c8661ffa21681d0fc5ff36efe0c2db0f2014a25aa2db1b5d -> 3946d919ab109fbf383a2de744a97ec885115c8e14a8e9fe0c9a132ab1dd18bb
+~ _FsSysCtl : sha256 3c07aa3da4050b5580afb4cb11e58ff734b3dac8efdb6ec0ff904a914d470a1a -> 17603f62b781c6c1f13d7e7f9fad1a0d6e0a200eaae4b9c8d5a3d8332e9b59dc
+~ _authentication_check : 892 -> 884
+~ _generate_signatureV1 : sha256 9f6fb132a08fc4d890adef530dd8dac22b46c32278a1191b999ffb616e154d27 -> 2d267de0b1f991091b83d9750bfcfaffd886e6c4d166a1a62ebf831d8e36d047
+~ _validate_signature : sha256 9979d7b85d70ba8acd73aea2c55ef9803e6ff7545ef2467e08d420ccc45c3d47 -> c8b313f2d8d1222de4e7e516c0abb41a4b3ca6c83fc10cf197aad1c96b530bac
+~ _server_send_challenge : sha256 65d29ea7a1899ba052eaa7a837b8e72749160e7cf89df5d4ffc3bc33a7d91496 -> 671a6d2bf9442aa67b48ffb533b024c05ab9b014c421264607b2977585dc2499
+~ _server_authenticate_response : sha256 11150f5258217741106fa51b7821ea4aa41c932b893b52f7833e487c9b82837e -> 14c1d14ad416cafed96a665c87c003e08d14f5b5992280cc5b8ca66da9e80240
+~ _client_authenticate : sha256 0072e2e8b734a52fb15ecd230e2932c2c56f72528e8940c1289f2d26fcffdbb5 -> 4fb800d1054485ab8fd86237160a769e48b3e96f3305a3062d2d7f9bca54ff3e
+~ _send_pm_auth : sha256 b158de2ea490f32bdb61b91ae0e46cf52c8c08089aeaed13a46fbf0548ae5071 -> 2d8311fcd07accd0470221cb43a6e77c8bc8d894b552e54477170b9a2b5cfe68
+~ _auth_checksum_struct : sha256 689f6f4ac676001bf6d79b1013dc681be9d9a2776f50b2628772a554657ef182 -> 805990b5f611a2006a4f08fca2238bdb15984f703a0a93c1676a3e34fd8efc21
+~ _auth_sign_data : sha256 6fc1bbfa74df407dcb61c0a75a7f4ba619b5e434fc264e82b53da720c420ffc3 -> ecde2d657ac72518b923a45883b2d8456fe1976affad25462001e3a0dd6137a1
+~ _auth_validate_signature : sha256 55e0c021101d39a896c57c68981ce91977faa6a892a7bd3cfe070265a647d5c4 -> 066d7d8535b55854a4d418777bdd9f1c57c7c51a57040044821333cc9ff11c0b
+~ _HashInit : sha256 190fa6f5e9471240227555a6c41df70ae97a3ab06d8743347d5cb50d37fc1b08 -> b74b5cb7f1491badf73f346442f12400fb3ec227b6452477ee40cd2964a1701e
+~ _HashUpdateCommon : 276 -> 284
+~ _HashUpdateTSM : sha256 e5186f082740c7bd350f065f733e5110a26132b06f8b576d1325bad7db22001b -> f2d09cb7dbde0294aeaf345c82b214b68ef8e6264bbb88e446f1cb691e74e15f
+~ _HashFinalizeCommon2 : 344 -> 340
+~ _HashFinalizeTSM : sha256 49df1edf0e151c291561f166c26cb06567cd77a2d4a3205a2ff6dd18c5dd7386 -> e0806bc0c0c34ba31619925a9ecf604d3714e4bf77f01fdcde85be143b280bda
+~ _GenerateSystemNumb2 : sha256 19b2b9d109ca6daa19bd418e3d8a1a5ec6fefda176b6b2119cac6e227c90cd03 -> f32b87ad63cb0e550e09a747e12ba66f51c3babe4edaf147eb8a263783ed8e74
+~ _PerformEndianSwap : sha256 b201a89c6d5c24f4dadb95a8b479a04c14edbbd5ac088f2350bfe1b00670697e -> 81c87641a935574e836d40c40fcd0c9462413fb7ae7259dae05294453db8f206
+~ _AuthenticationInit : sha256 cffebd672172635f5cda0add4389c951d22118907c014b006a5f42dfc873cb75 -> 486c06483acfd7d098d83143eaf917bcb1b0b97025b5274a497e97db4b41c812
+~ _MyMemalign : sha256 a6b47b96a043b6306cd40e3dfa5454ec22e1304c942a5b552882b9b11f194ad0 -> bfe761311b6cd729d8fc6c9c737bdb2567fe74f731ef2797c411ca6be303dd15
+~ _MyFree : sha256 15e446b4b2bd588b49a0ce4d0a31c79e87777aadc78034a87aefd1c898922a36 -> 54761f68a6795fcc517395b62794582165fb804e1f3b3094e658cd2b1e72d335
+~ _MBufAllocAndZero : sha256 8d5cda19180f71509b19531aa7b974f5280dc9cf1b011a3a4b1e3b528d67c61f -> c83cdca832b09e157142ef948508f7b48d022c9bec0cfadec5aa48a385f78a74
+~ _DefaultPanic : sha256 a3e4443bf9cb7c9d1c249cee9db847ec63f8e3a69c4726f82ecc70030cf54cf8 -> 9d1118171d26044057d71dc04c07751da9fed38761226bd9ddb6eb91f056afa6
+~ _DoPanic : sha256 affa37d22e840a69d9a9cb66df315de65555feffc12d697aa64518634cf19635 -> e585fbb5a40e3f02f559d431191ad3ffb43f69c3eabaaa53242a2fd3f9ede931
+~ _IsSnfsCheckedBuild : sha256 7521656e605c818961a19db6ae4119bf82525e4b51b0634a357f778d07941b4e -> 7cc64480371c6e5b4f4af8507128c02cf826525b7198c29c16fe48de18b4f461
+~ _IsQuantumAppliance : sha256 6dfce4a5a8ce461a12f45f71fa90e99743b721a0b76af94c4786aa34a698704d -> a8cab7dbe7d6706fbc733efb5c7cbf17a345e8e4f8eaf53b70f853ebc218c67e
+~ _PanicCheckedWriteLog : sha256 43692dae58c0b59204da671c130ecc9c91559296ab6279c79b9693b91770d4f7 -> 5b769e6dbb8dac7e98984ef731eefa7451e9aa800336c2ff2bd00c04f76f82db
+~ _PanicCheckedBuild : sha256 a306da8363e0bb570dbfda839bdf0826819cb44c906c744bbfcf87053159d8ea -> a72282f97873130fe2089c01519b41adc8f222c67e4f567912f3140b22c4903f
+~ _initialize_roots : 292 -> 312
+~ _start_timer : sha256 cf49ed61ce821d570eb12f391320d427b332fbfb20bec36dd9cc61454a92856b -> 4971495105f2787710ef9eb03363eb796e74af7fee14a03ad0fe141459e4d411
+~ _get_start_timer : sha256 62ca16354a1c4bbb1cc1cfb7d6fe0d70e1dc604259762bfbbf2aa5b9679ae8fa -> db9261f90a0b17d633611a6e4b9226554f89804c703e1cae3a27412c91126893
+~ _end_timer : sha256 4850fb0e63814640cb881ea3d5ac216840ce932271defa1ef9d599e37ea3ba5a -> d2501a3b3486724c8115461f8505971e2c6a414ca921dde48125d7a3f5bac20f
+~ _get_end_timer : sha256 fd5b8f85ae5b54ef0f2694ca042089c69510bb4aac17af2623d37ee2a3add2a2 -> 6f420e7a701080d4c38f76a6a730bb0e841216e0a03d097aba6e4c3d52f663f2
+~ _get_timer : sha256 60e727bb4392eb18614cb82d451f29254becc8e5cea2824f13440ff2c90d7f4c -> 6d1d8beb31015ceaf5aee0c596be4f4aae3eb008c49b84c59803aa328a671308
+~ _MicroTime : sha256 0f4407d4520ce4c78f5706e2383ab95d0c156b49b914fe3b8f0dc0ed8828d10a -> c79ee5feba92e403ff99c61b955ae6f28b81bc535296734f99e624bc56453de9
+~ _mylog : sha256 4798d4e4390aac6c47b41443db9cb5d3545dbce4d6d632f94a53649a9ae312e1 -> 9db5c81715054515c5be4a94d338778dfbd5f72dff1ffd160d12aac6a8bbe17b
+~ _common_WriteLog : sha256 71bb43dc43a75e27be79e5b195b48fb67cee8171dd278e51a85a93d64c5d9e7a -> fd7dbcfbf06feeed160528311ee295715305e351f2f2d41eb7f7cabe5c00d3d7
+~ _Debug_Output : sha256 cf5e74953301c476303067e9234408bcff024b9913891482f650a2a951e8852d -> c8a802b1092a5a22e00a2d12bd6e9d522da65ff0797b08bbaf19d0e3be238757
+~ _Info_Output : sha256 0b43505e51c84896100c1e923f754b88084a5607e8c523bd3bb1d1b37366943e -> 34b0c1c84f016e0a1ce3ca2f7d5bf1a0002d34beb6977bd2b73ca9c4ef18987b
+~ _Warn_Output : sha256 7e58fc446fb28c7a7c8fd92dfae0a524ded552876032f96aee4968d29472c4af -> 6d7dd592f2952ed318edbf5d65e47c5ff8659617986157840e9b583a73c4effe
+~ _Error_Output : sha256 94f70f0812a9bff50dee54df1c5f05ca6f52ae4e5d0e7ef37366b27876cba13d -> 692d8830fab9a1115e26b4738476d08faef6ec1dfb4d4c15bbe59b567211a7b7
+~ _Critical_Output : sha256 798eff021c3716632cd0317860e819723e405eed93034defe61bae5f541f4bc6 -> 255436d7ca22f4cc440ddcc841065448d21c484b8419a058058e7957e91fcb8a
+~ __Panic_Output : sha256 c4b89f08b6132198550d190fd7588e3203a5878b87bcbefe7276d65c44060e22 -> 53557e771bef26d91c0b28a9ff280e4e511b3ea8eac5bea40826ab722879f226
+~ _get_ipnetmask : sha256 75e4688fba0f32337da81c8e28f6c5947342332ff0dd5d093e4bdeea0381c602 -> 4eae3e371dbed17d6e8372a78976566771d5dc980a628f8e5e342806d6ecb63a
+~ _is_subnet_match : 172 -> 164
+~ _is_address_match : sha256 2e9463d2d845a1549359079e807768edc962aa6534b4ab8ae027e33d00306cd7 -> d82d9187815233bb91d7385ef30352c4fc059143cafe6d1ff83da73d72e8129c
+~ _is_local_subnet : 256 -> 272
+~ _enumerate_ip_ntmsk : sha256 e10d92e91b89428ce7b72043f8bf3dedb3c387fa0acbc4d15de4bb0d988d6efe -> 92bf0acadaadf4d17942572664667c27ded193909876710b92f6e82c29a5b173
+~ _cvopen : sha256 7ef3ed86db39ea51239128ca08be11d187fa1a966d83a5381f2d5aebb64a6f35 -> cd79ad851a9baeda72e72077958896dbdc5cc8b7a8e6ada0ab463e5c014dd48f
+~ _IsLoopbackHostname : sha256 670936b027367513b49c249d9d966c12591dd28be6f8a8959af793b18d9a6d57 -> 644c32bacbee80f7191d2d1079fc451e1795ecba5702d7cc9e74b60b372ebaa3
+~ _GetHostByName : sha256 6440d4399619f9196eed59fcade9224d64f329c98d035ee2e8c587933c7a7fa7 -> 18c1a864d35a1eae9c3123f5f2e5fd2ba8e244f8ead966d1545ad348f83bc935
+~ _ResetAddrLists : sha256 bc86f88a296dc4a41c0ce393308293db0761ad175c0e57f552b37491f45d63b1 -> 804b5078aa69259e2a9de38fdd051cccb57a718c5d8c50530bfd693231987fb6
+~ __HostLookupR : 1168 -> 1188
+~ _GetHostByNameDoReverseCheck : sha256 518f55a1a43bd8f8ebc3ffac8c554bd21fd6c1ba445ded863f3beb3a9d625144 -> d35c5f09299af85fe20372eb637f9893cc262397cd7cdca6b8143cb2961c62a5
+~ _save_metadata_filter : 196 -> 200
+~ _GetKernelIFs : 1408 -> 1416
+~ _address_is_filtered : 176 -> 196
+~ _GetAllNicBindings : sha256 9b2a992dd957e3c7b5e15eaff883d2afb0c1334b093456ffce149cee638671b9 -> 84fcfdb909276e7cd68d0be26cecf950d6bdbb3d64ab8128dacfc3a4126420d5
+~ _flush_ipaddrs_if_stale : sha256 227c37394c4a409ca32bb9ed6c787525aeeb479353f682a64566f1831eb3eb71 -> a5240de1350f74cb3706e0b0ec6c7d4414bb22a416435aa1c7e068389a78944a
+~ _BuildAddrLists : 2864 -> 3032
+~ _get_filtered_ip_addrs : 64 -> 68
+~ _get_ip_addrs : 64 -> 68
+~ __enumerate_mac_addrs : sha256 e531ae3e7753cc99b502fe139e2f58868954e72e17f85deb45a39197ee806da0 -> 4c6ccbc851bb57e1bc042e1ef40988c234997892dbd6cec7c7941ee71cb7b6ae
+~ __enumerate_ip_addrs : 160 -> 164
+~ _enumerate_auth_ids : sha256 f08e771518260335870f01afe318f7ea22c8384b717a489a6367ee6776218f78 -> a75f99ba630282f69d2376f7dc20686aa54818ea1ca10fb531b34f08ba5b03db
+~ _IsLocalExtAddr : 256 -> 252
+~ _RemapLocalHost : sha256 0c0977d93801160fa6a3edb12c1fafb23003d6a802c66b8cf13d8d1e3129ba61 -> 01f9f3594fc89f22ab57186ff98b1eada782c8903d6ee4ad76ac67c6c3995985
+~ _GetLoopbackAddr : sha256 8de57bab6bea0dc104a9c0a762ead99a02981d0e05f8ba68dcb1a70a54d33b0c -> b8a1ae4f1c3e07e7cbf1a7fc5e5c42317360c1c12fb222aa70e4b6215616aec1
+~ _GetLocalAddrCount : 152 -> 148
+~ _GetOsVersion : sha256 09c0fda5cbc98f97a41900dd770a9c458e18e59ac655ae8d58f22cfc1946a096 -> e02e7bdf7ea1a721c95248392b6c5572dd66ef45b080c9302e6051a57c89b51c
+~ _snfs_executable_exists : sha256 a98a49c1944d4ed9b9d093ec1fbc3d7cb5097a7f7acac865f495f3dd8359728a -> 8d4812b47e600f3f82f77473c594f24d9656343ebfc5edf92c10d413bc9de64c
+~ _IfIsUseful : sha256 61edaacbbdcf07bd0e083fc0d8022913b62a8886a1410a1c0ed1970a2d53ec4f -> d27162fc23b53166f10691389c11dd5e898aa23261cfe87a9679eb12652e4600
+~ _snfs_thread_init : sha256 0895db3be687a0c2f85b1faa5cb85699fe9371167cead515f3cac51831c1a8f2 -> 63b20d483d026dff54a53fb1f6592a823e11f59583af0562ddaabd073845d7e9
+~ _register_spurious_wakeup : sha256 1d36bc1169200cef632f3ec9442e08977563216dc50890a482e513008e91dd8f -> 72fdf0550ab58dafc97d96b3c0d5da072d96970baa95be531e3fcad298f4f96b
+~ _wakeup_list_thread : sha256 b8da0c5bf8cb961579ba59a85be7af69a37c6115153b01803104216b57aff2e9 -> 2bfc591c059daceba68e6b5860e12844e6827f8150aa8c8052fcbc7309404387
+~ _unregister_spurious_wakeup : sha256 ef161b62138d0beaad47f29a3c08419a1d34d6bda8de56de709e96deb5fa9d66 -> e75a428f77c9cb86c9f566af6d0966b13e5c5302544d4426d1edd0d8529d8205
+~ ___starter : sha256 6d1e550ba1cc73efbbd5c2217e8a976e603cd75a6dffdf370df7d3f8a95a62a7 -> 9e2f179d63e70f24301a6d54154f303841c0cb29239a497cc7c183eaed0c4ede
+~ _thrpri_init : sha256 ac45097a72bac5b83b830c7642841b415bb9abe7f836b7a669bdb4ca47247dc8 -> 8845909086c3ac14a6b974b9e461a3b353deecfcc3eeb2231e6205e656c6a2e8
+~ _ThreadPriority : sha256 8047893a159ec78af7ffbfa342a6bdf7e854f430f1e87c018140926d602056ee -> 21e05356ef7d352411bd119ea00f6caca5d558869bc11f05071aa34281a4c5c2
+~ _PrivCheck : sha256 35e803dd3e810e8ac9ded3b533088a67bb4f3c8819712c2294417043ba2ffd9c -> 10038f749b2afce0f1d6310b8d6228d6e2f7602e3aa392659d4ec432583cfedf
+~ _doGetHostFromIp : sha256 b9af024ef5cea63268edfc33c910c8d6ac46b4e6f33a8363241fadcbca1d9bc7 -> f960e4793deffb0eaefb40d264a08e2c108edab1be1734aa76dc3f96a043abe9
+~ _GetHostFromIpFailCache : 472 -> 480
+~ _Accept : sha256 9301a08a795a75f44ef5575e9c7478ea065c823482f0387d42377a2ef299fec1 -> 11e87cc98ecb11d8412086735a3d600f2e577c75ebff1c8098197877ff761752
+~ _BindSameSockOpts : sha256 9c9fe2c1f86b3777ee0c42cbd5dc2b94527b3a2ef43a93edfe3d1cf2ca7b8517 -> 07089e4f32baf22dd357011cae6d090ff49bb205c6a72bf409593519d216c38b
+~ _BindSame : sha256 c8ae6cd3be3425a853c20aa6317fd8c317a9fbab624216e0e930300b6498a8d6 -> c509a86910c1f8047f0aee64bd65ca38e682b0d7c0b0b89578b08731eb027891
+~ _GetSockName : sha256 a25fa97336a4f67c6fdcb3cc9894a2ec427d1f5a9eca34c26fdb0958bf822f2f -> ca708f303bc850111dac5e0b5f82f65d5afa639c8f8a31d39886afdc51747a67
+~ _GetPeerName : sha256 6dc9a492611c7cd4f5d92aa4f66af8fe258bf4c212cbcde35ad4d6a5bde651fe -> cf19e707091150478f45dad54b079875c72c9550c45392dd5f8c4b6c267432e9
+~ _RecvFrom : sha256 85970fd87a6c6fa237a18d8a49750ef1e0643da5012fd861c181ac67c701457a -> 327ff6cb0ce8550281cce1ed1a1c4b1ead4fb1b2726562c824e36a45ddfd582d
+~ _RecvFromTo : sha256 95c221c2f75b3847a7d078ee0a79044a55c1d763d095ca8782ed1cc9328ba35a -> 5692f7554ff848d578959ff635dcb0d77049829ea9a750a8a27f0fc48f6085fc
+~ _InitRecvFromTo : sha256 4c7e01afc2bf5d23bc0a2cb0d4ca9be7ff497ee800afed8f160923118d72ffd4 -> d8f186b4aa6c708a4ffb34a13c53674e94473a7527dffa6a09b2b1705b1b6fb5
+~ _SendTo : sha256 9e34be678a8c76183d86207c194c3168436d409f332f7d90415c3fd832aaa871 -> 2677fdca76a8537d31ce2ba70bfbd97c77a0366aeb89c1f2d829d3da5054918b
+~ _SockConnect : sha256 cef78d0dc62a1d60bf9d9f0e05d67b563671bce4459598be1de4ad5bdcb73825 -> 4d4e6749ce7db3e3f8e25255be85ea104e5118c75ac236056ff673e5b6808c26
+~ _ExtractAddrPort : sha256 f4518505e29a10ee1101c267ad3408c1f3d7e12d6b28aea9fd2025d0e31b7765 -> 5c767b3a22a9ca43f6bb3dbdcbf3d94f69d941261c2f14f8ed4968fbf012e2df
+~ _CheckFailCacheNoLock : sha256 be0ca7b1cfa0cf42dc8c2165805152dcb10cfb87315948a0a49ad22d2d204adc -> 33bbf170dfd15ebf557c50c5715a019f103189b0a00a513b4918c9c2933c0547
+~ _RawIp : sha256 b249e52db49209e7f85ff9f763c5dcf4efba1d8b4eb1c0647a5dfc2cc0d4b538 -> 86d34306d3eaca5e89182f079e01eea411769f130d3b279d6658376b362c4ab6
+~ _CvVsnprintf : 124 -> 112
+~ _CvSnprintf : sha256 a3abecbe41d822aaceb19369e8638e5bc01293ad121f2fa5f4bb8fc1602a1ab4 -> 4acfd24159f33dd9b99fb277fa82f7b9f9c9dbd4afdfd8f0c1ccf62f7b3c6476
+~ _RasFsNameSet : sha256 063c52746f7003e6e90201cdf83f1ac6b17cc65991f49628c9be1219688a3cc8 -> 5e8bdde60e612eb10655a2c2a5108bfee8320555c28bb8fb25879b3c9cefcfd5
+~ _VRasEvent : sha256 e769df502b68e9f97059953f2bb6f32efd8a25d193d8c1ff42aba630c6b248ef -> 69d89496bfe084ba69c8bc96dc5ec10ca87dfd885362b72e433400215fbebc30
+~ _NeedPerClntRas : sha256 2502ed62ba71c10f724c71cf5bb0b5b6bca7ee700c5cdc64524d6d11f17e827b -> 3e9afcb5b9d4afa465a51e0fd768cc6afe2d2e381bc56821e794c4da6efb6044
+~ _FpInitHdr : 36 -> 56
+~ _FpSetMarker : 84 -> 100
+~ _FpClearMarker : sha256 b63c751cead0e7a8f434bc37db8e9b1cd24f1f4f66dd0d91e7e1d844e5aca8ba -> 9504d825fe2c6fc15a06e9988dac5cfcc5d9b00f73b03d81f856e8d1eb42d85a
+~ _FpIterate : sha256 97aa6f818577649bb1114c186d2d5d8f508d940e7a167ef035d57e43d95ff41b -> 4889f3d24ea8d199e08999e3c1b777a95b8b57a356cd18310f14a246da83f975
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Sources/XsanFS/snfs/libutil/alloc.c"
++ "/AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Sources/XsanFS/snfs/libutil/cvras.c"
++ "/AppleInternal/Library/BuildRoots/4~CR6kugAsAO-Z2xvge2f4o3g9SnrYPGr3zsL1w4M/Library/Caches/com.apple.xbs/TemporaryDirectory.13sYI9/Sources/XsanFS/snfs/libutil/sock46.c"
+- "/AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Sources/XsanFS/snfs/libutil/alloc.c"
+- "/AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Sources/XsanFS/snfs/libutil/cvras.c"
+- "/AppleInternal/Library/BuildRoots/4~CQdcugBAe334_ZrQY8Io2Uh2VGCXFZXwara6HJk/Library/Caches/com.apple.xbs/TemporaryDirectory.xhos8y/Sources/XsanFS/snfs/libutil/sock46.c"
+
+```

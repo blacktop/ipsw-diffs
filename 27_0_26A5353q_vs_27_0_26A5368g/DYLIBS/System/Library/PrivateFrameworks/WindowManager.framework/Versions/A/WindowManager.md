@@ -1,0 +1,541 @@
+## WindowManager
+
+> `/System/Library/PrivateFrameworks/WindowManager.framework/Versions/A/WindowManager`
+
+```diff
+
+-439.0.501.0.0
+-  __TEXT.__text: 0xe99b4 sha256:a746e82ccc6ad43739d888a1d073a05463d3a805ae492536930eb89e6d78d11d
+-  __TEXT.__objc_methlist: 0x1fb0 sha256:cc670dba18d83d21b33301546fe7a47b139f9580ffc7a9a1802e927cdad67c48
+-  __TEXT.__cstring: 0x1e93 sha256:a7d0b0410f6b043cf628671e00a32df56153c5328cb548bb829a92bfcee5180e
+-  __TEXT.__swift5_typeref: 0x3e47 sha256:75423bd3daa7b24c82814ec800bd41a10e40f807075d11d5b98fe105b53e9489
+-  __TEXT.__const: 0x11b64 sha256:1e3db0195b5ce09c507c933b8ed5e04b5e085799d42941c9f897f88b7384703f
+-  __TEXT.__swift5_capture: 0x32d8 sha256:5a5fa5c9b0d826a52248ae0a7a382c115019d7e2c770f8749106726a5b8be372
+-  __TEXT.__swift5_reflstr: 0x2ded sha256:a3c9721126dfe0eb98df5267e1e821da132e5da1b2eb91b9d87b4f19db37b14c
+-  __TEXT.__swift5_assocty: 0x5b8 sha256:16501e101c1d7731fdb7cb1b16de308091052be9c51704c9e8a62b5038734d4f
+-  __TEXT.__constg_swiftt: 0x39d0 sha256:f6ec1e8ab115bf633f37f63db969c6706041a2f9d9c76f622dcdf430d67e6fb7
+-  __TEXT.__swift5_fieldmd: 0x3e9c sha256:0ba0aea7d1a593b14bc74f51727c0d57fb9ae76bcf0835002fd0fbce353ecc05
+-  __TEXT.__swift5_builtin: 0x140 sha256:c02a7ddd576f98021a9971be4e7a086d10a25b78403aebacec88d726e9347ef1
+-  __TEXT.__swift5_proto: 0xd4c sha256:a0e7cc7093a7d2ef449854d8bb521c08f8d0590e483e89692bf16e6ade4f26b6
+-  __TEXT.__swift5_types: 0x504 sha256:76a4c19f4dfb7d661a00767c6cca4597ff716467e3f77655f789690fad63fa76
+-  __TEXT.__oslogstring: 0x339d sha256:f32d4e48bae79460dfb7d5125ae3d77ebc8fec610d5ca8f2f9ebdc68c82cbd53
+-  __TEXT.__swift5_protos: 0x5c sha256:17648fc8ea0f0952f83639822822dd9bd927c941dbf8d9bc7146cb7a9a3dc602
+-  __TEXT.__swift5_mpenum: 0x40 sha256:a76290f306d71e43db00179539fb05023f766ddff9ff760c61f8285fa2fa5fe5
+-  __TEXT.__swift_as_entry: 0x10 sha256:ddb98afa550f7d315305bb93bb6d804d312451d30fe2ac2787d38b62820d2867
+-  __TEXT.__swift_as_ret: 0x4 sha256:ea939a70fb85c203d15868ec859f9774d15dbf205a442ed38d7e0f54af3ef0bc
+-  __TEXT.__swift_as_cont: 0xc sha256:d7aaa1eaa4a460a9b06aa41611cebf7343ed406b1e47444f4932c60e9c64c0c1
+-  __TEXT.__unwind_info: 0x44f0 sha256:3225fac9191bd79b43fbdd6381c9dc3ff5bdd0c99db1cce4c20510918f1ffb54
+-  __TEXT.__eh_frame: 0x3eb0 sha256:46b04d0290074dc2f458c5351a1966e820e34b3b38eabeea082cd8b7faae9336
++447.0.0.0.0
++  __TEXT.__text: 0xf3520 sha256:9b3128ed409c1fb142d1a67b37a393ef3a008d0afa89803d3fa688a30c87c311
++  __TEXT.__objc_methlist: 0x2114 sha256:426971a1cbee78e0c638293569600b6e09e88dee8d0eb7d04591bfa663986318
++  __TEXT.__cstring: 0x2003 sha256:9cbe826584a12b23f20b09ff15a61e9596ef5235a3256cc6e2ec321f3f960332
++  __TEXT.__swift5_typeref: 0x4077 sha256:1b34380b2cba4690d5872630e7dec45f4f2556fe2181cfc40e82f4d20d897e15
++  __TEXT.__const: 0x12b34 sha256:bcb32e4f2986b83715ed20fae1f24d2624372fc6600b86d7ae64809eae13d3c9
++  __TEXT.__swift5_capture: 0x35b8 sha256:ee2d398d84b2d5ac3923f0f7dbfa80eaae8e3212e9b6250ec7f801ef0412d390
++  __TEXT.__swift5_reflstr: 0x2f8d sha256:2b1c407610765143e1a4218e74f8fbe0f24721ae799f8dbdac9074b78a79eb81
++  __TEXT.__swift5_assocty: 0x630 sha256:64c0334676d81cccd58900336afdefff539dd87d90081397a0b9d0d554b9d92d
++  __TEXT.__constg_swiftt: 0x3c88 sha256:fd180df18587b931c1fac2a5aac6b66587fad7f89b34b9762df789859333a1ff
++  __TEXT.__swift5_fieldmd: 0x41f0 sha256:50b0f7b7ad71626cd5728dc6b3d4438d01c20e9380e7486e8bd90f10142bf0d1
++  __TEXT.__swift5_builtin: 0x154 sha256:43400cece483b8ea378b973f65314c53f6adbbe738cfe04b10712f78fc6a1de0
++  __TEXT.__swift5_proto: 0xe28 sha256:d7a4ec67319bb4d46cba94cb25eec389ae6b8496ac194881896c99958f440d51
++  __TEXT.__swift5_types: 0x53c sha256:1d05f1a598b7bbf2b0b8f61db221322a62174f263c8841940197790aa6ec7ac9
++  __TEXT.__oslogstring: 0x357d sha256:9cc26d95f72705e3264a2ba48b051b6eebf5113fd29a0a41a0a86622f80943a0
++  __TEXT.__swift5_protos: 0x60 sha256:e84a9e494c03ae7e31af761e5838dfacc527910365858d3fc70a955a8ba5b792
++  __TEXT.__swift5_mpenum: 0x50 sha256:0d9dae1e7e7bca10ba58d03545e4d53cbceaa490b94d09d8229d651d4d18e998
++  __TEXT.__swift_as_entry: 0x10 sha256:43cea936d3a3afe97794bc1b33ddebfba5cf29210b1e492c0f58355dd50d1a22
++  __TEXT.__swift_as_ret: 0x4 sha256:1c445ac8fa187dc671dc74a494af55311a2096c4751c195742cfaba9e33770f5
++  __TEXT.__swift_as_cont: 0xc sha256:7be65903f039a4625b128397e129b9bfa2b787d741959d7f5690a5f6e2c3f7e4
++  __TEXT.__unwind_info: 0x4838 sha256:856be6e2edb6fa7b5e009738eeac1c4edb68e2eb457ea8834df031bb7d70d40c
++  __TEXT.__eh_frame: 0x41e8 sha256:e42868b2d0d52393f4ca963bfc5c3d0f4b2a99fae6ee825e851cd5e20e70685c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xcc8 sha256:7ad6b6852079e1c2ee32bb11dbdef17d9b0b067b6ec2edd69ae8e9f72a401d78
+-  __DATA_CONST.__objc_classlist: 0x180 sha256:d3c6fc37babce83303ea2061bcbee383c9aa6ccd2ee0666658e39f9d26043654
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:87d468db3e71e9835543b6233779ad1de223b8f5464d6c56affe761cf7a71441
+-  __DATA_CONST.__objc_protolist: 0x50 sha256:e3e21852a069bfabc7d4f24fe4d5744fa366f3e8d20bba139b7a2747160b346d
++  __DATA_CONST.__const: 0xd28 sha256:43b57dcef8624d1845138e159f6860f836e54dddaef2d5c7dead346f2a4fe803
++  __DATA_CONST.__objc_classlist: 0x198 sha256:fc403810c56c4598da5489c10db9473ec721135a5464926d9ed289c974c2f397
++  __DATA_CONST.__objc_catlist: 0x8 sha256:41dc52c22f4bb99fb9a4efef0cf754ee24073268bce2c0e66f19dd14382b0044
++  __DATA_CONST.__objc_protolist: 0x50 sha256:aefb341f12c45807261cb795d35954487584af6dc890c3a613ee5b91076cdc56
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xf50 sha256:cc951ba8f06df2196de461ee855340c69b9824313c9e4331308e4cbc6c500aeb
+-  __DATA_CONST.__objc_protorefs: 0x30 sha256:2bebd5ef247fce712065b089ed2a25e5a6157ff550e7e9ae4151be57e7204d30
++  __DATA_CONST.__objc_selrefs: 0xfb8 sha256:34a41d564126f579b037103f0938da212f4a51d915779fb87e9ac92c31246098
++  __DATA_CONST.__objc_protorefs: 0x30 sha256:500b714e3de9e45e2a6a7899fa1e7e627a648673023182f05a4fa7972c540db5
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x10710 sha256:40f2a90bed618c622801e470794818485b9d872cb3c638105e91a9c1448d1289
+-  __AUTH_CONST.__objc_const: 0x36b8 sha256:19b9912281b6c16e6f38628bade4e2bdb96c2762dcd66eb64d5a418876eebe33
+-  __AUTH_CONST.__auth_got: 0xe48 sha256:8481efabdade8976126aae06eed415f0536dee8cda96c25e2e5f1d8ca842ecbe
+-  __AUTH.__objc_data: 0xad0 sha256:8d135e9868af8b66b36cba7091497aad19be20d6de2398d6d6714d298f54c450
+-  __AUTH.__data: 0xd20 sha256:b37fab086e30e28e3d446b05a0b644da7c52e0ab93e421eac35afc7cbfdff64a
+-  __DATA.__data: 0x22c0 sha256:db9e65e024626734c481e65dc9c90703ed68627d76849d6df5e7ac2ba70c85d6
+-  __DATA.__bss: 0x15670 sha256:4d503f08d39b048cacbd02c6d0af6e368cf2008691a5cefe5668329f66b2b33f
++  __AUTH_CONST.__const: 0x116d8 sha256:5b294ed6552c5c6af92eb3932296769e6d324f8e47d4f91589132a31b1b81b66
++  __AUTH_CONST.__objc_const: 0x3920 sha256:025497f8a3e5dae9ca04a8efa04c3e497e0ef499d5f457469fc142cc75d008de
++  __AUTH_CONST.__auth_got: 0xe60 sha256:5bf20baa8e81253184e83e29702e76687430b972a8233683351fa1a158abdcff
++  __AUTH.__objc_data: 0xcb8 sha256:c479ca5ead31ceba193a5044e1a9281bd51173535416a15268cfbe6af46d266b
++  __AUTH.__data: 0xeb0 sha256:0cf51ec5cba6a59c3524ac6fc43de1c8de4373ac689a66ee38c6869ca1eb35a6
++  __DATA.__data: 0x24e0 sha256:c67043074807d433281439002599448f67bf7c77f8aa025be4edebb16025d8f1
++  __DATA.__bss: 0x171a0 sha256:bacda2fa87af4cd7f5bdfedce2e69434436414b961bd04d5d7dcd3f9210a68ec
+   __DATA.__common: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
+-  __DATA_DIRTY.__objc_data: 0xe08 sha256:6379814bcb01630cbdcac7a74ee6721f699372ddf1158d2d3b96810105370e1d
+-  __DATA_DIRTY.__data: 0x1968 sha256:facbd25516fd13a7ef604bab032ae9e9289c54c9c1a181f87cf6cd893058ac18
++  __DATA_DIRTY.__objc_data: 0xe08 sha256:7c7edef75d3c4a6851ba186607abb5edf4b85d2265dc23dbd084116903e74fb7
++  __DATA_DIRTY.__data: 0x1988 sha256:d4f2cc64eaa3ee9b920a3a361d772ef48178d42b4236e13c4b1eaa27ce94e70c
+   __DATA_DIRTY.__bss: 0x4f00 sha256:e93ecb7f8ca50ae76aa7909234a12766077560f854a52c3a1fd541fe52a64de1
+   __DATA_DIRTY.__common: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: EF6C3931-309F-3BB7-BDB3-20EA61FA00A8
+-  Functions: 10518
+-  Symbols:   5038
+-  CStrings:  402
++  UUID: 535B41AE-07C7-3D63-A919-7DD7E2E7B77A
++  Functions: 11011
++  Symbols:   5260
++  CStrings:  428
+ 
+Symbols:
++ _MergedGlobals.1269
++ _OBJC_CLASS_$_WindowManagerXPCExposeShownBy
++ _OBJC_CLASS_$_WindowManagerXPCSystemGestureDisableAssertionID
++ _OBJC_METACLASS_$_WindowManagerXPCExposeShownBy
++ _OBJC_METACLASS_$_WindowManagerXPCSystemGestureDisableAssertionID
++ _OUTLINED_FUNCTION_219
++ _OUTLINED_FUNCTION_220
++ _OUTLINED_FUNCTION_221
++ _OUTLINED_FUNCTION_222
++ _OUTLINED_FUNCTION_223
++ _OUTLINED_FUNCTION_224
++ _PROTOCOLS_WindowManagerXPCExposeDisableAssertionID.153
++ _PROTOCOLS_WindowManagerXPCExposeGestureAssertionDirection.146
++ _PROTOCOLS_WindowManagerXPCExposeGestureAssertionID.139
++ _PROTOCOLS_WindowManagerXPCExposeShownBy.132
++ _PROTOCOLS_WindowManagerXPCSystemGestureDisableAssertionID.160
++ _PROTOCOLS__TtC13WindowManager16AdminXPCListener.61
++ _PROTOCOLS__TtC13WindowManager37WindowManagerXPCTilingPositionRequest.167
++ __CLASS_METHODS_WindowManagerXPCExposeShownBy
++ __CLASS_METHODS_WindowManagerXPCSystemGestureDisableAssertionID
++ __CLASS_PROPERTIES_WindowManagerXPCExposeShownBy
++ __CLASS_PROPERTIES_WindowManagerXPCSystemGestureDisableAssertionID
++ __DATA_WindowManagerXPCExposeShownBy
++ __DATA_WindowManagerXPCSystemGestureDisableAssertionID
++ __DATA__TtC13WindowManager29SystemGestureDisableAssertion
++ __INSTANCE_METHODS_WindowManagerXPCExposeShownBy
++ __INSTANCE_METHODS_WindowManagerXPCSystemGestureDisableAssertionID
++ __IVARS_WindowManagerXPCExposeShownBy
++ __IVARS_WindowManagerXPCSystemGestureDisableAssertionID
++ __IVARS__TtC13WindowManager29SystemGestureDisableAssertion
++ __METACLASS_DATA_WindowManagerXPCExposeShownBy
++ __METACLASS_DATA_WindowManagerXPCSystemGestureDisableAssertionID
++ __METACLASS_DATA__TtC13WindowManager29SystemGestureDisableAssertion
++ __PROTOCOLS_WindowManagerXPCExposeShownBy
++ __PROTOCOLS_WindowManagerXPCSystemGestureDisableAssertionID
++ ___swift_memcpy768_8
++ __swift__destructor.119
++ __swift__destructor.133
++ __swift__destructor.140
++ __swift__destructor.150
++ __swift__destructor.175
++ __swift__destructor.62
++ __swift_closure_destructor.100
++ __swift_closure_destructor.110
++ __swift_closure_destructor.113
++ __swift_closure_destructor.116
++ __swift_closure_destructor.1204
++ __swift_closure_destructor.1213
++ __swift_closure_destructor.122
++ __swift_closure_destructor.1224
++ __swift_closure_destructor.1228
++ __swift_closure_destructor.1234
++ __swift_closure_destructor.1237
++ __swift_closure_destructor.1240
++ __swift_closure_destructor.1262
++ __swift_closure_destructor.1266
++ __swift_closure_destructor.144
++ __swift_closure_destructor.1483
++ __swift_closure_destructor.1487
++ __swift_closure_destructor.1491
++ __swift_closure_destructor.1495
++ __swift_closure_destructor.1499
++ __swift_closure_destructor.1503
++ __swift_closure_destructor.1507
++ __swift_closure_destructor.1511
++ __swift_closure_destructor.1515
++ __swift_closure_destructor.1519
++ __swift_closure_destructor.1523
++ __swift_closure_destructor.1527
++ __swift_closure_destructor.1530
++ __swift_closure_destructor.1533
++ __swift_closure_destructor.154
++ __swift_closure_destructor.165
++ __swift_closure_destructor.2112
++ __swift_closure_destructor.2116
++ __swift_closure_destructor.2120
++ __swift_closure_destructor.2124
++ __swift_closure_destructor.2128
++ __swift_closure_destructor.2132
++ __swift_closure_destructor.2136
++ __swift_closure_destructor.2140
++ __swift_closure_destructor.2144
++ __swift_closure_destructor.2148
++ __swift_closure_destructor.2152
++ __swift_closure_destructor.2156
++ __swift_closure_destructor.2160
++ __swift_closure_destructor.2164
++ __swift_closure_destructor.2168
++ __swift_closure_destructor.2172
++ __swift_closure_destructor.2176
++ __swift_closure_destructor.2180
++ __swift_closure_destructor.2184
++ __swift_closure_destructor.2188
++ __swift_closure_destructor.2192
++ __swift_closure_destructor.2196
++ __swift_closure_destructor.2200
++ __swift_closure_destructor.2204
++ __swift_closure_destructor.2208
++ __swift_closure_destructor.2212
++ __swift_closure_destructor.2216
++ __swift_closure_destructor.2220
++ __swift_closure_destructor.2224
++ __swift_closure_destructor.2228
++ __swift_closure_destructor.2232
++ __swift_closure_destructor.2236
++ __swift_closure_destructor.2240
++ __swift_closure_destructor.2244
++ __swift_closure_destructor.2248
++ __swift_closure_destructor.2252
++ __swift_closure_destructor.234Tm
++ __swift_closure_destructor.237
++ __swift_closure_destructor.240
++ __swift_closure_destructor.249
++ __swift_closure_destructor.252
++ __swift_closure_destructor.256
++ __swift_closure_destructor.260
++ __swift_closure_destructor.44
++ __swift_closure_destructor.66Tm
++ __swift_closure_destructor.82
++ __swift_closure_destructor.85
++ _associated conformance 13WindowManager0aB13ExposeShownByO03AppC10CodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLOSHAASQ
++ _associated conformance 13WindowManager0aB13ExposeShownByO03AppC10CodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13WindowManager0aB13ExposeShownByO03AppC10CodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13WindowManager0aB13ExposeShownByO10CodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLOSHAASQ
++ _associated conformance 13WindowManager0aB13ExposeShownByO10CodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13WindowManager0aB13ExposeShownByO10CodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13WindowManager0aB13ExposeShownByO17DesktopCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLOSHAASQ
++ _associated conformance 13WindowManager0aB13ExposeShownByO17DesktopCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13WindowManager0aB13ExposeShownByO17DesktopCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13WindowManager0aB13ExposeShownByO19UndefinedCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13WindowManager0aB13ExposeShownByO19UndefinedCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13WindowManager0aB13ExposeShownByO24MissionControlCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLOSHAASQ
++ _associated conformance 13WindowManager0aB13ExposeShownByO24MissionControlCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13WindowManager0aB13ExposeShownByO24MissionControlCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13WindowManager0aB13ExposeShownByOSHAASQ
++ _associated conformance 13WindowManager0aB14DesktopShownByOSHAASQ
++ _associated conformance 13WindowManager0aB16AppExposeShownByOSHAASQ
++ _associated conformance 13WindowManager0aB21MissionControlShownByOSHAASQ
++ _associated conformance 13WindowManager29SystemGestureDisableAssertionC2IDV10CodingKeys33_5E40FE6C0F8740B8BA9547C6C3EAC516LLOSHAASQ
++ _associated conformance 13WindowManager29SystemGestureDisableAssertionC2IDV10CodingKeys33_5E40FE6C0F8740B8BA9547C6C3EAC516LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13WindowManager29SystemGestureDisableAssertionC2IDV10CodingKeys33_5E40FE6C0F8740B8BA9547C6C3EAC516LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13WindowManager29SystemGestureDisableAssertionC2IDVSHAASQ
++ _keypath_get_selector_MissionControlTopZoneMaxAngleFromVerticalRadians
++ _keypath_get_selector_MissionControlTopZonePostEntryDistance
++ _keypath_get_selector_SpacesBarDeleteButtonHoverDelay
++ _keypath_get_selector_WindowTilingMaxYVelocityProjectionThreshold
++ _keypath_get_selector_WindowTilingVelocityWindow
++ _objc_msgSend$MissionControlTopZoneMaxAngleFromVerticalRadians
++ _objc_msgSend$MissionControlTopZonePostEntryDistance
++ _objc_msgSend$SpacesBarDeleteButtonHoverDelay
++ _objc_msgSend$WindowTilingMaxYVelocityProjectionThreshold
++ _objc_msgSend$WindowTilingVelocityWindow
++ _objc_msgSend$setMissionControlTopZoneMaxAngleFromVerticalRadians:
++ _objc_msgSend$setMissionControlTopZonePostEntryDistance:
++ _objc_msgSend$setSpacesBarDeleteButtonHoverDelay:
++ _objc_msgSend$setWindowTilingMaxYVelocityProjectionThreshold:
++ _objc_msgSend$setWindowTilingVelocityWindow:
++ _objc_msgSend$xpcExposeCoordinator:toggleExposeMode:transition:shownBy:completion:
++ _objc_msgSend$xpcReleaseSystemGestureDisableAssertion:completion:
++ _objc_msgSend$xpcTakeSystemGestureDisableAssertion:completion:
++ _symbolic $s13WindowManager37SystemGestureDisableAssertionDelegateP
++ _symbolic _____ 13WindowManager0aB13ExposeShownByO
++ _symbolic _____ 13WindowManager0aB13ExposeShownByO03AppC10CodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____ 13WindowManager0aB13ExposeShownByO10CodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____ 13WindowManager0aB13ExposeShownByO17DesktopCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____ 13WindowManager0aB13ExposeShownByO19UndefinedCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____ 13WindowManager0aB13ExposeShownByO24MissionControlCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____ 13WindowManager0aB14DesktopShownByO
++ _symbolic _____ 13WindowManager0aB16AppExposeShownByO
++ _symbolic _____ 13WindowManager0aB16XPCExposeShownByC
++ _symbolic _____ 13WindowManager0aB21MissionControlShownByO
++ _symbolic _____ 13WindowManager0aB34XPCSystemGestureDisableAssertionIDC
++ _symbolic _____ 13WindowManager29SystemGestureDisableAssertionC
++ _symbolic _____ 13WindowManager29SystemGestureDisableAssertionC2IDV
++ _symbolic _____ 13WindowManager29SystemGestureDisableAssertionC2IDV10CodingKeys33_5E40FE6C0F8740B8BA9547C6C3EAC516LLO
++ _symbolic _____Sg 13WindowManager29SystemGestureDisableAssertionC2IDV
++ _symbolic _____SgXw 13WindowManager29SystemGestureDisableAssertionC
++ _symbolic ______pSgXw 13WindowManager37SystemGestureDisableAssertionDelegateP
++ _symbolic _____y_____G 13WindowManager6XPCBox33_64AD4EA429A28A74578518DEF3F56893LLV AA0aB13ExposeShownByO
++ _symbolic _____y_____G 13WindowManager6XPCBox33_64AD4EA429A28A74578518DEF3F56893LLV AA29SystemGestureDisableAssertionC2IDV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13WindowManager0dE13ExposeShownByO03AppF10CodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13WindowManager0dE13ExposeShownByO10CodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13WindowManager0dE13ExposeShownByO17DesktopCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13WindowManager0dE13ExposeShownByO19UndefinedCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13WindowManager0dE13ExposeShownByO24MissionControlCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13WindowManager29SystemGestureDisableAssertionC2IDV10CodingKeys33_5E40FE6C0F8740B8BA9547C6C3EAC516LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13WindowManager0dE13ExposeShownByO03AppF10CodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13WindowManager0dE13ExposeShownByO10CodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13WindowManager0dE13ExposeShownByO17DesktopCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13WindowManager0dE13ExposeShownByO19UndefinedCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13WindowManager0dE13ExposeShownByO24MissionControlCodingKeys33_C7E8A7DD4158F21EE53F4230B7A07571LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13WindowManager29SystemGestureDisableAssertionC2IDV10CodingKeys33_5E40FE6C0F8740B8BA9547C6C3EAC516LLO
++ _symbolic _____y_____GSg 13WindowManager6XPCBox33_64AD4EA429A28A74578518DEF3F56893LLV AA29SystemGestureDisableAssertionC2IDV
++ block_copy_helper.103
++ block_copy_helper.114
++ block_copy_helper.12
++ block_copy_helper.129
++ block_copy_helper.136
++ block_copy_helper.139
++ block_copy_helper.146
++ block_copy_helper.156
++ block_copy_helper.159
++ block_copy_helper.171
++ block_copy_helper.185
++ block_copy_helper.193
++ block_copy_helper.201
++ block_copy_helper.204
++ block_copy_helper.207
++ block_copy_helper.217
++ block_copy_helper.227
++ block_copy_helper.230
++ block_copy_helper.245
++ block_copy_helper.263
++ block_copy_helper.267
++ block_copy_helper.48
++ block_copy_helper.55
++ block_copy_helper.58
++ block_copy_helper.72
++ block_copy_helper.75
++ block_copy_helper.86
++ block_copy_helper.93
++ block_copy_helper.96
++ block_descriptor.105
++ block_descriptor.116
++ block_descriptor.131
++ block_descriptor.138
++ block_descriptor.14
++ block_descriptor.141
++ block_descriptor.148
++ block_descriptor.158
++ block_descriptor.161
++ block_descriptor.173
++ block_descriptor.187
++ block_descriptor.195
++ block_descriptor.203
++ block_descriptor.206
++ block_descriptor.209
++ block_descriptor.219
++ block_descriptor.229
++ block_descriptor.232
++ block_descriptor.247
++ block_descriptor.265
++ block_descriptor.269
++ block_descriptor.50
++ block_descriptor.57
++ block_descriptor.60
++ block_descriptor.74
++ block_descriptor.77
++ block_descriptor.88
++ block_descriptor.95
++ block_descriptor.98
++ block_destroy_helper.104
++ block_destroy_helper.115
++ block_destroy_helper.13
++ block_destroy_helper.130
++ block_destroy_helper.137
++ block_destroy_helper.140
++ block_destroy_helper.147
++ block_destroy_helper.157
++ block_destroy_helper.160
++ block_destroy_helper.172
++ block_destroy_helper.186
++ block_destroy_helper.194
++ block_destroy_helper.202
++ block_destroy_helper.205
++ block_destroy_helper.208
++ block_destroy_helper.218
++ block_destroy_helper.228
++ block_destroy_helper.231
++ block_destroy_helper.246
++ block_destroy_helper.264
++ block_destroy_helper.268
++ block_destroy_helper.49
++ block_destroy_helper.56
++ block_destroy_helper.59
++ block_destroy_helper.73
++ block_destroy_helper.76
++ block_destroy_helper.87
++ block_destroy_helper.94
++ block_destroy_helper.97
+- _MergedGlobals.1224
+- _PROTOCOLS_WindowManagerXPCExposeDisableAssertionID.146
+- _PROTOCOLS_WindowManagerXPCExposeGestureAssertionDirection.139
+- _PROTOCOLS_WindowManagerXPCExposeGestureAssertionID.132
+- _PROTOCOLS__TtC13WindowManager16AdminXPCListener.59
+- _PROTOCOLS__TtC13WindowManager37WindowManagerXPCTilingPositionRequest.153
+- ___swift_memcpy722_8
+- __swift__destructor.115
+- __swift__destructor.129
+- __swift__destructor.136
+- __swift__destructor.146
+- __swift__destructor.171
+- __swift__destructor.58
+- __swift_closure_destructor.106
+- __swift_closure_destructor.109
+- __swift_closure_destructor.112
+- __swift_closure_destructor.1162
+- __swift_closure_destructor.1165
+- __swift_closure_destructor.1168
+- __swift_closure_destructor.1172
+- __swift_closure_destructor.1176
+- __swift_closure_destructor.118
+- __swift_closure_destructor.1189
+- __swift_closure_destructor.1192
+- __swift_closure_destructor.1198
+- __swift_closure_destructor.1202
+- __swift_closure_destructor.1206
+- __swift_closure_destructor.1214
+- __swift_closure_destructor.140
+- __swift_closure_destructor.1482
+- __swift_closure_destructor.1485
+- __swift_closure_destructor.1488
+- __swift_closure_destructor.1492
+- __swift_closure_destructor.1496
+- __swift_closure_destructor.150
+- __swift_closure_destructor.1500
+- __swift_closure_destructor.1504
+- __swift_closure_destructor.1508
+- __swift_closure_destructor.1512
+- __swift_closure_destructor.1516
+- __swift_closure_destructor.1520
+- __swift_closure_destructor.1524
+- __swift_closure_destructor.1528
+- __swift_closure_destructor.1532
+- __swift_closure_destructor.161
+- __swift_closure_destructor.233
+- __swift_closure_destructor.236
+- __swift_closure_destructor.40
+- __swift_closure_destructor.46
+- __swift_closure_destructor.60
+- __swift_closure_destructor.62Tm
+- __swift_closure_destructor.78
+- block_copy_helper.102
+- block_copy_helper.120
+- block_copy_helper.125
+- block_copy_helper.131
+- block_copy_helper.142
+- block_copy_helper.152
+- block_copy_helper.155
+- block_copy_helper.163
+- block_copy_helper.177
+- block_copy_helper.189
+- block_copy_helper.197
+- block_copy_helper.200
+- block_copy_helper.203
+- block_copy_helper.206
+- block_copy_helper.216
+- block_copy_helper.238
+- block_copy_helper.242
+- block_copy_helper.47
+- block_copy_helper.54
+- block_copy_helper.64
+- block_copy_helper.71
+- block_copy_helper.74
+- block_copy_helper.85
+- block_copy_helper.92
+- block_copy_helper.95
+- block_descriptor.104
+- block_descriptor.122
+- block_descriptor.127
+- block_descriptor.133
+- block_descriptor.144
+- block_descriptor.154
+- block_descriptor.157
+- block_descriptor.165
+- block_descriptor.179
+- block_descriptor.191
+- block_descriptor.199
+- block_descriptor.202
+- block_descriptor.205
+- block_descriptor.208
+- block_descriptor.218
+- block_descriptor.240
+- block_descriptor.244
+- block_descriptor.49
+- block_descriptor.56
+- block_descriptor.66
+- block_descriptor.73
+- block_descriptor.76
+- block_descriptor.87
+- block_descriptor.94
+- block_descriptor.97
+- block_destroy_helper.103
+- block_destroy_helper.121
+- block_destroy_helper.126
+- block_destroy_helper.132
+- block_destroy_helper.143
+- block_destroy_helper.153
+- block_destroy_helper.156
+- block_destroy_helper.164
+- block_destroy_helper.178
+- block_destroy_helper.190
+- block_destroy_helper.198
+- block_destroy_helper.201
+- block_destroy_helper.204
+- block_destroy_helper.207
+- block_destroy_helper.217
+- block_destroy_helper.239
+- block_destroy_helper.243
+- block_destroy_helper.48
+- block_destroy_helper.55
+- block_destroy_helper.65
+- block_destroy_helper.72
+- block_destroy_helper.75
+- block_destroy_helper.86
+- block_destroy_helper.93
+- block_destroy_helper.96
+CStrings:
++ "AdminXPCConnection xpcReleaseSystemGestureDisableAssertion"
++ "AdminXPCConnection xpcTakeSystemGestureDisableAssertion"
++ "AdminXPCListener adminXPCConnectionReleaseSystemGestureDisableAssertion"
++ "AdminXPCListener adminXPCConnectionTakeSystemGestureDisableAssertion"
++ "Asynchronously releasing system gesture disable assertion"
++ "Failed to release system gesture disable assertion"
++ "Failed to restart system gesture disable assertion: %@"
++ "Failed to take system gesture disable assertion"
++ "Synchronously taking system gesture disable assertion"
++ "WindowManager.WindowManagerXPCExposeShownBy"
++ "WindowManager.WindowManagerXPCSystemGestureDisableAssertionID"
++ "accessibility"
++ "applet"
++ "doubleTap"
++ "gesture"
++ "hotCorner"
++ "hotKey"
++ "menu"
++ "scroll"
++ "sink"
++ "sinkSpringing"
++ "springing"
++ "tabDock"
++ "tile"
++ "undefined"
++ "windowDrag"
+
+```

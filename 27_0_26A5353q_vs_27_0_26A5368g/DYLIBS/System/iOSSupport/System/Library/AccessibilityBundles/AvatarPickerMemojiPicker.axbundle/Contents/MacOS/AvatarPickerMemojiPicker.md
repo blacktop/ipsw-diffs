@@ -1,0 +1,76 @@
+## AvatarPickerMemojiPicker
+
+> `/System/iOSSupport/System/Library/AccessibilityBundles/AvatarPickerMemojiPicker.axbundle/Contents/MacOS/AvatarPickerMemojiPicker`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0x85c sha256:c79f37603d0b6f12ec20d0e0baf44b90c5085040bd40c300094d7d1f4e6765fb
+-  __TEXT.__objc_methlist: 0x80 sha256:e9cfdd03b373a7e82659a3e2a73eb47cb8cc6b11571fe06c76f65660a27105b9
++3039.1.0.0.0
++  __TEXT.__text: 0x858 sha256:f305694747d9b53a7c35082425d9bc357032cd9b4335d12629a5246bffed6990
++  __TEXT.__objc_methlist: 0x80 sha256:d63753c5b1345afdfbd16980dc107773b7ce1d3f59c4ab2f45cae2906af8a58c
+   __TEXT.__const: 0x10 sha256:c1cbe048bd9d3073e48c6714abc2af5b957bd245128f779ec593a3a1ed286853
+   __TEXT.__gcc_except_tab: 0x2c sha256:7f443eeb211ca8df6c24948b1684e3c75e2dea46174d01df6c603e2d41a37a8b
+   __TEXT.__cstring: 0x177 sha256:55bba2ed2e7caccae8c2917d658b8d082260e46708d3a1baf0b374a13f0085b3
+-  __TEXT.__unwind_info: 0xb0 sha256:ee536da925a619c7abc85ae4842f01b3f238df6a95218c2096e19b9238d045e9
++  __TEXT.__unwind_info: 0xb0 sha256:2e336c7f0a4e7bd1541ef537ac986f406ff33a3978e774f7ad3ee255c5effc4f
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x90 sha256:50c181b1c301f8906f36c443c3e0e28f5687c48e053d66090a13d03bb8691478
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:d5576d476d893d7b2870855055deca970c770b04205eb350b0519b930e4b90ad
++  __DATA_CONST.__const: 0x90 sha256:1a6246d9ee474b790d774e21011e81ea768ed8f66ea68695b6e4f55a5702a79e
++  __DATA_CONST.__objc_classlist: 0x18 sha256:0150e97b3bde5fa255d1d4ee177e20374ccfb88c80044f51e31adc985934d6fd
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xe8 sha256:e51b1d9e6efd3353036e822b8f27b118b8522cc4fb2f339226ebc0cb33c54959
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:56fce75513e6e939a365c68f65792d99625d2dd1fccc9bd0d81c9cb459be25ee
+-  __DATA_CONST.__got: 0x48 sha256:f0c2b040d3ac269180f222f5299ce2a9377a74d13327e9507968d22842c3429b
+-  __AUTH_CONST.__const: 0x60 sha256:4433b8f9e6cea5239f840f5c8bb8c8ba8e83dba85106de1a978dfc5f8901e60b
+-  __AUTH_CONST.__cfstring: 0x180 sha256:75442492eeef948579c6f1526c24438a61b3c353318c65a9cd98fd6db5a9ebe7
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:07cf51a54b7c383744ec713da1b9d1b46d4f755eb128c8eb757f6249546c7c6b
++  __DATA_CONST.__objc_selrefs: 0xe8 sha256:5c376780a58db60f662cb9f77d88df4f3c0b56fa87d911e40b264b1d85e9c198
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:de542a5c1d258760ccbeffa1b7f5e810a8549f3a6550ae618c24ec3d74f09219
++  __DATA_CONST.__got: 0x48 sha256:9d2b50c65a315fe81f41e3635603eb0bab6b493440145900fe0420ba9970d2a3
++  __AUTH_CONST.__const: 0x60 sha256:9efeb45d901e7cef32023de698a48b0c02994805087706e0fcfb3fee7ce31a2e
++  __AUTH_CONST.__cfstring: 0x180 sha256:7dd3d93480aefb7461f0bbac31e1fa82d4dee548c2225c11268dff9901eefe47
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:82965bcc16ab0a84250b6f2fc0e5de198064973017c540e2aa20ee57bf353c5e
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xf0 sha256:73e5fa40c7fb6a7ea97b490a9cd404563a8955bb38b11c20cd11d2fd1de4a000
++  __AUTH.__objc_data: 0xf0 sha256:6e681ec5b055789ed77bed558e34298576b2e0e6f2192cbeb355d6f729c8d204
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CD744FBB-5E80-3E7B-AC13-17A93CE44F81
++  UUID: FB84EA2A-1BFF-31DB-ACE5-75B068211AE0
+   Functions: 16
+   Symbols:   111
+   CStrings:  30
+Symbols:
++ __block_literal_global.357
++ __block_literal_global.366
+- __block_literal_global.351
+- __block_literal_global.360
+Functions:
+~ +[AVTUIAvatarPickerMemojiPickerViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 a4abad233c7eecaec24c143cf4c0070585afd2b50c8bf77e5ec8de19fe5b388c -> d98a25a2b4dd51f9fcb9190363390cb6761b2c056628a15d8fc76f485689559e
+~ +[AVTUIAvatarPickerMemojiPickerViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 3bea95d3c3db36ff9d7aa63dd5c21cca9ded124b2be32e58d30b0d935c52359d -> c286b93ab38b6805e605717521fe33e1f0276f36217f995cbb27530c6e13a54f
+~ +[AVTUIAvatarPickerMemojiPickerViewControllerAccessibility _accessibilityPerformValidations:] : sha256 fdc1d80518e7b8f83958bc7d9c631e15b8c88b3188402d38ecbb16cf113e0f15 -> cf0d39816edbf530386e61284e83c1f2790a0319a31e68cd547b51cea13d0d5f
+~ -[AVTUIAvatarPickerMemojiPickerViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : 436 -> 432
+~ -[AVTUIAvatarPickerMemojiPickerViewControllerAccessibility _axMarkupCell:atIndexPath:] : sha256 798c2a19b61b5e95439d79715be355dc24431412e9dcc7a30182c0d9c2b757ce -> 73af61936eba87931c8b86cf40d8401afef48f89f4ece38fcfddab9e96aa8835
+~ ___86-[AVTUIAvatarPickerMemojiPickerViewControllerAccessibility _axMarkupCell:atIndexPath:]_block_invoke : sha256 149b5b042c358679a7209808b1fcad8bc8291e2cfcfb9518bfbcc19f5b44e8ee -> be1613f4cdabae24111acc5ecad55d80f1749d94595e7dee76e07811fe87752b
+~ -[AVTUIAvatarPickerMemojiPickerViewControllerAccessibility _axLabelForIndexPath:] : sha256 83630199b4083a909f983e53f5b6cf466f36c4d08a48204dff9f881e8c881343 -> e0035c1b2225b0ab1dbd0720aee8511ba2911104a5f39f4b9ac5c256071f00f5
+~ ___Block_byref_object_dispose_ : sha256 7cbbddd8b657a276087eeaf67640f6f0be933648bfa1b10a27d5120cfa83bfe8 -> 5be9e12ce786f63101afe613961bc2a06676070e401eb6e72b6be972f900069d
+~ ___81-[AVTUIAvatarPickerMemojiPickerViewControllerAccessibility _axLabelForIndexPath:]_block_invoke : sha256 16d2fb2087737931f1b4eaff75dec13a4ced37106cbf7f4c2fc40e3603103bd0 -> f61b344ab68e6d784ed121659a81835fb96e29cc0aab1558f79e2f22ffbbfcd3
+~ -[AVTUIAvatarPickerMemojiPickerViewControllerAccessibility collectionView:cellForItemAtIndexPath:] : sha256 7529baaf4a04bb88d5a6e4b52aef3e60fee60f81ad16ac18f6b1e27b964c037d -> a701f8edff627a6ac21c898210813e1de2d58c07a703d47de399fe35b4f0a8c7
+~ +[AXAvatarPickerMemojiPickerGlue accessibilityInitializeBundle] : sha256 8f453fd10811dd5499ce763b6b2fa2d23240637b04e429ce5abedf3024dacb65 -> 20d2b21ad914669188ebb6c7194905952a3f017a336c0e5022e76af1781e044f
+~ ___63+[AXAvatarPickerMemojiPickerGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 0976cc932ac611dc7e9374e558eb7b39b073af739ab05d9eb2caa3111a873834 -> 05c89f2364d0a30a1095ab0f545b4c1e25cf4154a49179f8cc2d5cd885ba86ea
+~ ___63+[AXAvatarPickerMemojiPickerGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 1cfb35208ceab06cee3bbd2bae874821e350ca628b598b746d615a72140594ec -> 18bb7e5be3db51fca9caed8ac8ff762f2707e096344e711324eaba566a3feabb
+~ _accessibilityLocalizedString : sha256 df967ef8809464cc3c4d86288a8faa412f35cdae02242feffa2e2d0271e05c12 -> 32b198ac2469ba1cab0bdb49b212f6f26403aa4694b0f26c2f0e82a657828aac
+
+```

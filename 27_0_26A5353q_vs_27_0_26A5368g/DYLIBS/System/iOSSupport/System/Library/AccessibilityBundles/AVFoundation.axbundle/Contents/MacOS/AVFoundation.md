@@ -1,0 +1,102 @@
+## AVFoundation
+
+> `/System/iOSSupport/System/Library/AccessibilityBundles/AVFoundation.axbundle/Contents/MacOS/AVFoundation`
+
+```diff
+
+-3036.2.0.0.0
+-  __TEXT.__text: 0xe5c sha256:26c151f704dd61fb66135df4929fb67db0b74138da0741515c1dd11a1fe28d50
+-  __TEXT.__objc_methlist: 0x124 sha256:f21d5beb01be665a3a9b7e817459b82d493c87e55dab395a5182e721243c7aad
++3039.1.0.0.0
++  __TEXT.__text: 0xe54 sha256:65c5600b8c2dc600f7837ff0ee919f9907205d1fcda8d825c9d8045bb9892120
++  __TEXT.__objc_methlist: 0x124 sha256:0fed0fc3dc878c61f0e0c2a98534fafe305b635a407cd3af3debeb6c27e71a3e
+   __TEXT.__const: 0x18 sha256:8862264b342b02b516f752a2b2f0a6180586b7bca3018bbea17613fcbe230a82
+   __TEXT.__cstring: 0x194 sha256:8ef75a84913c2f80a44ebd6b2cedeed32ca27f119aa4de5240430f56484ddeab
+   __TEXT.__oslogstring: 0x95 sha256:2c40a5314ff3ef9f4c7fe2c3203533bda703140c0466bbcf0e4f75092e24269a
+-  __TEXT.__unwind_info: 0xc8 sha256:f67d76d38d1eed079e34038d7010150ddf65c1e1f50e0bd2d1287c0126b8f102
++  __TEXT.__unwind_info: 0xc8 sha256:39cba4a1daa2124aff1d482c0b8375d30de25500e26ed13f9e0144304e698cc4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x120 sha256:e7199f951d77a70fad80c73d4cc37617cda6ec34cfc19a71f38a5aa83c2ef753
+-  __DATA_CONST.__objc_classlist: 0x30 sha256:7be90b0fb5c9707795fd7dc12422ee2370e046af7d3e69169ca3729613d14734
++  __DATA_CONST.__const: 0x120 sha256:24d838b22feb9b655b841037ce33fb7652c95e5924caa43904a1c93c16cf9ede
++  __DATA_CONST.__objc_classlist: 0x30 sha256:71cf43fa25e7018ec248294936a4d42ef76dd0fe5f71531421b683d5e9c7b7d4
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x148 sha256:8af167a3027e29241bff9b8666c62ada71d313a399aede4745397d6e23511249
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:c0a659c5366b554f3707180bb302d8edc21a0b1f57e1006927e7f3fa4263028a
+-  __DATA_CONST.__got: 0x68 sha256:2688bf9399ea86012142565d79f9e3b6e271331eb7e9d321748aa40852d65461
+-  __AUTH_CONST.__const: 0xa0 sha256:468fe44cacac8663d578b78faad162eb37895735d187a867e4f0826ff4101ae7
+-  __AUTH_CONST.__cfstring: 0x1a0 sha256:68966dc161541a23facab4d202704d057835b6fab2fcdc0c07ee6d84af9ee94c
+-  __AUTH_CONST.__objc_const: 0x3f0 sha256:a16c895b53613e9dfac412f568f0086b6e4d6c873178582a1e783eb76f07bf63
++  __DATA_CONST.__objc_selrefs: 0x148 sha256:e2d6d525f161ffac2bbf2943b495128048abfc270c5e7eb84634eb5814ff72cd
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:421f2069318b6c69cd7da53dd8607bf0e487d9bf88ba0d13f1e1522d650ede48
++  __DATA_CONST.__got: 0x68 sha256:ed6e12a61b3800ac2d6497719e2dcc77eda4b3e596de87f537b56fd4d4956b3f
++  __AUTH_CONST.__const: 0xa0 sha256:b5ce436ac95a096f14f3dfc41ec5329f871f107f34f795d8dd7cd5428873c915
++  __AUTH_CONST.__cfstring: 0x1a0 sha256:4636103879ef3e38ffb15953d60c2c3628c3521a39efd1f870ff0dbaf1d94090
++  __AUTH_CONST.__objc_const: 0x3f0 sha256:e1246420cc7039739282e2debae69730c0acb209a1fae61cfdb051186c04604a
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:0c662edf16b7367b4d15b4f7463cc60b0958ae00b3e483262968148e6d200cb0
++  __AUTH.__objc_data: 0xa0 sha256:0ca00be936e2ce46bbbfd8b4808ec3e8306b1906582e722936bf414168b6ec00
+   __DATA.__objc_ivar: 0xc sha256:2e5c9862856b0c6f8e0cea23282dc6a269bad2a2cc34aa0668a8eeae66326835
+-  __DATA.__data: 0x8 sha256:bf109f9f5013af7d5377aa9d8639bc93cc9c102cd76252677365440a551b2953
++  __DATA.__data: 0x8 sha256:6821e955e40892c46ba16965ceb21929453c27902eff9436617aea9357ea1fda
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x140 sha256:b4a1079a08cb80c5d87772dc0f25bc8b86061d0b7891f756ff4ee30ebf170b8e
++  __DATA_DIRTY.__objc_data: 0x140 sha256:cf5f4a8fcd9cd8990e03eeab5920babcd11b3f6f6fbd63afd39fe50083cbb00c
+   __DATA_DIRTY.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F3C2A230-CB64-36FB-9E49-6AA4E2DB554A
++  UUID: FFF0C9C1-3C94-3D6C-9DE8-816DA14170DC
+   Functions: 29
+   Symbols:   177
+   CStrings:  38
+Symbols:
++ __86-[AXAVFoundationMediaDescriptionManager registerLegibilityTappingOnPlayer:playerItem:]_block_invoke.371
++ __86-[AXAVFoundationMediaDescriptionManager registerLegibilityTappingOnPlayer:playerItem:]_block_invoke.372
++ __block_literal_global.357
++ __block_literal_global.366
++ __block_literal_global.369
+- __86-[AXAVFoundationMediaDescriptionManager registerLegibilityTappingOnPlayer:playerItem:]_block_invoke.365
+- __86-[AXAVFoundationMediaDescriptionManager registerLegibilityTappingOnPlayer:playerItem:]_block_invoke.366
+- __block_literal_global.351
+- __block_literal_global.360
+- __block_literal_global.363
+Functions:
+~ +[AVPlayerItemAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 9bddbf622c31824d2b2c48b69864ce76247a7914122585dd244180cce932c65e -> dc3999eefb4600e6fbd365d623c2ad687f013005f513956e2edaa87ebbb11f84
+~ +[AVPlayerItemAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d0c559ef62d5281c42662f611105880fc581ef09d5099245890256327454c300 -> 71a5e4201c8fd250c49811e2cf5f859112aead7bc798f5c61964b0fa33f482c2
+~ +[AVPlayerItemAccessibility _accessibilityPerformValidations:] : sha256 2c803727bb91bd614c22e52b31d096b5de11d002bbe95c43fce667fa7556966b -> c178db988453a25924c3252893139a8e219b25121bc3cd70219f37bfb17a94fb
+~ -[AVPlayerItemAccessibility _attachToPlayer:] : sha256 9766bf0804ac886c5a3805643cc8ecacd5f0624c92aa2c28aa47a52cca302e2e -> e0dbe7ff2bb0862bdf6fd89d983faac8bcf8c0f4c1d6ea6e58566052a533d7b1
+~ +[AVPlayerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 f147879df2fc264152031dafebcc3059c0c5d11ceb17b6111715a01b2a03d2f4 -> df48d68cd23e0aef0eb6fc419c40df1ebf9e18e36106146ddf94132101ff0187
+~ +[AVPlayerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 da6c8de2cdf3ba3daa29f2a29c4ef0469138c4184020cfab77d6bd0e790f7f39 -> 2d96a5d956751265dfaf7c266f1fc0064cb40dcf3544fc4d15ce79dda1851454
+~ +[AVPlayerAccessibility _accessibilityPerformValidations:] : sha256 a01d41abd2ce9f2dedaf3244d803e5583d9cab9a7a0be6213eef7f230ade2a8a -> dada019b2baf1386c58977e30457f1fde13fbe07a5bd780ac8c4b6a259cbd393
+~ -[AVPlayerAccessibility _advanceCurrentItemAccordingToFigPlaybackItem:] : sha256 2ae4ad08dc5ad197d7d2265026110fa1ec9e5c07155f56a4b4a8f475bc58c0bf -> e77ac510f956b88089e8481563bcf7566a425c15875f611235567cf01aefb8f4
+~ +[AXAVFoundationGlue accessibilityInitializeBundle] : sha256 6a86ba06f0cce32d7d127ae1fdc0d03d943d172d08579ee8ae5e2f6093f5d220 -> fbca0ec92d304b1d656a9f56bd6dd3124714276301dc0d8a4475c5c6bb04806f
+~ ___51+[AXAVFoundationGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 4c0c2b96e73f13b54b803f6d845f7d61f889f1957704e2dc87d2360d74a8e502 -> fbb920b5de430cd2496b3fee365d0f99f50e31dfa630d86d8372950a7686846a
+~ ___51+[AXAVFoundationGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 ca5880933853e84a7fc7375b35d91c7f57e1ce32364cca23ff729921859dc21e -> 754cf019bea2ce20f4864d13bbaf054e7d3e05450c798891b315eea15ca68d86
+~ _accessibilityLocalizedString : sha256 3ba6df6cf5c05a0df888f857d65b2eec58d332e5133567cfbb382c3d95585c32 -> f68108a1e6c41961f313f5e36016e4d9cc4cb23e026bc114e5ef51555631b0ed
+~ +[AXAVFoundationMediaDescriptionManager sharedManagerIfExists] : sha256 68ca3e4cff67f84ae0f7ba14225a1b9bd9cde1e4fef81c1cfd64699a4f106bea -> 1d5553298ea481015160523d6a648c18bb47007d0d668b0be1ab8637392a263e
+~ +[AXAVFoundationMediaDescriptionManager sharedManager] : sha256 1038e83f03fdddd7e9f7241d2ffc34ddc2bd29bd1db75aa1596a9a1e63b907c8 -> 4b83d7a079f23d2e1c395a034e46147d0d0d6c371b1e3d934bee8317290d6fc4
+~ ___54+[AXAVFoundationMediaDescriptionManager sharedManager]_block_invoke : sha256 78131b3f4855cbd6a692613d6114d3fcb630b617d31929b52116b02df861ce53 -> 2fffbe19f29e5a2b4d5fc45c46f5412624a60c63885877c49923da085cbd8747
+~ -[AXAVFoundationMediaDescriptionManager init] : sha256 601e957f9f2e3113999fd832e5c562931097328ebc99957422b62e9f50d3099a -> f2717edfcd7b53c1b2d158a7c51b837b88c24d17b3f92dfbfa62883b5f9108b8
+~ -[AXAVFoundationMediaDescriptionManager registerLegibilityTappingOnPlayer:playerItem:] : sha256 4e4948ca290bf40588ec3b166d652bb97178764b927e945d8381fb1b5de2b1aa -> 2e49601ebe2f0f970f59cb0f42e576cb76944157d0d1ab03c0ec074691ffc55f
+~ ___86-[AXAVFoundationMediaDescriptionManager registerLegibilityTappingOnPlayer:playerItem:]_block_invoke : sha256 00e2576dd84cc06e8f0350dfeb3a7f94ac4bdc1fc98f56a357dca72416a63997 -> 98f953cdd518422fd880618777a48921a004186a98e444bae66adfb2b543dd65
+~ ___86-[AXAVFoundationMediaDescriptionManager registerLegibilityTappingOnPlayer:playerItem:]_block_invoke_2 : sha256 35c62167c465e3dd7e5a300f1d1eb5f6016649c6e34e969baf83ab7ec3d5fe6d -> 436adc28528a1a355a575916b95f1332c02307795fbeb1b4af9c9412b063afe7
+~ ___86-[AXAVFoundationMediaDescriptionManager registerLegibilityTappingOnPlayer:playerItem:]_block_invoke_3 : sha256 07c2bbe8461cdffc217752191a45546eb8a9a65994b679dbe71fb084033b3ce8 -> 439315473a1d475b510925e576850481ad51d209c866ba634279a697a8cad15b
+~ __86-[AXAVFoundationMediaDescriptionManager registerLegibilityTappingOnPlayer:playerItem:]_block_invoke.365 -> __86-[AXAVFoundationMediaDescriptionManager registerLegibilityTappingOnPlayer:playerItem:]_block_invoke.371 : sha256 019baf4a3586bacc029728e02b9164a659b8c1adbad161cd73dd00264d3b6089 -> 9d24109745fb4d203a8994b9b935d4dec3bb846f9dbc705808f43ca8329d612e
+~ __86-[AXAVFoundationMediaDescriptionManager registerLegibilityTappingOnPlayer:playerItem:]_block_invoke.366 -> __86-[AXAVFoundationMediaDescriptionManager registerLegibilityTappingOnPlayer:playerItem:]_block_invoke.372 : sha256 a01ecbcbec620a215ff69944429634b8570042078d1830c600dcb0d4955a589f -> c3aa0a3b251f3573b70ce412b93876d6877dd9d4ce0e145da6f68e8adfb3051d
+~ -[AXAVFoundationMediaDescriptionManager isTappingMediaDescriptions] : sha256 f55158964a9a2f06219b9039b290ef83ff05fb278794556e3e0adeb4857bbaab -> bfee575af3a8e519b4d53e388b18c9059623766a49aa9ebf8a8383c9c103a3e5
+~ ___67-[AXAVFoundationMediaDescriptionManager isTappingMediaDescriptions]_block_invoke : 276 -> 272
+~ -[AXAVFoundationMediaDescriptionManager _queue_itemNodeForPlayer:] : 336 -> 332
+~ -[AXAVFoundationMediaDescriptionManager isVoiceOverInTheTripleClickMenu] : sha256 0d232a120857ce7fa3ee993384a21b9ee97deb7f0e206a8db86759f232c59d30 -> 49b237041f2cfb36869f7837403fe486efdadd8901e262abe1861c0a47d2fb1b
+~ -[AXAVFoundationMediaDescriptionManager _shouldAttachLegibilityOutputToItem:] : sha256 22aeeaad336328c84d00b6baec04bd0dbabd9e0e91ca77dfa33c71324985e500 -> d4cf659dc31446e7611a2364a1020c3574d7ea753c9e22763c4b301639634d24
+~ -[AXAVFoundationMediaDescriptionManager .cxx_destruct] : sha256 4d22204ccbc3dd676ef4d5c0abb48d29eaee4f131da515ec329c8cdfe832c482 -> d31a58cd8f643c4663321665d3a3564c8e56ab50791ab7de7d4a3669693bf97e
+
+```

@@ -1,0 +1,65 @@
+## AggregateDictionary
+
+> `/System/Library/PrivateFrameworks/AggregateDictionary.framework/Versions/A/AggregateDictionary`
+
+```diff
+
+ 437.0.0.0.0
+-  __TEXT.__text: 0x444 sha256:f013c3f0285c4d9e71d50ea5d2ac04d4b042868fa26e95a62da8321c7e7f7f4f
+-  __TEXT.__objc_methlist: 0x34 sha256:009289ff226d1c949bbc2393228537293e94570ca6a5adf8b7695646964db8ae
++  __TEXT.__text: 0x444 sha256:f166c38ebd61a1c07816674f452411227f4ecb93bd2cacd7115e5810757bfe68
++  __TEXT.__objc_methlist: 0x34 sha256:946372420b80fac4228caa6066362e344564a2f9e281763451aa871b15e482c6
+   __TEXT.__const: 0x10 sha256:4ec16e42192fa806db329d900aa96f5f9f08095584a6ca1b6c07336e18efa32b
+   __TEXT.__cstring: 0x6 sha256:957563ee9c5b2129695eff99c2399504a77e966bd69c5bb2b4beb58bc7ce2b6c
+   __TEXT.__oslogstring: 0x36 sha256:15513a8a244c565b41302e3cc28ff7baee2b3eaabaec11c544ac5b67106d8cd9
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x20 sha256:58f241a5c9bcbc9444f3b16dbfa0ae4701e84495ea6ee29e83ff5bb820bfe700
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:16124213f8c1e71ae85e5b8a9b1a87727bb74cf583c5d373a715cbbf9b8cac04
++  __DATA_CONST.__const: 0x20 sha256:d8dd6d9ccc7d546b5ca7245343311cc46f9449b0aeb93672491e35de3d98ba40
++  __DATA_CONST.__objc_catlist: 0x8 sha256:12017ba8fe577282c2de6b21246291a3db61476ae82010974e85011069d64295
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x20 sha256:eac207828902f82597ebbfb5fb01a1808c2fd14a91d4bf7cec79ee9c940511ee
++  __DATA_CONST.__objc_selrefs: 0x20 sha256:f766815d2cc141f1dd23c789721059c3668a75d9d57dd055907ad32096065170
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x20 sha256:1e74b144a7fdfa300338bb59e13381102f76a58ae9a051542c39e4f6aab94ab7
+-  __AUTH_CONST.__objc_const: 0x40 sha256:4ed743dae469a3f9f28ac0254adab6da5e0d2d4744f2db312e5cb597d9628874
++  __AUTH_CONST.__const: 0x20 sha256:b3d8c13fa77b0e855629416faa0dfc22b46d3ed32c33428c5a35ce8e08d590dd
++  __AUTH_CONST.__objc_const: 0x40 sha256:327da8ce6538f390b8022e5be398377dd38dfb5dab0bd95f937ca2c9fe73e281
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F9D6E7F2-347D-31F0-9933-21458AC74F83
++  UUID: 3B2EE768-F099-3087-97EC-4D7D4670982A
+   Functions: 22
+   Symbols:   51
+   CStrings:  2
+Functions:
+~ _ADClientPushValueForDistributionKey : sha256 92801011162beae79a533bc26a2db8319b94366e670b008b3204de16e7f94215 -> 66b9ad09aca1725ce0d1c7b05d3e3081b91bcb45e911f3d73d03f596bc10e874
+~ _ADClientAddValueForScalarKey : sha256 eb2e35dac8e67a72bd3d1e51071e1e271474d33e5e053fb6d86a3d26efece5d8 -> 207c489d5acd29757372427dcad24a368705e0ec479239e9f71f326b150758ed
+~ _ADClientClearScalarKey : sha256 a897a4f03bc7d8431104862660d37b4f658e8fab5654e30b5230f3fc7e8f8e5a -> f805913043701a5a9b02fcfb7aa842fb780c9b14eadea067f23a7d311ab0630d
+~ _ADClientSetValueForScalarKey : sha256 38ce23c460d11c213ff579e11dac4dba027836820b37bada6f27f27486da4b93 -> 1188721ad49ea20f8c6f513a5e932b9c70c896e14a2d1755168ea69b1307e96d
+~ +[NSDate(AggregateDictionaryAdditions) daysSince1970] : sha256 9c503960f84f09f173c5fe2abda048c2892b70115dc0f6d23fe14f9e17d3cbfe -> ea9c36d1da6bbd47452e36b44d640d6abf7683a39598761dc04205aedeeef11d
+~ _ADDaysSince1970 : sha256 932776c66216c74b3a1b5e55aa665f54c3b8f83d1a6eed85a4987e3805831a73 -> 4ac63d698c2277e50c6b940f435f23833136d214a24c730202e3d2e8f5cbfe42
+~ +[NSDate(AggregateDictionaryAdditions) dateForDaysSince1970:] : sha256 2cf8ee347acc1aa6c81746bbe028b90ef41b55997ae6a441560d296f0ce86f91 -> 906734ef223f058068951923030421a9255e36ac83d81277916f23b5ea168841
+~ -[NSDate(AggregateDictionaryAdditions) daysSince1970] : sha256 0d3a742a0f9418e8e2e92506aa512af885fc80bff589a0c380d60f859c2476b1 -> d402faa9695dab17c7693ae1f902ec9bc6c42c0e6bce556bc5030c2f31a56cf1
+~ _ADClientIsEnabled : sha256 165295ff6f54e8f009b50e34b05aec77ecbbe8e6fd4bd59abcc0d047039918a9 -> 33d7191430fb5f0c4396bac86fa30c2986b474028c30e6b817c2e9ec4dc4e9ae
+~ _ADClientCommit : sha256 2c7e740a38f91bd887a027c28dc430bc33af18d93cca510fa8c3267cdfe344df -> 918410796c487d071cd1be6b09875d533f1c86b0423e2aa58f6da9d0c6f02b8c
+~ _ADClientCheckpoint : sha256 a1f15a8a0464643f82003d8b2dd542e864b3a57cd673861797d7da685df6103a -> 054a7ed995c289dcff6271e56b955307a8c538fcd433e173ffe1800b41f46fc5
+~ _ADClientSignificantTimeChanged : sha256 b21641d45fd4d66c224c7eeeb4d09ba0ce03a7655dd38a3088ce785c61c02ba9 -> 449ea7a476b777560f4a6a31ea604d1cd149128d28187e39936e7b0b84cea542
+~ _ADClientClearDistributionKey : sha256 5948b5960251fc270316bf774f8099380fa63498f50cd6460c7579a320272e11 -> b2fc916c07a0ac60a6ad8cf304814216d606613766bb8a571aec11c06d3af24f
+~ _ADClientSetValueForDistributionKey : sha256 6c16f5568ac823483502de1136cd93b2c61d53f139987b14171097fcd8caa338 -> 2bc467c7c428485dd71822f6cbbe819b64500313356402199b488bbd6b97774b
+~ _ADClientBatchKeys : sha256 4f265608c0b12fa32179f5e34f5e70ae3836ff4039b663797303db2d37a8b6ae -> da6d7e613335d9f557d25039a6766f2c2c23b8860bcd879caac98d48b33705ca
+~ _ADMonotonicTimeGetCurrent : sha256 6ac4d8c5023ce3ff033c744d8cfe71116dd90ebb0840c01d56bb6c12b19f2ce9 -> 6c1d07de69d9eb5d9469c22912225849ca6888c4cdc872605662fce8fb7cac3b
+~ _ADPushTimeIntervalForDistributionKeySinceStartTime : sha256 b048cdcaa807b71b88ed07794f7d5422ca7cfa3b960da96c3cfa7c36a2f8da22 -> 2f59bfd4580b373b0e29f35f725298773ff0d5a77e45c77d7a692e5a590e9008
+~ _ADPushTimeIntervalForDistributionKeyTimingBlock : sha256 10bef5909c63e8d8f74ce23a487576c660442a4a1cbe2e4b170fa5c06abd6601 -> a9dfa3e1d828f037ddf0085c820c1f0b1aa9a9148e45d7f2d56aa5a479af61f8
+~ ___ADClientReportRemoval_block_invoke : sha256 db777ba64ba33a0f7db3669ddf4b1275c71e00b9cf9956de76395604b0863e8d -> 478ae64aa748e2952f26b1cd096ea9d7db683f3494aa1bbdb6b64913ec88aeb7
+~ _OUTLINED_FUNCTION_0 : sha256 03c7eb64225627a51568a6b1241d68a5fb5383490644ac9de070f7cba804265a -> 43370ec6b42284a0f374da93a8282d4f45b2753ca05e72a03e83b2a8e34f5358
+~ ADPushTimeIntervalForDistributionKeySinceStartTime.cold.1 : sha256 34b1dc36f546e7aaa6edb019c4c6a1704f545bc02aa61b434b6bda12687661d9 -> 2b41fc7df667dd83b17ed67f67460df327afb59ea48609823b9fca5c23594d1f
+
+```

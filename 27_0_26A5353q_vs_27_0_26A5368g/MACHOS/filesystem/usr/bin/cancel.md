@@ -1,0 +1,30 @@
+## cancel
+
+> `/usr/bin/cancel`
+
+```diff
+
+ 527.0.0.0.0
+-  __TEXT.__text: 0x91c sha256:e3daa51b0db35a84e2ae010e6748a91b68959ebebe14024a1f475e6da0c89afa
++  __TEXT.__text: 0x920 sha256:2d48ccb8232c996b1b8c6d82c6b583d7453a39b00fe807d5d646f8abd7ca56c2
+   __TEXT.__auth_stubs: 0x1f0 sha256:c14134a61652356bd35d1c3fe5af94661a89ded9d5bed5663e3d0a8b7d756cdd
+   __TEXT.__cstring: 0x3b3 sha256:a7f402cc027fd94be0ff84241745f37a896c844e51ade04857b2b39bf0c7bf76
+-  __TEXT.__unwind_info: 0x68 sha256:545aa8f5e1f448b099ffff4e7d9e0c5e95497a819c4ffb7a2052ff03b259033c
++  __TEXT.__unwind_info: 0x68 sha256:5b0d4e84228dd61d64fd808c36bbf70ea697f1fa1d33fb77c8dccf8b7a97d1a2
+   __DATA_CONST.__auth_got: 0xf8 sha256:19d11b4768563c2fe598d40386769d21cc80eb920a8d7ca16679561570e38e1f
+   __DATA_CONST.__got: 0x18 sha256:1a1973c567b2049d12c1af554a969e7484e7fa22d315c144ed52bea48c54743e
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcups.2.dylib
+-  UUID: 858C09E0-0B16-3BC8-9D43-98437269D149
++  UUID: 553E2E03-1496-3738-9EE2-0E1AAA2E9950
+   Functions: 5
+   Symbols:   36
+   CStrings:  31
+Functions:
+~ sub_1000004e8 : 2004 -> 2008
+~ sub_100000cbc -> sub_100000cc0 : sha256 4490dad4f1578a77e1fde4fe4fb5b8731a18a37a92e58f1f766f18a63f326d6e -> 86afea733a63f8713e0f81aa3de3cb43b4d1996be4760ce434c7b0405de948e9
+~ sub_100000d5c -> sub_100000d60 : sha256 9972f58db9e3d0bea5f296a3d2b33c03799b31cf3ef59e6c3f5181b2fc44c9df -> 08e540521520ef01d509500a123de6f010a4617a0949b219c50f61c78d858ae4
+~ sub_100000d94 -> sub_100000d98 : sha256 7bc1016b4a48ccd58cf0ad801ad2bf9b08a31b04910eabb257d8e3392af0d54b -> a8794e90e7f70806ae887900740ea3eda999db56ce31a896aaf4a2d7cf9c9f76
+~ sub_100000dcc -> sub_100000dd0 : sha256 5d634797a32832c4f66c59ce805a363ec15cfe7c76c558f904f8882d91a874a2 -> 7e71d4fe19cd1d2794d5b052fb87e7ce5c9bb3303e38f5e67a62cac34ea38192
+
+```

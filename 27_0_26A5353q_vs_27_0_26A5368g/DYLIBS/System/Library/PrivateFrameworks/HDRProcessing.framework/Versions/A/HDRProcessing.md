@@ -1,0 +1,2228 @@
+## HDRProcessing
+
+> `/System/Library/PrivateFrameworks/HDRProcessing.framework/Versions/A/HDRProcessing`
+
+```diff
+
+-1.512.1.0.0
+-  __TEXT.__text: 0xaa0c4 sha256:1ebc7bd255ad9231443dc5141fa03cfc39e9035a911a0575d135a27df7205eba
+-  __TEXT.__objc_methlist: 0x2588 sha256:60bfc4f11cf508b7784a093d9d2fd586e4688c14531de5192a6a6d5c9060ee4c
++1.513.1.0.0
++  __TEXT.__text: 0xaa8e0 sha256:2134ae764c4359075edd1bfcba2592235efc2d2ec7d55ab67c722be083d8c936
++  __TEXT.__objc_methlist: 0x2588 sha256:1c7ae1ae6a5259a1f9cc381df31ba14d480f30bc5a122ea090a91c92f3602cfb
+   __TEXT.__const: 0x4c70 sha256:a59594ddc0de521ca70559c697215cbdb1b11f927ccc71bcc0e95c121a89b454
+-  __TEXT.__gcc_except_tab: 0x29c4 sha256:9794a49ec6efbb306536485cfc126526728a091c9aba0c9bb89afce06bd78718
+-  __TEXT.__oslogstring: 0x10be8 sha256:efafd5045957a7983b65f76965f301d28dc6413dd8e5200d94a18040128a3982
++  __TEXT.__gcc_except_tab: 0x29cc sha256:b8cb71c6582fa19bd4ef59ebddd46e9b3da1ab861fc1cf64697cfb8461766056
++  __TEXT.__oslogstring: 0x10be8 sha256:de28199ef21588019b6f56a8f2c6d5b9b978460aa667a93ccac75c78e8cce839
+   __TEXT.__cstring: 0x8318 sha256:0a908f336854977c783767a0467b76ed6e62c2fcd93597d864d14293186a2e95
+-  __TEXT.__unwind_info: 0x1600 sha256:d3e550841284991799971c7586b34ddef68e6989651b418caa5516e826c9011a
++  __TEXT.__unwind_info: 0x1600 sha256:c0fa482f7571cfdbb39c3c1bb8cb74e41d6712d903d85a9dc69f78369d3e20ba
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x558 sha256:eb3ec79f91001bba9f91df7356abeede4f1b2eede63c6630a847dba0bd88a544
+-  __DATA_CONST.__objc_classlist: 0x128 sha256:4d4c8c08d6487d4ff979e43e9d445747a1be8e49813e70d77c4516824d00c51a
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:5b25a0d2ae6fb33137d2756c9430ad4ff57418ac167b599f7c18cc6e03e61652
++  __DATA_CONST.__const: 0x558 sha256:58500fa444f55b208cfef325908cc194cfb0ee0daf951d23570915314a16ae30
++  __DATA_CONST.__objc_classlist: 0x128 sha256:cb5ff12da1ebb8fbc4c1441f212bf1aa1bbfb3dd13f12859785035a3f109ec5d
++  __DATA_CONST.__objc_protolist: 0x8 sha256:1c5fd1fa3d7b2388e99085224d54a794209f8af9167cf7b46aaf2b59f51b672a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x15c0 sha256:7c37fca2033e877d6fc990c8c28ff6a1548d4fdd36ca777f38827982963d3876
+-  __DATA_CONST.__objc_superrefs: 0x108 sha256:1c60fcb7182bcc1177582174e523be552b3ef8281d0e4d5be7f4e9abb2a35a5e
+-  __DATA_CONST.__objc_arraydata: 0x40 sha256:7ed6ccba967a253e0ad6b82670731f49e8a3e1ce15428364a48d529a7d103c93
+-  __DATA_CONST.__got: 0x2d0 sha256:31f600dc7e10c8d51e144881a165ea915919b9b4fc8b3bef3358aa67cad35b9b
+-  __AUTH_CONST.__const: 0x400 sha256:cecf5cc185a60bf4cfd150799d8bde743a1a14cced74b329b11aac39e678e93d
+-  __AUTH_CONST.__cfstring: 0x4fc0 sha256:d30005e7392c897616cb44d5e45088041a519af19bcb27b9da5c57400a028239
+-  __AUTH_CONST.__objc_const: 0x81a0 sha256:e6c4cb04ba735d132944dc471e5dc4d91f2b9f6a21d214083472fe67a4aba79e
+-  __AUTH_CONST.__weak_auth_got: 0x20 sha256:e3c188ce236df4321ae5be80650eb1c2f04096c6cc464c3facb268f7306112fe
+-  __AUTH_CONST.__objc_intobj: 0x60 sha256:746a3515280e950af8f706c15064c11cef857dddfc12f76eab3d906caa145cf4
+-  __AUTH_CONST.__objc_arrayobj: 0x90 sha256:2e77f44160c2b2b7f5c084a2674d9931d0f4b66bf8628f313bda0932c3c19994
++  __DATA_CONST.__objc_selrefs: 0x15c0 sha256:172af69fd317ddf5484b6472b19c332c63ba0ac2e5b098fb223fd98110ac0c2e
++  __DATA_CONST.__objc_superrefs: 0x108 sha256:13ed39db73cef6635e0536f28e4e1f8129f9bff83c56ec5b3e051c351cfc4e0b
++  __DATA_CONST.__objc_arraydata: 0x40 sha256:274cc547c55beecd442252fd2f91eaa4d33447a0c12c5e4112d41da7f840a8b6
++  __DATA_CONST.__got: 0x2d0 sha256:025b48e890e09db768bb74bc170fefaaadadbfb9e456c5c227fbea3e1e288b38
++  __AUTH_CONST.__const: 0x400 sha256:4665ae63a00c1242ae5340a5d01d920bea0609cb703bbd532253bbed23edbb83
++  __AUTH_CONST.__cfstring: 0x4fc0 sha256:b567e6991b753efafe7c9936ac4d0625f547fe57da4f164f9f2abfcce7c4f302
++  __AUTH_CONST.__objc_const: 0x81c0 sha256:9e750af5651bf86bd98ac655785646c08831f33da02ca2714adb89d29d1e257d
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:0d2bbe4ff9f1b53ff4c364372152374d67ec947704b7b0ee7776bb82f676a896
++  __AUTH_CONST.__objc_intobj: 0x60 sha256:a483a28567986a2a4ee50beed98cab87b31ebba9f88cb1a4161ec165532adcaa
++  __AUTH_CONST.__objc_arrayobj: 0x90 sha256:5a615ed4b1529e55ca6aaceb382750c3bbfb4cfcf18708d0c3f34d0a7bea0cf4
+   __AUTH_CONST.__auth_got: 0x500 sha256:bfe492baf731a0dbf6e1e050f5bc3fe8c1b049383194dcdf82f023bfa409f462
+-  __AUTH.__objc_data: 0x190 sha256:895fc79fa74b339468781be90c03c5d0c6fe1579ec4b7cf455be913b66e682a9
+-  __DATA.__objc_ivar: 0xbf8 sha256:f53f8082782104a58be1bd28cc945282b974004896fe8530f3447806635c2fda
+-  __DATA.__data: 0x940 sha256:0f88a23037b32e69e6a40631b6f4195ed77ba14e4fe5fbdef6140dcfcc10fcfe
++  __AUTH.__objc_data: 0x190 sha256:b48e650d6ba855d01d56b7449d0854a7745304d38865b1be983ba8184019699e
++  __DATA.__objc_ivar: 0xbfc sha256:4a6e3ec12200aecd14ad0e389500ce8565a6cab23780a9844b47ae0ae7142017
++  __DATA.__data: 0x940 sha256:87d59c0fcb4c5ba03ff600cac2cf7395923f120d830bc0b7b938b5fea84c6fec
+   __DATA.__common: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
+   __DATA.__bss: 0x3120 sha256:bb93801a064e949ac9060f0905732e18ebd1116f9ed1cd5be5757f3505e0e800
+   __DATA_DIRTY.__objc_ivar: 0xe8 sha256:cd5f0c7db5c43767c533b1f6fbd88c2a009266ed9a14d7cd10eb780c8560dc55
+-  __DATA_DIRTY.__objc_data: 0xa00 sha256:b042165b32ed12cf8c705da8105c848dfcc63c6562afe1c82b52c04aaeb14b6f
++  __DATA_DIRTY.__objc_data: 0xa00 sha256:797d023712b6ce6f56d6c06c21a2e82f97c6a266cbb3dfa39dae5633de721f5a
+   __DATA_DIRTY.__data: 0x4 sha256:ea2845900b5856c9bf354b1aa9761b5aa6888e5ed61738fe9579ca42bc0f6054
+   __DATA_DIRTY.__common: 0xb40c sha256:1e1c18d66c79a24c8c4d532fadaa3d3dcf0d594a6e87ea18af2776ba2671b569
+   __DATA_DIRTY.__bss: 0x520 sha256:2c7663e809c9827df482ce260d079467d02f9f181a6d1fcc5a942b2a7e1bd3e6
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 55CF6FC8-95F3-37E1-B355-4FD2CF62E636
++  UUID: 140F8245-B751-36AC-BD3E-A73334FFFACD
+   Functions: 1365
+-  Symbols:   3779
++  Symbols:   3780
+   CStrings:  2151
+ 
+Symbols:
++ OBJC_IVAR_$_AdaptiveTM._atmEnabled
+Functions:
+~ sub_1c180d5ac -> sub_1c1c235ac : sha256 3075b601462dd7e484ec00e44019ff5bea2060140bc336f277452bfd34887ddb -> a2d6d2a7a7fb11bd42add33020a7179b978163d30a6dbdcae4f259118bcdd5c5
+~ sub_1c180d63c -> sub_1c1c2363c : sha256 af94a598056493b6391799f02c3a48792e25fca14ca67ce3d18f2cc0b2a3cc2b -> 62622f95020b82ec4aa8f44d0f572b5963dd1621dec5f8215478af46513dd929
+~ _sdr_calculateTonemapCurveParamS : sha256 985005a4dfd915ce29f819dd2c7c9124174cfa99e5324aa1385626c126c2040c -> 2a492f862c3b9e31960cbd1aa4360459bb2dd7f58a6e837af8a4554bf7546124
+~ _sdr_generateEdrAdaptationDataS : sha256 5c35f89f68fbd8c213098d7e4257ae58116b2d38d0ed18c41497aa471c678df7 -> df8b651c15721ca9613a942d0c5729019d761f22ad7139ba7fa9ea1765bae4c6
+~ _sdr_generateAmbAdaptationDataS : sha256 ac8850869ea7fd6d3d7c3e27c5b4be5b66d193d4f6d206d6a5fa5d316b06f482 -> 89c24388f2a4c63706b59af05844aa4e2f667036954e5a7f9f7d7ae4ab2200cb
+~ _sdr_setupTmConfig : sha256 41d53e1de73a67051e2200e82602d173f980cc93b73ea7fad4f85d2362155deb -> b2886ec822132dcf1b492c2449879153bb0efffd9066e7198705b210aace8521
+~ -[MSRHDRProcessing init] : sha256 555bc5f6b7668ed7377b3a14facdaceb29cac4f28d4fc9fd8c5f2fdb59839189 -> 83f878775cb358053d0cdc5ba9b6964150402c609381e6c9d2a6c7f0256c256d
+~ -[MSRHDRProcessing dealloc] : 408 -> 424
+~ -[MSRHDRProcessing checkNewFrameForDump] : sha256 c85709684c778552b72b8f40fa5d05e735e0e6a47e83a6bdf14a580b0678219d -> 7f577f5817cadbc35c2356ba6d2164381074795342ff3a633311053fda226070
+~ -[MSRHDRProcessing initDMConfigCache] : sha256 304fb5946f1c66bdce6943a5214083947ba56f2f840ba5c2faec489511a2c89b -> 4428892800aa7189107e8e5998be253cd6accde90b89b724b2ec8ef6019fcc0d
+~ -[MSRHDRProcessing createCustomScalingTables] : sha256 25a79a83cc9f71fbbade868e69ce57e97780e17c88b7289f83a8a862ee87f848 -> 80f1eb3d1c5749ea8f302e902d6d8fa139375034b6db0cd53af6e07c1d836948
+~ -[MSRHDRProcessing createAdaptationLut] : 124 -> 136
+~ -[MSRHDRProcessing updateDegammaLUT:AdditionalScaler:tcControl:] : sha256 25f3cf852c6678690053dfacfa010bdc05f84c1f286877d37f8371362c2cdff3 -> 9a7486042227d4a561fd0f018f7a35c737760cabf15dd56347078010c7d1db14
+~ -[MSRHDRProcessing getDegammaLutInput:] : 40 -> 36
+~ -[MSRHDRProcessing setDegammaBuffer:Buffer:TableSize:LutInput:Type:scalerForSrgbBeyondMax:InputScale:OutputScale:] : 792 -> 808
+~ -[MSRHDRProcessing updateDegammaTable:Table:TableSize:Type:Scaler:] : 236 -> 260
+~ -[MSRHDRProcessing getRegammaLutInput:] : sha256 d6358cc2a13a0ba89c091b2fe2c7b4ebe4b1c7fe30bc56147e51c29f9c1d7803 -> f8a4048e3a7adf7fe885c03543bfdebd85ef7753e2fcb6a30a96ee7f3bf7fd38
+~ -[MSRHDRProcessing updateRegammaLUT:] : sha256 b9949225ef10bef0b1f77f4ab0b510fcf426609150b292e7a8cdf96608967ba8 -> fe38f5d4779bec0109d0b7c55c2cb7861a4bdc7b91b20ebb764fe23733779cd8
+~ -[MSRHDRProcessing setRegammaBuffer:LutInput:Buffer:TableSize:Type:DPCParam:] : sha256 5dbb376430e884e0ad64ddee648cd83b57bdbb5a8fbe1b8d791911cb8bc6bb91 -> 2f2ca32d2317e8029b76aff9bc3265c3b1ae67e72976901eb83f52c46b6c935c
+~ -[MSRHDRProcessing updateRegammaTable:Table:TableSize:] : 108 -> 140
+~ -[MSRHDRProcessing setupMSRColorConfig] : sha256 075ee26367f8026c720eee764116d62902338d7a8352bc6de1b401259e70b189 -> 8cf2959aa871d14e97227ef211af03ade836dda064b187c8f0e497cc1b0e3b83
+~ -[MSRHDRProcessing handleDoViToHDR10TV:TCControl:DMData:] : sha256 74a8a10e6a6ea17e3268ac13fb619f4f38752d84667477af0711887a6ad7ad2f -> a33fc0beed6c2b81d1e9c2e3c6afa3042666ac837e12b2175d7fb59e32811acc
+~ -[MSRHDRProcessing setupMSRHDRContext:TCControl:DMData:input:output:] : sha256 10b1731f812c52527ef914e19a995987b8ba74e253dfd0ab56c946bc1e40b265 -> 774ac0b4ecfef5cfb74382a2555734bd90702635582bff8367b5e5ac429d1710
+~ -[MSRHDRProcessing processFrameByMSRWithComposerData:DM:constraintDM:DMData:tcControl:hdrControl:hdr10InfoFrame:layer0:layer1:output:frameNumebr:computedNumber:config:] : sha256 1613e405c0e68f0cfeb44d62e51c02ca116131a431822f70f5b8d528c768bace -> 0f1c055bf46dd14c34cf0b11467e7a2298f28db53894ed705a05422333adaf99
+~ -[MSRHDRProcessing setupHardwareConfigUnit] : sha256 f4452b94f987ccacfa435f2386c776aadb537c33a406f4436da0a5bf331d4f85 -> a711f0f7d8963082a5fe47bbe668c80de1214f02484c0eb7236f4204bdd91539
+~ -[MSRHDRProcessing setupMSRPolynomialTableForHDR10:TableLength:] : 100 -> 104
+~ -[MSRHDRProcessing setupMSRPolynomialTableForHDR10] : sha256 4ce635809f50649ff305d549d2130b442a24dc98d3c4a83af031867888f65f3e -> e278a23d08e793381a6adc487d94968465e09f1000e79b014b6f67bd10f1c5b7
+~ -[MSRHDRProcessing setupMSRMappingTableWithMetadata:] : sha256 d46524985fb2aab5ba6c4c6675c95c2974e32f2f016b07d75245cf9d057072a8 -> 196410bc00d45a9e8bdbb4e353c6881a49feb0fdb871344c87df3d68144bd11a
+~ -[MSRHDRProcessing updatePolynomialTables:TableSize:] : 108 -> 112
+~ -[MSRHDRProcessing isMMREnabled] : sha256 02371be2ce71024b8aa7bb378ffa1851814476697a4918cded8bc6c5443bd9e0 -> 68999f2054959c6b204caf0dc9f056a97b0bb9787ccd65923c5d8f6285c7c299
+~ -[MSRHDRProcessing setSat2FactorTable:TableSize:DMConfig:LLDoVi:] : 72 -> 80
+~ -[MSRHDRProcessing hdr10_createLUTFromDMConfig:DM:TCControl:HDRControl:TMParam:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 1cefbb48a1467529b4393c2db634c5510f8bc4997db5ea0f45a7bda03f88e8ad -> 6c4322838111a9aebb88dc39004f88c87f6500e3a97d06bed062b5f940ad37ef
+~ -[MSRHDRProcessing hdr10_getTmLutInput:lutInput:] : 60 -> 56
+~ -[MSRHDRProcessing dovi_getTmLutInput:lutInput:] : 48 -> 56
+~ -[MSRHDRProcessing dovi_ootf_getTmLutInput:lutInput:] : sha256 a5956a95eaa1baa37a98b565964030262365a8dfed9cb774e452326bc437f247 -> aad7ec9e58554959f9691266fcad9b348dadad71e6912a19c61f0c1ce85e93a0
+~ -[MSRHDRProcessing hdr10_tm_createLUTFromDMConfig:TMParam:TMParam:TCControl:EdrAdaptationParam:AmbAdaptationParam:DM:] : sha256 164531a2b8ad6f4444b6115f7d806e0db1d441d42ba01c9067b5e380b4384a39 -> 1f47a91469a49c846f954c7fe7b821399e797cb0e699fed712e70b0936190cf0
+~ -[MSRHDRProcessing hdr10_mixLUTFromTCControl:TCControlConstr:withFactor:] : 212 -> 220
+~ -[MSRHDRProcessing hdr10_tm_updateLUT:ScalingFactorBuffer:LumaMixFactorBuffer:] : 180 -> 172
+~ -[MSRHDRProcessing hlg_getTmLutInput:lutInput:] : 64 -> 60
+~ -[MSRHDRProcessing hlg_createLUTFromDMConfig:DM:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:TMMode:] : sha256 cb88d39ae822138b9460a9b8a2033f3bd6c56cb6e6b10083ded5047ed92d9b2c -> 90ab547903c87e17949856456709a1ae7f9dd4f2eb2d864f0bda35e6f9e4855c
+~ -[MSRHDRProcessing hlg_tm_reserveConfig:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 fc91734f3a55c20ddd95c9ce9ab35d30e49f2a46c736d5b91681bbeaf3e10f25 -> 3e2182bad0bc42f366b591ccb5ebed3c23754ba2aaa3e82690e0c62d6e89c90a
+~ -[MSRHDRProcessing hlg_tm_createLUTFromDMConfig:DM:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:TMMode:] : sha256 2f225f3c420194c2c307cb6d0915b4b714e879530d6e936bf63afa90d35856a1 -> 22776ad4d7aa8d006e7732d896f5cce4a80b7dfbcc11174951bcf7eea1a1f528
+~ -[MSRHDRProcessing hlg_mixLUTFromTCControl:TCControlConstr:withFactor:] : 288 -> 292
+~ -[MSRHDRProcessing hlg_tm_updateLUT:ScalingFactorBuffer:] : 148 -> 140
+~ -[MSRHDRProcessing smpte_st_2094_50_createLUTFromDMConfig:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 d7e1bb055b2d0d740b3ebb241c85d355d3ce1dd26d40c30a320e9d9ea4398e65 -> c6d00a40a8dce6d31938e1e062c38fdcfaa0f80dd416d48884d9cf941195a26b
+~ -[MSRHDRProcessing smpte_st_2094_50_tm_reserveConfig:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 bde3dfe4417577ef75c58ead1be021498751b2a1ae8bba2c80bb6158418316bc -> 4eab9c3cc15d688d5ad302b4b092dacfff049d0e12e0ef44231dcd3c73de38da
+~ -[MSRHDRProcessing smpte_st_2094_50_tm_createLUTFromDMConfig:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : 356 -> 364
+~ -[MSRHDRProcessing smpte_st_2094_50_tm_configChanged:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 8bae2297953d3da472222b5f2702eec277fa572b088d85cbbd20a79e72e8579d -> 536f827592c76b703cb7a41c7cdf400f36357e9b6bb49a22ceaec9b06dd2ae0f
+~ -[MSRHDRProcessing smpte_st_2094_50_getTmLutInput:lutInput:] : 64 -> 60
+~ -[MSRHDRProcessing smpte_st_2094_50_tm_updateLUT:ScalingFactorBuffer:LumaMixFactorBuffer:] : 252 -> 232
+~ -[MSRHDRProcessing smpte_st_2094_50_mixLUTFromTCControl:TCControlConstr:withFactor:] : 324 -> 328
+~ -[MSRHDRProcessing sdr_getTmLutInput:lutInput:] : 60 -> 56
+~ -[MSRHDRProcessing sdr_createLUTFromDMConfig:DM:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:TMMode:] : sha256 7993d0820fe62ef483e5be5c0047ee428d6407e982d47476a0a17467f42d2178 -> be7cc29cd4d883311e2f37c1e5881574d0813c6eed3123ef5df1fd268d16a439
+~ -[MSRHDRProcessing sdr_tm_reserveConfig:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 de827904b73ac4507a12e93268192d2ac1b687c6ef63dc459711745dccb7608e -> f43ecdb82d8fc6e4745a71bd2e989d444f5ba34da80b9dd5499a2c517b32e805
+~ -[MSRHDRProcessing sdr_tm_createLUTFromDMConfig:DM:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:TMMode:] : sha256 2d0f8d66a19e9cb8983956cd3a5028010747f79f8a0fe1966ed6852ccabc35da -> 18588bf7abed31ad41384a613294f8b852d15e042f6c2aafd719558d8dbb7e65
+~ -[MSRHDRProcessing sdr_mixLUTFromTCControl:TCControlConstr:withFactor:] : 288 -> 292
+~ -[MSRHDRProcessing sdr_tm_updateLUT:ScalingFactorBuffer:] : 148 -> 140
+~ -[MSRHDRProcessing dovi_createLUTFromDMConfig:DM:HDRControl:LLDoVi:TMParam:EdrAdaptationParam:AmbAdaptationParam:HlgOOTFCombined:HlgOOTFOnly:IsDoVi84:IsInternalDisplay:tcCtrl:] : sha256 cb249acb5c6763172ee593c65a365ab4fcf3a7a39ec9fb5e1db6bbcf141a43d3 -> b49d673b000d241bbb918c504aede31d7894a040afb780df2499b5719bf7561b
+~ -[MSRHDRProcessing dovi_tm_configChanged:HDRControl:DM:LLDoVi:EdrAdaptationParam:AmbAdaptationParam:tcCtrl:] : sha256 e0a6dadea5c1e246b51c3606860874d41dda7296356515108d6a4d2afcc29339 -> df44d330c98fc58c933a749402e70047c24ee93ba6a78dfb77b04ca0bbc9d04c
+~ -[MSRHDRProcessing dovi_tm_reserveConfig:HDRControl:DM:LLDoVi:EdrAdaptationParam:AmbAdaptationParam:tcCtrl:] : sha256 7232d968b23f15c446d4511ae96b54c84f896637ccb5499ea2808e1bb5b5b95b -> ac6a468563a02feb340a1a896a898e1b18e3a74d7bf4f48ee77b6d5a9da7d736
+~ -[MSRHDRProcessing dovi_tm_createLUTFromDMConfig:HDRControl:DM:LLDoVi:TMParam:EdrAdaptationParam:AmbAdaptationParam:HlgOOTFCombined:HlgOOTFOnly:IsDoVi84:IsInternalDisplay:tcCtrl:] : sha256 39aec4f28bd77ac66e9842a404bb554b3206689e1518bdc123dfd879d1f1291e -> 58cf33a08ffeb18a86299b02452529d41bc16c3f1d401aa8ecb8466cdd8555e2
+~ -[MSRHDRProcessing dovi_mixLUTFromTCControl:TCControlConstr:withFactor:] : 232 -> 216
+~ -[MSRHDRProcessing dovi_tm_updateLUT:ScalingFactorBuffer:ScalingFactorBufferSize:Sat2FactorBuffer:Sat2FactorBufferSize:dmConfig:HlgOOTFCombined:] : 588 -> 636
+~ -[MSRHDRProcessing updateLUTFromDMConfig:TCControl:HDRControl:] : sha256 eb58fd959a76a223ce829444aab108a3f47124abc774becc78b27ecbb2a24b63 -> a165a0983bff9d602b4b397c7f7e9db7c3b38e03f229aee6955833c3b74fb3c6
+~ -[MSRHDRProcessing setLms2RgbScale2P:OutputScale:] : sha256 11cac8a8deec80600908d5dee1988c3ff77dca1405f245cee0ced6de0a9340de -> 2a803fd570956a603ef4ba7f1f78b42e19887cfbed807e68c45fe38f0a360ad8
+~ -[MSRHDRProcessing getMatrixScale2P:OutputScale:] : sha256 f47b4992720b88cf889b46a2bd90054592a81801339a4ffeb4db0f18d3ceb460 -> 795a60cd211086d1847da0152dba957020401d2562dac18cb2fe0621db873c37
+~ -[MSRHDRProcessing getMatrixScale2P:] : sha256 10886c18fe16799fc0e2440c3c20c36d6bb1fbd13ec3ac401ca8e6c1ed412f12 -> 06c98798ac264d0295cd4a606e65a56d11030608beff25513460d6c8857abf63
+~ -[MSRHDRProcessing decideStageStatus:MSRHDRContext:DMConfig:] : 4116 -> 4112
+~ -[MSRHDRProcessing populateMSRColorConfigHeader:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : sha256 e9a191800d956b3103e48bde30dfc5aa23f0f0c41154b464cd0298504fa4ae88 -> 0fbea05e5f9d961493ec6b2d2e0bd62ed0ff2b70ba1751ea222b24549bb49fe2
+~ -[MSRHDRProcessing populateMSRColorConfigStageB01_01:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : 1520 -> 1512
+~ -[MSRHDRProcessing populateMSRColorConfigStageB01_02:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : 3284 -> 3220
+~ -[MSRHDRProcessing populateMSRColorConfigStageB01_03:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : sha256 1b9aff51535fdb167b2a36747ab8c02f7c528f0ef357ccf9c8c154f63529bee2 -> fdea5b22e6e8462c837045ee84312f32e52fed49aed830aed2ec631b7a78d717
+~ -[MSRHDRProcessing getRgb2LmsScale2P] : sha256 c0a6315adc3989ed8421c7b3f46ed38e2f31661db5da5d562da38e3b30a08d77 -> 8d66b670a30039648195f69b4991ad4db7400e59731dc6ab1fea44ac8f8cbb03
+~ -[MSRHDRProcessing populateMSRColorConfigStageB01_04:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : 2556 -> 2496
+~ -[MSRHDRProcessing populateMSRColorConfigStageB01_05:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : sha256 c7abbdc1a97b388a77f1b0a7f46faf849c3e1043da51bab9bf17c23779961e42 -> 377dab8cc535cd70801c6cfacfe1521e94479eed4a3d1de1f68b5d39d7d4ad39
+~ -[MSRHDRProcessing populateMSRColorConfigStageB01_06:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : 1092 -> 1068
+~ -[MSRHDRProcessing populateMSRColorConfigStageB02HDR10:DMConfig:] : 604 -> 612
+~ -[MSRHDRProcessing populateMSRColorConfigStageB02HLG:DMConfig:hdrControl:] : 800 -> 804
+~ -[MSRHDRProcessing populateMSRColorConfigStageB02SDR:hdrControl:] : sha256 ccd25f9405242a818a38e25e54fb1fd40a2fe4306e917940222523543396877a -> a2a08eb083a1c5d451cd194bbe81c59a32cda4acabaff0086de25a03f08d8648
+~ -[MSRHDRProcessing populateMSRColorConfigStageB02:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : sha256 7125d555c89ff53310f5464073e9147dc960e2cb8f45bf02261fe09a5c85dc22 -> e774a4556f138f030e638a128c72cf062f429f162840e7a3a3eb29ecbc2cd1c2
+~ -[MSRHDRProcessing populateMSRColorConfigStagePrecisionScale:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : sha256 9228dbd816d5c18cec835ce22f3bf0cbccef380ffc8f4632a82a8e2c1542b0bc -> 522849484a4d616d793261ceec78361293f9bd035d9277c9abd720b3786adde5
+~ -[MSRHDRProcessing populateMSRColorConfigStageB04_01:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : 1116 -> 1092
+~ -[MSRHDRProcessing populateMSRColorConfigStageB04_02:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : sha256 afaaf805611477a6adddf6cc26dd8abcf1a646a7ecc9042392ba73934b4e7d1f -> bff6b99108e94557cd4d8dacd341480672071aec6bfba47a146e2784d2f61290
+~ -[MSRHDRProcessing populateMSRColorConfigStageB04_03:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : 3848 -> 3816
+~ -[MSRHDRProcessing populateMSRColorConfigStageB04_04:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : 1188 -> 1228
+~ -[MSRHDRProcessing populateMSRColorConfigStageB04_05:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : 2344 -> 2324
+~ -[MSRHDRProcessing getColorConfigSignatureString:length:tcControl:hdrControl:] : sha256 fdcb29e886ee14eff52d98894449aaa030bf1b20f01e290d2a5413bc763ceb48 -> e948a55e46852bf353a8c0b8c6a89964bdcf99b3c9dd78a3d117331a62e1f4da
+~ -[MSRHDRProcessing runPostFrameDumpActions:] : 160 -> 180
+~ -[MSRHDRProcessing populateMSRColorConfig:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : sha256 cf7205919365ee6f0e0df1898878d9141f80b1db6aef33cf603a7c25d1c01970 -> a91c1d0df136d6ff164351874d7819203754ac76acf9eb1b1d852915992ba4bc
+~ -[MSRHDRProcessing attachHDRMetaDataToOutputSurface:withDMData:withDMConfig:withHdrControl:withTcControl:withMSRHDRContext:withInfoFrame:] : sha256 7748fbdfb00b88a4698da483f8c05b8a6adf5aa2a41297ca59376e9db686fa74 -> 3f88b5255e65e521f8aabb43e6cd58ccfe42394f19bf583612b07d629ba030b0
+~ -[MSRHDRProcessing attachDoViMetadataPacketTo:withDMData:withDMConfig:withHdrControl:withMSRHDRContext:] : sha256 45754d48c44ab9672930d58cf30f4ac33708e68c0c88cbf35cd511870bc1069b -> 1a48a4d145e38a717470658bee3e8d1ab7389cb9b46fa744c4decde413f4701f
+~ -[MSRHDRProcessing attachInfoFrameTo:withDMData:withTcControl:withInfoFrame:] : sha256 419d24a42d82c847d2a0fc855554809d76792a5ca0ffed7d90b2cc38c1ab4bc9 -> 779ab48887757eb68aabef72805cf9f309fea333514bbfeeea12a738ef752492
+~ +[MSRHDRProcessing dolbyIOMFBMetadata:withMinBrightness:maxBrightness:] : sha256 d6502716b126100417acdb4a9b2e2e75860c259b91c3de785d55403e80c32d57 -> fc14f05e5e41c26383223a52adb80fd583df4b8016a348a5d766499554502e27
+~ +[MSRHDRProcessing dolbyIOMFBMetadata:withFilteredMinPQ:FilteredMaxPQ:FilteredAvgPQ:EnableLevel4:FilteredAvg:FilteredStdDev:] : sha256 55a0ac17c1adc258f71aebad05360a7d61ae74d290ad1067c539458feacfd909 -> 3203a39cc51dcbb8ec9f88c5282743351a1d10ff8b36e12ba53cba007bfea953
+~ -[MSRHDRProcessing DumpOutputHcu:] : sha256 8f626bee93620def27c513605b7dc04019bfba8b02a1b39624be24bae55d953d -> 6efda5749bae2897b8c35b471f9acf4b4f61a0b2554f47db9e03c9db5a663db6
+~ -[MSRHDRProcessing .cxx_destruct] : sha256 1c2bbd1a21e146687dfd57a9f7815ff5f02a9e7423c2dc965fc5033377dcc5d0 -> 2b006cf99aaa64c7bbd946e3e071eb98d007bc752068976e3e343a8fb8a88b1f
+~ _cubicSplineInterp : sha256 bdc72e2e99de77189281c0851465961236018cb32484ef247e1e132aa072c1ac -> fd74ddef824fb685c4bb38b3073f57cc835b2a34b10bcb86bf1ccd891280f8c0
+~ _calcCubicSplineParam : sha256 07cbe5e2234540d7f72eff772d377d7a3a329579f1c59af7fe789e9e402a93ac -> be642b915be2a1e0cd8553c9753f078a2ea23931682be5ab2c659042f7da731e
+~ _DumpVDbl : 288 -> 280
+~ _DumpVDblMatlab : 244 -> 240
+~ _DumpM33Dbl : sha256 9d3b881b6cab2186540dea089540736125e419fa08e324fcbd997fcbbe51ba46 -> 6ed9ad3f3d2e9882390d0355ec79848161d014af421e83f016628a78b55c6f18
+~ _DumpM33DblMatlab : sha256 f660c85861a5f538c650ea7f1b5938f6ea0afeca80e2b2993f947b9fda439c60 -> cfff074ef3f7dfaea46f97a0a597f0aee54ec9b83daf667421e5590c7b4d0421
+~ _hasHdr10TonemapConfigChanged : 1396 -> 1420
+~ _updateHdr10TonemapConfig : sha256 a97d97d35a534598efe25a8de60f119f2ae10901e2be30c2db3f7a6fb0ec519e -> 8ba96b205ca47bb7061ae442b32a5363eb576c249c4d8ad3f8160399b744c781
+~ _hasHlgTonemapConfigChanged : sha256 a7ec13bfe817d37c7a71a43728076aff9a34fdb643e414268f762c276491f499 -> 78e0e55f09b17d1a49789fb2602117afe93115ec4f7ec51ba0b1b537f8f5700b
+~ _updateHlgTonemapConfig : sha256 a1e6b9c6845f41447f5cd20b548e73d3753be316879c387d9a0d99dcb5e105a3 -> 2081e4ebd3f5c1145984a5499ed85137e052c439d3d9cf148b2753043824506b
+~ _hasDoviTonemapConfigChanged : 560 -> 592
+~ _has_SMPTE_ST_2094_50_TonemapConfigChanged : 568 -> 600
+~ _setTextureDescriptorOptions : sha256 e79deedb3034e5c6432e7290b21cc47805580aff9d536378f91d6341818d75dd -> 5de227ebc624fc32334cd3885f6ea51c1fc33f310650241afea167e04ed15daf
+~ _HDRProcessorGetTypeID : sha256 0aa3441240688d17e73ebc1d4ce4f1ebbd2b7766ca36d3bf9e6088e287844fc1 -> f13cf0367754ab88aa24cdf2f20ba190d236afcd6c4f1f5949fa31d1a3ce1314
+~ ___HDRProcessorGetTypeID_block_invoke : sha256 c823a3bdf3d70bb0ef85d52655cd55be2f6ea34a194f76108c979491e54e9cbb -> ca09bb3f75cee294c2c926e8270e6713445d44fd87adb9003d5ec994021a7972
+~ _HDRProcessorCreate : sha256 94454741a9d8ccd9e8d7d588eeec82806ae0db3d3ca8f1076594b146d4205023 -> b165d88f8fcba8303fce337ae4ba21806c6f4eaab1a4fa834d787af52313925b
+~ _HDRProcessFrame : sha256 0cde5c05f400e086df00f6239f946e276beb7908e2967136474142846f311d7c -> ec180f7152a3dcd7e29906cbb65fe9bfb0ce5f48b94ab6dea2f6c1ba7bf911c6
+~ ___HDRProcessorHDRProcessorFinalize : sha256 c96a7f11ae78df09ab72e970ddb17f7532ad0ea49f460dc84b5831a8672ec3ba -> 8b11712b32c86d86cc1bfc09cde5a0dd2b1b30a216ebca13d31ca80dfe20f956
+~ ___HDRProcessorCopyFormattingDesc : sha256 84736512efa1cfea0c09b24319138bd0bad6701b0e66b63218f1a12744f486c0 -> bf55049ff7e239f0b70a8729f2454ae02f86523bab027898b28b6b9db911cc6a
+~ ___HDRProcessorCopyDebugDesc : sha256 c4aea360e6ed5735c60378005d6c4788e727468ec9e47b1f76a5025212a6abc1 -> 4c53e20ffd81324d843b91dceaf1bbdfb6cb6240471e024bc312ed43852d0379
+~ _getColorSpaceName : sha256 b86f4f5f22cf8dc4f8951faa7750833b0757f3673a95491a884aec429ff9c023 -> 61b9dcdb88f67945c9f757101fc63e0d103e929e47ef3eb95ee0c700227e0388
+~ _getContentTypeName : sha256 5dc626b7bc9226fc64b8a4d1750f4205b2c249aa22db9928f8e2d1bc4d856e43 -> c5f76d482de06a8396388a165215e851b903701dacbc49608f1efaf5c81af928
+~ _getContentProfileName : sha256 8aba9132c239263be9a0d809effb63e3813d7ba4925ad68952fbece6e12c98da -> ab7f2432aece37de080261927a529e2a6d556ddbbaf6cdfb938377d2a170324f
+~ _getDisplayTypeName : sha256 9da6689561f911d9d8bae7f60409593c5f69e224732ab6e4ffa5da1115cb9038 -> 68c0c18769d7883c39736a405934c2f6af208f8ce2f41b76484d25f0159b5116
+~ _getProcessingTypeName : sha256 f128d70cd79fccafa62a0fb9aba3b5648c67914e82d9c1de97c9ce1b8f76e384 -> 6e694e2bc31d4403205141e0c6843a29b2fb88f9c3f592291f30319926c7e2c3
+~ _getOperationName : sha256 2419a06b84b2594006cf0e70bf7bb10ac0316e537642959350563c19178a06f8 -> 8bea37655d75bcf9859c77221d430a873c33d478dcccb147e5cf9ba5b3abc2b2
+~ _getConvertTypeName : sha256 2496c7961eb247930006624332adc49d39e5ecece563d50e85607dfc53608b9d -> 3d1e18657070983df3c86aa634cccb394f01cc5f1c24bcedbdcfb01f344aeb99
+~ _getUsageName : sha256 a8333c5edc1f1b90726d94670461b1b4238039e3db43feec9341851144847656 -> 5da33c1a4e849faf37bfe88673500128b5bb3e9dd7ba406ceb1b9b417f3b38ea
+~ _debugGetColorPrimaryString : sha256 c0d466dc45c214192ef05db8b7e638f335c15abcd63fdcc61d25e2c6c093b578 -> f4349600e474d4d9d78fef082a2193313462eabbe8abbf6eaf8c4d54db6d6f9d
+~ _debugGetMatrixCoeffsString : sha256 6685e599a28893b27b9fc440b26602257ad6ed0c2ea1ec265209c95ac6d0a018 -> fa8bbb457ff49ae1db2de2e7222ff258da679e6b8823b145fe3cb0af9994eebe
+~ _debugGetTransferFunctionName : sha256 e413705648e65f9b39beafa916f0f31bd105d24f73b6cd262311fb2ece904056 -> 33d4b46d4855070a701b2908c103ae68c8928c70e28b4e34e0213faf07836a82
+~ _GetColorConfigDumpPath : sha256 b6f7dadfe7c7487bb89f9f4da5ee3f97d6add52df7ff5a6e838b3b77d8db9730 -> ee27c420523acec94f0b8ce4673e955898df6e017eec37f6d254d90c3732977c
+~ -[DISPHDRProcessing init] : sha256 75528ba11e40446743a57c83bb5c11399e8f885fe76c97937e645f30d87ce9a1 -> adb32e2969bd9c5e4c78b0461abd80eee12252a6e54f6e53003e907cbec8325b
+~ -[DISPHDRProcessing processFrameByDISPWithComposerData:DM:constraintDM:DMData:tcControl:hdrControl:hdr10InfoFrame:layer0:layer1:frameNumebr:] : sha256 f6f33b6c22d15b7c4ce6720331fd9087ed195d0c444754097563306a6a874800 -> 554025b20d7d47c96fcd3577294a569b14e2f68b23af29c6413cd13d737f2205
+~ -[DISPHDRProcessing processDISPColorConfig:layer:] : sha256 56b28a6f8ac25df64d98b5d12d5351c88a0e41306034a7e83a38b00a92542c67 -> 3572d46cd8e57c2b9001140e3f449fa8a573a015d20e9b95b4aa5a282f3ed395
+~ -[DISPHDRProcessing iterateDISPColorConfigCleanUp] : sha256 7970d5cb4a0367c4883e2cf43cf221439a755592d664ee4b94101436e6b84736 -> 759a7cc9fc907a9fb85723cf1e8dfe6f0fecb5d8cfa12b61379950b4877e9871
+~ -[DISPHDRProcessing iterateDISPColorConfig:config:] : sha256 2354bd2b15e18050f5e9d3f28414bd506f8b034e32f72b660b994656dc27f154 -> 0f4a275245cbbc0c2c2be126ddaab99dd3810b328a7e8975b57a91a84a272d61
+~ -[DISPHDRProcessing setupDISPHDRContext:TCControl:DMData:input:] : sha256 dcc4f625691208229d145af4a336af4e95e8e359bb18c65c6a13c9869f1cd725 -> 660402ac8bbc511b87d4002b67911a1e55525240be4c4c5016fbcb1825b2371d
+~ -[DISPHDRProcessing decideStageStatus:DMConfig:AlgoMode:DISPHDRContext:] : sha256 d4f3e11c18555f9033d9e86eedbf3b6e28b61a0043d075b6425db327fc8fdf0c -> ca808642ccbe13f9acd04a51d34a9a180aaa66444bdd3bb06412b66683237f5c
+~ -[DISPHDRProcessing populateDISPToneMapConfig:DMConfig:DMData:tcControl:hdrControl:DISPHDRContext:] : 792 -> 796
+~ -[DISPHDRProcessing populateDISPColorConfigFixedDegamma:AlgoMode:Prefix:DMConfig:DMData:tcControl:hdrControl:DISPHDRContext:] : sha256 fa238c1ec81e4627d8cd326b89a97ddbb65612dc869cfc2b8d28857166cc07f6 -> 895007897cb9c4e976cf7858a479ae5d7231026bf6db201bc3b7b34be37bc2c4
+~ -[DISPHDRProcessing populateDISPColorConfigPreToneMapCSC:AlgoMode:Prefix:DMConfig:DMData:tcControl:hdrControl:DISPHDRContext:] : 400 -> 396
+~ -[DISPHDRProcessing getDISPColorConfigOutputScale:DMData:tcControl:hdrControl:DISPHDRContext:] : sha256 588ce49bd8546a2675d934aaa48b8268722dc8293115d9e5db673f06c653575e -> 5cf7a4cfc008f94ec7097b986c320dfbb59bd701087621be83df4955981af4b1
+~ -[DISPHDRProcessing populateDISPColorConfigToneMapLUT:Prefix:DMConfig:DMData:tcControl:hdrControl:DISPHDRContext:] : sha256 5f814d813291e72399cb1c6c5e1aa8f633e6dbb3b9b89daa9cf2107a17103a0d -> 5961e9e4d88e240d7826a7e4c85e62f59694fde6663929619be31cae9816c273
+~ -[DISPHDRProcessing populateDISPColorConfigToneMapParametric:Prefix:DMConfig:DMData:tcControl:hdrControl:DISPHDRContext:] : 1864 -> 1880
+~ -[DISPHDRProcessing populateDISPColorConfigToneMap:AlgoMode:Prefix:DMConfig:DMData:tcControl:hdrControl:DISPHDRContext:] : sha256 3d9b7160c8637466d90cd01d2aa0e2dbe15efc1d037befe431a0a46bfdc2daad -> a0c3cbc83c9a66b94a63227010ff777b0bd99563a8a14dc383a31ecc03ae2f9c
+~ -[DISPHDRProcessing populateDISPColorConfigPostToneMapCSC:AlgoMode:Prefix:DMConfig:DMData:tcControl:hdrControl:DISPHDRContext:] : sha256 6bcb3ce4dba6395e4b855549ae630faae8ca9735a414f346a5ef5ddbd50c05ea -> 043816f33d5efbc13ff9c1f2a8353f020a425f6c2a7a59850024bdf61f215035
+~ -[DISPHDRProcessing populateDISPColorConfigToneMapDpc:Prefix:DMConfig:DMData:tcControl:hdrControl:DISPHDRContext:] : sha256 18b75cfb8dfc0147618a5d9fc2c0e8c37587804a00341b0944f406ad4532da04 -> 77d453be1c7008bc59a4a9b9f4db495e6685b7358d51e67e62af921603a36319
+~ -[DISPHDRProcessing populateDISPColorConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : sha256 fea1a82609274c5360f594a0590d02a6e346dd66ef4a050a340e495870b2e37f -> a3ef2686e78e10275ef72770cd89035dd6c10890b9fea85c903c4136075d49d3
+~ -[DISPHDRProcessing hdr10_createLUTFromDMConfig:DM:TCControl:HDRControl:TMParam:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 c3f2e9135200778eba8e77a176d72c4721c9c6ace18c3384328231765bc6d8a8 -> c3656e3760795919d4fcd8a02e120ab8edf60071e5a7c3d8d10f7cb5a17fa863
+~ -[DISPHDRProcessing getTmLutInput] : sha256 c3dd508c18e6155d471c9e88f3c97d4a9c5b0d65b009e2e1fc0bdab7b6eb3cd5 -> 9d3e05556e2dbd00beacdfcaf98574c2f0f8d7063ec7c3caf42b38f01f0da916
+~ -[DISPHDRProcessing hdr10_tm_createLUTFromDMConfig:TMParam:TMParam:TCControl:EdrAdaptationParam:AmbAdaptationParam:DM:] : 456 -> 452
+~ -[DISPHDRProcessing hdr10_mixLUTFromTCControl:TCControlConstr:withFactor:] : 232 -> 212
+~ -[DISPHDRProcessing hlg_createLUTFromDMConfig:DM:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:TMMode:] : sha256 cb98ce33944ea790aacb9699323eddecc2c8596e5810417ac010674bd8cadf7f -> 8dd51ecf87ddfba204b0ff5221c88dbb50c6dd73d939ab9477e241795c030db3
+~ -[DISPHDRProcessing hlg_tm_createLUTFromDMConfig:DM:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:TMMode:] : sha256 52b6fd11e8b132ca4a3afe17da716aceee1386c36a0caf16e8ec298ae4556b19 -> d5f8ba472a59b3c2b3a75b985a8a89286d89e486d326728bd3e8e6bfae50618f
+~ -[DISPHDRProcessing hlg_mixLUTFromTCControl:TCControlConstr:withFactor:] : 288 -> 292
+~ -[DISPHDRProcessing smpte_st_2094_50_createLUTFromDMConfig:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 1014a17a76dd9cec24fdf662fcf32d71165ef3000a53ed14b49ae89c25963166 -> 192ecae22c97643b808f280001e1f22691ec824dad1c3f90b02bd0ec25224da7
+~ -[DISPHDRProcessing smpte_st_2094_50_tm_configChanged:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 1b697e9b4040cfd9648de3fea249799f0af5667facd51376e64efad286df941d -> 8a3a8c5da237ecc4108200707d9d631d579f91fac0857889a952490d8ef2512a
+~ -[DISPHDRProcessing smpte_st_2094_50_tm_reserveConfig:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 d178ca3285eba8051bd9aabb6987375735a7071751be2c5e98a7836d659eb255 -> 9d4741a006f7ab568b13468637f09dcb4c91f3644e9aab9c6ba1ff016e68992a
+~ -[DISPHDRProcessing smpte_st_2094_50_tm_createLUTFromDMConfig:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 30db385fd93202f9894ac4a83e4140d14e4d7ebe18f9a0b3e25e87ddfabb4696 -> 7acecc5e25af6c30b6caff6abf9ec15e152f1368965e06ed39b3522045572ca8
+~ -[DISPHDRProcessing smpte_st_2094_50_mixLUTFromTCControl:TCControlConstr:withFactor:] : 324 -> 328
+~ -[DISPHDRProcessing setDisplayManagementParametricConfigToneMapBezier:TMSendC:] : 92 -> 100
+~ -[DISPHDRProcessing setDisplayManagementParametricConfigToneMapSpline:] : 304 -> 316
+~ -[DISPHDRProcessing setDisplayManagementParametricConfigToneMapHLG:HDRControl:] : sha256 6fa0ebf5e254e463aaa40b12ec6adac268a69c7a3f427b4e3a8b468a1ea9b466 -> 7906aff4509dfbe9fbd49f29e9ba41eec7d6293c8a4b9dcc871374df5bb102a4
+~ -[DISPHDRProcessing setDisplayManagementParametricConfigToneMapHDR10:HDRControl:] : sha256 8e2d54906b35a7556cab88bfa2a4500f9768ac9061dd68f93fbd1a89c9518995 -> 4f9895517fed894b49f17ace8a33880c0e3d4551c9edbc5520fb034de9f7b819
+~ -[DISPHDRProcessing setDisplayManagementParametricConfigToneMap:HDRControl:] : sha256 b70e044227bc38111e68fceefe729a613a2607184ab994adb2aaa69c016c4c78 -> 3a63855bcee0ddb4f016926bae98460b7a17cd4cb6689c4b10beae35fe5acd40
+~ -[DISPHDRProcessing setDisplayManagementParametricConfig:HDRControl:] : 580 -> 612
+~ -[DISPHDRProcessing .cxx_destruct] : sha256 b7951653386086e713d23ecb50e191471410202474e48383d69f6ec232f8ca48 -> 4a2edabeea9f8b29146bd82f359d8da996da4fcbc503a5b9962f67908913c591
+~ _HDRProcessorImplCreate : sha256 6bd1eddf34aaf66191c53eaa2ac5ee84d541d825d6345b33bbf2399570caf090 -> d237bb0f6ae6f09550dcf6fada6bca2636f497a2cadc4ac682e05780f89de01a
+~ _HDRProcessorImplRelease : sha256 57a87e5cf50585bbd18a9bb0e65f6c7eed6e5399068b8d48e94801206b7a9e3e -> e9acc0e91735016b17006aafcf7556614e4222f5cdaf31b075ba4813c834b9f6
+~ _HDRProcessorImplProcessFrame : sha256 5a52f9a0f05127b8df923b8555f5fe8c930cca4132d67a7b174dbc0e3d482570 -> 8a99298ba12b4c4ee86d1125e44ac94ddfc3dd06a86f5060bc6fb62dfc838c9c
+~ -[HDRProcessor allocateSceneLuxB2DItpMLModel] : sha256 cf88549597fcaddf963d2194d5bf7da1b4924357bb7490bd4003ec17426bf827 -> 68a10c742f922bca2d5b33034887f688c6410cb0739ef270ce8b5c1a976eab91
+~ ___45-[HDRProcessor allocateSceneLuxB2DItpMLModel]_block_invoke : sha256 e0d93e85c81829ed168b4202eea643716c5455f1e3f2ce747fd8114705a25ac4 -> 7415d803179d33fd800acfbcbfdc550981ccbb27fdda3d7affd5169fe1666dc3
+~ -[HDRProcessor isFormatSupported:inputFormat:outputFormat:device:] : sha256 7f16a8014ee38e6d761877cc69ad94f3609eedb679dc64ad4257118c704b16c4 -> f44060d2fbae62a88003920403fc99b860526a6471055454c55888e5c7e99780
+~ -[HDRProcessor isFormatSupportedByMSR:outputFormat:] : sha256 5b48e7bf84f3d7ff6361b57b3be3b05eff4c5fdcc5d4ef99bf846c49370a7ea8 -> bd2e21edf207ab2b8509fc3488687591e5e255d4ae6d8c83385d8ab68a3cdfd5
+~ -[HDRProcessor isFormatSupportedByDISP:outputFormat:] : sha256 179c657207fa676f5da4d54bf60a1a6d0832de1d2f2db30786d27a3f7b916aef -> 93d57094c661f0554077b1e583d8e06ba6b3fdac61462e66ca34e1b90315da13
+~ -[HDRProcessor isFormatSupportedByGPU:outputFormat:device:] : sha256 9730634eed54b4dc79de57851c9f3aabbc129e65535cf653f85767069f70624a -> e65c971062fb0c009b4a8db73f621ccd885c0e8b67d6d807405f1bbd48be5511
+~ +[HDRProcessor isHDRScreenRecording:] : sha256 48611b939fdde62fa79c2764775df97e50dcae3b25d8cb2c66890a9b0745629c -> b235676518176a7794128d9cb68183f5eb038070d39e90d5b0f14e6a99978184
+~ +[HDRProcessor supportedSourcePixelFormatTypes] : sha256 a3cfc49907416c20430d021f31fb07a5ceee3471c9247fe4fdd9269781eab210 -> 0616282e78f81063754d9f3158c658816dc348579ebab81b36aa8b1beff35613
+~ ___47+[HDRProcessor supportedSourcePixelFormatTypes]_block_invoke : sha256 e5864aa80ddd2564d26ef634b72dc46929f3c6b42d6bd91afac2ea6bb0594fa6 -> f45e0de912276f7b2c1726a171e83b7348ef2df108c738cc36b30d2aa32d8d2c
+~ +[HDRProcessor supportedDestinationPixelFormatTypes] : sha256 4dc3b2288bb2768171cd31adf1ad3348634718eee5521a2cc692200fb0168c79 -> a4fde7c6bf7a4dbc944f9783a8f934d65995ebdf183c2ea7243d9ff6dfa198be
+~ ___52+[HDRProcessor supportedDestinationPixelFormatTypes]_block_invoke : sha256 47ffb8bc4ac1480f8bad7142b0ecba1bbde7788cfc6df2134ebb7ecd8753fc52 -> 118eba446e61861dabdb5f76253934b592cd98ea19dec8a41c6388f577f45c64
+~ +[HDRProcessor supportedSourceColorPropertySets] : sha256 220c7100895a69a86e4d42204cb8f91f027057cd705d22023f9362895ddf6f73 -> 75f2961f9facce0beb52fb92559b4ced8e00738731dbdda49ec1613e16d1f5db
+~ ___48+[HDRProcessor supportedSourceColorPropertySets]_block_invoke : sha256 e6e27a0ba106127517f370433a806723908683518c0a17dd0fd8c232516e7067 -> 5e8f32e1c4418114e83f4e0b9c2a2d16a81cb94509991e82ff7cc0ba3de21e1d
+~ +[HDRProcessor supportedDestinationColorPropertySets] : sha256 31a409a45703748ef5ce395c19aa30bcaf19f9b247a15948175f1bc114859495 -> 97512304f8f538ec51fa7f0b24e6e3c32280bc01f6a59be3384a81581d76dcdf
+~ ___53+[HDRProcessor supportedDestinationColorPropertySets]_block_invoke : sha256 56767879e211c75b229ef562345f737bb3978f39c6c4c918023d33572f707c81 -> 6af1c94db5a29a7446043d5b53f3f7594901160f8e34279b2cc17957cc109139
+~ -[HDRProcessor initWithConfig:] : 1920 -> 1908
+~ -[HDRProcessor initWithDevice:config:] : sha256 97a2cf5ccfc122dc3bd34d24c102e82efd889691991c7f8e7a1334bfafcf78cb -> 1f7ffba12f76b4c47f74f12cf5a1a3ae72be905e7688b276f898e53784f7cb91
+~ -[HDRProcessor initProcessingEngine:config:] : sha256 e345d470ac4d2080ed7b7e308a177682061269f881fa9879930116be8cfc7846 -> 5f30e4b95309576c4f1736fc0ca97f15e22801cf5a988562e8a57c50a08cd2f7
+~ -[HDRProcessor allocateResources] : sha256 78a013b007a81d5f700cdec3467024448fb36ed9e0bba08dbb57604caed3af63 -> 7784d4106244ef4abf38ef2c8e40ddde69c9ef442fc8e633de39a4b8d2d9c1fb
+~ -[HDRProcessor allocateEngineResources] : sha256 25c849532ebfa5b8dc946d5d5976923ef8e687dd209f00d6b615a448c72cb6ce -> 8eb609bec6f3e8534cefff954d5cc0d4273e115ed732468389886fa2eb2f33b1
+~ -[HDRProcessor dealloc] : sha256 a8d9b2f9cea780bdf7887cae43a497c4099a589e7dea31ca1bf9e3a9c1986bfa -> 09995aece736b5dd56b2b82c41963932e301e2f75fc0fdca1ebd863da37c9594
+~ ___clang_call_terminate : sha256 ea105de9e12969b6adb2779ae8fd6ffd79241d5adde41625c5dba084c5c5c2ac -> 565a8f218abfce887a762d692897064bb13328a2dca6aab4004d79da68ebe137
+~ -[HDRProcessor releaseResources] : sha256 0be38a5213d5d23ae1073964c41f86c53750f725638bf9dcdc76b6e7342e96e6 -> 44c974132b804ba85e92f2ccf3bdfc68238da0edb61d265bb78f726074b460ba
+~ -[HDRProcessor processFrameWithLayer0:layer1:output:metadata:commandbuffer:callback:] : sha256 0a42558efc70cae3edfbcb3aa0ffc4d223baeb1568243039a7aee61b05b2c0cc -> b8f16f61bebfdc58e067d58e885dacc708d607386225334404525376178989de
+~ ___85-[HDRProcessor processFrameWithLayer0:layer1:output:metadata:commandbuffer:callback:]_block_invoke : sha256 04448b41f6bc3f11bd118f85dec9b8c46d64f1ef91142f97eec6fd54c25ee9eb -> d1aa4d60151d4b239a5328bf7c3f4e64feaec84b84630159ceed20afaa3b78f1
+~ ___85-[HDRProcessor processFrameWithLayer0:layer1:output:metadata:commandbuffer:callback:]_block_invoke_2 : sha256 d7af2c4c0fc853c7464b93f48b24efb228541e6b410f8b63ca6b57f1e2a0252a -> 72de9e371f38bd40083d65968c9bc57b0176e6ca4afba7260753638cb900a1a6
+~ ___85-[HDRProcessor processFrameWithLayer0:layer1:output:metadata:commandbuffer:callback:]_block_invoke_3 : sha256 f99074cf496adc9d3831666adc7579f430642dc6c0de585fe35a8c3d3b74a7ae -> 4e217cac9e5297ea57c4331f6d90f9b0da6375de32791620d978df5a94a217ef
+~ ___copy_helper_block_ea8_32s40b : sha256 d39f015630a6ffa9de38276797af4b2eb09d460aeb9a51eaa163489b00059a5a -> e9cd2676ffaf3b6d79dc233b3b4196b4e3c419eeff51390f45c808d8284eec17
+~ ___destroy_helper_block_ea8_32s40s : sha256 9689ce4fd2e33b86a5f2f5cc2c62a2c341269fa1e5b97eb4273f839e1305be99 -> 9d06892531bf92cd8d48b0b414e6db123df869dc315f5f611b606d438c23b097
+~ ___copy_helper_block_ea8_32s40s48b : sha256 342a927213dac3c91fc5cde60323555603e95dc6d1c88d3f0ba9d02b3446c920 -> 540a5a779e617add70a9d30c34cef48be75a49b59dc421b96d8802f26960f912
+~ ___destroy_helper_block_ea8_32s40s48s : sha256 baa2daf2f339bd880fc012c62fdbc37797cc91926b9ae2d91456163b3e3c2882 -> 59676e2f0d35156ec66cd66498864553e373a89e2e6acdfca12a0ef1973ae15d
+~ -[HDRProcessor hasMetalDeviceChanged:] : sha256 1d75e95335497e71806912e9f93e057362bd64b89e194ac7bf492ee02178ed9a -> c2cfef44276785fac8ab810fa0e3a1f5d289c6967ee3f1c4813a0d400350c731
+~ -[HDRProcessor encodeToCommandBuffer:inputSurfaceLayer0:inputSurfacelayer1:outputSurface:metadata:] : sha256 fbc35bdf45de4a82594bebb45edacae77ef79fdecbe314aeb84f58d76787db32 -> 48bbe5654a4ec5971c83e45f28bffa5ab777fc0989da607aa0639c4a27848df1
+~ -[HDRProcessor generateMSRColorConfigWithOperation:inputSurface:outputSurface:metadata:histogram:config:] : sha256 d310d14d58a40dd33245f2492a7b1afc75bc452628be20e7036e5f92e252392b -> cdf762b197ff9249b8a24cbb2f9cd1a4f74697a44c9a615f583010db177afa3c
+~ -[HDRProcessor iterateDisplayConfigWithType:operation:inputSurface:options:config:] : sha256 e2ae22560c78dca05bd700e6fe316385b5e8a6be59f8c750697689ff5f364309 -> 4c655a03ae78ee866697a93608127820d84c5414472462b4367a2b9faa265fba
+~ +[HDRProcessor dolbyIOMFBMetadata:withMinBrightness:maxBrightness:] : sha256 7705b7035512ea9205b43d3c31e2ef668167c3d4bd7ba24d88ca5f8f8fcde0d2 -> 2825a00141130bbac5eb79e89af70f10cc97297fa248a8b314857382e022a5a0
+~ +[HDRProcessor parseHDR10PlusSEI:outputMetadata:] : sha256 6c116795c89f918c9324ad53844a3065a92724f27e857c9fd516c129b1a84a1b -> 15500513d8fe90480e5b8427922df8ac1708925c47a0e82320d09a5e24ed2410
+~ +[HDRProcessor parseHDR10PlusSEIWithInputSurface:outputMetadata:] : sha256 bbfcb133bb92d7264ffbfc0032a45f060db4677998261888e5bcc922da6f9ad9 -> a0c404c48c28aace3a60eab3e157f785d943489d7c303c1b22f7a8efd5119083
+~ -[HDRProcessor ValidateMSRColorConfigInput:inputSurface:outputSurface:] : sha256 55bf0ce42e5cf5d80425a3dde3632bc49b427b02bfa40544b28e769e7fec9ab3 -> 3b972df2416f87951bab1c9c23c43ecfb2fcb333eaa24223280ab5c175fde2da
+~ -[HDRProcessor ValidateDISPColorConfigInput:inputSurface:] : sha256 d10136c72d970dc89292b6143f9882d13f70c239c64407f4d9938b3306e9a330 -> 8466c4923730b751192ab32e4c32fa7e48488bbd3c29be11306a65ace020a735
+~ -[HDRProcessor applyDoVi81PolicyWithInput:WithRPU:] : sha256 f45159b892bd377f167d1f6b35e3800f3f261a5c9aad480fe4683d10584efb0c -> 2a95028ec1e75d01282472e1558bdfe9171ae97518e9842234dd4938eeb383da
+~ -[HDRProcessor updateDoVi81StateWithRPU:hasHDR10PlusSEIData:] : sha256 e334a8f8a036f634566a1b09d97b76a41e5b12927925709e524aea85ff9ac5a1 -> 6ef96e0a4ad298747116a484bf3f41c947a6bb6e1c116a524e24bfa3adf8dec0
+~ -[HDRProcessor processFrameInternalWithLayer0:layer1:outout:metadata:commandbuffer:operation:config:histogram:data:] : 7952 -> 7724
+~ -[HDRProcessor processPixelsWithLayer0:layer1:output:metaData:tcControl:hdrControl:hdr10InfoFrame:commandbuffer:frameNumebr:] : sha256 86e63c6dafbfd272e7d95f426b8ee9400ad50a65c5316ac22f5a0821c51b3e32 -> 885ba46434e23e859bffc9b9155dd2f8958730a6b0996c341d743983514e03d8
+~ ___copy_helper_block_ea8_32s : sha256 1221ac04c77cf6a6eedaf4537fea47e38baba4ee16e530b74a67afa16b629f96 -> 187e413c2bf763149929ce67fd2d2d818aab8506e3a552c69b7f1ee60d1e7c11
+~ ___destroy_helper_block_ea8_32s : sha256 08a902c950b1aa597d5004e5c728821c4734b3b564ec1be9250e7720210b21df -> cfe9b36dcd1cf2dae5e1e09f0f8b84f13dcb12fed07ba0f163101509952339c9
+~ -[HDRProcessor checkInputIOSurface:forInfoFrame:withRPUData:tcControl:] : sha256 f5a8d92532de3ebdf81cbaa044bdb399bfa2e25f4f9e3a6e557dc2bb4a7e4851 -> 1cddbd415ad628e3fcd8483dc2db9f5c358402fefcf0347a70b9e91a49c411c0
+~ -[HDRProcessor checkOutputIOSurface:] : sha256 d928fc7b2ecfa8a57400d8e5034a06d29ac2ebd8cdd8a3a2190028fd35122da8 -> 8938e1786352ee82cb74e9f7bc2228bb2f142461e0dccab7639b49bc744c3834
+~ -[HDRProcessor checkInputOutputIOSurface:output:tcControl:forInfoFrame:withRPUData:] : sha256 4cc42cc2f410d82c8289e1a580d407e4e937193c995255d9b06802b043063224 -> dda7e1fda035e4a244840dfe6fcc5214b7e87648dfdb07deaca4d04ffd64b12e
+~ -[HDRProcessor getDisplayPipelineCompensationType:gamma:] : sha256 0b863091b1f645d25be288288e3f15b0d5bc63804106f2a5e0c944337aa1cc0f -> cba8cdb21165b7e52e9239a340a39851ffd137306c3dda6b8cbf4d4d74c61a23
+~ __ZL27getFloatFromDictionayForKeyP12NSDictionaryP8NSStringf : sha256 091be724a457c7b202ea1c989e4fe27c306be4540a74fcc3a2b5550c9d84126a -> f12a31d6b660f04f292552e9c8cbc85d6e289bdf7b6a50cbeb0dae18983d794b
+~ -[HDRProcessor logConstraintWithValue:fromCA:onExit:] : 692 -> 688
+~ -[HDRProcessor getHDRConstraintStrengthValue:] : sha256 5dcb235dd5689825a26e7cda2bd6639d5108e2c7d023aaa7560045ea8e4c5dc0 -> d8a6cd92325d805fe1d0e6ad06ef11e59ee31f15840fe57b1735668ec728d05f
+~ -[HDRProcessor getGCPGammaValue:] : sha256 96b5ef33367d4eea0361ee79e6d997b23c614422bb9add5b5afb3d93726f4f17 -> 4539ce2e27ebf5df3b3350f6ec6b784676bc606b4bfa48338e863a111181b192
+~ -[HDRProcessor getHybridCanonicalRenderingEnablement] : sha256 d985df020ffc439d92a3b4eaa68607e566af5984e0a47ed03f659c185d825f3f -> bc656132d09905aaaa84ca99fcace5b3d1ec3d0c775aaa122fd998c9d0ff754c
+~ -[HDRProcessor getHCRUseSystemBrightness] : sha256 a14249724c50ef86f00a0618802822ce1f92ca1dabbc6d19b8cb776da606637f -> 0e41a7db5b360640b465c27ff8ce7189170a4456976339c16de9129d7f144125
+~ -[HDRProcessor getAmbientViewingEnvironmentType:] : sha256 7ab9d983d4d2457b54a7283dc7ceec602dd3aa19463e3cac6699c9453633bfd8 -> c534fa6f73d2d6eceb45223f7345ad5bc09af41563344c895eeeab9390ed498c
+~ -[HDRProcessor getSceneIllumination:] : sha256 fc17c1d451ad1dccb2f3c12d9cd5b6fe255e572d059d7f3c0d709dd04876c48e -> 95ff88e0d1f25b50dda492f42e907b642f7ef04de4e3674cad87c9b8a1fe4ce3
+~ -[HDRProcessor extractCAMetaData:withRPU:] : sha256 5e6f163d74fc7be8e172ea676be4c635a430cc4bb8d5263607cf716186621a86 -> 5f80cef38949d3de924dfd93876176a9739a1ad9fd4b6f4389e9009b7c74f2dc
+~ __ZL25getIntFromDictionayForKeyP12NSDictionaryP8NSStringj : sha256 240238b2e0bed8ab8b3ce45028189c68fef32f4a38f6245d4d708d9017033f0e -> d0d15f6b454d838320149f6c4ff4cec327bfd0f93f81dad11ba8b5bd53eaf6c0
+~ __Z26extractInputColorPrimariesP14HDRXParametersmi : sha256 4cbf67c05d122e4d3d34ce8e55a0329bd0934e956f45e8482439e32115996113 -> 778f40e28e0f508a1a4b4c09131399b2725304363d3e38e3abe55e4b0a2e39ba
+~ -[HDRProcessor extractHEVCHDRParameterFromInputIOSurface:forInfoFrame:tcControl:] : sha256 9a9cf871b6ca7a73954c2a1536ba6c9fd7c4d155a79a17f2cdaf611e80f360cc -> 95fdfca5de60656fc5dcf74cceaf92ca4f56d48812ad6aa13ae3a779833c7b9f
+~ -[HDRProcessor extractHEVCHDRParameterFromInputIOSurfaceForDovi:forInfoFrame:tcControl:] : sha256 f1bc0a6bdef765e858726679654686d4f919afd8cdbed19683be98e74b5466d4 -> ce95820153daff0a72f88986f059538681dd20d167c75265ea32387266cb820c
+~ -[HDRProcessor extractHEVCHDRParameterFromOutputIOSurface:] : sha256 69db601b2ac510c923dcdd5763ba752ce5e215f41fcd79bc9037d89a19575ae9 -> 7b62a1d93c9320c8c5935168df50c2ab0750163fba36320da9b3e7f90ddd9fe1
+~ -[HDRProcessor setHDRControl:withTCControl:withRPU:withMMR:withDmData:withOperation:] : sha256 8bcca2730d9022e9dd3d7371798c6f0893e9d6653651489cbf6633f16b2aa8ea -> ad622e57afd630e4fe017aae24e9e31150d9c8e11df40e533393ad532c139162
+~ __Z18floatCopyWithCountPfS_j : 32 -> 40
+~ -[HDRProcessor setCSCMatrixInHDRControl:forIndex:] : 172 -> 164
+~ -[HDRProcessor selectHDRUsage:withRPU:] : sha256 cded8384b2c4d68b2c2f78549d4eb0ae93ea57f5d3550a7876617d4619fed0ea -> 678dda7465f6f7fbdf4757cef08153e7f7483c32cac2908f8756078fe44f2816
+~ -[HDRProcessor extractFrameMetadata:intoTCControl:] : sha256 60c0fdf9110c2ce94ccebaeef758646639da6d85744487e6e0ddbf804f8bc366 -> 732aa66cb05081945b616e049d0e9f8077ea047859ffaa1df25c2b79a599ff8d
+~ +[HDRProcessor isNSDataNonEmpty:dataLength:dataBytes:] : sha256 733ee6bee93be154347bd21b84b8efec0b23dbddcbc2048821483a7719a4457d -> 77109defa327aecd7cb94b088dc4213a52af76f10caec7f20f9a0bd4f5197517
+~ +[HDRProcessor dolbyIOMFBMetadata:withFilteredMinPQ:FilteredMaxPQ:FilteredAvgPQ:EnableLevel4:FilteredAvg:FilteredStdDev:] : sha256 99c45916ffee4809d7ece02ed013131657273b61ef01a7a3908a13a74674c328 -> 3b331e4a1adcf4ceea823220d7718872a5639ccbe649974544b1d5c3709386ca
+~ +[HDRProcessor isHdr10PlusSEIScreenRecording:dataLength:] : sha256 c883c13512c427dcc2394ad3a0b66ec2c2b4548e1789ef85f2e0af9eb0b4d0f3 -> f314c68b1ee67f0e122a35f7fb3bde85a8e837cdb5a3a9c21e1873ba4f94d174
+~ +[HDRProcessor parseHDR10PlusSEIMessage:outputMetadata:] : sha256 4cef45f6f0db156bdf33764fba4654b9ccaed027d8dc649741eacf6974ab8680 -> 803c38619e280eb2d87197e4f12faf02f3b0e5b12b709a9b3247b6e6ce9b7b4b
+~ -[HDRProcessor getDispHDRProcessing] : sha256 554b26cf635aebb18eec54d28f7169245934d6470bb724677b90b541b7f1eec3 -> fce8058ee5e38eb26a46053f5e07336406aa744336ae344b2b1d6f677a8ee296
+~ -[HDRProcessor .cxx_destruct] : sha256 ff312adbc98898af9e5963b99ef901e4bb2b0a819f83cca5028f396a63a28307 -> 9c910d2e1f1aaacc2bccf522cfbdf4d102bcfe083283cb94c3ac894630d99807
+~ _createPixelBufferPool : sha256 aff1b8611fd43cbf340d7117b0fa92a4d27af78d9e6f62556b048e7a78e4d969 -> 30174d528005c4fd320e02b0b5fa528c5e71b94be546207c0efc3641419479f8
+~ -[ForwardDmShader initShaderWithName:] : sha256 04744ec2cea869a9e5199ec09f6286f71989fae9a6e7f5507ffff87ccdc26f83 -> 5e8ee414ee98dc545a27374fc29a38569dbcaeed2db01cae42cc3f2d2642a164
+~ -[ForwardDmShader getComputePipeLineStateForDevice:Library:] : sha256 5b878ad58d3639bf94af4c20652d226b6f9d51337b404f2f58b06d531004b425 -> 10de4b579f74c16abfa11f44cf46ac540e1757f712741a90e48b2b55456e4979
+~ -[ForwardDmShader getComputePipeLineStateForDevice:Library:Constants:ConstantNumber:] : sha256 106064de3f1c6cdb165c73220cd9d80e6bfaaf446e089cb895d9392fa8b2db68 -> 6e6bed350bfd56355361a16e9b96dcc9cbec3bce01d5946ab220fa07dc7f166d
+~ -[ForwardDmShader getComputePipeLineStateForDevice:Library:Constants:ConstantNumber:input:output:] : sha256 5d5140e7311934f685d5e2f551c11bd74f5af031102792089eaa363e93c6bacf -> 0a28543d23d41dede286ce2452b079b4c2c5cdec529c8cc57cd9e77fe54d2338
+~ -[ForwardDmShader computeKernelName] : sha256 687ef99e4059394e3bc8915075535e050755520b2394f93162745743a23b9130 -> 117d3e3a17fe89ce806844d4296ffcac3831c8310fbe045fa7a5799681473217
+~ -[ForwardDmShader .cxx_destruct] : sha256 d3b328ad692529f15c58d01ce1a74825ae543bcf1d7b8381d530e894055ece24 -> f1e7fd7a829159dfacf97d1c2997cc9d34ba5ffc3c404b6dded953b4c1f9cf90
+~ __ZN16EDRMetaData_RBSPC2Ev : sha256 fb7c8db7606d90e9fcb7ea091f855b8b62aa1aa207b13f9d0f242cf3a29347bb -> 934bfdfd461dc5266bfb6984e2a592c9036a6954af32c1663d78a45e7b935398
+~ __ZN22HDR10PlusMetaData_RBSPC2Ev : sha256 8852e5a0212b0a93d0ec604f9a2f8e882d48fbdb8d5b2bfa095426133c27c7ca -> 3907433bca9eb88eb444b2ef6701774a831ba58a74f6c1f29498e01d98607f13
+~ +[BackwardDmShader createShaderWithVertexName:fragmentName:colorFormat:useCustomMatrix:p3CSC:applyYGamma:] : sha256 2d56811fdf907ccc590725649710050b9e9e2975bc4b98aafac2eb844687fa0c -> a6a942ee22c63c6e8fd7727939b14ce13e1f3650b857cf05b9fecd300ee6d887
+~ -[BackwardDmShader initShaderWithVertexName:fragmentName:colorFormat:useCustomMatrix:p3CSC:applyYGamma:] : sha256 20006a32667aecfb4afc241d5e4616e6f1b27b7287924b33f1d9db153230b1d3 -> 185d39abdd49ff8b336809d060401af92299307bce14fb06ac29feb4ee35cc21
+~ -[BackwardDmShader getRenderPipelineStateForDevice:Library:] : sha256 e8304fda151769f444e9a7ee507add08f0e5b0f358cb129529d6336ecaabc48f -> 1565668008c312313ce3e2a5f847652ccb2d85b4fffa3b1831954bea155e0a7c
+~ -[BackwardDmShader getRenderPipelineStateForDevice:Library:Constants:ConstantNumber:] : sha256 97c66ea18421612a6c986bb048fd85d120ff31b210f4c8b52bb4b9b808bcda84 -> 81ae0626b1fc5a9e5369cb735e7e8fb7e6c19e08167762ef3241b7c86bb50769
+~ -[BackwardDmShader .cxx_destruct] : sha256 474d854f3cca15ab4742ee4f4e7f92c36f99e8283b7d197aed0ecabdfe7963c0 -> 168622d872331e3c45931ce2179326439f2244ed23ce07ef1b1804ce231ca9f5
+~ -[HDRBackwardDisplayManagement initWithDevice:displayProperties:] : sha256 77d7b354fb6a68a97e7f7ae7f0761ecc4a97ac66bb6ad845e3df162c664e9d0a -> 19a65973082323bbbb9974482ac16aa014493dd9b83ebf4b84815789c29205b4
+~ -[HDRBackwardDisplayManagement initWithDevice:] : sha256 cf00f91efb5b10d77efb0367a2ef250e1f64956f4bb6f66f032fa0704b3d6a76 -> a260fe89d60d857d84c1287ee2d90628f2348a0960052ddad2a7e883adb9800d
+~ -[HDRBackwardDisplayManagement initDisplayAttributes:] : sha256 de2997006571aa949b3892fdd720fec8b99bd88a21ca3fd404bda9ee0da4cde0 -> ad9a2882dc281e16521bfa03e937f74ed6df555d4b5668a7cb88b25645b52d0a
+~ -[HDRBackwardDisplayManagement getPackagingColorFormatFromDictionary:withDefaultValue:] : sha256 31b6eb168f0203f0532c5412c80ac9b03e00e419ed74bb3398dc482f9bc401ca -> 48abbba00d1dbb4c5f499498f9aed7e47e1bf6048c402cec0ac83cc0fc33bb57
+~ -[HDRBackwardDisplayManagement setupMetal] : sha256 b8baff5ac7bd75f869648687c01d85869cb5ce73b98cc29d1eb16000382f5ded -> 25c6e762799c3ee3bb61079ced6a0459998a279a361cbaa52cbc32d6330f605f
+~ -[HDRBackwardDisplayManagement createShaderWithVertexName:fragmentName:colorFormat:useCustomMatrix:p3CSC:applyYGamma:] : sha256 f2b488114bbd411ed32af0a45e231189d48dd7af3831ed5f81a4a047a01d339c -> 3b92b7567f847eb2338ea34bdfdc6390de7d1ffa04eaa1a23cc19bda4b4d7a08
+~ -[HDRBackwardDisplayManagement getRenderPipelineStateForShader:] : sha256 0d5dde41944652422de76a7f4588560f5d620c7514747d43ca926281df532bc7 -> 0e74a64c284027b07c8f73b6460e4fe696025b84a3514a624e07b6c9b2764974
+~ -[HDRBackwardDisplayManagement createKernels] : 11704 -> 11876
+~ -[HDRBackwardDisplayManagement createSamplers] : sha256 c4379a83685aacc707d34081fa09de4f69c5bb9746f61ab03da097a4efc14552 -> a560767033146bc3c9dfbfd5250e213193dbc1ebe28e4ed0264385220420816f
+~ -[HDRBackwardDisplayManagement createPQ2LTable] : sha256 5690c90f1769847c8ef2ece3dd15aedb4913dff7dec4a55c8c523c739a6ed9af -> 93c498e83106c962b43f935095fd192fe6de2ca636cff2be781635d9f40a596e
+~ -[HDRBackwardDisplayManagement createL2PQTable] : sha256 31dd997906149dd85ee5c7b1dc37f4e7c55a2c710d7dd6d63c3f167df4944366 -> 0076f2621c9537da6e6505c757f99b9fae479a8fe3ad92db3644d177bfa22cbd
+~ -[HDRBackwardDisplayManagement createInverseScalingFactorTable] : 268 -> 276
+~ -[HDRBackwardDisplayManagement createSDRScalingFactorTable] : sha256 609322082b51e5cb01b6f61b08a032db3572bdde9c8b34bdb3f620bf59417842 -> f8fee6b866949a243231ec6923f899884c72a398e38d85edeaf849ce5e0e02b6
+~ -[HDRBackwardDisplayManagement createYUVScalingFactorTable] : sha256 6fa4369cffdbbe00cb13f5b69a5b769020d84e7b476bcef67bdfdedf1c736b5d -> 400d6f73966cd347a10486c0ce5f778838bed9b8863c68a34a35a432034a636e
+~ -[HDRBackwardDisplayManagement fillInverseScalingFactorTableFromDMConfig:] : sha256 fd91051fd71cbdd520762d374eaa52e7cd45b7b8cba63e9dbdaf8a57f3696688 -> 56958559c34b23a28388f508ed51f5db037aa9ce19acc9d400cc20190668c5d9
+~ -[HDRBackwardDisplayManagement fillScalingTable_SDR2HDR:target_White:target_Black:] : sha256 a4b333b342f0ae08f0c31ca9b00d80c1fb44f9d36eb973bc8aeebae41e911d03 -> edb9dd478fdf03b559faf9d0dc0771b65feb4c08e094b84805ce79746f3f91a5
+~ -[HDRBackwardDisplayManagement fillScalingTable_YUVTM:targetwhite:targetblack:satBoost:scalingFactor:sdrOnly:] : sha256 dcc1d54b4fd4b90ee16e8bcc2f9a6cb1fac7da97a80abc0d3759d4a27514eb45 -> 8b7596b39e1575ab1d086c6cdb05f648668f4f4611349b87a9b694f7b871ffb9
+~ -[HDRBackwardDisplayManagement createBuffers] : 412 -> 428
+~ -[HDRBackwardDisplayManagement createMetadataTexture] : 524 -> 532
+~ -[HDRBackwardDisplayManagement createMetadataVertexBuffer] : 596 -> 592
+~ -[HDRBackwardDisplayManagement updateVertices:videoInput:videoDstRegion:videoSrcRegion:uiInput:uiDstRegion:uiSrcRegion:dstWidth:dstHeight:videoSrcWidth:videoSrcHeight:index:scale:] : sha256 b6a5138555a476073b20a9865b9d1ae35fc7d7c066e6d39ecac89a2cd1623baf -> 750385b22f45b64511cc19876b827ccda72093896f6fae118797b14bb24da4bc
+~ -[HDRBackwardDisplayManagement adjustUiScaleForDoViToHDR10Conversion:] : sha256 6845cee27c2a1254ae362ef6412b31baf5910fd09c3cba7b59fd26dd209f3ff6 -> a14655d507709bae476523fbbf74019cb2b40c9c4c4bf0be3cf8cabbfbae7903
+~ -[HDRBackwardDisplayManagement updateUniformUIScaleForVideo:forTV:videoPeakBrightnessInNits:uiHWDegamma:dovi50toHDR10TVMode:] : sha256 3ee90831e3d6109795981a9fc918a5aeaa179ac707327761e07a4ba08d3879f1 -> d5c7d673363a61bbe02217341e83604981058de38508065fcf4d19389c73523b
+~ -[HDRBackwardDisplayManagement inputIsVideoOnly:inputUI:] : sha256 fe068d271c68bbe95963bbaf8f521a7cf345282b9dd363d7cf9f2fa4b47c974b -> 1954926871a6a139e983d5dd80df206bbbe51b55637085d5df5f9990ec18f217
+~ -[HDRBackwardDisplayManagement updateConfigFromMetadata:uiScaleFactor:width:background:hdrVideoOnly:hdr10TV:sdrOnly:] : sha256 8e2cb9c9e55362fd3cb18a1be6267531b3242d72dbb9ec5bfd36ece3588a4d36 -> 6b3267e7c1807846863e269ef1e91db10349d22996e76f92eff4e767d265df6c
+~ -[HDRBackwardDisplayManagement generateMetaAndConfig:inputSurface:outputSurface:payLoad:dmCfg:] : 1200 -> 1208
+~ -[HDRBackwardDisplayManagement drawMetaWithEncoder:widthScale:dmPayLoadLength:] : sha256 e947b2b665f8fa3c0520decc0064d7bcc8bc9eca7da64f6d69530309a20e564d -> fc714a5ab35018aa9cecbefd6832d02ae3ebe2d62e40d48e5921f45fc0726781
+~ -[HDRBackwardDisplayManagement handleMetaInsertion:encoder:widthScale:payloadLength:] : sha256 4e01f6df4bed970a40b0eb57a0d445db7df9f65e6cc7a89468fa670b1201485b -> 8ecc32c5ef65b0e24b16f3a3a950b5fac50d12630f37ee9ec9f20df4b4f64cbb
+~ __Z19getStaticToneCurvesffffffffPfS_S_S_ : sha256 daeaeb687f76946b6800c15c2995115af355e8ef565e7d67fa1a65096ddb78d5 -> 37a5e2690ca90f925a515c9005889c7697f10e37a7e9980605b374a8696f74b4
+~ -[HDRBackwardDisplayManagement adjustMetaData:HDRUIBlending:hasLetterbox:] : sha256 b6c15e999d59f18b534a125fd488af8c9a3eb5c0799676822104b4ff74972eb4 -> b29bcabf23cfd72c0db193d483064e68f3d76bdf1fef49b7a22e3867da276adf
+~ -[HDRBackwardDisplayManagement packetizeMetadata:length:into:onSurface:] : 476 -> 488
+~ __Z20clampSDRMaxBrigtnessfffb : sha256 cb05733e0ce51e5d1949ea2052f6d4c78574f1f026f65afb5e82a5a4692dd751 -> c5bef452e792347f427089d58c5d641eda2dd38375ae4ac948a43399c9105317
+~ -[HDRBackwardDisplayManagement encodeToCommandBuffer:inputSurface:outputSurface:frameProperties:] : sha256 018ac9899ad05b62346fb03950fab2ce3248f3f5cd642ef50f4fc22d28b12c61 -> 435997f1413f0fab3287f339a60458abb2ad3130485e1b9679ee3b2a978e7a56
+~ -[HDRBackwardDisplayManagement EncodeToCommandBuffer:inputSurface:uiSurface:outputSurface:frameProperties:] : sha256 be4ba0a3cbb9745838ba8859d2ea45e1db11c292d3706d14da7ddf4105d0272d -> 04d5f992fbb9dd1f1214d82e3bd8f2f38960a833b995c8e65046b7ce961cd66c
+~ __ZL23iosurface_get_edrfactorP11__IOSurface : sha256 bfe75329b860363490000462705bf1d5993a35cb181d0b175fde4abeedf101a5 -> 856f61c1d709d1a3668842543825b17e77da11d7292533d98f9b543812117ff2
+~ -[HDRBackwardDisplayManagement encodeToCommandBuffer:video:ui:output:frameProperties:] : sha256 c20128ecae51869190b0853953338c55d6b6a4ef24d62afbfa73b9d3077b683b -> 6bb5d2ddf54e2c55aeccbfa2fe0f9bfa40c4bcedb3e6938e28a24f42d8b8a807
+~ -[HDRBackwardDisplayManagement encodeToCommandBuffer:video:videoSrcRegion:videoDstRegion:ui:output:frameProperties:] : sha256 a78b20e4cc8d153edbf7a7dc771a8bf2d61ee07ac08293076682ba8a8390a3ed -> cefd1892c4fe3c67abd7fa4b89eec3c5774cddd046ddd2d4388116b033d95290
+~ -[HDRBackwardDisplayManagement setAccessibilityMatrix:] : sha256 9ad427e1b05337c684eb8e09e7627ec1727fcb13b784db906d5afd82bf014744 -> b532d0613a7f3a5a0eeeb7f23201b5677faa105391ff8415a1a8907d42e68f66
+~ -[HDRBackwardDisplayManagement encodeToCommandBuffer:video:videoSrcRegion:videoDstRegion:ui:uiSrcRegion:uiDstRegion:backgroundColor:output:frameProperties:] : sha256 7bed902325b642370929be482fd3ce3d4b6a1c5fdac984bd21673f58cc9b1e70 -> d916ba793c7d2b208615c0e08b02784ffc14fc40f364f4397324316d49b7ab48
+~ -[HDRBackwardDisplayManagement pixelNumPerThreadFullScreen:videoInput:UI:Output:widthScaling:] : sha256 f54dc4514bcf2f678b8f6f8e7b12614ea3d35a55c822db51224bf86500c266bb -> 57522a52e4e24d0e5ed9f695e72066083b29de5599d19467cf550b0838c6750a
+~ -[HDRBackwardDisplayManagement inputIsSDRVideoFormat:] : sha256 498fb6e6182a79b5caf9d99972f1d1ce346f0489e610a8fc7c885e15322f804b -> 060b7f7be0c89372f4311cbd66f0cdf655c0068158a258a54eab405a8ba4f3f9
+~ -[HDRBackwardDisplayManagement getPixelFormatFromSurface:DeGamma:forceUseOnePlane:default:] : sha256 34906f23f76305f07f01c3a8fb20e93fc8e35223628966da4e9da79729ad41c7 -> a76a35711611a8f915d0d20379f994dae3392b67136ce1ebf88628c17aaa8f00
+~ -[HDRBackwardDisplayManagement setupTexturesWithInput:VideoSRGB:UI:UISRGB:Output:PixelPerThread:ptvMode:] : 776 -> 772
+~ -[HDRBackwardDisplayManagement setupMetadataTextureWithOutput:] : sha256 74a1302e9724227db9ac9cb164d4d97e9225f0bfeef1622bf377b8673529e612 -> e3f6f5555950a805ba343acfdfddd5a44eea935d38dfd0235df7a7c6655af8fa
+~ -[HDRBackwardDisplayManagement createRenderCommandEncoderWithCommandBuffer:texture:widthScale:loadAction:] : sha256 3f5f235279a381547e6cde4a2e7c15354534102d72bf71a043863b34cc8833a9 -> 6a48af2fc0a370c4422f554779d2a4006f67d267fe0592acbd44afd28fad2b0a
+~ -[HDRBackwardDisplayManagement attatchInfoFrame:toOutputSurface:] : sha256 935c4cba4bbf939b019007048fc85c80ed36955320c8538b79a5006e8a71c6c2 -> 048a89a8865e5cad645d130656baf09d4c47dc5b836d3ce19c95e9854f3626f4
+~ -[HDRBackwardDisplayManagement .cxx_destruct] : sha256 aa1e26e1dd0b7e7bcdaa45c45a07efc8a825deb9cd2bc182d8d0b372c0c1f542 -> 09878debcba4607de25cb7ac66b5169a9cb93e346d79093b5245ad8e494e2498
+~ -[MSRHDRProcessingT2 init] : sha256 7295ea646347abe7027dd2d8d008aad0874eceafbbc2dd69cd2d93cca7cf59b6 -> b650b202296cd723676e23855059baf18c366169abf06ceb312c415a225b23d4
+~ -[MSRHDRProcessingT2 setupHardwareConfigUnit] : sha256 02eb93019ca2e146005ac223975c4eab6cfca94be5ebf13ed2b302dd4972bf9c -> a7a66f2e4be83a2f4cf6fb7bfbdf02f334c75e4040804fbf2be34838fe93e1d1
+~ -[MSRHDRProcessingT2 updatePolynomialTablesForComponent:Component:TableSize:] : 104 -> 112
+~ -[MSRHDRProcessingT2 updateMmrTableForComponent:mmrClipValMin:mmrClipValMax:mmrCoeff:] : 124 -> 136
+~ -[MSRHDRProcessingT2 updateMmrReshapeChromaForComponent:mmrReshapeChroma:] : sha256 2b044dc8c2e7fa24823cfe7da21597e2771a7240f1ed88c9049dc11423f6335f -> b1eea5fdc69ec66d170aa15d09966064dbe94337307bbad253edd15b66e93c8f
+~ -[MSRHDRProcessingT2 setupMSRPolynomialTableForHDR10] : sha256 0b37c063f1513d53d6f9ce6da6fa04db2c23fb686e4fb264d538277af2c8daea -> fe8e2e7dbef34c3972308882e0db1a22c87dc8a687fa67d851c25823818e40b9
+~ -[MSRHDRProcessingT2 setupMSRMappingTableWithMetadata:] : 996 -> 980
+~ _SortAscend : sha256 540f502d2dd39df02e964d1f61df8daa98ba688ba80cd02905d4d82d74eab0a2 -> f836aced8ed6066eab25e826b10f93377fef0c08bf5307b462cdb4864894d35b
+~ _SortAscend : sha256 540f502d2dd39df02e964d1f61df8daa98ba688ba80cd02905d4d82d74eab0a2 -> f836aced8ed6066eab25e826b10f93377fef0c08bf5307b462cdb4864894d35b
+~ _SortDescend : sha256 2bcc6b0dbf60d8ce05d9f651115db27dec1280f6d552506f3e7fc9d5793ee814 -> b5a4c80cd86088014c1fe497531942267d0b82df7b4d10385eb038e9679da9a1
+~ _GetPrimaries : sha256 4977646bc39a6a2181301352a3704e48091a770f34a613c4d9be2ede77b62502 -> 04dd50418d2e5713dd36314983b9566d857e440aa49db925706195fa60e69107
+~ _GetPrimariesPtr : sha256 95e202eb6ecbb1bd349bd0781bfb4afd42399123cf09cfc34d87795e353cc7dd -> 51eedbc4a9dde0c785b8ed96bea016998d6387b5b3bdab4541daec70c0e5cc28
+~ _BuildDisplayIdxTbl : 48 -> 56
+~ _GetDisplay : sha256 e6c693dc5e619d7da96fc6f5f55b7c778f24f4e2b48c611bc4342452c87f8fb4 -> ba260f722dff435e866bebc888f5f0fe2027e535ae955b5fcf623ed04865952d
+~ _MemCpyByte : sha256 ccca66cbd063aaa00f72fd246124b15b825535927b3d691d789b28b03f082242 -> ef33b11a03869908ef07ac966a0a2fa619c131a5813260cdde88b1ce5c152bde
+~ _AssignM33I2I : sha256 9f224e97e39bf46a40a52c49f3e9480e016c7e96a32c7fe40a1a258a0021ab88 -> 22208dcd2be88fc5fa45c778618ce0c23768f9a45d9441dd1642ad12515252fe
+~ _GetXyz2LmsM33 : 48 -> 44
+~ _GetLms2IctcpDmM33 : 56 -> 64
+~ _Xyz2IctcpDm : sha256 e728ea71e346b71c238061ce5eaec0a573a1c67c8891dccc44e36a7b2f5b5b0b -> ee39f56ea261af280dbe3a361b35dc84da981d4ddc46abfded09ff8f8a892277
+~ _Adjust64M33ScaleTo16M33Rounded : sha256 0580d1507f97a8f876344ab1fd08a64b87d95fe4419dd246d79bcf6cf97ce531 -> a21abde67e4a770cb1565d5cc2eb35da44f51a8b0aa4fa17303a61956f025b8d
+~ _APPLY_CT2RIGHT : 236 -> 232
+~ _GetRgb2LmsByPrimsM33Fxp : sha256 9b9f33ca9701340dc54ac0f87eba7f6e4c9487448b2de819b868f0cd4e6784f8 -> 29b886a9479ee893fc8f1aff4b7873405b88f25f295961b888229cecc6790279
+~ -[HistStatLinkedListNode initWithStreamId:bufferSize:] : 2184 -> 2196
+~ -[HistStatLinkedListNode dealloc] : 228 -> 236
+~ -[HistStatLinkedListNode detachAllNodes] : sha256 04f91e6962d708a3d4f92c221b417e95b00bbfc86de32b6c1df27b95faf27c47 -> a641d6ff349932b19c5958c05e7d57f09862f8de609c0f2478aa1556fe419a36
+~ -[HistStatLinkedListNode next] : sha256 36284a94fdc3d33a3a947ba48a86b9af2d423e857bed73d6807334da2f083085 -> f886d015413e244810867239e46ee64e66d7823525135e9287f4831e2ac05101
+~ -[HistStatLinkedListNode setNext:] : sha256 2db567f17780b9cf8150b0450023e37ec82d267105b16401427917e01d371246 -> 28709cb5886cd314dc8099128ad38b14257aebee0de64a5433848c6463fefd14
+~ -[HistStatLinkedListNode prev] : sha256 79c00238ed301f28ca99774a4b711d0ca3a00cf5f30f17814e87fa4af366025c -> 343a41c7fb9f465300c0f093423077797a0e54114163a791a29df8041adba60d
+~ -[HistStatLinkedListNode setPrev:] : sha256 31df13c57f185dc994f9b0c8bf3fa29a21b487b3621f942b49222407e0017567 -> 29d69009479d4f9aa354e2f96ef6dd0d367ee8ce70a2e78b36f881637b58298d
+~ -[HistStatLinkedListNode .cxx_destruct] : sha256 72f5d3a7cc1652ef073e7ead9b7b244259da0d5c73e7f56c3c016e11ccc92247 -> e6beb3b260ad657e140fb5b87af3adcd8782acbfeaf7cdd0fdc9948c49bf28b5
+~ __ZN16EDRMetaData_RBSP7setRBSPEPhm : sha256 6640bd3446ef71eed0dabf9c2ee31fe9aa2d8688bf4a8252d08bf118ed6c0483 -> e2dac944d6625727fcf494c37142732b09d879b21f3cd4d5e5f35e2e3346151f
+~ __ZN16EDRMetaData_RBSP12copy_dm_dataEP11DM_MetaData : 560 -> 576
+~ __ZN16EDRMetaData_RBSP13copy_rpu_dataEP12RPU_MetaData : 2492 -> 2796
+~ __ZN16EDRMetaData_RBSP14parse_rpu_dataEP12RPU_MetaDataP11DM_MetaData : sha256 60911d0ee4a2d858c89e99055d46f0ea2c834f602d43e4567a1539a3865df7b0 -> 1661965f0cbedfaf079acfd08bddf4c8619bb09b01881e6e1abd86fb0afb8531
+~ __ZN16EDRMetaData_RBSP15rpu_data_headerEv : 3524 -> 3540
+~ __ZN16EDRMetaData_RBSP20vdr_rpu_data_payloadEv : sha256 4b43bcbd5c910501ff279b7d7d48f0cf12be75fe5e66b6a1ba41ac0cee4b1436 -> d8273f090e9c4f45c3773e3273a42d3877b8ca44849e04b3b0d077042ea53e4d
+~ __ZN16EDRMetaData_RBSP18vdr_dm_set_defaultEv : 320 -> 340
+~ __ZN16EDRMetaData_RBSP19vdr_dm_data_payloadEv : 2276 -> 2264
+~ __Z21set_dm_data_for_hdr10P11DM_MetaData : 192 -> 196
+~ __ZN16EDRMetaData_RBSP20set_rpu_data_forHDRxEP12RPU_MetaDataP11DM_MetaDataj : sha256 0b2d1cd014286c39aa645475ee9f57e01e993514ed665acad4f7d72509145ea1 -> 6d9e6bb2c35801ff398edae783490b9f76f54d23d8594f5b2f813b680c74d28b
+~ __ZN16EDRMetaData_RBSP19assign_pivot_valuesEv : 120 -> 100
+~ __ZN16EDRMetaData_RBSP23assign_nlq_pivot_valuesEv : 52 -> 64
+~ __ZN16EDRMetaData_RBSP16rpu_data_mappingEjj : 2020 -> 1992
+~ __ZN16EDRMetaData_RBSP26rpu_data_chroma_resamplingEjj : sha256 968db6c4fe62cb477c695887a3d59600d4db7a44c63994552a40faf3c390cc95 -> 6d54319f089d71d2fb39252914260554e3d34536182a5ec9c3683c968a82aed2
+~ __ZN16EDRMetaData_RBSP27rpu_data_spatial_resamplingEjj : 280 -> 276
+~ __ZN16EDRMetaData_RBSP12rpu_data_nlqEjj : 1148 -> 1368
+~ __ZN16EDRMetaData_RBSP29rpu_data_el_chroma_resamplingEjj : sha256 5a6f00d8e2650aedabb880fee8bd4cc66fb9e42858746aa95ab08c7ef9f8070a -> cc16936ce81162970a7a165b3d748a7cd0f4a1fee3cb91fd81609d7ec7099400
+~ __ZN16EDRMetaData_RBSP22rpu_data_mapping_paramEjjjj : 2036 -> 2404
+~ __ZN16EDRMetaData_RBSP40rpu_data_chroma_resampling_filter_2D_expEjjj : sha256 c0319ac3ec543c050cb8f6e3691cf15b29b4b490b38384f2ff98e39cfac6a41d -> 899caefe93711c479d413d101e66f71719b620255a30bf8850bf10433602eea9
+~ __ZN16EDRMetaData_RBSP40rpu_data_chroma_resampling_filter_1D_expEjjjj : sha256 caa3989534a115a28607edee13f1cd3adf0d38b1274e9cde5dad3cbb51ce1f8d -> e2c2ad5f9ea6e3bc2a32f095fc0e289e2830f39a8294eb8d2d84b5b4c6e68dfd
+~ __ZN16EDRMetaData_RBSP45rpu_data_chroma_resampling_filter_2D_exp_coefEjjjj : sha256 aef41b9b7aec826bfb3706ce241516f067c4fdd5ea23dfb5953e9c535abfb40a -> 241a15579864a46cdc3c351bd336bf8b37793cae59ddbf3c47f04e4d0b5107a0
+~ __ZN16EDRMetaData_RBSP45rpu_data_chroma_resampling_filter_1D_exp_coefEjjjj : 220 -> 236
+~ __ZN16EDRMetaData_RBSP38rpu_data_spatial_resampling_filter_expEjjj : 232 -> 284
+~ __ZN16EDRMetaData_RBSP18rpu_data_nlq_paramEjjjj : sha256 243ee8a4efe356ba6c9fd1a6e2f91372f113bd216db4f818b45b7566b128725d -> 3ee458fd60876b58e5560641b209127edb10a9e8ab5962a187324246efdeb1d6
+~ __ZN16EDRMetaData_RBSP29ext_content_adaptive_metadataEjjPi : sha256 fb349e4dbc02fc2949bfebb8f68316b7dd59dd651fcda78b40f298bd34c20fa3 -> 95d29b32af25fc033dc2755383cf4a1f0f3577c44760bfb04ac7441d398b02f8
+~ __ZN16EDRMetaData_RBSP13cal_rpu_crc32Ev : 92 -> 80
+~ __ZN16EDRMetaData_RBSP31ext_blocks_vdr_dm_data_payload2Ev : sha256 bec1b23b318d4ee412eee95cd131dcd185ff658dadef81c6a9c9d2bb58ce150c -> c600d770b6a8cd96ceddcb70124588c17fa04ada53422a050ef65627c3d58fac
+~ __ZN16EDRMetaData_RBSP18is_valid_ext_blockEjjj : sha256 e8f2f52870b30d42be9618ad262cffe488e6651e8cf40e5108e892e1bd76aab8 -> e952b23319260f5768ed8e29feb1c5db56e0de317c214f0d591448a4508de555
+~ __Z12getFactoriali : sha256 35fad9db223e1b30051632561e5024a51c52dfda1aefc6a01ffbe0398091f627 -> 9e112e22098d5d5228fc7b9146ca863b4fcc489ddb3b652a5bea043c821407a5
+~ __Z17getBernsteinCoeffii : sha256 d07c302d50888decb2fb9016923c29037f70403ef89b362b8274db4a94ee86b7 -> 15d21c58e18b18abc22837df8ce0cf4aea1c7db5aa2bf6792b67d9c10b2355ac
+~ __Z11BezierCurvePfiS_S_iS_S_ : 504 -> 480
+~ __Z20BezierCurvePolyCoeffRfS_iiPfS0_ : sha256 edffd9eb0f8fabbe143bce5d9009158770f29983a808b8531f5c03cfd28416e5 -> 0fc85c503fc629df06381a316ddcc18e11fa59183cd2e499682a3c026f499617
+~ __Z20BezierCurvePolyCoeffRfiiPf : sha256 22314022bb2be74a6a86a6fbfceff4d26e366d3395ef396be9648b0d216f3d1c -> e869d6d70e51beafb73e69d6324ff123a100dc14938d12184204b1498148ab88
+~ __Z23getBezierCurvePolyCoeffPfS_iS_S_ : 136 -> 128
+~ __Z23getBezierCurvePolyCoeffPfiS_ : 108 -> 104
+~ __Z15BezierCurvePolyPfiS_S_iS_S_ : 404 -> 388
+~ __Z15BezierCurvePolyPfiS_iS_ : 288 -> 276
+~ __Z33convertTonemapCurveS_C_Bezier_absP14_ebzCurveParamf : 28 -> 44
+~ __Z16getBezierAnchorsP14_ebzCurveParam : 156 -> 144
+~ __Z19convertBezierToPolyP14_ebzCurveParam : 312 -> 292
+~ _smpte_st_2094_50_calculateTonemapCurveParamS : sha256 717d0a59156a104b049bbc81b2429f0eacca5c4ce01cfe624bd0e2b0e1b59606 -> b3e321781a698187dcb833ebe3c879612d34bddc79d25bcebe3ee54398ea4331
+~ _smpte_st_2094_50_applyTonemapCurveS : sha256 2412efde458bf62a5f2f955865467c07fd52b3b1e86c759c1c1fe62431458467 -> 9294b316d6d81ccd62c05591f3afc9c0e4c5d689bf4fa4cf431fa144184535e0
+~ +[ComposerShader createShaderWithName:dolby84:forLLDovi:] : sha256 fe66926d89eb67135ac010f1348ce809bb833b8522e5f6c05e67fb4f272003ae -> 834f00f582bb8ede403590d7378803c4cb42183b4677ca8e220a3721da346d8b
+~ +[ComposerShader createShaderWithNameAndInputOutput:dolby84:forLLDovi:input:output:] : sha256 4a1620c6210f6cd91120dd0826705164d7ff0c8b728a34a1765f944d6bc5c918 -> d5dd81b44443412ef7f5f6690a0e4d8587818303df6f3fc919ecd1c78fd42fd7
+~ -[ComposerShader initShaderWithName:dolby84:forLLDovi:input:output:] : sha256 1b9e1c5fac9644f62d17fcc94d69d13ce49d481a76193e37744c76c374c9949e -> f346f833eaa6bda414811002b159dc1b0994df2c93ef4d189e27309a0308ac33
+~ -[ComposerShader getComputePipeLineStateForDevice:Library:] : sha256 0e3b705bd618b8c4294ed8c50d2ea7377e0cedbdeb3deea53478a1a85630586f -> c781e9416c1c352b89b02422a92d80b7f3aaaecd43b29112c27acf98295bc02b
+~ -[ComposerShader getComputePipeLineStateForDevice:Library:input:output:] : sha256 d99d9c7c573e78fefd1a8dde25b586f66afd713fd1fb83b884c756afda5f21a2 -> 5dc77d78fd8bd5980a4dfa2787a560b2ffc0bba8cef124f716d35764060b6392
+~ -[DolbyVisionComposer initWithDevice:] : sha256 e668d59506d694bff0079af9c6935e2fd7bf87b9f37d427ff42fc9ea5682a026 -> b665c1d4fd8f27c888a458030af12333c0c551c1efb72525bd9a2cc996b48fd0
+~ -[DolbyVisionComposer initDMConfigCache] : sha256 46e399f0f974e7abbe37e37a05a45d8ee365ed8b899550eab80d5e34b875c671 -> 11a07b11e5f1a822e9ce3ff7f0b6fd2e3e9dcfc86f6b4ab6be922d5292b6fe8c
+~ -[DolbyVisionComposer setupMetal] : sha256 b9dfc18d2169309232a5621e8a927357f950848d5c35afe98cbcc1770ccee69c -> 92749075fc289aad750486208b91ba5328fb421f65005edfead46453627fe780
+~ -[DolbyVisionComposer createShaderWithName:dolby84:forLLDovi:] : sha256 b5850b026826f2946a9733a605c402647f86b5c04985f8b64be9ccc5761e9618 -> 1f00dd3bb8ef1ba89fc4b588aa05dbbb2317c46e07ca1dce3cf6216b86449e94
+~ -[DolbyVisionComposer createShaderWithNameAndInputOutput:dolby84:forLLDovi:input:output:] : sha256 f6ff34d85416c33b39fa4edaf3c1c2ab1ade6b2211f78fef3436ee9564e5121c -> 6501b31542eb94133735c2a6160416a5f9f7e6fefcaa28c6ef4674be91d2c10a
+~ -[DolbyVisionComposer createNullShader] : sha256 bec00b571576d9a9bff312091a2a794a985686c4895297c31eec13372a5e0498 -> 4a4b7650791b44cc5931b23759b4087a03523a9f9e1c569e3a8268f87eac2401
+~ -[DolbyVisionComposer getComputePipeLineStateForShader:] : sha256 ad4377cf652e0b26df06092e590ab0f21e16913d95098ec6199a8a1ddabc759d -> 2ae297afc88387eff9ff391df1d34adac8315530e4b42fe05eb55c9dc92b97bd
+~ -[DolbyVisionComposer getComputePipeLineStateForShader:input:output:] : sha256 08b4d59d1424d4809633cc7d4ee0749deb48dad65e0ff0f2816507a696a53419 -> 8eba83957fb5a07fef6225530ef7a804afe4b5fb628e83375671e840e5037343
+~ -[DolbyVisionComposer macCreateKernels] : sha256 1ce34817490357b854e62806ed15981ff2f632b8fd7aa33f5c61d8d777e2ce60 -> 8e726ad37df832ffbb14dace7a89b43f2803edb7dd5892f483e5a3721a576eef
+~ -[DolbyVisionComposer encodeToCommandBuffer:BL:EL:Output:ComposerData:DM:DMData:tcControl:hdrControl:hdr10InfoFrame:frameNumber:] : sha256 1d975d8ef4db18fed5cf44559f33038156fa1ee5ace0c6b439cb84bd790fb878 -> f7954055a5f82e593d874fce53ea486a4faee0f189d707beb9958974b96b6289
+~ -[DolbyVisionComposer checkInputFormats:returnInput1:returnInput2:returnInput3:returnInput4:returnInput5:outputFormat:returnOutput1:returnOutput2:returnOutput3:returnOutput4:] : sha256 903b5202671bbfa1685243b2060a9bb677a66c1ba7f0ef57606f5e8b248d9fa2 -> 2f98ff2e2afa4cff38388e4619a7afd432de8dc64a75b2902f7f4308ee7b18b0
+~ -[DolbyVisionComposer encodeSingleLayerToCommandBuffer:BL:Output:ComposerData:DM:DMData:tcControl:hdrControl:hdr10InfoFrame:] : sha256 abee64c347c83d10c084b03096df66d97b188abc23c4c418e763d6e60fa25447 -> 023e6ce7234cd4b043249d911da9f6ef803bd5ee5bff27c6528f457065da8a6c
+~ -[DolbyVisionComposer embeddedSetupToneMappingWithContent:Output:DM:DMData:tcControl:hdrControl:hdr10InfoFrame:dmConfig:hdr10OnPad:useYUVScalingTable:] : sha256 6351addc07d234d5cc88cc2e0049eb8080fc398397ec7ea678b5b974a19db022 -> 76de1558984b2a7b177ce205393da49bb30970733878e9d81171acdb53dddfd6
+~ -[DolbyVisionComposer embeddedSetupEncoderForCommandBuffer:DMData:dmConfig:isInput422:hasThreeOutputPlane:isSdrOnDolbyOrHDR10:isHDR10OnHDR10TV:isDolbyOnHDR10TV:isHDR10OnDolby:isHDR10OnPad:isHLGOnPad:isDoviOnPad:isDoviOnLLDovi:isHDR10OnLLDovi:isHLGOnHDR10TV:isHLGOnDolbyTV:isHLGOnLLDovi:isPtvMode:orientation:isDolby84:dovi50toHDR10TVMode:isDM4:isGpuTmRefMode:] : 7356 -> 7372
+~ -[DolbyVisionComposer embeddedSetupEncoderForGpuMatchMsrCommandBuffer:DMData:dmConfig:isInput422:orientation:isDolby84:dovi50toHDR10TVMode:isDM4:dpcParam:tcControl:hdrControl:isHDR10Content:isHLGContent:isDOVIContent:] : 3232 -> 3216
+~ ___218-[DolbyVisionComposer embeddedSetupEncoderForGpuMatchMsrCommandBuffer:DMData:dmConfig:isInput422:orientation:isDolby84:dovi50toHDR10TVMode:isDM4:dpcParam:tcControl:hdrControl:isHDR10Content:isHLGContent:isDOVIContent:]_block_invoke : sha256 f5a63fff009e97f5aa69b6f9208d624b24486897c0dc5f0974bcf9795e47d546 -> ac798ffe5f6c057f8e6533bd0ed76611747ddbf52cd048598ff1020d3471ed60
+~ ___copy_helper_block_ea8_32s40r : sha256 989df43973d630f346c45f8e00a678682c2ec5c72e34b6da8210a4175b38b846 -> d6a22438471f6e0f34f1c45416d1ff4a21503ff5f8eec2bdda23c711bd90fa5d
+~ ___destroy_helper_block_ea8_32s40r : sha256 fa38dbcdac21657e8db32992ef99bebd22b27a8cb18c2e22c07691022a8445b4 -> 262e768de18678a25b5c12288af8127618f6686ddb7d643fbc161432d0a2c15f
+~ -[DolbyVisionComposer macComputePassThroughMatrix:] : sha256 8803921d4488c941f304861851077858cf727bb3648a223aeba39260e03bc84f -> 19013f5e0d3eddaca6a3797e7ad6c5523801d368be82b6a3f58618ec74aed86e
+~ -[DolbyVisionComposer macSetupToneMappingWithContent:Output:DM:DMData:tcControl:hdrControl:hdr10InfoFrame:dmConfig:hdr10OnMac:hlgOnMac:] : sha256 f1082d386129de8c1876a68b7913e4f84eea258f19988e9ba9557c4ec8f04f6c -> 7214ef6af34afd89e7e49103ceff63e14fc9745d274cccf53a3001cc0e3b77c5
+~ -[DolbyVisionComposer macSetupEncoderForCommandBuffer:tcControl:hdrControl:DMData:dmConfig:isHdr10OnMac:isHlgOnMac:macOSGamma:isDM4:] : 4504 -> 4496
+~ ___Block_byref_object_dispose_ : sha256 a20b2b77d9a8688cf8468bee1831ad1489710bad3389cc2fa8587991ea385038 -> 3364fc352201a3d4772f4f2f181ef56a1cecf31c0a4c6054912ddf3b62af022a
+~ ___133-[DolbyVisionComposer macSetupEncoderForCommandBuffer:tcControl:hdrControl:DMData:dmConfig:isHdr10OnMac:isHlgOnMac:macOSGamma:isDM4:]_block_invoke : sha256 c40b13a76dd04cee1cec4fdd117327c27c2fa1284b22862564197abfedde821a -> f108fe8bae1ea2289e669524548441b3d1acd9d5a0d8b7286e2862f451ae3abc
+~ ___copy_helper_block_ea8_32s40r48r56r64r : sha256 7693e88bf847f634277ab4f75f4a5af5edb5cd515fef65215e963fafb49c596d -> bba3acade7fb612daa357e7681e94df0eaa87d384fe24bef9ef0cf506c2dbc63
+~ ___destroy_helper_block_ea8_32s40r48r56r64r : sha256 e4a4c696d52815c2a9e0636f7d0aab471c9f7aa77e38e6d3522864ce3e553809 -> 342a378775463d3796c426bd83e79161b4846a92eb791adf77b16fb392645270
+~ __133-[DolbyVisionComposer macSetupEncoderForCommandBuffer:tcControl:hdrControl:DMData:dmConfig:isHdr10OnMac:isHlgOnMac:macOSGamma:isDM4:]_block_invoke.270 : sha256 f4f0b30a90cc4f9f6bce022f1ce7e7b7dc92298f0d7c1acbfbb726995c808d1c -> ac5e2188bf4cdfe337e6faf50cc728b0ab812171c293c2c0fe2717668253b10e
+~ ___copy_helper_block_ea8_32r : sha256 5a667924dba4af860fb170ecd3c52277d22f1e381471251b3de07689c575fed2 -> 10f6332b246c26040f127fa268d4f51eeb00491fe5df1e0d6db1a6279708c3fe
+~ ___destroy_helper_block_ea8_32r : sha256 cd46eba0aafa87ffc895297da97c8f70b4a25ed14055b411840a99af2d39d3e1 -> 3e451704f4167495fdac7b50167a43539927a075101b02d6e34a2b9c4a585b2c
+~ __133-[DolbyVisionComposer macSetupEncoderForCommandBuffer:tcControl:hdrControl:DMData:dmConfig:isHdr10OnMac:isHlgOnMac:macOSGamma:isDM4:]_block_invoke.271 : sha256 fa48c8e9b1dedbdabd877f3796e09b245a04392bac7fda8b47cc8ba914cb0770 -> 86581a360d430197fbe22944cb916592f7f3da721b1ba7e4b8813c5f66e05372
+~ ___copy_helper_block_ea8_32s40r48r : sha256 c382817184fbd806406c7eb2c1f6fbd40b9c15d61bb8eea435a56fb858e310fd -> a7be878a3dcb200668e717a136471825086592026f22cd3f4ca69260b97f9265
+~ ___destroy_helper_block_ea8_32s40r48r : sha256 6cc4f53422f87458f29272d0090d1a12f5dccc0dfc32e0feea891823dc7d5165 -> 7eb96101bef3b2062dc99f99b59796e9cc409daa8cc06f4445169b227772bf59
+~ -[DolbyVisionComposer macSetupEncoderForGpuMatchMsrCommandBuffer:tcControl:hdrControl:DMData:dmConfig:isInput422:macOSGamma:isDM4:dpcParam:isHDR10Content:isHLGContent:isDOVIContent:] : 3960 -> 3916
+~ ___182-[DolbyVisionComposer macSetupEncoderForGpuMatchMsrCommandBuffer:tcControl:hdrControl:DMData:dmConfig:isInput422:macOSGamma:isDM4:dpcParam:isHDR10Content:isHLGContent:isDOVIContent:]_block_invoke : sha256 48a19e06e8a1f9d148f828bcde6a1396b790040b2fabd227eb8fd3336fecdf94 -> 788ab5d4972ea4b1fbf911072b47a2e07fd48d9f8682aae7e259307ce6a79e63
+~ ___182-[DolbyVisionComposer macSetupEncoderForGpuMatchMsrCommandBuffer:tcControl:hdrControl:DMData:dmConfig:isInput422:macOSGamma:isDM4:dpcParam:isHDR10Content:isHLGContent:isDOVIContent:]_block_invoke_2 : sha256 69a2f628a1b649593c2c4bbd4950fc4d6177b7ee591bf74c55f76a19ab919105 -> 7de2658bac8ec0be272432400dcd33cbbd669b81d4a847b738615943d5e192b2
+~ -[DolbyVisionComposer encodeDualLayerToCommandBuffer:BL:EL:Output:MetaData:tcControl:] : sha256 2be41ed9138238f406cebc5d56e00fbd9d0a67a4bef596a6c9b33a1aed4c49ed -> 39c85afc1b3e1a4d40db2b0c6d65fba1873906ca37fb6e0ea10bc4ce60e8cda8
+~ -[DolbyVisionComposer initBuffers] : 504 -> 520
+~ -[DolbyVisionComposer setupInputBuffersWithMetadata:] : sha256 2c40f3d43deb8a7c189e7b9ca35bea8f01fab4646e17df01dacbe4b8d6db9784 -> e15e55fc522e2c67a84cbe1e968af6ade6ceee2f26b492eb3004ac216b8dfcbc
+~ _setupPolynomialTables : sha256 c66f111fb5f583b94331989e9a95fd78bdc61258cbbf15b2cc1b09fee06427ee -> f6b8d4e46ce28fdbe6cbe711fe1d114702221efd98475f1347b0f0faf9d42e9a
+~ _setupDequantizeTables : sha256 b16b01f352757dc0b971e9803841843574337eac36b3df2f573e14c6d4751a14 -> b038aa869d0313ff85c9d5cefa507dc7fbd30f16094a30e3c9467f38564e451f
+~ -[DolbyVisionComposer setupInputTexturesWithBL:EL:Output:MetaData:] : sha256 1505421086bc8e45dbc176603c31ae685029e0d7864de94650ce15b300dc7953 -> d5a3d2355bd6ee1582712c1553163bfe2c89e492d3aa439cf23b1f0ad33e03e0
+~ -[DolbyVisionComposer addTextureToCachedPool:input:] : sha256 d21174fb74502f678981403f3e79c2eac706ae187a779720b7a0e4c47ba719ba -> 8478403f7b6c7dc67962971837bcc5a200a22965538323d4aa6d9232f31ae851
+~ -[DolbyVisionComposer getTextureFromCachedPool:format:input:] : 740 -> 748
+~ -[DolbyVisionComposer setupOutputTexturesWithBuffer:orientation:ptvMode:] : sha256 6244ce2a80b78ffa16df345723b5f50f856eaf2773fe9cf4b9e887441388c8a8 -> 9bd9aa3de9742086d63b9d954b5b98ace385ee2c5a6512243edbe3a7ca7cd310
+~ -[DolbyVisionComposer encodeSubsampleLumaHorizontalToCommandBuffer:] : sha256 9fe704ebbd97ee8bd3d4fe5f201ea037dc9f09e32a0bf64e5cb0ef4c2bb61905 -> e300e8108e617184dce1c5bbe29d0242050bff1f896ab423eb74de438253ff58
+~ -[DolbyVisionComposer encodeSubsampleLumaVerticalToCommandBuffer:] : sha256 39279c310af0035859ade8b0ab1f74f036e9886486db92a71a91cb6736532555 -> 28e8933a39444b3d7c9ffa8549a42d45ee8779120a6412e0ce33c33451b6eb3b
+~ -[DolbyVisionComposer encodeComposeLumaToCommandBuffer:] : sha256 60153d2d4b87fe39f30a678b84854f3b68c13205be9eb450b9cd4cd4964b78ef -> 307b6fef647bf73fecd85fd1b7892f94ea91a23f0f13f93766641f974ff6e0ff
+~ -[DolbyVisionComposer encodeComposeChromaToCommandBuffer:withMetaData:] : 436 -> 432
+~ -[DolbyVisionComposer encodeComposeCombinedToCommandBuffer:] : sha256 3d38d6970a78e1f27ca8516d5a87682bedde9d2b538c56bbeaceb965c7800c3f -> 16d213f8c70b3dc7523e47377d3d8c087bc6b71d5c18196cf31a86445271e262
+~ -[DolbyVisionComposer setupComposerKernelConfiguration:fromMetaData:] : sha256 218c03921362d9b84fbbf57a30656a60bd35ec369c35a65850fa2651396d2318 -> 2a9d08cd56339ba2e5cefdea901662fbaeb42a5919f0552ca2e4e03298f08747
+~ _createMMRCoefficients : 260 -> 292
+~ _setupNlqParameters : 160 -> 216
+~ -[DolbyVisionComposer createHLG2LTable] : sha256 c33bfeadc548a539192ab75ac4bd7753aa4436f9cb33cbe50df94998b668037a -> 60abf31c90674ebddbabdbf4e3aca255396194e0beb68c40dcdd875000c7b474
+~ -[DolbyVisionComposer createPQ2LTable] : sha256 0f48d018083e820aa5a98e39a84c9a81e5e39ff557d86cc145a9f0f2704c815c -> cf9779c5d81aa0d84d96cf2c6ee99455ab4b6b6745d2c448e25f5e619f5074d1
+~ -[DolbyVisionComposer createL2PQTable] : sha256 09614f57d52511c0245874a3679dcd677aa5c80ed8e6bfe4fda25e69e682e026 -> 9b099f52686e8bd9152cb21f9f8cf18080568c9024ccc3d150517541c93eaafb
+~ -[DolbyVisionComposer createScalingTable_YUVTM] : sha256 929c59c729589bb2dfb9e1791a896796da618616cbdb9492f2a33187e1b5830b -> 808eb962123f86f6693cc8c1a7302b4688208137aad922e0bda721708cfb5017
+~ -[DolbyVisionComposer fillInScalingTable_YUVTM:target_White:target_Black:source_White:source_Black:satBoost:scalingFactor:] : sha256 cce9d8b010268d0d8b34a4cebc212e70bb66342defc7594374c90f47d6cbbad8 -> 3b1a70ea2a6a0ecf6c708697b5750e9a03448e0cc4370e98a2535c0a269bff15
+~ -[DolbyVisionComposer hdr10_createLUTFromDMConfig:DM:HDRControl:TMParam:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 c9ab1fe0d598b34f80e0d03695aae360e5ed46bf720dce6818908164ecafbce8 -> 57a41770dce9202a1d299a66225eb2405e9773d4d37f1e80590adeed24206d79
+~ -[DolbyVisionComposer hdr10_tm_configChanged:HDRControl:EdrAdaptationParam:AmbAdaptationParam:] : sha256 e3296e5ac661cc9659301ef11a340dac6e88853a08e6ffe7d345c1994705ce42 -> 506957eed1e463712eab322ef6af4c9edc712ff2254ed3476225f2871d76be6b
+~ -[DolbyVisionComposer hdr10_tm_reserveConfig:HDRControl:EdrAdaptationParam:AmbAdaptationParam:] : sha256 08ffe90d492813cbe45111b5d75780fc0acd1d4e4c17e7e6599b7ff630d8ec7e -> 9054153266c53e0c3234f35b8525999367f5afa13dde484cee8f1e2cea2b9423
+~ -[DolbyVisionComposer hdr10_tm_createLUTFromDMConfig:TMParam:TMParam:EdrAdaptationParam:AmbAdaptationParam:HDRControl:DM:] : 360 -> 364
+~ -[DolbyVisionComposer hdr10_tm_updateLUT] : sha256 fb0ed76478488c73ecb2107f69c7b4f25529f0d5c6fa194c48123aa9456ac32e -> a05a198a13a88e2aa860000badf347f37dc78f1f6067ac79058e193ae1cc582b
+~ -[DolbyVisionComposer hlg_createLUTFromDMConfig:DM:HDRControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:TMMode:] : sha256 d3c3e192f5c6d10ae8db3d3eeab07ad777582d677282431e7c7528b1bf9b2114 -> 1465c7e30b7525de2f5020a801074f4802fe18c2ec510c18b940a063100142f8
+~ -[DolbyVisionComposer hlg_tm_configChanged:HDRControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 f3f4ae7caa26509a65534db75e5cb5456cedaed11d63fb8e5340e5ee0adb98a8 -> 14f7c0a9d50ea7b8ee73b2186bb887461dd299b6dcd0167717d715fbc769f646
+~ -[DolbyVisionComposer hlg_tm_reserveConfig:HDRControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 d3e6e64ae3ab59552d706aca0de56afe5e5150c7e3d8a045d03455b2412c2242 -> d4932d0b057a09006b9d47b6b186b9178d520f4819c3b138b3fed10f10faf04c
+~ -[DolbyVisionComposer getTmLutInput:lutInput:] : 64 -> 60
+~ -[DolbyVisionComposer getTmLutInput_C:lutInput:] : 48 -> 56
+~ -[DolbyVisionComposer hlg_tm_createLUTFromDMConfig:DM:TMParam:EdrAdaptationParam:AmbAdaptationParam:TMMode:] : sha256 da8d0fd4dea4b60092e3cb9014c3a7585aabd2cd2ab777d577d2bf64ff8f2810 -> 9f3b57b0d3f881b7a22708d36cdcd93dbea1561333ed40f169a320424e379932
+~ -[DolbyVisionComposer hlg_tm_updateLUT] : sha256 08f0e31c0453ffa43fa057ce83d0335694cf7eab8d1dcb5e72c1150f85378ee4 -> dad9a02ed963a1742468de1b199089b9e8a7f4ae809e410af3b2149a0c416205
+~ -[DolbyVisionComposer sdr_createLUTFromDMConfig:DM:HDRControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:TMMode:] : sha256 9e1df2150b620f1eb7593e0d5809c52ce0c89802fbfe492d2a942bc3a5cb12a8 -> 31bdec71884918e5891b55873870eeddc6ce13f8c2c571ef8c4d841457be869f
+~ -[DolbyVisionComposer sdr_tm_configChanged:HDRControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 02e2a55c9a174693731295aa92a346d36ed59feddee10f53f1559608c1c249bd -> 788ceffd96af85b1d064bac02e9a9e96266b2607ab3638c1f123189a7dd881a7
+~ -[DolbyVisionComposer sdr_tm_createLUTFromDMConfig:DM:TMParam:EdrAdaptationParam:AmbAdaptationParam:TMMode:] : sha256 26a360f29106f6bf726fc43c43f2884804d6c1a2cb86081a4578f4e96a9f5e2b -> 9450b17449f868c34083e808cb7281247f950301256ecb3f99cc0df3f0597633
+~ -[DolbyVisionComposer sdr_tm_updateLUT] : sha256 576d46ba628434aa49135db1fc73492e58e7dfb02a8d048b4633bee48a2d3a91 -> 6fafd7d632908df37cb4023e2cfd0b9a1d8a09a4eab28f06930ea67bf33b8eaa
+~ -[DolbyVisionComposer smpte_st_2094_50_createLUTFromDMConfig:HDRControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 e2b31f826872b53d877bb073ef3c28b3c41ef5a84f930baf1908c9b3ced1b167 -> 952978fde540fac51f8c9e9d67a6a799376fdb21000c21a3e8c97cfc62d46333
+~ -[DolbyVisionComposer smpte_st_2094_50_tm_configChanged:HDRControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 ccae72630a273287013d3021f4ffd5c76813319684da1d4155a1d9c3de186e51 -> 6ffda465ab8cc1875746c1aab6f8daaf146fa9ef506e04c1e308e7a6c34f9b5c
+~ -[DolbyVisionComposer smpte_st_2094_50_tm_reserveConfig:HDRControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 3f37591ac9ebce39c8994cb51b429eeb02bb37122e9e0d189e90776d4dd2006f -> 2f867c38fe33a7a8c0b7c0b40a3395b35174de35fcc6ca251a55d1855061407e
+~ -[DolbyVisionComposer smpte_st_2094_50_tm_createLUTFromDMConfig:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : 296 -> 300
+~ -[DolbyVisionComposer smpte_st_2094_50_tm_updateLUT:] : sha256 547da74cc6701bc0bfd57209ecc0487a8a0497f3271386226b5e21ad5f452c6f -> 7082ccc07c6e61006808a5b0a488ad3455ffc9f8f35de239164ea52e47c777e9
+~ -[DolbyVisionComposer dovi_createLUTFromDMConfig:DM:HDRControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:HlgOOTFCombined:HlgOOTFOnly:IsDoVi84:tcCtrl:] : sha256 1f2f7a313b111341e603309cca8b26d456527804d4a438a744b281d39f68d6eb -> ac93ac4f83713fb7665d9aba35de4e28b820b844830a3393bef36e4df0ad93e4
+~ -[DolbyVisionComposer dovi_tm_configChanged:HDRControl:DM:EdrAdaptationParam:AmbAdaptationParam:tcCtrl:] : sha256 d6cca9575b4796020b9c74a1ee4fa38ccf0d0ec850cf8496f4af9950f056929c -> 9a1380e4dfdcdf571af20252d9d87f3f5bd2896341b58faa7db783e6769acdd4
+~ -[DolbyVisionComposer dovi_tm_reserveConfig:HDRControl:DM:EdrAdaptationParam:AmbAdaptationParam:tcCtrl:] : sha256 88ee9b110e3fd3e773db2a40572e319b195db2f83e5c6696fd0e5db74dc82fd5 -> 533908be917762bcd29c3c1ed8e10dbf3a6cb5ff7fed2dc2c6f14678b3031ec8
+~ -[DolbyVisionComposer dovi_tm_createLUTFromDMConfig:HDRControl:DM:TMParam:EdrAdaptationParam:AmbAdaptationParam:HlgOOTFCombined:HlgOOTFOnly:IsDoVi84:tcCtrl:] : sha256 8e3398e662d96980f262089e3a59dcb0827ffb9bfd76679c728e774cd300e7b6 -> 322a636489fac67c9231f1fa8585b4556b7c316c2308ad76a034bf961cc6b90e
+~ -[DolbyVisionComposer dovi_tm_updateLUT] : sha256 b26712d99c2ae805d123a9a835ea1f09c8610e8141f79360e2b7d581bb7ba70d -> 804690855d8765549b45be2d0c512dd784ca4c511fb4669fbc7e1e94d9696889
+~ -[DolbyVisionComposer dovi_dm4_updateInterleavedLUT] : 456 -> 476
+~ -[DolbyVisionComposer createLUTFromDMConfig:DM:TCControl:HDRControl:] : sha256 56a5e90c60c59ea496f6326e125115c871bcdc058a069ea21e5ff9bfd246897e -> fbf0b866b80ac5e40391868867f1c137e26440690c79b92cf5b334f35f3167ed
+~ -[DolbyVisionComposer macDumpInputYUVandOutputRGB:chromaTextureIn:rgbTextureOut:frame_idx:] : 1812 -> 1864
+~ -[DolbyVisionComposer setupPolynomiaResultTextures] : sha256 1f9fab7c94986d5a3d246e8e3652ffeb5d9b7f2da53340f9202dff53136f83c9 -> 3b68544747f1271b7897a2b8c298ec8f92bb62e63cadc4b7a1a272d6d8ef2fd5
+~ -[DolbyVisionComposer dumpPolynomialMappingResult:] : sha256 df9251dd4b8a27b033204e4a3dd0373e8be9ef296fe970e2c39b5c0ed2a17170 -> fb87bab156058d622f6dfc3aa6815e26d3a9e6347700eee7499484571582063c
+~ -[DolbyVisionComposer .cxx_destruct] : 3164 -> 3132
+~ _createPolynomialTableForComponent : 336 -> 320
+~ _createMmrTableForComponent : sha256 51a0b5e80290726aae7a551b6df2fb9ff766f151866c2a7d42ef6c78c333f704 -> 2c39e2e3959a687e282966ddde71d6361ac64f35a4ccf497c80da28a8b11ee1c
+~ _createNlqTableForComponent : 276 -> 284
+~ -[AdaptiveTM init:] : 364 -> 372
+~ -[AdaptiveTM dealloc] : sha256 6053bea4fdf1d9e8124e9be2e5de6c38b91126264c96886280a197711c172c9c -> 65145b09c8a48a2281476cb3a40b89990a6677ce3a5dfbce62cc5804894fc945
+~ -[AdaptiveTM computeFrameAPLFromLinearHistData:histBinInLinear:] : sha256 8208f0d50584d7eb15604197ec6bcd01045bc07cc8563bd3b90cc85b2dbe7087 -> cc50886f678e7a8cbe2267253793506bb556c83ab40b12445bb277ea01a37eb9
+~ -[AdaptiveTM adaptiveToneMappingConstraintParam] : sha256 e1774030f55547adebd6dfb3c04f58394eb2cb36d8e019537879276d15e841c6 -> cacdee5c2ef8cb6ff531f6061d93c47368def9793ac7673a359324d52b299f68
+~ -[AdaptiveTM getTargetAveragePixelThreshold:] : sha256 e77a76fa02d2001df7036563a138262073ef5383c82ab46456a329912d994a69 -> e49d0eb03721b2953a9b6761521c44dfdc3028254f69074aac6f3f3d1b713bd8
+~ -[AdaptiveTM adaptiveToneMappingAveragePixelLevel:DM:TCControl:HDRControl:LLDoVi:] : 1416 -> 1396
+~ -[AdaptiveTM adaptiveToneMappingSearch:DMConfig:DM:TCControl:HDRControl:hdr10InfoFrame:LLDoVi:] : sha256 93771b924c5b010d6848ac693f8f7017948182a9a2795ddecd9b0d6a309f0a89 -> 7c7727bde0f4ca807e54c95c9a70f7a2ed421c8f828935442c25abf2369583bc
+~ -[AdaptiveTM adaptiveToneMappingTemporalProcess:DMConfig:DM:TCControl:HDRControl:hdr10InfoFrame:] : 720 -> 728
+~ -[AdaptiveTM adaptiveToneMappingCalcStats] : sha256 6d9892245ec1abc1725498c49ed2946adb6dca54f79a191f0d1b6d56ce75d75a -> 9bf9b7cd21f5fa566e76bdb6c99e560d503483d1608ea90e51550205c2e13074
+~ -[AdaptiveTM adaptiveToneMappingManagement:DMConfig:DM:TCControl:HDRControl:hdr10InfoFrame:LLDoVi:frameNumber:] : 652 -> 668
+~ -[AdaptiveTM .cxx_destruct] : sha256 151d1e9d3ba4588e4f8bb2cea2891b7dda8ac23611eca9268ead5f80f23c9780 -> 2cc50239f0cdd196a2f69ab0ab1a65748113c75a4d64a9663ce32ec4d47f54ee
+~ _crc32 : sha256 3e7c212d61528b2ed7eb2071969f29bf2bf80fb7f60d95abdde7bc343b7c9640 -> 2c7fc7e55171b55361952d30f5c9575cb5abb46cfa764252a076f50c60181a0b
+~ +[ResamplerShader createShaderWithName:] : sha256 5c12099ae519a6bfe85c3fd3a2eda152a13cf0a1101b87be52e29eaa38403590 -> 077c5fe558df6c92a9b2e3ac271f65b623f1066a3ab18c83e86dc6fb651440ce
+~ -[ResamplerTextures inputTexture] : sha256 c3cbdebbfc76758e06591086f058ef11a81ccd4eeb2575eb0121ee30a923d398 -> 719df0093c305447018a099ad8153dba62ff31d90646506d447d6594261eb384
+~ -[ResamplerTextures setInputTexture:] : sha256 5bedaa9b6f7880e5d182f856da361bad2a35362f30eb7a219e162e6a423cddc2 -> a00b786f6a6cbf619fa367c60fe96432193335e3726a5bcea1ba127970f02b75
+~ -[ResamplerTextures inputTexureUV] : sha256 db43d8a570bc7f2d10d8c4947b5da0307bafec8818e29cdfedd1ecc22e5d4c17 -> e7411a9b89c73b01e39de0e55edc0ec485aadf63fde74a9aa6fc63a3cbcb0185
+~ -[ResamplerTextures setInputTexureUV:] : sha256 2888836478d09686c6c8d2f9285aa4cd2271718a335a0bbce69389e1598a8d3c -> c6e6f3cf3e2f7aab45a600ebfc52ce834eb0a663abeab762bc5a18eae2ec6535
+~ -[ResamplerTextures tempTextureY] : sha256 4539b3044b51ce6f4016ad1f990d4fc4ec8900d7ce89eea20e229b487b751dd5 -> eafa054b9c6da34a2317393c65cba70b88ab726aa6492b224f9dc04231f0c56c
+~ -[ResamplerTextures setTempTextureY:] : sha256 d20f7def31846e2a87f8f09fee15108b80d1bc1bae9be49a19d749e889aafcff -> e0eed4064d1dd0a0bf2bf95a298dd753af3089014a1b859b13c80d134b48d7b9
+~ -[ResamplerTextures tempTextureUV] : sha256 7bcab9bec955129f38ce839f2b2d75799dbbcd3f87dbfdea7c07bb5fc2c50d88 -> a51ff9ddf7754de561060f42b5c86765008b569718c9d51b01188db7b0d4b64d
+~ -[ResamplerTextures setTempTextureUV:] : sha256 bb4eb1419148a1f5486ac034102b53858eaa4db1507dafc31505c961fda733a6 -> d454ec058e06eb01b4d9b5cf259150b72972b3a0bc4cd3b1fa2b041f5e4f696c
+~ -[ResamplerTextures outputTextureY] : sha256 bb33e340f57a6e2a26a0a32f144407efc29afe00740ed077c550724ce3c3e7ad -> 8b11379a6aa02ad116208d3c6965091fcfd73ae52c180179f2f55dc706f4f603
+~ -[ResamplerTextures setOutputTextureY:] : sha256 57d602268399c44e7c348910ab6f0d31d1f37962aa8b90d3cfa4eaac2704e978 -> 6db2821b1fb64cf6f227866121027416ab24e26bd956922b461831e74c8f29d9
+~ -[ResamplerTextures outputTextureUV] : sha256 d61520467196a96ea33d3064b5d4145509f43dda68f05f125afa691d9990e313 -> d369e330fc40a15b04c0eadce0d9abf2c0e3d225e5becb3c417a60e021229206
+~ -[ResamplerTextures setOutputTextureUV:] : sha256 584361ed5ad5d7412b0a1309dc9c6bbae583ad4498fe98e05666ff5420ede8f4 -> 781c94c91ab3d8f148ffdaff9080994fcf6302e7e2437b279fee0156912df476
+~ -[ResamplerTextures .cxx_destruct] : sha256 fcca3b7c4406c5965f2e2d7bb7159f3fdbe6af42150b94e1e5ced9bc8a2f9902 -> 83c52963c2f188c141fadf06b2a1a825b779f649bef0043efe29e03e4126941e
+~ -[SpatialResampler initWithDevice:] : sha256 344e63ae713c038c9db617fa90745744bee58f951035066143e1d1ccb666739a -> 42c4da334340375873b1ee98c73694099c0a671f534d8805efcff12db11d387c
+~ -[SpatialResampler getComputePipeLineStateForShader:] : sha256 68978ca132687f3ce50d3303b7e9febf00f9f7487c483e6305b311c579e30bd7 -> e15a220c534e16e47c34350e29b0526b59c9151ed33c0f5bf5d583692ff22a5f
+~ -[SpatialResampler createKernels] : sha256 df85c6af8d640c5d17696a48723908062f0b1cdc94ff72d031ec700a78eb3364 -> 0b807838e4a5791f2dc85249451a2cba5183790059defa293adb0913ddb9d998
+~ -[SpatialResampler setupTextures:input:output:] : sha256 994c69d12a56d909d72cf16d2005a71edf7843962771352d0c3bbbabec98efba -> 64db1aed938d5608f9942dc66f6238050aba43dcefb6033351999c61747af2d3
+~ -[SpatialResampler encodeToCommandBuffer:input:output:] : sha256 e90b342553f94aa066598d93e5fbb94d1b0f6b08bc3c2c75a0904821d486ad49 -> b6d7f65d0b7e43b3d2b028cb86364649e95b1c61ac46c3d3997425995c2ae1dd
+~ -[SpatialResampler encodeSpatialResampleVertical:Input:Output:isChroma:] : 528 -> 524
+~ -[SpatialResampler encodeSpatialResampleHorizontal:Input:Output:] : sha256 8c08022e914b41396054e357071b65513dd28175448ab5e2fc0fa2a682d7a296 -> 642384aded536f949ef004c71ed2f847d25fa979f213d9fd024e151a38867d43
+~ -[SpatialResampler .cxx_destruct] : sha256 b54269051af28f4e748cd41aa87fba3a20c41e4f1d68e2d3c88935ced398348b -> e38ee3cf2b5129aad5edb7cb81f4173709fe8a4fc8c7065aa066c6fae65a30db
+~ -[DolbyVisionDM4 init:] : sha256 fcd114b4495b3d364e239a2bbecaea1696e97878ca0064c2d803c9908b06f14a -> 645a4757080ed64effad2d9918061a560d7fa86560feddca3c39fd829004d827
+~ -[DolbyVisionDM4 dealloc] : sha256 cf6cf9c852011b35c3232baa86a67a5ad86531d71686957db04eb1cca6196b90 -> 8948c24b6d9980549ba27662d2303534ebae9c93ef715ff5a0da9b268b518586
+~ -[DolbyVisionDM4 initBt1886Param] : sha256 8977f3473a0180c0ceaf85ecdd3ad83077abf2445b3844eb61324870583f82ba -> b9a99f4bf96263214f6fc31db139d4e80a99ada48e8bb1bd767e662010976a24
+~ -[DolbyVisionDM4 applyL9:] : 580 -> 576
+~ -[DolbyVisionDM4 initToneMapParams:srcMaxPQ:tgtMinPQ:tgtMaxPQ:srcCrushPQ:srcMidPQ:srcClipPQ:targetMaxLinear:DM_MetaData:] : sha256 2fdd81e5c77b674cf3d4d48b81ea5c1f5a1c6a3af9a391d3241cd71dff61eb5b -> 10b81100dd53187e88eba0cac12b6351a9879776ebe2f202318657eb4ee3b20a
+~ -[DolbyVisionDM4 BuildLumaXInfo:TrimSetAct:Luma:Idxa:IdxMax:X2Interp:DmMetaData:] : 748 -> 752
+~ -[DolbyVisionDM4 GetPrimaries:Primaries:Count:] : sha256 bdf04cc55a22054818591b4a64795fb4b6af03d4cd37e2d2f951c9c8423af77d -> dd80a6ab41d77f718b4537b288d57ffdfbebefc76ec1e56b342cc00767902eb4
+~ -[DolbyVisionDM4 BuildChromaXInfo:TrimSetAct:Luma:Idxa:IdxMax:X2Interp:DmMetaData:] : 1308 -> 1328
+~ __ZL14FindChromaDistPKiji : sha256 4f2d84ae58ffa41b310cfe9d125717c27df562e353ec9e8b29db89adeb72a9e1 -> 141b28042d86c59a03e0e6948fa7123b8d5e729903ea35fe140dbdcff2e0994c
+~ -[DolbyVisionDM4 BuildInterpInfo:Xa:Idxa:TIdxMax:X2Interp:Alpha:U16a:U16L:U16R:DmMetaData:] : 872 -> 888
+~ -[DolbyVisionDM4 DecodeL2L8:CodeBias2:TrimData8:CodeBias8:Default8:UseDftLuma:UseDftChroma:] : 724 -> 748
+~ -[DolbyVisionDM4 SetL2L8L10:TrimData8:Default8:UseDftLuma:UseDftChroma:] : 244 -> 256
+~ -[DolbyVisionDM4 initTrimData:] : 1268 -> 1276
+~ __Z17InterpChromaTrim8PK14DM_MetaData_L8S1_S1_dP10trimData_t11_TrimSetAct : 164 -> 172
+~ __Z15InterpLumaTrim2PK14DM_MetaData_L2S1_S1_dP10trimData_t11_TrimSetAct : sha256 4db6bd14af1a3e0183b3ba6e2d0ee6c1d4f92dcc5b64aff7501f59cfc3164c53 -> 82628d34a7abd9766a4be2680ffe0b29252a96766d173ab2138efce27edf0cf1
+~ -[DolbyVisionDM4 setPseudoTrimDataForHLG:] : sha256 e5833bf55c51f7c8eae13914265f3c711925835f1519104d21c0f91a2c6c0fa3 -> 0581096f6749587d986adf85b2dffc02a3312e29c30d3d90055c6912077891c7
+~ -[DolbyVisionDM4 initToneMapMatrices:outbits:srcRgb2LmsTm:tgtRgb2LmsTm:] : 464 -> 496
+~ __Z13RgbLinear2ItpfffPA3_KfS1_Pf : 752 -> 784
+~ -[DolbyVisionDM4 toneMapInterpI:] : sha256 96a5d30f19b9ce0cb0c2f3f7677cb9cf43f1a207e90d204ed0457bb0e1c105a7 -> e6836c8da6701af7f07a9a10d1bc1f58519fc897d628654661dd6fa67a07345f
+~ -[DolbyVisionDM4 toneMapI:] : sha256 1e28830507e33d8a9c6d3d36670f1caf804443029555a4f9f4fa086d70d5dcf1 -> 553f172b62e4ba7ec83aece9c3164ce1da86b1d1f8c0b1a965ac9cd7d8488072
+~ -[DolbyVisionDM4 satMapI:Adm:] : sha256 e7561c5dfd49302c7434b386d6d641da5b4b37c968c40f8cf123adb820c8eef5 -> 46caab35bbb749f376c77ca9d27f5f4627c55cb6d4d729a5e3a89e218e83dbd1
+~ -[DolbyVisionDM4 calcToneMapParams] : sha256 e09df19e94503aa2cd7c401dced01b0edbd948e63b7a19841baaed480cbbe88f -> 8c2bcbe8eab3e19e51414e2c79d943a5c045719cda7dbabdaa5470f7b43ccf0c
+~ __ZL12deriveTmidPqfffff : sha256 2f647eb2e9241a6b9742a32bc9a088d47f04c67bdd852231142557e28efa495e -> f8d2013b21347f407c97b8115efe7fc931b306812c199fc67283d37015ce555f
+~ -[DolbyVisionDM4 calcToneMapParamsHDR10] : sha256 fd193ff777b7aa1a4bc291ac67e3d121f617af1042dbe38e4c8eb9217f6a04a2 -> f0583b1f353aee182549727fe3a857ce8a5b106811a512df05e20c5f859d6f58
+~ -[DolbyVisionDM4 calcToneMapParamsBrightAdapted] : sha256 988a5bc85596820e86412ca7d54695b5033c895981f9caf9b72eaef94b14f811 -> cfe5cb5d20b77154eee6a19f77b9182d916daf84b9d224de5b057eaf89ab9b58
+~ -[DolbyVisionDM4 calcToneMapParamsRefWhiteBased:TgtRefWhiteNits:] : sha256 86ce48e5da087738c71eee5e9890c0d6eb5b6437d05f8153872c524516bfeada -> 5cd54078b846c1a1b42b162e5ab1d454d1f3e0db44a9da209f1a9942fcccb82a
+~ -[DolbyVisionDM4 calcToneMapParamsRefWhiteBasedStatic:TgtRefWhiteNits:] : sha256 266e940e73d981e36f95e12c6c43e4cbbe66b35cd4c756a07d0585e64f14c7f9 -> b987ae968aa2df0521121b8da2cf07ebbb4d071f089357dc969f75c052ef55b8
+~ -[DolbyVisionDM4 getDM4Params:] : 88 -> 104
+~ -[DolbyVisionDM4 createToneCurve:srcMaxPQ:tgtMinPQ:tgtMaxPQ:srcCrushPQ:srcMidPQ:srcClipPQ:targetMaxLinear:DM_MetaData:tcCtrl:dm4TmMode:] : 1588 -> 1600
+~ -[DolbyVisionDM4 createTmLuts:tLutS:sLutI:sLutS:tLutISize:tLutSSize:sLutISize:sLutSSize:] : 544 -> 528
+~ -[DolbyVisionDM4 createTmLutsEx:tLutS:sLutI:sLutS:tLutISize:tLutSSize:sLutISize:sLutSSize:config:TmParam:EdrAdaptationParam:AmbAdaptationParam:IsDoVi84:HlgOOTFCombined:] : sha256 0f0ef9755519b8c115ed634ed62a5a492e2fc1109cfe2e9b73e9135f32460f43 -> 1c7e834d002b3e33f718e41ed4b5b6566586151f8c50de1edb7f93482590f173
+~ -[DolbyVisionDM4 InputMapping:pX1:pX2:] : sha256 a626351606d8cbc037ae70cb0c70976e2149207f4079f9de46b24b45f963ed06 -> f89dc1bcd054c0eaf0c0dce176eddbc870e2ca619ad55e62835986eba72881b9
+~ -[DolbyVisionDM4 ToneMappingInCtrl:pX1:pX2:pAdm:] : sha256 5e635caaaee865c52e4e30fcc7e4cc48e1b709d0f73c9ff99eaa929fbcfa3aea -> 8d2ce063445ee9ff1aa99f805501e85b18fb027d13b05dae8a61c97af15b580b
+~ -[DolbyVisionDM4 ToneMapping:pX1:pX2:pAdm:] : 476 -> 524
+~ -[DolbyVisionDM4 OutputMapping:pX1:pX2:] : sha256 055922de3fd6b39a58352ff12d7b37b04b6023f242e04d83a32d2607a90ca004 -> 4ddffd27ca4a8304a7327ec2631ecb1e2dad55d13f30957866a774417e6d45e6
+~ -[DolbyVisionDM4 DmProcess:Height:bufI:bufU:bufV:] : sha256 f17963e226396d8893b9cac001cd0efb9ed78f37ae208c5bbff10cd44e2d0ffe -> cbf54927fc07f42db9153509901864f3d74c5c8d50020197769ed6bc7559f6d7
+~ -[DolbyVisionDM4 dumpConfigData:] : sha256 d9b74f3f9908143bda1a7a6a7c1bcf8be0af7f3f805a8ebd4af044ccc837fa0c -> 10a90df5a2483f46a0089f56b94879f328f0b03708ba4a91779adb6e9fc2969e
+~ -[DolbyVisionDM4 dumpConfigDataToFile:] : sha256 da5daa0fca89d73cf347eb54a4a9b64e90ce2c522f2fecbb13c57e0973bf01d4 -> 67a4c92ed1423520f1a7632ad2243f340cf42acbd705d03c4a606622507ff84b
+~ -[DolbyVisionDM4 hasDM4TonemapConfigChanged:TonemapConfig:TCControl:EdrAdaptationParam:AmbAdaptationParam:] : 576 -> 612
+~ -[DolbyVisionDM4 applyL8Trim:] : sha256 a98576bd7effed23df3b2fe6c274a857caf313cd1d590045fc9d9b836bcef47d -> 180447dae73a99ef32b89c779f38e9778eb276423bfcd3d44ee53c012c2c234e
+~ __ZL17SlopeOffsetL2ToL8PK14DM_MetaData_L2PdS2_ : sha256 94d03a30b3839a09bc56eceeb08ddd8fd56742d5219a2536a0531aa030b1d40a -> b5b650386c71cdf4f6c1d898e02d7bfa98b075c13dc82a1a05d81be54d1d5d21
+~ __ZL6mapMidfffff : sha256 c7d841e4c951fe3dce80c1ef019e56b10c32ca5ce1ca1bcbabb6e8760706346b -> 8979ba1635b1ef1f24feb0a29329b3e5207b4ae56ecbfe26f80664794bddefd4
+~ _SMPTE_ST_2094_50_DeriveMixTypeFromKValues : sha256 92629a601ea6a8a7b89ed7ae33ba4fcd70df763c1ff1a8c177af538d894acd04 -> 4c5e605300a026a38628834ecb6948ff3fbd7707d6e4c7a8cdd2b112b5c62f4b
+~ _SMPTE_ST_2094_50_DeriveKValuesFromMixType : 292 -> 284
+~ _SMPTE_ST_2094_50_EncodeKValuesToCoefficients : 204 -> 196
+~ _SMPTE_ST_2094_50_ValidateMetadataSet : 492 -> 488
+~ __Z48SMPTE_ST_2094_50_ValidateChromaticityCoordinatesPKf : 72 -> 80
+~ _SMPTE_ST_2094_50_ParseBinaryMetadata : sha256 01c69b61efe7fad9923994d9f083681e39748520934b9466321b9d79ae202660 -> 4641e3e1945d98e4b157c140697a5ff5e53c734413c2bcc630f34c6f93060922
+~ _SMPTE_ST_2094_50_DecodeBinaryDataToSyntaxElements : 1148 -> 1104
+~ _SMPTE_ST_2094_50_DbgPrintRawBytes : sha256 fe988678f3670fbb12c8c7d418cde2b78ece968a10dc5468fcd009a7bdf2f2c0 -> 205f66981d6c550abdf2f5c0032ba65ce1481666243c78c2fa30e10a9e6ac0f2
+~ _SMPTE_ST_2094_50_ConvertSyntaxElementsToMetadataSet : 1820 -> 1656
+~ _SMPTE_ST_2094_50_DbgPrintMetadataItems : 640 -> 572
+~ _SMPTE_ST_2094_50_EncodeBinaryMetadata : sha256 2016ad79be376145b5c20f2e4c69fe701b12829c8bac3b2b4cf503742b3023e3 -> 1e2e79eb2f084f4a3c2b6eaf11467827b521169354c1d745c7f2eedc2382ae3b
+~ _SMPTE_ST_2094_50_ConvertMetadataSetToSyntaxElements : 1196 -> 1096
+~ _SMPTE_ST_2094_50_EncodeSyntaxElementsToBinaryData : sha256 05b503cd3b3a0bb274bdfe6add2822de2eacf9a1a8d5012e2a55eba58b3b1743 -> b351f7c3d117013b1e30028c7c7780abb2b26f43afc1d7805513529010891de5
+~ _SMPTE_ST_2094_50_InitializeMetadataSet : sha256 3cedbe1ff658d250597a6c321713ccda0f4d21e15a66dbbdc63fe4b259ebda84 -> 5699595957d985af5ffc4ce4b5fd207c8b4444920fd169cffaa645cb8a0e5741
+~ _SMPTE_ST_2094_50_AnnexFGenerateAdaptiveToneMap : 284 -> 296
+~ _SMPTE_ST_2094_50_EvaluateGainCurve : 564 -> 552
+~ _SMPTE_ST_2094_50_ApplyAdaptiveToneMap : sha256 80f4f3b3681f3ec744046bc6747681be3fac803736a9de31d333577c815edbea -> a3d21381afd86bb5dbc49c674c29221e0979ecd67f0355e08631d41724e78cf2
+~ _SMPTE_ST_2094_50_ComputeWeightedGain : 1096 -> 1004
+~ _SMPTE_ST_2094_50_EvaluateColorGainFunction : sha256 e2d60d5fd27b6199d1e402623b3fec47b4813b60b670aa58ee48f5a4922e5248 -> 5cd0fe166e58a31e0bab95061e9d72d6628b13ab88f570266b6dba5bb38e337d
+~ _SMPTE_ST_2094_50_ComputeAlternateImage : sha256 441eacee80cac1f14fb8c0ecc7543c5ae0f881f79dc7056233eb43e7a8b267ac -> f0853c3997e2848d162414c126fc0c5ac29c96b11a1bb547e68747d26dc23f4a
+~ _SMPTE_ST_2094_50_ApplyReferenceWhiteToneMapping : sha256 eeefb4ea41317792603cc87b75cfbe60e2aa67839b93b1c2c5579e145ff89fe5 -> 9bccc46ad97f546e2e642bc75630d5973d1c684ec4901987d581a39ac46dfd73
+~ _SMPTE_ST_2094_50_GenerateRWTMOMetadata : 464 -> 508
+~ _SMPTE_ST_2094_50_AnnexFGenerateControlPoints : 600 -> 632
+~ __Z39SMPTE_ST_2094_50_ToGainApplicationSpaceDv3_ffPK13simd_float3x3 : sha256 4c218174f46efea359081a23ad708a5e37cea19c68477e21fc6075f2eb941971 -> 359f1188a2325d3d5ead4a3c0bd6f2532183e5416340ae1b47f4a587c4eb5f68
+~ _SMPTE_ST_2094_50_ApplyEOTF : sha256 3e8e1d303cd2fb1c486d75f7a6c670741946e39fafb041981e22a54dcbdab2f3 -> 6a847f9ccd80c914dc0ed5118a4141862c8e7582bf8294b6bf461d10acc4ee19
+~ _SMPTE_ST_2094_50_GetRGB2YCoefficient : sha256 911a5abb778690ba8a90f35ede9fd3e4624689958148bcdcfe71eabcb4a9f1b7 -> b6c07b8862f3bd04fbd8a8fc454bb8fe96d7ba5253a153d13d840ad181cdd764
+~ __Z36SMPTE_ST_2094_50_ToTargetColorVolumeDv3_ffPK13simd_float3x3 : sha256 94e6006b7850a827ec6530642f01f29aa765d352d9763d8c4983ed3a685e50f0 -> 7d430a09228d5e7ceb76b287817a4ffc4be89bc2787bd19ac1ac27c83b54c10e
+~ _SMPTE_ST_2094_50_ComputeColorPrimaryMatrix : 648 -> 652
+~ _SMPTE_ST_2094_50_ConvertFromGainApplicationColorSpace : sha256 13113713a900dc5f8c2d85f9e582e48790020fa8493ac096b8fb515a5c734299 -> 7afa16c647e3626b72a0558c21ee40a4f7aa24fc484d9548f07fa6cad1f41930
+~ __ZL21ComputeXYZtoRGBMatrixPKfP13simd_float3x3 : sha256 7dc8259dea39e5b0b0bc1725793e7cc38a8f8aa85ffe3fd3305d80e57d2167d7 -> aabec48e89b028d6065a90a27a49153ccc9ac54047b7735e43fd5467446e0cb9
+~ _SMPTE_ST_2094_50_InitializeMetadataSetWithCurve : 372 -> 376
+~ _SMPTE_ST_2094_50_PrintMetadataSet : sha256 60d2d198c472e0a89a1cd54ffbf6fc89273c3270048f992594130e07db9f1131 -> 82268ae3a14806d7bbd0f908b1ad17af1829d70fb7ee0184320d980d4ba7f6b6
+~ _SMPTE_ST_2094_50_PrintSyntaxApplicationInfo : 304 -> 320
+~ _SMPTE_ST_2094_50_ProcessPixel : sha256 78d89db619dd4fdb722901488ab8ed9914ddf40692728f00365e53eeda6c15f1 -> fc7a4be1fe3fa729702be8ced9348939d84ba014874b19ef97dbf380dc02e23a
+~ _SMPTE_ST_2094_50_ApplyAdaptiveToneMapSingleChannel : 840 -> 800
+~ __ZL15InvertMatrix3x3PK13simd_float3x3PS_ : sha256 e6b9451b908d8c7d34dc6123f1f6823c207f83b83d6aaaf1c28c7000861b569d -> 105c315e0083bbdd0f55c399d5cc4acf69f0918b0672118c0de8a77e842d6d23
+~ __ZN10commonRBSP8freeRBSPEv : sha256 b1045e64de73e81cb878d4d2bf9ee223ff2f3122b9bac8bd66b6391dc4a2f707 -> 181423a43dd4591464c3432e1637eae04d4b6dbe3785c1c726abb77c863a521a
+~ _getFourCCforType : sha256 2dc0ad2f1c612a5ae1ba985fa90a86d501424a43835d2bc848031f85fb92a3b7 -> 77b526840d357b81e94a76af8437c2cf04886ead4a2eefa66ce7f6e126a79e85
+~ _isSupportedMSRInputFormat : sha256 35909c0cc28fbce8c46a717c4c6c2ec01837bc2b041d6d7e2de3b238378ed19d -> d8dd2f8c0fe36297ef648cc5c5e11856fac2f0f09a6c8c55bb6b2f45c420a538
+~ _isSupportedMSROutputFormat : sha256 223fad751523466a52a276dc17132b0e0a950cb2dda62e10775f7f609c5d774e -> 121d1392972eb31703501c5a209efe825c8cdd6a3364c17f17b9b54cb388089a
+~ _MrCacheIsHit : sha256 d75d6d907143e20be95521795fd0329239395eab519d62f5d5eaf4cc4e4474f2 -> 19fdef9aa15c25bf17d42d6055deb33fb1f971ed77ed17c73f5ef328881d6df0
+~ -[MSRColorConfigMemoryPool initWithCapacity:Size:] : sha256 876bb4fdcaccc42111b9479525283db9173165eb66d1093dacfa912a990b02b4 -> 980e46346f1af597b68f82fcaab1282215788243393bce74cfc7c9181319f31e
+~ -[MSRColorConfigMemoryPool dealloc] : sha256 91708f8780103847ac813d1bebc7fc7e7c571af101e7a7f033877b4fbd01d64e -> 61be4950caae342f548d6c687436462f1866ebcf8324608d69db71d80c9b5851
+~ -[MSRColorConfigMemoryPool dumpPoolState] : sha256 0b122c5aae5dad4f3dcd534dcd32b1a64e818fb0f50dabcffd5830ca8f1a45c2 -> 1b8440eaf3da3c16c853e79d967289982bdbf10ca38d4b839e04ea34d998895a
+~ -[MSRColorConfigMemoryPool getAlloc] : sha256 01b5bcafdfe84b4debb552219cd1d5370119d8b163825cc69b65c57e1c01954c -> 93432afedcd475cc48f9cbe259478914caa986f1a65cdf36d6fa7c0eaee76a8b
+~ -[MSRColorConfigMemoryPool generateColorConfig:msrCU:] : sha256 3de287c7e0ecc87c93363ac38828762e5f903e2bb3e6995efcffedfadef3c949 -> 87bf42afa1274097780598b640adab8653ffc4e23a368cedcee9daccb5258ecf
+~ __ZL14packHCUInPlaceP13NSMutableDataPK29hcuApiHdrConfigurationUnitsV3 : 420 -> 424
+~ -[sdrHdrHistolutWrapper _initPrivate] : sha256 708d40c15a369e6816ac0ce2061d55a1603f7b9d9fbb37e14d8e92120cf3faf5 -> 04b17852916e5f6314efc37e42ae807ec0a1d2fa0cbe315b025f758035896b2a
+~ +[sdrHdrHistolutWrapper sharedInstance] : sha256 9c01c413b465f1b4003ed602c3c91c6dbc770735d4acc1981e594032580b63fc -> 73984dc1efa461e800b488d4e546533c81b0dd24c6d9c4ba521c093470cd679b
+~ ___39+[sdrHdrHistolutWrapper sharedInstance]_block_invoke : sha256 d129f90ee1c762ec55f40e3be0eb0a2c0b38f42cdf09add0128f10fec83d48d2 -> 925f6c5574e56654af812381ab8a7de76df6ab85850adb18c188d4a9b525cf2e
+~ -[sdrHdrHistolutWrapper generateSdrHdrLutFromHistogram:count:error:] : sha256 d3f6fd51b9d85f10fab7a82c4ae3b8df5b8caeb30202017ab9c4f3eb64cf1cc3 -> dc6fb3a43cf908d793cf4fc7a841f29ef30dad4d3d53d991ba9b49c818333356
+~ -[sdrHdrHistolutWrapper .cxx_destruct] : sha256 200f8134b31d2bffe74d0708b5cc7f4a979d29957c3dd50c55cf3d124b90b87c -> 65934271773a29ebe558937370e00a5c7dffd9e673b19b0d0e73e9450668013e
+~ __ZN9HDRConfigC2Ev : sha256 043f096582a369cd604778ad3d8230caa7aa1c048a4dd61b6a906a0a302cb6e6 -> 3908957bef306cd7574c1e14f291328f9eba29a75b7f852275f2733680936e1e
+~ __ZN9HDRConfigC1Ev : sha256 7e26e67a96ca1f83a923fcca895474609ef007daabf5ae0990c68ad80b5e4ced -> 5427b135ba800fe1edb9e4a3154ab1b41d2849152a75b9ba29c08bb20ca29fda
+~ __ZN9HDRConfig22CreateAllConfigEntriesEv : sha256 df07a53b6f29490078e979ed89ef305d8369c2b7a76224040ae7cb1f2870bd72 -> 5699627dd3951ae12c6b3dceee3867e644b47f08a8ecaf8f67fce4ce19258d54
+~ __Z9GetConfigv : sha256 11ba9fd826e0f2df0bd929487e132690ccc5e24680e466ce30251727b4d6c23a -> 21311514ec0b8bbe421f2e3757cfcc373d389599be5c9443661cd52d631af129
+~ __ZN9HDRConfig15ReadConfigEntryE11HDRConfigID : 1444 -> 1460
+~ __ZN9HDRConfig20ReadAllConfigEntriesE18HDRConfigFrequency : 140 -> 156
+~ __ZN9HDRConfig26InvalidateAllConfigEntriesEv : 56 -> 76
+~ __ZN9HDRConfig27isConfigEntryValueAvailableE11HDRConfigIDj : sha256 caa2bc0faebd63eb9eb00ad0a4d4a2012457f0573bf8ba30a9d08cded42f3aa7 -> 8e27b80416b050c028d1cf281b26579e1ec727c268f43010fdb94504685680bb
+~ __ZN9HDRConfig19GetConfigEntryValueE11HDRConfigIDjj : sha256 ce8312f0b1ba2c179abc0581d523aba627be3156a1a141ba4f6d14ed6fc4a64a -> 07494fa2fd78ce217b55908635a2ee79d256ec9cfe6c9a5876cd019bdecee875
+~ __ZN9HDRConfig14LogConfigEntryE11HDRConfigID14HDRConfigLeveljj : sha256 b04e86073c4ec4706a4eb30ee1ae7e1eb1a80bcf38d216a5ee4c9bb82da9be33 -> 23aedfeb9b68b07e4cf22724ca87179627bbafb71546b4cc052b0bd4d6e41cce
+~ __ZN9HDRConfig19LogAllConfigEntriesE14HDRConfigLeveljj : 832 -> 836
+~ __Z14DumpAllConfigsj : sha256 d69734dbe93c562e4b1d58363d161719a2e08b9c03c63f04388ae1dccb66626a -> cc523def8d3e613f7056d1a4abf97f71f89ac796f2a715a5dc2edaf25982f88c
+~ __Z29UpdateConfigFromDefaultsWritej : sha256 deed323d1698ca8be956b63a2db185097dc3f538e8650dfc70e54213d1137bfb -> d22bbe09d8016c7b51591d8eaf7ef9adc4fd3d8aedb0b968134c7401bd56963f
+~ +[DMShader createShaderWithName:] : sha256 9a8704e0951a7617904a6af93fb63bbf8aedc23cd872761501edff81edc08836 -> c2d96c9fbfb6b6bc5a5839506f01a98fdacf8b2a9b1c28106c0c423c8fc87542
+~ __Z11getBWResultfffff : sha256 0d0e08bf159fd2a818b6a3b622e4caee13c9991e474ca788e015d8df3d5e56ab -> 3f27c2dc97dd55face154724da1f4f95ea5c55d7a97fd7aebea95bdf3569ed59
+~ __Z23getScalingFactorByTablePfiff : 68 -> 64
+~ __Z22getToneCurveParametersfffffPfS_S_S_ff : sha256 eb1679b89357267a2bc7b22d14fa397afb8c47556d771e0722ab770793dfb1a5 -> 453aba568a1ea40d524eb1e3f00607dcdbcedd8f2e3676e273a3f720f1c893a3
+~ __Z21generateHeadroomCurvePfifffP11dm_config_tP14headRoomConfig : 236 -> 248
+~ __Z10check1DLutiPff : 132 -> 164
+~ __Z13adjustMidToneffPKfS0_iiS0_ : 544 -> 540
+~ __Z16adjustMidToneLCDff : sha256 52508b63fcaf17b5d5682fe8e5fa5097945143185528d9de240147f8b729aac9 -> 504696797b477f89fb1a651d8fe29ab8aedd61e30d5a26bbc96962b36a6e8fdb
+~ __Z16adjustSaturationf : sha256 b1f4728401273e840c9e8aef14b1a191e8bb69a9d393b66616854e7c43500ee2 -> fa47b22aa55dfbffad12e0762d2d3b50bbf1367f5e8fbcb9eb7c7da79c75d7bc
+~ __Z8L2PqNormf : sha256 ff725aac24c7d520e768452995b992c33e0a49b18a98ea7ecc796ec32a507e34 -> 099dac175771cc872a5d390bd34b581c38601121ec82f131dbc5e66b1db799e1
+~ __Z9L2PqRangeff : sha256 ac6b2e08822cecf8f556cfa103a1df06a0ef8ac8c76ca3be946a72ebb37bba7b -> 6ddfaad4091131c030821f62e4f6f4e3b9bb9e5132cd241e21ebb1ede8b8a15d
+~ __Z56calculateHeadroomForInternalCapturesInternalOrRefDisplayP11dm_config_tP17ToneCurve_Control18_HDRProcessingTypeP20HistBasedToneMappingf : sha256 0b876777285e5759749ac48b11a69cf1ac38c9d0a962012176a19b1ef5251b11 -> 503e670466d3f3d58cec4186c3e9606be0b382650d0fb6efd29a8a61914ed52b
+~ __Z27adjustL2TrimToAvoidOverflowfffffPfS_S_ : sha256 893f9a26adf6938c791ed443b6ea95676efcddcd0d677eb58fec98eac33e6f1a -> 9f3219b6abca06fff01854c8ee9de84e5fb62dce0844554e785a0513bd728b89
+~ __Z24findL2MinTargetInPQ12BitP14DM_MetaData_L2 : 48 -> 56
+~ __Z13createTrimSetP14DM_MetaData_L2P11DM_MetaDatafPi : 444 -> 456
+~ __Z16getFullRangeFlagj : sha256 3e0ab13b279da374593bf55404670edb77b9623013ee63da076b5d4c42aeebff -> 48072775686ff886f807dde7f8b9132beea61ff9f5113dfe8c81bcc7cac620c8
+~ __Z14getRGB2YMatrixP17hdrForwardControl : sha256 e3d42ebced2b05a6843da6915cc05aad7f205fc9c12e76d59097589736646510 -> 88241053ba62f673719e83dab4fdcd0354260e197ecf9b1aa57f7b89c2072539
+~ __Z32getLMStoRGBMatrixForColorPrimaryP17hdrForwardControl : sha256 aea21e857bde27277959b9702adb0f4e58367c9b11bade395c1586827334e128 -> b3a39ea3d06b3b03388b55c123eb1a31cc0b23283378a2492526d724932cff20
+~ _getLMStoRGBMatrixForUITargetColorPrimary : sha256 2b130fe041c49c759a40517b295201cffcfa1e4d955bbb24cdde025837293226 -> 12a8e4c1c56a771f6beb4a1b6c1f1f6cf4ab7826af8e715f2cc6c4b19dd253f1
+~ _getRGBtoLMSMatrixForUITargetColorPrimary : sha256 6a92d192a1a514e60d0e4bd149f8942079cbe4ae79bb792d495607159145aef9 -> c03f01e18707a934045a20524e7f78b463d72e8444558d4e846c90a4e594f2f2
+~ _getUITargetColorPrimary : sha256 39f21d6485870bb7199934c16a0dccd49728a7a46cd104dcb45ff68e9fbad634 -> 7f799a0c5dba7085b3d8e4aac04c3cbd3acb5f61e62268533fa1d8a38bb2656a
+~ _getRGBtoYUVMatrixForUITargetColorPrimary : sha256 eefb25bf95b34700e0646f22e5e9cce6c640abde177a0330e14afe5738a8ee33 -> 95294fa2aaa9c1996a60ae16765eb3efda79d30fb053e984fb65900e7047e7cd
+~ _getRGBtoRGBMatrixForUITargetColorPrimary : sha256 8bc0250464d33d0843aba4e275a53b8c75e5d811421de739b2daedcc3df2f1a0 -> 724097cc9b94f6d0f074ea2c0e47bfd3ae0cedfc854f527d4a20db0a78ca2a00
+~ __Z16setupOutputScaleP11dm_config_tP17ToneCurve_ControlP17hdrForwardControl : sha256 d1ef7bed20257f9f38754527f26db598a807ab52670dcdb114eb47f78b269822 -> 0328c86e7b0253f2e68eb3b634e99aadd0e9dc6b01925d2ede7111a31f8212b5
+~ __Z15create_s2tratiofffffff : sha256 b57537930072d4149bdba4e71580adfd90f0a296183c0c2c3527beb40283226e -> e4a3d7d9c6726851591d221d1bd2c80d571df3c2e161764600f7cf9aa1af3cff
+~ __Z17getProcessingTypeP17hdrForwardControlP17ToneCurve_Control : sha256 44c763069896e2e33321257c150f03fe9ca8cfab94a70a560d15046f38a2ddad -> fb82fc59ab066d30070daaac70ee4ebf4be8be3e116924644a7e6b46837db8d7
+~ __Z33isDoViHigherThan1000ToHDR10TV1000P11DM_MetaDataP17ToneCurve_ControlP17hdrForwardControl : sha256 15c1d3af6b868eb069e76a44e51e1856f14b43f7edb129b7b2112174e1137ff7 -> 473f44bffc6d98dfc7ce58518d59b3056ea166f40597f755e4d8a14744274ee6
+~ _convertMetaDataToPayLoad : 1684 -> 1692
+~ _metaDataReduceL2 : 404 -> 444
+~ __Z27setDisplayManagementPayloadP11DM_MetaDataP11__IOSurface : sha256 629dbc10c73c6d3518046fd1b032038c3e8c14a5022df43f26a9eb922c192025 -> 523406ff82b6d18f6bfdb5832d52b0c2ab294f996232f939b655ac4763f91966
+~ _attachBackwardDisplayManagementMetaDataToBuffer : 1380 -> 1388
+~ _HLG2L : sha256 fba532f263d3ea25d03d0f9216bba04d7701d15b3b358dcace0fbf826d1ced58 -> 9ed780dccdbfa1ec94fb6b22d990cbeb9a21e58ce696560ddc7fa09fbd325326
+~ _HLG2L_double : sha256 ff6656a974fe1b4e6c7d6357c73cad78aefa6cb32a5c6f6874793465482056e6 -> 984a7c9f00174200cd2422002767664e472ab614a33323fc429c7d83f2aa527d
+~ _setPQ2LBufferFP16 : 300 -> 308
+~ _setPQ2LBuffer : 296 -> 304
+~ _setHLG2LBuffer : 220 -> 228
+~ _setLinearBuffer : 60 -> 68
+~ _setL2PQBuffer : 552 -> 548
+~ _getSat2FactorForI : sha256 a137ca1dcf00c8fdf49cc47674dd69f330177168484e38c7891e6edf6c7ee6f8 -> 4b14bdf92011502a1f1be5777edadf94c0c0d572e6eea4b3acd4b1decfbe2724
+~ _getSat2FactorForPT : sha256 4ca5fbb4e47094ec27422a33746ffc4e8b6ab003df5afc2ba0132ca0d6f7deda -> 2980f9cf54b62f49f97068d7a6d4fff16b2f2eb892158ab5a2c973a32b53fdf1
+~ _setSat2FactorTable : sha256 0537fc4f11e66c87ead2a7386a91a86e2d82eb9bbb1635fa806bfc0014f6ae79 -> 74492f93c47826fc06f6dc2355ec910dfe7fb75306675fbe9e12a13748490d2d
+~ __Z23getInverseScalingFactorfP24HDRDolbyVisionDMMetaData : sha256 1b9be212df13af68764da3789729f8d015f592925b6bc4a0fed8e64d194c669f -> 7c35d06dc709eb0095e617b62c161b4d31e3ce8f3d25e045a39f94ecdcbef4af
+~ _setInverseScalingFactorTable : 248 -> 264
+~ __Z18GetRelative_YUV_TMPfmffb : 1116 -> 1088
+~ __Z21GetRelative_SDR_DOLBYPfmff : sha256 7a3c2ef321cc7f9443506e6b4f237416aefc68b3e23155edcf5dd8db5fd7942f -> f98735804cb4f1b603f9b8623a034873e8e4aa172daa694c9012083c2fef6e64
+~ __Z19linearInterpolationddddd : sha256 fcc7c8c079f4eaba933008f7a2b1f78699f61114573f41cb423576a77a03d92c -> e7f23430f23fc479e59f5052239758101fbc8df6e0855a1f974c182b15894afc
+~ __Z15getSourceOffsetif : sha256 e004191dd39230b1780c02339b51079b10fa93102a4b0d44961e9cc984777eb2 -> 193b3dc83e90b27cec8b9c866f6b86f68a95d33d89fa6cbbe4df6b65f76b1914
+~ __Z20GetToneMap_SDR_DOLBYPfmfffff : 676 -> 680
+~ _setScalingTable_SDRtoHDR : sha256 34657c62b43a15944a3e1adc8d459e3befe10d1162741dcb5d44d7bc9fe9fe6f -> d8242f6582bc0077b992824c038e574b73d92fd966841daa8286295a9625e051
+~ _GetToneMap_YUV_TM : 820 -> 824
+~ _hasTrim : sha256 645511289252c81d0bfacd37f545ffb0231eacb15bdaf172fd655778563d0f78 -> 894b8a05fc524c481249620f9479af3d464d5c7682eea23a3275295b279361e1
+~ _hasTrimSaturation : sha256 ff3721f0e6af820be3d546e40cf6849101c8524c96da7c31777e440788fde5c8 -> cc2d161ea85aee98587d3905681133c30881d369d52dc0825fd37ca1b0360a58
+~ _hasTrimOffsetGT0 : sha256 1bab4f445de9c4bd3faa26329528c3a4e811757c69a67e9c2009f7830a13edc7 -> bc8a84b6e547669eba3bed4d3e13838289c38e0bc8a5c3e4f9787dfcf91087da
+~ __Z21dovi_getScalingFactorfmP11dm_config_tPK12_DoViTMParamPK19_EdrAdaptationParamPK19_AmbAdaptationParamb : sha256 1af9a436abe75a55601fcdb010d67011ec43321f96aaa1d88a64ee043e4fb775 -> e1490bf2f2a0290d7edfb45c8377c9301d162cb85991a9631dbe145826c9f8b9
+~ -[DolbyVisionDisplayManagement dovi84_getScalingFactor:tableSize:config:tmParam:edrAdaptationParam:ambAdaptationParam:hlgOOTFCombined:] : sha256 051f30cef823bbf86a640741e02cebb735f00b7f45441c30106c9b32d80fdce2 -> f6ae12329b87aeed1cafdf4f8d3e308af3bcda3aa1ed8b3776b216a7ff49cdb1
+~ __Z26dovi_getScalingFactorForPTfmP11dm_config_tPK12_DoViTMParamPK19_EdrAdaptationParamPK19_AmbAdaptationParamb : sha256 eec3a0efa67bc9e8845d84669cdfc9219a87d4fd7febcab9520640fd57b7f37c -> 46382496afde0a6c3b953dbd2341b9a946f495c1ba9e1b0559705461eefec94a
+~ -[DolbyVisionDisplayManagement dovi84_getScalingFactorForPT:tableSize:config:tmParam:edrAdaptationParam:ambAdaptationParam:hlgOOTFCombined:] : sha256 2d61e7991bed95e77afb0f46a93df358ff4a8da76bbe5cf418d2abf564ff1931 -> 15fcb76403a69ddc1c07bda8fadbf0b5d789c7f09fcc6a356c72f731ef6fe4c5
+~ __Z40dovi_setScalingFactorTableS_C_deprecatedPfPKfmPK11dm_config_tPK12_DoViTMParamPK19_EdrAdaptationParamPK19_AmbAdaptationParam : sha256 52568ef087c80015be191c43bf48598eb6d0729d3897d05a6d4de79678a8bc97 -> 33f317d87ec2e1d65bba7afafcecb57b40fd3d76ccf04c37b1aab58f02e271cb
+~ -[DolbyVisionDisplayManagement dovi_computeDM4Tables:config:edrAdaptationParam:ambAdaptationParam:tLutI:tLutS:sLutI:sLutS:tLutISize:tLutSSize:sLutISize:sLutSSize:IsDoVi84:HlgOOTFCombined:] : sha256 2bd35191564f506bc511684257e5281cfa0ef8f5448fd79701bb21d943ac9db8 -> 33387c01ce83611accde4521e6865f32b88d4c57284ce8a76dee2364b85dbc67
+~ -[DolbyVisionDisplayManagement dovi_setScalingFactorTable:lutInput:tableSize:config:hdrCtrl:tmParam:edrAdaptationParam:ambAdaptationParam:hlgOOTFCombined:hlgOOTFOnly:isDoVi84:tcCtrl:] : sha256 0b50ea3c51d377d6adaede697b38487822f0ca4759f87e671fa2e4fcb741258e -> 073fc76da390f5a34045c65154812179715302f436c65675f18eb671c927eb3d
+~ -[DolbyVisionDisplayManagement dovi_setSat2FactorTable:tableSize:config:llDovi:applyDoVi84SatAdjustment:] : sha256 05ad60af30673f75660a00547a407071ca72ce1e741b16bdb38a42345271f2e1 -> 7c343d15980edadb68e022070218aceab8e6ac22185c2f325e51f3f53081da60
+~ _hlg_getScalingFactor : sha256 900686d08912b6584226617c0606a56e6e8b0fd56684d70da0ad3dfd9133db47 -> 82103e17bc3194726f4b6da2b0e731963e61a1a7a7288b7a50579aabb01d5093
+~ _smpte_st_2094_50_getScalingFactor : sha256 d608a68dd0a6f66c984118fbabff2671db7c78a5c8e05d1d59a20bc0d650a992 -> 4c4ed88704cfc2e2b48e15f78109ec0cdca5eb90a11eac95704db5c863ad9e61
+~ _smpte_st_2094_50_setScalingFactorTable_C : 1080 -> 1084
+~ _hlg_setScalingFactorTable : sha256 1f304e0d6702f5d72af1973eb989d20e6588de8c8c4357570ed877cc18a6fa87 -> a99939d3841469cde72d222660ad1411871b36a455d7d7ea7d19ce0a0deb34ad
+~ _hlg_setScalingFactorTable_C : sha256 b71ed9dc58eff53ad20176033c97865b9ff238379d929f3e9ff90720050d18d8 -> 0dbd6ee5b875af8bf36bc5b9bc7fa24712c648e80f22f737fb9950508e1d4fed
+~ _sdr_getScalingFactor : sha256 f5ec6b0d759cd32d3c13bd9cd9503e081676230450f2b697a7efd7ca00130401 -> 0cfecb0cd7c6e487b1b4966b5ae3a40c8be0819bc909ccf88507c95791f0f56a
+~ _sdr_setScalingFactorTable : 976 -> 992
+~ _sdr_setScalingFactorTable_C : 732 -> 740
+~ _hdr10_setupTmPreset : sha256 2da93954ef0edd88a8adb9d6d4c6c787ce8c1f9995900016bb5e4ac6121ac28d -> 2b7387e9a04ba6d90ad7e25dac7ad9b0f0cf9ce1dae77628361a6cc12eae23e7
+~ _hdr10_setupTmParams : 6100 -> 6108
+~ _setupHistogramBasedToneMapping : sha256 43477d8d4b3c128fa093952e5f634eae3c399a2fe4aad7c7c00a5a8e051383cb -> dff049b3fbd2c8ea70ac129cffde1b017c018beb573b211a3d36118b91ef89bd
+~ _sdr_setupTmPreset : sha256 5dd117c8f34aed7df2f482cc6fb1af7ef97861e195940e571f3b4aa631fbc346 -> c8096f03dc3df5eb7d6705fdf75fe43054c39334e1a1486d43d3e590463555f8
+~ __Z17sdr_setupTmParamsP11dm_config_tP17hdrForwardControlP17ToneCurve_ControlP14DolbyVisionDM4PbPK20HistBasedToneMapping : sha256 5aa9b1b1428f438a5d911c36c5ab16c850f7e3a1fb1f3199148ab3073c692b46 -> 0be94ef15e6c8f0bb9e9763d138b9da83593db31dabaf155754f6a14b105a9bf
+~ _dovi_setupTmParams : sha256 58fd33f113b9b5087e5f323a7359bfe0716aed026d2eab0127f09fd4bc6baf22 -> e01d94f6a01c64c8d6d1efbf199749cc9d036f5f232cc5d507d9f7bd11967958
+~ _hlg_setupTmPreset : sha256 7d46e7ba6fbcd5d6cca45d93c0e18406baafdb7c66bbba0849990d02ae7c8592 -> 5e9c2b2ab7d35c9e2d3bd39b74917c8d53eeb2adeca5b672a0909b50c4f06873
+~ _smpte_st_2094_50_setupTmPreset : sha256 7c456232cd3cd665f2c81e7ee4ae62c746c1fa506bfd40c8ead17c41c6025b5e -> ff150c3c045bead8e8dfe4c865a1980c7009d32da24616290cf61dc6b05adac6
+~ -[DolbyVisionDisplayManagement hlg_setupTmParams:hdrCtrl:tcCtrl:dm40:applyPostRGBtoRGBMatrixScaler:pHistBasedToneMapping:] : sha256 f9f68597f802575421816f3bb0c934aff38924e37b32129feaf0f13848fa609f -> 1846a899f5f28bc53916c3762d3e9c61ebdfecaeeff172c3629ff51fee7965df
+~ __ZL17setupPreCSCMatrixP11dm_config_tjj : 300 -> 296
+~ __ZL18setupPostCSCMatrixP11dm_config_tjj : 300 -> 296
+~ -[DolbyVisionDisplayManagement smpte_st_2094_50_setupTmParams:hdrCtrl:tcCtrl:dm40:applyPostRGBtoRGBMatrixScaler:pHistBasedToneMapping:] : 1592 -> 1584
+~ -[DolbyVisionDisplayManagement dovi84_setupTmParams:hdrCtrl:tcCtrl:applyPostRGBtoRGBMatrixScaler:sMinPq:sMaxPq:tMinPq:tMaxPq:nominalPQ:targetingDoviLLOrSDR:dm40:] : sha256 b23d7007e1ca9a2a0dc32eccd912dd8e9fc8dc16babd109228db5048b7a44dbe -> d53d908c1aacfe1f75a2fc700c37072e66f1f6a40259f9bd8f00c9b9069736a5
+~ _restoreDefaults : sha256 309312d5bf41828c68eb7f5e619126dc194984bc12348b6cffa15426c47d9933 -> dd51342e8fca0a7211e2cd7c27961c2f3059be2980e070f3eec141db4ecfac5d
+~ _overrideDefaults : sha256 71a7bdc32cf0993654ed0ffe5cfb8f20a9d2fc1881364d838c465c5c9cae274b -> 493bcc5ba34554dc8737228d508a410bf158ef804352b542cc2e5108b96ee976
+~ _setSRGBDegammaBuffer : 260 -> 268
+~ _setGAMMADegammaBuffer : 200 -> 208
+~ -[DolbyVisionDisplayManagement initWithTmLutSize:] : sha256 2860dcab1ff730bdd7feeccba8fa1c4cc7f32dea51f5cb4476a6c1b1c400d158 -> 628e80e5b250c33546f637401b661b85129ad18ba13ce860a9e6f2553128c2c9
+~ -[DolbyVisionDisplayManagement initWithDevice:] : sha256 970ce2072f6eee6661de6a2a6b9438b064405e587b0203e976c36262e9cfa1fd -> 49e7e987c973a97c651585559333ef9d5a4ff48f74f419e44228a293344a5477
+~ -[DolbyVisionDisplayManagement initTmEngine:device:] : sha256 dd0992c12e8d05951046f03487de6c6ed8b38821bc63d1c305001632296097c8 -> b92c2046817731e643006291f79959f03bf04b6e32fe25f42860741af5e220da
+~ -[DolbyVisionDisplayManagement initWithModelPointer:] : sha256 1cf6d7cd714ee1c28472da1a743527853445acc11c215daa9948bfd1c18bca80 -> b89d696e543fc6eb5190e6fdc66e54db0c122f3c86f941b88e3094f68387541a
+~ -[DolbyVisionDisplayManagement releaseResources] : sha256 e817e023c5ea2cf2e9404295aca2ee8cf0eb175e0e59fc79e21ff274156626e1 -> b8b1d0a0ed2f935791cd951bf2c2246f6d6d2ec0bf3d9871842d2a4a411329e7
+~ -[DolbyVisionDisplayManagement getComputePipeLineStateForShader:] : sha256 dbab79f5ede9e078420b4f8dd69fb6aeda01454c2943260c78cd24a0a262ce7d -> 59628c8de28b12a017425b371a2030a8eec2132af2ef8f4b8fc0e42165346b6e
+~ -[DolbyVisionDisplayManagement setupMetal] : sha256 7e7d140d0e8c83af78d0ae6ec07d5fd067a888d710bc9a6461ac843b104993b7 -> b3cea3f73fe48bec97394fbd8bdebf10073d3da4a66ed39fe6c1a5d44eba106e
+~ -[DolbyVisionDisplayManagement getDolbyVisionDM4] : sha256 832b7e2426d3487ded22e3e0ba857054f57f19d3a6f617c6abbb6405e8b7d345 -> a8505ff5f0fef76dda910d55fb60452dd923e42b9b341e3670f92b334838da13
+~ -[DolbyVisionDisplayManagement encodeToCommandBuffer:Input:Output:MetaData:] : sha256 9ff19648ec9d0de88ce6cdedd8fa17d6276807284ba4fa6d979c09396e56f03e -> 0c2fdbd0b3e146ccb073b05ca513adb69e1eabb3e5d845d1b4634ab62a095f4b
+~ -[DolbyVisionDisplayManagement encodeToCommandBuffer:Input:Output:MetaData:tcControl:hdrControl:] : sha256 f090ded0fbca5fa6e40118ed2c08f93b2fc032afef3886e97845043a0f683162 -> 35302ab03c921087c71e6ff901858a8d7f393f48b46161aa1c3de43747da6853
+~ -[DolbyVisionDisplayManagement setupTexturesWithInput:Output:] : sha256 38942ee1c09ebe25d445b9c7cb656c2a89a1f4545856a071fd085fbf200788b2 -> 16244fcb56b26ba13735cf47352dba4ca03a407bf0dbc1e52efb8ef05c2a6a96
+~ -[DolbyVisionDisplayManagement setConvertConfig:tcCtrl:hdrCtrl:auxData:tmData:] : sha256 0a2cfed69f354230704465a563283dcaf2f026ad1145244f314d0a1d87d5ffdd -> 5d829a1c2ea77645e6e3774dde801fc281b1c31cc10ac0ecc789b3ad929d6ea4
+~ -[DolbyVisionDisplayManagement setupDoViDmVersion:tmData:hdrCtrl:tcCtrl:] : sha256 ac8f68bf7f6f4a6e675e5cd561069c823c268ebf4e8bc79b646ede9e80ea2ef3 -> 97689389702343c52a68808b0d8373579602f50fdacbb81df101f1578d1de215
+~ -[DolbyVisionDisplayManagement setDisplayManagementToneMappingConfigFromMetaData:config:tcCtrl:hdrCtrl:auxData:dpcParam:] : 14012 -> 14132
+~ __ZL29adjustPeakWhiteBasedOnContentP11dm_config_tP17ToneCurve_ControlP17hdrForwardControlf18_HDRProcessingTypePfS6_S6_S6_S6_P20HistBasedToneMappingb : sha256 7da249637d8662eae240f26c147e22b0f20d44cdc512fc20f52666b7e4cf7276 -> 10ee8d262eb85a5d95d449315b9f6be27759ad7d58fbe3eb4aff9e898f92b061
+~ __ZL11limitStatsCPfS_S_f : sha256 602548641d5b08349dbcf8a667cd7e647f56d7322359d295b14fb34547c7f67c -> 4e39dfddfde15668165ca6084cc58431fee2a36bc355a94930a8448a032304ce
+~ __ZL16derive_s2t_ratioP17hdrForwardControlP17ToneCurve_ControlP11dm_config_tfffffPfS5_ : sha256 cad5cbea86e15a87d5f49e326b4aa186d5ab2ad916c1e21a5c7ae849bc9f1e44 -> 8105e763169447b8b0c8669a10ab594c848aa6b9526f2e03962e5e01c26cc943
+~ -[DolbyVisionDisplayManagement setDisplayManagementConfigFromMetaData:config:hdrCtrl:tcCtrl:] : sha256 441e1a1cc980ca9fb7e0e61d1286b6e86c6ff1ddc953f1ee66ea91dd97428ad1 -> 251ca463aa4ed2f815ca83b6d622b6630306c70c1259685253d716a7bc4272dd
+~ -[DolbyVisionDisplayManagement setDisplayManagementToneMappingConfigFromDictionary:hdrCtrl:tcCtrl:infoFrame:] : 4592 -> 4596
+~ -[DolbyVisionDisplayManagement setDisplayManagementConfigFromDictionary:hdrCtrl:tcCtrl:infoFrame:] : sha256 2dfdbb0c7ff2b2c51da9dfd211559e52d6734baafd45a741c5b067931d0d767e -> 1e909f91b7c3447bc903ddf0624513668f795f1e82c273ba2197710630b6e558
+~ -[DolbyVisionDisplayManagement getToneCurves:tcCtrl:tmData:srcMinPQ:srcMaxPQ:tgtMinPQ:tgtMaxPQ:targetMaxLinear:srcDiagSize:dstDiagSize:EDRFactor:ambient:nominalPQ:useLCDPanel:referenceDisplay:slopeScaled:c1:c2:c3:BrightAdjBySat2:DM_MetaData:] : sha256 068c2591cba21ad82e6a2b3506de6f88f1ad0486ec397e2f3a311fede5175d77 -> a5e60d7141f0bd6173a886b7cd70b1b3786bfa455ff4221314bcbd4a212d3a73
+~ -[DolbyVisionDisplayManagement getToneCurves:tcCtrl:tmData:] : sha256 18216f18afc2664ba495471d8922937102e9d996fecb5f1da49bc4bb82013464 -> 908b5c8281e64d0bf3295e773fc8e212a0b10319833ee1a7ba0893b24a4b23ef
+~ -[DolbyVisionDisplayManagement getToneCurvesDM31:] : sha256 b2e388a490bae884689c045e08f9fe65b080bcc4f873c3c35048ef4d2670e23a -> 6479d2ddc578cc7606b1ab7658c345c65e7bc18765e721e7aee21c177ddd9c7a
+~ -[DolbyVisionDisplayManagement getSat2Parameters:] : 144 -> 152
+~ -[DolbyVisionDisplayManagement getAdaptiveTM] : sha256 1a890a26c9906155139d069cc716b59d42916ed1f47a69db1fe2d6af10f0b508 -> 4aec2abd85b78acffdbe20e82dba779d9befcd3ced413cd128286afd27400f60
+~ -[DolbyVisionDisplayManagement getHistBasedToneMapping] : sha256 fa25274a7c52595202b0e79240b4ae63e52695cf494c51c4339783b753bcbc64 -> 81cd185b97527152a3718d7989957a988fd342a1edad218a8dd5d2d06d6cb749
+~ -[DolbyVisionDisplayManagement .cxx_destruct] : sha256 51759d83c7bb3dbe61f1299b0a4c0bacb08106178d9e8b2c093662aca30ba401 -> d93846cd9c2f90ffd22d1c14a9b2fae739cbfb3de9df8eacae1a9769e70ee602
+~ _PqNorm2LX_Pos : sha256 4bfb58a9fe16839fd73f205e4bd9dbd8cb46fc925bc638a608606198569717b9 -> 5bb7638bfc77aa710da9ae5114c75b8f85592427986f25db825c1693c0a28334
+~ _PQ2L : sha256 54d094e6e21da7b0dd47eb40fb766aae50db381e10f66adeaf5c008d27df7845 -> 4f0acccbc59c9e14e0c86f4ec40dc265181d3e218c87a8475665418d80763be5
+~ _PQ12Bit2LinFloat : sha256 49ccda769dd985f0cf0f6b632e281210bc18d5db4e23f30fed11f6aea4dcf523 -> 59171010914d7549a2c04cef4988f4eb82601d5c4b0ea6b75b2c815ef25f094d
+~ _L2PqNormX : sha256 14dc627ea50611e72f4b042bba93d906de2c020d9b55b25c0a0713b8ee0e0a2f -> f7da991232c6daf5f4154777894c2ae5ec87782c893e57cd2323fc1dea10fdc5
+~ _L2PQ : sha256 68acb173b065f0bc2853cb907ea563875fa484768988d71f623d21cb74e84571 -> cc44b6c8fb4b4bc8bb3f0d95d45a6b8cb887ba9eb27079dbfa4b624bb65cd728
+~ _PQIn12Bit : sha256 b7f567924800261497f3f390267c645d296aea5d282ca8c89ac7db77446e3652 -> a917080605b4d87b67316e3ecef8bbc952d613c9739835abb2534e2adc9e70b0
+~ _PqNorm2LX_Pos_FloatComp : sha256 a6841a777dd79246cd98410a8097202ffe1ecd589b4ea1303faa18d5f210d651 -> 7961313943a48d05fa6f8b1c22365e4c771d94ef52b7433d0e54cf2dde6962da
+~ _PQ2L_FloatComp : sha256 1a9208ed0424d3b53a092c050edc30dea8d871c75f66088e6390c8c0836951e2 -> 1bbb6370cb697b0189bc454737842a3959f3ac8b35f82fe3e27aa095a3ec1bf0
+~ _PQ12Bit2LinDouble : sha256 304d61acc73065e7c50e01354018957e3d56a4529d1c227bd3a732a3bf49bbe2 -> 574697a0f59e714d617fde616526eb5ceb9235ef8da2d031cb3ad87b8c3660b2
+~ _L2PqNormX_FloatComp : sha256 c550f881cc1fefa05d784e89954c87e4261b7fb5c607b074f652e1e1ce11c9ad -> c858806f273a4f6b5f35456338ab819f7c2de0504360222fb3fd565a0db82e18
+~ _L2PQ_FloatComp : sha256 da95bee88b364ae447f3c98eba1009a708373087a0b40d1ba93f9e07f671be87 -> 01666c6f2d5f4499717acbfe9612f0559f2daa5d30e96f93c17532346d61b34a
+~ _PQIn12Bit_FloatComp : sha256 d15912311512935cdf279587360d35e07f7236a11e0333c401aa3a6bbe956acf -> bcb9b64d1dde03338b4a3791916ebc65fa17339ce429420d5ccaffeefa5bfdc7
+~ _degamma_srgb : sha256 1816a10409345749820d3c29fd0a6753219900a94db51dc5b98fc07121840bf4 -> ee68d4c2741ad77ec2c8c5b5e9a5f8cdfdf9711c1975c39aea431814b8f29cd8
+~ _engamma_srgb : sha256 9f9b859eb4aaa7abfeb3daaaf0584fe7e413dd001dc3bbca1900f63f865574c5 -> 5610c14742cfce2c0193d783ac19e09515bd9bfded918f63410f6d4823e6b048
+~ _degamma_gamma24 : sha256 6139ce2f9d46ad74fcb42d4ca5a161bfdbb5383dee17e767d5aa5fb673bd9c8b -> c194c3f08b8ab55f2d0c4bcde3823cb64b9a617bfc3ce93c970203f70eb8e1c2
+~ _engamma_gamma24 : sha256 c8399c156eed1348d244a6911a9d5eda91e24d66adb0b650b0a07bc54ece5acf -> 1771f150f394f16ff4e9f40915c5b5edd9022cf803e09c93d38dc2d1fcc252d5
+~ _getHLGGamma : sha256 1e3ffaa2e4e5acdee6d1cf3f65355a7393bb70d4463eb84ff4b6da19d64d7a37 -> e8cc357f2a8caac90f799081c90288cfeaa186ba743ca5f962e327b49560b0af
+~ _power : sha256 5a6d9e5072d276e1d96e8ae15fcbcf6591a4636613bb0093e2aa27ce08b8a29c -> 5d1cca87b45a32ce35424237a69cf0e6fe1392ba9c302410c438375af5eb617c
+~ _spl_apply : 196 -> 208
+~ _spl_apply_with_linear_extension : 232 -> 240
+~ __Z45spl_apply_with_linear_extension_and_high_clipfiPKfS0_S0_ : 224 -> 232
+~ __Z55spl_apply_with_linear_extension_and_high_clip_monotonicfiPKfS0_S0_ : 292 -> 300
+~ __Z13spl_calculatefiPKfPA2_S_PA4_S_ : 232 -> 228
+~ __Z10poly_applyfiPKfPA2_S_PA4_S_ : sha256 08ae8a620cf2532681c3a5baf7b4b9541f737f8b0ef72e691a1453b5e3e48649 -> 6a93069ff516bb6775423ebe19a6f01153c3f48f5ceffee360fb536c532b4f9c
+~ _ebz_norm : 296 -> 304
+~ _ebz_prime : 368 -> 364
+~ _piecewiseLinearInterp : 136 -> 132
+~ _applyLinearStretchInPQ : sha256 e411ebc2b764f8d2c23d10fe8e5c021cc9814d5a782583c0fe03e6b38dac3b30 -> 5da570f7ddfffee3505fabf69a2d487bea2e1ffcb5742de016d72550e2a5ea95
+~ __Z10applyRWTMOfPK19_EdrAdaptationParam : sha256 8bde38800b7cb3aa01fe1ec46751ca5ca6f2147a80bfd169bcbec8d982d451f6 -> 2336453faf09865aea9f8fcf042e32924b404fc1f992f420394a01eaf460533e
+~ _calculateEdrAdaptationParamS : 19268 -> 19248
+~ _applyEdrAdaptationCurveS : sha256 ce1bd228d73292699f32882c0607572459cf8f5079b7862953fbdbe066cfa8c4 -> b5ce68a13d7a446a1d877d2e088cc77d901faefb3651d26ea3b0d81116a6aae0
+~ _calculateAmbAdaptationParamS : sha256 04a3f957f9a10b239b2d959d340b49558366f9977a7b22d5faed26ea2e737a9a -> a8554f47ed51e66259b0ace9276d2a8db76fe2b1e15a1d4d1adb52b45edd790b
+~ _applyAmbAdaptationCurveS : sha256 f21b7df0db24f749710f240fe239e0ffda6fc06e177c8258e2a43024f921a41d -> 98b2a983085ac96ee5cdb550683ba2364ff953b77aa464976e555443558e9d3d
+~ _applyAmbAdaptationCurveS_C : sha256 37009e0441fe806e982f89ff72bf7a4f8a99bef308c8bc8c3743469a9ec9e391 -> eb1857a590beae3483d6be8f3f3226692a71641ed2190d70b75b6822e25f711f
+~ _calculateSceneLuxAdaptationParamS : sha256 2511fdaae2ac4cce451a15d3f33458159e46f4d2c07e1298839da7d540d5c72c -> 6c09b70ad46c355b006c081f6cb29d3f7b95a264674de6afd0ddfca425e139ca
+~ _predictSceneLuxAdaptationAnchorLinReg : sha256 7ce6ac24c1b86727a53c3f5ed0a5c4c74b2f54b1a1a64ab7d15926b0edc54907 -> dad2a874d8eead7c50ed882526f4ee0795660167ee2870c74aeb3676c4cbf07d
+~ _predictSceneLuxAdaptationSceneVarAnchor : sha256 cff41f78bef6a4dccd84f2535d8464a64d710118496a293654ff9ec7194fc17b -> 4fe68e1abe25ec95153977f786cb56952d88b8a9f17dd4cdb0ff8851c39306c8
+~ _calcSceneLuxAdaptationMixFactor : sha256 809c386fc111195f5a7ce24399d06c782ba501d084f0fbf7634f5e9127d833f3 -> e967b3dd7307ee92444e248d872135e08573cbdc135c33aff164019df2a1154e
+~ _applySceneLuxAdaptationS_C : sha256 f8f0c52495859cc56b08c582054c9bb09af70f7fae7692c0f5559c24d6ad8a1e -> 5fd2b52b55a4e651b7b8e00e175b51438d308c060e70038c5bec9af5ea1d13f7
+~ _applyAmveB2DAdaptationS_C : sha256 f8d69095b64633cb4e72fad8a62dc8a82621667bb5825f0059bf329c03aab821 -> f244b9e769873fd53096d9d1e2c2b85e60185fe049f3665f2ad486f350731145
+~ _getReflectionNits : sha256 ff435c3f21f54f79bde4bdb18459c66ca3239b463e789b7fe759c3b80d637e15 -> c720a00e1e94c878e3ad5797433455172a45daf98e04bf2e8012c777f262b642
+~ _calculateDpcParamS : sha256 2ad1e2522b74533bbe741ada89c6a8606f9a3ac1743b633993e9fbd07a0bc14a -> 971cd9813914d7befc985f7861caeea6155b1ee0444b94438f6e1d1866cb186a
+~ _PQ_OETF : sha256 b99563f2a373b7e29e186884a618fd4a138e16e8e5e3f1137b216ee3f30f5c9f -> fc9a8753c200cb0f45ea0d02c8942fba6ce0d07bf9ce5a37e2e8e894f9fd1dd0
+~ _PQ_EOTF : sha256 421d98c6e3d00ce8520ed344102fa42d526674788d82c5af86f5abf70e65d49e -> ae22a9b8dba8171096a69cedcc9a2d8e4163476da1bab8ca3c0310aed74ada5f
+~ _PQ_OETF_nits : sha256 16dde32061868ef9194d4d816c7fbc54896f43d0991cc4d3663078ab18e9f1ea -> 7c1726ca95b73fcbf9037483b46507281be0e227e84728b1b2fcee6420c13c7a
+~ _PQ_EOTF_nits : sha256 2b25197267c0af945d9869d84a4a643bf12de1504029572876912e5e2d19c1c2 -> 093f5f8b91ecef104f09ca44206a16605c99fa80bcdf31ef08928605a74e4c5e
+~ _HLG_OETF : sha256 8788bdf48a0024f5c92440ae681997bf5deec9d279d9eb9109c735abb727c77f -> 070b2e6d82be46d78efb1493a8b1e9a1c6b1a14e89a9793f9171771d65978074
+~ _HLG_InverseOETF : sha256 ea49e06909d3ccdf12cb37bf4352f36e9a6736eca372383e1e6fa7b283831241 -> 500c81789fe117523692bc1b86ab834338a29e89d6637adfdaf1786817fb0382
+~ _HLG_SystemGamma : sha256 16e51a0e334aedee3e2e33ca7151edbd3ff06ff87fbc727727428bb6c5bf690c -> 3c39ed6538e6cd828e896e3314ea47aab173655a25fbb2373f1e80366994c1bc
+~ _HLG_OOTF_1 : sha256 bc8a63544a39d2db45a200bce132c0b91ba2eb920ee5f120f3f2108ee3389aad -> 02f123982b23c7873516e987ea317873f167e1106697e8060d60428782c86520
+~ _HLG_InverseOOTF_1 : sha256 28aa2e37a7500f59ee2d24480a466181739577279e7ddf869a9bf7bedd509caf -> 04a6dacb5c1371ac33e6c4021f5012c8d033845335ef1205de0823780fdb93f4
+~ _unhash_f16 : sha256 279af60f7f73e12a2275e0ce4b13ce8045863f0c4c10bb8eea424dfe1cb59719 -> de203ac93d92a2e32ad267c8e3fdcf83e169de5b1363403e90dec99cf64a4cb8
+~ _updateL2PQTable : sha256 71c8702765f3031478dbfaf4cb22b6e9d673ce010ccbded7c307d52e7c5bf488 -> ec2c74ee75f3f42bfc09d8bd107c2027ff16da58d9f677f4f6af2a936224135f
+~ _histogram_HLG2PQ : 540 -> 548
+~ _histogram_SDR2PQ : 436 -> 452
+~ _histogram_generate_percentiles : 188 -> 184
+~ _firFilter : 52 -> 60
+~ _calculateAdaptiveHeadroom : sha256 ae145cd21690f5f0c2ba54a135bbc4bc9b81e0859d6bc688d33d57d6db8582d3 -> 8d8526902838a0de9613c0e4f0cbbfe5e939a8e8e862ea2724c50105bc5bb039
+~ _calculateContentAdaptiveHeadroom : sha256 bf8e7fcd247aa8f42e07f8d9efddb11341d70f2ad2d546eedb725bccec76fef1 -> 78c5a54f946d76ad0cdb3bfe448d4bd7e10eb2931552a93d638a8940af0c54cd
+~ _adjustDovi84DM4Stats : sha256 e3f45d5fab77aebe707ea7f088dd5c0f29ce19f9725d1120f09725f2b7d139d3 -> 031bd795a0a53e7d733c6107459e31161ddb495029bd2262ad9f463b529b8301
+~ _computeHdr10TmLumaMixYMinRatio : sha256 df04ab97ea711e7428cdc2517650e99eb853ed576325caddbad1897e3ed85f9e -> 5b13bde8e1e0a175c3957b67220fae7a23d2297287e8645acb83ac1b64f064de
+~ _updateAUWDMParamsByDefaultsWrite : sha256 745560502507ce1ac2e05d4c4388b59ebe0eda8f4a0c0f0dd460d1d81a4b1af7 -> d850ed55107362208a093aa34e753ad8d6c56ca14610cb5e5d2accd1e4c172e8
+~ _calculateAdaptiveSdiv : sha256 bcc93b6eed62f665ee50ad604b0d5d691d31a2fc7d1cd9aba337b90d2cf0a3ad -> ac3a5547b410ccd7bee89fba994a631d7e32875119cb3f4c5595aaf70ec5a221
+~ -[MSRHDRProcessingT1 setupHardwareConfigUnit] : sha256 f720d0aeccb1b8c0e5288643412b38691ac095459f8df035e28ea0809686decb -> 7c816ce6fcb043008302a85c930861f68786f05f912a9602b059254682150c0f
+~ -[MSRHDRProcessingT1 getDegammaLutInput:] : 72 -> 64
+~ -[HistBasedToneMapping init] : 3880 -> 3888
+~ -[HistBasedToneMapping dealloc] : sha256 27df67873b321d90f601e464b60923a7235dfff57c2a872a4cd27b827c5f1cce -> faa0dfecade3e79ed889317b9161904a3b437b8779357b5dd68979673c51c5cc
+~ -[HistBasedToneMapping getHistDataFromLayerV0:] : sha256 089163139c130aee5a9aca543509dfa85224525ca8748b1dbd0319a95925ff33 -> 1b20ff5ad5c38fefff6b33728a147cc01ee4bbf9909a4a557603eeb4668efad1
+~ -[HistBasedToneMapping sanityCheckAndGetDataFromHistV0] : sha256 7e6d91b3865285166482015a281cae80ba1afd536594453ccd921ae0c2787d86 -> 5227c706a5802834fce3adefba8b2f620c42feb003cfde42284e99dd35d3b46e
+~ -[HistBasedToneMapping getHistDataFromLayerV1:] : sha256 33e49e57b6f83d10c05c63752c6c720dbc44affa19c4d2f648021c56b8150981 -> fe36b04c3eacb56deebba33a17b9e8913018411be136b6376ee54d1fd21c8f59
+~ -[HistBasedToneMapping mapBinFromNarrowRangeToFullRange] : sha256 449cd04b740f534ae97b6cc1282e912134be322ca23a869eb58eb653f02bf842 -> 9c5461b581b5267d2aba23a27a2d90a110a4a27f1e569adc8a8ba116923b0393
+~ -[HistBasedToneMapping mapBinFromNarrowRange8bitToFullRange] : sha256 337c18854b0a1afde4842c5b142996b3a179a5d25d47b5ec6bdc0e2fb29146d6 -> 267f26687316b8653cbcded5f3824854a8c0cca8d0e0a762f0270f5c8bd9d026
+~ -[HistBasedToneMapping normalizeHistDataForHDR10Input] : 164 -> 168
+~ -[HistBasedToneMapping normalizeHistDataAndMapToPQForHLGInput:] : 332 -> 328
+~ -[HistBasedToneMapping normalizeHistDataForDoViInput] : 80 -> 88
+~ -[HistBasedToneMapping normalizeHistDataAndMapToPQForSDRInput:transferFunction:bitDepth:] : 424 -> 420
+~ -[HistBasedToneMapping normalizeHistData:transferFunction:videoFullRangeFlag:bitDepth:] : 368 -> 372
+~ -[HistBasedToneMapping computeFrameMaxFromHistData] : sha256 651cbc9cffbd631232274a8e41a633e47e704105cdced67037c3c79c23e26031 -> 7967151aae3aa8c0f8f685f15c121434943dd2f2fdf99fb1776403e1518b8aa0
+~ -[HistBasedToneMapping computeFrameAvgFromHistData] : sha256 4cac3068a09d72a0b197f31fe137721fdb7b955bd91cc3205c3ee3d1371f855e -> 97553bf6a7b477a0c86cf5bf6f3dab746e5b86a2da241bd94a92316e060dc530
+~ -[HistBasedToneMapping computeFrameStdFromHistData] : sha256 0790d945c31667e7f6d24750a5b33b1a5fba4337735a24c1959564e026b47005 -> ea66152200edf908c692d063cfae3d807f8084dc16afca20ede6b59726e0b846
+~ -[HistBasedToneMapping computeFrameAPLFromPQHistData:] : 528 -> 544
+~ -[HistBasedToneMapping computeFrameStatFromHistData] : sha256 1ae841480f30ec16f0d88ff68d06e74a3f6a754b6e089eb9c80b0c8a30b3f716 -> 067539904114dc06607b6ecbb095d22fd2a5228547efaf2b988bc357f92450a0
+~ -[HistBasedToneMapping computeFramePrctFromHistData] : sha256 940e368ed3b60fbdef70b6628dfcac6d88f8a33df864e6c965336a2db4d7f434 -> 1f67d8b7fa23a5263c562b7e7fdcff663ec64c0363879ba4941638245962225a
+~ -[HistBasedToneMapping testpatchDetection:] : 668 -> 672
+~ -[HistBasedToneMapping findStatLinkedListNode:] : sha256 658007e5523e3ab11a7574f456d97da451765961ad8b78265223a6d5d28b3b10 -> 4cb5b875add6481b03ae7cdbb7018b9a59cb51bc0fc82c93a8659d4b6e35d4ef
+~ -[HistBasedToneMapping temporalProcessHistStat:iirAlpha:] : 1252 -> 1212
+~ -[HistBasedToneMapping setHistBasedToneMappingTemporalType:temporalMode:] : sha256 9f159f026ba9a035d362bd5d3fd1a3dcd5c921d17acd0b1d5ddc535d9af37033 -> 763cbdef11a3f008c56e1bccebaa816c38145ad371a08842ead73166b16f76dc
+~ -[HistBasedToneMapping getSettingsFromDefaultsWrite] : sha256 de9d07429bf50a4da136f5f3c845f9069a4597d34b417bea1ed4bf4afd1792c6 -> 2fd6afbe7880e8a6b499a7b4816cca3035845a170543537872fb7724210662c8
+~ -[HistBasedToneMapping getSdrHdrMlmLut] : 508 -> 516
+~ -[HistBasedToneMapping interpSdrHdrMlmLut:] : 192 -> 196
+~ -[HistBasedToneMapping interpSdrHdrMlmLut:outarray:size:] : 248 -> 240
+~ -[HistBasedToneMapping getHistBinMlmInPQ] : sha256 d089031b72c839e7391334bffd32da4d36d8f803ed6479aaf060f3ed1707e512 -> 710293d0fbb08ba0367ff8e4145820bc952f2c341ba3bc289d8fb798a925e63c
+~ -[HistBasedToneMapping getHistStatFromLayer:HDRMode:transferFunction:videoFullRangeFlag:bitDepth:temporalMode:iirAlpha:frameNumber:] : 1092 -> 1100
+~ -[HistBasedToneMapping debugHistDataFromLayer:] : sha256 7b2c481ef50069d2fe9cc5642b53505a455ba688e9771f648b0dd26e53d7731b -> 0a4173b807fec4f8672424d917efe4567b629b5357c35e82fd4a5a3f38705b8e
+~ -[HistBasedToneMapping copyHistStatFromObject:] : 288 -> 272
+~ -[HistBasedToneMapping statLinkedListHead] : sha256 a5ee636af802ea7f14aa272825311aec90193b038a80d93ae4e383b310d46da7 -> 3e9967e929eb783cefeafc200914fcd7a768fae231b191af43ff4236e3f0c57b
+~ -[HistBasedToneMapping statLinkedListTail] : sha256 89443e4e572f43c274dd1a5ae161fd8412fe77eabf99843a9d93eaf8ce92beda -> eb3570da5979308134f1d4bafa0cc425925d98ae699dac7c72652db3bc48db83
+~ -[HistBasedToneMapping statLinkedListCurr] : sha256 8d7d04d1903f9ad862bc9d78bf312f2c656a90c241bf0db19f3642e39be92493 -> ce1264a3c750dc774796d260928079c2a2f1e2681616bd86247659292e48571c
+~ -[HistBasedToneMapping .cxx_destruct] : sha256 ea2b33c71fdef60cc69379a76ca9fae24564e7f026ab7a6ba8289ee53722bd55 -> 2ef13621e317e37ea25587eb2857823adc7657687f632c884551981d8d284856
+~ -[MSRHDRProcessingT5 init] : sha256 95849c787eecd164a7e6649972f3c01a491e26faec826b9441eb3bef17218a19 -> 9b5f4b184453dacf1c67bd7278b65337ac1a6b55856d6c9ff66793a76373bf97
+~ -[MSRHDRProcessingT5 setupHardwareConfigUnit] : sha256 e7ad0df3a5b9dfd5d18ca06c3d50465ca01f6c26ab02d724043d90352d61cdd7 -> d9f534efa89b4a3308a8995c66519c234737968142dbe352cf86d4cc24c2f62f
+~ -[MSRHDRProcessingT5 getDegammaLutInput:] : 92 -> 88
+~ __Z27getCurvatureDegammaLutInputPf : 92 -> 88
+~ -[MSRHDRProcessingT5 setDegammaBuffer:Buffer:TableSize:LutInput:Type:scalerForSrgbBeyondMax:InputScale:OutputScale:] : sha256 0051806a6aa47f319793a38ae7c7a91347341b51a8d51abcb1b2727e717f52d7 -> f96bd3192b529247eb3bbd661a7d2035d31f73694c57f9f2d3578a910470304d
+~ -[MSRHDRProcessingT5 populateMSRColorConfigStageDownSampleFilter:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : sha256 ad1a50b86a2bac080f13721f066050b7322574a0a849c8af8c755cc603282567 -> e8b62f4e6b969922d11ffb2c8cbd23060512aa446a85c0e1e952a30f815debb5
+~ -[MSRHDRProcessingT3 init] : sha256 52fb40f8a4f22bdcd064f4c9f8b8d14f01317f76a349e25e4b53ceaf354a98f2 -> 13c1e2bcee7b511fde07afd29ec052e1638cbc306314e0922b7b53f0480b78ce
+~ -[MSRHDRProcessingT3 setupHardwareConfigUnit] : sha256 7a335b3c473abc3e3c50f4fac52d2165302032b24b74357bdd5a7a830736ca13 -> 852c1cfc0efcbbdd22ae23181e3510f4a753d29e1bb42957565759bed114ec92
+~ -[MSRHDRProcessingT3 getTmLutSize] : sha256 dadcbc63eb848cf2a273e2f3f34980e377a56613f502ddd2e983f75e4a6c7cfb -> 54dbaa13b8a5aaa78f5f441c0a1a9d7680336ac85716538eebd1774cba1d0de2
+~ -[MSRHDRProcessingT3 hdr10_getTmLutInput:lutInput:] : sha256 009c34d1c9569a00eb32b21c2dbece0ee49a221e47266e7c3d8f1a69297b145b -> 1aad8493605d3977bf7be844df31de1eaaf8ba5b99553b2b0c72bbdd6a468b40
+~ -[MSRHDRProcessingT3 hlg_getTmLutInput:lutInput:] : sha256 3b38d5fdaa895198a81f19bc654ecae6c3bfc6f58a785ab98229fbf03e5c7d16 -> b498a4974e9a0b914279f420513cd3a76210248110545d07283885ee2c26de7f
+~ -[MSRHDRProcessingT3 sdr_getTmLutInput:lutInput:] : sha256 4f5148c0f17fd527e949b8a38667e269dfc6b68813906272b3be1134d80b9a4a -> 08e011ef3f5686045a064db69cdc073c8b662f277161ea0bc44c2b398e474c0f
+~ -[MSRHDRProcessingT3 dovi_ootf_getTmLutInput:lutInput:] : sha256 ea4395b46a2aa1d5ea32609d63b5d6ed9ab1cd24867c5d9e6639a37145b5d3ee -> 8c71cef71017746d495d074d0e7639098422884e15906d4dddbaf745df4fa9d2
+~ -[MSRHDRProcessingT3 smpte_st_2094_50_getTmLutInput:lutInput:] : sha256 24b0f0816c405c719b014e146e7efbe683ad510f47e319bdf3f9b5cdee2e058a -> 39252f89e00c108b2efc95010ab6fed0c9d26c539c730181244836a1538f4aed
+~ -[MSRHDRProcessingT3 hdr10_tm_updateLUT:ScalingFactorBuffer:LumaMixFactorBuffer:] : 316 -> 312
+~ -[MSRHDRProcessingT3 hlg_tm_updateLUT:ScalingFactorBuffer:] : sha256 9c9c855dfb437ec1f8a5f279d26904b257c188767c09f4c66412c33bd1561c93 -> 84bf37331613998026a348be47c545edf19cf5f73a0ed81a93327f791cdea91a
+~ -[MSRHDRProcessingT3 smpte_st_2094_50_tm_updateLUT:ScalingFactorBuffer:LumaMixFactorBuffer:] : sha256 f2b63097840a8404a6d2bc8029c4533e8dfe3212cef3ee4e27c75a746df4964d -> 996a543759b806ba85b3176234c9ffdfd99e9720e681baea6837796d74a1c1ce
+~ -[MSRHDRProcessingT3 sdr_tm_updateLUT:ScalingFactorBuffer:] : sha256 3bca7e24be036f11c64a41a7a5a9f58b339c4f035c9936b1a9d35351e1d3e293 -> 0c9041037bcec5a70bf83916234dd27836cd584b0f1d0832a4f21df273a9ac6a
+~ -[MSRHDRProcessingT3 populateMSRColorConfigStageB02HDR10:DMConfig:] : 816 -> 828
+~ -[MSRHDRProcessingT3 populateMSRColorConfigStageB02HLG:DMConfig:hdrControl:] : 972 -> 968
+~ -[MSRHDRProcessingT3 populateMSRColorConfigStageB02SDR:hdrControl:] : sha256 14c5fd259576636f35f4116dd352e705133ac96a0f4898b949fdfabe54b826ff -> e1220378ce417434591c236b6ad9e278c3ef7db8b22e5bc2f6a152a6b9b9fe28
+~ _L2PqNormMR81 : sha256 0134d3b834b720357ef5d021225aa2a4ab8cc808e3e12fc977d271a64d53bdc7 -> ea774c266b9aa977b3f3c30234b015c9b6072e502e2ae9b825c4dea7ac8cc158
+~ _GetPrimariesPtrMR81 : sha256 36490929f4ef2ce784f0500da10e8d22138c7cfaf6c4aa581cf319f373216ec5 -> 683d30ceb83e5908812356a75e173383c1b7ee47148f2800315a4f476ff6cdb6
+~ _hdrpMrToneCurve : 268 -> 272
+~ _TmDm4 : 444 -> 452
+~ _FindChromaDist : sha256 e9751d09fc5312198f5dabbe22c8ed1607c1f6d52de4401e257fca57458c0a42 -> ae51cb24daa6f5ea0e4f56ebc64f815ab4bed72eb906bf13e50c0eae6666282b
+~ _BuildInterpInfo : 536 -> 532
+~ _TmDm23 : sha256 7f3b4b263b303b5c6cae49bcd90f6075e056adab2b12e43b91158f77839796c0 -> da02fc1f4866e606237bca5e72266cc9f26e1d3ed03ab92bf85e34745e18ef97
+~ __Z17adjustMidTone_dupffPKfS0_iiS0_ : 544 -> 540
+~ _dovi_calculateTonemapCurveParamS : sha256 2d6253800d2a8f27db229298799551b2e9f9177209b887d66f585402a357f60f -> 9737ed09f45b0a51763c378e85da34f265d96a76ea52f5fbf1885257402e6c9b
+~ _dovi_applyTonemapCurveS_NoTrim : sha256 6511ec0a824d8e5f1d1b80f4236792fb28b11b78cc76ff74482976c0605b73a6 -> c7afaa76cad510c926fb4d6294b9229c5274916766e6f4ed65c1a0edc60213bf
+~ _dovi_applyTonemapCurveS : sha256 86d72d47bce0f43657ab8fbc1b64a1381a1435332fdceaa2c91f7e3f74a3e68c -> e547b24df19a61723d98f1de23660ff42c00b889f0133b69f8cbb2b4ba6388fd
+~ _dovi_applyTonemapCurveS_NoLS : sha256 61a6cf6a894b7089be76049c9c1814080bdfdab600c049371c4c9f1368f5b011 -> 31c7f37844efb1e25722e52e8e3d7afa33c69a736b7e4cdf3b362c8711aa8a56
+~ __Z27dovi84_applyTonemapCurveS_CfPK11dm_config_tPK12_DoViTMParambP14DolbyVisionDM4 : sha256 cf21dc933f50f5acb450956cb421b3290be0863823701a278b9c2cf59e29c9f7 -> 719c8c05fbfc89a71571b93609fe8570ee569a2ec31d3e67ddf8bf35fb6b8f80
+~ __Z27dovi84_applyTonemapCurveS_LfPK11dm_config_tPK12_DoViTMParambbbP14DolbyVisionDM4 : sha256 9851df53375cbe2ad028673fd72bfefa888a0954ce66cf1b8af53ee1eff788ee -> e863bd8b519507634c45630045697ffbac70001718e1c40e62541a999c6ea465
+~ _dovi_generateEdrAdaptationDataS : sha256 a37858b447150c633eb2d97ce0b5b8639e0f23ee18dd6ca117a81ec2146b601f -> 5d17f07eb4d74e322efb17d2b1bdec6ef2262270633a626c2cf3776273d9a1d8
+~ _applyL2Trim : sha256 4262b3e7c1cd68ee250c94556c066fda7a7a64a79c9af02d97eba9230d2757e8 -> 721ea24b28ad9fe7693ed80d45fff6fb82bf27fc1bd973b64934cdf9792dccd6
+~ _dovi84_generateEdrAdaptationDataS : sha256 a79c74fcb195ab006da376ac20109041e4fa95adb524bdc76b09ed94307e754c -> 117e6b3210752efa2aeedcda7d54781194965b6296b465b37324159b2d231542
+~ _dovi_generateAmbAdaptationDataS : sha256 4d6631acdee12a6e4c04a9cf05cba8728dd6a07fb6719599fafd65017dbcab45 -> 4de73e6ec1b13674959acb98524619d437d723798141daf053c90361b33f8614
+~ _dovi84_generateAmbAdaptationDataS : sha256 53b5668c024f7dd26f86a9430bfe395c9f4f5fa511a08cb17b21503c8a5357c2 -> 98dc0bac7b95f53c58ec2beaad1eba12599bd9381d23766946af83ec84c52cc4
+~ _dovi84_generateSceneLuxAdaptationDataS : sha256 90a5fc7e8813aa6c67d1504d0c29ba19410f8bc6ac1295c14e3ef1a819225724 -> 76ea9c5c5a93ea3d4680e7ae7f70f1b7cd660c70a570b74c49c1340fceb45158
+~ _dovi_getScalingFactorS_C : sha256 fd1122f21c9394dcd49af42e593744d6c7f21844783446d77bad72ab0342e19c -> d0bd47e40232896d13b42164996d25b6f3d5949f409cd4d665dc630e4a81ba8f
+~ _dovi_getScalingFactorForPTS_C : sha256 5638240a972eb6e13bb1bbd90da076074fdfdc36b72a2ecadfd08572bae4a1f1 -> 3eaca315d3ea273be444dd04ffaad1d531e0e0dc07a86d2fa67c1d23a86cadd4
+~ _getMesopicCrushForDM3 : sha256 b0d2cd73c880604baa924a04de0c87d1821dd3429ef74c89bf2b5ef091d7c7cd -> 0985859af48e720cc4bf667597f580f3149d34ed83b28fdc3ab89b2ffcaeabb7
+~ _dovi_setScalingFactorTableS_C : sha256 7d15fba1bd3e4c006ccda3ba19bd1694c07a4edeb441e167189ff06a3adb9238 -> adb988ab6dd912fd29726e6127d9a3ee20693abd84143297a446603d4c4d3fe4
+~ _dovi84_getScalingFactorS_C : sha256 ac270fa7a7307d1656ee966f773eb0bb7848f586dadac93f6e1b0c9f619d18d2 -> 4956fad575a2fd97f45a4e73f73b87e223b909b0ec0a68c0c943fd90d23bcfbe
+~ _dovi84_getScalingFactorForPTS_C : sha256 83695e4f3e852d059e73a3ad677fa3644296ac6fa129f8515fac4b780965f226 -> 8312f152ac445e5d25e4365bf6685524f1a8cd56ff9e073a638e477c7205f47c
+~ _dovi84_setScalingFactorTableS_C : sha256 4b570ed9b0efd8c3d801f6edde03248cf70d2ae170c07b5e2b8d499ea644799f -> f1041f2c458432d50ad94ea1cd88f77c70aecec99a0de6c728660431e4f81508
+~ _dovi84_getScalingFactorS_L : sha256 5b5a8282f5f8d2c4aced698228e1b793875dd4a46976336fb337fb9c4c4b2dd1 -> 4d568fd7bc6ccf1afc9817bbfa8b801dd8d35aebf9d17563bceccc3579812de8
+~ _dovi84_setScalingFactorTableS_L : sha256 3f91af71e721ad9c5a232fe63124e816839902b949dc8aaea9bf02eb115e0621 -> b325165cfb73ba2a54193c49025284aac60ae0610a3cf6bb4aab57f92d0af620
+~ _dovi_setupTmConfig : sha256 34a7b7ed427074d3b67d01241a02b70f0ea3751d380e78436f596e64670a90e8 -> 461aee43fd215499de071436d7651accc72766f05a915546c7ce5e137698f9a1
+~ _hdr10_calculateTonemapCurveParamS : 12396 -> 12388
+~ _hdr10_applyTonemapCurveS : 460 -> 496
+~ __ZL42hdr10_applyTonemapCurveS_C_BezierHDR10PlusfPK13_HDR10TMParamPK14DolbyVisionDM4 : sha256 d3b2be9ccbcb655577c6883b47a3f9f3b7356df4a80215d0d4b3b655dfbb7705 -> f1cfc4733ca430e4405d745d7bfefd5f4683248aef0c992d19e36ac9a44936d9
+~ __Z33hdr10_applyTonemapCurveS_C_BezierfPK13_HDR10TMParam : 220 -> 240
+~ __Z37hdr10_applyTonemapCurveS_C_Bezier_absfPK13_HDR10TMParam : 212 -> 232
+~ __Z38hdr10_applyTonemapCurveS_C_PolyGenericfPK13_HDR10TMParam : 368 -> 376
+~ __Z34hdr10_applyTonemapCurveS_C_PolyStdfPK13_HDR10TMParam : 220 -> 232
+~ _hdr10_applyTonemapCurveS_C : 572 -> 592
+~ _hdr10_generateEdrAdaptationDataS : sha256 4afaaa144de302e7746d04eeaf09ea87dd413c8931203aa53e4ae0f51645e986 -> 21bbc421ec4c1e9117310e2af1b3a72de8ec69d88fc168930195230305062481
+~ _hdr10_generateAmbAdaptationDataS : sha256 c3ea09fd37075ef5b88d8fb59ad8426eaea31670838ae737eecb35da2d442652 -> 5ca54d43ff2a92c015414f17c40a490386038e0302e6ed9506e9ff0d387faaa8
+~ _hdr10_getScalingFactorS_L : sha256 dd7dd59118a15007f521ecae4c9eb74a482c0820d207137341dfcc1e6958daec -> 680e5784856debc85bab86f3af1ecb4e46236e5aa2b00f1bf413caa95a410ac7
+~ _hdr10_getScalingFactorS_L_NormIn : sha256 a115206f8b11f37b21c58c16394623ddf848c01711f6745a0ebc29bb829d1b60 -> 329f04ba9f7c414cd551404985d284d45a4b5723eb334b25731155e990764b62
+~ _hdr10_setScalingFactorTableS_L_NormIn : sha256 df80e931a37b195f083131f0495fe17fe8c817d5e5cde19bcb52c191f4cf4c3c -> 0d857fd936e3c8baa06b9b25b15683bb8e68dcfb4d5a650b158721246d56d4c2
+~ _hdr10_setScalingFactorTableS_C : sha256 6a82481a3bcff87a2b70b4cec64922516819cd17f8d7d466929afd135e349949 -> f119b25f69c7054543525b39370335e7897ffdeed1a0c46c30a6064ea27d3f3d
+~ _hdr10_getLumaMixFactorS_L : sha256 38f60976c837ed954e233455dac832393f5ee87656b1978c20ed3e3e307a1e2a -> 1a417e7830c1f40181522b0ad9ad245a2a2b394ef23761f0391ce9568f6ac8de
+~ _hdr10_setLumaMixFactorTableS_L : 152 -> 160
+~ _hdr10_getLumaMixFactorS_L_NormIn : sha256 e84eae380145232d89e42ca97d3fb00c2d7948e541085221d55e05f0f824c143 -> 5b758b45b486293a81339b4e81cc4ad76c1d279e2a440adbcd691af4e59f2f3a
+~ _hdr10_setLumaMixFactorTableS_L_NormIn : sha256 3d4fff3a5e240c042fbbe74dd4fb18afa61a539a616bb31edc6cc2c9270cc980 -> cd7dc19047b451e6a4dd5a8ed70b3899ba8bab503156cc0172bd4d515f38c451
+~ _hdr10_setupTmConfig : sha256 0b936ea7a81e3b71ff2e4d7891e4bda452b4b1a55f1abe1476fa142ee0c43e0b -> 61274ae0b9a2c3b1e07e4d460ded6a43348e7de8fb9ea159976d33d65ebe36c5
+~ -[MSRHDRProcessingByCapabilities init] : sha256 55a7a6d865b8e42494287334e7b38e40975996c5ddc7d9ddce4ddee7234308c7 -> e19afa899702bd3fe8a576d739a9c64be883178a35912b661732b958809ac3fc
+~ -[MSRHDRProcessingByCapabilities setupHardwareConfigUnit] : sha256 26f9389fcd0cf5feb0b7a4a973fbcd86de1eb69798624b5b979ab2e333c5eef5 -> 249510830d608dbda898b66ddb005d57806cc218c308a5ef89ec487753cdc45f
+~ -[MSRHDRProcessingByCapabilities setupMSRPolynomialTableForHDR10] : sha256 a7003f3b18a13b8ae6241362a21fdc5dc5c104cd5a29470da0b3cb2a4d499702 -> 91a34f8c60fab979d24dd684c93a25ffa19bff83e1b5c1204070c9d05be974a5
+~ -[MSRHDRProcessingByCapabilities setupMSRMappingTableWithMetadata:] : 1044 -> 1028
+~ -[MSRHDRProcessingByCapabilities polynomialTableScale] : sha256 103e6dc950d89e6d56479b82fd6068484fe0d542683bb5ab7e8817de15606923 -> 5b3a2f291807f5468e0af89c8be526f5c5adbba37c84541777054261f83ac09b
+~ -[MSRHDRProcessingByCapabilities updatePolynomialTablesForComponent:Component:TableSize:] : 116 -> 124
+~ -[MSRHDRProcessingByCapabilities updateMmrTableForComponent:mmrClipValMin:mmrClipValMax:mmrCoeff:] : 136 -> 148
+~ -[MSRHDRProcessingByCapabilities updateMmrReshapeChromaForComponent:mmrReshapeChroma:] : sha256 2b2ee7e856b2033fba590c77955b81ef43e91efe7bf400efba8defe0aacff33b -> 467eb88a20b997ad2450d7857cdd2aea70ef36fed8485dde8fdc2c092792aa16
+~ -[MSRHDRProcessingByCapabilities getDegammaLutSize] : sha256 291e4f6e61178d644aabb958753abc41c30c701a056084ed4d26831cf18fc1a5 -> 6d423ce0667e331e85e163f264baf42defc194de12cbb978bfba103721f3c9cd
+~ -[MSRHDRProcessingByCapabilities getDegammaLutInput:] : 256 -> 244
+~ -[MSRHDRProcessingByCapabilities getRegammaLutSize] : sha256 e2cc397cbae9d1685dea14f040c40a1bfbea0cefb0141149c1f79254e0d47874 -> 1c80a1e5154b175b99167f41184c108a60bff630bce69f51691e199d5fb598e1
+~ -[MSRHDRProcessingByCapabilities getRegammaLutInput:] : sha256 59ef29cb91cfb66f496f05d1ee128d0ccc31be1b859928aaae1156b717c767f3 -> 37c006d567c0662d4f87de29c42d917f986a56039ffb60ebdf1b19385b12d8b0
+~ -[MSRHDRProcessingByCapabilities getTmLutSize] : sha256 ff9931d128f5c6deeb79feca4ea8af778a710d7d6eca0c970ff18a507cc3d397 -> bec812488fa209809a7bffc9676eb64cea147ed0b743562520fdb180bcdad900
+~ -[MSRHDRProcessingByCapabilities hdr10_getTmLutInput:lutInput:] : sha256 12b7f35ca16c0decb1fcdf6873b7515d8783ee63a27bfd8f2f3f9e14637fff9f -> 545bd81c939f6274ee5c54dc0f47c24ab66c5bf1fe69910734bd9a0741fc7ad7
+~ -[MSRHDRProcessingByCapabilities sdr_getTmLutInput:lutInput:] : sha256 bead4a444b62ea3dd29acfd0e9ef3967de6dd2b231b619c61d446a3421803158 -> da819b80f9489294d93648d410acaa9dbec072609a86d630cf8c8498ac06ef23
+~ -[MSRHDRProcessingByCapabilities hlg_getTmLutInput:lutInput:] : sha256 6ac7fa02604d9cbb8b8ab212e915e92daaeb94ac65b3123976a73937e68a4cd8 -> dbf76409915bbcd5bc958c884965c42432ac071d6310c21e3a0447a4fc978917
+~ -[MSRHDRProcessingByCapabilities dovi_ootf_getTmLutInput:lutInput:] : sha256 436c30aff7e3afd652301565e3c50169985ee412ab15478230591a496fb4676f -> 415972d092a533dd4c82205f40859d8919485684ef15c50da039ef1a18acad65
+~ -[MSRHDRProcessingByCapabilities smpte_st_2094_50_getTmLutInput:lutInput:] : sha256 179f57d9f4338d31b6f21684f78402bd1e2cd5718f049d607a405a92bde06a18 -> 6c57b40ebc5f8f2540d53e73f0f5fe559ffbd63b7866d3be5dd9916a253911b0
+~ -[MSRHDRProcessingByCapabilities hdr10_tm_updateLUT:ScalingFactorBuffer:LumaMixFactorBuffer:] : 316 -> 312
+~ -[MSRHDRProcessingByCapabilities hlg_tm_updateLUT:ScalingFactorBuffer:] : sha256 168fb6225d8bb18160f852dfc0b1f458f003e09d7542e6daf3571cac0a89f8dd -> 875a26e555ccd48a116d5568d7818302ec1419fd29a3b97d48d116be5a6c8254
+~ -[MSRHDRProcessingByCapabilities smpte_st_2094_50_tm_updateLUT:ScalingFactorBuffer:LumaMixFactorBuffer:] : sha256 5a315591e3fb8ba566dcf4f56941080c0fd88dbe2180cbcd52a01f438371bbe8 -> cdd8818a67402c680ff93b69d3884ccd8090628d5d34f2ea342f2c9d783cca9e
+~ -[MSRHDRProcessingByCapabilities sdr_tm_updateLUT:ScalingFactorBuffer:] : sha256 79d8556e9f4343af173f8eefcff63d8f4c8bf14f9e0d1ff9e5c07421d1a27c49 -> 3d0e67bd638496ffe4193f14e1fd2dd91044899c80a714b1c1c7f74e645d3af6
+~ -[MSRHDRProcessingByCapabilities getLumaShiftBits] : sha256 c009db447e6a963da1d73f40dce83376c93f77ff3ab90e7528259664aac326d1 -> c7dbe8121dae00b7bb9faa1d9598e6b17390d9757d1ec9c510fa15fbe6780988
+~ -[MSRHDRProcessingByCapabilities populateMSRColorConfigStageB02HDR10:DMConfig:] : 816 -> 828
+~ -[MSRHDRProcessingByCapabilities populateMSRColorConfigStageB02HLG:DMConfig:hdrControl:] : 972 -> 968
+~ -[MSRHDRProcessingByCapabilities populateMSRColorConfigStageB02SDR:hdrControl:] : 444 -> 440
+~ -[MSRHDRProcessingByCapabilities populateMSRColorConfigStageHwOOTF:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : 336 -> 352
+~ -[MSRHDRProcessingByCapabilities populateMSRColorConfigStageDownSampleFilter:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : sha256 8dcaac41316b408632282ec0cf6a7be92f0d2fab696e87044c92fcfffbe120d1 -> 199766ea22bb78916fc82051582db1cf63da86ba34cff81188ec2ebc2bde457f
+~ -[MSRHDRProcessingByCapabilities populateMSRColorConfigStagePrecisionScale:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : sha256 c6151866461d6cd4307e1d66238c31f7f9ae26aba8b957ca664fc379667ed906 -> 49d4029b69ca315747dd18f417a759a5600a32f36b4ed5d379c7828d0c050009
+~ -[MSRHDRProcessingByCapabilities getOotfLumaShiftBits] : sha256 f843b494606750c7386725fe9ad9b2e8b3317d891381963101505516f0336c29 -> 14fd6ebcbf976209eff526856f951945f1361c9eab5dc6d90cc27e13811252c3
+~ -[MSRHDRProcessingByCapabilities getDolby84DegammaScale] : sha256 84dceec6876d7820a20e70b57dc8c81748dc70d92cffb31737950bced15f207e -> cdb4ccd94cff624ea20c0d60566cbee757250d78af1b5c72b64c0907d7af90ae
+~ -[MSRHDRProcessingByCapabilities getDolby84PostDegammaScale] : sha256 ef10aa1034fb8ffa7dd502f2837dc39158ee4c3c1fbdd6f413981cf3f7ac0c3b -> 97fc9556030caed19ab4a88c85c234e8a4c49df3563402ce4d6e77c11a14633e
+~ -[MSRHDRProcessingByCapabilities getHorizontalScalingTableTapNumber] : sha256 87bcaaeb4403c0b5cb0e2ce5bb57e68fe908a9b3974b5281e940f94bb929adba -> 47b8933ad99f3b85c4c3c05693b0e760ed7f68800afc3587238b3f2fd3930909
+~ -[MSRHDRProcessingByCapabilities getVerticalScalingTableTapNumber] : sha256 8e51d494302177d2a8a5c5838860583aa1b13ce740145ad8876965412c1f4c69 -> dc458b9bc9cf0c8d2a3158c89353845a68341ff1e377eaf9afbc6fe526cecf4b
+~ -[MSRHDRProcessingByCapabilities getHorizontalScalingTablePhaseNumber] : sha256 f1e100f38447f75192a2d9e86786cb7edf3c62df3d3fcfd9a0de634b897d8004 -> 8d267a0a5d9f0411d58319d07fe67691ef6cc9c783396e6c1626a79d0a690a70
+~ -[MSRHDRProcessingByCapabilities getVerticalScalingTablePhaseNumber] : sha256 68322a5b14a058039ca200dc50b76784aa6422f311c544ca38132249862c0f35 -> b8f9b8293a32cb2be7408c00eb6ddd3dbe7204e88376cf79bba1874c4ceb8f01
+~ -[MSRHDRProcessingByCapabilities setDegammaBuffer:Buffer:TableSize:LutInput:Type:scalerForSrgbBeyondMax:InputScale:OutputScale:] : sha256 f4e3d3979b59856c6c5ff05a6198e7b8c6d3b50e392dc1bf6a4a0cc91c32a680 -> d6aee046ff7b66cdbf972f604d53ab88613b3aaa36e38668ddd54633fbf5df3f
+~ ____ZL20queryMSRCapabilitiesv_block_invoke : sha256 22da99ac41235714f0e618ae33e9e19102a9e6c21237c2de014d7c89f929409d -> 775113bd60b52d4580487eaf3f89f9fcd8e4963f04b34ba910eeddf2b2af6672
+~ __ZL15GetBoolFromDictPK14__CFDictionaryPK10__CFString : sha256 75ac26f68a5df5615ed872405d8821564cf590a0676bbb4444eb8fb4596d4363 -> 3c761fef514a8bcdaec0ea2ef79bb421c41ca074135c54c3dae2535fae05d3c3
+~ __ZL14GetIntFromDictPK14__CFDictionaryPK10__CFStringi : sha256 c0717da879063d326c9191818e6a98dad36a443b32582907d488b1d742bc6b23 -> ca737a43ba0f5561f30f7f87acc37f43c1f2cb451bc2892c8ef24fba1a9c9cd4
+~ _hlg_calculateTonemapCurveParamS : 1340 -> 1364
+~ _hlg_applyTonemapCurveS : sha256 2c77417e783955f34b4f4c4e7508487f3aee4c4f0a23d021f99e19810e00a3d4 -> a29a930788a2a8a04eee7ac97d3531baa2585e18457502e200a3ff99c71780d9
+~ _hlg_generateEdrAdaptationDataS : sha256 cc3f0fc3e4f783e9ed42bac948209ccb26b5de7653ddc4072e11fbadce2a2dcb -> cb6e22c0aad080c447e43e88676db3121c02ffa8f7b40645763c0e6989de6983
+~ _hlg_generateAmbAdaptationDataS : sha256 9d9a7bc24c032bbd41ceafbfa544795be624b9d816135270273210ce3e274a61 -> f03e8b0eb46f16fb672bc370377ee728c542cbe51ec1f1a21a67108fc6905c9a
+~ _hlg_generateSceneLuxAdaptationDataS : sha256 809fd1e9cbaa4c4b8c1f73416e4cd8e45a474c235285793842afa43ffc79feb7 -> 392f3620f8da0fba00ec36fc9e8ffe121a628a58cc1a23b474573fbabe343a92
+~ _hlg_setupTmConfig : sha256 9102948379091cb00a462f5fa677f5d87c41b5931e171c320ee397e04909da43 -> 048a1bcf854a7fcc5880dcc904b769310634e0dbfeee46680db757c4b571ef0d
+~ __Z9GetChipIdv : sha256 9a6343074783fb8bece61f520c8acce8b3ed8c10c520e318ceab3ea2b513134e -> 74c6150253b3507ac93b2baa80a687078986ddb07c7bdd492b6145b806325f3f
+~ __Z15IsGpuOnlySystemv : sha256 986b77d7ddd5c5cc688396539f544e53aa8f65dadbafe047efabab40f1b7024f -> f141b262618f0a780adb91dff5e487e3178e1a40b4fdcda9ad94d27ac1903ddf
+~ __Z13IsVirtualizedv : sha256 503786973c5bde2732e8baa5db30f6e53bf79b1c8f5eff335f7da68268948d67 -> 307a903eb0931275aa2cdfc3b9362c992a0b199b0564fcab8d6a5eed89cf2446
+~ ____Z13IsVirtualizedv_block_invoke : sha256 a2f546c0ea1ba37f14e8ced696978021705b12e4c5a39dcb198094773989eef4 -> 3ee4eaec5a5f26f9ebe96f43f9357999ef791182a3545959d6a34f1768482056
+~ -[ProcessingEngine init] : sha256 9cb49f824de3a01e09a016ba69046fb8fd152133248ed516917ab1b9a2e50cdf -> c39fa24664cfca93b8abc8b28974d1d09da7c9d97bbc11d08185f7d5b41315ce
+~ -[ProcessingEngine dealloc] : sha256 cba30dce7e3319632211f87cc0963ec856f027a5f1abf91b38f515d7e743c969 -> e313eb2b8b1c1ddbc767f5ecbb5dbc79975af5cd3adcea789b8b89b0ae48ed74
+~ -[ProcessingEngine hdr10_tm_configChanged:HDRControl:TCControl:EdrAdaptationParam:AmbAdaptationParam:] : sha256 d849306e7d1b1b7d2b3f8cd5136a1493bc868c9ad377feb270ac62bbd39549ec -> eaf5275068fdaffcf1f193fd6ddfe4f2cad84ff980c334c79ca9810c844beb1d
+~ -[ProcessingEngine hdr10_tm_reserveConfig:HDRControl:TCControl:EdrAdaptationParam:AmbAdaptationParam:] : sha256 6b2620a35f168d5cd4093e78ded82e544e50c14e65d27fc1afea3f369243aa7d -> 8a16e91bda269d724a605e49b40cbdbbc1f25d7db73db5f96232451e44a9ebeb
+~ -[ProcessingEngine hlg_tm_configChanged:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 5d181a8df79fa99dea00483c9c4e4e1dcc100ec7a86c5a88f3442c48479d4cf9 -> 98a8bad5b870a374cff0749f19db8be6a0cfe15c0371a1d531ecf74a99736bfe
+~ -[ProcessingEngine hlg_tm_reserveConfig:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 0c5f3d2ca9fbcd9bdd620f9fba2faa9ccc2693f537c9ab4b088e581b47b419f0 -> 1d88e6ce9058357ef208bbad117d77f12042f50f8fa14fd9ad3ff6b7e06d265d
+~ -[ProcessingEngine sdr_tm_configChanged:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 ce1b9a14bbd044dd855be8abc81f0185624d7b8f690ebf5b0d8ebe5ffdf82697 -> 1a5547936bcf8c5e3e250c4ec4549310c5ceb957a5f34f064447d4d6c5a8e353
+~ -[ProcessingEngine sdr_tm_reserveConfig:HDRControl:TCControl:TMParam:EdrAdaptationParam:AmbAdaptationParam:] : sha256 0af6520d5f2c80ac66e597e642eefd2a54439e47ec342f48cd3c599cb9987857 -> 40daa395c97b121ef4738ccb901f149f5558a484466331a1f3757bed78a3576a
+~ -[ProcessingEngine createLUTFromDMConfig:DM:TCControl:HDRControl:LLDoVi:] : sha256 32faffe727e5b2c6a6f8870b1aa9edf985ba1700928f06c0faf9bdd914d7c755 -> 3bc8c37f535ce2a7fdc66e39f79297b66289d288d222e4f8baccaeeddec86784
+~ -[ProcessingEngine mixLUTFromTCControl:TCControlConstr:withFactor:] : sha256 4b48674c1f04ce48db57b6a3658659fbca2fdfec9a274731424e745568016a38 -> 81012ec442e31061239eaf428c7763281bedd2a67e2b06f802e9c771898e92a3
+~ -[ProcessingEngine setupToneMappingWithDmData:tcControl:hdrControl:dmConfig:DM:constraintDM:hdr10InfoFrame:] : sha256 48f552cf64341f5d44d475a42fc65aa1a9af06682f9589caa0c384a9ed50b044 -> 1325a6914b0c3bf00ec486f9335d5650c926fb596d128a34f106c9ef0f1cce72
+~ -[ProcessingEngine printArray:Prefix:Array:Size:NumberPerLine:Format:] : sha256 347623d36e6d12c6df09aed08ab42eb9fd23f742642a527ed5ec83cd99251467 -> 622f8d08fc3d93682f5fdf67c3b06bfe4ee6576618eff556011c9cfe1e1ce5b0
+~ -[MSRHDRProcessingT4 init] : sha256 e401e91cccff6adcb320767897d86d3ea8baa77a55af6d27b2661a47195251d2 -> 817c8cd42461590c56199091cc567f8d05d5dd7b8f1be2a0aa6759eec58b9af4
+~ -[MSRHDRProcessingT4 setupHardwareConfigUnit] : sha256 c8af772e985da8834743dd62a5d19534fbc6bb85483dd3601290def63ef5fec8 -> 64654d4627c48b0379e6f05c39328bfd7ca40e387ac13b9205e7f2c4712cd1d6
+~ -[MSRHDRProcessingT4 populateMSRColorConfigStageHwOOTF:Enabled:Prefix:DMConfig:DMData:tcControl:hdrControl:MSRHDRContext:] : 312 -> 328
+~ -[MSRHDRProcessingT4 getDolby84DegammaScale] : sha256 af1079e74b4f947bca2084cd23e7a75d5a0fe930357a86cba0521ac47ca6a881 -> c5893cdb5085ae91a9d860e446dc88cbf6c32cab66fc89f4ff1592578fded1d4
+~ -[MSRHDRProcessingT4 getDolby84PostDegammaScale] : sha256 7ff9eaf0f9b32a941d620fafc03a2fdda883968a27d8876e471cbfeafa7d1a15 -> 2e1b21b1ddf87fe9f439ec348e6a8e48865c2b5c5035de3259184812ded7a48e
+~ __ZN22HDR10PlusMetaData_RBSP19parse_hdr10plus_seiEP18HDR10Plus_MetaData : sha256 c7588b00820c5e80ce0f79cacc0a1d74ee00f0af5ba642743f6450fc4d4dac56 -> 2c38692030046366e565e3c7adc7d592e2959b15a7d218050496bc631d2374ca
+~ __ZN22HDR10PlusMetaData_RBSP20range_check_metadataEv : 4492 -> 4500
+~ _MrParseMds : 3364 -> 3052
+~ _AppenddDefaultL2L8Trim : 144 -> 128
+~ _MrGetMdsExtFxpMr : 3284 -> 3168
+~ -[HDRProcessorEx generateMSRColorConfigExWithOperation:InputSurfaces:OutputSurfaces:Metadatas:Histograms:Configs:NumOfGroup:MVImageLayout:] : 204 -> 212
+~ -[HDRProcessorEx processWithMSRColorConfigs:MSRScaler:InputSurfaces:OutputSurfaces:CropRects:NumOfCropRectsInAGroup:NumOfGroup:] : 708 -> 700
+~ __Z12PolyMultiplyPfS_iiS_i : sha256 413301d2a1dd575b6f046d4d20ac0fc7c6f3b25d0da702afab8f7b3775a46412 -> b88b2fec3b66b947fd4394ea49237341ecff0a6cf04325a5f7abfa089a55b391
+~ __Z19PolyGeneric2PolyStdPfiifS_i : 444 -> 448
+~ __Z19PolyGeneric2PolyStdPfififS_i : 124 -> 132
+~ __Z19PolyGeneric2PolyStdPfiiS_S_i : sha256 0adec0d34107749160d5fff32b7f0e3de13390e562a8d35640000ecbd1d777ce -> 059de7f0c09a56874c903d767cfde09538c33cf792e005eb8cf34a126aa6cdfd
+~ __Z19PolyGeneric2PolyStdPfifiS_S_i : sha256 0450b5e7e8abaef6853a81fd3f48bd15d4af3e0cfdba11442e574e17458395e8 -> a0ef3250b0ede2d2f1a849a485b50341d18683e8fd79cb6d00c8719fadb1ee59
+~ __Z16calculatePolyStdfPKfi : 128 -> 124
+~ __Z20calculatePolyGenericfPfiif : 148 -> 144
+~ __Z20calculatePolyGenericfPfiiS_ : 212 -> 208
+~ __Z20calculatePolyGenericfPffiif : 160 -> 156
+~ __Z20calculatePolyGenericfPffiiPKf : 216 -> 212
+~ -[HDRMetadataManager init:min:] : sha256 aed8a251f26ae02284f651298d7c2f1274a55229a5444a529a6b4f1e0a3c38c6 -> c35ddfe56f8fd0fbd8e95afa2a06f1a15cf7915036cd6631d37b59b802b051ea
+~ -[HDRMetadataManager dealloc] : sha256 4f0d5f77c17f25c28213719b47ff1191116cdbdca78db8ee6cb05619bca52c8a -> da0bc416f3b2bed98dde60b2aa6f17cf7800fa92ca2bd130f87d69caec73641e
+~ -[HDRMetadataManager multiviewAddDoViHDMIMetadata:width:height:priority:] : 2288 -> 2232
+~ -[HDRMetadataManager isSceneChange] : sha256 aa1a62e3b59000e4399c7d656337a8c04fd3b29b38774895684e365e0cc6f372 -> 3dd467f1cb1c84c1e4d8a07210741082b785d7669d437ad0658f30c91b190f29
+~ -[HDRMetadataManager multiviewGenerateDoViHDMIMetadata:] : 4440 -> 5508
+~ -[HDRMetadataManager multiviewAddHDR10PlusHDMIMetadata:width:height:priority:] : sha256 37ae4eaa6a42b3ffcf30a52c58dbfb66c2a4ceac35329a90227588f5ba3f9286 -> 79eca1b751de9cc6e9a4188f31dc0c8520e2aa62cc7f4ec1bac5c1572399d9dc
+~ -[HDRMetadataManager multiviewGenerateHDR10PlusHDMIMetadata:] : sha256 603be4a4931f589de14d29715b4b2a1961c8e18ba54a266eacdabee1c56eff80 -> 44b5ae85ff18df7e461d67ef85710041401edf532a743090a9f4f1595b081fc0
+~ _dp_srgb_eotf : sha256 be01a31220bc665e0b4f4b1a33be3341d21d441fd90b79aee21cfa3aa6d326b0 -> 3962dbf358a51125a34ed2942480647deadccae3869f0cb4a4a750ca23803afd
+~ _dp_srgb_degamma : sha256 8f0c5558e1cdad4a3a6cd755f5dab6e133df2a2a41c082d949ee56482e89701e -> d97eed5302dbc03b612f0483df0f516b376738756c460094146d05f26248faca
+~ _dp_srgb_oetf : sha256 6a530ae147437fec7af70cb6506d31e031beaca68cffb96c6cc2156484ab54bb -> 6be1406fde0ff863d68fd34fdf8834a2504119c3e30d74db3b606067d84cd3b8
+~ _dp_srgb_engamma : sha256 68757d20eccc22cb7c63c4ad77a03db9551ce47c63cf0cfc763fb2bffd444b78 -> 060b9d154c399ea9181106a55edcd015e98b44ab2de7549bd0955e76b8d7ed92
+~ _applyGcpCompensationS_inEdrDomain : sha256 d822e299b5f87c3fed19a1cb5d4321cafc856f160b52e61da659edadcae67727 -> 045761df3ede3db437703f17d839dbcebd83e3b2f218f424de23a42a6c23ea46
+~ _applyDPCompensationS : sha256 e1451087d6a6348d7d236fd2bee2fc98cfae5d6d9ac89ae098ba91bf6f58d16d -> de2ae8972790cb6751d82df837fb27377a057a8195a135b1dba5a03975ad29ef
+~ _applyNonHeadroomDependentDPCompensation : sha256 621a2d319554970e8b115720353b820184d4ba3843b778e025b20daa9bb28008 -> f89f1197110d137e127656a4e3ddaebab381e63335bc29ba525a232d4d786b66
+~ _setTargitBrightnessInMetaData : sha256 f8b0f9cc00a4d46bd0bd7e944a36282a71f7153479a6c4f44f873f59081c0c70 -> 7703c36b35b4c5c7d8df36ee89be65f37da516c0ab91ae1d64a16ffcdd00c130
+~ _adjustL1Meta : sha256 e8fb8471742568a92b4223fb1cda4ab8c7aeadd977ca87a06e83ed2012cf86d3 -> 6272ab8f51e4a12f0bf9316daead1dd38cf6fd18a0bca33127e21ff7641feb9f
+~ _adjustSrcStatForDM3 : sha256 f9891388b4302a9026ecc41e66fbcf84b5b5fc7f9e5d5fcda09432e9642efc31 -> 769121f943ed6e8bbffe86096da5037b149f609e341cb166cb6e02b5709f0757
+~ _adjustL1MetaData : sha256 292d6bf20ae41b2df88b063f800eefb7d2db1e661e07c6958e3aa21ce2e64fa4 -> d06eff4ba40b91e2f4a2eb70f303646ce5a470117a47fc22a6a93d8d5883b496
+~ _adjustL2MetaData : 720 -> 724
+~ _PacketizeMetadata : sha256 29477c8f6811423d2b8d4a92b9bdab9ed87b0ac62d2d3fca3e6f199b76aa9ef4 -> a81735fc650b0b24414f3acd87709137fc9a2a421053322764550b4de0abbb27
+~ __ZL18modifyDMMetaForIPTPvj : sha256 a381895a0e94680cc53efca741186dfad151ea2e2a971fbc931e21e7b626da5f -> 40e2fff52c89a0559819cb5685ee2079ea70d693177b63e68a34ddd2d1066895
+~ _PacketizeMetadataMSR : sha256 2e0ef3d1a26f208ac6815e56fc6e8b277a6293489c170ff52a9dc16e7e988a87 -> 2639c7fab7f15c71d7891e3556b5fb218c8d77b48c3c8f1d27a1ded0b6511695
+~ _Matrix3x3_invert : 364 -> 356
+~ _Matrix3x3_scale : sha256 6959082ae3d89cb706c2bc81b892ed4f41ea842b109cd17e99f18a164c457b8f -> c8da310709194fa4c88818a0169c0db0c65d6f2fa68cfe6d58035201dde08417
+~ _Vector3_scale : sha256 d3752352329b5febf7d682c54d3bf2458518b5c1edbaf66909cb1c1aa8c73f1c -> 86a815df71a21689feb4caddd8d04c647c501bed29aa8223a31553ffbd0b57d9
+~ _Matrix3x3_multvector : 72 -> 88
+~ _Matrix3x3_multvectorDbl : 72 -> 88
+~ _Matrix3x3_multmatrix : 136 -> 140
+~ _Matrix3x3_multmatrixWithScale : 156 -> 160
+~ _createRGB2RGB3x3Matrix : sha256 88709cb31bfc85c19b0e94698c7eb5e52b844a38738f23c74217377498abfe25 -> b7cd5cac7d12b56f0ed9e7eb839069e2898a1dc7ea9d6eb3629c15185f232270
+~ _createRGB2XYZ3x3Matrix : 332 -> 348
+~ _createRGB2LMS3x3Matrix : sha256 d0445a17a4d05becc1f83822486f30728b27f181b2dca0c83205c24a29e41201 -> 52c80d22df864a4c855338d80f91896014bc7df0ac141f0c7e0de3354675cf33
+~ _samePrimary : sha256 8dc5806a6e44b7a4b2237424b45873214513c9e8eec868698d50c1ccbd496a5a -> 726b00849926c8f8c41252df17cd707e163d600e8dfe85ca8e59797e35ee7f86
+~ _hdrpConstructL4 : sha256 8146eaa11d1e73eac6307fc0e3211617f33f24764b7c5e06d5d0c2c6f910f616 -> 5bcaffa05c33f783ac5aa2bd1908589b638dddd9938a8eb085cb877d19c0c784
+~ _hdrpMetadataReconstruction : 5836 -> 5752
+~ _GetYuv2RgbM33 : sha256 fce41d09784edf03ec2f5dff73796426c4afcdc0e3ff5d5cfaa06bc8a1c5b7bd -> 4d96f50e84a4d76146739d17d6f8b71139beb7befe4c62667130d7fb07f9656d
+~ _GetRgb2XyzM33 : sha256 708ee7d61645f63a1e4c0f5fe56d1cfbc145c875541d2007c43ec4ec7ce884a6 -> 0c700b7638f57bbf4ba7f6303a666e9b35334c73c678deaa8d5fea5dc55551aa
+~ -[DISPHDRProcessingT1 init] : sha256 81aee92db5dc65081acffcc7fd9d3ce7bdd04b869a91343bcb066c7c2ad2332f -> 09f7e60f79474b10828dfe6940a9988e65aa9b2293f43ebc0144a42e1553e155
+~ -[DolbyVisionMR init] : 308 -> 316
+~ -[DolbyVisionMR metadataReconstruction:dmData:maxDisplayBrightnessNits:targetMaxNits:targetMinNits:displayPrimaries:baseMax:baseMin:videoFullRangeFlag:colourPrimaries:matrixCoeffs:numFrames:] : 6544 -> 6628
+~ __ZL18updateComposerDataP12RPU_MetaData : sha256 54260d1bf9298760c837d18b82724400922448194e1eae495dea5fa719d4e430 -> c6cf7358534aef663de5c8ec43770c03d08491d854ec152ce43a80330867d044
+~ __ZL29invalidateDMDataL2L4L5L6L8L10P11DM_MetaData : 248 -> 272
+~ -[DolbyVisionMR dealloc] : sha256 6d3bfac7d81c643a16807342da9158f0ebecdee8b66771b9988400b637596916 -> 3b4f5174b5a9befce891d956077572410bee767c23f5ae00ec948f8ccc295379
+~ -[sdr_to_hdr_histolutInput initWithCdf:] : sha256 592e870d09b5a9f8136098bd3c257eeb67216dd4142c120580a172313cc98f6a -> ce15b60ee8c0dab943ba355f2f03afb79a0f69534001303ee368f5e2ea45e7fe
+~ -[sdr_to_hdr_histolutInput featureNames] : sha256 a5f82e605f1eb7b5909e42e35e1aa8528acb3aebcd0dc57b981756cd6c58e292 -> d166d031b20712fa38f828558ab715c7ae833a91cad45f9bed39b76c2a4947cc
+~ -[sdr_to_hdr_histolutInput featureValueForName:] : sha256 b15c43df507976e7a582fbc20f946e5775228f224d3ca1a6d3c863d2adc468ac -> 54e87237b5a8cab7590df9e786064f992b291ac5333aa9884504bfec8bb7f7c2
+~ -[sdr_to_hdr_histolutInput setCdf:] : sha256 7605ebb27388a6750f094df77d95fd798efd876c0c5748134105c9b41190b6f1 -> 08abcea85bd7f739f391522b7ccbe6a06b8fff725296527b7b6f321c15a4dc15
+~ -[sdr_to_hdr_histolutInput .cxx_destruct] : sha256 136c42e85cd18f82067c147efd9a18ace18ca5e97b42bb853e30c4b0247efc06 -> 7bde985af0c296ef2e77b757a9b2344a8cfadc77c2aba6c11769523c325b8416
+~ -[sdr_to_hdr_histolutOutput initWithSdr_to_hdr_lut:] : sha256 4c38837f67b6c8c3be2e1f68e9832af2ec6723ddfa628364bc25b80b70d7cb5a -> f8083b77d3f24144ecafaaa52eaf2dc9ccedff83f13413d9ea0a2b8a7f3823f5
+~ -[sdr_to_hdr_histolutOutput featureNames] : sha256 69d25ea0347ad731a8a823d86a5d75ea3c36068875979b86052ca3a6cb87256a -> 2d641151ac2afd7dbe90ad45e11b53158c4ebc29a612bf9c193df7536d55caab
+~ -[sdr_to_hdr_histolutOutput featureValueForName:] : sha256 994945b62ae19dbfa69c21b010fbdda9f4e7face62cea7f4ef07477cbd76443a -> fe1d0a2b76c23dfb0cb61ae43eee2c5f0987c1e505bd47e7ec4d3915eb142eb1
+~ -[sdr_to_hdr_histolutOutput setSdr_to_hdr_lut:] : sha256 1dcc7ef033f20cb7ac1f6dbe47ac090e374c2070dcc7871a3ba0dfbbecd8cb22 -> 2149bf7126c8f10196f58ed13deee455b7b3c86171b7507187a03ae838f527ba
+~ -[sdr_to_hdr_histolutOutput .cxx_destruct] : sha256 7d326e62675036d7e6feef58fec724856bbc42b555acfcc518b3f404bea93b26 -> c14c1c97cedf8d04362d7f482a6bd698bc6d9cf0cc5a40d8b9bfa1e322cfc96c
+~ +[sdr_to_hdr_histolut URLOfModelInThisBundle] : sha256 ecb59e1bbf690319cdc25bf68d2b287af318c69f17755e3cb5a1b649aefcb401 -> abaae500b3daa51c81f2f9a1a3f00bfdd71d38d5548f7e1d256c518d3751c29f
+~ -[sdr_to_hdr_histolut initWithMLModel:] : sha256 d529b9455476209b446b9c76d699bb097a24b02f2e43f3e08441815f5e16b8ea -> 348c3468c08d49015ee5da3328226a172b132795f9bc3048de4ac2f2a347b10e
+~ -[sdr_to_hdr_histolut init] : sha256 e5ba20834a5c262497466b7275cceea2779939b74e12801f4ff277cc5c5916b0 -> 6cf48cb0fd36290ef7775e06620fd3d1fdace0a20a4883a20e603e5c42f68798
+~ -[sdr_to_hdr_histolut initWithConfiguration:error:] : sha256 c1a320188e73d20c4a4959de8b94c0c398cd2976baef45696f8ed0b9dbbdca17 -> eb0328aa5ebdfad8b8574da1518a2abf4d2ff7526f22473bb4aef29d54ecc0b3
+~ -[sdr_to_hdr_histolut initWithContentsOfURL:error:] : sha256 d09a4426b1134dffe7a8ac46093c339f718edaefc6fd8d0d6a64b6a90bdc67fc -> c012c2574c077b679287cb1688f7d499cf8bcfd86947ffb9d14ce8e1006cba1f
+~ -[sdr_to_hdr_histolut initWithContentsOfURL:configuration:error:] : sha256 e2b3a1f28330a8f9c8b093163ca5a201268685427bf32ff018657fc1b68a20f2 -> 424d5e4785dfc8046917cf4d6b80e679b42bed1531ed64a2200db503e830c6e4
+~ +[sdr_to_hdr_histolut loadWithConfiguration:completionHandler:] : sha256 7ae667b53a91bf993c3ee7281912e496b79c42ab9e315906071f860912bfe370 -> 1d0ba251d98ec08b906d55df46b7cb25b78c9394564f633b2fc33b19369d8965
+~ +[sdr_to_hdr_histolut loadContentsOfURL:configuration:completionHandler:] : sha256 611dd946d5c74ecf5c80894c69471f6d419084ef8600c2f454a8605b949fdfe3 -> 1ee3b4d3d7395996aaa446bd695a9e318463c86f3e4ace3a3bf1072f6672807b
+~ ___73+[sdr_to_hdr_histolut loadContentsOfURL:configuration:completionHandler:]_block_invoke : sha256 36a19e35510179bae2b3f9f26528b60cb406e8f63c0d7328a0a9a09936467dbe -> b7a3011fd5f8ad3f08f26dfa8a941b6427dac64d4e74efb1c2ab28b41862b752
+~ ___copy_helper_block_e8_32b : sha256 3a1dda7dbc2407e16e2eab4ba8673034e9feb4bab79bd52292a547935c7bfdb3 -> 28aa5e36629e4e40093932e8351fe8825ee2c685aca73a2b95904a28e087f258
+~ ___destroy_helper_block_e8_32s : sha256 19e926c30d5a198198beb8fb7097476d485a41cafd0e702af5411e22a9ad9b4f -> 66fec2f6852a2f14978365217328b9d965e364e6b5c3deb708e72988a2046ae6
+~ -[sdr_to_hdr_histolut predictionFromFeatures:error:] : sha256 488ed605473ab5c60ec67ad4b66f6fcd649ee1dd2f09646005f530ed3bc8f2cb -> f385fef900cbcae3b9dd7b2c71ce20ef7bce19224fd504e0c1795f588004a5be
+~ -[sdr_to_hdr_histolut predictionFromFeatures:options:error:] : sha256 9104067f6e8f71313d81a8b4d7cdace81e0474dfceb0a05fb5cdbb58eeb614ec -> 9adb14edbe57db248edc4d65bd77778ac85c72b94c374c1ebe41fd0b8649eb57
+~ -[sdr_to_hdr_histolut predictionFromFeatures:completionHandler:] : sha256 86ab3e72ae8c35daf42f59f86b1f27c8e5592fbe74e8861f15ca1bce5ac24020 -> 4b71101e8c2e73af73713b0e3e3d683245c527604a4cb3a50a834577b55dd4a9
+~ ___64-[sdr_to_hdr_histolut predictionFromFeatures:completionHandler:]_block_invoke : sha256 f7dc14882e341ccb4c2a716bafefa337dd1807d8fa39f46727bf28e774cf7803 -> f4862205dbb496164fc2a1e6cbb4e1c8fa9e4b7bd0bdba0574578f244ca2b0c1
+~ -[sdr_to_hdr_histolut predictionFromFeatures:options:completionHandler:] : sha256 d82380f2e30bae99186df9d34186cbb4da02269fca5033967c2b4528e168d12f -> 169d8b28f82f0cf8aa89711dd6834ee296c91aa3f620a5284f32ed44eb59362c
+~ ___72-[sdr_to_hdr_histolut predictionFromFeatures:options:completionHandler:]_block_invoke : sha256 8ab9136687a756ddc016ec03b5fb8b34d700334be5a7cda195e59257c07d2a01 -> ff91828609d5d8a1dcc6612615ab52564aa1147180aca02c66ca62bc0ca2b705
+~ -[sdr_to_hdr_histolut predictionFromCdf:error:] : sha256 3663e96b30011460c0821aafe87f6914fc347e2c676bbd9821d1ffb8bc5f8b12 -> 31435c45fcf6c620e7a7b1044251b0b306e609a86c3b8e42674a029ae3dd6ece
+~ -[sdr_to_hdr_histolut predictionsFromInputs:options:error:] : sha256 5e8b5167f0f8dd4db5ba21bfbddc6372cc548b8d314ec1edff3d3178e1cdc379 -> 8fdf3f3bc3b5c02a1bede67b5e1d1c661a4b82e4bc029887f2196c05be8f861f
+~ -[sdr_to_hdr_histolut .cxx_destruct] : sha256 a04f4bc16e06d168fbb360ab73261dd952512ea10b79a0a29928a1f23b46418b -> 792e2ea4eae576b124d6731aae5e05a64e522f023f183af85cd1691bd4eb06df
+~ -[sceneLuxB2DItpMLModelInput initWithFeature_vector:] : sha256 8bfec662028c2be340467b28cfba24baf96c569df5708f7687e6c588e5fa6872 -> d4cd32afa7f5a85eba10087b08b7fdeaa3c4259111f04163faff878389664a7e
+~ -[sceneLuxB2DItpMLModelInput featureNames] : sha256 e520bc218c49068196eee4ef9c70683776ed7ddd4842c54e07dac38d030a7169 -> 3fc200fc60a0d9ea64e545ff0ab628e98a04f2a94eb5dbd2be1d03d184c6d745
+~ -[sceneLuxB2DItpMLModelInput featureValueForName:] : sha256 300a7449e3634f293c536d82be073724f3c0aee99c8a9c468dd3b3d8b6c3c020 -> bd1ca077869bfb328a25b20c1ed7992f5fa5f13b86299aa0ae064f3ef471d503
+~ -[sceneLuxB2DItpMLModelInput setFeature_vector:] : sha256 7ead0eaf728b4c94b83095a3f9f334d9db227df414668da54f7809aa58b3aae5 -> 99348da09115484afd73005bf8ae25c833213ed53c1a1ad12c4e15c7a0d8576b
+~ -[sceneLuxB2DItpMLModelInput .cxx_destruct] : sha256 539545c559b931b18dd8f8eab0a3879ae9da7225a2c24bfefede88f645580ac9 -> 1e1edeca8896e8741b322862b6624960810ddadfb6669146a2108392c0896e83
+~ -[sceneLuxB2DItpMLModelOutput initWithAnchor_points:] : sha256 aa0aad769627c442ae2fd4a7a060ba082daffb03ea8ef9d0231b559e8154d06d -> 9605c1a6092d2b671809fcdb6dfd07dbd837aa9165a2852895901f436581bf4d
+~ -[sceneLuxB2DItpMLModelOutput featureNames] : sha256 5f0f8fb346dd0a46cd5a6c739a72adaa28346ed7d38b3df91b29f4588f6d1ed6 -> d7053525994d306ab9275b1cd8a75e0152c15e001f841101237364e1373f76ee
+~ -[sceneLuxB2DItpMLModelOutput featureValueForName:] : sha256 b7c984dbe8c006089c6e53b90e24023faa78249632fa86230e896318ecaa289d -> b9a75dd1ed295fe3ddef56e141c5d7564c1a96961a4fd7812324ee61204df412
+~ -[sceneLuxB2DItpMLModelOutput setAnchor_points:] : sha256 d129313b52064723334e7710e41db4d5caf137ce44b50b40a146f2843d826623 -> f1daf248f0b2473c5effccb4e25ab6da3b5d2cd5e37b2318437e404e44c9ccbd
+~ -[sceneLuxB2DItpMLModelOutput .cxx_destruct] : sha256 5a34d04551d0a0affbfb14812a11d1fed962da54816a0c2b270680675bf765f6 -> ea059ddd14adbbdec4a7914003ec16fff9c45ecc92fbfd55e5c457a7fa67556e
+~ +[sceneLuxB2DItpMLModel URLOfModelInThisBundle] : sha256 3363013ee30872d2bdb714a5221371cd325b8384e1138822ada5da6dcc95c601 -> c542fbc25180ee56cf02a61b869606ebab39a188695f336270c94a975d3db3b7
+~ -[sceneLuxB2DItpMLModel initWithMLModel:] : sha256 569632cb566499550021b88190f69edacc38fc5e1fcd8e452b1a440e3065726b -> ecd5fb97fc8dd06ee610fa17c0c9ba5615b0d966124be997ffe446ab36f1a714
+~ -[sceneLuxB2DItpMLModel init] : sha256 e301e0ea3c2e766a7a47bdae57ac63bf449de715896571e7012e5aa7e557b561 -> 2769c290c6f6e9c6c5b654c7b270e362bf6632ce97f8cbff36b7078cf2db8d2e
+~ -[sceneLuxB2DItpMLModel initWithConfiguration:error:] : sha256 195b27b7cac447c974603599d349a2c1ab7bd4873aebd51be3664718ad2cd914 -> 7c5e83a7cea5c95f7bba89e6d7bafaa05c208795114b47c86091aa58bb1a3bb5
+~ -[sceneLuxB2DItpMLModel initWithContentsOfURL:error:] : sha256 feeb55cd83ccc100c954780dfbb52b9680e4f1b778ed5828369365974b0231d4 -> 8d03025abaf7d16e40422a07a6f2e39028a2ead8ab60ac3553102b3b9db4f0ab
+~ -[sceneLuxB2DItpMLModel initWithContentsOfURL:configuration:error:] : sha256 aaccb37c6071d09c7ed79f27eb8757a0e173884a661d6f58d41544bd54de6e57 -> f7ecf1376d642555a816e821f104343cad8ec788280f624b8afd473deb4bae8c
+~ +[sceneLuxB2DItpMLModel loadWithConfiguration:completionHandler:] : sha256 10ab5473c6b935f42a2ab745712c74841c60dac7547bb84c53afb5641a3973a0 -> 28eb38be6c2c52286786f3d632ac25ad3833e5d1869dc5ecdeb3042b6bdbae95
+~ +[sceneLuxB2DItpMLModel loadContentsOfURL:configuration:completionHandler:] : sha256 5da79d7aa55b0682909065be5efefbf5da35f16a0560d27d4770d5e99335a044 -> f664efbfb48137c0067d8f0824ef7687441d085d3ffacc899010dd1cb43944ad
+~ ___75+[sceneLuxB2DItpMLModel loadContentsOfURL:configuration:completionHandler:]_block_invoke : sha256 79dbddb2230475c8502c25f9372ab0f3231ff123384b60de5d37d9b65411f050 -> 491d113afe5f2aef53b56fec771790b716cbc209ed5c555cc03b1281531a91ca
+~ -[sceneLuxB2DItpMLModel predictionFromFeatures:error:] : sha256 237a29c1c3e7aee7e897ecc1ce65396502e484e5dc811bb942d84add9e0f8e87 -> 5a29cbb98e3be3e1363c880761eea7bcb4774a060864346fadd0a1721995c8a0
+~ -[sceneLuxB2DItpMLModel predictionFromFeatures:options:error:] : sha256 ed3cdb200dd5c0b2e9ee4d3a4a17a75d86ccfae59da638c3e1dd8b0e63881991 -> 23815f4b188e9cad90fc1af88fbcb71ba2ad417406bf901e27f46dad6df17830
+~ -[sceneLuxB2DItpMLModel predictionFromFeatures:completionHandler:] : sha256 62a0afff247e19f4165b706393ed1930c36c0d81b9e46537615b2714c8c373af -> d4df3d465588cc37ea24f672ccc80f4cb14e7805f4ee1b683f49ef3cc63875f2
+~ ___66-[sceneLuxB2DItpMLModel predictionFromFeatures:completionHandler:]_block_invoke : sha256 e8efa4ee10daa50ba5c58656459145c8ea58cbe50584bf0131d0ba6d0b5c540c -> 49a76a1c7d051c7b38fe994600c0abc03dd684d7bcac6b823bab6bc716c2da58
+~ -[sceneLuxB2DItpMLModel predictionFromFeatures:options:completionHandler:] : sha256 417127fc87aef1bf9532f69392a9e39caa038469010ca616c39fd6e3af988b4e -> 32c3abdb4c59a22ce641a235f7962ff730d3fc14f37f23a71fa002e491159534
+~ ___74-[sceneLuxB2DItpMLModel predictionFromFeatures:options:completionHandler:]_block_invoke : sha256 1f8bf3171e664a452bd7c61d0802235f2a0516024d18ccce8ab468ade5ca03bb -> dd71a35f345264ebcf1b20c4f37ad59b5c20cc887b43ede2aba4aaef52ddd228
+~ -[sceneLuxB2DItpMLModel predictionFromFeature_vector:error:] : sha256 a0f6be93e172544bf5753b0e87f7c3e9af32ebfd85ede6768bf2b19d6b67427f -> 720842d1068c77c64fd4c9b94d3989c5966f65aaace5ef7bf1182fc71d08565c
+~ -[sceneLuxB2DItpMLModel predictionsFromInputs:options:error:] : sha256 a438ca5727b855f008c618b2b09f4f0a9f98fd89ad37c0d5636fba99407b337d -> 418aeca88931766925c5b4a181883b9cfa230dd66db466edc7bd95ec3997cd03
+~ -[sceneLuxB2DItpMLModel .cxx_destruct] : sha256 191e49dcec6696bfd6a2ea6bb980d51662376cc19e79b8bff7e646db5ee94182 -> 5e80578d79062f161bd3bf577f439e686885d5c8ce8ee7d3225ebf505b1d95c4
+~ _FindInt64M33Precision : 112 -> 116
+~ __ZL46SMPTE_ST_2094_50_GetStandardColorPrimaryMatrix31SMPTE_ST_2094_50_ColorPrimariesP13simd_float3x3 : sha256 ffb27a1e57dabc9c0072c40edb5abe92a7b0c50459905f0e7ea61710120c46bb -> 87987ade772cbe33d574d7c1ce882515a54055050f69515263f7750d77332a1b
+~ __ZL21ComputeRGBtoXYZMatrixPKfP13simd_float3x3 : sha256 5eec497e90e40e48572500a3963a7086bf09810376b43a8d9f09dbcfe0b02757 -> 646498ede4121e3304e8660ff4580150c391b4332235bd181655dedd9f2bad64
+~ _Dm4Tc : 3892 -> 3856
+~ _Dm23Tc : 2344 -> 2352
+CStrings:
++ " [1.513.1] \n"
++ " [1.513.1]      No entries to dump!\n"
++ " [1.513.1]     %s : Error: Unsupported config! retVal = %d"
++ " [1.513.1]     %s : Warning: after md reduction, payLoadLength=%d, max packet size=%d"
++ " [1.513.1]     %s : error max=%f <= min=%f, metaData=%p"
++ " [1.513.1]     %s: illegal HDR10Plus SEI, fall back to HDR10"
++ " [1.513.1]     %s: illegal SEI"
++ " [1.513.1]     %s: input=%p"
++ " [1.513.1]     %s: layer0=%p, output=%p, metatdata=%p, config=%p, histogram=%p"
++ " [1.513.1]     %s: metatdata= %p, bailout!!!\n"
++ " [1.513.1]     %s: missing SEI"
++ " [1.513.1]     %s: output=%p, bailout!!!\n"
++ " [1.513.1]     ERROR: Not supported operation %d !!!"
++ " [1.513.1]    %s : Error: Unsupported MSR input: operation=0x%x, input=%c%c%c%c [%c%c%c%c], output=%c%c%c%c [%c%c%c%c]"
++ " [1.513.1]    %s : Failed to create directory \"%s\".\n"
++ " [1.513.1]    %s : failed with error %ld\n"
++ " [1.513.1]    %s : instance=%p"
++ " [1.513.1]    %s : instance=%p\n"
++ " [1.513.1]    %s : metalDevice has changed!\n"
++ " [1.513.1]    %s : processor=%p\n"
++ " [1.513.1]    %s: ERROR: Failed to allocate memory! size = %lu bytes"
++ " [1.513.1]   !isMultipleOf2(region.origin.x=%d)"
++ " [1.513.1]   !isMultipleOf2(region.size.width=%d)"
++ " [1.513.1]   commanBuffer=%p, output=%p, input=%p ui=%p"
++ " [1.513.1]   region.origin.x=%d + region.size.width=%d > texWidth=%d"
++ " [1.513.1]   region.origin.x=%d >= texWidth=%d && region.origin.y=%d >= texHeight=%d"
++ " [1.513.1]   region.origin.y=%d + region.size.height=%d > texHeight=%d"
++ " [1.513.1]   videoSrcWidth=%d, videoSrcHeight=%d, dstWidth=%d, dstHeight=%d"
++ " [1.513.1]   warning: unknown matrix_coeffs=%d, sets to Rec709=%d"
++ " [1.513.1]   warning: unknown source content type =%d, sets to hdr10=%d"
++ " [1.513.1]   warning: unknown transfer_characteristics=%d, sets to PQ=%d"
++ " [1.513.1]  %30@: %-12s\n"
++ " [1.513.1]  %30@: %-12s    (value=%s, default=%s)\n"
++ " [1.513.1]  %30s %12s\n"
++ " [1.513.1]  %8d %30@ %12s %12s %12s\n"
++ " [1.513.1]  %8s %30s %12s %12s %12s\n"
++ " [1.513.1]  %s : Not supported type=%d\n"
++ " [1.513.1]  %s : newprocessor=%p\n"
++ " [1.513.1]  %s:%d: ERROR: Neither value nor defaults value is available! Key = \"%@\".\n"
++ " [1.513.1] #%04llx \n"
++ " [1.513.1] #%04llx      No entries to dump!\n"
++ " [1.513.1] #%04llx     %s : Error: Unsupported config! retVal = %d"
++ " [1.513.1] #%04llx     %s : Warning: after md reduction, payLoadLength=%d, max packet size=%d"
++ " [1.513.1] #%04llx     %s : error max=%f <= min=%f, metaData=%p"
++ " [1.513.1] #%04llx     %s: illegal HDR10Plus SEI, fall back to HDR10"
++ " [1.513.1] #%04llx     %s: illegal SEI"
++ " [1.513.1] #%04llx     %s: input=%p"
++ " [1.513.1] #%04llx     %s: layer0=%p, output=%p, metatdata=%p, config=%p, histogram=%p"
++ " [1.513.1] #%04llx     %s: metatdata= %p, bailout!!!\n"
++ " [1.513.1] #%04llx     %s: missing SEI"
++ " [1.513.1] #%04llx     %s: output=%p, bailout!!!\n"
++ " [1.513.1] #%04llx     ERROR: Not supported operation %d !!!"
++ " [1.513.1] #%04llx    %s : Error: Unsupported MSR input: operation=0x%x, input=%c%c%c%c [%c%c%c%c], output=%c%c%c%c [%c%c%c%c]"
++ " [1.513.1] #%04llx    %s : Failed to create directory \"%s\".\n"
++ " [1.513.1] #%04llx    %s : failed with error %ld\n"
++ " [1.513.1] #%04llx    %s : instance=%p"
++ " [1.513.1] #%04llx    %s : instance=%p\n"
++ " [1.513.1] #%04llx    %s : metalDevice has changed!\n"
++ " [1.513.1] #%04llx    %s : processor=%p\n"
++ " [1.513.1] #%04llx    %s: ERROR: Failed to allocate memory! size = %lu bytes"
++ " [1.513.1] #%04llx   !isMultipleOf2(region.origin.x=%d)"
++ " [1.513.1] #%04llx   !isMultipleOf2(region.size.width=%d)"
++ " [1.513.1] #%04llx   commanBuffer=%p, output=%p, input=%p ui=%p"
++ " [1.513.1] #%04llx   region.origin.x=%d + region.size.width=%d > texWidth=%d"
++ " [1.513.1] #%04llx   region.origin.x=%d >= texWidth=%d && region.origin.y=%d >= texHeight=%d"
++ " [1.513.1] #%04llx   region.origin.y=%d + region.size.height=%d > texHeight=%d"
++ " [1.513.1] #%04llx   videoSrcWidth=%d, videoSrcHeight=%d, dstWidth=%d, dstHeight=%d"
++ " [1.513.1] #%04llx   warning: unknown matrix_coeffs=%d, sets to Rec709=%d"
++ " [1.513.1] #%04llx   warning: unknown source content type =%d, sets to hdr10=%d"
++ " [1.513.1] #%04llx   warning: unknown transfer_characteristics=%d, sets to PQ=%d"
++ " [1.513.1] #%04llx  %30@: %-12s\n"
++ " [1.513.1] #%04llx  %30@: %-12s    (value=%s, default=%s)\n"
++ " [1.513.1] #%04llx  %30s %12s\n"
++ " [1.513.1] #%04llx  %8d %30@ %12s %12s %12s\n"
++ " [1.513.1] #%04llx  %8s %30s %12s %12s %12s\n"
++ " [1.513.1] #%04llx  %s : Not supported type=%d\n"
++ " [1.513.1] #%04llx  %s : newprocessor=%p\n"
++ " [1.513.1] #%04llx  %s:%d: ERROR: Neither value nor defaults value is available! Key = \"%@\".\n"
++ " [1.513.1] #%04llx %s : ERROR: Failed creating a new fragment function: %@ with error: %@"
++ " [1.513.1] #%04llx %s : ERROR: Failed creating a new function with _useCustomMatrix=%d, _p3CSC=%d, _applyYGamma=%d"
++ " [1.513.1] #%04llx %s : ERROR: Failed creating a new function with dolby84=%d, forLLDoVi=%d input=%d output=%d"
++ " [1.513.1] #%04llx %s : ERROR: Failed creating a new function: %@"
++ " [1.513.1] #%04llx %s : ERROR: Failed creating a new function: %@ with error: %@"
++ " [1.513.1] #%04llx %s : ERROR: Failed creating a new vertex function: %@ with error: %@"
++ " [1.513.1] #%04llx %s : ERROR: Failed to create backward DM Kernel: fragment[%p]=%@, vertex[%p]=%@, with error: %@"
++ " [1.513.1] #%04llx %s : ERROR: Failed to create forward DM Kernel: %@ with error: %@"
++ " [1.513.1] #%04llx %s : Error: Unsupported DoVi81 state: _hdrMode = %d, _displayType = %d, hasRPUData = %d, hasHDR10PlusSEIData = %d"
++ " [1.513.1] #%04llx %s : Error: Unsupported input: operation=0x%x, input=%c%c%c%c [%c%c%c%c]"
++ " [1.513.1] #%04llx %s : Failed to create HDRProcessorImpl\n"
++ " [1.513.1] #%04llx %s : Failed to create sampler for composer"
++ " [1.513.1] #%04llx %s : Failed with setupInputTexturesWithBL\n"
++ " [1.513.1] #%04llx %s : Failed with setupOutputTexturesWithBuffer\n"
++ " [1.513.1] #%04llx %s : HDR error: Failed to create MTLTexture For _metadataTextures[%d][%d]=%p\n"
++ " [1.513.1] #%04llx %s : Initialization Failed, self = %p\n"
++ " [1.513.1] #%04llx %s : Initialization Failed, self=%p\n"
++ " [1.513.1] #%04llx %s : encoder=%p, out of encoder resource"
++ " [1.513.1] #%04llx %s : error, device = %p, _device=%p\n"
++ " [1.513.1] #%04llx %s : error, self = %p \n"
++ " [1.513.1] #%04llx %s : failed with error %d\n"
++ " [1.513.1] #%04llx %s : format (%d) %c%c%c%c [%c%c%c%c]is not supported yet\n"
++ " [1.513.1] #%04llx %s : layer0=%p, layer1=%p, output=%p, metatdata=%p"
++ " [1.513.1] #%04llx %s : unknown HDRProcessing hw type %d, switching to GPU"
++ " [1.513.1] #%04llx %s : unsupported input/output pixel formats %c%c%c%c/%c%c%c%c   \n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error ext_block_len[%u] > 256, bail!\n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error in ext_content_adaptive_metadata, EXT_BLOCK_PAYLOAD, bail!\n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error in ext_content_adaptive_metadata, EXT_BLOCK_PAYLOAD2, bail!\n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error in vdr_dm_data_payload, bail!\n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error level=%d, length=%d: invalid!"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error map_idc = %d, bail!\n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error nal_unit_type = %d, bail!\n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error num_blocks_payload2[%d] + num_ext_blocks[%d] > 255, bail!\n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error num_ext_blocks = %d > 254, bail!\n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error remaining_bits[%lu] < length[%u], bail!\n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error reserved_zero_3bits=1, first frame, bail!\n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error rpu_type = %d, bail!\n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error signal_bit_depth = %d, bail!\n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error vdr_rpu_level = %d, nlq_num_pivots_minus2 = %d, bail!\n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error vdr_rpu_level = %d, num_x_partitions_minus1 = %d, bail!\n"
++ " [1.513.1] #%04llx %s: EDRMetaData_RBSP error vdr_rpu_level = %d, num_y_partitions_minus1 = %d, bail!\n"
++ " [1.513.1] #%04llx %s: ERROR: Out of bound! curr_part_idx = %d, y = %d, x = %d, bail!\n"
++ " [1.513.1] #%04llx %s: ERROR: Out of bound! mapping_chroma_format_idc = %d, bail!\n"
++ " [1.513.1] #%04llx %s: ERROR: Out of bound! mmr_order_minus1 = %d, bail!\n"
++ " [1.513.1] #%04llx %s: ERROR: Out of bound! poly_order_minus1 = %d, bail!\n"
++ " [1.513.1] #%04llx %s: ERROR: Out of bound! vdr_rpu_level = %d, num_pivots_minus2[%d] = %d, bail!\n"
++ " [1.513.1] #%04llx %s: calloc failed!\n"
++ " [1.513.1] #%04llx %s: input=%p, options=%p, configCallback=%p"
++ " [1.513.1] #%04llx %s: parsing error remaining_bits = %d, bail!\n"
++ " [1.513.1] #%04llx %s: parsing error, bail!\n"
++ " [1.513.1] #%04llx %s: parsing error: first_byte = %u [legal value = 4 or 181], bail!\n"
++ " [1.513.1] #%04llx %s: parsing error: num_bezier_curve_anchors = %d, bail!\n"
++ " [1.513.1] #%04llx %s: parsing error: num_distributions = %d [legal value = 9], bail!\n"
++ " [1.513.1] #%04llx %s: parsing error: num_windows = %d [legal value = 1], bail!\n"
++ " [1.513.1] #%04llx %s: parsing error: sei_payload_type = %u [legal value = 4], sei_payload_length = %u, actual seiLength = %u, bail!\n"
++ " [1.513.1] #%04llx %s: syntax error: application_identifier = %d"
++ " [1.513.1] #%04llx %s: syntax error: application_version = %d"
++ " [1.513.1] #%04llx %s: syntax error: average_maxrgb = %08x"
++ " [1.513.1] #%04llx %s: syntax error: color_saturation_mapping_flag = %d"
++ " [1.513.1] #%04llx %s: syntax error: distribution_index[%d]:%d != k_distribution_index[%d]:%d"
++ " [1.513.1] #%04llx %s: syntax error: distribution_values[%d] = %08x"
++ " [1.513.1] #%04llx %s: syntax error: itu_t_t35_country_code = %02x"
++ " [1.513.1] #%04llx %s: syntax error: itu_t_t35_terminal_provider_code = %04x"
++ " [1.513.1] #%04llx %s: syntax error: itu_t_t35_terminal_provider_oriented_code = %d"
++ " [1.513.1] #%04llx %s: syntax error: mastering_display_actual_peak_luminance_flag = %d"
++ " [1.513.1] #%04llx %s: syntax error: maxscl[%d] = %08x"
++ " [1.513.1] #%04llx %s: syntax error: targeted_system_display_actual_peak_luminance_flag = %d"
++ " [1.513.1] #%04llx %s: warning: fraction_bright_pixels = %d"
++ " [1.513.1] #%04llx ++ %s : MSR created! instance=%p, platform=0x%x\n"
++ " [1.513.1] #%04llx ++ %s : instance=%p _composer=%p _msr=%p"
++ " [1.513.1] #%04llx ++ %s: MSRApiVer=%d\n"
++ " [1.513.1] #%04llx -- %s : Failed with error %d, _numberOfScheduledFrames=%ld\n"
++ " [1.513.1] #%04llx -- %s: HDRProcessor exit! instance=%p\n"
++ " [1.513.1] #%04llx -- %s: MSR exit! instance=%p\n"
++ " [1.513.1] #%04llx --------------------------------------------------------\n"
++ " [1.513.1] #%04llx -----------------------------------------------------------------------------------\n"
++ " [1.513.1] #%04llx <<smpte_st_2094_50:dbg>> warning: Failed to parse SMPTE ST 2094-50 metadata, error=%d"
++ " [1.513.1] #%04llx Assertion: \"!_hist\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/hist_based_tone_mapping.mm\" at line 308\n"
++ " [1.513.1] #%04llx Assertion: \"!inputP422\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1814\n"
++ " [1.513.1] #%04llx Assertion: \"!inputP422\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1988\n"
++ " [1.513.1] #%04llx Assertion: \"!ptvMode\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 3613\n"
++ " [1.513.1] #%04llx Assertion: \"(msrHC->operation == ((HDRProcessingOperation)(kHDRProcessingReshape | kHDRProcessingToneMap)))\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 3019\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1228\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1379\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1406\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1439\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 477\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 860\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1818\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1821\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1827\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1983\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1998\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2002\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2005\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2011\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2020\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/SpatialResampler.m\" at line 212\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/SpatialResampler.m\" at line 243\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 3441\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 3539\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 3778\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 4859\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 5119\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6803\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6833\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 2653\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 4266\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/MetaPacket/DolbyVisionHDMIPacket.mm\" at line 619\n"
++ " [1.513.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/MetaPacket/DolbyVisionHDMIPacket.mm\" at line 678\n"
++ " [1.513.1] #%04llx Assertion: \"HDR10OnHDR10TV || DolbyOnHDR10TV\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2032\n"
++ " [1.513.1] #%04llx Assertion: \"HLGOnHDR10TV\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1804\n"
++ " [1.513.1] #%04llx Assertion: \"IOSurfaceGetID(surface) == IOSurfaceGetID(buf)\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 4182\n"
++ " [1.513.1] #%04llx Assertion: \"IOSurfaceGetID(surface)==IOSurfaceGetID(buf)\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 4197\n"
++ " [1.513.1] #%04llx Assertion: \"_currentPolynomialTable\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2027\n"
++ " [1.513.1] #%04llx Assertion: \"_displayType != kHDRDestinationSDRTV\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 2921\n"
++ " [1.513.1] #%04llx Assertion: \"_hdrMode == kHDRContentDolbyVision\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 1902\n"
++ " [1.513.1] #%04llx Assertion: \"_hdrMode == kHDRContentDolbyVision\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 1934\n"
++ " [1.513.1] #%04llx Assertion: \"_metadataVertexBuffer\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 2515\n"
++ " [1.513.1] #%04llx Assertion: \"_msrHC.processingType == kHDRProcessingTypeConvert\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 785\n"
++ " [1.513.1] #%04llx Assertion: \"_vertsBuffer\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 2476\n"
++ " [1.513.1] #%04llx Assertion: \"bufferT && bufferS\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 2640\n"
++ " [1.513.1] #%04llx Assertion: \"bufferT && bufferS\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 2688\n"
++ " [1.513.1] #%04llx Assertion: \"cmp != 0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingByCapabilities.mm\" at line 328\n"
++ " [1.513.1] #%04llx Assertion: \"cmp != 0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingT2.mm\" at line 185\n"
++ " [1.513.1] #%04llx Assertion: \"dm_config_ptr->dmVersion == 4\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 3040\n"
++ " [1.513.1] #%04llx Assertion: \"hasThreeOutputPlane || has10BitOutput\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1181\n"
++ " [1.513.1] #%04llx Assertion: \"hdrCtrl->colourPrimaries == kIOSurfaceTagColorPrimaries_ITU_R_2020\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6950\n"
++ " [1.513.1] #%04llx Assertion: \"hdrCtrl->colourPrimaries == kIOSurfaceTagColorPrimaries_ITU_R_709_2\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 8656\n"
++ " [1.513.1] #%04llx Assertion: \"hdrCtrl->displayPipelineCompensationType != kDisplayPipelineCompensationTypeNoneHeadrooomDependent && hdrCtrl->displayPipelineCompensationType != kDisplayPipelineCompensationTypeHeadroomDependent\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6070\n"
++ " [1.513.1] #%04llx Assertion: \"hdrCtrl->transferFunction != kIOSurfaceTagColorTransferFunction_ITU_R_2100_HLG\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Engine/ProcessingEngine.mm\" at line 356\n"
++ " [1.513.1] #%04llx Assertion: \"hdrCtrl->transferFunction != kIOSurfaceTagColorTransferFunction_ITU_R_2100_HLG\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2225\n"
++ " [1.513.1] #%04llx Assertion: \"isConversionInputRgb(msrHC) || isConversionInputYuv(msrHC) || isConversionInputIpt(msrHC)\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2994\n"
++ " [1.513.1] #%04llx Assertion: \"isConversionOutputYuv(msrHC)\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 5539\n"
++ " [1.513.1] #%04llx Assertion: \"isGPUtoHDR10TV\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 1460\n"
++ " [1.513.1] #%04llx Assertion: \"isTonemappingEnabled(msrHC)\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 4562\n"
++ " [1.513.1] #%04llx Assertion: \"metadata->mapping_idc[0][0][cmp][0] == 0 || metadata->mapping_idc[0][0][cmp][0] == 1\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingByCapabilities.mm\" at line 313\n"
++ " [1.513.1] #%04llx Assertion: \"metadata->mapping_idc[0][0][cmp][0] == 0 || metadata->mapping_idc[0][0][cmp][0] == 1\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingT2.mm\" at line 170\n"
++ " [1.513.1] #%04llx Assertion: \"mid_tap_h >= 4 && mid_tap_v >= 1\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 252\n"
++ " [1.513.1] #%04llx Assertion: \"msrHC->enableConverting && !msrHC->enableToneMapping\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2993\n"
++ " [1.513.1] #%04llx Assertion: \"msrHC->processingType == kHDRProcessingTypeDoVi || msrHC->processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 4608\n"
++ " [1.513.1] #%04llx Assertion: \"msrHC->processingType == kHDRProcessingTypeDoVi || msrHC->processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 5161\n"
++ " [1.513.1] #%04llx Assertion: \"overrideHLGOOTFMixingStartTdivNits >= 100.0f\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/dovi_display_management_host.mm\" at line 717\n"
++ " [1.513.1] #%04llx Assertion: \"overrideHLGOOTFMixingStartTdivNits >= 100.0f\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/hlg_display_management_host.mm\" at line 121\n"
++ " [1.513.1] #%04llx Assertion: \"polyBuf && mmrCoefBuf\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingByCapabilities.mm\" at line 310\n"
++ " [1.513.1] #%04llx Assertion: \"polyBuf && mmrCoefBuf\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingT2.mm\" at line 167\n"
++ " [1.513.1] #%04llx Assertion: \"processingType == kHDRProcessingTypeDoVi || processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Engine/ProcessingEngine.mm\" at line 370\n"
++ " [1.513.1] #%04llx Assertion: \"processingType == kHDRProcessingTypeDoVi || processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Engine/ProcessingEngine.mm\" at line 425\n"
++ " [1.513.1] #%04llx Assertion: \"processingType == kHDRProcessingTypeDoVi || processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2228\n"
++ " [1.513.1] #%04llx Assertion: \"retVal == 0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 4500\n"
++ " [1.513.1] #%04llx Assertion: \"sMaxPq <= L2PqNorm(4000)\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 7468\n"
++ " [1.513.1] #%04llx Assertion: \"sMinPq >= L2PqNorm(0.005)\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 7469\n"
++ " [1.513.1] #%04llx Assertion: \"sdrOnDolbyOrHDR10 == __objc_no\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1775\n"
++ " [1.513.1] #%04llx Assertion: \"sdrOnDolbyOrHDR10 == __objc_no\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1782\n"
++ " [1.513.1] #%04llx Assertion: \"tableSize == 1024\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/common_display_management_host.mm\" at line 3730\n"
++ " [1.513.1] #%04llx Assertion: \"y1 == y2\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 2613\n"
++ " [1.513.1] #%04llx Constraint changed to: %s"
++ " [1.513.1] #%04llx Constraint: #=%d F=%d C=%d T=%d NP=%d(%2.4f - %2.4f)"
++ " [1.513.1] #%04llx Constraint: %s"
++ " [1.513.1] #%04llx ContentType: %s, sr=%d"
++ " [1.513.1] #%04llx HDRConfig: Frame #%d: configDumpStyle = %d (%s), configDumpLevel = %d, configDumpFlag = %d\n"
++ " [1.513.1] #%04llx Incorrect mode usage : %d _hdrMode = %d"
++ " [1.513.1] #%04llx MR81: Error: BuildInterpInfo TrimLevel must be 8"
++ " [1.513.1] #%04llx MR81: Error: BuildLumaXInfo trimNum=0"
++ " [1.513.1] #%04llx MR81: Error: GetMdsExtMr mr->mdsBase.mdsLen < 71"
++ " [1.513.1] #%04llx MR81: Error: GetRgb2XyzM33, unsupported rgbDef:%d"
++ " [1.513.1] #%04llx MR81: Error: InterpL2 MDSEXT_HAVE_LVL_L0 is false"
++ " [1.513.1] #%04llx MR81: Error: InterpL8 MDSEXT_HAVE_LVL_L0 is false"
++ " [1.513.1] #%04llx MR81: Error: MrGetMdsExtFxpMr extLen < 0"
++ " [1.513.1] #%04llx MR81: Error: MrGetMdsExtFxpMr mdsLen < 0"
++ " [1.513.1] #%04llx MR81: Error: PrepareL2 MDSEXT_HAVE_LVL_L0 is false"
++ " [1.513.1] #%04llx MR81: Error: PrepareL8 MDSEXT_HAVE_LVL_L0 is false"
++ " [1.513.1] #%04llx MR81: metadataReconstruction: Error: GetMdsExtFxpMr ret = %d"
++ " [1.513.1] #%04llx MR81: metadataReconstruction: Error: ParseMds ret = %d"
++ " [1.513.1] #%04llx MR81: metadataReconstruction: Error: ret = %d"
++ " [1.513.1] #%04llx MR81: metadataReconstruction: Error: unmapped, hasMMRData=%d"
++ " [1.513.1] #%04llx MR81: metadataReconstruction: Warning: GetMdsExtFxpMr ret = %d [no change]"
++ " [1.513.1] #%04llx MR81: metadataReconstruction: Warning: RGBtoLMS_coef [%d][%d] changed, %d/%d"
++ " [1.513.1] #%04llx MR81: metadataReconstruction: Warning: YCCtoRGB_coef [%d][%d] changed, %d/%d"
++ " [1.513.1] #%04llx MR81: metadataReconstruction: Warning: YCCtoRGB_offset[%d] changed, %u/%u"
++ " [1.513.1] #%04llx MR81: metadataReconstruction: Warning: ret = %d [no change]"
++ " [1.513.1] #%04llx Memory allocation for  histBinCentroidInLinear failed"
++ " [1.513.1] #%04llx Memory allocation for _cdf failed"
++ " [1.513.1] #%04llx Memory allocation for _fullRangeBinIdx8bit failed"
++ " [1.513.1] #%04llx Memory allocation for _histBinMlmInPQ failed"
++ " [1.513.1] #%04llx Memory allocation for _sdrHdrMlmLut_x failed"
++ " [1.513.1] #%04llx Memory allocation for _sdrHdrMlmLut_y failed"
++ " [1.513.1] #%04llx Memory allocation for avgValBuffer failed"
++ " [1.513.1] #%04llx Memory allocation for fullRangeBinIdx failed"
++ " [1.513.1] #%04llx Memory allocation for histBinCenter failed"
++ " [1.513.1] #%04llx Memory allocation for histBuff failed"
++ " [1.513.1] #%04llx Memory allocation for hlgBinCenterInPQ failed"
++ " [1.513.1] #%04llx Memory allocation for maxValBuffer failed"
++ " [1.513.1] #%04llx Memory allocation for minValBuffer failed"
++ " [1.513.1] #%04llx Memory allocation for normHist failed"
++ " [1.513.1] #%04llx Memory allocation for pcntVal failed"
++ " [1.513.1] #%04llx Memory allocation for pqBinCenterInPQ failed"
++ " [1.513.1] #%04llx Memory allocation for prctVal failed"
++ " [1.513.1] #%04llx Memory allocation for prctValBuffer failed"
++ " [1.513.1] #%04llx Memory allocation for prctValBuffer[i] failed"
++ " [1.513.1] #%04llx Memory allocation for prevNormHistHeight failed"
++ " [1.513.1] #%04llx Memory allocation for sdrBinCenterInPQ failed"
++ " [1.513.1] #%04llx Memory allocation for stdValBuffer failed"
++ " [1.513.1] #%04llx Memory allocation for targetMaxBuffer failed"
++ " [1.513.1] #%04llx Memory allocation for testpatchHistBuff failed"
++ " [1.513.1] #%04llx Not supported type=%d\n"
++ " [1.513.1] #%04llx ToneMapLUT_xsamples memory allocation failed!"
++ " [1.513.1] #%04llx ToneMapLUT_ysamples memory allocation failed!"
++ " [1.513.1] #%04llx ToneMapMixFactorLUT_xsamples memory allocation failed!"
++ " [1.513.1] #%04llx ToneMapMixFactorLUT_ysamples memory allocation failed!"
++ " [1.513.1] #%04llx WARNING: calcCubicSplineParam: delta == 0"
++ " [1.513.1] #%04llx WARNING: cubicSplineInterp: delta == 0"
++ " [1.513.1] #%04llx Warning: Attempting to read defaults writes in release builds! key = \"%@\"\n"
++ " [1.513.1] #%04llx [frame_%llu] scheduled2completed: avg: %5.1f, max: %5.1f [in ms], [ %d : %d ]\n"
++ " [1.513.1] #%04llx _width=%d, _targetWidth=%d, _height=%d, _targetHeight=%d"
++ " [1.513.1] #%04llx checkInputOutputIOSurface() failed!"
++ " [1.513.1] #%04llx commanBuffer=%p, output=%p, input=%p, ui=%p"
++ " [1.513.1] #%04llx failed due to metalDevice change!"
++ " [1.513.1] #%04llx hcr : %s"
++ " [1.513.1] #%04llx hcr changes to: %s"
++ " [1.513.1] #%04llx hcrUseSystemBrightnessForCaptureContent : %s"
++ " [1.513.1] #%04llx hcrUseSystemBrightnessForCaptureContent changes to: %s"
++ " [1.513.1] #%04llx hcrUseSystemBrightnessForProContent : %s"
++ " [1.513.1] #%04llx hcrUseSystemBrightnessForProContent changes to: %s"
++ " [1.513.1] #%04llx hdrMaxBrightnessInNits was forced to %f!"
++ " [1.513.1] #%04llx sdrMaxBrightnessInNits was forced to %f!"
++ " [1.513.1] %s : ERROR: Failed creating a new fragment function: %@ with error: %@"
++ " [1.513.1] %s : ERROR: Failed creating a new function with _useCustomMatrix=%d, _p3CSC=%d, _applyYGamma=%d"
++ " [1.513.1] %s : ERROR: Failed creating a new function with dolby84=%d, forLLDoVi=%d input=%d output=%d"
++ " [1.513.1] %s : ERROR: Failed creating a new function: %@"
++ " [1.513.1] %s : ERROR: Failed creating a new function: %@ with error: %@"
++ " [1.513.1] %s : ERROR: Failed creating a new vertex function: %@ with error: %@"
++ " [1.513.1] %s : ERROR: Failed to create backward DM Kernel: fragment[%p]=%@, vertex[%p]=%@, with error: %@"
++ " [1.513.1] %s : ERROR: Failed to create forward DM Kernel: %@ with error: %@"
++ " [1.513.1] %s : Error: Unsupported DoVi81 state: _hdrMode = %d, _displayType = %d, hasRPUData = %d, hasHDR10PlusSEIData = %d"
++ " [1.513.1] %s : Error: Unsupported input: operation=0x%x, input=%c%c%c%c [%c%c%c%c]"
++ " [1.513.1] %s : Failed to create HDRProcessorImpl\n"
++ " [1.513.1] %s : Failed to create sampler for composer"
++ " [1.513.1] %s : Failed with setupInputTexturesWithBL\n"
++ " [1.513.1] %s : Failed with setupOutputTexturesWithBuffer\n"
++ " [1.513.1] %s : HDR error: Failed to create MTLTexture For _metadataTextures[%d][%d]=%p\n"
++ " [1.513.1] %s : Initialization Failed, self = %p\n"
++ " [1.513.1] %s : Initialization Failed, self=%p\n"
++ " [1.513.1] %s : encoder=%p, out of encoder resource"
++ " [1.513.1] %s : error, device = %p, _device=%p\n"
++ " [1.513.1] %s : error, self = %p \n"
++ " [1.513.1] %s : failed with error %d\n"
++ " [1.513.1] %s : format (%d) %c%c%c%c [%c%c%c%c]is not supported yet\n"
++ " [1.513.1] %s : layer0=%p, layer1=%p, output=%p, metatdata=%p"
++ " [1.513.1] %s : unknown HDRProcessing hw type %d, switching to GPU"
++ " [1.513.1] %s : unsupported input/output pixel formats %c%c%c%c/%c%c%c%c   \n"
++ " [1.513.1] %s: EDRMetaData_RBSP error ext_block_len[%u] > 256, bail!\n"
++ " [1.513.1] %s: EDRMetaData_RBSP error in ext_content_adaptive_metadata, EXT_BLOCK_PAYLOAD, bail!\n"
++ " [1.513.1] %s: EDRMetaData_RBSP error in ext_content_adaptive_metadata, EXT_BLOCK_PAYLOAD2, bail!\n"
++ " [1.513.1] %s: EDRMetaData_RBSP error in vdr_dm_data_payload, bail!\n"
++ " [1.513.1] %s: EDRMetaData_RBSP error level=%d, length=%d: invalid!"
++ " [1.513.1] %s: EDRMetaData_RBSP error map_idc = %d, bail!\n"
++ " [1.513.1] %s: EDRMetaData_RBSP error nal_unit_type = %d, bail!\n"
++ " [1.513.1] %s: EDRMetaData_RBSP error num_blocks_payload2[%d] + num_ext_blocks[%d] > 255, bail!\n"
++ " [1.513.1] %s: EDRMetaData_RBSP error num_ext_blocks = %d > 254, bail!\n"
++ " [1.513.1] %s: EDRMetaData_RBSP error remaining_bits[%lu] < length[%u], bail!\n"
++ " [1.513.1] %s: EDRMetaData_RBSP error reserved_zero_3bits=1, first frame, bail!\n"
++ " [1.513.1] %s: EDRMetaData_RBSP error rpu_type = %d, bail!\n"
++ " [1.513.1] %s: EDRMetaData_RBSP error signal_bit_depth = %d, bail!\n"
++ " [1.513.1] %s: EDRMetaData_RBSP error vdr_rpu_level = %d, nlq_num_pivots_minus2 = %d, bail!\n"
++ " [1.513.1] %s: EDRMetaData_RBSP error vdr_rpu_level = %d, num_x_partitions_minus1 = %d, bail!\n"
++ " [1.513.1] %s: EDRMetaData_RBSP error vdr_rpu_level = %d, num_y_partitions_minus1 = %d, bail!\n"
++ " [1.513.1] %s: ERROR: Out of bound! curr_part_idx = %d, y = %d, x = %d, bail!\n"
++ " [1.513.1] %s: ERROR: Out of bound! mapping_chroma_format_idc = %d, bail!\n"
++ " [1.513.1] %s: ERROR: Out of bound! mmr_order_minus1 = %d, bail!\n"
++ " [1.513.1] %s: ERROR: Out of bound! poly_order_minus1 = %d, bail!\n"
++ " [1.513.1] %s: ERROR: Out of bound! vdr_rpu_level = %d, num_pivots_minus2[%d] = %d, bail!\n"
++ " [1.513.1] %s: calloc failed!\n"
++ " [1.513.1] %s: input=%p, options=%p, configCallback=%p"
++ " [1.513.1] %s: parsing error remaining_bits = %d, bail!\n"
++ " [1.513.1] %s: parsing error, bail!\n"
++ " [1.513.1] %s: parsing error: first_byte = %u [legal value = 4 or 181], bail!\n"
++ " [1.513.1] %s: parsing error: num_bezier_curve_anchors = %d, bail!\n"
++ " [1.513.1] %s: parsing error: num_distributions = %d [legal value = 9], bail!\n"
++ " [1.513.1] %s: parsing error: num_windows = %d [legal value = 1], bail!\n"
++ " [1.513.1] %s: parsing error: sei_payload_type = %u [legal value = 4], sei_payload_length = %u, actual seiLength = %u, bail!\n"
++ " [1.513.1] %s: syntax error: application_identifier = %d"
++ " [1.513.1] %s: syntax error: application_version = %d"
++ " [1.513.1] %s: syntax error: average_maxrgb = %08x"
++ " [1.513.1] %s: syntax error: color_saturation_mapping_flag = %d"
++ " [1.513.1] %s: syntax error: distribution_index[%d]:%d != k_distribution_index[%d]:%d"
++ " [1.513.1] %s: syntax error: distribution_values[%d] = %08x"
++ " [1.513.1] %s: syntax error: itu_t_t35_country_code = %02x"
++ " [1.513.1] %s: syntax error: itu_t_t35_terminal_provider_code = %04x"
++ " [1.513.1] %s: syntax error: itu_t_t35_terminal_provider_oriented_code = %d"
++ " [1.513.1] %s: syntax error: mastering_display_actual_peak_luminance_flag = %d"
++ " [1.513.1] %s: syntax error: maxscl[%d] = %08x"
++ " [1.513.1] %s: syntax error: targeted_system_display_actual_peak_luminance_flag = %d"
++ " [1.513.1] %s: warning: fraction_bright_pixels = %d"
++ " [1.513.1] ++ %s : MSR created! instance=%p, platform=0x%x\n"
++ " [1.513.1] ++ %s : instance=%p _composer=%p _msr=%p"
++ " [1.513.1] ++ %s: MSRApiVer=%d\n"
++ " [1.513.1] -- %s : Failed with error %d, _numberOfScheduledFrames=%ld\n"
++ " [1.513.1] -- %s: HDRProcessor exit! instance=%p\n"
++ " [1.513.1] -- %s: MSR exit! instance=%p\n"
++ " [1.513.1] --------------------------------------------------------\n"
++ " [1.513.1] -----------------------------------------------------------------------------------\n"
++ " [1.513.1] <<smpte_st_2094_50:dbg>> warning: Failed to parse SMPTE ST 2094-50 metadata, error=%d"
++ " [1.513.1] Assertion: \"!_hist\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/hist_based_tone_mapping.mm\" at line 308\n"
++ " [1.513.1] Assertion: \"!inputP422\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1814\n"
++ " [1.513.1] Assertion: \"!inputP422\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1988\n"
++ " [1.513.1] Assertion: \"!ptvMode\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 3613\n"
++ " [1.513.1] Assertion: \"(msrHC->operation == ((HDRProcessingOperation)(kHDRProcessingReshape | kHDRProcessingToneMap)))\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 3019\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1228\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1379\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1406\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1439\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 477\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 860\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1818\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1821\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1827\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1983\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1998\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2002\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2005\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2011\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2020\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/SpatialResampler.m\" at line 212\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/SpatialResampler.m\" at line 243\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 3441\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 3539\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 3778\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 4859\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 5119\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6803\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6833\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 2653\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 4266\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/MetaPacket/DolbyVisionHDMIPacket.mm\" at line 619\n"
++ " [1.513.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/MetaPacket/DolbyVisionHDMIPacket.mm\" at line 678\n"
++ " [1.513.1] Assertion: \"HDR10OnHDR10TV || DolbyOnHDR10TV\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2032\n"
++ " [1.513.1] Assertion: \"HLGOnHDR10TV\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1804\n"
++ " [1.513.1] Assertion: \"IOSurfaceGetID(surface) == IOSurfaceGetID(buf)\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 4182\n"
++ " [1.513.1] Assertion: \"IOSurfaceGetID(surface)==IOSurfaceGetID(buf)\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 4197\n"
++ " [1.513.1] Assertion: \"_currentPolynomialTable\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2027\n"
++ " [1.513.1] Assertion: \"_displayType != kHDRDestinationSDRTV\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 2921\n"
++ " [1.513.1] Assertion: \"_hdrMode == kHDRContentDolbyVision\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 1902\n"
++ " [1.513.1] Assertion: \"_hdrMode == kHDRContentDolbyVision\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 1934\n"
++ " [1.513.1] Assertion: \"_metadataVertexBuffer\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 2515\n"
++ " [1.513.1] Assertion: \"_msrHC.processingType == kHDRProcessingTypeConvert\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 785\n"
++ " [1.513.1] Assertion: \"_vertsBuffer\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 2476\n"
++ " [1.513.1] Assertion: \"bufferT && bufferS\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 2640\n"
++ " [1.513.1] Assertion: \"bufferT && bufferS\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 2688\n"
++ " [1.513.1] Assertion: \"cmp != 0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingByCapabilities.mm\" at line 328\n"
++ " [1.513.1] Assertion: \"cmp != 0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingT2.mm\" at line 185\n"
++ " [1.513.1] Assertion: \"dm_config_ptr->dmVersion == 4\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 3040\n"
++ " [1.513.1] Assertion: \"hasThreeOutputPlane || has10BitOutput\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1181\n"
++ " [1.513.1] Assertion: \"hdrCtrl->colourPrimaries == kIOSurfaceTagColorPrimaries_ITU_R_2020\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6950\n"
++ " [1.513.1] Assertion: \"hdrCtrl->colourPrimaries == kIOSurfaceTagColorPrimaries_ITU_R_709_2\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 8656\n"
++ " [1.513.1] Assertion: \"hdrCtrl->displayPipelineCompensationType != kDisplayPipelineCompensationTypeNoneHeadrooomDependent && hdrCtrl->displayPipelineCompensationType != kDisplayPipelineCompensationTypeHeadroomDependent\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6070\n"
++ " [1.513.1] Assertion: \"hdrCtrl->transferFunction != kIOSurfaceTagColorTransferFunction_ITU_R_2100_HLG\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Engine/ProcessingEngine.mm\" at line 356\n"
++ " [1.513.1] Assertion: \"hdrCtrl->transferFunction != kIOSurfaceTagColorTransferFunction_ITU_R_2100_HLG\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2225\n"
++ " [1.513.1] Assertion: \"isConversionInputRgb(msrHC) || isConversionInputYuv(msrHC) || isConversionInputIpt(msrHC)\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2994\n"
++ " [1.513.1] Assertion: \"isConversionOutputYuv(msrHC)\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 5539\n"
++ " [1.513.1] Assertion: \"isGPUtoHDR10TV\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 1460\n"
++ " [1.513.1] Assertion: \"isTonemappingEnabled(msrHC)\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 4562\n"
++ " [1.513.1] Assertion: \"metadata->mapping_idc[0][0][cmp][0] == 0 || metadata->mapping_idc[0][0][cmp][0] == 1\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingByCapabilities.mm\" at line 313\n"
++ " [1.513.1] Assertion: \"metadata->mapping_idc[0][0][cmp][0] == 0 || metadata->mapping_idc[0][0][cmp][0] == 1\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingT2.mm\" at line 170\n"
++ " [1.513.1] Assertion: \"mid_tap_h >= 4 && mid_tap_v >= 1\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 252\n"
++ " [1.513.1] Assertion: \"msrHC->enableConverting && !msrHC->enableToneMapping\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2993\n"
++ " [1.513.1] Assertion: \"msrHC->processingType == kHDRProcessingTypeDoVi || msrHC->processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 4608\n"
++ " [1.513.1] Assertion: \"msrHC->processingType == kHDRProcessingTypeDoVi || msrHC->processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 5161\n"
++ " [1.513.1] Assertion: \"overrideHLGOOTFMixingStartTdivNits >= 100.0f\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/dovi_display_management_host.mm\" at line 717\n"
++ " [1.513.1] Assertion: \"overrideHLGOOTFMixingStartTdivNits >= 100.0f\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/hlg_display_management_host.mm\" at line 121\n"
++ " [1.513.1] Assertion: \"polyBuf && mmrCoefBuf\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingByCapabilities.mm\" at line 310\n"
++ " [1.513.1] Assertion: \"polyBuf && mmrCoefBuf\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingT2.mm\" at line 167\n"
++ " [1.513.1] Assertion: \"processingType == kHDRProcessingTypeDoVi || processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Engine/ProcessingEngine.mm\" at line 370\n"
++ " [1.513.1] Assertion: \"processingType == kHDRProcessingTypeDoVi || processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Engine/ProcessingEngine.mm\" at line 425\n"
++ " [1.513.1] Assertion: \"processingType == kHDRProcessingTypeDoVi || processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2228\n"
++ " [1.513.1] Assertion: \"retVal == 0\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 4500\n"
++ " [1.513.1] Assertion: \"sMaxPq <= L2PqNorm(4000)\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 7468\n"
++ " [1.513.1] Assertion: \"sMinPq >= L2PqNorm(0.005)\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 7469\n"
++ " [1.513.1] Assertion: \"sdrOnDolbyOrHDR10 == __objc_no\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1775\n"
++ " [1.513.1] Assertion: \"sdrOnDolbyOrHDR10 == __objc_no\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1782\n"
++ " [1.513.1] Assertion: \"tableSize == 1024\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/common_display_management_host.mm\" at line 3730\n"
++ " [1.513.1] Assertion: \"y1 == y2\" warned in \"/AppleInternal/Library/BuildRoots/4~CRbougCJDKnkGhBagIUb9lNUDvXD5bUyaNLzf9c/Library/Caches/com.apple.xbs/TemporaryDirectory.BhIQRK/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 2613\n"
++ " [1.513.1] Constraint changed to: %s"
++ " [1.513.1] Constraint: #=%d F=%d C=%d T=%d NP=%d(%2.4f - %2.4f)"
++ " [1.513.1] Constraint: %s"
++ " [1.513.1] ContentType: %s, sr=%d"
++ " [1.513.1] HDRConfig: Frame #%d: configDumpStyle = %d (%s), configDumpLevel = %d, configDumpFlag = %d\n"
++ " [1.513.1] Incorrect mode usage : %d _hdrMode = %d"
++ " [1.513.1] MR81: Error: BuildInterpInfo TrimLevel must be 8"
++ " [1.513.1] MR81: Error: BuildLumaXInfo trimNum=0"
++ " [1.513.1] MR81: Error: GetMdsExtMr mr->mdsBase.mdsLen < 71"
++ " [1.513.1] MR81: Error: GetRgb2XyzM33, unsupported rgbDef:%d"
++ " [1.513.1] MR81: Error: InterpL2 MDSEXT_HAVE_LVL_L0 is false"
++ " [1.513.1] MR81: Error: InterpL8 MDSEXT_HAVE_LVL_L0 is false"
++ " [1.513.1] MR81: Error: MrGetMdsExtFxpMr extLen < 0"
++ " [1.513.1] MR81: Error: MrGetMdsExtFxpMr mdsLen < 0"
++ " [1.513.1] MR81: Error: PrepareL2 MDSEXT_HAVE_LVL_L0 is false"
++ " [1.513.1] MR81: Error: PrepareL8 MDSEXT_HAVE_LVL_L0 is false"
++ " [1.513.1] MR81: metadataReconstruction: Error: GetMdsExtFxpMr ret = %d"
++ " [1.513.1] MR81: metadataReconstruction: Error: ParseMds ret = %d"
++ " [1.513.1] MR81: metadataReconstruction: Error: ret = %d"
++ " [1.513.1] MR81: metadataReconstruction: Error: unmapped, hasMMRData=%d"
++ " [1.513.1] MR81: metadataReconstruction: Warning: GetMdsExtFxpMr ret = %d [no change]"
++ " [1.513.1] MR81: metadataReconstruction: Warning: RGBtoLMS_coef [%d][%d] changed, %d/%d"
++ " [1.513.1] MR81: metadataReconstruction: Warning: YCCtoRGB_coef [%d][%d] changed, %d/%d"
++ " [1.513.1] MR81: metadataReconstruction: Warning: YCCtoRGB_offset[%d] changed, %u/%u"
++ " [1.513.1] MR81: metadataReconstruction: Warning: ret = %d [no change]"
++ " [1.513.1] Memory allocation for  histBinCentroidInLinear failed"
++ " [1.513.1] Memory allocation for _cdf failed"
++ " [1.513.1] Memory allocation for _fullRangeBinIdx8bit failed"
++ " [1.513.1] Memory allocation for _histBinMlmInPQ failed"
++ " [1.513.1] Memory allocation for _sdrHdrMlmLut_x failed"
++ " [1.513.1] Memory allocation for _sdrHdrMlmLut_y failed"
++ " [1.513.1] Memory allocation for avgValBuffer failed"
++ " [1.513.1] Memory allocation for fullRangeBinIdx failed"
++ " [1.513.1] Memory allocation for histBinCenter failed"
++ " [1.513.1] Memory allocation for histBuff failed"
++ " [1.513.1] Memory allocation for hlgBinCenterInPQ failed"
++ " [1.513.1] Memory allocation for maxValBuffer failed"
++ " [1.513.1] Memory allocation for minValBuffer failed"
++ " [1.513.1] Memory allocation for normHist failed"
++ " [1.513.1] Memory allocation for pcntVal failed"
++ " [1.513.1] Memory allocation for pqBinCenterInPQ failed"
++ " [1.513.1] Memory allocation for prctVal failed"
++ " [1.513.1] Memory allocation for prctValBuffer failed"
++ " [1.513.1] Memory allocation for prctValBuffer[i] failed"
++ " [1.513.1] Memory allocation for prevNormHistHeight failed"
++ " [1.513.1] Memory allocation for sdrBinCenterInPQ failed"
++ " [1.513.1] Memory allocation for stdValBuffer failed"
++ " [1.513.1] Memory allocation for targetMaxBuffer failed"
++ " [1.513.1] Memory allocation for testpatchHistBuff failed"
++ " [1.513.1] Not supported type=%d\n"
++ " [1.513.1] ToneMapLUT_xsamples memory allocation failed!"
++ " [1.513.1] ToneMapLUT_ysamples memory allocation failed!"
++ " [1.513.1] ToneMapMixFactorLUT_xsamples memory allocation failed!"
++ " [1.513.1] ToneMapMixFactorLUT_ysamples memory allocation failed!"
++ " [1.513.1] WARNING: calcCubicSplineParam: delta == 0"
++ " [1.513.1] WARNING: cubicSplineInterp: delta == 0"
++ " [1.513.1] Warning: Attempting to read defaults writes in release builds! key = \"%@\"\n"
++ " [1.513.1] [frame_%llu] scheduled2completed: avg: %5.1f, max: %5.1f [in ms], [ %d : %d ]\n"
++ " [1.513.1] _width=%d, _targetWidth=%d, _height=%d, _targetHeight=%d"
++ " [1.513.1] checkInputOutputIOSurface() failed!"
++ " [1.513.1] commanBuffer=%p, output=%p, input=%p, ui=%p"
++ " [1.513.1] failed due to metalDevice change!"
++ " [1.513.1] hcr : %s"
++ " [1.513.1] hcr changes to: %s"
++ " [1.513.1] hcrUseSystemBrightnessForCaptureContent : %s"
++ " [1.513.1] hcrUseSystemBrightnessForCaptureContent changes to: %s"
++ " [1.513.1] hcrUseSystemBrightnessForProContent : %s"
++ " [1.513.1] hcrUseSystemBrightnessForProContent changes to: %s"
++ " [1.513.1] hdrMaxBrightnessInNits was forced to %f!"
++ " [1.513.1] sdrMaxBrightnessInNits was forced to %f!"
+- " [1.512.1] \n"
+- " [1.512.1]      No entries to dump!\n"
+- " [1.512.1]     %s : Error: Unsupported config! retVal = %d"
+- " [1.512.1]     %s : Warning: after md reduction, payLoadLength=%d, max packet size=%d"
+- " [1.512.1]     %s : error max=%f <= min=%f, metaData=%p"
+- " [1.512.1]     %s: illegal HDR10Plus SEI, fall back to HDR10"
+- " [1.512.1]     %s: illegal SEI"
+- " [1.512.1]     %s: input=%p"
+- " [1.512.1]     %s: layer0=%p, output=%p, metatdata=%p, config=%p, histogram=%p"
+- " [1.512.1]     %s: metatdata= %p, bailout!!!\n"
+- " [1.512.1]     %s: missing SEI"
+- " [1.512.1]     %s: output=%p, bailout!!!\n"
+- " [1.512.1]     ERROR: Not supported operation %d !!!"
+- " [1.512.1]    %s : Error: Unsupported MSR input: operation=0x%x, input=%c%c%c%c [%c%c%c%c], output=%c%c%c%c [%c%c%c%c]"
+- " [1.512.1]    %s : Failed to create directory \"%s\".\n"
+- " [1.512.1]    %s : failed with error %ld\n"
+- " [1.512.1]    %s : instance=%p"
+- " [1.512.1]    %s : instance=%p\n"
+- " [1.512.1]    %s : metalDevice has changed!\n"
+- " [1.512.1]    %s : processor=%p\n"
+- " [1.512.1]    %s: ERROR: Failed to allocate memory! size = %lu bytes"
+- " [1.512.1]   !isMultipleOf2(region.origin.x=%d)"
+- " [1.512.1]   !isMultipleOf2(region.size.width=%d)"
+- " [1.512.1]   commanBuffer=%p, output=%p, input=%p ui=%p"
+- " [1.512.1]   region.origin.x=%d + region.size.width=%d > texWidth=%d"
+- " [1.512.1]   region.origin.x=%d >= texWidth=%d && region.origin.y=%d >= texHeight=%d"
+- " [1.512.1]   region.origin.y=%d + region.size.height=%d > texHeight=%d"
+- " [1.512.1]   videoSrcWidth=%d, videoSrcHeight=%d, dstWidth=%d, dstHeight=%d"
+- " [1.512.1]   warning: unknown matrix_coeffs=%d, sets to Rec709=%d"
+- " [1.512.1]   warning: unknown source content type =%d, sets to hdr10=%d"
+- " [1.512.1]   warning: unknown transfer_characteristics=%d, sets to PQ=%d"
+- " [1.512.1]  %30@: %-12s\n"
+- " [1.512.1]  %30@: %-12s    (value=%s, default=%s)\n"
+- " [1.512.1]  %30s %12s\n"
+- " [1.512.1]  %8d %30@ %12s %12s %12s\n"
+- " [1.512.1]  %8s %30s %12s %12s %12s\n"
+- " [1.512.1]  %s : Not supported type=%d\n"
+- " [1.512.1]  %s : newprocessor=%p\n"
+- " [1.512.1]  %s:%d: ERROR: Neither value nor defaults value is available! Key = \"%@\".\n"
+- " [1.512.1] #%04llx \n"
+- " [1.512.1] #%04llx      No entries to dump!\n"
+- " [1.512.1] #%04llx     %s : Error: Unsupported config! retVal = %d"
+- " [1.512.1] #%04llx     %s : Warning: after md reduction, payLoadLength=%d, max packet size=%d"
+- " [1.512.1] #%04llx     %s : error max=%f <= min=%f, metaData=%p"
+- " [1.512.1] #%04llx     %s: illegal HDR10Plus SEI, fall back to HDR10"
+- " [1.512.1] #%04llx     %s: illegal SEI"
+- " [1.512.1] #%04llx     %s: input=%p"
+- " [1.512.1] #%04llx     %s: layer0=%p, output=%p, metatdata=%p, config=%p, histogram=%p"
+- " [1.512.1] #%04llx     %s: metatdata= %p, bailout!!!\n"
+- " [1.512.1] #%04llx     %s: missing SEI"
+- " [1.512.1] #%04llx     %s: output=%p, bailout!!!\n"
+- " [1.512.1] #%04llx     ERROR: Not supported operation %d !!!"
+- " [1.512.1] #%04llx    %s : Error: Unsupported MSR input: operation=0x%x, input=%c%c%c%c [%c%c%c%c], output=%c%c%c%c [%c%c%c%c]"
+- " [1.512.1] #%04llx    %s : Failed to create directory \"%s\".\n"
+- " [1.512.1] #%04llx    %s : failed with error %ld\n"
+- " [1.512.1] #%04llx    %s : instance=%p"
+- " [1.512.1] #%04llx    %s : instance=%p\n"
+- " [1.512.1] #%04llx    %s : metalDevice has changed!\n"
+- " [1.512.1] #%04llx    %s : processor=%p\n"
+- " [1.512.1] #%04llx    %s: ERROR: Failed to allocate memory! size = %lu bytes"
+- " [1.512.1] #%04llx   !isMultipleOf2(region.origin.x=%d)"
+- " [1.512.1] #%04llx   !isMultipleOf2(region.size.width=%d)"
+- " [1.512.1] #%04llx   commanBuffer=%p, output=%p, input=%p ui=%p"
+- " [1.512.1] #%04llx   region.origin.x=%d + region.size.width=%d > texWidth=%d"
+- " [1.512.1] #%04llx   region.origin.x=%d >= texWidth=%d && region.origin.y=%d >= texHeight=%d"
+- " [1.512.1] #%04llx   region.origin.y=%d + region.size.height=%d > texHeight=%d"
+- " [1.512.1] #%04llx   videoSrcWidth=%d, videoSrcHeight=%d, dstWidth=%d, dstHeight=%d"
+- " [1.512.1] #%04llx   warning: unknown matrix_coeffs=%d, sets to Rec709=%d"
+- " [1.512.1] #%04llx   warning: unknown source content type =%d, sets to hdr10=%d"
+- " [1.512.1] #%04llx   warning: unknown transfer_characteristics=%d, sets to PQ=%d"
+- " [1.512.1] #%04llx  %30@: %-12s\n"
+- " [1.512.1] #%04llx  %30@: %-12s    (value=%s, default=%s)\n"
+- " [1.512.1] #%04llx  %30s %12s\n"
+- " [1.512.1] #%04llx  %8d %30@ %12s %12s %12s\n"
+- " [1.512.1] #%04llx  %8s %30s %12s %12s %12s\n"
+- " [1.512.1] #%04llx  %s : Not supported type=%d\n"
+- " [1.512.1] #%04llx  %s : newprocessor=%p\n"
+- " [1.512.1] #%04llx  %s:%d: ERROR: Neither value nor defaults value is available! Key = \"%@\".\n"
+- " [1.512.1] #%04llx %s : ERROR: Failed creating a new fragment function: %@ with error: %@"
+- " [1.512.1] #%04llx %s : ERROR: Failed creating a new function with _useCustomMatrix=%d, _p3CSC=%d, _applyYGamma=%d"
+- " [1.512.1] #%04llx %s : ERROR: Failed creating a new function with dolby84=%d, forLLDoVi=%d input=%d output=%d"
+- " [1.512.1] #%04llx %s : ERROR: Failed creating a new function: %@"
+- " [1.512.1] #%04llx %s : ERROR: Failed creating a new function: %@ with error: %@"
+- " [1.512.1] #%04llx %s : ERROR: Failed creating a new vertex function: %@ with error: %@"
+- " [1.512.1] #%04llx %s : ERROR: Failed to create backward DM Kernel: fragment[%p]=%@, vertex[%p]=%@, with error: %@"
+- " [1.512.1] #%04llx %s : ERROR: Failed to create forward DM Kernel: %@ with error: %@"
+- " [1.512.1] #%04llx %s : Error: Unsupported DoVi81 state: _hdrMode = %d, _displayType = %d, hasRPUData = %d, hasHDR10PlusSEIData = %d"
+- " [1.512.1] #%04llx %s : Error: Unsupported input: operation=0x%x, input=%c%c%c%c [%c%c%c%c]"
+- " [1.512.1] #%04llx %s : Failed to create HDRProcessorImpl\n"
+- " [1.512.1] #%04llx %s : Failed to create sampler for composer"
+- " [1.512.1] #%04llx %s : Failed with setupInputTexturesWithBL\n"
+- " [1.512.1] #%04llx %s : Failed with setupOutputTexturesWithBuffer\n"
+- " [1.512.1] #%04llx %s : HDR error: Failed to create MTLTexture For _metadataTextures[%d][%d]=%p\n"
+- " [1.512.1] #%04llx %s : Initialization Failed, self = %p\n"
+- " [1.512.1] #%04llx %s : Initialization Failed, self=%p\n"
+- " [1.512.1] #%04llx %s : encoder=%p, out of encoder resource"
+- " [1.512.1] #%04llx %s : error, device = %p, _device=%p\n"
+- " [1.512.1] #%04llx %s : error, self = %p \n"
+- " [1.512.1] #%04llx %s : failed with error %d\n"
+- " [1.512.1] #%04llx %s : format (%d) %c%c%c%c [%c%c%c%c]is not supported yet\n"
+- " [1.512.1] #%04llx %s : layer0=%p, layer1=%p, output=%p, metatdata=%p"
+- " [1.512.1] #%04llx %s : unknown HDRProcessing hw type %d, switching to GPU"
+- " [1.512.1] #%04llx %s : unsupported input/output pixel formats %c%c%c%c/%c%c%c%c   \n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error ext_block_len[%u] > 256, bail!\n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error in ext_content_adaptive_metadata, EXT_BLOCK_PAYLOAD, bail!\n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error in ext_content_adaptive_metadata, EXT_BLOCK_PAYLOAD2, bail!\n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error in vdr_dm_data_payload, bail!\n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error level=%d, length=%d: invalid!"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error map_idc = %d, bail!\n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error nal_unit_type = %d, bail!\n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error num_blocks_payload2[%d] + num_ext_blocks[%d] > 255, bail!\n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error num_ext_blocks = %d > 254, bail!\n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error remaining_bits[%lu] < length[%u], bail!\n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error reserved_zero_3bits=1, first frame, bail!\n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error rpu_type = %d, bail!\n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error signal_bit_depth = %d, bail!\n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error vdr_rpu_level = %d, nlq_num_pivots_minus2 = %d, bail!\n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error vdr_rpu_level = %d, num_x_partitions_minus1 = %d, bail!\n"
+- " [1.512.1] #%04llx %s: EDRMetaData_RBSP error vdr_rpu_level = %d, num_y_partitions_minus1 = %d, bail!\n"
+- " [1.512.1] #%04llx %s: ERROR: Out of bound! curr_part_idx = %d, y = %d, x = %d, bail!\n"
+- " [1.512.1] #%04llx %s: ERROR: Out of bound! mapping_chroma_format_idc = %d, bail!\n"
+- " [1.512.1] #%04llx %s: ERROR: Out of bound! mmr_order_minus1 = %d, bail!\n"
+- " [1.512.1] #%04llx %s: ERROR: Out of bound! poly_order_minus1 = %d, bail!\n"
+- " [1.512.1] #%04llx %s: ERROR: Out of bound! vdr_rpu_level = %d, num_pivots_minus2[%d] = %d, bail!\n"
+- " [1.512.1] #%04llx %s: calloc failed!\n"
+- " [1.512.1] #%04llx %s: input=%p, options=%p, configCallback=%p"
+- " [1.512.1] #%04llx %s: parsing error remaining_bits = %d, bail!\n"
+- " [1.512.1] #%04llx %s: parsing error, bail!\n"
+- " [1.512.1] #%04llx %s: parsing error: first_byte = %u [legal value = 4 or 181], bail!\n"
+- " [1.512.1] #%04llx %s: parsing error: num_bezier_curve_anchors = %d, bail!\n"
+- " [1.512.1] #%04llx %s: parsing error: num_distributions = %d [legal value = 9], bail!\n"
+- " [1.512.1] #%04llx %s: parsing error: num_windows = %d [legal value = 1], bail!\n"
+- " [1.512.1] #%04llx %s: parsing error: sei_payload_type = %u [legal value = 4], sei_payload_length = %u, actual seiLength = %u, bail!\n"
+- " [1.512.1] #%04llx %s: syntax error: application_identifier = %d"
+- " [1.512.1] #%04llx %s: syntax error: application_version = %d"
+- " [1.512.1] #%04llx %s: syntax error: average_maxrgb = %08x"
+- " [1.512.1] #%04llx %s: syntax error: color_saturation_mapping_flag = %d"
+- " [1.512.1] #%04llx %s: syntax error: distribution_index[%d]:%d != k_distribution_index[%d]:%d"
+- " [1.512.1] #%04llx %s: syntax error: distribution_values[%d] = %08x"
+- " [1.512.1] #%04llx %s: syntax error: itu_t_t35_country_code = %02x"
+- " [1.512.1] #%04llx %s: syntax error: itu_t_t35_terminal_provider_code = %04x"
+- " [1.512.1] #%04llx %s: syntax error: itu_t_t35_terminal_provider_oriented_code = %d"
+- " [1.512.1] #%04llx %s: syntax error: mastering_display_actual_peak_luminance_flag = %d"
+- " [1.512.1] #%04llx %s: syntax error: maxscl[%d] = %08x"
+- " [1.512.1] #%04llx %s: syntax error: targeted_system_display_actual_peak_luminance_flag = %d"
+- " [1.512.1] #%04llx %s: warning: fraction_bright_pixels = %d"
+- " [1.512.1] #%04llx ++ %s : MSR created! instance=%p, platform=0x%x\n"
+- " [1.512.1] #%04llx ++ %s : instance=%p _composer=%p _msr=%p"
+- " [1.512.1] #%04llx ++ %s: MSRApiVer=%d\n"
+- " [1.512.1] #%04llx -- %s : Failed with error %d, _numberOfScheduledFrames=%ld\n"
+- " [1.512.1] #%04llx -- %s: HDRProcessor exit! instance=%p\n"
+- " [1.512.1] #%04llx -- %s: MSR exit! instance=%p\n"
+- " [1.512.1] #%04llx --------------------------------------------------------\n"
+- " [1.512.1] #%04llx -----------------------------------------------------------------------------------\n"
+- " [1.512.1] #%04llx <<smpte_st_2094_50:dbg>> warning: Failed to parse SMPTE ST 2094-50 metadata, error=%d"
+- " [1.512.1] #%04llx Assertion: \"!_hist\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/hist_based_tone_mapping.mm\" at line 308\n"
+- " [1.512.1] #%04llx Assertion: \"!inputP422\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1814\n"
+- " [1.512.1] #%04llx Assertion: \"!inputP422\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1988\n"
+- " [1.512.1] #%04llx Assertion: \"!ptvMode\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 3613\n"
+- " [1.512.1] #%04llx Assertion: \"(msrHC->operation == ((HDRProcessingOperation)(kHDRProcessingReshape | kHDRProcessingToneMap)))\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 3019\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1228\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1379\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1406\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1439\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 477\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 860\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1818\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1821\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1827\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1983\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1998\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2002\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2005\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2011\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2020\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/SpatialResampler.m\" at line 212\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/SpatialResampler.m\" at line 243\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 3441\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 3539\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 3778\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 4859\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 5119\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6803\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6833\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 2641\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 4254\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/MetaPacket/DolbyVisionHDMIPacket.mm\" at line 619\n"
+- " [1.512.1] #%04llx Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/MetaPacket/DolbyVisionHDMIPacket.mm\" at line 678\n"
+- " [1.512.1] #%04llx Assertion: \"HDR10OnHDR10TV || DolbyOnHDR10TV\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2032\n"
+- " [1.512.1] #%04llx Assertion: \"HLGOnHDR10TV\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1804\n"
+- " [1.512.1] #%04llx Assertion: \"IOSurfaceGetID(surface) == IOSurfaceGetID(buf)\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 4182\n"
+- " [1.512.1] #%04llx Assertion: \"IOSurfaceGetID(surface)==IOSurfaceGetID(buf)\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 4197\n"
+- " [1.512.1] #%04llx Assertion: \"_currentPolynomialTable\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2027\n"
+- " [1.512.1] #%04llx Assertion: \"_displayType != kHDRDestinationSDRTV\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 2921\n"
+- " [1.512.1] #%04llx Assertion: \"_hdrMode == kHDRContentDolbyVision\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 1890\n"
+- " [1.512.1] #%04llx Assertion: \"_hdrMode == kHDRContentDolbyVision\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 1922\n"
+- " [1.512.1] #%04llx Assertion: \"_metadataVertexBuffer\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 2515\n"
+- " [1.512.1] #%04llx Assertion: \"_msrHC.processingType == kHDRProcessingTypeConvert\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 785\n"
+- " [1.512.1] #%04llx Assertion: \"_vertsBuffer\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 2476\n"
+- " [1.512.1] #%04llx Assertion: \"bufferT && bufferS\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 2640\n"
+- " [1.512.1] #%04llx Assertion: \"bufferT && bufferS\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 2688\n"
+- " [1.512.1] #%04llx Assertion: \"cmp != 0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingByCapabilities.mm\" at line 328\n"
+- " [1.512.1] #%04llx Assertion: \"cmp != 0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingT2.mm\" at line 185\n"
+- " [1.512.1] #%04llx Assertion: \"dm_config_ptr->dmVersion == 4\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 3040\n"
+- " [1.512.1] #%04llx Assertion: \"hasThreeOutputPlane || has10BitOutput\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1181\n"
+- " [1.512.1] #%04llx Assertion: \"hdrCtrl->colourPrimaries == kIOSurfaceTagColorPrimaries_ITU_R_2020\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6950\n"
+- " [1.512.1] #%04llx Assertion: \"hdrCtrl->colourPrimaries == kIOSurfaceTagColorPrimaries_ITU_R_709_2\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 8656\n"
+- " [1.512.1] #%04llx Assertion: \"hdrCtrl->displayPipelineCompensationType != kDisplayPipelineCompensationTypeNoneHeadrooomDependent && hdrCtrl->displayPipelineCompensationType != kDisplayPipelineCompensationTypeHeadroomDependent\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6070\n"
+- " [1.512.1] #%04llx Assertion: \"hdrCtrl->transferFunction != kIOSurfaceTagColorTransferFunction_ITU_R_2100_HLG\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Engine/ProcessingEngine.mm\" at line 356\n"
+- " [1.512.1] #%04llx Assertion: \"hdrCtrl->transferFunction != kIOSurfaceTagColorTransferFunction_ITU_R_2100_HLG\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2225\n"
+- " [1.512.1] #%04llx Assertion: \"isConversionInputRgb(msrHC) || isConversionInputYuv(msrHC) || isConversionInputIpt(msrHC)\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2994\n"
+- " [1.512.1] #%04llx Assertion: \"isConversionOutputYuv(msrHC)\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 5539\n"
+- " [1.512.1] #%04llx Assertion: \"isGPUtoHDR10TV\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 1460\n"
+- " [1.512.1] #%04llx Assertion: \"isTonemappingEnabled(msrHC)\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 4562\n"
+- " [1.512.1] #%04llx Assertion: \"metadata->mapping_idc[0][0][cmp][0] == 0 || metadata->mapping_idc[0][0][cmp][0] == 1\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingByCapabilities.mm\" at line 313\n"
+- " [1.512.1] #%04llx Assertion: \"metadata->mapping_idc[0][0][cmp][0] == 0 || metadata->mapping_idc[0][0][cmp][0] == 1\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingT2.mm\" at line 170\n"
+- " [1.512.1] #%04llx Assertion: \"mid_tap_h >= 4 && mid_tap_v >= 1\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 252\n"
+- " [1.512.1] #%04llx Assertion: \"msrHC->enableConverting && !msrHC->enableToneMapping\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2993\n"
+- " [1.512.1] #%04llx Assertion: \"msrHC->processingType == kHDRProcessingTypeDoVi || msrHC->processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 4608\n"
+- " [1.512.1] #%04llx Assertion: \"msrHC->processingType == kHDRProcessingTypeDoVi || msrHC->processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 5161\n"
+- " [1.512.1] #%04llx Assertion: \"overrideHLGOOTFMixingStartTdivNits >= 100.0f\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/dovi_display_management_host.mm\" at line 717\n"
+- " [1.512.1] #%04llx Assertion: \"overrideHLGOOTFMixingStartTdivNits >= 100.0f\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/hlg_display_management_host.mm\" at line 121\n"
+- " [1.512.1] #%04llx Assertion: \"polyBuf && mmrCoefBuf\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingByCapabilities.mm\" at line 310\n"
+- " [1.512.1] #%04llx Assertion: \"polyBuf && mmrCoefBuf\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingT2.mm\" at line 167\n"
+- " [1.512.1] #%04llx Assertion: \"processingType == kHDRProcessingTypeDoVi || processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Engine/ProcessingEngine.mm\" at line 370\n"
+- " [1.512.1] #%04llx Assertion: \"processingType == kHDRProcessingTypeDoVi || processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Engine/ProcessingEngine.mm\" at line 425\n"
+- " [1.512.1] #%04llx Assertion: \"processingType == kHDRProcessingTypeDoVi || processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2228\n"
+- " [1.512.1] #%04llx Assertion: \"retVal == 0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 4500\n"
+- " [1.512.1] #%04llx Assertion: \"sMaxPq <= L2PqNorm(4000)\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 7468\n"
+- " [1.512.1] #%04llx Assertion: \"sMinPq >= L2PqNorm(0.005)\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 7469\n"
+- " [1.512.1] #%04llx Assertion: \"sdrOnDolbyOrHDR10 == __objc_no\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1775\n"
+- " [1.512.1] #%04llx Assertion: \"sdrOnDolbyOrHDR10 == __objc_no\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1782\n"
+- " [1.512.1] #%04llx Assertion: \"tableSize == 1024\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/common_display_management_host.mm\" at line 3730\n"
+- " [1.512.1] #%04llx Assertion: \"y1 == y2\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 2613\n"
+- " [1.512.1] #%04llx Constraint changed to: %s"
+- " [1.512.1] #%04llx Constraint: #=%d F=%d C=%d T=%d NP=%d(%2.4f - %2.4f)"
+- " [1.512.1] #%04llx Constraint: %s"
+- " [1.512.1] #%04llx ContentType: %s, sr=%d"
+- " [1.512.1] #%04llx HDRConfig: Frame #%d: configDumpStyle = %d (%s), configDumpLevel = %d, configDumpFlag = %d\n"
+- " [1.512.1] #%04llx Incorrect mode usage : %d _hdrMode = %d"
+- " [1.512.1] #%04llx MR81: Error: BuildInterpInfo TrimLevel must be 8"
+- " [1.512.1] #%04llx MR81: Error: BuildLumaXInfo trimNum=0"
+- " [1.512.1] #%04llx MR81: Error: GetMdsExtMr mr->mdsBase.mdsLen < 71"
+- " [1.512.1] #%04llx MR81: Error: GetRgb2XyzM33, unsupported rgbDef:%d"
+- " [1.512.1] #%04llx MR81: Error: InterpL2 MDSEXT_HAVE_LVL_L0 is false"
+- " [1.512.1] #%04llx MR81: Error: InterpL8 MDSEXT_HAVE_LVL_L0 is false"
+- " [1.512.1] #%04llx MR81: Error: MrGetMdsExtFxpMr extLen < 0"
+- " [1.512.1] #%04llx MR81: Error: MrGetMdsExtFxpMr mdsLen < 0"
+- " [1.512.1] #%04llx MR81: Error: PrepareL2 MDSEXT_HAVE_LVL_L0 is false"
+- " [1.512.1] #%04llx MR81: Error: PrepareL8 MDSEXT_HAVE_LVL_L0 is false"
+- " [1.512.1] #%04llx MR81: metadataReconstruction: Error: GetMdsExtFxpMr ret = %d"
+- " [1.512.1] #%04llx MR81: metadataReconstruction: Error: ParseMds ret = %d"
+- " [1.512.1] #%04llx MR81: metadataReconstruction: Error: ret = %d"
+- " [1.512.1] #%04llx MR81: metadataReconstruction: Error: unmapped, hasMMRData=%d"
+- " [1.512.1] #%04llx MR81: metadataReconstruction: Warning: GetMdsExtFxpMr ret = %d [no change]"
+- " [1.512.1] #%04llx MR81: metadataReconstruction: Warning: RGBtoLMS_coef [%d][%d] changed, %d/%d"
+- " [1.512.1] #%04llx MR81: metadataReconstruction: Warning: YCCtoRGB_coef [%d][%d] changed, %d/%d"
+- " [1.512.1] #%04llx MR81: metadataReconstruction: Warning: YCCtoRGB_offset[%d] changed, %u/%u"
+- " [1.512.1] #%04llx MR81: metadataReconstruction: Warning: ret = %d [no change]"
+- " [1.512.1] #%04llx Memory allocation for  histBinCentroidInLinear failed"
+- " [1.512.1] #%04llx Memory allocation for _cdf failed"
+- " [1.512.1] #%04llx Memory allocation for _fullRangeBinIdx8bit failed"
+- " [1.512.1] #%04llx Memory allocation for _histBinMlmInPQ failed"
+- " [1.512.1] #%04llx Memory allocation for _sdrHdrMlmLut_x failed"
+- " [1.512.1] #%04llx Memory allocation for _sdrHdrMlmLut_y failed"
+- " [1.512.1] #%04llx Memory allocation for avgValBuffer failed"
+- " [1.512.1] #%04llx Memory allocation for fullRangeBinIdx failed"
+- " [1.512.1] #%04llx Memory allocation for histBinCenter failed"
+- " [1.512.1] #%04llx Memory allocation for histBuff failed"
+- " [1.512.1] #%04llx Memory allocation for hlgBinCenterInPQ failed"
+- " [1.512.1] #%04llx Memory allocation for maxValBuffer failed"
+- " [1.512.1] #%04llx Memory allocation for minValBuffer failed"
+- " [1.512.1] #%04llx Memory allocation for normHist failed"
+- " [1.512.1] #%04llx Memory allocation for pcntVal failed"
+- " [1.512.1] #%04llx Memory allocation for pqBinCenterInPQ failed"
+- " [1.512.1] #%04llx Memory allocation for prctVal failed"
+- " [1.512.1] #%04llx Memory allocation for prctValBuffer failed"
+- " [1.512.1] #%04llx Memory allocation for prctValBuffer[i] failed"
+- " [1.512.1] #%04llx Memory allocation for prevNormHistHeight failed"
+- " [1.512.1] #%04llx Memory allocation for sdrBinCenterInPQ failed"
+- " [1.512.1] #%04llx Memory allocation for stdValBuffer failed"
+- " [1.512.1] #%04llx Memory allocation for targetMaxBuffer failed"
+- " [1.512.1] #%04llx Memory allocation for testpatchHistBuff failed"
+- " [1.512.1] #%04llx Not supported type=%d\n"
+- " [1.512.1] #%04llx ToneMapLUT_xsamples memory allocation failed!"
+- " [1.512.1] #%04llx ToneMapLUT_ysamples memory allocation failed!"
+- " [1.512.1] #%04llx ToneMapMixFactorLUT_xsamples memory allocation failed!"
+- " [1.512.1] #%04llx ToneMapMixFactorLUT_ysamples memory allocation failed!"
+- " [1.512.1] #%04llx WARNING: calcCubicSplineParam: delta == 0"
+- " [1.512.1] #%04llx WARNING: cubicSplineInterp: delta == 0"
+- " [1.512.1] #%04llx Warning: Attempting to read defaults writes in release builds! key = \"%@\"\n"
+- " [1.512.1] #%04llx [frame_%llu] scheduled2completed: avg: %5.1f, max: %5.1f [in ms], [ %d : %d ]\n"
+- " [1.512.1] #%04llx _width=%d, _targetWidth=%d, _height=%d, _targetHeight=%d"
+- " [1.512.1] #%04llx checkInputOutputIOSurface() failed!"
+- " [1.512.1] #%04llx commanBuffer=%p, output=%p, input=%p, ui=%p"
+- " [1.512.1] #%04llx failed due to metalDevice change!"
+- " [1.512.1] #%04llx hcr : %s"
+- " [1.512.1] #%04llx hcr changes to: %s"
+- " [1.512.1] #%04llx hcrUseSystemBrightnessForCaptureContent : %s"
+- " [1.512.1] #%04llx hcrUseSystemBrightnessForCaptureContent changes to: %s"
+- " [1.512.1] #%04llx hcrUseSystemBrightnessForProContent : %s"
+- " [1.512.1] #%04llx hcrUseSystemBrightnessForProContent changes to: %s"
+- " [1.512.1] #%04llx hdrMaxBrightnessInNits was forced to %f!"
+- " [1.512.1] #%04llx sdrMaxBrightnessInNits was forced to %f!"
+- " [1.512.1] %s : ERROR: Failed creating a new fragment function: %@ with error: %@"
+- " [1.512.1] %s : ERROR: Failed creating a new function with _useCustomMatrix=%d, _p3CSC=%d, _applyYGamma=%d"
+- " [1.512.1] %s : ERROR: Failed creating a new function with dolby84=%d, forLLDoVi=%d input=%d output=%d"
+- " [1.512.1] %s : ERROR: Failed creating a new function: %@"
+- " [1.512.1] %s : ERROR: Failed creating a new function: %@ with error: %@"
+- " [1.512.1] %s : ERROR: Failed creating a new vertex function: %@ with error: %@"
+- " [1.512.1] %s : ERROR: Failed to create backward DM Kernel: fragment[%p]=%@, vertex[%p]=%@, with error: %@"
+- " [1.512.1] %s : ERROR: Failed to create forward DM Kernel: %@ with error: %@"
+- " [1.512.1] %s : Error: Unsupported DoVi81 state: _hdrMode = %d, _displayType = %d, hasRPUData = %d, hasHDR10PlusSEIData = %d"
+- " [1.512.1] %s : Error: Unsupported input: operation=0x%x, input=%c%c%c%c [%c%c%c%c]"
+- " [1.512.1] %s : Failed to create HDRProcessorImpl\n"
+- " [1.512.1] %s : Failed to create sampler for composer"
+- " [1.512.1] %s : Failed with setupInputTexturesWithBL\n"
+- " [1.512.1] %s : Failed with setupOutputTexturesWithBuffer\n"
+- " [1.512.1] %s : HDR error: Failed to create MTLTexture For _metadataTextures[%d][%d]=%p\n"
+- " [1.512.1] %s : Initialization Failed, self = %p\n"
+- " [1.512.1] %s : Initialization Failed, self=%p\n"
+- " [1.512.1] %s : encoder=%p, out of encoder resource"
+- " [1.512.1] %s : error, device = %p, _device=%p\n"
+- " [1.512.1] %s : error, self = %p \n"
+- " [1.512.1] %s : failed with error %d\n"
+- " [1.512.1] %s : format (%d) %c%c%c%c [%c%c%c%c]is not supported yet\n"
+- " [1.512.1] %s : layer0=%p, layer1=%p, output=%p, metatdata=%p"
+- " [1.512.1] %s : unknown HDRProcessing hw type %d, switching to GPU"
+- " [1.512.1] %s : unsupported input/output pixel formats %c%c%c%c/%c%c%c%c   \n"
+- " [1.512.1] %s: EDRMetaData_RBSP error ext_block_len[%u] > 256, bail!\n"
+- " [1.512.1] %s: EDRMetaData_RBSP error in ext_content_adaptive_metadata, EXT_BLOCK_PAYLOAD, bail!\n"
+- " [1.512.1] %s: EDRMetaData_RBSP error in ext_content_adaptive_metadata, EXT_BLOCK_PAYLOAD2, bail!\n"
+- " [1.512.1] %s: EDRMetaData_RBSP error in vdr_dm_data_payload, bail!\n"
+- " [1.512.1] %s: EDRMetaData_RBSP error level=%d, length=%d: invalid!"
+- " [1.512.1] %s: EDRMetaData_RBSP error map_idc = %d, bail!\n"
+- " [1.512.1] %s: EDRMetaData_RBSP error nal_unit_type = %d, bail!\n"
+- " [1.512.1] %s: EDRMetaData_RBSP error num_blocks_payload2[%d] + num_ext_blocks[%d] > 255, bail!\n"
+- " [1.512.1] %s: EDRMetaData_RBSP error num_ext_blocks = %d > 254, bail!\n"
+- " [1.512.1] %s: EDRMetaData_RBSP error remaining_bits[%lu] < length[%u], bail!\n"
+- " [1.512.1] %s: EDRMetaData_RBSP error reserved_zero_3bits=1, first frame, bail!\n"
+- " [1.512.1] %s: EDRMetaData_RBSP error rpu_type = %d, bail!\n"
+- " [1.512.1] %s: EDRMetaData_RBSP error signal_bit_depth = %d, bail!\n"
+- " [1.512.1] %s: EDRMetaData_RBSP error vdr_rpu_level = %d, nlq_num_pivots_minus2 = %d, bail!\n"
+- " [1.512.1] %s: EDRMetaData_RBSP error vdr_rpu_level = %d, num_x_partitions_minus1 = %d, bail!\n"
+- " [1.512.1] %s: EDRMetaData_RBSP error vdr_rpu_level = %d, num_y_partitions_minus1 = %d, bail!\n"
+- " [1.512.1] %s: ERROR: Out of bound! curr_part_idx = %d, y = %d, x = %d, bail!\n"
+- " [1.512.1] %s: ERROR: Out of bound! mapping_chroma_format_idc = %d, bail!\n"
+- " [1.512.1] %s: ERROR: Out of bound! mmr_order_minus1 = %d, bail!\n"
+- " [1.512.1] %s: ERROR: Out of bound! poly_order_minus1 = %d, bail!\n"
+- " [1.512.1] %s: ERROR: Out of bound! vdr_rpu_level = %d, num_pivots_minus2[%d] = %d, bail!\n"
+- " [1.512.1] %s: calloc failed!\n"
+- " [1.512.1] %s: input=%p, options=%p, configCallback=%p"
+- " [1.512.1] %s: parsing error remaining_bits = %d, bail!\n"
+- " [1.512.1] %s: parsing error, bail!\n"
+- " [1.512.1] %s: parsing error: first_byte = %u [legal value = 4 or 181], bail!\n"
+- " [1.512.1] %s: parsing error: num_bezier_curve_anchors = %d, bail!\n"
+- " [1.512.1] %s: parsing error: num_distributions = %d [legal value = 9], bail!\n"
+- " [1.512.1] %s: parsing error: num_windows = %d [legal value = 1], bail!\n"
+- " [1.512.1] %s: parsing error: sei_payload_type = %u [legal value = 4], sei_payload_length = %u, actual seiLength = %u, bail!\n"
+- " [1.512.1] %s: syntax error: application_identifier = %d"
+- " [1.512.1] %s: syntax error: application_version = %d"
+- " [1.512.1] %s: syntax error: average_maxrgb = %08x"
+- " [1.512.1] %s: syntax error: color_saturation_mapping_flag = %d"
+- " [1.512.1] %s: syntax error: distribution_index[%d]:%d != k_distribution_index[%d]:%d"
+- " [1.512.1] %s: syntax error: distribution_values[%d] = %08x"
+- " [1.512.1] %s: syntax error: itu_t_t35_country_code = %02x"
+- " [1.512.1] %s: syntax error: itu_t_t35_terminal_provider_code = %04x"
+- " [1.512.1] %s: syntax error: itu_t_t35_terminal_provider_oriented_code = %d"
+- " [1.512.1] %s: syntax error: mastering_display_actual_peak_luminance_flag = %d"
+- " [1.512.1] %s: syntax error: maxscl[%d] = %08x"
+- " [1.512.1] %s: syntax error: targeted_system_display_actual_peak_luminance_flag = %d"
+- " [1.512.1] %s: warning: fraction_bright_pixels = %d"
+- " [1.512.1] ++ %s : MSR created! instance=%p, platform=0x%x\n"
+- " [1.512.1] ++ %s : instance=%p _composer=%p _msr=%p"
+- " [1.512.1] ++ %s: MSRApiVer=%d\n"
+- " [1.512.1] -- %s : Failed with error %d, _numberOfScheduledFrames=%ld\n"
+- " [1.512.1] -- %s: HDRProcessor exit! instance=%p\n"
+- " [1.512.1] -- %s: MSR exit! instance=%p\n"
+- " [1.512.1] --------------------------------------------------------\n"
+- " [1.512.1] -----------------------------------------------------------------------------------\n"
+- " [1.512.1] <<smpte_st_2094_50:dbg>> warning: Failed to parse SMPTE ST 2094-50 metadata, error=%d"
+- " [1.512.1] Assertion: \"!_hist\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/hist_based_tone_mapping.mm\" at line 308\n"
+- " [1.512.1] Assertion: \"!inputP422\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1814\n"
+- " [1.512.1] Assertion: \"!inputP422\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1988\n"
+- " [1.512.1] Assertion: \"!ptvMode\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 3613\n"
+- " [1.512.1] Assertion: \"(msrHC->operation == ((HDRProcessingOperation)(kHDRProcessingReshape | kHDRProcessingToneMap)))\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 3019\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1228\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1379\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1406\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Config/HDRConfig.cpp\" at line 1439\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 477\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 860\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1818\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1821\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1827\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1983\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1998\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2002\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2005\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2011\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2020\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/SpatialResampler.m\" at line 212\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/SpatialResampler.m\" at line 243\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 3441\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 3539\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 3778\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 4859\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 5119\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6803\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6833\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 2641\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 4254\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/MetaPacket/DolbyVisionHDMIPacket.mm\" at line 619\n"
+- " [1.512.1] Assertion: \"0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/MetaPacket/DolbyVisionHDMIPacket.mm\" at line 678\n"
+- " [1.512.1] Assertion: \"HDR10OnHDR10TV || DolbyOnHDR10TV\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2032\n"
+- " [1.512.1] Assertion: \"HLGOnHDR10TV\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1804\n"
+- " [1.512.1] Assertion: \"IOSurfaceGetID(surface) == IOSurfaceGetID(buf)\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 4182\n"
+- " [1.512.1] Assertion: \"IOSurfaceGetID(surface)==IOSurfaceGetID(buf)\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 4197\n"
+- " [1.512.1] Assertion: \"_currentPolynomialTable\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 2027\n"
+- " [1.512.1] Assertion: \"_displayType != kHDRDestinationSDRTV\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 2921\n"
+- " [1.512.1] Assertion: \"_hdrMode == kHDRContentDolbyVision\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 1890\n"
+- " [1.512.1] Assertion: \"_hdrMode == kHDRContentDolbyVision\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/HDRProcessorMetal.mm\" at line 1922\n"
+- " [1.512.1] Assertion: \"_metadataVertexBuffer\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 2515\n"
+- " [1.512.1] Assertion: \"_msrHC.processingType == kHDRProcessingTypeConvert\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 785\n"
+- " [1.512.1] Assertion: \"_vertsBuffer\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 2476\n"
+- " [1.512.1] Assertion: \"bufferT && bufferS\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 2640\n"
+- " [1.512.1] Assertion: \"bufferT && bufferS\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 2688\n"
+- " [1.512.1] Assertion: \"cmp != 0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingByCapabilities.mm\" at line 328\n"
+- " [1.512.1] Assertion: \"cmp != 0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingT2.mm\" at line 185\n"
+- " [1.512.1] Assertion: \"dm_config_ptr->dmVersion == 4\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 3040\n"
+- " [1.512.1] Assertion: \"hasThreeOutputPlane || has10BitOutput\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1181\n"
+- " [1.512.1] Assertion: \"hdrCtrl->colourPrimaries == kIOSurfaceTagColorPrimaries_ITU_R_2020\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6950\n"
+- " [1.512.1] Assertion: \"hdrCtrl->colourPrimaries == kIOSurfaceTagColorPrimaries_ITU_R_709_2\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 8656\n"
+- " [1.512.1] Assertion: \"hdrCtrl->displayPipelineCompensationType != kDisplayPipelineCompensationTypeNoneHeadrooomDependent && hdrCtrl->displayPipelineCompensationType != kDisplayPipelineCompensationTypeHeadroomDependent\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 6070\n"
+- " [1.512.1] Assertion: \"hdrCtrl->transferFunction != kIOSurfaceTagColorTransferFunction_ITU_R_2100_HLG\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Engine/ProcessingEngine.mm\" at line 356\n"
+- " [1.512.1] Assertion: \"hdrCtrl->transferFunction != kIOSurfaceTagColorTransferFunction_ITU_R_2100_HLG\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2225\n"
+- " [1.512.1] Assertion: \"isConversionInputRgb(msrHC) || isConversionInputYuv(msrHC) || isConversionInputIpt(msrHC)\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2994\n"
+- " [1.512.1] Assertion: \"isConversionOutputYuv(msrHC)\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 5539\n"
+- " [1.512.1] Assertion: \"isGPUtoHDR10TV\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 1460\n"
+- " [1.512.1] Assertion: \"isTonemappingEnabled(msrHC)\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 4562\n"
+- " [1.512.1] Assertion: \"metadata->mapping_idc[0][0][cmp][0] == 0 || metadata->mapping_idc[0][0][cmp][0] == 1\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingByCapabilities.mm\" at line 313\n"
+- " [1.512.1] Assertion: \"metadata->mapping_idc[0][0][cmp][0] == 0 || metadata->mapping_idc[0][0][cmp][0] == 1\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingT2.mm\" at line 170\n"
+- " [1.512.1] Assertion: \"mid_tap_h >= 4 && mid_tap_v >= 1\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 252\n"
+- " [1.512.1] Assertion: \"msrHC->enableConverting && !msrHC->enableToneMapping\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2993\n"
+- " [1.512.1] Assertion: \"msrHC->processingType == kHDRProcessingTypeDoVi || msrHC->processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 4608\n"
+- " [1.512.1] Assertion: \"msrHC->processingType == kHDRProcessingTypeDoVi || msrHC->processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 5161\n"
+- " [1.512.1] Assertion: \"overrideHLGOOTFMixingStartTdivNits >= 100.0f\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/dovi_display_management_host.mm\" at line 717\n"
+- " [1.512.1] Assertion: \"overrideHLGOOTFMixingStartTdivNits >= 100.0f\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/hlg_display_management_host.mm\" at line 121\n"
+- " [1.512.1] Assertion: \"polyBuf && mmrCoefBuf\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingByCapabilities.mm\" at line 310\n"
+- " [1.512.1] Assertion: \"polyBuf && mmrCoefBuf\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingT2.mm\" at line 167\n"
+- " [1.512.1] Assertion: \"processingType == kHDRProcessingTypeDoVi || processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Engine/ProcessingEngine.mm\" at line 370\n"
+- " [1.512.1] Assertion: \"processingType == kHDRProcessingTypeDoVi || processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Engine/ProcessingEngine.mm\" at line 425\n"
+- " [1.512.1] Assertion: \"processingType == kHDRProcessingTypeDoVi || processingType == kHDRProcessingTypeDoVi84\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/MSR/MSRHDRProcessingImpl.mm\" at line 2228\n"
+- " [1.512.1] Assertion: \"retVal == 0\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/BackwardDisplayManagement/HDRBackwardDisplayManagement.mm\" at line 4500\n"
+- " [1.512.1] Assertion: \"sMaxPq <= L2PqNorm(4000)\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 7468\n"
+- " [1.512.1] Assertion: \"sMinPq >= L2PqNorm(0.005)\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 7469\n"
+- " [1.512.1] Assertion: \"sdrOnDolbyOrHDR10 == __objc_no\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1775\n"
+- " [1.512.1] Assertion: \"sdrOnDolbyOrHDR10 == __objc_no\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm\" at line 1782\n"
+- " [1.512.1] Assertion: \"tableSize == 1024\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/common_display_management_host.mm\" at line 3730\n"
+- " [1.512.1] Assertion: \"y1 == y2\" warned in \"/AppleInternal/Library/BuildRoots/4~CQCUugBCnG82yhn38l4tbZOtH3xXc2dAMx0uF1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.xz6ciw/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm\" at line 2613\n"
+- " [1.512.1] Constraint changed to: %s"
+- " [1.512.1] Constraint: #=%d F=%d C=%d T=%d NP=%d(%2.4f - %2.4f)"
+- " [1.512.1] Constraint: %s"
+- " [1.512.1] ContentType: %s, sr=%d"
+- " [1.512.1] HDRConfig: Frame #%d: configDumpStyle = %d (%s), configDumpLevel = %d, configDumpFlag = %d\n"
+- " [1.512.1] Incorrect mode usage : %d _hdrMode = %d"
+- " [1.512.1] MR81: Error: BuildInterpInfo TrimLevel must be 8"
+- " [1.512.1] MR81: Error: BuildLumaXInfo trimNum=0"
+- " [1.512.1] MR81: Error: GetMdsExtMr mr->mdsBase.mdsLen < 71"
+- " [1.512.1] MR81: Error: GetRgb2XyzM33, unsupported rgbDef:%d"
+- " [1.512.1] MR81: Error: InterpL2 MDSEXT_HAVE_LVL_L0 is false"
+- " [1.512.1] MR81: Error: InterpL8 MDSEXT_HAVE_LVL_L0 is false"
+- " [1.512.1] MR81: Error: MrGetMdsExtFxpMr extLen < 0"
+- " [1.512.1] MR81: Error: MrGetMdsExtFxpMr mdsLen < 0"
+- " [1.512.1] MR81: Error: PrepareL2 MDSEXT_HAVE_LVL_L0 is false"
+- " [1.512.1] MR81: Error: PrepareL8 MDSEXT_HAVE_LVL_L0 is false"
+- " [1.512.1] MR81: metadataReconstruction: Error: GetMdsExtFxpMr ret = %d"
+- " [1.512.1] MR81: metadataReconstruction: Error: ParseMds ret = %d"
+- " [1.512.1] MR81: metadataReconstruction: Error: ret = %d"
+- " [1.512.1] MR81: metadataReconstruction: Error: unmapped, hasMMRData=%d"
+- " [1.512.1] MR81: metadataReconstruction: Warning: GetMdsExtFxpMr ret = %d [no change]"
+- " [1.512.1] MR81: metadataReconstruction: Warning: RGBtoLMS_coef [%d][%d] changed, %d/%d"
+- " [1.512.1] MR81: metadataReconstruction: Warning: YCCtoRGB_coef [%d][%d] changed, %d/%d"
+- " [1.512.1] MR81: metadataReconstruction: Warning: YCCtoRGB_offset[%d] changed, %u/%u"
+- " [1.512.1] MR81: metadataReconstruction: Warning: ret = %d [no change]"
+- " [1.512.1] Memory allocation for  histBinCentroidInLinear failed"
+- " [1.512.1] Memory allocation for _cdf failed"
+- " [1.512.1] Memory allocation for _fullRangeBinIdx8bit failed"
+- " [1.512.1] Memory allocation for _histBinMlmInPQ failed"
+- " [1.512.1] Memory allocation for _sdrHdrMlmLut_x failed"
+- " [1.512.1] Memory allocation for _sdrHdrMlmLut_y failed"
+- " [1.512.1] Memory allocation for avgValBuffer failed"
+- " [1.512.1] Memory allocation for fullRangeBinIdx failed"
+- " [1.512.1] Memory allocation for histBinCenter failed"
+- " [1.512.1] Memory allocation for histBuff failed"
+- " [1.512.1] Memory allocation for hlgBinCenterInPQ failed"
+- " [1.512.1] Memory allocation for maxValBuffer failed"
+- " [1.512.1] Memory allocation for minValBuffer failed"
+- " [1.512.1] Memory allocation for normHist failed"
+- " [1.512.1] Memory allocation for pcntVal failed"
+- " [1.512.1] Memory allocation for pqBinCenterInPQ failed"
+- " [1.512.1] Memory allocation for prctVal failed"
+- " [1.512.1] Memory allocation for prctValBuffer failed"
+- " [1.512.1] Memory allocation for prctValBuffer[i] failed"
+- " [1.512.1] Memory allocation for prevNormHistHeight failed"
+- " [1.512.1] Memory allocation for sdrBinCenterInPQ failed"
+- " [1.512.1] Memory allocation for stdValBuffer failed"
+- " [1.512.1] Memory allocation for targetMaxBuffer failed"
+- " [1.512.1] Memory allocation for testpatchHistBuff failed"
+- " [1.512.1] Not supported type=%d\n"
+- " [1.512.1] ToneMapLUT_xsamples memory allocation failed!"
+- " [1.512.1] ToneMapLUT_ysamples memory allocation failed!"
+- " [1.512.1] ToneMapMixFactorLUT_xsamples memory allocation failed!"
+- " [1.512.1] ToneMapMixFactorLUT_ysamples memory allocation failed!"
+- " [1.512.1] WARNING: calcCubicSplineParam: delta == 0"
+- " [1.512.1] WARNING: cubicSplineInterp: delta == 0"
+- " [1.512.1] Warning: Attempting to read defaults writes in release builds! key = \"%@\"\n"
+- " [1.512.1] [frame_%llu] scheduled2completed: avg: %5.1f, max: %5.1f [in ms], [ %d : %d ]\n"
+- " [1.512.1] _width=%d, _targetWidth=%d, _height=%d, _targetHeight=%d"
+- " [1.512.1] checkInputOutputIOSurface() failed!"
+- " [1.512.1] commanBuffer=%p, output=%p, input=%p, ui=%p"
+- " [1.512.1] failed due to metalDevice change!"
+- " [1.512.1] hcr : %s"
+- " [1.512.1] hcr changes to: %s"
+- " [1.512.1] hcrUseSystemBrightnessForCaptureContent : %s"
+- " [1.512.1] hcrUseSystemBrightnessForCaptureContent changes to: %s"
+- " [1.512.1] hcrUseSystemBrightnessForProContent : %s"
+- " [1.512.1] hcrUseSystemBrightnessForProContent changes to: %s"
+- " [1.512.1] hdrMaxBrightnessInNits was forced to %f!"
+- " [1.512.1] sdrMaxBrightnessInNits was forced to %f!"
+
+```

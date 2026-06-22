@@ -1,0 +1,59 @@
+## DiskSpaceDiagnosticsExtension
+
+> `/System/Library/PrivateFrameworks/DiskSpaceDiagnostics.framework/PlugIns/DiskSpaceDiagnosticsExtension.appex/Contents/MacOS/DiskSpaceDiagnosticsExtension`
+
+```diff
+
+-1021.0.0.0.0
+-  __TEXT.__text: 0x1644 sha256:25b12075b4cd34cfcf19b4feb8dfc483580d65926b958bb6e22dc87f03a53906
++1022.0.0.0.0
++  __TEXT.__text: 0x1640 sha256:0dab4f483668d20407f974bc0407208c3b78f3a4a4574da9704c955a9329fcc0
+   __TEXT.__auth_stubs: 0x1d0 sha256:b640cafe6dccff76827a79153833829c1cbe581bf37f53f41ffb508ec5cc5d64
+   __TEXT.__objc_stubs: 0x460 sha256:ab8a1d57091bd7bd018282a935246d9f54059df713338ee74bbbe2e8b7eae0ce
+-  __TEXT.__objc_methlist: 0x15c sha256:8bae46a84ab7efb61b90e28abd6a639653916be27d7cc20be25cad896ca69198
++  __TEXT.__objc_methlist: 0x15c sha256:7c24be245ed4cd1993a94cf8ee405cf8404566923c916a93f95add919c2f2294
+   __TEXT.__cstring: 0x118 sha256:c42cbc7907835d57bcb136eea7a8d9084f2f825fe1cb3c344a26473ed4e8027f
+   __TEXT.__const: 0x30 sha256:03a44229a04a5b16f5f2157b5ace5abb40fa3a18b9207df54e2c9df5382879a0
+   __TEXT.__gcc_except_tab: 0xcc sha256:cd2ae3878612b0a5e57e414d40eedd27e5558d95d2314cd491c441fdcc77d858
+
+   __TEXT.__objc_classname: 0x48 sha256:ffbda3a9d044ca0a388c948d13ad3f4ffab740537582d418d72a2c063776d2e8
+   __TEXT.__objc_methname: 0x5a3 sha256:397926ee29a267be4e838175fb7516fe5ac5de07cae94021512d6bd822095a93
+   __TEXT.__objc_methtype: 0x185 sha256:ccc582986d5877648fe92cc7db4067470c7f17978842c634d0e7a40a08486237
+-  __TEXT.__unwind_info: 0xa8 sha256:7b39fbde5ee39d2b122a7537627019cca9abf45381e322611f49695e2adc0030
+-  __DATA_CONST.__const: 0x70 sha256:0ed3fea0e31190fd0583048e07cd03817fd840d574975904fe96b509943e0068
++  __TEXT.__unwind_info: 0xa8 sha256:e0fa13f3ed2436930aefea220de56e38e8bdc683ea33524e54928b3f0b99b843
++  __DATA_CONST.__const: 0x70 sha256:f2a15278fa1fc357781590307feaf2a189c74380f8a2201193b086f06d0e5ae1
+   __DATA_CONST.__cfstring: 0xa0 sha256:f1229be6ddff2564fe8633146d6b8cbf33243d1881d7c0e872f87e3903ae21f5
+   __DATA_CONST.__objc_classlist: 0x8 sha256:12fc49fddad358e8a170e21d0979a60a62b5c0d308ceec7bdeee1b192f138bf9
+   __DATA_CONST.__objc_protolist: 0x10 sha256:ad9571a8633cfde7a0c8252db97c475d2cf370b9a4d2c57e13a5ff37de6c11f1
+
+   - /System/Library/PrivateFrameworks/DiskSpaceDiagnostics.framework/Versions/A/DiskSpaceDiagnostics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BA1E2BE6-DFC0-357F-A666-8EA5F2219D32
++  UUID: CCB53F5D-3E45-372C-965C-0B368C6CD237
+   Functions: 18
+   Symbols:   229
+   CStrings:  112
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CRbtugBDfTVsrSHrCPEAp5ojBTahiM8yQ4tGLl4/Library/Caches/com.apple.xbs/TemporaryDirectory.ZxnDfe/Binaries/DiskSpaceDiagnostics/install/TempContent/Objects/DiskSpaceDiagnostics.build/DiskSpaceDiagnosticsExtension.build/Objects-normal/arm64e/DSUtils.o
++ /AppleInternal/Library/BuildRoots/4~CRbtugBDfTVsrSHrCPEAp5ojBTahiM8yQ4tGLl4/Library/Caches/com.apple.xbs/TemporaryDirectory.ZxnDfe/Binaries/DiskSpaceDiagnostics/install/TempContent/Objects/DiskSpaceDiagnostics.build/DiskSpaceDiagnosticsExtension.build/Objects-normal/arm64e/DiskSpaceDiagnosticsExtension.o
++ /AppleInternal/Library/BuildRoots/4~CRbtugBDfTVsrSHrCPEAp5ojBTahiM8yQ4tGLl4/Library/Caches/com.apple.xbs/TemporaryDirectory.ZxnDfe/Sources/DiskSpaceDiagnostics/DiskSpaceDiagnosticsExtension/
++ /AppleInternal/Library/BuildRoots/4~CRbtugBDfTVsrSHrCPEAp5ojBTahiM8yQ4tGLl4/Library/Caches/com.apple.xbs/TemporaryDirectory.ZxnDfe/Sources/DiskSpaceDiagnostics/FilesystemMetadataSnapshotService/
+- /AppleInternal/Library/BuildRoots/4~CQCZugAsX0lN9hIUQodYSSUG08-8MGEuQanqqmY/Library/Caches/com.apple.xbs/TemporaryDirectory.bLEnsv/Binaries/DiskSpaceDiagnostics/install/TempContent/Objects/DiskSpaceDiagnostics.build/DiskSpaceDiagnosticsExtension.build/Objects-normal/arm64e/DSUtils.o
+- /AppleInternal/Library/BuildRoots/4~CQCZugAsX0lN9hIUQodYSSUG08-8MGEuQanqqmY/Library/Caches/com.apple.xbs/TemporaryDirectory.bLEnsv/Binaries/DiskSpaceDiagnostics/install/TempContent/Objects/DiskSpaceDiagnostics.build/DiskSpaceDiagnosticsExtension.build/Objects-normal/arm64e/DiskSpaceDiagnosticsExtension.o
+- /AppleInternal/Library/BuildRoots/4~CQCZugAsX0lN9hIUQodYSSUG08-8MGEuQanqqmY/Library/Caches/com.apple.xbs/TemporaryDirectory.bLEnsv/Sources/DiskSpaceDiagnostics/DiskSpaceDiagnosticsExtension/
+- /AppleInternal/Library/BuildRoots/4~CQCZugAsX0lN9hIUQodYSSUG08-8MGEuQanqqmY/Library/Caches/com.apple.xbs/TemporaryDirectory.bLEnsv/Sources/DiskSpaceDiagnostics/FilesystemMetadataSnapshotService/
+Functions:
+~ _shared_diagnostics_extension_log_handle : sha256 cba1867ce825c9272d8806ff17d9d7d3fabb76b273b53b79c96347a663a7666c -> f1251f783707e2b97a57f98cb9c5c4629725e771000d17f68697ff71ba4ab27f
+~ ___shared_diagnostics_extension_log_handle_block_invoke : sha256 dffcd64c316f416e466d5e4fbb66e044fdc8441dbf08c2b7a075c5f599ba8440 -> ee43725e55bca710b9bca75679a9f33e46295e855a1593e43ff2e64a539638fd
+~ -[DiskSpaceDiagnosticsExtension bootedDataVolumePathWithError:] : 2324 -> 2320
+~ _errorForDiskManagementError : sha256 abd5cfe41ae7caa761dc1c33861c37a269ef04d9472dec06b4619de34149e960 -> ae2e803038d34f32c2a580e11d0892a3b8ba02c6c887195dd8e944c2618df60e
+~ -[DiskSpaceDiagnosticsExtension snapshotFilesystemMetadata:progressHandler:] : sha256 e1c8853b95b5df071d6527f98b83d1e0ae8c477abbaac7113deaa714fa8f83e2 -> c32c6151b8499fea51bdc130fab33331ba608964e1d557f0a246a17c7ac8c261
+~ ___76-[DiskSpaceDiagnosticsExtension snapshotFilesystemMetadata:progressHandler:]_block_invoke : sha256 a5bfcc94ca9a8b53a09020018ab8f7d9c446243acdf064e3064cac34ff50edac -> b354e39d0c0c59a0087cc78c8506f76e508e743e23635f1b1e81a8c4eab55e0c
+~ -[DiskSpaceDiagnosticsExtension observeValueForKeyPath:ofObject:change:context:] : sha256 1f78b069e25b7bdd1a8dc5d87d40aeaebf375313c22080a8d616eecfc7509b53 -> cae21c64fdc99b1ba89eb7ec1c618892d6a3f41afb5baa13adef78246caa77d0
+~ -[DiskSpaceDiagnosticsExtension attachmentsForParameters:withProgressHandler:] : sha256 0266b8261de9c7c230b252edf2f9d4c575fca50e3d15974ee42c44c293abb191 -> c609a0eb363a012bbfdfe1d24a579c71458b840d57e6122326154a6c2cec82ac
+~ -[DiskSpaceDiagnosticsExtension bootedDataVolumePathWithError:].cold.1 : sha256 04c93098a9517ab7819ef1c048c7a9bc40fd1131098795658a0fc640a1ce595a -> 52ce3586643b596f302b8d043aaa55133623fcb37f9b22d399ded8856a675048
+~ __76-[DiskSpaceDiagnosticsExtension snapshotFilesystemMetadata:progressHandler:]_block_invoke.cold.2 : sha256 28539078fddd0134d53d6412ed8ac99000575c1c4b26eb46a8dfb391d0b1a843 -> a41c3d22edbdcd285bf9bd923ae463296a02060b3dfc8cbd5ca58d880c5ce02e
+
+```

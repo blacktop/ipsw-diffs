@@ -1,0 +1,63 @@
+## t603x_ane1_fw_erebus_pc5x.im4p
+
+> `Firmware/ane/t603x_ane1_fw_erebus_pc5x.im4p`
+
+```diff
+
+ 
+-  __TEXT.__text: 0xc0f74 sha256:0cebbb0517b1573cb030e78d7f7b70a1f957c1479dea4b70a6b35be4513788d4
+-  __TEXT.__cstring: 0x1dacd sha256:c879b0d7c9e4213b064f8f5ababf84d418d2ab68964a9b6f1ecba71457a1c82d
+-  __TEXT.__const: 0x10268 sha256:2ae4bde7c4993fc959957c1dbb1b669c3129f9a4c816a11a73430b7f104ee032
++  __TEXT.__text: 0xc129c sha256:376f227956ad7d8424c1e576bf0160d0dcdf4688a12a199ebf42dceb6075cfa6
++  __TEXT.__cstring: 0x1dacd sha256:45e911fac321053f69a73f353c41ed573fff74e84752d55d218df8bdf41a0864
++  __TEXT.__const: 0x10264 sha256:36488ab0bd5149b06950d5d7d23a27b05b1616757158be710fca9bd11b6c740a
+   __TEXT.text_env: 0x20 sha256:ccec6a6755d3b54fb0649d9f8531e603b4dc534249da7d022648ded495eb0c43
+   __TEXT.__constructor: 0x0
+   __TEXT.__init_offsets: 0x0
+-  __DATA.__const: 0x5318 sha256:398ac0bf9f9934b82c0b0166cc5a5f539443f55822f4865e902348c3abdf8567
++  __DATA.__const: 0x5318 sha256:7bbca493dacf4a1f84495a60a1cc10fac91dd66baee0bc909d01d5cc6ff20d7b
+   __DATA._rtk_heap: 0x0
+-  __DATA.__data: 0x10f0 sha256:54d88cf2ee3ae0b25faf89a4edd648fc1d3680286b901ad6a310c32a0d0ec889
++  __DATA.__data: 0x10f0 sha256:24946791a3610edff8f0278f07fd75c5cec31066478baa5d642b3ebe2c82a407
+   __DATA._rtk_power: 0x3b8 sha256:3cdc9176b3cf85330d97b2894ab6db6eb32934e9f3fe9bef86c5bbe4501064c7
+   __DATA._rtk_patchbay: 0x241 sha256:74c76b04d94d31a7a160291dd92c7f7d6fbfd17b508b28ae727a198697813490
+   __DATA._rtk_init_stack: 0x10000 sha256:854fb91a21433799707bd85798d5fe48998be2719204088d0d153f31fdb39bd3
+
+   __DATA._rtk_threads: 0x0
+   __DATA._fwinfo: 0x100 sha256:651303f1b8893db5f25f1d74b0ec99b3000a8688ae7df6bbce65eec5d2668df6
+   __DATA._rtk_boot_l1: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __DATA._rtk_mtab: 0x2a0 sha256:28777abe4a93ad4b8699e98d389bc6f6b579ab34cbd1f1916773b32fdcfb599c
++  __DATA._rtk_mtab: 0x2a0 sha256:3646c02dc4c0d2128591ae566c69e78bde7caa43ac902cf588cb5b988c2157db
+   __DATA.__gxf_data: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA.__data_copy: 0x8000 sha256:bb717c6575d9bdbfabf0aa39f934d05c1a573c8f6833859846be893ef38d237b
++  __DATA.__data_copy: 0x8000 sha256:cebd87618b901b76944b35ea33ee01a276fb2baa17a37b0abaf8dff37f97d441
+   __DATA.__sysvars: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA.__mod_init_func: 0x0
+   __DATA.__chain_starts: 0x1c sha256:34ad0037eeeed52409719eaa338e52e5ba49200d6a7fc0c07963f5abebefeb9c
+   __DATA.__zerofill: 0x1c2700 sha256:dbd7e2a1e3209b7914264834f82f4463e09ad552c19280705c64a1fb97c86292
+-  UUID: C0BE37EA-02A4-3782-9942-008AF332CCC0
+-  Functions: 1498
++  UUID: 68DDA193-436F-3A05-BBE6-EEE9F34DA9EE
++  Functions: 1499
+   Symbols:   0
+   CStrings:  3488
+ 
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRbOugA-wK_AYb9GI5uXUZoy-G4xiJbIPk3jBVs/Library/Caches/com.apple.xbs/TemporaryDirectory.ncUp6A/Sources/AppleAneFW/sne/ssi/src/common/CEispInterruptBuffer.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRbOugA-wK_AYb9GI5uXUZoy-G4xiJbIPk3jBVs/Library/Caches/com.apple.xbs/TemporaryDirectory.ncUp6A/Sources/AppleAneFW/sne/ssi/src/common/msgQ.c"
++ "/AppleInternal/Library/BuildRoots/4~CRbOugA-wK_AYb9GI5uXUZoy-G4xiJbIPk3jBVs/Library/Caches/com.apple.xbs/TemporaryDirectory.ncUp6A/Sources/AppleAneFW/sne/ssi/src/rtxc/CWorkTask.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRbOugA-wK_AYb9GI5uXUZoy-G4xiJbIPk3jBVs/Library/Caches/com.apple.xbs/TemporaryDirectory.ncUp6A/Sources/AppleAneFW/sne/ssi/src/rtxc/memObj.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRbOugA-wK_AYb9GI5uXUZoy-G4xiJbIPk3jBVs/Library/Caches/com.apple.xbs/TemporaryDirectory.ncUp6A/Sources/AppleAneFW/sne/ssi/src/rtxc/mutex.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CRbOugA-wK_AYb9GI5uXUZoy-G4xiJbIPk3jBVs/Library/Caches/com.apple.xbs/TemporaryDirectory.ncUp6A/Sources/AppleAneFW/sne/ssi/src/rtxc/sema.cpp"
++ "06:07:30"
++ "Jun  9 2026"
+- "/AppleInternal/Library/BuildRoots/4~CQKYugDguxFB7hev8IATHrCY0rk0sDXg2c0yDDE/Library/Caches/com.apple.xbs/TemporaryDirectory.pl6W5I/Sources/AppleAneFW/sne/ssi/src/common/CEispInterruptBuffer.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQKYugDguxFB7hev8IATHrCY0rk0sDXg2c0yDDE/Library/Caches/com.apple.xbs/TemporaryDirectory.pl6W5I/Sources/AppleAneFW/sne/ssi/src/common/msgQ.c"
+- "/AppleInternal/Library/BuildRoots/4~CQKYugDguxFB7hev8IATHrCY0rk0sDXg2c0yDDE/Library/Caches/com.apple.xbs/TemporaryDirectory.pl6W5I/Sources/AppleAneFW/sne/ssi/src/rtxc/CWorkTask.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQKYugDguxFB7hev8IATHrCY0rk0sDXg2c0yDDE/Library/Caches/com.apple.xbs/TemporaryDirectory.pl6W5I/Sources/AppleAneFW/sne/ssi/src/rtxc/memObj.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQKYugDguxFB7hev8IATHrCY0rk0sDXg2c0yDDE/Library/Caches/com.apple.xbs/TemporaryDirectory.pl6W5I/Sources/AppleAneFW/sne/ssi/src/rtxc/mutex.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQKYugDguxFB7hev8IATHrCY0rk0sDXg2c0yDDE/Library/Caches/com.apple.xbs/TemporaryDirectory.pl6W5I/Sources/AppleAneFW/sne/ssi/src/rtxc/sema.cpp"
+- "00:15:10"
+- "May 23 2026"
+
+```

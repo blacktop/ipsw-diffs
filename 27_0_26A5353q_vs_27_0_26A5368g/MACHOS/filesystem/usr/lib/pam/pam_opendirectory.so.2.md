@@ -1,0 +1,66 @@
+## pam_opendirectory.so.2
+
+> `/usr/lib/pam/pam_opendirectory.so.2`
+
+```diff
+
+-230.0.0.0.0
+-  __TEXT.__text: 0x2080 sha256:d54765e3d31a848737f6ad7e5ff998906ce51c6707e8e20e7ab491203c8a4a14
++231.0.0.0.0
++  __TEXT.__text: 0x20a0 sha256:99e34e6634cfc0136375ab7ad92fe23b515db474430f90d4b2394ee28b4dd51f
+   __TEXT.__auth_stubs: 0x360 sha256:c79a21e26b322dbcbdb067d14c3ed7cf373948f6540c565c037e98afab975bdd
+   __TEXT.__objc_stubs: 0x100 sha256:dc6b35e1cb76074b259d0eb2f4bfb4f646e92d6e64ef6de9cb6b53799bdee953
+-  __TEXT.__init_offsets: 0x4 sha256:7e21789e721441f8b0a4d5a5870b1fa646c7c4db7ab8ffc5d2eebd93ed5bfcd9
++  __TEXT.__init_offsets: 0x4 sha256:b3cf44df27754e335ccd755aabc48c99c61619108584933934c43c6fb60b7a9e
+   __TEXT.__cstring: 0xb11 sha256:07c141b7d3d2ddf5095e279ced495b36d904fcd61627d906bb5da7eae457ea84
+   __TEXT.__const: 0x4e sha256:857c1ef70687fb1ffe9139159ef592d7947d679c319b4fcd6035c332c293d645
+   __TEXT.__objc_methname: 0x77 sha256:27396a97b1bf8ed0c832991dd5972574757595fa687af93d3d88c53c0a3828ee
+-  __TEXT.__unwind_info: 0xb0 sha256:6755406fb30a033cf8a422fe7cf1d24055b33e9d8b6bd35fdb07ff1293b2878c
+-  __DATA_CONST.__cfstring: 0x120 sha256:3a2d4e30ea7e0aaa59bee015d13d53dbe4ab3ffb252f4966e6a9f9e78a8055e7
++  __TEXT.__unwind_info: 0xa8 sha256:bc0678bac55e4689de061899f32749c61ea8db0c83a078ae3d2d848aabcc1141
++  __DATA_CONST.__cfstring: 0x120 sha256:1c8f064bc696f87874fd8190352ac40b7e994cf6813d1460537cfee689889097
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+-  __DATA_CONST.__objc_intobj: 0x18 sha256:f1ef3ef45a72faf56a24f4069a218a48be51d934e64b6af231e33fdae7d2398a
++  __DATA_CONST.__objc_intobj: 0x18 sha256:3b435cb6a460af60c44b5919ebde1d21b43bc9a526c2d2e71d5a92e869a7b6b1
+   __DATA_CONST.__objc_arraydata: 0x10 sha256:cc7e1665262c046c227cb6f58d2593f2a38664f4053c8c8fac2f62012f2ae674
+   __DATA_CONST.__objc_dictobj: 0x28 sha256:7405f4947b577bd1c4db10d5520d8ea4dce025ff95860e1a508f328e3b609e8f
+   __DATA_CONST.__auth_got: 0x1b8 sha256:bd4981b73a14773b7acf023ceb9d69fd70b0c825458d6ae8626bc001cfc11657
+   __DATA_CONST.__got: 0x68 sha256:a8e4b301ca6cf28285a1e82b65cef14626a58c23af426a6ec8efabb36da639cd
+-  __DATA.__objc_selrefs: 0x40 sha256:b5e6941bf86908190f9d821ad9126c1d219d568010c1f2c1678309e04b9a24df
++  __DATA.__objc_selrefs: 0x40 sha256:91dafea11ffc8a57ce0beb79c2e497f2285db99569d0356f090280314074719b
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libpam.2.dylib
+-  UUID: 057DCDB5-DA9A-320C-BBA1-6B88C47891E7
++  UUID: 1BC38DD9-6621-3054-835E-4528E54937B1
+   Functions: 24
+   Symbols:   111
+   CStrings:  117
+Functions:
+~ _cstring_to_cfstring : sha256 121ae5512795359c2dfb8eb0693579f603af2766fd3a33c6a75c4e843daa5a23 -> 3616a9dce5d0f84cc1f73512f04f4bca53c08e846d2235e7078a3bb5e20b8646
+~ _cfstring_to_cstring : sha256 88be228363e92a2c63e54f7caa2cf127922e803952bcd00769bd93fa82b358e2 -> 205404a8dcf5cfe8c3dec04538ac73591c936cdd04b7bb646b88e269f8915ec4
+~ _od_record_create : sha256 1e76b5364d851517b4ec5176d3a671f55378ecb7dfce5f4953b2f84246110788 -> dff17ff9298bb59f9005a2f9d13b049c0e2a9db33d0fa05329b8172358784b91
+~ _od_record_create_cstring : sha256 c1fcad5e9e179dc4bfa332df78a0c10ee68e14be264656dbb5a47a20534bc082 -> dfe1836912ced7ab116d8b80a8f528d22934b41d869d58454d412ce383bd10f3
+~ _od_record_attribute_create_cfarray : sha256 b5c26754dcadb48996762d099f7d51a53437236b83eee3b782308ddaf2d4f632 -> 302540ea98b20200852c65c502e3be3b6ca53958c0423124f0779672c4e57258
+~ _od_record_attribute_create_cfstring : sha256 06ef5a584232f855cf8708a4b26d7f6ae837c57f71cae4f8b04bb25bdaa392f5 -> 0f73f5b11cace47f1523762f6aa43935de1357ec25c0224077d062d84ec01e9c
+~ _od_record_attribute_create_cstring : sha256 eeff9764bcc86e23121b88d26f7d1a4fddbfc1144cb9c5051f16da7b8d3b59c7 -> ac2e7e220de18e25768fb5a5abd63824305c8117a1b86a13f4c5ebd3bdf50bf4
+~ _od_record_check_pwpolicy : sha256 96bbc01c0637405730d292154dd9e8f7de61dce490a5d1c03915a2f498ee3f9e -> 535be6d5b27c3801a797f770e633de0c9c3c2ec4e2a08b8c556edc10866a7d7b
+~ _od_record_check_authauthority : sha256 5604ccdc9a4c7de2155abc5d05e7453794219955d3ce8f223880a7eab761d35c -> 03dfa000f271f71d73256897b8932fbf8cecd0216964ae2e4873b660080007db
+~ _od_record_check_homedir : sha256 8c5538eae70faea457be5d0166b1ada560d3df88b1f7332f88b1f4a059ce770f -> ceb8d84ca6b6eca4b399dc523bf91919fa654621b711b9057920e52b1ca3bd94
+~ _od_record_check_shell : sha256 726468902188b38d7d64e605d4b271847a25b365e90488b8bf95a7ac1c56b455 -> 58990addf287625d57d8b786f2d7336f72f645c84835d2d989b49ea9f0f158d4
+~ _od_string_from_record : sha256 9275eca51e3069fdc8ee22ce1e1ab921a265fe0e3715d71be94578240746b73a -> c72c5111ee534cf9562058327947cbf2a95da0a4e9ed3bc982cd0016b3a64a23
+~ _extract_homemount : 468 -> 500
+~ _od_extract_home : sha256 2546037bd60f355c2f9c6f5ca4fc8a50ad8039dd2f93a6e950b5e939f6c3bcec -> a6d35a1fa9529db6b2a5a2e60df505361431356c3e339a06be1bb28eca862eac
+~ _od_principal_for_user : sha256 3ad137b3be373f03e81476bd45038793083134ed47c5144243551baba3628379 -> c7fea7f6455440a98ff91f6bc8f711f013eaa96aa45ba5f0f60519f991520849
+~ __pam_init_fork_detection : sha256 86b4565375fd4ba33220a0a2cccc1cf7e637408bdcfa696c946098c3f5ca3519 -> 4f29785f7bcfbfdc838bf2e4de0b2ddd83dcaf1c3e8f5e4984cd7016f739b3a0
+~ _AbsoluteToMicroseconds : sha256 2ec1eb1e1b53da931ec423d2ec857096e18b85f3d3785cf7e0187b2365fbf8a5 -> fbf6cd07b1ebe1b75a88e008acc9180ffb94b82f21a8a71fda269eccc158dd08
+~ __process_prl : sha256 f9d8fb992ddc6eb4e3158e8f64af103210591202762359ff6e434cbb6131bb63 -> 154e236783d37b3bdb3c4171b5fe0433eaaf378ddbf3c66623564253a319000f
+~ _pam_sm_acct_mgmt : sha256 06d9f19cefd9566c6ee33b36d112b2e48a169f717b6002cde668d5baa8b77eac -> a7efdbdfd6b14ffbf31c91d2532058c0f81dad81df9c2cf8a5c7a883c5f0165b
+~ _pam_sm_authenticate : sha256 ba76e7dfe6fa8dfa1a2589a95efd3748b5187bb5e7267cd864ad1cbf98934735 -> adda83231fc453fd0f31a4b70618264254e8289f7d2a2d5312186eba7052ce9d
+~ _pam_sm_chauthtok : sha256 7321835a1c8b4ee55a51e1def405cdabd0e7eaff4ff8b6b4fe81aaa2c23eda84 -> 57b7f40cdec509ecdd6d84314e523941cf3713791648ce001c6a9f92f1898c6c
+
+```

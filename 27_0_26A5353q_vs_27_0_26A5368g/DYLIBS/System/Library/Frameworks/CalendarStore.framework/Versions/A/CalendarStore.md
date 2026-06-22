@@ -1,0 +1,282 @@
+## CalendarStore
+
+> `/System/Library/Frameworks/CalendarStore.framework/Versions/A/CalendarStore`
+
+```diff
+
+ 2090.0.0.0.0
+-  __TEXT.__text: 0x9e40 sha256:fb6133906f53f7bb1cda07b8d4a07710afe54d27218c962f03c81b1382d7c9b6
+-  __TEXT.__objc_methlist: 0xbbc sha256:79c0dfdf9884a54e83d48d6c98758e8b573db9b40bcfe71b91c60700ab8662ea
++  __TEXT.__text: 0x9e00 sha256:2bcd8675180ce14176b7f1de3f6c7e87fb6bfe0e2d3b894be39a5eadd6dd1d62
++  __TEXT.__objc_methlist: 0xbbc sha256:4114300267751a97a647a0daf80d9569c4fc30c763bf0a0fba01de23ffcb7dfd
+   __TEXT.__cstring: 0x8a1 sha256:b446189925594ec1c589082546d6c02d6716616bc3b255ddd239bd676492a263
+   __TEXT.__gcc_except_tab: 0x40 sha256:409b54b5fe39547529d7206fb2dac3d559305ef6c73f03c4fbba13831c233862
+   __TEXT.__const: 0x18 sha256:28559536721368fe7d67d052033ab85a04e025097840b30ed1ab380a5408b90f
+   __TEXT.__ustring: 0x1d8 sha256:2adc7e1fd27c3f09c3b024e5e9b54567671682a9fecf413d7421a1945f5ea6e8
+-  __TEXT.__unwind_info: 0x300 sha256:bf3743e6c8b62bb897bccf3e7f1fd0c14e2a82a268c5ab8561fae1dec39b8901
++  __TEXT.__unwind_info: 0x300 sha256:fb4e286014ffdb3d5455ef27eaa6f8dcd431150a9e89bed4a55596605710f6c8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1a8 sha256:665337b707965c83bdcc68439210d1c8fb5fa9add0c70b37544b327112292b0e
+-  __DATA_CONST.__objc_classlist: 0x58 sha256:5361f4743593edd33ea3fdbe26f68218b277c911d7c22c35d1df0d4e91a0cd25
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:fc20e610f21e1fcbc824e889dcc3e9986bd318cc186a1c309e909d4db4cde1b8
++  __DATA_CONST.__const: 0x1a8 sha256:4c77d30a93ad4bb202de4dc268d6327b7959a5c798cdcb889abf771d54150100
++  __DATA_CONST.__objc_classlist: 0x58 sha256:227a97934f9910940e29658cacfbacb0620575a1d06298f128454fde3cfb0924
++  __DATA_CONST.__objc_protolist: 0x8 sha256:13cf596e35b31a982343c34ff5514644ec0d58f43d23187b147896471a8f2aa2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x908 sha256:381d6439202ccc34ccd3842348e6cf2bf8a3e8235aa1051f60ab773e32c36284
+-  __DATA_CONST.__objc_superrefs: 0x60 sha256:563a6596405ea667551da107b5f1943402cb37e3617df6f7eec9c3d86b054e01
+-  __DATA_CONST.__got: 0x150 sha256:566538178179162462c9cf23b0fcacc473381dedcdf02684ab70bffdb595f982
+-  __AUTH_CONST.__const: 0x30 sha256:bde9c7e6d62fcd365751c0f9e2385073c8718d7d719a2ee0f797ae5cc5da9422
+-  __AUTH_CONST.__cfstring: 0xd60 sha256:27e31c5db853f447dda7da50dc9e39f59c47e2e2fd2cf2c5eae1ed2ea6426721
+-  __AUTH_CONST.__objc_const: 0xd20 sha256:f7d3b8f36404157209ade37ce769d338ae5ce1bef4287bf104577b57df6520e4
++  __DATA_CONST.__objc_selrefs: 0x908 sha256:b0d1fd8f496ace97b241350e97aa6e64a1c17ea71f8913a24f24f5dcd5fd9e41
++  __DATA_CONST.__objc_superrefs: 0x60 sha256:b6e5ca19f5087f974b041f89b864eab88c528b6622c84637e9128d8c61ae5204
++  __DATA_CONST.__got: 0x150 sha256:28d313ad89813753040397cbbbe337ab39b693aa654e429023bd009f1ffb4dfd
++  __AUTH_CONST.__const: 0x30 sha256:810a2060924557b1c403985b928eeb3c7278d5f80d5f9960a3bef1a08feb6e9b
++  __AUTH_CONST.__cfstring: 0xd60 sha256:e8406a52e131ef0fea953f89a43270ca0930c763831398d03d74cff11278404f
++  __AUTH_CONST.__objc_const: 0xd20 sha256:fa7d64cafe51064c2dd99011c41dbe69c48c3db0f3b0c198ba0d9755206c4967
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x370 sha256:423c63a1f5bd4f9aa967c623187952b2f65bdef3743e42247a27c881f66b9b48
++  __AUTH.__objc_data: 0x370 sha256:5f4e2934f616fd38b35013a38d90a9c1e27b55cf44d25ce78195456559946ed4
+   __DATA.__objc_ivar: 0x38 sha256:f955a2aac1d7fda2627bf40185072e0ec6cc5e01a9675eb308b6ef149e7346a1
+-  __DATA.__data: 0x60 sha256:0e70778a99d547dfc171e49ea3ac160ac684f3c2f8810540c6f4497df699d9ec
++  __DATA.__data: 0x60 sha256:4e05045e2926ab8c182c23e1a8f90a6b4bf7031adb8a99c2dbfdd9926e62c49e
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+
+   - /System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 374B437C-EA8D-39C1-BF0D-7428F730CB51
++  UUID: C0F43A32-AFED-3437-B350-2C851BAE6866
+   Functions: 235
+   Symbols:   675
+   CStrings:  209
+Functions:
+~ +[CalCalendarStore defaultCalendarStore] : sha256 6f0f1e3fdd23124549ed674c7757d7c4bd29ab5b68fb4074c926a5a3160c61d0 -> 7e5a35641215b8f5a67cac197b9f68460a974d0a8b3df2ca2a432dfe0e4edfe9
+~ +[CalCalendarStore allocWithZone:] : sha256 174c5f11d3276a2eeb7ed4aea63335d67f708d39b5bd5b86645ec59fa8166dd8 -> 4e30185a8289424698dcf3a6ef77a51bcf39ec953a29bc18aabbf5934a4ce559
+~ -[CalCalendarStore calendars] : 588 -> 580
+~ -[CalCalendar setTitle:] : sha256 c5751d6cfec717f5c39ddc393ac20a5c6411359853a11e77eeaf09b7756ea1cf -> 695ceacb3800583d85e561ec86b602c53a9befcfb035d85115f2ceac2c0c0e0c
+~ -[CalCalendar setNotes:] : sha256 8435213715956232ff07dfc3a4f9a38e3cd2c44df4ffb454873ea1e65b5ee49a -> 522254e5fddaf100c695fb7e62833c104365f308551080db37aa7db06b443678
+~ -[CalCalendar setColor:] : sha256 d0b371262827d4ae4e7e8447628ac4d847fb06cd595fff48eb20be15aa108311 -> ec6abaa45596863c366c6ff8206283f80950162f91c12c4e1063e8d003b50c21
+~ -[CalCalendar isEditable] : sha256 45391a8bfcb87f8b0fa191b0893bee03ff3e9e060d147c5aadde57795db4ca87 -> 2292fe8d29683cd1cf2c72550bed4966a8c816b09543447a288d95b5d3ffdeb1
+~ +[CalCalendarStore eventPredicateWithStartDate:endDate:calendars:] : sha256 ec771d39554e07657b3e4e3b1be437f2e810361d5e3fc175ff6d5ba603aa0036 -> 8849934154b2f79679c2acf7a6f5e1ce66948aa9284b9850b7bd9c74b2e25000
+~ +[CalCalendarStore _dateFromPotentialNSCalendarDate:] : sha256 1798042c0e0e323402cb27176e4dfacaf8d36eadc856f4da86bd6e843c555317 -> ae93a084f7fac0b00428143fa6d81ced7dce9ce009901615bbdb94d40c8a90c6
+~ -[CalPredicate initWithPredicate:] : sha256 f612ece1cdbc40c7cfb64e29d9adbcfa93ce5d39344569f8576dc715382a8b6c -> 334fc1076ef92e7863148bfb44cc4136037d4a69207cf986a913e9516c4b7d2d
+~ -[CalCalendarStore eventsWithPredicate:] : 512 -> 508
+~ -[CalCalendar uid] : sha256 84cb26646fffe459a87a36bd416c18fcc4887acb96b9d3609f6cd21275b7c418 -> f1fe079b9125f5acb695e44692cadb997b8a9bc048f26512b9b095a7711a45aa
+~ -[CalCalendarItem setTitle:] : sha256 147d87e9c56a5e3a9d7e2c1f7ee4d2d4c2e67cd0d13a10f64be0f0a3ac9b13e1 -> 346a27e3f230d2dbf7e345f65c4689104f820224bbd901ae7f5ab707f3971fcb
+~ -[CalEvent setStartDate:] : sha256 bd1d3669786860e47f84a743eb5d7845e3b8c2e01b9c538bb1fb469812c6fab1 -> e81ffa04224905c7ef077acb95214675888f1a57698301c2bedd19dedfd404c7
+~ -[CalEvent setEndDate:] : sha256 a6e08fc2f92d222492e15769d8b5bf4351203d794469fb3c82ff003ceb0033ca -> 73033b9c189bdec15e8a1263b71712559df0e26e14534660e5025bdb608e1169
+~ -[CalCalendarItem setNotes:] : sha256 5c0b6d847fd26d765f652b833606cc78f7475bb63943c960f64729527e872eee -> b87c3c34bed2b13bb684a7eaa76bd8d46960dd5b90fb24ddb830e332c0497c43
+~ -[CalCalendarItem setUrl:] : sha256 8d5d23aedd6b9607738988e09f2ad3e75921133240591b18d29196a19a093be2 -> 2c890b3a64fc619096239137e1c885b5b32f93f50a460f84e6fbc10c271925e6
+~ -[CalEvent setLocation:] : sha256 70916324751bedee48530e1bdca00c1ac0a004337c50176ee71ac05cb6bcdb90 -> c2cc7c3fa9cdb50b6556f1169751b9618b483734d1914a327723410241306083
+~ -[CalEvent setIsAllDay:] : sha256 f2cc7f83146c23e3a8eed2bbb1778e206810fa2dd77fa29f4b680480580667c4 -> ffe1d41cb9653c31cb9bc5cb3f477e0a4070c765b7def7c12ac2d87c3c603534
+~ -[CalEvent startDate] : sha256 a9ff5d6be6330fc9dac4297161c8c80b0e41778aee6e54ee53183fd158a99348 -> bb97be4814168e8268e9bdbe1da37fd64a8058da36b4799c3fd0e790ddc99908
+~ -[CalRecurrenceRule initDailyRecurrenceWithInterval:end:] : sha256 2a5869a1f62f2d3e3fe7bde0b8fa9029c5ad4f8dfca2263e42aec454d5458045 -> d9b6daf06eaed4962f0961562a6daf7043aa6e630663db8c193979e02866a3da
+~ -[CalEvent setRecurrenceRule:] : sha256 3087991e75c1113a7cb3a2ec2c24a91f2159b10140ac666683b71af4e99e56e6 -> ab67aa750f6179ef398e1f792bc72a6f6ba59427666452a89378b0a48f134c45
+~ -[CalRecurrenceRule copyWithZone:] : sha256 fd14edc4c49a1d2fa8c41b96d6ce0f4016ab7cd5146ab5523c892080fd8b8052 -> cdb9ad1f181b3d5d184f2809084d690d78f2e731ea88ca451d054aa3e59d9c57
+~ -[CalRecurrenceRule recurrenceType] : sha256 4afb8dafbb02e3291671421c92ddbef514b9c0ba220a5ba27878da812a8a4aa0 -> f6826cdacffb6ca379dd6b7de5b6bfd3b09a886340508a81f352bc196aef3e20
+~ -[CalRecurrenceRule recurrenceInterval] : sha256 c2009a6479c11555fe9b7a2f9b6370178f2dcdba72cb09f362c721378b88f566 -> b471af02d52eabf44b483db57d3ecf8bef88835974fbe23f0953add81ddf1a8d
+~ -[CalRecurrenceRule daysOfTheWeek] : 408 -> 404
+~ -[CalRecurrenceRule daysOfTheMonth] : sha256 5f66fed9d4622c9060ca6b59d05032fc6f38bd15e3cc717e00f069076863ba16 -> 50044d9df39a22099ea05fdd88399b0b210fcf49409943874b8db74f7a0c4876
+~ -[CalRecurrenceRule nthWeekDaysOfTheMonth] : 416 -> 412
+~ -[CalRecurrenceRule monthsOfTheYear] : sha256 e05195e01e01438b7cb4e9bb4e50280452568adf7dc6543f1784cbfa1188fe51 -> 73f7b78bd439d9dd98c113b8f4bc9799b9e497bf57b25d195f6e50843e707f8d
+~ -[CalRecurrenceRule recurrenceEnd] : sha256 9f5f09e0348a8493d4cfa271b6f70bdb74cdf485c8406643efb149bfc9863f3e -> 41d36bd6d2488ca114bd53f1cef91b971798f938d0325c62fe64be38b4d59bde
+~ +[CalAlarm alarm] : sha256 60fffdcea7eb84fd2faa34fea316a6413a8c3b31c29c444fcb1bb51c885f4cba -> 0db626192e032d8694afc76cc37370a6722edcc6d31902196c20621e48e2cb5b
+~ -[CalAlarm init] : sha256 d0124669f355e8c873883896271db760bdee0fb39ffa884a07cbeb0bc8f4e938 -> 1ef49837c9de8d586d36232e92c3ca6374988dd9cf6f69207a97648684792d01
+~ -[CalAlarm setAbsoluteTrigger:] : sha256 03ce466993e5652315b00b6329c472c51961fe8b070a4a4c57bbf9622637ec17 -> f3995175dadb20458543291d7ab19994a09cfeca92ee224ae834c4ce6dc0f2a8
+~ -[CalAlarm setRelativeTrigger:] : sha256 b50cb07d999f3b06089719410767c77e6d7131633d2ef772acde0daf1ff65d65 -> 51bd38bd36a5ec88ccb5754c1274657d1f08fe4818bcb0960afe9181f53a5cfd
+~ -[CalCalendarItem addAlarm:] : sha256 6c8c08ca6a75c441ad3d3fc66ccfb6e2bd596993a23c6bf50226bde3e5a24889 -> 0cec353567179955dbbc427faab3c00854af9ea815f23ccc8138c451a8915d45
+~ -[CalCalendarItem setCalendar:] : sha256 1c2391d61a71597be9eca6fb0dfc3f8db1d05444442a4f0dcf500b3eeed85f9f -> 466d559cb5f134317864d599e448930ae0339e906858e0d97d3bf6c3b603b4d4
+~ -[CalRecurrenceRule initWeeklyRecurrenceWithInterval:end:] : sha256 355b9b83c321f429a213274d7c1285ba3af8c30b1171d3d538ed86ad837486d2 -> 68f66191ff1379af7c7664b12fd65ae291d066aeb788b32bb005103bb8c43f61
+~ -[CalAlarm setAcknowledged:] : sha256 02bbc84acee390fdb3b9b7409554f35a8073494577dbdecc49f51b4ae0acad1d -> b5928ef8b327ae3543eefcf8a1630b048debe26f6cfad7110c8d93bf7e245f18
+~ -[CalAlarm setSound:] : sha256 5dbdb18fa6bcc5791370ece0e53e341385e538af1b50cef3a002c0e00bbc71f9 -> ee5171ce3afa70ad7608c74ee096571f8d057331f1ed22d80276275ea0533bad
+~ -[CalAlarm setEmailAddress:] : sha256 da0e97d6fe3eea71b248a0017a487ffc8b5027775b0aa33d3f96cd87d1af14de -> 6bf7f9d9e67567a8645403e7c5da35662d99c93cdc85a2384b5f7691ed97bf24
+~ -[CalAlarm setUrl:] : sha256 8f4dc33467f65e0ff9a2ac300f9a454e116883bbbda90c77d76aa03d753869c7 -> d2c3f81eae43714cef21b2c0a68aee891e6b70436d2d51549b298020755d546d
+~ -[CalRecurrenceRule initWeeklyRecurrenceWithInterval:forDaysOfTheWeek:end:] : 524 -> 520
+~ -[CalEvent compareStartDate:] : sha256 7bbb4664fbaeaf8e418b6dbb5493602c9a1eab03ae2dd0ff51f3ddef99a58a6f -> 6e4ae6b7095f7544c515a7224857127ea384dfb63d0ab71e74328dc28884f749
+~ -[CalEvent description] : sha256 18ad44c6cf3b3935229f4ad34de63db22072958e39b090125c7762e24f990ec6 -> ae7d802cbc3398e5134cc89b1934c3bd16b866ac072358a2755f8099b64b534e
+~ -[CalCalendarItem description] : sha256 6ae3eb77ce71789919d39cb62fd1bf0a6526cd97ab0bd3448955ec2ccf9831ea -> 106787653d2c643633265d93f16dfb437ecbcc1733cd047b0fa0762372427c00
+~ -[CalCalendarItem uid] : sha256 b16e753c9d8a056c141a05e4cf38e0b54bb4487cbcb3a093d9717382319cf906 -> f94fdc40cc31105a905773cf2e9c7ce846494e63822a75992c01b2803b2455c7
+~ -[CalCalendarItem dateStamp] : sha256 73823deb64912af775b080275dff7fb4c1ea55ebd8846b156faef5a1e6941e23 -> ef3a10f8eeccd6bf56722ba439c3454455740eebf66b74ea1fe6233ee53d69fd
+~ -[CalCalendarItem title] : sha256 f216dd054b4e698b2fa052162b0d3a0904e8fe4133ad5a13abd03703db425ef3 -> 7747da4e6b977dcda5d9dae35cf6268e70f6c78d81dd633e58a0b33395b84428
+~ -[CalCalendarItem notes] : sha256 e83e3af5104795520f8672c56b1b887b4f367af2f0f9493232a199cd42e94b44 -> 27a8ff8fed5632f8271949dac2a102ab85e629cf897145ada72fe0fce9a2529c
+~ -[CalCalendarItem url] : sha256 19ca53854c2f84ba2639941884f098480e8f027d8808d0dfc548f5cdda70efb9 -> 41c139426a3b9a0092c8a1ea249c1be421ea91e829f802fd846c08b0c03d7763
+~ -[CalCalendarItem calendar] : sha256 cd4541aca831d3ea8718ceb72a76d1579c7d7cec55067093c95ffa57a36c1010 -> 67deabc8c60f53dbe1fdbe16db13e834692e0ae7d7581be3af03eaa9ffb55a55
+~ -[CalCalendarItem alarms] : 504 -> 500
+~ -[CalCalendar description] : sha256 988c4b6d421515a14e172e19b491b2caf785400a8fcacab718e6ec1cc814b488 -> cdf6447200072824b051b42849125ef1f1070845d985dd2ffda4067ef323274d
+~ -[CalCalendar title] : sha256 6e8a3a3bdb94b64cfe02b17bb9154825fdef4d8e8a5e21c6abed26a419bec50e -> dd1219df48c4669c3613634fcc6cf18e531c542c26ca5ff480c1843e1c16c3ef
+~ -[CalCalendar notes] : sha256 011512fa87505f158bbe5cfaadec74a5c486480407ffcd0632e37840f782d86f -> 3d13933480340849a141ec522504181209c81be559935202b8f685f561dba789
+~ -[CalCalendar color] : sha256 8eed74460809f742657cea5c2fb951f3fc2b1e01084d41c1d0b906a651d5d349 -> 0c7108c4673d5dcd0c12ad473d67754250023e8f888f8d8b3d7d4f1dacf9d1be
+~ -[CalCalendar type] : sha256 fcf9a2b371822bc84b81d2acb3b25ff2f1701591875210b3a067b90b01a9ec99 -> 9346f425b6b60c5c1fc186ab23f20d5a02793de62fbb93e79f62a46aa1514b37
+~ -[CalAlarm description] : sha256 9043c895271639b7efc0a5bd9e592b9e2f873b9a5914dac1b83dac03dbefecc5 -> dfa113aa9ddb04803bf57d8eb8a871657d98b88f941247a54e92a32ad6c67193
+~ -[CalAlarm action] : sha256 942adc8c43daedd693553937b58f321920b113a995af8dee0d4b578755aee3ed -> d2283a036c0673ab4bbbea51d9d5f9af5863f63659b7850aa9e88e59fe53ebbe
+~ -[CalAlarm url] : sha256 cbceda389a0bae62582087c8b143286f064c9d5914a8da96a5ee8740a1a23820 -> f94fdc40cc31105a905773cf2e9c7ce846494e63822a75992c01b2803b2455c7
+~ -[CalAlarm sound] : sha256 2224e12f4a40b61f997d41efdaa83eaf79226a52f29d415d0f3210cecfa08398 -> 35b6e635d8254685dbf97d1d999b298c714e81dcac0a567a8f85e0ea41d0b8ee
+~ -[CalAlarm emailAddress] : sha256 90191202e1d39cae176d8a93476b9d66a016ebf43873c7c88354236316c58c3f -> 53dd5e5a2eca9f4fb7f1b543c9d61698ce88d27a0ceb342873838eff13e7329d
+~ -[CalAlarm relativeTrigger] : sha256 b4d2c2015acbddf89ac31c51da090c308cd79dbede3509d6366c10db0d3d997f -> 9f5b5f910bb1536fc760102406b7946c739dad6fdaa0eec3df546dadcc4aa032
+~ -[CalAlarm absoluteTrigger] : sha256 0f8f4f1daa814bb4ffdbeadda8a8d9b7c9d3ebeaf9ea44d0f122ec0628d470b5 -> e21db3247dbdcb7a5d3662bd4b8ee3ddd11f513ecd311102da96b31c3e5b4f1d
+~ -[CalAlarm acknowledged] : sha256 0371ae8582e99f2b7378bc34785ece0e4cc8c259c919c396db5b9495c3119ff0 -> 3c1f350332f41af6f12171407cb8e9df916c6cd9793d5ca104272c9dab8198b1
+~ -[CalEvent occurrence] : sha256 c8724c7f1e26380787c357133f7337906d8135b4d488c737e6f3d17aece4311d -> a3cacd0d76121e484533ba448af743206fe8ebd739458fd52812a1a3bcad3a2f
+~ -[CalEvent location] : sha256 56b2ee8bc4fb8f0dfd705806c15df87bb280623d861bd408f2b531de600be618 -> 381e74c7739b80766fa755ae16dfedd79670d314cb0a4e7e91808454ec3ad75a
+~ -[CalEvent endDate] : sha256 d1ed19426c138533fb8449fc424a6d6d8ecf0e3c995e6bf71affe2982b89cdb0 -> ed5b71305fc25a70f6ee311be45f13515a257b8ffbd171edb936c49d53f8bd0c
+~ -[CalEvent isAllDay] : sha256 f4112735ae50749e1877f31b01c415f9d336d81cdb499c84b3791605aed03a6f -> 485393afc9b5e4a49b7689ce77c73363c59671572cca093e35e2798d64e2b32a
+~ -[CalEvent recurrenceRule] : sha256 e670050a5fd7d48b9bcc62dc1c144c90ac25e92c1ddcda400f69aa8d975015b0 -> fd0d42622263e7468e962a7496bfa974329f393ab3ea778ad23917fd19f84179
+~ -[CalEvent attendees] : 416 -> 412
+~ -[CalAttendee description] : sha256 412f65229eb0f72e3e0339789c49dd312d83ce49416f6b61a830d9d910158c95 -> 4eb5d326b6ea7886653bc712e328b9083e583c4548a0a8b33e11452ef2741cb2
+~ -[CalAttendee address] : sha256 db01c892bb345c68326514b249ca8a6735508cd7e72c356fea26a05fb9bb37ee -> 0cff0390470262c3022606adb58148c550160b8b63cd9abd4f75a08369d10f8b
+~ -[CalAttendee commonName] : sha256 f718b40c326bd911e7d3e5c668d496476d4b14b9bdf72ce10fb44301a19514c6 -> 41f62283b4f936f2ea00e22254a7dec041069ed4a98b26b11980a530988ffc55
+~ -[CalAttendee status] : sha256 a671f5235ea240580f520fdba488e88a3b65ce10fd0cf82372cad924a3c4393f -> 4aa324d9d567168cef240b2be28253afea8b5d17fbebbbb402f6314dd2242924
+~ -[CalRecurrenceRule description] : sha256 c7e5bba735453202b2ceb28a50749d0c04ff4250684c10b3084a5306d0febae4 -> ed1f5606a7942d77d37dbc05802000ad254c7f3afad9aa8ccdaf31c36817af41
+~ -[CalPredicate subpredicate] : sha256 4b16431c597fba7a9603108b2c1d68b753cccd384203a86f49b0b4cc7ac2ceb2 -> 3fdf9921ab70acac05e8d1f7ea230aa26f43063ac135ba3c2d8c91777a3ae859
+~ -[CalPredicate setSubpredicate:] : sha256 492042b14921819383760be0b9946d1403a8655dc7b144e8e2a86bafe7615190 -> da5b9e84665bbb1b218d7d75ecfba119bf9eb9fe364cf4282a061899ba8b6d30
+~ -[CalPredicate copyWithZone:] : sha256 39a1d59364088ff65be3f4900e2b96c4fdaf32e32cd84b60c371bdd241368fad -> 47219a3f4f9ef5066d5c9ceaad738d09c16e459c98a253c30120faff0655b8f3
+~ -[CalPredicate predicate] : sha256 920b64d66bf713642a8f65120e480cb30a9911392c7b8eb2e572f3e8e623113e -> 7335273bf6d1182437ac91b5b08dae98bc8616e2c4e736b56ac90330e1f10412
+~ -[CalPredicate .cxx_destruct] : sha256 f2bfaf0ea217700e2b0152a93bc7ec69be9a98bb5180766b7da5d77dd4e74585 -> c8147803e3189b43aa00025756e4845ba5fc4b93db378c0bff99b885a0dc4117
+~ -[CalAttendee initWithEKParticipant:] : sha256 16e739bec758e1a60b4a179dca9fd2f320b42d0c1bb8ee02d4aa1ecf162c7568 -> f53510314c3a260f872d850121dcf1f05096ec8e7f7194767c6c1dcf56bfc47b
+~ -[CalAttendee hash] : sha256 59788d97ea7268eb1de959aad4dd5915ad3da7983b0ba850719bd0daf088a125 -> 47bdc84b51f4b7a6175d5452a63d6665318e9c11a5a74fca0bef31f6942bcf94
+~ -[CalAttendee isEqual:] : sha256 78d5f8581ec9d648b439c98c0c099c1bee4fc94aef04c574f322ea749c71ff8b -> a6789deacd66f8b9568ef71d42f109af22b271faf83b0611350a2648cd953b4c
+~ -[CalAttendee copyWithZone:] : sha256 af7fd551276d53cd2bb3f8ac13879a2a5933dbe1e18c163c9034bd19a58eecda -> 59e31ea0f0ed1e70050cba8111886556eceaad93fa4352341956eece5c0151b4
+~ -[CalAttendee setEkParticipant:] : sha256 c4946a29aba7c9d59f083c8da4b72ad404c55c46d02b12b203ad05dc6524d16a -> b63ac30ec79836833a2f02645e05af45004bdb6d42bcd05d1f858108b6c1c5a6
+~ -[CalAttendee .cxx_destruct] : sha256 7161c084c16d6be28e473eb4b3dfdc4fb7f00fe5a7389040fdf6a1b9a2842dde -> 618bbdc8b3a9581e674c04e50e31906e3ed3c624aa7c1cf92363ff1932cd499d
+~ +[CalCalendarStore setDefaultCalendarStore:] : sha256 3b3e05f609b374757f82d6ac2be82749529d3b6edfbc04956ca079d90fdc7f50 -> 5ceeddff10ef3c7fd8b46445ef6731ac8020487230b130f2d4f89c3e1a92c237
+~ -[CalCalendarStore init] : sha256 6b4b8d5806b7073fb21b7f1904ca8b60a571efa878fcc7b89f7fb4a440e83da8 -> 452e4887fb1146a209f35be8bf149faa84fa9b00620ed3fc3ee6aea6cd4d18e6
+~ -[CalCalendarStore initWithEventStore:] : sha256 06a0fd70846db334a8fb6392486300194f9a570285a3a0fa7954b6b95200fb6f -> ec070d6550bc7d2543f1a2969f1fb55d201bef21d0d1a1bdbc8f3b582c2c2fb5
+~ +[CalCalendarStore requestAccessForEntityType:eventStore:] : sha256 d69a8e1da893406cad03d63cb71778f4c83ab771ecd4354c3c0e3b4e9d5c884f -> 054692fb27259def1ae6758634c16e4e1da9bc4c857b1daeefd32929c989d816
+~ ___58+[CalCalendarStore requestAccessForEntityType:eventStore:]_block_invoke : sha256 83787a4152d25aa5137558550e29ab913ed62561aa0fa3679e6a6e87c0a19b48 -> 5a10b99cbf9f5c2fd39100e8588f3bd68443caafe9e7ccb27a9fbf0ca775c20b
+~ ___copy_helper_block_e8_32s40r : sha256 1f3dd3079a5453435cc89f03d47c7cf16e4f653268a6bd3296f0c681c3a3b7f2 -> 5395aad5fcc1664a24749aaadcd4f3a38f5e0dcbd448c77b8dd46b313afefd9e
+~ ___destroy_helper_block_e8_32s40r : sha256 f62f624d4984191a75dcdf3786b4339b6a803965071cbf455203ff9f51b451da -> 0ad45e17f8277355581cdbaf8116151dab06c2282f887e5ced58005b8129c1a7
+~ -[CalCalendarStore copyWithZone:] : sha256 5b732215c8c12f4054e3410eea54aa629eac634451107a0ffe5f34ef12f4d567 -> 182170fe81aea4b300c1f7d9b36a2f2e9a434087a6c8536767dea1d5df173732
+~ -[CalCalendarStore calendarWithUID:] : sha256 b494f3239611c9f550c0bca96da55667d637909889f6ae54e9a036d0de2e55e9 -> d6dd97ea56b5c69661d017392bc383933835435fa33970aff64798afa3661dab
+~ -[CalCalendarStore eventWithUID:occurrence:] : sha256 c84555e95fddc4192bb58ec6dce48450be85410b5e01aa60c5bc794f61eddde8 -> fa8fe7d56cd4c9834b5ac5f59e623c6a142d5e47ce7fb13fdd7c6dd9717497fe
+~ -[CalCalendarStore tasksWithPredicate:] : 448 -> 444
+~ -[CalCalendarStore taskWithUID:] : sha256 9e307e94530935ac3b722ee93a33cdcd7b94e2840611f4c65d532d19fd9674bb -> d033166dca1b76679b8f64119c3bff5a1c27d874695437e405b7c3d270a59215
+~ -[CalCalendarStore handleUnsavedRelateToDictionaryWithCalendarItem:] : 748 -> 740
+~ -[CalCalendarStore saveEvent:span:error:] : sha256 6ecd5e5d7571640e1c12d8503e8c8e9505dee776fbd76aea8ec794013d180ac0 -> 31e4d4c2fe15442e2c103dd8d7fa06697e421665dc6fef49a0a9a7e7b4654bc2
+~ -[CalCalendarStore removeEvent:span:error:] : sha256 f59d8fa0f27fc1fb07551d046978df51151e202161201a6af345820da33ee757 -> 14db6a3ef4285743eca9cc6a9136114998554e745cfd2b3399eeab7fb472838d
+~ -[CalCalendarStore saveTask:error:] : sha256 f7712fdf4a2eff3b506042656f1321ce1b0d9f6ac9f5e7f1afc49357ada5d452 -> a9a169821421a58a556ae25ca2e47ec4e1bf26c3b59231cf7628f878e76f3931
+~ -[CalCalendarStore removeTask:error:] : sha256 48e228525a97c6d39476996e26e79b444aad32c84229659878f85c307ca08aae -> de1a1899e3ab5b9046381f1e7d41626e4b2dc8fd0be34890c018cdbcf74ec913
+~ -[CalCalendarStore availableCalendarTitle:] : sha256 ec7d2ad6015eda9bce8a010d0b9a273fd15bca4afd8bea052e260dcc92b7e9bd -> 2af2b53a462e965ff569c16790d4b812ad9b5f43dba298337cd3fc88861fa86a
+~ -[CalCalendarStore availableCalendarTitle:forCalendar:] : 400 -> 396
+~ -[CalCalendarStore generateUntitledTitle] : sha256 68c1fad8ed77dc13a08c05040ddea475e5004e69eb5531390cd3a0344bc01f26 -> 5882f415db78ad0dad69f4f33d4ba2b34f222c7129ab792f9c1d275f33c897d0
+~ -[CalCalendarStore saveCalendar:error:] : sha256 82ebd943d38b2cf8c41d5b3aa7c24f228e433c0bb15b11cdda622fd2025cd282 -> 199aebc789f096a5b265ee0e2aba1e01bbc9f6497ea80e350ca23840b805daf0
+~ -[CalCalendarStore removeCalendar:error:] : sha256 48245f0a33d74aa34c091b4559de26636b7666d9d1d924bb736723402313b72f -> 77b21e5840201eacfaf77c1e5587fcfea3da47e22d9ee31babeac73bb00a77e2
+~ +[CalCalendarStore toEKCalendarsFromCalCalendars:] : 336 -> 332
+~ +[CalCalendarStore eventPredicateWithStartDate:endDate:UID:calendars:] : sha256 f859832257d440fd2a67f495c15dd8785287076c72f1e814e1a22d9dae7d2e2f -> 64d407a7d0f8256f85c168a73779a032a76061db363c74aee789be4ffbaf346a
+~ +[CalCalendarStore taskPredicateWithCalendars:] : sha256 f2df9abb5a85b3a5d438cbb4f1729abe521edcb248d17291c6e5d06d4313a8a5 -> 589b5d15e58b48e98c09039095e4943f78d10dcab69a4b18c110b097633c2c08
+~ +[CalCalendarStore taskPredicateWithTasksCompletedSince:calendars:] : sha256 499eaba51ea328689a9872449650ea2d72f5ba820aeac449ae49fd98fdb8394a -> dd57c9a88bb352ba8371da3fb793af3dca387539498b5ab6648d5dd88f31d091
+~ +[CalCalendarStore taskPredicateWithUncompletedTasks:] : sha256 1bbafdb544aaf9806f4d7cbe9a5905f9df3dff30391e3aec28717bc3c33984b7 -> 61e171c89e64cfc0fc334cc5ad729b1e516d31650ad9e9481f1e13515c180a2a
+~ +[CalCalendarStore taskPredicateWithUncompletedTasksDueBefore:calendars:] : sha256 4aea867fcf8522f3e020cbb5f9d1a7833081e3fed55b089b165f2579e93fe8a7 -> 2887bbdb85f655c671fd673b53419bbc1129acf147fe389282160893f282cdad
+~ +[CalCalendarStore _calendarNotFoundWithCalendarName:isEvent:] : sha256 32ef4b3cb849b48db9ce3bfed9552297065b6aaff4455fa645f822ca36317ed4 -> a244df0deb25b02ad5b8a23f4f59b355f506a10bd9915be4bd03f93fbc39752e
+~ +[CalCalendarStore _calendarNotEditableErrorWithCalendarName:isEvent:] : sha256 d466be2b9a66288dae8dd8c6c9733d5742b50cf85ea584a5e29ba472da126aa7 -> 7c476dd3435a228a531f7c0c2eed1bbef5c3f7475b0a3fb0014f77f01d2efdff
+~ +[CalCalendarStore _calendarDoesNotSupportEventsErrorWithCalendarName:] : sha256 e47c0285805407f158c7f8813e7b63913f4f3fb5aab82d338eba0feb3b33b172 -> d2a3c31446d0cdf5b656aff1bfc13af9b4da85e858f267125b44959f12a7fe7d
+~ +[CalCalendarStore _calendarDoesNotSupportTasksErrorWithCalendarName:] : sha256 a1d5ab54897c1f8d096fb79bc14969284eaaad03731036d41d8feafdeeed863d -> 85193b5ecba422a138110090fb939d6cbf0e801027220e72adf85769ed7da8fd
+~ -[CalCalendarStore setEventStore:] : sha256 f26db46cb2919079ad4b97727d0a29d9051eebe4a0f03fb9a3eb43f20fecca33 -> 04c7e80da39ded1f4afe7354336ea6cda6257d38ba23eb95c43a7684ad87cac5
+~ -[CalCalendarStore .cxx_destruct] : sha256 c0d5c6593b0e6288b5b012326b48bba2ade0d6a86eb9f89ff51dbd9a78da5731 -> 4a93ff23e7737b8a3484194f71867948b453ff1bd31a4c7b026a48a4f7efb189
+~ +[CalCalendar calendar] : sha256 53861205c5323859523063501d9cb084267dd8284ef85ab7f8f3743fbb63097c -> 09d5f2f284856f42425baa6eb1516c6a046671f485de28bfeff6b0cf076271d7
+~ -[CalCalendar init] : sha256 61f429a448601f708bb16f6758efd73535b9c1b1eaaee8b358b5324ffb46b2c0 -> c24d77b93d6f4e436b17daaa3761106773340b0accf0a01734b62270f63b1851
+~ -[CalCalendar initWithEKCalendar:] : sha256 ab4c968fa540f1b830c6e4e4ece63d10f4b26c938f7a6a587759f7221c701319 -> 960f7b18add35749846f02cb62b5d63b08863e9d067d45e4c6a6c81b424949b5
+~ -[CalCalendar hash] : sha256 9d3d8a958126aabf1e338f873dd6cfb630a10532b8b61ea991a41360c5638627 -> 2946a54baab8b4c612e249678d218842e5ebba940b8842454245e96ba8b59b45
+~ -[CalCalendar isEqual:] : sha256 7afe67888c9e812b3a4a0b069be50b3d7d2d05c9c5508400012192c559935d27 -> 87a0e540e93a41295a5c53102be59a4532b157080ee597027f5ab1024a801a89
+~ -[CalCalendar copyWithZone:] : sha256 373502ab03030713a1bbf74204dc0de37d60c78f1e142097fe376cf6ec5c1ba3 -> 11cc37d91008e2d4f8f1814cc6b5fc7a28042073c0c305af45dc40186f601475
+~ -[CalCalendar setEkCalendar:] : sha256 ca3d48030458bf67fbe580b52cbacf585efda776fd5678d90c0f01a786e29a90 -> 95e913baa7a6fbc6d82e4168243c5384b81dc9355adbafd09930d6675928c858
+~ -[CalCalendar .cxx_destruct] : sha256 66a2a631f1019f18e91577c9c674563b9fc0f313cd133d3ff71796512a47da2d -> 7ff35c9446acbed388e1e7fa46a4d6bf233bea52146ccfb605e57098a4d69452
+~ -[CalAlarm initWithEKAlarm:] : sha256 2b8977e726bd2b337aed12a0a9d805f0f10840fff4e1ce986a5f73aee2e0654e -> 03909ddf078f748d34029720ff7aff552aebf9dcca7b07e02cc679ae33e2aeb2
+~ -[CalAlarm setRelatedTo:] : sha256 098bb16fab2cb38ae3bb522057ebebc89f003f566dfefa570938736e5e23b112 -> 1361fafec14910e59febc89caa3d4ff12f2f6bda8a45a9e90ba52e8a36585d3d
+~ -[CalAlarm relatedTo] : sha256 722d360f934a81c630719bb329d2bd9f181738b92c332fa004dd34d6cc93d6b3 -> 60494a3b105eb2e30c7d2331c3acf2a4950e2c32bb2d8d8059be4377042084aa
+~ -[CalAlarm triggerDateRelativeTo:] : sha256 5c1607a5c1ada4e4711288709f133363fdfba6b4ea9eba6b3cdcca189f281184 -> 272f649fac093b0835dcf6522b56a5f1c7e2539b3064c56c9085733f5db42d4e
+~ -[CalAlarm hash] : sha256 a147bbefb8239b17f203de02e6533343def4d16cbf9cf6d125c62aead053f8cf -> 4b8e086727eeed8bee258ef69d56c5fd4dcb736e0992a23fcc4a8f3531104476
+~ -[CalAlarm isEqual:] : sha256 585d7c921305a40899c1fb02137cfafc32eec325a32939b524c79e27c3a89e24 -> a89c90e41bd6f076611cdb2925154baf37207fb8024b909cce4ba623daed6f9c
+~ -[CalAlarm copyWithZone:] : sha256 ecc8fa2c20a3c67dd44bb67e09028e507d26024bd7ebbf07313fa2b521a560be -> 411c51153a71d8670cc46eccccef1aa50674e428546cdd8c8f48031b3996a256
+~ -[CalAlarm setEkAlarm:] : sha256 62a09d3752b0243563aac8cef4b42a54a81d2c6306f975cd8b8e5eaeed1420dd -> 7875885ce895fbccee5e89496ea876abd270872f3d544115566dbf4137f06027
+~ -[CalAlarm setRelatedToString:] : sha256 7f2dd3b60320c1783407e6b5ac815fbae9787d9a301a856c6e4e5dabdf75e250 -> db3ab1d5eb272122588bbaabb4fd049f87e3f2813484bc9944413af87795d4a2
+~ -[CalAlarm setUnsavedRelateToDictionary:] : sha256 f35b5ea960d057ef44c5419ff3c5b1d114e8cbe8e35435cb0c5aeb3e10e44f9f -> c1b578a30c8af29d56b3201df03c59accd9c3c34830ce826af7649d2b12f88b2
+~ -[CalAlarm .cxx_destruct] : sha256 faf5ea87d4c9076a8c1039cb5655edfbce8b11fd83af9bb7c6ba1a1e98f24db0 -> bf56148eb42dd826cd3e9457f03fd2fb4305bcfe2af3a170b23e8bd0ba02e115
+~ +[CalEvent event] : sha256 5cd16ef45a23f23668fd3a24093bbb36a1fe94e3bd367f04ecf6d0c9246ca295 -> f431ae12dbb4fc864afae34c46d5584d5b76a60fb13ed010a4cf4b721a037358
+~ -[CalEvent init] : sha256 e674c03af5cf003f2e088b2b6ceb4625850615893ee4adec89ac8639d902ea78 -> b8aa3f50432ee0ee06fa0d87670b677c9b8ec114ab1891855cc526c740d8ef56
+~ -[CalEvent ekEvent] : sha256 4f130a31cc64d27b0b8c1f455a99cf01cab4f6015cc096076ac379818168dc2a -> 0b34c45c9f1ed42dec935b69e03978b00b538359c837feea9d3a942a684486b8
+~ -[CalEvent setEKEvent:] : sha256 431b17472321d114b53c43ad687dce27a9cefc3dd88e7315d3a9a3598dc95873 -> 9ad9b34d5dd82f46fbe43c44cd02fdd3e9a755eef95b2cd8c76ac0c01fa50cdf
+~ -[CalEvent isEqual:] : sha256 9904327447caed2e498bb16405c8d1f13582fbea4b2d0f99c6af2c80202796df -> 8164d9c59b2ba5be040eae6f82536dbe68a552cd7e57f380aff9bdff5d2a5417
+~ -[CalEvent sortedAttendees] : sha256 ad8949865f4335296d55df71de0dbf15f46e23e59d9a75e1b1f268d5fe0f126e -> b57fe88386f1250542b32d65a3fb4beecc27d7a278b70d094f613433456f05d7
+~ +[CalEvent sortedAttendees:] : sha256 8522b0f67d7f94c8b6d688628a5de9f08b8944db42012183da9b96a5e6f0815f -> 2877045b6f1427c3403eaef95a703c0e91251a38b12c0c6edc0b1ce2b6a718c8
+~ -[CalEvent isDetached] : sha256 41cf093d9bc930dda73391233d370160145e1406f9a7c43c0cfe03619753739c -> a80b703c81570de4d9d462ecb334486e3b8e4a0f994d1ad6817e2e9e4361600d
+~ -[CalEvent nextAlarmDate] : sha256 1506402e465e5612b5c4245f1b7b7346f5a8b313f0ce6f113da5e53e31628edf -> cc81e9deb11707879876e40afce15f0f3980de956e6ae67841a1453643e08f0e
+~ -[CalEvent setEkEvent:] : sha256 c2841210ebc8d3a409d52a8de2ea43c61bd9b73bfeb8d713d8665a90584a688a -> fb250422fc9ad0e36017a77db8f122ba08535ac9a520ce3edbef79c0eb5ba12a
+~ -[CalEvent .cxx_destruct] : sha256 07eb7943ce72f209b972c507ad5403cbb8c60cfab60ae8d75a2c7adfd432cbf5 -> ca58c0ba8efe166aa4a95305dce1c7d651edd183b34a72df4ca3ed83dd013291
+~ -[CalRecurrenceRule initWithEKRecurrenceRule:] : sha256 9280e3b10ef1a3a83cd93f0da2ce6c672b6df990cfaf605f2b6aad814d5426d4 -> 0a0564486e3d1ce74680759da2a4064b302c5dc3148dbdb61e17557f01e820fa
+~ -[CalRecurrenceRule initMonthlyRecurrenceWithInterval:end:] : sha256 a25d6deca3fd40419219f55933e4757559cc41370ec4346b07aaf015f0088647 -> f003384a185d09ce89018524d99622ed27d8e52b36ec327cdd29bcfd0202d2dc
+~ -[CalRecurrenceRule initMonthlyRecurrenceWithInterval:forDaysOfTheMonth:end:] : sha256 7cf65bc9ec4d0aa448e9e083f7677e2e9b323f5adb797dbe149f3ec021b565b7 -> 82be4c9c9774d17fb2d8efdc3bdd8c6b6e3ef7dd8a0663a816ee444823ccbdf0
+~ -[CalRecurrenceRule initMonthlyRecurrenceWithInterval:forDayOfTheWeek:forWeekOfTheMonth:end:] : sha256 eaed86ba2b3bbd3c6d8e5dc7a8c8a664a37e99d8e189fbcf5be7ebfe7e18aa68 -> 6d463e93d78d9b26f369c86aab53a708ce2fc90a9130fd02b06c0dd6628f0ca0
+~ -[CalRecurrenceRule initYearlyRecurrenceWithInterval:end:] : sha256 01e0ab8996fe9a9efd55c3f549d1084935df8e73f526d5d3f99f0d7770441f15 -> 3e1a910dfdf6b3c9866cd695d2be237a829a70085a89757692dba9ba74a63ec4
+~ -[CalRecurrenceRule initYearlyRecurrenceWithInterval:forMonthsOfTheYear:end:] : sha256 53ae5f6a2696b442d62078110e08c48e333ff3d24bf2b0ad875ecd060318cb4f -> 81ee4dcd5ffdd446c35c5d76ec53e15c1623d45eee8a556aa2eeb5bea3d828f4
+~ -[CalRecurrenceRule initYearlyRecurrenceWithInterval:forDayOfTheWeek:forWeekOfTheMonth:forMonthsOfTheYear:end:] : sha256 f970073ff330b00abfd73c68e2ccec9b76f8cba4bddb35bbe00dbcd42df28411 -> cde02deebffa26a8669ab0f7a51e661c5d0f328368d0267cea2cf554e346b58a
+~ -[CalRecurrenceRule hash] : sha256 50d491207202b981f9df6d51f916583572776843e66848297ec638b8dedca416 -> 3ceff8bb8b083df472e64f88911d86d85de808c6296d85f5a4f59b727e15affd
+~ -[CalRecurrenceRule isEqual:] : sha256 a68e7e96b7bd67f0f0abf3e9f786d6b24e47e27d62cb45d4e1c40ed3bfbfca26 -> c697ed134ad9953009bbc53780e52c6b762002352eb0a607acae256ae67d2676
+~ +[CalRecurrenceRule iCalendarValueFromRecurrenceType:] : sha256 722490fec05d4a204d6691cc1d001ca88094fb620065cb458fc3b0d3f7c52ab0 -> 6591faf231298352b3a6fea01b86b1dbaa65c8e973fc8370df17d320b587a710
+~ +[CalRecurrenceRule iCalendarValueFromDate:isDateOnly:isFloating:] : sha256 4a811a98ea23c17f86b7bf09ef58816e5f3e0aee5976cc5682132bbcfba2d27b -> 7c20f38b4f189e8894ca40408409897cfbae3116396a5f3d8129a40d326b7c97
+~ -[CalRecurrenceRule stringValueAsDateOnly:isFloating:] : sha256 f0634d4910bc3076fff9fe10998c256f77e57922d6750c61d699c3be8bb7a3a6 -> fd0a2fa790fd926eafa809e147a7091d35291d6a16c084ed56e5b84100fe7e5e
+~ -[CalRecurrenceRule setEkRecurrenceRule:] : sha256 463b852bd5304fa19fe26ac7289879d49f087176fbf919641841fbb24af9c287 -> ba76ecdb9e968b143acfc6276398a4b429ab0616ae5b6e35ed91d17c4763c221
+~ -[CalRecurrenceRule .cxx_destruct] : sha256 66fab9d8d77ac94eb6edb91e2e8ae8b268a9f4e091c474176baf9c954823881f -> beef31a717fe984ae63ff714f3827b6f55ad7bdc6bf8813fd05080bd741f258b
+~ -[CalNthWeekDay initWithEKRecurrenceDayOfWeek:] : sha256 ef442610c83551159952353953505bbcc25106987b59fc4bad5dafe3937e3b9e -> 92d0e13aef4ff1bf9b4fbc80addd09c387c554fe6327f828c548afc4e628a702
+~ -[CalNthWeekDay description] : sha256 baab79608685f4b5f9900c25e42e86ae1f600e99ae63fb464f12d2e38b6d0ff5 -> 97d03a92f15e0cc20fa2955217a525c505fbf8766a942a41b58a39e3b704bb80
+~ -[CalNthWeekDay hash] : sha256 6457cf7c06ffffe2d5e55e05ddd33f78347c1f31307ebf30c486fb94d8de876e -> d3f81e81ee8c6a1538852e82a3403971f343ab3e8002ffbce0cecbe096f99c4a
+~ -[CalNthWeekDay isEqual:] : sha256 5ac04c450df5044897da91cbe9085e91b5e8348f07797887506a304468ddd2eb -> b4cf2df42fc45e4f66b0d2391a7484e2a5cb86741ff81a1f12fcd70cf75641da
+~ -[CalNthWeekDay copyWithZone:] : sha256 4d52f56f6adef7f595319a04e8fc33239a3e031496be3e50b8a9f2b90b8d6036 -> d7347858c20cc89585cf6a52cc028e96d19bfb77e5a9e74f64552627b272afa4
+~ +[CalNthWeekDay nthWeekDayWithDayOfTheWeek:weekNumber:] : sha256 f8bbe878a5e25b277df23a80b3f49ebaf671a31d3160b0b7a15d40b513a7c1d0 -> 8ea1553f9c3d3a9788d1c2d4b85a37d52bd998fb22c9c9859dffe7a087d26512
+~ -[CalNthWeekDay dayOfTheWeek] : sha256 a93a26a41893a888297076cbc3773fa910b8b2aba2ea2b203554cc057312f520 -> ea1f98d845fb12fae4d4e2fbcf3232f27ff900f3a2ea827733be3377d1c62c36
+~ -[CalNthWeekDay weekNumber] : sha256 0a77b0a35a7f22d507ea232e226ae9ac2ef8838175c3c3b40c548dd267791cbe -> afd258b9ac893231811854ea3476f11beb50a74d34f98936eef391cebd349e53
+~ -[CalNthWeekDay setEkRecurrenceDayOfWeek:] : sha256 0eb870ae5c6af53217eed04920a60ed700bf3440e0cc71db685a55382a061d37 -> 05ade1857b443d914649ab5e7a266ed9d465558fc300c66680e1d9447b2bdb74
+~ -[CalNthWeekDay .cxx_destruct] : sha256 09f939075c7356f992dc18740381c37518c50d5568b01a22344815463b137a32 -> f1a256fb6c240ce9c5796fa70be3109a1757b1cb81ec7e0704bc7e048083f524
+~ +[CalRecurrenceEnd recurrenceEndWithEndDate:] : sha256 cd737eb581db714b42a89942ecab6dbb3a0ae4b6e4628e87b99c3cef00f990b9 -> fbc937da850150b69c62e7161bc8d6a715408ef5f73d94ae3d198c288753fb85
+~ +[CalRecurrenceEnd recurrenceEndWithOccurrenceCount:] : sha256 34b6136f9836501d4120e3ff7673bc8b96a2ad7b53284438769335e552bcad8d -> fb93cd22ec663e7da6cc5615bf972225eebd33428051c8c6eddc6b5bfcef8a33
+~ -[CalRecurrenceEnd usesEndDate] : sha256 879ffba0e61acc83f0426edb59b6a165cb84b7be72d89c017bd63445eb483562 -> 06e3d245a55fc3f128afa02aba325bb1a7c6605b0e2778ee74aa8be49baba1e4
+~ -[CalRecurrenceEnd description] : sha256 1308bc31648a362ba0b333304425e3436f7d08b1599a80a6edb388deb656f861 -> 081e5c693a2b4a54f47fde1ac3053c4ec96b33f0225a043caf10e1df70e931bc
+~ -[CalRecurrenceEnd hash] : sha256 3811dcfcf3d236c07ea14a1d7703afb07657c3da3ead8f2f3010de80fc045123 -> 3188205a96c79ca2fc9fb8a8ae2b1a1e363f4638b1a9a9e068e1dca4887fec79
+~ -[CalRecurrenceEnd isEqual:] : sha256 2564cf9704ee823a1cd939f964ceec04445a29d1e2abbc10fe193e4146f68f8c -> 5c26cc23d3302bf4f9b77d81d68d91a2717e01b725db44ed57561f28e3cfd21a
+~ -[CalRecurrenceEnd copyWithZone:] : sha256 1104396ee3f3ebff3be93f231c934d38eca5c87506002bbcddcc4d7ab7d7621b -> fd42198e848da4093217f4a643ebf36fae6a3f0cc8cff7857b4531ae0a4348bf
+~ -[CalRecurrenceEnd initWithEndDate:] : sha256 47a333ef9c0a28a8e912994f4a01d4b5f7884a5cabead62db421cdccab01a662 -> a99959f688bca130bf9eff51e10de3d3da980b59c0b95546c4c4ccb2759d7216
+~ -[CalRecurrenceEnd initWithOccurrenceCount:] : sha256 5ab52774273f1f281b0168157cb8ee4b66a657b5dc16629828241118c28ee4b1 -> 903d37f579c49c5adab94229197f20116b1cb26fac932b64e854525967d9e5fe
+~ -[CalRecurrenceEnd initWithEKRecurrenceEnd:] : sha256 95333bc5f7e369eb295e47b47e821be48c4297b07b4ad4a280e6dd307c9767d3 -> cee4680af72313d1cf5578538597d67febbb7d1b9cd359064c5a2f1ab176af8d
+~ -[CalRecurrenceEnd endDate] : sha256 b5c0fabb8d57e62eb09c025a4fa900cf4a28d723926c14e2721a2cd7e6ca05fa -> e3cef0a04604cb6f064ee2782611e492109ab0b39b976a43443a64aa853effee
+~ -[CalRecurrenceEnd occurrenceCount] : sha256 453dfa8389364615a41c29c1ae6444c6de1c9c0d270d75b775f3284804bcbd2b -> cd0095650557c1471121248a6df6f51ebe87ae9e64fdf3dff1dff6e980627e9b
+~ -[CalRecurrenceEnd setEkRecurrenceEnd:] : sha256 680adf6c142bd09f40a2fd8e13551227cfa645559041b5bacc5e32ce9e1eb3f8 -> 18e07518d6981d3c761b2d8393d957c004e7eb2481a594ac1501ab244fb684bf
+~ -[CalRecurrenceEnd .cxx_destruct] : sha256 58447fcd97799ff2fac51f8e2824b4c54933b7d1e76e9bed083b2c54e44e3c80 -> 30f2712c7ac0901d0ad57d29fe6af2a693db184d580c7245728e59086d8da151
+~ -[CalCalendarItem initWithEKCalendarItem:] : sha256 c9126d424b695f264bf1a9f1fd69e108166da81b49be8467dbafeabb43937053 -> c10b33b3dbcfeff7e77b44a30e8fd09f2e47df3249d0f73be29a4a5b21f56907
+~ -[CalCalendarItem hasAlarm] : sha256 8aee7a8392c48c42f8995a02affd794547c000d100acd54b39b3d815e951a0d6 -> b651850fe0c9f496a48c508fa3cf9be1eee19b562c521aed4c1c63d774652dac
+~ -[CalCalendarItem addAlarms:] : 252 -> 248
+~ -[CalCalendarItem removeAlarm:] : sha256 8b2d1d326c3d53cbe490d8f9fca5ddcbfbe6e298327de34717dad1fde67f09d4 -> 866041c639474718b0a3e64e6ce650a7a9f9f3bcc483863a19e6f1c45dc26bd5
+~ -[CalCalendarItem removeAlarms:] : 252 -> 248
+~ -[CalCalendarItem setAlarms:] : 340 -> 336
+~ -[CalCalendarItem isEqual:] : sha256 4e803f57476edda0a267cffb7b83e8b4a379ce853ef7ece5551dd255fd666d6b -> a0b21518c9d20a2dc8ab77f774c736f04c26439d1409ed56f16291d23a682ffc
+~ -[CalCalendarItem sortedAlarms] : sha256 d5742ec4e30148657b8874d1258f7fbe9fbd05c16a0d68904b08c9a4800e0796 -> 1fdedf4689eaf22cfb6f556d5393d60de94b3a02d2a208da96fdb58328852383
+~ +[CalCalendarItem sortedAlarms:] : sha256 a00083f2c8bda37fc51c06df3e3dcbfbbeb240841eafb23ddfb7c0be4aadd1b1 -> 4807b3b21c55b079be8f777c4a80986732be240328f0f771366981effcafd03b
+~ -[CalCalendarItem hash] : sha256 0c853964f8b847a9b20ebcece4d148973fe58228f5bc0a7d89a0738a368cf5ec -> 8407a79fc499300f7909bc55a2ea61a956f87bc15d75b5875503e098cc0f5615
+~ -[CalCalendarItem copyWithZone:] : sha256 c9b4e2dcd13a8805fdc05cc38becb3234b89469923d555de25cd04f128596119 -> a49bd052f1619c7bba2c476a92374ca94fff918f3a862c5e4128d3edd1ff08b2
+~ -[CalCalendarItem setEkCalendarItem:] : sha256 83428554013f048287c597c3f74f93c8723bab49b8ac6de8a31a922bc100ae11 -> 9a67b201a9e03ad6fc76139ce8f498fdba4736dac9f544a2088eb0354b940842
+~ -[CalCalendarItem setUnsavedRelateToDictionary:] : sha256 add700cc3743b391050513ca63b937a464cd3cde866d0b1a22a0aa7451aeb825 -> 994074b40792891f00df28c9ae82850f02fe0f1ea9b0e1e6f01cd64e03457a11
+~ -[CalCalendarItem .cxx_destruct] : sha256 a0ddc310cf3660334e8b07b260b255f7e8fc4c5f6ab4d355bd33481b47c891c9 -> d5fdbcaff1598b6c2679ec481762333ce8c2fadfc481d44ceb47a68d16913670
+~ +[CalTask task] : sha256 84531ab7b327ebf37de9f8288337970b64155f4fea35a3e6164a2e8efd22b64a -> bbe9ec503f8a358ebb08c93a6015860d4b960c738c328e4342cfb49080363e9a
+~ -[CalTask init] : sha256 2852ba7a07f890e6620a2f2906cf431284a9e13f4221cf9c9c444e108434ac3e -> 0be9c7411511e8df398cb8c58d8503f9900d2915028b59309310d2db7b924612
+~ -[CalTask ekReminder] : sha256 29907fc487566b6250ae30ae04825ce4df35f2c85e95ebf0ecd008d9f76ac91e -> 82cf02d77e2cab9e2fd4a05592a5e78499806a2dd8f02557979b0b3748262dfa
+~ -[CalTask setEKReminder:] : sha256 ad4a9fb986d19e5a5ce5f8ed7149fcdf8c692b613915ea8550b064e52d027d4d -> 3b772c7dd9f6f7a2d9acc28068c7c8f12740d7ef85a7080636b82909541a946a
+~ -[CalTask isCompleted] : sha256 dd1055fc5d5cae5ec96e621e028a6de513e6f8b387f0421555da4000c7a3dd43 -> 86e58202aad343095566e2471ea1ba8e500a4463eeb4f344450ad6e1d425cd0a
+~ -[CalTask setIsCompleted:] : sha256 eacb30b35234103e170d4521df5367c5c69a73e5f389078bf3bc4f94e5568599 -> 74ebcf4621066df68ac29c398f7569049e52ac6d02af62a4d46cca47e0ede945
+~ -[CalTask completedDate] : sha256 bd37d8da5fbbf62b6a8f7526ace4a0ddff0eb8aea301238ad072fb1aa5741956 -> 551d56d367dda2528e0faf06c4c4cbd1be6af838a134cd1e58648ca2e6e753c1
+~ -[CalTask setCompletedDate:] : sha256 75002b6d30a9005b40c5331ac20fbf058bd17f5cebc0bfd417edc54c3ceda3ad -> cf2457d4d95fe0c9f41afef5e1cd9ee5bbda673a053fbc7bf8201198026e7f82
+~ -[CalTask dueDate] : sha256 34921232807f1005b14ac965338d139019adbf1e448adc72cf714854f9af8855 -> 7285f46e508893d922df4ce272fd4c706dceb2e00c7cfbcbc7af0d49b9bfb878
+~ -[CalTask setDueDate:] : sha256 7f3b54f19c905785d58057c59931f1d4ad394fb8372eea78c7af5c8602806c45 -> f0f2a1f99926a3cd257d0268b0f72d47a90a4f14684184a8d218c5f240200349
+~ -[CalTask priority] : sha256 8e2c5c4b8d9dc84cbf4288ba113b4b1cbf378671ee2447311ef8e506dbe67862 -> ecffbac42342bbc3b219d07eb767464ca603623b2595e3bcdcbb4c616d05723a
+~ -[CalTask setPriority:] : sha256 90432c39fb248a0e4513a57ae938a3c2bf7e99d57f5515f184beee68a638a6c1 -> 814e1b48b5c74563554956a08e72fe245080a37401b3ab08ccf7a6ad3a4d455c
+~ -[CalTask nextAlarmDate] : sha256 b14a56d48b5172cc59209c982713da8e408ea947d95fb0622b628446d5f23ebe -> 93f8907ac5220421b259bf2e295fa768eca1138eb736fe95aab1310bd0a68967
+~ -[CalTask description] : sha256 2a052c5700748002794975a78d437d57fbc3dda47097a4ff56c57d6f1447786b -> 26eee05dec1bd51cb6cf3755f67005299b8cfe177f0ffd282c7240c4f750e9b6
+~ -[CalTask isEqual:] : sha256 a03aaaf2eaa15a989c346e0824851d4c616109402e038c21c5c2ba2d8b6469bd -> 59deb8643a6fc871bc62462d239b9b4f96478a7bd4e619e5db08b304cc0f9f47
+~ -[CalTask setEkReminder:] : sha256 1fdb49100416a6179663a37037a0e67abf47b64a95898513561be626ff310242 -> 09da77d5d9e8bedd2e9108570bb5d5d60339dd35c515b4c98e64b2d32aa4aba7
+~ -[CalTask .cxx_destruct] : sha256 622a6fb60d3715ac74fcd8fa966bc7437f480d62ada3ce7a38e0cc4a0a58ca3e -> 57c58deded99d472be455e2138003db499b765ddb198604a3670343a53587eb0
+
+```

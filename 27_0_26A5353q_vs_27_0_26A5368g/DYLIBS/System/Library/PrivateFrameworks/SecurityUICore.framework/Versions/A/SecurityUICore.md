@@ -1,0 +1,51 @@
+## SecurityUICore
+
+> `/System/Library/PrivateFrameworks/SecurityUICore.framework/Versions/A/SecurityUICore`
+
+```diff
+
+-55219.0.0.0.0
+-  __TEXT.__text: 0x690 sha256:02c93dc7c58a9de203ac488d1a0c1a9846a4af4bb9b46f685b255d3fb83d4cf8
++55222.0.1.0.0
++  __TEXT.__text: 0x690 sha256:9c2c7475817be26d2f3f72ce00d809894b47cfcb89b2ec0413f13f1500afde86
+   __TEXT.__const: 0xe2 sha256:2a9edb315b08dfafbf50b88126aca2e31f6306a5d79a42937f03d524a838eeb1
+   __TEXT.__cstring: 0x22a sha256:b3398d11b21c6e859161915b25c8a6eb57de9da5b1f6177f2ab66b3d901a5ba8
+   __TEXT.__constg_swiftt: 0xb4 sha256:b07422e4c2a8b6162c72591921fada2dd15c4ceeb08e26e4156d68717fe6a6fa
+-  __TEXT.__swift5_typeref: 0x2c sha256:53acde54e6da2d6e143d0954dd3bf1be0ec7b2b6dc084e30215b64716753bf52
++  __TEXT.__swift5_typeref: 0x2c sha256:056ef795514067422d775b6d6e8a7253267d0c590615f8c26da0a429b2c79008
+   __TEXT.__swift5_fieldmd: 0x60 sha256:9f962e1796049b0fe6e9d744c5ff2ce89cc93dd47108192b718741039e597aff
+   __TEXT.__swift5_types: 0x18 sha256:63f806842fccdced8abd00b197fd11e2642437b6b978b6cfbb1f85a8ef17a1ba
+   __TEXT.__unwind_info: 0x80 sha256:1155372c6a59834fba3ea3f986b063943e05d9206979c0f7cf72ff24b233cf04
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__const: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __AUTH_CONST.__const: 0x360 sha256:569d882604ca3f3f65d1081a58cabcaebf05974434efc433f413f660151a9de5
++  __AUTH_CONST.__const: 0x360 sha256:fef903dcdefe227b0cfb89e5d0de9f627d1edc7965cddc6448c6421ff4ed187f
+   __AUTH_CONST.__auth_got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   __DATA.__data: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 8DC84CB9-3448-36A3-BAFA-AFE638F4393B
++  UUID: A630CB2E-09DE-3B1B-90F1-4A4DB9133FA7
+   Functions: 34
+   Symbols:   138
+   CStrings:  12
+Functions:
+~ _$s14SecurityUICore0A2UIO5LinksO12appleSupport_WZ : sha256 4e5844bef4dfc44ddb413b644864bced76cb5273558d2dc2f3d04eecb9df09a6 -> e1e7bf79ade3b178e1894e162e4e9f663076531e9e0bb2ca5de520bb10dde5c7
+~ _$s14SecurityUICore0A2UIO5LinksO12appleSupport10Foundation3URLVvgZ : sha256 ed26a70e0a2179dce0247119082928c2d12089d0a9a1b76eabc200d89e1782d3 -> 5918315905055e227b3d26041f44f8c7d21855e600c07b4678e33e26115b0047
+~ _$s14SecurityUICore0A2UIO5LinksO16learnMoreURL_mac_WZ : sha256 71396526a7b5c3cf99a9d3bbdb2bf30e4c1226d4193a3edad5dc33782df0a38a -> 56d32f0fc87cc8e97be2e11d60cc05079938f390fe5f80ee0dadaf9a2ecb5d73
+~ _$s14SecurityUICore0A2UIO5LinksO16learnMoreURL_mac10Foundation0G0VvgZ : sha256 a4d7b37f9c93f48b6043506c308e33f098835e308f2bac285d2e84bbb2ad0f69 -> 11c4b66c0bb9437b6fa08f212205d3baddfdeafbf59159a91f2821c734a99a23
+~ _$s14SecurityUICore0A2UIO5LinksO12appleSupport10Foundation3URLVvgZTm : sha256 036c27b55ae2817fb0ebf3fb9321e4a3ca66ef7f07c474676ce4b88ba8659778 -> 2b3b790ec686aac66574a209eb2f14a65b1a39d3ce498ca5146bbef0bce0aed1
+~ _$s14SecurityUICore0A2UIOMa : sha256 0588cb83f10cba8d2e83df21ec56fdcf2d04b1ae132ac9c447eb9bfbeb2c981c -> 3d6622c2b898eae3903c1c2f0c7e38d8f093d99a141baedd9e26445b37ad6efa
+~ _$s14SecurityUICore0A2UIO5LinksOMa : sha256 e2c4e562e20e26fac360834ebc66e9169999652bcc48f56e2462c66f93bc9264 -> 0606affc572551b4d99c94aa97c55bbc7e404e86c2270e55302f7c974c31ce1a
+~ _$s14SecurityUICore0A2UIO7ScreensOMa : sha256 fe209d32bb46605ce7175fa2992df9706aa9c90ca89aea24d1a89877a94d70f9 -> f94947a0287ad598babcf0be0b956c59e75dfe106186f88b80ea3989f4dc115d
+~ _$s14SecurityUICore0A2UIO7ScreensO19CertificateOverviewOMa : sha256 36351df6e0600c753af8d0468b4eb4c21432f0398d2a97c2889376ee84cb0b22 -> 4755aebc11ffb6432fbd69d6c4c62535f0b7cf570ec0a8c26770b6594ac09bd3
+~ _$s14SecurityUICore0A2UIO7ScreensO16CertificateChainOMa : sha256 6ce9dfc7622b43b73ba56ef5167911d7ed6f4bbbd3f79bcd30c85c8e91d03918 -> 37d75c5da66b94b73143c04af9ebb5f698fdd1079f03066fd0d34a2e0f2d96b6
+~ _$s14SecurityUICore0A2UIO7ScreensO18CertificateDetailsOMa : sha256 9b5e309562123f8a40a87172a3c03cf43a669cda0e1861be838bd975f0f2f417 -> 59329fca58e2af4760b3197af101e48036ffdd3c7ba60f3edd4a34d750ab445b
+~ ___swift_instantiateConcreteTypeFromMangledNameV2 : sha256 74aff1573316a72cfd7d729ce0a0d8429e867e615de59b8540b06f996ea52632 -> 0541698b91128a367a46dccc10faa7e9f04603f9373adf3b48ba52610b6bdc94
+~ ___swift_allocate_value_buffer : sha256 6a86390520b67e415cf31276b32bac7fab0c11be074af4fac6df24a5dac55a3c -> 5483eb3af359fbe80ca5699c84a8930f2793ef909682807a3e31ea8bf4c36c57
+
+```

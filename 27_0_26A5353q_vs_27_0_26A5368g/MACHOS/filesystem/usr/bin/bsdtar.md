@@ -1,0 +1,120 @@
+## bsdtar
+
+> `/usr/bin/bsdtar`
+
+```diff
+
+-178.0.0.0.0
+-  __TEXT.__text: 0x9dc0 sha256:ac815ad3c5689e05d7651fccc598b0f14684da12b7f6e9222e1e88ee2fd388c4
++182.0.0.0.0
++  __TEXT.__text: 0x9da0 sha256:366718333c069f59b92ca1eb12680faf9b97f9dd728f16199ac26d484ee61ed0
+   __TEXT.__auth_stubs: 0xae0 sha256:10f8141bec8be775c44e1f8beae18cec9d026d6a33be324265bc6c30eeafee44
+-  __TEXT.__const: 0x38 sha256:725850b49599fc80232ca18f1bc7f7f220acf516c92a5a9ac793f316db4590f2
++  __TEXT.__const: 0x38 sha256:4a2d94ac94f741228fd5536b223e1bd7286f917e6bad9b97f40be61a6c33a38c
+   __TEXT.__cstring: 0x17ac sha256:708f5045945907d103b71f6e668fdcf6cdd58772855e0085c2e3925a94e59680
+-  __TEXT.__unwind_info: 0xc8 sha256:926b671d087ca19d0bae5e27ba3062c53d830226a0421fb65ce8ac50346f5bf9
+-  __DATA_CONST.__const: 0x990 sha256:085ba6c341e59f6f34d9e139398a131bbdf4233d87067ca5abcffa381c877963
++  __TEXT.__unwind_info: 0xc8 sha256:659c13342e4132e9c2f46beb34bb87726ae625919549ed9187a162667edf770f
++  __DATA_CONST.__const: 0x990 sha256:dbbcf23394a8e10fd9b5002a1e9830efda7a1b4d7ddf739862b3cad0dcb71b1f
+   __DATA_CONST.__auth_got: 0x570 sha256:e9aef318bbae99d9236ff1d35dc3af5964154fdd1e43d7ff2df31063ecd3c1d8
+   __DATA_CONST.__got: 0x20 sha256:ef2a7acc271a5787f272ebfc6c32a4536a55cfd87e238f088a33c4377448c941
+-  __DATA.__data: 0x10 sha256:2e2c75c9933238bb4071f6a40b59aa1eb78ef55f8821ed3bb2894bbbba2801a1
++  __DATA.__data: 0x10 sha256:2eb80c30603b0f5bb35800cf5140966b069bad557c5662a0e058d52d688cf929
+   __DATA.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libarchive.2.dylib
+-  UUID: 62F80E32-DC6C-3C47-8695-2D37DC3734CC
++  UUID: 93643CD2-0F4C-3C1E-A231-D6301795AC48
+   Functions: 78
+   Symbols:   630
+   CStrings:  349
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/Symbols/BuiltProducts/libarchive_fe.a(err.o)
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/Symbols/BuiltProducts/libarchive_fe.a(line_reader.o)
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/Symbols/BuiltProducts/libarchive_fe.a(passphrase.o)
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/bsdtar.o
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/bsdtar_vers.o
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/cmdline.o
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/creation_set.o
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/read.o
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/subst.o
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/util.o
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/write.o
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Sources/libarchive_executables/libarchive/libarchive_fe/
++ /AppleInternal/Library/BuildRoots/4~CRjhugDroN5EBVZv26MliCGd2W6H6mhzfanxMW8/Library/Caches/com.apple.xbs/TemporaryDirectory.w0NRBc/Sources/libarchive_executables/libarchive/tar/
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/Symbols/BuiltProducts/libarchive_fe.a(err.o)
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/Symbols/BuiltProducts/libarchive_fe.a(line_reader.o)
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/Symbols/BuiltProducts/libarchive_fe.a(passphrase.o)
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/bsdtar.o
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/bsdtar_vers.o
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/cmdline.o
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/creation_set.o
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/read.o
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/subst.o
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/util.o
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Binaries/libarchive_executables/install/TempContent/Objects/libarchive.build/tar.build/Objects-normal/arm64e/write.o
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Sources/libarchive_executables/libarchive/libarchive_fe/
+- /AppleInternal/Library/BuildRoots/4~CQBgugDMzXMftPwiHgeu472xq_bvg6gcg-Oq1Ms/Library/Caches/com.apple.xbs/TemporaryDirectory.xVpgyb/Sources/libarchive_executables/libarchive/tar/
+Functions:
+~ __cset_add_filter : 272 -> 268
+~ _cset_add_filter_program : sha256 b9051d28d3918a969b25d94aa5b09dcbc291873acabf76d49a591e8b1cf8567a -> 6cc2e65a42d13fe5f7d1584b409ce0e70226a3dc2547d87029ec2abbfb1234b0
+~ _cset_read_support_filter_program : 176 -> 172
+~ _cset_write_add_filters : 300 -> 288
+~ _cset_set_format : sha256 bb05bd425396bd641910080d41c2bfb7e13b8f11e9307526fdbb002dba2bc110 -> f33ac857559dd9d2cb6630c68812deaed833f76164e020097016486334a5f18a
+~ _cset_free : sha256 ccd9da1440799fe47f366ade512f074949bc4fd474f4a7444bd5d0118009d555 -> 58d013ce4cb2f9a8b81b33f40da7ede2636240b36f8d6545736fb2a8f4deef5d
+~ __cleanup_filters : 120 -> 116
+~ _cset_new : sha256 effa5131dbd8248ef0b0e59c367c187c96e23afc39ac3bbbf3c9aa9a9d5fb2b7 -> a037b6d837f73c3cf2d441d293dc63db71a5068cb9c5fb9ea617f8e23c78f2f6
+~ _cset_auto_compress : sha256 35f82ac829e656e6fc66d0b352bac0540f85189282fd8d1239ce0ed5e6c593f5 -> e21b2c4151ccd37c4dbd378513186a45f5f217f2791d34a3256f2c8c6a080019
+~ _get_suffix_code : 184 -> 180
+~ _main : sha256 bdb578cbe97acd847b06d9c51b03d8b9f37c2d6295e3cb84bfeb8ad3006007b2 -> dbdb100e1d036f289286a8f0c575b8a076499de1de30a8b36c3c580d6d24aac3
+~ _set_mode : sha256 b49178187c3cf076e9a065c11eaa26995665afbc1d057a2b0b5999b7e3bc331e -> 75a9ff27bf78a346f389061b8154bf88e3f185653cb651d0de0fe0eaa654f086
+~ _long_help : sha256 6a7a3b67f1d97ebbabd04724cf179bc63c5fb61d5ca6cf277a4aa82c8b676bb6 -> 046ad21b49272dda2fd7cfdeaef47dbde3cb53f4117ec99c215a128bd80603a7
+~ _version : sha256 4f4ec1035c5fad038ef2ceb0b1c8b3c24a8d54a67b4df2a8bcc70b00ddcbe400 -> 748b19f22106287b148b0c2843c746c33db0a383ffde974eb91f7c19aa14a2a9
+~ _usage : sha256 7179f80238ac6b6acea720e82ba0c4733ab6f77f9fdc34d2deefb2c69e31d51f -> bee8132358468a82e9044846c76ada7adc2153b147684e8c000e61c81ef8c4ca
+~ _only_mode : sha256 2e2dbfc9fc3c1007a7bb9b48723920b664592313efc05d8b2679c12ba0132ca4 -> 56803412ca83801f788652da9e499a2349969f9139d0ab90247ee437d1e509ae
+~ _bsdtar_getopt : sha256 7391e7731e24ce4fcc293ac52d7909a0d405ff97bd09c0eb356af8f7f44c6ed2 -> 9473836be6a8f048c6eba96f83f3d60faeb33cf5d281e179878e30e91d6d9ba3
+~ _tar_mode_t : sha256 39801f30cd2925802dd0b6a55adb3581f117c2c4b7847b31be829af9a4c1201b -> 809a58a15ead6393e73bfde45d5a9efb3d1ac8eb750b40c1daf9e79694ae0856
+~ _read_archive : sha256 3e33801ab4b6df3023ccfa8883b1a5f0e7873589da9dd82a29ad37e893d1f73b -> 0518d60cc1cae41009a9afcbfa3f14dbec77c00807b0eb78ea51e5842588236f
+~ _unmatched_inclusions_warn : sha256 192e37d7d515f94c1427ab37fa72881daf84fbde5ca56ca2136787a07c224dbf -> e2f412eed2a267c4e56ecb8952f059c157d9ec9559e463ee8e63e86ace02dc3d
+~ _tar_mode_x : sha256 2eab4fac9b55c60f00172de2bef92d9dacda58a580229a47c8baa54731338b9c -> 639194ada53f8825cc23d5cc40f339aab12986fb068ddf0afe993005ff43b926
+~ _progress_func : sha256 344355ccacbd1c088c9d233d4669487426e2974f6077f668ce465bec8785efe7 -> 425fc811e4a835344d9450b5c8496e88ba5aadafc74baff2a1458599b71c5359
+~ _add_substitution : sha256 478b875a3c69976ad659f02f54e8679d1fda57bb891c3f4d04e9805c7d883ff1 -> f432ef6361128426dc2c17a1a176085423218a28882be2f25a89bf4b079c33e5
+~ _init_substitution : sha256 c889509c88a5c9986e46147a6de538ac1e80d90aea62fa6279f4346ab1eedca5 -> 24d74c00e400df6bcb36dfc25debf59ac9bb0200ea869ca6f3c443c1d2855a66
+~ _apply_substitution : 1276 -> 1272
+~ _realloc_strcat : sha256 7e618397b1f8b3538ab69db6155fa67e392ddd99695440f84a67eec4b632a2c2 -> 83c1754eec323b91cf3d1e21e32a283cb36cb975d1372177c12d859d4854ce52
+~ _realloc_strncat : sha256 e402ffbc048952bf7b6b00df94ef5ec0ecc448ffd7a94f12ba57eabd36184d26 -> eea5024ec86c3a49b7e680a990030c0168081a6e83e22a73c13218c5a37f1a7f
+~ _safe_fprintf : sha256 21491ed09e50b40a16d0c4f8e8a31115857f662ab988073944f3601708895377 -> 742612b3e0c3a98177f4e0dedf5412be76c658f85cdeb1ba60a3b096837b59bc
+~ _bsdtar_expand_char : sha256 61285a8cf9555fa9ddae70bfa098fb463ca220410e98d5cd3b776e10d163a257 -> ced2d60072b4678a13068f36b67b2bb6275926d1e062eed1fa6d3d8a6e3afccc
+~ _yes : sha256 751523e3caf7fd84f450adb5dd0d8053fe64083d563efff22fc447466dfd4e77 -> fe382cffa9323c6a9ef0c483be8fa03d7abaf88062edfc8e64663227aa0bcad4
+~ _set_chdir : sha256 d30c4a21fb1061ecc61bef2b6bfaa86ddadc5308eb333717c28278712cbab334 -> e234d7f9adbfb764bea545802a0fd78ec6f4e59ee4d77a2ccffb3869727b2110
+~ _do_chdir : sha256 314b8e7d8f7624574cbfff4475b4f12a5397c8ef39e02a87d12b3e3454c106ac -> 6677227790bd51b9202cab6e73847e69ba38a1ae52fc6374e21c658da34102be
+~ _edit_pathname : sha256 e5c0269732134e9fb5c3f72d69cecc0fa3d31c516cc6f9e91a599e80c2291bec -> db392cd50a73ba1b7ec2e20535a869dac131fa9ea3eb95ed5d4a27405a484452
+~ _passphrase_callback : sha256 d46f61a70c72d420d67a69e12bb51cfa4c90536841d6106245ea039635ef8875 -> 918ee434cd71531632b8607fe4ab1bbb11dbd5949c257282e3c47ef3209a79af
+~ _list_item_verbose : sha256 78e950326431e824b1c59bebbe28adf0fda6d92a96c4c739a20fb24a1071ebd1 -> ac98c291fae7071a64a8f9987256eee42f4d82e6acb298be20f1b4bca2a6fa5d
+~ _warn_strip_drive_letter : sha256 816b9ff454924feabbbf71251298f5cca42f08e25191d789ee8adde3c9b1553f -> b73c5ab3a2dcd83219fbf3f50da7ac0c7edb166c285698a65ff35a353de6b005
+~ _warn_strip_leading_char : sha256 b6fd08bdf0bd66841ff077ac16f36768cf345cd7450393837d67271f4b2dd370 -> b5c39f07ceba621df540d10afe14d5f2c08ea161a4a9c23cb76d6812bb2c68c7
+~ _tar_mode_c : sha256 ab57dc49c8e7db90e31585ecd6ca0ed9de79bc3e5a8079263385615696f5fba9 -> e1d8e256faae4c8104e046d41d686b43318b0dc92ee94c8f9433fd913f35494e
+~ _set_writer_options : sha256 1d43efaee4bd086682ce205b64406014ab589578440ddb99dfffe06acb6c8073 -> 1166c73858b192be0ef8e93fc49df94b613902573818abc5ff8e27aa89ee0e12
+~ _write_archive : sha256 bfa910b182910a9f54b42bd30be882f26dbcc98db3916dedc2e7f5d7594c3aea -> e18ab2db16da12090853f3500437a644c7e0ceda44087c56ff3967b8f36f037a
+~ _tar_mode_r : sha256 83aaf999cda38f412ba4ff3ee536e1e834b9060b6c62be2f039fafaf032d7493 -> 2e6435d060e09236e05ab6c85018d50d70e0bd37dc2cbf3a11eda9716dfa8c75
+~ _test_for_append : sha256 08713ac14698a8c0dc52881529732391fb4dd330c07841003329720c7f725331 -> 79bb31c0adbacdbf01ad074d94077db8f3421a2eb6cbe878359e0ac21bbe28c1
+~ _set_reader_options : sha256 b732e1a112d2625e27a311560fbe73547d9067648c4d17b67a08fddab7b3ccf2 -> 958b0476665fe5a573144b9ded59bdc4645c3bcf144ad391aa54aeea3a5b76b6
+~ _tar_mode_u : sha256 5daa064c4aec8b5f55bd213c0df2cd4407045e760e7c24ab3ca61803ebd3f6bb -> d5c976ba128fd8a5de64f7274777f06059f3b9e17fb34a42e5678f976c2a2c51
+~ _excluded_callback : sha256 5ee7dbd2e22453bcfc6120e5183cf9d0df1a9f072e61d1b2ad5db3cf51c0d4c6 -> e6e7f5899ae2829c683b2c21e1e9746e33eb2a6acf67d7e105f1fa01f3697193
+~ _metadata_filter : sha256 86a2fc5114f94a8e23a10316b9bdcc9d595846681cb0e28aababfe65cdaa6fa6 -> 85b60b69193d89e5106f9cf1c37d826087e0d680936f9543682cca73c5c21ffd
+~ _archive_names_from_file : sha256 cad23dc40d6e3b3a0105ce6fad06215db00694a14317e12eec19a9d92cbe3a68 -> 260213966c629f0e11bfa891e525a17f89146366d057e2f274b44c0f5af2fc53
+~ _append_archive_filename : sha256 bbcf90feb65f55ce489ba2e3a4e4c942c6e640544877279ed34323c37d1e4f13 -> 638aff05e2b7355443ed2eee497ed6b2acf9de6730bdfd006c0e23918197ae42
+~ _write_hierarchy : sha256 486323ab9e7a8d79cc4160c5a1396cedccef29a0cd495d0d964061235888fa0a -> 04b7b918644ba06152497a807ac561f2c65504824d37540735f66634e9e92060
+~ _append_archive : sha256 428e9e53038e074bb0b49f1a5a7ede36aa3579601da8a2deabf50882f5d58ece -> b6074c82d874c50c00a7c28c204e19d094ff7a6843c2ecd18b56ae22b1c552ea
+~ _report_write : sha256 e4dfa44f75913402ea4e063f9ae02bb786fea12638b24be77f97601c6d269c35 -> e9284d292c81a2e4504190a6047b67a44925c614ac75ddfebba43dce66fb9608
+~ _copy_file_data_block : sha256 d803c7bea691be6138c621a46e0fae09f4ea26ae3c79b5dea10c34bde7e337d2 -> 8d02fac267c1d36ad5e88b9bfd52bf2cb51ac243c28e6d6ccba9735cd60169ff
+~ _write_entry : sha256 4b7639fdeda1dc05059a5a6d33f86ee872231c192ecfe6844637f66015bdff76 -> edef18035d7d945b239d5d746e59e5f976d8219c4c7d4194c2f784271f507e7e
+~ _lafe_vwarnc : sha256 b7c3378fdbb0b4d1937ad522d5d9b7fa3a9995ad5ee7dcf18e8584354ea0b0c3 -> d8094d389423ecf2f14acbce4738e09bc88f4b1e4da87624aab5fcbdc7e7f621
+~ _lafe_readpassphrase : sha256 16b676bc45b44a5d91a1165a5782e5c5e7806e03138cfaab3d08f94aee4e5d3c -> 9a2ab3069b10b0f3ab3642a3f635aa102cae35da49b9d991ef9808ead95a8d66
+~ _lafe_line_reader : sha256 668c43a0edcb5cf8872dae10d4a86bc9363ad2fd4771f5ec874108859aa6d65c -> 9c63de32a6995ed29f0072caa4c07f580dede26a5129238a0f636647bbd73c9d
+~ _lafe_line_reader_next : sha256 9df9d74b3bc4e70805f00f52e3301985502e8dd3f7ba6e835af56d2264b955d6 -> 4dd0be4e79ac4b55a65e3eafef0d1bf35db2ae9a06784af938aafbc420af4ae7
+~ _lafe_line_reader_find_eol : sha256 d536f5dd0e013ff648f0f2c597b215b19068ace06c9696fd0b63707dbdb8915a -> f3606c5d46afadf1b4794908c4e21c5a364653e6dc8e010230c2aacbfd542d1c
+
+```

@@ -1,0 +1,145 @@
+## com.apple.SharePlay.NearbyInvitationsService
+
+> `/System/Library/PrivateFrameworks/NearbySessions.framework/XPCServices/com.apple.SharePlay.NearbyInvitationsService.xpc/Contents/MacOS/com.apple.SharePlay.NearbyInvitationsService`
+
+```diff
+
+-296.100.6.0.0
+-  __TEXT.__text: 0x1dd14 sha256:d86f9fbd7bc2f6202bdc588759537620d4cfc9269513d8314fdb21825df1eb44
+-  __TEXT.__auth_stubs: 0x8b0 sha256:fbe3983462d8ff674ccb0b543f5894f6cc54e56aba36df4e84df4a6fbef96e10
+-  __TEXT.__const: 0x2258 sha256:295b3e840416051f2733a29a70f63fe571c37e196786b8efd573f4eb03bb095e
+-  __TEXT.__swift5_entry: 0x8 sha256:d530a966a6becbe0d745b386b7f8882d1b137b31490386e896a0d44f47b44d1a
+-  __TEXT.__constg_swiftt: 0x5c0 sha256:4215f86eb877540d53ac75e1ef200128cfee951ed5426731ff8a0cf0d3eb5e8b
+-  __TEXT.__swift5_typeref: 0x548 sha256:52b82d3f6d0f45c6f4c8eab078d508268a2a90f08320ddeaea6b7d423c0b0d80
+-  __TEXT.__swift5_builtin: 0x14 sha256:43ae51dd14306925745a87c75651d51a013e4cd717b9e25f46b33aed0927e8c7
+-  __TEXT.__swift5_reflstr: 0x286 sha256:25b1e3f26f99ea09e09488d8b1d21d123c034c1756486f8085d3afc768583664
+-  __TEXT.__swift5_fieldmd: 0x5ac sha256:613e22484210c54f5cc9734162fc42e8b602a136bc5ddfc28a1930349df695bc
+-  __TEXT.__swift5_types: 0x78 sha256:c83020813275182ada0ebc608b215fc5b098756e18a3ef99b08d602982db6c11
++298.100.1.0.0
++  __TEXT.__text: 0x1e044 sha256:bbf54a19083be3a18e67abd0ce1a007c65d02b0b96d38b24af58e30c76188db4
++  __TEXT.__auth_stubs: 0x8e0 sha256:1694d71e62f459516e9185620cf9f715ddf3d18fb4abda31827a1fe2eb03a7db
++  __TEXT.__const: 0x22a8 sha256:5e4e0cd059d1d8598a25f0296be6af5aef5e18beaab8806067557621a62b21ff
++  __TEXT.__swift5_entry: 0x8 sha256:9345c648f6b10231cd4b86a20ddbda872d580bb259da13c04c877786f45e3671
++  __TEXT.__constg_swiftt: 0x654 sha256:5ca87fdc2c17b7218d94ef1360aa71a7e0c1948cdafe4f91b9915ccbb02d33b6
++  __TEXT.__swift5_typeref: 0x55a sha256:0a94b3c9d6c7d191d9da3182fe192a7c1ac92a3aeaf734e146d1d0fbbd180d9d
++  __TEXT.__swift5_builtin: 0x14 sha256:ec87a360f837fdfece24af0606adfcd17ce2272f3e1ababd20ad5180b4c4782e
++  __TEXT.__swift5_reflstr: 0x296 sha256:2ddd6d3df0e4e6e5e2d9a70f61931f3007c91b1526278330c22ef5a0c1dec4de
++  __TEXT.__swift5_fieldmd: 0x5d4 sha256:897ee21c08d1ae62803e27bc7f9aefa8d6dc89a935178566844e20227ed8d54b
++  __TEXT.__swift5_types: 0x7c sha256:b5bd0f80684ae4adeb9e73846ab582560039f47f190102efcf4dd38c3fb61583
+   __TEXT.__cstring: 0x20b sha256:d120ccb6a62fdc43d85908117641ebd513947795ab0578744520ceacf5ef8856
+-  __TEXT.__swift5_assocty: 0x98 sha256:d406709773c2ef740dfc3b129838bad158e0e71298635afdea9c172f20a757f3
+-  __TEXT.__swift5_proto: 0x1e8 sha256:61b036651be77d1a1a5cb2512d2d688d6901ab0ecb1f76aa68accb3d7fda461e
++  __TEXT.__swift5_assocty: 0x98 sha256:8b5ca792dcd1e9088f9cec2cfd40cca1c974d6b29783596e526481f6ac47c496
++  __TEXT.__swift5_proto: 0x1e8 sha256:48af6a4a9f234a06029108eb1c003e4c98191c7baf33269e5eb8cc4463d6a258
+   __TEXT.__objc_classname: 0xa0 sha256:eab1d795e7ced0ccda605e7024df18d423167dd39a7fc87f2af6a70d2af811fc
+-  __TEXT.__objc_methname: 0x48 sha256:3b4aa7c2271461bc37704aeaa89e887ca525e1157e21640f2f05956bc8c34433
++  __TEXT.__objc_methname: 0x4e sha256:b91557082d0abccba2d0a0fcf4caa62b131fd0aaa0086d2a2c19091edb70ca4a
+   __TEXT.__objc_methtype: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+-  __TEXT.__oslogstring: 0x6f sha256:f9104309572d5b4180dd316988288416fbf16a48b811e49ec5a51fcf8b9e9e5c
+-  __TEXT.__swift_as_entry: 0x28 sha256:cdd9410d6dde93517e2d14b9ef57f6e7cd0448f552df47ef46c72da996f38f19
+-  __TEXT.__swift_as_ret: 0x28 sha256:8a5f9c61eb033f1de0df5be9a93026d866be0cb3f935281856a59c55c0b5ec20
+-  __TEXT.__swift_as_cont: 0x18 sha256:57bb49e0a6a95ada6d6975cf0ade0d6b03bcc4cbfd471ee615bd5b084582612b
+-  __TEXT.__unwind_info: 0xd00 sha256:143f696d898a3706cccfbe044da88dd5bb8559a384890c606f8b8bfb73b06cf6
+-  __TEXT.__eh_frame: 0xed0 sha256:345c5fb1ed949a91aec150a12f8775dc5df97f6a7f192ee77c78e3350bae3262
+-  __DATA_CONST.__const: 0x5e0 sha256:bc44b87cd7de20255a33c256b20df2f7e100d34fac73648eb2502d526d994410
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:240fc7ae226d9fac1426d6755c954238b1025a3a7901de413582d41189eb29f6
++  __TEXT.__oslogstring: 0xdf sha256:f39eff6bbdacc4aacf4bc655e9c0c5921c8130035e153b1262e135de67f2cfd3
++  __TEXT.__swift_as_entry: 0x28 sha256:ef0d58e7463db0324e76482559b1cc3a057b40de2dc3fafcaa3d45767759305d
++  __TEXT.__swift_as_ret: 0x28 sha256:d917ddcdc0841700f321cdb90fc72aca326731966620dec46901332886c2e2f1
++  __TEXT.__swift_as_cont: 0x14 sha256:d3f0c6c666aa2e7dfe913e0327c863ede7f031218629455f903e2f6a6b5b19fb
++  __TEXT.__unwind_info: 0xd08 sha256:57bfd4598d9080897f3b292ea409bc058d02222d962bc87b396b53df92d3bc80
++  __TEXT.__eh_frame: 0xed0 sha256:2205828bb3c534a3ebd2b9e18a8427d20cd72d0e5e10c93d50e63f1059594feb
++  __DATA_CONST.__const: 0x6f0 sha256:31089379afe71815b5878ab91e2f717b871b26394894b607e8aa8655cb2292e5
++  __DATA_CONST.__objc_classlist: 0x10 sha256:6800e45c3e72eb64f104376668b9e0bdacac7c2697aa123e3e0c4b6cd1e379bd
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__auth_got: 0x458 sha256:e3faa952a649b82db7f4e1b5c1c143a3f6131d89d3cf6e7641a805b95a74caa3
+-  __DATA_CONST.__got: 0xc0 sha256:b090441b277f77930c5f5b5ea328f1ed72791c543a3044f4d739b04a169ca952
+-  __DATA_CONST.__auth_ptr: 0x298 sha256:ec5d7ab68ae5ba0a8bdbab8897fbb1a3449b50bfe123e234e1aff68602d135fa
+-  __DATA.__objc_const: 0x238 sha256:2bdd6628e4d8164d22878965370e9b529fada92197f7511365c32f6d2fe31a63
+-  __DATA.__data: 0x1580 sha256:8910fe152bd59e49c8c4840fa0fc2f835d555172452482dcfe30a7d995053f8a
++  __DATA_CONST.__auth_got: 0x470 sha256:71fbe725ebc32e0e9daa99296687c58a493de483b26f7b14e531c76bd43c2a48
++  __DATA_CONST.__got: 0xc8 sha256:3562ef4a1c9123f06f44fb197ad1f89a0474deb2c9e686c394807ccf5e1c5a03
++  __DATA_CONST.__auth_ptr: 0x290 sha256:5fe04657c1b3664ddf1c320fa3777c5410b0dcaf630ad5da48ad0b25b34beff1
++  __DATA.__objc_const: 0x260 sha256:06d743f2b5f8df4907c220388ff467e6db647c87bf4599b81b4cf18734a08a45
++  __DATA.__data: 0x1600 sha256:56fb9226c3d722203143a83d3006881edaf436a131e544b9663458d3f55e8d0a
+   __DATA.__common: 0x320 sha256:67042dfda5683aead81b6055d19c4dba238341f9dd82f49c0e7cc0c19c5f10d1
+-  __DATA.__bss: 0x3d00 sha256:594a320bf5f10180b87f448d648a090eaf08bfb2bec27902e3ebfb624efe157d
++  __DATA.__bss: 0x3d00 sha256:6b4aeb7376f01567b80a46e6539a69c8e34a046b8b6229bf15a9a917b785aad7
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/NearbyInteraction.framework/Versions/A/NearbyInteraction
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FABF8827-AFA0-39E8-903F-507034423002
+-  Functions: 1144
+-  Symbols:   7919
+-  CStrings:  46
++  UUID: FB9A4DC2-CDCC-30FC-A0DB-8E71B3B84F5D
++  Functions: 1152
++  Symbols:   7980
++  CStrings:  48
+ 
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CRpxugARXhM5PKDTSLMvqSvos1-ZohcWTWzn98o/Library/Caches/com.apple.xbs/TemporaryDirectory.sClxxF/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/4~CRpxugARXhM5PKDTSLMvqSvos1-ZohcWTWzn98o/Library/Caches/com.apple.xbs/TemporaryDirectory.sClxxF/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/AssertionManager.o
++ /AppleInternal/Library/BuildRoots/4~CRpxugARXhM5PKDTSLMvqSvos1-ZohcWTWzn98o/Library/Caches/com.apple.xbs/TemporaryDirectory.sClxxF/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroup.pb.o
++ /AppleInternal/Library/BuildRoots/4~CRpxugARXhM5PKDTSLMvqSvos1-ZohcWTWzn98o/Library/Caches/com.apple.xbs/TemporaryDirectory.sClxxF/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHost.o
++ /AppleInternal/Library/BuildRoots/4~CRpxugARXhM5PKDTSLMvqSvos1-ZohcWTWzn98o/Library/Caches/com.apple.xbs/TemporaryDirectory.sClxxF/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationServiceHost.o
++ /AppleInternal/Library/BuildRoots/4~CRpxugARXhM5PKDTSLMvqSvos1-ZohcWTWzn98o/Library/Caches/com.apple.xbs/TemporaryDirectory.sClxxF/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsAdvertiser.o
++ /AppleInternal/Library/BuildRoots/4~CRpxugARXhM5PKDTSLMvqSvos1-ZohcWTWzn98o/Library/Caches/com.apple.xbs/TemporaryDirectory.sClxxF/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/Publisher+AsyncSequence.o
++ /AppleInternal/Library/BuildRoots/4~CRpxugARXhM5PKDTSLMvqSvos1-ZohcWTWzn98o/Library/Caches/com.apple.xbs/TemporaryDirectory.sClxxF/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/com.apple.SharePlay.NearbyInvitationsService_vers.o
++ /AppleInternal/Library/BuildRoots/4~CRpxugARXhM5PKDTSLMvqSvos1-ZohcWTWzn98o/Library/Caches/com.apple.xbs/TemporaryDirectory.sClxxF/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/com_apple_SharePlay_NearbyInvitationsService.swiftmodule
++ /AppleInternal/Library/BuildRoots/4~CRpxugARXhM5PKDTSLMvqSvos1-ZohcWTWzn98o/Library/Caches/com.apple.xbs/TemporaryDirectory.sClxxF/Sources/Expanse/Copresence/
++ /AppleInternal/Library/BuildRoots/4~CRpxugARXhM5PKDTSLMvqSvos1-ZohcWTWzn98o/Library/Caches/com.apple.xbs/TemporaryDirectory.sClxxF/Sources/Expanse/NearbyInvitationsService/
++ /AppleInternal/Library/BuildRoots/4~CRpxugARXhM5PKDTSLMvqSvos1-ZohcWTWzn98o/Library/Caches/com.apple.xbs/TemporaryDirectory.sClxxF/Sources/Expanse/NearbyInvitationsService/Group/Protobuf/
++ /AppleInternal/Library/BuildRoots/4~CRpxugARXhM5PKDTSLMvqSvos1-ZohcWTWzn98o/Library/Caches/com.apple.xbs/TemporaryDirectory.sClxxF/Sources/Expanse/NearbyInvitationsService/Protobuf/
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLC5innerAE5InnerCyx__GvpWvd
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMF
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMI
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMP
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMXX
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMa
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMi
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMn
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCMr
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCfD
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCfd
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLCyAHyx__GAE5InnerCyx__GcfC
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorVWV
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorVwet
++ _$s44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorVwst
++ _$sBAxs5Error_pINgHgILrzo_BAxsAA_pIeNgHgILrzr_lTRTQ0_
++ _$sSS10describingSSx_tclufC
++ _$sSo13os_log_type_ta0A0E5faultABvgZ
++ __IVARS__TtCVV44com_apple_SharePlay_NearbyInvitationsService18_PublisherElements8IteratorP33_025199D7C0AC00D7EA5F6A091567A21A14CancelOnDeinit
++ ___swift_memcpy16_8
++ ___unnamed_10
++ ___unnamed_18
++ ___unnamed_7
++ _swift_getMetatypeMetadata
++ _symbolic _____ 44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLC
++ _symbolic _____yx__G 44com_apple_SharePlay_NearbyInvitationsService18_PublisherElementsV8IteratorV14CancelOnDeinit015_025199D7C0AC00N16EA5F6A091567A21ALLC
+- /AppleInternal/Library/BuildRoots/4~CQqiugBmlwOXJnHCJwgTtqxgbyJcarYmK4p2zaQ/Library/Caches/com.apple.xbs/TemporaryDirectory.O1UjyU/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/4~CQqiugBmlwOXJnHCJwgTtqxgbyJcarYmK4p2zaQ/Library/Caches/com.apple.xbs/TemporaryDirectory.O1UjyU/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/AssertionManager.o
+- /AppleInternal/Library/BuildRoots/4~CQqiugBmlwOXJnHCJwgTtqxgbyJcarYmK4p2zaQ/Library/Caches/com.apple.xbs/TemporaryDirectory.O1UjyU/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroup.pb.o
+- /AppleInternal/Library/BuildRoots/4~CQqiugBmlwOXJnHCJwgTtqxgbyJcarYmK4p2zaQ/Library/Caches/com.apple.xbs/TemporaryDirectory.O1UjyU/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyGroupHost.o
+- /AppleInternal/Library/BuildRoots/4~CQqiugBmlwOXJnHCJwgTtqxgbyJcarYmK4p2zaQ/Library/Caches/com.apple.xbs/TemporaryDirectory.O1UjyU/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationServiceHost.o
+- /AppleInternal/Library/BuildRoots/4~CQqiugBmlwOXJnHCJwgTtqxgbyJcarYmK4p2zaQ/Library/Caches/com.apple.xbs/TemporaryDirectory.O1UjyU/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/NearbyInvitationsAdvertiser.o
+- /AppleInternal/Library/BuildRoots/4~CQqiugBmlwOXJnHCJwgTtqxgbyJcarYmK4p2zaQ/Library/Caches/com.apple.xbs/TemporaryDirectory.O1UjyU/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/Publisher+AsyncSequence.o
+- /AppleInternal/Library/BuildRoots/4~CQqiugBmlwOXJnHCJwgTtqxgbyJcarYmK4p2zaQ/Library/Caches/com.apple.xbs/TemporaryDirectory.O1UjyU/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/com.apple.SharePlay.NearbyInvitationsService_vers.o
+- /AppleInternal/Library/BuildRoots/4~CQqiugBmlwOXJnHCJwgTtqxgbyJcarYmK4p2zaQ/Library/Caches/com.apple.xbs/TemporaryDirectory.O1UjyU/Binaries/Expanse/install/TempContent/Objects/Copresence.build/NearbyInvitationsService.build/Objects-normal/arm64e/com_apple_SharePlay_NearbyInvitationsService.swiftmodule
+- /AppleInternal/Library/BuildRoots/4~CQqiugBmlwOXJnHCJwgTtqxgbyJcarYmK4p2zaQ/Library/Caches/com.apple.xbs/TemporaryDirectory.O1UjyU/Sources/Expanse/Copresence/
+- /AppleInternal/Library/BuildRoots/4~CQqiugBmlwOXJnHCJwgTtqxgbyJcarYmK4p2zaQ/Library/Caches/com.apple.xbs/TemporaryDirectory.O1UjyU/Sources/Expanse/NearbyInvitationsService/
+- /AppleInternal/Library/BuildRoots/4~CQqiugBmlwOXJnHCJwgTtqxgbyJcarYmK4p2zaQ/Library/Caches/com.apple.xbs/TemporaryDirectory.O1UjyU/Sources/Expanse/NearbyInvitationsService/Group/Protobuf/
+- /AppleInternal/Library/BuildRoots/4~CQqiugBmlwOXJnHCJwgTtqxgbyJcarYmK4p2zaQ/Library/Caches/com.apple.xbs/TemporaryDirectory.O1UjyU/Sources/Expanse/NearbyInvitationsService/Protobuf/
+- _$sBAxs5Error_pINgHgILrzo_BAxsAA_pIeNgHgILrzr_lTRTQ1_
+- _$sBAxs5Error_pINgHgILrzo_BAxsAA_pIeNgHgILrzr_lTRTY0_
+- ___unnamed_6
+- ___unnamed_8
+CStrings:
++ "_PublisherElements.Inner dropping over-delivered value; subscription likely leaked. publisher=%s"
++ "inner"
+
+```

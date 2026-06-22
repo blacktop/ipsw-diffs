@@ -1,0 +1,855 @@
+## Gestures
+
+> `/System/Library/PrivateFrameworks/Gestures.framework/Versions/A/Gestures`
+
+```diff
+
+-9127.0.66.0.0
+-  __TEXT.__text: 0x3a6874 sha256:a0122b6f5f6a2df12442543169ad4d29577bbd1891acbc0f5cf561c3480c2922
+-  __TEXT.__objc_methlist: 0x5f0 sha256:fa91c7dc9b204db73f3634b9d194121773c66c86a703f0d37ea80dce02dc0d9c
+-  __TEXT.__const: 0x1bdc8 sha256:be6a6d0fc9a0062e38c146b277b795d6e10b48f37b62a78216e23042c9d4b813
++9127.0.70.0.0
++  __TEXT.__text: 0x3dff1c sha256:d55508693137bf7189d78a8b29556b0ab14e3de503934343e10fa9c09cb7500f
++  __TEXT.__objc_methlist: 0x5f0 sha256:faba3dabc8a89a0ec7608e5f317e49213b95c57a1e6331f0b4aa1205e88ffec1
++  __TEXT.__const: 0x1c3d8 sha256:6a0eb83f720aa86b4ebfec4e0c4eb64754fcd7eb063496387725c80a30ce9208
+   __TEXT.__gcc_except_tab: 0x10 sha256:a97ee41f1d7b0ae52fbee68dad6de57ffd7b1ec33347f4ea7ad842a137dc2807
+-  __TEXT.__cstring: 0xe651 sha256:2bd754d0aed44031eb74615303a688452f09fa15f3a0f4caf257a96b9bae168e
++  __TEXT.__cstring: 0xef5d sha256:4217eee16a108f1a7a5e4a299749e8a90297158a168d27ff95d687d86886fd13
+   __TEXT.__dlopen_cstrs: 0x6d sha256:05a2df62eeb53edc68a8b1559295612dfad1e6637615b64374778bd36daae86c
+-  __TEXT.__constg_swiftt: 0x80b8 sha256:d716c94c26619b956efafa847a9985fae375e02cacd4ee531cd1f7a18ca28e84
+-  __TEXT.__swift5_typeref: 0x1ebb5 sha256:666a9f8dac9c1460880e7c810cfc5d53869685f52453e80ece59ddd7f3868fb8
+-  __TEXT.__swift5_builtin: 0x230 sha256:eec8053b35fd59f4b13f454ae5108b845e16dfa1138d40bd98ded48d711f2d11
+-  __TEXT.__swift5_reflstr: 0x4042 sha256:0adc60f7afd0910ed8e6efeca05dbcc56be73c7e1bbf02754936b48515e53d2c
+-  __TEXT.__swift5_fieldmd: 0x5914 sha256:a79444bbbedd30705bd6702e4ea01ddbff86fdb7246bc66e55034bd4e862646f
+-  __TEXT.__swift5_types: 0x7e0 sha256:2deb484d5f4674564a968d9898beebeebdca4d214539c596cb0ae11c10ece0ee
+-  __TEXT.__swift5_assocty: 0x2418 sha256:14e4c4e3eeb89f0a5fd7a630b704ef465c72b56134e03c22072e77629bb87fda
+-  __TEXT.__swift5_capture: 0x3ea8 sha256:4f5cd95087b419f95d1b9327f53a4c349e65a9b1dfcc747e9ef60fcf928fe306
+-  __TEXT.__swift5_proto: 0x2548 sha256:84604515590d1e2879da20976872210e3373585faf58da25dd861fe3a9d341df
+-  __TEXT.__oslogstring: 0x677 sha256:6726178f0b481abade56a74bbb1fdbb10f0af182dd7e3d49677983c3388cf067
+-  __TEXT.__swift5_protos: 0x138 sha256:98a8e30666284f133d254d78fe2a32e4272a19fcaa7d3ef3303b5bd69a89139f
+-  __TEXT.__swift5_mpenum: 0xd4 sha256:97c4bfc72fbc406c5d9d4f6a239e7c6123592b86aad9a6aeb2046f72e653a7ae
+-  __TEXT.__swift5_types2: 0x8 sha256:e644be6ca00c1ef98b835d7f63ff4ef58749ffb28916729c04b7ae8ac451c453
+-  __TEXT.__unwind_info: 0xbfa0 sha256:5a548a82fcb2fb0a03e27976f3b6799718fd2ee6c51bfc3ff447bd6b24671584
+-  __TEXT.__eh_frame: 0x1b808 sha256:f321e5827e7630bef8519bed6dbf42fcfb787dfb282a43cb6f3d9779774420a1
++  __TEXT.__constg_swiftt: 0x8314 sha256:8ff08693242380d56baebc11c4bd09e300c329f02400279d9208a9668aa35177
++  __TEXT.__swift5_typeref: 0x1eb41 sha256:015b5683b933f764ceda34b2cc76ce8d91a7d336d17d788ec97e2bc6a033b378
++  __TEXT.__swift5_builtin: 0x258 sha256:ced59c252dd777128ee1bf4983a8d4eb7c64e4ed3df6a7bc0d9933f94f77863f
++  __TEXT.__swift5_reflstr: 0x42b2 sha256:5d36feb8adc9e7579e649751f4e1c19cecdd639d65d4eed8706822d4ecf941d7
++  __TEXT.__swift5_fieldmd: 0x5c90 sha256:36258bb446c06993d2ad793001c8b37d300e42231999dbe36b9bad09904a8289
++  __TEXT.__swift5_types: 0x828 sha256:cb7bcce623d8a3331155050d559f242134da00244ce846cbd092018c4f16c9f3
++  __TEXT.__swift5_assocty: 0x2488 sha256:37d2337ec8ce9a7332d377bb39f4f124f9cc6081e1b166486193e0ecc76dee09
++  __TEXT.__swift5_capture: 0x179c sha256:dd4968b3a898d6baa546b4742109382935b6c758526e5f42c3b6e19d414065f6
++  __TEXT.__swift5_proto: 0x2594 sha256:4ed0a53a2eb41ea850dccf35bb5eef1c8314684681a44d3efa4cf93c53de8994
++  __TEXT.__oslogstring: 0xb20 sha256:c45862af9be4dccbc393d7515ea17b48fe8db4fcb2a5666ed113b028d9762921
++  __TEXT.__swift5_protos: 0x130 sha256:f48a58f291fed488dad0608522aa97116a48f44b8c4001fad2b566792f3939df
++  __TEXT.__swift5_mpenum: 0xe4 sha256:48b99d9bc79efe9c1c4887f62ee601042672c5b65c1e128ad7b583ab3cd90532
++  __TEXT.__swift5_types2: 0x8 sha256:4859d7a6d152890f75c2dabe0254b09341fde76c705f2f73b843458b8b52b77a
++  __TEXT.__unwind_info: 0xdd78 sha256:7d46f134a39f567229a56db6f1aec3a57c0003a9fc03cdbdfec6d0c1952a1a8e
++  __TEXT.__eh_frame: 0x2e2d0 sha256:e5cc1794cf33039e924acc334414327a5498b13c2c5cd1f479ffb5ac2bda5303
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x288 sha256:8047f8d3a29bac4fe82c9ce51aeb82435053c9dd4704649a0dfa40239fc8b39e
+-  __DATA_CONST.__objc_classlist: 0x120 sha256:ac5af5fe32a3d08af6d43d73ebeed4d6d24417a2070614a2119249fb2867a081
+-  __DATA_CONST.__objc_protolist: 0x58 sha256:5f4d165ce309239dc081730ce94d5756d3be78e29219330b193fb38d28272890
++  __DATA_CONST.__const: 0x288 sha256:96779e2b3163779f890fde8786faf4838c755da8c6abfb38f57e6094af6ba416
++  __DATA_CONST.__objc_classlist: 0x138 sha256:e2f3358ea0b0e48dfb0075d58a81cf939c9a33a4ca71bf5f117cee039b5247e4
++  __DATA_CONST.__objc_protolist: 0x58 sha256:5c1ccb251d71169dbeac78a58b13ddb6d42e24a6f9cc6940e13a5cd6d23c047b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x288 sha256:80e4159f7b0a6eece5c0a296656ddbb40be1f962d35a9865867de44154dd0dcc
+-  __DATA_CONST.__objc_protorefs: 0x30 sha256:235140e328a8fc2a21b1721866da683ad15dea679c97e2de4260a945f205566d
+-  __DATA_CONST.__got: 0x508 sha256:7b228cc79cbbb3f48e97b932d8c171a82267c757e8a16f877c34ade0657f63c4
+-  __AUTH_CONST.__const: 0x1ceb0 sha256:8d5fb24f825c261c972f3fcb6396fec68d0940713fcf48681482b113c1605a14
+-  __AUTH_CONST.__objc_const: 0x2dc0 sha256:a99949783b95816f89b3a4f4350600161158ed9bbb32907ec3925d21bc08602b
+-  __AUTH_CONST.__auth_got: 0xee8 sha256:741407ff0e6144dbb09381c2a51ce510b0049dc84fda5b91bf427b70791abcfe
+-  __AUTH.__objc_data: 0x90 sha256:ee67249d7d072bfc277e89505ae02b1bff640438f376fa67c05c932f52901eec
+-  __AUTH.__data: 0x4be0 sha256:9e317002e091422872d54e9982923daf1d56c64d881f9c3f165945563f35a419
+-  __DATA.__data: 0x93b8 sha256:2942a0c48af95e9a65d1e62b943dafd728217c514ea0d4c56bbae1fa4cec59bb
+-  __DATA.__bss: 0x2bed0 sha256:1620b17e9ca89052a3b5274a5d7fcb3254cb982f554d026df7f07b3e8a1ca6f4
++  __DATA_CONST.__objc_selrefs: 0x288 sha256:76488fe740ebd65f66c27e161b977e4b700b665edd1c4ed5affb26be72b13850
++  __DATA_CONST.__objc_protorefs: 0x30 sha256:c4adf9e12b9b1e195e10719287d3339929b22b2ce44879686e4d3138e792def9
++  __DATA_CONST.__got: 0x500 sha256:b1af9bfd4f9324a2b743486787af7dce5b2b87944185a3c7f6c0f7327d631b5a
++  __AUTH_CONST.__const: 0x18178 sha256:62675c85aade9e0004c5a990765f109770b7ef27916d509e53a6c29eb5b34e91
++  __AUTH_CONST.__objc_const: 0x3010 sha256:7467fa7aee10744d4b14ebc41db9606ce9822c12a13718729ad2aad1f0ba7ab8
++  __AUTH_CONST.__auth_got: 0xfa0 sha256:fc19b1997119425765295aeab72d76faa6927d4f83985d328c26f20468d6cc76
++  __AUTH.__objc_data: 0x90 sha256:b60e1d86dd936ad6e799d58878e5b8a808da134913509d05f3744e22dd1d5347
++  __AUTH.__data: 0x4e00 sha256:e846a8a74c6206845754fc4bacb2f5f205239c881848f33071712f9386aa8d3d
++  __DATA.__data: 0x9548 sha256:3fd65775ec2a06daade6b2875de56def01286d4c56c53b9a1750ae6618fe1b82
++  __DATA.__bss: 0x2c2d0 sha256:184b64befa19a046e2fd89287b7a61b47905bb75db19cb66d23dbe34c59802e5
+   __DATA.__common: 0x58 sha256:10eef285deef7a4b7c82b22aa53589b7833df29de3814649c772bbd5c832f365
+-  __DATA_DIRTY.__objc_data: 0x228 sha256:1d536bae09dc1b136803b14e9b1e7fa76c85ac2f5ce466092afaaf526459d554
+-  __DATA_DIRTY.__data: 0xe70 sha256:795452f0975d4fa440617d750e59bd7cc9eaac9b8673615fac7b255fa0377ee4
++  __DATA_DIRTY.__objc_data: 0x228 sha256:3432cba97080814f6487db0412c62814ab996ca9378daedc49f3b00b3588df65
++  __DATA_DIRTY.__data: 0xe60 sha256:9db1e016b72efb6d60b388bd4af2eecb7a059c412ba267c5020967384d1fc535
+   __DATA_DIRTY.__bss: 0xf00 sha256:a8eac8b0d3b1fde368813438dd5ba415a796fd6dd0a2a42fb6a5a2dfb2429576
+   __DATA_DIRTY.__common: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4F71DC36-B917-3727-845E-42F0DFFE4EB9
+-  Functions: 16175
+-  Symbols:   4490
+-  CStrings:  434
++  UUID: 031F1D96-C06B-3E83-BD82-A9B4B4D7CA4C
++  Functions: 15870
++  Symbols:   3901
++  CStrings:  498
+ 
+Symbols:
++ __DATA__TtC8Gestures21GestureNodeSignposter
++ __DATA__TtC8Gestures25GestureDebugLabelProvider
++ __DATA__TtC8GesturesP33_F243B2DDF137C98E0416D6DBE12249D720GFDebugLabelProvider
++ __IVARS__TtC8Gestures21GestureNodeSignposter
++ __METACLASS_DATA__TtC8Gestures21GestureNodeSignposter
++ __METACLASS_DATA__TtC8Gestures25GestureDebugLabelProvider
++ __METACLASS_DATA__TtC8GesturesP33_F243B2DDF137C98E0416D6DBE12249D720GFDebugLabelProvider
++ ___swift_memcpy20_4
++ ___swift_memcpy32_4
++ ___unnamed_5
++ __os_signpost_emit_with_name_impl
++ __swift_exist.box.addr_destructor.104
++ __swift_exist.box.addr_destructor.127
++ __swift_exist.box.addr_destructor.136
++ __swift_exist.box.addr_destructor.136Tm
++ __swift_exist.box.addr_destructor.139
++ __swift_exist.box.addr_destructor.147
++ __swift_exist.box.addr_destructor.165
++ __swift_exist.box.addr_destructor.165Tm
++ __swift_exist.box.addr_destructor.175
++ __swift_exist.box.addr_destructor.175Tm
++ __swift_exist.box.addr_destructor.183
++ __swift_exist.box.addr_destructor.186
++ __swift_exist.box.addr_destructor.189
++ __swift_exist.box.addr_destructor.192
++ __swift_exist.box.addr_destructor.202Tm
++ __swift_exist.box.addr_destructor.213
++ __swift_exist.box.addr_destructor.213Tm
++ __swift_exist.box.addr_destructor.216
++ __swift_exist.box.addr_destructor.219
++ __swift_exist.box.addr_destructor.222
++ __swift_exist.box.addr_destructor.225Tm
++ __swift_exist.box.addr_destructor.229
++ __swift_exist.box.addr_destructor.233
++ __swift_exist.box.addr_destructor.237
++ __swift_exist.box.addr_destructor.240
++ __swift_exist.box.addr_destructor.243
++ __swift_exist.box.addr_destructor.246
++ __swift_exist.box.addr_destructor.257Tm
++ __swift_exist.box.addr_destructor.260
++ __swift_exist.box.addr_destructor.268
++ __swift_exist.box.addr_destructor.277Tm
++ __swift_exist.box.addr_destructor.280
++ __swift_exist.box.addr_destructor.283
++ __swift_exist.box.addr_destructor.287
++ __swift_exist.box.addr_destructor.291
++ __swift_exist.box.addr_destructor.291Tm
++ __swift_exist.box.addr_destructor.295
++ __swift_exist.box.addr_destructor.300
++ __swift_exist.box.addr_destructor.320
++ __swift_exist.box.addr_destructor.323
++ __swift_exist.box.addr_destructor.326
++ __swift_exist.box.addr_destructor.329
++ __swift_exist.box.addr_destructor.333
++ __swift_exist.box.addr_destructor.336
++ __swift_exist.box.addr_destructor.339
++ __swift_exist.box.addr_destructor.343
++ __swift_exist.box.addr_destructor.347
++ __swift_exist.box.addr_destructor.351
++ __swift_exist.box.addr_destructor.354
++ __swift_exist.box.addr_destructor.357
++ __swift_exist.box.addr_destructor.360
++ __swift_exist.box.addr_destructor.365
++ __swift_exist.box.addr_destructor.374
++ __swift_exist.box.addr_destructor.377
++ __swift_exist.box.addr_destructor.381
++ __swift_exist.box.addr_destructor.385
++ __swift_exist.box.addr_destructor.389
++ __swift_exist.box.addr_destructor.393
++ __swift_exist.box.addr_destructor.397
++ __swift_exist.box.addr_destructor.40Tm
++ __swift_exist.box.addr_destructor.412Tm
++ __swift_exist.box.addr_destructor.421
++ __swift_exist.box.addr_destructor.43
++ __swift_exist.box.addr_destructor.431
++ __swift_exist.box.addr_destructor.445
++ __swift_exist.box.addr_destructor.448
++ __swift_exist.box.addr_destructor.456
++ __swift_exist.box.addr_destructor.470
++ __swift_exist.box.addr_destructor.477
++ __swift_exist.box.addr_destructor.477Tm
++ __swift_exist.box.addr_destructor.481
++ __swift_exist.box.addr_destructor.485
++ __swift_exist.box.addr_destructor.497
++ __swift_exist.box.addr_destructor.501
++ __swift_exist.box.addr_destructor.507
++ __swift_exist.box.addr_destructor.513
++ __swift_exist.box.addr_destructor.517
++ __swift_exist.box.addr_destructor.522
++ __swift_exist.box.addr_destructor.525
++ __swift_exist.box.addr_destructor.537
++ __swift_exist.box.addr_destructor.550
++ __swift_exist.box.addr_destructor.553
++ __swift_exist.box.addr_destructor.557
++ __swift_exist.box.addr_destructor.561
++ __swift_exist.box.addr_destructor.567
++ __swift_exist.box.addr_destructor.573
++ __swift_exist.box.addr_destructor.577
++ __swift_exist.box.addr_destructor.582
++ __swift_exist.box.addr_destructor.585
++ __swift_exist.box.addr_destructor.588
++ __swift_exist.box.addr_destructor.59
++ __swift_exist.box.addr_destructor.591
++ __swift_exist.box.addr_destructor.596
++ __swift_exist.box.addr_destructor.600
++ __swift_exist.box.addr_destructor.610
++ __swift_exist.box.addr_destructor.619
++ __swift_exist.box.addr_destructor.623
++ __swift_exist.box.addr_destructor.627
++ __swift_exist.box.addr_destructor.634
++ __swift_exist.box.addr_destructor.638
++ __swift_exist.box.addr_destructor.643
++ __swift_exist.box.addr_destructor.647
++ __swift_exist.box.addr_destructor.65
++ __swift_exist.box.addr_destructor.653
++ __swift_exist.box.addr_destructor.659
++ __swift_exist.box.addr_destructor.663
++ __swift_exist.box.addr_destructor.668
++ __swift_exist.box.addr_destructor.698
++ __swift_exist.box.addr_destructor.702
++ __swift_exist.box.addr_destructor.710
++ __swift_exist.box.addr_destructor.84Tm
++ __swift_exist.box.addr_destructor.87
++ _associated conformance 8Gestures14InlineBitArrayVyxGSTAA8IteratorST_St
++ _associated conformance 8Gestures15StringInternKeyVAA0c5TableD0AA8RawValueAaDP_s17FixedWidthInteger
++ _associated conformance 8Gestures15StringInternKeyVSHAASQ
++ _associated conformance 8Gestures16SchemaBuildErrorO10Foundation09LocalizedD0AAs0D0
++ _associated conformance 8Gestures21ServerGateUpdateQueueV10Resolution33_441E6C82B368683DCB07602DF22FAB79LLOSHAASQ
++ _associated conformance 8Gestures22EnvironmentValueRecord33_29B3EE09388EB2E6DA5DF93D12B2AA56LLVyxGAA19TaggedSchemaCodableAA07WrappedC0AaFP_AA0O13Representable
++ _associated conformance 8Gestures22EnvironmentValueRecord33_29B3EE09388EB2E6DA5DF93D12B2AA56LLVyxGAA19TaggedSchemaCodableAA07WrappedC0AaFP_AA15BinaryDecodable
++ _associated conformance 8Gestures22EnvironmentValueRecord33_29B3EE09388EB2E6DA5DF93D12B2AA56LLVyxGAA19TaggedSchemaCodableAA07WrappedC0AaFP_AA15BinaryEncodable
++ _associated conformance 8Gestures22InlineBitArrayIteratorVyxGSTAA0E0ST_St
++ _associated conformance 8Gestures7GateKey024_6C87FF81C9BE13FEDA8FC49F7B66DDF8LLVSHAASQ
++ _swift_copyPOD
++ _symbolic SDy_____Say_____GG 8Gestures10GestureTagV AA08ExternalB6UpdateO
++ _symbolic SDy_____Say_____GG 8Gestures13GestureNodeIDV AA06RemoteB10GateUpdateO
++ _symbolic SDy__________G 8Gestures13GestureNodeIDV AA0C17RegistrationTable33_B89B6EE0904B3EF01E352B6670A53128LLV5EntryV
++ _symbolic SDy__________G 8Gestures13GestureNodeIDV AA0b5OwnerD0V
++ _symbolic SDy__________G 8Gestures14GestureOwnerIDV AA15PendingCommands33_402D8D168AAF3DF0779AB2A3DBDE234DLLV
++ _symbolic SDy__________G 8Gestures14GestureOwnerIDV AA21ServerGateUpdateQueueV
++ _symbolic SDy__________G 8Gestures7GateKey024_6C87FF81C9BE13FEDA8FC49F7B66DDF8LLV AA012ServerSystemB0C
++ _symbolic SDy___________pG 8Gestures14EnvironmentKeyV AA0B5ValueP
++ _symbolic Say_____G 8Gestures23RemoteGestureGateUpdateO
++ _symbolic Shy_____G 8Gestures13GestureNodeIDV
++ _symbolic Shy_____G 8Gestures14GestureOwnerIDV
++ _symbolic _____ 8Gestures11SignpostingO
++ _symbolic _____ 8Gestures14InlineBitArrayV
++ _symbolic _____ 8Gestures15PendingCommands33_402D8D168AAF3DF0779AB2A3DBDE234DLLV
++ _symbolic _____ 8Gestures15StringInternKeyV
++ _symbolic _____ 8Gestures16SchemaBuildErrorO
++ _symbolic _____ 8Gestures18TraceEncodingErrorV
++ _symbolic _____ 8Gestures20GFDebugLabelProvider33_F243B2DDF137C98E0416D6DBE12249D7LLC
++ _symbolic _____ 8Gestures20InternStringSignpostV
++ _symbolic _____ 8Gestures21GestureNodeSignposterC
++ _symbolic _____ 8Gestures21NodeRegistrationTable33_B89B6EE0904B3EF01E352B6670A53128LLV
++ _symbolic _____ 8Gestures21NodeRegistrationTable33_B89B6EE0904B3EF01E352B6670A53128LLV5EntryV
++ _symbolic _____ 8Gestures21ServerGateUpdateQueueV
++ _symbolic _____ 8Gestures21ServerGateUpdateQueueV10Resolution33_441E6C82B368683DCB07602DF22FAB79LLO
++ _symbolic _____ 8Gestures21ServerGateUpdateQueueV19CreationOrExpansion33_441E6C82B368683DCB07602DF22FAB79LLO
++ _symbolic _____ 8Gestures22EnvironmentValueRecord33_29B3EE09388EB2E6DA5DF93D12B2AA56LLV
++ _symbolic _____ 8Gestures22InlineBitArrayIteratorV
++ _symbolic _____ 8Gestures23NodePhaseUpdateSignpostV
++ _symbolic _____ 8Gestures24NodePhaseEnqueueSignpostV
++ _symbolic _____ 8Gestures25GestureDebugLabelProviderC
++ _symbolic _____ 8Gestures28CoordinatorUpdateEndSignpostV
++ _symbolic _____ 8Gestures30CoordinatorUpdateBeginSignpostV
++ _symbolic _____ 8Gestures7GateKey024_6C87FF81C9BE13FEDA8FC49F7B66DDF8LLV
++ _symbolic _____3key_______p5valuet 8Gestures14EnvironmentKeyV AA0B5ValueP
++ _symbolic _____Sg 8Gestures10MouseEventV
++ _symbolic _____Sg 8Gestures21ServerGateUpdateQueueV10Resolution33_441E6C82B368683DCB07602DF22FAB79LLO
++ _symbolic _____Sg 8Gestures21ServerGateUpdateQueueV19CreationOrExpansion33_441E6C82B368683DCB07602DF22FAB79LLO
++ _symbolic _____Sg 8Gestures25GestureDebugLabelProviderC
++ _symbolic ______Say_____Gt 8Gestures13GestureNodeIDV AA06RemoteB10GateUpdateO
++ _symbolic ______Say_____Gt 8Gestures14GestureOwnerIDV AA06RemoteB7CommandO
++ _symbolic ______pSg 8Gestures16EnvironmentValueP
++ _symbolic _____yS2sG s18_DictionaryStorageC
++ _symbolic _____ySOG s11_SetStorageC
++ _symbolic _____y_____3key_______p5valuetG s23_ContiguousArrayStorageC 8Gestures14EnvironmentKeyV AC0E5ValueP
++ _symbolic _____y_____G 15Synchronization5MutexVAARi_zrlE 8Gestures21NodeRegistrationTable33_B89B6EE0904B3EF01E352B6670A53128LLV
++ _symbolic _____y_____G 8Gestures16ExpirablePayloadO AA10MouseEventV
++ _symbolic _____y_____G 8Gestures22ConcreteEncodingBridge33_31140E8441B47DC8189D099795089180LLV AA10MouseEventV
++ _symbolic _____y_____G 8Gestures22ConcreteEncodingBridge33_31140E8441B47DC8189D099795089180LLV AA11ScrollEventV
++ _symbolic _____y_____G 8Gestures22ConcreteEncodingBridge33_31140E8441B47DC8189D099795089180LLV AA14TransformEventV
++ _symbolic _____y_____G s10_NativeSetV 8Gestures13GestureNodeIDV
++ _symbolic _____y_____G s11_SetStorageC 8Gestures14GestureOwnerIDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8Gestures23RemoteGestureGateUpdateO
++ _symbolic _____y_____SSG 8Gestures11InternTableC AA06StringB3KeyV
++ _symbolic _____y_____SSG s18_DictionaryStorageC 8Gestures15StringInternKeyV
++ _symbolic _____y_____Say_____GG s17_NativeDictionaryV 8Gestures10GestureTagV AC08ExternalD6UpdateO
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 8Gestures13GestureNodeIDV AC06RemoteD10GateUpdateO
++ _symbolic _____y______Say_____GtG s23_ContiguousArrayStorageC 8Gestures13GestureNodeIDV AC06RemoteE10GateUpdateO
++ _symbolic _____y______Say_____GtG s23_ContiguousArrayStorageC 8Gestures14GestureOwnerIDV AC06RemoteE7CommandO
++ _symbolic _____y__________G s17_NativeDictionaryV 8Gestures14GestureOwnerIDV AC15PendingCommands33_402D8D168AAF3DF0779AB2A3DBDE234DLLV
++ _symbolic _____y__________G s18_DictionaryStorageC 8Gestures13GestureNodeIDV AC0E17RegistrationTable33_B89B6EE0904B3EF01E352B6670A53128LLV5EntryV
++ _symbolic _____y__________G s18_DictionaryStorageC 8Gestures14GestureOwnerIDV AC15PendingCommands33_402D8D168AAF3DF0779AB2A3DBDE234DLLV
++ _symbolic _____y__________G s18_DictionaryStorageC 8Gestures14GestureOwnerIDV AC21ServerGateUpdateQueueV
++ _symbolic _____y__________G s18_DictionaryStorageC 8Gestures7GateKey024_6C87FF81C9BE13FEDA8FC49H7B66DDF8LLV AC012ServerSystemD0C
++ _symbolic _____y___________pG s18_DictionaryStorageC 8Gestures14EnvironmentKeyV AC0D5ValueP
++ _symbolic _____y_____y_____GG 8Gestures22ConcreteEncodingBridge33_31140E8441B47DC8189D099795089180LLV AA12ChangeRecordV AA10MouseEventV
++ _symbolic _____y_____y_____GG 8Gestures22ConcreteEncodingBridge33_31140E8441B47DC8189D099795089180LLV AA16ExpirationRecordV AA10MouseEventV
++ _symbolic _____yxG 8Gestures22InlineBitArrayIteratorV
++ _symbolic _____yx_____G s11InlineArrayVsRi__rlE s6UInt64V
++ _symbolic y___________tcSg 8Gestures16ServerSystemGateC AA7EventIDV
++ get_type_metadata 15Synchronization5MutexVy8Gestures21NodeRegistrationTable33_B89B6EE0904B3EF01E352B6670A53128LLVG noncopyable.20
++ get_witness_table 8Gestures12DiscreteGateVyAA21MapTransformComponentVyAEyAA05OneOfF0VyAA17EnvironmentWriterVyAA16ActiveEventTypesVAA010ExpirationF0VyAA06RepeatF0VyAA08MovementC0VyAMyAA07TimeoutF033_834F97C056057EAA3E17D92190D7BF0CLLVyAMyAA08DurationC0VyAA08CentroidF0VyAA018SeparationDistanceC0VyAMyATyAA015DynamicCombinerF0VyAA0L6FilterVyAA0L6SourceVyAA05TouchL0VGAA21NoCodingConfigurationVGGAA21ValueAwaitingResolverOySayA6_GGGGGGGGA13_ySo7CGPointVGGGGGGAA02NoE0VyAKA23_GGAIyAkA08LocationF0VyAMyAOyAQyAMyATyAMyAVyAA20RequiredButtonFilterVyA2_yA4_yAA05MouseL0VGA9_GGGGA13_yA39_GGGGGGGA32_GGAA03GetgH5ValueVyA23_GGAA05ToTapF5ValueVGGAA0bF0HPyHC.11
++ get_witness_table 8Gestures12SpatialEventRzlAA19ExpirationComponentVyAA07TimeoutE033_834F97C056057EAA3E17D92190D7BF0CLLVyAA03MapE0VyAA06ReduceE0VyAA15ValueStabilizerVyADyAGyAA015DynamicCombinerE0VyAA0C6SourceVyxGGAA0P16AwaitingResolverOySayxGGGGGAA22TranslationAccumulator33_F9F0C7739440163128266787CD900081LLVySayAA12ChangeRecordVyxGGGGytGAUyytGGGAA07GestureE0HPyHC.14
++ get_witness_table 8Gestures12SpatialEventRzlAA21MapTransformComponentVyAA17EnvironmentWriterVyAA19RadialSpeedSymmetryVAA09ThresholdF0VyAA06ReduceF0VyAA13MotionTrackerVyAA15ValueStabilizerVyADyAA010ExpirationF0VyAA07TimeoutF033_834F97C056057EAA3E17D92190D7BF0CLLVyAA015DynamicCombinerF0VyAA0C6SourceVyxGGAA0P16AwaitingResolverOySayxGGGGAA20FilterTerminalEventsVyxGGGAA15WeightsResolverVySayAA12ChangeRecordVyxGGGGAA0N11AccumulatorVGGAA07ExtractijK0VyA20_GGAA010ToAnchoredE0VGAA07GestureF0HPyHC.24
++ get_witness_table 8Gestures17EnvironmentWriterVyAA07RebaserB5Value33_DFE20E02862F1B40885533921B4938A5LLVAA21MapTransformComponentVyAA08VelocityN0VyACyAA04SeenM5TypesVAHyAA05OneOfN0VyAA013PreRecognizedmN0VAA010MultiPointmN0VyAA10TouchEventVGGAA03GetrsE0VyAA08AnchoredM0VGGAA07ExtractP10TransformsVyAZGGAA11Transform2DVGAA02TomnE0VGAA02NoM0VyAfA0mnE0VGGAA07GestureN0HPyHC.8
++ get_witness_table 8Gestures17EnvironmentWriterVyAA07RebaserB5Value33_DFE20E02862F1B40885533921B4938A5LLVAA21MapTransformComponentVyAHyAA05OneOfN0VyACyAA16ActiveEventTypesVAA03PaneN0VyAA08VelocityN0VyAA09ThresholdN0VyAA015TrackedCentroidN0VyAA0E10StabilizerVyAA22SeparationDistanceGateVyAA010ExpirationN0VyAA07TimeoutN033_834F97C056057EAA3E17D92190D7BF0CLLVyAA015DynamicCombinerN0VyAA0R6FilterVyAA0R6SourceVyAA05TouchR0VGAA21NoCodingConfigurationVGGAA0E16AwaitingResolverOySayA9_GGGGGGGGSo8CGVectorVGGAA02NoM0VyAlA0tE0VGGACyAlNyAPyARyAA0w8LocationN0VyAA13ChangeTrackerVyAA20RequiredButtonFilterVyA5_yA7_yAA05MouseR0VGA12_GGGGGA26_GGA33_GGAA03GetopE0VyA32_GGAA02TotnE0VGA30_yAfA0tnE0VGGAA07GestureN0HPyHC.7
++ get_witness_table 8Gestures21MapTransformComponentVyAA11EventSourceVyAA0cE0VGAA023ToPreRecognizedAnchoredC0VGAA07GestureD0HPyHC.18
++ get_witness_table 8Gestures21MapTransformComponentVyAA17EnvironmentWriterVyAA16ActiveEventTypesVAA08PanValueD0VyAA08VelocityD0VyAA09ThresholdD0VyAA015TrackedCentroidD0VyAA0K10StabilizerVyAA22SeparationDistanceGateVyAA010ExpirationD0VyAA07TimeoutD033_834F97C056057EAA3E17D92190D7BF0CLLVyAA015DynamicCombinerD0VyAUyAXyAA08MovementS0VyAA16RegionEdgeFilterVyAA12RegionFilterVyAA0H6SourceVyAA05TouchH0VGGGGAA0K16AwaitingResolverOyA8_GGGGA14_ySayA8_GGGGGGGGSo8CGVectorVGGAA02NoC0VyAgA0jK0VGGAA02TojdK0VGAA07GestureD0HPyHC.2
++ get_witness_table 8Gestures21MapTransformComponentVyACyAA05OneOfD0VyAA17EnvironmentWriterVyAA16ActiveEventTypesVAA010ExpirationD0VyAA06RepeatD0VyAA12MovementGateVyAKyAA07TimeoutD033_834F97C056057EAA3E17D92190D7BF0CLLVyAKyAA08DurationO0VyAA08CentroidD0VyAA018SeparationDistanceO0VyAKyARyAA015DynamicCombinerD0VyAA0J6FilterVyAA0J6SourceVyAA05TouchJ0VGAA21NoCodingConfigurationVGGAA21ValueAwaitingResolverOySayA4_GGGGGGGGA11_ySo7CGPointVGGGGGGAA02NoC0VyAIA21_GGAGyAiA08LocationD0VyAKyAMyAOyAKyARyAKyATyAA20RequiredButtonFilterVyA0_yA2_yAA05MouseJ0VGA7_GGGGA11_yA37_GGGGGGGA30_GGAA03GeteF5ValueVyA21_GGAA011ToLongPressD5ValueVGAA07GestureD0HPyHC.7
++ get_witness_table 8Gestures21MapTransformComponentVyACyAA05OneOfD0VyAA17EnvironmentWriterVyAA16ActiveEventTypesVAA08PanValueD0VyAA08VelocityD0VyAA09ThresholdD0VyAA015TrackedCentroidD0VyAA0M10StabilizerVyAA22SeparationDistanceGateVyAA010ExpirationD0VyAA07TimeoutD033_834F97C056057EAA3E17D92190D7BF0CLLVyAA015DynamicCombinerD0VyAA12RegionFilterVyAA0J6FilterVyAA0J6SourceVyAA05TouchJ0VGAA21NoCodingConfigurationVGGGAA0M16AwaitingResolverOySayA8_GGGGGGGGSo8CGVectorVGGAA02NoC0VyAiA0lM0VGGAGyAiKyAMyAOyAA0p8LocationD0VyAA13ChangeTrackerVyAA20RequiredButtonFilterVyA2_yA4_yA6_yAA05MouseJ0VGA11_GGGGGGA26_GGA33_GGAA03GetefM0VyA32_GGAA02ToldM0VGAA07GestureD0HPyHC.3
+- __IVARS__TtC8Gestures19EnvironmentValueBox
+- ___swift_allocate_boxed_opaque_existential_3
+- ___swift_closure_destructorTm
+- ___swift_destroy_boxed_opaque_existential_3
+- ___swift_project_boxed_opaque_existential_0
+- ___swift_project_boxed_opaque_existential_3
+- ___unnamed_15
+- ___unnamed_22
+- ___unnamed_6
+- __swift_closure_destructor.101
+- __swift_closure_destructor.101Tm
+- __swift_closure_destructor.103
+- __swift_closure_destructor.106
+- __swift_closure_destructor.106Tm
+- __swift_closure_destructor.107
+- __swift_closure_destructor.112
+- __swift_closure_destructor.114
+- __swift_closure_destructor.115
+- __swift_closure_destructor.117
+- __swift_closure_destructor.120
+- __swift_closure_destructor.123
+- __swift_closure_destructor.123Tm
+- __swift_closure_destructor.126
+- __swift_closure_destructor.129
+- __swift_closure_destructor.129Tm
+- __swift_closure_destructor.132
+- __swift_closure_destructor.133
+- __swift_closure_destructor.135
+- __swift_closure_destructor.137
+- __swift_closure_destructor.138
+- __swift_closure_destructor.141
+- __swift_closure_destructor.143
+- __swift_closure_destructor.144
+- __swift_closure_destructor.147
+- __swift_closure_destructor.150
+- __swift_closure_destructor.151
+- __swift_closure_destructor.153
+- __swift_closure_destructor.154
+- __swift_closure_destructor.155
+- __swift_closure_destructor.158
+- __swift_closure_destructor.161
+- __swift_closure_destructor.164
+- __swift_closure_destructor.167
+- __swift_closure_destructor.169
+- __swift_closure_destructor.17
+- __swift_closure_destructor.170
+- __swift_closure_destructor.172
+- __swift_closure_destructor.173
+- __swift_closure_destructor.175
+- __swift_closure_destructor.177
+- __swift_closure_destructor.178
+- __swift_closure_destructor.18
+- __swift_closure_destructor.181
+- __swift_closure_destructor.183
+- __swift_closure_destructor.183Tm
+- __swift_closure_destructor.185
+- __swift_closure_destructor.187
+- __swift_closure_destructor.188
+- __swift_closure_destructor.19
+- __swift_closure_destructor.191
+- __swift_closure_destructor.194
+- __swift_closure_destructor.197
+- __swift_closure_destructor.199
+- __swift_closure_destructor.200
+- __swift_closure_destructor.202
+- __swift_closure_destructor.203
+- __swift_closure_destructor.203Tm
+- __swift_closure_destructor.207
+- __swift_closure_destructor.209
+- __swift_closure_destructor.21
+- __swift_closure_destructor.211
+- __swift_closure_destructor.212
+- __swift_closure_destructor.214
+- __swift_closure_destructor.215
+- __swift_closure_destructor.215Tm
+- __swift_closure_destructor.217
+- __swift_closure_destructor.218
+- __swift_closure_destructor.220
+- __swift_closure_destructor.221
+- __swift_closure_destructor.223
+- __swift_closure_destructor.224
+- __swift_closure_destructor.226
+- __swift_closure_destructor.227
+- __swift_closure_destructor.228
+- __swift_closure_destructor.229
+- __swift_closure_destructor.229Tm
+- __swift_closure_destructor.23
+- __swift_closure_destructor.230
+- __swift_closure_destructor.231
+- __swift_closure_destructor.232
+- __swift_closure_destructor.233
+- __swift_closure_destructor.234
+- __swift_closure_destructor.234Tm
+- __swift_closure_destructor.235
+- __swift_closure_destructor.236
+- __swift_closure_destructor.237
+- __swift_closure_destructor.238
+- __swift_closure_destructor.239
+- __swift_closure_destructor.240
+- __swift_closure_destructor.242
+- __swift_closure_destructor.242Tm
+- __swift_closure_destructor.243
+- __swift_closure_destructor.245
+- __swift_closure_destructor.246
+- __swift_closure_destructor.249
+- __swift_closure_destructor.25
+- __swift_closure_destructor.250
+- __swift_closure_destructor.252
+- __swift_closure_destructor.253
+- __swift_closure_destructor.253Tm
+- __swift_closure_destructor.255
+- __swift_closure_destructor.256
+- __swift_closure_destructor.258
+- __swift_closure_destructor.259
+- __swift_closure_destructor.26
+- __swift_closure_destructor.262
+- __swift_closure_destructor.265
+- __swift_closure_destructor.265Tm
+- __swift_closure_destructor.268
+- __swift_closure_destructor.27
+- __swift_closure_destructor.271
+- __swift_closure_destructor.274
+- __swift_closure_destructor.277
+- __swift_closure_destructor.280
+- __swift_closure_destructor.283
+- __swift_closure_destructor.286
+- __swift_closure_destructor.289
+- __swift_closure_destructor.28Tm
+- __swift_closure_destructor.29
+- __swift_closure_destructor.291
+- __swift_closure_destructor.299
+- __swift_closure_destructor.2Tm
+- __swift_closure_destructor.30
+- __swift_closure_destructor.300
+- __swift_closure_destructor.300Tm
+- __swift_closure_destructor.303
+- __swift_closure_destructor.304
+- __swift_closure_destructor.306
+- __swift_closure_destructor.309
+- __swift_closure_destructor.31
+- __swift_closure_destructor.313
+- __swift_closure_destructor.314
+- __swift_closure_destructor.314Tm
+- __swift_closure_destructor.317
+- __swift_closure_destructor.318
+- __swift_closure_destructor.319
+- __swift_closure_destructor.320
+- __swift_closure_destructor.322
+- __swift_closure_destructor.322Tm
+- __swift_closure_destructor.325
+- __swift_closure_destructor.328
+- __swift_closure_destructor.329
+- __swift_closure_destructor.329Tm
+- __swift_closure_destructor.331
+- __swift_closure_destructor.331Tm
+- __swift_closure_destructor.332
+- __swift_closure_destructor.335
+- __swift_closure_destructor.338
+- __swift_closure_destructor.339
+- __swift_closure_destructor.34
+- __swift_closure_destructor.342
+- __swift_closure_destructor.344
+- __swift_closure_destructor.344Tm
+- __swift_closure_destructor.345
+- __swift_closure_destructor.347
+- __swift_closure_destructor.348
+- __swift_closure_destructor.350
+- __swift_closure_destructor.351
+- __swift_closure_destructor.353
+- __swift_closure_destructor.354
+- __swift_closure_destructor.355
+- __swift_closure_destructor.356
+- __swift_closure_destructor.358
+- __swift_closure_destructor.358Tm
+- __swift_closure_destructor.36
+- __swift_closure_destructor.360
+- __swift_closure_destructor.363
+- __swift_closure_destructor.363Tm
+- __swift_closure_destructor.366
+- __swift_closure_destructor.367
+- __swift_closure_destructor.369
+- __swift_closure_destructor.37
+- __swift_closure_destructor.372
+- __swift_closure_destructor.375
+- __swift_closure_destructor.377
+- __swift_closure_destructor.378
+- __swift_closure_destructor.38
+- __swift_closure_destructor.384
+- __swift_closure_destructor.387
+- __swift_closure_destructor.389
+- __swift_closure_destructor.392
+- __swift_closure_destructor.395
+- __swift_closure_destructor.397
+- __swift_closure_destructor.398
+- __swift_closure_destructor.4
+- __swift_closure_destructor.40
+- __swift_closure_destructor.400
+- __swift_closure_destructor.401
+- __swift_closure_destructor.403
+- __swift_closure_destructor.404
+- __swift_closure_destructor.407
+- __swift_closure_destructor.41
+- __swift_closure_destructor.410
+- __swift_closure_destructor.413
+- __swift_closure_destructor.414
+- __swift_closure_destructor.414Tm
+- __swift_closure_destructor.417
+- __swift_closure_destructor.41Tm
+- __swift_closure_destructor.420
+- __swift_closure_destructor.423
+- __swift_closure_destructor.423Tm
+- __swift_closure_destructor.428
+- __swift_closure_destructor.43
+- __swift_closure_destructor.431
+- __swift_closure_destructor.434
+- __swift_closure_destructor.437
+- __swift_closure_destructor.44
+- __swift_closure_destructor.440
+- __swift_closure_destructor.442
+- __swift_closure_destructor.443
+- __swift_closure_destructor.447
+- __swift_closure_destructor.447Tm
+- __swift_closure_destructor.450
+- __swift_closure_destructor.454
+- __swift_closure_destructor.455
+- __swift_closure_destructor.458
+- __swift_closure_destructor.459
+- __swift_closure_destructor.46
+- __swift_closure_destructor.461
+- __swift_closure_destructor.464
+- __swift_closure_destructor.467
+- __swift_closure_destructor.47
+- __swift_closure_destructor.473
+- __swift_closure_destructor.47Tm
+- __swift_closure_destructor.481
+- __swift_closure_destructor.482
+- __swift_closure_destructor.485
+- __swift_closure_destructor.486
+- __swift_closure_destructor.488
+- __swift_closure_destructor.49
+- __swift_closure_destructor.492
+- __swift_closure_destructor.493
+- __swift_closure_destructor.496
+- __swift_closure_destructor.499
+- __swift_closure_destructor.503
+- __swift_closure_destructor.51
+- __swift_closure_destructor.54
+- __swift_closure_destructor.57
+- __swift_closure_destructor.60
+- __swift_closure_destructor.63
+- __swift_closure_destructor.63Tm
+- __swift_closure_destructor.66
+- __swift_closure_destructor.68
+- __swift_closure_destructor.69
+- __swift_closure_destructor.72
+- __swift_closure_destructor.76
+- __swift_closure_destructor.79
+- __swift_closure_destructor.82
+- __swift_closure_destructor.84
+- __swift_closure_destructor.85
+- __swift_closure_destructor.88
+- __swift_closure_destructor.91
+- __swift_closure_destructor.92
+- __swift_closure_destructor.94
+- __swift_exist.box.addr_destructor.103
+- __swift_exist.box.addr_destructor.103Tm
+- __swift_exist.box.addr_destructor.106
+- __swift_exist.box.addr_destructor.109Tm
+- __swift_exist.box.addr_destructor.112
+- __swift_exist.box.addr_destructor.115
+- __swift_exist.box.addr_destructor.12
+- __swift_exist.box.addr_destructor.121
+- __swift_exist.box.addr_destructor.121Tm
+- __swift_exist.box.addr_destructor.125
+- __swift_exist.box.addr_destructor.128
+- __swift_exist.box.addr_destructor.132
+- __swift_exist.box.addr_destructor.135
+- __swift_exist.box.addr_destructor.138
+- __swift_exist.box.addr_destructor.141
+- __swift_exist.box.addr_destructor.145
+- __swift_exist.box.addr_destructor.150Tm
+- __swift_exist.box.addr_destructor.153
+- __swift_exist.box.addr_destructor.156
+- __swift_exist.box.addr_destructor.16
+- __swift_exist.box.addr_destructor.160
+- __swift_exist.box.addr_destructor.160Tm
+- __swift_exist.box.addr_destructor.163
+- __swift_exist.box.addr_destructor.166
+- __swift_exist.box.addr_destructor.16Tm
+- __swift_exist.box.addr_destructor.170
+- __swift_exist.box.addr_destructor.174
+- __swift_exist.box.addr_destructor.174Tm
+- __swift_exist.box.addr_destructor.178
+- __swift_exist.box.addr_destructor.182
+- __swift_exist.box.addr_destructor.19
+- __swift_exist.box.addr_destructor.190
+- __swift_exist.box.addr_destructor.193
+- __swift_exist.box.addr_destructor.196
+- __swift_exist.box.addr_destructor.199
+- __swift_exist.box.addr_destructor.208
+- __swift_exist.box.addr_destructor.211
+- __swift_exist.box.addr_destructor.215
+- __swift_exist.box.addr_destructor.218
+- __swift_exist.box.addr_destructor.22
+- __swift_exist.box.addr_destructor.221
+- __swift_exist.box.addr_destructor.228
+- __swift_exist.box.addr_destructor.232
+- __swift_exist.box.addr_destructor.235
+- __swift_exist.box.addr_destructor.238
+- __swift_exist.box.addr_destructor.241
+- __swift_exist.box.addr_destructor.245
+- __swift_exist.box.addr_destructor.254
+- __swift_exist.box.addr_destructor.261
+- __swift_exist.box.addr_destructor.265
+- __swift_exist.box.addr_destructor.269
+- __swift_exist.box.addr_destructor.273
+- __swift_exist.box.addr_destructor.286
+- __swift_exist.box.addr_destructor.286Tm
+- __swift_exist.box.addr_destructor.290
+- __swift_exist.box.addr_destructor.294
+- __swift_exist.box.addr_destructor.298
+- __swift_exist.box.addr_destructor.30
+- __swift_exist.box.addr_destructor.301
+- __swift_exist.box.addr_destructor.304
+- __swift_exist.box.addr_destructor.317Tm
+- __swift_exist.box.addr_destructor.321
+- __swift_exist.box.addr_destructor.325
+- __swift_exist.box.addr_destructor.330
+- __swift_exist.box.addr_destructor.334
+- __swift_exist.box.addr_destructor.338
+- __swift_exist.box.addr_destructor.34
+- __swift_exist.box.addr_destructor.342
+- __swift_exist.box.addr_destructor.346
+- __swift_exist.box.addr_destructor.350
+- __swift_exist.box.addr_destructor.353
+- __swift_exist.box.addr_destructor.361
+- __swift_exist.box.addr_destructor.368
+- __swift_exist.box.addr_destructor.375
+- __swift_exist.box.addr_destructor.379
+- __swift_exist.box.addr_destructor.383
+- __swift_exist.box.addr_destructor.387
+- __swift_exist.box.addr_destructor.391
+- __swift_exist.box.addr_destructor.395
+- __swift_exist.box.addr_destructor.398
+- __swift_exist.box.addr_destructor.401
+- __swift_exist.box.addr_destructor.404
+- __swift_exist.box.addr_destructor.408
+- __swift_exist.box.addr_destructor.417
+- __swift_exist.box.addr_destructor.426
+- __swift_exist.box.addr_destructor.42Tm
+- __swift_exist.box.addr_destructor.430
+- __swift_exist.box.addr_destructor.434
+- __swift_exist.box.addr_destructor.438
+- __swift_exist.box.addr_destructor.447
+- __swift_exist.box.addr_destructor.451
+- __swift_exist.box.addr_destructor.455
+- __swift_exist.box.addr_destructor.459
+- __swift_exist.box.addr_destructor.467
+- __swift_exist.box.addr_destructor.482
+- __swift_exist.box.addr_destructor.486
+- __swift_exist.box.addr_destructor.489
+- __swift_exist.box.addr_destructor.56
+- __swift_exist.box.addr_destructor.60
+- __swift_exist.box.addr_destructor.62
+- __swift_exist.box.addr_destructor.66
+- __swift_exist.box.addr_destructor.68
+- __swift_exist.box.addr_destructor.71
+- __swift_exist.box.addr_destructor.71Tm
+- __swift_exist.box.addr_destructor.74
+- __swift_exist.box.addr_destructor.83Tm
+- __swift_exist.box.addr_destructor.88Tm
+- _associated conformance 8Gestures19EnvironmentValueBoxCyxGAA19TaggedSchemaCodableAA07WrappedC0AaEP_AA0F13Representable
+- _associated conformance 8Gestures19EnvironmentValueBoxCyxGAA19TaggedSchemaCodableAA07WrappedC0AaEP_AA15BinaryDecodable
+- _associated conformance 8Gestures19EnvironmentValueBoxCyxGAA19TaggedSchemaCodableAA07WrappedC0AaEP_AA15BinaryEncodable
+- _swift_allocateMetadataPack
+- _swift_allocateWitnessTablePack
+- _swift_getMetatypeMetadata
+- _symbolic $s8Gestures17EnvironmentRecordP
+- _symbolic $s8Gestures19DebugLabelProvidingP
+- _symbolic SDy_____SDy_____Say_____GGG 8Gestures14GestureOwnerIDV AA0B3TagV AA08ExternalB6UpdateO
+- _symbolic SDy_____Shy_____GG 8Gestures14GestureOwnerIDV AA0b4NodeD0V
+- _symbolic SDy__________G 8Gestures13GestureNodeIDV AA06RemoteB10GateUpdateO
+- _symbolic SDy___________pG 8Gestures14EnvironmentKeyV AA0B6RecordP
+- _symbolic Say_____3key_______p6recordtG 8Gestures14EnvironmentKeyV AA0B6RecordP
+- _symbolic Say_____Gm 8Gestures19DirectionConstraintV
+- _symbolic _____ 8Gestures16ServerSystemGateC13PendingUpdateV
+- _symbolic _____ 8Gestures19EnvironmentValueBoxC
+- _symbolic _____ 8Gestures20GFDebugLabelProviderO
+- _symbolic _____ 8Gestures21ServerGestureRegistryC15processDeletion33_17DA029FA8F5F4349D1317F6A3DCBFFBLL3for7ownerIdyAA0C6NodeIDV_AA0c5OwnerS0VtKF17UnregisterCommandL_V
+- _symbolic _____3key_______p5valuet 8Gestures14EnvironmentKeyV AA0B6RecordP
+- _symbolic _____3key_______p6recordt 8Gestures14EnvironmentKeyV AA0B6RecordP
+- _symbolic _____Sg 8Gestures16ServerSystemGateC13PendingUpdateV
+- _symbolic ______pXpSg 8Gestures19DebugLabelProvidingP
+- _symbolic _____m 8Gestures29TransformDirectionConstraintsV
+- _symbolic _____y_____3key_______p5valuetG s23_ContiguousArrayStorageC 8Gestures14EnvironmentKeyV AC0E6RecordP
+- _symbolic _____y_____3key_______p6recordtG s23_ContiguousArrayStorageC 8Gestures14EnvironmentKeyV AC0E6RecordP
+- _symbolic _____y_____G 8Gestures19EnvironmentValueBoxC AA06TracerbC033_D88E1AA01BE75BF4FD14433CD2C6A6EFLLV
+- _symbolic _____y_____G 8Gestures19EnvironmentValueBoxC AA07RebaserbC033_DFE20E02862F1B40885533921B4938A5LLV
+- _symbolic _____y_____G 8Gestures19EnvironmentValueBoxC AA15InitialLocationV
+- _symbolic _____y_____G 8Gestures19EnvironmentValueBoxC AA16ActiveEventTypesV
+- _symbolic _____y_____G 8Gestures19EnvironmentValueBoxC AA18SeenTransformTypesV
+- _symbolic _____y_____G 8Gestures19EnvironmentValueBoxC AA18UpdateRequestGroupV
+- _symbolic _____y_____G 8Gestures19EnvironmentValueBoxC AA19RadialSpeedSymmetryV
+- _symbolic _____y_____G 8Gestures19EnvironmentValueBoxC AA21UpdateTraceAnnotationV
+- _symbolic _____y_____G s18ReversedCollectionV 10Foundation8IndexSetV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 8Gestures16ClientSystemGateV
+- _symbolic _____y_____SDy_____Say_____GGG s18_DictionaryStorageC 8Gestures14GestureOwnerIDV AC0D3TagV AC08ExternalD6UpdateO
+- _symbolic _____y_____Shy_____GG s18_DictionaryStorageC 8Gestures14GestureOwnerIDV AC0d4NodeF0V
+- _symbolic _____y______G s18ReversedCollectionV8IteratorV 10Foundation8IndexSetV
+- _symbolic _____y__________G s18_DictionaryStorageC 8Gestures13GestureNodeIDV AC06RemoteD10GateUpdateO
+- _symbolic _____y___________pG s18_DictionaryStorageC 8Gestures14EnvironmentKeyV AC0D6RecordP
+- _symbolic _____y___________tG s23_ContiguousArrayStorageC 8Gestures13GestureNodeIDV AC06RemoteE10GateUpdateO
+- _symbolic _____yxG 8Gestures12ChangeRecordV
+- _symbolic _____yxG 8Gestures12DiscreteGateV
+- _symbolic _____yxG 8Gestures12DurationGateV
+- _symbolic _____yxG 8Gestures12MovementGateV
+- _symbolic _____yxG 8Gestures12RegionFilterV
+- _symbolic _____yxG 8Gestures13ChangeTrackerV
+- _symbolic _____yxG 8Gestures15RepeatComponentV
+- _symbolic _____yxG 8Gestures15ValueStabilizerV
+- _symbolic _____yxG 8Gestures15WeightsResolverV
+- _symbolic _____yxG 8Gestures16ExpirationRecordV
+- _symbolic _____yxG 8Gestures16RegionEdgeFilterV
+- _symbolic _____yxG 8Gestures17CentroidComponentV
+- _symbolic _____yxG 8Gestures17LocationComponentV
+- _symbolic _____yxG 8Gestures17PanValueComponentV
+- _symbolic _____yxG 8Gestures18ThresholdComponentV
+- _symbolic _____yxG 8Gestures19ExpirationComponentV
+- _symbolic _____yxG 8Gestures20DelayedValueResolverV
+- _symbolic _____yxG 8Gestures20RequiredButtonFilterV
+- _symbolic _____yxG 8Gestures20SpatialGateComponentV
+- _symbolic _____yxG 8Gestures21ExtractSeenTransformsV
+- _symbolic _____yxG 8Gestures22SeparationDistanceGateV
+- _symbolic _____yxG 8Gestures22TranslationAccumulator33_F9F0C7739440163128266787CD900081LLV
+- _symbolic _____yxG 8Gestures24DynamicCombinerComponentV
+- _symbolic _____yxG 8Gestures24StationaryLocationFilterV
+- _symbolic _____yxG 8Gestures24TrackedCentroidComponentV
+- _symbolic _____yxG 8Gestures24TrackedLocationComponentV
+- _symbolic _____yxG 8Gestures26ExtractRadialSpeedSymmetryV
+- _symbolic _____yxG 8Gestures28MultiPointTransformComponentV
+- _symbolic _____yxq_G 8Gestures11EventFilterV
+- _symbolic _____yxq_G 8Gestures11FieldOffsetV
+- _symbolic _____yxq_G 8Gestures12DerivedValueV
+- _symbolic _____yxq_G 8Gestures13MotionTrackerV
+- _symbolic _____yxq_G 8Gestures15ReduceComponentV
+- _symbolic _____yxq_G 8Gestures16TimeoutComponent33_834F97C056057EAA3E17D92190D7BF0CLLV
+- _symbolic _____yxq_G 8Gestures17ProgressComponentV
+- _symbolic _____yxq_G 8Gestures17VelocityComponentV
+- _symbolic _____yxq_G 8Gestures21ExtractFieldComponentV
+- _symbolic _____yxq_G 8Gestures21MapTransformComponentV
+- _symbolic _____yxq_G 8Gestures30CompositeGestureComponentStateV
+- _symbolic _____yxq_q0_G 8Gestures17EnvironmentWriterV
+- _symbolic sB0
+- _symbolic xxQp_QP
+- get_witness_table 8Gestures12DiscreteGateVyAA21MapTransformComponentVyAEyAA05OneOfF0VyAA17EnvironmentWriterVyAA16ActiveEventTypesVAA010ExpirationF0VyAA06RepeatF0VyAA08MovementC0VyAMyAA07TimeoutF033_834F97C056057EAA3E17D92190D7BF0CLLVyAMyAA08DurationC0VyAA08CentroidF0VyAA018SeparationDistanceC0VyAMyATyAA015DynamicCombinerF0VyAA0L6FilterVyAA0L6SourceVyAA05TouchL0VGAA21NoCodingConfigurationVGGAA21ValueAwaitingResolverOySayA6_GGGGGGGGA13_ySo7CGPointVGGGGGGAA02NoE0VyAKA23_GGAIyAkA08LocationF0VyAMyAOyAQyAMyATyAMyAVyAA20RequiredButtonFilterVyA2_yA4_yAA05MouseL0VGA9_GGGGA13_yA39_GGGGGGGA32_GGAA03GetgH5ValueVyA23_GGAA05ToTapF5ValueVGGAA0bF0HPyHC.14
+- get_witness_table 8Gestures12SpatialEventRzlAA19ExpirationComponentVyAA07TimeoutE033_834F97C056057EAA3E17D92190D7BF0CLLVyAA03MapE0VyAA06ReduceE0VyAA15ValueStabilizerVyADyAGyAA015DynamicCombinerE0VyAA0C6SourceVyxGGAA0P16AwaitingResolverOySayxGGGGGAA22TranslationAccumulator33_F9F0C7739440163128266787CD900081LLVySayAA12ChangeRecordVyxGGGGytGAUyytGGGAA07GestureE0HPyHC.23
+- get_witness_table 8Gestures12SpatialEventRzlAA21MapTransformComponentVyAA17EnvironmentWriterVyAA19RadialSpeedSymmetryVAA09ThresholdF0VyAA06ReduceF0VyAA13MotionTrackerVyAA15ValueStabilizerVyADyAA010ExpirationF0VyAA07TimeoutF033_834F97C056057EAA3E17D92190D7BF0CLLVyAA015DynamicCombinerF0VyAA0C6SourceVyxGGAA0P16AwaitingResolverOySayxGGGGAA20FilterTerminalEventsVyxGGGAA15WeightsResolverVySayAA12ChangeRecordVyxGGGGAA0N11AccumulatorVGGAA07ExtractijK0VyA20_GGAA010ToAnchoredE0VGAA07GestureF0HPyHC.42
+- get_witness_table 8Gestures17EnvironmentWriterVyAA07RebaserB5Value33_DFE20E02862F1B40885533921B4938A5LLVAA21MapTransformComponentVyAA08VelocityN0VyACyAA04SeenM5TypesVAHyAA05OneOfN0VyAA013PreRecognizedmN0VAA010MultiPointmN0VyAA10TouchEventVGGAA03GetrsE0VyAA08AnchoredM0VGGAA07ExtractP10TransformsVyAZGGAA11Transform2DVGAA02TomnE0VGAA02NoM0VyAfA0mnE0VGGAA07GestureN0HPyHC.14
+- get_witness_table 8Gestures17EnvironmentWriterVyAA07RebaserB5Value33_DFE20E02862F1B40885533921B4938A5LLVAA21MapTransformComponentVyAHyAA05OneOfN0VyACyAA16ActiveEventTypesVAA03PaneN0VyAA08VelocityN0VyAA09ThresholdN0VyAA015TrackedCentroidN0VyAA0E10StabilizerVyAA22SeparationDistanceGateVyAA010ExpirationN0VyAA07TimeoutN033_834F97C056057EAA3E17D92190D7BF0CLLVyAA015DynamicCombinerN0VyAA0R6FilterVyAA0R6SourceVyAA05TouchR0VGAA21NoCodingConfigurationVGGAA0E16AwaitingResolverOySayA9_GGGGGGGGSo8CGVectorVGGAA02NoM0VyAlA0tE0VGGACyAlNyAPyARyAA0w8LocationN0VyAA13ChangeTrackerVyAA20RequiredButtonFilterVyA5_yA7_yAA05MouseR0VGA12_GGGGGA26_GGA33_GGAA03GetopE0VyA32_GGAA02TotnE0VGA30_yAfA0tnE0VGGAA07GestureN0HPyHC.13
+- get_witness_table 8Gestures21MapTransformComponentVyAA11EventSourceVyAA0cE0VGAA023ToPreRecognizedAnchoredC0VGAA07GestureD0HPyHC.24
+- get_witness_table 8Gestures21MapTransformComponentVyAA17EnvironmentWriterVyAA16ActiveEventTypesVAA08PanValueD0VyAA08VelocityD0VyAA09ThresholdD0VyAA015TrackedCentroidD0VyAA0K10StabilizerVyAA22SeparationDistanceGateVyAA010ExpirationD0VyAA07TimeoutD033_834F97C056057EAA3E17D92190D7BF0CLLVyAA015DynamicCombinerD0VyAUyAXyAA08MovementS0VyAA16RegionEdgeFilterVyAA12RegionFilterVyAA0H6SourceVyAA05TouchH0VGGGGAA0K16AwaitingResolverOyA8_GGGGA14_ySayA8_GGGGGGGGSo8CGVectorVGGAA02NoC0VyAgA0jK0VGGAA02TojdK0VGAA07GestureD0HPyHC.5
+- get_witness_table 8Gestures21MapTransformComponentVyACyAA05OneOfD0VyAA17EnvironmentWriterVyAA16ActiveEventTypesVAA010ExpirationD0VyAA06RepeatD0VyAA12MovementGateVyAKyAA07TimeoutD033_834F97C056057EAA3E17D92190D7BF0CLLVyAKyAA08DurationO0VyAA08CentroidD0VyAA018SeparationDistanceO0VyAKyARyAA015DynamicCombinerD0VyAA0J6FilterVyAA0J6SourceVyAA05TouchJ0VGAA21NoCodingConfigurationVGGAA21ValueAwaitingResolverOySayA4_GGGGGGGGA11_ySo7CGPointVGGGGGGAA02NoC0VyAIA21_GGAGyAiA08LocationD0VyAKyAMyAOyAKyARyAKyATyAA20RequiredButtonFilterVyA0_yA2_yAA05MouseJ0VGA7_GGGGA11_yA37_GGGGGGGA30_GGAA03GeteF5ValueVyA21_GGAA011ToLongPressD5ValueVGAA07GestureD0HPyHC.10
+- get_witness_table 8Gestures21MapTransformComponentVyACyAA05OneOfD0VyAA17EnvironmentWriterVyAA16ActiveEventTypesVAA08PanValueD0VyAA08VelocityD0VyAA09ThresholdD0VyAA015TrackedCentroidD0VyAA0M10StabilizerVyAA22SeparationDistanceGateVyAA010ExpirationD0VyAA07TimeoutD033_834F97C056057EAA3E17D92190D7BF0CLLVyAA015DynamicCombinerD0VyAA12RegionFilterVyAA0J6FilterVyAA0J6SourceVyAA05TouchJ0VGAA21NoCodingConfigurationVGGGAA0M16AwaitingResolverOySayA8_GGGGGGGGSo8CGVectorVGGAA02NoC0VyAiA0lM0VGGAGyAiKyAMyAOyAA0p8LocationD0VyAA13ChangeTrackerVyAA20RequiredButtonFilterVyA2_yA4_yA6_yAA05MouseJ0VGA11_GGGGGGA26_GGA33_GGAA03GetefM0VyA32_GGAA02ToldM0VGAA07GestureD0HPyHC.6
+CStrings:
++ " is not SchemaRepresentable"
++ " owned by ownerId="
++ "<cid = %s> expanding system gate: %s with %s"
++ "Discarding operations for owner=%ld: deletions=%ld, externalUpdates=%ld"
++ "Existing registration of nodeId=%s%s was replaced by ownerId=%s"
++ "Failed to build config schema for %s: %@"
++ "Failed to encode message for %ld: %@"
++ "Failed to encode trace section %s: %@"
++ "Failed to gather commands for %ld: %@"
++ "GESTURES_SIGNPOSTING_ENABLED"
++ "GestureNodeMatcher"
++ "Gestures/ComponentBinaryTracer.swift"
++ "Received gateExpanded for unknown system gate %s"
++ "RemoteGestureCommand"
++ "RemoteGestureUpdate"
++ "SerializableOutput"
++ "SerializableOutput<AnchoredTransform>"
++ "SerializableOutput<Array<ChangeRecord<IdentifiableLocation<EventID>>>>"
++ "SerializableOutput<Array<ChangeRecord<TouchEvent>>>"
++ "SerializableOutput<Array<IdentifiableLocation<EventID>>>"
++ "SerializableOutput<Array<TouchEvent>>"
++ "SerializableOutput<CGPoint>"
++ "SerializableOutput<ChangeRecord<MouseEvent>>"
++ "SerializableOutput<CombinedValues<Pack{Array<IdentifiableLocation<EventID>>, IdentifiableLocation<EventID>}>>"
++ "SerializableOutput<DerivedValue<AnchoredTransform, Transform2D>>"
++ "SerializableOutput<DerivedValue<TrackedLocation, CGVector>>"
++ "SerializableOutput<ExpirationRecord<Array<TouchEvent>>>"
++ "SerializableOutput<ExpirationRecord<CGPoint>>"
++ "SerializableOutput<ExpirationRecord<MouseEvent>>"
++ "SerializableOutput<ExpirationRecord<TouchEvent>>"
++ "SerializableOutput<GestureOutputEmptyReason>"
++ "SerializableOutput<LongPressComponentValue>"
++ "SerializableOutput<MotionAccumulator>"
++ "SerializableOutput<MotionSample>"
++ "SerializableOutput<MouseEvent>"
++ "SerializableOutput<OneOf<AnchoredTransform, AnchoredTransform>>"
++ "SerializableOutput<OneOf<CGPoint, CGPoint>>"
++ "SerializableOutput<OneOf<PanValue, PanValue>>"
++ "SerializableOutput<OpaqueDataEvent>"
++ "SerializableOutput<PanComponentValue>"
++ "SerializableOutput<PanLocation>"
++ "SerializableOutput<PanValue>"
++ "SerializableOutput<Payload>"
++ "SerializableOutput<ScrollEvent>"
++ "SerializableOutput<String>"
++ "SerializableOutput<TapComponentValue>"
++ "SerializableOutput<TouchEvent>"
++ "SerializableOutput<TrackedLocation>"
++ "SerializableOutput<TransformComponentValue>"
++ "SerializableOutput<TransformEvent>"
++ "SignpostingEnabled"
++ "Stale %s from owner=%s, nodeId=%s, currentOwner=%s"
++ "TraceEncodingError"
++ "[Error] Interval already ended"
++ "acceleratedDelta"
++ "com.apple.Gestures.systemGate"
++ "com.apple.Gestures.systemGate ("
++ "coordinator.update"
++ "coordinatorId=%{public}d\nnodeIdSerial=%{public}u\nnodeIdBits=%{public}u\nnameKey=%{public}d\nphaseCode=%{public}hhu\nfailureReasonCode=%{public}hhu\nrelatedNodeIdSerial=%{public}u\nrelatedNodeIdBits=%{public}u\nerrorStringKey=%{public}d"
++ "coordinatorId=%{public}d\nnodeIdSerial=%{public}u\nnodeIdBits=%{public}u\nnameKey=%{public}d\nphaseCode=%{public}hhu\noldPhaseCode=%{public}hhu\nfailureReasonCode=%{public}hhu\nrelatedNodeIdSerial=%{public}u\nrelatedNodeIdBits=%{public}u\nerrorStringKey=%{public}d"
++ "coordinatorId=%{public}d\nreasonCode=%{public}hhu\nsyncNodeIdSerial=%{public}u\nsyncNodeIdBits=%{public}u\nreasonStringKey=%{public}d"
++ "failureReasonCode"
++ "intern.string"
++ "key=%{public}d value=%{public}s"
++ "node.phaseEnqueue"
++ "node.phaseUpdate"
++ "relatedNodeIdBits"
++ "relatedNodeIdSerial"
++ "syncNodeIdSerial"
+- "CodableGestureFailure"
+- "GestureFieldData"
+- "MultiEventSourceConfiguration"
+- "TraceNodeContainer"
+- "com.apple.Gestures.systemGate-"
+
+```

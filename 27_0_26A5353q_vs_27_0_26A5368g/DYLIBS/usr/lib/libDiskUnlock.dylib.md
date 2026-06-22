@@ -1,0 +1,63 @@
+## libDiskUnlock.dylib
+
+> `/usr/lib/libDiskUnlock.dylib`
+
+```diff
+
+ 69.0.0.0.0
+-  __TEXT.__text: 0x297c sha256:ae99a54fd219852270f31dcac52369bd72a6daac13aa56250c49729f42b025e0
++  __TEXT.__text: 0x2904 sha256:abcf0c3ac0d14b13bc772e7f1fc665bfed1964b583a4e1356d27623e39c4ae6f
+   __TEXT.__const: 0x38 sha256:d6d013f2aaf774b529da187eeacce2d807905f241f8aed07a666214d9fae4067
+   __TEXT.__cstring: 0x62c sha256:f50ba1f8ed4a21f842eb11804050926d1f0009761ec99829ae45132fe31b43f4
+   __TEXT.__oslogstring: 0x547 sha256:d03ce5149bb699456776cca16a5752d05907e5aa100568422291f4dde351bebf
+-  __TEXT.__unwind_info: 0xb0 sha256:c78c57aca92a58afbc7b6ec1b8a1a004f246bdc744e66d14a7ddd2ae7345a072
++  __TEXT.__unwind_info: 0xb0 sha256:85d0b11b8ca6ada9cfc2554135e72c0b4665502008b0201789afe80fdd69b818
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_methname: 0x0
+-  __DATA_CONST.__const: 0x40 sha256:20f556c5391e09536d31ef52f0da8ff56b2d6616561657b3536f6a475704be43
++  __DATA_CONST.__const: 0x40 sha256:c86c24e0215049952461995ded746022d48f898e720c0ffced823272c6bd87cf
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x100 sha256:b6eb61671cd6b1056aec9d3ec6ac6f706a14f68628111e267e3fddceae407aca
++  __DATA_CONST.__objc_selrefs: 0x100 sha256:87f0d01ac020c9b524dfabe29d2ee7fcf982972e87ebc84e49b6737e77ecdbe8
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x90 sha256:811976ce16a6fd4ed499bde58ac13ace406833488e13315d18edb5ce0b10e817
+-  __AUTH_CONST.__cfstring: 0x6c0 sha256:071f612004cb1b21f8ac901145450d6e00d35878b461f6e14463026cb8087d14
++  __AUTH_CONST.__const: 0x90 sha256:e22229ed63ed0f2c1ecb5871fdc35c6cba2295b1f3bdc422b49e8c16c9923683
++  __AUTH_CONST.__cfstring: 0x6c0 sha256:d5af84b4efd27a92dbbf1231e340a1d553533522ca46f9a56a179e9734d6e8d7
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0xd8 sha256:a5645e7a3fa0866cde8842c4dab96567507c3d1a3c028b816bc63f6966367b70
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A94988E4-AFDA-3559-8FB5-2BE399A36404
++  UUID: A2BA1721-7B90-3E43-8E01-BE5EACA9B197
+   Functions: 25
+   Symbols:   164
+   CStrings:  162
+Functions:
+~ _DUUnlockVolumeOverWindow : sha256 1e5ba1268a9a8eb810640bf028d08979ec66f2afad0027848dd8acfaaa6be8db -> 6fac035e41825de1fb49877dc43a554f1c780167b0379c29009658472f8394fd
+~ __DUUnlockVolumeWithUserCredentialsAndOptions : 5476 -> 5356
+~ _DUUnlockVolumeWithOptions : sha256 95bfee4025dcd9b42658f48602e115a60dd8cf80210eef0f5aa4b249d49a133e -> 69e1e60235088bb7555c825e051e72f67d2e3ddac0fae606c544f1e5a2a7070a
+~ _DUFunctionPtrWithName : sha256 ed90cd989ac79300c73d17a7d17569afd7464b41b19afd8bf168bd2f3662cabd -> 39ed932418bfd4bb29bca334647f179203065fad6f2a7d6e8352e56c791643a6
+~ _DUBundleWithPath : sha256 faa66915b73c4bc2a9c721256a328772096fd4663ac000b2030d99b02ab1cb47 -> a7586a24691131c4f7f21f6e315a3aa694e4e8344b97db7e6ebf58eee6d22b2f
+~ __isValidUUID : sha256 7237a42469a3df910c678f0a47a897608e7937b9ed49159581fe26b21be2eca9 -> 6c717adbd4ef01a8c6398eb0c1676fdaa140fda3f6efff7fcd00c7e0b3e2ebf1
+~ _DUSymbolWithName : sha256 9aab8571f638c807eae7a9ae01fe5ffeb312bdaaa7ec012ed3cd0884d5bb9ad5 -> 9ea289a8562d02d977b072a40cb25c02f631cd752d676cd00babcdc90674a773
+~ __BOOLFromAuthorization : sha256 f23dd32ba024069af44b93f1ed4aae085e883d4b0f5269790974b90ed5c9f767 -> 0b7398de9e75f5aa32d05a35be33a6ece4b83542a56c19ab1a477a84153b6e80
+~ __StringFromAuthorization : sha256 4251d3cb44e49ee8a30102dd9782ef8bf0b951fb1bf15d9c93cc3736aae42d82 -> 882103a289d2cb2f060a660cb833a82d50e038a7c7c3300326c2c05712f23633
+~ _DUKeychainItemUpdateAttributes : sha256 3de534fdc66169e2011e36f636ffcb6bc8c321c3e40ec9cfe5fee070ce220988 -> a2b1f540e1ba29e88f2de988dae71ed8c34baedca2f3423e5caa74294c4de9cc
+~ _DUKeychainItemAdd : sha256 9215629207d5a0999ffa52cbc447ba2c4a20ce6ee7f33f5fd921260e8d6b4f1b -> 38111c98919fca34d8a852c555b6b059d7d4c165d7807e18785478a63f86fcc4
+~ ____CanShowAuthUI_block_invoke : sha256 86cf3306db34f9335e1b939664b598dc80ae095a1f3f9caba01ae122a25a6b9f -> f46cfc3da153036795273fdc7acd69a86b61fcfe2fea54b277ce1157d78846c8
+~ ___copy_helper_block_e8_32o : sha256 a7fbb5fdf49306271f964ea257fb6311d960c4715b4fc76046cc0c66480c59f5 -> 3e3733de5186dc7404ed8fcbf3f114fb7a900b5ed83664583623dc53651f0a73
+~ ___destroy_helper_block_e8_32o : sha256 d45ea1565d9b597b03b0dabe7741b892f4d60c4b6068fc6beac7eb89b4b5af8f -> 8f0650aaa26cbf7bdca526343a0e2b8b1e86b03735551c9730b0cb5a365ae217
+~ __InitializeItemWithData : sha256 86b2489e1100e8ba2b72d1580e62a0d00744fadf029ef595c3342ce5163b9360 -> a857c0f1aa5db7dc19657ea9225b7adc261e4b712b1a0b76e1096364be96a265
+~ __CopyDataFromAuthorization : sha256 281eb239303c8cb3cd0c88c8a6f11bcfcc9a115df15a8056ed8384616f84a63a -> 636b7c0fea73329cbfe1774fae04fc2f66be29b8cbae5c5e86b0b0b6472f2e19
+~ ___DMManagerClass_block_invoke : sha256 e133df2ec7c6c313096cf6494f5c032339a3d7888c06e9023f4088d423b9b101 -> 23bc5fd314fa1f1484739d570931d73ad6c8bfc63742150a813dcf21f2f63135
+~ ____LoadDiskManagementFramework_block_invoke : sha256 7aedb82d9700c0becd09d91a11b70d0dd8c4a1ae71da79d5c9a92377cdf46e00 -> c225406d657ad503cf9b3704eedf268c5ed4c26e8e4ed635e808dea977ab6b4a
+~ ___DMAPFSClass_block_invoke : sha256 0e78e03f08f4a5ebec2f66222def39edcb1d197808a3eeeabf300933f98fd227 -> 289350640ce7061e436365e891ab20c595dab989524cf2e25f8ef810dd02e682
+~ _OUTLINED_FUNCTION_0 : sha256 4857e5e5289437dbaf2368d9a6ebe550311a28a49aa2c6e4116ca085e9679ec2 -> 82c3b144f51d8bf4db18493f0035b6e4947dcac62703dba4942ac38b88c5f41a
+~ DUKeychainItemAdd.cold.1 : sha256 8c91debf41def93cbfa2f5594a55abe52c99c99cd07bce453fa1995d939dd813 -> 5cf591ad39e70cf96643a3eaf0d6406b939068692daef49e4624220dacf628ae
+~ DUKeychainItemAdd.cold.2 : sha256 98b67feb4c77d3f78853159a8d67eb9e351e46336eded04610b30042663bbbb5 -> 7cfc8231689391c57bbdb336fb919c9c13559d04e3f841ff77bf7e09f708c5e6
+
+```

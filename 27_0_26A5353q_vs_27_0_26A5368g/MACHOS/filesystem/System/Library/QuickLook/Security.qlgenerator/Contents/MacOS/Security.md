@@ -1,0 +1,57 @@
+## Security
+
+> `/System/Library/QuickLook/Security.qlgenerator/Contents/MacOS/Security`
+
+```diff
+
+-55219.0.0.0.0
+-  __TEXT.__text: 0x3348 sha256:a81c39174023d519948dd44be2d64f42a7f661396bc4ca243a941a0a9a0e38e6
++55222.0.1.0.0
++  __TEXT.__text: 0x3354 sha256:653e9c361a8b6d50e8ba7562f4e0f288a00e1538d3c6a10240ef1cabe16648cb
+   __TEXT.__auth_stubs: 0x370 sha256:9d321955f57c19c83574ab767197b4ed86e056bf032c2056ac05f604472974ec
+   __TEXT.__objc_stubs: 0x8a0 sha256:35d05b0666ed16de44fa6cc81f1020f49076a5e591beadf3f24e56be4b5dab55
+   __TEXT.__cstring: 0xa65 sha256:3e91663b2f2a20af41f67f305a4140030129e0ee24b6bb23637108c1b336e7a0
+   __TEXT.__const: 0x1c sha256:502c3c49a79d60d4259153456a07bd4ab0828ffed2f617022be8e033ae6642ef
+   __TEXT.__objc_methname: 0x531 sha256:96fa2b47f34ea5e73cffe1949cd6946ad834ee448b468f4dd7295e4992c8fe19
+-  __TEXT.__unwind_info: 0xe0 sha256:2093f9ab54356ec1fbbf50d3587cf59b21f724a8827d8ec7b2bc98e4072b81ba
+-  __DATA_CONST.__const: 0xc0 sha256:f1bfa265331ca33beaef809789463bc7fd5f5ee03bc5377026a31391cf751bfe
++  __TEXT.__unwind_info: 0xe0 sha256:e5f0da2f8cb4a3d1ff9b07da731953451a64a27ab4ec1e412f684ac9b3155737
++  __DATA_CONST.__const: 0xc0 sha256:3b03837af7282f0cacc3e82d74f41745685c015a26cfcf1dbb2d151cd2bd797a
+   __DATA_CONST.__cfstring: 0x1080 sha256:225a805087bd6b48c5baa6b0403be1fbcd8e1413941e8b31055c1deca415e81c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__auth_got: 0x1c0 sha256:5d0c61bae70857102032c6a63ff074af428343752f96cb591743e0de2b12a64d
+
+   - /System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D35691EC-8C8E-30AC-82A0-35902E86DD7B
++  UUID: 43BDA8F4-479F-3B5F-8782-A54C5C5A3BAF
+   Functions: 34
+   Symbols:   122
+   CStrings:  334
+Functions:
+~ _CreateCertificateFromFile : sha256 2fd76f8a079739b7dc0e30e13944d3d6bdee1be01d17b96d4316527cad3c931e -> e8a532762c7ed06a20dc467b192ca894254c2ca9efb6e7dd7a86275f96292370
+~ _IsRootCertificate : sha256 84f6407036597c61d7d9bab895cf616f7a7f82b911dcbab3cf89af4c7264a88f -> 9c1fb3c0fc7a486496d7cb7cc5f3f65672a46970f0a4336e7246d7c925492c86
+~ _CreatePreviewFromCertificateFile : sha256 01c42b4351108ca22067dd026172addd319140531edf4b1a0eafcf9c92594a1c -> 78912e4f85a00acd352b59d6e96ffb8de026904c7f44d5ded55e6e101d3ff958
+~ _FormattedDateString : sha256 5ef4d7470f406c7017e3c8d0b12dd7dd13cd211f1699d1541573baf2edacbfdb -> 15252e039c419fc1c9da1910496fbbe179b568a4e9471306b1e197fc196f2682
+~ _CFDateToCssmDate : sha256 45a7d96a66b78ddb7f813c5fd1b1ecb837e460b233492d617b15fce315cbc4e0 -> 954678e9aff0e909366bebe03d573f61d5bd57bf4413ee44366d7560fc00e6c0
+~ _CSSM_DATEToCFDate : sha256 01f6c6f0334dc0a305a68123054c077a7262e089555bbb25f29fc008bdf0ead2 -> bb1506dca9b456143c63c15a17f60aeae20ffaf6b8648da6d21702cdebec8d12
+~ _CssmDateToCFDate : sha256 fa58678d2d8d7d46bc216d18740d9a02b6f583e04daf1dc0b543acf3547ad382 -> 5fcff3289ae9b2c788dbed54ffd04c061ab4d15caf48bf05b7f5c0bd7df1a553
+~ _CssmDateStringToCFDate : 740 -> 736
+~ _GeneratePreviewForURL : sha256 5cb1a015c10337be83ee053eca1afc942aeb6c22a00eab6e9dee9ff5019ebea7 -> 311318a2f8e60ec7d12c5ce2641835779d15effb437053a260f8eb8f2cc0cc75
+~ _GenerateThumbnailForURL : sha256 3ab8a6856fec47d23f947df690027bdf394c4ec07887f9c2f719a26c5f597739 -> 7e669404d9fd2540bc0fc292306129fb34e6c7b6eaff931ba50220d7e9b284f3
+~ _DescriptionString : 1120 -> 1112
+~ _ItemCountString : sha256 b04855f09d55985c697ccb0b10cb8fee1d4bcc332298ba42264e60444f63e443 -> 740bbf20c50f9f97c538a3b3bc3147b943e8e70df2cb5fd2c41c72f933f384a2
+~ _CompareItemsByName : sha256 2a2b0d75addf00c67ffe9e47189daff35d7f3f8b1faa0f26007340118ef274ea -> 93cd3093cb66837a50e15baabeb00b5e01ccdf1de7360db39004b9e480881992
+~ _CreateItemAttributes : 824 -> 828
+~ _CreateKeychainItems : 272 -> 268
+~ _ShouldEnumerateKeychain : sha256 0c2b3bc5f1479bb56cd775f62538d9bee8bc4adf1f4796d3d1e05f2b7d560282 -> 1cb1e9dc8bcbb09901061a5b8d9fa0471da4e51ce8b0a3939987ac0e279eb7d7
+~ _CreatePreviewFromKeychainFile : sha256 702092108dc3663324109f804cb21eb9b94cfbe5cb1beb4ae0dab211a392bd2f -> d86b19111d3636b34fe88b044baaa8722492fa5c5a3c8693e6ea5b7e0c0529d2
+~ _AllocQuickLookGeneratorPluginType : sha256 d83e70e153be7d61c5303f1deef976a23533f1ea1ee5d7ea1e6ca61d55e35065 -> a5332204f8ebee2d647ee732eb83acd330cc3cf8042993d048e729e569ffe50b
+~ _DeallocQuickLookGeneratorPluginType : sha256 8a7762e00c6de579daadaabe6e12bec0e4c873af46e6f61b4e8c972674c7a04e -> 67b7b12e6d9b973b92a9e84bed00a4aedbeffcceaf0d08907e9a8944a0d32b76
+~ _QuickLookGeneratorQueryInterface : sha256 5bcd37a95339a5f28dcaebbc9d14ff505a79f12ae985283fdce3fddda7768451 -> edb2b1a1b83d51aadbbe36608716e74cbeb2f40f6e1f761915fe1b662251361c
+~ _QuickLookGeneratorPluginFactory : sha256 160344507989fe262856beb540c378d0e82453b8144ea90ec20f25a38e557057 -> 04b689a69d030baff70b934ea3456cb7fe35c77fc3f6504d69708b312c617c48
+~ _ParsedUnicodeStrings : 316 -> 340
+~ _CreatePreviewFromPKCS12File : sha256 5d97a5b4e00f15dddcbd551312cc1d1b4d789b7f03699cc38ec7894b713a0f34 -> 9c89a1de6880b7354d336a7116e6516e5e69ec33c6fb59d6b579ba300feca57d
+
+```

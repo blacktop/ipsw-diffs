@@ -1,0 +1,90 @@
+## EcosystemUI
+
+> `/System/Library/PrivateFrameworks/EcosystemUI.framework/Versions/A/EcosystemUI`
+
+```diff
+
+-11.0.0.0.0
+-  __TEXT.__text: 0x29c68 sha256:6be534050b11ab38b4c1343cb93c0654e830ba3c7fcd0fba1d1638f1e607f826
+-  __TEXT.__const: 0xd78 sha256:c6e95d858b88e38c918730ace05d4b119d7fafc41b945191251ad91c55d218cc
+-  __TEXT.__swift5_typeref: 0x405f sha256:8a6190d277f20df9d03511922eb08fd55c3c61cc300813872895c8393c4f8e83
+-  __TEXT.__cstring: 0x6a3 sha256:a54d68ce38ae022713d17f40ec1d41035da46f66b463e10ca72bb30059ba9381
++13.0.0.0.0
++  __TEXT.__text: 0x28a00 sha256:211e7305bca33b62227acda0bff61b688fcc1d1580a755f6effe497baf278a01
++  __TEXT.__const: 0xd70 sha256:383629fb8bda7df87900b2745c91ea1f4a25c9b0d2444250869379bc481dfd7c
++  __TEXT.__swift5_typeref: 0x4053 sha256:4b1d19e04f7e9a576f2b4026a85114aa6f3d11b09fe6a680930bdf3f1e48ad6d
++  __TEXT.__cstring: 0x643 sha256:82d0480aea3971f41fd6600b158ed3ded15478a87ca64ab93533f96dc2d2e902
+   __TEXT.__oslogstring: 0x92f sha256:999163af493e5888e4d139a0b053a442ffc5bafbec8f451c6f025dc53933f732
+-  __TEXT.__swift5_capture: 0x324 sha256:4a4310c862fc35c466adeec43b3970de9119218ea615a936224a46e5d0eb473f
++  __TEXT.__swift5_capture: 0x324 sha256:c7d4262bbc4c3bfc7a0dc39f88397e8a7db7042b3c4b1351f3bb656236bf1323
+   __TEXT.__swift5_reflstr: 0x305 sha256:ca7c40f1ce6d5cb7b2bbcd70394fab2b31d4513b8c00b6090cc448056879f1fa
+-  __TEXT.__swift5_assocty: 0x78 sha256:7291ca433052af6e17b1de96cb8075d6507e102dd901875a6c4862cb42299775
+-  __TEXT.__constg_swiftt: 0x3b8 sha256:b0221916c19a44cf5ec42fe15c6f518e2ab57d2257a5e750c92030875a1d38a9
+-  __TEXT.__swift5_fieldmd: 0x2b4 sha256:e64db110b2692b6b4902d2923d8b5a7fa0b5b419c5a2697c816c6c66c31064bf
+-  __TEXT.__swift5_proto: 0x1c sha256:4e5368f53d8e78895b00713a0d4e6225206dc95b09fcc10b4b65d4cf81e23126
++  __TEXT.__swift5_assocty: 0x78 sha256:732061f73fc1ff6b0ab86e1d9484e7771ebbde23696a662944678dc4e8b6cb30
++  __TEXT.__constg_swiftt: 0x3b8 sha256:dc642b1d9970e2ad64ce04eea29a87883750b7f9f164618cd82fce6a3c2abb52
++  __TEXT.__swift5_fieldmd: 0x2b4 sha256:e13e01502c5a32813d28e91db8b2dd2dcbbb924d833e4adc190d85e7c6e4f3a0
++  __TEXT.__swift5_proto: 0x1c sha256:666b33d9f74d6025e7fea0004d015acb307f9f97f650c8b1b46ffe631c3c83eb
+   __TEXT.__swift5_types: 0x20 sha256:e109e4de8a08889cd63f5d9a0d627265e547735eff7573b2ca3955449c610f50
+-  __TEXT.__unwind_info: 0x5e0 sha256:f4860c983411f50f024d60040fba9307ea9906b5b5bd578348038a50ae92764d
+-  __TEXT.__eh_frame: 0x350 sha256:ea37a6e39860cf09fbfa412a43a53d11d7458c49a98c82c818e97ea7394ec626
++  __TEXT.__unwind_info: 0x5b8 sha256:992932e6803e49743a68aac0a77c2da874b0de916a84f3c2eae8810c6fd2241a
++  __TEXT.__eh_frame: 0x350 sha256:6bb1383233b58a63c07e5261c9ab1c416d36dafb1c3ce319f95f3f760a6aa93b
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x158 sha256:c7d0cf17fb80acc46cd47b31c905451f90a7e2f6573fbf9127bfc072e9b1bb5b
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:8fac9ed2ab6d3af73270b6df8bf0593f1694a0d8dd90b59561c43e9df1e8c6c7
++  __DATA_CONST.__const: 0x158 sha256:467d33ace75d9421425f9a56cb06ad781f1dd3cf4d39bd194be2331f465c91c6
++  __DATA_CONST.__objc_classlist: 0x8 sha256:996707b9d201bd3756ed967a5007e9beb1a4b0227b6ccdd2496eea484a97714e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0xb8 sha256:48ef7ad2c7616bedad0cf4cbd5cde0ac4fe391547405cd1b1e55b27a82884b6c
++  __DATA_CONST.__objc_selrefs: 0xb8 sha256:a41a834c4f82c8028760b1603c47af37c2801f49f4f210fe8122606c53643d16
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xb58 sha256:2c64220db668bc9927eac5cf23b12b4beefb2d0277906d5ae1f24ca380a8d1fd
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:3f59b7bd018c514481aa90577a38393adbdbcef33c5be85184de45755518217a
++  __AUTH_CONST.__const: 0xaf8 sha256:ee78fc884ab023c20bfb25104c6bfd4e9fbec440fcdbdd6aa0ee6f427b4cebf1
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:e00d76564b21c7078d3ef64d6656b02d0f10ac9f83df0b37034debb723654f22
+   __AUTH_CONST.__auth_got: 0x8f8 sha256:12b81f0e9e06baf8b74c51497aedd8eeaa89709595942ec8c63beb483fc6e0d4
+-  __AUTH.__objc_data: 0x50 sha256:54f7bee2e90afa547e45c00007d426f4ee5fe5873e9c77a095b214e10456823e
+-  __AUTH.__data: 0x540 sha256:46aaf8b8b7a376a9a49bd0ab4ceccab3f0211573ca472fc4b4ce1b96ddc6b2dd
+-  __DATA.__data: 0x790 sha256:3fcb1e1041f63f752bdebe8f875700003bd95e3fc507c2143555443c145c9769
++  __AUTH.__objc_data: 0x50 sha256:c8bf3053a043c9b235f0853044f83432eba8ffd7f9c40269fb18da69767d33f6
++  __AUTH.__data: 0x540 sha256:ad8f30b2bb1baeb1429477cdd292fcbe9b4e6c0ad1e8f6eace5625f050b86aa5
++  __DATA.__data: 0x788 sha256:59f4c13183ac051510c1eea1127c45540085a860875b07d4987d64ddbf46acbe
+   __DATA.__bss: 0x460 sha256:5cc201eb697e57027dcf74bac0995467bc9b787848be4c0d740956a97ddf65a5
+   __DATA.__common: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 48D195BC-C02B-39A4-A512-79B1A499F4EC
+-  Functions: 617
+-  Symbols:   427
+-  CStrings:  85
++  UUID: 0AB5E1D9-FDEF-357D-9B48-458606419253
++  Functions: 611
++  Symbols:   426
++  CStrings:  83
+ 
+Symbols:
++ _symbolic _____ 11EcosystemUI0A23SoftwareReportViewModelC09convertTocD5Items33_BF5AD0AE2374735BF5181EE93B2D75D6LLySayAA0cD4ItemVGSay0A025ECOUnsupportedApplicationCGF8AppEntryL_V
++ _symbolic _____ 9Ecosystem35ECOUnsupportedApplicationListClientC014ECOApplicationD6ResultC
++ _symbolic _____Sg 11EcosystemUI0A23SoftwareReportViewModelC09convertTocD5Items33_BF5AD0AE2374735BF5181EE93B2D75D6LLySayAA0cD4ItemVGSay0A025ECOUnsupportedApplicationCGF8AppEntryL_V
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 11EcosystemUI0C23SoftwareReportViewModelC09convertToeF5Items33_BF5AD0AE2374735BF5181EE93B2D75D6LLySayAC0eF4ItemVGSay0C025ECOUnsupportedApplicationCGF8AppEntryL_V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11EcosystemUI0D23SoftwareReportViewModelC09convertTofG5Items33_BF5AD0AE2374735BF5181EE93B2D75D6LLySayAC0fG4ItemVGSay0D025ECOUnsupportedApplicationCGF8AppEntryL_V
+- _symbolic _____ 11EcosystemUI0A23SoftwareReportViewModelC09convertTocD5Items33_BF5AD0AE2374735BF5181EE93B2D75D6LLySayAA0cD4ItemVGSay0A022UnsupportedApplicationCGF8AppEntryL_V
+- _symbolic _____ 9Ecosystem32UnsupportedApplicationListClientC0cD6ResultC
+- _symbolic _____Sg 11EcosystemUI0A23SoftwareReportViewModelC09convertTocD5Items33_BF5AD0AE2374735BF5181EE93B2D75D6LLySayAA0cD4ItemVGSay0A022UnsupportedApplicationCGF8AppEntryL_V
+- _symbolic _____yS2SG s18_DictionaryStorageC
+- _symbolic _____ySSSay_____GG s18_DictionaryStorageC 11EcosystemUI0C23SoftwareReportViewModelC09convertToeF5Items33_BF5AD0AE2374735BF5181EE93B2D75D6LLySayAC0eF4ItemVGSay0C022UnsupportedApplicationCGF8AppEntryL_V
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 11EcosystemUI0D23SoftwareReportViewModelC09convertTofG5Items33_BF5AD0AE2374735BF5181EE93B2D75D6LLySayAC0fG4ItemVGSay0D022UnsupportedApplicationCGF8AppEntryL_V
+CStrings:
+- "/Applications/Adobe Photoshop CS6/Plug-ins/Export3DLUT.plugin"
+- "com.adobe.Photoshop.Export3DLUT"
+
+```

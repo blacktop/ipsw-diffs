@@ -1,0 +1,66 @@
+## PerfPowerTelemetryReaderService
+
+> `/System/Library/PrivateFrameworks/PerfPowerServicesReader.framework/Versions/Current/XPCServices/PerfPowerTelemetryReaderService.xpc/Contents/MacOS/PerfPowerTelemetryReaderService`
+
+```diff
+
+-3468.0.0.0.0
+-  __TEXT.__text: 0xa58 sha256:ebc9c1c0a499dde796380144d75f2cb3330967452980ab605f9d09d14492dfe6
++3486.0.21.501.2
++  __TEXT.__text: 0xa58 sha256:1190e97733da91167d27fd949d0ca52938af0e5c5a4e108cca42e508538f42e2
+   __TEXT.__auth_stubs: 0x160 sha256:33f3a995df8e97a59914258263ed5c741ae9daa1bd2af741dbc3ca7aab0d19b4
+   __TEXT.__objc_stubs: 0x2a0 sha256:82ca1e74a58396e7f1ac67e5ca1bf4f366c604c14bbc814c1e3f2be04caaa48d
+-  __TEXT.__objc_methlist: 0x164 sha256:bbdea079b4fb2fb1bfc500f50052050611c3aa4a92af6afa8b2bb62277071fa2
+-  __TEXT.__const: 0x70 sha256:18510ba6e1ca961bc8bb54b974f7e80c0f50778c17626e46cfbef6baa6092481
++  __TEXT.__objc_methlist: 0x164 sha256:5725c9c7a494891da1343729542d11ad1e0187ad2b8c979ee89f9d15d2cfe9f5
++  __TEXT.__const: 0x78 sha256:7ac83ea42f0c361cf337e3d19e8254e7c75d4f04434823d3b51634883016aea6
+   __TEXT.__oslogstring: 0x11f sha256:5dff73a4f3c75bf53ecc4c029760b1d07275f335f121e664f3d575a523697e4c
+   __TEXT.__cstring: 0x8f sha256:476e71fe83425429d4b2e7f2a733d2b677eca89bd30ca20569b7b00c8db127bf
+   __TEXT.__objc_methname: 0x31d sha256:45f5052fdcea1070a58cf9a2a8220fe9cee286a336100350e174fe466e5f6f9e
+   __TEXT.__objc_classname: 0x6e sha256:ebf564e6bb7a0d16fa12763b4739c27edbe9d9f5c2473c1283ad3387a025c90f
+   __TEXT.__objc_methtype: 0x127 sha256:1099259947e4ec69f8a4cb07aa2ecd95705054a75355ec9406acf6627033a80c
+-  __TEXT.__gcc_except_tab: 0x54 sha256:4c16718bdfaac82d54e898587309c074af05acd882d6e4fca5b4af9544ea72e1
+-  __TEXT.__unwind_info: 0xa0 sha256:c4e4b633a2aebf8289d87d4621946601d2548b0a901a8b29af4669eaa8c16a25
+-  __DATA_CONST.__const: 0x80 sha256:76fec55c780d608a36ef726b00f89e44b56d68f11875803082ef19bb3c52b9cb
+-  __DATA_CONST.__cfstring: 0x60 sha256:913a30443eab45ef3f9c7782d393823a2bbbd826086d88f0d5e6b0e11dc02be6
++  __TEXT.__gcc_except_tab: 0x54 sha256:11ab4b74c26abbdfd1f880507e7b5c21cd24f9b5e5ad3620cee4a159f70123b9
++  __TEXT.__unwind_info: 0xa0 sha256:cfcf5b05918fca209b171df4d156b78e451d085c434007275ef3bcbb1f874aad
++  __DATA_CONST.__const: 0x80 sha256:558951913c089bed5e4259323b73101d95f91eb889b4ced1996e38787848e8f9
++  __DATA_CONST.__cfstring: 0x60 sha256:670e58b1469f7dded6206f12747057edb87dc1e2899c7d146a3ac9a836697664
+   __DATA_CONST.__objc_classlist: 0x10 sha256:8b53543db3618053dbb2274ef3cc5a4f792d3d1d0f9826042a4fe24151c27ab2
+   __DATA_CONST.__objc_protolist: 0x18 sha256:b8987fe77e18f42c1cbf8bd5556d19d1eb4f62add14534c2aa3e94d0b0e82324
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__objc_protorefs: 0x8 sha256:8115aa6851c1b337df03dcaf57933bb434cc3b08b1a74b32028ed5079f709bdd
+   __DATA_CONST.__auth_got: 0xc0 sha256:985fa772aec7716f087908fc4d0e63c86c7191bd6fa39fb48bbf949781207ec3
+   __DATA_CONST.__got: 0xb0 sha256:edbc491970f901d96c16de019dd0854b21d215599b510e8b1fde33509109d8f4
+-  __DATA.__objc_const: 0x2f8 sha256:f76dbedc1d07d8949925daae17e23a90394548ba502a17df64aa7fb4da7cca29
+-  __DATA.__objc_selrefs: 0x158 sha256:7aed931e966f0ec255d9fe383d3a60810c865041ae2ae9b0d45081568ba87eb7
++  __DATA.__objc_const: 0x2f8 sha256:ba0ad74311974d4fb505f858f65e1326d57be998f3906e62a9eb2f8366da1b8c
++  __DATA.__objc_selrefs: 0x158 sha256:f0a060263cd77550cf645ad7779e565740ebf5d249baf7465c95dfaa3cfc1bb2
+   __DATA.__objc_data: 0xa0 sha256:32b624dffdba7584cbb6edaf2beff7e7be943ece04f5a8ff3fab821160a98c70
+-  __DATA.__data: 0x120 sha256:124bf01959c4b542713ae917d9a36bf25095b51cf1c06504c2a2362f5fe945e1
++  __DATA.__data: 0x120 sha256:cebd8aaf291d011298630146d28444654b2d0737e8fb76a4778410e9e2b2022e
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/PerfPowerServicesReader.framework/Versions/A/PerfPowerServicesReader
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CED5B41E-FDDC-376C-AC2A-CB85F63D7EC5
++  UUID: ED68C4A8-443D-3146-9B45-ADD5F71D41E6
+   Functions: 15
+   Symbols:   59
+   CStrings:  87
+Functions:
+~ sub_100000cc8 : sha256 f3b2226cdb2d23c03b87cac7688a9e7bb992a4935729065209961c1f8f4e59e6 -> 11238f58a67f7309bb2848e422240eca757c38b7b7a72339a4edf03e8b88bd17
+~ sub_100001098 : sha256 c52f0096c64e5dc61079b37d0ff1a6fe0f08d48397e18c237a2d01145c79d91e -> b40a154b558fb6dc03f0bfdf44a5966ed923601aa768efcdd8b6cb3afcc70916
+~ sub_100001104 : sha256 94bb81132f31b0bcd9ec5be27cd6f3eb7ba37f472af52d2357149ac55f8de39b -> 9aabd994381ca85668758aa3d4bd76eedc6c7dbcc6fae56349314f8b4af8f404
+~ sub_1000011dc : sha256 3d6e6e96186f4a09ae85d59903989e34dcd2afcb69d1d230ec209cbbccad39b1 -> 144442a165ef7c91a6b561ff1945c66663eae64e93853066229f271c22359b6f
+~ sub_10000150c : sha256 51c59d104d3997456552642022a72fb434cb1e1ad76d34f82a128c0c96929059 -> ae02a655a4f56a617c333b499bb70957871cd29179f03eb04d8209a8f85ff94b
+~ sub_100001568 : sha256 b704a948096844a68f5c843609e00ba9df5d03cc6b5ce586fabbc451c74131af -> 76ff09da9efc191e7dc73e4c7ebb26390b0bf951ee77cf0a25d16e161670d1f2
+~ sub_1000015a8 : sha256 68054cc8129f8b6a1a92c17943915a006662dbdf6d59c30c6a62e81bf2061328 -> dbadd8cb0a58285acd26df55c7490c689fbbe27dbbd317fe4c8ec58f07e26879
+~ sub_1000015fc : sha256 fb443c66010fa82d1ab42b8568776e5345b4b755bb4e246b920823420f4a32d2 -> 1bb421b97b470be97cc0017d02fb32ed7ab52a1bbc8fe9706836f6624931247b
+~ sub_100001648 : sha256 91561c92b44e1d2b6aa53d06f60fd34db069c521f54407951f2b56b7f6adfcd3 -> bf873941a0bfa42f6b53e84d1d7a1b0cc09abc87e1e8560bcf531bd11ef73940
+~ sub_1000016dc : sha256 fe421dbc2f6681bbbe639dfe7f4d7d6fac9c4a182839d8eafa565f901f5cbef7 -> bda616f2c55bd8d189be7211765d00ac6c0bb4a02ddf6fc4f61e2896803eff84
+
+```

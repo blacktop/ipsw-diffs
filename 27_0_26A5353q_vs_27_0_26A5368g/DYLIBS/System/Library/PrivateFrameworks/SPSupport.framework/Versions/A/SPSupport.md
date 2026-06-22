@@ -1,0 +1,206 @@
+## SPSupport
+
+> `/System/Library/PrivateFrameworks/SPSupport.framework/Versions/A/SPSupport`
+
+```diff
+
+ 1167.5.0.0.0
+-  __TEXT.__text: 0xb1e0 sha256:c2c939458d734ddb3913c089f3a762f83e4cdfd6249dd134477d8bdee47f2db2
+-  __TEXT.__objc_methlist: 0x4bc sha256:18028fb0962e52355b3248e0d2cfa8394e9a44eb522fa335f50fe6bd7b6d2d96
++  __TEXT.__text: 0xb158 sha256:d60a8b27b7d4f2d97b2dda81752fb264b24ed5da3107db4355d634699b9c3c55
++  __TEXT.__objc_methlist: 0x4bc sha256:42e588717a18d566eeb15a91c6e14b9e82bb8256e4ca5ad27c77226f491b23ff
+   __TEXT.__cstring: 0xacf sha256:68e593ed323a55ad4bd7b617c20abf247d77831762e779302b808405b2fe6c9c
+   __TEXT.__oslogstring: 0x443 sha256:1a6c6c3aa3c5a88f386c1bcb96b26f92472e187c2a6905612115ecb8893086ce
+   __TEXT.__const: 0x58 sha256:10efaf469d090d7c637cd8f3c635585ae6fa2aaca62e7f61f05b2c4910686e39
+-  __TEXT.__gcc_except_tab: 0x3b4 sha256:5084d5a2952c30b41c10cc08703f37b0efc0e66674f4ef74a7206b4e626691d9
+-  __TEXT.__unwind_info: 0x290 sha256:c5c2eb8f2772f76683f4a5de5b25fb8dc1638c097aff27bd455f6502b46200c1
++  __TEXT.__gcc_except_tab: 0x3b4 sha256:a049fff486e2518020bd33e6c42b5b0c2e5e61f7d848f952c58db6929d096f3a
++  __TEXT.__unwind_info: 0x290 sha256:681bce11355e4250b9a4575b84b51e00c423fd15f7facad4f2f7d3bbf457200a
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x58 sha256:5cc7aa3fb75d121b7858e11aeed5d40a272e7f7f03b0cc3a647780efa9980260
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:f0bf693e335eaef47c157899bec17e624a03e330f8ef24c3587c078bfacbf71e
+-  __DATA_CONST.__objc_catlist: 0x20 sha256:4371f515da0acb8c080e21d042afc68120955c046cce84d510e277f6f2127355
++  __DATA_CONST.__const: 0x58 sha256:5b52ea64316c3dd1cdf2e4800991a037a428394b2486c87251096f44b03d1e6d
++  __DATA_CONST.__objc_classlist: 0x18 sha256:b02b92662e95d0e90b92bc5e7dd1df11e3bd65b969cd973912bd3babe9c311e2
++  __DATA_CONST.__objc_catlist: 0x20 sha256:ddfe9ae7306f500d2fb729cdbd332ef1972b31dd10c260f677d11e05695e6bf6
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x998 sha256:45244135a6776b474e2f700d35c44cfed248e5e589bb7aa96e41f0899964166d
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:f0bf693e335eaef47c157899bec17e624a03e330f8ef24c3587c078bfacbf71e
+-  __DATA_CONST.__got: 0x1e8 sha256:19dd956b2e9bb1bb6bafd37c081d31ec1efcb480a6aae6d752506f1ea0ea851a
+-  __AUTH_CONST.__const: 0x230 sha256:8ddcc52abf47610952bfb05e591eda1e2ccfb9acbd83d66f9acb43b081552568
+-  __AUTH_CONST.__cfstring: 0x1280 sha256:71a27cea96ceef7584c12f86d0665725596f4cd092bc43463b4a21ebf1477883
+-  __AUTH_CONST.__objc_const: 0x5a8 sha256:8779a7ea9422a902ac447992439d19d91005f29aa5d4cddc34a8f06e751b58ef
++  __DATA_CONST.__objc_selrefs: 0x998 sha256:7b729293ba71bfe54e526469045a18e24200eb849e299859a958457c78c63210
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:b02b92662e95d0e90b92bc5e7dd1df11e3bd65b969cd973912bd3babe9c311e2
++  __DATA_CONST.__got: 0x1e8 sha256:bb503f44e81e732d6e0323b9b42a3ffcfd9a81570a2d984bb0d738e826034af3
++  __AUTH_CONST.__const: 0x230 sha256:80a416db89487cbeb1e127ad8d9fae88ae19bfcc4517de2ffcc006f098bf5574
++  __AUTH_CONST.__cfstring: 0x1280 sha256:04ff6415b8475e93adcd9ed25aff15c28a638a3f3bf33694a310e609b290c2f0
++  __AUTH_CONST.__objc_const: 0x5a8 sha256:1fc7f5b788623bfbd0a2bdd2988cea8f2f811b7ae6326c34525c6004967ca23b
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:2547522241e46eb70c28c56eb95212ea2d0fb174cd4db6a9c852b96de8ece38e
++  __AUTH.__objc_data: 0xa0 sha256:bfd80c8f837975b16324cefa8cc1908ed132054d315462b5ebfcaa70a244b5bf
+   __DATA.__objc_ivar: 0x50 sha256:2fdf8b2361f977c5c33798c2e4b52ec17b02223b9e782e0e752f92bd378e6ed7
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+   __DATA.__bss: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:df527bded89b50243f3768b8840bd606d3f85b554950d9c9411d5a2bdb7dadb3
++  __DATA_DIRTY.__objc_data: 0x50 sha256:c5fccd1e049b4211f7afbc0663e79d2d512f3a8ba054bd56b8f44908f385a66e
+   __DATA_DIRTY.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libcurl.4.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 4B733B86-D397-32F9-9A9C-8740D8069674
++  UUID: 86DC03A1-121E-3795-9149-E59DEB5B6CC8
+   Functions: 147
+   Symbols:   677
+   CStrings:  336
+Functions:
+~ _OSLogForCategory : sha256 a30a197bcb844782d06d2aa2bd3cfd14122fd47af3f9f2008849d8389ae31aa8 -> 88a72aa8a44a6e7d1a3827c919b75a96eb0bfaf170d60ceacaee7ec57a2ebaa7
+~ ___OSLogForCategory_block_invoke : sha256 ba66e5ec6c3a276c82f25b6c093593aaf67700f2dbab51d8860838eebd06b4d5 -> 62284aa055cbb55d12facc94ecbd837d35079e30e58487ded6d48fee9bb03dbc
+~ -[NSNumber(SPVolumeSize) base2SizeString] : sha256 715d7378ac5667cc88c7333d32db194287b5e0dc0f6b54eb28b3e5e0d03b3575 -> 00f2c86cf1a82b52ad2f559cd4212709a7800dc90ffc93bb500e8a2ab063a51e
+~ -[NSNumber(SPVolumeSize) volumeSizeString] : sha256 36bc206f776991e241bd69eba7bec7fb17c844301c77cfe5cdd3b2b33440624d -> b590fcc7f13c86ef47c055bac4b4cd2501094d3eaee396bf1ec4d96e3b270d3a
+~ +[SPReporter isRunningFromInstaller] : sha256 dd4e20b7696874fcf7ba6397a1f7460ac2e5870299d7b298018d91e53789c324 -> 6681b264bbd91cbd9331105047860035254ff4d3501f593ca52439047482dc2d
+~ +[SPReporter reporterBundles] : sha256 63fac73c1fcc5263d06e12cb67bc3a958250debcf018b9814f1bd27badc309d5 -> b427d34c3ca29765de01aaaf0b8d8fd4682c0cd92a1a7b975fbb3707989efdf9
+~ ___29+[SPReporter reporterBundles]_block_invoke : 600 -> 596
+~ +[SPReporter reporterBundlesForDataType:] : sha256 acb3db1a080273821ebbaf79fb87d2cfa4a71cab883d5132f856fa67ce33a583 -> 7da9c637bab2adead4a62cc4ed379396360bcaf7be27acb14840e96d89546a0c
+~ ___41+[SPReporter reporterBundlesForDataType:]_block_invoke : 500 -> 496
+~ +[SPReporter sharedReporter] : sha256 2fba4c93714d3db46ecbae809813f3f4d2296fb1538b7da059732e4ecf7d70c4 -> dd41ead3d7d9add61627dec2bdf81b1165c2d6c8d0b62e6899df8b2c8bd8698b
+~ ___28+[SPReporter sharedReporter]_block_invoke : sha256 86573b6b21a60a4298a4356c56aae89836e05f11539d4a2dfd2369cf9fc54fed -> 295b883d67261cc6b455a6e1528ca7f5db77447d0c3f735929647e7091ef513d
+~ -[SPReporter dealloc] : sha256 d0a74c76d6dda1287f0c6c5dbe2c878f324222e7dba72090684246ea08d7ff1d -> 57ba9a69c43f4e447f55924578cfac1f7e013c5dd8129bbcb19671bd25ea77e9
+~ -[SPReporter bundle] : sha256 9708263cca3ca9c35522b63cd5114132ee5e9a625295ab0b7c186b2c728d8a81 -> 26310ae86c62c81121173da2fe24af6ad83f7723a03df27274cc3744cfa47932
+~ -[SPReporter propertiesDictionary] : sha256 ca5b8cd4aa6c9491b66d6d6cc3568a1e30b43642c212b599638c970a89431c14 -> 47fbe183b1192fbd2950cdba83037d03c71a570585e773e5398e113adfb20476
+~ -[SPReporter updateDictionary:] : sha256 81c6f44f10921c48c34048022c9cfd4e22774b24cd7e059da5f0e25082827dc9 -> 53c78a14638745a395c2e29040da0a14edbb0f38fe2bcceada6b3c032964c11e
+~ -[SPReporter localizedStringForKey:] : sha256 03db84bb707bd54a8ddfd58430ca2fad664f8bd78a4a7635b096a0055644669d -> 012ee67c2dd86d91180f1b2f40f0c7c85d9781e19e99b232b46ad8b7f1a82c67
+~ -[SPReporter codeSigningDictionaryForURL:] : 872 -> 868
+~ -[SPReporter .cxx_destruct] : sha256 e3477fadf0df7632e9833afbd8a308d887ebea8127d4193d0b577420f27c7394 -> cc42b31cc4b02c216ac21fb21bc893b7f079f2f5eec382c905cac0299fe7f0b9
+~ _OUTLINED_FUNCTION_0 : sha256 6e2c9394f302f0e508469a9ae64111fd17c469bd06e002fbc1f13427d4cde978 -> 40cbb4ca75fdcd34d2f3d78426d79846917f3e2fbb6c8d56fe345335b742561e
+~ _OUTLINED_FUNCTION_1 : sha256 a5c2b33be2d95c6821966da2ccb7192aa810127a97a2332ada7a11b778d28725 -> fd90b9a33e8c3ff9be935d3480d0c9e6bbac24c984dd1e7560e353b8dce6f4be
+~ -[SPDevice initWithRegistryEntry:] : sha256 4006aa30e95a27e37bb61294f96976e8ff464f297322f7209e690424f0fb0408 -> fbbf8f0643715c63e040ee88af7f1a576eed6d2bb7b6b5b1b9630435494fe888
+~ -[SPDevice dealloc] : sha256 b79efeb07c2419b575bd4b3cfeb22d4600327e2ff2d744cf1b95f5ff3b9a25b0 -> 830b98592266b173af12d618685459f12fe536c45181eb3a75a1cfedcd940534
+~ -[SPDevice dictionaryRepresentationForVolume:] : sha256 095b6c8084ada11a271292ebd03370ad72764aea7b0a016052fc0ab4fa102e9f -> 541cd6d61cf379b24926fa5af8f170159376d86c56a808865f3ac605ba661c4e
+~ -[SPDevice anonymousDictionaryRepresentationForVolume:] : sha256 3d7d4e53c59ba2213818c56bbddb0150aa6fc48a91f21e679d0bb3e5d852da17 -> 0673ad12a1b09c75561176c6d5a77caf5831fd9ec32965a1815a7982a93673a3
+~ -[SPDevice dictionaryRepresentation] : 1944 -> 1936
+~ -[SPDevice deviceACPIPath:] : sha256 7ab4d4846830f1b9c3f20cf4e898084505816c5f4647b492016e693049349904 -> e99b27ae5a3a4efdae561bf17668aa996f50816cf805cfd996f63a78a1516aef
+~ -[SPDevice devicePowerState:outPowerState:] : sha256 034396511beec974f034feb9cff4aa58c90da54d8da6093b93473c4888c61324 -> 1e800419e1227764607a9c4a48e1011649847f74a235dc837269e9e484b4545b
+~ -[SPDevice children] : sha256 6e8e9e522684673f038d1d2c18f2caec33d655fa9dcb1c6d450f5b82be85f8c0 -> 81ca63a5540c806e568dbb51d7805ed7937f25a9f89a82dd256696b814ed9c2d
+~ -[SPDevice setChildren:] : sha256 ba743eaf74bfc402ac57745da842a92a05c907dc4247a4dd74f66119283ff13b -> 36ffa5e7d85a56dff10b86342dbdac3bca079116bf269424f5a49c82c25d53cc
+~ -[SPDevice .cxx_destruct] : sha256 416a359da048f46d8577708f8326ad03330e3fc289d633e9b84ddc6dffeafcb9 -> fc14568b5cde9165ee45dbddae2f16282bd55a1d5d958f4049256ce48115e58d
+~ -[NSData(SPStringValue) intValue] : sha256 bf34da6ecc8bf80fa589fef7fccbf65c4e457c4b65c1bd0591aaac1cbf9cf53b -> b0f6f7070b770ab04d6f8d2bb11f2909461eeee54262ad647fedb0d3973aa009
+~ -[NSData(SPStringValue) stringValue] : 548 -> 540
+~ -[NSData(SPStringValue) ipv4Addresses] : 268 -> 248
+~ -[SPDocument init] : sha256 ab64cc6e5824bb3a86b86451cc9b2744653b8bd5a4eeea0b7f3f4e0100edd611 -> 64488b25be6d5b8f239dc4f488564a8e76a6f1cfcc95a20c65d6973cc032dd4f
+~ -[SPDocument setDetailLevel:] : sha256 388715d0d5bad56b61b525f9e00625d2e65a22548c18b8efcea37aaaf7226f6b -> 4f6953fb56ef10bcd905c60f39584e7234271025bf7a0abb062fe8be3ffb8290
+~ -[SPDocument detailLevel] : sha256 d4ecdbd9b842ae16b8e2f1360fd988d7a590a059eff7b89297898d955d3f1dae -> ed103e05bdc2457c8a855942ba650d2fd8ef52a2a7beafe7fa8ec0d76bb05798
+~ -[SPDocument maximumDetailLevel] : sha256 27eb10f1cfd7fd11423205b2287070a1604ed0c4a8941f488f94c16a830e41e6 -> 4dae19b955314785a6c9970ec65737c416f152be799c73febeb444b70799d22c
+~ -[SPDocument obscureBluetoothNames:] : 660 -> 656
+~ -[SPDocument _enforceDetailLevelForPlist:usingProperties:] : 936 -> 928
+~ -[SPDocument _addDataType:parent:detailLevel:] : sha256 5f402f8e070c62a05b24e9f618ea6b30fc70b87b8b52bf62837cd78105e4754a -> b314d225febbdc076442b64545462429e0ff6c3821a1475826aab5c44547731f
+~ -[SPDocument dataTypes] : 932 -> 924
+~ ___23-[SPDocument dataTypes]_block_invoke : sha256 96b1485016ec799ae8f46936b7a1a372053be63cb05efb4cfd5ce038a20b003f -> f6054c5b76a6d804d3363b7184352a214ef7c820d24e97e71ba073a0e41b26b6
+~ ___copy_helper_block_e8_32s : sha256 10dc83df8d6aa660b577183a68bbc8b597644091c15d97bc7ea9c127462f27f4 -> 65eacf8210e4ab5a5e243c73a55b2f7a32dfc5a390020053788f14f1d3212014
+~ ___destroy_helper_block_e8_32s : sha256 2d66e8a185f5c6da20335b852d0de65799ad6b6caf1be1c10ffebd9782082556 -> b64bbfcfed702a0f3ebdd1a3de9f03b9e2742d8913d4be7a3523f7766bf8f6c2
+~ -[SPDocument dataTypesWithParent:] : 596 -> 592
+~ -[SPDocument parentOfDataType:] : sha256 a1bf1a646fb9dc24e3b76bd541c6f0834c284ed6bca228c8ebceed4c8ce3fc10 -> d820ef066a712df2688a103dbb88ec461408d7471f3263f9cf5d769dd74f7da0
+~ __comparePropertyOrders : sha256 f1e0ae50b8996050e10dea0e22fb6fdf2601196018307e79d1ef5effd1c43de8 -> 2fa06dbdc389ab70978d43eb8cf74b9d70ee41de9c19f61d6a3b185db4c184b6
+~ -[SPDocument propertiesForDataType:] : 556 -> 552
+~ -[SPDocument orderedIdentifiersForItem:dataType:] : sha256 b8f28ca80cd433e8fe36d329342725195497cf48c43652b82590192550186cba -> ce7784140fee89b2665da0786e262e5a7a91bc7721db14aae9bb5857751b1e0a
+~ -[SPDocument _setReport:forDataType:] : sha256 a0a33a9b4a551cae4a067fdfe1b488c2eb2444ea01d5ac0fd93109f4cb3cec6a -> 7e520fc2d158a66fe507a7d5909cc54fb00ae416f7dda49e5c5b614d4a02a0f4
+~ -[SPDocument _reportFromBundlesForDataType:] : 1056 -> 1052
+~ -[SPDocument _reportFromBundlesForDataType:completionHandler:] : sha256 9eefe8d4835762a31c48c8a9f920d63094b58553aa934146d38f9d142e2d5af2 -> e7b764272e4cf8ebc55d3946c7d3a828feb895def395759e56f43ceb00fe8d3e
+~ ___Block_byref_object_dispose_ : sha256 79066cbb4b1a1abd51dfde6c96a52dd5a62f369b2aa55a265840ae2c095745fe -> 9550cbf8dc5643fd228146443ae88a88df5ff3f9428a53f85ee7857036f6b008
+~ ___62-[SPDocument _reportFromBundlesForDataType:completionHandler:]_block_invoke : sha256 175d4e9e42c8cc14f618f39672ccb535539a4e3089e854ba35f52adad0e87cd1 -> c133e75918de10df3ddeceb9c76149623ef118c11cd036933645ee0afc5f3ae7
+~ ___copy_helper_block_e8_32s40s48s56r : sha256 76897c8701d069bf4c6bab595e7d05e197c49ac474e5bd30f17b32b3e8794686 -> 9244d48206e3627f99cc4c3fdfbc0188878412887f78b9b5496aa1b2fa01f3d7
+~ ___destroy_helper_block_e8_32s40s48s56r : sha256 1c65ee1f4a146d9e63267506dec60b1fb7aaffaa857433f9d27afd89d1070f23 -> b9c28ba19fd35682eef34dbcfbbec407fb87d78ba4377ac8b27d1fd3f068dff3
+~ -[SPDocument _reportFromHelperToolForDataType:completionHandler:] : sha256 2abf10fd536166796b4aa75b23f7782412194e1e0533da4e7cda0edddecb92d1 -> 501a71c6b07953f68b05c5925ffebf002759d84ce72e4cb498d21cd3370c7f27
+~ ___65-[SPDocument _reportFromHelperToolForDataType:completionHandler:]_block_invoke : sha256 2d15573d2f3007ebd1966559a853a5d1c4ea42fafecaf715a77318e60b43ffde -> b1bb25f3aa550f2086ef4caaad6f4d9b538e0d32f30ef561f190842eb388d1ba
+~ ___65-[SPDocument _reportFromHelperToolForDataType:completionHandler:]_block_invoke_2 : sha256 36879a411b4b0a931c6d8f77fdfbbe74b26b9c50293bc3eb6ba6845a186579f2 -> ef3c1062938dec78fb588aabe9eb06b64859d96e2717390f09566206d60f3905
+~ ___copy_helper_block_e8_32s40s48s56s64s72b : sha256 a0caa4d24ec17e8ffd71bfbb1ac74ae60090468179c58229665a5743d8c4c0d4 -> 8a147865619b2775133f3fba54ea53ff9d355b70abbd9ce51c94709075de7b23
+~ ___destroy_helper_block_e8_32s40s48s56s64s72s : sha256 249cdea74737a18582e63a4852dcaf396249b00f6fde8c5cc0b52e9a38790e63 -> 40821c6bb61551ea1f77153749b82a6c4da3e4a6bc27a614cfb8ce92a7a43071
+~ __65-[SPDocument _reportFromHelperToolForDataType:completionHandler:]_block_invoke.141 : sha256 b016f8e9e70fbcc5b5e8f0cd0d4da0ecf2d2225abecbf2b5720af7235acafae2 -> 48079873cc23f95dd634e45ed8c516850ea2f96317bac50645e600ebaf818bef
+~ ___copy_helper_block_e8_32s40s48b : sha256 501166b3f5ac8f6dc34eb0b333dd61834c40ae05e71de7554b3453cc59be3e92 -> 7f9d8490a9debf0e037be56203f09810a746c69c1292b6855951d6d036ac4b54
+~ ___destroy_helper_block_e8_32s40s48s : sha256 b306763f5172af1298043fa60f3afe6a60d549a3c8fb1c2f718b3f20bfcbf0dc -> 84ed4b855cdc167e92938997e82f3e63db051adcee2649dffd99214e6ba6d0e1
+~ -[SPDocument reportForDataType:] : sha256 1dc14a741f19bfdfc8a691f885dbf36a24ebac99950d183272004bad229aad10 -> d15ccb5834e94e48ab5542647727e8cf0591a46988466e851dc63364a4b1a5a2
+~ ___32-[SPDocument reportForDataType:]_block_invoke : sha256 11bf06ee076170fc833109503910979234013096a601aeb575e48d97f8d0ee0a -> 2ac891024b7c7eb2a2bb46a80aca6bf9c7e7ea7de1260163063d516f03b4cbd7
+~ ___copy_helper_block_e8_32r : sha256 98597955d0a7fd4974311af992005e33e5433248c162ba5a911b35d33f04c6cd -> 532f0c36a1226528738eb8cc96288778faa4cdf75003057371e450fbe345256f
+~ ___destroy_helper_block_e8_32r : sha256 89d9896f71362be09d8ff8108fd8ae6130ff3525dc32254c7dcffcd874f33387 -> 72fcfac35353068b1121f67e584734c82e13b22507ad77fc2d9eb86bb802ea82
+~ __32-[SPDocument reportForDataType:]_block_invoke.145 : sha256 f098e29df8b7d8270880d6de33f593cee948ce183e212e34c4fd320955927ae9 -> ef38dfb8633fc0730c36a8522cb4234789aafb77c1b132dd31b41fe9f38f27b7
+~ ___copy_helper_block_e8_32s40r : sha256 b993aeb83f6d82e58bbb2247fd74cf860570829b8ca50b47106a4918c96cf26e -> b27a867586d4c12949bd75e0c027409c5b289b06d2e480ec455608436e28ff82
+~ ___destroy_helper_block_e8_32s40r : sha256 598b5f0686ceb1eec2f3e038ced1c467001419fd4da917abc76d1fbd4dc2490b -> 849d97c4303c681f8d5dbc315a6d5c227827b2483d8a8df826e4a8f74084bec9
+~ -[SPDocument reportsForDataTypes:] : 584 -> 580
+~ ___34-[SPDocument reportsForDataTypes:]_block_invoke : sha256 fd584c62a069eca6137ac9cb0e83bdebd08dc996b433ad46e24ec85d93ab9699 -> 95bcfed25dd33dc7f6cc304704c21e859777802653d31969a4054f8c4779b021
+~ ___copy_helper_block_e8_32s40s48r : sha256 af477d71f652e1c1543e5dd3ed6c39621c8d33f433bdc3a257568d2e1d04aa5a -> 4a45d95b678d691656fdd55c22c3f61699959f0066717fcd8d417284894b4952
+~ ___destroy_helper_block_e8_32s40s48r : sha256 41868327cf44262d4c36bbf30f4beeb602a207c2101331f974eebd7c3c952b16 -> 95a2fd985afcdf7e6643d3a89dd624e507e823f72c3dc47831fdf1c3d127a774
+~ -[SPDocument refreshReportForDataType:] : sha256 592291c409d329bce5d94ac3a3b67088af1f7c646ecc3d894687831ee364e759 -> 56726e5691cb20c52d6af94dccf46593142111662deff9bee76623d83da73220
+~ -[SPDocument refreshReports] : sha256 0656971765062f3361ba6788149b846b3172ab8100033ed2e04c39bd8d013d1c -> a585c698be6a2aa74b8cbaa6bf59b4d8335f81a656d50933bf2425d947fe42d8
+~ -[SPDocument shouldUseRightToLeftLayout] : sha256 c8b6860f4b1d5c887c656c8e90cf7aa812078379f6b4c90827adee537458c689 -> b35b420e7b9b157d49cf66e941309a7d59ce0aad42c986f3525bd9da1e44df67
+~ -[SPDocument localizedStringForKey:dataType:] : 1900 -> 1888
+~ -[SPDocument localizedDescriptionForObject:dataType:] : 628 -> 624
+~ -[SPDocument _attributedStringForItem:dataType:indentation:isUnit:] : sha256 450831a932b865b83905302782b26d6ae5620f620c6f810ab31002972a1b1e81 -> f551d1673f4029c8fc3a828987f636532e8dc4f8cbc07909de2f607628db4d40
+~ -[SPDocument attributedStringForItem:dataType:] : sha256 a1d872709938338b15b807d6e5fc4c488e1ae7886deac2298e0c48b6466208c8 -> 9f98aa65c73af49865fa437e464515a18a6c6d0d19a13025c8c62d74996d4720
+~ -[SPDocument _stringForItem:dataType:indentation:isUnit:] : 2068 -> 2060
+~ -[SPDocument stringForItem:dataType:] : sha256 57ab805d77130233d63e80fa48e381d4989e6f0423b67ec4a7f1c430f012ff15 -> 7a9434ff9cbeb86b5da3b4b2359c0328cf3ff0288ccc2792dac295be749f2059
+~ -[SPDocument reportHeader] : sha256 d8b3b399c3310b42a478ec2dbcbf63fab2f7a5d474193d8898e06bcbe1681385 -> 220754b9cf15e2a1aef348efb54ab0d036a80dbf2168155754177d5c0a18bf8e
+~ -[SPDocument attributedStringForDataTypes:] : 452 -> 448
+~ -[SPDocument stringForDataTypes:] : 456 -> 452
+~ -[SPDocument _xmlPropertyListRepresentationForArray:] : sha256 a0cced28fcba8ec0090b8730058bc77e7f79253ff327baa8725fb70a24004927 -> ddeba1ce8e5393b6cbe2eee10954e31c42c0dd680cc4fb4cf818de465075b003
+~ -[SPDocument xmlPropertyListRepresentationForDataTypes:] : sha256 b5146d71437c62bac6815b6e82183ca5c39f001a5c47ac673b7b54bb2cd67e9d -> da6033b20ef3c5c6e3951b22ebb9e60fe055edb498f060e62f7c9498f478fb0b
+~ -[SPDocument xmlPropertyListRepresentation] : sha256 80f2d29b342603dc1936cd7d36fd28e1518f5696afcdec728dfe00b66f25bc4d -> 248be9a3b7730b36b3f350a9accbaff01ac98547e230ba203a6e657c24087af1
+~ -[SPDocument plainTextRepresentationForDataTypes:] : sha256 addc19fa1d8fdb6b24ac47b68615fa58d6315a47ad6c59fec708fb76e65f9037 -> 3227e4fbb770935b2126942f7c4fdc8c0c1006ce6ec3d930f3ed2fe98e5baae7
+~ -[SPDocument plainTextRepresentation] : sha256 7f0f6711c9f2957e24278874ce02f39fd87f17a4a0713cac6bd4d5c6eb40f6a0 -> 8aa3dc5b9ecbb8f02da6695b3a668efed2a472575ce151506e4602b7ae0972e4
+~ -[SPDocument richTextRepresentationForDataTypes:] : sha256 e3a54f0185ff3c7b83007066798a93d03a9a60a183250b2a9906603a432cb371 -> 02c8eeb0ff4df39a2c7fffa65aabb1859b65ea87ce5d28e280b91380914e86ff
+~ -[SPDocument richTextRepresentation] : sha256 2a21269df659c4bd1e5f8352fa19d7d3db8c89165bb7b9afd9826c07e3a5003f -> bc85643b1c1f397d914d90e469df30db4fed69646fc24bef04b7e66bb9f25404
+~ -[SPDocument computerName] : sha256 9a0b0f23602c2f9856447d1c7a58193c41976d1f2c2684b5cf8f93fa722bf614 -> 957099312412305778423079ff8b5c98387767a6e2c54cc04f84540e56cd641e
+~ -[SPDocument modelIcon] : sha256 a205b62d9f500b8e2328aac51cd90d2595dcf4f445fc2636dc430f81294f3328 -> 993125a12cc0c880e27d74a2ff8f0d2759f23426ebd1948ca83964fdd6a355ec
+~ -[SPDocument modelName] : sha256 ba075ab9689e11b17162dd3645f4865da720b560298243f73893aacf03c73175 -> 3376cbd027fb3b3007070ba49469e0823503034a73da183b9315358ed1c989ad
+~ -[SPDocument serialNumber] : sha256 1d210c65a9c680b533ccb7d294ec15a65805a5fa934a5e1ddbcc11b1cffb2821 -> f21c02c53f2749968a5fa88b99b57ab2b179dbd60d5ea5ecbc809807fc7fc0da
+~ -[SPDocument makeWindowControllers] : sha256 30d9b3bf7921d1741813ccc85202a9cae0f222677cc52c3ce10b4dca6ed7eae6 -> 979696d6fa2c897fe86ba6fa816cc73cad7444e85d8b8ceffd6f77ef00c7e103
+~ -[SPDocument isLoadedFromFile] : sha256 47de501493b4cd8cdb732b270687a4ef83c5f7eb77b7d8d3c8f53bf3ef847787 -> 6a7b98094c21f1a0b89ad4cef44ddacbf161ee99a81f96206d00c3591d4c4a62
+~ -[SPDocument writableTypesForSaveOperation:] : sha256 80dd137ed95e7df20f7b414715762726ada56cc4182cc6ff62132d48c02ba6fa -> fcef29bfad3a181266a16972a7ffb2c0d4e86a2bc1d48a0c60abb2fb5b1caea4
+~ -[SPDocument saveToURL:ofType:forSaveOperation:completionHandler:] : sha256 d34cd4dc5ee52b49bb17c17c16bbf71f909c40a6dbecb6410e5c858e5554de26 -> 659b96d9d776fb5ae27487b7cc027ef515725151bac4ad5f0efa514819f7ae16
+~ ___66-[SPDocument saveToURL:ofType:forSaveOperation:completionHandler:]_block_invoke : sha256 a7f624fae822eebe044ae5e2e7371ecaa0d22a59f592750f22c61021b7ab0402 -> 7aa5afa1d6b815ff18fe217ec2132f1f57d6bbb1d768fb93042c37447b8098e4
+~ ___66-[SPDocument saveToURL:ofType:forSaveOperation:completionHandler:]_block_invoke_2 : sha256 26febad3134056cb5696adf15d631be584b6e79718f9df4e8cd380b65bac2ac8 -> fed6fbc26a76bf5cbf7f370a86596324b42c345acc785d97ebcf8e9cdc81becf
+~ ___copy_helper_block_e8_32s40s48s56b : sha256 6c27ed1a28d0167f76eeae5e5f6a0276b867cf80bfd4dd005c6e9cbb560787c7 -> d9e81f2784a0d2ff47c0b8874545a0998cb2184c06097bffb4350634cfb0c87f
+~ ___destroy_helper_block_e8_32s40s48s56s : sha256 ee146109f750562f15f24823f531079bc30f03f7f4338740e78100e846ed72e8 -> 359255a18f909214a01cc804cf0f138f48694d49851ee8b759000570ff37d166
+~ -[SPDocument readFromURL:ofType:error:] : 932 -> 928
+~ -[SPDocument dataOfType:error:] : sha256 2773d4b1afd546f11d3e96eef5c83a26b69e0c92d1042af46254eceb62ade397 -> bf0d6dbd8262345e04faed15670197113339011fac83049d1c89491657db1bc2
+~ -[SPDocument printOperationWithSettings:error:] : sha256 e03e9e567f84c6083ce07f43b8a275dd869cb3e3d88d145e373ab7f38bdf569f -> a19807e129419a60df580907e44d2fc9bef53d4c01b6cca674e6660bd77e2ffd
+~ -[SPDocument uploadToURL:usingCompression:] : sha256 9f9ecec4d05b359669575dfeb6e95a233b4636b0fa33fa093b14dc0fb881ea36 -> a80829052bc9f24652e3bca2b41e660efba21ffe698502ed0d802250708aa566
+~ -[SPDocument handleUploadCommand:] : sha256 a0cea5fbdc01acf90139949e6ee1fd2e10854cdecb577cb26b6696b9be9500eb -> 4690e2294b41e1dbfd9a71de114dd7ca6a3918f9747a72a72467f0f2b2d336aa
+~ -[SPDocument timeout] : sha256 216c5db090fcee59a60a35e44d1df7670e9260bf8afd061874072cb819e0eeb6 -> 8e45ed7cedc7a39558121da1685445ff9f54c55ce6dd7caeaa993927f12bd5d5
+~ -[SPDocument setTimeout:] : sha256 6e3a76b9de475d2c8c01bcfd395f07dc9439c4609f994ff5dd0804a438ce2bea -> da4f3b74084e0fa1cf8b79aa77709a971b8760c80ab03332e2deda187416e7fb
+~ -[SPDocument delegate] : sha256 96a5c00e64c5f639d9a878ba41e7fd8e24e674b44ffc5d4a1fb3b69cfb5b3630 -> 76cea588fd484acf515f71e8276793b26f40b2f4cc214539df2dc2e826a376ad
+~ -[SPDocument setDelegate:] : sha256 1242a78f684d3fc49c7779482c6566a547bbd8d8571acae226cba2b2aebface9 -> 8065f08f7506a99ecbe832d2aa71bd0c2904ede43227bc6039c3afaa88801b3c
+~ -[SPDocument selectedDataType] : sha256 b872139b2856126133a90330c7437f90f0fd014b2e3e5476a09f43b1fd68eba0 -> 9d85d1016da6e63b09b30343cf12157b97b9c88bcde15b86a9bf36da0db997db
+~ -[SPDocument setSelectedDataType:] : sha256 5d82d16f1378c8f634e47b2808f9a5abcb17b6cc77cf156e8d02aed215cf46c2 -> 813a94f1efd3b80cadd02c9088b315c5868dea2ccf7633fe5bcc209621474dff
+~ -[SPDocument .cxx_destruct] : sha256 3d73873f9ccbc52a718be0e667e274e1705c578c5864c37b61c2ff7f190eeff4 -> b1dea98081044d2a2b1ab22fd60c9c211c6679a57132984a037f3b95c5f84360
+~ _OUTLINED_FUNCTION_0 : sha256 3f78d2bd5b75e63dfa3bf77b839c7cb0081f19436fb8cd5ac469601db101769c -> 5503e81481fd6e175cc9fddc15ae13aaca09bd13e37f8ba35f07db0073c8df1c
+~ -[SPDocument(JSONRepresentation) _jsonRepresentationForArray:] : 704 -> 700
+~ -[SPDocument(JSONRepresentation) jsonRepresentationForDataTypes:] : sha256 46bf8bf71ceac6e457f400767b243ed9afc7a7b24c4f27529cf51dff11e488e3 -> 3b7e57a9845320cbae12e66e59d598327e914eec2bde6964f5d31d59a7128efc
+~ -[SPDocument(JSONRepresentation) jsonRepresentation] : sha256 aa532e557be0a15ee13e312fb12ab14f383a2bc108dd470709f4e04fe31f4e25 -> f551e402a8f6ce9d7e6a94a66b4e1fcc6a8f4c212081a87c72d2a0eb43809ae4
+~ -[NSObject(JSONData) JSONData:] : sha256 04ec3ecedefe0fed07ecb54c4d03f6988dbac119d20bf0b0ad6041e267df7a34 -> 6dcb35a9c503f3eb78d51aed8156eb2e8bd577df004b37b6b9d09a3a22919c9d
+~ -[NSObject(JSONData) JSONData] : sha256 0e6a4953eef836e0b52321bd16b230d279e04fce3cb8abe4fde0d890a0680539 -> 39a710008167d11f10d682d95a19924946a189b06ca1a15e68f3a6a3740a8ea4
+~ -[NSObject(JSONData) objectWithJSONSafeObjects] : sha256 cdba72cc3a2536160ed0daa899955ea65046f37b6a4d2ed0fb377a582ef5ec1b -> 2af4aca318e2395042987e79d6a26cfb020cb43677601a15a9f4d3b7ec8713d9
+~ -[NSObject(JSONData) safeDictionaryFromDictionary:] : 492 -> 488
+~ -[NSObject(JSONData) safeArrayFromArray:] : 488 -> 484
+~ -[NSObject(JSONData) safeObjectFromObject:] : 496 -> 492
+~ ___43-[NSObject(JSONData) safeObjectFromObject:]_block_invoke : sha256 6666492b265e58b88878df28f8bf1e03f79acc0cb7bc0c98d53a826fb2a0c8e7 -> e72d5955be27b211400974dd7183a75a76fb584a41582ee9183dce4fa01e8bed
+~ OSLogForCategory.cold.1 : sha256 c1eff07bb6b1804bc0376d99199cd68d71841135e04a5b0317649aa0791bd501 -> 29be29afa2a319697110dd0ae8a6e38bfe2ef4e95253554f07be8bd9d7fcc6ac
+~ +[SPReporter reporterBundles].cold.1 : sha256 2bbc7fb7823021ad4834706a30f167d9c0cf85d5c3945c7ec1925f6ed0099c9d -> 30dda6f41f5797880b9acfed44ff8a04032e98be03386d7e9860a139d5eb4e4b
+~ +[SPReporter sharedReporter].cold.1 : sha256 4664a0d01fcd16c177921b9a6794421c8f77e87e7c1b64707df233dbeb623968 -> 67dae0719fa3ce015e7d72998192eaa9ff5792d0b370e90858dadf2613f7524d
+~ -[SPReporter propertiesDictionary].cold.1 : sha256 695ec94a3b9cc25936501413c530fb6a91f6c1a811688e9b6ae5a06976810dc9 -> bc4c42e5cb5bc193e04eb56e6255dc8fa47685a9e9c7976b42edaedc0d4ec39d
+~ -[SPReporter propertiesDictionary].cold.2 : sha256 b088b513004e43e853fff77925ec7c5e523e9ce9e4e46fbcbb739e185c27408b -> 894e275914c948484d201dc3cb36885c50f3d5807034bd533f0d528c50c8bd71
+~ -[SPDocument _reportFromBundlesForDataType:].cold.1 : sha256 c344cde35428d056fa98ee219d9a0d8fab88f6d4b9e304feeb0198025a2acd6f -> c616b2e774493975cf139d5daa29318d9533ca4cfbe35aef5148d264bce9bf67
+~ __65-[SPDocument _reportFromHelperToolForDataType:completionHandler:]_block_invoke_2.cold.1 : sha256 42174e1ed0f58ce0d5a3166d50d05a6ba6c813f30fe61bb101c7112d777b41b1 -> 68652621cf5e66b8fcf733ca1f20a63bebc7b32fff5a229a5f2dd482339df2f1
+~ __65-[SPDocument _reportFromHelperToolForDataType:completionHandler:]_block_invoke_2.cold.2 : sha256 650fe28b810348716feb801dc498111af3066a1d1861a3f967eaa23c800ddc76 -> e343c261b24f38121958bcfeec10df947d1c9bfdb4cd4c58890dc8a173fc42d8
+~ __65-[SPDocument _reportFromHelperToolForDataType:completionHandler:]_block_invoke.141.cold.1 : sha256 ad6ecf3fe18279a2f58a2fd2ae9ff41f79e388a289b5539ecc24594e689e125c -> 65e41ecb11c2fd628582fa36c7a3559c514c705219bd19c19d2fdc5eff67c69e
+~ -[SPDocument uploadToURL:usingCompression:].cold.1 : sha256 cba7be233efff03042e851b3d088c10ed7ae0c980c70e2a25f2f39978cfbced5 -> 18243e1dfae102e80c0d30972e72af0d8c4b38018db0b0fbc6a80a03ae7dd4e8
+~ -[SPDocument(JSONRepresentation) _jsonRepresentationForArray:].cold.1 : sha256 d917ec9a3d5d8c16dfea9a8123138900dfc315dea5ff7dbe6eacbe4ee14cf1d7 -> 03bba839c119c9bc0146064a16b1513f73bf26fceed6bd74a63eae261b83e189
+~ -[NSObject(JSONData) safeObjectFromObject:].cold.1 : sha256 576acca131a5e35dd67f63e57592b410934c480a29f03d765a6842e715169398 -> dd91f7718b8b58e85d75a4f4da3e6e52140fdbae1cf86d90f4aa3a24730a9ee8
+
+```

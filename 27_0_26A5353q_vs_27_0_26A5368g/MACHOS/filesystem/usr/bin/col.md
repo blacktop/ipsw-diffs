@@ -1,0 +1,31 @@
+## col
+
+> `/usr/bin/col`
+
+```diff
+
+ 199.0.0.0.0
+-  __TEXT.__text: 0xcb8 sha256:52a29be54ee9636cbc9d19b1777e22a64c8f70bbb31082cb6eeb6f80655ade2e
++  __TEXT.__text: 0xcc4 sha256:c9cbb3a4153fb952d808884eddb11669b9bde126962296d0fbe8e7b45a957361
+   __TEXT.__auth_stubs: 0x100 sha256:1f0a2415ac5f85cf902410f3f2572d1601dd2fe1b44b985f56da764312e910f9
+   __TEXT.__const: 0x3a sha256:bec17e1e6c697bec127a48b8ab055eea34ba71acb7afc992ff9f5152574f7717
+   __TEXT.__cstring: 0xba sha256:e7a28c597dfb505f6e39e6e590230af0c037cd9f86c4087d2ceead76f6a170ee
+-  __TEXT.__unwind_info: 0x78 sha256:577a9991f9b220593c50e85806aa7fe47387831d0fcde108b20b355a26afd966
++  __TEXT.__unwind_info: 0x78 sha256:411e036f25196f9bca2e50c4e634b5b30b0947b1d3138845b93ea9539bc62ff0
+   __DATA_CONST.__auth_got: 0x80 sha256:5a9ae6f72847f05006e1dc647bdecfd0206a120350a97dcae4a451d68a7a5dc6
+   __DATA_CONST.__got: 0x28 sha256:4f397937b5036f68cd81be8f8e42f306e61073ed854bc38972573b438290ca3f
+   __DATA.__bss: 0x50 sha256:57c3c013ea9b0c960aa1593ca5de1f7e12117421c2e2aa40a531e3857af466ac
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 9D5DEA2A-AF8C-3C8C-9418-B3FFA532072D
++  UUID: 283AFE3E-03B6-3A86-B8FC-6A2E26AEBD6E
+   Functions: 8
+   Symbols:   23
+   CStrings:  9
+Functions:
+~ sub_100000588 : sha256 bd8ee1cff8bdf01b275100390583d47a18f9eb7e84afd8108b803f556f94a94a -> bbd9c7e72a72fb19538b2e86e3ce179f94f92f33a39bd56023f57130bee4a503
+~ sub_100000c4c : 128 -> 124
+~ sub_100000ccc -> sub_100000cc8 : 1072 -> 1088
+~ sub_1000011c8 -> sub_1000011d4 : sha256 b7383c82d01e8e3e3cf7d2c0d1c0cbeafc33024da8c1a9be5cc0444f6c55308f -> 23b372cca5165f13944e8264f520efbc9781a136edf3dfd0628a228689e3275a
+~ sub_1000011e4 -> sub_1000011f0 : sha256 71960e4416a03ae4abadbaa4ebd1a01483eb232a4d66a82e65a8c2502064e6c6 -> ac5de64966065132529f64d35b2ce9bbdca386857099cb7026c0028b5feb782d
+
+```

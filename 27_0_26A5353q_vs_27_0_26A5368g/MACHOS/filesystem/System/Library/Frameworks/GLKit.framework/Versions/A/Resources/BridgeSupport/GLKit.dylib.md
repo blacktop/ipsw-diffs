@@ -1,0 +1,67 @@
+## GLKit.dylib
+
+> `/System/Library/Frameworks/GLKit.framework/Versions/A/Resources/BridgeSupport/GLKit.dylib`
+
+```diff
+
+ 135.0.0.0.0
+-  __TEXT.__text: 0x2af4 sha256:b8300740f843bcb0ca1f357562effaffbe86fff681cd3b01097795a6a48b816b
++  __TEXT.__text: 0x2ba0 sha256:ef037ebe6dcfad782164bac69bb8632cb9dfa05d3c875abf3e033c46d49e67cc
+   __TEXT.__const: 0x70 sha256:f434708d519414a6014e2aa2facea7089bde4f32546004534c42aced8b0a9892
+-  __TEXT.__unwind_info: 0xc8 sha256:78342a209121814f6f5dff6d83c281b4e6237a171f4e1d19b43614a83fffaf11
++  __TEXT.__unwind_info: 0xc8 sha256:61c1cc2ff96cc010ce017eb2f33bb6c42c9a3dab59dd045cef9887ff1a43b60a
+   __TEXT.__auth_stubs: 0x20 sha256:0b0091f48930ec813a456c3c5d318cece291e3544e1dc67cd64058d4e5ec4e37
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__got: 0x10 sha256:e7804ac25bc1d67f6eacf0f1f0d9c51577a2090bb939b5d14892d3aa02eeb90a
+
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/GLKit.framework/Versions/A/GLKit
+   - /usr/lib/libSystem.B.dylib
+-  UUID: A5DC25F6-8973-335F-8402-2A1478693953
++  UUID: 2F886B25-A05A-3D49-BD56-75E62A238AFF
+   Functions: 173
+   Symbols:   177
+   CStrings:  0
+Functions:
+~ _GLKQuaternionMakeWithAngleAndAxis : sha256 611b3a960bd7738550a218e7d67851c40c0850dc25da045d9aff0e9ae306c7dc -> 4f09884fe2d3402bf5261c9fda6b9ce1ec66acfee24f2735b21d01c31dbe9d37
+~ _GLKQuaternionMakeWithAngleAndVector3Axis : sha256 243f73e0f86aab7e3ece9f239c34b553312e0ae6cbc1a921c788266abe69df75 -> 209defcc67354d630661af7c612684839a18e82a8f111851dd5788f52c0cea52
+~ _GLKMatrix3MakeWithArrayAndTranspose : sha256 cbb5b5732edfc9bbd55f92f03d49d54d4320ac8c75067250dc1d9e85831f0eb4 -> 95e79014ac915238a0b50f2cca39b4d99253db9c2651fa9652f9be3c094634b7
+~ _GLKMatrix3MakeRotation : sha256 0b931bc25ebc6ac935e75ebfe53a36c1446b56522e097a712a932562a3c0ed84 -> c77ac014e765563e471845d4b32bc3573c967f3b3d1235d7d3fc71bf0d157301
+~ _GLKMatrix3MakeXRotation : sha256 0bf2e01e357a51b8ce27aa97ae1a0eeca3c6a11562995474c77edb17b021d4fa -> 1d787c8e57a7cea06783b764eb2f43ed721c5bf941e8284d0dbaac9c05a95de3
+~ _GLKMatrix3MakeYRotation : sha256 96967b91b2e68b95cfc876001ed0f5437a695cc84782c702c87ca620be50f14f -> fed8a69260f321fbde17716036784c3c32383649d80a43accd9a21a3005b29d6
+~ _GLKMatrix3MakeZRotation : sha256 54bb2b847575464a2059a42e1a62c4949b4b96559b857d7f7782e972629fcb2a -> 2de8231509107ed8e1e89516212609cb47e5a31c5d3ad7402ec8faf3ab8a2b62
+~ _GLKMatrix3GetRow : 48 -> 52
+~ _GLKMatrix3GetColumn : 52 -> 64
+~ _GLKMatrix3SetRow : 64 -> 68
+~ _GLKMatrix3SetColumn : 68 -> 80
+~ _GLKMatrix3Transpose : sha256 250b2ffd777217f580fd66eda8492b21c6ddfa50434e3f91530de5d0947ed057 -> 045b3f39cf5f1f2b3a9b30942411a2f026ec97abf9b8b8fdad1070aa2ec2dd50
+~ _GLKMatrix3Multiply : sha256 2947a58389fbc5bec66f0208a9a57ad5eb951bcd0ef168a1a5ffffcd02927d72 -> 22b222729cbe8d1e7dc09f8b4e48341fa4d4c80ad7896688cfabf2c0d9752bae
+~ _GLKMatrix3Rotate : sha256 e5b32c4304fcc454181e404a20b97bdd6a22cdb34b42fb44081df990101d6116 -> f0f01ac60e49d7132fc46934db96f63da1aa5616f791deaa07efe73ae763bc72
+~ _GLKMatrix3RotateWithVector3 : sha256 c5c184df37511e144f14b4e9778998b2ec67486155d90de98b50fa7ead0427de -> ea84336a2bb4219c50cd729ed81d05998b057f0cf547bc8fa6018146a7680def
+~ _GLKMatrix3RotateWithVector4 : sha256 0500196639f484fe694d7719be017db931499ff9b64c74a0d7c18cd96f92d356 -> 8ebf531a5abafec046892ad1e95c662fff2599cce76bda72a543c3104bb384ae
+~ _GLKMatrix3RotateX : sha256 18ca5b999a1cb998b45a6c5f9a7c27f6696ff123b6c6861cb528cf88769ddb9c -> 894babb04895e7620f923b35dad31b448ae88ec54ceaf0db79e03dd6868cd1e0
+~ _GLKMatrix3RotateY : sha256 424cc440fe1d11588b96880c9dd2450ca3b5709b674fa56ce6a17583be23f5d7 -> 7285a4123c49dec90d5253d2c7078b2be05784afb6cec29f25e09c26d43f2d07
+~ _GLKMatrix3RotateZ : sha256 5cea808203692cf493acc42d28fac94ef384c07906947b5476374a554487f4b8 -> 71b126c35cfea2fd8d88d06782d41c0c02c008596286435bfbac100599ceaee3
+~ _GLKMatrix3MultiplyVector3Array : 184 -> 196
+~ _GLKMatrix4MakeRotation : sha256 35430c79084885846075e4e3cfcf2445274c99454e9dc1be8f8e6450e56326cd -> 7734301f8bc95bb74869585221cf53fd4c723808bd8e803ab65ebd451c43ccd8
+~ _GLKMatrix4MakeXRotation : sha256 ffeb2edf18244fa26979eb9d83dd2109c9f5c2e7a77c097b5dda58ccbe8bdff0 -> d8e029594128107f1d82452d6d891424958a0511e16709d9c888bb4c453860fa
+~ _GLKMatrix4MakeYRotation : sha256 30bf03fd622417a1de47275c08133a770d8a1a9f7dfc6dd1f37128a32681a6a1 -> 9564d184b6ee6b6fe55bceec91a29df8d488dbb1b070504ff09fd06d740fbbbc
+~ _GLKMatrix4MakeZRotation : sha256 375a4d4ab6cd4a2ab1942bda148d427ec636613bfdc964e31a8ec6eab06c5227 -> 5d657f8b21c62799cba97a8e17a27647a29f0d30c1d85a653b67618d0d963afb
+~ _GLKMatrix4MakePerspective : sha256 a36755e08a602af26181368876b0df0a4ccbe6959a2b380dcb72cb1d2481e5be -> 3fb680995ee51e365ba258e96ec239be21435b813acdd33c8273123065aa78c3
+~ _GLKMatrix4MakeFrustum : sha256 631c4fc3d276439c676e55d559443316152b362e5d91e69bcf312630fa470d5c -> 948877f5f474874766a5f62d6d7ce144ab0f4fb419cb51904d2e6a85b25255a0
+~ _GLKMatrix4GetRow : 52 -> 60
+~ _GLKMatrix4GetColumn : 52 -> 84
+~ _GLKMatrix4SetRow : 68 -> 76
+~ _GLKMatrix4SetColumn : 68 -> 100
+~ _GLKMatrix4Rotate : sha256 9f52c15e7011fe08f868e2bd44e8b6a38a5fd803bff3faaef65386841b77f963 -> 3cefd814d17108939bb51c7f477ced0502ea4f7271adad932622614ffc4a2865
+~ _GLKMatrix4RotateWithVector3 : sha256 f3010f544e6ff0f58326f5800213319356c28406ec58bfdab28987d63fe6b20d -> e553c36e58470825ee4e53b28e07614940052acfca1b9a5664cd6e454593d360
+~ _GLKMatrix4RotateWithVector4 : sha256 04c0e153aeca3b9bef093141014f60aded49a66a81384842d755559dc71b6b6e -> 0bdb9407e015eaa220336dc4bd0af29f28d09bed67fc5d45e175414dc6175120
+~ _GLKMatrix4RotateX : sha256 f9ca501e8705b22562e45ca3078e7185b202721011a60498a1c497e2a9195f5e -> 92f869160674894ec427b58c32aded1e6da47d9c2f1332dc4413df8c097f7b58
+~ _GLKMatrix4RotateY : sha256 d852cd18701bd25b01f44420fca5401abdf0daa3b62d10f3643b20cb979e4975 -> d69fc7a67d18f6ff597930b00bfd3911add4f9d5b746a94091ee9cf9032dee38
+~ _GLKMatrix4RotateZ : sha256 3dd63d36cfa5b34a3ea9c83de6019f063917f373db33c054c56ff855442376c9 -> 3671e66266021e45c42e70166f4190f4b48cbf5d1993b1dd5ec89971deef4058
+~ _GLKMatrix4MultiplyVector3Array : 224 -> 236
+~ _GLKMatrix4MultiplyVector3ArrayWithTranslation : 224 -> 236
+~ _GLKMatrix4MultiplyAndProjectVector3Array : 296 -> 308
+~ _GLKMatrix4MultiplyVector4Array : 176 -> 188
+
+```

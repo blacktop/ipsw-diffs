@@ -1,0 +1,96 @@
+## DiskImages
+
+> `/System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/DiskImages`
+
+```diff
+
+-691.0.0.0.0
+-  __TEXT.__text: 0x895c0 sha256:a252cb3389a234fbe2175c815d17450d14aa3547dfd8cb80a4e2517e6858967b
+-  __TEXT.__objc_methlist: 0x364 sha256:be6fa18972d0ed1a88fe72d7f0ce7cb0ee36df205da9982bbac9b231f5cc09c0
+-  __TEXT.__cstring: 0x248f8 sha256:4c721aafe3b2308949e3dc8cb9c1e90d7f694e2864ececa30cd9c9260c9c08b6
+-  __TEXT.__gcc_except_tab: 0x20e0 sha256:88982bb4fcdeee5f3f675e975c724961955783d1c69adf1825ad01dddf401c93
++696.0.0.0.0
++  __TEXT.__text: 0x897d4 sha256:7217dd0e3b8d1edde55d155ab77752d51230a817d9eff136ab1ab5e9aa24edd9
++  __TEXT.__objc_methlist: 0x364 sha256:4e816f8c027b547a0a386657049f0532dc6410220c23a49cf6b26fb5b780e4a7
++  __TEXT.__cstring: 0x248f8 sha256:b587784dfb52f533bdef6866ffdb9b5564fd08d3e8c9c8b028cdedf7fdba7d11
++  __TEXT.__gcc_except_tab: 0x20e0 sha256:8d7c384766f7904a2f33e72c9b2d65fcc954c4f634f98385083931f51e868c8f
+   __TEXT.__const: 0x1839 sha256:5f5de255ecaee271e1db7e5e99301e94f626cad70a739dfc4f084c9970d39756
+   __TEXT.__oslogstring: 0x72f sha256:3e4870508aa29ad23506f3452b4c446e78ce9fe278e7c4a9fe6ee56caba618a0
+-  __TEXT.__dof_security_: 0x2a0 sha256:822bddb7a60e19ed03861cf88d4dd5d2c88fdf345495d06960b2bd758687d93a
+-  __TEXT.__unwind_info: 0x2198 sha256:cc4a4788cae738efbc59dda76ae64ae8e409b28abef40de4eef9b783acab2ff7
++  __TEXT.__dof_security_: 0x2a0 sha256:9d7fcc4227df9a708f9f81ebb1e684a60e28b1684505da16e16efbc7f440a27d
++  __TEXT.__unwind_info: 0x2198 sha256:18c90aae0d72ce899539f7977653c64e405b289e258ec5d007ea60c89aaf9581
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x140 sha256:f4b58c4467f0f84ea4114a159407b3bea636eed041c4f00157662b306295fdae
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:cfa630cd42924304823f14dc43e643e0060e0e71b3097459bdae7e86f31a1ed1
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:8f045002af77bf678edcbbf67b24a038962e4c3ea541197f174935cbf480bf5f
+-  __DATA_CONST.__objc_protolist: 0x28 sha256:bc393b4c3d1517cc30222a8b4be7004b8d2dd8589b87b061be31e83f59f10a3a
++  __DATA_CONST.__const: 0x140 sha256:bd7800b401efb859a365ba707b2aef556fd37ffb3ee2ee8e76f63c18a1d53491
++  __DATA_CONST.__objc_classlist: 0x8 sha256:08443d121f38e6b80a48869c81f9dc91a2c473e618dd87e92e842d028b4be4d2
++  __DATA_CONST.__objc_catlist: 0x10 sha256:254a018cbf4fd08e30368674b620bac104d13b378174873a9612360fa28da9e4
++  __DATA_CONST.__objc_protolist: 0x28 sha256:6e20228ae17a44e14293a53c8414794f006382a4600afb59c792513648b1b197
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x360 sha256:2ae7f22a03ac37166ac8ac9096feb0f4ebaf2c5634e2e828de1a20f0a5d4ad9f
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:5a0dc17d6d2a3e89cf4c7fa8066e3c35374b8f1e54d177804d2a90d106cf6056
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:cfa630cd42924304823f14dc43e643e0060e0e71b3097459bdae7e86f31a1ed1
+-  __DATA_CONST.__got: 0x3a0 sha256:fc3f756407512a93b10c9c386cb5cfe108520e78898663a9be31f22d443e88c6
+-  __AUTH_CONST.__const: 0x80d0 sha256:1b2cf73bdd36982b884cb1eb7b32f2e066507c537fbb7c5e32d430b731172157
+-  __AUTH_CONST.__cfstring: 0x7600 sha256:de521caf6b884448b457d1f0f07b0fabb94e5c9918130fbd3d0577927f7c1d47
+-  __AUTH_CONST.__objc_const: 0x500 sha256:f64f752f3be286dc9905af63fcbd4bc3a36386622b2673fd7c42c6c2cb34dfae
+-  __AUTH_CONST.__weak_auth_got: 0x28 sha256:1c699a8bb6ad7b71779ed6a388205d0897534f9e735c333d89b5ab8dc1b41366
++  __DATA_CONST.__objc_selrefs: 0x360 sha256:a60dccf7ef07c9352c70b46ecadbcd234b3ebcb4fe4c4d04e7a08e489fc2193f
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:ec076e8b34fdbbd77898d79ae3496126946ef354dcf942b39f6b4d153c531102
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:08443d121f38e6b80a48869c81f9dc91a2c473e618dd87e92e842d028b4be4d2
++  __DATA_CONST.__got: 0x3a0 sha256:366efb930fb58c1d1a45443ac8d78fdbb50bba04a26b455f5856c0b1086b985f
++  __AUTH_CONST.__const: 0x80d0 sha256:150f4a65cdd166c07936ce6e372d675f12ecc3de6eddb90728f60ce2b0557b19
++  __AUTH_CONST.__cfstring: 0x7600 sha256:9b6d8453fee8b63765711e6cea1efc8327e96b1c49afad7b3d60d1f99acc117c
++  __AUTH_CONST.__objc_const: 0x500 sha256:491edb85a536b415c3129c02fe1c9d55efd09746781bf332d2b8dd77b3c22331
++  __AUTH_CONST.__weak_auth_got: 0x28 sha256:c6df55f2824df40e2742928e63dbcefc21cac3fdb86c83eac8a4063a0bf272dd
+   __AUTH_CONST.__auth_got: 0x1200 sha256:606f558e014930f9c1669f03c71c28945c4631568e39cd308c6c7f4077c7bfb9
+-  __AUTH.__data: 0x628 sha256:82665e2516734319ce0ee9ac86ef16f014df0b468918333f1a17ecffe4985368
+-  __AUTH.__thread_vars: 0x18 sha256:8ff0cce9471aa32121a8f1398ae2638342911c32dad6dd5791e21390ffeddfe8
++  __AUTH.__data: 0x628 sha256:8709eecbe8726e87d7ab97d7f2e013f0d56f5c079b46263eb9d2297a76e05fec
++  __AUTH.__thread_vars: 0x18 sha256:00ed0ec1b630f595bbb47d6fb79a59b057afb56641547e4ee97851be9332673e
+   __AUTH.__thread_bss: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+   __DATA.__objc_ivar: 0x48 sha256:f4b3128d87fb6ce2903fa51494de1cc88bce1641a50140c36dd04bc118c85359
+-  __DATA.__data: 0x2a0 sha256:52a53a04ef18b646c7ff8410a5a9804b8941b4e4d39a45a0806cbbef9ffa2de8
++  __DATA.__data: 0x2a0 sha256:c7ed1cc710effdf4fff85abd626ab38ccd13d92ce6248a7441a8feb6732ddea1
+   __DATA.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   __DATA.__bss: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:52e72e856bb2846e40eb37a9bd01e7263db87e28f13f34a8e8fb33d6e84e484b
++  __DATA_DIRTY.__objc_data: 0x50 sha256:fdc7690ef3d97fe2044ad3f5a96435203fc1acbcce09adcf7769cc1e54e23ae1
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+   - /System/Library/Frameworks/DiscRecording.framework/Versions/A/DiscRecording
+
+   - /usr/lib/libcurl.4.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 1FEFB29A-AE02-38AD-B849-27F2F1CE7ACF
+-  Functions: 2459
+-  Symbols:   3980
++  UUID: 68185EAC-D88C-39A6-98DC-345859545364
++  Functions: 2461
++  Symbols:   3983
+   CStrings:  4365
+ 
+Symbols:
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIN8Security4GuidENS3_10CssmClient6ModuleEEEPvEENS_22__tree_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220106Ev
++ __ZNSt3__16__treeINS_12__value_typeIN8Security4GuidENS2_10CssmClient6ModuleEEENS_19__map_value_compareIS3_NS_4pairIKS3_S5_EENS_4lessIS3_EEEENS_9allocatorISA_EEE12__find_equalB9nqe220106IS3_EENS8_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSM_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeIN8Security4GuidENS2_10CssmClient6ModuleEEENS_19__map_value_compareIS3_NS_4pairIKS3_S5_EENS_4lessIS3_EEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS6_PvEE
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_24
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIN8Security4GuidENS3_10CssmClient6ModuleEEEPvEENS_22__tree_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220100Ev
+- __ZNSt3__16__treeINS_12__value_typeIN8Security4GuidENS2_10CssmClient6ModuleEEENS_19__map_value_compareIS3_NS_4pairIKS3_S5_EENS_4lessIS3_EEEENS_9allocatorISA_EEE12__find_equalB9nqe220100IS3_EENS8_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSM_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeIN8Security4GuidENS2_10CssmClient6ModuleEEENS_19__map_value_compareIS3_NS_4pairIKS3_S5_EENS_4lessIS3_EEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS6_PvEE
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRxOugC5BPzMUjsCi6e0Af1E1zmwWtfJq3osjFI/Library/Caches/com.apple.xbs/TemporaryDirectory.7aTvZ8/Sources/DiskImages/framework/plugins/DiskImages/CDiskImageCompactor.cp"
++ "/AppleInternal/Library/BuildRoots/4~CRxOugC5BPzMUjsCi6e0Af1E1zmwWtfJq3osjFI/Library/Caches/com.apple.xbs/TemporaryDirectory.7aTvZ8/Sources/DiskImages/framework/plugins/DiskImages/CSparseDiskImageFile.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQPGugDuQHrMWm9WBqhPPl26tN2CzpxpODcwmbQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ulYQi7/Sources/DiskImages/framework/plugins/DiskImages/CDiskImageCompactor.cp"
+- "/AppleInternal/Library/BuildRoots/4~CQPGugDuQHrMWm9WBqhPPl26tN2CzpxpODcwmbQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ulYQi7/Sources/DiskImages/framework/plugins/DiskImages/CSparseDiskImageFile.cpp"
+
+```

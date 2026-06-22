@@ -1,0 +1,660 @@
+## Transparency
+
+> `/System/Library/PrivateFrameworks/Transparency.framework/Versions/A/Transparency`
+
+```diff
+
+-1751.0.0.501.1
+-  __TEXT.__text: 0x50340 sha256:404de813380e1def1cb3c05317270dc5d0e32eaeb3db3ef83fce0a0b11ac3109
+-  __TEXT.__objc_methlist: 0x4544 sha256:96f098ff08de02f96b81b90389dc61e84e040891d7b5f399989144b2289d92fe
+-  __TEXT.__cstring: 0x2929 sha256:3d3c57db6ed541cbecbf1b003fa1b9cf1e0977b4feef3aac3bb54234c3b3c799
+-  __TEXT.__const: 0x1ac0 sha256:444c594ed8e612aac018ee583c3dad456036dcbebc5e7884b095ba6cb4ede343
+-  __TEXT.__gcc_except_tab: 0x4cc sha256:9286565c5a7adc515334773c57bfff3ded8859310b0768a6db705bcdaa4d4bfd
+-  __TEXT.__oslogstring: 0x1c12 sha256:9defce3c6d28308300a249abddbbbc8c77ee676273e5f23a745e6b589a22c57e
+-  __TEXT.__swift5_typeref: 0x471 sha256:f4320e4e9a39fb695acaeb7265a80713359c8899e28067c3e62da84bd0a06a7e
+-  __TEXT.__swift5_reflstr: 0x50b sha256:e8e7329d16a4137f6ad5fd1eea6eebe5a1d2af3aca2ca2bdb9ed3288516f03d1
+-  __TEXT.__swift5_assocty: 0x108 sha256:98992a2fe2b32aee8b7ddedad7a1e9b14f964e9649560c1314976052fc4b355a
+-  __TEXT.__constg_swiftt: 0x360 sha256:a6e19e80c18f63247b1738540017fc4d138e2ccfc9b1b54fbac4377ecbee6ff9
+-  __TEXT.__swift5_builtin: 0x64 sha256:aaf6c851247d0391621fd393f21cca92108573e067e9aacc31f492dcd348e5d8
+-  __TEXT.__swift5_proto: 0x178 sha256:1ef3c0d37dc8596bb0bb258fa54fbe27d55fd490ae84a2a187055796fffb5626
+-  __TEXT.__swift5_types: 0x5c sha256:2995c1432c6c453b96d03d618c712648c2bd4cd65a5fc70ea6e787ae7bc2c9f0
+-  __TEXT.__swift_as_entry: 0x4 sha256:f4157fccf6633c7f8d4c2c46a4f545f4d9030434f5521672a5154c6734f7979e
+-  __TEXT.__swift_as_ret: 0x4 sha256:539042c6a5169b133f66426c735909d59e8e61fcb1e75724c2f035e738a6c31c
+-  __TEXT.__swift_as_cont: 0x4 sha256:5832e867ff3061f00e4abeee24dfdcb720a3f569609309f3cd3006369c8b0839
+-  __TEXT.__swift5_fieldmd: 0x504 sha256:31b7a6a570e4016d3680a3be0a0ecf40e644c2cdccd5bafa8750db239c1a24dd
+-  __TEXT.__unwind_info: 0x1ad0 sha256:c1b67712ec1aded7155c368fa833b881b7936056196dbb8481183d1ccb1b7e2b
+-  __TEXT.__eh_frame: 0x660 sha256:547ae993b8c46e3044f68513fb876c1228bd5188612e11867fa8e6c4f53ad1bf
++1766.0.13.0.0
++  __TEXT.__text: 0x69090 sha256:b0a70e7f004ec659165c45b2f69cdbeb926c6575fbf340e42cd4c1b7639b941f
++  __TEXT.__objc_methlist: 0x4a20 sha256:213c725a4324f9d742ede6cdae4275ebd0e684ba01310a6b984db7678eb60abd
++  __TEXT.__cstring: 0x2e2c sha256:a2825a764a55dec9ef731b95b510a7c7b1b149a9e6021b952137df12e27f59b9
++  __TEXT.__const: 0x3030 sha256:7ef2bb181f876626d46c73f67f8f5b00ef9df1e203a2c4ed9f58e719bfd755a4
++  __TEXT.__gcc_except_tab: 0x4cc sha256:ad09bc15887b5c5c3d2d73c538f2f1cbe8b005ac2b13d972c718bd8f06bf0d1b
++  __TEXT.__oslogstring: 0x1e1b sha256:e6f47a6704abc853183c35f6f33e153779b4a4932e72901027760e392764573b
++  __TEXT.__swift5_typeref: 0x9ba sha256:2eafc82b56ae95012f3bfd5eb4de76476656184aab6b43a65a9389a501c99ddd
++  __TEXT.__swift5_reflstr: 0x73a sha256:f8f3fe08564b208329f4a8504c4425021bece1c56c512f72cfd2f58c86d8e5df
++  __TEXT.__swift5_assocty: 0x1e0 sha256:6a0fcb4792b0a9ef3d9dc189bdf5177642d1bce1169577a74e4e28a61e25a173
++  __TEXT.__constg_swiftt: 0x7b4 sha256:1eda7327c651d1e36697b812a9d4583a3150c3b6a85d7c10efa754c981513a7a
++  __TEXT.__swift5_builtin: 0xb4 sha256:3abc483216aa1a0a49dd30e043dede5c27adc68fee2e068b220f8115a8df027d
++  __TEXT.__swift5_proto: 0x2bc sha256:818ec84eb9d6177be46b3ffbdb4713e2fa389b668d361b8ac88beacce1bd1e22
++  __TEXT.__swift5_types: 0xb0 sha256:a8e0fc2b4018dd0404c82e40afdbd0835202e0a48dc6bd8eba744100ceafa89d
++  __TEXT.__swift_as_entry: 0x6c sha256:ed99425973a65be7554790736c12f2944824936346cdfb76479b3ceb4978a3a3
++  __TEXT.__swift_as_ret: 0x6c sha256:893fe15b4038cd888798e12d4a8e1803a3c4d26d9ea68a7ba357ef25e1797772
++  __TEXT.__swift_as_cont: 0xbc sha256:37950c7e93cb4774f80914188d6dbe7ad6afbb9bfc96d62ebc068f7555e99410
++  __TEXT.__swift5_fieldmd: 0x86c sha256:adcf11a58511837f4bfd1409121a96786d122d4acd2eb480267571619718d932
++  __TEXT.__swift5_protos: 0x8 sha256:86fc51632985881f95596054169cd71b03e41f2093239279ae160f100ae7793f
++  __TEXT.__swift5_capture: 0x2c4 sha256:d966b6e8fb9d50ac6043ac956c662cbe42fd84ca2cd94040984c57d46a9cc496
++  __TEXT.__unwind_info: 0x23e0 sha256:3bf79f258ece7d0c87104dd3ac4e756cac3bb0fef894ba2ef6902814c5c37042
++  __TEXT.__eh_frame: 0x1ba0 sha256:7379efa013ebdc86f7e449cfe42d1eada6c18cfe602f7941a805e6c84e7025d5
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x6f8 sha256:cc8efece4d351755459bdafb2fa4762cb5bcc190b54b4e605b1624f7842e142b
+-  __DATA_CONST.__objc_classlist: 0x218 sha256:1b7cb76095d7e5604f12dde34d7c333eab3c31436a05ce43056b5ce05da45544
+-  __DATA_CONST.__objc_catlist: 0x18 sha256:4f884205990326d1e145bb528bcd40e9cfcd9771f220b2a8806e84773519934f
+-  __DATA_CONST.__objc_protolist: 0x88 sha256:fef3277d7223df9e8be6fbf69acab6c237926564aa0f723e592ac6817603255d
++  __DATA_CONST.__const: 0x748 sha256:305a2317c538fa9a255b33000c62e71f33f041f155678f0f5cece9b73735ccae
++  __DATA_CONST.__objc_classlist: 0x260 sha256:2dbfaea381c9789574bcbbca02d7f074cf7c69aee876f925ce5dc963ef419df9
++  __DATA_CONST.__objc_catlist: 0x18 sha256:e716378f763340282de9f23a748149b06f4402a60bb58aa81d97b71e72579e7b
++  __DATA_CONST.__objc_protolist: 0xa0 sha256:143af0818fa84656cf8f2353759b8cf0a0ca2e145ef05e351fa2f016278bfc87
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x1e68 sha256:7cb7caaefebad6d68eec16699d2a4d2f96257efb0ef38d38d59bf8d27fc16c14
+-  __DATA_CONST.__objc_protorefs: 0x38 sha256:016e0c817c65ec4d94534029fea8336f6a17540ad72ff31e381c8f4613c79a53
+-  __DATA_CONST.__objc_superrefs: 0x180 sha256:8f357844548d5f10505a6b58f6259b6968d41fbbf7d300401431945c69c41df2
+-  __DATA_CONST.__got: 0x438 sha256:11466b4aa878ecc0aaf0384884be04816c7c158328fa997724d79908c6f7d42b
+-  __AUTH_CONST.__const: 0x3a18 sha256:0d2782a1b2fce7d7b6ac8e1a89a644ebf9745fc081ab5cdc85160db5f0ca2482
+-  __AUTH_CONST.__cfstring: 0x3a20 sha256:b9b23b8629c65060f5aae5968f9840003b1eb9378067b8b3238eb073114d80c5
+-  __AUTH_CONST.__objc_const: 0x76a8 sha256:4396b2c8e26c172c7d5a00c573a0a0f0e02f5ada3f77410a83c08e4a946e9d72
+-  __AUTH_CONST.__objc_intobj: 0x1b0 sha256:8063965b9bfadb827c6df0da81452af6402487f833a76cbabdffd5ef700da92d
+-  __AUTH_CONST.__auth_got: 0x718 sha256:1b07002f38c232f011b17f27fbbc0f54a476a09c0337d7b9bf34707169c92b7e
+-  __AUTH.__objc_data: 0x1c8 sha256:eda88cdc3b47e5d9e37ee7bfac6d67a476a0d1d36fcd330507ecf9739cb571c4
+-  __AUTH.__data: 0x118 sha256:9cc366121b50bd6912482f593b75995304517f8f43b2624d7491305fb70cebbf
+-  __DATA.__objc_ivar: 0x3a8 sha256:0c750ce47a24965f799e64e0f437317510ada10caa4a727c16f24ac77ce69f0b
+-  __DATA.__data: 0x978 sha256:3716662f908e5ee28898703beaf70ba2d02829c6f9dd49169f3131ccb9655361
+-  __DATA.__bss: 0x2800 sha256:84ff92691f909a05b224e1c56abb4864f01b4f8e3c854e4bb4c7baf1d3f6d652
+-  __DATA_DIRTY.__objc_data: 0x1448 sha256:cc85ac61f8bb74a83bff115f9ab4c4d97572e0adc0fc30349417477ad7bf0a8b
+-  __DATA_DIRTY.__data: 0x2c0 sha256:df297fa5aa6864d7f3c2adadad13d552ecdd9a3168f447f77b558d50ad2c1d78
++  __DATA_CONST.__objc_selrefs: 0x1ff0 sha256:0a0c817db4fd166490a063d43204e6c15d99f1d56ca702475b2e2fbf5b9d6819
++  __DATA_CONST.__objc_protorefs: 0x48 sha256:110b9c0b0b0bceb10f3e9a8ba01be90183213f93e5130f9860b7e5be3234df02
++  __DATA_CONST.__objc_superrefs: 0x180 sha256:24637c8bfcb9de7ed5ad8939a29e89df836b268a57a168ae540b24485c02cbb2
++  __DATA_CONST.__got: 0x5c0 sha256:1e3e34fa13d91a221f7263f8b0a7ffb701ccfe60dd5cb81130f66eca229fa813
++  __AUTH_CONST.__const: 0x46c0 sha256:15f273750fcb2442472aa382c2654f1b1feae452c1d26ea8ba76a39df13bf415
++  __AUTH_CONST.__cfstring: 0x3ac0 sha256:56088ccc7544981821d0b2e4a6f3bf26d79dc1f4d7136cebc348ef3986144929
++  __AUTH_CONST.__objc_const: 0x7f30 sha256:8c1859a00d0dce61297af003cee4085950570faef8bf029cb1e418ce7f7721c1
++  __AUTH_CONST.__objc_intobj: 0x1e0 sha256:af16797b1abd7be5b12c3aefc6d7b2e0116a2605cdb14a6318534da6b6008dc8
++  __AUTH_CONST.__auth_got: 0x9d0 sha256:5b4cbef279b8c6fcb8354754855554e1289ade63e4a8010efe323b14e554d3bc
++  __AUTH.__objc_data: 0x938 sha256:74b034051a6d2ac131e5821f5e22da981e23601ff2f54aabbd687f142273bc7c
++  __AUTH.__data: 0x280 sha256:8884ce1d800144adb1cf681c52669f265a649b1717875df912a6c58d3fb20c43
++  __DATA.__objc_ivar: 0x3ac sha256:b62e2cb1f4c51713fae11b1cbcee347107c65fb1fb57d63da4169c7f9f5ae212
++  __DATA.__data: 0xda0 sha256:5bf54ea50aca60c0175a4a24979e0229711cfede2ec8626c2de7eb7559028c64
++  __DATA.__bss: 0x51e0 sha256:ea09fcaef7227a8439aa1fe4ec8e05c571e36dac20fddafe91607c557cfde34f
++  __DATA_DIRTY.__objc_data: 0x1448 sha256:d65fbd4d573048e76718c6512cdba542f23422dfb64133cd3c057165da773c89
++  __DATA_DIRTY.__data: 0x2c0 sha256:485e82c45122edeece1acb411da54bce0a3b10c919685ec1a9a1df7b73a653dc
+   __DATA_DIRTY.__bss: 0xa90 sha256:9dd75789e0f371d50efb6aaf2878d08ccf1374a4189a0941ae6057b11e487c02
+   __DATA_DIRTY.__common: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
++  - /System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: CFCFDA70-978C-315B-984D-5CCF466CF918
+-  Functions: 2644
+-  Symbols:   4806
+-  CStrings:  1171
++  UUID: 40EDB2EE-7435-3929-A193-B94BF2E5E4BC
++  Functions: 3342
++  Symbols:   5095
++  CStrings:  1223
+ 
+Symbols:
++ +[TransparencySettings forceTreeResetPopulating]
++ -[KTVerifierResult setTreeResetInProgress:]
++ -[KTVerifierResult treeResetInProgress]
++ -[TransparencySettings forceTreeResetPopulating]
++ -[TransparencySettings hasInternalDiagnostics]
++ OBJC_IVAR_$_KTVerifierResult._treeResetInProgress
++ _OBJC_CLASS_$__TtC12Transparency11AETEventKey
++ _OBJC_CLASS_$__TtC12Transparency14AETransparency
++ _OBJC_CLASS_$__TtC12Transparency19AETTransparentEvent
++ _OBJC_CLASS_$__TtC12Transparency21AETVerifyProofRequest
++ _OBJC_CLASS_$__TtC12Transparency22AETVerifyProofResponse
++ _OBJC_CLASS_$__TtC12Transparency26AETEventVerificationResult
++ _OBJC_CLASS_$__TtC12Transparency26AETransparencyXPCInterface
++ _OBJC_CLASS_$__TtC12Transparency28AETransparencyRequestContext
++ _OBJC_CLASS_$__TtC12Transparency8AETEvent
++ _OBJC_METACLASS_$__TtC12Transparency11AETEventKey
++ _OBJC_METACLASS_$__TtC12Transparency14AETransparency
++ _OBJC_METACLASS_$__TtC12Transparency19AETTransparentEvent
++ _OBJC_METACLASS_$__TtC12Transparency21AETVerifyProofRequest
++ _OBJC_METACLASS_$__TtC12Transparency22AETVerifyProofResponse
++ _OBJC_METACLASS_$__TtC12Transparency26AETEventVerificationResult
++ _OBJC_METACLASS_$__TtC12Transparency26AETransparencyXPCInterface
++ _OBJC_METACLASS_$__TtC12Transparency28AETransparencyRequestContext
++ _OBJC_METACLASS_$__TtC12Transparency8AETEvent
++ __125-[TransparencyDaemon replaySelfValidate:application:pcsAccountKey:queryRequest:queryResponse:responseTime:completionHandler:]_block_invoke.549
++ __35-[KTVerifier clearPeerCache:error:]_block_invoke.211
++ __35-[KTVerifier clearPeerCache:error:]_block_invoke_2.212
++ __40-[TransparencyDaemon getAllOptInStates:]_block_invoke.627
++ __40-[TransparencyDaemon ktRepair:complete:]_block_invoke.706
++ __44-[TransparencyDaemon configurationBagFetch:]_block_invoke.472
++ __44-[TransparencyDaemon setOSVersion:complete:]_block_invoke.650
++ __44-[TransparencyDaemon transparencyFetchIDMS:]_block_invoke.518
++ __44-[TransparencyDaemon transparencyIDSRepair:]_block_invoke.478
++ __44-[TransparencyDaemon transparencyIDSRepair:]_block_invoke_2.479
++ __45-[TransparencyDaemon getOptInState:complete:]_block_invoke.618
++ __45-[TransparencyDaemon maybeUpdateMonitorState]_block_invoke.529
++ __45-[TransparencyDaemon maybeUpdateMonitorState]_block_invoke.529.cold.1
++ __45-[TransparencyDaemon maybeUpdateMonitorState]_block_invoke_2.532
++ __46+[TransparencySettings jsonDictFromPlistDict:]_block_invoke.170
++ __46-[TransparencyDaemon transparencySysDiagnose:]_block_invoke.482
++ __47-[TransparencyDaemon transparencyCloudDevices:]_block_invoke.597
++ __47-[TransparencyDaemon transparencyValidateSelf:]_block_invoke.521
++ __48-[TransparencyDaemon clearEligibilityOverrides:]_block_invoke.658
++ __49-[TransparencyDaemon reportEligibility:complete:]_block_invoke.661
++ __49-[TransparencyDaemon transparencyCheckIDSHealth:]_block_invoke.578
++ __49-[TransparencyDaemon transparencyCheckIDSHealth:]_block_invoke.582
++ __49-[TransparencyDaemon transparencyIDMSDeviceList:]_block_invoke.537
++ __49-[TransparencyDaemon transparencyIDMSDeviceList:]_block_invoke.541
++ __49-[TransparencyDaemon transparencyIDMSDeviceList:]_block_invoke.541.cold.1
++ __49-[TransparencyDaemon transparencyIDMSDeviceList:]_block_invoke_2.544
++ __50-[TransparencyDaemon transparencyFetchPublicKeys:]_block_invoke.552
++ __50-[TransparencyDaemon transparencySysDiagnoseData:]_block_invoke.486
++ __50-[TransparencyDaemon transparencySysDiagnoseData:]_block_invoke.488
++ __50-[TransparencyDaemon transparencySysDiagnoseData:]_block_invoke.492
++ __50-[TransparencyDaemon transparencySysDiagnoseData:]_block_invoke.492.cold.1
++ __50-[TransparencyDaemon transparencySysDiagnoseData:]_block_invoke.496
++ __50-[TransparencyDaemon transparencySysDiagnoseData:]_block_invoke.508
++ __50-[TransparencyDaemon transparencySysDiagnoseData:]_block_invoke_2.493
++ __52-[TransparencyDaemon performAndWaitForSelfValidate:]_block_invoke.524
++ __55-[KTVerifier getDisplayStatusForResults:isSelfOptedIn:]_block_invoke.202
++ __55-[TransparencyDaemon updateIDSRecommendation:complete:]_block_invoke.644
++ __57-[TransparencyDaemon transparencyDumpKTRegistrationData:]_block_invoke.588
++ __57-[TransparencyDaemon transparencyTriggerIDSRegistration:]_block_invoke.555
++ __58-[TransparencyDaemon getAggregateResult:element:complete:]_block_invoke.664
++ __58-[TransparencyDaemon getOptInForURI:application:complete:]_block_invoke.621
++ __58-[TransparencyDaemon transparencyClearKTRegistrationData:]_block_invoke.594
++ __59-[TransparencyDaemon clearTapToRadarNotification:complete:]_block_invoke.572
++ __59-[TransparencyDaemon getOptInStateForApplication:complete:]_block_invoke.630
++ __59-[TransparencyDaemon transparencyGetKTSignatures:complete:]_block_invoke.591
++ __60-[TransparencyDaemon changeOptInState:application:complete:]_block_invoke.615
++ __60-[TransparencyDaemon transparencyTriggerOperation:complete:]_block_invoke.610
++ __61-[TransparencyDaemon transparencyCheckKTAccountKey:complete:]_block_invoke.558
++ __61-[TransparencyDaemon transparencyTriggerTTR:handle:complete:]_block_invoke.561
++ __61-[TransparencyDaemon transparencyTriggerTTR:handle:complete:]_block_invoke.561.cold.1
++ __61-[TransparencyDaemon transparencyTriggerTTR:handle:complete:]_block_invoke.566
++ __61-[TransparencyDaemon transparencyTriggerTTR:handle:complete:]_block_invoke.566.cold.1
++ __61-[TransparencyDaemon transparencyTriggerTTR:handle:complete:]_block_invoke_2.562
++ __61-[TransparencyDaemon transparencyTriggerTTR:handle:complete:]_block_invoke_2.567
++ __63-[KTVerifierResult updateWithStaticKeyEnforcedPeerEnforcement:]_block_invoke.56
++ __63-[TransparencyDaemon setOverrideTimeBetweenReports:completion:]_block_invoke.655
++ __63-[TransparencyDaemon successInfoForElement:samples:completion:]_block_invoke.675
++ __63-[TransparencyDaemon transparencyPerformRegistrationSignature:]_block_invoke.585
++ __63-[TransparencyDaemon triggerReportAndMaybeOptInWithCompletion:]_block_invoke.672
++ __65-[TransparencyDaemon clearOptInStateForURI:application:complete:]_block_invoke.633
++ __67-[TransparencyDaemon validateURIs:queryOptions:traceUUID:complete:]_block_invoke.713
++ __68-[TransparencyDaemon networkKTQuery:application:traceUUID:complete:]_block_invoke.687
++ __68-[TransparencyDaemon networkKTQuery:application:traceUUID:complete:]_block_invoke.691
++ __69-[TransparencyDaemon transparencyCloudDeviceAdd:clientData:complete:]_block_invoke.636
++ __70-[TransparencyDaemon ktQuery:application:queryOptions:trace:complete:]_block_invoke.700
++ __72-[TransparencyDaemon transparencyCloudDeviceRemove:clientData:complete:]_block_invoke.639
++ __73-[TransparencyDaemon insertResultForElement:samplesAgo:success:complete:]_block_invoke.669
++ __74-[TransparencyDaemon validateIDSData:ktQueryData:ktResponseData:complete:]_block_invoke.710
++ __76-[TransparencyDaemon networkKTPublicKeyBag:queryOptions:traceUUID:complete:]_block_invoke.678
++ __76-[TransparencyDaemon networkKTPublicKeyBag:queryOptions:traceUUID:complete:]_block_invoke.684
++ __76-[TransparencyDaemon networkKTQuery:application:traceUUID:timeout:complete:]_block_invoke.697
++ __77-[TransparencyDaemon setOptInForURI:application:state:smtTimestamp:complete:]_block_invoke.624
++ __81-[TransparencyDaemon validateSelfForThisDeviceForApplication:pushToken:complete:]_block_invoke.703
++ __Block_copy
++ __Block_release
++ __DATA__TtC12Transparency11AETEventKey
++ __DATA__TtC12Transparency14AETransparency
++ __DATA__TtC12Transparency19AETTransparentEvent
++ __DATA__TtC12Transparency21AETVerifyProofRequest
++ __DATA__TtC12Transparency22AETVerifyProofResponse
++ __DATA__TtC12Transparency26AETEventVerificationResult
++ __DATA__TtC12Transparency26AETransparencyXPCInterface
++ __DATA__TtC12Transparency28AETransparencyRequestContext
++ __DATA__TtC12Transparency8AETEvent
++ __INSTANCE_METHODS__TtC12Transparency11AETEventKey
++ __INSTANCE_METHODS__TtC12Transparency14AETransparency
++ __INSTANCE_METHODS__TtC12Transparency19AETTransparentEvent
++ __INSTANCE_METHODS__TtC12Transparency21AETVerifyProofRequest
++ __INSTANCE_METHODS__TtC12Transparency22AETVerifyProofResponse
++ __INSTANCE_METHODS__TtC12Transparency26AETEventVerificationResult
++ __INSTANCE_METHODS__TtC12Transparency26AETransparencyXPCInterface
++ __INSTANCE_METHODS__TtC12Transparency28AETransparencyRequestContext
++ __INSTANCE_METHODS__TtC12Transparency8AETEvent
++ __IVARS__TtC12Transparency11AETEventKey
++ __IVARS__TtC12Transparency14AETransparency
++ __IVARS__TtC12Transparency19AETTransparentEvent
++ __IVARS__TtC12Transparency21AETVerifyProofRequest
++ __IVARS__TtC12Transparency22AETVerifyProofResponse
++ __IVARS__TtC12Transparency26AETEventVerificationResult
++ __IVARS__TtC12Transparency28AETransparencyRequestContext
++ __IVARS__TtC12Transparency8AETEvent
++ __METACLASS_DATA__TtC12Transparency11AETEventKey
++ __METACLASS_DATA__TtC12Transparency14AETransparency
++ __METACLASS_DATA__TtC12Transparency19AETTransparentEvent
++ __METACLASS_DATA__TtC12Transparency21AETVerifyProofRequest
++ __METACLASS_DATA__TtC12Transparency22AETVerifyProofResponse
++ __METACLASS_DATA__TtC12Transparency26AETEventVerificationResult
++ __METACLASS_DATA__TtC12Transparency26AETransparencyXPCInterface
++ __METACLASS_DATA__TtC12Transparency28AETransparencyRequestContext
++ __METACLASS_DATA__TtC12Transparency8AETEvent
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSXPCProxyCreating
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXPCProxyCreating
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSXPCProxyCreating
++ __OBJC_LABEL_PROTOCOL_$_NSXPCProxyCreating
++ __OBJC_PROTOCOL_$_NSXPCProxyCreating
++ __PROPERTIES__TtC12Transparency11AETEventKey
++ __PROPERTIES__TtC12Transparency19AETTransparentEvent
++ __PROPERTIES__TtC12Transparency21AETVerifyProofRequest
++ __PROPERTIES__TtC12Transparency22AETVerifyProofResponse
++ __PROPERTIES__TtC12Transparency26AETEventVerificationResult
++ __PROPERTIES__TtC12Transparency28AETransparencyRequestContext
++ __PROPERTIES__TtC12Transparency8AETEvent
++ __PROTOCOL_INSTANCE_METHODS__TtP12Transparency25AETransparencyXPCProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP12Transparency25AETransparencyXPCProtocol_
++ __PROTOCOL__TtP12Transparency25AETransparencyXPCProtocol_
++ ___swift_allocate_value_buffer
++ ___swift_closure_destructor
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___swift_project_value_buffer
++ __block_literal_global.154
++ __block_literal_global.164
++ __block_literal_global.172
++ __block_literal_global.200
++ __block_literal_global.205
++ __block_literal_global.208
++ __block_literal_global.210
++ __block_literal_global.477
++ __block_literal_global.481
++ __block_literal_global.485
++ __block_literal_global.495
++ __block_literal_global.526
++ __block_literal_global.534
++ __block_literal_global.536
++ __block_literal_global.546
++ __block_literal_global.560
++ __block_literal_global.564
++ __block_literal_global.569
++ __block_literal_global.571
++ __block_literal_global.577
++ __block_literal_global.599
++ __block_literal_global.612
++ __block_literal_global.641
++ __block_literal_global.646
++ __block_literal_global.652
++ __block_literal_global.666
++ __block_literal_global.677
++ __block_literal_global.686
++ __block_literal_global.693
++ __block_literal_global.705
++ __block_literal_global.712
++ __swift_closure_destructor.108
++ __swift_closure_destructor.108Tm
++ __swift_closure_destructor.112
++ __swift_closure_destructor.117
++ __swift_closure_destructor.123
++ __swift_closure_destructor.127
++ __swift_closure_destructor.132
++ __swift_closure_destructor.138
++ __swift_closure_destructor.14
++ __swift_closure_destructor.142
++ __swift_closure_destructor.147
++ __swift_closure_destructor.153
++ __swift_closure_destructor.153Tm
++ __swift_closure_destructor.157
++ __swift_closure_destructor.162
++ __swift_closure_destructor.168
++ __swift_closure_destructor.172
++ __swift_closure_destructor.177
++ __swift_closure_destructor.183
++ __swift_closure_destructor.2
++ __swift_closure_destructor.20
++ __swift_closure_destructor.209
++ __swift_closure_destructor.20Tm
++ __swift_closure_destructor.215
++ __swift_closure_destructor.219
++ __swift_closure_destructor.26
++ __swift_closure_destructor.32
++ __swift_closure_destructor.38
++ __swift_closure_destructor.6
++ __swift_closure_destructor.83
++ __swift_closure_destructor.87
++ __swift_closure_destructor.87Tm
++ __swift_closure_destructor.91
++ __swift_closure_destructor.95
++ __swift_closure_destructor.99
++ __swift_implicitisolationactor_to_executor_cast
++ __swift_stdlib_bridgeErrorToNSError
++ _associated conformance 12Transparency0A12AETErrorCodeOSHAASQ
++ _associated conformance 12Transparency11AETEventKeyC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLOSHAASQ
++ _associated conformance 12Transparency11AETEventKeyC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLOs0dC0AAs23CustomStringConvertible
++ _associated conformance 12Transparency11AETEventKeyC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLOs0dC0AAs28CustomDebugStringConvertible
++ _associated conformance 12Transparency12AETEventTypeOSHAASQ
++ _associated conformance 12Transparency12AETEventTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 12Transparency16AETHashAlgorithmOSHAASQ
++ _associated conformance 12Transparency16AETHashAlgorithmOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 12Transparency19AETTransparentEventC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLOSHAASQ
++ _associated conformance 12Transparency19AETTransparentEventC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 12Transparency19AETTransparentEventC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12Transparency19AETransparencyErrorO10Foundation021_ObjectiveCBridgeableC0AAs0C0
++ _associated conformance 12Transparency19AETransparencyErrorO10Foundation13CustomNSErrorAAs0C0
++ _associated conformance 12Transparency19AETransparencyErrorO10Foundation15_BridgedNSErrorAA8RawValueSY_s17FixedWidthInteger
++ _associated conformance 12Transparency19AETransparencyErrorO10Foundation15_BridgedNSErrorAASH
++ _associated conformance 12Transparency19AETransparencyErrorO10Foundation15_BridgedNSErrorAASY
++ _associated conformance 12Transparency19AETransparencyErrorO10Foundation15_BridgedNSErrorAaD021_ObjectiveCBridgeableC0
++ _associated conformance 12Transparency19AETransparencyErrorOSHAASQ
++ _associated conformance 12Transparency21AETVerifyProofRequestC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLOSHAASQ
++ _associated conformance 12Transparency21AETVerifyProofRequestC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12Transparency21AETVerifyProofRequestC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12Transparency22AETVerifyProofResponseC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLOSHAASQ
++ _associated conformance 12Transparency22AETVerifyProofResponseC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12Transparency22AETVerifyProofResponseC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12Transparency25AETEventVerificationStateOSHAASQ
++ _associated conformance 12Transparency25AETEventVerificationStateOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 12Transparency26AETEventVerificationResultC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLOSHAASQ
++ _associated conformance 12Transparency26AETEventVerificationResultC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12Transparency26AETEventVerificationResultC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12Transparency28AETransparencyRequestContextC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLOSHAASQ
++ _associated conformance 12Transparency28AETransparencyRequestContextC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12Transparency28AETransparencyRequestContextC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12Transparency8AETEventC04CoreA026AETVerifiableEventProtocolAA17MetadataHashBytesAdEP_AD18CTBytesConvertible
++ _associated conformance 12Transparency8AETEventC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLOSHAASQ
++ _associated conformance 12Transparency8AETEventC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLOs0C3KeyAAs23CustomStringConvertible
++ _associated conformance 12Transparency8AETEventC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLOs0C3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper
++ _block_descriptor
++ _block_destroy_helper
++ _flat unique 12Transparency25AETransparencyXPCProtocol_p
++ _flat unique So18NSXPCProxyCreating_p
++ _objc_autorelease
++ _objc_msgSend$clearCachesWithContext:clearConfigCache:clearConfigDiskCache:clearPublicKeyCache:clearPublicKeyDiskCache:completionHandler:
++ _objc_msgSend$forceTreeResetPopulating
++ _objc_msgSend$garbageCollectWithContext:completionHandler:
++ _objc_msgSend$getConfigBagWithContext:clearCache:clearDiskCache:type:completionHandler:
++ _objc_msgSend$getPublicKeyBagWithContext:clearCache:clearDiskCache:configBagType:completionHandler:
++ _objc_msgSend$initWithApplication:environment:flowId:
++ _objc_msgSend$initWithApplication:environment:flowId:altDSID:
++ _objc_msgSend$initWithArray:
++ _objc_msgSend$initWithDsid:proof:proofServerHint:verifiableEvents:returnAllLoggedEvents:
++ _objc_msgSend$initWithEventId:insertionMs:eventType:
++ _objc_msgSend$initWithKey:metadata:algorithm:
++ _objc_msgSend$initWithKey:metadataHash:
++ _objc_msgSend$makeProofRequestPayloadWithContext:dsid:completionHandler:
++ _objc_msgSend$setTreeResetInProgress:
++ _objc_msgSend$treeResetInProgress
++ _objc_msgSend$verifyProofWithContext:request:completionHandler:
++ _swift_arrayInitWithCopy
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_continuation_throwingResume
++ _swift_continuation_throwingResumeWithError
++ _swift_deallocObject
++ _swift_dynamicCast
++ _swift_once
++ _swift_task_create
++ _swift_willThrowTypedImpl
++ _symbolic $s12Transparency0A8AETErrorP
++ _symbolic $s12Transparency13AETXPCCodableP
++ _symbolic $s12Transparency25AETransparencyXPCProtocolP
++ _symbolic $s16CoreTransparency26AETVerifiableEventProtocolP
++ _symbolic IeAgH_
++ _symbolic IeghH_
++ _symbolic Say_____G 12Transparency12AETEventTypeO
++ _symbolic Say_____G 12Transparency16AETHashAlgorithmO
++ _symbolic Say_____G 12Transparency19AETTransparentEventC
++ _symbolic Say_____G 12Transparency25AETEventVerificationStateO
++ _symbolic Say_____G 12Transparency26AETEventVerificationResultC
++ _symbolic Say_____G 12Transparency8AETEventC
++ _symbolic Say_____GSg 12Transparency19AETTransparentEventC
++ _symbolic Say_____GSg 12Transparency26AETEventVerificationResultC
++ _symbolic Say_____GSg 12Transparency8AETEventC
++ _symbolic ScA_pSg
++ _symbolic ScCy___________pG 10Foundation4DataV s5ErrorP
++ _symbolic ScPSg
++ _symbolic Sccy___________pG 10Foundation4DataV s5ErrorP
++ _symbolic So6NSDataCSgSo7NSErrorCSgIeyByy_
++ _symbolic So6NSDataCm
++ _symbolic So8NSObjectCSg
++ _symbolic So8NSStringC
++ _symbolic So8NSStringCSgSo7NSErrorCSgIeyByy_
++ _symbolic _____ 10Foundation4DataV
++ _symbolic _____ 10ObjectiveC8ObjCBoolV
++ _symbolic _____ 12Transparency0A12AETErrorCodeO
++ _symbolic _____ 12Transparency11AETEventKeyC
++ _symbolic _____ 12Transparency11AETEventKeyC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLO
++ _symbolic _____ 12Transparency12AETEventTypeO
++ _symbolic _____ 12Transparency14AETransparencyC
++ _symbolic _____ 12Transparency16AETHashAlgorithmO
++ _symbolic _____ 12Transparency19AETTransparentEventC
++ _symbolic _____ 12Transparency19AETTransparentEventC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLO
++ _symbolic _____ 12Transparency19AETransparencyErrorO
++ _symbolic _____ 12Transparency21AETVerifyProofRequestC
++ _symbolic _____ 12Transparency21AETVerifyProofRequestC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLO
++ _symbolic _____ 12Transparency22AETVerifyProofResponseC
++ _symbolic _____ 12Transparency22AETVerifyProofResponseC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLO
++ _symbolic _____ 12Transparency25AETEventVerificationStateO
++ _symbolic _____ 12Transparency26AETEventVerificationResultC
++ _symbolic _____ 12Transparency26AETEventVerificationResultC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLO
++ _symbolic _____ 12Transparency26AETransparencyXPCInterfaceC
++ _symbolic _____ 12Transparency28AETransparencyRequestContextC
++ _symbolic _____ 12Transparency28AETransparencyRequestContextC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLO
++ _symbolic _____ 12Transparency8AETEventC
++ _symbolic _____ 12Transparency8AETEventC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLO
++ _symbolic _____ s5UInt8V
++ _symbolic _____ s6UInt64V
++ _symbolic _____Sg 12Transparency04CoreA15ApplicationShimO
++ _symbolic _____Sg 12Transparency04CoreA21ServerEnvironmentShimO
++ _symbolic _____Sg 12Transparency11AETEventKeyC
++ _symbolic _____Sg 12Transparency25AETEventVerificationStateO
++ _symbolic _____Sg 12Transparency8AETEventC
++ _symbolic _____Sg 16CoreTransparency15AetTlsEventTypeV
++ _symbolic _____SgSo7NSErrorCSgIeyByy_ 12Transparency22AETVerifyProofResponseC
++ _symbolic _____XDXMT 12Transparency14AETransparencyC
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic ______p 12Transparency25AETransparencyXPCProtocolP
++ _symbolic ______p So18NSXPCProxyCreatingP
++ _symbolic ______pSgyYbc So18NSXPCProxyCreatingP
++ _symbolic ______p___________pIegHgrzo_ 12Transparency25AETransparencyXPCProtocolP 10Foundation4DataV s5ErrorP
++ _symbolic ______pm 12Transparency25AETransparencyXPCProtocolP
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12Transparency11AETEventKeyC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12Transparency19AETTransparentEventC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12Transparency21AETVerifyProofRequestC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12Transparency22AETVerifyProofResponseC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12Transparency26AETEventVerificationResultC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12Transparency28AETransparencyRequestContextC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12Transparency8AETEventC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12Transparency11AETEventKeyC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12Transparency19AETTransparentEventC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12Transparency21AETVerifyProofRequestC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12Transparency22AETVerifyProofResponseC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12Transparency26AETEventVerificationResultC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12Transparency28AETransparencyRequestContextC10CodingKeys33_B2E81D5B78BC7581F9ED15A295A4D291LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12Transparency8AETEventC10CodingKeys33_9EC6913878C59184B1F4C9B49A1B3CEDLLO
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic x
++ _symbolic ytIeAgHr_
++ block_copy_helper.188
++ block_copy_helper.192
++ block_copy_helper.196
++ block_copy_helper.201
++ block_copy_helper.211
++ block_copy_helper.225
++ block_descriptor.190
++ block_descriptor.194
++ block_descriptor.198
++ block_descriptor.203
++ block_descriptor.213
++ block_descriptor.227
++ block_destroy_helper.189
++ block_destroy_helper.193
++ block_destroy_helper.197
++ block_destroy_helper.202
++ block_destroy_helper.212
++ block_destroy_helper.226
+- __125-[TransparencyDaemon replaySelfValidate:application:pcsAccountKey:queryRequest:queryResponse:responseTime:completionHandler:]_block_invoke.546
+- __35-[KTVerifier clearPeerCache:error:]_block_invoke.207
+- __35-[KTVerifier clearPeerCache:error:]_block_invoke_2.208
+- __40-[TransparencyDaemon getAllOptInStates:]_block_invoke.624
+- __40-[TransparencyDaemon ktRepair:complete:]_block_invoke.703
+- __44-[TransparencyDaemon configurationBagFetch:]_block_invoke.469
+- __44-[TransparencyDaemon setOSVersion:complete:]_block_invoke.644
+- __44-[TransparencyDaemon transparencyFetchIDMS:]_block_invoke.515
+- __44-[TransparencyDaemon transparencyIDSRepair:]_block_invoke.475
+- __44-[TransparencyDaemon transparencyIDSRepair:]_block_invoke_2.476
+- __45-[TransparencyDaemon getOptInState:complete:]_block_invoke.615
+- __45-[TransparencyDaemon maybeUpdateMonitorState]_block_invoke.526
+- __45-[TransparencyDaemon maybeUpdateMonitorState]_block_invoke.526.cold.1
+- __45-[TransparencyDaemon maybeUpdateMonitorState]_block_invoke_2.529
+- __46+[TransparencySettings jsonDictFromPlistDict:]_block_invoke.166
+- __46-[TransparencyDaemon transparencySysDiagnose:]_block_invoke.479
+- __47-[TransparencyDaemon transparencyCloudDevices:]_block_invoke.594
+- __47-[TransparencyDaemon transparencyValidateSelf:]_block_invoke.518
+- __48-[TransparencyDaemon clearEligibilityOverrides:]_block_invoke.655
+- __49-[TransparencyDaemon reportEligibility:complete:]_block_invoke.658
+- __49-[TransparencyDaemon transparencyCheckIDSHealth:]_block_invoke.575
+- __49-[TransparencyDaemon transparencyCheckIDSHealth:]_block_invoke.579
+- __49-[TransparencyDaemon transparencyIDMSDeviceList:]_block_invoke.534
+- __49-[TransparencyDaemon transparencyIDMSDeviceList:]_block_invoke.538
+- __49-[TransparencyDaemon transparencyIDMSDeviceList:]_block_invoke.538.cold.1
+- __49-[TransparencyDaemon transparencyIDMSDeviceList:]_block_invoke_2.541
+- __50-[TransparencyDaemon transparencyFetchPublicKeys:]_block_invoke.549
+- __50-[TransparencyDaemon transparencySysDiagnoseData:]_block_invoke.483
+- __50-[TransparencyDaemon transparencySysDiagnoseData:]_block_invoke.485
+- __50-[TransparencyDaemon transparencySysDiagnoseData:]_block_invoke.489
+- __50-[TransparencyDaemon transparencySysDiagnoseData:]_block_invoke.489.cold.1
+- __50-[TransparencyDaemon transparencySysDiagnoseData:]_block_invoke.493
+- __50-[TransparencyDaemon transparencySysDiagnoseData:]_block_invoke.505
+- __50-[TransparencyDaemon transparencySysDiagnoseData:]_block_invoke_2.490
+- __52-[TransparencyDaemon performAndWaitForSelfValidate:]_block_invoke.521
+- __55-[KTVerifier getDisplayStatusForResults:isSelfOptedIn:]_block_invoke.198
+- __55-[TransparencyDaemon updateIDSRecommendation:complete:]_block_invoke.641
+- __57-[TransparencyDaemon transparencyDumpKTRegistrationData:]_block_invoke.585
+- __57-[TransparencyDaemon transparencyTriggerIDSRegistration:]_block_invoke.552
+- __58-[TransparencyDaemon getAggregateResult:element:complete:]_block_invoke.661
+- __58-[TransparencyDaemon getOptInForURI:application:complete:]_block_invoke.618
+- __58-[TransparencyDaemon transparencyClearKTRegistrationData:]_block_invoke.591
+- __59-[TransparencyDaemon clearTapToRadarNotification:complete:]_block_invoke.569
+- __59-[TransparencyDaemon getOptInStateForApplication:complete:]_block_invoke.627
+- __59-[TransparencyDaemon transparencyGetKTSignatures:complete:]_block_invoke.588
+- __60-[TransparencyDaemon changeOptInState:application:complete:]_block_invoke.612
+- __60-[TransparencyDaemon transparencyTriggerOperation:complete:]_block_invoke.607
+- __61-[TransparencyDaemon transparencyCheckKTAccountKey:complete:]_block_invoke.555
+- __61-[TransparencyDaemon transparencyTriggerTTR:handle:complete:]_block_invoke.558
+- __61-[TransparencyDaemon transparencyTriggerTTR:handle:complete:]_block_invoke.558.cold.1
+- __61-[TransparencyDaemon transparencyTriggerTTR:handle:complete:]_block_invoke.563
+- __61-[TransparencyDaemon transparencyTriggerTTR:handle:complete:]_block_invoke.563.cold.1
+- __61-[TransparencyDaemon transparencyTriggerTTR:handle:complete:]_block_invoke_2.559
+- __61-[TransparencyDaemon transparencyTriggerTTR:handle:complete:]_block_invoke_2.564
+- __63-[KTVerifierResult updateWithStaticKeyEnforcedPeerEnforcement:]_block_invoke.44
+- __63-[TransparencyDaemon setOverrideTimeBetweenReports:completion:]_block_invoke.652
+- __63-[TransparencyDaemon successInfoForElement:samples:completion:]_block_invoke.672
+- __63-[TransparencyDaemon transparencyPerformRegistrationSignature:]_block_invoke.582
+- __63-[TransparencyDaemon triggerReportAndMaybeOptInWithCompletion:]_block_invoke.669
+- __65-[TransparencyDaemon clearOptInStateForURI:application:complete:]_block_invoke.630
+- __67-[TransparencyDaemon validateURIs:queryOptions:traceUUID:complete:]_block_invoke.710
+- __68-[TransparencyDaemon networkKTQuery:application:traceUUID:complete:]_block_invoke.684
+- __68-[TransparencyDaemon networkKTQuery:application:traceUUID:complete:]_block_invoke.688
+- __69-[TransparencyDaemon transparencyCloudDeviceAdd:clientData:complete:]_block_invoke.633
+- __70-[TransparencyDaemon ktQuery:application:queryOptions:trace:complete:]_block_invoke.697
+- __72-[TransparencyDaemon transparencyCloudDeviceRemove:clientData:complete:]_block_invoke.636
+- __73-[TransparencyDaemon insertResultForElement:samplesAgo:success:complete:]_block_invoke.666
+- __74-[TransparencyDaemon validateIDSData:ktQueryData:ktResponseData:complete:]_block_invoke.707
+- __76-[TransparencyDaemon networkKTPublicKeyBag:queryOptions:traceUUID:complete:]_block_invoke.675
+- __76-[TransparencyDaemon networkKTPublicKeyBag:queryOptions:traceUUID:complete:]_block_invoke.681
+- __76-[TransparencyDaemon networkKTQuery:application:traceUUID:timeout:complete:]_block_invoke.691
+- __77-[TransparencyDaemon setOptInForURI:application:state:smtTimestamp:complete:]_block_invoke.621
+- __81-[TransparencyDaemon validateSelfForThisDeviceForApplication:pushToken:complete:]_block_invoke.700
+- __block_literal_global.142
+- __block_literal_global.160
+- __block_literal_global.168
+- __block_literal_global.196
+- __block_literal_global.201
+- __block_literal_global.204
+- __block_literal_global.206
+- __block_literal_global.474
+- __block_literal_global.478
+- __block_literal_global.482
+- __block_literal_global.492
+- __block_literal_global.514
+- __block_literal_global.525
+- __block_literal_global.533
+- __block_literal_global.540
+- __block_literal_global.545
+- __block_literal_global.561
+- __block_literal_global.566
+- __block_literal_global.568
+- __block_literal_global.574
+- __block_literal_global.581
+- __block_literal_global.606
+- __block_literal_global.614
+- __block_literal_global.643
+- __block_literal_global.649
+- __block_literal_global.654
+- __block_literal_global.668
+- __block_literal_global.683
+- __block_literal_global.690
+- __block_literal_global.696
+- __block_literal_global.706
+CStrings:
++ " treeResetInProgress"
++ ", allLoggedEvents="
++ ", proofServerHint="
++ ", proofTimestampMs="
++ ", returnAllLoggedEvents="
++ ", verifiableEventCount="
++ ", verifiableEvents="
++ ", verificationState="
++ "AETEventKey(eventId="
++ "AETEventVerificationResult(verifiableEvent="
++ "AETEventVerificationState(name="
++ "AETTransparentEvent(event="
++ "AETVerifyProofRequest(dsid="
++ "AETVerifyProofResponse(eventVerificationResults="
++ "AETransparencyRequestContext(application="
++ "Error casting proxy to AETransparencyXPCProtocol.\nExpected: %s\nActual: %s"
++ "Error creating proxy: %@"
++ "ErrorStillPopulating"
++ "ErrorStillPopulatingIgnored"
++ "Transparency.AETEventVerificationResult"
++ "Transparency.AETTransparentEvent"
++ "Transparency.AETVerifyProofResponse"
++ "Transparency.AETransparency"
++ "Transparency.AETransparencyError"
++ "Transparency.AETransparencyRequestContext"
++ "Unknown AETHashAlgorithm value %ld, falling back to SHA256"
++ "_allLoggedEvents"
++ "_eventVerificationResults"
++ "_proofTimestampMs"
++ "_returnAllLoggedEvents"
++ "_verifiableEvent"
++ "_verifiableEvents"
++ "_verificationState"
++ "clearCaches with context: %s"
++ "com.apple.Transparency.AETransparencyError"
++ "com.apple.transparencyd.aet"
++ "connectionProvider returned nil (expected only on simulator / no-XPC environments)"
++ "eventMetadataMismatch"
++ "eventNotTransparent"
++ "forceTreeResetPopulating"
++ "garbageCollect with context: %s"
++ "getConfigBag with context: %s"
++ "getPublicKeyBag with context: %s"
++ "makeProofRequestPayload with context: %s dsid: %llu"
++ "treeResetInProgress"
++ "verifyProof with context=%s"
++ "withRemoteObjectProxyImpl(_:)"
+
+```

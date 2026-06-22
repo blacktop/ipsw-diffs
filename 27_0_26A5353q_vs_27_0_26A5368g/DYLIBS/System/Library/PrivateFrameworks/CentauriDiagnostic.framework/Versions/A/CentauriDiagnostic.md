@@ -1,0 +1,113 @@
+## CentauriDiagnostic
+
+> `/System/Library/PrivateFrameworks/CentauriDiagnostic.framework/Versions/A/CentauriDiagnostic`
+
+```diff
+
+-123.0.0.0.1
+-  __TEXT.__text: 0x69c4 sha256:398a906153eb2661b9d22b3b27ff4a0584ab6819ca0332d702df1b2e39a4ce2d
+-  __TEXT.__objc_methlist: 0x1e4 sha256:35feb8c8e51ca52395219c891c7566b3d069b3523568ea29a4a888f62d12cb2f
++124.0.0.0.1
++  __TEXT.__text: 0x69b4 sha256:71f35552f7caa1a668e6ef05893de387e7eec83011e0c33d062e9b0be44dacbb
++  __TEXT.__objc_methlist: 0x1e4 sha256:f9a6fc26d5c40e5d979fb1a9b9df043f560aa95300fd0e3ac770d9c8c879ffbf
+   __TEXT.__const: 0xa1 sha256:d5b142fad25f119b8fe627ba40c46dd5d479ba911fa39875182137a77c4f06a9
+   __TEXT.__cstring: 0x18d8 sha256:c06df626fb112c5bd55384b137511f02f85cfc56e1eb550e2568130db04732e3
+   __TEXT.__oslogstring: 0xce1 sha256:fd9e72ccd6098156103694cbee986cfd41ab047711ec47a5f85da4ef44ad2af6
+-  __TEXT.__unwind_info: 0xf8 sha256:c0ddb7c153e607c5d9b9f2b9ef58e549916b2621ca74bc0369722b4fa84f9440
++  __TEXT.__unwind_info: 0xf8 sha256:7e080d643c614999cea0de234762eb70453e3ab6e641f1a82823bb10ad0c435f
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1d0 sha256:080e2e0e7a368000029e46e21581ffed6c7b78facbe26b8a4655c02dd2048e05
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:22029328add30a8621b1139ae6896c96f107aa0e0acd3fe964ccb39df6567c25
++  __DATA_CONST.__const: 0x1d0 sha256:3b2d305ba5b8574c3be8b6c8e533cb593d5f0b60da8925d77d335f1b052c75f4
++  __DATA_CONST.__objc_classlist: 0x28 sha256:6d066d91557f610a5d9d19aef7e6e3d855f782e8f665e1578f33aed5cc2fc1a6
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x200 sha256:5833a8529475245db11393a2f2e1b421e850bba247c20f2e17d2a81039cff851
+-  __DATA_CONST.__objc_superrefs: 0x28 sha256:8e5cafa8f4501af44e6b1977f80d1d04f093887b8cdf3732da529ff0c51a3606
+-  __DATA_CONST.__objc_arraydata: 0x138 sha256:ea63b61c270719ef97ab260ccfd1abcc59f0f0ae253d876948e9103c0031ad19
+-  __DATA_CONST.__got: 0xc0 sha256:c51b2c84203a89070d4830f4e39761987e1ea433ae3b880e382a0c958a951d60
+-  __AUTH_CONST.__const: 0xa0 sha256:bde16aff15def5e84744a61f2cb894128a3fe3a21c9c2509f3af34f920248ce2
+-  __AUTH_CONST.__cfstring: 0x840 sha256:e432018a2bb875840f6069b9e474837bbbf4309df80a6e224d9e3b9c7b4a1937
+-  __AUTH_CONST.__objc_const: 0x410 sha256:eea4ad2e0a931743d5c4b495ba18cf73132379f857e4601cbf206109b2b137d8
+-  __AUTH_CONST.__objc_arrayobj: 0x1e0 sha256:6640b1a14b1ec969dbb699ed57a58c8afab580588a057a6f0d9864166868cb96
++  __DATA_CONST.__objc_selrefs: 0x200 sha256:ce878de3cce1cda0095fbcd0df877215c4e08419bd1bf52c6d05093eb3ab4004
++  __DATA_CONST.__objc_superrefs: 0x28 sha256:f51e62c6c44e93afdfb79991b7264b62d7e8684f2623668dcbf2f71990ec8d53
++  __DATA_CONST.__objc_arraydata: 0x138 sha256:59a5fd5c3f03d5d871b401b8b28da18ea0852c79bd27e48fc82aa4e4993200cb
++  __DATA_CONST.__got: 0xc0 sha256:4824c7b3a4bd84c73730968f6ce0afe52ff978b7f9ba1e422e465517600bcf5f
++  __AUTH_CONST.__const: 0xa0 sha256:c29b960af94effe4d7ad4f9203d4f28f9b574ac912f6ff960979179ce708b185
++  __AUTH_CONST.__cfstring: 0x840 sha256:49d7f0c32dd98975a654785bb2e95c2e3b3603284ed1abae729cf41b11bb6238
++  __AUTH_CONST.__objc_const: 0x410 sha256:ef327e8479937e6c5730c5d3d3cfb212bb783fb236cd84b0e35d958e59b2451f
++  __AUTH_CONST.__objc_arrayobj: 0x1e0 sha256:6a32bb3bd56aeeddae25be14ba1239077a26b7cc49f87ecb4bffcefc34a8bba5
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x190 sha256:56c777194fc18600eaec736997e18a230ab65f8c91ac3df2d87befe0bc5ee938
++  __AUTH.__objc_data: 0x190 sha256:c4a98d00d958e1cf73141b4b7ff568de97a67979602ac066fe1c240dbaa8cd11
+   __DATA.__objc_ivar: 0x18 sha256:6ee86f2a91b2696f6ef931c539120dd47092ac24f4327fdeba827692247a7463
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /System/Library/PrivateFrameworks/Centauri.framework/Versions/A/Centauri
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EA577C07-E039-3F98-9CD2-9731BEFD1AA0
++  UUID: 00FDC4B9-BDE0-34E8-98F7-019483D7A615
+   Functions: 55
+   Symbols:   216
+   CStrings:  227
+Functions:
+~ -[CDFCollectionItem initWithPathURL:date:fileSize:] : sha256 57140ea641626811557000e6560475fb0c1df6168e3800921b79b996f177adff -> e89321d1fdee725af3ec685cc05d32244899c5e51876e783a55eadbe55812565
+~ +[CDFCollectionItem itemWithPathURL:date:fileSize:] : sha256 b2f3d95fbc0ca187b67ac99e5b236a412c6139d1e43bf8e9cb9ee32c4e8992a7 -> cccb68219b3c03346b57a75eccf8f5e102dcfdc1bfcc3f6cbecd2c6565046953
+~ -[CDFCollectionItem name] : sha256 94e3911cf0f30333220051a6d4e5a35eccdb8b1c112efc2b5fc7d796abb3ca9a -> 3d944a98ad7c93820a1bdb8bf930cb056cffc74315ef15230b098c10416fcae8
+~ -[CDFCollectionItem path] : sha256 6072f522578d6a742d035d4c15f4aca23780f8f08f39cf35fd9bffb8bb1d7464 -> 09eb31ae897bb3c77d356fc765a9d7f76a0817ebb2539cccdfb22e5b4a762d06
+~ -[CDFCollectionItem date] : sha256 16b9c0cb427a8cebb5365a0a9c0ae8ab88b1c73256a44037c506dd9520c5b785 -> 966779a0caad1ca3476d0cfde4fdcdf2c78d2a10ea62291e1d8e529b26089186
+~ -[CDFCollectionItem size] : sha256 ef818f40019e0a27a4a968bc6bd2597c8cd9aa1ecf794f38078894a3439968aa -> f1e03afb484d77fd5128d01adfc82466bfd8be5b8d17af3de44a72cc6ca0485a
+~ -[CDFCollectionItem .cxx_destruct] : sha256 54bfb08b93bdc2db6a0cb059bcdbed3930d2a8224aa3b6ff631c10c6dbd3ac59 -> 9c7a06436894ec235fb8753578b9df60ca01dd1bb2b0a60f3fb4a285000f7a3c
+~ _collectSubsystemLogsForClient : 3260 -> 3276
+~ _collectFoldersForSubsystem : sha256 0c0fddb189763cde87c81a91865b2c7b90dd70486a11def192610510b36975d4 -> c335ece25e9b633c01b05a2cb49534f85679aa8cfad0a8114215de4619baa280
+~ _collectClientLogsWithSizeAndOverride : sha256 9fd041eb804faeadbb0751e3f1b6367cea6db5a8f46a8d7e013ee58d2976bb6c -> 936666f0fb0b401edaf83603ce285d707b610332657104aa08f3fd100101e630
+~ _getTotalSizeForPath : 812 -> 808
+~ _isCentauriPlatform : sha256 208f2ab52e3b92361a22c7089d8cf68b5657f521b2c8dfbcc006f2297348e901 -> 195722eba3cdde4a865774520e305a5cd40c1e5019240d8303cb1f4a308917e6
+~ ___getSortedFolderURLsForSubsystem_block_invoke : sha256 02fafb22bd39abeecd58607a67c8374e539a0d7bc6431bf129974d7f7a3a2c49 -> 08b489e2fb87509eac60c877b8b0d705c0c1fe1e8dca916e92285d1e18b1ecfb
+~ _getCDFClientFolderName : 144 -> 140
+~ ___collectDextCoresWithMaxCount_block_invoke : sha256 7ea345f3f1bf77a9e0dcb7dd51ac174a0320761d6dd5ae1af85b610fa3f4cf30 -> 1bfc01f738dc840d0c1391249a626dfdb4baeeac541f22274b914083f2e15d88
+~ ___sortURLsByDateDescending_block_invoke : sha256 ac10279df53e541e5e5d90861bbdcbcedec3eb7dd1609aac445e3f31576b0b1c -> b8ad94834bf92f1525f888a172f45fd71fed8d309139361a50ff9a25490abf61
+~ ___getTotalSizeForPath_block_invoke : sha256 ca598df61bd83a37dcdb1ce502bb047c4d670bcc6db85f8242df38ed605dfb51 -> 5622af8a4c538ab854c47ff507c3cab1ceb404aaf7abebbc6a9a915d94c2b80d
+~ _OUTLINED_FUNCTION_0 : sha256 383635c770c71c01b21c8f8b594a321f6591b590a558f2ca976c30d1833a4467 -> f9d279abc0bb743eaa925e1c2672d9bac4261d33166bc19ccdd7c15352c0dc7b
+~ _OUTLINED_FUNCTION_1 : sha256 229e0f9f9e9ba3fac247fd4299bc41b89df6b5ae4c1f6da1a3f5f83e20c1272e -> d167bb618570359c2093517a165bdc7dcc2e8b352985966f11043a62c343719d
+~ -[CDFControlDiagnostics collectStateSnapshotsFrom:to:runtimeFlags:] : sha256 5e818c7cea8fcfce30f1f9e9881a0159fe2fe58cf2e5f9367fc60bcba83b5f29 -> 0ebe50089cfed7cb6318398df0671fef0c748a98ecef9095a784f3f64579e318
+~ -[CDFControlDiagnostics collectTextLogsFrom:to:] : sha256 0cbf9e68d191a8c2ff57abea83588149f0023721826de0799a2c01e172b33947 -> 307326171afdc3cb492943208f2526c93ae018556c733cb718d1d70f18d4d804
+~ -[CDFControlDiagnostics collectFWLogsFrom:to:runtimeFlags:] : sha256 a1e4561dff535368439f85ad6f752a7ab771c8f4f9ae0e81ccf1735d8498d490 -> 9b1a5aee5501b9ffd3efbc4a16ebc8602888dfe558ae19091fe44d40ef2bf1f7
+~ -[CDFControlDiagnostics collectCCMetadataFrom:to:] : sha256 42a6b37dc5bb9006b845fca62206b4d3fc5fb2255174b00c96eb541972a91979 -> d0c4afe568b6e06381469255ba0702ee96336c7e440c7a7c157e0a813b1b22ac
+~ -[CDFControlDiagnostics collectLogsFrom:to:runtimeFlags:] : sha256 3eef7c5778b390397c2ed5cacfb686173d31dac007fbf3d696031c48f87f9083 -> 6d16f73034f7d4a8f532f50759d2e8843f91bc6feff76e2367ac264a1f85766b
+~ -[CDFControlDiagnostics collectLPMDebugDataFrom:to:] : sha256 4c2ea1b8f41a69cb09c631dc919c9d0e8b6b2bfacb7b6adc45619a122d43ece9 -> 9ac13e1956eec410effbcd2e57f5bd3d63e5d8221184dd31a25f70864026bbf8
+~ _OUTLINED_FUNCTION_0 : sha256 f190d55ef32caf1cb4f4166b6c66c570af36b21f02b6130e3e652baa8eea1da6 -> 7773d3439a1d6c743711c6ab9df1f911b5612e6de049c883854efc2afc8d5ac2
+~ -[CDFBetaDiagnostics collectStateSnapshotsFrom:to:runtimeFlags:] : sha256 41d63de012635d596c80e8940b1345e020a7db8ecb928cf625feeda3f68f0c3e -> 8427193d3698276c2e31b44ebcb71ba3f908ab361d45da0582b1508c3a93732e
+~ -[CDFBetaDiagnostics collectTextLogsFrom:to:] : sha256 07ecef866ce424b75fff017bbb90338ca394dce5519422b6998e8c76eae58260 -> 5d24e6badb5903cf018f90c366bf17d282f8f0186a8e731f38566da697a7a677
+~ -[CDFBetaDiagnostics collectFWLogsFrom:to:runtimeFlags:] : sha256 09f34120f28a809645eb3f898f1cc8128193ce9fbba28d44d2b80769f666318e -> a26e5e7f94f1e6705c73d16df2fe516991cc16672ca2eb3369b0a5ea2b66ce32
+~ -[CDFBetaDiagnostics collectCCMetadataFrom:to:] : sha256 cf81319def3d976bde42e35b260e79e4f4651726230ba29cf6f229cbfbdeee9b -> e5bf26dc7a59f98de4520a27fc994d8f2b1cf87399b0de74ffe5ebb72ba249d9
+~ -[CDFBetaDiagnostics collectLogsFrom:to:runtimeFlags:] : sha256 e7ecb82d01cab7da2d30ec8c52faab63cbbceb011da1a42f861a4608a1322fd4 -> 0e9160607c720725e33b9b200931a99ebdb801e1be2f41093a9499e4826bc6c8
+~ -[CDFAlphaDiagnostics collectStateSnapshotsFrom:to:runtimeFlags:] : sha256 6a37a89be711c133f1ec4d7827d346e64e2cb21181480892afe385e1048dfc32 -> c71e12ec7fe02957fc5024c0464d8521b73ddf0e934ea0bac1ccf6c181d7adda
+~ -[CDFAlphaDiagnostics collectTextLogsFrom:to:runtimeFlags:] : sha256 5a54c4bd1e9ca0bd46844efd5d9ab208b7084e82e5d65fc6288620e68e8082a6 -> 6e8e0124a97554573c1cfb8df0334954c592894603db337b8d33431a4040bca8
+~ -[CDFAlphaDiagnostics collectWLANPacketCapsFrom:to:runtimeFlags:] : sha256 9ea64c00df3695f7364b6f9071ab321cbd713538b3b9854ba709c58001c54114 -> 19c966e477a79a25368dd8864bacab10f4e025447bafea3380687486bac3cf73
+~ -[CDFAlphaDiagnostics collectFWLogsFrom:to:runtimeFlags:] : sha256 55b1fb47f927a140a40af3b4e9d29fa9a710943b855db849b4609d372054c9d1 -> f1abd2680cef06f9c2fbf8c1436b551278020156659abb583c6f1968d178c3fe
+~ -[CDFAlphaDiagnostics collectCCMetadataFrom:to:] : sha256 45b68b699978708ccb1c5fe263a230c4ad3563382d6bc3d5be18bca1cf51638f -> e834e7a4d9e7cb076540c2805f809c80aa79d7b8a2c49b4356dc3795e94d6682
+~ -[CDFAlphaDiagnostics collectLogsFrom:to:runtimeFlags:] : sha256 bde682dac0bfbad175f5af7db130188ae03a3fc1813d5d2fe1a6597d282b4572 -> 1cbb4ce7a5135c09bd2c91149911caf9ff1942653db6182b47319b398579ca9e
+~ -[CDFSubsystemDiagnostics init] : sha256 c92e2a02b6b3de8dc2a7a6a22dceeef0b77871e3ba6ddb37598a12d07dcfc32e -> bb0a894304a69a4d61d89edccb12924fb6e8baf01e821602ef5ce47bc71cce9c
+~ -[CDFSubsystemDiagnostics collectStateSnapshotsFrom:to:runtimeFlags:] : sha256 57daf118757fe8fcd6b31c6eefb4292d214b2c5ab523a5f8f3934b01c35f8019 -> 32d65ac93b7a4f81023c82bb2b1b515698b90d567f7ce1032b428545d4752089
+~ +[CDFSubsystemDiagnostics createSubsystemDirectoryStructure:outputDir:subDirectoryList:] : 916 -> 904
+~ +[CDFSubsystemDiagnostics collectFilesWithRegex:from:to:] : 1604 -> 1600
+~ +[CDFSubsystemDiagnostics collectFileWithRegex:from:to:mostRecent:] : 2196 -> 2192
+~ ___67+[CDFSubsystemDiagnostics collectFileWithRegex:from:to:mostRecent:]_block_invoke : sha256 27c52bc24359772d561b0013b3c203af7aea8e571d054d74610f0d9e3b61e5cc -> 6da03634d1fcdbdd8ab79c82d9e9f567e48114400a9bd6eb03a904259aeaa7f5
+~ +[CDFSubsystemDiagnostics collectFilesWithRegexes:from:to:mostRecent:] : 864 -> 860
+~ +[CDFSubsystemDiagnostics isCentauriPlatform] : sha256 18e8548791388de6a4367fb08ee49148ffc47ef8e562bee8c50dac9bcfad810f -> 48d11279909a42a8858e69003029bd596dacc0149f4c1dc89ab6e3c3ba597413
+~ +[CDFSubsystemDiagnostics isFatalCollection:] : sha256 0acad6f8a91c1abf81bdcf1415797758f5743036c98782912508ac246d89ed0a -> 68b8d25924e5fa4bd78b1cd3294bc9effae0f3a1e80467c3e4dc3ee95496ce4c
+~ collectSubsystemLogsForClient.cold.1 : sha256 b1c8312278daaeee7bdb03dbb574869e2593aeedca01f72e6c721b05d1272fc1 -> d5b498bd333da7c032a1957635ae70097e73bafaf3373b19d26a106cbb39c06b
+~ collectSubsystemLogsForClient.cold.2 : sha256 e887ae75a2e403221f5778e48ad4224e51dc7d57068e5e7f6271b9065a23748d -> 3ea342ae5a9e626778541cd76c7fe326beec6b78d8c69f705174b5a2d9e89da7
+~ getTotalSizeForPath.cold.1 : sha256 a255ee4207a48ad63732d3a3b567993ebb39010c8f75863f6ba4d46dacc64316 -> d5a5a579b88d5b9621efba1bd626866932b255da3b134726f098392181608c1c
+~ -[CDFControlDiagnostics collectLPMDebugDataFrom:to:].cold.1 : sha256 00614e20d8b45ecb4ea440b5084329336560664b8715ec99b8c737132a908b5e -> 1bfb3ccc4cbf9b87039baf1e92d2f4b41160ec8a0658661162218794f45eb391
+~ -[CDFControlDiagnostics collectLPMDebugDataFrom:to:].cold.2 : sha256 ebd2f801c3df729597361ba712dfbcbba9c4e8b6e88457be4454a4906553fe86 -> cfddf37450f3f363b65537a27877d241dc3b486310112997ee8f7a72d5e0edd9
+~ +[CDFSubsystemDiagnostics isCentauriPlatform].cold.1 : sha256 4dbd2d81ce663da94ddaae9c6c0a64ae935f7a4a17757d33c9420a6685d398d6 -> 072f37d60567381853e849718064d7338ea388bb2b191dd9cc04c5975189e91f
+
+```

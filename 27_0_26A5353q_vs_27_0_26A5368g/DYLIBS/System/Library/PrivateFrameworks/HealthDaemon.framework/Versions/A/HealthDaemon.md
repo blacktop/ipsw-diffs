@@ -1,0 +1,4614 @@
+## HealthDaemon
+
+> `/System/Library/PrivateFrameworks/HealthDaemon.framework/Versions/A/HealthDaemon`
+
+```diff
+
+-7027.0.52.1.3
+-  __TEXT.__text: 0x94e770 sha256:588dbf6522c88eb3f1d012004e973c8969d71115923bdb5d00ac5563a82e4678
+-  __TEXT.__objc_methlist: 0x4531c sha256:c1a8ef5126824e301eb359eff0e0efccd0732beba7d3419a810d1efd3191c56d
+-  __TEXT.__const: 0x25050 sha256:61caaf0a4b308fe90c6d7310ffb3591261232320ec7e2b6267ba5a19f65b3c14
+-  __TEXT.__constg_swiftt: 0x3a3c sha256:a2f0946744a86859ba2b7dd089bf1c7d5e4c774af7227cba0e5f197995ce77a6
+-  __TEXT.__swift5_typeref: 0x3c9f sha256:70ebda83933a8c50156bf23a0aac302097425199d711457aac136202a4ef3298
+-  __TEXT.__swift5_builtin: 0x104 sha256:6a25ba27f59a4f40ced2b19461de468dfa53a868d3b01d23d9efe3fb94ab456f
+-  __TEXT.__swift5_reflstr: 0x2888 sha256:5ba8cfc164bdb0bc12847cc1c69eb76a022d7104dec5c4e2367f29017d7e4708
+-  __TEXT.__swift5_fieldmd: 0x29a8 sha256:70f7506f889358d48089eef1231e048d14091756d093daf7f502a64297109e09
+-  __TEXT.__swift5_assocty: 0x980 sha256:28e6acab925c3a3326c71b5616a4d8f12f962f2e66faf9bc8bbe289522dd0707
+-  __TEXT.__swift5_proto: 0x4cc sha256:bc0b52e0aed358213d0e3afc0add639540e9da1ee36ec661f904f4583b5c7186
+-  __TEXT.__swift5_types: 0x2f4 sha256:962ac17ec3c937771ee1c8719d066273159b3452bd83ba2755c179bba55d4399
+-  __TEXT.__cstring: 0x81b4a sha256:7f7df341c7bae83bcfd6cefee54e45700aa7d8efa73e0833f4023b75dbc90483
+-  __TEXT.__swift5_capture: 0x1ac0 sha256:7908a73c234aa240e1d3c57a68875a80f5408c623534597149b4dcca2256937b
+-  __TEXT.__oslogstring: 0x432da sha256:90e01d9c879281926c008f60093018088a24216c117c8c840c49080b295b0b2d
+-  __TEXT.__swift5_mpenum: 0x18 sha256:ec47ef999214889c48029572ca66f6a0ff959cd608258a48d8a2375fd2444b32
+-  __TEXT.__swift5_protos: 0xa8 sha256:46f96717b829706ef8f296dd625bdbab14f8a00d5a29aae8c106c26e61ecd18c
+-  __TEXT.__swift_as_entry: 0xac sha256:c3c1917967e896ff212afd9740dca4f79d8e3dca4c195e2ac314aeef9801c317
+-  __TEXT.__swift_as_ret: 0xb0 sha256:4fcf001232f5b21f0a910ea02139b15cab926993b34762f9d8a8d410c29787fc
+-  __TEXT.__swift_as_cont: 0xf8 sha256:66cb7240d6c8d78d92b1f38a26fa2991d1f52957ad211897c9804cf985f6a56d
+-  __TEXT.__swift5_types2: 0x4 sha256:87198082718843f2a459e2d50a50b2dcbc34b0ba9840aa38cf8cb9c893215247
+-  __TEXT.__gcc_except_tab: 0x38968 sha256:d80c9dc5b5361f809e4523394ec5bffc7704dfd2f74b85ea46a60d319a15974d
++7027.0.60.1.1
++  __TEXT.__text: 0x9575e0 sha256:1081398cbe2c3f25ab37216fa1b4a53c4d80538244d430491ffe82bdb1456ff7
++  __TEXT.__objc_methlist: 0x4555c sha256:75ca082f5494d64ef6dd4b37ddcab038b8aeb379c43b95fe8d5c600cc4134411
++  __TEXT.__const: 0x250d0 sha256:028d019c8b86a59a187802b0b8c1874e3a8a7fed2c4095e1867d0cb3e47080fe
++  __TEXT.__constg_swiftt: 0x3a54 sha256:63874c060215d0f18e317d3e7f290a7a64b097aa4efecc5a90e5a41addd8a9d3
++  __TEXT.__swift5_typeref: 0x3ccf sha256:8261d3c9ad2369f0c78a25122d776f64ddb25ed840dd2bcc7955510cb4833c91
++  __TEXT.__swift5_builtin: 0x104 sha256:414c74369255a2239f4e050a44901237de68a399dc4fa9c080502f642e26792f
++  __TEXT.__swift5_reflstr: 0x2858 sha256:637488322e6e0588dafb505cd13ec6d2bca0d4ede42ba2d8f7f9a1321e908e5e
++  __TEXT.__swift5_fieldmd: 0x29b8 sha256:e455aec956d83a8600505eee049cb80ae36f393024692690c18516da742b1f69
++  __TEXT.__swift5_assocty: 0x980 sha256:4850e9ee1532f2f25cfc9a41c6aa9ebf771e1fb0bc61276aa7f4de3601ab455f
++  __TEXT.__swift5_proto: 0x4d4 sha256:f7db946ee2d4940bf14aa051b2e3d0125fe6f2cd076d3ff6be3153a0e0e5a830
++  __TEXT.__swift5_types: 0x2f4 sha256:b732bbff3942bbe162ff2426db84f3a08df3755234d96afa8de1259e8eb0cfe4
++  __TEXT.__cstring: 0x8227a sha256:8dd99fe2a202cb37caaa7d83a071d7c462fe117bb541a4f43f9b47451ce5656f
++  __TEXT.__swift5_capture: 0x1b28 sha256:a7f7b1c6d4d3dcb4ea60a26270fdc88a5eb36037677a15b7f815cce9a0b1b896
++  __TEXT.__oslogstring: 0x43a2d sha256:7fc8001b3ba376df67b4872db4d7034f564ab6229b7c1dafed72ca139e6a0148
++  __TEXT.__swift5_mpenum: 0x18 sha256:2bca741c482a1a947ff203d522ae124ca6b9d08decc230c175a37b2576f7f7f4
++  __TEXT.__swift5_protos: 0xac sha256:0d221bbf1892cb9d1085b39370e58d67fe5df07f75819e45e924a4e218a65e6f
++  __TEXT.__swift_as_entry: 0xac sha256:1f76072c874019adcf8e793008cddaec44360515d9e9e8522654a3bda321c9e0
++  __TEXT.__swift_as_ret: 0xb0 sha256:c8b41508d4bb7e01ede1ab349f448a0bdaf30cec00c9ddd306fe6a7887f3d5b0
++  __TEXT.__swift_as_cont: 0xfc sha256:b752e050fadce4f9875370aed557eb8bc9a5cb186158a219ff0928fcba585ab4
++  __TEXT.__swift5_types2: 0x4 sha256:4f508f5e8ac3c5a5551daa03d6d900b191897c75a6dd58768cee738e7f6f7a13
++  __TEXT.__gcc_except_tab: 0x38fc0 sha256:b225a27d108557ccc793123ca64aa757cd5bc0548d5480ca9d55aa3787c49a90
+   __TEXT.__ustring: 0x70 sha256:38db4664f795f9697f18b14cad283f86469826ddec9c4f36949bbf81bca46a81
+-  __TEXT.__unwind_info: 0x20510 sha256:c67dafd073e3416a23ee23819ea8e8354294d0bdb1e7b43dde4b57fe82fbe070
+-  __TEXT.__eh_frame: 0x6558 sha256:be64dffed81a7ea9aea02bdddd4f1c2e268d7e8dddaaf3453fa1825ce76e1548
++  __TEXT.__unwind_info: 0x20610 sha256:276acb144f5c7f3586b78f1fad72e0d671692b053d84b725115ce3d3dfc61e35
++  __TEXT.__eh_frame: 0x66e0 sha256:a70ae661bbed819f5770c000a7593019c0b3a1af814fcf86392d6b739f8cf360
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xc2c0 sha256:fcf3b36c352013020de3d20d2abf5fdefb842588a28e483113f341fc47771ee1
+-  __DATA_CONST.__objc_classlist: 0x2b20 sha256:439cf3d58747b9bd07174063efc04666481dee83111170ae8db4af126f21b956
+-  __DATA_CONST.__objc_catlist: 0x490 sha256:ca522a4e478c1263d7004d02ed1f08146f37cdb0d1d085c475224d23cfb44938
+-  __DATA_CONST.__objc_protolist: 0xb18 sha256:d219d20b498237e683d2cc28599a3d0dd95c6fb3ba1ec32ec9737a0f6fac34b0
++  __DATA_CONST.__const: 0xc388 sha256:1b4be483d0511cd34011eec1c0124c5da3cb7d1fdcda4019eea18d9129d14bbe
++  __DATA_CONST.__objc_classlist: 0x2b38 sha256:35974f8f0cdfeb50ed61fa24549156272aef582a9d64009be5bb820d12fb9ce8
++  __DATA_CONST.__objc_catlist: 0x490 sha256:22f3831fc625ace406bf0f96696cb5846b96c5a14aa62c3d991a8ae2898709f5
++  __DATA_CONST.__objc_protolist: 0xb18 sha256:629a7c17f1acd82208f97c802c9ae2d8c5a02771e3556a1b0329bc257aae6457
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__weak_got: 0x18 sha256:8c265808f17ec374e6cf15666579cf80ae92ff790c08b40ff5cadcf296bc8f0c
+-  __DATA_CONST.__objc_selrefs: 0x1a810 sha256:dd6cfbdc425f17924d83deda4f5ada223333453a7028b8f4c67c63c28d396a7e
+-  __DATA_CONST.__objc_protorefs: 0x2e8 sha256:b44200340c46eb2546c1f3fe07976740313bc0f5d29e484f80e625b131120a75
+-  __DATA_CONST.__objc_superrefs: 0x1d38 sha256:a6c3db8c4993fdc73bf3f216fad738667c615f6984c11d549e9c4e61a05122ed
+-  __DATA_CONST.__objc_arraydata: 0x88f0 sha256:68ab1e0a80a4b0d609d84c7bd02eb409450bc5249fdb65566ed97e0320325a0a
+-  __DATA_CONST.__got: 0x5758 sha256:0ea9f31ff4658714fdc49501fca16ba37ea5ad0096559bdf60bd389c9ac751c3
+-  __AUTH_CONST.__const: 0x29188 sha256:57cb10a4c6adcb8a0c04ba93d156a41d09904d0f47c8c71bf10b701f164ab891
+-  __AUTH_CONST.__cfstring: 0x3edc0 sha256:6da70fa4465c97535d7a08abcb66d06769914536ebb4c7f8715817f6b98f758e
+-  __AUTH_CONST.__objc_const: 0x809e0 sha256:f0807fe28ae26a766d0f6a9a82115da98dc95900aba30edef50eaf007e2cf4db
+-  __AUTH_CONST.__weak_auth_got: 0x28 sha256:fa80eb8a3d7c98dd705a4dc9b199dd3047b828040fdb267d1c5d51b5b3ac7902
+-  __AUTH_CONST.__objc_dictobj: 0x168 sha256:4e70e5056f09210af1557a1a54e45bbd3b414f37d8d205f10298256203365ab9
+-  __AUTH_CONST.__objc_intobj: 0x3ea0 sha256:4913597f3d4b1a0c6bedc4a0eec98e56cb32d146547ed73ea4c4296bb1a83f2d
+-  __AUTH_CONST.__objc_arrayobj: 0x2088 sha256:adcf46ac2ab4450523524325e74a3cc14326bb89d9dd0110c1f0f56017128a99
+-  __AUTH_CONST.__objc_doubleobj: 0x3c0 sha256:6a3a319d0b2510ae13c7c7a84b519e7090fd90a049149d2093f6ac3aa408e773
+-  __AUTH_CONST.__auth_got: 0x3648 sha256:cd461666d1efd6397f0d6105aac9ffabe83cd2218e9d4f3ebbc7fdc8430fbed1
+-  __AUTH.__objc_data: 0xa260 sha256:d5caed32ec8502d256368d2a48a82fe34f2563c97b087a5789ee1628445f3b49
+-  __AUTH.__data: 0x1ea0 sha256:f234de1b86b474542e1d448ff52025a1d7fce9e8ad86e2c5fa25d6544f833634
+-  __DATA.__objc_ivar: 0x444c sha256:6a6f99eea86f1f305e32ac50818d4b032f354a1135eb5eed5bd9101edac6cf78
+-  __DATA.__data: 0x9628 sha256:e1ac3da464bd18803a30ba6f749bd2047edba7bf6ac70ef30c655b6e7a8ceba9
+-  __DATA.__bss: 0x7788 sha256:6904f1e1ee0c32dc03bc11e4c147bdcb5656bda0b27076e62c65a9f4bdb7cdf0
++  __DATA_CONST.__weak_got: 0x18 sha256:2c4d691ef186007af109d2475ef5af36d92210a95147529caf56e3c5764d275b
++  __DATA_CONST.__objc_selrefs: 0x1a980 sha256:8dc6d2bb247d5591be0bfa97c51ff8021da78b8d63447a4dbaed64c549d83fc7
++  __DATA_CONST.__objc_protorefs: 0x2e8 sha256:e64dac441899ffa3d5fb29ee11cfea14b0f255cc2cb961aa2f6bf4600ee22e3c
++  __DATA_CONST.__objc_superrefs: 0x1d38 sha256:8105be0c90d28c77edbc56eb64464fb4e720367c84dc3d08c5d96b1fe82ece47
++  __DATA_CONST.__objc_arraydata: 0x88f0 sha256:07f8403582c9d4f9abc0854b7eb36cd522d8d9453921e7eed83b89d0283610c0
++  __DATA_CONST.__got: 0x5750 sha256:2af9bd9719acaa738c403a62727dd77d281e18f6c5ed5d6d792b0f0096532b27
++  __AUTH_CONST.__const: 0x29300 sha256:cd696bbbd3d2bd64696f4eb5811044bb6be05b5e8719c346c077b592c8f2b02d
++  __AUTH_CONST.__cfstring: 0x3f180 sha256:bbea9eb6f3ba7d20e15c990209aad6d635b1e5a3b14e411cea24b3b7e6e67c15
++  __AUTH_CONST.__objc_const: 0x80f00 sha256:85fb27db9ce95d681f1fd0df1b13c7c142721d335541ff0bf8ecf9acd4d09e2d
++  __AUTH_CONST.__weak_auth_got: 0x28 sha256:833c1970934ea6a2e3c8588998f2377e24860c7b943423c03fd6485c7794eb22
++  __AUTH_CONST.__objc_dictobj: 0x168 sha256:5e11bd33710ebbb15d381d2c2bbcd6f80b799df06343618ceb384d35f6f4dcca
++  __AUTH_CONST.__objc_intobj: 0x3e58 sha256:e4aa84ab59ac8400af49f3bf1569488278e298502571c9356d9c80bb4c81f57c
++  __AUTH_CONST.__objc_arrayobj: 0x2088 sha256:77a38d5a6d062f2ccfcfa1e1a848ea35994b8f13163626275f13251b8e2d8a38
++  __AUTH_CONST.__objc_doubleobj: 0x3c0 sha256:b026b6fc8fad205ad5b07a1d3ff926f81e316b3e5d7e4b1b66ee79e37987c6d1
++  __AUTH_CONST.__auth_got: 0x3680 sha256:35286664740e173fcc6a3fb3e36da4345f232547376927ec76539d48cb6f870c
++  __AUTH.__objc_data: 0xa308 sha256:96e2b3a3bee4f3c28ff8c773b314336cad7cb126c08f3ccf32e91e3473a5f4c9
++  __AUTH.__data: 0x1f50 sha256:cf31d357faeca3b92aab428d931681b7f6da01572324dcdd520e758d87b095dc
++  __DATA.__objc_ivar: 0x4494 sha256:a4d7c3ecb1aa0de3061ee404d0defffee0e208de8a043c9953c51ffb97cc113d
++  __DATA.__data: 0x97a8 sha256:a6eb16043e2544aa29e74041959141708272eaf7bacb6e5c9a8a7ce947b041f5
++  __DATA.__bss: 0x7808 sha256:1cb0d0785ae457bbb342fd0b0a73116851cf5ce7db13ebc3aa575334e29fd30b
+   __DATA.__common: 0x1b8 sha256:71e32433a6b0a2ebc1f7334d2dc1f33e62d07bfaa5b1e9606d7af29156f733bc
+-  __DATA_DIRTY.__objc_ivar: 0xe18 sha256:fc251116ac12148d7ca6a5849eb10765c5ed5bd231ec1a6864e41cc9009496cc
+-  __DATA_DIRTY.__objc_data: 0x12380 sha256:64ae3bc0e6bb5bf240336fe9110abbfbeb6a32a204a0c1acc5b040de5065b231
+-  __DATA_DIRTY.__data: 0x2f68 sha256:12e3d39687235e3d6471cccba250da3427a5baa8f6e8a3911c681cab33991ac7
+-  __DATA_DIRTY.__bss: 0x1358 sha256:99184d47a05b25ec564d26545e05dcb3d3c26c973088f25d9f62ba2dd49e9ebb
++  __DATA_DIRTY.__objc_ivar: 0xe20 sha256:94b6302fc0e637a08eb0bd4eac459da2ef609a77dc1f6f9065f87be5fd65ec8b
++  __DATA_DIRTY.__objc_data: 0x12348 sha256:78413f12dbfd2e64fed34c43cae2a927cee091e1562d751fd12c26215eb66bb8
++  __DATA_DIRTY.__data: 0x2f08 sha256:81db5b5c8d7399d1e4b9b03147037357647eb171cd2e80c9fe45c2a322ffe009
++  __DATA_DIRTY.__bss: 0x1368 sha256:f7d57a5a4bc24c94e9e2ea83f6708f1e69e17dd54d3b27f237a5bd469b3ffc41
+   __DATA_DIRTY.__common: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 309D2F22-1FF0-3244-BCE7-2F13EEE97C69
+-  Functions: 39809
+-  Symbols:   74006
+-  CStrings:  21699
++  UUID: D522C802-1803-3255-BBD6-E92852E4C1F1
++  Functions: 39907
++  Symbols:   74188
++  CStrings:  21788
+ 
+Symbols:
++ +[HDAuthorizationEntity _insertCodableSourceAuthorizations:overwriteExisting:syncStore:peerSyncVersion:sourceManager:syncIdentityManager:healthDatabase:error:]
++ +[HDAuthorizationSyncEntity supportedSyncVersionRange]
++ +[HDAuthorizationSyncEntity syncVersionRangeForSession:]
++ +[HDCloudSyncTapToRadar openTapToRadarWithTitle:description:component:completion:]
++ +[HDListUserDomainConceptCollapser _shouldPickConcept:overConcept:]
++ +[HDMaximumObjectAgeMapping maximumObjectAgeByTypeWithIntervalForSecondsSinceDaysAgo:]
++ +[HDMedicalUserDomainConceptGenerator _oldestUserDomainConceptForPredicate:profile:transaction:medicalUserDomainConceptOut:error:]
++ +[HDMedicalUserDomainConceptGenerator reconcileCategoryTypesForUserDomainConceptsAfterDeletingRecordWithPersistentID:profile:transaction:error:]
++ +[HDMedicalUserDomainConceptMappingEntity remainingSampleIDsAndDataTypesForUserDomainConceptID:excludingRecordID:transaction:error:]
++ +[HDMedicalUserDomainConceptMappingEntity userDomainConceptIDsForMedicalRecordID:transaction:error:]
++ +[HDMetadataManager predicateWithMetadataKey:allowedValues:]
++ +[HDMetadataManager predicateWithMetadataKey:exists:]
++ +[HDMetadataManager predicateWithMetadataKey:value:operatorType:]
++ +[HDSeriesBuilderEntity freezeSeriesWithIdentifier:metadata:assertion:profile:error:]
++ +[HDSeriesSampleEntity freezeSeriesWithIdentifier:metadata:assertion:profile:error:]
++ +[HDUserDomainConceptCollapser _shouldPickConcept:overConcept:]
++ +[HDWorkoutAppStateMonitor launchWorkoutAppIfNeededWithFitnessMachineSessionUUID:loggingCategory:]
++ -[HDAuthorizationManager hasActiveTransactionForSessionIdentifier:]
++ -[HDAuthorizationStoreReadServer remote_registerObserverForBundleIdentifier:completion:]
++ -[HDAuthorizationStoreReadServer remote_unregisterObserverForBundleIdentifier:completion:]
++ -[HDCloudSyncPlatformConfiguration isGameModeOn]
++ -[HDCloudSyncPlatformConfiguration setIsGameModeOn:]
++ -[HDCloudSyncPlatformConfiguration shouldRestrictPeriodicSync]
++ -[HDCloudSyncPlatformConfiguration shouldRestrictSyncInGameMode]
++ -[HDCodableAuthorization hasLegacyAuthorizationMode]
++ -[HDCodableAuthorization legacyAuthorizationMode]
++ -[HDCodableAuthorization setHasLegacyAuthorizationMode:]
++ -[HDCodableAuthorization setLegacyAuthorizationMode:]
++ -[HDCodableAuthorization(HDAuthorizationEntity) _legacyAuthorizationMode]
++ -[HDDaemon initWithContainerDirectoryPath:notificationCenter:]
++ -[HDDaemon initWithHealthDirectoryPath:medicalIDDirectoryPath:notificationCenter:]
++ -[HDDaemon notificationCenter]
++ -[HDFreezeSeriesOperation transactionContext]
++ -[HDHealthStoreServer remote_fetchEarliestAuthorizedSampleDateForTypes:completion:]
++ -[HDHealthStoreServer remote_setPreferredHeartRateZoneConfigurationSourceString:withCompletion:]
++ -[HDHeartDailyAnalytics updateHeartRateContextSwitchWindowCounts:]
++ -[HDHeartDailyAnalyticsBuilder _buildHeartRateContextSwitchAnalyticsWithError:]
++ -[HDMaintenanceOperation deferWithActivity:]
++ -[HDMaintenanceOperation setWasDeferred:]
++ -[HDMaintenanceOperation wasDeferred]
++ -[HDMaintenanceWorkCoordinator enqueueMaintenanceOperation:withPeriodicActivity:]
++ -[HDMirroredWorkoutSessionServer beginNewActivityWithConfiguration:date:metadata:insertionType:error:]
++ -[HDNanoRegistryDeviceCapabilityProvider initWithActivePairedDeviceProvider:notificationCenter:]
++ -[HDPeriodicActivity currentActivity]
++ -[HDProfile notificationCenter]
++ -[HDUserCharacteristicsManager notificationCenter]
++ -[HDWorkoutAppStateMonitor _updateAppAvailabilityState]
++ -[HDWorkoutAppStateMonitor appIsAvailable]
++ -[HDWorkoutAppStateMonitor handleDisplayLayoutTransition:]
++ -[HDWorkoutAppStateMonitor initWithBundleIdentifier:loggingCategory:]
++ -[HDWorkoutAppStateMonitor initWithFirstPartyWorkoutAppAndLoggingCategory:]
++ -[HDWorkoutRouteDataSource _queue_recoverCurrentElevation]
++ -[HDWorkoutSessionRapportSyncController _cancelPendingTransactionRetryTimer]
++ -[HDWorkoutSessionRapportSyncController _lock_cancelPendingTransactionRetryTimer]
++ -[HDWorkoutSessionRapportSyncController _pendingTransactionRetryInterval]
++ -[HDWorkoutSessionRapportSyncController _schedulePendingTransactionRetryTimer]
++ -[HDWorkoutSessionRapportSyncController dealloc]
++ -[HDWorkoutSessionServer unitTest_setStartDate:]
++ -[HDWorkoutSessionTaskServer overriddenClientBundleIdentifier]
++ -[_HDOrchestrationEnqueueRecord .cxx_destruct]
++ -[_HDTypedAssociationSyncBatchEntry .cxx_destruct]
++ -[_HDTypedAssociationSyncBatchEntry intermediate]
++ -[_HDTypedAssociationSyncBatchEntry objectUUIDsData]
++ -[_HDTypedAssociationSyncBatchEntry setIntermediate:]
++ -[_HDTypedAssociationSyncBatchEntry setObjectUUIDsData:]
++ -[_HDTypedAssociationSyncBatchEntry setSyncIdentityRowID:]
++ -[_HDTypedAssociationSyncBatchEntry syncIdentityRowID]
++ .str.367
++ GCC_except_table235
++ OBJC_IVAR_$_HDAuthorizationManager._lock_authorizationRecordStrongObserversMap
++ OBJC_IVAR_$_HDCloudSyncPlatformConfiguration._isGameModeOn
++ OBJC_IVAR_$_HDCodableAuthorization._legacyAuthorizationMode
++ OBJC_IVAR_$_HDDaemon._notificationCenter
++ OBJC_IVAR_$_HDDatabasePruningCoordinator._bgstCompletionQueue
++ OBJC_IVAR_$_HDMaintenanceOperation._wasDeferred
++ OBJC_IVAR_$_HDMaintenanceWorkCoordinator._pendingOrchestrationEnqueues
++ OBJC_IVAR_$_HDNanoRegistryDeviceCapabilityProvider._notificationCenter
++ OBJC_IVAR_$_HDUserCharacteristicsManager._notificationCenter
++ OBJC_IVAR_$_HDWorkoutAppStateMonitor._appIsAvailable
++ OBJC_IVAR_$_HDWorkoutAppStateMonitor._loggingCategory
++ OBJC_IVAR_$_HDWorkoutAppStateMonitor._lsWorkspace_lock
++ OBJC_IVAR_$_HDWorkoutSessionRapportSyncController._lock_pendingTransactionRetrySource
++ OBJC_IVAR_$__HDOrchestrationEnqueueRecord._operation
++ OBJC_IVAR_$__HDOrchestrationEnqueueRecord._orchestrationIdentifier
++ OBJC_IVAR_$__HDTypedAssociationSyncBatchEntry._intermediate
++ OBJC_IVAR_$__HDTypedAssociationSyncBatchEntry._objectUUIDsData
++ OBJC_IVAR_$__HDTypedAssociationSyncBatchEntry._syncIdentityRowID
++ _HDAttachmentReferencePredicateForSchemaIdentifier
++ _HKDataCacheTTRUserDefaultKey
++ _HKIsDataCacheTTREnabled
++ _HKMedicalRecordFHIRIdentifierKeyPath
++ _NSStringFromBOOL
++ _OBJC_$_PROP_LIST_HDCloudSyncStatusProvider.522
++ _OBJC_CLASS_$_LSBundleRecord
++ _OBJC_CLASS_$__HDOrchestrationEnqueueRecord
++ _OBJC_CLASS_$__HDTypedAssociationSyncBatchEntry
++ _OBJC_METACLASS_$__HDOrchestrationEnqueueRecord
++ _OBJC_METACLASS_$__HDTypedAssociationSyncBatchEntry
++ __100+[HDAlarmEventEntity deleteAllAlarmEventsWithClientIdentifier:transaction:enumerationHandler:error:]_block_invoke.398
++ __100+[HDDataTypeSourceOrderEntity _updateOrderedSourcesForType:profile:transaction:error:updateHandler:]_block_invoke.423
++ __100+[HDDataTypeSourceOrderEntity _updateOrderedSourcesForType:profile:transaction:error:updateHandler:]_block_invoke_2.424
++ __100+[HDDeletedSampleEntity _deletedSamplesInProfile:queryStringBlock:bindingBlock:limit:error:handler:]_block_invoke.437
++ __100-[HDNotificationInstructionDeletedObjectNotInDatabaseCriteria isValidWithDatabaseTransaction:error:]_block_invoke.380
++ __100-[HDStaticSyncImportTask _queue_importStaticSyncChangesFromDirectory:syncStore:progress:completion:]_block_invoke.542
++ __101+[HDAuthorizationEntity _nextModificationEpochForSourceIdentifier:type:sourceManager:database:error:]_block_invoke.517
++ __101+[HDWorkoutBuilderAssociatedObjectEntity enumerateAssociatedUUIDsForBuilder:transaction:error:block:]_block_invoke.385
++ __101+[HDWorkoutBuilderAssociatedObjectEntity enumerateAssociatedUUIDsForBuilder:transaction:error:block:]_block_invoke_2.386
++ __101-[HDCloudSyncStateSyncShim mergeStateDataForKey:stateData:domain:subDomain:configuration:completion:]_block_invoke.405
++ __101-[HDCloudSyncVerifyAttachmentManagementRecordOperation _modifyCloudKitAndFinishWithManagementRecord:]_block_invoke.374
++ __101-[HDSampleAggregateCacheStore _enumerateForInterval:cachedClass:nowDate:calendar:error:cacheHandler:]_block_invoke.386
++ __101-[HDSampleAggregateCacheStore _enumerateForInterval:cachedClass:nowDate:calendar:error:cacheHandler:]_block_invoke.391
++ __102+[HDAppSubscriptionAppLaunchEntity insertOrUpdateAppSDKVersionToken:forBundleID:healthDatabase:error:]_block_invoke.466
++ __102+[HDAppSubscriptionAppLaunchEntity insertOrUpdateAppSDKVersionToken:forBundleID:healthDatabase:error:]_block_invoke.469
++ __102+[HDAssociationSyncEntity generateSyncObjectsForSession:syncAnchorRange:profile:messageHandler:error:]_block_invoke.378
++ __102+[HDRaceRouteClusterEntity _insertRacingCluster:routeSnapshot:syncIdentity:transaction:profile:error:]_block_invoke.447
++ __102+[HDSampleSyncEntity _predicateForSampleAgeWithMaximumObjectAgeByType:defaultMaxAge:sessionStartDate:]_block_invoke.495
++ __102-[HDDaemonSyncEngine _performSyncTransactionForSession:store:anchorRangeMap:transactionContext:error:]_block_invoke.554
++ __102-[HDDaemonSyncEngine _performSyncTransactionForSession:store:anchorRangeMap:transactionContext:error:]_block_invoke.557
++ __103+[HDLocationSeriesDataEntity _enumerateWithDatabase:predicate:orderByDate:forValidation:error:handler:]_block_invoke.434
++ __103+[HDRaceRouteClusterEntity generateSyncObjectsForSession:syncAnchorRange:profile:messageHandler:error:]_block_invoke.565
++ __103+[HDRaceRouteClusterEntity generateSyncObjectsForSession:syncAnchorRange:profile:messageHandler:error:]_block_invoke.568
++ __103+[HDTrainingLoadStatisticsCacheEntity backfillTrainingLoadStartDate:profile:healthDatabase:completion:]_block_invoke.429
++ __103-[HDCloudSyncSharedSummaryPushPrepareOperation _pendingAndAcceptedParticipantRecordsInZone:completion:]_block_invoke.377
++ __103-[HDExtendedDatabaseTransaction initWithDatabase:context:transactionTimeout:continuationTimeout:error:]_block_invoke.394
++ __103-[HDExtendedDatabaseTransaction initWithDatabase:context:transactionTimeout:continuationTimeout:error:]_block_invoke.395
++ __103-[HDProtectedDataOperation _notifyDelegateToPerformWorkWithDatabase:accessibilityAssertion:completion:]_block_invoke.440
++ __104-[HDActiveDataAggregator _aggregateForCollector:device:requestedAggregationDate:assertion:mode:options:]_block_invoke.377
++ __104-[HDActiveDataAggregator _aggregateForCollector:device:requestedAggregationDate:assertion:mode:options:]_block_invoke.380
++ __104-[HDCloudSyncDeleteEmptyZonesOperation _validateZonesAreEmptyWithDeletionCandidates:container:database:]_block_invoke.380
++ __104-[HDCloudSyncDeleteEmptyZonesOperation _validateZonesAreEmptyWithDeletionCandidates:container:database:]_block_invoke.384
++ __104-[HDCloudSyncDeleteEmptyZonesOperation _validateZonesAreEmptyWithDeletionCandidates:container:database:]_block_invoke.392
++ __104-[HDCloudSyncPullChangeRecordOperation _continuationForFetchedRecord:recordID:inMemoryAsset:fetchError:]_block_invoke.389
++ __104-[HDCloudSyncPullChangeRecordOperation _continuationForFetchedRecord:recordID:inMemoryAsset:fetchError:]_block_invoke.390
++ __104-[HDCloudSyncPullChangeRecordOperation _continuationForFetchedRecord:recordID:inMemoryAsset:fetchError:]_block_invoke.391
++ __105+[HDMedicalUserDomainConceptEntity _tombstoneOldUnmappedUDCsWithProfile:transaction:nowDate:limit:error:]_block_invoke.429
++ __105-[HDDatabaseValidationTaskServer remote_validateDatabase:clientCompletionHandler:errorHandlerIdentifier:]_block_invoke.368
++ __105-[HDDatabaseValidationTaskServer remote_validateDatabase:clientCompletionHandler:errorHandlerIdentifier:]_block_invoke.370
++ __105-[HDHealthStoreServer _saveValidatedDataObjects:skipInsertionFilter:transactionIdentifier:final:handler:]_block_invoke.485
++ __105-[HDInsertSharedSummaryTransactionOperation _saveRecordsAndFinishWithProfile:repository:zone:completion:]_block_invoke.378
++ __105-[HDInsertSharedSummaryTransactionOperation _saveRecordsAndFinishWithProfile:repository:zone:completion:]_block_invoke.381
++ __105-[HDInsertSharedSummaryTransactionOperation _saveRecordsAndFinishWithProfile:repository:zone:completion:]_block_invoke.386
++ __105-[HDInsertSharedSummaryTransactionOperation _saveRecordsAndFinishWithProfile:repository:zone:completion:]_block_invoke.390
++ __105-[HDInsertSharedSummaryTransactionOperation _saveRecordsAndFinishWithProfile:repository:zone:completion:]_block_invoke.391
++ __105-[HDInsertSharedSummaryTransactionOperation _saveRecordsAndFinishWithProfile:repository:zone:completion:]_block_invoke.395
++ __105-[HDInsertSharedSummaryTransactionOperation _saveRecordsAndFinishWithProfile:repository:zone:completion:]_block_invoke_2.387
++ __106-[HDActivitySummaryBuilder _enumerateActivitySummariesAndCachesWithPredicate:largestAnchor:error:handler:]_block_invoke.382
++ __106-[HDBackgroundFeatureDeliveryManager periodicCountryMonitor:didFetchISOCountryCode:countryCodeProvenance:]_block_invoke.415
++ __106-[HDCloudSyncPipelineStageSharedSummaryAddParticipant _addParticipantWithLookupInfo:ownerName:ownerEmail:]_block_invoke.393
++ __106-[HDCloudSyncPipelineStageSharedSummaryAddParticipant _addParticipantWithLookupInfo:ownerName:ownerEmail:]_block_invoke.397
++ __106-[HDCloudSyncPipelineStageSharedSummaryAddParticipant _addParticipantWithLookupInfo:ownerName:ownerEmail:]_block_invoke.400
++ __106-[HDCloudSyncPipelineStageSharedSummaryAddParticipant _addParticipantWithLookupInfo:ownerName:ownerEmail:]_block_invoke.402
++ __107+[HDKeyValueEntity _validateModificationDatePolicyWithKey:domain:category:modificationDate:database:error:]_block_invoke.482
++ __107+[HDObjectAuthorizationEntity authorizationRecordsForSamples:sourceEntity:sessionIdentifier:profile:error:]_block_invoke.467
++ __107+[HDRaceRouteClusterEntity _pruneRaceRouteClustersFromWorkoutClusterUUID:eligibleEntity:transaction:error:]_block_invoke.510
++ __107+[HDTypedAssociationSyncEntity generateSyncObjectsForSession:syncAnchorRange:profile:messageHandler:error:]_block_invoke.410
++ __107-[HDAppSubscriptionManager _updateSubscriptionsBasedOnBARSwitchState:lastLaunchTimes:dataCode:anchor:type:]_block_invoke.393
++ __107-[HDCloudSyncPipelineStagePush _requiresFullSyncWithStagingStore:pushStores:reason:shardResponsible:error:]_block_invoke.391
++ __107-[HDDemoDataFoodSampleGenerator generateObjectsForDemoPerson:fromTime:toTime:currentDate:objectCollection:]_block_invoke.445
++ __107-[HDNanoSyncManager _queue_performNextProactiveSyncWithRemainingDevices:accessibilityAssertion:completion:]_block_invoke.805
++ __108+[HDCloudSyncStoreEntity storeIdentifiersForOwnerIdentifier:containerIdentifier:syncIdentity:profile:error:]_block_invoke.453
++ __108-[HDDatabaseValidationTaskServer remote_validateEntitiesWithClientCompletionHandler:errorHandlerIdentifier:]_block_invoke.374
++ __108-[HDIngestDeviceKeyValueEntriesOperation _pullDeviceKeyValueEntriesForProfile:repository:transaction:error:]_block_invoke.375
++ __109+[HDDeletedSampleEntity enumerateDeletedSamplesInProfile:createdOnOrAfter:createdBefore:limit:error:handler:]_block_invoke.422
++ __109+[HDLogicalSourceOrderSyncEntity generateSyncObjectsForSession:syncAnchorRange:profile:messageHandler:error:]_block_invoke.512
++ __109-[HDKeyValueDomain(WristTemperatureIdentifiers) _wristTemperatureResolvedSourceIdentifiersBySourceIdentifier]_block_invoke.375
++ __109-[HDSecondaryDevicePairingAgentTaskServer remote_tearDownHealthSharingWithTinkerDeviceWithNRUUID:completion:]_block_invoke.420
++ __110+[HDDeviceKeyValueStorageEntryEntity enumerateAllEntriesForSyncIdentity:transaction:error:enumerationHandler:]_block_invoke.413
++ __110+[HDSyncAnchorEntity _setSyncAnchor:updateDate:options:updatePolicy:entityIdentifier:store:transaction:error:]_block_invoke.493
++ __110+[HDSyncAnchorEntity _setSyncAnchor:updateDate:options:updatePolicy:entityIdentifier:store:transaction:error:]_block_invoke.500
++ __110+[HDSyncAnchorEntity _setSyncAnchor:updateDate:options:updatePolicy:entityIdentifier:store:transaction:error:]_block_invoke.507
++ __110+[HDSyncAnchorEntity _setSyncAnchor:updateDate:options:updatePolicy:entityIdentifier:store:transaction:error:]_block_invoke_2.495
++ __110+[HDSyncAnchorEntity _setSyncAnchor:updateDate:options:updatePolicy:entityIdentifier:store:transaction:error:]_block_invoke_2.503
++ __110+[HDSyncAnchorEntity _setSyncAnchor:updateDate:options:updatePolicy:entityIdentifier:store:transaction:error:]_block_invoke_2.511
++ __110-[HDAuthorizationManager filteredAuthorizedObjectsForClient:anchor:bundleIdentifier:clientEntitlements:error:]_block_invoke.693
++ __110-[HDWorkoutBuilderServer _requestFinalDataSeriallyForRouteSource:smootherSource:startDate:endDate:completion:]_block_invoke.857
++ __110-[HDWorkoutEffortRelationshipQueryServer associationsUpdatedForObject:subObject:type:behavior:objects:anchor:]_block_invoke.394
++ __111+[HDQuantitySampleValueEnumerator orderedQuantityValuesBySeriesForPredicate:transaction:options:error:handler:]_block_invoke.369
++ __111-[HDDatabase takeAccessibilityAssertionWithOwnerIdentifier:contextType:timeout:shouldPerformTransaction:error:]_block_invoke.652
++ __111-[HDWatchSettingsReconciliationManager _queue_applyReconciledValueFromSettingValues:forSettingKeys:completion:]_block_invoke.395
++ __111-[HDWatchSettingsReconciliationManager _queue_applyReconciledValueFromSettingValues:forSettingKeys:completion:]_block_invoke.397
++ __112+[HDUserDomainConceptEntity _enumerateLinkCollectionsContainingTargetUUID:transaction:error:enumerationHandler:]_block_invoke.566
++ __112-[HDDatabasePruningCoordinator _pruneProfilesWithIdentifiers:takeAccessibilityAssertion:shouldDefer:completion:]_block_invoke.411
++ __112-[HDStatisticsCollectionCalculatorDefaultDataSource addValuesForQuantitySamples:calculator:includeSeries:error:]_block_invoke.384
++ __113-[HDSeriesQuantityDataAggregator aggregateForState:collector:device:requestedAggregationDate:mode:options:error:]_block_invoke.389
++ __113-[HDSeriesQuantityDataAggregator aggregateForState:collector:device:requestedAggregationDate:mode:options:error:]_block_invoke.398
++ __113-[HDSeriesQuantityDataAggregator aggregateForState:collector:device:requestedAggregationDate:mode:options:error:]_block_invoke.400
++ __113-[HDSeriesQuantityDataAggregator aggregateForState:collector:device:requestedAggregationDate:mode:options:error:]_block_invoke_2.390
++ __114-[HDUserCharacteristicsManager _setUserCharacteristic:forType:shouldInsertSample:updateProfileAndSync:date:error:]_block_invoke.428
++ __114-[HDUserCharacteristicsManager _setUserCharacteristic:forType:shouldInsertSample:updateProfileAndSync:date:error:]_block_invoke.431
++ __115+[HDObjectAuthorizationEntity _setObjectAuthorizationRecords:syncProvenance:syncIdentity:skipErrors:profile:error:]_block_invoke.416
++ __115+[HDUserDomainConceptEntity _insertBaseUserDomainConcept:syncProvenance:syncIdentity:transaction:syncAnchor:error:]_block_invoke.533
++ __115-[HDAuthorizationManager handleObjectAuthorizationRequestsForBundleIdentifier:objectType:promptHandler:completion:]_block_invoke.545
++ __115-[HDAuthorizationManager handleObjectAuthorizationRequestsForBundleIdentifier:objectType:promptHandler:completion:]_block_invoke.549
++ __115-[HDAuthorizationManager handleObjectAuthorizationRequestsForBundleIdentifier:objectType:promptHandler:completion:]_block_invoke.550
++ __115-[HDAuthorizationManager handleObjectAuthorizationRequestsForBundleIdentifier:objectType:promptHandler:completion:]_block_invoke_2.546
++ __115-[HDCloudSyncHandleMissingManateeIdentityOperation _deleteZonesForLostManateeIdentitiesInZones:container:database:]_block_invoke.384
++ __115-[HDCloudSyncHandleMissingManateeIdentityOperation _deleteZonesForLostManateeIdentitiesInZones:container:database:]_block_invoke.386
++ __115-[HDCloudSyncHandleMissingManateeIdentityOperation _leaveSharesForLostManateeIdentitiesInZones:container:database:]_block_invoke.394
++ __116+[HDAttachmentReferenceEntity enumerateReferencesForAttachmentIdentifier:type:transaction:error:enumerationHandler:]_block_invoke.448
++ __116+[HDAttachmentReferenceEntity enumerateReferencesForAttachmentIdentifier:type:transaction:error:enumerationHandler:]_block_invoke.451
++ __116+[HDSampleEntity deleteSamplesWithTypes:sourceEntities:profile:recursiveDeleteAuthorizationBlock:completionHandler:]_block_invoke.431
++ __116+[HDSampleEntity deleteSamplesWithTypes:sourceEntities:profile:recursiveDeleteAuthorizationBlock:completionHandler:]_block_invoke_2.432
++ __116-[HDCloudSyncPushReferenceTombstonesOperation _generateTombstoneRecordsToPushAndReferencesRecordsToDeleteWithError:]_block_invoke.370
++ __116-[HDSummarySharingEntryManager updateEntryWithUUID:authorizationsToAdd:authorizationsToDelete:deleteOnCommit:error:]_block_invoke.387
++ __117+[HDAuthorizationEntity readAuthorizationStatusesByTypeForBundleIdentifier:types:sourceManager:healthDatabase:error:]_block_invoke.449
++ __117+[HDCachedCKDatabaseEntity entityForContainerIdentifier:databaseScope:userRecordName:transaction:shouldCreate:error:]_block_invoke.414
++ __117+[HDLogicalSourceEntity lookUpOrCreateLogicalSourceWithBundleIdentifier:owningAppBundleIdentifier:transaction:error:]_block_invoke.426
++ __117+[HDLogicalSourceEntity lookUpOrCreateLogicalSourceWithBundleIdentifier:owningAppBundleIdentifier:transaction:error:]_block_invoke.427
++ __117+[HDLogicalSourceEntity lookUpOrCreateLogicalSourceWithBundleIdentifier:owningAppBundleIdentifier:transaction:error:]_block_invoke.429
++ __117-[HDAnalyticsSubmissionCoordinator(Database) database_reportJournalMergeActivityResult:duration:interruptions:error:]_block_invoke.500
++ __117-[HDCloudSyncFetchRecordsOperation _receivedLimitExceededError:fetchingRecordsWithIDs:container:database:completion:]_block_invoke.383
++ __117-[HDWorkoutSessionTaskServer didUpdateGeneratedTypesWithConfiguration:sampleTypes:dataSource:didUpdateActivity:date:]_block_invoke.546
++ __118-[HDClientDataCollectionTaskServer _queue_insertDatums:device:metadata:options:batchUUID:registrationUUID:completion:]_block_invoke.416
++ __119-[HDInsertSharedSummaryTransactionOperation _persistRecordsWithRepository:transactionRecord:summaryRecords:completion:]_block_invoke.406
++ __120-[HDCloudSyncPushDeviceKeyValueOperation _computeRecordsToSave:recordIDsToDelete:localEntries:protectionCategory:error:]_block_invoke.400
++ __120-[HDCloudSyncSharedSummaryPushPruningOperation _findTransactionsToDelete:existingTransactionRecordsByZoneID:completion:]_block_invoke.370
++ __120-[HDCloudSyncSharedSummaryPushPruningOperation _findTransactionsToDelete:existingTransactionRecordsByZoneID:completion:]_block_invoke.381
++ __120-[HDCloudSyncSharedSummaryPushPruningOperation _findTransactionsToDelete:existingTransactionRecordsByZoneID:completion:]_block_invoke.382
++ __120-[HDCloudSyncSharedSummaryPushPruningOperation _findTransactionsToDelete:existingTransactionRecordsByZoneID:completion:]_block_invoke_2.374
++ __120-[HDDatabaseMigrator(Emet) _insertDeletedObjectTombstoneWithUUID:provenanceIdentifier:deletionDate:insertedRowID:error:]_block_invoke.658
++ __121+[HDWorkoutBuilderServer _finishDetachedBuilderForEntity:sessionEndDate:profile:forceFinish:existingSmoother:completion:]_block_invoke.377
++ __122-[HDAuthorizationManager handleHealthConceptAuthorizationRequestsForBundleIdentifier:objectType:promptHandler:completion:]_block_invoke.584
++ __122-[HDSharingAuthorizationRecipientStoreServer sharingAuthorizationManager:didAddSharingAuthorizations:recipientIdentifier:]_block_invoke.368
++ __123+[HDUserDomainConceptEntity _updateBaseUserDomainConcept:syncProvenance:syncIdentity:profile:transaction:syncAnchor:error:]_block_invoke.550
++ __123-[HDSampleTypeChangeEvaluator _detailedChangeUsingAnchorIndexStrategyForType:sinceAnchor:hasUnfrozenSeries:database:error:]_block_invoke.402
++ __123-[HDSecondaryDevicePairingAgentTaskServer remote_performEndToEndCloudSyncWithNRDeviceUUID:syncParticipantFirst:completion:]_block_invoke.385
++ __123-[HDSecondaryDevicePairingAgentTaskServer remote_performEndToEndCloudSyncWithNRDeviceUUID:syncParticipantFirst:completion:]_block_invoke.388
++ __123-[HDSecondaryDevicePairingAgentTaskServer remote_performEndToEndCloudSyncWithNRDeviceUUID:syncParticipantFirst:completion:]_block_invoke.397
++ __123-[HDSecondaryDevicePairingAgentTaskServer remote_performEndToEndCloudSyncWithNRDeviceUUID:syncParticipantFirst:completion:]_block_invoke.399
++ __123-[HDSecondaryDevicePairingAgentTaskServer remote_requestTinkerSharingOptInWithGuardianDisplayName:NRDeviceUUID:completion:]_block_invoke.374
++ __124+[HDAttachmentReferenceEntity enumerateReferencesForObjectIdentifier:schemaIdentifier:transaction:error:enumerationHandler:]_block_invoke.442
++ __124-[HDDatabasePruningTask _pruneDatabaseUsingRestrictionPredicatesWithNowDate:prunedObjectTransactionLimit:shouldDefer:error:]_block_invoke.465
++ __124-[HDDatabasePruningTask enqueueMaintenanceOperationOnCoordinator:takeAccessibilityAssertion:nowDate:shouldDefer:completion:]_block_invoke.377
++ __125+[HDAssociationEntity _findAssociationEntryWithParentID:childID:type:behavior:destinationSubObjectID:deleted:database:error:]_block_invoke.534
++ __125+[HDCachedCKRecordZoneEntity requiresFetchForZoneWithContainerIdentifier:databaseScope:zoneName:ownerName:transaction:error:]_block_invoke.427
++ __125-[HDSharingAuthorizationRecipientStoreServer sharingAuthorizationManager:didRemoveSharingAuthorizations:recipientIdentifier:]_block_invoke.372
++ __125-[HDStatisticsCollectionCalculatorRelativeDataSource collectionCalculator:queryForInterval:error:sampleHandler:mergeHandler:]_block_invoke.369
++ __126+[HDCachedSecureCKRecordEntity deleteRecordWithContainerIdentifier:databaseScope:zoneName:ownerName:recordName:profile:error:]_block_invoke.452
++ __126-[HDHealthStoreServer _saveDataObjects:sourceEntity:sourceVersion:skipInsertionFilter:databaseAssertion:handler:creationDate:]_block_invoke.508
++ __126-[HDLiveWorkoutDataSource workoutDataDestination:didUpdateGeneratedTypesWithConfiguration:sampleTypes:didUpdateActivity:date:]_block_invoke.517
++ __127+[HDKeyValueEntity _insertValues:forKeys:modificationDates:domain:category:provenance:syncIdentity:updatePolicy:profile:error:]_block_invoke.486
++ __127-[HDClientAuthorizationOracle(Privileged) _queue_beginAuthorizationRequestDelegateTransactionWithSessionIdentifier:completion:]_block_invoke.608
++ __127-[HDStatisticsCollectionCalculatorAttenuatedDataSource collectionCalculator:queryForInterval:error:sampleHandler:mergeHandler:]_block_invoke.369
++ __127-[_HDQuantitySampleSeriesEntityEncoder generateCodableRepresentationsForHFDKey:sample:maxBytesPerRepresentation:error:handler:]_block_invoke.783
++ __130+[HDDeviceKeyValueStorageEntryEntity setData:forKey:domain:deviceContextID:syncEntityIdentity:modificationDate:transaction:error:]_block_invoke.426
++ __132-[HDDefaultAuthorizationSchemaProvider setAuthorizationStatuses:authorizationModes:bundleIdentifier:options:modeInfo:profile:error:]_block_invoke.396
++ __132-[HDDemoDataActivitySampleGenerator _generateWorkoutDataWithHeartRates:recoveryHeartRates:objectCollection:demoPerson:workoutState:]_block_invoke.884
++ __133-[HDClientAuthorizationOracle enqueueAuthorizationRequestToWriteTypes:readTypes:authorizationNeededHandler:requestCompletionHandler:]_block_invoke.523
++ __133-[HDClientAuthorizationOracle enqueueAuthorizationRequestToWriteTypes:readTypes:authorizationNeededHandler:requestCompletionHandler:]_block_invoke.526
++ __134+[HDCachedCKRecordEntity enumerateRecordIDsWithContainerIdentifier:databaseScope:zoneName:ownerName:profile:error:enumerationHandler:]_block_invoke.418
++ __134+[HDDataEntity deleteDataObjects:restrictedSourceEntities:failIfNotFound:profile:recursiveDeleteAuthorizationBlock:completionHandler:]_block_invoke.564
++ __134-[HDAuthorizationManager _authorizationRequestStatusForClientBundleIdentifier:writeTypes:readTypes:updateAuthorizationStatuses:error:]_block_invoke.489
++ __135-[HDNanoSyncManager _queue_synchronizeWithOptions:restoreMessagesSentHandler:targetSyncStore:reason:accessibilityAssertion:completion:]_block_invoke.604
++ __135-[HDNanoSyncManager _queue_synchronizeWithOptions:restoreMessagesSentHandler:targetSyncStore:reason:accessibilityAssertion:completion:]_block_invoke.612
++ __136+[HDLocationSeriesSampleEntity _updateFrozenEntityToMatchReplacedUnfrozenEntity:unfrozenSeriesUUID:unfrozenSeriesHFDKey:database:error:]_block_invoke.434
++ __138-[HDSummarySharingEntryIDSManager inviteSharingDataWithIdentifier:firstName:lastName:sharingAuthorizations:userWheelchairMode:completion:]_block_invoke.417
++ __138-[HDSummarySharingEntryIDSManager inviteSharingDataWithIdentifier:firstName:lastName:sharingAuthorizations:userWheelchairMode:completion:]_block_invoke.421
++ __138-[HDSummarySharingEntryIDSManager inviteSharingDataWithIdentifier:firstName:lastName:sharingAuthorizations:userWheelchairMode:completion:]_block_invoke.424
++ __138-[HDSummarySharingEntryIDSManager inviteSharingDataWithIdentifier:firstName:lastName:sharingAuthorizations:userWheelchairMode:completion:]_block_invoke.425
++ __138-[HDSummarySharingEntryIDSManager inviteSharingDataWithIdentifier:firstName:lastName:sharingAuthorizations:userWheelchairMode:completion:]_block_invoke.428
++ __140-[HDAuthorizationManager enqueueObjectAuthorizationRequestForBundleIdentifier:context:promptIfNeeded:authorizationNeededHandler:completion:]_block_invoke.540
++ __142+[HDRaceRouteLocationSeriesEntity enumerateRoutePointsForSeries:timestampAnchor:limit:startDuration:finishDuration:transaction:error:handler:]_block_invoke.414
++ __146-[HDDataManager insertDataObjects:withProvenance:creationDate:skipInsertionFilter:updateSourceOrder:resolveAssociations:transactionContext:error:]_block_invoke.388
++ __147+[HDDataExternalSyncIdentifierEntity populateSyncInfoForLocalSourceID:externalSyncObjectCode:syncIdentifier:deleted:database:objectIDOut:errorOut:]_block_invoke.430
++ __150-[HDHealthStoreServer _queue_insertObjects:sourceEntity:sourceVersionOverride:shouldJournal:skipInsertionFilter:databaseAssertion:error:creationDate:]_block_invoke.517
++ __150-[HDHealthStoreServer _queue_insertObjects:sourceEntity:sourceVersionOverride:shouldJournal:skipInsertionFilter:databaseAssertion:error:creationDate:]_block_invoke_2.518
++ __151-[HDCloudSyncSharedSummaryParticipantProfileCreationOperation _createProfileWithUUID:contactIdentifier:firstName:lastName:ownerParticipant:completion:]_block_invoke.370
++ __151-[HDCloudSyncSharedSummaryParticipantProfileCreationOperation _createProfileWithUUID:contactIdentifier:firstName:lastName:ownerParticipant:completion:]_block_invoke.371
++ __154+[HDUserDomainConceptEducationContentSectionEntity enumerateLocalizedEducationContentSectionsWithEducationContentID:transaction:error:enumerationHandler:]_block_invoke.397
++ __156+[HDSleepDaySummaryCacheEntity fetchCacheEntryForConfiguration:transaction:maximumAnchor:sourceOrderAnchor:dayIndexLower:dayIndexUpper:summariesData:error:]_block_invoke.420
++ __158-[HDCloudSyncSharedSummaryPushOperation performSharedSummaryPushWithTransactions:pendingAndAcceptedParticipants:authorizationIdentifiers:privateMetadataZone:]_block_invoke.380
++ __158-[HDCloudSyncSharedSummaryPushOperation performSharedSummaryPushWithTransactions:pendingAndAcceptedParticipants:authorizationIdentifiers:privateMetadataZone:]_block_invoke.385
++ __158-[HDCloudSyncSharedSummaryPushOperation performSharedSummaryPushWithTransactions:pendingAndAcceptedParticipants:authorizationIdentifiers:privateMetadataZone:]_block_invoke.388
++ __181+[HDAssociationEntity _bulkInsertEntriesWithParentUUID:childIDs:provenance:syncIdentity:type:behavior:creationDate:destinationSubObjectReference:healthDatabase:sourceManager:error:]_block_invoke.523
++ __185-[HDWorkoutTrainingLoadDataSource _queryEffortSampleValuesForWorkoutUUID:workoutPID:workoutStartDate:workoutEndDate:workoutActivityType:workoutDuration:sourceID:activity:sampleHandler:]_block_invoke.400
++ __185-[HDWorkoutTrainingLoadDataSource _queryEffortSampleValuesForWorkoutUUID:workoutPID:workoutStartDate:workoutEndDate:workoutActivityType:workoutDuration:sourceID:activity:sampleHandler:]_block_invoke.402
++ __186-[HDCloudSyncSharedSummaryPushOperation createRecordsToSaveWithTransactions:transactionRecords:participantZoneID:participant:authorizationIdentifiers:allRecordsToSave:zoneIDs:taskGroup:]_block_invoke.392
++ __191+[HDAssociationEntity _insertEntriesWithParentUUID:childUUIDsData:provenance:syncIdentity:type:behavior:deleted:creationDate:destinationSubObjectReference:lastInsertedEntityID:context:error:]_block_invoke.510
++ __208-[HDQuantityDistributionQueryServer _attenuatedSampleWalkBlockUsingDateIntervals:sqlitePredicate:dataFactor:distributionCalculator:computeAverageAndDuration:calculatorForAverageAndDuration:attenuationEngine:]_block_invoke.389
++ __214-[HDQuantityDistributionQueryServer _standardSampleWalkBlockUsingDateIntervals:sqlitePredicate:dataFactor:distributionCalculator:computeAverageAndDuration:calculatorForAverageAndDuration:resolveOverlappingSamples:]_block_invoke.387
++ __248+[HDDataProvenanceEntity insertOrLookupDataProvenanceForSyncProvenance:syncIdentity:originProductType:originSystemBuild:originOSVersion:localProductType:localSystemBuild:sourceVersion:timeZoneName:sourceID:deviceID:contributorID:transaction:error:]_block_invoke.471
++ __248+[HDDataProvenanceEntity insertOrLookupDataProvenanceForSyncProvenance:syncIdentity:originProductType:originSystemBuild:originOSVersion:localProductType:localSystemBuild:sourceVersion:timeZoneName:sourceID:deviceID:contributorID:transaction:error:]_block_invoke.472
++ __248+[HDDataProvenanceEntity insertOrLookupDataProvenanceForSyncProvenance:syncIdentity:originProductType:originSystemBuild:originOSVersion:localProductType:localSystemBuild:sourceVersion:timeZoneName:sourceID:deviceID:contributorID:transaction:error:]_block_invoke.474
++ __256+[HDAssociationEntity _insertEntriesWithParentUUID:childUUIDsData:provenance:syncIdentity:type:behavior:deleted:creationDate:destinationSubObjectReference:enforceSameSource:permitPendingAssociations:healthDatabase:sourceManager:lastInsertedEntityID:error:]_block_invoke.518
++ __272+[HDAuthorizationEntity _insertAuthorizationWithSourceIdentifier:dataTypeCode:authorizationStatus:authorizationRequest:authorizationMode:modificationDate:currentDate:syncProvenance:syncIdentity:objectAnchor:modificationEpoch:options:modeInfo:sourceManager:database:error:]_block_invoke.508
++ __272+[HDAuthorizationEntity _insertAuthorizationWithSourceIdentifier:dataTypeCode:authorizationStatus:authorizationRequest:authorizationMode:modificationDate:currentDate:syncProvenance:syncIdentity:objectAnchor:modificationEpoch:options:modeInfo:sourceManager:database:error:]_block_invoke_2.509
++ __28-[HDDevicePowerMonitor init]_block_invoke.375
++ __28-[HDDevicePowerMonitor init]_block_invoke.379
++ __32-[HDBiomeInterface sleepFocusOn]_block_invoke.373
++ __32-[HDCloudSyncZone removeRecord:]_block_invoke.416
++ __32-[HDCloudSyncZone removeRecord:]_block_invoke.420
++ __32-[HDCloudSyncZone removeRecord:]_block_invoke.424
++ __32-[HDCloudSyncZone removeRecord:]_block_invoke.428
++ __32-[HDDaemon _setUpSignalHandlers]_block_invoke.514
++ __35-[HDDeviceQueryServer _queue_start]_block_invoke.372
++ __35-[HDDeviceQueryServer _queue_start]_block_invoke_2.383
++ __36-[HDCacheDeleteCoordinator activate]_block_invoke.371
++ __36-[HDCacheDeleteCoordinator activate]_block_invoke.372
++ __36-[HDCacheDeleteCoordinator activate]_block_invoke.374
++ __36-[HDCloudSyncCompoundOperation main]_block_invoke.379
++ __36-[HDCloudSyncPipelineStagePull main]_block_invoke.379
++ __36-[HDCloudSyncPipelineStagePush main]_block_invoke.379
++ __37-[HDCloudSyncPushStoreOperation main]_block_invoke.394
++ __37-[HDCloudSyncStateSyncOperation main]_block_invoke.378
++ __37-[HDDaemon _setupRapportEventHandler]_block_invoke.566
++ __37-[HDDatabase _mergeSecondaryJournals]_block_invoke.676
++ __38-[HDDaemon _setupMemoryWarningHandler]_block_invoke.557
++ __38-[HDDaemon _setupMemoryWarningHandler]_block_invoke.560
++ __38-[HDDaemon _setupMemoryWarningHandler]_block_invoke.563
++ __38-[HDNanoSyncManager invalidateAndWait]_block_invoke.386
++ __39-[HDCloudSyncCreateZonesOperation main]_block_invoke.380
++ __39-[HDIDSPersistentDictionary didCancel:]_block_invoke.506
++ __39-[HDQueryManager diagnosticDescription]_block_invoke.424
++ __40-[HDCloudSyncAcceptSharesOperation main]_block_invoke.373
++ __40-[HDDataProvenanceManager _loadDefaults]_block_invoke.388
++ __40-[HDDataProvenanceManager _loadDefaults]_block_invoke.392
++ __40-[HDWorkoutSessionServer setTaskServer:]_block_invoke.656
++ __41-[HDCloudSyncCachedZone addRecord:error:]_block_invoke.450
++ __41-[HDCloudSyncIgnoredErrorsOperation main]_block_invoke.381
++ __41-[HDCloudSyncPipeline beginWithTaskTree:]_block_invoke.460
++ __41-[HDCloudSyncPipeline beginWithTaskTree:]_block_invoke.462
++ __41-[HDCloudSyncPipelineStageStateSync main]_block_invoke.377
++ __41-[HDProfile _notifyProfileReadyObservers]_block_invoke.458
++ __41-[HDProfile _notifyProfileReadyObservers]_block_invoke.462
++ __41-[HDProfile _notifyProfileReadyObservers]_block_invoke.463
++ __42-[HDCloudSyncDeleteSequenceOperation main]_block_invoke.373
++ __42-[HDCloudSyncDeleteSequenceOperation main]_block_invoke.374
++ __42-[HDCloudSyncLeaveAllSharesOperation main]_block_invoke.368
++ __42-[HDCloudSyncPullReferencesOperation main]_block_invoke.373
++ __42-[HDIDSPersistentDictionary objectForKey:]_block_invoke.426
++ __42-[HDProfileManager _loadSecondaryProfiles]_block_invoke.410
++ __43-[HDCloudSyncPipelineStageFetchShares main]_block_invoke.368
++ __43-[HDWorkoutBuilderServer _didUpdateEvents:]_block_invoke.745
++ __44-[HDAggregateDataCollector initWithProfile:]_block_invoke.510
++ __44-[HDCloudSyncOperation delegateToOperation:]_block_invoke.428
++ __44-[HDCloudSyncPullChangeRecordOperation main]_block_invoke.381
++ __44-[HDRapportMessenger searchForNearbyDevices]_block_invoke.403
++ __44-[HDRapportMessenger searchForNearbyDevices]_block_invoke.404
++ __44-[HDStaticSyncExportTask runWithCompletion:]_block_invoke.393
++ __44-[HDWorkoutRouteDataSource altitudeUpdated:]_block_invoke.514
++ __45-[HDCloudSyncCachedZone deleteZoneWithError:]_block_invoke.376
++ __45-[HDCloudSyncIgnoredErrorsPipelineStage main]_block_invoke.381
++ __45-[HDCloudSyncLookupParticipantOperation main]_block_invoke.373
++ __45-[HDCloudSyncParallelOperation addOperation:]_block_invoke.381
++ __45-[HDCloudSyncPrepareForSharingOperation main]_block_invoke.371
++ __45-[HDCloudSyncPushDeviceContextOperation main]_block_invoke.374
++ __45-[HDCloudSyncPushDeviceContextOperation main]_block_invoke.381
++ __45-[HDCloudSyncPushDeviceContextOperation main]_block_invoke.382
++ __45-[HDCloudSyncSharedSummaryPushOperation main]_block_invoke.368
++ __45-[HDHFDataStore _lock_restoreHFDFromArchive:]_block_invoke.480
++ __45-[HDWorkoutBuilderServer _didUpdateMetadata:]_block_invoke.733
++ __45-[HDWorkoutRouteDataSource elevationUpdated:]_block_invoke.499
++ __45-[HDWorkoutRouteDataSource elevationUpdated:]_block_invoke.503
++ __45-[HDWorkoutRouteDataSource elevationUpdated:]_block_invoke.507
++ __46-[HDCloudSyncCachedZone deleteRecordID:error:]_block_invoke.454
++ __46-[HDCloudSyncDeleteStoreOnChildOperation main]_block_invoke.368
++ __46-[HDCloudSyncDeleteStoreOnChildOperation main]_block_invoke.371
++ __46-[HDCloudSyncDisableSyncLocallyOperation main]_block_invoke.370
++ __46-[HDCloudSyncPushDeviceKeyValueOperation main]_block_invoke.378
++ __46-[HDCloudSyncShareToParticipantOperation main]_block_invoke.382
++ __46-[HDCloudSyncShareToParticipantOperation main]_block_invoke.383
++ __46-[HDCloudSyncShareToParticipantOperation main]_block_invoke.391
++ __46-[HDCloudSyncStatusProvider checkLastSyncDate]_block_invoke.418
++ __46-[HDCloudSyncStatusProvider checkLastSyncDate]_block_invoke.422
++ __46-[HDDaemon registerDaemonReadyObserver:queue:]_block_invoke.576
++ __46-[HDPluginManager notifyPluginsOfPostInstall:]_block_invoke.484
++ __46-[HDQueryManager startQueryServer:completion:]_block_invoke.382
++ __46-[HDSourceManager localDeviceSourceWithError:]_block_invoke.430
++ __46-[HDSyncIdentityManager profileDidInitialize:]_block_invoke.437
++ __46-[_HDAWDPeriodicAction _doIfWaitingWithError:]_block_invoke.429
++ __46-[_HDAWDPeriodicAction _doIfWaitingWithError:]_block_invoke.432
++ __47-[HDAgeGatingManager _registerForNotifications]_block_invoke.387
++ __47-[HDCloudSyncFinishOwnerTakeoverOperation main]_block_invoke.369
++ __47-[HDCloudSyncFinishOwnerTakeoverOperation main]_block_invoke.373
++ __47-[HDCloudSyncFinishOwnerTakeoverOperation main]_block_invoke.377
++ __47-[HDCloudSyncFinishOwnerTakeoverOperation main]_block_invoke.381
++ __47-[HDCloudSyncFinishOwnerTakeoverOperation main]_block_invoke.382
++ __47-[HDCloudSyncPipelineStageContextSyncPull main]_block_invoke.374
++ __47-[HDCloudSyncPipelineStageContextSyncPush main]_block_invoke.378
++ __47-[HDOTAFeatureAvailabilityManager daemonReady:]_block_invoke.387
++ __47-[HDWorkoutBuilderServer _didUpdateStatistics:]_block_invoke.793
++ __47-[HDWorkoutSessionServer _queue_generateError:]_block_invoke.842
++ __47-[HDWorkoutSessionServer _queue_generateEvent:]_block_invoke.836
++ __47-[HDWorkoutSessionServer _queue_generateEvent:]_block_invoke.839
++ __48-[HDCloudSyncCoordinator profileDidBecomeReady:]_block_invoke.417
++ __48-[HDCloudSyncPipeline _queue_runStage:taskTree:]_block_invoke.483
++ __48-[HDCloudSyncPipeline _queue_runStage:taskTree:]_block_invoke.487
++ __48-[HDWorkoutRouteDataSource workoutRouteUpdated:]_block_invoke.511
++ __48-[HDWorkoutSessionServer _recoverPersistedState]_block_invoke.674
++ __48-[HDWorkoutSessionServer syncSessionEvent:date:]_block_invoke.798
++ __49-[HDCloudSyncAddSharingParticipantOperation main]_block_invoke.387
++ __49-[HDCloudSyncAddSharingParticipantOperation main]_block_invoke.388
++ __49-[HDCloudSyncManager syncWithContext:completion:]_block_invoke.487
++ __49-[HDCloudSyncMarkAllOwnersDisabledOperation main]_block_invoke.371
++ __49-[HDCloudSyncPipelineStageLookupParticipant main]_block_invoke.372
++ __49-[HDCloudSyncPipelineStageSharedSummaryPull main]_block_invoke.373
++ __49-[HDCloudSyncRegisterSubscriptionsOperation main]_block_invoke.371
++ __49-[HDMaintenanceWorkCoordinator addDebugCommands:]_block_invoke.476
++ __49-[HDQuantitySeriesManager samplesJournaled:type:]_block_invoke.405
++ __49-[HDWorkoutSessionServer remoteSessionDidRecover]_block_invoke.803
++ __50+[HDSampleEntity objectInsertionFilterForProfile:]_block_invoke.554
++ __50-[HDCloudSyncPipelineStageDisableSyncLocally main]_block_invoke.367
++ __50-[HDCloudSyncResetOperation _fetchDatabaseChanges]_block_invoke.377
++ __50-[HDDaemon registerDaemonActivatedObserver:queue:]_block_invoke.577
++ __50-[HDDataCollectionManager _dataCollectorBlacklist]_block_invoke.500
++ __50-[HDWorkoutSessionServer didDetectActivityChange:]_block_invoke.743
++ __51-[HDCloudSyncCloudState cloudStateByRemovingZones:]_block_invoke.380
++ __51-[HDQueryManager _lock_executeDatabaseAccessBlocks]_block_invoke.393
++ __52-[HDCloudSyncSharedSummaryPushPrepareOperation main]_block_invoke.367
++ __52-[HDDemoDataManager _queue_generateDemoDataIfNeeded]_block_invoke.372
++ __52-[HDDemoDataManager _queue_generateDemoDataIfNeeded]_block_invoke.391
++ __52-[HDLiveWorkoutDataSource addQuantities:dataSource:]_block_invoke.498
++ __52-[HDLiveWorkoutDataSource addQuantities:dataSource:]_block_invoke.502
++ __52-[HDLiveWorkoutDataSource addQuantities:dataSource:]_block_invoke_2.499
++ __52-[HDQueryManager _lock_startQueryServer:completion:]_block_invoke.387
++ __52-[HDSeriesBuilderServer _setClientState:completion:]_block_invoke.404
++ __52-[HDSeriesSampleEntity canAddDatumInDatabase:error:]_block_invoke.420
++ __52-[HDWorkoutBasicDataSource setSampleTypesToCollect:]_block_invoke.494
++ __52-[HDWorkoutBasicDataSource setSampleTypesToCollect:]_block_invoke.499
++ __52-[HDWorkoutLocationSmoother _queue_smoothNextSample]_block_invoke.456
++ __53+[HDCorrelationSampleEntity _objectsWithIDs:profile:]_block_invoke.376
++ __53+[HDUnitStringEntity storeUnitString:database:error:]_block_invoke.377
++ __53+[HDUnitStringEntity storeUnitString:database:error:]_block_invoke.379
++ __53-[HDCloudSyncResetOperation _deleteZonesWithZoneIDs:]_block_invoke.368
++ __53-[HDDatabaseJournal addJournalEntries:profile:error:]_block_invoke.408
++ __53-[HDQuantitySeriesManager insertValues:series:error:]_block_invoke.375
++ __54+[HDDataEntity dataEntityForObject:transaction:error:]_block_invoke.574
++ __54-[HDCloudSyncCachedZone recordsForClass:error:filter:]_block_invoke.419
++ __54-[HDCloudSyncCachedZone recordsForClass:error:filter:]_block_invoke_2.420
++ __54-[HDDataManager _addTransactionInsertionCommitBlocks:]_block_invoke.400
++ __54-[HDDataManager _addTransactionInsertionCommitBlocks:]_block_invoke.402
++ __54-[HDDataManager _addTransactionInsertionCommitBlocks:]_block_invoke.403
++ __54-[HDLiveWorkoutDataSource addOtherSamples:dataSource:]_block_invoke.509
++ __54-[HDPeriodicCountryMonitor _processCountryCodeResult:]_block_invoke.426
++ __54-[HDUserCharacteristicsManager profileDidBecomeReady:]_block_invoke.449
++ __54-[HDWorkoutEffortRelationshipQueryServer _queue_start]_block_invoke.372
++ __55-[HDActiveDataAggregator _reconsiderDelayedAggregation]_block_invoke.386
++ __55-[HDCloudSyncCachedZone recordForRecordID:class:error:]_block_invoke.431
++ __55-[HDCloudSyncCachedZone recordForRecordID:class:error:]_block_invoke_2.432
++ __55-[HDCloudSyncManager _persistErrorRequiringUserAction:]_block_invoke.570
++ __55-[HDCloudSyncPullStoreOperation _fetchedChangeRecords:]_block_invoke.410
++ __55-[HDDatabaseMigrator(Erie) erieProtectedMigrationSteps]_block_invoke.368
++ __55-[HDFeatureAvailabilityManager registerObserver:queue:]_block_invoke.482
++ __55-[HDHealthStoreServer remote_isProtectedDataAvailable:]_block_invoke.555
++ __55-[HDQueryServer authorizedSamplesForClientWithSamples:]_block_invoke.455
++ __55-[HDQueryServer authorizedSamplesForClientWithSamples:]_block_invoke.457
++ __55-[HDWorkoutBuilderServer remote_addSamples:completion:]_block_invoke.705
++ __55-[HDWorkoutBuilderServer remote_addSamples:completion:]_block_invoke.706
++ __55-[HDWorkoutBuilderServer remote_recoverWithCompletion:]_block_invoke.725
++ __55-[HDWorkoutSessionServer _queue_startInvalidationTimer]_block_invoke.855
++ __56-[HDActivitySummaryQueryServer _setUpInitialQueryHelper]_block_invoke.380
++ __56-[HDCloudSyncPipelineStagePush _pushOperationWithStore:]_block_invoke.443
++ __56-[HDWorkoutBuilderServer remote_addMetadata:completion:]_block_invoke.713
++ __56-[HDWorkoutLocationSmoother _queue_deleteRoutesForTask:]_block_invoke.478
++ __57-[HDDatabaseMigrator(Corry) corryProtectedMigrationSteps]_block_invoke.368
++ __57-[HDDatabaseMigrator(Emet) emetUnprotectedMigrationSteps]_block_invoke.369
++ __57-[HDDemoDataGenerator generateThroughEndDate:completion:]_block_invoke.381
++ __57-[HDLiveWorkoutDataSource remote_startTaskServerIfNeeded]_block_invoke.488
++ __57-[HDMetadataManager unitTest_rawMetadataForObject:error:]_block_invoke.402
++ __57-[HDSourceEntity sourceBundleIdentifierInDatabase:error:]_block_invoke.529
++ __57-[HDSourceEntity sourceBundleIdentifierInDatabase:error:]_block_invoke.532
++ __57-[HDWorkoutSessionServer endCurrentActivityOnDate:error:]_block_invoke.756
++ __58+[HDServiceEntity allServicesWithProfile:assertion:error:]_block_invoke.435
++ __58-[HDCloudSyncDeleteZonesOperation _deleteZones:container:]_block_invoke.380
++ __58-[HDCloudSyncDeleteZonesOperation _deleteZones:container:]_block_invoke.382
++ __58-[HDCloudSyncRemoveInvalidShareParticipantsOperation main]_block_invoke.379
++ __58-[HDQuantitySampleSeriesEntity _isFrozenInDatabase:error:]_block_invoke.465
++ __58-[HDSourceManager deleteSourceWithBundleIdentifier:error:]_block_invoke.495
++ __58-[HDWorkoutSessionTaskServer addWorkoutEvents:dataSource:]_block_invoke.521
++ __59+[HDConceptIndexer _indexSample:profile:transaction:error:]_block_invoke.472
++ __59-[HDCloudSyncStatusProvider fetchSyncStatusWithCompletion:]_block_invoke.384
++ __59-[HDCloudSyncStatusProvider fetchSyncStatusWithCompletion:]_block_invoke.385
++ __59-[HDDatabaseMigrator(Cinar) cinarUnprotectedMigrationSteps]_block_invoke.369
++ __59-[HDDatabaseMigrator(Eagle) eagleUnprotectedMigrationSteps]_block_invoke.368
++ __59-[HDDatabaseMigrator(Monarch) _migrateSourcesTableForSync:]_block_invoke.424
++ __59-[HDFakeDataCollector _lock_setupSwimmingGeneratorsAtTime:]_block_invoke.412
++ __59-[HDWorkoutBuilderServer remote_removeMetadata:completion:]_block_invoke.718
++ __59-[HDWorkoutSessionTaskServer remote_recoverWithCompletion:]_block_invoke.501
++ __60+[HDSampleEntity dateIntervalsForSampleTypes:profile:error:]_block_invoke.484
++ __60-[HDCloudSyncDeleteStoresOperation _individualZonesToDelete]_block_invoke.372
++ __60-[HDCloudSyncSubscriptionNotificationHandler _enableAPSPush]_block_invoke.373
++ __60-[HDJournalableOperation performOrJournalWithProfile:error:]_block_invoke.371
++ __60-[HDMirroredWorkoutSessionServer setTargetState:date:error:]_block_invoke.428
++ __60-[HDStatisticsCollectionQueryServer _queue_updateStatistics]_block_invoke.458
++ __60-[HDSummarySharingEntryManager pauseActiveEntriesWithError:]_block_invoke.392
++ __60-[HDSummarySharingEntryStoreServer sharingEntriesDidUpdate:]_block_invoke.373
++ __60-[HDWorkoutSessionServer didEndCurrentActivity:nodeWrapper:]_block_invoke.732
++ __60-[HDWorkoutSessionServer didEndCurrentActivity:nodeWrapper:]_block_invoke.740
++ __61-[HDCloudSyncDetectSyncDisabledOperation _disableSyncLocally]_block_invoke.377
++ __61-[HDCloudSyncManagerPipelineTask mainWithRepositories:error:]_block_invoke.379
++ __61-[HDCloudSyncOperation chainFromOperation:transitionHandler:]_block_invoke.402
++ __61-[HDDatabase _mergeSecondaryJournalsWithActivity:completion:]_block_invoke.677
++ __61-[HDDatabaseMigrator(Tigris) _updateOriginVersionsWithError:]_block_invoke.499
++ __61-[HDDatabaseMigrator(Tigris) tigrisUnprotectedMigrationSteps]_block_invoke.369
++ __61-[HDSourceQueryServer _sourcesForObjectsOfType:filter:error:]_block_invoke.374
++ __61-[HDWorkoutBuilderEntity configurationWithTransaction:error:]_block_invoke.457
++ __61-[HDWorkoutBuilderServer _endActivityWithUUID:endDate:error:]_block_invoke.644
++ __61-[HDWorkoutBuilderServer remote_addWorkoutEvents:completion:]_block_invoke.711
++ __61-[HDWorkoutSessionServer _queue_generateConfigurationUpdate:]_block_invoke.843
++ __62+[HDServiceEntity insertOrUpdateService:healthDatabase:error:]_block_invoke.417
++ __62+[HDServiceEntity insertOrUpdateService:healthDatabase:error:]_block_invoke.420
++ __62+[HDServiceEntity insertOrUpdateService:healthDatabase:error:]_block_invoke.424
++ __62-[HDCloudSyncDeleteRecordsOperation _deleteRecords:container:]_block_invoke.383
++ __62-[HDCloudSyncSharedSummarySynchronizeCloudStateOperation main]_block_invoke.373
++ __62-[HDCloudSyncSharedSummarySynchronizeCloudStateOperation main]_block_invoke.376
++ __62-[HDSourceManager createSourcesWithCodables:provenance:error:]_block_invoke.484
++ __62-[HDSourceManager createSourcesWithCodables:provenance:error:]_block_invoke_2.486
++ __62-[HDSyncIdentityEntity concreteIdentityWithTransaction:error:]_block_invoke.513
++ __62-[HDUserCharacteristicsManager _queue_updateHasWatchOnAccount]_block_invoke.442
++ __62-[HDWorkoutSessionServer _processTargetStoppingStateWithDate:]_block_invoke.680
++ __63-[HDCloudSyncCompoundOperation addOperation:transitionHandler:]_block_invoke.403
++ __63-[HDCloudSyncDeleteStoresOperation _deleteIndividualZoneStores]_block_invoke.380
++ __63-[HDCloudSyncPipeline _queue_computeConfigurationWithTaskTree:]_block_invoke.479
++ __63-[HDDatabaseMigrator(Monarch) monarchUnprotectedMigrationSteps]_block_invoke.369
++ __63-[HDHealthStoreServer remote_deleteClientSourceWithCompletion:]_block_invoke.585
++ __63-[HDStatisticsCollectionQueryServer _queue_useCachedStatistics]_block_invoke.505
++ __63-[HDStatisticsCollectionQueryServer _queue_useCachedStatistics]_block_invoke.506
++ __63-[HDStatisticsCollectionQueryServer _queue_useCachedStatistics]_block_invoke.510
++ __63-[HDWorkoutBuilderServer remote_addWorkoutActivity:completion:]_block_invoke.720
++ __63-[HDWorkoutSessionTaskServer didDisconnectFromRemoteWithError:]_block_invoke.535
++ __64-[HDCloudSyncComputePullTargetsOperation _pullTargetsWithError:]_block_invoke.376
++ __64-[HDCloudSyncManager cloudSyncRepositoriesForClient:completion:]_block_invoke.535
++ __64-[HDCloudSyncModifyRecordsOperation _saveRecords:deleteRecords:]_block_invoke.393
++ __64-[HDCloudSyncPullReferenceTombstonesOperation performWithError:]_block_invoke.372
++ __64-[HDCloudSyncPullReferenceTombstonesOperation performWithError:]_block_invoke.373
++ __64-[HDCloudSyncSharedSummarySynchronizeParticipantsOperation main]_block_invoke.369
++ __64-[HDDaemonSyncEngine updateLocalVersionsForStore:profile:error:]_block_invoke.383
++ __64-[HDDatabasePruningCoordinator _startBackgroundTask:completion:]_block_invoke.386
++ __64-[HDDatabasePruningCoordinator _startBackgroundTask:completion:]_block_invoke.388
++ __64-[HDDatabasePruningCoordinator _startBackgroundTask:completion:]_block_invoke.390
++ __64-[HDDatabasePruningCoordinator _startBackgroundTask:completion:]_block_invoke.394
++ __64-[HDFeatureAvailabilityManager _triggerImmediateSyncWithReason:]_block_invoke.481
++ __64-[HDHealthStoreServer remote_deleteDataObjects:options:handler:]_block_invoke.542
++ __64-[HDNanoSyncManager _queue_receiveTinkerOptInRequest:syncStore:]_block_invoke.928
++ __64-[HDNanoSyncManager _scheduleResetReceivedNanoSyncAnchorsForHFD]_block_invoke.1062
++ __64-[HDNotificationManager postNotificationWithRequest:completion:]_block_invoke.401
++ __64-[HDPeriodicCountryMonitor _fetchCountryIfNeededWithCompletion:]_block_invoke.410
++ __64-[HDQuantitySeriesManager samplesAdded:type:anchor:transaction:]_block_invoke.402
++ __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke.650
++ __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke.655
++ __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke.659
++ __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke.671
++ __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke.672
++ __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke.684
++ __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke.685
++ __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke_2.670
++ __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke_2.673
++ __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke_3.674
++ __64-[HDWorkoutSessionTaskServer _fetchOrSetupServerWithCompletion:]_block_invoke.553
++ __65+[HDRaceRouteClusterEntity _entityForClusterUUID:database:error:]_block_invoke.472
++ __65-[HDCloudSyncCoordinator resetAllProfilesWithContext:completion:]_block_invoke.503
++ __65-[HDCloudSyncManagerTaskQueue _primitiveConsiderStartingNextTask]_block_invoke.369
++ __65-[HDCreateWorkoutOperation performWithProfile:transaction:error:]_block_invoke.384
++ __65-[HDCreateWorkoutOperation performWithProfile:transaction:error:]_block_invoke.392
++ __65-[HDCreateWorkoutOperation performWithProfile:transaction:error:]_block_invoke.396
++ __65-[HDCreateWorkoutOperation performWithProfile:transaction:error:]_block_invoke.401
++ __65-[HDCreateWorkoutOperation performWithProfile:transaction:error:]_block_invoke.405
++ __65-[HDCreateWorkoutOperation performWithProfile:transaction:error:]_block_invoke.417
++ __65-[HDDataEntityDeletionContext deleteInfoForObjectWithUUID:error:]_block_invoke.384
++ __65-[HDDatabaseCorruptionTTRPrompter _popAlertWithRadarDescription:]_block_invoke.399
++ __65-[HDDatabaseValueCache _storageForTransaction:createIfNecessary:]_block_invoke.405
++ __65-[HDMirroredWorkoutSessionServer syncCurrentActivity:completion:]_block_invoke.413
++ __65-[HDMirroredWorkoutSessionServer syncCurrentActivity:completion:]_block_invoke.418
++ __65-[HDMirroredWorkoutSessionServer syncCurrentActivity:completion:]_block_invoke_2.419
++ __65-[HDSourceOrderManager updateOrderedSources:forObjectType:error:]_block_invoke.397
++ __65-[HDSyncIdentityManager rollCurrentSyncIdentityWithReason:error:]_block_invoke.426
++ __65-[HDWorkoutRouteBuilderServer _queue_insertRouteData:completion:]_block_invoke.376
++ __65-[HDWorkoutRouteBuilderServer _queue_insertRouteData:completion:]_block_invoke.381
++ __65-[HDWorkoutRouteBuilderServer _queue_insertRouteData:completion:]_block_invoke_2.382
++ __65-[HDWorkoutSessionRapportSyncController _sendPendingTransactions]_block_invoke.438
++ __66+[HDRacePreviousRouteSchemaProvider _addWorkoutTableWithMigrator:]_block_invoke.571
++ __66+[HDRacePreviousRouteSchemaProvider _addWorkoutTableWithMigrator:]_block_invoke_2.575
++ __66+[HDRaceRouteSnapshotEntity insertSnapshotData:transaction:error:]_block_invoke.380
++ __66+[HDRaceRouteSnapshotEntity insertSnapshotData:transaction:error:]_block_invoke.383
++ __66+[HDWorkoutCondenser _condenseWorkout:entity:configuration:error:]_block_invoke.427
++ __66-[HDClientDataCollectionTaskServer remote_registerWithCompletion:]_block_invoke.389
++ __66-[HDCloudSyncFinishOwnerTakeoverOperation _deleteZones:container:]_block_invoke.390
++ __66-[HDCloudSyncPullReferencesOperation _fetchAttachmentRecordAssets]_block_invoke.390
++ __66-[HDCloudSyncPullReferencesOperation _fetchAttachmentRecordAssets]_block_invoke.394
++ __66-[HDCloudSyncStateSyncOperation _pushUpdatedStateRecordsForZones:]_block_invoke.407
++ __66-[HDCoreMotionDataCollector _queue_forwardCoreMotionData:forType:]_block_invoke.381
++ __66-[HDCoreMotionDataCollector _queue_forwardCoreMotionData:forType:]_block_invoke.383
++ __66-[HDDatabaseControlServer _queryTypeCounts:withTransaction:error:]_block_invoke.400
++ __66-[HDDatabaseMigrator(Boulder) _fixSyncProvenanceForPostOkemoZurs:]_block_invoke.383
++ __66-[HDHealthStoreServer _holdActiveClientTransactionWithCompletion:]_block_invoke.624
++ __66-[HDMedicalIDDataManager _triggerSyncForSuccessfulMedicalIDUpdate]_block_invoke.404
++ __66-[HDNanoSyncManager _queue_receiveAuthorizationRequest:syncStore:]_block_invoke.1041
++ __66-[HDNanoSyncManager _queue_receiveAuthorizationRequest:syncStore:]_block_invoke.1045
++ __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.1002
++ __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.1003
++ __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.1004
++ __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.960
++ __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.977
++ __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.980
++ __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.984
++ __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.990
++ __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.992
++ __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke_2.1005
++ __66-[HDPairedFeaturePropertiesSyncManager synchronizeLocalProperties]_block_invoke.454
++ __66-[HDSeriesBuilderServer _queue_discardIfAuthorizedWithCompletion:]_block_invoke.436
++ __66-[HDWorkoutBuilderSampleQueryServer _queue_performHistoricalQuery]_block_invoke.384
++ __66-[HDWorkoutBuilderSampleQueryServer _queue_performHistoricalQuery]_block_invoke.388
++ __67+[HDWorkoutBuilderServer _finishBuilders:profile:error:completion:]_block_invoke.378
++ __67-[HDCloudSyncAcceptSharesOperation _acceptSharesWithShareMetadata:]_block_invoke.383
++ __67-[HDDatabaseMigrator(OkemoZurs) okemoZursUnprotectedMigrationSteps]_block_invoke.369
++ __67-[HDHealthStoreServer _permissionBlockForRestrictedSourceEntities:]_block_invoke.528
++ __67-[HDMirroredWorkoutSessionServer didDisconnectFromRemoteWithError:]_block_invoke.396
++ __67-[HDMirroredWorkoutSessionServer didDisconnectFromRemoteWithError:]_block_invoke.398
++ __67-[HDSourceManager setLocalDeviceSourceUUID:bundleIdentifier:error:]_block_invoke.415
++ __68+[HDRCacheManagementEntity isCacheUpToDateFor:healthDatabase:error:]_block_invoke.406
++ __68+[HDSampleEntity populatedSampleTypes:inDateInterval:profile:error:]_block_invoke.497
++ __68+[HDSyncIdentityEntity _concreteIdentityForIdentity:database:error:]_block_invoke.510
++ __68+[HDWorkoutClusterEntity clusterUUIDsForWorkoutUUIDs:profile:error:]_block_invoke.435
++ __68-[HDCloudSyncContextSyncShim ingestRemoteDeviceContexts:completion:]_block_invoke.377
++ __68-[HDDatabaseMigrator(Monarch) _migrateSourcesToProvenanceWithError:]_block_invoke.565
++ __68-[HDDatabaseMigrator(Monarch) _migrateSourcesToProvenanceWithError:]_block_invoke_2.569
++ __68-[HDHealthStoreServer remote_setCharacteristic:forDataType:handler:]_block_invoke.599
++ __68-[HDLocationSeriesSampleEntity freezeWithTransaction:profile:error:]_block_invoke.419
++ __68-[HDLocationSeriesSampleEntity freezeWithTransaction:profile:error:]_block_invoke.421
++ __68-[HDNanoSyncManager _queue_recieveStartWorkoutAppRequest:syncStore:]_block_invoke.884
++ __68-[HDUserCharacteristicsManager _queue_updateCategoryCharacteristics]_block_invoke.446
++ __68-[HDWorkoutBuilderServer _runInBestWriteTransactionWithError:block:]_block_invoke.850
++ __68-[HDWorkoutBuilderServer _updateZoneGroupWrappersForTypeByActivity:]_block_invoke.863
++ __68-[HDWorkoutManager recoverAllActiveWorkoutSessionServersWithStates:]_block_invoke.481
++ __68-[HDWorkoutSessionTaskServer didEndActivity:nodeWrapper:dataSource:]_block_invoke.525
++ __68-[HDWorkoutSessionTaskServer updateWorkoutConfiguration:dataSource:]_block_invoke.522
++ __69-[HDAttachmentStoreServer remote_streamDataForAttachment:completion:]_block_invoke.383
++ __69-[HDCloudSyncStatusProvider fetchSyncStatusPerProfileWithCompletion:]_block_invoke.375
++ __69-[HDCloudSyncStatusProvider fetchSyncStatusPerProfileWithCompletion:]_block_invoke.377
++ __69-[HDCloudSyncStatusProvider fetchSyncStatusPerProfileWithCompletion:]_block_invoke.378
++ __69-[HDDaemon obliterateAndTerminateProfiles:options:reason:completion:]_block_invoke.446
++ __69-[HDDataManager deleteObjectsWithUUIDCollection:configuration:error:]_block_invoke.427
++ __69-[HDDataManager deleteObjectsWithUUIDCollection:configuration:error:]_block_invoke.439
++ __70-[HDAttachmentManager reportDailyAnalyticsWithCoordinator:completion:]_block_invoke.456
++ __70-[HDCloudSyncManager _queue_considerStartingBackstopSyncForThreshold:]_block_invoke.584
++ __70-[HDDemoDataGenerator _insertIntoDatabaseObjectCollection:fromPerson:]_block_invoke.468
++ __70-[HDDemoDataGenerator _insertIntoDatabaseObjectCollection:fromPerson:]_block_invoke.473
++ __70-[HDFakeDataCollector _lock_setupPedometerGeneratorsForActivity:time:]_block_invoke.396
++ __70-[HDFakeDataCollector _lock_setupPedometerGeneratorsForActivity:time:]_block_invoke.399
++ __70-[HDFakeDataCollector _lock_setupPedometerGeneratorsForActivity:time:]_block_invoke.406
++ __70-[HDFakeDataCollector _lock_setupPedometerGeneratorsForActivity:time:]_block_invoke.409
++ __70-[HDFakeDataCollector _lock_setupPedometerGeneratorsForActivity:time:]_block_invoke_2.410
++ __70-[HDHealthStoreServer remote_fetchCharacteristicWithDataType:handler:]_block_invoke.596
++ __70-[HDNanoSyncManager _queue_receiveChangeRequest:syncStore:completion:]_block_invoke.758
++ __70-[HDRaceRouteClusterManager generateRaceRouteClustersWithLimit:error:]_block_invoke.373
++ __70-[HDSharedSummaryTransactionQueryServer _queue_deliverAllTransactions]_block_invoke.372
++ __70-[HDSummarySharingEntryIDSManager leaveInvitationWithUUID:completion:]_block_invoke.473
++ __70-[HDSummarySharingEntryManager updateEntryWithUUID:pauseStatus:error:]_block_invoke.402
++ __71-[HDCloudSyncCoordinator _queue_syncAllProfilesWithContext:completion:]_block_invoke.457
++ __71-[HDCloudSyncCoordinator _queue_syncAllProfilesWithContext:completion:]_block_invoke.462
++ __71-[HDCloudSyncCoordinator _queue_syncAllProfilesWithContext:completion:]_block_invoke_2.458
++ __71-[HDSummarySharingEntryIDSManager acceptInvitationWithUUID:completion:]_block_invoke.448
++ __71-[HDSummarySharingEntryIDSManager acceptInvitationWithUUID:completion:]_block_invoke.450
++ __71-[HDSummarySharingEntryIDSManager acceptInvitationWithUUID:completion:]_block_invoke.451
++ __71-[HDSummarySharingEntryIDSManager acceptInvitationWithUUID:completion:]_block_invoke.452
++ __71-[HDSummarySharingEntryIDSManager acceptInvitationWithUUID:completion:]_block_invoke.455
++ __71-[HDSummarySharingEntryIDSManager revokeInvitationWithUUID:completion:]_block_invoke.469
++ __71-[HDSummarySharingEntryIDSManager revokeInvitationWithUUID:completion:]_block_invoke.470
++ __71-[HDUserCharacteristicsManager _queue_updateDateOfBirthCharacteristics]_block_invoke.444
++ __71-[HDWorkoutBuilderSampleQueryServer workoutBuilderServer:addedSamples:]_block_invoke.399
++ __71-[HDWorkoutSessionServer stopMirroringToCompanionDeviceWithCompletion:]_block_invoke.779
++ __72+[HDRacePreviousRouteSchemaProvider _addRouteSnapshotTableWithMigrator:]_block_invoke.475
++ __72+[HDRacePreviousRouteSchemaProvider _addRouteSnapshotTableWithMigrator:]_block_invoke.486
++ __72+[HDRacePreviousRouteSchemaProvider _addRouteSnapshotTableWithMigrator:]_block_invoke_2.487
++ __72+[HDRacePreviousRouteSchemaProvider _addRouteSnapshotTableWithMigrator:]_block_invoke_3.539
++ __72-[HDClientAuthorizationOracle authorizationStatusRecordsForTypes:error:]_block_invoke.399
++ __72-[HDCloudSyncAccountProvider disableAndDeleteAllSyncDataWithCompletion:]_block_invoke.383
++ __72-[HDCloudSyncAccountProvider disableAndDeleteAllSyncDataWithCompletion:]_block_invoke.391
++ __72-[HDCloudSyncAccountProvider disableAndDeleteAllSyncDataWithCompletion:]_block_invoke.393
++ __72-[HDCloudSyncCachedZone recordsForClass:epoch:error:enumerationHandler:]_block_invoke.409
++ __72-[HDCloudSyncCachedZone recordsForClass:epoch:error:enumerationHandler:]_block_invoke.411
++ __72-[HDCloudSyncDeleteStoresOperation _deleteUnifiedZoneStoresInContainer:]_block_invoke.393
++ __72-[HDCloudSyncDeleteStoresOperation _deleteUnifiedZoneStoresInContainer:]_block_invoke.402
++ __72-[HDCloudSyncPipeline _queue_waitForCloudKitOperationDelayWithTaskTree:]_block_invoke.495
++ __72-[HDDefaultWorkoutSessionController _queue_collectFinalDataThroughDate:]_block_invoke.501
++ __72-[HDDefaultWorkoutSessionController _queue_collectFinalDataThroughDate:]_block_invoke.502
++ __72-[HDHealthStoreServer remote_deleteObjectsWithUUIDs:options:completion:]_block_invoke.589
++ __72-[HDMirroredWorkoutSessionServer syncTransitionToState:date:completion:]_block_invoke.404
++ __72-[HDStatisticsCollectionQueryServer _queue_fetchAndDeliverAllStatistics]_block_invoke.473
++ __72-[HDStatisticsCollectionQueryServer _queue_fetchAndDeliverAllStatistics]_block_invoke.474
++ __72-[HDStatisticsCollectionQueryServer _queue_fetchAndDeliverAllStatistics]_block_invoke.484
++ __72-[HDStatisticsCollectionQueryServer _queue_fetchAndDeliverAllStatistics]_block_invoke.488
++ __72-[HDWorkoutCondenser _performPeriodicActivityWithBatchLimit:completion:]_block_invoke.505
++ __72-[HDWorkoutCondenser _performPeriodicActivityWithBatchLimit:completion:]_block_invoke.506
++ __72-[HDWorkoutSessionServer didBeginNewActivity:insertionType:nodeWrapper:]_block_invoke.722
++ __72-[HDWorkoutSessionServer didBeginNewActivity:insertionType:nodeWrapper:]_block_invoke.726
++ __72-[HDWorkoutSessionServer didBeginNewActivity:insertionType:nodeWrapper:]_block_invoke.731
++ __72-[HDWorkoutSessionServer startMirroringToCompanionDeviceWithCompletion:]_block_invoke.765
++ __73-[HDCloudSyncAccountProvider _performSyncForAccountChangeWithCompletion:]_block_invoke.422
++ __73-[HDCloudSyncPushReferencesOperation _pushToCloudKitAndFinishForRecords:]_block_invoke.390
++ __73-[HDCoreMotionDataCollector _queue_beginUpdatesWithTargetCollectionType:]_block_invoke.394
++ __73-[HDDataEntityEnumerator enumerateIncludingDeletedObjects:error:handler:]_block_invoke.390
++ __73-[HDDatabaseMigrator(OkemoZurs) _initializeDatabaseIdentifiersWithError:]_block_invoke.588
++ __73-[HDDatabaseMigrator(OkemoZurs) _initializeDatabaseIdentifiersWithError:]_block_invoke.589
++ __73-[HDDatabaseSchemaManager currentVersionForSchema:protectionClass:error:]_block_invoke.377
++ __73-[HDNanoSyncManager _syncQueue_prepareForCompanionChangeWithStore:error:]_block_invoke.683
++ __73-[HDWorkoutMirroringManager recoverMirroredWorkoutSessionWithCompletion:]_block_invoke.413
++ __73-[HDWorkoutMirroringManager recoverMirroredWorkoutSessionWithCompletion:]_block_invoke.414
++ __73-[HDWorkoutTrainingLoadQueryHelper trainingLoadCollectionWithCompletion:]_block_invoke.379
++ __74-[HDAnalyticsSubmissionCoordinator _locked_sendDailyAnalyticsWithTimeout:]_block_invoke.420
++ __74-[HDAnalyticsSubmissionCoordinator _locked_sendDailyAnalyticsWithTimeout:]_block_invoke.422
++ __74-[HDAnalyticsSubmissionCoordinator _locked_sendDailyAnalyticsWithTimeout:]_block_invoke.425
++ __74-[HDAnalyticsSubmissionCoordinator _locked_sendDailyAnalyticsWithTimeout:]_block_invoke.427
++ __74-[HDDataAggregator requestAggregationThroughDate:mode:options:completion:]_block_invoke.374
++ __74-[HDDatabaseMigrator(Monarch) _fixDanglingSourcesAndProvenancesWithError:]_block_invoke.763
++ __74-[HDDatabaseMigrator(Monarch) _fixDanglingSourcesAndProvenancesWithError:]_block_invoke_2.767
++ __74-[HDNanoSyncManager _queue_receiveCompanionWorkoutStateRequest:syncStore:]_block_invoke.894
++ __74-[HDPostInstallUpdateManager _postInstallUpdateHandlerDidFire:completion:]_block_invoke.385
++ __74-[HDPostInstallUpdateManager _postInstallUpdateHandlerDidFire:completion:]_block_invoke.387
++ __74-[HDPostInstallUpdateManager _postInstallUpdateHandlerDidFire:completion:]_block_invoke.390
++ __74-[HDPostInstallUpdateManager _postInstallUpdateHandlerDidFire:completion:]_block_invoke_2.386
++ __74-[HDWorkoutBuilderSampleQueryServer workoutBuilderServer:addedQuantities:]_block_invoke.403
++ __75-[HDCloudSyncObserverTaskServer _queue_instantiateCloudSyncObserverStatus:]_block_invoke.447
++ __75-[HDCloudSyncObserverTaskServer _queue_instantiateCloudSyncObserverStatus:]_block_invoke_2.448
++ __75-[HDCloudSyncUpdateCachedZonesOperation fetchChangesForContainer:database:]_block_invoke.373
++ __75-[HDCloudSyncUpdateCachedZonesOperation fetchChangesForContainer:database:]_block_invoke.375
++ __75-[HDCoreMotionDataCollector _didReceiveCoreMotionData:startingDatum:error:]_block_invoke.387
++ __75-[HDCurrentActivitySummaryHelper _handleSignificantTimeChangeNotification:]_block_invoke.388
++ __75-[HDDaemonSyncEngine _singleTransactionApplySyncChange:entity:store:error:]_block_invoke.386
++ __75-[HDDatabaseMigrator(Cinar) _cinar_addSyncPrimaryColumnToSourcesWithError:]_block_invoke.396
++ __75-[HDNanoSyncManager _queue_registerForTinkerOptInNotificationWithResponse:]_block_invoke.946
++ __75-[HDReplaceObjectIdentifierOperation performWithProfile:transaction:error:]_block_invoke.369
++ __75-[HDWorkoutBasicDataSource workoutSession:didChangeToState:fromState:date:]_block_invoke.537
++ __75-[HDWorkoutBuilderServer remote_updateActivityWithUUID:endDate:completion:]_block_invoke.722
++ __75-[HDWorkoutTrainingLoadQueryHelper _hasWorkoutsBetween:and:database:error:]_block_invoke.391
++ __76+[HDQuantitySeriesDataEntity enumerateWithDatabase:predicate:error:handler:]_block_invoke.409
++ __76-[HDActiveDataAggregator dataCollector:didCollectSensorData:device:options:]_block_invoke.398
++ __76-[HDActiveDataAggregator dataCollector:didCollectSensorData:device:options:]_block_invoke.402
++ __76-[HDActiveDataAggregator dataCollector:didCollectSensorData:device:options:]_block_invoke.405
++ __76-[HDCloudSyncComputePullTargetsOperation _requestTapToRadarWithDescription:]_block_invoke.391
++ __76-[HDCloudSyncValidatePushTargetOperation _deleteOldSequenceRecordsAndFinish]_block_invoke.375
++ __76-[HDIDSInvitationManager rescindInvitationWithUUID:serverAcknowledgedBlock:]_block_invoke.387
++ __76-[HDNanoSyncManager _queue_receiveTinkerEndToEndCloudSyncRequest:syncStore:]_block_invoke.1019
++ __76-[HDNotificationSyncClient _pendingNotificationInstructionsForAction:error:]_block_invoke.385
++ __76-[HDWorkoutSessionServer didReceiveDataFromRemoteWorkoutSession:completion:]_block_invoke.788
++ __77+[HDAdHocConceptEntity _adHocConceptForIdentifier:options:transaction:error:]_block_invoke.419
++ __77+[HDDataEntity insertDataObjects:insertionContext:profile:completionHandler:]_block_invoke.529
++ __77+[HDDataEntity insertDataObjects:insertionContext:profile:completionHandler:]_block_invoke.536
++ __77-[HDCloudSyncContextSyncShim lookupOrCreateLocalDeviceContextWithCompletion:]_block_invoke.373
++ __77-[HDCloudSyncDeleteEmptyZonesOperation _deleteEmptyZones:container:database:]_block_invoke.371
++ __77-[HDCloudSyncOwnerIdentifierManager _fetchDatabaseIdentifiersWithCompletion:]_block_invoke.384
++ __77-[HDCloudSyncPipelineStageMedicalID _compoundSyncOperationWithConfiguration:]_block_invoke.380
++ __77-[HDCloudSyncPipelineStageMedicalID _compoundSyncOperationWithConfiguration:]_block_invoke.389
++ __77-[HDDatabase _performWhenDataProtectedByFirstUnlockIsAvailableOnQueue:block:]_block_invoke.510
++ __77-[HDDatabase _performWhenDataProtectedByFirstUnlockIsAvailableOnQueue:block:]_block_invoke.514
++ __77-[HDDeleteAttachmentReferenceOperation performWithProfile:transaction:error:]_block_invoke.369
++ __77-[HDDeleteAttachmentReferenceOperation performWithProfile:transaction:error:]_block_invoke.380
++ __77-[HDDeleteAttachmentReferenceOperation performWithProfile:transaction:error:]_block_invoke_2.378
++ __77-[HDHealthStoreServer remote_splitTotalCalories:timeInterval:withCompletion:]_block_invoke.634
++ __77-[HDHealthStoreServer remote_splitTotalCalories:timeInterval:withCompletion:]_block_invoke.637
++ __77-[_HDObjectAuthorizationPromptSession endPromptTransactionWithSuccess:error:]_block_invoke.929
++ __78+[HDAttachmentReferenceEntity insertTombstones:cloudStatus:transaction:error:]_block_invoke.493
++ __78+[HDAttachmentReferenceEntity insertTombstones:cloudStatus:transaction:error:]_block_invoke.497
++ __78+[HDAttachmentReferenceEntity insertTombstones:cloudStatus:transaction:error:]_block_invoke_2.498
++ __78+[HDAttachmentReferenceEntity insertTombstones:cloudStatus:transaction:error:]_block_invoke_3.503
++ __78+[HDDeletedSampleEntity insertCodableDeletedSamples:provenance:profile:error:]_block_invoke.449
++ __78+[HDDeletedSampleEntity insertCodableDeletedSamples:provenance:profile:error:]_block_invoke.457
++ __78+[HDLogicalSourceEntity logicalSourceIDForBundleIdentifier:transaction:error:]_block_invoke.398
++ __78-[HDAggregateDataCollector _queue_fetchHistoricalDataForcedUpdate:completion:]_block_invoke.522
++ __78-[HDAggregateDataCollector _queue_fetchHistoricalDataForcedUpdate:completion:]_block_invoke.523
++ __78-[HDCloudSyncRemoveSharingParticipantsOperation _saveUpdatedShares:container:]_block_invoke.374
++ __78-[HDCloudSyncSeizeAbandonedStoresOperation _markPendingOwnerForSeizureTargets]_block_invoke.397
++ __78-[HDCloudSyncStoreEntity updateShardStartDate:endDate:type:transaction:error:]_block_invoke.546
++ __78-[HDDatabaseCoalescedWritePool _queue_performPendingWriteOperationsWithError:]_block_invoke.383
++ __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke.705
++ __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke.708
++ __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke.722
++ __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke.731
++ __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke_2.712
++ __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke_2.726
++ __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke_2.735
++ __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke_3.730
++ __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke_3.739
++ __78-[HDDefaultWorkoutSessionController _queue_assertionsPerStateForActivityType:]_block_invoke.457
++ __78-[HDHealthStoreProviderServer remote_fetchAvailableIdentifiersWithCompletion:]_block_invoke.368
++ __78-[HDKeyValueDomainManager batchNotificationForDomain:category:forTransaction:]_block_invoke.377
++ __78-[HDNanoSyncManager _queue_recieveCompanionUserNotificationRequest:syncStore:]_block_invoke.910
++ __78-[HDSampleTypeChangeEvaluator changesByTypeWithTransaction:sinceAnchor:error:]_block_invoke.384
++ __79-[HDAuthorizationManager openAppForAuthorization:sessionIdentifier:completion:]_block_invoke.440
++ __79-[HDAuthorizationManager openAppForAuthorization:sessionIdentifier:completion:]_block_invoke_2.441
++ __79-[HDAuthorizationManager openAppForAuthorization:sessionIdentifier:completion:]_block_invoke_3.443
++ __79-[HDCloudSyncManager configureForShareSetupMetadata:acceptedShares:completion:]_block_invoke.600
++ __79-[HDCloudSyncManager configureForShareSetupMetadata:acceptedShares:completion:]_block_invoke.607
++ __79-[HDCloudSyncRepairRegistryRecordsOperation _modifyRecordsAndFinish:container:]_block_invoke.373
++ __79-[HDDatabaseTransaction performWithContext:error:block:inaccessibilityHandler:]_block_invoke.398
++ __79-[HDDatabaseTransaction performWithContext:error:block:inaccessibilityHandler:]_block_invoke.406
++ __79-[HDDatabaseTransaction performWithContext:error:block:inaccessibilityHandler:]_block_invoke_2.407
++ __79-[HDHeartDailyAnalyticsBuilder _buildHeartRateContextSwitchAnalyticsWithError:]_block_invoke.404
++ __79-[HDHeartRateDataAggregator dataCollector:didCollectSensorData:device:options:]_block_invoke.380
++ __79-[HDPostInstallUpdateManager _triggerMigrationForProfile:protected:completion:]_block_invoke.398
++ __79-[HDSourceManager sourceEntityForClientSource:createOrUpdateIfNecessary:error:]_block_invoke.455
++ __79-[HDWorkoutBuilderServer remote_updateActivityWithUUID:addMetadata:completion:]_block_invoke.724
++ __79-[HDWorkoutClusterServer remote_generateRaceRouteClustersWithLimit:completion:]_block_invoke.376
++ __80+[HDQuantitySampleSeriesEntity _insertDataObject:inDatabase:persistentID:error:]_block_invoke.434
++ __80-[HDAggregateDataCollector _queue_processSensorData:lastSensorDatum:completion:]_block_invoke.534
++ __80-[HDAggregateDataCollector _queue_processSensorData:lastSensorDatum:completion:]_block_invoke.538
++ __80-[HDCloudSyncCoordinator _queue_syncProfilesWithIdentifiers:context:completion:]_block_invoke.471
++ __80-[HDCloudSyncManager(Analytics) reportDailyAnalyticsWithCoordinator:completion:]_block_invoke.371
++ __80-[HDCloudSyncManager(Analytics) reportDailyAnalyticsWithCoordinator:completion:]_block_invoke.390
++ __80-[HDCloudSyncManager(Analytics) reportDailyAnalyticsWithCoordinator:completion:]_block_invoke.410
++ __80-[HDCloudSyncManager(Analytics) reportDailyAnalyticsWithCoordinator:completion:]_block_invoke_2.391
++ __80-[HDCloudSyncManager(Analytics) reportDailyAnalyticsWithCoordinator:completion:]_block_invoke_3.401
++ __80-[HDCloudSyncPushSequenceOperation _startingSyncAnchorMapForStagingStore:error:]_block_invoke.420
++ __80-[HDSecondaryDevicePairingAgentTaskServer _prepareGuardianForSharingForRequest:]_block_invoke.439
++ __80-[HDUserDomainConceptManager _notifyObserversForUDC:type:maxAnchor:transaction:]_block_invoke.469
++ __80-[HDUserDomainConceptManager _notifyObserversForUDC:type:maxAnchor:transaction:]_block_invoke.471
++ __81+[HDUserDomainMedicalCodingStringEntity persistentIDForString:transaction:error:]_block_invoke.390
++ __81+[HDUserDomainMedicalCodingStringEntity persistentIDForString:transaction:error:]_block_invoke.392
++ __81+[HDUserDomainMedicalCodingStringEntity persistentIDForString:transaction:error:]_block_invoke_2.395
++ __81+[HDWorkoutEntity insertDataObject:withProvenance:inDatabase:persistentID:error:]_block_invoke.457
++ __81-[HDActivitySummaryQueryHelper _queue_deliverActivitySummariesMatchingPredicate:]_block_invoke.378
++ __81-[HDCloudSyncContextSyncShim fetchLocalKeyValueForProtectionCategory:completion:]_block_invoke.384
++ __81-[HDDatabaseMigrator(Emet) _emet_migrateWorkoutEventMetadataToProtobufWithError:]_block_invoke.397
++ __81-[HDHealthStoreServer remote_setBackgroundDeliveryFrequency:forDataType:handler:]_block_invoke.569
++ __81-[HDMetadataManager _metadataForObjectID:baseMetadata:keyFilter:statement:error:]_block_invoke.388
++ __81-[HDWorkoutRouteBuilderServer _queue_finishRouteWithWorkout:metadata:completion:]_block_invoke.396
++ __81-[HDWorkoutRouteBuilderServer _queue_finishRouteWithWorkout:metadata:completion:]_block_invoke.403
++ __81-[HDWorkoutSessionRapportSyncController sendRequest:transaction:responseHandler:]_block_invoke.430
++ __82+[HDWorkoutClusterComponentEntity associateWorkout:withCluster:transaction:error:]_block_invoke.374
++ __82-[HDCloudSyncManager _primaryContainerIdentifiersForCurrentAccountWithCompletion:]_block_invoke.555
++ __82-[HDCloudSyncRepairStoreRecordsOperation _saveRepairedRecords:container:database:]_block_invoke.380
++ __82-[HDDatabase _new_protectedDataQueue_contentProtectionStateChanged:previousState:]_block_invoke.631
++ __82-[HDDatabase _new_protectedDataQueue_contentProtectionStateChanged:previousState:]_block_invoke.632
++ __82-[HDDatabase _new_protectedDataQueue_contentProtectionStateChanged:previousState:]_block_invoke.640
++ __82-[HDDatabase _old_protectedDataQueue_contentProtectionStateChanged:previousState:]_block_invoke.643
++ __82-[HDHealthStoreServer remote_recalibrateEstimatesForSampleType:atDate:completion:]_block_invoke.422
++ __82-[HDWorkoutSessionServer enableAutomaticDetectionForActivityConfigurations:error:]_block_invoke.758
++ __82-[HDWorkoutSessionServer stateMachine:didTransition:fromState:toState:date:error:]_block_invoke.689
++ __82-[HDWorkoutSessionServer stateMachine:didTransition:fromState:toState:date:error:]_block_invoke.697
++ __82-[HDWorkoutSessionServer stateMachine:didTransition:fromState:toState:date:error:]_block_invoke.701
++ __83+[HDLogicalSourceOrderEntity sourceIDsWithDataType:unorderedIDs:transaction:error:]_block_invoke.456
++ __83-[HDCloudSyncManager _scheduleResetReceivedCloudSyncAnchorsAndRebaseForHFDRecovery]_block_invoke.462
++ __83-[HDCloudSyncOwnerIdentifierManager cacheOwnerIdentifiersForContainers:completion:]_block_invoke.395
++ __83-[HDCloudSyncPipelineStagePush _computePushAndCleanupOperationForPushStores:error:]_block_invoke.420
++ __83-[HDCloudSyncPipelineStagePush _computePushAndCleanupOperationForPushStores:error:]_block_invoke.425
++ __83-[HDCloudSyncPipelineStagePush _computePushAndCleanupOperationForPushStores:error:]_block_invoke.430
++ __83-[HDCloudSyncPipelineStagePush _computePushAndCleanupOperationForPushStores:error:]_block_invoke.434
++ __83-[HDDatabaseMigrator(Whitetail) _addMaxObjectPersistentIDToKeyValueStoreWithError:]_block_invoke.474
++ __83-[HDDeviceKeyValueStoreManager _deleteRemoteEntries:deviceContextByIdentity:error:]_block_invoke.396
++ __83-[HDRestorableAlarmScheduler _queue_enqueueMaintenanceNotifyAndScheduleWithReason:]_block_invoke.394
++ __83-[HDSharedSummaryManager removeSummariesWithPackage:names:transactionEntity:error:]_block_invoke.401
++ __83-[HDWorkoutBuilderServer _addSamples:quantities:dataSource:shouldSavePriorToStart:]_block_invoke.620
++ __83-[HDWorkoutBuilderServer _addSamples:quantities:dataSource:shouldSavePriorToStart:]_block_invoke.623
++ __83-[HDWorkoutBuilderServer _addSamples:quantities:dataSource:shouldSavePriorToStart:]_block_invoke.627
++ __84+[HDCachedSecureCKRecordEntity insertOrUpdateWithRecordID:recordData:profile:error:]_block_invoke.441
++ __84+[HDCloudSyncStoreEntity persistState:storeUUID:shouldReplace:healthDatabase:error:]_block_invoke.494
++ __84+[HDCloudSyncStoreEntity persistState:storeUUID:shouldReplace:healthDatabase:error:]_block_invoke.502
++ __84+[HDMetadataValueEntity _updateMetadataValueForKeyID:objectID:value:database:error:]_block_invoke.432
++ __84+[HDSeriesSampleEntity freezeSeriesWithIdentifier:metadata:assertion:profile:error:]_block_invoke.406
++ __84-[HDCloudSyncPreparePushZoneForStoreOperation _createZoneWithIdentifier:forStoreId:]_block_invoke.383
++ __84-[HDSleepPeriodSegmentArrayBuilder _computeStatisticsFromSamples:sampleFilterBlock:]_block_invoke.377
++ __84-[HDWorkoutBuilderServer remote_zoneConfigurationWrapperForQuantityType:completion:]_block_invoke.729
++ __84-[HDWorkoutSessionTaskServer didBeginActivity:insertionType:nodeWrapper:dataSource:]_block_invoke.523
++ __85+[HDRaceRouteClusterEntity _entityForLastWorkoutUUID:bestWorkoutUUID:database:error:]_block_invoke.482
++ __85-[HDConceptIndexManager _delayedOperationQueue_scheduleConceptIndexUpdateWithReason:]_block_invoke.413
++ __85-[HDHealthStoreServer remote_deleteDataObjectsOfType:matchingFilter:options:handler:]_block_invoke.552
++ __86+[HDAssociationEntity realizePendingAssociationsWithTransaction:startingAnchor:error:]_block_invoke.588
++ __86+[HDWorkoutEntity mergeDataObject:provenance:profile:transaction:error:insertHandler:]_block_invoke.509
++ __86+[HDWorkoutEntity mergeDataObject:provenance:profile:transaction:error:insertHandler:]_block_invoke.511
++ __86-[HDCloudSyncManager(Analytics) _gatherAttachmentAnalyticsForZoneID:repository:error:]_block_invoke.428
++ __86-[HDCloudSyncManager(Analytics) _gatherAttachmentAnalyticsForZoneID:repository:error:]_block_invoke.431
++ __86-[HDCloudSyncMedicalIDPushOperation _pushMedicalIDRecordToCloudForContainer:database:]_block_invoke.374
++ __86-[HDCloudSyncPushReferencesOperation _generateReferenceAndAttachmentRecordsWithError:]_block_invoke.381
++ __87+[HDSyncAnchorEntity getMinimumSyncAnchorsOfType:anchorMap:updatedSince:profile:error:]_block_invoke.439
++ __87+[HDSyncAnchorEntity minimumFrozenAnchorInEpochs:store:entityIdentifier:profile:error:]_block_invoke.590
++ __87+[HDWorkoutClusterComponentEntity enumerateWorkoutsForCluster:transaction:error:block:]_block_invoke.385
++ __87+[HDWorkoutClusterComponentEntity enumerateWorkoutsForCluster:transaction:error:block:]_block_invoke_2.386
++ __87-[HDCloudSyncFetchRecordsOperation _fetchRecordsWithIDs:container:database:completion:]_block_invoke.373
++ __87-[HDCloudSyncPushDeviceKeyValueOperation _computeRecordsToSaveAndDeleteWithCompletion:]_block_invoke.384
++ __87-[HDCloudSyncPushDeviceKeyValueOperation _computeRecordsToSaveAndDeleteWithCompletion:]_block_invoke.386
++ __87-[HDCloudSyncPushDeviceKeyValueOperation _computeRecordsToSaveAndDeleteWithCompletion:]_block_invoke.388
++ __87-[HDCloudSyncPushDeviceKeyValueOperation _computeRecordsToSaveAndDeleteWithCompletion:]_block_invoke_2.389
++ __87-[HDCloudSyncUpdateCachedRecordsOperation fetchRecordZoneChangesForContainer:database:]_block_invoke.369
++ __87-[HDDataCollectionManager _requestAggregationThroughDate:type:mode:options:completion:]_block_invoke.453
++ __87-[HDHealthStoreServer remote_requestConceptReadAuthorizationForType:filter:completion:]_block_invoke.446
++ __87-[HDHealthStoreServer remote_requestConceptReadAuthorizationForType:filter:completion:]_block_invoke.449
++ __87-[HDInsertSharedSummaryTransactionOperation performWithProfile:transaction:completion:]_block_invoke.369
++ __87-[HDInsertSharedSummaryTransactionOperation performWithProfile:transaction:completion:]_block_invoke.374
++ __87-[HDWorkoutEventsManager requestPendingEventsThroughDate:sessionIdentifier:completion:]_block_invoke.381
++ __87-[HDWorkoutEventsManager requestPendingEventsThroughDate:sessionIdentifier:completion:]_block_invoke.383
++ __88+[HDTrainingLoadStatisticsCacheEntity trainingLoadForDateInterval:healthDatabase:error:]_block_invoke.435
++ __88+[HDWorkoutStatisticsEntity workoutStatisticsForActivityId:quantityType:database:error:]_block_invoke.441
++ __88-[HDCloudSyncPushDeviceContextOperation _updateRecordsAdd:recordIDsToDelete:completion:]_block_invoke.393
++ __88-[HDCreateWorkoutOperation _splitRoutesPerActivityForWorkout:profile:transaction:error:]_block_invoke.444
++ __88-[HDCreateWorkoutOperation _splitRoutesPerActivityForWorkout:profile:transaction:error:]_block_invoke.456
++ __88-[HDCreateWorkoutOperation _splitRoutesPerActivityForWorkout:profile:transaction:error:]_block_invoke.458
++ __88-[HDDataCollectionManager _requestAggregationThroughDate:types:mode:options:completion:]_block_invoke.448
++ __88-[HDDataCollectionManager _requestAggregationThroughDate:types:mode:options:completion:]_block_invoke.451
++ __88-[HDNanoSyncManager syncHealthDataWithOptions:reason:accessibilityAssertion:completion:]_block_invoke.391
++ __88-[HDWorkoutSessionTaskServer remote_recoverAllActiveSessionsWithStates:date:completion:]_block_invoke.505
++ __88-[HDWorkoutSessionTaskServer remote_recoverAllActiveSessionsWithStates:date:completion:]_block_invoke.506
++ __89+[HDUserDomainConceptSyncEntity receiveSyncObjects:version:syncProvenance:profile:error:]_block_invoke.382
++ __89+[HDUserDomainConceptSyncEntity receiveSyncObjects:version:syncProvenance:profile:error:]_block_invoke.384
++ __89+[HDUserDomainConceptSyncEntity receiveSyncObjects:version:syncProvenance:profile:error:]_block_invoke.385
++ __89-[HDCloudSyncComputePushTargetsOperation _pushTargetsForContainer:ownerIdentifier:error:]_block_invoke.383
++ __89-[HDCloudSyncComputePushTargetsOperation _pushTargetsForContainer:ownerIdentifier:error:]_block_invoke.386
++ __89-[HDHealthStoreServer remote_fetchModificationDateForCharacteristicWithDataType:handler:]_block_invoke.602
++ __89-[HDHealthStoreServer remote_requestPerObjectReadAuthorizationForType:filter:completion:]_block_invoke.437
++ __89-[HDHealthStoreServer remote_requestPerObjectReadAuthorizationForType:filter:completion:]_block_invoke.438
++ __89-[HDHealthStoreServer remote_requestPerObjectReadAuthorizationForType:filter:completion:]_block_invoke.442
++ __89-[HDIDSInvitationManager acceptInvitationWithUUID:codableObject:serverAcknowledgedBlock:]_block_invoke.393
++ __89-[HDSourceManager _sourceFromEphemeralSource:provenance:createOrUpdateIfNecessary:error:]_block_invoke.441
++ __89-[HDWorkoutBuilderServer remote_setTargetConstructionState:startDate:endDate:completion:]_block_invoke.697
++ __89-[HDWorkoutBuilderServer remote_setTargetConstructionState:startDate:endDate:completion:]_block_invoke.701
++ __89-[HDWorkoutBuilderServer remote_setTargetConstructionState:startDate:endDate:completion:]_block_invoke.702
++ __89-[HDWorkoutBuilderServer remote_setTargetConstructionState:startDate:endDate:completion:]_block_invoke.703
++ __90+[HDCachedSecureCKRecordEntity protectedRecordDataForUnprotectedEntity:transaction:error:]_block_invoke.448
++ __90+[HDLocationSeriesHFDMigrationEntity _migrateSeriesWithKey:toSQLFromStore:database:error:]_block_invoke.390
++ __90+[HDQuantitySeriesHFDMigrationEntity _migrateSeriesWithKey:toSQLFromStore:database:error:]_block_invoke.376
++ __90+[HDRaceRouteLocationSeriesEntity createRoutePointsFromWorkout:transaction:profile:error:]_block_invoke.400
++ __90+[HDRaceRouteLocationSeriesEntity createRoutePointsFromWorkout:transaction:profile:error:]_block_invoke.402
++ __90+[HDRaceRouteLocationSeriesEntity createRoutePointsFromWorkout:transaction:profile:error:]_block_invoke_2.404
++ __90-[HDActiveDataAggregator _aggregateForAllDevicesForCollector:date:assertion:mode:options:]_block_invoke.414
++ __90-[HDCloudSyncCoordinator _syncAllProfilesViaGatedBackgroundTask:userInitiated:completion:]_block_invoke.433
++ __90-[HDCloudSyncObserverTaskServer _queue_startSyncIfRestoreNotCompletedWithUUID:completion:]_block_invoke.425
++ __90-[HDCloudSyncObserverTaskServer _queue_startSyncIfRestoreNotCompletedWithUUID:completion:]_block_invoke.426
++ __90-[HDCloudSyncObserverTaskServer _queue_startSyncIfRestoreNotCompletedWithUUID:completion:]_block_invoke.432
++ __90-[HDCloudSyncObserverTaskServer _queue_startSyncIfRestoreNotCompletedWithUUID:completion:]_block_invoke.439
++ __90-[HDCloudSyncObserverTaskServer _queue_startSyncIfRestoreNotCompletedWithUUID:completion:]_block_invoke_2.433
++ __90-[HDCloudSyncObserverTaskServer remote_startSyncIfRestoreNotCompletedWithUUID:completion:]_block_invoke.414
++ __90-[HDCloudSyncPullChangeRecordOperation _persistFetchedArchiveAsset:protocolVersion:error:]_block_invoke.413
++ __90-[HDCloudSyncPullChangeRecordOperation _persistFetchedArchiveAsset:protocolVersion:error:]_block_invoke.415
++ __90-[HDCloudSyncPushSequenceOperation _pushRecords:recordIDsToDelete:containerID:completion:]_block_invoke.453
++ __90-[HDCloudSyncPushSequenceOperation _pushRecords:recordIDsToDelete:containerID:completion:]_block_invoke.456
++ __90-[HDCloudSyncRegisterSubscriptionsOperation _registerSubscriptionsWithIdentifer:database:]_block_invoke.390
++ __90-[HDCloudSyncSharedSummaryPushPruningOperation _modifyRecordsAndFinish:recordIDsToDelete:]_block_invoke.397
++ __90-[HDDataAggregator persistForCollector:usedDatums:source:device:error:persistenceHandler:]_block_invoke.401
++ __90-[HDDataAggregator persistForCollector:usedDatums:source:device:error:persistenceHandler:]_block_invoke.410
++ __91+[HDCloudSyncTapToRadar showTapToRadarRequestWithTitle:message:proceed:disable:completion:]_block_invoke.372
++ __91+[HDQuantitySampleValueEnumerator quantityValuesForType:from:to:transaction:error:handler:]_block_invoke.421
++ __91-[HDCloudSyncStateSyncShim syncDidFinishWithResult:domain:subDomain:stateStore:completion:]_block_invoke.381
++ __91-[HDCloudSyncSummarySharingEntryShim disableAllSharingEntriesWithConfiguration:completion:]_block_invoke.372
++ __91-[HDWorkoutBuilderEntity _createTemporaryProtectedAssociatedSampleListInTransaction:error:]_block_invoke.518
++ __91-[HDWorkoutBuilderEntity _createTemporaryProtectedAssociatedSampleListInTransaction:error:]_block_invoke_2.519
++ __92+[HDLocationSeriesSampleEntity insertLocationData:seriesIdentifier:assertion:profile:error:]_block_invoke.388
++ __92+[HDSyncStoreEntity activeStoresForRestrictionPredictePruningInProfile:referenceDate:error:]_block_invoke.445
++ __92+[HDWorkoutBuilderAssociatedSeriesEntity enumerateSeriesForBuilder:transaction:error:block:]_block_invoke.390
++ __92-[HDBatchedQueryServer batchObjectsWithEnumerator:includeDeletedObjects:error:batchHandler:]_block_invoke.372
++ __92-[HDClientDataCollectionTaskServer dataAggregator:requestsCollectionThroughDate:completion:]_block_invoke.431
++ __92-[HDClientDataCollectionTaskServer dataAggregator:requestsCollectionThroughDate:completion:]_block_invoke.433
++ __92-[HDClientDataCollectionTaskServer dataAggregator:requestsCollectionThroughDate:completion:]_block_invoke.438
++ __92-[HDClientDataCollectionTaskServer dataAggregator:requestsCollectionThroughDate:completion:]_block_invoke.442
++ __92-[HDCloudSyncCoordinator(CloudSyncJournalMerge) _mergeCloudSyncJournalsForProfile:taskTree:]_block_invoke.376
++ __92-[HDCloudSyncUpdateCachedRecordsOperation _fetchChangesForRecordZoneIDs:container:database:]_block_invoke.381
++ __92-[HDCloudSyncUpdateCachedRecordsOperation _fetchChangesForRecordZoneIDs:container:database:]_block_invoke.383
++ __92-[HDCloudSyncUpdateCachedRecordsOperation _fetchChangesForRecordZoneIDs:container:database:]_block_invoke.384
++ __92-[HDCloudSyncUpdateCachedRecordsOperation _fetchChangesForRecordZoneIDs:container:database:]_block_invoke.394
++ __92-[HDCloudSyncUpdateCachedRecordsOperation _fetchChangesForRecordZoneIDs:container:database:]_block_invoke.398
++ __92-[HDCloudSyncUpdateCachedRecordsOperation _fetchChangesForRecordZoneIDs:container:database:]_block_invoke.399
++ __92-[HDHealthStoreServer _remote_associateSampleUUIDs:withSampleUUID:type:behavior:completion:]_block_invoke.559
++ __93+[HDMedicationDoseEventEntity _logPersistedDoseEventOnCommitDatabase:doseEvent:persistentID:]_block_invoke.462
++ __93-[HDAppSubscriptionManager _updateObservationStatusForDataTypeCode:lastAppLaunchTimes:error:]_block_invoke.416
++ __93-[HDCloudSyncStateSyncOperation _notifyEntityForDomain:subDomain:zone:success:stateSyncShim:]_block_invoke.411
++ __93-[HDNotificationInstructionObjectNotInDatabaseCriteria isValidWithDatabaseTransaction:error:]_block_invoke.380
++ __93-[HDSourceManager _logicalSourceIDsWithoutLocalSourceForSourcesWithPredicate:database:error:]_block_invoke.514
++ __93-[HDSourceOrderManager _sourceOrderForCodableSourceOrder:transactionCache:transaction:error:]_block_invoke.407
++ __94+[HDObjectAuthorizationEntity authorizationStatusForSamplesOfType:sourceEntity:profile:error:]_block_invoke.461
++ __94+[HDRCacheManagementEntity isCacheUpToDateForQueryIdentifier:anchorData:healthDatabase:error:]_block_invoke.408
++ __94-[HDCloudSyncStateSyncShim mergeStateDataWithStore:domain:subDomain:configuration:completion:]_block_invoke.371
++ __94-[HDIngestDeviceContextsOperation _pullDeviceContextsForProfile:repository:transaction:error:]_block_invoke.374
++ __94-[HDRestorableAlarmScheduler _queue_notifyClientsOfDueEventsAndScheduleNextFireDateWithError:]_block_invoke.404
++ __94-[HDWorkoutBasicDataSource _workoutDataDestination:requestsSamplesOfType:from:to:transaction:]_block_invoke.524
++ __94-[HDWorkoutBuilderServer remote_setCustomZoneConfigurationWrapper:forQuantityType:completion:]_block_invoke.728
++ __94-[HDWorkoutManager generatePauseOrResumeRequestAllowingBackgroundRuntime:metadata:completion:]_block_invoke.460
++ __94-[HDWorkoutSessionServer beginNewActivityWithConfiguration:date:metadata:insertionType:error:]_block_invoke.755
++ __95+[HDLocationSeriesSampleEntity _insertCodableSeriesDataFromObject:persistentID:database:error:]_block_invoke.372
++ __95-[HDCloudSyncPushReferenceTombstonesOperation _modifyCloudWithRecordsToSave:recordIDsToDelete:]_block_invoke.384
++ __95-[HDCloudSyncSummarySharingEntryShim sharingEntryExistsWithPredicate:configuration:completion:]_block_invoke.374
++ __95-[HDDatabaseJournal _mergeJournalChapter:profile:accessibilityAssertion:shouldContinueHandler:]_block_invoke.446
++ __95-[HDDatabaseJournal _mergeJournalChapter:profile:accessibilityAssertion:shouldContinueHandler:]_block_invoke.447
++ __95-[HDQueryControlServer queryServer:requestsAuthorizationWithContext:promptIfNeeded:completion:]_block_invoke.383
++ __95-[HDSampleAggregateCachingSession _writeToDatabaseOnCachePersistenceQueueWithBlock:completion:]_block_invoke.383
++ __96+[HDDataTypeSourceOrderEntity enumerateOrderedSourceIDsForType:profile:transaction:error:block:]_block_invoke.436
++ __96-[HDClientAuthorizationOracle performIfAuthorizedToReadObjects:onQueue:usingBlock:errorHandler:]_block_invoke.431
++ __96-[HDClientAuthorizationOracle performIfAuthorizedToSaveObjects:onQueue:usingBlock:errorHandler:]_block_invoke.442
++ __96-[HDCloudSyncCachedCloudState resetServerChangeTokenForContainerIdentifier:databaseScope:error:]_block_invoke.373
++ __96-[HDSourceOrderManager _updateSourceOrder:type:syncIdentity:transactionCache:transaction:error:]_block_invoke.417
++ __96-[HDTTRPromptController _presentTTRPromptForErrors:lastPromptBuild:lastPromptDate:currentBuild:]_block_invoke.437
++ __97+[HDLogicalSourceOrderEntity updateOrderedLogicalSourcesForType:transaction:error:updateHandler:]_block_invoke.426
++ __97+[HDLogicalSourceOrderEntity updateOrderedLogicalSourcesForType:transaction:error:updateHandler:]_block_invoke_2.427
++ __97-[HDHealthStoreServer remote_requestAuthorizationToShareTypes:readTypes:shouldPrompt:completion:]_block_invoke.460
++ __97-[HDSecondaryDevicePairingAgentTaskServer _setupTinkerProfileForRequest:metadata:acceptedShares:]_block_invoke.454
++ __98+[HDWorkoutCondenser _getOriginalProvenancesWithWithQuantityType:workoutEntity:transaction:error:]_block_invoke.444
++ __98-[HDClientAuthorizationOracle performIfAuthorizedToDeleteObjects:onQueue:usingBlock:errorHandler:]_block_invoke.445
++ __98-[HDClientAuthorizationOracle(Privileged) updateDefaultAuthorizationStatusesForSource:completion:]_block_invoke.618
++ __98-[HDClientAuthorizationOracle(Privileged) updateDefaultAuthorizationStatusesForSource:completion:]_block_invoke.626
++ __98-[HDClientAuthorizationOracle(Privileged) updateDefaultAuthorizationStatusesForSource:completion:]_block_invoke_2.621
++ __98-[HDHealthStoreServer remote_deleteAllSamplesWithTypes:sourceBundleIdentifier:options:completion:]_block_invoke.579
++ __99+[HDAttachmentReferenceEntity filteredNonTombstoneReferences:transaction:error:enumerationHandler:]_block_invoke.478
++ __99+[HDDeviceKeyValueStorageEntryEntity fetchEntryForKey:domain:syncEntityIdentity:transaction:error:]_block_invoke.419
++ __99+[HDSourceEntity sourceForLogicalSourceID:localDeviceBundleIdentifier:localOnly:transaction:error:]_block_invoke.468
++ __99-[HDCloudSyncCoordinator fetchCloudDescriptionWithContext:updateCacheAndPrepareForSync:completion:]_block_invoke.507
++ __99-[HDSourceEntity deleteSourceWithTombstoneLogicalSourceID:syncIdentity:database:transaction:error:]_block_invoke.538
++ __99-[HDWorkoutMirroringManager rapportMessenger:didReceiveRequest:idsIdentifier:data:responseHandler:]_block_invoke.390
++ __Block_byref_object_copy_.385
++ __Block_byref_object_copy_.388
++ __Block_byref_object_copy_.395
++ __Block_byref_object_copy_.398
++ __Block_byref_object_copy_.399
++ __Block_byref_object_copy_.408
++ __Block_byref_object_copy_.427
++ __Block_byref_object_copy_.430
++ __Block_byref_object_copy_.445
++ __Block_byref_object_dispose_.386
++ __Block_byref_object_dispose_.389
++ __Block_byref_object_dispose_.396
++ __Block_byref_object_dispose_.399
++ __Block_byref_object_dispose_.400
++ __Block_byref_object_dispose_.409
++ __Block_byref_object_dispose_.428
++ __Block_byref_object_dispose_.431
++ __Block_byref_object_dispose_.446
++ __DATA__TtC12HealthDaemonP33_E20C92A6CA7FCD1E06F5DCFA3D8FB2CC19NoOpNanoSyncControl
++ __HDCarePlanSamplesRemoveTitleColumn
++ __HRAnalyticsPayloadKeysContextSwitchPer5MinWindow
++ __METACLASS_DATA__TtC12HealthDaemonP33_E20C92A6CA7FCD1E06F5DCFA3D8FB2CC19NoOpNanoSyncControl
++ __OBJC_$_CLASS_METHODS_HDMetadataManager
++ __OBJC_$_INSTANCE_METHODS__HDOrchestrationEnqueueRecord
++ __OBJC_$_INSTANCE_METHODS__HDTypedAssociationSyncBatchEntry
++ __OBJC_$_INSTANCE_VARIABLES__HDOrchestrationEnqueueRecord
++ __OBJC_$_INSTANCE_VARIABLES__HDTypedAssociationSyncBatchEntry
++ __OBJC_$_PROP_LIST__HDTypedAssociationSyncBatchEntry
++ __OBJC_CLASS_RO_$__HDOrchestrationEnqueueRecord
++ __OBJC_CLASS_RO_$__HDTypedAssociationSyncBatchEntry
++ __OBJC_METACLASS_RO_$__HDOrchestrationEnqueueRecord
++ __OBJC_METACLASS_RO_$__HDTypedAssociationSyncBatchEntry
++ __ZNKRSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB9nqe220106Ev
++ __ZNKSt3__111__copy_implclB9nqe220106IP16_HDWrappedSourceS3_S3_Li0EEENS_4pairIT_T1_EES5_T0_S6_
++ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB9nqe220106IPNS_10shared_ptrIN6health13WriteAheadLog11TransactionEEES9_S9_EENS_4pairIT_T1_EESB_T0_SC_
++ __ZNKSt3__114default_deleteINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe220106EPS6_
++ __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB9nqe220106Ev
++ __ZNKSt3__121__unordered_map_equalIU8__strongP8NSStringNS_4pairIU8__strongKS2_NS_5dequeI19HDRawQuantitySampleNS_9allocatorIS7_EEEEEE13HDStringEqual12HDStringHashEclB9nqe220106ERKSB_RS5_
++ __ZNKSt3__121__unordered_map_equalIU8__strongP8NSStringNS_4pairIU8__strongKS2_xEE13HDStringEqual12HDStringHashEclB9nqe220106ERKS6_RS5_
++ __ZNKSt3__16__loopIcE13__init_repeatB9nqe220106ERNS_7__stateIcEE
++ __ZNKSt9type_infoeqB9nqe220106ERKS_
++ __ZNSt12length_errorC1B9nqe220106EPKc
++ __ZNSt12out_of_rangeC1B9nqe220106EPKc
++ __ZNSt16invalid_argumentC1B9nqe220106EPKc
++ __ZNSt3__110__function12__value_funcIF21_HDRawLocationDatumV1dS2_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIF21_HDRawLocationDatumV2dS2_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIF27_HDRawQuantitySampleValueV1dS2_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13match_resultsINS_11__wrap_iterIPKcEENS5_INS_9sub_matchISC_EEEEEEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEEC2B9nqe220106ERKSD_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalES7_EEC2B9nqe220106ERKS9_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalES7_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEEC2B9nqe220106ERKSD_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalES7_EEC2B9nqe220106ERKS9_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalES7_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEEC2B9nqe220106ERKSD_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalES7_EEC2B9nqe220106ERKS9_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalES7_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEEC2B9nqe220106ERKSD_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalES7_EEC2B9nqe220106ERKS9_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalES7_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEEC2B9nqe220106ERKSD_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalES7_EEC2B9nqe220106ERKS9_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalES7_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEEC2B9nqe220106ERKSD_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalES7_EEC2B9nqe220106ERKS9_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalES7_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI24HDStatisticsTimeIntervalS3_ERK20HDStatisticsRelativeIS4_EEEC2B9nqe220106ERKSC_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI24HDStatisticsTimeIntervalS3_ERK20HDStatisticsRelativeIS4_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI24HDStatisticsTimeIntervalS3_ES6_EEC2B9nqe220106ERKS8_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI24HDStatisticsTimeIntervalS3_ES6_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEEC2B9nqe220106ERKSD_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalES7_EEC2B9nqe220106ERKS9_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalES7_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS8_EEEC2B9nqe220106ERKSG_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS8_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalESA_EEC2B9nqe220106ERKSC_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalESA_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS8_EEEC2B9nqe220106ERKSG_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS8_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalESA_EEC2B9nqe220106ERKSC_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalESA_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS7_EEEC2B9nqe220106ERKSF_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS7_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalES9_EEC2B9nqe220106ERKSB_
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalES9_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsDiscreteRK20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsDiscreteRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsDiscreteRK20HDStatisticsRelativeIS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsDiscreteS4_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsPresenceRK20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsPresenceRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsPresenceRK20HDStatisticsRelativeIS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK20HDStatisticsPresenceS4_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK22HDStatisticsCumulativeRK20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK22HDStatisticsCumulativeRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK22HDStatisticsCumulativeRK20HDStatisticsRelativeIS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK22HDStatisticsCumulativeS4_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK22HDStatisticsNoiseLevelRK20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK22HDStatisticsNoiseLevelRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK22HDStatisticsNoiseLevelRK20HDStatisticsRelativeIS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK22HDStatisticsNoiseLevelS4_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK23HDStatisticsPercentilesRK20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK23HDStatisticsPercentilesRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK23HDStatisticsPercentilesRK20HDStatisticsRelativeIS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK23HDStatisticsPercentilesS4_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK23HDStatisticsSleepStagesRK20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK23HDStatisticsSleepStagesRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK23HDStatisticsSleepStagesRK20HDStatisticsRelativeIS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK23HDStatisticsSleepStagesS4_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI20HDStatisticsDiscreteS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI20HDStatisticsPresenceS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI22HDStatisticsCumulativeS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI22HDStatisticsNoiseLevelS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI23HDStatisticsPercentilesS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI23HDStatisticsSleepStagesS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI33HDStatisticsAverageSampleDurationS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEES2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEES2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersES2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedIS2_S2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscreteS2_EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresenceS2_EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulativeS2_EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevelS2_EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentilesS2_EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStagesS2_EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDurationS2_EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEES2_EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEES2_EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersES2_EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_S2_EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeIS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalS4_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK33HDStatisticsAverageSampleDurationRK20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK33HDStatisticsAverageSampleDurationRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK33HDStatisticsAverageSampleDurationRK20HDStatisticsRelativeIS2_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK33HDStatisticsAverageSampleDurationS4_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEERK20HDStatisticsCombinedIS5_24HDStatisticsTimeIntervalEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEERK20HDStatisticsRelativeI20HDStatisticsCombinedIS5_24HDStatisticsTimeIntervalEEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEERK20HDStatisticsRelativeIS5_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEES7_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEERK20HDStatisticsCombinedIS5_24HDStatisticsTimeIntervalEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEERK20HDStatisticsRelativeI20HDStatisticsCombinedIS5_24HDStatisticsTimeIntervalEEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEERK20HDStatisticsRelativeIS5_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEES7_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersERK20HDStatisticsCombinedIS4_24HDStatisticsTimeIntervalEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersERK20HDStatisticsRelativeI20HDStatisticsCombinedIS4_24HDStatisticsTimeIntervalEEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersERK20HDStatisticsRelativeIS4_EEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFRK42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersES6_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbN6health15BlockAccessFile14IntegrityErrorExxRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbN6health9DataStore14IntegrityErrorENS2_12BlockPointerERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEC2B9nqe220106ERKSF_
++ __ZNSt3__110__function12__value_funcIFbN6health9DataStore14IntegrityErrorENS2_12BlockPointerERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbRKdRK21_HDRawLocationDatumV0EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbRKdRK21_HDRawLocationDatumV1EEC2B9nqe220106ERKS8_
++ __ZNSt3__110__function12__value_funcIFbRKdRK21_HDRawLocationDatumV1EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbRKdRK21_HDRawLocationDatumV2EEC2B9nqe220106ERKS8_
++ __ZNSt3__110__function12__value_funcIFbRKdRK21_HDRawLocationDatumV2EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbRKdRK27_HDRawQuantitySampleValueV1EEC2B9nqe220106ERKS8_
++ __ZNSt3__110__function12__value_funcIFbRKdRK27_HDRawQuantitySampleValueV1EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbRKdS3_EEC2B9nqe220106ERKS5_
++ __ZNSt3__110__function12__value_funcIFbRKdS3_EED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbRN6health15BlockAccessFile16WriteTransactionEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbRN6health17TransactionalFile16WriteTransactionEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbRN6health9DataStore16WriteTransactionEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbRN6health9DataStore20MutableSampleHistoryI25LocationHistoryBehaviorV1EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbRN6health9DataStore20MutableSampleHistoryI25LocationHistoryBehaviorV2EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbRN6health9DataStore20MutableSampleHistoryI29QuantitySampleValueBehaviorV0EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbRN6health9DataStore20MutableSampleHistoryI29QuantitySampleValueBehaviorV1EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbvEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbyEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFbyRKyRKN6health8FilePageEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFdddEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvRKN6health10FileExtentEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvRKN6health15BlockAccessFile15ReadTransactionEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvRKN6health17TransactionalFile15ReadTransactionEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvRKN6health9DataStore13SampleHistoryI25LocationHistoryBehaviorV0EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvRKN6health9DataStore13SampleHistoryI25LocationHistoryBehaviorV1EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvRKN6health9DataStore13SampleHistoryI25LocationHistoryBehaviorV2EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvRKN6health9DataStore13SampleHistoryI29QuantitySampleValueBehaviorV0EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvRKN6health9DataStore13SampleHistoryI29QuantitySampleValueBehaviorV1EEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvRKN6health9DataStore15ReadTransactionEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvRKN6health9DataStore16ObjectIdentifierENS2_12BlockPointerEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEC2B9nqe220106ERKSB_
++ __ZNSt3__110__function12__value_funcIFvRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvxN6health13WriteAheadLog9PageEntryEEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvyEEC2B9nqe220106ERKS3_
++ __ZNSt3__110__function12__value_funcIFvyEED2B9nqe220106Ev
++ __ZNSt3__110__function12__value_funcIFvyRKN6health8FilePageEEEC2B9nqe220106ERKS7_
++ __ZNSt3__110__function12__value_funcIFvyRKN6health8FilePageEEED2B9nqe220106Ev
++ __ZNSt3__110shared_ptrINS_13__empty_stateIcEEE5resetB9nqe220106IS2_Li0EEEvPT_
++ __ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B9nqe220106IS2_Li0EEEPT_
++ __ZNSt3__110shared_ptrIhEC2B9nqe220106IhNS_14default_deleteIA_hEELi0EEEPT_T0_
++ __ZNSt3__110unique_ptrIN6health18TransactionalCacheIyNS1_8FilePageEE10CacheEntryENS_14default_deleteIS5_EEE5resetB9nqe220106EPS5_
++ __ZNSt3__110unique_ptrIN6health9DataStoreENS_14default_deleteIS2_EEE5resetB9nqe220106EPS2_
++ __ZNSt3__110unique_ptrIN6health9DataStoreENS_14default_deleteIS2_EEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISF_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISF_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsDiscreteEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsPresenceEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISH_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISH_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISG_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsDiscreteEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsPresenceEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI22HDStatisticsCumulativeEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI23HDStatisticsPercentilesEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI23HDStatisticsSleepStagesEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEEEPvEENS_22__hash_node_destructorINS_9allocatorISD_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString22HDStatisticsCumulativeEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString23HDStatisticsPercentilesEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString23HDStatisticsSleepStagesEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString24HDStatisticsTimeIntervalEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString33HDStatisticsAverageSampleDurationEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSStringxEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIxU8__strongP8NSStringEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN6health12InMemoryFileEEEEEPvEENS_22__tree_node_destructorINS6_ISF_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEPvEENS_22__tree_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEPvEENS_22__tree_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EEEPvEENS_22__tree_node_destructorINS_9allocatorIS8_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEEPvEENS_22__tree_node_destructorINS_9allocatorISB_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEEPvEENS_22__tree_node_destructorINS_9allocatorISB_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEEEPvEENS_22__tree_node_destructorINS_9allocatorISA_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI22HDStatisticsNoiseLevelEEEPvEENS_22__tree_node_destructorINS_9allocatorIS8_EEEEED1B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx22HDStatisticsNoiseLevelEEPvEENS_22__tree_node_destructorINS_9allocatorIS6_EEEEED1B9nqe220106Ev
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC2B9nqe220106EPKcNS_15regex_constants18syntax_option_typeE
++ __ZNSt3__111unique_lockINS_5mutexEE4lockB9nqe220106Ev
++ __ZNSt3__111unique_lockINS_5mutexEE6unlockB9nqe220106Ev
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN6health12InMemoryFileEEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKx20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKx20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKx20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKx20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKx20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKx20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI23HDStatisticsPercentilesEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI24HDStatisticsTimeIntervalEEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString23HDStatisticsPercentilesEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIU8__strongKP8NSString24HDStatisticsTimeIntervalEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_7__stateIcEEEEvPT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_5dequeI19HDRawQuantitySampleNS_9allocatorIS6_EEEEEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S9_EE12HDStringHash13HDStringEqualEENS_21__unordered_map_equalIS4_SE_SG_SF_EENS7_ISE_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeISA_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringxEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_xEE12HDStringHash13HDStringEqualEENS_21__unordered_map_equalIS4_S9_SB_SA_EENS_9allocatorIS9_EEE16__copy_constructB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringxEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_xEE12HDStringHash13HDStringEqualEENS_21__unordered_map_equalIS4_S9_SB_SA_EENS_9allocatorIS9_EEE16__copy_constructB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEESO_m
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringxEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_xEE12HDStringHash13HDStringEqualEENS_21__unordered_map_equalIS4_S9_SB_SA_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE16__copy_constructB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE16__copy_constructB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEESQ_m
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS6_SA_S8_EENS_9allocatorIS6_EEE16__copy_constructB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS2_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS6_SA_S8_EENS_9allocatorIS6_EEE16__copy_constructB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS2_PvEEEESN_m
++ __ZNSt3__112__hash_tableIxNS_4hashIxEENS_8equal_toIxEENS_9allocatorIxEEE16__copy_constructB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIxPvEEEE
++ __ZNSt3__112__hash_tableIxNS_4hashIxEENS_8equal_toIxEENS_9allocatorIxEEE16__copy_constructB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIxPvEEEESE_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqe220106Em
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE23__insert_from_safe_copyB9nqe220106INS_11__wrap_iterIPKcEESA_EENS7_IPcEEmmT_T0_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe220106ILi0EEEPKc
++ __ZNSt3__113__nth_elementB9nqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPdEEEEvT1_S8_S8_T0_
++ __ZNSt3__113__tree_removeB9nqe220106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__113match_resultsINS_11__wrap_iterIPKcEENS_9allocatorINS_9sub_matchIS4_EEEEE8__assignB9nqe220106IS3_NS5_INS6_IS3_EEEEEEvS4_S4_RKNS0_IT_T0_EEb
++ __ZNSt3__114__split_bufferINS_10unique_ptrIN10statistics10StatisticsENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE17__destruct_at_endB9nqe220106EPS6_
++ __ZNSt3__114__split_bufferINS_10unique_ptrIN10statistics17RawQuantitySampleENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE17__destruct_at_endB9nqe220106EPS6_
++ __ZNSt3__114__split_bufferINS_10unique_ptrIN10statistics37QuantitySampleAttenuationEngineSampleENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE17__destruct_at_endB9nqe220106EPS6_
++ __ZNSt3__114__split_bufferINS_10unique_ptrIN10statistics8IntervalENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE17__destruct_at_endB9nqe220106EPS6_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe220106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe220106Ej
++ __ZNSt3__115insert_iteratorINS_3setIyNS_4lessIyEENS_9allocatorIyEEEEEaSB9nqe220106ERKy
++ __ZNSt3__116__deque_iteratorI39HDQuantitySampleAttenuationEngineSamplePKS1_RS2_PKS3_lLl102EEpLB9nqe220106El
++ __ZNSt3__116__deque_iteratorI39HDQuantitySampleAttenuationEngineSamplePS1_RS1_PS2_lLl102EEpLB9nqe220106El
++ __ZNSt3__116__pad_and_outputB9nqe220106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__116__set_differenceB9nqe220106INS_6__lessIvvEERNS_21__tree_const_iteratorIyPNS_11__tree_nodeIyPvEElEES9_S9_S9_RNS_15insert_iteratorINS_3setIyNS_4lessIyEENS_9allocatorIyEEEEEEEENS_4pairIu14__remove_cvrefIT0_Eu14__remove_cvrefIT4_EEEOSK_OT1_OT2_OT3_OSM_OT_
++ __ZNSt3__118__for_each_segmentB9nqe220106INS_16__deque_iteratorI39HDQuantitySampleAttenuationEngineSamplePKS2_RS3_PKS4_lLl102EEEZNKS_11__copy_implclB9nqe220106IS8_NS1_IS2_PS2_RS2_PSB_lLl102EEELi0EEENS_4pairIT_T0_EESG_SG_SH_EUlS4_S4_E_EEvSG_SG_SH_
++ __ZNSt3__118generate_canonicalB9nqe220106IdLm53ENS_26linear_congruential_engineIjLj48271ELj0ELj2147483647EEEEET_RT1_
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorI13HKRawIntervalIdEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorI15HistogramBucketEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorI16_HDWrappedSourceEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorI19HDRawDistanceSampleEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorI19HDRawQuantitySampleEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsISC_EEEENS_19__allocation_resultINT0_7pointerENSG_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsISC_EEEENS_19__allocation_resultINT0_7pointerENSG_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsDiscreteE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsPresenceE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEE16_SampleRemainderEEENS_16allocator_traitsISA_EEEENS_19__allocation_resultINT0_7pointerENSE_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISE_EEEENS_19__allocation_resultINT0_7pointerENSI_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISE_EEEENS_19__allocation_resultINT0_7pointerENSI_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISD_EEEENS_19__allocation_resultINT0_7pointerENSH_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsDiscreteEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsPresenceEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsCumulativeEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsPercentilesEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_SampleRemainderEEENS_16allocator_traitsISA_EEEENS_19__allocation_resultINT0_7pointerENSE_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI22HDStatisticsCumulativeE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI23HDStatisticsPercentilesE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI24HDStatisticsTimeIntervalE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI33HDStatisticsAverageSampleDurationE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN6health10FileExtentEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN6health13WriteAheadLog9PageEntryEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIN6health18DataStoreInspector15DataSeriesEntryEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_10shared_ptrIN6health13WriteAheadLog11TransactionEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_10unique_ptrIN10statistics10StatisticsENS_14default_deleteIS4_EEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_10unique_ptrIN10statistics17RawQuantitySampleENS_14default_deleteIS4_EEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_10unique_ptrIN10statistics37QuantitySampleAttenuationEngineSampleENS_14default_deleteIS4_EEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_10unique_ptrIN10statistics8IntervalENS_14default_deleteIS4_EEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES7_EEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_4pairIccEEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_4pairImPKcEEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_5tupleIJxU8__strongP15HKDeletedObjectEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_5tupleIJxU8__strongP8HKSampleEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorINS_9sub_matchINS_11__wrap_iterIPKcEEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIP19HDRawQuantitySampleEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIP39HDQuantitySampleAttenuationEngineSampleEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPN6health12BlockPointerEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPNS_11__thread_idEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPNS_5tupleIJddfEEEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPNS_7__stateIcEEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIU8__strongP8HKSourceEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIdEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIlEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIxEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB9nqe220106Ev
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE11EEEvv
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE12EEEvv
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE14EEEvv
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE15EEEvv
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE16EEEvv
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE17EEEvv
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE1EEEvv
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE2EEEvv
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE3EEEvv
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE4EEEvv
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE5EEEvv
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE6EEEvv
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE7EEEvv
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE8EEEvv
++ __ZNSt3__119__throw_regex_errorB9nqe220106ILNS_15regex_constants10error_typeE9EEEvv
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe220106Ev
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE10__add_charB9nqe220106Ec
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE13__add_digraphB9nqe220106Ecc
++ __ZNSt3__120__throw_length_errorB9nqe220106EPKc
++ __ZNSt3__120__throw_out_of_rangeB9nqe220106EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8HKSource16_HDWrappedSourceEEPvEEEEEclB9nqe220106EPSA_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220106EPSD_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220106EPSD_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI24HDStatisticsTimeIntervalS8_EEEPvEEEEEclB9nqe220106EPSC_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220106EPSF_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220106EPSF_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS9_EEEEPvEEEEEclB9nqe220106EPSE_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI22HDStatisticsNoiseLevelEEEPvEEEEEclB9nqe220106EPSC_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString22HDStatisticsNoiseLevelEEPvEEEEEclB9nqe220106EPSA_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSStringNS_5dequeI19HDRawQuantitySampleNS1_IS8_EEEEEEPvEEEEEclB9nqe220106EPSD_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIyN6health18TransactionalCacheIyNS4_8FilePageEE9CacheLineEEEPvEEEEEclB9nqe220106EPSB_
++ __ZNSt3__122__lower_bound_onesidedB9nqe220106INS_17_ClassicAlgPolicyENS_21__tree_const_iteratorIyPNS_11__tree_nodeIyPvEElEES7_yKNS_10__identityENS_6__lessIvvEEEET0_SC_T1_RKT2_RT4_RT3_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220106EPSA_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220106EPSA_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220106EPSA_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220106EPSA_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220106EPSA_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220106EPSD_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220106EPSD_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220106EPSC_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220106EPSC_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220106EPSC_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220106EPSC_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220106EPSC_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220106EPSC_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220106EPSF_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220106EPSF_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220106EPSE_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI23HDStatisticsPercentilesEEEPvEEEEEclB9nqe220106EPS9_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220106EPS9_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx23HDStatisticsPercentilesEEPvEEEEEclB9nqe220106EPS7_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx24HDStatisticsTimeIntervalEEPvEEEEEclB9nqe220106EPS7_
++ __ZNSt3__124__put_character_sequenceB9nqe220106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB9nqe220106Ev
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZ51-[HDStatisticsCollectionCalculator orderSourceIDs:]E3$_0PxEEbT1_S5_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E0_PSB_EEbT1_SH_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_EEbT1_SH_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E0_PSB_EEbT1_SH_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_EEbT1_SH_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsDiscreteE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsPresenceE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_EEbT1_SF_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E0_PSD_EEbT1_SJ_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_EEbT1_SJ_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E0_PSD_EEbT1_SJ_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_EEbT1_SJ_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSB_16_SampleRemainderESE_E0_PSC_EEbT1_SI_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSB_16_SampleRemainderESE_E_PSC_EEbT1_SI_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsDiscreteEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsPresenceEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsCumulativeEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E0_PS7_EEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsPercentilesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E0_PS7_EEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E0_PS9_EEbT1_SF_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_EEbT1_SF_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsCumulativeE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E0_PS5_EEbT1_SB_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsPercentilesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E0_PS5_EEbT1_SB_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI24HDStatisticsTimeIntervalE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI33HDStatisticsAverageSampleDurationE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E0_PS7_EEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISC_EEEEPU15__autoreleasingP7NSErrorEUlRKSC_SM_E_PSC_EEbT1_SQ_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISC_EEEEPU15__autoreleasingP7NSErrorEUlRKSC_SM_E_PSC_EEbT1_SQ_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsDiscreteE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsPresenceE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISA_EEEEPU15__autoreleasingP7NSErrorEUlRKSA_SK_E_PSA_EEbT1_SO_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISE_EEEEPU15__autoreleasingP7NSErrorEUlRKSE_SO_E_PSE_EEbT1_SS_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISE_EEEEPU15__autoreleasingP7NSErrorEUlRKSE_SO_E_PSE_EEbT1_SS_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISD_EEEEPU15__autoreleasingP7NSErrorEUlRKSD_SN_E_PSD_EEbT1_SR_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsDiscreteEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsPresenceEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI22HDStatisticsCumulativeEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI23HDStatisticsPercentilesEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISA_EEEEPU15__autoreleasingP7NSErrorEUlRKSA_SK_E_PSA_EEbT1_SO_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI22HDStatisticsCumulativeE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI22HDStatisticsNoiseLevelE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI23HDStatisticsPercentilesE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI23HDStatisticsSleepStagesE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI24HDStatisticsTimeIntervalE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI33HDStatisticsAverageSampleDurationE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
++ __ZNSt3__127__tree_balance_after_insertB9nqe220106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsIZNS_5dequeI39HDQuantitySampleAttenuationEngineSampleNS_9allocatorIS2_EEE19__add_back_capacityEmEUlvE_ED1B9nqe220106Ev
++ __ZNSt3__128__exception_guard_exceptionsIZNS_5dequeIN6health12BlockPointerENS_9allocatorIS3_EEE19__add_back_capacityEmEUlvE_ED1B9nqe220106Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB9nqe220106INS_9allocatorI15HistogramBucketEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__138__set_intersection_add_output_if_equalB9nqe220106INS_21__tree_const_iteratorIyPNS_11__tree_nodeIyPvEElEES6_NS_15insert_iteratorINS_3setIyNS_4lessIyEENS_9allocatorIyEEEEEEEEvbRT_RT0_RT1_Rb
++ __ZNSt3__13setIlNS_4lessIlEENS_9allocatorIlEEE6insertB9nqe220106ERKl
++ __ZNSt3__13setIyNS_4lessIyEENS_9allocatorIyEEE6insertB9nqe220106ERKy
++ __ZNSt3__15dequeI19HDRawQuantitySampleNS_9allocatorIS1_EEED2B9nqe220106Ev
++ __ZNSt3__15dequeI39HDQuantitySampleAttenuationEngineSampleNS_9allocatorIS1_EEE18__append_with_sizeB9nqe220106INS_16__deque_iteratorIS1_PKS1_RS7_PKS8_lLl102EEEEEvT_m
++ __ZNSt3__15dequeI39HDQuantitySampleAttenuationEngineSampleNS_9allocatorIS1_EEED2B9nqe220106Ev
++ __ZNSt3__15dequeIN6health12BlockPointerENS_9allocatorIS2_EEE26__maybe_remove_front_spareB9nqe220106Eb
++ __ZNSt3__15dequeIN6health12BlockPointerENS_9allocatorIS2_EEED2B9nqe220106Ev
++ __ZNSt3__15dequeINS_11__thread_idENS_9allocatorIS1_EEED2B9nqe220106Ev
++ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEED2B9nqe220106Ev
++ __ZNSt3__16__treeINS_12__value_typeINS_11__thread_idEPN6health17TransactionalFile15ReadTransactionEEENS_19__map_value_compareIS2_NS_4pairIKS2_S6_EENS_4lessIS2_EEEENS_9allocatorISB_EEE12__find_equalB9nqe220106IS2_EENS9_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSN_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_11__thread_idEPN6health17TransactionalFile15ReadTransactionEEENS_19__map_value_compareIS2_NS_4pairIKS2_S6_EENS_4lessIS2_EEEENS_9allocatorISB_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS7_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_11__thread_idEPN6health17TransactionalFile16WriteTransactionEEENS_19__map_value_compareIS2_NS_4pairIKS2_S6_EENS_4lessIS2_EEEENS_9allocatorISB_EEE12__find_equalB9nqe220106IS2_EENS9_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSN_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_11__thread_idEPN6health17TransactionalFile16WriteTransactionEEENS_19__map_value_compareIS2_NS_4pairIKS2_S6_EENS_4lessIS2_EEEENS_9allocatorISB_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS7_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN6health12InMemoryFileEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SB_EENS_4lessIS7_EEEENS5_ISG_EEE12__find_equalB9nqe220106IS7_EENSE_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSR_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN6health12InMemoryFileEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SB_EENS_4lessIS7_EEEENS5_ISG_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeISC_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220106IZNSG_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220106IZNSG_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220106IZNSG_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220106IZNSG_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220106IZNSG_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220106IZNSG_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI24HDStatisticsTimeIntervalS3_EEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS5_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI24HDStatisticsTimeIntervalS3_EEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220106IZNSF_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220106IZNSG_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS8_EENS_4lessIxEEEENS_9allocatorISD_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS9_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS8_EENS_4lessIxEEEENS_9allocatorISD_EEE21__construct_from_treeB9nqe220106IZNSJ_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS9_PvEEEUlRKSD_E_EESO_SO_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS8_EENS_4lessIxEEEENS_9allocatorISD_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS9_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS8_EENS_4lessIxEEEENS_9allocatorISD_EEE21__construct_from_treeB9nqe220106IZNSJ_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS9_PvEEEUlRKSD_E_EESO_SO_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220106IZNSI_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsDiscreteEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS3_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsDiscreteEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220106IZNSD_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsPresenceEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS3_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsPresenceEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220106IZNSD_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220106IZNSI_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220106IZNSI_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220106IZNSI_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220106IZNSI_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220106IZNSI_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220106IZNSI_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EEEENS_19__map_value_compareIxNS_4pairIKxS6_EENS_4lessIxEEEENS_9allocatorISB_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS7_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EEEENS_19__map_value_compareIxNS_4pairIKxS6_EENS_4lessIxEEEENS_9allocatorISB_EEE21__construct_from_treeB9nqe220106IZNSH_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS7_PvEEEUlRKSB_E_EESM_SM_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220106IZNSI_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxSA_EENS_4lessIxEEEENS_9allocatorISF_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeISB_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxSA_EENS_4lessIxEEEENS_9allocatorISF_EEE21__construct_from_treeB9nqe220106IZNSL_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeISB_PvEEEUlRKSF_E_EESQ_SQ_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxSA_EENS_4lessIxEEEENS_9allocatorISF_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeISB_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxSA_EENS_4lessIxEEEENS_9allocatorISF_EEE21__construct_from_treeB9nqe220106IZNSL_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeISB_PvEEEUlRKSF_E_EESQ_SQ_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS9_EENS_4lessIxEEEENS_9allocatorISE_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeISA_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS9_EENS_4lessIxEEEENS_9allocatorISE_EEE21__construct_from_treeB9nqe220106IZNSK_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeISA_PvEEEUlRKSE_E_EESP_SP_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsDiscreteEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS5_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsDiscreteEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220106IZNSF_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsPresenceEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS5_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsPresenceEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220106IZNSF_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI22HDStatisticsCumulativeEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS5_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI22HDStatisticsCumulativeEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220106IZNSF_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI22HDStatisticsNoiseLevelEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS5_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI22HDStatisticsNoiseLevelEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220106IZNSF_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI23HDStatisticsPercentilesEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS5_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI23HDStatisticsPercentilesEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220106IZNSF_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI23HDStatisticsSleepStagesEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS5_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI23HDStatisticsSleepStagesEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220106IZNSF_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS5_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220106IZNSF_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS5_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220106IZNSF_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220106IZNSI_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220106IZNSI_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEEENS_19__map_value_compareIxNS_4pairIKxS6_EENS_4lessIxEEEENS_9allocatorISB_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS7_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEEENS_19__map_value_compareIxNS_4pairIKxS6_EENS_4lessIxEEEENS_9allocatorISB_EEE21__construct_from_treeB9nqe220106IZNSH_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS7_PvEEEUlRKSB_E_EESM_SM_T_
++ __ZNSt3__16__treeINS_12__value_typeIx22HDStatisticsCumulativeEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS3_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx22HDStatisticsCumulativeEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220106IZNSD_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
++ __ZNSt3__16__treeINS_12__value_typeIx22HDStatisticsNoiseLevelEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS3_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx22HDStatisticsNoiseLevelEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220106IZNSD_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
++ __ZNSt3__16__treeINS_12__value_typeIx23HDStatisticsPercentilesEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS3_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx23HDStatisticsPercentilesEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220106IZNSD_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
++ __ZNSt3__16__treeINS_12__value_typeIx23HDStatisticsSleepStagesEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS3_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx23HDStatisticsSleepStagesEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220106IZNSD_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
++ __ZNSt3__16__treeINS_12__value_typeIx24HDStatisticsTimeIntervalEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS3_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx24HDStatisticsTimeIntervalEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220106IZNSD_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
++ __ZNSt3__16__treeINS_12__value_typeIx33HDStatisticsAverageSampleDurationEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS3_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx33HDStatisticsAverageSampleDurationEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220106IZNSD_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
++ __ZNSt3__16__treeINS_12__value_typeIx38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220106IZNSG_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
++ __ZNSt3__16__treeINS_12__value_typeIx38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220106IZNSG_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
++ __ZNSt3__16__treeINS_12__value_typeIx42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS5_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIx42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220106IZNSF_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
++ __ZNSt3__16__treeINS_12__value_typeIyN6health13WriteAheadLog9PageEntryEEENS_19__map_value_compareIyNS_4pairIKyS4_EENS_4lessIyEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS5_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIyN6health18DataStoreInspector15DataSeriesEntryEEENS_19__map_value_compareIyNS_4pairIKyS4_EENS_4lessIyEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS5_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIyN6health18DataStoreInspector15DataSeriesEntryEEENS_19__map_value_compareIyNS_4pairIKyS4_EENS_4lessIyEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220106IZNSF_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
++ __ZNSt3__16__treeINS_12__value_typeIyNS_6vectorIN6health13WriteAheadLog9PageEntryENS_9allocatorIS5_EEEEEENS_19__map_value_compareIyNS_4pairIKyS8_EENS_4lessIyEEEENS6_ISD_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS9_PvEE
++ __ZNSt3__16__treeIlNS_4lessIlEENS_9allocatorIlEEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIlPvEE
++ __ZNSt3__16__treeIyNS_4lessIyEENS_9allocatorIyEEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIyPvEE
++ __ZNSt3__16__treeIyNS_4lessIyEENS_9allocatorIyEEE21__construct_from_treeB9nqe220106IZNS5_21__copy_construct_treeB9nqe220106EPNS_11__tree_nodeIyPvEEEUlRKyE_EESA_SA_T_
++ __ZNSt3__16vectorI13HKRawIntervalIdENS_9allocatorIS2_EEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorI13HKRawIntervalIdENS_9allocatorIS2_EEE16__init_with_sizeB9nqe220106IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorI13HKRawIntervalIdENS_9allocatorIS2_EEE18__assign_with_sizeB9nqe220106INS_17_ClassicAlgPolicyEPS2_S8_EEvT0_T1_l
++ __ZNSt3__16vectorI13HKRawIntervalIdENS_9allocatorIS2_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorI15HistogramBucketNS_9allocatorIS1_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorI16_HDWrappedSourceNS_9allocatorIS1_EEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorI16_HDWrappedSourceNS_9allocatorIS1_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorI16_HDWrappedSourceNS_9allocatorIS1_EEE16__init_with_sizeB9nqe220106IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI16_HDWrappedSourceNS_9allocatorIS1_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorI16_HDWrappedSourceNS_9allocatorIS1_EEE9push_backB9nqe220106ERKS1_
++ __ZNSt3__16vectorI19HDRawDistanceSampleNS_9allocatorIS1_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorI19HDRawQuantitySampleNS_9allocatorIS1_EEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorI19HDRawQuantitySampleNS_9allocatorIS1_EEE16__init_with_sizeB9nqe220106IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI19HDRawQuantitySampleNS_9allocatorIS1_EEE18__assign_with_sizeB9nqe220106INS_17_ClassicAlgPolicyEPKS1_S8_EEvT0_T1_l
++ __ZNSt3__16vectorI19HDRawQuantitySampleNS_9allocatorIS1_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS3_EE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorISA_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorISA_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsDiscreteE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsPresenceE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EEE16_SampleRemainderENS_9allocatorIS8_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorISC_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorISC_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorISB_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsDiscreteEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsPresenceEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsCumulativeEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsPercentilesEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_SampleRemainderENS_9allocatorIS8_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI22HDStatisticsCumulativeE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI23HDStatisticsPercentilesE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI24HDStatisticsTimeIntervalE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI33HDStatisticsAverageSampleDurationE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN6health10FileExtentENS_9allocatorIS2_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN6health13WriteAheadLog9PageEntryENS_9allocatorIS3_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN6health18DataStoreInspector15DataSeriesEntryENS_9allocatorIS3_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN6health13WriteAheadLog11TransactionEEENS_9allocatorIS5_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN6health13WriteAheadLog11TransactionEEENS_9allocatorIS5_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN6health13WriteAheadLog11TransactionEEENS_9allocatorIS5_EEE5clearB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN10statistics10StatisticsENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN10statistics10StatisticsENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN10statistics10StatisticsENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE5clearB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN10statistics17RawQuantitySampleENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN10statistics17RawQuantitySampleENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN10statistics17RawQuantitySampleENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE5clearB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN10statistics37QuantitySampleAttenuationEngineSampleENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN10statistics37QuantitySampleAttenuationEngineSampleENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN10statistics37QuantitySampleAttenuationEngineSampleENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE5clearB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN10statistics8IntervalENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN10statistics8IntervalENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN10statistics8IntervalENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE5clearB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN6health18TransactionalCacheIyNS2_8FilePageEE10CacheEntryENS_14default_deleteIS6_EEEENS_9allocatorIS9_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN6health18TransactionalCacheIyNS2_8FilePageEE10CacheEntryENS_14default_deleteIS6_EEEENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN6health18TransactionalCacheIyNS2_8FilePageEE10CacheEntryENS_14default_deleteIS6_EEEENS_9allocatorIS9_EEE22__base_destruct_at_endB9nqe220106EPS9_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE9push_backB9nqe220106EOS8_
++ __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE16__init_with_sizeB9nqe220106IPS4_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_5tupleIJxU8__strongP15HKDeletedObjectEEENS_9allocatorIS5_EEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorINS_5tupleIJxU8__strongP15HKDeletedObjectEEENS_9allocatorIS5_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_5tupleIJxU8__strongP15HKDeletedObjectEEENS_9allocatorIS5_EEE16__init_with_sizeB9nqe220106IPS5_SA_EEvT_T0_m
++ __ZNSt3__16vectorINS_5tupleIJxU8__strongP15HKDeletedObjectEEENS_9allocatorIS5_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_5tupleIJxU8__strongP8HKSampleEEENS_9allocatorIS5_EEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorINS_5tupleIJxU8__strongP8HKSampleEEENS_9allocatorIS5_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_5tupleIJxU8__strongP8HKSampleEEENS_9allocatorIS5_EEE16__init_with_sizeB9nqe220106IPS5_SA_EEvT_T0_m
++ __ZNSt3__16vectorINS_5tupleIJxU8__strongP8HKSampleEEENS_9allocatorIS5_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE9push_backB9nqe220106EOS2_
++ __ZNSt3__16vectorINS_9sub_matchINS_11__wrap_iterIPKcEEEENS_9allocatorIS6_EEE16__init_with_sizeB9nqe220106IPS6_SB_EEvT_T0_m
++ __ZNSt3__16vectorINS_9sub_matchINS_11__wrap_iterIPKcEEEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE16__init_with_sizeB9nqe220106IPS4_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIU8__strongP8HKSourceNS_9allocatorIS3_EEE16__destroy_vectorclB9nqe220106Ev
++ __ZNSt3__16vectorIU8__strongP8HKSourceNS_9allocatorIS3_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE16__init_with_sizeB9nqe220106IPdS5_EEvT_T0_m
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE18__assign_with_sizeB9nqe220106INS_17_ClassicAlgPolicyEPdS6_EEvT0_T1_l
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B9nqe220106Em
++ __ZNSt3__16vectorIlNS_9allocatorIlEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE16__init_with_sizeB9nqe220106IPxS5_EEvT_T0_m
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZ51-[HDStatisticsCollectionCalculator orderSourceIDs:]E3$_0PxLi0EEEbT1_S5_S5_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_Li0EEEbT1_SH_SH_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_Li0EEEbT1_SH_SH_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsDiscreteE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsPresenceE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_Li0EEEbT1_SF_SF_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_Li0EEEbT1_SJ_SJ_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_Li0EEEbT1_SJ_SJ_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSB_16_SampleRemainderESE_E_PSC_Li0EEEbT1_SI_SI_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsDiscreteEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsPresenceEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsCumulativeEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsPercentilesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_Li0EEEbT1_SF_SF_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsCumulativeE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsPercentilesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI24HDStatisticsTimeIntervalE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI33HDStatisticsAverageSampleDurationE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
++ __ZNSt3__17__sort3B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZ51-[HDStatisticsCollectionCalculator orderSourceIDs:]E3$_0PxLi0EEEvT1_S5_S5_S5_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_Li0EEEvT1_SH_SH_SH_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_Li0EEEvT1_SH_SH_SH_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsDiscreteE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsPresenceE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_Li0EEEvT1_SF_SF_SF_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_Li0EEEvT1_SJ_SJ_SJ_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_Li0EEEvT1_SJ_SJ_SJ_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSB_16_SampleRemainderESE_E_PSC_Li0EEEvT1_SI_SI_SI_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsDiscreteEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsPresenceEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsCumulativeEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsPercentilesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_Li0EEEvT1_SF_SF_SF_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsCumulativeE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsPercentilesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI24HDStatisticsTimeIntervalE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI33HDStatisticsAverageSampleDurationE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZ51-[HDStatisticsCollectionCalculator orderSourceIDs:]E3$_0PxLi0EEEvT1_S5_S5_S5_S5_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E0_PSB_Li0EEEvT1_SH_SH_SH_SH_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_Li0EEEvT1_SH_SH_SH_SH_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E0_PSB_Li0EEEvT1_SH_SH_SH_SH_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_Li0EEEvT1_SH_SH_SH_SH_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsDiscreteE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsPresenceE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_Li0EEEvT1_SF_SF_SF_SF_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E0_PSD_Li0EEEvT1_SJ_SJ_SJ_SJ_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_Li0EEEvT1_SJ_SJ_SJ_SJ_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E0_PSD_Li0EEEvT1_SJ_SJ_SJ_SJ_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_Li0EEEvT1_SJ_SJ_SJ_SJ_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSB_16_SampleRemainderESE_E0_PSC_Li0EEEvT1_SI_SI_SI_SI_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSB_16_SampleRemainderESE_E_PSC_Li0EEEvT1_SI_SI_SI_SI_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsDiscreteEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsPresenceEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsCumulativeEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E0_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsPercentilesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E0_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E0_PS9_Li0EEEvT1_SF_SF_SF_SF_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_Li0EEEvT1_SF_SF_SF_SF_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsCumulativeE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E0_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsPercentilesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E0_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI24HDStatisticsTimeIntervalE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI33HDStatisticsAverageSampleDurationE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E0_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISC_EEEEPU15__autoreleasingP7NSErrorEUlRKSC_SM_E_PSC_Li0EEEvT1_SQ_SQ_SQ_SQ_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISC_EEEEPU15__autoreleasingP7NSErrorEUlRKSC_SM_E_PSC_Li0EEEvT1_SQ_SQ_SQ_SQ_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsDiscreteE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsPresenceE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISA_EEEEPU15__autoreleasingP7NSErrorEUlRKSA_SK_E_PSA_Li0EEEvT1_SO_SO_SO_SO_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISE_EEEEPU15__autoreleasingP7NSErrorEUlRKSE_SO_E_PSE_Li0EEEvT1_SS_SS_SS_SS_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISE_EEEEPU15__autoreleasingP7NSErrorEUlRKSE_SO_E_PSE_Li0EEEvT1_SS_SS_SS_SS_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISD_EEEEPU15__autoreleasingP7NSErrorEUlRKSD_SN_E_PSD_Li0EEEvT1_SR_SR_SR_SR_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsDiscreteEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsPresenceEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI22HDStatisticsCumulativeEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI23HDStatisticsPercentilesEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISA_EEEEPU15__autoreleasingP7NSErrorEUlRKSA_SK_E_PSA_Li0EEEvT1_SO_SO_SO_SO_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI22HDStatisticsCumulativeE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI22HDStatisticsNoiseLevelE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI23HDStatisticsPercentilesE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI23HDStatisticsSleepStagesE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI24HDStatisticsTimeIntervalE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI33HDStatisticsAverageSampleDurationE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
++ __ZNSt3__17__sort5B9nqe220106INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
++ __ZNSt3__19__sift_upB9nqe220106INS_17_ClassicAlgPolicyERZ51-[HDStatisticsCollectionCalculator orderSourceIDs:]E3$_0PxEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
++ __ZNSt3__1eqB9nqe220106IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EESB_
++ __ZNSt3__1plB9nqe220106IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
++ __ZNSt3__1ssB9nqe220106IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
++ __ZSt28__throw_bad_array_new_lengthB9nqe220106v
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8HKSource16_HDWrappedSourceEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S5_EE14HDNSObjectHash15HDNSObjectEqualEENS_21__unordered_map_equalIS4_SA_SC_SB_EENS_9allocatorISA_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS9_EEENSN_IJEEEEEENS8_INS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEEDpOT_ENKUlSO_SM_OSP_OSQ_E_clESO_SM_S11_S12_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringxEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_xEE12HDStringHash13HDStringEqualEENS_21__unordered_map_equalIS4_S9_SB_SA_EENS_9allocatorIS9_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS8_EEENSM_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlSN_SL_OSO_OSP_E_clESN_SL_S10_S11_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRS8_EEENSO_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlSP_SN_OSQ_OSR_E_clESP_SN_S12_S13_
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIyN6health18TransactionalCacheIyNS2_8FilePageEE9CacheLineEEENS_22__unordered_map_hasherIyNS_4pairIKyS6_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIySB_SF_SD_EENS_9allocatorISB_EEE16__emplace_uniqueB9nqe220106IJRKNS_21piecewise_construct_tENS_5tupleIJRSA_EEENSQ_IJEEEEEENS9_INS_15__hash_iteratorIPNS_11__hash_nodeIS7_PvEEEEbEEDpOT_ENKUlSR_SP_OSS_OST_E_clESR_SP_S14_S15_
++ __ZZNSt3__112__hash_tableIxNS_4hashIxEENS_8equal_toIxEENS_9allocatorIxEEE16__emplace_uniqueB9nqe220106IJRKxEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIxPvEEEEbEEDpOT_ENKUlSA_SA_E_clESA_SA_
++ __ZZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE16__emplace_uniqueB9nqe220106IJRKyEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIyPvEEEEbEEDpOT_ENKUlSA_SA_E_clESA_SA_
++ ___100+[HDMedicalUserDomainConceptMappingEntity userDomainConceptIDsForMedicalRecordID:transaction:error:]_block_invoke
++ ___100+[HDMedicalUserDomainConceptMappingEntity userDomainConceptIDsForMedicalRecordID:transaction:error:]_block_invoke_2
++ ___100+[HDMedicalUserDomainConceptMappingEntity userDomainConceptIDsForMedicalRecordID:transaction:error:]_block_invoke_3
++ ___102-[HDMirroredWorkoutSessionServer beginNewActivityWithConfiguration:date:metadata:insertionType:error:]_block_invoke
++ ___132+[HDMedicalUserDomainConceptMappingEntity remainingSampleIDsAndDataTypesForUserDomainConceptID:excludingRecordID:transaction:error:]_block_invoke
++ ___132+[HDMedicalUserDomainConceptMappingEntity remainingSampleIDsAndDataTypesForUserDomainConceptID:excludingRecordID:transaction:error:]_block_invoke_2
++ ___132+[HDMedicalUserDomainConceptMappingEntity remainingSampleIDsAndDataTypesForUserDomainConceptID:excludingRecordID:transaction:error:]_block_invoke_3
++ ___159+[HDAuthorizationEntity _insertCodableSourceAuthorizations:overwriteExisting:syncStore:peerSyncVersion:sourceManager:syncIdentityManager:healthDatabase:error:]_block_invoke
++ ___159+[HDAuthorizationEntity _insertCodableSourceAuthorizations:overwriteExisting:syncStore:peerSyncVersion:sourceManager:syncIdentityManager:healthDatabase:error:]_block_invoke_2
++ ___48-[HDWorkoutObserverServer connectionInvalidated]_block_invoke
++ ___48-[HDWorkoutSessionServer unitTest_setStartDate:]_block_invoke
++ ___52-[HDDaemon _newNanoRegistryDeviceCapabilityProvider]_block_invoke
++ ___52-[HDIDSMessageCenter setUpCleanupTaskWithScheduler:]_block_invoke_2
++ ___64-[HDDateRangeQueryServer _queue_scheduleDeleteRecomputeIfNeeded]_block_invoke
++ ___66-[HDWorkoutRouteDataSource workoutDataDestination:didEndActivity:]_block_invoke
++ ___67-[HDAuthorizationManager hasActiveTransactionForSessionIdentifier:]_block_invoke
++ ___68-[HDWorkoutRouteDataSource workoutDataDestination:didBeginActivity:]_block_invoke
++ ___69-[HDWorkoutAppStateMonitor initWithBundleIdentifier:loggingCategory:]_block_invoke
++ ___74-[HDWorkoutRouteDataSource workoutDataDestination:didUpdateConfiguration:]_block_invoke
++ ___78-[HDWorkoutSessionRapportSyncController _schedulePendingTransactionRetryTimer]_block_invoke
++ ___79-[HDHeartDailyAnalyticsBuilder _buildHeartRateContextSwitchAnalyticsWithError:]_block_invoke
++ ___79-[HDHeartDailyAnalyticsBuilder _buildHeartRateContextSwitchAnalyticsWithError:]_block_invoke_2
++ ___79-[HDHeartDailyAnalyticsBuilder _buildHeartRateContextSwitchAnalyticsWithError:]_block_invoke_3
++ ___82+[HDCloudSyncTapToRadar openTapToRadarWithTitle:description:component:completion:]_block_invoke
++ ___84+[HDSeriesSampleEntity freezeSeriesWithIdentifier:metadata:assertion:profile:error:]_block_invoke
++ ___85+[HDSeriesBuilderEntity freezeSeriesWithIdentifier:metadata:assertion:profile:error:]_block_invoke
++ ___85-[HDAuthorizationManager _authorizationRecordsByTypeForBundleIdentifier:types:error:]_block_invoke
++ ___86-[_HDAWDPeriodicAction _doIfWaitingOnMaintenanceQueueWithPeriodicActivity:completion:]_block_invoke
++ ___91-[HDWorkoutBuilderEntity _createTemporaryProtectedAssociatedSampleListInTransaction:error:]_block_invoke_3
++ ___96-[HDHealthStoreServer remote_setPreferredHeartRateZoneConfigurationSourceString:withCompletion:]_block_invoke
++ ___98+[HDWorkoutAppStateMonitor launchWorkoutAppIfNeededWithFitnessMachineSessionUUID:loggingCategory:]_block_invoke
++ ___HDAddAdHocConceptTable_block_invoke.530
++ ___HDAddHealthRecordsAccountCount_block_invoke.651
++ ___HDAddUniquenessChecksumToOriginalFHIRResourceEntity_block_invoke.1428
++ ___HDAdvanceUDCSyncAnchors_block_invoke.1454
++ ___HDCleanUpHRExcessSamplesTake2_block_invoke.556
++ ___HDCleanUpHRExcessSamplesTake2_block_invoke.559
++ ___HDCleanUpHRExcessSamplesTake2_block_invoke_2.588
++ ___HDCopyWorkoutTotalsToPrimaryActivity_block_invoke.679
++ ___HDFixInvalidContributorInDataProvenancesTable_block_invoke.695
++ ___HDInsertECGSymptomsAndCreateAssociationWithECGSamples_block_invoke.571
++ ___HDInsertECGSymptomsAndCreateAssociationWithECGSamples_block_invoke.574
++ ___HDInsertECGSymptomsAndCreateAssociationWithECGSamples_block_invoke.575
++ ___HDInsertPrimaryActivityForRowAndMetadata_block_invoke.713
++ ___HDInsertPrimaryActivityForRowAndMetadata_block_invoke_2.719
++ ___HDMigrateAndDeleteProtectedOnboardingCompletionTable_block_invoke.465
++ ___HDMigrateClinicalAccountSyncAnchors_block_invoke.633
++ ___HDMigrateClinicalAccountSyncAnchors_block_invoke.642
++ ___HDMigrateClinicalAccountSyncAnchors_block_invoke_2.646
++ ___HDMigrateClinicalSources_block_invoke.588
++ ___HDMigrateClinicalSources_block_invoke.613
++ ___HDMigrateClinicalSources_block_invoke_2.592
++ ___HDMigrateCycleTrackingOnboarding_block_invoke.1043
++ ___HDMigrateCycleTrackingOnboarding_block_invoke.1044
++ ___HDMigrateCycleTrackingOnboarding_block_invoke.1051
++ ___HDMigrateECGClassificationAverageHRAndPayload_block_invoke.547
++ ___HDRemoveOtherCardioFitnessMedications_block_invoke.510
++ ___HDUpdateClinicalRecordEntities_block_invoke.962
++ ___HDUpdateClinicalRecordEntities_block_invoke.976
++ ___HDUpdateClinicalRecordEntities_block_invoke.977
++ ___HDUpdateClinicalRecordEntities_block_invoke_2.966
++ ___HDUpdateClinicalRecordEntities_block_invoke_2.981
++ ___HDUpdateMedicalRecordEntitiesTableWithOrigin_block_invoke.1066
++ ___HDUpdateMedicalRecordEntitiesTableWithOrigin_block_invoke.1070
++ ___HDUpdateMedicalRecordEntitiesTableWithOrigin_block_invoke_2.1071
++ ___HDUpdateMedicalRecordEntitiesTableWithOrigin_block_invoke_3.1075
++ ___ZL27_HDHFDataStoreWillOpenStoreP13HDHFDataStore_block_invoke.567
++ ___ZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE28_primitiveInvalidateIntervalEP14NSDateIntervalPU15__autoreleasingP7NSError_block_invoke.614
++ ___ZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE28_primitiveInvalidateIntervalEP14NSDateIntervalPU15__autoreleasingP7NSError_block_invoke.445
++ ____HDTaskServerEndpointCleanupTimerQueue_block_invoke
++ ___block_descriptor_104_e8_32s40s48s56s64s72s80s88s96s_e5_v8?0l
++ ___block_descriptor_113_e8_32s40s48s56s64s72s80s88s_e9_B16?0^8l
++ ___block_descriptor_121_e8_32s40s48s56s64s72s80s88s96s104s112r_e9_B16?0^8l
++ ___block_descriptor_40_e8_32s_e18_"NSNumber"16?0q8l
++ ___block_descriptor_40_e8_32s_e23_v24?0B8"NSError"12i20l
++ ___block_descriptor_48_e8_32s40r_e60_v32?0"NSString"8"_HDTypedAssociationSyncBatchEntry"16^B24l
++ ___block_descriptor_56_e8_32s40bs48r_e20_v24?0q8"NSError"16l
++ ___block_descriptor_80_e8_32s40s48s56s64r_e69_B84?0"NSUUID"8"NSUUID"16"NSUUID"24q32B40q44q52"NSDate"60^B68^76l
++ ___block_descriptor_80_e8_32s_e23_v16?0^{sqlite3_stmt=}8l
++ ___block_descriptor_88_e8_32s40bs48r56r_e26_B24?0^{HDSQLiteRow=}8^16l
++ ___block_descriptor_89_e8_32s40s48s56s64s_e35_B24?0"HDDatabaseTransaction"8^16l
++ ___block_descriptor_96_e8_32s40s48bs56r64r_e35_B24?0"HDDatabaseTransaction"8^16l
++ ___copy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s112r
++ ___destroy_helper_block_e8_32s40s48s56s64s72s80s88s96s104s112r
++ __block_literal_global.1002
++ __block_literal_global.1018
++ __block_literal_global.1027
++ __block_literal_global.1036
++ __block_literal_global.1064
++ __block_literal_global.1068
++ __block_literal_global.1082
++ __block_literal_global.1091
++ __block_literal_global.1100
++ __block_literal_global.1123
++ __block_literal_global.1146
++ __block_literal_global.1155
++ __block_literal_global.1164
++ __block_literal_global.382
++ __block_literal_global.406
++ __block_literal_global.407
++ __block_literal_global.414
++ __block_literal_global.417
++ __block_literal_global.419
++ __block_literal_global.423
++ __block_literal_global.427
++ __block_literal_global.428
++ __block_literal_global.439
++ __block_literal_global.448
++ __block_literal_global.456
++ __block_literal_global.457
++ __block_literal_global.466
++ __block_literal_global.473
++ __block_literal_global.475
++ __block_literal_global.477
++ __block_literal_global.478
++ __block_literal_global.482
++ __block_literal_global.487
++ __block_literal_global.492
++ __block_literal_global.507
++ __block_literal_global.511
++ __block_literal_global.512
++ __block_literal_global.515
++ __block_literal_global.522
++ __block_literal_global.525
++ __block_literal_global.526
++ __block_literal_global.541
++ __block_literal_global.543
++ __block_literal_global.556
++ __block_literal_global.559
++ __block_literal_global.560
++ __block_literal_global.563
++ __block_literal_global.570
++ __block_literal_global.572
++ __block_literal_global.574
++ __block_literal_global.579
++ __block_literal_global.582
++ __block_literal_global.590
++ __block_literal_global.591
++ __block_literal_global.592
++ __block_literal_global.601
++ __block_literal_global.602
++ __block_literal_global.604
++ __block_literal_global.605
++ __block_literal_global.606
++ __block_literal_global.616
++ __block_literal_global.620
++ __block_literal_global.631
++ __block_literal_global.636
++ __block_literal_global.639
++ __block_literal_global.643
++ __block_literal_global.647
++ __block_literal_global.656
++ __block_literal_global.660
++ __block_literal_global.661
++ __block_literal_global.665
++ __block_literal_global.666
++ __block_literal_global.676
++ __block_literal_global.684
++ __block_literal_global.687
++ __block_literal_global.688
++ __block_literal_global.693
++ __block_literal_global.697
++ __block_literal_global.699
++ __block_literal_global.711
++ __block_literal_global.715
++ __block_literal_global.717
++ __block_literal_global.719
++ __block_literal_global.721
++ __block_literal_global.729
++ __block_literal_global.737
++ __block_literal_global.752
++ __block_literal_global.766
++ __block_literal_global.775
++ __block_literal_global.784
++ __block_literal_global.793
++ __block_literal_global.797
++ __block_literal_global.800
++ __block_literal_global.805
++ __block_literal_global.817
++ __block_literal_global.825
++ __block_literal_global.834
++ __block_literal_global.843
++ __block_literal_global.845
++ __block_literal_global.850
++ __block_literal_global.855
++ __block_literal_global.859
++ __block_literal_global.860
++ __block_literal_global.862
++ __block_literal_global.879
++ __block_literal_global.890
++ __block_literal_global.899
++ __block_literal_global.908
++ __block_literal_global.931
++ __block_literal_global.954
++ __block_literal_global.963
++ __block_literal_global.972
++ __block_literal_global.995
++ __swift__destructor.21
++ __swift_closure_destructor.20Tm
++ __swift_closure_destructor.81
++ __swift_closure_destructor.84
++ _insertStatementKey.key.586
++ _kHKHealthPrivacyServiceBundleIdentifier
++ _malloc_zone_pressure_relief
++ _notify_get_state
++ _notify_register_check
++ _objc_msgSend$_cancelPendingTransactionRetryTimer
++ _objc_msgSend$_legacyAuthorizationMode
++ _objc_msgSend$_lock_cancelPendingTransactionRetryTimer
++ _objc_msgSend$_pendingTransactionRetryInterval
++ _objc_msgSend$_schedulePendingTransactionRetryTimer
++ _objc_msgSend$_sendPendingTransactions
++ _objc_msgSend$_shouldPickConcept:overConcept:
++ _objc_msgSend$_updateAppAvailabilityState
++ _objc_msgSend$bundleRecordWithApplicationIdentifier:error:
++ _objc_msgSend$enqueueMaintenanceOperation:withPeriodicActivity:
++ _objc_msgSend$freezeSeriesWithIdentifier:metadata:assertion:profile:error:
++ _objc_msgSend$handleDisplayLayoutTransition:
++ _objc_msgSend$hasActiveTransactionForSessionIdentifier:
++ _objc_msgSend$hasLegacyAuthorizationMode
++ _objc_msgSend$hk_shouldPickConcept:overConcept:
++ _objc_msgSend$initWithActivePairedDeviceProvider:notificationCenter:
++ _objc_msgSend$initWithBundleIdentifier:loggingCategory:
++ _objc_msgSend$initWithFirstPartyWorkoutAppAndLoggingCategory:
++ _objc_msgSend$initWithHealthDirectoryPath:medicalIDDirectoryPath:notificationCenter:
++ _objc_msgSend$initWithName:loggingCategory:taskScheduler:handler:condition:
++ _objc_msgSend$initWithStartDate:endDate:quantityValue:
++ _objc_msgSend$insertSQLForProperties:shouldIgnore:
++ _objc_msgSend$intermediate
++ _objc_msgSend$isApproximatelyEqual:
++ _objc_msgSend$launchWorkoutAppIfNeededWithFitnessMachineSessionUUID:loggingCategory:
++ _objc_msgSend$legacyAuthorizationMode
++ _objc_msgSend$maximumObjectAgeByTypeWithIntervalForSecondsSinceDaysAgo:
++ _objc_msgSend$monitorDidDetectAppAvailabilityDidChange:appIsAvailable:
++ _objc_msgSend$notificationCenter
++ _objc_msgSend$objectUUIDsData
++ _objc_msgSend$onboardingState
++ _objc_msgSend$openTapToRadarWithTitle:description:component:completion:
++ _objc_msgSend$overriddenClientBundleIdentifier
++ _objc_msgSend$reconcileCategoryTypesForUserDomainConceptsAfterDeletingRecordWithPersistentID:profile:transaction:error:
++ _objc_msgSend$remainingSampleIDsAndDataTypesForUserDomainConceptID:excludingRecordID:transaction:error:
++ _objc_msgSend$setIntermediate:
++ _objc_msgSend$setLegacyAuthorizationMode:
++ _objc_msgSend$setObjectUUIDsData:
++ _objc_msgSend$setPreferredHeartRateZoneConfigurationSourceFor:sourceString:completionHandler:
++ _objc_msgSend$setSyncIdentityRowID:
++ _objc_msgSend$shouldRestrictPeriodicSync
++ _objc_msgSend$shouldRestrictSyncInGameMode
++ _objc_msgSend$stringWithCapacity:
++ _objc_msgSend$syncIdentityRowID
++ _objc_msgSend$updateHeartRateContextSwitchWindowCounts:
++ _objc_msgSend$userDomainConceptIDsForMedicalRecordID:transaction:error:
++ _objc_sync_enter
++ _objc_sync_exit
++ _sqlite3_bind_zeroblob
++ _symbolic $s12HealthDaemon29HDCloudSyncCoordinatorPushingP
++ _symbolic SDySi______pGSg So20HKDataCacheProvidingP
++ _symbolic SDySi______pGSgz_Xx So20HKDataCacheProvidingP
++ _symbolic _____ 12HealthDaemon19NoOpNanoSyncControl33_E20C92A6CA7FCD1E06F5DCFA3D8FB2CCLLC
++ _symbolic ______pSg 12HealthDaemon29HDCloudSyncCoordinatorPushingP
++ _xpc_activity_set_state
++ block_copy_helper.41
++ block_copy_helper.68
++ block_copy_helper.77
++ block_copy_helper.87
++ block_descriptor.43
++ block_descriptor.70
++ block_descriptor.79
++ block_descriptor.89
++ block_destroy_helper.42
++ block_destroy_helper.69
++ block_destroy_helper.78
++ block_destroy_helper.88
++ columnDefinitionsWithCount:.HDDeviceKeyValueStorageEntryEntityColumnDefinitions.465
++ columnDefinitionsWithCount:.columnDefinitions.481
++ get_type_metadata 15Synchronization5MutexVySDySSSo11HDAssertionCGG noncopyable.3
++ remainingSampleIDsAndDataTypesForUserDomainConceptID:excludingRecordID:transaction:error:.lookupKey
++ userDomainConceptIDsForMedicalRecordID:transaction:error:.lookupKey
+- +[HDAuthorizationEntity _insertCodableSourceAuthorizations:overwriteExisting:syncStore:sourceManager:syncIdentityManager:healthDatabase:error:]
+- +[HDListUserDomainConceptCollapser keepOldestConcept]
+- +[HDMaximumObjectAgeMapping maximumObjectAgeInDaysByType]
+- +[HDUserDomainConceptCollapser keepOldestConcept]
+- -[HDAuthorizationStoreReadServer remote_registerObserverForBundleIdentifier:]
+- -[HDAuthorizationStoreReadServer remote_unregisterObserverForBundleIdentifier:]
+- -[HDCoreMotionDataCollector dealloc]
+- -[HDDaemon initWithContainerDirectoryPath:]
+- -[HDDaemon initWithHealthDirectoryPath:medicalIDDirectoryPath:]
+- -[HDDatabaseSchemaManager _schemaTableNameForDatabaseName:]
+- -[HDDevicelessProfile initWithDirectoryPath:medicalIDDirectoryPath:daemon:profileIdentifier:]
+- -[HDHealthStoreServer remote_setPreferredHeartRateZoneConfigurationTypeRawValue:withCompletion:]
+- -[HDHeartRateDataAggregator dealloc]
+- -[HDMetadataManager predicateWithMetadataKey:allowedValues:]
+- -[HDMetadataManager predicateWithMetadataKey:exists:]
+- -[HDMetadataManager predicateWithMetadataKey:value:operatorType:]
+- -[HDMirroredWorkoutSessionServer beginNewActivityWithConfiguration:date:metadata:error:]
+- -[HDNanoRegistryDeviceCapabilityProvider initWithActivePairedDeviceProvider:]
+- -[HDNanoRegistryDeviceCapabilityProvider init]
+- -[HDUnitPreferencesManager dealloc]
+- -[HDWorkoutSeriesDataAggregator _reconsiderationLatencyForConfiguration:]
+- .str.361
+- GCC_except_table174
+- _OBJC_$_PROP_LIST_HDCloudSyncStatusProvider.516
+- _OBJC_CLASS_$_NSNotificationCenter
+- __100+[HDAlarmEventEntity deleteAllAlarmEventsWithClientIdentifier:transaction:enumerationHandler:error:]_block_invoke.392
+- __100+[HDDataTypeSourceOrderEntity _updateOrderedSourcesForType:profile:transaction:error:updateHandler:]_block_invoke.417
+- __100+[HDDataTypeSourceOrderEntity _updateOrderedSourcesForType:profile:transaction:error:updateHandler:]_block_invoke_2.418
+- __100+[HDDeletedSampleEntity _deletedSamplesInProfile:queryStringBlock:bindingBlock:limit:error:handler:]_block_invoke.431
+- __100-[HDNotificationInstructionDeletedObjectNotInDatabaseCriteria isValidWithDatabaseTransaction:error:]_block_invoke.374
+- __100-[HDStaticSyncImportTask _queue_importStaticSyncChangesFromDirectory:syncStore:progress:completion:]_block_invoke.536
+- __101+[HDAuthorizationEntity _nextModificationEpochForSourceIdentifier:type:sourceManager:database:error:]_block_invoke.511
+- __101+[HDWorkoutBuilderAssociatedObjectEntity enumerateAssociatedUUIDsForBuilder:transaction:error:block:]_block_invoke.379
+- __101+[HDWorkoutBuilderAssociatedObjectEntity enumerateAssociatedUUIDsForBuilder:transaction:error:block:]_block_invoke_2.380
+- __101-[HDCloudSyncStateSyncShim mergeStateDataForKey:stateData:domain:subDomain:configuration:completion:]_block_invoke.399
+- __101-[HDCloudSyncVerifyAttachmentManagementRecordOperation _modifyCloudKitAndFinishWithManagementRecord:]_block_invoke.368
+- __101-[HDSampleAggregateCacheStore _enumerateForInterval:cachedClass:nowDate:calendar:error:cacheHandler:]_block_invoke.380
+- __101-[HDSampleAggregateCacheStore _enumerateForInterval:cachedClass:nowDate:calendar:error:cacheHandler:]_block_invoke.385
+- __102+[HDAppSubscriptionAppLaunchEntity insertOrUpdateAppSDKVersionToken:forBundleID:healthDatabase:error:]_block_invoke.460
+- __102+[HDAppSubscriptionAppLaunchEntity insertOrUpdateAppSDKVersionToken:forBundleID:healthDatabase:error:]_block_invoke.463
+- __102+[HDAssociationSyncEntity generateSyncObjectsForSession:syncAnchorRange:profile:messageHandler:error:]_block_invoke.372
+- __102+[HDRaceRouteClusterEntity _insertRacingCluster:routeSnapshot:syncIdentity:transaction:profile:error:]_block_invoke.441
+- __102+[HDSampleSyncEntity _predicateForSampleAgeWithMaximumObjectAgeByType:defaultMaxAge:sessionStartDate:]_block_invoke.489
+- __102-[HDDaemonSyncEngine _performSyncTransactionForSession:store:anchorRangeMap:transactionContext:error:]_block_invoke.548
+- __102-[HDDaemonSyncEngine _performSyncTransactionForSession:store:anchorRangeMap:transactionContext:error:]_block_invoke.551
+- __103+[HDLocationSeriesDataEntity _enumerateWithDatabase:predicate:orderByDate:forValidation:error:handler:]_block_invoke.428
+- __103+[HDRaceRouteClusterEntity generateSyncObjectsForSession:syncAnchorRange:profile:messageHandler:error:]_block_invoke.559
+- __103+[HDRaceRouteClusterEntity generateSyncObjectsForSession:syncAnchorRange:profile:messageHandler:error:]_block_invoke.562
+- __103+[HDTrainingLoadStatisticsCacheEntity backfillTrainingLoadStartDate:profile:healthDatabase:completion:]_block_invoke.423
+- __103-[HDCloudSyncSharedSummaryPushPrepareOperation _pendingAndAcceptedParticipantRecordsInZone:completion:]_block_invoke.371
+- __103-[HDExtendedDatabaseTransaction initWithDatabase:context:transactionTimeout:continuationTimeout:error:]_block_invoke.388
+- __103-[HDExtendedDatabaseTransaction initWithDatabase:context:transactionTimeout:continuationTimeout:error:]_block_invoke.389
+- __103-[HDProtectedDataOperation _notifyDelegateToPerformWorkWithDatabase:accessibilityAssertion:completion:]_block_invoke.434
+- __104-[HDActiveDataAggregator _aggregateForCollector:device:requestedAggregationDate:assertion:mode:options:]_block_invoke.368
+- __104-[HDActiveDataAggregator _aggregateForCollector:device:requestedAggregationDate:assertion:mode:options:]_block_invoke.371
+- __104-[HDCloudSyncDeleteEmptyZonesOperation _validateZonesAreEmptyWithDeletionCandidates:container:database:]_block_invoke.374
+- __104-[HDCloudSyncDeleteEmptyZonesOperation _validateZonesAreEmptyWithDeletionCandidates:container:database:]_block_invoke.378
+- __104-[HDCloudSyncDeleteEmptyZonesOperation _validateZonesAreEmptyWithDeletionCandidates:container:database:]_block_invoke.386
+- __104-[HDCloudSyncPullChangeRecordOperation _continuationForFetchedRecord:recordID:inMemoryAsset:fetchError:]_block_invoke.383
+- __104-[HDCloudSyncPullChangeRecordOperation _continuationForFetchedRecord:recordID:inMemoryAsset:fetchError:]_block_invoke.384
+- __104-[HDCloudSyncPullChangeRecordOperation _continuationForFetchedRecord:recordID:inMemoryAsset:fetchError:]_block_invoke.385
+- __105+[HDMedicalUserDomainConceptEntity _tombstoneOldUnmappedUDCsWithProfile:transaction:nowDate:limit:error:]_block_invoke.423
+- __105-[HDDatabaseValidationTaskServer remote_validateDatabase:clientCompletionHandler:errorHandlerIdentifier:]_block_invoke.362
+- __105-[HDDatabaseValidationTaskServer remote_validateDatabase:clientCompletionHandler:errorHandlerIdentifier:]_block_invoke.364
+- __105-[HDHealthStoreServer _saveValidatedDataObjects:skipInsertionFilter:transactionIdentifier:final:handler:]_block_invoke.479
+- __105-[HDInsertSharedSummaryTransactionOperation _saveRecordsAndFinishWithProfile:repository:zone:completion:]_block_invoke.372
+- __105-[HDInsertSharedSummaryTransactionOperation _saveRecordsAndFinishWithProfile:repository:zone:completion:]_block_invoke.375
+- __105-[HDInsertSharedSummaryTransactionOperation _saveRecordsAndFinishWithProfile:repository:zone:completion:]_block_invoke.380
+- __105-[HDInsertSharedSummaryTransactionOperation _saveRecordsAndFinishWithProfile:repository:zone:completion:]_block_invoke.384
+- __105-[HDInsertSharedSummaryTransactionOperation _saveRecordsAndFinishWithProfile:repository:zone:completion:]_block_invoke.385
+- __105-[HDInsertSharedSummaryTransactionOperation _saveRecordsAndFinishWithProfile:repository:zone:completion:]_block_invoke.389
+- __105-[HDInsertSharedSummaryTransactionOperation _saveRecordsAndFinishWithProfile:repository:zone:completion:]_block_invoke_2.381
+- __106-[HDActivitySummaryBuilder _enumerateActivitySummariesAndCachesWithPredicate:largestAnchor:error:handler:]_block_invoke.376
+- __106-[HDBackgroundFeatureDeliveryManager periodicCountryMonitor:didFetchISOCountryCode:countryCodeProvenance:]_block_invoke.409
+- __106-[HDCloudSyncPipelineStageSharedSummaryAddParticipant _addParticipantWithLookupInfo:ownerName:ownerEmail:]_block_invoke.387
+- __106-[HDCloudSyncPipelineStageSharedSummaryAddParticipant _addParticipantWithLookupInfo:ownerName:ownerEmail:]_block_invoke.391
+- __106-[HDCloudSyncPipelineStageSharedSummaryAddParticipant _addParticipantWithLookupInfo:ownerName:ownerEmail:]_block_invoke.394
+- __106-[HDCloudSyncPipelineStageSharedSummaryAddParticipant _addParticipantWithLookupInfo:ownerName:ownerEmail:]_block_invoke.396
+- __107+[HDKeyValueEntity _validateModificationDatePolicyWithKey:domain:category:modificationDate:database:error:]_block_invoke.476
+- __107+[HDObjectAuthorizationEntity authorizationRecordsForSamples:sourceEntity:sessionIdentifier:profile:error:]_block_invoke.461
+- __107+[HDRaceRouteClusterEntity _pruneRaceRouteClustersFromWorkoutClusterUUID:eligibleEntity:transaction:error:]_block_invoke.504
+- __107+[HDTypedAssociationSyncEntity generateSyncObjectsForSession:syncAnchorRange:profile:messageHandler:error:]_block_invoke.374
+- __107-[HDAppSubscriptionManager _updateSubscriptionsBasedOnBARSwitchState:lastLaunchTimes:dataCode:anchor:type:]_block_invoke.387
+- __107-[HDCloudSyncPipelineStagePush _requiresFullSyncWithStagingStore:pushStores:reason:shardResponsible:error:]_block_invoke.385
+- __107-[HDDemoDataFoodSampleGenerator generateObjectsForDemoPerson:fromTime:toTime:currentDate:objectCollection:]_block_invoke.439
+- __107-[HDNanoSyncManager _queue_performNextProactiveSyncWithRemainingDevices:accessibilityAssertion:completion:]_block_invoke.799
+- __108+[HDCloudSyncStoreEntity storeIdentifiersForOwnerIdentifier:containerIdentifier:syncIdentity:profile:error:]_block_invoke.447
+- __108-[HDDatabaseValidationTaskServer remote_validateEntitiesWithClientCompletionHandler:errorHandlerIdentifier:]_block_invoke.368
+- __108-[HDIngestDeviceKeyValueEntriesOperation _pullDeviceKeyValueEntriesForProfile:repository:transaction:error:]_block_invoke.369
+- __109+[HDDeletedSampleEntity enumerateDeletedSamplesInProfile:createdOnOrAfter:createdBefore:limit:error:handler:]_block_invoke.416
+- __109+[HDLogicalSourceOrderSyncEntity generateSyncObjectsForSession:syncAnchorRange:profile:messageHandler:error:]_block_invoke.506
+- __109-[HDKeyValueDomain(WristTemperatureIdentifiers) _wristTemperatureResolvedSourceIdentifiersBySourceIdentifier]_block_invoke.369
+- __109-[HDSecondaryDevicePairingAgentTaskServer remote_tearDownHealthSharingWithTinkerDeviceWithNRUUID:completion:]_block_invoke.414
+- __110+[HDDeviceKeyValueStorageEntryEntity enumerateAllEntriesForSyncIdentity:transaction:error:enumerationHandler:]_block_invoke.407
+- __110+[HDSyncAnchorEntity _setSyncAnchor:updateDate:options:updatePolicy:entityIdentifier:store:transaction:error:]_block_invoke.487
+- __110+[HDSyncAnchorEntity _setSyncAnchor:updateDate:options:updatePolicy:entityIdentifier:store:transaction:error:]_block_invoke.488
+- __110+[HDSyncAnchorEntity _setSyncAnchor:updateDate:options:updatePolicy:entityIdentifier:store:transaction:error:]_block_invoke.501
+- __110+[HDSyncAnchorEntity _setSyncAnchor:updateDate:options:updatePolicy:entityIdentifier:store:transaction:error:]_block_invoke_2.489
+- __110+[HDSyncAnchorEntity _setSyncAnchor:updateDate:options:updatePolicy:entityIdentifier:store:transaction:error:]_block_invoke_2.497
+- __110+[HDSyncAnchorEntity _setSyncAnchor:updateDate:options:updatePolicy:entityIdentifier:store:transaction:error:]_block_invoke_2.505
+- __110-[HDAuthorizationManager filteredAuthorizedObjectsForClient:anchor:bundleIdentifier:clientEntitlements:error:]_block_invoke.686
+- __110-[HDWorkoutBuilderServer _requestFinalDataSeriallyForRouteSource:smootherSource:startDate:endDate:completion:]_block_invoke.849
+- __110-[HDWorkoutEffortRelationshipQueryServer associationsUpdatedForObject:subObject:type:behavior:objects:anchor:]_block_invoke.388
+- __111+[HDQuantitySampleValueEnumerator orderedQuantityValuesBySeriesForPredicate:transaction:options:error:handler:]_block_invoke.363
+- __111-[HDDatabase takeAccessibilityAssertionWithOwnerIdentifier:contextType:timeout:shouldPerformTransaction:error:]_block_invoke.646
+- __111-[HDWatchSettingsReconciliationManager _queue_applyReconciledValueFromSettingValues:forSettingKeys:completion:]_block_invoke.389
+- __111-[HDWatchSettingsReconciliationManager _queue_applyReconciledValueFromSettingValues:forSettingKeys:completion:]_block_invoke.391
+- __112+[HDUserDomainConceptEntity _enumerateLinkCollectionsContainingTargetUUID:transaction:error:enumerationHandler:]_block_invoke.560
+- __112-[HDDatabasePruningCoordinator _pruneProfilesWithIdentifiers:takeAccessibilityAssertion:shouldDefer:completion:]_block_invoke.392
+- __112-[HDStatisticsCollectionCalculatorDefaultDataSource addValuesForQuantitySamples:calculator:includeSeries:error:]_block_invoke.378
+- __113-[HDSeriesQuantityDataAggregator aggregateForState:collector:device:requestedAggregationDate:mode:options:error:]_block_invoke.383
+- __113-[HDSeriesQuantityDataAggregator aggregateForState:collector:device:requestedAggregationDate:mode:options:error:]_block_invoke.392
+- __113-[HDSeriesQuantityDataAggregator aggregateForState:collector:device:requestedAggregationDate:mode:options:error:]_block_invoke.394
+- __113-[HDSeriesQuantityDataAggregator aggregateForState:collector:device:requestedAggregationDate:mode:options:error:]_block_invoke_2.384
+- __114-[HDUserCharacteristicsManager _setUserCharacteristic:forType:shouldInsertSample:updateProfileAndSync:date:error:]_block_invoke.419
+- __114-[HDUserCharacteristicsManager _setUserCharacteristic:forType:shouldInsertSample:updateProfileAndSync:date:error:]_block_invoke.422
+- __115+[HDObjectAuthorizationEntity _setObjectAuthorizationRecords:syncProvenance:syncIdentity:skipErrors:profile:error:]_block_invoke.410
+- __115+[HDUserDomainConceptEntity _insertBaseUserDomainConcept:syncProvenance:syncIdentity:transaction:syncAnchor:error:]_block_invoke.527
+- __115-[HDAuthorizationManager handleObjectAuthorizationRequestsForBundleIdentifier:objectType:promptHandler:completion:]_block_invoke.535
+- __115-[HDAuthorizationManager handleObjectAuthorizationRequestsForBundleIdentifier:objectType:promptHandler:completion:]_block_invoke.538
+- __115-[HDAuthorizationManager handleObjectAuthorizationRequestsForBundleIdentifier:objectType:promptHandler:completion:]_block_invoke.543
+- __115-[HDAuthorizationManager handleObjectAuthorizationRequestsForBundleIdentifier:objectType:promptHandler:completion:]_block_invoke_2.539
+- __115-[HDCloudSyncHandleMissingManateeIdentityOperation _deleteZonesForLostManateeIdentitiesInZones:container:database:]_block_invoke.378
+- __115-[HDCloudSyncHandleMissingManateeIdentityOperation _deleteZonesForLostManateeIdentitiesInZones:container:database:]_block_invoke.380
+- __115-[HDCloudSyncHandleMissingManateeIdentityOperation _leaveSharesForLostManateeIdentitiesInZones:container:database:]_block_invoke.388
+- __116+[HDAttachmentReferenceEntity enumerateReferencesForAttachmentIdentifier:type:transaction:error:enumerationHandler:]_block_invoke.442
+- __116+[HDAttachmentReferenceEntity enumerateReferencesForAttachmentIdentifier:type:transaction:error:enumerationHandler:]_block_invoke.445
+- __116+[HDSampleEntity deleteSamplesWithTypes:sourceEntities:profile:recursiveDeleteAuthorizationBlock:completionHandler:]_block_invoke.425
+- __116+[HDSampleEntity deleteSamplesWithTypes:sourceEntities:profile:recursiveDeleteAuthorizationBlock:completionHandler:]_block_invoke_2.426
+- __116-[HDCloudSyncPushReferenceTombstonesOperation _generateTombstoneRecordsToPushAndReferencesRecordsToDeleteWithError:]_block_invoke.364
+- __116-[HDSummarySharingEntryManager updateEntryWithUUID:authorizationsToAdd:authorizationsToDelete:deleteOnCommit:error:]_block_invoke.382
+- __117+[HDAuthorizationEntity readAuthorizationStatusesByTypeForBundleIdentifier:types:sourceManager:healthDatabase:error:]_block_invoke.443
+- __117+[HDCachedCKDatabaseEntity entityForContainerIdentifier:databaseScope:userRecordName:transaction:shouldCreate:error:]_block_invoke.408
+- __117+[HDLogicalSourceEntity lookUpOrCreateLogicalSourceWithBundleIdentifier:owningAppBundleIdentifier:transaction:error:]_block_invoke.420
+- __117+[HDLogicalSourceEntity lookUpOrCreateLogicalSourceWithBundleIdentifier:owningAppBundleIdentifier:transaction:error:]_block_invoke.421
+- __117+[HDLogicalSourceEntity lookUpOrCreateLogicalSourceWithBundleIdentifier:owningAppBundleIdentifier:transaction:error:]_block_invoke.423
+- __117-[HDAnalyticsSubmissionCoordinator(Database) database_reportJournalMergeActivityResult:duration:interruptions:error:]_block_invoke.494
+- __117-[HDCloudSyncFetchRecordsOperation _receivedLimitExceededError:fetchingRecordsWithIDs:container:database:completion:]_block_invoke.377
+- __117-[HDWorkoutSessionTaskServer didUpdateGeneratedTypesWithConfiguration:sampleTypes:dataSource:didUpdateActivity:date:]_block_invoke.540
+- __118-[HDClientDataCollectionTaskServer _queue_insertDatums:device:metadata:options:batchUUID:registrationUUID:completion:]_block_invoke.410
+- __119-[HDInsertSharedSummaryTransactionOperation _persistRecordsWithRepository:transactionRecord:summaryRecords:completion:]_block_invoke.400
+- __120-[HDCloudSyncPushDeviceKeyValueOperation _computeRecordsToSave:recordIDsToDelete:localEntries:protectionCategory:error:]_block_invoke.394
+- __120-[HDCloudSyncSharedSummaryPushPruningOperation _findTransactionsToDelete:existingTransactionRecordsByZoneID:completion:]_block_invoke.364
+- __120-[HDCloudSyncSharedSummaryPushPruningOperation _findTransactionsToDelete:existingTransactionRecordsByZoneID:completion:]_block_invoke.375
+- __120-[HDCloudSyncSharedSummaryPushPruningOperation _findTransactionsToDelete:existingTransactionRecordsByZoneID:completion:]_block_invoke.376
+- __120-[HDCloudSyncSharedSummaryPushPruningOperation _findTransactionsToDelete:existingTransactionRecordsByZoneID:completion:]_block_invoke_2.368
+- __120-[HDDatabaseMigrator(Emet) _insertDeletedObjectTombstoneWithUUID:provenanceIdentifier:deletionDate:insertedRowID:error:]_block_invoke.652
+- __121+[HDWorkoutBuilderServer _finishDetachedBuilderForEntity:sessionEndDate:profile:forceFinish:existingSmoother:completion:]_block_invoke.371
+- __122-[HDAuthorizationManager handleHealthConceptAuthorizationRequestsForBundleIdentifier:objectType:promptHandler:completion:]_block_invoke.577
+- __122-[HDSharingAuthorizationRecipientStoreServer sharingAuthorizationManager:didAddSharingAuthorizations:recipientIdentifier:]_block_invoke.362
+- __123+[HDUserDomainConceptEntity _updateBaseUserDomainConcept:syncProvenance:syncIdentity:profile:transaction:syncAnchor:error:]_block_invoke.544
+- __123-[HDSampleTypeChangeEvaluator _detailedChangeUsingAnchorIndexStrategyForType:sinceAnchor:hasUnfrozenSeries:database:error:]_block_invoke.396
+- __123-[HDSecondaryDevicePairingAgentTaskServer remote_performEndToEndCloudSyncWithNRDeviceUUID:syncParticipantFirst:completion:]_block_invoke.379
+- __123-[HDSecondaryDevicePairingAgentTaskServer remote_performEndToEndCloudSyncWithNRDeviceUUID:syncParticipantFirst:completion:]_block_invoke.382
+- __123-[HDSecondaryDevicePairingAgentTaskServer remote_performEndToEndCloudSyncWithNRDeviceUUID:syncParticipantFirst:completion:]_block_invoke.387
+- __123-[HDSecondaryDevicePairingAgentTaskServer remote_performEndToEndCloudSyncWithNRDeviceUUID:syncParticipantFirst:completion:]_block_invoke.391
+- __123-[HDSecondaryDevicePairingAgentTaskServer remote_requestTinkerSharingOptInWithGuardianDisplayName:NRDeviceUUID:completion:]_block_invoke.368
+- __124+[HDAttachmentReferenceEntity enumerateReferencesForObjectIdentifier:schemaIdentifier:transaction:error:enumerationHandler:]_block_invoke.436
+- __124-[HDDatabasePruningTask _pruneDatabaseUsingRestrictionPredicatesWithNowDate:prunedObjectTransactionLimit:shouldDefer:error:]_block_invoke.459
+- __124-[HDDatabasePruningTask enqueueMaintenanceOperationOnCoordinator:takeAccessibilityAssertion:nowDate:shouldDefer:completion:]_block_invoke.371
+- __125+[HDAssociationEntity _findAssociationEntryWithParentID:childID:type:behavior:destinationSubObjectID:deleted:database:error:]_block_invoke.528
+- __125+[HDCachedCKRecordZoneEntity requiresFetchForZoneWithContainerIdentifier:databaseScope:zoneName:ownerName:transaction:error:]_block_invoke.421
+- __125-[HDSharingAuthorizationRecipientStoreServer sharingAuthorizationManager:didRemoveSharingAuthorizations:recipientIdentifier:]_block_invoke.366
+- __125-[HDStatisticsCollectionCalculatorRelativeDataSource collectionCalculator:queryForInterval:error:sampleHandler:mergeHandler:]_block_invoke.363
+- __126+[HDCachedSecureCKRecordEntity deleteRecordWithContainerIdentifier:databaseScope:zoneName:ownerName:recordName:profile:error:]_block_invoke.446
+- __126-[HDHealthStoreServer _saveDataObjects:sourceEntity:sourceVersion:skipInsertionFilter:databaseAssertion:handler:creationDate:]_block_invoke.502
+- __126-[HDLiveWorkoutDataSource workoutDataDestination:didUpdateGeneratedTypesWithConfiguration:sampleTypes:didUpdateActivity:date:]_block_invoke.511
+- __127+[HDKeyValueEntity _insertValues:forKeys:modificationDates:domain:category:provenance:syncIdentity:updatePolicy:profile:error:]_block_invoke.480
+- __127-[HDClientAuthorizationOracle(Privileged) _queue_beginAuthorizationRequestDelegateTransactionWithSessionIdentifier:completion:]_block_invoke.602
+- __127-[HDStatisticsCollectionCalculatorAttenuatedDataSource collectionCalculator:queryForInterval:error:sampleHandler:mergeHandler:]_block_invoke.363
+- __127-[_HDQuantitySampleSeriesEntityEncoder generateCodableRepresentationsForHFDKey:sample:maxBytesPerRepresentation:error:handler:]_block_invoke.777
+- __130+[HDDeviceKeyValueStorageEntryEntity setData:forKey:domain:deviceContextID:syncEntityIdentity:modificationDate:transaction:error:]_block_invoke.420
+- __132-[HDDefaultAuthorizationSchemaProvider setAuthorizationStatuses:authorizationModes:bundleIdentifier:options:modeInfo:profile:error:]_block_invoke.390
+- __132-[HDDemoDataActivitySampleGenerator _generateWorkoutDataWithHeartRates:recoveryHeartRates:objectCollection:demoPerson:workoutState:]_block_invoke.878
+- __133-[HDClientAuthorizationOracle enqueueAuthorizationRequestToWriteTypes:readTypes:authorizationNeededHandler:requestCompletionHandler:]_block_invoke.517
+- __133-[HDClientAuthorizationOracle enqueueAuthorizationRequestToWriteTypes:readTypes:authorizationNeededHandler:requestCompletionHandler:]_block_invoke.520
+- __134+[HDCachedCKRecordEntity enumerateRecordIDsWithContainerIdentifier:databaseScope:zoneName:ownerName:profile:error:enumerationHandler:]_block_invoke.412
+- __134+[HDDataEntity deleteDataObjects:restrictedSourceEntities:failIfNotFound:profile:recursiveDeleteAuthorizationBlock:completionHandler:]_block_invoke.558
+- __134-[HDAuthorizationManager _authorizationRequestStatusForClientBundleIdentifier:writeTypes:readTypes:updateAuthorizationStatuses:error:]_block_invoke.484
+- __135-[HDNanoSyncManager _queue_synchronizeWithOptions:restoreMessagesSentHandler:targetSyncStore:reason:accessibilityAssertion:completion:]_block_invoke.598
+- __135-[HDNanoSyncManager _queue_synchronizeWithOptions:restoreMessagesSentHandler:targetSyncStore:reason:accessibilityAssertion:completion:]_block_invoke.606
+- __136+[HDLocationSeriesSampleEntity _updateFrozenEntityToMatchReplacedUnfrozenEntity:unfrozenSeriesUUID:unfrozenSeriesHFDKey:database:error:]_block_invoke.428
+- __138-[HDSummarySharingEntryIDSManager inviteSharingDataWithIdentifier:firstName:lastName:sharingAuthorizations:userWheelchairMode:completion:]_block_invoke.411
+- __138-[HDSummarySharingEntryIDSManager inviteSharingDataWithIdentifier:firstName:lastName:sharingAuthorizations:userWheelchairMode:completion:]_block_invoke.412
+- __138-[HDSummarySharingEntryIDSManager inviteSharingDataWithIdentifier:firstName:lastName:sharingAuthorizations:userWheelchairMode:completion:]_block_invoke.415
+- __138-[HDSummarySharingEntryIDSManager inviteSharingDataWithIdentifier:firstName:lastName:sharingAuthorizations:userWheelchairMode:completion:]_block_invoke.419
+- __138-[HDSummarySharingEntryIDSManager inviteSharingDataWithIdentifier:firstName:lastName:sharingAuthorizations:userWheelchairMode:completion:]_block_invoke.422
+- __140-[HDAuthorizationManager enqueueObjectAuthorizationRequestForBundleIdentifier:context:promptIfNeeded:authorizationNeededHandler:completion:]_block_invoke.533
+- __142+[HDRaceRouteLocationSeriesEntity enumerateRoutePointsForSeries:timestampAnchor:limit:startDuration:finishDuration:transaction:error:handler:]_block_invoke.408
+- __146-[HDDataManager insertDataObjects:withProvenance:creationDate:skipInsertionFilter:updateSourceOrder:resolveAssociations:transactionContext:error:]_block_invoke.382
+- __147+[HDDataExternalSyncIdentifierEntity populateSyncInfoForLocalSourceID:externalSyncObjectCode:syncIdentifier:deleted:database:objectIDOut:errorOut:]_block_invoke.424
+- __150-[HDHealthStoreServer _queue_insertObjects:sourceEntity:sourceVersionOverride:shouldJournal:skipInsertionFilter:databaseAssertion:error:creationDate:]_block_invoke.511
+- __150-[HDHealthStoreServer _queue_insertObjects:sourceEntity:sourceVersionOverride:shouldJournal:skipInsertionFilter:databaseAssertion:error:creationDate:]_block_invoke_2.512
+- __151-[HDCloudSyncSharedSummaryParticipantProfileCreationOperation _createProfileWithUUID:contactIdentifier:firstName:lastName:ownerParticipant:completion:]_block_invoke.364
+- __151-[HDCloudSyncSharedSummaryParticipantProfileCreationOperation _createProfileWithUUID:contactIdentifier:firstName:lastName:ownerParticipant:completion:]_block_invoke.365
+- __154+[HDUserDomainConceptEducationContentSectionEntity enumerateLocalizedEducationContentSectionsWithEducationContentID:transaction:error:enumerationHandler:]_block_invoke.391
+- __156+[HDSleepDaySummaryCacheEntity fetchCacheEntryForConfiguration:transaction:maximumAnchor:sourceOrderAnchor:dayIndexLower:dayIndexUpper:summariesData:error:]_block_invoke.414
+- __158-[HDCloudSyncSharedSummaryPushOperation performSharedSummaryPushWithTransactions:pendingAndAcceptedParticipants:authorizationIdentifiers:privateMetadataZone:]_block_invoke.374
+- __158-[HDCloudSyncSharedSummaryPushOperation performSharedSummaryPushWithTransactions:pendingAndAcceptedParticipants:authorizationIdentifiers:privateMetadataZone:]_block_invoke.379
+- __158-[HDCloudSyncSharedSummaryPushOperation performSharedSummaryPushWithTransactions:pendingAndAcceptedParticipants:authorizationIdentifiers:privateMetadataZone:]_block_invoke.382
+- __181+[HDAssociationEntity _bulkInsertEntriesWithParentUUID:childIDs:provenance:syncIdentity:type:behavior:creationDate:destinationSubObjectReference:healthDatabase:sourceManager:error:]_block_invoke.517
+- __185-[HDWorkoutTrainingLoadDataSource _queryEffortSampleValuesForWorkoutUUID:workoutPID:workoutStartDate:workoutEndDate:workoutActivityType:workoutDuration:sourceID:activity:sampleHandler:]_block_invoke.394
+- __185-[HDWorkoutTrainingLoadDataSource _queryEffortSampleValuesForWorkoutUUID:workoutPID:workoutStartDate:workoutEndDate:workoutActivityType:workoutDuration:sourceID:activity:sampleHandler:]_block_invoke.396
+- __186-[HDCloudSyncSharedSummaryPushOperation createRecordsToSaveWithTransactions:transactionRecords:participantZoneID:participant:authorizationIdentifiers:allRecordsToSave:zoneIDs:taskGroup:]_block_invoke.386
+- __191+[HDAssociationEntity _insertEntriesWithParentUUID:childUUIDsData:provenance:syncIdentity:type:behavior:deleted:creationDate:destinationSubObjectReference:lastInsertedEntityID:context:error:]_block_invoke.504
+- __208-[HDQuantityDistributionQueryServer _attenuatedSampleWalkBlockUsingDateIntervals:sqlitePredicate:dataFactor:distributionCalculator:computeAverageAndDuration:calculatorForAverageAndDuration:attenuationEngine:]_block_invoke.383
+- __214-[HDQuantityDistributionQueryServer _standardSampleWalkBlockUsingDateIntervals:sqlitePredicate:dataFactor:distributionCalculator:computeAverageAndDuration:calculatorForAverageAndDuration:resolveOverlappingSamples:]_block_invoke.381
+- __248+[HDDataProvenanceEntity insertOrLookupDataProvenanceForSyncProvenance:syncIdentity:originProductType:originSystemBuild:originOSVersion:localProductType:localSystemBuild:sourceVersion:timeZoneName:sourceID:deviceID:contributorID:transaction:error:]_block_invoke.465
+- __248+[HDDataProvenanceEntity insertOrLookupDataProvenanceForSyncProvenance:syncIdentity:originProductType:originSystemBuild:originOSVersion:localProductType:localSystemBuild:sourceVersion:timeZoneName:sourceID:deviceID:contributorID:transaction:error:]_block_invoke.466
+- __248+[HDDataProvenanceEntity insertOrLookupDataProvenanceForSyncProvenance:syncIdentity:originProductType:originSystemBuild:originOSVersion:localProductType:localSystemBuild:sourceVersion:timeZoneName:sourceID:deviceID:contributorID:transaction:error:]_block_invoke.468
+- __256+[HDAssociationEntity _insertEntriesWithParentUUID:childUUIDsData:provenance:syncIdentity:type:behavior:deleted:creationDate:destinationSubObjectReference:enforceSameSource:permitPendingAssociations:healthDatabase:sourceManager:lastInsertedEntityID:error:]_block_invoke.512
+- __272+[HDAuthorizationEntity _insertAuthorizationWithSourceIdentifier:dataTypeCode:authorizationStatus:authorizationRequest:authorizationMode:modificationDate:currentDate:syncProvenance:syncIdentity:objectAnchor:modificationEpoch:options:modeInfo:sourceManager:database:error:]_block_invoke.502
+- __272+[HDAuthorizationEntity _insertAuthorizationWithSourceIdentifier:dataTypeCode:authorizationStatus:authorizationRequest:authorizationMode:modificationDate:currentDate:syncProvenance:syncIdentity:objectAnchor:modificationEpoch:options:modeInfo:sourceManager:database:error:]_block_invoke_2.503
+- __28-[HDDevicePowerMonitor init]_block_invoke.369
+- __28-[HDDevicePowerMonitor init]_block_invoke.373
+- __32-[HDBiomeInterface sleepFocusOn]_block_invoke.367
+- __32-[HDCloudSyncZone removeRecord:]_block_invoke.410
+- __32-[HDCloudSyncZone removeRecord:]_block_invoke.414
+- __32-[HDCloudSyncZone removeRecord:]_block_invoke.418
+- __32-[HDCloudSyncZone removeRecord:]_block_invoke.422
+- __32-[HDDaemon _setUpSignalHandlers]_block_invoke.506
+- __35-[HDDeviceQueryServer _queue_start]_block_invoke.366
+- __35-[HDDeviceQueryServer _queue_start]_block_invoke_2.377
+- __36-[HDCacheDeleteCoordinator activate]_block_invoke.365
+- __36-[HDCacheDeleteCoordinator activate]_block_invoke.366
+- __36-[HDCacheDeleteCoordinator activate]_block_invoke.368
+- __36-[HDCloudSyncCompoundOperation main]_block_invoke.373
+- __36-[HDCloudSyncPipelineStagePull main]_block_invoke.373
+- __36-[HDCloudSyncPipelineStagePush main]_block_invoke.373
+- __37-[HDCloudSyncPushStoreOperation main]_block_invoke.388
+- __37-[HDCloudSyncStateSyncOperation main]_block_invoke.372
+- __37-[HDDaemon _setupRapportEventHandler]_block_invoke.558
+- __37-[HDDatabase _mergeSecondaryJournals]_block_invoke.670
+- __38-[HDDaemon _setupMemoryWarningHandler]_block_invoke.549
+- __38-[HDDaemon _setupMemoryWarningHandler]_block_invoke.552
+- __38-[HDDaemon _setupMemoryWarningHandler]_block_invoke.555
+- __38-[HDNanoSyncManager invalidateAndWait]_block_invoke.380
+- __39-[HDCloudSyncCreateZonesOperation main]_block_invoke.368
+- __39-[HDIDSPersistentDictionary didCancel:]_block_invoke.500
+- __39-[HDQueryManager diagnosticDescription]_block_invoke.418
+- __40-[HDCloudSyncAcceptSharesOperation main]_block_invoke.367
+- __40-[HDDataProvenanceManager _loadDefaults]_block_invoke.382
+- __40-[HDDataProvenanceManager _loadDefaults]_block_invoke.386
+- __40-[HDWorkoutSessionServer setTaskServer:]_block_invoke.650
+- __41-[HDCloudSyncCachedZone addRecord:error:]_block_invoke.444
+- __41-[HDCloudSyncIgnoredErrorsOperation main]_block_invoke.375
+- __41-[HDCloudSyncPipeline beginWithTaskTree:]_block_invoke.454
+- __41-[HDCloudSyncPipeline beginWithTaskTree:]_block_invoke.456
+- __41-[HDCloudSyncPipelineStageStateSync main]_block_invoke.371
+- __41-[HDProfile _notifyProfileReadyObservers]_block_invoke.444
+- __41-[HDProfile _notifyProfileReadyObservers]_block_invoke.449
+- __41-[HDProfile _notifyProfileReadyObservers]_block_invoke.454
+- __42-[HDCloudSyncDeleteSequenceOperation main]_block_invoke.367
+- __42-[HDCloudSyncDeleteSequenceOperation main]_block_invoke.368
+- __42-[HDCloudSyncLeaveAllSharesOperation main]_block_invoke.362
+- __42-[HDCloudSyncPullReferencesOperation main]_block_invoke.367
+- __42-[HDIDSPersistentDictionary objectForKey:]_block_invoke.420
+- __42-[HDProfileManager _loadSecondaryProfiles]_block_invoke.404
+- __43-[HDCloudSyncPipelineStageFetchShares main]_block_invoke.362
+- __43-[HDWorkoutBuilderServer _didUpdateEvents:]_block_invoke.737
+- __44-[HDAggregateDataCollector initWithProfile:]_block_invoke.504
+- __44-[HDCloudSyncOperation delegateToOperation:]_block_invoke.422
+- __44-[HDCloudSyncPullChangeRecordOperation main]_block_invoke.375
+- __44-[HDRapportMessenger searchForNearbyDevices]_block_invoke.397
+- __44-[HDRapportMessenger searchForNearbyDevices]_block_invoke.398
+- __44-[HDStaticSyncExportTask runWithCompletion:]_block_invoke.387
+- __44-[HDWorkoutRouteDataSource altitudeUpdated:]_block_invoke.508
+- __45-[HDCloudSyncCachedZone deleteZoneWithError:]_block_invoke.370
+- __45-[HDCloudSyncIgnoredErrorsPipelineStage main]_block_invoke.375
+- __45-[HDCloudSyncLookupParticipantOperation main]_block_invoke.367
+- __45-[HDCloudSyncParallelOperation addOperation:]_block_invoke.375
+- __45-[HDCloudSyncPrepareForSharingOperation main]_block_invoke.365
+- __45-[HDCloudSyncPushDeviceContextOperation main]_block_invoke.368
+- __45-[HDCloudSyncPushDeviceContextOperation main]_block_invoke.375
+- __45-[HDCloudSyncPushDeviceContextOperation main]_block_invoke.376
+- __45-[HDCloudSyncSharedSummaryPushOperation main]_block_invoke.362
+- __45-[HDHFDataStore _lock_restoreHFDFromArchive:]_block_invoke.474
+- __45-[HDWorkoutBuilderServer _didUpdateMetadata:]_block_invoke.725
+- __45-[HDWorkoutRouteDataSource elevationUpdated:]_block_invoke.493
+- __45-[HDWorkoutRouteDataSource elevationUpdated:]_block_invoke.497
+- __45-[HDWorkoutRouteDataSource elevationUpdated:]_block_invoke.501
+- __46-[HDCloudSyncCachedZone deleteRecordID:error:]_block_invoke.448
+- __46-[HDCloudSyncDeleteStoreOnChildOperation main]_block_invoke.362
+- __46-[HDCloudSyncDeleteStoreOnChildOperation main]_block_invoke.365
+- __46-[HDCloudSyncDisableSyncLocallyOperation main]_block_invoke.364
+- __46-[HDCloudSyncPushDeviceKeyValueOperation main]_block_invoke.372
+- __46-[HDCloudSyncShareToParticipantOperation main]_block_invoke.376
+- __46-[HDCloudSyncShareToParticipantOperation main]_block_invoke.377
+- __46-[HDCloudSyncShareToParticipantOperation main]_block_invoke.379
+- __46-[HDCloudSyncStatusProvider checkLastSyncDate]_block_invoke.412
+- __46-[HDCloudSyncStatusProvider checkLastSyncDate]_block_invoke.416
+- __46-[HDDaemon registerDaemonReadyObserver:queue:]_block_invoke.568
+- __46-[HDPluginManager notifyPluginsOfPostInstall:]_block_invoke.478
+- __46-[HDQueryManager startQueryServer:completion:]_block_invoke.376
+- __46-[HDSourceManager localDeviceSourceWithError:]_block_invoke.425
+- __46-[HDSyncIdentityManager profileDidInitialize:]_block_invoke.431
+- __46-[_HDAWDPeriodicAction _doIfWaitingWithError:]_block_invoke.423
+- __46-[_HDAWDPeriodicAction _doIfWaitingWithError:]_block_invoke.426
+- __47-[HDAgeGatingManager _registerForNotifications]_block_invoke.381
+- __47-[HDCloudSyncFinishOwnerTakeoverOperation main]_block_invoke.363
+- __47-[HDCloudSyncFinishOwnerTakeoverOperation main]_block_invoke.367
+- __47-[HDCloudSyncFinishOwnerTakeoverOperation main]_block_invoke.371
+- __47-[HDCloudSyncFinishOwnerTakeoverOperation main]_block_invoke.375
+- __47-[HDCloudSyncFinishOwnerTakeoverOperation main]_block_invoke.376
+- __47-[HDCloudSyncPipelineStageContextSyncPull main]_block_invoke.368
+- __47-[HDCloudSyncPipelineStageContextSyncPush main]_block_invoke.372
+- __47-[HDOTAFeatureAvailabilityManager daemonReady:]_block_invoke.381
+- __47-[HDWorkoutBuilderServer _didUpdateStatistics:]_block_invoke.785
+- __47-[HDWorkoutSessionServer _queue_generateError:]_block_invoke.849
+- __47-[HDWorkoutSessionServer _queue_generateEvent:]_block_invoke.843
+- __47-[HDWorkoutSessionServer _queue_generateEvent:]_block_invoke.846
+- __48-[HDCloudSyncCoordinator profileDidBecomeReady:]_block_invoke.411
+- __48-[HDCloudSyncPipeline _queue_runStage:taskTree:]_block_invoke.477
+- __48-[HDCloudSyncPipeline _queue_runStage:taskTree:]_block_invoke.481
+- __48-[HDWorkoutRouteDataSource workoutRouteUpdated:]_block_invoke.505
+- __48-[HDWorkoutSessionServer _recoverPersistedState]_block_invoke.671
+- __48-[HDWorkoutSessionServer syncSessionEvent:date:]_block_invoke.805
+- __49-[HDCloudSyncAddSharingParticipantOperation main]_block_invoke.381
+- __49-[HDCloudSyncAddSharingParticipantOperation main]_block_invoke.382
+- __49-[HDCloudSyncManager syncWithContext:completion:]_block_invoke.482
+- __49-[HDCloudSyncMarkAllOwnersDisabledOperation main]_block_invoke.365
+- __49-[HDCloudSyncPipelineStageLookupParticipant main]_block_invoke.366
+- __49-[HDCloudSyncPipelineStageSharedSummaryPull main]_block_invoke.367
+- __49-[HDCloudSyncRegisterSubscriptionsOperation main]_block_invoke.365
+- __49-[HDMaintenanceWorkCoordinator addDebugCommands:]_block_invoke.462
+- __49-[HDQuantitySeriesManager samplesJournaled:type:]_block_invoke.399
+- __49-[HDWorkoutSessionServer remoteSessionDidRecover]_block_invoke.810
+- __50+[HDSampleEntity objectInsertionFilterForProfile:]_block_invoke.548
+- __50-[HDCloudSyncPipelineStageDisableSyncLocally main]_block_invoke.361
+- __50-[HDCloudSyncResetOperation _fetchDatabaseChanges]_block_invoke.371
+- __50-[HDDaemon registerDaemonActivatedObserver:queue:]_block_invoke.569
+- __50-[HDDataCollectionManager _dataCollectorBlacklist]_block_invoke.494
+- __50-[HDWorkoutSessionServer didDetectActivityChange:]_block_invoke.748
+- __51-[HDCloudSyncCloudState cloudStateByRemovingZones:]_block_invoke.374
+- __51-[HDQueryManager _lock_executeDatabaseAccessBlocks]_block_invoke.387
+- __52-[HDCloudSyncSharedSummaryPushPrepareOperation main]_block_invoke.361
+- __52-[HDDemoDataManager _queue_generateDemoDataIfNeeded]_block_invoke.366
+- __52-[HDDemoDataManager _queue_generateDemoDataIfNeeded]_block_invoke.385
+- __52-[HDLiveWorkoutDataSource addQuantities:dataSource:]_block_invoke.492
+- __52-[HDLiveWorkoutDataSource addQuantities:dataSource:]_block_invoke.496
+- __52-[HDLiveWorkoutDataSource addQuantities:dataSource:]_block_invoke_2.493
+- __52-[HDQueryManager _lock_startQueryServer:completion:]_block_invoke.381
+- __52-[HDSeriesBuilderServer _setClientState:completion:]_block_invoke.398
+- __52-[HDSeriesSampleEntity canAddDatumInDatabase:error:]_block_invoke.413
+- __52-[HDWorkoutBasicDataSource setSampleTypesToCollect:]_block_invoke.488
+- __52-[HDWorkoutBasicDataSource setSampleTypesToCollect:]_block_invoke.493
+- __52-[HDWorkoutLocationSmoother _queue_smoothNextSample]_block_invoke.450
+- __53+[HDCorrelationSampleEntity _objectsWithIDs:profile:]_block_invoke.370
+- __53+[HDUnitStringEntity storeUnitString:database:error:]_block_invoke.371
+- __53+[HDUnitStringEntity storeUnitString:database:error:]_block_invoke.373
+- __53-[HDCloudSyncResetOperation _deleteZonesWithZoneIDs:]_block_invoke.362
+- __53-[HDDatabaseJournal addJournalEntries:profile:error:]_block_invoke.402
+- __53-[HDQuantitySeriesManager insertValues:series:error:]_block_invoke.369
+- __54+[HDDataEntity dataEntityForObject:transaction:error:]_block_invoke.568
+- __54-[HDCloudSyncCachedZone recordsForClass:error:filter:]_block_invoke.413
+- __54-[HDCloudSyncCachedZone recordsForClass:error:filter:]_block_invoke_2.414
+- __54-[HDDataManager _addTransactionInsertionCommitBlocks:]_block_invoke.394
+- __54-[HDDataManager _addTransactionInsertionCommitBlocks:]_block_invoke.396
+- __54-[HDDataManager _addTransactionInsertionCommitBlocks:]_block_invoke.397
+- __54-[HDLiveWorkoutDataSource addOtherSamples:dataSource:]_block_invoke.503
+- __54-[HDPeriodicCountryMonitor _processCountryCodeResult:]_block_invoke.420
+- __54-[HDUserCharacteristicsManager profileDidBecomeReady:]_block_invoke.441
+- __54-[HDWorkoutEffortRelationshipQueryServer _queue_start]_block_invoke.366
+- __55-[HDActiveDataAggregator _reconsiderDelayedAggregation]_block_invoke.380
+- __55-[HDCloudSyncCachedZone recordForRecordID:class:error:]_block_invoke.425
+- __55-[HDCloudSyncCachedZone recordForRecordID:class:error:]_block_invoke_2.426
+- __55-[HDCloudSyncManager _persistErrorRequiringUserAction:]_block_invoke.565
+- __55-[HDCloudSyncPullStoreOperation _fetchedChangeRecords:]_block_invoke.404
+- __55-[HDDatabaseMigrator(Erie) erieProtectedMigrationSteps]_block_invoke.362
+- __55-[HDFeatureAvailabilityManager registerObserver:queue:]_block_invoke.476
+- __55-[HDHealthStoreServer remote_isProtectedDataAvailable:]_block_invoke.549
+- __55-[HDQueryServer authorizedSamplesForClientWithSamples:]_block_invoke.449
+- __55-[HDQueryServer authorizedSamplesForClientWithSamples:]_block_invoke.451
+- __55-[HDWorkoutBuilderServer remote_addSamples:completion:]_block_invoke.697
+- __55-[HDWorkoutBuilderServer remote_addSamples:completion:]_block_invoke.698
+- __55-[HDWorkoutBuilderServer remote_recoverWithCompletion:]_block_invoke.717
+- __55-[HDWorkoutSessionServer _queue_startInvalidationTimer]_block_invoke.862
+- __56-[HDActivitySummaryQueryServer _setUpInitialQueryHelper]_block_invoke.374
+- __56-[HDCloudSyncPipelineStagePush _pushOperationWithStore:]_block_invoke.437
+- __56-[HDWorkoutBuilderServer remote_addMetadata:completion:]_block_invoke.705
+- __56-[HDWorkoutLocationSmoother _queue_deleteRoutesForTask:]_block_invoke.472
+- __57-[HDDatabaseMigrator(Corry) corryProtectedMigrationSteps]_block_invoke.362
+- __57-[HDDatabaseMigrator(Emet) emetUnprotectedMigrationSteps]_block_invoke.363
+- __57-[HDDemoDataGenerator generateThroughEndDate:completion:]_block_invoke.375
+- __57-[HDLiveWorkoutDataSource remote_startTaskServerIfNeeded]_block_invoke.482
+- __57-[HDMetadataManager unitTest_rawMetadataForObject:error:]_block_invoke.396
+- __57-[HDSourceEntity sourceBundleIdentifierInDatabase:error:]_block_invoke.523
+- __57-[HDSourceEntity sourceBundleIdentifierInDatabase:error:]_block_invoke.526
+- __57-[HDWorkoutSessionServer endCurrentActivityOnDate:error:]_block_invoke.763
+- __58+[HDServiceEntity allServicesWithProfile:assertion:error:]_block_invoke.429
+- __58-[HDCloudSyncDeleteZonesOperation _deleteZones:container:]_block_invoke.374
+- __58-[HDCloudSyncDeleteZonesOperation _deleteZones:container:]_block_invoke.376
+- __58-[HDCloudSyncRemoveInvalidShareParticipantsOperation main]_block_invoke.373
+- __58-[HDQuantitySampleSeriesEntity _isFrozenInDatabase:error:]_block_invoke.459
+- __58-[HDSourceManager deleteSourceWithBundleIdentifier:error:]_block_invoke.487
+- __58-[HDWorkoutSessionTaskServer addWorkoutEvents:dataSource:]_block_invoke.515
+- __59+[HDConceptIndexer _indexSample:profile:transaction:error:]_block_invoke.466
+- __59-[HDCloudSyncStatusProvider fetchSyncStatusWithCompletion:]_block_invoke.378
+- __59-[HDCloudSyncStatusProvider fetchSyncStatusWithCompletion:]_block_invoke.379
+- __59-[HDDatabaseMigrator(Cinar) cinarUnprotectedMigrationSteps]_block_invoke.363
+- __59-[HDDatabaseMigrator(Eagle) eagleUnprotectedMigrationSteps]_block_invoke.362
+- __59-[HDDatabaseMigrator(Monarch) _migrateSourcesTableForSync:]_block_invoke.418
+- __59-[HDFakeDataCollector _lock_setupSwimmingGeneratorsAtTime:]_block_invoke.406
+- __59-[HDWorkoutBuilderServer remote_removeMetadata:completion:]_block_invoke.710
+- __59-[HDWorkoutSessionTaskServer remote_recoverWithCompletion:]_block_invoke.495
+- __60+[HDSampleEntity dateIntervalsForSampleTypes:profile:error:]_block_invoke.478
+- __60-[HDCloudSyncDeleteStoresOperation _individualZonesToDelete]_block_invoke.366
+- __60-[HDCloudSyncSubscriptionNotificationHandler _enableAPSPush]_block_invoke.367
+- __60-[HDJournalableOperation performOrJournalWithProfile:error:]_block_invoke.365
+- __60-[HDMirroredWorkoutSessionServer setTargetState:date:error:]_block_invoke.422
+- __60-[HDStatisticsCollectionQueryServer _queue_updateStatistics]_block_invoke.452
+- __60-[HDSummarySharingEntryManager pauseActiveEntriesWithError:]_block_invoke.387
+- __60-[HDSummarySharingEntryStoreServer sharingEntriesDidUpdate:]_block_invoke.367
+- __60-[HDWorkoutSessionServer didEndCurrentActivity:nodeWrapper:]_block_invoke.738
+- __60-[HDWorkoutSessionServer didEndCurrentActivity:nodeWrapper:]_block_invoke.743
+- __61-[HDCloudSyncDetectSyncDisabledOperation _disableSyncLocally]_block_invoke.371
+- __61-[HDCloudSyncManagerPipelineTask mainWithRepositories:error:]_block_invoke.373
+- __61-[HDCloudSyncOperation chainFromOperation:transitionHandler:]_block_invoke.396
+- __61-[HDDatabase _mergeSecondaryJournalsWithActivity:completion:]_block_invoke.671
+- __61-[HDDatabaseMigrator(Tigris) _updateOriginVersionsWithError:]_block_invoke.493
+- __61-[HDDatabaseMigrator(Tigris) tigrisUnprotectedMigrationSteps]_block_invoke.363
+- __61-[HDSourceQueryServer _sourcesForObjectsOfType:filter:error:]_block_invoke.368
+- __61-[HDWorkoutBuilderEntity configurationWithTransaction:error:]_block_invoke.451
+- __61-[HDWorkoutBuilderServer _endActivityWithUUID:endDate:error:]_block_invoke.638
+- __61-[HDWorkoutBuilderServer remote_addWorkoutEvents:completion:]_block_invoke.703
+- __61-[HDWorkoutSessionServer _queue_generateConfigurationUpdate:]_block_invoke.850
+- __62+[HDServiceEntity insertOrUpdateService:healthDatabase:error:]_block_invoke.411
+- __62+[HDServiceEntity insertOrUpdateService:healthDatabase:error:]_block_invoke.414
+- __62+[HDServiceEntity insertOrUpdateService:healthDatabase:error:]_block_invoke.418
+- __62-[HDCloudSyncDeleteRecordsOperation _deleteRecords:container:]_block_invoke.377
+- __62-[HDCloudSyncSharedSummarySynchronizeCloudStateOperation main]_block_invoke.367
+- __62-[HDCloudSyncSharedSummarySynchronizeCloudStateOperation main]_block_invoke.370
+- __62-[HDSourceManager createSourcesWithCodables:provenance:error:]_block_invoke.476
+- __62-[HDSourceManager createSourcesWithCodables:provenance:error:]_block_invoke_2.478
+- __62-[HDSyncIdentityEntity concreteIdentityWithTransaction:error:]_block_invoke.507
+- __62-[HDUserCharacteristicsManager _queue_updateHasWatchOnAccount]_block_invoke.434
+- __62-[HDWorkoutSessionServer _processTargetStoppingStateWithDate:]_block_invoke.677
+- __63-[HDCloudSyncCompoundOperation addOperation:transitionHandler:]_block_invoke.397
+- __63-[HDCloudSyncDeleteStoresOperation _deleteIndividualZoneStores]_block_invoke.374
+- __63-[HDCloudSyncPipeline _queue_computeConfigurationWithTaskTree:]_block_invoke.473
+- __63-[HDDatabaseMigrator(Monarch) monarchUnprotectedMigrationSteps]_block_invoke.363
+- __63-[HDHealthStoreServer remote_deleteClientSourceWithCompletion:]_block_invoke.579
+- __63-[HDStatisticsCollectionQueryServer _queue_useCachedStatistics]_block_invoke.499
+- __63-[HDStatisticsCollectionQueryServer _queue_useCachedStatistics]_block_invoke.500
+- __63-[HDStatisticsCollectionQueryServer _queue_useCachedStatistics]_block_invoke.504
+- __63-[HDWorkoutBuilderServer remote_addWorkoutActivity:completion:]_block_invoke.712
+- __63-[HDWorkoutSessionTaskServer didDisconnectFromRemoteWithError:]_block_invoke.529
+- __64-[HDCloudSyncComputePullTargetsOperation _pullTargetsWithError:]_block_invoke.370
+- __64-[HDCloudSyncManager cloudSyncRepositoriesForClient:completion:]_block_invoke.530
+- __64-[HDCloudSyncModifyRecordsOperation _saveRecords:deleteRecords:]_block_invoke.387
+- __64-[HDCloudSyncPullReferenceTombstonesOperation performWithError:]_block_invoke.366
+- __64-[HDCloudSyncPullReferenceTombstonesOperation performWithError:]_block_invoke.367
+- __64-[HDCloudSyncSharedSummarySynchronizeParticipantsOperation main]_block_invoke.363
+- __64-[HDDaemonSyncEngine updateLocalVersionsForStore:profile:error:]_block_invoke.377
+- __64-[HDDatabasePruningCoordinator _startBackgroundTask:completion:]_block_invoke.378
+- __64-[HDFeatureAvailabilityManager _triggerImmediateSyncWithReason:]_block_invoke.475
+- __64-[HDHealthStoreServer remote_deleteDataObjects:options:handler:]_block_invoke.536
+- __64-[HDNanoSyncManager _queue_receiveTinkerOptInRequest:syncStore:]_block_invoke.923
+- __64-[HDNanoSyncManager _scheduleResetReceivedNanoSyncAnchorsForHFD]_block_invoke.1057
+- __64-[HDNotificationManager postNotificationWithRequest:completion:]_block_invoke.395
+- __64-[HDPeriodicCountryMonitor _fetchCountryIfNeededWithCompletion:]_block_invoke.404
+- __64-[HDQuantitySeriesManager samplesAdded:type:anchor:transaction:]_block_invoke.396
+- __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke.644
+- __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke.652
+- __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke.654
+- __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke.662
+- __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke.676
+- __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke_2.655
+- __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke_3.665
+- __64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke_4.668
+- __64-[HDWorkoutSessionTaskServer _fetchOrSetupServerWithCompletion:]_block_invoke.547
+- __65+[HDRaceRouteClusterEntity _entityForClusterUUID:database:error:]_block_invoke.466
+- __65-[HDCloudSyncCoordinator resetAllProfilesWithContext:completion:]_block_invoke.497
+- __65-[HDCloudSyncManagerTaskQueue _primitiveConsiderStartingNextTask]_block_invoke.363
+- __65-[HDCreateWorkoutOperation performWithProfile:transaction:error:]_block_invoke.378
+- __65-[HDCreateWorkoutOperation performWithProfile:transaction:error:]_block_invoke.386
+- __65-[HDCreateWorkoutOperation performWithProfile:transaction:error:]_block_invoke.390
+- __65-[HDCreateWorkoutOperation performWithProfile:transaction:error:]_block_invoke.395
+- __65-[HDCreateWorkoutOperation performWithProfile:transaction:error:]_block_invoke.399
+- __65-[HDCreateWorkoutOperation performWithProfile:transaction:error:]_block_invoke.411
+- __65-[HDDataEntityDeletionContext deleteInfoForObjectWithUUID:error:]_block_invoke.378
+- __65-[HDDatabaseCorruptionTTRPrompter _popAlertWithRadarDescription:]_block_invoke.393
+- __65-[HDDatabaseValueCache _storageForTransaction:createIfNecessary:]_block_invoke.399
+- __65-[HDMirroredWorkoutSessionServer syncCurrentActivity:completion:]_block_invoke.407
+- __65-[HDMirroredWorkoutSessionServer syncCurrentActivity:completion:]_block_invoke.412
+- __65-[HDMirroredWorkoutSessionServer syncCurrentActivity:completion:]_block_invoke_2.413
+- __65-[HDSourceOrderManager updateOrderedSources:forObjectType:error:]_block_invoke.391
+- __65-[HDSyncIdentityManager rollCurrentSyncIdentityWithReason:error:]_block_invoke.420
+- __65-[HDWorkoutRouteBuilderServer _queue_insertRouteData:completion:]_block_invoke.370
+- __65-[HDWorkoutRouteBuilderServer _queue_insertRouteData:completion:]_block_invoke.375
+- __65-[HDWorkoutRouteBuilderServer _queue_insertRouteData:completion:]_block_invoke_2.376
+- __65-[HDWorkoutSessionRapportSyncController _sendPendingTransactions]_block_invoke.430
+- __66+[HDRacePreviousRouteSchemaProvider _addWorkoutTableWithMigrator:]_block_invoke.565
+- __66+[HDRacePreviousRouteSchemaProvider _addWorkoutTableWithMigrator:]_block_invoke_2.569
+- __66+[HDRaceRouteSnapshotEntity insertSnapshotData:transaction:error:]_block_invoke.374
+- __66+[HDRaceRouteSnapshotEntity insertSnapshotData:transaction:error:]_block_invoke.377
+- __66+[HDWorkoutCondenser _condenseWorkout:entity:configuration:error:]_block_invoke.421
+- __66-[HDClientDataCollectionTaskServer remote_registerWithCompletion:]_block_invoke.383
+- __66-[HDCloudSyncFinishOwnerTakeoverOperation _deleteZones:container:]_block_invoke.384
+- __66-[HDCloudSyncPullReferencesOperation _fetchAttachmentRecordAssets]_block_invoke.382
+- __66-[HDCloudSyncPullReferencesOperation _fetchAttachmentRecordAssets]_block_invoke.384
+- __66-[HDCloudSyncStateSyncOperation _pushUpdatedStateRecordsForZones:]_block_invoke.401
+- __66-[HDCoreMotionDataCollector _queue_forwardCoreMotionData:forType:]_block_invoke.378
+- __66-[HDCoreMotionDataCollector _queue_forwardCoreMotionData:forType:]_block_invoke.380
+- __66-[HDDatabaseControlServer _queryTypeCounts:withTransaction:error:]_block_invoke.394
+- __66-[HDDatabaseMigrator(Boulder) _fixSyncProvenanceForPostOkemoZurs:]_block_invoke.377
+- __66-[HDHealthStoreServer _holdActiveClientTransactionWithCompletion:]_block_invoke.618
+- __66-[HDMedicalIDDataManager _triggerSyncForSuccessfulMedicalIDUpdate]_block_invoke.398
+- __66-[HDNanoSyncManager _queue_receiveAuthorizationRequest:syncStore:]_block_invoke.1030
+- __66-[HDNanoSyncManager _queue_receiveAuthorizationRequest:syncStore:]_block_invoke.1031
+- __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.955
+- __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.972
+- __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.974
+- __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.975
+- __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.982
+- __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.985
+- __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.989
+- __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.993
+- __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke.997
+- __66-[HDNanoSyncManager _queue_receiveTinkerPairingRequest:syncStore:]_block_invoke_2.1000
+- __66-[HDPairedFeaturePropertiesSyncManager synchronizeLocalProperties]_block_invoke.448
+- __66-[HDSeriesBuilderServer _queue_discardIfAuthorizedWithCompletion:]_block_invoke.430
+- __66-[HDWorkoutBuilderSampleQueryServer _queue_performHistoricalQuery]_block_invoke.378
+- __66-[HDWorkoutBuilderSampleQueryServer _queue_performHistoricalQuery]_block_invoke.382
+- __67+[HDWorkoutBuilderServer _finishBuilders:profile:error:completion:]_block_invoke.372
+- __67-[HDCloudSyncAcceptSharesOperation _acceptSharesWithShareMetadata:]_block_invoke.377
+- __67-[HDDatabaseMigrator(OkemoZurs) okemoZursUnprotectedMigrationSteps]_block_invoke.363
+- __67-[HDHealthStoreServer _permissionBlockForRestrictedSourceEntities:]_block_invoke.522
+- __67-[HDMirroredWorkoutSessionServer didDisconnectFromRemoteWithError:]_block_invoke.390
+- __67-[HDMirroredWorkoutSessionServer didDisconnectFromRemoteWithError:]_block_invoke.392
+- __67-[HDSourceManager setLocalDeviceSourceUUID:bundleIdentifier:error:]_block_invoke.410
+- __68+[HDRCacheManagementEntity isCacheUpToDateFor:healthDatabase:error:]_block_invoke.400
+- __68+[HDSampleEntity populatedSampleTypes:inDateInterval:profile:error:]_block_invoke.491
+- __68+[HDSyncIdentityEntity _concreteIdentityForIdentity:database:error:]_block_invoke.504
+- __68+[HDWorkoutClusterEntity clusterUUIDsForWorkoutUUIDs:profile:error:]_block_invoke.429
+- __68-[HDCloudSyncContextSyncShim ingestRemoteDeviceContexts:completion:]_block_invoke.371
+- __68-[HDDatabaseMigrator(Monarch) _migrateSourcesToProvenanceWithError:]_block_invoke.559
+- __68-[HDDatabaseMigrator(Monarch) _migrateSourcesToProvenanceWithError:]_block_invoke_2.563
+- __68-[HDHealthStoreServer remote_setCharacteristic:forDataType:handler:]_block_invoke.593
+- __68-[HDLocationSeriesSampleEntity freezeWithTransaction:profile:error:]_block_invoke.413
+- __68-[HDLocationSeriesSampleEntity freezeWithTransaction:profile:error:]_block_invoke.415
+- __68-[HDNanoSyncManager _queue_recieveStartWorkoutAppRequest:syncStore:]_block_invoke.879
+- __68-[HDUserCharacteristicsManager _queue_updateCategoryCharacteristics]_block_invoke.438
+- __68-[HDWorkoutBuilderServer _runInBestWriteTransactionWithError:block:]_block_invoke.842
+- __68-[HDWorkoutBuilderServer _updateZoneGroupWrappersForTypeByActivity:]_block_invoke.855
+- __68-[HDWorkoutManager recoverAllActiveWorkoutSessionServersWithStates:]_block_invoke.475
+- __68-[HDWorkoutSessionTaskServer didEndActivity:nodeWrapper:dataSource:]_block_invoke.519
+- __68-[HDWorkoutSessionTaskServer updateWorkoutConfiguration:dataSource:]_block_invoke.516
+- __69-[HDAttachmentStoreServer remote_streamDataForAttachment:completion:]_block_invoke.377
+- __69-[HDCloudSyncStatusProvider fetchSyncStatusPerProfileWithCompletion:]_block_invoke.369
+- __69-[HDCloudSyncStatusProvider fetchSyncStatusPerProfileWithCompletion:]_block_invoke.371
+- __69-[HDCloudSyncStatusProvider fetchSyncStatusPerProfileWithCompletion:]_block_invoke.372
+- __69-[HDDaemon obliterateAndTerminateProfiles:options:reason:completion:]_block_invoke.438
+- __69-[HDDataManager deleteObjectsWithUUIDCollection:configuration:error:]_block_invoke.421
+- __69-[HDDataManager deleteObjectsWithUUIDCollection:configuration:error:]_block_invoke.433
+- __70-[HDAttachmentManager reportDailyAnalyticsWithCoordinator:completion:]_block_invoke.450
+- __70-[HDCloudSyncManager _queue_considerStartingBackstopSyncForThreshold:]_block_invoke.579
+- __70-[HDDemoDataGenerator _insertIntoDatabaseObjectCollection:fromPerson:]_block_invoke.462
+- __70-[HDDemoDataGenerator _insertIntoDatabaseObjectCollection:fromPerson:]_block_invoke.467
+- __70-[HDFakeDataCollector _lock_setupPedometerGeneratorsForActivity:time:]_block_invoke.390
+- __70-[HDFakeDataCollector _lock_setupPedometerGeneratorsForActivity:time:]_block_invoke.393
+- __70-[HDFakeDataCollector _lock_setupPedometerGeneratorsForActivity:time:]_block_invoke.397
+- __70-[HDFakeDataCollector _lock_setupPedometerGeneratorsForActivity:time:]_block_invoke.400
+- __70-[HDFakeDataCollector _lock_setupPedometerGeneratorsForActivity:time:]_block_invoke_2.404
+- __70-[HDHealthStoreServer remote_fetchCharacteristicWithDataType:handler:]_block_invoke.590
+- __70-[HDNanoSyncManager _queue_receiveChangeRequest:syncStore:completion:]_block_invoke.752
+- __70-[HDRaceRouteClusterManager generateRaceRouteClustersWithLimit:error:]_block_invoke.367
+- __70-[HDSharedSummaryTransactionQueryServer _queue_deliverAllTransactions]_block_invoke.366
+- __70-[HDSummarySharingEntryIDSManager leaveInvitationWithUUID:completion:]_block_invoke.467
+- __70-[HDSummarySharingEntryManager updateEntryWithUUID:pauseStatus:error:]_block_invoke.397
+- __71-[HDCloudSyncCoordinator _queue_syncAllProfilesWithContext:completion:]_block_invoke.451
+- __71-[HDCloudSyncCoordinator _queue_syncAllProfilesWithContext:completion:]_block_invoke.456
+- __71-[HDCloudSyncCoordinator _queue_syncAllProfilesWithContext:completion:]_block_invoke_2.452
+- __71-[HDSummarySharingEntryIDSManager acceptInvitationWithUUID:completion:]_block_invoke.442
+- __71-[HDSummarySharingEntryIDSManager acceptInvitationWithUUID:completion:]_block_invoke.443
+- __71-[HDSummarySharingEntryIDSManager acceptInvitationWithUUID:completion:]_block_invoke.444
+- __71-[HDSummarySharingEntryIDSManager acceptInvitationWithUUID:completion:]_block_invoke.445
+- __71-[HDSummarySharingEntryIDSManager acceptInvitationWithUUID:completion:]_block_invoke.446
+- __71-[HDSummarySharingEntryIDSManager revokeInvitationWithUUID:completion:]_block_invoke.463
+- __71-[HDSummarySharingEntryIDSManager revokeInvitationWithUUID:completion:]_block_invoke.464
+- __71-[HDUserCharacteristicsManager _queue_updateDateOfBirthCharacteristics]_block_invoke.436
+- __71-[HDWorkoutBuilderSampleQueryServer workoutBuilderServer:addedSamples:]_block_invoke.393
+- __71-[HDWorkoutSessionServer stopMirroringToCompanionDeviceWithCompletion:]_block_invoke.786
+- __72+[HDRacePreviousRouteSchemaProvider _addRouteSnapshotTableWithMigrator:]_block_invoke.469
+- __72+[HDRacePreviousRouteSchemaProvider _addRouteSnapshotTableWithMigrator:]_block_invoke.480
+- __72+[HDRacePreviousRouteSchemaProvider _addRouteSnapshotTableWithMigrator:]_block_invoke_2.481
+- __72+[HDRacePreviousRouteSchemaProvider _addRouteSnapshotTableWithMigrator:]_block_invoke_3.533
+- __72-[HDClientAuthorizationOracle authorizationStatusRecordsForTypes:error:]_block_invoke.393
+- __72-[HDCloudSyncAccountProvider disableAndDeleteAllSyncDataWithCompletion:]_block_invoke.377
+- __72-[HDCloudSyncAccountProvider disableAndDeleteAllSyncDataWithCompletion:]_block_invoke.379
+- __72-[HDCloudSyncAccountProvider disableAndDeleteAllSyncDataWithCompletion:]_block_invoke.387
+- __72-[HDCloudSyncCachedZone recordsForClass:epoch:error:enumerationHandler:]_block_invoke.403
+- __72-[HDCloudSyncCachedZone recordsForClass:epoch:error:enumerationHandler:]_block_invoke.405
+- __72-[HDCloudSyncDeleteStoresOperation _deleteUnifiedZoneStoresInContainer:]_block_invoke.387
+- __72-[HDCloudSyncDeleteStoresOperation _deleteUnifiedZoneStoresInContainer:]_block_invoke.396
+- __72-[HDCloudSyncPipeline _queue_waitForCloudKitOperationDelayWithTaskTree:]_block_invoke.489
+- __72-[HDDefaultWorkoutSessionController _queue_collectFinalDataThroughDate:]_block_invoke.491
+- __72-[HDDefaultWorkoutSessionController _queue_collectFinalDataThroughDate:]_block_invoke.492
+- __72-[HDHealthStoreServer remote_deleteObjectsWithUUIDs:options:completion:]_block_invoke.583
+- __72-[HDMirroredWorkoutSessionServer syncTransitionToState:date:completion:]_block_invoke.398
+- __72-[HDStatisticsCollectionQueryServer _queue_fetchAndDeliverAllStatistics]_block_invoke.467
+- __72-[HDStatisticsCollectionQueryServer _queue_fetchAndDeliverAllStatistics]_block_invoke.468
+- __72-[HDStatisticsCollectionQueryServer _queue_fetchAndDeliverAllStatistics]_block_invoke.478
+- __72-[HDStatisticsCollectionQueryServer _queue_fetchAndDeliverAllStatistics]_block_invoke.482
+- __72-[HDWorkoutCondenser _performPeriodicActivityWithBatchLimit:completion:]_block_invoke.499
+- __72-[HDWorkoutCondenser _performPeriodicActivityWithBatchLimit:completion:]_block_invoke.500
+- __72-[HDWorkoutSessionServer didBeginNewActivity:insertionType:nodeWrapper:]_block_invoke.723
+- __72-[HDWorkoutSessionServer didBeginNewActivity:insertionType:nodeWrapper:]_block_invoke.727
+- __72-[HDWorkoutSessionServer didBeginNewActivity:insertionType:nodeWrapper:]_block_invoke.732
+- __72-[HDWorkoutSessionServer startMirroringToCompanionDeviceWithCompletion:]_block_invoke.772
+- __73-[HDCloudSyncAccountProvider _performSyncForAccountChangeWithCompletion:]_block_invoke.416
+- __73-[HDCloudSyncPushReferencesOperation _pushToCloudKitAndFinishForRecords:]_block_invoke.384
+- __73-[HDCoreMotionDataCollector _queue_beginUpdatesWithTargetCollectionType:]_block_invoke.391
+- __73-[HDDataEntityEnumerator enumerateIncludingDeletedObjects:error:handler:]_block_invoke.384
+- __73-[HDDatabaseMigrator(OkemoZurs) _initializeDatabaseIdentifiersWithError:]_block_invoke.582
+- __73-[HDDatabaseMigrator(OkemoZurs) _initializeDatabaseIdentifiersWithError:]_block_invoke.583
+- __73-[HDDatabaseSchemaManager currentVersionForSchema:protectionClass:error:]_block_invoke.365
+- __73-[HDNanoSyncManager _syncQueue_prepareForCompanionChangeWithStore:error:]_block_invoke.677
+- __73-[HDWorkoutMirroringManager recoverMirroredWorkoutSessionWithCompletion:]_block_invoke.407
+- __73-[HDWorkoutMirroringManager recoverMirroredWorkoutSessionWithCompletion:]_block_invoke.408
+- __73-[HDWorkoutTrainingLoadQueryHelper trainingLoadCollectionWithCompletion:]_block_invoke.373
+- __74+[HDSeriesSampleEntity freezeSeriesWithIdentifier:metadata:profile:error:]_block_invoke.399
+- __74-[HDAnalyticsSubmissionCoordinator _locked_sendDailyAnalyticsWithTimeout:]_block_invoke.414
+- __74-[HDAnalyticsSubmissionCoordinator _locked_sendDailyAnalyticsWithTimeout:]_block_invoke.416
+- __74-[HDAnalyticsSubmissionCoordinator _locked_sendDailyAnalyticsWithTimeout:]_block_invoke.419
+- __74-[HDAnalyticsSubmissionCoordinator _locked_sendDailyAnalyticsWithTimeout:]_block_invoke.421
+- __74-[HDDataAggregator requestAggregationThroughDate:mode:options:completion:]_block_invoke.368
+- __74-[HDDatabaseMigrator(Monarch) _fixDanglingSourcesAndProvenancesWithError:]_block_invoke.757
+- __74-[HDDatabaseMigrator(Monarch) _fixDanglingSourcesAndProvenancesWithError:]_block_invoke_2.761
+- __74-[HDNanoSyncManager _queue_receiveCompanionWorkoutStateRequest:syncStore:]_block_invoke.889
+- __74-[HDPostInstallUpdateManager _postInstallUpdateHandlerDidFire:completion:]_block_invoke.372
+- __74-[HDPostInstallUpdateManager _postInstallUpdateHandlerDidFire:completion:]_block_invoke.375
+- __74-[HDPostInstallUpdateManager _postInstallUpdateHandlerDidFire:completion:]_block_invoke.379
+- __74-[HDPostInstallUpdateManager _postInstallUpdateHandlerDidFire:completion:]_block_invoke_2.380
+- __74-[HDWorkoutBuilderSampleQueryServer workoutBuilderServer:addedQuantities:]_block_invoke.397
+- __75-[HDCloudSyncObserverTaskServer _queue_instantiateCloudSyncObserverStatus:]_block_invoke.442
+- __75-[HDCloudSyncObserverTaskServer _queue_instantiateCloudSyncObserverStatus:]_block_invoke_2.443
+- __75-[HDCloudSyncUpdateCachedZonesOperation fetchChangesForContainer:database:]_block_invoke.367
+- __75-[HDCloudSyncUpdateCachedZonesOperation fetchChangesForContainer:database:]_block_invoke.369
+- __75-[HDCoreMotionDataCollector _didReceiveCoreMotionData:startingDatum:error:]_block_invoke.384
+- __75-[HDCurrentActivitySummaryHelper _handleSignificantTimeChangeNotification:]_block_invoke.383
+- __75-[HDDaemonSyncEngine _singleTransactionApplySyncChange:entity:store:error:]_block_invoke.380
+- __75-[HDDatabaseMigrator(Cinar) _cinar_addSyncPrimaryColumnToSourcesWithError:]_block_invoke.390
+- __75-[HDNanoSyncManager _queue_registerForTinkerOptInNotificationWithResponse:]_block_invoke.941
+- __75-[HDReplaceObjectIdentifierOperation performWithProfile:transaction:error:]_block_invoke.363
+- __75-[HDWorkoutBasicDataSource workoutSession:didChangeToState:fromState:date:]_block_invoke.531
+- __75-[HDWorkoutBuilderServer remote_updateActivityWithUUID:endDate:completion:]_block_invoke.714
+- __75-[HDWorkoutTrainingLoadQueryHelper _hasWorkoutsBetween:and:database:error:]_block_invoke.385
+- __76+[HDQuantitySeriesDataEntity enumerateWithDatabase:predicate:error:handler:]_block_invoke.403
+- __76-[HDActiveDataAggregator dataCollector:didCollectSensorData:device:options:]_block_invoke.392
+- __76-[HDActiveDataAggregator dataCollector:didCollectSensorData:device:options:]_block_invoke.396
+- __76-[HDActiveDataAggregator dataCollector:didCollectSensorData:device:options:]_block_invoke.399
+- __76-[HDCloudSyncComputePullTargetsOperation _requestTapToRadarWithDescription:]_block_invoke.385
+- __76-[HDCloudSyncValidatePushTargetOperation _deleteOldSequenceRecordsAndFinish]_block_invoke.369
+- __76-[HDIDSInvitationManager rescindInvitationWithUUID:serverAcknowledgedBlock:]_block_invoke.381
+- __76-[HDNanoSyncManager _queue_receiveTinkerEndToEndCloudSyncRequest:syncStore:]_block_invoke.1014
+- __76-[HDNotificationSyncClient _pendingNotificationInstructionsForAction:error:]_block_invoke.379
+- __76-[HDWorkoutSessionServer didReceiveDataFromRemoteWorkoutSession:completion:]_block_invoke.795
+- __77+[HDAdHocConceptEntity _adHocConceptForIdentifier:options:transaction:error:]_block_invoke.413
+- __77+[HDDataEntity insertDataObjects:insertionContext:profile:completionHandler:]_block_invoke.523
+- __77+[HDDataEntity insertDataObjects:insertionContext:profile:completionHandler:]_block_invoke.530
+- __77-[HDCloudSyncContextSyncShim lookupOrCreateLocalDeviceContextWithCompletion:]_block_invoke.367
+- __77-[HDCloudSyncDeleteEmptyZonesOperation _deleteEmptyZones:container:database:]_block_invoke.365
+- __77-[HDCloudSyncOwnerIdentifierManager _fetchDatabaseIdentifiersWithCompletion:]_block_invoke.378
+- __77-[HDCloudSyncPipelineStageMedicalID _compoundSyncOperationWithConfiguration:]_block_invoke.374
+- __77-[HDCloudSyncPipelineStageMedicalID _compoundSyncOperationWithConfiguration:]_block_invoke.383
+- __77-[HDDatabase _performWhenDataProtectedByFirstUnlockIsAvailableOnQueue:block:]_block_invoke.504
+- __77-[HDDatabase _performWhenDataProtectedByFirstUnlockIsAvailableOnQueue:block:]_block_invoke.508
+- __77-[HDDeleteAttachmentReferenceOperation performWithProfile:transaction:error:]_block_invoke.363
+- __77-[HDDeleteAttachmentReferenceOperation performWithProfile:transaction:error:]_block_invoke.368
+- __77-[HDDeleteAttachmentReferenceOperation performWithProfile:transaction:error:]_block_invoke_2.372
+- __77-[HDHealthStoreServer remote_splitTotalCalories:timeInterval:withCompletion:]_block_invoke.629
+- __77-[HDHealthStoreServer remote_splitTotalCalories:timeInterval:withCompletion:]_block_invoke.632
+- __77-[_HDObjectAuthorizationPromptSession endPromptTransactionWithSuccess:error:]_block_invoke.917
+- __78+[HDAttachmentReferenceEntity insertTombstones:cloudStatus:transaction:error:]_block_invoke.487
+- __78+[HDAttachmentReferenceEntity insertTombstones:cloudStatus:transaction:error:]_block_invoke.491
+- __78+[HDAttachmentReferenceEntity insertTombstones:cloudStatus:transaction:error:]_block_invoke_2.492
+- __78+[HDAttachmentReferenceEntity insertTombstones:cloudStatus:transaction:error:]_block_invoke_3.497
+- __78+[HDDeletedSampleEntity insertCodableDeletedSamples:provenance:profile:error:]_block_invoke.443
+- __78+[HDDeletedSampleEntity insertCodableDeletedSamples:provenance:profile:error:]_block_invoke.451
+- __78+[HDLogicalSourceEntity logicalSourceIDForBundleIdentifier:transaction:error:]_block_invoke.392
+- __78-[HDAggregateDataCollector _queue_fetchHistoricalDataForcedUpdate:completion:]_block_invoke.511
+- __78-[HDAggregateDataCollector _queue_fetchHistoricalDataForcedUpdate:completion:]_block_invoke.516
+- __78-[HDCloudSyncRemoveSharingParticipantsOperation _saveUpdatedShares:container:]_block_invoke.368
+- __78-[HDCloudSyncSeizeAbandonedStoresOperation _markPendingOwnerForSeizureTargets]_block_invoke.391
+- __78-[HDCloudSyncStoreEntity updateShardStartDate:endDate:type:transaction:error:]_block_invoke.540
+- __78-[HDDatabaseCoalescedWritePool _queue_performPendingWriteOperationsWithError:]_block_invoke.377
+- __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke.699
+- __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke.702
+- __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke.716
+- __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke.725
+- __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke_2.706
+- __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke_2.720
+- __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke_2.729
+- __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke_3.724
+- __78-[HDDatabaseMigrator(Monarch) _fixProvenancesWithZeroSourceOrDeviceWithError:]_block_invoke_3.733
+- __78-[HDDefaultWorkoutSessionController _queue_assertionsPerStateForActivityType:]_block_invoke.452
+- __78-[HDHealthStoreProviderServer remote_fetchAvailableIdentifiersWithCompletion:]_block_invoke.362
+- __78-[HDKeyValueDomainManager batchNotificationForDomain:category:forTransaction:]_block_invoke.371
+- __78-[HDNanoSyncManager _queue_recieveCompanionUserNotificationRequest:syncStore:]_block_invoke.905
+- __78-[HDSampleTypeChangeEvaluator changesByTypeWithTransaction:sinceAnchor:error:]_block_invoke.378
+- __79-[HDAuthorizationManager openAppForAuthorization:sessionIdentifier:completion:]_block_invoke.435
+- __79-[HDAuthorizationManager openAppForAuthorization:sessionIdentifier:completion:]_block_invoke_2.436
+- __79-[HDAuthorizationManager openAppForAuthorization:sessionIdentifier:completion:]_block_invoke_3.438
+- __79-[HDCloudSyncManager configureForShareSetupMetadata:acceptedShares:completion:]_block_invoke.595
+- __79-[HDCloudSyncManager configureForShareSetupMetadata:acceptedShares:completion:]_block_invoke.602
+- __79-[HDCloudSyncRepairRegistryRecordsOperation _modifyRecordsAndFinish:container:]_block_invoke.367
+- __79-[HDDatabaseTransaction performWithContext:error:block:inaccessibilityHandler:]_block_invoke.392
+- __79-[HDDatabaseTransaction performWithContext:error:block:inaccessibilityHandler:]_block_invoke.400
+- __79-[HDDatabaseTransaction performWithContext:error:block:inaccessibilityHandler:]_block_invoke_2.401
+- __79-[HDHeartRateDataAggregator dataCollector:didCollectSensorData:device:options:]_block_invoke.377
+- __79-[HDPostInstallUpdateManager _triggerMigrationForProfile:protected:completion:]_block_invoke.392
+- __79-[HDSourceManager sourceEntityForClientSource:createOrUpdateIfNecessary:error:]_block_invoke.447
+- __79-[HDWorkoutBuilderServer remote_updateActivityWithUUID:addMetadata:completion:]_block_invoke.716
+- __79-[HDWorkoutClusterServer remote_generateRaceRouteClustersWithLimit:completion:]_block_invoke.370
+- __80+[HDQuantitySampleSeriesEntity _insertDataObject:inDatabase:persistentID:error:]_block_invoke.428
+- __80-[HDAggregateDataCollector _queue_processSensorData:lastSensorDatum:completion:]_block_invoke.528
+- __80-[HDAggregateDataCollector _queue_processSensorData:lastSensorDatum:completion:]_block_invoke.532
+- __80-[HDCloudSyncCoordinator _queue_syncProfilesWithIdentifiers:context:completion:]_block_invoke.465
+- __80-[HDCloudSyncManager(Analytics) reportDailyAnalyticsWithCoordinator:completion:]_block_invoke.365
+- __80-[HDCloudSyncManager(Analytics) reportDailyAnalyticsWithCoordinator:completion:]_block_invoke.384
+- __80-[HDCloudSyncManager(Analytics) reportDailyAnalyticsWithCoordinator:completion:]_block_invoke.404
+- __80-[HDCloudSyncManager(Analytics) reportDailyAnalyticsWithCoordinator:completion:]_block_invoke_2.385
+- __80-[HDCloudSyncManager(Analytics) reportDailyAnalyticsWithCoordinator:completion:]_block_invoke_3.395
+- __80-[HDCloudSyncPushSequenceOperation _startingSyncAnchorMapForStagingStore:error:]_block_invoke.414
+- __80-[HDSecondaryDevicePairingAgentTaskServer _prepareGuardianForSharingForRequest:]_block_invoke.433
+- __80-[HDUserDomainConceptManager _notifyObserversForUDC:type:maxAnchor:transaction:]_block_invoke.463
+- __80-[HDUserDomainConceptManager _notifyObserversForUDC:type:maxAnchor:transaction:]_block_invoke.465
+- __81+[HDUserDomainMedicalCodingStringEntity persistentIDForString:transaction:error:]_block_invoke.384
+- __81+[HDUserDomainMedicalCodingStringEntity persistentIDForString:transaction:error:]_block_invoke.386
+- __81+[HDUserDomainMedicalCodingStringEntity persistentIDForString:transaction:error:]_block_invoke_2.389
+- __81+[HDWorkoutEntity insertDataObject:withProvenance:inDatabase:persistentID:error:]_block_invoke.451
+- __81-[HDActivitySummaryQueryHelper _queue_deliverActivitySummariesMatchingPredicate:]_block_invoke.372
+- __81-[HDCloudSyncContextSyncShim fetchLocalKeyValueForProtectionCategory:completion:]_block_invoke.378
+- __81-[HDDatabaseMigrator(Emet) _emet_migrateWorkoutEventMetadataToProtobufWithError:]_block_invoke.391
+- __81-[HDHealthStoreServer remote_setBackgroundDeliveryFrequency:forDataType:handler:]_block_invoke.563
+- __81-[HDMetadataManager _metadataForObjectID:baseMetadata:keyFilter:statement:error:]_block_invoke.382
+- __81-[HDWorkoutRouteBuilderServer _queue_finishRouteWithWorkout:metadata:completion:]_block_invoke.390
+- __81-[HDWorkoutRouteBuilderServer _queue_finishRouteWithWorkout:metadata:completion:]_block_invoke.398
+- __81-[HDWorkoutSessionRapportSyncController sendRequest:transaction:responseHandler:]_block_invoke.422
+- __82+[HDWorkoutClusterComponentEntity associateWorkout:withCluster:transaction:error:]_block_invoke.368
+- __82-[HDCloudSyncManager _primaryContainerIdentifiersForCurrentAccountWithCompletion:]_block_invoke.550
+- __82-[HDCloudSyncRepairStoreRecordsOperation _saveRepairedRecords:container:database:]_block_invoke.374
+- __82-[HDDatabase _new_protectedDataQueue_contentProtectionStateChanged:previousState:]_block_invoke.625
+- __82-[HDDatabase _new_protectedDataQueue_contentProtectionStateChanged:previousState:]_block_invoke.626
+- __82-[HDDatabase _new_protectedDataQueue_contentProtectionStateChanged:previousState:]_block_invoke.634
+- __82-[HDDatabase _old_protectedDataQueue_contentProtectionStateChanged:previousState:]_block_invoke.637
+- __82-[HDHealthStoreServer remote_recalibrateEstimatesForSampleType:atDate:completion:]_block_invoke.416
+- __82-[HDWorkoutSessionServer enableAutomaticDetectionForActivityConfigurations:error:]_block_invoke.765
+- __82-[HDWorkoutSessionServer stateMachine:didTransition:fromState:toState:date:error:]_block_invoke.688
+- __82-[HDWorkoutSessionServer stateMachine:didTransition:fromState:toState:date:error:]_block_invoke.696
+- __82-[HDWorkoutSessionServer stateMachine:didTransition:fromState:toState:date:error:]_block_invoke.699
+- __83+[HDLogicalSourceOrderEntity sourceIDsWithDataType:unorderedIDs:transaction:error:]_block_invoke.450
+- __83-[HDCloudSyncManager _scheduleResetReceivedCloudSyncAnchorsAndRebaseForHFDRecovery]_block_invoke.457
+- __83-[HDCloudSyncOwnerIdentifierManager cacheOwnerIdentifiersForContainers:completion:]_block_invoke.389
+- __83-[HDCloudSyncPipelineStagePush _computePushAndCleanupOperationForPushStores:error:]_block_invoke.414
+- __83-[HDCloudSyncPipelineStagePush _computePushAndCleanupOperationForPushStores:error:]_block_invoke.419
+- __83-[HDCloudSyncPipelineStagePush _computePushAndCleanupOperationForPushStores:error:]_block_invoke.424
+- __83-[HDCloudSyncPipelineStagePush _computePushAndCleanupOperationForPushStores:error:]_block_invoke.428
+- __83-[HDDatabaseMigrator(Whitetail) _addMaxObjectPersistentIDToKeyValueStoreWithError:]_block_invoke.468
+- __83-[HDDeviceKeyValueStoreManager _deleteRemoteEntries:deviceContextByIdentity:error:]_block_invoke.390
+- __83-[HDRestorableAlarmScheduler _queue_enqueueMaintenanceNotifyAndScheduleWithReason:]_block_invoke.388
+- __83-[HDSharedSummaryManager removeSummariesWithPackage:names:transactionEntity:error:]_block_invoke.395
+- __83-[HDWorkoutBuilderServer _addSamples:quantities:dataSource:shouldSavePriorToStart:]_block_invoke.614
+- __83-[HDWorkoutBuilderServer _addSamples:quantities:dataSource:shouldSavePriorToStart:]_block_invoke.617
+- __83-[HDWorkoutBuilderServer _addSamples:quantities:dataSource:shouldSavePriorToStart:]_block_invoke.621
+- __84+[HDCachedSecureCKRecordEntity insertOrUpdateWithRecordID:recordData:profile:error:]_block_invoke.435
+- __84+[HDCloudSyncStoreEntity persistState:storeUUID:shouldReplace:healthDatabase:error:]_block_invoke.488
+- __84+[HDCloudSyncStoreEntity persistState:storeUUID:shouldReplace:healthDatabase:error:]_block_invoke.496
+- __84+[HDMetadataValueEntity _updateMetadataValueForKeyID:objectID:value:database:error:]_block_invoke.426
+- __84-[HDCloudSyncPreparePushZoneForStoreOperation _createZoneWithIdentifier:forStoreId:]_block_invoke.377
+- __84-[HDSleepPeriodSegmentArrayBuilder _computeStatisticsFromSamples:sampleFilterBlock:]_block_invoke.371
+- __84-[HDWorkoutBuilderServer remote_zoneConfigurationWrapperForQuantityType:completion:]_block_invoke.721
+- __84-[HDWorkoutSessionTaskServer didBeginActivity:insertionType:nodeWrapper:dataSource:]_block_invoke.517
+- __85+[HDRaceRouteClusterEntity _entityForLastWorkoutUUID:bestWorkoutUUID:database:error:]_block_invoke.476
+- __85-[HDConceptIndexManager _delayedOperationQueue_scheduleConceptIndexUpdateWithReason:]_block_invoke.407
+- __85-[HDHealthStoreServer remote_deleteDataObjectsOfType:matchingFilter:options:handler:]_block_invoke.546
+- __86+[HDAssociationEntity realizePendingAssociationsWithTransaction:startingAnchor:error:]_block_invoke.582
+- __86+[HDWorkoutEntity mergeDataObject:provenance:profile:transaction:error:insertHandler:]_block_invoke.503
+- __86+[HDWorkoutEntity mergeDataObject:provenance:profile:transaction:error:insertHandler:]_block_invoke.505
+- __86-[HDCloudSyncManager(Analytics) _gatherAttachmentAnalyticsForZoneID:repository:error:]_block_invoke.422
+- __86-[HDCloudSyncManager(Analytics) _gatherAttachmentAnalyticsForZoneID:repository:error:]_block_invoke.425
+- __86-[HDCloudSyncMedicalIDPushOperation _pushMedicalIDRecordToCloudForContainer:database:]_block_invoke.368
+- __86-[HDCloudSyncPushReferencesOperation _generateReferenceAndAttachmentRecordsWithError:]_block_invoke.375
+- __87+[HDSyncAnchorEntity getMinimumSyncAnchorsOfType:anchorMap:updatedSince:profile:error:]_block_invoke.433
+- __87+[HDSyncAnchorEntity minimumFrozenAnchorInEpochs:store:entityIdentifier:profile:error:]_block_invoke.584
+- __87+[HDWorkoutClusterComponentEntity enumerateWorkoutsForCluster:transaction:error:block:]_block_invoke.379
+- __87+[HDWorkoutClusterComponentEntity enumerateWorkoutsForCluster:transaction:error:block:]_block_invoke_2.380
+- __87-[HDCloudSyncFetchRecordsOperation _fetchRecordsWithIDs:container:database:completion:]_block_invoke.367
+- __87-[HDCloudSyncPushDeviceKeyValueOperation _computeRecordsToSaveAndDeleteWithCompletion:]_block_invoke.378
+- __87-[HDCloudSyncPushDeviceKeyValueOperation _computeRecordsToSaveAndDeleteWithCompletion:]_block_invoke.380
+- __87-[HDCloudSyncPushDeviceKeyValueOperation _computeRecordsToSaveAndDeleteWithCompletion:]_block_invoke.382
+- __87-[HDCloudSyncPushDeviceKeyValueOperation _computeRecordsToSaveAndDeleteWithCompletion:]_block_invoke_2.383
+- __87-[HDCloudSyncUpdateCachedRecordsOperation fetchRecordZoneChangesForContainer:database:]_block_invoke.363
+- __87-[HDDataCollectionManager _requestAggregationThroughDate:type:mode:options:completion:]_block_invoke.447
+- __87-[HDHealthStoreServer remote_requestConceptReadAuthorizationForType:filter:completion:]_block_invoke.440
+- __87-[HDHealthStoreServer remote_requestConceptReadAuthorizationForType:filter:completion:]_block_invoke.443
+- __87-[HDInsertSharedSummaryTransactionOperation performWithProfile:transaction:completion:]_block_invoke.363
+- __87-[HDInsertSharedSummaryTransactionOperation performWithProfile:transaction:completion:]_block_invoke.368
+- __87-[HDWorkoutEventsManager requestPendingEventsThroughDate:sessionIdentifier:completion:]_block_invoke.375
+- __87-[HDWorkoutEventsManager requestPendingEventsThroughDate:sessionIdentifier:completion:]_block_invoke.377
+- __88+[HDTrainingLoadStatisticsCacheEntity trainingLoadForDateInterval:healthDatabase:error:]_block_invoke.429
+- __88+[HDWorkoutStatisticsEntity workoutStatisticsForActivityId:quantityType:database:error:]_block_invoke.435
+- __88-[HDCloudSyncPushDeviceContextOperation _updateRecordsAdd:recordIDsToDelete:completion:]_block_invoke.387
+- __88-[HDCreateWorkoutOperation _splitRoutesPerActivityForWorkout:profile:transaction:error:]_block_invoke.436
+- __88-[HDCreateWorkoutOperation _splitRoutesPerActivityForWorkout:profile:transaction:error:]_block_invoke.448
+- __88-[HDCreateWorkoutOperation _splitRoutesPerActivityForWorkout:profile:transaction:error:]_block_invoke.450
+- __88-[HDDataCollectionManager _requestAggregationThroughDate:types:mode:options:completion:]_block_invoke.442
+- __88-[HDDataCollectionManager _requestAggregationThroughDate:types:mode:options:completion:]_block_invoke.445
+- __88-[HDNanoSyncManager syncHealthDataWithOptions:reason:accessibilityAssertion:completion:]_block_invoke.385
+- __88-[HDWorkoutSessionTaskServer remote_recoverAllActiveSessionsWithStates:date:completion:]_block_invoke.499
+- __88-[HDWorkoutSessionTaskServer remote_recoverAllActiveSessionsWithStates:date:completion:]_block_invoke.500
+- __89+[HDUserDomainConceptSyncEntity receiveSyncObjects:version:syncProvenance:profile:error:]_block_invoke.376
+- __89+[HDUserDomainConceptSyncEntity receiveSyncObjects:version:syncProvenance:profile:error:]_block_invoke.378
+- __89+[HDUserDomainConceptSyncEntity receiveSyncObjects:version:syncProvenance:profile:error:]_block_invoke.379
+- __89-[HDCloudSyncComputePushTargetsOperation _pushTargetsForContainer:ownerIdentifier:error:]_block_invoke.377
+- __89-[HDCloudSyncComputePushTargetsOperation _pushTargetsForContainer:ownerIdentifier:error:]_block_invoke.380
+- __89-[HDHealthStoreServer remote_fetchModificationDateForCharacteristicWithDataType:handler:]_block_invoke.596
+- __89-[HDHealthStoreServer remote_requestPerObjectReadAuthorizationForType:filter:completion:]_block_invoke.431
+- __89-[HDHealthStoreServer remote_requestPerObjectReadAuthorizationForType:filter:completion:]_block_invoke.432
+- __89-[HDHealthStoreServer remote_requestPerObjectReadAuthorizationForType:filter:completion:]_block_invoke.436
+- __89-[HDIDSInvitationManager acceptInvitationWithUUID:codableObject:serverAcknowledgedBlock:]_block_invoke.387
+- __89-[HDSourceManager _sourceFromEphemeralSource:provenance:createOrUpdateIfNecessary:error:]_block_invoke.436
+- __89-[HDWorkoutBuilderServer remote_setTargetConstructionState:startDate:endDate:completion:]_block_invoke.689
+- __89-[HDWorkoutBuilderServer remote_setTargetConstructionState:startDate:endDate:completion:]_block_invoke.693
+- __89-[HDWorkoutBuilderServer remote_setTargetConstructionState:startDate:endDate:completion:]_block_invoke.694
+- __89-[HDWorkoutBuilderServer remote_setTargetConstructionState:startDate:endDate:completion:]_block_invoke.695
+- __90+[HDCachedSecureCKRecordEntity protectedRecordDataForUnprotectedEntity:transaction:error:]_block_invoke.442
+- __90+[HDLocationSeriesHFDMigrationEntity _migrateSeriesWithKey:toSQLFromStore:database:error:]_block_invoke.384
+- __90+[HDQuantitySeriesHFDMigrationEntity _migrateSeriesWithKey:toSQLFromStore:database:error:]_block_invoke.370
+- __90+[HDRaceRouteLocationSeriesEntity createRoutePointsFromWorkout:transaction:profile:error:]_block_invoke.394
+- __90+[HDRaceRouteLocationSeriesEntity createRoutePointsFromWorkout:transaction:profile:error:]_block_invoke.396
+- __90+[HDRaceRouteLocationSeriesEntity createRoutePointsFromWorkout:transaction:profile:error:]_block_invoke_2.398
+- __90-[HDActiveDataAggregator _aggregateForAllDevicesForCollector:date:assertion:mode:options:]_block_invoke.408
+- __90-[HDCloudSyncCoordinator _syncAllProfilesViaGatedBackgroundTask:userInitiated:completion:]_block_invoke.427
+- __90-[HDCloudSyncObserverTaskServer _queue_startSyncIfRestoreNotCompletedWithUUID:completion:]_block_invoke.420
+- __90-[HDCloudSyncObserverTaskServer _queue_startSyncIfRestoreNotCompletedWithUUID:completion:]_block_invoke.421
+- __90-[HDCloudSyncObserverTaskServer _queue_startSyncIfRestoreNotCompletedWithUUID:completion:]_block_invoke.427
+- __90-[HDCloudSyncObserverTaskServer _queue_startSyncIfRestoreNotCompletedWithUUID:completion:]_block_invoke.434
+- __90-[HDCloudSyncObserverTaskServer _queue_startSyncIfRestoreNotCompletedWithUUID:completion:]_block_invoke_2.428
+- __90-[HDCloudSyncObserverTaskServer remote_startSyncIfRestoreNotCompletedWithUUID:completion:]_block_invoke.409
+- __90-[HDCloudSyncPullChangeRecordOperation _persistFetchedArchiveAsset:protocolVersion:error:]_block_invoke.407
+- __90-[HDCloudSyncPullChangeRecordOperation _persistFetchedArchiveAsset:protocolVersion:error:]_block_invoke.409
+- __90-[HDCloudSyncPushSequenceOperation _pushRecords:recordIDsToDelete:containerID:completion:]_block_invoke.447
+- __90-[HDCloudSyncPushSequenceOperation _pushRecords:recordIDsToDelete:containerID:completion:]_block_invoke.450
+- __90-[HDCloudSyncRegisterSubscriptionsOperation _registerSubscriptionsWithIdentifer:database:]_block_invoke.384
+- __90-[HDCloudSyncSharedSummaryPushPruningOperation _modifyRecordsAndFinish:recordIDsToDelete:]_block_invoke.391
+- __90-[HDDataAggregator persistForCollector:usedDatums:source:device:error:persistenceHandler:]_block_invoke.392
+- __90-[HDDataAggregator persistForCollector:usedDatums:source:device:error:persistenceHandler:]_block_invoke.395
+- __91+[HDCloudSyncTapToRadar showTapToRadarRequestWithTitle:message:proceed:disable:completion:]_block_invoke.366
+- __91+[HDQuantitySampleValueEnumerator quantityValuesForType:from:to:transaction:error:handler:]_block_invoke.415
+- __91-[HDCloudSyncStateSyncShim syncDidFinishWithResult:domain:subDomain:stateStore:completion:]_block_invoke.375
+- __91-[HDCloudSyncSummarySharingEntryShim disableAllSharingEntriesWithConfiguration:completion:]_block_invoke.366
+- __91-[HDWorkoutBuilderEntity _createTemporaryProtectedAssociatedSampleListInTransaction:error:]_block_invoke.510
+- __91-[HDWorkoutBuilderEntity _createTemporaryProtectedAssociatedSampleListInTransaction:error:]_block_invoke_2.511
+- __92+[HDLocationSeriesSampleEntity insertLocationData:seriesIdentifier:assertion:profile:error:]_block_invoke.382
+- __92+[HDSyncStoreEntity activeStoresForRestrictionPredictePruningInProfile:referenceDate:error:]_block_invoke.439
+- __92+[HDWorkoutBuilderAssociatedSeriesEntity enumerateSeriesForBuilder:transaction:error:block:]_block_invoke.384
+- __92-[HDBatchedQueryServer batchObjectsWithEnumerator:includeDeletedObjects:error:batchHandler:]_block_invoke.366
+- __92-[HDClientDataCollectionTaskServer dataAggregator:requestsCollectionThroughDate:completion:]_block_invoke.425
+- __92-[HDClientDataCollectionTaskServer dataAggregator:requestsCollectionThroughDate:completion:]_block_invoke.426
+- __92-[HDClientDataCollectionTaskServer dataAggregator:requestsCollectionThroughDate:completion:]_block_invoke.427
+- __92-[HDClientDataCollectionTaskServer dataAggregator:requestsCollectionThroughDate:completion:]_block_invoke.436
+- __92-[HDCloudSyncCoordinator(CloudSyncJournalMerge) _mergeCloudSyncJournalsForProfile:taskTree:]_block_invoke.370
+- __92-[HDCloudSyncUpdateCachedRecordsOperation _fetchChangesForRecordZoneIDs:container:database:]_block_invoke.375
+- __92-[HDCloudSyncUpdateCachedRecordsOperation _fetchChangesForRecordZoneIDs:container:database:]_block_invoke.377
+- __92-[HDCloudSyncUpdateCachedRecordsOperation _fetchChangesForRecordZoneIDs:container:database:]_block_invoke.378
+- __92-[HDCloudSyncUpdateCachedRecordsOperation _fetchChangesForRecordZoneIDs:container:database:]_block_invoke.382
+- __92-[HDCloudSyncUpdateCachedRecordsOperation _fetchChangesForRecordZoneIDs:container:database:]_block_invoke.387
+- __92-[HDCloudSyncUpdateCachedRecordsOperation _fetchChangesForRecordZoneIDs:container:database:]_block_invoke.392
+- __92-[HDHealthStoreServer _remote_associateSampleUUIDs:withSampleUUID:type:behavior:completion:]_block_invoke.553
+- __93+[HDMedicationDoseEventEntity _logPersistedDoseEventOnCommitDatabase:doseEvent:persistentID:]_block_invoke.456
+- __93-[HDAppSubscriptionManager _updateObservationStatusForDataTypeCode:lastAppLaunchTimes:error:]_block_invoke.410
+- __93-[HDCloudSyncStateSyncOperation _notifyEntityForDomain:subDomain:zone:success:stateSyncShim:]_block_invoke.405
+- __93-[HDNotificationInstructionObjectNotInDatabaseCriteria isValidWithDatabaseTransaction:error:]_block_invoke.374
+- __93-[HDSourceManager _logicalSourceIDsWithoutLocalSourceForSourcesWithPredicate:database:error:]_block_invoke.506
+- __93-[HDSourceOrderManager _sourceOrderForCodableSourceOrder:transactionCache:transaction:error:]_block_invoke.401
+- __94+[HDObjectAuthorizationEntity authorizationStatusForSamplesOfType:sourceEntity:profile:error:]_block_invoke.455
+- __94+[HDRCacheManagementEntity isCacheUpToDateForQueryIdentifier:anchorData:healthDatabase:error:]_block_invoke.402
+- __94-[HDCloudSyncStateSyncShim mergeStateDataWithStore:domain:subDomain:configuration:completion:]_block_invoke.365
+- __94-[HDIngestDeviceContextsOperation _pullDeviceContextsForProfile:repository:transaction:error:]_block_invoke.368
+- __94-[HDRestorableAlarmScheduler _queue_notifyClientsOfDueEventsAndScheduleNextFireDateWithError:]_block_invoke.398
+- __94-[HDWorkoutBasicDataSource _workoutDataDestination:requestsSamplesOfType:from:to:transaction:]_block_invoke.518
+- __94-[HDWorkoutBuilderServer remote_setCustomZoneConfigurationWrapper:forQuantityType:completion:]_block_invoke.720
+- __94-[HDWorkoutManager generatePauseOrResumeRequestAllowingBackgroundRuntime:metadata:completion:]_block_invoke.454
+- __94-[HDWorkoutSessionServer beginNewActivityWithConfiguration:date:metadata:insertionType:error:]_block_invoke.762
+- __95+[HDLocationSeriesSampleEntity _insertCodableSeriesDataFromObject:persistentID:database:error:]_block_invoke.366
+- __95-[HDCloudSyncPushReferenceTombstonesOperation _modifyCloudWithRecordsToSave:recordIDsToDelete:]_block_invoke.378
+- __95-[HDCloudSyncSummarySharingEntryShim sharingEntryExistsWithPredicate:configuration:completion:]_block_invoke.368
+- __95-[HDDatabaseJournal _mergeJournalChapter:profile:accessibilityAssertion:shouldContinueHandler:]_block_invoke.440
+- __95-[HDDatabaseJournal _mergeJournalChapter:profile:accessibilityAssertion:shouldContinueHandler:]_block_invoke.441
+- __95-[HDQueryControlServer queryServer:requestsAuthorizationWithContext:promptIfNeeded:completion:]_block_invoke.377
+- __95-[HDSampleAggregateCachingSession _writeToDatabaseOnCachePersistenceQueueWithBlock:completion:]_block_invoke.377
+- __96+[HDDataTypeSourceOrderEntity enumerateOrderedSourceIDsForType:profile:transaction:error:block:]_block_invoke.430
+- __96-[HDClientAuthorizationOracle performIfAuthorizedToReadObjects:onQueue:usingBlock:errorHandler:]_block_invoke.425
+- __96-[HDClientAuthorizationOracle performIfAuthorizedToSaveObjects:onQueue:usingBlock:errorHandler:]_block_invoke.436
+- __96-[HDCloudSyncCachedCloudState resetServerChangeTokenForContainerIdentifier:databaseScope:error:]_block_invoke.367
+- __96-[HDSourceOrderManager _updateSourceOrder:type:syncIdentity:transactionCache:transaction:error:]_block_invoke.411
+- __96-[HDTTRPromptController _presentTTRPromptForErrors:lastPromptBuild:lastPromptDate:currentBuild:]_block_invoke.431
+- __97+[HDLogicalSourceOrderEntity updateOrderedLogicalSourcesForType:transaction:error:updateHandler:]_block_invoke.420
+- __97+[HDLogicalSourceOrderEntity updateOrderedLogicalSourcesForType:transaction:error:updateHandler:]_block_invoke_2.421
+- __97-[HDHealthStoreServer remote_requestAuthorizationToShareTypes:readTypes:shouldPrompt:completion:]_block_invoke.454
+- __97-[HDSecondaryDevicePairingAgentTaskServer _setupTinkerProfileForRequest:metadata:acceptedShares:]_block_invoke.448
+- __98+[HDWorkoutCondenser _getOriginalProvenancesWithWithQuantityType:workoutEntity:transaction:error:]_block_invoke.438
+- __98-[HDClientAuthorizationOracle performIfAuthorizedToDeleteObjects:onQueue:usingBlock:errorHandler:]_block_invoke.439
+- __98-[HDClientAuthorizationOracle(Privileged) updateDefaultAuthorizationStatusesForSource:completion:]_block_invoke.612
+- __98-[HDClientAuthorizationOracle(Privileged) updateDefaultAuthorizationStatusesForSource:completion:]_block_invoke.620
+- __98-[HDClientAuthorizationOracle(Privileged) updateDefaultAuthorizationStatusesForSource:completion:]_block_invoke_2.615
+- __98-[HDHealthStoreServer remote_deleteAllSamplesWithTypes:sourceBundleIdentifier:options:completion:]_block_invoke.573
+- __99+[HDAttachmentReferenceEntity filteredNonTombstoneReferences:transaction:error:enumerationHandler:]_block_invoke.472
+- __99+[HDDeviceKeyValueStorageEntryEntity fetchEntryForKey:domain:syncEntityIdentity:transaction:error:]_block_invoke.413
+- __99+[HDSourceEntity sourceForLogicalSourceID:localDeviceBundleIdentifier:localOnly:transaction:error:]_block_invoke.462
+- __99-[HDCloudSyncCoordinator fetchCloudDescriptionWithContext:updateCacheAndPrepareForSync:completion:]_block_invoke.501
+- __99-[HDSourceEntity deleteSourceWithTombstoneLogicalSourceID:syncIdentity:database:transaction:error:]_block_invoke.532
+- __99-[HDWorkoutMirroringManager rapportMessenger:didReceiveRequest:idsIdentifier:data:responseHandler:]_block_invoke.384
+- __Block_byref_object_copy_.379
+- __Block_byref_object_copy_.382
+- __Block_byref_object_copy_.389
+- __Block_byref_object_copy_.392
+- __Block_byref_object_copy_.393
+- __Block_byref_object_copy_.402
+- __Block_byref_object_copy_.421
+- __Block_byref_object_copy_.424
+- __Block_byref_object_copy_.439
+- __Block_byref_object_dispose_.380
+- __Block_byref_object_dispose_.383
+- __Block_byref_object_dispose_.390
+- __Block_byref_object_dispose_.393
+- __Block_byref_object_dispose_.394
+- __Block_byref_object_dispose_.403
+- __Block_byref_object_dispose_.422
+- __Block_byref_object_dispose_.425
+- __Block_byref_object_dispose_.440
+- __OBJC_$_INSTANCE_METHODS_HDDevicelessProfile
+- __ZNKRSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB9nqe220100Ev
+- __ZNKSt3__111__copy_implclB9nqe220100IP16_HDWrappedSourceS3_S3_Li0EEENS_4pairIT_T1_EES5_T0_S6_
+- __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB9nqe220100IPNS_10shared_ptrIN6health13WriteAheadLog11TransactionEEES9_S9_EENS_4pairIT_T1_EESB_T0_SC_
+- __ZNKSt3__114default_deleteINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB9nqe220100EPS6_
+- __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB9nqe220100Ev
+- __ZNKSt3__121__unordered_map_equalIU8__strongP8NSStringNS_4pairIU8__strongKS2_NS_5dequeI19HDRawQuantitySampleNS_9allocatorIS7_EEEEEE13HDStringEqual12HDStringHashEclB9nqe220100ERKSB_RS5_
+- __ZNKSt3__121__unordered_map_equalIU8__strongP8NSStringNS_4pairIU8__strongKS2_xEE13HDStringEqual12HDStringHashEclB9nqe220100ERKS6_RS5_
+- __ZNKSt3__16__loopIcE13__init_repeatB9nqe220100ERNS_7__stateIcEE
+- __ZNKSt9type_infoeqB9nqe220100ERKS_
+- __ZNSt12length_errorC1B9nqe220100EPKc
+- __ZNSt12out_of_rangeC1B9nqe220100EPKc
+- __ZNSt16invalid_argumentC1B9nqe220100EPKc
+- __ZNSt3__110__function12__value_funcIF21_HDRawLocationDatumV1dS2_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIF21_HDRawLocationDatumV2dS2_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIF27_HDRawQuantitySampleValueV1dS2_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13match_resultsINS_11__wrap_iterIPKcEENS5_INS_9sub_matchISC_EEEEEEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEEC2B9nqe220100ERKSD_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalES7_EEC2B9nqe220100ERKS9_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalES7_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEEC2B9nqe220100ERKSD_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalES7_EEC2B9nqe220100ERKS9_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalES7_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEEC2B9nqe220100ERKSD_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalES7_EEC2B9nqe220100ERKS9_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalES7_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEEC2B9nqe220100ERKSD_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalES7_EEC2B9nqe220100ERKS9_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalES7_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEEC2B9nqe220100ERKSD_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalES7_EEC2B9nqe220100ERKS9_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalES7_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEEC2B9nqe220100ERKSD_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalES7_EEC2B9nqe220100ERKS9_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalES7_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI24HDStatisticsTimeIntervalS3_ERK20HDStatisticsRelativeIS4_EEEC2B9nqe220100ERKSC_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI24HDStatisticsTimeIntervalS3_ERK20HDStatisticsRelativeIS4_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI24HDStatisticsTimeIntervalS3_ES6_EEC2B9nqe220100ERKS8_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI24HDStatisticsTimeIntervalS3_ES6_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEEC2B9nqe220100ERKSD_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS5_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalES7_EEC2B9nqe220100ERKS9_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalES7_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS8_EEEC2B9nqe220100ERKSG_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS8_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalESA_EEC2B9nqe220100ERKSC_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalESA_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS8_EEEC2B9nqe220100ERKSG_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS8_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalESA_EEC2B9nqe220100ERKSC_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalESA_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS7_EEEC2B9nqe220100ERKSF_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalERK20HDStatisticsRelativeIS7_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalES9_EEC2B9nqe220100ERKSB_
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalES9_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsDiscreteRK20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsDiscreteRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsDiscreteRK20HDStatisticsRelativeIS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsDiscreteS4_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsPresenceRK20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsPresenceRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsPresenceRK20HDStatisticsRelativeIS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK20HDStatisticsPresenceS4_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK22HDStatisticsCumulativeRK20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK22HDStatisticsCumulativeRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK22HDStatisticsCumulativeRK20HDStatisticsRelativeIS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK22HDStatisticsCumulativeS4_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK22HDStatisticsNoiseLevelRK20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK22HDStatisticsNoiseLevelRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK22HDStatisticsNoiseLevelRK20HDStatisticsRelativeIS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK22HDStatisticsNoiseLevelS4_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK23HDStatisticsPercentilesRK20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK23HDStatisticsPercentilesRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK23HDStatisticsPercentilesRK20HDStatisticsRelativeIS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK23HDStatisticsPercentilesS4_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK23HDStatisticsSleepStagesRK20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK23HDStatisticsSleepStagesRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK23HDStatisticsSleepStagesRK20HDStatisticsRelativeIS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK23HDStatisticsSleepStagesS4_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI20HDStatisticsDiscreteS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI20HDStatisticsPresenceS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI22HDStatisticsCumulativeS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI22HDStatisticsNoiseLevelS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI23HDStatisticsPercentilesS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI23HDStatisticsSleepStagesS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI33HDStatisticsAverageSampleDurationS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEES2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEES2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersES2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsCombinedIS2_S2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscreteS2_EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresenceS2_EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulativeS2_EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevelS2_EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentilesS2_EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStagesS2_EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDurationS2_EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEES2_EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEES2_EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersES2_EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_S2_EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalRK20HDStatisticsRelativeIS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK24HDStatisticsTimeIntervalS4_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK33HDStatisticsAverageSampleDurationRK20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK33HDStatisticsAverageSampleDurationRK20HDStatisticsRelativeI20HDStatisticsCombinedIS2_24HDStatisticsTimeIntervalEEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK33HDStatisticsAverageSampleDurationRK20HDStatisticsRelativeIS2_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK33HDStatisticsAverageSampleDurationS4_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEERK20HDStatisticsCombinedIS5_24HDStatisticsTimeIntervalEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEERK20HDStatisticsRelativeI20HDStatisticsCombinedIS5_24HDStatisticsTimeIntervalEEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEERK20HDStatisticsRelativeIS5_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEES7_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEERK20HDStatisticsCombinedIS5_24HDStatisticsTimeIntervalEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEERK20HDStatisticsRelativeI20HDStatisticsCombinedIS5_24HDStatisticsTimeIntervalEEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEERK20HDStatisticsRelativeIS5_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEES7_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersERK20HDStatisticsCombinedIS4_24HDStatisticsTimeIntervalEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersERK20HDStatisticsRelativeI20HDStatisticsCombinedIS4_24HDStatisticsTimeIntervalEEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersERK20HDStatisticsRelativeIS4_EEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFRK42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersES6_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbN6health15BlockAccessFile14IntegrityErrorExxRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbN6health9DataStore14IntegrityErrorENS2_12BlockPointerERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEC2B9nqe220100ERKSF_
+- __ZNSt3__110__function12__value_funcIFbN6health9DataStore14IntegrityErrorENS2_12BlockPointerERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbRKdRK21_HDRawLocationDatumV0EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbRKdRK21_HDRawLocationDatumV1EEC2B9nqe220100ERKS8_
+- __ZNSt3__110__function12__value_funcIFbRKdRK21_HDRawLocationDatumV1EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbRKdRK21_HDRawLocationDatumV2EEC2B9nqe220100ERKS8_
+- __ZNSt3__110__function12__value_funcIFbRKdRK21_HDRawLocationDatumV2EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbRKdRK27_HDRawQuantitySampleValueV1EEC2B9nqe220100ERKS8_
+- __ZNSt3__110__function12__value_funcIFbRKdRK27_HDRawQuantitySampleValueV1EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbRKdS3_EEC2B9nqe220100ERKS5_
+- __ZNSt3__110__function12__value_funcIFbRKdS3_EED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbRN6health15BlockAccessFile16WriteTransactionEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbRN6health17TransactionalFile16WriteTransactionEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbRN6health9DataStore16WriteTransactionEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbRN6health9DataStore20MutableSampleHistoryI25LocationHistoryBehaviorV1EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbRN6health9DataStore20MutableSampleHistoryI25LocationHistoryBehaviorV2EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbRN6health9DataStore20MutableSampleHistoryI29QuantitySampleValueBehaviorV0EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbRN6health9DataStore20MutableSampleHistoryI29QuantitySampleValueBehaviorV1EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbvEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbyEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFbyRKyRKN6health8FilePageEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFdddEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvRKN6health10FileExtentEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvRKN6health15BlockAccessFile15ReadTransactionEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvRKN6health17TransactionalFile15ReadTransactionEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvRKN6health9DataStore13SampleHistoryI25LocationHistoryBehaviorV0EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvRKN6health9DataStore13SampleHistoryI25LocationHistoryBehaviorV1EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvRKN6health9DataStore13SampleHistoryI25LocationHistoryBehaviorV2EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvRKN6health9DataStore13SampleHistoryI29QuantitySampleValueBehaviorV0EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvRKN6health9DataStore13SampleHistoryI29QuantitySampleValueBehaviorV1EEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvRKN6health9DataStore15ReadTransactionEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvRKN6health9DataStore16ObjectIdentifierENS2_12BlockPointerEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEC2B9nqe220100ERKSB_
+- __ZNSt3__110__function12__value_funcIFvRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvxN6health13WriteAheadLog9PageEntryEEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvyEEC2B9nqe220100ERKS3_
+- __ZNSt3__110__function12__value_funcIFvyEED2B9nqe220100Ev
+- __ZNSt3__110__function12__value_funcIFvyRKN6health8FilePageEEEC2B9nqe220100ERKS7_
+- __ZNSt3__110__function12__value_funcIFvyRKN6health8FilePageEEED2B9nqe220100Ev
+- __ZNSt3__110shared_ptrINS_13__empty_stateIcEEE5resetB9nqe220100IS2_Li0EEEvPT_
+- __ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B9nqe220100IS2_Li0EEEPT_
+- __ZNSt3__110shared_ptrIhEC2B9nqe220100IhNS_14default_deleteIA_hEELi0EEEPT_T0_
+- __ZNSt3__110unique_ptrIN6health18TransactionalCacheIyNS1_8FilePageEE10CacheEntryENS_14default_deleteIS5_EEE5resetB9nqe220100EPS5_
+- __ZNSt3__110unique_ptrIN6health9DataStoreENS_14default_deleteIS2_EEE5resetB9nqe220100EPS2_
+- __ZNSt3__110unique_ptrIN6health9DataStoreENS_14default_deleteIS2_EEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISF_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISF_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsDiscreteEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsPresenceEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISH_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISH_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEEPvEENS_22__hash_node_destructorINS_9allocatorISG_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsDiscreteEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsPresenceEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI22HDStatisticsCumulativeEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI23HDStatisticsPercentilesEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI23HDStatisticsSleepStagesEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI24HDStatisticsTimeIntervalEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEEEPvEENS_22__hash_node_destructorINS_9allocatorISE_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEEEPvEENS_22__hash_node_destructorINS_9allocatorISD_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString22HDStatisticsCumulativeEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString23HDStatisticsPercentilesEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString23HDStatisticsSleepStagesEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString24HDStatisticsTimeIntervalEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString33HDStatisticsAverageSampleDurationEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEEPvEENS_22__hash_node_destructorINS_9allocatorISC_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEEPvEENS_22__hash_node_destructorINS_9allocatorISB_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSStringxEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIxU8__strongP8NSStringEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN6health12InMemoryFileEEEEEPvEENS_22__tree_node_destructorINS6_ISF_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEPvEENS_22__tree_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEPvEENS_22__tree_node_destructorINS_9allocatorIS9_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EEEPvEENS_22__tree_node_destructorINS_9allocatorIS8_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEEPvEENS_22__tree_node_destructorINS_9allocatorISB_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEEPvEENS_22__tree_node_destructorINS_9allocatorISB_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEEEPvEENS_22__tree_node_destructorINS_9allocatorISA_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI22HDStatisticsNoiseLevelEEEPvEENS_22__tree_node_destructorINS_9allocatorIS8_EEEEED1B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIx22HDStatisticsNoiseLevelEEPvEENS_22__tree_node_destructorINS_9allocatorIS6_EEEEED1B9nqe220100Ev
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC2B9nqe220100EPKcNS_15regex_constants18syntax_option_typeE
+- __ZNSt3__111unique_lockINS_5mutexEE4lockB9nqe220100Ev
+- __ZNSt3__111unique_lockINS_5mutexEE6unlockB9nqe220100Ev
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN6health12InMemoryFileEEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIKx20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIKx20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIKx20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIKx20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIKx20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIKx20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI23HDStatisticsPercentilesEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString20HDStatisticsRelativeI24HDStatisticsTimeIntervalEEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString23HDStatisticsPercentilesEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_4pairIU8__strongKP8NSString24HDStatisticsTimeIntervalEEEEvPT_
+- __ZNSt3__112__destroy_atB9nqe220100INS_7__stateIcEEEEvPT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringNS_5dequeI19HDRawQuantitySampleNS_9allocatorIS6_EEEEEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S9_EE12HDStringHash13HDStringEqualEENS_21__unordered_map_equalIS4_SE_SG_SF_EENS7_ISE_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeISA_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringxEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_xEE12HDStringHash13HDStringEqualEENS_21__unordered_map_equalIS4_S9_SB_SA_EENS_9allocatorIS9_EEE16__copy_constructB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringxEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_xEE12HDStringHash13HDStringEqualEENS_21__unordered_map_equalIS4_S9_SB_SA_EENS_9allocatorIS9_EEE16__copy_constructB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEESO_m
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringxEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_xEE12HDStringHash13HDStringEqualEENS_21__unordered_map_equalIS4_S9_SB_SA_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE16__copy_constructB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE16__copy_constructB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEESQ_m
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE22__deallocate_node_listB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS6_SA_S8_EENS_9allocatorIS6_EEE16__copy_constructB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS2_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIxxEENS_22__unordered_map_hasherIxNS_4pairIKxxEENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS6_SA_S8_EENS_9allocatorIS6_EEE16__copy_constructB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIS2_PvEEEESN_m
+- __ZNSt3__112__hash_tableIxNS_4hashIxEENS_8equal_toIxEENS_9allocatorIxEEE16__copy_constructB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIxPvEEEE
+- __ZNSt3__112__hash_tableIxNS_4hashIxEENS_8equal_toIxEENS_9allocatorIxEEE16__copy_constructB9nqe220100EPNS_16__hash_node_baseIPNS_11__hash_nodeIxPvEEEESE_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqe220100Em
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE23__insert_from_safe_copyB9nqe220100INS_11__wrap_iterIPKcEESA_EENS7_IPcEEmmT_T0_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe220100ILi0EEEPKc
+- __ZNSt3__113__nth_elementB9nqe220100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPdEEEEvT1_S8_S8_T0_
+- __ZNSt3__113__tree_removeB9nqe220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__113match_resultsINS_11__wrap_iterIPKcEENS_9allocatorINS_9sub_matchIS4_EEEEE8__assignB9nqe220100IS3_NS5_INS6_IS3_EEEEEEvS4_S4_RKNS0_IT_T0_EEb
+- __ZNSt3__114__split_bufferINS_10unique_ptrIN10statistics10StatisticsENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE17__destruct_at_endB9nqe220100EPS6_
+- __ZNSt3__114__split_bufferINS_10unique_ptrIN10statistics17RawQuantitySampleENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE17__destruct_at_endB9nqe220100EPS6_
+- __ZNSt3__114__split_bufferINS_10unique_ptrIN10statistics37QuantitySampleAttenuationEngineSampleENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE17__destruct_at_endB9nqe220100EPS6_
+- __ZNSt3__114__split_bufferINS_10unique_ptrIN10statistics8IntervalENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE17__destruct_at_endB9nqe220100EPS6_
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe220100Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe220100Ej
+- __ZNSt3__115insert_iteratorINS_3setIyNS_4lessIyEENS_9allocatorIyEEEEEaSB9nqe220100ERKy
+- __ZNSt3__116__deque_iteratorI39HDQuantitySampleAttenuationEngineSamplePKS1_RS2_PKS3_lLl102EEpLB9nqe220100El
+- __ZNSt3__116__deque_iteratorI39HDQuantitySampleAttenuationEngineSamplePS1_RS1_PS2_lLl102EEpLB9nqe220100El
+- __ZNSt3__116__pad_and_outputB9nqe220100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__116__set_differenceB9nqe220100INS_6__lessIvvEERNS_21__tree_const_iteratorIyPNS_11__tree_nodeIyPvEElEES9_S9_S9_RNS_15insert_iteratorINS_3setIyNS_4lessIyEENS_9allocatorIyEEEEEEEENS_4pairIu14__remove_cvrefIT0_Eu14__remove_cvrefIT4_EEEOSK_OT1_OT2_OT3_OSM_OT_
+- __ZNSt3__118__for_each_segmentB9nqe220100INS_16__deque_iteratorI39HDQuantitySampleAttenuationEngineSamplePKS2_RS3_PKS4_lLl102EEEZNKS_11__copy_implclB9nqe220100IS8_NS1_IS2_PS2_RS2_PSB_lLl102EEELi0EEENS_4pairIT_T0_EESG_SG_SH_EUlS4_S4_E_EEvSG_SG_SH_
+- __ZNSt3__118generate_canonicalB9nqe220100IdLm53ENS_26linear_congruential_engineIjLj48271ELj0ELj2147483647EEEEET_RT1_
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorI13HKRawIntervalIdEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorI15HistogramBucketEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorI16_HDWrappedSourceEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorI19HDRawDistanceSampleEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorI19HDRawQuantitySampleEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsISC_EEEENS_19__allocation_resultINT0_7pointerENSG_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsISC_EEEENS_19__allocation_resultINT0_7pointerENSG_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsDiscreteE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsPresenceE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEE16_SampleRemainderEEENS_16allocator_traitsISA_EEEENS_19__allocation_resultINT0_7pointerENSE_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISE_EEEENS_19__allocation_resultINT0_7pointerENSI_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISE_EEEENS_19__allocation_resultINT0_7pointerENSI_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_SampleRemainderEEENS_16allocator_traitsISD_EEEENS_19__allocation_resultINT0_7pointerENSH_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsDiscreteEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsPresenceEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsCumulativeEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsPercentilesEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_SampleRemainderEEENS_16allocator_traitsISB_EEEENS_19__allocation_resultINT0_7pointerENSF_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_SampleRemainderEEENS_16allocator_traitsISA_EEEENS_19__allocation_resultINT0_7pointerENSE_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI22HDStatisticsCumulativeE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI23HDStatisticsPercentilesE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI24HDStatisticsTimeIntervalE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI33HDStatisticsAverageSampleDurationE16_SampleRemainderEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_SampleRemainderEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_SampleRemainderEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN6health10FileExtentEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN6health13WriteAheadLog9PageEntryEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIN6health18DataStoreInspector15DataSeriesEntryEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_10shared_ptrIN6health13WriteAheadLog11TransactionEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_10unique_ptrIN10statistics10StatisticsENS_14default_deleteIS4_EEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_10unique_ptrIN10statistics17RawQuantitySampleENS_14default_deleteIS4_EEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_10unique_ptrIN10statistics37QuantitySampleAttenuationEngineSampleENS_14default_deleteIS4_EEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_10unique_ptrIN10statistics8IntervalENS_14default_deleteIS4_EEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES7_EEEENS_16allocator_traitsIS9_EEEENS_19__allocation_resultINT0_7pointerENSD_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_4pairIccEEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_4pairImPKcEEEENS_16allocator_traitsIS6_EEEENS_19__allocation_resultINT0_7pointerENSA_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_5tupleIJxU8__strongP15HKDeletedObjectEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_5tupleIJxU8__strongP8HKSampleEEEEENS_16allocator_traitsIS7_EEEENS_19__allocation_resultINT0_7pointerENSB_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorINS_9sub_matchINS_11__wrap_iterIPKcEEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIP19HDRawQuantitySampleEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIP39HDQuantitySampleAttenuationEngineSampleEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPN6health12BlockPointerEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPNS_11__thread_idEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPNS_5tupleIJddfEEEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPNS_7__stateIcEEEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIU8__strongP8HKSourceEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIdEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIlEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIxEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB9nqe220100Ev
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE11EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE12EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE14EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE15EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE16EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE17EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE1EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE2EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE3EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE4EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE5EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE6EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE7EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE8EEEvv
+- __ZNSt3__119__throw_regex_errorB9nqe220100ILNS_15regex_constants10error_typeE9EEEvv
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe220100Ev
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE10__add_charB9nqe220100Ec
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE13__add_digraphB9nqe220100Ecc
+- __ZNSt3__120__throw_length_errorB9nqe220100EPKc
+- __ZNSt3__120__throw_out_of_rangeB9nqe220100EPKc
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8HKSource16_HDWrappedSourceEEPvEEEEEclB9nqe220100EPSA_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220100EPSD_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220100EPSD_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsCombinedI24HDStatisticsTimeIntervalS8_EEEPvEEEEEclB9nqe220100EPSC_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220100EPSF_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220100EPSF_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS9_EEEEPvEEEEEclB9nqe220100EPSE_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString20HDStatisticsRelativeI22HDStatisticsNoiseLevelEEEPvEEEEEclB9nqe220100EPSC_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSString22HDStatisticsNoiseLevelEEPvEEEEEclB9nqe220100EPSA_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIU8__strongP8NSStringNS_5dequeI19HDRawQuantitySampleNS1_IS8_EEEEEEPvEEEEEclB9nqe220100EPSD_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIyN6health18TransactionalCacheIyNS4_8FilePageEE9CacheLineEEEPvEEEEEclB9nqe220100EPSB_
+- __ZNSt3__122__lower_bound_onesidedB9nqe220100INS_17_ClassicAlgPolicyENS_21__tree_const_iteratorIyPNS_11__tree_nodeIyPvEElEES7_yKNS_10__identityENS_6__lessIvvEEEET0_SC_T1_RKT2_RT4_RT3_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220100EPSA_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220100EPSA_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220100EPSA_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220100EPSA_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220100EPSA_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220100EPSD_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220100EPSD_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220100EPSC_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220100EPSC_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220100EPSC_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220100EPSC_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220100EPSC_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220100EPSC_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220100EPSF_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220100EPSF_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEEPvEEEEEclB9nqe220100EPSE_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI23HDStatisticsPercentilesEEEPvEEEEEclB9nqe220100EPS9_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx20HDStatisticsRelativeI24HDStatisticsTimeIntervalEEEPvEEEEEclB9nqe220100EPS9_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx23HDStatisticsPercentilesEEPvEEEEEclB9nqe220100EPS7_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIx24HDStatisticsTimeIntervalEEPvEEEEEclB9nqe220100EPS7_
+- __ZNSt3__124__put_character_sequenceB9nqe220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB9nqe220100Ev
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZ51-[HDStatisticsCollectionCalculator orderSourceIDs:]E3$_0PxEEbT1_S5_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_EEbT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_EEbT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E0_PSB_EEbT1_SH_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_EEbT1_SH_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E0_PSB_EEbT1_SH_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_EEbT1_SH_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsDiscreteE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsPresenceE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_EEbT1_SF_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E0_PSD_EEbT1_SJ_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_EEbT1_SJ_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E0_PSD_EEbT1_SJ_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_EEbT1_SJ_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSB_16_SampleRemainderESE_E0_PSC_EEbT1_SI_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSB_16_SampleRemainderESE_E_PSC_EEbT1_SI_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsDiscreteEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsPresenceEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsCumulativeEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E0_PS7_EEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsPercentilesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E0_PS7_EEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_EEbT1_SG_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E0_PS9_EEbT1_SF_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_EEbT1_SF_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsCumulativeE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E0_PS5_EEbT1_SB_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsPercentilesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E0_PS5_EEbT1_SB_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI24HDStatisticsTimeIntervalE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI33HDStatisticsAverageSampleDurationE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_EEbT1_SB_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_EEbT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_EEbT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_EEbT1_SE_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E0_PS7_EEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_EEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISC_EEEEPU15__autoreleasingP7NSErrorEUlRKSC_SM_E_PSC_EEbT1_SQ_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISC_EEEEPU15__autoreleasingP7NSErrorEUlRKSC_SM_E_PSC_EEbT1_SQ_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsDiscreteE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsPresenceE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISA_EEEEPU15__autoreleasingP7NSErrorEUlRKSA_SK_E_PSA_EEbT1_SO_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISE_EEEEPU15__autoreleasingP7NSErrorEUlRKSE_SO_E_PSE_EEbT1_SS_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISE_EEEEPU15__autoreleasingP7NSErrorEUlRKSE_SO_E_PSE_EEbT1_SS_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISD_EEEEPU15__autoreleasingP7NSErrorEUlRKSD_SN_E_PSD_EEbT1_SR_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsDiscreteEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsPresenceEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI22HDStatisticsCumulativeEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI23HDStatisticsPercentilesEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_EEbT1_SP_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISA_EEEEPU15__autoreleasingP7NSErrorEUlRKSA_SK_E_PSA_EEbT1_SO_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI22HDStatisticsCumulativeE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI22HDStatisticsNoiseLevelE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI23HDStatisticsPercentilesE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI23HDStatisticsSleepStagesE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI24HDStatisticsTimeIntervalE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI33HDStatisticsAverageSampleDurationE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_EEbT1_SK_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_EEbT1_SN_T0_
+- __ZNSt3__127__insertion_sort_incompleteB9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_EEbT1_SM_T0_
+- __ZNSt3__127__tree_balance_after_insertB9nqe220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsIZNS_5dequeI39HDQuantitySampleAttenuationEngineSampleNS_9allocatorIS2_EEE19__add_back_capacityEmEUlvE_ED1B9nqe220100Ev
+- __ZNSt3__128__exception_guard_exceptionsIZNS_5dequeIN6health12BlockPointerENS_9allocatorIS3_EEE19__add_back_capacityEmEUlvE_ED1B9nqe220100Ev
+- __ZNSt3__134__uninitialized_allocator_relocateB9nqe220100INS_9allocatorI15HistogramBucketEEPS2_EEvRT_T0_S7_S7_
+- __ZNSt3__138__set_intersection_add_output_if_equalB9nqe220100INS_21__tree_const_iteratorIyPNS_11__tree_nodeIyPvEElEES6_NS_15insert_iteratorINS_3setIyNS_4lessIyEENS_9allocatorIyEEEEEEEEvbRT_RT0_RT1_Rb
+- __ZNSt3__13setIlNS_4lessIlEENS_9allocatorIlEEE6insertB9nqe220100ERKl
+- __ZNSt3__13setIyNS_4lessIyEENS_9allocatorIyEEE6insertB9nqe220100ERKy
+- __ZNSt3__15dequeI19HDRawQuantitySampleNS_9allocatorIS1_EEED2B9nqe220100Ev
+- __ZNSt3__15dequeI39HDQuantitySampleAttenuationEngineSampleNS_9allocatorIS1_EEE18__append_with_sizeB9nqe220100INS_16__deque_iteratorIS1_PKS1_RS7_PKS8_lLl102EEEEEvT_m
+- __ZNSt3__15dequeI39HDQuantitySampleAttenuationEngineSampleNS_9allocatorIS1_EEED2B9nqe220100Ev
+- __ZNSt3__15dequeIN6health12BlockPointerENS_9allocatorIS2_EEE26__maybe_remove_front_spareB9nqe220100Eb
+- __ZNSt3__15dequeIN6health12BlockPointerENS_9allocatorIS2_EEED2B9nqe220100Ev
+- __ZNSt3__15dequeINS_11__thread_idENS_9allocatorIS1_EEED2B9nqe220100Ev
+- __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEED2B9nqe220100Ev
+- __ZNSt3__16__treeINS_12__value_typeINS_11__thread_idEPN6health17TransactionalFile15ReadTransactionEEENS_19__map_value_compareIS2_NS_4pairIKS2_S6_EENS_4lessIS2_EEEENS_9allocatorISB_EEE12__find_equalB9nqe220100IS2_EENS9_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSN_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_11__thread_idEPN6health17TransactionalFile15ReadTransactionEEENS_19__map_value_compareIS2_NS_4pairIKS2_S6_EENS_4lessIS2_EEEENS_9allocatorISB_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS7_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_11__thread_idEPN6health17TransactionalFile16WriteTransactionEEENS_19__map_value_compareIS2_NS_4pairIKS2_S6_EENS_4lessIS2_EEEENS_9allocatorISB_EEE12__find_equalB9nqe220100IS2_EENS9_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSN_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_11__thread_idEPN6health17TransactionalFile16WriteTransactionEEENS_19__map_value_compareIS2_NS_4pairIKS2_S6_EENS_4lessIS2_EEEENS_9allocatorISB_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS7_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN6health12InMemoryFileEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SB_EENS_4lessIS7_EEEENS5_ISG_EEE12__find_equalB9nqe220100IS7_EENSE_IPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSR_EERKT_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN6health12InMemoryFileEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SB_EENS_4lessIS7_EEEENS5_ISG_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeISC_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220100IZNSG_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220100IZNSG_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220100IZNSG_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220100IZNSG_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220100IZNSG_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220100IZNSG_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI24HDStatisticsTimeIntervalS3_EEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS5_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI24HDStatisticsTimeIntervalS3_EEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220100IZNSF_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220100IZNSG_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS8_EENS_4lessIxEEEENS_9allocatorISD_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS9_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS8_EENS_4lessIxEEEENS_9allocatorISD_EEE21__construct_from_treeB9nqe220100IZNSJ_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS9_PvEEEUlRKSD_E_EESO_SO_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS8_EENS_4lessIxEEEENS_9allocatorISD_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS9_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS8_EENS_4lessIxEEEENS_9allocatorISD_EEE21__construct_from_treeB9nqe220100IZNSJ_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS9_PvEEEUlRKSD_E_EESO_SO_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220100IZNSI_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsDiscreteEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS3_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsDiscreteEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220100IZNSD_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsPresenceEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS3_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsPresenceEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220100IZNSD_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220100IZNSI_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220100IZNSI_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220100IZNSI_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220100IZNSI_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220100IZNSI_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220100IZNSI_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EEEENS_19__map_value_compareIxNS_4pairIKxS6_EENS_4lessIxEEEENS_9allocatorISB_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS7_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EEEENS_19__map_value_compareIxNS_4pairIKxS6_EENS_4lessIxEEEENS_9allocatorISB_EEE21__construct_from_treeB9nqe220100IZNSH_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS7_PvEEEUlRKSB_E_EESM_SM_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220100IZNSI_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxSA_EENS_4lessIxEEEENS_9allocatorISF_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeISB_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxSA_EENS_4lessIxEEEENS_9allocatorISF_EEE21__construct_from_treeB9nqe220100IZNSL_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeISB_PvEEEUlRKSF_E_EESQ_SQ_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxSA_EENS_4lessIxEEEENS_9allocatorISF_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeISB_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxSA_EENS_4lessIxEEEENS_9allocatorISF_EEE21__construct_from_treeB9nqe220100IZNSL_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeISB_PvEEEUlRKSF_E_EESQ_SQ_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS9_EENS_4lessIxEEEENS_9allocatorISE_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeISA_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEEENS_19__map_value_compareIxNS_4pairIKxS9_EENS_4lessIxEEEENS_9allocatorISE_EEE21__construct_from_treeB9nqe220100IZNSK_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeISA_PvEEEUlRKSE_E_EESP_SP_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsDiscreteEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS5_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsDiscreteEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220100IZNSF_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsPresenceEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS5_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI20HDStatisticsPresenceEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220100IZNSF_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI22HDStatisticsCumulativeEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS5_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI22HDStatisticsCumulativeEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220100IZNSF_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI22HDStatisticsNoiseLevelEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS5_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI22HDStatisticsNoiseLevelEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220100IZNSF_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI23HDStatisticsPercentilesEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS5_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI23HDStatisticsPercentilesEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220100IZNSF_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI23HDStatisticsSleepStagesEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS5_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI23HDStatisticsSleepStagesEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220100IZNSF_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS5_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI24HDStatisticsTimeIntervalEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220100IZNSF_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS5_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220100IZNSF_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220100IZNSI_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEEENS_19__map_value_compareIxNS_4pairIKxS7_EENS_4lessIxEEEENS_9allocatorISC_EEE21__construct_from_treeB9nqe220100IZNSI_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS8_PvEEEUlRKSC_E_EESN_SN_T_
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEEENS_19__map_value_compareIxNS_4pairIKxS6_EENS_4lessIxEEEENS_9allocatorISB_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS7_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEEENS_19__map_value_compareIxNS_4pairIKxS6_EENS_4lessIxEEEENS_9allocatorISB_EEE21__construct_from_treeB9nqe220100IZNSH_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS7_PvEEEUlRKSB_E_EESM_SM_T_
+- __ZNSt3__16__treeINS_12__value_typeIx22HDStatisticsCumulativeEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS3_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx22HDStatisticsCumulativeEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220100IZNSD_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
+- __ZNSt3__16__treeINS_12__value_typeIx22HDStatisticsNoiseLevelEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS3_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx22HDStatisticsNoiseLevelEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220100IZNSD_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
+- __ZNSt3__16__treeINS_12__value_typeIx23HDStatisticsPercentilesEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS3_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx23HDStatisticsPercentilesEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220100IZNSD_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
+- __ZNSt3__16__treeINS_12__value_typeIx23HDStatisticsSleepStagesEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS3_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx23HDStatisticsSleepStagesEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220100IZNSD_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
+- __ZNSt3__16__treeINS_12__value_typeIx24HDStatisticsTimeIntervalEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS3_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx24HDStatisticsTimeIntervalEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220100IZNSD_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
+- __ZNSt3__16__treeINS_12__value_typeIx33HDStatisticsAverageSampleDurationEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS3_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx33HDStatisticsAverageSampleDurationEENS_19__map_value_compareIxNS_4pairIKxS2_EENS_4lessIxEEEENS_9allocatorIS7_EEE21__construct_from_treeB9nqe220100IZNSD_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS3_PvEEEUlRKS7_E_EESI_SI_T_
+- __ZNSt3__16__treeINS_12__value_typeIx38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220100IZNSG_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
+- __ZNSt3__16__treeINS_12__value_typeIx38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEENS_19__map_value_compareIxNS_4pairIKxS5_EENS_4lessIxEEEENS_9allocatorISA_EEE21__construct_from_treeB9nqe220100IZNSG_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS6_PvEEEUlRKSA_E_EESL_SL_T_
+- __ZNSt3__16__treeINS_12__value_typeIx42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS5_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIx42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEENS_19__map_value_compareIxNS_4pairIKxS4_EENS_4lessIxEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220100IZNSF_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
+- __ZNSt3__16__treeINS_12__value_typeIyN6health13WriteAheadLog9PageEntryEEENS_19__map_value_compareIyNS_4pairIKyS4_EENS_4lessIyEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS5_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIyN6health18DataStoreInspector15DataSeriesEntryEEENS_19__map_value_compareIyNS_4pairIKyS4_EENS_4lessIyEEEENS_9allocatorIS9_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS5_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIyN6health18DataStoreInspector15DataSeriesEntryEEENS_19__map_value_compareIyNS_4pairIKyS4_EENS_4lessIyEEEENS_9allocatorIS9_EEE21__construct_from_treeB9nqe220100IZNSF_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIS5_PvEEEUlRKS9_E_EESK_SK_T_
+- __ZNSt3__16__treeINS_12__value_typeIyNS_6vectorIN6health13WriteAheadLog9PageEntryENS_9allocatorIS5_EEEEEENS_19__map_value_compareIyNS_4pairIKyS8_EENS_4lessIyEEEENS6_ISD_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS9_PvEE
+- __ZNSt3__16__treeIlNS_4lessIlEENS_9allocatorIlEEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIlPvEE
+- __ZNSt3__16__treeIyNS_4lessIyEENS_9allocatorIyEEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIyPvEE
+- __ZNSt3__16__treeIyNS_4lessIyEENS_9allocatorIyEEE21__construct_from_treeB9nqe220100IZNS5_21__copy_construct_treeB9nqe220100EPNS_11__tree_nodeIyPvEEEUlRKyE_EESA_SA_T_
+- __ZNSt3__16vectorI13HKRawIntervalIdENS_9allocatorIS2_EEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorI13HKRawIntervalIdENS_9allocatorIS2_EEE16__init_with_sizeB9nqe220100IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorI13HKRawIntervalIdENS_9allocatorIS2_EEE18__assign_with_sizeB9nqe220100INS_17_ClassicAlgPolicyEPS2_S8_EEvT0_T1_l
+- __ZNSt3__16vectorI13HKRawIntervalIdENS_9allocatorIS2_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorI15HistogramBucketNS_9allocatorIS1_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorI16_HDWrappedSourceNS_9allocatorIS1_EEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorI16_HDWrappedSourceNS_9allocatorIS1_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorI16_HDWrappedSourceNS_9allocatorIS1_EEE16__init_with_sizeB9nqe220100IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI16_HDWrappedSourceNS_9allocatorIS1_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorI16_HDWrappedSourceNS_9allocatorIS1_EEE9push_backB9nqe220100ERKS1_
+- __ZNSt3__16vectorI19HDRawDistanceSampleNS_9allocatorIS1_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorI19HDRawQuantitySampleNS_9allocatorIS1_EEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorI19HDRawQuantitySampleNS_9allocatorIS1_EEE16__init_with_sizeB9nqe220100IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI19HDRawQuantitySampleNS_9allocatorIS1_EEE18__assign_with_sizeB9nqe220100INS_17_ClassicAlgPolicyEPKS1_S8_EEvT0_T1_l
+- __ZNSt3__16vectorI19HDRawQuantitySampleNS_9allocatorIS1_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS3_EE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorISA_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorISA_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsDiscreteE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsPresenceE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EEE16_SampleRemainderENS_9allocatorIS8_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorISC_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorISC_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_SampleRemainderENS_9allocatorISB_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsDiscreteEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsPresenceEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsCumulativeEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsPercentilesEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_SampleRemainderENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_SampleRemainderENS_9allocatorIS8_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI22HDStatisticsCumulativeE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI23HDStatisticsPercentilesE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI24HDStatisticsTimeIntervalE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI33HDStatisticsAverageSampleDurationE16_SampleRemainderENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_SampleRemainderENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_SampleRemainderENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN6health10FileExtentENS_9allocatorIS2_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN6health13WriteAheadLog9PageEntryENS_9allocatorIS3_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN6health18DataStoreInspector15DataSeriesEntryENS_9allocatorIS3_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN6health13WriteAheadLog11TransactionEEENS_9allocatorIS5_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN6health13WriteAheadLog11TransactionEEENS_9allocatorIS5_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN6health13WriteAheadLog11TransactionEEENS_9allocatorIS5_EEE5clearB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN10statistics10StatisticsENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN10statistics10StatisticsENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN10statistics10StatisticsENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE5clearB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN10statistics17RawQuantitySampleENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN10statistics17RawQuantitySampleENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN10statistics17RawQuantitySampleENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE5clearB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN10statistics37QuantitySampleAttenuationEngineSampleENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN10statistics37QuantitySampleAttenuationEngineSampleENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN10statistics37QuantitySampleAttenuationEngineSampleENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE5clearB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN10statistics8IntervalENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN10statistics8IntervalENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN10statistics8IntervalENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE5clearB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN6health18TransactionalCacheIyNS2_8FilePageEE10CacheEntryENS_14default_deleteIS6_EEEENS_9allocatorIS9_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN6health18TransactionalCacheIyNS2_8FilePageEE10CacheEntryENS_14default_deleteIS6_EEEENS_9allocatorIS9_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN6health18TransactionalCacheIyNS2_8FilePageEE10CacheEntryENS_14default_deleteIS6_EEEENS_9allocatorIS9_EEE22__base_destruct_at_endB9nqe220100EPS9_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE9push_backB9nqe220100EOS8_
+- __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE16__init_with_sizeB9nqe220100IPS4_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_5tupleIJxU8__strongP15HKDeletedObjectEEENS_9allocatorIS5_EEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorINS_5tupleIJxU8__strongP15HKDeletedObjectEEENS_9allocatorIS5_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_5tupleIJxU8__strongP15HKDeletedObjectEEENS_9allocatorIS5_EEE16__init_with_sizeB9nqe220100IPS5_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_5tupleIJxU8__strongP15HKDeletedObjectEEENS_9allocatorIS5_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_5tupleIJxU8__strongP8HKSampleEEENS_9allocatorIS5_EEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorINS_5tupleIJxU8__strongP8HKSampleEEENS_9allocatorIS5_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_5tupleIJxU8__strongP8HKSampleEEENS_9allocatorIS5_EEE16__init_with_sizeB9nqe220100IPS5_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_5tupleIJxU8__strongP8HKSampleEEENS_9allocatorIS5_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE9push_backB9nqe220100EOS2_
+- __ZNSt3__16vectorINS_9sub_matchINS_11__wrap_iterIPKcEEEENS_9allocatorIS6_EEE16__init_with_sizeB9nqe220100IPS6_SB_EEvT_T0_m
+- __ZNSt3__16vectorINS_9sub_matchINS_11__wrap_iterIPKcEEEENS_9allocatorIS6_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE16__init_with_sizeB9nqe220100IPS4_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIU8__strongP8HKSourceNS_9allocatorIS3_EEE16__destroy_vectorclB9nqe220100Ev
+- __ZNSt3__16vectorIU8__strongP8HKSourceNS_9allocatorIS3_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE16__init_with_sizeB9nqe220100IPdS5_EEvT_T0_m
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE18__assign_with_sizeB9nqe220100INS_17_ClassicAlgPolicyEPdS6_EEvT0_T1_l
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEEC2B9nqe220100Em
+- __ZNSt3__16vectorIlNS_9allocatorIlEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE16__init_with_sizeB9nqe220100IPxS5_EEvT_T0_m
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZ51-[HDStatisticsCollectionCalculator orderSourceIDs:]E3$_0PxLi0EEEbT1_S5_S5_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_Li0EEEbT1_SH_SH_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_Li0EEEbT1_SH_SH_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsDiscreteE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsPresenceE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_Li0EEEbT1_SF_SF_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_Li0EEEbT1_SJ_SJ_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_Li0EEEbT1_SJ_SJ_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSB_16_SampleRemainderESE_E_PSC_Li0EEEbT1_SI_SI_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsDiscreteEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsPresenceEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsCumulativeEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsPercentilesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEbT1_SG_SG_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_Li0EEEbT1_SF_SF_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsCumulativeE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsPercentilesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI24HDStatisticsTimeIntervalE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI33HDStatisticsAverageSampleDurationE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEbT1_SB_SB_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEbT1_SE_SE_T0_
+- __ZNSt3__17__sort3B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEbT1_SD_SD_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZ51-[HDStatisticsCollectionCalculator orderSourceIDs:]E3$_0PxLi0EEEvT1_S5_S5_S5_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_Li0EEEvT1_SH_SH_SH_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_Li0EEEvT1_SH_SH_SH_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsDiscreteE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsPresenceE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_Li0EEEvT1_SF_SF_SF_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_Li0EEEvT1_SJ_SJ_SJ_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_Li0EEEvT1_SJ_SJ_SJ_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSB_16_SampleRemainderESE_E_PSC_Li0EEEvT1_SI_SI_SI_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsDiscreteEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsPresenceEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsCumulativeEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsPercentilesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_Li0EEEvT1_SF_SF_SF_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsCumulativeE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsPercentilesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI24HDStatisticsTimeIntervalE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI33HDStatisticsAverageSampleDurationE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_T0_
+- __ZNSt3__17__sort4B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZ51-[HDStatisticsCollectionCalculator orderSourceIDs:]E3$_0PxLi0EEEvT1_S5_S5_S5_S5_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E0_PSB_Li0EEEvT1_SH_SH_SH_SH_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_Li0EEEvT1_SH_SH_SH_SH_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E0_PSB_Li0EEEvT1_SH_SH_SH_SH_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNSA_16_SampleRemainderESD_E_PSB_Li0EEEvT1_SH_SH_SH_SH_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsDiscreteE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsPresenceE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_Li0EEEvT1_SF_SF_SF_SF_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E0_PSD_Li0EEEvT1_SJ_SJ_SJ_SJ_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_Li0EEEvT1_SJ_SJ_SJ_SJ_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E0_PSD_Li0EEEvT1_SJ_SJ_SJ_SJ_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSC_16_SampleRemainderESF_E_PSD_Li0EEEvT1_SJ_SJ_SJ_SJ_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSB_16_SampleRemainderESE_E0_PSC_Li0EEEvT1_SI_SI_SI_SI_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE16_mergeTowardTimeEdEUlRKNSB_16_SampleRemainderESE_E_PSC_Li0EEEvT1_SI_SI_SI_SI_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsDiscreteEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI20HDStatisticsPresenceEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsCumulativeEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E0_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsPercentilesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E0_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E0_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE16_mergeTowardTimeEdEUlRKNS9_16_SampleRemainderESC_E_PSA_Li0EEEvT1_SG_SG_SG_SG_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E0_PS9_Li0EEEvT1_SF_SF_SF_SF_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE16_mergeTowardTimeEdEUlRKNS8_16_SampleRemainderESB_E_PS9_Li0EEEvT1_SF_SF_SF_SF_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsCumulativeE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E0_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI22HDStatisticsNoiseLevelE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsPercentilesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E0_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI23HDStatisticsSleepStagesE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI24HDStatisticsTimeIntervalE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI33HDStatisticsAverageSampleDurationE16_mergeTowardTimeEdEUlRKNS4_16_SampleRemainderES7_E_PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E0_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE16_mergeTowardTimeEdEUlRKNS7_16_SampleRemainderESA_E_PS8_Li0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E0_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN18HDStatisticsBucketI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE16_mergeTowardTimeEdEUlRKNS6_16_SampleRemainderES9_E_PS7_Li0EEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS4_EE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISC_EEEEPU15__autoreleasingP7NSErrorEUlRKSC_SM_E_PSC_Li0EEEvT1_SQ_SQ_SQ_SQ_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISC_EEEEPU15__autoreleasingP7NSErrorEUlRKSC_SM_E_PSC_Li0EEEvT1_SQ_SQ_SQ_SQ_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsDiscreteE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsPresenceE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsPresence24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsCumulative24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI22HDStatisticsNoiseLevel24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsPercentiles24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI23HDStatisticsSleepStages24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI24HDStatisticsTimeIntervalS5_EEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISA_EEEEPU15__autoreleasingP7NSErrorEUlRKSA_SK_E_PSA_Li0EEEvT1_SO_SO_SO_SO_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI33HDStatisticsAverageSampleDuration24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEE24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISE_EEEEPU15__autoreleasingP7NSErrorEUlRKSE_SO_E_PSE_Li0EEEvT1_SS_SS_SS_SS_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISE_EEEEPU15__autoreleasingP7NSErrorEUlRKSE_SO_E_PSE_Li0EEEvT1_SS_SS_SS_SS_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersE24HDStatisticsTimeIntervalEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISD_EEEEPU15__autoreleasingP7NSErrorEUlRKSD_SN_E_PSD_Li0EEEvT1_SR_SR_SR_SR_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsDiscreteEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsPresenceEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI22HDStatisticsCumulativeEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI22HDStatisticsNoiseLevelEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI23HDStatisticsPercentilesEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI23HDStatisticsSleepStagesEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI24HDStatisticsTimeIntervalEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI33HDStatisticsAverageSampleDurationEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISB_EEEEPU15__autoreleasingP7NSErrorEUlRKSB_SL_E_PSB_Li0EEEvT1_SP_SP_SP_SP_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorISA_EEEEPU15__autoreleasingP7NSErrorEUlRKSA_SK_E_PSA_Li0EEEvT1_SO_SO_SO_SO_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI22HDStatisticsCumulativeE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI22HDStatisticsNoiseLevelE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI23HDStatisticsPercentilesE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI23HDStatisticsSleepStagesE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI24HDStatisticsTimeIntervalE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI33HDStatisticsAverageSampleDurationE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS6_EEEEPU15__autoreleasingP7NSErrorEUlRKS6_SG_E_PS6_Li0EEEvT1_SK_SK_SK_SK_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4018000000000000EEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS9_EEEEPU15__autoreleasingP7NSErrorEUlRKS9_SJ_E_PS9_Li0EEEvT1_SN_SN_SN_SN_T0_
+- __ZNSt3__17__sort5B9nqe220100INS_17_ClassicAlgPolicyERZN55_HDConcreteStatisticsCollectionCalculatorImplementationI42HDStatisticsTemporalBucketWeightedDiscreteI52HDStatisticsTemporalBucketWeightedDiscreteParametersEE18_addPendingSamplesERNS_6vectorI19HDRawQuantitySampleNS_9allocatorIS8_EEEEPU15__autoreleasingP7NSErrorEUlRKS8_SI_E_PS8_Li0EEEvT1_SM_SM_SM_SM_T0_
+- __ZNSt3__19__sift_upB9nqe220100INS_17_ClassicAlgPolicyERZ51-[HDStatisticsCollectionCalculator orderSourceIDs:]E3$_0PxEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__1eqB9nqe220100IcNS_11char_traitsIcEENS_9allocatorIcEEEEbRKNS_12basic_stringIT_T0_T1_EESB_
+- __ZNSt3__1plB9nqe220100IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_PKS6_
+- __ZNSt3__1ssB9nqe220100IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
+- __ZSt28__throw_bad_array_new_lengthB9nqe220100v
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8HKSource16_HDWrappedSourceEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_S5_EE14HDNSObjectHash15HDNSObjectEqualEENS_21__unordered_map_equalIS4_SA_SC_SB_EENS_9allocatorISA_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRS9_EEENSN_IJEEEEEENS8_INS_15__hash_iteratorIPNS_11__hash_nodeIS6_PvEEEEbEEDpOT_ENKUlSO_SM_OSP_OSQ_E_clESO_SM_S11_S12_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIU8__strongP8NSStringxEENS_22__unordered_map_hasherIS4_NS_4pairIU8__strongKS3_xEE12HDStringHash13HDStringEqualEENS_21__unordered_map_equalIS4_S9_SB_SA_EENS_9allocatorIS9_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRS8_EEENSM_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlSN_SL_OSO_OSP_E_clESN_SL_S10_S11_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIxU8__strongP8NSStringEENS_22__unordered_map_hasherIxNS_4pairIKxS4_EENS_4hashIxEENS_8equal_toIxEEEENS_21__unordered_map_equalIxS9_SD_SB_EENS_9allocatorIS9_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRS8_EEENSO_IJEEEEEENS7_INS_15__hash_iteratorIPNS_11__hash_nodeIS5_PvEEEEbEEDpOT_ENKUlSP_SN_OSQ_OSR_E_clESP_SN_S12_S13_
+- __ZZNSt3__112__hash_tableINS_17__hash_value_typeIyN6health18TransactionalCacheIyNS2_8FilePageEE9CacheLineEEENS_22__unordered_map_hasherIyNS_4pairIKyS6_EENS_4hashIyEENS_8equal_toIyEEEENS_21__unordered_map_equalIySB_SF_SD_EENS_9allocatorISB_EEE16__emplace_uniqueB9nqe220100IJRKNS_21piecewise_construct_tENS_5tupleIJRSA_EEENSQ_IJEEEEEENS9_INS_15__hash_iteratorIPNS_11__hash_nodeIS7_PvEEEEbEEDpOT_ENKUlSR_SP_OSS_OST_E_clESR_SP_S14_S15_
+- __ZZNSt3__112__hash_tableIxNS_4hashIxEENS_8equal_toIxEENS_9allocatorIxEEE16__emplace_uniqueB9nqe220100IJRKxEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIxPvEEEEbEEDpOT_ENKUlSA_SA_E_clESA_SA_
+- __ZZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE16__emplace_uniqueB9nqe220100IJRKyEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIyPvEEEEbEEDpOT_ENKUlSA_SA_E_clESA_SA_
+- ___143+[HDAuthorizationEntity _insertCodableSourceAuthorizations:overwriteExisting:syncStore:sourceManager:syncIdentityManager:healthDatabase:error:]_block_invoke
+- ___143+[HDAuthorizationEntity _insertCodableSourceAuthorizations:overwriteExisting:syncStore:sourceManager:syncIdentityManager:healthDatabase:error:]_block_invoke_2
+- ___34-[HDWorkoutObserverServer dealloc]_block_invoke
+- ___46-[HDNanoRegistryDeviceCapabilityProvider init]_block_invoke
+- ___53-[HDWorkoutAppStateMonitor initWithBundleIdentifier:]_block_invoke
+- ___64-[HDWorkoutBuilderServer stateMachine:didEnterState:date:error:]_block_invoke_5
+- ___69-[_HDAWDPeriodicAction _doIfWaitingOnMaintenanceQueueWithCompletion:]_block_invoke
+- ___72+[HDCloudSyncTapToRadar openTapToRadarWithTitle:description:completion:]_block_invoke
+- ___74+[HDSeriesSampleEntity freezeSeriesWithIdentifier:metadata:profile:error:]_block_invoke
+- ___75+[HDSeriesBuilderEntity freezeSeriesWithIdentifier:metadata:profile:error:]_block_invoke
+- ___82+[HDWorkoutAppStateMonitor launchWorkoutAppIfNeededWithFitnessMachineSessionUUID:]_block_invoke
+- ___88-[HDMirroredWorkoutSessionServer beginNewActivityWithConfiguration:date:metadata:error:]_block_invoke
+- ___96-[HDHealthStoreServer remote_setPreferredHeartRateZoneConfigurationTypeRawValue:withCompletion:]_block_invoke
+- ___HDAddAdHocConceptTable_block_invoke.524
+- ___HDAddHealthRecordsAccountCount_block_invoke.645
+- ___HDAddUniquenessChecksumToOriginalFHIRResourceEntity_block_invoke.1422
+- ___HDAdvanceUDCSyncAnchors_block_invoke.1448
+- ___HDCleanUpHRExcessSamplesTake2_block_invoke.550
+- ___HDCleanUpHRExcessSamplesTake2_block_invoke.553
+- ___HDCleanUpHRExcessSamplesTake2_block_invoke_2.582
+- ___HDCopyWorkoutTotalsToPrimaryActivity_block_invoke.673
+- ___HDFixInvalidContributorInDataProvenancesTable_block_invoke.689
+- ___HDInsertECGSymptomsAndCreateAssociationWithECGSamples_block_invoke.559
+- ___HDInsertECGSymptomsAndCreateAssociationWithECGSamples_block_invoke.562
+- ___HDInsertECGSymptomsAndCreateAssociationWithECGSamples_block_invoke.569
+- ___HDInsertPrimaryActivityForRowAndMetadata_block_invoke.707
+- ___HDInsertPrimaryActivityForRowAndMetadata_block_invoke_2.713
+- ___HDMigrateAndDeleteProtectedOnboardingCompletionTable_block_invoke.459
+- ___HDMigrateClinicalAccountSyncAnchors_block_invoke.627
+- ___HDMigrateClinicalAccountSyncAnchors_block_invoke.636
+- ___HDMigrateClinicalAccountSyncAnchors_block_invoke_2.640
+- ___HDMigrateClinicalSources_block_invoke.582
+- ___HDMigrateClinicalSources_block_invoke.607
+- ___HDMigrateClinicalSources_block_invoke_2.586
+- ___HDMigrateCycleTrackingOnboarding_block_invoke.1037
+- ___HDMigrateCycleTrackingOnboarding_block_invoke.1038
+- ___HDMigrateCycleTrackingOnboarding_block_invoke.1045
+- ___HDMigrateECGClassificationAverageHRAndPayload_block_invoke.541
+- ___HDRemoveOtherCardioFitnessMedications_block_invoke.504
+- ___HDUpdateClinicalRecordEntities_block_invoke.956
+- ___HDUpdateClinicalRecordEntities_block_invoke.970
+- ___HDUpdateClinicalRecordEntities_block_invoke.971
+- ___HDUpdateClinicalRecordEntities_block_invoke_2.960
+- ___HDUpdateClinicalRecordEntities_block_invoke_2.975
+- ___HDUpdateMedicalRecordEntitiesTableWithOrigin_block_invoke.1060
+- ___HDUpdateMedicalRecordEntitiesTableWithOrigin_block_invoke.1064
+- ___HDUpdateMedicalRecordEntitiesTableWithOrigin_block_invoke_2.1065
+- ___HDUpdateMedicalRecordEntitiesTableWithOrigin_block_invoke_3.1069
+- ___ZL27_HDHFDataStoreWillOpenStoreP13HDHFDataStore_block_invoke.561
+- ___ZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI20HDStatisticsDiscrete24HDStatisticsTimeIntervalEEE28_primitiveInvalidateIntervalEP14NSDateIntervalPU15__autoreleasingP7NSError_block_invoke.608
+- ___ZN55_HDConcreteStatisticsCollectionCalculatorImplementationI20HDStatisticsRelativeI20HDStatisticsCombinedI38HDStatisticsTemporallyWeightedDiscreteI48HDStatisticsTemporallyWeightedDiscreteParametersILd4046800000000000EEE24HDStatisticsTimeIntervalEEE28_primitiveInvalidateIntervalEP14NSDateIntervalPU15__autoreleasingP7NSError_block_invoke.439
+- ___block_descriptor_105_e8_32s40s48s56s64s72s80s88s_e9_B16?0^8l
+- ___block_descriptor_128_e8_32s40s48s56s64s72s80r88r_e35_B24?0"HDDatabaseTransaction"8^16l
+- ___block_descriptor_32_e23_v24?0B8"NSError"12i20l
+- ___block_descriptor_48_e8_32s40r_e39_v32?0"HKObjectType"8"NSNumber"16^B24l
+- ___block_descriptor_56_e8_32s40s48r_e33_v32?0"NSString"8"NSData"16^B24l
+- ___block_descriptor_72_e8_32s40s48s56s_e34_v16?0^{HDSQLiteStatementBinder=}8l
+- ___block_descriptor_88_e8_32s40s48s56s64s72r_e69_B84?0"NSUUID"8"NSUUID"16"NSUUID"24q32B40q44q52"NSDate"60^B68^76l
+- ___block_descriptor_96_e8_32s40s48s56s64s72s80s88s_e9_B16?0^8l
+- __block_literal_global.1012
+- __block_literal_global.1021
+- __block_literal_global.1030
+- __block_literal_global.1053
+- __block_literal_global.1063
+- __block_literal_global.1076
+- __block_literal_global.1085
+- __block_literal_global.1094
+- __block_literal_global.1117
+- __block_literal_global.1140
+- __block_literal_global.1149
+- __block_literal_global.1158
+- __block_literal_global.363
+- __block_literal_global.365
+- __block_literal_global.367
+- __block_literal_global.368
+- __block_literal_global.370
+- __block_literal_global.372
+- __block_literal_global.388
+- __block_literal_global.413
+- __block_literal_global.415
+- __block_literal_global.420
+- __block_literal_global.424
+- __block_literal_global.425
+- __block_literal_global.435
+- __block_literal_global.436
+- __block_literal_global.438
+- __block_literal_global.445
+- __block_literal_global.459
+- __block_literal_global.460
+- __block_literal_global.463
+- __block_literal_global.472
+- __block_literal_global.474
+- __block_literal_global.476
+- __block_literal_global.481
+- __block_literal_global.484
+- __block_literal_global.485
+- __block_literal_global.489
+- __block_literal_global.494
+- __block_literal_global.498
+- __block_literal_global.505
+- __block_literal_global.508
+- __block_literal_global.513
+- __block_literal_global.517
+- __block_literal_global.520
+- __block_literal_global.524
+- __block_literal_global.534
+- __block_literal_global.537
+- __block_literal_global.538
+- __block_literal_global.545
+- __block_literal_global.553
+- __block_literal_global.554
+- __block_literal_global.555
+- __block_literal_global.562
+- __block_literal_global.564
+- __block_literal_global.566
+- __block_literal_global.573
+- __block_literal_global.575
+- __block_literal_global.583
+- __block_literal_global.585
+- __block_literal_global.586
+- __block_literal_global.589
+- __block_literal_global.596
+- __block_literal_global.598
+- __block_literal_global.599
+- __block_literal_global.600
+- __block_literal_global.608
+- __block_literal_global.610
+- __block_literal_global.625
+- __block_literal_global.633
+- __block_literal_global.641
+- __block_literal_global.648
+- __block_literal_global.650
+- __block_literal_global.653
+- __block_literal_global.655
+- __block_literal_global.657
+- __block_literal_global.659
+- __block_literal_global.667
+- __block_literal_global.679
+- __block_literal_global.681
+- __block_literal_global.685
+- __block_literal_global.690
+- __block_literal_global.698
+- __block_literal_global.705
+- __block_literal_global.708
+- __block_literal_global.710
+- __block_literal_global.714
+- __block_literal_global.716
+- __block_literal_global.718
+- __block_literal_global.723
+- __block_literal_global.731
+- __block_literal_global.734
+- __block_literal_global.745
+- __block_literal_global.746
+- __block_literal_global.750
+- __block_literal_global.760
+- __block_literal_global.769
+- __block_literal_global.778
+- __block_literal_global.787
+- __block_literal_global.791
+- __block_literal_global.794
+- __block_literal_global.803
+- __block_literal_global.811
+- __block_literal_global.812
+- __block_literal_global.828
+- __block_literal_global.837
+- __block_literal_global.847
+- __block_literal_global.852
+- __block_literal_global.854
+- __block_literal_global.857
+- __block_literal_global.861
+- __block_literal_global.869
+- __block_literal_global.884
+- __block_literal_global.886
+- __block_literal_global.893
+- __block_literal_global.902
+- __block_literal_global.903
+- __block_literal_global.925
+- __block_literal_global.948
+- __block_literal_global.957
+- __block_literal_global.966
+- __block_literal_global.989
+- __block_literal_global.996
+- __swift__destructor.13
+- __swift_closure_destructor.19Tm
+- __swift_closure_destructor.28
+- __swift_closure_destructor.77
+- __swift_closure_destructor.80
+- _insertStatementKey.key.580
+- _objc_msgSend$chutney
+- _objc_msgSend$initWithActivePairedDeviceProvider:
+- _objc_msgSend$initWithHealthDirectoryPath:medicalIDDirectoryPath:
+- _objc_msgSend$initWithName:loggingCategory:scheduler:handler:condition:
+- _objc_msgSend$keepOldestConcept
+- _objc_msgSend$maximumObjectAgeInDaysByType
+- _objc_msgSend$setPreferredHeartRateZoneConfigurationTypeFor:configurationTypeRawValue:completionHandler:
+- _symbolic SDySSSo11HDAssertionCG
+- _symbolic So15HKSleepScheduleC
+- _symbolic _____ 12HealthDaemon21ResolvedSleepScheduleV
+- _symbolic _____Sg 12HealthDaemon21ResolvedSleepScheduleV
+- block_copy_helper.69
+- block_copy_helper.83
+- block_descriptor.71
+- block_descriptor.85
+- block_destroy_helper.70
+- block_destroy_helper.84
+- columnDefinitionsWithCount:.HDDeviceKeyValueStorageEntryEntityColumnDefinitions.459
+- columnDefinitionsWithCount:.columnDefinitions.475
+CStrings:
++ "%@%@_%a_%lld"
++ "%{public}@: AwaitingFinalData Phase 1: draining %lu live source(s)"
++ "%{public}@: AwaitingFinalData Phase 2: opening write transaction for %lu source(s) (route=%{public}d smoother=%{public}d)"
++ "%{public}@: BGST expiration fired; acknowledging deferral while prune work continues on the maintenance work queue."
++ "%{public}@: Created a new UDC %{public}@ for sample %{public}@"
++ "%{public}@: Deferred (xpc accepted: %{public}@)"
++ "%{public}@: Error retrieving record for %{public}@ due to %{public}@. App NOT available"
++ "%{public}@: Failed to read Game Mode state (status %u), assuming Game Mode is off"
++ "%{public}@: Failed to register check for Game Mode state (status %u), assuming Game Mode is off"
++ "%{public}@: Ignoring duplicate setTaskServer %{public}@ (current: %{public}@)"
++ "%{public}@: Periodic sync restricted (Sleep Focus or Game Mode active), performing no-op"
++ "%{public}@: Reconciling MUDC %{public}@ categoryTypes after record %lld delete: %@ -> %@"
++ "%{public}@: Retrieving app availability state for %{public}@"
++ "%{public}@: Updated UDC %{public}@ for sample %{public}@ with new category type"
++ "%{public}@: Updating availability state for %{public}@ isAvailable=%{public}@ (isInstalled=%{public}@, isRestricted=%{public}@)"
++ "%{public}@: deallocated while still registered"
++ "%{public}@: malloc_zone_pressure_relief released %zu bytes after inactivity flush."
++ "(?, ?, ?, ?, ?)"
++ "/AppleInternal/Library/BuildRoots/4~CR69ugA4p701ldfW6BCpYX3tgjjILzNNYSIKR8I/Library/Caches/com.apple.xbs/TemporaryDirectory.vwAy1E/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/HDBPlusTree.hpp"
++ "/AppleInternal/Library/BuildRoots/4~CR69ugA4p701ldfW6BCpYX3tgjjILzNNYSIKR8I/Library/Caches/com.apple.xbs/TemporaryDirectory.vwAy1E/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/HDBlockAccessFile.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CR69ugA4p701ldfW6BCpYX3tgjjILzNNYSIKR8I/Library/Caches/com.apple.xbs/TemporaryDirectory.vwAy1E/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/HDTransactionalFile.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CR69ugA4p701ldfW6BCpYX3tgjjILzNNYSIKR8I/Library/Caches/com.apple.xbs/TemporaryDirectory.vwAy1E/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/HDVirtualFilesystem.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CR69ugA4p701ldfW6BCpYX3tgjjILzNNYSIKR8I/Library/Caches/com.apple.xbs/TemporaryDirectory.vwAy1E/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/HDWriteAheadLog.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CR69ugA4p701ldfW6BCpYX3tgjjILzNNYSIKR8I/Library/Caches/com.apple.xbs/TemporaryDirectory.vwAy1E/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/Utility/HDEncoder.h"
++ "/AppleInternal/Library/BuildRoots/4~CR69ugA4p701ldfW6BCpYX3tgjjILzNNYSIKR8I/Library/Caches/com.apple.xbs/TemporaryDirectory.vwAy1E/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/Utility/HDFilePage.h"
++ "/AppleInternal/Library/BuildRoots/4~CR69ugA4p701ldfW6BCpYX3tgjjILzNNYSIKR8I/Library/Caches/com.apple.xbs/TemporaryDirectory.vwAy1E/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/Utility/HDRawBuffer.h"
++ "/AppleInternal/Library/BuildRoots/4~CR69ugA4p701ldfW6BCpYX3tgjjILzNNYSIKR8I/Library/Caches/com.apple.xbs/TemporaryDirectory.vwAy1E/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/Utility/HDStaticArray.h"
++ "/AppleInternal/Library/BuildRoots/4~CR69ugA4p701ldfW6BCpYX3tgjjILzNNYSIKR8I/Library/Caches/com.apple.xbs/TemporaryDirectory.vwAy1E/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/Utility/HDTransactionalCache.hpp"
++ "@\"NSNumber\"16@?0q8"
++ "A difference between the cached data and fresh data was detected. This radar was generated from a TTR within the data cache session."
++ "CREATE TABLE IF NOT EXISTS schema_user_versions (schema TEXT NOT NULL PRIMARY KEY, version INTEGER NOT NULL, modification_date DOUBLE NOT NULL)"
++ "CREATE TEMPORARY TABLE %@ (%@ BLOB NOT NULL, %@ INTEGER NOT NULL)"
++ "Clearing stale transaction session %{public}@ (manager has no active record)"
++ "Data cache accuracy issue detected"
++ "HDHeartDailyAnalytics.m"
++ "HDPairedDeviceCapabilityProviding.m"
++ "HealthPrivacyService cannot own a HealthKit source"
++ "INSERT OR REPLACE INTO %@ (%@) VALUES "
++ "INSERT OR REPLACE INTO schema_user_versions (schema, version, modification_date) VALUES (?, ?, ?)"
++ "Invalid source type"
++ "Refusing to create source for HealthPrivacyService — caller bug"
++ "SELECT %@.%@, %@.%@, %@.%@ FROM %@ INNER JOIN %@ ON %@.%@ = %@.%@ INNER JOIN %@ ON %@.%@ = %@.%@ WHERE %@.%@ = %lld AND %@.%@ >= ?1 AND %@.%@ <  ?2 AND %@.%@ = %lld AND (%@.%@ & %lld) != 0 ORDER BY %@.%@ ASC, %@.%@ ASC"
++ "SELECT m.data_id, s.data_type FROM medical_user_domain_concept_mappings m JOIN samples s ON s.data_id = m.data_id WHERE m.udc_id = ? AND m.data_id != ?"
++ "SELECT version FROM schema_user_versions WHERE schema LIKE ?"
++ "We have at least one active locked-access assertion. Will delay flushing protected data"
++ "Workout app launched successfully"
++ "[%s] TTR: cache mismatch detected for bucket index %ld."
++ "[%s] TTR: fresh data found for bucket index %ld that was expected to be empty."
++ "[%s] TTR: no fresh result for cached bucket index %ld."
++ "[%{public}@] HR context-switch analytics SQL failed: %{public}@"
++ "[Cloud] Push completed for: %s"
++ "[Cloud] Push failed for %s: %s"
++ "[Cloud] Push skipped (no coordinator) for: %s"
++ "[Configuration] Retrieving heart rate zone configuration for source %s"
++ "[Data Caching]: cache accuracy issue detected"
++ "[mirroring] %{public}@: Session was previously mirroring, resuming pending transaction retry timer"
++ "[routes] %{public}@ Dropping %lu late location(s) delivered after stop"
++ "[routes] Creating location data collector for routeable activity after non-routeable leg (activityType=%ld)"
++ "[routes] New activity is non-routeable (activityType=%ld, indoor=%d). Stopping location updates"
++ "bgst-completion"
++ "cleanup"
++ "com.apple.LaunchServices.applicationStateChanged"
++ "com.apple.system.console_mode_changed"
++ "daemon.notificationCenter != nil"
++ "hr_context_switch_count_per_5min_window_0"
++ "hr_context_switch_count_per_5min_window_1"
++ "hr_context_switch_count_per_5min_window_10_plus"
++ "hr_context_switch_count_per_5min_window_2"
++ "hr_context_switch_count_per_5min_window_3"
++ "hr_context_switch_count_per_5min_window_4"
++ "hr_context_switch_count_per_5min_window_5"
++ "hr_context_switch_count_per_5min_window_6"
++ "hr_context_switch_count_per_5min_window_7"
++ "hr_context_switch_count_per_5min_window_8"
++ "hr_context_switch_count_per_5min_window_9"
++ "hr_context_switch_count_per_5min_window_none"
++ "legacyAuthorizationMode"
++ "notificationCenter != nil"
++ "profile.notificationCenter != nil"
++ "updateHeartRateContextSwitchWindowCounts requires exactly %lu elements"
++ "v32@?0@\"NSString\"8@\"_HDTypedAssociationSyncBatchEntry\"16^B24"
++ "\xb1"
++ "\xc2"
++ "\xf0\xf0\xd1"
+- "%{public}@: Created a new UDC %{public}@ for medical record %{public}@"
+- "%{public}@: Device is in sleep focus mode, not triggering lite sync"
+- "%{public}@: Updated UDC %{public}@ for medical record %{public}@ with new category type"
+- "/AppleInternal/Library/BuildRoots/4~CQ9TugCQlAA3d2CY2r-8fU4DfbnTgqTZKIe2iW0/Library/Caches/com.apple.xbs/TemporaryDirectory.LA97DB/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/HDBPlusTree.hpp"
+- "/AppleInternal/Library/BuildRoots/4~CQ9TugCQlAA3d2CY2r-8fU4DfbnTgqTZKIe2iW0/Library/Caches/com.apple.xbs/TemporaryDirectory.LA97DB/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/HDBlockAccessFile.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQ9TugCQlAA3d2CY2r-8fU4DfbnTgqTZKIe2iW0/Library/Caches/com.apple.xbs/TemporaryDirectory.LA97DB/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/HDTransactionalFile.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQ9TugCQlAA3d2CY2r-8fU4DfbnTgqTZKIe2iW0/Library/Caches/com.apple.xbs/TemporaryDirectory.LA97DB/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/HDVirtualFilesystem.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQ9TugCQlAA3d2CY2r-8fU4DfbnTgqTZKIe2iW0/Library/Caches/com.apple.xbs/TemporaryDirectory.LA97DB/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/HDWriteAheadLog.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQ9TugCQlAA3d2CY2r-8fU4DfbnTgqTZKIe2iW0/Library/Caches/com.apple.xbs/TemporaryDirectory.LA97DB/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/Utility/HDEncoder.h"
+- "/AppleInternal/Library/BuildRoots/4~CQ9TugCQlAA3d2CY2r-8fU4DfbnTgqTZKIe2iW0/Library/Caches/com.apple.xbs/TemporaryDirectory.LA97DB/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/Utility/HDFilePage.h"
+- "/AppleInternal/Library/BuildRoots/4~CQ9TugCQlAA3d2CY2r-8fU4DfbnTgqTZKIe2iW0/Library/Caches/com.apple.xbs/TemporaryDirectory.LA97DB/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/Utility/HDRawBuffer.h"
+- "/AppleInternal/Library/BuildRoots/4~CQ9TugCQlAA3d2CY2r-8fU4DfbnTgqTZKIe2iW0/Library/Caches/com.apple.xbs/TemporaryDirectory.LA97DB/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/Utility/HDStaticArray.h"
+- "/AppleInternal/Library/BuildRoots/4~CQ9TugCQlAA3d2CY2r-8fU4DfbnTgqTZKIe2iW0/Library/Caches/com.apple.xbs/TemporaryDirectory.LA97DB/Sources/HealthKit/HealthKit/HealthDaemon/Database/Migration/HFDtoSQLite/HighFrequencyData/Utility/HDTransactionalCache.hpp"
+- "CREATE TEMPORARY TABLE %@ (%@ BLOB NOT NULL, %@ INTERGER NOT NULL)"
+- "INSERT OR REPLACE INTO %@ (schema, version, modification_date) VALUES (?, ?, ?)"
+- "Invalid configuration type"
+- "SELECT version FROM %@ WHERE schema LIKE ?"
+- "We have at least one active workout assertion. Will delay flushing protected data"
+- "Workouts successfully opened"
+- "[Configuration] Retrieving heart rate zone configuration for type %s"
+- "[mirroring] %{public}@: Session was previously mirroring, resume heartbeats"
+- "[routes] Workout activity updated to Indoor. Stopping location updates"
+- "v32@?0@\"NSString\"8@\"NSData\"16^B24"
+- "\xb2"
+- "\xf0\xf0\xc1"
+
+```

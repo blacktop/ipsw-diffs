@@ -1,0 +1,81 @@
+## CommonPanels
+
+> `/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework/Versions/A/CommonPanels`
+
+```diff
+
+ 106.1.0.0.0
+-  __TEXT.__text: 0x2258 sha256:72e8bbe3984ae4dd7746e7fdedc3061b55af49b5b44fba6ebac1f986cd003412
++  __TEXT.__text: 0x2220 sha256:7777674b8c388dcec96a536d861f86b391574fb4a5e15843098bd85b287bcd38
+   __TEXT.__const: 0x60 sha256:ddb1c587badc8104b075e0358961710692a0820299a69c6033f1e16e50b8c101
+   __TEXT.__cstring: 0x7c8 sha256:b1f9eb2bfa31412a63a295160bc2393b3c539ef6e9133beab9a5ba26ec633aac
+-  __TEXT.__gcc_except_tab: 0x78 sha256:ab84a29b5112b824206f0c9805f9a0d73ddd724b0e755b9e43acf16af31807c3
+-  __TEXT.__unwind_info: 0xf8 sha256:269b8c2a3540af81a6f32c39f4f227f0003392fcc9a512a9e3b08a4600db477c
++  __TEXT.__gcc_except_tab: 0x78 sha256:4e5ff07610d621ed0ef06710457a35aa53e1098c3c5d5149b93609e8133fa6ba
++  __TEXT.__unwind_info: 0xf8 sha256:b45770760b672a8128360539d4cb51c091b4a00b6c7766a2a89e13105df66edf
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x90 sha256:117181f8b7e04dad51060d568c23fa7157820d70d0a500c549ae6b15a34b6929
++  __DATA_CONST.__const: 0x90 sha256:ac09bb6e307097a3f2e9a8e2746e1d3f1062d501646cc1072552bddf5cb88c82
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__cfstring: 0x760 sha256:028460c3940e02c6c6b5b33ca8350a1cbf93b41822ff33fee592c81276c89015
++  __AUTH_CONST.__cfstring: 0x760 sha256:4eee7b16d082985d1a0ad298eecda6c85913179d752db76989b67be6b5b09fbf
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__common: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   __DATA.__bss: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 80F695B8-748F-3FF5-B181-7F6E09654CBC
+-  Functions: 54
+-  Symbols:   194
++  UUID: 761C722A-5F5D-33EE-9AB4-2272F2FEAE4B
++  Functions: 53
++  Symbols:   193
+   CStrings:  118
+ 
+Symbols:
+- _OUTLINED_FUNCTION_6
+Functions:
+~ _GetColor : sha256 c2cc39660fd781639cfa2c981c5dd3b4e3b3d02d3910a81e4d88966593b53df1 -> eb2f6ddaf0e6ec97c8dd8fe7e781c2251f54f472b5bca810e5fba5a04a1d340d
+~ _NPickColor : sha256 18e0371f1e19c098b8b22935d522994e1035fa0d207efe2afc5d5198e9d38911 -> ee855f060af38d29fa43d1bf6a9cd84cd87bb91b8d971b5ccb39fa911bbbe14c
+~ _FPIsFontPanelVisible : sha256 7feca88f907a7d8c963e98f905d7715205df5f1a94891061c85cbfa14de8e436 -> f5b59ebffbb560e3caeb0c489e46fbc8103162556bd8b15b6a7b571aecf2d9e1
+~ _CallFontPanelSelectFonts : sha256 c2573cf1ee19295d87312209fe80fd48e184c7fa517dfc816173d7979e28ba58 -> 38267d3ca0d75fdac3829d9f2c78e7746ccb4267fcd502e077890b87173c20cd
+~ _GetHandleWinEventsUPP : sha256 46c26dc02639dd11591ab3ed5345bb55e3db5bbb5d3d4c41bf866bb7bad320a6 -> bc957833fd53ca0a8d7ee283612e73486e3afa29afa08696d58ec09b86f29de2
+~ _HandleWinEvents : sha256 24d55415839eaa287f4e126dba36c10af5f20135d48b37405a89545bca32f366 -> 85093cb64800df98b8c3da800f04574ae13487f2fdc275d312ed21dd8472ac2d
+~ _GetHandleApplicationEventsUPP : sha256 0f94f8dcf62d7432664beea64197df08444e15a80b28d2337da05b85f5e38af6 -> 78b99631bceb51d86d015130a50d4b300ff0cf80e015eccbb48ded959bcc2207
+~ _HandleApplicationEvents : sha256 34509a4c08e678a3ac34714862f38bc722fa0dc14b368ffa7ad42d6672ce393a -> b81dfbfb9bcf2029957da53ffeadb9a1b378852eddb042c34a56eece42c7b185
+~ _FPShowHideFontPanel : sha256 89ba65d9b6b7727471e34e6375867fa116e59a06e24209f8e3cf4ae24937e063 -> ae8e703cebf56b49c97d8ac77c286103270c38a581795b2dd638861fc8baf82f
+~ _InstallPanelEventHandler : sha256 b1e5315a42b75b03e4850204ea91cfdaa88ce8bf4e4f66cf3b1a95c78e65804c -> 800732e0477eed9d608568ca978c272047d08abbaefe9f64c40d32cbc4a91532
+~ _DoWindowClose : sha256 04d734e1aa6d8d65f03dbe8db6b7e1f9f3be6cd9e362cfb32b8e5d60bf90aa84 -> 795dd6d99bdae445e0d95ff55613aa8f995b566a3560fb6fd6296bac461d8977
+~ _OUTLINED_FUNCTION_0 : sha256 98d3cf98423786f2c9c9004d24bc7ffb6b2bfa8cbd0373c5fa42fca028d9ba53 -> 939391b62f56dc0faeee59d39802b59fd9e1e596149d3db7fcdae6694231bcb5
+~ _OUTLINED_FUNCTION_1 : 16 -> 12
+~ _OUTLINED_FUNCTION_2 : 12 -> 24
+~ _OUTLINED_FUNCTION_3 : sha256 ee27f2ad3481b1ac7794f77ed31d4da37a414bfb1b09143b33fd635ccda31392 -> 598791b4057f43f74aa25de02db78753e3410d42503e7888197a1c5a6938c586
+~ _OUTLINED_FUNCTION_4 : 24 -> 28
+~ _OUTLINED_FUNCTION_5 : 28 -> 20
+- _OUTLINED_FUNCTION_6
+~ _OUTLINED_FUNCTION_0 : sha256 b9e753282c115364621cdc9ae0e992bf6f97757ccf48b518c7c02541017ed434 -> c6ce1f2aa221ab51178ce34e0615ad7bf0b7cfca5e2047f2e8ae5c765434d6c6
+~ _CCP_FontPanelOpen : sha256 2c67dffb3d972d2dbfe02e79e07fd1a421cdc87572771c054191c97f255e4e56 -> d9388e6216041d947f8f6c243e3fdde82a139e4832f9cd061e589d512c46c9ee
+~ _CCP_FontPanelSelectFonts : sha256 6b86f0f1f7a8ab940d46d277d0f43b2d32773c67da66df271dff1e14f17a6448 -> 285710b505e0461c0175cf81298df28f4742a3a7b3600150426ed83f883a69ac
+~ _CCP_FontPanelClose : sha256 1ec93328aca1007f818aef16c7dc391938f952fac6da9eb81f8b9a7c46ae7b0f -> faf2f5e40693fc0a31135f87e66361e4097fa2686f32feb4b6b57f65bafca552
+~ _CCP_FontPanelGetSelection : sha256 8e6cb120f5dd46411332f937914470ff9e943f0fa940a0b62bd5675147e8ab51 -> 4a5effef23bb0b6e49b2574d0757189b13677bc5195af54dc006bebe09f1f6e2
+~ _CCP_FontPanelIsVisible : sha256 fbcddf0bbddc4dd8556ba1f277bbcb0d21654ccb2274057ed0b1dd0caed25605 -> 893addd92903f783c2a2f5edb437118237f1187c3c83e0db468b950f3bd9e712
+~ _UserWantsColorPanelFromCommonCocoaPanels : sha256 cdad5f801e4239b5bbf3f7c0bfe8829787e5811265b671fbd52d1f98a81bd0a0 -> 27dc3917371375d1eedc469e07e06469b1516c7e19bdbb3a4d66a64e0aa2c506
+~ _CCP_NPickColor : sha256 2a420c808ecdd8320147bbbb9827dcbe1e2165e301ac48bc93e912d3474dfda6 -> 30f8bb2bfdc28f060e5182a326798cad56b5b526d1709ab254a87c9c2deb6300
+~ __SoftLinkingLoadBundleFromLocation : sha256 71b52f04f36ea3f956fe4c05f17ad77838f52dc5232ec04cab46b2edba5fac1b -> 360dacb2d434a565dc9ab26a548b732e02cce8a2b90dfded9bf6baf179134c4e
+~ _SoftLinkingGetFunctionPointerFromBundleInDirectory : sha256 8ec9a1026d31c4beffae5d31341b1c7c5c4d395227db0a62e5d396891ca074b1 -> a63bcccad3daa0fee98b8fb14c0220216aa4d2eefc2f9aae8cbed3dfb73435f6
+~ _SetFontInfoForSelection : 2088 -> 2072
+~ _NotifyOfSelection : 2320 -> 2296
+~ _LoadNSTypographyBundle : sha256 35687cfe4619da5f5bcd8b933dafdcad5afa8a5fa7a4dce0bcbb01f42be55a71 -> 375f8aff69256e122450b7e4670b2e671ae6e19bbd29537727afbfe6bae25413
+~ _FCCopyCollectionNames : sha256 3d80307595747f583e97cd21bbfaa64a2ff64d4d1bf008d40ce3efaeeba296ed -> 943bcad8454f325e08d9f5e018e6ef9b595a09b3f83a59b76733be9011139ece
+~ _FCCopyFontDescriptorsInCollection : sha256 c2b818afb1df0e93c29a3aecb3a42c6d6eca6353930c69ae62825ed390ab1978 -> e2e0e92c446bcfdfed5de872cfd316d8937968eba05d42c03bac37eb02766d0b
+~ _FCAddCollection : sha256 fc35ec79d5f5af506250d50872537aab901791b8d8ed3344adf230a64d982e38 -> 2e91af23ea0f30564ec38927bb537d50d147d974e062c4aee081c81ee4293e66
+~ _FCRemoveCollection : sha256 7822266c59e78fc27e00d2d24be5f49b9e8bbb4d91b246762d6c2d314c1efaa8 -> abbc04aa8d38799211898eab87ac8dafa63471bb7f7f789521d6eb46187d7ae2
+~ _FCAddFontDescriptorToCollection : sha256 7dcf061f3b99d66ba5ee0bd9dab2a011675b659037a524768aa86db6fcc9c81b -> 617e2fb20f2e2e0b011732dc0f7f459351439b9602bb0b43f422c869dc084fa5
+~ _FCRemoveFontDescriptorFromCollection : sha256 1d4d68ef03d5b70e9cc3d72946ca4e4f40e085239ef39f1cfd57cc1fafdda24f -> ba508fe08494a999e391edd58cbd9f30673cb10b74aa73389b9fe1d808a80a99
+~ _FCFontDescriptorCreateWithFontAttributes : sha256 7c2f0ce43d65c8619145172e680093935b560f1e0a43b9ec680faf83d4e758b9 -> 3315b42513117e5d205a17fd428c0a595f048855ca0e774a500a3d2e9492aa68
+~ _FCFontDescriptorCreateWithName : sha256 378288b771d87ab3f68c6afa12cf2a5a90d67cd19263557eddd16783024d6972 -> 2c460adad5ded311d0764ba77d41edfebf761d7648ad1cdb4e8d9cebd1865d66
+
+```

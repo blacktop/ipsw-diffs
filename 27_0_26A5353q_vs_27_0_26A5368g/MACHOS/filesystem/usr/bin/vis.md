@@ -1,0 +1,30 @@
+## vis
+
+> `/usr/bin/vis`
+
+```diff
+
+ 199.0.0.0.0
+-  __TEXT.__text: 0x6d4 sha256:905e905c4bb353384fc01d3d7cdaf9da955766996add83307f3113cbd1fc5691
++  __TEXT.__text: 0x6d4 sha256:5e27a31d0797def513f2b69de41521d7b68e3a9b0c8c2a827b0336220736bd55
+   __TEXT.__auth_stubs: 0x110 sha256:e95796efe80d8e105b4a881e44d99906085adfd53cd752cd19c0c83b9f0c1ca0
+   __TEXT.__const: 0x107 sha256:35ba2384c287c0bdda8e8111e5f8b80116651d771fbf02f170c43040a64594fb
+   __TEXT.__cstring: 0xb0 sha256:aa3bd007acb4dc0e0594b28845c6c946e711f188b3143fc56612d6a349c99c02
+-  __TEXT.__unwind_info: 0x70 sha256:714a985d012c94d46d25e27a1f6f33577b09dc114c4be55474977027fc580235
++  __TEXT.__unwind_info: 0x70 sha256:5fa71cdc5ab2760571e73597e495cbab31bdf53885bfa5f6520189978a7660f4
+   __DATA_CONST.__auth_got: 0x88 sha256:27bbfea54df58c994fa4191004e52df860cf4496314efe05d61041304212be4d
+   __DATA_CONST.__got: 0x28 sha256:39bfae7f6077880fc2eb783feb0b13e84eedd26ca8a60364ae71972a1f9a97ff
+   __DATA.__data: 0xc sha256:ba5eabd8f0bbb8e84fd1967b2c7a76c1d346f8763289729b117c42c4b918e629
+   __DATA.__bss: 0x14 sha256:de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 0EA8599F-B4D0-3A9C-99AE-DFDDB61529A0
++  UUID: 30F2B8E7-1269-3FCE-BE35-398D25E1DE6D
+   Functions: 7
+   Symbols:   24
+   CStrings:  8
+Functions:
+~ sub_100000694 : 692 -> 696
+~ sub_100000948 -> sub_10000094c : sha256 a4aa8949e91456ae085655e2ade53c5248354201b1ecaccaa6e0d55aeba00e8d -> 2ef65afe658ca6f0c4d09b186c0cfd568368ac5dada6dd7f997f38aaf66c4fb5
+~ sub_1000009a0 -> sub_1000009a4 : 700 -> 696
+
+```

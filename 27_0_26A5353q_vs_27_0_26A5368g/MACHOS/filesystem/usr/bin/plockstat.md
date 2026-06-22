@@ -1,0 +1,36 @@
+## plockstat
+
+> `/usr/bin/plockstat`
+
+```diff
+
+ 415.0.0.0.0
+-  __TEXT.__text: 0x1390 sha256:dce569de8669bf3a7e6248869163608bfb8888590dd75df1d104ba2eec10bedd
++  __TEXT.__text: 0x13bc sha256:bf1dc911ff4bbc3f23159afddfa4b34f190b6277683d61f0f7cd813965001c18
+   __TEXT.__auth_stubs: 0x2c0 sha256:d7fcf0af8dfb7059fd91262dee9d2746ac388fc154e26ceeabc138fdb5313281
+   __TEXT.__cstring: 0x1c35 sha256:bf26e1eff2f5b9987768d6a0a87a0a3a7ce418f87d34c9a718acde26d5f0775f
+-  __TEXT.__unwind_info: 0x90 sha256:863af971600ea6c04b7e5d1340c9f86fc45561b122d2221284f61d4b99cd22be
++  __TEXT.__unwind_info: 0x90 sha256:5e3f3f09b66d2ef1205bfbfa06a312102ec0182b7330e2e11a76f0be5913e7fd
+   __DATA_CONST.__auth_got: 0x160 sha256:bfa106d8edc5d7ea94383b90e52ad004d98bb4b80609808dd1d09e6fa882e2bd
+   __DATA_CONST.__got: 0x28 sha256:b2f5c6b07799940240272808292c09c4e10af07b124719f0f4c96e0976d60a6f
+   __DATA.__data: 0x8 sha256:12a3ae445661ce5dee78d0650d33362dec29c4f82af05e7e57fb595bbbacf0ca
+   __DATA.__bss: 0x1040 sha256:b7de02dad947996e55b72749abf9a096d96e824ad109f9cc0d77d801a175b4ba
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libdtrace.dylib
+-  UUID: 0ADDCCF2-D03E-33F8-AAF6-2CEE635523BF
++  UUID: E06A7AFD-1B46-36A1-8244-E7D2C8A89A82
+   Functions: 11
+   Symbols:   72
+   CStrings:  83
+Functions:
+~ _main : 2320 -> 2340
+~ _dfatal : sha256 ab2f09edd72d3d1b80724efc5f5f7c62f8035607ddae79959755c142442b8190 -> 7b183113f45e7080e912c86183bc0642e61062105a9512b82947b873c679bce0
+~ _prochandler : sha256 465fdf4ec72541742463e683b9e02e8bdf203a215cc6dd758b26b34af6b1f722 -> 62c857c02fd4dacf7da08ea31dcef4fa1bccb985d853474b70b0fc03c151ae33
+~ _chewrec : 392 -> 388
+~ _verror : sha256 847ae18f119257e416d79d897770712baf9af91cfd1564160bd4950c28b8c0f0 -> c12b4ab42a7151c129da0ba88597cc7dab18f830e193918bf74ab200fe8c2efd
+~ _process_aggregate : 880 -> 908
+~ _getsym : sha256 2c0b354e1278a4221bd235d7edc162824495b53efb1e32244cdbd2d54f9be041 -> cd2a126490724e06fbb240b6286c7cbaebe962ba6178b9613da2398665f3764e
+~ _usage : sha256 d4a34aae43510d5eb9fbb2bcb923ad787188201ecc2812109e0aaf0fa362e251 -> 9bb3859d119d2081658ce9c0ec075e9ed4a1bbff44387453ee7ae75b77d50187
+~ _fatal : sha256 d480b76414b15e71fd5e43a654af93779ef0a641ab20e9b54d4c2f8778356a01 -> eaf26658973e1609413519011bf1a9d1e5976461e318edf741349e1fc5e0520d
+
+```

@@ -1,0 +1,65 @@
+## mod_autoindex.so
+
+> `/usr/libexec/apache2/mod_autoindex.so`
+
+```diff
+
+-886.0.0.0.0
+-  __TEXT.__text: 0x6578 sha256:e3e02722b871337ae9653f273ad33a4d5f04b19df7171a6eb8eafb17705b2a32
+-  __TEXT.__auth_stubs: 0x4f0 sha256:b51bc1afbbe6afed4c3c90cbb9db7c1f0395051e579b0e95d45392adebedeb24
+-  __TEXT.__cstring: 0xf5f sha256:926fe08ba1103157c177009caab4a759175b79fcb01e11374234dbfd766ba1f6
+-  __TEXT.__unwind_info: 0x80 sha256:75ece83b85e1ee1f0f5ade96bd9a28d960fc6f6841772596aaba8918a27e469e
+-  __DATA_CONST.__const: 0x2d0 sha256:38f6638f41ffa2b003ab42510118936c94099b49fddabed2d09e38a452d8689d
++888.0.0.0.0
++  __TEXT.__text: 0x6570 sha256:335ffaacba3265c4f960619f4d567906f16cd9036da30dca9abb10dce6d4194a
++  __TEXT.__auth_stubs: 0x4f0 sha256:db79b42c07c32a0d1a5aeb76501143837422663865518b007dcb00e3833759c1
++  __TEXT.__cstring: 0xf5f sha256:9af6709fc79a8b60809cc04b00a7e6ddc906c8d31150b2a2ccdf62b3b165f6cc
++  __TEXT.__unwind_info: 0x80 sha256:5fa906d2c5bef6e4af077a7649c85a5f278e4b64db5a5efab71c77ea55e22b07
++  __DATA_CONST.__const: 0x2d0 sha256:e88f12860c7c1a6b052486c5372e11fd9e069d07ed32fcbebf8d3197d7680f29
+   __DATA_CONST.__auth_got: 0x278 sha256:1adae4fcc828d4e5544f251c1bfc84beff8641e04bf6d38a99c1211bbafae4d6
+   __DATA_CONST.__got: 0x10 sha256:b943fc104059ef9bb23f17361c8ddc3fc69d32af874f15b20d2f4e3fad55d349
+   __DATA_CONST.__auth_ptr: 0x8 sha256:2b348986cc328e9657a0c83d490734cccf16b6b56f66e63689c165eb43c705af
+-  __DATA.__data: 0x70 sha256:ff416b63587e3c0a9070d68d51f856c444facfa9f3712985642c4450f3dfd7ba
++  __DATA.__data: 0x70 sha256:0f64f115317dde74b6771eeb9aa34d79d83a1368a7b18e929c78cb5e97e41832
+   __DATA.__bss: 0x3 sha256:709e80c88487a2411e1ee4dfb9f22a861492d20c4765150c0c794abd70f8147c
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcrypto.46.dylib
+   - /usr/lib/libssl.48.dylib
+-  UUID: 3AC805C2-77FF-35AC-A498-F8447C168E02
++  UUID: A175A586-0009-3776-9F76-032E75349A35
+   Functions: 29
+   Symbols:   119
+   CStrings:  198
+Functions:
+~ _create_autoindex_config : sha256 e13d18d31fb5c5783b7583d84665981b137aa56416195699d16ecc7cd592db3e -> 6d73fd77327d8e8e6736366bba65f018547a48e554949b1d5fa2f2c2bea7d805
+~ _merge_autoindex_configs : sha256 001ba914478b2567742ba11447f7fa9d5870c8e034546f6a8e1ff07c0a95ac69 -> 0a297eabcb34d6e7d80a18fd0fe326d205661a0dee48c9cbb1e6367198200e19
+~ _register_hooks : sha256 7f285e0b883cd35f56f4c6f9a2c956924faab33432cf1a920721834c7db2e1da -> ba9c148b226b68e9254816efc33bcac42f7af22d4eb1f1fc9ed7930ef159c889
+~ _add_icon : sha256 4af9eaaedcf3d66041258b47d5e1b8e1ff1b6b956035d64f4386670fad96ffab -> 7df51599c376f2ea32319bff9fdcd1971823a7c0a14c037e60e7919bcf1d8f92
+~ _add_alt : sha256 8289aea7430c8c5cbd316b1fcadee62d977986bec51aebf8fe8e5b1bc3232aac -> 549556ffe83cb39613c8a85ad3423b58d363368993ac5edcfc0bcde1083bd44b
+~ _add_opts : sha256 290d4a32a08b53e71d7c97f20f42704d6fe7fce12158b49e0d25adce8e31540f -> 17bf893bb12300e852daeeb2daf4dd88e5b0785c93b486658a30105ada880261
+~ _set_default_order : sha256 443a5d8842f8208d904129d93c02e5e06797a76fd3f4f05a2c65a7d534d69b95 -> de6f17130534747d9ce0cd203b558f750a4d9659d6b115f6f07f914b5a3f4226
+~ _add_desc : sha256 2b5575a9a09c75c13f2593fe9dcadd70a7599a02d948872811b4f98dd76aaccd -> 2a701baafa4e1ecf2d0e3af339ecc60570cc266c7ff4c356ea9dc4918b286ef7
+~ _push_item : sha256 e6a59f928ecec63b2a879b1f598b8d02f98eb509cfc80fa33863c8e0b4917450 -> 516fba648ef22f1e52a508f05a00b0687c6f47f2aa2fc636ae0171e29536b303
+~ _handle_autoindex : sha256 489c57d66809c104c4c9550a25a0b8464347d55dc59d565b7b41d8199877d31b -> 9176529954219bf83c3fa3d6a80d2b06bcc7db76f3658d03d7e586f903a3179c
+~ _index_directory : sha256 15c262e981376449a04760718f7d4a89fdb2913574aa1969d51a0f239154103d -> ab6dfe7d77b100b522182e26b2492b6d1f92d6703f6c994446898152a13571d9
+~ _emit_head : sha256 a537579cd118e3382aa92070feef3a9856c3d6a9d3fc87b9bbd0816e01092adf -> 52d23128ae5cfa12abd920f6529512ae736647e746cbe47e9fb3131fc2b98834
+~ _make_parent_entry : sha256 8b1cdbf2073f5ff75c9e8c96c54e9659fd9be003d829901e28cb915bb8c5ed4c -> 557399dc8fdbccda79f4af780ed0a5032dec18519465bdebd3c97c28561f7e43
+~ _make_autoindex_entry : sha256 4f5c09058b21480bda04d51e625b5fe31a0d5d140d2cb1ead10aa11bd05251a3 -> bc67573dec994a9dc0331a6c839d06151dd9f4fc664dca8efe0ca9d6abda3285
+~ _dsortf : sha256 88a9b85aa9f4998637f9ba4014dc4dd79c6318af781c082ad44944fa07f82f8d -> 274418ed3c2f1cbe68d502d4b1ea9524306f2065ad429d3a7f2af3ddcb0408d2
+~ _output_directories : sha256 de587eb7c529402a1072a2bc314297c0927d58afc7b95313b0e3c79f598d817e -> 502a967e1c4cbbe758e32b7b77f521756c3d5567be67b4be80f40d189d6779ee
+~ _emit_tail : sha256 a3f1924e4f08783cec5b442592ce92a20cb8c3fc23bb25ace264ba71a0e75a70 -> 00d8008782a62591cb4656e4304e511e90e81fadd32c9a670cf4da2a6b80272a
+~ _response_is_html : sha256 da97d27fc4c53faed8e4f005962a086ccf5dd5a16431823d9e83ea2032034a66 -> 48c34e8d785bba1f7031dbff015232a5b6d05bfd086aa2de67184e11bc81ebfe
+~ _emit_preamble : sha256 a0114d273ff7a3039ef98d84087b5c36936ebe428b2894b57daf72f4df51e80e -> 58b9ffdfeeb4acf8aac1db545e392a6cda886c0dc8b284ffc4f35f40d4f6d28b
+~ _do_emit_plain : sha256 6a8b452a3ec942a7b16ee57ac63d4ea6ee707deafb17c7d26404df092d29cdcf -> 12ccba4fc25455b8f23556fb630b6c955b8d368ada04b2f9a397a3e947c1bb41
+~ _ap_rputs : sha256 b1374680dddfd6e31df988fa2013cc9bc202ea8ec88c73df2b29703fefcb8107 -> ef3fc97e5cedb0d79d7968f4d95921fbae5bb81ca88ccf24ace8954e237180c6
+~ _ignore_entry : 324 -> 320
+~ _find_item : 524 -> 520
+~ _find_item_by_request : sha256 8a772a881a89d58e07dca346e076cc9383e687b7a22667b64dd2d4cf3dfe5856 -> 6161bdd6b53dddc8a97fdf252e79cf6bd8b04b29446c859978cfc75cc24a4abb
+~ _find_title : sha256 e5f2e1c017a58b49dd1b629a2f523c615242025cd51f026df774dd2cae6fad59 -> 41e2f177f5c8c95590c50c4ce019e4fec798af2af689cc8cd930c3ba74a484cf
+~ _emit_link : sha256 fb77caa813e4fb13c0cfd8b0461c402d182db984061eb3ba2f5ef88f1cc18dc5 -> 18b9044a8ecbe188dcc9a13710fd70b4ecbecea3f217e289184a99a0aa2e34c9
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRbjugDs63E_nh9LrKXIzNhaKOKGLV_zLQv5WSg/Library/Caches/com.apple.xbs/TemporaryDirectory.QaP6H4/Sources/apache/httpd/modules/generators/mod_autoindex.c"
+- "/AppleInternal/Library/BuildRoots/4~CQCNugBXuVk5QyWQghtZ7Xdpnx7s5XYALnb8teQ/Library/Caches/com.apple.xbs/TemporaryDirectory.AuKlu0/Sources/apache/httpd/modules/generators/mod_autoindex.c"
+
+```

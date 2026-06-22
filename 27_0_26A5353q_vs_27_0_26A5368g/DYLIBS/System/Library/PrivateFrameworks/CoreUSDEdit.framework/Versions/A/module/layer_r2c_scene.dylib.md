@@ -1,0 +1,54 @@
+## layer_r2c_scene.dylib
+
+> `/System/Library/PrivateFrameworks/CoreUSDEdit.framework/Versions/A/module/layer_r2c_scene.dylib`
+
+```diff
+
+-28.0.0.501.1
+-  __TEXT.__text: 0x2828 sha256:484c4fa278fd35bf6414f86a33a981fcabedff05a1c9a2697b5701f8d18fe879
++28.0.2.0.5
++  __TEXT.__text: 0x2828 sha256:99aa910cd9027e346d263cd6448b7b3116d2914d240255d1a5bf5c890dfc770f
+   __TEXT.__gcc_except_tab: 0x88 sha256:f5ac7ed9f927d1c3e2a58b5eec769c579fdcc332c0bfe870567c9583d3200e9f
+   __TEXT.__const: 0x113 sha256:db5798312c4a8948c68c60504941ba41afd0c8878bf0b2b1196e7e1ea543844a
+   __TEXT.__cstring: 0x137e sha256:a0ea84841de74d30716bd72f497242c048e26dfa50f2b093326425b00d49de4c
+-  __TEXT.__unwind_info: 0xd8 sha256:7524f41edbc169b11a87ff12e482a68b07acbec49ffeb378b5f3d57dfa5ab2ee
++  __TEXT.__unwind_info: 0xd8 sha256:05a6a154455a4700e121519b75589b48824a22086a0145591ed3961dd30f65ad
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xe8 sha256:98c0dbd72fdf61b26c8121c149ec007452bad7911440a341119499c1efd0c4a2
+-  __AUTH_CONST.__weak_auth_got: 0x20 sha256:b7a04fda26841a0040c3791c7f7affdc0629031506fbb84d682fccd222e021f0
++  __AUTH_CONST.__const: 0xe8 sha256:50058ad498c877c495a6bae800008ed12d6c74495d13f1623bc072175d1c8624
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:396e67293ba6b13027ef3965f36dc8d7505225f73159bf94255b9e4c198352ac
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/usd/libusd_ms.dylib
+-  UUID: 10F56E0D-A8BE-3325-B67F-F461827A833C
++  UUID: C615F1FA-EF7A-3F1B-9FE6-DE745F7682CB
+   Functions: 17
+   Symbols:   98
+   CStrings:  49
+Symbols:
++ __ZN15R2cRenderBuffer20get_builtin_aov_infoENS_5AOVIdE
+- __ZN15R2cRenderBuffer19s_builtin_aovs_infoE
+Functions:
+~ __ZN36_ModuleModuleLayerR2CSceneCallbacks_14declare_moduleER8OfObjectR15OfObjectFactory : sha256 5f3a0f3d6abb0a15cabbd32e37695e1e0e945993d0aac349d84ee9623351d29c -> fabc021de8d66d1d45e7270896a991c0aa1b2c586933be3ec34f2fad9907415a
+~ __ZN36_ModuleModuleLayerR2CSceneCallbacks_18module_constructorER8OfObjectP8OfModule : 288 -> 300
+~ __ZN36_ModuleModuleLayerR2CSceneCallbacks_9get_imageER8OfObjectRKN18ModuleImageQuality5LevelEPK9GMathVec4IfE : sha256 ff69f4ce13798029d54ce3d0360fb10a137a1bd35412d8a84ed09e8b6f7db670 -> 87cbe89b2267bed5538c578c5629fce5246cc55c9e5b60065a02ded50a78d84e
+~ __ZN13LayerR2cScene11on_registerER5OfAppR10CoreVectorIP7OfClassE : sha256 c119196d2a3e5c09b167148e91f9c8cb5b86d2fe3f2cb332fe3868223978dcad -> f1c80895589b13b181270f9f2ca896e07a394b0126ef3307170d40438bcf391f
+~ __ZL10create_cmaPK7CtxEval : sha256 b4f3c44738093c512e1666b8c198a9c40c41c9bac1fa921dbf11cec4aa5bd001 -> fc91c7a03f234c5cba59ae2438530437eafce803489ef2d1ac007b6d7bce413b
+~ __ZN36_ModuleModuleLayerR2CSceneCallbacks_D1Ev : sha256 5c7d4a0badc28a38e5578382001c436cd9422b7e955bea440e5ea6fc09ccb4c9 -> 5129aeefcf37bf226e1a4e37cfbec70a204902d87c003ba5ab4222aa6cdb125c
+~ __ZN36_ModuleModuleLayerR2CSceneCallbacks_D0Ev : sha256 f800fa5afc08106c7e2b2b08f594e8838c1ab7583686c29d423135326e253233 -> 58d1f4fd949fbedbe143cfa41ed9d6f379574dcc705df7bdc8f1ad618e3d664e
+~ __ZN28ModuleLayerR2cSceneCallbacks14init_callbacksER16OfClassCallbacks : sha256 4119936b2b0b92a4538d2ec2fbd3643cb47c98960d8a13d5a3acf28384cd3d95 -> e4b34fc6ec018d44924d3aa63e3ba2884dc3900a8de96a8485883566e400080e
+~ __ZN16CmaLayerR2cSceneD0Ev : sha256 144752fb5813f31f178be268170508053b89c1d344c185fb829927392de7ee1d -> 4382d4db39eb4c11953d2e891b382b39a97c0ae5944c5801770c8ce27b1d86e2
+~ __ZNK9ModuleCma14get_class_infoEv : sha256 14a40056026dcabe1c376482776edb6d1443543e25d60c7647a09c5db9484733 -> 1d5e602ad81c7390eab5912217aaa7e658b0c09d243ae1e8f6342fd87a8e3354
+~ __ZN16CmaLayerR2cScene21sync_attribute_valuesERK8OfObject : sha256 a38e054784ca43a56b7243457bbc5bcc7d582723249d26cac64074412ed715d2 -> 9153826b63a94c61ff5b831fdc608b259af390af47d0952a867894dfbf6aee6c
+~ __ZN16CmaLayerR2cSceneD2Ev : 440 -> 428
+~ __ZN10CoreVectorIP16ModuleR2cAovItemE6appendEPKS1_RKjS6_ : sha256 1e76ac18248e27f3f73e69e49f88a6e8b83c647c7c4775fc06c7aa71856c1862 -> e971955928664ece1943dd8bac08ffff6b4231b6ccdc0d46c5174d97e0ca0070
+~ __ZN10CoreVectorIP16ModuleR2cAovItemE6resizeERKjRKb : sha256 b4b1d5646e9b717e9c571b91c3adb40f7efaebcb0106323f5b669d1fb2bc354d -> 99465face97a0a015df00e24aa5d5879820e433429541ba345260443b2efa260
+~ _on_register_module : sha256 6f2c1e7108b8d09c16be3969391d0d4168f43651556573144492398ea9adecba -> 697dc1dea298a2baf72d122e9f2dcf808f74f94020da2dbe5ff72797c0a9905c
+
+```

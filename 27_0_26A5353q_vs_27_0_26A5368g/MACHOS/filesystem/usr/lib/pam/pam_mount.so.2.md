@@ -1,0 +1,63 @@
+## pam_mount.so.2
+
+> `/usr/lib/pam/pam_mount.so.2`
+
+```diff
+
+-230.0.0.0.0
+-  __TEXT.__text: 0x21fc sha256:dcee5ec9607b7add836010f487d50e594196370256ec43b9bfef663e4149d039
++231.0.0.0.0
++  __TEXT.__text: 0x221c sha256:e58fa41fb605c32bee138ed287ea727ae24a460630e22a36e0c9055faa2ee879
+   __TEXT.__auth_stubs: 0x3d0 sha256:69f1d956945d262c7907dba89b1ddefe4f0a54a50fd762932f9b9b31a48c70bd
+   __TEXT.__objc_stubs: 0xe0 sha256:c9e58d78200827e4c14a4025621cbee251fd7a77d2335cf4367aace38667607b
+   __TEXT.__cstring: 0xbd8 sha256:6bd7dd5d33bb46d2698cac2fe53d584912dad1393ec425fcb9237f2504867063
+   __TEXT.__const: 0x26 sha256:3c202506d3a6d1daebb3ef48cfb6f53411850f9bb70bcd76c856823319cb9431
+   __TEXT.__objc_methname: 0x7d sha256:eacedf6338016e484a119eb5430b94502de1cd210eb697d85b3fa162901456e2
+-  __TEXT.__unwind_info: 0xb8 sha256:b448caa541cbc20dc1942c4549f829105de00ab6dc4265e0f63bd34132fbf483
+-  __DATA_CONST.__cfstring: 0x140 sha256:4e3459a1bbcdc289664ca20ae6f8f95ab5763d56e2386237caa0b3599fb1cd37
++  __TEXT.__unwind_info: 0xb8 sha256:631691c61b036dd66799d07cbcca213bbf1b84beaf8ab35a83fdd1db79cc402d
++  __DATA_CONST.__cfstring: 0x140 sha256:0d79f1d358769819c4a1aa70c907d04d3dc58925a2d702a073e0cc6bef825cdf
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__auth_got: 0x1f0 sha256:a33582465be004a0e656a3815f7acc816d9f7319149ddec3194634e54e5fb67c
+   __DATA_CONST.__got: 0x68 sha256:ad745ecaf836c7acebc652533c717034ec0866dadf29f96ef82956daffc7e877
+-  __DATA.__objc_selrefs: 0x38 sha256:c657bebcfbb3daf342dba29b83a0bf0c462b3c6dd5be01270c4ae4d8d4a7bab4
++  __DATA.__objc_selrefs: 0x38 sha256:ed93aa0392cc867648cca08a12e77d255a3218f5d5937dfe4f9e8859f4c489f9
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/NetFS.framework/Versions/A/NetFS
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libpam.2.dylib
+   - /usr/lib/libsandbox.1.dylib
+-  UUID: D7C24C6C-B71B-311B-9A5D-46826D31A515
++  UUID: 2AAFD48A-3B82-3341-98EC-F9356651B41D
+   Functions: 26
+   Symbols:   114
+   CStrings:  130
+Functions:
+~ _pam_shm_write : sha256 480262cedfd99d3ae49a81563b6f25fefed1c23c8c80c0e8c2ec485791f3fe1e -> f72de803c9ef4dbb8b2bebdbbda82d95dccce32632cede1afa14e1be5d5e289e
+~ _pam_shm_read : sha256 1ba1ed8e64271b33deef9e06e1eab174b613c6bc2c42254f8f65bf8e8f7979a3 -> 2248c73722df3767e498cb3fd6e4f6db9caaff77cb8763ad2232ed9afd58aea9
+~ _pam_shm_cleanup : sha256 0700e1ed59bef9301ac722d72629e5ae1adf37d9caa6e78aff72947cba92f332 -> 4cf7ea6c34abc473c17a02c4ba9783b42e62a094cf04d9c045bcff6ba7870d61
+~ _pam_copy_secret_from_shm : sha256 7bb328471dc0cdf1511b77c2d1000034da96581635e10b99c2954e8f2a234983 -> 1fee241e6c0e7adf81fb2a451dc8dcf4b7fb8ee91d9f194fee1f33708bb4197e
+~ _pam_copy_secret_with_fallback : sha256 8fe50d0a1e7ca6a305465c9b9d40daeea783fb49495f7432a5d345d94c10ab02 -> b1d1bd43bc08f9dfeb32198ccf1d8b2b3c8bdf5a8e2627e07e7047946d58e642
+~ _pam_safe_string_release : sha256 856db799f3d81c8268663799c9329a51063bc3edadecdf108c3dac4ec3e23163 -> 6ab2a71cbfcbf9c04135c668ec58d91671b82c3a26a144a9e9a9bd372f22abb8
+~ _cstring_to_cfstring : sha256 e9b8cc4faf179a5e0091804982991c678f75ec11a53d6d69976843c2d2a1abf6 -> 2c38fcea5cb9bb2e5388f16b3c2137f8a3bfc2b1abbe8bb00c3c3308609dfe0c
+~ _cfstring_to_cstring : sha256 d1b17c589eefb8fa073d2816117d87e464d1bace85f151fdb137c36d720b0561 -> 5ab3cdb9cb739aa612fc429bf93237a3fda399e6da959099d38a80e0308fccb6
+~ _od_record_create : sha256 ebfb3324f0c7b396b1b8cc5984a1f6872d2263beff02cdea571088cbfe14d247 -> 0756be712bf3bd75e412fdd79a1b937f20293ccd5a63fec4da0a6885347843f2
+~ _od_record_create_cstring : sha256 e91ff13c20c3643af441e709ac8b4e4ec0c063ddb21471303adbd680fa91d6f8 -> 014dc9afba799d60642e685b5f5c92ad664f6b6a5c34c2f3fca7b077ddbc173f
+~ _od_record_attribute_create_cfarray : sha256 8e8a5141077d8f96036ac7896992b640af3da6c538c2348e6e6c53d2c7d104bf -> c850f62e07139c8b10fc01e8dd075a1780441e5235443636ace4df0a074a5156
+~ _od_record_attribute_create_cfstring : sha256 1a821db5fd6b4bc62d53f6a3af126088124259187d1307f30d39daa46fd61eda -> 17687403315f243849f8677e9fe1875d71135d925663d4f9a9d5ec61523ba1f7
+~ _od_record_attribute_create_cstring : sha256 0afa41d23bbabce5d2f52e79baa7ea5e817c73611f5d646e8c3a50c290a26211 -> 388f3f76124b5d291f52dec9cbc58949151973851ee8b3f5119e349cb5248c70
+~ _od_record_check_pwpolicy : sha256 0408b363df91fddf78aba99f2e3724a27ab268d6c85630307fcc970e27f7dbce -> ae73b29f2440f14a9bab8d01980cbca3acff9bbb7af68e40bd46dc21d2c2e5b3
+~ _od_record_check_authauthority : sha256 920a5c021b7e7a37eae4b56885c97e0adc3a5dcd1cd0a988b27a9c0105817eb9 -> 2e44a640c8d62b48f8f84ff43a006d7e06b84a6d594aa73677ade7e78c09173b
+~ _od_record_check_homedir : sha256 9c4a1666ff5f4a312fdce02f7bd32a200571ad240235fcd20ee1397e39bed82a -> 0f37d746fac015427d39d3a594b09185606481498a7a0f142a4e9870b2e0f430
+~ _od_record_check_shell : sha256 0a0a509cf87104e5c1e74503d10716dba5ff3a53e4274acdbbbebd9174b0b1d5 -> cedae74a52fef9eb2894dfb3eadf12547b797b1d370de87baa1d08f30a9632be
+~ _od_string_from_record : sha256 6ec442895dcf3bc7f9ff31208b414e3846547cb340a4ce3bd93ee41d106efe62 -> 388c1e224ef88d0871bddb6defbfa23339cbafded3ff3067a4a845ff7b572f52
+~ _extract_homemount : 468 -> 500
+~ _od_extract_home : sha256 f3fece70f1dc1ca6745137ba7703fd78765c17f856395f6a8418314d41318672 -> dbf0faaa5d96af326c93fda58831d8c05ee83c77c74bd70d094f0d3a4112d4ec
+~ _od_principal_for_user : sha256 a8a504d1f885b8a1f82d3792c0875b33b039ba859aae0f6039e46c93424c20ff -> a642f77e176e9e69089aae4893ca0e1bb709ddee3043b8e204cd5c7c58c85a99
+~ _pam_sm_authenticate : sha256 6f3aa2950eda1609f078f17c16205fdc448896b262c7fdb059476adb67719a0b -> 18e29e7fdbb7eee6ac59cad5b27c1618b53babcc225b1a4b55a0dfefe69d201d
+~ _pam_sm_open_session : sha256 afb3f7c3b41740ebb41aa8ccb8488c68435029cd7b61c99cf04c7fe5667c9ae9 -> 612300599fcce1e9239747e8bbfce49bc5a68349302cc3a9e1cf2aa361c77a42
+~ _pam_sm_close_session : sha256 f765c69ea00fb5670897f11c4ec1595f3b101196d4b13b81df45fedccff3a630 -> fe3664bc9b3d11ae9ee8d2540faaf5eca2e4f08a80699038b955239ad217e899
+
+```

@@ -1,0 +1,50 @@
+## machine
+
+> `/usr/bin/machine`
+
+```diff
+
+-1066.0.0.0.0
+-  __TEXT.__text: 0x11cc sha256:b00c278d9bcdd381aef5e11733254c1b083962fc4b4fafecac362dc93530237f
+-  __TEXT.__auth_stubs: 0x420 sha256:7131bbe6882727e0f4b44cb83112d30065afea25279cbc63cae6d4d0ef664f37
+-  __TEXT.__const: 0x5f sha256:97ac5f171554eb964710e0efc0590a0c817777bac3c20a785ac25cc4fc97c1e7
+-  __TEXT.__cstring: 0x7b7 sha256:3965541b9c4a69071611a935947221f974538f0fe8fc7a2abeb0b155d8e1d918
+-  __TEXT.__unwind_info: 0x80 sha256:4d6ed743b2aed457d1a7a372c12c744d409f6887709dab06708232182f2b0662
+-  __DATA_CONST.__const: 0x80 sha256:64de9738edb0d92b3d01e9721a0ec44071a4eb0ba2573487ae288799bb0ecb87
+-  __DATA_CONST.__cfstring: 0x80 sha256:107163075019ddef23056ec74a66dd8165bdb26f7fcfdb01614955493d2a7684
++1068.0.0.0.0
++  __TEXT.__text: 0x1240 sha256:e8559929441807ad3cf6f2475fdbd103a9c8a9a73f3c9fbde00b183006109433
++  __TEXT.__auth_stubs: 0x420 sha256:aac6909bf74b9be35ed0b3ebdb3c87222d30f161d53453d2fb8c4cd3d6a7d66d
++  __TEXT.__const: 0x77 sha256:15fe273e225eb079865d4df9238fc5bafdc7bc081ddd35423f22bedc1597da0d
++  __TEXT.__cstring: 0x7f4 sha256:7aa149f06016b15d3d940b60c3c38b1c6ece3afdeb4850e1f796b13f97cb01c9
++  __TEXT.__unwind_info: 0x78 sha256:306ebb65a07ba91a48bfc8f76d38d44b7665a0c068b3be75af5de0f2c4c7eacb
++  __DATA_CONST.__const: 0xc0 sha256:222979242344b096e0477beffdf83aac46f19b11c8cac2d102c3f454f8d7e663
++  __DATA_CONST.__cfstring: 0x80 sha256:a874ab2d3bef474072a2977979a80950731e806ac5d3183852b8a02fed544c1f
+   __DATA_CONST.__auth_got: 0x210 sha256:5bca6a012a78123585e09e32201690389f17a5469e5cf66842dc14ddb1a66a87
+   __DATA_CONST.__got: 0x28 sha256:9bc2a2802a83b704e8f0df06e395234d13b4271cac04718783656373d1e40c35
+   __DATA_CONST.__auth_ptr: 0x8 sha256:6638d3e4c30efac4a1e50d12603910f2483acba53b78130201b722efdff4caa8
+   __DATA.__common: 0xa sha256:361973b1ef47b3c7acaaef258613ec1a5360aa68944c36a6b7255f616e68ecae
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+-  UUID: AFCE7EF0-38DA-34DF-AC1E-6C7B45709A56
++  UUID: CB2F3F48-E408-325F-89D4-69C55D91878E
+   Functions: 10
+   Symbols:   75
+-  CStrings:  73
++  CStrings:  74
+ 
+Functions:
+~ sub_1000006e8 : 232 -> 256
+~ sub_1000007d0 -> sub_1000007e8 : sha256 52b0326ea16a12fa3031f43c56bd5237824e704efbd8af9330309825efc3131b -> 6fdb06ba55421bbb8394e9a2409b198b9ef22365bb6811e05fea642e50d750c9
+~ sub_100000850 -> sub_100000868 : sha256 771bbd1205cdd35160e76749649d0b6fa5610088762b509ef1fef1f07c20545c -> ac4261800f23dae0dce794e1aee4a3ccd822d771ef3c38409b3b6d792a6939b1
+~ sub_100000b90 -> sub_100000ba8 : sha256 18e0a7520e708244942806b96515c2c23c08ef54cafd4a258d8d6ee12c4d1d29 -> 0ae4082d6b27c06fc85e3b7f6a223ea303d53d177bb627fbbe9eecde5d91632c
+~ sub_100001214 -> sub_10000122c : sha256 0444875f98f3d2d3b60120df6fb060b56b818db953a41c711e415b5bfec3cbb6 -> a1f9a8a28c92187c6b6c57e1aad6ea119c43a58076a7bbe4b9a740982be68d1d
+~ sub_100001258 -> sub_100001270 : 344 -> 392
+~ sub_1000013b0 -> sub_1000013f8 : 696 -> 684
+~ sub_100001668 -> sub_1000016a4 : 532 -> 588
+~ sub_10000187c -> sub_1000018f0 : sha256 29b01250bc6c725bfe0a48897fc453bfbcb6a19f0f7ac147edd4786063a316a7 -> 9e0ec95a7a2305a4ea1bf1f21c90f0ac30474497ea650464b79e8d3fadfc639c
+~ sub_100001898 -> sub_10000190c : sha256 ac82e5780c0f002daf4354e9957866d19fafe5343e5daa738e8b47ecfb9bbbf0 -> b965700bef89b379dee4e8a667f619603b26d7093528ae37bde753e7595e56e7
+CStrings:
++ "posix_spawnattr_setbinpref_np copied out of range %lu of %lu"
+
+```

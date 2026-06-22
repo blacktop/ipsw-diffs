@@ -1,0 +1,50 @@
+## update_automator_cache
+
+> `/System/Library/Frameworks/Automator.framework/Versions/A/Support/update_automator_cache`
+
+```diff
+
+-537.0.0.0.0
+-  __TEXT.__text: 0x1190 sha256:f5bb2444c59505dcaba76958a1ebeb50bd292776b8691732e1b2f6de70b5b6d7
++537.2.0.0.0
++  __TEXT.__text: 0x118c sha256:3e82722cca6474d9d85097c710a7543b49be61fdda33eac083f134e83eed19bd
+   __TEXT.__auth_stubs: 0x170 sha256:3568471099155d8ff48670dcbba18de87aa88b060bc87653abac18860629a639
+   __TEXT.__objc_stubs: 0x540 sha256:1a0f322e134093595312dadb11412f3bd4f5a69cb6eb163a4e5f9d918cdfb89b
+   __TEXT.__objc_methlist: 0x2c sha256:bdc125d0df47dcbfea0244900013a2ab4c048fd1e895fcaa8f188b45e8fcfd3b
+   __TEXT.__const: 0x10 sha256:825b13da936b93cafe948a525b8f28a1ea24c636e7f351fa8c13e897547d3eea
+-  __TEXT.__gcc_except_tab: 0xb8 sha256:3d7171cdcf4cc0cd441e90c34b93056bd4080f2ee9440082ad66d92a690dd9a9
++  __TEXT.__gcc_except_tab: 0xb8 sha256:1710ec023b6b4e77b168446822affe9e4cd8bef6dd1cf57bd81c5bccc4a0a367
+   __TEXT.__cstring: 0x418 sha256:e48d53a87366af5bc8b0d5d9c675c579bf56ab0a37fab344d44374ec5ee14c58
+   __TEXT.__objc_classname: 0x12 sha256:8fb93c72c4ad4860897ffcd9c3cde53d2d40bca5f7df28bb8663d88545678a87
+   __TEXT.__objc_methtype: 0x18 sha256:a018b8fc9385be7aac2f77a6dfb0280710559e1275d5b49774fe94db3f79b020
+   __TEXT.__objc_methname: 0x385 sha256:2786af9ea3472721d6ff9c7e2b4878884cdaef8ef3e8a608ce0130989dc74f32
+-  __TEXT.__unwind_info: 0xa8 sha256:d4573d384e2a66651b5e616957b65b79fc415533776da4b4cbe6bca8cd5b6f6c
+-  __DATA_CONST.__const: 0x90 sha256:1faef34b0736b3cf436b23999fcdd90e3cab69d630b96ca0cfc9f07d04d42b5a
++  __TEXT.__unwind_info: 0xa8 sha256:0a9391fb5fae3c3eee5b855813003c95a0f93361c34ca04da44bbd3ad8abaea5
++  __DATA_CONST.__const: 0x90 sha256:483646c6c5341a390eaa99fe0dc59412f3ccf9ef29a461339f81d6154c2194a0
+   __DATA_CONST.__cfstring: 0x400 sha256:e67410e94d9eb27e1f7de9ceb0d74f94d9ff491f08e9e19d9eb5721ddebf8c55
+   __DATA_CONST.__objc_classlist: 0x8 sha256:b079aa36ccf2aed3fb5790fd3042c79e1ba34288cceb2e3b586819e1eefe5ccd
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0A841EB4-86F0-3068-ACD4-C0FC5D1CA0D6
++  UUID: 3030B06A-4865-3369-B8D0-3C9F982C9EC0
+   Functions: 16
+   Symbols:   45
+   CStrings:  119
+Functions:
+~ sub_100000c2c : sha256 bcf5a640188e93e82b253dab4ff2b719f276dbe684afd34923ff31c042409d31 -> ca57fa52c10a308f702bc25b6c29c71bfafc5830b5f62976c61693d11bd42618
+~ sub_100000fec : sha256 177f619fbce64b57ceb6009c59538d561dcd4af4b4a9572f1e4469024fa391a1 -> ee59864ce67a9805228058ab752da583ef78f7898b74b515760bd5deae497108
+~ sub_100001048 : sha256 eda0701e1ba02ec80a16bfe14fef3ca9fa9a80da7be8f8aa67342f533c881045 -> db4190c9dcdb6bef2efa1fde3bb74a650640effc477a7f2e2a9e03d356bbe94f
+~ sub_100001118 : sha256 050406497a7a89b3709fca9b1a8299a5c321fe706c09a5c153627b3953b8dff3 -> 0072534a4a9f2bb9103838441a835347e7dbb03e02eb98b9326430d8d1c47813
+~ sub_100001120 : sha256 c1c23d222c4cf4817576f983408303d8546ddd9bdc990faff86ce77ef6307882 -> 93a7356077877d09ec65b149b532abc19b568421753a580842107fb02ae3ae9e
+~ sub_100001128 : 1564 -> 1560
+~ sub_100001744 -> sub_100001740 : sha256 f0f9e065dff43fcf5f6a50cd55cdea38a603665c8d2546d74dfff3df12ce806d -> 15228b4d0c2ea0fbd4e4e14aaa1101edd04ccec74a5fa6ee6b37204d7b49fe7b
+~ sub_100001768 -> sub_100001764 : sha256 bc718f12a376ba81b260d3fa6e8418643a85c90afab805335abde3d9ace3323c -> 665c58d7671cd0cf24b38df5464701ee12e01b7c95c695fc66c1c42f20cd27f6
+~ sub_100001ac0 -> sub_100001abc : sha256 1897607f3a0efa797b6bd2c72f56bf3f78a495b3ec6a6d139f80de305fbe45d4 -> 8f793de8c84015ce716d6edeb6871040b8e7afa80d64cf23433e9f31ffa03062
+~ sub_100001b2c -> sub_100001b28 : sha256 f5899c92cd92b7e5b2ef2e3f342bfa66436406e70485c66e4c2e2ee64f3a3e17 -> 52b7072b33589443e6df457dbc345adc324b199d6a5d12b2539d8e22733c0a36
+~ sub_100001d38 -> sub_100001d34 : sha256 4b52ddb9fa16aa3bfe7f5edcfe80f36b3058e8b5e3306633cf37b9a98fc00948 -> 35f1d258117ef50dfc97288ab983b90ca9f20f58a7a98419c58ddb90a482a718
+
+```

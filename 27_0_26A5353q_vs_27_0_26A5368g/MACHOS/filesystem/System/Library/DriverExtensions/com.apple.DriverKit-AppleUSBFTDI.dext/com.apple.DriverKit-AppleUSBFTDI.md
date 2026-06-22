@@ -1,0 +1,39 @@
+## com.apple.DriverKit-AppleUSBFTDI
+
+> `/System/Library/DriverExtensions/com.apple.DriverKit-AppleUSBFTDI.dext/com.apple.DriverKit-AppleUSBFTDI`
+
+```diff
+
+-153.0.0.0.0
+-  __TEXT.__text: 0x139c sha256:4b198a081c24ebf5e2bc2c13a6b98d941e87d89f929465b26df3a7f8ccee167a
++155.0.0.0.0
++  __TEXT.__text: 0x13b0 sha256:a5d0ce171fb7cf3e14dc02976512b8141c69733658a22b050d813e96f5c251c2
+   __TEXT.__auth_stubs: 0x1c0 sha256:693a1bb5ea1398051e07972997e847a8ddb2e0a5e5dff61a8ecf0c47dd40091a
+   __TEXT.__const: 0x158 sha256:aa7b687ab7004ec500f2518d7fc736d839c473b2cd582b8c281f3839e60fc3b9
+   __TEXT.__cstring: 0x23 sha256:fd203d3d7c4cee9bcbcdd28e1f799a498502453eb6238f8682982f990d36bd25
+   __TEXT.__oslogstring: 0xaf sha256:95708ae076d6c799424460aab6bc7c7cc08de362e0f9ad7fc72d4f0ed373d910
+-  __DATA_CONST.__const: 0x198 sha256:da91c543f1909795a958d77d55c6923b0d67c5501564d37bc9d955cc4dfb4b94
++  __DATA_CONST.__const: 0x198 sha256:038007967a2610e5fd49d30f30a55eda1c5e2af9f6fdbc17889537a78ab07c64
+   __DATA_CONST.__osclassinfo: 0x8 sha256:c369b252302387030203781fde8c378dbefd1666a9e351e2824b14c05b402501
+   __DATA_CONST.__auth_got: 0xe0 sha256:a85e60e2d8bbed7bceaf6626b552f20244de555eb5f6b1ecd3fa0392e3f380d2
+   __DATA_CONST.__got: 0x10 sha256:f21f26a2bc8ac4755358f89118840694aee33a368797d70a7533dd5d706319b9
+
+   - /System/DriverKit/System/Library/Frameworks/USBDriverKit.framework/USBDriverKit
+   - /System/DriverKit/System/Library/Frameworks/USBSerialDriverKit.framework/USBSerialDriverKit
+   - /System/DriverKit/usr/lib/libc++.dylib
+-  UUID: A2DAED0A-34D1-32FF-A848-B502D11E1871
++  UUID: EB869173-7D94-3089-9AD3-FD130538A822
+   Functions: 24
+   Symbols:   71
+   CStrings:  5
+Functions:
+~ __ZN12AppleUSBFTDI4initEv : sha256 62e20706d600a2a9d1d7d46f321fea2bd7371d2b8a80ee6be603682728d02250 -> 31c77b692dc25fb4f5517e64cff752ab88913ea74a984d8c278240323382038c
+~ __ZN12AppleUSBFTDI4freeEv : sha256 f5878f9e8e501b795372bd988f142ec959dd71f5622b91103b7e060b629a1e0f -> 5e47ecf096a640a04e5f403292bc89356d472ec532874344ef3c53f2918ce1a7
+~ __ZN12AppleUSBFTDI10Start_ImplEP9IOService : sha256 610085241a28d24eb3f7001c70ecc680ecbda3b0be86794c2d982b0385c22900 -> 269e43d6e203adea759b3c3d2c7f4a7a757f66f58d216ac087260f2e8ec71e35
+~ __ZN12AppleUSBFTDI14handleRxPacketERPhRj : 284 -> 304
+~ __ZThn64_N12AppleUSBFTDI14handleRxPacketERPhRj : sha256 134d5deb0b99f18c93afea48b2b1f3720beb47de191cdca732a034f41933a4ab -> be2aafc17f42dc6c98768c821206a710ae55c597ad6f6cb98c0ab07ccb2cff2d
+~ __ZNK18AppleUSBFTDI_IVars19calculateDeviceBaudEPtS0_ : sha256 570a5fdb31983cb97468f279e50920b202a2e05944044744edeeb11943015d17 -> 0ddb82dd33214fb9dc2223e47a4de9ea8526095721c284520eb5708dbc9a69a3
+~ __ZL23calculateActualBaudRatejtt : sha256 ba2b611e8485ad96083165493c034e1887e3c85b62a1b3ca779bea31ed6737e1 -> 6ae63a683c21051d74fc54bf73ef77e2e0bea29b692bf9daba2e5909f4cbe83b
+~ __ZN12AppleUSBFTDI9_DispatchEPS_5IORPC : sha256 97f726b4f9919ee0e77d46392d195742a7837041973ab477bcf65393c776ec3a -> 327ce4e474b9aea99b3e81e804014962bd27f8cf0d00898847b478d0ce30675f
+
+```

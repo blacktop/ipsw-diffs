@@ -1,0 +1,48 @@
+## TrustEvaluationAgent
+
+> `/System/Library/PrivateFrameworks/TrustEvaluationAgent.framework/Versions/A/TrustEvaluationAgent`
+
+```diff
+
+ 38.0.0.0.0
+-  __TEXT.__text: 0xde0 sha256:aa4921bfa644a8bc4d361b3751e309521c0ba8fb65191a73ebfd594583557a51
++  __TEXT.__text: 0xdc8 sha256:58df83854346ecef8785082ce16019c9979cd604425dfa954d36b63b98556591
+   __TEXT.__cstring: 0x17b sha256:6e38a4d22ba7016d7e0fe530535c0916fe9e12e5cf395d442ce57aca44ab4a3f
+   __TEXT.__const: 0x10 sha256:de68e038682500ae384080410c88b70128b885352e89de6df4d661e6127154ea
+-  __TEXT.__unwind_info: 0xa8 sha256:17be93c573a21f59ac1c7ce30a4d00bb834307b031a2d49468bfaa06f9661f4f
++  __TEXT.__unwind_info: 0xa8 sha256:28b31c4e4a7fa22eb5e3f3812102b1b706ba44c7210bdeef00dc8db6dac7bbe6
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x48 sha256:ea473e0c875d85fd5a31dbbcd65a05b6599f04313ba5914843f4aa959e8a4a9d
++  __AUTH_CONST.__const: 0x48 sha256:f4f43bbbaddb40e66eb40f6f9482675e0f9de514b4eb6853533d0b15a2f122ec
+   __AUTH_CONST.__auth_got: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 24F8C4B1-FB6B-3DEC-A707-1676ACB5DC9C
++  UUID: 707310E0-2E08-3BE7-95D6-5A003DABCF5E
+   Functions: 29
+   Symbols:   57
+   CStrings:  9
+Functions:
+~ _getServicePort : sha256 4bdba6ce022921b5c9df6059f1cb8a977b29a71921465ad02bdb0cfb7f447826 -> 69ea49a74e401a857101e7fa71ecb77c2f68d85af022486f6f6df0c78a6108a2
+~ _TEAVerifyCertChainTrust : sha256 1e83b1b671df49af85cb935c418ff4b65b1bebeb835fd5536fb86ec438978f18 -> 8d6ed94f59e318093a8a1755b1360c4326aaf35b1be8c089e9631f644e7b155e
+~ _TEACertificateChainCreate : sha256 85be5b45bbca7eb93b42fa819699b7769decfc2c19215a3df4cf3deb4fa6dd0d -> e3f3292b3d10aaad29989a270f1d6eec06ea3f93affecd7a819ddab525781773
+~ _TEACertificateChainCreateWithData : 252 -> 256
+~ _TEACertificateChainAddCert : sha256 69690676d883ddf0f859a2f49e2bed9dd416bcc7cc6926bf44f4f942702d089d -> 982fb8748823bc7d832b696c788179d0dc27cc1426851ce012ba76676163fd37
+~ _TEACertificateChainRelease : 192 -> 176
+~ _TEACertificateChainEnumerateWithBlock : sha256 0a2c2952b872f30d30e447d507f1b72b0d7b4f90508a6aa91e43420d456d1dde -> 126f112ad7f27c00358140d3c61e3837a507a27ecadae7f074db2bcf0ffa020c
+~ _TEACertificateChainGetData : 300 -> 292
+~ _TEACertificateChainSetEncodingHandler : sha256 e32ed2f00022c16f4d272aabd6ccccad627d7bdde8f01dc3e818b21f3a3db398 -> 8f3dabf03539951486b3805cfab61893d3adc45fe4cccbfd73aa00a59555fefd
+~ _TEACertificateChainSetDecodingHandler : sha256 ffd2d19b0cb044f84c3101a38b1a429bfd91790181740d479c574de07bf3af3b -> 09fdad3e1eb9a35b9209dd55f0353279b08019f5af3e1ce46bcdb6693ec86439
+~ _TEACertificateChainGetCerts : 164 -> 160
+~ _TEALog : sha256 2951bc9a3014735225de9fa91af9036461eb24f31e3aad9d036693c0065391de -> 3040b6b7919255954b2eabbc46d901ebeaf332c0ebdb20d29db34f28230987f4
+~ _TEAErrorCreate : sha256 e0ec294b5b3111108af5a339c11dce76b9a62e7ec02022ae77726ad167080e03 -> b80a96e2fe1f2b797992d1dca803ba421f04b7315af0fb288faf8060eee02ecb
+~ _TEAErrorRelease : sha256 5d0095c3210cf88de17eca095f4e3d0a099175262b7114678610f67ea6c76daa -> 45936ec98a34efa016b195c96a233016ce53d9dea0978401e3ad97b606e7bd51
+~ _TEAErrorCreateWithDescription : sha256 022542339411fb6a51fcc8a61d008a9890bc63f0a6aeadc2ebe212f5809cfc39 -> a18a912ef08ec889e7ba2d0edaa9c39928310b422d127da2ff2e7e6b27239b9a
+~ _TEAOptionsCreate : sha256 a54e2fe975a1b2c8099af50d59c35ce295f09ccad6c48ea12fc3926fe9ae9c5a -> 49b8f670f996f6d0fa39394ec8f8cb4c53e7bed827710aa7aefd050a3d34f06e
+~ _TEAOptionsRelease : sha256 4ffe2b8a17e8ac87b6378a82b2295cce30fe83b2bbb9e72b356a5e9c4a9f6c4d -> 7ddbdf2360bf511d188d5129b25650502c5e30653665012c8f85006f25c16be7
+~ _agent_TEAVerifyCert : sha256 d93e78fdcc84f144e9a8608248027f75438a3919f549331f64bb2c11abfd60fb -> b8a391a223a99f0070d28ab7fc4e6be7b64fb6395b762083d74d41d7065c6326
+~ _TEAService_server_routine : sha256 f966af6bcaddef497ee99646c9bbaec027b156d9e94233b465f5b93e7f499e3f -> e707796f3f0ff53d6b467ce23f1d1f08f752eb84642492b2741c16cb6e65a93a
+~ __XTEAVerifyCert : sha256 47a630a842900820e819284d4cfc3c14a9f4b0fe5c38679511ae74372c18611e -> 1b6d57ab7170ee44e36fd1b31c78e0c95c193b6fed08b0abf90e68d9811435f1
+~ _TEAService_server : sha256 493a262e82d3b9f40bedccc5664ff078640636fee94f7d4e7385b368306d294b -> 6916f5c80274d3381f6093fd6d1f6fa6da59677b9b0d56012ef48536ab2c34ce
+
+```

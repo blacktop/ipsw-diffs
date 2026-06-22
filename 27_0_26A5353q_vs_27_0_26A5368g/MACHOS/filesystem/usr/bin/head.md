@@ -1,0 +1,31 @@
+## head
+
+> `/usr/bin/head`
+
+```diff
+
+ 199.0.0.0.0
+-  __TEXT.__text: 0x4d0 sha256:f93a7de7bd1e3d573581122b3a77ae4e8a80059ba157cfa07eef74826058ce7e
++  __TEXT.__text: 0x4e0 sha256:ba2348cff2843fb214f2b5a03de36aae71ad54248a0a47aa58f935b5a088eac1
+   __TEXT.__auth_stubs: 0x140 sha256:8f4cffe49c122e18450f3f88476d15d54ad841adc71efb2185e2cfed805504f7
+   __TEXT.__const: 0x42 sha256:05656b8493bad531136ad16df87de84f2e4f635c54961223037a2ebefb9ca6c7
+   __TEXT.__cstring: 0xd7 sha256:7150f006a907f0bb67b5cc2bf7cfa292d68fd5595f2f1bea64390abddd4f9c5f
+-  __TEXT.__unwind_info: 0x70 sha256:39527dce4b9daa1ccdb01e56cab58535526361eb392bb149d87a72ce82b28201
+-  __DATA_CONST.__const: 0x60 sha256:079159338779ebcc14f0e33d6c525ac1ce78db9d63d5a246112347665638b652
++  __TEXT.__unwind_info: 0x70 sha256:75729671a7e9accab59e9d1dead95f91e3c5e1a2bf9fbada5c7b22dfe2790e0a
++  __DATA_CONST.__const: 0x60 sha256:29cd35337df8cb31896dad44262e74cb73992172ba0517b18263e01b646b2f31
+   __DATA_CONST.__auth_got: 0xa0 sha256:b58f6fa62296e56b1c350ff0cbc9f94f2116a125e1fb9d798e0d880312a583a5
+   __DATA_CONST.__got: 0x30 sha256:adfc1d99d3ab45ae9c7f0a9ad0ce6e9b13665be59df74582e16b208d8c69a3b0
+   __DATA_CONST.__auth_ptr: 0x8 sha256:c431670af075ecbd39cf30ed1ae5634acecff3e575b26a0970edd75aa87b1b12
+   - /usr/lib/libSystem.B.dylib
+-  UUID: EBB65077-C681-3CB3-B24E-51D878FE1BE4
++  UUID: DFE1DE7A-8C27-36BF-B26F-06F56109F496
+   Functions: 5
+   Symbols:   29
+   CStrings:  14
+Functions:
+~ sub_100000590 : 800 -> 816
+~ sub_100000a10 -> sub_100000a20 : sha256 2230146c7634c844cde26444f1d6bd3c05c6485f52964ba5053ca17476b824fa -> 84f531cd23798a9412f0efbe992696244728340e8b70c279b23fd641f022b44e
+~ sub_100000a44 -> sub_100000a54 : sha256 2df3b6b6d4def97dcdb3c76dbcd7767b52054c336b9088000779b4863812f7cc -> 7c1bbe398a1cc4cc086fcf4f3df92e26df6d36ff5397c5cd423d33aebb80e635
+
+```

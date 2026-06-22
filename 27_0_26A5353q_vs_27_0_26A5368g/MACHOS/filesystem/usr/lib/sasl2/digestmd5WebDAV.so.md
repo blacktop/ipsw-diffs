@@ -1,0 +1,88 @@
+## digestmd5WebDAV.so
+
+> `/usr/lib/sasl2/digestmd5WebDAV.so`
+
+```diff
+
+ 195.0.0.0.0
+-  __TEXT.__text: 0x6d8c sha256:029c05941ea07d9c61ab8e48c3125d06b2d6d35a5e2c18a88d2a3e7fa6a37205
++  __TEXT.__text: 0x6de4 sha256:76a2b70fbef4025b658b2b2c36af4adc9412b9cd567370776ab777299108b414
+   __TEXT.__auth_stubs: 0x1f0 sha256:fa49516be257001c4ee3c5817afc921ee7d3cf7eb104756851bf03930ba74815
+   __TEXT.__const: 0xfc sha256:ec7c03b8f8adcc7ea53f23dbf2e99369936a72d185ac8bc14f5d239c35be7e6e
+-  __TEXT.__cstring: 0xed9 sha256:49905c520b7c931ac6e48f7528844ca43f981969f1aaa92414099ffca873120a
+-  __TEXT.__unwind_info: 0x128 sha256:204412cd9318e208931761403d4000122e4fbcd60b7be99d848d3d1d473e28bf
+-  __DATA_CONST.__const: 0x18 sha256:4efe8e9264049808b4173f4535f789762b2a0f2524855393a5f2016a3bf2ee45
++  __TEXT.__cstring: 0xed9 sha256:f8e64878f63b0b78f2c9d5c726fd4648212b447911e671b5f64dbda81f542807
++  __TEXT.__unwind_info: 0x128 sha256:4be5f19293d7d04354f0f9cd425be894ca5027d96dd8af99e3b4ff552ee5b5a3
++  __DATA_CONST.__const: 0x18 sha256:c11d323e98378965191bee715b61023d28b60d1ec0e2beed7fdf4afa526bc792
+   __DATA_CONST.__auth_got: 0xf8 sha256:19d11b4768563c2fe598d40386769d21cc80eb920a8d7ca16679561570e38e1f
+   __DATA_CONST.__got: 0x10 sha256:2c46779e471ea78b7bec662a8c3965d53dc402f5bdec3829b67091408c5d8575
+-  __DATA.__data: 0x238 sha256:ed5e714be4cf0479cb6745e19ba58bd0ddbaf00ccead986350b593cd4f0aaba6
++  __DATA.__data: 0x238 sha256:1b60be42fc29b94ee75686149918f4e39a8a62bc6c9808dcbcd263f7aca4a07e
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcrypto.46.dylib
+-  UUID: CA85C8D7-986C-33DB-84E5-E63AE86CBBD2
++  UUID: D3711704-B3E7-369C-A56F-1661D1CC0BA1
+   Functions: 57
+   Symbols:   98
+   CStrings:  136
+Functions:
+~ _sasl_client_plug_init : sha256 942b5a333bb6ee85dd71351a503b27dea19c803ac0ed09e92c466c10bfdaadbf -> e890667bc47344d2cff9af82786647798f2d704543e9c08009d8cf883a249ddb
+~ _sasl_server_plug_init : sha256 73a083294fe4c5642fcc5178ca6de2ce4470222362e1805ad8985644ac167b23 -> a08c50b9f898bf9ea2b21b6b461fc0a1222aab3f400baa9c2624c43ab54c4eae
+~ _DigestCalcOldResponse : sha256 36340bb1200c40420b6d2145b925792f0858906d34697ced2f08f54860b46756 -> 8ff615403780426320d5df857458a20671ef9b4bd56c98e5b5dc65cf450df97f
+~ _CvtHex : 92 -> 100
+~ _DigestCalcResponse : sha256 bdf7af4eaad6da00c507fde9993f5c78e9daf10851d6101d6cd40ee29edb6be6 -> 6599ce00dda2620b08eb828332a8569415ff681af3bc231b3f1c55102454572b
+~ _MD5_UTF8_8859_1 : 268 -> 260
+~ _enc_rc4 : sha256 5f373b69c63dfda921b0ba9175b8a31d05d2e3615dd15dede56265711c0a4689 -> 789a504987ebdb48160a8c3e892294bb6fa909367b5684853edec05a09211672
+~ _dec_rc4 : sha256 815c66e2fb605594c2aca7cc8fe4388b4104a1cffee050ac97fa07245bdefcb2 -> 60792b912a66d7d0eedf18f8858101982b9b5595e7b2d019a1cbc1be8f0d9733
+~ _init_rc4 : 328 -> 308
+~ _enc_des : sha256 a45c2a3839d3cd56dfe404b822a605a42953e3868f4c80185be848f554d6c79b -> 1b61c7c4be0192d36e5f4dcf8b87c56e106f9365649abda4940101441ac1aaf9
+~ _dec_des : sha256 44fad369bdbd40f6b0d43127c311c799da338179c1fc48b320b01cc17929a560 -> 45eff0ad82c7058b0465df5f96329773a4f82807779511e1c23dc9ccf71bb835
+~ _init_des : sha256 87abbc38e5c261f1df549ab9c833167a81d8623938388810efcc95118295bd4e -> fa4657cbc684cb95ef6dfbaec59c907f4cb0215ef4fe4884b08549bb9116d881
+~ _enc_3des : sha256 a8ffc7dc1f559f5f245c1b12561949502145a0d0bfe87423aee9293553ea23ee -> 889eba8916e0f3bc6107b42a2d9a71af298a767d30d4394e55fa3b8fb644cde5
+~ _dec_3des : sha256 c317158521b933975a200a68f92c9cd22c9b6c0470091e04706c1779d9fdccd2 -> 1ce947fccc7a68424339a7105039ade8301f27ab3cdada2693fdd53f059a7f05
+~ _init_3des : sha256 6c2dafd17648f418a6e6812af383d2895d9032b08d8a3ed6211bdc048d762f65 -> 8af681e96dfdefe210d4cc45c5132ff7f3c362c77832fd3fb064ff97ea55d814
+~ _digest_server_mech_new : sha256 fe539a4e46a3c7b08ad6d7a3f15b77ee017205e1bcf858a9c6e1532070fc4561 -> 51a2834a5356139c8ff7cd997a30a74a78ef54c38e25ef9f27de985e15912739
+~ _digest_server_mech_step : 2316 -> 2324
+~ _get_pair : 524 -> 560
+~ _digest_server_mech_step2 : 4136 -> 4140
+~ _skip_token : 136 -> 140
+~ _digest_privacy_encode : sha256 b5064f6cad772719b8e87bbf67af6d47d2d8e8c8bf3a314e5bb5aabbe7cd4322 -> ed3e296b8ba96b540601e5afff8e8a924b7f906614daf3696c330c8d5bca7a53
+~ _digest_privacy_decode : sha256 de82b35495252fdec68f5528a2e06b65e26ab1939b3b24ac48ab33f749bc7f23 -> 287f352ad74c6fd3ade538758d7865f5b3f86be8ff662694eda4ee8b188b09f3
+~ _digest_integrity_encode : sha256 ecadf5bed42dd469774e3b2e3960bf7ff087348c452f0c10fd8b9b31c31394fc -> 23a20671f0cd75527a07d7d2a6b2f6af809249d8135277040ab948fa01737b81
+~ _digest_integrity_decode : sha256 1ebb269d0d636fc0789a68c218b2baadc5e82eb24c0992296f8c6d5ad666b4cb -> 74514cd053e13bb4ae85c00800539da2050deb5b8af80996e30548b206af25d7
+~ _DigestCalcSecret : sha256 4724da841b4b1124ced763111f5ed71fcc7e5a2e5c89cb2523f334e57bbe25d4 -> c86c0f3e2a445b29016b3a0047d1a6d99c4835d84ff40188d817fdc4e7fb9cd8
+~ _create_MD5_response : sha256 ade3fe6ae8cdcdf7e80a6f8e52bf5d8c51a85318c4f9d8241f10a6d72205e5ec -> b5475477fab9fb7564dfd5661b598b6b92a7d6003ec7a0c42b00b61706245f21
+~ _create_response : sha256 a6312a78f6d63b4c93032dbe155861c6d2ea3d630a7c2d15e712a24501880f07 -> 2e03694f9bf91fb4c5c1879d98975a8dac6d88eded9ed6cbb737648ba30cc73d
+~ _create_layer_keys : sha256 9cf0616f02cf8d5ab440223556208ba5ac0f3d72662ee34fc1f61bca6318f4f2 -> 640e8dcc0e215d544578cd5055d6e2b23eb5632eb7fbf829d33d685e03e6f80d
+~ _digest_privacy_decode_once : 824 -> 820
+~ _digest_integrity_decode_once : 728 -> 724
+~ _create_nonce : sha256 06e877fb9b1f18a164163079c981e7739d93a9f2c057106a6f38849f95f748a8 -> fbad9fe54bd15af1c838be236562852f0fe1308e24388688f5986cc1c620a0d0
+~ _add_to_challenge : sha256 1b49c1b4456253457a2b938579c4dafd7b60ab50e2b61396324d518430cb1e4e -> 7e90142a99a7fb16b479d787fb2731654094baa2809be6051b8685026f91241b
+~ _digest_client_mech_new : sha256 717d1d203d8ac532a30e328977c6861631af671adce5e3e72c46bbaa38fd0d03 -> 58ae4123c721c89bf31c0398216551bf745e27c64fc5396825e31bee36158ec0
+~ _digest_client_mech_step : 4504 -> 4540
+~ _digest_client_mech_dispose : sha256 e73ed3c0651d506de9c9c6aa513de2e5564a68a5acab8d1109066f9d63943b47 -> 769c208b2bec5d124c53e12021d7adf888657ff42b0d4c75e2a126f76f806d7d
+~ _digest_client_mech_step1 : sha256 5fd877e17ca2ad90b034b90a3aa0ce4ea202499f1ca7dae9cd35cefff5df87a4 -> 4ad0bb50325e265dbefb297440736d670040e33aafb0278dfea1d2d20ffd10c3
+~ _make_client_response : sha256 56e1fc8aec09f79296bb7f8157b6aecade9da5765ad7a109fb5d7fea5d694831 -> a9e1029ba00835749cf149949aca07c2a8c8e0d77f43e189df0d8cb6a76719ae
+~ __plug_ipfromstring : 572 -> 568
+~ __plug_iovec_to_buf : 340 -> 364
+~ __plug_buf_alloc : sha256 8dd20fc60a5e856e5a3013d40dc60e32de737d455e3183951e2ce9b6593b8b52 -> efae338d5134d6f0a7a0fc5f24f89e179ea1152a811dcd2bff5827cfc18bb3f0
+~ __plug_strdup : sha256 15991d8065bac56fc2d0d314e36dfe16e1bd1244692f36b6d4417cd99fff9f26 -> de8c69429ab282979c97b625946919ae31281088d6b0d4f20e53486bcc506082
+~ __plug_free_string : sha256 50662b15ae6ba3f10615d13b19b823e827f4759541a7682e735e09a1caf62db6 -> cf2fcaae2acb5bbc72c8b0baa3ee26ea91e9623c670a780b73420e1c8ad5430b
+~ __plug_find_prompt : 48 -> 64
+~ __plug_get_simple : sha256 57012ce455fa4dccb822812b601295c1fea313bcd04c18ebad2ca6594455fe76 -> 29f3fe3da73cccfd42a2ffa30845f6ec897c6822c3013a7ea05d2379d3099a6b
+~ __plug_get_password : 368 -> 360
+~ __plug_challenge_prompt : sha256 634b2a2351ea795c41c41d54b74aecb8cb6a9c190d92cd7843f73a4e35506be1 -> 2d99751614fdb773730d189935d9034ad85844b7aea2e221f995fc5b1874d07f
+~ __plug_get_realm : sha256 fa10fcf10f14e5167802a07d72cf7cd9f617687e66089978b088e4b5f1b07ffa -> 6129ab1382e580881bc6b069f73968d9c0a614579f6b499e5212d2aad9813ed2
+~ __plug_make_prompts : sha256 d734b36ac6efc2f6ae5acb2596acc0f99b328bf56c81d7186bf8a93f54ac6917 -> 0064d7f748be1f59e3b456a3cb49e2711ad771a577a32c8726eb39c17aab87fc
+~ __plug_decode : sha256 795ef07d0521a997b465df19c5289aa5218365287221096af252f72143eefacb -> a00ae109e946ad0ceafc41a7bdb978518db84703593471ebd877a1b9b2f0880e
+~ __plug_parseuser : sha256 306eda6b513f2313c11514f6eec5a5a95cb7cd3482138369191fa219acc543f3 -> f285ebaf143042541c8b68ddeccfd457081d28a23f7f09ab303a29a9e7bb7f42
+CStrings:
++ "Out of Memory in /AppleInternal/Library/BuildRoots/4~CRbjugCRhMFFzaInYXomKBTrZdlRzjmybz6OP28/Library/Caches/com.apple.xbs/TemporaryDirectory.Q9P69u/Sources/passwordserver_saslplugins/plugin_common.c near line %d"
++ "Parameter Error in /AppleInternal/Library/BuildRoots/4~CRbjugCRhMFFzaInYXomKBTrZdlRzjmybz6OP28/Library/Caches/com.apple.xbs/TemporaryDirectory.Q9P69u/Sources/passwordserver_saslplugins/digestmd5.c near line %d"
++ "Parameter Error in /AppleInternal/Library/BuildRoots/4~CRbjugCRhMFFzaInYXomKBTrZdlRzjmybz6OP28/Library/Caches/com.apple.xbs/TemporaryDirectory.Q9P69u/Sources/passwordserver_saslplugins/plugin_common.c near line %d"
+- "Out of Memory in /AppleInternal/Library/BuildRoots/4~CQCNugC_21xWLnVaKf3I5DKm4S9h3s8tdXTWZgQ/Library/Caches/com.apple.xbs/TemporaryDirectory.00Mar5/Sources/passwordserver_saslplugins/plugin_common.c near line %d"
+- "Parameter Error in /AppleInternal/Library/BuildRoots/4~CQCNugC_21xWLnVaKf3I5DKm4S9h3s8tdXTWZgQ/Library/Caches/com.apple.xbs/TemporaryDirectory.00Mar5/Sources/passwordserver_saslplugins/digestmd5.c near line %d"
+- "Parameter Error in /AppleInternal/Library/BuildRoots/4~CQCNugC_21xWLnVaKf3I5DKm4S9h3s8tdXTWZgQ/Library/Caches/com.apple.xbs/TemporaryDirectory.00Mar5/Sources/passwordserver_saslplugins/plugin_common.c near line %d"
+
+```

@@ -1,0 +1,184 @@
+## CoreAudioKit
+
+> `/System/iOSSupport/System/Library/Frameworks/CoreAudioKit.framework/Versions/A/CoreAudioKit`
+
+```diff
+
+-292.0.0.0.0
+-  __TEXT.__text: 0xf276c sha256:886347888be2c2c4bbc760b27e6218107a7a0a71c8e130f1eb818d8f837d15a9
+-  __TEXT.__objc_methlist: 0x3df0 sha256:7cf7891d684cdbf15e481563c7bfac155c7a78525e5db51a9f9043cc17ee2805
+-  __TEXT.__const: 0x4d7a sha256:e17072999a39cc04ec422215e49920530173c4273cf51ba26e214d953f71080d
+-  __TEXT.__gcc_except_tab: 0x14c4 sha256:02dcd7c6cec8d9193c56e494d2431bff35488ec8aba17283983fd6b3b9656669
+-  __TEXT.__cstring: 0x4c30 sha256:ea351c327acb6c752bd0f27954825e9247775b2ed4b97600c751e862a8d2df7b
+-  __TEXT.__oslogstring: 0x4c5 sha256:f7d5b3d0646e398808d22998edf5c2148659f0536cd72c9f94b4b7c3c3bfd824
+-  __TEXT.__constg_swiftt: 0x4b48 sha256:8b794759e559db8a4cc8e7779b2184910113893d4d3100d9b941cac94ab7a9a0
+-  __TEXT.__swift5_typeref: 0x152ec sha256:296d333bbf8a28e459df43d2ee8fb14743ca94403541a7fff522ec615095feac
+-  __TEXT.__swift5_reflstr: 0x2073 sha256:1b60300edce519e8cb089a1ee1fbd4358ba59e1dd5789a781012099add9c8fb8
+-  __TEXT.__swift5_fieldmd: 0x21e0 sha256:a6f9b4adf6bac32ed22eaca9dbb7f64d235108d13dc14090c0d65f99e8b08a17
+-  __TEXT.__swift5_builtin: 0xf0 sha256:9414d806021e9fd047d66b8ff4fb1d67ed5a03eb442cd97fdd276a00fd13b6b1
+-  __TEXT.__swift5_assocty: 0x2e8 sha256:730246e80d065b5a86c65bff13fa014488a8cc961aa61487cedafd6159c5f2cb
+-  __TEXT.__swift5_proto: 0x184 sha256:425096b8dbc4e66755c4ecae464ce7a4ff15ec4d0abfc452f2193ff8b14f7411
+-  __TEXT.__swift5_types: 0x1d8 sha256:e3832025cba3d1d4f8470e20ec5019b97ffe9f53e771dc5ab1218087ddd411b3
+-  __TEXT.__swift5_capture: 0x914 sha256:f85b8e834393886a0524a95e8b9300df7fd297ab22390ad70ba8adb9bc34ed1a
+-  __TEXT.__swift5_protos: 0x24 sha256:8ad58c3618372599088122d0d57b1e2c669a34a29a92d88262e49ae560f6669f
+-  __TEXT.__unwind_info: 0x29a8 sha256:efbccd90ce06582cf207cd94cbee8d9a76110afb9b91b7b0595b121795c140e7
+-  __TEXT.__eh_frame: 0xbc sha256:92e39bd9b9744a16c520e58367c897bd2d7f10e512836ea417c1238401fdb34e
++294.0.0.0.0
++  __TEXT.__text: 0xf2c84 sha256:c4d562bc3f7c912189d5a71cc2415abe5233dc8e35f2880a21ad424198a5f1af
++  __TEXT.__objc_methlist: 0x3df0 sha256:24213e026ab1873c048033adc6fae5d4dcaa3b26f42ba709cc0136a8c03e507e
++  __TEXT.__const: 0x4dca sha256:5d7e3a96df7476289c83dc36cebe80c91e5af3f869a0b25658d629b4352bc0ae
++  __TEXT.__gcc_except_tab: 0x14c4 sha256:b2eecf8ec56e84c39ca20d1c02bc954952adafcc180a37ccf9fa65ed65498924
++  __TEXT.__cstring: 0x4c30 sha256:7a4b5f01b0fce31acb2d7c71e5a0502406e1f0dafe24f57b82eda1079ba84586
++  __TEXT.__oslogstring: 0x4c4 sha256:d861accb136b22980a09ddeaefb90db75e6079a6e1791ef177b36759c5012d52
++  __TEXT.__constg_swiftt: 0x4b48 sha256:1249858406f6b157f0cc87e7aa22c224aeb06257a8faf087d86c4b679c2ed925
++  __TEXT.__swift5_typeref: 0x1530e sha256:f554814376aefa06a1d43aa8447aaf5db05e55e3e1ec4c419f2b16f1cbd99919
++  __TEXT.__swift5_reflstr: 0x2083 sha256:6fdbd87dac7953d887fadef750bb768392f22ccd3840d3e7bc316dd7779d727e
++  __TEXT.__swift5_fieldmd: 0x21ec sha256:40c5e6f5c8936d0c48059b8cd1de8022845c2739fd28e65e6a9af1cbfad0b1aa
++  __TEXT.__swift5_builtin: 0xf0 sha256:975f68d23be873d2c687c7a02a1b8eef633c2816bd57dc9425b0864619216bfc
++  __TEXT.__swift5_assocty: 0x2e8 sha256:4facc12215dd5babe3d3574e4b0ad1a976c2554f41721288776ac0044b44e334
++  __TEXT.__swift5_proto: 0x184 sha256:390811ded065959be6393731f67433def22174ad9a93c252c82bbc842f17e54c
++  __TEXT.__swift5_types: 0x1d8 sha256:33a5ca8a8419180eff45f01d09212c63852820a7aaa057b88d1c60b2c3cc4ec2
++  __TEXT.__swift5_capture: 0x914 sha256:25830c217cb4bbab5e5062fd966bfebf254f0ba4f7b22713af81cbf396ac97e8
++  __TEXT.__swift5_protos: 0x24 sha256:edd3ddbca58f8229dea71a3945cdc8a8d7853c3cbc7f24fce1424682ad8dbad3
++  __TEXT.__unwind_info: 0x29b8 sha256:5963999409ea899a7486623ff29c905222c15da65841b8a55542bfd8a783fc11
++  __TEXT.__eh_frame: 0xbc sha256:915e44e987e299cc5c89cf0391c075133ea471d554cbf435a60b2d5e70ceadbe
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x318 sha256:ca1eddb856ebc6fe804fae1f54a6a69f56bd2725413f5bff074a624e636b5425
+-  __DATA_CONST.__objc_classlist: 0x340 sha256:5f1fccef6d4c86bfd016ae51e7d173aaf4d0f387821a3dc05b1646b9b647cc95
+-  __DATA_CONST.__objc_protolist: 0xe8 sha256:358f2010795d8aeb78ab5d6fb80863d67b089938e1b9a36f194bc0a9df696913
++  __DATA_CONST.__const: 0x318 sha256:2c6dfca05390fa27f990205338acb8fcef6f520e430412e022eeb96a4e18f3a5
++  __DATA_CONST.__objc_classlist: 0x340 sha256:7c6aea4fd2732a313124a6700d289d5752c2b551a097da09cd81cce2e8817b0a
++  __DATA_CONST.__objc_protolist: 0xe8 sha256:792085e0a2706182cc0422302d92b2c3fa2efd3651023201a0009d691406aece
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x2788 sha256:08613d9b0a220e0db986929e286bea32b1a31ff3207693b0dc941d19c895bdbc
+-  __DATA_CONST.__objc_protorefs: 0x38 sha256:756d8997613e78386bda026418d2b7710a2bd570a1fd63d35b290ba8beb93c43
+-  __DATA_CONST.__objc_superrefs: 0xf8 sha256:2ec8c834c077a862c06031bb8be0a8636ac4a4133b4dd78961a3cc4242339aa0
+-  __DATA_CONST.__objc_arraydata: 0x20 sha256:1252558f2c402af88b9242b19d86fef067826305f644223985ac79d1f741911e
+-  __DATA_CONST.__got: 0xa68 sha256:2947a43b89e08526b011a93911b02eab75aad13de28fa0c7517a3817e69884aa
+-  __AUTH_CONST.__const: 0x4158 sha256:56d54b8da50f2af375381c02befb9a21aeea4242fd4374b67147040b7c623208
+-  __AUTH_CONST.__cfstring: 0x1b80 sha256:e6f1b8aa7f376d0f550cec2aa693e91692808f286f275dac2b3e4f9b7bee9299
+-  __AUTH_CONST.__objc_const: 0x8720 sha256:3437c2efcb299e6af0a3e313f60f10c3e3a04b4deb8fcd43fb943ec515dc000c
+-  __AUTH_CONST.__weak_auth_got: 0x18 sha256:0f4450ad156a2fb0399d49c05f2667abbfcfa3644a5a7e4a5b4a9c152b973caf
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:91af2f3efbb10d4a10d1ed6defafd595bce49c007f6164a257c37fbe9695a9f8
+-  __AUTH_CONST.__objc_intobj: 0x60 sha256:efa37f6583f32316908773f493f76a9c5f0db9db964f2b01b710a997518bf7d9
+-  __AUTH_CONST.__auth_got: 0x16d0 sha256:9adf742a3dfc0934927ef9eb718922528508cc5054154b1d114122a181138acb
+-  __AUTH.__objc_data: 0xabe0 sha256:8c9812878009dca264bb54c34bf7e722f142f9bb5326bd96b5b0b77b506780ba
+-  __AUTH.__data: 0x1788 sha256:e9a41bb9cef4934c7be732271f267515c0ad16f43da7a849927c63f99d093ae1
+-  __DATA.__objc_ivar: 0x2a8 sha256:1af7486853b27de99a5b6eb1f3836216de0c49a881b401cacdd815d00e7fa838
+-  __DATA.__data: 0x3958 sha256:ed93793b17327315b93a7ae2f07af5ee6938d16f7e6620946c6b328f720889b0
+-  __DATA.__bss: 0x2a80 sha256:feb437983b98ec099a99c40f62b62ec59704b956d4be4ba59ac0925749b9d761
++  __DATA_CONST.__objc_selrefs: 0x27a0 sha256:a77a9175e12f30b34f3bef5f42cb35fddab279c7f357bb230c49a59b5dc11a1a
++  __DATA_CONST.__objc_protorefs: 0x38 sha256:bbabed49a9fff4bcee32b2c0e22cf5d1933a46d6fd0f6c06875a13b2b4122886
++  __DATA_CONST.__objc_superrefs: 0xf8 sha256:11b06c2e9706993ed1f1b30502877aedba10b34effcb08d439ad2ea9a6917662
++  __DATA_CONST.__objc_arraydata: 0x20 sha256:bbc55aae07347af2e32b0dc2a7dd6af559d0e327fce44e194b3e52c4e9c00f70
++  __DATA_CONST.__got: 0xa88 sha256:8ba491c8ce0dc95a5cc22341f2e25c4b5149a54fcb25b0b4dd69e4396e973bd6
++  __AUTH_CONST.__const: 0x4158 sha256:ff31362814f8538b845643cc74df6974247a4763d196ea6d65478cd55f070408
++  __AUTH_CONST.__cfstring: 0x1b80 sha256:12f14a4626fa3f41af00a2d070b45de497b983aa85385636c0f09442f01a74ff
++  __AUTH_CONST.__objc_const: 0x8720 sha256:071888a2560203a21038ca1bf7118595a2d2eb4ccf24a164b149fef7f4ab597c
++  __AUTH_CONST.__weak_auth_got: 0x18 sha256:c043bf049c37ff8a967a00f091b7b7bb1e598d183e20587b725737f376ce2445
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:c547f25019894fd4725fc90137ef7ce4b6a0f0410accd51129a9e75178e9cef6
++  __AUTH_CONST.__objc_intobj: 0x60 sha256:9e847ba7cbf6008ab78b41f311e4627f70ea31c017fef8790e398da6b572435c
++  __AUTH_CONST.__auth_got: 0x16e0 sha256:0404c19e0464b9646a6aaadfc08180452dd69bc985144d2d1a5e015317855bda
++  __AUTH.__objc_data: 0xabe0 sha256:caf01a3182bdbb27a526bf3161932186f00a9d7577da731e6dae8dadb400c74a
++  __AUTH.__data: 0x1788 sha256:4cf47ed6ad0d0071abfb75c0e8917228e7e52ff1a61bb51f29dd3b4b52e8ae67
++  __DATA.__objc_ivar: 0x2a8 sha256:f272f0958c7af95eae4d06951f351c5070b9cbd02e9d16025804fb8ac40d0114
++  __DATA.__data: 0x3978 sha256:b6468f12e09fa306fa825afd9c4ed431388b50ff80d8ab5c2b0a27c878eeda9c
++  __DATA.__bss: 0x2a90 sha256:204c2b6a1c544e5ac2f42e55577c942621a557db5004d70d1ed80eccdcf41887
+   __DATA.__common: 0x2b8 sha256:46a2ee06c2f659998c44bf15697f8f777e91403cca380162016b0dc669ad8fa4
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:e3a0fde61bad74b4a9c819c7810830bb6faa734300a22cafeafc92220b2ec12a
++  __DATA_DIRTY.__objc_data: 0x50 sha256:7b4b646e1236af47cae72492e7372418d6e3d1fbccf7c6669d06b0799b97d5a8
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 7EE54ED2-7706-3AC1-8401-B400AD5C5B15
+-  Functions: 3528
+-  Symbols:   4448
++  UUID: E623C9FD-73AF-3248-929C-ED881AABC519
++  Functions: 3535
++  Symbols:   4454
+   CStrings:  746
+ 
+Symbols:
++ _ZNSt3__116__if_likely_elseB9foe220106IZNS_6vectorIN19NetworkDriverRTData12LatencyEventENS_9allocatorIS3_EEE12emplace_backIJRKS3_EEERS3_DpOT_EUlvE_ZNS7_IJS9_EEESA_SD_EUlvE0_EEvbT_T0_.cold.1
++ __ZNSt12length_errorC1B9foe220106EPKc
++ __ZNSt3__110unique_ptrI19NetworkDriverRTDataNS_14default_deleteIS1_EEE5resetB9foe220106EPS1_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9foe220106Em
++ __ZNSt3__114__split_bufferINS_10unique_ptrIN19NetworkDriverRTData12LatencyEventENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE17__destruct_at_endB9foe220106EPS6_
++ __ZNSt3__116__if_likely_elseB9foe220106IZNS_6vectorIN19NetworkDriverRTData12LatencyEventENS_9allocatorIS3_EEE12emplace_backIJRKS3_EEERS3_DpOT_EUlvE_ZNS7_IJS9_EEESA_SD_EUlvE0_EEvbT_T0_
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorIN19NetworkDriverRTData12LatencyEventEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9foe220106INS_9allocatorINS_10unique_ptrIN19NetworkDriverRTData12LatencyEventENS_14default_deleteIS4_EEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9foe220106EPKc
++ __ZNSt3__127__insertion_sort_incompleteB9foe220106INS_17_ClassicAlgPolicyERZ43-[NetworkDriverAdapter deviceErrorsChanged]E3$_1PZ43-[NetworkDriverAdapter deviceErrorsChanged]E10ErrorEntryEEbT1_S6_T0_
++ __ZNSt3__16vectorIN19NetworkDriverRTData12LatencyEventENS_9allocatorIS2_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN19NetworkDriverRTData12LatencyEventENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9foe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN19NetworkDriverRTData12LatencyEventENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN19NetworkDriverRTData12LatencyEventENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE22__base_destruct_at_endB9foe220106EPS6_
++ __ZNSt3__16vectorIZ43-[NetworkDriverAdapter deviceErrorsChanged]E10ErrorEntryNS_9allocatorIS1_EEE20__throw_length_errorB9foe220106Ev
++ __ZNSt3__16vectorIZ43-[NetworkDriverAdapter deviceErrorsChanged]E10ErrorEntryNS_9allocatorIS1_EEED1B9foe220106Ev
++ __ZNSt3__17__sort3B9foe220106INS_17_ClassicAlgPolicyERZ43-[NetworkDriverAdapter deviceErrorsChanged]E3$_1PZ43-[NetworkDriverAdapter deviceErrorsChanged]E10ErrorEntryLi0EEEbT1_S6_S6_T0_
++ __ZNSt3__17__sort5B9foe220106INS_17_ClassicAlgPolicyERZ43-[NetworkDriverAdapter deviceErrorsChanged]E3$_1PZ43-[NetworkDriverAdapter deviceErrorsChanged]E10ErrorEntryLi0EEEvT1_S6_S6_S6_S6_T0_
++ __ZNSt3__19iter_swapB9foe220106IPZ43-[NetworkDriverAdapter deviceErrorsChanged]E10ErrorEntryS2_EEvT_T0_
++ __ZSt28__throw_bad_array_new_lengthB9foe220106v
++ _objc_msgSend$initWithUnsignedShort:
++ _objc_msgSend$numberFromString:
++ _objc_msgSend$setUsesGroupingSeparator:
++ _symbolic _____ 10Foundation6LocaleV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 10Foundation6LocaleV
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO 10Foundation6LocaleV
++ get_witness_table 7SwiftUI19_ConditionalContentVyAA19NavigationSplitViewVyAA0G0PAAE7toolbar8removingQrAA22ToolbarDefaultItemKindVSg_tFQOyAgAE15navigationTitleyQrqd__SyRd__lFQOyAA08ModifiedD0VyAA6VStackVyAA05TupleG0Vy12CoreAudioKit011SessionListG0V_AT09DirectorywG0VtGGAA14_PaddingLayoutVG_SSQo__Qo_AA05EmptyG0VAgAE0n3BarO11DisplayModeyQrAA0e3BarL0V0O11DisplayModeOFQOyAgAEAMyQrqd__SyRd__lFQOyAOyAT0v7DetailsG0VA0_G_SSQo__Qo_GAgAEA6_yQrA10_FQOyAgAEAMyQrqd__SyRd__lFQOyAA0eG0VyAQyAQyASyAOyAOyAgAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQOyAA6PickerVyAA4TextVSiASyAgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyA24__SiQo__A27_A27_tGG_AA20SegmentedPickerStyleVQo_A0_GAA31AccessibilityAttachmentModifierVG_AgAE03tabG5StyleyQrqd__AA03TabG5StyleRd__lFQOyAA03TabG0VySiASyAOyAgAEA25__A26_Qrqd___SbtSHRd__lFQOyAA06ScrollG0VyAOyAQyAVGA0_GG_SiQo_A35_G_AOyAgAEA25__A26_Qrqd___SbtSHRd__lFQOyA42_yAOyAQyAXGA0_GG_SiQo_A35_GAOyAgAEA25__A26_Qrqd___SbtSHRd__lFQOyA42_yA13_G_SiQo_A35_GtGG_AA07PageTabG5StyleVQo_tGGGG_SSQo__Qo_GSgAaFHpA67_AaFHPA16_AaFHPyHC_qd__AaFHD2_A66_HOHC_HC.26
+- _ZNSt3__116__if_likely_elseB9foe220100IZNS_6vectorIN19NetworkDriverRTData12LatencyEventENS_9allocatorIS3_EEE12emplace_backIJRKS3_EEERS3_DpOT_EUlvE_ZNS7_IJS9_EEESA_SD_EUlvE0_EEvbT_T0_.cold.1
+- __ZNSt12length_errorC1B9foe220100EPKc
+- __ZNSt3__110unique_ptrI19NetworkDriverRTDataNS_14default_deleteIS1_EEE5resetB9foe220100EPS1_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9foe220100Em
+- __ZNSt3__114__split_bufferINS_10unique_ptrIN19NetworkDriverRTData12LatencyEventENS_14default_deleteIS3_EEEERNS_9allocatorIS6_EEE17__destruct_at_endB9foe220100EPS6_
+- __ZNSt3__116__if_likely_elseB9foe220100IZNS_6vectorIN19NetworkDriverRTData12LatencyEventENS_9allocatorIS3_EEE12emplace_backIJRKS3_EEERS3_DpOT_EUlvE_ZNS7_IJS9_EEESA_SD_EUlvE0_EEvbT_T0_
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorIN19NetworkDriverRTData12LatencyEventEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9foe220100INS_9allocatorINS_10unique_ptrIN19NetworkDriverRTData12LatencyEventENS_14default_deleteIS4_EEEEEENS_16allocator_traitsIS8_EEEENS_19__allocation_resultINT0_7pointerENSC_9size_typeEEERT_m
+- __ZNSt3__120__throw_length_errorB9foe220100EPKc
+- __ZNSt3__127__insertion_sort_incompleteB9foe220100INS_17_ClassicAlgPolicyERZ43-[NetworkDriverAdapter deviceErrorsChanged]E3$_1PZ43-[NetworkDriverAdapter deviceErrorsChanged]E10ErrorEntryEEbT1_S6_T0_
+- __ZNSt3__16vectorIN19NetworkDriverRTData12LatencyEventENS_9allocatorIS2_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN19NetworkDriverRTData12LatencyEventENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB9foe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN19NetworkDriverRTData12LatencyEventENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN19NetworkDriverRTData12LatencyEventENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE22__base_destruct_at_endB9foe220100EPS6_
+- __ZNSt3__16vectorIZ43-[NetworkDriverAdapter deviceErrorsChanged]E10ErrorEntryNS_9allocatorIS1_EEE20__throw_length_errorB9foe220100Ev
+- __ZNSt3__16vectorIZ43-[NetworkDriverAdapter deviceErrorsChanged]E10ErrorEntryNS_9allocatorIS1_EEED1B9foe220100Ev
+- __ZNSt3__17__sort3B9foe220100INS_17_ClassicAlgPolicyERZ43-[NetworkDriverAdapter deviceErrorsChanged]E3$_1PZ43-[NetworkDriverAdapter deviceErrorsChanged]E10ErrorEntryLi0EEEbT1_S6_S6_T0_
+- __ZNSt3__17__sort5B9foe220100INS_17_ClassicAlgPolicyERZ43-[NetworkDriverAdapter deviceErrorsChanged]E3$_1PZ43-[NetworkDriverAdapter deviceErrorsChanged]E10ErrorEntryLi0EEEvT1_S6_S6_S6_S6_T0_
+- __ZNSt3__19iter_swapB9foe220100IPZ43-[NetworkDriverAdapter deviceErrorsChanged]E10ErrorEntryS2_EEvT_T0_
+- __ZSt28__throw_bad_array_new_lengthB9foe220100v
+- get_witness_table 7SwiftUI19_ConditionalContentVyAA19NavigationSplitViewVyAA0G0PAAE7toolbar8removingQrAA22ToolbarDefaultItemKindVSg_tFQOyAgAE15navigationTitleyQrqd__SyRd__lFQOyAA08ModifiedD0VyAA6VStackVyAA05TupleG0Vy12CoreAudioKit011SessionListG0V_AT09DirectorywG0VtGGAA14_PaddingLayoutVG_SSQo__Qo_AA05EmptyG0VAgAE0n3BarO11DisplayModeyQrAA0e3BarL0V0O11DisplayModeOFQOyAgAEAMyQrqd__SyRd__lFQOyAOyAT0v7DetailsG0VA0_G_SSQo__Qo_GAgAEA6_yQrA10_FQOyAgAEAMyQrqd__SyRd__lFQOyAA0eG0VyAQyAQyASyAOyAOyAgAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQOyAA6PickerVyAA4TextVSiASyAgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyA24__SiQo__A27_A27_tGG_AA20SegmentedPickerStyleVQo_A0_GAA31AccessibilityAttachmentModifierVG_AgAE03tabG5StyleyQrqd__AA03TabG5StyleRd__lFQOyAA03TabG0VySiASyAOyAgAEA25__A26_Qrqd___SbtSHRd__lFQOyAA06ScrollG0VyAOyAQyAVGA0_GG_SiQo_A35_G_AOyAgAEA25__A26_Qrqd___SbtSHRd__lFQOyA42_yAOyAQyAXGA0_GG_SiQo_A35_GAOyAgAEA25__A26_Qrqd___SbtSHRd__lFQOyA42_yA13_G_SiQo_A35_GtGG_AA07PageTabG5StyleVQo_tGGGG_SSQo__Qo_GSgAaFHpA67_AaFHPA16_AaFHPyHC_qd__AaFHD2_A66_HOHC_HC.22
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRcDugC1Y5-pk5G_XWtlD-nJVF2bZPprQszj_uE/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CRcDugC1Y5-pk5G_XWtlD-nJVF2bZPprQszj_uE/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CRcDugC1Y5-pk5G_XWtlD-nJVF2bZPprQszj_uE/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CRcDugC1Y5-pk5G_XWtlD-nJVF2bZPprQszj_uE/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CRcDugC1Y5-pk5G_XWtlD-nJVF2bZPprQszj_uE/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CRcDugC1Y5-pk5G_XWtlD-nJVF2bZPprQszj_uE/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CRcDugC1Y5-pk5G_XWtlD-nJVF2bZPprQszj_uE/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CRcDugC1Y5-pk5G_XWtlD-nJVF2bZPprQszj_uE/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CRcDugC1Y5-pk5G_XWtlD-nJVF2bZPprQszj_uE/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
++ "/AppleInternal/Library/BuildRoots/4~CRcDugC1Y5-pk5G_XWtlD-nJVF2bZPprQszj_uE/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:414: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
++ "/AppleInternal/Library/BuildRoots/4~CRcDugC1Y5-pk5G_XWtlD-nJVF2bZPprQszj_uE/Library/Caches/com.apple.xbs/TemporaryDirectory.uEgOzF/Sources/CoreAudioKit_iosmac/Aspen/CoreAudioUI/Source/Custom Views/Common/AUAppleViewControllerBase.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMlugDoE5suo8wh0qfrq4ThWdi-Zh8ZROHdaZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:293: libc++ Hardening assertion __k != __leftmost failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQMlugDoE5suo8wh0qfrq4ThWdi-Zh8ZROHdaZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:603: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQMlugDoE5suo8wh0qfrq4ThWdi-Zh8ZROHdaZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:615: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQMlugDoE5suo8wh0qfrq4ThWdi-Zh8ZROHdaZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:633: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQMlugDoE5suo8wh0qfrq4ThWdi-Zh8ZROHdaZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:638: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQMlugDoE5suo8wh0qfrq4ThWdi-Zh8ZROHdaZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:669: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQMlugDoE5suo8wh0qfrq4ThWdi-Zh8ZROHdaZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:682: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQMlugDoE5suo8wh0qfrq4ThWdi-Zh8ZROHdaZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:692: libc++ Hardening assertion __first != __end failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQMlugDoE5suo8wh0qfrq4ThWdi-Zh8ZROHdaZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__algorithm/sort.h:697: libc++ Hardening assertion __last != __begin failed: Would read out of bounds, does your comparator satisfy the strict-weak ordering requirement?\n"
+- "/AppleInternal/Library/BuildRoots/4~CQMlugDoE5suo8wh0qfrq4ThWdi-Zh8ZROHdaZU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/usr/include/c++/v1/__vector/vector.h:413: libc++ Hardening assertion __n < size() failed: vector[] index out of bounds\n"
+- "/AppleInternal/Library/BuildRoots/4~CQMlugDoE5suo8wh0qfrq4ThWdi-Zh8ZROHdaZU/Library/Caches/com.apple.xbs/TemporaryDirectory.0itEjk/Sources/CoreAudioKit_iosmac/Aspen/CoreAudioUI/Source/Custom Views/Common/AUAppleViewControllerBase.swift"
+
+```

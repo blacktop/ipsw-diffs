@@ -1,0 +1,2394 @@
+## MobileAsset
+
+> `/System/Library/PrivateFrameworks/MobileAsset.framework/Versions/A/MobileAsset`
+
+```diff
+
+-2215.0.0.0.0
+-  __TEXT.__text: 0x95d70 sha256:1f28afa489e007f690affa163e1e821cc4c80d1c5f08b4ca9df6b414d62f40b4
+-  __TEXT.__objc_methlist: 0x6d7c sha256:307ad9ea0571d0fa274917b726e293a378b5eb516c145e767b61ad50628ed745
+-  __TEXT.__const: 0x2b4 sha256:68967ebe24284f278309277f91defdf1e662f6e5bfe3c81fb71ba293bf741f32
+-  __TEXT.__cstring: 0x139a8 sha256:78a571f6726f389a2230385663903fad780f5be3a518de365a9eaa1bfda21c24
++2215.0.4.0.0
++  __TEXT.__text: 0x95cb8 sha256:5add994b358c4fd719e0a43ea14f5766b93f9243b4fd91987d26eaac69355452
++  __TEXT.__objc_methlist: 0x6d7c sha256:be650cf37a77efc116845844db69e8624e7c9d69bca8c6d917ee3ad399556177
++  __TEXT.__const: 0x2b4 sha256:07235b0b3dac7f402686102d118e42f0026fa5b2659d9177e24b64230eac39f5
++  __TEXT.__cstring: 0x13a15 sha256:ef0926f04273baec0a43c6a4f31c006870a01e2b4cf77c858bc98c605ced6ffd
+   __TEXT.__oslogstring: 0xb883 sha256:43e967027ede868552f0bfc3b60d2dbed2558287baeedf90deffbbdee996991d
+-  __TEXT.__gcc_except_tab: 0x1310 sha256:c2ba5f7755b4a68662eab41c61a9553bbce56a4fc3e3535fca38569d1e8a0029
+-  __TEXT.__unwind_info: 0x1ea8 sha256:6678a549c032e3787745d2a3bf061054089ff1e02c79461d45960e5b4ba7875c
++  __TEXT.__gcc_except_tab: 0x1310 sha256:e88e090161efd9db61aa38cab087cdca42d9f2bc13901d310ca73d03697173ef
++  __TEXT.__unwind_info: 0x1ea8 sha256:224b107cbe1ff46efb8765a098c5600c33fdfc72f778b50f5c201c5acc261a2b
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1010 sha256:92beddf9d73b4586757254375bb0d605743017997079d4e39beecb6f321dfcc4
+-  __DATA_CONST.__objc_classlist: 0x280 sha256:2bb62f7f909a30ef3fe62b9559663f349ef3ca23d9aee498e48abbe178887a7b
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:2a9ede5cd9fce0108d8e81dd1c8d7958d6e317183647db641e81cefd3539e7e3
+-  __DATA_CONST.__objc_protolist: 0x38 sha256:e0d6ba0a66c2efb7ab1912d9f9dc496b03324c656ae054068ab3a523901be4f4
++  __DATA_CONST.__const: 0x1030 sha256:da3a1bd382c7694b23e804684b8dd24017be058729387aea3ba28430d44890b6
++  __DATA_CONST.__objc_classlist: 0x280 sha256:57cb341c91d6cf76a71ffdf30b2d54a4d03ff6b930476be1a0a8444b96ea89b0
++  __DATA_CONST.__objc_catlist: 0x8 sha256:2d5667f677f13b4bd775b34063a5da6e5c539af4e19f04d69a1d1e75d607866d
++  __DATA_CONST.__objc_protolist: 0x38 sha256:670a50353b4b2e0c10735a57c7755341e494488356fbdf38086edad0cd630434
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x3810 sha256:f663a4e51705e8f1d2403388bfff7342e82483e97e87394c2b1d14cd256f748c
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:cd51abb77278d838c57bf4fe3db3f25de7d232df9842bd5189f63264d429dd86
+-  __DATA_CONST.__objc_superrefs: 0x248 sha256:bd407a0d08a6f0bec36ee32355b67f33a1d1ea5c9821a0e7a07464fe264bf08c
+-  __DATA_CONST.__objc_arraydata: 0x350 sha256:a2f3a4ebb2cda4de388034893c550ae02780483536b38addd1c628b3e24635c7
+-  __DATA_CONST.__got: 0x470 sha256:d5b522de951bd8971a4e1cc17dc1ba232d63a1dbe4b7d10bd22c33a452b4abe5
+-  __AUTH_CONST.__const: 0x2160 sha256:6a979ea1a49067b10fac993c3f8c4c1742c687a6dc4841e23d655dfbf7c2f9fa
+-  __AUTH_CONST.__cfstring: 0xfc20 sha256:6a8452f3bdb0da3eef5d0011d4860e8adf59647c0744bd64d5d4e52c220a14bc
+-  __AUTH_CONST.__objc_const: 0xa970 sha256:ac17f6e73fc274f65df7e94e2f05fe2601b1b9813c523e03aa6cff2e11e35c73
+-  __AUTH_CONST.__objc_arrayobj: 0x108 sha256:f949d297ea935805563adebcb8e80c80071b8e473b1ac735a8e4274b890ab059
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:271527b9555c4aae303e321c524d6ebda2b342572cf1741ea73829f4840cdd90
+-  __AUTH_CONST.__objc_intobj: 0x300 sha256:9ceac23241c0d8e9ba660c39ec6cf1073a5ffbd8cab58b15c8c0c24fb44ae582
++  __DATA_CONST.__objc_selrefs: 0x3810 sha256:0c72c44d2489d7a2788c2032f2f2afcd7e3adce10103b2a86731abb95ecfbc53
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:ab732c97faba20b2044ed8c32edbc1e7b13eecdb88b4d756aa72ff0511ada4a5
++  __DATA_CONST.__objc_superrefs: 0x248 sha256:77d048458426f0d0c8e2ea02c2ea4ffa6508ad5d94604c61660f9e1378c05ea2
++  __DATA_CONST.__objc_arraydata: 0x350 sha256:e25a7d449f0127e23257b9c1ada45459945b39e63fcfabe9328190f4c45d9cb3
++  __DATA_CONST.__got: 0x470 sha256:067d3e3ba17383d7ee64aa6e64630a2435923fe642505f13921c3e190858d50d
++  __AUTH_CONST.__const: 0x2160 sha256:e54957ea815d89d8a62610e5e79c4791753d0c8a08651e923c01efa62a722db3
++  __AUTH_CONST.__cfstring: 0xfca0 sha256:eb5b5aa94af8fe4233924ba25a7319cf0306b9a14d65a9cf68eaafd1109b8cee
++  __AUTH_CONST.__objc_const: 0xa970 sha256:6214946f9d16d4d76aa23ce1a0f2da5eef581671052eecc316d7132f28c570e8
++  __AUTH_CONST.__objc_arrayobj: 0x108 sha256:97cceb32c87bb1ee7b855bbf53dfa1d3f0fe718bef4ea19646a59a4a16e9f8b5
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:f419ec2abebd57cf9e901173ee5ad6b3d926089e7db83d9bc1bb21cac3147654
++  __AUTH_CONST.__objc_intobj: 0x300 sha256:5e1bdf297f9002c30679f1ee2c639b18ce4ba60ed86dfd5260ac5fb2c66fb5b0
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xb40 sha256:223f7f97daa7be94362152ab67766800af2c8744392d474c04a174b385686f61
++  __AUTH.__objc_data: 0xb40 sha256:e9184465b53cba7a5b5bf5f8d2e6e4f379f9e9d01ebc6a28db1e6dc14c496a03
+   __DATA.__objc_ivar: 0x90c sha256:d65feddd365f51011f3e9c7cd1d2c379a56e772c1ae301dbfc5e8e7a7b02b9da
+-  __DATA.__data: 0x358 sha256:555fb300b73e06cbb3ab5b2195e6283c9ccc76a61c2f40bd90de24f62d4fb53f
++  __DATA.__data: 0x358 sha256:3e04d79d534532b704232bad9cb9f420476c77829c539a12dd2134c0e0260568
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+   __DATA.__bss: 0x190 sha256:7a12e561363385e9dfeeab326368731c030ed4b374e7f5897ac819159d2884c5
+-  __DATA_DIRTY.__objc_data: 0xdc0 sha256:3c5aa8585acd84999e2090c3b63be1b0b50f7946112a20727c1d864d4cfa07fc
++  __DATA_DIRTY.__objc_data: 0xdc0 sha256:bba7258f2d4c4e1bddb26a0c6e3f44febcd6dfd4089ae27db1c1067140559cd6
+   __DATA_DIRTY.__data: 0x10 sha256:5ac6a5945f16500911219129984ba8b387a06f24fe383ce4e81a73294065461b
+   __DATA_DIRTY.__bss: 0x218 sha256:7d73a488b95b99a42237504643b79aa49c55a9aad3cd97e58518f093d3e095df
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2D3D172D-7297-3AFE-B4E8-13C6BBF101B6
++  UUID: 3A326CC7-0CAB-3521-B3C7-37DF36A53A5A
+   Functions: 3126
+-  Symbols:   6444
+-  CStrings:  4825
++  Symbols:   6448
++  CStrings:  4833
+ 
+Symbols:
++ __101+[MAAutoAsset stageDownloadGroups:awaitingAllGroups:withStagingTimeout:reportingProgress:completion:]_block_invoke.1078
++ __108+[MAAutoAsset(RelinquishShared) _sendRequestIsSynchronous:fromOperation:messageName:requestInfo:completion:]_block_invoke.498
++ __113-[MAAutoAssetSet _alterEntriesRepresentingAtomic:toBeComprisedOfEntries:withNeedPolicy:isSynchronous:completion:]_block_invoke.1375
++ __113-[MAAutoAssetSet _alterEntriesRepresentingAtomic:toBeComprisedOfEntries:withNeedPolicy:isSynchronous:completion:]_block_invoke.1397
++ __118-[MAAutoAssetSet _lockAtomic:forAtomicInstance:withNeedPolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke.1545
++ __120-[MAAutoAssetSet _shortTermLockAtomicHelper:forAtomicInstance:performContentValidation:isSynchronous:completionHandler:]_block_invoke.1667
++ __121-[MAAutoAssetSet checkAtomic:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:reportingProgress:completion:]_block_invoke.1505
++ __121-[MAAutoAssetSet checkAtomic:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:reportingProgress:completion:]_block_invoke_2.1506
++ __133+[MAAutoAssetSet endAtomicLocks:usingClientDomain:forClientName:forAssetSetIdentifier:ofAtomicInstance:removingLockCount:completion:]_block_invoke.1794
++ __26-[MAAsset cancelDownload:]_block_invoke.1370
++ __26-[MAAsset purgeWithError:]_block_invoke.1365
++ __36+[MAAutoAsset stageCancelOperation:]_block_invoke.1094
++ __42-[MAXpcManager setClientConnectionHandler]_block_invoke.1324
++ __42-[MAXpcManager setClientConnectionHandler]_block_invoke.1325
++ __44-[MAAutoAsset _waitForStartupActivatedThen:]_block_invoke.1108
++ __50-[MAPushNotificationController _serviceConnection]_block_invoke.1308
++ __60+[MAAsset startCatalogDownload:options:completionWithError:]_block_invoke.1352
++ __64+[MAAutoAsset determineIfAvailable:forAssetSelector:completion:]_block_invoke.931
++ __65+[MAAutoAsset stageDetermineGroupsAvailableForUpdate:completion:]_block_invoke.1048
++ __65+[MAAutoAsset stageDetermineGroupsAvailableForUpdate:completion:]_block_invoke.1052
++ __66-[MAAutoAssetControl _controlStatistics:isSynchronous:completion:]_block_invoke.510
++ __69-[MAAutoAssetSet _shortTermCurrentSetStatusIsSynchronous:completion:]_block_invoke.1706
++ __73-[MAXpcManager sendSync:gettingResponseCode:codeForXpcError:loggingName:]_block_invoke.1313
++ __74-[MAAutoAssetSet checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke.1416
++ __74-[MAAutoAssetSet checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke_2.1417
++ __75-[MAAutoAssetSet _checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke.1499
++ __77-[MASecureManifestStorage _storeManifest:manifestType:infoPlist:stage:error:]_block_invoke.1301
++ __78-[MAAutoAsset _interestInContent:withInterestPolicy:isSynchronous:completion:]_block_invoke.561
++ __80+[MAAutoAsset interestInContent:forAssetSelector:withInterestPolicy:completion:]_block_invoke.919
++ __84-[MAAutoAsset lockContent:withUsagePolicy:withTimeout:reportingProgress:completion:]_block_invoke.638
++ __84-[MAAutoAsset lockContent:withUsagePolicy:withTimeout:reportingProgress:completion:]_block_invoke_2.639
++ __84-[MAAutoAssetSet _shortTermEndAtomicLock:ofAtomicInstance:isSynchronous:completion:]_block_invoke.1699
++ __94-[MAAutoAssetSetControl _autoAssetsOverview:limitedToSetIdentifiers:isSynchronous:completion:]_block_invoke.522
++ __95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke.1315
++ __95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke.1316
++ __95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke.1318
++ __95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke.1321
++ __99-[MAAutoAsset _lockContent:withUsagePolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke.634
++ __Block_byref_object_copy_.1489
++ __Block_byref_object_copy_.1902
++ __Block_byref_object_copy_.834
++ __Block_byref_object_dispose_.1490
++ __Block_byref_object_dispose_.1903
++ __Block_byref_object_dispose_.835
++ ___MAPreferencesCopyValue_block_invoke.1624
++ ___MAensureExtension_block_invoke.1496
++ ___MAsendDownloadAsset_block_invoke.1394
++ ___MAsendPMVCancelDownload_block_invoke.1416
++ ___MAsendPMVCancelDownload_block_invoke.1422
++ ___MAsendPMVDownload_block_invoke.1402
++ __block_literal_global.1125
++ __block_literal_global.1127
++ __block_literal_global.1129
++ __block_literal_global.1132
++ __block_literal_global.1303
++ __block_literal_global.1307
++ __block_literal_global.1311
++ __block_literal_global.1313
++ __block_literal_global.1314
++ __block_literal_global.1333
++ __block_literal_global.1390
++ __block_literal_global.1396
++ __block_literal_global.1399
++ __block_literal_global.1401
++ __block_literal_global.1411
++ __block_literal_global.1416
++ __block_literal_global.1596
++ __block_literal_global.1630
++ __block_literal_global.1632
++ __block_literal_global.1634
++ __block_literal_global.1636
++ __block_literal_global.1638
++ __block_literal_global.1640
++ __block_literal_global.1643
++ __block_literal_global.1655
++ __block_literal_global.1760
++ __block_literal_global.1921
++ __block_literal_global.1926
++ __block_literal_global.1928
++ __block_literal_global.1930
++ __block_literal_global.3070
++ __block_literal_global.3072
++ __block_literal_global.3074
++ __block_literal_global.3076
++ __block_literal_global.548
++ __block_literal_global.585
++ __block_literal_global.587
++ __block_literal_global.663
++ __block_literal_global.843
++ __block_literal_global.845
++ _kMobileAssetPreferencesInProcessSessionMaxConcurrent
++ _kMobileAssetPreferencesInternalVariantAsCarrier
++ _kMobileAssetPreferencesPallasSessionMaxConcurrent
++ _kMobileAssetPreferencesSplunkSessionMaxConcurrent
+- __101+[MAAutoAsset stageDownloadGroups:awaitingAllGroups:withStagingTimeout:reportingProgress:completion:]_block_invoke.1072
+- __108+[MAAutoAsset(RelinquishShared) _sendRequestIsSynchronous:fromOperation:messageName:requestInfo:completion:]_block_invoke.492
+- __113-[MAAutoAssetSet _alterEntriesRepresentingAtomic:toBeComprisedOfEntries:withNeedPolicy:isSynchronous:completion:]_block_invoke.1339
+- __113-[MAAutoAssetSet _alterEntriesRepresentingAtomic:toBeComprisedOfEntries:withNeedPolicy:isSynchronous:completion:]_block_invoke.1361
+- __118-[MAAutoAssetSet _lockAtomic:forAtomicInstance:withNeedPolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke.1509
+- __120-[MAAutoAssetSet _shortTermLockAtomicHelper:forAtomicInstance:performContentValidation:isSynchronous:completionHandler:]_block_invoke.1631
+- __121-[MAAutoAssetSet checkAtomic:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:reportingProgress:completion:]_block_invoke.1469
+- __121-[MAAutoAssetSet checkAtomic:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:reportingProgress:completion:]_block_invoke_2.1470
+- __133+[MAAutoAssetSet endAtomicLocks:usingClientDomain:forClientName:forAssetSetIdentifier:ofAtomicInstance:removingLockCount:completion:]_block_invoke.1758
+- __26-[MAAsset cancelDownload:]_block_invoke.1334
+- __26-[MAAsset purgeWithError:]_block_invoke.1329
+- __36+[MAAutoAsset stageCancelOperation:]_block_invoke.1088
+- __42-[MAXpcManager setClientConnectionHandler]_block_invoke.1288
+- __42-[MAXpcManager setClientConnectionHandler]_block_invoke.1289
+- __44-[MAAutoAsset _waitForStartupActivatedThen:]_block_invoke.1102
+- __50-[MAPushNotificationController _serviceConnection]_block_invoke.1272
+- __60+[MAAsset startCatalogDownload:options:completionWithError:]_block_invoke.1316
+- __64+[MAAutoAsset determineIfAvailable:forAssetSelector:completion:]_block_invoke.925
+- __65+[MAAutoAsset stageDetermineGroupsAvailableForUpdate:completion:]_block_invoke.1042
+- __65+[MAAutoAsset stageDetermineGroupsAvailableForUpdate:completion:]_block_invoke.1046
+- __66-[MAAutoAssetControl _controlStatistics:isSynchronous:completion:]_block_invoke.504
+- __69-[MAAutoAssetSet _shortTermCurrentSetStatusIsSynchronous:completion:]_block_invoke.1670
+- __73-[MAXpcManager sendSync:gettingResponseCode:codeForXpcError:loggingName:]_block_invoke.1277
+- __74-[MAAutoAssetSet checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke.1380
+- __74-[MAAutoAssetSet checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke_2.1381
+- __75-[MAAutoAssetSet _checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke.1463
+- __77-[MASecureManifestStorage _storeManifest:manifestType:infoPlist:stage:error:]_block_invoke.1265
+- __78-[MAAutoAsset _interestInContent:withInterestPolicy:isSynchronous:completion:]_block_invoke.555
+- __80+[MAAutoAsset interestInContent:forAssetSelector:withInterestPolicy:completion:]_block_invoke.913
+- __84-[MAAutoAsset lockContent:withUsagePolicy:withTimeout:reportingProgress:completion:]_block_invoke.632
+- __84-[MAAutoAsset lockContent:withUsagePolicy:withTimeout:reportingProgress:completion:]_block_invoke_2.633
+- __84-[MAAutoAssetSet _shortTermEndAtomicLock:ofAtomicInstance:isSynchronous:completion:]_block_invoke.1663
+- __94-[MAAutoAssetSetControl _autoAssetsOverview:limitedToSetIdentifiers:isSynchronous:completion:]_block_invoke.516
+- __95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke.1279
+- __95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke.1280
+- __95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke.1282
+- __95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke.1285
+- __99-[MAAutoAsset _lockContent:withUsagePolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke.628
+- __Block_byref_object_copy_.1453
+- __Block_byref_object_copy_.1866
+- __Block_byref_object_copy_.828
+- __Block_byref_object_dispose_.1454
+- __Block_byref_object_dispose_.1867
+- __Block_byref_object_dispose_.829
+- ___MAPreferencesCopyValue_block_invoke.1576
+- ___MAensureExtension_block_invoke.1460
+- ___MAsendDownloadAsset_block_invoke.1358
+- ___MAsendPMVCancelDownload_block_invoke.1380
+- ___MAsendPMVCancelDownload_block_invoke.1386
+- ___MAsendPMVDownload_block_invoke.1366
+- __block_literal_global.1119
+- __block_literal_global.1121
+- __block_literal_global.1123
+- __block_literal_global.1126
+- __block_literal_global.1267
+- __block_literal_global.1271
+- __block_literal_global.1275
+- __block_literal_global.1277
+- __block_literal_global.1278
+- __block_literal_global.1297
+- __block_literal_global.1354
+- __block_literal_global.1360
+- __block_literal_global.1363
+- __block_literal_global.1365
+- __block_literal_global.1375
+- __block_literal_global.1380
+- __block_literal_global.1560
+- __block_literal_global.1582
+- __block_literal_global.1584
+- __block_literal_global.1586
+- __block_literal_global.1588
+- __block_literal_global.1590
+- __block_literal_global.1592
+- __block_literal_global.1595
+- __block_literal_global.1619
+- __block_literal_global.1724
+- __block_literal_global.1885
+- __block_literal_global.1890
+- __block_literal_global.1892
+- __block_literal_global.1894
+- __block_literal_global.3034
+- __block_literal_global.3036
+- __block_literal_global.3038
+- __block_literal_global.3040
+- __block_literal_global.542
+- __block_literal_global.573
+- __block_literal_global.581
+- __block_literal_global.657
+- __block_literal_global.831
+- __block_literal_global.839
+Functions:
+~ -[MAAssetQuery initWithType:] : sha256 a01d31d73c72c9aae42144d0e35d6ab22f427121e3b42c4a7860f3f20616d460 -> 52454708b924704957cebad255e56d7983f9ac9b08b9ba45604e6dbe58fdbaff
+~ -[MAAssetQuery queryMetaDataSync] : sha256 23a065f65b879cbeb668a93fd696a36d31317115fbd2be01935c31187a5d0eb7 -> b65c38554c86d83c83ae6adaefad8fad8e10c6e5107f5cedd4848b305fb96e6e
+~ __getCommsManager : sha256 3e824a7654aa591f7085044e2c7476a18621243e6a037abb2cac7fae37d25184 -> 7d5904ef321ac9f2e32410150fb840b4f7563ca67c8e0e1c286a67b0d9fa4769
+~ ____getCommsManager_block_invoke : sha256 31df2b4719b82f421dfc53e0ba1a4c8f23c6d2ccaf0d8f7d73706e084ed6fd8a -> 2f4ac763b3b2ff20289973a8e0b64f073262b1a5c8b0cbe95c4c004b3752c9b3
+~ ____getClientCallbackQueue_block_invoke : sha256 8f91117cc69384f55e6457ce5a1780b7d312fdc4044b75e2adc3cba88211031f -> 7894f82f721c5cedf366d26e7a35cc94eda826306e8068d27fa3e4257d624edf
+~ -[MAXpcManager initWithServiceName:callbackQueue:] : sha256 1009cbeeb2b00d15ca307bca1f58689e819136a339d8ac5a11383e7f37a55a36 -> 828049443f67b789667e0b92ae711a1b7e59d9572235c8517e0c8eece0bead24
+~ -[MAXpcManager setClientName:] : sha256 ab041f5a85b730772c5682092a390e7feb8178a5a820e29fc20cf43db8de884b -> 49c576cdb272c9920f32ee9ec5964ad61b0abee6bd8b12affaf6de63ea5e1fce
+~ -[MAXpcManager ensureConnection] : sha256 669fba95feebcc8f2928e9966af6f40cd6cce12534f6dceae101db0bc33db861 -> b60a8e735e4c9e26fcba8df727507b188575c946e4f47e0447bd2f85596392ee
+~ -[MAXpcConnection initWithServiceName:] : sha256 43445a6c1bbf92dfaab9d62788a7465b9c70c016336147087aab8ba10e5fd946 -> 94e096dd24bf42891b3b28b4453da1bed45a472250c78145fec28020e3914e18
+~ -[MAXpcManager setClientConnectionHandler] : sha256 d6897a76c286ee9684ea19836c34576d64ec21ff06a9df031ffcf08df0bb363f -> 8f6dc9bf2ef1b3f435e03061aa9e8f66139c357c7402f544ecbc170e46c6d796
+~ -[MAAssetQuery getResultsFromMessage:] : 1844 -> 1840
+~ -[MAAsset initWithAttributes:] : sha256 0b63d742c0f67c3a5e8a3ab552e8660a7e88f10a91332f0cd40d0321e40fa880 -> db027a66a33bf590f45d522e39c4fc820ca63b945f0931b5f0d26f88eb5a0726
+~ -[MAAsset startDownload:] : sha256 e1a68e7cc19ae7932c293c14e8abc7e9d25e4c7e7fc8eb0cb0ff5dc47abd0bce -> bf28d4c6c71b08a56138dcafe6cbc5980550d6dcf2678b1f74dc0c760d1c5b27
+~ -[MAAsset startDownload:then:] : sha256 7cdf63bd2ea2e2e693f66fb7104e71926a4c5788b622b012be30176a2c5258fd -> e0b624a8d3fe78d8c9e6b6550032347ae00e849914f40f7f4afaebfdabd3d6c3
+~ -[MAAsset hashToString:] : 192 -> 188
+~ -[MAAsset commonAssetDownload:options:then:] : sha256 5235fa182205418289429f39c036b98f7a233b2bbfe4979623f90939077e86c6 -> 37acb5accb8d0500e2da51b89006e5e28f748231dc4fcc431b617f59df5d8b7c
+~ -[MAAsset assetProperty:] : sha256 6cc374b98ca66585ca5c626bf1dfea498da4471c5c7b22a6557b26f862206879 -> 3a657f3fb97587983a1f1fe7c7bd6e52949fdf6f86b692cf3b9d5fd7199a8fe4
+~ -[MADownloadOptions init] : sha256 710e9f7d7e1dfaabc9ec64173074d4fe9b81f81bbad243808b2ae51f1468bfdf -> 1ea627edeec1e7d0eda1fb1de0a28dc975ea1966ec602052db4130461969c4c9
+~ -[MAAsset calculateTimeout] : sha256 b32d4216d94b456901bfb40426d2f4da91e53355a6a8f1f0b09b44bad3818250 -> d3f7714ec87a6e381068a12b7e0dad31ea0b2525fade99d9cfd2ef8241ba277d
+~ _calculateTimeout : sha256 e75297872567c4f1341ce8ec17691e8de29d0e665dc3ac05da6270646f479355 -> 4923c8e76415676da7d4b6a638837ea39730ffa6bfbf19beb3b0802e1cd9fb93
+~ __MAsendDownloadAsset : sha256 f7ce6e7aedaab18f4694d9b0ea50081a76f452591d15653765b784599f4c4034 -> e1a32fa5c47eb99e216c176bd7dc9bfca7a1519769deda9bb67d7bc3bfebb35c
+~ _addObjectToMessage : sha256 13cbcd8a3a68d0879ff7605fbefe3c6a577d150309486e16c289649cb608caac -> 2b316e67352db62688f8f7f44c37bc6356a34c0e943e4fc234b91221a341c4e3
+~ -[MADownloadOptions encodeWithCoder:] : sha256 1a5b86b41c17c14446bf9da738680bc915aaaa13f9e8cc4f0d27c2949c5d5024 -> fdde769ec5313ce3fdc948b3fbcf67294e958571ce5bbd508e224caf44abda4d
+~ _normalizedAssetType : sha256 a6c4a97444694f1a7c89b1abd603cf3c88b3abefccbe3eb96447e4c6be319ea5 -> 2749c62a02ebc2e843a2590a09c944ded55ba06ee9243be070f7a09aba0402ef
+~ _sendIfNecessary : sha256 57ff15af8f05badb8fde9c7ab82b34f1085c7433e869d43bea48d79fd6a72c98 -> 838aa69f71b8f647a99fba025050f62069fd59e2bd14bce26531310c6fc1f9a2
+~ -[MAXpcManager sendAsync:clientHandler:taskDescriptor:] : sha256 90ca2ce3c6d078cb75396f33c09eb8c0b19743ba81df37fb14d6d6be8175e88f -> 537f283f0cedc8ef9100c6521704dc7a15da77ed0fabbaaf8091ee19f69c6d5c
+~ ___42-[MAXpcManager setClientConnectionHandler]_block_invoke : sha256 603f0897a409ff8988a5e94f76e0628e264346047291b6e00763f78e1b6bb184 -> 073d284616afdfbae1233b9eec160e81f6db32fae0cfcb215ebb0ee9a16c676e
+~ ___44-[MAAsset commonAssetDownload:options:then:]_block_invoke : sha256 d57932e5c7cc5edccc5fb22016c0165a007b4e841f487c4c237ff0de35228b56 -> 67c0f7db125c872bdbb0014a06c6347d142dbc8501a9ba2143e5e6c586ab5506
+~ +[MAAsset startCatalogDownload:then:] : sha256 4169a6f142f22d9d200db9bb3670879ca2141a46843f3c1c030730add72c49f3 -> 6fbd82365b73a8e6e5d18331fd1e35acea77321721295cba4639cd74ecdf009f
+~ +[MAAsset startCatalogDownload:options:then:] : sha256 cf359db27ffe97e3f9d43bfa4c539b52fd6b78ef5d2d7ffbd20aa46deec17159 -> f666e345fb92a0b9c6b692cf4dbf67b04b349b019e92a6832d82c7a6d4b4a58a
+~ __MAsendDownloadMetaData : sha256 eebd2c6e2b698bea96e5c2aacacd81cc758b7443001923f020936c90091d4a2e -> 5f3431ebe787b514178c130d42608c3b61ad059a0f3a4b9e47d0710ccc3d5160
+~ _ASNonUserInitiatedDownloadsAllowed : sha256 a24233d538dd57dfb955655260b8a796b7139aa5ec564f7013f039b767fc5991 -> bc91f2b4bce4bdbfee7e913959cefd6e2b2517b62d729f25e4f562187ef7de63
+~ -[MAAssetQuery addKeyValuePair:with:] : sha256 4e38ea66e0a4f7647fa9ed049072ab3a96abdd1a4263f2b8abd89297bc326881 -> f723c96bdbad4047248c7f828917d71f2410afa915c6c57b4a40391854036861
+~ -[MAAssetQuery addKeyValueArray:with:] : 624 -> 620
+~ -[MAAssetQuery queryMetaData:] : sha256 72b4e62b97b0973cc69ff77791d2f4be3e86d467ef575db8859d9eda2fa12607 -> 2a3a0f69849ece810c61f4211059b7bd2c9f3f644d67a415db5d5d972582fdbf
+~ __MAsendQueryMetaData : sha256 743d5ac1e582d8f3fda41180c5f8e2764eb44310dd87abb7c048ac5ee5b57c95 -> 92cff7f5ece1216075be6ed3dd49c4274db49f85919c0e3fa6af685690ff54bd
+~ -[ASAssetQuery initWithAssetType:] : sha256 4b0be291d68f20f86413e2ba09e72a92c3160a109680d58c67b2221cc186e1b5 -> 7e50e509277dc2f65c3f203a2c350840f2348984083e0189dccf77f365d563d9
+~ -[ASAssetQuery initWithAssetType:sessionIdentifier:] : sha256 8d3459537de712473b5e33b867d2a93b7db2815ba2ff773dc489a17290967353 -> 31d4f0be0c2701fce8a64bd657dc1f61c85c2657d29f5fd62bbfeab5f2aa5315
+~ -[ASAssetQuery setPredicate:] : sha256 89b3890ab285b43f4bc11e2c7b0f2aa9e82ef897b239d34ff5ad1de560e0d77b -> f5725278a8c449888f40accb3452c2d0e6bff952fdd32952ed531bde084bcb0d
+~ -[ASAssetQuery runQueryAndReturnError:] : sha256 2ce15b0b179da2b3f8940de6ca4606397d79fa97ad4745c0f24301804fc729da -> 0f1e800f6de9a28092287078f84276e3bcfe85ac3d2823d030f8655d128fc201
+~ -[ASAssetQuery runQueryForInfoReturnError:] : 1032 -> 1028
+~ __getV1DecodeClasses : sha256 f8c322cc3e39463804aee019991d4e28a97a9e5099bcf303a1662418ff862c08 -> 8ce2477d90a82bf2d5dbd8d89b8e515a06594d238e05880d3f1303abb6339e38
+~ ____getV1DecodeClasses_block_invoke : sha256 37afd5c7b602bc6e6fd7871d1e3a7773829b47130eb42ca5349d25b5af94c478 -> 2566c7f4a096006e5f4c352481a3b88ae25ab75a83ece8e4bb1bae158f9aaf32
+~ -[ASAsset(ASAssetInternal) initWithAssetType:attributes:] : sha256 923483148b5c6e7a2c5c3bd355ffae558a632027a67ab754d3e3cd8db55aa1b5 -> 5e26368a4bd448cf1037a636825cfb580e240e009b9264da115ce136d0d09e83
+~ _MobileAssetQueryCreate : sha256 56731038b37cea392e9c376440230755c5568f3219d93255f9835e61aca23385 -> d4a53dd15af81d3a2fed4a051f95f74a69280445b608c171d9cfc1feb0904236
+~ -[ASAssetQuery setResults:] : sha256 41661262edcf911bb89abbebe4195ca703bc25bcd175c61fc00913a88a80900f -> 04fecfd944a88510b9b73aa6c15a17c3706ecd0511eb19249cb980df437a7517
+~ -[ASAsset state] : sha256 331ed62b794a792faa3abb151c0b3bb3adfd8538b4bd9cf170298789a6f29ca8 -> 74f2a29a6a03b43eff54edeb2521f29edef9c3afdea0b772bc9150f14a791c61
+~ -[ASAsset _getLocalAttribute:] : sha256 db1272720c737200179687ff1cc3c044984b2512532988bf45af994296ca9272 -> 3737c9e565326de92b1137ad42e6a4682d3fa9bfeca86f81c4ce51831c96f540
+~ -[ASAsset assetStateForStateString:] : sha256 9b42ce895561f5f906ffa5772bfe9d9689f6b39d4547c26a15453e7f8fcbb7be -> 09673128436ca1fd0dbdf41c906bfa35843df84bf41be926a2b544d377d61db1
+~ -[ASAsset localURL] : sha256 fb7099cf7a76d99d78e07b00a9edca128a0317ef03a9af1ea82a36c52700740c -> 7fd3cbaca0a9a0850f2586330bce7647a21365dcb4211ac3d1d6288f6c4519b1
+~ -[ASAsset attributes] : 376 -> 372
+~ __ASCreateError : sha256 e3ecd7c409c428003025cfdaff3cbd54752950cf60813a4e76851d6ee6ad3dbc -> b64310834f5b0f31dc20d69b72c87453c6177444054d0d1ac794435dab7ab4e8
+~ -[ASAssetQuery startQuery:] : sha256 86c4aac0fe4afdcedf456bff6b67168f7711eccad3676bd585e456fff25b99f2 -> 58c49633a508b30c3df490a898d42e4c9429e31b87e82c9b2cf45d3b3772f21c
+~ ___27-[ASAssetQuery startQuery:]_block_invoke : sha256 1d427b16fe515f40a2d85f078bb4d26c082b50e8553c75ec3f4eebb3c06f7ef3 -> 961c62f1d6628cb32e117789a8a704d1df177710e71a185e518e86b3edb07e63
+~ _ASServerURLForAssetType : sha256 3c84b66ab10931f20efbfe40e77d237f799d5b2d877536197c109943330b7794 -> 6c06717c517bfdfedcee7083deb8140ec3342939cef590763acec91a15435497
+~ __ASErrorCodeForMobileAssetErrorCode : sha256 500a418c03ed8cf03a2bebe1f66ca013c9dfecacca841818f2f55265a8a2e1a6 -> a3d095347581b32fce39949a5429d3d3f42f08ef0d7c7ad8d36fd5ede33032c5
+~ -[MAAutoAssetControlStagerInformation init] : sha256 e8ee7411745f1e27800d10c2a1d129a962f6fdd349bfca8bfcfa160bad0489e1 -> a4823ef1970d0d1f9a2ba2d12490340b35a76d1b21402f1ab0452ff332965b71
+~ -[MAAutoAssetControlStagerInformation initWithCoder:] : sha256 655c25c2eef194d0ed7d879345064fcdd522b6871b56573ab568b13fc4914584 -> da9ba4531e2d488870b30fa31827d73b7fb7cc97405f69d707d63bc2938215d4
+~ -[MAAutoAssetControlStagerInformation encodeWithCoder:] : sha256 dbce87df616f31fe9dda1c24832dee0b255664338e646eb525f1202bc5e463b2 -> 639ac9305a282a133ec997e21b81375f1a33029f009a5fd97c3a1ec4be6c1d5f
+~ -[MAAutoAssetControlStagerInformation description] : sha256 ac80816fac8ce678484c1f393bd1abdd53fa65be231966bc2c0897eedd331e47 -> 8397a8648e2f93ed93d4bd656b554fb868aa655bea7af237cc136fb51bb4db27
+~ -[MAAutoAssetControlStagerInformation summary] : sha256 17353bbf8fe1fef055ec9a9d04dd5948590a3fbe0931cfe532f30206cc01c35e -> e910fa3fdd442c16f03ea62288e4bbe406771e4d3ba5c0a868b80a03df87252e
+~ +[MAAutoAssetControlStagerInformation previousOTASituationName:] : sha256 1a7eba2476b386059ae0272ba4c86a8268fa1dad3219d50d6b27af88c67f3278 -> 5435cb436c906d6381424c1f4e53d574654bc02fb8aaf114646f98704e2e997b
+~ -[MAAutoAssetControlStagerInformation setStartupLastStagingFromOSVersion:] : sha256 6d123f3ff9c00992249e91ffa2415c4977e5652023eeba39798b544e1602a083 -> d4a808c7e76479e41783ce93a90c48339ee610267c794d311d144675ee56be78
+~ -[MAAutoAssetControlStagerInformation setStartupLastStagingFromBuildVersion:] : sha256 3c25a26662b79f983765de1db720008f4ba3802373fc7ef183964ff647bed042 -> b54c674b32c3ddf728b4a0eb27cd45f1ad07782547493dbd3ce645b6f68eaee0
+~ -[MAAutoAssetControlStagerInformation setStartupAssetTargetOSVersion:] : sha256 aa00aebe2315a6f041aefccea5ff0f1a995039f4efce03bb7bfdb1d110e4d310 -> f16deb4eca51c0e1afca9fda285206c5e1f4733fb2ab1890097d419e1d67f5e6
+~ -[MAAutoAssetControlStagerInformation setStartupAssetTargetBuildVersion:] : sha256 293d524841c33d080e51e03fe552da302f78a75d08193f57bc85a4ad36954fd6 -> 2a28ddeb3842d046df333af84b6bbf279fb0eed6ff02500572ae3e5cb8462336
+~ -[MAAutoAssetControlStagerInformation setStagingFromOSVersion:] : sha256 aa30aa0d04c5a65f55b05d7f98dc8ae403510fa9bb2ee691198a1a2550bec2ea -> 470ae236e324809c0cd941e325c97fdf10b989684c24ee79145ea6b0b51442b2
+~ -[MAAutoAssetControlStagerInformation setStagingFromBuildVersion:] : sha256 823ed6eac13e781473e75157212fcab9a55fb573a2abbf695651c06a4daeee97 -> 71a4e9ea11c0dbcf84633706af97b7b006669a63721a9a8c4308d997ea77d8ba
+~ -[MAAutoAssetControlStagerInformation setAssetTargetOSVersion:] : sha256 21b855bc42d512dacdbae779789bded98aeff4f701717d4e9b71486835bd9261 -> 6893bc04d2972aeb21c86ee03f218542cbbceeded5bb6b965c112256e38308b1
+~ -[MAAutoAssetControlStagerInformation setAssetTargetBuildVersion:] : sha256 d832d9282aba5acc63af4b495d48f65a345d470154d9683980180f67d0ba9ab1 -> 8dc57bb9da9071d79d08ead9c510b360fabd3e402d3d9ef5c6d7f8304af083e0
+~ -[MAAutoAssetControlStagerInformation setAssetTargetTrainName:] : sha256 1f68fb9a0067f0a6085d962065bb84600ec650cc60f5407a33e1c9aacbda5e69 -> a85eac9057738912a8ba0261b24868b333a94ffd52baf3050ba0f0599d4c6288
+~ -[MAAutoAssetControlStagerInformation setAssetTargetRestoreVersion:] : sha256 43a77f8fc8f53f30174fb4fe3cd16b7896d60a111f92125b16fdd269e5d6e559 -> 8125ad2e90d5d8d904967714cdcd6ba84e45474a6e136832b3ef1c67026ddc5c
+~ -[MAAutoAssetControlStagerInformation setOptionalAssetSizeAllowed:] : sha256 90879f6a5861423e20fb4d95fb6bc10ad53689428a2a6756045ced8d210c5abd -> ea30501fad580827dda595d750a44c5af67dde0408d265c738c09d9aea3a40bf
+~ -[MAAutoAssetControlStagerInformation setOtherTargetName:] : sha256 28f47754cdb167b56761367dbd8a15775d3717fd3a46c38662b96f2ecbc6773f -> afba34b6e4cdcb672ef247ba8d34939f0636eb9d133b2c37c68fc5f60bee30b0
+~ -[MAAutoAssetControlStagerInformation setStagingClientName:] : sha256 b60b3478731e833a432acc64715d2280d8093834bdcf8f1ece765baa62b5d00f -> b367e07b4a5421f7794e9e1bc7e56697417d2768f00b933452e7cb29d4289e32
+~ -[MAAutoAssetControlStagerInformation .cxx_destruct] : sha256 68b41a858db7cdb0dd876eaa0a389529a6115c375aa6435ab3c5c06f72b6f6ec -> 8e08e862f2a207c3e5000e320f992f3ea52383846a9c00335e2e12690780673d
+~ -[MAPushChannel initWithIdentifier:] : sha256 3460fba8e0549768e9e13cd8ccc9ad837d6c53e53384d856568574e33ae036c4 -> 536b9b1a431f03b025cfa2dfcc052c884dd879f0b8c036e9881ad60bd4474dc6
+~ -[MAPushChannel initWithPopulationType:] : sha256 bf9976794728f8e45af0f4096f2580280e69033965ef16e101dd4aaa848b6370 -> 79a35ae39b6dc7fc35e047795ba9062e929301802475e94da5f6bc828ffe2c2a
+~ -[MAPushChannel description] : sha256 d460de5f6c9dd432ff95ed5aa205f5c9d7cf4b4a0f9a22bf9ed0e76f320be25d -> 63294cb74bbdf5b1d8d95a335ad9b796fb74d979e110328950c8e90d9c16236e
+~ -[MAPushChannel humanReadableChannelName] : sha256 2e2c04716ed271e826a3b125601d9d7e870f10190b79e04f4cc74217f9316459 -> 210d7f225a4605c1924bf5a382aaf54841d1e9da5bf7ff00b4c57c1c3e53ef62
+~ -[MAPushChannel channelIDForPopulationType] : sha256 b3b8fb09763a9ae1c0ae2a0aaa75d07345b7a7e9d58ae291156c6215fb8f2656 -> 9e98a46c9fb616b2ce066edc7f1e40ef895c5d6e884150d8866db529f6f4adf7
+~ -[MAPushChannel isEqual:] : sha256 13939a08c522470062c04bc6c42b9a163a084c282cc4d04733924d1610c0b073 -> 82cc45d45cd91a67f53a530ee3668dabe55e196c412cd06cae6c7e9d51644f3d
+~ -[MAPushChannel isEqualToPushChannelId:] : sha256 6d9eeb071cc65053892c9e07489d22a16a4bb1db585964c3d4265bea61edf54a -> 482769a92e364a3feefd20ae85a00941668a0842afdfebab8283aedc2da79733
+~ -[MAPushChannel hash] : sha256 062f5ae89a54d7b584485c66aebbb0a9f2a12463af6620f9ded72de100ffe5d1 -> 7e001f0c954dad0bff4ac2b7e5559203667b2bf33c3dc69383996882ebc4f0b5
+~ -[MAPushChannel populationTypeString] : sha256 3bad4900c9b07ea11947d8f29ee512336df64fab2a14214a44802ab772ac16bf -> 0e44c7fae3aa64717fe850e0cc7963a63349f8d80d0e1f52ad1858b21fa2dc6d
+~ -[MAPushChannel encodeWithCoder:] : sha256 98a79ef946128965721b985109299385650e700fefd224ed411eb658e5d187e0 -> 192770102a79e10afa6857550e5f7e38dd2a9c465caaa7eff55415ede15c3d8e
+~ -[MAPushChannel initWithCoder:] : sha256 35d583c19e9f37b2c60c2d2b4f39e201949d98f7eb86c5654123fa88a7f45213 -> 2b3458e344634c745bf1a620f8b30f3520e69824cb3c11358e087acd26c5c61a
+~ -[MAPushChannel .cxx_destruct] : sha256 1269599b1aa652d8bbf5e6ea5eb955984a183fbaafaf2082355f2febc89517ce -> 3aba545277596276ce3ef252ec847714d2fdd4bc665c0ea2767f79cba6667437
+~ -[MAAutoAssetSetAssetOriginReport initWithClientDomainName:withAssetSetIdentifier:withOriginAtomicInstance:withAssetOriginEntries:] : sha256 718955decacbeca7f4834679c1aea6f5e40603d12f22009544f6f714aaccd2ec -> 53ee813d7ea8542e03911ad68c2444e3ac6c61e9fe91c7ed2c8663533e9f142c
+~ -[MAAutoAssetSetAssetOriginReport description] : 480 -> 476
+~ -[MAAutoAssetSetAssetOriginReport summary] : sha256 8a5e0be0c0c8df6db8f0a39f8426fd589aadf5dd6c45b5aadc77d6161fe105ee -> 2fe39b7d7cd7494dcb4b0d9d157331ab4c12fed3b9e7b81044342d39af7a9136
+~ -[MAAutoAssetSetAssetOriginReport setClientDomainName:] : sha256 2b48a28708f269bcd322ee149eea9416b10e8c40d27231bcbc9dde9de77cebef -> 36fa8869687dee67101404d5b25510d614ba15d7e321b5cf4b7e420fd01b8312
+~ -[MAAutoAssetSetAssetOriginReport setAssetSetIdentifier:] : sha256 fdde0a0947e97f296632971dd2771c9230cd96f0249505249b3a15ceac7d4402 -> 47c380fcb6de44dce1359269658830fa54aafa11a070fa44dd7d64ef837ce253
+~ -[MAAutoAssetSetAssetOriginReport setOriginAtomicInstance:] : sha256 e67686d469c6db2deae7eee52b2661fe6ef5b27574b6fe4a94689e54f4debc42 -> 331222326fb17a21d3fb05ddef5de1c3f57b0d41719f07500d9ad4fc5c29d27c
+~ -[MAAutoAssetSetAssetOriginReport setAssetOriginEntries:] : sha256 010b8ac9f55426c26cea33380649306abe03b13d9b2433fb322e46704b1224c2 -> 5feeb26f17551431abc8f25780e9b55e3b0dac32c1f50cc0eae69dc8f0ea63f8
+~ -[MAAutoAssetSetAssetOriginReport .cxx_destruct] : sha256 5ff34d22ae6ac1a83780209a624725e1bf17062a955ca6f65ecb741e54390a7d -> 9adff2e894d9d0bf64d49e01c8fd65ee17d98c51ed14f56f34c17b1d974e75b2
+~ -[MAAutoAssetSetControl init] : sha256 7be7f5244dc785f4d1d9dadaf655dfc6d8b504e3fe3afb04efffe33947fbb9a5 -> 4822a62ba96a16ab7ff35a65521d4a320091d906d249e06cd32b6d7453dd55c2
+~ +[MAAutoAssetSetControl assetSetsOverview:] : sha256 ba9f70f2a1d85146bf4f1109ce448cd99f76f0fb204d0d882be3917e882b2947 -> 046f5f77f61fbc0e7453536777107e7c207909df00b6590e2dc813a3bbbd7179
+~ +[MAAutoAssetSetControl assetSetsOverview:limitedToSetIdentifiers:error:] : sha256 ac92b8f0cf9ed7d8b1dbd44ced14d8c274a2e05542690ccd4be5d6c388226da3 -> 3cb076fd9b5baf7d2a683463e02facabccf2d1197b6294b2ac1d55078758e7f5
+~ ___Block_byref_object_dispose_ : sha256 8581e4ce8d9b767514185cdaa21ce096385dd1139961b8c83fa7c67df690b51c -> f3d440b686545ce9dd1b8c357c3de232969bc803ef6b8f9a542d82bb75d22f98
+~ ___73+[MAAutoAssetSetControl assetSetsOverview:limitedToSetIdentifiers:error:]_block_invoke : sha256 c9db7f1d4f9f331e308ab626d07f80cafd1b99955a79cece3cdf62b185d6b839 -> f554d526c8be44807fff03e569033892d3d7e6623efea11e3d86dc3fe3bbaac9
+~ ___copy_helper_block_e8_32r40r : sha256 c56e12c66574c9231367b005ebb7cf819140438e73d3bbaa3962e2c606b66bab -> 2ded126600b7d0ffe2b0ff44a2691b7ba3939ec6d1a787dcc02af23146aecdb5
+~ ___destroy_helper_block_e8_32r40r : sha256 e48fe337f32ad58ea11c485f99443a3b5cf0faa878d92bca05c30b8c6d6ba658 -> 1aa3302e99c8872b457d8096a64e7687f3f0014e6d2c6192973a4ab4d9557d3d
+~ -[MAAutoAssetSetControl _autoAssetsOverview:limitedToSetIdentifiers:isSynchronous:completion:] : sha256 4dfcc926488037564dff2f9e1c5ee5ed396a00182f0a885da27536fa4b947b96 -> 3a8a52bfd0727eaec44757b9181357f2e7dcf24ce4d1c60d4826b4a325e2f043
+~ ___94-[MAAutoAssetSetControl _autoAssetsOverview:limitedToSetIdentifiers:isSynchronous:completion:]_block_invoke : sha256 076f7f9a1a40ccfe7c3387a23c80abbc314cc9f2a84253528affb6e4c488f85b -> 986e1dc60a7f4ea7f68602a424620d758fe893a7f6d8dbf6bc4a3a7581100193
+~ ___94-[MAAutoAssetSetControl _autoAssetsOverview:limitedToSetIdentifiers:isSynchronous:completion:]_block_invoke_2 : sha256 4fe6ea3d769c28d5c5f989dfb54240532d87d211c5886dbda989345e640c9f45 -> e87032971463b1c30137a8bf14a514216ec4f7c4c3580170214a6d3c0977b04c
+~ ___copy_helper_block_e8_32s40b : sha256 2f1a9b1cfa7ad3a4b4067fa5db1b932d3636384c6a5fd972d249702331f23db4 -> a447f8a9b7df35b19ebbf401e57ff063416a501b12200ebeade16ce525016e0f
+~ ___destroy_helper_block_e8_32s40s : sha256 6968a1138609aa6c9dd39ca792775a8918c575f5077d2800f477df6987d812a1 -> 2a5e06a47eaf1f11f3851179f1084406d15b80cba9fefe889d2a4ab14fc61991
+~ __94-[MAAutoAssetSetControl _autoAssetsOverview:limitedToSetIdentifiers:isSynchronous:completion:]_block_invoke.516 -> __94-[MAAutoAssetSetControl _autoAssetsOverview:limitedToSetIdentifiers:isSynchronous:completion:]_block_invoke.522 : sha256 72bb9504d2a9e8dd64e120c9236bbbebe617fcab55a6b035938b026c1822696b -> dc4123c5d5dae7eefa4151a122784300ef2bb95d4cbbafee58e362161c19be56
+~ ___copy_helper_block_e8_32s40s48b : sha256 dc5621a82c5d06db954010d1d213df614c9ce7ac3b34c7c51ac44da68aa8bfe3 -> f8550dec96e025c1c995b7ab8cad5387d5e3c6abeafbb0439133af3325ecce48
+~ ___destroy_helper_block_e8_32s40s48s : sha256 b63cd833b139d8702854f07dcbc67c8dd9bf9c6b5fd8b24eb7cb3d9712a76571 -> 998f8c5171fd9518e4a473e195a558852b9f00243d842b6e3d0f1537bb37fb8a
+~ ___copy_helper_block_e8_32s40s48s56b : sha256 af8cc4a981174532a0f580f51f09e2b52d67afe2307cbc502c685997f85a97c5 -> 29f33f3ec33ee31ffd4b1ed7f91d460ba24d177f5b1ccf3b046f79c6d3e24283
+~ ___destroy_helper_block_e8_32s40s48s56s : sha256 90127b7cca4b6fd4c28cb608b80181540a8105f8304fa254c12e9b9eec491451 -> 63c63844091a7609606f1f7d414055a64c167ada6928e0354f011a6c351d64b9
+~ +[MAAutoAssetSetControl assetSetDescriptorInfo:error:] : sha256 000ec7cfa34cfadc247ae80ae66868cf18124a8b23b9cce48479a2bd390e0f6d -> 0abefea9f692a43cbf2421244e73df32803a90760d1da001b4e5ae54a9edb910
+~ ___54+[MAAutoAssetSetControl assetSetDescriptorInfo:error:]_block_invoke : sha256 ed4a4f4ef270fe436b10093a64c254adfe459f3b9d678f1d43fb400b639a6c6c -> 36377232a3cfea2e2e7680246f961bbffe9f7f872906a5d822eaf53ac43eba22
+~ -[MAAutoAssetSetControl _autoAssetInstanceInfo:isSynchronous:completion:] : sha256 0227edc1f0b4f441a69d8a59ff6d1bac8b2b5c557d633b55692ae28f5c539bf8 -> 723db47c7ff078dd75365c667360776c836fc16ba6771fa412d66a96e776b3d9
+~ ___73-[MAAutoAssetSetControl _autoAssetInstanceInfo:isSynchronous:completion:]_block_invoke : sha256 d3db75dc97142439d4455736d4d5f076e285bd6409cdd604a6fd99577e277b6c -> 67d35018efda5fd508a4b8d7f93493bbe1f22104807a1d9d0c3a9226a8cd32f2
+~ ___73-[MAAutoAssetSetControl _autoAssetInstanceInfo:isSynchronous:completion:]_block_invoke_2 : sha256 469ac228be44035f37bfcc2e5f54079337d9327d21119a0623ece03e05a176d6 -> b81eeec6820b7ca81a2fa3278e1b5f053aed79a6e7d5c5e7bba12358f0965d35
+~ ___73-[MAAutoAssetSetControl _autoAssetInstanceInfo:isSynchronous:completion:]_block_invoke_3 : sha256 cee2db5082f6e859c592d61e1398b769e1b2e806574618d53bae43b87f1001c3 -> 7de91232e28a1774e363ad7962f5675262d402acbb9d3706b9efd1a48a8b0032
+~ +[MAAutoAssetSetControl defaultDispatchQueue] : sha256 741ce67dacd2553cc56a7c58d6763879e2de7a492cf2a51c1c6455c85ad522d6 -> ef6dcdda174daaa908d3b1853d86ba1d76af76ec16584258f643c9b98d3cae8b
+~ ___45+[MAAutoAssetSetControl defaultDispatchQueue]_block_invoke : sha256 b988f9ac0fe9ce7e4ab6b059dcba915e1399e07eaab350c33e3d70968e270b09 -> c8cb468309afd60312c823db96e05983688af4e01775fadcc15c8cf6bdc70b3b
+~ +[MAAutoAssetSetControl autoAssetSetControl] : sha256 1269d8d05a761277276d4a7587924fb54169a734cafeffea8b9e3960ca852c7e -> f5269b50ed6a79f0b115a364827335d603bcd1cb4ff084235e81ede7238342bf
+~ ___44+[MAAutoAssetSetControl autoAssetSetControl]_block_invoke : sha256 ce7b69356934d4982958bddd74b6970a53e216229bb66a61953e647f174d4e64 -> 4ed63c24dc52bccc028ddd86505952f09fa56b5f5ef725d34bd0e1bbaf03ca7c
+~ -[MAAutoAssetSetControl connectToServerFrameworkCompletion:] : sha256 a29eb02cee5ae392d7be77745a7c0585d4d89ea82640bfd5bdc0a834afcc49b3 -> 2791b4d77adbe7f40d13f518d057cb97cb0b106575fcbe0346964640140dae58
+~ -[MAAutoAssetSetControl _successControl:isSynchronous:completion:] : sha256 96656feafdbbe5327d4c0b510d4eee8048d30bf787bc07028dbb6880cc04797a -> 6ddd08b01642347721c8cf53c7409f9f7bfd36ac9b5a57124fbb54ff2bc4349a
+~ -[MAAutoAssetSetControl _failedControl:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 09e9d4cfea5f4813cc41a3eeb06ee12f0ce49e70f1aa73195932f8a803a6e97f -> 018f5ff81b01fa959d5f41997131deccad1da9657bd3f16367959a0bdd6b2593
+~ -[MAAutoAssetSetControl _failedControlSummary:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 39fd6422820b3d05d4c3ef073166f033ffde69981e9a2bc2da2ff2e2db18c0d7 -> 6831931cd56cde6891e39f3cf7fd99adbf2c4fbc2dff6f3646bb79a6b847db2b
+~ -[MAAutoAssetSetControl _successControlLockSummary:withLockSummaryEntries:isSynchronous:completion:] : sha256 2f98c0ff6b5bbccd4713ab60a58aac235b2722f7abde719600fb16b31915c2bb -> ab12280397b0d70465a758641a16394685347faa5a549ecc876061b5490ffb5b
+~ -[MAAutoAssetSetControl _failedControlLockSummary:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 af1d3a4aba10eab1fff1e2d548518c96a2d13ba94b661d64d599ac6c8aa868b5 -> c6bb26823c81efaba1b2249c186fc328ad4e7513ae6ac8e9a33734b42f086b65
+~ -[MAAutoAssetSetControl _successControlOverview:withOverviewEntries:isSynchronous:completion:] : sha256 c403b0cb6285312809dcc715fa17a53515d71883668d752161e6196d69a5d238 -> 3f97f693ae8d44a605b315cb60609538aa1b1b8f172acb73d15baf808719a377
+~ -[MAAutoAssetSetControl _failedControlOverview:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 98db5adb64f2ec5414861b8bfdfbf93dab7e9aaa00ffabd6080a508fb3e6738a -> 568641454f3f84dcf7beffae2cf281dab57e9e764270e79b5959897d99cb66ad
+~ -[MAAutoAssetSetControl _successControlInstanceInfo:withInstanceInfo:isSynchronous:completion:] : sha256 1ca87bf3ac57435e07cfc3a1cff6d570139a7d36d5060c0858130f7e20d7750b -> a81c89db5007a080311475936c5d12cf3d295c257fb6f5b033c3c1349c5a400a
+~ -[MAAutoAssetSetControl _failedControlInstanceInfo:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 db692b2654d1fc822156daba8934bd3ede755f7c1f71b48c860662097a147baf -> 6d62b09fc5c220ec163322e7747b9970de6dd8a461d09d9eb9b7a99f72fbe7f2
+~ +[MAAutoAssetSetControl frameworkInstanceSetLogDomain] : sha256 b124bcf056492593ec530096a99d04039af18639a5d6f681d45bf34713bad60b -> 171c3b48293e3b159dbecb70eb06371b83b8dac73760505ae3990ca16568cab1
+~ ___54+[MAAutoAssetSetControl frameworkInstanceSetLogDomain]_block_invoke : sha256 8ba20e1c30aaa790f4a1d413232e8914927e63fcb02e6ad2ad5d0f4b8a36b516 -> 70e645134a7e0e8cd4ee32418a1787fbc54adc30ce404c01d5c80c800221285e
+~ +[MAAutoAssetSetControl _privateStateQueue] : sha256 4444bf27a95c3b89d5085f21cdd88a9b431bb707e73ac1954da47e33836d8705 -> 4631620fa7a061aab94818652724050e2b49ca52eb0f837592c9040a5df5b818
+~ ___43+[MAAutoAssetSetControl _privateStateQueue]_block_invoke : sha256 0b21d646ac53d482cea8da76f9d59339e2940026311e20ed177ba789a5b0d69e -> a93a8f8ea81eb9a2ba60d4ef95c0cd85f6102b485c9d4b64e771352affe14b1d
+~ +[MAAutoAssetSetControl frameworkInstanceUUID] : sha256 ec5f9295141f71dfccb24d535f17fe7fe2ab755e8baadaf8da5b48c131549207 -> bec5c8eb2e2af060286e38e75e883f920862875af1587959d4ca1a14a8864e53
+~ ___46+[MAAutoAssetSetControl frameworkInstanceUUID]_block_invoke : sha256 0d5be1b21e4785eedda8637f88efeed0b0528abc9e559915079f282ecec838e5 -> 1259df14919afef74477fff4a7ac34936732d889235e582c808184e020d5342c
+~ -[MAAutoAssetSetControl setConnectionClient:] : sha256 1e88764df531b0cb36b1330e7c4eca7fff0092f26b5029e56b6ff08a75339415 -> 25dae92f7f2db0e66cba1e027409472d47517ee3972147f37c9200e36ef2d339
+~ -[MAAutoAssetSetControl .cxx_destruct] : sha256 6ffd587faf8fd9d9f1481f5ed755ac098a8a7678aad21b260201ab8e860018b3 -> 050d8ab1387e740d3b2cb9fd4de1ca2c1ed45302a07601a8ed1e84497236d37d
+~ __getClientInternalStateQueue : sha256 7b5d59c44a38dc083cc92dfae99cf35cfef3329e75662308fa2328e3e6efb21b -> 8b61ef3b2df8dbb88428395551e35f0eebb74ee321c1d0054a999a56bc179007
+~ ____getClientInternalStateQueue_block_invoke : sha256 a049a9e340fe5884e582233c9cbfb7796504b3224605c70cf95948f94920738c -> ec2ac456c8a8c4481e5683551dcc73a06d58fc6fe781ba2a3ff7f0db024cd7eb
+~ __getClientCallbackQueue : sha256 628545807ef67eedd560ce11f155451d9d40e072da7ee7255063d266083c6d53 -> f3e7e1ea8ba9ee5452dcb638a18abd030657d2ea1dc8ac7bd7a70f015f1580b6
+~ _isValidObjectForAssetTypesArray : 500 -> 496
+~ _isValidObjectForPreservedIdsDict : 1004 -> 1000
+~ _getLoadClassFromMessage : sha256 c3dce6a1d7dfa88c9f978ca3dc367869e03b01872414014f341797f8210ebb31 -> fb4e1bb1aaedc233da3bb104fb258f2ad1d0f75b374d0ea7090191c3a88c12f6
+~ _getLoadDictionaryFromMessage : sha256 dc49cf282feaf2b94eff7721729a0d9badcdc221d819b57f527dd7a29ca33be2 -> f408f4ef4cf202639e113233bfeb4259606bdf341f622ff0833bc17a16574099
+~ _sendOperationSync : sha256 5f57da148da3322bad5430491d60203796fb3529823a97ea53c684235c1d8358 -> 29b34efcc226ec7d722458e0568a8630032ac58c1fcf146126af634829e2d8cd
+~ __MAPurgeAll : sha256 b2cd92bda28070053ee618504ab976c70d8540ae6ea318a248d6de8973f88132 -> 642a91d66a12c20238a2691d0349c53359da999b1dc8282068f9d86da21eedab
+~ __MAPurgeCatalogs : sha256 404af09a8394fa6077a3eab651f1f89bc9bea4b3d59733af33817685afcfa300 -> 1ba3eaa490c95997caffa9645f50214b835c775e94fbf73c45012a82f30d3130
+~ __MAsendCancelDownloadMetaData : sha256 ede188e65f7815a9216ca2fdbf2c5314e06c5ead1493c3da63905c89a435486e -> eb7c95bfb11569353631af3a5145497295dc9725a7b3dab14a4ee1d054c09072
+~ __MAsendCancelDownloadMetaDataSync : sha256 d7772051a2d5e6d52b0560c0bbbe8b4e7fa5cd74bcbf5e3b8758ddbd8beac5b8 -> 40fb0249cb3b444da44ceb08d392c72f8ddd238098229601eb416e06d34e37f1
+~ __MAsendSetPallasEnabled : sha256 378fb2082f5860ba0b983f02167242f2ec2fe27c21105f7fceab9a4dd5182ed9 -> 6840d3fd70cd6506f7d296ea06d517e91e5575d115986d628459871e6a4041e1
+~ __MAsendGetPallasEnabled : sha256 f36f4d67bdab2d75849b9c56f15d25f475f90dbd19d915d935933c57159c3b9b -> d30852809f7b9647b80adb46f4f841427c33c3351d0d06afcdcfee07c24227b9
+~ __MAsendSetPallasAudience : sha256 11b16bf50cac59b3b971bcefe07563c7f5d7b3b51e19173414997c5464b1f829 -> ea0d56ba98fffe02e9a5e763c44aaa13ae1019820a07ee5e6e9a75c6bd408d93
+~ __MAsendGetPallasAudience : sha256 7cd8c0a620a31b5c737e42548b9ab33c00ec20015d88d510276f2bd1318f4fee -> 725a76bb2d53d8d780dcf1389f6de100ebd5a0a61eea16fe7f535ce61c5eb7fb
+~ __MAsendSetPallasUrlForType : sha256 6a006961027ecc655a330bd6c7360743708f38b55535fd395ae56d9e76d4635f -> 8b1c1743d9e11486933030770d5ab4d2ce645202b6f0a394a97bc131afa8762e
+~ __MAsendGetPallasUrlForType : sha256 924e4efd14dd2f7374403c56c04d3c567ba083bfa21ffe1d1d710d099a541108 -> 71a07ccf85b0d7e2451374629bbbcfbaaf315735f34a4c8011180bc07605f80a
+~ __MASetDawTokenValue : sha256 39c9609905be78d9efdf9f15d16ad6226ffb9765ebf228f6bc43364806b74902 -> f6c1f2a5a3d55df22c2ef69b23179dfde3fbfab8a382e898de623db6d66ca855
+~ __MASetDawTokenPath : sha256 43f51dbc213a5f8777a1719d340fd182270c9339664d6d367baf29fb75d241ae -> 70f245cdf8a9d0ed159ed337d5df8ebf5871238313ee242ea1c47bb7a784fb76
+~ __MAsendSetPreferences : sha256 98a568001d2a45e202d2a75674aa9c0dd8d62bc7b3d16843be3948947a40fe37 -> 1ccae20f58e0188990210944c2f6909f06fef908c60c5794896a9de5490d4154
+~ __MAClearPreferences : sha256 e3af0537b9dcbeeccae5bade45b3696212819512137741f9263794c956776233 -> 1a4753e3822588ce25582da731044922f72f697e1dec0480b2570dce195ff63b
+~ _sendAssetSpecificWithMessage : sha256 f6d79b07f98b438cdb0047781b5137d879b588ff523b2d0ff8b644cb326eaac0 -> 2c183f812883e159742078045e86a048a509fb5151c7126cd9352b7cca4c0a5f
+~ _sendAssetSpecificMessageWithPurpose : sha256 f6a059e0fbe1ef13daa5f3c7756286bcd5a5956eb113a9860fce2f370456a81c -> a352a29aac072da781adfc5283449685d0c5a93c73bd06d23acd7160d8e15778
+~ __MAsendPurgeAsset : sha256 7d8e7270da4bd34a40fcb0baa69275c66cbef07cf60d31a7d50ec9c7a597c632 -> fe8ea228c58a6fb1d54183cccbe1006430597c674b1dd3e8945eab5336cc7784
+~ __MAsendConfigDownload : sha256 95715fa29283872da64f1cbfb5ada0f67f38a7201dcd11df516dfb962990d786 -> 1a19fa147593b8a19492e4b04de44909b4b151694cebdf4b3a9b4caf8ffd7916
+~ __MAsendUpdateClientAccessGetPathWithPurposeSync : sha256 103b9a298bc79f774c6c0827d8e2bf0236ed424c6848f9f13178b310430ed285 -> 1fb7e1bf1afa4066080386cc2905e1583d613bc83dd6a6809f6888b81fd2546e
+~ __MAsendGarbageCollect : sha256 d08161c3657ff8a5abaee60b583bc12e028ab5d97afa99fc05e842567b9d60d1 -> a6b949a5cfeaac1ec9fdf47f0cc838d1fecd760cb553fc003119f78d8b81b931
+~ __MAsendInstallAsset : sha256 1cc0f4de6b96f04548cce1555a2bc4f7d087d9fd324a194cf90a4cf9fa146735 -> f073f01e9564cab4794a9aa0a22f756f9d7f8a8fd0e854e6ea83c47ce949461c
+~ __MAsendDownloadMetaDataCommon : sha256 bb6c3088d958d1b143a4068fce22aaf2db00df32bb0d4aad59b4ebd02acd7b25 -> 8a64ae27ac5fedf1f141b6befd8e0cf4e160c41e3a5c45025b8fe4949af77a97
+~ __MAsendDownloadMetaDataSync : sha256 3c822c6e6fe13366c578a291cabc1894f45a054e76e5f07ce4f1508e50ebaaf4 -> 8ff302378a1e9d2794239989e3f572fd35c145ab466073bc7412be5bac2a9c27
+~ __MAsendDownloadAssetCommon : sha256 bc79f5e740c74129fe72356ccd12eb8ab859fbbd9980db26e2993f9350893ee6 -> 0d63fd166044778149665dc0fc4932e821022cd81d9fe997d0e2875a12b15bb3
+~ ___Block_byref_object_copy_ : sha256 217ce36b0dcc81ff1c0ceab8d84edc861f185c3f8a0886a25050dc12cc7c5b21 -> d7a72fd3e0c95ccadf637b9d2fde43986b620e92ae4ef12a2653413619569089
+~ ___Block_byref_object_dispose_ : sha256 d9e7f6fad5041ef4fc5373b0d4a59f289176468bf240ea6ff04fab7d9ee671f2 -> f0db730ba574a4c96c29eae222ee2831468e4c6d66399be9ac08251a4a2cf3bb
+~ ____MAsendDownloadAsset_block_invoke : sha256 3bf77c79084b59417b3c608f1e80ddc3fbc911fea1ef89e11178fdb70b39ffc4 -> 988f204725702962a425011455dc42eec7c41fa14d72b2b638d14a8d976f4032
+~ _getRetryXpcDelayQueue : sha256 eebd6d3329328f353d64b7d5e4415790473057ec832bba174e2ff3568ea601cf -> a1f9a27a2286cdeabdf58d68d36ae682dd917eb6ca30fcf40b9dfa522f923a8a
+~ ___MAsendDownloadAsset_block_invoke.1358 -> ___MAsendDownloadAsset_block_invoke.1394 : sha256 0f9c945ab7baadd6e07bdfe1cd3a46bfdb5c14a6568c2c412cb487f4148a4d12 -> 089a0895dbd6f59f768c915ad03ff48e7250a6df5cec89240815e7e013e4d3ee
+~ ___copy_helper_block_e8_32s40s48s56s64s72s80r : sha256 dab7c8eb72732d3096ed05b9bb60d270a51013673bbcd834d5d948c62e69f72f -> 5d966d4836ef767686a1fdf64094f8f7c12e1a03b9b9896620300bcbd7801f9f
+~ ___destroy_helper_block_e8_32s40s48s56s64s72s80r : sha256 11d585ed8066cd3a88852e4825b6886948d65300c4e56db4e3ef4b7527ca828c -> 6651926e7e092d6a1dc137dde9d786256793e0f32d2bb71607a1cae4cf3e03cf
+~ ___copy_helper_block_e8_32s40s48s56s64s72s80b88r : sha256 95c60a75e91c624952b83ba8f0bdb2f87429123e0934657f74188f2d65f30fb6 -> cd6d626826f48257ce52f631f0d618f815120ba3a90e633e08130c010da1a6d4
+~ ___destroy_helper_block_e8_32s40s48s56s64s72s80s88r : sha256 c30cdacd5e327e36d7a31f2a5886001918bfd4a5213dc69bd0515ae2744e0ccf -> 24a2e6c816573ed488403f18a27e65f4014499bf177d0b5bcd7c0001a0123b6b
+~ __MAsendDownloadAssetSync : sha256 776297954d06ee40801c291b60fe93f82f4315a9222c1a8b2ba4b61dc2c5e31e -> 97e6c988ae2c4f8b24aca3c6c405ad95d8f2527be43899d758aba37f216dbb18
+~ __getSandboxExtensions : sha256 ffa9ea3f2b071efc9885fa285fb26aa9f4672995a89de427702172ddd3bb84f2 -> 7ae95780cbf62098214d89359abd5fc2601f91c2b4a78cdd8f278c5e3267e946
+~ ____getSandboxExtensions_block_invoke : sha256 2982314a48e405943d74110ef9a145d6b352c77b6f04bdec140b941d97d53ec9 -> b089e84f0727610d3bff30fb93544bc47a80ee631600dc66e156538d12328142
+~ __MAsendPMVDownload : sha256 68cd2dfdca2ff36c2bdb6f362b5c8953288cbc66f5f9da23a5de554ed7afb117 -> 740588a609375668b70d82cdb25876bd7b195af788a19a2ac229f9124d25786b
+~ ____MAsendPMVDownload_block_invoke : sha256 7b76d53698ad9c0993356d8ccec8e7a231eaeb51f92d3859336444400227335b -> 9a2d72c98673e80fe331f0332b14df96c8cc9eaf5975cc3030372feb3c6a222f
+~ ___MAsendPMVDownload_block_invoke.1366 -> ___MAsendPMVDownload_block_invoke.1402 : sha256 804a6b10d3c42f877b15dad12831228ea3a428e7bc8e67e15455fb303e3f9606 -> 91578497f7505f49d5c0c59bfc8570d03394c2037e05466664aea25ce6dbeafd
+~ ___copy_helper_block_e8_32b : sha256 eb64319cd7aaa2587fb7b4ccc22fc88aaf997d666a6ee568383929def625f3f6 -> 964fda3c2c7ad415f74686de8f413ebffab69931591cca46aa63256cae196785
+~ ___destroy_helper_block_e8_32s : sha256 2bb9fdb9425f416ddb4d056d75e684e0917edc83617d9dd6610497b0aac21954 -> d162d026fa58c691cce930890ca9a2db5378343076ab067382eda1100196c2fc
+~ __MAsendPMVCancelDownload : sha256 70df9019a0dc5d31ac32afdbdea4f32d8635dfd356c4c620eaacee4c9bfed441 -> 3ec39a06e3584175d9843927ad49fdcac8f300781aa1db09307130eb67443469
+~ ____MAsendPMVCancelDownload_block_invoke : sha256 7ecae6d7f3fe1452c84a34c3adc78e86012d8090c1e92a2213fdd170c27a1fd9 -> 0cd43e9268de324a0c7b995d9c811882bbbf7cf15e125d97d9c2f3885512a570
+~ ___MAsendPMVCancelDownload_block_invoke.1380 -> ___MAsendPMVCancelDownload_block_invoke.1416 : sha256 fa6667b06c9670e98f3f3c453f3f56624338acec4b8e03325e26d557df2ce077 -> 4a1d6f98cc469ee4b6382196479346262292e4bbb1f7f108da1b98cbf7a6d99b
+~ ___copy_helper_block_e8_32b40r : sha256 1c32d18b5d924c298665808a9633a287b33d8b98c63c18546a91b0d21a2c1a49 -> a3ddd40a7e2c6bddb5b580dcbd720f42504f2329c0c2a5fb8b2b375a397218dd
+~ ___destroy_helper_block_e8_32s40r : sha256 9f9b6072c64959d83f9872f320adb889e204005597f7d340072aed0004b2b71a -> 57c0ab27e74a0e63fc6d8dca69cc8ec6f1dd793a1d315b3c733bf0efd0695757
+~ ___MAsendPMVCancelDownload_block_invoke.1386 -> ___MAsendPMVCancelDownload_block_invoke.1422 : sha256 be3fe57b18dce545a1fadb869e45f4156c78ca1fd3dbdbabf99f0dd1c0f5eae5 -> e79ce30018e8e0fefbc1da47675cb0e22aebff765e9a3c00ce1c2fddc176e05e
+~ __MAsendPMVQuerySync : sha256 020b879d893378b37a31e948039ff57fbb618490aef104722ed54e4a1ba1bc34 -> ae8a717ddde1ada067a89045b0c6e034580eba8d656a08b45e2c6f4709d16f41
+~ __MAensureExtension : sha256 7b6263ac4f4333c12d5a83ed71be6200a5fe7207429f675704c4a3f8b490a520 -> 07835857831b3890c9b44c1cbbde1743375c8afb2ee7e3ab9f65132a3a1889be
+~ __Block_byref_object_dispose_.1454 -> __Block_byref_object_dispose_.1490 : sha256 e73dc249e993c4be1d1f3799e730cb6634247e29451bbfdcfeb536d06a0f5f89 -> ed050b52b8baa2cbbe32895ffcf6e97bf889c00eef0c0d996609962df0c0c26d
+~ ____MAensureExtension_block_invoke : sha256 ebdfdb74b5dd4f0afa0ecc77c9ba27a93dd418739de320510e7fa909e4b0cae1 -> c4b2bc1cd3dd7e25066fb12e003be5a2b970c672baaca427647c7de0ce822d6e
+~ ___copy_helper_block_e8_32s40s48r56r : sha256 c066910fa93900ae0e7ea4972663b700a32f15c549bf339012f90da921c33a64 -> b70b48cadab822f4dc75e49cd92fd89a89f1353955e4575c566b92aef2292a34
+~ ___destroy_helper_block_e8_32s40s48r56r : sha256 f06aa392d95a56398912f22889c794896f4ec79dd1c2624eb082fa3e8a7077c0 -> 3c433572392482a30ac80d9e58f80cc7061e2e1d520842a82cee7449f9fd52ac
+~ ___MAensureExtension_block_invoke.1460 -> ___MAensureExtension_block_invoke.1496 : sha256 86e129b3a99c2dc68b6c5c448edc899d677cdf7e3dcdca3b87efc0b1332acf60 -> 2bb0a36f31255e8878a858e05450d1f6d1b1f1d873a2929b5ff2eb9a8c008cc8
+~ ___copy_helper_block_e8_32s40s48s : sha256 61f192acc73b51c84b81afb239c13c770f45ac9cd42135471302e02afda8d6c8 -> a8174fdf1f5492e8d829e422ac7faf40bd5ca6c3933c7154ff9b58acab035c80
+~ __MAclientSendQueryNSUrlState : sha256 d0fd503a9245b77b11e8772cb297bdd5489152eaed73f6a75f65cd1fca80a263 -> cff205458d2cf6a8bcc369e1dfd48cc75182b1de64438500bedc9a880a07aa08
+~ __MAclientSendRepairStateSync : sha256 21155ea288351bc7d65616663e01f0b7e52c5739f1afc312f78cc48c1c51fc47 -> cb710308bb2bad61f700d283092e03d0cb2a185c40a63351f5b2c6380e8d0b9d
+~ __MAClientSendRepairState : sha256 29637d26ffdf03de27ea558d9d5dc9b77dbe07116595a0dd5378e233910d75fb -> 051cc3be2b27202f7fbaf454c4c792f716ab9a434ee785278936a2b61930bc01
+~ __MAclientSendGetServerUrl : sha256 587ecaf5d9fe29535f94b6072ee7ad5bfc84e1b68d396b853e46244716c1e347 -> 04523849fb41aa8451f7ccc28ebfe8e4ed676db7270156651eb670b8c02271c5
+~ __MAclientSendDataMigrator : sha256 69b5ad1f9ed04fdd3a849131392a536fc99fca858e70c6bf1608bea3450328cf -> 33a5ab784826c34421ac8aad67a89d65fa228fff9422317e08062a1584a8819b
+~ __MAclientSendEnsureDataVault : sha256 fc38dbcf200fbb3f1aaff21f24d0479d7baeaf328957bf4a2879903b1aabed61 -> f86444ab326ad9fa2a0a37f80be56bb992954458735832fd29b111740eea88fd
+~ __MAclientSendGetNonUserInitiatedDownloadsAllowedForAssetType : sha256 62397173b8df7fe40ea72f4559850f36fcd8f38d98b311f8a008c12966147460 -> 4bc00e03705de978dfeeacabeed9ce56c73e0b76bd4fcefe5310c9460adad225
+~ __MAclientSendServerUrlOverride : sha256 21ec0106aa62841eb95f67ee57b1970e58a1d63f92f471e027f927d6bb17e30a -> 092bc7e792449f190e12a9b3154cf239061b6109f52a0639c1d60b973e1673cc
+~ __MAclientSendServerUrlFallbackDefault : sha256 a7dbc1892c37d16eb5f5d4ee4bea5298805a200f6b096260bfd7d6aaeab1122b -> 0cebb3bc2cb9889f2916b3144f65f342f4add89492a7600130b238f2d57a6919
+~ __MAMigrateAssets : sha256 1e7a2dca7caffac8e7c6e520c74c8cd776ee05e438c25b4967f4510f00842d15 -> ed1ac8b3e6bf17077dce4c53a1278e712fb8f500b4fd0881b77bbb47da331ec1
+~ __MACleanV1Repository : sha256 36199ce5296f281b629a27740d536ef7e9b61986cad7ba96b7cda5441c17c62b -> f68ec372c395273d130be4812d523ec835726732460b276ffd97a898d5588ddd
+~ __MAclientSendReportingRequest : sha256 35117a5cc0bbe028ae54ae282bbffc46a42772f4e0eb99122f3e22f45f804975 -> 2e2d12265bbcef1094bb0dec3139601be1a763afc6737e5c517cbd16455829a8
+~ __MAclientSendGetMABrainInfo : sha256 666516e1b87ff43185a4b36789d9d94b5ae8c95ca09bf3bcba2fb12b00b4efe8 -> 3163b2ad1aa8f814bee7606ce427707ff751ccb7bc262040b43f0f19acfdb27c
+~ __MAclientSendUpdateMABrain : sha256 cb607a406dc40f4ee072ca8efc798fe473ce8b0472496231c4911a69ab337628 -> 29ece4c2e827ba3537bbb7f9738bb38545de77fa9eef6e9f82df4c8eff4b0a4e
+~ __MAclientSendSecureMABundleCommand : sha256 556e8805877f9822625887860049a114920d3fab39f7237a5b29ce9262d2c1b4 -> 3d347a18f472adf02bb4833f15367980066f33d3922c0f2f1ab18ede4b99f198
+~ ___getRetryXpcDelayQueue_block_invoke : sha256 8988586cf9e858fff5ed636c5968cbc204b339016b3756c5b7c3385db45166d5 -> 1a9e8f1192f8ef6c08bdecaaa5babdb333280833c62d77cf964840ff883d936c
+~ -[MAAutoAssetPushNotification initWithPushReason:] : sha256 a2aea7309c7dc9492753702892b2dc4825590f25d462008800452a49ee7b361d -> 2834b4044ebca3f553296bde66441cf10ee3212cc17ca22b4cf9caba407529b2
+~ -[MAAutoAssetPushNotification initWithPushReason:forAssetType:withAssetSpecifier:matchingAssetVersion:] : sha256 2dd53e78037cd41e7de465176cbd91f7fff7cebb67a0cf2081fad91a1a350a74 -> 8145e1a872b30c9c5f1c3315317558716ccb5b7da357b7d105e703ee0884f373
+~ -[MAAutoAssetPushNotification initWithPushReason:forAssetType:withAssetSpecifier:matchingAssetVersion:withUpdatePolicy:] : sha256 fbd31f9f88e70adb323d10ac46302c3d7dfc06b7ff288f114d8171dbb29b6e50 -> e7ed68db4467f4e9a007c4a50ef752d3996b169871bd123beb8337a70daf5ae4
+~ -[MAAutoAssetPushNotification initWithPushReason:forAssetType:withAssetSpecifier:matchingAssetVersion:withUpdatePolicy:withAdditional:] : sha256 02d656a6ee89736f701d388b151f14a8552a84497c043510f4098594990befa6 -> f36b637ddd0cb1d3568927c2bf077f83d11c577c86d843fdaa2bf872c4afe67d
+~ -[MAAutoAssetPushNotification initWithCoder:] : sha256 3bac779cb457f9663c87d9ac4c61143523d9bd3956d8c683055bbc4fe7bf3862 -> 2a7e29dd4156f3daf409fd6fc83a7d1bf1a2553a6d250d58eea59c95a718bace
+~ -[MAAutoAssetPushNotification encodeWithCoder:] : sha256 0f54ca65607ba26965137f6d235b64e470eb18ab47e2396ce84f7e4486cbfc32 -> e6f890df78a3f7b17270fe116be086a12447a2ea6ac766a8fe26b694e1e6c8fa
+~ -[MAAutoAssetPushNotification description] : sha256 8eaf687bf61baf65e6624b665111a99e4231548783cac32732e6920004a65a0c -> 3f4c788726d3b561bf9ef84a625db5105b06593abd0cbc9d111abdefd198e2f9
+~ -[MAAutoAssetPushNotification newAssetName] : sha256 2b26920a140d4edf9e4fcb208ea0a47cf63a15808da624ef7752e33d04bde2e7 -> 1dd22a1585c4ea504c840ce18d6f3fceea95c6a9fbd20c0c3b49e2aab6595611
+~ -[MAAutoAssetPushNotification summary] : sha256 25df9e05fd9af6557290dacee899886202bc43a0463f9d334ac8e4a4c686e588 -> 61155e75c23c5b7120ca246c0ce3b1c71950263105fd220826d5d5bd82871260
+~ -[MAAutoAssetPushNotification newSummaryDictionary] : sha256 6e9d9c0bf76dedb91e105313fe6ff9eb76764cb37985975b84ec98d69d3bbae4 -> 2b2f2b1330fa2cf1ba446c5d43c3a12d5bb4049e386418e43b10a9414601fe0b
+~ -[MAAutoAssetPushNotification pushReasonName] : sha256 7cf5e0ec261d8ac9cd95bf110e82fa9b4fd6c855874318d59c55bbf84209abfd -> 076705fae89a631b0f0ef20ca62270652968f4ec881a927dd4146b39b6d4f8ee
+~ +[MAAutoAssetPushNotification pushReasonName:] : sha256 fcfc074e05888b124ff8d2980588c43dc4c8e01ddc759b7240772c4061a3b189 -> 7937754adac08f481eda94abdff3f52bac1cc44c18fa73fd18e3e0f76b07d731
+~ -[MAAutoAssetPushNotification historyRepresentation] : sha256 aa4ce81afb6fd3153cd9d9c773a987324d027f24f287dbaa5abfb2c5573e6f04 -> 6ad4a01b7a4f0bfd8fa8cf68544fe4c7ab323b4967122d26782056a64d09910c
+~ -[MAAutoAssetPushNotification setAdditionalPushParameters:] : sha256 a91368ee7ef19bb53ff9f1267fa0e83f8c4fd23aa5b86839be80135ebf54adf7 -> 66d77ce46706dbe4190bc9322f80ff6e66c629586ccabaec7671ee21e517a292
+~ -[MAAutoAssetPushNotification .cxx_destruct] : sha256 3fc07fc47dccb7e51cf876c9d971fd903634c43d673f25a908415629781927de -> 6124f99cd57229c0be9b3faa8e38962f38d289abae34cd4664d75572b2eb513e
+~ +[MAAutoAsset(RelinquishShared) _sendRequestIsSynchronous:fromOperation:messageName:requestInfo:completion:] : sha256 ff97ba03344aafa7045c30553942e40b9a400e90e9916f7c68136d407fbb288a -> 370cdb25b7f5cebaad4cae86937222b7dcf852ffbe5048c662c09ec4a87fdd04
+~ ___108+[MAAutoAsset(RelinquishShared) _sendRequestIsSynchronous:fromOperation:messageName:requestInfo:completion:]_block_invoke : sha256 f2e9e577a677fb26a5e45fbcd71e652836eacf3646e3765bebfe35060d2fcb9b -> 3ed1e9ef72cca51e4d9650dc1dd9de49e1f0989dd8459b6a42a4056841c3f372
+~ __108+[MAAutoAsset(RelinquishShared) _sendRequestIsSynchronous:fromOperation:messageName:requestInfo:completion:]_block_invoke.492 -> __108+[MAAutoAsset(RelinquishShared) _sendRequestIsSynchronous:fromOperation:messageName:requestInfo:completion:]_block_invoke.498 : sha256 2a1520488aa32d35aba4f32b271859fea1eb1ff908bdeb4772d0c0c55e8645d7 -> 37bd9f2dfd652c3b8de61e2741feff5c627907bbce4524e4c38cdf59bc5e5b78
+~ +[MAAutoAsset(RelinquishShared) _relinquishEstimateEvictableBytesIsSynchronous:completion:] : sha256 3808df939c38d9e8e05b6dcb28cd91bec33b91acaf3972b3a1edb0f317559fde -> c1f820a5fa37ca18752b13bf60e41a6452680c3549865572c32fff087a711a71
+~ ___91+[MAAutoAsset(RelinquishShared) _relinquishEstimateEvictableBytesIsSynchronous:completion:]_block_invoke : sha256 dada55cdb714948fb70b885ea1fb7b244d036592b55f1a3b00f2c6a189a17a4e -> b29ccacc1ae28529957b38ef239614f56663aa262a45eca6d8bdcf55cb20eb15
+~ +[MAAutoAsset(RelinquishShared) _relinquishSuspendIsSynchronous:neededBytes:completion:] : sha256 4f0245e64ba16ca14da48755e32d72fff8d4ed7789a32d773070043ff18a082b -> 84d76fec61ea021f79f4b3e503c7a4dc015516e59b70b2246000ac2b4a07e58d
+~ +[MAAutoAsset(RelinquishShared) _relinquishResumeIsSynchronous:completion:] : sha256 8f2cb4e1d49ba322f5419d29a3d839ecdf40bb8f8c5aba932a4227d6fb94d0d4 -> cbeb7ef47cffdb19f2c50b310c4c5884399da0d0b5c941529a8aa6da3704ed21
+~ +[MAAutoAsset(RelinquishShared) _relinquishStatusIsSynchronous:completion:] : sha256 6f739ad37920861af015453c7847f8a9102b3df82cff71e074f4a79f05fc70cd -> 9644ebf1309c406251661bd48f005cf5e04f92b898f4a707e0e95e09cb191064
+~ ___75+[MAAutoAsset(RelinquishShared) _relinquishStatusIsSynchronous:completion:]_block_invoke : sha256 c3fbd0532fe2a2a58a33b3c6261eea870f141140956076eb711c7d645673ed51 -> 45cc8baedd44f0a314e30192d23c15763b32b1c1d09e88029d4b5b2b5dff9c73
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateRequestInfo init] : sha256 232709f6042f0e66398989dde741dda9390882bc9c806c2ff43de76a8b06e101 -> 78404d6890c5c8f3b7177fd8a237f35609eb94b68d2568f416ae710195f074d2
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateRequestInfo initWithCoder:] : sha256 1b29748777765e54e63298cc2a8e02fe156561e4db768a622fcb6f7c782798d2 -> 11cc304ca8f90cb0aba875951547ff9a60f6eab8e5d08d0203ad8b6b763f8db0
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateRequestInfo encodeWithCoder:] : sha256 c3f1f36f664bf6b82c5606917a97bec7951ec4faac490b3b1daeffc4f2006e54 -> a0273bcbafe810f14f985aba108b00a95ec5b9ca307333c089c88e713ddebdf0
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateRequestInfo description] : sha256 c57820d57303ab9fad805d79d0af9eb6f2f9a12a1d6cc6b1ec644fa27b6b2135 -> 24363a075554a3fab9a83ad5e2bb5b65bf142e8902e5765e1d958d7273d811d4
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateRequestInfo summary] : sha256 0572b1b367c4925a8988c4c0c1808a70d68f55df7d722c3fdfc1f515d51b0110 -> 591170493090effa5d2507d58ec81c0a8ebdaeee99feb391bed525f5b011d881
+~ -[MAProgressHandler initWithCallBack:] : sha256 1838f011286e9dda339e3f722830d31e0c85bef07e2f81afc0f9f07fc2e9781a -> 29ce5a2c6ba1832059178d494825e8449b241c47ad9319d78359571a3eb4ddac
+~ -[MAProgressHandler addCallBack:] : sha256 3b44702dfc58c9ecd478aff672c5e540714a983948bef46d0b447ba7e4a44ec0 -> 5b218393ae8ccdbf5c6380947547fecb1a7c3c0c6ab7d75aba4825a299fa59e9
+~ -[MAProgressHandler .cxx_destruct] : sha256 5fe2eb5a63747e24dd0474a6d47a72758aa13da1e5c9d804b433769b1783bbbe -> 066016f43a2b3cfe304311c2dfe0624b01a59bc00143e51d7f7407a05eeef42b
+~ _plistDecodeClasses : sha256 2f4060fecea1f13daf6dbf32da6d82b9e5f5546c55ef4f0acd5081fec211c609 -> d9331131dfa1867b62680a93bc8f81195f4e777c0a4735f3f631238a6bf9d45e
+~ ___plistDecodeClasses_block_invoke : sha256 2df52322fb7ea5f2dbf21f2188edba36585aafa814cd4a952ad38c3b6c807de1 -> cbaac0983d70b0e7315afbc065a2c212aaf8b66d41f1c92817dcb0e4b4a323b3
+~ _suAssetTypes : sha256 af090b1e873c259df549fd60dc5a3056f08de9d2be436e8a16103304a4467853 -> efdfd8338ca2b0c18be79fc14c7a427a93dab41a8ca4e29caf9c60e4646ee377
+~ ___suAssetTypes_block_invoke : sha256 a5b43eca49b5221120663457689b7e8dc718b7743d2893744aa4ccfacbd9d277 -> 4b82b8c610cee22d9a08d0e4930e5c35d773a06ba1dbd34305e62d55a58265da
+~ _assetIdDisallowedCharacterSet : sha256 15663c8464641a8abd97ade7e35221400733c511064cedc2dc1a89986e714d18 -> f7dd5d2f69680a10f9e30ccea9a1d29259e31d2d0132b385908cd34048a0f0ca
+~ ___assetIdDisallowedCharacterSet_block_invoke : sha256 ef30e89e8e6eb53e1483f07ef26b290a64fdfe0a9b7e2226bf8eb59a4825d69e -> 6523486158b57ca264807eba2ebab717322d1e6da0851a203cd5aeed49b38cf3
+~ _assetTypeDisallowedCharacterSet : sha256 ef83595cad13b0a29c618c661106a01b027cb91c9f58d5f27022edd357b83980 -> acc54cbdb0d8f61699b50a09f0968209e90911cf9e5ebc1057c0e22346b667c4
+~ ___assetTypeDisallowedCharacterSet_block_invoke : sha256 2340a1f2befbc50f2aa1ff225788ceb95d4e75547adc16aed7d75ca7523cac2a -> a1a8dbdeedd70c7c1992492738965a013161fbcf7735ad0e535014d5868d6631
+~ _assetTypeWithWildcardDisallowedCharacterSet : sha256 c82f58a200b836840b8ecac4dbb3448f358f253270e520eac159652c7f1e5efc -> 06e7714c99fa562b44cb3588536b222141453b3d61e3b9870e7665fb62f88e93
+~ ___assetTypeWithWildcardDisallowedCharacterSet_block_invoke : sha256 865901bdd7d508835ee3361fb27af33e931284c8f5af3ed53894dca40ac91f30 -> a061148684ad008a5ffa74edaab63b29160674606a0d39e5daf72f53b8b4693a
+~ _purposeDisallowedCharacterSet : sha256 3d9e9b1eda377f0459da7f8b5788bc709a528af36af3374ea5319d5459885ef7 -> ef7cf71eb7be8fb894a8503a6aa62e49f9a8ea964ad48dc94f9596604b866d9f
+~ ___purposeDisallowedCharacterSet_block_invoke : sha256 690142410dc769c3b36c1cd0fe5a84652a24d17598db97979882bd8b7d3618f6 -> a56a49aafa6fd901694768d3053ca0f07cf5f65006d888dfcec9161c26c4ef70
+~ _purposeIgnoredCharacterSet : sha256 8388c683d488a69008ca0059fd263bf1d43094ef8f7670c39f4271f275ba0514 -> eb8429e00ccef8974a9560fdeca446a3879e974fb601de877d00c327709fdd11
+~ ___purposeIgnoredCharacterSet_block_invoke : sha256 e2ba772cd77bc55ff4bf6226ff12833fd6ddfcca6315f39956683bd32a46b1f0 -> 99aae00aa4f90ebf080ff9474f0c49c11b4a901908bff8a3fb4afadc4fe0173f
+~ _getObjectFromMessageLogIfDesired : sha256 7ea4fedb08f6077a505605e6e11e39ac7d3e5d71e0efc8ff97d3e32826274e29 -> 8a2b19bd362a320497ff6a27849db9c376f7391e27249e116b318df034f9f78a
+~ _determineUnarchiveSizeFromAttributes : sha256 6023f92ad2b25a1735494decd666f6c20c1c718c1262ab86db47bea88cba5964 -> 6ca92482e8eddeab3ecc99a0db5bd07f814b9914a89554bebcca03d28425e79b
+~ _normalizePurpose : sha256 3efe91cacf71de133862d4e23bf335f4ae783d3203a7cc94da4831cb76d4a050 -> 8821cde0e6b19b33287d6ab071768f4adf296e31a2fb7ee716159e92b6d752c4
+~ _isWellFormedAssetType : sha256 f6957113493df5c237512c45323566b4ac443f25ce807179aef44f4abb919eea -> 5a110f0e8a6737aa51e7cbf63bb421ad7eb55c6207f48cc97fff348b3d4d7524
+~ _assembleTaskDescriptorWithPurposeAndAutoAssetJobID : sha256 1cda6f205ae87c5db62e6e202911fd887366b27fd2b36af42d4c7ae3701fae82 -> a95d49da65cc2021e96a65e5a0b11d48a2d4eb5fd05a96499483f2fc738c2650
+~ _getRepositoryPath : sha256 ba001555406b54228c51766dd17c5fe5913ba6ea3b7b4975eb90f5f37a7a2988 -> 8ba37321d34ab94993872a9eb196b93d41afc8ffb67eb63e20c9c2f39e8c358e
+~ _purposeDirectoryName : sha256 d717ae21940244883cc509c4e98b650e58b1cfba40d1f41745ad25f665dc9bd5 -> ecd5134cdc88597c07fd8aece419fe0e5729141db469fc9ba9465f917c6c4a3f
+~ _isWellFormedAssetId : sha256 8fb9a3a15d50a5c35ef19a0c517c8b5fde9008be40b01207e6a1838203cbb160 -> c960c671dd1729f319169afa49ade4237468ad5425d98c0adc3f4bb9155affc2
+~ _isWellFormedPurpose : sha256 fff0329364b545a4a524631f05e8437a6672e85ab1270f9ac2a3e0e7dc92a123 -> 0769376fd16db93605d5e8eaf392e0da7efdd137210d9ae3dc1f94041dd375b1
+~ _usingCentralizedCachedelete : sha256 f06d7c4c7208b96f673215575b5689f0f43d13475233fccdb9167eef481ea973 -> ff9442097db29bdc70b509937ded40b6848a2739a874b8ae69b3b3b2072cac55
+~ _getLocalUrlFromTypeAndIdGivenDefaultRepoWithPurpose : sha256 f5de5a7482a4fa68c80e186b8922e554314a024855fa4bc2adcb3f8dbdc18295 -> 1fa66152b6758a4ca48e0fb90fec1ef3124b0eb80667267af0208c18874205b7
+~ _getPlistEntryOfClass : sha256 7fd3f693610441570f6e6aa7f69f802f7fcf4795ec3ebadb14159244abbd32ca -> d9c087757b920568cd8a8df6da69d60bfa34d8a3f39fd0504b27c7fb26e5eafb
+~ _getPlistString : sha256 16fd425afb12b85a19567cacaf533d2f4366b0bed67b7d6845c29d826ea4e039 -> 4e7f13b673ef7d675314a85cd86d8e0fd864f2525a553c9e92db89909b11e60a
+~ _getPlistNumber : sha256 1c976300f28e179e885577c42033a2b5c93b074f022d340a9b62afc866470f39 -> 443c410ca2d5b0143aa8a79a79286213dce9f623d8cf959ed94c5da25337ee00
+~ _getPlistNumberAsBool : sha256 41885f91bfa95897bcba788c1c0f2b126079ba173f12daa8331c7a5e3e055b88 -> 8adbf9c668334e2e5fc4d8746c25e48916cfd2d94357345b5e1a7b4c60a21bfc
+~ _getPlistData : sha256 a3058787105db58f827082460b005593d70a6f9a19e41c2d7086d8805778af4d -> def7775a0f1debe04d4525a79346d904bce00982d61f6073e99fa4266fe3e9ce
+~ _getPlistDictionary : sha256 c4191c60fb622ddc792f128b52d5a84876c34f417486a4b2d059871264d34a46 -> d3f2f65ae32d244c6fb21807ecdc4d08cd4fa5d4b229d59d530224c92247c57c
+~ _stringForMAQueryResult : sha256 cf83122ab49ddb2db6825dc2059e8c5c569b8add4956c192737d75c9260e0b3b -> 9d0b0ec5d0180cea11aa884bbc9c6422e3d832c7dc5702ee89ef36add72c2771
+~ _stringForMAQueryReturnTypes : sha256 3ffe92de5571995aee90a497e5683179f6eb968f742daf64145f08a1ff5cdeb5 -> 53cc286ebcb5348ef1caa25c275908f60a708302affd9de89c9e4df9288361b8
+~ _stringForMAAssetState : sha256 41402eb58e712d15f963aeb7ab906713c3e6abd5f2d43490b87b4ae90a65fe5f -> f862f5a8c59b8f8154df1fb984690f0dbd05d257769c229b33ba215fcb3af635
+~ _stringForMAXpcCommand : sha256 6cb79ae11d37346e19b97020ecd745d45910b2bd8bd23939d830551744aea647 -> f8898e18c101dfac2839f6933dbacfed18f9d31925ed949484b4ea2676877b6a
+~ _stringForMAXpcError : sha256 33d858de01a514dc1f4c3c7c4c28f55e6ac9121692d8bc422497339d7158a72c -> 007cec7553b3371b2bcc8e5dae44d54b96aafdf4cc2e14a7e96444ea852f9c38
+~ _stringForMAOperationResult : sha256 9ed23eaaaa3aae8edafc54c485c2f5a5eb4763ff2e218c3a146b74c9324f0c2a -> d4005590354c5983f797dae863547c1e97d4a9c29f61e336acaa359e88ee73ed
+~ _stringForMADownloadResult : sha256 b9108f32f210d82d147a64c534f4c5ab62ae97feb893a5add8c44bd1b849f919 -> 284d250dcdb4eac51d5cde7e35918da3ec47110cb479834688148e140954522f
+~ _stringForMACancelDownloadResult : sha256 d75e44b530a94bf11c6bbff32f9744fbe6e99ea9343918d2ae491c124363e559 -> 519e611d455d6a9ffe1dff0bd79b0585384a26fbc1023ddb9e30e1a14458847b
+~ _stringForMAPurgeResult : sha256 d2bda61e502fe909cf646b96ae809d44073803acc99bd8051cc138bbee463978 -> 2dcf996046aa073a14b253118bd62569229e8b1ad3b10e77db2c909223b357ca
+~ _errorStringForMAPurgeResult : sha256 abe74cca3f309d33f87cf8b2aa0dccdb5901352c68854e88cfa1f3c4a28413d4 -> 2416c93837337e7ff971462bd1db3c1f88cb92f993f5c73422c6eb3253f9d254
+~ _errorStringForMAQueryResult : sha256 5fc3ad05496e63127eba95926f33b9364ed5fe58fce1308fb9bb9089c6e9ae9d -> a2b1cf4eceee7c52bf10c9f7deadb282706160c68bf52c2f4c592f89f6b25f90
+~ _errorStringForMACancelDownloadResult : sha256 6086019bf524c2d588a18ce97311a9b201a20ee48dccba9f64a2dcb5ad7a6d01 -> fa29372768821628bed5cbefa403ff6a2cd4844aef25e85187796de385a42916
+~ _errorStringForMADownloadResult : sha256 98f9f867fdd936a67f3743a9dce6c8e27e8983d91e66f59db3709a5ae3099291 -> 1e4f33dc42c41d8bba4c4f02ce53bb8d15ec58cbf7afd5ac2b3310c96f7188cd
+~ _mapV2ErrorIndications : sha256 c49b0834c25f0578fe402487172fc1f41923c4bbeda76af74605900521c66b89 -> fe842292ce9f49aac4856693c5c484d82ae63dc97fa1c3cdf838b49bc561e5da
+~ _MAErrorWithUnderlyingUserInfoAndString : 560 -> 556
+~ _MAError : sha256 c209e3d35e2c217e0055f77ec914887c6e0b3b1c88c6edcd824776f4a8d1414f -> b45996fa848bf38acb5a775f6d94157e72ba834d45f7e9406882b7b341fa3af5
+~ _MAErrorWithUnderlying : sha256 d4db0f431c56455d9121aab8cfc0f6198b43548a04f0f26d0be32929bada4e81 -> f97180772f100beafe1d486fd48be06935d1959098653664b7488621f4b034ff
+~ _stringWithoutNewlines : sha256 26f7a68b4a4b2ea66e94448e51061be4ddee17a6a02090dd69103913068ce39c -> 3376d7fa1c7f1e92c993829e0a99e85b400ab81e3ce928f3a6dbd82fb0fe0c9d
+~ _isCancelDownloadResultFailure : sha256 4d3d36891821bdc442c3a46943ca003b3a68b47908388fe2eca453b9fd999996 -> 1dd72d8fa6443ac4ff444b2b2f32fa5ff8f8a41ff7af398281bbef383bdd2a0d
+~ _MAErrorForCancelDownloadResultWithUnderlying : sha256 7f0555437a2435e5799d743732031f6f46ec31acd27f36ea2efeebd5f96b1d73 -> 0367a974719a4668ca24d60cbd86a83cf599091fb8042830fe594b7a41555051
+~ _MAErrorForDownloadResultWithUnderlying : sha256 a1a702dd40f5da4d23648249a1379aeab1477d8d3011993693c6a1eca287e89b -> 2486751d213a2f3568988946f963fc1a33dfdc2e7cee798f130231f6eaef812e
+~ _isAttributePartOfAssetIdHash : sha256 066899bcfc2b3da9d4683d9a9c080048bb3196c610ff51d7812ee5c3a068fdb3 -> 32ffdeb829b1055d5ec8273e979443569b6f92f8283931e2f0f39af7e07cb12e
+~ _getAssetIdFromDict : sha256 08e1d6b7d6c0b71f210b32b89e9ff473e5d479d6cba44a36b19ec758a0210b9d -> 58d20ee5ad143ae1e88366edf7d6c2984aed21e86892167ded922cef48462a4c
+~ _getHashFromAttributesInSet : sha256 35974653744725a1d53a0a82e2c1dba3da86860a0c1d3429fba7b1c43e08ed18 -> dc7e9322c03159cad5200ba40f13a11e303f125cabc54add240222e4a8ab84dd
+~ _getHashFromAssetIdAttributes : sha256 225f2d19004966d6318abf75844420e4e540de3dce8ed01e79b258e3e767a25f -> 8822d5a79d68bcace6b04ade1126ce4886e3d941fec092bc5181f32e4028ac91
+~ _getHashFromNonAssetIdAttributes : sha256 60fb6b06b1a930d89ee22d518713e1670da0ccebccb049de077099355e6fd0ee -> 4324130da1a4beca7f4291a1e810f06ab17f24a9ebb967330b2d8237e71744c8
+~ _attributesInPallasDynamicAssetId : sha256 3fd13d8680156810e98709593013661d39d9b03c799580632e2d7ae6bb68f91a -> a216f3a99c0fd8775692d07ad2b881bd15be118fe6fa5950245850e1de37ff22
+~ ___attributesInPallasDynamicAssetId_block_invoke : sha256 6551ac41eab464a76730d8aa02bb52124a84db423880bd6f316bbb26a51711b1 -> 8de44bcded3912fe34ae500257e3985e609f0694670660da4f9f03fa1285a9d2
+~ _attributesInDownloadContent : sha256 3b23761db2ba40de64c9c98546f9fbb2bbbddb3bac79c0336b988e030c0a65d4 -> cc37b7030dd993e1e3a6b4d82d04f86e0c0ebd44fb0eb5848a625e165c41d6e5
+~ ___attributesInDownloadContent_block_invoke : sha256 275104642096ade633b91b4c48a1886f1509a6bb5a3ac3aa4c139bbe175f0180 -> 40ed34d0cd1bbe9d94f770ed9e52a3b578f704a8c4274a912245f5adafcc829a
+~ _attributesInDownloadUrl : sha256 ef8c5d9c32150483a606d14c1cadca85ee13c939941849a8d9fdb81bf2c964d6 -> cd16696c57866df8513deead8391bfffae43b26b6df25ed560034228cf1758f4
+~ ___attributesInDownloadUrl_block_invoke : sha256 c6809a79d0e3c6f1ca7c1d29b910d3a73197c2c37db1831676aa1477742419c0 -> 8201de0676ee5f29b8175d7d9ec2e290267a5e25ba08d48b1fc7b403161469cc
+~ _attributesInDownloadPolicy : sha256 23e5b2f47f77d7498fdba22b2d8dc9c8cf162c75826f17cb56940c62e4d1aef5 -> deb4315dceebb26f516681f69b889e192eee8e26edb2def47a1ed7fe8853a135
+~ ___attributesInDownloadPolicy_block_invoke : sha256 ce652b82af08714dd07eaeec5f39e625d5008760a4cee823ac1333b9be77aefe -> 82209e597602ac5ccfb504019d74ccb0fb0d437b90224bd5bfdbe004043fb929
+~ _categorySimpleName : sha256 7dd5b68e37be6670d3a1ccdf5e48caeaaa2fa54d16e5a8ed47256c06ac2b607a -> 51b35ca7f82c60d446fa2ebc93732136994164ae7d8992590b128e060dfd29d2
+~ _categoryCompoundName : 392 -> 388
+~ _categoryAssessDiffAndMask : sha256 be1fb8618590353e6010fd2958952ae9215c8b241b4f9b4103691ea974f4f05e -> 72002024514b98ec7ab2b194e9219d1b7259e508f3aa218a1bc4ff2c40794a44
+~ -[MAAutoAssetSetRapidLock init:assetSetIdentifier:assetSetAtomicInstance:] : sha256 dda3989375aa2dd9f6097544c446313044e9d94be0c18cbc961af082bd5b68ae -> 08aaf3c6c6cb3dfb219882d33579d1840ad3bd1ae0b47609ab9dda43d5365b0e
+~ -[MAAutoAssetSetRapidLock encodeWithCoder:] : sha256 8a77df525d02c08185137ad0fdb45ea28c2405b9720313d35247847982950bd3 -> 38c3a0b44e2a815a414c9a463d98324a44550b55566ec16e7c03480d352adaa8
+~ -[MAAutoAssetSetRapidLock initWithCoder:] : sha256 f40e8d4a0fd70a79f3fdfc4da7db14fd075def596ac765bc893e0f6811ecd606 -> 836584618e595a90b933c738d1f88c9ba5cdf73449d2b7e15633e456adb2b8a5
+~ -[MAAutoAssetSetRapidLock acquireShortTermLockSync] : sha256 19ce7fd1ac008485dbf525268749b413bfa8f1448d0e0f60c9a8c514150ee5c7 -> c6332bc5682ee11e18038c11f64ea6b6f38f1a85e4974b5419129d4890683aba
+~ -[MAAutoAssetSetRapidLock endShortTermLockSync] : sha256 ead11888ea8239039900c7bbd3391ad1f44354312b3d1594fa3ad0dba8643bec -> 47dfa9518ab99061f7db41387ac568bdf8ce420c1c3ee3a19afab3711bd79cf1
+~ -[MAAutoAssetSetRapidLock checkLockFileValidity] : sha256 55f56bddee16dde3bef355353a77f574c6f484fb8a9774430d66bc48d25a95d3 -> 812b390562f4366213a71864b60d79edeb0d75ec646b6d7374d5451d1dc42465
+~ +[MAAutoAssetSetRapidLock lockRecords] : sha256 b6ed88593671fdd4eb616225851f329e5370393ff858ef7c11c16d6c7975382c -> 9d9ac8778accf8e0f577449f0603eb1777e78daf9489dba75fed35031e147575
+~ ___38+[MAAutoAssetSetRapidLock lockRecords]_block_invoke : sha256 d644b8d3d26781147a5e38657316c517f184c724f8e86b1c956cc04bfbc8d053 -> c164e73eb2b1495815d99badae2ef47599cc62a8f821b3ad21856365872dcf8d
+~ -[MAAutoAssetSetRapidLock summary] : sha256 43ccecddf034520710df810229168c06622e0f271e6e8d0dc11948f6dd7dcec2 -> 0053b906e897fb8ff584eaad2a2009780860cf78598703f0f3fed1936dea5755
+~ -[MAAutoAssetSetRapidLock setClientDomainName:] : sha256 7dd84ea0240a75c0713e61defb9e5daf5d83cf9e0cde3cc8395500d4216bf190 -> 2e888c694bc1885987ae23777067005aef2270c96316d1b588ebec05988f0e8a
+~ -[MAAutoAssetSetRapidLock setAssetSetIdentifier:] : sha256 ccda9489128b460e8608d8ad65458df6dcd27168e1975dcb3910e80bb0db412b -> c3b01599a33a8e5d01e0fa3827da062ddb85970c44972158aa7c3dd981fe0f9f
+~ -[MAAutoAssetSetRapidLock setAssetSetAtomicInstance:] : sha256 3a769b1717e7823952cd4ce30c3277d978eeebe9faa62295c3aaff284bf44b80 -> e343667b03f546b18adbe0a0df35dc6013ec7b3da6756f56d431f9d85aa63a75
+~ -[MAAutoAssetSetRapidLock .cxx_destruct] : sha256 c2a84da08f2790f787aa441fcb1108b60073ae9b7dd40359a19d44a32b2e2d02 -> b0eb8438f2004497c5f3bfc9eb58c2babe9ee07404a47f5c0d197edc9cbc4f07
+~ __MAClientLog : sha256 73f938de1eac17e334442c1cf0c306454484c3c0ec0352fcf2b37ba39987bc1b -> 2f80c27c336c9c33cabc35ea02e36a075fea5707a7437a9d177ea37883df136d
+~ ____MAClientLog_block_invoke : sha256 23039f9f26a35cd73ccdcc1ad78ea36196e7fd6a23801ef72dfd49ad1eea18d1 -> 2fd8c5166eadd42fd86becb57b28008355de2dff44cfa9f6c0e7b5c9bab3d8fc
+~ -[MAAbsoluteAssetId allAttributesHash] : sha256 483643a4a185859d1d614142c2761867cec6a46b20d6cbd73ad9ad52b3a5d9f3 -> 1445d92f762c7fab2ddb81325dca112db8062ca632ece74c390064496f8022d2
+~ -[MAAbsoluteAssetId nonIdHash] : sha256 bbb19ba86a7543f4cbc86e144ca16fe3a1bb05bc743faab87afdecfeb97ee8a6 -> d340bebf5cb4e4b03c1fbaed6cc1f860389e4e7a5d22558163f8219abf411dd2
+~ -[MAAbsoluteAssetId contentHash] : sha256 1f0375441ae567b74ca89e7d7def6184749ef9e2ca302a2a1ded98760914be1b -> e537c354775b34e68298b0acda7d4ff3eb9650ce926d356ee445267becbfb894
+~ -[MAAbsoluteAssetId urlHash] : sha256 b1cc527ce637f9f6683fe8e9746ba6d86230af4d75b3e4303a2d2603e2e2083d -> 746ecad8a366e9604aaf0b6420175edf3ea8041e7a7bff28570dceccea77c6a4
+~ -[MAAbsoluteAssetId policyHash] : sha256 43347cec4de9e1e7b64276b3889846286cadb0d0f183f431784047b5a30c271d -> 9be2ef17ee5860eb788f6bfe33c6e38be8bc50db6cff1d60afde895a0e154b58
+~ -[MAAbsoluteAssetId assetIdHash] : sha256 ce5e5f7ba03db1aa676af07b51c599de519ab2a965c8b6f74108e467bac953c6 -> 35b850685689c599b061761cf6b6a22315f2a943a567a218f344f26a2550d6cd
+~ -[MAAbsoluteAssetId pallasDynamicAssetIdHash] : sha256 21c98f5e0b78f3e8a645cf552d2b9e650735429402dfbd7c82e2f812d9b9c794 -> f9d0e415340b95b9ac5da6cecd8ce88c5facabce693739ad5fd52ce5aec0d64d
+~ -[MAAbsoluteAssetId initWithAssetId:forAssetType:] : sha256 65cc9cbda67d39e8a07b4114bf63f3e66440895aaecb9d35ff0dc763a47c43ba -> 86195852ccb5391c3f2c8c866b9897b973db629a390d4bcf1c02d1dbaf9c6157
+~ -[MAAbsoluteAssetId initWithAssetId:forAssetType:attributes:] : sha256 542b98de2e1f965df55db9a050d254d049a9d0bd5cda79a98af2d264200dc923 -> 29b9eda406899e025094320e72b412840e184e6cfd98a19e4368bf279cd1ebb3
+~ -[MAAbsoluteAssetId initWithCoder:] : sha256 6e9b06b98f3f9f08a0ae97d9a44b6f1dd182bdb121220301aa3386f81ee338e1 -> 4f8b4055eae31db693e22a7aa9b030b73b5e17e82591308e9580a018e0936395
+~ -[MAAbsoluteAssetId initWithPlist:] : sha256 8b2b9fcea30d2fbab5cb53b968c42c407b25308482d2365730bb8fda5876fe0e -> f9a7758c91d7cedb8a3056b5f42686234874078bd1714a4754bd940cc5e4ff06
+~ -[MAAbsoluteAssetId encodeWithCoder:] : sha256 a551bbc5deb25e04e48f58f28d77cdd71e7ed0b37482746d2d4ac404a3354825 -> a8c52db9f477d2153ad656e4ddd70a0f443cb0c342c1bd88026ea4af64a63272
+~ -[MAAbsoluteAssetId encodeAsPlist] : sha256 f13cf807bfe4243ef1b4d4e9a9fe3c907b5d918f5969aa9572301fb7c5c654fd -> a7df00aa77496727e91d58cea10d75049ca298b9103cb1fcfb6aea47a4c88fc5
+~ -[MAAbsoluteAssetId diffFrom:] : sha256 b9219f7073b90b10b1e85bf1b9e9ddbe884f4de73f91fc7dc54af423a3722c6c -> 4fac84646a637af3c1bb9813c3f6d717086e5b10cd04241688912b60a9705e23
+~ -[MAAbsoluteAssetId diffFromAsset:] : sha256 f804524fe02bf47969347c571302b8896f622132b74a161d8e51fa6c045b17fe -> 4ccf116a5e0a6b0c6d0a524d9fd3dc643c75d4119a84d7b410280a1c11d505c3
+~ -[MAAbsoluteAssetId diffFromAssetId:assetType:attributes:] : sha256 9a5074f94edbf22a3fb370b758150fe794120d88717e0b947005725ff255e7cc -> a72cacfeabbd4ebce7af04b9445c7c5fe44635e66a18d822bedb64cd1c445685
+~ -[MAAbsoluteAssetId isEqual:] : sha256 15d047c9ebb49a0f65b9b0f6190965729ede0e252a2d8fb7e5ca4c42be5f7ccd -> 949981e5c74e3821211975fcafa7cf94563f05fcc0a294ba5c34ca6a92804cd2
+~ -[MAAbsoluteAssetId summary] : sha256 8bae34e4932f5bf4fddc8c25795828a374b9e2aeb94ea8a166ec3decf90d3506 -> d46ea705383c2723b2e9ecc6c13bd462d00def77b6aa20723d1401136f3d00f7
+~ -[MAAbsoluteAssetId description] : sha256 a4b943ea7f0e7e101e4f6dba0ece41e32a2e6710f2060f41c6b35f70a77862f4 -> 38e1fe132151819414695d5b90212ca24558ee8f41b05567e183dc829ecb05cb
+~ -[MAAbsoluteAssetId setAssetId:] : sha256 709efe018f417e80909ed2185d5b44830136cca1099662a51352bb3d63aef1ad -> 3bd58e639f0f1e18d1712442433d7934543788ad3e9a1ecb8edb2180be3bd914
+~ -[MAAbsoluteAssetId setAssetType:] : sha256 f610ae8547c41f99327aeeb5bf4ea1fa591b1d22a826ad1423b891c91da4be39 -> 35437561d0b2100d39621aa8e2d4f08f13aeb46b9070038163595f8701de2509
+~ -[MAAbsoluteAssetId .cxx_destruct] : sha256 1393cf5790c7b124179b750110fd4bc25c91e043dafdc4e18cdfd234b538bf46 -> b97ad31b2ce90ed5260e5707884b1b17d339dcb962498dcc39df5dde5fa269df
+~ -[SUCoreConnectClient(MAAutoSyncHelpers) connectClientSendServerMessage:proxyObject:replyQueue:isSynchronous:withReply:] : sha256 0592ed06a431cc6ceb65cf98ecd27368c23bfe84b22966da38eb840052c1f0fc -> 5bdde16b43e927f64247dfad46267c5cc5073babe585061f9d0e3a4518db02dd
+~ ___120-[SUCoreConnectClient(MAAutoSyncHelpers) connectClientSendServerMessage:proxyObject:replyQueue:isSynchronous:withReply:]_block_invoke : sha256 a61f57b647805e5f21b1a9f8db2bfcdfb572e261628d4adf1ce42e0ec90f81b5 -> 58dea1a6ffb5cc57d78b1a686634fae82234f5387969fbacdca35136036e4fa6
+~ ___120-[SUCoreConnectClient(MAAutoSyncHelpers) connectClientSendServerMessage:proxyObject:replyQueue:isSynchronous:withReply:]_block_invoke_2 : sha256 1cf0494df0de72347436e2ce710c27be5b4af13b6dcfc675d0e91cff8dded7e4 -> 0c3deccd00fec6a2f595c22bacacb8520d6aacc5c47e596f137d177070fa48ac
+~ +[MAAsset getLoadResultFromMessage:] : 1060 -> 1056
+~ +[MAAsset loadSync:error:] : sha256 e186d8c59d0a6d625e967f912048c7acae71ed79114c3a871e65a0094df9bb3d -> 0e5186ae1af99e9253d75cb880b577aacb07952431b1309623e7615469508ee2
+~ +[MAAsset loadSync:withPurpose:error:] : sha256 8b0ff52fbdf08bb963eaba552bc29c701e56a08f2ba280267de37b22c2525379 -> 9f42370d9ad2ab05f723ff04877ab44470f57770c1b6a8bbb1312faa4690ba99
+~ +[MAAsset loadSync:allowingDifferences:error:] : sha256 2686dd4669f0df8cf24ad3bdd1278833e4149a0d26257e90b0b2fe54a3310dcb -> 81a0fb6069ce4175c32c49bc8da81324db30c695118f6718f93618031921a96a
+~ +[MAAsset getClientIdentifierForSelf] : sha256 26935c0ef62ffdf6cce043bf4b6b21edbbafbac01ffc55b18235c56fb833141e -> e707364298c12aeb7f96c8c0cb65c254c836c0fdc5fae3dc948122d7fc874723
+~ +[MAAsset loadSync:allowingDifferences:withPurpose:error:] : sha256 30c1553542589e4eba8f6f136c7f67147c3c2fd3187c20bd0566dfd3a63af483 -> cc0a0201833550fcd7e679ab722f119118fee46c0f1345ec9bcb5c96cf266102
+~ -[MAAsset nonUserInitiatedDownloadsAllowed] : sha256 d56011f0f93d78d749c6779a9415d9266c20d7a95b838d22179a7f866b6bc0b2 -> 2e106506e9ccf908d55963ec951f8ecdb1e478b045dd28e35c977cad0f1c0162
+~ -[MAAsset hash] : sha256 072921709bc655f37b07b2965487c535ca594393d7aaf7d332c20e5be7689c1a -> 6f83b8f618c9d321466136d7f93204b2683165a1f74906c98189c113ca637a37
+~ -[MAAsset assetServerUrl] : sha256 8fe0bbcd8cfedff6c140b6cc6056b61a8088d9845e3ce70bdba9bf1ee6acc1c9 -> d6147ab49e6488d0b8d3719f00f953abd274d8f81bb50dc872e06a3c7e4490b9
+~ -[MAAsset attachProgressCallBack:] : sha256 300f3211b66665db93a4474e891057af5b3c4cb516fc383ba6770e0cc28e79ed -> 7bb62a85011841f258b3c869d675222afcfb5e0578b7220b8c43538ef4ce9fd1
+~ -[MAAsset getLocalFilePath] : sha256 492702deae73e1f20d1d027ea8219bb22732da1df18c134419db2ed6647b84f4 -> b1ff0f1787769088e81c38186d1e1a214bfcba0f4ff097296c360e06925b77c0
+~ -[MAAsset getLocalFileUrl] : sha256 36a3ac0584d4e5628d2f8f52d07bf5ff12742e6d040af798cb8ca7c576e2fecd -> d6459072b1470c5704a74261ddc06099276305f149353ac79c670967c9fad291
+~ -[MAAsset getLocalUrl] : sha256 084fb1cfa27a998090281690588a0af0b52d462445e5cd0337fd4afbf92701f6 -> fb48361693c0114cb3091d2e0b5931ed68f016e65321de758da32d370c128738
+~ -[MAAsset description] : sha256 57a0afe4e387885a6e8f1d7aa93148896e6e0204dbdda91810b20a8fd676ec55 -> 589d794e49415989e5a7feb8aa4f9ca08910fd75e91a729124c6d929d6fc20cd
+~ -[MAAsset logAsset] : sha256 910b196ac5e4ee07872068890d40ff3b0641c70964200656b532bea8dd44c8de -> 602454172b2f822f6935157849a8811f923fabdc0de8ab1b9546f991606a1536
+~ -[MAAsset absoluteAssetId] : sha256 75b9eb7c25b6f6db6ca0486ee94e525ff4f5de6f001376277df8dc65ea34afec -> 1183ca5982947c4a5f3d400be4b00410526c5e63ace4ca0ec5cfcbbcdb14624b
+~ -[MAAsset startDownload:completionWithError:] : sha256 2a7305002779b0cd6cc8722255946343be8628addb956f59b2552470d797b00b -> ce1d6d0ed435c17037d972d2d7907c6efe2f16f89c787230d420555077a61ad8
+~ -[MAAsset _invokeClientDownloadCompletionAlreadyOnQueue:asset:completionBlockWithError:] : sha256 2735b9bef4f25acc41e1021b015c70382f0a405380b3e9ed59b41f4cc3c14ece -> e7e67fc87e10e3aad2936d327fd3d3e0e25b964b9a51a37edebfd68c975eeff6
+~ -[MAAsset invokeClientDownloadCompletion:asset:completionBlockWithError:] : sha256 2f8cde3150ea15f06527bebfe33a56cad6d174262af7676e0056b5709b5ba4ca -> cad57a6cf5bca0e23093bb76fed0fc691d094b99bed4474436da5549fba73942
+~ ___73-[MAAsset invokeClientDownloadCompletion:asset:completionBlockWithError:]_block_invoke : sha256 f8090238008e2c91927096f21f208b2d9373464e7c2dea6bc8112957de40350c -> ecdb673b37b6094190c5c3f6d43685bed179d4087dd89ce85762ebd4554ff46b
+~ -[MAAsset _commonAssetDownloadPreflight:] : sha256 bb8a65bea1ef99c2e5b280cd36bc2d865c595e9a42a620c90773992a65b5e015 -> 688ff9d84b4264bf355d25e916409bd5fb0529789cf176fb653b9dfdd34190ef
+~ -[MAAsset commonAssetDownloadSync:options:] : sha256 53aca7c4ca7ba175849eb91b010960f061aaf2b476e3c03ec1f1c85fe9d6e208 -> 58aca434599b651d18ae3c11649647b126dc52fb4f9651f07cb3ff1aaa221632
+~ -[MAAsset startDownloadSync:error:] : sha256 b0bce4af046e8ed460d4f86e47c7c6344785ad3a9eee21c736ff4f14d7f234a1 -> 45e9bae2bb07d22f20f2075c8ede41158fac195183a155579dc7817850fffc49
+~ +[MAAsset _validateCatalogDownloadOptions:] : sha256 54d72d9e3c72bd774a6a9fc0c88ba76d91f683f349848a4e2087b17ce4d267bf -> 173b7b708d6ed869f9a9955a869e120a0bba21764f2f61d3fb17925e2e7a7e1e
+~ +[MAAsset startCatalogDownload:options:completionWithError:] : sha256 be1f17446e55b42288f51dc86d1afd3520a04c0881698482cae7af78a5fa3f67 -> 09d5f79b03f3b1c0ca9b899ce37d7aaf4b7436925b067133118e7fc3be9dcb05
+~ ___60+[MAAsset startCatalogDownload:options:completionWithError:]_block_invoke : sha256 a3e556a3feea7dbc6c19a3847988db2e7ff7891b95ec8234a33ef72a6625d0f4 -> 6e2ba11ae595dbf48e8180727787d57517a60fd22e443e98054917b49d70ce0d
+~ __60+[MAAsset startCatalogDownload:options:completionWithError:]_block_invoke.1316 -> __60+[MAAsset startCatalogDownload:options:completionWithError:]_block_invoke.1352 : sha256 3680e4cbfef4af7b113bd7976fe7cd86e5f518abeb9d7f9c10d29886df6b82a2 -> f220dceb206e4f8a16fe6c89dde576bd82d38833afb1be5e17cab01ed076c670
+~ ___60+[MAAsset startCatalogDownload:options:completionWithError:]_block_invoke_2 : sha256 295d3a4d4694442e667a011c71baaedb613c82243cabe9245e01cdc36328df57 -> 29810064d30e635cd82e9d8dfa2d41b0533375d832dfaceff4f30679a1f99ea2
+~ ___copy_helper_block_e8_32s40b48r : sha256 871c523f89a9731ac5bb8c80daa793d790790ca46748611042b33d9875237372 -> 9ebd38a7d2ffeeb79e8b53b6bd4ae8fb53a2ff255f8b13eb9f7765f9597342c1
+~ ___destroy_helper_block_e8_32s40s48r : sha256 5665adf773375f98d53559df05d3ae03e94433f308dafd6d0d59167968ccf990 -> 7646e178b7cb3e23a0e346a362de46c1580cd01cde4e503da43a1101093acf16
+~ ___copy_helper_block_e8_32s40s48b56r : sha256 726d94e8794d370abf2e777eb208590761f2fb2cd02618cac874ce5214e44624 -> 99ac6c60c22606cc71a53b7b2380b53e817be47e17bf631e60ba6199acd94e40
+~ ___destroy_helper_block_e8_32s40s48s56r : sha256 a517ad1e2520136beb495e846e1f20b7dceba26ff168632ce62d4fea9ea08100 -> d52274560b621635c4553cc716340728a3fd81ec0f3620065a7203450f3dcd44
+~ +[MAAsset startCatalogDownloadSync:options:error:] : sha256 d9bb2ad8b1f414a2d126d19dc0cce2d58cf35493bab11650b23a678f1f4e0649 -> e14370a9006f7373a5cc8d4531db99e01c66567014c708e2117cb3fbbd30164d
+~ -[MAAsset purge:] : sha256 ebf9652a26ab835853e95c3a6392d137cee571cb2dd9d54423c461f8b889ed7c -> 4995d856844af735d1b890305803d7d799a9e17806f5346824006e7a8c58edfc
+~ -[MAAsset purgeWithError:] : sha256 95691aeebfb61e9a55c9e36714ddcdcd23a7f0b6c864c3b9e67d32641773c69c -> ec713949254dd55c1820bda8484c7ad1c6a6f4732858dd411e802429fcbde6e9
+~ ___26-[MAAsset purgeWithError:]_block_invoke : sha256 2d6d8615fdbf7f6e8287de3821e812597075a87810af9930b5790214f33abe67 -> a49f10fa6cfc372739df72baa168d2f3dc08d3c92b0aec3c73222bbcc454a78d
+~ __26-[MAAsset purgeWithError:]_block_invoke.1329 -> __26-[MAAsset purgeWithError:]_block_invoke.1365 : sha256 1334d9f18be07bffc047f806fbfceea006eb8fb1edee5dc56fbd9e69e29759f1 -> 7b27a3200a5fddd36819311f6c704fce8032b7f0d8d7920bd06dab8fe1433911
+~ -[MAAsset purgeSync] : sha256 50e104f1752c80179a8f17b831e0a50f00fcf1e17b6e05930cc2796ea52a9a39 -> e53843e6df40174560e5272747021708620b9467cf0c9664ce5768e4014f6d42
+~ +[MAAsset cancelCatalogDownload:withPurpose:then:] : sha256 3138338f2358da726c4170649c0091e1f39e312a5ee93c409ea64b73afedac27 -> 7cfb7d3f5e9b6275feaeb7ce2f042c4e8dc56dabb558f35e8493417935581754
+~ ___50+[MAAsset cancelCatalogDownload:withPurpose:then:]_block_invoke : sha256 674e967d4f96961690240974ad9f08625f8c20d473e89fd85739aa66a2fefdfd -> 3424e05d52eb75af7a7c63df8a27ae49547a4619d8d6d5fb74c83908650f2ddb
+~ +[MAAsset cancelCatalogDownload:then:] : sha256 0525bc4b3e6b7dbcf3563cb7959dba64378eca0508b5858a616c60fb3832200b -> f3b3daddd547004b1aacf214268eaf602d0a6c90106cb3807ae3895aed13bcf3
+~ +[MAAsset cancelCatalogDownloadSync:withPurpose:] : sha256 f0a70b0186e46067b3a7518154d8d579e5176a44acbfb2ab64feb405693cd9b8 -> d75c9131748f82d6e44047a26576500d84204608bbcd363f7dbc81d6ec923a0d
+~ -[MAAsset cancelDownload:] : sha256 4825f0404e7315875bd8123f197d1e04fe6a9934dceea8aa68a7ca1d088f7a9b -> 1183803aa90b44492df523fa3bbe07f3db91698e4b81173c77e771e05b738b13
+~ __26-[MAAsset cancelDownload:]_block_invoke.1334 -> __26-[MAAsset cancelDownload:]_block_invoke.1370 : sha256 75241fc52932e73e862deb5dd99722971ea37d59d9a4f02b60bbd20a82926195 -> 9d0960a3d5d7881287fba447ee4b7823a06945cb5fa23ea9fe0fab6c8596c807
+~ -[MAAsset cancelDownloadSync] : sha256 21d11e779b3d4f3e2d14262382ae894e69818c0d6b5958b94b6b64e06ccea0b1 -> b650ceb1ebc2d696edcfde304c68fc174516eca720e1a28df77ed64d8f48e67a
+~ -[MAAsset configDownload:completion:] : sha256 4541357ddde7fa7be11418aec566ed39495d67ebb3740a5e4448cf4715c841e9 -> bd65ef25cb879f436f731fce456cbe048cc23864530a42445f6842114198f364
+~ ___37-[MAAsset configDownload:completion:]_block_invoke : sha256 57852189e4c622c6f1dd892cfe219e31aab4fa58f2c6d14f5fb43ae1e4666912 -> fbb73a32cf3f332d8fc1bc938c77bfb852b1067bd6aab85b0b20771000c43ea4
+~ -[MAAsset configDownloadSync:] : sha256 584b69b87eeb79b7357d722120adeca177fae3dce82e8838d559e28b7ece9759 -> bebcb14ceb4b55959f115cfc6f6df56f029caa8ee7262c622a734c468fad7728
+~ -[MAAsset overrideGarbageCollectionThreshold:] : sha256 0730dec80f7b98b1a86d705571c75013eaf4351e0d9e8c4db342b803fe8d8431 -> dc9633ad0798680c14d2874bb466b6cc55794e68aa1fefec994b5fe89f7044c3
+~ -[MAAsset getBaseAssetRepositoryPath] : sha256 483f4350941a09079f7d4875ceb4e4f583f7e509bfc9817061149758016dba3b -> 73e1967396d0954fd1f8e88e0dfb172068d148452827817f4a6435b8a2465945
+~ -[MAAsset spaceCheck:] : sha256 0419f6c0bd44152ee5eb8fef8c78db6daf91f84f1413ad1cf8cb0b7ab315e061 -> 4fb5fa587ed257ec63dbbb342b561353025e78d211bf1908d7415a820b6161da
+~ -[MAAsset refreshState] : sha256 52e49f41891adbd6b413fba36aaf5df03602fe8772dd87301148244a07caba57 -> 2593fcfd4671dde9a3593d39d3060345bb4951924b59021f5e941e820fcdb1b8
+~ -[MAAsset isEqual:] : sha256 b8664e845deab1c4c8611b3142622971224d6a6bf9bcf781e38a347c2979388e -> a6e745b1c517b035f340cdb366ca7af818b32a8ca2f0cc5ca9c23c2cd8684779
+~ -[MAAsset .cxx_destruct] : sha256 0328fca3959ad4f19df4ed0e7dcd54deba909418ada3cf4a88c4b3f002952345 -> c2cd946a73ad8a7e77babb38b6e053455996dc13bd6c9056a82126038f8ca8d8
+~ ___getRetryXpcDelayQueue_block_invoke : sha256 1a218a238e0c1693513493b9ad641b06ac4ed5d2e46a338a7a737d91eceac768 -> b672b1213d603d720d09b2bc008217e8fcb7228acf21b07a82e52b6e7b92a1f1
+~ _OUTLINED_FUNCTION_0 : sha256 34592a5cafb0d03711b3723585c2fb9e8a009fa9b3bdd7dbfbe800f69e484b31 -> c48f4c5b9b455e76cd8ecd23c59fd0c63cebb2d55e9053c2b33a0cf1a6aeecae
+~ -[MAAutoAssetInfoDesire initWithDesiredCategory:forClientAssetPolicy:reasonDesired:withCheckWaitTimeout:withLockWaitTimeout:desiringProgress:] : sha256 7c0177145f75e0b6f3325f19005b73559c8824d4f1dc1c00385fba5a571b2ba9 -> 19fdb7c262233bc5eb30b66fdd852c39a89727ad6fcb7abb2996cc0210ce69f5
+~ -[MAAutoAssetInfoDesire initWithCoder:] : sha256 74bb1d0551cd7251a15dfa3f19241f680857ddcef9032643326edc027542dd6b -> cadd6e54a4f563e92ca5e96804795a9d66b2c74960a817765b0a852eccdb3d5a
+~ -[MAAutoAssetInfoDesire encodeWithCoder:] : sha256 8e9116792590c49aadd6851ea6b26ed05c14d0cf35a04d4517d93e505182c3e6 -> 20bdbb28386723b248a844f0264ee4189761212617ddcc202a8f9b98f247bacd
+~ -[MAAutoAssetInfoDesire description] : sha256 1b4358b84a7944d3de48adf83d9182a977ab1a713977ec85f97f7c6eb13aa5c5 -> b834d7bf4e4e4268b357f83922b59baf96d726a40553530c4d108abd35b8b047
+~ -[MAAutoAssetInfoDesire summary] : sha256 ee161505e8bb55bf279a7e8ebd7c184090c9ca18a9c7a01134c183cbd82c2f5c -> a8c8239a876fe84c6b32d0345a9929c71b1fe31d4bbf8068c210f25932a76be2
+~ -[MAAutoAssetInfoDesire .cxx_destruct] : sha256 a6b325e2b090cc53bf2cd37577c1295bf8529af5b93bc20d6a77ccd71f346cb9 -> 20d553248f7ea10bde5bc780a384eddd6be4bbc118efc9acbc9cbbed8431d7ee
+~ -[MAAutoAssetSetStatus initStatusForClientDomain:forAssetSetIdentifier:withAtomicInstancesDownloaded:withNewerAtomicInstanceDiscovered:withNewerDiscoveredAtomicEntries:withLatestDownloadedAtomicInstance:withLatestDowloadedAtomicInstanceEntries:withAllDownloadedAtomicInstanceEntries:withCurrentNotifications:withCurrentNeedPolicy:withSchedulerPolicy:withStagerPolicy:withDownloadUserInitiated:withDownloadProgress:withDownloadedNetworkBytes:withDownloadedFilesystemBytes:withCurrentLockUsage:withSelectorsForStaging:withAvailableForUseError:withNewerVersionError:] : sha256 4a8f95f7489b8f5bd3203925762cdb9c31f64e19a5f124bb66fc3d3c138f28c2 -> 245f16e683119b8acb8f4d17a18ac1cc0f79209a82e2769686c233d57bc2e83a
+~ -[MAAutoAssetSetStatus initStatusForClientDomain:forAssetSetIdentifier:withConfiguredAssetEntries:withAtomicInstancesDownloaded:withNewerAtomicInstanceDiscovered:withNewerDiscoveredAtomicEntries:withLatestDownloadedAtomicInstance:withLatestDowloadedAtomicInstanceEntries:withAllDownloadedAtomicInstanceEntries:withCurrentNotifications:withCurrentNeedPolicy:withSchedulerPolicy:withStagerPolicy:withDownloadUserInitiated:withDownloadProgress:withDownloadedNetworkBytes:withDownloadedFilesystemBytes:withCurrentLockUsage:withSelectorsForStaging:withAvailableForUseError:withNewerVersionError:] : sha256 76a6c966801ab8f968d384bebb1d0da0b01b6e884bf3815aa40e6ebfd2c7ef16 -> 65d433bb814e9c44dcdb3cd32c777f6fb9d7a849fde187a0f6fb30c9e480401f
+~ -[MAAutoAssetSetStatus initStatusForClientDomain:forAssetSetIdentifier:withConfiguredAssetEntries:withAtomicInstancesDownloaded:withCatalogCachedAssetSetID:withCatalogDownloadedFromLive:withCatalogLastTimeChecked:withCatalogPostedDate:withNewerAtomicInstanceDiscovered:withNewerDiscoveredAtomicEntries:withLatestDownloadedAtomicInstance:withLatestDowloadedAtomicInstanceEntries:withCurrentNotifications:withCurrentNeedPolicy:withSchedulerPolicy:withStagerPolicy:withDownloadUserInitiated:withDownloadProgress:withDownloadedNetworkBytes:withDownloadedFilesystemBytes:withCurrentLockUsage:withSelectorsForStaging:withAvailableForUseError:withNewerVersionError:] : sha256 61c802f28572540879a85992dd7b9750799433751ff836199f8e879ca0ef2445 -> d06f7617032c81f1afbd76462a7d445ea65982a3b8746c80d4172769d30696d2
+~ -[MAAutoAssetSetStatus initStatusForClientDomain:forAssetSetIdentifier:withConfiguredAssetEntries:withAtomicInstancesDownloaded:withCatalogCachedAssetSetID:withCatalogDownloadedFromLive:withCatalogLastTimeChecked:withCatalogPostedDate:withNewerAtomicInstanceDiscovered:withNewerDiscoveredAtomicEntries:withLatestDownloadedAtomicInstance:withLatestDowloadedAtomicInstanceEntries:withDownloadedCatalogCachedAssetSetID:withDownloadedCatalogDownloadedFromLive:withDownloadedCatalogLastTimeChecked:withDownloadedCatalogPostedDate:withCurrentNotifications:withCurrentNeedPolicy:withSchedulerPolicy:withStagerPolicy:withDownloadUserInitiated:withDownloadProgress:withDownloadedNetworkBytes:withDownloadedFilesystemBytes:withCurrentLockUsage:withSelectorsForStaging:withAvailableForUseError:withNewerVersionError:] : sha256 37804ffab706a1a0e0cbebb2aae22c8862fb5c0cb30e67db6e4bf2b8701b7ffc -> 3fef0fb67096f3f7128c21e4af17fa847406121dc7dcb9399610c3618b07de2c
+~ -[MAAutoAssetSetStatus initStatusForClientDomain:forAssetSetIdentifier:withConfiguredAssetEntries:withAtomicInstancesDownloaded:withCatalogCachedAssetSetID:withCatalogDownloadedFromLive:withCatalogLastTimeChecked:withCatalogPostedDate:withNewerAtomicInstanceDiscovered:withNewerDiscoveredAtomicEntries:withLatestDownloadedAtomicInstance:withLatestDowloadedAtomicInstanceEntries:withDownloadedCatalogCachedAssetSetID:withDownloadedCatalogDownloadedFromLive:withDownloadedCatalogLastTimeChecked:withDownloadedCatalogPostedDate:withCurrentNotifications:withCurrentNeedPolicy:withSchedulerPolicy:withStagerPolicy:havingReceivedLookupResponse:withDownloadUserInitiated:withDownloadProgress:withDownloadedNetworkBytes:withDownloadedFilesystemBytes:withCurrentLockUsage:withSelectorsForStaging:withAvailableForUseError:withNewerVersionError:] : sha256 2b3cbe55b607a8e71d3753455ac13a94f374a16cd7d851561c25318dc1c593db -> 4a0016e39ba035e662da097c7bea85a5fbb7045dbc87aa440b94fa1e220c3644
+~ -[MAAutoAssetSetStatus initStatusForClientDomain:forAssetSetIdentifier:withConfiguredAssetEntries:withAtomicInstancesDownloaded:withCatalogCachedAssetSetID:withCatalogDownloadedFromLive:withCatalogLastTimeChecked:withCatalogPostedDate:withNewerAtomicInstanceDiscovered:withNewerDiscoveredAtomicEntries:withLatestDownloadedAtomicInstance:withLatestDowloadedAtomicInstanceEntries:withDownloadedCatalogCachedAssetSetID:withDownloadedCatalogDownloadedFromLive:withDownloadedCatalogLastTimeChecked:withDownloadedCatalogPostedDate:withCurrentNotifications:withCurrentNeedPolicy:withSchedulerPolicy:withStagerPolicy:havingReceivedLookupResponse:vendingAtomicInstanceForConfiguredEntries:withDownloadUserInitiated:withDownloadProgress:withDownloadedNetworkBytes:withDownloadedFilesystemBytes:withCurrentLockUsage:withSelectorsForStaging:withAvailableForUseError:withNewerVersionError:] : sha256 f2cd4a8a2aee2e80e941c3d5104e4948b5df489ab329fd1ee4932ae9bf06d20d -> 899a38b4f2c5baf8b51a03c4ead3eb4248b2baa0670c89557a1820a60d5e31b8
+~ -[MAAutoAssetSetStatus initStatusForClientDomain:forAssetSetIdentifier:withConfiguredAssetEntries:withAtomicInstancesDownloaded:withCatalogCachedAssetSetID:withCatalogDownloadedFromLive:withCatalogLastTimeChecked:withCatalogPostedDate:withNewerAtomicInstanceDiscovered:withNewerDiscoveredAtomicEntries:withLatestDownloadedAtomicInstance:withLatestDowloadedAtomicInstanceEntries:withPreviouslyVendedLockedAtomicInstance:withDownloadedCatalogCachedAssetSetID:withDownloadedCatalogDownloadedFromLive:withDownloadedCatalogLastTimeChecked:withDownloadedCatalogPostedDate:withCurrentNotifications:withCurrentNeedPolicy:withSchedulerPolicy:withStagerPolicy:havingReceivedLookupResponse:vendingAtomicInstanceForConfiguredEntries:withDownloadUserInitiated:withDownloadProgress:withDownloadedNetworkBytes:withDownloadedFilesystemBytes:withCurrentLockUsage:withSelectorsForStaging:withAvailableForUseError:withNewerVersionError:] : sha256 6860ac3fd2d3aedff1bdb73284159c961590d00032941841f549141df54a97cd -> 8c47861a63fa683d60cfffdca8a636af24566e4d0664e40e6a070139c76f035a
+~ -[MAAutoAssetSetStatus initStatusForClientDomain:forAssetSetIdentifier:withConfiguredAssetEntries:withAtomicInstancesDownloaded:withCatalogCachedAssetSetID:withCatalogDownloadedFromLive:withCatalogLastTimeChecked:withCatalogPostedDate:withNewerAtomicInstanceDiscovered:withNewerDiscoveredAtomicEntries:withLatestDownloadedAtomicInstance:withLatestDownloadedAtomicInstanceFromPreSUStaging:withLatestDowloadedAtomicInstanceEntries:withPreviouslyVendedLockedAtomicInstance:withDownloadedCatalogCachedAssetSetID:withDownloadedCatalogDownloadedFromLive:withDownloadedCatalogLastTimeChecked:withDownloadedCatalogPostedDate:withCurrentNotifications:withCurrentNeedPolicy:withSchedulerPolicy:withStagerPolicy:havingReceivedLookupResponse:vendingAtomicInstanceForConfiguredEntries:withDownloadUserInitiated:withDownloadProgress:withDownloadedNetworkBytes:withDownloadedFilesystemBytes:withCurrentLockUsage:withSelectorsForStaging:withAvailableForUseError:withNewerVersionError:] : sha256 c3e4d82d7a82b3757be76a0b5ffb14e6cab32fee9077199c0e543fc465f2021d -> e945133b2b6cfbb5b8b5ef8282665a2d7a13399ba291cd8d683a3fd20defe8d7
+~ -[MAAutoAssetSetStatus initStatusForClientDomain:forAssetSetIdentifier:withConfiguredAssetEntries:withAtomicInstancesDownloaded:withCatalogCachedAssetSetID:withCatalogDownloadedFromLive:withCatalogLastTimeChecked:withCatalogPostedDate:withNewerAtomicInstanceDiscovered:withNewerDiscoveredAtomicEntries:withLatestDownloadedAtomicInstance:withLatestDownloadedAtomicInstanceFromPreSUStaging:withLatestDowloadedAtomicInstanceEntries:withDownloadedCatalogCachedAssetSetID:withDownloadedCatalogDownloadedFromLive:withDownloadedCatalogLastTimeChecked:withDownloadedCatalogPostedDate:withCurrentNotifications:withCurrentNeedPolicy:withSchedulerPolicy:withStagerPolicy:havingReceivedLookupResponse:vendingAtomicInstanceForConfiguredEntries:withDownloadUserInitiated:withDownloadProgress:withDownloadedNetworkBytes:withDownloadedFilesystemBytes:withCurrentLockUsage:withSelectorsForStaging:withAvailableForUseError:withNewerVersionError:] : sha256 ed8edfeb9df11d1bbaa41383acd80ec3b8da94161628c846c0e554c7a5069073 -> eab94d533bafa387962818d011bf500a33fde323e0e51b1d18183e114a0a3f17
+~ -[MAAutoAssetSetStatus initStatusForClientDomain:forAssetSetIdentifier:withConfiguredAssetEntries:withAtomicInstancesDownloaded:withCatalogCachedAssetSetID:withCatalogDownloadedFromLive:withCatalogLastTimeChecked:withCatalogPostedDate:withNewerAtomicInstanceDiscovered:withNewerDiscoveredAtomicEntries:withLatestDownloadedAtomicInstance:withLatestDownloadedAtomicInstanceFromPreSUStaging:withLatestDownloadedAtomicInstanceFromFactoryPreinstalled:withLatestDownloadedAtomicInstanceStagedFromOSBuild:withLatestDowloadedAtomicInstanceEntries:withDownloadedCatalogCachedAssetSetID:withDownloadedCatalogDownloadedFromLive:withDownloadedCatalogLastTimeChecked:withDownloadedCatalogPostedDate:withCurrentNotifications:withCurrentNeedPolicy:withSchedulerPolicy:withStagerPolicy:havingReceivedLookupResponse:vendingAtomicInstanceForConfiguredEntries:withDownloadUserInitiated:withDownloadProgress:withDownloadedNetworkBytes:withDownloadedFilesystemBytes:withCurrentLockUsage:withSelectorsForStaging:withAvailableForUseError:withNewerVersionError:] : sha256 00f9e3c4bd5f7e7f295a69b077bc1e004de773eeb07d0b056d85cd462e201a45 -> 205dd70b5204c103ab917f1ad2bc1e889cf30e41d0dfa05d465216cf5c76e58f
+~ -[MAAutoAssetSetStatus initStatusForClientDomain:forAssetSetIdentifier:withConfiguredAssetEntries:withAtomicInstancesDownloaded:withCatalogCachedAssetSetID:withCatalogDownloadedFromLive:withCatalogLastTimeChecked:withCatalogPostedDate:withNewerAtomicInstanceDiscovered:withNewerDiscoveredAtomicEntries:withLatestDownloadedAtomicInstance:withLatestDownloadedAtomicInstanceFromPreSUStaging:withLatestDownloadedAtomicInstanceFromFactoryPreinstalled:withLatestDownloadedAtomicInstanceStagedFromOSBuild:withLatestDownloadedAtomicInstanceFreshnessFromOSVersion:withLatestDownloadedAtomicInstanceFreshnessFromBuildVersion:withLatestDowloadedAtomicInstanceEntries:withDownloadedCatalogCachedAssetSetID:withDownloadedCatalogDownloadedFromLive:withDownloadedCatalogLastTimeChecked:withDownloadedCatalogPostedDate:withCurrentNotifications:withCurrentNeedPolicy:withSchedulerPolicy:withStagerPolicy:havingReceivedLookupResponse:vendingAtomicInstanceForConfiguredEntries:withDownloadUserInitiated:withDownloadProgress:withDownloadedNetworkBytes:withDownloadedFilesystemBytes:withCurrentLockUsage:withSelectorsForStaging:withAvailableForUseError:withNewerVersionError:] : sha256 fb683baedfeddc81ea1a90a9efad460c55c52084ebf67513c05f8dfad78c2931 -> 719cffd415935b0920f4d824b49435a2c296f0fe4a2efd5c0eca8463c32a7ed5
+~ -[MAAutoAssetSetStatus initWithCoder:] : sha256 7528a30b786c40a73bc3a2548f79d705c588932ac53591dbbc57744a0b630095 -> fed69d7617a8a5490c628de5bfb22f23971d1b0294bb1a3e772fb9e328e72d47
+~ -[MAAutoAssetSetStatus encodeWithCoder:] : sha256 281b5a9e5d19a1401f16aa807e5235ea46c26329bda1cbaecc65151b5a5f2548 -> 0a8906a665b2654f901deb3f99263edab33b33e499c5e8f53cbaaf3f4b6f677e
+~ -[MAAutoAssetSetStatus isLatestDownloadedFreshForCurrentOSWithError:] : sha256 c3b253fffe84c310a20fb698e07c1b945a4e4e351b3ce507aef1dcc35b2ad984 -> 71160401bfe005c256516e866c39c8268d00bdcac56f52613661b58188bbd490
+~ -[MAAutoAssetSetStatus copy] : sha256 295f8f55039eb7afda9e0f64dcfe77c85c4310327182df4ee2e1c61d516df498 -> 8e9dc92d638d795ab1dc86c2e2838083da49f4f30787433d5b86872c030deb77
+~ -[MAAutoAssetSetStatus description] : sha256 81a66cc9f960a94cbca3cdacf62a0888dedd40dc12f7d7a620a8981fa4fa69d2 -> fcd2dfb808c9b745c9fabefc31befa9d24e5dd5c63eb0c919d76fb0e76b0c0e6
+~ -[MAAutoAssetSetStatus summary] : sha256 7d84d43dc4bcd276bb73335f63292eee774972d1af83329d587fcf8a6d8d5f48 -> cd11693f5cfef40876c3e83dc78febae2ddba9eb1ea402ac54095fcb7c306649
+~ +[MAAutoAssetSetStatus newCurrentLockUsageSummary:] : 672 -> 668
+~ +[MAAutoAssetSetStatus newCurrentLockUsageDetailed:] : sha256 d6f38c26fbb70e21dbe11df95171707bd826a6b348f4a5851143aa9128ec5e3d -> 24d3c70b5d370fcfa2176da6eeec39a7e8dd571c3ef4d291aaedbd70e5092d09
+~ +[MAAutoAssetSetStatus newSelectorsForStagingSummary:] : 484 -> 480
+~ +[MAAutoAssetSetStatus shortTermLockFilename:forAssetSetIdentifier:forSetAtomicInstance:] : sha256 1e5924a566b777862599435d5f0f3b655f34b11718bb33456c811e07c1bcf6d2 -> 36ec2c39e4e09ce16f3ca28654b3508b763efdf75dafda079b6af832632260ca
+~ +[MAAutoAssetSetStatus _shortTermLockFilenameNormalizedComponent:] : sha256 d22269bf6c663dd9a28af41466bcbbd5c9fb824f72114b027a7f08cd4bf61d7b -> 3d770d4cd342f0caa48db1c4fef08b32a8a9724af8ce9179694cfab9b7eab46c
+~ -[MAAutoAssetSetStatus setConfiguredAssetEntries:] : sha256 3937290670e7f4e44b538e8fc167bca3ff47600ed339ff41e725b4c2e36c2dd8 -> b959e3ee45d803c501f9212a848d0fe3c72bc6dd9596cbd5d7109ae4b9b04d41
+~ -[MAAutoAssetSetStatus setAtomicInstancesDownloaded:] : sha256 0080f44c2884b7e5e1838545ff6196b5e425d205f8d8b936147e4eee790b32bf -> 1395f0a0bfcf4bdc6487bf33e826f701187b4222f603f841727afdef321c8065
+~ -[MAAutoAssetSetStatus setCatalogCachedAssetSetID:] : sha256 ee923ffb3cb8717d22541c3b0b87027169098d05eeb99d0f60f37cedf31f74a8 -> b7037ca7e7ba0eb9ffe147738bcd6750b64276a8423e178147427a2f9d01817b
+~ -[MAAutoAssetSetStatus setCatalogDownloadedFromLive:] : sha256 857b166c30fe02085c30ed46bf4a0f1255c70c30631e88ce915920d591c7b379 -> 3fa457711a3ffd8a045176a9cfc379ad0858285bf42860e5431a3285ac609eb7
+~ -[MAAutoAssetSetStatus setCatalogLastTimeChecked:] : sha256 b1810d7bc01389d6e18079d24a4743042fc8cce6130a64b45a4bbade1626f336 -> 39559cc819318d93159058a1febfb197bec81dc6e1ffafce6eeb637084c413d6
+~ -[MAAutoAssetSetStatus setCatalogPostedDate:] : sha256 e58db425e7bf8a02e4e2303d6c593faa32315fa2a43fe43d39dca4cd54efdca3 -> 4f796fb2aca823fd9fc5adb1468b57b19865b01861e0f9ee4c1c88a2f90f7669
+~ -[MAAutoAssetSetStatus setNewerAtomicInstanceDiscovered:] : sha256 3ce62845daf4d8ce02e05b87e10cacda6d0a1bbe1a74df351aeb09a5b778061e -> ae875641250b078b7a9a48d26a5697be502ee996c30299e97b4e3523b46b6fd6
+~ -[MAAutoAssetSetStatus setNewerDiscoveredAtomicEntries:] : sha256 3871143aacd9cbc6c400529ba228c48283728a3e0fe8ec1cc31cb50df824cdb0 -> ea2a944e68fc6895c05fde49948fca17ef8bde1cc3d7ec033fbadc78625f8c10
+~ -[MAAutoAssetSetStatus setLatestDownloadedAtomicInstance:] : sha256 4f157367b71d53182184fefc3755ea2464d85527d7953f5d2ccec3a8b279876d -> 2b7d7c7cfda6674e8d078a8242f358ee9409daf7851f04815f1961d256d7c39b
+~ -[MAAutoAssetSetStatus setLatestDownloadedAtomicInstanceStagedFromOSBuild:] : sha256 4cb81749e8b5a4b74c080ed8bc1ebcc391906c183a9ac12cf2aa86f11b7307ae -> 800fe12412a4c32407025f495d5c657b22ade2288c23ef965b23f5bd85d6ab17
+~ -[MAAutoAssetSetStatus setLatestDownloadedAtomicInstanceFreshnessFromOSVersion:] : sha256 ee32cda0c1a5103420f1505a1fcf142de1dbba90e071b7ce72eb4056e94da1bc -> f2c2aa852500f2763ca0d556d95698c19882ad7f749db9804f8ef7ab74759443
+~ -[MAAutoAssetSetStatus setLatestDownloadedAtomicInstanceFreshnessFromBuildVersion:] : sha256 09b1518334ceedab5a3d8419ece7e8053678b30339e245bcfeba64ddd5d2c256 -> 0ff0d500b49e0dd5d1117f6d5f79b65c2eac0e735ecbec86adbd20a56e9a69a5
+~ -[MAAutoAssetSetStatus setLatestDowloadedAtomicInstanceEntries:] : sha256 38105bd885bdde2aba0cc850fc196e6b61653e048b587730d5b5e90b0e7288b0 -> b186767dec3ad44730eb6f6ba482d9450abcd30b3ed177773c70ba407f7c1ed3
+~ -[MAAutoAssetSetStatus setPreviouslyVendedLockedAtomicInstance:] : sha256 2b083b274eab0383988513465220fe5a5259ba08a59b41ef43e2c76e9b44c029 -> 4d2af7dea1d66ef41bfc0624ca47835ba374bd2320a84106983c648e42c463b9
+~ -[MAAutoAssetSetStatus setAllDownloadedAtomicInstanceEntries:] : sha256 8c23e50074c6951931b839a99e282ff73ff3ffa2ae59b725dd072ea0376cd6d4 -> 3c655d2ce5ab5893dba5e8d2cfef0ba3ac9b15faa2e8d8ba4d892f07bdb7ef83
+~ -[MAAutoAssetSetStatus setDownloadedCatalogCachedAssetSetID:] : sha256 90545b3c341dff89081714b7f96e33d1c14273d9ccceb67fa0214a8671392980 -> 58cbb6741b179de7549540e7459979cd292cb6cfe0910f86fe00de39339d4534
+~ -[MAAutoAssetSetStatus setDownloadedCatalogDownloadedFromLive:] : sha256 c9eca825c69612e27485ce380032174bff7deb4e2628b0c2c1c6bb9fc08165f4 -> 2983f90f7aed7630b3ea427fbf1883c0f0582fa9aef87b7bacfc26c09ee15098
+~ -[MAAutoAssetSetStatus setDownloadedCatalogLastTimeChecked:] : sha256 0e41f78111167fa34b82d727885d25776592406629f8a21413e4034c841a01b9 -> 9e0ee0fbf09c31f1f3e2575c0f6e98dafebfa3baa0f0016709019ad82db057bd
+~ -[MAAutoAssetSetStatus setDownloadedCatalogPostedDate:] : sha256 94cff88425b0e89450ebce9c308a1ec27ac3e5ab25de5b5526dd395639e6198f -> 2d43ea290d372cbd4a03bd552a6b1914ba1c57c1b7428196c25bcb2aeefe3ee2
+~ -[MAAutoAssetSetStatus setCurrentNotifications:] : sha256 57f2460e52845a40489cf8c2f9827c56ac43f57f97e534fd6b9c80ff460d209c -> 6560991baba84922a09cde3ecfa496e82f501e4b1c82f6489003ed2d87c2b735
+~ -[MAAutoAssetSetStatus setCurrentNeedPolicy:] : sha256 721cdf2c3f2a38adfc291fbb0d44bd5a0333dff67abdab04e765501726fa7390 -> 4eaadb525dadef6352a5269a2c49957bedb2f209a8fd6c5533e15ecda5da9ea1
+~ -[MAAutoAssetSetStatus setSchedulerPolicy:] : sha256 42bbabd2ce719cd8db64a55f2543ca3dad9797c18a1830b07c915f740e550f66 -> d7bd173a307b14fd663500eb36b67a5e1384420ced348097caa648f6f1455935
+~ -[MAAutoAssetSetStatus setStagerPolicy:] : sha256 1344a9ed0020980c85537dade3f0b3a8778d798951127bc8b1fb2c3eada383b5 -> 10305f2dd54db8ba2d45e645370c823e64b02accb184890120115bef47c3c9cc
+~ -[MAAutoAssetSetStatus downloadProgress] : sha256 724a7361bf058e5e40dc9605dd45b26abeb48434b7b8cba8c34317ba7e825617 -> 614cda18a3d8fe93d60c6441be376edd0cfc444c2a0624afca87654e9a4ee753
+~ -[MAAutoAssetSetStatus setDownloadProgress:] : sha256 f0e0a5e96b725b93fa6c21287f14db2edf57e00f9713df4cea623faf71171cff -> 431fb3a34eb420722b009e5ac80b23837d0f8d6628a2d9daaf07e59a7fa15e78
+~ -[MAAutoAssetSetStatus setCurrentLockUsage:] : sha256 1d6e6385a2f25194d8b0bf1968139263fefb165199923e5932be4968152ac160 -> 5d831dce2a497c24da88f50f56a8482bce7fb16184f3d181fab2b411bcfd4e9d
+~ -[MAAutoAssetSetStatus setSelectorsForStaging:] : sha256 24ece901c2bee111a403cfb428eb4ab337ad96de75021e24bf35926d49b7b37d -> 83a792fbca759f3a37afde502292fb2405cf4896f2e4c2b79d8fd9b7c2451e18
+~ -[MAAutoAssetSetStatus setAvailableForUseError:] : sha256 a2a7f9d768b670d3c073252dd0f75b2bf6d89a40cc1e800779ab6fa20b370b53 -> 66567274051ef025b8cc0fb2e89e40938b300a32ae85b8c968153e0ac788ad26
+~ -[MAAutoAssetSetStatus setNewerVersionError:] : sha256 1ef30254b8b9082209585003fe19fdc9528f9e2f00a1dfc2cdc62bad8145672a -> cb61fbcf85e30a6cbc53ca8e212055fe4ee06d71eb76fae8a29338fa291392f2
+~ -[MAAutoAssetSetStatus .cxx_destruct] : sha256 29ce151fedbc641c708ab0b206c115e3e36709c2a945360a33c224065bc1be4d -> 7b862c757df65f6bb00badd2b8b1258763a19792a5a2b6fee5471e6a7f1911c6
+~ -[MAAutoAssetSetTarget initForMinTargetOSVersion:toMaxTargetOSVersion:asEntriesWhenTargeting:] : sha256 19cd993748ec7a840c64bfc33f82506ab69a93aaab010202168e1ba2db99bde0 -> 6567649ca2652f2c0b7ebc2abc06f3fdc6f6ddc9ee99f6f2d2d1072a9e6a744a
+~ -[MAAutoAssetSetTarget initWithCoder:] : sha256 b2810929d17dd316a6191d1f3bac2acef36399f7e95aa84e2397d0d46738e2b8 -> 956c08d32b4f616ef0949e59ceb337eb033faed67cf6e790bbad102d7f063cb8
+~ -[MAAutoAssetSetTarget encodeWithCoder:] : sha256 489dc190b8014d8d272c2ec489550ee48cc055a7950a6cdf39d0b41432aa3c2b -> b329b6fae39f21f97236f7d157a7c2853c39646033c88d4bbcccceeab5e0e813
+~ -[MAAutoAssetSetTarget copy] : sha256 e07a36f4f93cdcdbb050f78dde8917dc34cd08ae3ddec29c022424024fa568f0 -> 135e33ab6e52d1c62965866e25bd82357010ff3d05b488f7e3fa500a6b86fa1e
+~ -[MAAutoAssetSetTarget isEqual:] : sha256 18b08c63916ed1a7bdd0518251b947362c62d940a5733b06ac89261f397ccbfd -> e36a9f8ab98e8f3bef3e435966cb337f6ecf97a2ff4189edc9003e15bfc03dbd
+~ -[MAAutoAssetSetTarget description] : sha256 2c49b88194a55de76bb63e7e4ba89180354312d59d40f1afe77ede09312e05e8 -> dc59419d7d2a50168f7efe0c32bf651a88a54452f8b130f9ece6e7cf397576ec
+~ -[MAAutoAssetSetTarget summary] : sha256 2766a38ea6fd8a154789e1a4eb3f56c35ab1e6653865f2a847e1967cd40e6c0c -> e56890d4e1d95f3e0db067856b686e039d9f051b7e113023b5d81df8263196ea
+~ -[MAAutoAssetSetTarget setMinTargetOSVersion:] : sha256 db7caa5929414ef3d786afe8ae192c8f0a127699d9e1b6f03d3b68d98bbc77bc -> da30c968deebd00afe32bd6971f60b058147eea931c9aaebb2b89ea72c98416a
+~ -[MAAutoAssetSetTarget setMaxTargetOSVersion:] : sha256 8bb7cd21282264302a327c9ec6ab55dff31eba93693ab7c1322dc85c1a05350a -> 99dfc95a0fce4020a201989a0bef6cc75010bc592b3648964790c6fedbaf82a6
+~ -[MAAutoAssetSetTarget setAutoAssetEntries:] : sha256 afa3e6e4f49675f53f13f4ce439353a5dd7c0a884d53bab90956fe8528a2ba7c -> 241af47b521236890977094e59c74fbdcb19da23f2021d194b98e29e8db80d07
+~ -[MAAutoAssetSetTarget .cxx_destruct] : sha256 05e51e3268a2203fdea84011eb19a2e29cab1919acd0cacae85df58954d1c893 -> c08a197d696264f62fd99034b6fb1cf4ca1fd95ca107907e6fdf98a5b79c7681
+~ +[MASecureMobileAssetTypes sharedInstance] : sha256 4cc41d49c4eb7049d7087df0dbd9a3890fa7f50f75e9726330de86b0a6995cfd -> e3a35d9f684e5256771e6d080ed886048eb64f7ba31cd0a1fe672e86ca70a3c9
+~ ___42+[MASecureMobileAssetTypes sharedInstance]_block_invoke : sha256 9948ddda6e2fa67aeb1928ff24e375147370aa7072b7f3d73af4336c2fe33f12 -> 5771ad4319ceb1e5ee80f67b61b5ce46a0326176d9a60fb1c24912b4b0cf50ed
+~ -[MASecureMobileAssetTypes init] : sha256 d06c4c8c3b83df2499c4490119466324eed0396b572b5064d66d097df5bcfd0c -> a956c346aac1df9b7128ed1534ddf2c31e2723b1783d66ea4e68158b403810d0
+~ -[MASecureMobileAssetTypes supportsDarwin:] : sha256 7231d7e953abd0c9a1c55d68199b002b7fa4a4f834563eee8c3cb6a154b73d30 -> d346ffe369a82622d405d41a06ad0f6894b1f762e584d65311dc260f3e9cb47e
+~ -[MASecureMobileAssetTypes supportsLoadableTrustCache:] : sha256 babbe939aa3d9bd4ad44fbac98a813dc001a905f6872725dc71ac7f946b9c5a7 -> 61ccd4f3fe2a7e64eb382eed295b7476528fe435f01a1bc809cd84bc38213a34
+~ -[MASecureMobileAssetTypes fsTag:forAssetType:specifier:] : sha256 cbd51ec07129fdf706d0efb99c1d3877fd457310f952e148e31bdefb940cdf9d -> cea4ae28cec8365e8ef1005b414718cf549cf47626581f68e5d41fd5424a1632
+~ -[MASecureMobileAssetTypes _loadTypes] : sha256 6e0810c53dd67cf636972fd5eda2b9ce25dffa3255418d7d4bf33ce27df28e22 -> ea875c3931a618f87cd401a39b6a59456aabafcfa7ff8156214ce78b628ab4c5
+~ -[MASecureMobileAssetTypes types] : sha256 e0aef3d3a3866977c1419dbd74291f8222c481c5fc2153fb30eeeb37e2b9753e -> 24a111d38fe351ba04d8fe9b4000ad70414796c4bc21f8b2596fd9fd9037a7ad
+~ -[MASecureMobileAssetTypes setTypes:] : sha256 d6006f4fde1075874cc8d6efa79c48d312d6fa28979defd62b051d2248bd5a10 -> 29c1c1b2746f2c0ba834510eea1768c450a9ab2d7014b6bc3fd542342a56ad96
+~ -[MASecureMobileAssetTypes .cxx_destruct] : sha256 d66fe1e26b8f15f70f024824d7f34e11eaabd6fe638cb28cc17771f3f6aa0edf -> 451371e4051e94b56bdc03dda3e4b232f32e965e93b5bb155e52b3cc995047c6
+~ -[MAAutoAssetSetShortTermLock initForAssetSetAtomicInstance:withLockedFilename:withLockedFileDescriptor:forFirstLockReason:] : sha256 9fa22434f706f933c2ba25021fb0dd52c3f4002522cf4c1295053e556e233afe -> fc9bfd465788ffb537e085f54a56d2c0c84a19dc5b69d853dd671c3c836d90c8
+~ -[MAAutoAssetSetShortTermLock description] : sha256 125c3814439357f5e89dfa24444ba7dc242f04470b5bb4705dd3957bcd4116e4 -> 2009591d9466b236e8d96b8a37e64a78d945f964c5397fe8ad281e7d5dd4959c
+~ -[MAAutoAssetSetShortTermLock summary] : sha256 b59817bf448e3421a54f444c4270e90edcf2a48ef6f8c3c734ceb5036207fbe2 -> 7bb6d943e59df1401111363b5e3694ce185b21b2fe071f5fafe7183d9a402323
+~ -[MAAutoAssetSetShortTermLock setLockCountByReason:] : sha256 e12c3f57d05a058de1beaa62ced2291e25f6533efb95c55d3ec561b4623e3a79 -> 3f08a29f8740e8cec6cf01b00bc281bdae5fb1c27d5874c5d4763b919d841f7a
+~ -[MAAutoAssetSetShortTermLock .cxx_destruct] : sha256 9f82e319e9535d5babf72dac0e77d7af948a27cafe9ff2e0b1e3e051cdbe344f -> f072f21f2f20786c6c1c1adfa7903d823b0f174833b6a48b9d6f1314e6a72911
+~ _queryDecodeClasses : sha256 877a0a7cad15d13012b00d57019d89d460e608c0b5f7651fa11b33740b08f4b9 -> 72bfe6029de65de70bf7f0f261abbc0420c0fd1bc6622216d7d5ae1eec812082
+~ ___queryDecodeClasses_block_invoke : sha256 2f4077f75db186d5c4733f27c1da838c2871584c82c3bd1be39565f33da56f23 -> e3cc46c429cf4ab3573aa558d2a5242dae93925b7f8e289e7dfc32cbbe2a4bd5
+~ -[MAAssetQuery initWithType:andPurpose:] : sha256 bd28a238563faafa99a6cb20586dd25d78e132954d16113837fcb25135704a79 -> c51c7e1fcf6e2b0cebb96f70ffc6ca359cd6085b53df23e1ec428f0ccbe633d2
+~ -[MAAssetQuery addKeyValueNull:] : sha256 066bf225ea1f912e6679051334416e0daefed21b89eca671a9b640cdcf02af18 -> 7cc1c7d82c0b4a71accb8a2c2d9e1b05089f32f2a09d5194127fb84b3153c79e
+~ -[MAAssetQuery queryMetaDataWithError:] : sha256 7d02aae408389fff3c3d78e7f335a8eb924a1e3e15a175a1590a2e9d4302dd74 -> f0901024ef23543cb2703a128fef17dd6b2784f2c0402f4d06ea62653a96be0b
+~ ___39-[MAAssetQuery queryMetaDataWithError:]_block_invoke : sha256 15f958075837acc89e6ef7267670bfe4132798a12ead0eed5953b7ce3c0bb6b6 -> f86a3d8249cc333bd9ea9b7377b31a534eb2ecb2fb04f4e165ec8da608e824f6
+~ -[MAAssetQuery queryInstalledAssetIds] : sha256 d6ff9364b035022e173349cb7da819ec058559cf6dae2fb8ca5c971d439a8c44 -> 9b8d6719f78c71704b34dbc5c7acbb6dd519d973410608ae0f8b2caf7d3f626b
+~ -[MAAssetQuery isCatalogFetchedWithinThePastFewDays:] : sha256 1cc8bcc17c21ccb5a7d157e0ecc86eaebce70b235f7d675fc320348bab3ed8ca -> 9f324846603b6978811f957faf12292705a6aca7b91093933a462ea31e625811
+~ -[MAAssetQuery description] : sha256 80477e7cf6ecfb1c61a00be07261d84aa3f3be3f891f60ed51eff8759de7f88c -> 1826a2da91abe98ac451e7d8fbb5deb37fd273e808146ac8a1d1bdb76cd6f72f
+~ -[MAAssetQuery setPurpose:] : sha256 97f30f79297a9fb6774eeca58325b604324a1e086b07e6b14e4dfb958ae4c645 -> 929e650f3d5b1ddcf529799603dcbf82d53cd81343a7e5398cbdecd4d3e1f195
+~ -[MAAssetQuery .cxx_destruct] : sha256 788c35c74b7f7235acf1c795979619350b1065ece6cebc685bc1f5567c16484f -> 3af4031dc8b47ad70885da6daa970683e4a3795bcc1de37ce6b2d595194f5dcd
+~ -[MAAutoAssetSetEntry initForAssetType:withAssetSpecifier:] : sha256 8aa395394c0c7c7a36c0dc2e219c6898bb56cdc3071bb6365c333166fdfe789a -> ea7d9245611d335af297e643acb1354f6693b407ded038d9f533657c557e2887
+~ -[MAAutoAssetSetEntry initForAssetType:withAssetSpecifier:matchingAssetVersion:] : sha256 696d8f170738c0d3578fd64803a73ce150522d2574bd5f1c983574ddd6dee193 -> ad3562dff43fa18f89ba3438f1290d14ce92fae5937704fccea297e64716d367
+~ -[MAAutoAssetSetEntry initForAssetType:withAssetSpecifier:assetLockedInhibitsRemoval:] : sha256 bc5b532f515ad792188841adc1fde1fc0e01f06d22b556cf7b9197739456f546 -> 5049850cb818dc0e121763cde806e38ed7084eeee27856163d41137b79a53edb
+~ -[MAAutoAssetSetEntry initForAssetType:withAssetSpecifier:usingDecryptionKey:] : sha256 070de5d3d91ccf972176d45cb71b3017ed36a383caaace16bce0d9bb94fc2371 -> 0abda2da62ed8510372d2e41214a6c7dd3babfc308b53ef6b35f053146e8d671
+~ -[MAAutoAssetSetEntry initForAssetType:withAssetSpecifier:usingDecryptionKey:assetLockedInhibitsRemoval:] : sha256 0ae249f426e28ca35f20e3d59c789742065117175f9db217f97b8e5ca3a46f7c -> b01e960ffb0683cd697304fc6bede772d89c8ede13a4b836da2f125cbfe52554
+~ -[MAAutoAssetSetEntry initForAssetType:withAssetSpecifier:matchingAssetVersion:usingDecryptionKey:assetLockedInhibitsRemoval:] : sha256 428cd89d6583d3de52563393e640560f8648989665d66f388246ad2056ce8185 -> c4b7650bc0e1e6c572d657b3071cef7780b23e4c01fb9f99875623d033cad38f
+~ -[MAAutoAssetSetEntry initWithCoder:] : sha256 7d171093f6761db27cf98b20ba3e692312c612de564e9d7a8a2e61f52fc0917c -> 9d4c60e95c5078d6ead3014faaca39b8af145eee8d4932dba9794b73402d3067
+~ -[MAAutoAssetSetEntry encodeWithCoder:] : sha256 81e391c5a77457560c25585d28da64c73761eb7cc4eae419c4fb1dcee5a67040 -> 4838cf09e9ca1bf3da55e062cf7674483d62bdf3a05a1aec2f8e3667a0c38be6
+~ -[MAAutoAssetSetEntry copy] : sha256 74abb0a4ca03df5be7c67d339fd5a826abbc0e0d41adbc112ab968f5b7cf6f3c -> 230e930dcf2954044cc030a3ee3d3b3554f47d6fc2056d68784a3e373574dffb
+~ -[MAAutoAssetSetEntry isEqual:] : sha256 038ed69910a03d9312aebab25d0616f6ff28bd9724432c8df7ab962dd47d2a67 -> c4c2f8eaa871ab4e9f8c0d086760d8a617084c45631bdf59f3b07850e55c201d
+~ -[MAAutoAssetSetEntry description] : sha256 c3647a026a5fbb9d5193bf9ef548bb996c8f323558d326d8ab637454467f2acf -> be2150b40153d038ff00b21b462822f331451dcedf450c292798b75c447e445a
+~ -[MAAutoAssetSetEntry summary] : sha256 45903e0c63ae82f21c41a7105efe71d0e1941bd392090b1e46122bc070fd5ae5 -> d3e284a4f01051d6c9842e19d45cb1e93be80661e482f2235f67fcbf44dcf33a
+~ -[MAAutoAssetSetEntry setAssetSelector:] : sha256 54861a6efa0e5730d9d7e41a531b50ec1b3f1886ded4ef528d9e9c7b169382bb -> ccfc6f0aff75cf79ed0d962171b55a047a73dfae01ab672095819b2b24583a23
+~ -[MAAutoAssetSetEntry .cxx_destruct] : sha256 f2b189012c76eece7c73cefd02f099e3027443d0fdcc731125907b322fd98313 -> 8723459357fdce6be869d4e143f37b61a59255e7ac423605eafd525c06208c57
+~ +[MAAutoAssetError stringForCode:] : sha256 481bc95daef85e0a7be8f457fed73ab424d42e534b8c384e38cfce3de149546b -> da78d4fef79486ec0f45f5f27698df2b9e3fc8f8a5306ab85d7348587ee83c14
+~ +[MAAutoAssetError summaryForCode:fromOperation:] : sha256 3358f025198c567db908bd3a3cfbd790a56feb2b1b1d177cf12e0bcc6912e87e -> 9dbcc9e707caa1a5ac3918e591351f1dc4fa37238f2cf9b8750327d956a4612b
+~ +[MAAutoAssetError mapAutoAssetErrorIndications] : sha256 9519dde370f2ecd2cd6d516d43639897385799eb4a85c888e838fafe88e727c8 -> e7a1903ef72f964485d978a65090a3c4c6f989f0ed2e412ab80c2688ff213e17
+~ ___48+[MAAutoAssetError mapAutoAssetErrorIndications]_block_invoke : sha256 e4714a4c4f636921c6ee1f9e585cc35abd8dc769f72e679d941a70081357fd7c -> 62e327d0f78bc8848272042131d916caba549ab0316b835aeb76ec402ca2059e
+~ +[MAAutoAssetError buildError:fromOperation:underlyingError:withDescription:] : sha256 f42bca72a3bc31d2eefc249e8efa4c66ff7700725917b21c04d1c0a368d4be52 -> 18c7e5c0a726bf11880559cbc9369ad6771db9b15cfcfc010992309f9081ae1e
+~ __preferencesDomainProtectionDispatchQueue : sha256 12fddc3b37b194e68361c77c81e36d60c269abac479ef05981fc80bf34e59d65 -> a183850887120546d5f1b2df014eb77e5b33b89c68fd3493f6ed2ca3fa5403bd
+~ ____preferencesDomainProtectionDispatchQueue_block_invoke : sha256 4c89e219bbbfb2a22b3ccf4fd4bf77279357db610ce7f72faf9fedd3fca50cc0 -> 3dbe07a3b29a25dcc9632cffacdd3148c40d17ee0e6677c06f34dc81e4bde1cf
+~ _syncPreferences : sha256 a8eb1cf062569253f6289c1859bcadd030102a38e329fb2e0f7fe96fac0212fd -> fa1b661a2d520e69162f86c90244ce37cb6eed6d3838695d5928344aa06a4a50
+~ _MAPreferencesSync : sha256 a6991d2a90b9552aadbfa08f264a29c72fea8091ef6c8d83ffc3efc856ee1669 -> 9025397c2c15f1114604a153dbd86d4393943d78d472e5c06f668f74cefe2171
+~ ___copy_helper_block_e8_32s40s48r : sha256 ea14bf8815f1b1829b4b80680ccbc59482524af949bf0d8a5f548455285d7c11 -> d6cda63d6fbc001b9eac5f26e37aeb84ac3c1ea89c1ed7d36c53eb6118777b04
+~ _MAPreferencesCopyNSDictionaryValue : sha256 1d2f2241cb16f711a29a5c6af74c4bbf0868564bc359c09b93947b014260f48c -> c2c323ad7cd920e5e92ecc5813b385eecec5f1f276f88cce9440f648c9f76397
+~ _MAPreferencesCopyNSDataValue : sha256 54f09b930084a82793ae0cf8107a9cf9a978bcfe124d53e83f932addbfaac63d -> 818355f0ac7f771e1c544ec7445b158dbc58d5d2e9090debde8f54f844f6544e
+~ _MAPreferencesCopyNSStringValue : sha256 31cdb405dac523cbee57a90a613fd74751b0a1d1ac8aba7cc0cc4de84b89e9a2 -> 2480674815da0fefb1a0a156103d77e404ff0752f5da87ca48c95e620f8b7623
+~ __MAPreferencesCopyArrayOfNumbers : sha256 a5bc9292c364a994395b39075bb8d97e1386a8f8544a786eb2c44f22bfa9290a -> 225243294b5d0a000d16d8b6e61c1309d2067fafb6b4c457d0ae252d61800a57
+~ _MAPreferencesCopyNSArrayOfNumbersValue : sha256 002050e6ba36290df3e1334a46f85ee371f55d1d268912fd2da8f1bd4ab97fd5 -> 0ddb2518d886eb0f66e5e0cf6944a45586cb7142a29e6a037ac9db962fcba80c
+~ __MAPreferencesCopyArrayOfStrings : sha256 f36d2f037949b6b5f82fb4ab62e86711174f2b469bb64147fdef4c8c12d24c8f -> 9285b64ac869017f8b72ba4bec3023374376a92a4681f2555b34c12e8dc4da53
+~ _MAPreferencesCopyNSArrayOfStringsValue : sha256 408f2124f42c40a8470950a01fa9e1f79b0e2675ec0c6b12a9f8679174182196 -> 2950cbadac8e436f58820f080cfaa0c8728cda47d13eb3745cb50b508570797a
+~ __MAPreferencesCopyValue : sha256 f3065c5cb08f638cde0584d6828be742d86a01ffa8bf5010fddca444c12d893a -> 493829e488e03a1c41c726ad4921ebce47a908b2e1430f155e119da1381696d0
+~ ___Block_byref_object_dispose_ : sha256 9b2eb5d8fe8918e4da9f3480b1167fce4da098d92bbc30bedd9edb37c3ece071 -> 05b5444bf5dcc9e7e767d6d244a20072f3e582e109620da4a856b331ec7d4bc0
+~ ____MAPreferencesCopyValue_block_invoke : sha256 3cdafc6f9e5158012dc52e5947f70bd41e721bf050a4b8fcd27be456f3767a52 -> 928102ee1d93e2d0f745f8e4f017db4185e0767e9b04a3f2de66ab6bd9ed19d9
+~ ___copy_helper_block_e8_32s40r : sha256 e65ed2b4dd08feae399e2caa0cb2bbe1975696b2bcb72aaedab7cbee8ea80ca4 -> 1afd893f0686096b4bbff299ba89c59994b8248eda7b32e53190740f8610c14c
+~ _newPrefsCopyValueForKey : sha256 ad8682df3f57f0b4e352bbab877c858257dedd5b7bcb4f9f556d9310702c96e5 -> 4e705c9eb72f2c889924a61aa9c2106c77d90e628953c8c7e78571d2a2579b1f
+~ ___MAPreferencesCopyValue_block_invoke.1576 -> ___MAPreferencesCopyValue_block_invoke.1624 : sha256 4d7d8c20e22bf7dfbfbadc3fee258c12f6c9006abf6ef89425295dab2b1cae80 -> f23981435eb3353c928176b0267efc6794f9e86806c108ad3e9935d2d4d7ee2d
+~ _MAPreferencesGetAll : sha256 f34e0c672bcd831b9da63ccf2d4a3e5a480546f4852f4dcc44affd0925c60fae -> 3b132a2b09d58e2823c2725d34f9249df1c483e5fe417a2ca5449fd77d345bc0
+~ _MAPreferencesGetAppBooleanValue : sha256 c65902acb9af76d06ad39a20859db51ee78afc81b95da67e6babddcd4b2fbc5c -> 3228c566a4fe0e939cb93dfc7589a02dfd8462c259de0dfa7f661abcf92bfdeb
+~ _MAPreferencesGetAppIntegerValue : sha256 21e2115be2456210efd6c920f484fd1faec65686e16974d7f56954d6e4f52c77 -> d79757fc1cfa1a2b2f301d9a3de4c15e66bb2d86e69315bc599ecae53824830d
+~ _MAPreferencesSetDataValue : sha256 1b3c4a7f028bc654c807c293173cd02426348d2fa5473c5735c025e97e65af37 -> fa30f2292386c391a943727213518789eba2b17091586a24cbad5a30f59c652a
+~ ___MAPreferencesSetDataValue_block_invoke : sha256 38bcfcd3d177d51f2c772df5a7292103006f0aca0f59d6860edfa34b7503e93c -> cc3988bae000c77255138a27ec00354bfd1c41c2c20b315b65dccdfbb63605f1
+~ ___copy_helper_block_e8_32s40s48s56s64r : sha256 2aadf573b8b34f36b84094007e60b3cfd38c7c9ac974297073046841424edefc -> 9a95907da6ded98d9ee65804d6626dba639bff849357bebe49f573e6d909ce65
+~ ___destroy_helper_block_e8_32s40s48s56s64r : sha256 a36a187fb3c16028978a732508be1d0d41fac65af171c583d3fbc98060ce5fce -> 4177b49acee0214ad67d215d70afe06cca087cf0dea82ecf56e5b4359f7cf5a5
+~ _isValidTypeForPreferences : sha256 dd214b0da3ebf5fe6c79dee09fac15ad27c2c436a68c690723fea1d170c0ff6d -> 2142272b94b1eaf5692b86b440c4810f8275474e48ec7dc2f34d2e7b346f293f
+~ __MAPreferencesSetKeyForValue : sha256 b8016015987999572f7d5d8144df58d72422b525af6557682e5cbd72aa30b240 -> 85d2f400fc42bafa9eeb33bc596ce36f9a52a1937589538f185c70e72734ebd3
+~ _MAPreferencesSetValues : sha256 7f9fcf31380b2ec0d61b2909c5aaba31b1aab040d2bf754c044244ca85b9d24b -> 687cb8b6b9bc6a95635cb4087ee3655e2317b5453d74c5fe531aa0ac91779dd0
+~ ___MAPreferencesSetValues_block_invoke : sha256 e5ee77db20827155c0ab7c51ecf5b33a4a70d41def1a8ca461c882244c57e1ca -> 8716e657345dd74f4d88433165aea72011ae1e80b9625e34ca4668e8e886e04d
+~ _MAPreferencesSetStringValue : sha256 50ca464e784845b675d145f282cd4e893ab6b4a3350b816fee3468d1509e6da1 -> e488190329475af2123a4ea3efe9cd2cd062c454971926b261a2434be37f3e6a
+~ ___MAPreferencesSetStringValue_block_invoke : sha256 129f42eddfcac6988505407a0fd6182eaef7337cf9738f9fc88d16a741336e33 -> 6381a1c992b3a3a2c73fb29e7161f57fa02e0d9a9e510b18eaebd199d08bf6ce
+~ ___copy_helper_block_e8_32s40s48s56s64s72r : sha256 ba655d3a72ccce659dbe29e216fc4a9ab88bd772072b35a8a4fb0e545d58377a -> 1fe55b4795e26907aa8a9a31f9d00863ea1ad3f061504531dff10a83f4dbf731
+~ ___destroy_helper_block_e8_32s40s48s56s64s72r : sha256 25316ac99cfadf1ff341c67f7399d9c13de845161d963c1cbd172f68b5789780 -> 906ed5f233a82ab0ffa424465e81ccbeb9938ae4327bd7a1e972d56a4d7b456a
+~ _MAPreferencesIsInternalAllowed : sha256 da3f0490b547769b121503b9b8e9301c07382ab762d377c03be67ca441553df2 -> a56918834c65c933cb7a6cece2a7ef8adab5f01f34286223a87249fc007dd097
+~ ___MAPreferencesIsInternalAllowed_block_invoke : sha256 4d0f34f047d63be85df217c753e6f2d2b51ff14275e6fcbe0cf2d73343ecfe4c -> 8c2e5b42738d8a9e69c927ea50c96195d0cf1e2aabcaa9db70b90deb681f23b9
+~ _MAPreferencesIsForceKeyManager5XXErrorEnabled : sha256 71c5dfd432dc9401e6d0b81362b36443ddee6e4482c3e1d0438ff678455fbfe6 -> e59124046e7c8eb721de6d5ebff456bf54fae40fd486802902a40a1e5cc8c645
+~ ___MAPreferencesIsForceKeyManager5XXErrorEnabled_block_invoke : sha256 c48a7ba7db72e206cdfeed37eebdf3eb5a05848df5a9a92c55b2dba0f8cf5709 -> d0f64e1f4ef10d13a3e1c07750c261d5938d400247c851681b3275c95edab01d
+~ _MAPreferencesIsVerboseLoggingEnabled : sha256 f63389235d961c7a6e795d98ab037784fda581b9cc9d0bb483f706859ba6597f -> c413efceb736f3a52394edb3f0a744f509ace0c36280dc064403a7008c25ab18
+~ ___MAPreferencesIsVerboseLoggingEnabled_block_invoke : sha256 d1eb0d6ff63e1cd539cb304d6696f292ec203ea3c253366891cb0dbedb8bfaa3 -> bd81048626bd233a55022ace5ee39b61fafc2a0229916158fd0dd0ce466879d8
+~ _MAPreferencesShouldSecureNetworkMonitorInhibitConnected : sha256 0c6d4eb31b434bd3f4b75460f375ba2fe52506b7bb1d9d6b411996aeb345c713 -> 909d660f3644907e359dfd3b29d516f2e152cecf22d7f427280481b41bb05dd8
+~ ___MAPreferencesShouldSecureNetworkMonitorInhibitConnected_block_invoke : sha256 ae3e002e641814082dc6ac6813b26cc65ea4e034dbe2abe44e1e1af2ecb7a6fe -> 73360df454934a40b0d2ca01de051ca9a786557c6a37f0540acfd9e70e70053f
+~ _MAPreferencesIsCentralizedCacheDeleteEnabled : sha256 c92fac646ec17afad4cfa9bb246c71d12eb805c783746dd6678ba2ca1839e8ca -> aa76a622a5f76f32f89ab74223f50f13291e3b9ae5c207ce6bc9a0c58a0bc02a
+~ ___MAPreferencesIsCentralizedCacheDeleteEnabled_block_invoke : sha256 f1e6e02a47b334c908c8034a4e3191191c13608d6a8e1017cb259c6cc66bfbdb -> 41e2896badf1f04e46d88280909d3ec7d1aa3502db25a6513e631d2cc821d777
+~ _loadManagedPrefs : sha256 6b04b85bef4da3ce38326d91cf9b49a499cf91e4efee3ea355cd077a5f725159 -> e61034d59499d800252c00cac674570a9f573ba977812ad4237a033b6da0ebfd
+~ ____useDaemonPreferencesLogic_block_invoke : sha256 1b5588ded5237bac11826c7f19fd593c1ae517db2176227349c3e82f798f2267 -> 1cf5d96bd56d9cdca84681dfdec384664a4e27e95a3422b57421a255dcaeb589
+~ _OUTLINED_FUNCTION_0 : sha256 fc90752e5ea70359703cd704c18d796dd3c29be16ce91e01ba2e69c1b98d1b5c -> bfd8856151b427d85ce4dc823b16c4ee1c3f3dd4375ba41ee1a41d589e66b2dc
+~ -[MAAutoAssetControlStatisticsByCommand init] : sha256 282577d0375b37d9ab08e883f40f0c4ddb937cf9c12abe991da32047504c5989 -> 97dbece295d7af29ef930b6ea517d3b6bf7b19c106f32d351d61e93ed35273fa
+~ -[MAAutoAssetControlStatisticsByCommand initWithInitialValue:] : sha256 7522b662b4ab4ba44f52d52562b5fc9829235e18d171c43f1662b500962f1a1f -> a6c469adb5ccee650bfa5e4d57bda2dd39774e9575609e59387551a516f505f9
+~ -[MAAutoAssetControlStatisticsByCommand initWithCoder:] : sha256 ac0c21161e902f85c1da39b5115eff11e6b52f79baf1307eee33906417d4282a -> a1591e77eaca4adf2afe4a6d6f20a9bc30933815a6d9eb148b38566bc3af1326
+~ -[MAAutoAssetControlStatisticsByCommand encodeWithCoder:] : sha256 09af7371ccab5d71de7c14b1dbf4c33997cbda59ab99c5b75e0fae095a988c99 -> 6baa67fe7dcb44c229e69afca76b476a2c9cea01d8c9fdd05d1c239b9cda324c
+~ -[MAAutoAssetControlStatisticsByCommand incrementForClientRequestMessage:] : sha256 fc9a680a3e7f30f6acdcac3f699b885d200a85500c9f50ac6f832b9323afb45d -> c79d4781279596d2e4c247dc4334ab419aa7a04e38273775d60826b58f030e7c
+~ -[MAAutoAssetControlStatisticsByCommand copy] : sha256 0f0d9031c65f74ac3c02a13e9da6378b24c5d4c991bddd5eabd6b577d0603b96 -> 4ea99bc92034ea563a7a87ecbdd002cd9bddce6ac79b588320138143b41f7fe6
+~ -[MAAutoAssetControlStatisticsByCommand total] : sha256 42314d042a0399aed8c1335cac09d25ca5b48248f728e5e80c442a6ad9ca4634 -> e0391fdcdc0d2c05d13e205ec298fa054a14405d4374c488a20da294ee8e4a5f
+~ -[MAAutoAssetControlStatisticsByCommand description] : sha256 c7c93c938477ad26b9d8d161006e5bfc9b0b1a6502cbd52999c7b509ef2e6c5e -> a7af7b1d1f354e50baf8a33f464cac95d4361843f03c38a8b9b1202895156234
+~ -[MAAutoAssetControlStatisticsByCommand summary] : sha256 1f97fad910f77badf0e524d15c2fbc5f253059446ebd43bed6ae32ca6f39cc48 -> 3bbd5df06ede1ffe51fc428a500e0d6684ae6083260be95e53a6f8e44bb0bf0a
+~ -[MAAutoAssetSummary initWithAssetSelector:withAssetRepresentation:withAssetWasPatched:withAssetIsStaged:withJobStatus:withScheduledIntervalSecs:withScheduledRemainingSecs:withPushDelaySecs:withActiveClientCount:withMaximumClientCount:withTotalClientCount:] : sha256 88424aaac8afac5e29139794f64e407bd0033c11e2c1ce0fb799eb6141ceb071 -> d7f029ec67f9833572081285a1f80fe15bdfde1bc4bf446898c247ffd9807448
+~ -[MAAutoAssetSummary initWithAssetSelector:withAssetRepresentation:withAssetWasPatched:withAssetIsStaged:withJobStatus:withScheduledIntervalSecs:withScheduledRemainingSecs:withPushDelaySecs:withActiveClientCount:withMaximumClientCount:withTotalClientCount:withIsSecureMobileAsset:withPersonalizationStatus:withPrePersonalizationStatus:withGraftStatus:withGraftPoint:withStageGroupType:withTargetOS:] : sha256 695fdc22965404fcdbd98ecef963caa666d5a84bddcdc53b40116c34e422d7b8 -> be14959f2c51067ae5a2d76302f024dee4017857ef85644e512edf9bea03bd12
+~ -[MAAutoAssetSummary initWithCoder:] : 580 -> 600
+~ -[MAAutoAssetSummary encodeWithCoder:] : sha256 d50fdf04c40805febdbd1ac78fbf2eb0e1c3a827dc3857e10ccb6e46be98f651 -> d0c20794e7e25cfedb1154c594403961492065146e2ac91fe5f61640cd6993b9
+~ -[MAAutoAssetSummary getStringsForSummaryProps:isPersonalized:isPrePersonalized:isGrafted:graftPoint:stageGroup:targetOS:] : sha256 1077c1270c2b42f9d2117325eca5a76e9a32420a91f0c048bc88015e00e8eb4c -> 34818e3a304a6251fd98a3a2da4b3a7b4764a0a83ce52e07a8ec7dde0de6eab7
+~ -[MAAutoAssetSummary description] : sha256 9e576d45885f1aab1ac3ab39bd1be7dc0d0e0ab597676eefefa446fe0244458c -> a98308ff29c8de73abd462fab1eec571afd309ef43f536c53bd24f0e51f7720f
+~ -[MAAutoAssetSummary summary] : sha256 4455bda85c170231c9b116259e7df0872503e9661e25d12268785cd653f1b566 -> 553ed53ef1f897d235ee85d60d8a62563c1a1a63a96dffd7f2496af45ffaaa17
+~ -[MAAutoAssetSummary newSummaryDictionary] : sha256 6a234191df7e4f4907a02c82760d2e5e3fc25a83c2c67e37cabaab93f52abd14 -> 60d0697b4f012ed56d964b801e256dbec48457a5c830ae848ce2ebc7047f410b
+~ -[MAAutoAssetSummary summaryBuildMaxColumnStrings:] : sha256 7bb0b99857a538060e12697271c46ac4a1c64957e571fcdba1b5cbbdc18e9ec7 -> 5a42194f856090ea25fdb251492ba08dc9e6685a2945027c01cbda1c87c64798
+~ -[MAAutoAssetSummary summaryPadded:] : sha256 c51cd9d04e2b9843e1a4aa5008f62f91e5e9b565ae0595a0f5cf30736cc858c2 -> 08320a83e4492684c8c8025649324200631a0e360a97c8e9b6835d757187bcae
+~ -[MAAutoAssetSummary assetRepresentationName] : sha256 fdff424861366d15e4528efbcbf7295aa072ee70599370376d86ec8837c73a99 -> f99c086d359812ea8e0c17c2df7e7eda2d1a8e7f5cf7ceca8c3083aa6cd34243
+~ +[MAAutoAssetSummary assetRepresentationName:] : sha256 486b1845eb601b5e15f4034032e8d5b91e70c7b3c95d7b8903d34b219c3e562c -> a852f4cca5ee06de45780a0a5fab9b4a9f67ad5d27390fab1ac67889e7d2ddcd
+~ +[MAAutoAssetSummary summaryNewMaxColumnStrings] : sha256 ca8810c898e104fd733685b38c07492e8e0c1082322f629e7a4c74480fb9677d -> a32d81a896397ee162dcf053d9a65d9ca5f729c39145c6c80cada4a7cfe1ed60
+~ +[MAAutoAssetSummary summaryPaddedString:paddingToLenghtOfString:paddingWith:paddingBefore:] : sha256 2e25278ceefae199a8b221dfdfb230ccc3de86cb553b04134d52607ffde090b7 -> d1c6d74a5f6d428adfae87c0c6334ac92a73fa4a004a7b2f57ecdd5fca16c4aa
+~ +[MAAutoAssetSummary summaryPaddedHeader:] : sha256 07dbfcca7b119e877c9e4be42b6532389eecfa392936bc49dbae6324750afa3d -> 21549ea8a9434a220aa5e6669a665cd47c2be2ac50e00d4ea7e807ac5053f6f4
+~ +[MAAutoAssetSummary summaryPaddedBanner:] : sha256 4a4dd47b58408f08ad05f9f5233e333af6c4e0f4d5b74aabf64bcf26265440e7 -> a6f8006ada6585525e5b651ca7c3918f0aa85d740730dd36b4bd670d0e0a0fe0
+~ -[MAAutoAssetSummary setSecureMobileAssetGraftPoint:] : sha256 7b579c00ca405a962329f23360605e6cf83674ec3136c7edde88c15401233960 -> 49ce1ebd3fa27575aae3c6b2a481fce11ac935eca97e425fe413d37e5b500f7a
+~ -[MAAutoAssetSummary setJobStatus:] : sha256 0b42773a99917bf6acca9cc277ad1f26c6824925a379875b33efb3031a338f11 -> 4440eed94a7d7bd9a799907fb6e45fa75ed6d65a1dc0eb0063c786e2e3e37355
+~ -[MAAutoAssetSummary setTargetOS:] : sha256 08ea79680f6c1f458d42a8fa792a000093a8360bd77cc254e05805a7c2382db3 -> f157ea732cf183edf77929290558265b5ec9ec6eb254854e84175129016a6d68
+~ -[MAAutoAssetSummary .cxx_destruct] : sha256 b09122f75b4dcf053361d529166b48a6f6ad187b3b667807880307f13ea4e90a -> e47b6401176e57c25ceab961b84bc76fb87eaabc6b72698098c27fd6cdf7e371
+~ -[ASAsset hash] : sha256 851b8b857864aeb06b644da99004c08fa39d583a7331eddf28bf074c8ca59d46 -> 8a35103a013b4af3418906509d1ad88b1c72c19be13791b689553abb3bb8884a
+~ -[ASAsset isEqual:] : sha256 bf5e7a238e353e2a3c68c9760364aeb16aa5b6f96e6d6dde3b62d1032c766156 -> 52a3944c2f9f697aa39c8a7cbff0bfa0294e3a257c3f79dbcf892190699267e8
+~ -[ASAsset description] : sha256 984327ce1bd1eca61d2d7bcc9f2499a020fb45938c5b7b18dc0ed681b9b8d2b9 -> e9064fc98e9e66774d135c9c599882e712efe92eb96f99cc7d0a351e470b388b
+~ -[ASAsset systemAppServerUrl] : sha256 a0e04e367a4b4b4ef1b9f26b95cc83ed637bf92bbb0a41b1664a2d21854e788a -> 1e8691ce4cdac565b5ac5127fafb862598f02e04ec3f8688c1683904369aba15
+~ -[ASAsset assetServerUrl] : sha256 32366cc97c6d72a5f8a8c1587b413d715ff2f9d55b00cd1fd8bfee528c1262c9 -> 96ad72cb2fe0aa4493f4ec78bc962767c3e7825c38c5bae124827b4bd986c39c
+~ -[ASAsset garbageCollectionBehavior] : sha256 883031f2d154433736f1b8e163f9ddf976443a8598993ad50afbea0329769482 -> cec41e966bc5e63d5ac517a7d2dc65a5817ef8eefbd9cf473db5f9b76db105c7
+~ -[ASAsset setGarbageCollectionBehavior:] : sha256 e4639b22e3c114257de617842d33b079e6bfc73934fc7466195249975bc0b733 -> 2cce0bd816ad3f00ad88f2b32f5b9f476c517c82003f6e00dfc16e628a59b7e8
+~ -[ASAsset installDate] : sha256 911866e0501f8787a75f92aedf3b6c3c27627496bcade7a43b717fa59d929bcc -> 6cb1b67b6dbdfe765ccbcc35786d9cd6c631cb78edd526dabb6aab697bef525f
+~ -[ASAsset requiredDiskSpaceIsAvailable:error:] : sha256 2a02d05e97857aff2f0ab331fa1f917e398142f560df284528f55843e694ce29 -> e6ae9aa025754362f4470eab6bba395e1c658067d96803ed95d42e07da5aa0bd
+~ -[ASAsset requiredDiskSpaceIsAvailableForDownloadOptions:requiredBytes:error:] : sha256 3055ec9ef1bd1a37bc2aea14f140621d2675a0cff97e62f2edafd0265a426561 -> 31781a5878baaf6cd7653cf1de2b483a542c1de1f011d280ed9762e7625559a3
+~ -[ASAsset adjustDownloadOptions:completion:] : sha256 70a65c873f449b7a18e29b9feac864945376cba82efe88406f6d41cce1406a89 -> a3d5a75673f02f95c8c7d421b46af7f7a7336d9f2172eaf8ca53d8cfd557e8ea
+~ _progressDictionaryForAssetIdAndState : sha256 060cd6a52029904df5382c4e3df43ffdec452c7c0256f04686ec59f4116b051d -> b431df81d4c58dc5f7ea107efbc39299e2b74b706ccd09ac20e187b88dd1c494
+~ -[ASAsset _downloadWithOptions:shouldFireCallback:] : sha256 64a9fad92b6dd874a0174d87d6e143834d910b8cf02149da3c01efb5148314d4 -> daa95f21738f5e56cb5b6cb95cfded1d36ed29cf0a854d5895fcaaf91e83b487
+~ ___51-[ASAsset _downloadWithOptions:shouldFireCallback:]_block_invoke : sha256 184c96ffe90202b8ace44a91c284e777849205c2d5a7bfd68cdb5a86cc182ab6 -> 5871a2954f1b26331ad0df6945bdbf9ecd98340686b4dcb7a67ac52161b520ad
+~ ___copy_helper_block_e8_32s40s : sha256 2b809f19830516d609a3affef538b15b340c9551bc966b946d4f888f348a17b8 -> df0196a86537e01348c8f95adb5c0230fe98fd71d7f66167d681ceaf3c8e9142
+~ -[ASAsset beginDownloadWithOptions:] : sha256 f8b88cafb8010b74d7e2d9c650256f930e6627e260f0dae174b741842293e3e9 -> 701da7ab3f797c86efa8f8b92f3b9cb10b22efbcc4e816d4a9fef586c4b21f57
+~ -[ASAsset pauseDownload:] : sha256 3c49612c4e8ff79e8a40ba7bd382ec3274f084b198fb16b3f57dfab017866b0e -> 787cc0eae31f51887b0e3096293bf7e1fb39d7e3274a956fa6d0d8939ed3c017
+~ ___25-[ASAsset pauseDownload:]_block_invoke : sha256 7f59a78f9a7952b1610442a4490e0504a1bc778207a416b5eb183ec117f605dc -> 590e838470c7f8036a59c561837a8330b0dd03eccc65c1fb4f773252c1276962
+~ -[ASAsset pauseDownloadAndReturnError:] : sha256 f2e834f2da09af4b2ad9bc3fef15471cbc2dd5005502009142e95cf3b50f34b6 -> 60695b01de78ced0bdcd314320b3b63459ee84d3533b3776179482b66578b41d
+~ -[ASAsset resumeDownload:] : sha256 a85d320278ce2f843fddde21923431ff70b1de0aa6983c2cbfe7459f08e96c11 -> 0adffa6277fdc4ec9f8c3c558d1a5329218da4c65ac0e264d3473e4cdc9314cd
+~ ___26-[ASAsset resumeDownload:]_block_invoke : sha256 9fb5a60bc2b9c8c0893beb273660d337cfd90b36d42c10b9f99b6b790cccb73a -> c38505c1245f4a78b892bc6603f32744abe36a8d635e80523945791e2e7dbbc4
+~ -[ASAsset resumeDownloadAndReturnError:] : sha256 580b7723dd6927b465d8102c2a9dbdd32e2ec52224744e37f70edef15b489366 -> 49f684949e71e6265d4ce408a3107f81f04dc4351c271343b072f0884fb1674c
+~ -[ASAsset cancelDownload:] : sha256 ac17e554779904890c1a5deae1ea256f88cc2c9762295b029edf0ad668e5aef0 -> 82755d9799dc571f35605caab408783bea9f39a7b3bc8a342a091832de52752c
+~ ___26-[ASAsset cancelDownload:]_block_invoke : sha256 ea3c2f8fb96826f098d82201e0de8c2369dc69f57640f890b72df469c7ec816b -> 0b68741d2fa913c89e0ccca9ecd6fcb6c7510af1537de008d675a176836a8606
+~ ___26-[ASAsset cancelDownload:]_block_invoke_2 : sha256 e647f4a7334a79f3a2bff8c5b559e54ac43ca69eef1f51ecc121b0fd59222931 -> fdba1a3282c4e29189c54aa75d4d26f6cb8c70ea332ef0e51381d7657f87845a
+~ -[ASAsset cancelDownloadAndReturnError:] : sha256 14f5f49617cb8743f70d9836438efd9d4684a206c84679e89df4cb8ea5472018 -> 45f1b8f744fdb7afe8a65cdea757fa1182e8ecf703f545cd8ed239ed4a42dd1d
+~ -[ASAsset purge:] : sha256 92a1c18834e4fe8bb5c514edcfcca4511740c21473fe9b0993cc8d03ece6b725 -> 8ad9e244bbb9128f1c23f89c6820db4f428c4b8c28b5985498a88c81e30f9afe
+~ ___17-[ASAsset purge:]_block_invoke : sha256 c397956334086c628e715a89dc9255a7998c87392119ea0045c820bb5ad60e1c -> 4b816468558dabb5552e6523bb602a2ac177ff862744159c06a1500b3b448c1c
+~ -[ASAsset purgeAndReturnError:] : sha256 9df73949be03562cdb603ca9ace1f23f14a25b3a9b21cf0c88d47c94d379f720 -> 5d0efd5c1bad7c6a4282e49b07f3c3e8e6214c654887b5b46c1279e237f79277
+~ -[ASAsset setMaAsset:] : sha256 077f8ee3867e9ad9cf330d85d9b7f06ba5949ac017638f25950aace64646060a -> 1c3429f43866524c2c6d084a41cb107a3d6117db3df3cfedc3eb09947d084ebd
+~ -[ASAsset setProgressHandler:] : sha256 fa3f61e3f1cb3a79b1638ca8c315c2a4951142293b95d78f77ab8b096fb132c5 -> c11d001a90b26735646532d921ef4fe67c0e5790b26a3f4bf4be6d084a5dea9f
+~ -[ASAsset .cxx_destruct] : sha256 b9a4a1b61dc1bff22c2d5d129a178de28ea2cc5144c5774370b8f2fa6d1c6d51 -> 2cd860462d9cc66d14dd3b01634760c79e4dc0c4defe4e46d5e03a37fda2010c
+~ -[ASAsset(ASAssetInternal) initWithMAAsset:] : sha256 1f205d678191749c6babb6d402a11a0485ead53bc0097c7a1359ed98045d4604 -> 154587323ac7e15d44c50f2d2a467ff440f8064ce454670c2e62c7b8b8901bd0
+~ -[ASAsset(ASAssetInternal) clientName] : sha256 486c37857e3af50363ce3f2cfb8fb08eb3e630e04f4d26dbd1f2419a8859b1c8 -> d752cd1b6b23c54e76fb27b805f8cea8dc7f1d530d81e1fa51a8e3eb35fcde25
+~ -[ASAsset(ASAssetInternal) setClientName:] : sha256 87a7c38a298c11f8e5403b4d5207f91ed00ac4a86b780a984062748928984813 -> c3575bbd911c563f8ad8c0bc77f0cf3abc0a771b0e242055432389954029ea37
+~ -[ASAsset(ASAssetInternal) fullAttributes] : sha256 670a102b9479bf5c167295ae51e386ae43045f9b4d564ffd4f6591ebf7235a90 -> a8d91dae6f08a593b3be47c56970f6bc4eed51977b63b70ad8d1d91c4c8642fd
+~ -[ASAsset(ASAssetInternal) identifier] : sha256 149c8affc3f7c04a2afdf78dee51e1d82b6234e928c33469e7bfa169d29e378c -> f23d8050f4aae4d2189300a50f30f0df7ff5a61fcf0eba2eab5ae30c27a3a6a4
+~ -[ASAsset(ASAssetInternal) isPresentOnDisk] : sha256 03e2a457d61dd1ba2d15686567b8461786c4eadf264639bb525e024f1ccde8dd -> 047f9c94b11da616179873e491b64cb7580d366e21905fef5d02e61b91531803
+~ -[MAAutoAssetInfoStaged initWithByGroupTotalStagedBytes:withByGroupAssetsSuccessfullyStaged:] : sha256 61b62e31c2052a2ffd3ba9e362d90695dba8e8efc3d2bb86ba891355d4c86e12 -> 684cdd69e256b8eb274a1a6b4938f4300c40f1cce481f06c82379b203a835224
+~ -[MAAutoAssetInfoStaged initWithTotalStagedBytes:withAssetsSuccessfullyStaged:] : sha256 ac9181f0e872a5c6194a35e864b3992a6f53186a1189bda88f0d1805078ae8cc -> b97f54aff0c3cbbf52af456f708d7c2d41f5ecb134912e9de28bc871dc186468
+~ -[MAAutoAssetInfoStaged initWithTotalStagedBytes:withAssetsSuccessfullyStaged:withByGroupTotalStagedBytes:withByGroupAssetsSuccessfullyStaged:] : sha256 e2e37031152c7a8b2e9f2accda39b775701958679a5cb67c82017ac37f4b5e54 -> d9434973c02d3cbbe9b4a84064362250af732256933f96e7b8a2735f8ba0069b
+~ -[MAAutoAssetInfoStaged initWithCoder:] : sha256 bbb7298e771d00ca5dbfcc27c22e2e07de9e1f90e0d213cc240dcd791fd9268b -> ac8e2a7b6a07eb84078b16a0b4ffa562a687e9f023202fdf4d16c218fbe8552f
+~ -[MAAutoAssetInfoStaged encodeWithCoder:] : sha256 3c2c4e2ddd750bab0c732263b6a8830ef2dd8b375dffc532c54e12f109dc81ec -> 678de2420e81467eb2fdd2c8dfae4da9aea7b507ac184b6763008158d20a60ef
+~ -[MAAutoAssetInfoStaged description] : sha256 c68182f220295b7371fb249f0ca8f0bb469700ddb77c4cbb5a08784798d50ec2 -> 6b23fd0053f91d86995b3ff803d38f7a9a978cd52821e598c7177221fef935db
+~ -[MAAutoAssetInfoStaged summary] : 792 -> 796
+~ -[MAAutoAssetInfoStaged fullDescription:usingLogger:] : sha256 3a8c32c4944a14d3cd923bd065fc43a0b436f313ea32300cab1fb80c767d3041 -> f9c86957f86e76bd3d366f5b6880a2f614364dfb35126cfd88436c1aecaa2434
+~ -[MAAutoAssetInfoStaged .cxx_destruct] : sha256 bb7ef3bed154f6eb98bdca474687f64c3f791a85c2f8d39b0b5e8daeb14b9723 -> d58516ed9ad554274ff5be75beace4bf635b03eb71bcac6899fe2b1e9a9dfa03
+~ +[MAThirdPartyCompatibility _thirdPartyAssetTypeStorage] : sha256 3fb50396972e726d53c971f7120b918e8f89ffd74a4639a231fb4533020053a2 -> 9e92e683fdf37310765be87179544669c0fafd9af4fee35687e89438e029ba59
+~ +[MAThirdPartyCompatibility compatibilityVersionForAssetType:] : sha256 8379f1252b3c1a0bf2029822214a8f1ff619908ec58e07b9eff1ea7988ae48fc -> 2c2049eda59bd2cc20151ce18a1e30f90b35064d85aecd405d041375d26a2573
+~ +[MAThirdPartyCompatibility compatibilityVersionStringForAssetType:] : sha256 dc9ea4f98778b751f0e3a2eb5b60f93074a105d60d852f3a0f29082b06679439 -> bde71a0f823960eb8df4894636581463faae279f5f5f75570340818c6c3426ee
+~ +[MAThirdPartyCompatibility isThirdPartyAssetType:] : sha256 2be754e5efd6cb72a9d72ae09c68ad53e6397fb91cfd3fa27602163839831a24 -> 72606bcd0f14fa21fcdfd815f57ac94e80596e713cea9d778866151fd8fd9b54
+~ +[MAThirdPartyCompatibility permitThirdPartySigningForAssetType:outOrganizations:] : sha256 84f8b441cd9dc6324e6bd9eff1d15d8c001b176e6ab9972301d83e286add7348 -> 47949f61619525a59c5484391de0ba01dbe6e9ac1c0668c680ce440f7572ced0
+~ +[MAThirdPartyCompatibility defaultThirdPartyServerURLForAssetType:] : sha256 69b5e08a5aedab90a397752eb5cdecd81b4b17dbb451c43832faa932b1cbd19b -> d366ff46c82f777e591db83936eea3115728d8b259a613316d3d5ad34abc44fd
+~ +[MAThirdPartyCompatibility(Certificates) addTrustedSigningCertificateAuthority:] : sha256 52da6bebf145200d5c5083811dbfe8111b38fa1c29fd72d8ec2906c5a8b9028f -> cd2bc2240638aa09ad16ca10241492fa8cacc393de325ad1d45358d33feea6a3
+~ +[MAThirdPartyCompatibility(Certificates) clearAllTrustedSigningCertificateAuthorities] : sha256 0a3818775fdf96592fd0bb3992fff67852c94c8b8655d085bb568bd7dc09a885 -> 2bfd9cefe480682b9b50a9d16dd3b1bcd68cbf489e63ee93e2969c8c9954031f
+~ +[MAThirdPartyCompatibility(Certificates) __addTrustedSigningCertificateAuthority:] : sha256 f8cf58ccfd67d7610adc9b43e5447c7b129afd58f842b9c451797caff04be07a -> 97e9f6ca6d86ee43da314ad123e2e10d09c15fb62022a66b8ccdcf4efbc73e30
+~ -[MAAutoAssetSetAtomicEntry initWithFullAssetSelector:withAssetID:withLocalContentURL:withAssetAttributes:inhibitedFromEmergencyRemoval:] : sha256 d338378eace71add004e22dd7c849a01b99cbe78013720543ce71dfe2ca94167 -> 02ef3cd4dc654355e7dec79b215d4e1c619bf3960e5e3b6976976c61954cdd9f
+~ -[MAAutoAssetSetAtomicEntry initWithCoder:] : sha256 9002f5115b1f600004b794290601a7ae6b6ce9a2ae312733fcd991e1d1a2d4bc -> 5b8eebfcb1902108d6ec7cfae45e68cfd3d5a6ad036556e7ca7bc519f1e004d9
+~ -[MAAutoAssetSetAtomicEntry encodeWithCoder:] : sha256 78b4b53330c1614e7e91c3072314d6f44a2dc42199cc9eeda321cee0ed136383 -> eae9afaacdbf46a1cc56fbd0d73fe0380d844aff9b2f372012c1f4ceb2df24c9
+~ -[MAAutoAssetSetAtomicEntry copy] : sha256 aaa53a48936acec82f4223e8332b0fc7f7b1db81d795b8db2ace36e8bec31535 -> 2ceba5fd68538528d274451631a0b61a3131cb5860f1621372950fd596c8e16c
+~ -[MAAutoAssetSetAtomicEntry description] : sha256 26a508aef9d9ec1c85731f1020b210d1bd89384508a435799b51a0ab59de40a0 -> cd14cdf8c720e2fddb83e2751b3a619e785bad07ff5dae27145a4aca35c9d33c
+~ -[MAAutoAssetSetAtomicEntry summary] : sha256 548e27b746c40ea471fd54db757f3a7f803057f5ead9c0c5cb333aa562637bc3 -> 8a1ba3789ef49b60b8c42f4ac964a7a1b3fb1620b3f9c97c2ac6caab6b17f527
+~ -[MAAutoAssetSetAtomicEntry setFullAssetSelector:] : sha256 ea5089074d6e54c24c0d6399c93d748e3aad062c237d4379d6d781bd8caed6fb -> d3efbc9e3f12817ab3b752ee922afb633e0cf300ab806d186b67e877342bd394
+~ -[MAAutoAssetSetAtomicEntry setAssetID:] : sha256 4eb072f92bed60b2115a2cb89a996171c0378112cff9ded2e40165e344390ca0 -> abb552b9797b42df5bb3744505d0ab2eb3804f75af20fc10366b7219dc4fad24
+~ -[MAAutoAssetSetAtomicEntry setLocalContentURL:] : sha256 8c908ff7dd21dc12d0463838163d1cd15036ad5cd18db37af7c7e62fa990b958 -> 911c927c01177db0e51149fb3722905f3b759d452baeb7a618176697559fb4b3
+~ -[MAAutoAssetSetAtomicEntry setAssetAttributes:] : sha256 65855fda76358fc5cbff0c91683949b9e81438ee512642ad7ed87957298aea5e -> f7283f1ab9f69471fe5b8cbc618e7bc1b6cddeb6d29de124cb700a825bd9fcc0
+~ -[MAAutoAssetSetAtomicEntry .cxx_destruct] : sha256 d3bdc0a2ae3776305acfe41d7a688505140384427fdbff2905a927ee68ccfe63 -> 7335ac1408c32b7aab28a5a0915a847d2e8796c37da2718a5973741a535f9528
+~ +[MAAutoAssetPushNotificationHistory sharedInstance] : sha256 b3285e503e92954921ef9884abe1de2fcf040069e547a674f59572e6bcd0b6d9 -> dbcd0c3e31b20f6c006c23ce6c857611ef964fd2e698ff119693807206e0be8f
+~ ___52+[MAAutoAssetPushNotificationHistory sharedInstance]_block_invoke : sha256 574672342b033ab191e741190af694d91a78272f628b592a37cb28a3d03b1c3d -> 824a2e105dae41ca2109c3e16a10b6d67344a94b164836999484c46b781bcdc9
+~ -[MAAutoAssetPushNotificationHistory init] : sha256 5daa2774f4f5d74c41e4b3bc418cece20cc97485f25c9e74d12aec9ea4b4bab5 -> 1456f6a345785b499b4e360cc544e955e8e7e6222933c6372b673e61213f4db3
+~ -[MAAutoAssetPushNotificationHistory notificationHistory] : sha256 712a8835e40ea1c5a4ac2d6c865fa9ba81ba96e86cc72dac5c44a249fd1c0f52 -> 03237f72938cade6c26473156fe9d3ccce9027b448e6f30ecb77372d00115560
+~ -[MAAutoAssetPushNotificationHistory _historyURL] : sha256 c53fdbda393694f7c2e4f671771ddd6962bfe185f2db5a1819bf5b05f9728da9 -> 149e5b452b07254e7bd14674d71ee7ff7d238a78b939ade8cc965bba79e04a5b
+~ -[MAAutoAssetPushNotificationHistory _loadHistoryWithError:] : sha256 2118b7113bfe1a574101072c4d6e7ba06493160354a72a4634c8d674c801b9ab -> 9d96421f3cf8f3ee5f0303696ee64bbc93189f5fbcecb2c875e9bd4d5ebeb9ce
+~ -[MAAutoAssetPushNotificationHistory addNotificationsToHistory:withError:] : 516 -> 512
+~ -[MAAutoAssetPushNotificationHistory clearHistoryWithError:] : sha256 ed65c8b9fcafa49d77dea407e1b54ae6fb914ff4829e7989632ff1693a7bef04 -> 00759c9880c49a73cc4fb46ec548b4fd5daf635c34d535c60ab84814b3d12605
+~ -[MAAutoAssetPushNotificationHistory setNotificationHistory:] : sha256 f9ef549c970664644f0e260b25b1d28e6f024ce67fc2ff1c9b8deaa90aebd833 -> fceb6b14901cd548aee448771c29a8924966804b2353a54e455f9ff0f4471c08
+~ -[MAAutoAssetPushNotificationHistory .cxx_destruct] : sha256 ce329f5aedb9ccd3e6726a448822827eb60fcc9f5c0f2e7b4ddebeb8d8cadcb7 -> 24c0f756a61bd33cf30f618043cb9e5fa3f05a6b9d418345256b37075f923ed8
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateSuspendWithNeededBytesRequestInfo initWitNeededBytes:] : sha256 7e0f18c75799e625a99b88f9e83f19da6705cce021bbce06425c3ecab4e092ef -> c0f391eda2cab804c59a60b9cbb0700152d81a7e4f39b616b1793e59effc55de
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateSuspendWithNeededBytesRequestInfo initWithCoder:] : sha256 6a1a6d676d28f533ea5aaae3d3f4891662a0da0da3898131dabafa1f20973fbe -> 2e987721b7e9955c801ddb4b6450ec97e72e8fdd5af6f39f2c32893cae036994
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateSuspendWithNeededBytesRequestInfo encodeWithCoder:] : sha256 985d81a3ce5a295e53932f9a64bcf62385e6ee5a7bbd2317c8f5a6d11fa04533 -> 50c4c00b295e1f24123bc8cc24942fa96b691ab7021c3764d5faf0157d50ddff
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateSuspendWithNeededBytesRequestInfo description] : sha256 06d1797a3dc9b74f3afb59bbfbd10f55365bd8dc3ade61c9cb2085e51083683b -> a194215c469ca01c587dfe2ccb6aabcd3422292687ee843afaa2f8d363203a98
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateSuspendWithNeededBytesRequestInfo summary] : sha256 96c1c3c9a9419b942d5006f8ccf940746f4d673d2a0a3e29f57aa9e45ff731d9 -> 887c4f84479f552f922b734e97a3c136aaca9191540c517a3088388a87d3fbb2
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateSuspendWithNeededBytesRequestInfo neededBytes] : sha256 a50a5a50b4c50d80b219f43e0ec1868aa5d04875a9e1b4781382cb076c16ad4b -> bf35915ca1219abb27067612826311e86a77afa57c5d075d143b7edc506a468d
+~ +[MAAutoAssetSuspendResumeForSoftwareUpdateInfo newServerMessageClasses:] : sha256 5cb6754b6ce7630763157a2717cf811b30f8d378b34f6597f4cee7b2e90b8f0d -> 7a00ab8eb176297b087746ec173d0f22e6b19f95ded92f26eba88ae9bf279933
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateInfo initWithCoder:] : sha256 f51353e595022f2660a52de93dc3737b29f5b0c869375b43f68d337d55de7485 -> 1a96c2fe4e84371620457d38c2ae89fbcb49c09d4802381f68d0c963b86beaaa
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateInfo description] : sha256 da1f3de4d8dd1c493f01df375e39432d5da797680f348a124153b2dd15269954 -> 8722cd5289c4ad551b1ce51103c85592edd148d1875907d54409a60d65780067
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateInfo summary] : sha256 032ba40e5e95123a345442c2da1ffc00c9e486824a408deeabe9d461a51313c2 -> 61fd31538f1e775100dba69bdd9dd4a3373cc51d19776e2ddc5d48dbbccbdf8e
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateEstimateEvictableBytesResponseInfo initWithEstimatedEvictableBytes:] : sha256 ebde14ce03bf4a9ea9534f1c6ad3dc9d8584214bb75ebcc2a7b4b9d0811f34a6 -> f5009dfe43b04b71d93e61d65d485f8c5a90ebb6936bb65a20e01fc4aa8aafcf
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateEstimateEvictableBytesResponseInfo initWithCoder:] : sha256 85c159281630173b1d4dc886542819ad7ad65d3101450372fbcbab4dea084bc1 -> 87e9e5eff40a7eb98c8cd1db8b7cf8088953821152c73beab0129a3183e1b3de
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateEstimateEvictableBytesResponseInfo encodeWithCoder:] : sha256 6923d82362d41164ef7d3f5d99e87931983e98cc45559e1dc3e8ece93f59d01d -> 1bad5ab4e2f9a555834659bcbf1d0346bdba2a5372bfe53ad1c2a0d58d28ee0a
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateEstimateEvictableBytesResponseInfo description] : sha256 ed127bef6ec991e028a85d73c7a4fe1eb6ccd53386532c2bfb5fe6f393629670 -> bc9fbe2cddb96929015ba0854d2e3ad9172305d7b3c2f7e11d5c922511706f73
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateEstimateEvictableBytesResponseInfo summary] : sha256 0c20d327a6426e1ab534d91411fefef1eb8a3fe2ebfcd3d8cf4fa231d5b5cbd7 -> 65fe81241a54577bbc3b4b0e7b33525b56f07d9d8b7b16d4823c6af17cc90c45
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateEstimateEvictableBytesResponseInfo estimatedEvictableBytes] : sha256 780d179d54a4094ac4064831b28fd64d1cf941fc1ee47036dd3953d09bf4559f -> 99e569389e59872930eaf6a623f8a7420f8fc60526393c06e1942fb7bcec61e7
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusResponseInfo initWithStatus:] : sha256 7733e8b3186b3e899a08810534d22753b7c15845c3a533ff9e2897a60f885815 -> 401b144e5e3b33c84aedc139a1de3353164e1bf6d0d314845f5e7e8800777889
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusResponseInfo initWithCoder:] : sha256 0942ee253f2ddaa6fbfd3cacd9d1438843ceed8f9f7a0c7342bffe8bb70ff77d -> ff6185f49648583044910e0561c90feb51d01d46f55b807dcd7ee7495cc40291
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusResponseInfo encodeWithCoder:] : sha256 639d735d96a14a83b76e096a25dc60ecf250c72a837a8c0f99000b37433f0482 -> 6793084694bf7574d1025c60e14a39a63c6237cc153b37cf88aeb97d7dcaffeb
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusResponseInfo description] : sha256 7cff822cb4366e091264aa8f26267dd3d255841dd71cfe0bbfffe1468305d485 -> 7461a500bc1093a15f5066bbf8846eb659e05f5b9ffa4cd1538969a4915cfe17
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusResponseInfo summary] : sha256 5983281c458bdf9e7f2b4b0e5c863f4a0d5637b1669fdf9654d16f3ebc59ec1b -> e8b47edcb64d4d172bf8cca1cb64c989b0070232ee4f8ec64fb7994ecbdcbed5
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusResponseInfo status] : sha256 3ece8a53ad2e854225685f66f39e6eb3c739c7c1126fb50db0c8c583acb4f70b -> db45e29f001552f0770f5419a32a24a4bd37e992fe8c237d148cd8d4d5554db1
+~ -[MAAutoAssetSetAssetOriginEntry initWithFullAssetSelector:withAssetOriginType:withAssetDownloadedOSBuild:withAssetAvailableOSBuild:] : sha256 ffb1887afdc7b329788aad8d9ab807a70eb9bf80ee3c56d90a239286bfb2014f -> f1f6be0a44d917af9e5ae68326f65b6e71212b0b11c77979f20a218a58a34481
+~ -[MAAutoAssetSetAssetOriginEntry description] : sha256 987e79af4e294b813afc2a51341078b88944cabf9edd611f809b7fdd029ee0b7 -> d1dae83c7430178c846f2dcd936cb3b11a17f2b93ce19c5a0372ca78ddc5239b
+~ -[MAAutoAssetSetAssetOriginEntry summary] : sha256 7b918b4009c293aa87ac5849a449dad75474669951756c1b689890c5d3d1e117 -> f1270f0d91250f8e066df2fdc6240d42071fa25ed04ef0d8f7f845875227e50a
+~ +[MAAutoAssetSetAssetOriginEntry nameOfOriginType:] : sha256 aacda81eb308e6ab75ca1cfadd457d259c94fd5268f5d0f972b43fc30aac6ffc -> f583b14290b031d5d14cfa4e2334535975bdcaf55ff9f30a38ba428e90a7b614
+~ +[MAAutoAssetSetAssetOriginEntry nameOfBasicOriginType:] : sha256 309ee2a8dc6264ecc4fb25ea9ebcc4ab633389a5e8732f325336a63d8a6b20c8 -> ece33ad1db3667b9fb6dc382a214a88cbfa934c0f3f896a5b6f94109e070321c
+~ -[MAAutoAssetSetAssetOriginEntry setFullAssetSelector:] : sha256 1f1578550a64db97e4c4ce33b81a25f19023d02752adc9351372b4c808703a8f -> de01cf4e2deabf84470d3e65cd2f764f060064fa1370c43ea045d9fe68695e6b
+~ -[MAAutoAssetSetAssetOriginEntry setAssetDownloadedOSBuild:] : sha256 cd0d761c4c138a0f0199c8af9cff1f49821a5f6d3f5d69e603624eaa3cbcd80e -> 21b18a96d685435903c00cfc47b2b2ca84533e807651f4514a96ec5e9a6f2f68
+~ -[MAAutoAssetSetAssetOriginEntry setAssetAvailableOSBuild:] : sha256 19e7eef7125465fb80064066520994898537c84bb431072cdb995d6030c81fc0 -> e753e2bec6c689387e5b86f4952bd6b740fe84b8c57fda15d67f5ae54d3096b3
+~ -[MAAutoAssetSetAssetOriginEntry .cxx_destruct] : sha256 fd89a20c057d6f08b7bdb930938e7dd6ac2c4bbb39856cdb749636ac734272cf -> dccd1c60299562ac91a6c953a48420c4d22d7b1a8a0327aba5038a9dc8379a7a
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateResponseInfo init] : sha256 284965672770ae6512bec9b8cafee77b64eb319456f0f8e66b6815aca6b8e296 -> 9afbf7915ef8bf7d014b0917d8ff9b30abc61c61f4e751076bb1f7b607b3398e
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateResponseInfo initWithCoder:] : sha256 4e25d1335319b5d23e156498367a2217ed0ebae5dc3bf376f2a4ed62ce848446 -> cd4f68d5174af001fc735628c99c4d6d3078514953fbb736b7d16cdfefc98474
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateResponseInfo encodeWithCoder:] : sha256 7da973073a875c7260dfad3e39f71e053619747f797af51b6d1f33c26d7e6dd0 -> 4ef47ad3024f106c0be9ab185a2f89c74a218063b454ccb23d0c14d00a04e3ec
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateResponseInfo description] : sha256 22606ea4662e30f3f6ff9ca87f6f81f300392132651fc3aa97c65936bbda2cbf -> a11064f8bd951de7dd42b842ed64ab99025adc1d9323b151b2e2f436383e027f
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateResponseInfo summary] : sha256 33e9e1d7790aa3d91f7f741cb82fd64fb69ae910e0c19765e04483461991b7b6 -> bff7f50ba4ba62404dc7930cfb5466b16b0d62371239f1ace174b53b8f340fcd
+~ -[MAAutoAssetSetShortTermLockInMemoryRecord initWithPathAndSetStatus:setStatus:] : sha256 a0d18ac495e8321d27505479b6bb732f8064cb87d63b93f9518388d07d29d86c -> 83a2dcee1386e8d1aaf599565b36c7c8d3c63aa8b385a5511fac6ab1698e0f0f
+~ -[MAAutoAssetSetShortTermLockInMemoryRecord isCurrentlyValid] : sha256 99b3c6ea4c32bf310169453f7d5b0c8891b9fe1e0233716c4b5a2dc97c10f130 -> 268c43fc1449cda9a7a0fe0320876e3018e0c779170e03f6853414416342b330
+~ -[MAAutoAssetSetShortTermLockInMemoryRecord summary] : sha256 a025f9e7cdb23eb0976310b355a4e95b20df8a396b5a16d7353e0cb2c2785338 -> 8e5615a3642a0a014fbf4e29796a99dd07f82f6e51688faef417866a82450016
+~ -[MAAutoAssetSetShortTermLockInMemoryRecord .cxx_destruct] : sha256 12b47a90cfecafa28e6164c522da484ca299c29cb7139e7513415a8ae4ca6748 -> 6936f7c018e220278e82e1545c9b9a0cc3e3c3a5307e181cce69e14909f1ce47
+~ -[MAAutoAssetSetOverview initWithDomainName:forAssetSetIdentifier:withConfiguredAssetEntries:withLatestDownloadedAtomicInstance:withDownloadedAtomicInstances:withDiscoveredAtomicInstance:withActiveClientCount:withMaximumClientCount:withTotalClientCount:] : sha256 6fa9e8bfa66dbf62e286a2511209dbdf78c7642a24a8553315a6d920bd069bfc -> f8d887dac1a027ca693ab9877bd2d1dd018fa70a5bbec1e96bc7a4e7f76d3db5
+~ -[MAAutoAssetSetOverview initWithCoder:] : sha256 1964b78ef4bd782c628ad44b3f63b39cde56cce6060a569cc093e6ad2365b8bb -> 2604a453baf4a4bd27ffb844a816f4e9e3b66791e46cf3dac6d19176ae9c5b9a
+~ -[MAAutoAssetSetOverview encodeWithCoder:] : sha256 506ab76cf9c18d4882b42b14d846ed2c79499a0bc33615342525e11af35fcd3a -> 5c89d734788d8fe18136a5273c33b062099500bb92748f97ae3e55e1d64ddb38
+~ -[MAAutoAssetSetOverview description] : sha256 a62d9e2fda83096719dc1ad3fc3065723693c77dfd6393dfb53b4d782242ab28 -> 79a8e06bfa441609b7f59dcddd9a788a51ba6b224437b9e4cf83a9fb5dfddad4
+~ -[MAAutoAssetSetOverview description:] : sha256 a48e01c60f4b79680fefbd4eaf896089707d48d029b0e53d8f86befa8d8db154 -> 719f202ef832cc3e8be5ef7d603b4b49370ee30c12fe8e6040a58a0d401cf7aa
+~ -[MAAutoAssetSetOverview _entry_string_to_use:] : sha256 388a9fc08f8554438aeed615bec1ca3dc86382ba9310ba138eff8ed639568c37 -> fb5973ec95ced64291d33e927575bcdb153ededdb42062a834bcff3057681baf
+~ -[MAAutoAssetSetOverview summary] : sha256 a08ebae980efec64a07d9e80bd306c1598d8d212033ef8e5182c7aa438cb191f -> 72f07010c680b5f8c5ceb2a324e4d39c14d6849ba687c99c681b7222967bee51
+~ -[MAAutoAssetSetOverview overviewBuildMaxColumnStrings:] : sha256 8983bba5df822c6ae03acb55d2cf3f15db39813345350eae484111b797dd8607 -> 754b2d4910fe183f187cd5f99fccd1874080e437eefdfbf882c20e999bc4f974
+~ -[MAAutoAssetSetOverview overviewPadded:] : sha256 5d0bda0b3d017a130eff9b81ad58ca19f3f3a23980bb4b55d9c8ce2dd0c9497f -> 6029d2ed5f1bd50c9d2e419b16dd73324ee52bcd7d6065eb51e71a0f9ffb6dd8
+~ +[MAAutoAssetSetOverview overviewNewMaxColumnStrings] : sha256 471e26d44981ab8c4afad35b78af343db4ba5e26c1bc29c8e1f83ce3fe9d9b66 -> 9459d8e0c911771ee9e7078fed8a6241a1cd07da3afa8d7902215dfe48848d78
+~ +[MAAutoAssetSetOverview overviewPaddedString:paddingToLenghtOfString:paddingWith:paddingBefore:] : sha256 6f03d7e70ba383eba2ea38eab85eabd0f7502b037fd5d111536e4639f2a0103a -> 68b12e773a1548fce3eb555dd382c43a58e07958702df2a7c5ee7e9ba1d010c7
+~ +[MAAutoAssetSetOverview overviewPaddedHeader:] : sha256 3f848345d7189d07b5b3079597ddfe838a145a38ee564a40dcb35e4aa0596b81 -> 8bef8034667ddb1f6fbe5395f65c1f0fdc0816f54a2cc780bb5ce392fd04390f
+~ +[MAAutoAssetSetOverview overviewPaddedBanner:] : sha256 b57dd1f6424c413452709ff10535b8b8027c340f84792587fd02b2a77c2ddfa2 -> 332cffc0c6ba51fa207e8d7d4d52ec4793dd3d635625306613c54acc458a63c4
+~ -[MAAutoAssetSetOverview setClientDomainName:] : sha256 04a2f2d63b9453cebfc9e4db109089f590d2304aad4aa87e7c542bcee8a392c9 -> f42660c0457de25565ef3882ed3da3fe8506653227282a91efbcb5a03e27b338
+~ -[MAAutoAssetSetOverview setAssetSetIdentifier:] : sha256 7a069d8c1b5eff2b73f6db4f34df3ea478ecf8d4f8f026b05b8be5aa842c1b34 -> 06bf8f09fc5522ce4d9357f1ce824abf6aaafa283d2c84f97a73c2400a800ead
+~ -[MAAutoAssetSetOverview setConfiguredAssetEntries:] : sha256 f119e9d973e5c17b80e2ddba58a2a8ecc13348f720450bcb1e97f131413bede2 -> 2084f3ed0d2307f8504942eceb456ee00720e0c2d01d5840a69951a3c4606d8b
+~ -[MAAutoAssetSetOverview setLatestDownloadedAtomicInstance:] : sha256 d8553e777ecec27540d4389a5bb11b872ca6762c1056234b2514647e0ab32097 -> 64e7a6770fb5af68b7095d83285ddfc5b3c24d1ee6acb8a6f6b43d041534704e
+~ -[MAAutoAssetSetOverview setDownloadedAtomicInstances:] : sha256 56df353ea99c6868902d8949be5745448d397968ad4d884939c70f6e92c3b91c -> de0f53931f7857d6d23fd19cc4475f45886ccd931da6a3d7a77b8acb0e0f37ab
+~ -[MAAutoAssetSetOverview .cxx_destruct] : sha256 5f29eee7ea44b71a4d04d7bfba4dc6307e242f65264b82c1fd1aefcbc7079530 -> d57b34f31179ca9dceef4423e3475a29c84755ccd59ca9fcd3be24ce2b56a480
+~ +[MAAutoAssetAuthorizationPolicy _existingSandboxExtensions] : sha256 0f4d90c757743c0505fdebddd9660b086cf2fc94c4cb8b5ef7f86a76e52b374e -> 308474c80f3320aae8a7f93c65affe73af51c572be469c31b40182f46c48a4db
+~ ___60+[MAAutoAssetAuthorizationPolicy _existingSandboxExtensions]_block_invoke : sha256 2342037a635971f0164d74d56e7a17f6d6b231f71dbf70a052894bf73a23b352 -> 59c71fa9c119c3cdc0e764e07166e5eb075015f3ff1a48b855d4674302578290
+~ +[MAAutoAssetAuthorizationPolicy consumeSandboxExtension:forPath:] : sha256 759cf2fbfe08114ff1e2f8e3e8c4d4c539fc8be89ede1974d2dcbffcb6ec1af6 -> 44dc002ca692671016b91db1e80f67d6f8b1fa5907ec9cd2f23d4e205c2b11d1
+~ -[MAAutoAssetSetInfoControl initClearingAfter:] : sha256 3c6d9e71acfbc33699cf2a5db1852a0f93a4e3056d8b63b66ce8e6b4d1171b67 -> 55935a5ac80be4c6b93332320d4d2a99e19cb019e254cafe80443a055899c97f
+~ -[MAAutoAssetSetInfoControl initClearingAfter:limitedToSetIdentifiers:] : sha256 6c97f1638ceffec95d14ecbef16602077a9c17cfa03eafe902dd5bfacdcb39f8 -> 0f2eb928d6201ae6c26feafe4fc1cd5d43ea31f3420510414110c7836a494fc4
+~ -[MAAutoAssetSetInfoControl initClearingAfter:limitedToClientDomains:] : sha256 078e9fcff5af8ff362b387acd51837c0244e8a7367dc1d507c956f70b8464cc4 -> 0192c20ff67acfb8389d459a27766354f74f24174cb39a482eb2a63e283088bb
+~ -[MAAutoAssetSetInfoControl initClearingAfter:limitedToClientDomains:limitedToSetIdentifiers:] : sha256 ec2ade65c2edcf77ee0939fe292fabc41b5b36349923bc312c44e7b95546c999 -> 9d7df58cf666d8be85853f5a1aeece41eaace0423ab1a470c80287eeff13edc5
+~ -[MAAutoAssetSetInfoControl initWithCoder:] : sha256 bc2c2ecfba40348dde9a49bdac5962a6ced0c310cda62efd350cac0d53474b24 -> ffad855f7eacddfd41c67272e55d3a910d9e4b3c5d943be1517cf4cae08eb59c
+~ -[MAAutoAssetSetInfoControl encodeWithCoder:] : sha256 6830322bd5163c5d83b21b3dfc38486f9c13f0006cfcb583508779b134b631e4 -> 37949a733d0bae2fab227fb78115d04ae222bcfcd38b54a7950920a9e60ab2c0
+~ -[MAAutoAssetSetInfoControl description] : sha256 c12c44dde1dc70812b5e4b0f81264197bee9970b4cb0e1880d6820686d61cf77 -> 9d139eb40d6846fc5af3d0cd2012880381f68496ad35e960acd33528fc74a7fe
+~ -[MAAutoAssetSetInfoControl summary] : sha256 6a5462483f26e751482c9b323f63cbccf124137644a6cf7dad16483f3f30f84c -> 07b16f772a3a83f6904252315b405f26fe9c12ca1d0e39eadcc03f307352569b
+~ -[MAAutoAssetSetInfoControl _arrayStringsToString:] : 404 -> 400
+~ -[MAAutoAssetSetInfoControl .cxx_destruct] : sha256 e6e65d649af497c7bda190180d90c811807856da8521b643217c395cddba326a -> c0bcffba2de43190b87fe0dd4adb3b03bf3eab050d3043fff10cc265172bf4d2
+~ +[ASAssetQuery queryPredicateForProperties:] : sha256 64be7177988de85c2e76856ffaeca0e5ad9eda3fd3f0fa92f993fb677948707b -> b6fa16b5e2a54298a81643824f28eebb528d4dfe34a7a887bc62b8896db58e0c
+~ ___44+[ASAssetQuery queryPredicateForProperties:]_block_invoke : sha256 3c7e6ad6543b0825bfa922c18d93ee3c5a99ee35728dd951f32d2bbb5cba9406 -> 963f9999ca5a799688e8ca9f6255502effa077e621eb06767a7ebef39e725d61
+~ ___copy_helper_block_e8_32s : sha256 73c93aefc9b3fa8c3b2856a9551bdefeebe80991c42c2cd8aca27c890ea81adf -> deefc5d52f0f03fccbdb3c139d92aacf71d0ed502f7c66df6e975fbbeba9ef8f
+~ -[ASAssetQuery results] : sha256 d5af0b756a7cabd24a8d926de97494bfaf31421117e53cce74e2641a629077b5 -> 9ee9ac33ce823cb860b819eaf3aeacfb6af50e720f0a881137a680ac5a48dd67
+~ ___Block_byref_object_dispose_ : sha256 3b07f6414549bd64f175fb62d585b6d77bdf0f7c0d56552d47d5b924cff2fa6e -> 46062590fdd9a94d3a10a85f3c9df65774776ea54fbd3ad1e9403380f8907190
+~ ___43-[ASAssetQuery runQueryForInfoReturnError:]_block_invoke : sha256 508cae70b9251c457b8b90137f76ddb13a922b40d81c283ebc7d790bf14c144c -> 03c106d0c8625a031e769c933e38fba6303e21dc2d9b71e02e379e6e4b4a6afd
+~ -[ASAssetQuery setMaQuery:] : sha256 311548c09c6c9bc6074dec59666419d28ab3b1d6e6ccd383f752a3c37e79d355 -> 7a665e1c0c1089b053ab0caac85c2673ab2c4887567f1a739fa6a9fb19aa593a
+~ -[ASAssetQuery setAssetType:] : sha256 79a7a96f1aa382aac637607f00d8dc56befdc051a8cff6a1f41922961336be9f -> 7aef8c1acfcaa46a044c0cfe7829183a746d47a6a1db06b47d3ddc1eb69a550d
+~ -[ASAssetQuery setSessionIdentifier:] : sha256 7699ee2d013c1c004d756bf6a5252b8eeb7741e929cb934e6e3c48bc19ab81e3 -> 450c1fede024d46c37c5f99d9ab5aff03a7caa919134fa125f007fd154801d68
+~ -[ASAssetQuery .cxx_destruct] : sha256 41ff3155821721b7b68b99cef8e0771f9fda8155ac99f937efa0aba7a47f3545 -> 320e7b061dca37f31361677d8d6b86d0cde608e39249e4a851c9ea3545a69c5e
+~ -[MAXpcManager clearConnection:] : sha256 525996496c588095d21c070fa8259ebbdf2fab3da783361d0f1686e370c584e9 -> a7e067baaaa33afa75a423111d75d253a65ad27f2d47b2dfe1e1c80dea9619b6
+~ -[MAXpcManager sendSync:gettingResponseCode:codeForXpcError:loggingName:] : sha256 74bcffcf61e7d98f09e32e9d769f6cb323afa8637b3f8e7a57c487ef5985c4e9 -> 186c3cdf1aebce4240e7635df17de60f657268642e65326b25a08b358ffb7f5d
+~ ___Block_byref_object_dispose_ : sha256 9d2e27d74848473c3f7e729321b7ad2441c13295010d646c0b1418ed3f3f465b -> 86cc1e6afe8409436eb2171b1ffa36abc082edd564dbefee994149df5f1475ba
+~ ___73-[MAXpcManager sendSync:gettingResponseCode:codeForXpcError:loggingName:]_block_invoke : sha256 007fbd15266ebd18e61610d5af0f6e0fbfafc1456886000e1787e7e5cfa3f58c -> f310c675167cd84adf3c55dc4861255e9864cf9ff6efad2457d241550e085d89
+~ __73-[MAXpcManager sendSync:gettingResponseCode:codeForXpcError:loggingName:]_block_invoke.1277 -> __73-[MAXpcManager sendSync:gettingResponseCode:codeForXpcError:loggingName:]_block_invoke.1313 : sha256 63aca65cfefd406df5ab90dd4ee9615ec8ce227bc95acdf3b79cc3f61fcfd53a -> 18eedb61a19131aeae55a7791dcdf9417a532fc3db83afaba59a4f41c761b8b5
+~ -[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:] : sha256 e223efaf3e5cd8fef6c18697ac68840d5648cc1d20d7f90fcf34b0330cb6fe7b -> 51b9ec6eb2e815aa531930d9d6ef6c51ff2876f0b7f6d01ccd9bf62c40dad900
+~ -[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:] : sha256 5ea85253e52eb22c106b8f8100ef965579b5db164db4e06aa01e0452bdd0a06a -> 25ddd832f763debb804318cfa08c5fd2e9fc5d6d4e843e78bf1aa411f1b62c6e
+~ ___95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke : sha256 bdb6d1ead2f596aa08a8a3b5329857ac92c960a3c01e9e482b8f5b410560397b -> 3352aaab3252412ef2799f6fd420bfc1b60a340bbbf10bd8fb9f26b1efd62f39
+~ __95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke.1279 -> __95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke.1315 : sha256 214818ee27806991bdb22891b7486d6533fa0fe9be5b0ceea45a014ed7093991 -> 9b3b28da0c4839cf98a2573484971c26d8a4a34c8df8c982f378e56e63cd15c0
+~ __95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke.1280 -> __95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke.1316 : sha256 e9b9d74c4b6f111446a279cd97583aa020957c2003ef1865c6639a6232367158 -> 8b43953608fa8fb91aad4c345c0059f4788423396bfd580b5446e94545f69e22
+~ ___copy_helper_block_e8_32s40s48s56b64r72w : sha256 4a9c13652dccb69c134f184f4286e96b703c3a5f0f94d4667a69425c930bbaf5 -> 5e2f78c6cf581462d33f7b912bec0865c5fecae02dc527b9e9fb09b6f52a7c02
+~ ___destroy_helper_block_e8_32s40s48s56s64r72w : sha256 bc9ede6af7925f21dac82f3f9a1359625a33c6901947738dd394ba43aadc1678 -> dc691367661744d0f8f46b87adff9e05fee47533bb4589e314d67f46b66768ed
+~ __95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke.1282 -> __95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke.1318 : sha256 750672cae688a0f1060ff803b6604b451a9c74681a04302eed197f10795ee5b9 -> 1838f0e4f91b5e29a5f99516a14e78cf98946f4c7d1edf22e9de6f4f537d9989
+~ ___95-[MAXpcManager sendAsync:clientHandler:taskDescriptor:withRetry:retryInitialReconnectionCount:]_block_invoke_2 : sha256 696a6d8d9bf0cfcceac8cc0cd0429844708143887ed47ea1acb6f55537c4976c -> 0b66e884af78b1a3980a60dbc9c0c23bf09b282a803de9e8817d81ccc64a5069
+~ ___copy_helper_block_e8_32s40s48s56b64r : sha256 aea44d48570fc11da032f1e02943d69fd1870a46e35e111f9757cbfb9a1a6fe8 -> a9c93101ea07b12d4b5a28fb5b5da109f496a04025550f294d6369b081b72659
+~ ___copy_helper_block_e8_32s40s48b56b64r : sha256 539ae5973b1089f0b1d7d3898717575bc647df702c2a7ea521356462f71bd5b9 -> e5e25f8b2a6993a4b4292042810b50fa3c1b7490056abc13429e4e3ff4c2b7c8
+~ __42-[MAXpcManager setClientConnectionHandler]_block_invoke.1288 -> __42-[MAXpcManager setClientConnectionHandler]_block_invoke.1324 : sha256 90e48948283d7fa0213a9d465b819c8b1c65120e87a13efe661c772c44ff798c -> a83cbda5e372bcb6b96aec8de19d7d43e3d1167df0de51cdea2c254d143343eb
+~ __42-[MAXpcManager setClientConnectionHandler]_block_invoke.1289 -> __42-[MAXpcManager setClientConnectionHandler]_block_invoke.1325 : 388 -> 384
+~ -[MAXpcManager notifyClientsOfProgress:] : sha256 1b03537ea1041edc6775beab86fe560cd290b2295270a36fb6fd6a852b86e19b -> 4778b4cafa42a3652e9094bbdf112dbb0119102bc634a0f6fb4ffb16445ef127
+~ ___40-[MAXpcManager notifyClientsOfProgress:]_block_invoke : 1020 -> 1016
+~ -[MAXpcManager attachProgressHandler:assetId:callBack:withPurpose:] : sha256 daa4cdf5eb90a35f9f4157d89ebf325da0ba999ddc1c540f1fea7258a0e84fd8 -> fbb770d3fdf599f4e4376fd2d9322e038f233e11bd64682bf7f171b79bb0e3eb
+~ ___67-[MAXpcManager attachProgressHandler:assetId:callBack:withPurpose:]_block_invoke : sha256 386c1a2e250c8cbe62151d8aefe47510542a52189aed9581f0d1f769fb387883 -> 90b883cd3bb16a44383dd0cf3a0581d9015e0d6fa2c3ff40e7410e29a3fea68f
+~ ___copy_helper_block_e8_32s40s48s56s64b : sha256 2e98c038f4c7fcccc0862689b063a97cd48235698b923d13f5ea0b7f45915e36 -> 997f3eff4d8c572c9d76069ff3c27afec34e20b76bf82383eb288511f1ac6217
+~ ___destroy_helper_block_e8_32s40s48s56s64s : sha256 138749f1853278b0f52d9013c0c10c30107f815409a56e83dd51d8931dfaaf99 -> 7c2d1cf9eeb421236b2f090dffc2bede53db0c51a4c27303f49b34b3baa586f0
+~ -[MAXpcManager restoreProgressCallbacks:assetType:assetId:withPurpose:] : sha256 4e79e6f5ef90271806cfc93883815a828e481cd347e959c8ee3b566a676fc8b3 -> 139b6c2ac3e99130d4c8104e477eee245b5e6eb4933425ec94c729daebbac3db
+~ ___71-[MAXpcManager restoreProgressCallbacks:assetType:assetId:withPurpose:]_block_invoke : 484 -> 480
+~ ___copy_helper_block_e8_32s40s48s56s64s : sha256 3c6457c4a4d952d3d55583af5681db69faf7675db38be36524c0ca919e0fd626 -> 79c1b892aa8fb51b77b15b1d89573592d8ccd4f86216a428f57512c8d6c3ebcb
+~ -[MAXpcManager progressCallbacksForAssetType:assetId:withPurpose:] : sha256 355047bc2dd68eec4800db2758388c8ee8283433f994072ea7a014925a7e0553 -> 7ddc790e4467532f33006378980dd6a4b5ce3d685b4b373c345259338d6e780e
+~ ___66-[MAXpcManager progressCallbacksForAssetType:assetId:withPurpose:]_block_invoke : sha256 cd6479cff0f61518001998795b2ad2e094b215e26e04ecaa434f1888d29839df -> a1cef27e24815eed230f0b2f97a7cfac96f8d1f2f93b5650b64e567c8397ca43
+~ -[MAXpcManager .cxx_destruct] : sha256 e8ff13dcfb44192e526bb8c33140730cdc8eef38dbc61e852a2cc495e0d1019d -> cca3f9b00ca947bcc8ac71107eb51e60c2c89fdbc52defd174dc70e9db92ba75
+~ _ASSetAssetServerURLForAssetType : sha256 34c2646fe1ca09aa2b425a99c3c240e2acd75d311e3219306a4067e58289fcda -> 5fb646d6e46306777dec72f5a67f666b85fa88d189d4375c15784356f948fdac
+~ _ASSetDefaultAssetServerURLForAssetType : sha256 8ffd52148dda2270ed8d87cf0b797f6d0e440144f011a5992fcabaebdb60ec5c -> d186a4bced973fb4d1d47b5f336ec5817e5b5bcbf1a7b1bc8a65789ac44fc4a8
+~ ___ForceMigration : sha256 1323890c8931d67e79009446be8f632dc519287be0e59d86008aa4ec1203d36f -> 1e7c3b35aa8998b945cafd1fed7c801dae697e225f026e28594411297a162761
+~ _ASNonUserInitiatedDownloadsAllowedForAssetType : sha256 1b5394f2eecf0bf0af93c52fe96149e9f766023551fe1390e1ed53e586a49003 -> 2c936fa60ec0e5d4926f98a09d41565dd79e94d595f0982140f47202362608e1
+~ _ASEnsureDataVault : sha256 98a1dc8e8d36643d64aaef79f0fd319843737951e6f8b241c87088e3fa05a314 -> e502f4f39ce8e817aad208fea15fbf41cde802735b5b889b7fea0645b452a025
+~ -[MAAutoAssetPolicy init] : sha256 0f3b8c668cbd94c71be17bc21163ac4659c1d1e5b898f9fc5250744c55a296f0 -> e639beeb9559bc104bde94c7f1ecf577f604d920e0230a5b4e99c0bb415af9d8
+~ -[MAAutoAssetPolicy initWithCoder:] : sha256 0df0361e2153f350e18fbd8b5769c0bdf5793ab2fcc4371edaf4f799e02331e6 -> 1d7c9f1c64dd01b0da760147bfd8c5629c308efd1b30e1b68aab18b4445c4694
+~ -[MAAutoAssetPolicy encodeWithCoder:] : sha256 d4d2b49188e9146ad218ba4e517edd3f5744e8a5c6c79cb63c29bdbd132ffb60 -> a8912a83b05388969c7edf67d9a6c0f461ebc47b59f6dbcd7e0f4ab943eedbc6
+~ -[MAAutoAssetPolicy description] : sha256 ab921b9d6751aa45fcb9e27425845bd1fb27b40af820b78359587a0cc65f21f2 -> 8cd6984399045a11a7cf0d04aeb4e04475200eccfd29f3d48ad704a36355ed78
+~ -[MAAutoAssetPolicy summary] : sha256 a19aa547ef9f1da0de43d6d0b33161dc804c84260cc2d089415611c4de94ca41 -> 3212b9f48575dca97289c5b0bca261a072cb545f3ccc38c61c5b7b8d8381904f
+~ -[MAAutoAssetPolicy newSummaryDictionary] : sha256 8b6a103f4b70c81a6f53c99b014cce3b9820e7a3c86772cb8aad42c34cb518a1 -> 6896ce63a8395322d728f3097672e7ba9ec417bc177dd3fd687506da2ae9ddd8
+~ -[MAAutoAssetPolicy setAdditionalPolicyControl:] : sha256 92c17b2be62d6ca023160b76af11b9497e0fdd7064c1b3bbd1dab7a51928ebf5 -> 3a7739e5c2d04f6337a5d58451d38980bc088750d3385283d85779f3bdc5a295
+~ -[MAAutoAssetPolicy .cxx_destruct] : sha256 9b1dce35b370f18c3fd3b93342cebaa48e0143f9e3da0c25a9569ca12b817b76 -> 9876b756b5ac09e031af8c1f6833e9e2ee4d9caeabbefe23e63cbc450f12aefe
+~ -[MAAutoAssetUpdatePolicy initUpdatePolicy:forAssetType:] : sha256 db9c734b09cafae35addde28b1db82f36dc597064eb59d1cdad92b1d1d8479ba -> 91861a7690cfb38f77c383aec0f67e35118c513183826df2207bc020ddded1d8
+~ -[MAAutoAssetUpdatePolicy initWithCoder:] : sha256 60948c55ecbb1c60d6dba31fc6d97eb09b3eec087e9a6ac2af707ff97111bc77 -> d9cec57387f06cada164c8bda48cf35574d932440ef58c99c6baad59ffaaebc4
+~ -[MAAutoAssetUpdatePolicy encodeWithCoder:] : sha256 4a755abcc9ad6f3673f88a4efb9b2adce9cd628346f3702ec8641a6236982a7c -> 59895fa00a8283fd85d3b63fe98b6c22d22d68dc4200ecb8baef8beaa1b3147f
+~ -[MAAutoAssetUpdatePolicy description] : sha256 7a6370be9f160defc27771b205c6a2c19b15ba703e46bb18135f1cdd31b83128 -> 0578aa1bf663256ebcaabb9cb5ee9f2fc000a05e10cd009f510a30abd88583c0
+~ -[MAAutoAssetUpdatePolicy summary] : sha256 f6eca290f991c6ae7d667ab37e943493f13706c8e4ae4e7f7d97eabad89f308c -> f90a0f08518119f771841fadd3c8a70da08963cf1176d01dc402644d77822a91
+~ -[MAAutoAssetUpdatePolicy newSummaryDictionary] : sha256 12c54e0b0d185eda0d1b9df1c628ca8c4bf0221ef83ff043f6a5c0d8b14925fa -> 3c5a78611056cdc5bf42d24ae59f6f94870bd97ea2851faee0363f839aed4fa7
+~ +[MAAutoAssetUpdatePolicy activityIntervalString:] : sha256 cf1a3e2f98063738885e7090d6ed2a17eeba45f85ec87ac695a76b8cf3dcf7f8 -> b5183bbe7f8a29d1f69eef4b75a892e442ed8416772f61ed23f37e8cbc5ba18d
+~ -[MAAutoAssetUpdatePolicy setAdditionalUpdatePolicyControl:] : sha256 dadef9aea61608d11b7f9a238ebdc558a8c285edf6d424f73ccc90c1c8f7c0f0 -> 6c5700eb9331c14d363cb50712593b807d273ad1df27c8726da572a06272c1c4
+~ -[MAAutoAssetUpdatePolicy setLimitCellularByRestrictedTimePeriods:] : sha256 b19e53b60afd21d566056a00649fd350880d3c738a95009e5d7b046f6f509b5a -> 53251990bf86ccf03194dac5fda5e5b008a1c5f9599e589565003d14ca718190
+~ -[MAAutoAssetUpdatePolicy setLimitWiFiByRestrictedTimePeriods:] : sha256 80c1dff6aa7a4192f147937321fc95a0a2864096c1c1801ea5d9284fdf1e614f -> f5fac25279660a4772efcdddaee76f34e00b8501c6d7298cbc6452294f9cdd17
+~ -[MAAutoAssetUpdatePolicy setLimitCellularByFeeAgreement:] : sha256 6588b115d236b47e9529ec3ac91a42de0a2ef76472539ec726c73e39bde9b2ee -> 29c51444014973702a3b3e3c398459abde2a4d6e39d76117f561800bcb656850
+~ -[MAAutoAssetUpdatePolicy setLimitByNetworkType:] : sha256 5f79c4b57f54d2b9af8d7f09ceca9241e717e72be0b4dd05b6ecee042d1e9667 -> ca06194f69981ff4c9d37dea09caccf84e2dedfe377d44fb7069b76046b5d299
+~ -[MAAutoAssetUpdatePolicy setAssetAudienceUUID:] : sha256 f21c2f4462fa91d54639f58e577b32a8ac31d7956b8bd7ea85ebf1c115359ae0 -> 342153883cb77595f859603cf4557481d652ae68b8c3aa54cf91ad74513dd288
+~ -[MAAutoAssetUpdatePolicy .cxx_destruct] : sha256 46d0e806fc449d34a666ae06c2b61bd8f0715e43452aa241d136b7abc731a0a2 -> 72193a4b0f7caa9130a15b7b24f428194b96c18607a0acd91a054512cc46d5d6
+~ -[MAAutoAssetNotifications init] : sha256 b8c2c47b0acfdca08733f95680903444c50f8b45f775b35dd33a58749b1675f1 -> 87278dc164e3b32af4b65efe9688a9f6462e4f6e1330c9887da5b091f06a5b94
+~ -[MAAutoAssetNotifications initWithCoder:] : sha256 5cbed904e958bcf51ca053cd01d7d6a5feccf01bba2ca33acf00094d234f7bf1 -> 821dd9d3bd53ee9408ba57902f9cc19a769d48a52f2c51aef89a37b3298840ec
+~ -[MAAutoAssetNotifications encodeWithCoder:] : sha256 1642f79a817ae73c2e4d890472a118b3e0579db5ed70c6755199d309a5f36132 -> 22e0f1fd1f213121109242868ec2005db9340ab6269acc285708f63e588f4138
+~ -[MAAutoAssetNotifications copy] : sha256 fd0fc09bb1660b873b99294baf5e1936387bacf9b2259c0f18dd8d7e8608822c -> 06dfc17a19b93d1b4e635880d3311b15716836b1a2887d77b1db101a1950313f
+~ -[MAAutoAssetNotifications description] : sha256 9ee7fceae6bbd9105cd1865253dd7d4f91ef61b1e1a3a9002d5ada3f309ea97d -> b13363a7c2abb1e994a2b8392c7e4289e0385be2c53b4c9420a27e5d1d7e58ec
+~ -[MAAutoAssetNotifications summary] : sha256 0a5e8f7c760d7c501942d65b8bc5e0c256fd9bfa2a6a5a4a452ef399b7eca510 -> abd0e6f1d239e0421b49b0ee893417e0731e5b78927b466d2387c20f3945f479
+~ -[MAAutoAssetNotifications newSummaryDictionary] : sha256 6bb289098efbb77ebb905e0142efd55a103d041cb1677528b38ba88ee0b065d7 -> b4285611a63ca8b1e9b306fa49d7e6721b5ffa88503f2dc8ea2146c15db7e5d0
+~ +[MAAutoAssetNotifications notifyRegistrationName:forAssetType:] : sha256 011f5976aabc7fc9cf7084214f3dd2261e80b62aa94a8d4a309965da2dfcc7d3 -> 02ebfadcfe65cbde7460591ca41b7c147042374b5854f240e48f1bc8f5288390
+~ +[MAAutoAssetNotifications notifyRegistrationName:forAssetType:forAssetSpecifier:] : sha256 88c8fc5d3df853cb431d29a48a03bbf7afd4bab6d713a7acad65a08da51938d4 -> 25295bdfec611a2b3aa896b6cca53e51412d5f2691808bf97c3fc431540264eb
+~ -[MAAutoAssetSetInfoDesire initForClientAssetSetPolicy:reasonDesired:awaitingDownloadOfDiscovered:withCheckWaitTimeout:withLockWaitTimeout:desiringProgress:] : sha256 24ea1b34f18fc263c92c6e8a686cc21755a0a43fadaeca3d68d803190861eafe -> e98b75033030f024dcf541e2e28476d286eb64074252de4348d322a0cbcc0db6
+~ -[MAAutoAssetSetInfoDesire initWithCoder:] : sha256 776d5ff4d07d1ef1369d20b420ba1c446a138a5eb9b0ea943807fe53730b918e -> 1bec887fe85dc2e78ae84a2f6926ee58676899f9f45d9a858ca795d61c503f90
+~ -[MAAutoAssetSetInfoDesire encodeWithCoder:] : sha256 20e46fab2f17a733428143b1ff31da935244d5110998a3707ceeb17baf49f019 -> e6ba7b2ae5243566b7fb19e3db1b22e0734da4dbc2b33828ecf8eb639790cf6c
+~ -[MAAutoAssetSetInfoDesire description] : sha256 dd4db0b682097ce3d4022225ef886fda4af3da38963f6b645fb768916a2375c2 -> e9fed64dab681572366b87ce50b839b0e7778e8a0f74bad5b99efb277bb3f99e
+~ -[MAAutoAssetSetInfoDesire summary] : sha256 987592c3fcc7f62ecf5db88a23f955cdbadaaefa2e1991a220bef3206ec24316 -> a692318d1aee1fa12cf5073c93c1ff1f21185a8a5df41819024ca78ead8400fc
+~ -[MAAutoAssetSetInfoDesire .cxx_destruct] : sha256 ed8098457400feb583665c1e60870bc3370775a540b05d3662b1271a4f05a7fc -> b882605c84f1528a4f292181780b4cbd373e89cc9cdf4ed915a810a706bb2460
+~ -[MAAutoAssetSetPolicy init] : sha256 2bc31256a86d4040aceaedf3e4fdeb7feada86976fa71f749320804c3ff614ef -> 8009aa96146fdc8cdb03b4e572483bf8a8030b4d74d9853b0d752a65b3647aac
+~ -[MAAutoAssetSetPolicy initWithCoder:] : sha256 3c217cf2f16e462bb483f9adb92cb10cd86072ae577db20202b64a4c188c9b4a -> 1ec08cf1afb2632db238b4686abc0e59120d7492fd8e0fd52fdac78356640e91
+~ -[MAAutoAssetSetPolicy encodeWithCoder:] : sha256 91d39f27b6c2ab8382ef9433ad32388e59f5bf1f4284222f49769be2095e6459 -> ccb94252c8af475e7c6ac22f885289568b4972dfbbe8d0030459399e14a3b062
+~ -[MAAutoAssetSetPolicy description] : sha256 b120c238ad060276441f21f3d78dc8294ab97412ce39409c829f01592f1cd850 -> ce4d210da2c73c924faef902b7db2e4000515cf7bd520dd8f7fdb18d5cf7baa6
+~ -[MAAutoAssetSetPolicy summary] : sha256 f2b69bf9a18f4dc9cd479fff5906156903644df6594ed13a20e546d40bcdb77e -> 42cade038c7fe08c658447fd0d90f4fc99b8edd04d4c920a6b4f6a4fbd3b8c98
+~ -[MAAutoAssetSetPolicy setAdditionalPolicyControl:] : sha256 fcc9710c4744a88af2f78a6b0ba87b70fe8c2475b652f69e13bbcbf73364ff5b -> 8267dc0c59ee695694f8fd24856b411b948bd736458ebd6f9f49fa992165efb1
+~ -[MAAutoAssetSetPolicy .cxx_destruct] : sha256 53455efe0c31d23e42aa877e1f310786d84094427e155760740e085066f1888c -> 198a4e0f34ae4a52780b7d2556c10a19d5d86c915fe8740974398bb91cc059b6
+~ -[MAAutoAssetControlStatisticsBySize init] : sha256 90e84a42cc0f4bf107591cee404a74092e844289f02d8037cf89ecdeeba6ba0a -> 25510e91ceb3147ecace93b50bf81a3567bffa035957af130ba1d23ae1f7617e
+~ -[MAAutoAssetControlStatisticsBySize initWithInitialValue:] : sha256 6c5c43d911a4a9d6678b87ed7c62912eb81a2a57ff2d02709a9cbbf82802cb03 -> 97b6c3d615e20a8cecbee64f7fc652419f418bb0ba39b8e3df43d9f01903a03f
+~ -[MAAutoAssetControlStatisticsBySize initWithCoder:] : sha256 0d5d9cc85fcb0a86acde60d29a1f56f875773a065faba5f82a05d4b55125b038 -> 630c2eaa5cab1e4964b9f76eab95d0ad237d881c8249ba625298e886ca13c655
+~ -[MAAutoAssetControlStatisticsBySize encodeWithCoder:] : sha256 4fe5551b6de36d67ab228d9d27fd6e05dc7cc5b0bf7723ab9213711eeb11d989 -> 9c45e55571fd0fa959dc04653b90fe4d6466a3354a3bedf278773b16be728e5a
+~ -[MAAutoAssetControlStatisticsBySize copy] : sha256 61bab0285eeb32450c70ebc826dcfc7a94234b2c6d1cd7558902b70c95e5716e -> c362b72a55e2a5a74d0c9f06f6ca0415dec789fadf85d2caa72f560a315f8ad5
+~ -[MAAutoAssetControlStatisticsBySize description] : sha256 0942facc5a987ecd37e9f1ea93d5a909c156d30678fb330de9f26a87c246db55 -> 29f6699fc14931d9d6dbda667da5f5df023f4c660158fd82a1464e8de473abff
+~ -[MAAutoAssetControlStatisticsBySize summary] : sha256 cb2788f582bb09baac40fe9651e1f7b03af65167f5df81c07766c40b1e2d7e79 -> 06866fadf006ddc66406073fe760293c18d12e44d1b43dbc2c3cf3997b2941ff
+~ _MobileAssetQueryGetTypeID : sha256 aefa845fc3547a6d53e9fa50c933c0741d203ef906ce1831f2e614270c538ea8 -> c5bc49e90ecf6bed80f1045c5860db3d362c64013feda67cb0b69fd1cf237f84
+~ _MobileAssetQueryCreateArrayOfKnownAssets : sha256 12928f0a6aedab37dd36fb6ff319012f8d3dbe7d5173dc13a6ceeeb1a0795735 -> 441f51f4d37e1908a06a32c4c008e08613f34eb1521d14a36efa6e274e607c69
+~ _MobileAssetQueryRefreshKnownAssets : sha256 09a12bfe9220212d003da355820f656a2e6f5026874e4504526670d9f06e253f -> 8f121a4891ccc6085748a73082aa62167d513253103037abe186d58889663841
+~ _MobileAssetQueryGetMatchingAsset : sha256 9bbb78b6ea1c7c2ad9474f01c0150bd0b1eb43259569bbf91569ccf72d76abc1 -> f27163f1a1387e681cad90541321655e90e28b81ed694a53aea3d34f15c3bbcb
+~ _MobileAssetQueryRefreshAssetsAgainstLocalCache : sha256 fb575924adbad3dc4db2981aa06b95fa01088f380e81736e1b0190d8b4d1821c -> 57d3ed161a04196a474b6d5b291751e69ee38375e36cf399019112798605aab8
+~ -[MAAutoAssetInfoControl initClearingAfter:] : sha256 c06eb8a294b8b5fe00c455c75c232bb4a48a8a9c232410050edb131bb14ad835 -> f2300178804f27e48cfb3702b866efb07ee96808ee72beccf05b9a246c5317cc
+~ -[MAAutoAssetInfoControl initClearingAfter:limitedToAssetTypes:] : sha256 899c42a4df04277f6d4facfa6223b3b96d9af88a687f29ed2d73290634e8e3bd -> f7650981cef7bc1b98754b3b7ad1433ad02925eafc54cc42651727e9dc414e3c
+~ -[MAAutoAssetInfoControl initForcingUnlock:] : sha256 9c9ac8082a0ef7fb3b4bcd95a6e8ee78c950a6a261fbd09c569b028022ce3ac2 -> d8700ca9a41dfca49e5e19f46db31042908da53b2c4185f61ce0bad8cd74c3d5
+~ -[MAAutoAssetInfoControl initWithVolumeToReclaim:withUrgency:targetingPurgeAmount:] : sha256 bf43b26ab98807ab2363cbbadd9bf929d9abf4f9f8af46a7303929d2b6e0b08e -> a78df177fe9d564c611f35debc9004c7934a33a486b9f3b4182efffafd2d93fe
+~ -[MAAutoAssetInfoControl initForSimulateOperation:withSimulateEnd:] : sha256 bb029a28a4d871e320aa4a6cd2ad81c5bb151d22a67157ea07ccdcdb7cf06c63 -> c8ed667d31456ea03ad1469f878afcca718647e81885c3dd54082e96e3d29ef3
+~ -[MAAutoAssetInfoControl initClearingAfter:forcingUnlock:limitedToAssetTypes:withVolumeToReclaim:withUrgency:targetingPurgeAmount:simulateOperation:simulateEnd:] : sha256 e8ca71daa9ebfb77e61a4239d76814211f9e967e36d3c656f145b81cac0f05da -> e54ed4e1a2fad8188ffad26de209c63aceb55f2e1613a935c01d1713d78de63d
+~ -[MAAutoAssetInfoControl initWithCoder:] : sha256 135b93b998c9b6dd9038b4851913e7ea1effc3dd2cdc6594a751cbb883c924e3 -> 17d4f37503fcb1313adfdd0f468c8e533c5fdeec2cb3a384a42ee957b90d9c01
+~ -[MAAutoAssetInfoControl encodeWithCoder:] : sha256 d8074bb556f4ab508300f8a80e28c5dddbc6b4722ce028ea0451b386892ec376 -> 704087f8d283887912853d2654802b1909f243f43e07d235394879e5ca68f128
+~ -[MAAutoAssetInfoControl description] : sha256 ab5e85a11df88c78199cca4606d781a31dcfe1ca7fb9246f6148c07891504e46 -> 21556cb83457ede81d1e4f6d3f46fdbf2af48194cf75a3e225ae21b29c0a0247
+~ -[MAAutoAssetInfoControl summary] : 684 -> 680
+~ +[MAAutoAssetInfoControl nameOfSimulateOperation:] : sha256 545cf1ea964667af2ebacddfb5a802f06417de5a0ba56fbd50f3c4cf4c694064 -> aa9ae72192ec4aa8f4a9d99ee59d91d81336a30ca356ae226b48769c66583914
+~ +[MAAutoAssetInfoControl nameOfSimulateEnd:] : sha256 b7d280b3ef4a6307c8021f1cd4f867f4bb13e77eae93e0ca776b8898f50a8e58 -> 6e59a8d5bc47bbf55bd4bfe65e095508a0afacde83cb16fe0487258b6d2302ab
+~ -[MAAutoAssetInfoControl .cxx_destruct] : sha256 6291ddca8e483b666d40c8c8a718b36466d40c5119da17b07d919cb2d9102ab0 -> 4cc7bf36137a80ac56faaf083991f62c79d94e4037b5fa07bdedac2ceb40a8d6
+~ -[MASecureManifestStorage storeManifest:infoPlist:error:] : sha256 c459b46759ce037a06e1fe5bf5a8fb3ad832bc5f3860825d5df86a03d51b91c6 -> bee80e1a72c2422b5d5c48a2f0febf96089f9440d8d52bcea15f2f52f541f9cb
+~ -[MASecureManifestStorage storeManifest:manifestType:infoPlist:stage:error:] : sha256 a6d1b86e13c0cd5e20fd1da07d61ef67ef140964d63e124085bbf13b16b07c39 -> b72184f0f2918cac477675be4735a4443b32e67845a88fa811fd7908bbd2cc62
+~ -[MASecureManifestStorage stageManifest:infoPlist:error:] : sha256 83c1ac4d8ba58ec771d504ac423723152c1c1825b0c47d0503dd3e566674d3fd -> f8d82a628c92aa5d0f0210531eed49ea68f5d24460bdaf9b72977466ec86df30
+~ -[MASecureManifestStorage _storeManifest:manifestType:infoPlist:stage:error:] : sha256 6ff20e3d86dcebd4916143d6cbc8ff5f11cf59f821988e91c365572d7088e5bd -> cce1ca5e4acfce9f580f98d41c5981c00bd60892b364f743fe2e60bc4c021218
+~ ___Block_byref_object_dispose_ : sha256 d8faaf9292fcf88778d35d9b605cf171289cbd7c297cd7c24ce1b1712208edfe -> e7128a60267ca6859106ec319ef94b739d6c9f2c1236d640122a9036448ca798
+~ ___77-[MASecureManifestStorage _storeManifest:manifestType:infoPlist:stage:error:]_block_invoke : sha256 cdcfec3cf48de584895354a4f1518e4d6a751bb1f8beb7528551e7e4289abb25 -> 0e6ddf4ca0919f880111f57bcfc5b8c012d3d98f3d76f4ae819db4d07464c2fc
+~ __77-[MASecureManifestStorage _storeManifest:manifestType:infoPlist:stage:error:]_block_invoke.1265 -> __77-[MASecureManifestStorage _storeManifest:manifestType:infoPlist:stage:error:]_block_invoke.1301 : sha256 fdbcc85a33a1c3271e0caaa176d2cddded443d102bf711b0a6c591e1f6b08efb -> ffe3a0c77f18a76cdb6ed4f6b2a39f569ab01bd979be1c6f42d2eac96778b1a5
+~ ___copy_helper_block_e8_32r : sha256 afca80a8fd27f5318c34da24c901be68b90689f84d7052aab70a59be4c7aaa86 -> 0aeb5df301cbe2b917002d9502e42a300690bf7d4f471cfe5b20354ebda90ec8
+~ ___destroy_helper_block_e8_32r : sha256 0c7aa0782bed7705d6eaf75ce82e6147886c297147e8ac76aea1935bb13cbd0d -> baa8d9f1649a9b28f03341c15941327abe6b584a9b0c89ad62a934b77b1e3175
+~ -[MASecureManifestStorage commitStagedManifestsForSelectors:error:] : 844 -> 840
+~ ___67-[MASecureManifestStorage commitStagedManifestsForSelectors:error:]_block_invoke : sha256 818ba6b7936a594c312989684c6e24d7cfb832a8b153dd46157379f20ab5a32b -> 4cf70dfc359dab2deb4d6665ec3c885e530199a19de3537fa86bca63c9b47bb8
+~ ___67-[MASecureManifestStorage commitStagedManifestsForSelectors:error:]_block_invoke_2 : sha256 0500334ece75fc73f89789eb7e636c743b4b78dba89ed916f13bd6ba1a374006 -> f505ab2ee1a510ef370e0a02a2b32ec856116951793e619bd647997833104ad2
+~ -[MASecureManifestStorage invalidateManifestForAssetType:specifier:error:] : sha256 5d85948301fb1c3e804976352718b0cbc13548fff621a56ba1a44014b682ada5 -> d675ede9fc12f21acd9c87775f3c4d35ff9360678457316d9ce926a5fb16d6d0
+~ ___74-[MASecureManifestStorage invalidateManifestForAssetType:specifier:error:]_block_invoke : sha256 80ddd956b32068328bb3360ba9e02a2c4f28faf8d91cb36228d0fc326df91bb2 -> c2d27bd6072b2065d310db671de29dcd77ec975e67afa6e3f8670663b2ac0cb6
+~ ___74-[MASecureManifestStorage invalidateManifestForAssetType:specifier:error:]_block_invoke_2 : sha256 5f3b9459bc0c090041245d010bf789289cb1a4a002e971bf12ba86c2c28b8fd2 -> b2a3ddcb47619e0ef0b5455e03b714548c0f9e7f45f4965692e2287cd3b0f255
+~ -[MASecureManifestStorage manifestPathForAssetType:specifier:] : sha256 0e53b132aa2daa1aa8157dd7475e3cea78090dcff4383c18b5109e3ce293bc92 -> 808ca3e60cd8cd0198a1ad1147a9b078a0381030caff61979f624ab69af3e5f9
+~ -[MASecureManifestStorage stagedManifestPathForAssetType:specifier:] : sha256 49a8668ab5a5f2bba3f0cba13bcc10bf7028f51fa6281139c0613b6bb3500a2c -> 0ff2ebaf2d5f0c584012dc260a5cc0fb8842655fbb2d28b2fa5b6f99e76fc9ff
+~ -[MASecureManifestStorage _manifestPathForAssetType:specifier:stage:] : sha256 2a97cfb55d40745ae901da68e9fa5ff7c21b981d3f529a2555391b7f9b8d1872 -> ed76c5dad0d5884342c7023c9b810ec22c0a6ee77b7e9b792f448eb920eac5b1
+~ -[MASecureManifestStorage _serviceConnectionWithError:] : sha256 48469a6c010b40742542dc4072b8d1f4284f4104c1fca1d21eda00205bb31ec3 -> af0cee44fd06c249c4b123f3487bf8e988d3d61d918bf2b18ecd3aa2ee64a975
+~ -[MASecureManifestStorage _errorWithCode:underlyingError:] : sha256 c42e7051ef9d2cb72cc4767c04dccefe8c4e011e9cf3381dd65835b114c5e267 -> c37b422f1d27c43b6ea6aa9af9dbdcf8fcb5a690a3862bcfcff41a2c764dd3b1
+~ -[MAAutoAssetLockTracker initForClientLockReason:lockingWithUsagePolicy:] : sha256 9683a1c27b2ab9d5714d4f059ab330e30f6bfb16d28bd787db29f724b7e1107b -> 0e88561c88be9d5ae9f7032e402b8bc364ff5f0d6f106137a160337b0afc306c
+~ -[MAAutoAssetLockTracker initForClientLockReason:forClientProcessName:withClientProcessID:lockingWithUsagePolicy:] : sha256 b58fe86a3e832ef09bce756b7f8c3e4e1747846be94a88857c086186afb81388 -> ac61ea008caaf1e2f53c9f4a9faf6c41a2a9146eb3df43475ee8156d03453410
+~ -[MAAutoAssetLockTracker _initForClientLockReason:forClientProcessName:withClientProcessID:lockingWithUsagePolicy:] : sha256 a282a7523888b68c1111e80babb1c6671e64dbad2bf1003281babe6a74b14aa8 -> 43fa16f717d5638e2660f243ddcda9005dac623eafee915edbae99d9fd141ba1
+~ -[MAAutoAssetLockTracker initWithCoder:] : sha256 0d487f1e69c0b6e98758e457639b9cb87e007ac844113f520916238135962285 -> 5f10f437c19b62ad81019e594221194e67bf3178632ba1ef3476d53a11eb7962
+~ -[MAAutoAssetLockTracker encodeWithCoder:] : sha256 7f56836c4c18740a2c702b4eccae4728a42145d16ef3ea8039b9f5fe61c41daa -> 6a15b815957517e0b037dae6f5359585347358d0e07af3f89a80d7cecae34fce
+~ -[MAAutoAssetLockTracker copy] : sha256 fe215e0d096e6b9c625860f789b13a0aa638eac22cf0ab7e93356e69e90b7378 -> 9354fc774833d6e9ed0befa09b621f788a72860b6affa49a993d49cc32b535d9
+~ -[MAAutoAssetLockTracker description] : sha256 38eec8097e7d2af2010995256eac372df4c641741465c07a5bb87adc6165351e -> a716d70e471f744377db96ed3593cefb342015f64a2d687d9b021ddb28ba0b87
+~ -[MAAutoAssetLockTracker summary] : sha256 625094f06604c4bc0cba0f2a2481a07f37b30703b4ecefa8dc5a2d9d14abe368 -> 97fb24c2c4fe269c72ee7e1f866de78490e1e618e20c092aa64d0d425b381990
+~ -[MAAutoAssetLockTracker newSummaryDictionary] : sha256 3c67c3b3045982db48ab838d8b996eff8a47b6430caa853785b5390537683395 -> bb6ae09b3a154818654a19fd72d319fed4c512a12c59ee3b5dc5570719f7ea47
+~ -[MAAutoAssetLockTracker summaryBuildMaxColumnStrings:] : sha256 079cba7c29bc7d73ad6800fdffb39d4b990077e71fb075db2e5eeee3acba70ee -> f65bcdc1e453a4cd06a4cb9e45741fd3ea10c2bcf8f9917d247f905a62fc211d
+~ -[MAAutoAssetLockTracker summaryPadded:] : sha256 5ef25f4b1225b452b6b8b0dfda708d03b4b00e042d46936408d8da584330e9e2 -> 2495748ea8d2d06fa73e0470d1f92a238626933f73a94c2420dc935ce9b9a5c7
+~ +[MAAutoAssetLockTracker summaryNewMaxColumnStrings] : sha256 ef22afd4aad1748f6b8a5916e7edd57c39ad771c79fa65f477c9b6aa50786d91 -> 3c6a2aac0d746206096ff735959833eb3ee621fa286d1d4c542c86d93c275f9c
+~ +[MAAutoAssetLockTracker summaryPaddedString:paddingToLenghtOfString:paddingWith:paddingBefore:] : sha256 1c7b1722cb89f8a0e0b09757a9acec75b2183dba6386a77ce9bc18164d1b776d -> 2ce0f31745b1d3eaafb126eca7a2bad350b66c3a5a633716be2a0421514dd38d
+~ +[MAAutoAssetLockTracker summaryPaddedHeader:] : sha256 b927d14483ab5e0313b06e98139f991d40d2faeb921c51e0d45b6cf0ae608802 -> 8d64797d1e1657d9b729a45553e0773f00fd70711c4ecfc76c06745b2cba7b87
+~ +[MAAutoAssetLockTracker summaryPaddedBanner:] : sha256 4ccebeed664a49ec4d692a6a5a0dcd601e60113c1ec2db128f8b2eaf01aff247 -> 02b0e210c8bf2c1260f1a1cafa7237d5c3a093ad8f698da2fce15741341fceff
+~ -[MAAutoAssetLockTracker setClientProcessName:] : sha256 0a45ddc7903b7ac7b1566c21844919a1fbf2adac1a6d67a1caa2376afecd81eb -> 8e987d1f0946bba441e10356be62d45e9b298d075041c8b8ec1b2609ee4c1017
+~ -[MAAutoAssetLockTracker setLockUsagePolicy:] : sha256 f7ce6fb271364753df69068a75c8a9052fd875a61a1b818b1f5a91ff3cb998b5 -> e890bcf29f5e698c9acbc68db9aeaef5220e502781f4e316886e36e497b29810
+~ -[MAAutoAssetLockTracker setFirstLockTimestamp:] : sha256 6adcf2bbd7de1da5383f1a23ac99f39ced437272fba274e1a6159c050e544724 -> f3353d03078295b117ef6dd387322040f6dab0e04725d677ea3c227a52330688
+~ -[MAAutoAssetLockTracker setLastRefreshTimestamp:] : sha256 b64246f2c1ae13565e5e6ffb10c2995e83a1ab504be3f456cc413bf2ff97e0b4 -> c1609236bbbe1cedf36d44893a5ccbfe078199af619f4acb2b8dec0b90a196e6
+~ -[MAAutoAssetLockTracker .cxx_destruct] : sha256 d9d5404731a2be722dd50ec1ca46eb1f8198fb2b6b7a73f64167aa7347713cc2 -> 61e47be7d10adfa3ff8330bd7466ed5a486a3ee00637aad4128d56f4edaaa0ef
+~ -[MAAutoAssetInfoFound initForSelector:withLocalContentURL:withAssetAttributes:reportingStatus:] : sha256 20cffbc9ab3aba42f63f57dd7fa9e7a9038a41e26c0430c5949aceeab30ed018 -> ead69362139752937a89bf142e397d6b57b6b3884db29f7f3d66ccc9f9bc10bb
+~ -[MAAutoAssetInfoFound initWithCoder:] : sha256 e366163118d456897ef016e6ba92bd1ae8e6bdfee98aa2fc6910260897babc2d -> de97243367bd3f9226e2d50eb7fc6fd66bb17415dc26eadf3edeeffe33a9b0f7
+~ -[MAAutoAssetInfoFound encodeWithCoder:] : sha256 1f6c7b57e3e12cf4d59937eeeb658b36d93c4bfd29f343f008e221bdd4db55a3 -> 83d9911959ff723c6c8c30ad0860811e37cf389aaabbfe9e0b033b6368cf7e0b
+~ -[MAAutoAssetInfoFound description] : sha256 34e292b53a3660157d0c4f7c94b9a89536da57fc4bc2399964d2f493782ff5bf -> 0aee93f0fc4486f6636b915c93066e345b73023761c44890c4133a670ece240f
+~ -[MAAutoAssetInfoFound summary] : sha256 2da9a3252a496e9af7c896725dbcc3b225bb12bd8c4c1bf40f5b7bad1df8309c -> 67aeb284a095cc1eb9f25e302e24d29b91476b238e3475662b74e031c0c0cbf8
+~ -[MAAutoAssetInfoFound .cxx_destruct] : sha256 5202091f0d8783fa13664efc4241c3c86c3400c4ef6574163417d9a826fddff6 -> 5e373ed32b8dbb34216c1fbb614f8e03404854ec4de0418ec556b55d2843e925
+~ -[MAAutoAsset initForClientName:selectingAsset:error:] : sha256 fecb7c21e44083249f097b7438d6230a7a4437d0626e35e36d9192ad6b57f3c4 -> cb323cbcb5ec0b7428ef5b7abc010f20c60ff65ff873b786f77f825711e68dc5
+~ -[MAAutoAsset initForClientName:selectingAsset:completingFromQueue:error:] : sha256 db3c1eb41706022c1167b0e1e47edf451fc79c765019a50a41e0be85587ada5a -> 231e908abd73f8571a3ead7daf4803ab3ff220e3aac77006a23db2101f8013e0
+~ -[MAAutoAsset initForClientName:selectingAsset:usingDesiredPolicyCategory:error:] : sha256 4b9011c624f79154295f204226f59f5d7041cb121d02fbda97325cd5cee0a6dc -> 3dc36a49631c0f7f597a105877f91405a5a4caa41eeb8ff747749effcf57d47f
+~ -[MAAutoAsset initForClientName:selectingAsset:usingDesiredPolicyCategory:completingFromQueue:error:] : sha256 dcb9c75b69a8415229631bd64fe7ebf74ec32516eb1c1d1b7b0ee2cf5c082841 -> 866cbc9075451a8f24c828780b2f710ba7b6f743d3d437cc96c26c1278b939bf
+~ -[MAAutoAsset initWithCoder:] : sha256 ca798eb98977576374c88866d7ce1cbad5a166e7dc52379938c8bc3296217c57 -> 86affe94349cd13647bb95736b383a61a51ad796f64efb081fc38e3dc41947f3
+~ -[MAAutoAsset encodeWithCoder:] : sha256 0919a259708253f201abca0288d3fa9b3b50c63f88ffd25a70f1931e0c9febda -> 5ba2c85cdab76ed7fe88d58c961c9970b3ba4dc0a7ae910e3a8f69c6b6bdc505
+~ -[MAAutoAsset interestInContent:completion:] : sha256 d65b32da3892c638b84f239cd124e969d71d6112b7fb17cef32e639ba31f91bc -> 4d466aa0c08320a0accc731916ec1cf463668a51666ce46930d51eaa6ca16bdf
+~ -[MAAutoAsset interestInContent:withInterestPolicy:completion:] : sha256 6f504a16bdc97665d724d34b5a0ded1ce4171cd5a8836ca83b58696f071b07e6 -> 6af48c2442f880ac4da9c4256574654f072853bf79045ad4374108ac2340635b
+~ ___63-[MAAutoAsset interestInContent:withInterestPolicy:completion:]_block_invoke : sha256 a6c62d52856ff094aa4493d32013b812c6d28e2046109659daaad5c2217875da -> f157d1e0651de37c9f76856e246d3bf75281d35bcbb64d83e84b383f6ed3c982
+~ -[MAAutoAsset _interestInContent:withInterestPolicy:isSynchronous:completion:] : sha256 5e95269c4db94b7716280936e5d1e5c4c0d98b6db523f91605100eb397292abe -> a187e30f0f8e94b91674ad738d55da6bf115b6a9727eed09116b7381c438a8f2
+~ ___78-[MAAutoAsset _interestInContent:withInterestPolicy:isSynchronous:completion:]_block_invoke : sha256 f2afe250d8bcfae4c5857ca9f403c9588631695fbc80204ab139b660181c9c97 -> 1d5576507d38adddced5385036f3c16638be9277a92c3324cbc0380f67680c0d
+~ ___78-[MAAutoAsset _interestInContent:withInterestPolicy:isSynchronous:completion:]_block_invoke_2 : sha256 18d59de8ccae05a0f98442575177870d778e7f1dd29f98deacd37c90f06ed14a -> bec559987e7414987507f49d2ff224a473405b6ca28b60147b4bea9db60cb7ca
+~ __78-[MAAutoAsset _interestInContent:withInterestPolicy:isSynchronous:completion:]_block_invoke.555 -> __78-[MAAutoAsset _interestInContent:withInterestPolicy:isSynchronous:completion:]_block_invoke.561 : sha256 476d2aa553ffe5ddb6b119c4009b18a4fd1214fc5d1db5dbfae4f7c6d86026a1 -> 5c31aff38ea1faec7e0ae19da085b86d6233654caf18a2f993211528afbf7634
+~ -[MAAutoAsset interestInContentSync:] : sha256 ee76f309eb162d083d213370c2b389e51762c8554bbd3c76fa9349a19ba06fbe -> e00c10fa225146c2a25bcd18006b40173dcce68b5d0895bb218b5466d24cd4c4
+~ -[MAAutoAsset interestInContentSync:withInterestPolicy:] : sha256 34cc1cd33648de1d677e71cbc399da9e389fdce6e2ede14f098a3c24b6772abf -> d0b2b7818b220acda2b56486e5160266004fb2e10d0efeeefa2196b6a29c7a89
+~ ___Block_byref_object_dispose_ : sha256 7a59eb09240eb7460aa747497c163558f9e979454b61097b19234567f05162dc -> d17b43de988ea96da8766e83bd3ee351a84f821033d027dbd9d35f4c17aca09c
+~ ___56-[MAAutoAsset interestInContentSync:withInterestPolicy:]_block_invoke : sha256 175f5a02884ecf29ffdd88d7f53773b559ec078de2a3e946b13ab3e6650d320a -> 31cc06c74103c139422a17de23d758b46dfde9cf82db8460390004ff74f44dd1
+~ -[MAAutoAsset checkForNewer:withTimeout:completion:] : sha256 5bbd24075be8e3ff222aae30c62a82281733731a20f9d63e12fd6ef70e59e894 -> d8b9ff7d9a5879ff4ad557b051e709dc9e49fae04ed26cee02f84b0a08633bc8
+~ -[MAAutoAsset checkForNewer:withUsagePolicy:withTimeout:completion:] : sha256 10c910f863169805f8200f20fd3c27ce057203c6f712b6a0fdc42c9707c3e3ae -> 7da88132e0306fa53fd1ba02751bd9df860f0a496007e102ba0c79490e916368
+~ ___68-[MAAutoAsset checkForNewer:withUsagePolicy:withTimeout:completion:]_block_invoke : sha256 6478cf54824445c8969b5101b0fc37d22a8465f0bebd80508ee4998508258c25 -> 85240a1fdbf6300210508effccc4b5a0e4317f19ca9cdb5c2734eb4cac0bfa34
+~ -[MAAutoAsset _checkForNewer:withUsagePolicy:withTimeout:isSynchronous:completion:] : sha256 16506e473b680e5b097bb6054839c2014fd368389d4cd332cb4ef998b5875d13 -> e58ef79aea3179b3143c293e36cb09bd32d35d4a88aa29a1f71d1ec8e748ac02
+~ ___83-[MAAutoAsset _checkForNewer:withUsagePolicy:withTimeout:isSynchronous:completion:]_block_invoke : sha256 90440f0465c1fa9eccc649f4b8649b035d819bb4289c4c703791521ae331f0ca -> 2e68a813987507bd59cfc745aaf3f8f3eb1f2958e600f32f9468897082a879f5
+~ ___83-[MAAutoAsset _checkForNewer:withUsagePolicy:withTimeout:isSynchronous:completion:]_block_invoke_2 : sha256 74eb3daebea45dfaa2c477ac8e0808a1db515315101626d7f173061e26dcc0e2 -> 823951fdf451a16cc9d685b96fc3901b475bd84aded4b80fb438cd4725cb3966
+~ ___83-[MAAutoAsset _checkForNewer:withUsagePolicy:withTimeout:isSynchronous:completion:]_block_invoke_3 : sha256 d35e0b30b9565a50a72415dcec6b714634edfd192c6c3d35ce19c6d39c16c77c -> 7b6d6b7dfcd2aa6aab159f94ac98be11d9f06ec7ff327e1503064fe4e1408040
+~ -[MAAutoAsset checkForNewerSync:withTimeout:discoveredAttributes:error:] : sha256 ae0eec1e4817c238905fb35a75fdce73beea8c659a7e269f07120385cae3b529 -> beefe5b12f7d4ffbf28879ea6b5e039f1ac2114f2f414801d9d39bb81755f009
+~ -[MAAutoAsset checkForNewerSync:withUsagePolicy:withTimeout:discoveredAttributes:error:] : sha256 9a2e09cd796f37e32dd212001f6928aa3da8018520190bb50c8e9dce675f1fc1 -> 55fb38d1812c618d5b44bc3910e96ef401198da4c12f52126bdac84c7fbd5bc9
+~ ___88-[MAAutoAsset checkForNewerSync:withUsagePolicy:withTimeout:discoveredAttributes:error:]_block_invoke : sha256 6f7f74cede0bd2b02fa07344c5f86e90a62b1997b5b65e9122449e7bd95cc2e2 -> a6e26dabb1a84abd633b93a88e468496527dc05d9c1336c53f50e1db52962aed
+~ ___copy_helper_block_e8_32r40r48r : sha256 e93c05447bd41c7eddf758d41c6ebe260fa72496dee4c3617c97f1c931fdd9ba -> f257b5880289ba422cb5873f0778d1f12bee4ffe1c427e46907f79b8db824667
+~ ___destroy_helper_block_e8_32r40r48r : sha256 e529b44aaf56005a39f394ff6bb158f5d8cd60324d7eb1c76d1b456aab089f1b -> 6bd32192a27f4e28220124c4405f99512541d3d820a7f924451bbbbbafa6688f
+~ -[MAAutoAsset determineIfAvailable:withTimeout:completion:] : sha256 a534966d2aff87ae7c5edf87f28019812f8d21cf21b347fba4b8ec7714cc8d6c -> 61c2e5e71a1da41d4f3c170bac4fc8c7cda342373636f653966f8401b118594b
+~ ___59-[MAAutoAsset determineIfAvailable:withTimeout:completion:]_block_invoke : sha256 f68114ec5b40aafe74d3867da8280aa1f83d6156b744a237bba21b4878d43bc5 -> 5db48f7f1ba4738df49c93ab8e827209776b67ff06e6678bfcb53347210180bd
+~ -[MAAutoAsset _determineIfAvailable:withTimeout:isSynchronous:completion:] : sha256 26afca029c7037186c8c43454403d9ed86fc668a91908da0624c2cd23404513b -> 36b6824016456c13532fafb437ba54cb4b781492d6dc12844f29d8bdf8ceb27b
+~ ___74-[MAAutoAsset _determineIfAvailable:withTimeout:isSynchronous:completion:]_block_invoke : sha256 8fe5babcb7910595b765fdae318f40391527bcc3d4124dde5c76892521f4cc16 -> 66473071f2117cdf859b2fb7fe51a467b10e27220fe03d3eea2398b4d570400e
+~ ___74-[MAAutoAsset _determineIfAvailable:withTimeout:isSynchronous:completion:]_block_invoke_2 : sha256 0cc0d1991aec45a2d930d313dc881f740cbee4b55620304076be82ea3b9c8aa9 -> d21d4ec3c871759bd7f54805781b4424128f8291cf5920ed2af641d9d92dc071
+~ ___74-[MAAutoAsset _determineIfAvailable:withTimeout:isSynchronous:completion:]_block_invoke_3 : sha256 7c97fb7bf7aca3fd4de85a545de90cef41a9941b7a3eeeee596ab8e8e296bd33 -> 46dc56dd2e52d9e6badc917553c3abd1fa6aca58965b9ec27337dbef1f189e72
+~ -[MAAutoAsset determineIfAvailableSync:withTimeout:discoveredAttributes:error:] : sha256 498387b085d52848d5de4a7aa0c1cbfbcd449efde95a0af4f82aa148176ec619 -> a05b1a3d725593684a393e784c6fbe0fae73c2d57ed0cee1597ed457f989af95
+~ ___79-[MAAutoAsset determineIfAvailableSync:withTimeout:discoveredAttributes:error:]_block_invoke : sha256 f71793b23b237883ee6e14056295fe0695dbfd006f6e8d59b62906c50339922a -> e36130d3bd2523207b7a359b5b2aecb1768dbc01a43b27f0a2fcd6effcae5bf8
+~ +[MAAutoAsset hasStartupActivatedCompletedOnce] : sha256 5f14781b9d97ac2bfd61248af9809d81a7b2ed582df70617e4c395f80df2493b -> 7e6b0b0379398ad4a6e5d4233105d59e38071696940cfb723724307981ed88a5
+~ -[MAAutoAsset currentStatus:] : sha256 feeb6517900bdc83b4780b82ee887d65ca084d3a3b3b7f7cf6db51e37c5db546 -> 2fd6af898c10ec791aebf948c726b829fa97790349f804645d5c0c0a64cb3561
+~ ___29-[MAAutoAsset currentStatus:]_block_invoke : sha256 a10bb821fc77799a5a6a03aad0ca105cd4b92ccfaab80d7e36547c3ed69d7667 -> a37d507ccd07b9ac7cc1fb660e1047b4306611391b0fe5c9b28e6ac9e226d96f
+~ -[MAAutoAsset _currentStatusIsSynchronous:completion:] : sha256 dd5830991cc43d98f7678abafdd6806493b8401f757ecdee7f007034836a8abb -> 0a85175cc105a7de45ecb5a305ad535b884b8070ecf06a177a7fa4b7344c9e7a
+~ ___54-[MAAutoAsset _currentStatusIsSynchronous:completion:]_block_invoke : sha256 9a07de8184277aee1ece3ba6cae9e4ee10514a3e6caacbfddce5429f8728b38a -> 7bf96126c857ae672d79584774e3bebb7a9a2f6bf6c7fc72064082c35a4cdc35
+~ ___54-[MAAutoAsset _currentStatusIsSynchronous:completion:]_block_invoke_2 : sha256 4a43f1fb6352ef526d4f623062bf943ed5724ab069378790ac4cb3dd9912662b -> 1666508b81cc649cdce681fc62244bb66c5c9e5fc0a4c2a892683d27a1c8df78
+~ ___54-[MAAutoAsset _currentStatusIsSynchronous:completion:]_block_invoke_3 : sha256 b6e23d61af65f20b1aec2a36a758a668543340b4e24228bd170c62b6f51fe344 -> 31b6f55410be998464d8a4b544cc663c1ad6822b18f6acdac8a01e3c51dacf8e
+~ -[MAAutoAsset currentStatusSync:] : sha256 d20aefa8f9d0bdedd8cf2798e9d145896d30c9bf1d757a656cc1d037e7f3729b -> d8805435d1dd9d416bf1f1e09c3a4c4ab223dfceaed3d12ec68a7c4d3494146d
+~ ___33-[MAAutoAsset currentStatusSync:]_block_invoke : sha256 08e66d053fce072c7982089b4b4810cec745e5cb9eefe0ee12e05b12fff2f9dd -> 915b7b2bf047e4638ef75e5bf9f8391c9cfddd68c2cb0040bb8dbd93ad2d518a
+~ -[MAAutoAsset lockContent:withTimeout:completion:] : sha256 639f28bea52df236dd671b67311492a1fbdfd0c5367a5b64746ad366279e66dc -> 7eab30d51d76754c321e27ee15088f3fe278a6fc12f92b3ec6b4f79536662ae9
+~ -[MAAutoAsset lockContent:withUsagePolicy:withTimeout:completion:] : sha256 98d27351a1cf26794ac90f86c376e5a601cbf937551929cc7d52db4fb9508d92 -> 1017e2f4b7c80ea73798e444aa6ea6823c38ba27758fbcf76846e0ebadcf5994
+~ -[MAAutoAsset lockContent:withTimeout:reportingProgress:completion:] : sha256 192d7868a6243093b462014a9da264535fd34fe10537c94ee25775b22e5330f1 -> 21847e4cbb67e46040af33559fd5c883c53720f0be87d48a9765c73392bd34ca
+~ -[MAAutoAsset _lockContent:withUsagePolicy:withTimeout:reportingProgress:isSynchronous:completion:] : sha256 ebfeaf1ada68d47faac189e562a6a5bc2b5903864839b0d818865be1dbaa9c9b -> 292bfdd348445d6d600d30e532d42a6a3a6119c3e7ba93df97c3434c7a17b9fe
+~ ___99-[MAAutoAsset _lockContent:withUsagePolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke : sha256 d3bc8c06e128f1d443c61c491255782d2cb378916f5247b7d7e3424c13585320 -> 114170d5f4763fddc1cccd361217ed9f3a7c651ada0c76e82a65117a21ba38a2
+~ ___99-[MAAutoAsset _lockContent:withUsagePolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke_2 : sha256 bfe733a0f7cf6e832ef8fb30540c6ba41875b5f2094f9912a231932e860d7ca9 -> 0ce5c35b87531d6315f58c09b66cc4b2be93b0712ae13160d924efd0ac569c06
+~ __99-[MAAutoAsset _lockContent:withUsagePolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke.628 -> __99-[MAAutoAsset _lockContent:withUsagePolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke.634 : sha256 7ef3e4bc55b8ae24453ec8c5b2d09a706156446cc11aafbe9093dab88a1d4c63 -> 5356e9ad8252862a446d21e9cade00178e4e671aa72be071fdef362c60722806
+~ ___copy_helper_block_e8_32s40s48s56b64b : sha256 8f0cf8f38448482b551c271d8c69f179dc78d19948a5dc04f380d7c7e3536082 -> f7ee06592593f9df15eb107f5fcb3c38255c0d9787a9943d7b1d8740213990ae
+~ -[MAAutoAsset lockContent:withUsagePolicy:withTimeout:reportingProgress:completion:] : sha256 42500596fcc4c20cbf06f76461d9ee2b5d8283c41ef173f5180586b5b680e688 -> 37ffdd6e23e521ccba117502289c5ebbb55a047f6f22e7496efb98dc36225a67
+~ ___84-[MAAutoAsset lockContent:withUsagePolicy:withTimeout:reportingProgress:completion:]_block_invoke : sha256 d765f6152b3d95e52e8b07bbd2d5815a5ced5fc3d49561d208a4e03adc8cc5d2 -> bec2a35116eed7968f7f2c3e8fd6c09f0f8db2d7fdb700854438c6dd33b4bac2
+~ __84-[MAAutoAsset lockContent:withUsagePolicy:withTimeout:reportingProgress:completion:]_block_invoke.632 -> __84-[MAAutoAsset lockContent:withUsagePolicy:withTimeout:reportingProgress:completion:]_block_invoke.638 : sha256 051a40f1e82ada71f335dd4ec6bb56363a9ab5f09e19d2f3c7aa3d9ce2f8a703 -> df2a0f26852cc7e73856cfc34a31bcf2732276e72b1df626f787484c3edbb45f
+~ -[MAAutoAsset lockContentSync:withTimeout:lockedAssetSelector:newerInProgress:error:] : sha256 f666ec5af6ee202c2845b7ba4458d49599bf491f431a15fb4c36edf2656e3357 -> 44fca010ef1d6a48c8d7d50d8aa7dc96c5a8f427247123bab9ab5ed2fb5e4537
+~ -[MAAutoAsset lockContentSync:withUsagePolicy:withTimeout:lockedAssetSelector:newerInProgress:error:] : sha256 e62d59b4d001b9e2ad7bc3bfa4790dd58335b91b0dc84cdd7d8251b0fbc8082c -> 4231b1962437bb05da333e265b285a5d3675e8631dc5e2d67c805944905194d1
+~ -[MAAutoAsset lockContentSync:withTimeout:lockedAssetSelector:newerInProgress:error:reportingProgress:] : sha256 64b18086cecdd37d7cd2bc46b812b88e0a9535ba8f87e92ce204a0c684d14513 -> 51bc74be1dc59c8e4f7846278df3da52549cf455e6c32119c5673f9b5cdce293
+~ -[MAAutoAsset lockContentSync:withUsagePolicy:withTimeout:lockedAssetSelector:newerInProgress:error:reportingProgress:] : sha256 2a7e59de01a18b2e8fde8b44c3a72c0af8b26389539d8e6fdc451104fb8058bb -> 51ce04751d913690a12a790784c701ea800ca84023fed74489e5699be2032a84
+~ ___119-[MAAutoAsset lockContentSync:withUsagePolicy:withTimeout:lockedAssetSelector:newerInProgress:error:reportingProgress:]_block_invoke : sha256 7aaf8bd2e5e075332c5211802aef01c83fae7d25e6d03ef00e6e9f9fca62e326 -> 712adbe28b00a37490b50dc39047f1cfcc93101b232e69d3b3f882a5143103c5
+~ ___119-[MAAutoAsset lockContentSync:withUsagePolicy:withTimeout:lockedAssetSelector:newerInProgress:error:reportingProgress:]_block_invoke_3 : sha256 7bc41bd124d19ae44ad5564f3cf2412e2cd2414e49ecb0701022f7d7515b99c7 -> c43109e39781358617b9aaa738f1630cde8658ab6da9ab365cdc80db244f3e19
+~ ___copy_helper_block_e8_32r40r48r56r : sha256 b4799585077cf6933bd8726fb171953915fdba5d4d69b4e463c08e15c8b457f8 -> 1f1bc0575e810768e3cb71bce8aabd0a5b8a1869d9177673b36aa93051fd9640
+~ ___destroy_helper_block_e8_32r40r48r56r : sha256 4733350086895e25e58db10085ecfe498252e671c607ae23335073cfcb5798e3 -> 71b094acb67d59e51b42a5a1c3f730fde2ad52bdc8652c0cbb6c9850c1760091
+~ -[MAAutoAsset mapLockedContent:completion:] : sha256 02ee38f820da28060803235a2c0c91c38d75e72c891012651542d7bd08e318d4 -> c4925999f2eab330a245426d5f7f35af82032eb01882dccbc92287056e8a56e0
+~ ___43-[MAAutoAsset mapLockedContent:completion:]_block_invoke : sha256 c0a1e9056785122dc744d538ae256f12fa8b4ea7acd2bb64681bb3c6cf228d83 -> 7df491074f89f5f29706930bb352cfe74a592b66cd457579aa069008885aad26
+~ -[MAAutoAsset _mapLockedContent:isSynchronous:completion:] : sha256 885b93e58cf497246dff3fef44ab8f567a15ec1abe607405acc45b05ce1d17da -> b611d40a471f7b9eaf030d97ca6673574c265103671bd51764cf0e35e1ced885
+~ ___58-[MAAutoAsset _mapLockedContent:isSynchronous:completion:]_block_invoke : sha256 0238296dc9b58d17f8cdd16a2ae7cc0b2642b1a1beefd638673e56e512564e8d -> feaf17f2e5c2819eb6ef9d5c0971d27d88ef961a5a1fd980c6f1bd4f51e79d6f
+~ ___58-[MAAutoAsset _mapLockedContent:isSynchronous:completion:]_block_invoke_2 : sha256 2015e93fd2a5fd3dfed9d69266e9ef230401a735d517ca685f88aa1fb727006e -> bbc663c82eb221e3ff7b6eb66b18f390db23e8d321ce5e71ffd293e37e55bd8d
+~ ___58-[MAAutoAsset _mapLockedContent:isSynchronous:completion:]_block_invoke_3 : sha256 5d42efd790b644e3b3f13aa12d167d0409b3616d96daf39ca64d0b3bd42597ed -> e90dc94920ff91b1fce75d2034adfe67f7a8bc9202301993c6263663bd4bc7e8
+~ -[MAAutoAsset mapLockedContentSync:error:] : sha256 948a27cca0c19ac0984db01bf54441d7a3161c23b128d07a1305c2dbf08e1a22 -> 00c11ce2cf420218f140f8d4e4c46b796f665763627d5a5a7b1436c3d53aa788
+~ ___42-[MAAutoAsset mapLockedContentSync:error:]_block_invoke : sha256 83ac8bf81c0148471baa1c7b56406c480604145ace273abdd4074bdc2e361a01 -> 2024a378b7b788a788934aba010c34fad14e59cc0c33dfb9ff693c28543fb795
+~ -[MAAutoAsset continueLockUsage:completion:] : sha256 ef82001194fd88549e3166114fbf121ff97fb59d5ff01034d338882d78412c69 -> a78c442e88f8928c735a426c1d21eb5994d8816d113de271f62dc3e723cc289a
+~ -[MAAutoAsset continueLockUsage:withUsagePolicy:completion:] : sha256 fd44b6fe95c6c934c7ea05abe3c66fbd14d42b4d68cff61ce7f40b6d6dc9cda3 -> d6dc7c15f3a7c16aae929ef053d078bfac0dbc4976ba6017b7703ab76412243b
+~ ___60-[MAAutoAsset continueLockUsage:withUsagePolicy:completion:]_block_invoke : sha256 d91d5fd6c039bf89c096c65ec8592266b60b955225bda833376a336cadd11f1b -> acc84b537c214be6ad013e8dce145ecf6d56bfe2ca3a84e0210b92dea4054663
+~ -[MAAutoAsset _continueLockUsage:withUsagePolicy:isSynchronous:completion:] : sha256 5d9ccb0aa55f7556022c1f7890611c29585eafd673720bbdf06557b1ba969842 -> 178f64820191d8c76f6e1fe0085a076934cecb4d8682fa94fde01e362c37f532
+~ ___75-[MAAutoAsset _continueLockUsage:withUsagePolicy:isSynchronous:completion:]_block_invoke : sha256 1d9e236831b1845ccdf7d9e95b1b33376ed5e34f7b6dffcd9b2a1d8085184802 -> c85c7986142d05df590fa389022c8f76a58bb578fbb54579fe9b7354d66ec82a
+~ ___75-[MAAutoAsset _continueLockUsage:withUsagePolicy:isSynchronous:completion:]_block_invoke_2 : sha256 9962535b9e8bfe9598f658191f0dd94a678ae63dda850f4db849ac872584c803 -> 1f9275241e1a1f85b3e152633b555b4e57decfcc048c89d731ce5acdb6e6744a
+~ ___75-[MAAutoAsset _continueLockUsage:withUsagePolicy:isSynchronous:completion:]_block_invoke_3 : sha256 84ccf808ea7340e4157e55c31affb52ff043a0183dc6b4a23367918081ab6cef -> f468ddc1b750737cf16edea590c2b7b51c5d89850641cc0e98f8912fb65fe12f
+~ -[MAAutoAsset continueLockUsageSync:] : sha256 f8b99faf6dacb0de2be49b6fe725fe3eb51afd1b78ad4513b22d92d5656e65fb -> 69f5b15b004a51104c693630eaca4fc3d7e462825af0becac35036fb681f0ff4
+~ -[MAAutoAsset continueLockUsageSync:withUsagePolicy:] : sha256 3359da3596e1262ce1cf877f347aabe6200094637c1457b5555a9ed878b13500 -> 567a195c8ee374c72d5e0d53b6b0851a9868c38563704478fbc30900dfa4d044
+~ ___53-[MAAutoAsset continueLockUsageSync:withUsagePolicy:]_block_invoke : sha256 d10800c17e843771fe9d3b20c638ce24cab6fe6ee89e057aefbe2a3489950ad2 -> 029398f70cb21cbae8f2f33b8f69716f13c58d3749e2d7e6ef358ce66ecd0c69
+~ -[MAAutoAsset endLockUsage:completion:] : sha256 93dfb2108594a8f27389aacc0e2015a64cc83dfe84a8b74fdb57ca0acf9e8ae5 -> fe0bb44c521d74edf372c45b2a7de2d0b692a1cca8a6e60aca1b1764a186453c
+~ ___39-[MAAutoAsset endLockUsage:completion:]_block_invoke : sha256 69c0e52655b2d6688aa95421a7fba519cefd4c1e02fbc1d835393c762a1caa9b -> 435a3f83bb0593d95f0b41255b9b9fe17e12cad1c2bf08b45fd55753f25128a1
+~ -[MAAutoAsset _endLockUsage:isSynchronous:completion:] : sha256 9e2d1421eba5be433d44f090c288942b7a89c003297c34da67ebb9cfa4b96c4e -> 2d2fe2a2d69d56c8ad91689003222fb102445307883306d145a8ed02a3dbf12e
+~ ___54-[MAAutoAsset _endLockUsage:isSynchronous:completion:]_block_invoke : sha256 f9bb4ecd6d8da3f10f328083851e2551c9797a42bf3be8fc126465efb4fb6057 -> 0701ec7a8c39d0298d7f42c6d671515c184541eec59bee43894852187b433c75
+~ ___54-[MAAutoAsset _endLockUsage:isSynchronous:completion:]_block_invoke_2 : sha256 dbd0ce6aa963d3970b640b80bde74aabac5fb67e63a8fd7a066680d5f49d3ee1 -> ef825cb302cb4ed80a07b70a7706fffa34d177c5d153d27e6abd1249764682d4
+~ ___54-[MAAutoAsset _endLockUsage:isSynchronous:completion:]_block_invoke_3 : sha256 5e507024b9ca5bc5f5289eca3281a06507f3abeb710535f8bb0d08297106f9b2 -> 90a4c0dd1c442579c0cdba794c8211fe0edd53ac1740d1e69cee4c0081578f3f
+~ -[MAAutoAsset endLockUsageSync:] : sha256 12dba8e296a69e5a43e840967b188dd2920b6e864cf8bddf4c76c5741e090d26 -> 28a3d97e8217a901da822ed980d7a92cab3438b64655cd78a28c2efd7ae8dbae
+~ ___32-[MAAutoAsset endLockUsageSync:]_block_invoke : sha256 1f6eed9e484fed40d50bfb54f86beb2ad58e339a50bb95611819310151583ae0 -> 5792e19c1710ba96bc15183d5bfc232633e2a3f96b25dd07ddf411714f1f228e
+~ -[MAAutoAsset assetAttribute:] : sha256 3673ac6aaeb94e26b663e806c76fb20bc4469c762b35990c774e09ba29d45d5e -> de58007c4cbfdd75cd0415912f93a5010130c882ab4de2ca8efe386ff0782a52
+~ -[MAAutoAsset description] : sha256 49b63466e1ddf51440d35b81e1284946454780f5960885f3b0e479ab23afdde8 -> 1f372e28f385645b8bc637db79cfe8d80d240bb3e778e881f621cf470b6a7994
+~ -[MAAutoAsset summary] : sha256 0f417fc33a265953107a440e7dad966299901819a4177042f0f3286fce434f9d -> a2e0b9321152b4845a64f5d747d73d882153aeebb71fd41cb0302e0ca3a9cd72
+~ -[MAAutoAsset connectToServerFrameworkCompletion:] : sha256 6b7e607cfc704d485ec83581459023a873be57c866c853cb66b533e1d70472b1 -> a7f75ced010e9d6b0d5ee361217632c7f2e39cd611026e1ff4e4deeee0174eec
+~ -[MAAutoAsset setupConnectionState] : sha256 acc401b4e12afa43fe1119dbbcaa0ca4a50898a2f0b72a910b536546e1c4464c -> 5cace2741285f702a38a57086bb3eb947756f7a86eb94c6b7984ac9c6d460222
+~ ___35-[MAAutoAsset setupConnectionState]_block_invoke : sha256 2f4071ca08d2d07795fd0215d056e8a808859af12a8df053ffd6104f310cd598 -> a70ab61712bdfb317ddbcefa1aa6dc4444e83672a7bef2f0a1bf17f9cac374a6
+~ -[MAAutoAsset _newProxyObjectForLockProgressBlock:] : sha256 7b6dc8cf1a897d53fbe3c6cbbf9d4bed5bc6673bbd5dd7efe1679895262e6aa9 -> 27e7f742330b287cf5da105e78bdf22d515100c5897cf32a0670359a936f5297
+~ __Block_byref_object_copy_.828 -> __Block_byref_object_copy_.834 : sha256 4aaca4a8858011e72cd13a660945a05b6502e6cedfbc246c2d113e4b03e0106e -> fb46805af3420f6ec7e00814ded2d7e24199fbcccfda11bbe83c5b5e02d3efd2
+~ __Block_byref_object_dispose_.829 -> __Block_byref_object_dispose_.835 : sha256 4d53582b3893ac4f52afc9e514ce38e758c6ed1e1e8255bfb08369009c4b876d -> c6b18f6b0b6d5878135bc52e82061daa089cb74c9e665b3327c0fe1b07a26c85
+~ ___51-[MAAutoAsset _newProxyObjectForLockProgressBlock:]_block_invoke : sha256 34edb6a25e9368e3f146496c026335df5d66baf0049d275c2239d41ce3d94a70 -> c98ed83da780bdd84d0ab79eb382f06139e3f30fa1edd61de3b70c1be33bcb5f
+~ -[MAAutoAsset _newProxyObjectForStageProgressBlock:] : sha256 6bd9aa82d198e2ec1bf016512aa80e8e909019726525f4d6b661455d35a0e902 -> 1ccac091534e1be6690dd807ea7a6f81dcc137505e4d4bf116adfe12fa759ecf
+~ ___52-[MAAutoAsset _newProxyObjectForStageProgressBlock:]_block_invoke : sha256 da51996a137844924c3b1f9736ff5ea00bb3d6c58a52b53fd28c12ab135b5149 -> 42e2070d90c69ff3652a47ebef5862bbc67a938d15d35705a58831f41bc7b362
+~ -[MAAutoAsset _successInterestInContent:isSynchronous:completion:] : sha256 ea468d3b763a376e9c230378577c44ce93fcf33cc1649707da1ddf11b17dcb7d -> 7f2a9682559921aec77e5dd48059da46909e7cd5492388aadeaf9015c998f509
+~ -[MAAutoAsset _failedInterestInContent:withResponseError:description:isSynchronous:completion:] : sha256 df2d1977c3f1c86ac362343c6944405e704f3b17c3d66b50f9f7ceb89778ee1d -> c86ff021c9244d85c3e433376f2023f672e52047ace14ab3e855c563f4bc0c89
+~ -[MAAutoAsset _successCheckForNewer:isSynchronous:completion:] : sha256 eeed02560589907855f86d2d6fdd2f9d9eef6aecee7732057984c31a2a9e047b -> e797b562948d3ec1b0d5e3db126a233beccfd9b4df761c0c7c8bd80093aee99e
+~ -[MAAutoAsset _failedCheckForNewer:withResponseError:description:isSynchronous:completion:] : sha256 e8bbd3d8dd6c3d584fe8953efb35dc3073f8aa34c70fa9fe315698e5a87da17d -> 4b1ea2dcb1f94f556205ef941eac5d68105e41aafd8e87ebd5a5a6eb2ae30d60
+~ -[MAAutoAsset _successDetermineIfAvailable:isSynchronous:completion:] : sha256 07b0853c85151d183dd69335084b33c7ebad5b69ee3e89dece2c0fadd0709b49 -> 687d7845916b0188d17f26a769e4297a2f04648757590e162ac9457a3de0e37f
+~ -[MAAutoAsset _failedDetermineIfAvailable:withResponseError:description:isSynchronous:completion:] : sha256 c7d075e915e4d35c0df5abdf18a10a86d92977a1f3b924b9da02bf2943b51172 -> 0f8c12689e4108abe322407c011ebe9481865e2f934e17c085f51513ed50e36e
+~ -[MAAutoAsset _successCurrentStatus:isSynchronous:completion:] : sha256 7428cf28aff39c17d5aa9e5899a9b45b2c741e0be0cb66a6a5590d49dba748bd -> 7f2639a090a3a677601995adfa6fa18ae63d8b8e936ebe1a29b143c31e1d51b5
+~ -[MAAutoAsset _failedCurrentStatus:withResponseError:description:isSynchronous:completion:] : sha256 0d796aeb4b99bc022093bb57d6347a662a5399ecd8db270cf0b9b6635a5e7759 -> dba830021a793affe3e04285ba9a65cd366e6adf85d2a966a9932baf92c29f64
+~ -[MAAutoAsset _lockContentStatusProgress:lockForUseError:progressBlock:] : sha256 fe5e9a2d8fd255959303ceaddf471453f90d2be24a2ab8765358a93a1577fb55 -> d7319d6b97c2706d54c72cb9110b64f808aa3a816f3ba632d60580f0a442d403
+~ -[MAAutoAsset _successLockContent:dueToDesire:sandboxExtension:sandboxExtensionPath:isSynchronous:completion:] : sha256 9e5fd2599c5b68a90f8259b877a0b0d01229f9a76601e5c54c8e2697be10d44f -> 7ab6c544537a2ee3b9cff983470a5189820e5b9b825b346ea0c025f979a65a8d
+~ -[MAAutoAsset _failedLockContent:withResponseError:description:isSynchronous:completion:] : sha256 cf6abc0df3885a57da4a5d71319ed8cc461c3efd21613a8994ec593210bef96c -> 2092ae5b4ca8424b2312b8732e8d0bf934658b8e5cdd6ff20449ce0170d75ee0
+~ -[MAAutoAsset _successMapLockedContent:dueToDesire:isSynchronous:completion:] : sha256 37edb013e7d3878341aa5b9e7530d5f87a94ba683ab60340fdbe1a0a2449c818 -> 3690f3f08e2fd15e0a724edfa488b4679a4ad5c49490943559970e42f7bb8f76
+~ -[MAAutoAsset _failedMapLockedContent:withResponseError:description:isSynchronous:completion:] : sha256 ad1a3866a33dc523686fcc4a3031f5c8dcc1930910eab9997da71cc350585226 -> c90f48d1b03ce8b4519df47102bdbb4f00a2009595d0f7a124b424a79011af53
+~ -[MAAutoAsset _successContinueLockUsage:isSynchronous:completion:] : sha256 720eec1e7f274d54d09a67a17cfea23d358816b136712d4a76fa9148e2ed8dbe -> b33fc1ec5f5ccd24c09ab470203f641fd8ab6882058695a4eefd7908801e7cf7
+~ -[MAAutoAsset _failedContinueLockUsage:withResponseError:description:isSynchronous:completion:] : sha256 0f34f365ce2c621ce6f77b29078454993c345c45d1f3d3b2e207acaf33f4da3d -> 3530ff9a6979ee01986480fc6a66cb05b237ff04f9f20f80343e1a87af854f9c
+~ -[MAAutoAsset _successEndLockUsage:isSynchronous:completion:] : sha256 5f045a5d8d306c72be0693445ca237d6c941070b3e8bbfa239320609cb959ef2 -> 5a45d10e843a41c483d3996ce0f24baa369b7c64838bdd7caaab25689419fb17
+~ -[MAAutoAsset _failedEndLockUsage:withResponseError:description:isSynchronous:completion:] : sha256 c6c5a554c18fcd19e364adcef643e8b47a6b78af8f83d5ed35256aba0edf3d4b -> b9dd00523866d97c92f6bb21b7baa6d5ffc179c28c1bec86610b3cec62331b92
+~ -[MAAutoAsset _successCancelActivityIsSynchronous:completion:] : sha256 8f730ed03408ae914d6c12d918b3c513c84d5b319909a9ebdabcd2c66d8f2e8d -> fea527c1e4916a7ec56d447519dea0f4e613243a6c2a7b1bf7fafd4a6c97897a
+~ -[MAAutoAsset _failedCancelActivity:withResponseError:description:isSynchronous:completion:] : sha256 74c0f6f023afb35e2557858f821628ec45971cf9255b79022633ba6d6f4537a8 -> c43641c236ba8f8aab8e1deda9fd8cc4509fb75577f194324acfd6337c94d4f9
+~ -[MAAutoAsset _successEliminateIsSynchronous:completion:] : sha256 5933095fba3fb7ae4fa683f87a54ee8fa9d8bff8dd498205da997e0d14b004e9 -> 830386a5104b631514718bbf65b3dba29ea0aa8a5960879b920e2c3b3329dd74
+~ -[MAAutoAsset _failedEliminate:withResponseError:description:isSynchronous:completion:] : sha256 be6c1a785c6dbd6878730a3d047de21b9667ddf3fc5b46ea803b35f74fa17e82 -> ec36348e93cbe512eafb66d95bc499bc6ef2eaae0fb6b2210c72ad5fa86015f0
+~ -[MAAutoAsset _successStageDetermineGroupsAvailableForUpdate:isSynchronous:completion:] : sha256 96994ab85ed07c427a4d31d8f84b6fd57ae2bdc1fee0c01a8ca5c7e685940500 -> 4a7b7ae48508a5aa57353b051f9114d2c77e8a5ccfb633f41b50ee74f04580e6
+~ -[MAAutoAsset _failedStageDetermineGroupsAvailableForUpdate:withResponseError:description:isSynchronous:completion:] : sha256 23c601f3ae49890264436b1040cdaba46ab5990814647d6f143f1d23b7335ec1 -> 66071e7b800193b8afc00860ea6c3cfa3e3406b794e3e3e3d508518baa019560
+~ -[MAAutoAsset _stageDownloadStatusProgress:stageProgressError:progressBlock:] : sha256 4ef017384a5a57b5e523d5b16e37252de0085724a1bb1ad3b2eeea74a9e94e59 -> 2d9d5e8b574963565f2d46c4bbebb1c22cbf87a9ff581c6189411b3bfc2d1977
+~ -[MAAutoAsset _successStageDownloadGroups:isSynchronous:completion:] : sha256 61708f29b045cba6aaf40af8703517967e375e2e2205b856ac377a1f53d9c3fd -> bd1f9d55c948e6abb722c4516d20e41dd29958471e6f174d1d44da00a2396c78
+~ -[MAAutoAsset _failedStageDownloadGroups:withResponseError:description:isSynchronous:completion:] : sha256 fadb4ac60bc24101f4f048b1c91c522db3a26b7dc07e3ea464b1a9a4c11d9094 -> b2a4f56a4d0ba99fd58bfb49830ccf218f76dc197046c407c3d350c45b604569
+~ -[MAAutoAsset _successStageCancelOperationIsSynchronous:completion:] : sha256 c9b0096b55fb2894025dbd0b75f6cd080435dad19257425b87f51ddcea8c5c40 -> ab72b80709d671c4ce901c4cbeccf045bc8d9dd7182f455e89e0546e51c50e43
+~ -[MAAutoAsset _failedStageCancelOperation:withResponseError:description:isSynchronous:completion:] : sha256 cfa700a2041b21d0781000b00bb5077cd2d5325cb4ff4b11e46bc036c812aabf -> 392bd9d37ea94ead975c39d36a08b256b332992d4a641fc73b8b97e33d1cdc66
+~ -[MAAutoAsset _successStagePurgeAllIsSynchronous:completion:] : sha256 e3351a630279ac4aab23bb92c71d84a28bdc8cc35b24c245f9a71841db939cb7 -> 2b0d0e6cc8ed888043d04ddb31f911e0f34e231e2d6f1280b4d9d62fce479f14
+~ -[MAAutoAsset _failedStagePurgeAll:withResponseError:description:isSynchronous:completion:] : sha256 b34ae23cb856d93a8f3c765db62f9cc2a96c12238db94393d4330a1ec2582d24 -> 0117339a03c005d42846b5dd29ca2f004a66b57a0c4c90bc358ba2af8f06057c
+~ -[MAAutoAsset _successStageEraseAllIsSynchronous:completion:] : sha256 cd0f71df8755f4e2cb7fbb3ca7fba9a53c6b3a4fa756ba24653541d211df0361 -> 36b5606c3d6ae7d7709278191a1612477259c7edea40d48a1eced52ad23ade23
+~ -[MAAutoAsset _failedStageEraseAll:withResponseError:description:isSynchronous:completion:] : sha256 ce17022494b63f1d42fa6a086c9842e3d40228674dfa839861966b0f3a265674 -> 3f13a09593402c4fdb2b4e62d13f10122b4c3c5224dfda61e5d4d6bf57c2da8e
+~ -[MAAutoAsset _waitForStartupActivatedSuccess:] : sha256 a4827562100d9ad7edc5b6200e872c3cabb9ca00bbf198ac30d6452ae0389ea8 -> 47f4c5db436711e19a45f1ae8dc475183fc132978231bf021243123660dd74f0
+~ -[MAAutoAsset _waitForStartupActivatedFailure:withResponseError:description:completion:] : sha256 a6e4430dffaa7375e4e13d20c9670f28da308a25b8b3da7e94ceae00bde72696 -> 2a90f2d9077e8ddc44215978375bd29193e20fcbdbdf8c26ee607feced33060b
+~ +[MAAutoAsset interestInContent:forAssetSelector:completion:] : sha256 38eec191a0b2ddfb9e580f84d548ffd6ca921f0ce567cb8c4b683f470af39408 -> 1afe99d75dde47fc0c9eeb3630db8ebc193e7e89a4bbdb7e628b5713534b36f5
+~ +[MAAutoAsset interestInContent:forAssetSelector:withInterestPolicy:completion:] : sha256 e38ba0319aac0bcf3e06f702f599d68b9ce2c6b3ef015ea9a623d92dc4d2e169 -> b2a0f5c970ff6552a3821abf7d69ef2572109f8970e79ff8a2cf9ef7cccba72b
+~ ___80+[MAAutoAsset interestInContent:forAssetSelector:withInterestPolicy:completion:]_block_invoke : sha256 dcb5877174999094d23284d2b96f4552d2e2e29fb3d380bb552596739147053f -> 53d20937dd2637147f778827815af9bdc4d031f805bd757f9460a6d8a05592dc
+~ +[MAAutoAsset interestInContentSync:forAssetSelector:] : sha256 a064c63872a415297ab9977dc0470b221b5e4b40551547af6d6bcf53afbabbdd -> d4ac0edd9becbfde1bb23d114b924fc3b5a54f1f55070436aac7b2d5f3b9e226
+~ +[MAAutoAsset interestInContentSync:forAssetSelector:withInterestPolicy:] : sha256 bc741998bb11c45a0bf556a6433237665672a5b9193701e7a054a9dedea01e42 -> f217e8756667fa76a8c71af488a02ac633dd157fd0b0393918b72bbf590b843e
+~ +[MAAutoAsset determineIfAvailable:forAssetSelector:completion:] : sha256 ee2f5cb2b8073427db2808049764e0858005fa6bf5055b727ce26f560d1fd018 -> 9221885d429ee9b3cd53a41498e8e6d4c6ab455d0fae3aca41357d5c6a2feb0e
+~ ___64+[MAAutoAsset determineIfAvailable:forAssetSelector:completion:]_block_invoke : sha256 fc502b8bc32da525420d3fc1eedf437ab29f0c6ddf6287a1a0aaac3c36566ca9 -> 7efc31ab9ee1724962d6d60859e51fe9f39550a265ae199fc119e6c2ac12fbc5
+~ +[MAAutoAsset determineIfAvailableSync:forAssetSelector:discoveredAttributes:error:] : sha256 8daa41d9a7978e7cb4831ec0a03ed021f5159c74c04a204cee8ceb3213d27344 -> 358d3d3b546e00613b04199bded929e14994a549dc1fed2e228f14942324fa52
+~ +[MAAutoAsset endPreviousLocksOfReason:forAssetSelector:removingLockCount:completion:] : sha256 4eae382132541a6f434149eb30b9a66aa0d6259e835c6b4186cdeb3e8fe33040 -> 941319e0eb349948f571c1346f30f1011e73174b84a441931f90e83a14749267
+~ +[MAAutoAsset endPreviousLocksOfReason:forClientName:forAssetSelector:removingLockCount:completion:] : sha256 6dfa5d9961a5677e633b69541a1ae441cbe5ba9edf8531c09b1fd9a2c0abc54a -> 6ce02043bdeb4c8c4c72aa23eedc736499dc8d417d17982c13c7cb5d88622e31
+~ ___100+[MAAutoAsset endPreviousLocksOfReason:forClientName:forAssetSelector:removingLockCount:completion:]_block_invoke : sha256 8b0fef915178d370409f070a6edfb6cb66792788a447f010fab9d1f35bdb5ed2 -> 0e3c95e1265693b7c71ffa209b4686dc451340dffea70a5879d06632b727f1a9
+~ -[MAAutoAsset _endPreviousLocksOfReason:removingLockCount:isSynchronous:completion:] : sha256 e4bedd01bd81338ff159cbd20ec6221932a1ca7813d107b498717fe138ac9743 -> 02830bbfac20a1f5d076a3e3803574d3921d1d8ec027f0ed1fd38fe771c65a23
+~ ___84-[MAAutoAsset _endPreviousLocksOfReason:removingLockCount:isSynchronous:completion:]_block_invoke : sha256 9b12c4a81851f15885c12df31c2d55fbbca7473f11ba6809ea511df040b9f9b4 -> 4e9bf31e436666448af66977801f68ec2b113728de1a10c6db48e0ef341732f3
+~ ___84-[MAAutoAsset _endPreviousLocksOfReason:removingLockCount:isSynchronous:completion:]_block_invoke_2 : sha256 29845e01ec5154768dbe41aa4a4dcd5f267bb410a067c8d8c7637370dd0734d6 -> 88053c514d9a652532ca6e6f55b848b263010fa47053def24f29f0d31539e9cb
+~ ___84-[MAAutoAsset _endPreviousLocksOfReason:removingLockCount:isSynchronous:completion:]_block_invoke_3 : sha256 a309b0ab79b25e7fc92bef1439db735feaa1ddf1b237cb84557648288779313f -> d348a2a21467007404ee19ae95a4fb754c97764f0e043fb5c837e75d8513107a
+~ +[MAAutoAsset endPreviousLocksOfReasonSync:forAssetSelector:removingLockCount:] : sha256 8fe17725eac5b3a992b70a3a08579173646944a3d432e57db7f034afa43aeecf -> 4a7a41a6b402b925dbe248d55af47d130d963af228dcdefb5fb844c44bcd896c
+~ +[MAAutoAsset endPreviousLocksOfReasonSync:forClientName:forAssetSelector:removingLockCount:] : sha256 1bb17ac9677b106dd74602bb75f3db17f02150d16f414a5e25869924ae27e332 -> 48124acd55c6ac1469df8e5b4d20fa667ac1635b205c345cadc94ba6a34fa13b
+~ -[MAAutoAsset _endPreviousLocksOfReasonSync:removingLockCount:] : sha256 0255e2a1ec9a533f308643f9373d2aef74e38c3bd36f3fba3520773fc7c09f5e -> dda5b9a4ae6dac5dacbb749e8bbcbb365d20890b76ef4f1c4322531b5f056133
+~ ___63-[MAAutoAsset _endPreviousLocksOfReasonSync:removingLockCount:]_block_invoke : sha256 dc2894ca4620d85020bea3b5185a0b788ff05b513f300f698bf13f32e7b983a1 -> 861ae4acca84c0ec769133ad9e02dc75a3f8dcd0e86af2eaabebc4fe3629d951
+~ +[MAAutoAsset endAllPreviousLocksOfReason:forAssetSelector:completion:] : sha256 c86e1733648450e268106c3585aa007eab73a9acaad3fac797c3a60dbba82429 -> a19db26d070df8456072845cfc4ad7ad37f93308891039df344484a28c594ed6
+~ +[MAAutoAsset endAllPreviousLocksOfReason:forClientName:forAssetSelector:completion:] : sha256 66d56b5abf37114a1e826808c63ee6bf2099e2cb714d3e0216a4002fa951da58 -> 7d8ec2537df56fd78623dfed1ff9a8e7c866c0b6ccf6c478ebff156dfd612e9c
+~ ___85+[MAAutoAsset endAllPreviousLocksOfReason:forClientName:forAssetSelector:completion:]_block_invoke : sha256 794940d01abfcfebf56c88a978324a51c6ef02f012517a89e67bb9c3d731c41b -> 6883c6c37795a404c2885b222890ddbda9d0830bd6d8fb67aa4f9fbdfc3e0e66
+~ -[MAAutoAsset _endAllPreviousLocksOfReason:isSynchronous:completion:] : sha256 b06b55279bb2de4629af7262f1b8cb435de2d7463f96bd886d6b42d71acf1f58 -> 2c563ecffd9b8349c16cd9c939e58dd2d99615782cb4bfbf6ffb717d1a5ed206
+~ ___69-[MAAutoAsset _endAllPreviousLocksOfReason:isSynchronous:completion:]_block_invoke : sha256 90514bfb385420cfe8f1580a6cc68f0c49ad490205d22712624e89ccc9dbfd2a -> 6cee186ee4632546f074d8670ed4bcb4ac2812b4d7be3090f69615d142c38429
+~ ___69-[MAAutoAsset _endAllPreviousLocksOfReason:isSynchronous:completion:]_block_invoke_2 : sha256 babb9d53b7c14ba6a73e75a722171bbf9043429076438df70eafcae8af4761ab -> b789dc5fd3985e903087f09efbe3dace3ee78e53e0c7b76d6cd3a8fa6bc4ba13
+~ ___69-[MAAutoAsset _endAllPreviousLocksOfReason:isSynchronous:completion:]_block_invoke_3 : sha256 e55e962793de12499f222c72f81c06f08959ce6f64740f64b977227bf2e1b479 -> 4bd40c5c9abf5dc722cdf9fae1f68b102dc257b4909c642bfd83f064663778f9
+~ +[MAAutoAsset endAllPreviousLocksOfReasonSync:forAssetSelector:] : sha256 ddfd54e5b4e2708c68da3a26a2821202f868e4be800755d4db71232a5acc51d0 -> bf716fde6cf7530456993580913e1b2107a2d4e39ec0588ae8b16235607568e1
+~ +[MAAutoAsset endAllPreviousLocksOfReasonSync:forClientName:forAssetSelector:] : sha256 7aac98201cd1804ae686588788beced63b4fbe333b2d3fcbe2cf3176f6d2b4fa -> 4b41ee00ef4f92832caa9a0dbbdafe598b66cd46ec9166bfeafc4bef07304207
+~ -[MAAutoAsset _endAllPreviousLocksOfReasonSync:] : sha256 1bf04de29b8fe631ebb55d2dcb885b8dda390b940790215c37c2e367a55f8a28 -> 3c5c263f59e6ad235d828ac44708cd0e301fdb9f26c15c5c30a4ed00053b2292
+~ ___48-[MAAutoAsset _endAllPreviousLocksOfReasonSync:]_block_invoke : sha256 ec715f3cb5769d81c1aa6feb412dcc647cac67ae619faca61216937b6a048076 -> 40cf42dea407ce9be43b79f1871d7fce3895fed32038f963eac3c1f39904da7f
+~ +[MAAutoAsset endAllPreviousLocksOfSelector:completion:] : sha256 4258eea625aac249fdbbff34a2bd54569ecb89058cccd351ea19d26ad4e6af11 -> 18158950ebaf0b047cf65b4b6c657ea81b49a44df57e38ae0fc3a0ba22a65004
+~ ___56+[MAAutoAsset endAllPreviousLocksOfSelector:completion:]_block_invoke : sha256 a7c262e86eccdaed3d9f193c5c153d7b8dde61008204a2d310b7464b69b8f852 -> d33cc78118dc867c31e5b655df078d2e83abe3f0c9872ee2f9262e8b3147e4b9
+~ +[MAAutoAsset endAllPreviousLocksOfSelector:forClientName:completion:] : sha256 caf4ea693c15debfcf084be1275c6f61e051b74a4dcf597890de2e26249fcd11 -> e58bab364d66deccebccfb20d1b895ba1b62146f46a9480b712f6c797abad1a5
+~ ___70+[MAAutoAsset endAllPreviousLocksOfSelector:forClientName:completion:]_block_invoke : sha256 152abceab87e5b58f1d8ce1206a7303faf47f2cd85f1f39cfac36610cfa5e246 -> 208ac526e83fb684445bd6d5d030d1a6d32caa7198f588f74a7ed31603520f15
+~ +[MAAutoAsset endAllPreviousLocksOfSelectorSync:] : sha256 d5cd5a0fa95824bc1daa9da36fc2b8abf220d7ba097215ff900c09a23aa8ed6a -> e105bed6f91a903a17ae6c1440782aeaeedad6c4b7386092f34eed055ec35ac1
+~ +[MAAutoAsset endAllPreviousLocksOfSelectorSync:forClientName:] : sha256 07efbe9b6e6602f52842edd12d94a3c5d662d43cdaf3a5ea20b8e0516e96ec0e -> c008bb0ee2c385b9dfc6cb51eb70e56ad78f0ced82415abc7a5bc4576c13f965
+~ +[MAAutoAsset cancelActivityForSelector:completion:] : sha256 ed56bea0388ce69648721a4082f1077dc1210070e7dd07316f3c2c4337f2c3b0 -> 61877d9baebd898cbfedd8f89814c198c767a3578d6f795a79fcf4f29538dbf9
+~ ___52+[MAAutoAsset cancelActivityForSelector:completion:]_block_invoke : sha256 9d32fe7ccb4843be397fda7fdbc9f36daf95279c80c179c3ee2cdebb1c2b302d -> 26d00998365403ed841ce052cab0aaa0607621bf758cb3031e9f5661f88e3ab1
+~ -[MAAutoAsset _cancelActivityForSelectorIsSynchronous:completion:] : sha256 2818bcfa108c118fbf7f9ec0577b5ef92f414760e3ac9e087284202a17a66719 -> f78ffce6ccb40cae77a96d830d4a765a6861507d3be65cc362cb842c89842eeb
+~ ___66-[MAAutoAsset _cancelActivityForSelectorIsSynchronous:completion:]_block_invoke : sha256 a7dd4615d81db16c3bb812d72d568e0c922d2d577f46abe2af95ff28724fb8a1 -> ec6be2b5e0419e5730b71ad685ad0b40e180fb1c9aa9de63de15c1ad9c32fc46
+~ ___66-[MAAutoAsset _cancelActivityForSelectorIsSynchronous:completion:]_block_invoke_2 : sha256 dd79774470046a6e297c75603f04f470fb7b043436126dfb6ecb98dcc8b5e0f4 -> e1140ea2e3b53a61c3ae6e6154dbcb5520c663b6bb19cf5102c8cfa6f09fb468
+~ ___66-[MAAutoAsset _cancelActivityForSelectorIsSynchronous:completion:]_block_invoke_3 : sha256 92dac3b65b3d87d21407582d237e44bbce60b90fc7db3e3ecc268c9b5399d389 -> d45968e53cff9da534814390f322f54434310292c023a0cfb054514d0c99bb71
+~ +[MAAutoAsset cancelActivityForSelectorSync:] : sha256 ee6cc9837d734062c5fa56750c323cb7c6b8c3fe02edb5d191f184832c810bd7 -> cdd7e2f0004ee6ab0e7d2bdd3734638ecf33da25ca98de024a5a57bfdf33fcf8
+~ -[MAAutoAsset _cancelActivityForSelectorSync] : sha256 e6f5a0f69e2af8ddbb5233ad7eea76fa9fdb922e1800689cbed753c1754cc1dc -> 0bd95c0625979992cf91b863ac83cbc5266e2646a3173c521d3a9ff28cae5da7
+~ ___45-[MAAutoAsset _cancelActivityForSelectorSync]_block_invoke : sha256 c9299402a89fd590cc57d0ea37c67736e0ca54d4d3f54fdcc3fd9373e4948e53 -> 565c34d8c85fd935e34f0cd9ba2aaa5918bc94ba2b6cdf43b208d73e2caf12db
+~ +[MAAutoAsset eliminateAllForSelector:completion:] : sha256 6fdc60b99675143b6acc45e84f6bbe8572b51de6c448dac50bd161058de0d521 -> ff7f7ff35425fd7fd122facb8d8fde9020f432672e2d7d16c90a316e72f65af4
+~ ___50+[MAAutoAsset eliminateAllForSelector:completion:]_block_invoke : sha256 c159b72939509d8a5b0f93d3477c468482d5b048d0f588e501915c6dab449d26 -> 309912d67e3881dd7bd9a8d19593e0b881a77cef36673a987ce864c841701031
+~ -[MAAutoAsset _eliminateAllForSelectorIsSynchronous:completion:] : sha256 8308c96abef695bd75f970bd645ea55cfacae0eb7db73a70890b051fb0eb493f -> 7b340cc86e17fe1440b44f34b7e108167a2bd7b4c8fc45617b9ff89062a9c0fb
+~ ___64-[MAAutoAsset _eliminateAllForSelectorIsSynchronous:completion:]_block_invoke : sha256 d6e29ed29cf7a0fd06a16a6332211ed4b079b7522d8e653b2904403360d64d23 -> eaadfd466fde1894b8191902a04d52d9033140d885769d45809c921cc0a83a48
+~ ___64-[MAAutoAsset _eliminateAllForSelectorIsSynchronous:completion:]_block_invoke_2 : sha256 8e7b658ffb1fe7a3db053cd96db3be0ac6d948ff0977f7012a1232091de436ea -> 72e0f93e8b2ce9dbfd1b6c1ee7a09f304339c239aa48751093df5a5cf25e8e76
+~ ___64-[MAAutoAsset _eliminateAllForSelectorIsSynchronous:completion:]_block_invoke_3 : sha256 f614069fce84309ca8b380fcf17ae136e794908d1e9a45e8af310caaf4e04b64 -> 37f6f1ac7b9ce78f1bac107d16dec56a2eb83b27041ea4f23edf55c6659e341c
+~ +[MAAutoAsset eliminateAllForSelectorSync:] : sha256 90c780166072770d62e5d036a047e228b7792fdc424d46efcd52e08ab0efe442 -> 284f1c1c5650ea6a895b0b8ae1951a4ce024f8769cb2c64c2347f51115b7b89d
+~ -[MAAutoAsset _eliminateAllForSelectorSync] : sha256 d955421cef8038f03bc26380d9d49c4779c2960b62c75de6c08254093ff5514b -> 44791cf447c4ece7977324e360d2725474c07d29dd09739d528a21e8e7953657
+~ ___43-[MAAutoAsset _eliminateAllForSelectorSync]_block_invoke : sha256 6be5551d6ee1399588640781fab150b95e459f02e4532c6a5a68f7617c48280e -> e73383818e4ae485d66905864354693c094ff299dfb9ecaf8720f243e95a5895
+~ +[MAAutoAsset eliminateAllForAssetType:completion:] : sha256 cff96f448cfd2feae2818b4dbcafe75a04b918846fd6afd377d7ffdfae2f861a -> a6a6ba123316b65cb7e3f7dbff33eab09feaf81a4165e2e6c6ab9e829eedc575
+~ ___51+[MAAutoAsset eliminateAllForAssetType:completion:]_block_invoke : sha256 e63be9fa405294f4e978658ecb01ffe0e7b22bce4ae7c42ef6c9adc912f66b42 -> 600a2c6eee0458ef42a2ae8e502b8c9c42e668532136a7821aad722759cf73be
+~ -[MAAutoAsset _eliminateAllForAssetTypeIsSynchronous:completion:] : sha256 909e3f56788866822301cbf920f4d72b0f7121e7fd1f5e0a8a6264e520dcbebf -> 9997267f63af2fa747d4140d3203509f91faf28e5d8e1039ac22b09494748f1b
+~ ___65-[MAAutoAsset _eliminateAllForAssetTypeIsSynchronous:completion:]_block_invoke : sha256 a497e2d39fa715bf2b11bf5dd9dd474ba5aac8f86f1c0a617f94beee2b92f08c -> 2e70dbb07b2fc962b155f6d90b14d757e603abcd72960a0e6a80cf7e1a5b72e0
+~ ___65-[MAAutoAsset _eliminateAllForAssetTypeIsSynchronous:completion:]_block_invoke_2 : sha256 7a75a08ee075cadd8187f323f6b98845dd61f4daa13127bd4f90e72ab96bd1c7 -> 3f6b6764fc17a7f1bb4d2db23cf61f07e5ad43b9c0268426b90f374a3d2b5db3
+~ ___65-[MAAutoAsset _eliminateAllForAssetTypeIsSynchronous:completion:]_block_invoke_3 : sha256 d4049832344d674da2bc6024a6abff7cf35a80dc8ea3a7d00b38cc57ff3b9e5f -> 51de0d1b851fa2f1a769b9232fcd7260f4d6e8ccebad2f52a0e219da078eb42f
+~ +[MAAutoAsset eliminateAllForAssetTypeSync:] : sha256 fcfc4589574ed5daf46d89152be524b34fe009889c0cfeda633fe5669d2c9631 -> ed9d0eb148ecb5900e4b48a526ddedc0fe8fbab41abf6934333da34c9dae2645
+~ -[MAAutoAsset _eliminateAllForAssetTypeSync] : sha256 c30270f40c515bbf42e1fcad676247d32ef3910a1b37db7b4b0e05a400ef84d8 -> 8af68153097c0db0a8840d883ab835d9fead26a50624998cff2b370da2d2529b
+~ ___44-[MAAutoAsset _eliminateAllForAssetTypeSync]_block_invoke : sha256 2e59810a826d05ed88a45233c6e58d73ce92a1d53098d8734b5500c01a77dd39 -> b2e38457c3bf6339877b3532af5b841cb227c39916afbb2f4a78b6b0192d217c
+~ +[MAAutoAsset eliminatePromotedNeverLockedForSelector:completion:] : sha256 1b736432a522e50f9b9551aa705aacf585afe5a3bcb521d989a79ceac7936859 -> 614e317007269eb1abba0cd330e8c1102c1ec370aa9bcdcdaf538c5e5a155305
+~ ___66+[MAAutoAsset eliminatePromotedNeverLockedForSelector:completion:]_block_invoke : sha256 3347ab4b2651d271ad9a2de52a304c6e114067a0589cf37fe7ecedd846b928d4 -> f318e27524d6121947b2be337660af7d684d1a70081586d7e6f2810a9bd70364
+~ -[MAAutoAsset _eliminatePromotedNeverLockedForSelectorIsSynchronous:completion:] : sha256 4a3a00f373be19d365842c6dfc9f132fab79a2ed5c7a07f2b81d7103f7d82fec -> 537a9e639341e0231ed22f7a40e82d648e9f839dd7556ba439b29d90f531e4a1
+~ ___80-[MAAutoAsset _eliminatePromotedNeverLockedForSelectorIsSynchronous:completion:]_block_invoke : sha256 510cc4ce39e694e534058973da5fefad2fcd681170ed6e9b6f5f2115594c7b9f -> 28f7f92c954efa57999e5bc9aea54f512d7a63b5d1ebb53dca0b8f08ff28a2bc
+~ ___80-[MAAutoAsset _eliminatePromotedNeverLockedForSelectorIsSynchronous:completion:]_block_invoke_2 : sha256 344362b1f481affa0446d39b60ce59106e8a31839dae5595f74a22827d867284 -> a77f761fb54fab222a9ffeb8105f8eb34e5fef3a9c434312d1c4b459d266b326
+~ ___80-[MAAutoAsset _eliminatePromotedNeverLockedForSelectorIsSynchronous:completion:]_block_invoke_3 : sha256 bcf3710fd690585e8e6d9a0fcf5ec615bfe6f46ca956733d2794fab34123950c -> 1e4789e412db28319f927ebf62759611384201b66044c46fa07d72e4686f198b
+~ +[MAAutoAsset eliminatePromotedNeverLockedForSelectorSync:] : sha256 a8d7783da257dc40bdbcc955b6bb82cf94fa02b62e92b25048635d96896b62ff -> 1dcea92f2888c5407a8e81832fc2b0862cbe5eedec6e3160def197fd5347eba4
+~ -[MAAutoAsset _eliminatePromotedNeverLockedForSelectorSync] : sha256 edc2b61d11012e860f547a835174e9d277f624de496000d4ad722b238e24b4d8 -> f6f1a944c20dcce7357071c3ccce03c0da7ee0d39629f69a0321e3164104c311
+~ ___59-[MAAutoAsset _eliminatePromotedNeverLockedForSelectorSync]_block_invoke : sha256 7410a6c0f678f01135df9903b2300491bf16a60f90ab2e0cfcede1b77fb63a88 -> af87993f438e8c7f73265b3078a56b72374581fcf7c97aa984f871a4397f740d
+~ +[MAAutoAsset stageDetermineGroupsAvailableForUpdate:completion:] : sha256 4616b89d093dc815a18a9f00c8520bdce764fb31cd16b6e6b0807cafd6ba3e15 -> 500b6c944fde8d740f0758b3c38873a0ecd3e86a98f7617f4d59819f8414e2a7
+~ ___65+[MAAutoAsset stageDetermineGroupsAvailableForUpdate:completion:]_block_invoke : sha256 aa8075e96c18caab4c2e0dff23dd0aeb7fcb312428b0b6e8f34b77c137b47552 -> bcb9c933ce4ed2618f66a60ffa072ec46ebaa1fdc2d5875b3de4c39f54f74271
+~ ___copy_helper_block_e8_32s40s48s56s64s72b : sha256 51510c644799f39674e66348f96c3ae3e5aca6cfd4c36385fd564514d3cb916b -> c7c9ad9919ff22ff3a1e28772c9780cfbc5240f19be717a7af7b62b44f4fc6da
+~ ___destroy_helper_block_e8_32s40s48s56s64s72s : sha256 2f01bf6fdda858f5f255d4bba189592ada955597ffaf0316d051bd24db62399f -> ad308ab777c8c083f6bc84c876dee3da0f9060691fdcbcf93df8b9887fab5527
+~ __65+[MAAutoAsset stageDetermineGroupsAvailableForUpdate:completion:]_block_invoke.1042 -> __65+[MAAutoAsset stageDetermineGroupsAvailableForUpdate:completion:]_block_invoke.1048 : sha256 d3e38652cd1fba9bba354be526e4d872febd259d04c57f59cb06a94e40017161 -> aac1d4eab194e83c06ae9d84cefc73a027862c95ac61ed7f2914ae850d914e0c
+~ -[MAAutoAsset _stageDetermineGroupsAvailableForUpdate:isSynchronous:completion:] : sha256 1e8e466f6302adc163e83cda07d574b703ea3433fbf0195b74c14dbf6503a1ce -> d351791e5566a2d2e506c1c15704a2356b38a10168d89a28a8e8fda81d474df3
+~ ___80-[MAAutoAsset _stageDetermineGroupsAvailableForUpdate:isSynchronous:completion:]_block_invoke : sha256 39d6a5cc14b921d87b34ed7b7afeb83bfc854f10aa6647dd2520dc7c8bdd6cb1 -> d346321c3a8a46c311ff7107abad66aa11b05379df2f170d1a9321b33cf012ba
+~ ___80-[MAAutoAsset _stageDetermineGroupsAvailableForUpdate:isSynchronous:completion:]_block_invoke_2 : sha256 ae1277a8139d13eacd36d1828adbbf2384ded11d905084411bc620d0331b88d5 -> 85528713a36025824367ebcf7c0ecd28f12335ba60875860de2d67812511dcb9
+~ ___80-[MAAutoAsset _stageDetermineGroupsAvailableForUpdate:isSynchronous:completion:]_block_invoke_3 : sha256 835dab0a91bf512865b12a70361ebe1f77384d4864e9574949d23db7fb767139 -> 07bdbca95f4d6a316502dd18a81e060bd9719e959bdd373119e651c761609371
+~ +[MAAutoAsset stageDetermineGroupsAvailableForUpdateSync:totalExpectedBytes:error:] : sha256 91fe5dfd00b7bc82e60cd4bd05cd7276cbf36d24f2f4b7a2eab0064961c3bd8d -> d3f6e875350793aa9907e2912193eaab1bd710f868a61d4bfeaaf5ccc80df222
+~ -[MAAutoAsset _stageDetermineGroupsAvailableForUpdateSync:totalExpectedBytes:error:] : sha256 ae52127f7c29934fba120ad35f201d3665b3f7ac15f0e5e953213ab9aae40df3 -> e58c9e9e29bc5a589ef34d3c88d5042b711e984933a903c7ce9374e6bc60b7de
+~ ___84-[MAAutoAsset _stageDetermineGroupsAvailableForUpdateSync:totalExpectedBytes:error:]_block_invoke : sha256 44bcad591646408551a2c3cb0b89ee474b99a70ac19f2a7d8fb926c571c24efa -> 69e709b7ffe39711a64fdd64ec8b73d19bca094d4a90608b8dcb7e9e28b83dfe
+~ +[MAAutoAsset stageDetermineAllAvailableForUpdate:completion:] : sha256 38ee79d1001b7b0c31d072a269da94833eff175ae2e8413ba2609bfc03d7f5fd -> 9e7e71a3262862082fa0f584ae8598ecc2b219fbb8c878228767eaa387ad7ec9
+~ ___62+[MAAutoAsset stageDetermineAllAvailableForUpdate:completion:]_block_invoke : sha256 68c6a1dbf153c6d9529602314d1afbabfcf69c789d5ffca130d7dcb8e164792b -> 624ca51be11bf70966d3ce51f5e83834535745c94908a5d622fd44d86e5a2428
+~ +[MAAutoAsset stageDetermineAllAvailableForUpdateSync:totalExpectedBytes:error:] : sha256 178c9fa4d863f6d9c49eb76a04ea358ad97e3476b1eb2303b8a6b667585ef1ea -> 9ab0ae18bf8b3695b934af256c43216c1f644398acad2bd7d14613c8d5ebd203
+~ +[MAAutoAsset stageDetermineAllAvailable:forTargetBuildVersion:completion:] : sha256 97a77502453303167284a06664ea6a7dcf6022878dee55c347d7364b5286918d -> 79767c085b0338095ec2d0ec4791302ac421ba5a9c8d20e78c8e269c31cd5579
+~ ___75+[MAAutoAsset stageDetermineAllAvailable:forTargetBuildVersion:completion:]_block_invoke : sha256 c7f37116b6e2288a0c3f8e304fea38fb3735e700fdd8e2598af9f5ae82fc04b8 -> 9c5427a41fc58fe0c650a097b6b977fa4d2960e77d08c6f59d6fd06ed0e0b70a
+~ +[MAAutoAsset stageDetermineAllAvailableSync:forTargetBuildVersion:totalExpectedBytes:error:] : sha256 ed1c6dcc414e8c6ae52f2866a2da3a744061249be2562ebde02d417865f1b489 -> 6e85c53fadf9b9b7d5a2eca4a5072cb17e9b0eea692a6f9962d78def3aa029b2
+~ +[MAAutoAsset stageDownloadGroups:awaitingAllGroups:withStagingTimeout:reportingProgress:completion:] : sha256 33cc70235abc5dcd8b00e41ae4f1e6508ce3b78acfb02fae9e91aa689086efa7 -> a17d3ddeffc555f9b103fe8e2c0866a41fff7b21b9ff517be375916cc6c61757
+~ ___101+[MAAutoAsset stageDownloadGroups:awaitingAllGroups:withStagingTimeout:reportingProgress:completion:]_block_invoke : sha256 c05d23bde335ec1fc710ff8bff0faa9262ecb780e71a0aff6eefec20fed5ddc9 -> 2f54f24140648522f437a143a603e93b28ca5804bacc83590fe05547da88b296
+~ __101+[MAAutoAsset stageDownloadGroups:awaitingAllGroups:withStagingTimeout:reportingProgress:completion:]_block_invoke.1072 -> __101+[MAAutoAsset stageDownloadGroups:awaitingAllGroups:withStagingTimeout:reportingProgress:completion:]_block_invoke.1078 : sha256 a78528c4bbc9678488a773f5ef90db11b22be24d0ac2e61041e211c60cef624e -> 929bcffba9cb154e59deec063f5b5c1aad0a28f8b354a3e65deb7813c4a007f7
+~ ___101+[MAAutoAsset stageDownloadGroups:awaitingAllGroups:withStagingTimeout:reportingProgress:completion:]_block_invoke_3 : sha256 bb1da149dd034f72df0c5d57b47cb22b29707077000f7e2fe88b5997f355c44d -> c44619df873525791d679802691d9365258a1db9d4da0732fdb2720a07393065
+~ -[MAAutoAsset _stageDownloadGroups:awaitingAllGroups:withStagingTimeout:reportingProgress:isSynchronous:completion:] : sha256 9b9e9b3671ad389485881bedcbcdc7fe01e69ed4d86b25fcd7d342b2bdeea2ed -> c479f0da7b57560c93110cb0fba846de2217a24ac1f106cd30c95e4f1b9f3c2c
+~ ___116-[MAAutoAsset _stageDownloadGroups:awaitingAllGroups:withStagingTimeout:reportingProgress:isSynchronous:completion:]_block_invoke : sha256 0a19092d6cf6c48710ac4c38abb63bd31bdc1fe280c591a1381109ec0b10e205 -> 6e2c570a062534683f2c987d914ddf154765815693cfd81a19d927d0d8344b71
+~ ___116-[MAAutoAsset _stageDownloadGroups:awaitingAllGroups:withStagingTimeout:reportingProgress:isSynchronous:completion:]_block_invoke_2 : sha256 b4d7d20ddd6af5e5f92ca5b4b67fce79d6ac13868655b7547278d30ff1ce5a17 -> ae82443020ec58ab0ec705add05372ba29341f5e2d56fe4e62b272372a651e36
+~ ___116-[MAAutoAsset _stageDownloadGroups:awaitingAllGroups:withStagingTimeout:reportingProgress:isSynchronous:completion:]_block_invoke_3 : sha256 c5538bf205f760f2383fd9af63b08684e382ff3e9ce22d67af9aa8b0f5d10048 -> ca85cb476da4198aca7e3c38a9ad42b9f437dd02593273eb10f64f4bca60d80c
+~ ___copy_helper_block_e8_32s40s48b56b : sha256 73545d0b6f43b586679f1990c4ca688b9dac899abe366b8dc64832686e7d7277 -> ae9fa1cb5a73456f1e7b68cabe855556ade61c09e8d86367170c8fdf3229ca61
+~ +[MAAutoAsset stageDownloadGroupsSync:awaitingAllGroups:withStagingTimeout:byGroupAssetsStaged:error:reportingProgress:] : sha256 43307727a1afcb955d086b45bedbf0d7c557b7d74b181e26f017dd1e9507e2b8 -> 7bbfbbc2f3054b523428d47302be8be25af1de05cf94d9de6f0bb4948879f4b7
+~ ___120+[MAAutoAsset stageDownloadGroupsSync:awaitingAllGroups:withStagingTimeout:byGroupAssetsStaged:error:reportingProgress:]_block_invoke : sha256 45136b52023d75ec8de378de5ce500b1ff193732e57c7427b7ac441be2799a13 -> c73470b7936b63b28d4668b03b603f55014c2256d1950f970ecd0386749cc982
+~ -[MAAutoAsset _stageDownloadGroupsSync:awaitingAllGroups:withStagingTimeout:byGroupAssetsStaged:error:reportingProgress:] : sha256 a75f4fefaba0c10a8f7f42ae8db74d86e3089bae235f4c9c1181bcc12a6d66f0 -> c6290b5fb108f4be06e9d4aad1cd1efc634edf9612db42af580d7a697ca4e449
+~ ___121-[MAAutoAsset _stageDownloadGroupsSync:awaitingAllGroups:withStagingTimeout:byGroupAssetsStaged:error:reportingProgress:]_block_invoke : sha256 b934f01d505ee33a2ddfc64fe0134fc055f18ec06249207153f790207ab6d54f -> 9c99a98356efc4f0667daadbbbfcbd1535dac5218f7631eb0b4a9d79a9de18ce
+~ ___121-[MAAutoAsset _stageDownloadGroupsSync:awaitingAllGroups:withStagingTimeout:byGroupAssetsStaged:error:reportingProgress:]_block_invoke_2 : sha256 22e2df267df91c6731325fba458349044a011a301cbbcf74e202fc2e75139f7f -> bd16cfeff48b8e4da49854a8d205209023510febd0fc6f655e2dffc4c7d16e34
+~ +[MAAutoAsset stageDownloadAll:reportingProgress:completion:] : sha256 d44235937003623f672c99b193e70d0d82bb7806b1ba98f47e8cb7d46af01e06 -> 1695f2d6788732ded2236a00aac9cc26dcc54308e4fe55347fa72a9cc9ed4db3
+~ ___61+[MAAutoAsset stageDownloadAll:reportingProgress:completion:]_block_invoke : sha256 ad33d126798f6ca2e8a087a9067cbbd25b40a6f9332de3797fd2d65f1b50a3f1 -> 877c17123ac24840911137e7c25360c230909ded9b809fde73f6104d7c6f4eee
+~ +[MAAutoAsset stageDownloadAllSync:assetsSuccessfullyStaged:error:reportingProgress:] : sha256 e483c6e2956d71945fd1fd5507d73c586801cb6a7a2bdc4d05f5c2b75f0a52d5 -> 2a459e35f3747d15fa9d59d62041fc0a44cf30d11602f8890ac870e4789b1d99
+~ +[MAAutoAsset stageCancelOperation:] : sha256 6a7f8531bad22d34fc1aac707e3b0d9e2a8f4384d2627569add0218243a07961 -> 9bd6ec16e0b93ae9bd30d588c261aab29993155b3d7f592a390b39e6dc3f13c5
+~ ___36+[MAAutoAsset stageCancelOperation:]_block_invoke : sha256 eb3cf771faf35edd656956ae420729959879505b0fa9497b3b1e33861c41108b -> 7a5a54efdd9c73b7b796663bf9d54ccd1f1f1f4fe021316330fecee3b447f2b4
+~ -[MAAutoAsset _stageCancelOperationIsSynchronous:completion:] : sha256 5657b540aee2c67dfa5b1f01146f47872a1188f8f19805eed3abd34fefc72a3d -> 3b7f169fe3ed7b434dfbf17bacc5fbc16a43c369b12f34c46fc56810ea4e6476
+~ ___61-[MAAutoAsset _stageCancelOperationIsSynchronous:completion:]_block_invoke : sha256 24e04825fea4d63419ad374742c6715e3c3323d97d2114048a1657bbe797fff3 -> 4ee5ba8c6143e5965df4fab684aed55798d5b8500f611314624d0f31c3f5ff31
+~ ___61-[MAAutoAsset _stageCancelOperationIsSynchronous:completion:]_block_invoke_2 : sha256 f0c44b26e827261398262e22b05f4960300f96e855ff1fad5c9a7ef200fb556b -> 2582cc31ae27580758afee751289173cf6d0f77f2139bea7d10669ff8f9cb01a
+~ ___61-[MAAutoAsset _stageCancelOperationIsSynchronous:completion:]_block_invoke_3 : sha256 9e0a9c1385cd7ac59c55e12ae63f95b44cdf1b76a954429624192d72c55dc0c1 -> d3e3aa9dd734c5a73d49ff25d54ccd341104ccbad6181e0a21c233072421a335
+~ +[MAAutoAsset stageCancelOperationSync] : sha256 3c2a8498150a893bcc3ed329966f39015d277cb11a8714eccf305ec82ad6e9d1 -> 26e369d425a924b95144bf2004eade37d91b5a9544cfd4ddfdb6966afcc0559d
+~ -[MAAutoAsset _stageCancelOperationSync] : sha256 72df84aa5bf8e879704aa4a582b7dbd4ee3bb1e4f7247c4d4a96d1e7223420b5 -> 74ad4bb668dd3aa1b96c39e75345666d85fa98ef1ce83fb0786b17a8c3d90dae
+~ ___40-[MAAutoAsset _stageCancelOperationSync]_block_invoke : sha256 7bc576a64194d824c4c57d27b8006e828daa1afa54120c2a1ee62a95de80ca59 -> 427667f4d0c5c6da4e3c8e811bffa3bc2d1cf2d4c2f70751dc6d080e948250d0
+~ +[MAAutoAsset stagePurgeAll:] : sha256 29c38820e0e1afa032bdec5e22647441fee9f3df95b79476775daadf65669ed3 -> d238f3b9aeb72c95d1c790b6c71f43e65b678ae3babdd932f4ff954ab65595b1
+~ ___29+[MAAutoAsset stagePurgeAll:]_block_invoke : sha256 d05446f19c87806c24b127f836e931a10423fea603703e21cffb697268502d0c -> 56aecc4c0560b37938b0a6936f8275e19ff3a54d44b38b587564e6eaf6dfff5a
+~ -[MAAutoAsset _stagePurgeAllIsSynchronous:completion:] : sha256 a356c4fefc6f3526f3321d78a8eb87499e7703bacd2661a01427be9eccc76166 -> d2b163524bdbe319fc228b2be4d3386da2c4f90a4ad276208eb81b160c08adf8
+~ ___54-[MAAutoAsset _stagePurgeAllIsSynchronous:completion:]_block_invoke : sha256 9f49187c178e9a4905583418f8897c47bc851d3df00433cfcb9dc62efa87d8da -> e24f10572131498717fc263467fd3e2a03d4bbe91420b2099316ed575c510101
+~ ___54-[MAAutoAsset _stagePurgeAllIsSynchronous:completion:]_block_invoke_2 : sha256 a9010a884b253d0f1839ca3118d961a2d0cf208fb8b06234130795053e214bea -> 09c424ee70702aef851d67a35ce71ecfe887696fc0f532554c6a10e2fc6ce632
+~ ___54-[MAAutoAsset _stagePurgeAllIsSynchronous:completion:]_block_invoke_3 : sha256 dbf2794237a376dc72023f070647ae836be80b2c69ff1ca6186544d6696d890c -> cb9c6b78be00f73db5939a74ebe17191825584b5fe9e9720955b679e090804da
+~ +[MAAutoAsset stagePurgeAllSync] : sha256 0e9490bf6c86e6339b5663af1628c887304507c5e66874d2048684c77f0cbbc1 -> 0d223820b1b8722cadaaabe8c60164906444443ea5cea7f9cabfe2eb1393cf87
+~ -[MAAutoAsset _stagePurgeAllSync] : sha256 2cec07e3519fb6903f71959b07c20bec6d5bf939a6266f551cb2ac64d74db28c -> e39391dacb31d5eba2e84f97e564e8296c6cfd063fd04d4f83c8a9276eb603c0
+~ ___33-[MAAutoAsset _stagePurgeAllSync]_block_invoke : sha256 108b3206707d95c2b220e2efafc10ba30862cdd042d0a57fff50bd4b57d1ce37 -> e2bfff72a4fe2e42bfeaa434b55b8b31823dacdd4d000223dff4276e85fc5283
+~ +[MAAutoAsset stageEraseAll:] : sha256 351aa984c8b1a17279b8b02c66adc928ff93b20b7e5be2e28d37bf27ecead645 -> ba9bc40c0249100e4b7454741af9945b5c175a6e618dda1b4f706dcbb54b526c
+~ ___29+[MAAutoAsset stageEraseAll:]_block_invoke : sha256 b82c106e7a525af3001ab05e69cd1275518085acaca9749258e588d19e332abb -> 3d228618e9b53cb549dee41ee9d7b25bb394ca42d9046ebe07b3725d385ce95a
+~ -[MAAutoAsset _stageEraseAllIsSynchronous:completion:] : sha256 e7f80b3c977b9808750dacacda947723fa6b977309355bc89baf5dc0feac7681 -> 5c784d2d3276573b5873ac5abbbab4a1a4d6238eab710699077864df9e6ba01b
+~ ___54-[MAAutoAsset _stageEraseAllIsSynchronous:completion:]_block_invoke : sha256 32e6583c559f4c293d76633e2bed6c3637c3d7fef018918e25927a12889e3657 -> a1ca211c616d34e5ec21d245ab07f4acf93df9e70bf750d251a32416b0d880fc
+~ ___54-[MAAutoAsset _stageEraseAllIsSynchronous:completion:]_block_invoke_2 : sha256 441edc8c61ce30cabf96baa4c32653c01c161acb6410f0ffb2424100d847c0d6 -> 2a86505768ae8d92d136f09351496880f1325e7b3222da90838565b1ddc00692
+~ ___54-[MAAutoAsset _stageEraseAllIsSynchronous:completion:]_block_invoke_3 : sha256 bb2bb380e3b7088d12e768672f7eb8a98e827abae2089704704876bae76d5c9f -> 6f7baa1ca30f6ad662511617249b8845b2991d5afb0810666921894b894e2a41
+~ +[MAAutoAsset stageEraseAllSync] : sha256 6de3b1c2ed7ddef9bef15d5693fed42cfb085d91f5977f078f583ce135c6c9ee -> 8b8e97ab579738190f34187f9e0d32db81af85af96acfbe67edead336f8e9599
+~ -[MAAutoAsset _stageEraseAllSync] : sha256 1f1e3ab9d729f6278bf58fe10c98c5ad46bfa1ef100fccd3a51428f5a9fa4f81 -> 230f60a2e55ceeaad92e4938b664976bcf8f38720d15e20d2604300580c49428
+~ ___33-[MAAutoAsset _stageEraseAllSync]_block_invoke : sha256 502c55c97f23b63ec434fea49f4fe9297f45019df6051a94d1ca6330ce4cf6a5 -> a95a88ccab3a71cae8b440d9f65b7c235a193bc7c5fd972242332f4ea2acbc34
+~ +[MAAutoAsset waitForStartupActivated] : sha256 b94ab4dbdf31273e8fa396629d86abcacd9f5e05adfb0d966aa507c034bf5e68 -> 4b7fce083a008c11ab093de82f9725b3cf092f9fd56112efdd7e3c67d20057f2
+~ -[MAAutoAsset _waitForStartupActivated] : sha256 cbd54079069640dfa70d85aa151256ce2d261f3a5e71feb4468b0420da706203 -> f6514967a16d2eaa460907cd43f65009082d9095978fde25af04c47cf913e289
+~ ___39-[MAAutoAsset _waitForStartupActivated]_block_invoke : sha256 0703dc8adc19b2f39f70b8c5a9f3b22be77a8f9615fc9b998741cd079a12bec2 -> c7490a13c8ca48d3aa381601756d7f4bc530346c8b341070375f4a26c4360db1
+~ -[MAAutoAsset _waitForStartupActivatedThen:] : sha256 fe4c6eabbc83259bca23db874fde8b0aabedbbd147502949b840fa4692c815a4 -> 281164262ce9c2884efde46f5454f19ba34bce1040988e14530e7e1e6435db72
+~ ___44-[MAAutoAsset _waitForStartupActivatedThen:]_block_invoke : sha256 d5cdf34db215af40479e24162ae9299e39994bb07ad0ae70e7b92ec3aaf74842 -> 64b148af9881d90f6034b2948290ddaab10032abe1c8dc3a504ed5ff88546cdd
+~ ___44-[MAAutoAsset _waitForStartupActivatedThen:]_block_invoke_2 : sha256 78a87425e67a121a140a05c145d6609356580874c068cc241ef5af02c6d9764d -> db129518b229870f9a2b873665a591914b2c373bae8098e1f8c0492af57f39b7
+~ __44-[MAAutoAsset _waitForStartupActivatedThen:]_block_invoke.1102 -> __44-[MAAutoAsset _waitForStartupActivatedThen:]_block_invoke.1108 : sha256 f6efaa668d1b8524e25ebd9da164a940fe1e8cea5d6f0e7ed7cd625ad334f04e -> ac7ff401ec0c77f26efad915c0b90846f0177b3cab7421920196eff811e278e8
+~ -[MAAutoAsset infoInstance] : sha256 09d43db0d80e42f4951848b53e663a6a41aaa19ebb794e71228a5775be822e41 -> c96b098705dcbfb763e30246ec7eb46f34f2fd1c762d3ef80f03951b695f85b7
+~ -[MAAutoAsset lockedInfoInstance] : sha256 aa1845bac604ae84735311653bad1e0c4e187e0e62bff60f69632022402e9eb2 -> 553bf3d4ff2fc39576ad7be77a3a9747e2699313cea07b6d321a2bbaace46a49
+~ -[MAAutoAsset maAutoAssetSharedConnectionClient] : sha256 cdd18e68fb3a343d48adac2ebfe4784027e387ad7baf0a1488d6515a073a5b57 -> 30bd0c771398a4c941f23d91f801c9bc715c3629a1ec740bda85f843e6f4c7fa
+~ +[MAAutoAsset assetSelectorForAssetTargetOSVersion:forTargetBuildVersion:] : sha256 b8ec9261810dddcc9c72d0b4b97cb9d94b27141ddfd618284d297d79ba41d300 -> 9e921b18138e8d2cf35be2318b52687e6b349f7e0670f10379320f3b537b3ab8
+~ +[MAAutoAsset frameworkInstanceSetLogDomain] : sha256 e57bfafa01d10e722bf426c0f7335ac92d8ba0aa7a7201b860d329d5b154290e -> 9fe43c3b0fb99b1d8269100d5be9d83715f677ee03652d76dfd88e756e17cb4e
+~ ___44+[MAAutoAsset frameworkInstanceSetLogDomain]_block_invoke : sha256 a0441f2003d740028e4c431dbe153275442a1dd60f6e4e5bca7dfa6c0e957071 -> 4463b1697f0e452c71eb15fd352075625331565dd603e38d998a1228cd9c269a
+~ +[MAAutoAsset defaultDispatchQueue] : sha256 7677c508843a4beef54f8819d57310c3826ebbe6f7d54b2a599134ba8934433f -> f9f1a1b20230ff3cfacb754db295f9ee32b8f21b150191e60e828ad067a2af45
+~ ___35+[MAAutoAsset defaultDispatchQueue]_block_invoke : sha256 6ad73004f9024f295f43ed98b821e39110bed84a2ef4e421664382d12afaebd9 -> bad264aac1a62a2c2c2f0e524969bf47c6fee0cdee29c8db6b8bdaae5e24ef7b
+~ +[MAAutoAsset _privateStateQueue] : sha256 5d64229d9b235ae201da70c5977a1091d19de80e21231652892482c29ed79155 -> 19a94c5f43a629ab173be7cc6036f550b7b4e0f9cb08149458abfe50d2aebe69
+~ ___33+[MAAutoAsset _privateStateQueue]_block_invoke : sha256 f4c5c9ca619f0023a3ea06fda092594d8cf102cb4dbb7c8f5be0951478937c0e -> 3a87c46535efc92012841bec9f0cfe3901055f951c212807052505edb5e8f2b2
+~ +[MAAutoAsset frameworkInstanceUUID] : sha256 90190812f5b9d4c49a4d2add9053b4b989f8cb363bcc735a710b88673e32e54e -> 5e51bd5e2641497abe43377c8d03768ebc678de17c536eccb01824725ba4787e
+~ ___36+[MAAutoAsset frameworkInstanceUUID]_block_invoke : sha256 5976588a3ce767c81dc4b222596c9a505992bf339bcd01f7bb4c6963794971bc -> f13038387819ebec4371a73d3ac88ee668e6a891e4b656c53857b5de2905d7af
+~ +[MAAutoAsset logMAAutoAssetVersion] : sha256 70c5c797c5755a7e086b7d669d97516a8a463dae0093e3c497253291c446c0de -> e70e3af4b3034d30be6fb559be1a28068b9fefd2cb8eab623cda5fb31e45310e
+~ ___36+[MAAutoAsset logMAAutoAssetVersion]_block_invoke : sha256 185841933d09528bab9792b980b9f2805c53cc703d0b005ed9e7910b2c01fe90 -> 48f10d19cbc945271cd2f30866a1059651b92ca36e817b6c994f71f090b6be99
+~ -[MAAutoAsset setContentLockedSelector:] : sha256 cf18a2295c2b0f8509caa046d41ec9aefa51ce67ab05a2a81b98865070a61da5 -> 504d21421348152fcb7576fd433084ba8a0e3d4b21bf3505fa4ae0bf5eddeda0
+~ -[MAAutoAsset setContentLockedReason:] : sha256 2fbaa5acf208c2a55714d325cf531948517971e96686ecca516f971e571306da -> 6d54ae33ceedd28707036f147c9f3be79b9a43ce448eac0f7196262b0ccdc9cf
+~ -[MAAutoAsset setLocalContentURL:] : sha256 2077ac11097586ccd586ee777255ac2131a7b8cad0c61993244234119209d397 -> 06ebb059fc25555167d63d501245240d54ce10a4d6fda7c4c2aa651fd83cf1dd
+~ -[MAAutoAsset setAssetAttributes:] : sha256 69737caacafc841647b62d4e84565361df3cc0e3d79828dfd55430ce0869a3e8 -> 4ed11b21aa3176b4790798e062de1f6731cc76d7fdc29bd5954281597eae720b
+~ -[MAAutoAsset .cxx_destruct] : sha256 e9233e2e2029890af45b5075ddf0ef9b71c5b10fea8bdb1fe6978b77d0124b20 -> 9e12802367e68df1c7fea2e4d2620519a44cf1d0cd6d1c9d7b2ab19a36953fc0
+~ -[MAAutoAssetControlStatistics init] : sha256 dcb044bcc59a189e71efa89060573f22f28b4c009dc2fdacb9f1269143b47c35 -> 212077380fc40d21d4d2fd3ee958d4020967fb56030b3b37049f4d1292a22686
+~ -[MAAutoAssetControlStatistics initWithInitialValue:] : sha256 3b08e7f8b362d4a972267f57189435383b0b5832be2d05cc48aa72658232de2a -> 8a352888845811d374f1495a17080a71636be237984197a5e7d01a4dc9ee4033
+~ -[MAAutoAssetControlStatistics initWithCoder:] : sha256 ecd6b7ecff7f8d617f4bb7e7c83540e4cf87a7f06c18f68e22a11a65b40ab625 -> d1a216380de5ce4580d3266ca427293916fdac01ad88f8801b17c1e25c74068d
+~ -[MAAutoAssetControlStatistics encodeWithCoder:] : sha256 a6c0920195530cd2bfd6dd0d6b8c6bc551468b7fe958a54730c0ca150eec021e -> f7ea35f204083fa1cb150360588343e1b166e619da2574e7546d8b8ef0abbb57
+~ -[MAAutoAssetControlStatistics copy] : sha256 bde4c4239c742adff937144d345fc05be173a46e385aed0352791aa730417ddc -> 3f5dfa335d29c47f38f8040f589968fe8156a09eb1e34cd86bc0132336819aa1
+~ +[MAAutoAssetControlStatistics allocStringForBytes:] : sha256 30c3bee46f0b89ded354edc03bcb46f6e5d598a276db26705ebe1102b4f160bf -> daec7c01c62ea12409545208ec5510bb2c4f0526c374ba7d8b47695647105185
+~ -[MAAutoAssetControlStatistics description] : 3152 -> 3148
+~ -[MAAutoAssetControlStatistics summary] : sha256 8f2c45c1e5910ea7a1f3b0bdc4f3d9c7d296b42af20e276e3227678079d476ac -> eac04c084c0e184dc16144ed4d58a465cd577ebb024c2638783fefda9f7c9642
+~ -[MAAutoAssetControlStatistics setTotalClientRequests:] : sha256 3c57547ca0a34064dd72a5f2528c70ab683cc21c3a8d6a622afff838eaa9c813 -> 3445d4f266fa4a66d1299bfe82f553324acf02a30d8b01d45d5d0d303284836c
+~ -[MAAutoAssetControlStatistics setTotalClientRepliesSuccess:] : sha256 3efbe47cdb77e30b142ef8a5d68ae173b4814f75b3273c12fa5ac2abeec2c180 -> 164490aad90f806268cfd41c376cc1ff0919e78dcb999979858fa8f451abbb73
+~ -[MAAutoAssetControlStatistics setTotalClientRepliesFailure:] : sha256 2827f80633732d8b3cb95b6f350fe7a11f7d15a54edbd8cfb4661569de4da2f2 -> 61b8811b4a0e39e12e591622fb756e44445102dd7f39f3ad3423e9fca16ddef4
+~ -[MAAutoAssetControlStatistics setTotalQueuedClientRequests:] : sha256 195009c369154a1f550da87ebc4a850e8dc7fac941becafca32b4527efad3de3 -> 8d5ddd157466ca0849dad140a1c8c03c2016a4842060d136b8731f5cf27ce76c
+~ -[MAAutoAssetControlStatistics setTotalDequeuedClientRequests:] : sha256 14b5e7b6d6f1c5873ec27dc426258e37e0c41011e178b0822b80969c8fd8ed97 -> 64f25460a17917dacd04fa88d637c4beb39e27b486e997f80afd735cae2fcb19
+~ -[MAAutoAssetControlStatistics setPreviouslyDownloaded:] : sha256 4f7735b59abea3f7430542b15cc2371a965c7d549a3db5e676b723d5105e143c -> fb7bdbfdfcb302a5769cc8fcd76c0d0390754b5dfb15d112a889990522ee0d68
+~ -[MAAutoAssetControlStatistics setTotalDownloaded:] : sha256 7f63724f963b72460756a516e957e8d3f09a3a5a27ee02cfc3e59b5496f14736 -> 76ae5921882ab426072636b94094ce3816be850d479a4e70174657915ba1411a
+~ -[MAAutoAssetControlStatistics setTotalStaged:] : sha256 9b52d0dab6e549e4d96ab090a19e0944299a6d0602fb5d06a84d07c60abfb11b -> 1021a9d3e389e1d0d000624de7fb8c4815d97f3203409da6b21b149cab55ffa7
+~ -[MAAutoAssetControlStatistics setTotalUnstaged:] : sha256 36d3ed749cdda0a90b5cfc62ecb59e473ab0689e7d70edd0243e957220e57f15 -> e638e7eaebdf9ae55664c0d30fe2b437cd1c5efd7e0d2b91b583a3fdf81643f2
+~ -[MAAutoAssetControlStatistics setTotalPromoted:] : sha256 3b57f1a9ef07db51b2c8aeb0adf3af6cf2789487feb4e141dc937bb001795ee3 -> 59bee8a9f6469bf6d5174a1908f9c704eb8d386c9a138b7c14a3a7220259c69d
+~ -[MAAutoAssetControlStatistics setTotalRemoved:] : sha256 b50dff9e1965b82fa7de4c82edf7f84ec5332fe484aa5933914470df729f0f5c -> 8fb741b046f794db066a731a6b5f79d2af921c7bad74fd808465357b8ed8493e
+~ -[MAAutoAssetControlStatistics .cxx_destruct] : sha256 fae5bc1fba976a866dff1daebfe3374b92d0d434e8f2bdd0622d584549397b70 -> 41a2c028336251e5ffa27f7edeee260f23327515a4f9713dd4fa71c8d407941f
+~ -[MAAutoAssetControl init] : sha256 74b3e2d097770d4947fc0aa871b98eb4384f7db7208360c03e460f2217dc68bd -> 3bdea09ba81a9e8be4b8bffd3e1ec49d5ad1e08fa782789ae57cc8a40fa1d9e2
+~ +[MAAutoAssetControl controlStatistics:error:] : sha256 8322025da2777417957add38c28d8ae0fc43cff8b6d3a1c5db6066ddb2d81e41 -> 8f230400573d02b981dd03b50fdce35869470ea5cc280795507f68867ed2441e
+~ ___Block_byref_object_dispose_ : sha256 c48d3a67a82064ad3457b7f607fe6b7d08a086f2092473ce86f540fac9a3e3dc -> 026ede73570314051bc03173d89dbaeaf64871f760a3a25ad68a53b5939925fb
+~ ___46+[MAAutoAssetControl controlStatistics:error:]_block_invoke : sha256 02fd4046f2ae02a945dbb1c36209c15b87ae05190909d30e256020a51f40bc63 -> 69c42f43d5767a1ee7d77e763b96964983c46abb752ce493c4bba8b4ddf6f289
+~ -[MAAutoAssetControl _controlStatistics:isSynchronous:completion:] : sha256 23ba3609ddc8e1c2ede02fb8fe58c1b598df79013ef3cf36f5de141e4cf4a168 -> 2f57d47eaaa592de305ad56d20aebb2d2ef9a2e9d6ff2738f21766eefc9ecb99
+~ ___66-[MAAutoAssetControl _controlStatistics:isSynchronous:completion:]_block_invoke : sha256 9b2a6a8644accd5a1f4877a28002cba9b8a26a45304fa099cbb75e9e1c003ca8 -> e16b0f846f87eb9616c22da565917579b6f513ef79c2e6cbda6391fc25fc6ac3
+~ ___66-[MAAutoAssetControl _controlStatistics:isSynchronous:completion:]_block_invoke_2 : sha256 b211678429628521d84267f4c0167177955e7b216ed847923b8bad336cd0d850 -> 23acc5f88002cbceb91828bd8571466dd72fd14cf94d812d0aed0488e332ae17
+~ __66-[MAAutoAssetControl _controlStatistics:isSynchronous:completion:]_block_invoke.504 -> __66-[MAAutoAssetControl _controlStatistics:isSynchronous:completion:]_block_invoke.510 : sha256 90db4918db190334047c83dcaa5474c02160d47e2359f7b1e5c84445247b8522 -> f4bc4e868669f1cbd19fc2df6d6efc32f0ac78a9ae1c0dbcb88db454fcada69c
+~ +[MAAutoAssetControl knownAssetSummary:error:] : sha256 5258496ec1866ab55aa579736467da4568c585bca452d948bc509539015dda80 -> 164a40c30138711848d35623c570fcfc7058ff74fa76888497ce194533c452b2
+~ +[MAAutoAssetControl availableForStagingAssetSummary:] : sha256 d167dceac409fe4e3ae13fd673dba6ccb2a6241b3b5616f00f5e4fe3f9b12602 -> a6b55b1cff4ee7b205dc868f1660a96c15b1ab40284adcb0e302493d175ca5b7
+~ ___54+[MAAutoAssetControl availableForStagingAssetSummary:]_block_invoke : sha256 dd03bf9761579677148a6cabc18a3ef9909cb95c933f0dfc43e57c529c87741f -> 3f4c27b859c0c872d701a772e53dab8840006dc33866a96ef4146f35fb93361d
+~ +[MAAutoAssetControl knownAssetSummary:limitedToAssetTypes:error:] : sha256 74d0d6108be431551e4526176116099b75b6380079de5b51fe3b3b7dee314465 -> 8abdc12727b76cd7d018ac0538fee47a408bc35bc313093d56668240c681eb2f
+~ ___66+[MAAutoAssetControl knownAssetSummary:limitedToAssetTypes:error:]_block_invoke : sha256 e858e85b4ec58c9669b3af82d17348683574787ac8db301972668b879661e3e0 -> 42446e57fe69f6840318647e74c5059a8d3cd6d594829befe9d7941e72037157
+~ -[MAAutoAssetControl _availableForStagingAssetSummaryIsSynchronous:completion:] : sha256 daea39237afcb635a59c4336408d3a445d3d105d1ba544ee89d9dac6c8079809 -> 3126b576be5ee9aa9835eb75c0757a3fb526d985738632d1b9d9ed25ed0ea794
+~ ___79-[MAAutoAssetControl _availableForStagingAssetSummaryIsSynchronous:completion:]_block_invoke : sha256 605262f7482908cbbb0e507607cbc10131942d7915acfe01216b62f27e3767fd -> fc925f19ef8d348827a7e17a030254f7c2a02ccc39e2521b3030c200ddf8d25e
+~ ___79-[MAAutoAssetControl _availableForStagingAssetSummaryIsSynchronous:completion:]_block_invoke_2 : sha256 af6604a5468d6433fba10985a242ad3543c5b74a9fb88143902b6bf5d1d7f321 -> 27370eb2e17811f60ab2a66484475a4146644d12a28e53933fddf4325f42a6e7
+~ ___79-[MAAutoAssetControl _availableForStagingAssetSummaryIsSynchronous:completion:]_block_invoke_3 : sha256 a30a3c8b1987c9e71d29dbd6403ab9d189a6a63722d8c50737be7c201045d334 -> a6ff0879eef784bf06206629f4b2999cad3433c2bb2d0d2b13d1e7ab31c3d309
+~ -[MAAutoAssetControl _knownAssetSummary:limitedToAssetTypes:isSynchronous:completion:] : sha256 8c16a01f09106bedfca2149fed06a9b5c970450eaa1c3ad298302076a64355e1 -> 1e37f87a346456c471b2ae9663734c83649ace63528c553425c0779f95fbf0d1
+~ ___86-[MAAutoAssetControl _knownAssetSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke : sha256 fe1e4d3d9d64222a2c5975fd6e47488de15d1fae5b5dc843887b92de46eb91a0 -> c4ca76dcca1f38791962dd2ef1a46da6208acf58e01b35f411327950fc3a3a3d
+~ ___86-[MAAutoAssetControl _knownAssetSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke_2 : sha256 00c9c7ff8ef52a6ed56539081146a1b8ff828392e0e87cd9c7f13e8d55a81871 -> 3ca3bb82a13189f1ec84402524f20f5f35a050bc31f6ed17748114e09561ed2a
+~ ___86-[MAAutoAssetControl _knownAssetSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke_3 : sha256 19ba45852a793dbe754c6efc3ea74bd36bb041e5d33f7ca96c424f6075895e99 -> 1ec484af59f60b9ad8df8b838f121e57966153d6ea3924c62dea23cde3d2c9ba
+~ +[MAAutoAssetControl lockedAssetSummary:error:] : sha256 70b448b5f253f58468964c94720c3a92c8db5b53082a0fa585308edf421d12e7 -> 8d5af90e4460602e5e0949dba9c8afedf1a8a52fa826fba97a4a820d639ca003
+~ +[MAAutoAssetControl lockedAssetSummary:limitedToAssetTypes:error:] : sha256 087a3509dcef3d6adce9116f7a26436172adb72a6f7f4cb3d4b2196eedee9239 -> 72c02d92f67f06a8501c2abf886f2df3dfc629eac2dd58c5d5d980995abd92af
+~ ___67+[MAAutoAssetControl lockedAssetSummary:limitedToAssetTypes:error:]_block_invoke : sha256 8afbefdc78c52f443d3957c537e458aa03173aa9fe28c278bde1cd0de0f1c66a -> 0d4ed714bef773e3bf08da886d4b9edb36d0ba95c706352656ee6e2b986b8be6
+~ -[MAAutoAssetControl _lockedAssetSummary:limitedToAssetTypes:isSynchronous:completion:] : sha256 74baa7401cfab7f7f82056c5934d8df3b4dfb23e2e1ce0dd6fc23338551bc097 -> 9160579eec39c02f01a096b66d0d304561f1f080dba4dee03c26bde247fce77e
+~ ___87-[MAAutoAssetControl _lockedAssetSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke : sha256 6d585954545938d13cf4118a2ab8355f2ba774d4d938a26f91a5c3bfff1e42d1 -> 653a2a0462af4c7a6a2899ddc8391f58f9022c453d47b00b923c6ac51d3b7aaa
+~ ___87-[MAAutoAssetControl _lockedAssetSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke_2 : sha256 50363344b7edc9e63f6b4167f22baacd3d583e2722f09f46744e7eb6a9194047 -> 572792f4548ad3be8d8731a11d138ee17e2179e8c3d5fe5eba13327bd15a6518
+~ ___87-[MAAutoAssetControl _lockedAssetSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke_3 : sha256 76d4d8d26811d68bb9bf53974b9715729cbeebe98e0c9e773407329132977a9a -> b6943707ace26e18acaf662fe67e1e0987db58b163838e0e9462b518e34adedd
+~ +[MAAutoAssetControl stagedAssetSummary:error:] : sha256 026dbbb6aa52206718ea9ed7edb30b553d96d2ce9c322772d2f6ccda58a61971 -> e308c47b0051c9f0254cc2aa1df1b403dd2929579eca90695f69ac226cb15f24
+~ +[MAAutoAssetControl stagedAssetSummary:limitedToAssetTypes:error:] : sha256 467ec3d44d68fcf6a29634406073b87a8744a02165c813cdaddd4b286e196130 -> 9543f6090a87bcb65f319bbea402d03507b7a62432c100054b890e8979728ba4
+~ ___67+[MAAutoAssetControl stagedAssetSummary:limitedToAssetTypes:error:]_block_invoke : sha256 3100ca130a5026cfdb7f81b7cd439bfd7d78c738c39087f848105fde759ea618 -> f0cbf1100645743d094145997974d884256136c065d789cac21e56c8f71a1e90
+~ -[MAAutoAssetControl _stagedAssetSummary:limitedToAssetTypes:isSynchronous:completion:] : sha256 1dd70e715f64a1d2c7b4afa7bb49992fc7de6453f1278f9be5c98640c17b2694 -> 652c93b29b2dded9d2cddabcfd1bfe1aced9dd90ea68ed6a951185f47bc2e6db
+~ ___87-[MAAutoAssetControl _stagedAssetSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke : sha256 914d19bb6bff0f3bae860bddf6a9f6214278ab525c9259cc37801c28db1440ff -> 82c73c6919d152fc5bdf1a88dd3a8c8d51bba99c38897276f2217d7de90bec7f
+~ ___87-[MAAutoAssetControl _stagedAssetSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke_2 : sha256 d1c5ca51e4090fc6cf039a9df47e99020498acc3fce297190ee6196aadfd680d -> c10225c3750beed0e61ffb7af9291321f380a40c05c9ec732598233814ec5ad8
+~ ___87-[MAAutoAssetControl _stagedAssetSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke_3 : sha256 225d26b1572755594e5c12a04f8a29120caccd5329754cb2797131cc1b77373c -> 90b4b3b754e83cecb3145a4a6b43db7686e6ba1d819f249f67641d9d91937e2d
+~ +[MAAutoAssetControl activeJobSummary:error:] : sha256 26bb58ebcc0fa8975c79b80ee8f78b6581c9ce67d328c3ff68ec842f6e223578 -> 58f1791e80f97f59c84d8bbfb8d80ef6de23c149d008c9b2219abcc1319798fc
+~ +[MAAutoAssetControl activeJobSummary:limitedToAssetTypes:error:] : sha256 9fb7b063a407d07d5141ae8487ea83dffd3579729a2020ba63bcce0f9f4b6c6c -> d409f72bdcedf4481924cdf85d8513c86cbaaad6713e2d300c7e8a4a01d314cf
+~ ___65+[MAAutoAssetControl activeJobSummary:limitedToAssetTypes:error:]_block_invoke : sha256 9d554dffcdc4284b10f1d998f93bdee2cf168dae061a7e682360410454bbb5bc -> 6e3d7baaf72898dd5c95323091706279d1d09baa659673a90144af49340d9ad1
+~ -[MAAutoAssetControl _activeJobSummary:limitedToAssetTypes:isSynchronous:completion:] : sha256 9ae76d40e927e8a806f4c58b91f2ce881e5336e30c4638b374927e412a051551 -> ea9f0512f1ba41a9dbfc1cbc3deaf86d9bd2b3515c3ef739c26a207a2ac98def
+~ ___85-[MAAutoAssetControl _activeJobSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke : sha256 34cec9188f16c34e7e701ccf8b526b88ec4634b6891eb8a85fa14ed751fdf595 -> ac6d10739369788d4bc1eeb328aa4c0a4b0c87000004a89c339afba0a0ae97a4
+~ ___85-[MAAutoAssetControl _activeJobSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke_2 : sha256 e4bab4e9fba02980272d8040f204b1072e7fdb9a6e22aa947951ba8646a2b90d -> a10e345711865f4331c2287035fb73b02aacf3b391d5795035b59d10a369f1b3
+~ ___85-[MAAutoAssetControl _activeJobSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke_3 : sha256 ce601bea2a37abe68d6bad54e2b24b954ccf38e6d026e6fa119a6e1ef1dcd1a2 -> 6ae938a1678d1138cb7c69106c6c3959e70d5302d14f8d9d865fdea0d1ed562b
+~ +[MAAutoAssetControl scheduledJobSummary:error:] : sha256 b663933df3a17a484d9c6a74265c824b5647098eada8144b584c4d9de29bab6e -> ec32f3b9691af135a1b93cc78508200db0eb0181f1c57f66bdc1ade1ab7459db
+~ +[MAAutoAssetControl scheduledJobSummary:limitedToAssetTypes:error:] : sha256 f2c27d1306b35deb1ba0e53f79ec0481baa2365e88d1c6843ad0a9bfe9e1e19e -> 60da10a936ab280c541b0163e8d805bf6c9c0632539d6e33ca178f66a5a5a63d
+~ ___68+[MAAutoAssetControl scheduledJobSummary:limitedToAssetTypes:error:]_block_invoke : sha256 acd729e927e82799821d726ac05fbf77a31123ab1c3b1e1286fc60b69750ca46 -> 69b57d20f6dddf2c30d5ff9bfd9af11fca96fa4fb164d3c18779d81e3f0ba038
+~ -[MAAutoAssetControl _scheduledJobSummary:limitedToAssetTypes:isSynchronous:completion:] : sha256 a2f0e6aa05266f38f3b3b6a6c654dab28b3db54d00402105c51f3942bcc73346 -> d7dd359faec05bc0663ae6727bd98b11560f34965b626c9650fed855734ab7f8
+~ ___88-[MAAutoAssetControl _scheduledJobSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke : sha256 ab1757945f5c7fe620fe16177049ed2913bc409fc8169d37d0682fccc3ab59bd -> a891b79352b2a925aac43192dfd035b75525e4ead3745df5cf66fbb32e4cb679
+~ ___88-[MAAutoAssetControl _scheduledJobSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke_2 : sha256 d6aeead2f242a49069f9b451b180801f80798bf50def8ec27499abf3bfce145d -> 772d98cbc596eface8f3ab932537461297f2dca89fb6c12eeb0acf80eddab02f
+~ ___88-[MAAutoAssetControl _scheduledJobSummary:limitedToAssetTypes:isSynchronous:completion:]_block_invoke_3 : sha256 5fe2b358bc153ace814f2291a2d6437004a7ed21d614134f278aee664762749b -> 4f608e2230251c2f9e934d0c77f023220b75edbfb9d1db7a4766ae6239f17bab
+~ +[MAAutoAssetControl stagerOverview:] : sha256 0c3262e690566b92434c070d46f2dd0be8cb10221f4e2e4f3fd2eaebc432c86f -> bd184e875d22090753dee4673eb49e6b3569f399b412b6734ba1dd8af53632ef
+~ ___37+[MAAutoAssetControl stagerOverview:]_block_invoke : sha256 b983f00ad4766fa7e81e439718594a16f4e9510f3a42263ef4aacb6cf6df7dd0 -> a62b98aa1a9526ef74da56636d4ecf4f4613f02ca548037de2db219eceb428d0
+~ -[MAAutoAssetControl _stagerOverview:limitedToAssetTypes:isSynchronous:completion:] : sha256 838e69e6e27f2df6d2d5bd2eb06e87bccf79ac5d744a58f922ae722e03d20d6c -> ecdab6990c972052f2d3addb3069901a8407affd54cd0b179363a0e8dab944d7
+~ ___83-[MAAutoAssetControl _stagerOverview:limitedToAssetTypes:isSynchronous:completion:]_block_invoke : sha256 7443ad316fb3443ee2666138bdbd518694037ed103ceeee47cd248c9cad64ad9 -> cce06cb95d65747537677853b2870768734ed18e9244c550241f74ec5eeb2806
+~ ___83-[MAAutoAssetControl _stagerOverview:limitedToAssetTypes:isSynchronous:completion:]_block_invoke_2 : sha256 906d4ffddfd79beea9201170549fbe973fc7d3c4a7c2a9040ebc6c03cb70e954 -> 4ee5469d98d625c1245e712e86702feb52d0799e9d6c7bceee0e4824a72a5435
+~ ___83-[MAAutoAssetControl _stagerOverview:limitedToAssetTypes:isSynchronous:completion:]_block_invoke_3 : sha256 b4fdd3c51d6f8e514604749aea95848d91f37a3101d56348ac05d225393ef5ae -> 6d65563c80c26e40ad6ab855ca4af97db4d2d40e15c64059467540140e2f6198
+~ +[MAAutoAssetControl forceGlobalUnlock:] : sha256 671caebdd26ace6f25ba6252dda6241a945ddf33a7a24ca20fba1eef5580e83f -> 3efb3ed1b8728ee58094c45526f1a412e80f026e134bf38aaaa048f0e34ad9a1
+~ ___40+[MAAutoAssetControl forceGlobalUnlock:]_block_invoke : sha256 3ade9fdb7656a9802e67cb2f64317d40c711dad5b1fe4dccfd16fdaebc2083d9 -> b27ad3ae27ae98c7438f9402e722f8f45643c6cb7fe85b233cd1ad3bf7b65a61
+~ -[MAAutoAssetControl _forceGlobalUnlock:isSynchronous:completion:] : sha256 ebb2622bd7673899962bc2eb84ad5e36edc8770e72e577cd370c8b8c4ce2e848 -> c607344d0f36c90ba08a17611d44e4842804d429599847e38fe4beea230a2bac
+~ ___66-[MAAutoAssetControl _forceGlobalUnlock:isSynchronous:completion:]_block_invoke : sha256 384663a2b268878bd695e0c28ec89e7f274671c623a3e462341c140c979723cf -> 64b8b7b0acc26e3617598a81e1c66116b07858b59b43f1fde6b2f5ef7c8672c7
+~ ___66-[MAAutoAssetControl _forceGlobalUnlock:isSynchronous:completion:]_block_invoke_2 : sha256 a508f710fca39b5b558bfaada738bd123a1baf640e5f2cdde6e1559f61d46bf3 -> 72c96d02cb5a2d823a45491e29db236270f7dc78a6282ae49b2c32dd0a3632a1
+~ ___66-[MAAutoAssetControl _forceGlobalUnlock:isSynchronous:completion:]_block_invoke_3 : sha256 93bbced923ed7d4c69303b6d21590d0616c1f6f598e9e9457e8528f5e2ec85fb -> 56ee5ab1de61d4d5dc6c43e4d3c57397511897d371c856c8a0a6c99f1c6788ea
+~ +[MAAutoAssetControl forceGlobalForget:] : sha256 5e576d0e088a064dd773403f5a725755a770c66acde86f4dfe096f21b1ea4947 -> 6ef3155296bc1e7625e8e20f950179380be1e2f2431f41f59fe2ea21133c42d3
+~ ___40+[MAAutoAssetControl forceGlobalForget:]_block_invoke : sha256 0941516ed6b265ddbdfe198a550d4d730a4e47a559c0e1d08b36036c8ed9eae5 -> 2add1efbd823ee9b03c1f4b8b547525d362dd16dbf8aa36cc7dfc7a459cfbb0f
+~ -[MAAutoAssetControl _forceGlobalForget:isSynchronous:completion:] : sha256 6d1bea33f7a42dff997203ace4ed0bc9f1b27388a403eb08b3ac970c057bf1fa -> eca1f9393de3d6ae11b0083d42ec972be671c1917dd6bd297730c738491c1229
+~ ___66-[MAAutoAssetControl _forceGlobalForget:isSynchronous:completion:]_block_invoke : sha256 0ffccc863af23604566750bb9b62746e3b8dcb27bb7a46c98c0b1be8f2d80834 -> 0e86441557b8be1141ed3047fad5a1c329b2b6560b390eebc3056866d7bc050f
+~ ___66-[MAAutoAssetControl _forceGlobalForget:isSynchronous:completion:]_block_invoke_2 : sha256 a84a2cad82885bf61bd9898d43b424ff55a2df238771636591fdbaa15c1384db -> f15d5b43dd8aaed7eb7a438027877028eab1ed3b3547bfa9b86a916045c733cd
+~ ___66-[MAAutoAssetControl _forceGlobalForget:isSynchronous:completion:]_block_invoke_3 : sha256 d1065fcc5100607ff7e32be965e04d864f42b06be47d90caad44691aef2900c3 -> 7860ccb2de90ad58293625614cd4020a8a9352c0b3e8f820c1a88430b44d24c5
+~ +[MAAutoAssetControl forceGlobalPurge:forcingUnlock:] : sha256 cca7a8858ffa7688743edcdc9fb5256fff6cacf1af780231e42d0a03ecc2a163 -> 38bb7d7248299f112e635d188646b09837f565044e35959b8e7ae42a0bd10c75
+~ ___53+[MAAutoAssetControl forceGlobalPurge:forcingUnlock:]_block_invoke : sha256 29c0c47e7a83ccf712aa8118315eede2b6090ca5f00fda99fc5555bdac9ba8bd -> 7e72f283b7269b82b10e4fa2daff93fefb4e775dce70bbd6586ba0f238782aff
+~ -[MAAutoAssetControl _forceGlobalPurge:forcingUnlock:isSynchronous:completion:] : sha256 1ecf2e31c4be0a5d4aa042d989c73031984108a513aa082b21baca1b25c4c56b -> b017eface371cc6223205a2f7b0d5b69c1c993b5e03e627a9b25a41f701fdb3b
+~ ___79-[MAAutoAssetControl _forceGlobalPurge:forcingUnlock:isSynchronous:completion:]_block_invoke : sha256 3246296f5be4a0d30711137170754e786358a4c6fae853f8781045f72058bbf6 -> 5e8034c275864723b4430c8ea9e64e3597c74d9d1111cc5ab167b9e4fc3bcc78
+~ ___79-[MAAutoAssetControl _forceGlobalPurge:forcingUnlock:isSynchronous:completion:]_block_invoke_2 : sha256 9e33d9250f7674a2264b898f18a2188f1bc5ebc104784bd72b5d4ee40762cd45 -> fbdac7435cb91a0fd38c39d9fd1073e0a5c0b62adbf10aef6253d37b5b1eef7b
+~ ___79-[MAAutoAssetControl _forceGlobalPurge:forcingUnlock:isSynchronous:completion:]_block_invoke_3 : sha256 c2996a0c2e9e0a2db7fdfe967a5b6c9aca672990814f6a452fde72d764860164 -> 8ca851862b7cc7e909d044aa626b291d66b07736aaa917fcc924f9a933ffe5a8
+~ +[MAAutoAssetControl forceGlobalAbandon:] : sha256 02246d24ac54deb84998e8d23af4bf96c24c42cb371e1965218f0709f2defb89 -> e1b8f167b3b175dc0e27a5d84a33e04f6fe9116ed15be0c92ca5b252c4d6656b
+~ ___41+[MAAutoAssetControl forceGlobalAbandon:]_block_invoke : sha256 f198c1ee0c5911054f6f0d9bdd71d2ee0381be6a7f5268f6d2e80891e169a821 -> 70762dc48c6375211d565d99e260d300b060386d6864c125243538f9b09b7389
+~ -[MAAutoAssetControl _forceGlobalAbandon:isSynchronous:completion:] : sha256 2098e9de5b44c09faf2c7fb48e64a080ba0b2e33b455e56a01ebbc5bc3f2f6ee -> 55cbf24a7ab1f32824bcafcedbdbe36172f7721df49d3d6d2f1a0978d856ffce
+~ ___67-[MAAutoAssetControl _forceGlobalAbandon:isSynchronous:completion:]_block_invoke : sha256 f096b7596fcd9ac1d3a4aca3024e52fff828c61722b0e94dc80e31bf01135be3 -> b0928cff80c54b7820a665f1a8b93ca799ba7bac99a8fe56f78ab98d83f86bfd
+~ ___67-[MAAutoAssetControl _forceGlobalAbandon:isSynchronous:completion:]_block_invoke_2 : sha256 a79c6b05bd8c76f1ced42440d4adea7f3c3db13cce99dedf25c4f37c8d48ccbd -> 3a82c8d6a1efaecb1d8272ef46e0bf8526618ae3ca25caa076da8452abfc58de
+~ ___67-[MAAutoAssetControl _forceGlobalAbandon:isSynchronous:completion:]_block_invoke_3 : sha256 16af60257f4bf976781b83a40c752df9f2df1decc51cd03e38aa1d44481ff9ee -> d41a3f8d296ae089c08a211c70a73a0762ac65771a8d7a5d8ad70b50973dd448
+~ +[MAAutoAssetControl simulateCacheDeleteDetermineReclaimableSpace:withUrgency:error:] : sha256 0adb0d629ec09af540dffb6d85af36ea4ac6298a4a1ff64fed6feabcafff9c28 -> b7f6f2f310cbb712267cb10e2522e289d414bc8752805ff02af104b3775eb588
+~ ___85+[MAAutoAssetControl simulateCacheDeleteDetermineReclaimableSpace:withUrgency:error:]_block_invoke : sha256 1484041f9d03208364f052bd09f5cda6f9741e713a3f0fbf0fee9979d74dabf3 -> f505a6dc05ffc0d5cc948f6922588b94f2df1ce51140b79aff4999529512bd00
+~ -[MAAutoAssetControl _simulateCacheDeleteDetermineReclaimableSpace:withUrgency:error:isSynchronous:completion:] : sha256 e086a8eba19711799b92143ee6b14e4e4db687d7a89ebbd41d63c437c36be014 -> 67c5a92051853e947ec303d28fadfd8ee24b51e4d3c6db1fdda3990cd430fc2a
+~ ___111-[MAAutoAssetControl _simulateCacheDeleteDetermineReclaimableSpace:withUrgency:error:isSynchronous:completion:]_block_invoke : sha256 c8af3b77cbe6289e0a611ce8d6c6c2f3905436fe4cfdaa8d8902093fd2881305 -> 7f6d286582e03aaf367a4e5f21f4861b5f8927e66a771c78477870a6211a0f04
+~ ___111-[MAAutoAssetControl _simulateCacheDeleteDetermineReclaimableSpace:withUrgency:error:isSynchronous:completion:]_block_invoke_2 : sha256 77ec399f1e225a4d7eeacec0495483ca5bd8a423c7603d2711618d3fd93a1f3e -> 0ac0e97644378aec3c8c9a95b0241ff89b85d6d752f2827cd600f249033f5bd1
+~ ___111-[MAAutoAssetControl _simulateCacheDeleteDetermineReclaimableSpace:withUrgency:error:isSynchronous:completion:]_block_invoke_3 : sha256 4bbda025832b18569ab426090eeb5c83987b4821bf5e45a86095f07465ca3d4c -> 5ce251f7da4c8a30db43aaf0090abe5a4740d8ec4492ba3508f963ededa76ffa
+~ +[MAAutoAssetControl simulateCacheDeleteReclaimSpace:withUrgency:targetingPurgeAmount:error:] : sha256 b82afe6692254d539fb9b69007390b58a639c27284800665aae59d99ca84ed6c -> babcbeb71b6cc8d7c37b203ebd2e4aaf25dfdbec316678debaca14f9ec65bd66
+~ ___93+[MAAutoAssetControl simulateCacheDeleteReclaimSpace:withUrgency:targetingPurgeAmount:error:]_block_invoke : sha256 26b4f59edbd79b1080b1addd07f24f7d4c537a83f13bf3c8635aac1f470da4c1 -> 9ea4d7a7810c5735a8f911664c06d491080c31c354465c5bab2e07434d3323f4
+~ -[MAAutoAssetControl _simulateCacheDeleteReclaimSpace:withUrgency:targetingPurgeAmount:isSynchronous:completion:] : sha256 60b3aad7255bc8a8cbc5e32e9d0f099632ce2b87d6fe2ca466dcad239a28e27a -> 17ff9300100e072ffee42f03f28a10f57f3a54e14460972da5b416a94622c804
+~ ___113-[MAAutoAssetControl _simulateCacheDeleteReclaimSpace:withUrgency:targetingPurgeAmount:isSynchronous:completion:]_block_invoke : sha256 945903d01f9c82eebc8ea352db8d714c737f25bc3555c6a3f2d95d31ae89f563 -> 0554840c9f639a068db1f817d18b45762121adfad7ccc41cddd3b85dcaf75d0d
+~ ___113-[MAAutoAssetControl _simulateCacheDeleteReclaimSpace:withUrgency:targetingPurgeAmount:isSynchronous:completion:]_block_invoke_2 : sha256 12ef6691cbbbb4b299d3cf1c113cf251b58f747e23db95fb400dddd2cc3db663 -> bb55f3bfd51ab4f83c71f5f6f03c16af3ce4a7ce60477516036fa8c3a2914419
+~ ___113-[MAAutoAssetControl _simulateCacheDeleteReclaimSpace:withUrgency:targetingPurgeAmount:isSynchronous:completion:]_block_invoke_3 : sha256 f580a57ca17eb19e9ebde98e05f98029fefff06e66f3bb05e79d44f95000c0ac -> 88b3f0bd096f2acfeff0e7095989ba0c83a2e9164a0d6354714986d6b1faf15c
+~ +[MAAutoAssetControl simulateSetJobOperation:withEndEvent:forSelector:] : sha256 668fd33b5322d42bd51778712536592d682e78527eecdfeafa03e970b344ba4a -> f459cb541c18803203f7b90341940e2aa0a4730e966e12ddb8057fee929007ec
+~ ___71+[MAAutoAssetControl simulateSetJobOperation:withEndEvent:forSelector:]_block_invoke : sha256 1ca3217d72fd7202962871946531c345516125c6ef8b321e8d7ebe61839c545f -> 953d9ce39c4b1572c5af744d413b3165443cb37f0ffc12626051ebf7a175d428
+~ -[MAAutoAssetControl _simulateSetJobOperation:withEndEvent:forSelector:isSynchronous:completion:] : sha256 b3224e041db7024d79fc99a562566e9f277e417c9e127dd7d21531fceb1818b5 -> 9e6cf31565e40b50929dda7d89dc1c27f30aefcafe951678217cdd5d15b24851
+~ ___97-[MAAutoAssetControl _simulateSetJobOperation:withEndEvent:forSelector:isSynchronous:completion:]_block_invoke : sha256 3be2399e7f1b79c55d846ea5a2d075f748c7a7584349d78998e6b80cedde27af -> bb1736aa6d93d9318d5e1e9b67d0acb1d46b54079a8a784249c67cff4963fa8c
+~ ___97-[MAAutoAssetControl _simulateSetJobOperation:withEndEvent:forSelector:isSynchronous:completion:]_block_invoke_2 : sha256 e5f86477743ff7a3ae3f8ae045ca43f03fac21814a9a4a6a1057b35cd402ea1f -> f090ebcfa507f909ed4dcffd43a43cb3f6ca1d1250b1617a620c8545edcde6fe
+~ ___97-[MAAutoAssetControl _simulateSetJobOperation:withEndEvent:forSelector:isSynchronous:completion:]_block_invoke_3 : sha256 ae64a18a20fe09d973ed60d642f3ed5cd255c0a2312d549e9e80e58e553e697d -> d1b556d095e94e92fd9ef4c45b45b5b59f1229c2b46557d07e3dcdf7197eed06
+~ +[MAAutoAssetControl defaultDispatchQueue] : sha256 3138f689d16ccf175b9392488fff6109af8b1fd08468c6f198d6f2dc75516084 -> 759345650967d93c476dd1153cbd1a2ba29679bb9bf0a2af1f6094cd85850dd9
+~ ___42+[MAAutoAssetControl defaultDispatchQueue]_block_invoke : sha256 daf93d7f6c49949d4309b15fbbe69862b06f3232f1424cf117930511ebdf83bd -> f356858630043e4dc53bb2267bffd5b56ef64a9cb808d21acc2d22cbf035b318
+~ +[MAAutoAssetControl autoAssetControl] : sha256 d2bb87e109eee6c8965a3f960048cfe71785b3857f52d57c7c8d280b052f6d42 -> 45bd3800f3b036e6326117ead65e2450200ad18080637ae01e5a1288a1ec3a29
+~ ___38+[MAAutoAssetControl autoAssetControl]_block_invoke : sha256 f7793bee0e1bdbf04ff2998ddf02ace205525edf099cf785f8729bd5ee18e763 -> 0454703a4879aea9b2a59f18434b506e3605b0f0f1306528c27c5ea533885d71
+~ -[MAAutoAssetControl connectToServerFrameworkCompletion:] : 1672 -> 1668
+~ +[MAAutoAssetControl assetSelectorOrAllSelector:] : sha256 5c8333ed5a9627be1c8f339e315a8fbbdf059f608c636824a2712dd8bd65d392 -> e75e7a2e2723dd55e0a281be75a6276577a4a9b554f95aca6a37e35bc8506e1d
+~ -[MAAutoAssetControl _successControlStatistics:withControlStatistics:isSynchronous:completion:] : sha256 fb9f33f45e9645d6319301aa1ff227515689d9b72ec5deb240d9f87c30a3796e -> 65802357bfbdb4decc0560932fc3687cbfed953bc6528454b0418b4ac7a8bfff
+~ -[MAAutoAssetControl _failedControlStatistics:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 80872ea793bb1d53d474e51fa1a0a9f2bf4955d002e814a035c4303c87c9d741 -> 5303203c27617006bcd66825b0034c49bfde2db7c602fa7e7611b489045a2716
+~ -[MAAutoAssetControl _successControl:isSynchronous:completion:] : sha256 980b47fa9390310224427cc9fc0a157770f9ddeb7ce8581e47c8ec5e26584d83 -> 2cb7206c4695170eebaa14fb38ef6f29561caa55e12bcbd3ddde539808cb8f69
+~ -[MAAutoAssetControl _failedControl:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 687b9e55675840fd956015377cb274efe67d4f2ce763ab247baf6e8dba314a98 -> d25ae3f6b0652f58ae15a2f7ec694f963138195ecfe7648adff0f94631aa60bd
+~ -[MAAutoAssetControl _successControlSummary:withJobSummaryEntries:isSynchronous:completion:] : sha256 07bfa7e8b9749d4fa27377429ea11d85c2e741901d81deca0dee9816a6f87a6a -> 24cff776d36fbb61d9775617ee5134d141b1bd5c13621654fb392161d8aa03fe
+~ -[MAAutoAssetControl _failedControlSummary:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 1c282bb38cb77a03d6e1a781af7d3ff34623f61e34d3afa01343dfa9e58d5df2 -> 4c15b3714346794cfd7bde12af5e7e35583a2c96f492122e9587839a720ad7f5
+~ -[MAAutoAssetControl _successControlLockSummary:withLockSummaryEntries:isSynchronous:completion:] : sha256 9fad9d196881e520431f0631def81eea4dd821858936124183a4df8d3f9b9ca9 -> 48798458da3bebd1387fab4dcbad0f8d6cd936e814df5637f7f918de4e0d6d35
+~ -[MAAutoAssetControl _failedControlLockSummary:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 7e83440b3c4952dc8c9d57e58df73b8750bd591c478dd04670360daf75086da3 -> 589efbebdb613979baa014c6286f8b74a82ebe930b96ea48731f0ae0cdb455cf
+~ -[MAAutoAssetControl _successControlStagerOverview:withStagerInformation:isSynchronous:completion:] : sha256 6bb90216e46c929918c9a4a2f7f112d68372b3d795e114ddb50088c0965b1f22 -> 9206dfb5991fe35b26f3d96780fc887301fd0a32be4eb3130ee229aea0308d3e
+~ -[MAAutoAssetControl _failedControlStagerOverview:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 84ed458466b4975bc81779228ad09121008ab54273867d3ef8fd96ea881b6821 -> 5339432a7f41fbed599055c5a2fb11f345a46881e7c917a5518855ecf1fe2430
+~ -[MAAutoAssetControl _successSimulateCacheDeleteOperation:withReclaimableSpace:isSynchronous:completion:] : sha256 f021b736098e5e2ea13181364e318ef3d5f0f6a3233a3ee8e9e25507436b813f -> f6e6c3b580d5f62eae4404b082b2e716589b8e6a5d93b75c8c001c497800187e
+~ -[MAAutoAssetControl _failedSimulateCacheDeleteOperation:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 559186a66073a1b1845ea85e78a0c859964197b08293a9d5b5db4c6be62e1532 -> 2c88165204068661f07e7e7ff0e2777f861fb117c25aadaf9f2fc78033fe92e8
+~ +[MAAutoAssetControl pushNotificationHistory:error:] : sha256 9ba7f207eb3cfa0ad8ab010fb1775d19d1e58a00163bcae1de93072fd8c3e825 -> 7ecb8f0692685ac8fdec8c158a55948cf1c55476c14187e96a5eab09a5c4016e
+~ +[MAAutoAssetControl frameworkInstanceSetLogDomain] : sha256 d0a4e8fc1d7659ac8740a7a6ca58bddab1700b05abed8dcb279b3174d8e3e28f -> 0d32b2213eea040217e5ba894558869905c660626ce93b696e7574ae9bbd9245
+~ ___51+[MAAutoAssetControl frameworkInstanceSetLogDomain]_block_invoke : sha256 2457e2284a1c7b66c1c653107ba388a8b1ee31b61ce9b6c8d4d9ff430d6321d4 -> e59e59dcfea29743c8510d5b0cbfc3bd9ba8c5e6650ec1f8dd646513c58281f5
+~ +[MAAutoAssetControl _privateStateQueue] : sha256 8808d4deddb721a5fc949a262eed24c5310a9710e63726ad4a2638ae90d66aaa -> 549eed409b180ce3360710fc634514c2b7ec2c9f1f3ea2276e78ceb111dc1653
+~ ___40+[MAAutoAssetControl _privateStateQueue]_block_invoke : sha256 93eed6269ada2efc716b793bc64c0e4c932bfdc02e199014f61da6d6405070ec -> 7c588e9842c6370d73a7c9e58173929a605b79e4decd2cf2bc701d4717f3d5e2
+~ +[MAAutoAssetControl frameworkInstanceUUID] : sha256 ff5731e4fa0c2a1f517acddf1d80c795008c2a8e83bb5fa5b21708c7bcb2eb3e -> e5d82eac54dbcda2faf0161ca55b1c73209da265ba9aaca1fc260fc1af374883
+~ ___43+[MAAutoAssetControl frameworkInstanceUUID]_block_invoke : sha256 98577a0bcd25f04e8dc74ebedf7c187ff09949a3aef86b870184dd3473a2c563 -> a0f2d6a78df337ebc9b2e3482018f7b97daea69bf7f00c937ae01f2bac2fbe2f
+~ -[MAAutoAssetControl setConnectionClient:] : sha256 53d5e968563eac9db539689dd1ff4a957561091cf0ecff961b9913e1153698f3 -> 0509f3a872bd6640828cd94f7246c904f536a15a3a2898b3a5d3653df3243ed5
+~ -[MAAutoAssetControl .cxx_destruct] : sha256 8d0365b1b927b8adbc153496b2f85f16fa2c05be203e1fe85b13d7271c4cef4b -> a285bc17f564cf360a1fcc751d43ad5b8efbc69cc97ba4703ad16f0d39aa2cea
+~ _allowableDiffFromCategories : sha256 f9925e291559fcbeda84b52c7b8b1ffa920ed0bdd08b706984fd0adcc1f1684c -> 7eb156075332629bbb46ec224a3c80734f5b075abf5141d70b0d96bbb6590106
+~ +[MAAssetDiff requireSameAssetTypeAndAssetId] : sha256 f9cdec8608811cdf0375e4af432937b22a5435c53e6d8fbb2ea77c6db2b0e9d6 -> f0d5bcea471dc3e9cbbc30c4099d20e949650f40462a0527c6c82d29239440af
+~ +[MAAssetDiff requireSameAssetTypeAndDownloadContent] : sha256 cde6207b9ca8557c07c74fc7bd7f0e9481829b49bf8150334edd989ab79c99f4 -> c752aa8455a20edd7e1a77ee753aeda9ff3139900fe42d6f9bbdbf0b4264d412
+~ +[MAAssetDiff allowEverythingDifferent] : sha256 3dcd992d6c97da21d49dc405b590d4f09e8231cf4266b5a3237bf50717bdf170 -> bd05b735c30bfa69e320cd166b72a72fa9d4ddbb26d59e16f03ffa5291eb72f9
+~ -[MAAssetDiff initWithCoder:] : sha256 ace16acf8824d74607121ab9d73318c6ed5684e94d9602944605f0f4336a080e -> 84e395f1d83e41d200bfb80acf5e8921c7ad6e7300e11e1e923dedb5731b70e8
+~ -[MAAssetDiff initWithPlist:] : sha256 e627aec78379fe0477b41bd7a323e0d60dff93dc15ee843ca6cae94375b951bb -> e6cee97bf6c4c8950f4b5b0c58cb237bd3d300b03f08ba9ba72478467c1bbe8d
+~ -[MAAssetDiff encodeWithCoder:] : sha256 35424623b8ac98c0449fbcbec2a2d9732c9b2046151491c662bfbb54f9349913 -> e8624d3ad7d1b5c5fdd639a287d9f0f206db77bd045749e88f2e0992b7f1949e
+~ -[MAAssetDiff encodeAsPlist] : sha256 7a6d83a1d75a4b852d346e7c32046224fdf7117532ac22da997301da91c77e9a -> bd2e57e5de9cd08b482b88cef745475ffac238603af595b081b7cf9f42f9f7e2
+~ -[MAAssetDiff initDifferentAssetType:assetId:attributes:assetIdAttributes:dynamicAssetId:nonIdAttributes:content:url:policy:] : sha256 43f8efa72709b85e5de9bc42ec94d78ac13633a9dcf15644ca1aab9a869c6b55 -> 10091b5bb8f4470772af3d48dc991029bb6b9f09baa72b5f27aa78f07ba1893e
+~ -[MAAssetDiff initFromDiff:] : sha256 58b2238fecfed9e8e10fc2d19c3a8c169957b0881941ec4dfd6d1f43b829f287 -> 45b5239a2517c07bb8b47540a58996f04ff6dc3b4303212746fcb866f7e3a4b3
+~ -[MAAssetDiff initFromInverseOfCategories:] : sha256 0c4c90d0dd8c7232c4ed9f3d9140dab3f8cfcbfd7aee33e0c468d43ac6a64d25 -> 9a17679f7d8b6d38ee49f359bd8438833d390d5f1d977022409bda804f7cff73
+~ -[MAAssetDiff isAnythingDifferent] : sha256 dd5ef9ced26bf41f0bd252a650f225885469c3d85b4669e94e2206f41a5915ff -> 5f01c0a3404598653c5f35f9f4866e92c767c23cd3773ef8a30e5088abf764c4
+~ -[MAAssetDiff isSameAssetType] : sha256 312bcc68991a140e2b22aff72ea5eb0a995bb0f70745e553102cb663e5956fe5 -> 2f93a676253e3066442f550d8b0a8c1441cb72218e994c4272140f6c9399f9d4
+~ -[MAAssetDiff isSameForAllAttributes] : sha256 c8b9eff21e760507470c5e666d1f82afc3d440ea22316538c34fb38120d7e732 -> ba837eea9e6ed79868edafbd2e7ddaf489251354dff3f66f8487eaa4c6907d86
+~ -[MAAssetDiff isSameAssetId] : sha256 e40be2a521dfef361f2b0b9b160c58c6b32fabe42f7b362c2a8f71bfb7131e34 -> 98d1f8ed5a09682f23af99fef0d9249e144c4499a481887f8a1af95b4ffefc6d
+~ -[MAAssetDiff isSameForNonAssetIdAttributes] : sha256 d374cd6850e42268c60d9aa9a9c6e84abf2d29d8e173e322bb4fc1eed3d5b364 -> abd0c9b341eb3be4529792ae18ea2410479b0119ac388e653997078a0ec6a3b7
+~ -[MAAssetDiff isSameDownloadContent] : sha256 65a186b6e0d451aacc3d08e05540ea64412a5da9e47ca3dc384eaaa9bee44ab9 -> 0c39472f9fee64bfdb62691c794f1d3ce9685d1cda571da2644ff36fb55a5fb1
+~ -[MAAssetDiff isSameDownloadUrl] : sha256 e1d530d6987a991f1cd6dee02372997e13ef3b2d4481ec1e66980b67cc039010 -> c4a5495210f0d8ea4ba3e3a5f7f17aecc9d6e1eec6d2935a7074ed78bfdf4282
+~ -[MAAssetDiff isSameDownloadPolicy] : sha256 2dc8cff65d301a5db356344c47f97f7bf413fe1b4bf9da82ba57190a881f14b1 -> 360e28f068b3078a7786df8261abf86760359e8127e2e4485c445ec4ca745d9f
+~ -[MAAssetDiff hasOnlyAllowedDifferences:] : sha256 26c9dd1cd78409b60b554d6a1640a8d672f332fbc8a5c5c4d8aeacfb595c06ae -> ecd5f4cf6f98ac95e8aa056b46b7e87986501af4c6ae06fbc0a26b0ab7bb1a67
+~ -[MAAssetDiff summary] : sha256 61c48f61893c8791b9555f0099238f9189868ee0628a5dceb708766d319abb52 -> ca6b3ff2f8177658d62490b89e137ec7fc618c2b70d6bcc92059438803252809
+~ -[MAAssetDiff description] : sha256 fad432c1fd9e86deb75bddb98bcb6eb7ca6156b0d55d7272250934bbea6b634f -> 339eeeb74de9939222be70202c16d9d13a20bfaa458e3e633aa6a18867eef126
+~ -[MAAssetDiff .cxx_destruct] : sha256 1ae4cd0dae5b763bd9cb587c3cfb9bd2d6ff158bd6f603d219d144306339e06b -> ef3f1d97ee1ddaa681d0af0325d14159e29b89c867307a597c5ace4b12ea65d8
+~ -[MAAutoAssetLock initForSelector:withLocalContentURL:withAssetAttributes:] : sha256 71dccb67a7761452b0e6a344678d1600c9a93ad840cecd66dd5b040859caeb03 -> 51ee08068248820978c5c0d13913deef317eb6d0ab1465c0b8a8ae0b9acaddfe
+~ -[MAAutoAssetLock initWithCoder:] : sha256 a712df8c99c0b1b364ad73a4e07e8e915dfce4a88c1882e2ffb06c0a1ad464b0 -> a4379019ad71950557ada5d7cb3c30d133d8683fbd5c162cf52c3ad58580c123
+~ -[MAAutoAssetLock encodeWithCoder:] : sha256 fc14af59bf06348716300bf0feb957fe9c0542806da0bd414f4e738738847ea9 -> 4de258b3423da142071f035e60938220eb39c47aea8fac3cccd5ddcfedeb351c
+~ -[MAAutoAssetLock description] : sha256 377c2a0ccf50c44ce4bbcfb20987ad27e5aaa552abc3b990645f770f7e1237ae -> 6af191d737222b02119e59c94019375e27d580318c6b12b9e859b8881dd88abc
+~ -[MAAutoAssetLock summary] : sha256 2dad9302df4c5f0e96c2c256e10117fab01247a856ce222b9ec947cc100867a3 -> c78914102726cbc7641fcdca6d34c12ff4d99d8866f9d49f158729de978863fd
+~ -[MAAutoAssetLock setLockReasons:] : sha256 9ef690f1072e7843056935597b5b032c8f114187aae2cede6a429121de402e28 -> 2d1e1e59a8b3b8dc8580ac71dee1506a1dc5acc40b0ac729dfca3a0bfb66b6a7
+~ -[MAAutoAssetLock .cxx_destruct] : sha256 260980a3ae794648b48f299cb78efb49a01d22d8569626e559d7842bfe7724ca -> 8d91488680ad8c8b122f61f2cd83c957861c1f57cec4aa6f2cafbe8356b2ebd5
+~ -[MAAutoAssetSetLock initForSelector:withLocalContentURL:withAssetAttributes:] : sha256 81eff9dd0c59e18e15227f8e6a31c01767dfaa8094d1ab9932c757480baa6c8a -> 2f4765c33dd5675dbdc0e621952533874a3a52665bbdd000890dfafb5faee684
+~ -[MAAutoAssetSetLock initWithCoder:] : sha256 7622d544182e2987642232bcb9b2db9e6993046fd827da80ad34439757f77773 -> ddaf0a787f5e5c07122c5732ab6cb665d66ef48cfaa091791b47f252b0797360
+~ -[MAAutoAssetSetLock encodeWithCoder:] : sha256 93c62df8a9e81c8b07be06922aca69b68dba70c927e13574916fb0b30ae8920c -> bae69b0e89cc16a933e0ebc035e58508cee2e2b1a1572987c2e1e0d565bde1ef
+~ -[MAAutoAssetSetLock description] : sha256 76e1fada5ad0173c4b5f0b82c77c599603d7b9c9b2bf00226ddfa35f237542ca -> 2249f85f2441e1908662e993a57e5db3fecaf37a2f470210a305646fee6310ac
+~ -[MAAutoAssetSetLock summary] : sha256 17f7ff6b9acf528c9131a60cc14748fdeef956bc885b6bc56d28b3b56078a34b -> 673acbebb13514e961edf3ae7aa9fa4acb60d8966981b4a8d7b8abf5b3baaef3
+~ -[MAAutoAssetSetLock setLockReasons:] : sha256 939873484236385d480d409ebffa1b4aa4c5768cde09349a743fa04717ff077a -> e608fb5be43550d060b869954a43805f88db010d5a131b6e2aff50ce2b0b7bf1
+~ -[MAAutoAssetSetLock .cxx_destruct] : sha256 e5c817dcfc0c959b424221bb91da7c49dc7613f87b8f1afc998f60b27f5180d6 -> 5b4c7b81f921b39ae6668c67e7ad38ce58ff414f21d3e8ba792761aa6828a166
+~ -[MAAutoAssetProgress init] : sha256 4275961b9486abdf33c9e65d8c629d2af57cd672004446aa195fdfc3e032e014 -> fc62cca549636cb823e284dd3ba674d256144e224b54ede9519f51204efe023b
+~ -[MAAutoAssetProgress initWithCoder:] : sha256 e454f35d76b81b2abe448744714eb984696d78568e2ee1aa6fb7bbede25433dd -> d21c786c82e4d38ee98b9764e1d0d5bf96c5883071d1363879f51c2d5d31f8e5
+~ -[MAAutoAssetProgress encodeWithCoder:] : sha256 7f1929ed8ec1919d5dd1b6283d0ff46f3d65808054caac83318dc82925bafe8a -> 7222f576e2a61a2e584ccbfe5ef2bd606ff8b242569955d4451a0d01fe5ee38b
+~ -[MAAutoAssetProgress copy] : sha256 eb7d1cdf84717f65ac45f9aa920340dda42304aec85d9b42431d0c17ff331cb6 -> ec9ea5b8235346fb38239e51a33692969ae0a0524a2d999d661bf382a55c91d5
+~ -[MAAutoAssetProgress isEqual:] : sha256 ad617e207178aa4f119b08e40d76d2e250afcaa1ddc70ea2d23a50ef0daac3ef -> b3ad912463b9b9006abf8ea7f9ce28dfa7ce344001d96c4a5d964d36cea31db2
+~ -[MAAutoAssetProgress description] : sha256 c71fb112a97de50d704bfa209e00b442eade7568de66a9929d96707d41b15d52 -> eede85f9e314634738a9ae59aa0a8e540d48bb031c53c27a88d7ae26b4c32d87
+~ -[MAAutoAssetProgress summary] : sha256 33c1e0ad3042b83c107b8a943a587cf12d4de2a6c327ef70e2389769d7710bd7 -> 685205da05a3f74c180c10cbf9134cb628738f152c67269bfa9b03b0244ba110
+~ -[MAAutoAssetProgress newSummaryDictionary] : sha256 38f608b01df623e88adcef719c94d977414d8bfcf180ad7dc9522277d34d1b44 -> 5e80cd2a46289d53da0e0e4a07f83357fd049445488d7ce83c297128e90eca1a
+~ -[MAAutoAssetSetInfoEnd initWithLockReason:endingLockCount:] : sha256 3d9b1115841f680338d21f5b07fa312698eac54be9b1f828eb47db2307f94581 -> 7cbe7cb66997aa6b4282a2eb175740d73cf8c9092f0f3d45b291d14a0a5c872f
+~ -[MAAutoAssetSetInfoEnd initWithCoder:] : sha256 d995acbb5022d7809fad2beda9610eb06033d86aecd060df7f860a42cf948909 -> 4b500e27229c9224c652d834ae8527951dd465cd4b5d779f08d1d613c33315c4
+~ -[MAAutoAssetSetInfoEnd encodeWithCoder:] : sha256 fe2901d020f52a0900d37947ffab0ccae751904c7fffac1c7bc0325f72aadc94 -> d14c14049522dec7deedb7d72963f925185d493924f27ac27982790c9220d8f1
+~ -[MAAutoAssetSetInfoEnd description] : sha256 43b3dad7abaa86b8d3d489b2536161712cd8376d21a8b2a60d81a24289703038 -> fa1bf5aec298e7aab00f5ad23787a4278ad41f9365359d10a39c794810dc466e
+~ -[MAAutoAssetSetInfoEnd summary] : sha256 367d0fbbe797ac8cd31fc73c1c69825c9d1efc76183c6e74b551986dfb295b52 -> ba7901f5407266954b38dee9895cb08c727c1ba1243d3c96213369095aa66640
+~ -[MAAutoAssetSetInfoEnd .cxx_destruct] : sha256 19bd114d0f5949be7a17b72a65876afc7f7cf99aef53c130955584069c95ffc7 -> d18a9925b1015782b70302fe0ce09a493307025cda8f5cddd92ad0523462f430
+~ -[MAAutoAssetSelector initForAssetType:withAssetSpecifier:] : sha256 95bd420bdbb71bc5f49442eee55cfcb2320df354fb954fa643c86c9e30f073a9 -> 1df28634117a67c4a0db6c8749005b0492b4d0687a6d65262bafff9c942dfe8d
+~ -[MAAutoAssetSelector initForAssetType:withAssetSpecifier:usingDecryptionKey:] : sha256 23c0a5ab27413e2d62a29f54f41b6c123246dd5fc14409d3330eb41bfff40121 -> a4817f64f5ed88189a043d9080ff674428b44281117e6b7b07ddb56db89bb301
+~ -[MAAutoAssetSelector initForAssetType:withAssetSpecifier:matchingAssetVersion:] : sha256 daf40904f03667834ff7d828848cb3e4c48f4a811c40808ed71b047adb88eb7d -> e075f11e8e9686fc37211b5b9bc8dccdcd23df326658af79eeb9c2dd78586300
+~ -[MAAutoAssetSelector initForAssetType:] : sha256 1601dd3c932279ec5414ae4764f5f537e2099a10bbf4272623da0526cd342b0a -> 3e1c6833a0eb89664465a80d7d6206abd6721de61cd7d06f0b4a18eb56eb310a
+~ -[MAAutoAssetSelector initForSetAtomicInstanceUUID:] : sha256 a8c172b0eeadf672c593a88025a9f07778fbd5020f6ca4358f6c7bf60153360a -> db05f0c49d600f38ff465d245adf6d6540861a8a524d14ba4d18eacc6dfdeb3d
+~ -[MAAutoAssetSelector initForAssetType:withAssetSpecifier:matchingAssetVersion:usingDecryptionKey:] : sha256 77252e27f66e5f7ca4f920509347556d08cb53621199ec47f6d2d9f6cb22793f -> 0249c7760581d8dadce9018e8384606987aeb9675cdd9ceabd6e644231c99cef
+~ -[MAAutoAssetSelector _initForAssetType:withAssetSpecifier:matchingAssetVersion:usingDecryptionKey:setAtomicInstanceUUID:] : sha256 172ab461089e5a687b7f1eecdd344da7e42b8d16dda833c16da3190e592ff1fa -> d496c54de3dade90b7780df2f67de78279937875aeee3a0c54166aba1a6dd43b
+~ -[MAAutoAssetSelector initWithCoder:] : sha256 14b621e17c36bf689a72f2e5c82f7f8a655c4fd0704d01880a179196b0b532ee -> 4b98457ccac7dc06af306bf66507725b1b2d4f4356d3fd4165c0e9c7bff9dea8
+~ -[MAAutoAssetSelector encodeWithCoder:] : sha256 fb9b480eed92d214ad3db0c64fa21725544ed192df3bc19ecd5d9da991448f74 -> 3410d6f8e4d2d0c7ac72a46222ef3449d2015fe7960f01ca90ce1fa961bf3c7c
+~ -[MAAutoAssetSelector copy] : sha256 caa39d067480836005c58059dcca98dad2d04ae946d096338b024f536ee39248 -> fe25c61f9de67eb6916e6e0eddfeac4b190c2b55723e6cb2f7e122400072af66
+~ -[MAAutoAssetSelector isEqual:] : sha256 8d22a3e576bf330d0fcdd3f76b3c08c107b2cac1c8277ff716dce3727d5b97d3 -> 40c94f75eb60595488e96b41cd538fd9c94477c51b4279f6231cf216f63e73d3
+~ -[MAAutoAssetSelector assignAssetVersion:] : sha256 7926a15e1e562216231c567d556a651d343a53d8a09207c049f9f2f53c439c44 -> d42d0cfe2a6bc48db9f8da048516a2344dbb9dd3da7a7666a2dd9e35d66998c9
+~ -[MAAutoAssetSelector copyClearingWriteOnlyFields] : sha256 fdee3a28579d33f7cfbca42fd60a6b2f561072e16279c903089890d3e74d0607 -> 3bb488185008b327a114a72e3b9d5abfcd3dc9403c5145f654934b3f4602e6d6
+~ -[MAAutoAssetSelector persistedEntryID] : sha256 255fdb6ddd90834b772efb60f6dd184f433b5f4837f4743f34b924133538865d -> e05c3cc42c4e2e8c12d8a17281eeee25ae1b0473cfa0a2855fdba798e9657338
+~ -[MAAutoAssetSelector shortName] : sha256 9cfd028ec561c1be42f5dcdbf5499e2ae2ba39e1d8b4de5f433a90329dc77c55 -> b86c3fd0070ff9b5eaa1030450ec65cc7a0eb206f15b2326c19358988ff8fd80
+~ -[MAAutoAssetSelector description] : sha256 c6f144c79e3ff8fdafab6b2f8c551732b060711abfada5dd8102646569b1d1b2 -> 48b4ecf73402bdc6c20052b8779adf6bb5db08f5c5cee01d366703d74cb9bde7
+~ -[MAAutoAssetSelector summary] : sha256 7aec1998324fc947fc88528b2d7e04585e898a74aae20d4fea1416a985362452 -> 8b202ea02e92eead0d9931beff0dafa634120c98b879d33e6df25016a1266fe1
+~ -[MAAutoAssetSelector newSummaryDictionary] : sha256 18119a8f0a086ce03575ee76bcdc33494df44d71738181483c17248d73526fc7 -> 4f1475cb5f99b946848770f224a1689f00545507fa09a22e5716ee7185e80ca9
+~ -[MAAutoAssetSelector setAssetVersion:] : sha256 1e7ae5924d5cc351e0368832b89025068912749e2164cd7c5b848981e1a99108 -> a0deaef5fcf14942132b729f84c72d0b9411b17e573bbab83d13511e226c603a
+~ -[MAAutoAssetSelector setSetAtomicInstanceUUID:] : sha256 9fc231fdf8567220165aafd95fde47c3dc1cd003f25a8686075c2cd3708682ce -> 456a902e7397214f39aa7b9baf456488bf3873b64d887b5805a7e65bd6fc7f42
+~ -[MAAutoAssetSelector .cxx_destruct] : sha256 bfa11bf2bd40f563955ee9a22b7348bdf868db769c8b427042234559ac19c30b -> 55e016daf0a6f753b62dc8a2d2746f76bc8d5cfa029776faec3a01380d3dc8ea
+~ _MAGetPallasEnabled : sha256 b15f9a48cadfa2dde839be0076d00d84f67d54502144f06ed4013f2305ddf4e8 -> 4c604f64ae4cdc04ff75877737a186ae2b423e4f07d60fdd18c0d64966a3ef8d
+~ _MASetPallasEnabled : sha256 5a5e2bd70a3dfaebd9c8cdaaebd975de6134cb0e3305e80f8f2ac684796425b7 -> 28f142d63c441dfc55c1b8af8d24e93854b7958d99171337a8fa0da7a28a4c1d
+~ _MASetPallasAudience : sha256 2d3c16758ea560e2061da9b5d758b5989c16264bf9d2d113ecbed84fb2c4b459 -> d1afb27d75903eea14c514453031813c0cb75f9e974dcf79f456fd262bec6011
+~ _MASetPallasAudienceForType : sha256 92f3f26723a7d4fd45a77ac2037851756f7718caa6fe5885fb2a88fdc28d97bb -> 81ba6313246a87f92c3017d85f15f0e4cd1ae45fc753a46c97e98aabeaddbbda
+~ _MAGetPallasAudience : sha256 2b8cf4d883541e779ba2224a26a59fec53c53c1b0bb5cfc81250eae8547c4386 -> 44c36117b3f066d7adb9e223f97e99f813b3d81e2c56bb93590346038ce7b522
+~ _MASetPallasUrl : sha256 24f7576da956862dd2729e828bb88b94063cae383ea5368bea08eabe5341002e -> 0eab871d1ce5d148512f2b0438e8aebfce47412ffb18df7e87b34a72a04a58b8
+~ _MASetPallasUrlForType : sha256 5672186656dbfac650c654ce095bb4d4a8f526d9549aeea817f3f7edf23efce1 -> 71814e09a4c25739af5d29b0e4444c78d4a125ccf8c6a80f9ee7de0d298a3003
+~ _MAGetPallasUrl : sha256 2c332729e6ec84ea9a13f5a5397f8b6a6f500846cf588da8ecb46a7f352a2cbb -> 27d59ae5b4e89a7c717b51e7269456c69b965450ca861ebaaefc792dd16975e5
+~ _MAGetPallasUrlForType : sha256 75faa9977f801d0310c2df2653232f6405177677265b2dc7314eb1fa43361147 -> dd7757f35552c263757a5f07824ea4d427304db2dafff2517ad3a772cec4c0fa
+~ _MASetDawTokenPath : sha256 e6c2371a27611afe8fd81c365eb3be1ab3a482bbe0b72ad65a564eadbce39e3f -> 3ca2509a79712239fd1d9cd6b663f3cfd99521064c6b7c94b480bedd33717bed
+~ _MASetDawTokenValue : sha256 c02017614de42d662c46af0a0d704d7f4af30444396877100284f9af38b42858 -> 1672c5dd9a040ab9c64f9aceb8010530e67803ef32aee12b5f711d9ed8d2c75d
+~ _MASetPreferences : sha256 cd3e349de0ddb0a70a49ea493d0daa1aa290f37ee61adf5c4135bf48f905ce21 -> 0478a420383ff65042addb117eb0b26b61356602d395c88ceddde4fb2f523492
+~ _MAClearPreferences : sha256 cf367184b632bfb6653ef6de9a0da3b20e5421c4c15e2fad6397c77c6b01b7b7 -> d065f56713d72b0c568e0fa115987d421aa944f8bf9e404f0733b2e0d8e73a46
+~ _MAGetServerUrl : sha256 0a3010163424a8b559dfd7fd7395184affe3e08e30cee200a7cf31bcbb4f0856 -> 2e321862b3624eb512208edd53083e6229a578af0a453921345d3778128d5dab
+~ _MAGetServerUrlWithError : sha256 31134ed42db7d3edf753bc491d4c5a37bdfa5985efd7451b689c783f9d9fe000 -> 4917af20342f0be2828cca1bedfecde3bcca32cf6e51a8164a205e88fa30630a
+~ _MASetServerUrlOverride : sha256 10b247e3877da1c3356279f7bb34c753b53d7f91e847ba5247c49f88a4a2af86 -> 3041094e5cbdac7cf1eafdf4f6c3b9b067bb9d3d051263e3255adb2b74f83111
+~ _MASetServerUrlFallbackDefault : sha256 6ab15b1b571b6981ba7c21d6899b96ee5aed32925e7dad93732012e3bb355e74 -> 178bf11f9667f75a59cb41e7d0544b0f1fcd800a6050df43b161492a2f42b7f1
+~ _MAEnsureDataVault : sha256 46e49b941826796f56725865c2b01dd22dfea74aa38f74141a396ee65f9dba4e -> 808fdc7b0305e81781c81983d7b6685898e579ba7db382afa99f0948b27ae19a
+~ __MASendDataMigrator : sha256 3241befa8da7ad24f2b9be9510b3b38fc1b513c1d4a548295689b83d215ca71e -> e0c3f7e1490b6cb77c67a550cc6d19967435acecac87ffa43816d9507959e5e3
+~ _MANonUserInitiatedDownloadsAllowed : sha256 23e225b595d80c36d0c2dc3eaa2c3406fdb8197fea510a1bb9380ea6ac4df4e3 -> 50de0a04c7a1b8e33e7ebe83c4586ba4491e4918dbab1a1d0ac75de96e1e7316
+~ _MANonUserInitiatedDownloadsAllowedForAssetType : sha256 d1e19f854a84138dd7691c79e81827f4f981bbad3745c8a8ac23ffe5129016b8 -> a68008467670ee6455adb8ec494b8c0e3e29ecda81aae4503bbd39692ec2e677
+~ _MASendRepairState : sha256 dd94caa63893a46f5493647379540ef523ad55beb3a1b716d24239ee4564b959 -> fbcba198c8e773d70c6fb28634c276df0d05270a612b20fb26f6eb9d653ef6ff
+~ _MAMigrateAssets : sha256 10b85e22c4ea97eeecc2c33835775fa10f9742e1f2e251e4f577e190f8e97b4c -> e0c30092b40ad44bfa1cb4c40cd00473f7f7243b86618dccc48377627573c8f4
+~ _MACleanV1Repository : sha256 7fac7029496e29e29141959f736504a27ba4ed145b5344da70e8af8a8f6bd458 -> d1d3514bb96fe4d54520e7efcd53c75da66df8e36c53534128e8f6dc1e8baede
+~ _MAPurgeAllWithPurposeExceptGivenIds : sha256 ba1d85fbab4f7b95077899a3ab78f9c82aae3d5e4572693dbec323b5fdcd3661 -> c533e5aafbaab17c18d89aa0ea37e945b243d7eef10c422664eff6d4f0bc4cdd
+~ ___MAPurgeAllWithPurposeExceptGivenIds_block_invoke : sha256 1d2d138d7e0919af6e4942bfaa8ae301be75a8b7f1dc5747c95facd6685f8a7b -> 9116e3b8eda5e72688c0cff421a40d727c754990116120b0451593c5aa066eda
+~ _MAPurgeCatalogsWithPurpose : sha256 af4bee76afb5e5cd1aebfe90b1615d0e2896f7a9467b6fe639b72d4e126eea72 -> 695d570f460ae721fcad439eda63bb84dd928139ef4a967b3de31f0c89b14ba6
+~ ___MAPurgeCatalogsWithPurpose_block_invoke : sha256 1c0cf795b4a7a317a171c2b257e04c0c8886e0369d3f0abae6bdf027cb344a5d -> 3de215f1f94b4f8ceb7c52f24afc6148a840fb47b07a3161b497621aa870393e
+~ _MASoftwareLookupStartDownload : sha256 f7386a5d646c6ffa5e371391f14d9d68e6b57e151acc26cdd317cc18ac260b38 -> a8aa0c2f4dd03b178410626d5c2e2ec87a5f760ab5befbe5b1f70e8a0dba09eb
+~ _MASoftwareLookupCancelDownload : sha256 cf8aecda868c8e2fa815d35b5ad562b556a7154da9f71c248667d25736f60803 -> cea186d11d385fea80995d746a9438f814984aa2edd901f3156966c357722b03
+~ _MASoftwareLookupQuery : sha256 62825e2a11a32b6a94a156c7b8d090543a3bbbc25a6c1689c32e58caeaa32013 -> 20e7dea259fbc8455732cff20ed5855746fb2bee77156da561c2b7d593f2f2b5
+~ _MASoftwareLookupQueryVersionsOnly : 680 -> 676
+~ ___MASoftwareLookupQueryVersionsOnly_block_invoke : sha256 37e6c03fed74322147be03782eb2f6ae8d037cfd47fcb176f869adf7fa3e7b5f -> afaa8c4389b99efc4b7087e6fcdcf17500bd4d2e98fc1dd963a9a9fc2fa38169
+~ _MAReportingRequest : sha256 01ad39756cad5735107f3bd7f9d88cdf8e068480da360e43cbbe4e5dd180fb7e -> 4950ad7dafa0c5614e7921693096495619ab4f5c304591da8fb5e983d8932459
+~ _MAIsDownloadResultFailure : sha256 8c5cf078f2f536a6e7bdf31b5eceded019eb4510765260eea62d1a36aaebefa9 -> 61d260f628d38262d4c6c23e51ded5088c84c3ded2d15dbecb3baf0798b6c32b
+~ _MAIsCancelDownloadResultFailure : sha256 21af98ce38b54667c31f488f12d05499e3c46a77adb9d87a73a385154bdfcfbb -> cfd9e74de03c3436bff03430c4315e533810d53a0f3d7c3f981e13b5b6eb8cf9
+~ _MAIsQueryResultFailure : sha256 55ea43337c092675ea92848e7ab3fe7bf5cbff4efb3293779af8a0722d0d16e8 -> 11368b7643bf77c83b857f299c9ac59fc780fcfcfeabd4fd37f2b32a6506f43a
+~ _MAIsWellFormedAssetId : sha256 391530747070d79bf13d77d28f1fe70c6eec80d51f06d06270b749eb0fab6c2f -> 6d9a6fd082a96237f04c9684bbbfcd9d36400a8491857a5278009810430eaeda
+~ _MAIsWellFormedAssetType : sha256 7ec80469768c9ccf560df447378548b4df85eb9e1af824d976a883599e149050 -> 8b7ac61efdc0c2fee5a029213184096c181a82f1ce0a89662d22aa9a58d56a26
+~ _MAIsWellFormedPurpose : sha256 b35329da4d7dd8d9992c55c9fd076f692f2d743bd7b7f5239dcbafef6546afc8 -> 499a17773d75a89725024831f3dee9adec32b7e768faa80c8b5d61a4b180da57
+~ _MALogClientWithNSLogOSLog : sha256 17873c8689fef41db201d3e1a721b878cd66f5cb281fa36c0f8a28a4d077126c -> e0bbc3762c3de616f3ce7cf43c2ca3f7f957c11f9767bb9b95fb7636fb14167b
+~ _MALogClientWithNSLogOSLogStdOut : sha256 7d22e75ecf39f903f0d042b5a3b81e73bc01024d81ea224ca7d33ef4ce9d0136 -> f7409c81253ca915b8f9d86810acef217c1a30b14c0642002cd7523089720c9e
+~ _MAGetAssetIdFromDict : sha256 6580a0316b43ca23937666e98873404483140d3ff3cc2c6d1672d8f31f85f91a -> 92f9c2491d03d20fc0c6db3a25be6c87bc61924aa7aeaf5826664af86ac17af9
+~ _MAStringForMAQueryReturnTypes : sha256 d3979c76b3bf76241e08a6e0cd472855fe9ea255311ef2626ec47ab722cdb4a0 -> 8cda0f77678c416fe730236ad0de18f678610498921c5be048bb7722888fecfb
+~ _MAStringForMAQueryResult : sha256 c167d3816d7c993891bf542677648a72ab20d2d9e3178fb1748379bac9969a86 -> e5923646761c66366219583ecc4956530586b21189f757cd9b912cf2b4864654
+~ _MAStringForMAAssetState : sha256 c4a4f9e44bae66542e93b38e485ec3778d8300c17a32a9b0df3766d9cc7cf9e1 -> 197cfe950d83434e2464f9af3bdd314fd684f2bdf0d3941c2b5b95e5b51d4bdd
+~ _MAStringForMAPurgeResult : sha256 19501b2eddf9e141557a31683ad6e82cc69009646da73b1f3c65f8393e68352d -> b8b5ad287b733907f0954edd78223d94ec0c492a4f5dc4fa5379f62d31d61b0f
+~ _MAStringForMAOperationResult : sha256 8b87cba4e75dab562dc558fdf2be69e8791101cef792f1d1584eea37da46c591 -> 71052525247f01b9892253ed6b44d32b56ade6f14e137ba05e5e933277df1e1b
+~ _MAStringForMADownloadResult : sha256 ec87a839d317db27393485f173c27130d4dbf6a76b8fc394a1452ac50bc9501e -> 7a1d13c8350f4a884f33671a2ea9b652649ba54c7ce84fecb3a50b8d9ddd938d
+~ _MAStringForMACancelDownloadResult : sha256 e07cf4a53a515cc8ac422a1d3c92e38ad6a744711d3b0bbc7d43dac581bdd6db -> 154dba0dc77d184d13929b301543849c4487d7af61a196043b6ce0d371746b62
+~ _MAStringForMAXpcError : sha256 f4fe88c72f3a6c56336f29581f1300302c9158a40426f42729c128c898998fdf -> e4ebd2421b3e5006b91fb12aa908d0e7aaa8dc3287dfad1a14c3f6c8e1a60915
+~ __MABrainGetInfo : sha256 40f8336717c716b4e9e6dbb98a1a9d62a9f6627e80b2a1443772ee01e41ee449 -> 3595461e46e0f3d2a21995f2c39a1606b701bf6de23e00570a416202cdd429a9
+~ __MABrainUpdate : sha256 14eaf9b549d5e6244d29962550039b20d8d3edeb7d11a117900c6ee180672170 -> c8d57fadb76e827aab88e1a1b85b6dc4a50757801b32c02fc7864b4cff685bc4
+~ __SecureMABundleCommand : sha256 f330b57d622aea7de2128a268f90ee93042ca5d0e2a04c5c8ef5f3d4d507f4c9 -> 61dadbb8f0a34c3430e11f6f3e7dee3d30ba8c1ca0c8ccfba7735db463af2bfe
+~ -[MAPushNotificationController init] : sha256 e950ba317e8f87b64f6805278476435a13662b4f9da290727a5d7cd3518511d7 -> f5c3943df7b7add9fd1c09054645955425416a5a16aacde664b2058672695c23
+~ +[MAPushNotificationController sharedInstance] : sha256 a9bdb26015bb8b28fb88dd366e6374bb19c74ebfddc11e912d6783221bff69bd -> cc4f27aa1c5cb83946b00ad23a2c608e3397301ef98d73414dde4a7ee2bccd7e
+~ ___46+[MAPushNotificationController sharedInstance]_block_invoke : sha256 443f3c7e56bd151136eb4d2c2e0fbd701f07bbf7c0f7b356f9f509f5d3c6d187 -> bfac284eb9a9ca9933f500a28e6750b39e5d4c45b765c339c3565b1a9675480d
+~ -[MAPushNotificationController _serviceConnection] : sha256 08eeaade655cf97e34b047b3031fa4042c560b1fc354dc0e68d94df0fb1cf84e -> 88f0f7130435c587debc00114c3e5a243de3eb6f0c24ad1d8ffc9e67cb6ef2c3
+~ ___50-[MAPushNotificationController _serviceConnection]_block_invoke : sha256 ce0797b4df4e33322d2026b254ef55abe8e3930724f88e6fcb53b9c062a87891 -> d65bc0306a2732534b456d89afc5f457c547e45e43efa0f5182cded8e49e8573
+~ __50-[MAPushNotificationController _serviceConnection]_block_invoke.1272 -> __50-[MAPushNotificationController _serviceConnection]_block_invoke.1308 : sha256 8b2bf9ed733d45c9b3e283f989f01e5dee738aed4d6854a374ee99b2b251a87b -> 7c6c49b26e804b937f665aefc2fcf8f1251ae4e290add10818cb9cb83693f459
+~ ___copy_helper_block_e8_32w : sha256 81cfb6d76864541401ebb104cc774000915bcf90d3fce2c77e510d189bbda3f6 -> 542b059a0476c357e30b00eb3a0f83276866d73dec0691ec43e9d50e768a9ce7
+~ ___destroy_helper_block_e8_32w : sha256 4eee34c01bb4fcb63747ce346a71ba5ff90e83d8a66cb5f194697a6b5bf61bf3 -> 43e0332b6700fa7504cab7da2d371cd6d263734036960be6df9e3404b152785b
+~ -[MAPushNotificationController synchronousProxy] : sha256 d9005a0ec5a8327495e7c6d3cbe83d526539c17c37a4e229b6477a49ecc752a1 -> 82f3ec99ee19558fcc6179d1379b73fb09f805a27f18dad1fa03c8b1eec44b72
+~ ___48-[MAPushNotificationController synchronousProxy]_block_invoke : sha256 8c521472a02b4e99219fcb602e9c62c609583fba91f63ae410e73a442916a7c9 -> bc4ae16957abc4f1974e09d7c508edfe8fac27d8e888e1843d472c8a363bd5f9
+~ -[MAPushNotificationController asyncProxy] : sha256 d8505ca669bec61b660c113b848bbd6621856e88aa77206a1ed77954d4ab6315 -> 6a1bb4831658a62ee26d06aa61a3d04f31771bb7378faafc12fecdba946943eb
+~ ___42-[MAPushNotificationController asyncProxy]_block_invoke : sha256 09870e24dd6c9226cc742f21cdf78086b0e321a807f5d3ddc9f08649e650e698 -> 93cfc4546209d0e1e1fd401cf6737ce50e81e433071cc010755355b77d8a8e7a
+~ -[MAPushNotificationController asyncSubscribeToChannelWithIdentifier:completion:] : sha256 399ad951a556358b61318b5047ada7bec2db41b32816c270071778caada9ae50 -> 81caec66f490d9a3dd567dde5df711163f474adc7f9d01cd25786e5627c4db82
+~ -[MAPushNotificationController subscribeToChannelWithIdentifier:] : sha256 61eef18c58f08dd2feba86be3c7754d33ba9dce9c8f8c053b6b5e49004a6f7f4 -> d9bf75790f0dfe578672253f31d9269ef05280cd7e883ecb5da713d9910b50be
+~ ___65-[MAPushNotificationController subscribeToChannelWithIdentifier:]_block_invoke : sha256 e2278003f218a1ccbd99bf9c6d57a11c24448696fe8aadddfd51f70cb30e56b7 -> 80c1fe509b6fc050511cb65b5b44eec13872c953f2535a272faed0949599f003
+~ -[MAPushNotificationController asyncUnsubscribeToChannelWithIdentifier:completion:] : sha256 6479bc8e598eb0e0eaa37932c725c37647bdd14480f73cf0d5bf04c907418263 -> 47c8c23d2792b3244facb36f4899d7792fcd7ac0b643e537393f7ee97889891c
+~ -[MAPushNotificationController unsubscribeToChannelWithIdentifier:] : sha256 f69bffeffc98862e539cbfbd42e24958e07e195531a962f8089440f91cfc2451 -> efa8036cb2feaae6a645984b8481345071a860377b6226baf1cd77a4ee6c05c6
+~ ___67-[MAPushNotificationController unsubscribeToChannelWithIdentifier:]_block_invoke : sha256 15091d3c8b1b861f065791b01f5e71451332ae255ca2f37b9d70a480b20d7f0e -> 1eca845ec39fa957d26636a547f67b4e2c236d3d8e023ef4ef3c46185e31e326
+~ -[MAPushNotificationController subscribedChannelIDsWithCompletion:] : sha256 075b76bba58eaaec66012e907e62c5149b08b19741f0bb043575630ab09d8c2e -> 042b4d76156ae30872af2d91d49520be0443c0199fe955a4ad32ca5ce93d99d1
+~ -[MAPushNotificationController unsubscribeFromAllChannels] : sha256 a02b1e3cf6d8c5ca539c67b3d591fb0da31beb77dc43735cba8837ad04ad2466 -> 95c713aa668a7d510eef4cee8364273fc84135f7e81478c2b6208502b68b5386
+~ -[MAPushNotificationController subscribedChannelIDs] : sha256 6bcade58388680e6275902c78437d5e5a7124ab79b01b02b3e603f52fd0ca559 -> 548d6fd1e8f211aed29aac6515bd96afbe23ffdb3a30cf6577a308ddd106b292
+~ ___Block_byref_object_dispose_ : sha256 e2e697b193e1ba51bfe34a44e3011a472cc4c6a89c0f9aa1809df88414861389 -> 804a2ba30ed103e3c996e75b6e2f16306b5de8ef2347fa6a5c6eb1541aea1c4d
+~ ___52-[MAPushNotificationController subscribedChannelIDs]_block_invoke : sha256 1f2004d8c4f6f60424d733f81927b1e6b4200d3a9ccb24e199763e17e9bbe972 -> 47010d8e0ddd2678764b810ab8b3e2343be30f46db988a5ad9d5809ca66e4f80
+~ -[MAPushNotificationController triggerNotificationWithPayload:withCompletion:] : sha256 dcf7d86a89c28bebb5ffd76484b0250be2281eb736d3ce793d876df0e4414d7d -> 94140b4f80421287f1fe5af627deae89aa99e7887016f9372c33f3ffc17e6f9a
+~ -[MAPushNotificationController pushJobDescriptions] : sha256 2929c6eb6a2fc69c7ee5167a19847795eda794d272a5e2d8c4081596807d9435 -> ae224de2668623e3b42ba978afbc0f0da0c304a0f21f53805f00e9309006b037
+~ ___51-[MAPushNotificationController pushJobDescriptions]_block_invoke : sha256 a15619a8bd239f8f31a155cad5eae7f5b5dabd3fe36b07758ef49ec0fc8cb11a -> 9f259700722f2ef487045d1398785633c385ddb9a0ea28bd37d8b626f9498e20
+~ -[MAPushNotificationController addSyntheticJobWithType:assetSpecifier:matchingAssetVersion:triggerInterval:] : sha256 d3ad5fbe2aa4d83f085c3d782820905ba1f40bc1ee742bc0ee3f8fd6b45145dc -> 81a7d84d7a2b0b3aed00bbb3ed8e959189bb95f07fd94663cd1a5f65094fa192
+~ -[MAPushNotificationController didReceivePushNotificationWithInfo:] : sha256 b2d57a9c5c7e76361a83faa817697d057636443fed54ac949cdba4ad3c331bf3 -> b4940c1eae6b9edddea9018c84291af5ca718df68ee7da29189a53b0398409b2
+~ -[MAPushNotificationController serviceConnection] : sha256 f289cf77409dd30e1c094c773b5f3123ad397da918573855bfc0944ea304a5e6 -> 8f5ca7927d59df2faa1a5e8f0fa42d36c0f07d3b81f2ad68d914a039f8b9d392
+~ -[MAPushNotificationController setServiceConnection:] : sha256 0f27d42e9f8c1914aa17bb8f2bffa09a4a5b3466357468091855ee5516e93fd3 -> e921cea92cc559f76c527ed3b14637c2fc6e69ead2e57561e6da9cc9a7e591a6
+~ -[MAPushNotificationController setServiceConnectionLock:] : sha256 1fcd2f3f42c34e0aaa0ace71ac8f73d427d2a638b71637911a6c8cf4f19a81da -> 14e06bbef533afb95a8bd926115a7a325e3ffd10cbeb94a40a5a9721021e6c4e
+~ -[MAPushNotificationController .cxx_destruct] : sha256 8f67c5983e222912eb4063996d94b4b330c61bc4c6d1714b596fcdba45936928 -> 8e7c91b0a38dc5d3ccfc8eb40d6231f5b372acd241e61447b37658f4c5e65c55
+~ -[MADownloadOptions initWithCoder:] : sha256 d4cca9ca6c92d015338923b6e1afcd4dbedf918e76d1db997fb98434a637323d -> 38986fa35ffe1cc08a30a1f3c91b9d8dd908c9797440a6017562b210a47b57e1
+~ -[MADownloadOptions initWithPlist:] : sha256 14b9d0fe7976b852d435cbf7af78e0239383efcd48d667ccc73080259492758c -> 47732d5e31a7c9c7670d44022435a84c428b4b5142cbdbf8f62f132275de9790
+~ -[MADownloadOptions encodeAsPlist] : sha256 7765b0b0e5318b58df488ccb46097eb8e8580cc076ff6907241bb4674e04934b -> f2780ff98f8bf5c84fd9eb84b4fa1fee52615a629706bb4d373ddadb8af00462
+~ -[MADownloadOptions description] : sha256 53dd3abae95f1b4754a75c75464509bd46f43649fcc0ecb67283a97f7f146739 -> 6f5a8f6666cfd4d044b5a4edf865ba575dcafe9ca4208d4a3f984823013ae7e0
+~ -[MADownloadOptions tightSummaryIncludingAdditional:] : sha256 95325e63997514cc3191f339ab641680f9dbeed549ffcffa0f653e40a0227250 -> 9e478b80d4176b2bf8eb428b16df3782c6d7daee13b12dc6fa7f68723acd69a9
+~ -[MADownloadOptions logOptions] : sha256 47696bf1fdae3e8a3c00d87486f4cafc29418ba171c1225168d3d62a3eea59a3 -> 5ef05a4ea5d733bf2516930ba26995ace549f6e96aacb50d52dc7c7addfb4440
+~ -[MADownloadOptions setAdditionalServerParams:] : sha256 117087a8c7ddd227c27fab135e1043e384c66bf2a108a28dcf120a45cc9d54d9 -> 5ff16fe08dd509cf33d63be68e7ddfe772dee983a1867a19b3ef09a62e62fb12
+~ -[MADownloadOptions setSessionId:] : sha256 a99c56107305de12ea97b64344180fc8945d5d79294856d3f0ab9676e50ff18a -> 5b148b416af7ea13165a55c0e3b484baf3c3024f788da0be72397ecb289714ee
+~ -[MADownloadOptions setDownloadAuthorizationHeader:] : sha256 0651ca99e24aa92c0bee764904f49907b7d3480baa1251e9b8cf3854657fe75b -> 1b3b4e494bc969b8f6ffdacef44b4ab5f182b6bd36178c7dcb19ef062b60e981
+~ -[MADownloadOptions setAnalyticsData:] : sha256 860557eb7576473d2c4722642a7f2e428229ef1a7a3d58a06dad84b713675eca -> 316cb875a03764c23170692be914ccb01952ec5c21dc7058451f44965e4c84cd
+~ -[MADownloadOptions setDecryptionKey:] : sha256 fac66c393270fcea37c0e4fcf173a54c361a7aeb0c8ca6d9019e742adc6fce24 -> bf0c28544bed1db95b823a7e653227dd55f445ee1350834d8ff4b073b21c7228
+~ -[MADownloadOptions setSourceDirectory:] : sha256 5b38d6d32a0c13978da704163beacc8bb7bb3ca295b8be548034ec1e8c5bad44 -> 06f73c2c2a360e971a7f7416a4f02a0a8cdc429db27e0e704fe16da196a49593
+~ -[MADownloadOptions .cxx_destruct] : sha256 1cc800bcde8dd317a7ccc9ee5cade907d356e02cad456d604e26405fe9d4efbb -> ce0bcd07dd2532003382c4c4ee796dfc6a69c5d4728afc1aa9aaa21562d0adf4
+~ -[MAAutoAssetSetLockTracker initForClientLockReason:lockingWithUsagePolicy:] : sha256 3cec5f26deb4302d74bbfc682a4dc8be265cf0c34c99f8f50b40a467c8d9ceea -> 77f9f603b5766b921cda1595af8db6a112c45775f6dd6090081bdf56b4b18fb9
+~ -[MAAutoAssetSetLockTracker initWithCoder:] : sha256 540892c65efa3121dd34c6b84efcb422ca9b9c04518bde613fbb370027f800d9 -> 6ffb0a8468d83b51f8f5bb2d9be2c232e2a3dfee2354bcf4d6474cfd536cdd21
+~ -[MAAutoAssetSetLockTracker encodeWithCoder:] : sha256 9a9cf1f9e14fb67d630ee6c9c85060a2ea1bcd49bc75ff20093fef36ed49ece0 -> a524a68b789c4f5d7027622026f26cb98ecaaba9b348ad4a9850dd1905330997
+~ -[MAAutoAssetSetLockTracker copy] : sha256 9f0a71a61104b16ff0882bb6aa53528995222cb90ac1e3be1b38cb92cce5791a -> d5dbe3d3713afdc655e34fa0b18ec6dbeb4a56e5a665700f3f5f99cd219a68fe
+~ -[MAAutoAssetSetLockTracker description] : sha256 a2c568a1fd72d8668dc141bea8ecf96114625c103904844d5df7b7328b6cdd63 -> 05df4213ea7d6486050c1948b2242d21dac6946316aa10807693d8f77f91a51c
+~ -[MAAutoAssetSetLockTracker summary] : sha256 df172ce6129f236767aaa3b4aea5dd3d88ca1d8fa159f18453553287ded6c047 -> 558d217ffa894d839df1b378344ee68bd290cc739530c262c218cc1c04b92264
+~ -[MAAutoAssetSetLockTracker summaryBuildMaxColumnStrings:] : sha256 ebe8d5e5fd56017c0d0b123ba3fd5a36988f4720f405ab84e141da3eba1be237 -> c28ff12fca24da1f687a6f11683ae93422bfb20a55eea751ab4e361f1ab1e20c
+~ -[MAAutoAssetSetLockTracker summaryPadded:] : sha256 c749b1fb9c5d8b67e4ff2f506ac77ad99d45a79f00ce220ede6cb222c753f4e1 -> b3e81420e99e1983e96436ab4d051a29a4b72b906e77f79e00a04f67a174e2ea
+~ +[MAAutoAssetSetLockTracker summaryNewMaxColumnStrings] : sha256 d29d69efb658fc1207b9902825ad82c2dcda82232df9a8cc77c7d22c43120520 -> aaca3f0c3e0b6be377dd057653146c7a147514d30ba29d9df442c0e7597a6a94
+~ +[MAAutoAssetSetLockTracker summaryPaddedString:paddingToLenghtOfString:paddingWith:paddingBefore:] : sha256 5f94b34d6dfc47bc0c123713ba110c202b8899eac2eeddf46ecc3fffa7085a48 -> fcf59842fd39c19557e981c31928fd967530d5aaaaa10b2d02082631b73d41bd
+~ +[MAAutoAssetSetLockTracker summaryPaddedHeader:] : sha256 361bfcde2fff37855f1549d77a7a4e29f886dd37569beccfeb8cfa3fc1293473 -> 48411fcc8805b73214261e8ff68b555c73a3b46ea0cf646ec35be995a021d07e
+~ +[MAAutoAssetSetLockTracker summaryPaddedBanner:] : sha256 340c863bd29e455ff66cf968eb23dae012d6afbec62a7de98efaee3b718a0267 -> fa7370e5481c5d27b71a1983c9d7b81db6664348f4d36b2df5deb3e91667259e
+~ -[MAAutoAssetSetLockTracker setLockUsagePolicy:] : sha256 f1e59d39a2ee7fc1ac78aa7efa4962f37bf82cd5de366c23090c6baf27ae3105 -> 57b84dff499336e4d1fef7fd0d4d0d9c00698863e28146475b3acff6d68fbf09
+~ -[MAAutoAssetSetLockTracker setFirstLockTimestamp:] : sha256 5acd55b911c3e8eba2ee4f7892bd3d00034f74e13524c5dd6b46aaa3fef84e84 -> a4fa617c5b1adfdb553dc2bbf348923321626276cd52cae9bc75bf1d6e5e30da
+~ -[MAAutoAssetSetLockTracker setLastRefreshTimestamp:] : sha256 ea597eb984ede2f74f9acbb36d6d6d1649a5b220ba38b8ed56350a057a40f5bb -> 202be434ce8d5ed00c15519350d1df8db698a4e7fdfa25ccf3150b56b4849374
+~ -[MAAutoAssetSetLockTracker .cxx_destruct] : sha256 8f8ac4e7c9f7c77e839b52d57ed09592d78d293f98e1278fd215f6085447fe65 -> eef572a372d1b3b224980f7fe405487ef1ed5bb22f264b31dc82b2752ef1f364
+~ -[MAMsuDownloadOptions init] : sha256 4aa9c2a485ac63f73c3f07702b6e01de06067d736de8829fc417ffbf29df84de -> 58363f8012f0bfc59134f2ade329429fd9c77d0cb27c0929c508ece1eeb8a4b2
+~ -[MAMsuDownloadOptions initWithCoder:] : sha256 f01534521d4716941c197e4ff20a5d6cf7f7b993568cd8cd214b7da36b467e5a -> 46f437fb24456add8e132446d0334704010ebd51f2e3352c6cc525d99f9b924a
+~ -[MAMsuDownloadOptions initWithPlist:] : sha256 8ccd764d9573b025d308daebe2d83957f96ed552f075399e24ccd852309fe6e8 -> 65828a3ff9a6b57c8c8c00fc18d95d33f283688a1509bb7d5e6a2482785a2764
+~ -[MAMsuDownloadOptions encodeWithCoder:] : sha256 0b50606cc21253911ad6719ad1b946efed30d39641a4a449c5995c5d8da0390b -> a32202b7ab2c92e862d31252002f1f3cd080a827f64225e489e4318bc01e40fe
+~ -[MAMsuDownloadOptions encodeAsPlist] : sha256 778b3f33c2ea01b494fc1a7f3de245fef7d820e0fdddf3a08cce177e584f2aac -> 596ea9db3c750a117ad8856ec58f5c650d8205e88948a50d0e66e6e15f82a439
+~ -[MAMsuDownloadOptions setPrerequisiteReleaseType:] : sha256 2f6b1519f298c77e2b00e95c90ebea8675d6756e89e624ba6bf4b011757790fa -> aa24896daba11dcd6b4ea1d6cd1b05b259c94deabbf7ed6519672496f0638f75
+~ -[MAMsuDownloadOptions description] : sha256 0423ce8f15494ce78a2fc550b128bdbf489c6fbcfc645465c5d2d3579d77e2b9 -> 6aa67603599bfb93ba02966fe6ac535b6036e22bbe93e427f22731602ccec134
+~ -[MAMsuDownloadOptions requestedProductVersion] : sha256 7f237e327fcae469986bf84fe69c8f93e85a9da770b76d05ab45f4fcea4d747d -> 91ed27919d68b799719406d1a887beab3d26666cfe37e3cc91791f284db8b431
+~ -[MAMsuDownloadOptions setRequestedProductVersion:] : sha256 266a4c7473378e3eff5435ce9e7212ea9b2a3ec3a609809af06d0cc319c9b05a -> 23c012875786e2cdd2ad9e3f194f8418068e8324ec3b4f30a7535bd19352f29d
+~ -[MAMsuDownloadOptions requestedBuildVersion] : sha256 78a6f1ef02b8d089de2c801fca61be714d4a9d1443ae0f9c2f5abad5184f68f4 -> 187652ca6812893e6ed4d96e23b53728001a19516487393f6ab27d04d3a3ddf5
+~ -[MAMsuDownloadOptions setRequestedBuildVersion:] : sha256 19b9210852e068d9df1244d230c4a534a6dc6006e22932852d17b55784600c66 -> 5f64cd7a16659332e554a6ac5dd7a9ddde64832b88657af9131bec716e57e0ce
+~ -[MAMsuDownloadOptions delayPeriod] : sha256 af18a345a1d3fadee804fc86fd1554fdc5f6137e28eb9aa0a388bc7556a013e1 -> 6e094b460f701d8e298b1cba1520cab1165d68375a96bab4a43fb7ce8a10d029
+~ -[MAMsuDownloadOptions setDelayPeriod:] : sha256 8a6334b7815aebdb5c6948c8ef769bf053864b37a60605842d0b9e7dfeecd28d -> 17a306892647ef53a47516aed23a80c685d201927b00c7273fb16b5e223ef53e
+~ -[MAMsuDownloadOptions minorDelayPeriod] : sha256 6dfc75e7fb3eb7e4f34e3e063f8cbf7c68dba59f7843e5b0c77adcd2fdbd2797 -> 09acc8399f55f07049abf8b7361ee4c16cf4f48edf9327c75200734c80ae99ce
+~ -[MAMsuDownloadOptions setMinorDelayPeriod:] : sha256 60d4eb74bbec0e55f6851bc38d35292d2777dbf22f884bef8443371865a95d17 -> c5a1128e7d1f724cd523f1b6b0def0665d4c74b1fb144739a4e4595b287dfcfb
+~ -[MAMsuDownloadOptions majorDelayPeriod] : sha256 e6b92251abf1337cbc2db6eb892bb95236c2974295ba709aa0b099d19d375a0e -> c9cec980a7950bf2b5a0e2b9a693f4d6067d9c0b3cd477d99cf7b554fe03572a
+~ -[MAMsuDownloadOptions setMajorDelayPeriod:] : sha256 b7689fc65c9aab3ff20cc0f5f5911c11b0fe48558f4468914a746e68da301d5e -> 2e6a7ce07a9425e78dbb370da299cbf739002ff69d26964f451b523fc0c44330
+~ -[MAMsuDownloadOptions supervised] : sha256 3ca5bdd316fd9db08b5fe4f4bb1b69f26aaa8d5f4653bc3c77180c971c9c5c3a -> 530fd643b4cfba46b1fd1a047c586123a027b9910362167dbacfa55a01ac18d9
+~ -[MAMsuDownloadOptions setSupervised:] : sha256 9415692e535fab77b637421f761573cad5a48d99efe19de056b4134cb510acae -> ef0d327d95f2bc437dce1e31a1f8233ea0bf5cf7302e68dd21a5696c4ea41f57
+~ -[MAMsuDownloadOptions allowSameVersion] : sha256 8f44cce54f6cace0a2f6a5b05ac052ff85792d1bbb649997e2ba0f7ce00f3645 -> c58881beb22fbe56cbeb02d312996ca7ac87fe4450dbd6d1eb9e234c4bd49680
+~ -[MAMsuDownloadOptions setAllowSameVersion:] : sha256 edb7f301bb03257651f965f81b48457677a000afbb996a0f022462dba47ecd08 -> 35f208a8a6a7da4f06d9f3eaad5e2eeda36d2adadb8373ec1be603219c26ca40
+~ -[MAMsuDownloadOptions prerequisiteBuildVersion] : sha256 0edf41aaab9b3d5c367da944bec2f43ac8c909a462065e4a6d07585e220553be -> 009526ce1278d5d957a12c4d23eef89dcc3c799133bc8b539fbc8f468bbbc749
+~ -[MAMsuDownloadOptions setPrerequisiteBuildVersion:] : sha256 f62812e592ab0db98988e1ede4e915f3afbb09b44e690408c6956aad93121480 -> 25928bdfc34816b8927f4b61257f87b6a2b607584e8db40326e3420d4597fb2d
+~ -[MAMsuDownloadOptions prerequisiteProductVersion] : sha256 3fcf1c9b794bc74e57c5e262c47821813422fc6b20d20e01c1bbf8ef4132f8be -> 6c00d0a968dd266115e0d3a5792e128bb72d094f4ba87437eea685d17f3bc239
+~ -[MAMsuDownloadOptions setPrerequisiteProductVersion:] : sha256 745f4aab20ecd10aa583c47765f8e01ba199d13eecf05200c8d1128519b24dee -> 6ff95ed29627b08223c733995a83ba873067ff4a4835ef41a33acf21aff5866a
+~ -[MAMsuDownloadOptions prerequisiteReleaseType] : sha256 61aceaaaf9002e1d496016dbf354cededb0283830055643bf4f9779335a16c33 -> f8bfa830588ed8540ce00140ff93606d2f2cd6aa42d700fa094a84fda45301cc
+~ -[MAMsuDownloadOptions prerequisiteReleaseTypeIsOverridden] : sha256 414fd73b5b6747dd4ddd93fe7d59bce29e695f67d9da17e1fbe595ff730236ba -> ab525ad72908d3ba4df00a39e233a6e2cf7eeea55f57a2b98e95a8c3ebba4a89
+~ -[MAMsuDownloadOptions setPrerequisiteReleaseTypeIsOverridden:] : sha256 3f26fc213bb6c2a5b587d99d12f10de8fa50b6b62982ab499fb87969e40ca744 -> 2b3164296ce0b72ad764e06853f5bb15649155006ea9ae5858387dc094951206
+~ -[MAMsuDownloadOptions liveAssetAudienceUUID] : sha256 f8ba5e25c626415ac90436528fdc5a18334df4479668b314861b2bcede2da323 -> 4459846617bcb564ce7d96523c6cc151d42a0e936699156ac78b37ab7be4d586
+~ -[MAMsuDownloadOptions setLiveAssetAudienceUUID:] : sha256 b8b8ac732d0536dbe920fc5e87a62174aeeeb25139d084dd639ce148ddf46236 -> 687bf6587a7a511eafcafb4084ffa684fd31a1fc10568ac111f3466c00e9deec
+~ -[MAMsuDownloadOptions purpose] : sha256 46aa1965b72a8731e80716f0c21d68d72532feb2897a1781017b86e373bfba01 -> fc9d2064564068999e46c971330c73b57c601865c6aee23f7a3ffeaf0b80e341
+~ -[MAMsuDownloadOptions setPurpose:] : sha256 ca61684a81f5f61804ee0e3a45805bb086c41ad28df6b3aa3a8efcccc7760b09 -> e0796adeae10a10da86a15e923b4bcc08b1dec05c0f6a72bfe328712c578d6ec
+~ -[MAMsuDownloadOptions .cxx_destruct] : sha256 faea3277488ddb9b9658e975105d1e965a9edb2165230ee3d942d62ae990fa7d -> 928cd09f5779098c80d550a3245f6eec0a2e2925d80da0f6c7454c31ca02a9c1
+~ -[MADownloadConfig init] : sha256 50be1138d58894332c95e945f3037f816abecb4f6af4ac364d848118a05c2e60 -> 27003d21ecad3bab03c5ceb1c4814c12f71368cbef87079a439097f91259f487
+~ -[MADownloadConfig initWithCoder:] : sha256 a94401a66f2e7bf7206fc590da7053eb10d2291f330f50ee55ab0a13a302cc6d -> cb415c61bec7c78178a89457c059f1cb5ef08a4b2ae30c0f201740e0f6877510
+~ -[MADownloadConfig initWithPlist:] : sha256 6608d3901508a2db4b5b36bbd42dd055154688abb6430a2a9a8fff001f8c8707 -> 7be1556c67669596a18d2469df63cdea006e9563f80d14b431d1e07dad45485e
+~ -[MADownloadConfig encodeWithCoder:] : sha256 0eec4e04a2deea9b3e4bfe9d133d094caa680ee0933239983ee1f83877f8848c -> 664a3050881a9e8c12f5b8f44e63bccc8279cf54d70000256be5cf6631335ae3
+~ -[MADownloadConfig encodeAsPlist] : sha256 47ec4d482f92591707c62531669d89fbdf754eaacbe071ac3c971af6573fc699 -> 56169def187f902625016663f5167cd03dbc53e8b072fc9c102d336f26ecabff
+~ -[MADownloadConfig logConfig] : sha256 89bfd5db1460a4dc0477694d4257d89daf0f19345f01ffa4f730423ffce71a04 -> 33f7ce0030e20d8bb2a0b99837e4c941de9661b8d0ace29c4a578138f46cc2a9
+~ -[MADownloadConfig summary] : sha256 5b58400af90f6b40d0d20fa07925274b0240c7f0f1cfbbbe8b27e2ea00f5a33e -> 7ca42f712241ad8d4c3a96169c148356240064a18c78d0d440a051d9a7b4e68a
+~ -[MAAutoAssetInfoStaging initWithUpdateAttributes:withByGroupAvailableForStaging:withByGroupTotalExpectedBytes:] : sha256 b457e8323d90224387d4cd44c0020f15b8d0627228986cd24f7420d1e4f76983 -> ab1c5a57d66c4910da34087f6cb9ff85142f64826d4c23f9fdfcc1ca6e6d9881
+~ -[MAAutoAssetInfoStaging initWithCoder:] : sha256 ac9f6cb18e4b802d546a4b3c4c0b2472cb2037a60afb3a10186aaf3173d0c167 -> 768f20d04754c25fd2cd546981537a732d3b21393087dea412fc2e6ebc66897d
+~ -[MAAutoAssetInfoStaging encodeWithCoder:] : sha256 3dc0c5fcf7e161ebf4df64e44ee089c08bf33f61f3a44d29fb798af8829a9d87 -> 4283cdc8aadfd7a22bb9898b6b64e302912a373479c12b02601e441641853542
+~ -[MAAutoAssetInfoStaging description] : sha256 22e18ae65510f9b6eeaa8c535192451868a52fe08f3032762d1d83c65fafe222 -> ea445ca5ba60243bc1f276927953b964501fca147c2f4be586af3d52c9e79e3f
+~ -[MAAutoAssetInfoStaging summary] : 1072 -> 1068
+~ -[MAAutoAssetInfoStaging fullDescription:usingLogger:] : sha256 8a447867bf56665011c07efb027eafeeac07eb66f7c3085a683b94a19caf6dfc -> 2ff181527b48feb3822e952dba888e5713d3e4105b1c67452ce511f0ff5a5a10
+~ -[MAAutoAssetInfoStaging .cxx_destruct] : sha256 4f2492b53ea2db7a74627d770cea56e7e6de0c7acff166220e185ed5eb7599f7 -> b23cfb3b8cb1174cd7a7d507c74abad37b8d0af729ba9994dd29f6f188c399c7
+~ +[MAAssetTypeDescriptor descriptorForAssetType:] : sha256 864f05ac095475fec669dadffbb05b9eab416e8c7750f422e5236dc39eb57730 -> 806b3dc9a10cc775d55444a6e299cc3d68e2ce1dae96310a6c59fe25e9f3776c
+~ -[MAAssetTypeDescriptor initWithAssetType:] : sha256 f8d2825532b824bb66251549c9c4685aa1a562d040ea21be8279b3c49a26bc7c -> 89ee0ae00176cfc98f32ef30be64a7bb005f11026500aa129df32b15fc45b7c5
+~ +[MAAssetTypeDescriptor _assetTypeDescriptors] : sha256 415567d314198e4cb757da547597ac3c5281fad97e874c58f81788a73d7aa15c -> eae358c6d5b2899dc35f9b30ca6f69ab2a2934115741d9932fb753507b7d6409
+~ +[MAAssetTypeDescriptor _secureAssetTypeDescriptors] : sha256 709ec3d3c5d47b40402bdf7c929d1f5559ac52fc65ebaa6c221de2c9142d4f0c -> 0dcdb1ccbda34f05645604553cde04160e804b6dcef550fe5c1fe81b8959cf76
+~ +[MAAssetTypeDescriptor _typeDescriptorDictionaryForAssetType:typeDescriptors:] : sha256 8bef7b6220ea0e9a58f89f266936d05693da2f381ab5d65db684aa593426310e -> 0f76a0babe886621998d813ab2e5a003ba7c060c0bf777defb883c0f1da3ff3e
+~ -[MAAssetTypeDescriptor description] : sha256 9fbb52623a6b5f1effed0fb794a5b6903aa4fd82695d86ade47d86780ffa76ce -> 3cbf58669d6973e92fefa57fca8caed1ce9abd94dbb84467b5ae7a4516c9e21d
+~ +[MAAssetTypeDescriptor typeDescriptorsToDataVault] : sha256 39c14fe2fdf2fca2736e11949b624596a7133871b40fad873b14670e648f9287 -> 40b7e64dd877b9f4dd67b5e2549ea8a34f9d6a900680f6194406d6739ce49237
+~ +[MAAssetTypeDescriptor _typeDescriptorsMatchingBooleanKey:] : sha256 b26c3940760c6a39e6f030be0831b3eedac2ce266193188b53b71db71083ce68 -> 87e71c016d7043b282d63aaa22fb767f2da774eaf9ed8b405662d43d5e266a64
+~ +[MAAssetTypeDescriptor typeDescriptorsToRemoveV1Assets] : sha256 a041f84b831d041bbd50f5f1afa7953ac5aa992e4d6d3517b21bcc71805e22d0 -> 53e1da01c0827f8629767f23a89d57d6fc63ab8ad977361dabbe0301cabbf47f
+~ ___60+[MAAssetTypeDescriptor _typeDescriptorsMatchingBooleanKey:]_block_invoke : sha256 331ffa14e45c089b7c1fd2d9786c7d5cd83a2179a050260a8dcffa0e4a99e43e -> 18f8f8f35256b71c84a92a137b623a00ce3d209a612c0c399f4c965f4969d2d8
+~ ___60+[MAAssetTypeDescriptor _typeDescriptorsMatchingBooleanKey:]_block_invoke_2 : sha256 2d9e4c0cb9d40c7c51a69ca8c4fdb8f3bd985634431b5baae74d086d178ca355 -> 4b55ea81917b61677784ad7980792971f708db869850e9c97beaeddd4b1fbed8
+~ ___46+[MAAssetTypeDescriptor _assetTypeDescriptors]_block_invoke : sha256 1afa38827244595560d9542a86e9bb98e5861b2873b48cf8597ec1473949c241 -> 040200392b06cde6130bc8a2fd07bec7e3b99f6def8cc8d492bcf917ae7a6550
+~ +[MAAssetTypeDescriptor _loadDescriptorsFromPath:intoDictionary:] : 812 -> 808
+~ ___52+[MAAssetTypeDescriptor _secureAssetTypeDescriptors]_block_invoke : sha256 61464d127e76c8903fb1634efc66c8c26a527ed96308f6001c06d29435a56f4f -> 069b5edfc037c211b36a480b8923d0f7f2bee0d893190fe9199296fb4260a7f9
+~ ___Block_byref_object_dispose_ : sha256 ab712e2af6c9fb93573b9224dacf5164d3a2aa69cb2866cbc8cd1af68883b8af -> d9d9d3d97c1672ddca40aff3c5fe09689c8f11f003af77ff40611bb1e811537a
+~ ___79+[MAAssetTypeDescriptor _typeDescriptorDictionaryForAssetType:typeDescriptors:]_block_invoke : sha256 ef189e64f2fa7f9fbffc339efeff6414c9f9fdf13cfc55d152e9992be43da640 -> 5e15cc502a3628449d77cb2eba362c8912d4472c044626389af769d8759da360
+~ -[MAAssetTypeDescriptor .cxx_destruct] : sha256 32e5c7ab8b712d31ff097124f0a23b8f78d2e5b7d198d7cd96fb4c61d62b0acc -> f814c6921c07b1da500f269a0fe4db638432f8d8716cd451237a2e93d76f349c
+~ _OUTLINED_FUNCTION_0 : sha256 7331a65845c18a5751051b2afbe356a752532f72429f3c0fdb33e316aa02a741 -> c9ecc6c89dbfc0f9586962d7abeb28f80ca5951b2a4f3f1d3b8f606c338791c9
+~ -[MAAutoAssetSetInfoFound initForAssetSetIdentifier:reportingStatus:] : sha256 9db27d8bd8d4d6d126b7394ff00f9b6fa326101d90d48e56099a7f4c3164304f -> 7fd5f399a4359629be106a580d2e05b363239d64a75050ea9dedc2f7796acf01
+~ -[MAAutoAssetSetInfoFound initWithCoder:] : sha256 b86324e334796a5dc83999bb224729270445a0ba1044b569aba6cc9c41ab1a65 -> 0118a57d4758625c5939ff4c53bef065d11961cf7255ecbaf5be0b5a746dac30
+~ -[MAAutoAssetSetInfoFound encodeWithCoder:] : sha256 2fd0c6a8f9b4574839421027cfb9c88560ada9bf81fd9f29a1740851d793fb80 -> c74731ce5d47ed144c535383b22c5db93595734e0adc072b114b22d96ea90a97
+~ -[MAAutoAssetSetInfoFound description] : sha256 a5c758c4e4d728cf821f9dd68ffd4058533d8275ff4f22c6ea0b9f28ca7ef17a -> 3509453ac6ca3c036114a6546d51c8d266e01ae3148c7d1d06433059bf9baf84
+~ -[MAAutoAssetSetInfoFound summary] : sha256 2053d036387f5f38f1d02b498a9183bbf43c9b45066ed3727beaf13d0be4c334 -> c3e6b508b79239022eda0f88453bf0e043309fcc1c071287a8a8cbe6bad25f0a
+~ -[MAAutoAssetSetInfoFound .cxx_destruct] : sha256 a81bfbdf03c138d021d5c5f65a46189f992c485e67254bb601942fb53a0e36d0 -> 41f4ce83858c04d2671748f5b62dd3d1bd7e3bec40ec98b3307fa92fa625c1ec
+~ -[MAAutoAssetInfoListen initWithNotifications:] : sha256 963df6d2b9ce4db32a38af9245870afddf5d7c8b40629d676ef309d511a973e4 -> 52501f3e81ca36d38c3b2461ac8f100ac778bf5e21405513ddca1f1da7234c17
+~ -[MAAutoAssetInfoListen initWithCoder:] : sha256 df00e371e4fafca2c8bc7ac220f2f063911dcd67c26b44e67a3d813cee02e4d4 -> 65d6d2b1d2c4c61b9b804f7c8549b9a3ae873fd2561f7c53910a1f9224212759
+~ -[MAAutoAssetInfoListen encodeWithCoder:] : sha256 01b29654265f1a611866e763d99cc7201729c95301e0e5242cd617e8a9944b1e -> 7c96dbf18aeb72c61e88786488e692fffa4a863b5d587f8931e4530aff74dae0
+~ -[MAAutoAssetInfoListen description] : sha256 d448fa38221441c5b10686051be5e57876fbdd4a0b8bcd78a695eb48283d7a71 -> 1cd74750c2557f3ac716b943ba4b95f646edf141da3bef2597ba7f8503a11c85
+~ -[MAAutoAssetInfoListen summary] : sha256 0719b3d522d64f9b0d71031ab38a624e9133f6ccbe3aef0497a85b69aa2ce996 -> 6c6534ee90e0edcd9265a66ec16738ab5e8ca41ee0a5ee0b8134eebf5eab449e
+~ -[MAAutoAssetInfoListen .cxx_destruct] : sha256 15a9b4bd594aa2af6886c8567fb1d6cde0f0d4e72eedf06b6db29f9c371f76ba -> c962dda695480f36a35300199f5e20d03e8d9227bef4cab5cba772432c6346f8
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusRequestInfo init] : sha256 0e185cbe9793cfd79edcdd3a855e11188733f90eb9e3175f976d67408c3a7c52 -> 3ed044710cb2c5445e6ff78bef8a0f86a75285fc2a71f86ff9f5725efc01eff0
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusRequestInfo initWithClientDomainName:assetSetIdentifier:] : sha256 720d99c0afbf240d62b4d231567eb84a951d0369d8a7ff6d7fc710fa3cd3f85d -> c3c7ee9a2ffa24722518a944f404aacb1668beabd9d112298b6c14ab2cd1a22e
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusRequestInfo initWithCoder:] : sha256 d215a263e818fa6d6151d8db0bd341e2742bfb6edececf5a89e12526c9160316 -> 951123f9cc7f1d74ca2f4a78ae331c9264016a9d03164b3908e1148500c3418e
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusRequestInfo encodeWithCoder:] : sha256 c2db8f63a633aa0875c02b78267059e3ba27c987aa514941cf4811baa4b74c2e -> f0a96a46b2b8948d45d24448e7024af57945607f6c38a89a06b8a7f6127394e8
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusRequestInfo description] : sha256 fe3832a829a80224c89f13c43f1bc8bfd5a0feb7d8c63fea417ff5295b9555a3 -> 4195e3618330598d8d7dfac0f9a819dd3d6c1dccde8c7baab548c6653e059e66
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusRequestInfo summary] : sha256 a0d9f7ffcf375c3aef4d3238054022e912c9e517b5cb0c4afb57de5d8717bd77 -> 312e4a2933b505c3692580c19989b1527bbbea4352a296b9ea0402b515197c47
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusRequestInfo clientDomainName] : sha256 cb654fdb5576f21aea2ae5538823229c7888438f26cef236e47646647da9306e -> 74d2ebc3e77d6c2527fc14c474722b6cf1294067e93722d376dd22ee53de989a
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusRequestInfo assetSetIdentifier] : sha256 0406341f55faded8a46c0a405963fbc6abe1ac50d1cdf97ec76ab91f803ce94a -> b07e0e8e7c87dd998ab28e7485a557f9f7a8a19c60c2c44bbc7d0df40d875871
+~ -[MAAutoAssetSuspendResumeForSoftwareUpdateStatusRequestInfo .cxx_destruct] : sha256 866b7c5eecbfdfb197477c1c8df045f463c9b3d7b2a6ddaa8259ab738cc00aad -> f14d7595286ec7fa1600d075d216985c9e6b9e29379668904b0606d6f4d4d297
+~ -[MAProgressNotification setTaskDescription:] : sha256 5a78e9d84bcdc4fb4b3aebcccd94eed5919b594714137dffb73b63be753dff2e -> 59fe99b8f6a18d6ea7714a0653640b212d722b3a6060af570d68bba7d9de8aec
+~ -[MAProgressNotification .cxx_destruct] : sha256 305d74a7e0a83c3aae4f833dde6785847fa2e4a9ab978a2bc013bdbadf07c97f -> 0a6482bfcb585293c171c84161f9f8b459b4c5de706e127795ce50703cc04d53
+~ -[MAAutoAssetStatus initWithAssetSelector:withNotifications:withAvailableForUseAttributes:withNewerVersionAttributes:withDownloadUserInitiated:withDownloadProgress:withDownloadedNetworkBytes:withDownloadedFilesystemBytes:withDownloadedAsPatch:withPatchedFromBaseSelector:withPatchedFromBaseFilesystemBytes:withPatchingAttempted:withStagedPriorToAvailable:withStagedFromOSVersion:withStagedFromBuildVersion:withCurrentLockUsage:withAvailableForUseError:withPatchingAttemptError:withNewerVersionError:] : sha256 e59ad996e1cb0cda3e55e5e3264dc46b20f99beb0f5f228cb6f894ec182e6109 -> 5417d51311d2e8be597828c97b9db7450ee06535e880cedfca8535fedd5a8b50
+~ -[MAAutoAssetStatus initWithAssetSelector:withNotifications:withAvailableForUseAttributes:withNewerVersionAttributes:withNeverBeenLocked:withDownloadUserInitiated:withDownloadProgress:withDownloadedNetworkBytes:withDownloadedFilesystemBytes:withDownloadedAsPatch:withPatchedFromBaseSelector:withPatchedFromBaseFilesystemBytes:withPatchingAttempted:withStagedPriorToAvailable:withStagedFromOSVersion:withStagedFromBuildVersion:withCurrentLockUsage:withAvailableForUseError:withPatchingAttemptError:withNewerVersionError:] : sha256 bee43d0a88ab265d0a89c782b7432efd954f186338d93a643edd853fa9fcef66 -> cb3d314c173a11a715f9fab8ccaa467e624e260d2f1da192a12c8077368909f4
+~ -[MAAutoAssetStatus initWithCoder:] : sha256 2e4608f106f28e98ca855cdab141126d188323c5459c335fee41cba38c383c1b -> a1af9088aba10cefb5194fe41d8220052cb24341b4208de91901d62ed8275c9d
+~ -[MAAutoAssetStatus encodeWithCoder:] : sha256 3dbc7add1604ae1c62d97fcc6f51d851f9ff0001aa3523aaa81dd9ee9052cd51 -> 54e8e3d842fb4f332ca8a1cf597d5b6e5ff05ea57eb605e947d5a162a9470631
+~ -[MAAutoAssetStatus copy] : sha256 a43be4b25502f2b9142deff0317cd85d8984a3c3c049192eda72c823128740f7 -> 1e0f0da08cb6546b94eb8c35f1da8f11d7fa55231e3c8894cf3e3915b0bbb171
+~ -[MAAutoAssetStatus description] : sha256 8488b0332e871b6296304b684ee592228f15bc34e6a56e7d71be13690ecbf926 -> 9474b71d616aed2c2da426d7eced1910522226c0488b50eda75d8e173e586bbe
+~ -[MAAutoAssetStatus summary] : sha256 17cc4a6bbc5922a61d699645fafe133fe6b6b5b1c749e2cb156111e92d4dd87d -> 2791aea615f2b47acda399ac11dfcbe54d4769d89f92d28c95e925bd6956d06b
+~ -[MAAutoAssetStatus getAvailableForUseAttributesAssetFormat:assetBuild:minOSVersion:maxOSVersion:prerequisiteBuilds:] : 768 -> 764
+~ -[MAAutoAssetStatus newSummaryDictionary] : sha256 6c1ade6e8406f4b01f6789872ab0cb110588a133d353e396de256a0ba899ccf6 -> d0972dbb8ff1f9301f97602a3430729616b32fd174f952b5cb6def0ddef4e84d
+~ +[MAAutoAssetStatus newCurrentLockUsageSummary:] : 496 -> 492
+~ -[MAAutoAssetStatus setAssetSelector:] : sha256 ea7e5f927485836eed7b42a711e631b6f72720cbc4b9edb022275df859b95f24 -> 045f0dbb915bf4b3829feb007064172f5b867581643f32c332bed7eac1d8d492
+~ -[MAAutoAssetStatus setNotifications:] : sha256 1c3821fe0487ffb74df33d90637fcb315479352099a6a01823b43600527434d4 -> 24c787d3289c563140b619095c6fb8d942ae0f6968b08030536315de57ece7b4
+~ -[MAAutoAssetStatus setAvailableForUseAttributes:] : sha256 4d6ab86d257765beb4067aea14e198cba2659abd5738dd9ee1e2bc4406adbf9c -> 6f04d78bc6a3a19cd9f859c74e9b6400126024c4841886dc563d73950ec8df0f
+~ -[MAAutoAssetStatus setNewerVersionAttributes:] : sha256 62bb0bf982cc04a9f6af70d3f09cbe67c3f8e9eac9b1596a22d078b87a8b619a -> b101c1def60e344f3e670db1bbc9e78cb5dc179191a922a00281cb7c1543d6a6
+~ -[MAAutoAssetStatus downloadProgress] : sha256 1ee75a72422b1ed441c526bb686f8ed9c9729b98ac1661fb103777b5db8f48b8 -> 9a5e0edc876a9f16daf748db46adfce8cae772e3d7c0c3ea133c357faa92b8d2
+~ -[MAAutoAssetStatus setDownloadProgress:] : sha256 6d01314e6969570175f20c7f81e1c9d6fdef158e4410553ac030966e4edba77b -> 6942c14644e69b2bc542e3ba9a5dd43016e73a59dd3496cb857073c027bf0cb3
+~ -[MAAutoAssetStatus setPatchedFromBaseSelector:] : sha256 38af23100c13b4dc15425cd78ee69b40f0a143b4d838f2f131a62691b273724f -> 8a3791b3f510906cf45fe264879c6174c5c4fa2bbf35daca17072f2cf93e49cd
+~ -[MAAutoAssetStatus setStagedFromOSVersion:] : sha256 1afe75937db2c5a60f60e8ab3947543f92ce325a27ff98bad9ce0b885dfc0af1 -> 70456155a591b74dfd1fefa39f86628f42468fc8c80e0df92b5f7c975aea0745
+~ -[MAAutoAssetStatus setStagedFromBuildVersion:] : sha256 8455d7db0cef1ccf8d2ea51c1a682016b4902d33c16b297fb11d8f746877f852 -> 8d0821b26f9f531af8162f8e7dbda01711674fc14f67ba44109a14089e644cb2
+~ -[MAAutoAssetStatus setCurrentLockUsage:] : sha256 579245b9e24397d500c486637267bd555c8654b6c79a4d9673071e98e7174e77 -> 80c8830d60ffbef201da556c97082cab24462fcb9f3f89ca3f8e55f419f5049e
+~ -[MAAutoAssetStatus setAvailableForUseError:] : sha256 b1ee8c60da248a5e655107512aca8e277c2823dfc381830c1380339168a1603d -> cdcfef0f679f3a8ce9275ceee072364bfb2d1d558153618e954afe72c1d0608b
+~ -[MAAutoAssetStatus setPatchingAttemptError:] : sha256 8a1ed080be984fd95021820aeaf6cf992675f3b4078c07a3ddcdd7bc957296d5 -> 1ce2f3fd2f4b09f345dd12cd3fdbf02f9e456d8c58402da949707249c1fa9680
+~ -[MAAutoAssetStatus setNewerVersionError:] : sha256 14a2b1676529543ac73fe2dd7fa9ab4a38f3cf880aee3adf14641c00640b6698 -> 62624ab10821927296f1992646dbdbf072f5ed5335ef49c36f3e17242a3dc61f
+~ -[MAAutoAssetStatus .cxx_destruct] : sha256 10040d4902e6eba7967a07d79957e0bf5f6ea4dbc6dfe81b1b9aad565571af2e -> a2521d69907eb578a1d070a3f693e2f8ec1f6c52a49375bfd717539b17e10608
+~ _createErrorFromMessage : sha256 fdf0f3eff0579f077140852ddd21162a3fe679adcc7e2f903876bc8ca7a49409 -> befdb748bad428f5ff533eb1e2da399e94a160327e3489d2dd26af393be77dad
+~ -[MAAutoAssetSet initUsingClientDomain:forClientName:forAssetSetIdentifier:comprisedOfEntries:error:] : sha256 372794b02a7d59d72999be6faae415d4985ef79a3ce7652d01ceef401d34f872 -> 0739e7b95ac8ed8922b222f1d6ebd7673bd8ce38ed6c6f8066cfe5dd5bc6cd85
+~ -[MAAutoAssetSet initUsingClientDomain:forClientName:forAssetSetIdentifier:comprisedOfEntries:completingFromQueue:error:] : sha256 ca424374afe76d47d99a635076e32a75eeca517df799b8006d7ed5643f759f73 -> c8600523bc30909327202225d2c0b0791e2ffca5756f5d9ed62fce1c1c219f76
+~ -[MAAutoAssetSet initUsingClientDomain:forClientName:forAssetSetIdentifier:comprisedOfEntries:usingDesiredPolicyCategory:error:] : sha256 67ae5ae3e444e6d1e02fd482a3a36d5600cb1faa51f498c2328e5944a367749a -> db1ee21756306cca885ae1842d5e8313949ede307f6296d1175b83be05e75fe0
+~ -[MAAutoAssetSet initUsingClientDomain:forClientName:forAssetSetIdentifier:comprisedOfEntries:usingDesiredPolicyCategory:completingFromQueue:error:] : sha256 cd327ea2a5b7e66fafa66bb2e2d1e1f04ce9e4728c7f864045ed74f8f5f598a7 -> 9ea1966e167e698c8541a7858d24cdb7a327d6f8cb09bbb1599fa042c0a3f9ef
+~ -[MAAutoAssetSet initLockerUsingClientDomain:forAssetSetIdentifier:error:] : sha256 11b8655bcc8f3eb28294d698f15766fc34dc431254986356bd67d7aefbde610e -> 2917545195eadbf121d8b7145353c17148504870d1e92002514560fc879c1e37
+~ -[MAAutoAssetSet initLockerUsingClientDomain:forAssetSetIdentifier:usingDesiredPolicyCategory:completingFromQueue:error:] : sha256 d53766b8eb568d6fab279654d433436153934cc6ac1df0244a645e96a4d6a4a7 -> ad840d8df7beeef85024c7e330a2a56530b61668a4621ee86f2d01b49fc272be
+~ -[MAAutoAssetSet initUsingClientDomain:forClientName:forAssetSetIdentifier:asShortTermLocker:comprisedOfEntries:usingDesiredPolicyCategory:completingFromQueue:error:] : sha256 e18fbee32d4c8ad46569d048b6deae4b1bd280c18be81393216f3c6adf66037d -> ae4efaf86e82cd2b40bb3dcd17c5d955b99fd094b9db90313b2a745a3f264c12
+~ ___166-[MAAutoAssetSet initUsingClientDomain:forClientName:forAssetSetIdentifier:asShortTermLocker:comprisedOfEntries:usingDesiredPolicyCategory:completingFromQueue:error:]_block_invoke : sha256 a8871c44487ea1cfb002fc32ac4f81f54500e8cdf986849e98e1f9fb23574d9d -> 35d18cc122f55260550815ab2578b8a9d284372347c8a209e0e5d8907701dcea
+~ -[MAAutoAssetSet initWithCoder:] : sha256 6e53d9f8d2730015a8a628b2c1c76d7ef49cb067338dfad7e18c000f9f56bee8 -> f214f8ed2ed7636f0ced35556760123c692f5e607d66a05cb42999123a0ef1b7
+~ -[MAAutoAssetSet encodeWithCoder:] : sha256 336a376a93f33838884c08dd00c0d77b2362262bd4611eaec336e1ba0e589834 -> abb3ff664b6693dc18050ffbfd688535b748df814ed79f64aabd7d176d66785a
+~ -[MAAutoAssetSet alterEntriesRepresentingAtomic:toBeComprisedOfEntries:completion:] : sha256 7b99901132b896bbad8d926de3aa265233d86e57cc41f2b34b936087727098b7 -> 615e69116b2ace83882dd671b5831fdeeab38e093146d7ae8b43a5da2b82891a
+~ -[MAAutoAssetSet alterEntriesRepresentingAtomic:toBeComprisedOfEntries:withNeedPolicy:completion:] : sha256 3054e10adecf0121c54d2c70f0d17482e9651b71e775b19577ba6111a92dcbbc -> a28d497574113fcf8961389fb1249273bab0c3477212080ebdff4dae69d837a3
+~ ___98-[MAAutoAssetSet alterEntriesRepresentingAtomic:toBeComprisedOfEntries:withNeedPolicy:completion:]_block_invoke : sha256 66d395a26b162579c4fcd615b56e28436e465459e4e8370717e1c1c25df7046e -> c7338f3130ec843d7d78fa9edb1d387eb8709e39871c40ee3038dd3aba570d6d
+~ -[MAAutoAssetSet _alterEntriesRepresentingAtomic:toBeComprisedOfEntries:withNeedPolicy:isSynchronous:completion:] : sha256 aa056a7b43909ad83bcf98bf830839024ae361425b02edb6aecd32e06580c9b4 -> 291440605aee0bcae6e7b426b93c1e332fe8516e2dcbc4eb395a3a7bee04075b
+~ ___113-[MAAutoAssetSet _alterEntriesRepresentingAtomic:toBeComprisedOfEntries:withNeedPolicy:isSynchronous:completion:]_block_invoke : sha256 22c0a8f0bad17c77fc156c4c178dda851d86a1ba83dc0f423ca21eb09f81acbd -> b47371000ebeaf236e4eeb1a0db142501884953eabf55184c5794a89b53ffcb6
+~ __113-[MAAutoAssetSet _alterEntriesRepresentingAtomic:toBeComprisedOfEntries:withNeedPolicy:isSynchronous:completion:]_block_invoke.1339 -> __113-[MAAutoAssetSet _alterEntriesRepresentingAtomic:toBeComprisedOfEntries:withNeedPolicy:isSynchronous:completion:]_block_invoke.1375 : sha256 f820ec283193fefa6e8110f13279af9d84b1bdbb1a8c22df3a8c3531d727bd48 -> 982372d2a96485e617b0261c72468475f46b55cb434123ca27a2e123f9245190
+~ ___113-[MAAutoAssetSet _alterEntriesRepresentingAtomic:toBeComprisedOfEntries:withNeedPolicy:isSynchronous:completion:]_block_invoke_2 : sha256 aa94132c548eccb475589d3e75d28534ba09b059ee0595381e02521d1624f7c5 -> 79641c8bb4ee0a529b4e29b08be0e887581c61a719aefe420a4e59df0fdcefd7
+~ __113-[MAAutoAssetSet _alterEntriesRepresentingAtomic:toBeComprisedOfEntries:withNeedPolicy:isSynchronous:completion:]_block_invoke.1361 -> __113-[MAAutoAssetSet _alterEntriesRepresentingAtomic:toBeComprisedOfEntries:withNeedPolicy:isSynchronous:completion:]_block_invoke.1397 : sha256 ac8df995f5afc6767968fb54a2c1a9f4b9e6ba9b2542aa11ecb2d9fec711044e -> 4eec72673dbbe1fec24e5d2b68934992a3c4a3cb24a5ea22d6e4a1914125bd83
+~ -[MAAutoAssetSet alterEntriesRepresentingAtomicSync:toBeComprisedOfEntries:] : sha256 b0c6b692ed364716744da366e4697c1c414f4b9425d8fa5824ae2e9033ad13c7 -> 74ce03da0c637c3639fbd9cdf233b2be49fce9d66670a2bca966df7835512a67
+~ -[MAAutoAssetSet alterEntriesRepresentingAtomicSync:toBeComprisedOfEntries:withNeedPolicy:] : sha256 39f655aa4f25e7c30550d9171c917d9815b89126fbe0e58b09e4d5aae053662a -> 9af7bb1664942e02d9d432a271d9420e6164f440aefa63a980f51b753bcf206b
+~ ___Block_byref_object_dispose_ : sha256 2216cad73fcd209a761786058ecf3e358e152ab19712b5ebea88032778a351a5 -> 9dede59735b47ba515c0cb13e6d8b4a65633413bcdc224e6dfbc4c89d3961eb5
+~ ___91-[MAAutoAssetSet alterEntriesRepresentingAtomicSync:toBeComprisedOfEntries:withNeedPolicy:]_block_invoke : sha256 84c84343f509ca143ccc3da960b181f01ce9dbab2ada72f9fb4fdcc49d1bde79 -> 4f4523a79df346ed64fb5bc3bc6bb406f672c15a2477d1e06928f74ba112cfaa
+~ -[MAAutoAssetSet needForAtomic:completion:] : sha256 10b24d073313bd565180870d36a331858f8a368b8fa7e62eca8f0cb519f72e02 -> 318cf59ab546a9ec62612ab5d43a96eb95fa4b19efc94e5c0388c045bbebde90
+~ -[MAAutoAssetSet needForAtomic:withNeedPolicy:completion:] : sha256 2dc4d96a022fa24659c7e15c6694ef0418b96b3953748a5017f46e126a98b5a1 -> b3440252b3389f23cc706bd006d4c0a12829245a35518f2cfb1311e62877186a
+~ ___58-[MAAutoAssetSet needForAtomic:withNeedPolicy:completion:]_block_invoke : sha256 59858d51a07a0212aece8dd62ded1688a9c6dabe087c5807a42678681df25a6e -> efa2c80367f90b4e9c6161d6d353f84e9a850a0e07667617dfeafc2bf212f13a
+~ -[MAAutoAssetSet _needForAtomic:withNeedPolicy:isSynchronous:completion:] : sha256 618c0f18137440b116f10076b6db8f7577fdc56e33baecca611b419e686538b9 -> 3cad033798b423d656d33f00f5af55ab6bb64f88ea4911a5f71dd21fedce31c2
+~ ___73-[MAAutoAssetSet _needForAtomic:withNeedPolicy:isSynchronous:completion:]_block_invoke : sha256 890ef333827855d49b449a113ff6b051a30c0498036f2bada12accaf0b1df67d -> 12685cb4aa032dcb147d06194013f27dea72d3136b603a4d5ebdbb3c32c093ff
+~ ___73-[MAAutoAssetSet _needForAtomic:withNeedPolicy:isSynchronous:completion:]_block_invoke_2 : sha256 8331d2cd2bb4cf71346daa39bd3f1e4b368c6e2f9aff96096a80622adafbb27d -> ac56b12e73e72a10dbf1721e3b67116518b4217ece2f0ca5641580f86ae6f7e3
+~ ___73-[MAAutoAssetSet _needForAtomic:withNeedPolicy:isSynchronous:completion:]_block_invoke_3 : sha256 17a8e7132ffb5027681e4ec23c38c83071b6052547d9f0ed00e3185f7e8defcd -> b9d73d7f1e9ac2e1c6bdd781bf7622b4b8e5e2a9a63f0ebb3cf3a08fd548af5d
+~ ___73-[MAAutoAssetSet _needForAtomic:withNeedPolicy:isSynchronous:completion:]_block_invoke_4 : sha256 bbc21038bb8a48ec5e36f5b2d9b6b5616ad1500b3d9791f0739b9a8cf55b39fe -> 9cc89879719403f0a3cb5ad9e7b2119493680fb57f07df00b2fac552789ff126
+~ -[MAAutoAssetSet needForAtomicSync:] : sha256 b028a93f6bd04d9210a6f7e4f2212a4fb13466f2a24dcf25714bbfcb444399c0 -> 302c695246041d6ebefda76b4c58f37bca6a88bf848b43a53833fbcc1ee7981d
+~ -[MAAutoAssetSet needForAtomicSync:withNeedPolicy:] : sha256 147275a6529d96d30255003b6b5bf0a51d36a0c04e17825dd84f02d2c8efa107 -> 7267f6727b9b78ed19162dbc7e7a31d07713d2becc9de5e03d9be43da179282a
+~ ___51-[MAAutoAssetSet needForAtomicSync:withNeedPolicy:]_block_invoke : sha256 8f35e083ac077f5ff775e0ff4f8f3afe229e58e63fbb81828383cd4694f2b20c -> 778217aa619a5f453d9f5e454b60150c460055efaff2694653e15bc330e1f778
+~ -[MAAutoAssetSet _pallasReturnKeysWithAdditionalKeys:] : sha256 69592b9fc9fe7a0b051008c473d1addaf8f29b7ff57b68a5c70f22e319dce459 -> 9a93ee405a11a72c91d835ee69d11369603449598f0cbf6f6617190b5decf459
+~ -[MAAutoAssetSet checkLocalDownloadSize:completion:] : sha256 e7bbd6adce47a5b9303d1e201397186e2216b65bb0ace26bfc9c5a509f21f78c -> 3fe53b2491d56250d2c90fb1a9d4e9bffcc5c925ca16f3da991067435cbfb8fb
+~ -[MAAutoAssetSet checkDownloadSize:withLookupPolicy:completion:] : sha256 03b912213072a9ed9aacef4e802be46e725b53fb887ab48c50228d35a2be9b1d -> 0799b3010b7ebb6532593cf9187a5dddf26bd794e197ea2f6d9ee2c0a67b536f
+~ -[MAAutoAssetSet checkMetadata:withLookupPolicy:expectingKeys:completion:] : sha256 e938a1bb2275663129d42bedee5dbbdcee7c752eb4921656bf643891285b2177 -> f00da4b027ea2a9c712d84fe71fdba5acb636e9547fa37486f4a89f7c18f6a01
+~ ___74-[MAAutoAssetSet checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke : sha256 c892fe6b397e37074e092eb7a54504d4ddb77d8b35fc85595ca5666f12bb992b -> c471a0e80641b198dbad31235eca71f11e7ccc0a9a8dcd1a55150091dd01d535
+~ ___74-[MAAutoAssetSet checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke_2 : sha256 ea1b4de0cbd6fd96977ac3abe555e28fbf71d11e8d69fa5c081ab0812640669c -> 5068455f16da36be90848b22e30ad5ad7aa1c2d9274b22a37b0b7e03288d028b
+~ __74-[MAAutoAssetSet checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke.1380 -> __74-[MAAutoAssetSet checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke.1416 : sha256 7bde815bda18f54d05191aa8a505bdaf123c044cbefe989a74355419de698ac4 -> 2c601b0df1cf93eb17d726890f913351cc3a16493e3d10541cfb713cff1f6020
+~ __74-[MAAutoAssetSet checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke_2.1381 -> __74-[MAAutoAssetSet checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke_2.1417 : sha256 e5e0fb7071acd0523ad7bfe8237e0fff904a803975140ce0326e3302425de6b5 -> a4c6194ee50138fdd18f1481b8b62a21609ca5476b2dc8935a57b934b2ef4b71
+~ ___copy_helper_block_e8_32s40s48s56s64s72s80s88b : sha256 85ab6a4124adb4a3654cea78445b1ed3ec28d6d7d8f5d5b48e58d06c93a93a6e -> 424d64f7024794d66ceaef9657ce5b2a8a7c7cb1e8d99dae60d72137770b73b4
+~ ___destroy_helper_block_e8_32s40s48s56s64s72s80s88s : sha256 398fae695f38bb7dd65d9704c188893cb2a1f187433459d1dc5f854a200dcd98 -> cd80fb24ea65cbbac6210c7a8acf692503458bac37e0f0fbaf69a7f77a0860ff
+~ -[MAAutoAssetSet checkLocalMetadata:completion:] : sha256 56e988dcdf242eed0ed30e6d5303c0cc3aca1145da6bfa2eaa1b0d1fb998acc4 -> 4a8fcd091984ceaa6c8ddb61e8cdea5eaa349fa45de54ead2e977587399e7a2d
+~ ___48-[MAAutoAssetSet checkLocalMetadata:completion:]_block_invoke : sha256 3e5ebded93ccc3ac9f417ba9e00f46812f052879f05d6c17ecbbe80d4e6f8448 -> 606e7524c1ed04e598a7c2913cdd854caaf5e21984d0fdf3a25cefa188f4ebe7
+~ ___48-[MAAutoAssetSet checkLocalMetadata:completion:]_block_invoke_2 : sha256 397fa722259c85c0bf86d53d0b7e12b0a57aef168c883b4c8a315629ee8213d1 -> d79a0c1ad9f1b22001bef7a4c7a4aafff16ffd3b9d3b306f81a7f7034d912d74
+~ -[MAAutoAssetSet _checkLocalMetadata:completion:] : sha256 9448bc0dbf9471de0f57caa3a6ec9dd93c10dfaf42758261a99d4e3abd326580 -> 0092ff8e7b9c3eb4da43e4918739f56c54222e3e9fe02a7d87dddcbed4138432
+~ ___49-[MAAutoAssetSet _checkLocalMetadata:completion:]_block_invoke : sha256 b646d235fc6e5c389e4748a98871b936e0759c6358b6ac929c201188bc107f66 -> d8a3b7982b4831d11e89796d35dea29dd794b0f1f1e7fb91388bcdc443975f0d
+~ -[MAAutoAssetSet _checkMetadata:withLookupPolicy:expectingKeys:completion:] : sha256 72c64b53a1182b17be9667e3d0e637c1aa76da61fd8079187a1220455051b9df -> 987b011e40d6954a0d3ff2034eb0adb7ddc7c85bea8996522cb49a539e752976
+~ ___75-[MAAutoAssetSet _checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke : sha256 446b4525ef3be125d0cba8113f65fcdc1269d30ee7fc31d46fc546f8c3b4512b -> be9a976bae4d77376d0f884052754c7ef1589296652a84805f982f212a08c207
+~ ___75-[MAAutoAssetSet _checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke_2 : sha256 b5cdc7fef8a294d11b3cb5acfe8485ef253aaea15e2cb0cca09165c18967e58b -> 9b06b6fc788978f6df4b116294a96e82aa3a0afdad45aca83efa4a86d976a8f5
+~ __75-[MAAutoAssetSet _checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke.1463 -> __75-[MAAutoAssetSet _checkMetadata:withLookupPolicy:expectingKeys:completion:]_block_invoke.1499 : sha256 5ea82cf48cf48b006232e720252eab446e60f935e293d7ce3fad61852a09a095 -> 46e2ee0d78967038fa30b21fbbe2da6471aa0638ed869e577768cba3e8831816
+~ ___copy_helper_block_e8_32s40s48s56s64s72s80b : sha256 ea538bf9dbb2a32c81a4636bd0f2cabd39527fdfd08e9c0db3ac781380a49618 -> 73fe8dc4f70612320b84ebcb84a4413f6c8b263eef81c08d3eacf1fe52c43799
+~ ___destroy_helper_block_e8_32s40s48s56s64s72s80s : sha256 ccbf4ed5b8abfda7b553a8246f278fb3c5d305a72eaabf4c64289e6b78e23787 -> c0bb1ab5d06a87fbc944918db141a55de081e54ec50ce362efdbe5c391618efd
+~ -[MAAutoAssetSet checkAtomic:forAtomicInstance:withTimeout:completion:] : sha256 40d67e6c19f57c4e9cb9cd8cca26f831c6e8716affdb33a1598dbb393a44aa18 -> d29a1e6544f97c5169f6782c415c7983797613d528297969b5ed470fccf93fe5
+~ -[MAAutoAssetSet checkAtomic:forAtomicInstance:awaitingDownload:withTimeout:completion:] : sha256 0a2572217ff571742361c72af9cf1af6b350ed5122de5abb456f10756d255fc7 -> 59927ef3d92189a6680052ec089194bdf9e4a6c8e985e61d3824e308d1afa456
+~ -[MAAutoAssetSet checkAtomic:forAtomicInstance:awaitingDownload:withTimeout:reportingProgress:completion:] : sha256 193fa1e1a1c00ca2ab8a1a78000699b1a8d38c4d0b85a0170f774bce30db2ab4 -> 08008ee8f75dc3f0b336e2fab9999297d4843aabc311155db4a26f9498a59156
+~ -[MAAutoAssetSet checkAtomic:forAtomicInstance:withNeedPolicy:withTimeout:completion:] : sha256 b536dcbc50e4a5e2bd31ec81b907611401003005b33b7f73a0b3aa9aef21b425 -> 924b974eb0ac4b4157f3899bae5ba884eac6aefe31a25f6605547d7f787fb5d3
+~ -[MAAutoAssetSet checkAtomic:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:completion:] : sha256 8dd1d2b50b298231d971123e956eea67f2c4048e631979ff7630e0cdf7614703 -> ae57a2c24e10a2f2cf06c53350103e60c266d1dbdd41ed095678f95acf87640e
+~ -[MAAutoAssetSet checkAtomic:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:reportingProgress:completion:] : sha256 2c69444d3b0ef52095728a8768c32549fa82303c955b1e9bef54de678df6790b -> c1721ec2c604e502f234a725538eb36835e226d20bbf05c1f70d9c508b1bb676
+~ ___121-[MAAutoAssetSet checkAtomic:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:reportingProgress:completion:]_block_invoke : sha256 fb9ac10a989f0ab29b9a3f60314eb0b4e45a0353c6f54d4e3292fa3db8653df8 -> aca3b23017032b9e1f0e8d3e5a2f06aa0a588028bc4c4bbe7edcc63e50123d52
+~ __121-[MAAutoAssetSet checkAtomic:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:reportingProgress:completion:]_block_invoke.1469 -> __121-[MAAutoAssetSet checkAtomic:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:reportingProgress:completion:]_block_invoke.1505 : sha256 e4114b115e024451fc9378b56ebc58ae0164eb5c1bf8b218cafb0209b81b7e2d -> e45b750d1cd6fee08d566ebb78e90e0d309a7b9e8b74730145e45ea1fb39e6ac
+~ -[MAAutoAssetSet _checkAtomic:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:reportingProgress:isSynchronous:completion:] : sha256 22a3e60ffe2b972c8beefa020fad27d433663af46eadf9103ede200ec13e5525 -> 49bddfdfade809837b84e222f9f5e257a3a798f3be37a1ee074d7f3276135b11
+~ ___136-[MAAutoAssetSet _checkAtomic:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke : sha256 8848d7b75f6c48828bb8d161a594a26a7f0b768d65f6b1ab7663ad8e9eeee1cc -> b66ae33a69577db1780524ac33fbc7a5c093c8d5942f24519b10f0de8412c9cd
+~ ___136-[MAAutoAssetSet _checkAtomic:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke_2 : sha256 78cc4a308fdeef507379a74950052a52210c87a2a12aa9ba29708e70fe8ec38e -> 391870559655bdc06d88e4a3a3bb5113e788c99d8173d0df5c4849762ec45482
+~ ___136-[MAAutoAssetSet _checkAtomic:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke_3 : sha256 17be06f0da2c33f17b5ab87799565072d75584cfbc616ca8f5c8d6fa489d5706 -> c3958718b8c6afc52a9ba3b36831ac39d0baf3b87da05e280a39698badd662a1
+~ ___136-[MAAutoAssetSet _checkAtomic:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke_4 : sha256 fcbd0a85787a33614f2effcd65d318f3e2da31fcf98e5146e675ecd9b19603f1 -> 00519f1faa8bf29a04716c90a2117c0c2e28c181dcb708ca8c33972c14649bc4
+~ ___copy_helper_block_e8_32s40s48s56s64b72b : sha256 92b4e7978474efaadc004f618a764bb139486372fe25b665b79b35f8a7b09591 -> a4e023dd7ceb7455d0d431ce53beabe10dc75afacd1addf70810bf5c6e0237a7
+~ -[MAAutoAssetSet checkAtomicSync:forAtomicInstance:withTimeout:discoveredAtomicEntries:error:] : sha256 423d3435974954caaad403fce2d66ca02de816d7eaf832f56dc2d7c2b2d3bf42 -> 2f2a518b0aece5b2caf29bb0759bf32fe1c7d8dde66a650579fe144008a81669
+~ -[MAAutoAssetSet checkAtomicSync:forAtomicInstance:awaitingDownload:withTimeout:discoveredAtomicEntries:error:] : sha256 0752841ff978ac5b7cda2469720ffae26633f05f08e3c318f55f66c0c70982e5 -> 684c13224da0721f7536e9550b6b5ed8fac89ae1c417f96637d9c85401160020
+~ -[MAAutoAssetSet checkAtomicSync:forAtomicInstance:awaitingDownload:withTimeout:discoveredAtomicEntries:error:reportingProgress:] : sha256 dff326f39ab59ef02e514a7aa65b48d703ec6c22925013199f666011a318330e -> c4f5d04961691782e46d18808f7292fc7b29a7496330a7682750bf2add728cc4
+~ -[MAAutoAssetSet checkAtomicSync:forAtomicInstance:withNeedPolicy:withTimeout:discoveredAtomicEntries:error:] : sha256 a33f350da956f5bc4fc3e4caf6433c8028b8121f1c6c2c0ffe54d5cb19e6efb1 -> f83ad02b6d89911c7392b06e9a7878d8bb552740597bed2fd7916f8b82104309
+~ -[MAAutoAssetSet checkAtomicSync:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:discoveredAtomicEntries:error:] : sha256 17e6477cf0bfdad461e508ef15b36724707c3b351c6a86860efaf63402fc8464 -> 62411e889f52f17c7c03d962d01683e1d23cc5d7ee04076341479115f19bf9db
+~ -[MAAutoAssetSet checkAtomicSync:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:discoveredAtomicEntries:error:reportingProgress:] : sha256 c1c6ca5e6b925e1f58b2ec0662a5061e474495ab45ca7abe029c854419b87964 -> 19f7660dea64732df23e0e2546914021faea80fd5d98137e49fa51a0b6e74321
+~ ___144-[MAAutoAssetSet checkAtomicSync:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:discoveredAtomicEntries:error:reportingProgress:]_block_invoke : sha256 eff7c8e7eb1bfbe958615b31b9d043bb279c7b9254ff1a52e8febfb964cd3680 -> 2409b69ef74526f5e33afad1fd15b59f97f88f9c7aae01994b0c420a5d574f2f
+~ ___144-[MAAutoAssetSet checkAtomicSync:forAtomicInstance:awaitingDownload:withNeedPolicy:withTimeout:discoveredAtomicEntries:error:reportingProgress:]_block_invoke_3 : sha256 4bbffd0c09e66e4a2b8cafd2e764e16008b3e2e135042b7d4109b1e98867e713 -> db0d630c74a311f52e4086baf4582c3a93d28eae9f4d13c2bd0733d552b131d5
+~ -[MAAutoAssetSet lockAtomic:forAtomicInstance:withTimeout:completion:] : sha256 c1632e9618d225a1a6f7b605abc193e7de2dc62f27a2c47a365a4ac17e33b810 -> f1dc96557dba239c943b212baad853053fb53856189758813d9568f44aaa8747
+~ -[MAAutoAssetSet lockAtomic:forAtomicInstance:withNeedPolicy:withTimeout:completion:] : sha256 4732a2a8dbd1d348815a4bbff88ab85967bd47224709744e1f434f36e8160c0d -> 913efff97782417001c889b2aa26d02d277edd540bf8b3c32bc08e2d7b8bd903
+~ -[MAAutoAssetSet lockAtomic:forAtomicInstance:withTimeout:reportingProgress:completion:] : sha256 3bc60fe885759456308107d769a69013af223d44055470a4edc6d54dbe1c2b36 -> b08865bf4b9bf4d6b6c9368cdb8b1d87b70233ba916c0b1ee81ca5fc1a144bc6
+~ -[MAAutoAssetSet lockAtomic:forAtomicInstance:withNeedPolicy:withTimeout:reportingProgress:completion:] : sha256 1719b90224a888d761b857db7a41d860a24c9eb0fb8a0683d62469b9a8fe947e -> 755d3174c5d580716d9b5618f9cc22c1747eeeaf0042af8d9f3a1ea53dc92a04
+~ ___103-[MAAutoAssetSet lockAtomic:forAtomicInstance:withNeedPolicy:withTimeout:reportingProgress:completion:]_block_invoke : sha256 ff860c232f89c12bd4200c204c289797437eddfa8df2e1b0f61886af92490232 -> cbc3e599c441455b55703331ee0099650ba91c000fc0f52b10266f08b49bc4f6
+~ ___103-[MAAutoAssetSet lockAtomic:forAtomicInstance:withNeedPolicy:withTimeout:reportingProgress:completion:]_block_invoke_3 : sha256 9146ea5985b68278eabd7c1dd8e1f4b72dc20190043bf1aefeac7937d88ccfb3 -> f7d7470ae921fef9cb92b234a43b01d31f8ef8c95e5e4eaabbfa1e3f6be2c9ec
+~ -[MAAutoAssetSet _lockAtomic:forAtomicInstance:withNeedPolicy:withTimeout:reportingProgress:isSynchronous:completion:] : sha256 83e3b45d2f8b8f9f71de8b9232c1154dc9b8fdeb4863145a11a5cebe80f9ce15 -> 03a46ebc8fe977c742532c8ea0010bfe4cd7348f7cf6c8f8d5a65bd6aa645c9f
+~ ___118-[MAAutoAssetSet _lockAtomic:forAtomicInstance:withNeedPolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke : sha256 3043ed78225b4a91cbf77f53a0b2b5b4d88f12d65e49d47388b30433dd9b1763 -> 2be384289d4c10d3f02af25146c638fdc7260b2589b890f8142f223906527f59
+~ ___118-[MAAutoAssetSet _lockAtomic:forAtomicInstance:withNeedPolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke_2 : sha256 fb8370527784bdd51b05c8cf507c7aebf37db0f359d54849cb61ef0eaed53a98 -> e673a7bea17f19aeeba84224c4393f6e87f61c2962d6728f9d8c548f1c8b679e
+~ ___118-[MAAutoAssetSet _lockAtomic:forAtomicInstance:withNeedPolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke_3 : sha256 c63b25108a3a575317bc25167a8cf3ac70aa761ae843d10af1faa88581b9e98f -> 82b74c63562bc2f554d78e618cf9e517aea2845722cb174a8e7cf9d0e091cf8c
+~ __118-[MAAutoAssetSet _lockAtomic:forAtomicInstance:withNeedPolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke.1509 -> __118-[MAAutoAssetSet _lockAtomic:forAtomicInstance:withNeedPolicy:withTimeout:reportingProgress:isSynchronous:completion:]_block_invoke.1545 : sha256 0a74add2399af43c6aec7557534a2e328154311409c76a1d9a848c4007bb469d -> 572489457067e4104e4c88b2442d7d409f696a6e0ae233b02e92f9638eba39e2
+~ -[MAAutoAssetSet lockAtomicSync:forAtomicInstance:withTimeout:lockedAtomicEntries:error:] : sha256 ec021b075594d77d58c86c96005057240c92b9fe4866144c4561295a8ca8bf3a -> 15378c61b045e007dfb0a79630a1c6933c7b505f8c3b9c6b560ec03d5c1f904e
+~ -[MAAutoAssetSet lockAtomicSync:forAtomicInstance:withNeedPolicy:withTimeout:lockedAtomicEntries:error:] : sha256 5eda84c741b8a21233abc8b6baf3f58197f60274bafd265bd0991148cc9d67c3 -> 29f4b09f8dc48155d4c447fe47f85f1942d34f24b5efdcb8577581674e36b80a
+~ -[MAAutoAssetSet lockAtomicSync:forAtomicInstance:withTimeout:lockedAtomicEntries:error:reportingProgress:] : sha256 cb78b719900bc13c0217c1766b0fee8c13ae8968f5d598bfde2205efdf9e6f4f -> 7d4d9135c3a793dd836311d119277569b0d833db747792197d077e3dd3c06961
+~ -[MAAutoAssetSet lockAtomicSync:forAtomicInstance:withNeedPolicy:withTimeout:lockedAtomicEntries:error:reportingProgress:] : sha256 0855137f8e09cfbd4613754468228b5308df9bd1f653562fac052d0de229b9bf -> 470d03831c60d32566aa74223e29279d59d794adbc6886cefcff7795435c4a46
+~ ___122-[MAAutoAssetSet lockAtomicSync:forAtomicInstance:withNeedPolicy:withTimeout:lockedAtomicEntries:error:reportingProgress:]_block_invoke : sha256 7319ee31d1111118f760ea3ded52c4a4dcee5c4bb83fa7bb4e231d52e840a18a -> 7a5a48d8a77624e34338dabbb1ae80a6826793220c2b18cc01951da0666f0e9e
+~ ___122-[MAAutoAssetSet lockAtomicSync:forAtomicInstance:withNeedPolicy:withTimeout:lockedAtomicEntries:error:reportingProgress:]_block_invoke_3 : sha256 4c23cd82084ace2acf5dbd68c970dac92cdafd4d8339e296b16b4ed87fdb22e3 -> c9f0e62a5cdf68dae336297c6c27dfcb2b24d36457e7bf00440cc7c84525771c
+~ -[MAAutoAssetSet mapLockedAtomicEntry:forAtomicInstance:mappingSelector:completion:] : sha256 0faa02d29192f8313effd505f511dc26d68793e0af13d9d3ac807536aa3e44e3 -> ab52064b6f1f6d12152ec486cece69c8914804a54959d5bb65b80e25f371fa23
+~ ___84-[MAAutoAssetSet mapLockedAtomicEntry:forAtomicInstance:mappingSelector:completion:]_block_invoke : sha256 644d375964e35f7914d863367db2dc39f619410b6ad128e0454e83447888fa49 -> 4dab9afb738f3016fbd44f1f931d6778ccd0eadab3d2aa6239945142d5bd26f9
+~ -[MAAutoAssetSet _mapLockedAtomicEntry:forAtomicInstance:mappingSelector:isSynchronous:completion:] : sha256 e1e46fa1f78f5ff5c9010b3d86ac3929cf75241103f2b54d1d4ad02030464211 -> b709959267bca03494555759e939e485827e8b398dbb1abe886527fa20a0840b
+~ ___99-[MAAutoAssetSet _mapLockedAtomicEntry:forAtomicInstance:mappingSelector:isSynchronous:completion:]_block_invoke : sha256 b3ebe43b4cdf66bdb38bb79928e1758260d149521b6aa258aeb291206b8aa29a -> 7ddab96a3724994bf1ccb5b0be5417b625e4badfc6049eeb3e1ffacae2b0eae3
+~ ___99-[MAAutoAssetSet _mapLockedAtomicEntry:forAtomicInstance:mappingSelector:isSynchronous:completion:]_block_invoke_2 : 1048 -> 1032
+~ ___99-[MAAutoAssetSet _mapLockedAtomicEntry:forAtomicInstance:mappingSelector:isSynchronous:completion:]_block_invoke_3 : sha256 bdb5e7d7b132b6264854e453b58b66c1f033f2d89e844d28880e7cadb50b4af1 -> e3cd8df2f8d504364ba9250b75147ac197141cb90c966ce97d306336550e5b2e
+~ -[MAAutoAssetSet mapLockedAtomicEntrySync:forAtomicInstance:mappingSelector:mappedSelector:] : sha256 af34dcd072c8f2c1ad706ff53ae1e8e62025acda91ab47a02fa41b825a0fc525 -> 93fcdfda7a06191defa017a7299975a750ddf979bc5c79ce82ddb259cbdcb661
+~ ___92-[MAAutoAssetSet mapLockedAtomicEntrySync:forAtomicInstance:mappingSelector:mappedSelector:]_block_invoke : sha256 70522bd1ff595b07cd333889b79189e588cae022ddc19601a07c85883e330bc1 -> c014ed0b35b3f16f7aa0eed78ffeace6d9a53608c5f8266bfd69668b34205f21
+~ -[MAAutoAssetSet lockAtomic:forAtomicInstance:completion:] : sha256 6643aebcc836830e155ceb5cb6446dfd6868e2b721486b16095ad47ba086a8a5 -> 361e324b0659782e559aba6b684f40a662f95d7c61e693ef7ddf180e233bdf48
+~ ___58-[MAAutoAssetSet lockAtomic:forAtomicInstance:completion:]_block_invoke : sha256 29f76d558223cf4ac5583c7e4230b51e405523005c501b5b0d9191e3536b0241 -> 9deaeceb343d93c16389dd9317b80c75a0aa8b78ab4abc01541e1a3951bdb8bb
+~ -[MAAutoAssetSet lockAtomic:forAtomicInstance:performContentValidation:completion:] : sha256 b9daa6c7b6e6281658ff6fd69ff07e2685c2d03af5022fb7379f0c62576eecdb -> e2d6d2a3e507385a9c672d5fadc44e131262617018da75b05f13e4b5e2f8eb20
+~ ___83-[MAAutoAssetSet lockAtomic:forAtomicInstance:performContentValidation:completion:]_block_invoke : sha256 f17814b73536dd4f00d68cb3ca2dfb2ea603292f42607fd779dec20b6444a0a4 -> 8f11bdbe19054a69a739163b90a04267d65cfea2d5945659ef3596660b0a5034
+~ -[MAAutoAssetSet _shortTermLockAtomic:forAtomicInstance:performContentValidation:isSynchronous:completion:] : sha256 8377b67efa2798df3ee6c444718579611da255925cb5df1d04f756af54dca321 -> ef04563995421014c8c3a9ce6417ca2c534d016e6fdcc37c040fcce3490dd630
+~ ___107-[MAAutoAssetSet _shortTermLockAtomic:forAtomicInstance:performContentValidation:isSynchronous:completion:]_block_invoke : sha256 8881a869a32b6a68f6306a7401c09b22e605581cf0bc2058ea030f12bfa931ab -> 56ad040419308bcfc0c3cbad2bb1b5c7425ba5f5ed47033c2a10986a1a48dac8
+~ -[MAAutoAssetSet lockAtomicSync:forAtomicInstance:error:] : sha256 b9f050d7f77a28423baaf3a351e15134bbb1b098df5b8fca929b26e41f1a7b1a -> ea3d159c797df1f384e43e2668add59ee26b0d708f1ba49fa920330fe2bb8b23
+~ -[MAAutoAssetSet lockAtomicSync:forAtomicInstance:performContentValidation:error:] : sha256 f954efaf335a2521f6ec1dea5bc8777cabfcd31595117f884efd040ea3a6154b -> 3a07bd224d246bde3a9d525b034b04784d62bbeeb5fd7eb3abea731f8288bfb6
+~ -[MAAutoAssetSet _lockAtomicSync:forAtomicInstance:performContentValidation:error:] : sha256 90aa28ed25450301e33a2a18bbc91bab4dbf784eda944cc4f6707f6f41527b66 -> b749fb73e3c0167f741cb0618e6cd01e71a5a734dc79168849056529c207b961
+~ ___83-[MAAutoAssetSet _lockAtomicSync:forAtomicInstance:performContentValidation:error:]_block_invoke : sha256 441bfbce5dbf45efbd7b8f76bbf22a27910f72192c8551606f083eca185f72fb -> 1ab18f373faef93ffd19012d4a2c5bbd420428bf6cc458aabffe1e4eb6b91acd
+~ -[MAAutoAssetSet formSubAtomicInstance:fromAtomicInstance:toBeComprisedOfEntries:completion:] : sha256 a47b1bb866242b60be999ca6b4c2a32838beea365c08efb09cb3b83b6198936a -> 3c66d541f987414dc30fc5b8ad25b2d2e3b6b7d0e3f51e1b1df2681c1d674452
+~ ___93-[MAAutoAssetSet formSubAtomicInstance:fromAtomicInstance:toBeComprisedOfEntries:completion:]_block_invoke : sha256 98b3ba8980c03e4226856699bd789c33dc4204a6119fa646b45bc3d2f4e5061d -> 6348b724a3f28f9c06b2bfde96f8a8684bb7c23a07c1458895617489abd21079
+~ -[MAAutoAssetSet _formSubAtomicInstance:fromAtomicInstance:toBeComprisedOfEntries:isSynchronous:completion:] : sha256 6856ee79b4dbb93bc945655d459ce2f702e907d6787b4adfea2821a8dc6dabd6 -> d9dfaef19e2301f7817a40a88bcf3cda02f56f89e1f461c1d2ef7ef63b7057ec
+~ ___108-[MAAutoAssetSet _formSubAtomicInstance:fromAtomicInstance:toBeComprisedOfEntries:isSynchronous:completion:]_block_invoke : sha256 db28cca16349d996b607d1290aed66ed9ad22519606d8e3b55304d18fd8d5966 -> 70beb2f114f2b24ee3ba091e8473c82aaa66f9ebf6acc7b6aaa8548f477f6cc4
+~ ___108-[MAAutoAssetSet _formSubAtomicInstance:fromAtomicInstance:toBeComprisedOfEntries:isSynchronous:completion:]_block_invoke_2 : sha256 3b0954d2d7f5ec901083d156d0e1ec797fa07248340833822ce61546ad0815e8 -> 7dc766193abc54333aab4dccf50f14a79fe14fd572f81a1f80499ff825b4cd9c
+~ ___108-[MAAutoAssetSet _formSubAtomicInstance:fromAtomicInstance:toBeComprisedOfEntries:isSynchronous:completion:]_block_invoke_3 : sha256 6eaa6e841b56a51140a6447857372853def2045f7e32dd8f0c19296ad5259ab3 -> 5253553d7f50259d4ae830ecfc2d9d04285ca758d6cd5a35051285690fd82336
+~ ___108-[MAAutoAssetSet _formSubAtomicInstance:fromAtomicInstance:toBeComprisedOfEntries:isSynchronous:completion:]_block_invoke_4 : sha256 691f2bb77cd84236c4fe33a65f4a68a8412c6d3bffdb21c42fbc8496706e0132 -> 29604dffeaaadf92bbf14b895fc09a93e6213b79d0be09380501fde6f88f4aff
+~ -[MAAutoAssetSet formSubAtomicInstanceSync:fromAtomicInstance:toBeComprisedOfEntries:error:] : sha256 7dd6f8761e16c690dabdca4f0afd9a096a1c771e8db385aafe85736bfda412e5 -> d8f67e8f2fa53e43a52b94374ac53e3a34d3fd432c8c5a1def5d9034e5e184d6
+~ ___92-[MAAutoAssetSet formSubAtomicInstanceSync:fromAtomicInstance:toBeComprisedOfEntries:error:]_block_invoke : sha256 ab1fd12718e076351a48ed560949d743b2d866ea6ee4d6b245f772ebd6f4ddc0 -> 433ba3ffb9ca24dcace17c874752530ea0aecb82342de27feb09692938adb9dd
+~ -[MAAutoAssetSet continueAtomicLock:ofAtomicInstance:completion:] : sha256 b2edabebb486805c69809ae1b862c718e79c190eee64966218fa8466dc7ed5d6 -> 1b719784d18ceb455114efc04c0c0df8c55d6be61bd6329a84b71ef1eaf0c816
+~ -[MAAutoAssetSet continueAtomicLock:ofAtomicInstance:withNeedPolicy:completion:] : sha256 4610d226559578712ef5626cfab94cddb205292bbb285393a6e2be0da704a2cb -> 33a3be85724ccbf6f6bd56f21aae9b7a0254bb98d0322aa5abe69a25eb3b4757
+~ ___80-[MAAutoAssetSet continueAtomicLock:ofAtomicInstance:withNeedPolicy:completion:]_block_invoke : sha256 76ad6d64ed53cc0bc1bad95dc752862a3c14c34083bcffa80db4fd238779361b -> f280813681e8019908a276387a7586924f47fc76729711838491f7f903d53c6c
+~ -[MAAutoAssetSet _continueAtomicLock:ofAtomicInstance:withNeedPolicy:isSynchronous:completion:] : sha256 38743058c1eb9ecc57b4f14238bd92628489834340b47ae205b9153378dafe9d -> 873c1807010fa1e4895ced9f59b8e9986e455c2b447255865696b7d8b16b40b5
+~ ___95-[MAAutoAssetSet _continueAtomicLock:ofAtomicInstance:withNeedPolicy:isSynchronous:completion:]_block_invoke : sha256 605f24798e8a924fea9e4e8ee26d03197e3b236907ccc57c9332e3d3433fbb80 -> 727ec5b699b0854d5ae2f66cf57b50963460c05ed1483ec1674da36efffacfad
+~ ___95-[MAAutoAssetSet _continueAtomicLock:ofAtomicInstance:withNeedPolicy:isSynchronous:completion:]_block_invoke_2 : sha256 472973d820c7d79d7bb081eb4d7bbb16f583eab854a1bf6868f3d1308cb0eed4 -> e4138004b6f3a08100d1fd61e60fe81fbc4ed92b51cc6a565fa8756a006c5f0f
+~ ___95-[MAAutoAssetSet _continueAtomicLock:ofAtomicInstance:withNeedPolicy:isSynchronous:completion:]_block_invoke_3 : sha256 7da91371749863a1a03855833f5b8ccaa220df2e7ab7f5406993c2cf21273048 -> c4936613a51d77c7efcac67e0b846ef749be7caffe133a7940b034bc9ca22ead
+~ ___95-[MAAutoAssetSet _continueAtomicLock:ofAtomicInstance:withNeedPolicy:isSynchronous:completion:]_block_invoke_4 : sha256 f47e2c2a0afb253b4e8c0ecb889c7d2c329960f1bf19e472937e7fb8f836fb35 -> 4a23eb55dce965fdd9ae3813ec0a1c28421ed2859ee1ff903111fc129b6bf59e
+~ -[MAAutoAssetSet continueAtomicLockSync:ofAtomicInstance:] : sha256 570c1950f50bad700787a92ca7ef6afa42ea0cbadc6d2f995411b4860a2ed61e -> 1c63192289adf9c500e65d46e962bd766e0cecac551bf6640950f3ec1c5eaaa9
+~ -[MAAutoAssetSet continueAtomicLockSync:ofAtomicInstance:withNeedPolicy:] : sha256 e71a4e2f6dbd3cec91199b161091b7f8804b77f9564698eaa7a3b91cb45c42ec -> e07c462a95299a008605c183a2dcbf63b04c732f16b6dc3d761e59014ec6dd50
+~ ___73-[MAAutoAssetSet continueAtomicLockSync:ofAtomicInstance:withNeedPolicy:]_block_invoke : sha256 c205db7418b99c9a89584ca687edbe143c9a85254cd50c223966a5c97fa59b74 -> 55763d93ccfadf16b32ba32e828c8e2e42755128b8fcbb0e7948ca502d5651af
+~ -[MAAutoAssetSet endAtomicLock:ofAtomicInstance:completion:] : sha256 f3baff05214c4fdc016a0cd3b8010ae45e3b02182b24dcde59633b11cd60a650 -> c7251c8827f1ca1832536ba9e336bc9aa499f501bbdfb9653007f9d2b70f0691
+~ ___60-[MAAutoAssetSet endAtomicLock:ofAtomicInstance:completion:]_block_invoke : sha256 f81b971efc4415226c7c55921172e3507bab2589a28e1426e0cc2894028cfe7e -> ce87febab73bff229e93ba0bf4475f92a67296160e636200655ab2f6d68cdf57
+~ -[MAAutoAssetSet _endAtomicLock:ofAtomicInstance:isSynchronous:completion:] : sha256 72673cddab854007fd384912cd62295fab1ddf2674679254fba8f5b0bff4856e -> 7992034181572a8c33333ef11b6ba7fa87b16e86b888c68ec95320927521cc41
+~ ___75-[MAAutoAssetSet _endAtomicLock:ofAtomicInstance:isSynchronous:completion:]_block_invoke : sha256 cc1c9ff539bb63a603dac198cbeeaa21f41be65af97b54b7e2b004efd37d6f30 -> ba9549e02cfc9f6403e1651dc02d3a604ffac2e1eb23e86c665f3eac9d8b9391
+~ ___75-[MAAutoAssetSet _endAtomicLock:ofAtomicInstance:isSynchronous:completion:]_block_invoke_2 : sha256 646cc467fd248b00cd0a431b895237c0b4587b5040f7a36cf5334e7178d50e63 -> 41ee0f79a138328098627ca06eb70588ff92916cb2e8717bdc9651b1c545a129
+~ ___75-[MAAutoAssetSet _endAtomicLock:ofAtomicInstance:isSynchronous:completion:]_block_invoke_3 : sha256 b6656a313bfa25fbb5e656166a3dff24c5aa0b7a496404f36d29fbd43dd56d35 -> 780bf68c54a75d8c63db898c44345eab5b4b9e1d90a801575747cf8c044a0036
+~ -[MAAutoAssetSet endAtomicLockSync:ofAtomicInstance:] : sha256 25060d9faad4dca6263d09142809d0389d0ff027d6938f04b75db6a01c98604d -> 118d288ca0f7bcce5985b160828ca42902798c71d305fa3d70b6ce780ec31170
+~ ___53-[MAAutoAssetSet endAtomicLockSync:ofAtomicInstance:]_block_invoke : sha256 2248ff69e5e9d0b01c167bc1e0acde3e695b07c1f3af47fd0a3cc313faea48df -> 1d1a9b92c0065d65d265233ee1a36f5acd974e9549bd10b620ff03d548d49e2a
+~ ___53-[MAAutoAssetSet endAtomicLockSync:ofAtomicInstance:]_block_invoke_2 : sha256 98488784ad938443a004a68437339c1b8b2ab205219c80824f705e73ae13d8ad -> ec59e6cbf3c4139e8c5f7c0f3e1dee9483e0235fb83399b2b005a18bab1e8ffc
+~ -[MAAutoAssetSet requestSandboxExtension:] : sha256 9e45457c24e75ae9db5f5f66305118d28e5c37512be385f0fcfe35e8bc4502a6 -> 1faa7616813742481e8e0e5abb526106f802f2992802d54872d6a272e3461bd8
+~ ___42-[MAAutoAssetSet requestSandboxExtension:]_block_invoke : sha256 89484ad58117dc59e1db05ba3d3195facf5dd33debcd38307d7a0e5931d53c14 -> 6c2bbe2c5ca1dc6f290aa6f5e0c592deeafb965272ff4b5aa7b227c313de70ba
+~ ___42-[MAAutoAssetSet requestSandboxExtension:]_block_invoke_2 : sha256 49c0fec495e63341e375178074d9e089a068e8e7cdc248ca1ae0c448a2438172 -> f3ff579ffc04b8cfb5a6c06fc3c4c2ed64b355fa5afa9408d54f554e7d54cc86
+~ -[MAAutoAssetSet assetSetForStaging:asEntriesWhenTargeting:completion:] : sha256 86937cb44ef4648f4eed9f41d16a2e1cab34b4b5f1ba1dceb919f8d5f9a4ce70 -> 713faae59cdef0bc1bccfc6c17531a2dd61c4820cb262297b7e295261c35a7c2
+~ ___71-[MAAutoAssetSet assetSetForStaging:asEntriesWhenTargeting:completion:]_block_invoke : sha256 5a62a1f9b77bca53c8cf954a4d521225e7196bd88cbf82946b4ddee247868303 -> 94879f076956747dbff1b114de9dcc2a7367abf44c7670dffec4fa9a63ff500d
+~ -[MAAutoAssetSet _assetSetForStaging:asEntriesWhenTargeting:isSynchronous:completion:] : sha256 75fdee5df4d91cee625ec9ca7896a59a630638986c33a097fb72f92e60b65ff8 -> 33610aa327a6a6eaf9edc6df1fe7303935ec8e73e9a9522889ef002d3c3fcb73
+~ ___86-[MAAutoAssetSet _assetSetForStaging:asEntriesWhenTargeting:isSynchronous:completion:]_block_invoke : sha256 14453e69688ec69ff9180933efac3ff8a25bfe7ab41158c5baaa69b4dc9ebc0b -> 8523a4aa60f2b3ddd27cd5d686f087f72939f92b4865a87801d3d6f12e3b39fb
+~ ___86-[MAAutoAssetSet _assetSetForStaging:asEntriesWhenTargeting:isSynchronous:completion:]_block_invoke_2 : sha256 5320f1cecc2f13b121da3c6fe1a22f9f655bf6bc81ed9b691c62ab229d58983e -> 113784adf8e2b708a7705bbeaadafdf6f2fde78ba7ee10d03fec3e8432eb68a2
+~ ___86-[MAAutoAssetSet _assetSetForStaging:asEntriesWhenTargeting:isSynchronous:completion:]_block_invoke_3 : sha256 f43b6160ad3f3239d08002c9f51f7d2664e6138a326a4c4e4dee8a3c68302960 -> 5f064fd83e014e8cbb794bbe02286d928a3198c1bde0573a7c24d26186654985
+~ ___86-[MAAutoAssetSet _assetSetForStaging:asEntriesWhenTargeting:isSynchronous:completion:]_block_invoke_4 : sha256 ff1bc88955d109afdcd321f174e39859dd7890bf63642d3cf7777e9fa3c89608 -> 4782db57d126127a88a96b1066ceac7bc1154f2888ef2e6b4863b4c5abb32a4d
+~ -[MAAutoAssetSet assetSetForStagingSync:asEntriesWhenTargeting:] : sha256 19eacb81aad87668d6ea1d24c566b7f7960bca19faa0508b34c7029713baabe4 -> aae6ed88dfeeed9048a11140d6269582664b111046a6117d749ab1ef5b2bc3ff
+~ ___64-[MAAutoAssetSet assetSetForStagingSync:asEntriesWhenTargeting:]_block_invoke : sha256 304d028a453b47cec86f03ecf249f5114ada23fbc0becd8cee75362579b67272 -> 0d8ee854c2b47ae8b00cf765aaeb53f61323c9a8cba05ce88f657dc3b98131f8
+~ -[MAAutoAssetSet currentSetStatus:] : sha256 5f6f7f117da06e6db18576ade3fff1906b09fc3219981435fd8ed2cc0a1c71a2 -> 801d4367db0dee349c55c82105110638eef77d588947156a4c9094e864ed8580
+~ ___35-[MAAutoAssetSet currentSetStatus:]_block_invoke : sha256 5e88c8ab4f98ed5fd0cc0529ec3be3ff3301476e599a059f0ed3449826972e11 -> 60296b7782652bf6b6c1cc7dfab0762de34a82bc95817cd5ae02c38986efae5b
+~ -[MAAutoAssetSet _currentSetStatusIsSynchronous:completion:] : sha256 78a7ac46917efa6f1c473b8b10a0320c1712963d9da73380c1662757a18753d7 -> c18cf54c654a890d3f1ecaea2acc9485785b8f4e458668073eec67bed7af70f5
+~ ___60-[MAAutoAssetSet _currentSetStatusIsSynchronous:completion:]_block_invoke : sha256 76605d4e0cc0f330f9797dd98be070d8b37ae86a3db9383fd0d23c7992d769f9 -> e256ddc66b79f5fc094cf6ea9834f09e92784848d6a35b4382d49781fdb8f8fc
+~ ___60-[MAAutoAssetSet _currentSetStatusIsSynchronous:completion:]_block_invoke_2 : sha256 3800bea7c1fe5a223f0d8adc901a89b3e8abb8a9b0d0f501dd599f178aeb66f7 -> ce103a5cded08274be2aae35b155fb4a6fdca18e71aede8e8128f318cc869fdb
+~ ___60-[MAAutoAssetSet _currentSetStatusIsSynchronous:completion:]_block_invoke_3 : sha256 30ca5f3c0cc838db2644af8c3cf4aabf71d2287a3b58f566a1409e72ff7bbc22 -> 51fc39f1ae9f2cd645157b80cbb21b07d64304624f8d738b64067dcf70037d77
+~ -[MAAutoAssetSet currentSetStatusSync:] : sha256 04d383ec86385cb9518e17f618e8e0ca2496e2ddb3bce936c3980fcf13ed50ca -> e7204869fc5984db755d0c35f3458cff50b6500b4ec1fc6780bc25a6512bdcfa
+~ ___39-[MAAutoAssetSet currentSetStatusSync:]_block_invoke : sha256 5f3712216abdc7c7bb14ce19563e214ec5f2099e4f24850764042453db755db3 -> 3f9e32aa11561a68a8cee09891924663b8c5eae9b29d01bc37ffd5820a117ebe
+~ ___39-[MAAutoAssetSet currentSetStatusSync:]_block_invoke_2 : sha256 939d539958b2baa3bfc8c9193ff88b9f299b04e371b80fa942915e38df2f950e -> b285573c356d6a1821f800815be740fa4960ad359a8ac272a0bfbaed7487aecf
+~ -[MAAutoAssetSet lockedAtomicEntriesOriginReport:forLockedAtomicInstance:oflockedAtomicEntries:completion:] : sha256 a3f0973ada52531b054089ef43cb3963ed0580370d634c7c800e464ce0a1883f -> 2ed5442b3703bfc7bc00e4814e1b1bbd9be5e75eb5b2a3c39d3574a159cd69cb
+~ -[MAAutoAssetSet lockedAtomicEntriesOriginReportSync:forLockedAtomicInstance:oflockedAtomicEntries:error:] : sha256 a5d0bdf440a846ab12d4e9063761970677e3b4b0376baf7568c7e4218de0b1e2 -> 910a9a0b2f4833aa3fdc715bc5c3c47958a27be053a3b2515bad7787f7608f58
+~ -[MAAutoAssetSet _lockedAtomicEntriesOriginReport:forLockedAtomicInstance:oflockedAtomicEntries:error:] : 1708 -> 1716
+~ -[MAAutoAssetSet _getXattrUint32:forAtomicEntry:forKey:fromPath:] : sha256 3f6351870f0573b55b94b2c8cd4fda593f28720b7270a3b6c309be72da964c3f -> 963c69db81c4d643e9d68ba4557ffef72fbf159a46e76e5499615e4416a0c99b
+~ -[MAAutoAssetSet _getXattrString:forAtomicEntry:forKey:fromPath:] : 904 -> 900
+~ -[MAAutoAssetSet _shortTermLockAtomicHelper:forAtomicInstance:performContentValidation:isSynchronous:completionHandler:] : sha256 252ae7e47aed7296cefb45bc022aec91131dbafc32b5fa8ee02f24a384034fe5 -> 2fa8ed7a4211ac92131cc9c5526197fb65dccd6b4ca2d80f99f1837e3b24ef20
+~ ___120-[MAAutoAssetSet _shortTermLockAtomicHelper:forAtomicInstance:performContentValidation:isSynchronous:completionHandler:]_block_invoke : sha256 fabdf9ca38db6315102c021857ffb694ea2fc4ef830d4b2899eabb0dcc483152 -> 6c3e3db31c6c3233e1310a0b0f8c57a341a802c062fe34608a84cbe8c7cc2362
+~ ___copy_helper_block_e8_32b40r48r : sha256 040968dc9c3e4efa24ac9a061965e4b30af9b4a5234092ab0ac3f01ef127c063 -> dabab0c7e639de68ced6eab622ae44c0202da6bee9e687aa134e3687be8320a5
+~ ___destroy_helper_block_e8_32s40r48r : sha256 e52724f76f8ddf8de3aa1a757a6e23008cbcf956e7b6c0dc5b641a8ed4273964 -> 475a0d7e26d54c3c5536f5c6f2f3654c17990e84a6458f6764b5102d58b2fc1f
+~ ___copy_helper_block_e8_32s40s48s56b64r72r : sha256 2d38181f2512dfea172687636a7759cdacd7171f533938d79e5d3a3236db71e9 -> e749ddbf125825d1e0ff94adee7798c84bf98ce41c2643c2c3735dec252dba83
+~ ___destroy_helper_block_e8_32s40s48s56s64r72r : sha256 50c2b978db627c35ff4a7827be69af8fdaad13c31ccbd3caa119760f2d149ae7 -> 8d307405390d3eb40e772a75b719069db53b3e85fbdac80381a99675c01b0cd9
+~ -[MAAutoAssetSet _shortTermEndAtomicLock:ofAtomicInstance:isSynchronous:completion:] : sha256 52437ab28424155cbaa81dd5066447d1c30dc20e3838cdbeae8430a8d7e1cdb3 -> c36ea81ae7c3329890bca64c10b3534a70733ec5901018e6a7b7021845451d7b
+~ ___84-[MAAutoAssetSet _shortTermEndAtomicLock:ofAtomicInstance:isSynchronous:completion:]_block_invoke : 3080 -> 3076
+~ __84-[MAAutoAssetSet _shortTermEndAtomicLock:ofAtomicInstance:isSynchronous:completion:]_block_invoke.1663 -> __84-[MAAutoAssetSet _shortTermEndAtomicLock:ofAtomicInstance:isSynchronous:completion:]_block_invoke.1699 : sha256 b322127042591657357c74ad8d53ba9577b2189b36d9613b2d112b6789346a68 -> b3f25d082db6633f11de15009dbd780e63662df5029f98361f2a165562d0de2c
+~ -[MAAutoAssetSet _shortTermCurrentSetStatusIsSynchronous:completion:] : sha256 28f433619ce1032b1f030c219cbe1cac7970b80d9de372ba145f683e645de6b0 -> 848a81a07fd01a8950596309c6ed3aba5f0a9a38dd1c5c2f81c03a5dbdd03c56
+~ ___69-[MAAutoAssetSet _shortTermCurrentSetStatusIsSynchronous:completion:]_block_invoke : sha256 ecae149407b2c8324447d904427332ba800c6741e5790d2c926eaade560e2b2a -> f0332a3273bb39acbfabf588e801e868eae99c017fc7edc16e09bddcce7eb077
+~ ___copy_helper_block_e8_32s40b48r56r : sha256 799195634142054827b4be3f74c6f105c667bfbb1b32bd262f170afcd51beac3 -> ff00e498b479413140d631a184a4d45cbb59a5cd800d05f03ba4927c82003f0c
+~ -[MAAutoAssetSet _shortTermLockForAtomicInstance:locking:withLockedFileDescriptor:forLockReason:justCreated:providingLockedSetStatus:shouldVerifyContent:error:] : sha256 0476afff04728621d8c6783010a16bbe2d66f9c1fa517431c3ff36dd6c624087 -> 98f9d61962ba858e912b7ea26e8e1b4445e681d3c72401a7a9f702e67d1dadf4
+~ -[MAAutoAssetSet _shortTermLockForAtomicInstance:locking:withLockedFileDescriptor:forLockReason:justCreated:providingLockedSetStatus:error:] : sha256 184072477d70c69294a7a7c59f203f3c0a346b03da68fda7904d5e6728955c73 -> fbd05dbc6e227fedad6320b09812cb3c662bf8cec5ec14fb03f8262a7c92868d
+~ -[MAAutoAssetSet _shortTermOpenSharedLockFile:lockingAtomicInstance:forLockReason:verifyingLocalContentURLs:openingFilename:providingLockedSetStatus:sharedLockError:] : 2960 -> 2900
+~ -[MAAutoAssetSet _shortTermLogResult:forLockReason:forAtomicInstance:atomicInstanceFilename:forShortTermLock:withSetStatus:returningError:] : sha256 38d9e4e0abaf2a551592c61ec9964e8f2df8fd3ec79a8e37a2772d72e6d4062b -> 4bc8f7871921ddedd520457edfcfd568c3f36b41c0522c84ab7e4701daa3cb1b
+~ -[MAAutoAssetSet _readLockedSetStatusFromSharedLockFile:error:] : 1276 -> 1272
+~ ___63-[MAAutoAssetSet _readLockedSetStatusFromSharedLockFile:error:]_block_invoke : sha256 7a185d4d5f0e4be39f04de5e8e21de0bddf34470935388dde24d834c609e6285 -> 56bb26961fe53b7a45fbcacba23b88ab5f7e8a5231369fc6b35e419c767c8887
+~ -[MAAutoAssetSet _closeAndRemoveShortTermLock:forShortTermLock:] : sha256 ed3ba7c4de8742be38e42cdd91a44257bca14d5d29fbe82004e5af3fbc84dc47 -> 23508d119fb1d306c9c5f35eac38600b1cc2b2ec97cee5010ddf360301ca61aa
+~ -[MAAutoAssetSet description] : sha256 cfde246c348efae213e07a8fcc1eeed4087d4cd9045b7c842c6e3a68b70ff885 -> 96ee3d8fa63cbb280f3a4a810262d795cf95032c29b88de1e0fed0b880c111e9
+~ -[MAAutoAssetSet summary] : sha256 3ea9b296131327f368463649655803e467b5757d5e3ed4b7d47d78ec91de4277 -> 0c3bc03e36e1096ee169ec86b068f9ec16a57308f5e720c4dcffd8a43fd28f2c
+~ +[MAAutoAssetSet endAtomicLocks:usingClientDomain:forClientName:forAssetSetIdentifier:ofAtomicInstance:removingLockCount:completion:] : sha256 cc59475914caf67a1ad49d1ac956f1efe41270c231a9c7f2150c4f71d822ba6c -> 6da28eb33dfb6f1a0ee737a14b1102e3ce6f476f91814e07c72cacfef7645b39
+~ ___133+[MAAutoAssetSet endAtomicLocks:usingClientDomain:forClientName:forAssetSetIdentifier:ofAtomicInstance:removingLockCount:completion:]_block_invoke : sha256 c5608a589ae7badea3f20278f20d6e723f561b615c34932ed38cee5615ca709b -> 98352f0b4cf0513598ab302df75503ba1b3174db374e97f271b1e27ab5032578
+~ -[MAAutoAssetSet _endAtomicLocks:usingClientDomain:forClientName:forAssetSetIdentifier:ofAtomicInstance:removingLockCount:isSynchronous:completion:] : sha256 2438bd088c6197e7b0439c6f9805ebbf5bddd5d72eef104eb25f0535512edf56 -> 4b5eee9e0babad5080abe8aa26cf4b3e41292babe22f52bedb731cf9a3ee0523
+~ ___148-[MAAutoAssetSet _endAtomicLocks:usingClientDomain:forClientName:forAssetSetIdentifier:ofAtomicInstance:removingLockCount:isSynchronous:completion:]_block_invoke : sha256 6dac03d95dc7506ccb82fe298dcfdb9bae2a276c0dc76c6227e726781fbfcf7c -> 62f7c1dbc8f036baf285005857152baaa9957be2b7c7c2f2a8b964a87cd97031
+~ ___148-[MAAutoAssetSet _endAtomicLocks:usingClientDomain:forClientName:forAssetSetIdentifier:ofAtomicInstance:removingLockCount:isSynchronous:completion:]_block_invoke_2 : sha256 e69308de5f9a6bb1e46b1370727fb3b6b00f54ac06cb9a4ccc1ca60dbc9d7079 -> ca52a3fa3ef870cead816c41ea167e32888458f4954d50a101c77df0c2bd4646
+~ ___148-[MAAutoAssetSet _endAtomicLocks:usingClientDomain:forClientName:forAssetSetIdentifier:ofAtomicInstance:removingLockCount:isSynchronous:completion:]_block_invoke_3 : sha256 3a67a2ceb21e57e8012fc2517deeac8a2c2da9ef1513a93853b4972ea8872bd9 -> dbd96f0622cd9a9664639c1619176c39fea8885596655d6e8037d347fca26469
+~ ___148-[MAAutoAssetSet _endAtomicLocks:usingClientDomain:forClientName:forAssetSetIdentifier:ofAtomicInstance:removingLockCount:isSynchronous:completion:]_block_invoke_4 : sha256 8a21e255e62534ea4fe07c82eb499aa4c363e78dd8f014fef0bbb3f964b016fd -> 3bd412f7cdbd7cffe44f95ac8022dae5d45f41928f92999bb0606a1cb47b1409
+~ ___148-[MAAutoAssetSet _endAtomicLocks:usingClientDomain:forClientName:forAssetSetIdentifier:ofAtomicInstance:removingLockCount:isSynchronous:completion:]_block_invoke_5 : sha256 e03559db1e8603a9044cbf9f7e1d7f88c2d95fb9a30d74d7c076b4d385bd53f0 -> 358e37a506836615f9f4a6e9f24086d79793f2fa635d42b8732967c19d44bb45
+~ ___148-[MAAutoAssetSet _endAtomicLocks:usingClientDomain:forClientName:forAssetSetIdentifier:ofAtomicInstance:removingLockCount:isSynchronous:completion:]_block_invoke_6 : sha256 f8cc0b6996ac0d73cd65a452144bcc4a777ad4104925eaa0b84a557d70fa732e -> 75a1e5717afe238621877f55e52c1f339974ed15def1ba13b6b7881fa697402a
+~ +[MAAutoAssetSet endAtomicLocksSync:usingClientDomain:forClientName:forAssetSetIdentifier:ofAtomicInstance:removingLockCount:] : sha256 f9935b06bbbe6564621d1b9f46b303fafa685ffc26702058a87985587cffbaf5 -> 55ba7c4dd9ff7b533d8f9488a2774b84a892ac69a31bddd1db213f7339350caa
+~ -[MAAutoAssetSet _endAtomicLocksSync:usingClientDomain:forClientName:forAssetSetIdentifier:ofAtomicInstance:removingLockCount:] : sha256 a0d6728a16f14b1886188d03dcbcd00e5eed5f371abd4f1c1440b90de19b66f8 -> 91ec351c298488daf8121981a90a6e38c66fda20d54c2b55a3b6511471927c8b
+~ ___127-[MAAutoAssetSet _endAtomicLocksSync:usingClientDomain:forClientName:forAssetSetIdentifier:ofAtomicInstance:removingLockCount:]_block_invoke : sha256 f9dbf1f3cbfd943c65c798f47852c8da87951d15a31925f92153c7bc0ac98118 -> 8ac8fe990f17eb6bfcb72549193bb4c6e7861b21d65a04b36ae4809cb96e3df1
+~ +[MAAutoAssetSet eliminateAtomic:usingClientDomain:forAssetSetIdentifier:completion:] : sha256 a3e9d6e2669f1ea5949350e4b4a46bc5c36a184f1bca794f6b19578e0d6ffc14 -> 109b454be5614302b8582b56edd2fae48ea011fd79bf0ec6ae86b9dce54c440c
+~ +[MAAutoAssetSet eliminateAtomic:usingClientDomain:forAssetSetIdentifier:awaitingUnlocked:completion:] : sha256 11c70959be273293497c029bc84a3e4cb4f8932ad6cd15b79023ffc554ee9312 -> 81d3c666d4cc3c5832482cc6271413ac79fdc2e7fc537a929b0e9eaa57fdc68d
+~ ___102+[MAAutoAssetSet eliminateAtomic:usingClientDomain:forAssetSetIdentifier:awaitingUnlocked:completion:]_block_invoke : sha256 4d087ed894043cc756a2d4ba73d23f1e43f63e91d44cc2ff753eea4d1884da1d -> b342949efcf92cc77629a64a121a582aaf83518eed4157e1a316d150748e0cb2
+~ -[MAAutoAssetSet _eliminateAtomic:awaitingUnlocked:isSynchronous:completion:] : sha256 c38dfd48970dbe21f851a53e1189f561988efdf96ae220b5e69b6184798302c6 -> 89aa6e7b1bd40f964ce7e1a61a9322c65d179f1c48650a0bbe7d494c7e507d7a
+~ ___77-[MAAutoAssetSet _eliminateAtomic:awaitingUnlocked:isSynchronous:completion:]_block_invoke : sha256 e05585629deea74e230d23be2654ad4364f90f4f52182eef0b3fff38a0873a01 -> 73eac64ba334e1090d037f776deb703333137536cffbfabe8d8fcf5484fee4f3
+~ ___77-[MAAutoAssetSet _eliminateAtomic:awaitingUnlocked:isSynchronous:completion:]_block_invoke_2 : sha256 9d8a3c7c6192b9552a17b672422b6eb2d9228ca25ade5ad560230db4b5768413 -> 5ba7c45f6a9c71751d6b1d172d6fd900ee3110a564fedc039b98329a72ac7f05
+~ ___77-[MAAutoAssetSet _eliminateAtomic:awaitingUnlocked:isSynchronous:completion:]_block_invoke_3 : sha256 24045d11f74277ec1429a018cd253f5f17da1f0862c09c0aced3769351c3444f -> 09f2b735516b720b70ee6728c8ec596a0891cf1adb5ef4f81f99dc528d1f05b4
+~ +[MAAutoAssetSet eliminateAtomicSync:usingClientDomain:forAssetSetIdentifier:] : sha256 f6ee211c95652c80564175c775303c70da9aeec56f5e1a01201b1c0e559ffdbe -> 4eaff3fefb5cca2a0cf7b0535d247e3df71183abbf825c936d3bb090b5dcd26c
+~ +[MAAutoAssetSet eliminateAtomicSync:usingClientDomain:forAssetSetIdentifier:awaitingUnlocked:] : sha256 56719808b0c947678bfcc26ba507106c32d778c2304f855fc39700a4721875d8 -> b7db33152517e1ba4787fa8e01bdb5fb606782dc3971d7ebff7e87e36545cc1c
+~ -[MAAutoAssetSet _eliminateAtomicSync:awaitingUnlocked:] : sha256 dd19afc546f3c0445ceb029c0549b4acc8f810a8fbcc90c57f5022036c12c598 -> 116d3d614b2efc18dc05848c91312b2abab33b6cac43adb5c7ce59b4482e9048
+~ ___56-[MAAutoAssetSet _eliminateAtomicSync:awaitingUnlocked:]_block_invoke : sha256 4189721005c4707ea13adcc1ae241298bb24a946a1d6b9973125afafa4e92cca -> c51e2f80b525c63a7881df668ca3b5cf8aff3b4c54ec7af3aa8b701d317cc1a6
+~ -[MAAutoAssetSet connectToServerFrameworkCompletion:] : sha256 e05e6fd6d8348729103a2150ab80335d88960848f6e3dfc43ac9135f49c7bb97 -> a054d5d258027b660e8db35081d06d8f3de73bf658fb2dcd6a17b69bea7b705c
+~ ___53-[MAAutoAssetSet connectToServerFrameworkCompletion:]_block_invoke : sha256 0f1efc68af8593a9f054ca5af40821201d0d8a70a9b7c1b552c0a981c9a6014e -> 8f528cdf9c015a6d580e431b606ac36a97a7886c66d9327dfcb253d8c40610a6
+~ -[MAAutoAssetSet _newProxyObjectForSetProgressBlock:withLogMessage:] : sha256 65cfcc6299d46866a877cf7dcde6ea374168a9ec1374cab043253e7e56ce85a4 -> 6357db9aa5c7c82d1ef9172378bc79207706c0bf730fee6dbf8e1a3097974bb0
+~ __Block_byref_object_copy_.1866 -> __Block_byref_object_copy_.1902 : sha256 af5e1fdf4001d046267a22c069c02f84423bd30aef5bcde13c382eeeae9bee98 -> 7a993d7a16efe3d42868825d28cb2626bf175ab6b4afd27c8ea4f2a8da0975c8
+~ __Block_byref_object_dispose_.1867 -> __Block_byref_object_dispose_.1903 : sha256 a9d8be4d3789bb3f7667e3cef9da732596d7d217b2f12d7338feade2302495c3 -> a0790557f3dab46739b59147dd4708367de335eadd7279be5e2127e1afca26d0
+~ ___68-[MAAutoAssetSet _newProxyObjectForSetProgressBlock:withLogMessage:]_block_invoke : sha256 df7bc92f8926251e3a97850932604963f90388b5d2b4315cf0220a11900fd595 -> 8062f6af4eb07f3089c4935562250897f4b277d8161ed3d88e43cd588eebeeaf
+~ -[MAAutoAssetSet _successCheckAtomic:forAssetSetIdentifier:newerInstanceDiscovered:discoveredAtomicEntries:isSynchronous:completion:] : sha256 341f997e0384db9fcb8deaddb0772b27a9bb3f4e3ed3309657bcb4048b2ba785 -> 5f44b76cb7baf9507b53a33aab816c2ab5c2019a700d529098f93dfbb49d7c3c
+~ -[MAAutoAssetSet _failedCheckAtomic:forAssetSetIdentifier:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 abbff78b39a1f421a95d8e913288fc004d91188acddbcb6c2133e2cac0844587 -> 8eb871d67a72be3ee168faaff7f73eb54d84240f3163f7ff3ad5a6e506046011
+~ -[MAAutoAssetSet _successCheckLocalMetadata:metadata:cacheValidity:isSynchronous:completion:] : sha256 255e03d5a1a8cac77941583161540eacab2b4f30f16bc1c9747c11c210a7f17c -> b2122df3f7236722946febb3a7962120ea1321b9374fd6ab38ac19b58f70efb2
+~ -[MAAutoAssetSet _failedCheckLocalMetadata:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 70037a13e7bacc1969320f994c9ce85985ef3da63894b91108bfedd1f66611e4 -> b103649fe20275d0330f233e424eeafacf5e36f917c5c2191cdd8c804fee6116
+~ -[MAAutoAssetSet _successCheckMetadata:metadata:isSynchronous:completion:] : sha256 b863a0434dcfdc985e03ff262f102ee6358b0f7bc51d4ef72bc517a6dc3cce05 -> 96a21b76d4919b04ea6e52fe5a463ce38c7723b9884f8fc8dda622c622742a29
+~ -[MAAutoAssetSet _failedCheckMetadata:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 d689b7e47c5e8cf5b0b68987644b14b865953dddf224252fb2f54cce001825af -> 9dcf08e737251791c3bbb71dc7babdf607f6f52ade35891d3e5343f3d82f3f68
+~ -[MAAutoAssetSet _successCurrentSetStatus:forAssetSetIdentifier:withAssetSetStatus:isSynchronous:completion:] : sha256 947ee9a09e269f94a3ccdd1ff51185a42bb5983e0df7636dacac7259c44bc9f4 -> cc6877b3eb8fbc04986161a1aa0109af2e76b1fcfcc66d703f6ed1be477830a7
+~ -[MAAutoAssetSet _failedCurrentSetStatus:forAssetSetIdentifier:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 4e3e0f0abcd5a6278f637c6ace78604ac0dc49ca8fda4e7cbedbd3f6c2237472 -> 7b942e9b1e834165a8744b34e1ad8dd20c4c4bcd0c13f47cc12140368dca4471
+~ -[MAAutoAssetSet _autoSetAtomicOperationStatusProgress:withLogMessage:progressBlock:] : sha256 debcce9164b68ab760a46ea15667fc31aee25a219d22061d5fe56382d3f8622a -> 77fa445ff2e06dd4e81ea8293a18c957faeb6e13ed2b383ad2b1d826ebff44d4
+~ -[MAAutoAssetSet _successLockAtomic:forAssetSetIdentifier:lockedAtomicInstance:lockedAtomicEntries:sandboxExtension:sandboxExtensionPath:isSynchronous:completion:] : sha256 9bcfffccaca805014aeda2b0dd53df8f6f199ce49f644cff93031ebb38b038fe -> 2849aed1b39d76e5a73ed28d87b5c561255ff6fba27a4e467c74f49d277ce438
+~ -[MAAutoAssetSet _failedLockAtomic:forAssetSetIdentifier:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 3392bdf84ae2c2cbf9e07137dceb72297eb264a7c09f0bbd69720a8fa5f2aa24 -> 7919d330bb837bcb5100df6de24c479642ec74ea62e6738538c6c08f0b2c09bf
+~ -[MAAutoAssetSet _successMapLockedAtomicEntry:forAtomicInstance:forMappedSelector:isSynchronous:completion:] : sha256 9968f981ff5108586eb68dafa311c650aaa7522000715a241cc8f32936ce677b -> 3d3468254bd38681967659b1bc6d14aa8f7f8ea243efcb63f45a4c8a693d07f9
+~ -[MAAutoAssetSet _failedMapLockedAtomicEntry:forAssetSetIdentifier:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 f200308bae6e41c0b926f9043a6170c279bb2c4405efb825ebb068a5aab8561f -> 89e32f23348a64df773734631ed078ec793e72d802d26131545e96015979ed44
+~ -[MAAutoAssetSet _successFormSubAtomicInstance:formedSubAtomicInstance:isSynchronous:completion:] : sha256 42fdd8db0bc118257cae6ad5e5ec7031aff23e391897c505ad22af19c598ec58 -> 8774b44d5a15e9cb15c2581ad44f9126481ffcf0bc0e00372fcf0c7ffc91bc49
+~ -[MAAutoAssetSet _failedFormSubAtomicInstance:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 7d29cf93e63d7fb28cc1adaec64674e9abbd90548bde263a9ff1c7a063a2dee7 -> 136262d8d78fbe9cd95901cb69d221d64cf46a5b9c64b2bf2ef80fd4241bf0b4
+~ -[MAAutoAssetSet _successOperation:forAssetSetIdentifier:isSynchronous:completion:] : sha256 f875232d0c480abb29b66ce4f2553dfccb13066d580c5d34bab290e2064910d5 -> a72db2b403174db887fa6de361c179214f29d3ce3f0f3fd2292cf9c6ccc25e69
+~ -[MAAutoAssetSet _failedOperation:forAssetSetIdentifier:withErrorCode:withResponseError:description:isSynchronous:completion:] : sha256 22fd796355fe8162562b8a74eb30fe96c56b2c208fbbb2d9aa81946f4b7eecb8 -> 8138e82b8e2af9e5bff770b6eb44b6b226e6cc9af241db9079f8faa1945a4f16
+~ +[MAAutoAssetSet frameworkInstanceSetLogDomain] : sha256 303f14fca56159901de32bea318f774c7bda623b033316d582834429b968d749 -> f15fe9d225ec89fe6221574770ad8ff0b8b7098228e2054f8c8f5c7d1b3b0add
+~ ___47+[MAAutoAssetSet frameworkInstanceSetLogDomain]_block_invoke : sha256 203627151757b66f043b948bfbeae4f2e57bfa9154c51989a284ad6bb3f11c8a -> 509563411a141787e576796b5609fbac1c45515fac95ead368700c2f7960ef70
+~ +[MAAutoAssetSet defaultDispatchQueue] : sha256 cec366842491e194ffa395597fd6bb8f61ad30f3da9f9061825f8b54d5e3d0c2 -> 7a0e258c1814c2234d5625064fcb9048f5e64eef8787c62ca3e9638d7a055d39
+~ ___38+[MAAutoAssetSet defaultDispatchQueue]_block_invoke : sha256 20e6650e21e7f042031f491df2a1c6e54e950408ace72d48466e7c33b59a6f6c -> 0c5faa5335cbb7f20d5c11193a675a5705c3e91f731501904e869a6a472147ca
+~ +[MAAutoAssetSet _privateStateQueue] : sha256 077e80de9484e04ffdb9dbd58e652126e171840ae153296a89fdf68c9d1b2218 -> 50c68c1e15396bea86a8e7232ba5fc85b41211cfdcb4480caf56d7c46a4355bd
+~ ___36+[MAAutoAssetSet _privateStateQueue]_block_invoke : sha256 4a6ce207bef8d30816bda3bbf151e7e7f9b393f3fcd2684e4516504bef6d989a -> faba728a3ea2dfb133db7be32a7dd2f85ec53f2e105653e5f5049fc09f16a9e1
+~ +[MAAutoAssetSet frameworkInstanceUUID] : sha256 003eb2b57bf3b3d6dae11988663718cae94cb58df4182b5b06dda4be762f1310 -> f450ec5852e34685e7dd622018d85c7f25cc04f90c99551ac70fc07f1464aaea
+~ ___39+[MAAutoAssetSet frameworkInstanceUUID]_block_invoke : sha256 2e090cfe787547215a517a4be6c7f4ca79eaece20dc20b7e788d676f5041ae17 -> d7d6ac2f9290a095d125d98059359339a29b0a9d5e9cf94be408084b74adb01b
+~ -[MAAutoAssetSet setClientDomainName:] : sha256 aab92658089333052df2fe2e37fee6b3bf2507592b47a89a7dc686e8daaee73f -> e7892de9cbe6b25e594255f6f40e63a0223342abf2914d613c9dc99fb949c362
+~ -[MAAutoAssetSet setAutoAssetSetClientName:] : sha256 242716cde365c97a95b44cc4ce04b8902fc723cb91befa1ec93953100369348b -> afa02d06b710a420888f5d8523e1fa01d3c766623fd264f64400b5524a8207b1
+~ -[MAAutoAssetSet setAssetSetIdentifier:] : sha256 66c677a4adc9e80c268dacffba855e264859759a9a04ac56f5e30bad23ac578e -> 0b4d7c633da7f59aeb352ce7778092547b41346b3ede7743da2f961d462ff7f7
+~ -[MAAutoAssetSet setAutoAssetEntries:] : sha256 9165a04313a84cf54f8c97d51a195f673b0dc2c2a155c9ca1ff7e2ab44e8b33f -> e77d2f311464b60ad58f1674a5b4bd62e337d99630d96a0ee9567862a05ac8d7
+~ -[MAAutoAssetSet setUpdateCategoryDesiredByClient:] : sha256 4fb2aa58a4d87bcafa63e7e63b4c98ba69f94bd07dfab5387b69029373172343 -> 10611244285b68b61a4f3f2db6bb3f702e6301cee21f0aa5bf5ab1175e15d339
+~ -[MAAutoAssetSet .cxx_destruct] : sha256 65c4607a34a534ab6c41551a5cc2c68ba297ef14aff140fb993ec83b586a3dcb -> 8f0ac94792eb4da0270cab811e3bc45d872dec5aa3aab6054b62a4f4b75bd721
+~ -[MAAutoAssetLockReason initForClientName:forLockReason:] : sha256 f6ee627d68fd7635c6d43398b6be4a9bcb99d31fd47b8b45b7fb17a13d23e45b -> 57524eec82db0ad2ba354c06f4c32361cda5466285296765bbe4ac95c6514a5f
+~ -[MAAutoAssetLockReason initWithCoder:] : sha256 4a79ed4cc05624f2154c48487f2e6f39e5919f069573d579ea146d147e71a2ef -> ef937e7b5e33b63b80826b3e3c9e7848546535302a60ab86284d552691407c9f
+~ -[MAAutoAssetLockReason encodeWithCoder:] : sha256 cf6c3e80e6533c8915e0a3b0f7fbd5f899b394aeaf71a955bd89a7a4cf754036 -> 6e762034ee1dae6491f1a73460532b1d403eb50bdc94378f44cb110fe80b123e
+~ -[MAAutoAssetLockReason copyWithZone:] : sha256 9259b20c4b155a76aa72b530da2516d88df3281cfd13994d4b088996810aca4f -> 976bb542f36f8988c7f668adb164bb45804bdd404fe3bdacda6f2ebb3d0a3929
+~ -[MAAutoAssetLockReason description] : sha256 228cd5e8f2437c7492f54d75f25b486feec81e724640c9c67ec1ca28644ba708 -> 0b6cf07a1e1b452ee6aaba8a4150b686d3924f5f8dd5bc91a8465fcd9a3a594b
+~ -[MAAutoAssetLockReason summary] : sha256 ab9792e4a853d9e2b5feb9a33559bb9ac68a256e65269f5a978d110583ec6453 -> a5fa6ccabaa7fb0777ef25ede793a033bf2a22aa8ef24d1b6ac2fa0743dc7930
+~ -[MAAutoAssetLockReason newSummaryDictionary] : sha256 ffd06f5401a759059b6ebd5b221d08a79e79ab52a09ab0fa37b8c1fee8bd8d76 -> 76981d4eb1f37992c90f632f5ecfcb947ca34ab38319cd078086f0301af11881
+~ -[MAAutoAssetLockReason setAutoAssetClientName:] : sha256 c71ea07e3df4c67d792535dcc4cdc4edb5ccb499a719f6b2cc57ac71bb8f7984 -> b6c2b5755a31f2587eb4ecb08a41df708ef9753953553cc4e811adceeedf19c6
+~ -[MAAutoAssetLockReason setLockReason:] : sha256 18e1cecb7913b1e0175afa62a0975bd9bca7ed5e59612878be942a499a75b5e2 -> e2089c96c609a360c95bc4415591e34cda470eec59d9fcf7d8c811eeccefe8ef
+~ -[MAAutoAssetLockReason .cxx_destruct] : sha256 7e3fe4350bbed0d2e7d51f16777117464de5c868124d411439aa6a69d2a5f4bf -> 6779172632b60997bc2568d5f1b8e2859a405b4b23408e0698b3a305a22e94b5
+~ __ASStateForMobileAssetState : sha256 15b5429d2c243e9f469d6c68b521af28ac5b68944d57a2ace5670d56c56bca0b -> 553a1e5a8a7c7498093e9a1f2189c007ef36e7ad90b186ebc25d80e63ddf99f6
+~ __ASErrorForV1Deprecation : sha256 b86bdf3fae7496964e677ec6d07e9df4a0c292cb3c757549e7d153fa6a63e0c3 -> d55139247f4e9c96c2f7ea014ff733e34a195a17a531389389147bf84f973d30
+~ __ASErrorForMAError : 596 -> 592
+~ -[MAStreamingDictionary initWithFilePath:] : sha256 cda28c033ed01220e66eb29f86f0efdd7206dcf4ecffec3425931a210d0fd39e -> 977e284103212685fefc71b173eb873098ca91036246b0eeb56804e911daac4f
+~ -[MAStreamingDictionary dealloc] : sha256 1c1f093edefcf16d1f96f0ff8b680938519964c929fefad083591f4c17bfe30a -> 09b9fcfb9fb00d8e10eb95e2fa536a039be7c50688e5cbce2f302340b16e8829
+~ -[MAStreamingDictionary openNewInputStream] : sha256 d5c54d48e9b042328c3689d100e50377e6b1acb2fbdfa67a17257ed4ac78f36a -> 4845daa2d9e6f08093b25db13c0e898a38fbc7b4d78503b7cc9a75884c7c54a9
+~ -[MAStreamingDictionary openNewOutputStream] : sha256 1e6fd08c04f747fa21a787a087a53f24da75ef671253bf7a437aab85cd191edb -> 5b73d5429e17bf04a785ef00290787c99646d798e9bde8248325b09c66299982
+~ -[MAStreamingDictionary closeInputStream] : sha256 948ffeab817ff7897fad3d2eb74c1d0610ce45a09da9d0198efc0f5387615557 -> 742babea592182a77d4801bc2501885f4a99a619b9493f1680d535c1eb02319d
+~ -[MAStreamingDictionary closeOutputStream] : sha256 ceed2426913300c13242141635f1a6f6accd17acad57c3b91ec9e131c55d266a -> 82298a0944f1a18542e218ca2bc4b10c2f02950dc1b7b6b23b95f848c5de0c8b
+~ -[MAStreamingDictionary closeStreams] : sha256 c58c11066a8b836919b024d7f51df5733c82efb47f06eebd2d2d7e2de98d9f04 -> 203eee9588e36196157351ae6e108b26be5640aaa5e57b9e158b16635aa0a1a7
+~ -[MAStreamingDictionary writeDictionary:error:] : 660 -> 656
+~ -[MAStreamingDictionary readDictionaryWithError:] : sha256 f29ff65107e86360849b01fd1b683844865c54385658dd24db2a4783de0de7ee -> f4a3408aaa5d0bff4503b8adbb78ab219400d1b060b5eb60a8d22d422f47a592
+~ ___49-[MAStreamingDictionary readDictionaryWithError:]_block_invoke : sha256 5b3f8b385a8ebaa3119628ff1b27b842987afc75dfa54d5bb1710229c8e8eb61 -> 4cda513e69348bee580c09552eee6f325bf905e054b688f04d8ad81ba177c404
+~ -[MAStreamingDictionary streamDictionaryWithEntryHandler:error:] : sha256 f480ac30f4d767b5877ce49a86977c95a54b92761c0b00289471fbff9086040a -> d632089708199440c48896be6063a6b0cbadc73bf0943ccf78e122701e6f7a09
+~ -[MAStreamingDictionary streamDictionaryWithEntryProvider:error:] : sha256 b117937cb4994a0428396f9ae14739feed6a35b16481f3cbc2dbee0be29f8d77 -> 850cd029ff51a3db140cb5dcb4aa7a22b2bb0f4111eb9841fb4b4ff2daa3c7d7
+~ ___Block_byref_object_dispose_ : sha256 fa8db500187ee588f791da96a191b98dd669da80f45010393da7f2662d7507d9 -> 57dfd185abbd263a5906ddac14715d9bf259bd5c2531aceb1a12f3407926dcc4
+~ ___65-[MAStreamingDictionary streamDictionaryWithEntryProvider:error:]_block_invoke : sha256 e90ea7185a62bd62dbe828a8981539a807a369b87d4128306e404e5ffafabc39 -> 9298ce39fe4dc86d0a7ad413e1555ee861219d22311d2f392832f054329a19b3
+~ ___copy_helper_block_e8_32s40r48r : sha256 34f3c0c3fa2cf8f019682cead839a5aa044a349c63efa80fe43e13dfecfe78c8 -> 1a1ad6a689462f48aec79544ef8b464747f5007f8239eafd89a9c6d529e83b99
+~ -[MAStreamingDictionary updateKey:withValue:error:] : sha256 b83a5c5510450de547c1612e6d298ba099fc387308602a9a77b6d683a612cb99 -> aab4f9c60b69d3a8fa29ab924fddb1f0632661d93cf035ac0a14ead64fa8f53b
+~ ___51-[MAStreamingDictionary updateKey:withValue:error:]_block_invoke : sha256 afc219df99989bc665f8157e7d2b6a2064f9750edcf67c34839c62299358b2ec -> 37834c96370fc13fe638480724aa508bcd59d2428bbad51f29ef96f40329b658
+~ ___51-[MAStreamingDictionary updateKey:withValue:error:]_block_invoke_2 : sha256 e51bcdaa0d282e545cdddf0511222d2c65a40b172d926d922258a6eee1c8bdc7 -> 94d65bf4c7c5f1116adaf8622b30b4c0f19c6c9a212f68fbfebb032923dc8bcb
+~ ___copy_helper_block_e8_32s40s48s56r64r72r : sha256 48cd8feeb7b0d13c1714ac2ccc24e2665de14ae652244587c6bc123c5215833e -> aaba8db931fa5506352181c5ed4352a65c06384aba6ceaa6bdf7411ebf35dc6f
+~ ___destroy_helper_block_e8_32s40s48s56r64r72r : sha256 2be814183ad51171f2f3cec84175dbf86e58e70c11342035697225e908020d9a -> 50aed29a6985bca8bf1afe61580311c124d5ff3d724012ffda12eb0e2eb33f11
+~ -[MAStreamingDictionary removeKey:error:] : sha256 6247588783e71e898ffe60102ad8df96f161733139b9030a072f615abaa2bbc4 -> 5001ade4edb03ad63198daf343e141170c1ef7ff8760fb4a952a72b4cbc4dea8
+~ ___41-[MAStreamingDictionary removeKey:error:]_block_invoke : sha256 b7e353d2912ab0d99d8c4d14eaffa870e90c4c40343726c7cf4da30b034e6e6a -> f3ebaa240ff7095a8aa72563063d7cb15f819bbbc72f33b647997be1573bb9bf
+~ ___41-[MAStreamingDictionary removeKey:error:]_block_invoke_2 : sha256 b4d8dcacdffee1ccc8f2c13091aded2cdd19675bd0f72d44d00a5df5d5ea1105 -> 3a3024ab4c00f1127514d15c78afd35ce4ee55d593c2d1013ef7f8672d42a25d
+~ -[MAStreamingDictionary writeStreamHeader:] : sha256 64b2aa63b365fca9367ee794e8946a2cc54a31617192b8088a257d2d80bf068d -> e303600696cb7d691a8a5c7e260dd008fe9a2af396756813ba2e170259cedafc
+~ -[MAStreamingDictionary validateStreamHeader:] : sha256 e1537fce56cf81bad16f97ce1264996aa02e94aa03048c2f0575ea16dc549b94 -> b192ca83d058f5a6c5947341809b5b6635c7ef16e87d5d6d51236420c3914788
+~ -[MAStreamingDictionary writeStreamFooter:] : sha256 2325a64532445c80fea91ed1fcb3ffd69b33cc3130f94e006ccc76d58551ebd5 -> ea51a15bed122c068ffc48763d02ea43274402aa3d2f16373d7e97c5300bbe17
+~ -[MAStreamingDictionary validateStreamFooter:error:] : sha256 d883dc88be6a9584bfecbd4389bfb8b3b8f3a394c79f261712b739fac9110b9c -> fdf1d9114e974ce5c07e7217e0771ce28b48c2adeb5d54df68fb93e111b5024d
+~ -[MAStreamingDictionary writeKey:value:error:] : sha256 1189b15db4f2d76dfe4f3d725fb99aef25d37dea7736f5e6edffc9b7c59f0c51 -> e488adbb2a735661f02e914dae0a93ce6506a00117da091996ea61733c8f9047
+~ -[MAStreamingDictionary readKey:value:didReachEnd:error:] : sha256 67050ccb9c579863ee00d2cbee54da0a89b48ce0b931e8492cb14f6de0f1d0d9 -> 8d2f6437a4bccf15c8fbc8661a0ddc27e05113be2e6fd1476cd7b19e8f946de6
+~ -[MAStreamingDictionary writeData:error:] : sha256 48580c22453251a061506ee742614de884b6cf78106c5f08b67b565b7fc3a448 -> 98b4abbea999eee6a6487e6ccb6335a44306f6a079e05b56ff80c819625b0a52
+~ -[MAStreamingDictionary readDataOfLength:error:] : sha256 920bb50d2a9cf06eb9c3a964e285da61040cf1dbe6f1e1965cbe3bda805af99b -> 571de894239b26a4cbfd4029e7da80601f2ffb1950ae0f7f8fa33e8cb2a18133
+~ +[MAStreamingDictionary buildError:] : sha256 eb755c50c0bcdb0f01b13fc7409f2178c046ba599677ce6f17e8b19f8a19667d -> 8f2d845e7c76697ff7b8497d87a50a92675051e324ec57e3964e628083e94213
+~ +[MAStreamingDictionary buildError:withErrno:] : sha256 2e94e9c88ae96fbb4453f65dd09cebda99cfd32222278da58c9e2f929fb8d1b6 -> 4c240ab658f3ab8ab44bb10a880a9a918d18bdcc7ba11f4f828fceb0bc47bb37
+~ +[MAStreamingDictionary descriptionForErrorCode:] : sha256 e06b13efb7c3bfc29057b72584c026bebf6c4cece4e10afda3b69711f8a0d624 -> 2c8d6749a8f4a3a60b75552a2ced187a75b2de47a83a1fd76cdbaf3df3f35312
+~ -[MAStreamingDictionary .cxx_destruct] : sha256 cdf21eb2e2a0e8ba96f84d2a66cd66527016faeb23060f725d6e38944b75b8cc -> e1817530d42e82bd656d79816dc8c67698ff2b482a8e88d60302dc0546751ff8
+~ -[MAAutoAssetInfoEnd initWithLockReason:endingLockCount:] : sha256 44f582e5924edc46b94a692440d0e239eabe3575a351279448b3dd8ebec9757e -> d807af7ceaf3041b26830ef0e9dd7d2b5e1ccf6c694cc0db9c7f182c3dcf702f
+~ -[MAAutoAssetInfoEnd initWithCoder:] : sha256 3f1669e0d927bfe8b939a806af620fd837632309f4d1b1c126b449c58ea47cd9 -> 4962cdc7ae3b98b22c9c219f98d969f68fb271465c739dc6a32a6f8a9dfda9f3
+~ -[MAAutoAssetInfoEnd encodeWithCoder:] : sha256 0dd8bd1144250ed37e3bcf4248a79ccc11cb8d7fee9461a1dea12033fae49683 -> 90b5ab195ae5963e47a6e5b1d40e8a149b97b437951caa5f1182274c93b4cd16
+~ -[MAAutoAssetInfoEnd description] : sha256 ff907aff692f069488a97ec3ec5331f24425aa561703eb12a260af06663995ab -> ad0badc49974ff391276d663a5d09396cb5938459f69b6f4b1547560a8d428e9
+~ -[MAAutoAssetInfoEnd summary] : sha256 fb7abfdcd15cd54e24c3c2020ceb75c6a977affa72dd7cddb4a7351c4a93b93e -> e6422b4a64895780105e3a22e69f985f0f3ca13bd4576ed98e0874085ad13609
+~ -[MAAutoAssetInfoEnd .cxx_destruct] : sha256 b05654cd4b848a621b10ae24bf3a62c1c225c72b2af045c24c2b3b52b28c5ae7 -> 80fad711f99b2ef727e18ea269ec4cf8609674da9a863d8780c0f3f6cb5fb416
+~ -[MAAutoAssetInfoInstance initForClientName:withProcessName:withProcessID:usingAssetSelector:associatingFrameworkUUID:] : sha256 a8ff455f637b84679267de8aa3d5b1af88fdb8d047660e507c4a08ed94066c42 -> 7a0022b20f2bd66753dfd70243ecd0a67b323c0adcc8a93be38f71b71761e836
+~ -[MAAutoAssetInfoInstance initWithCoder:] : sha256 d5492a65fb65e0493bf83f7b5a5d4bfac080c4eecd98f5e2732b310d26997e5b -> 3d4bcd67702ce853f2846e0fd089780ba9e775ed1915a697ac43fbb1805c0097
+~ -[MAAutoAssetInfoInstance encodeWithCoder:] : sha256 b97e2ad17a4b51acd569022656adfe77f71ba3b9d4b86339cc5dd60ee76ba0de -> a14b3485314daa80a4705e7aaf42461f44919a37793265e1247bb0f19704f0ae
+~ -[MAAutoAssetInfoInstance description] : sha256 bcc21f0927be6bcfcfec836eba7294bc355fe03d740ecf2687e9e07468995d51 -> 918ec422c56240c16e843905dee7e73ec48db2a586122987b99db1d912c67884
+~ -[MAAutoAssetInfoInstance summary] : sha256 c43d99f428acc75b1f0d884f844036056c8b52c985b1677e0505383b7dc89499 -> bb53fa494a64343cc5522f8e820a619f4b4b98fd862c80e672fec09ca687dd66
+~ -[MAAutoAssetInfoInstance .cxx_destruct] : sha256 4a50ba7b0a5d05f9f47ec627e4d378b7336b18cc2e79af502a1feada04409749 -> c145e3cf63dd00ef6bd92a5e990513ad1a4b5660dbcf7fd7b5e165ca5599ed0d
+~ _MAAutoAssetSuspendResumeForSoftwareUpdateStatusString : sha256 1c6844aad86f7b92a66bb62e6e64ea2804c559619460c36049a7009fa82d1838 -> e0d534689c98dfb811ee06944d988551c5f82a13928d8a031fcce740fee9fab2
+~ +[MAAutoAsset(SoftwareUpdateSuspendResume) estimateEvictableBytesForSoftwareUpdateWithCompletion:] : sha256 501de80b0c8f9cba7441aca4b0206e90f1b7f03ffcd3f0066bbf3bc970fde8a0 -> 5402c9a89ad7b3fae311b87dfa2167fe4294bbd597ccdf2e80cdba0b8d6c8474
+~ ___98+[MAAutoAsset(SoftwareUpdateSuspendResume) estimateEvictableBytesForSoftwareUpdateWithCompletion:]_block_invoke : sha256 4d7697a4d3560dd297e77290d8b378569319e00e95fc4d8c0958131380693644 -> 2b245d75561cb9a474a2242c6487c439dc313d87087c987483e011d42498e757
+~ +[MAAutoAsset(SoftwareUpdateSuspendResume) suspendForSoftwareUpdateWithNeededBytes:completion:] : sha256 3ad5b6a776777fbf1b28115e93c138f5bae6c0d30f0058b3b254999677044bf9 -> 6b3485e2becc4f212ce0c54f05bbafd21202e15fa6f3ab3cd1dc01c4f4361d58
+~ ___95+[MAAutoAsset(SoftwareUpdateSuspendResume) suspendForSoftwareUpdateWithNeededBytes:completion:]_block_invoke : sha256 620153af24e74b7c77e6c1229c619ca47625aeeda508a79ec84e42e9bd5b3994 -> 475169cc80265caebc9d29280490d7225c9469c9342caac0b2f607a2d724ecf7
+~ +[MAAutoAsset(SoftwareUpdateSuspendResume) resumeFromSoftwareUpdateWithCompletion:] : sha256 a969b69e72a521831de7111b6c60ee8abba866848d3ca792540705e5f2fba3d5 -> cbde9d3d37e1947473994488bfce3f5ab9c73f35c86d910a884c403055ece156
+~ ___83+[MAAutoAsset(SoftwareUpdateSuspendResume) resumeFromSoftwareUpdateWithCompletion:]_block_invoke : sha256 e451ce040736ecbb04c41ad0fd2ea92e6ecad621ff41db6d462f8753bc23d968 -> 919a65ff514572a902f2d24179b12258307f433b480c125e8afab4195da9cf4a
+~ +[MAAutoAsset(SoftwareUpdateSuspendResume) suspendResumeStatusForSoftwareUpdateWithCompletion:] : sha256 4e9e5dcc1f2376585ffd95f97b3a4dd8ba4dbee257df51cd7f1e4aa49f76f784 -> 8ae11a46f19051b19961264bd7177f753e8f4ab566190cf3fd0c0b29fcec5697
+~ ___95+[MAAutoAsset(SoftwareUpdateSuspendResume) suspendResumeStatusForSoftwareUpdateWithCompletion:]_block_invoke : sha256 519101d7963d88468bc4939a0bda23c4fb5ad02a24c0726a0b8e8efe5b98b286 -> 19039464c23b8471acfcd394be13e6a3ac7ca36699d854feb911e570007f8ccc
+~ +[MAAutoAsset(SoftwareUpdateSuspendResume) estimateEvictableBytesForSoftwareUpdateSyncWithReturnEvictableBytesPtr:returnEstimateEvictableBytesErrorPtr:] : sha256 50cc923740dd509c3d15d623343ea0240fa9d72fdbd0704b1a33f7c188950e01 -> 0252bbf81abb437b531ef6da807202823f68eba8ab6d3274c6b8fd32de62c6de
+~ ___Block_byref_object_dispose_ : sha256 bdfa1d9ed930cae4017979aad40362e772da920a7666d4566fd61831d5416d8c -> 2228794e51d5bc53e197f533c845de06631d0d0c8933e9b657e4ef7d27969fef
+~ ___152+[MAAutoAsset(SoftwareUpdateSuspendResume) estimateEvictableBytesForSoftwareUpdateSyncWithReturnEvictableBytesPtr:returnEstimateEvictableBytesErrorPtr:]_block_invoke : sha256 fae0a9cd3fd0175cb500655c42c591c3e9286b6b4d127f141ebbf33ce8c6b883 -> b8e81a44df69f0f73feedaa6d7792491f821ec054b1c6c8cd42e45b1e7d9768f
+~ +[MAAutoAsset(SoftwareUpdateSuspendResume) suspendForSoftwareUpdateSyncWithNeededBytes:returnSuspendErrorPtr:] : sha256 7b12893ac2ef1ff1fe16a64954414ace225b939c197ca448f9d171615958a43b -> 007d56a2771c84fec92cfab448e4e4a11edd4381ee8ba909cfe25b062f9005a0
+~ ___110+[MAAutoAsset(SoftwareUpdateSuspendResume) suspendForSoftwareUpdateSyncWithNeededBytes:returnSuspendErrorPtr:]_block_invoke : sha256 e9c0f643c924d86379349644eafbc6c394589839cb469b487747a17734a3113c -> df6c0d92eeecc044e9cc70cacb48a7affb4a69159ba8cfa1bd2b11edb7a3fea5
+~ +[MAAutoAsset(SoftwareUpdateSuspendResume) resumeFromSoftwareUpdateSyncWithReturnResumeErrorPtr:] : sha256 e57a32e3b692b95c68534e44dbed3980be1641f0889679a6a7d69fa942c79669 -> ee43a7cd4c6e74ebd50a64789f7ce50f244d73f8d0f8fbf7a4b9484e6c339d76
+~ ___97+[MAAutoAsset(SoftwareUpdateSuspendResume) resumeFromSoftwareUpdateSyncWithReturnResumeErrorPtr:]_block_invoke : sha256 d7951e0d676f4976b9ffd868571f819d43e2fcf21e8a22897ce8e9541ac53558 -> 1f532945c410b315be1b26134be807441a6d674ec1be46bb626d7a3924897ed8
+~ +[MAAutoAsset(SoftwareUpdateSuspendResume) suspendResumeStatusForSoftwareUpdateSyncWithReturnStatusErrorPtr:] : sha256 2f9c96b92e36cd52679e8f5a6f1d270553d03b530ae33394b00d65d460b59526 -> 6d6170f8f91842b25b2bae4621368ed7c25148824f94e19fbbba6fc0eee8f295
+~ ___109+[MAAutoAsset(SoftwareUpdateSuspendResume) suspendResumeStatusForSoftwareUpdateSyncWithReturnStatusErrorPtr:]_block_invoke : sha256 2154275bad2e7d12dd2b76c900e76331b86a07455751e1d8fd384f7d00c90d9f -> fcbf1d4318af53c63e43f4bbcbbf9a5393d21df9e07d5c3be834192c7966e371
+~ _MARelinquishStatusString : sha256 9cb16d68bfaa3dea970fb276d60c119ce269d6eafbd0d71da16f54a35627b89d -> 457f05ccfde76091255b5eadafd7a44be3adbf12591cdd7483152cd991ccec2f
+~ +[MARelinquish _statusIsSynchronous:clientDomainName:assetSetIdentifier:completion:] : sha256 308cd2a56e05b630a0738799c68180006fcd27a127e6c08cde6d222e17e561d5 -> 4a7df08ac58c4f146b71c9cdc13621482ae5f3df944fa9cd244e74782bd3a70b
+~ ___84+[MARelinquish _statusIsSynchronous:clientDomainName:assetSetIdentifier:completion:]_block_invoke : sha256 8d92c519bbffba19514e29a1477b294b9d275cc3ae5a08a5485660959ef40c09 -> 2d339b59d6559d636a7d7fa748f528bcf96b6575686d29c3912b0869f2651851
+~ +[MARelinquish statusWithClientDomainName:assetSetIdentifier:completion:] : sha256 7455d9f974fcd2e3a33c171460dd8f802194a413a6d474f86483f9123dae5e87 -> 6cc45d246c291defa720f7d1e5eef8a232e24fe9b3be3cee14d4eaba994792c6
+~ ___73+[MARelinquish statusWithClientDomainName:assetSetIdentifier:completion:]_block_invoke : sha256 955c5c24e0460b017d53c8cfc77cbb6b9057a22d50db84f4c5ac1ea6749174e1 -> 221fbb8c570097f50a46c5d0a7d06fe7cc7ba85c43e9bde5cbbb2e42d8b20e9e
+~ +[MARelinquish statusWithCompletion:] : sha256 caec1ced8a74740a86bf3d8527880e1d38a94cf1b930be546f418550692dc7e3 -> 3d6daf7f04ba51289f346da4b0e11777996070c58aef14cb245c27a38794b4e9
+~ ___37+[MARelinquish statusWithCompletion:]_block_invoke : sha256 c87fcebdd1c692fddfc259130ea601d27bc6549d8aab59822efc09368bdbe0db -> de2653bfaab20f5798b1a26f34ad4e1532ce9c2fb7d0138e878cbbb261f73078
+~ +[MARelinquish statusSyncWithClientDomainName:assetSetIdentifier:returnStatusErrorPtr:] : sha256 07637c0fc9b6b758ca7f079695aa58ee08cd835ceef2e13595b4c179e380a726 -> 3cdca60dc2f2e1f03d33048bd7d69fcbc0c5810b2f1ac85b83bc6f36bd5102c2
+~ ___Block_byref_object_dispose_ : sha256 237d0c95b41d338f1e137e14c6912af2e50d7d30efeeb4fb3ef766ab4a541893 -> 0e6982ad9688abdce5804d97d846b3656c0ad901d6a9e36d56719c92e4980804
+~ ___87+[MARelinquish statusSyncWithClientDomainName:assetSetIdentifier:returnStatusErrorPtr:]_block_invoke : sha256 68b601ed4630cabc7aff7e61d6526636e85ac827b24b9c320f84407907ff9a23 -> 0dc47d133612305cec5570c1312a37be1f50dfafb461629066b901f40254e434
+~ +[MARelinquish statusSyncWithReturnStatusErrorPtr:] : sha256 ce021226413f6254986df7154757ff42c9b865bded72e8b644fc411526a5e0c2 -> d47481607faa9e6be65b20c6800930d58cc53e521c376b657c312fc334596963
+~ ___51+[MARelinquish statusSyncWithReturnStatusErrorPtr:]_block_invoke : sha256 cc01ccbceec23ef06259a8bf3868b986692574d34b0776d99760051d4e116765 -> e5cbbe5fe83d4f274bf525f75f1dd481abf370fd2a2047492edc6e982769ae37
+~ +[MARelinquish estimateEvictableBytesWithCompletion:] : sha256 d3e3e1f0bbcbe5af450b43eec1c9e26579676a6ebe426d7390694c732270136a -> b529d1af1346983f26fe0956b13f0679f8db37b9da6ec41dc33f84f5e685cc6f
+~ ___53+[MARelinquish estimateEvictableBytesWithCompletion:]_block_invoke : sha256 67d134bb8d50d5c8784e6d561f93e64d675c1e7d56e014b2c7c845f6fe4722d1 -> dece554ab5f07bb9c9e4797d1fbc55243873c6cb0cd64ee548c84b393333d8e3
+~ +[MARelinquish suspendWithNeededBytes:completion:] : sha256 47d354b6435eef4868ad9c356d4739b5ef7250d66572b57a1e54c0d7d51faab1 -> 7cf34a8fff9ab087a2c85367978b192e7630d49ca9961253f2a6c3aeb0e4f662
+~ ___50+[MARelinquish suspendWithNeededBytes:completion:]_block_invoke : sha256 e8ee0f1a59bc8bd034136ad067efed64954f070185e79d65068cee0c62bd9a0b -> 85309a20dc3e466bc17f72db10cd97cf4792216cae30fe551dce85de0c017b80
+~ +[MARelinquish resumeWithCompletion:] : sha256 3dbf2cd609db0ef0a65bfb5ec34503cb75d0bae46fe7fc1b7358e03cfb711208 -> 9cc010a12885107b76eff272a1015280de6de08f5ed9ffee48b3981973fa1b2a
+~ ___37+[MARelinquish resumeWithCompletion:]_block_invoke : sha256 4067007fc2783114e7324a890ea8e39f0079404db9bfd7663c75f79a7e1cc47c -> 2331b6a489b8127b9bdb4fec9e32f95fbefc1147b9140eaa8fb7a0f0b383c130
+~ +[MARelinquish estimateEvictableBytesSyncWithReturnEvictableBytesPtr:returnEstimateEvictableBytesErrorPtr:] : sha256 57411a5f8c88c60d47e429c2910efee8ccbc5b904bd6919c433982163b1c8c7d -> 563fb2d8eff2736ca0cff6593b19aa8fb220e583538a939525b62d70f04dc8b2
+~ ___107+[MARelinquish estimateEvictableBytesSyncWithReturnEvictableBytesPtr:returnEstimateEvictableBytesErrorPtr:]_block_invoke : sha256 c6478dc5dda7d2811d7f3a22f5eb2280d89eed47ae5ed9d6a00eb4d85df8fda5 -> d868c473c4b5651b5222a6d9aae202cf0ec99d8f7fada4fd083398f7d580fda0
+~ +[MARelinquish suspendSyncWithNeededBytes:returnSuspendErrorPtr:] : sha256 2e9c387fcb0e1d6ee968d59cd7af8b838f50df28c7003eb1f762477934f34987 -> 01c019881a9d381827652d59ca998efb48a58622607e803cf8822077348f6b6d
+~ ___65+[MARelinquish suspendSyncWithNeededBytes:returnSuspendErrorPtr:]_block_invoke : sha256 9c21d2c777ad5e0acc253e62ee0d0a7a96cd6bd0f6aad5a07ba596d7784d947b -> 87947e280f4774bb9e35eaf7f092c95b9000d8706e2f5483b1caa839437fc32c
+~ +[MARelinquish resumeSyncWithReturnResumeErrorPtr:] : sha256 ef2b611fd58adce287df59be5d03106f6f9e58969895a46a17b4d45531b4be99 -> 97ed895885e27555b8a535313370dad54042e1ce47994827ad937291ca4d817f
+~ ___51+[MARelinquish resumeSyncWithReturnResumeErrorPtr:]_block_invoke : sha256 eb059b6c21866328b35262813ce7e6c52b876c556151b76b694b30b3a7f15072 -> bd50a9aa1eb03242c6fe1f2c399dc7497a56d6f26ea9c5a96323e4fd1e2f696f
+~ -[MAAutoAssetSetProgress init] : sha256 6151fbed31ffeca224e43e73e0b501a74dbb2a68e68f2f445a2edd8987e2e9b2 -> c7879608daff4eb458c47a6c4c87de9fc2ed539e5d3d10d68a24f765c816fa59
+~ -[MAAutoAssetSetProgress initWithCoder:] : sha256 88682df14df0e981faab4841633ca2da4440bbcc70c98b759e694ee61ea35b2b -> 2c9727d3d37d91017c5982ba4fab958834ff252ed75a3c90632c8b4efa8de2a6
+~ -[MAAutoAssetSetProgress encodeWithCoder:] : sha256 7b0402179bae68b60ee20d6aacca02b39b9f0d1a2d28700a1848e463b3999db4 -> 44f8786ef06adb06cd3af7364180510bbf08f237ab402ac2028eb18ed663d3a1
+~ -[MAAutoAssetSetProgress copy] : sha256 f1f762861108223e3d2aabe86f248cd2ef47973433d6ff7f903271942177ce2e -> 446b8db8cbb1d935a288eff3f21c5b53c1d24adf1f4011fe7f55fad502a343a2
+~ -[MAAutoAssetSetProgress isEqual:] : sha256 bf7dfe79cdd68ed11271890c50735f6d4a38cc73f745a2747052481bde15bdba -> 4808a95142d787dc015823a7523b9bc87dda9907c912aedfe0bca0787bbf16d5
+~ -[MAAutoAssetSetProgress description] : sha256 79a79063f73039fe084a7c218d5c948f025f5a53ed69cbf3bd9dbe03dc4db316 -> 5749599d30a250c51ddc30c41abdd940b975a582a50a3e371530eb5e7805761c
+~ -[MAAutoAssetSetProgress summary] : sha256 b87a9df2899b4ea5b28e128d58caa8344281025c8b289ad63e7be02e8d96dbc4 -> 7d565d908f002cf3d13134b6c63ef940f6c3d0776a18ef3055a77dc9ba9f2205
+~ -[MAAutoAssetSetInfoInstance initUsingClientDomain:forClientName:withProcessName:withProcessID:forAssetSetIdentifier:forAtomicInstance:comprisedOfEntries:asEntriesWhenTargeting:associatingFrameworkUUID:] : sha256 6e8c0b06469d39d82ad13e4478f667d7c31b04b8ee09f1f2ea509274ced7e8ed -> ea0031e376cc04215d9504bca797d85e579880eb3138201abb981c8505516686
+~ -[MAAutoAssetSetInfoInstance initWithCoder:] : sha256 428510a0ed9a9829a113d5616bad700c6182985b72efb96187552b769d1fd8ff -> 3da13b8597b9bd89ea0d419753093126f3f81b9143f3def6a2c91c333f4e100e
+~ -[MAAutoAssetSetInfoInstance encodeWithCoder:] : sha256 588776d375a1c398681f525c5ce771d1f14413c58316f8aeb8d92a25642b0777 -> a620dc4f7d9209577bc89b3dd493d854165aa390579d30d32c68f51db5593839
+~ -[MAAutoAssetSetInfoInstance description] : sha256 cf78e894c010031aeb137fb3e03d603f984760998d0b5f82b27f10d00fd01f04 -> 16dee5c6ba771b59a5ca2dd00fca8887d9bbc0978baa012f05a6cd330aa9bd0b
+~ -[MAAutoAssetSetInfoInstance summary] : sha256 8152011957e54975458d5786f1685f1d5fa7e5f686b4dedae41b81aeba04e2c7 -> e658c76b8236e8061cd81835249544e42b7e7c59eaa9b60041693b8ae0bf765a
+~ -[MAAutoAssetSetInfoInstance .cxx_destruct] : sha256 d02aea12af97dd3b4eb275180a6000e1b4ce11440dab2a3d9efbb2b7c4cde215 -> 94c9d4d0f1903a9754f53b70a429a0ce3c787a938aa0ec3d432dbc5c9f57007f
+~ _MAPushServiceInterface : sha256 967ab53eb051e9d0dac1ace77ed931574c3b50440caa26bb44c30553a6d848d2 -> 2d968bc7be987848495b2e8d51572589d9fbbbb3f6dac7d3a8ba0ca67c929583
+~ _MAServiceClientInterface : sha256 bd73c96fb136fe0b6d8360bce3d4cdabd91939687e5ebacd74f8d56c5e7be3b6 -> 67ff4f61145ded0a2da4c61ff1df5e2f63a72347a88634aa9be1f78dbfe90cc6
+~ -[MAXpcConnection .cxx_destruct] : sha256 1b8dcc2e28d724c4bd7725a2bd899ab07dc0c2dbaddab0b78342787ea60ad0a6 -> b5e9be9c193b145bff9ad5b6c90478eedc3e6686e2faade9f0c1718658cfe05a
+~ -[MAAutoAssetSetInstanceDescriptor initForClientDomainName:forAssetSetIdentifier:withAtomicInstanceEntries:withFullyDownloaded:withNeverBeenLocked:withDownloadUserInitiated:withDownloadedNetworkBytes:withDownloadedFilesystemBytes:withStagedPriorToAvailable:] : sha256 5cb2ea6ea278122e596b2d56ffd35ba9cadf3efac7c0f507035e0f4e1cf8ba5e -> 7d73e54ba3e27dcf6d5119b047621c83f87a9086b3efcb6ea3a08d3f7c4d30cc
+~ -[MAAutoAssetSetInstanceDescriptor initWithCoder:] : sha256 9f6d6726dd3bda4a139b92e4a8643b5580514c1cc9101a9fff76e4f1d168a595 -> 5da7d86bcbde971c0caac7123bf98313aea142626ad6a758a6dd28549bc0ff9b
+~ -[MAAutoAssetSetInstanceDescriptor encodeWithCoder:] : sha256 82003b9f1630f545b511968564408f7beea9b6082b16b7c0a0e4e8e2c4efbcc4 -> ddf3df3fd075666b2b2a34fae05abc28d404e8cb36f999ffba99a55e340973bf
+~ -[MAAutoAssetSetInstanceDescriptor description] : sha256 3aa6156f7b9ba38b0347e201e2b6de0b58227d8ed983811358a33ab592eed33f -> 868d5363455c8379da46115d1117d80594163b9cfde48319cdd48578684d344b
+~ -[MAAutoAssetSetInstanceDescriptor description:] : sha256 42626c9817ad9069db07f56f1167a33ee1e233c4f5efa79a325ab78f16b8b118 -> ff54d7de99bdb093118893ebdf84e09b9a3d494d99ea0620f3978eeb5ec7fe6a
+~ -[MAAutoAssetSetInstanceDescriptor summary] : sha256 e12ace215f91994911222e0d36aae4a983409b482443ce5a41c91fec77685180 -> c3499b85c1374535388a01d053f58985bcb8c2cb6f3123910088575660a8ef7d
+~ -[MAAutoAssetSetInstanceDescriptor buildMaxColumnStrings:] : sha256 83253db9b76b498151b4f8ab5eb2587c94ebe3de452f0690b188f812581590c6 -> c6de51787c4763e8934e64dfa6190a6428a77113c71a30807d74413fce7213c5
+~ -[MAAutoAssetSetInstanceDescriptor padded:] : sha256 c1de84432253b95198c9508687a1f3bc54121dcc740825f6bde366307014ca6a -> f97134a2932eb34d27bfc0b69b8fc133f39bde74072aa6b45f323b5c5f034f57
+~ +[MAAutoAssetSetInstanceDescriptor newMaxColumnStrings] : sha256 01f6fbf282ff513d83a66cf7db74fd128d84fe2fd55e1c6574d0fc30eec7fe21 -> c1bbac4e33d388de6767e1d336180e35efa1ea336b719ba1ccc912b48c65731f
+~ +[MAAutoAssetSetInstanceDescriptor paddedString:paddingToLenghtOfString:paddingWith:paddingBefore:] : sha256 256b4f51696b4bf468047f9ea93a2eab09c0ef8573b8dd376f625f41df771769 -> 3ab5a3f678c71e2d5973b56965a0e4b4009385a2330364e232da3afcc6239be8
+~ +[MAAutoAssetSetInstanceDescriptor paddedHeader:] : sha256 b73b6e34b88beb73c0dfc4ebc11b5699b67d779a078b94e3ae8e24d8bcce06ae -> 3050a620044b32ec3120e8ed8865f8c931af09393a70b72adc0ce4971401a7c1
+~ +[MAAutoAssetSetInstanceDescriptor paddedBanner:] : sha256 954710c731014e523be3de9f43a243743a77a3539b23b15537a7bb5b6133b555 -> d3c2dc1c7597bbd9043ad8b830ecbca331d4c3668fd3030da25a4981d08e5bbf
+~ -[MAAutoAssetSetInstanceDescriptor .cxx_destruct] : sha256 bd661f95625a9c621111bd897c28abc3c22c549efffd79e6e3a3d9209ec9b864 -> 029e877c2ba864ec4910476069f46e90949c8bb9c0a75adaa5a46cb359ce98b5
+~ -[MAAutoAssetSetNotifications init] : sha256 0e2d789817caf2dc2f17f7143582360c98a600699e31ab8cfc0bfbab9f06dfdf -> 4e8f1442308ae9a06f8d487752bd8ff76fced6226bc709083edabcfe93314b84
+~ -[MAAutoAssetSetNotifications initWithCoder:] : sha256 e4d6c4ae3266d265d1d2dadfa62e63c361e3136aeacf06469e129674a03ef61c -> 8799c8d744288a807050f1a652a532e99c08183c02a8b8c1ed0c8059a518a3a0
+~ -[MAAutoAssetSetNotifications encodeWithCoder:] : sha256 aad5bc6eac28f5f79b2a16934c087a7a03bfcdb8be88aa1334908555e81c7f1d -> 08a7726f06818668fc6e4db6569dc67bf0cf21e1c7873c6d7abcd5aeb0ed9087
+~ -[MAAutoAssetSetNotifications copy] : sha256 51efe32780c1a0d87ad0448f4031d09dff3731fd15c94e1827f3c2e995f829c8 -> 24056558d83deaa33687593b80d578362da0c0a5752d9193bba9bd8225f8dff8
+~ -[MAAutoAssetSetNotifications description] : sha256 e219d8bf61cb4d05bfd875e55abe3becbe475219d0224687b71bd960f4759453 -> 2f4e129937f7cd98125506904e289a0e40116a77671b0218b7d3b91c3ac69306
+~ -[MAAutoAssetSetNotifications summary] : sha256 43fee0ea5ede426eb47d415a955660ea04c051d5db004f6eb5af6d79d2838dc1 -> aff468b27d3f00e5c6add7e2ddd97b3d63dfd46665ad30a04232f1d5c8b1f64e
+~ +[MAAutoAssetSetNotifications notifyRegistrationName:] : sha256 6ecba0ebdfd7942da0f2a5b1b2f8e4868f2cc47ad20184232559040317de0cce -> 12f11b2064a9dbd12ff012f590bf8212fb0a2a2f990b476728d2bc7d295bce5f
+~ +[MAAutoAssetSetNotifications notifyRegistrationName:forAssetSetIdentifier:] : sha256 240b2c4047be7957263c7d4475b3d5dd5cd652def061e88f38d726dd2253fd54 -> 9c79fae0fb5d46a2d22b6a8c263161fe77add7bf4454afcc98d16d6c0d6e8156
+~ _MAConvertTicksToSeconds : sha256 edf790e5428657adff1e495e767ca330ef2c506851ab2a2214d601606884adde -> dbb75754e0e06e8fca246c65df8eb69f91a0c0ca395cdc6fdb00e1ba2969fae6
+~ __hashCFDictionary : 964 -> 956
+~ __MABufferToHexString : sha256 b8aebe07e6a3e2dc6a50c7ee56fc1b09659f63c98fa36f62451886440d009e70 -> c26b3c4d0f188858bb71015a8b2ff7c5098e767b59767fc894daddc2911832d3
+~ __MobileAssetHashAssetDataOptCompatibility : 328 -> 324
+~ __hashCFType : sha256 8796670ca5d79d3ecd3dc52c5d867091d12105d7102fd995bebb131897c11329 -> e64b48263c751749e05f9a17319bc2468a324a45c16f75f5aff4610b3549e900
+~ __MobileAssetHashAssetData : sha256 3409c361455ae10a09e4588045987c034ff889269c6ee3154f3f2d134306989c -> d4e179c46caf4961fd83135e858fa1ea781731a5b0a493b9a69c52493578762e
+~ __MobileAssetHashAssetDataNoLegacy : sha256 a3bdb8e41594fbc751ba2dac0d2e09b93692952120f3379034b480f60df9aa54 -> 6992df4e706306e5fe4f8b655c3215ba4b3e2b256342b52510a24dd469cb6437
+~ __hashCFNumber : sha256 f1ebf92d4e3cc35a33c09e699aec37189a9e2e1edc7fef50a400f56a70861425 -> 1bfce4872242480071760c14354305e3aff8475da8d44b3ffd0978de3516ff6f
+~ __hashCFString : sha256 6a5f8a2a5eeccc4594050ff69884ceeb949a01c5e936557ecb87080fda65ef09 -> 0ba1d481126fa523ba905afb4d471e074b084ed51a714534275f3982f89ec653
+~ __hashCFArray : sha256 0235a1a446002b708dd717ce6677b9d63050fad60b6f6e0e821d310ea070ee82 -> 57bdff51f7e171ddeb2dbfcd45d3a90a10136143f7504912bbf60975bc8c836a
+~ _OUTLINED_FUNCTION_0 : sha256 5266f9b9049f8b70a91ba4f9eb8077b5cd2708b1ff3d1c7109e3c6410d741915 -> b2e55333605455af2411a0b5533413be65d18b687d4186c88d7bebc6721d86ef
+~ _OUTLINED_FUNCTION_1 : sha256 9357e1235eb61d065ab6247f8b0385eaa25cda07b10038e1c98851f9abbbc909 -> 7853af93b9365aed21007b1939c06c40ed66b9803d432cf30b95290a9a15d47b
+~ +[MAAutoAssetSetControl defaultDispatchQueue].cold.1 : sha256 3d301ffde945802d57781b80f1fad4d3d44faf088450e6546bf80dc0e5707682 -> 06081bc3c3966278c6a0003f0dbace7cd2c65c5bc9ada7d55df9e25a167d5bee
+~ +[MAAutoAssetSetControl autoAssetSetControl].cold.1 : sha256 5fb997f876d42c5774984a789a2f232ce3305d90721e7915f81d61a6a2cb7681 -> 233f2cfefd0f4b4376f8b1ef6c79fe77f898d7fd6c13763d23a0b96e33b12077
+~ +[MAAutoAssetSetControl frameworkInstanceSetLogDomain].cold.1 : sha256 b2ecae42748c53d26472af0f6330cb7032628c32443b8ecc8f8a82344c538c0c -> 03d0597473cd5e96ec352855cd9a67dd7f1e223ef5bb1be29897db068c4fdf9a
+~ +[MAAutoAssetSetControl _privateStateQueue].cold.1 : sha256 b2d190ee899a98b7a0d19fd949747eaad7f365cb4db8746fc186d9aff9354372 -> a536999f196ce57fc7ca98699c8172ee9ef8caebdf8e930a8fea3ae82a07c0cb
+~ +[MAAutoAssetSetControl frameworkInstanceUUID].cold.1 : sha256 405728204636d30d42cd7c0b2797878151a4eb940085488f278d6b7352028c2e -> 744e88bb6d26643b1d3fdf4dd3e148c9e348b8d2c4c5754594e4a6b3b5834bf9
+~ _getClientInternalStateQueue.cold.1 : sha256 0493be6f112c65d3ff28661bd0894a8eb76f06758a05c710db037b84487f69a4 -> a44905a69a09cb56dc90e2407c28ddf77f8fda8789a4d26ef7f8c7085b743855
+~ _getCommsManager.cold.1 : sha256 5adb95de675d732ed8fd7d87debcb612867ec7c557e6a78fcc2df4353efe1c1a -> c179159fd5de117f1dac57e0a0bc02b4358ddb4789bd9643d9e4f82788c4e442
+~ _getClientCallbackQueue.cold.1 : sha256 af5fb909474b0d72ba0ca61a56fd222d7ab3d6ac27d3813a9ca9abd118c7f6aa -> 85729a43a382b7f8685678101e6e95dabe0e2ec39e0d42013f5f8ef24dbaab9e
+~ getRetryXpcDelayQueue.cold.1 : sha256 ede2e626826796307dc3954b9fd313c4588ffefff6966d5e8377f2da64ca6e93 -> 1c81736a47618fd388861ac9a68ec17ff2ddd54ee9a62a204ce4423c950ebcb8
+~ _getSandboxExtensions.cold.1 : sha256 848147d8737438f31aa225e6627a2ef6adcb7cbc8c6cdd975cb49bb6eac98dde -> 2d7d9dbb76fcb86e3d27e56d2060cb8baf998744b9438acfe4b548c4ffc9683d
+~ plistDecodeClasses.cold.1 : sha256 4fef14172f058457f841f1a1420c475c246c93587cb47b6323c465f1d11ec036 -> efe2f9a485650633a06053afa99029011a900c806fa087bbec633f3149652c19
+~ suAssetTypes.cold.1 : sha256 93440dacb3858d9c988ced49f58519df052d5960ad1994fb4531a85ac47e64cc -> fddb05a80fa20a849c30e04b9bdbc6044d8a7cc0ea5c78ae972d0b81c0b46815
+~ assetIdDisallowedCharacterSet.cold.1 : sha256 86fe9ae14460084470ceb36e3cf6328df4893c03577322bbe1ed62f6db7ba8af -> 2e109440c4072cfed534e103d6b21f28761483bb02e3ad52940989e381664ac3
+~ assetTypeDisallowedCharacterSet.cold.1 : sha256 aa88f9e2fd5c7bfe5d2961c0019d16f618a832a562133bb3d818243943f214f9 -> df915cd0f16dc7e8198379f44e05090172b13fbc865ee7eb2e21df6f15a628d4
+~ assetTypeWithWildcardDisallowedCharacterSet.cold.1 : sha256 b3544317d2385189281c96280b14387d543357b80fefd8fb10fa27f9df3fb2db -> 3250e457ceef83e3709dc51dc064fddc03d6d83a8e8165282bf8628b63552f4e
+~ purposeDisallowedCharacterSet.cold.1 : sha256 c0c51e319accad235c006611b544415ab0c16226f9699bdf89fb51cf9c7f4266 -> 53d540f1d06eb54425c29e91eac023844256b65c49a87130c8b9d255c15c7d45
+~ purposeIgnoredCharacterSet.cold.1 : sha256 fe41034525723bf6f3004e62e6725f68fb0cbdacced6ea2480e2b6e9191ca741 -> df3f7062f1395ea89efd81142fdc96b52f7cf4332556c847646fa65b79c721a4
+~ usingCentralizedCachedelete.cold.1 : sha256 ba93806708736762a450fc219e17b8e47aed67808ca18f76a25a8ceffc5a0449 -> 7e6d3ffaaa9ce6d026667792d963e2c262024aaca66e29d58bfb7ae93aed6abf
+~ attributesInPallasDynamicAssetId.cold.1 : sha256 ad140773bd6beaffdc0fccedb98be5d23e70940fd364ea5fe89039dd80d79156 -> 6811a08885cd899135100d9c107e408c5c1695d39399d7c079fa0d2e0bd4167a
+~ attributesInDownloadContent.cold.1 : sha256 c5f41d8e3fa6a2d2d3a45bcab23c36a8966930ddfd30615a030714a0befc17cb -> 748ef53277b729ce59dd4c2e235bf34942698350adda4506c7fb5e0ca1799790
+~ attributesInDownloadUrl.cold.1 : sha256 c1ac46ba9ecd4d6534f0a849f67972665029de843ee179822837640301adf84f -> 8024033648975263694b7399a28475c60332baf3ca3ed35df9e9e388d8f3ca04
+~ attributesInDownloadPolicy.cold.1 : sha256 e7442f7da04cbf2eae4985c2611ac77c8173b9c82a195355cf1b896c8f13c72b -> 4c4f2f984307ca4c5f4914cfc7b1174fe566ccabda71b0935b052a6163e2a24c
+~ +[MAAutoAssetSetRapidLock lockRecords].cold.1 : sha256 5c752965fe4a785c5da29376749607411b0271e976027bf6d450bd731638db7f -> 725377af740c235691e56dd02816a588d539c464718246bd64b3ca610c9fc20b
+~ _MAClientLog.cold.1 : sha256 f3ef4f2f88bf465c03b4e078a64acffbba9acb15566fe97920926b49a1638369 -> 5439738d10cd949ae5c85a0b72af102047a4918f578a087f6e8c635ac8d8b57b
+~ -[MAAsset startDownloadSync:error:].cold.1 : sha256 ef0b6c0b13d2e305cb638df1c5c6623a35c4e6cb757969422ab1505cfcdf7586 -> c59013267dc12c13ce25eca90ae49fbcbb7219155a9d424dce36327d04c88a8d
+~ __60+[MAAsset startCatalogDownload:options:completionWithError:]_block_invoke.cold.1 : sha256 818b657616376df27b174acccfe17585367ee68f4bf1720c751fca7ae29206dd -> 70b86fd63b12a894a7a9d9405287ebaab3c90a10ab53d42b842254a70b518522
+~ +[MAAsset startCatalogDownloadSync:options:error:].cold.1 : sha256 3873a5f41ee8a2457499e0b51ef036802ed4f35ef9a212230d1aa97311a2af87 -> acee55b3280319faabadb3ec05f60a4e75ff7e7b16652c7754f549eb4b55a1ad
+~ +[MASecureMobileAssetTypes sharedInstance].cold.1 : sha256 e21d5bf0ba8d8acff3e124dbd727e456f83384e2c7849570865e38581c8248cd -> 0318f339efd5ff900930e2693698e56522e4229fa1392d3908ef02d7d172cf4e
+~ queryDecodeClasses.cold.1 : sha256 4863f1e10be17a3fbddb8b4a89613f675f018e6cae1a0502edc5810db98e7fbb -> 0bd5c344e578d7fa37ce60fea7cb21b1792b6b936fcae48f7ed573698643eb12
+~ +[MAAutoAssetError mapAutoAssetErrorIndications].cold.1 : sha256 f52dc90e451766c0e50ce513c3b3c23fa49b0f587bf09c912419a3dfb9ee9a94 -> 48bba33398ea0ecf84d7bbc3f320cccac16b6199200c311a459adbe955eab973
+~ _preferencesDomainProtectionDispatchQueue.cold.1 : sha256 a69adc41de46ad17720054958cc21ad8d99d1aaa38190493155b55c8ca16dca0 -> 9d16af88cd11ab4b55704965e9a6bb19d5784e4b4b189a4fe7632e0df9929b57
+~ _MAPreferencesCopyValue.cold.1 : sha256 1ddc36ff6ba3ed07ccf5c3e06f0c1fbab2a13343af4d5a8f949ba3140ff0182d -> bdb21ff633a9c1db42107feb5b7a36ce2200f3acd293003d927f7435c64a77fe
+~ MAPreferencesIsInternalAllowed.cold.1 : sha256 07bf19b40a33eb3401eb50bf642deab34671431a4c229f41803dcb0540beaacc -> 5c2071e50708f4887d17c532f0e67f9769b46395edf561b66e3929b5c9d1f2be
+~ MAPreferencesIsForceKeyManager5XXErrorEnabled.cold.1 : sha256 1a5a7eb531a02656e8202f4a85070c33e97cced53ba41b5d029f25a7dc18c521 -> c2a29b4bd3d0ac586153b5c3caa1e472cfa81ce4bd6df126a61933c9a96a0fcf
+~ MAPreferencesIsVerboseLoggingEnabled.cold.1 : sha256 91a014625a37ee5f9d189bf3921c45d7f48347e43ba10e493590ec4adbf1cfb9 -> b0fbdf546a13db4850818e002a62ee66745e8a376d916ef1136b544a069be5a9
+~ MAPreferencesShouldSecureNetworkMonitorInhibitConnected.cold.1 : sha256 08909bac82968881cf0e23d4d90bc09a3d9ad1686cbb8287e8efe4760a8b2996 -> 4bf4a810418125ec04dc66e71608ebafcb481994d901778fa913da99343b3e5c
+~ MAPreferencesIsCentralizedCacheDeleteEnabled.cold.1 : sha256 29199019b6597b37b4eb46c99b5f02d798bf25250e3f5b83728b1cbdadcde05b -> 47f21275300d4c2d1a39e91f9349bc9f771397d0b8de7c7b2e4921be8a975174
+~ +[MAAutoAssetPushNotificationHistory sharedInstance].cold.1 : sha256 6f94eaf7f9c234b0f85b5d5978614df444c613a980e7255d610884abe80a2885 -> c882b7242e32bed7f267507d6ffc1d5a828c52241c8a9151ea407e0e3fa6a619
+~ +[MAAutoAssetAuthorizationPolicy _existingSandboxExtensions].cold.1 : sha256 33c0420993a69f88e1da425d98470b9514685ba31f3eecb303e928cd5be7b994 -> b182189de6479806667eaac7a1a8d76d89833de0b125f833e5c632cf651b9633
+~ +[MAAutoAsset frameworkInstanceSetLogDomain].cold.1 : sha256 26f666f57a4d8e12afb121260be6c4f188a65560b28ca6f71ba5148e08c1cd60 -> def80e464ca7f3632a47ae6abd30f2dfdfbd89e8fe0e396b8024afafde553aa2
+~ +[MAAutoAsset defaultDispatchQueue].cold.1 : sha256 ada8b13b1b72beb24d575cc88ffe42ab7f186098a54a898b677ec2bee37f2f8b -> 51f6f34e059fc284688cde5975c874776825b40c94a43fe869885126232b9047
+~ +[MAAutoAsset _privateStateQueue].cold.1 : sha256 5e8cb2dcb22f0b1d2cfd975b9da656759f1d45bae96872fc660e136755006c7f -> 102ba8ab8fd5c56973861893621625a2ea412b67cfd49ae48da38e9882b551e7
+~ +[MAAutoAsset frameworkInstanceUUID].cold.1 : sha256 2cfd997b26d33de811550815f77059037b21a56eff60dee9e38be73fa7fcb4f0 -> efa7a92d7ec67b5106b07cb982c95ababef3d466faa543833d855e43386750a2
+~ +[MAAutoAsset logMAAutoAssetVersion].cold.1 : sha256 9644ffd061f06df2d0792b0bfdf97eea7b227feb755cb94d14501d2b28d2b22b -> af70a6d93ade758cd33cedb2ac92250c09e75c86d38220e2ec8fbd60db1d6dfd
+~ +[MAAutoAssetControl defaultDispatchQueue].cold.1 : sha256 c43024a8100a81e753ad2bbdc9756ede6aca4d1781204847c81f074df73dd2a4 -> 4981b6df30e4116a1304a43183b2c6dbe34903ac5c6b615aa1237f371f570bd1
+~ +[MAAutoAssetControl autoAssetControl].cold.1 : sha256 6e6984a964d5c95b875a080a8265405ccdfcbbc0cdb02932e90ef88912973729 -> 983661d72e72244ae95ab843872e239d9bae0625aa1aa833f05c78c4394063eb
+~ +[MAAutoAssetControl frameworkInstanceSetLogDomain].cold.1 : sha256 07b7a57f477d9637fda0e454d50cf234a2fda75891992f119cb9ec7ae40a4254 -> 66801977337d6e54c1842293fce323d0cc6f6a71a328a4b71315decbe32b7ae3
+~ +[MAAutoAssetControl _privateStateQueue].cold.1 : sha256 f4371d69a78726798a8d1fe485b91ddd3f07116b0c0b975e7bbc1c06d724d6c4 -> d3ed2fc7424342d8526c2c7a1f6ad0fbe9d14f8edf0446738dedb5953cbbc98e
+~ +[MAAutoAssetControl frameworkInstanceUUID].cold.1 : sha256 44768f6348cbcff54f4b94dc36e7d81e495e4c262009f3fe3072c44d04b9a644 -> f6248cbedf8cdc4c4abade7ef5ea68ffc4fce82c893f6dba821c59a5c2b4e330
+~ +[MAPushNotificationController sharedInstance].cold.1 : sha256 d6014820b48aa4bb815d2603a5c7c4fb2cddebb341031aa3b18ac81b88fe2465 -> babb80b00b7f6d9d5e9f041edca7c9b10823c98692c8d300877de0e95c5f0996
+~ -[MAAssetTypeDescriptor assetSpecifiers] : sha256 6f7a9c3ce76791962bca5b97fa5662210133e04dfb52635213f1f8d62be1d983 -> 49272a8b24008138105af96ff679f6097029033e4057240d5667b91a573d6a86
+~ -[MAAssetTypeDescriptor assetProperties] : sha256 a7825416eb22b63cb698b5cd85c498d66d0199cf3206b416c2a0ec20a485fa01 -> 37e91cd5778c34eb95ca4804b020ba4ca76deb67ff6a4df1093116ea67e86824
+~ -[MAAssetTypeDescriptor shouldMakeDataVault] : sha256 c7d67c69fdf60e88d37d8619484ce1156a96433870909b8e807a8b78845eecb2 -> 962ec82036091fce42fa7b4cfdd484355a80d37aa4bd8c58d2fd0c820c796070
+~ -[MAAssetTypeDescriptor shouldRemoveV1Assets] : sha256 eac0161a9e7d9213010eaed3b804181acccc3d008c3c27a8d3e1e8b4a56ef476 -> 2e1ad10563f7059fa877031383755bdeaa9d3ab6a22c5facb775521ebc15d022
+~ +[MAAssetTypeDescriptor _assetTypeDescriptors].cold.1 : sha256 b4c8a68f422ce1da24f87c7c04436a9f46030ead2912da3b027111ed39911f83 -> f96a4df531156dab54d7100bb39383a70524f383b9fcf27419d39841c8764b3d
+~ +[MAAssetTypeDescriptor _secureAssetTypeDescriptors].cold.1 : sha256 e1b7a2a5035a7c46cbe2ee3584d18de15ca2e8b126c0b24b690773931ac35b39 -> 5d3e7fff55f89eec4bb32de706b58b28216d018f9722a069ae6ab193cca58067
+~ _getV1DecodeClasses.cold.1 : sha256 1b508251678f25b31817f191fdcb45b99703d4e18548bcef431a15c7e520949a -> ba9902976d41adfed28df93eca2f164a4ecc0b0c4a2576a3b204ecc6afeb0fc3
+~ -[MAAutoAssetSet initUsingClientDomain:forClientName:forAssetSetIdentifier:asShortTermLocker:comprisedOfEntries:usingDesiredPolicyCategory:completingFromQueue:error:].cold.1 : sha256 566a4be2b30838815e34b13fdecfe93d6acfc6a641eff5a2f46d98441610ff5c -> 16eb0961c031e99adfefc22e8ed57744cbaf35e04d89218c27c6b493cf1dbc8c
+~ -[MAAutoAssetSet _readLockedSetStatusFromSharedLockFile:error:].cold.1 : sha256 410018b63156fe5106c3b855ca662f9d2b9c3aed2a68dfd608c211f879ff084d -> a78665c1864bf4c7d8b6ae4440f09e89d83cb6a0bf61e02a00488fd92e71d7aa
+~ +[MAAutoAssetSet frameworkInstanceSetLogDomain].cold.1 : sha256 3994e6ff4fe082ae3bdff7da162146ba09ea4b7e25a4a4d2d512c2a1a5a6ec22 -> 8e61a78cc4d35e96c96e1b1467b8ab7e97bb48aaa400ee6ebdcf802fb88d3ce5
+~ +[MAAutoAssetSet defaultDispatchQueue].cold.1 : sha256 08379ead275929573eee7b273a9bb218b82e777e363857054c8ea5f8718f1094 -> 0fd5d8f0f2ef206592c5a6bd6f08b13ad60895d391bc41ec673ab9b1bfe96a81
+~ +[MAAutoAssetSet _privateStateQueue].cold.1 : sha256 cc36b5570019b7886b7dd52c441d7b5184ab49619ab319c3545c79bf9a7b5397 -> 11ba961f6fcbd4b51c7607775b363025093a9dbb51235c68b9323c1c4228c64d
+~ +[MAAutoAssetSet frameworkInstanceUUID].cold.1 : sha256 48c723eb0ffd5dca54de6e402ebbb1c12c43b83cdee0dabe5c8a3e707deaba65 -> 3f2b576abd851d90a6996438691bcc13378275de3558f48ca095bbf9b8681009
+~ _hashCFType.cold.1 : sha256 3df7dc37114c2a8d0be58d6018d7db9ae78eb7ec16e653f89494d3817fca0232 -> 9190c7ae524be11560c9490d58bdfc9cabbea5118de92a71db39be7a56041545
+~ _hashCFString.cold.1 : sha256 57226d6f0b709bd26dd5cc510799ac2727acdb7da0514971392df3c9b4c9776b -> ce722a4bdbf079892b5b6e1ca736117125c6e89a459bf46d02975b8a4f78c4cc
+~ _hashCFString.cold.2 : sha256 c165ba97cbf14b2bd375c7374c0ded2de36def09012babe7162e0e02c39f4c27 -> 495adaa3772a4b2576261d5b9ec7df45382b09b4c8c61aae83749066188026df
+CStrings:
++ "InProcessSessionMaxConcurrent"
++ "InternalVariantAsCarrier"
++ "PallasSessionMaxConcurrent"
++ "SplunkSessionMaxConcurrent"
+
+```

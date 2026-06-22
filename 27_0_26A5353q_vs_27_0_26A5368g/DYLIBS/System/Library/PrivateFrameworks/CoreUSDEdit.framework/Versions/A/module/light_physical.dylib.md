@@ -1,0 +1,70 @@
+## light_physical.dylib
+
+> `/System/Library/PrivateFrameworks/CoreUSDEdit.framework/Versions/A/module/light_physical.dylib`
+
+```diff
+
+-28.0.0.501.1
+-  __TEXT.__text: 0x2cb8 sha256:37176ae529b1bc10b7687b2110f899ef035729e1804145dc56000351b0e23067
+-  __TEXT.__gcc_except_tab: 0x7c sha256:7961e42ca39cd235b7b3bca3e50350e438743edca5e34e2de0e4be735bf27658
++28.0.2.0.5
++  __TEXT.__text: 0x2d4c sha256:63f7a62bcf6d5b8d31078fffebaf0eb043bdabc9e2eea947031d59f66f948447
++  __TEXT.__gcc_except_tab: 0x88 sha256:791df2d5275091a83324bd2c9361a6fbccc769eb311e0326b584783f5fddf770
+   __TEXT.__const: 0x1a3 sha256:835c355efce6cae1f6b1562d318efc3d37b93797ad7819fda866d7b7885b14a3
+   __TEXT.__cstring: 0x458a sha256:1f32f870cf58bdf5f8761050a75c1b2239fad62a0e975db55eaf521fa11e4319
+-  __TEXT.__unwind_info: 0xe8 sha256:1eb97e31540656560eccc2553dc98e4b4d3fd75475c210c20bef90dfd6676d89
++  __TEXT.__unwind_info: 0xe8 sha256:b4af863dfef03ea122584d3b15d8487560098b50a7e259367480a3b34699c008
+   __TEXT.__auth_stubs: 0x0
++  __DATA_CONST.__weak_got: 0x10 sha256:dd981d8e95322df86968ad04b48fd09d167d2cb50a25f414643e04865e34cf60
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x150 sha256:63b05e1967d96ec4ee99f28dbae4fec417710a7acb8ddb7ce7f59191116e0f3d
+-  __AUTH_CONST.__weak_auth_got: 0x20 sha256:b7a04fda26841a0040c3791c7f7affdc0629031506fbb84d682fccd222e021f0
++  __AUTH_CONST.__const: 0x150 sha256:a083291e4338fbe1229f603e638a1bdc2fbe2962a52f7739360d399bd389ee0d
++  __AUTH_CONST.__weak_auth_got: 0x20 sha256:396e67293ba6b13027ef3965f36dc8d7505225f73159bf94255b9e4c198352ac
+   __AUTH_CONST.__auth_got: 0x0
++  __DATA.__data: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/usd/libusd_ms.dylib
+-  UUID: 0316330A-A6D7-3A54-AA57-5591366D3900
++  UUID: 4B5CC6CB-DE2F-3087-86C7-CE95567EAC77
+   Functions: 23
+-  Symbols:   104
++  Symbols:   109
+   CStrings:  71
+ 
+Symbols:
++ __ZGVZN14CoreLogHandler12main_handlerEvE18s_main_log_handler
++ __ZN14CoreLogHandlerC1Ev
++ __ZZN14CoreLogHandler12main_handlerEvE18s_main_log_handler
++ ___cxa_guard_abort
++ ___cxa_guard_acquire
++ ___cxa_guard_release
+- __ZN14CoreLogHandler18s_main_log_handlerE
+Functions:
+~ _on_register_module : sha256 a539b82623eceffe68b71a056b86ba31c241c6f3b00abcbf3baef0966a0eca78 -> c5d6c1f6f254951c3c5fe2b5bed55719be422b163f040736ec57a2fb117682a8
+~ __ZL10create_cmaPK7CtxEval : sha256 290f174aefb7ad6374e7b9c5def6bc4398670f2dcb2a2ed752f702d3f7c83a3a -> 45af15f0a50c4beeb7274d08c6c3d08b3d7fd51bcf7539bfbf92f520acb96fb4
+~ __ZN30_ModuleLightPhysicalCallbacks_10init_classER7OfClass : sha256 860f43fb6433002a8660418d9edd64e6e2498ca21254835d14ac014669d01a81 -> 6708d3556377b1ef5031d0e4a29d872056547e655519577943f5e2b0a0805efe
+~ __ZN30_ModuleLightPhysicalCallbacks_14declare_moduleER8OfObjectR15OfObjectFactory : sha256 2521bd1984469f9398f51ee8d5281ec2767a167333bbe848227d3e9f8068b80c -> ba7bc4d30bdbc9388914840397702e47116c90c482d61f457f845a0debe002da
+~ __ZN30_ModuleLightPhysicalCallbacks_25on_pre_deserialize_objectERK11CoreVersionR11ParserGroup : sha256 f7d1df78d83cf7baac0a3a49fbe13c2c85347bfd332ff0b2e80d340769390113 -> 53fddd7887f7541f08e041ebd72e75275d6c8139c039970a6fb03fb4d5579f48
+~ __ZN30_ModuleLightPhysicalCallbacks_8paint_glER8OfObjectR10GlUtilsCtx : 280 -> 440
+~ __ZN30_ModuleLightPhysicalCallbacks_21set_multipliers_lightER8OfObjectRK7CtxEvalR9CtxShaderR14PbrLightConfig : sha256 a1db12067c641eaac1b699823bf6a19e6651176fa0d75156ed39a4764a28fe57 -> eb7106484b706a0c130d392f289ce99fea468f0a9a6c75347193b92c014a9f7c
+~ __ZN30_ModuleLightPhysicalCallbacks_16get_contributionERK7CtxEvalR9CtxShaderPK10PbrScatter : sha256 20077ce87f9728c7c7341bf9b5709f0fc4b31a254b13d9e0fe1e77748382330b -> ab05dbfede579ff462b0662c6b9791b919c6c36cda30a71bcefcbf69991c8a4e
+~ __ZN30_ModuleLightPhysicalCallbacks_19on_attribute_changeER8OfObjectRK6OfAttrRiRKi : 260 -> 256
+~ __ZN13CoreLogStreamD1Ev : sha256 23db30ae8f09acb724babfa0ce75b73016adaa133e05691f13acb386728f5bab -> 0c32ea7fa723b42769bafb8fff681ecbdb80949e496a9f11329c31c4478d8f26
+~ __ZN30_ModuleLightPhysicalCallbacks_D1Ev : sha256 36ccfd7dc7ea40f143f1f4965166d7a32dcb56337cd8d7515d7fc9a99b8f8edd -> 200613e16656007b8798b757078a862a6124f62902120ce7e7928b97f4e47d77
+~ __ZN30_ModuleLightPhysicalCallbacks_D0Ev : sha256 1d0839fa131a7db4ab7f3c7acff77566e2cf824bfbcb9deb24f0ef5f55a80eed -> fab0b611e4fda68f604d4248a749687a3eb9fab877a0c1515d86422f77a5494f
+~ __ZN28ModuleLightPhysicalCallbacks14init_callbacksER16OfClassCallbacks : sha256 ff2c32c40bd74a99c5ff8ddc10cce3a0da3fdce355f4629b129ae941c9e99ae4 -> 856b6d5b6f656e708ab4f9f4dd676ff786ae762b1812ffba61c3aa771331d11d
+~ __ZN16CmaLightPhysicalD1Ev : sha256 8ba8cef1ce4d28ede080f708e07ef4d47910e8d925606858d1609d123a75bf24 -> dac27dc01bedab363e1c7e74fab2eaf2b9cb69447c038a5aa67c9bf7fcedd585
+~ __ZN16CmaLightPhysicalD0Ev : sha256 b19f10b20cee21d870afb8c25ddf85a686024352981d2088b473e2c14faee0f8 -> 6643c035b3174c05440dd0559e7c933becf97da348b05978e1431e6a31adb367
+~ __ZNK9ModuleCma14get_class_infoEv : sha256 fd76bc316cf743848c4a4a0c55aeb8cc27f38ce8689f5bef94dc8f3be935fd70 -> 7d6f0c686cc9aea27caad72e8385b8da212adf9d1ed416c8d2d827d20d674d8b
+~ __ZN16CmaLightPhysical21sync_attribute_valuesERK8OfObject : sha256 e083c15fffb468e22cdd68eeb2282d862be10f46dad754fcb4ac773700201444 -> a5f3ce078a234f802828c9432b005471abd926460b740a0b4983b012cd0ba61c
+~ __ZN13CoreLogStreamD0Ev : sha256 5151151c3324f999f1f19e655919098ebd53d3b5ecd46a96404e917cf454b4c6 -> 5e4389537bec22e040bb8149760181a014aa10ba2bf73aff3aaa6628bf324bca
+~ __ZNK13CoreLogStream14get_class_infoEv : sha256 1fb118c587ca70a308cfc327cf5eb4c825288b7e7f99991a767b56fb84941b78 -> 228fa7510acd249a79636b3ca079f4302a90150400bbb1a94cf738180dee7038
+~ __ZN24GeometryIntersectionPool16new_intersectionEv : 628 -> 620
+
+```

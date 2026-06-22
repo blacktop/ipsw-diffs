@@ -1,0 +1,83 @@
+## DAPubCal
+
+> `/System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DAPubCal.framework/Versions/A/DAPubCal`
+
+```diff
+
+-2703.0.0.0.0
+-  __TEXT.__text: 0xce8 sha256:ffb277bfe8855c5f2a572636d75d200fde00dfc39db174bd681002c909fb8687
+-  __TEXT.__objc_methlist: 0x35c sha256:e30cd62f1e7518f7a4e8e48d6849b8d3dc93f75379fcbdd7f606fde1b7300792
++2704.0.0.0.0
++  __TEXT.__text: 0xce8 sha256:f483eb47cd860c2047ec5c4afb97d2c3909bcc67d64844fbfa4726ef94dd0df9
++  __TEXT.__objc_methlist: 0x35c sha256:ee136e12ec36ff5130d01ce60ef920db2927551b0512cf229236fbc8b1a93f1b
+   __TEXT.__const: 0x8 sha256:a14b64707e74e79ec1c6b4f3a1d99dab625ee5b1685ba0d76633466fa3c4289d
+   __TEXT.__cstring: 0x9e sha256:4630b0de5bdaa7b5a63a4aa6d4a984f520000fb5c1bc4edfc9c8830c07e049a9
+   __TEXT.__ustring: 0x66 sha256:1ef99bb89ddd713bcb880034ca60bacddf3df790acd3c0568e775e226094eed6
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:09512aa7357b87325fcf7acd5b181bfc79159806dcdc59e1332438ab76286594
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:f9ca3d37412472afeb69147aeb3dc46314a6e8f085206cf1a2e5f0a0a9500831
++  __DATA_CONST.__objc_classlist: 0x8 sha256:c08cab0792d0ae6706a717f8ab35159852bdb8573daf6f5da517b491ded748ca
++  __DATA_CONST.__objc_protolist: 0x10 sha256:ad2900c8983491ca6e7b11ad766b92fb159ba0b80555832f2f6998b0a4beda93
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x298 sha256:020f47de580a5915d4d99586862766f03ffe2b6c487016f140dddb368e85d057
+-  __DATA_CONST.__got: 0x70 sha256:d0b83c02e48aff6af2f705d3fa0c17777c9cf1804e7f1be8ba085711060fa147
+-  __AUTH_CONST.__cfstring: 0x140 sha256:ff1731d3982f1247f0621343ebf60caa9193eba65c39144ac80d734e7b45c8d1
+-  __AUTH_CONST.__objc_const: 0x3c8 sha256:a407951107eacccf62d233b5e3062951ae88cf27815e8d735c244422fdaefc95
++  __DATA_CONST.__objc_selrefs: 0x298 sha256:f6e7be8967940b128f0414f7c52d0fe6927bae93fbaf3e3b02dcf922aeeef6ca
++  __DATA_CONST.__got: 0x70 sha256:b177e294f074eb05c0cb2281c681f6e20f6e4173e5d0a5be63d591cd64f03f59
++  __AUTH_CONST.__cfstring: 0x140 sha256:0ba0861d51bee0010737f9096305954078f5021ba6e950d5f96f576f87720b13
++  __AUTH_CONST.__objc_const: 0x3c8 sha256:2e71fa6599e748556d896bb6b9fb88664271351c206a332a2e1b2c8ea28090c5
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50 sha256:1ba2f3aa403f12ff6b8e2d2443b8453de2541b1f5a79cde3d4c99be0043ba7ff
++  __AUTH.__objc_data: 0x50 sha256:f3155aa06565f9d0e86d95e82053c9bf882a9358215d47f2371b0636b1edfd55
+   __DATA.__objc_ivar: 0x4 sha256:895d79e3e0fc9b5679aed8ae35e529676b9a4ef6802c1423dfea6ab30c6faa7f
+-  __DATA.__data: 0xc0 sha256:9c2803a1f497e15138eec821a145ebbd72a4d83b3062d29d1e1c302ecb03d840
++  __DATA.__data: 0xc0 sha256:0fdfbec4391b212745ae6d23385b3ce173b9218f8b82a332866fc23748146df2
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/CalendarFoundation.framework/Versions/A/CalendarFoundation
+
+   - /System/Library/PrivateFrameworks/DataAccessExpress.framework/Versions/A/DataAccessExpress
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 67D37D60-4C1E-30A6-99D4-53E5FBB5DCE0
++  UUID: DE315FC5-4504-3FB8-81C9-97D0D800A77C
+   Functions: 32
+   Symbols:   128
+   CStrings:  19
+Functions:
+~ -[PubCalAccount publishedCalendarUUID] : sha256 761f43f045b4b42fe122dbecbbbbaa77f23c85e7159c01ab3649275439f23c02 -> da6c92ed46707bfe290b1c5ffcdcc94af323b93d5ae3747861d32ea794299669
+~ -[PubCalAccount setPublishedCalendarUUID:] : sha256 e0b89f721e1a14eb37a862ddca1bb8a6890c25ddf8bd243a5b899a6ddd7d3cbb -> 3db9515b3f474a69944cb1518bcd912971dbd74507d7bfce91aaf89ecabb3e68
+~ -[PubCalAccount publishedCalendarName] : sha256 cf9f1d807c5507b97d8ba34a7d342ad57f6bf58603aa83f32c83f658d2addf5f -> eb64bdfb61bec25fa832265eba07107edd43f50ad8e9bae375227ff32ee9f57e
+~ -[PubCalAccount setPublishedCalendarName:] : sha256 6fb4e6fb33cfb285d86c092053c3159358d40fc0b037375e20aa0b11cf612e92 -> 6a8fe2e0287b12eec4abec1f337a5d3ca33426b01487786b1a0aae6fc7a6d30f
+~ -[PubCalAccount automaticallyPublishChanges] : sha256 607dd3bdccde339942b76705e966d5af7b42d9ec2a65b342b6ef53eaee448bd7 -> ef2454167f98d7255d31b63e3ddc81dd7d43a9e2f1d565d1164f1b410e89e58c
+~ -[PubCalAccount setAutomaticallyPublishChanges:] : sha256 4c01704b796499beb062b7e83e34db7594cbcba220b00110fed34481bd240262 -> 7087d32f3ecd493a4be7f1380ce64f44bdc9d6e31640b669488a033b17344253
+~ -[PubCalAccount filterTitleAndNotes] : sha256 55d4e398766653c401d1bb250f8d7538c62d2c3d36ab7dde7772decd75049567 -> 36327a772f486fcc66561a40e8014a6c461f794b25b31cfd4f6c2bd26e82b8cf
+~ -[PubCalAccount setFilterTitleAndNotes:] : sha256 2b94ff01f99f541e8c098c5a252ed0b3d407ce48a76416ef7ac1be82930256d6 -> 1273e64a201b86d6f6ccf6a314b70b10f7a3027f268d590e6b3b9ca6c48e035f
+~ -[PubCalAccount filterAttachments] : sha256 d6867dc97b3af7269fd683fc8d2b3b817739964fc575f774c00b20321e1197ad -> 6848702a0b8ab69545328ed3bcd67db2cf0716fe174aedfb88ec589d3e32a6e1
+~ -[PubCalAccount setFilterAttachments:] : sha256 bc7c96924c466a945f19ecd12e3691c44fc2a85f581b73c2dfdfaeee163a0255 -> 7f760ee6571ab739038f77cd28a881be7f4709da87a00a13cca4baf2957dbc94
+~ -[PubCalAccount filterAlarms] : sha256 901c5eec98bbb32f79a273a263d30fd031c9b5ce9159c477645f5c9d9aff3da3 -> ec0584fc56b2028cfcc2afc0db35e51624326a8175dc11ff7a111b53b52334b5
+~ -[PubCalAccount setFilterAlarms:] : sha256 f8cc7a01838d98f6c10748b41a9b170ff2ba3bc0bb24d71c851985f432729c65 -> 30970ea021a00da6dad2c3518cdbc72ccb394ca29f1d0338f6e1db9be5a947ce
+~ -[PubCalAccount filterAttendees] : sha256 ae653657ec902f03bfcae79ebb2c314d3c1d515d26d8fcb3d3fa752517553c20 -> c682a751f8bce63f8440ffbbdaafb526ee798760fb73e7fc66cc8bff66ba63bd
+~ -[PubCalAccount setFilterAttendees:] : sha256 05bb581111acceec0e001a71f38f807e4e6222cbb91366851d7c75a4e70dbed5 -> 96c65e72f656c342c55fc22167a81b831502e509618509754e9d0da698ff3376
+~ -[PubCalAccount publishURL] : sha256 d03d7a8ac137b5f04a2a9b69d8c8ac86e0a9d186c9e63a75c5eea3e83d6f8a0c -> 38734e6ebe106d88f1bbd58938e308aea0273915ed0240985f23ca12ade7a841
+~ -[PubCalAccount fileName] : sha256 22e241df7fa7be461480561173c92410fb137d2e38d4a3a2a9a99f8b33fe117e -> c55a4b6afbdb3bf01a64cec583f9a0d1792d0fd5525faf2b93ea2faa38b483a4
+~ -[PubCalAccount principalURL] : sha256 3c4b0e1416ebe04460d7e4f6d2759fef50022c52481ee5f3e5cc331155b95716 -> 7c0af38b5ad89b1346403c7702848380eca1bfaf69699bcfa8e50304354d1843
+~ -[PubCalAccount setPrincipalURL:] : sha256 dd3da27cc51d4f873eafabc5a7b661dfbc5c3583814b5e8c28d360882a085173 -> 353f0f403839c23df48986ed09e9577560008323711251708c8125dc2737242e
+~ -[PubCalAccount isEqualToAccount:] : sha256 5ab68f645b66715d6a34d685400842a345a11fc1595abebeb60e10af38393158 -> 0da479e5f7c6e261d5032edcb3653821dcbb08fcddcffc92db7ab94bc79b9e56
+~ -[PubCalAccount localizedIdenticalAccountFailureMessage] : sha256 5efd000b3b42e03b7ed3398f588035fdffaad8a8f79d6dfe96abf99e6dca6df2 -> 4005ea3f81f3eae737dee3acd676730140e6630607c282dfa11262e0ff49a689
+~ -[PubCalAccount localizedInvalidPasswordMessage] : sha256 6013d87733e47b8cf68967833509067c09681e4ad01475f7c4992f69229a81e4 -> d63a2b39de173cefce9264d39ad677a4c731e964a73a8b3890ad6b5bcfdea7a4
+~ -[PubCalAccount onBehalfOfBundleIdentifier] : sha256 7f27f2b669af4b9f1807555c901dd1f67bc324830bbcefa2854ff3c3f943d96a -> c5fdc81b1c4f5627df7a414181f9f7930c82987be2d067b1ab16fb7576b03d88
+~ -[PubCalAccount description] : sha256 b7c0bd05c450cb105b75b9ba95da133db60843b01f40a8bb9579700f165632eb -> 895b96693efe65f6bdc57fdba058fee54a06fb310d05d021127bd6f87b1d5a12
+~ -[PubCalAccount redactedDescription] : sha256 68dc8f5e1d0c7b2ba874c32627605155ad341f256f177162305cc8ca15662e8e -> 4a1734326f48f8fbdde986285a9cbfff3f3928276d02421747f233a722fbefbe
+~ -[PubCalAccount discoverInitialPropertiesWithConsumer:] : sha256 ba0ec53e18565890bc020a33fd0c419ce4f7e6e594fa0e16281720edea61127f -> fa2f308b3df28c7557b401ded7d616e240d469ffaf9d2adf51742de853a8b8d9
+~ -[PubCalAccount calendarPublishedToURL:] : sha256 23897c198a827b5a35e4f091aad66c6dd8841422063ec17982ae53a0a6fb354c -> 52cd12906442aa813920f907b2a6d40ea66bdcb5522f528f86ebddec8ba9354b
+~ -[PubCalAccount calendarPublishToURL:failedWithError:] : sha256 bb747df86495a1072f67bf19ec5d0985163b0a68e7e079e36c2b936bf8e5d2ea -> da1e1c01a41b457483bf5ae1745738e85c39084c104cb40b02c7e7f2016fffc2
+~ -[PubCalAccount _validityCheckFinishedWithSuccess:error:] : sha256 4a20c1b4b2d79d3d96799f0831cd399f444737a324abd3fa038c8a448b56b5fd -> d9406ea2b0bff8b7f167dbbe801f28067288d150c530ac4b38490adaced36044
+~ -[PubCalAccount .cxx_destruct] : sha256 87724d19dbcea1a0d71a5fb60e2b0ce7da18edcd61173a1b12985d202bd29cb5 -> f2ba167792f0dc446106d882c3242aeb6e9ff658c7ac92a3e6c7156cbc357081
+~ _PubCalStringBundle : sha256 3ff1c511a52a1d78afd6f5b56cf762fa0b78841fe0811b28bf875aec851bd32b -> d9902db5117eb0b29905946f6d6e70058fe2471ad837316820c0e9b2c5056d8a
+
+```

@@ -1,0 +1,63 @@
+## mod_cache_socache.so
+
+> `/usr/libexec/apache2/mod_cache_socache.so`
+
+```diff
+
+-886.0.0.0.0
+-  __TEXT.__text: 0x7b24 sha256:9d1eabdce78b8cacd5cc354958648a96fc9761e8d7da9c9bfa4d01af17457c97
++888.0.0.0.0
++  __TEXT.__text: 0x7b18 sha256:c58e988cee23f2822f7488cb5166283a83c09a03b7d937cce7d99bbea8b46cbd
+   __TEXT.__auth_stubs: 0x350 sha256:dea00429570e3b8706cfce9afaeb6992ffc2a2a8073d2b76777d2eef010ac472
+-  __TEXT.__cstring: 0x10e6 sha256:4bce1cdbf2dddd16c119688b2e4313d25a6de5eb460790b69f4cff3d7300528e
+-  __TEXT.__unwind_info: 0x90 sha256:4530ab687a7648e86b8b73f354ed858ae754e652ff2612f8ad784224ef8c924d
+-  __DATA_CONST.__const: 0x168 sha256:70a19adeb472973f7c448102ecc3d445dd8facc8b0b87e6a17ca859ed1525606
++  __TEXT.__cstring: 0x10e6 sha256:1fa77c2855aa431adb2df7bd21152872a3cd16f16ab4e5137155abd973082051
++  __TEXT.__unwind_info: 0x90 sha256:e77c1354107393a394148bc32c2d8106f2fb83c2f43c47b293f7c7cf14ba1b5d
++  __DATA_CONST.__const: 0x168 sha256:4776d8c0d9a37508874630e9dafe06dde777629dcdcda26b86e2388cda9cca63
+   __DATA_CONST.__auth_got: 0x1a8 sha256:88edc8c82c3f102261ce45b73a8f44affdcbc0c42809ba094d97f3c1b37ce95c
+   __DATA_CONST.__got: 0x18 sha256:000e5c9f974dd96fe90aa5512f6ca2312586d5803feeaddc1960f99b9f7c9571
+-  __DATA.__data: 0x88 sha256:b7fc2b1a8239b07856a5ac6fd05def60dcfdbb83583bc5b0ef0d24d9ac6caa8f
++  __DATA.__data: 0x88 sha256:0998456fe5c376863e3347d9078c55d62d55796f08223ab3dab1b6333baabb75
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcrypto.46.dylib
+   - /usr/lib/libssl.48.dylib
+-  UUID: CEAD7681-F8ED-3A60-88D6-F70EE89F8AF8
++  UUID: 59963C16-D226-3A7B-975A-46DFB01B4AC4
+   Functions: 37
+   Symbols:   98
+   CStrings:  86
+Functions:
+~ _create_dir_config : sha256 1dfdcb535e432c31a5ac27454849c88cc0cf6f0f20449875e68eb19fc5a5650a -> 405cfd22e996671bac7dd1711bdbb025058853c158267e5a9207882367674860
+~ _merge_dir_config : sha256 976905da5d8ce84a2a59cf5f31e2954f1c0d94e8c2f91e3dd042e2a614ff7259 -> 95bad983443e53d71823e6e20071a7eff0e8c1307f2a0c9a6d9bf644f2c17e52
+~ _create_config : sha256 c94e53ff170a45a4526c793f2fe8e3df1080a2abdd151b4da7d929574c8b70b5 -> 053693ad2600249379e19c891aa569a94f2f8eb87a9a02fa410583f37a5994db
+~ _cache_socache_register_hook : sha256 d87f8ec8ffeb84ac4bf103af3fbca7f8ab00f3c72522cb3fd9bc32ce6b81c099 -> f81b77a3c7134ff8d0522cf2c39287c1336ba59ef5e60c18ada28b9c353322c9
+~ _set_cache_socache : sha256 341b06bd609643155d2f8317f2750abfd39e5797e61a87b6ebe172900f7c6df3 -> c119aff3ed4da3592ae37e5471c29880a172b65118ef4863d073bfe6e8ed3ac0
+~ _set_cache_maxtime : sha256 785f7671518eda91d4b05937ab97e3667304f43c51a0cbefe7af4edf83bae0b3 -> e2b1c20e2185985da5c8920fa6189a6de77fefad2bb3ed0bbba61c396eb82c8f
+~ _set_cache_mintime : sha256 587029d56f2846525d7addfa5bf768d5c4894d5cb31e25efac226fe237400b28 -> 9d0c3199339cbacf6d1d8bfd57af85430fdbd3d9086386600592c60a443dc2ec
+~ _set_cache_max : sha256 dd53beabc8c9f0bf02701b9abdbb12f89e02d802b5b50a7f2b5d74a96dcc867b -> 161b654c71a46e0ce0db9242dc6c23f3f7f1597d52d0f1c9bb2cea30a9ab7fb2
+~ _set_cache_readsize : sha256 418c1470e56e02d925d8ae0ddbe5a7c887744335bd39b4c18424d2682f468c6e -> 1fa8a53b5d1cf99135b25cc9a7b52916e4d25ac9decdd527e4c1a41e495fc484
+~ _set_cache_readtime : sha256 ae6cc273abf67533461c3e3f43e7f6efabf0ebfc8f82daf1602a87c437f02072 -> ac09790ef1f9bdb8a0c0efca58fa6287809d78cfb4ac8e508a986529b4a8b7ab
+~ _socache_precfg : sha256 9da37e77974b68456e70479719a9dca14adf659f15c4357ec5d990c8a1d13c72 -> 46e9b9c1a03f83a43d7340c05e663a2eefb57197717d7c53bedfa9ffcfe0c36f
+~ _socache_post_config : sha256 df624301ad68ebb5c28083e8d752396bc5501f8ce60d05b3611e572d3f88592b -> fb8aef07a203846ec59a9f312532eed22dcbe16dc58b52b74176e87b002042d2
+~ _socache_child_init : sha256 fffa150ac6ffc45393517d5c79af3bff60158b592f741608c4389f294770c989 -> 02b6c41e1dc7cef77d77a0f531ffb9e194057e253001d0c25903a4bc886ffbc4
+~ _store_headers : sha256 797e9c129c17179d2c47636566ce2d428c496779287049709452c9a10f23d969 -> 4d7a3085abc3588ab27eb6904747341ea0d05b75286b028488a9574213abbb20
+~ _store_body : sha256 4e167aa8d279bb627f1ca19dda9db06b6e39493014e04ecfbcfca216dabe7420 -> fe3cf8206b488cc34a271fcce1af559a34a3e2713776a0375adab0d707e8d26c
+~ _create_entity : sha256 7a8b4b557009531b2eaab42adf2071a56d0ce7b850cd1af0faba3fcae1c3ec5f -> eb24e0e69cfac3eca224a480f807d84bc9a4881613d277744f1a2394e5382b9f
+~ _open_entity : sha256 2ba5efb660ba5010ec2926f2c04a6a1856541725a940fb4eab36d01369ecd2e7 -> c93ebf27da6ff69ec4f994f149173fa7b1bea75465fe34a14be9ddc67bd7c0a2
+~ _remove_url : sha256 7898fa83f059fa664d793c6229b425c435ee1b71ad64e42b2be52806095e8aa8 -> a3ef7f65efccd458b6d77f1fbe45f6daeff77e5427543be31fe104e8ba0af9fe
+~ _commit_entity : sha256 46faaff5baaabb04cd14b693768cb285fbd37aa68cacfe40e68567d57c0adb40 -> 8b2d5f45067aaf23fbe5c7a934298725aa649338e71f9cf309a89be779736023
+~ _tokens_to_array : sha256 f90fc67b54734b75a75609134eb864326227e8becbb1cb8ab2972d9895c12412 -> 15991b6ecc8ca16669da9c831ed30e1834bff3504749f6f7484031fcd8f14199
+~ _store_array : sha256 1b74dbad1352533f1cf835a3f197e89b715085d7aae05e58e188afb83c25f3ad -> 419f9003e957a640d5f8f005720ddab4e804879f5aed5bcab3a9d102f5d1e804
+~ _regen_key : 452 -> 440
+~ _store_table : sha256 05193a24b4ce24658e2150e2a8209225e35e7436d7788c2e02d13aa3cf0bcf88 -> 36575f1805d006ebcb4d7d892fb3290b4ddad7e913c27a1634af68ac9754dd55
+~ _read_table : sha256 81ac8e5ec76a2950bb4dc2955711fb3241ba3a1bd7dfe179e790d11e5805ed9c -> 8e6bf4789eccbebcf7c2a6595db7150c3a9e33524a9a550601b2eb0d843daf37
+~ _socache_status_register : sha256 b16d07e13446a0742c8a3b6d60bff897b25caf06faaef95befd7721e0ae4e70f -> abf350c0c7f9fa00e638ce56ce45c2c7594e3c946187215eda8a2d51a319b76d
+~ _socache_status_hook : sha256 9b83968bf2d34950e11afa03b52ad12aa1c7eef10fd64ace08c4b57f42b92381 -> 52d6e952756b4610fadd1c897307eb8ad8373985a48721a30187cf44cce86abe
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRbjugDs63E_nh9LrKXIzNhaKOKGLV_zLQv5WSg/Library/Caches/com.apple.xbs/TemporaryDirectory.QaP6H4/Sources/apache/httpd/modules/cache/mod_cache_socache.c"
+- "/AppleInternal/Library/BuildRoots/4~CQCNugBXuVk5QyWQghtZ7Xdpnx7s5XYALnb8teQ/Library/Caches/com.apple.xbs/TemporaryDirectory.AuKlu0/Sources/apache/httpd/modules/cache/mod_cache_socache.c"
+
+```

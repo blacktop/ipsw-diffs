@@ -1,0 +1,72 @@
+## ContactsFlowUIPlugin
+
+> `/System/Library/Snippets/UIPlugins/ContactsFlowUIPlugin.bundle/Contents/MacOS/ContactsFlowUIPlugin`
+
+```diff
+
+ 3600.11.1.0.0
+-  __TEXT.__text: 0x2734 sha256:c409012c511d5dfa230d5df469564d63e3b00f41561cc904a7269725c4c35deb
++  __TEXT.__text: 0x2730 sha256:a119b19672d4d648bf75cf106c754fac401ad49fd23d94138d03b958ee3678e9
+   __TEXT.__auth_stubs: 0x3d0 sha256:c64f7bcd42a99aecf0c5abd2af715f09f00659a50b60eeba2b8b9a2e105a3d35
+   __TEXT.__objc_stubs: 0x20 sha256:5bd3bf6007c1cfa4a976f2f8e4cbf1915fc6c91dc44546bbcdc583eddff8297a
+   __TEXT.__const: 0x14a sha256:a515e5174796984841c9c9dc78e4f1d0f57d1943cc96b1168dfcccb63af21e93
+   __TEXT.__cstring: 0x18 sha256:0ef4d39dfbb7d8483c3f628c559d23107287ef24bd9737fae4ab0bcbb3adaef6
+-  __TEXT.__constg_swiftt: 0x9c sha256:4798354bdc9e0d63a39e5f1a42e4b139a47a96a56dedd7d55aa6b283c40be9a6
+-  __TEXT.__swift5_typeref: 0xf5 sha256:a58511b317f765ce49264df2ee35cc74f6678e04194035d56e0b346a2f3b7c56
++  __TEXT.__constg_swiftt: 0x9c sha256:5da3cfb68098623f88269f98296bbd84c4095bd8e12add3019a28013667df778
++  __TEXT.__swift5_typeref: 0xf5 sha256:cea1fd8631fa84cb40ab5c0cbfa44dc840cccee2d305fac56a6681117ff900ce
+   __TEXT.__swift5_fieldmd: 0x40 sha256:67f93d87d0b0b8dc7c1cffcca6d6f76dd5432b8cfdb7814ddc45f557509c5e45
+   __TEXT.__swift5_types: 0x10 sha256:e48ac7f9db9178c404c743e3c33ac17e3babb7e61870c964f66edc721a85a028
+   __TEXT.__oslogstring: 0xf2 sha256:0319fa9de69dcad030dacf3f121aae052f98a93f66083b8fef2385496eb086ab
+
+   __TEXT.__objc_classname: 0x31 sha256:f5137c022157689d6d85485d0e78e606a3d3129c1744314e42b23c225e98364c
+   __TEXT.__swift5_proto: 0x4 sha256:3a502dd004d6fea30661d64621e411b0bdaf7052aa66bad824e1e5949372f078
+   __TEXT.__objc_methname: 0x13 sha256:2045063cbfc47e9d096e35714687ba111d9e74bab3da735d9b5c392a8dab6ace
+-  __TEXT.__unwind_info: 0xe8 sha256:3ad86e0dee12f0f9cba6782a542751fcd541f9812e47e00b2a3e8e0d45205edc
+-  __TEXT.__eh_frame: 0x68 sha256:388770c12e109716d39a9dd18be358263028e420e2b3b71f4d7ff4fd33aa2c7f
++  __TEXT.__unwind_info: 0xe8 sha256:87b6f9aeea29aa635c14410541553d7957327e76836da0681dd38118ee8f5d37
++  __TEXT.__eh_frame: 0x68 sha256:0bfcd0e6b3e323720b2913f23fb0b67a8a2da33da4ccb739e8ec649568955154
+   __DATA_CONST.__const: 0x168 sha256:f9debef66049dada4c03a884bcb2be8a23b1614f16b7c881920d0e52d0e24abf
+   __DATA_CONST.__objc_classlist: 0x8 sha256:dc91f80afe9ebeb289f7fd8142b51b247969d0612c914b290ed253adb90e3e85
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 180EA243-F7F5-3E28-B7D2-6827080B06BB
++  UUID: 636FDC65-BC72-30BB-89F5-E874FBFC372A
+   Functions: 83
+   Symbols:   764
+   CStrings:  6
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CRc4ugAW6v1VoAJy3pNuV-oOr_fzbXu1RGR5bf4/Library/Caches/com.apple.xbs/TemporaryDirectory.h4tuli/Binaries/SiriContacts/install/TempContent/Objects/SiriContacts.build/ContactsFlowUIPlugin.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/4~CRc4ugAW6v1VoAJy3pNuV-oOr_fzbXu1RGR5bf4/Library/Caches/com.apple.xbs/TemporaryDirectory.h4tuli/Binaries/SiriContacts/install/TempContent/Objects/SiriContacts.build/ContactsFlowUIPlugin.build/Objects-normal/arm64e/ContactsFlowUIPlugin.o
++ /AppleInternal/Library/BuildRoots/4~CRc4ugAW6v1VoAJy3pNuV-oOr_fzbXu1RGR5bf4/Library/Caches/com.apple.xbs/TemporaryDirectory.h4tuli/Binaries/SiriContacts/install/TempContent/Objects/SiriContacts.build/ContactsFlowUIPlugin.build/Objects-normal/arm64e/ContactsFlowUIPlugin.swiftmodule
++ /AppleInternal/Library/BuildRoots/4~CRc4ugAW6v1VoAJy3pNuV-oOr_fzbXu1RGR5bf4/Library/Caches/com.apple.xbs/TemporaryDirectory.h4tuli/Binaries/SiriContacts/install/TempContent/Objects/SiriContacts.build/ContactsFlowUIPlugin.build/Objects-normal/arm64e/ContactsFlowUIPlugin_vers.o
++ /AppleInternal/Library/BuildRoots/4~CRc4ugAW6v1VoAJy3pNuV-oOr_fzbXu1RGR5bf4/Library/Caches/com.apple.xbs/TemporaryDirectory.h4tuli/Binaries/SiriContacts/install/TempContent/Objects/SiriContacts.build/ContactsFlowUIPlugin.build/Objects-normal/arm64e/ContactsLog.o
++ /AppleInternal/Library/BuildRoots/4~CRc4ugAW6v1VoAJy3pNuV-oOr_fzbXu1RGR5bf4/Library/Caches/com.apple.xbs/TemporaryDirectory.h4tuli/Sources/SiriContacts/ContactsFlowUIPlugin/
++ /AppleInternal/Library/BuildRoots/4~CRc4ugAW6v1VoAJy3pNuV-oOr_fzbXu1RGR5bf4/Library/Caches/com.apple.xbs/TemporaryDirectory.h4tuli/Sources/SiriContacts/Shared/
+- /AppleInternal/Library/BuildRoots/4~CQDgugBcj6YG-c0nALViX9xosjjX5PDp3XzaTI0/Library/Caches/com.apple.xbs/TemporaryDirectory.BGAMn2/Binaries/SiriContacts/install/TempContent/Objects/SiriContacts.build/ContactsFlowUIPlugin.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/4~CQDgugBcj6YG-c0nALViX9xosjjX5PDp3XzaTI0/Library/Caches/com.apple.xbs/TemporaryDirectory.BGAMn2/Binaries/SiriContacts/install/TempContent/Objects/SiriContacts.build/ContactsFlowUIPlugin.build/Objects-normal/arm64e/ContactsFlowUIPlugin.o
+- /AppleInternal/Library/BuildRoots/4~CQDgugBcj6YG-c0nALViX9xosjjX5PDp3XzaTI0/Library/Caches/com.apple.xbs/TemporaryDirectory.BGAMn2/Binaries/SiriContacts/install/TempContent/Objects/SiriContacts.build/ContactsFlowUIPlugin.build/Objects-normal/arm64e/ContactsFlowUIPlugin.swiftmodule
+- /AppleInternal/Library/BuildRoots/4~CQDgugBcj6YG-c0nALViX9xosjjX5PDp3XzaTI0/Library/Caches/com.apple.xbs/TemporaryDirectory.BGAMn2/Binaries/SiriContacts/install/TempContent/Objects/SiriContacts.build/ContactsFlowUIPlugin.build/Objects-normal/arm64e/ContactsFlowUIPlugin_vers.o
+- /AppleInternal/Library/BuildRoots/4~CQDgugBcj6YG-c0nALViX9xosjjX5PDp3XzaTI0/Library/Caches/com.apple.xbs/TemporaryDirectory.BGAMn2/Binaries/SiriContacts/install/TempContent/Objects/SiriContacts.build/ContactsFlowUIPlugin.build/Objects-normal/arm64e/ContactsLog.o
+- /AppleInternal/Library/BuildRoots/4~CQDgugBcj6YG-c0nALViX9xosjjX5PDp3XzaTI0/Library/Caches/com.apple.xbs/TemporaryDirectory.BGAMn2/Sources/SiriContacts/ContactsFlowUIPlugin/
+- /AppleInternal/Library/BuildRoots/4~CQDgugBcj6YG-c0nALViX9xosjjX5PDp3XzaTI0/Library/Caches/com.apple.xbs/TemporaryDirectory.BGAMn2/Sources/SiriContacts/Shared/
+Functions:
+~ _$s20ContactsFlowUIPlugin6LoggerO04siriA0_WZ : sha256 62cdb1188e22c3d85c1a33a6fd318811e99611e1e4d95624b9ab629e6904f71c -> 92475a12846d272fff5733585dc970a12db9f7f0c85d8c2490664f6c267c758b
+~ _$s20ContactsFlowUIPlugin6LoggerO04siriA02osABVvau : sha256 588b2d6c722869a03a74130fba62aaac811ac94c6f770ace5eea06291491bcf8 -> 4fab7a9723e981fc668012586c1dc4847ab7598199c4a81a9fabaedd237d1fad
+~ _$s20ContactsFlowUIPlugin6LoggerO04siriA02osABVvgZ : sha256 a0b1e290cd78da38ccf2d2c84fb134cdf63f27f8970c1510b44066165c46bc51 -> b5fef37f35923b7e35e637b67a8868183e3470b24caf684d5145e5340d7b92f6
+~ ___swift_allocate_value_buffer : sha256 f2d5ade1930bd78de9b6032472e0a6cc600a2ac45bce3691a95465a2912f1226 -> 03503dcd9e51acd6de16e359aa62623d00a260e41156711471125f80d58c89b2
+~ _$s20ContactsFlowUIPluginAACABycfC : sha256 ad4df53bbeb501b4cf7c2f0fbc986d606704c9823a896480b75a739ce1b43b59 -> 30e0dcd8fcc198e6d2ccd4d26db50b79fb2e53190d2a82603b53b8c8c37c3c84
+~ _$s20ContactsFlowUIPluginAAC7snippet3for4mode5idiom7SwiftUI7AnyViewV04SiriA6Common0A18SnippetPluginModelO_So7VRXModeVSo8VRXIdiomVtKF : sha256 610e96bf2a0a4642f1041389dd883dcb6ed9ce3edae690b0c96963d259675275 -> 20d71fb0f2217aef78300808c658e4edcdb4c513355b6558ada74f2bb3333388
+~ _$s20ContactsFlowUIPluginAAC18makeGetContactView33_8A73C334608F2A23CF34B3B42D75E048LL3for7SwiftUI03AnyG0V04SiriA6Common0eF12SnippetModelV_tF : sha256 d5ad9212ea09b3373da3d9b18dd0794f65e4d04dcab054300d69dd7d4aa9f44f -> a456d733da512a07cffc8b9b434624ad68c696ce64d5bc044524848ecabac293
+~ _$s20ContactsFlowUIPluginAAC27makeGetContactAttributeView33_8A73C334608F2A23CF34B3B42D75E048LL3for7SwiftUI03AnyH0V04SiriA6Common0efG12SnippetModelV_tF : sha256 12dc559799d7d5d6f938e584772a830016d86831dd26c8400f6498dbb655ea2d -> 7db8d38c260fe6e0776fb31d3254557dd44e2097c1f655ce0e33b64784133c7b
+~ _$s20ContactsFlowUIPluginAAC30makeModifyContactAttributeView33_8A73C334608F2A23CF34B3B42D75E048LL3for7SwiftUI03AnyH0V04SiriA6Common0efG12SnippetModelV_tF : sha256 69ba58d49fce2d48026b212a3519aee5601ebb0e065b1ee2e1e988275f4d4e17 -> c01c4ef0357dfc02fe0ee562dd63a9319cda2802f9bdcc8b80fba6363f69020e
+~ _$s20ContactsFlowUIPluginAAC33makeUnsupportedNoEmergencyContact33_8A73C334608F2A23CF34B3B42D75E048LL3for7SwiftUI7AnyViewV04SiriA6Common0efgH12SnippetModelV_tF : sha256 065cb9b788b4286de44008557b02f601c772250bc5c1f49f7030178de0a36aa8 -> fd6a6d5cb2c31ff92966a620154239bb1992e8f4945ff9f3d177320e673ebf53
+~ _$s20ContactsFlowUIPluginAACfD : sha256 f822629556c5cca135fdc9c87a8776f53deaa682be4ea6993eaa065984605683 -> f2cea1ab9a756f9a1bb16ab3a799a1b1d63b173ead7723e49b45de1d26a0e792
+~ _$s2os32getNullTerminatedUTF8PointerImpl_21storingStringOwnersInSVSS_SpyypGSgztF : sha256 3f5b7f2892dd2b28b7da2b4f49bd1c7d285971408c41af6c12a1cb76e79fae1e -> 4ddcb2c1a8f2e0bacd536229bb5bc9ea75a2a66b8b42dede725dac5a1d345dab
+~ _$ss11_StringGutsV16_deconstructUTF87scratchyXlSg5owner_xSi6lengthSb11usesScratchSb15allocatedMemorytSwSg_ts8_PointerRzlFSV_Tgq5 : 268 -> 264
+~ _OUTLINED_FUNCTION_36 : sha256 a9ff252afc11f82bfb019dd098a24b1a2a821261e4f33196d8ce44d2d8592e78 -> cb1c15055b9c2ad7cf9f5fcfdb42c2e4b6828eb7b14653626f19f63a3d2f9da4
+
+```

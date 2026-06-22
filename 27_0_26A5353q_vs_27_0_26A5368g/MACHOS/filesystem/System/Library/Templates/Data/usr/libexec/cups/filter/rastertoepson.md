@@ -1,0 +1,36 @@
+## rastertoepson
+
+> `/System/Library/Templates/Data/usr/libexec/cups/filter/rastertoepson`
+
+```diff
+
+ 527.0.0.0.0
+-  __TEXT.__text: 0x17fc sha256:f88e2ea7b7e133be541b4d9d65c13f1ea87e638b5b61f2aae6929a565a1eb03d
++  __TEXT.__text: 0x17e4 sha256:38a652ab1d5681f6950d890785248e52f4a4cb9efc0424d884d2161ad6f677aa
+   __TEXT.__auth_stubs: 0x210 sha256:9b958faa18c7cb156413f2f9233054ee3fcf6dca6e95b797b2afda8fda20f881
+   __TEXT.__cstring: 0x3cb sha256:2ba46a94f5bbd3488a441cf8177028797fb0d854d307f28e13d88adb25c20328
+   __TEXT.__const: 0x78 sha256:ab6ffa7e80c34b729c07d36c38c76d83adad183969d283451d053df6794f3529
+-  __TEXT.__unwind_info: 0x80 sha256:33dc589fd9991b3ff39b54ccd5ed80d33d15e16e14b5265cfde6b7d5f637c1f7
++  __TEXT.__unwind_info: 0x80 sha256:e620e0c484e13cee4cf20c966c49b68ddace585908dad014a3134d91ad49f7c1
+   __DATA_CONST.__auth_got: 0x108 sha256:3d74e5ed7bc7e19f30bfe8a15087dacb4c1f2f6525be00cf1fe1d1f527bc42d4
+   __DATA_CONST.__got: 0x18 sha256:a3ee3cc1442b33b1ce2ebec1cb367ab1e7713d5cd83713566dbcf66bd0891fdf
+   __DATA.__common: 0x7c sha256:5e761c313274b0bdc8f1d3ac31623ce9ea9dbb42bfa4c36f9df694293df257fe
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcups.2.dylib
+-  UUID: 33AAB4D4-031E-3D6D-A48E-12CD1BDE7285
++  UUID: 23AD9E50-9654-3E11-88A7-08FF75EB296A
+   Functions: 11
+   Symbols:   38
+   CStrings:  38
+Functions:
+~ sub_1000005d0 : sha256 f844341cf39138ab8ce9e866484f956b4fcb49e19957ecf10da31a090d10b829 -> 5d0e027f6cbe2602bc574bca0d4c02cf282870827c473ad8a5ab601df0f63164
+~ sub_100000650 : 1848 -> 1856
+~ sub_100000d88 -> sub_100000d90 : sha256 a178156fded8adb4afd465049c7151060dcc810231196fe25074a777674ae230 -> 73b654831dcf17812a3340d1fc3f60ed17da154f0621a2329a0c48e00b3610ed
+~ sub_100000ea8 -> sub_100000eb0 : 936 -> 940
+~ sub_100001250 -> sub_10000125c : sha256 4acdbf2e0414b97c77106b73d310f69d9ad355548a489fa18a4192e1a907dfd6 -> dcc46a8a1df0948a27a1aacb36b7cd63702346f39fe19ab2c8e98d9284f2ad5d
+~ sub_100001270 -> sub_10000127c : 980 -> 956
+~ sub_100001644 -> sub_100001638 : 968 -> 956
+~ sub_100001a0c -> sub_1000019f4 : sha256 1d8a211aff7abd26fffd424be3d07d8bc6e526a04d9f8a416b03ae08df1e7cfd -> 64d992c9ce5b9fb11251cccd40cdc6aa3602c39c53248b76171dc1c872f4b780
+~ sub_100001d90 -> sub_100001d78 : sha256 3947bc09d181199aeb8027988757a80f23f23d292370f1f7a172ffec6fb91959 -> 73bc6b19c512f6503bfe1ba1f6db2c10e6beedb1a2403f57ae1fa342d1fa77d2
+
+```

@@ -1,0 +1,54 @@
+## Delete Calendar Items
+
+> `/System/Library/Automator/Delete Calendar Items.action/Contents/MacOS/Delete Calendar Items`
+
+```diff
+
+-405.0.0.0.0
+-  __TEXT.__text: 0xff8 sha256:b37be384979ddeb2a9bf045a188c5babebe79844aacca4b25963b57ce106ea83
++406.0.0.0.0
++  __TEXT.__text: 0xff4 sha256:9057b0012011b8ff95ab78bb73ec7bc1486e0cb245c5b887ea3444151a32b3d8
+   __TEXT.__auth_stubs: 0xd0 sha256:ace37aaa9549b9bc1acb0f3a3169d0281d20c75768004812bcfabc86404a44c0
+   __TEXT.__objc_stubs: 0x280 sha256:138950bfaea51c4417c2072c3b6a8e4f1016544b17b51078bf8f5f1050fe3fe6
+-  __TEXT.__objc_methlist: 0x2c sha256:cda06eeb08a35cec02a5c34d30190ff59c3793d9159fdbd012e5d4dc85b1da45
++  __TEXT.__objc_methlist: 0x2c sha256:5c4ef15b06c912b967e95f5ce48ef30034bc61cce4d4a62530871c2a623f27e7
+   __TEXT.__const: 0x10 sha256:825b13da936b93cafe948a525b8f28a1ea24c636e7f351fa8c13e897547d3eea
+-  __TEXT.__gcc_except_tab: 0x38 sha256:413cc8710aed52c8ccb8df347e4cb6ce038fd80e5a7d46760aff14800b05c3a7
++  __TEXT.__gcc_except_tab: 0x38 sha256:5cdd637943f15ce6346b47dc4dac634f76add6d4ac51c421ba2073485e64d4f4
+   __TEXT.__cstring: 0x5e sha256:e3044d9251d7dc35ee44f12640001e3d3ea09774b5801077cf635265cb932f12
+   __TEXT.__ustring: 0x10e sha256:3d4c7f553653cc76a3749ebe499ce5e00d78d8947da102279440d144d0ee384b
+   __TEXT.__objc_classname: 0x18 sha256:14a29483026e8b57280438c4273a1b9f919475bef981f8482e37a4d990fc8ac6
+   __TEXT.__objc_methname: 0x27e sha256:5f018dc2ebe954ab1a4cd4de2c42306cfddafb0a674108ee298b59bfb6f3d409
+   __TEXT.__objc_methtype: 0x1a sha256:57093aae32389f5fc116a6da9d8775e1a1704100013a1c29d022bb10be6daffe
+-  __TEXT.__unwind_info: 0xa0 sha256:23e7cf724c1fbd60f3a1ce9c1e9d4c15c09f3ccd52e8065e1d3ad23894fed2c8
+-  __DATA_CONST.__const: 0xc0 sha256:ec7c5ca692591b49ad0a1f7c2c972091fed0161cd214b932ad4f4d50f4820cd5
++  __TEXT.__unwind_info: 0xa0 sha256:84203aaa9e97bc9dbca3fb45020d9438f24b5a818dc1c0ddd8722b4dace1d0e2
++  __DATA_CONST.__const: 0xc0 sha256:90553695cfbcbe626372fc3659745a7a3e54e8eb0ae43826d21223a2668d0ea6
+   __DATA_CONST.__cfstring: 0xa0 sha256:92491fd9448e8feb853e4c9b834fb52ffc851924439522b9abd1dbc53e032417
+   __DATA_CONST.__objc_classlist: 0x8 sha256:508f353da517536665448c60c03bfc66ce05a3dba83cfe21cbf19c7cc0ec55c3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D10F5134-1F01-3581-8A83-1F49045F0FA3
++  UUID: 6DB2DFEA-8006-3771-BCCC-6EC7D12B71A2
+   Functions: 19
+   Symbols:   36
+   CStrings:  33
+Functions:
+~ sub_b50 : sha256 4d7c7dff39b01044de5fe595b09fa14354d14910b21d9fcc4b8a7beb86f90eec -> df044e81593a48a9fcc0c58dfb6259dca5fc43ecb4429d02d00f347069321171
+~ sub_c58 : sha256 82729181fd76c9658847cb6af4c85d64bdefa5fdb7100687077a3bb8fa8c92f5 -> bd54632505b132ef9840ec83c218ad099f363f7f09de22c771633024dd7c5b1f
+~ sub_d3c : sha256 e9dbc879486dc52c4039a42ab4f28a2a3ec944a0f95cc010766152574908ea4e -> 3a3d4329edac8d97295868e5024a0dbaf7c1079326e14e3be92dda8ea9870b31
+~ sub_ef4 : sha256 384aa7691ca7933b0978e394871b180e2eb5c73e1483276c705a18595cd8af7f -> de41522ad8fd856db68221af9890bd717a47a2eaedcaec8db540f5560de81108
+~ sub_f4c : sha256 17fc403a42e78d406430d741bab35210ba50decc9a8c8e5391391730e910705b -> 18af64a71d27dc72f258e20d6eb1a08de7e901006481d489e66583fcd106ce8d
+~ sub_f98 : sha256 c5a72ebe38dbb10f9d4f667d1f45dea5ad45c480ef56bd38715ba7fb8c1f03d2 -> f88356520cb9854341e74eb52570ab0c5e8721cf9b52ac1e422e7e0226d5ad97
+~ sub_fe8 : sha256 1e3279d840e10aafbe241e061505a6a9b003d04defc289eb1edb1381c3bd0384 -> 198524effad8a6e153f70002426b5c30c7ae58d435210aa3f1398ee8befa210f
+~ sub_102c : 800 -> 796
+~ sub_1364 -> sub_1360 : sha256 e1a3286ccfd2c6d27de8e3bfa2f0d0d76f7db72e547c1161e0cb9387bf22b229 -> 0710ef8fd2feff2ee1ba1b28b10a29e8ea6d39147fd2b2beb25848bb005a94a5
+~ sub_1608 -> sub_1604 : sha256 9936bfb637128f2a35d25087667668852465b4fad22449f1f73df0ac843db815 -> f88d30d2066b2a071a59fa460a5dc0bc90b5fbe55e5a87b3a749ee3c548d7f51
+~ sub_1814 -> sub_1810 : sha256 df70d18458e17d7c727f0f3b87ab754d231fa726ae748de0a71534adc57e0882 -> 761937d0c34a963f73cb22cecdd6718f66842d867b46dc0939847e059b7a38a0
+~ sub_1a24 -> sub_1a20 : sha256 2d77ef8dd56923f39341a7b673f120bbd012268eb93532efca70938653e2b512 -> 18046c1fc2c0f7025adc637bf8090240c1bb06bda46e2dda8357fb0fcbb23d3f
+~ sub_1ac4 -> sub_1ac0 : sha256 211f8e83e73eb23316040d94656158a85e0bcf7a22f6e5e33508cb8a46b1c228 -> c8c83bb2efaf567841082a56dd4b6eb5bae99828922fc8ff480c85cdf02e22c4
+
+```

@@ -1,0 +1,72 @@
+## BlastDoorPosterArchiveBridging
+
+> `/System/Library/PrivateFrameworks/BlastDoor.framework/Versions/Current/Resources/BlastDoorPosterArchiveBridging.bundle/Contents/MacOS/BlastDoorPosterArchiveBridging`
+
+```diff
+
+-322.100.2.1.1
+-  __TEXT.__text: 0x2708 sha256:81114634ec068a143d50222728bd289ebbc1a46b0907dc6e6d4a278235130fcc
+-  __TEXT.__auth_stubs: 0x6a0 sha256:ee7d7defc85c9b59dc34b4e27817f1264d98274c23a7f9efdace6bfe5477c16b
++324.100.2.0.0
++  __TEXT.__text: 0x2758 sha256:6f0e8ef4388fb6f48293b1d27e60eee10e2933a35b35cf55740052167e41de1e
++  __TEXT.__auth_stubs: 0x6a0 sha256:6d7ba0807a69ed212b247ad6fc0f4a4d7878bbc011edb3a0c9025a2266ce1ab1
+   __TEXT.__objc_stubs: 0x120 sha256:aaed8d6a950490567d3a1c93968e4f1e2518ca0097eace5736903b93a42e24c2
+-  __TEXT.__swift5_typeref: 0x24 sha256:078279435769e49b287cfa3d98b37ae7c1168c521c86d0bb914e409234dc8af1
+-  __TEXT.__const: 0xa2 sha256:3ecc17fffbab7174882b9a0e0c6877b463b9fa304ae0f41b4bc910da7311b953
++  __TEXT.__swift5_typeref: 0x24 sha256:71fdf943b4b80753b78fb6aecc2df7eb336c53871d6528fd18ae49361f46e3cd
++  __TEXT.__const: 0xa2 sha256:36f3704650a3bef1d99e418464af2b95c2b7cfd8e68d434706f0d921ed354e64
+   __TEXT.__objc_classname: 0x45 sha256:b804ccc1736f5f74d98389320aebc6a1c8005e339db72ea617cb28c39b2cf770
+-  __TEXT.__constg_swiftt: 0x48 sha256:f53b25f61857d36c450de2563c36a9402018f602ce59e3b3816015ffd69c0fab
++  __TEXT.__constg_swiftt: 0x48 sha256:b294ea4ab2e07065b9772dee217e372936601c4b0e15fa52d7d68e4029be2aec
+   __TEXT.__swift5_fieldmd: 0x10 sha256:a0aed90361d9b014bb11192d15bc34c1787e46e2e3c741a905b5a0d564956753
+   __TEXT.__cstring: 0x44 sha256:06f0055686e87d5d38f9c146539d464563e35e2d88ac367f90261fb46e22eb31
+   __TEXT.__swift5_proto: 0x8 sha256:ffcc59f6d4c9492528f26564fd465f72d65079d7af01135d9e02f499aabd1da1
+   __TEXT.__swift5_types: 0x4 sha256:4ebc7ee6f733c5d3687375e2eac8bc108f9a2c05af85ba6fb5af92d564845e5b
+   __TEXT.__objc_methname: 0x132 sha256:7a2ffd8de93abd07e9d672242bb62f9ca6de8a6f67365cf719eebf638d34c9d8
+-  __TEXT.__unwind_info: 0x88 sha256:675338cbcd18974b536844150de4187228539f79bed62016a98f1e733f28721a
++  __TEXT.__unwind_info: 0x88 sha256:85faa92b06e1f67a7577b508bfdab183b0604841e14f355a62fd1012d7e17087
+   __DATA_CONST.__const: 0xc8 sha256:6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a
+   __DATA_CONST.__objc_classlist: 0x8 sha256:b64f54ed30c83715c523d4a3c0d6812e1534fab29b06e1b572f0e01224d2ea4a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+   __DATA_CONST.__auth_got: 0x358 sha256:fb24725856a0b058c019d7d2cbe585557890a377d6a1fc3c2f4f2494ea86dd47
+   __DATA_CONST.__got: 0xf8 sha256:e2d66d06a3270ccd3592c1c785ee69dc53f010edfdbef47944f6c32010f2fda1
+   __DATA_CONST.__auth_ptr: 0x60 sha256:8a8da55206a1d1f26c976d18301fb657d2cafbd7f5c04a8ecce2bf672cf4eac3
+-  __DATA.__objc_const: 0x90 sha256:407a4d0a7bc149a35c5e13a2f939422ce34d81b346ffc8e9eba6168f1417ea87
+-  __DATA.__objc_selrefs: 0x48 sha256:a389d003a8c5c92634c2a7cdca2df760da107aa5c88a29c6aec33064174f57ac
+-  __DATA.__data: 0xb0 sha256:06d197aad0907c37f1e2d9114971c1148fe8fd1b380a8296a58759523c2b8867
++  __DATA.__objc_const: 0x90 sha256:123651808cb0d172a8b7823181542fbdf297d312fc499ef55d6db92991cc8620
++  __DATA.__objc_selrefs: 0x48 sha256:aec984cf1b9c85268bcc93d8dedcb1c8f7f8f1644df47c168885b85b955489b2
++  __DATA.__data: 0xb0 sha256:59fd3f7454be4c3f6f0036b3bc51b33a0547d55f74d58cb1d632418080a76693
+   __DATA.__bss: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0D96ABC7-851C-3DCE-960B-80EBFB5213A6
++  UUID: 98D05E79-21A9-33D8-B316-FA0D044A4958
+   Functions: 13
+   Symbols:   365
+   CStrings:  11
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CSIougBAxGgqWt-3dWP5W8rz4h9UfZlITBCGZy4/Library/Caches/com.apple.xbs/TemporaryDirectory.LzBF0Q/Binaries/BlastDoor/install/TempContent/Objects/BlastDoor.build/BlastDoorPosterArchiveBridging.build/Objects-normal/arm64e/BlastDoorPosterArchiveBridging.o
++ /AppleInternal/Library/BuildRoots/4~CSIougBAxGgqWt-3dWP5W8rz4h9UfZlITBCGZy4/Library/Caches/com.apple.xbs/TemporaryDirectory.LzBF0Q/Binaries/BlastDoor/install/TempContent/Objects/BlastDoor.build/BlastDoorPosterArchiveBridging.build/Objects-normal/arm64e/BlastDoorPosterArchiveBridging.swiftmodule
++ /AppleInternal/Library/BuildRoots/4~CSIougBAxGgqWt-3dWP5W8rz4h9UfZlITBCGZy4/Library/Caches/com.apple.xbs/TemporaryDirectory.LzBF0Q/Binaries/BlastDoor/install/TempContent/Objects/BlastDoor.build/BlastDoorPosterArchiveBridging.build/Objects-normal/arm64e/PosterArchive+Memoji.o
++ /AppleInternal/Library/BuildRoots/4~CSIougBAxGgqWt-3dWP5W8rz4h9UfZlITBCGZy4/Library/Caches/com.apple.xbs/TemporaryDirectory.LzBF0Q/Sources/BlastDoor/BlastDoorPosterArchiveBridging/
+- /AppleInternal/Library/BuildRoots/4~CQc_ugB-VyB9H75CxaQmdDTAUkDyIYCii3fkJts/Library/Caches/com.apple.xbs/TemporaryDirectory.3FX7Lc/Binaries/BlastDoor/install/TempContent/Objects/BlastDoor.build/BlastDoorPosterArchiveBridging.build/Objects-normal/arm64e/BlastDoorPosterArchiveBridging.o
+- /AppleInternal/Library/BuildRoots/4~CQc_ugB-VyB9H75CxaQmdDTAUkDyIYCii3fkJts/Library/Caches/com.apple.xbs/TemporaryDirectory.3FX7Lc/Binaries/BlastDoor/install/TempContent/Objects/BlastDoor.build/BlastDoorPosterArchiveBridging.build/Objects-normal/arm64e/BlastDoorPosterArchiveBridging.swiftmodule
+- /AppleInternal/Library/BuildRoots/4~CQc_ugB-VyB9H75CxaQmdDTAUkDyIYCii3fkJts/Library/Caches/com.apple.xbs/TemporaryDirectory.3FX7Lc/Binaries/BlastDoor/install/TempContent/Objects/BlastDoor.build/BlastDoorPosterArchiveBridging.build/Objects-normal/arm64e/PosterArchive+Memoji.o
+- /AppleInternal/Library/BuildRoots/4~CQc_ugB-VyB9H75CxaQmdDTAUkDyIYCii3fkJts/Library/Caches/com.apple.xbs/TemporaryDirectory.3FX7Lc/Sources/BlastDoor/BlastDoorPosterArchiveBridging/
+Functions:
+~ _$s9BlastDoor16MemojiDescriptorV08CategoryD0V0aB21PosterArchiveBridgingE4fill33_6BB9F5003884E46821F305AA392360B4LL_3forySo09AVTMemojiD0C_So09AVTPresetE0VtF : sha256 cd5e00bda711dbb74da40ce58f107642e161b4e124f728b0da5589a1096c6004 -> 07f6624360a8ffc0484c59a2cc6a7a2cc03bb0a7d78691b94aba277c1389f388
+~ _$s9BlastDoor16MemojiDescriptorV0aB21PosterArchiveBridgingE013makeAvatarKitD0So09AVTMemojiD0CyF : sha256 1a57119e545d0b706112d430c507461f804fe5166737eca7ca5f827468276b20 -> cc31e4238da21c3e6bd6bb4c412055832273a9f45378ec9259a8c5ab60e1f746
+~ _$s9BlastDoor26AvatarStickerConfigurationO0aB21PosterArchiveBridgingE04makec3KitE0So010AVTStickerE0CSgyF : sha256 63426c04b4f98f7f0bda605bff3f94822d80b6d83809734f262a158f146f0e1f -> 613f3e9875aba2b0fcd7d6959a03e7eaf3cf49d3eac029ce783f8d02a90ffdb2
+~ ___swift_instantiateConcreteTypeFromMangledNameV2 : sha256 0cc724d10e9e41959d880de95910ba6bd730dcfd582e77f7ce829f1432e31b8c -> 8540ddd928339ec26e1526e8d44596db01bc0da628d781c18b2c8721b07887e4
+~ _$s30BlastDoorPosterArchiveBridgingAAC7dataFor10descriptor10Foundation4DataV0aB017AnimojiDescriptorV_tFZ : sha256 03a5a0958a4a73450c822c33fd43bdfaae7be6e72901c6da11b42f05f5a43578 -> 6bfe56afddc8722810f2bfb419554ffae5b40f5aa2b60d535dd33d4120151c70
+~ _$s30BlastDoorPosterArchiveBridgingAAC7dataFor10descriptor10Foundation4DataV0aB016MemojiDescriptorV_tFZ : sha256 a0bc8d234c88dd1f1cb9822560c33d5100c32d068120238613d5ae0d95c70771 -> bfe7639c56dfad9c959a05921b24402af77d18b5e5cc96831d7c0aac84240a4c
+~ _$s30BlastDoorPosterArchiveBridgingAAC7dataFor20stickerConfiguration10Foundation4DataV0aB0013AvatarStickerI0O_tFZ : sha256 2dcbc6dbb4f1cd1690438ab8f2e7e60681ad4e0b2aca0f0f52abbb61369dbb48 -> 4aeedd1ebc32dc2cd687e6974b9a8eeb0f5751ee1c1d6d608dee93dcb6831850
+~ _$s30BlastDoorPosterArchiveBridgingAACfD : sha256 3cc87b7791e851e15b1f3a30c3e6ac596e510d96f994ba523e6d1a194eccef01 -> e4dedd6c93daee88d522232b52930d61f25581a2b80e3b7f088ddb6c9c4c699a
+~ _$s30BlastDoorPosterArchiveBridgingAAC7dataFor10descriptor10Foundation4DataV0aB012AvatarRecipeV_tFZTf4nd_n : 5484 -> 5564
+
+```

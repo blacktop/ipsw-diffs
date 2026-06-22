@@ -1,0 +1,142 @@
+## libsystem_symptoms.dylib
+
+> `/usr/lib/system/libsystem_symptoms.dylib`
+
+```diff
+
+-2357.0.0.0.2
+-  __TEXT.__text: 0x5c0c sha256:feecd26991cf72f2df5997f48bae5342900807b6f164780d1b0fb344225b6632
+-  __TEXT.__cstring: 0x18b3 sha256:8c86a74cadcd7afcfbba015171b4393f8d05cc686d09da6231739740c42b9918
++2374.0.0.0.0
++  __TEXT.__text: 0x5a98 sha256:b0806e9ae578a6d9e9ea53fe91c715444f81235a3aad7c43bb74307a358cadac
++  __TEXT.__cstring: 0x1839 sha256:f6930fda3b7bacd104f71487d0c400fa38daa2a94e6cc1dec0c0fbfa2589b3e2
+   __TEXT.__const: 0x30 sha256:3165ccda1e016d72bcc8c01a63ac5d5f8a46be2d52faacd66c6804350c137390
+-  __TEXT.__unwind_info: 0x138 sha256:0800239f54850f9f9c3e753843e7b11b8bfe78f31a5d684472858f2c8b34977e
++  __TEXT.__unwind_info: 0x140 sha256:7bde1bb49fcce32680c9713015e4dc32eff2fef5fa737955c9dacab78ef021c8
+   __TEXT.__auth_stubs: 0x0
+-  __DATA_CONST.__const: 0x148 sha256:0223f421f2b07d21ebf5c804ef30356ad7c0cb4b613409964d53dd6ea9657449
++  __DATA_CONST.__const: 0xf0 sha256:f616d2485df1ca87cbb9d4bf3243d6d1a0e37d47aec37c5db56d6aa73f1e4fc6
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x130 sha256:fc0d9df67a593c85b5d938a88ace73b4feded9e7c38bbf036c86a42a994df9e2
++  __AUTH_CONST.__const: 0x110 sha256:925af0f4c284ae17438045ddfcb2243c657516ec59ece5144788b2691d16ecbe
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__data: 0x4 sha256:67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450
+-  __DATA.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
++  __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   __DATA_DIRTY.__data: 0x4 sha256:67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450
+-  __DATA_DIRTY.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
++  __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/system/libcompiler_rt.dylib
+   - /usr/lib/system/libdispatch.dylib
+
+   - /usr/lib/system/libsystem_malloc.dylib
+   - /usr/lib/system/libsystem_platform.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: 07EE39F7-A2D2-3BBE-8C24-CFBBCF7072B9
+-  Functions: 71
+-  Symbols:   164
+-  CStrings:  195
++  UUID: 364D49B3-D986-35F0-84F9-D5AA134B9C22
++  Functions: 69
++  Symbols:   154
++  CStrings:  185
+ 
+Symbols:
++ ___symptoms_daemon_fallback_subseq_disposition_block_invoke.13
++ __block_descriptor_tmp.12
++ __block_descriptor_tmp.16
++ __block_descriptor_tmp.18
++ __block_descriptor_tmp.22
++ __block_descriptor_tmp.28
++ __block_literal_global.20
++ __block_literal_global.24
+- ____symptoms_is_daemon_fallback_blacklisted_block_invoke
+- ___symptoms_daemon_fallback_subseq_disposition_block_invoke.20
+- __block_descriptor_tmp.19
+- __block_descriptor_tmp.23
+- __block_descriptor_tmp.24
+- __block_descriptor_tmp.31
+- __block_descriptor_tmp.35
+- __block_descriptor_tmp.41
+- __block_literal_global.26
+- __block_literal_global.33
+- __block_literal_global.37
+- _block_invoke_2.kBlacklistedProcessNameList
+- _strcasecmp
+- _strcmp
+- _symptoms_is_daemon_fallback_blacklisted.cold.1
+- _symptoms_is_daemon_fallback_blacklisted.is_fallback_blacklisted
+- _symptoms_is_daemon_fallback_blacklisted.is_media_play
+- _symptoms_is_daemon_fallback_blacklisted.onceToken
+Functions:
+~ __symptoms_is_daemon_fallback_blacklisted : 116 -> 8
+- ____symptoms_is_daemon_fallback_blacklisted_block_invoke
+~ _symptom_framework_init : sha256 25eb558d54b7e94debbd8631e2a272a669e4a986a8efc0341bd8eb8ac6cea1f9 -> b3485606b71d3f08b6e79a2652e0658ea71247c02c7f9e62f07941809d496b4a
+~ _obtain_symptom_framework : sha256 7c95885f4517c29c8922e867cb4fc5c4612cae23c32ce82c6a6505b7b2aad6d7 -> 519c5ba21f9a71e73b5b6bd5e513caec58155faa5fb23b7a4d6d40aadff596d6
+~ _find_symptom_reporter_by_name : sha256 4a15d828873b6b8adefb35771435479ec9d8f97f1c9b7da8cf4ec48d8b7b7076 -> 2eafce676801a6d0d23d792bc30dd0fd9396c81342e6c482ece87b67fe52033c
+~ __symptoms_globals_init : sha256 179d3186874eccbc5e2c73fa2b271b18d75c2080819234b04da962ecff1175e4 -> f80469745e89652bd30c59a04fc27b9b50432f6dc5a0762f9179c93f57c90d89
+~ ___framework_creation_queue_block_invoke : sha256 1acf204cf2788f10625f971efc76cfa8230ca9c0bf3fc0f8adb3c69de9586c3e -> c5eac2fff082a11025725feb4922c37b59b4d2cfdf73b7baaf2d64f8d2cf5f9e
+~ ___obtain_symptom_framework_block_invoke : sha256 2b1a3d858f741d5c6025b2cfde677ea8e5cacdc81cf324d24f12aa2521c223e9 -> aa2d6549e0dfc57239ba4f4cf0687d59ccdef7a1173a991d7bd18101007db8c8
+~ _symptom_new : sha256 a93b0e79b1f79085ca4ae74441b6081a406be477ca17c38577ac79cce935211d -> 593b9eecac37f6170e55f06664aaa4840653002beb21ff2ceb3a72b79b918b45
+~ _symptom_set_additional_qualifier : sha256 ff000ae5eead165c2cab20b1d089763a86b80388bc70850fd04eaa4ff88b3be3 -> 4f432c5475faf80156d950d2060abb2fdbe5ef127276c9e9fc1365ade0a2683a
+~ _symptom_send : sha256 31a0a95ffa7ca9cef8531457437988bb7cc3644d0c938f6ea3b4744e3cc212f8 -> 911200f4ace25e77a63e60924d43fd321800e8279f5a340cc838a1e374ffc297
+~ _sr_log_symptom_action : 876 -> 872
+~ _symptom_post : sha256 d877ee28c5cc8084c1881f7a3b908f04254f76638a09d3cc1f5fb8d752e1f71f -> 28127fcf44c62cc2de809c5d3cb16ca3f8a8e5b5094b6e288e2c63647d3d3b34
+~ _dump_symptom : sha256 567cee7b9c89968ce44acc91d1e1dfaadcd26bde0056a6e6b27882c30e5873a6 -> aa733183828dc4971fc5f7188cf41c21cfb2b680673bef68dcd0bacd7cc41eb4
+~ _dump_basic_symptom : 616 -> 612
+~ _get_symptom_ctrl : sha256 90744fd7342424f113d5950442a3cc0ab9e89eee111911a29c1d7a5347117fdf -> 078334b8d4b2988e7077c1be8c7c8a1977c8df082bd32ecb3453380956fe351c
+~ _handle_symptom : sha256 60fd617f44c366d81e3ead2e165f08a73452897ec0f6c67abfa6fed43ba720f9 -> 693c238bc97a07c6660f203b482e47da12de652c68571ec2926125bdf7e7a898
+~ _ensure_sym_ctrl_is_queued : sha256 e61e5c01df7ef318e49465849fc9512995b7b73f77195e5c59d82e7e38584a06 -> 3015e9bfa6cf821c9e6046cd791d657757356f83b8ef3f0cd36de31bd208e1ab
+~ _dump_system_reporter : sha256 aa34e453b8cd9dc52c5e2644e5bd8a744d556582dec6480794923b2df0339421 -> 51294eae15d396db0dde14d5e9856bb2806aa8169ab3f7a6adf351ba6f83b907
+~ _dump_creation_filter : sha256 53da5fda5ce514220a69d408b5809251bac708f0f93b1851e1540653bef998f7 -> 034cbac9f007876e5c3ad7c7c395ff7c4b0e08ee458babe36e79af362da32aa4
+~ _dump_idents : sha256 91f2c1dcf44ff08867de11bd40522153f1e80ed0c5effb7092755c35893c9f84 -> bbbb0d06ccd36eb1b5c6994dc95c800f88140195a09ca3dac2d3f329cf615dd9
+~ _dump_ident : sha256 3ab7cdd50944e4744da20a42f70b937b0478cbffee5dc73302e9357d85fc5d53 -> a974498f1ea3980b5307aaee35e8be4ff0566718ee7037566ea85d436c812ae9
+~ _dump_active_idents : sha256 4073dfb6ec9da395bf43a34742857d9bc5a7f1041a46d5588484660885608b35 -> 164ff6d27a55a30ac10595f663c06a5110f63d1d855336763d8b1b78758379c9
+~ _ensure_alert : sha256 381e1adfada14882998faa45364e41ce88f0caf4047392be2bcecd9d6566c704 -> ae8934e513b11acd7141c74588c57554e521d3ffbbd416af1bd1db10ebacce24
+~ _ensure_symptom_framework_connect : sha256 16ec8b76569c4108ec0e7de48b84a67dfe9341d1e37a4615053dfdc373be69d5 -> fc1772310c45bd704cc96f522e5ca63acaa5fdb1e4c014559f5f48ab345a23b3
+~ _connect_symptom_framework : sha256 28eb0827e46453e01e38c65bb570d5feb0a93cb8dc3c392893cb3626e311ebca -> eaea90f83d411230e80f1a52b3ccb408c2108fb1aea9fd2911bc56996159a8e4
+~ _symptom_transport_connect : sha256 9135d4255df63b0916dc4b177caf9e32933fcaf646867889cac652e457cd3930 -> 5d3b8e95afe989dd8972d2ed1469a73c99f8a4d683a981b763c9cf583923fc35
+~ _read_current_status : sha256 4f5af8ec86f265740a99e25c4294e03e02a87d41e791d9e03f8e87c994fb314c -> 6d3a7a8a7b2c22efbd1c62c1d7aa2ef54eea56942029b362cc18fd17e630c61e
+~ _dump_status : sha256 7473e0f88cdcfb02861afe1826f23eb5cfac56630eafeaf801f71e93c4faf9ca -> 608299994b8c01e77f81b8cb1934aab9c363e49d5743e5df47390e56a781d34c
+~ _symptom_transport_send : sha256 694f541a99888c595c426b1bca3c9dcaeb9a078423fbab6ddf065b96b8ac8445 -> 6f19f6fc98e5adce10fdaf18b15e11156ba9d7d378cc4b1099528b56f88e8338
+~ _sr_log_status_send : sha256 961bc3d7546a9bfbe7309425c9338c1b6b366c745c21410a0b98cb9d1b1473c0 -> 5ebef372db611e517d23b399f13767a4e0957701e735e199eba4b0f7fa86d350
+~ ___symptom_transport_connect_block_invoke : sha256 0a341bdb77b92025ca3ddf854a5ef9fafa855fa65f0d85273e2f8b3b5bc35a2b -> a215dc40541b89fddd7df062d0f6e935a3e86f9347b13e52ee29f69b97975706
+~ _symptoms_transport_dropped : sha256 6e6df6c309b4a05c189001920e2ae6a47b68366de7c4804eaf61a8ef27d6de17 -> 2d5ad8c3836e36959c584cf7b978285f32e64bcbf55d7383d632b9c30833a4d7
+~ _reevaluate_sr_symptoms : sha256 6692638c408c65cdd1efe5465ca974a4d1ed35fb57b46d81b860e7c2efc679cb -> 16c7497ab144fe775565c1e971d024b5a53bd48633399dfcb32f4e67d0060221
+~ _sym_ctrl_dequeue : sha256 06759f288f39d9d9789d82e7e461207b7604bc9f9bd8f311eb21d12a65b034f3 -> 1246440ad0e1f08277aa9c03c9bd3c751664bbea075d1a3daf6f31273245e32b
+~ _update_globals_for_symptom_removal : sha256 0c94f035c509786990aff187bc5e62b83ad866953f9ae0af7d395935949c40af -> 85485bfb309d67af098eddc8f32e7d6b841bba3dfb3969c826ff3d8542d14be8
+~ ___ensure_symptom_framework_connect_block_invoke : sha256 b730a268de976a39f2e9b4ce863b8df85c53b4d8e849fda1e4e60a038594e10e -> 389a9788a359e8fb87d93e872b2cdf1aac288f07474d758aa55928b115d05aed
+~ _symptom_free : sha256 d468b15ae305644d15df0af8e1b228b0cf0f8f414a91e113fa87f0d5b8d218bb -> 8fdc489e672681a815e7d5bf94aa4b5371f447b254699371d490e5b73009bfb8
+~ _symptoms_incoming_message : 1444 -> 1440
+~ _read_symptoms : sha256 33a370e19ec3887c9dc287a9e3afa199ccf068c86a6fe278c2b6e8f2d3ed3f6e -> 6987433df686dae8eb4644b8fcbae887f05e683b45e7511bbf108715951bc701
+~ _read_symptom : 244 -> 264
+~ _symptom_send_immediate : sha256 b61d0ec30ef79e98b08e62bda992344ef8e0ce428c77cff78d52a17e310aa26b -> d2de533c54275ff474c97cc2c1415c416f0e3ca6b07030d01f63f3455df7ccb8
+~ __symptoms_daemon_fallback_initial_disposition : sha256 252cc0a779383e3e3fd92aa14e904344a423e955ff830297c63b92a6b5a2dcb5 -> 75202f96d1c7588e8117b6c447a1609b7bb230ca658632d5a7565108efef7e7d
+~ ____symptoms_daemon_fallback_initial_disposition_block_invoke : 244 -> 152
+~ __symptoms_daemon_fallback_subseq_disposition : sha256 81b1eba50d39f12f702938c77d721ed16333839c0050b73b0e11c8461af207a5 -> 0d2d0f47045d1e56f677f27476fb6b2683f6c8a4d4dd5035815d9e98add37f3c
+~ ____symptoms_daemon_fallback_subseq_disposition_block_invoke : sha256 0d2d848c3ce86a77d763e14083dbf3bf6d3d8b8295f126b29104280444102e72 -> d3300f76691d93c5c1a62c69ab167bfec07f04db119e5e9d205a815faec5f10f
+~ ___copy_helper_block_8_32b : sha256 daa59c8feac77c309e15e0207f785168fe0bace78fcf8c264b73ad4df14784fb -> 80c6583ff1996f022d273db2f1e16bc221fd06b5ad89e1907738fcb57471ed9a
+~ ___destroy_helper_block_8_32b : sha256 12b47cf5dd7649fb39042819b3d089c1fd862497cda1a51561ac3aa66f1f5199 -> b73f7d44203f03f8279816004a33e10e6f9d549e95fc9516bc7eefd3b5006882
+~ ___symptoms_daemon_fallback_subseq_disposition_block_invoke.20 -> ___symptoms_daemon_fallback_subseq_disposition_block_invoke.13 : sha256 d59b0601ce719d3936018e7e797fd7bfe546f62c79dc433dbb08f653a9459d9d -> 8e1d0d4097c292aed29bbf6246c83bd68cba9d93674e4ee11590a19442fff602
+~ ____create_connection_block_invoke : sha256 81816154e7038f4b5c5c25e134d576163814acc8a25d4af41e894ddda44dab91 -> 0192bac20cced7e79f581979d7cf1d35c7e7cf4e02ed3d7c639b00aa04c32dfa
+~ ____service_queue_block_invoke : sha256 74a55eb072168aa515c6f3005da972bc9937ff37b08e09f810e75e99470b72e5 -> 6c098389571c8229fc3a3ab5bbfb607d64178457a24f5bd7dbb98778d90f13dd
+~ ____send_with_reply_block_invoke : sha256 c2f13a82d3792ef938510302c20aa2aab75c973a4f2aea42fc7df8f5b3159d4b -> ae1fc2b42f051a65f46ed37e30c47527e54abfc8a1f8966c60d1427389e8ff18
+~ _send_current : sha256 f2fb84b0e0cc46bc3e1cc3a3c78fa936b180731151cd4563ed0a305580380160 -> 22f90cd069826295b481ad4a1451fcee3469f46a14981c6b7abbe3ab2066b5b6
+~ _symptoms_daemon_fallback_initial_disposition.cold.1 : sha256 6b4c0c07082553178142e363963c79d7700e15ff3a14b2094a06c2fa90d7743e -> b0a44134e0331d0c2a5bebe1a8d14723764d78b595b61178a26109a71578c87c
+~ _symptoms_daemon_fallback_subseq_disposition.cold.1 : sha256 2224d7afd7fe5029e937d25047c57286b97bcc65f1d9da642f337f28cc20f42b -> 73c42b683b1ae856a933e60b772877521a2756125ace74843817a36615909b36
+~ _symptoms_daemon_fallback_subseq_disposition.cold.2 : sha256 21bb8d384e0233fe301d7de72b9e23123c9a86a8ad4edf7482f89025b74b3bb8 -> a8f9b6cee1cb08f917970db719e5614007011a1edd86825cff4b4a6673d6735b
+~ _symptoms_is_daemon_fallback_blacklisted.cold.1 -> obtain_symptom_framework.cold.1 : sha256 fc0a8ae51359b0a79d5c6bc3e5e9433766a4a6bea8140de81bfcde71db93e7fb -> d92235a249ce7522264ab7f58c2fe9ee1c202ec5285a71a1eed401db9b7751ef
+CStrings:
+- "appstored"
+- "bird"
+- "cloudd"
+- "com.apple.mobilesafari"
+- "itunescloudd"
+- "itunesstored"
+- "mediaplaybackd"
+- "mediaserverd"
+- "mstreamd"
+- "nsurlsessiond"
+
+```

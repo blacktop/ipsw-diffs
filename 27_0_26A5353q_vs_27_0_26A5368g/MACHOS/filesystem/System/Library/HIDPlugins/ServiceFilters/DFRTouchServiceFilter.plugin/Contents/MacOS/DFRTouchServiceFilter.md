@@ -1,0 +1,46 @@
+## DFRTouchServiceFilter
+
+> `/System/Library/HIDPlugins/ServiceFilters/DFRTouchServiceFilter.plugin/Contents/MacOS/DFRTouchServiceFilter`
+
+```diff
+
+-9470.33.0.0.0
+-  __TEXT.__text: 0x770 sha256:9a32ed7e28494fdf44768128ea760a7fe21a2b4a9c823e7a9e0bc319fd256c40
++10400.39.0.0.0
++  __TEXT.__text: 0x76c sha256:1e47ea03a9f547d7426253fed930d9f05c540fb425850d63b3ef41521d536bf5
+   __TEXT.__auth_stubs: 0x120 sha256:06270e3ec2e850317bea9d44eb008055a2fc1f76d650a7c1949810ce49a763e2
+   __TEXT.__objc_stubs: 0x180 sha256:be68bbc03a3696e72c70c66c386ccee0503fdb267ce954aebb800fa15311c3c3
+-  __TEXT.__objc_methlist: 0x27c sha256:93b519c9ee4b68fc94dea8d84984009f6be28006bd23138a6f0eb0ca07e6ee36
+-  __TEXT.__const: 0x60 sha256:af69e27576a6e4ff889a65eead6abab3588095f0ba366d1d2c7261f8bf8af0ec
++  __TEXT.__objc_methlist: 0x27c sha256:c3871ff62b443cde48b84496c3b273f201ef5ead60ad11baf915fff2c10b4af5
++  __TEXT.__const: 0x60 sha256:4a86fb3311941c841978bd222c73923f1532a82a48ba5c6be40c09444419deb9
+   __TEXT.__cstring: 0x110 sha256:1d65701ac11a6fab94823f45ea38f62cdd7b84f322d487fd8a524b2b342a6790
+   __TEXT.__objc_methname: 0x3d1 sha256:4f10e39068ebf14d16309c38685ba811da2899bbb8ac4d77af119a7df05ff003
+   __TEXT.__oslogstring: 0x87 sha256:76dc85c3178b85b51dcef13a4b4e82c7605349bcb1161467306db94a0ec99502
+   __TEXT.__objc_classname: 0x30 sha256:600a231f3c3d0e0dcfa89b1824ffd5a3e02baaef3634b1f7626579c6812bde1c
+   __TEXT.__objc_methtype: 0x323 sha256:f79c7d4f17d8b266e2b20f6f9c69aeca8e69a77582733318a6727fd12129a013
+-  __TEXT.__unwind_info: 0x98 sha256:bb15f9a2461fac1e8520671358a079c872ba368453475ded2165ea3f80ff3960
++  __TEXT.__unwind_info: 0x98 sha256:6286e97c46c26c56bedbe55c8da19032d48d06091b8f8a2d42403a592ba623a9
+   __DATA_CONST.__const: 0x40 sha256:849c48996e2060a3f841800910ee2c5b9ff6813a304560c79e4a57efc3cb2ccd
+   __DATA_CONST.__cfstring: 0x80 sha256:bccbb4ab1a8a338237938ed0ced4451a8509a4582094b4fa263ac4f74914822d
+   __DATA_CONST.__objc_classlist: 0x8 sha256:1cd21dd3cfdd4ba94155c98a6f6d766463acd9365c9d4844798cea3383a039c4
+
+   - /System/Library/PrivateFrameworks/HID.framework/Versions/A/HID
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 3B07C9B7-0A3A-3C19-B199-254056B21239
++  UUID: 31EAAE1A-64EB-3DDB-B3F4-85278F121D07
+   Functions: 16
+   Symbols:   35
+   CStrings:  120
+Functions:
+~ _MTLoggingDFRTouchServiceFilter : sha256 eeaf2d438cd574bd08c45a8fe19551c7e133edaf4658446e1677606b599239bc -> 0c8e795f759c2a368ba2aad822a422d645365d6f92b1b5a7772f8b40f6968983
+~ sub_c0c : sha256 532e170a2eb9a9ac939fb569727e4b67e71ca00738e0ae04ee1a9f340b847510 -> f9efad3f16336d699aa0d5cc82dca14889c3080629336cfc161ceb2c4428f1a2
+~ sub_c54 : sha256 7f47661ce2fa725f76f604cb3ba8263a49bf7a9c10508b031a17e6d1a9451bb2 -> 9dfb7065dc8d58b80851f53385d877292ddb435dcb1678c1180f98d778547f13
+~ sub_d5c : sha256 3aa738df60a1bd79ea0ad5a33b7a75e81e73fdf91d8683df6143fe7cbf7ffd08 -> bb8b6eb2e0c455f518f167491fa504da74287c6e5f3f07bc0c418e99c4458904
+~ sub_e90 : 520 -> 516
+~ sub_1098 -> sub_1094 : sha256 866385e6ebe01567d24188834a2a40d4634f9451d690232502dad39d11c9217d -> 5f93ae489c0682b4db71e9122f16500eadaf7769975d206c486413fd143301b8
+~ sub_1170 -> sub_116c : sha256 866572baa2fccdc859664592a8ffee07c8fb4cd590ddc309e93ec4fcdea704d8 -> d87c490919514a3f51b54fcef297fccea160ea9170651fff63a2a31a6a9850fb
+~ sub_11fc -> sub_11f8 : sha256 543149b89f05455a62a784449aa37e9cb10f44066a52cc091e460f262dfe45c7 -> 18205fb4d88ec9d568ce390074355b1429534d9035147c90d95070d882c15984
+
+```

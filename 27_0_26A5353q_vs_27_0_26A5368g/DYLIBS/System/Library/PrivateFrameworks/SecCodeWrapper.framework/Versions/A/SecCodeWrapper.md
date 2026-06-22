@@ -1,0 +1,127 @@
+## SecCodeWrapper
+
+> `/System/Library/PrivateFrameworks/SecCodeWrapper.framework/Versions/A/SecCodeWrapper`
+
+```diff
+
+-836.0.0.0.1
+-  __TEXT.__text: 0x1ce4 sha256:2eba6b5cd0b35ba5d005cb6d44a34f46e3d8568045225e5ca42cfbb4b616d30b
+-  __TEXT.__objc_methlist: 0x360 sha256:0ca39717d9cf93408fdfff44d1c9a707efaf3c258d42159bc01e5a39fed75d94
+-  __TEXT.__const: 0x58 sha256:50bf7b4195a4adda137f24aa0ac3d3c9041be6724c37122948b1fe249efc3a10
++840.0.1.0.0
++  __TEXT.__text: 0x1ce4 sha256:72a45297589fdf324e0fe336073e49f517558a33a607566428d9d9f31dbdfdba
++  __TEXT.__objc_methlist: 0x360 sha256:375875b2d41b19cf995aca54b103692513e6af4be1498de6bf17e6f973e8621a
++  __TEXT.__const: 0x50 sha256:aecd4ce72e3a2e43cb9640d2756d96d25e5c72b2ae5129af91d943359e08f7e1
+   __TEXT.__cstring: 0x120 sha256:4b741843ffe8881df300821afa8eabdba2dc7d97d12017221c1809a83d75cc45
+   __TEXT.__oslogstring: 0x87 sha256:465efc71d489ee7a2865e2af5e467380197f73ee24caadac2fa9397d85470534
+   __TEXT.__unwind_info: 0x140 sha256:1bb0f95a0e0f8a785d59a8c86585542e143e7d07e143472d8192324553b5dda7
+
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x20 sha256:017bcca853a1b9c19af107ada2bf34d800251909aebff990b5e52b246b93c3cd
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:1304295c11ed5379440383ef6a2177c617c435a122246911103130292eda87aa
++  __DATA_CONST.__const: 0x20 sha256:e47f54e2a684a06cab2c59bae5baa87bca9a256b25cf562c61fba59efce9d281
++  __DATA_CONST.__objc_classlist: 0x20 sha256:ecef3dfd105e2aaad083f16a8a5fe43476dbe28b622efb5575a88e954033971f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x200 sha256:88a30347969eea871e111fa34b7b6f134da7afa04b490c0be6f4600d28b00cd7
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:62742533b176acd0188800ff8d63ecd11087d1f85632387d4765b2a3af092d7f
+-  __DATA_CONST.__got: 0xd8 sha256:de5b65dc9bd2f5fd0f5b41af6cd5826a1cca406ae18f107d09aaf88d39745aba
+-  __AUTH_CONST.__const: 0x20 sha256:6a810ed2cf7e78b7a51fa1e121e9a51abc5c5b72c05cb3fa4cb618d997a00849
+-  __AUTH_CONST.__cfstring: 0x100 sha256:a4b74e217e812f412c0011ac04dd10d2af13ee037e8057f34e27b9e26eb4c0af
+-  __AUTH_CONST.__objc_const: 0x3f8 sha256:9e70ac899aee18e2543c292fe43e8a530815b7607548f2245526ed29cca7941e
++  __DATA_CONST.__objc_selrefs: 0x200 sha256:0f132effeec82cd54ae2fceb1fc116c960ae103497382837576ec5288837de6e
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:0abce1525a9907a818c71d88dcdd75e16ccab5793e28af031313d96f526a1840
++  __DATA_CONST.__got: 0xd8 sha256:d558e4cbf1da6fcf0e3d12bb7e7da7e096b66875d9b6bfcd018139022e7d5159
++  __AUTH_CONST.__const: 0x20 sha256:b12d89598445c49f70095bc71e1e7062a9e3a70862d68b885175e6ecfee561e1
++  __AUTH_CONST.__cfstring: 0x100 sha256:e206b0289093c21e5912c42387221df354491e320ca8c2018b1b2b429341bfb4
++  __AUTH_CONST.__objc_const: 0x3f8 sha256:e4c4bb87a81d095016d964fcfe2be97ae1f3ad673ad952d52e529c7e3bf6d374
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:4dd5c1d3abe04e536f903f3d17f441dc3008743d7154927b3bb963a02d6b361d
++  __AUTH.__objc_data: 0xa0 sha256:66daa371b24b802679213f43225a73f37ee8580c20d0fd82abbd76be5e3c114b
+   __DATA.__objc_ivar: 0x28 sha256:4cda56567c3a8c8ea340ddb95763ff832eb11234d4f0affbd628683d41af5b75
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:43fadaa1140e02214c6c24c19f46cbaa0bb571afa06b064ab5bb8f93d6a3792c
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:1b2e1a92216d32e5c08c862163ff41916add1fa7123694ab9d34cb96d7f73ffb
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1EAE0037-87ED-303A-BA04-FD9F67862133
++  UUID: C200DE1A-CE7A-34F4-9626-AF78A8E22E2E
+   Functions: 74
+   Symbols:   228
+   CStrings:  22
+Functions:
+~ +[StaticCodeIdentity codeIdentityOfApplicationAtURL:error:] : sha256 c58657e299474fe1760f66bee640f2395b386134823b8bd74452402583716dc2 -> bc072d7493823264dd861cdcf1d53dada7b144830f0f694199dde5a5b686ae67
+~ -[StaticCodeIdentity initWithURL:error:] : sha256 217b80cafc2430250d0be8d5efc83560019f9c0d3451f842c541eb7604b2a04e -> befffe71c1754808841ab60ba065468196b181beba1dcefa78d288a024eb4d6a
+~ -[StaticCodeIdentity initWithSecStaticCodeRef:] : sha256 9d51bef59180b5e1b04f22d809002df5bb25f2043938a7bda1f9acc3d482a346 -> 36a618a45d1eb8cb568baa29f4bdc59e8ef1289a1cd5009155289432f5791f61
+~ -[CodeIdentity initWithSecCodeRef:] : sha256 c7c589f6240ce78a1c19576a4794e6ede9543ad3e67cafe0706937d93f16f9cd -> 3cdbf22afa406af27828ad139cdc540a8d4db53556b4513ce2303b880a590dd8
+~ -[CodeIdentity init] : sha256 8c015e1f5dcea7d4d42c284de28bfff74fb01e19da9862de650b75d8931af948 -> 10972578ee02e685c50f98005325bfd50a560db35572bb86431682bce9053bf8
+~ -[CodeIdentity isAppSandboxed] : sha256 8403f6b7d17112afa4c7e7a6868ae5f6b0252836f25f87c664800c9da4f812f1 -> 9af35029aab6fb9bfa172914be71f80181f2a141ee3234a6a67b089bc95122c4
+~ -[CodeIdentity hasEntitlement:error:] : sha256 b4d21c22aa7058d7a586debf9019ebe81844d9b8e3d2d2262a7da05bcad950d7 -> e213b4425d8a95647fa3b1a71956bfb0c7a3db51e2cd2e519817aa4296590900
+~ -[CodeIdentity getSigningInformation:error:] : sha256 5fe42864179dedb1727d91e9690e24561b23d0969becc33c2886c6c21adf716c -> 945e89a117affdfcc65bafbb21f63a8960054c087612a9b5bb75c764e1776fb4
+~ -[StaticCodeIdentity validateWithFlags:additionalRequirement:error:] : sha256 84ae7f8e102e150ee82a709d9055b0826155272f4a151043a7798c777e79cf5b -> c5bec4458a7eca449f14babd88c6158925ab299b69c88c60acad6e0bc2e05199
+~ -[CodeIdentity signingIdentifier] : sha256 748b76ef7e4c15751f3f8670628fc059bf734c3a373a13f37b4a7aea33ec5237 -> 8e848945c04cd974a631cdf26e981771a9b20c6139ee8393d20cfa5cb8062266
+~ -[CodeIdentity signingInformation:] : sha256 6ac81e2a637ead4f169e73fc2d7417756172e57f0bc524d8658aa75466f2bb7c -> 3a439e8e790ad94f7d07e6336eec538b0bf5b03b0bdeb7dd64b9a44f46314405
+~ -[CodeRequirement initWithData:] : sha256 0829a1ef6bb496f05e9e7fec6539c044a03c28a67d1c59f6a98ae7b53129882a -> ea5024cfbd781ad20cb90262e767b79bec54244f1d9b32e0a91eb30050951605
+~ -[CodeRequirement initWithSecRequirementRef:] : sha256 00a1ea5cff70630222147bb8b970282d9ecd5a4ea73232c648bb15c66561c988 -> 3f7f7e6f7ec52a64b7d6df1484b0c7523913d8fb20bfcf31349665fdc3a6d77e
+~ -[CodeRequirement init] : sha256 5381ca522433cc47543151b91687b5d85c55da27df876de99868436237b0aaf4 -> dcc919a960dad56262b7f3d6ec9e30755fed3347554da8bd2f5bfb1d77638370
+~ -[CodeRequirement hash] : sha256 f8e62c94169eedee64e2d0be5ce20a8031c09641e2e4a8f55b85703914013200 -> 5381177b93cc55d8f6ccb4cb8dc077b081276c9dc9275b66dea2d689f82215b7
+~ -[StaticCodeIdentity dealloc] : sha256 73c8545a4973a8baeca03b3c1ba53470524ce831b3255f7d4f92dbc4f5ea0924 -> c9080b7772d377a8cbea1fbfda9d915449c2b817a604bf4a029fde8b2e148402
+~ -[CodeIdentity dealloc] : sha256 9e23ba1a8ef1bfc9a656c147b44495c0b4b3349f6894a8bf6b39e15b23c77a9f -> cbdac3a604b44b2e4b9de248d08e52a683e6bf2252afec3c64f7a1f7cdd58967
+~ -[CodeIdentity .cxx_destruct] : sha256 97408e64860534818e406d5ad3a181755aa72bfe32c54170f1f47a8aa4a08125 -> 1e8a6beea0b34068498a19f6a5b9bb0d00e3955e1748b368f9a1ed86555318e9
+~ -[CodeRequirement dealloc] : sha256 8c053e555be878344aedefe952f4f13bf535d2136d4dc8f56ea93c7cc283a0f1 -> 66c9939132c44207f3d8ee199921a121713f574218ced40ecb30f35606e85703
+~ -[CodeRequirement .cxx_destruct] : sha256 ab98b0640950c41a4fc58f79323ea1e894d2a7cca7a9f6e5788c824232887b2e -> 754057a4773bd8306ab8965ed339c3885893b6981cb30ad92f9cfdf36e846190
+~ +[DynamicCodeIdentity dynamicCodeIdentityForProcessIdentifier:error:] : sha256 3c5e3e81ba73443030f7c6042c36cf9170ae9ff2eb9d441cd5677f5534e8520a -> 5cd554a7496f78a71ebfdf572350d70f307ced888345b1ec5ae813fece5df8af
+~ +[DynamicCodeIdentity signingRoot] : sha256 2ee6a08e9a645dab4dd14b4442ade03cefa434ccfc796419ddefc2123e1a24ea -> 47d78dfc8c11d3c66881407685482079669b21f185b0826726da70d71bc71f69
+~ ___34+[DynamicCodeIdentity signingRoot]_block_invoke : sha256 18b073c23b402fbdf858af90b69f33062cb76b2262a0f7c7400288caff3525fd -> 545be45e890311307c609dc3a0caf4758d9ca7677879c21428e25dcd43523b00
+~ -[DynamicCodeIdentity initWithSecCodeRef:] : sha256 cb8470845449eb48657152d4f84b59c589e4e1c47aa11db89559a95a7b02cb81 -> 0e28bca8747e7e80d77567f7d5e838fb1dcf81c9ac549a9616ac6a0da1ed06d5
+~ -[DynamicCodeIdentity validateWithFlags:additionalRequirement:error:] : sha256 d9cfd064598e655a09780fae0655180609f7494cad806b885442f4123c4a41bf -> 1ff31514cc0f3e9acf5dccafabcaa87ac378470256db47b344ef5c286b3534cd
+~ -[CodeRequirement validateCode:flags:error:] : sha256 3342a579d4f34b886e068b6fca3737bff41c4fa896335d8e6452ee928bf4c0d3 -> f68405fba69a0697637ac28812cda887526b86f1ecf485a8930f8fbe2be9bd2b
+~ -[CodeIdentity designatedRequirement] : sha256 8754fdd6f621bb83eb28c6de8a6832195508d29a224bd26bc4d14b2e87c324d8 -> 3d0247f772e9f6b8e060c2ae3da87fe098d3295d88a03f6a0d65f0e45430e05f
+~ -[CodeRequirement isEqual:] : sha256 da61ab2f2635c404b9edab4135b2f641cb16c32e75a510fc85d48c8a809be59c -> 46d80bfcc5b84686618f2bf12248b57894bc2680975bb256c4c92b10e84cb663
+~ +[StaticCodeIdentity codeIdentityOfApplicationAtURL:] : sha256 54167b2deb3c77d7706917dece4afa98c80ea334a8510af7bf35049910a848c8 -> 507f059e3b599021ab1953a8f7fb5ec6b581ecd359c76410e6056079e0fdeced
+~ -[CodeIdentity pathURL] : sha256 00f4837fb876271686378c1103b12664e09d524fa137ce334305af165cb2f868 -> 8897d250dd47f8254117c4fd5d99f1e7e3d23f1fc32e2b3aa70545452f6a643b
+~ -[CodeIdentity isEqual:] : sha256 9e4d43d134eb3e2420cca03d1d212cd78374d45f475a82d6f9ecbe9b1fb6612f -> 527a675646748411417b199f80dba68df59e203672615e275178eeff345e90ac
+~ -[CodeIdentity hash] : sha256 6cd9e958655fe35379d11c346f1a66152a995e641f3b070f1965e30d670c5110 -> ca29fcb0f03c2d09e429a3bb59c30d5aaa4a8ec9a075d6946e1195410b0f16b3
+~ -[CodeIdentity validate] : sha256 54482568f535e4b5dec97f19dfd28015fde260d2d1448933bd6f8753e6177841 -> 91a18f8b64fd9536a5080d18a59b143093f18121fe7b3b2daac0278ebb586f22
+~ -[CodeIdentity validateWithFlags:] : sha256 997b3aae36867e51a04c1b77eb534389a53be9dd205ba1a7cd88cbc89fad49f9 -> 0b383389b7d21b98443092c7df7a952b431c64f43113af5506eb386efd1108fb
+~ -[CodeIdentity getBundleIdentifier:] : sha256 cd8de72422f6e31aa9ee2b82e1b84a9ebea4489a67a3e18241e8eae2a4bf05f4 -> b6b5b59be5f64b1588d2d0e676673eaabc900feb71f751357f3b5cc3a71cac72
+~ -[CodeIdentity bundleIdentifier] : sha256 cda2ddb2faecd1f1e16f77c206b7daacaa11aa660d99b0ff715af9e31ef9e3e6 -> 1a8de52751d6b2e64466764f7666b22b40a1d6afadf6d025fe3636c8500ce196
+~ -[CodeIdentity teamIdentifier] : sha256 c6176a3a161af1b935ab1408721e60f8009bb1dfe161966b8bf521ad69b69a04 -> b8eb19071fb843406753b4ef8cd0dd7331ae158a2772749e871e862c60bb3432
+~ -[CodeIdentity codeSignatureFlags] : sha256 d4850f2b0218e49c4f48dc6af9dff89006ab6278ff3767d05df8544e23e0c7ab -> 1754587d62623bab0ddcab6690f09c37693256e5d3a3f11ee94d84b8ccf1b48a
+~ -[CodeIdentity isAdHocSigned] : sha256 a353ea56b8f6c324b44f025abed224dae6426e79540d5885cee8e7fa8039d7b0 -> d9ae6fde7d3f9f4ede9b0859c98419428e31fe25224d57bf341d6e53f5c52284
+~ -[CodeIdentity getInfoPlist:] : sha256 a2caf04634ef4c80c6e62658a0c0b536411f8263fb6daf071dca5839b82a3ae9 -> c09f219658a96f92c4f2134d93bd57842412d9c74fe030227400a74719664fd6
+~ -[CodeIdentity getEntitlements:] : sha256 6ae3e638b3e688a30008eb5a293f7df3cc81c1d35155e11c1a1a9106c2fa5d90 -> 085302eca07a6a0cf9401de29858e5fd9efc02c29a39acd5045d5c112030daa9
+~ -[CodeIdentity inheritsSandbox] : sha256 b85d4a3f9271311641b3912aed9e747ee1a9dff56bb7e7fc48be5011bdaaa73e -> b392c44aebe67617c9830667dfcb4bbc9679bc8ec8b803cd55a8476075ed21a4
+~ -[CodeIdentity sdkVersion] : sha256 c13ff93aa4a700522b0a60fae5482223c3c09635370c6ccb5a1978b0a166a3bc -> fc60384fd5d3c414f088c101bf9be2bfa6906ecb7b07d0bf8d1ff7211e38ca1c
+~ -[CodeIdentity description] : sha256 2ec474a849332929b789d1d36bb04bf3afdfcdbbcdbe49318b52023379cdb450 -> 2a154931a3fb6a0f16d2ce21f115555a0e1c880acfaf875182edae55cb9fb082
+~ _OUTLINED_FUNCTION_0 : sha256 413aeb8278acbe88ba69041789fb16196a6cbad1275b40386de7f90b7e751d1f -> f2334d205eae78933b967b9789f11afd91717ef5597dfbe2994b44c57eac654f
+~ _OUTLINED_FUNCTION_1 : sha256 84e5d9cb86f155eb2d9649ac0a293f7fdc82fce2ddbab2c90aae767076c3b3f9 -> 017ecf84a2341a8ef791183b7cc12f5d7fdcadb773f525e68131891d3d6abefb
+~ -[CodeRequirement initWithText:error:] : sha256 6f8929c72f4ec94515ff2caa14571d6e5f24aee15890fa98a387be226ca36138 -> c24ad8f6971df4170b559949b0c76985df6b6782058f0a686cbab92f8c134337
+~ -[CodeRequirement data] : sha256 9a454af2a23069b44f39526ee32fd171b15a7e06f97b28ddcff24f29f05f50cf -> 4847d2226c74caee87cf5dabb2f402b76cf22462af127351d4dee17e54199188
+~ -[CodeRequirement stringValue] : sha256 060aaeb46512bb674607bfb0f17994bf33c0bae15d2d1e5ca45652a771d7c97b -> 03164affce6f24fe3925167012253f26fb26dcf1505736197f23647f6151902b
+~ -[CodeRequirement description] : sha256 4e71f3e5e6a418e8da1e599735c71502162e7a28bc9def4c18ad25bb39765cb9 -> c97c0c79910a926fed71af6c2f4aa48a2bbd85c40c5050caea7ad827b33ad6e7
+~ +[DynamicCodeIdentity currentApplication] : sha256 016696e9fdef420f0a8b0913cdd7ad58513ac7e120d110f8d4d09c5d48d81293 -> 48eb0e16ff81c7e3cbcf63847e91bd7e5a1df3c21ce5472a04a09e068acf3be5
+~ +[DynamicCodeIdentity dynamicCodeIdentityForProcessIdentifier:] : sha256 d87856f5909efd3738aadbb606393a9fd99047a5f9ecf731e2ab8f7f8031a007 -> 95ae88bba9c5aa204bc90b72b842f64c655d0518116fca44fd47445b4b639141
+~ +[DynamicCodeIdentity dynamicCodeIdentityForAuditToken:] : sha256 6ed88bb236cea5bb6b00567210c413ff32e805d168aa734ce8c6cb3508bd276a -> 21f361f01367c91cb3b427addf2ebf9c6a02190d8cb4183cc43d6282a761a69f
+~ +[DynamicCodeIdentity dynamicCodeIdentityForAuditToken:error:] : sha256 d9954ec0f54023d9b265a26e6921c7877dbbedd1420a814f516c6cf5fa2b0c81 -> 62e2eb9cd6f74ca1e68c6a3460afeea693409dcb886d66e03e24f8b593649fee
+~ -[DynamicCodeIdentity initWithSecCodeRef:auditToken:] : sha256 9d614dc873179ad64c6fc7f363108e71c52d0b14f23752ee1a06ffb3ab7ffaec -> 44e108e80fe60f9757a9fd5a935b017d76500871d3da711cb7e1a95457ca997e
+~ -[DynamicCodeIdentity guestWithAuditToken:] : sha256 9a0f7b92dcaa89ac132089708b57e73b56236ccd9ae8b8dfee7a9484269b9a05 -> 356a629973c1477012b1e5d35625737c7d0ad1cfc19263a59bd37ccaa5e8ae89
+~ -[DynamicCodeIdentity guestWithAuditToken:error:] : sha256 8059a533e3a8270dc09bbc379d528a43258e8dba968e71ceee8ac7648745a45e -> 6a2019b54aa020ea6426a5713f2da871ce9524d0b3d92584fd3347b771fa595a
+~ -[DynamicCodeIdentity staticCodeIdentity] : sha256 8998e37a6dab368f5847fd3215e7de8f272582b8830f4d3757637e67532ec37c -> f26d92ccb7bf58b3eae8a6737d7c79b40046df2ab40e5bd3473be90babb26b64
+~ -[DynamicCodeIdentity description] : sha256 163cd318c8651147d27d052eb516ff2e11fe69cc7439800cdf3fc6640c7421de -> 4b5fbed3f9cd4a5c4fc53f00f4123c0224f09cc5c6b84fb052edbcbc6383b33b
+~ -[DynamicCodeIdentity isAppSandboxed] : sha256 08ae4a1aab4dfa04d3922bf38a259a714a963e02fb7cfb9af68263b722cb652d -> 6e91ef5001b9e8a8a946a57ea37e334ed466c629570a1e7f0eb8d1eb160a000f
+~ -[DynamicCodeIdentity iOSPlatform] : sha256 8660a84341feba5bfaaf08220971e1ad7ef9bc0a7fa2b00e7bc8a79d926d8f1d -> be20ad759e69fc603ce791dbb2ed3cfff90c4fd471c915fce7be8d41037fec01
+~ -[DynamicCodeIdentity codeStatusFlags] : sha256 2d9250f3604e399d601d4c6b02e37b713d1094a96b996f0d269e5894da4a04db -> 4d0a8c16f14a7c756ba84519df8a1a24bc1fd2ed966bfd0d9e161f5417e5efac
+~ -[StaticCodeIdentity initWithURL:] : sha256 24d6d4b73ebcbb5320b41d782eb699f2a7ed9d1f9a98e7d5debe33b4d5510606 -> 0f59ef4b5fd5ff4f2e62d3895c08728e2ff9ed06c53ed468e4752622b85a0729
+~ -[StaticCodeIdentity staticCodeRef] : sha256 c7d11f6809db3f8d0b26988838cac5f9e22c3e3952c3abd19a80aa2a6798fe5c -> 2f4159d988d7a9285e72d41a5643a8d9704881a014979534c0921758cc5c0576
+~ -[CodeIdentity getBundleIdentifier:].cold.1 : sha256 4ec246ed7fca8fbb8c3755ae62c651fea27c6176f562bcc5d65af0f9cac20a67 -> 3bb01fdb9da5d0651f55ec4eb2ef5db1b3aa5000339e5c9bf8c825ccdb4fadd6
+~ -[CodeIdentity getSigningInformation:error:].cold.1 : sha256 03e5c57f050c4469a78e319e1a00b6360b2484e86e395fe7aa1faabb5ddd6380 -> e881e90d4848d5cb4fa70288d87017b3cd5112b558f54041ec42b544995f634c
+~ -[CodeIdentity getSigningInformation:error:].cold.2 : sha256 013231202101ae2df4990033eb47b7c79c9e7e6bdf1a9012c5d00b0a9c671739 -> 8c23eb247b8158d86890b0f0104a0dbc7bd5add9bc923fbfd32dd724ea2558da
+~ -[CodeIdentity getSigningInformation:error:].cold.3 : sha256 a8dbbefec03b0b8c3b94e154d662a985addf4a31ef2109f210f175738d08887a -> 668d4ff52942bc4718ac05c1f07bd2db3dcb74f4853351a966be17314217755a
+~ +[DynamicCodeIdentity signingRoot].cold.1 : sha256 1d90ec899614d3a341c8fdd92b745f9cd87f2d3995b82e385d5b15dbe9d3f6c9 -> 1f2014a3d6b583040abf5b7f09828a8f280633dde8185c52bef8436ef0dacc28
+
+```

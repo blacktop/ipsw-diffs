@@ -1,0 +1,173 @@
+## PreviewsMessagingOS
+
+> `/System/Library/PrivateFrameworks/PreviewsMessagingOS.framework/Versions/A/PreviewsMessagingOS`
+
+```diff
+
+-24.0.31.0.0
+-  __TEXT.__text: 0xb9ac8 sha256:fe5b6612c4475bbbcb656f4871918b9dde1e4f4849467ac66f2e5349840df00d
+-  __TEXT.__const: 0x127b0 sha256:ca2576ee4b3e550313cb6984d8827b70a2cdff6fd50b05e0d0c0620221f86b60
+-  __TEXT.__cstring: 0x3992 sha256:0fa7f19c717f97c97a3bc6ebc33472c42d59fa5a81ea51468f2252b58815c964
+-  __TEXT.__swift5_typeref: 0x3495 sha256:1d55a348ed104d8d8bf588d720af70fb135d9b79eff981ad7792fe64537401b5
+-  __TEXT.__swift5_reflstr: 0x25db sha256:02a52262f722a202942e66708b28bd13d063ce5a87103bb3117b569e564a8659
+-  __TEXT.__swift5_assocty: 0x24d8 sha256:9d3ac85e5bb17fb30c26ff537266466c88a9bea523dc764a48d21be483ebd6ef
+-  __TEXT.__constg_swiftt: 0x39f8 sha256:9ff9fcfaefc5ebe2b6e07d0fe965db27b4827af92aa059a5727d5f72c5f4ffb5
+-  __TEXT.__swift5_fieldmd: 0x44f0 sha256:be6eac729c198011d0f672d19994a2898fa438e78733db3ff0413e081d36f932
+-  __TEXT.__swift5_builtin: 0x104 sha256:066833336b074ffe43afa5173d7f059e4aa9ceaa9607705f12869cf891987bcf
+-  __TEXT.__swift5_proto: 0x107c sha256:38d15e30cc631fb7c18e5fbaf844e53a853281fa10863b80592490754a0f8fbc
+-  __TEXT.__swift5_types: 0x588 sha256:a363e4a222d9a58ab122696e9f8b91692734acf490c338e1970c147624d26160
+-  __TEXT.__swift5_capture: 0x8d4 sha256:6fcf5a39e3dd3fc4804b8f5df0725369abe10208af934c5cbd75018c2f636e6b
+-  __TEXT.__swift_as_entry: 0xf4 sha256:b3d2fb0e3034d6d2563058413b89199b28acddf7def9bd29b2595c1c588b41d2
+-  __TEXT.__swift_as_ret: 0xf4 sha256:ca7528f4d98e63c43dc2641853484dfd590f738c935322040b87687169c0f92f
+-  __TEXT.__swift_as_cont: 0x16c sha256:1fb08d4f010cfe57d6f219a56839f4df451267742e05740f4cd4992edf346059
+-  __TEXT.__swift5_protos: 0x34 sha256:cf2991cc8dbde1dcb6e10a3c097197d3f6f886ae9d830c38fadb4bbdb27a3f3a
+-  __TEXT.__swift5_mpenum: 0x4c sha256:1acfb5c683c853139b3ce4a775dee1695548233d3ee0fa80fe53b7696189cbe0
++24.0.35.0.0
++  __TEXT.__text: 0xbd348 sha256:6d679bd254933d6fc009c99d982e52ece67b826ca714fe9661fec033ddb5424d
++  __TEXT.__const: 0x12c10 sha256:28e2326defc20f30cb1c091c4b9df9e1451e5c738c1cb973dfa45506c92c00ee
++  __TEXT.__cstring: 0x3a02 sha256:e8b78a487e3e804dfc51df1222cd6bbb85e70f627c12501f7525841185623ffd
++  __TEXT.__swift5_typeref: 0x35f5 sha256:1c4a64c13b524afa39d04115debfa4ba224262c24bd54bb904da7f52a01ef89d
++  __TEXT.__swift5_reflstr: 0x263b sha256:32789fb81dc22f828fdbbd9d87105d63b5dd72acacf8fd78a156a12baf54b7ad
++  __TEXT.__swift5_assocty: 0x2568 sha256:cf5ab90a79dc55911145d32a9acac06bdc04e983407eb3ba665717cdc9eb2f96
++  __TEXT.__constg_swiftt: 0x3a78 sha256:3cbdda40c6308dfd4ea6ca06a6289bd69267399b59884450fb245698f4801b05
++  __TEXT.__swift5_fieldmd: 0x45fc sha256:f7343816fa1ea9328d87044327f443b7801c05b982187e9292429214033925db
++  __TEXT.__swift5_builtin: 0x104 sha256:465842d36b0b23403ddf80e33b7fa332095ea0a2525aac2a2a6e51ca2526756b
++  __TEXT.__swift5_proto: 0x10b4 sha256:b266c7e754fc0ee6cad1e1bdccd52c9b6da1aafe1e1f95f089ab5c3de6acf9ff
++  __TEXT.__swift5_types: 0x598 sha256:bd93a1264d713246c61bf16419ffd0f6e6c5ae57f6673fe64c4eae8222f154b9
++  __TEXT.__swift5_capture: 0x8d4 sha256:8061fc969a90da4611a24ebde43cf843e1863aea72dfb79c5f755f24d31571de
++  __TEXT.__swift_as_entry: 0xf4 sha256:1f15a8abf1cb6148419729956329c8d927c2c19ba15fff5baee5a77289ff6a12
++  __TEXT.__swift_as_ret: 0xf4 sha256:dbd4c0396ac3c59319fb9b8c1914c0612050175a5fd0a6515472bbaf990ecedc
++  __TEXT.__swift_as_cont: 0x16c sha256:3d9a7a63f0c507c1faa6559ad13d40871a94fb0dc2554e18fe45c12ea751244c
++  __TEXT.__swift5_protos: 0x34 sha256:e2576e327a55451a90f696bfd509544418bf727f7a5a1ade8c11cb7817fd3cd8
++  __TEXT.__swift5_mpenum: 0x4c sha256:53c70c0b6099254f4e14835debf3f7d975aa513b8f309a9f720ef2724556e3bc
+   __TEXT.__oslogstring: 0x20f sha256:967e97ec2c316519b1aa0e4114a63bec9255999be4acce22596b5af4ab945e12
+-  __TEXT.__unwind_info: 0x3ff8 sha256:c913a80e39190cfe90392bc96f09900c8b66fc721438b0af77e8b5171fa4e99b
+-  __TEXT.__eh_frame: 0x50f0 sha256:03fd3e05bc14f07a2df743010ecfc10347251fb7f4ad91625ff7c1ff0b7e0fb5
++  __TEXT.__unwind_info: 0x4160 sha256:225d99c7321e8ab7835468d8a50fdf8f85977be12beea949f33f050be67c6b0a
++  __TEXT.__eh_frame: 0x5150 sha256:61210d774d4940cc56525fb06fd923b2e40948c38be3f3cc0becd02e474598a5
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xa8 sha256:021dc2e69a4f4f6b2a24248911a3d90059225ae8a5cd26391c7fb674c41ba331
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:2eac2c68b33f1d4dfe7dfc3347f5cd162f232c09ed0fa44bb3a6fd68e61e13ca
++  __DATA_CONST.__const: 0xa8 sha256:18698b5414b290987d675ad5707af480b7c9c86cea879cf7f1f66361f9ea9cdb
++  __DATA_CONST.__objc_classlist: 0x8 sha256:0f175399c4b054a755676ae18715fdf04b716f11fa6b0e44851cf3759c9e468f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x88 sha256:2c40fe8e49d88a986d96c87b57263d73e205d51f256a471462bd072c275e7eea
+-  __DATA_CONST.__got: 0x408 sha256:1c67aa864bfc55f77770f4e30cb0f9abbf49fce80122eb338ef4f2c548b1a588
+-  __AUTH_CONST.__const: 0xfee1 sha256:ccdd13bb4d2930ba075946ba0bbca2491d7413fe4c191fc45e1f565d36f91b03
+-  __AUTH_CONST.__objc_const: 0x6e0 sha256:97909f2d78b926f89cd94a7dfc253e2567204adf59f725b48c278f63cd1032ab
+-  __AUTH_CONST.__auth_got: 0xda8 sha256:b60813ee5c5b6a0e8870c2c87e0e7946bd2cceabfe6e1be0dd545bb46e4e657c
+-  __AUTH.__objc_data: 0x50 sha256:941302bfadee110ed04e2cab196f9109ed1fa821d9db3f5a5e92a548809292a8
+-  __AUTH.__data: 0x1360 sha256:c70465e621c4c2fff307d80f318a2139b2b5e2702688c7c09da2e061d47de651
+-  __DATA.__data: 0x3088 sha256:b86c1b6fb9d723618f844ab6ce26e34fafcb5e2a9a620c81084d719c1ab0fa36
+-  __DATA.__bss: 0x20a50 sha256:4c82734dd3422bcaee4623beabf21e2f5140bb11dfc87c928b1872507d12b396
++  __DATA_CONST.__objc_selrefs: 0x88 sha256:356fcd852faefa1fc2b240ed245067fb6b5940c383ec7c0b1e4bfdfb489d9b38
++  __DATA_CONST.__got: 0x408 sha256:3603972bd24bf7ed42ed0683cc432ec0a72bd2c77e9f8ce398f8828f4e777a98
++  __AUTH_CONST.__const: 0x10289 sha256:4c65b77dd0937d171552f4ff957b32dab6986b144b903ed9fba504ae1061ff96
++  __AUTH_CONST.__objc_const: 0x6e0 sha256:67bd58f6022dd121fda63495daf723707e548aad73dc0ada8a0e86997582bce3
++  __AUTH_CONST.__auth_got: 0xd60 sha256:5b2873e80d2b286828ddfb640a4a0f5dc23acae2e721eec34b47d0145ed8aad3
++  __AUTH.__objc_data: 0x50 sha256:efaf20c3ef5337b7435bdb3565e7fb46ac127294a9734a8492be3666aff224c5
++  __AUTH.__data: 0x1368 sha256:6d76e5639ab3cdc15c068df0bfef750a4745289ad48d5f489a68ab10d899c63c
++  __DATA.__data: 0x3148 sha256:5ca6ed2f7048b4683bd3e08302d96abb4e378ece234f976cba8cde5a7bf28cec
++  __DATA.__bss: 0x21150 sha256:91f188ffeb10e08a70fc2c6eb89bbc1f40580b75477422dbd262fce4968a4af2
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1EE93B12-9E08-36D9-B971-56D2A8E6A222
+-  Functions: 6133
+-  Symbols:   1754
+-  CStrings:  529
++  UUID: 34C9F92A-BD17-3501-9A4A-51E7BB3B1968
++  Functions: 6266
++  Symbols:   1786
++  CStrings:  535
+ 
+Symbols:
++ ___swift_memcpy56_8
++ ___swift_memcpy7_1
++ ___unnamed_84
++ _associated conformance 19PreviewsMessagingOS11DisplayInfoV0a10FoundationC025PropertyListRepresentableAA0gH5ValueAdEP_AD0gH4Type
++ _associated conformance 19PreviewsMessagingOS11DisplayInfoV3Key33_293DDC6361BDCDF53D47321043E2DDD1LLOSHAASQ
++ _associated conformance 19PreviewsMessagingOS11DisplayInfoV3Key33_293DDC6361BDCDF53D47321043E2DDD1LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 19PreviewsMessagingOS19RenderedDisplayInfoV0a10FoundationC025PropertyListRepresentableAA0hI5ValueAdEP_AD0hI4Type
++ _associated conformance 19PreviewsMessagingOS19RenderedDisplayInfoV3Key33_293DDC6361BDCDF53D47321043E2DDD1LLOSHAASQ
++ _associated conformance 19PreviewsMessagingOS19RenderedDisplayInfoV3Key33_293DDC6361BDCDF53D47321043E2DDD1LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _get_enum_tag_for_layout_string 19PreviewsMessagingOS11DisplayInfoVSg
++ _symbolic Say_____G 19PreviewsMessagingOS11DisplayInfoV3Key33_293DDC6361BDCDF53D47321043E2DDD1LLO
++ _symbolic Say_____G 19PreviewsMessagingOS19RenderedDisplayInfoV3Key33_293DDC6361BDCDF53D47321043E2DDD1LLO
++ _symbolic _____ 19PreviewsMessagingOS11DisplayInfoV
++ _symbolic _____ 19PreviewsMessagingOS11DisplayInfoV3Key33_293DDC6361BDCDF53D47321043E2DDD1LLO
++ _symbolic _____ 19PreviewsMessagingOS19RenderedDisplayInfoV
++ _symbolic _____ 19PreviewsMessagingOS19RenderedDisplayInfoV3Key33_293DDC6361BDCDF53D47321043E2DDD1LLO
++ _symbolic _____Sg 12CoreGraphics7CGFloatV
++ _symbolic _____Sg 19PreviewsMessagingOS11DisplayInfoV
++ _symbolic _____Sg 19PreviewsMessagingOS19RenderedDisplayInfoV
++ _symbolic ___________Sgt 19PreviewsMessagingOS14PreviewPayloadV3Key33_B5A85EF44CB84ED8DF06549073CBB33ELLO AA0D13SpecificationV
++ _symbolic ___________Sgt 19PreviewsMessagingOS14ServiceMessageV3Key33_293DDC6361BDCDF53D47321043E2DDD1LLO 0a10FoundationC012PropertyListV
++ _symbolic ___________Sgt 19PreviewsMessagingOS15HostAgentSystemO0E8EndpointO8IdentityV3Key33_FF66671C2D4359ACEEE4AA2FAC5DE52ALLO 10Foundation4UUIDV
++ _symbolic ___________Sgt 19PreviewsMessagingOS15RegistryPayloadV3Key33_B5A85EF44CB84ED8DF06549073CBB33ELLO AA0D2IDV
++ _symbolic ___________Sgt 19PreviewsMessagingOS16CFunctionPayloadV3Key33_B5A85EF44CB84ED8DF06549073CBB33ELLO 0a10FoundationC012PropertyListV
++ _symbolic ___________Sgt 19PreviewsMessagingOS17NextCrashResponseV3Key33_6A015B80B660BE247EFB627A95DEB0D8LLO 0a10FoundationC00E6ReportV
++ _symbolic ___________Sgt 19PreviewsMessagingOS18CanvasControlEventV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO AA13PlistValueBoxV
++ _symbolic ___________Sgt 19PreviewsMessagingOS18HostedPreviewReplyV3Key33_52EC18B278B3CC78948A2298C7BAF895LLO 0a10FoundationC012PropertyListV
++ _symbolic ___________Sgt 19PreviewsMessagingOS18ShellUpdatePayloadV3Key33_FCEB191393C4A5233FD30B0EC71E514ELLO 0a10FoundationC012PropertyListV
++ _symbolic ___________Sgt 19PreviewsMessagingOS18StaticPreviewReplyV3Key33_52EC18B278B3CC78948A2298C7BAF895LLO 0a10FoundationC012PropertyListV
++ _symbolic ___________Sgt 19PreviewsMessagingOS22SimulatorDevicePayloadV3Key33_293DDC6361BDCDF53D47321043E2DDD1LLO AA11DisplayInfoV
++ _symbolic ___________Sgt 19PreviewsMessagingOS24CanvasControlDescriptionV3Key33_AE86DBBFF91FC092459991194DEE3CEBLLO 0a10FoundationC012PropertyListV
++ _symbolic ___________Sgt 19PreviewsMessagingOS31MessageStreamAgentSpecificationV3Key33_FF66671C2D4359ACEEE4AA2FAC5DE52ALLO 0a10FoundationC012PropertyListV
++ _symbolic ___________Sgt 20PreviewsFoundationOS11CrashReportV0a9MessagingC0E3Key33_6A015B80B660BE247EFB627A95DEB0D8LLO 0B04DateV
++ _symbolic ___________Sgt 20PreviewsFoundationOS11CrashReportV0a9MessagingC0E3Key33_6A015B80B660BE247EFB627A95DEB0D8LLO AC2IDV
++ _symbolic ___________t 19PreviewsMessagingOS17NextCrashResponseV3Key33_6A015B80B660BE247EFB627A95DEB0D8LLO 0a10FoundationC00E6ReportV
++ _symbolic ___________t 19PreviewsMessagingOS20MacOSSnapshotPayloadV3Key33_B5A85EF44CB84ED8DF06549073CBB33ELLO AA06RenderF0V
++ _type_layout_string 19PreviewsMessagingOS11DisplayInfoV
++ _type_layout_string 19PreviewsMessagingOS19RenderedDisplayInfoV
+- ___swift_memcpy6_1
+- ___unnamed_85
+- _symbolic _____Sg 10Foundation4DateV
+- _symbolic _____Sg 19PreviewsMessagingOS13PlistValueBoxV
+- _symbolic _____Sg 19PreviewsMessagingOS17BitmapDescriptionV
+- _symbolic _____Sg 19PreviewsMessagingOS20PreviewSpecificationV
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugD9XfK6ROGwwfj4EmmlfZEv3VGljZ6--_g/Library/Caches/com.apple.xbs/TemporaryDirectory.uGMC5E/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/AsyncMessageStream.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugD9XfK6ROGwwfj4EmmlfZEv3VGljZ6--_g/Library/Caches/com.apple.xbs/TemporaryDirectory.uGMC5E/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Bridge.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugD9XfK6ROGwwfj4EmmlfZEv3VGljZ6--_g/Library/Caches/com.apple.xbs/TemporaryDirectory.uGMC5E/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/DaemonConnection.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugD9XfK6ROGwwfj4EmmlfZEv3VGljZ6--_g/Library/Caches/com.apple.xbs/TemporaryDirectory.uGMC5E/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Fork.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugD9XfK6ROGwwfj4EmmlfZEv3VGljZ6--_g/Library/Caches/com.apple.xbs/TemporaryDirectory.uGMC5E/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Junction.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugD9XfK6ROGwwfj4EmmlfZEv3VGljZ6--_g/Library/Caches/com.apple.xbs/TemporaryDirectory.uGMC5E/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/MessagePipe.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugD9XfK6ROGwwfj4EmmlfZEv3VGljZ6--_g/Library/Caches/com.apple.xbs/TemporaryDirectory.uGMC5E/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/MessageStream.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugD9XfK6ROGwwfj4EmmlfZEv3VGljZ6--_g/Library/Caches/com.apple.xbs/TemporaryDirectory.uGMC5E/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Outlet.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugD9XfK6ROGwwfj4EmmlfZEv3VGljZ6--_g/Library/Caches/com.apple.xbs/TemporaryDirectory.uGMC5E/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/PipeEvent.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugD9XfK6ROGwwfj4EmmlfZEv3VGljZ6--_g/Library/Caches/com.apple.xbs/TemporaryDirectory.uGMC5E/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/PreviewServiceInterface.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugD9XfK6ROGwwfj4EmmlfZEv3VGljZ6--_g/Library/Caches/com.apple.xbs/TemporaryDirectory.uGMC5E/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/SampleStreamAgent.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugD9XfK6ROGwwfj4EmmlfZEv3VGljZ6--_g/Library/Caches/com.apple.xbs/TemporaryDirectory.uGMC5E/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Transport+Interface.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugD9XfK6ROGwwfj4EmmlfZEv3VGljZ6--_g/Library/Caches/com.apple.xbs/TemporaryDirectory.uGMC5E/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Transport+Reply.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugD9XfK6ROGwwfj4EmmlfZEv3VGljZ6--_g/Library/Caches/com.apple.xbs/TemporaryDirectory.uGMC5E/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/UpdateMessageConstants.swift"
++ "chromeIdentifier"
++ "display"
++ "maskPath"
++ "renderedDisplay"
++ "reportsRenderedDisplayInfo"
++ "scale"
+- "/AppleInternal/Library/BuildRoots/4~CQMjugBUZW85dzl3Kh9Z6R8u5YUedraMY9T8aQE/Library/Caches/com.apple.xbs/TemporaryDirectory.RTjOyd/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/AsyncMessageStream.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMjugBUZW85dzl3Kh9Z6R8u5YUedraMY9T8aQE/Library/Caches/com.apple.xbs/TemporaryDirectory.RTjOyd/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Bridge.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMjugBUZW85dzl3Kh9Z6R8u5YUedraMY9T8aQE/Library/Caches/com.apple.xbs/TemporaryDirectory.RTjOyd/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/DaemonConnection.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMjugBUZW85dzl3Kh9Z6R8u5YUedraMY9T8aQE/Library/Caches/com.apple.xbs/TemporaryDirectory.RTjOyd/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Fork.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMjugBUZW85dzl3Kh9Z6R8u5YUedraMY9T8aQE/Library/Caches/com.apple.xbs/TemporaryDirectory.RTjOyd/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Junction.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMjugBUZW85dzl3Kh9Z6R8u5YUedraMY9T8aQE/Library/Caches/com.apple.xbs/TemporaryDirectory.RTjOyd/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/MessagePipe.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMjugBUZW85dzl3Kh9Z6R8u5YUedraMY9T8aQE/Library/Caches/com.apple.xbs/TemporaryDirectory.RTjOyd/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/MessageStream.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMjugBUZW85dzl3Kh9Z6R8u5YUedraMY9T8aQE/Library/Caches/com.apple.xbs/TemporaryDirectory.RTjOyd/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Outlet.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMjugBUZW85dzl3Kh9Z6R8u5YUedraMY9T8aQE/Library/Caches/com.apple.xbs/TemporaryDirectory.RTjOyd/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/PipeEvent.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMjugBUZW85dzl3Kh9Z6R8u5YUedraMY9T8aQE/Library/Caches/com.apple.xbs/TemporaryDirectory.RTjOyd/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/PreviewServiceInterface.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMjugBUZW85dzl3Kh9Z6R8u5YUedraMY9T8aQE/Library/Caches/com.apple.xbs/TemporaryDirectory.RTjOyd/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/SampleStreamAgent.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMjugBUZW85dzl3Kh9Z6R8u5YUedraMY9T8aQE/Library/Caches/com.apple.xbs/TemporaryDirectory.RTjOyd/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Transport+Interface.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMjugBUZW85dzl3Kh9Z6R8u5YUedraMY9T8aQE/Library/Caches/com.apple.xbs/TemporaryDirectory.RTjOyd/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/Transport+Reply.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMjugBUZW85dzl3Kh9Z6R8u5YUedraMY9T8aQE/Library/Caches/com.apple.xbs/TemporaryDirectory.RTjOyd/Sources/UITestingAgent/Shared/PreviewsMessaging/Sources/PreviewsMessaging/UpdateMessageConstants.swift"
+
+```

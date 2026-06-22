@@ -1,0 +1,291 @@
+## AppleAccountUI
+
+> `/System/Library/PrivateFrameworks/AppleAccountUI.framework/Versions/A/AppleAccountUI`
+
+```diff
+
+-579.0.0.0.0
+-  __TEXT.__text: 0x44430 sha256:3b173380669cf261da5e621d4af1f99ff5b26e70fa770c8e73d05ef70c5996e7
+-  __TEXT.__objc_methlist: 0x6ec sha256:897c0a9e2019097267413fdbcfea5b78ab502cf9a359f0e85179ce5eb41bd6d2
+-  __TEXT.__cstring: 0x1797 sha256:f7763c46599ff3cdb1f274eb399bdc42629f80e59d840268fe8521849f5676de
+-  __TEXT.__const: 0x3de4 sha256:901f6388ad3023f69f1d8ed6ec08eaadf850b5359dfea2e0133d49c3f273eae8
++581.1.0.0.0
++  __TEXT.__text: 0x4f928 sha256:8afad24ba75010effb5e2515a59caa31554480cf8fedaf06f90996b98448ba3e
++  __TEXT.__objc_methlist: 0x77c sha256:09e7111e3bbc4e9270e2cc4444bf00e55c37ac80b7c5723395945694df8a492a
++  __TEXT.__const: 0x4794 sha256:daa2ab07c9fcb26e8b468fafa2ac65a357516e756169676835351f0908882abc
+   __TEXT.__gcc_except_tab: 0x18 sha256:e6b832c360e97c5c73780b7098d6b3075d8cf483359b44918699a1f9a82ce3fe
+-  __TEXT.__oslogstring: 0xd45 sha256:b832d30d1d78c5c10c4fa613b09c1e085315a4a588910f6bce506402091a58c6
++  __TEXT.__oslogstring: 0x10ad sha256:ff47544fe94bfb763c32ba2e47338b919295c9c24fda580015cfe5463a86b85b
++  __TEXT.__cstring: 0x1867 sha256:a04c5136ccad4d2065cc4ff47060900725cffd79657d654a73b37b356c730f0e
+   __TEXT.__dlopen_cstrs: 0x48 sha256:6d7227bd0848dfbacbfc884eef9800d46463989e8f5147744f42b26940aac464
+-  __TEXT.__swift5_typeref: 0x4ba6 sha256:8b92953aad05dd767ed38603ead956f243e208f0d8e3e03eaffe580cef398cbd
+-  __TEXT.__swift5_reflstr: 0xbd0 sha256:95b294363c0cf46468633f797c269c42876e313fae86f6ff76f0dfa16dd188ba
+-  __TEXT.__swift5_assocty: 0x4a0 sha256:b98462b33092ff0248c71966abad9195f561fa4c079de992d8a8b1463a9d5f4e
+-  __TEXT.__constg_swiftt: 0x1a60 sha256:4b4746504a21ae0a4115be1ca284faa9de8a05c24baac7c48116e5cc78db9b0e
+-  __TEXT.__swift5_fieldmd: 0xc94 sha256:70405bc0f6c65a78d701a98c558cb66974d4a39d5537f83faf1e13af76fce241
+-  __TEXT.__swift5_proto: 0x194 sha256:5ee9251da91c246ce1afde0f40dfe983964773bb8ef18e4c576aab6352a776b8
+-  __TEXT.__swift5_types: 0x118 sha256:05c809e15bbfbad7aaebebaecd311c6ad1acf5287f7744f39b9d7454ee6326a9
+-  __TEXT.__swift5_protos: 0x28 sha256:b0649d80d69020be97f73a5fcefef98dbd2a538cde08838f6b4b69232ae83437
+-  __TEXT.__swift5_builtin: 0x8c sha256:e05061f712d8b3bc5158f2c4b11023b975d9fb183b11f37107f0a21d4e25d709
+-  __TEXT.__swift5_mpenum: 0x10 sha256:afcee7285875a7aa33c501eb701365e6275f6d8e3f6d6d3461d1c8a297c613fa
+-  __TEXT.__swift5_capture: 0x3f8 sha256:7eb249e114fad71954fedd5225a1e69310c9bf8ad09cb0130e8dbc2eec82f6c1
+-  __TEXT.__swift_as_entry: 0x44 sha256:6a8cf4e24732a370e0fd89ef32b431d4671f014d52db60d3c647090fd26ce642
+-  __TEXT.__swift_as_ret: 0x40 sha256:633e12747a68fd5a4f70a10864bd2b6828a56559928911e32401224981660d23
+-  __TEXT.__swift_as_cont: 0x9c sha256:d59f8ebeffe1db1c7ba1805d30cfdefeea5a4f19609c0b978cb7dd17d25b5ed1
+-  __TEXT.__unwind_info: 0x1540 sha256:2a140771148f64ff0a0d2227efc3596810b187eb2ec301abd057d408744ae175
+-  __TEXT.__eh_frame: 0xa78 sha256:d337115b2e46f5c9b1d4f4d09e53843f4e6be8c95af15b7abb4fc6041e321681
++  __TEXT.__swift5_typeref: 0x519a sha256:af49b5843e4377661be870fe638180f9c7768b85e2e3baee9a72d5ce40fb348b
++  __TEXT.__swift5_reflstr: 0xe00 sha256:947207ba0becb73aeebf55f80a7aabae4a5aaee28fd174396be68c7d93e01149
++  __TEXT.__swift5_assocty: 0x4f0 sha256:3e95b24828f1ad9495a9fb3274cb0fdd3a62fe4d2f3e93c3df7ce36bf2440832
++  __TEXT.__constg_swiftt: 0x1d1c sha256:b95112f5978a8ecdef036ffe76c4a5ed524a1f9ccb01e8ef722443addc26e768
++  __TEXT.__swift5_fieldmd: 0xee0 sha256:2690e5811a8c650576847f7292b617f2c3f2842001a88e1b02a867f3b63f15a1
++  __TEXT.__swift5_proto: 0x1b0 sha256:912562d40c3d35240d9b44ecaf7eab36ac96405ed6ea69a5a9bf89647249d3f1
++  __TEXT.__swift5_types: 0x13c sha256:6e082f22e7df1636455eff481310e14adad8955f1e22c72e0e4c5227cd411ea7
++  __TEXT.__swift5_protos: 0x34 sha256:24497d5c0e53740c059cede432faa576693c781ced04151f425a5beb2751ed45
++  __TEXT.__swift5_capture: 0x550 sha256:d2aab9c925dd017e491eb495712fb1b9fa2fd1c5642fc89740402aa0cbdbfee5
++  __TEXT.__swift5_builtin: 0xa0 sha256:db88ab0760f85a605d610d7f4d22dc26edb5b6cf27727fd79e43142ab11c84e5
++  __TEXT.__swift_as_entry: 0x78 sha256:e91463b8b349a14c69fc493456bc33a121c2d0cbc22f5c3323a737baeaf3be8b
++  __TEXT.__swift_as_ret: 0x68 sha256:c8babfc46763a9f7f50b9cefb9b8cfc37b94eb75af4c3d9c545acf1929b9b66b
++  __TEXT.__swift_as_cont: 0xc8 sha256:6343782f171176fa0b63a18c7c48d9359853456c35e6ab2154bb89cb9d3c61cf
++  __TEXT.__swift5_mpenum: 0x18 sha256:23b5c20db4bbe354f406d4245c9d06ea13e517159046c358c082d3c7f09f1ef6
++  __TEXT.__unwind_info: 0x18f0 sha256:362e416c635d28a695538118b952ae5b64f4156bc24a89b52d3c12078f09cbba
++  __TEXT.__eh_frame: 0x1090 sha256:64328f969071d7c9f1cc2f2cd9d23be039d87615c858af20d6b6b6d8e0d9c6a1
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x3e8 sha256:21b5dafdec2d8f9bffffa580b2675c43c774be2440a09c08786bf231881eb5ef
+-  __DATA_CONST.__objc_classlist: 0xd8 sha256:d04dfecb64fbd4a592b63a966c036b14b3f79a7da732e5480d278e0f97194a98
+-  __DATA_CONST.__objc_protolist: 0x60 sha256:33b08e20de718b5bd427bf4274f1ade95b243111b424e0fdd41861ce9be48536
++  __DATA_CONST.__const: 0x3e8 sha256:cd62fa1f0d7b4292e52c315e9f87f2016bd76b1edc1231bfbe96d3780f75c617
++  __DATA_CONST.__objc_classlist: 0xe8 sha256:7160de0fab0cba77e6a2e7b911e8ad2e519874817f79779f47f3436ef033d267
++  __DATA_CONST.__objc_protolist: 0x60 sha256:1f37f39da02d6e93476614f00412d3a860a1dedefcf39f65dec63a39ad0ea802
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x6d8 sha256:25d4e12204cfcb1fd2c7e5d2de8429225fa6816fa3f28e89b4ce44931f33d295
+-  __DATA_CONST.__objc_protorefs: 0x30 sha256:309787f7076dd898f61acc0c4a60849f6280ee1ceedd43acd6dd12ed9dc84695
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:7f5d21d2d9a1c0698e2145bf83fd9c995b963ac5e049454f7080610a3ebc0f93
+-  __DATA_CONST.__got: 0x428 sha256:81dca86cb902ffa6cf83ab5b80d13a55d3ae6cddd80cbc3496f3dd7c5c8250f9
+-  __AUTH_CONST.__const: 0x2328 sha256:86c932423cab80c594d6cb32b7723032044c4a8da6a883fad23d6f9d4407008f
+-  __AUTH_CONST.__cfstring: 0x5e0 sha256:fe4d10ec6fb49c988e17a76ef817293c5b2cf8ed0a61ca8a2571119cd0fbd8be
+-  __AUTH_CONST.__objc_const: 0x2100 sha256:6ac4a1561810bc4577ecae75d50ee14a37fc22bb0861863824249108cedbcef3
+-  __AUTH_CONST.__auth_got: 0xe30 sha256:ccebc31969ac094e6fd65e3c3e785ecb6785d680626eb20a8aee4bf455ff4e3f
+-  __AUTH.__objc_data: 0xb20 sha256:bc0fabf1625459903049c4a30721d94e64e62a2ad9a4a0d557b5b817ef4f2fb0
+-  __AUTH.__data: 0x1668 sha256:408e4fcb62874d50a4c1fe1f35cfbc7ad68303d97b16320dc48363474dce4a55
+-  __DATA.__objc_ivar: 0x1c sha256:eef9bab831058218cd3fef67bd77ed4bf5a34f751765cb533380903fbb70074f
+-  __DATA.__data: 0x1140 sha256:dd68c2dd52754a41d158d91344261b3f3efaecfedc284027e13a1aa9c995332e
+-  __DATA.__bss: 0x38a0 sha256:4d8892fb6d17e08febd7c6fb4ca95153e83400632b831635555b437ac2be1b86
+-  __DATA.__common: 0x460 sha256:ccb1331d70551de6a1197e723213814f1f59fa72a97924902e5500e9b2764016
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:74d8de9b1dafec485a2b00c762156509ff7e56feecc864ec8988e81839d22358
++  __DATA_CONST.__objc_selrefs: 0x850 sha256:8524ed4eed757cf77f0c97369daf4f1310c6059900e6151bd3049b505b9bc8f0
++  __DATA_CONST.__objc_protorefs: 0x30 sha256:bd14a49acbd0e160c7ff6618d413d32861bce248acaad7b3446e70001bfff138
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:2431acd5e31cf0f90fddc696c0ebbf6a662059fe217cad4d50382656dc7f8949
++  __DATA_CONST.__got: 0x470 sha256:af3099146a72e540cdee133c68f7e7c55bc9b093aeab1b0275115b4dc65f5b27
++  __AUTH_CONST.__const: 0x29b0 sha256:d26d0e888be888cbc6eb9a1cceb127681f8f8de9a8be2ffb4ac07f806f170d2a
++  __AUTH_CONST.__cfstring: 0x5e0 sha256:5ce09b28d2689180aadc37067ca7a35ad3db7c272152d76baa47bea2a42a45ad
++  __AUTH_CONST.__objc_const: 0x2380 sha256:ec12f07fe365546edfa8c354e05cbbefcc84f27aba06fa4c1906c953398e769c
++  __AUTH_CONST.__auth_got: 0xf10 sha256:5a521f5097f43c39eb902347b266e62e95a8c059f0a59fcf1a20f1ce1febeaa3
++  __AUTH.__objc_data: 0xc20 sha256:b0e446df2ea93351c56ae371cdbd79e03a90002b5840d2c2a1820929cb4aeedf
++  __AUTH.__data: 0x1768 sha256:a6f2764defcba57db4694ad99a198d9e973cef802a9c57e9dc37c8f35c72f88f
++  __DATA.__objc_ivar: 0x1c sha256:29a1322f7ef9be2c93a0144843c2e38b57ea48c9cd3f159c7203fd6d423aceb5
++  __DATA.__data: 0x1240 sha256:29e2fafadd33c11355de63c2d3ed1c7e03cc2dc7c5926f4d45742f3cfa926b12
++  __DATA.__bss: 0x3d90 sha256:50f0256eba75eaf201804f53c2981f1747d683a4b25505c82430ffabfe352489
++  __DATA.__common: 0x460 sha256:c5d216412d0cfe817aff8186deac319672ba5028d7defbe59c78d4b70fe8bc02
++  __DATA_DIRTY.__objc_data: 0x50 sha256:c79b24eff08dfd8318aa655027ef99f058c4eb0353c21869b6a8a0bddf925bf7
+   __DATA_DIRTY.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+   - /System/Library/PrivateFrameworks/IMCore.framework/Versions/A/IMCore
+   - /System/Library/PrivateFrameworks/IMSharedUtilities.framework/Versions/A/IMSharedUtilities
++  - /System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+   - /System/Library/PrivateFrameworks/RemoteUI.framework/Versions/A/RemoteUI
+   - /System/Library/PrivateFrameworks/SafariFoundation.framework/Versions/A/SafariFoundation
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D08817DA-7324-37E2-B57F-153D04AF1C8A
+-  Functions: 2125
+-  Symbols:   1369
+-  CStrings:  267
++  UUID: 717FDE4E-21AB-3191-B2C0-66157188D87F
++  Functions: 2450
++  Symbols:   1531
++  CStrings:  287
+ 
+Symbols:
++ _OBJC_CLASS_$_AAUITrustedContactListViewServiceFactory
++ _OBJC_CLASS_$_NSImageSymbolConfiguration
++ _OBJC_CLASS_$_NSLayoutConstraint
++ _OBJC_CLASS_$_NSView
++ _OBJC_CLASS_$_NSViewController
++ _OBJC_CLASS_$_OBTemplateContainerViewController
++ _OBJC_CLASS_$_OBTemplateView
++ _OBJC_METACLASS_$_AAUITrustedContactListViewServiceFactory
++ __CLASS_METHODS_AAUITrustedContactListViewServiceFactory
++ __DATA_AAUITrustedContactListViewServiceFactory
++ __DATA__TtC14AppleAccountUI26DefaultOnboardingViewModel
++ __INSTANCE_METHODS_AAUITrustedContactListViewServiceFactory
++ __INSTANCE_METHODS__TtC14AppleAccountUI30OnboardingViewController_macOS
++ __IVARS__TtC14AppleAccountUI26DefaultOnboardingViewModel
++ __IVARS__TtC14AppleAccountUI30OnboardingViewController_macOS
++ __METACLASS_DATA_AAUITrustedContactListViewServiceFactory
++ __METACLASS_DATA__TtC14AppleAccountUI26DefaultOnboardingViewModel
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_memcpy20_8
++ ___swift_memcpy48_8
++ ___unnamed_2
++ ___unnamed_4
++ __swift_closure_destructor.12
++ __swift_closure_destructor.16
++ __swift_closure_destructor.23
++ __swift_closure_destructor.26
++ __swift_closure_destructor.42
++ __swift_closure_destructor.48
++ __swift_closure_destructor.53
++ __swift_closure_destructor.59
++ __swift_closure_destructor.62
++ __swift_closure_destructor.66
++ __swift_closure_destructor.69
++ _associated conformance 14AppleAccountUI14OnboardingViewVyxG05SwiftC00E0AA4BodyAeFP_AeF
++ _associated conformance 14AppleAccountUI14OnboardingViewVyxG05SwiftC029NSViewControllerRepresentableAaE0E0
++ _associated conformance 14AppleAccountUI25TrustedContactProfileViewV05SwiftC00G0AA4BodyAdEP_AdE
++ _associated conformance 14AppleAccountUI29OnboardingButtonConfigurationV5StyleOSHAASQ
++ _get_enum_tag_for_layout_string 14AppleAccountUI21OnboardingHeaderImageO
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$centerXAnchor
++ _objc_msgSend$configurationWithColorRenderingMode:
++ _objc_msgSend$configurationWithPaletteColors:
++ _objc_msgSend$constraintEqualToAnchor:
++ _objc_msgSend$constraintGreaterThanOrEqualToAnchor:
++ _objc_msgSend$constraintLessThanOrEqualToAnchor:
++ _objc_msgSend$disableControlsWithStatus:showingSpinnerAfter:
++ _objc_msgSend$firstButton
++ _objc_msgSend$hideSpinner
++ _objc_msgSend$imageForResource:
++ _objc_msgSend$imageWithSymbolConfiguration:
++ _objc_msgSend$imageWithSystemSymbolName:accessibilityDescription:
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithFirstButtonTitle:secondButtonTitle:linkButtonTitle:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$initWithTitle:bodyText:icon:contentLayoutStyle:
++ _objc_msgSend$initWithTitle:bodyText:symbol:contentLayoutStyle:
++ _objc_msgSend$isViewLoaded
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$linkButton
++ _objc_msgSend$listType
++ _objc_msgSend$secondButton
++ _objc_msgSend$setAction:
++ _objc_msgSend$setContentArea:
++ _objc_msgSend$setControlsEnabled:
++ _objc_msgSend$setDisplayInfoIcon:
++ _objc_msgSend$setKeyEquivalent:
++ _objc_msgSend$setNeedsExtraWideContent:
++ _objc_msgSend$setTarget:
++ _objc_msgSend$setTemplateType:
++ _objc_msgSend$setTemplateView:
++ _objc_msgSend$setTitle:
++ _objc_msgSend$setTopContent:
++ _objc_msgSend$setTopContentOverrideHeight:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$systemGrayColor
++ _objc_msgSend$topAnchor
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$view
++ _object_getClass
++ _swift_allocBox
++ _swift_allocateGenericClassMetadata
++ _swift_cvw_instantiateLayoutString
++ _swift_getAssociatedConformanceWitness
++ _swift_getAssociatedTypeWitness
++ _swift_getOpaqueTypeMetadata2
++ _swift_initClassMetadata2
++ _symbolic $s14AppleAccountUI21OnboardingContentViewP
++ _symbolic $s14AppleAccountUI22OnboardingBulletedListP
++ _symbolic $s14AppleAccountUI27OnboardingViewModelProtocolP
++ _symbolic 10CustomView_____Qz 14AppleAccountUI21OnboardingContentViewP
++ _symbolic IegH_
++ _symbolic Ieg_
++ _symbolic SS5title_SS3urltSg
++ _symbolic Say_____G 7SwiftUI22NSHostingSizingOptionsV
++ _symbolic So14OBTemplateViewCSg
++ _symbolic So16NSViewControllerC
++ _symbolic So33OBTemplateContainerViewControllerCSg
++ _symbolic _____ 14AppleAccountUI13AAUIURLOpenerO
++ _symbolic _____ 14AppleAccountUI14OnboardingViewV
++ _symbolic _____ 14AppleAccountUI21OnboardingHeaderImageO
++ _symbolic _____ 14AppleAccountUI25TrustedContactProfileViewV
++ _symbolic _____ 14AppleAccountUI26DefaultOnboardingViewModelC
++ _symbolic _____ 14AppleAccountUI29OnboardingButtonConfigurationV
++ _symbolic _____ 14AppleAccountUI29OnboardingButtonConfigurationV5StyleO
++ _symbolic _____ 14AppleAccountUI30OnboardingViewController_macOSC
++ _symbolic _____ 14AppleAccountUI36TrustedContactListViewServiceFactoryC
++ _symbolic _____Iegho_ 7SwiftUI7AnyViewV
++ _symbolic _____Ieghr_ 7SwiftUI7AnyViewV
++ _symbolic _____Sg 14AppleAccountUI29OnboardingButtonConfigurationV
++ _symbolic _____Sg 7SwiftUI19SymbolRenderingModeV
++ _symbolic _____Sg 7SwiftUI5ImageV21TemplateRenderingModeO
++ _symbolic ______p 14AppleAccountUI21OnboardingContentViewP
++ _symbolic ______p 7SwiftUI4ViewP
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____y_____GG_____yAAyAAyAAyAF_____y_____SgGG_____G_____GGG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA6CircleV AA16_OverlayModifierV AA022_EnvironmentKeyWritingN0V AA5ColorV AA07_OffsetK0V AA010_BlendModeK0V AA017_CompositingGroupK0V
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____y_____GG_____yAAyAAyAAyAF_____y_____SgGG_____G_____GGG_____G_AAyAfQGt 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA6CircleV AA16_OverlayModifierV AA022_EnvironmentKeyWritingN0V AA5ColorV AA07_OffsetK0V AA010_BlendModeK0V AA017_CompositingGroupK0V
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____y_____SgGG_____G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA13_OffsetEffectV AA010_BlendModeP0V
++ _symbolic _____yAAyAAyAAy__________G_____G_____y_____GG_____yAAyAAyAAyAF_____y_____SgGG_____G_____GGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA6CircleV AA16_OverlayModifierV AA022_EnvironmentKeyWritingN0V AA5ColorV AA07_OffsetK0V AA010_BlendModeK0V
++ _symbolic _____yAAyAAyAAy__________G_____G_____y_____SgGG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA13_OffsetEffectV
++ _symbolic _____yAAyAAy__________G_____G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA13_OffsetEffectV
++ _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA6CircleV
++ _symbolic _____yAAyAAy__________G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V
++ _symbolic _____yYbScMYccSg 7SwiftUI7AnyViewV
++ _symbolic _____y_____G 7SwiftUI19NSHostingControllerC AA7AnyViewV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI22NSHostingSizingOptionsV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA6SpacerV AA12_FrameLayoutV
++ _symbolic _____y___________y_____yADyADyADyADy__________G_____G_____y_____GG_____yADyADyADyAI_____y_____SgGG_____G_____GGG_____G_ADyAiTGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA11_ClipEffectV AA6CircleV AA16_OverlayModifierV AA022_EnvironmentKeyWritingS0V AA5ColorV AA07_OffsetP0V AA010_BlendModeP0V AA017_CompositingGroupP0V
++ _symbolic _____y_____yAByAByAByABy__________G_____G_____y_____SgGG_____G_____GG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA022_EnvironmentKeyWritingD0V AA5ColorV AA13_OffsetEffectV AA010_BlendModeQ0V
++ _symbolic _____y_____y_____yACyACyACyACy__________G_____G_____y_____GG_____yACyACyACyAH_____y_____SgGG_____G_____GGG_____G_ACyAhSGQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA11_ClipEffectV AA6CircleV AA16_OverlayModifierV AA022_EnvironmentKeyWritingP0V AA5ColorV AA07_OffsetM0V AA010_BlendModeM0V AA017_CompositingGroupM0V
++ _symbolic _____yxG 14AppleAccountUI30OnboardingViewController_macOSC
++ _symbolic _____yxGSgXw 14AppleAccountUI30OnboardingViewController_macOSC
++ _symbolic _____yxGSgXwz_x______RzlXX 14AppleAccountUI30OnboardingViewController_macOSC AA0dE13ModelProtocolP
++ _symbolic qd__Ieghr_
++ _symbolic yt
++ _symbolic ytIegHr_
++ _symbolic ytIegr_
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
++ _symbolic yyYacSg
++ _type_layout_string 14AppleAccountUI21OnboardingHeaderImageO
++ _type_layout_string 14AppleAccountUI25TrustedContactProfileViewV
++ _type_layout_string 14AppleAccountUI27OnboardingViewModelProtocolRzlAA0dE0VyxG
++ _type_layout_string 14AppleAccountUI29OnboardingButtonConfigurationV
++ get_witness_table 7SwiftUI6ZStackVyAA12TupleContentVyAA08ModifiedE0VyAGyAGyAGyAGyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameJ0VGAA11_ClipEffectVyAA6CircleVGGAA16_OverlayModifierVyAGyAGyAGyAoA022_EnvironmentKeyWritingP0VyAA5ColorVSgGGAA07_OffsetM0VGAA010_BlendModeM0VGGGAA017_CompositingGroupM0VG_AGyAOA4_GQPGGAA4ViewHPyHC.1
+CStrings:
++ "%s - No valid URL for accessory button"
++ "%s - Opening URL: %s"
++ "%s - Primary button action not implemented"
++ "%s - Secondary button action not implemented"
++ "AAUIURLOpener - NSWorkspace failed to open URL: %{private}s"
++ "AppleAccountUI.OnboardingViewController_macOS"
++ "AppleAccountUI/OnboardingViewController_macOS.swift"
++ "CloudServices"
++ "Creating TrustedContactList ViewService with listType: %ld"
++ "DBR_TWO"
++ "DefaultOnboardingViewModel - Accessory button: No action or URL configured"
++ "DefaultOnboardingViewModel - Primary button action not set"
++ "DefaultOnboardingViewModel - Secondary button action not set"
++ "Fatal error"
++ "OnboardingView supports maximum 2 buttons, ignoring extra button"
++ "TrustedContactListViewService macOS: returning placeholder NSViewController (stub — see rdar://177985331)"
++ "Unsupported listType: %ld"
++ "init(coder:) has not been implemented"
++ "init(nibName:bundle:)"
++ "recoveryShield asset missing from aauiFramework bundle on macOS"
++ "recoveryShield: gradient config failed to apply on macOS"
+- "RecoveryContactSharePlay"
+
+```

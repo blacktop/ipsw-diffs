@@ -1,0 +1,69 @@
+## ConversationalInteraction
+
+> `/System/Library/PrivateFrameworks/ConversationalInteraction.framework/Versions/A/ConversationalInteraction`
+
+```diff
+
+ 3600.1.1.0.0
+-  __TEXT.__text: 0x900 sha256:f272ad58e899094e274093afd3a260c9e0dc360d3717e96dd1deb5023c90da3b
+-  __TEXT.__const: 0x1d2 sha256:24bdb78eac38104d2ad33307b2be07b22769cfe37c96515e71b803e5b78ca85a
+-  __TEXT.__constg_swiftt: 0x70 sha256:7dfea454eaa5ecdf1b00d6e56586d1f9310d8861ceb989cdaf1f7fd4a928094c
+-  __TEXT.__swift5_typeref: 0x2f sha256:8b6b8a5227755d1fd44702c0a1b69fa676c499921e6cbc245798e1d9492af80c
++  __TEXT.__text: 0x8fc sha256:5b8e2b9fa57ff15321943c05d9eb45cc63153cb4eb3c1898bcca2fe9c20dc31e
++  __TEXT.__const: 0x1d2 sha256:219bc4e9ce83e5129480fed13ac7bbed45c48f646e5c0b31ea5b3d89de67a589
++  __TEXT.__constg_swiftt: 0x70 sha256:72ccd3e398b2a0e510f1c3669ef1c43f3ce549bcaf1d4bea1b17d4b6364bd4d2
++  __TEXT.__swift5_typeref: 0x2f sha256:016b02cc66ca72d46e9c375e0dcd87d37ff846d31ca16337d106175302f59182
+   __TEXT.__swift5_reflstr: 0x63 sha256:23d08a972ec5ffb79f20ad0c99ff566545e07c2351d56d01bd04785fea9e3cea
+   __TEXT.__swift5_fieldmd: 0x98 sha256:30912d961aa5d6e492e4ff0f38c82c4c0b398c0e0ec8c4080bf69c16a91bad96
+   __TEXT.__swift5_assocty: 0x18 sha256:1446016e21065250dfb641b0a255c7e9b2e21922545fbaa12523852ad7f95e37
+   __TEXT.__cstring: 0x22 sha256:9e629087a2ba6d25231c3d5625797d90ca10873d8a56a4fd6e345241bcde5487
+   __TEXT.__swift5_proto: 0x10 sha256:19c6aa5dd75113fd5a1827d4222a19e06c3a0102f4dfc0ed8656721acf670fcc
+   __TEXT.__swift5_types: 0x8 sha256:1f3542535d687fe4a03c9fa5803c3770036415a012e7916700649e2977c66ba2
+-  __TEXT.__unwind_info: 0x88 sha256:d39cc0fb1c87c1acd5913926fa0a49ead76faf32f6ef74fc3f70f25d58128007
++  __TEXT.__unwind_info: 0x88 sha256:4e0bf5e57bca55f9ef2ad13ec1094a0b51d253749dc38da94ce7d4479acbe7c8
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:f2ccbaa10d94af3609e7a0ba91264faebc4b481cb6370881183c59e36fced957
++  __DATA_CONST.__objc_classlist: 0x8 sha256:f8c07b19c9507c1bef482598cec9be03692867a4758a7f108c7eb9acdfe00fbc
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __AUTH_CONST.__const: 0x14d sha256:58840bc5582c96032a8d123ee42718e895476c78fd195bccd17ea79c719f1b1d
+-  __AUTH_CONST.__objc_const: 0xf0 sha256:2f5434e896ef4c722d74471666755dc74ac87efac7830c9dbd73044b7aca2063
++  __AUTH_CONST.__const: 0x14d sha256:88f10ff39a01aa6d23bbef4e571e8aa6e16384def6786721b9a8896909436df5
++  __AUTH_CONST.__objc_const: 0xf0 sha256:2b0edb61ec967fb5ff939c03f9534c4b36cd09a7754701677417fa66be7b51d4
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH.__objc_data: 0x50 sha256:a32ee2eee9da21b36ba8daac977c3e2674afa91ff81096f741fe5b1fa95d1188
+-  __AUTH.__data: 0xc0 sha256:03d7c573a98cefb0dfc0d99ab1c11774fd3c8b7616e321ff6305dd98290f94cb
++  __AUTH.__objc_data: 0x50 sha256:ccb6401dbbe2ae8a472112d1bf89b07add37b4559ebcd5c65f741f39089c0d17
++  __AUTH.__data: 0xc0 sha256:aac4ca98bb593d3d3239f6a1c007ec5d3fcc791df936fb1c9874a2084eaa17ce
+   __DATA.__data: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   __DATA.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   __DATA.__bss: 0x200 sha256:076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: A36A4064-42CC-3175-91C8-3B356C1861F9
++  UUID: 8B163659-B5F5-3CB9-932B-4C8A3B9F39BB
+   Functions: 27
+   Symbols:   42
+   CStrings:  5
+Functions:
+~ sub_22f323ee0 -> sub_230b3eee0 : 72 -> 68
+~ sub_22f323f3c -> sub_230b3ef38 : sha256 8bc120b472cfa765a18073ec91dd47e3db0f1ebaa4292c35346145b32d944765 -> eb7fdf788555bc0a134b9be7f6a23369c75943df4dedc1a1628272660ddc7196
+~ sub_22f324010 -> sub_230b3f00c : sha256 b1a8a0f0ef56d4eeae2d960773279c1997e4a320af822dc2fd5081202834312c -> 2384259a20d2c9b7d88967497a27cbaa1c074a73c9ae88a54f56e4d3a17aa6e9
+~ sub_22f3240d0 -> sub_230b3f0cc : sha256 bdf1ed45a149fcafebc0c36055a0062725c3a085dfe481543e4c1ffd630a8135 -> 5ca97753bf765d7dbb21acbe28d7d02df775cbf0b8fe9c783b82fb93957a80de
+~ sub_22f324260 -> sub_230b3f25c : sha256 11e4a1297744ea262f813300024918576e06398b6eac7bbeab9e82a2cb1a0681 -> 83de0931810725521a0c7b54d5db27012d7c7fae7f6001e69cdd88292082ee9c
+~ sub_22f3242cc -> sub_230b3f2c8 : sha256 9f99da4c9324d1ff22bb4ef3823bab187e03ca49b3ea17b26f74c0dd0d6d3d44 -> 7b25cd0219061a146c78d415961ae7a86b804dc6df77057ae6616239301ae477
+~ sub_22f32433c -> sub_230b3f338 : sha256 d213645072842f0a7b153ec4c678a22bc39844f149068e92b574cb05d4d108f5 -> 4974837953739cd51d956384329a0f0d593252494210cf1155099d3b52adc1bb
+~ sub_22f3243ac -> sub_230b3f3a8 : sha256 9829de5ce8a8a0ce7f6ff7997f1d4415c3c967544975a810118e04055841b6db -> c5175e0b3f200afb6a5caaa224c6a84e1dcc9ff186bc62232cd9716a55d448e7
+~ sub_22f324418 -> sub_230b3f414 : sha256 eeccb7275284c9ffcc92bcf92e42cf55950cc89d15d795a815a138d073c687c6 -> a59bdedd65d8252832cc665f3048e40faeefc829432dc4a0d5dba262a1a771d6
+~ sub_22f3244c8 -> sub_230b3f4c4 : sha256 076ff8b3ef5f24eb648a252be8eff0ba91652f9a7e3e8137adbb37fe89ff90e0 -> 36b0a2f4f2cabf7f0ccffe62239ce25f15b4f24416723171b7145f9a1431873e
+~ sub_22f324514 -> sub_230b3f510 : sha256 cbf7016ac611d9ba5ee3222a8b8619cfcb3c0bc69ed0c8ca3db750db3cdcec97 -> 59f2d5b609178329dbed1171efab38fb6cf5466d3155493ff30c30c7a3e45ec0
+~ sub_22f324728 -> sub_230b3f724 : sha256 7aefebc249e7563d261cb2f8cf9ce05438daf75f80659f5293b134994b967e71 -> ad555059f0edc65ed49a58981f4a338d71f311f3ec7615ecb37a212c3a714864
+~ sub_22f324738 -> sub_230b3f734 : sha256 a887d8182960fdf317537de77962166b43cef1d37b8568d8cd967a68bb352b15 -> b11e4719ea271a7c50b931d9d8c16590bcbd8f4ca35da56db2fa76089b8fcfcc
+~ sub_22f324790 -> sub_230b3f78c : sha256 eeac9bb0598fd6e931f113ab7ca1e3d7569d1e643dc6eaa33d21529e8bbdb14e -> 81715490324689fd15293e4c03b6ba0b92b3ff48a3bfe5d2ce27d3066a626b82
+
+```

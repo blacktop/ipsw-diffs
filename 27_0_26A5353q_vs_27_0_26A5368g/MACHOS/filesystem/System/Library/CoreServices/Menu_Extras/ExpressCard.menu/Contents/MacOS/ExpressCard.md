@@ -1,0 +1,48 @@
+## ExpressCard
+
+> `/System/Library/CoreServices/Menu Extras/ExpressCard.menu/Contents/MacOS/ExpressCard`
+
+```diff
+
+ 4.0.0.0.0
+-  __TEXT.__text: 0x1240 sha256:186e90021406745815b4b4b9d7b3837ea4249b526614f52bb1b273337b72e967
+-  __TEXT.__auth_stubs: 0x200 sha256:47564734ac198e97b0fc84131ff2f2bf5a8911a31d83aea2fbe70844445aa0ad
++  __TEXT.__text: 0x123c sha256:4d485d5ce06cfc7d6a0f0f39331c203903a63770f5ec503da30cee6da997271c
++  __TEXT.__auth_stubs: 0x200 sha256:c27b43b45d7c5d4ec4c0ffc60691d4a6aefee09226bd4042b663e40ac4cf3bee
+   __TEXT.__objc_stubs: 0x4a0 sha256:f48d6f442ce7970695d20c1b63280ac820302b61eb084831819bd4770c7ea71f
+-  __TEXT.__objc_methlist: 0xd4 sha256:c03705bdfedc384b35ba4f5930f566bcd345a781dcd7f572e7b3d62dababbcdd
++  __TEXT.__objc_methlist: 0xd4 sha256:2ab9729d37be64be8671e10b3806ee2630cf3a2eb39110991417b0182f642ca9
+   __TEXT.__objc_methname: 0x397 sha256:004184c88a4a91b6fb9a11c17d66313a5cf5f622e0c56a14cc0053c638d4d860
+   __TEXT.__cstring: 0x1d9 sha256:63c72094e902a1939a9dc8faed9708b52e0ed9ae99aedc7c485dac617cf33a6f
+   __TEXT.__objc_classname: 0x16 sha256:ed9f3a8dfaa0867cd80e795a4c690b88faead3a94cec302c54420029b0032eb3
+   __TEXT.__objc_methtype: 0xdb sha256:115c4186efd232e5d2ca9887dd02fe7e540cf2dc8757115cbb9dd11b21e577dc
+-  __TEXT.__unwind_info: 0xc0 sha256:ef0522dd953729f74f4853d5d0ae8a00a0cde970e7b9cde55a95f215a25c8400
++  __TEXT.__unwind_info: 0xc0 sha256:61ab1f60d817e99b2eb2b79042696c974067c53da7566b38b601397544cfb493
+   __DATA_CONST.__cfstring: 0x220 sha256:bf50e5a31c19d543332ba530f3fb1310a41be79b90ae2a0602d8dba12883c4ae
+   __DATA_CONST.__objc_classlist: 0x8 sha256:cc03fffbbab9dd8630f6687a3a84b6f5b74a5ea1bf21b7a3992e088c622a2039
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+
+   - /System/Library/PrivateFrameworks/SystemUIPlugin.framework/Versions/A/SystemUIPlugin
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 91D18CD4-EF51-3526-96E1-D84A1197F23D
++  UUID: 765906A2-ACAF-3F90-9A31-FBF111FE183C
+   Functions: 30
+   Symbols:   68
+   CStrings:  113
+Functions:
+~ sub_bdc : sha256 9c2aa5afc192ae0c00e9d4cfead760b299bbdddfc83d9de1ec0845f1c3cffb69 -> 3a4fbe1f5f2869614e35301000c57623dabdc607439833e9ac4d6e5c5bb94aca
+~ sub_d7c : sha256 9ce1edd8fb72c5a91ae3d2e8d9ca2a3826f0ff6a4257adab933c2d5208627458 -> 27a786fd3849ec1b3c871d5810ddc5c0e6883697320cd2f5736246a959c95079
+~ sub_d94 : sha256 0155d0377ff87d462ac91bf62c9050ce74108d150b9e9ca8d9cb2a95758ba068 -> 0afd2e15348a9be8e19b309bd108a1803e86deac33f388741371d045abf8fe5c
+~ sub_e74 : sha256 ab10085fe83ede131c1ccd3882b5567276e6efa43788abe39e42feef07b3bad1 -> 7eb5779e144615d8af7e2867f9245220936ef9f5d59caf60064f7c480f488a7b
+~ sub_f28 : sha256 55d3a7df7f5d2c45eeffaea187cbe4641510686e04120813cdb14b3bba9beaf7 -> 96d03578c6028e8c301a6df20643e9f067daf948724290584ec2ea75b1e4952c
+~ sub_fbc : sha256 c05dcd7046125b0d5f7c2755961ea4f785da08a8693ee713eda97c036ec0ef56 -> d5ef42958f0069267c0b3d366a32f3b09b1a2c5864099c27690669dda891a21d
+~ sub_1014 : sha256 7de10d78b5e796955e725290529ea8d26119d91b5c80672ae08669a4a2440a75 -> a49a36bd84a849ddf3288c49f292540eefa7d05d4f7e40a8a4434bc7bfb58bc9
+~ sub_1188 : 564 -> 556
+~ sub_13bc -> sub_13b4 : 136 -> 140
+~ sub_1444 -> sub_1440 : sha256 eea9a5a2f812de04f5e75c1c5271a8d28f6b561f4e4fda3040adb3d154bad69f -> e25337d5e06ac943aa08b27613e8d2be822fac25ce4e0300e753393269f3a266
+~ _ExpressCardRequestNotifications : sha256 f2c255a8106b01a2b151b4875b7b2ddc7e62d03f17d91010d628589bea5e3941 -> caff804847285db4a50d44bff444ee28787b781257a533b3f0f9e9f9e58e2946
+~ sub_1880 -> sub_187c : sha256 1318323f48aaee0758de40033c461f985e79070e83919e176c487df0f92395f0 -> cce212c34cca1606505f5379066eb527906964231c07d7825c5f6074b60a4b88
+~ sub_1b3c -> sub_1b38 : sha256 607cb5b9ef578ea5fdf9db58fa84f6d199c2598b4fa5577da7bfc36b6fc5f0c9 -> c04462ff08e9dce8af39814b9a88e02399019baab2d4f0b8970346b5cbc0ad3c
+
+```

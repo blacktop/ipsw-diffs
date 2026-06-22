@@ -1,0 +1,598 @@
+## CoreSuggestionsInternals
+
+> `/System/Library/PrivateFrameworks/CoreSuggestionsInternals.framework/Versions/A/CoreSuggestionsInternals`
+
+```diff
+
+-1331.0.1.0.0
+-  __TEXT.__text: 0x2a87d8 sha256:612731f273d1f6a44c92c78e158fa43069a439f5dba01e934b670c76a209814b
+-  __TEXT.__objc_methlist: 0x1598c sha256:f50878662ee115f88906c24545159781d948cf905d9fc53523ad6abeb35d9726
+-  __TEXT.__const: 0x79d0 sha256:5bff347071992d95797625135d89f422803632b4f82f674ee7556b13fb0fed6d
++1334.0.1.0.0
++  __TEXT.__text: 0x2a7a90 sha256:629339e522a295229fcef1f8f1483d59030bfe30449afc998b366681e87b34f8
++  __TEXT.__objc_methlist: 0x1598c sha256:b2616316409cd11585f15d90d56a681497006c9d66a6023401cc6838ec1ee4b8
++  __TEXT.__const: 0x79e0 sha256:05110f104c9c11276905787fe247502b9ca98ec083ff30bb4b6e99a24aba4d5e
+   __TEXT.__dlopen_cstrs: 0x1cd sha256:7cb2497092201b95d06d05cc8432b1bae68b921f7fd4dc8372cb4d9f857ab819
+-  __TEXT.__swift5_typeref: 0x3e9 sha256:b750834c0b80744562a892a510f4abe15e6938ea3b71093437af481b360b2601
+-  __TEXT.__cstring: 0x30e73 sha256:7fbd095ed10e50e5213854459ca9481316de608871c8627d6713f420c3fa3224
++  __TEXT.__swift5_typeref: 0x3e9 sha256:99c9280c73869f4c7e4832c98e3536d4a4ccffe0698150cc5e56d8e203c5830d
++  __TEXT.__cstring: 0x30e73 sha256:97a739edd3383d1ddee1eb07b413d6a5301c1d0f56415725aa36a256976f6cb4
+   __TEXT.__swift5_capture: 0x420 sha256:bc5dcf4516d6099e9e18a35a27cbba7eee4dcea07c366143090a35bf6b431ed4
+-  __TEXT.__oslogstring: 0x23a9f sha256:9f748ab91c5e2cd165b0ed8fe4f475884a8660d37879912298895804819fc462
+-  __TEXT.__constg_swiftt: 0x2d0 sha256:ca78e729959982a023e10f4b9121f2a9a67c6ccee33302d8d0abd5da06a754e0
+-  __TEXT.__swift5_fieldmd: 0x12c sha256:1578c2159bbad62ef52cc38867939980b6ba85d600ec2dde89a480795579ce96
++  __TEXT.__oslogstring: 0x23ad3 sha256:3bba1e731973aa04e5d64f621641df4f933971274f77e368bbfa659fa47382da
++  __TEXT.__constg_swiftt: 0x2d0 sha256:1720a9250333228ad3c3c3498afec7477e5d600ade4c4d7eb6afb3ed7eb73158
++  __TEXT.__swift5_fieldmd: 0x12c sha256:6c81f070048f93fabad82375c3da3c5d03ac61c5bc5c6ca8a11fefaa9275af71
+   __TEXT.__swift5_reflstr: 0x178 sha256:740583383a47ee016dc1b5b18220ced9cde3f66792eb69093ec67664741b36c6
+-  __TEXT.__swift5_protos: 0x4 sha256:994d35673776d4da11f5b475d8096fce44448648135f8264f20b7e142f77f224
+-  __TEXT.__swift5_proto: 0x1c sha256:ae35abf40ea5ea43a09e2f54133247dd88c4dd6934154cf0f4f4a7b9c23ee352
+-  __TEXT.__swift5_types: 0x14 sha256:0d995fb2bdae4e1852d4f19e4526427fd9048894c3d5f95e4113b0fc6afb4136
+-  __TEXT.__swift_as_entry: 0x3c sha256:266782557ab149dbd425850f6d938aef7dc396620a6660c2ddce447dcd61517c
+-  __TEXT.__swift_as_ret: 0x40 sha256:b0f871c51c8f227d05a7ebea7c1a13094c598c3e75a5f198461fc254f6284358
+-  __TEXT.__swift_as_cont: 0x94 sha256:27120fd90d4877bd48abe792296921914a813568415e12e8039531eca96cb7fe
+-  __TEXT.__gcc_except_tab: 0xa438 sha256:8a7f5e89857e48c6e882d50b4665e9ef55d827b197034748c27ea75d37f1025e
++  __TEXT.__swift5_protos: 0x4 sha256:49ed7394ef5935cc364dab153f29c582703454a25ac9e97e1ae30b3599bcddd1
++  __TEXT.__swift5_proto: 0x1c sha256:d6f4fc5d8f1195f96b28c58d2fbcdedeff20485d367b3efc2aec34e4ca01b1ef
++  __TEXT.__swift5_types: 0x14 sha256:3db102ae7a4c22280d5aff8c8c4ea11157f610bb535d599837ff11e5d0fa01ce
++  __TEXT.__swift_as_entry: 0x3c sha256:5d1874737ab480db4abceecb1f397f892d3bc858453df3436aa0ac0b9fc27e3c
++  __TEXT.__swift_as_ret: 0x40 sha256:ccba9a4f4e1b3036b421a53b6549fff346c6d2fd363e29f8ad133c4433c8b3bd
++  __TEXT.__swift_as_cont: 0x94 sha256:78570377623640b1cad2fcb7dddbbf0117d3d85ff44873fee5c18518ebc639b9
++  __TEXT.__gcc_except_tab: 0xa434 sha256:38c5b5eed6850280ee6b937da1c697096a3b31d0754c50ccb8df9bc647fb91db
+   __TEXT.__ustring: 0xc4 sha256:d792f906a51ebd66dc7a9de2cb252dd05b1d919ebc6775f5de1c69bccecc4ebf
+-  __TEXT.__unwind_info: 0x8620 sha256:7e901fc740769fdcc54710b5ffd16d672ffff9c64652d53ab362d66e509d609a
+-  __TEXT.__eh_frame: 0xc40 sha256:95184574a0b27f8be4ee068b3035dcb07c55477c4a12b017e5223c7dd359875e
++  __TEXT.__unwind_info: 0x8628 sha256:2eabc30339447a6bc3144eadd5abe61ab95a452e47f2a0691b13484699d2cf99
++  __TEXT.__eh_frame: 0xc40 sha256:0239387a342ea1ef5171e5eb5d5143dcd8739d85fce7e8f3c067739d4702bbb2
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x4e30 sha256:ceb58308f5d7c78131564c6e810b47f84cb9661fa4b2452aba1d60a224093a7f
+-  __DATA_CONST.__objc_classlist: 0xb48 sha256:66770f15444a0d904c289ff4f0d14aa05eb2891cdedd8508808224a64242ab5a
+-  __DATA_CONST.__objc_catlist: 0x130 sha256:c28852cd7710d6032bd245682cf65daf94fb1df9820a2fec9cddb5a8ed933928
+-  __DATA_CONST.__objc_protolist: 0x1f8 sha256:907814d1cd3af33f88ebfb0fe09e7e57b83e8d0e0ef86547d3a8be25c3536973
++  __DATA_CONST.__const: 0x4e30 sha256:cb702cb377b93b6fb4e7cf9458f0678b7263edeb4d7f584e2f186725cafb46a5
++  __DATA_CONST.__objc_classlist: 0xb48 sha256:b5a13c7f8155355a6ac4d065d91e3388c934c90cec5e6bdfd3ac03538c095054
++  __DATA_CONST.__objc_catlist: 0x130 sha256:ca3e7168a6b99bc10c2ea289c2c13c6a963facd5102eecf43675e69d625f638e
++  __DATA_CONST.__objc_protolist: 0x1f8 sha256:024bb7e352911a63ca950bf915dd2d7943767ea8f781ffe2f2662d6f0fd8bed5
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__weak_got: 0x8 sha256:93c3ea2c1752dc17d7b5111d1ba66c4e70c2be847efed30d8a24435782faf736
+-  __DATA_CONST.__objc_selrefs: 0xd2e8 sha256:30ebb90f08116ca0f0b540f9c7d23d51fd986f99c04b2470a16d83cb44c616e7
+-  __DATA_CONST.__objc_protorefs: 0x40 sha256:fbdfcfec10fcfc56e7fbd925ecb964643a262f7b9ad0101c96b73f6203eac262
+-  __DATA_CONST.__objc_superrefs: 0x758 sha256:86323ed7024e163f57c1358b39da014d696b7ae7d72a490b07a45c7b8646909e
+-  __DATA_CONST.__objc_arraydata: 0x37f0 sha256:5be1ae43a1c023d16a44cd47f6aa1258acc0cda7766d93bd35106b3a35bfa878
+-  __DATA_CONST.__got: 0x2450 sha256:ae94d76be8c6d72bcaed8379fe6b449470f1a8fdd262469ff7edae9c6f7e4699
+-  __AUTH_CONST.__const: 0xce18 sha256:8ba799c3334b1a376d661e4ddfff30596f6de21f7e31fde618d03cb5ec75bdc1
+-  __AUTH_CONST.__cfstring: 0x25840 sha256:b9b38a42ff834d7d55f251dfa4ae9ac462deccbfed1236603951c42c8dbc5de2
+-  __AUTH_CONST.__objc_const: 0x1fe88 sha256:bd7d37e84da465e18b58739cc6fa404919c08eb66b437021732e05b15407500a
+-  __AUTH_CONST.__weak_auth_got: 0x28 sha256:fa80eb8a3d7c98dd705a4dc9b199dd3047b828040fdb267d1c5d51b5b3ac7902
+-  __AUTH_CONST.__objc_intobj: 0x1260 sha256:86c720bb9867de49d47c5bdc226990805099d37b006178a8165090d8efb77d24
+-  __AUTH_CONST.__objc_doubleobj: 0x80 sha256:07781a4c02e29d223622608ad80a592a7724de9b5cd45aeb66f21f81209c23fe
+-  __AUTH_CONST.__objc_arrayobj: 0xe70 sha256:0e91ab84a596dca759668eb43d1753e902923adb0f35b8384edc234732b038d1
+-  __AUTH_CONST.__objc_dictobj: 0x370 sha256:9c20d1b59e604632cabfdda9b749347a9610db3162ea2529643adac68ab60c7b
++  __DATA_CONST.__weak_got: 0x8 sha256:355aff58b3c3c53e544b526facd1396f7773b8b0f55b9ef40c403e82fbc00c40
++  __DATA_CONST.__objc_selrefs: 0xd2e8 sha256:511beb26c531cdadc8177056c0c1a9bbdb6f7e5c5484a2b09be90b4fea7d77f0
++  __DATA_CONST.__objc_protorefs: 0x40 sha256:caa7a097a1f6cda2a2527097abe7fe1b3f0a0f905fdf9216c8fbcc07cd8d6690
++  __DATA_CONST.__objc_superrefs: 0x758 sha256:f7cac9d38c0fab19b177e345406e0a76992051bd53ef52250d50bd9383a05f50
++  __DATA_CONST.__objc_arraydata: 0x37f0 sha256:6b1e0767e8bd7b848394c78f9b15c9e0f3a7a90150f6c03bbe91b6a7431f9d00
++  __DATA_CONST.__got: 0x2450 sha256:9dfd529c9e87563b3005a9dac1a8f0586e92df42a5e0963dbd8e51065b63bc36
++  __AUTH_CONST.__const: 0xce18 sha256:5e223134138b9dbc653f57a2981f09db3bfadc072afd44f7842f383990f62a30
++  __AUTH_CONST.__cfstring: 0x25840 sha256:fd9d162473390035836d1dd25ea1d284225a2c82df35d5c2853172a5f8da597e
++  __AUTH_CONST.__objc_const: 0x1fe88 sha256:1f37140449f7960350e850d9dba76c983da170e63b644089e1f28bd470839356
++  __AUTH_CONST.__weak_auth_got: 0x28 sha256:833c1970934ea6a2e3c8588998f2377e24860c7b943423c03fd6485c7794eb22
++  __AUTH_CONST.__objc_intobj: 0x1260 sha256:20ff4d64e49affac755f35f4f7b3c9eafddd458f3a8dcb7761926b754424c129
++  __AUTH_CONST.__objc_doubleobj: 0x80 sha256:2823e39e7d96aa087b8e4752030b41057d1c0a06d99c9f13bcd904ac8c95f138
++  __AUTH_CONST.__objc_arrayobj: 0xe70 sha256:fc04e56fbcdfa90e5a7a7aef27a50df474bcd9d488dca0b9e0517165dd036d41
++  __AUTH_CONST.__objc_dictobj: 0x370 sha256:539473d3b3f45b6b8e486224120fee8dcbf34f6ea4d25a10c08e8a8594d7aa48
+   __AUTH_CONST.__auth_got: 0x1930 sha256:40d1649ed3f8471c82774639e4d4dcbcd731a609c63c4e833edfa4d515c167bc
+-  __AUTH.__objc_data: 0x20f0 sha256:c41d93859d8e4b77b0529a29fa2718662dedd1e1f1b01eea1e8a4e91a1e2ff56
+-  __AUTH.__data: 0x200 sha256:9e23cc3dc70261bf9fb766da84a201ecf7620fe4608945b02e75b06026805372
++  __AUTH.__objc_data: 0x20f0 sha256:9e8220b9db1e6fb0cd120d641cae089fae54b956e739aa05beb0b2c5a0de42d5
++  __AUTH.__data: 0x200 sha256:5e461894991a1dd7b86bf44c5ff85b1b82b8f14b6237416c573169dc774b4f44
+   __DATA.__objc_ivar: 0x1498 sha256:522c5bbc6306458d4950a370753908cc53bdfa632c586f74ce7dd8fecf352c74
+-  __DATA.__data: 0x1a18 sha256:45b580252aaa4d0fd3b3d13edef52aede1167fd08c2e1de8acbb3735df16256a
++  __DATA.__data: 0x1a18 sha256:b7302aaea3a6b85fd38b14cc299c32181d203a785678c73ffe57d4ecb8bc94c3
+   __DATA.__bss: 0x860 sha256:2a0e323f3cb40a89a5381d6f63891f148a4ef89e523a1455104e75779f242a97
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x4fa0 sha256:8ea321d7b4560734a43b5adf61389e4f40fe6f13ff0ffc93ee7616f828ffad1d
+-  __DATA_DIRTY.__data: 0x9d8 sha256:d5b140e2a80e0ee080846d21000c3c1629da4dbaf989cf0f42e9792cbbf605d4
++  __DATA_DIRTY.__objc_data: 0x4fa0 sha256:a28cf4f3da301b1c20f9db66db7f7d4013e6826cb44559e1891ff1b4dac9bb0e
++  __DATA_DIRTY.__data: 0x9d8 sha256:79739ad51de8c27360c875c07e57e4c1ed2be5b7263b26b03bbd28bc7901541e
+   __DATA_DIRTY.__bss: 0x9a78 sha256:1a36a12503a9c2525c61e506ffef9fc32fbe33f80796c07e6ffe4fd5f70886db
+   __DATA_DIRTY.__common: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CBEF071F-7470-34A3-8CC0-C3F8A0FF2E92
+-  Functions: 10793
+-  Symbols:   25222
+-  CStrings:  13231
++  UUID: 7416D844-2A23-39E3-9790-7D08D2FFCC39
++  Functions: 10796
++  Symbols:   25217
++  CStrings:  13232
+ 
+Symbols:
++ _PASValidatedFormat.37902
++ __42+[SGAsset downloadMetadataWithCompletion:]_block_invoke.356
++ __42+[SGAsset downloadMetadataWithCompletion:]_block_invoke.357
++ __Block_byref_object_copy_.24650
++ __Block_byref_object_copy_.26257
++ __Block_byref_object_copy_.26572
++ __Block_byref_object_copy_.26733
++ __Block_byref_object_copy_.27494
++ __Block_byref_object_copy_.28880
++ __Block_byref_object_copy_.29039
++ __Block_byref_object_copy_.29443
++ __Block_byref_object_copy_.30210
++ __Block_byref_object_copy_.31620
++ __Block_byref_object_copy_.32688
++ __Block_byref_object_copy_.32794
++ __Block_byref_object_copy_.33697
++ __Block_byref_object_copy_.33761
++ __Block_byref_object_copy_.34048
++ __Block_byref_object_copy_.34333
++ __Block_byref_object_copy_.35047
++ __Block_byref_object_copy_.35353
++ __Block_byref_object_copy_.35451
++ __Block_byref_object_copy_.36245
++ __Block_byref_object_copy_.36624
++ __Block_byref_object_copy_.36835
++ __Block_byref_object_copy_.37744
++ __Block_byref_object_copy_.38020
++ __Block_byref_object_copy_.38274
++ __Block_byref_object_copy_.38431
++ __Block_byref_object_copy_.40385
++ __Block_byref_object_copy_.40727
++ __Block_byref_object_copy_.41295
++ __Block_byref_object_dispose_.24651
++ __Block_byref_object_dispose_.26258
++ __Block_byref_object_dispose_.26573
++ __Block_byref_object_dispose_.26734
++ __Block_byref_object_dispose_.27495
++ __Block_byref_object_dispose_.28881
++ __Block_byref_object_dispose_.29040
++ __Block_byref_object_dispose_.29444
++ __Block_byref_object_dispose_.30211
++ __Block_byref_object_dispose_.31621
++ __Block_byref_object_dispose_.32689
++ __Block_byref_object_dispose_.32795
++ __Block_byref_object_dispose_.33698
++ __Block_byref_object_dispose_.33762
++ __Block_byref_object_dispose_.34049
++ __Block_byref_object_dispose_.34334
++ __Block_byref_object_dispose_.35048
++ __Block_byref_object_dispose_.35354
++ __Block_byref_object_dispose_.35452
++ __Block_byref_object_dispose_.36246
++ __Block_byref_object_dispose_.36625
++ __Block_byref_object_dispose_.36836
++ __Block_byref_object_dispose_.37745
++ __Block_byref_object_dispose_.38021
++ __Block_byref_object_dispose_.38275
++ __Block_byref_object_dispose_.38432
++ __Block_byref_object_dispose_.40386
++ __Block_byref_object_dispose_.40728
++ __Block_byref_object_dispose_.41296
++ __ZNSt12length_errorC1B9nqe220106EPKc
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEEPvEENS_22__tree_node_destructorINS6_ISB_EEEEED2B9nqe220106Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPvEENS_22__tree_node_destructorINS5_IS9_EEEEED1B9nqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__113__tree_removeB9nqe220106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__113unordered_setIPN3re23DFA5StateENS2_9StateHashENS2_10StateEqualENS_9allocatorIS4_EEED1B9nqe220106Ev
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPK9_vertex_tEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPKNS_6vectorIPK9_vertex_tNS1_IS5_EEEEEENS_16allocator_traitsISA_EEEENS_19__allocation_resultINT0_7pointerENSE_9size_typeEEERT_m
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe220106Ev
++ __ZNSt3__120__throw_length_errorB9nqe220106EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIPK9_vertex_tNS_6vectorIS6_NS1_IS6_EEEEEEPvEEEEEclB9nqe220106EPSC_
++ __ZNSt3__124__put_character_sequenceB9nqe220106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__try_key_extraction_implB9nqe220106INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairINS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEEZNS_6__treeIS6_NS_4lessIS6_EENS4_IS6_EEE16__emplace_uniqueB9nqe220106IJS6_EEESE_DpOT_EUlRKS6_OS6_E_ZNSK_IJS6_EEESE_SN_EUlSQ_E_S6_Li0EEET0_NS_14__priority_tagILm1EEET1_T2_OT3_
++ __ZNSt3__127__tree_balance_after_insertB9nqe220106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__15dequeIN3re29WalkStateINS1_4FragEEENS_9allocatorIS4_EEED2B9nqe220106Ev
++ __ZNSt3__15dequeIN3re29WalkStateIPNS1_6RegexpEEENS_9allocatorIS5_EEED2B9nqe220106Ev
++ __ZNSt3__15dequeIN3re29WalkStateIPNS1_9Prefilter4InfoEEENS_9allocatorIS6_EEED2B9nqe220106Ev
++ __ZNSt3__15dequeIN3re29WalkStateIbEENS_9allocatorIS3_EEED2B9nqe220106Ev
++ __ZNSt3__15dequeIN3re29WalkStateIiEENS_9allocatorIS3_EEED2B9nqe220106Ev
++ __ZNSt3__16__treeIN3re29RuneRangeENS1_13RuneRangeLessENS_9allocatorIS2_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPN3re29PrefilterEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EEEENS5_ISF_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeISB_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_19__map_value_compareIS7_NS_4pairIKS7_iEENS_4lessIS7_EEEENS5_ISC_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIiNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS_19__map_value_compareIiNS_4pairIKiS7_EENS_4lessIiEEEENS5_ISC_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIiiEENS_19__map_value_compareIiNS_4pairIKiiEENS_4lessIiEEEENS_9allocatorIS6_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIyiEENS_19__map_value_compareIyNS_4pairIKyiEENS_4lessIyEEEENS_9allocatorIS6_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE14__tree_deleterclB9nqe220106EPNS_11__tree_nodeIS6_PvEE
++ __ZNSt3__16vectorIN3re211SparseArrayIPNS1_3NFA6ThreadEE10IndexValueENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIN3re29RuneRangeENS_9allocatorIS2_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIPK9_vertex_tNS_9allocatorIS3_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIPKNS0_IPK9_vertex_tNS_9allocatorIS3_EEEENS4_IS8_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIPN3re23DFA5StateENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIPN3re23RE2ENS_9allocatorIS3_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIPN3re26RegexpENS_9allocatorIS3_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIPN3re29PrefilterENS_9allocatorIS3_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9nqe220106Ev
++ __ZSt28__throw_bad_array_new_lengthB9nqe220106v
++ __ZZNSt3__112__hash_tableIPN3re23DFA5StateENS2_9StateHashENS2_10StateEqualENS_9allocatorIS4_EEE16__emplace_uniqueB9nqe220106IJRKS4_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEEDpOT_ENKUlSC_SC_E_clESC_SC_
++ __ZZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE16__emplace_uniqueB9nqe220106IJRKS6_EEENS_4pairINS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEEDpOT_ENKUlSD_SD_E_clESD_SD_
++ __block_literal_global.10.37759
++ __block_literal_global.100.35438
++ __block_literal_global.102.27100
++ __block_literal_global.105.26541
++ __block_literal_global.108.30072
++ __block_literal_global.11.40979
++ __block_literal_global.119.34714
++ __block_literal_global.119.36621
++ __block_literal_global.12.31535
++ __block_literal_global.12.35356
++ __block_literal_global.13.36688
++ __block_literal_global.13.40432
++ __block_literal_global.135.27070
++ __block_literal_global.150.27050
++ __block_literal_global.16.37762
++ __block_literal_global.16.40438
++ __block_literal_global.186.24844
++ __block_literal_global.195.32365
++ __block_literal_global.202.34617
++ __block_literal_global.208.36928
++ __block_literal_global.21.31521
++ __block_literal_global.21.38065
++ __block_literal_global.21.40426
++ __block_literal_global.23.38066
++ __block_literal_global.25098
++ __block_literal_global.26296
++ __block_literal_global.26576
++ __block_literal_global.267.36505
++ __block_literal_global.27.32719
++ __block_literal_global.27208
++ __block_literal_global.27836
++ __block_literal_global.28040
++ __block_literal_global.28119
++ __block_literal_global.285.26962
++ __block_literal_global.28871
++ __block_literal_global.29017
++ __block_literal_global.294.26963
++ __block_literal_global.29756
++ __block_literal_global.29866
++ __block_literal_global.30.32954
++ __block_literal_global.30180
++ __block_literal_global.30577
++ __block_literal_global.31149
++ __block_literal_global.31534
++ __block_literal_global.31646
++ __block_literal_global.32208
++ __block_literal_global.32716
++ __block_literal_global.32871
++ __block_literal_global.32971
++ __block_literal_global.33.34039
++ __block_literal_global.33.38059
++ __block_literal_global.33334
++ __block_literal_global.33505
++ __block_literal_global.33950
++ __block_literal_global.34068
++ __block_literal_global.34792
++ __block_literal_global.35.32956
++ __block_literal_global.350.36790
++ __block_literal_global.35352
++ __block_literal_global.35402
++ __block_literal_global.35512
++ __block_literal_global.36.41050
++ __block_literal_global.36065
++ __block_literal_global.36110
++ __block_literal_global.36287
++ __block_literal_global.36694
++ __block_literal_global.37.34040
++ __block_literal_global.37003
++ __block_literal_global.372.34430
++ __block_literal_global.37788
++ __block_literal_global.379.34432
++ __block_literal_global.38058
++ __block_literal_global.38206
++ __block_literal_global.38304
++ __block_literal_global.38459
++ __block_literal_global.39.38060
++ __block_literal_global.39.41051
++ __block_literal_global.4.37792
++ __block_literal_global.40420
++ __block_literal_global.40939
++ __block_literal_global.40982
++ __block_literal_global.41797
++ __block_literal_global.42.38279
++ __block_literal_global.42258
++ __block_literal_global.42418
++ __block_literal_global.43.34036
++ __block_literal_global.43.38038
++ __block_literal_global.46.32935
++ __block_literal_global.46.38050
++ __block_literal_global.461.34352
++ __block_literal_global.500.37436
++ __block_literal_global.53.31495
++ __block_literal_global.61.35320
++ __block_literal_global.61.38039
++ __block_literal_global.63.31488
++ __block_literal_global.64.38040
++ __block_literal_global.66.35321
++ __block_literal_global.67.38041
++ __block_literal_global.69.37059
++ __block_literal_global.7.34070
++ __block_literal_global.7.37768
++ __block_literal_global.72.29019
++ __block_literal_global.81.26261
++ __block_literal_global.85.38239
++ __block_literal_global.88.30660
++ __block_literal_global.88.34730
++ __block_literal_global.91.26248
++ __block_literal_global.91.30662
++ __block_literal_global.98.27089
++ __block_literal_global.98.32622
++ __patterns_block_invoke.25102
++ asDictionary.onceToken.30576
++ asDictionary.sharedKeySet.30579
++ charactersSAX.36063
++ patterns.25093
++ patterns.onceToken.24843
++ patterns.onceToken.25097
++ patterns.patterns.24845
++ patterns.patterns.25099
++ sharedInstance.27840
++ sharedInstance._pasExprOnceResult.28120
++ sharedInstance._pasExprOnceResult.31647
++ sharedInstance._pasExprOnceResult.32872
++ sharedInstance._pasExprOnceResult.33335
++ sharedInstance._pasExprOnceResult.36194
++ sharedInstance._pasExprOnceResult.36288
++ sharedInstance._pasExprOnceResult.37789
++ sharedInstance._pasExprOnceResult.40940
++ sharedInstance._pasOnceToken2.28118
++ sharedInstance._pasOnceToken2.31645
++ sharedInstance._pasOnceToken2.36193
++ sharedInstance._pasOnceToken2.40938
++ sharedInstance._pasOnceToken3.33333
++ sharedInstance._pasOnceToken3.36286
+- _PASValidatedFormat.37903
+- __42+[SGAsset downloadMetadataWithCompletion:]_block_invoke.350
+- __42+[SGAsset downloadMetadataWithCompletion:]_block_invoke.351
+- __Block_byref_object_copy_.24642
+- __Block_byref_object_copy_.26256
+- __Block_byref_object_copy_.26571
+- __Block_byref_object_copy_.26732
+- __Block_byref_object_copy_.27493
+- __Block_byref_object_copy_.28879
+- __Block_byref_object_copy_.29038
+- __Block_byref_object_copy_.29442
+- __Block_byref_object_copy_.30209
+- __Block_byref_object_copy_.31618
+- __Block_byref_object_copy_.32687
+- __Block_byref_object_copy_.32793
+- __Block_byref_object_copy_.33696
+- __Block_byref_object_copy_.33760
+- __Block_byref_object_copy_.34046
+- __Block_byref_object_copy_.34331
+- __Block_byref_object_copy_.35045
+- __Block_byref_object_copy_.35351
+- __Block_byref_object_copy_.35449
+- __Block_byref_object_copy_.36243
+- __Block_byref_object_copy_.36625
+- __Block_byref_object_copy_.36836
+- __Block_byref_object_copy_.37745
+- __Block_byref_object_copy_.38021
+- __Block_byref_object_copy_.38275
+- __Block_byref_object_copy_.38432
+- __Block_byref_object_copy_.40386
+- __Block_byref_object_copy_.40728
+- __Block_byref_object_copy_.41296
+- __Block_byref_object_dispose_.24643
+- __Block_byref_object_dispose_.26257
+- __Block_byref_object_dispose_.26572
+- __Block_byref_object_dispose_.26733
+- __Block_byref_object_dispose_.27494
+- __Block_byref_object_dispose_.28880
+- __Block_byref_object_dispose_.29039
+- __Block_byref_object_dispose_.29443
+- __Block_byref_object_dispose_.30210
+- __Block_byref_object_dispose_.31619
+- __Block_byref_object_dispose_.32688
+- __Block_byref_object_dispose_.32794
+- __Block_byref_object_dispose_.33697
+- __Block_byref_object_dispose_.33761
+- __Block_byref_object_dispose_.34047
+- __Block_byref_object_dispose_.34332
+- __Block_byref_object_dispose_.35046
+- __Block_byref_object_dispose_.35352
+- __Block_byref_object_dispose_.35450
+- __Block_byref_object_dispose_.36244
+- __Block_byref_object_dispose_.36626
+- __Block_byref_object_dispose_.36837
+- __Block_byref_object_dispose_.37746
+- __Block_byref_object_dispose_.38022
+- __Block_byref_object_dispose_.38276
+- __Block_byref_object_dispose_.38433
+- __Block_byref_object_dispose_.40387
+- __Block_byref_object_dispose_.40729
+- __Block_byref_object_dispose_.41297
+- __ZNSt12length_errorC1B9nqe220100EPKc
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEEPvEENS_22__tree_node_destructorINS6_ISB_EEEEED2B9nqe220100Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPvEENS_22__tree_node_destructorINS5_IS9_EEEEED1B9nqe220100Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__113__tree_removeB9nqe220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__113unordered_setIPN3re23DFA5StateENS2_9StateHashENS2_10StateEqualENS_9allocatorIS4_EEED1B9nqe220100Ev
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPK9_vertex_tEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPKNS_6vectorIPK9_vertex_tNS1_IS5_EEEEEENS_16allocator_traitsISA_EEEENS_19__allocation_resultINT0_7pointerENSE_9size_typeEEERT_m
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe220100Ev
+- __ZNSt3__120__throw_length_errorB9nqe220100EPKc
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIPK9_vertex_tNS_6vectorIS6_NS1_IS6_EEEEEEPvEEEEEclB9nqe220100EPSC_
+- __ZNSt3__124__put_character_sequenceB9nqe220100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__try_key_extraction_implB9nqe220100INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairINS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEEZNS_6__treeIS6_NS_4lessIS6_EENS4_IS6_EEE16__emplace_uniqueB9nqe220100IJS6_EEESE_DpOT_EUlRKS6_OS6_E_ZNSK_IJS6_EEESE_SN_EUlSQ_E_S6_Li0EEET0_NS_14__priority_tagILm1EEET1_T2_OT3_
+- __ZNSt3__127__tree_balance_after_insertB9nqe220100IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__15dequeIN3re29WalkStateINS1_4FragEEENS_9allocatorIS4_EEED2B9nqe220100Ev
+- __ZNSt3__15dequeIN3re29WalkStateIPNS1_6RegexpEEENS_9allocatorIS5_EEED2B9nqe220100Ev
+- __ZNSt3__15dequeIN3re29WalkStateIPNS1_9Prefilter4InfoEEENS_9allocatorIS6_EEED2B9nqe220100Ev
+- __ZNSt3__15dequeIN3re29WalkStateIbEENS_9allocatorIS3_EEED2B9nqe220100Ev
+- __ZNSt3__15dequeIN3re29WalkStateIiEENS_9allocatorIS3_EEED2B9nqe220100Ev
+- __ZNSt3__16__treeIN3re29RuneRangeENS1_13RuneRangeLessENS_9allocatorIS2_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPN3re29PrefilterEEENS_19__map_value_compareIS7_NS_4pairIKS7_SA_EENS_4lessIS7_EEEENS5_ISF_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeISB_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEENS_19__map_value_compareIS7_NS_4pairIKS7_iEENS_4lessIS7_EEEENS5_ISC_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIiNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEENS_19__map_value_compareIiNS_4pairIKiS7_EENS_4lessIiEEEENS5_ISC_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIiiEENS_19__map_value_compareIiNS_4pairIKiiEENS_4lessIiEEEENS_9allocatorIS6_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIyiEENS_19__map_value_compareIyNS_4pairIKyiEENS_4lessIyEEEENS_9allocatorIS6_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS2_PvEE
+- __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE14__tree_deleterclB9nqe220100EPNS_11__tree_nodeIS6_PvEE
+- __ZNSt3__16vectorIN3re211SparseArrayIPNS1_3NFA6ThreadEE10IndexValueENS_9allocatorIS7_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIN3re29RuneRangeENS_9allocatorIS2_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIPK9_vertex_tNS_9allocatorIS3_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIPKNS0_IPK9_vertex_tNS_9allocatorIS3_EEEENS4_IS8_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIPN3re23DFA5StateENS_9allocatorIS4_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIPN3re23RE2ENS_9allocatorIS3_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIPN3re26RegexpENS_9allocatorIS3_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIPN3re29PrefilterENS_9allocatorIS3_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB9nqe220100Ev
+- __ZSt28__throw_bad_array_new_lengthB9nqe220100v
+- __ZZNSt3__112__hash_tableIPN3re23DFA5StateENS2_9StateHashENS2_10StateEqualENS_9allocatorIS4_EEE16__emplace_uniqueB9nqe220100IJRKS4_EEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEEDpOT_ENKUlSC_SC_E_clESC_SC_
+- __ZZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE16__emplace_uniqueB9nqe220100IJRKS6_EEENS_4pairINS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEEbEEDpOT_ENKUlSD_SD_E_clESD_SD_
+- __block_literal_global.10.37760
+- __block_literal_global.100.35436
+- __block_literal_global.102.27099
+- __block_literal_global.105.26540
+- __block_literal_global.108.30071
+- __block_literal_global.11.40980
+- __block_literal_global.119.34712
+- __block_literal_global.119.36622
+- __block_literal_global.12.31533
+- __block_literal_global.12.35354
+- __block_literal_global.13.36689
+- __block_literal_global.13.40433
+- __block_literal_global.135.27069
+- __block_literal_global.150.27049
+- __block_literal_global.16.37763
+- __block_literal_global.16.40439
+- __block_literal_global.187
+- __block_literal_global.195.32363
+- __block_literal_global.202.34615
+- __block_literal_global.208.36929
+- __block_literal_global.21.31519
+- __block_literal_global.21.38066
+- __block_literal_global.21.40427
+- __block_literal_global.23.38067
+- __block_literal_global.25094
+- __block_literal_global.26295
+- __block_literal_global.26575
+- __block_literal_global.267.36506
+- __block_literal_global.27.32718
+- __block_literal_global.27207
+- __block_literal_global.27835
+- __block_literal_global.28039
+- __block_literal_global.28118
+- __block_literal_global.285.26961
+- __block_literal_global.28870
+- __block_literal_global.29016
+- __block_literal_global.294.26962
+- __block_literal_global.29755
+- __block_literal_global.29865
+- __block_literal_global.30.32953
+- __block_literal_global.30179
+- __block_literal_global.30575
+- __block_literal_global.31147
+- __block_literal_global.31532
+- __block_literal_global.31644
+- __block_literal_global.32206
+- __block_literal_global.32715
+- __block_literal_global.32870
+- __block_literal_global.32970
+- __block_literal_global.33.34037
+- __block_literal_global.33.38060
+- __block_literal_global.33333
+- __block_literal_global.33504
+- __block_literal_global.33949
+- __block_literal_global.34066
+- __block_literal_global.34790
+- __block_literal_global.35.32955
+- __block_literal_global.350.36791
+- __block_literal_global.35350
+- __block_literal_global.35400
+- __block_literal_global.35510
+- __block_literal_global.36.41051
+- __block_literal_global.36063
+- __block_literal_global.36108
+- __block_literal_global.36285
+- __block_literal_global.36695
+- __block_literal_global.37.34038
+- __block_literal_global.37004
+- __block_literal_global.372.34428
+- __block_literal_global.37789
+- __block_literal_global.379.34430
+- __block_literal_global.38059
+- __block_literal_global.38207
+- __block_literal_global.38305
+- __block_literal_global.38460
+- __block_literal_global.39.38061
+- __block_literal_global.39.41052
+- __block_literal_global.4.37793
+- __block_literal_global.40421
+- __block_literal_global.40940
+- __block_literal_global.40983
+- __block_literal_global.41798
+- __block_literal_global.42.38280
+- __block_literal_global.42259
+- __block_literal_global.42419
+- __block_literal_global.43.34034
+- __block_literal_global.43.38039
+- __block_literal_global.46.32934
+- __block_literal_global.46.38051
+- __block_literal_global.461.34350
+- __block_literal_global.500.37437
+- __block_literal_global.53.31493
+- __block_literal_global.61.35318
+- __block_literal_global.61.38040
+- __block_literal_global.63.31486
+- __block_literal_global.64.38041
+- __block_literal_global.66.35319
+- __block_literal_global.67.38042
+- __block_literal_global.69.37060
+- __block_literal_global.7.34068
+- __block_literal_global.7.37769
+- __block_literal_global.72.29018
+- __block_literal_global.81.26260
+- __block_literal_global.85.38240
+- __block_literal_global.88.30658
+- __block_literal_global.88.34728
+- __block_literal_global.91.26247
+- __block_literal_global.91.30660
+- __block_literal_global.98.27088
+- __block_literal_global.98.32621
+- __patterns_block_invoke.25098
+- _objc_msgSend$filterDangerousSigDetections:message:
+- asDictionary.onceToken.30574
+- asDictionary.sharedKeySet.30577
+- charactersSAX.36061
+- patterns.25089
+- patterns.onceToken.24837
+- patterns.onceToken.25093
+- patterns.patterns.24838
+- patterns.patterns.25095
+- sharedInstance.27839
+- sharedInstance._pasExprOnceResult.28119
+- sharedInstance._pasExprOnceResult.31645
+- sharedInstance._pasExprOnceResult.32871
+- sharedInstance._pasExprOnceResult.33334
+- sharedInstance._pasExprOnceResult.36192
+- sharedInstance._pasExprOnceResult.36286
+- sharedInstance._pasExprOnceResult.37790
+- sharedInstance._pasExprOnceResult.40941
+- sharedInstance._pasOnceToken2.28117
+- sharedInstance._pasOnceToken2.31643
+- sharedInstance._pasOnceToken2.36191
+- sharedInstance._pasOnceToken2.40939
+- sharedInstance._pasOnceToken3.33332
+- sharedInstance._pasOnceToken3.36284
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugDTL30w1CkOD5X80VoHVF8UukNLi0dBSWU/Library/Caches/com.apple.xbs/TemporaryDirectory.QnSxpx/Sources/Suggestions/re2/re2/re2_nfa.cc"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugDTL30w1CkOD5X80VoHVF8UukNLi0dBSWU/Library/Caches/com.apple.xbs/TemporaryDirectory.QnSxpx/Sources/Suggestions/re2/re2/re2_prefilter.h"
++ "/AppleInternal/Library/BuildRoots/4~CRp1ugDTL30w1CkOD5X80VoHVF8UukNLi0dBSWU/Library/Caches/com.apple.xbs/TemporaryDirectory.QnSxpx/Sources/Suggestions/re2/re2/re2_regexp.h"
++ "Ignoring DataDetector match: Trailing email lines."
++ "SGDSpotlightReceiver got email bid:%{public}@ uid:%{public}@ did:%{public}@ mid:%{private}@"
+- "/AppleInternal/Library/BuildRoots/4~CQQaugAytkpUAx86E6q9ifmJMtaH4XAv6OoFTTU/Library/Caches/com.apple.xbs/TemporaryDirectory.yvlw0g/Sources/Suggestions/re2/re2/re2_nfa.cc"
+- "/AppleInternal/Library/BuildRoots/4~CQQaugAytkpUAx86E6q9ifmJMtaH4XAv6OoFTTU/Library/Caches/com.apple.xbs/TemporaryDirectory.yvlw0g/Sources/Suggestions/re2/re2/re2_prefilter.h"
+- "/AppleInternal/Library/BuildRoots/4~CQQaugAytkpUAx86E6q9ifmJMtaH4XAv6OoFTTU/Library/Caches/com.apple.xbs/TemporaryDirectory.yvlw0g/Sources/Suggestions/re2/re2/re2_regexp.h"
+- "SGDSpotlightReceiver got email bid:%{public}@ uid:%{public}@ did:%{public}@ mid:%{public}@"
+
+```

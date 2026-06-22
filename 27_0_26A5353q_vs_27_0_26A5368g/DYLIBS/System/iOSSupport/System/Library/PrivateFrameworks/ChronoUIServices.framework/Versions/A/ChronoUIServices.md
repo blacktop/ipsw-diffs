@@ -1,0 +1,319 @@
+## ChronoUIServices
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/ChronoUIServices.framework/Versions/A/ChronoUIServices`
+
+```diff
+
+-721.0.0.0.0
+-  __TEXT.__text: 0x131120 sha256:3eb766bd372dc301d812f1a08efdbfc816d1c44fac0db79d857885bd1fea3a37
+-  __TEXT.__objc_methlist: 0x31c4 sha256:30ab8e1de5cbdb8d0c1c63b2135cd42c449b5d2f8efd18a6d10bb0c8b586bdfe
+-  __TEXT.__const: 0x561a sha256:8e344577c4a033e42e8b6973a2491b89229cb80757d9bce88a561e1591038191
+-  __TEXT.__gcc_except_tab: 0x3c28 sha256:91f3fa33ac484d93f57467c24eb8e6f0563d11327d2fe41e8eef3692635fc107
+-  __TEXT.__cstring: 0x34ef sha256:c340a987614bc5be629324e5ce9828d5bc91c53808fcd250f289e441d76ed74b
+-  __TEXT.__oslogstring: 0x2bb5 sha256:1afe61ec8408ebffd32d1faf7df326f72ef97eaf14bcf1c66397af1a632b980d
+-  __TEXT.__swift5_typeref: 0x3430 sha256:227773275ffff687920ebd513011958f4fe9b58187458e322da2f05abeb70877
+-  __TEXT.__swift5_fieldmd: 0x1404 sha256:b645f7b14d954e320db9a5b88edc12d68824306c59353f7c8c901292bb9989cb
+-  __TEXT.__constg_swiftt: 0x29d0 sha256:2ea5980f675e66cec298ae4717b0e3ffa4848759a1e832428a5b5e2badd0a1c8
++727.0.0.0.0
++  __TEXT.__text: 0x13202c sha256:bf30ca7cef8da0c49a27ef4eb55ca211c45a9cc67974d9dd509cdfb1a6ca2431
++  __TEXT.__objc_methlist: 0x3284 sha256:c3b9ff698de82ed0b69f26c3d668caa2fee98bc912777ea0ac4d1c0137c6ae0d
++  __TEXT.__const: 0x562a sha256:059743710ea41da311ab586b54a113d616b8c48dfe09fad0bba6c3f03e7699b4
++  __TEXT.__gcc_except_tab: 0x3d0c sha256:c9b9b0443ad120b324c7c53613c16bbcd074d2c1f45ce2310018d822111b055c
++  __TEXT.__cstring: 0x34ff sha256:ccc5c16808f764d070d3baca4a08c7e8391913e52c52262906599dedecd59dd9
++  __TEXT.__oslogstring: 0x2c15 sha256:716895ff5e061d760ccba4ea6d61e7730aa9695ad5b473b4713cf199937bfa0f
++  __TEXT.__swift5_typeref: 0x3430 sha256:3f9adf0512a3f31bd85d73627d182b88e848449c5673db3623429d1742e89275
++  __TEXT.__swift5_fieldmd: 0x1404 sha256:cc6aab873244747bc4fabc2155cbfc9693727f85bf62f71e67931fa3bdedfbb0
++  __TEXT.__constg_swiftt: 0x29d0 sha256:45e9ab16981bbc6135a35bab39794c5d2d7fa5f7152698d28d19019effe0db18
+   __TEXT.__swift5_reflstr: 0x12f9 sha256:48c77d5ff0546d6e8a396a3c7ee94ddf6212b7333c93d967d759a843b4194dba
+   __TEXT.__swift5_builtin: 0x118 sha256:d50242279e816e504c952371ff1b332eade6120565959fb7419026bfcb776fd4
+   __TEXT.__swift5_assocty: 0x2e8 sha256:342f1d7c1b9495928491960baad1cead10f1c2975a547f5202bbf178d93a8cd5
+   __TEXT.__swift5_protos: 0x3c sha256:1c6fd1ae29d23122301a2fff0224542500a30c95c3a3993bea1154a830778085
+-  __TEXT.__swift5_proto: 0x258 sha256:1fe2f423d5715bf527d491a5b195e475e56af72b8377c07f37a9238ce1a5fcbd
++  __TEXT.__swift5_proto: 0x258 sha256:3a98024f739d805bb5aa5f44800b46a4dad5f167fb211478265132e0e4027c04
+   __TEXT.__swift5_types: 0x1ac sha256:52ed3fa65de3f8c940199463f2c82a838e5cf95966a1622ebd1402e3739d8afa
+   __TEXT.__swift5_capture: 0x26ac sha256:966029f258fbfc4f269509b0ba6f9304e39a2b35a1e3c1e995b710b2be1d11f9
+-  __TEXT.__swift_as_entry: 0x8c sha256:de341cde2d0dfb06372a511f294ee707d3470dc2250f7985ccb1595404dd8d68
+-  __TEXT.__swift_as_ret: 0x88 sha256:59f95208ea3bf616482999a772456eef73d0d165377deb4ca79bbf1e7c562ae8
+-  __TEXT.__swift_as_cont: 0x100 sha256:0e1164d573733e4c0d38a8f543f838df1ac1f02325854c4f274fdafae76ad0bd
++  __TEXT.__swift_as_entry: 0x8c sha256:c09c0be235cca95c3794a8d03ac1bdc57557b30b1a946a2e2830fc5e43921a95
++  __TEXT.__swift_as_ret: 0x88 sha256:7d6d3648d3b3b5962511ace5372cb75ba2de1ea7cc1dc09954d574a438a0c9c1
++  __TEXT.__swift_as_cont: 0x100 sha256:941fc87e3d9c7f8de297306d6cdcc47dbf65bc0d24b7f5876efac3a275d4fb00
+   __TEXT.__swift5_mpenum: 0x14 sha256:97c76c861d0253bc65971f8ec4cc6ea1fcc70f3fe5de9094a4e56cb0fac2ff70
+-  __TEXT.__unwind_info: 0x2fd8 sha256:75a37779a3c9a0d00e9948c154c44573d6cc480bba04331c80ef5fb2ed3f5a9c
+-  __TEXT.__eh_frame: 0x1020 sha256:09531a5e384963c42c57bbe2ca980f710163dbcc7e5e855f3908c16975dc05d7
++  __TEXT.__unwind_info: 0x3040 sha256:1d0fcb38251ddd86845e15790de6c0b3da12e6ffa4e3928e60840c0c68e4a33d
++  __TEXT.__eh_frame: 0x1020 sha256:7315318f34d8c4f4ce31e99e4ed2d9ab63074d8de9854b276aeb99741de96974
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xc40 sha256:6ea356625349f4932ce0e02da91386bda10b3bca4e60fbd4fdcae0a246d5afb6
+-  __DATA_CONST.__objc_classlist: 0x268 sha256:01d161d7be1805bffa42faf8f1779287c92d67b6938b03d28c903c951432d5dc
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:4abf5b29c809c7a430d363f1074048a8370ce988b547b685749ff7689be4b900
+-  __DATA_CONST.__objc_protolist: 0xb0 sha256:dc42023a6612680310f91301e8d5940606994fde683bda16c2833c99c87cf703
++  __DATA_CONST.__const: 0xc40 sha256:bf8bfd440c312ca9dd05ebd2f6b8e388134bd3735b97114188120d9f41d40f7c
++  __DATA_CONST.__objc_classlist: 0x270 sha256:f94bc0538140cfeda5603e3326ee0900bdaa509ee4b364e849de6f79353eb3ef
++  __DATA_CONST.__objc_catlist: 0x10 sha256:4195a9197744fc21f1f38dab77e3220d512a6f58ee25170b7d29dad0e586ccb4
++  __DATA_CONST.__objc_protolist: 0xb0 sha256:16996cd77c2d65045b91ef6633fbba04de27ac3a46b47bb4e03bf6efc6060e26
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x1cf0 sha256:c93a07746822ec8f798abdb61ac69874e1b5ec0aae33a779b39df3da8813dd94
+-  __DATA_CONST.__objc_protorefs: 0x28 sha256:12bed48cad3ee3e45209681cbb96bf044b333ef1da2a158582b76a2a5ed029b2
+-  __DATA_CONST.__objc_superrefs: 0x128 sha256:29c9641c0f34b673d996df653a4688f1ab02af744f37e120e03c7ce4670b98fd
+-  __DATA_CONST.__objc_arraydata: 0x20 sha256:fc930d2e3f6051c8e8504024dc44093dbb256d19e4df0a31580b30ab62b2d9bc
+-  __DATA_CONST.__got: 0xc18 sha256:b8b78927da0c2e9b5f28a09ac1c2d7f16a0cdf6b28a9f35b196e61306f0e90e7
+-  __AUTH_CONST.__const: 0x7650 sha256:f5e5da3cd50123f0663991dddd514532c4c57df296bffc193c85101f6642af8d
+-  __AUTH_CONST.__cfstring: 0x1a20 sha256:dd56d9114d8146252257aef262efaaa77044460866f07b1586f95ad9fbd09b25
+-  __AUTH_CONST.__objc_const: 0x9678 sha256:4d3b34b38f8082d7ee1454306239491fb5c3a1228cd1b7e98e211ec7cf4038e0
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:be1e6c151c8c4e5c8c36a544aa11b2a47a98b8c61de8fa94b403aca1fb72f553
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:af563bdd920e0ef2f4152e869fd8e793c56bcdc7cfcdd1f6ab90ed58eace5a7d
+-  __AUTH_CONST.__auth_got: 0x19f8 sha256:8b4e6fcdf0c2b60d25563436c47179c7aad86b941753940aec43f058658f402e
+-  __AUTH.__objc_data: 0xb70 sha256:b2e31160df4318f3804ceda9d9f7657dc152fce00ed8e2a7774c5477c8df4fbd
+-  __AUTH.__data: 0xb68 sha256:7373f1ad8c1941a66110fa1243cb239434d71a229043f0bed5764bddc0dbfe42
+-  __DATA.__objc_ivar: 0x2c4 sha256:f3cab5fcbea19d70e10c442f7431ab09977b57d46d0fc07c30f142f342815dc3
+-  __DATA.__data: 0x1470 sha256:b271dfab69122267e515038f87445e548db80070a9a26c961529c4dce2dcd793
++  __DATA_CONST.__objc_selrefs: 0x1d08 sha256:3268164dcc469ca35c6560d430657327a9670ad9fb5c01a873052e808380982c
++  __DATA_CONST.__objc_protorefs: 0x28 sha256:b00c32472b12bac13f1f30e8d6ac71eed2b0ca7ea2cf49796446d292280a24bc
++  __DATA_CONST.__objc_superrefs: 0x130 sha256:00bf67dffe0cc0d1273d0a521efe2d11261e0cbe826557e07d936c336829c346
++  __DATA_CONST.__objc_arraydata: 0x20 sha256:5ba2eb26f2605ba9bcf0f6db27b8d91b7c2bb626a9a28edd884ca97a85e048da
++  __DATA_CONST.__got: 0xc18 sha256:adf3ac351c34eeebef9acd0867d6fe4d729f5306c106e9e2eddb44d19c353814
++  __AUTH_CONST.__const: 0x7650 sha256:6a10dc9d6c107f39d840d96f3f90818049e16f659c6cebbf190c835e4f3f1f77
++  __AUTH_CONST.__cfstring: 0x1a20 sha256:7e72289b83885afa97a1bc5927197ac9c21ae8c5a243a85281e42856f11f9a4c
++  __AUTH_CONST.__objc_const: 0x9bd0 sha256:7a3b85258090ccf3355ff562072b965aca67da26cd8ec519804fbdb7efdb881a
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:c602667ad0234ec04c366e39ee01bd1166c186a21e8826f09bb7b1cf90c3a95e
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:baca92fc9c89427e542c118acce4f7dcfae7436a6eba54bfb1d1d3ae2d5c7b14
++  __AUTH_CONST.__auth_got: 0x1a00 sha256:16cc39e093d21650607a4fe4ccbbb56b1219575378edea7fbe80a96e9096033f
++  __AUTH.__objc_data: 0xbc0 sha256:e4671038bd787855c053b88e91c1796fd413d12440069051d5b9455c627d1893
++  __AUTH.__data: 0xb68 sha256:975a6d21d524bae1e38fe729f91d27022b6d2bd8b1106687cd1e034088ffa76b
++  __DATA.__objc_ivar: 0x2c8 sha256:5cee70d78bf407e8b138a13ec3c13ee749795e068dcb70ffbc3027da82020e17
++  __DATA.__data: 0x14f0 sha256:5a298a1bed05d2771ecf4cef0df87664a441e203ce7c356e76b245a5e04e268e
+   __DATA.__bss: 0x1e30 sha256:6d51aefb3abbbf6c1968522320b8ddeb63dd84da0ce097b7be1ede3d1eea394a
+   __DATA.__common: 0x5d0 sha256:8aa01aabc92db2f90ff1ad773b41d39fae8e25472e3ca428f60d9bf417089d18
+-  __DATA_DIRTY.__objc_data: 0xda8 sha256:aad02531c4044b538487623ddb4eacfb243326882fbcee37764afacf433cb725
+-  __DATA_DIRTY.__data: 0x3570 sha256:0fe9bb81ab2fd4238579da374d3c84031bd6cda9db5a9afc357f009e0868cbcc
++  __DATA_DIRTY.__objc_data: 0xda8 sha256:7a0a1c67559eb5f2cde64ca0debc0b2288ec4e2d4e11f89de9fcf9d51583310c
++  __DATA_DIRTY.__data: 0x3500 sha256:dc9224bac3d967aeea74dcc408001afbe444b241ab4a0133ad288ecc17f82223
+   __DATA_DIRTY.__bss: 0x28b0 sha256:da72947c2ee39d9c7940e80d4f63544ea1354f9cbaf2f298825178818adb8591
+   __DATA_DIRTY.__common: 0x120 sha256:2d5565fb483d8ea4525a7a9229677d1038ad34b6e22c8d5152e1d7f7b9817597
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 619126B6-ED90-38B5-96E5-696A51B151AD
+-  Functions: 5852
+-  Symbols:   4673
++  UUID: 820C2E89-218D-323C-BF28-70E5FC700820
++  Functions: 5867
++  Symbols:   4719
+   CStrings:  859
+ 
+Symbols:
++ +[CHSColorSchemePolicyArrayBox boxWithValue:]
++ +[CHSColorSchemePolicyArrayBox supportsBSXPCSecureCoding]
++ +[CHSColorSchemePolicyArrayBox supportsSecureCoding]
++ -[CHSColorSchemePolicyArrayBox .cxx_destruct]
++ -[CHSColorSchemePolicyArrayBox encodeWithBSXPCCoder:]
++ -[CHSColorSchemePolicyArrayBox encodeWithCoder:]
++ -[CHSColorSchemePolicyArrayBox hash]
++ -[CHSColorSchemePolicyArrayBox initWithBSXPCCoder:]
++ -[CHSColorSchemePolicyArrayBox initWithCoder:]
++ -[CHSColorSchemePolicyArrayBox initWithValue:]
++ -[CHSColorSchemePolicyArrayBox isEqual:]
++ -[CHSColorSchemePolicyArrayBox value]
++ -[CHUISMutableWidgetSceneSettings setSupportedColorSchemePolicies:]
++ -[CHUISMutableWidgetSceneSettings supportedColorSchemePolicies]
++ -[CHUISWidgetHostViewController setSupportedColorSchemePolicies:]
++ -[CHUISWidgetHostViewController supportedColorSchemePolicies]
++ -[CHUISWidgetScene supportedColorSchemePolicies]
++ -[CHUISWidgetSceneSettings supportedColorSchemePolicies]
++ -[CHUISWidgetSceneSettingsDiffInspector observeSupportedColorSchemePoliciesWithBlock:]
++ GCC_except_table101
++ GCC_except_table106
++ GCC_except_table111
++ GCC_except_table116
++ GCC_except_table117
++ GCC_except_table122
++ GCC_except_table128
++ GCC_except_table129
++ GCC_except_table135
++ GCC_except_table139
++ GCC_except_table142
++ GCC_except_table143
++ GCC_except_table149
++ GCC_except_table167
++ GCC_except_table168
++ GCC_except_table171
++ GCC_except_table176
++ GCC_except_table180
++ GCC_except_table181
++ GCC_except_table184
++ GCC_except_table188
++ GCC_except_table189
++ GCC_except_table196
++ GCC_except_table197
++ GCC_except_table206
++ GCC_except_table214
++ GCC_except_table217
++ GCC_except_table218
++ GCC_except_table225
++ GCC_except_table229
++ GCC_except_table232
++ GCC_except_table237
++ GCC_except_table238
++ GCC_except_table245
++ GCC_except_table246
++ GCC_except_table252
++ GCC_except_table253
++ GCC_except_table257
++ GCC_except_table263
++ GCC_except_table264
++ GCC_except_table273
++ GCC_except_table274
++ GCC_except_table279
++ GCC_except_table282
++ GCC_except_table313
++ GCC_except_table314
++ GCC_except_table321
++ GCC_except_table324
++ GCC_except_table332
++ GCC_except_table333
++ GCC_except_table35
++ GCC_except_table38
++ OBJC_IVAR_$_CHSColorSchemePolicyArrayBox._value
++ OBJC_IVAR_$_CHUISWidgetHostViewController._supportedColorSchemePolicies
++ _OBJC_CLASS_$_CHSColorSchemePolicyArrayBox
++ _OBJC_METACLASS_$_CHSColorSchemePolicyArrayBox
++ __OBJC_$_CLASS_METHODS_CHSColorSchemePolicyArrayBox
++ __OBJC_$_CLASS_PROP_LIST_CHSColorSchemePolicyArrayBox
++ __OBJC_$_INSTANCE_METHODS_CHSColorSchemePolicyArrayBox
++ __OBJC_$_INSTANCE_VARIABLES_CHSColorSchemePolicyArrayBox
++ __OBJC_$_PROP_LIST_CHSColorSchemePolicyArrayBox
++ __OBJC_CLASS_PROTOCOLS_$_CHSColorSchemePolicyArrayBox
++ __OBJC_CLASS_RO_$_CHSColorSchemePolicyArrayBox
++ __OBJC_METACLASS_RO_$_CHSColorSchemePolicyArrayBox
++ ___65-[CHUISWidgetHostViewController setSupportedColorSchemePolicies:]_block_invoke
++ __block_literal_global.1041
++ __block_literal_global.1113
++ __block_literal_global.1118
++ __block_literal_global.1120
++ _objc_msgSend$setInterfaceOrientationMode:
++ _objc_msgSend$setSupportedColorSchemePolicies:
++ _objc_msgSend$supportedColorSchemePolicies
++ _symbolic _____yAAyAAy_____y_____y_____G_____y_____GGAByAeFy_____GGGAAyAByAByAE_____y_____A2OGG_____yAGSgGGAByAByAeNyA3GGGATGGGAAyAByAeNyA3JGGAEGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleG0V AA0K0V AA017HierarchicalShapeU0V AA01_tU9Modifier3V AA01_K10MatrixFillV AA010_AnimationG0V
++ _symbolic _____yAAy_____y_____G_____y_____A2FGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA25_ForegroundStyleModifier3V AA01_J10MatrixFillV AA010_AnimationF0V AA0J0V
++ _symbolic _____yAAy_____y_____y_____G_____y_____GGAByAeFy_____GGGAAyAByAByAE_____y_____A2OGG_____yAGSgGGAByAByAeNyA3GGGATGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleG0V AA0K0V AA017HierarchicalShapeU0V AA01_tU9Modifier3V AA01_K10MatrixFillV AA010_AnimationG0V
++ _symbolic _____y_____A2BG 7SwiftUI25_ForegroundStyleModifier3V AA16_ColorMatrixFillV
++ _symbolic _____y_____yABy_____y_____G_____y_____A2GGG_____y_____SgGGAByAByAeFyA3KGGAMGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA25_ForegroundStyleModifier3V AA01_K10MatrixFillV AA010_AnimationG0V AA0K0V
++ _symbolic _____y_____yABy_____y_____G_____y_____A2GGG_____y_____SgGGAByAByAeFyA3KGGAMG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA25_ForegroundStyleModifier3V AA01_L10MatrixFillV AA010_AnimationH0V AA0L0V
++ _symbolic _____y_____yABy_____y_____y_____G_____y_____GGACyAfGy_____GGGAByACyACyAF_____y_____A2PGG_____yAHSgGGACyACyAfOyA3HGGAUGGGAByACyAfOyA3KGGAFG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleH0V AA0L0V AA017HierarchicalShapeV0V AA01_uV9Modifier3V AA01_L10MatrixFillV AA010_AnimationH0V
++ _symbolic _____y_____y_____G_____y_____A2FGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA25_ForegroundStyleModifier3V AA01_J10MatrixFillV
++ _symbolic _____y_____y_____y_____y_____G_____y_____GGACyAfGy_____GGGAByACyACyAF_____y_____A2PGG_____yAHSgGGACyACyAfOyA3HGGAUGG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleH0V AA0L0V AA017HierarchicalShapeV0V AA01_uV9Modifier3V AA01_L10MatrixFillV AA010_AnimationH0V
++ get_witness_table 7SwiftUI19_ConditionalContentVyACyACyAA08ModifiedD0VyAA014_ViewModifier_D0Vy16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAA016_ForegroundStyleG0VyAA0K0VGGAEyAlNyAA017HierarchicalShapeU0VGGGACyAEyAEyAlA01_tU9Modifier3VyAA01_K10MatrixFillVA_A_GGAA010_AnimationG0VyAPSgGGAEyAEyAlYyA3PGGA5_GGGACyAEyAlYyA3TGGALGGAA0F0HPA11_AAA16_HPAwAA16_HPArAA16_HPAlAA16_HPyHC_AqA0fG0HPyHCHC_AvAA16_HPAlAA16_HPyHC_AuAA17_HPyHCHCHC_A10_AAA16_HPA6_AAA16_HPA1_AAA16_HPAlAA16_HPyHC_A0_AAA17_HPyHCHC_A5_AAA17_HPyHCHC_A9_AAA16_HPA8_AAA16_HPAlAA16_HPyHC_A7_AAA17_HPyHCHC_A5_AAA17_HPyHCHCHCHC_A14_AAA16_HPA13_AAA16_HPAlAA16_HPyHC_A12_AAA17_HPyHCHC_AlAA16_HPyHCHCHC.148
+- -[CHUISMutableWidgetSceneSettings setSupportedColorSchemes:]
+- -[CHUISMutableWidgetSceneSettings supportedColorSchemes]
+- -[CHUISWidgetScene supportedColorSchemes]
+- -[CHUISWidgetSceneSettings supportedColorSchemes]
+- -[CHUISWidgetSceneSettingsDiffInspector observeSupportedColorSchemesWithBlock:]
+- GCC_except_table105
+- GCC_except_table113
+- GCC_except_table114
+- GCC_except_table118
+- GCC_except_table124
+- GCC_except_table127
+- GCC_except_table131
+- GCC_except_table132
+- GCC_except_table137
+- GCC_except_table141
+- GCC_except_table147
+- GCC_except_table162
+- GCC_except_table163
+- GCC_except_table169
+- GCC_except_table170
+- GCC_except_table173
+- GCC_except_table178
+- GCC_except_table182
+- GCC_except_table186
+- GCC_except_table187
+- GCC_except_table190
+- GCC_except_table193
+- GCC_except_table202
+- GCC_except_table203
+- GCC_except_table210
+- GCC_except_table216
+- GCC_except_table221
+- GCC_except_table227
+- GCC_except_table228
+- GCC_except_table235
+- GCC_except_table236
+- GCC_except_table239
+- GCC_except_table240
+- GCC_except_table250
+- GCC_except_table251
+- GCC_except_table255
+- GCC_except_table259
+- GCC_except_table260
+- GCC_except_table266
+- GCC_except_table267
+- GCC_except_table277
+- GCC_except_table278
+- GCC_except_table309
+- GCC_except_table310
+- GCC_except_table315
+- GCC_except_table318
+- GCC_except_table329
+- GCC_except_table330
+- OBJC_IVAR_$_CHUISWidgetHostViewController._supportedColorSchemes
+- _NSStringFromCHSColorSchemes
+- ___58-[CHUISWidgetHostViewController setSupportedColorSchemes:]_block_invoke
+- __block_literal_global.1038
+- __block_literal_global.1110
+- __block_literal_global.1115
+- __block_literal_global.1117
+- _objc_msgSend$setSupportedColorSchemes:
+- _objc_msgSend$supportedColorSchemes
+- _symbolic _____yAAyAAy_____y_____y_____G_____y_____GGAByAeFy_____GGGAAyAByAByAE_____y_____A2OGG_____yAGSgGGAByAByAeNyA3GGGATGGGAAyAByAeNyA3JGGAEGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleG0V AA0K0V AA017HierarchicalShapeU0V AA01_tU9Modifier3V AA01_K6MatrixV AA010_AnimationG0V
+- _symbolic _____yAAy_____y_____G_____y_____A2FGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA25_ForegroundStyleModifier3V AA01_J6MatrixV AA010_AnimationF0V AA0J0V
+- _symbolic _____yAAy_____y_____y_____G_____y_____GGAByAeFy_____GGGAAyAByAByAE_____y_____A2OGG_____yAGSgGGAByAByAeNyA3GGGATGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleG0V AA0K0V AA017HierarchicalShapeU0V AA01_tU9Modifier3V AA01_K6MatrixV AA010_AnimationG0V
+- _symbolic _____y_____A2BG 7SwiftUI25_ForegroundStyleModifier3V AA12_ColorMatrixV
+- _symbolic _____y_____yABy_____y_____G_____y_____A2GGG_____y_____SgGGAByAByAeFyA3KGGAMGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA25_ForegroundStyleModifier3V AA01_K6MatrixV AA010_AnimationG0V AA0K0V
+- _symbolic _____y_____yABy_____y_____G_____y_____A2GGG_____y_____SgGGAByAByAeFyA3KGGAMG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA25_ForegroundStyleModifier3V AA01_L6MatrixV AA010_AnimationH0V AA0L0V
+- _symbolic _____y_____yABy_____y_____y_____G_____y_____GGACyAfGy_____GGGAByACyACyAF_____y_____A2PGG_____yAHSgGGACyACyAfOyA3HGGAUGGGAByACyAfOyA3KGGAFG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleH0V AA0L0V AA017HierarchicalShapeV0V AA01_uV9Modifier3V AA01_L6MatrixV AA010_AnimationH0V
+- _symbolic _____y_____y_____G_____y_____A2FGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA25_ForegroundStyleModifier3V AA01_J6MatrixV
+- _symbolic _____y_____y_____y_____y_____G_____y_____GGACyAfGy_____GGGAByACyACyAF_____y_____A2PGG_____yAHSgGGACyACyAfOyA3HGGAUGG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleH0V AA0L0V AA017HierarchicalShapeV0V AA01_uV9Modifier3V AA01_L6MatrixV AA010_AnimationH0V
+- get_witness_table 7SwiftUI19_ConditionalContentVyACyACyAA08ModifiedD0VyAA014_ViewModifier_D0Vy16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAA016_ForegroundStyleG0VyAA0K0VGGAEyAlNyAA017HierarchicalShapeU0VGGGACyAEyAEyAlA01_tU9Modifier3VyAA01_K6MatrixVA_A_GGAA010_AnimationG0VyAPSgGGAEyAEyAlYyA3PGGA5_GGGACyAEyAlYyA3TGGALGGAA0F0HPA11_AAA16_HPAwAA16_HPArAA16_HPAlAA16_HPyHC_AqA0fG0HPyHCHC_AvAA16_HPAlAA16_HPyHC_AuAA17_HPyHCHCHC_A10_AAA16_HPA6_AAA16_HPA1_AAA16_HPAlAA16_HPyHC_A0_AAA17_HPyHCHC_A5_AAA17_HPyHCHC_A9_AAA16_HPA8_AAA16_HPAlAA16_HPyHC_A7_AAA17_HPyHCHC_A5_AAA17_HPyHCHCHCHC_A14_AAA16_HPA13_AAA16_HPAlAA16_HPyHC_A12_AAA17_HPyHCHC_AlAA16_HPyHCHCHC.148
+CStrings:
++ "%{public}s: failed to create file handle: %{public}@"
++ "%{public}s: failed to encode: %{public}@"
++ "/AppleInternal/Library/BuildRoots/4~CRp0ugCnFByKgK2xTcDiBPnUXHwJ_qx67jr8R1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Binaries/Chrono_UI_iosmac/install/Symbols/BuiltProducts/ChronoUIServices.framework/Headers/CHUISControlInstance.h"
++ "/AppleInternal/Library/BuildRoots/4~CRp0ugCnFByKgK2xTcDiBPnUXHwJ_qx67jr8R1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/ChronoUIServices/CHUISControlInstanceConfiguration.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp0ugCnFByKgK2xTcDiBPnUXHwJ_qx67jr8R1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/ChronoUIServices/ControlArchiveServiceStore.swift"
++ "/AppleInternal/Library/BuildRoots/4~CRp0ugCnFByKgK2xTcDiBPnUXHwJ_qx67jr8R1Y/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/ChronoUIServices/Internal/../../ChronoUIServices/CHUISLiveWidgetRenderSignpostAction.h"
++ "[%p-%{public}@] Changing frame to %{public}@"
++ "[%p-%{public}@] Failed to create image NSData: %{public}@"
++ "[%p-%{public}@] Received content confirmation action error: %{public}@"
++ "[%p-%{public}@] Running detached scene timer evaluation for reason(s): %{public}@"
++ "[%p-%{public}@] Scheduling detached scene timer evaluation for reason: %{public}@"
++ "[%p-%{public}@] Snapshot context URL: %{public}@"
++ "[%p-%{public}@] Supported color scheme policies changed to %{public}@"
++ "[%p-%{public}@] Widget priority changed to %{public}@"
++ "additionalSupportedColorSchemePolicies"
++ "supportedColorSchemePolicies"
+- "%s: failed to create file handle: %@"
+- "%s: failed to encode: %@"
+- "/AppleInternal/Library/BuildRoots/4~CQMpugA891oTxgrPCOoFWFuFz1YmFN7lAdbu7l0/Library/Caches/com.apple.xbs/TemporaryDirectory.B4XqUD/Binaries/Chrono_UI_iosmac/install/Symbols/BuiltProducts/ChronoUIServices.framework/Headers/CHUISControlInstance.h"
+- "/AppleInternal/Library/BuildRoots/4~CQMpugA891oTxgrPCOoFWFuFz1YmFN7lAdbu7l0/Library/Caches/com.apple.xbs/TemporaryDirectory.B4XqUD/Sources/Chrono_UI_iosmac/ChronoUIServices/CHUISControlInstanceConfiguration.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMpugA891oTxgrPCOoFWFuFz1YmFN7lAdbu7l0/Library/Caches/com.apple.xbs/TemporaryDirectory.B4XqUD/Sources/Chrono_UI_iosmac/ChronoUIServices/ControlArchiveServiceStore.swift"
+- "/AppleInternal/Library/BuildRoots/4~CQMpugA891oTxgrPCOoFWFuFz1YmFN7lAdbu7l0/Library/Caches/com.apple.xbs/TemporaryDirectory.B4XqUD/Sources/Chrono_UI_iosmac/ChronoUIServices/Internal/../../ChronoUIServices/CHUISLiveWidgetRenderSignpostAction.h"
+- "[%p-%{public}@] Changing frame to %@"
+- "[%p-%{public}@] Failed to create image NSData: %@"
+- "[%p-%{public}@] Received content confirmation action error: %@"
+- "[%p-%{public}@] Running detached scene timer evaluation for reason(s): %@"
+- "[%p-%{public}@] Scheduling detached scene timer evaluation for reason: %@"
+- "[%p-%{public}@] Snapshot context URL: %@"
+- "[%p-%{public}@] Supported color schemes changed to %{public}@"
+- "[%p-%{public}@] Widget priority changed to %@"
+- "additionalSupportedColorSchemes"
+- "supportedColorSchemes"
+
+```

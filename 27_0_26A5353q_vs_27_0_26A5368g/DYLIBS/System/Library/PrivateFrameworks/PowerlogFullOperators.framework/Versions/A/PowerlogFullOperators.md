@@ -1,0 +1,123 @@
+## PowerlogFullOperators
+
+> `/System/Library/PrivateFrameworks/PowerlogFullOperators.framework/Versions/A/PowerlogFullOperators`
+
+```diff
+
+-3468.0.0.0.0
+-  __TEXT.__text: 0x1fb8 sha256:4e1feadff036746de72005c90d358fce00a2fdd3f7b04b1e14bc64bd4a76b303
+-  __TEXT.__objc_methlist: 0x1f0 sha256:d89a7abfe411a35679625be6bf9f674ff0b436c93326742bcd8f94571faed69a
+-  __TEXT.__const: 0x60 sha256:355e25679da40f8be827783373c85da8ed5e519a12326152407f8522cd3febc9
+-  __TEXT.__cstring: 0x460 sha256:43ae6d967cdeb82dbface819c7bab62e374c142b3bc8d5159253f2cf5f7157b8
++3486.0.21.501.2
++  __TEXT.__text: 0x1fa4 sha256:fefb94657191bac5369cced4409dca7b9498f0afa555820aef8498b11bb93288
++  __TEXT.__objc_methlist: 0x1f0 sha256:0109b3c3666e1d21294a9387ff7baa51ddf7b6107b426a4745d18abf8a5af759
++  __TEXT.__const: 0x68 sha256:1a9cd25a9ca78e67f8596e695a8cfdbf4a5bb5c09766e6b72fbc63b6261db70a
++  __TEXT.__cstring: 0x460 sha256:cef8427a761bf894fbc979b35352f1ac7e6c23061047466c4b5f4d127f25a116
+   __TEXT.__oslogstring: 0x3 sha256:b1e062a195fdcab156ee39e5a1de5609c811692d1a36057108620ec0d0400e26
+-  __TEXT.__unwind_info: 0xc0 sha256:e7d752ea201205c3095151320fcf03457b77b57a83d23ea036e115bac704b1e9
++  __TEXT.__unwind_info: 0xc0 sha256:bb7bbcebc77f72cd5f086b9d2054c9861182e03f77ff5576e429beaf8aac64c1
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x28 sha256:0ef9e8e8340999f490f968099ea62ccc55b4710bc23b949599d6a689f8459b58
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:17ed66efdced9f33d9ed9543877f4969cef35569f3e0b1d6defb3166b5bc6807
+-  __DATA_CONST.__objc_nlclslist: 0x10 sha256:5fa9d9a906883b9f87e003c47bdf52a06623fbdced30331ca1c386454a16d10b
++  __DATA_CONST.__const: 0x28 sha256:54ece47f78ef48ad63c8cef63fc05f0c6cc2cec81f0810ca5de592117c137300
++  __DATA_CONST.__objc_classlist: 0x10 sha256:0ee9a7ee74aefbb764bf89ed644e8eaeb81e1dae22265fa800ef615bc177c2e9
++  __DATA_CONST.__objc_nlclslist: 0x10 sha256:051fc5141b09cb7e04116d9b958515184bc694f08fce65ee36c43634f8f925b2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x200 sha256:4bf4848dcadbcc7fadc18dba7c4ac5232d2b10bf427f4077c6d4aa1145acaf84
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:c6e3f5de0f46118b05e12107e0b051f745ecc42798c2019a51fa84d5e2cd9584
+-  __DATA_CONST.__got: 0xf0 sha256:d5763ed3fa12fa4e63e41a39da0b5969ba62605f7a9f9bcd88c1b9f41a7eb5f8
+-  __AUTH_CONST.__const: 0x30 sha256:d19397dba341bee3c920ef33919338dbbd115ec3f7e41bd394d2b35ee832983e
+-  __AUTH_CONST.__cfstring: 0x540 sha256:010a89690ec780665f605e3199f18058173db0a923c8d637d73e3c6ed260ceea
+-  __AUTH_CONST.__objc_const: 0x280 sha256:386fecbb0aadcd1ca52d053742d91d74421594dc925a7c6ca41718b6086784fe
+-  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:4402ce16ecd85ca38e831513b09effc0552c8b6277b963fb164a799406b9ba9e
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:71cd852c2acdd23c5909410a804212ff479bd50895423e3d26774e72571fc16d
++  __DATA_CONST.__objc_selrefs: 0x200 sha256:dacdc94d8efd4e542f8f2dedbbfee47ff2a4a22ccda9e6c4e9dfe579864b1b93
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:67d0a02118d843aa6283633be85e440a52f91dd6cf524a6e57711d475ead1770
++  __DATA_CONST.__got: 0xf0 sha256:6cb4d0c6d593aa1da6d320edffd1d442d1aa1dad5e284eaf52790dac910acbec
++  __AUTH_CONST.__const: 0x30 sha256:3f693d8a9ea3e6976ae5f7036778b406ab6200631edeece1b67cdae16f23747e
++  __AUTH_CONST.__cfstring: 0x540 sha256:d8c503a6e5338b5b4229250eef6169dd651df4df150914ea03858fc2f594589f
++  __AUTH_CONST.__objc_const: 0x280 sha256:9fec64c717fe69793401a89c6384bcebcc58ff219834bd627dfeee3fd2a455f3
++  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:0d6fb42a62aeef4ccb801bd146af74b5773c7e7eb6a6b1c127d0355feb0e7b97
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:337d36a9f0c76aa0b79d14d845287c80d55542cc374df57b54d7d67ec1067099
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:ffb9e0fc1cbb36acbd7c170481c7b49dc68177f9f55519b706c562d9ae947518
++  __AUTH.__objc_data: 0xa0 sha256:f26933df7999c286701f138943fe1792bebb63a92acd46622449a7ebe194a4a5
+   __DATA.__objc_ivar: 0x20 sha256:4322b3a93fe2051e23df862ff893679c69e42791b2fb5029cf93e93c92727952
+-  __DATA.__data: 0x8 sha256:26dbb979a26178b3f5bd7f158489f542e82add1559e9785fd0e5609d206b3a93
++  __DATA.__data: 0x8 sha256:07b6f7b61bfeff6db3db181e1217b5c70390cb6063690e3f302a53c2180d41d2
+   __DATA.__bss: 0x49 sha256:9c56f48ae9bafd205262034bfcc2232b2c63348cb723d681ec39f13409f990cc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /System/Library/PrivateFrameworks/PowerlogCore.framework/Versions/A/PowerlogCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EA08695D-F874-344E-A149-0CD0A9DE2F72
++  UUID: CBD452CE-77E1-3C87-887F-121DB8D6B11C
+   Functions: 51
+   Symbols:   203
+   CStrings:  93
+Functions:
+~ +[PLPMUAgent load] : sha256 36e572a0260b9ab1fc87c943714d72e2fa63f3a823d771dc4cf083359d224596 -> a704ea6e12990f1ed2ca88705e9dc6954c8880e7d29a4081ad4fd5d94adfe139
+~ +[PLPMUAgent defaults] : sha256 16982b9cc3153e0c16c451d276a24e044c2a81e5aff87e97d80b60311fb40562 -> e6deb9d27691dfee2fc87633e2c401068a2f7578be44a59c1576219361b9526b
+~ +[PLPMUAgent railDefinitions] : sha256 16982b9cc3153e0c16c451d276a24e044c2a81e5aff87e97d80b60311fb40562 -> e6deb9d27691dfee2fc87633e2c401068a2f7578be44a59c1576219361b9526b
+~ +[PLPMUAgent accountingGroupDefinitions] : sha256 16982b9cc3153e0c16c451d276a24e044c2a81e5aff87e97d80b60311fb40562 -> e6deb9d27691dfee2fc87633e2c401068a2f7578be44a59c1576219361b9526b
+~ +[PLPMUAgent entryEventPointDefinitions] : sha256 5ee2bd4a1daa972df891a0bbae8b9c4e6bcec5bfa6475ca612eaae5169cd078d -> 96e07d07036cb363f4cf947335fd6e47e1ffa9d45cbe3c5ce57b695ee1b0da55
+~ +[PLPMUAgent entryEventForwardDefinitions] : sha256 24ab13d896d8d6751947e53c5992ebcc79d587238266c0b10fb6c27140600695 -> 9ff0611d29dae9041bde46f4d7ab3f3c28000c7458711ca30c0eae3cefd57edf
+~ +[PLPMUAgent entryEventBackwardDefinitions] : sha256 24ab13d896d8d6751947e53c5992ebcc79d587238266c0b10fb6c27140600695 -> 9ff0611d29dae9041bde46f4d7ab3f3c28000c7458711ca30c0eae3cefd57edf
+~ +[PLPMUAgent entryEventIntervalDefinitions] : sha256 24ab13d896d8d6751947e53c5992ebcc79d587238266c0b10fb6c27140600695 -> 9ff0611d29dae9041bde46f4d7ab3f3c28000c7458711ca30c0eae3cefd57edf
+~ +[PLPMUAgent entryEventNoneDefinitions] : sha256 24ab13d896d8d6751947e53c5992ebcc79d587238266c0b10fb6c27140600695 -> 9ff0611d29dae9041bde46f4d7ab3f3c28000c7458711ca30c0eae3cefd57edf
+~ +[PLPMUAgent entryAggregateDefinitions] : sha256 24ab13d896d8d6751947e53c5992ebcc79d587238266c0b10fb6c27140600695 -> 9ff0611d29dae9041bde46f4d7ab3f3c28000c7458711ca30c0eae3cefd57edf
+~ -[PLPMUAgent init] : 2204 -> 2196
+~ ___18-[PLPMUAgent init]_block_invoke : sha256 290cffaaf876ce84b534efeacca3f1285d26e30c9f45404a44170200c39edbb9 -> f5e481c9e76597c7ef562669aab47f485126238e6296c44945b628e92368a3a9
+~ __18-[PLPMUAgent init]_block_invoke.63 : sha256 d17d0bd7cd0117fbccaf160365713c297daa4abf2ec77f1531b63dd9f1e6a1de -> 2f9d7d9b410b94c0e5e76ebe5ffe0475b76542c1cb7ffaf2674e33506a11e6e9
+~ __18-[PLPMUAgent init]_block_invoke.78 : sha256 3d0732172ef901743a6ae4d6d86abebf7b6734f81d4d9a9de2c8f6001df08783 -> 9e3b330c02dcdf91587f72c40060755306acae0b69176ffb30512b86069d00f2
+~ -[PLPMUAgent initOperatorDependancies] : sha256 a86b03d784216ae6a7995a5ec7c11c70bb698ffe4f34059ba494179ec6d48863 -> df341b9f4717297c2d9040ba43ddaa960d93180c440660cd9075ed8b92ab86fa
+~ ___38-[PLPMUAgent initOperatorDependancies]_block_invoke : sha256 56e19c7480fa1410391e75afc9f4df7ebd98745674c08b5bd8abcd4c327f8814 -> 21efdac46479e42dc4527fbc560113df7db837601d33a85880585634139c3525
+~ ___copy_helper_block_e8_32s : sha256 05aeedbc9ace42a147d0c9f6696bef68302ca5c7b7d561e71dfd82aa180dfb6d -> c8ec0aa522c2c8a74f09ba9656d5b75b3a7d2ac72aab868a93e00adda686ea2d
+~ ___destroy_helper_block_e8_32s : sha256 521960be26ec2493b714f47f441608ac790a6f4f91dadc4181b1c27ab8c50fb8 -> d11726e03ac296f35610600d57f833e5608471a03426c0dab322b20e88742e64
+~ -[PLPMUAgent log] : sha256 6da43aa524f6922cf6251c465bfbe9fb9c86cca9d84bb3c9bace61e21597dc70 -> 65e16d63c5b6d81949853bcb015ecbcf82048058a53d8753b3b665eb61803436
+~ -[PLPMUAgent logEventPointSensors] : 492 -> 488
+~ -[PLPMUAgent batteryLevelChanged] : sha256 4ee4f5bca64cb3119e212d1c3fd31032eb2975ac9fc6b7d25ff5113856576c1a -> b6d79dbc97addfa44ed2886b48ca2c39261b070ed113bf5d8ac23ba832ef10c2
+~ -[PLPMUAgent setBatteryLevelChanged:] : sha256 c310261ada2c7914374e6a9ebc6010f37723361b2d8a72946d285f3e26732ba4 -> 378c08ad7ee128b6de8a271f5cb3201766f6321693746a2ca5d9d3a2b7f630cb
+~ -[PLPMUAgent .cxx_destruct] : sha256 a6860a34f8f35d3bca310d6ef85d71f0e43f2150a5280fade0210319cdda821f -> d8b25053f2459d3b592e5501ba9b2d38c11d1cf783c23bcbeb7a85cfb9c4d45b
+~ _OUTLINED_FUNCTION_1 : sha256 8a10e6189d95c6ba8ba67c469662390535bdefafe4081a47d51eb4c20b4514f5 -> 7d9f9ec9f59575049996f917095fa8f5495d95dd8e858b8483775b4f14591aa6
+~ +[PLScheduledWakeAgent load] : sha256 4692992a3a550f5fba81d8b5ac30cb62a19a42693baa714d46acca04d5870dd4 -> 4ff73288891b184db33e0c57a06a469cb0d83c0b1a11de566ceb1b593e0edd20
+~ +[PLScheduledWakeAgent defaults] : sha256 24ab13d896d8d6751947e53c5992ebcc79d587238266c0b10fb6c27140600695 -> 9ff0611d29dae9041bde46f4d7ab3f3c28000c7458711ca30c0eae3cefd57edf
+~ +[PLScheduledWakeAgent railDefinitions] : sha256 24ab13d896d8d6751947e53c5992ebcc79d587238266c0b10fb6c27140600695 -> 9ff0611d29dae9041bde46f4d7ab3f3c28000c7458711ca30c0eae3cefd57edf
+~ +[PLScheduledWakeAgent accountingGroupDefinitions] : sha256 24ab13d896d8d6751947e53c5992ebcc79d587238266c0b10fb6c27140600695 -> 9ff0611d29dae9041bde46f4d7ab3f3c28000c7458711ca30c0eae3cefd57edf
+~ +[PLScheduledWakeAgent entryEventPointDefinitions] : sha256 24ab13d896d8d6751947e53c5992ebcc79d587238266c0b10fb6c27140600695 -> 9ff0611d29dae9041bde46f4d7ab3f3c28000c7458711ca30c0eae3cefd57edf
+~ +[PLScheduledWakeAgent entryEventForwardDefinitions] : sha256 b1fe9ab293d14951b814676cc5b29f8cbaa2025a234c0d1389d996f5e2fb8264 -> 9dec30eefdeab0647b8854fed09a41e1a3e7727939cc6bbd65a699ee0237cf75
+~ +[PLScheduledWakeAgent entryEventBackwardDefinitions] : sha256 bd08c50b6cd024b24bc6b4f0b34758f66026d918848d7d2ebcee23dfcbec214f -> f8f913ed6409a9e42816eb60705794565ed71f4a6adda7027d030c1583c91f5a
+~ +[PLScheduledWakeAgent entryEventIntervalDefinitions] : sha256 bd08c50b6cd024b24bc6b4f0b34758f66026d918848d7d2ebcee23dfcbec214f -> f8f913ed6409a9e42816eb60705794565ed71f4a6adda7027d030c1583c91f5a
+~ +[PLScheduledWakeAgent entryEventNoneDefinitions] : sha256 bd08c50b6cd024b24bc6b4f0b34758f66026d918848d7d2ebcee23dfcbec214f -> f8f913ed6409a9e42816eb60705794565ed71f4a6adda7027d030c1583c91f5a
+~ -[PLScheduledWakeAgent init] : sha256 a06b8fa8f256a6bc8886e6b258747e6443d4443e0ed6f50798882c7934a26365 -> 043b047d70f63bb1ad864b0d2d80a43fc3692426f1a6f24e10af5d87b6088a25
+~ -[PLScheduledWakeAgent initOperatorDependancies] : sha256 5857ead896d5fb605fb2115f1dda7373b1f95ed63ec53ec8a59b4530d5363f65 -> df310dc85ff673c64da1c623bb50db8629b0ce02acfcbacfe9b7711eabab2df6
+~ ___48-[PLScheduledWakeAgent initOperatorDependancies]_block_invoke : sha256 0dad7265606402be8d02abcd9a8c43641a250108ab7fb9c7da9988cc75219f7e -> 00a77ed6bdf96278f6159e9a4ebbc1aeca7cfc338f47bddad5a8b1dd80848b7b
+~ -[PLScheduledWakeAgent log] : sha256 efd0ac9d0ca15d7abc391655c673fcbf110edd7091a1e93130dc9bba62387917 -> 7b342e1c5a8061f514d6087276c1bf2ab64a377eb76d309699f90de79a420e17
+~ -[PLScheduledWakeAgent logEventForwardScheduledEvent] : 1944 -> 1936
+~ ___53-[PLScheduledWakeAgent logEventForwardScheduledEvent]_block_invoke : sha256 83339b0351a0a3007599267aa0ab90e6a5d37e56d4661f2889de31a2a3a96757 -> fa900d09ad670fc3ad961c3c295520cb616b012b7593ef8154447e1594edec0e
+~ __53-[PLScheduledWakeAgent logEventForwardScheduledEvent]_block_invoke.51 : sha256 56d47ca7d60beb2762c9ab23375960a336e3d0f2659befeb348e7698fc730db9 -> 44e88d16d487e351c9117fb13c73f8647e1c13999f9fc2c5a7263a3c91217b59
+~ -[PLScheduledWakeAgent humanReadableScheduledWakeString:] : sha256 5e417f567acb6344ca797c17497a098bdfc3faf3581ecf33f8044517ee3b4096 -> 20c53e71c7d04d4e09d712a11eac9cb6eae8694099c7fdc580b487c44b684da4
+~ -[PLScheduledWakeAgent canSleepNotification] : sha256 a52cc02246454823c60f7e068ca7a0ee1e15070cf9e9b17f423df5f76f5c9825 -> 220d76f971a319fb15651c869279246ef4a19fea822dbf63406ad4bf7394b68f
+~ -[PLScheduledWakeAgent setCanSleepNotification:] : sha256 20e0370befb6b9f2f683869f69dffee0bee8df77d9cc7c2f5373695de6f0f6c9 -> a7fcb424265e3a607313861f8a398a95535acc8ef12a3c99e215aa8e2cb781dd
+~ -[PLScheduledWakeAgent canSleepSemaphore] : sha256 9435997a2af14a0970f9bcd5f2cbd9d005e98916203b51d6039449843b5cf27d -> fda846ba25be49fef0bcae40f343cb1ddc5de2ec097b953d75e4353e95967624
+~ -[PLScheduledWakeAgent setCanSleepSemaphore:] : sha256 028af419f3fccd0d1cd27721b14e13246893918417973b2c4eac0636fcf0bf72 -> 34f92bf70119859f7559ec4f1223583fb9f7f2f01ae17a94ecd3f8c90fd7ccbe
+~ -[PLScheduledWakeAgent previousScheduleWakeEvents] : sha256 558d53b9e8b1e1890d7ee2114574299b6c203cca0b44d6f3fc0f2eb5855d20ad -> 8621263e7e13781df251c7831f37a0bcb3017f2f8e5b27235e75905cbf6d79b2
+~ -[PLScheduledWakeAgent setPreviousScheduleWakeEvents:] : sha256 f55a7bff69c312f8c10e024acf985555f9db615ddec0592f8931a1685a11132c -> d35fd476e492c33b51c2e9f06ae79806f55c15510d67ec92ac758cdab4152535
+~ -[PLScheduledWakeAgent .cxx_destruct] : sha256 9e94ffd24d50b0ede8e671c2b9102ff4a007b2caca157507e2510d2d358b9101 -> 9e4108f5f118792bee2b62eed3925eab04f1ac3310fcd0157b329861da5a80a6
+~ -[PLPMUAgent init].cold.1 : sha256 c579cebf0cc66dc60ad5c2448be167d8069c2381bab28cf96d1d15de042847f5 -> c5b4917612d2bb7b5389225cec1ea971c6e7f57b59620b1f2ed0ea873d03d605
+~ -[PLScheduledWakeAgent logEventForwardScheduledEvent].cold.1 : sha256 4d06e03078a9682eaefbbaef73f4ac428721ce761b4dec818bc81e99324febb2 -> 1a47b718e07843785c778d40ca3357115b79576e64832fc228bdb0c6f2d0b5b6
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CSDvugCdKiZIUbI8d3pqfboiW8fBpTMyf_pmS-w/Library/Caches/com.apple.xbs/TemporaryDirectory.kOZBmo/Sources/PerfPowerServices_Operators/Operators/Agents/Hardware/PLPMUAgent.m"
++ "/AppleInternal/Library/BuildRoots/4~CSDvugCdKiZIUbI8d3pqfboiW8fBpTMyf_pmS-w/Library/Caches/com.apple.xbs/TemporaryDirectory.kOZBmo/Sources/PerfPowerServices_Operators/Operators/Agents/Software/PLScheduledWakeAgent.m"
+- "/AppleInternal/Library/BuildRoots/4~CQM6ugBZAovbl78O6GD60JY9mIRsYPijl8xAqYI/Library/Caches/com.apple.xbs/TemporaryDirectory.SL5nCp/Sources/PerfPowerServices_Operators/Operators/Agents/Hardware/PLPMUAgent.m"
+- "/AppleInternal/Library/BuildRoots/4~CQM6ugBZAovbl78O6GD60JY9mIRsYPijl8xAqYI/Library/Caches/com.apple.xbs/TemporaryDirectory.SL5nCp/Sources/PerfPowerServices_Operators/Operators/Agents/Software/PLScheduledWakeAgent.m"
+
+```

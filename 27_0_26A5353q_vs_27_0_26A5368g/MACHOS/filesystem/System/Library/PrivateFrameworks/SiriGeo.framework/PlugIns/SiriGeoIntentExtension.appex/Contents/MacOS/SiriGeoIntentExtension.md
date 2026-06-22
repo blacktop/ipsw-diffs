@@ -1,0 +1,77 @@
+## SiriGeoIntentExtension
+
+> `/System/Library/PrivateFrameworks/SiriGeo.framework/PlugIns/SiriGeoIntentExtension.appex/Contents/MacOS/SiriGeoIntentExtension`
+
+```diff
+
+-3600.30.13.0.0
+-  __TEXT.__text: 0x3218 sha256:186bc880b881687756f62bd3128309bd8d7d4da676be693b9171e35faf8e0eb7
++3600.36.4.0.0
++  __TEXT.__text: 0x3214 sha256:eda6633cfcf1614f8f878d6230f228a4a1411f703d3370824df90fdd3a6f8909
+   __TEXT.__auth_stubs: 0x5b0 sha256:777b691bcadfce4032e3877d3d619697a3d8cd7515dc88c17cf99920ec96d4c0
+   __TEXT.__objc_stubs: 0x40 sha256:611dad3a54bd68123629a737809c1ae3341e2c55ceede7361ea027b8f0ff4547
+   __TEXT.__objc_methlist: 0x2c sha256:428d74deddab194c8b304178b6c2f2e337b313a8104f496fe5527dede63c8da2
+-  __TEXT.__const: 0x278 sha256:56dc60327bdb99dd902f2cf8e44130c2b31ece039e29e2b9239fcf72c91ee903
++  __TEXT.__const: 0x278 sha256:74e21c9b5908de55744ecc41c68bec445e728de640739f723f995dffe967a948
+   __TEXT.__cstring: 0xd3 sha256:ab3ae056a18d9ca64955559f440a8f045786a12cbd6e931e00b15b94e5193359
+   __TEXT.__oslogstring: 0x1a sha256:6f749fa2d2d1729266958d82382a123614e97d36d839e6886fb0d6db323bbc44
+   __TEXT.__objc_methname: 0x43 sha256:f6e126a8a8e407902c9b226931f91e325c1042b1281fb117286bdf74568b0d8b
+   __TEXT.__objc_classname: 0x2c sha256:5c60f8a4e5dc1de5a7b4e70a76081547e242f36800c5e67e338e1e3926cc4a17
+   __TEXT.__objc_methtype: 0x1c sha256:20247a6c3b4fbeb558865d5bffb9901460f974655ed8c1d94c4d239ad3be746f
+-  __TEXT.__constg_swiftt: 0x8c sha256:eb844c1a76449755ca18ba696fabc6ba55bf64fe451ab53f60c9981cc1a62b90
+-  __TEXT.__swift5_typeref: 0x84 sha256:fb8adb1c29a724d679e4edd24332fc438593d93f17a924ec040cbea26700892f
++  __TEXT.__constg_swiftt: 0x8c sha256:0ee35bd69eade2abee73614931605aa120bf0a218644a14448515c6791b1ddf7
++  __TEXT.__swift5_typeref: 0x84 sha256:eebb5d7ea57ec9c6f5f293b81d3f03c4d35cd6259f0a48837f311df1b74af93b
+   __TEXT.__swift5_reflstr: 0x51 sha256:8d5c2e4d4989eb5d721d865db56dbc310a70bd2d61e7103e909387647c51a1cb
+   __TEXT.__swift5_fieldmd: 0x88 sha256:51b881723e041f1e6ba93aef3e6bc29bde8740d54e38eaea92ece7612f4caab5
+   __TEXT.__swift5_types: 0x10 sha256:042d630c1095413f53954f39f48dd2d1aa8cb8042fd516b91f64e68bf84ec8a4
+   __TEXT.__swift5_assocty: 0x30 sha256:8b8f463acbe134628e7716b03cf6d6bee2fc19d2364b3592a416ff1a7cf5b64a
+   __TEXT.__swift5_proto: 0x18 sha256:1ba6d60d0136c60d75e803974a18fc8fdd4be82bc80cd3e259ed159ad7732965
+-  __TEXT.__unwind_info: 0x130 sha256:43290043afad9ce8f18a4114caa5fdf011455837fe357f36b4d907bda3fdefa6
+-  __DATA_CONST.__const: 0x2e1 sha256:29d53d6253d579dd6851f387c5cc27e67691352c16073b4c84af2825242a7276
++  __TEXT.__unwind_info: 0x130 sha256:638a7a2f83463b77c3e4349b18558da64bae39f37486fac5fb3ccebfcce5893e
++  __DATA_CONST.__const: 0x2e1 sha256:2f850debc6126bfc2bbcbd6e8dbf93a49e098fcacf5a32f5438b30d0173b1040
+   __DATA_CONST.__objc_classlist: 0x8 sha256:553dde465a188b33fcefc4b0dee4b2329f3920151e01af92f932f87507544a83
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+   __DATA_CONST.__auth_got: 0x2e0 sha256:9459b5e9454731ac242522c648134b0078d864673389a64bcfe0a8da4aa4e83c
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: CCAC6B08-EEAD-36EB-8D9B-359230546702
++  UUID: DB83C039-161F-35B8-83D7-35CEF8B48550
+   Functions: 84
+   Symbols:   809
+   CStrings:  20
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CRtQugDO00Mpyc2sGM2lb48W5Yh-kJn9UPcW1Sk/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoIntentExtension.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/4~CRtQugDO00Mpyc2sGM2lb48W5Yh-kJn9UPcW1Sk/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoIntentExtension.build/Objects-normal/arm64e/IntentHandler.o
++ /AppleInternal/Library/BuildRoots/4~CRtQugDO00Mpyc2sGM2lb48W5Yh-kJn9UPcW1Sk/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoIntentExtension.build/Objects-normal/arm64e/SiriGeoIntentExtension.swiftmodule
++ /AppleInternal/Library/BuildRoots/4~CRtQugDO00Mpyc2sGM2lb48W5Yh-kJn9UPcW1Sk/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoIntentExtension.build/Objects-normal/arm64e/SiriGeoIntentExtension_vers.o
++ /AppleInternal/Library/BuildRoots/4~CRtQugDO00Mpyc2sGM2lb48W5Yh-kJn9UPcW1Sk/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoIntentExtension.build/Objects-normal/arm64e/UsoHelper.o
++ /AppleInternal/Library/BuildRoots/4~CRtQugDO00Mpyc2sGM2lb48W5Yh-kJn9UPcW1Sk/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Sources/SiriGeo/GeoFlowDelegatePlugin/Utils/
++ /AppleInternal/Library/BuildRoots/4~CRtQugDO00Mpyc2sGM2lb48W5Yh-kJn9UPcW1Sk/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Sources/SiriGeo/SiriGeoIntentExtension/
+- /AppleInternal/Library/BuildRoots/4~CQHTugB7mlSRm0eUf3w6sscPQWauldeppJeFHCk/Library/Caches/com.apple.xbs/TemporaryDirectory.Ou3Ajz/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoIntentExtension.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/4~CQHTugB7mlSRm0eUf3w6sscPQWauldeppJeFHCk/Library/Caches/com.apple.xbs/TemporaryDirectory.Ou3Ajz/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoIntentExtension.build/Objects-normal/arm64e/IntentHandler.o
+- /AppleInternal/Library/BuildRoots/4~CQHTugB7mlSRm0eUf3w6sscPQWauldeppJeFHCk/Library/Caches/com.apple.xbs/TemporaryDirectory.Ou3Ajz/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoIntentExtension.build/Objects-normal/arm64e/SiriGeoIntentExtension.swiftmodule
+- /AppleInternal/Library/BuildRoots/4~CQHTugB7mlSRm0eUf3w6sscPQWauldeppJeFHCk/Library/Caches/com.apple.xbs/TemporaryDirectory.Ou3Ajz/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoIntentExtension.build/Objects-normal/arm64e/SiriGeoIntentExtension_vers.o
+- /AppleInternal/Library/BuildRoots/4~CQHTugB7mlSRm0eUf3w6sscPQWauldeppJeFHCk/Library/Caches/com.apple.xbs/TemporaryDirectory.Ou3Ajz/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoIntentExtension.build/Objects-normal/arm64e/UsoHelper.o
+- /AppleInternal/Library/BuildRoots/4~CQHTugB7mlSRm0eUf3w6sscPQWauldeppJeFHCk/Library/Caches/com.apple.xbs/TemporaryDirectory.Ou3Ajz/Sources/SiriGeo/GeoFlowDelegatePlugin/Utils/
+- /AppleInternal/Library/BuildRoots/4~CQHTugB7mlSRm0eUf3w6sscPQWauldeppJeFHCk/Library/Caches/com.apple.xbs/TemporaryDirectory.Ou3Ajz/Sources/SiriGeo/SiriGeoIntentExtension/
+Functions:
+~ _$s22SiriGeoIntentExtension0C7HandlerC021deleteParkingLocationE033_D536423B4131493C495181BA759F0B1ALL_WZTm : sha256 b66070e5ca76c6a018d9080b3ccb2e12d4e6ef6bc35c49b8f23b839a2b7b3275 -> 8a828a48b903cfde61a60372082367c94581c2c86f593389ef9a81f6603e6a56
+~ _$s22SiriGeoIntentExtension0C7HandlerC9logObjectSo06OS_os_F0Cvpfi : sha256 c1e2176f1f547276a898fcef0d6600f2efcc0a66bd95b4d2972fadd57a5e77e4 -> e0f157f892320ba0f00a213e388872c8203408fbf1a0d388bb30ebd22f12e22a
+~ _$sSo9OS_os_logCMa : sha256 bfdf510bbb74c8bac7897fad9baf1befab2ce7fe5d3576afcede73e8750bf4ea -> 482fcd034466734b68d1e74e3d5c18edf3b63c9bab2bda24b5683f2da5abd8fe
+~ _$s22SiriGeoIntentExtension0C7HandlerC9logObjectSo06OS_os_F0Cvg : sha256 d36c404848d411cd5deeb4a88e5dfde448c356a7bdacf556e0eff1ef1652060b -> 881699f32f9e0d36a1e0a96072ac82a82bb0b7ab9297f7c9775afc49eeb8c4ba
+~ _$s22SiriGeoIntentExtension0C7HandlerC7handler3forypSo8INIntentC_tF : sha256 4c70ef45b22084a5c44523d321d6670d3c2d96d73fe92d01996679f186175aa1 -> 6596f1ba12ff95eb7d97cd6fafa909f84806ae0a4fbbe24c895547ab2c9529a7
+~ _$s22SiriGeoIntentExtension0C7HandlerC7handler3forypSo8INIntentC_tFTo : sha256 0e7994f0f0ecf712a197bfe89a42d56428c70616181a0a293e62c8395fa85acd -> 245810183b1590fad74104b89abc6c04a49080e31a2154e6ebcf5ac8cba1d0d8
+~ _$s22SiriGeoIntentExtension0C7HandlerCACycfC : sha256 95389ec9064f2777f90ac5ec859397bbdacd34bf57da912e1a28fb8a7f325b16 -> 2d3e0d265fdafcb55bd695445c34790e75aa947888a3a56dbbb3dff2ede02142
+~ _$s22SiriGeoIntentExtension0C7HandlerCACycfc : sha256 5ac152172cb627b9943a2f79f99e586c305398868336b0731d119752c1c94593 -> e21ea436847725471f336ad0ca8369e0adec7f3567f0196626a32e63430ee7a5
+~ _$s22SiriGeoIntentExtension0C7HandlerCACycfcTo : sha256 0b02ff1678cde3a9490f762977e101840ec41064a936e4111a1ca219201384e5 -> 1fb651718d6b41cac3dd8422be2c049f4962ac2c5b904666c636d50d6f2d9d2c
+~ _$s22SiriGeoIntentExtension0C7HandlerCfD : sha256 9850e452ef93aef19a013dd8f9b60cf8a7ba6a63a42ad31e59a0045efa6983da -> f652629739bbcd8133e06a1fd572640da5b889905ad1d98b34cf17fbb2c13318
+~ _$s22SiriGeoIntentExtension0C7HandlerCfETo : sha256 942001ed62c1ebe7082075cc77c26f4a35caae693aafb5595047ba0dc5a9bfcb -> e7e52175810c92650147dec27fea26afa0c4d8ae3fc3a9e6f3d299313616492e
+~ _$s2os32getNullTerminatedUTF8PointerImpl_21storingStringOwnersInSVSS_SpyypGSgztF : sha256 e53b61771b2943fd92e983e810516308c8fd6c51688c82561b372af12bc8723b -> d887bd936ffee66e0dd0c4059ae995dbc3608381f96c44c6552c8d3cbe87126c
+~ _$ss11_StringGutsV16_deconstructUTF87scratchyXlSg5owner_xSi6lengthSb11usesScratchSb15allocatedMemorytSwSg_ts8_PointerRzlFSV_Tgq5 : 280 -> 276
+~ _$s12SiriNLUTypes0A27_Nlu_External_UserDialogActV0A18GeoIntentExtensionE9contactIdSSSgvg : sha256 db3b12d7661f18e6687c705bad5b51e16656696f66f6bee5e04976e4dac58ddc -> b2a1d7efd2874eaab1cf58015445564fd90e4d8365713ac4dee35f1970e64024
+
+```

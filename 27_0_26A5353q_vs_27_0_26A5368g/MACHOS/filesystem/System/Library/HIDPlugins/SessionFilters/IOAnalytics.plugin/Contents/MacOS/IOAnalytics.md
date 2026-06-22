@@ -1,0 +1,527 @@
+## IOAnalytics
+
+> `/System/Library/HIDPlugins/SessionFilters/IOAnalytics.plugin/Contents/MacOS/IOAnalytics`
+
+```diff
+
+-1176.0.26.0.0
+-  __TEXT.__text: 0x1655c sha256:dd8fe6a7c438e4ab187f063e9b446e6ea3e7e921836d87220e2ff2b3e895bcc1
++1196.0.0.0.0
++  __TEXT.__text: 0x16534 sha256:1958abbd07f06afe8c59079193cf756630be8970462cc026d08ddf016cb7bbd0
+   __TEXT.__auth_stubs: 0x4c0 sha256:2afb34c82a9956f6d2817c5d20122fe8f99c1be000e5386837c9f4c9cf63c86a
+-  __TEXT.__objc_stubs: 0xfe0 sha256:c1dc8d8be3b3b9e21f292faad174e9082c47e9d4490ac2e733faaed29e2819a4
+-  __TEXT.__objc_methlist: 0xef4 sha256:72dfda4900aab01f84d99e3e3a63cef22553354fcb0320c4ba3c658e94e9ce4a
++  __TEXT.__objc_stubs: 0xfe0 sha256:c3a7cb29b072f6dc256220d81e95cc37452c544015cde44988309c70cc0a1d97
++  __TEXT.__objc_methlist: 0xef4 sha256:9021572c031c55c15b2ad6575f2b7c970a5085a3bd292749db7f2e1ffeed1b0a
+   __TEXT.__const: 0x80 sha256:981c3211f9c2411f558922ab50f0752302b3998b34aa0cb4357b88486611aba7
+   __TEXT.__objc_methname: 0x13ac sha256:a7043cbb45dbc4c7cde4c2b08cb25317a6d5cdcc1cbb731bfcc341e7ddabb100
+   __TEXT.__cstring: 0x1c86 sha256:37dc8f8d782dee1905c3b49b5ba517c468957bdb5bad8ada9fbb0d14ec5b1a40
+   __TEXT.__oslogstring: 0x159b sha256:3116dfbef366665884db08bad7f53435d32f8c3f723c98780e85b0ad0f4067b7
+   __TEXT.__objc_classname: 0x132 sha256:4280739ec5ab5599f5073c7caa538b09245c60dd1c7ff83a7eee2385a4738533
+   __TEXT.__objc_methtype: 0x50d sha256:53ab471893bb8cbca043defaf4f60323e2218594baad10c8d7c34c0665caadab
+-  __TEXT.__gcc_except_tab: 0x11c sha256:6cf07cfd8e4b1923875c56d4fdb02b0fc519d7e66f4e573046ad6a653e16eb34
++  __TEXT.__gcc_except_tab: 0x11c sha256:12367ca01ae19952c12d67dffcd2a2685bcb1b0a50cef57ea051191051a35a40
+   __TEXT.__ustring: 0xa sha256:b0e464e7e73416f02b2e55653e73a1d6e086fa3944db7dfc2f50c9776fd541dd
+-  __TEXT.__unwind_info: 0x460 sha256:ba1584d7eec21ae7130132be84bbfa681457a51873e137fb6a48f1df5ad8d6e1
+-  __DATA_CONST.__const: 0xb18 sha256:d3dd3dad27e9ba9d0b5d2d1baae3edea6f6f18d0f396377f6f83c9bb31ffb4e2
+-  __DATA_CONST.__cfstring: 0x2c60 sha256:699bfe6ef5587240e9bcb759528199c946bafff7cb083eff7fe62291d500b6b7
++  __TEXT.__unwind_info: 0x460 sha256:f77d2fb63643e2785b963f0109a75d762bc95fb5d72c7947796dce6e70d55637
++  __DATA_CONST.__const: 0xb18 sha256:5bf890ff0e3e22a95b674fdb82a2351f70e29d0ed6fb27cdc3fbf6a4626e23b6
++  __DATA_CONST.__cfstring: 0x2c60 sha256:abcfce7df244d274e10f7c89213f957df017f427b5f11faa87b25f991fbdf0db
+   __DATA_CONST.__objc_classlist: 0x70 sha256:d4108f4485769037cbbfe6d7977ce37f05aa419d7b7fb0001498fa1d5b687945
+   __DATA_CONST.__objc_catlist: 0x8 sha256:0fdf1e74b8691f6650b8f1783d1a74096a396e7b50df43bae68d809489c5191c
+   __DATA_CONST.__objc_protolist: 0x18 sha256:e832711824962c7d9a54b9802b68a22ad5285173ba3ccaf7eb5ca9e3b2e8582f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__objc_superrefs: 0x68 sha256:945a381863c5e92245fcf9c2f3eaa64f7ba81c8040e46fe9e6171987f9b0acf4
+-  __DATA_CONST.__objc_intobj: 0x480 sha256:d27ff72e73952fe56c4e8494b283e62c027eae0645e7ddaa4106c726a83ae239
++  __DATA_CONST.__objc_intobj: 0x480 sha256:588722d279d201d0d69779bd353a9a7262b85208ff7208bf9fc1ea3193f13b9b
+   __DATA_CONST.__objc_arraydata: 0xa0 sha256:b02fbc731cd73dfb2e70323086096b2ff2d5d00ab81d8420750436dfb41db76f
+   __DATA_CONST.__objc_arrayobj: 0x60 sha256:78f24ceb33588a39baea8288169c74aa35c736335010d588dcbdd78601310a18
+   __DATA_CONST.__objc_dictobj: 0x78 sha256:7cc5b64b332f27f8d3f370960ff4ea73a286cc598073487286f286aed979392f
+   __DATA_CONST.__auth_got: 0x270 sha256:84c2412d2b7664773dd11483804798d76bb66d48b608de09916c1ddaafaba4cc
+   __DATA_CONST.__got: 0xc0 sha256:7ee6039dcbf7554197249ab3b21e8857325d1e3f5bb815dd4c12cd36be5b2843
+-  __DATA.__objc_const: 0x1b00 sha256:76428ec47fb400e4506991e5ad2575a1af6af9f34ca250b96a7399a3bc2a9db0
+-  __DATA.__objc_selrefs: 0x5c0 sha256:66b5692b30f470c3733e651ee1a8ccde151a842b6699f5ce2b7b1d5daff9f48c
++  __DATA.__objc_const: 0x1b00 sha256:5d94696bdaf81a3c6ae0e87c0050a243f4b04ed0665f544208512d677f45e27c
++  __DATA.__objc_selrefs: 0x5c0 sha256:fe4daeba90040a118f982904d1aab0eaa6a9e515eec07b4f056f357fffc34ecc
+   __DATA.__objc_ivar: 0x168 sha256:eeee7998045297f4f0ddc9d3da8eec49ec967d77e31089afe233617137d76758
+   __DATA.__objc_data: 0x460 sha256:8ab154671ce51900cf1a96edd33037b7260cedf0f900c0c0346203679c4c6161
+-  __DATA.__data: 0x178 sha256:ccf66910183cdff13eacd8bd0bde928a50dc30e875954fbfffcd26645020ea53
++  __DATA.__data: 0x178 sha256:fe49c48bb0ac35b577da01946f6c01be924da21ac9d9841cace096dc1b367226
+   __DATA.__bss: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B66E12D1-2650-3AB6-BC0F-F350CB8CBA3F
++  UUID: FA8A6B92-718E-3A7C-B867-30C6E943F4F2
+   Functions: 561
+   Symbols:   4094
+   CStrings:  1216
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/AUVDMAnalytics.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/AppleFireWireAnalytics.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/ApplePCIeAnalytics.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/ApplePCIeAnalyticsConstants.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/AppleUSBCLightningAdapterAnalytics.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CAEvent.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CAEvent_Thunderbolt.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CAEvent_ThunderboltCounters.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CAEvent_USB.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CAEvent_USBFW.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CAField.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CIOAnalytics.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CacheEntry.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CommonObjC.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/DPAnalytics.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalytics.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort_Feature_PowerIn.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort_Transport.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort_Transport_CIO.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort_Transport_Component_USBPD.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort_Transport_DP.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort_Transport_Protocol_AppleUVDM.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort_Transport_USB.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsHIDSessionFilter.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsLog.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOKitUtils.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/NSCharacterSet+Hexadecimal.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/PowerInAnalytics.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/USBAnalytics.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/USBPDAnalytics.o
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Sources/CoreAccessories/Common/Common_ObjC/
++ /AppleInternal/Library/BuildRoots/4~CR6lugAAp4fx7ACp-OzC18zW_4zSN4ebf2Bh9iE/Library/Caches/com.apple.xbs/TemporaryDirectory.ZP75rk/Sources/CoreAccessories/HID Plugins/
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/AUVDMAnalytics.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/AppleFireWireAnalytics.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/ApplePCIeAnalytics.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/ApplePCIeAnalyticsConstants.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/AppleUSBCLightningAdapterAnalytics.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CAEvent.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CAEvent_Thunderbolt.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CAEvent_ThunderboltCounters.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CAEvent_USB.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CAEvent_USBFW.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CAField.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CIOAnalytics.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CacheEntry.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/CommonObjC.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/DPAnalytics.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalytics.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort_Feature_PowerIn.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort_Transport.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort_Transport_CIO.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort_Transport_Component_USBPD.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort_Transport_DP.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort_Transport_Protocol_AppleUVDM.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsConstants_IOPort_Transport_USB.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsHIDSessionFilter.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOAnalyticsLog.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/IOKitUtils.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/NSCharacterSet+Hexadecimal.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/PowerInAnalytics.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/USBAnalytics.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Binaries/CoreAccessories/install/TempContent/Objects/CoreAccessories.build/IOAnalytics.build/Objects-normal/arm64e/USBPDAnalytics.o
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Sources/CoreAccessories/Common/Common_ObjC/
+- /AppleInternal/Library/BuildRoots/4~CQdcugCSamqX5H1YI0ktUzlt1S3UJHyME-lt6F8/Library/Caches/com.apple.xbs/TemporaryDirectory.jVPbJi/Sources/CoreAccessories/HID Plugins/
+Functions:
+~ -[AUVDMAnalytics init] : sha256 db5c4c1511a60900beea95c76cd90f1ee8f3c5342513d3457c89b8dc3dc94c43 -> 2cfbcc11ec6b918018d04e760e31b1c5b3854dc21c3b2a02f269417d6fbf187c
+~ -[AUVDMAnalytics start] : sha256 009416bbeb6639b8700d68db6c3b9bdca351c9c6168b17812807f029c1c6523a -> b6158ed2df1627954bb1b0b965298b21b36947a160ed094f1a7fabf0ab879d56
+~ ___23-[AUVDMAnalytics start]_block_invoke : sha256 e7bf223b38d4bb14846dc2544b5c170a63f73d01fb56bf69a9af918100ea1632 -> 540542a23dcc7ed7fd37f4e746d142ef95a88ec5a2dedb84691647ca34d361b0
+~ ___copy_helper_block_e8_32s : sha256 72d24bb5a20e87a44ae1cddc9ab444e4b79085e99933950dfe125228dfcbab56 -> 4317db8301b56881ae2d1b2159236063b0955c53821c0e7b35815aa8f1862c1a
+~ ___destroy_helper_block_e8_32s : sha256 1b7e166b80a177bca9ad4595eb641099331bb6b5aecc06b657436024ed144ec2 -> 6acb17f0247f16b250de217daff616c165ba58ce61f6be2d7c2c258d0a29e338
+~ -[AUVDMAnalytics stop] : sha256 ae23d53b2fb7c94d279f394764e5c43b7ce6d12a2469588130f82fb81e091d67 -> 15fb5910f1ba5e77f43b41e9f554b6e5a73e0f8aa4916a9d9da4c3909d0896ad
+~ ___22-[AUVDMAnalytics stop]_block_invoke : sha256 df5b44046115ae8ac0bbe0a507e39bf2310c24573149313934318a7f2da8e04f -> c8d0b514a1edd6239f6dfc294d0ffef9ea718a2390b38020d033b740ac64b245
+~ -[AUVDMAnalytics _startEventMonitoring] : sha256 bb4aa1f9c694a734597ff1ef261c994cf849c4acfe3c219885dd99111faee79e -> 5a1b2700f55a20fc8dc546325cecec46621804a185012c0d77fbae1012b11a93
+~ __servicesMatched : sha256 5fd644b9df7e2e2bd7a1bbb59ebd0409ce163295e7177307aa097d47d5ab3be8 -> 67f97de28f6e0fcec6b1ab39ed9d0707a7858a93c0de3f3fef346d44b4e10533
+~ -[AUVDMAnalytics _stopEventMonitoring] : sha256 e045e68893b9f027f9caf5ba80a07f9c1e5b1146e0f647168caa481c0ac0fc71 -> 01d7a19741d362d76b7e35e0b0fd16d3cb794f76e2bcb3620b9e0db83c09eafa
+~ -[AUVDMAnalytics analyticsEventsEnabled] : sha256 4a4cd4ce4c06956e65e7609d80448fef7c2a4a2c119a6f1f162d4313225a5cd6 -> 8ed08a80b4b8fa7a58514f7159f0ad1b66d3dcfde318f2b4e2f8e915abdb3369
+~ ___40-[AUVDMAnalytics _handleServiceMatched:]_block_invoke : sha256 c703f3421e243e57cf4b70c785cacd0537758fcc0b546516ca3a857ab1a4a97c -> 0042658ca59117acb1fdf2389e541ef98a9b77ca33d08135aad0d74e19520637
+~ -[AUVDMAnalytics setQueue:] : sha256 22857df490878003f8a3a3b137cf32517ef90401c7ff1a0fa5d4ee50602991ed -> 2fc85e9033ce31cdefd409c0990ee4bd16f13b90f53729a8e8bb98d4a2babcfd
+~ -[AUVDMAnalytics setLog:] : sha256 5ff6166bb3712950877ba810076a18de42670c24d30c83696f7e54039170359b -> cb8115e9e3b67b9b7889b53944ce406a82dff63862626f5087b34100fc34c932
+~ -[AUVDMAnalytics .cxx_destruct] : sha256 3e9a28bd21503b03717baa2b4cf29cb7868686806f003923d1b22242e673d2d4 -> 084bda0987c4c160d748227bc0dc9f15d48f92f17aabd2c9d71ca065e4390b3e
+~ _OUTLINED_FUNCTION_3 : sha256 39c251f4b8ed80a2d537c72b300f6a066fb3894822783272f5ff8922643e386b -> 7d2334bab4c51432373c4ae8293a630636ff591101eef4b8dc31bcc920df1cb8
+~ _OUTLINED_FUNCTION_7 : sha256 f3ab28b8afa1899fefa5003a9c4c78569ccb067a137b7078ebced0726a939995 -> 00794a8971332677151881eb465b809afa711f7b44ab0d0b193fe437c56b8058
+~ _OUTLINED_FUNCTION_8 : sha256 e5849a3ebd8c709d4a319add11a8ada96906fe4cca66931895cc0fed5404efa5 -> be1af2780080ab6261fe31da093bef37ebc2b5e6dbcc0ea0b24b1aec13ace3c1
+~ _OUTLINED_FUNCTION_9 : sha256 ae8a372f27893510179c531661050ea797dc91af8ebd3960036eb508f15be839 -> 92364db44bbd63e7b8861fe9da3cbb2b8b2e86abd43c0d4213a0cd8faff17fb2
+~ _OUTLINED_FUNCTION_10 : sha256 a22084e2cd15f2ed4f94b29f0d3877d987930b0aafe8eba34e5f2657e3517f43 -> d1c4635eb2d42ec4ed5bda491df97dd226e6a506146504ab30bd543d0a65768c
+~ _OUTLINED_FUNCTION_11 : sha256 b512ca97edaf953f00615644cf53b81d119255c61833236eb0fef0e6487b3e50 -> df4dfea3495db2cb00ba7b98b3e0a5c044928681f97bafaf79436908543c1ba7
+~ -[ApplePCIeAnalytics init] : sha256 167eaf6b9a05a3ae51ccbabbf2d736926d792e08a729e100bd4a9b4e905cc91e -> 116c94f0ea94539554089844070f0c7a6950ecd0653bf845a20dfd2091bff44b
+~ -[ApplePCIeAnalytics start] : sha256 a1f2cd9f947a6fd0006ecba70b0acf04867cfacece875078aa106e7ff193a3b3 -> 10437c1ece36ac6a5cba407f2deb6c88774bd9eb5d7347dc3543469ee99eff5a
+~ ___27-[ApplePCIeAnalytics start]_block_invoke : sha256 5779b0af7bc758b83dec1b9be74e7efa001649d627d4e99e6454cab52af18839 -> d7ad1bc18589e22002bf7b4c2fad07e4ec9b3819d591f1d2e8223de084619344
+~ -[ApplePCIeAnalytics stop] : sha256 d71afbdc5c15e91c0383b938af7cddc77dabad0c5ee642cba9f1d0d802bd1df7 -> 54bdb8c490959bfba38976767f9cc91cc37bdffc96e5f8ab55b19e2f25f4f727
+~ ___26-[ApplePCIeAnalytics stop]_block_invoke : sha256 dce7d9068f16fccbf2ea5f905f9ceba985e392fc7ed30f3a46312db230fc6357 -> 28ec2678364fbad7f15ce31e31c2a1ff5a74b153a6c8df7177e17fc0e7cfa0d6
+~ -[ApplePCIeAnalytics _startEventMonitoring] : sha256 aeb5ffc445e28a3faa7c5a5635aae7793a192224444bf8028a81bc49a86a1504 -> 86c17e4447d92a71e2b6140baa07c947824992f9fb7c4e86fa08e07619a87d33
+~ __serviceMatched : sha256 37f16aa76f912fa40bc1a6f156bd8b5e911380f6f6152b73102ff46588bb3658 -> 821a4fd195712b8c92c00479572ac76c473c42fac87c3183eaa6dee873f0013b
+~ -[ApplePCIeAnalytics _stopEventMonitoring] : sha256 621c6ab416167a2c19b7f0a475243c483bd72ed6d9579b7e5a8f483de904b4b2 -> e9fe838c94659209e7c3843e5d0edd163cd7c21b48afad29a6cf7e1262744809
+~ -[ApplePCIeAnalytics analyticsEventsEnabled] : sha256 f58ba58162805a589aaa68503f723f6ce0e156a7d8cbbf63c96666c06c1c1e68 -> 1c96f7a1c3734ceeb4f7a8ab951bc0b91d6a5d8e7875bd360897d73322c4a1e3
+~ -[ApplePCIeAnalytics _iteratePCITree:findSlot:findTBID:] : sha256 b4b85cc15efc6166ad7f1dfac4fc5a6be46d5ff7cd59c2cf35758ef1c86fa0d2 -> 5ef4833df09453a67bbf616c7590c316779c0a1db11b72e202cda128057f1971
+~ +[ApplePCIeAnalytics _getProp:fromReg:withType:] : sha256 429390d5b771d005a3785758797959632f9cddc1ec3c1500680334b991c03713 -> b1bc94b7433283d37e59adc13a7f2689b8e72baca5096c761ea09d71aba229c0
+~ -[ApplePCIeAnalytics _handleServiceMatched:] : sha256 c4e281257480234c98919509f7558051f94cdbc98d80e4c88c514a038ba79955 -> 9fe024c72f8bf8062536389016a52c1788813370d5c464bb1b10875b56d814a4
+~ _convertNSDataToHexString : sha256 010442b6dbd757b9357835854517fe8d8ffc4e2a93d1427b9a7c3adcfeeb1f91 -> 6afdb59ebe9dd3067bf8aecc30f1fd2d58e3d23a83fd4818217ebb054f4ef5f1
+~ ___44-[ApplePCIeAnalytics _handleServiceMatched:]_block_invoke : sha256 5f30dfe8424b549f34fa0a050f82c9c41ce3462226f4bca28a009ec21e86372e -> ce6a1bb5943e01052a77308df73d39bf91a1ef04342906e94611e269804772b1
+~ -[ApplePCIeAnalytics setQueue:] : sha256 810033ec5fc6252ecd8001b4d3dd3e5d9470ef26514366ddba8d02d1ae2ddda5 -> a167f7f90b31a5984439480c1652f25beb909359256bae6478b029f02ba684e2
+~ -[ApplePCIeAnalytics setLog:] : sha256 2be80171150df8b5c34b12e82477aa8bcf16760ce5bbbf4f9e90708a1bff63d4 -> bab260313a5ba6d0895692c885df6cb3d22ad9b3cdc78fe3155c2e2329bb1d9c
+~ -[ApplePCIeAnalytics .cxx_destruct] : sha256 4a406a7e6492eea37fb9c898b583c1a6fd6d48b3210d675a0ce66e7e666498f4 -> 5f1fc05109fa4865e72d47222b4047fd1be70647b935e65e457fe8e40f790bbc
+~ _OUTLINED_FUNCTION_2 : sha256 29bd62875440a9280591f32b6aa96bec815ab26369667b2e47ab346919c9b913 -> fe52b9bf170dbde309c1c64a89e740ba290da06b2ef08eb76406f84d607fc940
+~ _OUTLINED_FUNCTION_3 : sha256 64d647c6d2d23a24963c7af203d3ec30790ca6ed387dbdedac6411ac73593134 -> 4e663ee6c303ad0d8513c3e1789e8af19228e5727366f14a09c21e56f86f9ed0
+~ -[CIOAnalytics init] : sha256 62f3611089fdce467b2d5100b068e202abd28cc393756db49d3d7b7cd06ff597 -> 81da688cf85cac82833eb3338dba2749468ff6934d119eff1c16b201953dd1b5
+~ -[CIOAnalytics start] : sha256 ad67d0826da97abcf753caeb82dd2520953f133baad0bc896075d82deb57c071 -> 863d35865cf65ec61ac00b67ebbbc25df326214b8b48668c29493bc7116e5272
+~ ___21-[CIOAnalytics start]_block_invoke : sha256 d7c4895dbfe1c2e55aa050a1771b67ae4c9eedfab4f67fd229e4fd472ed315f6 -> a22c78a72a742a68af9ba687ed7d6ac265d16a85ab1780e74b404ec8e782cd72
+~ -[CIOAnalytics stop] : sha256 9b9f3360153ee927d57aeda162a485346455b0f5255e26267a02b22750522c14 -> 0a3967a6f0949ee2768a5acea06f594e534472adf15e79f2b61e5124cf3e02ff
+~ ___20-[CIOAnalytics stop]_block_invoke : sha256 b9c16622a10aa0a44594bcf756952f3b47e3330fa742e951398c48e85aabd38c -> 888228fd657a2156c584aed49223b8e7010021f938aaf7767a07ce898e177d88
+~ -[CIOAnalytics _startEventMonitoring] : sha256 a6de7fc6272199be0ecaf43da837410918e32759d239fcbedb79255e56809c1f -> 9dc10c729f2bc8e1e2a441c83427c6d2a76d59b8221f6932326bc1ce1bd93be7
+~ __servicesMatched : sha256 2f0aecc0b1c6ea9ea1963f702b1754cda5e1e77a7ce4ae5873ed55ac9131485f -> f7e8b645391a3bb1a9df948337a2f8130dad7056e5c9ff056e8663816d4cd543
+~ -[CIOAnalytics _stopEventMonitoring] : sha256 e84394419fca99b2756dff344ef2419336c551ff0d89b1d59e308249b279ae17 -> 7e436fc964a78862d14627ca4d5c5ae135b688b493c68515e605371c51bb82d8
+~ -[CIOAnalytics analyticsEventsEnabled] : sha256 deb51dee88ffc9369884f13298fed71f37ed6149911fb55781116367334b5054 -> e4101163960098295067f08d3d5ff555c2011a8eef2155d053b5be66b8ebed8d
+~ ___38-[CIOAnalytics _handleServiceMatched:]_block_invoke : sha256 231adfc12a5f01de84c204ae695a7d68f9bf5d8e3fe0f567309f41b189d864bb -> e74cd5476d128b4509db6e212f71f5f317e355dfbc0d3a4e4b69dc191762fa8b
+~ -[CIOAnalytics setQueue:] : sha256 3136010346d8a0c10a8804d06830fa39de44c7345327aba8181590d0ec646325 -> 47d8c420c793927ec86ce25df4ef7f0e7534ea2388be59c3a8621632f47aa69c
+~ -[CIOAnalytics setLog:] : sha256 199170ea36b9f014d8f84a3dc2f47aae01d90f140736868f74a9e58e10c4101d -> d6cfe2dec35b878b750984029fb683edaf5fcbabd52bc8005119f8411c8081cc
+~ -[CIOAnalytics .cxx_destruct] : sha256 5f09af15ae2d6df84810c2566b40df1aafba89b01e840e2d332417453bf636c9 -> 1b1aaabddffc7b2b276e392edc2194e38f12747f3d51f0de8854902c8ef6f20a
+~ _OUTLINED_FUNCTION_1 : sha256 02ab1284bf5573b81f14a8432e8df4754e9284e47a14e3afbebf377d9525d5c0 -> 4d614a47c4f93a949e818050313af647377ffde48f0c77787672623f7a60bac1
+~ _OUTLINED_FUNCTION_8 : sha256 9fb9374deadabcc39922b23a72fbfdd5c98230b512060afdc8ee624c0f45b94c -> cd9c6e21b38bb9f27b3490be7f18b41664454837b5ea7f586cc0c1beb25a69bf
+~ _OUTLINED_FUNCTION_9 : sha256 e189e96586057a1825b8d64ab4ee0fd037b1f18331299309ea6efafd1aa0250a -> 22605e21016777f7aae9b8b5a76fe729ee6f543cb21a46a1b7356c29edd30083
+~ _OUTLINED_FUNCTION_11 : sha256 b6ac7a86b8ea32392d92e29a13f125e01a4484bc053e40b813d3d4956416c341 -> ddf2d10ae0ff6f9fd1751f7e7a77e9ca62b1faef193a57716637eb110f4950c6
+~ _get_kCAEvent_Thunderbolt_Daily : sha256 a89452eca3701f226276275601718e505ca35fef7295e147ba4f5a9164086591 -> 4657f81dd23d4aa104fd33db4dd18f57ae0afc4ed533096891fcce31ef302786
+~ ___get_kCAEvent_Thunderbolt_Daily_block_invoke : sha256 58954922d232465795ac5b3f83f046511989c5683c13b8459bb1648ac422a0ce -> 2900bbf2bf2d4bf5a998900445d7570715833e79e89aa33a65a60d176e69b121
+~ ___get_ThunderboltFields_block_invoke : sha256 689be531cb3feadd84e6ddd21559bb64187d3cdd8e08b25541db8f85bde2b569 -> 84fefa53051c304338acd3d8e34f635035f32e39bcfffa5e73597a7ffbc2b187
+~ ___get_ThunderboltFields_block_invoke_2 : sha256 d64a685c191793fe7eb3f668b2814c4ae6acb5b003705fead2abb2f3a9af3d63 -> e3ab3fe6575b2dc33d8a382702fe14d39b9dc308cac7d5a7a9fea64b96304ef5
+~ +[NSCharacterSet(Hexadecimal) hexadecimalCharacterSet] : sha256 1dbfac66a3832f4870e4169f9c8d613bf031f9afd1bc2de5c65e39febb019dfa -> e1c028aee6f7821c758e4a81e6d62767d6c05aa776bda611f67f6499bd465d91
+~ -[PowerInAnalytics init] : sha256 58bb8f46e07a9e7f06d661426d5303cdf5fd97b2fa438d2ba6f82bc86473dfee -> 7ace692b30e27211d0d941664cc3f68b83924098867e94a6ab3e86f037275089
+~ -[PowerInAnalytics start] : sha256 3c1c5fe0893bb091f1005cc5a366f61a79a98446412509d903ed3cc0124a4b84 -> 51274ec9d586c27ace55600dec39734f9dfd578ce54dec1cab359ec038f16aab
+~ ___25-[PowerInAnalytics start]_block_invoke : sha256 027b00064c6de56fa23a2fa9e87d787c5e2e46d08e2b8b97fe6b5d03c8205348 -> 69a9b0eb9b0ac632099f0ad275f0de5c11b0c6be2cc76128140b063f4141b6b8
+~ -[PowerInAnalytics stop] : sha256 208aa21f5d04f1061c9f6b1948d627059df53ad88fa51945ce4b3ab0b7dba485 -> ec9abf48d513621f604f41a190004ef96b0b62c4deeef8cede9076cb8fdb45c8
+~ ___24-[PowerInAnalytics stop]_block_invoke : sha256 6650d9857b07de60c30910060b9065dc497197b04624a1348024a14918950c9c -> 96ac0875b2f4686bad9a272ce69974ac6c5bde9f23a002dc56313dc28a0a79e7
+~ -[PowerInAnalytics _startEventMonitoring] : sha256 6f3602e2c2e60969502ea4499980e398fb90008b95769d1d84c80c6ca124d1eb -> 1f8777322014ac2bc11bb31d4755e7674ed2e9c02ce3080e1569c582b04489d0
+~ __servicesMatched : sha256 47044dd1a056037c4bfdc92521ecdeb494191ea7feed108c74c79eada520eafd -> 7f83d478fe5a6c682be20a7accd20c993dff6eba9c08958adc8fe14402bed3b3
+~ -[PowerInAnalytics _stopEventMonitoring] : sha256 34cdb54c1b11ff8824651c7746b6d52dfe905279fa6b3213669d3e4c7a67a350 -> f4f4312ea98fccaa60a332d62c0cc71c77da9ed3aea289de60ead38ac73a0e1a
+~ -[PowerInAnalytics analyticsEventsEnabled] : sha256 2e6dcd0c24fa947c8bd32fd57b635c980cc01dfbf65e4a6bcc0e6554f116beae -> 6b2ae083597a32291b9a54f51dd9294bbab34dfdc2e90fbd48da84c46846c5ce
+~ -[PowerInAnalytics _getMutualPowerSourceProperties:dict:] : 3224 -> 3220
+~ _copyIORegistryEntryProperties : sha256 bcbf56593a122378d1d287b651974d1ba405eb7dc7542d44b81a84491a0e9524 -> 72eef78ad5af16a4b16a130adb8bc5ac9d89ada9654a2507e76b69cb7ad46a2f
+~ ___42-[PowerInAnalytics _handleServiceMatched:]_block_invoke : sha256 3885d19f6059d6a783e5c33c4ce9077966a23f262d7172126a00d54fd151462f -> f1d28c1817139c710793142012f7943f828bced97ca248e4c52d6a636783270f
+~ __42-[PowerInAnalytics _handleServiceMatched:]_block_invoke.78 : sha256 012901a58430c599d3b7fbe3abeea5fdcf748fc37978c48c013423bb046c0851 -> 57d4ab44e811dcb0985f8bfe485e3e69a74925698d4dcbcf803356f49e1e7c0b
+~ -[PowerInAnalytics setQueue:] : sha256 134e9e79b04f07b80da52eb9b05fbb7bdd7aad4f0ecabb60f6df2ac760ea15b8 -> a640ca6fa2ec48f7153847a402697d095b2452231138273a3bbc300379d6e71c
+~ -[PowerInAnalytics setLog:] : sha256 0f229f4301406bd9aeef5dee2ea20160f2416d90baef463a08b2759ae0257145 -> 592a81f734c8c0ba1fd83b6f02fe3df1d7ac7b8d2493b0f7f957cd8c8e0267bd
+~ -[PowerInAnalytics .cxx_destruct] : sha256 76c3c3c1b028e4820b01c0780a005f433546ed26d666c596988a1e715b2ac672 -> e36a9e354ba88e92190a7f9e1ffbca38aeccd0ccb6c2e0f25bf7fdb970b01f8c
+~ _OUTLINED_FUNCTION_2 : sha256 bff37a1937f46b8e2e90dc0dee49d34789f2340f82077e33710dbe4600d8bf05 -> e313093e276568de2740d62468f5a8de47e28dbe55fdaa3c76569e51443b1c51
+~ _OUTLINED_FUNCTION_6 : sha256 8b3b374c45ab986efe089b33befd0b4317d13098de65691a70c2b760ee809461 -> aa21d62b2b217d5a57c4efb4dcac2299e4a83c7496bc0568a460b9a66d435d01
+~ -[USBAnalytics init] : sha256 265b01c1d00af7561818b97e075c19b8c6937a7ec4993a02ce4e2b469db10679 -> 307445f278711f94143c561fe03795c4a6c0835923feaa6849752b29fdfbd7e7
+~ -[USBAnalytics start] : sha256 7c6ed64435518bba729be3174e6fcbba9dfbd234d5bec8bc9c62995deb2e6cd1 -> f244c68b497aa86b01b470b1991c3c70bb2b474d20c54476a1f210e3034791a1
+~ ___21-[USBAnalytics start]_block_invoke : sha256 618cd1553458a6402c8dd09fbe4d6c599784fd08c51259aaf953b849264c563c -> f058652fd3c2e39529c12341418ca09fb25dd0f1495401031ed727d6108baba1
+~ -[USBAnalytics stop] : sha256 cf6d6d04292a6e05ae73fa5cb8da3a78bec6a8d0d3679cedbd5ac5bd87493e52 -> 8fdbbf938149964c220310f5c5662d915511d4c3bf20969c33349044d90726a0
+~ ___20-[USBAnalytics stop]_block_invoke : sha256 838992e5eb3a8cfc60553e92e056f4952d9e1a0113f79dde4d856a23ac578be3 -> 849f1bf0a254ef25327abd04a552e59220a6f322a76df4574798386e2dcca1e1
+~ -[USBAnalytics _startEventMonitoring] : sha256 0abdb317ec06cef9ca218e31c1271aa6aadf2ae45e4302f9e477412179bac248 -> 328826e0ad92d36469d9f829a8c4b246c114625bd13619377e40f766afc26c39
+~ __servicesMatched : sha256 94aae83b0fca00dafe7d0a923a11587d69d47d3ab17b2fac8ba9746c775e6d5f -> 4f0663aa13f536f6afc1c93a1a5d1e238bca0403a4e233e8cc20052db18d9b69
+~ -[USBAnalytics _stopEventMonitoring] : sha256 b3e0d9711fdf4db66aa4b6ba2301060f0e09fc90e13ca7d19eabfc38a1d73296 -> 96f2a9dbf89c3ae425b6f608ecaa5b626aa955b59cba6b15f2f122a8cca2eaa0
+~ -[USBAnalytics analyticsEventsEnabled] : sha256 9f831b99a532d08abd66a3789c12d335375656bbf88cfb6ed9aea199df545965 -> 33724af364e648f8ad1c7570604291645ce17b40d381a2a504a16ebeaacd36b6
+~ ___38-[USBAnalytics _handleServiceMatched:]_block_invoke : sha256 4929a3504d1f373279826c0deb8addcdab9192060876243fec4189600334825b -> 88f2149564b8ebd0d970ab11eb8e57cd223bc16d10c57c30287ec36d50269b12
+~ -[USBAnalytics setQueue:] : sha256 6220f153f85a71a838e2804da03a3f4c5ee49cbd95ce4ab95ed99d0f50c6a0b1 -> 2b556cea72401f4469c383f600eaaf20bb724a5e66a0593b9ac6a822af53ec6b
+~ -[USBAnalytics setLog:] : sha256 b64d552a37e444f8f9852712a071af7e6f8188b4017deacd23639300f0cd0e5c -> 4894ea2e82b7eec8634f87a97b2cc979156215b0597f7bd756b56aca72815cc8
+~ -[USBAnalytics .cxx_destruct] : sha256 0367fdbefda54574b99da382422cc9c0adea6032d345867c1105a6cc7fbe7a2c -> 67533d316919b7a0a02bca6c40060f45c2bfca5f027214e48b63e2aa5d5d3087
+~ _OUTLINED_FUNCTION_4 : sha256 582d848b3c10119ce27344f47db2217524701b7e36071e623207c00a3cc940bc -> d93ed121683cb7f35d25f3643a9a5c91d80ff278b5270bcce4ca199458fde4bc
+~ _OUTLINED_FUNCTION_6 : sha256 7b736c14991221c9e7635986a46f6c6461158935c54b7b1444870faf7c87b019 -> bc7f43540c663d78b29b09bdee4c470add3f9a0792be5c36265f95d943d0e8ba
+~ _createPayloadFromDictionary : 476 -> 472
+~ -[CAField initWithName:ioProperty:valueType:] : sha256 fdd70d9b4a685fcbd631dc228967d7032072a6acd741c0739c6e27df8c6c43e6 -> faa68eade42ccf47aae69732416991976de2ae46028c0e70b530a92f94f91b79
+~ +[CAField fieldWithName:ioProperty:valueType:] : sha256 0f37c6bc4e150443cf7606582c9064a7820147349848d92c639d49f6485584c2 -> fa771d878edcfccf764e2b21a74028ec54b72e3cf37b04053d096726e69775a9
+~ -[CAField isValidValue:] : sha256 bc4f1a0e621ea1d30b5ae05213b11f9c1d3273b17da1628c680bf6196c76d8c2 -> f7e027c39592eba1e44700340e69fd773c50752490d5ca04d9af5cfb9a5aad6b
+~ -[CAField name] : sha256 4182d048339fad54cbaac38cdab1afbcc5689c054e5f9d19e57465072ba3781d -> db96cc38e00c2dffc7d244054cd25e7488f906e04bd4d1ff888bc98cbdcfc11e
+~ -[CAField ioProperty] : sha256 1f61e316bbf84a605a79719ef8449e553f649fbadd064154f46f21d7e7bd3eb6 -> e1eb8a73ae1721856467f2e2a8c5c7f784f91983019457efad66e3c75057d0c8
+~ -[CAField valueType] : sha256 d5ec367e7e74be104a454c4167028f4a122508df4ea5d2c5183e7530ea28d3e3 -> 67fafe0be0aa0a809381e0466c5ec16a0d76ee0977434f8f00f8d087fd379eae
+~ -[CAField .cxx_destruct] : sha256 edb5a09993689390b3011943445722d97253936e3861d11a7561a570f1a53b36 -> 1f2772052456e9ff7f16af509d022d3a4966a608e70d66535c9570e3582cf5ed
+~ _copyIOObjectClassName : sha256 50766794a03ff525c170a8c2979ac7fc669ce5e91c3ec28b7ee9c0968b6168c2 -> 7b9d184752fe7e0c5bbff0c539d8e9e31dcba4e49a1ecb3c69e90cc04fae9464
+~ _copyIORegistryEntryProperty : sha256 e5ddfce6517775104806e2b07836ef9237868f2035ab277c1784a859889cd46a -> bb40216af41bbcb07949c33b07c24b5dd5b4d9c25fc25ae5a8712f14a7adda86
+~ _copyIORegistryEntryProperties : sha256 86cdf34275d0925fef3938fd6057196a8a6aed65732d82bf1e11c2372a3524ff -> e7c6174c049adbb1d910e5e5ca72a4245f9e2ab005d94d524e40cf31bc18cd5e
+~ _copyIORegistryEntryParentProperties : sha256 9e434f27d7a0f639b4e4801c1b6d85f16c40d4a04bf20b19cde7780a77bb1701 -> a2239ee8e009dc83b9e8e0665896978caeccb4cc0929c7ae07abf6665c99e893
+~ _foreachIOObject : sha256 7ccc56e42062419f412a921961c06839d1b03ed1c4e2b2c608b0b45a25830e05 -> 751ae97c1950f869c094a36f428b27279e521b5cd1cf938c68cad54b46fb8ea9
+~ _foreachIORegistryEntryChild : sha256 f3ecc9479fac9819274efbbea18e20f107a1853dc87ff166d3cf83c97f009510 -> 93315796220907168e1a6cd676ac07351b5b31ebc6251aa8c5318217c2af9d4f
+~ ___copy_helper_block_e8_32b : sha256 b82030b53a93028efe793b8d992c2754c16bfdc1b4ee487e167eaf6ec640c265 -> 28af132bcf17457ede3e18c2d22d1fbfe411d1d7bbec6cd5ca73671394c0fdf8
+~ _foreachIORegistryEntryParent : sha256 a12d9b7327722aadcb169b6a054e5a318c0b0cbce860c2a030f3b058ad847b52 -> 2fac731e589a21e0e1c7d254061fc56e09e805151aac807f4e2af409795453a4
+~ _searchIORegistryEntryParentsForProperty : sha256 01472057b6901388937be4605c2f3b6741728a359e0f9e74aa4831dc9883beed -> 74053c9f81e277861fbcc796240ae4c5eef743539c5c8497a9a660706787d1e1
+~ _searchIORegistryEntryParentsForPropertyWithLimit : sha256 069715c2c1342f03af630497dc9d1cabde0534d206511f0d846bb382159b9c57 -> 9c02074bc624971a65ba48051543408434f487581c82c68cbb0e4e58a4c8fbe3
+~ ___Block_byref_object_dispose_ : sha256 1899c5fb5071de4f416e36d8058256348c98364ffe4665459532aeba750145d2 -> f60f8db4e78e94c31aecf9bbfd2be36422db4f5b0abad3123f991ee0313981b2
+~ ___searchIORegistryEntryParentsForPropertyWithLimit_block_invoke : sha256 6c6bfc3f829b1e52e0fe0e345b0d5612bf3b73a2c3d0a0826875659530f9ab33 -> fb8b2af0b4d5f7b416ab5b44b42be20b67ba88718be27efb02ff7543bfb5f368
+~ ___copy_helper_block_e8_32r40r : sha256 21b7bc7dc09dc5b6d16bfce405627442565f4a4bc403b66b5912447aab5433e3 -> bda67f08a72fd5999852bdb3a582282b37d6d727e1ce2dcae47b23f7e6645124
+~ ___destroy_helper_block_e8_32r40r : sha256 2d48caa9f9fcce7fa9458d4f0e3f7c5b61a5737eab96e35e45ceb1a27c84c7be -> 5fc3f9e00ea51e5dd0942113536d651aba3a4ccbfa17838f58b6219b07873f18
+~ _isRegistryEntryIDPresentInIOReg : sha256 459dbaf0f7b4b5de930088f2223a8244b4cdb8f7c15a280f0c654f949d42ad17 -> ab4b138f07eafff67be1fef06390ef15ea42556b86b1929df5c072def2391c6f
+~ ___copy_helper_block_e8_32r : sha256 0b228aaf8c58f888070d6f95d4d5cd164b759f02bd2ef024f208d238827d9866 -> 241b6e48e0a8a6b9a416f2d653ab338a3f192561b6f616893cd3334b8f0eb9c0
+~ ___destroy_helper_block_e8_32r : sha256 f262a44dc2909831d0da30f029dbc7be775523f5d4d8cffae08c3cb6e05e108a -> b088df18c93b9a7db18ae877d6a7065519cc7e9b60e27a91f3957d724e56483a
+~ _checkIOObjectParentConformsTo : sha256 4ae8178ad6dd0660c25015374f296b0387e07cbab28089e1b78ab0d3386cd917 -> 70aeec6ae1ed0c7b658dbc796433c81803be62202d77e5a33d5ae6a75879c062
+~ -[AppleUSBCLightningAdapterAnalytics init] : sha256 065ae04f818c9154d02e3aeaeb2747a9b3d269ba96dd249a158fc9196d961184 -> 446199b11a8819c43bc5a192a3d71a9ff3e05dc2b4e46f500d3d3b57a6cf355e
+~ -[AppleUSBCLightningAdapterAnalytics start] : sha256 5b26f7535861b76a69fde004b860fd3a181ec036b738cb2d250829a131607d50 -> 281bfed5575c76b2da8101f7fbe6928c005a18efa66d8578b0f851314f1d9f3d
+~ ___43-[AppleUSBCLightningAdapterAnalytics start]_block_invoke : sha256 4dfe46994451af8557146a43f5b87af551d791d68011e0db617a92ef6132a7d7 -> 9ee4c1616ae9a278efa0d6a721def93aa54dd83196cc6b67e3b2c6d9eccfe8fa
+~ -[AppleUSBCLightningAdapterAnalytics stop] : sha256 aae1f5f62955be7c4f7cdfe4c4ae54d58991c94e62d29e9d79944a000959a10e -> 4654ed22bc6a25c5379b7382b886e7adc4a1f96417a4d4a85ac52330a31d1a2a
+~ ___42-[AppleUSBCLightningAdapterAnalytics stop]_block_invoke : sha256 19b051ff700ad0b0b1dd384d4b47470a39fe1439c95154698ec82ef022072d83 -> a099f8affb4f025995a446e406cba7434bc9e06ddd6921de79e4df7361cbb761
+~ -[AppleUSBCLightningAdapterAnalytics _startEventMonitoring] : sha256 c803cf81c23105fe1cbadff454fb1cbca25252ea87d673047277c72894710150 -> 59e651342ef70e076cb10146eaef04703f0e4842398792b1fb3ac90db55ed832
+~ __serviceMatched : sha256 29ae02fc9412a58f28aca118576adeaa318310e83ee8bd2189e2765203893cde -> b269d416513bce2f4c7f54acc2e9e764ba9f3b1f36380bc13e0c270314a7a223
+~ -[AppleUSBCLightningAdapterAnalytics _stopEventMonitoring] : sha256 02818ad486d3be65ea39fc0f8c264026258172dea0bb95ab4b78b6d7d066290a -> 6ddace3311e483d4d49026fcf63c43990af250b9f01194f57abd71a0d6a6a6b7
+~ -[AppleUSBCLightningAdapterAnalytics analyticsEventsEnabled] : sha256 6f0cda9a093eaf352ba06ae8c3dfb83deb42384a3ddc7601c1b1d4510cb7e436 -> c51367319b1f5f4b2a42cadf997170b2876b58a84bec5966cc466c8827b10f92
+~ ___60-[AppleUSBCLightningAdapterAnalytics _handleServiceMatched:]_block_invoke : sha256 202481fe9b86825d81e1f8cb050815a3d71196c3d5d089f89b82364052f2ad51 -> e71c51daf6f2fec85a9b93966d5556cb113161f0323ca962c7fca31e3344940a
+~ -[AppleUSBCLightningAdapterAnalytics setQueue:] : sha256 baf260226ac5c325f5038114669bb5af820f04b0ac5d5c15fba860d06145be65 -> 31e60c84a26047b401643202710ea7e1d178e7a8cd39e7fc093da11551861b6f
+~ -[AppleUSBCLightningAdapterAnalytics setLog:] : sha256 c39b00c7bf2532ffb35001ee4b761e21cf4d5f2ae9d2590bcc394b79ad4d65c9 -> 51d4a127907122338d3d258857f4f27b17de5fd69bb0891c6909ed5ee3aabc64
+~ -[AppleUSBCLightningAdapterAnalytics .cxx_destruct] : sha256 6db0de7df70e87b3a60db6d3a32b2e65fa34be254b14bdfc77d26312f24e464f -> 600b64de2b2d66028af7f1102a2ce3d3c38fc19270571201cddae138f5c97ea3
+~ _OUTLINED_FUNCTION_0 : sha256 f76a827980a77a809704e0d95cb1f9cb13f21743bab6611d8a616b19b95f07bb -> e33a80f60fa01a05fd94d0a3c3e705299d9165eeed9120520848f646152c89bd
+~ _OUTLINED_FUNCTION_1 : sha256 63c53154e667caad1178a41b23484cef279ece77153fcbe1a564bc3b0be364eb -> 82c162f9884f8dfafff44fe36cce8f402f93b275e699627bc0b9352838d1672a
+~ _OUTLINED_FUNCTION_4 : sha256 a52499e448e34b9aa2e121d317b1ca92ef3f198f0f77b2efe05159929e132902 -> ac044fe5799ac46ad4f38c50b4f268ca775c2e1f718b3bd41d40d61dd576e6a5
+~ -[CacheEntry routerID] : sha256 02f6dcc005d606172eba4654f946f67679885ce42c0e34a672acf1dacfdd257b -> 33e15cfa524c970b2f3ac75bf60c399eabf4472b3d384df7da24e6d03af35e3b
+~ -[CacheEntry setRouterID:] : sha256 71b090ded84c52f1457b83b13a0a0031e575de13038d95c4f5980b065f02ffa1 -> 89ffc589bfbbbf13dea8dfa5ebe1e768b79f5c9c2a78c5fcb869c6fba7f74b15
+~ -[CacheEntry payload] : sha256 0b8e5257c0a28c165089435d8c46bb6cc66f92073c355dd6a68dc27cc204ecad -> 4bfa451f73b75b86edb91d8e6e0a6a6d60c0cd0b7f4ea432bd9b7f11bd033c8a
+~ -[CacheEntry setPayload:] : sha256 9fcc388df6edf05d6496e40398a1a3520ab50f08a412d6014913d82a6ccb0926 -> 186a3f23263015a4c4949241ea907621e0279e270edaa21f7a760ded5d311253
+~ -[CacheEntry .cxx_destruct] : sha256 7acd1d81fb68d10844ebc5e1bedf28761abd8f20f8549df012a962976a488f2c -> 3ec0375b4fb93d6005c17627ceaedc2560e8678947eb01bd2d1888c319646acd
+~ -[IOAnalytics teardown] : sha256 bc86eb7e75dcd800017cc621674b317ee1728957541daffc3b7cb8a7fa75ed49 -> 9614e37a3bdb578df34693bbe91cb77e7acbcedb89bc16bf2c92617b2678b533
+~ -[IOAnalytics dealloc] : sha256 73d20c6f7f72ab65b9760dd8c35112a293475b7c351df2db67f18b3385795011 -> 289d9b61b76eb1245f66111a9c15287f0fcc8320f0036b9c9394ed201f3811c1
+~ -[IOAnalytics init] : sha256 f77040fe87a910478a6cb08d2a0f77f851d49159f78b23ddd288b50326a2f79f -> 1e1bfc604179a7a8f4f7cb4e3387aee5987f135cad31ee33662f496dcba7472d
+~ ___19-[IOAnalytics init]_block_invoke : sha256 7cbf20243420192dd2513b79b9f23588805cb804187a88e86bd5e2eb863d5978 -> 34a323b73b2ab4c64cf19fe78277e10eaaa297693ca72594c959a498cc4f552b
+~ ___19-[IOAnalytics init]_block_invoke_2 : sha256 a2c86b810303ae87244cd71a48235aa682a7c429897136f138190720863b30ae -> 77cb39f3e11160fe1d30bd7d273f3cbe40cb538fa577cfe9f06b9cf4dbba37aa
+~ -[IOAnalytics setupAnalyticsConfigObserver] : sha256 333828ef9446763c34a52cd9b8ad20a2d02bfdf8c2f24dc23b73d9c96fb1f69a -> cf699b28ed4b185524159c12a451f782a21d2b8a53f180863f88c6f3eedb6678
+~ -[IOAnalytics observer:didChangeConfiguration:type:] : sha256 1aa2bbaef40a49e77249fbb3c2da234dbac26b594c11b2379d8f2347b87eb7cf -> 26796b73bfcd110ebb15f76b5605f8affd6641b6a6266bf0fe88c00391bb1c0e
+~ -[IOAnalytics lazyInit] : 1076 -> 1072
+~ __23-[IOAnalytics lazyInit]_block_invoke.7 : sha256 d193f1de1a2a0ccf15e43ab31c4e21c1d1759d98b035eb289f271bd1dae1410b -> b8e1799735e4dc043fa6f16390358785796403b18ed2f85e8c9b90b27ebedc64
+~ -[IOAnalytics registerMatchingNotifications] : sha256 e908d1291d310b58ead82e218496bce6a2bc98686450b2ab640d9075b1ebf582 -> ed95b489fd13d1debcfe9ec4ae397d197cb673a69972c0609229b14101a47226
+~ __serviceRemoved : sha256 5c50fb0e7252d2125b9ae4a24325eb8511cc6d893d968e87aec52e577efccf26 -> 6e0d08999c525b4207dba9ac4197ca1c6cc16b2b951eca2374ef052adfbceabf
+~ __serviceAdded : sha256 782df8da24e9abab6e0277dccc800a4dd1201f3c1ae8c7ad6a546a375f5a97c5 -> f353621a67eb8f8d95b70e53875d306396675a0489afac2fe5a31ec0a4c05e20
+~ -[IOAnalytics registerMatchingNotification:service:callback:iterator:] : sha256 6122fbbad7932f1d91692b89f96c2b9523d94b242000f3ee31ac27615c431918 -> c29a1066173e2431f8d8548cd8fc92c12729fcb981774e9ead9b14a5babb7aed
+~ -[IOAnalytics setupDailyHeartbeat] : sha256 59d00691649e3804a873825cf8c8d36b649a1add7d3518d4528a7d98544f2338 -> 89458bed7d219d219fe6ca110ded29a59581bbc25dc631fd567440471c3a4699
+~ ___34-[IOAnalytics setupDailyHeartbeat]_block_invoke : sha256 dacc99c56119ad196bc81126e06b708ed45908f42a94ec5f8788cc724c55ed9c -> e61544ec76aaa466da85c7195d5bffbc77fce29e54d2b705b2d67e755aee9773
+~ ___copy_helper_block_e8_32w : sha256 9104829f8c3ae76071ccf3c8a6ca1fb5a7e3ea7d1da5d629ba18ff77ff58feb9 -> cf27b35e1919e193a9ba9806ff248638c46c731f23f0964664ec01c122e61c88
+~ ___destroy_helper_block_e8_32w : sha256 18c57fb7f89985f22333a842c2baa745c93ebd2417d050235b6a9dff36f84298 -> 2d40c7f9928b66ec8c7ec2b33b2b09497ad2d4b24e68b1c598c328506090920c
+~ -[IOAnalytics dailyHeartbeatFired] : sha256 679b29fd8339cdfc2f79f645bc30f713efbaa2274b063c66c9666e0fe48a60cb -> 8a352686a0e986c771cd854c31a3dba68f98771d5dbca8b6dd3e6cc15c131711
+~ -[IOAnalytics addedService:withClassName:] : 1036 -> 1032
+~ -[IOAnalytics removedService:withClassName:] : sha256 9f4e45bd182d912e716493e84d44b44e67e4618195617a4aaaa2ba8c6a90710d -> 2a955a13a137334a7c9be842fce9cd330630d3ec74196129afb02fae15928100
+~ ___44-[IOAnalytics removedService:withClassName:]_block_invoke : sha256 9f217edd0ee36f46ae85c81ddb005071c9daccfb92b0681d737743d30d597d03 -> dc29fe53dd8504209248881343709f338b0f2c7f806d466297978f412e6061c7
+~ __44-[IOAnalytics removedService:withClassName:]_block_invoke.91 : 412 -> 408
+~ -[IOAnalytics sendDailyEventForService:withClassName:] : sha256 f1b71c96f7ee251c8d92fb61ead012a473f64d2a9835e3cf45eb9eb60bfd7594 -> ee5e8ce4f9f03ea48d724b6f43306dad549e9c7413976001874d16f787b526a4
+~ -[IOAnalytics payloadForService:withClassName:] : sha256 4fd3d94af30cb4132afe5e11657f5b2972017ee8f6c9c420233b411d1e6aedfe -> 215329736c9435eb605a6fa92e9180384cad55a0395bcf016a4cd11389f2758e
+~ -[IOAnalytics captureAppleHPMDevices] : sha256 71dd5ffdb2878c7459d204703a6274e74b250b89fdb9dab3a926c209e503738d -> d74dad855e51cc6d36ce82ce0bdb824fa96e00e8b596874840c14eca3fc5ada4
+~ ___37-[IOAnalytics captureAppleHPMDevices]_block_invoke : sha256 64252ecaabac04cc8f496c7b1a1fbad53f750297b5502eb046e2caf93bf9fb8e -> 93e746982eacdc7d583e8f439fc433cf5cb8ac28f40765477ab1432aeb0c38a1
+~ -[IOAnalytics captureIOUSBHostDevices] : sha256 7d4d6ff113106e1c34ad6713555d73a63a5a529c5506989b57f6331b4808da70 -> 10232ba24013639e4bbcbcd497cdf4ef866b875ad4584b29ecd5b5068718badd
+~ ___38-[IOAnalytics captureIOUSBHostDevices]_block_invoke : sha256 4d22800f0721e19cf72bd42178a52d6c8a70f0444b031ef08d2954e1347b1737 -> 943577941e5e8e8e3320cfbbc4b79b29b5ee7464f965a2ce00246dc5e1a21fe0
+~ -[IOAnalytics captureIOUSBHostInterfaces] : sha256 d3a28f002f4c458ec7509b638047fad0fa0b78f9cfad26d4d0e127751a16bba7 -> abc49158e24f7c76b73f700795bab48d7c5ce3b41f6cc36f2160ba07b1f2846a
+~ ___41-[IOAnalytics captureIOUSBHostInterfaces]_block_invoke : sha256 9e5cdf2b58e3d9c371860ba752578137e2dcf1a612e2689fc5803331b0714ad4 -> 310419b8fcf73b5add713c6bc79d3982167c45c7dc6ac4e4ae5a9915f06cbd1b
+~ -[IOAnalytics captureIOThunderboltSwitches] : sha256 5aaf751f7c16c5e237cd999fb27f330f8989450e0d06c286a2e85b4bd3843ed0 -> 055957f1cb99fbdeae5f60ed21f2d88d9d4b17a2864186c0a129e3b59a98fb42
+~ ___43-[IOAnalytics captureIOThunderboltSwitches]_block_invoke : sha256 a9a02cdfafa39285fcc4c62e52c3ead7d93fb096ca654b56123cb9523be8d790 -> e8cf1736b8d4123bdae7745629b5e8c9e3c333aa324629abb4748703b533ab6d
+~ -[IOAnalytics countAppleRootThunderboltSwitches] : sha256 215c44fc05f107badc6dfae5ae65bf7f0b724323a4ebfbfb91e1cd76a073d596 -> f68501222236f4ea27d3f14f60199b72d41661c24a810b0d54de3db9e3d43e0c
+~ ___48-[IOAnalytics countAppleRootThunderboltSwitches]_block_invoke : sha256 dd169d3068894250000f17265789114127b46b204ddb3583630fea5eaf345dc2 -> 0862287d17c494b0dfc768447dd315750a69d06e02cc4dd59bdf82fda6a57a5f
+~ -[IOAnalytics decodeUSBHostConnectionSpeed:] : sha256 98b3274aa273cbbe1a33a80d796548e9eba8d923fb56500be8ca3c534e36e15d -> f36eb63d37255b7d0bc47600dddc9aa36d8b661e9e7034c83f9d5e1a831253d3
+~ -[IOAnalytics decodeUSBClass:] : sha256 305d34564801f275ea13b500acde4f3ec2cbdbc60ec72b2c84bb89de97d3092a -> 01fa79945630171a35c1f4d133a6a2608974c2b2d9ea0f0ea6b694f735742e32
+~ -[IOAnalytics isUSBDiagnosticServiceWithProperties:] : sha256 ea0d99403f39228e86d7eb157648e8d01fa974800b9b1e8e4eff38c1a4ed194d -> c9797f173f30ca6d6918223f3a14d04a8821dc7798bc879f4f5d0d5315780591
+~ -[IOAnalytics isUSBDiagnosticOrDownstreamFromDiagnosticServiceWithProperties:] : sha256 755300c003dedf3f1a28fb5e2d06f55c52a7cab0b5b05b9491f37e1ac9547195 -> 699e46e3574067d68628cac410bde0320e8c57bd073cba9c14a7b3438fcab342
+~ ___78-[IOAnalytics isUSBDiagnosticOrDownstreamFromDiagnosticServiceWithProperties:]_block_invoke : sha256 ea7d87febf6fbe549c06c0eec5ac1d260fc7675082796ef9be6d3ead696ed110 -> 2d1264bdd0c57da1eaaf5e93fde3b824adc22130b6938a6b97e3c700c99b759a
+~ ___copy_helper_block_e8_32s40r : sha256 14955193cea041635c5b1e5df070fe6883a2ed3d565eb5f117720b0864afa0f5 -> 2a68008ed3acdd70f1f3f7f4b46a8476496dd5bcb0002f8860c540b034d3175c
+~ ___destroy_helper_block_e8_32s40r : sha256 b465eed44115cb72ca4da0ab3f762a69ddb52e7d337c4a1bced62bef8ab22651 -> f54e241ccd82051c7f83479bd522da2b984fa0f6aa808b1395b034592e22e951
+~ -[IOAnalytics createMetadataFromIOUSBHostDevice:properties:] : sha256 92aa5d5f005b14774a38638324fb652538f838ec78f2cd2c002aebce7d6a2923 -> 6ff4e1769a4ecde046506c3e7a8973b6e9814e55bd31ff2ccff16925b0b1cb52
+~ -[IOAnalytics createMetadataFromIOUSBHostInterface:properties:] : sha256 62c6f8784557c7dca9cc9500fbdec37a0d34585f316c2a1818058977520cd266 -> 651afcffc58640ad608b675a50cb4a6365c7c062b8af4d6db780c61397704d7b
+~ ___63-[IOAnalytics createMetadataFromIOUSBHostInterface:properties:]_block_invoke : sha256 5eabd8a18810ba7d18de9d40eb9a17fa389185ed45c17c8a94b006b73c8c6230 -> 8dfb0da3d29cf072bb3869234cd6187d8f869b00d69d0ffa3f7907f23dc304b8
+~ -[IOAnalytics createMetadataFromIOThunderboltSwitch:properties:] : sha256 8c7b4ceb781daaa28e2baf671d4b804ae26420b6dfb480d212535f9c3c2d4f9c -> de36abdd9edefcd1aa5cbdc9ad40f741d6b744ef1fd6570ac1d1c1a436544470
+~ ___64-[IOAnalytics createMetadataFromIOThunderboltSwitch:properties:]_block_invoke : sha256 d212b9172c74070bf2520adcbe7b227fad3e343b1ee58d967f06cd38c2e75ae0 -> cdcabefce05ddda7c2485ecb38a20a83ce0e6243b0165c6ac4faf8aec767ef13
+~ __64-[IOAnalytics createMetadataFromIOThunderboltSwitch:properties:]_block_invoke.294 : sha256 19d9c7206e9c6fc451f2514dade13267b9abadd57e52b0eafa3ae2995e7dfd7d -> 3bfb9f2666b70a8a1892590814696162c0ee723a1954cddee4bda864ac0f73a7
+~ ___copy_helper_block_e8_32s40s : sha256 c0f0dfeba46afb8c0bf8c2585a2514988e5d34e0550d250df6ea50099013c302 -> 314f73e2d1d9e9b75208e1995bb41eb26802af05b6b910da8139d09d08abcfd1
+~ ___destroy_helper_block_e8_32s40s : sha256 6ce3b211729206af40219ae86327659a3c4d5fc83ef5dd54263e7a1fe6e926e1 -> d512fff6ad11be2a6372551c99698a4a57d7b561a51a6992563b421bd1605f16
+~ ___Block_byref_object_dispose_ : sha256 aff39c042709cfe235faf9126da920d144409287cbf7dfe423c99678a4ca40ba -> 0ccca2bbae751c809b93e53d150c049afc932182e346f504e7be2ceee8af9d09
+~ __64-[IOAnalytics createMetadataFromIOThunderboltSwitch:properties:]_block_invoke.298 : sha256 c9732a58cfc6a6b68cc09465961fe886d956e3a7d1c1db350310d00d7744153f -> 137e33b2bd28188d35bd08345355a504076b94523af7e4789c9582d6d97b5f7c
+~ -[IOAnalytics .cxx_destruct] : sha256 d2613ab1e571b8370e802ba0badc80dde26b1921de870ad5876c9538c55fe35c -> 0d2132b45d78ad1f67023cf1e9b636e38455a9768df4d58e0a96e6c816f006ef
+~ ____serviceRemoved_block_invoke : sha256 de4d6c9100a016e2f4f34b75f8b797825a4b5308ce03f7b5072087ab450ca860 -> 0171489f122f20811f6a56f230ff42dbd7032037b113b02da0a4ab3b38d723ec
+~ ____serviceAdded_block_invoke : sha256 1951f507adf42c84df4ac34c261a7a360b77dc3f8647b51bcf163123e7894f0f -> de5fa613a1d7c1b44d127adcd1845a69d6394bc9db6898b22e027b883fad8db6
+~ _OUTLINED_FUNCTION_8 : sha256 8c73e0ff4bdda780682c7325d49a9faa31682b491d7a343ed60d1829b061d736 -> 57bb0687292f9a53eac66eab8dfb7f6aea90a1d9a2ab22f05a4fe2c7ecdee08a
+~ -[IOAnalyticsHIDSessionFilter initWithSession:] : sha256 9266e0a51d6279ca96925054b835bc9a38f235438a3a88be86234a559d6ee182 -> 1423315086b1bbe8ddbe95706848b8017928c20980f6ee366f6fcb07c7fca2b5
+~ -[IOAnalyticsHIDSessionFilter dealloc] : sha256 335c20809bb16cc57d295442ccbf3cde141db36e31ae234aee8a1a89238c67b6 -> 775cc858ab087bfb7f5bb208b6097d1b0b765b04632fb3a3c5a86672a98f876e
+~ -[IOAnalyticsHIDSessionFilter filterEvent:forService:] : sha256 259363f28f34596c560b4a7b185e2b8972643fb3cb0e3be04229b68f9f266168 -> fc7ef01393d57f10a7aa3d860a3dc3905a03e379205e513e42ef45d9b65e071e
+~ -[IOAnalyticsHIDSessionFilter setUsbCLightningAdapterAnalytics:] : sha256 c33c39e3e93cb5e8b4331534b0d2d697e81c12ca82e80f4edc3515e1458308b3 -> d7dd195d9330fad47d53b794cf147a258793a5b5fc5d3479b97b6157ef3e714f
+~ -[IOAnalyticsHIDSessionFilter setPcieAnalytics:] : sha256 8937e40eac192e36ad3e0d3f45c280e4bcba712a332b4e28315c3a0ee976cb35 -> 953cffd081e7e5f320f7cab9716ff8612f35b5928a2f8f127b92edcbbb19bfa9
+~ -[IOAnalyticsHIDSessionFilter setUsbAnalytics:] : sha256 64f935f00b824f33e0d1b3f824fa59452351db37fb3614153eb4097b2310be94 -> c391519c8226242e93f7d51cb99cca1f949895fb70486ca6b92e28d7d26e2218
+~ -[IOAnalyticsHIDSessionFilter setCioAnalytics:] : sha256 fbc593d9f309e6a1c1f50856d6b06fe637ca73d0464848447c2f85f6f088384a -> 505bc3dbecf395b3b3b8329f8b29cb12989590acb33efacc953e2d384edc2e8a
+~ -[IOAnalyticsHIDSessionFilter setDpAnalytics:] : sha256 c95642cb3e915a200c6f89b5d3733e88bdf497b58ad3662b6e1c4141de8f1aa7 -> 285ba05d4a3890391b415263ea19b2a1213dc0fdf5ec15ddef3f021e6dfa8b22
+~ -[IOAnalyticsHIDSessionFilter setPowerInAnalytics:] : sha256 5fc18e731a3cc310ca56c14fea8c0600111c89af8e707863cffe6ff96d8a823c -> bcafd620e2d76dfd5ac46258a0f7386ad11e55189a27cac7ea6854fe6b6f3734
+~ -[IOAnalyticsHIDSessionFilter setAuvdmAnalytics:] : sha256 48eeb165a7eb5a9d27e5086a95e98309bb1c6f28b2c5a74e973898e96f472339 -> c806655ee3720ae5aa6175163b3ad9c77c1cc4262ea23b29818eaf17acb893b2
+~ -[IOAnalyticsHIDSessionFilter setUsbpdAnalytics:] : sha256 3df99b2888550db782f027702b8414cf2e78a55782fd8a5621d58f07f23e1658 -> 2c45c950198772c8d4444966ef243aa53f5e96aa0c7ae4c06740d696ed53388a
+~ -[IOAnalyticsHIDSessionFilter setFirewireAnalytics:] : sha256 4a487150096baaf2f02d7d09be3801feff5a570181765a7ce44230013e61332d -> 693f8953efd726c4e0e6a11c7b3d2c4b787a6d69f490783f6e57ff4fa4958d88
+~ -[IOAnalyticsHIDSessionFilter .cxx_destruct] : sha256 fa3c58e332e4495b283d8a9a09c24ae9ef053cc3094eafe5736f0980d131b595 -> 4a7b9ccc55b4b0f0b5c9eb7d87b5a9de812f550d7eda1d2cecea7b5da2646fec
+~ -[AppleFireWireAnalytics init] : sha256 88e8f8f4ee6193dd27faa4f2ed055461ad5e1bd6c196ab6e4efdb192a1c3154d -> 224bb78f003d4d90394b9cdf2a49f4a07c6da903891f572c84fef6db7494a3c4
+~ -[AppleFireWireAnalytics start] : sha256 88e296c5ec5d637161ddd49ee8b689500a2b06bc690b738a18f250189dbf4ff6 -> e1ea63ad1e0230eac9837c0c712545b8d0cc1ce87daaff09c1bccf3f512138d8
+~ ___31-[AppleFireWireAnalytics start]_block_invoke : sha256 ff61a3b35f9337f5fd7ae1a5b26612c03519487718b18f9f1e7e9302982fee48 -> 04248241409c24897d338001620322eb893c815d34f7eb8812cd04c028e5e9a3
+~ -[AppleFireWireAnalytics stop] : sha256 c14c56d6a305cb45a39513b99045c449a600e0ebfef4ccf932fdab254d77131b -> 64d8610ba028966f7334543a46d71d024bfefd3993f00fa340901f62e17748ea
+~ ___30-[AppleFireWireAnalytics stop]_block_invoke : sha256 d9a91adac3da6b9937c043cd0691a8b6290bd5f8dbf0414271afa4a30c91caa4 -> 2b0e1e5feaeb5b6ab0d31641db43b9a72054a56b5005f2a7c0ac38dfdf47c2e3
+~ -[AppleFireWireAnalytics _startEventMonitoring] : sha256 0844c642b9d215b3f76e8b80c27a76210202d0b1f4b515ffb4b1d1577f4f532c -> 8ed006688e83d0b01dc1ecc290afb86f9d555ff6cfccc4685824c7749812f4d4
+~ __serviceMatched : sha256 dea2c9e83c5d8f0d0334c152ae4f6aa72e5e40fb017146b24dd689a2ff9eec64 -> 246c3434462a0a2fd261eea1501399cf62c56ee55c45751caf9024a3df81038a
+~ -[AppleFireWireAnalytics _stopEventMonitoring] : sha256 f66367138e26b2a8b26881e038ffd528f6a9ec5c43a68c94ec636d388a75aea7 -> 0687de77b52ee35737d0018000162fc1a45228e98a8b064d431b6c6b161f2d0f
+~ -[AppleFireWireAnalytics analyticsEventsEnabled] : sha256 14c97de51b7ff938ed9d358f108427d0a99e68d1b93d35504a0fc271edc5f146 -> 07bf3928113be40ce844a2b0e23408ac81521694b84ae1d6c308980508d2bf10
+~ -[AppleFireWireAnalytics _handleServiceMatched:] : sha256 44418c6b471a114c7926f0a411fe0de81ba8f5448930c252811180da121b2429 -> 0304c83a870e5215c3d9871466ab6f421a06230556869add7897bb51d8e21f37
+~ _getPropFromReg : sha256 22d35a72b4707ca82c5645ae0b99797e87a8ac6e03df0aa62b4c98fa35e7abdb -> 565599791fd513f1c82e00389f9ada121181d22adbd48bb4abbdc45c9eb97f62
+~ ___48-[AppleFireWireAnalytics _handleServiceMatched:]_block_invoke : sha256 f75f0a8c1c684bfb1584dc2a8c026842ce252529888fd2f53558349b126532b4 -> 137deb19bd4c2ce4f72e6d70cc60f655918bcd111e7541ff2c0ffb2fc5f31b2d
+~ -[AppleFireWireAnalytics setQueue:] : sha256 bd4b1fba339e49b308d7f35d840610a101a82bea4011aaa20447c11673df1925 -> bf73d72ae70ed81fde36d043535c2ba3f161528b79cf3226b65be883866ce44b
+~ -[AppleFireWireAnalytics setLog:] : sha256 9c37cd91366e209f24172e7842188440ac0d485004cbe99956ba0336ffbeefc7 -> 97e80dbff0cb185aa22273d61566a478154fb2fcc90eb9d749da7c4eae996dd9
+~ -[AppleFireWireAnalytics .cxx_destruct] : sha256 0a468091cb98982e1c686844268f198eaee59c994b6b8a318b265e0db867197c -> 028b064a0abc48be1e4d7c9ba14130596fca5612cf499527fc604902dc379a1f
+~ _get_kCAEvent_USBFW : sha256 aafe347916dd98bb311322090e911c3a623dd761c5fcc3e2929d93f91317fe7b -> acff44a30e93600aef26fc874e5814cfa85a17618ca7e41a9a77b7f3b8028a8d
+~ ___get_kCAEvent_USBFW_block_invoke : sha256 1d775f0a06fa009d89f1eb903d2f294b66f57d1748f0c2176fdd6e4bd65dbbb3 -> be759a55a8d0487157377e5f9648c82fa4dc605f1d862b9814b50f74c2852d79
+~ _get_kCAEvent_ThunderboltCounters : sha256 bcaf423225ec87580223af485cd7826518b179f9d34cc8bf9a4864c59943f769 -> eb38f82baf3bd4f629b4cb33c595692dd0c270122fe5080f8568ea4e1691eb4d
+~ ___get_kCAEvent_ThunderboltCounters_block_invoke : sha256 6b3da3d08667be0f20e31093866bb15c5d886e9c50ab6d661a5abe891afdeca1 -> e616a87337774f7d14182123688cd811359e7c2103ce987c2d71d5af490bd8ed
+~ ___get_ThunderboltCountersFields_block_invoke : sha256 4e986f174b1b14c00b5c2a9652db2b552d1b1e0728ced13aeaa4675e8104665e -> 271c97865e8c1f72edf281dae5bc4c9eddfc7ec5c5aa36a4da2d74d6ef295878
+~ ___get_ThunderboltCountersFields_block_invoke_2 : sha256 7b8779c22a3996be05f249380f54e40f5cf5b44d46fa550ce4d11d27f2d74f32 -> 48ae43b5580055b37483430e9d207bba36ef8b693df2e832c8ad61d167effd16
+~ -[USBPDAnalytics init] : sha256 14c3226e422647899242989f628e11eb82841ff2282d393cea5524087d9d197c -> 63ad772ee8dc4c116c118bc2be2e70ffb37d69aa4d19212268ec8c19192e79d1
+~ -[USBPDAnalytics start] : sha256 ab4cdfa1bc97f5990d24913d7ecbbc78a2d5c587710097eaac6e5995129f8f9e -> 1a0bf7d0ad8ab0b108863291a4e5e13d573ae71adf8744bd4778b5a0ab333386
+~ ___23-[USBPDAnalytics start]_block_invoke : sha256 4750cefee1d1183d6ddd7d915c61c20d62d42273a5b13bd46e39fc9638c79881 -> 53862947f1f2918cc44cbd8c8f1dbf3204aa323adc4de7de25caa734df0395ac
+~ -[USBPDAnalytics stop] : sha256 7d92fb3f85190daeddad22d011cec9bd9aa544c3693454e1b8965ddf496ad659 -> 5563d276d58a9d2ba807ab9a98d928331568d52ac353766ac757f779100ed7dd
+~ ___22-[USBPDAnalytics stop]_block_invoke : sha256 63b68ae56320de73892964a4bcfe571d0d50de41d2c210b1b863ad3ecd5a21a7 -> 20ad36e726852e8a6a076ac57d11906134fd3de3aa0895c3062b3eeac7e49fcf
+~ -[USBPDAnalytics _startEventMonitoring] : sha256 bb4f76aa7d34fb4e8ef4c7401a1df7740c2e3fd31b3c74d587f03021693ce691 -> a3cc4af8ddceb6fd103eda20c1f38e009bad035869e9c0151eca2166c0f342da
+~ __servicesMatched : sha256 ff2583c562feacbb23765e710fdd8bfd3e39be163b7697ec35a984c96c6577a9 -> bb4cc3d641ce754617385954931c7e3182dd0e75f0b9e9389b55c19b0dad8dc3
+~ -[USBPDAnalytics _stopEventMonitoring] : sha256 ac1e32c3cc713cdad84f03889cd76c9b4329cbf4bc29ee90e2a4091c7f43a621 -> 789f125e754a8f8ed6fd526860b74f4b7aefe48f33e8c3d78e6dbee5d2a6a619
+~ -[USBPDAnalytics analyticsEventsEnabled] : sha256 dfa0866323fe5d77f80e7797f93332f39649aa8e9771a2c0243c8c1fe2b35619 -> 22afe5d3195a4efecca3d07e3ae3e67915457bb02a5fcd1ab3da5634cf47f73e
+~ ___40-[USBPDAnalytics _handleServiceMatched:]_block_invoke : sha256 2f26fbfec285e15a4713b0b6636e093a475b50a33bfcca721939ff07a519afba -> 5de730479ef32e00c1fa4bba9afff5595472f10b14a4d42e7e339b961ab70f52
+~ -[USBPDAnalytics setQueue:] : sha256 8b15262da8a4ee4f018f3c93c8529a47bff790bcef874a768d349e64c8c57ffc -> 245ed33f17542ea53979a6ed48d468ecc6d1cfc2a84bf03225642076fd52af94
+~ -[USBPDAnalytics setLog:] : sha256 bf0c36b8df488dd822b58bdfba77f32ea7d7a20e9cdb904001cb71e669fcd994 -> 9db6127faef2e895a0929b7f84d381e77a6c4e224e667e692b7c056be349bc1c
+~ -[USBPDAnalytics .cxx_destruct] : sha256 44ed44ab4b5dc9d4f154b389d62c5e5564d544bc2e34eb5540dee23ca21d4d0b -> b78abeaa168db28414e27a6f4eda31901313ff3401766f02ea3c6a3987f31f1e
+~ _OUTLINED_FUNCTION_5 : sha256 ca96c49ae6bb226977d85da7eb93f7d0774205dd9b41061367bd32f2f7dcc808 -> c43657559187e90a5007dd07700ca93399a7c348b82995cc5d35fcfe30dfe0e5
+~ _OUTLINED_FUNCTION_8 : sha256 cd269160b148e32a2830ecdaac72deb3a246614d54d271e6e507a5f0be87f073 -> 2d0d8fb2d855c61c21bcd1272f0d502777a09f40431a9fae8f0cf8faf3085596
+~ -[CAEvent initWithName:fields:] : sha256 895a717bf8b45d6af99aeb5bb86b9bfb9986f88db3524b7844e2a42e889b7158 -> 15c980ee523a7399f1c95e53474217bbb06418b4b8bf74d8a230da6399a73ebe
+~ +[CAEvent eventWithName:fields:] : sha256 bbeffa53503a01f0d04b4928505fc0109e6dfca2938c957938a9f83e9af7002a -> 76c99a6aea09cca0fdc3fc465ca3d79496f1050cb05c081859d29ef697c59fcb
+~ -[CAEvent createPayloadFromDictionary:] : sha256 58879721f7e2962a6abe369f5e2573ca60930d326175c8f20a130c5562c3c91b -> 178b4bcc5aba5f80f8b66e1226b46a1f38d25212120fcef8584c66c6d50fb73a
+~ -[CAEvent isValidPayload:] : 1136 -> 1128
+~ -[CAEvent sendPayload:] : sha256 53b660544f6f5984f8fa48435995429324ab2a988f4c87f1952c2acddb3d3aa9 -> b4d704010fbf94e89c08c6243e4132b286461029a916378466f5e14346bb8798
+~ -[CAEvent name] : sha256 e0a5d993b83ed1cde8e50da84bc7a2bbccd0df531252542c13e38a81ecc1614e -> 4caa909135335c63e7bc3156179f7bfd0bce2d272950e815761abd2e3d15fd6b
+~ -[CAEvent fields] : sha256 ab5917aa44b3eda5e0ebe5cfce0a657ce3e5e4711f41c11475aa907f556be97e -> b20df668f30030a72ab8537c572f1c534f2c97c784cf3503f24cf2af275d6e6d
+~ -[CAEvent .cxx_destruct] : sha256 a43dea7621f8a72750ba14da0db1778273ec7c82f8522d95b94b3f933ecccd3d -> fc8a13f50f56903f8b3de8f7124f078bd16b13e04e0064a3750d43cabacf133c
+~ _get_kCAEvent_USB_Device_Daily : sha256 b81a83db820b778be9c13d0d44f8c48eb6e5d9394074eb9940f75b79c7825e3a -> af2e014cb235a2edd3d9cb003e4df549bc37221d790bc4067c73c420c3eda67f
+~ ___get_kCAEvent_USB_Device_Daily_block_invoke : sha256 3b799f1cbe953bedc476602a61ae633631a2e2be3e973d39a44511145ec48b71 -> 8f2dbb2fed6b11158ad88d389254f39140e0b51c57065d010ef00c4837349048
+~ _get_USBFields : sha256 20be923837a2d2a18098ed52105d6e9870f2122b368574a7c5a648d1a0f7dc91 -> 99fdb734c2264cd485221c3f706c8bbb3fc42aa7779305b75bf823e441097397
+~ _get_kCAEvent_USB_Interface_Daily : sha256 c45c9129fc3e04a708c70152ec7d119baa0ddbc96273aee4d09d5648e620bddb -> 0f8dcb139ac6694c28229c1dac82e1b3638d25bb4b5782841ef93bbd9eb73a08
+~ ___get_kCAEvent_USB_Interface_Daily_block_invoke : sha256 d6c04fb1f397818896785a1847d4ccd9faf28a4c380b8253a8af947221f2a7ee -> 4069f82d9b45bb868c35691612835e67aa9c29149e4f3a6888f8e031d3b10263
+~ ___get_USBFields_block_invoke : sha256 ed3c509fe2e0e9ac5acd0ef3011feeffa4dcb86125c3fb06d5d5eb700e105ca7 -> 49d5028822f56817cee5e60b297e48060c87865820eda97c603eca141420b87b
+~ ___get_USBFields_block_invoke_2 : sha256 1117ca40fdc9df241e9b241d30a9b2c915cf892443cbed0702f2753c9323863f -> da6040416af99d0d2d653cf15965f93a6a1e078a6d616629043f0ef88652ea00
+~ _LogIOAnalytics : sha256 aa0c61f1969d59723c7d8c97772a4592a9159f16e79d43cc4554e29dd6561ff3 -> 922ce46f3ee79e8e9dd1305ca2af8837ea49f010c8396b2fd580a7371b3339b0
+~ ___LogIOAnalytics_block_invoke : sha256 7bcdadd35dff6fa1fab182d6822e0b44fe1864de0f4e67ba026499c87d664048 -> a36a1fff5fb8332a394d1c363d6a13c0f1f3867d758b26a6aa0996eca338de1c
+~ _convertNSDataToNSString : 276 -> 272
+~ _trimBidirectionalUnicodeCharacters : sha256 58f6ac5a2f0de6249048188cde474b19266a27f79b72ff368eafff08f9e86ff2 -> 1c07089eda276081942f69a56a57069b0c1bb50dac96573a31598bdac31568de
+~ _removeBidirectionalUnicodeCharacters : sha256 bc71ae3451d377f5f6bd72ec730d76e480a1103e857f2dd0bdb386d1e681d5e2 -> 3b0918c1bac06331eba5b7618518d4c56cd276043c02897f97be8c2bfe31b1fd
+~ _convertNSStringToNSData : 464 -> 460
+~ _classImplementsMethodsInProtocol : 320 -> 316
+~ _isNSObjectNull : sha256 8342d0d2725ee0e0c3145c4e186c99e9c054986fccf3ce900c3aa9af51c45ceb -> 5f8b1e7e9a1850d1b0591187c1e76cb66c98df79665f71f5691947f98828f10f
+~ _isNSObjectEqual : sha256 37c85bc1d45f9ee3b6f955936a03d62df604a2b3e7867d4f9d10a79d3985682a -> 2377ff8464662a6972ed59b2092f89577f8df1893d77d71e6ffe7de6051e8688
+~ _readJSONFile : sha256 c0ed04aaede82d3b21e53dfee5fb9abb3b40f74da3ed4e903c1cbf9e02d9fdd6 -> d628f82305188a75e45770f7234b7f888f6f366d0a7e791c6e9dcb15c1d4d5bc
+~ _writeJSONFile : sha256 f0a17b832952c2ff81f946cdeb080e4bcee9ecb700a7c2140e7c3d8d707dc9b4 -> d6ede79678a8b9876ca3ae792b0a89ffd6e744a7dafad56ba3278b9fa2b39157
+~ _base64EncodeArray : 344 -> 340
+~ _base64DecodeArray : 356 -> 352
+~ -[DPAnalytics init] : sha256 2a4390086c4fc1d82f936d505ec71eb8a3a60a31d2da88405f3c72f6c169cd77 -> a7ee6e4d6f4823da507e6cc4f49cd2817c4170d926ea2a580888d76617079c09
+~ -[DPAnalytics start] : sha256 8bf1411759dbbc8fa1f4fb32b9c6cd4703de09f294ddafd80328fede6552e372 -> bb899e5dc07893ad3327aaaa65dd169704db5ffdf9d6b38abee99d16e0a393df
+~ ___20-[DPAnalytics start]_block_invoke : sha256 8e4e9fad8a9f52e7a29895a8748af2d3dab86da77b4511c000344cabc580f317 -> 5c3549afd167a07da1eefa782707fd9ed92541acf5337a317077ff068783bb9f
+~ -[DPAnalytics stop] : sha256 e254e7c1f0713fbfbb5c0ec9a36b2cc00afcb90e6891d8ebd4ec1e1398d22ddd -> 3af64227f1a85e2577e4999bd06808b27f873aa65f8a9322537aa64b013dc48c
+~ ___19-[DPAnalytics stop]_block_invoke : sha256 f18c70d6e9ff134ef48db6f8f49e491b80257c937a63976d137eff688b1fcae5 -> bfe3f3dd94c5c39a38b171200da820a726368cc38498c14f20fffa817bdc8c57
+~ -[DPAnalytics _startEventMonitoring] : sha256 49989189dc2fb97a74b99580d607ad4dae22af727d3ba1ea3a5278b7960ac5bd -> b9368223a8c37b8fad3075e86cd6fb27b6d209c390b084f7375a3fd61ba146e0
+~ __servicesMatched : sha256 f0db898069efb355c9fa2920b85086dcf9228bcb17cccb1b3c0f7df6d36f86c1 -> 255ded8aecd4155f04c79d98c0b8fd1a879ec6c63f11dc44075edf5ea6f8a11a
+~ -[DPAnalytics _stopEventMonitoring] : sha256 d2ecf7eec14a54c244e47f2a61c9b568966dd5c09c2f570759e5d4d5eb2cac66 -> ddf1fcd8079839a5ece83c1e2e46bf5c1dfbe6d69b820d1cd9d4b0672d06075b
+~ -[DPAnalytics analyticsEventsEnabled] : sha256 5d92c00c578731072961dbe39132715446d8da35e8b3dd65ccac6eeea24e78bd -> dad6318e32846b1636ab8784c8e80ca0806bc074706447f18c08ce1b93a84c11
+~ ___37-[DPAnalytics _handleServiceMatched:]_block_invoke : sha256 9201c8e36934e1da41641086adfb0950a710848552b896fc0fe0c50b5e0a5941 -> 5a26bc189832c219ef4eca6353b0d94a1cdcbe3fb1e2fabd60fba1bc4f0a8e80
+~ -[DPAnalytics setQueue:] : sha256 c608ccb540ec46dcf28d99deec7db48358bfaaf3913ab09c555bf61fbe53f42e -> 7be613d2f738c4c986c5fc7bba6406a294295d383c63c30846a9bba7c69c4050
+~ -[DPAnalytics setLog:] : sha256 64a269c3c19afce385377ffe85d2594a2edb52da96ccc8e59a84d3e4c7eba9a9 -> 8b6ce89cd65e15b11555476fed2790cec1603dab9e873bbd9a8bc58de4b8060b
+~ -[DPAnalytics .cxx_destruct] : sha256 f6a4368c4ac3d993305e9c9cdaeed63bd8ac8d9c1a9f16bc27db16d92f8b3d7f -> 723097aeb7273272df03fe209104ea88bb35deb4e3b3f64d39804bf810559ef7
+~ _OUTLINED_FUNCTION_5 : sha256 039186d4692d9d5b0961cb6c7e534e1ff5063729d26ee11a86f63f0da36005f7 -> 7cfbf63e0e84f79811c33c662fd4d4b3761da2f2287bce13c6be24b24507ef5c
+~ _OUTLINED_FUNCTION_13 : sha256 edfd434b87eca78966f22510c96260bce0db27e750a6e3517f5f7ab27981d1db -> 1d26e7912203c7d5178d44f53dae234e158ef7db01cf680b2d32246691f810ce
+~ _OUTLINED_FUNCTION_14 : sha256 7e704e01b2a1d3f9b19b0752639b718fa6386e79ddfb537e9488a3929bb79cf9 -> 7e2ba3017614d2395192f8519f11919ce93e35e7e48fef9f92f5dfd29b940940
+~ _OUTLINED_FUNCTION_16 : sha256 7a7fc8db3b67e8352e70f63bfd5f98d73f4608c7b5f70bd1eafac30c953d2cca -> 6dc3d21b264cf609ac2050885d78dc8220b9b983456f949362c316b8afa0b368
+~ _OUTLINED_FUNCTION_17 : sha256 d992e9833963cb15caab6c05baa9c680d84acafe9f3f88c09ae853d90c79aed8 -> 2b24fb3bde20309f20c0bfed0a4bc0e471a197c5b840a06123f9d205554e5541
+~ _OUTLINED_FUNCTION_18 : sha256 45c24c2a2d4415e0fff0e286c2e7ac541dd72c53743a4221655e90afebe85aa2 -> 0c968582e870b5638e4c7d47e737676a8c9bf73d477eeb022e65da8a3ac64c1f
+~ _OUTLINED_FUNCTION_19 : sha256 3135eb407f4a3c6b36b6237964c96c844931c9c3f64674ce10ce23833ccdee3d -> 798656cdccab2c5b8c7f9cae916a077eb6a8e304365ed5bbc92a8b21ab15928f
+~ _OUTLINED_FUNCTION_20 : sha256 21ebf6c15ea9ebd3e92d9fe4cbe6eaec0a519c1f2c7627f15722522990d1f3f9 -> 06eb36c17a67bc21c12e67ed3b7d79210b0c991af83b57521e8992f894c65a16
+~ _OUTLINED_FUNCTION_21 : sha256 021cad29008e50382d6c1d1f0dbb8d7c064abdb18db38f3b4fc9f1f098f4f1d7 -> 9df593bce30ac5068f7a49819eef3cbc3d72c8b19a6a89bb329ac643c130aa93
+~ _OUTLINED_FUNCTION_25 : sha256 3949f6be035bf6cec043d8c062fd3173578cc22c4cdbf7753a29170abf47535b -> e62702ff211f9aa26afdf073429f980e38b5d07c8c0c89185fb6cdaa24f53017
+~ _OUTLINED_FUNCTION_26 : sha256 5b5d8dc9fdd7f55f0647a03a9cc2b833217bd20938830ff082ef0fc079d83dc5 -> 54d05fa8f4d81f18aacae108e681ae1cad218f89706073bc50bf685045e3ff76
+~ _OUTLINED_FUNCTION_27 : sha256 08f206f57e36fbd57ea426eaecd33718c1d67b2f886c78b5d2a226785f7928e9 -> c9e1f04273e5259870377ffc921d6b424da3fd8d06a93b4f84f97e85beb425d8
+~ -[AUVDMAnalytics _handleServiceMatched:] : sha256 3b38db9a047e69ab5e3f4540d6ec9ef3fb692f163fb3e4c58791dfa79a5c388b -> 45cb600bf19f31bd09f05c64a723f9a8f33f852caf8a5c4fa288cfe526a4f540
+~ __23-[AUVDMAnalytics start]_block_invoke.cold.1 : sha256 b40b36ce7025599c8c49906999bc50dc92a7e8fa1aa202a114a8225cf1622321 -> e8e89c157fc1218cc2d8c491d3faaf76331887ba608aefb65ecfb390770ee85d
+~ __22-[AUVDMAnalytics stop]_block_invoke.cold.1 : sha256 eeb39fd70e8961e069e77e591ea1f7d3db4bc620e1ecf1378b5aa9bd462cb6c3 -> 4321d105df6bc2b82d945edbdd8eff17b6c6cdb4db4821f8276661a4182b8157
+~ -[AUVDMAnalytics _startEventMonitoring].cold.1 : sha256 b188725d78bbf16c1c37f9b4e32fc4b9f41a26e6135bccef016b2bf8ecb3798e -> 87b360bfe080803bf4e2699fbf15920bb104450b8db207e09183557f5e14f6f3
+~ -[AUVDMAnalytics _startEventMonitoring].cold.2 : sha256 51f382d79fc691307d388c904b127e52068df18f411fde56b9d1a2b7f593c168 -> 7e4c670a469b378f927e68c2f90ed343f1aef42e04f8d92d8ad1ca731e3232e1
+~ -[AUVDMAnalytics _startEventMonitoring].cold.3 : sha256 c12b6ca6c09c025fe7314fcc61b4ec98287ac4d564cea7cf45f26ef56dbf5fa4 -> 1b791648d319a192c94482dfa99cf58621454af2d75621fac7c2e6c195cbd51b
+~ __27-[ApplePCIeAnalytics start]_block_invoke.cold.1 : sha256 51d745d3b2d5bd78a235712ccabbe79817c878a2fcb31b5006bf4a440d8d56e9 -> e4964a7ec5b44537855c3559e70506e40cdbb18474bec74cf589fef556709a48
+~ __27-[ApplePCIeAnalytics start]_block_invoke.cold.2 : sha256 387f3782cac6cc6caeb418c382208042c7cd2d3a24c7c30eca93e314f376a093 -> bfc897e2650bd53a97f1b820b29408187b2a922f93f6517e17b1ea91c7177962
+~ __26-[ApplePCIeAnalytics stop]_block_invoke.cold.1 : sha256 00b31b1b3753c276db8997cf8e328646a9f150b0aa38e8722ded8f6616fdd38f -> c0410064bb31d81019e52a39828ce92daf14ad0873f708aafd75bd2618e9cbd5
+~ -[ApplePCIeAnalytics _startEventMonitoring].cold.1 : sha256 5e6e0049e234820d1a2bb84d52057f368275808fd8573ee14bfa13ee25fa43e2 -> b277cc28b8154fdc752aad16407ac8efd576e2c628347250d86572f41659a82a
+~ -[ApplePCIeAnalytics _iteratePCITree:findSlot:findTBID:].cold.1 : sha256 ae69e3799419f933eb0740988bef6fbc59fb01614daa3c3ffd0aea0cb4d57b85 -> 6f2931604a4faec6419fe9af2bf4f4ed7cfac5e6a631379ca7ebde775ef23b5c
+~ -[ApplePCIeAnalytics _iteratePCITree:findSlot:findTBID:].cold.2 : sha256 98a711c66f5f458b3dd320cb960bb19b21828b9c5efae00d76f7d77818f98e6c -> 461e4117515464eb044eb2859e979c03e848c6d6e26f4d1c7f2c37fc3185a8d1
+~ -[ApplePCIeAnalytics _iteratePCITree:findSlot:findTBID:].cold.3 : sha256 b810bc3a28e0d28ae72ec57d66c94e1d4394db1d8c680049dd4ace47efe2826e -> 3d8b2cc1d955530a963355fd379ac822462c9c24d0ee8c8c7d589124a17b8465
+~ -[ApplePCIeAnalytics _iteratePCITree:findSlot:findTBID:].cold.4 : sha256 7be4143749966d5ed1f89a5f0d3cb1f4e1e778fae252247669bf47c7ef6743bc -> 705aabb8177e822749ea43aab1d366fe1e91e4c2ef3b0d736e6036225cc7594a
+~ -[ApplePCIeAnalytics _handleServiceMatched:].cold.1 : sha256 633352203b2dcf301152b6d9384406dc7c2f325d72d1e3cec1f054ebfed8113e -> 3ed969c8a55a393172af5fc2ed6faee312a37776fb06c234d459876466f8e148
+~ -[ApplePCIeAnalytics _handleServiceMatched:].cold.2 : sha256 0b88ec90887f9fb0e224b56771d3b5aacddd7356d13ea5a1435d634adeb506c2 -> 310876894150b6cb26c4d5bdd536ff2571a54c9560eb1e4557a87520e3ecfcf1
+~ -[CIOAnalytics _handleServiceMatched:] : sha256 c6ed3b1dc335be4ab2f419bd2b36df24664ca90952460f7f756bd163d3544103 -> 1bd1e8573c688af66bdf2c7bf0ef654b91f02c67b683621d150b0d16a58e164a
+~ get_kCAEvent_Thunderbolt_Daily.cold.1 : sha256 00563f5483a4037aaee4057a9ef41622c07c249e0796cf12f8309025ddc7985c -> ec67b1fcbf6421ae138da58a3d9f642134f567e5776b2c08aadc2026bf1b0735
+~ __get_kCAEvent_Thunderbolt_Daily_block_invoke.cold.1 : sha256 f3ff2f935a644998501ee708747cba0992d4cbb8f4b78ad4462cc3ddb41910e0 -> 4f5b1967ad8a0c9988e5cf4f27649625ba3e394150964c41b517ca6bc50810d4
+~ -[PowerInAnalytics _handleServiceMatched:] : sha256 c5f09b8cfd959e45a24a7573e6b6ed39a2065f6153e1c0aa9d6962b63a698da3 -> b2e04a735b02997695ab477827bedb14d401cacb5bc9c67aaf687eb8adde5a4f
+~ __25-[PowerInAnalytics start]_block_invoke.cold.1 : sha256 368d7a77411eb28eb2b4451b63d2a86808b669c30cece5acc2442a56e88c2c44 -> 70ab7a6e490db726aead9e42785200c79ccb6ff651e8c3fc4b0b95707cc61286
+~ __24-[PowerInAnalytics stop]_block_invoke.cold.1 : sha256 5e2947fef2be9c523e3f64b133ffb984d68a72f77c7d994653e54eb6bba3cefe -> 4df6547bae2d6ebb6f25b8f26787cb1795a9af5e997632235616260be9a0c217
+~ -[PowerInAnalytics _startEventMonitoring].cold.1 : sha256 c2ac1b4215c88de06fa783fde3c95bcbb939207e87b5f7058ac3a5df86562629 -> ffe377d34943e4d9054964a6ccd4c2146c1ecb53800b546e9c6dac577eb490bf
+~ -[PowerInAnalytics _startEventMonitoring].cold.3 : sha256 95419c2812ba1b5f38a310134c8c8d9b06b44b90186611d657b5a444239c3abb -> 88a81d0dffaadfb90a6f88cc97eb48657542026e78037092ed742a3e97ba56f8
+~ -[PowerInAnalytics _getMutualPowerSourceProperties:dict:].cold.1 : sha256 3537932fe8dabc4b7311e9fb8c15ad9c04ab8fa252b90079074e45cefd372634 -> d555767d64f50e7ff9c93b4c7addd0c325a1362329f207ff70515bd90aa41442
+~ -[PowerInAnalytics _getMutualPowerSourceProperties:dict:].cold.3 : sha256 bd6adaaa13498a74025607928f0da91a419d15599a41ab5a56637c55ef653d38 -> d9ac6e2df425569e13d2339ea8418ffd0a6346a648c6b00b49ad91fed9883933
+~ -[PowerInAnalytics _getMutualPowerSourceProperties:dict:].cold.4 : sha256 1ef5f6e5b15520c0f19656bfc17f02b649667779ebcbe4b23dff1fcd7c57e635 -> 13ea09b7e41adc7c6d7cc18ad8a060b5f033776e59e4c772f0a03a05f1377f31
+~ -[PowerInAnalytics _getMutualPowerSourceProperties:dict:].cold.5 : sha256 85f96d5589a482d582d4b6dfd294ee428b763b2dcd6829fc5225bb3896fb1400 -> ef7893bb5cd862dd5b8c3725927b1d45cdee07f7c9926c20ab0a3177de2901e7
+~ -[PowerInAnalytics _getMutualPowerSourceProperties:dict:].cold.6 : sha256 b5d7ef0c13ece1cc5bf293c629190c23098fb64414e9e3cb0c18e94166129ee3 -> 25f28719144e5c61e906ba12b2f310ade6802c7c8bad9038a520eb6973a79e69
+~ -[PowerInAnalytics _getMutualPowerSourceProperties:dict:].cold.7 : sha256 93e9e97557e1589d08e73a318deb0c88d48109bef2867395e90cefa987e77019 -> b5d7ef0c13ece1cc5bf293c629190c23098fb64414e9e3cb0c18e94166129ee3
+~ -[PowerInAnalytics _getMutualPowerSourceProperties:dict:].cold.8 : sha256 2338131b16b1d1672058b38a2e5d7d4748fe8591013fc88088f040b72d0dc1d3 -> 053fecfbe7fb5e1bdc77a3c884c6ebeaf9ef13f45d19e3e1b0902fea103b0ea1
+~ -[PowerInAnalytics _getMutualPowerSourceProperties:dict:].cold.9 : sha256 1d1673f2038112134b14903e49696dcea039a615106bbdf0dcb7b2b618673710 -> ecc0788521973d140f26836e62b57ca55801c71631fa80095e7bb45707d32624
+~ -[PowerInAnalytics _getMutualPowerSourceProperties:dict:].cold.10 : sha256 44ce2fed0c26c8ebf838aa7ac4cdd7a951d3d095cfb8ac380de46180f2787be2 -> b85f06e36a774c9be1cfefac5dded2280325c3ff31bd93287ea0a9be46346122
+~ -[USBAnalytics _handleServiceMatched:] : sha256 997af5685b8056c4d946e7d31bb24f3d96a34dc41495b25992adc47378d80e94 -> cd57e8dc52c46875f4e2beea03a8ecca83d2576cae4e98cbf6d5ce39f79fab40
+~ -[AppleUSBCLightningAdapterAnalytics _handleServiceMatched:] : sha256 e84a3b6b7c3f1e10934ab0a3910b6c3612f57ab7a02fec2ba302187a7e6df78e -> afe6d1691fda70f3b4e55df3c2cdedb6dba2f678a66df1fa9f6162f7dd7e1e19
+~ __43-[AppleUSBCLightningAdapterAnalytics start]_block_invoke.cold.1 : sha256 75d9af1192af6eb696579bf6e7b190c8aa31246b3cee74d9168ba01f6dbe16b4 -> 90a96ae41501929d7701f4bda5023e3f9d2439241049ec86e2efc8a4d95335d6
+~ __42-[AppleUSBCLightningAdapterAnalytics stop]_block_invoke.cold.1 : sha256 695126563e358f1f4e8f69601b1c55a838d122977eec6682c5aa41aa382aca72 -> e09c25630048919793092f487dfc7a515d796d0a512d12a40cc60b6a4ab6f1f0
+~ -[IOAnalytics init].cold.1 : sha256 05b62922a9781932e8bc5967d43d634f1dd30a1dbae61e2a78111de144534030 -> 0a4a307e8478dd0d4b9eb04aaf3a39699931175ea988a8378ec6e94b22023f12
+~ -[IOAnalytics observer:didChangeConfiguration:type:].cold.1 : sha256 3d7da7b6bcb669f529c4c2a98887bd53600fccf5fe8c5b31a766ad6037a14a45 -> 49fed41e6874735204f39dfde4544d61957b7705778a7a2c9cab557adda87a74
+~ -[IOAnalytics lazyInit].cold.1 : sha256 831d460a784a29e4c52a6d3e004810240aa09a63df15dd6a87697363b0c212e5 -> 40114b47f5d7f361c4f96a9c693448c43c2b239af0205b829cb6d221d84fb7c4
+~ _serviceRemoved.cold.1 : sha256 872d94e7ba2f4fcbddb64c73da691e3b7a6a933143fe257dac47445727259de7 -> 3cfa9c4b22b2bed92e446a809af5e52847ffa48cb0599ba4a753254554f67cd7
+~ _serviceAdded.cold.1 : sha256 5b71e1a0f78a8ed183210f9a0519cbe3fc8418d5474c310daa73ce5ef75cf985 -> 0fb2dd3d7c6dce567c334d0db0d8e3c59dcfbee24501bf3758de7f6f5e86a799
+~ -[IOAnalytics registerMatchingNotification:service:callback:iterator:].cold.1 : sha256 12636b7a9a46ac0c1705e81c83ccf4b6c44e80bed3b5ae6e0a57f17a7e5767ab -> dada6f3463b8e142269288155304424b09367e82e6a939ea0f2a7dbd764da121
+~ -[IOAnalytics registerMatchingNotification:service:callback:iterator:].cold.2 : sha256 629922f2217d9440fd9bc03feb4c7dd00452d3b0c25310666da0711a8109296f -> 11b751c1b4cb9d1912c16895858edc00c51c5abfc5866f98cb724f6298a4a7d9
+~ -[IOAnalytics setupDailyHeartbeat].cold.1 : sha256 ad9dd1d0462c98c2bb6de5cdd1549f8957d74aee876d894d8bae76925d45b470 -> 451e42a4b60b055d6b31cdd6d12faa516f818c93ac904c938eb3b2614b020e96
+~ -[IOAnalytics dailyHeartbeatFired].cold.1 : sha256 9690a722630043c1964a9a003c9226bd75f9ed9d7b4a65c8b15339b378cdafda -> a87b7dbf08c62b7dc72b3fa284646139ce36b910380ecbf4f4c71dbd4ef67a45
+~ -[IOAnalytics addedService:withClassName:].cold.1 : sha256 88ef5ea2ec0db880017a3017ff57332cada50408e3b046218c61e96add74d29b -> 5aedd8a6f84dcfc92dd794b2dbe25385762cd694982466d864df9e0cfe8209ed
+~ -[IOAnalytics addedService:withClassName:].cold.2 : sha256 fe057aae640898939412c009e1d350881faace94706ff41ed97c8e27b13b912e -> 1f99a5ce2473aad87bc52d1517011bc0eb99d259c9f3e1b6c32846e231b15ac2
+~ -[IOAnalytics addedService:withClassName:].cold.3 : sha256 30ae3f556f161dff2b9c62c0c1b346fe12c3958613a6582f079a5f7a5d173b00 -> c0190e64018e896cfb3c97c1901870f870455e2f90eaf3343461ed666399350c
+~ -[IOAnalytics addedService:withClassName:].cold.4 : sha256 308caf65b72322c651c90610cbc9599539ffbac0499f674a0b6ad59eb46ff264 -> 277bfcbcf59ab998605cee28d192e243d996b67fd88a0590c57ca9743082e097
+~ -[IOAnalytics removedService:withClassName:].cold.1 : sha256 a6db3ca67f0930f05afe98dafe3c6baba7bc162d021aadac2a12f6d6015fbda4 -> b3533f82f4157df6bda684deb8e57f0846898a995a5aa2acb411643edc62dee2
+~ -[IOAnalytics removedService:withClassName:].cold.2 : sha256 f7bf42003379ac82540eb8f79b8a4a3b0983dda90d0972cae0814d9f5b5f254f -> e03ec697f9d3c33f7ff884193e483c9d1e0540bee3f2e75b8df17573a9ff96b4
+~ -[IOAnalytics removedService:withClassName:].cold.3 : sha256 1d9a02766abde2f72bd896eb77d46289e105817ed7152e089d60afc8ff945349 -> 1ff74693572805f24281a7c8691de79ce9c9f2041b28cfed7d06c2595d715fa6
+~ -[IOAnalytics removedService:withClassName:].cold.4 : sha256 c7dfbd71cca94465fb2dc1cb0fd68c99f2be3b17891e8c7efb8cb03cc15caab3 -> 65a88e5cf0d69e1a573476baa1c3cab01bb18f240d7c11298e35994439d0c853
+~ -[IOAnalytics removedService:withClassName:].cold.5 : sha256 471d23ba79504d90c5bfe03f6bbe7b756fcfd78ca95c1a09fbb01e829430279b -> 769c31efd03612941b0d23531224d2c9a51b2feff5562f17d9d3b970d39ee633
+~ -[IOAnalytics payloadForService:withClassName:].cold.1 : sha256 f5d68ded3fc04f02bff02aa86afd83109a7128f27ba3e77c1a49d50abba0b703 -> 0ec3ae2def7fb464da0d2dbfd418978738c7afde91e31a5761b7e366b9b801a1
+~ -[IOAnalytics captureAppleHPMDevices].cold.1 : sha256 8a63a1220827a44701af0c6419721d85b5b32f49daf7597db8f2a88c9188228b -> 38dd9240d373084d137128a29122e38e2aab7687ca4704322de2809de4e71836
+~ -[IOAnalytics captureAppleHPMDevices].cold.2 : sha256 b31563ed6862b843182c7f9ef8218e4979916ba39241478e3d23f0c262d0f9d5 -> 9c18ab4ce1b649ae0f4267c00bdb12036669e76b249f8ba24d59438d18f70ea2
+~ __37-[IOAnalytics captureAppleHPMDevices]_block_invoke.cold.1 : sha256 b6c42f305092acb8e0c2fb9ba88b2444e21ac69d62a8c94a8d811f906032a7ec -> 5be898094cc2e2678759bd0e905014fba3100e4a1d66f1406690a6f0b9571c99
+~ -[IOAnalytics captureIOUSBHostDevices].cold.1 : sha256 23a16d0bbb841d63925e7faa14d91f23f82a64b2e2ff09dfb900937470d4eb64 -> 8f5af683e4bb8775d58b85976464610e95b1142bb4789e83a22499fbb0c0ff7b
+~ -[IOAnalytics captureIOUSBHostDevices].cold.2 : sha256 70ff5ebafa476c49db5835ce3a8c6da1967f73611d1abfdca67100dfc9a3347d -> ffe3e62b457b8e760b52515eb1353925e7a6d8b023bae96439a89538381c998e
+~ -[IOAnalytics captureIOUSBHostInterfaces].cold.1 : sha256 2b23c4fd29965a125f3ea9e4cbf4e421dcbd76a63e1869ea8ba3f29dbfb19f26 -> be9507d80584a0cca1bb6af9a4beebafa4b9ca89bc0d716c5aebb11c5259bdb7
+~ -[IOAnalytics captureIOUSBHostInterfaces].cold.2 : sha256 093961b219b5398aa88a01155cf9333225cac8a0fa1c6e8180ff41a9a19dbb54 -> aff05f093704f48f04fde90e89de587730f46fa0cd946fb4a7e8c2d9b1e15237
+~ -[IOAnalytics captureIOThunderboltSwitches].cold.1 : sha256 cf5288a67447696f3e1b1840d4d03c8090b21818af5b5225a2dd60fae1442412 -> fb14a67d3e24d3f7fd868915707ca928d0d04ed77ce04ebe0a800279fe16a8e5
+~ -[IOAnalytics captureIOThunderboltSwitches].cold.2 : sha256 110d8fca97f827f6ecc752672027e25f0f8f1d7260306ab2be8f631841dad4c8 -> f9089f24b04aa9f096a1780cdefb2d91455bf43b01995b7f473840df13c20894
+~ -[IOAnalytics countAppleRootThunderboltSwitches].cold.1 : sha256 a57ae7713bc1d10e66effa676c2e53b43a235a4cb1bc54b547dc4bac3837104a -> a5f4fdc564902fc286a3a79e843ca827e459d8964d5dc609e9f6babd2ba70733
+~ -[IOAnalytics countAppleRootThunderboltSwitches].cold.2 : sha256 831ab9e5d61c5c3a8a2232e69dedbcd70c364083615165d26d060e9912575945 -> bd197480beff07f7b61754c5d6949d89101e4a851c0a1a9fe7074dd050eb2d4f
+~ -[IOAnalytics countAppleRootThunderboltSwitches].cold.3 : sha256 082590776205cce0429bd2ad382042ebb1e5b5a321ede8c19722dd79ad4871d1 -> f9d4f2e0da46f54d6fb63081824b4668f0224d2c94d5a94b8a0e73ae281b9bdb
+~ __48-[IOAnalytics countAppleRootThunderboltSwitches]_block_invoke.cold.1 : sha256 b38d1f7a20178b7863a1f2465a505b1b4f23c32981d07b8ccf0540fd1ab3ee1d -> 6e6e4bf60e6f55962306ff0b9b9323cf58ab302d4c46aac69b1923daf63c547e
+~ -[IOAnalytics isUSBDiagnosticServiceWithProperties:].cold.1 : sha256 254b64f737d3de66b3904fc36a2b1c930affe2d0f09676abcd43e023b3e4bed2 -> 9e7ae71d7abe8c413e3a47cb22e8f0907bc37660ce84d4edec2d135d8acdf8a4
+~ -[IOAnalytics isUSBDiagnosticServiceWithProperties:].cold.2 : sha256 ff9af5b94361f336191b48a91fa3d3439bf0d743f7d2e20a17baf98e781e1e65 -> e61476fc716244b3f9dec1bf4b53ad0e1e175d059ccf1a6b5d82b34c9f1c917f
+~ -[IOAnalytics isUSBDiagnosticServiceWithProperties:].cold.3 : sha256 4708b73f96b8449edd9a85e2374129c027a5676f900216ff2c8129cac5237432 -> 9b6198ac35e6f604b6ef98168476ded90873206086438abd6444d3f1c7caa033
+~ -[IOAnalytics isUSBDiagnosticOrDownstreamFromDiagnosticServiceWithProperties:].cold.1 : sha256 d088071f924aed5b60f4d6605890add7c72d7d55a23682c78647390db170e8ec -> 482f2a8f6956ccbf61855f53272ba6ae270a6b20ffa11f748e11395019661122
+~ -[IOAnalytics createMetadataFromIOUSBHostInterface:properties:].cold.1 : sha256 e3ea0e5074f762bf468ad553c682ccc9aff33be0b260329adc0a9cbca4980ea1 -> a7641f52154558087b7af72261550ed26ca7aff92b15908f00df91a62ffd6b0d
+~ -[IOAnalytics createMetadataFromIOThunderboltSwitch:properties:].cold.1 : sha256 02dbdfa5ab639588e61ebc7b9dfec38df9915dd318b32ec3e4fc9549ab056137 -> 5cb9335b0484322b88722a2a7bdc3555a26eb2d99d17a5694a7f08d7c3a840e6
+~ -[IOAnalytics createMetadataFromIOThunderboltSwitch:properties:].cold.2 : sha256 276fa7200f0563c49b373f6992c5b93eb41b7d3b35545a11a8113f67aa4c7ecc -> ac3d47c387cff4f1539a5d798e55590f3c8b5512741b010a82e4ffc668267cb1
+~ -[IOAnalytics createMetadataFromIOThunderboltSwitch:properties:].cold.3 : sha256 865d2bce0fa8d6fa16cfecf8e7a2025ad4faa48fe5d0487a2ae80c55988bca96 -> 39ea0bea4720f74111633c8eaffd9eef27bd18680dd75d32e96492de945a528d
+~ __64-[IOAnalytics createMetadataFromIOThunderboltSwitch:properties:]_block_invoke.294.cold.1 : sha256 032232714d598532c97a1454ff96146cdfd2c62a17025bbf365b4036c6cb00bc -> 2b9fc63ae96cffad23f3e89569996e4761457429394fb7f404af47c4607be8a9
+~ ___serviceRemoved_block_invoke.cold.1 : sha256 ee5a2e613a3ca78491ad70064c599478ba0dd88da306585161e345b9088dd322 -> 748831117a10ea8e5fb03f076c49cf37128834623e6a964cffcefa1358ecd26b
+~ ___serviceRemoved_block_invoke.cold.2 : sha256 1d423c6fd88af5fabc63ac7251575511dec02c1114523644f7561018cc0956c4 -> f0eac13a8f3bf843b4748c967ad5e14881f9594d746c83d9ea1474a3b8731806
+~ ___serviceAdded_block_invoke.cold.1 : sha256 3e0fbdd3dd90464874bc096d0bb8a7a3b487ee3a56c73e1c8338695720c2ba4f -> e0adb8db25e989a7052f0ed96935c8cd0de71d7395e04aa2036021c871cd9233
+~ -[AppleFireWireAnalytics _handleServiceMatched:].cold.2 : sha256 64e977029d07a2b0bcf75ece9e449553969f68067d6a0a9160a33087ef34d9bd -> 64189ccb38e9c51ac3295aec6999c36f7dd0fecf64fa798d81a65c7068fd4b78
+~ get_kCAEvent_USBFW.cold.1 : sha256 fceb4ea9be6acd164c13981b9c844e9d6ab640bdf26d84f545c5ec0f5a6ab89c -> 7b2c57349704a25b2743b987d4c008615a569f8501dd19ceac496a7b32f0f2b6
+~ get_kCAEvent_ThunderboltCounters.cold.1 : sha256 575053c158c531793f90a377292ab93bd99c08cabbacdd0ede5e53ed59d1492f -> acc7130920e8515f201bf7047817ec34c089cb9f40e3902b4ca7574a0d8daf6f
+~ __get_kCAEvent_ThunderboltCounters_block_invoke.cold.1 : sha256 292d681f9f015a0b60248a68e572bcbadf328138e92e49a627966011af577b83 -> e24fb634ab500328c512e6b0e14fc1bbafad6d67a82d4d874a08b3a331c581fd
+~ -[USBPDAnalytics _handleServiceMatched:] : 2972 -> 2980
+~ -[USBPDAnalytics _startEventMonitoring].cold.3 : sha256 585f7fea2f6a8762b52318855d6b4afb17dbbba1b228b7e39a3f987365731c80 -> 8fdae67498bc94a154de56fae9c7659d6e691ff556199c11ef2430250d9201be
+~ -[CAEvent sendPayload:].cold.1 : sha256 3fbba498202b00f02672ac6e478a4638e05d83d1cd417274b56c2c27c03ce60b -> 774c74f3b2ac7c72019b566d7a765a8c272b993e45bc8efc66549b3d2887e816
+~ -[CAEvent sendPayload:].cold.2 : sha256 cf2f47dfe6783f62cd1a1f2f0fc68c67c4ad349189260df2808bb52cedad69ce -> 078e2beb5bd1cfea3e0fabcb9a96e0a0df3c7d3704ab5446cf46cbe5f584fc81
+~ -[CAEvent sendPayload:].cold.3 : sha256 bb0bc786cfd7f62a0588bf15586fe5d71f47e20d4417650b8463787ea5b40b55 -> 322fdca126ee131ea40ef9445d7a19e7a85b947fedcf06985a67a5513247d781
+~ -[DPAnalytics _handleServiceMatched:] : sha256 178d8718b4bebb2cf72627114ebab079973f54b272bc08e05580c884c9ae6608 -> 6ac0d8bc4b53fe6d5a911cc1616cf3af1db5b10b472bfdcc56085fa3d2500407
+~ __20-[DPAnalytics start]_block_invoke.cold.1 : sha256 56e82256208ec12831edba357dfc8211701d729f8a20d4804633d60fa6a57be6 -> 18675196ef541f236cc553ab53f93991fd7424379d835b75c1b8448a05f8c1da
+~ __19-[DPAnalytics stop]_block_invoke.cold.1 : sha256 04a2ca6ec986abd62028fd0e9f6153ac7455df81519463d0c4c27e793d5f3d21 -> 55166344f2c66b765c2e4aac9af785eed528d6a7abed5df806999e2941c00a67
+~ -[DPAnalytics _startEventMonitoring].cold.3 : sha256 805225926e7c4f26cb27c9458af89dddc9895ea43a9269a026220e76d4423727 -> d18d893ac4d5ba611864f63767010e9b48752a5199fc9ee895b6ebcf31416825
+
+```

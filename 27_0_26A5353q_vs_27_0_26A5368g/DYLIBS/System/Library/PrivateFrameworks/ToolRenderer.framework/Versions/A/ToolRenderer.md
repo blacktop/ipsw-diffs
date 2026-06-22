@@ -1,0 +1,254 @@
+## ToolRenderer
+
+> `/System/Library/PrivateFrameworks/ToolRenderer.framework/Versions/A/ToolRenderer`
+
+```diff
+
+-5025.0.29.0.0
+-  __TEXT.__text: 0x7adbc sha256:a2a5f404e85af5c56c8f74635bcb5e51e7cbc03c8cd7489d48680ae6e42966f4
+-  __TEXT.__const: 0x5582 sha256:19f3978fd19e64e1e396f5dbf6b5306ceed43f880938cb086775decbb2713fe7
+-  __TEXT.__swift5_typeref: 0x1358 sha256:b1b62a33430a20f87fcbc54bf8f38fe5c1ee360f49b88df9eeb86dc7e8bf10e3
+-  __TEXT.__swift5_capture: 0x9e8 sha256:d523fbea873abbb90038c6085620b99da33454b2332f3b019b061ac71775f6fd
+-  __TEXT.__cstring: 0x4e2b sha256:2308d34587970b80522b324b32f1fdb1bd8237c1c5534ee7352aed5160f10d87
+-  __TEXT.__swift5_reflstr: 0x16a7 sha256:f8b61a248194842751fb06c4061b6592546342db10b52c9ee7e85aaa005580ca
+-  __TEXT.__swift5_assocty: 0x408 sha256:b4b8d894a29a0af11ac46c905b3086e793cab1784c1b87c1ce092bc598c1e21e
+-  __TEXT.__constg_swiftt: 0x1100 sha256:463d6d388d18f1a93d4bab24411bab5fb7f0d0ccf80c245617941a09388b6bfe
+-  __TEXT.__swift5_fieldmd: 0x1c40 sha256:f32398e64c1c38b212b2d0f55b3acdd0932b6c44018b1254de665bed6f16dab8
+-  __TEXT.__swift5_builtin: 0x78 sha256:ca20dbf8519286cc4a4834d076f9ab6cba7bc232c65bf0d1422386cdd71d04e0
+-  __TEXT.__swift5_proto: 0x550 sha256:c51312aa70dfdf1640e7b2117657d780e9fa96c7ccf4438ba09290115c07602a
+-  __TEXT.__swift5_types: 0x1d0 sha256:2766e051182f44da69c44ff2e884df1e51b7b8eb2378fbb1ef4b6ee3b04d6929
+-  __TEXT.__swift_as_entry: 0x2ac sha256:dd666c67005fa8437010b822d504edf73f8bc2cd8dfee0b4b1069b5c030f7b44
+-  __TEXT.__swift_as_ret: 0x1a4 sha256:9b933dd37d35b048e6d33b94efa125917cd2f09b451d0ccca9bfa8272f0f544b
+-  __TEXT.__swift_as_cont: 0x3dc sha256:2f40afc79a565520d937dc9647584a02cf159cdf9ef649e323e56714f72d8a06
++5028.0.19.0.1
++  __TEXT.__text: 0x820f0 sha256:25e6c736795f7d0a47b10c21cd0279427f51e1bb6091137c2e669d0825b9ec58
++  __TEXT.__const: 0x57b2 sha256:fb8d0451dd32528390bc7ae15702aabec19137dcb9b297ef0e7fe90d7bd93edc
++  __TEXT.__swift5_typeref: 0x140c sha256:1ac3cf2a1e97c8c81c76dd380f3598a8d2e0292169893e25f032e9455e66e381
++  __TEXT.__swift5_capture: 0x9b0 sha256:5d973f0b52eb0f5c59debd3fb09e0f0f1604de58c8260166dff9f95dba06394a
++  __TEXT.__cstring: 0x502b sha256:fd395b3a2da6876422722c9e794cdc35ea2ff0fff6e845a9d664b3ea457a7ef8
++  __TEXT.__swift5_reflstr: 0x16c7 sha256:b9950a6c3cb6ddbda2b0842fb925858762bc618b0c5c37a720c985c98ca9a636
++  __TEXT.__swift5_assocty: 0x438 sha256:e36abc7f493bdad5532db219ba9d6a30914913aaa10574262ce1c85bfdc7568f
++  __TEXT.__constg_swiftt: 0x1160 sha256:c9e5b2ff7282619e6d31fba1b8fe93cf68585a7dcb39503f9fc002cdac8a6913
++  __TEXT.__swift5_fieldmd: 0x1cb8 sha256:9ae08342e0a64a9a0dfa177d4d25c913711d1033428a4f2e2281dcd1803be317
++  __TEXT.__swift5_builtin: 0x78 sha256:b52c6797fbbe7fe2f8ea5c9c70f0cc12e48f8f0a81b1eaa351f80717a139d136
++  __TEXT.__swift5_proto: 0x570 sha256:6bc3946ad7facd0cfabc984955d274114a40dfa754ad31604c9c4f59fdd73101
++  __TEXT.__swift5_types: 0x1dc sha256:7c752da6d9260003f8b74558dbb467ddbfb8ed6f19e5ce0f36fcb2012d22516e
++  __TEXT.__swift_as_entry: 0x2a4 sha256:5ed19efdbfb72999f041470132028445e0aacebc41b5994d6bc77b2bd886d8f2
++  __TEXT.__swift_as_ret: 0x1b8 sha256:79931f9fc31dd80319e2a0fbc0014e48abd50aec42ab3859594c74acf9a51591
++  __TEXT.__swift_as_cont: 0x4d0 sha256:71259262f053f1a727eb252945ff02e53f40bb36100e473e0586c0df33106005
+   __TEXT.__oslogstring: 0x197 sha256:c288d22797b833949a9943b12ee5416c69a7cf228f3e8b11226f5dadbf8bcc86
+-  __TEXT.__swift5_protos: 0x30 sha256:b59e817db721c50403ef80b1d5f2d3818f3871d40fdc08eef4547a44bcc281d9
+-  __TEXT.__swift5_mpenum: 0x24 sha256:952b274176fc59de473f6d332ae69c75e5aa81baad1bfb32fd181e3a58542021
+-  __TEXT.__unwind_info: 0x2210 sha256:635faa3981a9dd2a5099103659f2a2944b68000169e688e3bf0f6b66901a9f49
+-  __TEXT.__eh_frame: 0x5a40 sha256:8adab5909f60e3e13e4b63eea6edf6918b27a4ab3fca40773285211dc4b53bba
++  __TEXT.__swift5_protos: 0x30 sha256:cd6b38110ff8553b39fcc4ca06368beb725219ce392d9af307520138642388bb
++  __TEXT.__swift5_mpenum: 0x24 sha256:bf4347e075a680097435b35f88cf97bc6b6100320a3fd01ef9b0b3f70275256b
++  __TEXT.__unwind_info: 0x2318 sha256:4fffceab7e07e45f830f31c7c89dd8f3ddb4aa753c6b8f1b04afbc95c7ff7e09
++  __TEXT.__eh_frame: 0x5ea0 sha256:c1221bc4fcceeeb3e088da749c638aa7ac6a47ee287b170ed957d1b344a5e740
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xb0 sha256:c041e81a74b02a55d04566bd434fb34438850ca077514b3c454e3939afa52d9a
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:9b4298c5a26d64c06bb1ffa7905dc619ae0a9fa23385c1b2d09f5bcacf187353
++  __DATA_CONST.__const: 0xb0 sha256:b63c5d75f16f1a91c20d8ed7f7c91b03d09d86d9492200465cd4e27ec0d2097d
++  __DATA_CONST.__objc_classlist: 0x8 sha256:97e8dd8bc3b01f9bff4589312068e53d97c015ea4cf775cf891e400f97409926
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x5a0 sha256:c2019a67e40213c5cacf7f51f10f9ba61537c3e4e3faafdf675de1f35a0acd52
++  __DATA_CONST.__objc_selrefs: 0x5a0 sha256:4f4bf3328c644c7c4332dd40345e5bd8ef4787b8b75e8a0a343d0b249936f50d
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x6778 sha256:a82fac2f99e2cac545b48a4be2b0171c20c3f8be0ac400eafc0d21f2f67f609e
+-  __AUTH_CONST.__cfstring: 0x1e0 sha256:dc20e64afaafa33d1b6a0a2481cf7a5b760d32173832e13a831d374d26cceac0
+-  __AUTH_CONST.__objc_const: 0x118 sha256:29784bc092db559d486455979e5bdb160439eba5458c4841f456cb72ac19267a
+-  __AUTH_CONST.__auth_got: 0xba8 sha256:e7a8700798fa9cfc104f6a7f314057237b214aef5d3cbd2b1861f662fbc65fd0
+-  __AUTH.__data: 0x5c0 sha256:762a48094bd872b9227f935c6224f6f66b42495cfaecc9a1fed161abd7da2560
+-  __DATA.__data: 0xcd8 sha256:a2e4b5a10489dabeb48b91e24ba15ab52569ea4778621da1689cdb3533e98977
+-  __DATA.__bss: 0x5c10 sha256:65a4e7775aef685f7a1275d64505caeb32dbe962888fbccb9814d56fc7b991e7
++  __AUTH_CONST.__const: 0x69f0 sha256:74e9408f451622bbfe004a55cf2965af1d1ebe23c477c46872cc74a63adf13df
++  __AUTH_CONST.__cfstring: 0x1e0 sha256:7060b8ecd0b0a35b8f0660cf1564e4916362a13abfd3d6f4d80894472c392eb0
++  __AUTH_CONST.__objc_const: 0x118 sha256:ae67f78c45f8c04d00626737aafff95b788d3c3006863fb0cbac0e24420811b5
++  __AUTH_CONST.__auth_got: 0xb98 sha256:4fe273f1e9efb9d6b4ed4b2c760b2bb6741e6d532b4583a37a91787986db6a62
++  __AUTH.__data: 0x5c0 sha256:86b88a9ca5508cd24d7825a2d52fcd17e017dd5fb7a76cd3b0fb905ff6e9d8af
++  __DATA.__data: 0xd80 sha256:0ee0c7ac0933cd2c9de481994bf578c44ac305c8b99c0baf4b95701bb50c9476
++  __DATA.__bss: 0x5e10 sha256:d56f76c546b92214d235dac2dd0e9d439816edf0b510971646118d2c9345abae
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_DIRTY.__data: 0x118 sha256:1f6c9de2e555d5d589e1149fed58f9cbcc101739df97d4a4d694a13f1242c5b9
+   __DATA_DIRTY.__common: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9102AE39-9A27-3876-B9A3-0DEB0EE8F9CC
+-  Functions: 3299
+-  Symbols:   1902
+-  CStrings:  499
++  UUID: 6D7A4016-36AC-31EC-84C4-2390AA0C9BF6
++  Functions: 3521
++  Symbols:   2016
++  CStrings:  507
+ 
+Symbols:
++ _OUTLINED_FUNCTION_264
++ _OUTLINED_FUNCTION_265
++ _OUTLINED_FUNCTION_266
++ _OUTLINED_FUNCTION_267
++ _OUTLINED_FUNCTION_268
++ _OUTLINED_FUNCTION_269
++ _OUTLINED_FUNCTION_270
++ _OUTLINED_FUNCTION_271
++ _OUTLINED_FUNCTION_272
++ _OUTLINED_FUNCTION_273
++ _OUTLINED_FUNCTION_274
++ _OUTLINED_FUNCTION_275
++ _OUTLINED_FUNCTION_276
++ _OUTLINED_FUNCTION_277
++ _OUTLINED_FUNCTION_278
++ _OUTLINED_FUNCTION_279
++ _OUTLINED_FUNCTION_280
++ _OUTLINED_FUNCTION_281
++ _OUTLINED_FUNCTION_282
++ _OUTLINED_FUNCTION_283
++ _OUTLINED_FUNCTION_284
++ _OUTLINED_FUNCTION_285
++ _OUTLINED_FUNCTION_286
++ _OUTLINED_FUNCTION_287
++ _OUTLINED_FUNCTION_288
++ _OUTLINED_FUNCTION_289
++ _OUTLINED_FUNCTION_290
++ _OUTLINED_FUNCTION_291
++ _OUTLINED_FUNCTION_292
++ _OUTLINED_FUNCTION_293
++ _OUTLINED_FUNCTION_294
++ _OUTLINED_FUNCTION_295
++ _OUTLINED_FUNCTION_296
++ _OUTLINED_FUNCTION_297
++ _OUTLINED_FUNCTION_298
++ _OUTLINED_FUNCTION_299
++ _OUTLINED_FUNCTION_300
++ _OUTLINED_FUNCTION_301
++ _OUTLINED_FUNCTION_302
++ _OUTLINED_FUNCTION_303
++ _OUTLINED_FUNCTION_304
++ _OUTLINED_FUNCTION_305
++ _OUTLINED_FUNCTION_306
++ _OUTLINED_FUNCTION_307
++ _OUTLINED_FUNCTION_308
++ _OUTLINED_FUNCTION_309
++ ___swift_allocate_boxed_opaque_existential_1
++ __swift__destructor.12
++ __swift__destructor.12Tm
++ __swift__destructor.15
++ __swift__destructor.22
++ __swift__destructor.6
++ __swift_closure_destructor.116
++ __swift_closure_destructor.119
++ __swift_closure_destructor.189
++ __swift_closure_destructor.193
++ __swift_closure_destructor.197
++ __swift_closure_destructor.202
++ __swift_closure_destructor.206
++ __swift_closure_destructor.210
++ __swift_closure_destructor.215
++ __swift_closure_destructor.219
++ __swift_closure_destructor.223
++ __swift_closure_destructor.228
++ __swift_closure_destructor.232
++ __swift_closure_destructor.236
++ __swift_closure_destructor.241
++ __swift_closure_destructor.245
++ __swift_closure_destructor.249
++ __swift_closure_destructor.254
++ __swift_closure_destructor.258
++ __swift_closure_destructor.262
++ _associated conformance 7ToolKit10TypedValueO09PrimitiveD0O06PersonD0V0A8RendererE5ProxyV24ConstructorArgumentLabelOSHAHSQ
++ _associated conformance 7ToolKit10TypedValueO09PrimitiveD0O06PersonD0V0A8RendererE5ProxyV24ConstructorArgumentLabelOs12CaseIterableAH8AllCasessAMP_Sl
++ _symbolic SDy__________y_____GG 12ToolRenderer10TypeHandleV AA14EncodableProxyV 0A3Kit0A10DefinitionVAAE21DevelopmentPropertiesV
++ _symbolic SDy__________y_____GG 12ToolRenderer10TypeHandleV AA14EncodableProxyV 0A3Kit0C10DefinitionOAAE21DevelopmentPropertiesV
++ _symbolic SDy__________y_____GG 12ToolRenderer10TypeHandleV AA14EncodableProxyV 0A3Kit17TriggerDefinitionVAAE21DevelopmentPropertiesV
++ _symbolic SDy__________y_____GG 12ToolRenderer10TypeHandleV AA14EncodableProxyV AA010WFVariableF0O21DevelopmentPropertiesV
++ _symbolic SS______y_____Gt 12ToolRenderer14EncodableProxyV 0A3Kit0A10DefinitionVAAE21DevelopmentPropertiesV
++ _symbolic SS______y_____Gt 12ToolRenderer14EncodableProxyV 0A3Kit14TypeDefinitionOAAE21DevelopmentPropertiesV
++ _symbolic SS______y_____Gt 12ToolRenderer14EncodableProxyV 0A3Kit17TriggerDefinitionVAAE21DevelopmentPropertiesV
++ _symbolic SS______y_____Gt 12ToolRenderer14EncodableProxyV AA010WFVariableD0O21DevelopmentPropertiesV
++ _symbolic Say_____G 7ToolKit0A10DefinitionV
++ _symbolic Say_____G 7ToolKit10TypedValueO09PrimitiveD0O06PersonD0V0A8RendererE5ProxyV24ConstructorArgumentLabelO
++ _symbolic Say_____G 7ToolKit17TriggerDefinitionV
++ _symbolic Shy_____G 7ToolKit14TypeDefinitionO
++ _symbolic _____ 12ToolRenderer12ProxyLibraryV
++ _symbolic _____ 7ToolKit10TypedValueO09PrimitiveD0O06PersonD0V
++ _symbolic _____ 7ToolKit10TypedValueO09PrimitiveD0O06PersonD0V0A8RendererE5ProxyV
++ _symbolic _____ 7ToolKit10TypedValueO09PrimitiveD0O06PersonD0V0A8RendererE5ProxyV24ConstructorArgumentLabelO
++ _symbolic _____3key______y_____G5valuet 12ToolRenderer10TypeHandleV AA14EncodableProxyV 0A3Kit0A10DefinitionVAAE21DevelopmentPropertiesV
++ _symbolic _____3key______y_____G5valuet 12ToolRenderer10TypeHandleV AA14EncodableProxyV 0A3Kit0C10DefinitionOAAE21DevelopmentPropertiesV
++ _symbolic _____3key______y_____G5valuet 12ToolRenderer10TypeHandleV AA14EncodableProxyV 0A3Kit17TriggerDefinitionVAAE21DevelopmentPropertiesV
++ _symbolic _____3key______y_____G5valuet 12ToolRenderer10TypeHandleV AA14EncodableProxyV AA010WFVariableF0O21DevelopmentPropertiesV
++ _symbolic _____ySS______y_____GtG s23_ContiguousArrayStorageC 12ToolRenderer14EncodableProxyV 0D3Kit0D10DefinitionVACE21DevelopmentPropertiesV
++ _symbolic _____ySS______y_____GtG s23_ContiguousArrayStorageC 12ToolRenderer14EncodableProxyV 0D3Kit14TypeDefinitionOACE21DevelopmentPropertiesV
++ _symbolic _____ySS______y_____GtG s23_ContiguousArrayStorageC 12ToolRenderer14EncodableProxyV 0D3Kit17TriggerDefinitionVACE21DevelopmentPropertiesV
++ _symbolic _____ySS______y_____GtG s23_ContiguousArrayStorageC 12ToolRenderer14EncodableProxyV AC010WFVariableG0O21DevelopmentPropertiesV
++ _symbolic _____ySS_____y_____GG s18_DictionaryStorageC 12ToolRenderer14EncodableProxyV 0C3Kit0C10DefinitionVACE21DevelopmentPropertiesV
++ _symbolic _____ySS_____y_____GG s18_DictionaryStorageC 12ToolRenderer14EncodableProxyV 0C3Kit14TypeDefinitionOACE21DevelopmentPropertiesV
++ _symbolic _____ySS_____y_____GG s18_DictionaryStorageC 12ToolRenderer14EncodableProxyV 0C3Kit17TriggerDefinitionVACE21DevelopmentPropertiesV
++ _symbolic _____ySS_____y_____GG s18_DictionaryStorageC 12ToolRenderer14EncodableProxyV AC010WFVariableF0O21DevelopmentPropertiesV
++ _symbolic _____y__________y_____GG s17_NativeDictionaryV 12ToolRenderer10TypeHandleV AC14EncodableProxyV 0C3Kit0C10DefinitionVACE21DevelopmentPropertiesV
++ _symbolic _____y__________y_____GG s17_NativeDictionaryV 12ToolRenderer10TypeHandleV AC14EncodableProxyV 0C3Kit0E10DefinitionOACE21DevelopmentPropertiesV
++ _symbolic _____y__________y_____GG s17_NativeDictionaryV 12ToolRenderer10TypeHandleV AC14EncodableProxyV 0C3Kit17TriggerDefinitionVACE21DevelopmentPropertiesV
++ _symbolic _____y__________y_____GG s17_NativeDictionaryV 12ToolRenderer10TypeHandleV AC14EncodableProxyV AC010WFVariableH0O21DevelopmentPropertiesV
++ _type_layout_string 12ToolRenderer12ProxyLibraryV
+- __swift__destructor.14
+- __swift__destructor.14Tm
+- __swift__destructor.17
+- __swift__destructor.24
+- __swift__destructor.8
+- __swift_closure_destructor.100
+- __swift_closure_destructor.106
+- __swift_closure_destructor.110
+- __swift_closure_destructor.114
+- __swift_closure_destructor.121
+- __swift_closure_destructor.125
+- __swift_closure_destructor.129
+- __swift_closure_destructor.135
+- __swift_closure_destructor.139
+- __swift_closure_destructor.143
+- __swift_closure_destructor.149
+- __swift_closure_destructor.153
+- __swift_closure_destructor.157
+- __swift_closure_destructor.163
+- __swift_closure_destructor.167
+- __swift_closure_destructor.171
+- __swift_closure_destructor.181
+- __swift_closure_destructor.181Tm
+- __swift_closure_destructor.194
+- __swift_closure_destructor.211
+- __swift_closure_destructor.97
+- _swift_deletedAsyncMethodErrorTu
+- _swift_task_create
+- _symbolic ScA_pSg
+- _symbolic ScPSg
+- _symbolic ______p 12ToolRenderer25ParameterMetadataProviderP
+- _symbolic ______pSg 12ToolRenderer21FilterActionSurrogateV8ProviderP
+- _symbolic _____ySS______y_____GtSg______pG s6ResultOsRi_zRi0_zrlE 12ToolRenderer14EncodableProxyV 0B3Kit0B10DefinitionVACE21DevelopmentPropertiesV s5ErrorP
+- _symbolic _____ySS______y_____GtSg______pG s6ResultOsRi_zRi0_zrlE 12ToolRenderer14EncodableProxyV 0B3Kit14TypeDefinitionOACE21DevelopmentPropertiesV s5ErrorP
+- _symbolic _____ySS______y_____GtSg______pG s6ResultOsRi_zRi0_zrlE 12ToolRenderer14EncodableProxyV 0B3Kit17TriggerDefinitionVACE21DevelopmentPropertiesV s5ErrorP
+- _symbolic _____ySS______y_____GtSg______pGSg s6ResultOsRi_zRi0_zrlE 12ToolRenderer14EncodableProxyV 0B3Kit0B10DefinitionVACE21DevelopmentPropertiesV s5ErrorP
+- _symbolic _____ySS______y_____GtSg______pGSg s6ResultOsRi_zRi0_zrlE 12ToolRenderer14EncodableProxyV 0B3Kit14TypeDefinitionOACE21DevelopmentPropertiesV s5ErrorP
+- _symbolic _____ySS______y_____GtSg______pGSg s6ResultOsRi_zRi0_zrlE 12ToolRenderer14EncodableProxyV 0B3Kit17TriggerDefinitionVACE21DevelopmentPropertiesV s5ErrorP
+- _symbolic _____ySS_____y_____GG s17_NativeDictionaryV 12ToolRenderer14EncodableProxyV 0C3Kit0C10DefinitionVACE21DevelopmentPropertiesV
+- _symbolic _____ySS_____y_____GG s17_NativeDictionaryV 12ToolRenderer14EncodableProxyV 0C3Kit14TypeDefinitionOACE21DevelopmentPropertiesV
+- _symbolic _____ySS_____y_____GG s17_NativeDictionaryV 12ToolRenderer14EncodableProxyV 0C3Kit17TriggerDefinitionVACE21DevelopmentPropertiesV
+- _symbolic _____ySS_____y_____GG s17_NativeDictionaryV 12ToolRenderer14EncodableProxyV AC010WFVariableF0O21DevelopmentPropertiesV
+- _symbolic _____y_____ySS______y_____GtSg______pGAG_p_G Scg8IteratorV s6ResultOsRi_zRi0_zrlE 12ToolRenderer14EncodableProxyV 0C3Kit0C10DefinitionVAEE21DevelopmentPropertiesV s5ErrorP
+- _symbolic _____y_____ySS______y_____GtSg______pGAG_p_G Scg8IteratorV s6ResultOsRi_zRi0_zrlE 12ToolRenderer14EncodableProxyV 0C3Kit14TypeDefinitionOAEE21DevelopmentPropertiesV s5ErrorP
+- _symbolic _____y_____ySS______y_____GtSg______pGAG_p_G Scg8IteratorV s6ResultOsRi_zRi0_zrlE 12ToolRenderer14EncodableProxyV 0C3Kit17TriggerDefinitionVAEE21DevelopmentPropertiesV s5ErrorP
+CStrings:
++ ":\n    display_name: Optional[str]\n    name_components: Optional[PersonNameComponents]\n    handle: Optional[PersonHandle]\n    label: Optional[PersonLabel]\n    relationship: Optional[PersonRelationship]\n\n    def __init__(self, *, "
++ ": str = ...):\n        \"\"\"Construct a Person handle from exactly one of `"
++ "Duplicate values for key: '"
++ "Fatal error"
++ "Swift/NativeDictionary.swift"
++ "`. Providing both, neither, or any other keyword is rejected.\"\"\"\n        ..."
++ "email"
++ "phone_number"
+
+```

@@ -1,0 +1,26 @@
+## t6041cphyfw.im4p
+
+> `Firmware/t6041cphyfw.im4p`
+
+```diff
+
+ 
+-  __TEXT.__text: 0x1d000 sha256:4a73d9040d9464379c7cffec669f180b12fa669fb2d1028f1725fe662411ad75
++  __TEXT.__text: 0x1d000 sha256:08c0a8fbdd516a3f2634e2990fd9e2c72827b2fb18f33a974fdc1858060005e1
+   __TEXT._rtk_vtor: 0x2c0 sha256:eb79214e5895e6a5841cdce82c3f24d4f953eaae0010cc57507d12867d84ba15
+-  __TEXT.__const: 0x770 sha256:9ab06a7760325853fcf3c0b60ec7129b9557ec17fd06df542a2d700be26ed7ca
++  __TEXT.__const: 0x770 sha256:56d941b77843553ba6395fd044a44a767ba7e94a639ed97d95b4e8706b5415fd
+   __TEXT._rtk_patchbay: 0xda sha256:4c81545fb1503467a4ffcd2fc2d0e3a3ece543d05dd1f4100511889ffb572ec4
+   __TEXT._rtk_mtab: 0xc0 sha256:5db362481e93296c18f4491b97c1831e90a022894d158fbb61bb5ce39bbb04e9
+   __TEXT.__cstring: 0x191 sha256:ebf52593054fcff4e3ea780c86e3b3273f9d6e75dc00554772dd3eee0764bed3
+
+   __DATA.__zerofill: 0x3b54 sha256:bdd0c1895afa97822c63b32d07434fc7621f318deb0e48c6d49435341acb0e17
+   __S2R.__data: 0x3b0 sha256:0b104dfa306965639069d83c2a39f7dbbe28d9fc93421fd4df618e1bae471d67
+   __VTOR._rtk_vtor_patch: 0x438 sha256:bf7ae7c1fbdf020aca32033ef202d3af4f194c975885885e3a075ca03b3c94dc
+-  UUID: 7EF87164-C573-3AF2-A1FF-F4946B3D5202
++  UUID: 6601D440-D5E9-392F-BC6E-FD61B1BABCEA
+   Functions: 0
+   Symbols:   0
+   CStrings:  32
+
+```

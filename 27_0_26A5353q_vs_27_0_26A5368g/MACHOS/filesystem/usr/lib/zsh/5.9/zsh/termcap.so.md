@@ -1,0 +1,37 @@
+## termcap.so
+
+> `/usr/lib/zsh/5.9/zsh/termcap.so`
+
+```diff
+
+ 118.0.0.0.0
+-  __TEXT.__text: 0x6b4 sha256:d111f256536e6e9c73bb45ef7b12fe9b57d8ac3d64d5b0932b174e73b0078d7d
++  __TEXT.__text: 0x6c8 sha256:b4005b63e94390913e4739bfc79c318497c9ee3fb9073265542e7470733a35fa
+   __TEXT.__auth_stubs: 0x140 sha256:a9c69358ecf585e5e1e3cc2d12c0691330720c26f771edfc41fc1610ed616bca
+   __TEXT.__cstring: 0x5a sha256:711755646c27f06095422f5ee2975327adf36919b30c5ae4b5c245506cc3398e
+-  __TEXT.__unwind_info: 0x90 sha256:3b72c2f34b6fe02a9ae0f6b4701ddad2f23392fef1c00d5b746a540cb2980b1d
++  __TEXT.__unwind_info: 0x90 sha256:d7efeac59f262a56dd2579ac555edfa88db48c0fb06157640d445d32d5355632
+   __DATA_CONST.__auth_got: 0xa0 sha256:b58f6fa62296e56b1c350ff0cbc9f94f2116a125e1fb9d798e0d880312a583a5
+   __DATA_CONST.__got: 0x48 sha256:c5701dd5c216add3250c70e97ecbf5909032040d20f38b64a06d62db2155c6a4
+-  __DATA.__data: 0xb8 sha256:a4fde126867f11dc4eb0ab59014da93a7f824527518de4efce8522da90bc673c
++  __DATA.__data: 0xb8 sha256:f70ea8074ecea2cea40e37305de7538ae87c80d5bf9fe8906d42547f05581e0a
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libiconv.2.dylib
+   - /usr/lib/libncurses.5.4.dylib
+   - /usr/lib/libpcre.0.dylib
+-  UUID: 0F66A9F7-E163-32F1-81F1-DD0F152F4759
++  UUID: 21DCA913-A90E-3C04-B629-B72C84A59BF8
+   Functions: 10
+   Symbols:   36
+   CStrings:  8
+Functions:
+~ _features_ : sha256 6075da3d00282bc526d660854b33833d0f249086499222cb112668c8ead5f310 -> e725914fd634a3c6ab5f93d08b463276f2ea19f595265437ff9572305aea3c25
+~ _enables_ : sha256 a9b65778b563350eb0f69c307c17bfeaa7f49c1fbd5fd824d3e5baaddef4084d -> 4173c5e7b45c9fac8e0149470b313a82ed0fb4c27476ffd74175a708fa237130
+~ _boot_ : sha256 132df1006f31a638b5edfe49a4148cec8d0f58f948fbe47d0155b8b14f92e6fd -> 24ac6b1a83532b1b8f156bcd4c4bf1c5fddfc4f22372d08d087d1dc6659eca4f
+~ _cleanup_ : sha256 782c5d855279785202475ef03b914752aae97f3742dc8ce31e114d9e4c9d2375 -> ff62cb59650c61e95f9578765a095e1462f087ac855b75c5826161d6aebc1263
+~ sub_630 : sha256 6f41953afbabd867a6718050d53be1747ff05103ae110b945633ee1bc0a6294b -> b4527a806d19ea117bf619a47a1e183b308a784f6ec7e175fc0a581e14aabeae
+~ sub_87c : 124 -> 132
+~ sub_8f8 -> sub_900 : sha256 504a20d739557a296899405e769e0a2bb3b8f7ba37bc401dd84e957489ad658c -> 3585154e93e9f2a7c1812152b2be970ab2ba49bdbcbf931acefa763010e0a8a9
+~ sub_a68 -> sub_a70 : 452 -> 464
+
+```

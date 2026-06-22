@@ -1,0 +1,29 @@
+## unvis
+
+> `/usr/bin/unvis`
+
+```diff
+
+ 199.0.0.0.0
+-  __TEXT.__text: 0x2f8 sha256:476fd151f2db91c87b2b3769330ca21e0f26af07f135882b9cf77ada56cd041e
++  __TEXT.__text: 0x304 sha256:006243d1f1afc3bdb5aca07c2540be3ed25ad615304f6951fb4d6c40698367ec
+   __TEXT.__auth_stubs: 0xc0 sha256:6da9e6d49f959b62af4f950e1705253b5e9ff3e280e7a3ba2d256c710e9bca41
+   __TEXT.__const: 0xd4 sha256:363709a32730973e84c08514b2e30e4b01a27d0f43ef576a98afd6b66f4a07ee
+   __TEXT.__cstring: 0xa8 sha256:265d41ef563d351dc4f51dd948def798e113c65f03b09324dfc6826b4ba89da6
+-  __TEXT.__unwind_info: 0x68 sha256:70811e2b3d150701c021119ecc3f5358b28f11f432f169409c32b13e7ba7ba9a
++  __TEXT.__unwind_info: 0x60 sha256:00287397c8ad7687db4a9135f4bb114604ed663da03b905e1f3f75a5d15d912e
+   __DATA_CONST.__auth_got: 0x60 sha256:75443b2d7eb304af704e135ce779b1582e40b4e112f49dba1aedc8490c781a2a
+   __DATA_CONST.__got: 0x18 sha256:cd61f49b28998e6949ce86c9118fb820d63ca104345f4dfd01a0fdd9ce84d138
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libxo.dylib
+-  UUID: 5EE419A7-3FC4-3B0A-BD7B-F43DFDAC2CDF
++  UUID: 914954CD-B39E-3935-BEF5-D194EFA90A3C
+   Functions: 3
+   Symbols:   17
+   CStrings:  9
+Functions:
+~ sub_100000528 : 412 -> 424
+~ sub_1000006c4 -> sub_1000006d0 : sha256 00c635230ba2ca3d1ae7a89fd81023c1e9915861b1c257ebe10bc8771819c1e1 -> 77a82fa8be9781da296bc879ece04f56c2512ee71916aabf80f0bcfcd870570c
+~ sub_100000804 -> sub_100000810 : sha256 3cd29216741de1020fe25453d372f6f2735cc1d1d124767674c842f5f86815f2 -> 68e326645cfe116f12e020f3c33c6d87878871934d449444f970f8f97da4ab51
+
+```

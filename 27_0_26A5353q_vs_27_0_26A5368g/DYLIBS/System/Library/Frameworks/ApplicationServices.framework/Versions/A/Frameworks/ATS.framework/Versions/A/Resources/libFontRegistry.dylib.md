@@ -1,0 +1,449 @@
+## libFontRegistry.dylib
+
+> `/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib`
+
+```diff
+
+-418.0.0.0.0
+-  __TEXT.__text: 0x3dc20 sha256:e4506c2153f290d978469fa84ee57845445b9217e8125523700018d60378cc36
+-  __TEXT.__objc_methlist: 0x6d0 sha256:228032bcdb0081cd4e8c87b2375d642c61b181a5bcad58379369bc888bf63924
+-  __TEXT.__gcc_except_tab: 0x53d8 sha256:63f05a1a041d4edf036fbededf44a24e2091b487a80d7ddded64130a0f66332f
+-  __TEXT.__cstring: 0x46e6 sha256:fa1c2a99cf846d1bb290140a848b90dca440e466286cd36a68e95cb4704b2742
+-  __TEXT.__const: 0x767 sha256:00cf8d160efd137bc50f3551663679b4b0b4870e38c1c3053cf0771d715941f4
++420.0.0.0.0
++  __TEXT.__text: 0x40b70 sha256:0f973409a6fb320e89e8c4bb29a9754387d5c8a95ea063b801059027d75eb08c
++  __TEXT.__objc_methlist: 0x728 sha256:4241fad6714290d816395755ea828daa9e72cd59f0e2f3ce2a5794ff093a43e7
++  __TEXT.__gcc_except_tab: 0x617c sha256:368b546ab21d563a0aff0716b34afcc5706c93416e464a0914c45def2539e9dd
++  __TEXT.__cstring: 0x469c sha256:7f85b30f12f602871664bce5c8854ff28cf895703028a0383d839520a658b7b1
++  __TEXT.__const: 0x767 sha256:c61f89faf102bc7ace4fd78aa3e8fa0f13df1e90a109fec9647d89a55ed37371
+   __TEXT.__oslogstring: 0x35 sha256:429858e8aec56edc24297923035065a9546c87be2f0d068bfa3ae7a7c52aa596
+-  __TEXT.__unwind_info: 0x1c98 sha256:8eebe7fc6262e28a7ee31e12bf1b535f7cd84278bdb7f59a18dbe6d58dd0002c
++  __TEXT.__unwind_info: 0x1ec0 sha256:d25ba1db2e11d7d76229f9cfa32abd44e5521d6f27afa1ef836fb619940b8971
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2a90 sha256:74a1f6ce2aa32e2eb116c9e7c8ca7c8a0aa66b1b1e1ce753f0ec58aacae2908e
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:00fb911351399c4c8e921e0d9a5f9c3ac988ba383658d05a901c1621f85d0ded
+-  __DATA_CONST.__objc_protolist: 0x28 sha256:81af07e9bba84be10542958c6bda2a7f9746e72373e71a28459dbb12cd0e9b9e
++  __DATA_CONST.__const: 0x2a50 sha256:83e73c1c649f1437237fcf6c581c5f61dc3a10a7e90a763d163c1ec0e4323848
++  __DATA_CONST.__objc_classlist: 0x28 sha256:6efdbf7dc0ef20fb34ee36470abafc9242b610952fe1320343e717aa3cf3340c
++  __DATA_CONST.__objc_protolist: 0x28 sha256:658dc3355b817c951bc80e0dd754c0e04c759ea048168d5d22055a13ec0119ee
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__weak_got: 0x8 sha256:93c3ea2c1752dc17d7b5111d1ba66c4e70c2be847efed30d8a24435782faf736
+-  __DATA_CONST.__objc_selrefs: 0x758 sha256:8e7bb0f9ba7350372b6890579b4290e80522fff1ca2795ab211f2ff5cb472688
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:96d7b3fc3db8d65d8765c6023513add80d79753329c45a987d22cbb7490aca5b
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:00fb911351399c4c8e921e0d9a5f9c3ac988ba383658d05a901c1621f85d0ded
+-  __DATA_CONST.__objc_arraydata: 0x9e8 sha256:1aaa2d7de6b056e9091d7b67d6a800e96506beca3ae773092eb1d275a84018d2
++  __DATA_CONST.__weak_got: 0x8 sha256:355aff58b3c3c53e544b526facd1396f7773b8b0f55b9ef40c403e82fbc00c40
++  __DATA_CONST.__objc_selrefs: 0x7c0 sha256:afadcab9f6ea67fe1e280331cabd1d62dc47816ea2366607e47402bc4fa0c193
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:857ca0445f2f33ebe0ff410bf658018429b1607f07bf96cd013995f9cfa24b1e
++  __DATA_CONST.__objc_superrefs: 0x28 sha256:6efdbf7dc0ef20fb34ee36470abafc9242b610952fe1320343e717aa3cf3340c
++  __DATA_CONST.__objc_arraydata: 0x9e8 sha256:aed74843c74bb642a766fe4a9ac781fe7a2acb93af077bcb6daa80aa69c82b3f
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x22d0 sha256:18dbe588c9d3fdea84ffd8104c25635b93e075d6201d9b75cc45c7a8a91007ab
+-  __AUTH_CONST.__cfstring: 0x6340 sha256:e5f189486e13dff48b2e680230ab9ede728a3748cfde3745773768f0ab5300bf
+-  __AUTH_CONST.__objc_const: 0x718 sha256:a2f848077e234dfebcef4a61da70430b1504a326c5ffc2ff7da0a1e71ae53675
+-  __AUTH_CONST.__weak_auth_got: 0x18 sha256:0f4450ad156a2fb0399d49c05f2667abbfcfa3644a5a7e4a5b4a9c152b973caf
+-  __AUTH_CONST.__objc_doubleobj: 0x90 sha256:cbd7ff5b6380dd04f204628522f6e7fdb69a11077d0c389f73f29fc99c8e490a
+-  __AUTH_CONST.__objc_intobj: 0xa8 sha256:04ca7e50f2857c0a94a4308fa65d80a6552649f242f18f93548f4422a0000aa0
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:640f994ebac44c889aab20182937973fe8ac1a4c119fab509be8ffa51a907080
+-  __AUTH_CONST.__objc_arrayobj: 0x90 sha256:a5967c153ca61b0348b1b1f323bb4b92cc4f5f78bc16543f1cbe387413451dbb
++  __AUTH_CONST.__const: 0x22a0 sha256:3bd48ced74da213162568a3a3019caf352a722acea3c4f49de24ac134e84842b
++  __AUTH_CONST.__cfstring: 0x62e0 sha256:4fc67241c3a06db17d026855b81392c9ab643a28efc17902ba3edc7ccda6cec7
++  __AUTH_CONST.__objc_const: 0x7f0 sha256:c6c07dcb347c36f27942c10240dc21f043b4476eeb8e1b706f71e812230b21be
++  __AUTH_CONST.__weak_auth_got: 0x18 sha256:c043bf049c37ff8a967a00f091b7b7bb1e598d183e20587b725737f376ce2445
++  __AUTH_CONST.__objc_doubleobj: 0x90 sha256:fdb580b9fdc726a001dbcbf74e1a643d044c7619d81b3197bf972dd38bf10088
++  __AUTH_CONST.__objc_intobj: 0xa8 sha256:d472801e9ebb2fa01d3176d596c623371215cc4839982e4014db9c9bbcbef340
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:0b8abb8c05a38e9b343f7b383159f0db2182d7484ba3d67281d0b6554fdf3ee5
++  __AUTH_CONST.__objc_arrayobj: 0x90 sha256:bcec73e9821442a40e0e83ae64ed3428218455c04a0316f23feadd9074dd0371
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0xa0 sha256:5db15011c57bfc52dcd2286f2e3f6b1fc7c5cfd20f30c4e798fdd48e4c5d7383
+-  __AUTH.__data: 0x60 sha256:a9f0b6a91fe25301c574e663a1ce6095e2733dd58aa0d40fae7f5b4c28efd8e4
+-  __DATA.__objc_ivar: 0x34 sha256:8bdc45c7386ee984a9aacd75bf659cd12bd319f069cfb214954e91b3bc45926c
+-  __DATA.__data: 0x2e8 sha256:21500c6c02d3393d60402f841cdef3fceae22b25af23690632fd5c9de38fbee1
++  __AUTH.__objc_data: 0xf0 sha256:0915995886cff47dc22a5c0fca4b612df78472303bc224e8a00b2f529091a7a4
++  __AUTH.__data: 0x60 sha256:2e9003e8d0398f8ad0edfae699adda75cb05efc721323fd32af0d5d0dcf4c9e2
++  __DATA.__objc_ivar: 0x3c sha256:506ec2de8af3fe0b433543a26191dc505d3f12bf1984e47ae975c1755bb41c3a
++  __DATA.__data: 0x2e8 sha256:7f01daa8f07aad35104ae2dd4bf521a63c879676dcad782112f22c37e18dfca9
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+-  __DATA.__common: 0x41 sha256:98ce42deef51d40269d542f5314bef2c7468d401ad5d85168bfab4c0108f75f7
+-  __DATA.__bss: 0x190 sha256:7a12e561363385e9dfeeab326368731c030ed4b374e7f5897ac819159d2884c5
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:61a666bc201831c0b371b2bd55b29f4bf0be85b099fe2bc7cf5fe0cba4672f1c
++  __DATA.__common: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
++  __DATA.__bss: 0x180 sha256:a1a4f5721c1c4610af7f71078f3a68c330536d679803b0e0507ee8dc10c5dfca
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:bc6b10a04c468028daaf780610de0c0ae7080e7ea3a03a8d32ca8e4ef243ac46
+   __DATA_DIRTY.__data: 0x70 sha256:dfd8fd65bf1ae0854780701b5d868b58c66ad070c7f77796a5118a98a9f76ba4
+   __DATA_DIRTY.__bss: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+   __DATA_DIRTY.__common: 0x58 sha256:10eef285deef7a4b7c82b22aa53589b7833df29de3814649c772bbd5c832f365
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
++  - /System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /System/Library/PrivateFrameworks/FontServices.framework/Versions/A/FontServices
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5B8F7B1B-1503-311A-B406-7DB7F48A4704
++  UUID: FF644182-E4E5-3C98-979E-D3605BBB35BA
+   Functions: 1197
+-  Symbols:   2765
+-  CStrings:  1766
++  Symbols:   2836
++  CStrings:  1759
+ 
+Symbols:
++ +[XTLanguageMatchEntry canonicalKeyForLangs:count:]
++ +[XTLanguageMatchEntry entryForLangs:count:]
++ +[XTLanguageMatchEntry entryForLangs:count:].cold.1
++ -[TFontProviderClientXPC .cxx_destruct]
++ -[XTLanguageMatchEntry .cxx_destruct]
++ -[XTLanguageMatchEntry initWithRequestKey:]
++ -[XTLanguageMatchEntry matchesFontLangs:]
++ -[XTLanguageMatchEntry removeCoveredFrom:forFontLang:]
++ -[XTypeXPCClient .cxx_destruct]
++ GCC_except_table102
++ GCC_except_table106
++ GCC_except_table110
++ GCC_except_table111
++ GCC_except_table115
++ GCC_except_table118
++ GCC_except_table119
++ GCC_except_table126
++ GCC_except_table130
++ GCC_except_table131
++ GCC_except_table134
++ GCC_except_table138
++ GCC_except_table142
++ GCC_except_table147
++ GCC_except_table243
++ GCC_except_table270
++ GCC_except_table272
++ GCC_except_table293
++ GCC_except_table301
++ GCC_except_table304
++ GCC_except_table305
++ GCC_except_table452
++ GCC_except_table455
++ GCC_except_table459
++ GCC_except_table73
++ GCC_except_table88
++ GCC_except_table91
++ GCC_except_table93
++ GCC_except_table97
++ OBJC_IVAR_$_XTLanguageMatchEntry._fontLangCoverage
++ OBJC_IVAR_$_XTLanguageMatchEntry._requestedLangs
++ _CTIsLanguageSupportedByIdentifier
++ _OBJC_CLASS_$_XTLanguageMatchEntry
++ _OBJC_METACLASS_$_XTLanguageMatchEntry
++ _ZN21TLocalFontProviderXPC8GetQueueEv.cold.1
++ __25-[XTypeXPCClient XTPing:]_block_invoke.115
++ __31-[XTypeXPCClient XTEnableFont:]_block_invoke.145
++ __31-[XTypeXPCClient XTRendezvous:]_block_invoke.123
++ __33-[XTypeXPCClient XTGetFontScope:]_block_invoke.132
++ __37-[XTypeXPCClient XTCopyFontProviders]_block_invoke.176
++ __38-[XTypeXPCClient XTEnableFonts:scope:]_block_invoke.141
++ __39-[XTypeXPCClient EnsureFontFileAccess:]_block_invoke.186
++ __45-[XTypeXPCClient XTCopyFontURLWithFontToken:]_block_invoke.196
++ __47-[XTypeXPCClient XTCopyAvailableFonts:options:]_block_invoke.160
++ __51-[XTypeXPCClient XTCopyAvailableFontNames:options:]_block_invoke.153
++ __51-[XTypeXPCClient XTCopyFontWithName:scope:options:]_block_invoke.170
++ __54-[XTypeXPCClient XTCopyDuplicateFonts:options:domain:]_block_invoke.166
++ __60-[XTypeXPCClient XTUnregisterFonts:scope:failedURLs:errors:]_block_invoke.135
++ __61-[XTypeXPCClient XTCopyFamilyNamesForLanguage:scope:options:]_block_invoke.163
++ __62-[XTypeXPCClient XTCopyPropertiesForFonts:keys:scope:options:]_block_invoke.149
++ __79-[XTypeXPCClient XTCopyLocalizedNameForFonts:name:languageOrder:scope:options:]_block_invoke.156
++ __82-[XTypeXPCClient XTRegisterFonts:flags:scope:sandboxExtensions:failedURLs:errors:]_block_invoke.134
++ __83-[XTypeXPCClient XTCopyPropertiesForFontsMatchingRequest:properties:scope:options:]_block_invoke.173
++ __OBJC_$_CLASS_METHODS_XTLanguageMatchEntry
++ __OBJC_$_INSTANCE_METHODS_XTLanguageMatchEntry
++ __OBJC_$_INSTANCE_VARIABLES_XTLanguageMatchEntry
++ __OBJC_CLASS_RO_$_XTLanguageMatchEntry
++ __OBJC_METACLASS_RO_$_XTLanguageMatchEntry
++ __ZL19sLanguageMatchCache
++ __ZL22sCoveredSetInternTable
++ __ZN12TStackBufferIPK10__CFStringLm30EE8SetCountEm
++ __ZN15TPurgeableCacheC2EPKc
++ __ZN18TSessionManagerImpC2Ev
++ __ZN19TCFStringUniquerImpC2Ev
++ __ZN21TLocalFontProviderXPC8GetQueueEv
++ __ZN24TGlobalStaticRegistryImpC2EP20XTFontStaticRegistry
++ __ZN31TStaticFontNumberToFontRefIndexC2EPK24TGlobalStaticRegistryImpP8NSString
++ __ZNK16TCFStringUniquer16CopyUniqueStringEPK10__CFString
++ __ZNK16TCFStringUniquer16CopyUniqueStringEPKhm
++ __ZNK19TCFStringUniquerImp16CopyUniqueStringEPK10__CFString
++ __ZNK19TCFStringUniquerImp16CopyUniqueStringEPKhm
++ __ZNK21TLocalFontRegistryImp22FindAvailableFontIndexEj
++ __ZNK6TCFStr16CopyUniqueStringEv
++ __ZNKSt3__111__copy_implclB9nqe220106I16CFArray_iteratorIPKvES5_35CFMutableArray_back_insert_iteratorIS4_ELi0EEENS_4pairIT_T1_EES9_T0_SA_
++ __ZNSt12length_errorC1B9nqe220106EPKc
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIP6CGFontEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIP7__CFSetEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPK10__CFStringEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPK7__CFURLEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPK9__CFArrayEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIPKvEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIjEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorImEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9nqe220106EPKc
++ __ZNSt3__16vectorIP6CGFontNS_9allocatorIS2_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIP7__CFSetNS_9allocatorIS2_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE18__assign_with_sizeB9nqe220106INS_17_ClassicAlgPolicyEPS3_S9_EEvT0_T1_l
++ __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIPK7__CFURLNS_9allocatorIS3_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIPK9__CFArrayNS_9allocatorIS3_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE18__assign_with_sizeB9nqe220106INS_17_ClassicAlgPolicyEPcS6_EEvT0_T1_l
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE18__assign_with_sizeB9nqe220106INS_17_ClassicAlgPolicyEPjS6_EEvT0_T1_l
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__17__mergeB9nqe220106IR20TCFComparatorFunctorILln1EE16CFArray_iteratorIPKvES7_35CFMutableArray_back_insert_iteratorIS6_EEET2_T0_SB_T1_SC_SA_T_
++ __ZSt28__throw_bad_array_new_lengthB9nqe220106v
++ __ZZ44+[XTLanguageMatchEntry entryForLangs:count:]E4once
++ ___44+[XTLanguageMatchEntry entryForLangs:count:]_block_invoke
++ ___block_descriptor_40_ea8_32bs_e17_v16?0"NSError"8l
++ ___block_descriptor_40_ea8_32r_e15_v16?0"NSURL"8l
++ ___block_descriptor_40_ea8_32r_e17_v16?0"NSArray"8l
++ ___block_descriptor_40_ea8_32r_e17_v16?0"NSError"8l
++ ___block_descriptor_40_ea8_32r_e18_v16?0"NSString"8l
++ ___block_descriptor_40_ea8_32r_e20_v20?0B8"NSArray"12l
++ ___block_descriptor_40_ea8_32r_e22_v16?0"NSDictionary"8l
++ ___block_descriptor_40_ea8_32r_e26_v24?0"NSURL"8"NSData"16l
++ ___block_descriptor_40_ea8_32r_e28_v24?0"NSArray"8"NSData"16l
++ ___block_descriptor_40_ea8_32r_e34_v16?0"<XTFontRegistryProtocol>"8l
++ ___block_descriptor_40_ea8_32r_e8_v12?0B8l
++ ___block_descriptor_40_ea8_32r_e8_v12?0I8l
++ ___block_descriptor_40_ea8_32s_e15_v32?0816^B24l
++ ___block_descriptor_40_ea8_32s_e34_v16?0"<XTFontRegistryProtocol>"8l
++ ___block_descriptor_40_ea8_32s_e5_v8?0l
++ ___block_descriptor_44_ea8_32r_e34_v16?0"<XTFontRegistryProtocol>"8l
++ ___block_descriptor_48_ea8_32r_e17_v16?0"NSError"8l
++ ___block_descriptor_48_ea8_32r_e25_v20?0I8"NSDictionary"12l
++ ___block_descriptor_48_ea8_32r_e34_v16?0"<XTFontRegistryProtocol>"8l
++ ___block_descriptor_48_ea8_32s40r_e34_v16?0"<XTFontRegistryProtocol>"8l
++ ___block_descriptor_48_ea8_32s40s_e5_v8?0l
++ ___block_descriptor_52_ea8_32r_e34_v16?0"<XTFontRegistryProtocol>"8l
++ ___block_descriptor_52_ea8_32s40r_e22_v16?0"NSDictionary"8l
++ ___block_descriptor_52_ea8_32s40r_e28_v24?0"NSArray"8"NSData"16l
++ ___block_descriptor_52_ea8_32s40r_e34_v16?0"<XTFontRegistryProtocol>"8l
++ ___block_descriptor_56_ea8_32bs40c11_ZTS6TCFURL_e22_v32?0"NSURL"8Q16^B24l
++ ___block_descriptor_56_ea8_32bs_e22_v32?0"NSURL"8Q16^B24l
++ ___block_descriptor_56_ea8_32r40r48r_e32_v28?0B8"NSArray"12"NSArray"20l
++ ___block_descriptor_56_ea8_32s40r_e34_v16?0"<XTFontRegistryProtocol>"8l
++ ___block_descriptor_68_ea8_32s40r48r56r_e34_v16?0"<XTFontRegistryProtocol>"8l
++ ___block_descriptor_72_ea8_32s40s48s56r_e34_v16?0"<XTFontRegistryProtocol>"8l
++ ___block_descriptor_75_ea8_32r40r_e18_B16?0^{__CFURL=}8l
++ ___block_descriptor_80_ea8_32s40s48r56r64r_e34_v16?0"<XTFontRegistryProtocol>"8l
++ ___copy_helper_block_ea8_32b
++ ___copy_helper_block_ea8_32b40c11_ZTS6TCFURL
++ ___copy_helper_block_ea8_32r
++ ___copy_helper_block_ea8_32r40r
++ ___copy_helper_block_ea8_32r40r48r
++ ___copy_helper_block_ea8_32s
++ ___copy_helper_block_ea8_32s40r
++ ___copy_helper_block_ea8_32s40r48r56r
++ ___copy_helper_block_ea8_32s40s48r56r64r
++ ___copy_helper_block_ea8_32s40s48s56r
++ ___destroy_helper_block_ea8_32r
++ ___destroy_helper_block_ea8_32r40r
++ ___destroy_helper_block_ea8_32r40r48r
++ ___destroy_helper_block_ea8_32s
++ ___destroy_helper_block_ea8_32s40c11_ZTS6TCFURL
++ ___destroy_helper_block_ea8_32s40r
++ ___destroy_helper_block_ea8_32s40r48r56r
++ ___destroy_helper_block_ea8_32s40s48r56r64r
++ ___destroy_helper_block_ea8_32s40s48s56r
++ __block_literal_global.178
++ __block_literal_global.180
++ __block_literal_global.188
++ __block_literal_global.190
++ __block_literal_global.198
++ __block_literal_global.379
++ _objc_loadWeakRetained
++ _objc_msgSend$canonicalKeyForLangs:count:
++ _objc_msgSend$componentsJoinedByString:
++ _objc_msgSend$dictionary
++ _objc_msgSend$entryForLangs:count:
++ _objc_msgSend$initWithRequestKey:
++ _objc_msgSend$matchesFontLangs:
++ _objc_msgSend$member:
++ _objc_msgSend$null
++ _objc_msgSend$removeCoveredFrom:forFontLang:
++ _objc_msgSend$set
++ _objc_msgSend$setObject:forKeyedSubscript:
++ _objc_msgSend$sortUsingSelector:
++ _objc_retainBlock
+- -[TFontProviderClientXPC addRequest:].cold.1
+- -[TFontProviderClientXPC callFontProvider].cold.1
+- -[TFontProviderHandler dealloc]
+- -[XTypeXPCClient dealloc]
+- DoEnableURLsWithATS.cold.1
+- DoRegisterDataWithATS.cold.1
+- DoRegisterURLsWithATS.cold.1
+- GCC_except_table105
+- GCC_except_table109
+- GCC_except_table113
+- GCC_except_table125
+- GCC_except_table128
+- GCC_except_table135
+- GCC_except_table136
+- GCC_except_table140
+- GCC_except_table145
+- GCC_except_table148
+- GCC_except_table245
+- _CFBundleCreate
+- _CFBundleGetDataPointerForName
+- _DoEnableURLsWithATS
+- _DoRegisterDataWithATS
+- _DoRegisterURLsWithATS
+- __25-[XTypeXPCClient XTPing:]_block_invoke.114
+- __31-[XTypeXPCClient XTEnableFont:]_block_invoke.148
+- __31-[XTypeXPCClient XTRendezvous:]_block_invoke.122
+- __33-[XTypeXPCClient XTGetFontScope:]_block_invoke.131
+- __37-[XTypeXPCClient XTCopyFontProviders]_block_invoke.179
+- __38-[XTypeXPCClient XTEnableFonts:scope:]_block_invoke.144
+- __39-[XTypeXPCClient EnsureFontFileAccess:]_block_invoke.189
+- __45-[XTypeXPCClient XTCopyFontURLWithFontToken:]_block_invoke.199
+- __47-[XTypeXPCClient XTCopyAvailableFonts:options:]_block_invoke.163
+- __51-[XTypeXPCClient XTCopyAvailableFontNames:options:]_block_invoke.156
+- __51-[XTypeXPCClient XTCopyFontWithName:scope:options:]_block_invoke.173
+- __54-[XTypeXPCClient XTCopyDuplicateFonts:options:domain:]_block_invoke.169
+- __60-[XTypeXPCClient XTUnregisterFonts:scope:failedURLs:errors:]_block_invoke.138
+- __61-[XTypeXPCClient XTCopyFamilyNamesForLanguage:scope:options:]_block_invoke.166
+- __62-[XTypeXPCClient XTCopyPropertiesForFonts:keys:scope:options:]_block_invoke.152
+- __79-[XTypeXPCClient XTCopyLocalizedNameForFonts:name:languageOrder:scope:options:]_block_invoke.159
+- __82-[XTypeXPCClient XTRegisterFonts:flags:scope:sandboxExtensions:failedURLs:errors:]_block_invoke.135
+- __83-[XTypeXPCClient XTCopyPropertiesForFontsMatchingRequest:properties:scope:options:]_block_invoke.176
+- __Block_copy
+- __Block_release
+- __ZL15LoadATSFunctionPK10__CFString
+- __ZN11TCFRetainedIP10__CFBundleED2Ev
+- __ZN21TLocalFontProviderXPCD2Ev
+- __ZN22TGlobalFontRegistryImpD2Ev
+- __ZN6TCFSetIPKvE15IsSuperSetOfSetEPK7__CFSet
+- __ZN6TCFStr36CreateSubstringWithoutRegionalSuffixEv
+- __ZNK15TSessionManager19GetFrameworkDirPathEv
+- __ZNK16TCFStringUniquer15GetUniqueStringEPK10__CFString
+- __ZNK16TCFStringUniquer15GetUniqueStringEPKhm
+- __ZNK19TCFStringUniquerImp15GetUniqueStringEPK10__CFString
+- __ZNK19TCFStringUniquerImp15GetUniqueStringEPKhm
+- __ZNK21TLocalFontRegistryImp17FindNextFontIndexEj
+- __ZNK6TCFStr15GetUniqueStringEv
+- __ZNKSt3__111__copy_implclB9nqe220100I16CFArray_iteratorIPKvES5_35CFMutableArray_back_insert_iteratorIS4_ELi0EEENS_4pairIT_T1_EES9_T0_SA_
+- __ZNSt12length_errorC1B9nqe220100EPKc
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIP6CGFontEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIP7__CFSetEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPK10__CFStringEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPK7__CFURLEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPK9__CFArrayEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIPKvEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorIjEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__119__allocate_at_leastB9nqe220100INS_9allocatorImEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
+- __ZNSt3__120__throw_length_errorB9nqe220100EPKc
+- __ZNSt3__16vectorIP6CGFontNS_9allocatorIS2_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIP7__CFSetNS_9allocatorIS2_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIPK7__CFURLNS_9allocatorIS3_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIPK9__CFArrayNS_9allocatorIS3_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE18__assign_with_sizeB9nqe220100INS_17_ClassicAlgPolicyEPcS6_EEvT0_T1_l
+- __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB9nqe220100Em
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE18__assign_with_sizeB9nqe220100INS_17_ClassicAlgPolicyEPjS6_EEvT0_T1_l
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB9nqe220100Ev
+- __ZNSt3__17__mergeB9nqe220100IR20TCFComparatorFunctorILln1EE16CFArray_iteratorIPKvES7_35CFMutableArray_back_insert_iteratorIS6_EEET2_T0_SB_T1_SC_SA_T_
+- __ZSt28__throw_bad_array_new_lengthB9nqe220100v
+- __ZZ19DoEnableURLsWithATSE17atsEnableURLsProc
+- __ZZ21DoRegisterDataWithATSE19atsRegisterDataProc
+- __ZZ21DoRegisterURLsWithATSE19atsRegisterURLsProc
+- __ZZL15GetSyncATSQueuevE13sSyncATSQueue
+- __ZZL15GetSyncATSQueuevE9onceToken
+- ___DoEnableURLsWithATS_block_invoke
+- ___DoRegisterDataWithATS_block_invoke
+- ___DoRegisterURLsWithATS_block_invoke
+- ____ZL15GetSyncATSQueuev_block_invoke
+- ___block_descriptor_40_e8_32b_e17_v16?0"NSError"8l
+- ___block_descriptor_40_e8_32o_e15_v32?0816^B24l
+- ___block_descriptor_40_e8_32o_e34_v16?0"<XTFontRegistryProtocol>"8l
+- ___block_descriptor_40_e8_32o_e5_v8?0l
+- ___block_descriptor_40_e8_32r_e15_v16?0"NSURL"8l
+- ___block_descriptor_40_e8_32r_e17_v16?0"NSArray"8l
+- ___block_descriptor_40_e8_32r_e17_v16?0"NSError"8l
+- ___block_descriptor_40_e8_32r_e18_v16?0"NSString"8l
+- ___block_descriptor_40_e8_32r_e20_v20?0B8"NSArray"12l
+- ___block_descriptor_40_e8_32r_e22_v16?0"NSDictionary"8l
+- ___block_descriptor_40_e8_32r_e26_v24?0"NSURL"8"NSData"16l
+- ___block_descriptor_40_e8_32r_e28_v24?0"NSArray"8"NSData"16l
+- ___block_descriptor_40_e8_32r_e34_v16?0"<XTFontRegistryProtocol>"8l
+- ___block_descriptor_40_e8_32r_e8_v12?0B8l
+- ___block_descriptor_40_e8_32r_e8_v12?0I8l
+- ___block_descriptor_44_e8_32r_e34_v16?0"<XTFontRegistryProtocol>"8l
+- ___block_descriptor_48_e8_32o40o_e5_v8?0l
+- ___block_descriptor_48_e8_32o40r_e34_v16?0"<XTFontRegistryProtocol>"8l
+- ___block_descriptor_48_e8_32r_e17_v16?0"NSError"8l
+- ___block_descriptor_48_e8_32r_e25_v20?0I8"NSDictionary"12l
+- ___block_descriptor_48_e8_32r_e34_v16?0"<XTFontRegistryProtocol>"8l
+- ___block_descriptor_50_e5_v8?0l
+- ___block_descriptor_52_e8_32o40r_e22_v16?0"NSDictionary"8l
+- ___block_descriptor_52_e8_32o40r_e28_v24?0"NSArray"8"NSData"16l
+- ___block_descriptor_52_e8_32o40r_e34_v16?0"<XTFontRegistryProtocol>"8l
+- ___block_descriptor_52_e8_32r_e34_v16?0"<XTFontRegistryProtocol>"8l
+- ___block_descriptor_54_e5_v8?0l
+- ___block_descriptor_56_e8_32b40c11_ZTS6TCFURL_e22_v32?0"NSURL"8Q16^B24l
+- ___block_descriptor_56_e8_32b_e22_v32?0"NSURL"8Q16^B24l
+- ___block_descriptor_56_e8_32o40r_e34_v16?0"<XTFontRegistryProtocol>"8l
+- ___block_descriptor_56_e8_32r_e32_v28?0B8"NSArray"12"NSArray"20l
+- ___block_descriptor_64_e8_32r_e5_v8?0l
+- ___block_descriptor_68_e8_32o40r_e34_v16?0"<XTFontRegistryProtocol>"8l
+- ___block_descriptor_72_e8_32o40o48o56r_e34_v16?0"<XTFontRegistryProtocol>"8l
+- ___block_descriptor_75_e8_32r40r_e18_B16?0^{__CFURL=}8l
+- ___block_descriptor_80_e8_32o40o48r_e34_v16?0"<XTFontRegistryProtocol>"8l
+- ___copy_helper_block_e8_32b
+- ___copy_helper_block_e8_32b40c11_ZTS6TCFURL
+- ___copy_helper_block_e8_32o
+- ___copy_helper_block_e8_32o40o
+- ___copy_helper_block_e8_32o40o48o56r
+- ___copy_helper_block_e8_32o40o48r
+- ___copy_helper_block_e8_32o40r
+- ___copy_helper_block_e8_32r
+- ___copy_helper_block_e8_32r40r
+- ___destroy_helper_block_e8_32b
+- ___destroy_helper_block_e8_32b40c11_ZTS6TCFURL
+- ___destroy_helper_block_e8_32o
+- ___destroy_helper_block_e8_32o40o
+- ___destroy_helper_block_e8_32o40o48o56r
+- ___destroy_helper_block_e8_32o40o48r
+- ___destroy_helper_block_e8_32o40r
+- ___destroy_helper_block_e8_32r
+- ___destroy_helper_block_e8_32r40r
+- __block_literal_global.181
+- __block_literal_global.186
+- __block_literal_global.191
+- __block_literal_global.193
+- __block_literal_global.201
+- __block_literal_global.31
+- _gXTypeIgnoreServer
+- _objc_autorelease
+- _objc_loadWeak
+- _objc_setProperty_nonatomic
+CStrings:
++ "\t"
+- "ATSEnableURLs"
+- "ATSRegisterData"
+- "ATSRegisterURLs"
+- "com.apple.xtype.SyncATSQueue"
+- "zh"
+
+```

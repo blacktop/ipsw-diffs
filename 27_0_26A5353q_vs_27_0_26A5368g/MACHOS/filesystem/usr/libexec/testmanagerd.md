@@ -1,0 +1,330 @@
+## testmanagerd
+
+> `/usr/libexec/testmanagerd`
+
+```diff
+
+-25181.1.1.0.0
+-  __TEXT.__text: 0x9d300 sha256:c95478b94332bf09896ae368d222fdf9f02c2f27d2a2988717bda42b0c1e7021
+-  __TEXT.__auth_stubs: 0x2380 sha256:c992a5fc8080244149fa8ee2b55a61330f0a29f9712991fb8447d4cceb0916e7
+-  __TEXT.__objc_stubs: 0x85c0 sha256:d49af1e0ad13c60efe673e1c8255b19187e5d76902ace0d3238ee25b7c8685bd
+-  __TEXT.__objc_methlist: 0x6618 sha256:c9fc819200e513edbbd4e0c5e17341b962233b13cefd4c8011e6e2df42d64be3
+-  __TEXT.__const: 0x2240 sha256:2e339f6044a513f7d3c1c740f16f0a9e7630214571daf4a0579c70926b78e752
+-  __TEXT.__swift5_entry: 0x8 sha256:f7f07712645f84f4ea44510eabda58bd71db18fd6f120a638d0cbd134ab55f99
+-  __TEXT.__swift5_typeref: 0x13d7 sha256:9c849f37340ca1a660dfeec6e55186d95810557d32b6e5b1cff1971fade71733
+-  __TEXT.__cstring: 0x6360 sha256:55aff03bf83204c17c02fe209c45675b07d8b213900a4236c2fdd1a571546bf3
+-  __TEXT.__oslogstring: 0x78c3 sha256:5316085b175f542c5a3db2cb4cd610d4cde7fd4c2f58339a8cf36aaf20482de8
+-  __TEXT.__objc_methname: 0x1035f sha256:b22595f4d350c13897434b58d7ae87917162c049dfd380a00b395807155bbd4c
+-  __TEXT.__objc_classname: 0x189a sha256:f463d254313eeb770d0e7963dddf80434493935140615cf327666a1bb4a516b3
+-  __TEXT.__objc_methtype: 0x59e5 sha256:6a12cae3a40ba3b54f864f9653a351262d08f2532360db002d10983342a6fea5
+-  __TEXT.__gcc_except_tab: 0x9c4 sha256:29eab2a15f80399f4e2918610bb343089465becbcddc68fdf5623711e4c53b08
++25197.0.0.0.0
++  __TEXT.__text: 0x9d538 sha256:3657829bde5b9634d0aaa9063efc30cf385c45a3eaa029440ee9f096d18ad21c
++  __TEXT.__auth_stubs: 0x23b0 sha256:078a94d0173b861813b49d2ff865308b58f16a3423b224be2389e940d51fec15
++  __TEXT.__objc_stubs: 0x8620 sha256:f1ca511166f666534e0e298a93c34a3d5a299eaa772dcf66b2812d272b8a3ba1
++  __TEXT.__objc_methlist: 0x66a0 sha256:4d1f8feb07af068088738cba06955d2091c85fb7d5531461c8f040a98f462d5f
++  __TEXT.__const: 0x2240 sha256:7da43a5fea4666757fbc3c5acca6dad7fd91de0a4edb028a063450f5c8a08919
++  __TEXT.__swift5_entry: 0x8 sha256:3f73feaf0b15f890bc55ebb3360e623f80904e4ac0a226a1d8f1017ff2be0387
++  __TEXT.__swift5_typeref: 0x13e5 sha256:cb5f37aa5f89f29d3b2a94ec4377395f1d8e51b05e0822f9e1bb672828b5e702
++  __TEXT.__cstring: 0x6390 sha256:fd983840dbf5dc2b9d269f9f4b3192131411d0ec273197836c821a1a7aa23924
++  __TEXT.__oslogstring: 0x7993 sha256:a53fc504fbfd3f9f1d52c54f4561042363e8c66baa0ba09a6784d8d8427202d5
+   __TEXT.__ustring: 0xf4 sha256:0e9c202a2327705af2d40aad1bc0395d77be10cd8cb1615536510463c14a6054
+-  __TEXT.__constg_swiftt: 0x958 sha256:23e22fbe3f625450618fe1773746d43d15b8c33a912a02235fcd4b4debfd687d
+-  __TEXT.__swift5_builtin: 0x104 sha256:bb284f262176c395d56ea27ab59d4c088d8a2d194c569cfe0d5e37a29ccabddc
+-  __TEXT.__swift5_reflstr: 0x954 sha256:014874e690adbe43d942d9c1e692874defeadd6a3ed8198819efb4ce4667460f
+-  __TEXT.__swift5_fieldmd: 0x918 sha256:094e6a606ebac6c1bc4172062dd02cbbc2e26b2d6e744e2c4bcbca86db0fc2a4
+-  __TEXT.__swift5_assocty: 0x150 sha256:3ad0bc0f8d6d05bce145f1356fd39b3200bfcee611814cfaacf6abd33d9df341
+-  __TEXT.__swift5_proto: 0xf8 sha256:1feb3781a205d1a7b8fd58114ada397b222aa686d7e9da7ed4d6093c18abaf04
+-  __TEXT.__swift5_types: 0xb4 sha256:3ec83a55a9376c97cd38a05ef76fa1fc527f4c1f2e1f16e36d8d2b8512d2629a
+-  __TEXT.__swift5_capture: 0xdfc sha256:af2e693520c67399336df1f319df72630d6d4e1d51857383e1ea9633312eda47
+-  __TEXT.__swift5_mpenum: 0x8 sha256:143964caf39d33821dbed04ca9ff00e36eb55d168c8881cbbed281a611187ab7
+-  __TEXT.__swift_as_entry: 0xec sha256:6ce33ec5f5ecce982be529b02f712c49d72a15e344289232003fe545b2a59881
+-  __TEXT.__swift_as_ret: 0xd4 sha256:01b55354e6f9aad44e17fdb5db5dbd12d2a28af4d0793fac7fcefcd816bdfa6b
+-  __TEXT.__swift_as_cont: 0x1c8 sha256:912ab64e16c74ba6d956b67362e55b4cb47997d2798094ea68d98bab3c8218f9
+-  __TEXT.__swift5_protos: 0x8 sha256:34bfb9eacf4fd9c99b4cca42a3d4615365c4929fbd3db15d9783bdbf7d974fc1
+-  __TEXT.__unwind_info: 0x27b0 sha256:11f6101b2076dfcf9cedd468f1abc135e30055dcde58ecfc6b2b495bb612ae37
+-  __TEXT.__eh_frame: 0x2c90 sha256:5094505c2ed911f4e5afd680331cc9591f828ca0860f7c312b88065505ee853b
+-  __DATA_CONST.__const: 0x48e0 sha256:8566ef4af54fceffa316ca14082fbae9be68cfcce7b22c40fe4a2b083f89451d
+-  __DATA_CONST.__cfstring: 0x4e00 sha256:0a387ab12cf74df13b4c96ee46d54e6f9a1b23146c4bcb9605c5cdc401c55ebc
+-  __DATA_CONST.__objc_classlist: 0x260 sha256:c802ff0a01a2352806ec159e8bdeffba3aaacf2ed9d89005f7cce48e5c518c93
+-  __DATA_CONST.__objc_catlist: 0x50 sha256:06e7da984f4da9fbbe4f6618a3c5a2e51b4cc61c073a0cc4aeff848897f0ef52
+-  __DATA_CONST.__objc_protolist: 0x560 sha256:50da44006fc8976e3b61e7780ec74f2ff963c840833886ebedaffac6e7987d0f
++  __TEXT.__objc_methname: 0x1052f sha256:5b77c0891807441eb7d36aa80d1ef420a5faea6b932f611cb15b4258c934b93e
++  __TEXT.__objc_classname: 0x191a sha256:2e81d71c89dae59e552def34427ae43d5c7b325e7ef95d5a23270fc09a1ab3b7
++  __TEXT.__objc_methtype: 0x59e5 sha256:1470e8fb239f982cc36a12ec16f6508e46b8cbfc412b25d9fe9131e874167ee6
++  __TEXT.__gcc_except_tab: 0x9d4 sha256:f360b90737c0579a3e899cb95e41ad4103c4bf0558ce0d759ecf5d905f049058
++  __TEXT.__constg_swiftt: 0x958 sha256:570275db895a0b129cb0f141c9648f4c25134ad02b6cb41e0e815a9de1edaa94
++  __TEXT.__swift5_builtin: 0x104 sha256:995e98e50d1ff1ce2a6718e4dce6655b523203c4526d48382285ac269b4afecc
++  __TEXT.__swift5_reflstr: 0x974 sha256:127a97874fc3e0d4580be8d7294de2336daccee6dbf2398e295b4f6c0fbcd0a5
++  __TEXT.__swift5_fieldmd: 0x924 sha256:a3406a438736e6f81488dd9721a5a0e5cc7847caa70827c88bdd2ff939c97a33
++  __TEXT.__swift5_assocty: 0x150 sha256:c9d78ea01d7b1bed39efa904144dbc604ba9eee15f8a1acf94279d2021f40e54
++  __TEXT.__swift5_proto: 0xf8 sha256:2d9837435d97fa7f232ca8eab5d9d9a89a4b3fec4b67ac90b792817e406e1947
++  __TEXT.__swift5_types: 0xb4 sha256:9d6c7656192c0519abb6f11218daf32801074304c943905b1d4efd442819d42d
++  __TEXT.__swift5_capture: 0xe14 sha256:c48fb888d689a5a142c8a72d9b2fb563b5336cb7f4805da8e3a74b948eb14466
++  __TEXT.__swift5_mpenum: 0x8 sha256:6d62300ac64656944dca4a93449d2a14da6f737ce867b97e38f0a8134a319fb1
++  __TEXT.__swift_as_entry: 0xec sha256:d87f205baff047a38237bd833397bd4d6972509f173b27aa0eab6bed546afd7c
++  __TEXT.__swift_as_ret: 0xd4 sha256:bd20c9af1167f41eaee96f6dc4bf9a1643cca45770bbcdc1c654f8f5fa8a85eb
++  __TEXT.__swift_as_cont: 0x1c8 sha256:167c89bd6d45533d4741473b921907376c453a7da3750b4b279291d3ab92adb5
++  __TEXT.__swift5_protos: 0x8 sha256:1cae49e07f618b1cb36faf025a76b023b4275f7fe064dfdc235c037e1ab639ef
++  __TEXT.__unwind_info: 0x27b0 sha256:74cf1e0975082c674fb79640bfc82f97a201d073189c99bb4f5a7b1b4c1ae0db
++  __TEXT.__eh_frame: 0x2c20 sha256:8f4fa28141012209dd3d4d56a7e75dfe98ffc62270ef0888691c03e49467c2b9
++  __DATA_CONST.__const: 0x4908 sha256:c0ee0012081af482b97ebce14d470a91270856678bc395ba573f0d001813ab6e
++  __DATA_CONST.__cfstring: 0x4e00 sha256:4b4ef348ddbc425f260980faef9906d3a963663595305d862a0d31b051c8d47a
++  __DATA_CONST.__objc_classlist: 0x260 sha256:708c3b7dbf669bb3fc98417b47666b844b00d864c586a3aa5f5ee17a8953ca82
++  __DATA_CONST.__objc_catlist: 0x50 sha256:220c2031474694581d7d229d63db3ca82de8f09af06218f9587d51e911cabecc
++  __DATA_CONST.__objc_protolist: 0x578 sha256:031a5001db57ec6151a620e60b54334240bedc8786f2fc5ed96ebb4981c9557e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+-  __DATA_CONST.__objc_protorefs: 0x1e8 sha256:887d78a53fda14e1c15286b73fa9ff209f35b1a549e7b79bf197adab83716f26
+-  __DATA_CONST.__objc_superrefs: 0x188 sha256:325e7516872ce27e80daca3e126825584b7fd3adef8cbb4630992c7699d95000
+-  __DATA_CONST.__objc_intobj: 0x948 sha256:7d935e3fc4b1eb7248e8426bb70e82e933605d332a4bb0fb600fa540f286eb05
++  __DATA_CONST.__objc_protorefs: 0x1e8 sha256:2c0f2a974e19b83e4da6991faffe97b7f799c0bbd8877c148312d8c7d9d220e4
++  __DATA_CONST.__objc_superrefs: 0x188 sha256:56aee2dae167e88ce2cb790d4ea46dc010d39f48cd29d6359d08aa4dc9397113
++  __DATA_CONST.__objc_intobj: 0x948 sha256:f7c1e1f55f3b4205f0e0dbc22893f50de9439feaa6387ab9809baaa90f6f0119
+   __DATA_CONST.__objc_doubleobj: 0x20 sha256:4da997a3ac6aaf4e7693c37e5ed227b4803af4c38e93fe0fa6dd51a6c274f2f2
+-  __DATA_CONST.__objc_arraydata: 0xd8 sha256:c112584920694c17f4ff6536ae786aa98d9340ac2464c3606d2da031736bc6e1
+-  __DATA_CONST.__objc_dictobj: 0x28 sha256:0b4c7676804d42f1bfa31981b9eee5c8fad6cbbfcad782134377d79bd426874e
+-  __DATA_CONST.__objc_arrayobj: 0x60 sha256:9e2773d391afc92fcf5ca26ff08f51e0a83adb9e0ef6e3a1e70509833ccbd35f
+-  __DATA_CONST.__auth_got: 0x11d0 sha256:f3491bc5ceaeff0845b112088dc76650eb5173234f453f43532a5da1ffbc6dd3
+-  __DATA_CONST.__got: 0x9a0 sha256:e4f9b4df1fd71942c04f389fa161526450b5b7d9ccbb149a88f7d1dd275f337f
+-  __DATA_CONST.__auth_ptr: 0x868 sha256:0f939182d4c10c162977fda500d8ad1fac7419b9453f0b0a0ec69ebd2601d617
+-  __DATA.__objc_const: 0x135b8 sha256:f5799538280e2a5cc1702ee3c0a4f8c10207069ea360ae3fff694e7f515862cd
+-  __DATA.__objc_selrefs: 0x32a8 sha256:a165d5a804959933f447d020f77c227e7a7b96c0259236a996b6962d281427a5
+-  __DATA.__objc_ivar: 0x560 sha256:a8ecde0abb5aafd71a478714795e73702087fa7bd77de768295e92394f931e99
+-  __DATA.__objc_data: 0x1ca8 sha256:7e0f07bf7b72bbaeff46237bf45f2c3f3dd627b869a893ead985ec73d835d645
+-  __DATA.__data: 0x4240 sha256:ba908f514a35baf7facc63a64230a97ed2e0bb8a4d959ae7a63df2adeb158da9
++  __DATA_CONST.__objc_arraydata: 0xd8 sha256:9058bad0674c4fa23614249328b42fcd22f87b1d9a8df2175f8917836a79d95a
++  __DATA_CONST.__objc_dictobj: 0x28 sha256:a88fc4ac7c43681992d8858455865bcb539d2f1a2b30adcc25d6cee64d0c5435
++  __DATA_CONST.__objc_arrayobj: 0x60 sha256:e89a8243592cf0859a000761a3ccfe3f077435af0bddd2be696fcd09a4e26f06
++  __DATA_CONST.__auth_got: 0x11e8 sha256:b39fce469e5e2d0372cb1ab695d5b155b390ca5fb276c2491eb5f7dc54ba09f0
++  __DATA_CONST.__got: 0x9a0 sha256:152f4249135c8c33e1cc9b510dd94a86d5eba7a6372627b562c478d003a8f16c
++  __DATA_CONST.__auth_ptr: 0x868 sha256:5cf5a15dc13a20bf435ef6458df4937a50078604905b5bb5eb936d584d0dc77d
++  __DATA.__objc_const: 0x13628 sha256:7cef95a6576805424f69f35757c320849f303026e5392cce1873388619c1ae65
++  __DATA.__objc_selrefs: 0x32f8 sha256:b8668609560aa84c1dd56e60fd52437f659f9d7e8f16662ff173ca0b1c34163b
++  __DATA.__objc_ivar: 0x560 sha256:2569ded2c53420a5cc9fc53bdd3d0d62bedbca46ae66186534256de894600d6b
++  __DATA.__objc_data: 0x1ca8 sha256:9cde122b79ef2dad211bc9d666875ba54cb2e9d5e9c126720799ed085e057cc2
++  __DATA.__data: 0x4360 sha256:9b514eacc42b3a62fd1826498dd639ce87c956f4007ee8cc676b288769352dae
+   __DATA.__bss: 0x1ff0 sha256:dc8d695362bd3045c7a4e2c9c6fcafb3305cba9f304c8030f64cb0833154e736
+   __DATA.__common: 0x170 sha256:71818ecc26433c32172dd9a3544657971c7078daa2257da7c3c303e08693cb23
+   __CGPreLoginApp.__cgpreloginapp: 0x0
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 71DAB604-07F5-3E68-9D69-B7AD9D710EEA
+-  Functions: 3856
+-  Symbols:   9926
+-  CStrings:  5017
++  UUID: 6AA294DD-A797-3B0D-AE43-06FAC3B4ABA5
++  Functions: 3868
++  Symbols:   9957
++  CStrings:  5034
+ 
+Symbols:
++ $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.119
++ $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.115
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.127
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.127TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.127Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.184
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.184TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.184Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.65
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.65TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.65Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.74
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.74TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.74Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.96
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.96TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.96Tu
++ +[XCTDProcessMonitor _effectiveBundleIDForEmbeddedApplicationIdentifier:xpcServiceIdentifier:bundleID:]
++ +[XCTDProcessMonitor stateSnapshotFromRBSState:forRBSBundle:pid:].cold.1
++ -[XCTDDaemon controlSession:isPreparingCrashReportForPID:]
++ _$s20XCTAutomationSupport17XCTDisplayManagerC11mainDisplaySo9CADisplayCSgvgZTj
++ _$s20XCTAutomationSupport17XCTDisplayManagerC13displayOrMain6withIDSo9CADisplayCSgs6UInt32V_tFZTj
++ _$s20XCTAutomationSupport17XCTDisplayManagerC16shortDescription10forDisplaySSSo9CADisplayC_tFZTj
++ _$s20XCTAutomationSupport17XCTDisplayManagerC8uniqueID010forDisplayF0SSSgs6UInt32V_tFZTj
++ _$s9XCTDaemon23XCTDisplayManagerBridgeC11mainDisplaySo9CADisplayCSgvgZ
++ _$s9XCTDaemon23XCTDisplayManagerBridgeC11mainDisplaySo9CADisplayCSgvgZTo
++ _$s9XCTDaemon23XCTDisplayManagerBridgeC13displayOrMain6withIDSo9CADisplayCSgs6UInt32V_tFZ
++ _$s9XCTDaemon23XCTDisplayManagerBridgeC13displayOrMain6withIDSo9CADisplayCSgs6UInt32V_tFZTo
++ _$s9XCTDaemon23XCTDisplayManagerBridgeC16shortDescription10forDisplaySSSo9CADisplayC_tFZ
++ _$s9XCTDaemon23XCTDisplayManagerBridgeC16shortDescription10forDisplaySSSo9CADisplayC_tFZTo
++ _$s9XCTDaemon23XCTDisplayManagerBridgeC8uniqueID010forDisplayF0SSSgs6UInt32V_tFZ
++ _$s9XCTDaemon23XCTDisplayManagerBridgeC8uniqueID010forDisplayF0SSSgs6UInt32V_tFZTo
++ _OBJC_$_PROP_LIST_XCTestSession.807
++ _OUTLINED_FUNCTION_155
++ _OUTLINED_FUNCTION_156
++ _OUTLINED_FUNCTION_157
++ __64-[XCTestSession _XCT_startScreenRecordingWithRequest:withReply:]_block_invoke.591
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_XCTMessagingRole_CrashReportMonitoring_DTX
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_XCTMessagingRole_CrashReportMonitoring_XPC
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_XCTMessagingRole_SpindumpRequesting_DTX
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_XCTMessagingRole_SpindumpRequesting_XPC
++ __OBJC_$_PROTOCOL_METHOD_TYPES_XCTMessagingRole_CrashReportMonitoring_DTX
++ __OBJC_$_PROTOCOL_METHOD_TYPES_XCTMessagingRole_CrashReportMonitoring_XPC
++ __OBJC_$_PROTOCOL_METHOD_TYPES_XCTMessagingRole_SpindumpRequesting_DTX
++ __OBJC_$_PROTOCOL_METHOD_TYPES_XCTMessagingRole_SpindumpRequesting_XPC
++ __OBJC_LABEL_PROTOCOL_$_XCTMessagingRole_CrashReportMonitoring_DTX
++ __OBJC_LABEL_PROTOCOL_$_XCTMessagingRole_CrashReportMonitoring_XPC
++ __OBJC_LABEL_PROTOCOL_$_XCTMessagingRole_SpindumpRequesting_DTX
++ __OBJC_LABEL_PROTOCOL_$_XCTMessagingRole_SpindumpRequesting_XPC
++ __OBJC_PROTOCOL_$_XCTMessagingRole_CrashReportMonitoring_DTX
++ __OBJC_PROTOCOL_$_XCTMessagingRole_CrashReportMonitoring_XPC
++ __OBJC_PROTOCOL_$_XCTMessagingRole_SpindumpRequesting_DTX
++ __OBJC_PROTOCOL_$_XCTMessagingRole_SpindumpRequesting_XPC
++ ___58-[XCTDDaemon controlSession:isPreparingCrashReportForPID:]_block_invoke
++ __block_literal_global.527
++ __block_literal_global.529
++ __block_literal_global.531
++ __block_literal_global.593
++ __swift_closure_destructor.113
++ __swift_closure_destructor.117
++ __swift_closure_destructor.125
++ __swift_closure_destructor.130
++ __swift_closure_destructor.134
++ __swift_closure_destructor.134Tm
++ __swift_closure_destructor.138
++ __swift_closure_destructor.151
++ __swift_closure_destructor.172
++ __swift_closure_destructor.178
++ __swift_closure_destructor.182
++ __swift_closure_destructor.190
++ __swift_closure_destructor.214
++ __swift_closure_destructor.220
++ __swift_closure_destructor.224
++ __swift_closure_destructor.233
++ __swift_closure_destructor.59
++ __swift_closure_destructor.68
++ _objc_msgSend$_XCT_isPreparingCrashReportForPID:
++ _objc_msgSend$_effectiveBundleIDForEmbeddedApplicationIdentifier:xpcServiceIdentifier:bundleID:
++ _objc_msgSend$controlSession:isPreparingCrashReportForPID:
++ _objc_msgSend$initWithInt:
++ _symbolic _____SgXwz_Xx 9XCTDaemon18XCTDHarnessSessionC
++ block_copy_helper.153
++ block_copy_helper.168
++ block_copy_helper.174
++ block_copy_helper.216
++ block_copy_helper.229
++ block_copy_helper.235
++ block_copy_helper.43
++ block_copy_helper.79
++ block_descriptor.155
++ block_descriptor.170
++ block_descriptor.176
++ block_descriptor.218
++ block_descriptor.231
++ block_descriptor.237
++ block_descriptor.45
++ block_descriptor.81
++ block_destroy_helper.154
++ block_destroy_helper.169
++ block_destroy_helper.175
++ block_destroy_helper.217
++ block_destroy_helper.230
++ block_destroy_helper.236
++ block_destroy_helper.44
++ block_destroy_helper.80
+- $s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_TA.116
+- $s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_TA.112
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.124
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.124TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.124Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.181
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.181TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.181Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.62
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.62TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.62Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.71
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.71TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.71Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.93
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.93TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.93Tu
+- -[XCTDDaemon controlSession:isPreparingCrashlogForProcessWithId:]
+- _$s20XCTAutomationSupport17XCTDisplayManagerC8uniqueID10forDisplaySSSgs6UInt32V_tFZTj
+- _$s9XCTDaemon23XCTDisplayManagerBridgeC8uniqueID014forDisplayWithF0SSSgs6UInt32V_tFZ
+- _$s9XCTDaemon23XCTDisplayManagerBridgeC8uniqueID014forDisplayWithF0SSSgs6UInt32V_tFZTo
+- _OBJC_$_PROP_LIST_XCTestSession.806
+- __64-[XCTestSession _XCT_startScreenRecordingWithRequest:withReply:]_block_invoke.589
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_XCTMessagingRole_CrashReportMonitoring
+- __OBJC_$_PROTOCOL_METHOD_TYPES_XCTMessagingRole_CrashReportMonitoring
+- __OBJC_LABEL_PROTOCOL_$_XCTMessagingRole_CrashReportMonitoring
+- __OBJC_PROTOCOL_$_XCTMessagingRole_CrashReportMonitoring
+- ___65-[XCTDDaemon controlSession:isPreparingCrashlogForProcessWithId:]_block_invoke
+- __block_literal_global.526
+- __block_literal_global.528
+- __block_literal_global.530
+- __block_literal_global.592
+- __swift_closure_destructor.114
+- __swift_closure_destructor.118
+- __swift_closure_destructor.122
+- __swift_closure_destructor.131
+- __swift_closure_destructor.131Tm
+- __swift_closure_destructor.135
+- __swift_closure_destructor.148
+- __swift_closure_destructor.154
+- __swift_closure_destructor.159
+- __swift_closure_destructor.169
+- __swift_closure_destructor.175
+- __swift_closure_destructor.179
+- __swift_closure_destructor.187
+- __swift_closure_destructor.211
+- __swift_closure_destructor.217
+- __swift_closure_destructor.221
+- __swift_closure_destructor.230
+- __swift_closure_destructor.44
+- __swift_closure_destructor.65
+- __swift_closure_destructor.91
+- _objc_msgSend$controlSession:isPreparingCrashlogForProcessWithId:
+- block_copy_helper.150
+- block_copy_helper.162
+- block_copy_helper.171
+- block_copy_helper.213
+- block_copy_helper.223
+- block_copy_helper.232
+- block_copy_helper.40
+- block_copy_helper.76
+- block_descriptor.152
+- block_descriptor.164
+- block_descriptor.173
+- block_descriptor.215
+- block_descriptor.225
+- block_descriptor.234
+- block_descriptor.42
+- block_descriptor.78
+- block_destroy_helper.151
+- block_destroy_helper.163
+- block_destroy_helper.172
+- block_destroy_helper.214
+- block_destroy_helper.224
+- block_destroy_helper.233
+- block_destroy_helper.41
+- block_destroy_helper.77
+CStrings:
++ "%{public}@ skipping delegate callback for pid %d because no effective bundle ID was available"
++ "Computed effective bundle ID %{public}@ from embeddedApplicationIdentifier: %{public}@, xpcServiceIdentifier: %{public}@, bundleID: %{public}@"
++ "Skipping state snapshot for pid %d: embeddedApplicationIdentifier, xpcServiceIdentifier, and bundleID were all nil"
++ "T@\"CADisplay\",N,R"
++ "This device does not support screenshots."
++ "XCTMessagingRole_CrashReportMonitoring_DTX"
++ "XCTMessagingRole_CrashReportMonitoring_XPC"
++ "XCTMessagingRole_SpindumpRequesting_DTX"
++ "XCTMessagingRole_SpindumpRequesting_XPC"
++ "_IDE_prepareForCrashReportForPID:"
++ "_XCT_isPreparingCrashReportForPID:"
++ "_XCT_requestMonitoringForCrashReportsOfProcessesWithNames:"
++ "_XCT_requestSpindumpWithSpecification:"
++ "_XCT_syncCrashReporter"
++ "_effectiveBundleIDForEmbeddedApplicationIdentifier:xpcServiceIdentifier:bundleID:"
++ "controlSession:isPreparingCrashReportForPID:"
++ "displayWithIdOrMain:"
++ "initWithInt:"
++ "mainDisplay"
++ "shortDescriptionForDisplay:"
+- "Computed display ID %{public}@ from embeddedApplicationIdentifier: %{public}@, xpcServiceIdentifier: %{public}@, bundleID: %{public}@"
+- "XCTMessagingRole_CrashReportMonitoring"
+- "controlSession:isPreparingCrashlogForProcessWithId:"
+
+```

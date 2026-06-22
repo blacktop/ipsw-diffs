@@ -1,0 +1,132 @@
+## ManagedConfiguration
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/ManagedConfiguration.framework/Versions/A/ManagedConfiguration`
+
+```diff
+
+-2479.0.0.0.0
+-  __TEXT.__text: 0x176c sha256:717a952fc42c334b588a708568f182b7af19ba01f46bd4f832317944ca63809e
+-  __TEXT.__objc_methlist: 0x4e8 sha256:1f771a692e4e6f665507b2e41338691e56196334dfb45d1849edc587e591f03e
++2482.0.0.0.0
++  __TEXT.__text: 0x1760 sha256:6e44dfe164012712d44c7e77d721249ae3eade27cf8f3c4f63e7e83979c109fa
++  __TEXT.__objc_methlist: 0x4d8 sha256:f72c549ef54493e8d6e14512c13c3a426388c8542a2d2cd1f83dc2c2c6baba82
+   __TEXT.__gcc_except_tab: 0x10 sha256:a8be2bdc678365bc46974150f68d16b5c8623aab5d0925f0f0973da4089d773c
+-  __TEXT.__cstring: 0x2233 sha256:b67564c84b7bc1c5bb9541ac55db92a697fc25cc7ecdc8ba43e21a0619d6330f
+-  __TEXT.__unwind_info: 0xa0 sha256:03021f90e9f3565719665893c2e0120b6c53d660f1d7f1fb6ddb3ace89eff091
++  __TEXT.__cstring: 0x224e sha256:315b0a4f974cbf1b510fe5fd195c8709bf219b0b2e4ae0033465efb233382d94
++  __TEXT.__unwind_info: 0xa0 sha256:a8e5d9e7eba45dfa1d58260fb69169e6c68c7a666ee3748b7ecd495c331e11f9
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xaf8 sha256:80eb2cd558addb2ab8a7b93b80ad408777230c48e726fd2fa99cfce4855cbea9
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:3ca3324304d7e015173ec5e9cb2e575d1261d370d2b4d965ef69d357297d85b6
++  __DATA_CONST.__const: 0xb00 sha256:26fd34f9e1016a5d35ec22125cc4c506daab5b5d42b177965f5608ebaa8e27cb
++  __DATA_CONST.__objc_classlist: 0x10 sha256:54f479e384cb656a2b35da0bbd482ea1f3a24784e3366fb992b6fbf07df8817e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x370 sha256:9b078c1bf30f0599a6df753674d371e972430079a58b264d52c20054f50c4846
+-  __DATA_CONST.__got: 0x20 sha256:7e38eddafe353c9fee9a84f5fc32b02ad1b9cb5b379039af8bf76c60c3750531
+-  __AUTH_CONST.__const: 0x20 sha256:0ad22cdcc5455755a2fe59c7a5026f4c992da6d04f968e06a211ae31e8c3379a
+-  __AUTH_CONST.__cfstring: 0x2b20 sha256:5df07f02edcddc3acc611cbb43dd3e2e1895e616cac33edd887ef4c974c9dbc7
+-  __AUTH_CONST.__objc_const: 0xa48 sha256:21f66783dbe3197fb5e97ce4e4c577fac85097addbf9c7d9dece38736b9d1296
++  __DATA_CONST.__objc_selrefs: 0x368 sha256:bdd8ad7161720618a53388825eb0138307eeb137a47b9040244cfc7000931fdd
++  __DATA_CONST.__got: 0x20 sha256:bb8565e1b1ee63503e91d10e0b4dd9ba8458c511ee096d7cf597454e2fed8620
++  __AUTH_CONST.__const: 0x20 sha256:816b08adee2bb96d9efd234f6a40fc6c66337a7d3988653793805d0191a92ec1
++  __AUTH_CONST.__cfstring: 0x2b40 sha256:2b1ce41a61e37d921b4b6f4b94d0239a67eca5e7c840d2cdca6cf8158aefcbcd
++  __AUTH_CONST.__objc_const: 0xa18 sha256:56bc549e93931b7fcb07b6e70dd58432f46cd4dfe4b68f74054f3fcf6bd06038
+   __AUTH_CONST.__auth_got: 0x0
+-  __DATA.__objc_ivar: 0xc8 sha256:fd6bc9405b686f8b20c37fd92d3593748598bfcad9a2b53d6ce85c0d0296900a
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:f3eaf621e2dba185cd1932ecbfdc0a89e68deb448f7c99dcb7d62644caddd565
++  __DATA.__objc_ivar: 0xc4 sha256:78cbd89c94f9141883edf92031867f83e47a3ea26c5d76b3e155c431a8c5adec
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:0ee7dbd641d7a7ee0e69328413b00dc3df32ca8ab959bb8e31d3e100d8f26fc7
+   __DATA_DIRTY.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+
+   - /System/Library/PrivateFrameworks/DMCUtilities.framework/Versions/A/DMCUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 394A4E61-0374-3BC2-AB29-FBB3458DFEC2
+-  Functions: 104
+-  Symbols:   566
+-  CStrings:  691
++  UUID: A1482390-33AD-378A-B790-1E16ECD1886F
++  Functions: 103
++  Symbols:   565
++  CStrings:  693
+ 
+Symbols:
++ _MCFeatureSiriReduceSensitiveContentForced
+- -[MCProfile installType]
+- OBJC_IVAR_$_MCProfile._installType
+Functions:
+~ +[MCProfileConnection sharedConnection] : sha256 3fcbb28c2ac468a2664b12601ab4a9c575a17ab3fb8bb8abb2a5ce8df2248a3b -> ecbc9fad96435df4a5b3f53c74b445770cf2233f803e83ca32919717e72881d4
+~ -[MCProfileConnection isDiagnosticSubmissionAllowed] : sha256 45f9ceadf478e08e26f6d93e0050f7afc07eeb3f4bcc2808b7737514f106303d -> 12b353bdd2567ee3466ee3c07ce5cca9d2f27a720ab35960710467f5ccd0ff54
+~ -[MCProfileConnection defaultSettings] : sha256 04d94fa6a6b05b658459ecd344a86b4246e26350e83745faa68c81476eb31e8e -> 4dc9ea48a26d52621a14b87fe48368ae1c568c5da58c69e18f2fc65c5201f675
+~ ___38-[MCProfileConnection defaultSettings]_block_invoke : sha256 34fb0083984d83d107c04936bf4103eb5663b1095ee3485eab0d4e52b89d33bd -> c17d3da070f754e9eb7220b764f6079ce28d911ec0f1f187ccbd5bebd087c59a
+~ -[MCProfileConnection boolSettingForFeature:withSettingsDictionary:] : sha256 3e5e84a2588d62216402f0aea911974469d5c5de63201723670b59b29a6f88fc -> 9db08a7868c47b3447eaec8ddda7d78c06ddf4ad6e7af413ee3db1bc46370a43
+~ -[MCProfileConnection isNewsAllowed] : sha256 7975ed3e836cb2b856da820440406ec2a7ff0047b72a2d3fe716c2cead88d26b -> 05f1b1f9230a13a6651e101ee569e924a49f75d0165f20f7bac90cbf76d0a8de
+~ -[MCProfileConnection isWebContentFilteringInEffect] : sha256 b3c57a58d3fbedb9c3014ebce8689ec56a25782ae02b8990559585c5966bb611 -> 1fed8887f98b680268ad027aa2de4b0363323922736233f83080d8365d5ccaa7
+~ -[MCProfileConnection isAdTrackingLimited] : sha256 3d793cd5dfa52a777ee2ec81d36cf0175648438ef963cbb79304a9d289255a86 -> 502faaa94b513df198a11998666c6ad98713575fcbea47d5a83c68059ae225b6
+~ -[MCProfileConnection isApplePersonalizedAdvertisingAllowed] : sha256 9fccd43ee1d6677c02ad84cef3a5120ff965696138d3b176c201e3d1d6d24dc1 -> f61e84edd27a461d6647b41466eb6b1a071244729a10caa0e83a03038cba9862
+~ -[MCProfileConnection isAirDropAllowed] : sha256 eb1850ce4168a1ca9b30a91daa0cf39b302e7e7c2240946a2e87cf009801eae1 -> 39d84ef76480f42548eb09fc08d574fcd9938b3322ee34a30522dd3d55cdd1cd
+~ -[MCProfileConnection isAirPrintAllowed] : sha256 57cebb1376956bed3f923441a1b789f4e6c1affbc7a789d09220f69ed9949030 -> 92aa202d3a7746565f346e795077ba98877711c90cf8e1d1fc7c45a0709afbdf
+~ -[MCProfileConnection isAirPrintiBeaconDiscoveryAllowed] : sha256 6af13772b29bad76837478483d744ecf1fffaf71d4ce7256d32ee5a093207023 -> 1d94fec749b859a360d7cb239fab6c4b21d967242c35c49af6c4819824285d38
+~ -[MCProfileConnection isAirPrintCredentialsStorageAllowed] : sha256 a02405dd07f07972e0aa1ede0568a0aecdde474307fa52a3b439d9d60c0df096 -> 5a1f2eae46324a366651fe32e808955b52905145128d7a740758c53238e2e6c6
+~ -[MCProfileConnection isAirPrintTrustedTLSRequirementEnforced] : sha256 57a6798bc9aea950d5a9702e61431915d1b3deeadeff6263f046763eb8b147eb -> 29ef656e802c2f9a20e3cec2e2f997e156c4fda85a60801394bcd933fc54715b
+~ -[MCProfileConnection isiTunesAllowed] : sha256 53d26da06820b57e881f92feffc2a5d21d60d68378964e85cbb2dd4fe33d2ebd -> dfb539c749c93bc256a0bb499024af99884ae63cd6719af5e688f449388dfc78
+~ -[MCProfileConnection isFingerprintUnlockAllowed] : sha256 a65fef6f03dd583e0956a8dd6673716acac89ff4e1c2553b4ce9d542abe728ef -> 79f6267972b79c9d5e4d5e25964a0b44587add1ace92a8b7168bf0bcb6a0695f
+~ -[MCProfileConnection isGeotagSharingAllowed] : sha256 9116684055431780c9e7b05e4d8d5c3a861670ad55da124ba1a3a790e96e9e9d -> e793fb11577d1234f5343e55cbc374cf18114085dd7763338fab0f8049339bd9
+~ -[MCProfileConnection isActivityContinuationAllowed] : sha256 b6d0b1787a189e452bd5ac044a2bec0155cab1c6a20b3faca010bd863a8da456 -> 056f245704fbaf502985852efd2fe7803efd6fb389c747bab7e540efdd253126
+~ -[MCProfileConnection hasDiagnosticSubmissionAllowedBeenSet] : sha256 f446ebb7e377f80556b81d2d92654fd2435d53a88f3bd87e444ece4a7ffaa837 -> 0cf6a8102fb3542b5c9d396ac7ed77a765fbf6d7ad7d74f397bb8d2500dd4cd0
+~ -[MCProfileConnection isDiagnosticSubmissionModificationAllowed] : sha256 b716d39f70801372361b96348b991034ff08cee9716c61de8247a2ed9ac136ed -> 2ee4f57611bee5b97fb594207e5e89b3effebe7a9c6a099acc27d1756ae70d86
+~ -[MCProfileConnection isAppAnalyticsAllowed] : sha256 f8043ac32f4206c275ecc39ee2a4ed0e354f516e8da7d78f67b8e8199e8ea7e1 -> 9113cb25dcc84bfa8eb6a4b018e95680bbe683caf021f4d1445928f1c649a22b
+~ -[MCProfileConnection hasAppAnalyticsAllowedBeenSet] : sha256 67232570391a5d3a918134654136a5672360a4ef53906e1cc208afae2c80b991 -> 547709af488db7910e0d8b6d33bf37a4099ec31a75932d57b5ebbe5a5cf130e6
+~ -[MCProfileConnection isHealthDataSubmissionAllowed] : sha256 57353dc2553afb8d25e89cee223d9315e434063d7a5d8f937ed224db35cbbe84 -> 84575dd462808d6cb8d5d7bf0f5559b51ea1b0590d6d31eb0ea16b8f6efb6377
+~ -[MCProfileConnection hasHealthDataSubmissionAllowedBeenSet] : sha256 8f31dcf2fa223d7cd9785480925d38c96fa15cc88708318e1e9afd8e72428aa7 -> c7756d0c1a33a609c4e77c16b9b859e2119c710887c4f833c9531cb37489eeda
+~ -[MCProfileConnection isHealthDataSubmission2Allowed] : sha256 5c096ce2fc8c7389dc32cdecea589e5e0a25d38b2b7d53ce785f20243f9f2662 -> 93500f576efbcd50fcfb346d9c68e96aedc2f91d35801b179761c9de498cdf61
+~ -[MCProfileConnection hasHealthDataSubmission2BeenSet] : sha256 2e655bf69ec38a28e02855c8358b04ff7a0cbde33e93dff1fb724f3e277104af -> ad4b06d90d1a509b22b30a15a3a85b56ab87c99b5c4cbd6617e8784030e6ea57
+~ -[MCProfileConnection isWheelchairDataSubmissionAllowed] : sha256 2eb5925f16dbf321f3a3a99f6bfec243291c9ed7fbec479329d093229fe5ef44 -> 396dd3f99498c3cae10693be38775853fc3629d2c137425469bf07e21982ad29
+~ -[MCProfileConnection hasWheelchairDataSubmissionAllowedBeenSet] : sha256 b32c5a36b05b5d40f6fd291f581552377e1f7ef830bdda261b1eef5fbb56acd0 -> 9dd6b6b07e1cbae46778888f65d89e47bf855ee97e1f18fd13da1b3aa7148a0c
+~ -[MCProfileConnection isPodcastsAllowed] : sha256 5f407fc9d314b6b5b227b4d7e20e46cbddb8d5c35af02ff361c5ad2a2e7cf0e5 -> a920698b5ba999b9301609bd04c830bf652fbd6b83ce18f6590402c971915a7c
+~ -[MCProfileConnection isHomeAllowed] : sha256 b1c50982dfa9864b1f5c3d2ed9999e7784c5fb107c0618a672829bf28b47370d -> 66375a081f48866e8753264ff9c8a5c90f6e71f6f0492004ea16f73c815e8bb5
+~ -[MCProfileConnection isiCloudDriveAllowed] : sha256 0f7e5bfb92adc4f8e0b0b74a848a80a4d353401a62ce552b1c2f58e0ecfb5f8c -> defc27cb10b7f50c498e0314b6781ed15505c8265454285d2e69b01a89de38fa
+~ -[MCProfileConnection isContactlessPaymentAllowed] : sha256 78a6a7c8d910806805f9f6e792d3cdd7e3147ee4a11430ab2a43653f2825bf35 -> 2d94d146500e44d19d9eab592b7a75e36c136635a4df1afd7554ba15d51125e2
+~ -[MCProfileConnection isFingerprintForContactlessPaymentAllowed] : sha256 38d5a482f2d04240948977b3d5512d74943a78c488ee118088213228f149b7f5 -> 36be0bf12ec3e4992633069f9e3927507d478fa394a3f4c220d8e3afc9abc914
+~ -[MCProfileConnection isInAppPaymentAllowed] : sha256 30924e5303387f36291770ef7c48dd17b7c50b5a0e246be3418042b27790d654 -> a264b9efd3ea84f9b95342dfe693907631e71f4837c742d9760a4fde21240bc8
+~ -[MCProfileConnection isScreenShotAllowed] : sha256 d2ca78068fae2407a4efd34c28e548d640f5b2471346a71671f050a7b49c5baa -> 0785d1b7217f430548d8f4eeace64537dceea27ceb07a5c576102eacd8104996
+~ -[MCProfileConnection isScreenRecordingAllowed] : sha256 08faa51c75cec8480882397fa605b0d302378e086d66c2907b22efb03d8fedd8 -> 489eb66e5350403eca71e8fc3c10aaf7919e37d285c5b5f855fe1f58b12b5e6a
+~ -[MCProfileConnection isMusicServiceAllowed] : sha256 95e88a692b04166dde40dd7f060ce5d54a73962e98d36ba7fe4ee7123c971960 -> d4a74470f46ebbc19659e1809417e34f56c20a478707d599920ffe164cb9219c
+~ -[MCProfileConnection isMusicArtistActivityAllowed] : sha256 01d3a09ec2b0738dea476e8a2ad5569c0a5998a6763096bf8cb7a76267f7703a -> 23b407ded0565785f4a1a4b6309a328e026064e670b0268931bdd1fe17b233f9
+~ -[MCProfileConnection isNewsTodayAllowed] : sha256 b3033c9091e188dc8f0db2a1338c3fa88590ca109523716ea9a3b819d689e329 -> 6b7706fe5069d6d6416ee425cde183cd005724a650b1ae83feac4800f34e2dc1
+~ -[MCProfileConnection isSpotlightNewsAllowed] : sha256 079fc70ca6a122a5cc02ae0b6e1c64b79a202b1a669b5a01ef0bdaad2426badc -> 879593b529ed66c0bc3cb32dd901eafe64dc558055d1839ae9573169ea093302
+~ -[MCProfileConnection isHashtagImagesAllowed] : sha256 f6625e84be7f72d3063710f545b18f7683f858feda732b9422f4be5c458730ef -> 6c56ceb56600643bcf6a4695d22e457fd6c3e1f8be397b7c2daf4bf74de9bf3c
+~ -[MCProfileConnection isTodayViewAllowed] : sha256 68ad0f6f8df2fda6eb9a012bbc33006c4720662b5c8dd6dd8b413dc33857f009 -> 6251d4c92f64baebdd965bb399e0031fda2f74e5930ec0654e5c4bb7d0eae4a5
+~ -[MCProfileConnection isTodayViewModificationAllowed] : sha256 9462185aaddfa7acd31e8e8df468edccb495f1b38c17325e92040da9401d32a7 -> 28a9169b9702862833726afdb06b9e389c469cb1499d62324626573f00a41bc7
+~ -[MCProfileConnection isNotificationsModificationAllowedForBundleID:] : sha256 f3eb60596f2dd27a9c9d9966054012592d6cf475cbdfd97711bf14e15a11785f -> 674281f1bdcfbcae2af529e0aefdb02918bcd4d9723032662b76d59f722d2b60
+~ -[MCProfileConnection restrictionEnforcedNotificationSettingsForBundleID:] : 368 -> 364
+~ -[MCProfileConnection isCloudSyncAllowed:] : sha256 1faf75e7df84cfa43e2d5c3bc940933670a7c60c72c2606c8f50010e40cf0aa1 -> ff916711883cb32a9b083d2f12fdf9e8ea52bd86dfad4e9660e082b83f59704e
+~ -[MCProfileConnection isSpotlightInternetResultsAllowed] : sha256 dcdb820b70d6efc5cb2bb3bca4c7469b46ddc8a129ca3e0a850218cb61f44f24 -> 4076eea4cd3ebbd5d779761ee6acd88cb49dbb500a39695a9c5d878169b15a0b
+~ -[MCProfileConnection isExplicitContentAllowedOutAsk:] : sha256 b9e907e107381a7fdbdeff337a8bfa303543f6f9708d1fc4d022251b6fa2904d -> 31b318240318c82736bfc5c3bd0e4b9cb4cd41c8e3bee5d853e9ea86d12c0388
+~ -[MCProfile setDisplayName:] : sha256 f1b0e539b85c482adf7a1fa4b4957e56ec1e8846bedb4c86d9b2da2ed2cc588e -> de47f9110331b71e30bd2397af24104faa51c3b5d995b7d589db966df1fcbb1e
+~ -[MCProfile setInstallDate:] : sha256 ae6a06dbe963554fbeca3d37940c1e0123fc05e4fbdcf5bf3cbd697594f375dc -> d69cc6c4ed740774c7cba073f52265c591e155373eed84ffc1e347f044690e0e
+~ -[MCProfile setRemovalPasscode:] : sha256 c9353e0270c986bdea77da69ec429ca97a3b56df6a8d9e256068309ae434d0c9 -> 603026871aa014e7c529262c0708053c41e4c8a0a6eeb17aa172b9cfef5f36e9
+~ -[MCProfile setInstallOptions:] : sha256 9a889ec9d0c625e78356f0beca7922e023f460566e5db4c638a6e8c1fa98dbbc -> df4abf58a9a4ce8cf760b14739a4d227c6021d3b6cfab79e2acf605251b71bb3
+~ -[MCProfile setSignerCertificates:] : sha256 f00494fbc7c7e4eba543612d058897bd1c5bc5e73711da227601b053301760ec -> b309a3595be741982e5a3d0cf5ef3e8e05b7f8d50726c7f797587c0a4c1c5ef9
+~ -[MCProfile installType] -> -[MCProfile isInstalledForSystem] : sha256 ba4c2ccef6b9b64afc1064a567fd2323a67d13fa4034430dd8b448e052ddbdf2 -> ce4e619bba69d85f3e7cbf5731564e2669b49d9c74d9a7035ca1d31bdc3df82e
+~ -[MCProfile isInstalledForSystem] -> -[MCProfile isInstalledForUser] : sha256 ce4e619bba69d85f3e7cbf5731564e2669b49d9c74d9a7035ca1d31bdc3df82e -> da05d7d4cc220ce9e5b7d5429f2703f8c1b785f026ff358b76a9104363cccc0d
+~ -[MCProfile isInstalledForUser] -> -[MCProfile shouldHaveFullSSLTrust] : sha256 da05d7d4cc220ce9e5b7d5429f2703f8c1b785f026ff358b76a9104363cccc0d -> 6770a96f4998ce8df43beb8e497cf1a56ff280479bbf45eeb6d10b8b1fe08600
+~ -[MCProfile shouldHaveFullSSLTrust] -> -[MCProfile payloads] : sha256 6770a96f4998ce8df43beb8e497cf1a56ff280479bbf45eeb6d10b8b1fe08600 -> ba4c2ccef6b9b64afc1064a567fd2323a67d13fa4034430dd8b448e052ddbdf2
+~ -[MCProfile targetDeviceType] -> -[MCProfile isManagedByProfileService] : sha256 1484d4d234e6d1de7c15ab08a6b1e9ef61a22ec81a069b7128a3df9ea58d9a98 -> 7a756a9b8e42ed0e2657a638ad6069959baba9084de4d2cf5279e570574329df
+~ -[MCProfile isManagedByProfileService] -> -[MCProfile installationWarnings] : sha256 7a756a9b8e42ed0e2657a638ad6069959baba9084de4d2cf5279e570574329df -> 1484d4d234e6d1de7c15ab08a6b1e9ef61a22ec81a069b7128a3df9ea58d9a98
+~ -[MCProfile localizedManagedProfileConsentTexts] -> -[MCProfile isManagedByMDM] : sha256 239c3d5bd3b524bcfd2ef3854d3fce3f6f6e43414882d06dfabd7ba2216181da -> 38788a97942beae49022c3ea9818081d2b97e339fd945d42774c8f377330afe4
+~ -[MCProfile isManagedByMDM] -> -[MCProfile managingProfileIdentifier] : sha256 38788a97942beae49022c3ea9818081d2b97e339fd945d42774c8f377330afe4 -> 239c3d5bd3b524bcfd2ef3854d3fce3f6f6e43414882d06dfabd7ba2216181da
+~ -[MCProfile managingProfileIdentifier] -> -[MCProfile isSupervisionProfile] : sha256 45a13198be27f66faf32b29adb14177df99ed6c53d631569cf044b97c22b3e7d -> 32852d465b123509d5b937566c51191e8b3e1d48df3614b4ab8f403a6554cb39
+- -[MCProfile isSupervisionProfile]
+~ -[MCProfile .cxx_destruct] : sha256 e07598c5b9b98f815bf838ee3e54f63e71930c97014eee01c43a0d190db45484 -> 2ce5935d474fcb173aef2981f5bae75f10324d34af87d64481748a27c571d660
+~ -[MCProfileConnection defaultSettings].cold.1 : sha256 497fddf11ced6562defffeb20ac07c77bad40b598dcbba6d524bb3a591d914fb -> 2be7f954a72aa5cc115d0b80051ced522adbaa92135c0cce4c6983c56f57e11c
+CStrings:
++ "forceReduceSensitiveContent"
+
+```

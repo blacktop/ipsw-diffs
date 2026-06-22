@@ -1,0 +1,42 @@
+## socket
+
+> `/System/Library/Templates/Data/usr/libexec/cups/backend/socket`
+
+```diff
+
+ 527.0.0.0.0
+-  __TEXT.__text: 0x3478 sha256:c421d9004f9741cf163d14fabaeb857c91ee16f25935934c5dc83e6637dc8a61
++  __TEXT.__text: 0x34d8 sha256:cdcf2ae2fd754f70f3df8bd60f7fede8e8e89a8b579d4b53c12c463f44526567
+   __TEXT.__auth_stubs: 0x440 sha256:b8c714a1eebd000cde1403d663c5776722ed5af0a062849729d259d795965374
+   __TEXT.__const: 0x33c sha256:c13844cefcdc9e4d4aeb4d1315352261a96b52aee65d5276f0eaeeda0aac65cc
+   __TEXT.__cstring: 0xf92 sha256:e6fda01f5985b9da310b5ff52324981db4dd9a0b8ee2655e0dfbd82c90b32af8
+-  __TEXT.__unwind_info: 0x78 sha256:66f1c944f2fca0683cb2c9f7b5fced81ffb91f9636e091d830c14d284ffd69a7
+-  __DATA_CONST.__const: 0x3e0 sha256:5803e12e4eb58efda61ecd26bf960d7e2fb3a45c57c540145e6ada154c810cbb
++  __TEXT.__unwind_info: 0x80 sha256:f93f349663fab7891f3345fe5f98fffb755946e44810932385f07ae2ec45f9a3
++  __DATA_CONST.__const: 0x3e0 sha256:dacf9586f583be0879ec3e054e7773a1c66bb274eafb08464f3949c99a9ba8dd
+   __DATA_CONST.__auth_got: 0x220 sha256:6bc663becc0ffb921d359e707ca64c728e912554a92957d421cbf7e6b532d9c7
+   __DATA_CONST.__got: 0x10 sha256:b2925773321c2a677e0d59f9c1bbb7e0b5ae7cb8173bb404e3f083201890f6e4
+   __DATA_CONST.__auth_ptr: 0x38 sha256:e757fc2972c11cc712dae2776d01bd15cca4a032ed325089b175963cb8baff77
+   __DATA.__data: 0xc sha256:8688d249e9d047b4fc2fb89ce05afe9ec89252ffccdd969de6eef260dd7ffb21
+-  __DATA.__bss: 0x8485 sha256:8e40f45b570b86539446b3bd560e017556747ccaa520f1d9a9a3339d875a6651
++  __DATA.__bss: 0x8485 sha256:801f331fcb51f4e9c748bac50546cd11411c90a5def79dc791d6131ed1d1426b
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcups.2.dylib
+-  UUID: 190F526F-B842-346A-A95E-E2A4436DB519
++  UUID: B112F2E8-12B0-3545-B1D7-FFE4285A754F
+   Functions: 11
+   Symbols:   73
+   CStrings:  201
+Functions:
+~ sub_1000006c0 : 2308 -> 2356
+~ sub_100000fc4 -> sub_100000ff4 : sha256 b67b2597e88a7c83d78072db2e6b9321048acdf7a3c7eb0b583f469eb2a7aea3 -> e82461075ebfb97db8ad07ddee4e7ed5e2cd3238db0543ceae750011bde1ff01
+~ sub_10000107c -> sub_1000010ac : 1588 -> 1616
+~ sub_1000016b0 -> sub_1000016fc : sha256 2da064c53bb5871fd551c9d16a6af582770438e397903915103c57f1d421eaa2 -> be123137e73a62f53576abf2f67642c40c5cdb6a09b83039457ab01073ff863b
+~ sub_100001844 -> sub_100001890 : 716 -> 720
+~ sub_100001b10 -> sub_100001b60 : 2064 -> 2048
+~ sub_100002320 -> sub_100002360 : sha256 145b28afaabb1d2ad67f370060acda718efa43ba0ef629fcecefe062b7f5d778 -> 76884ef59c45ac461980dd9619642a08766c0484fd98d82ffa0a101e33cc13ac
+~ sub_100002578 -> sub_1000025b8 : 3532 -> 3556
+~ sub_100003344 -> sub_10000339c : 1680 -> 1688
+~ sub_100003b0c -> sub_100003b6c : sha256 acae1f91477ebc233a282da4afe3fb878522c66a943d0bd01e19efa74d205dce -> 6154200709ef0449d5a033c3dc4683b260b3ec233b2a25f9317d05c8d6b388da
+
+```

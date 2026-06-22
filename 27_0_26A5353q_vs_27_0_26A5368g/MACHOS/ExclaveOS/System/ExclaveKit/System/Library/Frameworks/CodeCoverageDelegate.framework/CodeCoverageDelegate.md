@@ -1,0 +1,86 @@
+## CodeCoverageDelegate
+
+> `/System/ExclaveKit/System/Library/Frameworks/CodeCoverageDelegate.framework/CodeCoverageDelegate`
+
+```diff
+
+-1460.0.0.501.1
+-  __TEXT.__text: 0x2fd8 sha256:892880f8e9853b3ad6abd09e7d04ee97d7cf3c2108b5b2b92f77fbebb09b0eea
++1485.0.0.0.3
++  __TEXT.__text: 0x32c4 sha256:f6ba881c8e774f8bceacaa0ed1f1b31090d87cd289b90e82e536f0b8c8968dbd
+   __TEXT.__cstring: 0x367 sha256:2e7d0521d47be0c107f14601965a643ea97e04fdbbe1f2b5d40f750c4fbd450a
+-  __TEXT.__const: 0x270 sha256:a6e530e8897a836e7c369bebf4c95a78953d73a0cf69eaca60e488cbab7d8a3f
+-  __TEXT.__swift5_typeref: 0x166 sha256:9cf109344d5ac3a038a8fb1cea27864179db1e751f6bbcd233c9f794ac2919fb
+-  __TEXT.__constg_swiftt: 0x21c sha256:333d0b0c06da6984898515c396268f020c32b51fce8f18dcaeab561b7625e3ed
++  __TEXT.__const: 0x280 sha256:227b23b15f95b202e7573bdb14bfaf41111a9257f9c5b3304bcd8e3b4731a542
++  __TEXT.__swift5_typeref: 0x170 sha256:84525247b4c1f8ede9670994a2bcd5af871b0665ab9d8ce28c626fe6b2938381
++  __TEXT.__constg_swiftt: 0x21c sha256:6bb44ada73536ccc90688e93b12547161f05564929c7d2caec7ad1b34b872672
+   __TEXT.__swift5_reflstr: 0x7c sha256:ca9c6924e807d578ea517896b7b10b30bd21edaba986b3378d3fa41253b32889
+   __TEXT.__swift5_fieldmd: 0xe4 sha256:625bdb08bb2c59a03272aa04552f012f3684e89c034bccb6a850598256b5a1b2
+-  __TEXT.__swift5_proto: 0x18 sha256:32f48daf67f806e06bf321eaddf4cedc1c74c372fba4ec3ff0c4e895b14560c2
+-  __TEXT.__swift5_types: 0x18 sha256:a352720c8bc580c76a4d97be4489620bea63b7038d0775ddcd0836c7bb4a12b3
++  __TEXT.__swift5_proto: 0x18 sha256:7a5a61c2a6a82a40e13b7b7baf76300073d5816bd6f51e04ca76f7dd8e7f5f04
++  __TEXT.__swift5_types: 0x18 sha256:63c3012f8d1ddcfe3712ceab58d1546eb293579aabc9752315257de97903c3cc
+   __TEXT.__swift5_assocty: 0x18 sha256:b5eb447792ee483e73c7761ffdb60b3c52455e53bc37331aa7520ad80cdc810c
+-  __TEXT.__swift5_builtin: 0x14 sha256:c1b4b46731be360a6d4f33de8cdcc8d027c1d8dcf2da1da68d857e7e3e413a97
+-  __TEXT.__swift5_protos: 0x10 sha256:3231a31df46dbab16c7382d1ced0ff754b06959dceee80d4bb96dc11e763c1d4
+-  __TEXT.__unwind_info: 0x160 sha256:4d9af2a87b40efe31d6000b66b9ba9ef28c4d492e7ecc68eeea968ea3ec4a164
+-  __TEXT.__eh_frame: 0x238 sha256:162528e81be6b92ed0abb6055bb0fd9816f5e7bd5c8df485f088791ad09a9117
+-  __TEXT.__auth_stubs: 0x3d0 sha256:87829b8fd537a5c1f1957a337381b29c906f2c02eb27e14304615f43c1779ed3
++  __TEXT.__swift5_builtin: 0x14 sha256:d58add242e170bb84ff59ce93db7189fa3279f5ee6f470ecdfa9c720f932f71a
++  __TEXT.__swift5_protos: 0x10 sha256:3f022620f63a5a984fc3c637664290593f7cf1bc34bc05d4883a066b547f9628
++  __TEXT.__unwind_info: 0x168 sha256:cfdacedcf0a6dc81739d77ed21452dd2391f0f4f3dafa1a21bac34803e5e705a
++  __TEXT.__eh_frame: 0x240 sha256:df96d42e789b956f6627c1bd8437a0373d94ff62dfc0ed3127f72aeb7c998898
++  __TEXT.__auth_stubs: 0x3d0 sha256:8409742c3bcc3b1685700a34100127669c843afdf5ccf680a143b214ba5fd2a4
+   __TEXT.__objc_classname: 0x66 sha256:38c8fb4482b1db522e236324ffa3ae025edc255a9a020e695c9823024f2a792c
+   __TEXT.__objc_methname: 0x10 sha256:f2aa5d7d2296592e3d256df560431714bd2e5c7a1fce6d8de98f51727e6c5f2d
+   __TEXT.__objc_methtype: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+   __DATA_CONST.__objc_classlist: 0x10 sha256:4a22d91c2c9900124acc66505f7853cc008499d7cf4d365f4073a9ac48ae7bbe
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:885ce8037a15de89b0ceb0054c31fc3de725513307f685be388961916dadcdb0
+   __DATA_CONST.__got: 0xa8 sha256:b9dc5c1b393c2a501970d9b5e7e3871450f8b205e49a48ccc4fd0368b28e7fb3
+-  __AUTH_CONST.__const: 0x1d0 sha256:daa666b5909bbfdaf9ac886b0d352c9342cde46f4d084aa61d6e83d60ff8c2cf
+-  __AUTH_CONST.__objc_const: 0x148 sha256:8eeb92001adeb245be1e2a6d3e371cd86c6024239570b31279e9436eddf59d37
++  __AUTH_CONST.__const: 0x1d0 sha256:fc796b223dbbd60155ea86117559706aa2a2f4e3087567fd50c24e6103fb88f0
++  __AUTH_CONST.__objc_const: 0x148 sha256:4daa7cc700d547cec253c35c288ebafba474b2f5ab7ec2866cec7a8ca5d913ac
+   __AUTH_CONST.__auth_got: 0x1e8 sha256:8d23e68245d6e02f5592381e81c6afa9fc1b33ff384f31f9a6cdaacd6cbc91d3
+-  __AUTH.__data: 0x208 sha256:a9b92184ff4899d02cc0501e60d5d807da1083dab4b24e13096912b4bbdfd94a
+-  __DATA.__data: 0xb8 sha256:a93518496623d4467860a744cd62ff2304d69d88bcb061c7fd9605e6051e3715
++  __AUTH.__data: 0x208 sha256:25144d46c010ad01c2c2e3afce523840029532270cd1f51317e1dd339e4952f3
++  __DATA.__data: 0xc0 sha256:42cd4244a26e2e8eb33cef5a687943aa1cb6eedfa9d807ff5ffb79e7b167b38e
+   __DATA.__TIGHTBEAM: 0x10 sha256:32591593463649885e7846d96864deba8603c0dd30a30a65708c94aa1ddf8b3e
+   __DATA.__bss: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
+   - /System/ExclaveKit/AppleInternal/Library/Frameworks/CodeCoverage.framework/CodeCoverage
+
+   - /System/ExclaveKit/usr/lib/libSystem.dylib
+   - /System/ExclaveKit/usr/lib/libobjc.A.dylib
+   - /System/ExclaveKit/usr/lib/swift/libswiftCore.dylib
+-  UUID: 0B9716FF-1968-3F5E-8BDB-BD8A2B930E24
+-  Functions: 73
+-  Symbols:   730
++  UUID: 52A7FEBD-4CFC-3325-84C5-C76135A94555
++  Functions: 75
++  Symbols:   746
+   CStrings:  23
+ 
+Symbols:
++ /AppleInternal/Library/BuildRoots/4~CRshugB_pZbLXU5L2x6uf6S4SzlY67a5lSy5fnY/Library/Caches/com.apple.xbs/TemporaryDirectory.ZeJ2wU/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/4~CRshugB_pZbLXU5L2x6uf6S4SzlY67a5lSy5fnY/Library/Caches/com.apple.xbs/TemporaryDirectory.ZeJ2wU/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate-fabe29d4f2d98e535154a9f6b4702cf7.o
++ /AppleInternal/Library/BuildRoots/4~CRshugB_pZbLXU5L2x6uf6S4SzlY67a5lSy5fnY/Library/Caches/com.apple.xbs/TemporaryDirectory.ZeJ2wU/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate_ek.swiftmodule
++ /AppleInternal/Library/BuildRoots/4~CRshugB_pZbLXU5L2x6uf6S4SzlY67a5lSy5fnY/Library/Caches/com.apple.xbs/TemporaryDirectory.ZeJ2wU/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate_swift.o
++ /AppleInternal/Library/BuildRoots/4~CRshugB_pZbLXU5L2x6uf6S4SzlY67a5lSy5fnY/Library/Caches/com.apple.xbs/TemporaryDirectory.ZeJ2wU/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate_swift.swift.o
++ /AppleInternal/Library/BuildRoots/4~CRshugB_pZbLXU5L2x6uf6S4SzlY67a5lSy5fnY/Library/Caches/com.apple.xbs/TemporaryDirectory.ZeJ2wU/Sources/ExclavePlatform_extra_exclavekit/CodeCoverageDelegate/CodeCoverageDelegate/
++ _$s9Tightbeam0A7MessageV4sizeySixSo10tb_error_taYKAA0A9EncodableRzlFZ
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSi_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Tg5
++ _$ss23_ContiguousArrayStorageCySiGMR
++ _$ss23_ContiguousArrayStorageCySiGMd
++ _symbolic _____ySiG s23_ContiguousArrayStorageC
+- /AppleInternal/Library/BuildRoots/4~CQl5ugBNkTWmQ8VSD98zH_i6vFBt8wSVe1f4UAA/Library/Caches/com.apple.xbs/TemporaryDirectory.oOVfTD/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/4~CQl5ugBNkTWmQ8VSD98zH_i6vFBt8wSVe1f4UAA/Library/Caches/com.apple.xbs/TemporaryDirectory.oOVfTD/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate-e87b9fa2ec301ba86d21ed7c5c8f237f.o
+- /AppleInternal/Library/BuildRoots/4~CQl5ugBNkTWmQ8VSD98zH_i6vFBt8wSVe1f4UAA/Library/Caches/com.apple.xbs/TemporaryDirectory.oOVfTD/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate_ek.swiftmodule
+- /AppleInternal/Library/BuildRoots/4~CQl5ugBNkTWmQ8VSD98zH_i6vFBt8wSVe1f4UAA/Library/Caches/com.apple.xbs/TemporaryDirectory.oOVfTD/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate_swift.o
+- /AppleInternal/Library/BuildRoots/4~CQl5ugBNkTWmQ8VSD98zH_i6vFBt8wSVe1f4UAA/Library/Caches/com.apple.xbs/TemporaryDirectory.oOVfTD/Binaries/ExclavePlatform_extra_exclavekit/install/TempContent/Objects/CodeCoverageDelegate.build/CodeCoverageDelegate_ek.build/Objects-normal/arm64e/CodeCoverageDelegate_swift.swift.o
+- /AppleInternal/Library/BuildRoots/4~CQl5ugBNkTWmQ8VSD98zH_i6vFBt8wSVe1f4UAA/Library/Caches/com.apple.xbs/TemporaryDirectory.oOVfTD/Sources/ExclavePlatform_extra_exclavekit/CodeCoverageDelegate/CodeCoverageDelegate/
+- _$s9Tightbeam0A7MessageV4sizeySixAA0A9EncodableRzlFZ
+
+```

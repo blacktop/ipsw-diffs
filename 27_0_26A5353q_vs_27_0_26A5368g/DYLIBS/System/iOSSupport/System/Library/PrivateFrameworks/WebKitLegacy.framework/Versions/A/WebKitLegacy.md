@@ -1,0 +1,425 @@
+## WebKitLegacy
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/WebKitLegacy.framework/Versions/A/WebKitLegacy`
+
+```diff
+
+-625.1.18.11.5
+-  __TEXT.__text: 0x161358 sha256:5b19c425b2b18934449223e12331609b9ce808f6d88eeb81542a6d0af598fd83
+-  __TEXT.__objc_methlist: 0xf4f0 sha256:1a1de306853277ffcc5a3892979c188a23a273f4e1deb6fbfd55250ef94ef841
+-  __TEXT.__const: 0x224 sha256:46724a5ab4aa681e070f64cbb8bffee04082852cbf5ea74e024b4c6ebe403c90
++625.1.20.11.3
++  __TEXT.__text: 0x162a34 sha256:3ad21e2e11cc08a551a370e73b8a8d5f6b0edf8c8a46f158faf494658a6449bb
++  __TEXT.__objc_methlist: 0xf4f0 sha256:83c8a58a3ae24da61431ea38a1f0476e351ac146955d6b521ef2a1a52b26e681
++  __TEXT.__const: 0x234 sha256:8c7a8b13a747d4717bf80ef25a5229867d70a35ca414aee4488832c126505a5f
+   __TEXT.__getClass_cstr: 0x12 sha256:0a4a1121345594231e205bee93a0f13bb18fb42b277772ad7baf5e0d6adbd714
+   __TEXT.__dlsym_cstr: 0x39 sha256:aede99aa7b345d3f5e767c6ba69c1d706dbff99e346ebff88ec3aea1ed4a97d8
+-  __TEXT.__gcc_except_tab: 0x12e84 sha256:c1fb1a30cc57c51b4956d14d746c490474ee3ad0d91f73e6d8b6646a08b92f99
+-  __TEXT.__cstring: 0x1b0c2 sha256:4385291df726a82578f0eec5cbf57c20a13e331db56bdbcafe00e8923cca5fe2
+-  __TEXT.__oslogstring: 0x141 sha256:50ba77c9317d77fc93f86a4017734320e988c9cbe1ac1fe5ed9df8c35cef1e80
+-  __TEXT.__unwind_info: 0x9448 sha256:46597086b75042c204691095ecd15e224568502775b825a37ba42fbff8ff9b8a
+-  __TEXT.__eh_frame: 0x80 sha256:43fa7963504b1bf085f499ebf5b0c5694846984e9b29970b72624aad0810823b
++  __TEXT.__gcc_except_tab: 0x12f88 sha256:695969e3e27d43abf5c62e04c9bd7a4b17a99fa0d37a825a442af6dd51585804
++  __TEXT.__cstring: 0x1b63f sha256:ede63e38ba85236077896214c5f379fc29e6fb7c30e60b7cc985d8462b31d46f
++  __TEXT.__oslogstring: 0x155 sha256:08991283f76aed83387ce0e90d007ce61c1c01992a590c2336cbbd7330323385
++  __TEXT.__unwind_info: 0x9458 sha256:70c851e2c082488d31503c779ad642329f6403631c608b7271061e8b41847adc
++  __TEXT.__eh_frame: 0x80 sha256:089281b883ca1ce6886d39eab5ff7bbf9d31127e4d33380beed56b444cf293e0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x7c0 sha256:6fdbf334dbc38d8ad3332246fd5ed19956861ad65b0262b6c375562da86068b5
+-  __DATA_CONST.__objc_classlist: 0x6c0 sha256:6e764ee4d8409a2774da337c2b18c365f475420c74c2ef89b64404e1f5905148
+-  __DATA_CONST.__objc_catlist: 0x70 sha256:731ab86e3b1674026fe01ba8083a6d26084a6543719ecce94f0dbc3ce91fec13
+-  __DATA_CONST.__objc_protolist: 0x130 sha256:543f928a583d327886cbc3a7eec29209263328c930529e14288fe27eaa8e3dbd
++  __DATA_CONST.__const: 0x7c0 sha256:084c2aae3d50b80a2f7ba45b86b1eaf12b5c4d6b0687cdd677d3f7a3d656bbeb
++  __DATA_CONST.__objc_classlist: 0x6c0 sha256:85949239f2bbeb64633075eb9345216e7ea567c35579836cb623ab0ecd1bed0e
++  __DATA_CONST.__objc_catlist: 0x70 sha256:00a64322125aa50e870edb27ff65699ef1aa66f3818c870cd2d65836816a477a
++  __DATA_CONST.__objc_protolist: 0x130 sha256:57237af430ddfaa6ca8afb01c7c9f0135b5abe95c78b193064fc23b3a70b6861
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x7e20 sha256:069f04b1d9838178b8d028c6e0bbfd54ab6a3539228e89b381597f56e9a96eeb
+-  __DATA_CONST.__objc_protorefs: 0x48 sha256:eaabba8c630ed8430cdbb2c43c86e340c840cb8828454f91d57ba24b86819a53
+-  __DATA_CONST.__objc_superrefs: 0x350 sha256:2cee3000f67b482592c4ac7d67ac4fea9c53e086eea4b54ff5f5b0a47f4babf6
+-  __DATA_CONST.__objc_arraydata: 0x30 sha256:a2e3d784d99fd7b09dbeec3a44f4c7ee83b04f014f034ce82683d7d3f09757f1
+-  __DATA_CONST.__got: 0x1000 sha256:145e3312728d995ae219e54e6acdf49522869fd30b19c56aba30a3874ab81cc6
+-  __AUTH_CONST.__const: 0x5010 sha256:8a5cb9edc3c28e2a6cad369a37b205058200ab86268e120c25929815e9db370b
+-  __AUTH_CONST.__cfstring: 0xe000 sha256:0757c398070445b731deff2608eada892b8970c2cb7b0ff556f46caaa0160bb1
+-  __AUTH_CONST.__objc_const: 0xfc70 sha256:0ba71791e76efc9409ed2d765b24651eba1f7ac985abb95c781baafc8b009fe8
+-  __AUTH_CONST.__weak_auth_got: 0x10 sha256:9d1cf291f2774af3ca9170d122c331f80623ad981ae5c63d6f33aa535c2f1337
+-  __AUTH_CONST.__objc_intobj: 0x2d0 sha256:d2c0a420d9c2858cd5cb56f1df8c8eef939919cbc9638e5ad1e67afaec9f81c9
+-  __AUTH_CONST.__objc_dictobj: 0x28 sha256:b59fd225edba3cf116aaffaf440af44ab08a9d34d31d14f3ad3eae18e0b7177b
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:a3c07abfbbb7a2b70f6ce12a30cc5dd6e52a7278409049ac74eb1ad36203f739
++  __DATA_CONST.__objc_selrefs: 0x7e20 sha256:f0a179e8063c7c19f8a18a649930f6a953ab5d55fc3505a8a404971b0bc82ad7
++  __DATA_CONST.__objc_protorefs: 0x48 sha256:38bda34123b35362813c6661edf138ff93b16b286edaf3682ec149a503023690
++  __DATA_CONST.__objc_superrefs: 0x350 sha256:980eead162ba9e0da4bbae0328ec6f415c19ed24e881fb3a0fd28a6cd1ef1c5f
++  __DATA_CONST.__objc_arraydata: 0x30 sha256:1408723b25a16b473cc776e2804241f9e181510252b15dd7dc7ca05cbb3bc0d2
++  __DATA_CONST.__got: 0x1000 sha256:ace60786efb7b4f5bc833bd9275651d37ea3cb5dedd283cc848802fcced862e9
++  __AUTH_CONST.__const: 0x5050 sha256:a06c3f61f8b0f1e06b7d48523c912436ae951d3e1a934305dce3ebafaf296683
++  __AUTH_CONST.__cfstring: 0xe300 sha256:bdd31711932df542bef964d1021dfbf5da312946eda27a89aaed461e08196909
++  __AUTH_CONST.__objc_const: 0xfc70 sha256:71d01f687608c0900e781551ac10d4e005f07bfe7cb73e5f4f84249ad6ab26f8
++  __AUTH_CONST.__weak_auth_got: 0x10 sha256:dbb69cb34767113a9cc64abbc237e01e8b6b8182a73f93a32e553b9a8892895c
++  __AUTH_CONST.__objc_intobj: 0x2d0 sha256:a06039ff4e68fa6335ad3aa16f213dfc137e4b60be2cb91cda5e05336bf23f7b
++  __AUTH_CONST.__objc_dictobj: 0x28 sha256:94a6256fc815824f5bcc8548c93eee58f4297fd119b42c7e3d29590b30dd10de
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:20d94c34f3f5784df1d838ae3a20f6c1b8149fc6cbe9798c29ad04e0d5d87d8f
+   __AUTH_CONST.__auth_got: 0x4628 sha256:6d4d6453783b0606d788fb2bca20af615d25cf68338fbccc30ac3818144ea915
+-  __AUTH.__objc_data: 0x3930 sha256:5ab3223969557ace74dfd61d9eceda1646bb372a215f9aa2b7d4f9e4f02439ee
+-  __AUTH.__data: 0xe8 sha256:13712f2201312d2acf205a0b2541f00c897c6da1da13f042874cbeb1f933d115
++  __AUTH.__objc_data: 0x3930 sha256:a2e7f1d60739e24cdc3a0cf62cc4e917c926610d46f7679fc240cf0df5e39613
++  __AUTH.__data: 0xe8 sha256:11e61323fd01977ac792bb481a726da934f8687c9909ad7b028c062eeb2ca709
+   __DATA.__objc_ivar: 0x488 sha256:46e01cb966152f3a8f0c1b23389498e58f27756c90dede11cb26e538601064a1
+-  __DATA.__data: 0x1434 sha256:08711b879a787a276101c0398770e663bb85ecc5876e30191505ce9b7b4d8d97
++  __DATA.__data: 0x1434 sha256:851e94952e867911ff00ba8c40540c65f8c4f8be6bb4ad505e11a1cb79a6a016
+   __DATA.__common: 0x3e1 sha256:3986436efe37fb1cb0a48ed175a3516b8282f9e443a64b176d2f29795ca63f38
+   __DATA.__bss: 0x150 sha256:52a3e0804d93dc525ec3c67ef8ac5b01756ecf0513e36f3c19435e4c82cb5d29
+   __DATA_DIRTY.__objc_ivar: 0x4c sha256:f40e460adba3baf287e4973570b64b5bbf2e32e33e9d7dcbba82f0ecb3080729
+-  __DATA_DIRTY.__objc_data: 0xa50 sha256:76051c78cc75a17215b4e20b76f86c9987d61d1668fcd434be34eac993dd5e62
+-  __DATA_DIRTY.__data: 0x30 sha256:822d198cbbfde444caff899568f1d7c589f79807f3e0cac049a930c743575a65
++  __DATA_DIRTY.__objc_data: 0xa50 sha256:81a00cb7a907d6d85fe7fc5e366aa3ad14668683239724d84244ed228c0d16ab
++  __DATA_DIRTY.__data: 0x30 sha256:787835dfbe2e51c5203929a927f283739f09283f8bae60a991dd157cce18b564
+   __DATA_DIRTY.__common: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+   __DATA_DIRTY.__bss: 0x330 sha256:0645a4a67dcec462dc9f335bb0564e6e39bf12ea7e40cf8de81418210102c2d1
+   - /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: A4DC5844-87BE-3313-8870-B1F82F0204DE
+-  Functions: 7219
+-  Symbols:   16269
+-  CStrings:  3918
++  UUID: 0482C37B-1282-316F-BC47-4A1BD95C0895
++  Functions: 7223
++  Symbols:   16263
++  CStrings:  3967
+ 
+Symbols:
++ GCC_except_table132
++ GCC_except_table195
++ GCC_except_table202
++ GCC_except_table206
++ GCC_except_table214
++ GCC_except_table223
++ GCC_except_table235
++ GCC_except_table237
++ GCC_except_table242
++ GCC_except_table244
++ GCC_except_table279
++ GCC_except_table324
++ GCC_except_table338
++ GCC_except_table360
++ GCC_except_table372
++ GCC_except_table377
++ GCC_except_table387
++ GCC_except_table400
++ GCC_except_table406
++ GCC_except_table414
++ GCC_except_table420
++ GCC_except_table459
++ GCC_except_table463
++ GCC_except_table481
++ GCC_except_table483
++ GCC_except_table488
++ GCC_except_table490
++ GCC_except_table513
++ GCC_except_table539
++ GCC_except_table542
++ GCC_except_table602
++ GCC_except_table613
++ GCC_except_table645
++ GCC_except_table647
++ GCC_except_table653
++ GCC_except_table667
++ GCC_except_table669
++ GCC_except_table675
++ GCC_except_table748
++ GCC_except_table751
++ GCC_except_table753
++ GCC_except_table761
++ GCC_except_table764
++ GCC_except_table769
++ GCC_except_table772
++ GCC_except_table773
++ GCC_except_table781
++ GCC_except_table784
++ GCC_except_table789
++ GCC_except_table792
++ GCC_except_table793
++ GCC_except_table798
++ GCC_except_table799
++ GCC_except_table804
++ GCC_except_table807
++ GCC_except_table814
++ GCC_except_table817
++ GCC_except_table823
++ GCC_except_table824
++ GCC_except_table829
++ GCC_except_table832
++ GCC_except_table835
++ GCC_except_table837
++ GCC_except_table841
++ GCC_except_table844
++ GCC_except_table853
++ GCC_except_table856
++ GCC_except_table862
++ GCC_except_table865
++ GCC_except_table866
++ GCC_except_table874
++ GCC_except_table877
++ GCC_except_table883
++ GCC_except_table886
++ GCC_except_table887
++ GCC_except_table895
++ GCC_except_table898
++ GCC_except_table911
++ GCC_except_table914
++ GCC_except_table921
++ GCC_except_table934
++ GCC_except_table938
++ GCC_except_table939
++ GCC_except_table951
++ GCC_except_table957
++ GCC_except_table959
++ __ZN3WTF13NativePromiseINS_6VectorIN7WebCore14DOMCacheEngine17CrossThreadRecordELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEEENS3_5ErrorELj0EE7StorageD1Ev
++ __ZN3WTF6VectorINS_17TextBreakIteratorELm2ENS_15CrashOnOverflowELm16ENS_10FastMallocEE8removeAtEmm
++ __ZN5mpark6detail10visitation3alt12visit_alt_atIZNS0_4baseIJN7WebCore18SecurityOriginData5TupleENS5_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS5_26OpaqueOriginIdentifierTypeENS9_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEEE14generic_assignINS0_8impl_smfILb0EJS7_SF_EEEEEvOT_EUlRSK_OT0_E_JRSG_SJ_EEEDTclsr3libE6invokeclsr3stdE7declvalISK_EEspclsr6access4baseE7get_altIXLi0EEEclsr3stdE7declvalIT0_EEEEEmSL_DpOSR_
++ __ZN5mpark6detail10visitation3alt7fold_atIJLm0ELm1EENS1_7variant13value_visitorIZN3WTF3addIJN7WebCore18SecurityOriginData5TupleENS8_16ProcessQualifiedINS6_23ObjectIdentifierGenericINS8_26OpaqueOriginIdentifierTypeENS6_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEEEEvRNS6_6HasherERKNS_7variantIJDpT_EEEEUlRT_E_EEJRKNS0_8impl_smfILb0EJSA_SH_EEEEEEDTclsr3libE6invokeclsr3stdE7declvalIT0_EEspclsr6access4baseE7get_altIXLi0EEEclsr3stdE7declvalIT1_EEEEENSt3__116integer_sequenceImJXspT_EEEEmOSY_DpOSZ_
++ __ZN5mpark6detail10visitation3alt7fold_atIJLm0ELm1ELm2ELm3ELm4ELm5ELm6ELm7ELm8EEZNS0_4baseIJDnN7WebCore10IDBKeyData7InvalidEN3WTF6VectorIS6_Lm0ENS8_15CrashOnOverflowELm16ENS8_10FastMallocEEENS8_6StringEdNS6_4DateENS5_20ThreadSafeDataBufferENS6_3MinENS6_3MaxEEE7destroyEvEUlRT_E_JRSI_EEEDTclsr3libE6invokeclsr3stdE7declvalIT0_EEspclsr6access4baseE7get_altIXLi0EEEclsr3stdE7declvalIT1_EEEEENSt3__116integer_sequenceImJXspT_EEEEmOSN_DpOSO_
++ __ZN5mpark6detail4baseIJN3WTF20TextBreakIteratorICUENS2_19TextBreakIteratorCFEEE17generic_constructINS0_8impl_smfILb0EJS3_S4_EEEEEvRS5_OT_
++ __ZN5mpark6detail4baseIJN3WTF6StringENS2_6VectorIS3_Lm0ENS2_15CrashOnOverflowELm16ENS2_10FastMallocEEEEE14generic_assignINS0_8impl_smfILb0EJS3_S7_EEEEEvOT_
++ __ZN5mpark6detail4baseIJN3WTF6VectorIN7WebCore14DOMCacheEngine17CrossThreadRecordELm0ENS2_15CrashOnOverflowELm16ENS2_10FastMallocEEENS5_5ErrorEEE14generic_assignINS0_8impl_smfILb0EJS9_SA_EEEEEvOT_
++ __ZN5mpark6detail4baseIJN3WTF6VectorIyLm0ENS2_15CrashOnOverflowELm16ENS2_10FastMallocEEEN7WebCore14DOMCacheEngine5ErrorEEE14generic_assignINS0_8impl_smfILb0EJS6_S9_EEEEEvOT_
++ __ZN5mpark6detail4baseIJN7WebCore14DOMCacheEngine10CacheInfosENS3_5ErrorEEE14generic_assignINS0_8impl_smfILb0EJS4_S5_EEEEEvOT_
++ __ZN5mpark6detail4baseIJN7WebCore18SecurityOriginData5TupleENS2_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS2_26OpaqueOriginIdentifierTypeENS6_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEEE14generic_assignIRKNS0_8impl_smfILb0EJS4_SC_EEEEEvOT_
++ __ZN5mpark6detail8impl_smfILb0EJN3WTF13NativePromiseIN7WebCore14DOMCacheEngine10CacheInfosENS5_5ErrorELj0EE7Storage8NoResultENSt12experimental15fundamentals_v38expectedIS6_S7_EENS2_8FunctionIFSE_vEEEEED2Ev
++ __ZN5mpark6detail8impl_smfILb0EJN3WTF20TextBreakIteratorICUENS2_19TextBreakIteratorCFEEEaSEOS5_
++ __ZN5mpark6detail8impl_smfILb0EJN3WTF7SecondsEN7WebCore13ResourceErrorEEED2Ev
++ __ZN5mpark7variantIJN7WebCore17PageConfiguration32LocalMainFrameCreationParametersEN3WTF17CompletionHandlerIFNS4_9UniqueRefINS1_17RemoteFrameClientEEERNS1_11RemoteFrameEEEEEED1Ev
++ __ZN6WebKit15StorageAreaSync24blockUntilImportCompleteEv
++ __ZN7WebCore11ExceptionOrIN3WTF3RefINS_22DeprecatedCSSOMCounterENS1_12RawPtrTraitsIS3_EENS1_21DefaultRefDerefTraitsIS3_EEEEED2Ev
++ __ZN7WebCore14DOMCacheEngine17CrossThreadRecordD2Ev
++ __ZN7WebCore14SocketProvider32countWebSocketChannelsForTestingEON3WTF17CompletionHandlerIFvjEEE
++ __ZN7WebCore15IDBKeyRangeDataC2EOS0_
++ __ZN7WebCore17FrameTreeSyncDataD2Ev
++ __ZN7WebCore22LocalFrameLoaderClient23didCacheBackForwardItemENS_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS_29BackForwardItemIdentifierTypeENS2_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENS1_INS3_INS_34BackForwardFrameItemIdentifierTypeES6_yEEEE
++ __ZN7WebCore22LocalFrameLoaderClient23didEvictBackForwardItemENS_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS_29BackForwardItemIdentifierTypeENS2_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEE
++ __ZN7WebCore22LocalFrameLoaderClient30applyMonitorUnloadToOwnerFrameENS_18IFrameUnloadReasonE
++ __ZN7WebCore22LocalFrameLoaderClient36didTakeBackForwardItemForRestorationENS_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS_29BackForwardItemIdentifierTypeENS2_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEE
++ __ZN7WebCore22LocalFrameLoaderClient57dispatchDidChangeCSPOriginsThatUpgradeInsecureNavigationsERKN3WTF7HashSetINS_18SecurityOriginDataENS1_11DefaultHashIS3_EENS1_10HashTraitsIS3_EENS1_15HashTableTraitsELNS1_17ShouldValidateKeyE1EEE
++ __ZN7WebCore4Page8goToItemERNS_10LocalFrameERNS_11HistoryItemENS_13FrameLoadTypeENS_27ShouldTreatAsContinuingLoadENS_33ShouldRestoreFromBackForwardCacheE
++ __ZN7WebCore8IDBValueC1EOS0_
++ __ZN7WebCore8IDBValueD1Ev
++ __ZN7WebCore9CaretBase17computeCaretColorERKNS_5Style13ComputedStyleEPKNS_4NodeE
++ __ZNK3WTF8WallTime17secondsSinceEpochEv
++ __ZNK7WebCore12ChromeClient21scrollOriginDidChangeERKNS_10LocalFrameE
++ __ZNKSt3__114default_deleteIN6WebKit19DidModifyOriginDataEEclB9sqn220106EPS2_
++ __ZNKSt3__114default_deleteIN7WebCore27AlternativeTextUIControllerEEclB9sqn220106EPS2_
++ __ZNSt3__110unique_ptrI28ViewportConstrainedLayerDataNS_14default_deleteIS1_EEED2B9sqn220106Ev
++ __ZNSt3__110unique_ptrIN7WebCore10UserScriptENS_14default_deleteIS2_EEED1B9sqn220106Ev
++ __ZNSt3__110unique_ptrIN7WebCore14UserStyleSheetENS_14default_deleteIS2_EEED1B9sqn220106Ev
++ __ZNSt3__110unique_ptrIN7WebCore15IDBDatabaseInfoENS_14default_deleteIS2_EEE5resetB9sqn220106EPS2_
++ __ZNSt3__110unique_ptrIN7WebCore15RunLoopObserverENS_14default_deleteIS2_EEED1B9sqn220106Ev
++ __ZNSt3__117__call_once_proxyB9sqn220106INS_5tupleIJOZ31WebInstallMemoryPressureHandlerE3$_0EEEEEvPv
++ __ZNSt3__18exchangeB9sqn220106INS_8optionalIN3WTF17TextBreakIteratorEEES4_EET_RS5_OT0_
+- GCC_except_table201
+- GCC_except_table205
+- GCC_except_table209
+- GCC_except_table212
+- GCC_except_table215
+- GCC_except_table225
+- GCC_except_table243
+- GCC_except_table245
+- GCC_except_table278
+- GCC_except_table290
+- GCC_except_table335
+- GCC_except_table337
+- GCC_except_table359
+- GCC_except_table366
+- GCC_except_table380
+- GCC_except_table413
+- GCC_except_table419
+- GCC_except_table434
+- GCC_except_table445
+- GCC_except_table458
+- GCC_except_table460
+- GCC_except_table480
+- GCC_except_table482
+- GCC_except_table486
+- GCC_except_table489
+- GCC_except_table511
+- GCC_except_table538
+- GCC_except_table540
+- GCC_except_table600
+- GCC_except_table611
+- GCC_except_table644
+- GCC_except_table646
+- GCC_except_table651
+- GCC_except_table666
+- GCC_except_table668
+- GCC_except_table672
+- GCC_except_table749
+- GCC_except_table752
+- GCC_except_table757
+- GCC_except_table762
+- GCC_except_table765
+- GCC_except_table771
+- GCC_except_table777
+- GCC_except_table778
+- GCC_except_table783
+- GCC_except_table786
+- GCC_except_table791
+- GCC_except_table795
+- GCC_except_table796
+- GCC_except_table800
+- GCC_except_table801
+- GCC_except_table806
+- GCC_except_table809
+- GCC_except_table815
+- GCC_except_table820
+- GCC_except_table825
+- GCC_except_table826
+- GCC_except_table831
+- GCC_except_table834
+- GCC_except_table836
+- GCC_except_table838
+- GCC_except_table842
+- GCC_except_table849
+- GCC_except_table854
+- GCC_except_table857
+- GCC_except_table864
+- GCC_except_table870
+- GCC_except_table871
+- GCC_except_table876
+- GCC_except_table879
+- GCC_except_table885
+- GCC_except_table891
+- GCC_except_table892
+- GCC_except_table897
+- GCC_except_table900
+- GCC_except_table913
+- GCC_except_table916
+- GCC_except_table923
+- GCC_except_table936
+- GCC_except_table942
+- GCC_except_table943
+- GCC_except_table954
+- GCC_except_table960
+- GCC_except_table962
+- __ZN3WTF13NativePromiseIN7WebCore14DOMCacheEngine30CacheIdentifierOperationResultENS2_5ErrorELj0EE7StorageD1Ev
+- __ZN3WTF13NativePromiseIbN7WebCore14DOMCacheEngine5ErrorELj0EE7StorageD1Ev
+- __ZN3WTF13NativePromiseIvN7WebCore14DOMCacheEngine5ErrorELj0EE7StorageD1Ev
+- __ZN3WTF20VectorTypeOperationsIN7WebCore14DOMCacheEngine17CrossThreadRecordEE8destructEPS3_S5_
+- __ZN3WTF22TextBreakIteratorCache3putEONS_17TextBreakIteratorE
+- __ZN3WTF6VectorIN7WebCore20CompositionHighlightELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEED2Ev
+- __ZN5mpark6detail10destructorINS0_6traitsIJN3WTF13NativePromiseIN7WebCore14DOMCacheEngine10CacheInfosENS6_5ErrorELj0EE7Storage8NoResultENSt12experimental15fundamentals_v38expectedIS7_S8_EENS3_8FunctionIFSF_vEEEEEELNS0_5TraitE1EED2Ev
+- __ZN5mpark6detail10destructorINS0_6traitsIJN3WTF13NativePromiseINS3_6VectorIN7WebCore14DOMCacheEngine17CrossThreadRecordELm0ENS3_15CrashOnOverflowELm16ENS3_10FastMallocEEENS7_5ErrorELj0EE7Storage8NoResultENSt12experimental15fundamentals_v38expectedISB_SC_EENS3_8FunctionIFSJ_vEEEEEELNS0_5TraitE1EED2Ev
+- __ZN5mpark6detail10destructorINS0_6traitsIJN3WTF7SecondsEN7WebCore13ResourceErrorEEEELNS0_5TraitE1EED2Ev
+- __ZN5mpark6detail10visitation3alt12visit_alt_atIZNS0_10assignmentINS0_6traitsIJN7WebCore18SecurityOriginData5TupleENS6_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS6_26OpaqueOriginIdentifierTypeENSA_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEEEEE14generic_assignINS0_15move_assignmentISH_LNS0_5TraitE1EEEEEvOT_EUlRSN_OT0_E_JRSI_SM_EEEDcmSO_DpOT0_
+- __ZN5mpark6detail10visitation3alt12visit_alt_atIZNS0_10assignmentINS0_6traitsIJN7WebCore18SecurityOriginData5TupleENS6_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS6_26OpaqueOriginIdentifierTypeENSA_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEEEEE14generic_assignIRKNS0_15copy_assignmentISH_LNS0_5TraitE1EEEEEvOT_EUlRSP_OT0_E_JRSI_SO_EEEDcmSQ_DpOT0_
+- __ZN5mpark6detail10visitation3alt9visit_altINS0_4dtorEJRNS0_10destructorINS0_6traitsIJDnN7WebCore10IDBKeyData7InvalidEN3WTF6VectorIS8_Lm0ENSA_15CrashOnOverflowELm16ENSA_10FastMallocEEENSA_6StringEdNS8_4DateENS7_20ThreadSafeDataBufferENS8_3MinENS8_3MaxEEEELNS0_5TraitE1EEEEEEDcOT_DpOT0_
+- __ZN5mpark6detail10visitation3alt9visit_altINS0_4dtorEJRNS0_10destructorINS0_6traitsIJN3WTF3RefIN7WebCore22DeprecatedCSSOMCounterENS7_12RawPtrTraitsISA_EENS7_21DefaultRefDerefTraitsISA_EEEENS9_9ExceptionEEEELNS0_5TraitE1EEEEEEDcOT_DpOT0_
+- __ZN5mpark6detail10visitation3alt9visit_altINS1_7variant13value_visitorIZN3WTF3addIJN7WebCore18SecurityOriginData5TupleENS8_16ProcessQualifiedINS6_23ObjectIdentifierGenericINS8_26OpaqueOriginIdentifierTypeENS6_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEEEEvRNS6_6HasherERKNS_7variantIJDpT_EEEEUlRT_E_EEJRKNS0_4implIJSA_SH_EEEEEEDcOSQ_DpOT0_
+- __ZN5mpark6detail15move_assignmentINS0_6traitsIJN7WebCore14DOMCacheEngine10CacheInfosENS4_5ErrorEEEELNS0_5TraitE1EEaSEOS9_
+- __ZN5mpark7variantIJN3WTF6VectorIyLm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEEN7WebCore14DOMCacheEngine5ErrorEEEaSEOS9_
+- __ZN6WebKit15StorageAreaImpl22clearForOriginDeletionEv
+- __ZN6WebKit15StorageAreaImpl4syncEv
+- __ZN7WebCore11ExceptionOrINS_15StorageEstimateEED2Ev
+- __ZN7WebCore11ExceptionOrINS_5Range14CompareResultsEED2Ev
+- __ZN7WebCore11ExceptionOrIPNS_4NodeEED1Ev
+- __ZN7WebCore11ExceptionOrIPNS_7ElementEED1Ev
+- __ZN7WebCore11ExceptionOrIPNS_7ElementEED2Ev
+- __ZN7WebCore11ExceptionOrIbED1Ev
+- __ZN7WebCore11ExceptionOrIbED2Ev
+- __ZN7WebCore11ExceptionOrIdED1Ev
+- __ZN7WebCore11ExceptionOrIdED2Ev
+- __ZN7WebCore11ExceptionOrIfED2Ev
+- __ZN7WebCore11ExceptionOrIiED2Ev
+- __ZN7WebCore11ExceptionOrIjED2Ev
+- __ZN7WebCore11ExceptionOrIsED1Ev
+- __ZN7WebCore20DeprecatedCSSOMValuedlEPS0_St19destroying_delete_t
+- __ZN7WebCore21GeolocationController4fromEPNS_4PageE
+- __ZN7WebCore4Page8goToItemERNS_10LocalFrameERNS_11HistoryItemENS_13FrameLoadTypeENS_27ShouldTreatAsContinuingLoadE
+- __ZN7WebCore8IDBValueD2Ev
+- __ZN7WebCore9CaretBase17computeCaretColorERKNS_11RenderStyleEPKNS_4NodeE
+- __ZNK7WebCore20DeprecatedCSSOMValue12cssValueTypeEv
+- __ZNK7WebCore20DeprecatedCSSOMValue7cssTextEv
+- __ZNKSt3__114default_deleteIN6WebKit19DidModifyOriginDataEEclB9sqn220100EPS2_
+- __ZNKSt3__114default_deleteIN7WebCore27AlternativeTextUIControllerEEclB9sqn220100EPS2_
+- __ZNSt3__110unique_ptrI28ViewportConstrainedLayerDataNS_14default_deleteIS1_EEED2B9sqn220100Ev
+- __ZNSt3__110unique_ptrIN7WebCore10UserScriptENS_14default_deleteIS2_EEED1B9sqn220100Ev
+- __ZNSt3__110unique_ptrIN7WebCore14UserStyleSheetENS_14default_deleteIS2_EEED1B9sqn220100Ev
+- __ZNSt3__110unique_ptrIN7WebCore15IDBDatabaseInfoENS_14default_deleteIS2_EEE5resetB9sqn220100EPS2_
+- __ZNSt3__110unique_ptrIN7WebCore15RunLoopObserverENS_14default_deleteIS2_EEED1B9sqn220100Ev
+- __ZNSt3__117__call_once_proxyB9sqn220100INS_5tupleIJOZ31WebInstallMemoryPressureHandlerE3$_0EEEEEvPv
+- __ZNSt3__18optionalIN3WTF17TextBreakIteratorEEaSB9sqn220100EOS3_
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StyleScrollbarWidth.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/Box.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/CheckedPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/CheckedRef.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/Deque.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/HashTable.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/RefCounted.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/StdLibExtras.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/TypeCasts.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/WeakPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/WeakRef.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/cf/TypeCastsCF.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/text/StringCommon.h"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Library/Caches/com.apple.xbs/TemporaryDirectory.PUJ84r/Sources/WebKitLegacy_iosmac/Source/WebKitLegacy/WebCoreSupport/WebResourceLoadScheduler.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Library/Caches/com.apple.xbs/TemporaryDirectory.PUJ84r/Sources/WebKitLegacy_iosmac/Source/WebKitLegacy/ios/Misc/WebGeolocationCoreLocationProvider.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Library/Caches/com.apple.xbs/TemporaryDirectory.PUJ84r/Sources/WebKitLegacy_iosmac/Source/WebKitLegacy/mac/DOM/ExceptionHandlers.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Library/Caches/com.apple.xbs/TemporaryDirectory.PUJ84r/Sources/WebKitLegacy_iosmac/Source/WebKitLegacy/mac/WebCoreSupport/WebEditorClient.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Library/Caches/com.apple.xbs/TemporaryDirectory.PUJ84r/Sources/WebKitLegacy_iosmac/Source/WebKitLegacy/mac/WebCoreSupport/WebFrameLoaderClient.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Library/Caches/com.apple.xbs/TemporaryDirectory.PUJ84r/Sources/WebKitLegacy_iosmac/Source/WebKitLegacy/mac/WebView/WebFrame.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSI3ugCEJOiQSwb8zDCPglv7_Dq2QQJhqdMCXIg/Library/Caches/com.apple.xbs/TemporaryDirectory.PUJ84r/Sources/WebKitLegacy_iosmac/Source/WebKitLegacy/mac/WebView/WebPreferences.mm"
++ "::Class initCLLocationManager()"
++ "CSS Scroll State Container Queries"
++ "CSSScrollStateContainerQueriesEnabled"
++ "Enable MediaSession hangup, previousslide, nextslide, and enterpictureinpicture actions"
++ "Enable scroll-state value for container-type CSS property"
++ "Frame Resource Monitor Network Usage Threshold For Testing"
++ "Frame Resource Monitor Network Usage Threshold Randomness For Testing"
++ "IFrameResourceMonitorNetworkUsageThresholdForTesting"
++ "IFrameResourceMonitorNetworkUsageThresholdRandomnessForTesting"
++ "MediaSession extended actions"
++ "MediaSessionExtendedActionsEnabled"
++ "Origin-Agent-Cluster header"
++ "OriginAgentClusterEnabled"
++ "Storage Access API Per-Page Scope"
++ "StorageAccessAPIPerPageScopeEnabled"
++ "Support for the Origin-Agent-Cluster HTTP response header and window.originAgentCluster getter"
++ "Test override for the iframe resource monitor network usage threshold in bytes (0 means use production default)"
++ "Test override for the iframe resource monitor network usage threshold randomness factor (only applied when the threshold-for-testing preference is set)"
++ "WebKitCSSScrollStateContainerQueriesEnabled"
++ "WebKitIFrameResourceMonitorNetworkUsageThresholdForTesting"
++ "WebKitIFrameResourceMonitorNetworkUsageThresholdRandomnessForTesting"
++ "WebKitMediaSessionExtendedActionsEnabled"
++ "WebKitOriginAgentClusterEnabled"
++ "WebKitStorageAccessAPIPerPageScopeEnabled"
++ "When enabled, storage access granted to one frame is shared with all same-origin frames on the page"
++ "void *CoreLocationLibrary(bool)_block_invoke"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StyleScrollbarWidth.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/Box.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/CheckedPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/CheckedRef.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/Deque.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/HashTable.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/RefCounted.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/StdLibExtras.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/TypeCasts.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/WeakPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/WeakRef.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/cf/TypeCastsCF.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.Internal.sdk/System/iOSSupport/usr/local/include/wtf/text/StringCommon.h"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Library/Caches/com.apple.xbs/TemporaryDirectory.gDqauj/Sources/WebKitLegacy_iosmac/Source/WebKitLegacy/WebCoreSupport/WebResourceLoadScheduler.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Library/Caches/com.apple.xbs/TemporaryDirectory.gDqauj/Sources/WebKitLegacy_iosmac/Source/WebKitLegacy/ios/Misc/WebGeolocationCoreLocationProvider.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Library/Caches/com.apple.xbs/TemporaryDirectory.gDqauj/Sources/WebKitLegacy_iosmac/Source/WebKitLegacy/mac/DOM/ExceptionHandlers.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Library/Caches/com.apple.xbs/TemporaryDirectory.gDqauj/Sources/WebKitLegacy_iosmac/Source/WebKitLegacy/mac/WebCoreSupport/WebEditorClient.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Library/Caches/com.apple.xbs/TemporaryDirectory.gDqauj/Sources/WebKitLegacy_iosmac/Source/WebKitLegacy/mac/WebCoreSupport/WebFrameLoaderClient.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Library/Caches/com.apple.xbs/TemporaryDirectory.gDqauj/Sources/WebKitLegacy_iosmac/Source/WebKitLegacy/mac/WebView/WebFrame.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQvHugAnz7eRk66slcyFp7VjzsEMKeWSOuuakJ8/Library/Caches/com.apple.xbs/TemporaryDirectory.gDqauj/Sources/WebKitLegacy_iosmac/Source/WebKitLegacy/mac/WebView/WebPreferences.mm"
+- "Class initCLLocationManager()"
+- "void *CoreLocationLibrary()_block_invoke"
+
+```

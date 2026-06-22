@@ -1,0 +1,57 @@
+## com.apple.SceneKit.C3DColladaResourcesCoordinator
+
+> `/System/Library/Frameworks/SceneKit.framework/Versions/A/XPCServices/com.apple.SceneKit.C3DColladaResourcesCoordinator.xpc/Contents/MacOS/com.apple.SceneKit.C3DColladaResourcesCoordinator`
+
+```diff
+
+-610.0.0.0.0
+-  __TEXT.__text: 0x1cd0 sha256:787f61bb0966d964248065b950d67b4f047c1b9e736593e6a9251d69e4a9f84c
++611.0.0.0.0
++  __TEXT.__text: 0x1cc8 sha256:395c009f3291868b123e59da6360cc220565b134cfa49a72b4383b8057b88372
+   __TEXT.__auth_stubs: 0x340 sha256:5dcf136e910a4f23b68dbeaa40f37378ba9e31fcd8f17a70c5f1ef375bd7bce0
+   __TEXT.__objc_stubs: 0x1c0 sha256:1467e18374fb1baa4e85fb79d7d356453ba8f45251c2ad690d7eb07b04e8654c
+-  __TEXT.__const: 0x88 sha256:9466037e77ebfca3993ce513af954cb8228bf15d8379acbb4ffced7706f00502
++  __TEXT.__const: 0x88 sha256:9ff1862305003c3e9cb0deb28038d97cd65a7528a00a094337a72b3988c0eea4
+   __TEXT.__cstring: 0x680 sha256:bcf5552192921774ca30ddabc57cda76bf79c9508d3f2c2b91d13cd80f52eb8a
+-  __TEXT.__oslogstring: 0x507 sha256:7b3d7672bc8c0d67c4da0564f95e33bff51129d84986cb7394026c615cf3e964
+-  __TEXT.__gcc_except_tab: 0x8c sha256:e13e67a51da13dc8bad83eac8ab076679ceb8ec559ef28f44b1db69f03e1007b
++  __TEXT.__oslogstring: 0x507 sha256:bb8c2eed550dfec219404db8f0c2a56f0055e6ffa6d23a6324319dd7307e5ec9
++  __TEXT.__gcc_except_tab: 0x8c sha256:37fb06658f08ccc67df7add4af9c80b8da0de9f82fb5e7a17dd65a249e2f1f65
+   __TEXT.__objc_methname: 0x10e sha256:bf8e34cc50527b09c451bb571adfb1c875b1b71e5b8a5c31eff3d4da750f5b04
+-  __TEXT.__unwind_info: 0xf0 sha256:1bb90e7aa0fdf48e829a4a315aaf44f9b9329017f4a09863bb14e2ad186bb537
+-  __DATA_CONST.__const: 0x148 sha256:758e8a235b229f07f1b631bc684e01586dbd73984dafd517023e9411c79c45e3
++  __TEXT.__unwind_info: 0xf0 sha256:c0ebfd2ae824a4d637d2b620e1dd300521a03562d367572275f96246f3060eda
++  __DATA_CONST.__const: 0x148 sha256:39c5e32e583d62b94e5c2ecd3967c5846a6a7e1c48b866160b8cc1541a27c554
+   __DATA_CONST.__cfstring: 0x460 sha256:8d775301b23bce48f4dde86f57d1a6d9fe0a8e2381a3f9a4d9eaef8ba8659c43
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__auth_got: 0x1b0 sha256:0d1c771775ceaa346c1cf5d9dc80ed9d1c8da389dd3e41a93339cca080aff297
+
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C37A9EE9-F156-30E4-964D-2D2597487644
++  UUID: 748C2BD8-D93D-33F0-B29F-CFE84C148B74
+   Functions: 54
+   Symbols:   71
+   CStrings:  121
+Functions:
+~ sub_1000009c8 : sha256 fc17a6b18ae6be728c4fcd5b4e48752cd06f68d8ec171adc2c065d761580a9f2 -> 04814452312cbf835566334a381c1bad6b1a587440681177a9db5bc51939acd4
+~ sub_100000a00 : sha256 ae633cc4f70b1ed35c9bb4b61b290dd12f66aa26509ea9877a115bccda28c2c9 -> af67b11d2837dd0de3f2e29e4f378d69952fa9daa039eb2ce46257d6d9dca182
+~ sub_100000a64 : sha256 71d62a9970eebdd386863084635dd8c2d620c661fada8c3a05814093b984a874 -> da038bfdcc46e5d3b7249b14074f1a716a163423bfda77d7492747b6c20c36ae
+~ sub_100000a84 : sha256 0c74444c7cabba553881c0a2cf26068f8282e61d08604a4592d1ae83cf9776f3 -> b73761347341801cb83dc40b8b450eae1ec870900ccc5f3e96c3d833d94621be
+~ sub_100000b40 : 2092 -> 2088
+~ sub_10000136c -> sub_100001368 : sha256 64f200608d131363ef1321f97c5ce0e47a2511ae199e73a6064e487f73845379 -> 0c57ec24b15e27bb1e880701bb212df38e86c1287357f4ef25d56ee53fe1f61d
+~ sub_1000013bc -> sub_1000013b8 : sha256 87cba5e567366a5f566bc288be0c7a74de742c7900b81cf3c6aad11ba074a42f -> 4762d60b58d67428f4fe2caae2523edeb3592ebbcc950c8856902b9a6bbaee65
+~ sub_100001400 -> sub_1000013fc : 1364 -> 1360
+~ sub_100001954 -> sub_10000194c : sha256 9dc9a78245cd6b42107cd41ba5b7e96d830b39c6035141944f9695709f8b1c9d -> 03b2a8b4deb2018af09f4b2c01924859178b202b105f951a91a3ea2bbcd78fc1
+~ sub_1000019e0 -> sub_1000019d8 : sha256 5cd65114c8c719a246c9e133ae38dcbaf3db722b7009ec964de02249983f86b8 -> 7c54dee809cf940be5f7eb347aa3c0bd0b77131318d6061bb40df832e71cbdbd
+~ sub_100001bfc -> sub_100001bf4 : sha256 a7c0172099b76f11c91f0fe02b9eb04d3aca736ffaab7ed05ee39874e5b5c8a3 -> 66ea8afb94fb1be37273173adb9a9ff25f7fcdbcfb1af4c77e91984ade0cc594
+~ sub_100001cbc -> sub_100001cb4 : sha256 d4054b66c88e26b2c438ab416dacb9240d5823f97b816b6a52e10d2bb8f03eef -> 8646e56c200b0bfdddfe2ba8a6d3c8ef4436a4a84e5ec85d8fefcb8c4d0799e5
+~ sub_100001d2c -> sub_100001d24 : sha256 d1b3f1fc9d6d3d673d51db4b1dad4c5d9a32724e43d3d6c0716ca6f778a7088a -> a9e4dcbc6aae3fdf91642e21006e6e032f89b02d8c618e8b55ad5a823ab559ac
+~ sub_100001ea8 -> sub_100001ea0 : sha256 9ddbdddb18d8cd00b839a7221d90d17843fa4f6738360645e654c22dc1245935 -> c34a67d450c700c03edccd841eb0cb680c2935862193731877989c9bafe4a3cc
+~ sub_100002388 -> sub_100002380 : sha256 1bc92a11aa145dbe1dc6562a75ee65a8bd256160fa0762a62c7ca92438ca1d4f -> 683567a3d6e39f4126a70b74486f6b79a325acb06814ccd5cd363510b537f44b
+CStrings:
++ "Welcome to SceneKit 611 (Jun  9 2026 10:01:36)"
+- "Welcome to SceneKit 610 (May 21 2026 08:15:15)"
+
+```

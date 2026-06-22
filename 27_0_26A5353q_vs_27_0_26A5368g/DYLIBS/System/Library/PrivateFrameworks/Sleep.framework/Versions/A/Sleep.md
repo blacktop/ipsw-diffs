@@ -1,0 +1,2464 @@
+## Sleep
+
+> `/System/Library/PrivateFrameworks/Sleep.framework/Versions/A/Sleep`
+
+```diff
+
+-7027.0.52.1.3
+-  __TEXT.__text: 0x5ba90 sha256:d156f0eca9c281cefe43a5bce16b6f18a0cbb602edecb55ea0ec13a8a53a4175
+-  __TEXT.__objc_methlist: 0x7364 sha256:f41a6ef534e1d37afd518d4119ed0dbcda87e662162ee465978d5c816f98e565
+-  __TEXT.__const: 0x330 sha256:a6e42badf8193eac5de577ad3c0bebe493e31cb99a581653b8825ec2295c5b95
+-  __TEXT.__constg_swiftt: 0x38 sha256:361053b092698e2ebc47bc0cbc71e5d34892f28f3ea7b3d2e497ee9a3c4c8ea8
++7027.0.60.1.1
++  __TEXT.__text: 0x5ba1c sha256:284de9263317653f4edd3e39af5cee5448b60a7e7be35f037fa03aec343e6002
++  __TEXT.__objc_methlist: 0x7364 sha256:5536322a8bce285ad95dddbef37b27495da8dbada16565cf4b3794d53e25ce6a
++  __TEXT.__const: 0x330 sha256:1514c42a02fec26609120fb51af57fcf80cf0a26a4ede8b67df966a850c0d05d
++  __TEXT.__constg_swiftt: 0x38 sha256:14369bc41af90bace46598f588cacef9dbe3be6e106c4a0d60f265aef98b2e1d
+   __TEXT.__swift5_typeref: 0xf sha256:68f2f5ba889a4014a1c134b599ef22df3daf63eba244d87328985f18c14b43b2
+   __TEXT.__swift5_builtin: 0x14 sha256:726bad1c816584bb1b0e2b81bb5fe710cfea6450a45d7cd32c8b5f16bf3c95da
+   __TEXT.__swift5_reflstr: 0x9 sha256:1df8d10c11fdb5332629affa6742a83b95482f74917951f14e3dfbd50ee6f1e8
+
+   __TEXT.__swift5_types: 0x4 sha256:e4b22d3cdd9b572a5ec20ed7a86c50300435359c94fc3a08e1378b7a624c450a
+   __TEXT.__cstring: 0x4a17 sha256:2eaff6ff5bc1236cc7eba9d90dc5a0f321b985bbad67528d561f907846bfc34c
+   __TEXT.__oslogstring: 0x4355 sha256:3ad0735389b4b1a6f833c29dcad77b5887966ea2a79ef03562c33de5a606308c
+-  __TEXT.__gcc_except_tab: 0x770 sha256:f9b40dfeeb35e5a7f4190380832151dbb0e35c7091b5609f2c290c1509586098
+-  __TEXT.__unwind_info: 0x1c30 sha256:4632c75cd6cf6d66b7a6ad53b7e967a7fd56ba64b379ef63f9bcc76ea5ddcd58
+-  __TEXT.__eh_frame: 0x70 sha256:17976d92efd9e0deb3f772748975bbcaeaaf7da9c8f90fff699df9ea10ec571f
++  __TEXT.__gcc_except_tab: 0x770 sha256:10b2dbc2f8436f13bdaee0a77ddb692e15f8541522b5f0129374e4ce2352383e
++  __TEXT.__unwind_info: 0x1c30 sha256:5b38d5e65794f915cfb859eb912162234104db81d3b9a3a2866203732a8dd263
++  __TEXT.__eh_frame: 0x70 sha256:3b61f94da2f31ab672a8700065a8d1dbf0d882a19bc72959ebf86c47fbf89050
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1070 sha256:151ec1b43a338c5d69fc712b81ed7159581c411a5fd8791674d1cb46589620fa
+-  __DATA_CONST.__objc_classlist: 0x2f8 sha256:94656d2fb62b2e00adca0aa8e7d7fcbaf642ef9528cf57b9924ac0dafd1819b1
+-  __DATA_CONST.__objc_catlist: 0x80 sha256:936d77b159f27ab793d884da67247e5b58d29cc333828d2e59c0fa5e2b13b29e
+-  __DATA_CONST.__objc_protolist: 0x198 sha256:b2b22134b02ef17bd12549e4140e008b497e4a4174c1a408e1712d61790020c3
++  __DATA_CONST.__const: 0x1070 sha256:6c1144b2c44c003576dc4d6831d9c5671033daf4c0b85e6d1f8ccdcd803ba895
++  __DATA_CONST.__objc_classlist: 0x2f8 sha256:a46b05901d343b8a99a464a47aa508b6275992f37cbc2d697a9897f643193cde
++  __DATA_CONST.__objc_catlist: 0x80 sha256:951b1ac31ebc9062b74a62c7bbe8b9f8a9e14439f910725d635954b356cf2f0e
++  __DATA_CONST.__objc_protolist: 0x198 sha256:a51febcc5ed8a6cf1d57089abafb960669998ce1a243bd967f6557f17590dc96
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x36f0 sha256:2eebc65d87e93d1f9f33e66f737a584bec103e63a3713d3a2f5261e02e3b739e
+-  __DATA_CONST.__objc_protorefs: 0x38 sha256:2db127cc35b1ecb467ba1bc953254f5999682557c54755e732a50253bd34291d
+-  __DATA_CONST.__objc_superrefs: 0x280 sha256:4fdc1d8f893df5bce55aeff9c5064e5bd35ccdbe84ae19232efe1a2b01385780
+-  __DATA_CONST.__objc_arraydata: 0xa8 sha256:148586e260c935fde45bd25b55390b13e3c5b71bd728445676e0d3e93fbd8197
+-  __DATA_CONST.__got: 0x4a8 sha256:ce4bfd6a1cb814be20f320640383c83fbeb3f447c20279fc9b4619e8e9eb386c
+-  __AUTH_CONST.__const: 0x27c0 sha256:9d18aeb2adfbfb30c9608cdcfcb6a92fadcc2621db18d7acc2b925a798b40747
+-  __AUTH_CONST.__cfstring: 0x5180 sha256:a5dd65dded2b4a6fc8b04e04a74f5fd75c58a7f8f43c67b0d19898cf0a48288b
+-  __AUTH_CONST.__objc_const: 0xbe80 sha256:cca10ca9637cdf455481aa5be0efd4d329ae7275d9473205b66bbb14a6d2907c
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:f11e18d25e4bfc0330d5048314464d3830a32b8d7f7cab7eebdda8010cb34aad
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:e449f0f13e80d2c1bd4e6e05ea84a1b94aeff0c22c2b689ab9a190840fd553a0
++  __DATA_CONST.__objc_selrefs: 0x36f0 sha256:0ada4fa991371fe60ffe94f0e6a85fd3c37e8cbcfd4f9167f76588652339aa40
++  __DATA_CONST.__objc_protorefs: 0x38 sha256:6813cb640ef8e10178375790d3eb24428cdc0366bb2e7e798ae88116de2b4755
++  __DATA_CONST.__objc_superrefs: 0x280 sha256:528d88b40b1cde620f0c9ca0a301c1e1251e178e7bb8e92001a3a6f3b42155c6
++  __DATA_CONST.__objc_arraydata: 0xa8 sha256:339c0747745d7c320eae2a2bd89987225cbf201c795452f3ec31d3b44269cf19
++  __DATA_CONST.__got: 0x4a8 sha256:ce0a2d1d5d49b2878a31511db403fd94c77766cd229a544705a024bce4cf8e91
++  __AUTH_CONST.__const: 0x27c0 sha256:e04f84bc63f8043aafeb88eee5492f9387452b6ea1fc9ba749bb371887132ae4
++  __AUTH_CONST.__cfstring: 0x5180 sha256:eca3fcf1107c6f663ff08e278f58921ad1b96b184fa01f0e59b1e1543226824e
++  __AUTH_CONST.__objc_const: 0xbe80 sha256:8e85f82c73566c2ab7faa9a6746689706ee3ff74ee6ea1ded247128a259fc67a
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:0a574e6e5153b084e7d10de5333abccde78a13dcae714b4c6bcfb1eb27241110
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:dbf232191943c182a5753c540d7a719975efa574bdec1abc553961fac6762e51
+   __AUTH_CONST.__auth_got: 0x2a0 sha256:f792b7f860bb94e55760c0daa727d58d13ba96276a2b52f29a645c8e08e73ec1
+-  __AUTH.__objc_data: 0x820 sha256:773e594b3314c8666be5b51942755068e64a3655fda80d2e892cdaab43366555
++  __AUTH.__objc_data: 0x820 sha256:00b355b60f4c89af384dea0a530d134d6b94417125e69334bce643e07b57dd94
+   __DATA.__objc_ivar: 0x628 sha256:b034b8efbfb2622ff24de5d10964d787d940c1b07720a25813ba09769796aa12
+-  __DATA.__data: 0x1330 sha256:d0d41756b155008586852d334833c300e34291f1a59d338ed4780bda1232afe5
++  __DATA.__data: 0x1330 sha256:d51a6fd21949d166420bfa69c35521604d11e18d5d3bef97524b60e2b960e9fb
+   __DATA.__bss: 0x180 sha256:a1a4f5721c1c4610af7f71078f3a68c330536d679803b0e0507ee8dc10c5dfca
+   __DATA_DIRTY.__objc_ivar: 0x34 sha256:6490e3a8db86196917ad8406745276de6bd1bb30c0e85f66ee4eea7be94dd274
+-  __DATA_DIRTY.__objc_data: 0x1590 sha256:d9fb1aeb9dc6949e60aefc86a52183bde436645d31746ba732b92c0814847f5a
++  __DATA_DIRTY.__objc_data: 0x1590 sha256:4743f904c85d809ec231fcbc1670ec9d8f78c232722f7a9d7e3797159a1acdc5
+   __DATA_DIRTY.__bss: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+   __DATA_DIRTY.__common: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 732FEF66-A635-390A-B28A-4AFB0AF77B69
++  UUID: 83208E60-7C91-3F8C-A231-F1CBDFDBDE0F
+   Functions: 2754
+   Symbols:   6382
+   CStrings:  1754
+Symbols:
++ .str.391
++ .str.392
++ __22-[HKSPChange isEqual:]_block_invoke.396
++ __22-[HKSPChange isEqual:]_block_invoke.400
++ __24-[HKSPProperty isEqual:]_block_invoke.375
++ __26-[HKSPSleepEvent isEqual:]_block_invoke.415
++ __26-[HKSPSleepEvent isEqual:]_block_invoke.419
++ __26-[HKSPSleepEvent isEqual:]_block_invoke.423
++ __26-[HKSPSleepEvent isEqual:]_block_invoke.427
++ __34-[HKSPSleepScheduleModel isEqual:]_block_invoke.369
++ __34-[HKSPSleepScheduleModel isEqual:]_block_invoke.373
++ __38-[HKSPLimitingScheduler scheduleTask:]_block_invoke.368
++ __38-[HKSPLimitingScheduler scheduleTask:]_block_invoke.369
++ __39-[HKSPSleepFocusConfiguration isEqual:]_block_invoke.381
++ __39-[HKSPSleepFocusConfiguration isEqual:]_block_invoke.385
++ __39-[HKSPSleepStore _confirmAwakeOnServer]_block_invoke.625
++ __39-[HKSPSleepStore connectSynchronously:]_block_invoke.415
++ __39-[HKSPXPCConnectionProvider connection]_block_invoke.381
++ __39-[HKSPXPCConnectionProvider connection]_block_invoke.383
++ __40-[HKSPDiagnostics _registerStateHandler]_block_invoke.369
++ __40-[HKSPSleepModeButtonModel setSelected:]_block_invoke.379
++ __40-[HKSPSleepModeButtonModel setSelected:]_block_invoke_2.380
++ __41-[HKSPSleepSchedule _unsortedOccurrences]_block_invoke.372
++ __43-[HKSPSleepStore _dismissSleepLockOnServer]_block_invoke.627
++ __44-[HKSPStateMachine notifyDelegateWithBlock:]_block_invoke.386
++ __45-[HKSPSensitiveUIMonitor _handleNotification]_block_invoke.381
++ __45-[HKSPSleepStore _dismissGoodMorningOnServer]_block_invoke.626
++ __46-[HKSPSleepStore _clearWidgetOverrideOnServer]_block_invoke.647
++ __46-[HKSPSleepWidgetManager invalidateRelevances]_block_invoke.395
++ __47-[HKSPResolvedSleepScheduleOccurrence isEqual:]_block_invoke.396
++ __47-[HKSPResolvedSleepScheduleOccurrence isEqual:]_block_invoke.400
++ __47-[HKSPSleepSchedule allowableRangeForWeekdays:]_block_invoke.400
++ __47-[HKSPSleepSchedule allowableRangeForWeekdays:]_block_invoke.403
++ __47-[HKSPSleepSchedule allowableRangeForWeekdays:]_block_invoke.405
++ __47-[HKSPSleepStore _checkInWithCurrentSyncAnchor]_block_invoke.422
++ __47-[HKSPSleepStore _setSleepModeOnServer:reason:]_block_invoke.621
++ __48-[HKSPSleepStore _getSleepModeFromServerDoSync:]_block_invoke.470
++ __49-[HKSPSleepStore _sleepAlarmWasModifiedOnServer:]_block_invoke.634
++ __50-[HKSPOverrideOccurrenceGenerationResult isEqual:]_block_invoke.369
++ __50-[HKSPOverrideOccurrenceGenerationResult isEqual:]_block_invoke.373
++ __50-[HKSPSleepWidgetManager reloadWidgetsWithReason:]_block_invoke.392
++ __52-[HKSPSleepStore _getSleepScheduleFromServerDoSync:]_block_invoke.429
++ __52-[HKSPSleepStore _getSleepSettingsFromServerDoSync:]_block_invoke.443
++ __53-[HKSPObserverSet enumerateObserversWithFutureBlock:]_block_invoke.381
++ __53-[HKSPSleepStore createSleepFocusInState:completion:]_block_invoke.641
++ __53-[HKSPSleepStore deleteSleepFocusModeWithCompletion:]_block_invoke.645
++ __55-[HKSPSleepStore _getSleepEventRecordFromServerDoSync:]_block_invoke.451
++ __55-[HKSPSleepStore _getSleepWidgetStateFromServerDoSync:]_block_invoke.479
++ __57-[HKSPSleepStore _getSleepScheduleModelFromServerDoSync:]_block_invoke.459
++ __57-[HKSPSleepStore _getSleepScheduleStateFromServerDoSync:]_block_invoke.483
++ __59-[HKSPSleepStore _setWidgetOverrideStateOnServerWithState:]_block_invoke.646
++ __60-[HKSPSleepStore _saveCurrentSleepScheduleOnServer:options:]_block_invoke.484
++ __60-[HKSPSleepStore _saveCurrentSleepSettingsOnServer:options:]_block_invoke.519
++ __63-[HKSPSleepStore _saveCurrentSleepEventRecordOnServer:options:]_block_invoke.618
++ __63-[HKSPSleepStore _sleepAlarmWasDismissedOnDateOnServer:source:]_block_invoke.630
++ __64-[HKSPSleepStore _sleepAlarmWasSnoozedUntilDateOnServer:source:]_block_invoke.631
++ __64-[HKSPXPCConnectionListener listener:shouldAcceptNewConnection:]_block_invoke.371
++ __64-[HKSPXPCConnectionListener listener:shouldAcceptNewConnection:]_block_invoke.374
++ __67-[HKSPMutableSleepSchedule _updateBackingOccurrencesForOccurrence:]_block_invoke.647
++ __70-[HKSPSleepStore _publishNotificationOnServerWithIdentifier:userInfo:]_block_invoke.637
++ __72-[HKSPSleepStore _setLockScreenOverrideStateOnServerWithState:userInfo:]_block_invoke.638
++ __76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke.370
++ __76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke.375
++ __76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke.379
++ __78-[HKSPDictionaryDiff initWithOriginalDictionary:updatedDictionary:keysToDiff:]_block_invoke.420
++ __87-[HKSPDNDConfigurationService modeConfigurationService:didReceiveAvailableModesUpdate:]_block_invoke.387
++ __HKSPGenerateChangeSetBetweenObjects_block_invoke.504
++ __HKSPObjectsAreEquivalentWithTransformer_block_invoke.483
++ __block_literal_global.376
++ __block_literal_global.379
++ __block_literal_global.381
++ __block_literal_global.383
++ __block_literal_global.390
++ __block_literal_global.392
++ __block_literal_global.394
++ __block_literal_global.406
++ __block_literal_global.408
++ __block_literal_global.409
++ __block_literal_global.410
++ __block_literal_global.413
++ __block_literal_global.428
++ __block_literal_global.430
++ __block_literal_global.439
++ __block_literal_global.457
++ __block_literal_global.473
++ __block_literal_global.481
++ __block_literal_global.510
++ __block_literal_global.644
++ __block_literal_global.649
+- .str.385
+- .str.386
+- __22-[HKSPChange isEqual:]_block_invoke.390
+- __22-[HKSPChange isEqual:]_block_invoke.394
+- __24-[HKSPProperty isEqual:]_block_invoke.369
+- __26-[HKSPSleepEvent isEqual:]_block_invoke.409
+- __26-[HKSPSleepEvent isEqual:]_block_invoke.413
+- __26-[HKSPSleepEvent isEqual:]_block_invoke.417
+- __26-[HKSPSleepEvent isEqual:]_block_invoke.421
+- __34-[HKSPSleepScheduleModel isEqual:]_block_invoke.363
+- __34-[HKSPSleepScheduleModel isEqual:]_block_invoke.367
+- __38-[HKSPLimitingScheduler scheduleTask:]_block_invoke.362
+- __38-[HKSPLimitingScheduler scheduleTask:]_block_invoke.363
+- __39-[HKSPSleepFocusConfiguration isEqual:]_block_invoke.375
+- __39-[HKSPSleepFocusConfiguration isEqual:]_block_invoke.379
+- __39-[HKSPSleepStore _confirmAwakeOnServer]_block_invoke.619
+- __39-[HKSPSleepStore connectSynchronously:]_block_invoke.409
+- __39-[HKSPXPCConnectionProvider connection]_block_invoke.375
+- __39-[HKSPXPCConnectionProvider connection]_block_invoke.377
+- __40-[HKSPDiagnostics _registerStateHandler]_block_invoke.363
+- __40-[HKSPSleepModeButtonModel setSelected:]_block_invoke.373
+- __40-[HKSPSleepModeButtonModel setSelected:]_block_invoke_2.374
+- __41-[HKSPSleepSchedule _unsortedOccurrences]_block_invoke.366
+- __43-[HKSPSleepStore _dismissSleepLockOnServer]_block_invoke.621
+- __44-[HKSPStateMachine notifyDelegateWithBlock:]_block_invoke.380
+- __45-[HKSPSensitiveUIMonitor _handleNotification]_block_invoke.375
+- __45-[HKSPSleepStore _dismissGoodMorningOnServer]_block_invoke.620
+- __46-[HKSPSleepStore _clearWidgetOverrideOnServer]_block_invoke.641
+- __46-[HKSPSleepWidgetManager invalidateRelevances]_block_invoke.389
+- __47-[HKSPResolvedSleepScheduleOccurrence isEqual:]_block_invoke.390
+- __47-[HKSPResolvedSleepScheduleOccurrence isEqual:]_block_invoke.394
+- __47-[HKSPSleepSchedule allowableRangeForWeekdays:]_block_invoke.394
+- __47-[HKSPSleepSchedule allowableRangeForWeekdays:]_block_invoke.397
+- __47-[HKSPSleepSchedule allowableRangeForWeekdays:]_block_invoke.399
+- __47-[HKSPSleepStore _checkInWithCurrentSyncAnchor]_block_invoke.416
+- __47-[HKSPSleepStore _setSleepModeOnServer:reason:]_block_invoke.615
+- __48-[HKSPSleepStore _getSleepModeFromServerDoSync:]_block_invoke.464
+- __49-[HKSPSleepStore _sleepAlarmWasModifiedOnServer:]_block_invoke.628
+- __50-[HKSPOverrideOccurrenceGenerationResult isEqual:]_block_invoke.363
+- __50-[HKSPOverrideOccurrenceGenerationResult isEqual:]_block_invoke.367
+- __50-[HKSPSleepWidgetManager reloadWidgetsWithReason:]_block_invoke.386
+- __52-[HKSPSleepStore _getSleepScheduleFromServerDoSync:]_block_invoke.423
+- __52-[HKSPSleepStore _getSleepSettingsFromServerDoSync:]_block_invoke.437
+- __53-[HKSPObserverSet enumerateObserversWithFutureBlock:]_block_invoke.375
+- __53-[HKSPSleepStore createSleepFocusInState:completion:]_block_invoke.635
+- __53-[HKSPSleepStore deleteSleepFocusModeWithCompletion:]_block_invoke.639
+- __55-[HKSPSleepStore _getSleepEventRecordFromServerDoSync:]_block_invoke.445
+- __55-[HKSPSleepStore _getSleepWidgetStateFromServerDoSync:]_block_invoke.473
+- __57-[HKSPSleepStore _getSleepScheduleModelFromServerDoSync:]_block_invoke.453
+- __57-[HKSPSleepStore _getSleepScheduleStateFromServerDoSync:]_block_invoke.477
+- __59-[HKSPSleepStore _setWidgetOverrideStateOnServerWithState:]_block_invoke.640
+- __60-[HKSPSleepStore _saveCurrentSleepScheduleOnServer:options:]_block_invoke.478
+- __60-[HKSPSleepStore _saveCurrentSleepSettingsOnServer:options:]_block_invoke.513
+- __63-[HKSPSleepStore _saveCurrentSleepEventRecordOnServer:options:]_block_invoke.612
+- __63-[HKSPSleepStore _sleepAlarmWasDismissedOnDateOnServer:source:]_block_invoke.624
+- __64-[HKSPSleepStore _sleepAlarmWasSnoozedUntilDateOnServer:source:]_block_invoke.625
+- __64-[HKSPXPCConnectionListener listener:shouldAcceptNewConnection:]_block_invoke.365
+- __64-[HKSPXPCConnectionListener listener:shouldAcceptNewConnection:]_block_invoke.368
+- __67-[HKSPMutableSleepSchedule _updateBackingOccurrencesForOccurrence:]_block_invoke.641
+- __70-[HKSPSleepStore _publishNotificationOnServerWithIdentifier:userInfo:]_block_invoke.631
+- __72-[HKSPSleepStore _setLockScreenOverrideStateOnServerWithState:userInfo:]_block_invoke.632
+- __76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke.364
+- __76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke.369
+- __76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke.373
+- __78-[HKSPDictionaryDiff initWithOriginalDictionary:updatedDictionary:keysToDiff:]_block_invoke.414
+- __87-[HKSPDNDConfigurationService modeConfigurationService:didReceiveAvailableModesUpdate:]_block_invoke.381
+- __HKSPGenerateChangeSetBetweenObjects_block_invoke.498
+- __HKSPObjectsAreEquivalentWithTransformer_block_invoke.477
+- __block_literal_global.363
+- __block_literal_global.364
+- __block_literal_global.366
+- __block_literal_global.371
+- __block_literal_global.373
+- __block_literal_global.386
+- __block_literal_global.388
+- __block_literal_global.396
+- __block_literal_global.400
+- __block_literal_global.403
+- __block_literal_global.404
+- __block_literal_global.407
+- __block_literal_global.422
+- __block_literal_global.424
+- __block_literal_global.433
+- __block_literal_global.451
+- __block_literal_global.467
+- __block_literal_global.475
+- __block_literal_global.504
+- __block_literal_global.638
+- __block_literal_global.643
+Functions:
+~ +[HKSPHealthStoreProvider _initializedLocalDeviceHealthStore] : sha256 b2b1ea2bdc8e299cf9611cd44319c39e700f71e906053554030153db5c9925af -> 8cfdba6fb3234c54265f20431cfa58ab2b15a23f3ae526875ba9ce9e1b0d5538
+~ -[HKSPHealthStoreProvider initWithLocalDeviceHealthStore] : sha256 f21753beab2700ee30d66d350076051e6e44a0ab70dfb67b5a4c6075e7c982c2 -> 62356c1e2c5e75b1f93485041f91f40d9308a9b6290173d2e4348fa479dbee24
+~ -[HKSPHealthStoreProvider initWithSleepHealthStore:healthStore:] : sha256 28cdd1df1636bc210c338fd75af1d4bd030511eef45ad4deb01ed5f044e29081 -> 873553cd16773a1b62903f45852018b6e658395d7db7c9affed32f36f6e27558
+~ -[HKSPHealthStoreProvider .cxx_destruct] : sha256 7c63d29c9db0519fae3acff0e8e7b062b2a0133f1b55cafc0a1c153c5b96fb75 -> 0a9cf13bfe371afd9831beb2624cbd44a6cabe0176d442fb07c6c549288b177b
+~ +[HKSPProperty(SecureCoding) allowedSubclassesForSecureCoding] : sha256 70f42dc79856bb21fc961f3be2bccc284e7a27a7f95cf0c79f785e8b8fc45770 -> 04336c4f65d275365014858c8f76d682dfec47b34e25c00ee0418a7710ab46dd
+~ -[HKSPProperty(SecureCoding) allowedInnerClassesForSecureCoding] : sha256 276bdbb09f38c8a4ee3899ecc88c98baed1bfe4708b8c466442f356f98803f80 -> 35cd0bb60262bf2c1148fe7763081a6fb8e823127b61d11b33f65335ed800d1d
+~ -[_HKSPNumberBoxedProperty(SecureCoding) allowedInnerClassesForSecureCoding] : sha256 51f9d1b4f521a39841bcd83a12e4718a511e278b3f19bd0a66bdd59e437ecc74 -> 43a9e5e56d2ee1ba9d54665a4dd69ba88d63b239905e35ffc2f7fb20820a7e39
+~ -[_HKSPObjectProperty(SecureCoding) allowedInnerClassesForSecureCoding] : sha256 6993289cbab0f4be96ccad434e90e3950d5c53fbcd3078872bdcc66afc18ee9d -> d10c826c2028d7757006c5a3cbcd38ba04e870c01ed459a4f8d0dc5b2a680878
+~ -[HKSPChange initWithProperty:changedValue:originalValue:] : sha256 5f9e7e3b9651224a5b1a00d29c70e2880fa7ef400fa59c2dadd015a7134ac023 -> 039b4df9d1ad7d4719f64478d5ef6ccfa000d01fe53b2b39e342ec7d1b331452
+~ -[HKSPChange isEqual:] : sha256 09a30f8ec340d08d72d37f28722894aee39792cba1ee37a55dcb6982966ddac0 -> c463b9d6397563129cbab62ed2f79fee5661cb31b24bf9caf88c9cc6a71b636f
+~ ___22-[HKSPChange isEqual:]_block_invoke : sha256 17f1445d97891ae17ef551548f026701810770c7b5cccf00421c2d843a1e8f1c -> 7eec66b9b0ecce6c64cf6976089f1008e509ea0a7e25a198ad43f46765432a7f
+~ ___copy_helper_block_e8_32s : sha256 b2a2dab6356f06233fdcede3e5c849221204bb12d557df7506c83bc69cbc5591 -> f1f1cede70eac0e1e01836b000aea46e7d8c972a1c3e1589a739950defe2ab61
+~ ___destroy_helper_block_e8_32s : sha256 29389c719fd1375e0ff248dba05b21f46453acdf39e6c25f428162d35f43a23c -> 5d54aabf2cefea577e7444b35c5825125adf6180af24f4eb3ac4f6f16e3d58b6
+~ __22-[HKSPChange isEqual:]_block_invoke.390 -> __22-[HKSPChange isEqual:]_block_invoke.396 : sha256 4ea8483b0141df538b69fdc4dbd1dd3983865f98313f19e2bf3daff4d52c58fd -> 7191f0cabfb355492bf880751f95633b041dadd59d5e163d8c83c002bed9abbe
+~ __22-[HKSPChange isEqual:]_block_invoke.394 -> __22-[HKSPChange isEqual:]_block_invoke.400 : sha256 7df7bf073bad3d5d95c82ad3652759bcf6458c908c7d6e5faf01a9d5aee8d998 -> 66e831329a91f32e993ef9377430d500473d13e94dbf529963241fc78264aea0
+~ -[HKSPChange copyWithZone:] : sha256 a1b7a1c9eeca1f43579dfea047d11a4a8c8022fe9676dde4f7499c545937bec7 -> a6149fa246467c858339e325fb3b77730f90a2b16fe5eec0977c6513106546da
+~ -[HKSPChange deepCopy] : sha256 87a8823c51f7da296c2580b64230737e3b1beae8abdfdb70760e3ab8ff3f6cc7 -> 4f373f6ccc42f12bdd57145d2b4f5726cf2282c5d9e719c719bf38ec3eb2676d
+~ -[HKSPChange encodeWithCoder:] : sha256 0904166c744750a80bad748630e05697b771b238691d98a449e01f6c28ed0383 -> 86bedfef4e447bd9e27d92ffa92b27eae82203bc7ce1378cff4eec448998c498
+~ -[HKSPChange initWithCoder:] : sha256 e7be78c187f695143a331212685998261cd1faaec3322237d842d68d3273e072 -> 332e0b0bfaf90355032a98cba6cf37bf6fead14f2da10661a87968a2a15f85e5
+~ -[HKSPChange hash] : sha256 decf73f2697323e0ded0114691df70aa3cf6853f8049e77a4d4d2c6acbcb6d12 -> 366e1ea8cb6dc7cee31e5b7dc8954bb864cb1540c9909f59daf28a5bf7191815
+~ -[HKSPChange description] : sha256 b8c750d98395afa7ccc8fd28a3341c1d234132fb618a20a7d53e83f6ed85216b -> 52a6a1f5fe0ee2e11bb9ede7499ae60085e1cb6a823e2c4c4c0c7f91e4cfbd3e
+~ -[HKSPChange descriptionWithMultilinePrefix:] : sha256 7440cafd7ff7364126e51514f58a0aff2014346a313c62bcf997dd1d2dd27412 -> 88633219abe4715d65a3c2a5da97a0afaa0b9ecd4d77c5b2069366d6e50a40c1
+~ -[HKSPChange descriptionBuilderWithMultilinePrefix:] : sha256 f689fc669073e9d88285e96232d89e210f0872a05f707f0a2269ab94203080ce -> a17e35faed7c59611f37eab783b5ff5f7b1aaa605af53566546cb7ebaa9fe644
+~ -[HKSPChange succinctDescription] : sha256 2919b253eda9eaec565af075b513f5f5d412cbfcbbfbc54785d8494a01ed51b5 -> 5e1c81009de499a8144c47a34a9bc79f76e42669e2f16310b719b41dc074433c
+~ -[HKSPChange succinctDescriptionBuilder] : sha256 5bce7201eaec0b14a33174223a45c286c2976b2c1d0b1f5d50693120337d07db -> 23cacf08f1d356e6016480187ca92b4a2d3eadf2301ff9a4e63c0cb85b3490d0
+~ -[HKSPChange .cxx_destruct] : sha256 2d706760631bd2c4bdfe51ddc9d5a900e6fda31ba54da6c9df0031515e1a2487 -> bd8a884a056206f1a99835b8b49c60ec3207a2c3383be1e4b28dc69780c73294
+~ -[HKSPRelationshipChange initWithProperty:changedObject:originalObject:] : sha256 b69426bbd47f545b89c129815944a755b6939c42658ccd0b7af0f08d4f56bb70 -> a9ffc02d77b963b58dec713043bd51302cfa93deeb7d8de3833f1ee96a3fc9ea
+~ -[HKSPRelationshipChange isAdd] : sha256 fb68e9996d4589ce419b4cf142b3fb08be0fed8ba3abda8fdd3ad807516fdfbf -> d4bce148cd0bebc001e6d436782eeff1a4d13cf6466206975423aa2bc7b17bdb
+~ -[HKSPRelationshipChange isUpdate] : sha256 521bccfa978ed4bbcf6d97ffba2b84086bb49192abf472fd0d08323ba53e70d2 -> 26372ce4cc3838b8cc4cb7001a6e183222a0f39b4c4ce9399844e0ec7a945a2c
+~ -[HKSPRelationshipChange isRemove] : sha256 176286d9b0a4bfbb8437c92c816a60f08670ddbe6176937a375b4ce399d36066 -> e22ac7dbd914b83dae8ea15edce0212bdd85377c31b007752b45ad813fef3896
+~ -[HKSPRelationshipChange deepCopy] : sha256 5f752a5ed298479b0db6e464320b3500f998e87ff9f7b7cd0bb37bdfc6d2ebc2 -> 9ec77aa1ac6739545830d3a079096d4d76aac295eef5f8e11645376fcaa0b815
+~ -[HKSPChangeSet init] : sha256 fb7248ca59ac727ce088b08fc603a176f08e8cf7edfa8a7c6e48268abece0265 -> e4908c11074fd2645214f7dacac39d9adf20fb48ea4410465ce56820d191ed3a
+~ -[HKSPChangeSet initWithChangeDictionary:] : sha256 9ab6442a63464806067c4e2b80f71e63205382289e43e6c1c88d1769c0dbee0d -> 94f81217a21742250c05d7bed7fcf72ef10622eb21aa5915cb229b4145ce413e
+~ -[HKSPChangeSet copyWithZone:] : sha256 fc8c163ce8237d1052ae3ef9da97bc98cf2afbe29586a04ac2b8fa220f182cc0 -> 1868a7ba3afafd85ab9495ad401b9d9683adf9fb64a6e779444b2e6448a1c3c7
+~ -[HKSPChangeSet deepCopy] : sha256 3960a84113728fba09980c30aa5bfa3b7dd25c9637c40f2a0c2f8eb8b86644c0 -> 5eab78fe3e2f9b24eda4e1c174b19e23a6bb88540253c23af0ba4006d8d466c2
+~ ___25-[HKSPChangeSet deepCopy]_block_invoke : sha256 075d82fcbefac94e807d1b5ee25376ba79958db2e60524f7612e443483a3bdb3 -> e286a91ebbc34005eff2fc7fbe14e2a2663001a26b3cb08ebf15e1c59e0a68c0
+~ -[HKSPChangeSet encodeWithCoder:] : sha256 7cd49832b6c31e0530fed05b7c9e04799592a8c1b161e3951a4c7833af5750dc -> d050cf68e7abf407113bb777e7e1f75e7c3dbd598625a613e062e32d9fef8fe3
+~ -[HKSPChangeSet initWithCoder:] : sha256 b1f143604e2c27317bdca9e01529b84cee17201714de927cf7959d76e8327810 -> 49577f0cca0099f4a6a0fa59b4687a95b22acf32c71d45dcbf0ae501070671de
+~ -[HKSPChangeSet isEqual:] : sha256 6174bcecda77d314a87ec131ab188bd0923ad7da04a1bdd62ffdb71930cfe4c8 -> 98a22267b8b32682fa508d60434589d7a7de493c20a957809fed8bd46ee176b3
+~ ___25-[HKSPChangeSet isEqual:]_block_invoke : sha256 190991c280400adf8333dc85fdfa6bbef55ee89fc38bfa4d9b7c8d34b55b4426 -> 98737b61dc917a9b90805a6ca8b22593226cbf08bdcbcec3491954e74ab91fb6
+~ -[HKSPChangeSet addChange:] : sha256 a80f997fb1645102ff2031d32d1f8c70bd08bfea5ae69a7e20f1215238977b1a -> 6d1ddbd4f8b352cc7f36bee1f675c89f538f4fdd6827f4a00bbd7163bb5e399f
+~ -[HKSPChangeSet removeAllChanges] : sha256 f924e4d75e11697f5422c1dcf97ddbb01d189b86d31bb80375391a0daadcc15c -> f0edcb17dcf754a9cfbefa5d9cc3d4a64a6f0ccaa18629a06f411e38c56f337c
+~ -[HKSPChangeSet applyChangeSet:] : sha256 90e2a05c498a233a795fc355ab25a9408f2b93760b368790284d73c31823d6b6 -> 674ca52af5e6688f88cff95f17d1d1279c9c8b23199b2fcc2a862d1fd914e700
+~ ___32-[HKSPChangeSet applyChangeSet:]_block_invoke : sha256 e5dac381ef0bdc8142843a12b856a9f01f37ba8f357d83d28685394362c91d1a -> 882ef9d0382c43bd182902f5535c73f0985085d792ac565ace619cafbffe94d6
+~ -[HKSPChangeSet changes] : sha256 92a586a631f1fc473dd6024ecf5ed46d69622801e511436892ff85a8dde52eb3 -> cd9a1b29a72adfcf8688929dddfcf464ea54b3af6bd119ed10bf6ba76b7c0f75
+~ -[HKSPChangeSet topLevelChangeKeys] : sha256 7a18413a0e6d61c3a9c8171ffafbb8dcb95b347ef1c6c2ee065742c0eb7260df -> 14ce77be322f64488aeea4896b2e2e1424fdc447ff24de94f1690491d1b85fa4
+~ -[HKSPChangeSet hasChangeForPropertyIdentifier:] : sha256 b64d3354268e685d963534a5901d973a484f5b76ca417e1862500c748cc50bd7 -> 72a443d3b72bd505c73b998254999a7f5f4633e7fee555cb3cff5c7aa0e4f584
+~ -[HKSPChangeSet changedValueForPropertyIdentifier:] : sha256 6b816497488329923fd5cd434248092321c84613004c0c6010456033bd633f8e -> 8dc25432ab15bca62f4ef7b7e8a435999b2b125dafbba8cfcc3714c1df664edb
+~ -[HKSPChangeSet originalValueForPropertyIdentifier:] : sha256 803c555414e63eed39fc1eb1aafce98e2a431a176e8b3f2a915b7a6054120ada -> 94e0eed35b0cf2d733ef233a6372cfc8bfd3be2be07029031fafd2ce347f5580
+~ -[HKSPChangeSet hash] : sha256 a86e4b71ddf70ca1d478ed839f5d33a1f7e97fd3a2a3ff3b7f3bc86b315b5ad3 -> 31e435e36ce8c76567a22d97ee238f124ba517ca84359143bc11b4f58fd752a0
+~ ___21-[HKSPChangeSet hash]_block_invoke : sha256 652683092ce63e216d66c1804446476c16b1cc5b3f412066fd020dc88096497d -> 96a51c8af25952059d0b54a9fcc1114756e907625110fa9c411a8807f9f3bfbc
+~ -[HKSPChangeSet description] : sha256 5df69e7e93aae1d794c2ee5e19eb005665e371014dbbd89cd39860a4cde19a89 -> 8e2793b3683a1ac4544ac4d7d02e1220ddc20253837bee9e0ad3d540221b5621
+~ -[HKSPChangeSet descriptionWithMultilinePrefix:] : sha256 9303d256f808dfc82423e49432555ed069c01907f90fe7be3870cb1b45e8e533 -> f67ff3560236fca7a6776649bbfa444ea59143a4bbfd85aba86892a3284333b3
+~ -[HKSPChangeSet descriptionBuilderWithMultilinePrefix:] : sha256 69553aa744a2e82bc3e3cc9964617b0dd68a877ea7e06382ea1aa1bd0d24b2b4 -> 68b7f81b7662beb10b2aa5c0dac0ae0f1fdda28e9d4214dfba2a5c8310ffd2aa
+~ -[HKSPChangeSet succinctDescription] : sha256 169f8e0bf9491abb0be007ea20ffeaba4ca4307297908f5f418a652d6f6f4cb1 -> 22fa52c187625c7208b14006b11e49962ede0ec4872f091c8591ded04c44997c
+~ -[HKSPChangeSet succinctDescriptionBuilder] : sha256 ec77ac7ad10f880df7a0102dac5b6ba8d655a778c709b4cdb9a2a55989f28356 -> e22d118f14e8b558cc3a2a261b0c6f474240bcf28fbb286c2af4e2949a5f4c93
+~ -[HKSPChangeSet .cxx_destruct] : sha256 b82abd7cf046ac1014e19a3bf4d786781e84c03ea618e43fc6d041bc63e4c21c -> caa9c0f8ec5e902f6a09a2712e81bdd6d16cb1e69bba7bbaa8a7a4ba9f2df3f8
+~ __HKSPDeserializedObject : sha256 f9655dbec0577638d6d16b952d6fbcf4cb5271f62d7a6372ce8009214129a126 -> bbb2f0b28466b9159c83f3bb8c3ebcb325796608b39d3bbaa3273a5b9ee6767d
+~ _HKSPGenerateChangeSetBetweenObjects : sha256 0faa8887a85c175146f37392b29dbb274f428f6c72917694645aa59ccc32b84b -> b27a65aac118963a0ba4f0f8c09fb1ac7927651d6a744085f2998a5564a7b6bd
+~ ___HKSPGenerateChangeSetBetweenObjects_block_invoke : sha256 b8913c468e0d838345c369346e92ce5b8e6787f55841adb967ea1734cba752e2 -> f81ef79255e2664d797e1b5bd4f54ba72bbb07c3b123f5cd9597f06368ad9205
+~ ___copy_helper_block_e8_32s40s48s56s : sha256 625e97c5d19e1b5690202cd977090b9c338b554f53f46ffb1a677253a3d8dc2e -> d6a41376a513cf05d6a021b9ce0ce638b63fd4904e25ec610bfcfcee67c1a052
+~ ___destroy_helper_block_e8_32s40s48s56s : sha256 0eca60a65c5f8d47b080d32bb9cc62cf7a943ba0babf93785f07c83df6d4c69f -> ad52a3a90a9e6caad24b47897a320c8858e767f19b61b1c35d05136c4587bf48
+~ __HKSPGenerateChangeSetBetweenObjects_block_invoke.498 -> __HKSPGenerateChangeSetBetweenObjects_block_invoke.504 : sha256 a0d7f21b27fd3ba96847ffe45e57bfd51c6ebe75b2e3e5e3c2c99e47caf4446e -> e5e2cc3a4ed6043c0c45b7af77955186405fbaaf14dcbd25b25e000a36539b9b
+~ -[HKSPProperty initWithIdentifier:propertyName:] : sha256 6d3a886b4e7eb006b7101cf70c6cd1367befa61f00e3627c7d449cb8e1e3db65 -> 7e3caba926205b499d6c44c3496ebab52ffb9a1ebdd774094b4e9c9a177134c9
+~ -[HKSPProperty isEqual:] : sha256 635e4c496487feb5c5db2af9b6fce8007547b5044353f2d9b9134f562a96b406 -> 17f9e955e5b8ed576d1d7e96f892e0b2ba47ec1c5cc8b3b048ddac9aaee86f1d
+~ ___24-[HKSPProperty isEqual:]_block_invoke : sha256 2b8181f01c16f4a284ee3799fb22b827394f4db060c687db48050b48e68b8a3a -> 428121c4e5734a6a879405d465790b16bc5799d5953c238a00eaace8c72c7e78
+~ __24-[HKSPProperty isEqual:]_block_invoke.369 -> __24-[HKSPProperty isEqual:]_block_invoke.375 : sha256 4c254c102979558121bd1b744f376637ca5435efa033c2e41457391f5a745555 -> a646a5f043ed0e68b8b7689e8b675609949ba79901f6def6bc0bbac81d783956
+~ -[HKSPProperty copyWithZone:] : sha256 5bfd3b3b9447380b145e0bf27d2e36f9215043c19ab27be9e733e70195b9a6a5 -> 7f3f17fbfc6ebbfb39262cb10283428873851bb77680c5339a3d5facea02636d
+~ -[HKSPProperty encodeWithCoder:] : sha256 06f166e847dc475a5c1d64f3d57f5a2b86f7c2160e106cfab985b78a5057b46f -> d138cd41e58476d4b0f2c23745353bd4c8386375e77b098ca04efd0d2414ae6e
+~ -[HKSPProperty initWithCoder:] : sha256 a2907d8d793ed0b1573346e2d9a9d35739a2155dfebb2dc54cdd7a2a0e9d3ba6 -> fd39152252b6cc350acd0bc9b5c4818ceee01c2179b1df6b519fa0b97bc1c57b
+~ -[HKSPProperty hash] : sha256 fc657987e60798d4d0d6d3ae67bbb2d4a4d281fcf4ea72fd3bd410bf415bab5a -> 64f3439ec4a305ea06ca8f22d735554bfb5d11ba8abebd61f8d533cb004f1a65
+~ -[HKSPProperty description] : sha256 2bbeef9c5d30ca82cd4c622355ba11690f129707981a1231ad0666d61be2e1b1 -> dc82d29c93ea362917cfa0cdda32ac0a5365ce921b77cef72600d787964823f9
+~ -[HKSPProperty descriptionWithMultilinePrefix:] : sha256 173dde1f005679e6265de03371360474f7b72a669dcf7b2dcc863848d444471b -> 05d91c9b8c3bec97af5cd3d2fcdcd600bed6cffa0063a75c9247f6528af88931
+~ -[HKSPProperty descriptionBuilderWithMultilinePrefix:] : sha256 6ed1c94e88ec8c44f51f30836746fd9fca232606147f7b7bdf0c8c639b4ffcf9 -> 3828433a4f0a788b9c52d67e7e9a03245f267dc939dfa9019fcd5bbe19e3e44a
+~ -[HKSPProperty succinctDescription] : sha256 ec0a1cbfc301befdd9026ffd0db5aa824b797411579560b23011013a1b5b0b0f -> 3693b9bc0bdc34c2c1aa89cb98d7320bbc3fd5850b9138956dc7f6a6cdd9d29d
+~ -[HKSPProperty succinctDescriptionBuilder] : sha256 b4464a3ce0307fbad69f5df077da593c92f7de31b25bfe2451b8e6fa43e4b8bc -> 024cd9a8ffe164d383168e3d7c1feb3d2c33fdbd928066b48161c3beeeb1fc55
+~ -[HKSPProperty .cxx_destruct] : sha256 9257462f020852faf337cb4d2134d143008ecbbb0c7c73b7ef1bc1f4f1d7404e -> da583763c4bfe54d545c4dab6f94840a0f1c8c1e7ea7a961f0e6a627b93daef9
+~ -[NSObject(HKSPProperty) hksp_valueForProperty:] : sha256 560009d0df27ce7e4a5fd88b2b0fb6855faafe7dcd05586ef712ca3597918a6f -> c6b8060dbb703a930b3b6aa5f66c81b06a3446c83097f51ba329904611c7933f
+~ -[NSObject(HKSPProperty) hksp_setValue:forProperty:] : sha256 283e13914f91653ef054ac4a444c9958c311d002d63c1f8858f0a7d6ebd9a306 -> f19295945ed6babaca641b95845b88718915fac2b95b35aab675b9ca1f2ee10f
+~ -[HKSPProperty(Subclasses) copyValueFromObject:toObject:] : sha256 b936313dbeb124ad7fb70ef116d64f1c53f5c7685b82b02009e9a7fefa198d4e -> 5ba5c12f46ffed69404d8a5e9250504b09a888b40be9fc1dc051d2975fd1ee2e
+~ -[HKSPProperty(Subclasses) decodeValueForObject:fromCoder:] : sha256 c42154fa2447e3f9311d9e8b1ad033c08f0d1101e9594547c7a7d6a78973c3db -> 050af9cd02a5c2cc1679533e30110d9cc7daa063c25aa4b80950921e84d2f749
+~ -[HKSPProperty(Subclasses) encodeValueForObject:fromCoder:] : sha256 6695029c540d31094e890fb21f6695467364723ee6ad39153c8a3c1d5fbc4a8a -> 31857b9ae80187d8017a84faf809e83cbc9c3c8a75110dd84d8a694a5bfec308
+~ -[_HKSPUnsignedIntegerProperty copyValueFromObject:toObject:] : sha256 50c74c86fb85b13b5dcec355cce9ba573b80511a5075e9058a449afe78fe55ee -> 233293d1aecc773b14c238f88df97501769ad01293760cd7c00363e5b359c1a0
+~ -[_HKSPUnsignedIntegerProperty decodeValueForObject:fromCoder:] : sha256 eaafde63f1206aa790c07ba2fe3d559b569496239add45f0ddef7231af961c00 -> 11a335175baa55ff0941ef2545917cff1985d17f0816eb2c4e814dca25fc214d
+~ -[_HKSPUnsignedIntegerProperty encodeValueForObject:fromCoder:] : sha256 86a9c0e37207f3f25f09b6819c10402adc128216018bd4035e43e7ee2c7968fb -> addf9a6ae1e488aed25cfa4030cf04b72eb35602a5478c821d89f19cfbd5695c
+~ -[_HKSPUnsignedIntegerProperty unsignedIntegerValueForObject:] : sha256 6693b9205081dd37f66f41e6941d19d57145d5e2a5638c63ad2cd9445f1ba0f2 -> 4881ed0cdfb8d974b4c75b2f71a732a9a709a6d66a4bcf162d854fcb15612c00
+~ -[_HKSPTimeIntervalProperty copyValueFromObject:toObject:] : sha256 a297e832e9068564d0ed0ff912ad9ef48628f30cd32f55f8def70516802957fe -> d28ad333247ccc4edbc853adb8b87e139e300ff07b612a29eb55a76e9f54af32
+~ -[_HKSPTimeIntervalProperty decodeValueForObject:fromCoder:] : sha256 21aa6e215090764a398a2a30afb5117664f3a0db0781ddd531958ec9e3a6ac6c -> 984c27bc765c47d5ae81b761dff11892bf41f890189638691fd3a54ba3f92bc7
+~ -[_HKSPTimeIntervalProperty encodeValueForObject:fromCoder:] : sha256 b327f99038659670ba84b26ed977db35f93ebaa12455baa4f1a52739bda05131 -> afc6f970ad3e6b41115247d6a413df18b503a08acb61c969c3916853dcd5847a
+~ -[_HKSPTimeIntervalProperty timeIntervalValueForObject:] : sha256 3dc88a4bd2818e681ddca97b93319b6f91f2f0cd2024f2eccf76ec9ed4c859c3 -> 9b6655a3785492e1b56650f2c932077a0e434cee5401d85318a1a9289f27b75a
+~ -[_HKSPBoolProperty copyValueFromObject:toObject:] : sha256 afa58e2d7cc134ef0c63825c0a31201de9770ee30c048534edb388ba28dbed9e -> 94566f97fb4c9028607ce4458aa629530eab62e82222aaefd96ff0838b96d1b4
+~ -[_HKSPBoolProperty decodeValueForObject:fromCoder:] : sha256 206a88c8d9596e98bd3841d88eb0cb99a7a74d7a4270c14a218fb2b6e7227e2d -> abf98b31353caf679777e90c0da81ed95205eec0363a61f7a6701de1e06bbfd3
+~ -[_HKSPBoolProperty encodeValueForObject:fromCoder:] : sha256 d187f51f34b927e67027662f0e850a78d1fb2a4b5bd422c3af376c8603e3aab1 -> ee9eab7f975514b39856e208f5a9ad520f877d6b037d978d48817fea0aeea31d
+~ -[_HKSPBoolProperty boolValueForObject:] : sha256 74881b20610bce68f2d8240025e2185b302018e078e5adf38c4d5adbda2482a7 -> 8e99e94c092725de3552c20a38ab3f904f966ac990c337cb7af9d82afac25c15
+~ -[_HKSPObjectProperty initWithIdentifier:propertyName:expectedValueClass:] : sha256 1ec3f0f2d26d0b2a39dddaf191fd98658d573e1b21b04c64f3b3b512050a27cb -> 425e0dbc83956ccb889089c88296cd849b797146cfcf402e84c26c04cbffb08b
+~ -[_HKSPObjectProperty initWithIdentifier:propertyName:expectedValueClasses:] : sha256 8a6c1b3841709b11dc205405e73c18e14251a74cf11833988e7681f1368a49b1 -> d473a19ed88344b0c59b2a1d0bd17b2c8421d7d6f44bab9600d5adeec7f9204e
+~ -[_HKSPObjectProperty isEqual:] : sha256 f6239020bd86fcdb8cda00929a519edf129d1dfb52a50e1a21d63d260260a557 -> 27a5dd385ee8eb55800ea049040ff07a16aaa19342ab294b42190e9b814094bb
+~ -[_HKSPObjectProperty encodeWithCoder:] : sha256 6bdd0e5b3871969c669762b5ba1c4f2edbef3e3e1b18b9f69b617d0439b43553 -> 4bbad08867a67768fd5a5f51af1764f817f62afddd4a3d06c8b3cb77c381c109
+~ ___39-[_HKSPObjectProperty encodeWithCoder:]_block_invoke : sha256 0eabb0d0082f83ec495e7feadbfbed4ea6806f0993fe6a3341997a866045b7e3 -> 2ef4b7f286cf576964da13d8ea45327a9cd2529aed6f15e069041cdb7156d06f
+~ -[_HKSPObjectProperty initWithCoder:] : sha256 8e6565ae9406b9119e4f5c727d34f3b06f58a1ef9a671041e61ed5f7e05030c0 -> eaedacf840082688e4df841a2a9deba9f118958e18546b26503357e8fe583151
+~ ___37-[_HKSPObjectProperty initWithCoder:]_block_invoke : sha256 323e3af7915058f917f9202f95100b7fd1c3d437f6009e05633ff3dc0ff43b39 -> e898ffaabe5fea128854e0225346b5fcbbdb63424eaaea85bad4d42a9746574a
+~ -[_HKSPObjectProperty copyValueFromObject:toObject:] : sha256 520a9001e523e30180e0d78205e4c0464fe34a59b73397a58043b30a29e4dcd2 -> 1ab3efdae6b949e5a0f684943523ca8199319576e7e0b28414064285a1cc4de0
+~ -[_HKSPObjectProperty decodeValueForObject:fromCoder:] : sha256 59b4a021710330b4f8650d17b78ddfd7d3b545f61051a5c86fd33fdf528a547a -> c931b6e38079fbec3959655170ea5585d46909b2b571fcec58b04d9a97b71027
+~ -[_HKSPObjectProperty encodeValueForObject:fromCoder:] : sha256 ff14d668d5f1cb69ff602051f39c0db42ded51323d17a10293544d4c2d591637 -> 7109afb6a77c541604663cc5a4ed05f018f1e8ac81813641f2a5804091ee325c
+~ -[_HKSPObjectProperty expectedValueClasses] : sha256 1ee779bf922b1b7e7b23ce25008ab1008ae50444cddf9468cba0522c5ca10274 -> 32d5c3053647342f94e801f09553aa78eda5fcc8e1a0767de942399e6543fc26
+~ -[_HKSPObjectProperty .cxx_destruct] : sha256 e4f648f3a32fa0c1191d07a25e81d8c0fd0465af085205dd89f4a2ecf49b958c -> a2a793eacd48af7cc16bf99f2e99872dc344e4ae27fe7365960a0d4b85626927
+~ -[_HKSPUnknownProperties init] : sha256 839239d7d07bb76812ffb406ca9e5278909429986417c24f17758cccccbe30b0 -> ebebb5b496628a283a4fd4b78aa96d32d5be1e0a2e6c9e719eb1acf18ab12d46
+~ -[_HKSPUnknownProperties copyValueFromObject:toObject:] : sha256 c1cdb0266c5feeb5f6eb259052e582f4b73a9b0fb7339b1efe513b6e4bbe964c -> 71353240716251306ef4c8d0959161f0c0d6241a28887b09ac15fdccdfcd1c78
+~ -[_HKSPUnknownProperties decodeValueForObject:fromCoder:] : sha256 be5e691ecbd65bc1b04630b85e0ec29f33bf5159a08fee55135e5f93c677e587 -> 2c638d65cd12dfe4f1aaa7f0c9872c052e455b3972358dc14e04c0667e5758f7
+~ -[_HKSPUnknownProperties encodeValueForObject:fromCoder:] : sha256 959200565123a9dda1b7524c7edb65afc3a81ee976c586310adc3df4ea1fe4de -> 2d784f1c2da8aea3cfe05459a705cbd33900defbbe2b2bd6417d88b6f66f42c7
+~ ___HKSPResolvedSleepScheduleOccurrenceComparator_block_invoke : sha256 bbf9aacb0e1b842a407e59a6460210796539c1a2383458d1126cfcc2032e3e27 -> a652718c20dc92fb04f6a1f4a35f7f8fc200ee9b1897af3258dbe3414c58774e
+~ -[HKSPResolvedSleepScheduleOccurrence initWithOccurrence:wakeUpEvent:bedtimeEvent:windDownEvent:] : sha256 b3d94f836a312681f39d2d0f469aec1d6bf6ca49c041733aa518616bb22647e9 -> 421f58dfbeac2df6ae4be3de20c4d9cff34a2c288f5fac31c3019c7ef88d8f16
+~ -[HKSPResolvedSleepScheduleOccurrence occurrenceByAdjustingEvent:] : sha256 1f7c744b7851bc3ccd0bdd93eeba6de18ed6ee20ef4e9b7c37618bd5a82db91c -> ae612a4ff9f61b690f29a4d787b128f25a7f8f2f48c832f97a1cf49fa6ff0de2
+~ -[HKSPResolvedSleepScheduleOccurrence occurrenceByRemovingEventWithIdentifier:] : sha256 64c651112d458e0d87ca0da7dc5a57c514f978966e40d2e6cf62cf47b568bf80 -> ebc94ee5584951b75926a6d6218e3bcaf01352c0c87e7c35caf225628a3aef41
+~ -[HKSPResolvedSleepScheduleOccurrence scheduledInterval] : sha256 3d6e41099557c84a604d373e2be91f094a029c74b7ccf6181a43c85447ad579c -> 878c31a7cc972bddc80485ec6bbf77e3c08840a1f41ff8cd944256ab945bcd04
+~ -[HKSPResolvedSleepScheduleOccurrence bedtimeInterval] : sha256 05a7be17b60e42424563f31d234e9c2211f744efa798d023053eb75f4dd97b0e -> c8536a7ea47be07ba5dc2fe8bdfe4b3e71118ae0c06a1abc03eec82afe88b602
+~ -[HKSPResolvedSleepScheduleOccurrence windDownInterval] : sha256 32d295ff8bab6ed5eb98747826767be8b3edf109336c16d255e68e53845375e6 -> e5f3452da18e2787ad8f64b2294223b1d49e9282f901e1f11e8bb602503c003e
+~ -[HKSPResolvedSleepScheduleOccurrence generateOverrideOccurrenceForCurrentDate:gregorianCalendar:] : sha256 2f8d71c8550f590c02729349aa87d1c811f2ddf98e2ff398982223be6a7ddce9 -> 9003a96dc0ebc8f1ed6959726265c2f0beccaf35d43c6d173ee18d39105e390f
+~ -[HKSPResolvedSleepScheduleOccurrence overrideOccurrenceGenerationResultForCurrentDate:gregorianCalendar:] : sha256 eeb3a04164f21cfe5f7cd6182457e03a695fbbfe070b5e93ba38fc678b86a541 -> 15e3cd560e2293aa58f08e2cb42c9d890984b3119357f76ce5cd11349ada1546
+~ -[HKSPResolvedSleepScheduleOccurrence initWithCoder:] : sha256 c7b8fd4ca73cc6cd785b8d2cd37722548bdccb84bf425422338e859e3e50a913 -> 6bfaf13c28a2414e3a3a619ad827a4ca70e8187d08b47d0036b33d41dbfbce38
+~ -[HKSPResolvedSleepScheduleOccurrence encodeWithCoder:] : sha256 ba451d164902d62237fb78da9862f9a56a59f8edfd4aefea68bbd08b54c457bf -> c01191ad545b5e350a5960ad564004eae78d14a45037d643cfe4d8fe7c559f20
+~ -[HKSPResolvedSleepScheduleOccurrence compare:] : sha256 e65a5a2be8ef5f3d42ae0db59905ac5e5da92e4d25f24eb9018d5fe2d14a139a -> 77d7ae148af9bf442ef88a04dfa80763cedcb7e58b3413e157e92459b65dd5af
+~ -[HKSPResolvedSleepScheduleOccurrence copyWithZone:] : sha256 1068113d6b748c7cfa64967c26ec5618e29be562560cf41e505996728c0173c4 -> a2f2531c63d498603a5d005909e90f2598467f9b2b3d78d47e43a828b2660d49
+~ -[HKSPResolvedSleepScheduleOccurrence isEqual:] : sha256 158e4263a2635fc2e95ba5180e396f7fc5b7cddb5e04b0979b91bc38782719b7 -> 3286b9bb27be615357c77e161dbcd5b0f92dfb5c3121293beaba2c9614383dd0
+~ ___47-[HKSPResolvedSleepScheduleOccurrence isEqual:]_block_invoke : sha256 c1dd977610ca785fd963938a04805dd5929316a67c4bd4f737d600c8ddd6c9a1 -> 8af7a8d1019f082f644cffbb499937f81cc72971fff1e32c852c28ef89d66718
+~ __47-[HKSPResolvedSleepScheduleOccurrence isEqual:]_block_invoke.390 -> __47-[HKSPResolvedSleepScheduleOccurrence isEqual:]_block_invoke.396 : sha256 2bc8e0d936aa696bfc9a7b4e3bfb221655332a0f0017c4a3f92dc1bf018b5b54 -> 3d6fd94a3400392f2dc02518b156ff8321b6d4e73ccc52763ee976a886457e12
+~ __47-[HKSPResolvedSleepScheduleOccurrence isEqual:]_block_invoke.394 -> __47-[HKSPResolvedSleepScheduleOccurrence isEqual:]_block_invoke.400 : sha256 eacc90da3a9d4d7dbf60820885d812db18957e6a6bc855d229146c68fb59facd -> a5cf705b168c603c0566ad58e76c503f5950902e87388d13181092788ddf48ac
+~ ___47-[HKSPResolvedSleepScheduleOccurrence isEqual:]_block_invoke_2 : sha256 4ddb7863eae1d992c18d7b44109f951d3e4181db9d86c0ef3d618b4d52eaae3f -> 46d397ef441ef369e20319427a5621f16ca3241036f8ee6a523ba9780b74ee05
+~ -[HKSPResolvedSleepScheduleOccurrence hash] : sha256 6e1c89910bbd64c79e713637c66e3ed8578644166ea938ecb57fde0da5dcdd5d -> e8f6b74993f52d6dd8d3ec2593b30dbea16977b78efc70427e62d0945262eff8
+~ -[HKSPResolvedSleepScheduleOccurrence description] : sha256 65cdb0c25773d77940b6110902e57bc23cce7e45008a6ed687a413afd544c563 -> 85bc35837782b7c1c06a72832dc7ea22f629275e5a49e4c1211f43a1953d568a
+~ -[HKSPResolvedSleepScheduleOccurrence descriptionWithMultilinePrefix:] : sha256 6cd0410e6d95cce89f13e7021e51469d48e44e5f709846818926c96bbc58e51f -> 31b7b1f9731cf6b6579b0cc060a988293233d77cb9b592d9533a1e5e5af4d119
+~ -[HKSPResolvedSleepScheduleOccurrence descriptionBuilderWithMultilinePrefix:] : sha256 b5680df1d42376a202d7b731539a3b4a1389bd8922e817ac47b55ef9b7056a2a -> d115f1dbe3ef9f37d5f1c93db38b5d268f5605ce97dc7edec514a00369f60440
+~ -[HKSPResolvedSleepScheduleOccurrence succinctDescription] : sha256 ebcd25727ef8196c05183b77f9f900ebce552884d9a001dacb75e1e7fc4f67a5 -> 1f002272f2f12f538ff44747f48697c309fa7d2cb338e274376e6cb82a5fa32c
+~ -[HKSPResolvedSleepScheduleOccurrence succinctDescriptionBuilder] : sha256 e3e76f7ef12db8c2b3a733b3e894440803835ec3a9cc141f09b473f650bf3225 -> d89ee5b4224414f8e9692fb9e208d9b782af61ec9977950da7a3a04f449e8238
+~ -[HKSPResolvedSleepScheduleOccurrence .cxx_destruct] : sha256 30520cf317ae33af470febb38ff9cb4599ab929ec990c7bdd9b5e4db30988575 -> 1b1b69d502c777e6e9a7f5a027021b344e0eabb0069a9350d69f210c1ddddd33
+~ -[_HKSPSleepEventTimelineAdjustment setOriginalOccurrence:] : sha256 acbc1a61f47229306c88edb513d5c67d409e1311c801efd5d448def9107679d9 -> b52bf52bf9f957a369f4004fb217af7a373b9cb6720ed8aaa04f6d9b6ddb9d1c
+~ -[_HKSPSleepEventTimelineAdjustment setAdjustedOccurrence:] : sha256 dcba4eafa5df04e24e787e610ad29a7b08bc8b1949dd77db98b8222e37c77691 -> 64c11b53925e7fc8fb9d791c753471adb5b255c3d5c720bd77cbcaf1886cdb46
+~ -[_HKSPSleepEventTimelineAdjustment .cxx_destruct] : sha256 eea546a68ebd6fd71a57f01e636159eaf6929e9f5776640a85fdb15b3604fe3e -> e45c2ca94e984fcd2006c7375fb183aa76fee004a66d2166b250e77efc011d7a
+~ -[HKSPSleepEventTimeline initWithOriginDate:] : sha256 46b23195d0085c0d9749f81639e4f2a9a7a02249249de04ae420f4ebe4f9d4ea -> b57b5e7d6bc319882f8882dfa5c6ef36e2eeca297733e8772570e086499069a8
+~ -[HKSPSleepEventTimeline copyWithZone:] : sha256 ca22c66905e545141fd8819da0845fcc45e98747d7e82d5947529fd9b042b490 -> 52bc64a346a9a181115ad2851d9c99c2e096cd1096be21b84caa4c3b7c5f1939
+~ -[HKSPSleepEventTimeline resolvedOccurrences] : sha256 51684052facb75d6ab843d209e9e314a74b0e16ad12f73777da95cad87705c5d -> 618ff28fc11f142a85aa85be56bf459de211f4e8a263ba42da9b70ef97fbb708
+~ -[HKSPSleepEventTimeline events] : sha256 f56b80455f254c57c72c49fe0571ec821db137c29286e10bee00c3fe658fcd16 -> e68a582257828f7e8e95573ca24060fa508f50eaf8292e482fdede79764e37f3
+~ ___32-[HKSPSleepEventTimeline events]_block_invoke : sha256 658bcf6c7d21a9fed37b7345280dc24cbd86b1f7760be3ea4d7c2a08862ab79f -> 5481bf6ec4bfe9e65931677df4d9adb8cf6431aa3d67be948cc89ed8ec8f18fb
+~ -[HKSPSleepEventTimeline upcomingEvents] : sha256 a82b6458adab119f36e04cba93866b6493c9cccf40305c28ea08be3c4245dd69 -> 51bb7f62d5dbeaefb62b30a42774685c1c54abdcc5df81dc354a0bc21e75fc5b
+~ ___40-[HKSPSleepEventTimeline upcomingEvents]_block_invoke : sha256 65631cfe9139d19fb53812a6e7d67b6e01cf6a882a0478662be3733fcd72a623 -> 95eba22f614abb1458d93836d892c024043559034efc8f205b53f8d6c693294f
+~ -[HKSPSleepEventTimeline previousEvents] : sha256 ca0de57dbdac71101e892ebf4b99ded6a8901f485d28041004bacb5575258e7f -> e74e333689897bf7af1faa66448d55e7941981e6f1b1a0c4d179e0d27003d291
+~ ___40-[HKSPSleepEventTimeline previousEvents]_block_invoke : sha256 a09ed91336f09e124c8e55d395cdfbd29b78f61a4c5a028039d3abcba6729af1 -> c36ada9e94c673a6ebe5830d7ad2625100e09402c0755b3fa44f7ba618d41069
+~ -[HKSPSleepEventTimeline upcomingResolvedOccurrences] : sha256 fd6011750bd17b416609458ff2d844225606b5b6beddc83ffc4d0bf71a104086 -> dc29a4b2943d009a8ee6417a96e6742d5576d08baedad413d7887b97f583ec9a
+~ ___53-[HKSPSleepEventTimeline upcomingResolvedOccurrences]_block_invoke : sha256 8b899a19359e001ef72be416c26eb6b8acc52438f70ce1df9f9972a4ea8147f1 -> c5e6353a61bcd286f95188e67be0fc8a94299707b54f091ed740ba80f0bde1c7
+~ -[HKSPSleepEventTimeline previousResolvedOccurrences] : sha256 31908700f70c400d9dc7cf64af98b51b498ffb70bec261854238bc0d63913d2a -> 3e0921798d393f8aa0cbbfd1c638de9ce41c4141b5653c5e3235a02c13d70a62
+~ ___53-[HKSPSleepEventTimeline previousResolvedOccurrences]_block_invoke : sha256 c0b0102bf7715de2fd44a2e0da4b43abf573198102b2e7749c662dbf734b3939 -> c7b75d0053780616b737179cad72b26c560ca9a2c67091598cf34e2a5eaff436
+~ -[HKSPSleepEventTimeline upcomingResolvedOccurrencesBeforeDate:] : sha256 1b1db346969acb987d78121d6cb3a7dd35e4b30ef278fa2c31cfe455ecdae1e3 -> c550d714583ec8faf3709bee3b52c386d6e6f5bc715ae17a3194617b32ccc17d
+~ ___64-[HKSPSleepEventTimeline upcomingResolvedOccurrencesBeforeDate:]_block_invoke : sha256 08ba6cddab594e12a6717af070bc3a1023e7a788963617445e60d8514f2623e8 -> 8b769e97a6894e21952a21425c12f365d120c59e0522bdb50294cba62d67bbee
+~ ___copy_helper_block_e8_32s40s : sha256 3e3adfe172e522934cf1201918eb3320a46be1682af7b7ad4902c71f354a9ce0 -> 6abab3786b91c44425b667fe1b5c9f0015e7c3bf523f307783d0a2011754fe43
+~ ___destroy_helper_block_e8_32s40s : sha256 d06a6e5edd3afe2057e09a1989ee490f04d440590e0ed20d796d7c3ca21a9ffb -> 55cbb2244c581169741d27872ec0e4c72c95fd29a04c87d3a508f6cebcc53383
+~ -[HKSPSleepEventTimeline addResolvedOccurrence:] : sha256 a17728330069884093b6a5596a745ef932f3dc75662159e5d0038f907aea0092 -> 18e5bac957aa77a6849bace187b1565317cc2fa73968e792e4cf457985b877d8
+~ -[HKSPSleepEventTimeline adjustResolvedOccurrence:withEvent:] : sha256 844c2dc1c7793be57d8d0fe250bd371f2d5d0f96c0226fb3610f7e942f0a9531 -> 2b6f641fb74b0e346b284bad4d654e312e95ce5409d4e157600df4cb88f0d756
+~ ___61-[HKSPSleepEventTimeline adjustResolvedOccurrence:withEvent:]_block_invoke : sha256 fccfe9a34eb66f0eadca35e4702c1d2f274a0b46d6f894ec883d59c64bf0aafa -> e8ca11f8692d7b8d33989568d75f344bbc23d5024a3ceae2f2b04d21398a3943
+~ -[HKSPSleepEventTimeline adjustResolvedOccurrence:removingEventWithIdentifier:] : sha256 f74ea9d053af4924b546fde9e4edee03730d44d8f80229c7f0d92696c3ebade2 -> 040e886b62ed5e82ddd4ca2a673f0907645a9f5831bac1818b06cc7ae78a9e67
+~ ___79-[HKSPSleepEventTimeline adjustResolvedOccurrence:removingEventWithIdentifier:]_block_invoke : sha256 8ca8b4bc37e1e33bf9685229e94f685872cd4050f7cffa1cb2fb50a016834719 -> 5b0984f8891deb8287016f6af33107677285d0091ce3ccd4414ec947494b543a
+~ -[HKSPSleepEventTimeline _adjustedResolvedOccurrence:adjustmentBlock:] : sha256 3120167e2700e8607d4dcfc9ea289134d0026d7e7d6cae4872a3151c8d996259 -> 58ae989a1d66d317df8bfe0d04a9e1baadd6db79b3fef67b962a4d598c43783f
+~ ___70-[HKSPSleepEventTimeline _adjustedResolvedOccurrence:adjustmentBlock:]_block_invoke : sha256 36eb7501a0e078dea934ab075fa1b2755b3de289a3d5cf1f9ac572ebeef76d7e -> ceb9453fdad57b807e3a1fa443bdfc0cd47650435ecde43e86c01492ab4020bb
+~ -[HKSPSleepEventTimeline resolvedOccurrenceOverlappingOccurrence:] : sha256 ff29069031415aa180a513a77295311fdc462805ad26cbb809cd616d865004eb -> d4e69337b9908a5c618c9afe73019ba31caae8e5291a5cc254cc2d97c117a9e6
+~ ___66-[HKSPSleepEventTimeline resolvedOccurrenceOverlappingOccurrence:]_block_invoke : sha256 a151f605508f4dd2347da557f586e5c7bbce40b36d49fb77cdd20da852bf174a -> 163ef9f95b1e54ae75fa0601bbf9d4cd4b23df7d54c89d7a51c5b890af850b0f
+~ -[HKSPSleepEventTimeline resolvedOccurrenceContainingDate:] : sha256 30466547609fe71c11f94b1f3f5b8f54371418c09fd58d5552d6249af8b10294 -> f2127f0ef08278b73f394f7ce57d07810c2f9026cf1225d9123792121f841d9a
+~ ___59-[HKSPSleepEventTimeline resolvedOccurrenceContainingDate:]_block_invoke : sha256 cf889b94cc87da5d4d689455ff90d7ddab4a4235e924f1137400b67671ef26f6 -> 46699589feb5d3e3427abe850386c57ca9ae6f057a5e3fdf533debeaa7a7e693
+~ -[HKSPSleepEventTimeline resolvedOccurrencePrecedingDate:] : sha256 7caef75d7b23c7280085b1bf903eb240f26f577cd78cee629daae32a0bcedbd5 -> 74994d5c4b1529b51f58d8bd7dc7ed8210b4fd3269605725c27bf10fb522681c
+~ ___58-[HKSPSleepEventTimeline resolvedOccurrencePrecedingDate:]_block_invoke : sha256 4d2391556076e73827d028cc0877bc432a4a45ed188fe8f234abad921913ec85 -> 47f078aab87e726c8b0a8c2374953c003604c6768c562f74ead57b0a8428f359
+~ -[HKSPSleepEventTimeline resolvedOccurrenceContainingOrPrecedingDate:] : sha256 0a5b9a6f85e990ff1b085c9e67a4c64677469d2b31ab803ce5e884206b3806b7 -> 4618d7934344da927ef86ac6f8fe3897a9f1333e3bc4266b2ee53751c826aadb
+~ -[HKSPSleepEventTimeline .cxx_destruct] : sha256 84a6441b7f1c2af768b6284a2827a986104f37d8346b388682a70b170e16ef9b -> b2133534e1b57ac87879a1d51cff57ef025557043c1672e412d91db9a6e04e11
+~ +[HKSPSleepEventTimelineBuilder builderWithSleepScheduleModel:date:] : sha256 7340abaf85850067cdd0298117c91032a403323169a896c5a95d3050948adbf6 -> 743893e9b5198a08c86d62fe38a8ec99813520d3b1e0881572edffa467c7308f
+~ -[HKSPSleepEventTimelineBuilder initWithSleepScheduleModel:date:] : sha256 4ec451e65f4009fd1a92fb36eaff26d7bf872bfe90ccf9e963ba7ccdea3551cc -> 5e86fb2c48af592b5d18ac906669149e7e2ce56df32158f018d2b6b12774cfe7
+~ -[HKSPSleepEventTimelineBuilder buildTimelineWithOptions:] : sha256 6624abbcb2ba0eb1c4b9b18b13a306959216e76fd488ffb20931162e64c179c7 -> 5ddcacd7a6c5ee791741f049d2a07dd25091d0d627adf375845ae6397584eef0
+~ -[HKSPSleepEventTimelineBuilder _gatherSessions] : sha256 6e2ba11169e94d7a118e2752ae0485d4e5cdd448889c3618636194a9d9a687ae -> 3748e9190b22171d6f0ddcaaeae817aec3c823858438a994abca0616735896bf
+~ ___48-[HKSPSleepEventTimelineBuilder _gatherSessions]_block_invoke : sha256 e11146fa0d425a4a166337f422f271c7d0c89880d554c19d392ceb874222161f -> a78a63b22a40b195339663cae9f872b31f7168987784f91a223d89782c8ec0e8
+~ -[HKSPSleepEventTimelineBuilder _gatherSessionsForValidationForOccurrence:overrideOccurrence:] : sha256 00e999d80851c3042516337287807315f217af8604c8253bea0b1d5fa6bc5539 -> 5ad22aef1206d40f5cf107b3f4c4f319c8d3fb653fb2141a4c72bd891bc752bf
+~ ___94-[HKSPSleepEventTimelineBuilder _gatherSessionsForValidationForOccurrence:overrideOccurrence:]_block_invoke : sha256 3695120f0459fcae161cb0ba48e40a53c26cf761ac25f1e4a7571949c37b3f2d -> dcc4e9bccfb7b7fba83b0d0e26f571adb9d15357869d475a19009d87d7ae13bb
+~ ___94-[HKSPSleepEventTimelineBuilder _gatherSessionsForValidationForOccurrence:overrideOccurrence:]_block_invoke_2 : sha256 84f2d7b98f38904c01468878c89c752970782db737b91537673bab4670f98200 -> 674b158f14bd096e6514e16f65fcfe7507cbeff102c27275ca00c114b370c8f8
+~ ___copy_helper_block_e8_32s40s48s56s64s72r80r : sha256 2492a6ff41ac05a6a0f97fdfb7c19f8770fff9639630389539feac46095bfef9 -> abf1310452168929c4a873b2c91e5df5f006ee4a62c1c98f01df4580757853ce
+~ ___destroy_helper_block_e8_32s40s48s56s64s72r80r : sha256 e4d10ba44bde2ea82a7b67422ce76c7322f805e5ed0376bc1b5fa7e15b27f8bc -> 5db4851819a1c87f829a263202fe3d88ee3a3812968a93521f586d8110535299
+~ ___copy_helper_block_e8_32s40s48s56s64r72r : sha256 71915eb274154da1f20aaac1e1ff943ee68f3ecb5a2ea8a94316baf3c2263f3c -> 71c7038797cc8b9f806dcf20178eb81738483ebb14dc6ee9e1903f8e25bad06d
+~ ___destroy_helper_block_e8_32s40s48s56s64r72r : sha256 b00c3f6573cd0100de227f5e2b83dd656814789d82f1b77223993c2cc4c53b5e -> 1219fc9124febeff90d75f651570ab7af74bfce3f80e6920d2ebc8a23d1fe6b0
+~ -[HKSPSleepEventTimelineBuilder _gatherSessionsForOccurrence:overrideOccurrence:] : sha256 70029e3ce55706843908d32c53b6a1b790c2950665ddba029630ee20251aa339 -> 93cb802f7af582b12417d4fe5f5197e6005e36f650d2619290f1c0a0d6c4ccf6
+~ -[HKSPSleepEventTimelineBuilder _addSessionToTimelineWithWakeUpDate:bedtimeDate:windDownDate:occurrence:] : sha256 59b64a5ee126c2a6c4cce4fe4352b49838e67878084752c84773ad284d79071e -> 239d3a12a51ad9d8504b87b6f3bb877e7f49d36a60a3bddbeadd994d71b73d08
+~ -[HKSPSleepEventTimelineBuilder _windDownDateForBedtimeDate:] : sha256 1c3922d311b809cd3a24066acfb3f7b392b9881fa94b370b5a10ddd23da6d1ee -> a8ffbde442df054308abbd1f09ba26b6256f063c27763765fcfccc27528eabbf
+~ -[HKSPSleepEventTimelineBuilder _adjustSessions] : sha256 e697e80f2850e113515d8af78e541c9e4d10f29cb0ab3c247a88d79466bb329f -> f94b8ccf1210b9136222026dc8f509d2da2f361323ad7ce2e0201e5de545c9f9
+~ -[HKSPSleepEventTimelineBuilder _adjustSessionForSnoozedWakeUpAlarm] : sha256 f5d65e9716085697337c322bc602a4c45d99a1b64735827866e4b5fc6bd44065 -> a5f85a40f05fb58a505528287161c03376deda3771eb6021680c969e3e8d220d
+~ -[HKSPSleepEventTimelineBuilder _adjustSessionForConfirmedWakeUp] : sha256 54cdf3912154dedc0fc1134f433bca68696f398978fb8d3dc5c3bc30d2190832 -> 7119fdcd9b20e9f0f50c15012d629d9248eb193df36decc3ebe2d1aae510c097
+~ -[HKSPSleepEventTimelineBuilder _validateSessionAdjustments] : sha256 b3e932419a4c2783d352665e4d1fc0224948146c839716bbd545e3c37fbf14f8 -> 7d8c9fe17225f3313be3529c44f500eb8bea3b2ce5ee0487b4065e555f2994cf
+~ -[HKSPSleepEventTimelineBuilder _validateSessionAdjustmentForSnoozedWakeUpAlarm] : sha256 e8e9e010543d5a5fa66e3658233b7598425ec23b84d5480efdacc089f3e6392c -> 241149cf241d36ee5939e8346b880f524063faf69fd8f72ec99ecfdb429fec2d
+~ -[HKSPSleepEventTimelineBuilder .cxx_destruct] : sha256 b1907e41aaf68963208f03229b14a790708efafd4cfab2823aae7eb5445f5d8a -> 2745b055e8707e7fd10d763d01fe6b8b984563778e32626e8bc3c8494492552a
+~ -[HKSPSleepEventTimelineResults validSleepSchedule] : sha256 7b9450ad3d201b148b2880d0641c3686e569a94e83f2b617e82bd6d25267078a -> 472a52a03462264fe404b46d8c72bc522ecbab5b00388fcaa8a5ee67bf3c89d2
+~ -[HKSPSleepEventTimelineResults setTimeline:] : sha256 a0db74a04e7150291379bcc32c967c3cea8055750b8ee10d5145bed39d670c9e -> 3d5ed585db4cf000dd217f296d317110458da53f0dc52d19399ab7160610edce
+~ -[HKSPSleepEventTimelineResults setUnadjustedTimeline:] : sha256 f9734c66a363d01619e430aa96915a0bac1668c90469a0c1051e9d46e9ba7c9e -> ff19dc30b8eab29857f5fb7a44b09eeab7fe6c17a6f4fe2e9d700257cec2e278
+~ -[HKSPSleepEventTimelineResults setOriginalSleepSchedule:] : sha256 c4754ccba356d7bc857454f5ae8367c8eef28097f81a89b5563d3a25e2f8bd38 -> 497d73be93bd155ea4ef4764563ade1c0fa5198e773ffd9044c71836864e343c
+~ -[HKSPSleepEventTimelineResults setMutableValidSleepSchedule:] : sha256 31679f4b1ab045f7506beb781ef5696449881af3ec437809773d46d174ce68c4 -> 9716e9237da01fe8eefc712bdd722be2a30219bd3803f268b051794c021d6534
+~ -[HKSPSleepEventTimelineResults .cxx_destruct] : sha256 0bf29da2486461465bd5cf62a3fe77ec0f29c7dd2d9c600af3b12b4d11f38546 -> 32caaee40dd21f83869b3d4bd7a8efa6f52a20928cb68c5cb34b0ff5f1f1a55b
+~ _NSStringFromHKSPSleepEventTimelineResultsSleepScheduleInvalidReason : sha256 3aee9917553ccb83159811862d8b06ca61fa8359a13d1a5a0cf3e1feb549502d -> d58737dc6ba658c1c02aed9ae8cfe165acc3a921b72d9b6f5d4ce37da00ea61a
+~ +[NSError(HKSPSleepEventTimelineResults) hksp_validationErrorWithReason:] : sha256 58942119b43271e258032fad5377630f68a7d7b54131855b1c4744604e15570b -> 7286650a036e8069a9707abdfebfcdee5fa43e3d0a0a46876b1c29304be2a553
+~ _HKSPSleepEventIdentifierSleepScoreResultsNotification : sha256 35c5120fa846f52a8e1ae5fd2760735fb09d8586d7c1eb9c079090fa40da6961 -> c907d05f2bbebb7333778ef1a9f92e61100f4db43bb1d08ce7efc49fc842b662
+~ _HKSPSleepEventComparator : sha256 76e65e53dbe9ef20c7b67fa1e6f2a1cb320a7ee82f61833f039f7afda413d1e0 -> c770f915a2c186148526a5d17c35c496ff3f31682c4d7c6f636dccdd9a5479a1
+~ ___HKSPSleepEventComparator_block_invoke : sha256 328054f2b3e5cbe11a7851851f2d41c19dd7c7c75c943302231761e1eee3170e -> 757f07cca0a90a668536a7d43bd2e92115b40f89e40cb610aa1d57d31afb984e
+~ +[HKSPSleepEvent sleepEventWithIdentifier:dueDate:] : sha256 0ce997d1ff204d63875717d037186636c6a2a718fac3a3dc462810aa90d2a139 -> 4287e7f9bbc94ff4a10bb76f846106401ffd1dd61bf44f5c8eab337d12eacd67
+~ +[HKSPSleepEvent sleepEventWithIdentifier:dueDate:context:] : sha256 fdd6eaf8c952c1594212f03fb2900acaff00c7037fb35335c21c2142e4c2a0cb -> 4ad41012d9d49c3516faaef2bc770c1edc7b1ce6ec93a1914b5ebf973a0c5e85
+~ +[HKSPSleepEvent sleepEventWithIdentifier:dueDate:type:] : sha256 49626f7948464c4e7c83546924625f9e72cd488be94024423555205af4999877 -> c2dab2e88e537887562917943845f691a9564e65db94d502f706ff323248e1c4
+~ +[HKSPSleepEvent sleepEventWithIdentifier:dueDate:isUserVisible:] : sha256 8009ba67e3898cce46dac916d6ab0cd1e34e59ed1a0991612014f3fd71093636 -> a4f847b098e1179ea9ad0d15d471f81c481d9a8f254cd5c4a2e1a12f012fc5e6
+~ +[HKSPSleepEvent sleepEventWithIdentifier:dueDate:type:isUserVisible:] : sha256 e50a83c53d4208e7f772a52e1ba1dc12af963ba9f0736f3aa28231930f8bfcda -> 7f810464e174ce6fef48ca2d56fb36e6c8569b11d431ea15ae901534a0e5860c
+~ +[HKSPSleepEvent sleepEventWithIdentifier:dueDate:expirationDate:isUserVisible:] : sha256 63c55d8379e21770ee884371a9470f2991cfb656b6559d2748930fd280b6c40f -> b0342b21c994299a71c0d8e68e7cef5ed3ed60a6496b83509aafccb5e66df486
+~ +[HKSPSleepEvent sleepEventWithIdentifier:dueDate:type:expirationDate:isUserVisible:] : sha256 9dec7d983e26f8c3d33a68e553ed91784036927c9269e86be1ee49d4e046b9d3 -> f91d03fda1502aa6cadc37aa10e55160a0a1dffc95d9a550a1ad389805c2b314
+~ +[HKSPSleepEvent sleepEventWithIdentifier:dueDate:context:type:expirationDate:isUserVisible:] : sha256 b026c1a4a6054d329d8339fb2c99363b0226ce125ea90996fd52816e79c528e5 -> e6b06f33d993445122f58b54742f3dcf2bab7e27ddaf35beb8ddce6cb95af871
+~ -[HKSPSleepEvent initWithIdentifier:dueDate:context:type:expirationDate:isUserVisible:] : sha256 9850a3993a264571603bfe01aaddf254b67f864e6e951033c0fbd7936fce61e6 -> c3032500727112e43308563fd3e840f622d60b7dcdbaf2da8f71175dbb3f8593
+~ -[HKSPSleepEvent isExpired:] : sha256 e6831b371c45f8e025e1a8b8c88ba8bd6d5982d678649a7d98fbab95ed9bc938 -> 05c68130ba1d21dca754ee6f9973a67b7a5ce8e6fe433f09e9322666f57148a9
+~ -[HKSPSleepEvent copyWithZone:] : sha256 bf19a2fc4babc7780719418eb825f2c1a92b3c3cef4ceee053b2ac5939f023ca -> 16a64690484f2f728b6e686c16d0caa284d8beec4aa03aea905a32493f97cf79
+~ -[HKSPSleepEvent objectWithSyncAnchor:] : sha256 f80f81708492c356f208cfd0d852309c0c712b058b51c78a7c02762309b302ae -> c34f3fcb0a5b289a913a4da2b6059611e2924450628fc0a216e12c001e774af6
+~ -[HKSPSleepEvent compare:] : sha256 caf650beb69c49cb8c2d92f9ee9f4cf894013dfbbc11c32722cee32af6629c99 -> 09511aa7eaf1968f2d0e0d7444554cf7723c16c409a09cfa03df75f7fc25f085
+~ -[HKSPSleepEvent isEqual:] : sha256 6dbfb1f62d168929f35453e62e06cb9161c7725a54b4863013a5dbed2cad65f3 -> 48a49e7959e112053933cd422ca2288d900542e5dbe48eb44885b76e12de47cd
+~ ___26-[HKSPSleepEvent isEqual:]_block_invoke : sha256 fcd4b657e209d20f97dac0d53ec101dd2a599b0dfddc94d7ca78d4f287abbf7a -> 03275aa46641061817923a83363b31d86bda7084be6df9d765186d42aeab9023
+~ __26-[HKSPSleepEvent isEqual:]_block_invoke.409 -> __26-[HKSPSleepEvent isEqual:]_block_invoke.415 : sha256 b237663ef3a77f731504f2b64d107e4ecc220fff60b4c6a9a757dab0baadbc20 -> 4e528986cf1eafe89567b4e66f44805dd1e3bed04d997942314138000996a421
+~ __26-[HKSPSleepEvent isEqual:]_block_invoke.413 -> __26-[HKSPSleepEvent isEqual:]_block_invoke.419 : sha256 4c84c1e27c1c81c1d9faba0ccf5db68b6f7d9f4d804ccce3a43dba84ed26a816 -> 501873360b7d7c5a2ba0de3de97be84eb7874049a7c006480b41615db19a8448
+~ __26-[HKSPSleepEvent isEqual:]_block_invoke.417 -> __26-[HKSPSleepEvent isEqual:]_block_invoke.423 : sha256 1a1c2f6e0b9e6090f9b9d8ec2f9e7ba9868e40ba446d4aa88321cebe2fb947b6 -> 3057b6b91d1d8b49d7a9c2e7da533ea3d2df31577aaa807ee6e4b7576341481b
+~ ___26-[HKSPSleepEvent isEqual:]_block_invoke_2 : sha256 4e3fe91de6a0842ce688bbabf0586d2655757ba23af6af8f3e027fc989be7fb6 -> 4307b1109f91c14a87e6505c7101d5af97538f1c4665e3b199a0922ededa1563
+~ __26-[HKSPSleepEvent isEqual:]_block_invoke.421 -> __26-[HKSPSleepEvent isEqual:]_block_invoke.427 : sha256 e9e021c674f84107fa4e027781f95fb9756d0d5fbb47562aee14e3ee54d19a84 -> ae30e1f69ed743802dcd5f9c311f6b31d10ced015c1c6510099f717986d82560
+~ -[HKSPSleepEvent encodeWithCoder:] : sha256 e82aa91751e2342d564f90871e3e5a23f8ff561038dbe02dd504dfdc6facd694 -> 6d2cbe676079e8a11513a54419f0129b3119f5d950239ede0f2c5a4e90c19ff9
+~ -[HKSPSleepEvent initWithCoder:] : sha256 4dd1966f8e5e64ff4a5ce7f7eee9f9c608e84a9739c42a96988fdfa118099fd1 -> a966153aa2e75bcdefd5080fe06c376e0225a77a97860f63c8872af6e9decf25
+~ +[HKSPSleepEvent standardEventIdentifiers] : sha256 4109ded5d8dc7131a7f5774220fce2a12fab0be1bcafc56457c0f552419fb51a -> 4ec4e3483955b2eb42268b5eae09c6b4a3f1d19482cba702a3c0df97489f66d1
+~ ___42+[HKSPSleepEvent standardEventIdentifiers]_block_invoke : sha256 1f57ce3d07e1489ac08eec6699d524d922f93cd9663843b5254857a73b10e2d1 -> ad1b0c97b0ff28795fdb3466ab2a25f4c5434cd7c80446e92a296960f727869c
+~ -[HKSPSleepEvent hash] : sha256 15673015ae3f9d99191a12323ed85b7615f24fe84dd3ad92629c2579973167d0 -> 76e0146e8c4be54e44c3b2b2986840b7955c1570173ec94e830ecc3f83ba2c64
+~ -[HKSPSleepEvent description] : sha256 2c4e63b7ba964dd822d2f0249bf6df093189393ff28cc842d4583672ad32f3a7 -> aa1a0544db950ff40271e4d17d973582f16cfec79aae3322cbcd9a3aa1a6eeb0
+~ -[HKSPSleepEvent succinctDescription] : sha256 2534f1d725d4b54fb3910d97e970e0858385d38089021d493f649b3d294f3bd4 -> 082ce63da7238968b7175dc598ef64fbb03288d5eca27b4a1058a6d7fa2a5ad3
+~ -[HKSPSleepEvent succinctDescriptionBuilder] : sha256 4e8763dc14aa2a65990f5cdc004667e37276bfe46ebeafede235e458fd2a23d3 -> f229511b6302cbf713eaa101fcbfcfa01609ba7ac981b9285d3a1c44dd1d761f
+~ -[HKSPSleepEvent descriptionWithMultilinePrefix:] : sha256 d35a2c857c566aa0bf0468bbf6f789fae6d30b4246212429915d4f4ebaf588f9 -> 2428244c10248313924dca7a3657a073d771d2a58c679995947ef410f1560d64
+~ -[HKSPSleepEvent descriptionBuilderWithMultilinePrefix:] : sha256 80dfe06a632a755c4c39c2e562efe8b1f7b2369853c2659cc5bc74014b1c2cc0 -> 085059f77f9892f246ddb6212bcc41ea007858e7b3b9f3cb482cb55ebdd58228
+~ -[HKSPSleepEvent .cxx_destruct] : sha256 3cefb8c14051ab97e0def2fae28df4e900bb898804884f49981e22aee8e090b9 -> eb9d42949877435ef18593d982673ed968d943a30172807ab760d146ee6012a4
+~ -[HKSPSleepEventRecord init] : sha256 c9ff54654687b07bb96b9a6cbd597a17002c397711026fcd696726ab810bd75f -> 0804a24f8cd2928243a6eaa99d5d9f6b9c91c69efc83f8be9d6070387ac0f0c8
+~ -[HKSPSleepEventRecord initFromObject:] : sha256 d2d6edbf1aeb4355a9bf2904cab88b15c18e14f1dce559841736dcf0a456d9bb -> 3c5d33762b3cc516a57067aede32fed507761f047a45a3cc22b656e3eebdfc11
+~ -[HKSPSleepEventRecord objectWithSyncAnchor:] : sha256 15f3351666196687fd1946ea1b0edf45983ebee686fab12bd87c8c5a686348a8 -> c0933bf8eccc1f96b9d3f117a36f11f5884b1fb371a82dd769574343fd4ae522
+~ -[HKSPSleepEventRecord initWithCoder:] : sha256 f794d34cd931ba8cc1b9976543e4037a329206132a709a713da6be485a4e198c -> 67646ac93da3a1c6d643cc9281ade69c51c8bb57dc1389eb0cc08f47f8558af8
+~ -[HKSPSleepEventRecord _needsMigrationForCoder:] : sha256 546ee13afa676ffa0345685e74a66044c703779b85845a95535b2f3a54fb419c -> 660eb72f0555157cb685d236c429c1bdf05c5b40b1ededb5578685a4c85ee959
+~ -[HKSPSleepEventRecord encodeWithCoder:] : sha256 5459cf7983d1025ecac5db844ad63fa4636ed79952b44861d88d48d1e99a97ab -> 298a3a92d94961a3b1e4f94d78efc8336a9a27b5bc1aa95c37009b28d3dec5f8
+~ -[HKSPSleepEventRecord copyWithZone:] : sha256 29761996392a5ed8a992c04c43318d486f5a48531a4d78f691015b12ed3fde43 -> a0cc69ab8b452017feb759fc5ab8f8ef97f3b430977579ca5bfae24bfdd98deb
+~ -[HKSPSleepEventRecord mutableCopyWithZone:] : sha256 8112ad1ecc4e87358e4dc06f4baff36541a18c5fbd5bb0206c1b4c1d9aeb5999 -> 50097b49bd17a9dbb49646ea6c8e6f20b53348925d4e8665aee9b6400c6180d8
+~ -[HKSPSleepEventRecord mutableCopy] : sha256 af8c5df3368d70d884dc4d631c9e91303313b3bbf3e9028e77e1cbe2c2b8ae5d -> 349809020bd06dea3cf539f3f2fe86d1f405ff7dd1bfb397dd31f53e041b0e0a
+~ -[HKSPSleepEventRecord isEqual:] : sha256 e4e0d6e5ee63d7b2f3e1996b1a7051ea6a3340519e91fe559b2b5abd4c23f00b -> 77b06acc41ad6dea6ebe6a7ae2a50b382d5a6d9797cef9273a0c1f894f22870c
+~ -[HKSPSleepEventRecord isEquivalentTo:] : sha256 60c7f547cabae1f74c252684a6498ba654eabc4424e1e2972902316ea5f69b90 -> ae3488d27be741d512fb69fc3ea2dd9b07e3220b1cefde69a57c759e780ede1b
+~ -[HKSPSleepEventRecord hash] : sha256 d9f2fbe4712ee6e3d0d6ff077a6b85b369abd10bb5a906f2e2497023623d8570 -> f29def0806d98058c3b94c8c43e07d510f1944d5edbe3194dc18a6073114ce05
+~ -[HKSPSleepEventRecord description] : sha256 f95c8c3563959344a93b901a75bca9736d60e356a5134fd2b8db23f40c2ff3f6 -> 84bed6523938592f3d5da341e051ece2402d06308cfa1407a1f1bcaa1cbaf3b6
+~ -[HKSPSleepEventRecord succinctDescription] : sha256 ac36db84ea71d01ff257989834bb24734755b3cec2ccc57be2595827525bfe09 -> ee7927bcb349ea74f50d50f3742b7b73b8ea2feebdf5ce45f764707fc8c89ee5
+~ -[HKSPSleepEventRecord succinctDescriptionBuilder] : sha256 9fff9d990c5ec77bd67ad3af11f4896a001be692b80f709204928ac8471301c6 -> f61bdfe0ce8eb0260f3309d310bf3db4d6b440f658c320e1317ae740d6baaad5
+~ +[HKSPSleepEventRecord _appendDateDescriptionIfRelevant:withName:toBuilder:] : sha256 16e77403cc560654133bbb2ea4f1d196416a751505fd10e3db42e87f8c64ec93 -> c16c4095bc4145fa61b25cfb992a1eb7bf0e85eed887b61f48e0514c6f073542
+~ -[HKSPSleepEventRecord descriptionWithMultilinePrefix:] : sha256 92bc542800489cb0ff5651e3f9d004c77f27cdad02970fae576604f56d8a58fd -> 16123a5d8afa33e628e7b737b6b1f2848bd96de99aef7aa18966645f146695cb
+~ -[HKSPSleepEventRecord descriptionBuilderWithMultilinePrefix:] : sha256 53a08e9828644845fc72254de51135f230333f10e678e3e279b8ffff6788befe -> ed1a8023c224e2ec353fd35ed7330855dee43ab1941eec5cc64be8a260c36586
+~ -[HKSPSleepEventRecord isConsolidatedSleepCoachingOnboardingCompleted] : sha256 b47cde71d5efcc150b1722051c7434b6fccbedef695782885e11af66e2d7e04e -> b28c955694cafb39503aa34d890556edfbde43bd309a7520ee8307fe245d49b6
+~ -[HKSPSleepEventRecord isConsolidatedSleepTrackingOnboardingCompleted] : sha256 b157d5e36b18191d3b97765a74b52746cf3c8fd21e3685bfdfe18dd15b03ef54 -> f48e7b316357b23aa8fb5f9043471ea8cd4dd3f46e6fa393302183079101256a
+~ -[HKSPSleepEventRecord isCurrentSleepCoachingOnboardingCompleted] : sha256 b3816fc7720d0e6b1ca4b8a3bb35f92324cea7bf1db72c676c6a368231d82072 -> 700e35165fb79058a5b81276fb5b9860d85745ea0b8bf2e4e79770ce60901d43
+~ -[HKSPSleepEventRecord isCurrentSleepTrackingOnboardingCompleted] : sha256 855c1a07835b31bd9e1a50ce671b1f9c017a007942d36eaf41690bf6674c3a1f -> 04272e132853c72930cbaac13498b455b47fc2d60b0caf69236ff29bd17187e4
+~ -[HKSPSleepEventRecord isCurrentSleepWindDownShortcutsOnboardingCompleted] : sha256 4fcd545c7a1bd5cd6e417cf8357df8022f5d9b184b9919fbef46de58fc890163 -> b54001b684c6b3072eeb4824a23d3a4d4385bf00e1cc0f58f78501eda3b6bffc
+~ -[HKSPSleepEventRecord isAnySleepCoachingOnboardingCompleted] : sha256 ea5ced5ff6b1c604a78c6357756f7b680022792a23cdbef47267fef512992f31 -> 17514eebe1f681596c11d61404f8ef9a7272e6a09e542a1113d3d5e88ee10e5f
+~ -[HKSPSleepEventRecord isAnySleepTrackingOnboardingCompleted] : sha256 e4e4dbb5a1f8051841659a3fb333ad7e9e8a9fd3471f713d218ebcc7979b4ca0 -> eb6a21c7bac250497c6e08794e576ab6eae43583b1e40591d2d98f8266872097
+~ -[HKSPSleepEventRecord isAnySleepWindDownShortcutsOnboardingCompleted] : sha256 c42a2d35fbd371cc6c3a899c52f496050155d9f9bdacc8b493033108604bdc28 -> 4af0595eb3058605b7d1a0f7eba75396a482422e7c5002427e3792f6277f518d
+~ -[HKSPSleepEventRecord secondsSinceAlarmDismissalFromDate:] : sha256 34a678c39ab7b253da6f088c4a6eb43fb5228919d1596449530e4839241c5c9e -> 05fd628c51b3bbae905ae54d735583fc01f71324f5ac6a0f342696e6dcd4caf7
+~ -[HKSPSleepEventRecord .cxx_destruct] : sha256 660cd36a936e8d5e7c4f1eb7ac0566374b21cc937f34eefb819669a67cc215b9 -> c05d390a674a25c726686a497aa88d6c3b95dbe4386b22b697228abe62f63bda
+~ -[HKSPMutableSleepEventRecord setLastModifiedDate:] : sha256 7e1dab85427249c53c38aa2c7bcb15f0c5095357240829c60bec98c3e57375e5 -> 76efbf72b65eb6b309bc8c3af159a800b295cc737849cbaf83b4c30fd35ee40e
+~ -[HKSPMutableSleepEventRecord lastModifiedDate] : sha256 9e8ee4f157687fd5c95e93a3e732aa45465c15397c3d5fb3f889fe6e48167296 -> ec1bdcca1e8d11edeabb7c1cb29425e87daf0178749f470a091cb20382d64884
+~ -[HKSPMutableSleepEventRecord setWakeUpEarlyNotificationConfirmedDate:] : sha256 d9a057c5e35a9a17e0763527e3eb04fa68b7fb798f548cba5e11a476d4a4faf8 -> 729019b9c879198563a5936f1a48315cff4d0200244323e4f6d63ba233a56239
+~ -[HKSPMutableSleepEventRecord wakeUpEarlyNotificationConfirmedDate] : sha256 fdb0a5bdccea1ecfca1355dfb1275e5e30556e811610cd98794cd35d91cfccb0 -> 028e3ec9818b7ac3b5ad6fbce345820c5ba449ea3ccccea949a61e2cefb6b4da
+~ -[HKSPMutableSleepEventRecord setWakeUpConfirmedUntilDate:] : sha256 6f9e501f381436e9290f6cf5959f5f5f97a82deb5c40653fa89c310be5cca1f8 -> cfda7e0fe8df1fafdf56751dc99a24cd59cae35e31a9e7b3427d29b7ddd7ccdd
+~ -[HKSPMutableSleepEventRecord wakeUpConfirmedUntilDate] : sha256 a64ddb7a8dc3bb6212ada32e3acdc44332d779dad19b86e48dfaa464a9dedd7f -> d6591ef7cb1b38122ad0173264e391467b1f1510ad48d352f2d80ce0094ff8d8
+~ -[HKSPMutableSleepEventRecord setWakeUpAlarmDismissedDate:] : sha256 dc16baaa360ab523c1bd9774728c98c7b0ce736c7702b998ddab98b696a2069d -> 13382fbfa446405c7a452c972987ac149e0320ed82021194d7885181bfaad289
+~ -[HKSPMutableSleepEventRecord wakeUpAlarmDismissedDate] : sha256 18f64c938f23293cb12324bf79e5d53eff91ee186d8ff76102438f346d6cb2bf -> f1f795b448b42df1fa28c11c9dc70d49b90ae7952a723f76a56812b7d34a9bed
+~ -[HKSPMutableSleepEventRecord setWakeUpOverriddenDate:] : sha256 f6d38b2cd35f1cfea188d70afba13f7d866c9c2abb22f3fd92576452235d1c44 -> f2ced4607d22e229b8a959237f7c57a8e718d44b994981d824a01d75ce55746e
+~ -[HKSPMutableSleepEventRecord wakeUpOverriddenDate] : sha256 8103e8e1f5f864c2b0efad8bac81507408cc8580f8ed30bc076ca3e8ce8539aa -> 8bc471b4a9eb05506f9b0f53ecd5f62eb84c0ba20df1f229602be1bc7b7bf698
+~ -[HKSPMutableSleepEventRecord setWakeUpAlarmSnoozedUntilDate:] : sha256 2fa08e852f2fb36f1bd12ea6ed3233af0816d5f0b60df408247a255131ec9ca1 -> c0b0e73646ddf2b6c564c34d09da42a7d21575ddf157fc17547c2b039c564880
+~ -[HKSPMutableSleepEventRecord wakeUpAlarmSnoozedUntilDate] : sha256 38d0f492d35cb569fffa6f3f8447f7dca9dde014d1fd7e94eb3bf76c966ea1b4 -> dc9df4ec56ebf8999b7807ff2614d312038d3254dd809075aaa358f5077df075
+~ -[HKSPMutableSleepEventRecord setGoodMorningDismissedDate:] : sha256 3ec45475e7e91e4660e01752a069a79f7dc3dc356db7de6a4bcc37a34affe3aa -> 166d8d6effdf2b0f6c2c5bf2703fdf8ff34276acec27dbd509decab1cfeb6218
+~ -[HKSPMutableSleepEventRecord goodMorningDismissedDate] : sha256 8bdf0af7cf4ac2f4a6961864ccfb05849b15f108124179fb5b3bfc1f06b73015 -> ed1972723aa11ecd62f64580f54e11f128464ff3b1e837349cebf4256972e6ee
+~ -[HKSPMutableSleepEventRecord setSleepCoachingOnboardingCompletedVersion:] : sha256 a385b40413e4e649e634dc1d29ea0f7d9f1eac23b865a909b3a0d0ed5f46922b -> 9cbd262211de961e7fd334ea0bd16ad069b67fac3c2590f41e4a9ecfee046c66
+~ -[HKSPMutableSleepEventRecord sleepCoachingOnboardingCompletedVersion] : sha256 5264ddd3937408ab17cd1eb0dc18848c2f318c8424b46016ef7371fd4bdf345a -> 2d04719869f39d727aeb7678825967eeb77ab0f7f28e24311116ce8ea0e0271a
+~ -[HKSPMutableSleepEventRecord setSleepCoachingOnboardingFirstCompletedDate:] : sha256 6dcba1e8c4d12fb30da6f9e5d91975de081c97857adccdd0bff4a0966bbaa859 -> de5ac77ac034c2666f8055b264e5882baabb12ad3e8894e84757b79cc19957aa
+~ -[HKSPMutableSleepEventRecord sleepCoachingOnboardingFirstCompletedDate] : sha256 4a3d329c4d236396646f6e043d2be219463c198e4cc46438ceecd0cab59bcc41 -> 502e0c5485747152760d7ed9cb6f99417afa8addf4b475ce16bcf9e08fddbf23
+~ -[HKSPMutableSleepEventRecord setSleepTrackingOnboardingCompletedVersion:] : sha256 10d6cc1bc37ae6bcc47d654220a7d4a31d5d6795f470dc187687527c2305c7e0 -> eed0232b5a8680e2a41674b4d60ea90d5361eb7818b11ad4c2b9ca006b0caafb
+~ -[HKSPMutableSleepEventRecord sleepTrackingOnboardingCompletedVersion] : sha256 7fb61ea80d2b3b4a06ef022e328e04bd860711774f9316a850998f348298075d -> 46e4214204006c81bd608e6244b4f0aeb05aae8e18998797ef56fbeeebedd1af
+~ -[HKSPMutableSleepEventRecord setSleepTrackingOnboardingFirstCompletedDate:] : sha256 886fd053d648376c7e5c92c455558f4ee228c7a5f7d0ce3a555a4a0465d08d39 -> 641d1000af18cbad297fe8474738cdad371fe8bf941e44441417eaaed89023fe
+~ -[HKSPMutableSleepEventRecord sleepTrackingOnboardingFirstCompletedDate] : sha256 27e9935ad09641859ed2f0f845a6b496d186b3f56a817837d9b713691932c995 -> 8bd7d26f5cbf6d9f49557d93e0f44da13975c6ed68fba754694fb37444bf9f68
+~ -[HKSPMutableSleepEventRecord setSleepWindDownShortcutsOnboardingCompletedVersion:] : sha256 4896a492164fcf8b7748bcfbadf4e7958c1e69190549d8da414562c1dc6eb9be -> 1f5a714a16010335fca919d12c6f79b3e53c008300c52a67606e96299cec0307
+~ -[HKSPMutableSleepEventRecord sleepWindDownShortcutsOnboardingCompletedVersion] : sha256 1135ee6db7b646dddc9831283b30684f0ef1eb3ef8c723452de2cdc2baf17c83 -> 71f582cb90246069bd777dba2014ef0a296015d29751f880e9f162406456a83c
+~ -[HKSPMutableSleepEventRecord setSleepWindDownShortcutsOnboardingFirstCompletedDate:] : sha256 09dae765b973e7d086341545c41b49a0430574bbaff97e4d146dfc6b81ce0fa6 -> 696dd6716a005fe62825931e5e5aa34eb9d1c1f1ddca1a8be10bb85fcf629529
+~ -[HKSPMutableSleepEventRecord sleepWindDownShortcutsOnboardingFirstCompletedDate] : sha256 2402179ee5dcd0e18224b292d1f64b6d54a4e331e5ebf25e6402d0ed4b79841d -> 62ee2f42560afdb4f5128e4b4a0e357d17bc7e0b47e9ae58451c3d4b9102322a
+~ -[HKSPMutableSleepEventRecord setLastWakeUpResultsIntroductionNotificationVersionSent:] : sha256 9ab5701176b3068f7b168cf8a342c542e1fb74fc0d055c502b63673a1ddd42db -> 900288d2417e52e76957be30d999b00dd8310dd29a5dad6b64e8ea65db9ece08
+~ -[HKSPMutableSleepEventRecord lastWakeUpResultsIntroductionNotificationVersionSent] : sha256 bd006123ad381d7d409ad666f2a5eff1083a944f88e4b6fb3947fa68313535ee -> 78fa230867c7f3acaf352ec3a81e0521ccf5cfde6aaff49dd1a0cb5fb7cd506a
+~ -[HKSPMutableSleepEventRecord setLastWakeUpResultsIntroductionNotificationVersionSentDate:] : sha256 fcf8e00efd270249c789df500ffedf96f5b0fca137a74e8cba4f5879b7ed07f6 -> 9d73f2f75d66935872d57fbfb22e5858bbb5a72620079cc55e622f73069ba59f
+~ -[HKSPMutableSleepEventRecord lastWakeUpResultsIntroductionNotificationVersionSentDate] : sha256 6dba1ae5b243ec3ae6134e9ac8aa3e13e7e15554b2b83470476e5b48ff64c85c -> 0b8a64370e98a9014a13ecefbfcd1cea04fafc94b1657ad7db279aebc73aec3a
+~ -[HKSPMutableSleepEventRecord init] : sha256 5e871aad1b8e75c6a17dba33fb5aae8851cfb0f90651a23b6434aaf34b97622f -> e5227975529c22e2d5b07d6ab371023f852ff8760b4f09e3539453210587861f
+~ -[HKSPMutableSleepEventRecord initFromObject:] : sha256 866969bec0ac886d119a180821dd3b13f9d457ea3a91c2de82ada2b398e40d02 -> a60fe9c414776512afb783f919ff90881cf74f986e2f7dd3b688f82c59532a80
+~ -[HKSPMutableSleepEventRecord initWithCoder:] : sha256 ea525e6914b7d44905ca24e82b6b33d667145e45aa9e5a99078fec3cca85c234 -> 19ce9418706f18bd007aa2477e545d150938dd3ca4804b36967740c63ee8ded5
+~ -[HKSPMutableSleepEventRecord encodeWithCoder:] : sha256 51bf4cdd8ccdb407b6a4c01f61e99c80eae3911057df419b28bd689851ed0c13 -> 5dd3749c93374508a0b2911ce5d8e5a936f31bb86d411403db379115d230734a
+~ -[HKSPMutableSleepEventRecord copyWithZone:] : sha256 1afdcfea6468f10bcd08d5b08b63a27366e8da2c0053d255078236d5e6e7f6dd -> e7e5c22a5d28a59c4081c724f222a341c96d19de4a69efefb018b389d79840e8
+~ -[HKSPMutableSleepEventRecord mutableCopy] : sha256 1dd30bf9c8958fa9fffdcacb17073aa3af3e1746b72bebf81ff5ba9b90351762 -> 45dca303675b64ea38073533e80234a7c6ea5f8fdeb3fa59818dec956884b5e5
+~ -[HKSPMutableSleepEventRecord freeze] : sha256 a486309a1d35ba325dc8f4867eacfc1ad65dcc905d1beb27e784b009d2b031e2 -> b5f38239fc1e7c53b9b06cee21f751b3f1cbeb7178628a3564548178aefd468e
+~ -[HKSPMutableSleepEventRecord revert] : sha256 f9b7e0925e143bc914bf26a25ec3ec62fd3c35a18350720103479ed040badd62 -> f57329fcbf34375a9de3cb79e889edd267b79a5fd8cdfca6aef26f53a8bab1de
+~ -[HKSPMutableSleepEventRecord updateSleepCoachingOnboardingCompletedVersion:completedDate:] : sha256 c2007681559dd71a2a6ccb1c4b718d77a8d675e6236916bc2d96c1c86c2a1495 -> 232a2baf228d52567430d402148e46ce74d6b8831896e11b5be776c1ab79c48c
+~ -[HKSPMutableSleepEventRecord updateSleepTrackingOnboardingCompletedVersion:completedDate:] : sha256 b73f2025555ec64f0635487822ae3b0482f650ef32b2beb26da9fa0d4fc4860e -> 99fb3d3e9c139f1b08410c797af9d0e0209c8db6bdcc2b2735b7bf24874efb55
+~ -[HKSPMutableSleepEventRecord updateSleepWindDownShortcutsOnboardingCompletedVersion:completedDate:] : sha256 dc59c1aeaf8d38e6f3d485d0702fa3e511fa313bf91d41b40527a63766d1c09e -> d8cbde60806bd0f0fce26b32c1f7d36c7a526b8d0cd484a26faa609515537b87
+~ -[HKSPMutableSleepEventRecord .cxx_destruct] : sha256 3ee2c06d687b772aef0145b38ea044af7fa58d95993b7f2f4180872427e2bc38 -> 2e4c573bf0e2c00fa64f77b84474ec35d26ca042dbbb806a4f9e3b1d9aef3992
+~ __WakeUpConfirmedUntilDateProperty : sha256 3f565964cd0cd27f8535ed3a8a9140cff848aae444c261a65b0c1f141f73af1d -> 415a41b625478a8cf24f5fea1f58e50252367d8b7f4ae8c4a36df8f3db089fa9
+~ _HKSPSleepEventRecordProperties : sha256 86a8d73c3198b9e59b51467a04cb7eb23784d3217aaf05b9da1c6a42bc2b2349 -> f0b0f9cc5cbfd725ae0d2d74c9c28d226dc24a0c6c2ca4fb9826b05da2cf2192
+~ _HKSPSleepEventRecordPropertiesForEquivalency : sha256 84eaaeb91177ae19b8792d5f794caef71cea52138240f94996d5123917eb5b4f -> 427360b3f5921ba3d6ebf129e8e4dd8faa8739641397c2832e7d14739cc1840e
+~ ___HKSPSleepEventRecordPropertiesForEquivalency_block_invoke : sha256 e753d9d0a5138ae729c01e02405f8e8604a85ee48c9a5690b4278a5c777f7a33 -> 35966ac8cd01682a17e9dea91c9f39ca2fec2b1aee3cb76c5b3e7becb87f6630
+~ _HKSPSleepEventRecordPropertiesForSignificance : sha256 866e25970bc455c4b2537bdd34243607516df1eba272ff2114ae7ee766dd5088 -> f195c42489fc38166ea3ea2df656c931d6b6404a09157f16adb220a9b9d800aa
+~ -[HKSPOverrideOccurrenceGenerationResult initWithDate:gregorianCalendar:generatedOccurrence:upcomingOccurrence:] : sha256 271720c02fb6c6babd74a6dc2fc687dec2cecf30ed204a5d2a732724bcb3257d -> 291c6d666c6c5282148682b902ca66ee22d606a059d41467df7e9ff04a92c17c
+~ -[HKSPOverrideOccurrenceGenerationResult upcomingOccurrenceWasOverride] : sha256 4efac225b06307e589c6db7e306dc7b372b7b9538b40cb90880be0232705db60 -> 7ef49c64206c085d0626d6394b3c904f5ffd46dedf82d44e3f5f05c88f1da391
+~ -[HKSPOverrideOccurrenceGenerationResult copyWithZone:] : sha256 d6597f2f937c3e991c3041d75885f55f08912d8861d3b2371c026d80e6d523cd -> a4f60cd167400724958634b2888fd8f163cc57d3ac111b4bab365db6b489c348
+~ -[HKSPOverrideOccurrenceGenerationResult isEqual:] : sha256 7bbd71e4b419e56f875ee1d46d5b56c3379ba247470b0c4d5028fedc1d8bb043 -> ba9bbaf3bd83f10d4dde85c7b311b0e807d974b39b8798114fca75068f5e9869
+~ ___50-[HKSPOverrideOccurrenceGenerationResult isEqual:]_block_invoke : sha256 23f6d2036ef71355c280a190f296412b3fb0f332505c163cd5447a9e8ea698bb -> 68262682c6ef304583449da653e35593302a894ac7214b9ee39829b5e9361151
+~ __50-[HKSPOverrideOccurrenceGenerationResult isEqual:]_block_invoke.363 -> __50-[HKSPOverrideOccurrenceGenerationResult isEqual:]_block_invoke.369 : sha256 6c6b945e7c531700e0bebf21ac9b1456fa4e616e54455ac97072fdb42bda9189 -> 543d8d182ea7ae596ce9827667d2449af37fe2eadd940a5f3d17cc51097c8a0c
+~ __50-[HKSPOverrideOccurrenceGenerationResult isEqual:]_block_invoke.367 -> __50-[HKSPOverrideOccurrenceGenerationResult isEqual:]_block_invoke.373 : sha256 6c5eaa7403d1f15641c06352945f037e3f34de3e46dfd25f5db93ccba2207b45 -> 41afdd58f16899866a0fb4ef2e4a4767e119bc22ffe88a71a43bac760eeaeb84
+~ -[HKSPOverrideOccurrenceGenerationResult hash] : sha256 8f896ec6490a22a5a998598bf6d8255d0d89837dfaeec5db3521cc585359b72a -> 375cbf526c70a5b80ae9240c8bdf3dd97cc2eb444e9d783a47375609c9f696e4
+~ -[HKSPOverrideOccurrenceGenerationResult description] : sha256 f12810e7ffaad6e11d85f6f2891f1fcbd8ac957734805ec31d9b3602feb26af3 -> f854e3a6fb501c65fbef970d9336c0b04966fbc9df8561fa4c5e66742ea56bac
+~ -[HKSPOverrideOccurrenceGenerationResult descriptionWithMultilinePrefix:] : sha256 461ffe6aaa9e0be0f8a599538a1e168b130be863f70ae292724aa3244c34071d -> b4148a1bead999d18b3329cf381d1da647681ec560c61f89a9159a4b2d132f1d
+~ -[HKSPOverrideOccurrenceGenerationResult descriptionBuilderWithMultilinePrefix:] : sha256 a815b3b4f7d963d2834a4b7e9229ac027b74bd5e30548337c710ae5006ca9f4b -> f213cd958ab5b65fa8e63f1aebc5207e6c7e918d7c69a0a0d0fe91631ddfcebb
+~ -[HKSPOverrideOccurrenceGenerationResult succinctDescription] : sha256 da8e49c1769e47777a1dfa6190113eeab06c6cef322c07e6c15a7388b1e14650 -> 23abe9c428acc0da50b77f08d2fcedab0ffb270bd4e71461e19754c7d6e3d674
+~ -[HKSPOverrideOccurrenceGenerationResult succinctDescriptionBuilder] : sha256 ad1d223bb286df65d69b4be42c64ebb5ec7837119bf367e1440b0ab3faa6dfa8 -> 9fa588b4660c1b145549bda69ab02f6f66752c4c34295ae4ba0b4ef207ceb185
+~ -[HKSPOverrideOccurrenceGenerationResult .cxx_destruct] : sha256 d5d31f94fce143bd40250bbc4cf41ca52c0a224c383e881fee2b7b1b8d3ab026 -> 6a7a52456aafd6250fcb6aedaceba375c313eb035209db7caa7a076514529c3f
+~ +[HKSPSleepScheduleModel sleepScheduleModelWithSleepSchedule:sleepSettings:sleepEventRecord:] : sha256 9b948bc56dc45dcaa4e66926ebaec6d871ac7598288d7e4fd5038c24e62cd2f0 -> 7c72b5bb329a8103947b90b744d1ff2ccd2a552b99a892c6bfc00333eac39dbe
+~ -[HKSPSleepScheduleModel copyWithZone:] : sha256 c81b96b0d6928f551b99f28a3aaaf0ce0c126bcf208f174656da5582c8ab0b66 -> b86b86934ff1eeb363011d8b438385909b76eb13dde03006175744ec4f026e10
+~ -[HKSPSleepScheduleModel lastModifiedDate] : sha256 8b33ddd4939b95105211614b9d60c8e1adcc329810356e87d9d06d7b9a67040a -> bf42bb2b5a394eeb10e4b0dad7bdc13ccde790b88300f0b3e755fb5ec11ee2b0
+~ -[HKSPSleepScheduleModel isEquivalentTo:] : sha256 4318c65087bf9a0800b7c767509848e2acb6bbc8dbd6a2ccdbf70ce43cc8e5b3 -> 087944efc036f9c07b3bdfc233b64683076d488d20d8b5fd85e874bece1a1a91
+~ -[HKSPSleepScheduleModel isEqual:] : sha256 95362de897488c8344e2469de6866a9730a914c5210da61c706341aaf01540d2 -> ffcd767bb63134e3d52bec937d60f167990e5ffb8272b7ad32c5af5b059ea226
+~ ___34-[HKSPSleepScheduleModel isEqual:]_block_invoke : sha256 f2a3d35e36ed640fe0da2dcdaa9a043e70298c3221850deb78817b16fea32781 -> 021e92f99b4e2c751f26043e89684428ef335dbde8e124b58c36e4614b715270
+~ __34-[HKSPSleepScheduleModel isEqual:]_block_invoke.363 -> __34-[HKSPSleepScheduleModel isEqual:]_block_invoke.369 : sha256 7752a4565fcf774b5a300b0ac21fa8fdddcd0bc819aef40e630b1d23b3429949 -> 40687de449359cbf5cc47aec085cd5adbb4988508d4221634550a9d7b6b71e9b
+~ __34-[HKSPSleepScheduleModel isEqual:]_block_invoke.367 -> __34-[HKSPSleepScheduleModel isEqual:]_block_invoke.373 : sha256 b03dedbb4a66d4f1d5ae3c399b07b0fe5e8ec29ac1fbb090cea416205f645e4a -> 48154b8552569e1c7c49de2df7fae27edcd52f7f33666e20de82c6ff80669845
+~ -[HKSPSleepScheduleModel nextEventWithIdentifier:dueAfterDate:] : sha256 7fe8c8d6dc4806816227df83c68b6028b72ba69474945d7b2093f0a18728fbdf -> 42de4af3ef889295eef8486a700c55ec0f45792db94e2340031bd9b459bbb825
+~ ___63-[HKSPSleepScheduleModel nextEventWithIdentifier:dueAfterDate:]_block_invoke : sha256 61468845fe170ff0421d47b42d2458c017e18f1b44b531b0d283311663673a9f -> 35ea7e494a7740715f3b19e41c4397ab6d4a0736343ae224afd4d569f4ee672d
+~ -[HKSPSleepScheduleModel previousEventWithIdentifier:dueBeforeDate:] : sha256 83e0d54348698866727576dd4425164f0773a03e39ded53e8d1cafd4e79f579d -> c96ad929d4809727ee6373c146947532de01174f8ec6bf07bd7781ab1fcb0b71
+~ ___68-[HKSPSleepScheduleModel previousEventWithIdentifier:dueBeforeDate:]_block_invoke : sha256 3014a23e120f04e747098e41ab29caaf27aee22d3ecdc8fb1aa7cf0dc541fb16 -> f8217026d5bb5a93cccd66441ed90829ae8eadd905b94942dd9a897bbfc842dc
+~ -[HKSPSleepScheduleModel closestEventWithIdentifier:dueAroundDate:] : sha256 4ebff33ebf58ef6fb30a2cd350c6f34b9cd71279c012a769dda6e581bdce4e90 -> 23e20cc84a516794be21deccd44ae1a3891527b07cd2e143e258eb0f4861f5da
+~ -[HKSPSleepScheduleModel nextEventDueAfterDate:] : sha256 f60a7855956bf57fcc6c7cbdc16f2bac4d4986a84bef93ee55d3ebc275f3936f -> b6383ca9ac9d94b1641a89e033a4c59a439aeb019e468ae52a65d1eaa52354c9
+~ -[HKSPSleepScheduleModel upcomingEventsDueAfterDate:] : sha256 67c64ad6436875a66f9aa5938393d1560c1050828b398c1404b3e1b704584774 -> 030a9aaa57f973ad5e81dc8686ab774e44bfb236c95ac1001908b919ef4da65b
+~ -[HKSPSleepScheduleModel previousEventsDueBeforeDate:] : sha256 d621cdb89d07e6757c4cddba32714593a959c3d5fe3530d1b0e825b22eeadaf7 -> 56fd8555f463e36feb59f99dd9fc04b9df8c9400d848f01f4f269e3bbe97a5e9
+~ -[HKSPSleepScheduleModel _upcomingEventsDueAfterDate:searchBackwards:] : sha256 eda72813c7c481e262663986509e857abdab6c9d7c8dfe3394e56824692c9e63 -> 0f50c85103128f8a4d43061e0d83338c9ab67e3c4991d54265aa9664115c3e2e
+~ ___70-[HKSPSleepScheduleModel _upcomingEventsDueAfterDate:searchBackwards:]_block_invoke : sha256 adf1175fd311782d055af2cc74cf92a568b24f93d47f4fecec0d8e8273392839 -> ac0024137a62459a75c8b882c14508f6376d0c14a2b9d8d01de56b2ffeb08fbd
+~ -[HKSPSleepScheduleModel upcomingOccurrenceAfterDate:] : sha256 7b377384dc832c1cd38f5faa8c442a483e0568d6a9551642fbe484ffd7b826d1 -> 8b44c27fec3411e2349c2ebf04c7e7358032400940ef2cb23934e4f565bff9b0
+~ +[HKSPSleepScheduleModel _computeUpcomingDateIntervalForDate:] : sha256 db1478f5d207ca9fb0e57cb24ba822376f853a0a17f1e18c5a6997facdd330ad -> f109fd8f8748d3428dd860ebec28a9188ff5c76989c2844c834698c3ecdc790c
+~ -[HKSPSleepScheduleModel upcomingResolvedOccurrenceAfterDate:] : sha256 fb37d6172984dfef1b0348434c50f8816893ab1183568266f1d2175a0daf8626 -> 1d38e033b9f28762e31e9783c797a3b973591e0d67bd88ec4f513720da54e29c
+~ -[HKSPSleepScheduleModel nextOccurrenceAfterDate:] : sha256 824053b434d6293a5a4545a66a5a50f82c0513e2839c13a93cba8c5233990deb -> a661d3a4e8c2b28f56cabf877263ff3baf718670fdcdadfbd3cc1afa28331bb7
+~ -[HKSPSleepScheduleModel nextOccurrenceInInterval:] : sha256 b88466b8541cf1041bdca61b688551ef2b39de45e075e0b6675c61c674fa26ba -> cc30dd82a67bfa05f1e99f374fec7bb654434174d151e679369fd26035b2b60e
+~ -[HKSPSleepScheduleModel nextResolvedOccurrenceAfterDate:] : sha256 bd318451a39a70af3dc9f264f02bd2a82d5ff43ec0f05aaf4470fb10e8ed1cd7 -> ce15e3268a80a0b20905d5ee9957a6649ad9fb636e27ab7418729c04458f12d2
+~ -[HKSPSleepScheduleModel nextResolvedOccurrenceInInterval:] : sha256 f896dd9ea8d4d5c9ae71d3f116c169123000fa9e9b8b5be95fe918726e43ddf9 -> 8e36a2e18c146d5f72aaf6ca206fa80429b2c729fc2beaec3bed242aa848b257
+~ -[HKSPSleepScheduleModel previousOccurrenceBeforeDate:] : sha256 e8f2799d021bca2c8d53be6860afdde2a2a4363da14160c669cbecd182d1b13d -> cb89d0f046bcea1ff959a011ea3aa22061207c3f67bdec53a1b23f837d971c99
+~ -[HKSPSleepScheduleModel previousResolvedOccurrenceBeforeDate:] : sha256 6e8c4a1d697dc9c540fa05065f73c748410340e39da07d8b8669577ace5a008a -> 041cf53c1a779094ca077fd833a03c5c6e4c820c74419ee8732809c354dab384
+~ -[HKSPSleepScheduleModel timelineForDate:] : sha256 0e88195a1b7f612d03e5632f92e3869081ba17d9fdec6650de1723342543c363 -> b21ac79ee987e9f10a8e4efe3b77f9b3d5cf3a007832fc36609b2f08b32d95f6
+~ -[HKSPSleepScheduleModel _timelineResultsDueAfterDate:] : sha256 40bd1bb9253a00e978b1ee5f92d51fb0bb6192121427438eac65ee2f8ca56477 -> 7b72484831e1d80f053b2e227ff37930348c168c2c6777eb948dd39eaebde4de
+~ -[HKSPSleepScheduleModel _upcomingResolvedOccurrencesDueAfterDate:searchBackwards:] : sha256 b2cde3db08d5ede724a555b24ee2eda87e2a4b15f0f3301048818b2a9147dcf2 -> 1a131ab210a13aa9884ca51ba6faccbb0d494e7a65968ce0df97d1c7c102d20b
+~ -[HKSPSleepScheduleModel alarmStatusForOccurrence:] : sha256 0b4275031068f86f741792a75044e4ff8485582989a8d1d1609e545a281f3eca -> 7dacee89cbfebb5546649eaee9d607c3d7c144157c5ec73428856fcac1fceff6
+~ +[HKSPSleepScheduleModel templateModelForSchedule:] : sha256 81a106efaf7a29448f33a665624f3bbaba908fca954eb71cf87ddc00df0e2c6d -> 2077a420e5259e6c09446a010ba7cee4c2c75ccb491e5988b5619d4261aa6a7c
+~ -[HKSPSleepScheduleModel modelByApplyingChangesFromOccurrence:] : sha256 1ab058f2e299104a6352440c5bfac1dcb9cd792023e654c7a9377782c6ac7eca -> db18f06b7bbd87f97b056372cccafed01df4c20217413a6bc9808b6dca6ad5ef
+~ -[HKSPSleepScheduleModel description] : sha256 7d8d09a4e4bd889eccd00381771a32d750176b392c59bd0241a9d05e9fc97c44 -> 0af8fbfcb746196e847af072ba77352c9cb4bb56de9606888355f3a8fec4fdb1
+~ -[HKSPSleepScheduleModel hash] : sha256 6475078b1e49c4296f91d75f85797335582689b2f336a8287f347ee3283d4ca5 -> 7188336e4246bf6ede4914af9658a05114b23ad8799496041cfa81e5a2ffbe2e
+~ -[HKSPSleepScheduleModel initWithCoder:] : sha256 a60e5bc4b47a65498d612d7f203d6af8bcd6830034d9ec43cc63dfe2c920eaa4 -> b9cd7e8364de9297980604312afa8e2c728661bc5c3ba66e2381b6ce5fd29056
+~ -[HKSPSleepScheduleModel encodeWithCoder:] : sha256 98f29d345c2efda64363912146342ebcdc5548bc349bffad8976513f65672501 -> e9dcf93682b53c053778c4d7fe9c1a3b292fe8f8c17892ab5aba1c4a967844fd
+~ -[HKSPSleepScheduleModel succinctDescription] : sha256 d5462070818563520ba4fada6c87b0c655ff97277b51c014f6c954c619fe9f35 -> 41ad7afb8bce8396497575b1613e4f4bd465bec152490deeb73da131a088d34c
+~ -[HKSPSleepScheduleModel succinctDescriptionBuilder] : sha256 2b4bfe5f28062c38c77be9df8a4bcb6218a15f210416fbadd97b061cd481cb6b -> 0480c1b5c1b0f8f23c59e6667508f6b6851d71a1ff0b499b29db487217bbca51
+~ -[HKSPSleepScheduleModel descriptionWithMultilinePrefix:] : sha256 3a63a44dabce209847ca0aa34a49377c5fd603cc7820ad679798426c7ef50d5e -> b18a06c4b49242ceb67160f693a4b15522aefea6c554d4cc1a44f73dd133baa9
+~ -[HKSPSleepScheduleModel descriptionBuilderWithMultilinePrefix:] : sha256 863741c45615834df7bd0c66f7ef4a63aee3efb7b281e035997b93cebd54ff1e -> 888f04e8a865825fffe328018519d937bf88a9f29f8bf0f74a006358849866d1
+~ ___64-[HKSPSleepScheduleModel descriptionBuilderWithMultilinePrefix:]_block_invoke : sha256 4ce714a38ff80942355916c9c9df8f925e5483bcaa35968a5bba0f5302ebc8a2 -> 309e3395af01734a4b4f0e72530b66c5ad991fc5352265cec358ea96b1ed1a6c
+~ -[HKSPSleepScheduleModel .cxx_destruct] : sha256 828ad95fd0c4482cd24ac39f339682d7f088554b8df8f9d308f9cbd4fe6938a5 -> 20308facb2c4b21def139635a828d93ddcf62b05622e36e04d7f9cc8fc834503
+~ -[HKSPSleepScheduleModel(EventRecord) computeConfirmedWakeUpUntilDateForEarlyWakeUpDate:] : sha256 7f5ad64f793395a002f832d91faf15c0ed96bf25bcfba39e09c8fbf5c08043c1 -> 5799de3b2772887315659ef3962feab80ff17017d8d8500d3e2122ea6df3e3b9
+~ -[HKSPSleepScheduleModel(EventRecord) computeConfirmedWakeUpUntilDateForOverrideWakeUpDate:] : sha256 a884687c69664776206c6c75dcb18c970f80d808384403f93a6063557ad6613c -> c72a1eeccfae6b6a287a60847b7c1edb97a934b93f4cb981191a1af9551206f1
+~ -[HKSPSleepScheduleModel(EventRecord) computeTemplateGenerationDateForCurrentDate:] : sha256 e9637a37f5535d6163aa6a54cea9b9ae5039f0a713f69268d4c4295466970bde -> 843b64fe557dc69fe1d414778090bd325e3b4887ef9532f326ad7b0104a37931
+~ -[HKSPSleepScheduleModel(EventRecord) _computeOriginalWakeUpForOverrideDateHelper:] : sha256 d3c7a5588f23d477cc82761f995ac16593f940feaecb987a8316d6a8d0d432db -> cc4a672c37ed1ec8af312bcb072e0706020570d3e1e4db0adae4d3dbac9a4005
+~ -[HKSPSleepScheduleModel(Notifications) goodMorningAlertNotificationEnabled] : sha256 5251decc4a73bf10bde5eeae2ab37e1c3a83acb0e2ca024dd3c2bb50b6419c8d -> 6c211e675105e98d5cbb184ad5e9c2fc29e8d87d32132c6c0f1c07546759e4ba
+~ -[HKSPSleepScheduleModel(Notifications) goodMorningAlertNotificationsEnabledWithLogObject:] : sha256 4d54d203bdbedef5ddeceaaa0dbc08ec43480add28d3e4d5289355c753d0645f -> 29adc860cd7465fbc34b13b88a74de368046173a79d10be5f5c781bcf6203d46
+~ -[HKSPSleepScheduleModel(Notifications) goodMorningScreenEnabled] : sha256 883987ce3d316fc3f7e98771033b9ca564a13ee13e1e2a10498dac11c1ebb962 -> 89ced4a1676188ab8f955d4276434a0171c8f1b1302a7f1f0f3512e1b7beaeb1
+~ -[HKSPSleepScheduleModel(Notifications) goodMorningScreenEnabledWithLogObject:] : sha256 cfaf23e7473f6515b1b41cc89375f63ad651498fbbfa57ed3d8bee0d03a08026 -> 53ef4a79a2235fe8f6cef78df8cb58922a3388d14b045bb1f1f9cb705b510c04
+~ -[HKSPSleepScheduleModel(Notifications) chargingRemindersEnabled] : sha256 b814abb87a2922bff6fddb8589eed581f3f2a35b1e98d52b7b2a0281e1e7707e -> 2cf46cbb36078d25fd9b87867df23eba776a1c46f2997524eff0cf6236105046
+~ -[HKSPSleepScheduleModel(Notifications) chargingRemindersEnabledWithLogObject:] : sha256 b76999a66a71af9c15cfd1a8d29e64508490f23305b13ae9edaf385709742506 -> 553f7c6e7ebb4124fbf6fbf97c1082c1787c9e92f91c099b7f722abfa64425a3
+~ -[HKSPSleepScheduleModel(OverrideGeneration) generateOverrideOccurrenceForCurrentDate:gregorianCalendar:] : sha256 725181987fe6a3144dad76d1e0a7e3f2ce6a9ee61f6cc95e8435728b741be62a -> 21fd8657f1ee23cfcaee6fa27c9fee2fb2b66436565655c9db0608e2cffa9192
+~ -[HKSPSleepScheduleModel(OverrideGeneration) generateOverrideOccurrenceForCurrentDate:gregorianCalendar:schedule:] : sha256 71568dc9a83af9cbff07d31345d327d091cf4c7c76fee52b53ce5fe8ed7cee23 -> ca1bf526ac353644acf39296d3a8cbe99dd47d2693e5e86b33ae9cb91468a0ae
+~ -[HKSPSleepScheduleModel(OverrideGeneration) generateOverrideOccurrenceFromTemplateForCurrentDate:] : sha256 a9980b9ae449ad3e6b70209f82ff380e0b8a363fd9078f814323a480acafeeb1 -> 30eb22c21261aa6494c810d019728da1347d3eb78b54693a06df8858e6ede1e9
+~ -[HKSPSleepScheduleModel(OverrideGeneration) generateOverrideOccurrenceFromTemplateForCurrentDate:gregorianCalendar:] : sha256 16c652b85c81c4688af19a4cfc7d02884889d4d5627fcec414393c06e834dabe -> 273a46c02f0814595d7afe215bca82604606b5ee0aabfbd5b8255a218cda4f28
+~ -[HKSPSleepScheduleModel(OverrideGeneration) generateOverrideOccurrenceFromTemplateForCurrentDate:gregorianCalendar:schedule:] : sha256 e534608f05ba0960401e0794b026c49914811697f352dcf5b2025a106c9c4a26 -> 543496f6e8b1112a4244181bb6839559358225d07397d539a1663d625b5a98f4
+~ -[HKSPSleepScheduleModel(OverrideGeneration) generateOverrideOccurrenceFromTemplateForCurrentDate:gregorianCalendar:mutableOccurrence:] : sha256 be99dc209d0167b6e0794fb4fc8ab5c1af93bd444c8262ced17fca18d1171aa5 -> 7089337b102257485521490a869224f581983d816e068f88db2e9be1096dda0a
+~ _NSStringFromHKSPAlarmSilentModeOptions : sha256 9320c7d677e43fbc134e4625dbd1c2ebebd8607598c0cc0b98e66188a26a39d3 -> 99bcfd59b0f8ecdfec4259f8f1fc1a1384000ddd27cc782f37b2bf3275d6099c
+~ _NSStringFromHKSPAlarmCoordinationPolicy : sha256 2ddc281a11c1071433c9f293bc22be8eff084e4d12079a54b43fd12c7b227f50 -> 85f358bd3371813660914d40c15939a0a510eb62e7b660d0767e1e70e895926a
+~ -[HKSPAlarmConfiguration init] : sha256 05a5d42799be668dfee8b82ea86193636b54ae4efd9a6fabafe6eb6607ce780e -> d70a5908a3b1950488bdea8b534aa5527152073f2b9ee83bda31ca12b7855b02
+~ -[HKSPAlarmConfiguration initFromObject:] : sha256 6df8f057efb107fba119ae452f66d097d00747a290918bffa43050a002f4a505 -> 1a499a41168081314515917d404514192fc0de263fb6a9807b2dac2c662f2249
+~ -[HKSPAlarmConfiguration initWithCoder:] : sha256 3d37f69fd3b5d206d15ac066bf1cc34d839be980a34c44378b7799911751eacb -> ddd7e80f2070181ddcec97590bc123bdbc5e5d0e3003e7f45a561994026d26df
+~ -[HKSPAlarmConfiguration _needsMigrationForCoder:] : sha256 56b2e14623edcd2cfe96a1280d2272ad4a48fae3d931540ce1d85c5c380b0110 -> d28d9b93dd541aadc66c2ab387d43ecbeddd99708d60f15359944af3cfe79e81
+~ -[HKSPAlarmConfiguration _migrateForCoder:] : sha256 36f7e87b631b9e7dd9afdd6cce56d26ed48276d96867e966e2244b31dbbef142 -> dfb62e972ac815b43f0da206dba5a838cfd5951c179096dc706bfc1dd5d2e5ea
+~ -[HKSPAlarmConfiguration encodeWithCoder:] : sha256 c74eb6e593bc4344dbc36bc392cc720d3a17244860fa38a250dd5d62ea71c7b1 -> 2d80dfbb0e9a94d9ff331c0a302229be3ddd9982ed218f43fc9851cc0ebe78e3
+~ -[HKSPAlarmConfiguration copyWithZone:] : sha256 9ccc56d6e1a5bf9d2674a192da0974c26bf712b84d3885b5db6483b2d0bef12b -> 71c33bf3d502cfa5f44642c1d89702ddffad366c008ac72c5c161eb6c3574a6b
+~ -[HKSPAlarmConfiguration mutableCopyWithZone:] : sha256 60690ae0682e6069d7a75f9ddf0f51c15bd40ef0b9032116f32b882f45c3b4aa -> 72a968d4a63726c9269dd6b95ba46fc118861c5b4b8cd5fef8cd6ced50dd4e59
+~ -[HKSPAlarmConfiguration mutableCopy] : sha256 1caf81983107315e8f49c21d44e280e9798539687dce2d6fa07cb8dbf669b0c5 -> 4db68304ac8b26bf12443542eb8e09a957c4ada986a58b7fbfcfc35b290cfb47
+~ -[HKSPAlarmConfiguration isEqual:] : sha256 36fb920cab0ae52809146469decad3f87713e80e796cdaf5b5d490877de499b4 -> 021e42ca19305b4bc7b54a09d1347bde4a211489c05652eef3ed2e6176d72d1b
+~ -[HKSPAlarmConfiguration isEquivalentTo:] : sha256 ec6eb74914255e648b14463f5c565fdf3e55a4d2d0b1079a3b10c237cbb679b5 -> 67130410d2d592b9c64930f9b0eb34c2ad6e925f2deb522aee2fc6605cf9f793
+~ -[HKSPAlarmConfiguration hash] : sha256 f65e643e0caa471aa7243b6dd7ae61b674f2aca3acb768b2e8edb963e8c89a2d -> 59eab7f168852da546698767b6a41cdd97cf7e59354b4b746c9c1592178df7f2
+~ -[HKSPAlarmConfiguration description] : sha256 bd690a007b2227fad7f203ad71e89b6f86a75e9783299cc1edc3de22547ef734 -> ed9d513470b1820189b160b5030ba3ff23ebe8459319c4460db9e7f2ba5a029b
+~ -[HKSPAlarmConfiguration breaksThroughSilentMode] : sha256 d980080ff444f9786551180a72f03a8b83150e7d59e00efba93f057e0e3b5769 -> 9a00d258835e1ee8b46351afd6d68ea6f4f5a47cb37f0dc061ea91ab6152a7a2
+~ -[HKSPAlarmConfiguration succinctDescription] : sha256 7fda70797eb9f822190664a093c66f44cd06b41080bc37a80c68799653b1216f -> 6f6a74bfdc60cd3a4bf8508f52fae07adae0474763d304190dc0937ce374c83d
+~ -[HKSPAlarmConfiguration succinctDescriptionBuilder] : sha256 a77422eaf0f80183a7c776d101b4c6ec60953067e845c50a245de164e7d0c260 -> 7b48c2b26e0fb6746dac150eedd20a35f3f56bc9897ca78052678dc80cb27a9b
+~ -[HKSPAlarmConfiguration descriptionWithMultilinePrefix:] : sha256 f26403dbd04fa9654fda122d000c8d6c50d280839802850ee9b596cc66fe3b4e -> 6e34d9d424bb1a5acc7e0c1100d5aab409a6d78572f044aea6a77117625a6b9c
+~ -[HKSPAlarmConfiguration descriptionBuilderWithMultilinePrefix:] : sha256 88821f1cd4dac93cb54f82a76f5186e7f9585a486f4dceec8b294e882b7712ab -> 1b523acba5843510e145277702b5424bd9ef767cedbe441e2584ec0903c1feaa
+~ -[HKSPAlarmConfiguration .cxx_destruct] : sha256 14cd9354631904fd15a1d0fa967172b5437cfaf907ceba57e462577558f5d497 -> ae8b19c894ca3b14918105ea9c4be1ef98f56854965817ffab504f6893d1ae94
+~ -[HKSPMutableAlarmConfiguration setEnabled:] : sha256 3cb246b54d7c2f847a6d492e5002bc1ed7906aaec60b5ee177a32287f6f9b74f -> bc7e0524d62c75a5072fc27c45257c6c21e300f9945ee426106176d1e55e82e3
+~ -[HKSPMutableAlarmConfiguration isEnabled] : sha256 b989ab8c5d2cc3ef8ae46f6252c79b79db9fa22b0527c21b732ac8c017a5c670 -> 8fc9fc1041f678e5da46cfa9b49e23fb06833e74470e085a15fa8855c61ae448
+~ -[HKSPMutableAlarmConfiguration setAllowsSnooze:] : sha256 c4220b1f2a8f9970f0fa629778c0be39cb9ff94473e2dedec9cc94f27f2f846d -> e8dbe6dc87dea005cabf67cb7c62b6c45745aed8257361e11f793ab826719644
+~ -[HKSPMutableAlarmConfiguration allowsSnooze] : sha256 e8589c428b126f2c091ad7741f579ca07f9b3a1e25365133eda604200acdbfa1 -> 5647f6373e74e53d7747c3b99e37bcc6dde43e5e8a8eb0acee4f89e38d327430
+~ -[HKSPMutableAlarmConfiguration setSnoozeDuration:] : sha256 bce025d01ee3fc1777d0286a6df52f0c43558d86a5d057e01c53701bc65c0c89 -> 90a8c7eee0097a18ce190f24ae60c92cd52c34f24dd572d763cd90e5ff3c9386
+~ -[HKSPMutableAlarmConfiguration snoozeDuration] : sha256 4f50e752b5c26c25df7d45195056e0c5d054dd6ee593105f31e97ddc2e131779 -> 463560e4823c36bcd809452d2f1cae456ff79674f85bb6b864fb86e9aa3dba10
+~ -[HKSPMutableAlarmConfiguration setBreaksThroughSilentModeOptions:] : sha256 a15d89ff4769303a9788db31a3d70738b8ebe255732ce483cc718d4fc3b302b1 -> a497b9aeeb8b8e0fd8aa3400b2c16218bb865af04385e262eca265d5bc6c4434
+~ -[HKSPMutableAlarmConfiguration breaksThroughSilentModeOptions] : sha256 df4bdde82ad1551baf98d8b497d966deff6262fef942d01399f0369ed5d7515c -> 92ae3659c96076fbe40dd317c02a47608f46a04fe9f40a9f6f343f4676b50fe6
+~ -[HKSPMutableAlarmConfiguration setCoordinationPolicy:] : sha256 fd40fe00b80ddd5550a12936fb590ea230dad8fcca2047e20dccbe115340826c -> a6191b282791c2ed32c99acfc63185d67180c08a34835955eaa9f86e908ee803
+~ -[HKSPMutableAlarmConfiguration coordinationPolicy] : sha256 4bb2806b6085fb3497d8beb026e3333df6586735e3af91bf91f03f0fa42eab1e -> 53ce8b2ba134d7e4a5e1d6b745d80829e622de10d7f109c6a58d486875ae9e99
+~ -[HKSPMutableAlarmConfiguration setToneIdentifier:] : sha256 c977fc510feadc5de2d14086fb73a01bf416730a6a855d7d9fe8c2a390d3010f -> c948741b57150fd568458ea9732988d4e73d67bbcda47e10f12d0bd35fade2c8
+~ -[HKSPMutableAlarmConfiguration toneIdentifier] : sha256 9c4fb658f1343e8e33f1c92dd3c95b941e04d0b820a0d128c474cc511ea2d4dd -> 1e63d2249fa249b80bf6adce050299616bc1aef45802be765c755ff1f22079a8
+~ -[HKSPMutableAlarmConfiguration setVibrationIdentifier:] : sha256 b0cb898bdb1e138e114b7f2faa7de22672f5e430f9ba531409348bea1604eb6f -> 599853ad9d241ece6fa8efcceb1da245b7dc16124b154f2a07bc9b4736370e87
+~ -[HKSPMutableAlarmConfiguration vibrationIdentifier] : sha256 3dbbd742aca3a54b301f643690a3312e75a24a8d8812efbceb22da16ccd0cde0 -> b2e233a347c744c4d04f734aa1c758e9d5f1e072f1fe6cbf89cab6502ef36653
+~ -[HKSPMutableAlarmConfiguration setSoundVolume:] : sha256 8e01cd85bec12a9e54187c35274064c74363ed87fd35dff7604c04b331305423 -> 9a6dc58a904dff12d0504e33460d52ffc0a9a68b64de5a7632b7bdd764b46eef
+~ -[HKSPMutableAlarmConfiguration soundVolume] : sha256 179aa01c218118a3be5d2414cd2d639ff0585eeefa6122eb1139ee4a5ccb1bee -> 3c570b066f578070627f7786cc7297256b1241a95ccf3906d95e07e4e9da478d
+~ -[HKSPMutableAlarmConfiguration init] : sha256 53628dbf05c72abdf4f75c0fef97dea534edb7a910f77c301730894d763f3bae -> 3ff9253937a1d6d94482d93457d537a767f367cca89467581790e625de21fbcd
+~ -[HKSPMutableAlarmConfiguration initFromObject:] : sha256 714e3081a7083e4f47bac05c83c7cd26b6d618da72b576ef6c8393a7fe2df0c3 -> 647890b9d885bf8de05b1d7c0a1dad2cafc22f4131b4e9f1ac7aa0a41017cce1
+~ -[HKSPMutableAlarmConfiguration initWithCoder:] : sha256 383dc9d8f0f452dabcf35df39ed4bac0641f502fc20af8aeb15b2fd83c996287 -> 1100246ac1221528b1d460e7a35b9e9902f6083129f664843db11b26edd6a3c1
+~ -[HKSPMutableAlarmConfiguration encodeWithCoder:] : sha256 f39ec4c6344a48b9b867e3fd160753b4110f48e5444ad5a6455732f87e694c59 -> 516c9a5aab8f69c91aef7733ff90c12b374e5c8cd987e1a59bf51eef96ec7209
+~ -[HKSPMutableAlarmConfiguration initWithTemplateAlarmConfiguration:] : sha256 f259f53dbd3bc3b9887a206352ea44ede9967fbcd0c850bee03f7fc1be189b39 -> bc6a1243822ec5518aa73957364518f455e58c0d90ebf9830bd911721a1f8b16
+~ -[HKSPMutableAlarmConfiguration copyWithZone:] : sha256 f29011675a20a600c005ece8392d105aeb234427716bbeb89ca6b54c47a8f10e -> 945317140e5f8e657a5678496d248eb303ed0cb96bf860856b7ae99c75d45fae
+~ -[HKSPMutableAlarmConfiguration mutableCopy] : sha256 67b7fce719db26e8379d7c98e5bc7e87563e1e9d9b91a78d2b5e3069a31c47f1 -> 21a4baac6d5c2b047d00eaa81067f2a24d61b0db3f51966695447e94d09cd4b0
+~ -[HKSPMutableAlarmConfiguration freeze] : sha256 de8c58b6b267ac7f683db9c0743484c113105f0d10e250b625aec01cb016da18 -> 3bcbf18a80c309a61c8463202509c8165005c8c4ff31d68929645c0787e4a20b
+~ -[HKSPMutableAlarmConfiguration revert] : sha256 b9da8b23370e81eb3ea74cb12f10f0c44886d30355312cfe777d345fe0d29ec7 -> 65147e1df19b6bc1bd3f80208f15e95a8ecf2f2716e20d5fc656dae271a68788
+~ -[HKSPMutableAlarmConfiguration setBreaksThroughSilentMode:] : sha256 3c278d5ff9ffc304e45729426c4e4b5305222a78a206207b91a2bae1820abbfb -> 58405df67cd526a839c2669dde8c7e84bad4a3c6416b496bd1bdfa71f2277a2c
+~ -[HKSPMutableAlarmConfiguration unknownProperties] : sha256 83e34a31da31bb1c7b65aa43d5a06655e7bc220469bd5d89b687fcec965ae4aa -> d1c023c7abf139bc62af1cd2c611e50fb446ff5e1a3b98e103839d64d9d0f739
+~ -[HKSPMutableAlarmConfiguration .cxx_destruct] : sha256 3e53587668d4e79686b671604d41f54e4528cd5532e73191113862e72fdc4ea6 -> e5c0b574e7b6b9e140d00b9b863988a1769253b0a46ba8d44fe032b9a575db26
+~ _HKSPAlarmConfigurationProperties : sha256 26b994aa2809b74d78a2a4dfd9419557d213c38733f63544749b283e4a30bfd1 -> 105ee14e45599bfc97783a9fc6f634f57022e59740ee0b8c8a13b2dc929d7938
+~ _HKSPAlarmConfigurationPropertiesForEquivalency : sha256 cb187fcf9305018e6e02de71ccabf77400c77b62fe4d27cd3c8cf49df157c46a -> c9892a4674903ed662069dcdea137699920a9f793ee0882ca49f8f261696dcfd
+~ ___HKSPAlarmConfigurationPropertiesForEquivalency_block_invoke : sha256 fd7dc832acfa7555d205bc07244bd7e37de79817615288d0a0844cb17749e47d -> a79e09adc408310920ac0080febd252b0f80c7de8e9e29de977231883ce019a6
+~ _HKSPAlarmConfigurationPropertiesForSignificance : sha256 d776ed1f7f9cae15d25fe3bcf7ef7d2e40fff0c794f4ab2ec6b44e027fa0c2ee -> f4b691396190bd491544198764a8f83e65b1ee99fafcaa928d2d6e03e24275ff
+~ ___HKSPAlarmConfigurationPropertiesForSignificance_block_invoke : sha256 db9fe5ac9023926bfa1ad76e70470df3b713d4338420bb3d013ad49621962e20 -> 9155f0564f0261c12b17c647e9c706e2db99b871a685bb09c4f1368b99e73dbb
+~ -[HKSPSleepScheduleDayOccurrence init] : sha256 fd0a66ece9c599603a3888375c5e965ed895fd017620afd509a7cc962686276a -> 051224578b65c2c386fe3b97118b01d0ba8483184d9f22bcb5bbc1f47da01283
+~ -[HKSPSleepScheduleDayOccurrence bedtimeComponents] : sha256 3b3a56fe9376e9b2cda6ce1cec18881a24f9057879c9ff468f9ab54924c6af77 -> 06eb21dff0d061528a4f3ea2e9ce1c3088c37bfde184d3ab468f034eb2ee01e6
+~ -[HKSPSleepScheduleDayOccurrence wakeUpComponents] : sha256 54f0c9944c01fd06de2da258c9a64a7b3f67e5c93834d282bef3c232c3edd88e -> 7d93da8f93c23e9aa3ba9ce2ce20805d5de0f9e19d2d93b020111620308c2a2f
+~ -[HKSPSleepScheduleDayOccurrence initFromObject:] : sha256 9f05cdd756a258f19d1512c6892957afb6dee075aad46a32177ed6afb0e9be4f -> cffb0798dd43b2749f3806732b29509c511b48524d037ea60a568d12f2b4e329
+~ -[HKSPSleepScheduleDayOccurrence initWithCoder:] : sha256 94d33d970dc3dae653d633845c7b72afb9ad700922845670bab6dba47320a894 -> 9b15f9b655de4fa8a5e427faec367f86ab74245a841150feafede2cac324b69a
+~ -[HKSPSleepScheduleDayOccurrence _decodeComponentsForPersistenceWithCoder:key:] : sha256 44a1b6799f40ddea85445e08789a98c6e762743a293aea7bb2282f317c68db95 -> 7187c7956dd9a932446f39ce58fc428d99703c389483a3edaf8b2255f8499f44
+~ -[HKSPSleepScheduleDayOccurrence encodeWithCoder:] : sha256 45ac337775df77a3e95418503cd2c151bcb44e5bf823043e7ac972946434d729 -> da58293f3a2e355a6d10260adce210186211d445f4532fe266499400ff837f66
+~ -[HKSPSleepScheduleDayOccurrence _encodeComponentsForPersistence:coder:key:] : sha256 6de445a5463ccf3d329037d2afac6c3a03ecabd9729caea75532b3356444349b -> 77b51a2b6ac5c91991f0b2ee7d73e75454eb424b80b03fe9574b517de2d17e8c
+~ +[HKSPSleepScheduleDayOccurrence innerClasses] : sha256 b077bd5da3984d51a9d57e1d1f6ce7ee53135ab5977167a66199227769b79920 -> 1c1406c54976f70d3689ec1af46c2424923fbd980e621cb2b9640d9368e08030
+~ -[HKSPSleepScheduleDayOccurrence copyWithZone:] : sha256 31e07c2b4654f1d1b7d209aabc4297f2a48062a95126dbcfbddeb936eff4bf02 -> 75ff11d24fd0ab15a447b2d50c6eebf3fc94e2b9feb59dddd17094340e724dcf
+~ -[HKSPSleepScheduleDayOccurrence mutableCopyWithZone:] : sha256 399196cf8d78e16df34713cacff2da39541ee3cffcccf5b933b76b04a00e5179 -> d23701e5e76e6e95ed22aafe7cadc98da1c9106e41a923ccceca73c60d1d8b41
+~ -[HKSPSleepScheduleDayOccurrence mutableCopy] : sha256 3ac746d77e7f69c260d1e50cbda8dc9dbb8f7c41094320806d9a929b50f8c9da -> 1bd818bf3a49a94a5cba3368880842c278e49572fe9a64d178141f42a573f081
+~ -[HKSPSleepScheduleDayOccurrence generateSleepScheduleOccurrenceWithWeekdays:] : sha256 b1de9b0dcc238e4287719c2743d8322750839dfe683141fbb439f15e7ec48e72 -> b52e0529dfdd887ec831cf2747f0a943a053c1ef85dc4aa3e08bfdb99f60912b
+~ -[HKSPSleepScheduleDayOccurrence isEqual:] : sha256 f673f968a7676c8e2f69b7bda29530d4a36aec39541c0817f612b7d8167699c9 -> 6354a552d4f8ad8fe8052ac3cc0aad4cb5114144213efd1ce7491de9940fc052
+~ -[HKSPSleepScheduleDayOccurrence isEquivalentTo:] : sha256 f0fad93017b6fac1c78863e665f6f5b39730f4200114322fd0a45b05fc84b2f4 -> 86428dfdb42fa46f547875eaa55e869a72a146a1f01155265c7f270fb24ed9f2
+~ -[HKSPSleepScheduleDayOccurrence isEquivalentToOccurrenceIgnoringDates:] : sha256 95e9e31280cbc4ebb151baba423fda4359bc6b6e23e1b21cb745155a6bfa3a9b -> bd6dc1f2f2e6a052213edb6ba0f12e18e84e646eaf7b0c68aaf1b1bf2902fa9d
+~ ___72-[HKSPSleepScheduleDayOccurrence isEquivalentToOccurrenceIgnoringDates:]_block_invoke : sha256 db37d4ad1a2885f0403b001e83d58e52fe07c9fc38f3afe0dba6a25a62a83b37 -> cadd3220bd22776cea19781efcb50359db6d39a1996d63bad38ff28c6eb80223
+~ -[HKSPSleepScheduleDayOccurrence isAlarmEquivalentToOccurrenceIgnoringDates:] : sha256 7bd790a0c9d2c917b5b42f3ad3a83dec95537eb347685894ec94e60cabbd197c -> af1cd95de6b7b01aaed59ba936c7685ebfef308373ae461007bdeaad4e5e15ab
+~ ___77-[HKSPSleepScheduleDayOccurrence isAlarmEquivalentToOccurrenceIgnoringDates:]_block_invoke : sha256 529daf309951cd959feaa77a77984c55a609bab5ad87bf27688e10fcecd72b58 -> 122dd6493de2202bd3a89869a26f4f74cd9ca20e6dae9b7fe767e6015636e284
+~ -[HKSPSleepScheduleDayOccurrence hash] : sha256 978969d74e044745ccc84e5e3e44c0539a2d17d8e8f706f204469e2ea447ae63 -> f6ff67988a3df990e02849a97eef481567beadd4dff260d9798112381a845145
+~ -[HKSPSleepScheduleDayOccurrence groupingIdentifier] : sha256 adee4b29b2fae5ae192ac32234e3664e28e01ccf867a543ed5f439114f06c301 -> 448384442f583fb605cbecc40ade48eea826f49a4947b9e11c15cd8da747b9ce
+~ -[HKSPSleepScheduleDayOccurrence description] : sha256 df602099add3bd3a9594940dfac6346a47c983e3e0a9f088cb53d331432be58f -> 2888af8639252e767192f909a3cb36419fd51301d0b577b26688675fc016f756
+~ -[HKSPSleepScheduleDayOccurrence succinctDescription] : sha256 d53155a870023b663583fad2dd74dffa45e2d35be59681efa0b2ccd645b0aa2b -> 217d291f7298057e33287dd78a66498d87b37a966b9b29d4d0c126f4da440037
+~ -[HKSPSleepScheduleDayOccurrence succinctDescriptionBuilder] : sha256 ba0a450072dd41c091aa6f7f2c7bc18e6214ce1fd7fcc090b6466720964959bd -> 507dd35fd778c6c80366cbcc669df76f6538e20d41d1cd979a5a8812afcbc5a9
+~ -[HKSPSleepScheduleDayOccurrence descriptionWithMultilinePrefix:] : sha256 ffe85ed5f25d03f5f2b15f2f97c7ebe0a2b2b323d5d70e80e3620311274fbbef -> 1f412d3949da407bbdcdc3c46643896c2a1f7aa50a7bbfb67095ad8f940d9b42
+~ -[HKSPSleepScheduleDayOccurrence descriptionBuilderWithMultilinePrefix:] : sha256 1307a1c331be448d929b8827590e67834f61957d58f89631abe58811adee5fdf -> 2cc442b4bf4af2894fd0bb75a042d84356e04735d636eabc213fe49412daec3e
+~ -[HKSPSleepScheduleDayOccurrence .cxx_destruct] : sha256 e209c85d55097cc3bf8cc7935cf05b1142fc13f19624641def8a3e377effca91 -> 60df152ea59b04cc4a1ab394f15377b3b7f0cbe2103e7b0f249c16af8bde547f
+~ -[HKSPMutableSleepScheduleDayOccurrence setBedtimeComponents:] : sha256 60874bd2df53defda4d58d2ffb8ecb4b3f96cda85de3ec12c9ae4b8a4dd428aa -> fba513e2ff3c24805a4c356ed8dda1402ff64ff49a8917fc3e2501d25949a990
+~ -[HKSPMutableSleepScheduleDayOccurrence bedtimeComponents] : sha256 ab393911f89ad17c32524722efdece376bfa04e99fce415e11f527eeee57a000 -> 8d96671b56e71c99430c59b73eb95466bc1dd79aa6e54912c9cccbfb4d6a097c
+~ -[HKSPMutableSleepScheduleDayOccurrence setWakeUpComponents:] : sha256 184e0ec822558c9045a1591ff1365c93b35bff55cb15328ba345f7bae4b3fc6d -> ea14e039881c3c6536d01201e5f3ccf56f81871a746c35d155cb83ffa697d5ed
+~ -[HKSPMutableSleepScheduleDayOccurrence wakeUpComponents] : sha256 886c6bd716f75bb63918401bc662454fd427af20f6fc095a7071ce7edcc3c029 -> 3e90b01e8ffa3324e5b3473b3088a4a3ffc8ad82d38e8d6854aef4bc898c3b5d
+~ -[HKSPMutableSleepScheduleDayOccurrence setAlarmConfiguration:] : sha256 fe0b8b8e0e097500f3f1b064cd82006d489f8a7c327164da3916f84498c3887d -> 6e3d502222160081abef73d2bca805ff248233ed3689a75b3c42b83be815f0de
+~ -[HKSPMutableSleepScheduleDayOccurrence alarmConfiguration] : sha256 13788cdb2aeace4a400f30e31fb8b08e51d155388d988ce712500eda8bf82c52 -> 47c810c8dc9f80a3ad533fe40ca90379590703cd0874ad63fcd0ee9106679a19
+~ -[HKSPMutableSleepScheduleDayOccurrence init] : sha256 bd43ebb3f7f10eb8bc983c81ebd6714c95344dd0ddd93910af13ea2e2b4a84db -> fb59b9828ad8953ac6bf2662247ccb878d856099aa3efea985c15bcf48b1e33e
+~ -[HKSPMutableSleepScheduleDayOccurrence initFromObject:] : sha256 664a9a6d0da60b40460af32dcc52b1483afc07ca20271283cc04589d8f0b655a -> ddafed7cfd7869cffb71a981425352c2b3e8a7c2d33b9198dd103623454fdf36
+~ -[HKSPMutableSleepScheduleDayOccurrence initWithCoder:] : sha256 0795224771d6de71b33ee3e753c52f4c9cdc865c2c518ec02e191a4138b4f727 -> 90632f2cba38891593180fc1dd738659d53666cd2ee43e008b2a6155df7c3a45
+~ -[HKSPMutableSleepScheduleDayOccurrence encodeWithCoder:] : sha256 b6ff41de082657200b3ed0c3e4a7b413691857107831ce25c9568c6f651a9877 -> 201ba893b7d6c7712dd75556ba572275296c2138d7494f23026dadb977efd223
+~ -[HKSPMutableSleepScheduleDayOccurrence copyWithZone:] : sha256 3927617cb0d14e1ebe4d93e881b838eb6c10bd18cc29489aeee07c34d4d358f3 -> 44ef2a8c64f94df8be637a31d7bbb70e5f5e6b92171b31b25920dbc4f3f8677b
+~ -[HKSPMutableSleepScheduleDayOccurrence mutableCopy] : sha256 661de3607a2ec2cfc5980556fac53078cc3285dc6d4f496a188ea6c54d1933eb -> 36823fdb0b6ef810dca3a5690f63a3190c93b17815ac78dea65af558fafd96bb
+~ -[HKSPMutableSleepScheduleDayOccurrence freeze] : sha256 dacacccaa7e28678bb0ff5c148b3bc1670d9d587d9d25974edf9505b46aa3b51 -> fe8e1bcb42f5aa2b725ddf893711cffac97f433d19d5e78cbfa025f4c36713e8
+~ -[HKSPMutableSleepScheduleDayOccurrence revert] : sha256 27576afcf33a405c37178cbf828a36d32fbb585b2fb787670598a6ff6a7d3e3c -> f99d2925b3726c8acf5b96de024b36e829e6bcc436a616e0915c89213cd872f8
+~ -[HKSPMutableSleepScheduleDayOccurrence generateSleepScheduleOccurrenceWithWeekdays:] : sha256 83393b03e98480a079a7e6c9f2a2513d1cbe3b1719eb973b07f6cbf4b8746479 -> b78afc420e549ac92491fb7f86cb4a7165f616c13a3fa2ed3aabbc8d86e3ca08
+~ -[HKSPMutableSleepScheduleDayOccurrence hasChangeAffectingScheduling] : sha256 c98783dc43aa11f092e7336da59cdecd75594faca22bce1699a6afcb69a7dc1a -> 6ed440f1939afda8752c14facbff3a9bf10b53040b68b98177da3a61d3a338af
+~ -[HKSPMutableSleepScheduleDayOccurrence unknownProperties] : sha256 c016db61342d7eef43fa9dcee2960b7cc6419239db00372111f54d28104cc608 -> 81eea273038c01a7666106fa77b141d986e7ba78d4cfc457355d933adc90ec19
+~ -[HKSPMutableSleepScheduleDayOccurrence .cxx_destruct] : sha256 2d63bd7351d10df00ea5eb88c3a07ad886f9e3e2c27dd098d2ecd46cba3174ed -> 727b913a7ca57b5e741e315fa13bca108cbc21278c44b335137f77d21c8eea2c
+~ _HKSPSleepScheduleDayOccurrenceProperties : sha256 6bcfbea95efdb08addbb6e952a0e22b165c8b24def402194576a34683dcff129 -> a42dd76e0d2e7dbe7aeb34239083ce798d2cc83f8cac48d5ca8de1256ef351b9
+~ _HKSPSleepScheduleDayOccurrencePropertiesForEquivalency : sha256 a6210304389e2e7a5fb7ccabc13919898ba32c696cf90c18ae1f76e009056e0a -> dd22eb033da10cdfafa8fe95a2e845866c6312075258426e3c9ee95c6db3a8cd
+~ ___HKSPSleepScheduleDayOccurrencePropertiesForEquivalency_block_invoke : sha256 c8a79601038c802491830b46aa5a57e40b7fb0c04de0da76f7f74dd880a5cfd9 -> 4532f6aab55179cfd6630371d7a57220cb5f11f4d5814f42c1307ba5989e8385
+~ -[HKSPSleepScheduleOccurrence init] : sha256 8b0ea57f81580dd238c9fcd0b7cc91c9220a386ffa5ad03ee0c7d9c804e1b86c -> f3a0bc6b8c5ec414063211e10a6036880252427b1684969b885a59d13ed0a17d
+~ -[HKSPSleepScheduleOccurrence initFromObject:] : sha256 72d74b232a2f2a7f53c72f589b9c7efc10d96a69e731ae2deccfad7698ea8ad2 -> a9b0ff768f03052daa91b082932890fd55ae93311cba330f9cb0c637e168f6dd
+~ -[HKSPSleepScheduleOccurrence initWithCoder:] : sha256 cddc2ba4014f35173d42b32f797e2a5b9e1d3241c5cc1d52faff8cf0935c4e64 -> 4a60afe1dec39a6056d41d71118f811b7a0cfe72d6d370f52d465f444bb6b4bc
+~ -[HKSPSleepScheduleOccurrence encodeWithCoder:] : sha256 640e865b3a06b525935681f4afb5545ad39a0abe00994f702f9b1a12b6881a3c -> c7c452cbe098ad541a3d352ac3e67c5642c343b4f05e1c7358404da139e031fa
+~ -[HKSPSleepScheduleOccurrence copyWithZone:] : sha256 e996771866c96403855e503f28275e4723dfedf456114aad361835dc95794cce -> af1c695e177f277902bb8b4351ce8231585ff0a6d5312ecb84f93ef2284fa14d
+~ -[HKSPSleepScheduleOccurrence mutableCopyWithZone:] : sha256 c994ba91da4ce3574cfe06f0b7e5e99d3ce945153eaca984e9b9d063393683ea -> 4316c755662418ec6eb1bbadf765b9aa9a4dfce5dcf9063ce82a58f98d08c051
+~ -[HKSPSleepScheduleOccurrence mutableCopy] : sha256 d6af229cc3ac9c3047b78e7a58ee4e8a47dca97fef4bf32083bb95e91e244828 -> 5d27f7a91d2ac8d9b13b0308bed1ac66117c16e8dcd15061854ecd2dfb00d3bf
+~ -[HKSPSleepScheduleOccurrence bedtimeComponents] : sha256 24cb403d833d4528d8a934730585760c2dd4efbf78d53e5ab29fd5f648f3ca72 -> 37d80850c171ac88236bece96cc3a605dfcfaa77d66fcd91e0d0bfc0fe9853db
+~ -[HKSPSleepScheduleOccurrence wakeUpComponents] : sha256 cdf7bcdad999a6572c544586775ecc632e813fbaf8bf0cfcb6ebaf939bf10bdc -> 69e0af8b09719214cfc87f66c175342edc363491f51217d25b09abd19287a094
+~ -[HKSPSleepScheduleOccurrence alarmConfiguration] : sha256 eb1c4a2bc05720be2f915fd490f1435aa60ef2603bb6d3f92fb31d1da3b3f936 -> 854598568f159596f2438732c8be088c852a0eb3abd04b37c2f91fc9ab523e7b
+~ -[HKSPSleepScheduleOccurrence isRepeating] : sha256 8ae82c4c012344d71920d43d60d2cdd818f9fb07a53f2a8b5d06cdaaae9c12c4 -> d469b7017efa9d93828a758c57bc0e18b614942c89f283d92ab5f396fec475c9
+~ -[HKSPSleepScheduleOccurrence isSingleDayOverride] : sha256 3a5173f56d5cf7ac506d29cc1cfba233c9056d666ea1f74ea954cf556de4b115 -> 45b8687b522c79e7469e96f17bf27650934f03962413e94f5c894792d7b2250a
+~ -[HKSPSleepScheduleOccurrence usesDefaultBedtimeAndWakeUpComponents] : sha256 f20d1fef0fc94460cb83324ef100a28d56924aebcb5bb5300fe9bb27d3dd93a6 -> 3602ebad2352f130c3d4915d95259e4856927ca3e68ff4011fa78f181debeb27
+~ -[HKSPSleepScheduleOccurrence isInitialized] : sha256 ede6b2a2e91d512a9237c804f385301d4131d6027cf66238d37f4319f2e356c3 -> ad5c75e116005548e1dca80d4811573e20f7583a7a1a4e7fb3bb0fcc33f5f23d
+~ -[HKSPSleepScheduleOccurrence overrideOccurrenceWithWakeUpComponents:bedtimeComponents:] : sha256 e5f3a7fc30feffc15cbbe328bfad3c7903109e668bbc9478b50142fbab7207fa -> 664d2eea734037eb7c58e42327da6f245db1ac2a347371676c1b44aa2437c2f3
+~ -[HKSPSleepScheduleOccurrence overrideOccurrenceTemplateForCurrentDate:gregorianCalendar:] : sha256 6f3080b207909a4d71f974503157b6ea0a4c4bb4c87dbb4b47d4cdac94022a05 -> 01d169b9e1d1bac3033e60b9111d0e9aef7b7aa3870995422381f84ada15d5d5
+~ -[HKSPSleepScheduleOccurrence convertToScheduledOccurrenceOnSameDaysAsOccurrence:] : sha256 f93d90000c4009519eb91988cf987cb3782225abc257ec47d2e7694789341b55 -> 11cbda0d7a1ec9582c768b2a6ef6e45f06fa049f82f6c76bfa84c0a5c64f37eb
+~ -[HKSPSleepScheduleOccurrence changesFromOccurrence:] : sha256 81e898d6a8f2db5c2a7cc6ae6cb2c3d0dc19c86a5a3a4dbf1ee853ea45e3af45 -> a22af0d4ac25c4d0cdb357bed2462cebd2969a77a00c985f13c28257b63b4a13
+~ +[HKSPSleepScheduleOccurrence occurrenceWithWeekdays:backingOccurrence:] : sha256 b4a4f3d4944def2de3081f86604134125c16fb6ae198955ae2011bd016e85384 -> 4901dff423df7f17969aa7247a39f1dd8b362122315210a0d9a80f07de755496
+~ -[HKSPSleepScheduleOccurrence overridesWakeUpForOccurrenceOnDate:gregorianCalendar:] : sha256 b9a1da290c68680dfefe424e33dc2575c34b48201d4d974a5435b3e08bbfeadf -> 9a0af1c19551ca533b6fea88023ef1891d31c99c8625407b9120730d84384653
+~ -[HKSPSleepScheduleOccurrence overrideAppliesToOccurrence:gregorianCalendar:] : sha256 d011ac43030c157dd2af3da619cf019b4e9b131776370f88ebfc2915ac99a501 -> 9a28367849c8154eedb6428dacccf7538ad0bf8be0f535f7bb07f178e1991e22
+~ ___copy_helper_block_e8_32r : sha256 d935b8c8b9cb402fb9aa0177d5cdc8a2bf7291e06bc01befca8254714848ee15 -> a1064683456ac60b925095aa8184c05799912e67ba835baab1526d0921108700
+~ ___destroy_helper_block_e8_32r : sha256 3daf7465aa65fe25edf2a55fd387276b2b2b151998253b852a65cda0c3992de6 -> c12ce99263547f426dac4b999a3d1be08dbec7f6b714b78eae92d2eaeec14362
+~ -[HKSPSleepScheduleOccurrence overrideDayInCalendar:] : sha256 f84d452893e8e332fff90fa0dcc4d17735f70cce768a840dd56be26c39ba3513 -> 696fe329969273a3c541c39ce2c9c2554cafde534ee7094419dd5ed9951aa146
+~ -[HKSPSleepScheduleOccurrence nextDateIntervalWithWakeUpAfterDate:gregorianCalendar:] : sha256 416b06daa6dab470254a2384a7ff305bba5e1e7eec007ac5203e9746b33623de -> 7d38391616d421720d815a4bd8a07f76b2399d95b799172d3a9b1eafb5ba0a72
+~ -[HKSPSleepScheduleOccurrence wakeUpDateForDate:day:searchBackwards:gregorianCalendar:] : sha256 ac29b7aa80373b7e00367bee93926778d89e2d5e61e5bbb4527a1f2ac05fb8fc -> 3f7135810bfd263569fb94c2236407e1ef87e8fd0618cb02478c8033ed3758b5
+~ -[HKSPSleepScheduleOccurrence wakeUpDateForDate:searchBackwards:gregorianCalendar:] : sha256 47392eda14aae608add48a1b08861a543e5fc0b0346d2691e95a64f0b039abde -> 62dd896ffaa582fdeabe50ef54b787f557597544d20251165267d8254cabfeea
+~ ___83-[HKSPSleepScheduleOccurrence wakeUpDateForDate:searchBackwards:gregorianCalendar:]_block_invoke : sha256 f81bdc5e729fc491244b382fc99900549192a532184aca8b8d345650a5cd766a -> b3147cefd7a5614dd86eebd0aaeb36430a9d583add520f6f0ad46300460e4a76
+~ ___copy_helper_block_e8_32s40s48s56r : sha256 ce9e56be95f392048ca1e34b8d2f6f912c6c028be0d99827f044f512cd495999 -> e769bb14f1fe882e64e2e539b9495a07adc502e06d506e71e5b7f2fe5cba8c29
+~ ___destroy_helper_block_e8_32s40s48s56r : sha256 a4a88a72642ddd934eb1fdb4139ed6f75ea177d76a31d06bf1e28675403bff98 -> 6f1127ac9f26c732b04e2a749eb9b15d2b28ceeaade3ea104a0ee8432e1a3c4a
+~ -[HKSPSleepScheduleOccurrence bedtimeDateForWakeUpDate:gregorianCalendar:] : sha256 fd540f887205d8b1fabeaafb5fcb1859fdab0051e2e8c253484c3b311c27d73b -> 2e8bc78636d564c742328342742576b992b33f4538cbe1c3626ba9e790cfbd47
+~ -[HKSPSleepScheduleOccurrence isValidOccurrence] : sha256 75f645800370bec5ab24f9a3f85311588343d22e8b8ad489cf9273d0f62d4fab -> ad8f66fff2c06af185214863d01b58da193dcd4138b5b0a4c89998d4136031c4
+~ -[HKSPSleepScheduleOccurrence crossesDayBoundary] : sha256 a8aa72555f1fd8feb73e03b2acebbda94bfb51ccb58ae0b201eee9c390fe6868 -> 58ff1fbe64e61f991cfe8f5e6ab95ad3a2d555402f5bd53f4507fa74dce78953
+~ -[HKSPSleepScheduleOccurrence isEquivalentToOverrideOccurrence:] : sha256 f851851560e78bff7181e5d7023ee9aa2350b6f376c895b29d92cbf4d9b9ac26 -> ae9f1a42df438a8265014a92a883f10a74baef87789cdfe79f43c91bf3c6afb9
+~ -[HKSPSleepScheduleOccurrence isAlarmEquivalentToOverrideOccurrence:] : sha256 9a340dfe4374df283a393036a8d72100693030f444dea0fe511c02fa739d93af -> fe36ddefb1dc3ee186b83c1f75c9debac7eddade5e15a9ff97bf9ee69a7ae98c
+~ -[HKSPSleepScheduleOccurrence actualSleepInterval] : sha256 5faa9a30ffa8e1dd58692f38acdf3571a6a0d7a4a9ef84cc61994078bb57279e -> da532d24c9bfb9b3e3574df8a4c2b4def1a87d9b6cca526bc028776f5fc10a15
+~ -[HKSPSleepScheduleOccurrence generalSleepInterval] : sha256 2c4e93b829213d28679d3b69465f95a19c80c67a69fa2154364903faf534ef08 -> 53b61657ea6e902504c48900b5c9008a91c636e09acbfc468834e31fb834b2b0
+~ -[HKSPSleepScheduleOccurrence wakeUpComponentsApplyingHourAndMinuteFromBedtimeComponents:wakeUpComponents:gregorianCalendar:outBedtimeComponents:] : sha256 b54b016fc509b6cadb62c55a0770ed9fb748006a9d7a5145e701cb0bc2e2d48b -> 8f351a29942aeab602dfd49facb1e261fb6c244615f775dfb8bc4df065f19963
+~ -[HKSPSleepScheduleOccurrence isEqual:] : sha256 db381d07415dbd65266d7dea1591458f444d14ae6a4bbdccb8d3605ea5810d1c -> 232faf26bc33c96e07396ef8edb4c954eabc67c0b6174d59399e0014078278a1
+~ -[HKSPSleepScheduleOccurrence isEquivalentTo:] : sha256 b82b8f77f1b2d91e6d1d302db7eabd67fcc30f12f46a54adc01c5ef82880ed05 -> d9ce93418fb90be9f0b7eb4ccb2322650b83c43fb398ad902cbe4bac7369340f
+~ -[HKSPSleepScheduleOccurrence hash] : sha256 61abf1c1d2ebb07f0bdf4c1f5a38d59059d0767e0816ab618f193af112068c9b -> 79728ca259495a3ce18c9d6c2a8efa8497a368f3828b7ba29e6c3e88d133ca13
+~ -[HKSPSleepScheduleOccurrence description] : sha256 bd0f36a669ab79c7b01871b7909266abdd7b60200e2d8ca7eb52f0a0116269f3 -> d39fdb217013f030a0203995e0b7773d65593d43464214035583f4a712f50ad8
+~ -[HKSPSleepScheduleOccurrence succinctDescription] : sha256 4f2eefa4276df2714156e2e6da5ba4558e294064e6c7e1e375d937529cdd0e2e -> 15ea2aad0631ce2d4c10d6ae10c815066d20a2a93017c3655b174e9c48bc16a3
+~ -[HKSPSleepScheduleOccurrence succinctDescriptionBuilder] : sha256 3cf44a4453994d325fe9ff5cd7c6131a36dfde516de4f1fba6a036af9bf538b6 -> 04b340e8b4ab3875aa2bf8f24415e72bee0a7b2aede9da9f54347cb3768df74d
+~ -[HKSPSleepScheduleOccurrence descriptionWithMultilinePrefix:] : sha256 378117ba6d04014e128fe1266cf9538c72e347c2268345d37153f50aea8c32fa -> 49126439be2b3d5820d8a3441bdb78148d6f987e456c64290335580cf1f8abd5
+~ -[HKSPSleepScheduleOccurrence descriptionBuilderWithMultilinePrefix:] : sha256 beb77bccea6c9b42e457846773e00ad91e98cf40758cd0c7ca8e7128c1fe5611 -> 0989cfb2c70f6720a1042a1141dac69c20b130a331c60aae3d72aee5a595b1cc
+~ -[HKSPSleepScheduleOccurrence .cxx_destruct] : sha256 8aa0d20f6e3b27c53f57177614c5f85660df6d6ff9d3a5ba8972174c5d0feef6 -> 3760c596c16ece10c868fddd373b90c0e26332152143f6934b7828bdff21f4cd
+~ -[HKSPMutableSleepScheduleOccurrence setBackingOccurrence:] : sha256 1667e0c5b315204fc4ca3676eb6a76edccd198302dd699da25767f29527cfb49 -> 276c4b99c816980682fd96eca8bfe832988bc613c44c7568ba367f6d6847836f
+~ -[HKSPMutableSleepScheduleOccurrence backingOccurrence] : sha256 17d06501c65777e63bfb640a171ee40fc1706c2e632a82a13bb52d8f5a5d66f5 -> 13ab87dede657e87313f4d648cd7d5d645c67bf2707a4fbd4836fdd4623304f3
+~ -[HKSPMutableSleepScheduleOccurrence setWeekdays:] : sha256 c7dd303d964c313a4cc96db5bd7ea47d62b306daf7abda6dcc0a4bd98a004503 -> ebaa999d1e9b42bae60fec568b272decf204106fd1acd36f1f12d1ab9a402e73
+~ -[HKSPMutableSleepScheduleOccurrence weekdays] : sha256 5ef00f919841e227fff2e364a8c97ff3e3f23d37c75dd58723e2b23d8fe29972 -> 563efba4f55ddd1170c10c64469d18150b792aea97850bc9a3c0850832429fa0
+~ -[HKSPMutableSleepScheduleOccurrence init] : sha256 7cc86ca4c21180be389d15ffd2b8e36a6e8fb0fc03512277b797fbcf2413a9e8 -> ad828bf662b19554584a13c29f80a28d09846f58f59df34796c83433b5aca182
+~ -[HKSPMutableSleepScheduleOccurrence initFromObject:] : sha256 d2084491fadd9e86fdc3093a2b67789368f20a0ead02723b355c6549cf6c953d -> e21b40ef7109d105303973bb288c8538c66d4f371aed127bf3a684b3563cb9c2
+~ -[HKSPMutableSleepScheduleOccurrence initWithCoder:] : sha256 756a5db412937d09627550480edfe37b44b7c6d657e9451ae92cdd3e9d20b7d9 -> 6338210d6fac7286cd44cfaf40880eafec414dd2cab2d6fb5d81553efbdb22d1
+~ -[HKSPMutableSleepScheduleOccurrence initWithTemplateOccurrence:] : sha256 84c226f06639fe7a406aa8a5af6f2abc72a9783e6a31102de97625594697f2c2 -> 4db3666086b462434e1764aacbac62a7065defece793c7128bd8274ba9ae1289
+~ -[HKSPMutableSleepScheduleOccurrence encodeWithCoder:] : sha256 f4d7f544dd38aa0931a676d37b970ae49fa40fa08e4e774ca633fa9c674a6077 -> 6633ae848826adb260d46e32a3da3f7306bf8bd7425359d065bf88e5120b509f
+~ -[HKSPMutableSleepScheduleOccurrence copyWithZone:] : sha256 d49616034cfa236b892a5fa43759bf4ce053f29f0542bebd029c9ba0d23200ac -> 1504b59a28465754674f7123ba12605eee22c2685cfe34b973f4a67c29508150
+~ -[HKSPMutableSleepScheduleOccurrence mutableCopy] : sha256 06068a6148307e850a30fabed91dfa46008dce6d18e46917ef09f2efd852b604 -> 807bf3675959fc1d1a754c46c1150e156a81589fe2d19e3132b61b0f11e669f3
+~ -[HKSPMutableSleepScheduleOccurrence freeze] : sha256 0b4e78333fe8bc5e2f9c7da324317fab96cc1e8a56cd08485bfe0013d933b81a -> 2560f796ad9f25abbab9f2cecb363ded243bd289c84879883b826d2cac6b25d6
+~ -[HKSPMutableSleepScheduleOccurrence revert] : sha256 ba0662b0988e8fc4e1e042e4eadd99c4ca99703d10dbfcc486b18d99eac1f7af -> 42918388212928e70c063fbe525e247efe31c0a6f66f135c2677ea728b3aaeba
+~ -[HKSPMutableSleepScheduleOccurrence turnOnWeekdays:] : sha256 976627126a953747850917b83ce43d9be52f0ee84f8a6106c0d428a3f3266c2e -> 0b42b9bbaa257021eacb29f9c0f1a405f45a0b4fe0fd594ea56ab108420f58e7
+~ -[HKSPMutableSleepScheduleOccurrence turnOffWeekdays:] : sha256 0e09c7b8257ea7d8002480d810280655e9192cb99492b4b9ca2eafffd30e6bb5 -> 6808259705120674f76453b2d861ea4104cffaa3d279cacf896cb82edf87a186
+~ -[HKSPMutableSleepScheduleOccurrence turnOnAlarm] : sha256 deb3820a6b0e2e940db03f1c834b20af25efa8db9641b2cbf57f82c8d065de57 -> a631ef21be22e115d2f2e7bf2f517489c869145888cd400f16b68d4fa0def2de
+~ -[HKSPMutableSleepScheduleOccurrence turnOffAlarm] : sha256 19cba2dbe32ef87d91f10f637b64529175d01ab8ff257d865dafd51f248de0a0 -> 4a02a61898d9dfe76ebb13e70a65ade2b539450cf6ebfac1a4f9281f1d51fd91
+~ -[HKSPMutableSleepScheduleOccurrence setWakeUpComponents:] : sha256 caa31129481fbd1265ed2e4497b46033b75d25c15fbf099a24178f890f5ed48b -> 25f92798a579638db00aa7fa2203c0945b83f6eb68984e9814d08560607adc38
+~ -[HKSPMutableSleepScheduleOccurrence setBedtimeComponents:] : sha256 8454af32ddb5bdd34ca0527f307958f495d692bd7bfd4b5d2e513a3d526b2674 -> a81d726a4860bae73b378d25ae2dacd02a9f4b04181c366ff6353e1c487f6ed1
+~ -[HKSPMutableSleepScheduleOccurrence alarmConfiguration] : sha256 596f9dfecab9e0eaa135654fdfdbd81e6c485c6d948f046c36f60212291097b4 -> bd5b5d5cf1ec636dc70585d328bea5acc9ed3812ee84647537f28a6404dd738d
+~ -[HKSPMutableSleepScheduleOccurrence setAlarmConfiguration:] : sha256 aec86690eb48ca0afdf801930b72c452e8832ae0978c120236c88c14e608d81f -> d33e2886b067eda0ce451104972394d6b506ae1e32c4c53853996682e809b225
+~ -[HKSPMutableSleepScheduleOccurrence applyHourAndMinuteFromBedtimeComponents:wakeUpComponents:gregorianCalendar:] : sha256 1d71334a945e77b89f11f8dcfa9cf7a1bcc49a2ef7d5b48831b5237e7889b075 -> 4cafd35746f0585e5fc1f396c1661a348e424ecf306df1531efae74961bda462
+~ -[HKSPMutableSleepScheduleOccurrence .cxx_destruct] : sha256 9d91a7e81e827521a4188250ac139ca5a315720686459057154a038033d08fb1 -> e518ce765aa69e6acae3f88082a9b90b0cbd2303ed75600d97b6815d3fa1b5a7
+~ _HKSPSleepScheduleOccurrenceProperties : sha256 0a5b5e83018e20bf74e6d4723fc0c5772005a9b1b1301abb14cefa268fa3c254 -> 6fa033657f8225755d2c93d951e1a4da0ed68c0461d4cf0a7438dfef6c238f41
+~ _HKSPSleepScheduleOccurrencePropertiesForEquivalency : sha256 c5913c35955b151f5ac1bf2f01de68bf68f764ec8225e6ed329a9ee4f228d21e -> 3d3d8e43bea011414d63c12504b5ebbb3789c72082a890061cb9b9aa97bdd137
+~ ___HKSPSleepScheduleOccurrencePropertiesForEquivalency_block_invoke : sha256 baa691254a18e6a3378a1c6d8ee0e2bf24292f75fb8ecb20df519584c0d38cdb -> 646f6ce5038c70b7a938f13918b4522e365e28b24adf59c05a0d898378c527e4
+~ _HKSPWeekdaysFromDay : sha256 b78500baf779f776ffc72d5e2dcc6b7830b4fa08f6a02bb3544bae6f0ef6eb25 -> 6b7e4711dca729f455bbf882e7bc57aeb0409d2417994e6e9d1b8c20647bd610
+~ _HKSPEnumerateWeekdays : sha256 ebad3f957a2021be75b7315fa4c0cffd61e48c67c09d04da4de40ced29eeed61 -> 90e80efbf5a8846b98e500faed0d771dea224e94ff172b7eca5f6fc34787ad36
+~ _HKSPWeekdaysEnumerateDays : sha256 0523fba077a6cba00cf734074f55282ffb768764628b0054b4d4e2b3a4a70adb -> 285ff60b625fd67f02c215b04ae0cb94de91e747bfffbdd7b9f36064932f4468
+~ _HKSPWeekdaysEnumerateDaysInCalendar : sha256 85cfa6f5461fe6184e6000eb0830e80a3c196ab8c3ad074fd3151f492dfadf8f -> 3d409c98f6170ef9da67f208c69a6922ba5491844d9e614e3fb766d6c0868786
+~ _HKSPEnumerateDaysOfWeekInCalendar : sha256 72c35823d789006754efa604d50482e141f3ebddb3573c7163f52b9d3ccb6cc4 -> 03778d01fa90d581a2940bd6ab41e4e1375c887a6c25b7ef376c22ca802627ae
+~ ___copy_helper_block_e8_32b : sha256 bb5832936693b0050a97d6799b1fe3b69e94c375b5baaf69e872880c8891caee -> 86fd5242ec27cc868dd34b3e89505c6f81de382a6ec1c952e571fafdaa6f41f2
+~ _HKSPEnumerateDaysOfWeek : sha256 4232eed6f9a439a114dcf8fa429af56d6e474414a78627038599a611665fa824 -> e6ff61b05ff940335fa1899730e435f89c992ceaa1f1674a6897277ca0dc1976
+~ _HKSPEnumerateDaysOfWeekStartingOnDay : sha256 9c25b71b7034d19d57462736bc7626dfd671c824bad8718abfe2f78edb9246f4 -> 4bd1cc6ce3fac335f2ecd8c8dfb0b2e2f6c974b1f566b15fb6c9e3b9faa2bfa9
+~ _HKSPPreviousDayInWeekdays : sha256 d990805b0dbb4077b44ef4de5f7593729118589fc008d794922d16b56d08efdb -> 4de3c757d61105d49f5b94af7684193c826291728a0d3fb1562351ab0e783924
+~ _NSStringFromHKSPWeekdays : sha256 254c9d1c42f55272718282644a554f04942fd237a3b13bfaa0dbc823eef05840 -> 2be903f29868fc6ab6b50d604d54e9d85015723694761dc2c71d8ae37b88cf73
+~ _HKSPIdentifierStringForWeekdays : sha256 4e3bd6ae74104806eba8ee85771d7730e5d8effd2b878f11f305320eec41874f -> 1f552dd6a740cd488bc0fe5451bb3dec1de27b6ce60766844779c06ccbd5a31a
+~ ___HKSPIdentifierStringForWeekdays_block_invoke : sha256 9543a1037cc09e8ce758710aa54bba5e3c6810d233cf5a1416622ce8e35edb04 -> 2b811fd4d41321d05b5ad226332529e823e3628c484547ad6664db2f0140b3a5
+~ _NSStringForHKSPDay : sha256 effa4d1983f69a2cd7adfedd379f63dcdaffb09d3f657aa11f0201560e00fd44 -> 8fe944958161820a763c28d723133ac7e437176f5e62a1aacb60cd065db298ed
+~ _NSGregorianCalendarDaysForWeekdays : sha256 8f30cd5aaf930dd43443f853f3e22c5b1d0163c13f7aa394b3cad99b8f7b9f10 -> c675d86319740b576cc204bbf39c1d33269202d7d67b90050489868a31a89ae9
+~ ___NSGregorianCalendarDaysForWeekdays_block_invoke : sha256 534b827c17ec581ecbe0b5e87d075c28251492dfac7870a15dc9a83143109bcb -> d222b02b1db0fc11380a5139cd47c3ce38ed5843c677b6ef4791ebab57c3bd56
+~ _HKSPDaysForWeekdays : sha256 4254a1a49692b5611530a1d6218ff4bfa248550855a8f140bd4608fb79b0f20e -> 002a26cb07cf1d9959738d2f98132579de4aff6ff7331983e89fb12aa8408cc1
+~ _HKSPDaysForWeekdaysInCalendar : sha256 1add1b483b1cdcf4e7e0f038a10bb75e9ec40e975265bdaf3dd6fd71089921ca -> 534dbdc1b0278eec6b8bd865f1c79b2a29688843b0c0adc2333cefb9cd36dcc8
+~ ___HKSPDaysForWeekdaysInCalendar_block_invoke : sha256 1fae5be76544a10f7a282772be729928b49a150cac5877e95144d7bd5ff59c8f -> df24dc74374896867c7da03ced0ac953c5791d3c9d8c4844dce7a2f505ead8a0
+~ _HKSPWeekdaysAreConsecutive : sha256 9640bb0ac6872443af2adda69553970711462a2570bafd01c52f681b13d9ea79 -> 5bdd83324be7102b8d3e260ff212f118fc4ffd6286d5f2363a8d86c6b43497ce
+~ _HKSPWeekdaysAreConsecutiveInCalendar : sha256 dcc7a676a5a2ace40063b91a29a14238497b25dbc7cedfd4b6c6c9ecccbd487a -> 89eca7c5ae34b67f6735f6d2dd0a3ba07af8c00ae9ba5bdb10a7e56670783290
+~ ___HKSPWeekdaysAreConsecutiveInCalendar_block_invoke : sha256 103dc9a3f4edb0d32c1249a339a494a6e7d43d07a9c3b5b2fe52152c50257219 -> f4b3a2811ec7bf5cd6fe7db0dbef8d92733d405953168b5bdb224ac10d03e5b6
+~ ___copy_helper_block_e8_32r40r48r : sha256 6a51626555171d38580fd6a8fd10ee18b4f3be90ef7cd434df66beee1255a5bf -> a347601cc7d14a114866661445338b08a76fca9498dae661c24e1e653225d47f
+~ ___destroy_helper_block_e8_32r40r48r : sha256 1ddfeb6e51a47db36b990799481fae3c1e0959c3e85b807192087e97cc927f9d -> 4ad9a07645c386c764044f90da3cfad7b6c7a4c47579265918c2270d7e0de48d
+~ _HKSPWeekdaysFromDays : sha256 c7108caa840c4c5e79c02910f17df58d409d5cff2663dde175482e6b54c2cad5 -> 4226e6730f7d2c06f96fe5f78ff7c91b841d71a4ee352b6cd95298fc61b342f2
+~ _NSDateIsOnHKSPDayInCalendar : sha256 1b81b18d11a02a91c7b19d6fbce5abbe4f12bc993c270f9b3f0026c6c38f4385 -> c0601dd94ca19b7dd7c10ed491488c1578cb2a795db3814be79bd4533a212647
+~ _HKSPWeekendDaysInCurrentCalendar : sha256 a71f99be9c693be578eaef85b7fc298af74901dc8fe2cb195997e4f608e2ed53 -> cfd1f01ca5f939c98f8305081481321eb616a95fd0230d62116243355e0d05e9
+~ _HKSPWeekendDaysInCalendar : sha256 76e916e7654df3809bc34d0d8a4b2b06189d9e4788bcda51cf6e3ecc124c8829 -> 2733a7cc8e36380c4f7d8798d128de5f12384b95d9aeaedaa110dede245ab42c
+~ _HKSPWeekdayDaysInCurrentCalendar : sha256 ff65065c17224e9470863e27a11086bcf0bd9cfa73bf6a8d22dd026af5aebd1a -> 9b0fd9dbe4778d6f4504bc6bd11c0bf51e428bf383819b95a996b5a4f54737d5
+~ _HKSPCompareWeekdaysInCurrentCalendar : sha256 d29cd896b84b62d5b9e1306cd8d48bc158a7568cb8f1e65ebd912f10fcfff5b0 -> eb10c79827c2d652f31a4aec2023e133bbf543ad64d3882d09eb24a2ea403496
+~ _HKSPCompareWeekdaysInCalendar : sha256 e6c8ef2d70870c1d5739050589ae7651550769d53efac0c9ec65bdfd6fbc7c36 -> 8190e3bc2e688ee549a86806e43f822007bd6cdde6f7b924ee83cb7a659ad8d9
+~ _HKSleepScheduleWeekdaysFromHKSPWeekdays : sha256 25a5e0836c0cc2b91aa6f345151295a59a63f85873a077f110ebdf9d013dc52e -> 974324a83bad0881bb8a486f7a59b219a68ed93d19dbb963cf049a6258ecf7bf
+~ -[HKSPSleepSchedule init] : sha256 671b639672ddf76a2a7675d3f7737ff592ef4473d94a044c5b57f636aecb403a -> 2f92e2a4a32e0488d470f13c5a5a8e37e56344968f9befe57dc433d330f73749
+~ -[HKSPSleepSchedule initFromObject:] : sha256 d9575b904348dcd6fb00941d310a4e5c545d53ae17098b4ed4783fb1242a213d -> 6a363faedc92fca76a9b8fea0a3c16b0bec976c464eea895af765c2994fa1b04
+~ -[HKSPSleepSchedule objectWithSyncAnchor:] : sha256 1580dc24eb2ab3b2fafcbb90ccf6e1ef4300da8aefa43fed90ab18ead4e2f11e -> 4527b681103ae0b0972a7b3c4cab45c1741db2bb7239e00d895ac004efff9370
+~ +[HKSPSleepSchedule emptyScheduleWithSyncAnchor:] : sha256 49558d4e080398d30697bf55812e86ef7558380361d8f3f1d54a270cff99bce9 -> 2b078a9b4893e8566b1d86af1a03ea9cd37c39024eea76353a630d8959e56e39
+~ -[HKSPSleepSchedule initWithCoder:] : sha256 06ec38e857a42c0e1f53ae7ef92d5a691ae2cd853de91acd8c5f427a92861e97 -> d753e052d0cbf9e65e13734f7955653e3bef853dcbb4c4253a5364a31c9c1dc5
+~ -[HKSPSleepSchedule encodeWithCoder:] : sha256 82794539edc4852e9738347a941636b0e39422eecba08b99e066eb8407ee1b55 -> f985b96c05749d2820df417dc425649b4242b05c8d8f9bf0d892156dbfc14296
+~ -[HKSPSleepSchedule _enumerateDayOccurrencesWithBlock:] : sha256 1e56bf99a7d4d03dc2c4f6d2777f52cb4239d0e9b9237962b79a3719766a1217 -> f0d4a89e9dabf029c302454eb474e516fef54b742f6305b66cdcfcc257c4f8dc
+~ -[HKSPSleepSchedule _unsortedOccurrences] : sha256 f2b02d716985b003996b22b5e0987c63d8d420c6f2d6a78db4a912d465aa8c71 -> 368eb5fcb9614061b9cd51ab5a1a08af95fda24c1e71411e1895c4758d89f96d
+~ ___41-[HKSPSleepSchedule _unsortedOccurrences]_block_invoke : sha256 d8163be7d236a08842ddbd065f5b5d0883e46e45dc2beabfa821ff1dcdde2e2f -> 90e499ccf5a28fac097b28f8fbae4945b5119d25f018302d2e7eb91c1fb31f49
+~ ___copy_helper_block_e8_32s40s48s : sha256 985dee23ae1968b520c40c39d21ce0b378e8bb85fdc4eb6dd9a64d95fa65e405 -> ce8ddb24a7d7000f5d37e40a97601abc2f29ad76c58023420e4bb4895b131282
+~ ___destroy_helper_block_e8_32s40s48s : sha256 abecbc706307b6957212c59559b1784485e89b9fdc2db873f76fb1b9dac805d6 -> 81a6d9a81851e35c71591f69963dce174e955a4cb48631867f64476eb688938c
+~ __41-[HKSPSleepSchedule _unsortedOccurrences]_block_invoke.366 -> __41-[HKSPSleepSchedule _unsortedOccurrences]_block_invoke.372 : sha256 07abe7950521078738f4f0225dbd3993853582ae655d67fb7cece8c5ffdabf42 -> a67739ddc8a5d07a619c44a45830edc214349c9ae35f1429e1f31f0a30e8c4b7
+~ -[HKSPSleepSchedule hasOccurrences] : sha256 382cde786f8bb414bf5ac1cd7d38db2c9c3acd76bd201e2c37f73c7738aaa6bc -> d169fb3a379ca3ed58b24aa691a6d7b071aeed04392390565aa53f5b7e110154
+~ -[HKSPSleepSchedule isEnabledAndHasOccurrences] : sha256 ec50fbec34b5d59ae4b2ba8910b8d1c110982cd184a74366916d490f7028c255 -> f67be04ef7c5e2b9daf36b330af5da1c456ca55ae739ba7fc0393cdb92972407
+~ -[HKSPSleepSchedule meetsDefaultSleepGoal] : sha256 5001b19caa8013e927dfc6c0524fba4ae3f78f759b6c6bbc01d27e33bb49bc61 -> b3b896309c89121d0373f97c43913d6b11f45650670505f0fe500fe4b85c14a2
+~ ___42-[HKSPSleepSchedule meetsDefaultSleepGoal]_block_invoke : sha256 e38daac606161d7cc8ec3b63c93253384acb42cc37bd1965380a3af1ec7a5012 -> c06c56df62892e0698a00c0fa787b51dab91477dd850969ddb5d8b38c8708163
+~ -[HKSPSleepSchedule isDefaultSchedule] : sha256 06259fffd811b5d154954faf811d0b34907a489d5a6628b292bd313d0d9e9ecd -> e4a6e33fa0a09fd1cbcee4991b59ea3aa05f7cc713c86e642b89ccffb122949d
+~ -[HKSPSleepSchedule occurrences] : sha256 e9abe1c419acef4cfc196aa3a28a455c696666415ec2e6d4d3d8d042b54ab74b -> e9b577d1424678dd53a05e12731042980e0493516e401a9f2c7b815633406130
+~ ___32-[HKSPSleepSchedule occurrences]_block_invoke : sha256 d7351431c28f25e64990d0542433dc4fc8ee94a4fa8f4af66314d669934da9ce -> 326d788cd1fc1a813ac631fdde9ff3f56bbc81daa6b112b8fbc80abdb7a6b47f
+~ -[HKSPSleepSchedule overrideOccurrence] : sha256 d7ad35f00bf1ccd7b3b8289427ce930d42bc8c43aec2535ea730d142f32e352e -> 8065550aac560a96a56349ca1dbf7cacb1a6e14be28e24e69661a90cd9736059
+~ -[HKSPSleepSchedule overridenOccurrenceForOverrideOccurrence:] : sha256 9891234b87ad469e5add439ddfff603aca9ddd2e0013ddcbf15eda6bde59d1ef -> 01f3eb38eccff322b53d1ffe80e320045649487b6fc0c5eac50a3d931ec06641
+~ ___62-[HKSPSleepSchedule overridenOccurrenceForOverrideOccurrence:]_block_invoke : sha256 b077f94ebf55b6809496317427167a264ce56f5cd3b4c16e8c0d6fff30f6b461 -> 41c81871f64ef9605d0123906accbc158ceecb10f1e187c2e0e2c58162285c1b
+~ -[HKSPSleepSchedule occurrencesAfterDate:gregorianCalendar:] : sha256 4bfbf9c50de7a53b6e75fe062612abaa7abab52c66f92e37b8510f342817dfe6 -> b5032d26d52c64b9afae7f81aff56a0727cf5008b671e27536d2b1e4892631dc
+~ ___60-[HKSPSleepSchedule occurrencesAfterDate:gregorianCalendar:]_block_invoke : sha256 f476114389705654c651c1ef45979e189dda4e240e90a86001009f6507270452 -> 08e1a69587d1b6b75c59ce0b129c99de48ffe5807bff7e16f23fb56459af3172
+~ -[HKSPSleepSchedule mutableOccurrenceTemplate] : sha256 182f9a46570fad3fcd607a240ea7ef7ecc5b4cc97ba1889c72ca88c4cc7ab236 -> 225420abbc9597ecd0d792ac48ab55bb2a7eb725c890ba18e071a6f2089e27f2
+~ ___46-[HKSPSleepSchedule mutableOccurrenceTemplate]_block_invoke : sha256 b6111930849426eea161ebc27b6c0da87a374f43db38775fd306f37a47fd6324 -> b6a65d9f332770afa8e5ecb43bdfa55b95946f91a8dffc62d185f136eec05fcf
+~ -[HKSPSleepSchedule _wakeUpComponentsByAddingSleepDurationGoalToBedtimeComponents:] : sha256 9b60d10bd79c9b07baab6d41d57d195211d3a135b8f762d1792a9c29c432c14f -> 8bb78f51678ee335c3d121c33524d85175e4d66729a0749469d07df150ab1c17
+~ -[HKSPSleepSchedule occurrencesOnDays:] : sha256 5eb6db076edda542facd4ae31547881d189489e41208c5a34559c021be707caf -> d5550a3b5aa4216aa20816033997098958369fda4915daac6a99f54f1369752b
+~ ___39-[HKSPSleepSchedule occurrencesOnDays:]_block_invoke : sha256 36d5f5fad0485430d675e68f72a08aebe85cbfd53489c89b780ede520c4d3dc8 -> b0f97f9194482278f5587bda0acc33c35d5aa13a5c1d711240916b29520449fd
+~ -[HKSPSleepSchedule occurrenceOnDay:] : sha256 5d5a2619d0dba1d02c61980e0e48e654dbfef87cdf1d85134ae47770aaabb1a0 -> 0f8377e1e32cf9d01b0111c4ddf306eb3305bec79a2b6e2d45b8746d636619d9
+~ ___37-[HKSPSleepSchedule occurrenceOnDay:]_block_invoke : sha256 9ef03bff906ed2c90d397720fc0e2019a19786f4e9326a9814b362c78d2ffd6e -> a3ff5557959bd2861b8a39fa4a9a05fa5f43d983054c59809549d68520898eb6
+~ -[HKSPSleepSchedule weekdaysWithOccurrences] : 296 -> 292
+~ -[HKSPSleepSchedule weekdaysWithoutOccurrences] : sha256 5079b9cc99717a0b10c0cd156ca9d9306d6ea6b9cf660b15d5b496967581b90d -> 9e44fcdf9bd178e37879b13af0f3f3c588998ad5db38c53fefa4b6c843ce7d9a
+~ -[HKSPSleepSchedule allowableRangeForWeekdays:] : sha256 ce066d9f18fec1c1286b7db592466a59d4153b1ee3fc7a9cb5641ff8797075d0 -> c64d24f6d708b901aa03affe619ed173ff086a2bf653044328209dafca0bb42b
+~ ___47-[HKSPSleepSchedule allowableRangeForWeekdays:]_block_invoke : sha256 7b813366542111ad3babff1041ef0d156b2e95994329631397cc6f0dd97aace8 -> 47293b4cdbead8563a580818ed890eb23614c9dbbdb91208a5bddeefcff04db7
+~ __47-[HKSPSleepSchedule allowableRangeForWeekdays:]_block_invoke.394 -> __47-[HKSPSleepSchedule allowableRangeForWeekdays:]_block_invoke.400 : sha256 b27a8f210d332f91d11efd1faf5b884b4afeabb3c8cd7febd73d934084d9ba79 -> 6b7d49b960f4eb9a7ec7db17dffc312e5b4a99c900487844d6abb49c27ba3c8e
+~ __47-[HKSPSleepSchedule allowableRangeForWeekdays:]_block_invoke.397 -> __47-[HKSPSleepSchedule allowableRangeForWeekdays:]_block_invoke.403 : sha256 103c952bb4e5e32518f14c7659908ef8189bfe441f772097a53e68c03c6a4f31 -> 4543221f0abc3faa85d09d1855c097dcddf5814386b7943b0c002d8fc69ed608
+~ __47-[HKSPSleepSchedule allowableRangeForWeekdays:]_block_invoke.399 -> __47-[HKSPSleepSchedule allowableRangeForWeekdays:]_block_invoke.405 : sha256 8825dc051fc115f731e680fba703e0800ae61a7876216888e6ee0090a290056f -> 65f3ebe8d4cbdd0b711d0388bd7a6bb11c679aba36307715da9d8aa27cc2ff65
+~ -[HKSPSleepSchedule allowableRangeForModifiedOccurrence:gregorianCalendar:] : sha256 815a1f9764fefffe4e7f40c91b9800fc15ca399f3dbd13e2c39396c018eed71c -> fcc8da15aa26f3cf4c029f7017b4b9b6ddfe296914587b977042dad7da9b3004
+~ -[HKSPSleepSchedule maximumAllowableWindDown] : sha256 0c0ab4e97be72909b7a69f32538f5ab78ca0fb955c536400754d3f9363b5f13e -> d65595131a5442c8d008f6227e8b1e4044e160cb05e1958f088572a9825c8ca4
+~ ___45-[HKSPSleepSchedule maximumAllowableWindDown]_block_invoke : sha256 9e3f1b2be22f905eb190b8fbb9670ed1ef3abdf99e6edf3bfef61eb7f6f2825d -> b1591d49f4b59954dc61930f74439616619c473bc9fd59a0bff2759dee271760
+~ ___copy_helper_block_e8_32s40s48r56r : sha256 5c4f08e0e0f138a941fab64fdd8dd4c7e4688f0c381cbd1dd0ebf6ef511128f1 -> eb33129a82d337a6eb682e1e04173feaeeb990e97e00c49cb193419fee9ac806
+~ ___destroy_helper_block_e8_32s40s48r56r : sha256 093fb9d889c12e2e284936c31d798bb0f8613f8f12335e72e8ac99cf9d62407c -> a1a40bbf8aa7da9012bbee736e5d079bedff8ecaa63f82840a12e1a5d47bdd24
+~ -[HKSPSleepSchedule windDownMinutes] : sha256 9f931de269274716df406ab38de71d8b266a7f08573d522a7c16768ebda79808 -> 6cbff1fa078ecc641e38ff3e04139d25d8a938086bf302b5d378c91aca347717
+~ -[HKSPSleepSchedule emptyCopy] : sha256 451d2f8e264679cb957453a806a7dba070bbefe572b3e0b40c23cb505056ae16 -> e63cf3f7da4bd30a2324a103d752a43045736c9ae227d4429644e4b06598b51c
+~ ___30-[HKSPSleepSchedule emptyCopy]_block_invoke : sha256 6c992e90aec94f9203ecdcd25d313eb25ee2c25b3fa03edc3de690426d341f99 -> 740bfa809b0c887e98059af14015269d7bf369b025286ad0347387e05784b38e
+~ +[HKSPSleepSchedule innerClasses] : sha256 8fc507ad722ff7d12ee40cf7892fba7ceb6ffa15810d71dfef57486d7805c674 -> 3ab1eca234a78a32cfb83d7d4d0bb6d06d661d731d17e0872762d3d58caafa25
+~ -[HKSPSleepSchedule copyWithZone:] : sha256 5c69b57afd50ddcbe1b69717b41b26a38f308350260d10c8c1278204e5dd1c92 -> 18e0d07454db055671b024b011dea5d54d70bded9f31507cbf4e7c03235da640
+~ -[HKSPSleepSchedule mutableCopyWithZone:] : sha256 06e3691e126f031fb5c3648c563ca128f1d4077fd0c2cece853ab794e93bf3d0 -> 0696eb87c7d1bfa0737bfc58745be5581003be768b7f4232cb9efbd1cd6a5cc9
+~ -[HKSPSleepSchedule mutableCopy] : sha256 8e7ac2e23227c9c4cbd6762dcca02f10d5b9c69c0dc8f70924b93078f76a5036 -> f899ef5372a18d3fe693af5eacfbaa897c3a860c4f4c8743b136213af2edb7e8
+~ -[HKSPSleepSchedule isEqual:] : sha256 b6aab117a3feef0415ff58698bda56662446e7b9a5961fb26751d73b20c4cfc4 -> da37967ea8c770058e35cd2f99d006a7df01648c8578df5ddadd869e91913689
+~ -[HKSPSleepSchedule isEquivalentTo:] : sha256 73021412f7775725694bb12704cfda11992ab6a47d87976b84b362d7562b29ef -> 10392945acaa14183226dc11fdb1032158fae59214ac77252209a2006d553d1d
+~ -[HKSPSleepSchedule hash] : sha256 e0b0ccf6c535f5dd55f727932ac0dae0d6127ec3e1364910de2c350d4c904192 -> 9995d5c30411c08908dfb43dc47d9f2f81a6e5803b06c3fc7926cfca88a627d0
+~ -[HKSPSleepSchedule description] : sha256 d8bba75f85565d22e4a9c391939d5e537735040ba118b96560c3ebd89efab3c3 -> 06fce1e03ac9e485f9144c5d542f78179dbfbf0046d16a0ff282bb2a75cb585b
+~ -[HKSPSleepSchedule succinctDescription] : sha256 7d6ccea894f9354bf58e7c6fef46cc3e8b9a33538a3ddad4ed41345793e9e1d0 -> 0db20c98796476619f554293be064d89eb090df2aaea6fcfcd0344d7e6c5fc7e
+~ -[HKSPSleepSchedule succinctDescriptionBuilder] : sha256 0fbbdd5ba36d2624185b44690db1096ffc3b2dd2640d3f49401a738e5efb975f -> 57674295dc582ca1b22b2c0ad799f753cd5cea120962cfd5b81fff1da3365910
+~ -[HKSPSleepSchedule descriptionWithMultilinePrefix:] : sha256 0ea683393207d26f34c81e3616603d4c7e56c36dd133c7d8db4998a9339920fe -> c11ddaae0cc7d1bb27a7469cfbe071162d73c80f26f1bbc1cd1a15955a8831de
+~ -[HKSPSleepSchedule descriptionBuilderWithMultilinePrefix:] : sha256 10db1b2a20aedb265d9ad372ad27aac1268206aa3ddecc9c68be0a80033d5308 -> 99ae17880f12765e905f76f1f40b2898517067960099d7811aef8a1502ec9faf
+~ -[HKSPSleepSchedule .cxx_destruct] : sha256 e486d7f6b8da86e65fceb0f3c27bc171c43e9c9670b48de54865569050f2174c -> d8b7f9ec846e79886ca9f2e1ab0a240f4e66e54642493cca8ec6509e37e37585
+~ -[HKSPMutableSleepSchedule setEnabled:] : sha256 3d6cef249687f53b7478b23b92ea5a7bae3888f77df2746e97630ee7ae27c1b7 -> 980f094c31ff343778dda27c9e677bd2aac16a11d35e7553a38f83751053f450
+~ -[HKSPMutableSleepSchedule isEnabled] : sha256 8cfa15b72a45bf1d34b2c2b89564a9c2dea67232c3057a31944947bc10dabfaa -> ec6f2f16349315aa96e5a38f7d324e5298791fc83157c24ee2c5a711070ed58e
+~ -[HKSPMutableSleepSchedule setWindDownTime:] : sha256 6e03bbeeac7bf57c834bcba152416a343b7b6a8625c383d4a5f7aac39718437e -> d13ef4d5aae854378e38204184203e653504f4509eedf105ff4466ca4e2558ed
+~ -[HKSPMutableSleepSchedule windDownTime] : sha256 69938e47e2245ad762977fb8623371ca1aa2d97c0c3e12bbff7461a88d7b5f83 -> c57e23c3c65efa96199ccdfaa152b2634ef4fa228796fcecd228070b7409bd89
+~ -[HKSPMutableSleepSchedule setSleepDurationGoal:] : sha256 762690bacc98fbae8b906e31ab834d9fc009744c281fc86fe2f85c0598ec92b1 -> 5a7755fbfe2cc9bbe5d929a16a0d71cb1649f9c553cd65d8749c7c1a50337f8e
+~ -[HKSPMutableSleepSchedule sleepDurationGoal] : sha256 924aface8cb0b5843dee2b3a60577e542994137e7cea0b57f3bff765ef87ec88 -> cade45da2fed43704daa8a75d0c908a76e703402489ae4fa4e3897c7088bd0ba
+~ -[HKSPMutableSleepSchedule setLastModifiedDate:] : sha256 3bfed8e242ea60bee04b94fa52560bc6211091a427562a14a98d292b35592026 -> 6f276293560bf1205e224a1b23dbdea6b42b3f44bb56423bcbdc50790d8c3b77
+~ -[HKSPMutableSleepSchedule lastModifiedDate] : sha256 f92d5fc2e60e0b67b4cbfabbfbebcb0f4173f3d0ea16d3661714e00fe3b09915 -> 7f1a693fdc5f428be69deb7d7fec3eba8f7d853966942dd6132c974f0b8fa82a
+~ -[HKSPMutableSleepSchedule setMondayOccurrence:] : sha256 b5e15536914b04fbc37382adc57b782e5397b2f2a852c7a5ac2172f7ec15bd9a -> bfb5e6a40c8e0d1d5ead72bba281ba2d9e8bb858dff66112ad4e15c384a1c7c7
+~ -[HKSPMutableSleepSchedule mondayOccurrence] : sha256 4a004a7bfa523cf75a06ffc733842dc49eeae70a07693d2b1d2afe206d81a187 -> ac2a0f99c7740a57f6f8842cb070995e04d6198f0cabc8c9a586ddc6d8ca2913
+~ -[HKSPMutableSleepSchedule setTuesdayOccurrence:] : sha256 2af5bd0a08d5b7a16547107fb4e0ef832b82bd0067daa9f5f412ab835a101070 -> 6b65853204bd2d68e71dbb64de97126412e88094aa65fcb4b3ae1f152195c15b
+~ -[HKSPMutableSleepSchedule tuesdayOccurrence] : sha256 9bdd5d7f1478c8bbd9418e2fded0bb9b89894a1172dc05ab183bfb26212fac4c -> ac6a26ddf2ad60bf2fbf2a3d2a987ec6c3ef10cfa07c853cd0daaf60f9c05513
+~ -[HKSPMutableSleepSchedule setWednesdayOccurrence:] : sha256 251634b3231da2609c25a6ef2920e9e38895001c2809e15379ff579297c8c476 -> 25e19ed53aa98c01b9897a1c7bb6feb7c1000819533528d36f7a9b592022faef
+~ -[HKSPMutableSleepSchedule wednesdayOccurrence] : sha256 7d0bda68b042affeb6db208000d5543b094efed3f98677a5a064200e70e21d4d -> f6ca11e3895fd9ed632c4ec319641b4de7801848f46db43e078f7466879e1e21
+~ -[HKSPMutableSleepSchedule setThursdayOccurrence:] : sha256 ec2915334b33c80aedb207cb3710d0f1fb833d40a329ec683d98c7c55b9ecd15 -> 036f7d8015da2c4fba8eea710df5800f90ec122200249fc61377e207b8b4bc63
+~ -[HKSPMutableSleepSchedule thursdayOccurrence] : sha256 c1ce3f7c94d3e93886aa4e35d71642a00b46d2ac8b6a7f163bbdbff8aaac09f8 -> dd0ec171181214734fae635303999a596cd6f97b3e16280bc30c1888f1796c97
+~ -[HKSPMutableSleepSchedule setFridayOccurrence:] : sha256 c5afe3a9243848440ecd63f8583df2f83010b67a130e0a34f400b1cc2d3e5e31 -> a1e32f53c734b72fc9bc0c40a028abbe6d0f0a754c39d8eca95b96de7437c5ca
+~ -[HKSPMutableSleepSchedule fridayOccurrence] : sha256 464b53defcb3968046135c45be16383bd7687daad9421bc58f3d31fd527da2c9 -> f404085948514ef032f30c348d084c31cd2c009d979a98d06bbba1318c8a4fcd
+~ -[HKSPMutableSleepSchedule setSaturdayOccurrence:] : sha256 f27ca7dc4e712cbbb4350ffd74850cde0a254ff80ad108e0bc71986a31220aff -> 891b72331f8f8689954a2ba132b56e4bd68623e6fbf2697b7094704917f691a5
+~ -[HKSPMutableSleepSchedule saturdayOccurrence] : sha256 33db9b1eb08b3b68d9e61e6ebd2acfffe0f482cea95cf02c1e5e79460811dd62 -> e471e4dda31388473b2f35f3896a8af3d60343a8d7c5a3de41632d1a67bcd36c
+~ -[HKSPMutableSleepSchedule setSundayOccurrence:] : sha256 c367f7dfe7ee8e8cc2890becc402dd819b43f3121b6f41adf7b48f2d3a1ffbd2 -> b8aeb6a6cb26efbd47fd78570f561e75c9c492a60303948cf9e11eab7687935f
+~ -[HKSPMutableSleepSchedule sundayOccurrence] : sha256 9514f3b76b25ab0706f5e6c8fb73e6e055174538d95c5fc6263c76a8e6e34bd1 -> 055a902202b859bbc01d5369b777c3a6c1ab51c713aa5d2d0cc53a7320de2fda
+~ -[HKSPMutableSleepSchedule setOverrideDayOccurrence:] : sha256 7eb4d485308ae08363c524ac1ceb52293d3d84b8526539ce46221b80a355f36f -> 412d354bc2b711b25b9dd145a304b88f0fbe03831eca2d12b01a397341cb87b6
+~ -[HKSPMutableSleepSchedule overrideDayOccurrence] : sha256 38b6c53425730204e1e44916a25c23ce497964ae04b98006f5819904e3687e47 -> fba81339e1ceca4ff1784b534c7e776e15b9bc082cdaaff17e275a283f0126e7
+~ -[HKSPMutableSleepSchedule init] : sha256 5bb35db603ca0b70c6c48b3af4ded772dd29a637257aad577ce6bb8074215ae6 -> 29a7407882cde9f6a86f1c9af1b43da16c3194f0006ba93a47ccfb681097fced
+~ -[HKSPMutableSleepSchedule initFromObject:] : sha256 b61e879f66699aeb245f9d074f772338ca70fdeb4274e2da979b5f45a2f9e88e -> 1897133481aa492dc4122317c8c43f5f870c818d9677ef3f1fa006e5b56244dd
+~ -[HKSPMutableSleepSchedule initWithCoder:] : sha256 ec61d603dd24d38f40598e8769d3deb99f930dd37bc3972db9a867e540235793 -> bcdd87b3bd1f5188605a46739f4078538634dcd98e141cd23465812ae8581580
+~ -[HKSPMutableSleepSchedule encodeWithCoder:] : sha256 35a300105366c24bce7dfe18b7a0d4d3427d208fba60365de22d6fdcab584b2f -> 3562c037c183a174255e7e5eaeaa4918741a368ee34228ca5fb5c6afb4a08cf1
+~ -[HKSPMutableSleepSchedule copyWithZone:] : sha256 c185a180fb2285f6d4ac6c36c3e718a27df24e4b7d6bb52797081476d3232e96 -> eb9dd86b66aa4b9d20c5801471a89fdc3f861f663a0331715fd621dfaf2784ac
+~ -[HKSPMutableSleepSchedule mutableCopy] : sha256 b957ac2c287ddc7b34c8099836335d58d0b6bb9b581a2425e05eb7ff80851938 -> e15add965dc5503cf0f7538e0d8e5043d56a7bb8179824f06273f80918409cc1
+~ -[HKSPMutableSleepSchedule freeze] : sha256 92186124ecf2dc49116eb15d38452dfa12e33bdc4ff2e61da66aa1f00dc2d1e6 -> 6492bd0b25f5bd76e416ee9108cee1021182f6829e8c225eb69c08146a5ceba3
+~ -[HKSPMutableSleepSchedule revert] : sha256 417c440971580f73d7f0909b31ca36bc00040c957a9b4430054fb4b1d4318193 -> d3fe8e81ea23dfd92e44b697cf58c68cf5e549939e29960deea4273dc3da36f3
+~ -[HKSPMutableSleepSchedule saveOccurrence:] : sha256 c2ebbe1b112dfb39d624eb585b9a7138c72b1e141b5637ce56eb8ef9c964ce24 -> 938453209fe3518dcce3a375ac465ba27a9dc94d6f2211f5a22848f365e247e5
+~ -[HKSPMutableSleepSchedule _updateOverrideOccurrenceForOccurrence:] : sha256 b181cf9a934b12f162a6b11c1fd5b8841e75943762f9486717fca84c3fcdf3e1 -> 7ea8d5c0ad4349e35ecb3089ba1ad17fc8d81d7da9842bb359cd24e3bdc6709c
+~ -[HKSPMutableSleepSchedule _freezeSavedOccurrence:] : sha256 c3ba740a5a137e9cf2c2e0ff1a760a4a1285359be09d4c6eeb3f9c037c9a4c5b -> 49d0627fab3c8fc8d95d5a0089662132b9ca7fcb86c3ec941f7e822ebae520b1
+~ -[HKSPMutableSleepSchedule _shouldRemoveOverrideOccurrence:] : sha256 63571e24f6d9b52911c057e6c450e7651069d25fd12bf63dc11281aa708b9e21 -> 8536968b3d4a5fc443ef73a61881ffe86855ca3fca076cb683270614e31e63d2
+~ -[HKSPMutableSleepSchedule _updateBackingOccurrencesForOccurrence:] : sha256 72cd6001ccd61269076af91826f71af758fe04a80b7876d01d932332071a63b1 -> 94b75e6e6e3674a1b9ef1cbe40dac2320a0b57ba30e9cad7489ba93bff3d7d01
+~ ___67-[HKSPMutableSleepSchedule _updateBackingOccurrencesForOccurrence:]_block_invoke_2 : sha256 305de1d096db4d8e46567b5ccd8c7891ac6a243c06916dee5515cb5fea0dc022 -> 297cfcc122335ea061d5daa839d3687be81d810a11c80f59b29ed7e7b4fc7e4d
+~ __67-[HKSPMutableSleepSchedule _updateBackingOccurrencesForOccurrence:]_block_invoke.641 -> __67-[HKSPMutableSleepSchedule _updateBackingOccurrencesForOccurrence:]_block_invoke.647 : sha256 2e12cfe4ae53d4362edeec36bdbcb8c2ee53c1524c1593163a963e47732f1d9e -> b46a0fd1b0cf9a931f792bbb053760d3e12629cc172e0123e80ae424cab2abb5
+~ -[HKSPMutableSleepSchedule _updatedDayOccurrence:withDayOccurrence:] : sha256 b099ad3432219c4ee92bab159f266fc02b4ba0685d0076c3bd6de56196a00ccd -> a7ac22c05df0f7787d16cccf0170791badca2c0826269ce844a3de574785e5ae
+~ -[HKSPMutableSleepSchedule removeOccurrence:] : sha256 9e036c870ebeb624a09c47cd298f569d0e11735a9e494b9159c3870cb694d037 -> 01e3adcf7fc51e01829f8e69881eab986c31d9ccab6956228becfbe871b385c0
+~ -[HKSPMutableSleepSchedule _modifyDayOccurrencesForWeekdays:block:] : sha256 af1c0d908b01fd007177fcff842afcfeb735d2aabbb559147ab0a01546727a67 -> c6a289b33af1408d6911ccebb6bfa089cd0fe7753a4031440a875dd20be4c490
+~ ___67-[HKSPMutableSleepSchedule _modifyDayOccurrencesForWeekdays:block:]_block_invoke : sha256 9b9064c56ddab16dee85a1a6b56d202f7ff7b26120dbd9fbe6df65cb2ac72b33 -> 57666466ba5e7011f65bc2a3a80a8fdcdfff8ed1187f10f939641279d1703c49
+~ ___copy_helper_block_e8_32s40b : sha256 4d78e2db5cb4aeb6018a9a5cd5d234730f1a71c3ccefda2e19decc7d00288ef0 -> a41a2014f02e311c1285c625b0b805ef2dcfa60dd5f4ab9231e24567154f24ab
+~ -[HKSPMutableSleepSchedule setWindDownMinutes:] : sha256 d50aae149aa2b9d859b97c36bc81b9708059a0337b7aaaffdff06c5ac824947b -> 40eb5dc2ff5e3e8d3f79b7021298ba41994cf5bf0a212c6dd84a6ed772b40efa
+~ -[HKSPMutableSleepSchedule hasChangeToSleepDurationGoal] : sha256 773137f6b3bfd0599c392527e9a27512dd7abac37bd8551a9e89281d7eb9f5d3 -> 7ea92b323bba695b6b73eb08896da960ff7afd6962a35d5bf2026c47cc19df56
+~ -[HKSPMutableSleepSchedule hasChangeToWindDownTime] : sha256 f093867f99279e009c07c120b57a3131dcfff8e2c64596142da129524f1608a1 -> 7999dba9dc4ab69088b8caf39eeb6b6d1a6f71320cda6d879f0e2a865a8f26f6
+~ -[HKSPMutableSleepSchedule _hasChangeToScheduleEnabled] : sha256 452bedba23a86d7a20f103db4555b43d4d1feaa8add6a8337ff29be9f3fa9a15 -> e4c238d6b89c8ed3e4ae4d81e0d0727f07b91e547c181e6a7a43ff1d32129b42
+~ -[HKSPMutableSleepSchedule hasChangeAffectingScheduling] : sha256 7c558d0591f07b09f552ca6dce484c731e6d07b3c1589a7603592a3f8731b644 -> 1c662e97a83498ef503f7162c17679f24fac3f2605408068a373d4cec9ec6597
+~ -[HKSPMutableSleepSchedule _hasChangeForDayOccurrenceKey:dayOccurrence:] : sha256 ddb09a6c35b6ff08f207128b9b1d4970910be470dd245bc4bc14b755d2339cc1 -> 83f944cf47bbf79c72316d71d155d197747b44ad10f89b681c963506bc0cfb80
+~ -[HKSPMutableSleepSchedule hasOverrideOccurrenceRemoval] : sha256 ecd1b86d97cb72c04e0fa100a98eb4b4daf01e44ac2aef8f163b1f8f44f434ad -> dc8a2c83d14112147dad304d4bc03c8ab0c070d07d457158d476fd0bec582ece
+~ -[HKSPMutableSleepSchedule lastOverrideOccurrenceWakeUpComponents] : sha256 bca9963f5aaa599be7cca22baff71afac7c71c1bf49fb167d7b5367361608f80 -> fc9ebbae386d73b22b94b47d197552709b20a3355a964df3e544ac41f1df3d44
+~ -[HKSPMutableSleepSchedule .cxx_destruct] : sha256 8e55ab38655a8253ed2c351245db8b119a170b900e595d6398700cb7054d165c -> fac42673bd5649269c5a17a120b5dd536e4553c71f613b22b68236f70fb7b938
+~ _HKSPSleepScheduleWrapWithSyncAnchor : sha256 5a3f0ebe3df7adf03b9216a23b7ca281f1d8583d50c8953dd3cea0323578ef6a -> 1fad990b8173e533cc50cd1b8ec80f77867e8b19a90b513e8e06c83bb38ce4d2
+~ _HKSPSleepScheduleUnwrap : sha256 b16d4e0a2efaf2ccb801c32d7d37e43cb9dcd7ce6a38aab625aa312c798243a7 -> 4c7bcbb7b7c8e2983da48a0016bbaa6aa2bcd8e6c42c3da3042c81a2ef193d7b
+~ _HKSPSleepScheduleProperties : sha256 d51debdbb87ed70d2462e4cc95d8224bffa95242907763a93502a706b8989ec5 -> 932093b0c6917174fb181a80d94d8d54720bfe910421a2b1733e7104678a3324
+~ _HKSPSleepSchedulePropertiesForEquivalency : sha256 180e9f22de470d7a5b0c55628abfb9040523cb289f37b2b26202941e999c811d -> 0af869e89825db4bec9e438d1af904e558d25aa05c6facd10ebcaea69c06d67e
+~ ___HKSPSleepSchedulePropertiesForEquivalency_block_invoke : sha256 fb8bc6ae3b2bb28e5a705bebcab9bcbb14cd55b1ffe7af2dd51d376285cf92e7 -> e48e61969313aec4699194093bf4c457ecdf733f3d9b2461ae7aec7e2f4e4a80
+~ _HKSPSleepSchedulePropertiesForSignificance : sha256 7199c71898c24ca371db89f27aa8c203493211773582f6fb2443f3ea0e0b9049 -> fae8d17878a09c2f58812bd3a59e7ae49b68b5491f5ce0c71c71012b47bae94b
+~ ___HKSPSleepSchedulePropertiesForSignificance_block_invoke : sha256 db8aca439846b49bb9d78cab98d973ed5ea7ac2042721d9fa813e0bfb6fc345a -> 19e75b7c1cdc2c5c5267aed6556944c6b439e6ddbe90f889430f8eaeeb8416f3
+~ -[HKSPSleepScheduleRange initWithLatestWakeUpComponents:latestBedtimeComponents:earliestWakeUpComponents:earliestBedtimeComponents:earliestBedtimeIsOnPreviousDay:] : sha256 9c41de53c1247810c62c6502df77fc6c09f5bc46e6c9c587466e48fc09a3864a -> 7909e7c94181a9867d5eba1a87403e5b9017baa9076d42434894a42fecdd50fa
+~ -[HKSPSleepScheduleRange description] : sha256 ef405a8ba89a71d380c6b7a9a628b1d63464dd782d928ce8ecdbb74da98e98b5 -> e8155ec0d0eb2fa42acdf90688de8e6d38d60f80bac945d3b12ced5c5beda8d7
+~ -[HKSPSleepScheduleRange succinctDescription] : sha256 49e8713dad8c20a39791e3f42614c32e5101672e48afc97ebb42dcc44ce12bbe -> 205cc4f28717f62a4b5474dc4fba9995a9dc8098a8f5e7d7a6e5134fbb363e80
+~ -[HKSPSleepScheduleRange succinctDescriptionBuilder] : sha256 42f6c22bc1a305010f12d45a58c243d831b29e5aac032307ece9fb1f18b8912b -> fdd5a652193dece57b1aa1c14e89637602cee1f78aecf4bf7ccfde39c523abbe
+~ -[HKSPSleepScheduleRange .cxx_destruct] : sha256 a4792a3d4886fca4bee8a8051dfda3081cea8173f05dae6d2184404419746395 -> 874b09713802229e4fc3903c5e0152c5266bc88d88ae0ea84090ad115db2403e
+~ -[HKSPSleepSettings init] : sha256 7c94b844adc7a1b2b18725afe739df74144ef774161ba17b688fb05378116a5a -> 115979fb1726c28ac083705c8645715ff61f87a93dfa48040f001ac76ca212d4
+~ -[HKSPSleepSettings initFromObject:] : sha256 c004de96ef5aa126dedb618c6772deb018a940cc1c0ed9955fdc08a8baf21913 -> c2041474d063081fb1f382005a72f72afaf7542e53d93613af09365f13681336
+~ -[HKSPSleepSettings objectWithSyncAnchor:] : sha256 d5ba28ef3e14e05c110fad0d9230056a9d4c1d0b2fea5eab45cf5bc5fcc2d7f7 -> 88f178a1d89b249dafb0b759c0c54c07aa2ae052f702354b1ba6a42df1a9d889
+~ -[HKSPSleepSettings initWithCoder:] : sha256 cd8b56328f1b68a38df0b8ab71b3eabb8a9ceb46a6a043a356d4fc3a2bec6d50 -> 6f98e81bcd9bcfdc92203c8f82aead53ae936f54910eb5d6f297a2f12aa2765c
+~ -[HKSPSleepSettings _needsMigrationForCoder:] : sha256 01fbdc6eb691c4a848ff3b09cbe66081c6f57c06badee7d12976de5251ca0c02 -> d8a7fe5a03e6e40865a9eb34c7c7f48a75345a3938ebacda0875da9a913d7b73
+~ -[HKSPSleepSettings _migrateForCoder:] : sha256 7328d53ff5c6d4ec88d2aed6957cb5e732bde7586ba1a933160fedaf784927e9 -> 094ea4fc47134995cc7d9937d60a9e703b294db8692d03e4df21caf89c7d004b
+~ -[HKSPSleepSettings encodeWithCoder:] : sha256 b90ffafb266b529867a3d66b698df49cb0c9ccce3cec1cd4edba1ab8cafa56fb -> ef78b3b70a883a23aa603bfa5eb8237414e51db58976c8c75271bb214b2d436c
+~ -[HKSPSleepSettings copyWithZone:] : sha256 9da8eef85e7c319e14b2d046d6c14bf1991b348ef272ec44836b143cd6c6cd9e -> aa308eaed425944513cd7cee70db4abfc14a6e288349e1bab92b87580eb9360d
+~ -[HKSPSleepSettings mutableCopyWithZone:] : sha256 fa4d41fb75e089291cb0a83e353eddb4d102d261158499a4e99fa59f85476d58 -> 7432f3df54c4987ecbf63bec0fcbc7c38df5e2ca72b2116de4df87196ef4fd55
+~ -[HKSPSleepSettings mutableCopy] : sha256 65665103982523afd07f666d5c631445e11d65912c0447e334653640b56ee9c9 -> 45489a9d362a3e0dff03ae9f2deffdee3da2a85f04d189e0e115d6239c992dcc
+~ -[HKSPSleepSettings isEqual:] : sha256 573bda2a921117119f216627d621f69168ce6ed86023c405dcde5e84c6ac26c3 -> 00cd6d7ddaf80753709394aa6d60e232f43890465d4fc2c6e1b362b8cdd5661d
+~ -[HKSPSleepSettings isEquivalentTo:] : sha256 857ffde978fea47d55c2f4c097db212f16f7f3ca080d0e8c779190f0c9a2b849 -> 710b5f6b9e6356ac2a53bb894876e42e64b2b91c0f1fdd52aef15a7f1e3bac58
+~ -[HKSPSleepSettings hash] : sha256 71fad5538ca24510a13b92b6c08a3d1a26d419277800db20cb65db80d54e61f5 -> 0daacc4784c71ca20c300a83c481dde2347521e1df8f7513939dc830a3d76ad4
+~ -[HKSPSleepSettings description] : sha256 8c7f93466cc2d70b134dfb2cd7ede77fef83ad99689a5b7a85ee8798fc5d9b11 -> 0259bbb0a570edb62f4555d7c6d400d975ded02dc43f39ade6050be9ab41989a
+~ -[HKSPSleepSettings succinctDescription] : sha256 0771fb4cdd94602aee9851959d41afcf21c8d9ae2e6030b7d985b277d3550ec8 -> 5ec8f6541bfe02cf28f6f33ffd59a052cf2d920ead844ca76743862b67a0fe54
+~ -[HKSPSleepSettings succinctDescriptionBuilder] : sha256 eb4861a2a7ef8b92d05584d9b37ec7cdd74875cdcdec671a0a42ece91db103c6 -> d1f0ca4f5180e3a944e0a89932aecb5cc42a1e149240f3df7bb1e8735d1c6079
+~ _NSStringFromHKSPSleepModeOptions : sha256 367dbcf5d91444cbca85554e58cf85eb039e1638b75f32207a76701323ff7a9b -> eead38ddbf570b5454b6d4b794b5f888cabb5126e904177d51fface38776ad46
+~ -[HKSPSleepSettings descriptionWithMultilinePrefix:] : sha256 449beaeb3c173cce0e224380033bfc01e6f4730e2c049b764d2a6502881d02cb -> b299900ed7ed51f207867aaeab37f3e2b71bfa5bc0b6e8344082e1eb924af255
+~ -[HKSPSleepSettings descriptionBuilderWithMultilinePrefix:] : sha256 fa4249ba27fe418d8782c45abd55e38c39170207567e92a1336274157c4c898a -> 912e160d6920d2bbc0dd3ac08b92fa8a3d66a2e2d921ea59874ee6fcc6466bc4
+~ -[HKSPSleepSettings .cxx_destruct] : sha256 c0f2fe31234760f671799cf45808d7c31408435ae7e3a4c655bdbaf1ea98b6a3 -> 80cf400d1944ca9f608ff949f5874a52321fc9a9f37205ce8ad3d06611566ccd
+~ -[HKSPMutableSleepSettings setLastModifiedDate:] : sha256 ac1d1e7d5173d22b0d84746023fc430d787f728545e5803aa7a6b44853cef5af -> 702b95d929192ddd20e374900f68059e60dc08dd4c7987946041177f02f4d06f
+~ -[HKSPMutableSleepSettings lastModifiedDate] : sha256 119bfacedcf2cb09cf4154dd3458a9d156883ed3a13e4c1c7b49d3e0d1b8edae -> e52690e364693b101557f85e9deb155e57dcefb838d093e8c445713eca600801
+~ -[HKSPMutableSleepSettings setWatchSleepFeaturesEnabled:] : sha256 b74f47a3a4f23e3b7b7d984eed58abeaff58b83d7b5275128b44a605de63d2bc -> c7420fb86c49562156088e3c5a6e902fba7b12f364c7240e9b25e6429b06e6a8
+~ -[HKSPMutableSleepSettings watchSleepFeaturesEnabled] : sha256 1ee84fb87d91a63bfe4d5475e6a2bbffbf12c7585073b28fe0b5fabf59c31126 -> 8e3be4a64a9a011fcb9cd487462ad3b94118d67e70815aebffbd4e1b9c2505e8
+~ -[HKSPMutableSleepSettings setScheduledSleepMode:] : sha256 6d358e5cbcbb7a84231bce7c07f090b7995354005bc18b5d485c53f84b98e6cd -> 18133359ce9d028f4a8f5f79c039711df82ed9c738cf03da7eacf3141325fa16
+~ -[HKSPMutableSleepSettings scheduledSleepMode] : sha256 afe66cbcb1dc1a52d15a5d588883841cc1ed164903df2db9cf230351112a64d1 -> e5fe271515525e7f04ef68e80ae99dfecabd4657626e2acca30257ac628b1e91
+~ -[HKSPMutableSleepSettings setSleepModeOptions:] : sha256 5f2e4f1499fc7b8f13bb24b1ce18f20bfb85c759de14b2d7bac02673f38278e5 -> 66c28dfa137ed1e2143e5658b8058992936875930b5ecab4f3e9ef0c8d6b44d9
+~ -[HKSPMutableSleepSettings sleepModeOptions] : sha256 0a7b3a47eda2e7d0443ea4d39a8c793455c11bb085449a167403a17580f584bf -> 927e5f0938deb8237ea540eda67be97eef3f696d31c1325b01cf176e39accd05
+~ -[HKSPMutableSleepSettings setSleepTracking:] : sha256 c87920a01625a97a2ed691dd47031b4be71dd0a2b288ca1bbfb968d081d21bb2 -> c00255b28e2890b727cba9b15d2976ea2132dc2860b55bce5a1460c45bf0b2dd
+~ -[HKSPMutableSleepSettings sleepTracking] : sha256 37269dcaeb49c44280052d3567e0dc7cd4b6f14899d0d82aa4d1399faebe22be -> caaa48188598b1902544f5b9a54fcfda05ff9f78af7f0bc134eec58908bb56c7
+~ -[HKSPMutableSleepSettings setWakeUpResults:] : sha256 c72d5734c7c5a6f1b27c2c9440cb811879bb06a41cad6df6c49abc880dabfcbc -> 38cefe4aef3fa614e239eb7d40da23ecd39ef03025576430d81287be70ac8443
+~ -[HKSPMutableSleepSettings wakeUpResults] : sha256 361dfceedc8afc61f97d010f2e4cf3f96558d754d542ede0bab72533b48930c2 -> 80c24b5d52bddca1e808f977c55dcbf1c4256e6df8e8946c18c677195940b623
+~ -[HKSPMutableSleepSettings setTimeInBedTracking:] : sha256 0482a4d0a06c1a3f028dccfbc4c020b77dc24acdbb6bd7524d03f2ff175bd2c8 -> 41d6493ba32e4ac6ed6f7165cd2ffab6e9b2b990bcc3d2fb0e5156a82348ae1d
+~ -[HKSPMutableSleepSettings timeInBedTracking] : sha256 da14fb67b5d156970383fdb130b695861caa930c08507eb5148ec16c66805be4 -> d0c0c13ed3e6eb909d5778c5d8160eb19e53ce801f1c16c5d752cece32056e3b
+~ -[HKSPMutableSleepSettings setBedtimeReminders:] : sha256 096442d9c74bf5e185c3c1ce8d7ab14d91cf4af1721e885d3068a3c1e646f105 -> f2e0364d4c35298d9d1d32023e4f9696185450fd32f104acc07c92a085e7e841
+~ -[HKSPMutableSleepSettings bedtimeReminders] : sha256 0a504246ba4ebbc74d894019071264b611d8502dce1f120074bfb708d8518020 -> aa9c40f0dc02f1d08d8b8aa73ae32d2732ddf1ef978329b6a31be8baf10cdb55
+~ -[HKSPMutableSleepSettings setChargingReminders:] : sha256 d448791102136370bc95efa84c1d852d45942c2a8cbc6dd133dba3dfb7130f9f -> 36911df41cbc8c3a257abe39981207a02fb2136bb5128916770d0329a778ff4f
+~ -[HKSPMutableSleepSettings chargingReminders] : sha256 0882acc811b52a66a43316c0aaddf6d3a5829f9af1c52ececa902866494d1dac -> 043fc41c9f579fae61a1afa633673beacae99faf6557a5fc2a6db4e7f4e6b6b5
+~ -[HKSPMutableSleepSettings setShareAcrossDevices:] : sha256 729b529ecb6b0d02e9d905380fe00866b49cc18a434326c7c1af908c7c06432a -> d2828cff587fda1164a468951e7543ce0c863cea685c11df1b6e713b21ab3b1f
+~ -[HKSPMutableSleepSettings shareAcrossDevices] : sha256 46a5775a5ede378b36502a24b310efef562355c93f8883cbd80be1be22762c8a -> 88a2cf4c2066a588c0c9de687f7dbce51a7db340acce11b30f455b87bb44cb6b
+~ -[HKSPMutableSleepSettings setSpringBoardGreetingDisabled:] : sha256 4c8031ae99b66e10a7d5b65d22d43bd95a35db7f00b75885ee2d9b9968f13a65 -> 0ed203eec0cdee889a51a9298cdb06db5bbbe48dd11f41f0b4e49c93cde85d76
+~ -[HKSPMutableSleepSettings springBoardGreetingDisabled] : sha256 2b076bf0605d71d9c34d38d60187c06c214a53f427926e27b39b652c1aa594bd -> fbea47d5dce581f063b9a10527462e4a8590dbd75dde9ec7e911067e93e2076a
+~ -[HKSPMutableSleepSettings setSpringBoardSuggestedPageCreated:] : sha256 23365f1ef1180c0f043cfa2bcd263f018490397d73f7082d0f8fee87fa3431c1 -> e7aea329edd40d2ff4f0410c238e794696b24390b6b211308e2fe4cf765687be
+~ -[HKSPMutableSleepSettings springBoardSuggestedPageCreated] : sha256 abed553505327aae2b1dc871d06c01093c6a0497486ec973c434f73e6ddbe36b -> 3eb07d5e62f0b33fd4de4831dd0558221f104138b11f87dd6ac3c01f845855a1
+~ -[HKSPMutableSleepSettings init] : sha256 a668d73154d874c49ee267c3dbe2f886d12d8a25e16ca016dc7827593e4b8eb9 -> 8b0d05e7abb276461a914c938092aafa45117d1718756b6b386a867ab3044942
+~ -[HKSPMutableSleepSettings initFromObject:] : sha256 0fbca2ac829108c44f2a51d9f726c7079160fb8d12de89cfaadcab365e924dde -> 88fff0a96a1beaf2c3f30fa116e9c0c0c51753f96d89cf4193ff4d6f2e776cc0
+~ -[HKSPMutableSleepSettings initWithCoder:] : sha256 90bdf3f044ed4ee46a7d2d64eabc954b55fb53bd60e39a8d8aa7959fdb6b54f7 -> 267efb1c9fb8663557910583f2f2cc34f7bcb822d3508018db96cc7b7eb387aa
+~ -[HKSPMutableSleepSettings encodeWithCoder:] : sha256 cb7de724ce450be4231f5b38b52917735ff6ddfa70b733b4e9c3c86532af80d5 -> dcabfc279404d3d8cc782b3f60893ccb52fa1fc4bc5ecb3dc3643df844133cac
+~ -[HKSPMutableSleepSettings copyWithZone:] : sha256 864af330500a0faafa6280d5260de47529c97c0f2aa940bac9b2a44d223840f2 -> fbe112fce2bca48ffbb7cf6ef96325344d3f6c65f7c1498036c204e53b7081c7
+~ -[HKSPMutableSleepSettings mutableCopy] : sha256 b265158419fb3c7031aca837bb77d220e9ea82ee747b775d2c1217df991c34f0 -> 3f7b345b518e8b5cb6aed12fad96813a9ce68b2c4df6bb47156ea9d1754046bb
+~ -[HKSPMutableSleepSettings freeze] : sha256 eb6fc7dc2be2e1b31894ffe6a0fb1e3dab812ad95df23c6ed8ac68f46fb3bf21 -> bf10455bb272d759e6fe8e6c3db5331d2ad5699d349d274e332393d9aff90fa6
+~ -[HKSPMutableSleepSettings revert] : sha256 5a4ec636e31b39a3389c0cce2e98203d098ecbc966f4db7a5e3744b8cc50a6c4 -> 97950a6fa076d7134fd3d71e1c40035a3ab23c98d86390b3f9bc06cbd37f7ea9
+~ -[HKSPMutableSleepSettings .cxx_destruct] : sha256 e6fb1a2c0d84376c3c46b26d4933865b0a9b4f62dffd9647e2cad21503f44d23 -> 6cdbd4f9e254770216f4b0fa5e0b625609a5676e0c1f85b8c7bc8032ea9c3f4c
+~ _HKSPSleepSettingsProperties : sha256 424e23585d3f42cd04348b2f9b63f631d5af8661bf27b9eefe111c6907175b0c -> ab9acc2be6b1980e5d1c88b0053fb57cf5b88e7aac4b664c2b2f4968fc3e284b
+~ _HKSPSleepSettingsPropertiesForPersist : sha256 d6928da93352303dba34a1554964971a7a9bad39ec8e4d3ce249537509055018 -> 2bfe88d4899abbb13aba290a060e4810fbefc86491b55d4bc07a7c743127ee5c
+~ ___HKSPSleepSettingsPropertiesForPersist_block_invoke : sha256 654faddeded5b0dfb3f0873b8dae765981f5087f41966076d9de9b986a67e06b -> 4ee9fc69846508e3438ea800194689009ffa2f0d1746d17808c96ff631ae3543
+~ _HKSPSleepSettingsPropertiesForSync : sha256 4d9e823c69e1d7ac11ef4d36451c2de4073157f90f6a731e9b855857539ea5cd -> 78c38f3cc0d78462970b4da229a234d5a041148e75453b241e89769f050b6234
+~ _HKSPSleepSettingsPerGizmoProperties : sha256 0caa5b0c69e429a152cf6702593dfe548be52a6ec848a2e688e417a3472f468c -> b5df173e02d1076248a319f9e77c203d23dc428001d2aa06a71158c6b40379a0
+~ ___HKSPSleepSettingsPropertiesForSync_block_invoke : sha256 8f58e3f289d3f46710c05f503e2411d2fb4a024968eb25f31d657108ee12c640 -> ed440e88407368eb8ab82fcbaaff49ed8de8a65be1f33eadfb2d326404c3b482
+~ ___HKSPSleepSettingsPropertiesForSync_block_invoke_2 : sha256 20ca79a3916bdcbd5922cf3de14ca3ce9fff238e5d1e5c447774a9ab89406cc5 -> a6ec3078af0fb8681317b60b04e6b3e7729c7e56f1eb945923e7c0a35d33c738
+~ _HKSPSleepSettingsPropertiesForEquivalency : sha256 1d208bdf422c38bdbef1db4480161a8d82de31f6b9bf847764b7be4a97f89f21 -> 8a1f364a2fe375030cb59fef4d781747a9b06487963d87ff19a86fb8b6f6170a
+~ ___HKSPSleepSettingsPropertiesForEquivalency_block_invoke : sha256 fd7ce1b6e034b2d241bedaa25c34109e3fbc0cd1b8e3d92d3cbc1222d53500d2 -> 9f1d5245fa73771a7efe2cda104b8bd9e617c782b0434d9f64bcde5c7f63a90c
+~ _HKSPSleepSettingsPropertiesForSignificance : sha256 f12de58eb646783f2168c0fc6d51405fadf6ca12b3e41d7e55a2f3e90dfed134 -> ef82744c61bb66168a01b7765df2b327749858fc5b5c3c4618715870eed10a50
+~ ___HKSPSleepSettingsPropertiesForSignificance_block_invoke : sha256 f34c75403d7f0907dadec52fecd2849bdbd9ed9b056dd115f54210545fdbc3dc -> db874350e3426a957dfc321460349ce89efa392cdf5825195355c1254c60ad81
+~ _HKSPSleepSettingsDefaultValues : sha256 72fc06fa25a4a4787fcdd9cd6b2ede06ff5a3c803e5589be0ece3747ee66397f -> 92ea1ea45dd59806786e25dd3224c39d617f2f14836c9f530aa750c1285e32fc
+~ _NSStringFromHKSPSleepFocusConfigurationState : sha256 970ddff1c962166e0d8a2b7e5f94f0d0e6fb2047a97cb897c63bcd5308bbba61 -> b1cb03281b877aa0e00a5d0fed94796de24f550a042bf29e520be994f112b3d1
+~ -[HKSPSleepFocusConfiguration sleepFocusConfigurationUpdatingUUID:state:] : sha256 1f2e4034ca646f7516f7bcb2ab39225d19b0a024f3423cde7323c8d621a4ead8 -> d07c79816dcc61abd3c7f86f0872c77c4e69d5e5a17f52b22d8efdf6fecd1c12
+~ -[HKSPSleepFocusConfiguration sleepFocusConfigurationUpdatingMirrorsFocusModes:] : sha256 c0faa60449540d9ccaf91624dbfa67af525086714a07da9a7812fe638bbb0ef0 -> 33f8024ea661a16153d7e68facc26a05284831d76bfa6d2b27f802c8996f7d66
+~ -[HKSPSleepFocusConfiguration initWithUUID:mirrorsFocusModes:state:] : sha256 7f6c5c87022e6dc93af7476627bd8a5d7edc1f7d1c301d3c8c45c3454ef4f8f6 -> 0c2f8fa86adc8cd1153cfa458d4f4b864631b233cd3005e560ddcbdb9a7dd0b9
+~ -[HKSPSleepFocusConfiguration hasSleepFocusMode] : sha256 672127a0b0b87f3eab8894d2eedc7f62012eef47f4662ea68e611e77ec0617a1 -> b0243012eed1efcc2a7dabcd0e7e75588d0cfc30050b27e5b3b5b66c0fe9028e
+~ -[HKSPSleepFocusConfiguration copy] : sha256 6ec8fe99bc7176781a1c00bdd778fd7ccf791961a81e597a38938501993f6f50 -> 37b990c88c52ef76f7a040f19ba40a4f7b0e3491d12809115c80a4d7ea11b78e
+~ -[HKSPSleepFocusConfiguration isEqual:] : sha256 babec828c6b95f293283708242854d0378638d9bf930f5b31f0452ac0015a2f5 -> 93b1c5044c494645dfc70220ea7cf1030f9254fb203143f8ee267b65fd2d4600
+~ ___39-[HKSPSleepFocusConfiguration isEqual:]_block_invoke : sha256 f0e963962a4f7407cf48dfe3df8f957a7851cd9c541f2dce806d0a3b7c24a010 -> 37b53234c445cde68a32d9d8e86ea70236d75717524d34bea988d79a6ed5bdce
+~ __39-[HKSPSleepFocusConfiguration isEqual:]_block_invoke.375 -> __39-[HKSPSleepFocusConfiguration isEqual:]_block_invoke.381 : sha256 52fdfba77b4c9468061d2b3ebf86b7bd8879d58f4338e3cd34a8c0d90aa210fe -> 20833f105bc122808a346e6c3f6bc28cab15c321bf1da1305fec9ce565c2db75
+~ __39-[HKSPSleepFocusConfiguration isEqual:]_block_invoke.379 -> __39-[HKSPSleepFocusConfiguration isEqual:]_block_invoke.385 : sha256 5f8c60241c6c90a41276981733af53e14c99e1ed3ca70b9e58f6ebf9da965e4d -> c703c520362bb1b3c6b6dad1f051586150e5699152d96dea72a45f961f1617eb
+~ -[HKSPSleepFocusConfiguration hash] : sha256 ed6b3880be1a1d85e2eb24680768f6bfc9858a9f061bf9a777586546be148d78 -> 6fc7bd8fb151222265b8f0eb78408c459981ff654835b5503027f6450845e086
+~ -[HKSPSleepFocusConfiguration description] : sha256 8fa57765375458949170d775f7e5132194dc888a1df457ddf022768e121c5af5 -> 66851ff53674ea90b70fe70dc03b86b3c7192cf853d6f31fcb7e27725e4ef02c
+~ -[HKSPSleepFocusConfiguration succinctDescription] : sha256 114bba002e81c84b4a81a3338acb6e0e1ba9b0cc4522fda63ae8db339897d280 -> 6209ee941354c71dc8871cbeca74fc30359fc01fe85399a53db055beb9b110ac
+~ -[HKSPSleepFocusConfiguration succinctDescriptionBuilder] : sha256 accfc4bb9c8252b2b67123d75b6e1d7670f8060fcbefde22e25310d69f29ad76 -> b4ba94c35cd2c004cc12e81a65b39e55f639c0010ef49065c37e1571358725f6
+~ -[HKSPSleepFocusConfiguration descriptionWithMultilinePrefix:] : sha256 aa03d9742261d955f746745e9fc0f943b358f2e5e5a6d3f0cf4f70a1acc389da -> 36d10f0e90be0b7b4b9d6ad9443bbecc7d7c6fa7e4a6e42e69a520a09ecae5d7
+~ -[HKSPSleepFocusConfiguration descriptionBuilderWithMultilinePrefix:] : sha256 de4582db7c85c17a574ee0a20c5a7c07277b176bfe7663ca0a43b7f3d1372f31 -> c1a6d1eb9ee944e218085787476521efa3476f12dc2d3d5a3ab7c78f9e36db39
+~ -[HKSPSleepFocusConfiguration .cxx_destruct] : sha256 c6bcef4caf538afe9b37a40d4876515d666c7612fecd54b7a8cc3445c57e9d90 -> fbe6d6d6caa3a38204f572d54d0a1cc69495441a7c3b356210373b6f43a8951f
+~ +[HKSPSleepFocusConfiguration(Persist) readFromDefaults:] : sha256 02b04aafbe64b0654ffa3edafb5b133869621a96889ab3abc73b95b9f4a04154 -> 06c4657591ce6cbf5aef6d4f2e4189a4760cccb4173d461663f36ce6c8078cbf
+~ -[HKSPSleepFocusConfiguration(Persist) writeToDefaults:] : sha256 cb7a830b83edd05f5b7537d2b8d7141f5cf134b225ea8c61072aef5dca6bcc47 -> 4be64d726f03031ae9afa8f22f6a7de4c626655f9c4c02fe8da55f9cebe6db8c
+~ _NSStringFromHKSPSleepLockScreenState : sha256 1ce992693997c3b4c5d08fd596d2a6bb20344f5bc511973badc680ea75626848 -> 9dc49bf098f0d8ad976dd53e1b6533ec95b9ec49c10637a2fce2271e0b504210
+~ _NSStringFromHKSPSleepMode : sha256 9ae5a46a0f44f155dcae023c9dd594800adb1c192850ff4fa82beb5716eb9d0a -> 706c4811ad7ce9fd0ac3cb5fb42f86cd1a5e55c99f144df0bd11112a7d289d89
+~ _NSStringFromHKSPSleepModeChangeReason : sha256 fdc2d220398f96af77083a6bc9c5ad36320dde01741c9934a9ab5d45cabe41c8 -> 55a2dc39af4dd5c91740d4c159a04ce20804f4d9ca0fc014edb5d5ed29b7726a
+~ -[HKSPSleepModeObject initWithSleepMode:changeReason:syncAnchor:] : sha256 b417a0383e729c04986e4aa292a7461a0bab5d2d75d4d3bb9eb71925303c0f86 -> b1936ad6196a61fad7bae8a40c94785d50c11f001513f958f96b470ece5ce699
+~ -[HKSPSleepModeObject objectWithSyncAnchor:] : sha256 e5dfad502b65b3cbe583b9a8793d4426c87817a8ff1da28b40bcc28d43438802 -> c061b3714976160b7f2744102f0c8ce04a515be71fe7531408509b8f5e7a495f
+~ -[HKSPSleepModeObject encodeWithCoder:] : sha256 be3a4c5001921c26d0315eba18f20ce0c5aa604c9ad37ce584af0a01bef1545f -> 9ef00b7b5a116313383ed1e1fd0f4f87626531531212678828162d2b2d398867
+~ -[HKSPSleepModeObject initWithCoder:] : sha256 ededd1133be981e74d1a9a268acceb236ba98bf8a1be121465cc01ee4112b89e -> 2bc07ba38a4621f29e2421f11e29420a6e9eee159c0793a116236bab951834d1
+~ -[HKSPSleepModeObject copyWithZone:] : sha256 5361b10f8c918df9f72bfa9c62d4414f55e757d57ad0a5f1275d99be36c96ea3 -> 05f7018ebb21877d85b744aa14182afc4defb907dcf4ce0cebc42cc99994f6c9
+~ -[HKSPSleepModeObject .cxx_destruct] : sha256 d2ecd21d0cc37985363a2a046bdaa930bdab279ec403fc24275e232710a9d2bf -> c1ae2aed83a0a083a5e187e10472c32fe288bed9e869f92b73354e4fcd017047
+~ _NSStringFromHKSPSleepScheduleState : sha256 0a112c72cdd981e22ab7149df91562cb7bdfe02a79ae1f4ca1b3c36b10f49c3f -> 4b9847ebb3dcac8923531d148e42912c3b1f10ec069a0486659236800bbc575c
+~ _NSStringFromHKSPSleepScheduleStateChangeReason : sha256 f67420764b1d3831ea5cdfe3ec24c1bec4a7415b3189f10ec51c0634754452dc -> 78542e47be8f62bfa895e66e090b15fdb29718c9af8fef7e942f59986c3dd680
+~ -[HKSPSleepScheduleStateObject initWithScheduleState:changeReason:syncAnchor:] : sha256 4a8b51bf5db7d6f6603436efa97d2375b175e49186c23cf5dfbcb51dd445230f -> 4af612d6c716e625a57b93f1dbcfff2202fe121c4783d60d48e24db46cf1bb7d
+~ -[HKSPSleepScheduleStateObject objectWithSyncAnchor:] : sha256 835f4d8bdcc22b75059d31a5564ad206e168e9df863e1a3c1bbb9afee509ca1c -> 928670156ca441c7aa0d26fd1631738838dca2ff95b5edcddaadc892c406f54c
+~ -[HKSPSleepScheduleStateObject encodeWithCoder:] : sha256 4d11e2afbc0848f3a28d53b23a2f48298cc27061fd2c2cc4cb3d32f356df278a -> 801746f316e129027623fa29fccf4ec11a7386662216de1161413561b91fc96a
+~ -[HKSPSleepScheduleStateObject initWithCoder:] : sha256 1aa2fe4e62f50d9ba80c6a9d199b657b8946b86af6dba38fa39b1fe4755e49bd -> eb973d00e3a48b537705102842ee3333d2b13abb43a18d38727dd3bf97603776
+~ -[HKSPSleepScheduleStateObject copyWithZone:] : sha256 6744b311267553a923cc678a13d6dfb625820d142e0116bcc7f2255eb1985c0f -> 0031addbdd5a03f7d81ee402ec8b302a89fb04bba8a0b945580d82337546d100
+~ -[HKSPSleepScheduleStateObject .cxx_destruct] : sha256 60efe794c953307141fec850a80f0d0a97c840c0e9254c3e2a273cb71852387e -> fffdd2fb1b696790351b31616b4637dc09f2e598fbc2611a3c21e0a694ec655d
+~ _NSStringFromHKSPSleepWidgetState : sha256 adeca26742fa3db20b052706b697d7b897345e6f053cdce56ed7429d654011cb -> 8aac8f1e0b73ce87ad8af4436ad43cc3ae38f495b59f6627ceb79793d1c43653
+~ _HKSPApplyChangesToObject : 976 -> 972
+~ _HKSPEvaluateChangesToObject : sha256 458640ad45a66f15476c0a32336eca60fd3293e631a7d66533d7545ee50966f5 -> e919e2dbbbad38dc52df7f1fbe381734ecce3fc63fd318625a2c9fd09cbe013d
+~ ___HKSPEvaluateChangesToObject_block_invoke : sha256 a944ad5334d1b0b30d19d39b53e0c2630f90273571f1059357581b83cc90e21e -> 4acf1d3889db9664db3c944bdc8902a74ef5911e984cafa6567c6f49ed22c3f6
+~ ___copy_helper_block_e8_32s40r : sha256 31c7232ad9e6b1a2b328bafee65b9d8fda7b149c279a46669d7b8f8d4efe3967 -> 9e4189f9dcb0b0389cc8ea91ff1bf55b2840c05c2d0c7a80d9cde91ddd810381
+~ ___destroy_helper_block_e8_32s40r : sha256 8604464792835329d953903765b48c0cdd1289d715ae274901f1323ccd887dbf -> 78e775db279bbcbe4fdd32a768fe9ebca3403a7c16c5aaf9a79d0e0efce8b8d7
+~ _HKSPPropertyIdentifiersForProperties : sha256 2ddd053cfdf81c56b3d48a198cd1df2b4531493dbdd4c594b0d635c745010e1c -> e9135995f98767e2ed591593d70c885a525008eb285aaec3c2f8485295e4f5a0
+~ ___HKSPPropertyIdentifiersForProperties_block_invoke : sha256 861b021d0fbc71af1d1b6d273a84f268e71e5bc2a1b7afbd1b0f403836c75e55 -> 5c36829a314d9b806a95cf454c984645ece710f800b65148c71f5bdf7f0b5805
+~ _HKSPPropertiesByIdentifier : sha256 e0845affbcf3550fe609d07cf5918ae860e94e616701d164310a2171a5071d7b -> 21ac362ac23f9844118c09a8f68a467905cb0e91d98cb4300af3b422ca620a09
+~ ___HKSPPropertiesByIdentifier_block_invoke : sha256 6e153fc40630e733a1e55f8f6a2bc2dbe807d023f5719954f92f9228615936a8 -> 2517aacaf9361e4d35f121715e19a42bdd09bef4e56dd766ffcc9f95e608a1fa
+~ _HKSPDefaultValuesByIdentifier : sha256 fc7cd57a5f5dc13d2674c5fa3fdead05755f5bfaa07ef073506fc9faf8694bbd -> 5d41e60011bd7eafdfe1e09f413b2dbc62c765acd8af66a811af087185654a25
+~ ___HKSPDefaultValuesByIdentifier_block_invoke : sha256 851a3f6a27080663acf82950f57afa2c3b52532a37294d857d1adf57d1fd7deb -> faa430490dd5ea62200a98bf36c9318e97ffe5e065b7a03f80830a28865dfc11
+~ __HKSPEquateObjectsWithBlock : sha256 db718ed3576daa4cc2644890da9f97a6706c0b332c09bc3b11c0a336785c157e -> be5c6d9d687f404e1ddce4f12690c1540afa81bd0f958d882cbf048415365a90
+~ _HKSPObjectsAreEqual : sha256 104e3fd1ed5f70c5b423f680e8a9917706f5f8fe3e0127c19e2d24711052c4b6 -> 36172430a531bb374a02e0f21a28a066ca97377a4ec73d68064e711b447ffae0
+~ ___HKSPObjectsAreEqual_block_invoke_2 : sha256 c61283fc067f4258d47cea23c33872243186ce80ee98f261f239225952af784c -> 7d8a79ee05fe8f106769e555a4417eaa69ab355e2ed09e1daadb42f7f5240929
+~ _HKSPObjectsAreEquivalent : sha256 2a2eea042a4c8bdef69b15895801d0d5d90501d0038ca31873040617a3492045 -> c9509f7b83e4c779ea28be2809f9158c6e5e63de4440f27123f96f23ba9f6e7b
+~ _HKSPObjectsAreEquivalentWithTransformer : sha256 00dcce778a15e19f076a673b9bb56146b79fc3d3333dee40f34dcbf7580c1ba8 -> 6e66130bec555521fa5737df6b2ef8fe3d7774d6ad950e1d734cd6872c7e51da
+~ ___HKSPObjectsAreEquivalent_block_invoke : sha256 bc2f1ea4d73c79382104b54df56047649db56bc88ac97b7304c5d9644c763691 -> 334e20a90d9993512a8b041e396806cf759aa7aefc4417c1778198d3206c5c7e
+~ ___HKSPObjectsAreEquivalentWithTransformer_block_invoke_2 : sha256 3c12e0b5a4602919cdad490f30d947f79b098a680cdb06d925842dbed87030f8 -> d066859af1715adb61bcb296b75e4ce040f8f650cb03831a02b440caa0fdf741
+~ __HKSPObjectsAreEquivalentWithTransformer_block_invoke.477 -> __HKSPObjectsAreEquivalentWithTransformer_block_invoke.483 : sha256 510707386b3a596a6b7c4e813692150f69566ecbf02f1debd2c101b9e9018f43 -> bfd4b638e77ff862d1f0d42d89344a9e5212d18884e5278ecf4d1bbc258f69f8
+~ _HKSPHashValue : 396 -> 392
+~ _HKSPCopyFromObject : 488 -> 484
+~ _HKSPDecodeObjectWithCoder : 344 -> 340
+~ _HKSPEncodeObjectWithCoder : 344 -> 340
+~ -[HKSPDictionaryDeserializer initWithAllowedClasses:serializedDictionary:] : sha256 79d1f9baeeceb54e2d89fc83e95c7d7f795a9a67d8c1a4c8c61064e4e4bf2d8c -> 121fe877ad04ecab49672d7ca7130584bad3524d3c51c14e1a3ca52bf24bb065
+~ -[HKSPDictionaryDeserializer initWithAllowedClasses:serializedDictionary:serializationOptions:] : sha256 5cb7613fe5afff37b6dc866cbe013dca2322f586eab6f4d5f86c24422f714264 -> 6501cfa8c5e541edb2188fa8e54bcc50455ea3919aec67fa5eb3839ee240cfe4
+~ -[HKSPDictionaryDeserializer deserializeObjectOfClass:error:] : sha256 827810a4b9c3168128aa087cb2dbb9fa4fecb31f2194f43c8e624024f9732eee -> ba3893dbd3178f8b7e98c805eaf9c8de8c445a349020631573eb484e9dba25a9
+~ -[HKSPDictionaryDeserializer decodeTopLevelObjectOfClass:forKey:error:] : sha256 71cc11fdd976a266241d8048662935d6eba49a1d7febae0f355a6a0d6c019671 -> ccfdc28783019c75b14302c5c5b66bb164af89577062c08da8954f7479a745ce
+~ -[HKSPDictionaryDeserializer decodeBoolForKey:] : sha256 d623dd402524fcecaf8528121f43d832d4da182ffc288bb65b01a90fe4764050 -> 14ede8735eb77bec630c541db748b5ad68f8576e5e801a8882e141cb50eaffcf
+~ -[HKSPDictionaryDeserializer decodeIntegerForKey:] : sha256 cf1994c9fb05570db4c3fb4a7588cdf4169746ec4d1dace7ac447a1569cddafb -> 129766ee8f5827d23aacf4d77105f43f61a10d4bfa2b8ff5bb577f9f80dd03ff
+~ -[HKSPDictionaryDeserializer decodeIntForKey:] : sha256 bc43dec31e952e44d7968141bf4f0a063a9833c73a74cf04e8cca622e53b4cdf -> 2739525e63c2240ae0af7cdac42cb1c39042ed130b6aad4c5dd145c155f9415d
+~ -[HKSPDictionaryDeserializer decodeInt32ForKey:] : sha256 bbd7f17f1e56138fe5e715a18879e8718977c0e2007dfacbec704fe17fc25908 -> b3d5f11200432315930614284f7c458735a88353c1cfdf067db71345eeaed60c
+~ -[HKSPDictionaryDeserializer decodeInt64ForKey:] : sha256 dfdf8eff8ceaaa73bf46e1bf4699f8c417cdfca99d23512d14a7a5ffa0e92309 -> 409791b8451aff3bc6799c0f64d98dac4d016528c7f62c9f3894f1bede23655c
+~ -[HKSPDictionaryDeserializer decodeFloatForKey:] : sha256 4e3757068442beb13213f60592b36ba6ad1f14b5430d1a7a438ff46ef6c592b8 -> 90ca9f7939bafc1f61c1f299cc5b47e2802eff84d395784b1f6a894447d77661
+~ -[HKSPDictionaryDeserializer decodeDoubleForKey:] : sha256 b4452d1aca1d9e3381f17fa7e92b6e411c2248d88b409e1a57ef55058e6b4728 -> 9052045ba42b5a661330cb07198244f7397bc18276c663fe77d2cba066bfba24
+~ -[HKSPDictionaryDeserializer decodeObjectForKey:] : sha256 ca8e0a192df10433a903023b8f3e6bd1fabe098182d5a1efd681ce4804eb8ee5 -> bab2496b09dd67caac816f79d142e70ac1405c6c2bb55db89eefe3df43c7846a
+~ -[HKSPDictionaryDeserializer _decodeObject:error:] : 784 -> 776
+~ -[HKSPDictionaryDeserializer _decodeDeserializable:error:] : sha256 f7840d50c4cc7acdb0ca1edd2919a91cfefc82502017a238f5a466f806157c2a -> cbca1b4f305d03d29f7b050e92a4b0a07ec8f7a13b2915a0e1d057ce19e5c5ea
+~ -[HKSPDictionaryDeserializer hksp_serializationOptions] : sha256 6bf5b797bbe6385f1976e93ceaedbee738421f40360475fe9bc2c1db538f5c6c -> db97adf78d33fee34386f11248f5c2cb9dcf33e78f8bbfb6a92be1f1b5242b37
+~ -[HKSPDictionaryDeserializer hksp_decodeUnknownPropertiesForObject:] : sha256 babb02cf4b9a644743e904748197cb82f7d94649cecd4b6acb70d94a2d3209a5 -> f144f58fd4375655342aa8fbd761fffc41482c4603cad77cc9d09d15a1e0fb3d
+~ ___68-[HKSPDictionaryDeserializer hksp_decodeUnknownPropertiesForObject:]_block_invoke : sha256 732d4ae7e5be77a140b1a9ed27f0db5a67627316420d9c4edba5b621a4e1659b -> 581e90917053c99d3d6302cd019795262a8d0b11603fa09956a443f39fb9d018
+~ ___68-[HKSPDictionaryDeserializer hksp_decodeUnknownPropertiesForObject:]_block_invoke_2 : sha256 2be7e654df573f5196ea62881368b0a26c0960a00d45611eb2490df294b2baea -> 66a271571bfb91623fb366d004b8f1cf5717b292323612450ff8e74debea55a9
+~ -[HKSPDictionaryDeserializer allowedClasses] : sha256 f1b077b6a4c72f8052a9855fad31964c71d220c331d944f36d8e04d7af6e0e1a -> 6688a445c0a6abb02e4957a1900905c845a8b45f9c857724e1355ee5a8afb1b1
+~ -[HKSPDictionaryDeserializer serializationOptions] : sha256 6bf5b797bbe6385f1976e93ceaedbee738421f40360475fe9bc2c1db538f5c6c -> db97adf78d33fee34386f11248f5c2cb9dcf33e78f8bbfb6a92be1f1b5242b37
+~ -[HKSPDictionaryDeserializer serializedDictionary] : sha256 4c6dd4abf21d72403ddc134af7ccc711bdd695792861db68ef20366cd02447d2 -> acdd819edc8136e571bcb255199ea7ceecca15edbdda57ec39576dbc95917494
+~ -[HKSPDictionaryDeserializer stack] : sha256 a576c98339922e8083546b480d65f200996a63ff9839cfc68a8fc9bc04c4ced9 -> 74b5c44b6e7d05cf781dab372463469c7bf8401964cc66227f7c93b510dc33b5
+~ -[HKSPDictionaryDeserializer .cxx_destruct] : sha256 e4f0c5dd4618da7c9f36036b90901fec463a20939ce5957acd88bba17b050c2a -> 737ed050f176606f9d17192a8e2c1c481365dca414a59e9c5b08e8a9679bc831
+~ -[HKSPDictionarySerializer init] : sha256 3db958e30f8abbc2ac265bd809b125c74b06beb5cef32f97649ad374021d1d44 -> a230d2863c6d05ea281ed8d9f6f9747ae3f949d037df4590762f92a995ea3e79
+~ -[HKSPDictionarySerializer initWithSerializationOptions:] : sha256 53430af9ed8db920baf2b55a21d7e6b966435b3656dc3e7a15cd46b1152257c1 -> 8a67d99bee8f8e13a4bd6240861d14ae6c87c8fecd66b6394ebed4db78338e2a
+~ -[HKSPDictionarySerializer serialize:error:] : sha256 71f03102565bb7d263de50b69855f542794c1f90af2d683ccbd0338446924acf -> fd4fb7b69a4f4a508951892db18611c70c33c605df52328f478b86bd711c06e1
+~ -[HKSPDictionarySerializer serializedClasses] : sha256 d1f8e2ee62052aab501495c6083d26aed2e9d17513bf46840cb680ab9c4aaf7f -> 3aaa4e00ce0cebb2d211fd21175c0f2bfad3cc9a55509292155c14df638de22f
+~ -[HKSPDictionarySerializer encodeRootObject:] : sha256 327b89b3e0bc44994d0ead219f5526452520e92e35babaa80dee93ab3eb7862e -> 270fc84d0432917d0d6140eef40615fdd4a9b61cc9adb89fd8f0288f2db3aac1
+~ -[HKSPDictionarySerializer encodeBool:forKey:] : sha256 0baf0abe70c68a89452aa85cba43e7c4962636718c7abdf4c0e208f2bd91b5b1 -> bf61027203859f2683f810170814bc8105e26c8db675a0651fd3677987530dd2
+~ -[HKSPDictionarySerializer encodeInteger:forKey:] : sha256 1d5e0c819ac03c946fe67af9ba555b2cbe6091cc31e0f4703dd6c863ab877885 -> e432536c2dc6ffc9f7627fd733589b2dfea4d4cecb96c168d018db086109c5f8
+~ -[HKSPDictionarySerializer encodeInt:forKey:] : sha256 18949f44180013f6dc732357d55394979efc7f9a9a125913ffee41df5934c245 -> 4245f7daf364ee2fb6bfe6ae766c580d141fc65ea48a9299813422bac772ce25
+~ -[HKSPDictionarySerializer encodeInt32:forKey:] : sha256 3753ca2ddc59d8e9abeef4f48bd90bc724008d69fdd8d8abdc6642a51d7b51e7 -> ef4fb2c34bd382874bc7ddf21aa13ff7d05b7bd6158d2d6cf530551dbf334fe0
+~ -[HKSPDictionarySerializer encodeInt64:forKey:] : sha256 dd325df71f66de92d463afff330697fa5c3f00b0340dea1199254191bd9450b6 -> 11a8554e9d4c4f3cf2caf03c86e58bbe131c7300ac153d53ceda4d85e95c562a
+~ -[HKSPDictionarySerializer encodeFloat:forKey:] : sha256 af6077791a25e0bb41effe166938ea670037289b4efbb3ea491636ece1fae32e -> 40982369db87d37eccf01f6fd09927fdd7a7249d4cb0afa6bf84341a848ce519
+~ -[HKSPDictionarySerializer encodeDouble:forKey:] : sha256 a89445b05d8ee32f403deaf4201fb6e61cb94a93c943b0c047b36f909514de62 -> e83b39cf533350be332c2672f80520e679c5b797139d34d89072a3893746c380
+~ -[HKSPDictionarySerializer encodeObject:forKey:] : 892 -> 884
+~ -[HKSPDictionarySerializer _encodeProtocolObject:forKey:] : sha256 66b91a0a59b62c536a3a4709a4b7de8d43c17021b0fa496c1b87bb8b499ff545 -> db11f751bf671337c1d919b40d05332f0ef1e946b29a1a7494b80db16c819c5f
+~ -[HKSPDictionarySerializer _encodeObject:forKey:] : sha256 83227edcc84893b0bef5dcfb242e91e4e20d930954252dcd5f1684fbf2a871fe -> 56e2fd89b4ea855e7ee6d4bef369cc1884bff1dc3b06b0f3f8ec3e64e9aa90c6
+~ -[HKSPDictionarySerializer _dictionaryForProtocolObject:] : sha256 d5884e332983e254e0751c623fffea3bf4ee67155c123a27472e36a092be2bca -> 1225a38c8943de7d24720f4f62972e83af5a1acb48b0293e492ed0f11d451c28
+~ _HKSPSerializableKeyForClass : sha256 0ee5a22934ad78510df699c70cd420b3bab10e20644f9e9b139a06b97b8c582d -> c177b41c904910ff6cbb29fe708898a3c49edcc7ef38aace80640f0bd29089ca
+~ -[HKSPDictionarySerializer hksp_serializationOptions] : sha256 4d846436d21a1f02226223ab72a639fa1478367e5d9ee4c493e3ae4b4fcbf0dd -> fcdb3cfc763522552a5c3ece7304b01128930240c2e5e1936246b02fedcba9ad
+~ -[HKSPDictionarySerializer hksp_encodeUnknownPropertiesForObject:] : 356 -> 352
+~ -[HKSPDictionarySerializer serializedDictionary] : sha256 8080acd04b65c59730e693b0d895c5e3902723136306a6be9a45157f8a188392 -> d04f18ae63ef2a08de162bfaa34fc8b71556cfabe4fe299894ba42d1eb4add8d
+~ -[HKSPDictionarySerializer serializationOptions] : sha256 4d846436d21a1f02226223ab72a639fa1478367e5d9ee4c493e3ae4b4fcbf0dd -> fcdb3cfc763522552a5c3ece7304b01128930240c2e5e1936246b02fedcba9ad
+~ -[HKSPDictionarySerializer internalError] : sha256 a249137895c2dc47af4d04718da6f67ccde559ec76186107447efdd69a43a379 -> 37c139aaaacac52dab26c84341707c9524a62453a8e78060e1c95b0d91fa7b2f
+~ -[HKSPDictionarySerializer stack] : sha256 308bcec698c4a61c1bf5ce8dbdf2e5358ff3972b12138f8590834ea36a916c62 -> cb65a577557da31f98e325c17123f2e59a67631aa019611ce226bb939f118367
+~ -[HKSPDictionarySerializer mutableSerializedClasses] : sha256 32222eaedeea966eef91cfd6b1dfaeed40c4267638c7c078c5a8d35019130570 -> 3cbac082f4ef807970ebf113a67641bbc6ee78675893d40c8bc1d95b9c3e0048
+~ -[HKSPDictionarySerializer .cxx_destruct] : sha256 ec2798ae2dea0c7926a92a120bf35e0c8e44493d5038b7eeedd77d40e4860987 -> ec1bfc0edc2187cc02c49829d849fd364d1b3a36b4b31f6a88f050f4c3f785f9
+~ -[NSCoder(HKSPSerialization) hksp_encodeUnknownPropertiesForObject:] : sha256 0e661f56f456a5dd3c1d29495681ef29f80a33d4bfdace2a080f2a8f6d53dce2 -> fa7742c05fafb3e69736c3edddae130029ea9bbff8bceb35691dfd69dc1301d3
+~ -[NSCoder(HKSPSerialization) hksp_decodeUnknownPropertiesForObject:] : sha256 41fb74daea352f839c0ad08da9153da3ee30ad574423a56ec88e15b3fb6e9296 -> 91af4db0105be8020a42efaeb98c96d6e9c9a7fe3b934917f1ad8eb22ee392eb
+~ -[NSDictionary(HKSPSerialization) hksp_isSerialized] : sha256 e2713a7a18974eb2e05031771466857eac9dc33e5281f6eb02f2de3009aaf0dd -> 5d7844d6e315824988ab7fa89f38016b283f70c2e0a717cc9a78905c1ecfc775
+~ -[NSDictionary(HKSPSerialization) hksp_serializedKey] : sha256 e1f5ec7f5b75f60c39e8893490ae4d30848c494f3b70799c4113c82db9a3e15b -> 1f8226e3f987d3146f8c175598dd583318a63a16108c3c1f79c3995e501b1c01
+~ -[NSDictionary(HKSPSerialization) hksp_serializedClassName] : sha256 19d6ef7f2ef47f58774ec5ff8d1ec0c15fe7483771c3a1fe32fc7a6f55b35ae0 -> 7cb5bc3579873db2c412e6b66f1aa9f6dbe2207fa08911d75d59d48a5ac2f941
+~ -[NSDictionary(HKSPSerialization) hksp_serializedProperties] : sha256 16c40d66064a82436c29891d8a1d295fa158b43cb9c12f5fd670ebac61b87d75 -> 4ec8253698eb7fbbce3b573385deb111424b5970d005032e074a58512681320a
+~ -[_HKSPDefaultScheduleProvider hksp_suggestedSleepScheduleWithCompletion:] : sha256 c58bc3fc41eee78ffd7e187aec0f9f7b06aef06bfe3e34260bebb29546369443 -> 6d6721d70fc29ddda8b3674b81d4a2117992eaca251b53211162e9a3c5a51ccd
+~ -[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:] : sha256 0ebb504572744a39cf45fed9a9bdb96fb6d4d385777185261cb49bc9657fd222 -> 3b64921a8531e3824b76fd79d6edc466ddd8544010e3776c1005c830207cf60b
+~ ___76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke : sha256 f03a73bd2bec35d2458a2c60f9352471e9bdc69d4cdbe8d6e5eb4c509307d182 -> 277f2105ef6311bf2226601cfd156d60104f2f7cb31a48979b6b9a8009a8dc6b
+~ __76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke.364 -> __76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke.370 : sha256 ab8a2e7c91d60d9f089ee26b2331673b4f5849a87e1883b16215852a33dbb4e7 -> cfa19a9cd3c57f8a7f0d790da8fbf84786a15ce3cdc83784b589afcdd94029a0
+~ ___76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke_2 : sha256 9e1755c1bb4b7bc9c6c41e796a54e6e3201f845e330260ea381b18b27b0cdde7 -> 2ee736407babecca7e0f58cabeca96c20ca2fd4cf6a9c1eb586e304ce86f6ca7
+~ ___76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke_3 : sha256 f9af3e450d5fa63f6fb93ab6962a985f0210047f1f31bd7b571149087686ac3b -> 5c863902164e2abec385b6a1b0e15a7e1fd93dcc9a578c99eb372c1c0e1a8a7a
+~ __76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke.369 -> __76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke.375 : sha256 16a18f23c776a930075aeec47c02840925ddc8a914320495299b20f296ec9e37 -> b4239fc9b57defb8c3e511c390f361fba94930959340926a2a2cb5f5b65f5290
+~ __76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke.373 -> __76-[HKSPSleepStore(Proactive) suggestedSleepScheduleWithProviders:completion:]_block_invoke.379 : sha256 7f3ffe4ab4f9036b15df7e99ff87dd246fa34f93bde7e4c364b858ac6114abae -> a3b7b455b4f17782625c46e7ca4658621c2f349af532225abada9420447ad99b
+~ ___copy_helper_block_e8_32s40s48b : sha256 d2d5989fe16b84c26c4853d0536245b23319701dd26c26230bde73be276b948f -> 0adb368ba736e0a519a73d0b815b19a02a500d2887f5c471e385b9534785681d
+~ -[HKSPSleepStore(Proactive) _resultHasSchedule:] : sha256 ee0d66168e609a19d8fbba3d0a2a5e7df925fbcbd6c273aaa60665490ef1af0a -> f6d0ffd2d5acebef593bc946dd1c354facee94ec17b9a8344eb5bfebfc3133b5
+~ -[HKSPSleepStore(Proactive) _resultScheduleMeetsDefaultGoal:] : sha256 7e5649afec004f5e05bae50ef4d14158cd69060adedd6dedf8c80b84104b2f69 -> 3acc94f5031e2c0157579662ac041eebc0a05641c34e6f5b33dde77821912878
+~ -[HKSPSleepStore(Proactive) _resultScheduleIsValid:] : sha256 c1eea6192c139e3b9e95e5dccd4b20532d5444460683b31fcc743125f42106f9 -> 593f6508686cb1c76b4f1be86a86cebe9c454a258d772acdabdd82412720fbf7
+~ -[_HKSPScheduleAndProviderPair setProvider:] : sha256 36a3096651de209afcb3b7085b2f961324f25d8986352e9cc10bbbcf2eaf1d4b -> 1f860dd56cec2f896ee8d0e0134df86d66627c0028dfdc8a1f7f53c593eeae0f
+~ -[_HKSPScheduleAndProviderPair setSchedule:] : sha256 5a93c5e6ad8479ffbfd39ea28c09f679ef16af9bedae6ca6fd346212109b8698 -> dd8165e0cded13b7d01324a654a1c5a8faae3d9be045a5c9a30461b6be3026da
+~ -[_HKSPScheduleAndProviderPair .cxx_destruct] : sha256 6bfdf8bd27424e9a8e8aacebbe13019a9a54e8b77a38e531253fe32cf5e3ec7f -> b1c53e50a2b941def73ae30153ff2c35b70f686fdb6a6398c8fa7924e3431f93
+~ _HKSPDefaultScheduleProvider : sha256 7485b051cdcab1ed3c758972ba19f772dfa64eb06b192bd3e1e9aa659d76cebe -> f276a62874734a4b6cf47336c1c8602f6d90a401dddc55c9d8b9be92822689a4
+~ -[HKSPSleepWidgetManager init] : sha256 f204fcd578e006713e34441eb6fe1854c512bb11db7db2f95b65e402704434df -> 4162efe391ef6bce432d70703ea035150ffbf0dc51a6c5f9342184b325dcd945
+~ -[HKSPSleepWidgetManager initWithTimelineControllers:relevanceController:] : sha256 9a65938252c86d139ae252675f9b47658a06b63199533b77b73f18f42f29081e -> bfb56a58f0c2cd62f45ed2a6b44acabf3f8244a08a07415717152dc19bcf1485
+~ -[HKSPSleepWidgetManager initWithTimelineControllers:relevanceController:timelineScheduler:] : sha256 2dd9ba5a940bd46843cdbc99e971e92e4b4b96182bf4a29ce58e71eeffb931ab -> 4703e81947c61eec5ed800d9eac6ac3f6713313b8b647f7a1432377dfebdeaf6
+~ +[HKSPSleepWidgetManager defaultTimelineControllers] : sha256 556bdfaa8b613c7c0286b062dc8e6c282504a182587bcca4eedafa7aa5cd7e0e -> 878e39617268ed53024e5f94b154dc363062beaf66dbab9bf6b8b481c4ad752e
+~ +[HKSPSleepWidgetManager widgetKinds] : sha256 1a38d776c5c5b348b763d21983919b491e693641633f4cc1f6e60bca85ec605b -> 4f1bf6fd8deeb58b636f671ad9f4e5fd7fd12829f05003335bb7a715951ddb3a
+~ -[HKSPSleepWidgetManager reloadWidgetsWithReason:] : sha256 13aefca5cbdec9e307fd0b4f58bcca95c81ecccfa4bcfaf450c8966fa5eb6527 -> 708dac9287350ea553c03d8e096c22dd82c5b121fd6f8591c16525ff292b1a51
+~ ___50-[HKSPSleepWidgetManager reloadWidgetsWithReason:]_block_invoke : sha256 f008d13b2042a68ce0577b0d50345c4c43681a127c296156e335230d6e1ec512 -> 6b741d48e1eda60bf3579e3febc800d3ff09b50fecfe0278c793d2088587cb32
+~ __50-[HKSPSleepWidgetManager reloadWidgetsWithReason:]_block_invoke.386 -> __50-[HKSPSleepWidgetManager reloadWidgetsWithReason:]_block_invoke.392 : sha256 46c5083e405288cf667507e5b748ebe745f3c315327ad2b7d4997fb8342a3ad7 -> 581d957d8e2f886ed73a8126cc78e733e62c2acbd02162a97d92497c8e5c8670
+~ -[HKSPSleepWidgetManager invalidateRelevances] : sha256 3542fdceccf60d473c52df1a9e891499dcc3f1dad95333311d1a802ae21f58bc -> 03e6fa16e541ec5277307da3e73258996fbdcefd9d3fdecb15a22ab37ba78543
+~ ___46-[HKSPSleepWidgetManager invalidateRelevances]_block_invoke : sha256 653e8a0a8c3736235e3e7d208cabd84beac69cdfd491a46d24cbbe921378d697 -> 426a27f2476049a49dd5d875b329d98884233634a88f36e8ee2977383fddffa3
+~ __46-[HKSPSleepWidgetManager invalidateRelevances]_block_invoke.389 -> __46-[HKSPSleepWidgetManager invalidateRelevances]_block_invoke.395 : sha256 a19eee687937aeeb17d49890d52808ed767707d80438d69aa060f1d7fd7a2898 -> 33ec859a43e7ec0793987034ab55f1f2246badc3a21d761f53d3314106756f56
+~ ___46-[HKSPSleepWidgetManager invalidateRelevances]_block_invoke_2 : sha256 d90f76734006323a61cb60c1debfbbe4b0659891e567a70fbcb440a8a27176f5 -> b17a41bee5bee8dec987980ea1cc1ddd0de4343e28665318bd7618e84ab43aa5
+~ +[HKSPSleepWidgetManager widgetBundleIdentifierForCurrentDevice] : sha256 d583a583958b5ed81be31bbc584be5c7b7034ac7ebf2a71e42ed94c3f439a6fd -> 4075bc271da3b5719dcf4251a2c4eea52b203e3fb3756cc78680889a751965f3
+~ +[HKSPSleepWidgetManager widgetContainerBundleIdentifierForCurrentDevice] : sha256 921f43310ddccbba88944bf531e3ab31dccf4ca33694764ffe9cb23ae0b0c73f -> 6beb7007f33373acef9fb26ac007c724b623d043963f0236310f9985773c71d3
+~ +[HKSPSleepWidgetManager _widgetReloadDescription:] : sha256 bc71df13ca628955a56ce822d04c0a684bcacaff9b2dcb677aba7b73c3fc04f3 -> 1f397ee7a2690226a4601e6fe7ccafa026350524ceeffe62036bee15f9984c99
+~ -[HKSPSleepWidgetManager delegate] : sha256 e33e963feabf5583baf482914f55365705a47fbc87dfedd8f965b0f9892ca835 -> 28884e5681fd1de7a57e904f246fb444d63fb3173acc73e2b7e07b391565264b
+~ -[HKSPSleepWidgetManager setDelegate:] : sha256 f77b801ebf8c1cdce5bc2318fd2937e58c64b0ce4350da3d67ff082f14db4b52 -> 1a8e46a2605f77ac287936a28edfd88f325ff99c4fa0b8b0c8fc82204e673fb2
+~ -[HKSPSleepWidgetManager .cxx_destruct] : sha256 c5dfafedb0752de8b896d178a346cba99afa55a2f2afdd65b226ea99ccf7a661 -> 8c494e47299114cd7f7e5ad2e57d5a5136c9b5801c48d7818ca3e8687916a55f
+~ -[HKSPSleepStore init] : sha256 965f9966fa0ff29f4dfe958c55387da7f17d807c07d70d49de5970f29d3e0741 -> a3ab4ffd9d23b5a9bf2536b7cceb5816523964dece4d5c26700684b9dbd4e448
+~ _HKSPGenerateSleepStoreIdentifier : sha256 c7ba3796b372064dfeba0f32ad1b8efce67d67271b67976369927bf2ad99f861 -> 6396425d8802567c515b04c694c560a00105a7ab0f45e4e7a3f350dfdb470604
+~ -[HKSPSleepStore initWithIdentifier:] : sha256 8d30720cebaec314c233301bbce79bbf1233ff05836f08069766cc8858cefff4 -> a9aff8d33c963ad73537d124272c497e827adbc9aa7c6412c08030a134dd82ff
+~ -[HKSPSleepStore initWithHealthStore:] : sha256 fd0fabc1efc4f615a2410f871269f8f052760c30cce75d92b3976ada2a6736cd -> 6b77c779176d465774e38c6cc9bb91a307f6670279d56b4eeac778869657e9c0
+~ -[HKSPSleepStore initWithIdentifier:healthStore:] : sha256 d575813ec8574c3f4f5de2937174a25c59eecb50ce9999f1339333c6ecc72e07 -> 8e8ccaf08654a037e00afe94d032fba1f649420b40ed8b154c0c372f6047a576
+~ -[HKSPSleepStore initWithIdentifier:healthStore:options:] : sha256 903dc587a805865c7ed5f3c9970bb6c14ccf8c5af07d4d4cf75a528ea40c477c -> 93d483212fcc3465cdbd86de0bf7506873eba12b74c777ba51263459a60e0a6d
+~ ___57-[HKSPSleepStore initWithIdentifier:healthStore:options:]_block_invoke : sha256 83fcb5082a7840a78cfa343230c94960ffe1c348f9bc18fb43bf6d4270dc4ef4 -> 139317af821086b03aea543f7b031dca0d81e6c48e3baa0233b20a3ccef8c464
+~ -[HKSPSleepStore initWithConnectionProviderProvider:identifier:healthStore:options:] : sha256 c11fdef76d1fad22ed64b320dd52a6641d0036021a58ee73aea639728af9797f -> 1c8789a9c41853cbabc8698213c7106624fc1c9cf2fea9fc128861136658d9c4
+~ ___84-[HKSPSleepStore initWithConnectionProviderProvider:identifier:healthStore:options:]_block_invoke : sha256 4eee4a300fe4f5d9015ea412f747b0d8394218568d96d7cc619a1a840cfd05ad -> 50269be600f4b77d9a2b8adea3c3240baa82112a6026786e5c2ea10bb01d2a93
+~ ___84-[HKSPSleepStore initWithConnectionProviderProvider:identifier:healthStore:options:]_block_invoke_2 : sha256 5e23db0803ec0e3c20e47b8c7cf23e6f276f898c955f21625830194a05f98771 -> 55f432965ca578bd08a25186ff925a7c3252e2203463af77b279dae853bc84df
+~ ___84-[HKSPSleepStore initWithConnectionProviderProvider:identifier:healthStore:options:]_block_invoke_3 : sha256 a1cb5f7aa1fd428a4f5062d30842e3fee709558fb077cc8222f88d428bff4628 -> a27e0e99497a542a5a23300c21fdcbf71a1d5707b697b2f29f7cfa23b78ccfab
+~ ___84-[HKSPSleepStore initWithConnectionProviderProvider:identifier:healthStore:options:]_block_invoke_4 : sha256 c21d3ae876a77c773c95ed433b5aea7aa4e77a05f8c6e996ac8f14f3e0d786b8 -> e8bb5deebfa7e106d48e8071e1cfa92a605c679a2c0011454784889c5abeba8f
+~ -[HKSPSleepStore initWithConnectionProviderProvider:identifier:healthStore:options:analyticsManager:throttlerProvider:callbackScheduler:sleepFocusModeBridgeProvider:widgetTimelineControllersProvider:widgetRelevanceControllerProvider:currentDateProvider:] : sha256 91c91e6a0100ec544ef733277f863600c4244e4f6f79daef0f7ae094830d48cb -> 479171d77c971d73d9bb0b4ddc791c3438891408afe5cf277754f9f9137dcdc4
+~ ___254-[HKSPSleepStore initWithConnectionProviderProvider:identifier:healthStore:options:analyticsManager:throttlerProvider:callbackScheduler:sleepFocusModeBridgeProvider:widgetTimelineControllersProvider:widgetRelevanceControllerProvider:currentDateProvider:]_block_invoke : sha256 a1de9adb3c100f122fa3b6ae1d70af360e4b84d8a35290b68c823b965ed1b2bb -> b810245a74143c573282a403e001000da0e5a6745df146ae6ca531ab61041db1
+~ ___copy_helper_block_e8_32w : sha256 1d49d7dcd28092eef3504e6f658cf02c2172d0a0218e1b5f66ac5dc4f1066fd6 -> 2817c9d326b0a9f7a9f6e1a6ab082fab88e347823ece42421fab3edd9d33cf16
+~ ___destroy_helper_block_e8_32w : sha256 de7e6f59387ab3450f81afb532fa9af11bc41a75fa97e28b551ed5c054a54bfb -> 07c0a98185e55ab8966ae864c77d99fcb3b24356e662969375ade6d9f7db2685
+~ -[HKSPSleepStore description] : sha256 2e3d219510d3117e0419332c1738a1e0656c7d4d40b42684ef30ea67390c30ce -> a9b9e2d09c78ac161ce7de3a124beee245f83c20d6f9cdefe2ed7a68409aa886
+~ -[HKSPSleepStore addObserver:] : sha256 b450ffe13e48d13503791cc005b90af6b07bfd8d909576ff59e9051bc1f078d1 -> 3093901edef10facb249b5e80ae6221de3f998bc1dad3eecedb63f079c5ccc5a
+~ -[HKSPSleepStore removeObserver:] : sha256 fc7977fad3daa3f4c5aab3eda570c43b6887f484b95b08f6094a8653af27421b -> 928d9d90de2d669ef00c8c8cdda62eaccd0a8a020a47373f56aa0cdfab8934fa
+~ -[HKSPSleepStore removeAllObservers] : sha256 b68494c6fe6b723487ea9e690aad86c72aa838f26f14ef3c6bad1fc6e14daaee -> 7b87a1aff4f071193ac80018d54ff1c515a81a909ab4ec23a1ac51c62741b86e
+~ -[HKSPSleepStore reconnect] : sha256 b76268e062a251ca7f79aab187dc7849a6037eddb02018d393d249936ce54250 -> 2e2080d0d2bb48b9de24316150a620f7550075c51d55322266f4596b937a88f6
+~ -[HKSPSleepStore connect] : sha256 df590837bc5364e04cee418645facfe2380d98b8ee50bc60698a77d07769aa0e -> 882da1f928453a62c345ff8ad1ead207b230355534850fc436bc9d546f30afa1
+~ -[HKSPSleepStore connectSynchronously:] : sha256 f5ad49e61cad9d69f6b2cd4b7679d14736559d68c740782d94488641bdb5fb5e -> e1ff7835a3d866fdff6fd53a8909532d6d9b7a56cc69dcc5d068b0dc303533bf
+~ ___39-[HKSPSleepStore connectSynchronously:]_block_invoke : sha256 bf925750972433fb21fb5546979aabf303e72166274bbca94e0665498882e6ca -> d3c3b10aebd065645ed77cab280d55995357f069cdbc5a00553804e453014ea8
+~ ___39-[HKSPSleepStore connectSynchronously:]_block_invoke_2 : sha256 e85dcf30c1f4555e2ad3858638efe60b1e19d0942e3330ef7b68a4e81cc6aa43 -> d06471b11f4d83cfb9e66e930dd8d1ba24cafe141e9edf6308cd100a1871d760
+~ ___copy_helper_block_e8_32b40w : sha256 d05ceab46b1791a463ff77fc002c964f70260ce9bd4542086d528a25f6b375b6 -> 89831de1df0264eb441c1142bbf63130a0bff3af97975033a1a6865b056847e4
+~ ___destroy_helper_block_e8_32s40w : sha256 982a1096a754e0eb6491f806b15672a5a6a54e5f19a61c905290aee5bc763370 -> 0c0b519afd850e6db4ebeb11603b0930e1abcf130864d4f89f6139a260dec76b
+~ __39-[HKSPSleepStore connectSynchronously:]_block_invoke.409 -> __39-[HKSPSleepStore connectSynchronously:]_block_invoke.415 : sha256 5ca71c255c16d72254ee68f130d30da389308003553ae96612f523b70030322b -> 1fec00011bd89117a162f91ddb23fe9c1dd3553475773bb1bee90c79282025f0
+~ -[HKSPSleepStore _checkInWithCurrentSyncAnchor] : sha256 975f20188da8462d12a3e7a06763cc54a8aa8fb9cfd87f98ad54fb1080b2a039 -> edcbcee10da934957380a4ecdb6f46414c16adf75ffb948acf0c6a421d19cd4c
+~ ___47-[HKSPSleepStore _checkInWithCurrentSyncAnchor]_block_invoke : sha256 8d6b4a95cc2a703c186bc6a3e5ef3822ca7e8cc3d47e810cd1a4322ae609ca36 -> e8227204268119ebc0a7fb98fe370389bc07196a2a7ab772d090aea691158934
+~ __47-[HKSPSleepStore _checkInWithCurrentSyncAnchor]_block_invoke.416 -> __47-[HKSPSleepStore _checkInWithCurrentSyncAnchor]_block_invoke.422 : sha256 4334fa52511ac7ea3e7d21bf1763473ecf6939967df4d7c9b54cf85ec02319f7 -> d0a51043d4bfaee10d1218c236a91753a9fe5b93223ff3a579aa07b340f22605
+~ -[HKSPSleepStore healthStore] : sha256 0de44c8252ae88cd7981a840fb58de029e25717e386197fc8f94157e8ac67ead -> bdeee44b3577b0d0c0154237e9b54a77a48780cf2643030cfe5e72ead65c1a5b
+~ +[HKSPSleepStore _sleepDisabledError] : sha256 82d78bec3e6090aa05bbf4f2cbee8f34e92a2d20fca88a6419672dead404366f -> 37bcb88d10b93c5c664fbb92ba50fd92bea1c5f1a27d69a9c6e833a1beb7340d
+~ -[HKSPSleepStore _getSleepScheduleFromServerDoSync:] : sha256 d5a644e41d3601a66accd7b6fb139e6ad3f09ff9e66307dc3cf3d8e7d0d822b6 -> 17d1d0d53d0d23eabdd51cbf444b8ca5af0fd27379ac72981a4b73ff5e2c9a11
+~ ___52-[HKSPSleepStore _getSleepScheduleFromServerDoSync:]_block_invoke : sha256 03d35271dd3429cb41245a444ea23f465af170ae37f88b88ff42d20173683e01 -> 76aeb453f5839ae859d3ffb4755182e22a590626f8fe832c71a125efda3a074e
+~ ___52-[HKSPSleepStore _getSleepScheduleFromServerDoSync:]_block_invoke_2 : sha256 ce917fb4fcb191c3ac05a0d7c0ccda7c2ed71150c8effda821eaa167a973eca0 -> dc0a66b0c95b3b0c9d7157054a3a0e371f92be3c856ab87159f6a7990fcc7b8b
+~ __52-[HKSPSleepStore _getSleepScheduleFromServerDoSync:]_block_invoke.423 -> __52-[HKSPSleepStore _getSleepScheduleFromServerDoSync:]_block_invoke.429 : sha256 fe1dd6eb06491b8828fd398ed721a0029322c1bb8e6ef76222a2459e19e3cb30 -> 1ebeb8a1bdec2117c12c4aeba904e27d045af2d4b6879702859fc6c1a93becd2
+~ -[HKSPSleepStore _getSleepScheduleDoSync:] : sha256 516b8b1f0f3023c34b30d6dbacd061940b4b434aa439c79213232cc8e9eacd80 -> 46596609a713e562a96662a8bf80baa74c192059faa51cf94a0fad9cda4a46ce
+~ ___42-[HKSPSleepStore _getSleepScheduleDoSync:]_block_invoke : sha256 596e3d4c4273f9d3ea0815de0da83b8df0b045f1c6b256d987fac9a37db70e11 -> df5b42309b0944e1805c0bd78a783dc1b50708073e19a95987ab08c39ee41ca1
+~ -[HKSPSleepStore currentSleepScheduleWithCompletion:] : sha256 bad39df2556a0d944f62c1fdea1930f978625280670bb5f0e44a5d45c713686a -> dea6c62dbfe1862e40814120dd08e7a984707e850e1bfeeb63ea663039a873f7
+~ ___53-[HKSPSleepStore currentSleepScheduleWithCompletion:]_block_invoke : sha256 9293ad228f9ba3097387c90f6a0082c3bc29313ee52a80ae6f385c5c0e7b62c9 -> 57a6df13d73a725baa968f97a5fafe79b7cb41727783b1a9e507fd16573d3b7c
+~ -[HKSPSleepStore currentSleepScheduleFuture] : sha256 9cac3b07e09c2a529e523a15a3f14a75a7786f8c9ab5e9313f4cfd15ae375017 -> a4765b1bd1add3ae1f7ad849dacf786a7c0325cd985d1eb57cf81e684eb5c2b4
+~ -[HKSPSleepStore currentSleepScheduleWithError:] : sha256 6eec05d1166de8cf13e51354ed960a4711a95526ff3a4a59eecc7791078f1951 -> a4621bc219d3ced1f60bd0de9f151a969a347c21e69c3fb8b61d5f2f1ed36eca
+~ ___48-[HKSPSleepStore currentSleepScheduleWithError:]_block_invoke : sha256 08e830abaeaef454de6af4e2ae7a63c27c5fc8868e9a7f15e1aa994b12b393c4 -> 0f85281468cb0cb486da8091f66f838d785d762a6efed7c56b1efde8993ee3a6
+~ ___copy_helper_block_e8_32r40r : sha256 10817afc0c1b1d4ff621561c07779009ff07af5dc8129522d0c3a161291819db -> 76cd669f05bcf61c6603d29471f9436efac2592c450b2773b936cc21cec05546
+~ ___destroy_helper_block_e8_32r40r : sha256 425cdbfb25ab91ab623d2328939a020f5aacc0658e27ead388676a34aca8c51a -> aa38c47d753c755d09b1b680feceae30aa8af54002f3a3ba5d9d0582369e7792
+~ -[HKSPSleepStore upcomingScheduleOccurrenceAfterDate:error:] : sha256 68f534c9f941be1795f46df00412b8626114f0d80f71d600338b5b17ec268e41 -> 8f6a078b2575850b04444767ba413933a4ddb7426754e785c961050936e961ea
+~ -[HKSPSleepStore upcomingResolvedScheduleOccurrenceAfterDate:error:] : sha256 5ca61388c22f4b25c34da523856768c2b3ebcba109a1976a7674c1712bce36e1 -> 0a3d8347e929dfa858044a4424110238292689701d211869b7111c3256d1f1d7
+~ -[HKSPSleepStore upcomingScheduleOccurrenceAfterDate:alarmStatus:error:] : sha256 0de92f8c3a19f92248d1f3a4a2c67704ef8b0accaa8cdca8412011cf06656921 -> 59198e7fb977dbd44000d59de468fe76aac18e784c45c9f9a911e6228e5b7819
+~ -[HKSPSleepStore upcomingResolvedScheduleOccurrenceAfterDate:alarmStatus:error:] : sha256 6f04f25ca1de2f92586fefb89c2348d2d96a5151c996a4a78b9a3e94cb007561 -> 197d80bf9c7fdc5664ac60c37165ff33e9d269f621d4e0c4aff6acb3bc1df794
+~ -[HKSPSleepStore upcomingScheduleOccurrenceAfterDate:completion:] : sha256 b3ea118ca232ee8d825d8454d3ef86cc15c2959753bd36565906b7d0abb403f7 -> ffff822a41004d62712b2a626390c6d620a89addeceef12ba8097c504a4ef8be
+~ ___65-[HKSPSleepStore upcomingScheduleOccurrenceAfterDate:completion:]_block_invoke : sha256 8a26739b155e40546cf8948a6bfb89426a8f2f2ba086be8689aff4308be6b9f6 -> 5e515ff8b9d9f56978b4a2aad85820a33abeccc87f203e0e4715f5948a9c49bb
+~ -[HKSPSleepStore upcomingScheduleOccurrenceAfterDateFuture:] : sha256 abe71de33a858036888939ca9da1698c2bd118c1774736023a18ed6c5b5aa526 -> b3c7ab0b2bdec24d14359edf77e3fb3ca7ba2c81b17bc8f58a46f3875b1f7f14
+~ ___60-[HKSPSleepStore upcomingScheduleOccurrenceAfterDateFuture:]_block_invoke : sha256 64a0504b3774ab0cc1d2ce66edaa9cddcf167becdabdcd932ae65a2f658ea15d -> e043955ee2a509daf54fcae0694ab3ded52a691f2d071eef5964aa633b7b0f58
+~ -[HKSPSleepStore _getSleepSettingsFromServerDoSync:] : sha256 6f516418254046db6265bf050c902a7f3da832765eded3171c25ed0d2a44229a -> 8991fdebab37fcf62d14b5166a5da194d20e8bec70505989c3123d3bc7d55222
+~ ___52-[HKSPSleepStore _getSleepSettingsFromServerDoSync:]_block_invoke : sha256 fec4cef67d50b69bf70f9cb325f7f19e8b6827b141415062056a87fd984c452d -> d2ad4673226ae719194198f965531918e5435800517f6911530156eb31290bf9
+~ ___52-[HKSPSleepStore _getSleepSettingsFromServerDoSync:]_block_invoke_2 : sha256 d29ac64709e936a5a721cc4a12ed3bf709e0eb3e4cd5a1756674fa19beeaae6b -> f36fa5d65bfa10adb850b114b995e2d001728cffbb1a4906494d6a102cc16feb
+~ __52-[HKSPSleepStore _getSleepSettingsFromServerDoSync:]_block_invoke.437 -> __52-[HKSPSleepStore _getSleepSettingsFromServerDoSync:]_block_invoke.443 : sha256 bffb6ce6e7d05b9ce6705da2523a89b72f8ec18611389acd2441e8447f3dc66e -> ec07009068a807f32ac7a2128e0821cf660e5dc6696d04c3c6700554c71f1f63
+~ -[HKSPSleepStore _getSleepSettingsDoSync:] : sha256 12a95b538acc160b7eecb7c4140e35b2e08fb1092a28e1bc90506aadacba3b3b -> 0426e8f53c3d623fc4d7be12fc362765446dbcedaf732050f9d185f7e8fa5f3d
+~ ___42-[HKSPSleepStore _getSleepSettingsDoSync:]_block_invoke : sha256 6fbfced07f1b30cffb58881df752d4fd21a68afbf23b2b1fb9d801356584edc3 -> 5d235658802c27301764c2d9623cf008d5970d7b1b44dfce3c8934218c31cb88
+~ -[HKSPSleepStore currentSleepSettingsWithCompletion:] : sha256 622a62057a3415072d227cf7d56f8a9e0e57f32ace4177d18421a19dda7187ee -> 6bc2e24f2d8564a02cdd7d61343ef7feeda19914800250147abde979f0b057ae
+~ ___53-[HKSPSleepStore currentSleepSettingsWithCompletion:]_block_invoke : sha256 dd503c625558a059db859fd8c227e69b2f743a7f3f4960c61bf19f023b3639ca -> d28915c90e52e227952e3125ac5a2293192d0fd1e2cebd20c2426d4cd5699030
+~ -[HKSPSleepStore currentSleepSettingsFuture] : sha256 1102b4a5ed0b6e1d60ae7999086027694fdedb808a140c3438d605e412b15f45 -> ae9ea7965900047660d623d4263169f71e218a62edc5b6c7f1b8d8bb8ca8cb9d
+~ -[HKSPSleepStore currentSleepSettingsWithError:] : sha256 c9cd97a478f64ba922e4695455dc3d51d57d91334a0614964ef6436a81c00ee7 -> cb4ca4f22ebbfd951c17b016e923d142e2284ef5a0c37df3e824622ca5d08a21
+~ ___48-[HKSPSleepStore currentSleepSettingsWithError:]_block_invoke : sha256 63bb650005a40ff783d3daf126d4c9e3757212f4a7fcac5b84b2066663bbb768 -> 3b350717317a6fd52d0ff30dfdf1b63104baf81f20a4e34643ee1b8a6e37ce74
+~ -[HKSPSleepStore _getSleepEventRecordFromServerDoSync:] : sha256 a854c3b2294d5e9b089e06cd5e4f7d1e73fc11f29392c08292d3b09917c6a90f -> 5589c6b4aa67d4c230c642686a47975c53077ca94a4df098c82c11dfa2f0c16b
+~ ___55-[HKSPSleepStore _getSleepEventRecordFromServerDoSync:]_block_invoke : sha256 b0182b69651946f83eab1e4afadd49c318218ff055494038e972df61cac4a903 -> b83e2feed71401d35eb31c42f1cab0b4a4f32be773d114911262b631bee09112
+~ ___55-[HKSPSleepStore _getSleepEventRecordFromServerDoSync:]_block_invoke_2 : sha256 7d5cac2d42bfe24ce3cc9eafcb53c8d083eeca6ec9310b282a11498362baa76a -> 8aa2646231b3e7014fb2e3f6a1eb5e1256120e889d4d3f5e1e851aaac214324c
+~ __55-[HKSPSleepStore _getSleepEventRecordFromServerDoSync:]_block_invoke.445 -> __55-[HKSPSleepStore _getSleepEventRecordFromServerDoSync:]_block_invoke.451 : sha256 9d900491a98d944d3ce84327845a0473efa6aeb3e1a12b3d66a8692a8dbc8db5 -> 2af50111915095a11394fb08a30ec560bc00718db398af970d8c2e44e87bebb1
+~ -[HKSPSleepStore _getSleepEventRecordDoSync:] : sha256 203b4bbd0cbc954dabc9592852af5fcbf679914705282223ee10ebe69abfcc3e -> 9473aad86464fd0a8381a5910efcf86e2d29a95a3f0f02c53d916ec49824b525
+~ ___45-[HKSPSleepStore _getSleepEventRecordDoSync:]_block_invoke : sha256 c3a34f918e311580613882fa2c2a91ce2a06365b25945c8f90dd74ae421e3fa6 -> 8a330198a54af9994d970b970436dd469c1c2a69df01ba929b1274b79712226c
+~ -[HKSPSleepStore currentSleepEventRecordWithCompletion:] : sha256 905d5b307b4ec66c3ae7bec41a33ce0c0ad9a3439c4886837f92a5d8dc985fde -> d42e5849a49c0e99b32908ddef9ef6956e803d74afa7cb2ac8977127e4ee5364
+~ ___56-[HKSPSleepStore currentSleepEventRecordWithCompletion:]_block_invoke : sha256 c98a2eb4ec9b0f702e2c96dfce5a60aef3479c47af64f37fae79cdc8931215ac -> 486262dde90748cf5e2d83b6746e191d5363d4d125b5a6a8dbd95236f2a64b3d
+~ -[HKSPSleepStore currentSleepEventRecordFuture] : sha256 402e992b9f2262e14e79a220088af0a4ddbe0ec06b276af166c23c37bd351e86 -> eccf1133f6dd95e3dcdce05acfeca89bb5ac33795ac17447990476c6871d4247
+~ -[HKSPSleepStore currentSleepEventRecordWithError:] : sha256 7972e6730ece313fcf501c4d527e51094593b9b1bfd919cc717d65e27cbc2c29 -> 6471981b76dd0ff52acc5271bf3071c1ee9e0bbcc1bc236890cc252e0871a3cc
+~ ___51-[HKSPSleepStore currentSleepEventRecordWithError:]_block_invoke : sha256 b7e178851167f17155f4ab5374ecff5c45f9bc869fac5cbfd22f0a0375ed640c -> 3f8a84f6cb4f088239ecdc989327f8856894665b90154bccc9ba3dd2bfa0aae4
+~ -[HKSPSleepStore _getSleepScheduleModelFromServerDoSync:] : sha256 7f073f31769323d9f999bdf95388ec32ab7026ec26f8adb074580b29b0172ef8 -> 07edb16b567fcb47bf50439572237e4f30a77302d90451c20555002a4023fb97
+~ ___57-[HKSPSleepStore _getSleepScheduleModelFromServerDoSync:]_block_invoke : sha256 648c71d66e8175be6c8d7ee3cf082a165a57d2e410bab7b4da772c1cf7ce986a -> ca2d18d33bf0fe4ebe4d887ae86fa44bf56b35b52dd191dd6645576a62295858
+~ ___57-[HKSPSleepStore _getSleepScheduleModelFromServerDoSync:]_block_invoke_2 : sha256 bd2cb6a4bd2e53ad68311576dbfd8c582308ea2ed55cfcd0a7c69ff16d660648 -> 57b82341e17fda36d076a2d363121e881093a1ca572246e343339c3a93eb19f4
+~ __57-[HKSPSleepStore _getSleepScheduleModelFromServerDoSync:]_block_invoke.453 -> __57-[HKSPSleepStore _getSleepScheduleModelFromServerDoSync:]_block_invoke.459 : sha256 724617553ba2d8d131966a1ec1f5b46eded515e7bf71fe8d101432fab0d55efd -> 12aee12d8cb6912cdac4da4a810dc8e5155614487cfb975caf3de2f9f9329034
+~ -[HKSPSleepStore _getSleepScheduleModelDoSync:] : sha256 bad15cf8c3f44b4c2498b545ea5071fc7abd2cf8dd154bca7fe4eeb86827a1b5 -> 433ea1ef09139419896e520540681c4fe29caffd9e66032976b00a91784f1275
+~ ___47-[HKSPSleepStore _getSleepScheduleModelDoSync:]_block_invoke : sha256 80ae3413c457604339a0b86f5de93f2fb54d3b310baa5517251444d9356cc818 -> 6761fe5f34f2e586a4ed8710bc3bbb6ce81f514455caeddc7d69704eaf6bbb58
+~ -[HKSPSleepStore sleepScheduleModelWithCompletion:] : sha256 ba7552a57ec9901377b11ceeafb785a2da8348fecfdb511c0331e825f1961ce3 -> 0e2f566d852285859620e2cf8e168a377c5d1db0e04abf1a4e786a4d009a28bb
+~ ___51-[HKSPSleepStore sleepScheduleModelWithCompletion:]_block_invoke : sha256 5747079fdcbb4b8ca65dc7f8afffde215108578e3f6af4dfc20d81713526466d -> cee76d2417797d4fff8c94c2cc6e04c01928bd0013b43d75775876f06433983d
+~ -[HKSPSleepStore sleepScheduleModelFuture] : sha256 580e260b02f973ad703e9332b05923bd42506c2a36c9cfe8d2ce7bed606ee551 -> d683b274a515c39c453f21b3057fb61b5e3ee69c8c465ea05e088a9884aae3ed
+~ -[HKSPSleepStore sleepScheduleModelWithError:] : sha256 cd3c12d6bd7cb8a2c4fda3e2a07e374fd4e00944c6d6f8f044a7272fb6c5cc75 -> ce0d46d510980fc33d410770f01ab2795db0d6bbda57a74671bdf301d088fd89
+~ ___46-[HKSPSleepStore sleepScheduleModelWithError:]_block_invoke : sha256 35a2a600e3fd659d084d7d802fb966fef8e53202f015f8aa9da9087ab9a83a95 -> aa51df2a2a6c42500f37e2435492c5e7579754f50331783545ca0ceafd279197
+~ -[HKSPSleepStore _getSleepModeFromServerDoSync:] : sha256 6f52c4ece2c0a4d56da45fba677d3e4eac4cbbc470f019996b077a85202e8945 -> 2bbfef7cbeeef8a6fa152240747cc4b8d1f3613666871dd44fa479ed76071048
+~ ___48-[HKSPSleepStore _getSleepModeFromServerDoSync:]_block_invoke : sha256 6b39d04e8197b2f7f91c4b62401860d67613eb7fc5bc105323837673c1cf18e6 -> ca7d2c82bb742dcd8d43f7b4484501278be53cd1c5d2cee201d0c52f7331af0c
+~ ___48-[HKSPSleepStore _getSleepModeFromServerDoSync:]_block_invoke_2 : sha256 537b12a62bf6963a6596f279f349733eb6d85f9dbd64b3ab0ad60ef8f3300ad6 -> 1d926b7a0dfcf3d07e78b8fb604b019178f0838b0915c5aa10eb59375e301039
+~ __48-[HKSPSleepStore _getSleepModeFromServerDoSync:]_block_invoke.464 -> __48-[HKSPSleepStore _getSleepModeFromServerDoSync:]_block_invoke.470 : sha256 5ff70fa503247ff0d6031a4fc9ca12ea6c1e1b1eae16c4773dbc368fb38846cc -> d2ac2dcdb0dfefea02d567fdb9c719596e3e85411b7207483f53656da0925dbd
+~ -[HKSPSleepStore _getSleepModeDoSync:] : sha256 b3aebc052c8d75b1e8a173b9a8707072d9d36cc0a41eafd3ec69b7ee3f2dde56 -> e8bff3f13a25b15f3433e82a4fb73417313bc1491bcbcd29878e454bd07f35fc
+~ ___38-[HKSPSleepStore _getSleepModeDoSync:]_block_invoke : sha256 e8d97326a7a05ba0b70f7630ac9425ca4891d8d5663932e37244040a032e6e9b -> 8755f08532505a56e11829dd52bb15b23d83f2ac9fb8137eaa84146fa8332841
+~ -[HKSPSleepStore sleepModeFuture] : sha256 ce7395114d337f772a1a69f19775dc209927319a7ef43adacea55e5abb24f893 -> bb0511679274199cc5c6d655ccf94511c6afc03b2fed2fbd78961356da1c3104
+~ -[HKSPSleepStore sleepModeOnFuture] : sha256 34026c0331d20f91db8ce6340caa2a4e16a4226e4c064f10a08c3a111e5a7b7d -> 27d9977c5086d47438b364c0e346c9dbb79b52695c4b5c29fdd6ebb81a432bd6
+~ ___35-[HKSPSleepStore sleepModeOnFuture]_block_invoke : sha256 3a3f70ca60478cbcac618a622a3497f4c4ef5ff611234a9f7622d9ae4d9c8bb3 -> a772991e993e9c4963aed4bb36ec0845cc76d900dbaceec7c066bf6a3ae0ef15
+~ -[HKSPSleepStore sleepModeWithCompletion:] : sha256 00dec7368f17e94d7aba8978ab9c996cc3ae1ebb3f4f3067b8faa9523b72a52b -> d90bee459943eaaa640061dd8f12aa1a129cfe7ccf593888ae728b623dcda8e3
+~ ___42-[HKSPSleepStore sleepModeWithCompletion:]_block_invoke : sha256 63c424b5e17941e1359a7d589f813e9d317c69f2ab2d5f6da31caf26226f3ab1 -> 392fbdb3e3ccc710cc9909b5306b238ea939a40505311fed54c797e10970217f
+~ -[HKSPSleepStore sleepModeOnWithCompletion:] : sha256 d380e362a4e222094d9a09f86fc16d698aee3db77abb8422e2e7afe7c46620a3 -> f4f8b9bd630c0b540f21abc240647bbe0557e008a4fbcdb66424db16bfbb2cd7
+~ ___44-[HKSPSleepStore sleepModeOnWithCompletion:]_block_invoke : sha256 50af7214de566e44148d438c45e794a0053afc977aaa7bea2f3e4c7fdb19e525 -> be144d2d422c12753c23d08873941f164edc82314b99b1bfd3205f6fe815191d
+~ -[HKSPSleepStore sleepModeWithError:] : sha256 ff42d4a767c1c659bf8ccb4974eb2dfa118e01651fe25b53ea47c572de6dea41 -> 4c2cf06e32ff9f8d733d31949a8b96e6ca50e83c84e30a10271af29c0f5c9256
+~ ___37-[HKSPSleepStore sleepModeWithError:]_block_invoke : sha256 5bb21ef38af0e1cbd9fd9204ce019b19e413c99a2959579b4abfc220cc1b5a46 -> 68760d32e198483ccceef4791ae50b45967ff3814b3663e70ae6195823e5c8fa
+~ -[HKSPSleepStore sleepModeOnWithError:] : sha256 930f413a019fe0b198da0f54431050807a5b6c3d170c9fb643e3f927b2650966 -> 586d2f3b1a79eb2c78d9076e443c7d68ec9bae607485ba7088985d2dee9d3f7d
+~ -[HKSPSleepStore _getSleepWidgetStateFromServerDoSync:] : sha256 bd3231441351cf492a59a19b79ed447b404cab41da04239fc3c77bd5f8c0ea67 -> 2d2fa0a81254afa8d958a27d330307ae7c81f1b19065398d919ae2f55ba0c81b
+~ ___55-[HKSPSleepStore _getSleepWidgetStateFromServerDoSync:]_block_invoke : sha256 e6ba1ef55f56f4291faadd2175784700ef3f48b9e8a6e4f52a745fd35f1b894d -> e4bc4d6520d7f5e7ba62ddf0749dbb7ddcb650ad11bcb0ac8306fa7922d16a62
+~ ___55-[HKSPSleepStore _getSleepWidgetStateFromServerDoSync:]_block_invoke_2 : sha256 518245e3a7be0399af215e3417ced27a296b6659bcd3bb8d87ab860ea7031bb2 -> 63e3bbe7d7ea953118c0dd1ad82f7c602352643e011d4ad82f59df06239df630
+~ __55-[HKSPSleepStore _getSleepWidgetStateFromServerDoSync:]_block_invoke.473 -> __55-[HKSPSleepStore _getSleepWidgetStateFromServerDoSync:]_block_invoke.479 : sha256 17bae85f5cbffdda5251224c60af74f6f638fe08857d9a2ea2ab846f91979793 -> 4eba3c8f0f2a70bc9b795079557c04326c48bcaf8a99a6d821a5dcc7ef555bf8
+~ -[HKSPSleepStore _getSleepWidgetStateDoSync:] : sha256 8a59a2dcf8dea60e99c1c9b7ba62f5bd12218b36a7f3c98fa105bf67590a7938 -> 5c684e02b3d98174ddae9371119f3097588a1791c99a1a3b933f2a9cba3e195d
+~ -[HKSPSleepStore sleepWidgetStateFuture] : sha256 3b06ef90958e1532b52de7c952b0dee15455c3e218bd6241834ef4eaca7fc99b -> ae12f9fe00c43303a54b3937e70223d80279e309dddd80c580ffe52b7d509182
+~ -[HKSPSleepStore sleepWidgetStateWithCompletion:] : sha256 671079b567d82e83f5514860145ae7d71b7aeb7e7560268b03e7c118775b48d4 -> 7a37a3940ca72f97a3b6e87fc1b7cf06183d34d996634f83f76f9feea18b3816
+~ ___49-[HKSPSleepStore sleepWidgetStateWithCompletion:]_block_invoke : sha256 b359647a0542b9c468ab8dd02a7e8d0781031ef7d94dcf61a37b9386b4ca3855 -> 84f8e3fb0bfd151f46fd7c44b238b9bf95f2ec1962b8c7af9c096cc223f871c0
+~ -[HKSPSleepStore sleepWidgetStateWithError:] : sha256 6c94ebb9b2396cfeef3be4c9e435d0775a847b1de1ba2d5db3be31e4c59f156a -> 59ab69c724c037ab53466a584749337fcbd20ff76465c37ccdd19c96e80fcca1
+~ ___44-[HKSPSleepStore sleepWidgetStateWithError:]_block_invoke : sha256 52ba2782f56a02d58f79b4c729d42e8e2e5a3a4c43ac59228d5755e028f264fe -> 164ae989c520f56e10bb1017675b8f1dee0560b4d92367ac4d6d8c4d3dfcf9df
+~ -[HKSPSleepStore shouldReloadWidgetOfKind:] : sha256 25af0038a86058a4db1cea19583c9c40969647e5b50ac423d58ec4e66fc6c9bc -> 17ff0dc01c2f9aac2f316f3ee03c6538b5be743c1c5b4d3d53d681b231366e57
+~ -[HKSPSleepStore shouldInvalidateRelevanceForWidgetOfKind:] : sha256 dcc93464e31298806f92250a73d1bca9fd423bfdc2f1476923bcbae8bf0111f5 -> cc86640670e646967eef0779bb1cc45ba7e24c1307a9b43cde83d8d7a0bf90a7
+~ -[HKSPSleepStore _getSleepScheduleStateFromServerDoSync:] : sha256 625efaf2ecb53d9f50332d3a96bd3f8981ecd3eb7b0c3fac9b1a67060009711e -> 3dc0089d0709fed4107ccf561ee204704979bac984469c1073120caf70a0a39b
+~ ___57-[HKSPSleepStore _getSleepScheduleStateFromServerDoSync:]_block_invoke : sha256 9bc288377800ea23f0061738ffd24ea602f42ef0f58fd982d87740c741d89c96 -> c341749078eb7e9ce6f87a0a8ae482aa8e2af5631f57c8b1d0b8d4a8ad25a8cf
+~ ___57-[HKSPSleepStore _getSleepScheduleStateFromServerDoSync:]_block_invoke_2 : sha256 4f9d8284caabfbc4ae76edabf2fa70f816ece4345ba1d23a97f5bf1ec278c689 -> 94b0005a5a60e948deeec02a4f3cca850e3eaa04d8c2ef246ba3020e300ac590
+~ __57-[HKSPSleepStore _getSleepScheduleStateFromServerDoSync:]_block_invoke.477 -> __57-[HKSPSleepStore _getSleepScheduleStateFromServerDoSync:]_block_invoke.483 : sha256 2b719e4575b92cdb799c83061a97b19fdd864ac2d2cd7c7105e04944c223cdc8 -> f2e7d29f925d340f3debada327f86cde3f5ee92ed692ba40e8fd69cb2572b466
+~ -[HKSPSleepStore _getSleepScheduleStateOnDoSync:] : sha256 3d946e5a1b0fedbaa4ff6705b944d927a629989de4eca0e6d8905cec520a0681 -> 9b4b3fb8e9ef54f0c6e9ae9ad7441a17ee65e1b93e2b8caf5a3b55290d0b4fda
+~ ___49-[HKSPSleepStore _getSleepScheduleStateOnDoSync:]_block_invoke : sha256 94684283aa7d59d435d40b5453bd4a817787aee6906938a3168995f9d922e8c9 -> 8b178618f57ef432b68f65319f562addd56a523ae71d2b9b3f427703d4ffee20
+~ -[HKSPSleepStore currentSleepScheduleStateFuture] : sha256 9dedaa5dafae5ccc34be4c39f7ff97b086f61710b7964274f733bb529a96f301 -> fa604f7ff428262739c58c69bc3f73cc30d29a4daac7952d79fd7196a5880ee8
+~ -[HKSPSleepStore currentSleepScheduleStateWithCompletion:] : sha256 669450882f5e40110f113b828ae7d41081d6bd745841eec89fb273d0e22f7357 -> 34f0f63772faed0ad5d433ab7a653e76662f0e89a776672b8c9dcb14c35c5c62
+~ ___58-[HKSPSleepStore currentSleepScheduleStateWithCompletion:]_block_invoke : sha256 e594cf26f4559a8a195925e71064b488883a49d86ea8de326b350a227ad2d4e2 -> aa4d57d222be6bce26667a384b41ad4f5caa75181fecb9916bb01884d248f7b2
+~ -[HKSPSleepStore currentSleepScheduleStateWithError:] : sha256 b69d206923bdbcc89b6d47d2c20bb2ff70ee930b5ed07f9199f81ae1067c25ad -> 2fe68dc4cadd8d8755001b6caf323b1907d13d4606240cb3e993e61c62f48d7c
+~ ___53-[HKSPSleepStore currentSleepScheduleStateWithError:]_block_invoke : sha256 6b72c92aefeb5602698425c6bf0d18aa1d24e3e6b178c8716ba88c1b34157d10 -> b73efe626da2c9f077345fffff9ede3c289b0e7d6014007be0a054d2c2a4eaef
+~ -[HKSPSleepStore _saveCurrentSleepScheduleOnServer:options:] : sha256 264812296e917e813d595bf2db2858b382fa564a61c6f5d30c5982100428199a -> 8f95ccf25902aa2d82ed336960acd2d93fc6b1ba89d05320c036ac0ffb74c82e
+~ ___60-[HKSPSleepStore _saveCurrentSleepScheduleOnServer:options:]_block_invoke : sha256 dc1a7249195a2b6136bb1a6e09fa606d5a367089e4d07bdf8d52a6b8fb836f44 -> a559db9f9e1c841e7f97b5df24ac9d86d1fbfb422bb91a31c6ff1afe806bd26d
+~ ___60-[HKSPSleepStore _saveCurrentSleepScheduleOnServer:options:]_block_invoke_2 : sha256 e2ef542591471e3db8814c286b2687902c1b62d2b8b396450a8b10a45c6aa41f -> a7f336a9752f0f819fee57b09a6670017d0e6cfad9c5dcbbba23c4049e2ce886
+~ ___60-[HKSPSleepStore _saveCurrentSleepScheduleOnServer:options:]_block_invoke_3 : sha256 37978ffd08d9f46824887930ed07987cd4115d91c3c75c1697a572bd25bd2fae -> 499ad9dcfe82874707437bccdbdd374a9a6bfca85212d31f9263167591c6ddb9
+~ __60-[HKSPSleepStore _saveCurrentSleepScheduleOnServer:options:]_block_invoke.478 -> __60-[HKSPSleepStore _saveCurrentSleepScheduleOnServer:options:]_block_invoke.484 : sha256 ea095b2ddca547b74f8de1404910df9b379160ef1d2d7820a6bf8a56e662434b -> ad51184f23afd7190e939db6fb47838d26327985cb8707de6a1166e56abca86a
+~ -[HKSPSleepStore saveCurrentSleepSchedule:] : sha256 f12f9e57fc8c2c34f3735d98194aff9c73716601b3fd5caddebc1c6ae9e35cbc -> 6dd0733a03b7b39bae042a04acc3837fa53199df8076e9362693a3cf10fbc152
+~ -[HKSPSleepStore saveCurrentSleepSchedule:options:context:] : sha256 c8a7a9a18accd629993bb3262c1336b4073025c81c3521e2849f5aaacfb2d20c -> 2773fbd20122646b7bd61afccb63601b838565109156f1e8969f95f3a4d82686
+~ ___59-[HKSPSleepStore saveCurrentSleepSchedule:options:context:]_block_invoke : sha256 33b0b606fc355cac7771dedf81cfab87d595762d193ff993d340b7f33354805d -> 2013a5f2a08f6a8e4e61dfb2efb59d00df8640757d5915b6af147bb9b1d976a7
+~ ___59-[HKSPSleepStore saveCurrentSleepSchedule:options:context:]_block_invoke_2 : sha256 97e8c2cb07d0bb72d2106de6d3668483430e65dae06acdfabd12f288f0177c33 -> 0f369025cbca6afa93e89b719bbcd8fe1e2f9352843952e990b17335132d769c
+~ -[HKSPSleepStore _sendScheduleChangedAnalyticsWithContext:] : sha256 24f1bf869f7cd175d47921e3eb439d1bcb8f01c382ab48959a6a662e1eb41d24 -> 5eb7acc50006675bc35bb22b4e1408a2ad7fe85d6e9dca59899401e896d8b06b
+~ ___59-[HKSPSleepStore _sendScheduleChangedAnalyticsWithContext:]_block_invoke : sha256 c153f65c39a898b502abd0b0df074fa02c1fcc956eac2faf4d1489fdde9d507d -> 9ad9bdab8d87d9e2c495835143ed532a730c75e95612e55cf81b3f5ad1844d57
+~ -[HKSPSleepStore saveCurrentSleepSchedule:completion:] : sha256 4765ac2ab2c93d25c8c3316a84a4d3ddff87a06285212dd75623174b8f383c36 -> 1a9dd13b2cdbff29cd2e47aa490982f6f6d2077356bbed528800f53e0025702c
+~ -[HKSPSleepStore saveCurrentSleepSchedule:options:completion:] : sha256 d0dc39505d24b716507014a330d2ac0cc11ec82f9245745bb5fb517d0b307882 -> 7ed123b7b214a78741825a2f6f2eccf9c9dfcf1bf3b88ea814091719e2843c45
+~ -[HKSPSleepStore saveCurrentSleepSchedule:options:context:completion:] : sha256 87e88d8e675aa1dd3150633084635c58c56c7876d3336fa23b672bc5f9077fce -> 3bd622998848036b121ed31ec0077fd367876d926083336aa03ed582abb654c0
+~ -[HKSPSleepStore _writeHistoricalSchedule:options:] : sha256 76bc55f485532a0de542b2ff5df1bb30ffed6c3474ebf46575fa1a1eaab87291 -> 15e5cb71ca14af823fccf209f2ed1a78acd6ae63d8608b758833aacbb2bd7e4f
+~ ___51-[HKSPSleepStore _writeHistoricalSchedule:options:]_block_invoke : sha256 56f721c172971ec448ed9b1886b19cfc7687241be6366f0c1afaca4a11420389 -> bc7337e937f2d9fe07b3489c5776aa3e5a2ef42a7f1f736794160a1b53fea9cb
+~ +[HKSPSleepStore _updatedHistoricalSleepSchedulesFromSleepSchedule:options:date:] : sha256 2e98eb551a0eda8a6d57d003de67d5b31159cea24943625aadb8ecb06ca7376c -> 73c01061f2f42273c56f659c66871f52f1e32939c6b261f24fa9b14f58288daa
+~ ___81+[HKSPSleepStore _updatedHistoricalSleepSchedulesFromSleepSchedule:options:date:]_block_invoke : sha256 50cd0c81d173b1c21f74da3d9684df270babd5714ec86a02e0112abd050663f0 -> 0b9cdae1d11212d12da75bbe630f87d905563ccd8e6012551bf3332e31f8109f
+~ ___81+[HKSPSleepStore _updatedHistoricalSleepSchedulesFromSleepSchedule:options:date:]_block_invoke_2 : sha256 ec3eb5b05785cc443b97fee8c89032ce868624086fb2435278cfb4cd2d0971d0 -> 31bfb27016cd790f44cd656cef665194c3e557bb1f79bc335ca1e2ce45617b05
+~ +[HKSPSleepStore _updatedHistoricalSleepGoalForSleepSchedule:options:date:] : sha256 e8dddaf90a40366b0da5bc6b429545d473dfd2ea188e5e51d89870ec9e2f8737 -> 3be741d06d5c3770cfeee9358e64dc736bb5325eb1a75a41c4c9abdc4a45c6c6
+~ -[HKSPSleepStore _saveCurrentSleepSettingsOnServer:options:] : sha256 b615169f4e24670c1c0c9a2570d6cbfe172d81b4b9b4e56ceaf0964c5e5e0be7 -> b94835b09a4dc108aec16b5cc72e152b3bc03f3edeef9cbabde91b7af11b2849
+~ ___60-[HKSPSleepStore _saveCurrentSleepSettingsOnServer:options:]_block_invoke : sha256 b5cb772500390fb5eeb0c310f956a5f49220685612c7570f8f28502517ff983e -> 5b4069379a1b5accefc7d120a6dcaf3b61f5dae45c58f36ff9d1df3df3ad9d2a
+~ ___60-[HKSPSleepStore _saveCurrentSleepSettingsOnServer:options:]_block_invoke_2 : sha256 45facabb1f0b55291ceb5e121aa48a535f5b5224c807b983224c6e8a5d53d2b4 -> 18e7dafea186c6e0b2cccc0eb466b5eee68494f9f54420c88e11f9595fd79aea
+~ ___60-[HKSPSleepStore _saveCurrentSleepSettingsOnServer:options:]_block_invoke_3 : sha256 d9756f8ce5f2533c8013de7e0aff2126bae8f9f048f2d50d38ee16faae396400 -> 72819186ccbe1407f30f7a451f63897e180b99d97912c09ceba3a1277eb4423f
+~ __60-[HKSPSleepStore _saveCurrentSleepSettingsOnServer:options:]_block_invoke.513 -> __60-[HKSPSleepStore _saveCurrentSleepSettingsOnServer:options:]_block_invoke.519 : sha256 1ffb2bbae240da360623063a39080a015e7a047515b711a76789e2bf5a16c3e2 -> 4df2e9d02c3c260de6839b7466360852d5acb978198c2393727d3734bddf4f0b
+~ -[HKSPSleepStore saveCurrentSleepSettings:] : sha256 b205db5ec3aafedec7c07046bfe5e3a91ba2917f85b11d710af083b560093ee3 -> a343b0cdda43bddf16e7d03d8b85a11dca7e8fb8b59b6182e61a840a5b3c1608
+~ -[HKSPSleepStore saveCurrentSleepSettings:options:] : sha256 d4098dfb8c71256b70cf8cc5764d8489388b16108bda77d983b16a9ee2b5318e -> 04e1a473d8521f7eaa4387b4dbc7a08eba43e019b5a744ed6f45e7948e14471b
+~ -[HKSPSleepStore saveCurrentSleepSettings:completion:] : sha256 0f3be3ef39fb7957687575aff3748db5e6c74c7721d404c93e47669663abf47f -> 2d00ac87490e40998bf39569833a7cd8a2909af82075bc99b8f5b2b19060cbb6
+~ -[HKSPSleepStore saveCurrentSleepSettings:options:completion:] : sha256 70f76597d12a58da17b74ca51f2408331776e1fb486526f94881446b84ef7c86 -> 4121e6798e6faed441a40c30a77d73b140d799900f5b593a9e2ae92a861ddca4
+~ -[HKSPSleepStore _prepareObjectForSave:options:] : sha256 a63d056da947e9c1da597e57f3d6156e7e894cdc0e7cb5a849cdd33740754e63 -> 97710bee6852727977d4163bc2061061da296b7be56abd86d925775a01c356c3
+~ -[HKSPSleepStore _saveCurrentSleepEventRecordOnServer:options:] : sha256 e200057dc39f2e7b98ae376d9a7b441024e38dfe2292fb7beb7b7cab700e5354 -> d47f0b156a6a49c16d76be31acefe545eb486c04a561d776139e5d5f75457ff3
+~ ___63-[HKSPSleepStore _saveCurrentSleepEventRecordOnServer:options:]_block_invoke : sha256 85de86c51899797aea137e7a81c2cd3b6eda7c76cff238e82bcb9c4926b5c62a -> 6817a316ab5f2e2f9f677c16a11fbbaed2a2f79135941014c6471eda965ae430
+~ ___63-[HKSPSleepStore _saveCurrentSleepEventRecordOnServer:options:]_block_invoke_2 : sha256 47ebd12051d612111650cb7c529d96d58460a5135fa9af6df229689cd921b64d -> d8b63cbc4e37dc0b65c7ce6d85d2e145a6bacdf20678873aab67392a473f2221
+~ ___63-[HKSPSleepStore _saveCurrentSleepEventRecordOnServer:options:]_block_invoke_3 : sha256 3cc4591d0a0c754380499ac21965a65fda2704d9141a7e4a58787c44fdf8fc34 -> 428c9119409ea5084ddf48b6a1637aa40656671f214e68588f9d1068e0f0e717
+~ __63-[HKSPSleepStore _saveCurrentSleepEventRecordOnServer:options:]_block_invoke.612 -> __63-[HKSPSleepStore _saveCurrentSleepEventRecordOnServer:options:]_block_invoke.618 : sha256 301d2bf65c2f0dc57a3e15cc1441bf2e11e9c498eb843d02f2e1148e6a113f06 -> 0e0b1f4ed58ce22ba3358ace186fb39059ee6eaa6d0c646547b3c494f94652bf
+~ -[HKSPSleepStore saveCurrentSleepEventRecord:] : sha256 22ec2485bf2a612e73295776625b78bf046456879aaabda0f4e697a760ba9ec7 -> d5292b57fc940a6b2eb735ef6e8aa450c39aa270fb232e57e324376b3385d7cf
+~ -[HKSPSleepStore saveCurrentSleepEventRecord:options:] : sha256 bd7298e79a9cfe2066f2f835eb87f08626b582fcf0b9a02215e321b94c26f10c -> 3505e940d99a92b00bd7330fc74cc9f43c16af91b331689527245b94fc50fe14
+~ -[HKSPSleepStore saveCurrentSleepEventRecord:completion:] : sha256 9d60c6dd54d559f2c860a785c2aa339edfa3536bf399f5657f353a0739da8e5e -> 223f6c32bb427e9593f0926b70ec0ce24ddfb7d5d7e030830806e55ba33f247d
+~ -[HKSPSleepStore saveCurrentSleepEventRecord:options:completion:] : sha256 7eceffbc785399050878d2c2adb0dc34e7e3a54da7576cbdfe42500103383b32 -> 4e7f13b61486a9ba90ae83acac304531b562058a1ce03c6e58cf10562102b024
+~ -[HKSPSleepStore _setSleepModeOnServer:reason:] : sha256 682a12c73f5161ef30dc37588353bfc0ea1258fce60585c1c40d6a255c96ab63 -> 1d850713f2a9c7873b383a608be0e17e1f917cfcb5deb79e70debf7669ae74a3
+~ ___47-[HKSPSleepStore _setSleepModeOnServer:reason:]_block_invoke : sha256 85031788bf614b64968fbb8025e5d3a53dbac0ba1cc0879db04fb95f2729747d -> 9305daa6766fb5b7c64c5e0500adf6ea337f29701d649d14d2ddb0923f3d60a7
+~ ___47-[HKSPSleepStore _setSleepModeOnServer:reason:]_block_invoke_2 : sha256 b86e868396429ec8b1bdcb4c86d54f7f8bafe8182299992e9504870a63e8c6bd -> efc00beb5bbe9fe176d0cc5fe3f5eb00c8c3da955c0a0bb125f1571b4c298968
+~ ___47-[HKSPSleepStore _setSleepModeOnServer:reason:]_block_invoke_3 : sha256 c41f210fc786bdd7afa6b41796a79a02e3df9af3ba4d7397764e19d572973385 -> c33a6a401d82a7dbe502b0219385d0686b5b1de556c12d7bbdf8433c6da2fb43
+~ __47-[HKSPSleepStore _setSleepModeOnServer:reason:]_block_invoke.615 -> __47-[HKSPSleepStore _setSleepModeOnServer:reason:]_block_invoke.621 : sha256 b9ab98eacc7ee8a19bfc43573afc99654c394380e68af38d0207a5b11847c6e9 -> fb1f965729dd3c95d59273fad7a26d604fcac8df2f3c12a8967fdf0540d9a4f5
+~ -[HKSPSleepStore setSleepModeOn:completion:] : sha256 3c0a492f2c99dc7fcd6ca3d08cc3ad39bb2eb7e30e6acbf6e2a1068ad7565553 -> 0df2a2a6f389ac3e3d2a250417af207c6105e65e1eee709ac35edd1465118550
+~ -[HKSPSleepStore setSleepModeOn:reason:completion:] : sha256 50851a8a79fc7f502379f087541a110aca28bd35b14f63477150ad8c41edc892 -> 45c9b1dca39888800be05833059d5b0b9009ccd56f0ada78c5da08c859b782d5
+~ -[HKSPSleepStore _confirmAwakeOnServer] : sha256 58f05808805efb2ce9e8e138a9b4f6bac731776501762ca50ae173c19ffe0785 -> e77da985856588a873f3a62b5fd129619905915ebc383c8d3633288ff235129e
+~ ___39-[HKSPSleepStore _confirmAwakeOnServer]_block_invoke : sha256 c4be3df1ab738be9278633e00766edbad253a05ad33c9a8bbc73c5a1ac8f3fd3 -> 2d6842f4445a3c8901b0aed5dc60fb9397f75dd631512a448bf618109e550d75
+~ ___39-[HKSPSleepStore _confirmAwakeOnServer]_block_invoke_2 : sha256 8b36f13eee032012e0eba365bcb457ccef0815ee66d947cf4570635bad658b6e -> 8c465fcc01c3326430c4c34604294d73a52416cf26a528f59c311c20bf72c054
+~ __39-[HKSPSleepStore _confirmAwakeOnServer]_block_invoke.619 -> __39-[HKSPSleepStore _confirmAwakeOnServer]_block_invoke.625 : sha256 a3cd7a3c96a70c99c9b5aabed115691102dd173d05f5c461b66fe8d35f5c9f05 -> fc588217cb7bdc82ac290c2e965d37388df7ec8a6e19d8b40cfc805cb71495c2
+~ -[HKSPSleepStore confirmAwakeWithCompletion:] : sha256 79f8fbf94362126e47d051722f773833ca27735066b278355ca3985a07673447 -> 5c228d46a88fd2ce055c7499c81fc0e55ab06ba4a1219473d7f6f19f96b2f56a
+~ -[HKSPSleepStore _dismissGoodMorningOnServer] : sha256 f1c23d9fa01216f980ccaffb3d53e4419608c6318848e678b78181c4858597c5 -> 80d0530e6661af26f2df27b911b66c60c7ad1b2e1a0a81b447f23c2cf64149c7
+~ ___45-[HKSPSleepStore _dismissGoodMorningOnServer]_block_invoke : sha256 542188c2f2f22be68b4cec49f25aa28a820cab5271f053665bcc9a9bc1177e80 -> 2d67b62a1238e7db5b1953f6d4680421a5db0bf0d02346171e792f1909ef8ce5
+~ ___45-[HKSPSleepStore _dismissGoodMorningOnServer]_block_invoke_2 : sha256 b0134ea02d809e273802d763bcc1801b783a1a139013b98138d00eb6eb567df8 -> 4e563a9742a2b7f8b668e51bdb87160e6a69710daf5c94e0a02cb54a017f87af
+~ __45-[HKSPSleepStore _dismissGoodMorningOnServer]_block_invoke.620 -> __45-[HKSPSleepStore _dismissGoodMorningOnServer]_block_invoke.626 : sha256 d2c5a5f428f0fb6b2e10dd161e52e8e5db022d27ddd0265ca400aed268631805 -> 7a32d6987c06bac2d9d08682b6d64c1859c4b47bc7f3f3c17da52c5b331a1f0d
+~ -[HKSPSleepStore dismissGoodMorningWithCompletion:] : sha256 aa940cd0ed5e83977c00e9bd6f1792d7194f3417bc4ce887b8cebda4a0535d30 -> 9168b7d5abc3d61c4a7b1f23b84ceccf1dcf4effc0fad5a43f3bf214350edb82
+~ -[HKSPSleepStore _dismissSleepLockOnServer] : sha256 7bdfd8a8c033dd66f78409682c1f4b54b08cb284ab98f06cbbb16cc8f031a6a5 -> c6277f33a2f2fd96f212aa56245067d72d5c047907339c9125cd96d0d4df8623
+~ ___43-[HKSPSleepStore _dismissSleepLockOnServer]_block_invoke : sha256 049411770aa44de8e595794c1baa94ac1362f0fe90a687af5c6afdd9fbaedf5c -> 028a46e5540bc9ba55e959772e4eb768cd47c4a5dfed949b41f839663f36b224
+~ ___43-[HKSPSleepStore _dismissSleepLockOnServer]_block_invoke_2 : sha256 038ed74ea8c378ad82971d795acd4b97a84d7885a51bc2c3f1911c6aa6e6d086 -> 95d88095f25e43efa08fac40bdd25a8148ac719ed37d46933cd737b10975bca0
+~ __43-[HKSPSleepStore _dismissSleepLockOnServer]_block_invoke.621 -> __43-[HKSPSleepStore _dismissSleepLockOnServer]_block_invoke.627 : sha256 781910bae6227a764b7fbe7eefc4998a5debc793efabb6d4186448811fac011c -> 181cdfedad5c54afd107914383aabfe2fa2f19451818c85d0c500003f0f81258
+~ -[HKSPSleepStore dismissSleepLockWithCompletion:] : sha256 aebed6df0835be184b601e7f860fb4a9219c90f5f310e803ccddbd46967d5bbe -> 88c7e3fe88554cf733f170b675d0f56e3f653564207bd4fb4b155e0b9a98c18a
+~ -[HKSPSleepStore sleepAlarmWasDismissedOnDate:completion:] : sha256 b61c5e873f393a15285874e8fb3aab6c2e327fa6aa98f5d15e2d7c21d86bf1c1 -> 0786affb61d431d390466d89c1a89470d88813053a1d3f93b9afe1b5ab219863
+~ -[HKSPSleepStore sleepAlarmWasDismissedOnDate:source:completion:] : sha256 c0303353310850126508267c321cc2f4ddbd08a9be018f50e4c413b2024f6bac -> 4eab829ed9c81a89fdefab352ba41c36c86627219775647aa6ea2fafa0caa38a
+~ -[HKSPSleepStore _sleepAlarmWasDismissedOnDateOnServer:source:] : sha256 66561995a1ba4b7de5acc463d8ce9f08f85bb5b3ec494ade3037cd92a871b89c -> 26a55627fdbd423d12615b6d001616114dc4bafd4d4c1c103c7286ef9db59983
+~ _NSStringFromHKSPAlarmSource : sha256 81bd155f458f77a4e14f852dc6c065b89efa7494e6ea255bdc05e11852e4983b -> 01b84436672589b364efffca815b54a32927a5b1f75c5e4e5bb237524b98c4fa
+~ ___63-[HKSPSleepStore _sleepAlarmWasDismissedOnDateOnServer:source:]_block_invoke : sha256 d92576caf05b9ce89ceacd241c677e5174cd14550c2b5457c02145e03bd27995 -> 825e4ccfb53216dcb514d40efe1b38d8331e8d44cf3b19598be971a324f64f0c
+~ ___63-[HKSPSleepStore _sleepAlarmWasDismissedOnDateOnServer:source:]_block_invoke_2 : sha256 059c092c555059e4f1f68d0b7d31033f696a976595095266b84d0161fa97bff7 -> b52a985022387d28d2239094b00c78ae4daa957e2c11a8861d83d827ac846495
+~ __63-[HKSPSleepStore _sleepAlarmWasDismissedOnDateOnServer:source:]_block_invoke.624 -> __63-[HKSPSleepStore _sleepAlarmWasDismissedOnDateOnServer:source:]_block_invoke.630 : sha256 ea55845152c36ff96acbf5458660aef164c5e1d9424a6237ead916f6459cb4eb -> 0238ac7c2cca6c806e6ef830ccfcfdbae8019c124e210d5695cb2a8a979acb53
+~ -[HKSPSleepStore sleepAlarmWasSnoozedUntilDate:completion:] : sha256 406222564bbce9144497a789f41cfd734ea4f6cc6600e486e9b05d8a8ce6f4f2 -> 3bf244005d62c257c47ceac7e3453d15e95108df444a40c656481d6d953675dc
+~ -[HKSPSleepStore sleepAlarmWasSnoozedUntilDate:source:completion:] : sha256 f9a4fbd22a5a93cb6c4350c6b23c6bc4b9a16741bc94c1c7eecd180e5bb1981d -> 6119336a0e50fc4023dbd541e72d41a756560c19b5479f51be84ec7c20c2cdf9
+~ -[HKSPSleepStore _sleepAlarmWasSnoozedUntilDateOnServer:source:] : sha256 45aabe49468c75b84e63388041e804823148e6a16e614b83b3e846598aef7683 -> 314670fc1bf773057e1d90da68bd0aa4af40a99e67c1def81662f0be04b7411a
+~ ___64-[HKSPSleepStore _sleepAlarmWasSnoozedUntilDateOnServer:source:]_block_invoke : sha256 fa8ca087b56ec11c248dc388cf0811276a333f1723ce5566a30e6bd2e80822c8 -> 181a7693a1c6f69b711556d5db915689c14fa10bbf255ed8da214e695475d492
+~ ___64-[HKSPSleepStore _sleepAlarmWasSnoozedUntilDateOnServer:source:]_block_invoke_2 : sha256 a52839b795fb7d16f09f1ab75c88850577e2072d9f08d5af5574b19b102e0990 -> c45457b011aed4146d5f8cafa5983bb50bdef3e7f6f38c5102ebd61fc30b4803
+~ __64-[HKSPSleepStore _sleepAlarmWasSnoozedUntilDateOnServer:source:]_block_invoke.625 -> __64-[HKSPSleepStore _sleepAlarmWasSnoozedUntilDateOnServer:source:]_block_invoke.631 : sha256 e65b696d279a29cf4aa3d4d194fe452167cff6c3b273ab8695058f9802b60021 -> 41a0a1e02967cf8df70dd047cc3218797e738bc86bda9474ddc38f5c4a40be1a
+~ -[HKSPSleepStore sleepAlarmWasModifiedWithCompletion:] : sha256 2d728f9acd12ab4a34e2824a6c40828a48dff7dd6fa9fd70a3ced95025dd4c65 -> 1e821771b04b8c97955f7145a4b72b01bd6f154927650338b5c4d35cf1d2691b
+~ -[HKSPSleepStore sleepAlarmWasModifiedFromSource:completion:] : sha256 61d97e166a0cda62fe7b40a4b4ac053f9260b7690f0efc9710ba17f19724df4c -> 83453d4567b4c3abde39d7b2b2756432476c285e1121ee6d8cee245c47b56ac3
+~ -[HKSPSleepStore _sleepAlarmWasModifiedOnServer:] : sha256 cb61230f35eeb6d9b77df5b7d4cb0089c992f8f5ddb921aeeabc5ae45978c1a3 -> 6b4c6dbdd22a1da950ec44964d44fca6581dbca5d6938b66855d2904a434d2c7
+~ ___49-[HKSPSleepStore _sleepAlarmWasModifiedOnServer:]_block_invoke : sha256 9b27e0a7e185de9b026375ccc9cc8ac0be0cca724da5f32309c0391d99be5526 -> 8272251a2626b143b585412dcec300052d0e69461d98a5897608cc0ecad21932
+~ ___49-[HKSPSleepStore _sleepAlarmWasModifiedOnServer:]_block_invoke_2 : sha256 437286587d4f2b9c98f35fb7d187e0865de928ccf5a93f7a64eea5bb1acb877d -> 54952ccf4bd3ae8c62f7645272ce369222c48f31de0f7bc990c455b965e76a49
+~ __49-[HKSPSleepStore _sleepAlarmWasModifiedOnServer:]_block_invoke.628 -> __49-[HKSPSleepStore _sleepAlarmWasModifiedOnServer:]_block_invoke.634 : sha256 593e673e105a6496a2564c39015fda9c7ba4bf8d519c583182ab92d256002094 -> 54b03c4e0dcf54bb05dc6b72afa12d06a0eb39187b57a93ffea52e0448d16ce0
+~ -[HKSPSleepStore skipUpcomingWakeUpAlarmForDate:completion:] : sha256 9f8a6a339e74b7dfc176457c9bb3a4ce7acd71435ab038723be896abd0ee8624 -> 1673268498b6a8dd3112707aa3d5da144d2ea110931131da560df5834972b87a
+~ -[HKSPSleepStore setUpcomingWakeUpAlarmEnabled:date:completion:] : sha256 be43f66f1ec9ad6b5674082020890f830fddf5e4469bd7e81886f90eaaadc520 -> dd91c42c5d5b408f96add5133b887b7a83bbb92ef823c8ada494e11dd825cd0e
+~ -[HKSPSleepStore setWakeUpAlarmEnabled:resolvedOccurrence:date:completion:] : sha256 9798e612412c911dcf4991b3a4ddd654d04a0009454cae4aebc18a8423f58cf3 -> 3caed341a92c217919c698ee7c48a62f8591ae8a913aeddf2604cee75b3b41fb
+~ ___75-[HKSPSleepStore setWakeUpAlarmEnabled:resolvedOccurrence:date:completion:]_block_invoke : sha256 2e9681265ec1a8b9e42600bb8ae57057672ca1113880f470d651678205376d5e -> 20017980af9923b27a1ca584d89419e33b84da16ac35979f175ef5bee5ca394d
+~ -[HKSPSleepStore _publishNotificationOnServerWithIdentifier:userInfo:] : sha256 e1bb3eae832e0c589cc8693205270c6771b8bcd3d8db52b4bb35c70d08f117ec -> ba7a0a9843cd6aabbf615cbb428d8a71acd977cc6220edb7303deb54877836a3
+~ ___70-[HKSPSleepStore _publishNotificationOnServerWithIdentifier:userInfo:]_block_invoke : sha256 afab534ce12bd8beb361271064c9e23110d0a8708a6d60ad35120adf0437673c -> af0c7697e6c325fcd1742129367ffb9550511d282f961a1ac75e34abfdf35cc6
+~ ___70-[HKSPSleepStore _publishNotificationOnServerWithIdentifier:userInfo:]_block_invoke_2 : sha256 2ccdec55f54888df834b53bf24f2451b35cf3bddf1023d40f5a943952ee68f43 -> 936506fa81bbed2ca7d23b21e6027b13354f0e811817d6bde9e054eb6d3fc328
+~ __70-[HKSPSleepStore _publishNotificationOnServerWithIdentifier:userInfo:]_block_invoke.631 -> __70-[HKSPSleepStore _publishNotificationOnServerWithIdentifier:userInfo:]_block_invoke.637 : sha256 77de226c14681c2d1dd09ded73c5b45f00e9175cd9b3a58dd0dffb394c1722ab -> 402200e70842dacf0e716e6a736b1bb91f10e9057f80387f8346c936cbc2e596
+~ -[HKSPSleepStore publishNotificationWithIdentifier:userInfo:completion:] : sha256 0a646acdd020b51aa127166edba9b6e1bd248dbb657343d009a157794c35f38a -> 1030ba34682eca14cf4d28b276c5db9a6e9e36e9ae55730a092fd2cf32e1b08f
+~ -[HKSPSleepStore _setLockScreenOverrideStateOnServerWithState:userInfo:] : sha256 40a633079ffaeaad18d2df223546b261ea24ae4d95fc9db1679847266e9e772b -> 75edfacc67cd22342ee740194137a4843da9ffb4909c589f3e9c63ffbbf160b9
+~ ___72-[HKSPSleepStore _setLockScreenOverrideStateOnServerWithState:userInfo:]_block_invoke : sha256 fe05cd81e632aef3e3b029a9013c0c15a211b53f497b5125e74b159baa2bd591 -> 29ded164f6ad7452ce91c8269a7014ff8e1f2f9e826cde7b2b692c226313ac87
+~ ___72-[HKSPSleepStore _setLockScreenOverrideStateOnServerWithState:userInfo:]_block_invoke_2 : sha256 b8aa3ae005d24ed0b7dbb58e8b2251272e4921a880848b1dee5140084b58aed3 -> 56575c45a8e515a9d20d413a1de905136997afa68b6f9fe8cd9efddf13dbd4df
+~ __72-[HKSPSleepStore _setLockScreenOverrideStateOnServerWithState:userInfo:]_block_invoke.632 -> __72-[HKSPSleepStore _setLockScreenOverrideStateOnServerWithState:userInfo:]_block_invoke.638 : sha256 427a6f5ae22b66370276c17372e2838582363ba7946c6306269f74fb0df0d093 -> 65522344ca8d0b45178196c76961d63c5132dda5ade16c5c23987f2005b52973
+~ -[HKSPSleepStore setLockScreenOverrideState:userInfo:completion:] : sha256 f48ec628b6b48fb2c385cd1a5f420ff8f1be63098ef1f06184aadeaa00532326 -> 77166ccaf7a96229d847e71604c335add6130a20bb00091093675d2f764558f0
+~ -[HKSPSleepStore createSleepFocusInState:completion:] : sha256 92b27120036112b1ceea5ad184decc59a94b2e410f5ef4484f2239f5d7096dba -> b59d9650f4296f238fe6538a350394d3b5aede6abaf2711453e03969e425e73f
+~ ___53-[HKSPSleepStore createSleepFocusInState:completion:]_block_invoke : sha256 0efb2a90baf4f3ec127ac1c5f88c234286534557723eb71f46a23308d29adfa8 -> ddc5aab7fe0c259de3c47988395a1ac3a921652b9d24808f741cddb56294bf35
+~ __53-[HKSPSleepStore createSleepFocusInState:completion:]_block_invoke.635 -> __53-[HKSPSleepStore createSleepFocusInState:completion:]_block_invoke.641 : sha256 728d7156f7e47ea415152d2469cfef86e2438026d456f10c33865ffb36e83fff -> 6b1be428703397ac8409b465eee7675b25eb14fbe68d4ce83bccaece3bd91acd
+~ -[HKSPSleepStore deleteSleepFocusModeWithCompletion:] : sha256 21ed81560789abca5a75cd4e3d309c0f0a625862a8a8cc778d253715aaf45411 -> f41ce8a45c42d440755cb5e69511d6fb9ec8afb027383eb195f2751550fdd908
+~ ___53-[HKSPSleepStore deleteSleepFocusModeWithCompletion:]_block_invoke : sha256 4ee9e07153ce1e7fec3683ae619589127417bd15881102c122565f5037b49a48 -> 08adf44cee3ddea2320605cc0be6e0c81ae15a5b38e7fe7114161ab77252eb3d
+~ __53-[HKSPSleepStore deleteSleepFocusModeWithCompletion:]_block_invoke.639 -> __53-[HKSPSleepStore deleteSleepFocusModeWithCompletion:]_block_invoke.645 : sha256 fea1b3f80fc3c39672240f787d884c13e45040dd19e7369a0646f53282df8afe -> 942bc84e3e73e00a4e961ac3d20b5a6414d98e9315b934e6548ac59354769c69
+~ -[HKSPSleepStore configureSleepFocusWithState:completion:] : sha256 9bbcc9643869ce8480af08cf3e217de2a01b57d3ac5ce2e6fc897247bcf6a966 -> d7a1cb58647a0baf2be294779adffd2f49b880341e39e6c01cb00e8c67950da1
+~ ___58-[HKSPSleepStore configureSleepFocusWithState:completion:]_block_invoke : sha256 52306e6173c369f395253d1a10e806d92e74343838118ef0d4b78073676083f7 -> a7d30c91f2c4a3f940c0d0f29171a117141fdaba0e2ad9d588ac06af07f9f4a0
+~ ___58-[HKSPSleepStore configureSleepFocusWithState:completion:]_block_invoke_2 : sha256 f9f5f88f3aaa82ec5a70451d4077086e4457680c6edaeb900dde2c917726f826 -> b4d3866237801df8db4b82b8e273eaaae0af7360b2ba64d73f8e33150d204232
+~ -[HKSPSleepStore _setWidgetOverrideStateOnServerWithState:] : sha256 534243c221df5abce2ff4fdfc504c0f16f7846e4e89dffdd12112c7914699621 -> dcd57711dd938e0e5573a75b8e9eee7434b7663f3e0b8ab676c1fa82ed813973
+~ ___59-[HKSPSleepStore _setWidgetOverrideStateOnServerWithState:]_block_invoke : sha256 61bcd3e0ecd6e1ced631dad6e7f16488e48a9ef5ab119e5517e9cd36bb4bcc2c -> 09114d25568bff029e598a9ab3170c6d28877f025be0bbff3ac18c4d34c54b49
+~ ___59-[HKSPSleepStore _setWidgetOverrideStateOnServerWithState:]_block_invoke_2 : sha256 04b085290b0616c8f5e6464ae9229703ddae97c7d976486bb8f55953337261aa -> 96d384c9c48635d283eb17be33f1f8251be2b1a17465c0d9bb82809fb4a625f3
+~ __59-[HKSPSleepStore _setWidgetOverrideStateOnServerWithState:]_block_invoke.640 -> __59-[HKSPSleepStore _setWidgetOverrideStateOnServerWithState:]_block_invoke.646 : sha256 a1d41fba57d846367102627218df85ef0952da3567fe1c172f7b0b5c23ea1383 -> 5c91ac401beff7721b7cc0841a07d5c9211a295c89ab3c6c29a21c8cd38f939d
+~ -[HKSPSleepStore setWidgetOverrideState:completion:] : sha256 b5cc1e2e83e204d56b289a0f9509cb2762390d3eaf00aa92428ddf5aa962d9d1 -> 9428c4e66f4c3b2d9cbcaf16868b61a41149a28fef659c85440d9e163ec21291
+~ -[HKSPSleepStore _clearWidgetOverrideOnServer] : sha256 73007e3d3903622437510ab596fb5ef221c05e309cd59eed76c8f4ffb2f53806 -> bd784c41e853ee4841abe41517aa54863461f4da3694a934a76093125df303f6
+~ ___46-[HKSPSleepStore _clearWidgetOverrideOnServer]_block_invoke : sha256 4660ab6d0d60c9774f45db9de12a716ec00eeeb8399ba9d44b606f52d4918dd4 -> 30f78fcb733b98b0002e0be8164c815215807580ce974498f87836e0317b253a
+~ ___46-[HKSPSleepStore _clearWidgetOverrideOnServer]_block_invoke_2 : sha256 8dc3196c36b8f198bc68bea40a85c4d58a83960e2e48c19b6085142351f32f9a -> 30848f6869d2856cb85cbdecbb519ddbdd75c451368a3c3bf916c7861a7f20f4
+~ __46-[HKSPSleepStore _clearWidgetOverrideOnServer]_block_invoke.641 -> __46-[HKSPSleepStore _clearWidgetOverrideOnServer]_block_invoke.647 : sha256 1baf245f98a4c28f5a375f80280f0e89937fe5b22cc308e061e00a4e53ed33aa -> 12fae060b78547df9d93607a7030bb7b9fc81f50b8f63f9c017aa2acc3263972
+~ -[HKSPSleepStore clearWidgetOverrideWithCompletion:] : sha256 0f987083c7c17acd9cf29cadcad4a44568150f1ab74692107381abb4bbba43ba -> 12d24a665301cec380029b8168fb0c535e896550ffdc24de1238ddaa99b245d8
+~ -[HKSPSleepStore nextEventDueAfterDate:completion:] : sha256 82cc896ae05b638a8cdb465d880de6d67f05e0eaeba72b93d76b79271405624d -> a70d35b00d6b13c8618986163a89f2467e7723aa233f9bf1802cc62f9102b542
+~ ___51-[HKSPSleepStore nextEventDueAfterDate:completion:]_block_invoke : sha256 8a46b78208dba84510a724401c4986c8cfe4ba16b072b312a20cb9d123c0f807 -> 4a3d0fd7e85a19140c8e68dcb0e4099a9c19a11197da6739f0915a57373ec86f
+~ -[HKSPSleepStore nextEventWithIdentifier:dueAfterDate:completion:] : sha256 1e4b5e52d6a40671a6b3d6c603e99643d4bde3da975cc85dab034ddd4d8bdd00 -> 91b75224ca22515177d1fc862b330faa8e29518602c031357ec627866aa1a7ab
+~ ___66-[HKSPSleepStore nextEventWithIdentifier:dueAfterDate:completion:]_block_invoke : sha256 3e427d4884a8374cdecd2338bbcdec4305beb06164bca0953f6ad01b5e9d3877 -> 2e7d1c57fef526a934c1b555b68295b6cb32c17f7fd93566f9672b5959025cba
+~ -[HKSPSleepStore nextEventDueAfterDateFuture:] : sha256 8f7bacafeef95a716938b658a3a41dd74922982c5372ad2768241e4ff1827222 -> c5375d91edc2e21da514911604aba31ab96b3260b29b60cfe515c0d2ca57a1fa
+~ ___46-[HKSPSleepStore nextEventDueAfterDateFuture:]_block_invoke : sha256 3cdbd9bb7b43e3988a0e88cb9aebc99b5847279f73d81203b95761ce46565c8f -> ad5b47ee30e7bcab48b6b34d273ccbd6c3c247a145af793cc44fe2318f08767e
+~ -[HKSPSleepStore nextEventDueAfterDate:error:] : sha256 d8915a2e168eb2502541bbc92a202cf307076b704d27335834aad7c8eba5fdf8 -> 7e0f9e8475c4da18a54dd180b4201335d5a28574acf0b5bf65d3f2ccda54fdb1
+~ -[HKSPSleepStore nextEventWithIdentifierFuture:dueAfterDate:] : sha256 71962151d85ad94ddd3cc27ddd2efafc0d970eb1d3df18a9772efb6a74ec6338 -> a9207a7718d89b2326e1b6468f5b6e77ffc08e3a1ed8af1419ec45e0f1145ef9
+~ ___61-[HKSPSleepStore nextEventWithIdentifierFuture:dueAfterDate:]_block_invoke : sha256 6af31f0f4791fd2833056bb3243aad532bcbba4795292db334fd48d07cb62c69 -> 6fb957f3b705c77024ddc356b60029f23b883582f45606cc8c9ea3574592d623
+~ -[HKSPSleepStore nextEventWithIdentifier:dueAfterDate:error:] : sha256 062e9eae2d8e4b6835c5597a35fc88a009efd01e1901e8cc99a5dce547b0476a -> 39e93aca2ec239e511164e37e18449801844009444d88144a83ae64bcef4cc6b
+~ -[HKSPSleepStore setSleepCoachingOnboardingCompletedVersion:completion:] : sha256 113b539323aad670bb927d22d7087b9267d41c513db248244371f8ce37552a92 -> c46a3a501d97feae21b851c58419b7e6b4e1cbe6b845fca7fca386ccffa08052
+~ ___72-[HKSPSleepStore setSleepCoachingOnboardingCompletedVersion:completion:]_block_invoke : sha256 cc11ddec146b99deb3dfaa4ac670091e9095d26140ab0be4c08f610f715bc7ad -> 350edf04df62fd563179cc1d1bc076f006b0d6d127c10b4925ef553ac71fe055
+~ -[HKSPSleepStore setSleepTrackingOnboardingCompletedVersion:completion:] : sha256 0836b91aa524a344b1974b4a679d44cd00268ac84ed7e9814b8350fd4c2ee809 -> b24f823d89b23d39bc9da31ab2851637741b7fdfc1cf839be3f6c24c4597e11c
+~ ___72-[HKSPSleepStore setSleepTrackingOnboardingCompletedVersion:completion:]_block_invoke : sha256 c31d129910daf63c9b65b6aa573b38a9b6ec36942d63c95a15bf4670dd41cc42 -> 38c6231f1ac5d0eb164da432f38155caa6cb700cf162b973b6a3851f220bea63
+~ -[HKSPSleepStore setSleepWindDownShortcutsOnboardingCompletedVersion:completion:] : sha256 d48d28c8e82448fcd44d06a6eec3f1eb1956b35524a953c6bac847fcdc9ac703 -> c44e58f976bd317030ab6dff0a98c3d819dcec2dd2817b1f71daa5112c3c9fab
+~ ___81-[HKSPSleepStore setSleepWindDownShortcutsOnboardingCompletedVersion:completion:]_block_invoke : sha256 d41dd40de293e02198d267841227be811c3aedbddc5867e300b11b0ee1c56fb1 -> 529fc09458f9a5441549ca76bef86574f49cc17dfc1e228bd5c058e6efa78659
+~ -[HKSPSleepStore _notifyObserversForChangedSleepSchedule:] : sha256 389f6d437ee76db0bf9526fc67daa02f19c9a6b86a9f2d4730122857d2812395 -> 9d8ac3dff73d875e08f303a8de49e06dc188744e8dfe564ec56d017ee6ea8d11
+~ ___58-[HKSPSleepStore _notifyObserversForChangedSleepSchedule:]_block_invoke : sha256 73984d6cfde23df40d089b4fdbc94364ce8177e30fd9083f12a0ddc31b6bd809 -> f9acc8d74b3c792f34634bb3b597fe4d43432c50f64821110672fed67039c0f8
+~ ___58-[HKSPSleepStore _notifyObserversForChangedSleepSchedule:]_block_invoke_2 : sha256 e9eb56b97a9d77a8e56fea75b58cd5bb00c6728fbd1b0d522ca2eaadb3acdbbe -> 2f5b02929da64a204acc10951884c4949e8d0cf9efcf80a34cfd06e569a43bbe
+~ -[HKSPSleepStore _notifyObserversForChangedSleepSettings:] : sha256 aafe596637ce1282372bc616ad98556aad4876ec11ec600c0d1a9a0f80d71e9c -> 1fda3778cb554095221ac0bd9eab8759c4dc734aa7468f38936deec806284493
+~ ___58-[HKSPSleepStore _notifyObserversForChangedSleepSettings:]_block_invoke : sha256 b22876152a23b89ce76f90e251339083babb16eb1ab981da8f7d7d0a6295eed5 -> 8ab497ab1e966ff9bada3bab4153bb3774fab74ee5918689ae22c9e5622ccc8c
+~ ___58-[HKSPSleepStore _notifyObserversForChangedSleepSettings:]_block_invoke_2 : sha256 84b020c97187dc7c2bc843ae448e1f282c9fef025c2bb9677f21f64a7e345660 -> 445f802c0d1463f1ef419ff1f98dfec5f3d46b34711ec9ac9b99fbc0441efbd1
+~ -[HKSPSleepStore _notifyObserversForChangedSleepEventRecord:] : sha256 bd0bf426f3eef3c543affdb531c29b9584930c3ae6dedd7a21e4654e9bae67f5 -> 8a33b8c9c52676c4001fddfa9a14ea4564f2f21effe266ad17162088afe207e4
+~ ___61-[HKSPSleepStore _notifyObserversForChangedSleepEventRecord:]_block_invoke : sha256 234e35af5c447127aac19ce8d7ad3097515bae91a8fc65199dd98d15b2d8e45b -> 73883ba6fee584cdc08dba57889bcd2ddf2b15ff3a1f54ebaa3453790d52ec4b
+~ ___61-[HKSPSleepStore _notifyObserversForChangedSleepEventRecord:]_block_invoke_2 : sha256 bc2016a495176effb1e66424aea0ab845b9a56a90263625987d12c91275392f2 -> ae6550086432ed6d5dc86961b8258003beee91120710bc035e8f5ab9ce08dc81
+~ -[HKSPSleepStore _notifyObserversForChangedSleepMode:reason:] : sha256 48a5b377261bf83f0a1e875b16c66a9fae71df6293b321bad8b067b6ae682cf6 -> 755f1eabd085271e5746bfa1a2fc279ede8ef0af90e130cdfd5078fc2840d546
+~ ___61-[HKSPSleepStore _notifyObserversForChangedSleepMode:reason:]_block_invoke : sha256 aa7b861fb2ace0e13112bbc9e4fb18e5804b3eea0b4bea4af87482d48b19e66f -> 3fcb6a1e1ddfa5d9315c29356666cac2db69541deda0fa777296ebca88ebe7eb
+~ -[HKSPSleepStore _notifyObserversForSleepEvent:] : sha256 fc2506724fa50e7729d457161a71594d3672dde0954cfb0dd46eec379218191e -> 5b14a7329f29b28fe62989e3c2af86e2a1c9daec39df4eb331acc8fd0fc1ce33
+~ ___48-[HKSPSleepStore _notifyObserversForSleepEvent:]_block_invoke : sha256 d4d24f7e1b0a744b2366236abe673b2b606d2b6a8c32a46a8cde9b2df2550da9 -> 462b38b9ab1bbab40478939762cacb8a5ad5b1db66ae4b92dd20f582b3a50b32
+~ -[HKSPSleepStore _notifyObserversForChangedSleepScheduleState:reason:] : sha256 740a6af96817beb04efa4450b955242ba3d5517a51d36e703984a1b22b822e68 -> e230615ac4881eac75c189ce74ce66330d42612b19d1f5e7005af1dca900f172
+~ ___70-[HKSPSleepStore _notifyObserversForChangedSleepScheduleState:reason:]_block_invoke : sha256 a267bd5a935f58436db50833eb7d415e66893eef2de95a45d9feae56fa921b78 -> a70b71d0c9e07c482caa63049a5aa0b9f53e66c74e3dd915496a6f115d5edf9b
+~ -[HKSPSleepStore _updateAndNotifyForChangedSleepSchedule:clientIdentifier:] : sha256 c68ff231bc4a938353afb4e7660e209cc05c05a8f6f19b92cb52f025e04f960e -> ca5dc1ee7d521f7bd7a4424991967419938a720f23b26fd28bff8b18c56201eb
+~ -[HKSPSleepStore _updateAndNotifyForChangedSleepSettings:clientIdentifier:] : sha256 d9a46846b1ac42170ea6ddb89a910737e3682f450b13965b9353e81a0b38d7c4 -> 9782f7d0d32e8b02efb9102bde2d77106f9fdb076c72466a203af01dac4f583a
+~ -[HKSPSleepStore _updateAndNotifyForChangedSleepEventRecord:clientIdentifier:] : sha256 3b88f9d8d33d14c93e9a070c7f7e7c00ef06a8d75afc065f05980d20dd7e0dc3 -> 55140b8ce4bf6917c36464ae80af82a86c441ad4b6018c0e1aee729d0cff0f2c
+~ -[HKSPSleepStore _updateAndNotifyForSleepEvent:] : sha256 393847c2d4a0d28bd41cb0a1edc2389889e20f5cc7cd2d4424b185baa845e14a -> ff50cf100ab750a6a3b7545ca60a4a8a7895377e37724b93d55852e44275cc44
+~ -[HKSPSleepStore _updateAndNotifyForChangedSleepScheduleState:] : sha256 280986a99292dcc60a77bd68dfb94f6c023326d22abdc62345ced22365d2718e -> 395827dd6431040672dca6215d4fa8f392f3ecc5782fb146c18956525f88f365
+~ -[HKSPSleepStore _updateAndNotifyForChangedSleepMode:] : sha256 a310a63dd3cde1b82fd9c1c37ae037269dafefbbf044f3b9368e6bb464422da7 -> 2653cd4540ce8f960441d95bb5c5f27877378a0ddab6e14cfb95a1ab00d5e022
+~ -[HKSPSleepStore dealloc] : sha256 1898cbebb852f6001001c1d326e1b2a70f027e2f03c68e5e7b034b2a84ff2308 -> 9df221ee308579d284084db419ed7d69efe02812a98cb86b74a148e775a59e52
+~ -[HKSPSleepStore sleepFocusModeBridge:didUpdateSleepFocusConfiguration:] : sha256 8d53acaaf6c17211265108813ecdecadd163b1a96e5e2248915db7aad11c8ed8 -> 062595a3083a11cffd7076be1cdb5de963c9a5b1af8b802adc8402ba32361afd
+~ ___72-[HKSPSleepStore sleepFocusModeBridge:didUpdateSleepFocusConfiguration:]_block_invoke : sha256 bc1151de22ef7c04bcbaed7bc74f05d3cdb4e8da21e21c654a2b30f6765788c0 -> e92f0078dcdca6b983de5023da4d7a98432f2d751871197c8da1da645dcfab29
+~ -[HKSPSleepStore hasSleepFocusMode] : sha256 d59831bec5f86aedceaaab484b5b308b8217b7dd22704300402daa863b208b4f -> 1aa478f1265d426823d2685e289126490b514f566e572d3ca265f51d42ae8e88
+~ -[HKSPSleepStore sleepFocusConfiguration] : sha256 91ec2963e90d3be2af36e1ee35cba19a13c0fa11453253727cfcf8f2b835a611 -> d4ac6ba3351dd668b72d4926d04fc563c6fa0668c96959bd899891feac164c33
+~ -[HKSPSleepStore setSyncAnchorContainer:] : sha256 8f092e2195c87a4d982aafdbae505c001685d1aa41e4cdefa244fc72ef0a4671 -> 1981cb7de26c4412f114aeb4b5ada927e683169a392aae1e1a9ffffaa22614ff
+~ -[HKSPSleepStore .cxx_destruct] : sha256 2b8154d267e12862550c8286de70f4922458c7ea6f51c5d1596294bbc3805d52 -> 6d420c619d3ec48e70af4fceb819853a26b053468ab02828e42646d10ba1b484
+~ -[HKSPSleepStoreExportedObject getClientIdentifierWithCompletion:] : sha256 b7627348ad1d3c380075e1fe8a951a9f3e8844ccbd6a9c9e0f074aebe8779907 -> b02b6e9a0c2bbddaa16d52d2a6f3bb3feef3857711bda5c24b893e1c06a8c1d0
+~ -[HKSPSleepStoreExportedObject clientShouldCheckInWithCompletion:] : sha256 df4b470888ab06822d831ea1935dc0d3630631948b9149d82b331fc7bae3397d -> 5199aa7f49cfe1009afee7b424f5a0dca0f115ef883708a31c55080dc80b810c
+~ -[HKSPSleepStoreExportedObject sleepScheduleChanged:clientIdentifier:] : sha256 a24737e1a6901906ded255e905e24b37dcbb3cf5ff30dcf490ed67273daac4d0 -> 97fa24a5edb5529db1bddec4e708399aebd817a1aa73887bde5540b20c9657e8
+~ -[HKSPSleepStoreExportedObject sleepSettingsChanged:clientIdentifier:] : sha256 048050e13851c8087b539008e305a52b4065b7414e2c1bd214c633cebe61c93b -> b464f493113b5180fbdb485ab40b1c4ec083d7d6ab4dbdddd79755042bebb779
+~ -[HKSPSleepStoreExportedObject sleepEventRecordChanged:clientIdentifier:] : sha256 057da17039643583b2cd88ab7cd4a3a2537ebf006b631a304333a6db2fedf2f4 -> 23fddcf8bb3f09471673fb9b0c680030a16bbe912f06fec717b77aa2c3c76efe
+~ -[HKSPSleepStoreExportedObject sleepEventOccurred:] : sha256 d9d7376e4081966eb35b5a7704f507a22feb18884b1cc3195230a7998772607f -> 3ece849ae3c61e63a2cfc1d17ffcee9968d28b6392efe64ff3eab0d90124a8bc
+~ -[HKSPSleepStoreExportedObject sleepScheduleStateChanged:] : sha256 21c1a701d5c5195b799cd34adddc8cf074ca4d1a900567a3e3efbeac9b69f8b0 -> 2700e567187ebc9c403a0899a5dc10e8b3fea65655d368084c98ea84d0ebb096
+~ -[HKSPSleepStoreExportedObject sleepModeChanged:] : sha256 21849baee559bc6ab88cafc68f671953f8abd7788b686e3ca284f1543617e1a7 -> 9bc59e43afa4d47ead90c1282a3b2a9d793ed59b7b1f82e4688dd9e412ab65df
+~ -[HKSPSleepStoreExportedObject sleepStore] : sha256 1be8c73d6cedab37d039fc6573028054b6aadfe98b1ee30e62e54ba32f649967 -> 985ae8fdabebc83c9f619eb51970423975ea4af3e7c06754d8c4f4f5c4edadcc
+~ -[HKSPSleepStoreExportedObject setSleepStore:] : sha256 e1304f058f89f4fd86bc30a8c85fa36a09df2c6b0386ac5894dbed29bcb7af11 -> 1da1cad65f1246b2abd615a5cd7ec568e5800e3cb2fad7bb97b4707fff1c2050
+~ -[HKSPSleepStoreExportedObject .cxx_destruct] : sha256 9b37487e0ee4d4bdb44bf71a2c6639e7f5b0bdce03600b0942fe11cf6d1c50d8 -> e53be156377a42943dcb6f8fd5c7b2eb41e4f438dda825a1b49aa19ae0607d87
+~ -[HKSPSleepStore(Analytics) trackSleepDataInteractionEventWithType:isOnboardedVitals:completion:] : sha256 ffbab62a1c565ae8dfc81637ce087b49505226b8cc2e7432e97ab4698e2cbfe2 -> ae606afc26f93b1ba9fc9e2c66f0ff5485fc23657bdaca78274ba3f6f7612d29
+~ ___97-[HKSPSleepStore(Analytics) trackSleepDataInteractionEventWithType:isOnboardedVitals:completion:]_block_invoke : sha256 0ca13d70cbb10ae4ceaf98e492c419df88d886a8522b25c4d2ddcf0cf73e0708 -> 894f1688f23d5894f433e9db1f5572532b41244f622f531a8c9c250f686be3e4
+~ +[HKSPSleepStoreCache weakCache] : sha256 ac97a917e6915829a0a8ecbf5a9defb741694d10ac2d65f81c1c2bedf0cd5aeb -> dbe9ba49703d3bae86894406f9c12de504abec6f65e840bca29f5fe49a26b20f
+~ ___32+[HKSPSleepStoreCache weakCache]_block_invoke : sha256 aa2d11adb81e178733e102b99a10f93a92b7882010ab9a1d09f485cf2b9aaff9 -> 210e6e551ab26a0c8da8b052ef75eb35965eceb732794af8e3763df936157e14
+~ +[HKSPSleepStoreCache strongCache] : sha256 e0a15a0e95846a007e7bf109b623888f4ac2284909b407345692bd4798b364e8 -> 651a28416a0b8f0f1c9c6cba92cb4d60c3a30a3abd2c5d928e0017081ddef7b4
+~ -[HKSPSleepStoreCache init] : sha256 826ffc5195adeb9f9e6c2a9e0cf47d8932ef7c258d3931f8bd964cddfd5d422e -> f2e81a48282e1eb041cb700e6343ffe18790724941b17e51714469576af9b61d
+~ ___27-[HKSPSleepStoreCache init]_block_invoke : sha256 4e3a174bfff8e42902c2edb42bcfa1bd79c7d02253894b58ca3f1a8fbec619b2 -> a0ca1aa1926a77492a95110a2ca5afde424dc19a31a6f8094c48621e18f30408
+~ -[HKSPSleepStoreCache initWithSleepStoreProvider:] : sha256 ec4daf5f13b0ed76a7ba0da03ce9d625ff79ce95dcc5a7605f83b7255a5c587e -> 30889f349be3af7c066d507b5d19e5ed4ae7a9e8d4d06eaf2c074ff3875e5855
+~ -[HKSPSleepStoreCache initWithSleepStoreProvider:useWeakReferences:] : sha256 543e0a497e855952a61e65d42d9b7579698265ef4a123a57f24b5c7bb402256c -> 8ef9a78fbaafa3e3fb8d1726f1327a95ef35dbc5900e043adb5b35199e84c329
+~ -[HKSPSleepStoreCache sleepStoreForIdentifier:] : sha256 b672131dffaf64d88d09688897171fceb0d968c37e91c83f688fc5fdb33ba69b -> ef48ebce003075ebe0a9eca3b997c0cfccc9eb9c59d7cce49821dda623c3e327
+~ -[HKSPSleepStoreCache sleepStoreForIdentifier:healthStore:] : sha256 06912527769433b890d797b2ad25a8e4344ce4f2c71e26dfbb6fd1e6a90053bb -> 0d1a67da833484d380bd5f461acc957fd4b08ab146e8015c03a97a4510ff368b
+~ -[HKSPSleepStoreCache .cxx_destruct] : sha256 3d2b37e522f37dc7b245087168e65670b575d620cf38d47345fce996f5e52542 -> 922d3ff47fafcc338ea66642139804f11969fc7a31b15160ce983e5ed58134ba
+~ -[HKSPSleepStoreModelCache init] : sha256 11959406e7b40a47c54d16237491a7488d438e6e5037c300f28324666dd95008 -> a296bbf0016484f031fd2f5dd167edf82433f8e928b51a7f6c09a95329583929
+~ -[HKSPSleepStoreModelCache _withLock:] : sha256 0df483cca16bb55f75dda885547a059b2663701de765e5aa025b2c8e83cd0e0a -> 6c0e87d5040a14a3a70e408cb4d495fefd5d8d1e477684ed37a0eb3ff53a18ff
+~ -[HKSPSleepStoreModelCache cachedSleepSchedule] : sha256 14635926e38455d14a8d42ece77178611ca9be9f234833e60ec8e7251294d394 -> ba705e9c2b0c2805fea571c2f5fe4bb4080113c7b8af462d038c11d6c8a6f91a
+~ ___47-[HKSPSleepStoreModelCache cachedSleepSchedule]_block_invoke : sha256 5aa112e13c9f6c810ad8b3478b8de94dc08d3ce0cac68da0e7cbd8d994829d5d -> 2e0abfe0cdbffcb53b407dd0c1a293d371302ce21efa7051c1949c699c4274e0
+~ -[HKSPSleepStoreModelCache _locked_cachedSleepSchedule] : sha256 3fbf3aae2680e8aba92acccf8830485bc77b2bfb0590bf9158ea4395abd4905f -> 856be78bd696e83e039c10f30aa38f7e5fec3b9f7ca554809888688c3ae6fe97
+~ -[HKSPSleepStoreModelCache cachedSleepScheduleWithMissHandler:] : sha256 6a070a94acfa4cf9ff31df5a5e0efbd2547926355d5628a8cbf0535a7eda3018 -> 5c92fa449188be476f3d9f7104b816aa279117d42916182905779ae55e1fe93f
+~ ___63-[HKSPSleepStoreModelCache cachedSleepScheduleWithMissHandler:]_block_invoke : sha256 6e59be920390642027dd28a311cf52874c4ab36d03e90fe41624f498fdfaeee9 -> d90bfdea427c956d8d394c74dad90bc6df69d32aee07700ce67b797a2b9be789
+~ ___63-[HKSPSleepStoreModelCache cachedSleepScheduleWithMissHandler:]_block_invoke_2 : sha256 217c005f98b5996782f82704e2439e6b8a0ba0e344cad4c5bcc029f2fd9109fd -> 47209dbd131fab673185a5a991c37cce1e4aa3b3e255f453471a3a6bb12c81e2
+~ -[HKSPSleepStoreModelCache updateCachedSleepSchedule:] : sha256 a9c737f24663018c248484131615c8899776a5671f0cbce990a5f63fa12712c6 -> 6232a9ba56f774c603bd25e8cebf2727a92e31fcee264b374c5d194c55993d99
+~ ___54-[HKSPSleepStoreModelCache updateCachedSleepSchedule:]_block_invoke : sha256 5f17fbc4b4287f5635606bd3ae8631b7a1011f617f6402fb98cf222aba2f2e1f -> 325d2be9f81c1efe1e6c361fb574434e1f717db8a05799ec713cc2847fdbad59
+~ -[HKSPSleepStoreModelCache _locked_updateCachedSleepSchedule:] : sha256 aae4eda7c36512df52f0d281fed6edcb4f65644dd29cf37e9a20d1607159e8e0 -> 5b6831752d081ab24793d12bdf98897f1332aff86444bb8d22566435bf8a331e
+~ -[HKSPSleepStoreModelCache purgeCachedSleepSchedule] : sha256 0b5880268c38a759ce32fc5084bb4e24e57a46395975d11afe0bb1aa381b4937 -> c0cc27e4f5cddaf53b42dc325ebbb728de2269d7829304e60a60f633055e24d9
+~ ___52-[HKSPSleepStoreModelCache purgeCachedSleepSchedule]_block_invoke : sha256 a9a5f7764fbb4228efa5c9dfb5eb180622dc9e7ea7a33348a4cd302cff5fbf91 -> 8326e836bfffc166584817f21bdfa6c33724f119cd273983a0e786a48eb2a94d
+~ -[HKSPSleepStoreModelCache cachedSleepSettings] : sha256 ccc95aaa6d85699b5ba52e53d95e796c995bb2d25d05d7d0b256fb0d0f21f6c9 -> 89ff279578ff1063a2380a3643c4f8c67c61030923ffecd8d151d7561ce74723
+~ ___47-[HKSPSleepStoreModelCache cachedSleepSettings]_block_invoke : sha256 1e0f1cb52adda0beedd44c21259b153fd362817eaa192b67df7e9ecc4330d161 -> 46d4c60d422f712d7b45f9713a605d7d486f00949ad00c502fa4ac3592bdd66b
+~ -[HKSPSleepStoreModelCache _locked_cachedSleepSettings] : sha256 a8a6c315df97e1ac1b95af489dad1908b4f10f3736436a4f2875b42dcc0d2877 -> 9e747b538a86eb3976c1144cbd7b666ade4348db98b1f3f53c444031075c27c2
+~ -[HKSPSleepStoreModelCache cachedSleepSettingsWithMissHandler:] : sha256 5fbd3173bf7199cd7d61ef7982b37958c3eb8ceb75b453ec736995f39dfe1885 -> 4358fec7098b9b82e3ae02a23266d14a2765fa9df16b4683d458590cbbd13672
+~ ___63-[HKSPSleepStoreModelCache cachedSleepSettingsWithMissHandler:]_block_invoke : sha256 29f15388c6686aef7d5f20df8f32163164115565037d05f6ffc0135b0f1daccb -> b80cfe23fd339d67c8d004f91269bbb545ed9809508e9cd0c81f1d05a880b089
+~ ___63-[HKSPSleepStoreModelCache cachedSleepSettingsWithMissHandler:]_block_invoke_2 : sha256 de803c600e45342e1f0a33bd147a51de7c36703772bcaae75c421d6b1ca75a4d -> c6f4913e829c394e5d67cd13363eb022272c830cf17ceb66d2b1d7e5e14cfc0c
+~ -[HKSPSleepStoreModelCache updateCachedSleepSettings:] : sha256 4e9510f5285e09bab9be26db47070373799ececd3ae5f3e96a450ca3de55bbb9 -> 72a5604d10c83a78821be27040c857d0c4805cc9ccaed389d6adaac3ab345b04
+~ ___54-[HKSPSleepStoreModelCache updateCachedSleepSettings:]_block_invoke : sha256 6387c6600fef025acfdd73d0126195dbfdf067c6a8798c1c51841b5bad14708d -> 2d8d96c626400dfc176f3f11c34ec019be0fa13813507460178dcae1ca00926c
+~ -[HKSPSleepStoreModelCache _locked_updateCachedSleepSettings:] : sha256 a70e9675cc5afac1049f7872c37ec3ee8840b1d35a2330618f99b275bafc0cd6 -> 27945767a7bfea6f8c5722c21bc0a48fee40fbb53c42db0e38457d2d2a299134
+~ -[HKSPSleepStoreModelCache purgeCachedSleepSettings] : sha256 dd255489064d654ff129a4bf79c1896bc1f82b253f92e305215a454f11a097b1 -> 6ac269b5c499446e847810849c43f60ef164b888314364f375c4315da3f2c12c
+~ ___52-[HKSPSleepStoreModelCache purgeCachedSleepSettings]_block_invoke : sha256 15ebe85e0bd4465294d483282620dd52bb7edd44c10371e924a7f499f56015a9 -> b539c9a566513926587f94d4b76a2a8266ec20c672941232ce0f4bd5ae03ad60
+~ -[HKSPSleepStoreModelCache cachedSleepEventRecord] : sha256 8ed69589b10e9e117c19e13a9e0be83d573fee518e8a47f111a57075fdb32e3b -> 98a6d568e8ee9207f92285cd98bdb8c82ef7577f2092aa57bce6138f98bd1383
+~ ___50-[HKSPSleepStoreModelCache cachedSleepEventRecord]_block_invoke : sha256 2265f6cd5506314c308f3d6fdef82340cde491a8b5855a8bd4b0a0af1778bcaf -> 1e077e100a1a2931f9994e3fa02b451a08cf3d71caed0a1fb8bfdd45bfff3b58
+~ -[HKSPSleepStoreModelCache _locked_cachedSleepEventRecord] : sha256 0a11adb2f362cc4817580c8dd6debfa2841f1cf325fdff6c47d05bafee0bf9c3 -> f0b76fd3066dca96b7f67e72dee92da6bf56e06d104c3fd1c417a7c88797ac68
+~ -[HKSPSleepStoreModelCache cachedSleepEventRecordWithMissHandler:] : sha256 be434ba5fdfbcc5179501a8043d1508235603c0f9a17cc6349578c2050dd783b -> 4712abd872e4610433ed60d1cdf15b465ccee4937382a3014c1372d02e51a235
+~ ___66-[HKSPSleepStoreModelCache cachedSleepEventRecordWithMissHandler:]_block_invoke : sha256 fe71b130613e9fc16adccd70332e4c4178b8808556eea22be3ae6843eb06443d -> 3a22203bff8c39a157f89ee23d6aa2757cc0b693bbe0919340a075302aeaa18b
+~ ___66-[HKSPSleepStoreModelCache cachedSleepEventRecordWithMissHandler:]_block_invoke_2 : sha256 600e8e903a7dd80b08d02e27788b545948ff5f60092f358bf39c8bc7bf267728 -> f7bf1647e91f1b0c198ad5d489cbb9d0a94dd69f8b0166f65fecc5cb6da9233d
+~ -[HKSPSleepStoreModelCache updateCachedSleepEventRecord:] : sha256 4c8e326f8fbc7b8cfab60d2325c0837fea6fbb02e2efef366f791c24ce9fa8ca -> 3ba02bc0aca28ee87f8867373b6c61162cd7c7c0653d0318c492da537e3c8b25
+~ ___57-[HKSPSleepStoreModelCache updateCachedSleepEventRecord:]_block_invoke : sha256 398793b869621552be6d1d29cfe56da6692d3d9a2c326d239cc866d7e0e3ae56 -> 8beb020213b1dc5732065e3368862447f345fddc48a99c6175b7ad1e091fe8a7
+~ -[HKSPSleepStoreModelCache _locked_updateCachedSleepEventRecord:] : sha256 2b6b8a99bfdca0d243f2846cc141bcd7b94c8faeb25a581b6b0ffcc61aef946f -> dae40fe696252c14d7754ad9895f909af69d143ea2d227c6678cd259cb93a39b
+~ -[HKSPSleepStoreModelCache purgeCachedSleepEventRecord] : sha256 b777733062bc3928dd737546f84a24bf49f8aed012bc8c3061d2297b3e8865f9 -> b70e23595d09b2c86166915d4529d4fca1f560b3f5bcb8047d70bdac5c05b29f
+~ ___55-[HKSPSleepStoreModelCache purgeCachedSleepEventRecord]_block_invoke : sha256 bdbe405e4d40570286c34e36d668ba0a09563bf3d4dd20be72bb7549e25ef4ef -> 50b3a97d5ca5b71ffd38c1c1d32b342b4fb5d90dca35b52c6e15d9b7482f0acf
+~ -[HKSPSleepStoreModelCache cachedSleepScheduleModelWithMissHandler:] : sha256 2e8d28c55da0ac8915d20db1b0ecc92d3ce851f107d64b25b240c300137c5c79 -> aff8bde8891db5d92975a502febecc507fc810ca5cc73779932db95bd3b7e691
+~ ___68-[HKSPSleepStoreModelCache cachedSleepScheduleModelWithMissHandler:]_block_invoke : sha256 5234231b455e50711b6c431f3d0a585f39d3aad6f31062cdcd79d6498841701f -> bc3a9fbd58b19763cc53c3ebd8b43e7c50c6459034aa31d45a2831e3d37703ee
+~ ___68-[HKSPSleepStoreModelCache cachedSleepScheduleModelWithMissHandler:]_block_invoke_2 : sha256 53ca3d8e4d0551b16754526d89d690f2377017d62107853dbecf1cb64dbdefcd -> c3da4bf1f4e72e558c3c9f123e94f429c8d3108403f82a9b3701d44bc1e41f27
+~ -[HKSPSleepStoreModelCache updateCachedSleepScheduleModel:] : sha256 cb4f6a5ce6d47c587f00caf05b67aebb180f2adee6bea231bcbe532f969958d5 -> eec45fbf830ea6f48fba23fbcdad417af4fef1b0beef1036fc887d021f5b9f13
+~ ___59-[HKSPSleepStoreModelCache updateCachedSleepScheduleModel:]_block_invoke : sha256 4e3ae6c7b232396c13c9631e4380630e3ccd5ed30fe6d57e456c80435baacfba -> b24fdb5ae5c5bb5bc3c736171357d4d75864e9f18ceafd921d5f80d7e8f27f42
+~ -[HKSPSleepStoreModelCache cachedSleepModeWithMissHandler:] : sha256 77654da831348803e139c93422f12b34090f2b47fcb92a927d0eafd56e3814c2 -> 17912d3c482cd09f3cb0458ee69430f0ca78f9873b9969e580f23e6b32741d95
+~ ___59-[HKSPSleepStoreModelCache cachedSleepModeWithMissHandler:]_block_invoke : sha256 7c995df90933d109558dc8abd353701aa24ee13630b803a866907579a9f41e88 -> dfa73889e2658039663eecf7604623d4420ed0b59e0062446d71ede407b60c2c
+~ ___59-[HKSPSleepStoreModelCache cachedSleepModeWithMissHandler:]_block_invoke_2 : sha256 2c6589c02498372187a956871bf5c2d88c4538d9c60c25c65a68c41f7cb39386 -> 8a05b0ff1eb89cf01b23d1b31aa0e91b868a28814211f97016c489545cba360f
+~ -[HKSPSleepStoreModelCache updateCachedSleepMode:] : sha256 a469cfdd41e2e917560209b1c0130cbd6fbc2d3359b8c3b69fb9c77d965360a3 -> cbf66724751d7e4febd062852de08c0714725889daa0e5e70aaa1adc956203fe
+~ -[HKSPSleepStoreModelCache purgeCachedSleepMode] : sha256 5b9326ae95b2c8fc5d181179f03621d95528373b6449663550d1aeba273e59e9 -> bd209d800e43693140a2ab5a2bdedd57be0d32552b940f3c5ab8932213a5b8dd
+~ ___48-[HKSPSleepStoreModelCache purgeCachedSleepMode]_block_invoke : sha256 89f4439b5ead62115455ed32517d37f1a012908152b263b2423ac397a0c3e0a4 -> d22aa6f308f12857f1e59422dcf4fb9644ef0b6324478b1f089cce7ee6fa5678
+~ -[HKSPSleepStoreModelCache cachedSleepScheduleStateWithMissHandler:] : sha256 89a633ef29994eae29781651a9647d1d3092d24feff9e878793d490313fe00c7 -> 21de8c5a961bd41fe3c83847777d9aff7744c3cd2c7edc3c34d71f2327fd3bcc
+~ ___68-[HKSPSleepStoreModelCache cachedSleepScheduleStateWithMissHandler:]_block_invoke : sha256 31d1bd4e6b87c299c71461e03ad3a9e668d694a0807b480fa86d9b03c09bb2bc -> d3f2a9e52c8bafeda57a9d94ba3f583504876ce51165ba0dc757cdf692b2c8e6
+~ ___68-[HKSPSleepStoreModelCache cachedSleepScheduleStateWithMissHandler:]_block_invoke_2 : sha256 8997db5139ba4e5075e3ceaee4bab0b2565dfa5bb80b068e14bc6d6b0ba268cb -> cd3c0c0aff86dc9ab3689c9064e2b43e60d7e151c5f1526a939240b86019991c
+~ -[HKSPSleepStoreModelCache updateCachedSleepScheduleState:] : sha256 434086dff75ac78e77cd7d87a7ea2496581296a0cbbb7e953daacb38fbf09fdd -> 96ed731f6b7dacff303d2de8db5de767f5871213d7c9b236894e8c9e1276cbfb
+~ -[HKSPSleepStoreModelCache purgeCachedSleepScheduleState] : sha256 6cfee28eb4075fb2164d4ca2403f847bf33cf0d8889d16988fa7efda870282ed -> 56e2f838d720ecdbaf8380ef9c02ce5c3ecaaa8bee7637c9eb2bc054462fa433
+~ ___57-[HKSPSleepStoreModelCache purgeCachedSleepScheduleState]_block_invoke : sha256 7fc6f1cf06cbc4e46143574620dff70724c18de9e7980fb9256b444e67204e7f -> 21bdad12033fa374c327e89bbab61e345963e5fd4acbd3c4672ff447da1acc5b
+~ -[HKSPSleepStoreModelCache purgeCache] : sha256 3b7b754a68d719c2dc20461d8bb893f22fb16545b79a4ea38081bbd2382b1394 -> 0044a86a853d4917cd1f8a6ddb7a4275e91c90b8cb6e459e0964552cfd7fd631
+~ ___38-[HKSPSleepStoreModelCache purgeCache]_block_invoke : sha256 016cda0b43e769ae6d095140c331127a99b458f3df1a77b6ec6791c82a662f11 -> 2fbf15ac6bb3c3df48b6dbcdc393e7ca0893d521f7fef47b31d0cf0e27dba799
+~ -[HKSPSleepStoreModelCache .cxx_destruct] : sha256 4bd950b5d8e738b2c9ebddf92ba29c2fcd0499d32ed28cca287b600033bdbfd7 -> a531d55bf25f4da2f25139cb0a45daeaf6d70416669e7ee09061987132513d43
+~ -[HKSPPersistentSyncAnchorContainer initWithIdentifier:defaults:] : sha256 58e232febea41d867b3b26a51fd7d615307b59129d041d3a49d1c0119062bd81 -> 6a2f51dbc5c2bf9e34021112a585ced32d5ee8e98f20360ace5d592e36784636
+~ -[HKSPPersistentSyncAnchorContainer lock_getSyncAnchorForKey:] : sha256 019aed9234efcdc3bd33a968b01fd440ed8a3c6e8af49c9b76d185ee7d6fed73 -> ea4031c75f35c3ad4360d325dd364e6496d7ac45a016b1628110b8c87e151eb2
+~ -[HKSPPersistentSyncAnchorContainer lock_setSyncAnchor:forKey:] : sha256 1380563a80576320e602dfbd12ceb84d0858ad94cf3ce69ff3954090ea392e60 -> ce6f307395b9cbb996af01b466fc0359b38c6dcad9a9c14bea0737cbd0b9eab8
+~ -[HKSPPersistentSyncAnchorContainer lock_removeSyncAnchorForKey:] : sha256 57d473d8c562495cd1e5ad2238d308e0a7227d9e6a9f1a28d1234061fc95315d -> aa4791249b2df6bdce294c83e3ba87fe08b22a6856944a9f35ebfe5238befef3
+~ -[HKSPPersistentSyncAnchorContainer inMemoryCopy] : sha256 10cce1f2db036ed647f55b559e611024e69c9af811a6c32cda9fefeb839c05c4 -> 69186427ab251b140504e0a775689c60865d51690286091a54dd960ef0510eea
+~ -[HKSPPersistentSyncAnchorContainer copyWithZone:] : sha256 1e8b56c97abf98b7df2c7970b44ad8d9e5b50ac43930df88f4c503ef2f3e05ca -> 7ba458b20550f3eec6bd0aeb6ae0850076f3bbd56f80d6d76f0b7adbf4956d19
+~ -[HKSPPersistentSyncAnchorContainer .cxx_destruct] : sha256 0f0a5a699892c2f2e10952e81d224eddc09bc6c836e07138de1b4881499259c4 -> cc213ba966cfa06a572c45cf05aa03a5f9d5e5b7d7a026c30377829d05ebbd50
+~ _HKSPSyncAnchorClass : sha256 4ff10eeba5377eaa0c9f57e891cf90b1f21e9aeac51769fd25ccb64e1c15e7fe -> 38eb4aea9965ab424c323e237fb8badbb1e8ffdb5150614ac4db46732e5294e4
+~ _HKSPSyncAnchorDefaultValue : sha256 f8964373e8c3100d325fc0fb74c0645620da287f54327e2ba443bfdf76746758 -> 34b7e5fa8457819fb014279b7ce3984e3274f174ab85887c5e06fec596741230
+~ -[NSNumber(HKSPSyncAnchor) hksp_increment] : sha256 615c18455f7d80debaabc1cc78dc50d3383f0edb5feea8cdd94687835da2013f -> 5e57889340ecc14d48e5e21e7c68e4dfa53e3b72a196c5a6b60d59b13890688e
+~ -[HKSPSyncAnchorContainer initWithIdentifier:] : sha256 ac653d3ef88480a73a82d93f0db51c6e8dad7c9b3be67c8bc627ef206c9fe967 -> aa535042f2e7c1b669fa984ba040dd5c544bafef60f23299225a6183035ed80b
+~ -[HKSPSyncAnchorContainer _withLock:] : sha256 cae132eb0ad58848fa504a35e40d1d4330697387e0747c1434e62515d2e72fa9 -> 245b934fda75d9cf52c6ccf2b01ce5e18cd63c180dd71445f18ac413f6f312c6
+~ -[HKSPSyncAnchorContainer syncAnchorForKey:] : sha256 10c359fdf9d8b8da2ea4fc8a8655c5ab4f7edaaf6243ed506cd0a4518e535a48 -> b0a5892099d156ae79dc73bf0f4365c92cc376969a71ee1e7db6b4398eedac96
+~ ___44-[HKSPSyncAnchorContainer syncAnchorForKey:]_block_invoke : sha256 f62316df02de3357d63077c90b1913c6cece8c98bcf23963595843018eb39dd0 -> 0ae0fc792703d3b73aa93c99c48d7c7b1ba0f0935d8492c0990684fa322fd508
+~ ___copy_helper_block_e8_32s40s48r : sha256 183106a2222adc5d5f92dac899bb0adbd1b67aff86ae02388ee13d53531bb5f1 -> 19cfa0898c0ee7ad671545c92ad6fc740bc8bb8965060036b4afaeaf0caf403e
+~ ___destroy_helper_block_e8_32s40s48r : sha256 421f95d1d115adbd9ab058364f64f2680334d1907e81f3bf62f4ef009cbffe67 -> a377f06ce3e774762a825f494515c26df79946c71a5e68def12e8e6abc53f387
+~ -[HKSPSyncAnchorContainer lock_syncAnchorForKey:] : sha256 5cb1cf4955df81f235a46c78f70869c8aa36bb14c31115a9dc52e921689f7ab7 -> d5b756943998dc7c3e4bb1192ce9f6588beb8d18b7ce3e05e5f3c117d12b32cd
+~ -[HKSPSyncAnchorContainer lock_getSyncAnchorForKey:] : sha256 df0ef715639b097391baca2352c83efdce1deb3de1f90390ab877178e25363b3 -> f1a450f771191122ae345bbadfb32aadce625ca70b2aca78171c45bcb1aacd1d
+~ -[HKSPSyncAnchorContainer updateSyncAnchor:forKey:] : sha256 355d323dd4d0bbafb7fda40ae88c7fe4b88d322ecd3ba71ac7c559f1804fa71f -> d772d246214f96d05bb740a82b21bd9119c77f675def108aa10c958d093f0379
+~ ___51-[HKSPSyncAnchorContainer updateSyncAnchor:forKey:]_block_invoke : sha256 ed9cd7327fe0136a94c0b6403a042e7385712358766cf4f850f3745d486ac4e4 -> 9790106bdc7c618c164a96b963967c9674cc96f24bb9c9f6bb599379c2b5a4da
+~ -[HKSPSyncAnchorContainer lock_updateSyncAnchor:forKey:] : sha256 3dbd0e270b2605a1064dd885c81fa5ab3e499b6f70be55b56e871ca45aef8a89 -> 2e67704375a58d78462031be8d86d6f9ab9afe3e8af0ab26108dbf947f63a284
+~ -[HKSPSyncAnchorContainer lock_setSyncAnchor:forKey:] : sha256 112141251fb577b233458407df0c2414fb45afd5f3bcee2d692450f08040f123 -> 9ecbd0db261d00128067f744648bba92ad652b5cf445ad265f37554c470975f9
+~ -[HKSPSyncAnchorContainer lock_removeSyncAnchorForKey:] : sha256 af1309cefa354f47ffe5e4a5282a63472c0b8df68b58a7945152d5ad7b724958 -> 97718d4a49ce1a78f0f63952634ef1d317abf19b67376856cbc44cfca16a9897
+~ -[HKSPSyncAnchorContainer incrementSyncAnchorForKey:] : sha256 58b26ae478b3d8c4e463ebe7e411fd6cd58c00f63409cd120a0b17e372e648f9 -> fedc84b8273a063f209d61b8d9777f67a93451a2c00802a2569d1110ab2c2546
+~ ___53-[HKSPSyncAnchorContainer incrementSyncAnchorForKey:]_block_invoke : sha256 97e6eb4e646ee00119652f02d32c93b26e222ea702d65eb9d2e787d5d65633f3 -> 3e9da44c8576f5a445453afdfd58367d419e7f6869e9fee5db91625377e0fc0b
+~ -[HKSPSyncAnchorContainer lock_incrementSyncAnchorForKey:] : sha256 aa399b13f5ee3b3a524a4dd891557044a1e763559717e308b6d916062a78ed52 -> dad45df24bd4d0d4fda9e65e7c902b7823ed919784e8edfda63fc52080fc6ae1
+~ +[HKSPSyncAnchorContainer allKeys] : sha256 2e76bcad83af8dfa30f271da00db449abe85bfa75c54ceb75c0dede8ff1e40b1 -> 82ab5492cfc51c2c93c48ff4ac0f7a48d205905a5ed5a9040e368bead4d3058a
+~ +[HKSPSyncAnchorContainer descriptionForKey:] : sha256 c29edf28dd60da71bc26c4df2550116c88a60c20d32a5547881fe405d0d3c810 -> bfa146373ae68efe67a748f75134eee28a9ecddd2e6457831a58f9df122fbf0b
+~ -[HKSPSyncAnchorContainer sleepScheduleSyncAnchor] : sha256 0408f8118eeeaac04cd590bdafea4eabbfb51daded9fa5919f4a01fd6354f7bf -> ab862e0bc8d0ec0314276cb80a7940178419d6a37072087be7ca9d3c726c6f0c
+~ -[HKSPSyncAnchorContainer sleepSettingsSyncAnchor] : sha256 4b58e216f41f071a0fcd639705d7a2442e11a6f74d1142b4a77aafeec1c26045 -> c05476cc695d76058428f166c1169143a1a4f6ef397baeeac430e07d3397b89f
+~ -[HKSPSyncAnchorContainer sleepEventRecordSyncAnchor] : sha256 5d725bc4de62a4682b3be30625dd4ccc5bb1a77e42e90e8e6b1662ccd5bcba2d -> 8f2f9d588f023c4c2908730be1106cd39eefe73fbd7962ff845da8614b0a6063
+~ -[HKSPSyncAnchorContainer sleepScheduleStateSyncAnchor] : sha256 d2921bde563c49899f1151353d555d7da328186fc2c28ea886ce86caa4fe1f49 -> fefcf1770c05659d3d1b20a8407bcdf989b746debc7692d6aab10162d9a592d9
+~ -[HKSPSyncAnchorContainer sleepModeSyncAnchor] : sha256 65ababaef6df26370a7e5670404f5f737ff9c8e130c31f2851c28ecf47628a1b -> a437b693511fc67f96d514b44b89aecf8a12c473a8857b3b5effb9307efe28de
+~ -[HKSPSyncAnchorContainer sleepEventSyncAnchor] : sha256 e0c375ab5b494f37871effb4c3ae36dd4acc9f13f8274551cddb4f604a850b6e -> 83680344a5cdf7270b84b1f6d9c8e83b6b2271e897431bfbf6bfa773e7b048a9
+~ -[HKSPSyncAnchorContainer updateWithContainer:] : sha256 c3554a5569a2f5a97354a00498a3c2364f3836d19225e9d0453dd29748bf4790 -> 8b13b944c1eac63debb2edef241b58296f1f1356d5714b498c12a1541cb2552d
+~ ___47-[HKSPSyncAnchorContainer updateWithContainer:]_block_invoke : 312 -> 308
+~ -[HKSPSyncAnchorContainer compareWithContainer:sleepScheduleSyncAnchorOutOfDate:sleepSettingsSyncAnchorOutOfDate:sleepEventRecordSyncAnchorOutOfDate:sleepScheduleStateSyncAnchorOutOfDate:sleepModeSyncAnchorOutOfDate:sleepEventSyncAnchorOutOfDate:] : sha256 39f6b6fb57dc7107b2dd3cbc3a50f97b75796017f70dc8b0a96cbe26bb0c85d3 -> e624a089ee911d028266883b6152403e8c22a6ff1ed979e0db5e2ab6b61ccf9e
+~ ___247-[HKSPSyncAnchorContainer compareWithContainer:sleepScheduleSyncAnchorOutOfDate:sleepSettingsSyncAnchorOutOfDate:sleepEventRecordSyncAnchorOutOfDate:sleepScheduleStateSyncAnchorOutOfDate:sleepModeSyncAnchorOutOfDate:sleepEventSyncAnchorOutOfDate:]_block_invoke : 620 -> 608
+~ -[HKSPSyncAnchorContainer updateSleepScheduleSyncAnchor:] : sha256 5549838c2bcf1515f562ea67f0a8d4fd145c13b53a96d24b41304bde1d62ce86 -> fa38651315f0d44b085de59faf8c0837fdeffa9a178af66c20386679e05c2272
+~ -[HKSPSyncAnchorContainer updateSleepSettingsSyncAnchor:] : sha256 21fda5802d24f29b89de95d2a06068600073af084a5feef17433ab49e807148d -> f276c183561b1a807072cea64eca665fb4ffb747d0b0d77d8d07441b9c67fd73
+~ -[HKSPSyncAnchorContainer updateSleepEventRecordSyncAnchor:] : sha256 1b53e8ba181b35caddd04f4e06ae5c43bfabeceb4ef16659e8728b077718cdde -> c8d63fe21176f2d97b39e7a120310c58802d970a7efd491f48188f4b9a16f5b4
+~ -[HKSPSyncAnchorContainer updateSleepScheduleStateSyncAnchor:] : sha256 532413328d0f0d3dcb83e47432672118bc28913ccc483f1cf7ada66603df474a -> 71f1be09dcde4ea8c6183365362f04bcdbfb719d870364ed018cd7756fd65371
+~ -[HKSPSyncAnchorContainer updateSleepModeSyncAnchor:] : sha256 8792c2e148c83d430c77e7f20df2f7147818cd98819e0eb68ea787370ba49d52 -> 73d5afb0bfb497acaa901291cf0e690dfc6f28edd91f3741d991fd33af283a5b
+~ -[HKSPSyncAnchorContainer updateSleepEventSyncAnchor:] : sha256 f5c58d65ae4e50500095a3603c0c1499bbe3ddb1719e996b326120b2f57e8bd6 -> 4c648cfef554c8bf874c28e396c0862c333b8a084a6b879c7b18f686bbddd460
+~ -[HKSPSyncAnchorContainer incrementSleepScheduleSyncAnchor] : sha256 95752e0dfbb112c5e2f82ff0316e9d9f3a2e7a8355569e6b3dd2f37d32d8fbbd -> 693870d659f75dfb79a749f756dc03f4e06697fb4aaa93bd2491e24ee694a5d4
+~ -[HKSPSyncAnchorContainer incrementSleepSettingsSyncAnchor] : sha256 048b4be53930c968f2437541cebe9a25467c4e3efad83a7807e8eb44f9882e6d -> e9800178ba02ce8c017a9776024b7b1f9a2cb3f7dab15c70147a357f8b8609c8
+~ -[HKSPSyncAnchorContainer incrementSleepEventRecordSyncAnchor] : sha256 61f2f958c291d3cdf57c5259025c8a37a93c0852cd3ae8087094ec3111e865dd -> 5f590c8363511a559c526408f1fc117b5f12517e030b16c053c96137545f4549
+~ -[HKSPSyncAnchorContainer incrementSleepScheduleStateSyncAnchor] : sha256 02dd665918cea4fad1f270037a5ae59ff0d9931895345eff88a44f8f158beeb8 -> 944d8f49154adc788abe525b268f65fa21f43da395b16e2b6151d6b738f23391
+~ -[HKSPSyncAnchorContainer incrementSleepModeSyncAnchor] : sha256 99998d4a73a5c4f33c3191104e37c7b322912f075245f1a9f5d076da124c451d -> a6ac7436b5b7a28e0754f2dc3870e2fd79e875100947df386f06dd16977c20c7
+~ -[HKSPSyncAnchorContainer incrementSleepEventSyncAnchor] : sha256 a2d2ee00f4d023d3d4ea62e6f06c5e3d4a4e1265e8200fcf0fba157ff6439516 -> baae1495bb664a4929bd51ebd06e51a294603d4d71197b026490abe696fc9ad2
+~ -[HKSPSyncAnchorContainer forceSetSleepScheduleSyncAnchor:] : sha256 2dcff01250308f8929c0b90b4fb10331e3c8e56c665e96f6508c53d5f2faaf98 -> c455ea8773acfe18c621abaf034b15a1248a60e6259033f7caaa009df8e91a6c
+~ ___59-[HKSPSyncAnchorContainer forceSetSleepScheduleSyncAnchor:]_block_invoke : sha256 e972fc5e6860e564cc6a6be6a616ced77cc43236f2f0467986dca7c798f7e9a9 -> b3f367e1474f194e983f61bbbf17c24635118823f4b60a85b09db3784a7a8b6b
+~ -[HKSPSyncAnchorContainer encodeWithCoder:] : sha256 2de90943331518c4bcec12d302abdc200739fb89c532d063552508bdfe05eacf -> d0d16a8599b1af9e869a9e2c6902b2c2c57032e5ac01cbc9ac4c8c763b0060ec
+~ ___43-[HKSPSyncAnchorContainer encodeWithCoder:]_block_invoke : sha256 c3db0d61cb3180349482056799bc99810631c5132ea7f320028db092be5984b1 -> 40d58411e68a4ef26f2e8507906e8e358e0cbc46c7a9c79d2abaee12ee224a7b
+~ -[HKSPSyncAnchorContainer initWithCoder:] : sha256 126bb43991a1fc28ef8218fdc964682ca8196f2161b6e7881b8ff7d6ed4f2f5f -> 3300a606ead8f5dddf359b8ccf746d1d5ecfe289c905a8ff139849904971ef5b
+~ -[HKSPSyncAnchorContainer copyWithZone:] : sha256 e0b7ee0e3f6c5ab2a331600326780ab9bd3425d1fedb26402ee33ab503643a97 -> 10012abb283064066621ba6478717c6aa36596ce78bfe8bf02070cfb0a3b6bc0
+~ ___40-[HKSPSyncAnchorContainer copyWithZone:]_block_invoke : sha256 a12b18775a160ec47d908e6b7297a1c52ac1aff8d0f97097bd21b90f05bf1e01 -> 312e1af682a37f6a44bb5a70282671d5ed3a6c96c707c91034373505a9135a3d
+~ -[HKSPSyncAnchorContainer description] : sha256 35bd5b6be6300ec8b717b2b0ef39a7a1dde88e307b905ad959b455e85c093186 -> 0808d5cf3b6d85bd6b72a9f1d71fdf36cd5152ee4d60f47fc4c0bf1002c43aab
+~ -[HKSPSyncAnchorContainer descriptionWithMultilinePrefix:] : sha256 4b51027c9bb5c1d1d9a9a73214f95733efc52245ebfd3a6fa29aba8689a16643 -> ef9af8e09abecf65745798e431a17b61fff07c3b1710901e7cf059dfd5a88fec
+~ -[HKSPSyncAnchorContainer descriptionBuilderWithMultilinePrefix:] : sha256 fc6e800c363bc9381b6885fb47a0192d7d2cba365bf0daa42007a2484ae2369b -> 8d1b21fd2cfa56df9149496ee73df9b1e4d6855fdb25245694e44e5f1bbb7b06
+~ ___65-[HKSPSyncAnchorContainer descriptionBuilderWithMultilinePrefix:]_block_invoke : 352 -> 348
+~ -[HKSPSyncAnchorContainer succinctDescription] : sha256 ef492e4f23ed6faec328d38d2ca294b3888847f85ea63d073c4e2b373d69345a -> 34ef02cf116af806129cf29215a93974c89359be3be58dbab0933a9cf3602faa
+~ -[HKSPSyncAnchorContainer succinctDescriptionBuilder] : sha256 a0c7b0d1e59caa3fe2ce8b92f80ba10009385ce43d94d1207cf725619282a323 -> 4b4fc32dfeaaaf4ab430089726d1bafbdfc7f21e34d1ab8106e367e34ba62671
+~ -[HKSPSyncAnchorContainer .cxx_destruct] : sha256 43f1ee81e236433fb02974a1dbd5e22cf81e66d89f85424f748df225f463f1b5 -> 94b069614d1bffd9aa3be4fbc9635ddd96fdb316bab5b66d18b1108e34077c39
+~ -[HKSPAnalyticsOnboardingInfo initWithStep:action:entryPoint:] : sha256 7a1c043f444faba8b20bb8245ffddcd9e4949b25bb581bdaec99a6652adb127a -> 9d87aeacd61b10e3732be1dc433783fb3ae2ba940472de6edb42d90cf76f357b
+~ -[HKSPAnalyticsOnboardingInfo stepPayloadValue] : sha256 e80b0c1ee5278717e7ab758f78c62f4b1b48e5a82b79e78d970f00ca9b6eefc3 -> bb05b62f60b2e0a735f29955dc937650f637adc5c762d3cad8e88017c53ba571
+~ -[HKSPAnalyticsOnboardingInfo actionPayloadValue] : sha256 6447e4b24419d8b896c504167c89dbaf4b9ab2aff1d436f0662971302054a47b -> 157c8d9e00d036f16b659f737502810a4d0d9a2f38527704f5d75aaca1d31d26
+~ -[HKSPAnalyticsOnboardingInfo entryPointPayloadValue] : sha256 1243134f9f7e7e7e7592308233422d929f1c0e0f371775616e57178ebcea554b -> 45c3178b9d5162e3cb7e65088b97d9bc705820a1bf17b026b04cf0eb7a95d235
+~ -[HKSPAnalyticsSleepScheduleChangeInfo initWithApplication:activePairedWatchProductType:isSleepTrackingEnabled:] : sha256 631c1ab3c85f541c6e9d94e0a22d48c72b18a2c74168a86f853fbae4c1a03563 -> 972f04e593d3390cc2c4bd8be911ce68107b8dd169e927b20ae068557f385907
+~ -[HKSPAnalyticsSleepScheduleChangeInfo applicationPayloadValue] : sha256 1c0cf0570bb5bf332181d9cbb9efc23ad8fb260e183aa073717dcba06ff28288 -> 4db79bad65b0237d4ed38965578c0e299c9a04f64c383974352cb88c73b7bfb2
+~ -[HKSPAnalyticsSleepScheduleChangeInfo .cxx_destruct] : sha256 ed542a57b8b9c442bc205ca475d37b557da3bf2270fa94e356307cac01b35ff7 -> 99475d082151a4a3264563085146cb006c035f5c192c1529f94d62462a154b68
+~ -[HKSPAnalyticsDailyReportEvent eventName] : sha256 5b9b37b705b97b3798750d41d466ee9a53ec0c90a8d6cc996246b3f78ee2dc38 -> 12411487c332d35180f68adbaa2e15144c420754b03fb6e4410d3e841b5ca2c0
+~ -[HKSPAnalyticsDailyReportEvent eventPayload] : sha256 f5d96b7ecc91a20fb2d96569c66c5657a327069b76750ed17a6f55c2fc09adca -> a32d9b336b0311398dfb480fb6d145343ab253423bcb48780afc5670e346d997
+~ -[HKSPAnalyticsDailyReportEvent keysRequiringIHAGating] : sha256 a068f4024afe59b12c75bc3967cf359a9e596cfa9b667fe53798597dbc8eb700 -> fccf611a0f3811959d2f29f000d57a534af9ea0bff95cf0119235f7e16dfe5c4
+~ -[HKSPAnalyticsDailyReportEvent setUserAge:] : sha256 1597bb2b1f35b0e77ba74e21d020941908543345e15382780f3ba1e993b1411c -> 9cebd8f6489c0f5ecda9aa59a860eb2c08e237da66bc7285830a11a22e54a91f
+~ -[HKSPAnalyticsDailyReportEvent setBiologicalSex:] : sha256 6ee500efd464f5ccd444988d0da3ba6187cc68b1081b1e0e6fa52ee01292acd8 -> b9b8f7022992c31b9a9798bfe59f473c3de76b99b7891aeabed4576a0b33512e
+~ -[HKSPAnalyticsDailyReportEvent setWeeksSinceOnboardedSleepSchedule:] : sha256 c185c8f4f1c5bccec3cd9b498f9cfabe68230adbd78a182a6a4392954ac79bf6 -> 2c5a86ff144092e5e8848aaf8cf8d6b8b0ddf3c113bb191e9138d167afac5645
+~ -[HKSPAnalyticsDailyReportEvent setWeeksSinceOnboardedSleepTracking:] : sha256 1cddd3cf6262dda6c92826fc47742cadaca5a23cbb895d82f0daf0382139f0af -> 82900e04e0ac0ffcd38bad4a29b777ab77147b84bc65f40424d593d0c6c7cbf6
+~ -[HKSPAnalyticsDailyReportEvent setWeeksSinceOnboardedWindDownActions:] : sha256 c3ea1a0ab313e8d0208cd26f1c6cfc6aa2c6b6709d30a457a5d6bafd5dc5d937 -> 4a076d99758d45ff51f537ceb1c905af5092a1f29daa0e16af685f2ebe320f49
+~ -[HKSPAnalyticsDailyReportEvent setActiveWatchProductType:] : sha256 f51a2d5db812f81e11299aa6ec32778802c56ae47934c919de30d893c8f03cf1 -> 7c3dabfe5ec3686cc014e516d0364c17637546efd070b6b14225aadb40e0fb7b
+~ -[HKSPAnalyticsDailyReportEvent setHapticToneIdentifierFriday:] : sha256 514a91944d480ac0ea63af39c24ca41f2c9c6defd66b76cdde8c063556914746 -> 7a5f47f6e90e44d50b6545e1fc94c49b7246d8c2a42c6846da7127b37247468d
+~ -[HKSPAnalyticsDailyReportEvent setHapticToneIdentifierMonday:] : sha256 789aff04b35d3edb6104cddea8fd838b75bfd66c883b21697a5050fe61bbf949 -> 6e8c0dc67f1d92f758b5677775da6aed9b873fa8300c0c5bf877d034eab22fb4
+~ -[HKSPAnalyticsDailyReportEvent setHapticToneIdentifierSaturday:] : sha256 8921a26ed11892a6c5f9709164007073bcf08b0255cd321c8e1b1fbade2b4aab -> 99b2690210daebf83c3d94882ac2fc1f35e14f6571554d43199e3c4158ea8507
+~ -[HKSPAnalyticsDailyReportEvent setHapticToneIdentifierSunday:] : sha256 439daffa5aea38379f80e17c7f44dad90be77b63a4a52c6b6d3c4b6c795d7afe -> 3bebbf9bfce26593ed3d989d8e59339a65d65d73e2b8c7f6562d534de718b3ef
+~ -[HKSPAnalyticsDailyReportEvent setHapticToneIdentifierThursday:] : sha256 5a8d48b6ca4cfea1aa9ed5bd583103ad46c0fd613e5c9e5b4ecc88776ea6122e -> 376cec3c4ee3cd9a12577d8eb1661cf37af50f495abae17f419510a836cf6320
+~ -[HKSPAnalyticsDailyReportEvent setHapticToneIdentifierTuesday:] : sha256 7103083acfc5924cfd4c64d340d79b9774f506760f73f3f391c5788e2778f6df -> da172c48dc6426bc2af0b7d753500df725e0838640f47b25326846b060e68053
+~ -[HKSPAnalyticsDailyReportEvent setHapticToneIdentifierWednesday:] : sha256 96ff74b1df357110fdf0e58661cfa064887ffdc39f60053757f0c33e392052a2 -> d7496efb9cb4ba9ca45f4b2447beeeab1f3920ce067386ed4856c355808ecce7
+~ -[HKSPAnalyticsDailyReportEvent setStddevActualTimeAsleep:] : sha256 9c4d485feb0ddb02c22032d44166543ae3d26c04ecb03f54be7d575076981302 -> eb41ce97ed6256d19123231c222bcb09880a7b8809e601a74fbfd4845ceed5d6
+~ -[HKSPAnalyticsDailyReportEvent setStddevScheduledTimeAsleep:] : sha256 4ce846be1e754b14ab7f06ebfae581c404fc851d77e027a9f951e9162263f4e5 -> 3432a9934733fe2fed260c878fd32e421021ec6c29c79350317c1d52fca9cd79
+~ -[HKSPAnalyticsDailyReportEvent setStddevActualVsScheduledTimeAsleep:] : sha256 191aa0c1ce18456ef123486e7cc5ff0bf648edcbdd39f1d24e89707a65520fb9 -> ab680dc56b49405b94eac5424bf072f8b8e03d23cc2af636a8a4e7ab38d5ab44
+~ -[HKSPAnalyticsDailyReportEvent setIsOnboardedBD:] : sha256 401bec95e4cd9466d43566ebd8f70e304f40433702e2fac7b10dd6722fdc5ce3 -> da4bcceb693886f2c9cc86e4e95fbf252048957fc7fc35f7eda411db59718b5f
+~ -[HKSPAnalyticsDailyReportEvent setMeanTimeBetweenBDSessionsPastNight:] : sha256 bd160e3e500e4d665676639c42d4b01e7f588038295fc8c934228bb410a49c21 -> b5a570e570505f9f22b6aee191236682fac5bb87277c99778f3381d84c97f016
+~ -[HKSPAnalyticsDailyReportEvent setMaxTimeBetweenBDSessionsPastNight:] : sha256 f74795b48a5e2443e588e10deef599b0d44f8d4cbdede70f79f9907031333338 -> 2f07041e4794401136886d5e1c27edb305b5a958ab23d612010bf1553fa9530b
+~ -[HKSPAnalyticsDailyReportEvent setMinTimeBetweenBDSessionsPastNight:] : sha256 19cfe4c541c0b28f751ab89f6c2ead5ef2e2592e073225aea4cb151129d08c6a -> f31eda6308954ef9903b80c3c782f23808a2a88e6725cc4b814e57a27c49ca29
+~ -[HKSPAnalyticsDailyReportEvent setNumBDValuesInPastNight:] : sha256 5c24c3a7b5b33e8faa2e2d51617dda3d169eb12a35e236da65400079329704ed -> 12c66b6f8aff9357d184fc48c951ec3f0b08e19757c8e01f59701e93c8e209f8
+~ -[HKSPAnalyticsDailyReportEvent setNumBDValuesInPast30Days:] : sha256 53802cb96fa3732abc12f4e489f4883f1d4d84c87a3d2e8e01edab506e2dfcbf -> 9415d6557b6983ba80c03cccc445994f20a20c85a0b0ac72c12f1fa5a972b701
+~ -[HKSPAnalyticsDailyReportEvent setNumSleepSessionsWithBDsOverThresholdLast30Days:] : sha256 8cb6734b101588ecb9967b7c64fcbabe94e54c65949f650f9194dace76975ec8 -> 378bc78c6e00e0245157848d566c715932f7af66aabff3c658abb32c661bc288
+~ -[HKSPAnalyticsDailyReportEvent setMaxBDValueInPast30Days:] : sha256 3b35cb8683da1a07b9cbf44e3585f9772c6e2768d5fc8922dcb0e9da4a41ac85 -> f88db737d5eb81a24b1e4491c0cb1bf8518fbb0b0ab77c71343a53d207846bf8
+~ -[HKSPAnalyticsDailyReportEvent setNumSleepDaysWithBDsOverThresholdLast30Days:] : sha256 589d448b029becb88340de6456e4da80f53a927c878cce278a57dbeb3eae2d2b -> 756c2a2277192984bea279c651b0e798c54ea4ffc59f026960a77fe0482c007e
+~ -[HKSPAnalyticsDailyReportEvent setNumSleepDaysWithMultipleBDinPast30Days:] : sha256 8762e9af6de6aee1ab075b9185094f62216dcfebf2ef2ac8aa28c3edf1e9b93e -> 79b6ac781291ea9ab778419ac543a8334ae23b62f411d35470f9789f80fe1310
+~ -[HKSPAnalyticsDailyReportEvent setBDOnboardingCountryCode:] : sha256 823c3e99b81f0b2510484f75d31d6c71b9d4f9ec382a5d0295c1a64c293debed -> 859095c9d1e4a581c275c7d065abc2881f8e96610e87ff68948a9ea415caf387
+~ -[HKSPAnalyticsDailyReportEvent setWeeksSinceOnboardedBD:] : sha256 f92a84ece230e602a4b4dcffd07b3ea16779e578b4e5f1d4e9abe4c029c3aaaf -> 7fc41fcb6539cc447bcabb4a0456dd7c997aba64602ddcd5d6cd677550e4d072
+~ -[HKSPAnalyticsDailyReportEvent setAreHealthNotificationsAuthorized:] : sha256 359a433bc2cba6c69c5413179e209561dc364f9b52cb20357b8b16e245ef574f -> 53e7e53747a6dcfb962122f1bb70dfe59828818215574bd3c931747539c503ea
+~ -[HKSPAnalyticsDailyReportEvent setNumBDNotificationsInPastNight:] : sha256 0a4038f44be71263029f271d83696cf62e93a4fd85fc9b7eba3947147a834957 -> 0f692e18bdd175812c70b84857df68655cd4ae1a2315d0be7f3212007fbefcfb
+~ -[HKSPAnalyticsDailyReportEvent setNumBDNotificationsInPast30Nights:] : sha256 259dd2b4165ade075dd58090a418d47abe7f1089892a711ca5eeb51d3f085583 -> 4eca27c9e5212f960e152ef44a12af444d9853f35f6831adea9078abfc976ec5
+~ -[HKSPAnalyticsDailyReportEvent setNumBDNotificationsInPast180Nights:] : sha256 e8ff41b01bcd19cbc1eea957d73678c081b115dbd3f94e1d6005d2309b58c3df -> 4c7f89ecbeb4a04d48b828df84e9b5757e1c2095728e9ecc88816fd20db31569
+~ -[HKSPAnalyticsDailyReportEvent setNumDaysSinceLastBDNotification:] : sha256 c382ae929ed39c3f5e6084b390609b5896e43f25ead04b48b308ecb5537edcec -> 8bc6ac0294d7537a5a1a7e6ebba32456f83be4cdd70f382b72a1cd5015df7c75
+~ -[HKSPAnalyticsDailyReportEvent setNumDaysSinceLastAnalysis:] : sha256 cc11228921ca3807655503fa334afffa53854f619c2e5738af34e7270ec9eefe -> 9d6a983f4ce09f76e529486c659e739de461cec002e7a1d895f4d7f7c7bb36f4
+~ -[HKSPAnalyticsDailyReportEvent setSleepScoreLastNight:] : sha256 2a2ab480a9999e2522261aec67ce30c448de1fffe0c114eded1aca05e92b8617 -> 0f6910f1381c662733df77456e37719a5c8ccf3960b4884ecb28a17bac48a839
+~ -[HKSPAnalyticsDailyReportEvent setSleepScoreNotificationThreshold:] : sha256 16cacf406bfe195c57dd50430d1a94607ef4cb07c1568fad4a2854edac7fc33e -> c474c111b8c6520d40ba6b43f4c48d73f01993e53110b6a961cab8d6f80cc829
+~ -[HKSPAnalyticsDailyReportEvent .cxx_destruct] : sha256 10fcb98a133f4a6392bc1701ec61f03270555dca27f14a2bf9767dcc023813a4 -> cf3ec03aff784a6afc9814e79429c3c9c19b8b3f8592afdf53c3b3d17a00a660
+~ -[HKSPAnalyticsOnboardingEvent initWithOnboardingInfo:provenanceInfo:] : sha256 f65cf54b9a765594c112c7e0425e85209242f5edb4190c14ef91fe5597a233aa -> 558ec2d1c05b2775c25d04949926c12028b68258aa0de8abbc427bb1d89c1753
+~ -[HKSPAnalyticsOnboardingEvent description] : sha256 1773f8f1b0f41a5a8a38c27796b43b899035dd4509646f15a986b834530355f6 -> 0ab9867c63094226a8472e9c5c7a309319cda774f2ba7864ddea127b5114c4f0
+~ -[HKSPAnalyticsOnboardingEvent setEventName:] : sha256 5076b13d4393a839e568b2e1b93f375e692de8d949a02961c7a4f6f9c6854bd4 -> 18ca2290b230e20cebe3476d21a23acb2625cd41f566c8ec4b0067b35a59d900
+~ -[HKSPAnalyticsOnboardingEvent setEventPayload:] : sha256 d6f8209893544eefb62c4cf34e7bcef906cb03eaf5bf2428df4f4ea4db29b745 -> a802a9779ea08fad98031393f86ca7955932d2379ae408827bc1ec0bb47c8841
+~ -[HKSPAnalyticsOnboardingEvent .cxx_destruct] : sha256 4130b6f0fa4d06193e2e8f04733aa0d60085c5530288a28c0842a1cc4ed1d693 -> 9ee6dbfd9e3293ea66e9410464c06d92e9d3cd477b0b52a9151387eff1ecefdc
+~ -[HKSPAnalyticsSleepDataInteractionEvent initWithType:secondsSinceAlarmDismissal:isSleepOnWatchOnboarded:isWatchSleepTrackingEnabled:isSleepScheduleEnabled:isOnboardedVitals:] : sha256 12f96f289c4e3d7af3930e6176447d3673d1910e2a54acdf9b59b2f23a9c6616 -> 348e3c3c2e5ecd1331a51ed74790c480366f3ccc317b5260f37dd31583235a44
+~ -[HKSPAnalyticsSleepDataInteractionEvent description] : sha256 e60db27e4b0e81ec996be704060866bbce10ba8c4939a03a3adcb57bd6d45451 -> 91de8d706e67aa90c69597f88df0791b793e5ebc33d45171cbf12110951524e0
+~ -[HKSPAnalyticsSleepDataInteractionEvent setEventName:] : sha256 241c468fee16f488fc26fb272e4c4aad77931fc253cfe5e8e4f160d43f4f4982 -> acb4a72c525c5a0c06cdd6f4ea9adbd32db143fa3ac362f89a69f26b46bf8d1d
+~ -[HKSPAnalyticsSleepDataInteractionEvent setEventPayload:] : sha256 c2cefc3103f0cac480880447a2d4de32b497ee7b0f44ef6bfbd7e75b34c9a16d -> 7a193ccc37775cd1235d9f97624ed9e353a6feba26ce34873ca3634e15d90d61
+~ -[HKSPAnalyticsSleepDataInteractionEvent .cxx_destruct] : sha256 605da74fa5be2eccd388095032570e13d9fdba72032c8674e75f1ec443c9c33d -> eccaa3d013035406d32e01175d0cc988663396b3dcbfc7a54cbd708cdabef99e
+~ _NSStringFromHKSPAnalyticsSleepNotificationType : sha256 ce4c516245cb89c78de7c49d78147eff61745e033fec6a39f9c98d4a8e663012 -> ab3ae22f0766459242d7db28e8fe1a2376d6359a50bfe032dc4a26f374a37df8
+~ _NSStringFromHKSPAnalyticsSleepNotificationAction : sha256 412df6b2566416de0ae6d4cbbcd12bbd50d9269f69d700c0d8bd22bd2d91991a -> e7f2f83fe365984b769ed5e999720da3133035e0c0da90c2c7539af9a61c8f0d
+~ -[HKSPAnalyticsSleepNotificationEvent initWithType:action:] : sha256 b3251d00eebbe584dd22451453fdef105e88860508ce8b39a907680cbb170590 -> 4e5118ec93a577a227d1a17669a3f6551b65b45d9c340fd4252ca9585b03d949
+~ -[HKSPAnalyticsSleepNotificationEvent description] : sha256 b23abb00b5468a61c8206594d174af25e0874968b34c595295c6e04b3915fb45 -> 18969467c4c5179a0c30abeb9b5cd6f958f8ee654adfd7f4f24720ede92fd02a
+~ -[HKSPAnalyticsSleepNotificationEvent setEventName:] : sha256 df8a8f1afdb4f306f13f6934797183d75c685f5a617caefc49278a61dfdcaf3c -> e984f350401eeed191e57a6e89df97161070c513e7d82a5f1831b18aa7c0cc36
+~ -[HKSPAnalyticsSleepNotificationEvent setEventPayload:] : sha256 b383fc48c2e1056275d2393d6dc6f5eaf3e9f80b890dc063b84cb6c74af737c9 -> 5dfc20fcfcd0e0958565c9368c72f10e133ba5bd13a80e3863f92f39d63412f3
+~ -[HKSPAnalyticsSleepNotificationEvent .cxx_destruct] : sha256 f9269b3efc4121e1cf8fde3b7d66996785415c12d6560bbfe298acda1c4977f9 -> 7c7359286af32edf8ab9c82e020654d0b92e1ad8f4128ab09da0f93a7bfa8641
+~ -[HKSPAnalyticsSleepRoomEntryEvent initWithProvenanceInfo:isOnboarded:] : sha256 2848a99c47771d6074d34ed04c2e818308af1b91a99e86e1eb2a6d6a6f6d9c3f -> 96d627c87269ed36c05413b1546f1025c1f2fa9017bd3ff253ec26aca6927f2b
+~ -[HKSPAnalyticsSleepRoomEntryEvent initWithProvenanceInfo:isOnboarded:secondsSinceAlarmDismissed:] : sha256 c3a5973712a10e94583211b773b1039a91f36747ffab3a0627440f5c02ab83f6 -> e833f8b50d92405b734095ec510eafb7e94b2dec549968a18cfcb6a915b797bc
+~ -[HKSPAnalyticsSleepRoomEntryEvent description] : sha256 0aef6f496b36c657cd0d9b9e933904febd3524ab1fa5ae323292e51a2fa9ee28 -> 8801c9fd854094121b246ea36b369fa95984094b4a5d2214ed648bf99d4bee94
+~ +[HKSPAnalyticsSleepRoomEntryEvent _payloadWithProvidenceInfo:isOnboarded:secondsSinceAlarmDismissed:] : sha256 401dc8293ffa338596dd79c54c35056cbf25d1c4e47ea8e1dd903013eafbfc76 -> a1b9c0cdb941821cb53f4887fabcddf7381a4fa2e52f739b2999f0df4e8cc3ed
+~ -[HKSPAnalyticsSleepRoomEntryEvent setEventName:] : sha256 50fcb408e44a63cfa37bb63fed453e4615e69b8249102fd893352e28c1607252 -> 261f5f85334cd6a43438e3798d39d0668c9a35faa625b6904bd2e55fd1144735
+~ -[HKSPAnalyticsSleepRoomEntryEvent setEventPayload:] : sha256 6e3067019f58bfe4bc90ec0f31af1f853dbe71160663f03e9d5e069f68349235 -> bbf1565635043419109a2a4c0800bf3706ce9f362896198b08057333814949bf
+~ -[HKSPAnalyticsSleepRoomEntryEvent .cxx_destruct] : sha256 0d888fea256f2d386d542aa38c6f549d6cf91fb14e6e5370de535d71f60e014e -> 8eb606f0f02efc1f419c185720916f0485c8af9d481977749b07cd7704fa3aca
+~ -[HKSPAnalyticsSleepScheduleChangeEvent initWithScheduleChangeInfo:provenanceInfo:] : sha256 a880c41aaf7a29fb788e497787e842886c6f73058aaf000a204002b204d1a5a1 -> cd35fae5aad5eccc84b11d0cce1274641d6d4ed570db55454f884667a8293d4a
+~ -[HKSPAnalyticsSleepScheduleChangeEvent description] : sha256 efa3c83a66accd591938870ec0289d6357922ce1341aa3ff43d901ddab19f771 -> 4bf99262e66fb00c780f10fcf9f421f5b984e2552f58b319adc04a8a6ce16f2a
+~ +[HKSPAnalyticsSleepScheduleChangeEvent _payloadWithApplication:isSleepTrackingEnabled:activeWatchProductType:provenanceSource:] : sha256 adfe88d3d58a8c639ea81fbf6a755cfd6ddb7f6cd4715ff7d49b9c034de9f34b -> 61762454506191c3733b24f843b1d54ae41a1ec8d251dd1e2895115971369fd7
+~ -[HKSPAnalyticsSleepScheduleChangeEvent setEventName:] : sha256 a18cd3f5aa73e31a7381099d9c4c85a0e8efe642f9e977c70073f3d9e21c516d -> 9d969779d35f70d22f06759340d04f121283cbe6e70e4ad3f99e722f8dd4f926
+~ -[HKSPAnalyticsSleepScheduleChangeEvent setEventPayload:] : sha256 fc58d3dbad0746f0d76ac8f83930059ddca9a27feafc4525ce528fadbf2aa0f2 -> c85efd6035cddc0d5d49f94b5803cebf97d1120867a64d4d1cbe338e8ec873e9
+~ -[HKSPAnalyticsSleepScheduleChangeEvent .cxx_destruct] : sha256 05eb4b5d329ebf8c9aec70af1c2087b02ee8680efd65f53e67c61311076f9177 -> 0458a2d13ea1122183ce57002f9b7f9705c0002e110aa68af85870e4c4e934fe
+~ -[HKSPAnalyticsWindDownEvent initWithWindDownEventData:watchProductType:weeksSinceOnboarded:] : sha256 fbcf096d1720cda28103fde858ca46afd76fdffc3979d55f35643cf0c13922d1 -> 64a23f9c3581cd9e05ffc2c2f949076f5bd2201ef212aeb6b10f6c6d98338c14
+~ +[HKSPAnalyticsWindDownEvent _payloadValueForWindDownAction:] : sha256 1477aa39f4cc90b71ec28e8b653faf06a85f63c06eedb9da0546286798a72170 -> 45439822459691a35c505854afaedde6b34d7cf1b0f29a3ca9296d507f8edc30
+~ -[HKSPAnalyticsWindDownEvent setEventName:] : sha256 01a64c6730bb0199eae45dc042f64f9b6ce74cc17061f45c91cd291574e29011 -> eb443c27239895c8f94df638f5085d456d0893d5119ab3ca24b0b827886d2c5c
+~ -[HKSPAnalyticsWindDownEvent setEventPayload:] : sha256 03b901e58a4215b86b0585b56acc14f09ce729ee689326aa204071a82bc00204 -> 4139932e170a21d971d27a7c764a7f9b903aa618dbb84ec158194bff4b7dd2f3
+~ -[HKSPAnalyticsWindDownEvent .cxx_destruct] : sha256 0728cb342fdc1adc637b922b83807c48dc783ef2ffa81f6076e02446cdd35dff -> 4ed05d0aeffa6a7ee5ab85a925b70c7bc137ee2dbd303e531dde35171fef431a
+~ -[HKSPAnalyticsStore initWithUserDefaults:diagnosticsOptInStatusProvider:] : sha256 eca896a24dedd51f147179776d42dce7e656e508e8f3b707fd78adc9d7f32a2a -> 53f427e9d0d4f1e8fbaa7dbff799ef5caea8beb95d056b9d47adf55c1d509538
+~ -[HKSPAnalyticsStore initWithUserDefaults:] : sha256 23d2d2dabab5d64c4bc3dfd76903cd878b1ec193bc515620b42fce40fca55c98 -> 3cd2689313017b8d7d427c35b59607567d7cdf391780a3474f0bb56bed24a904
+~ ___43-[HKSPAnalyticsStore initWithUserDefaults:]_block_invoke : sha256 c5c5f6a7e16e8c6d56e6bfa102058c99e87c309fb60bf4abb27753b18f3a354d -> 7769c850049c1476e9590c2c943ad8126ddb5666d1124506944bf0fd60fcdd66
+~ -[HKSPAnalyticsStore writeWindDownActions:] : 904 -> 900
+~ -[HKSPAnalyticsStore readAllWindDownActions] : 1032 -> 1028
+~ -[HKSPAnalyticsStore setBaselineForWindDownActions:onMorningIndex:] : sha256 78440607b87ba1edd59c1000c32c8aa13b97e8b62c234910d1b09eed942dfacf -> dbf3aee5134865688fda7bc270bd9ecdd2d89090eb7808c73769ab0eacb1433b
+~ -[HKSPAnalyticsStore updateWindDownActions:onMorningIndex:] : sha256 decc56d6c14dfc3f826cd24b4a69da5c08dfbb825c4a37e11c5fa7a24269ab2e -> 62fcc3f7074e7c42ccf073c9389abc930f5773c4d6216dffb1e16ce2278ae37d
+~ -[HKSPAnalyticsStore windDownActionsForMorningIndex:] : sha256 c24bc09f42e2ed0110af35a3484d0e994ecff1da023e0b7fa842be2cd29751af -> c3ea6fbdcd2d639a49606a69ae090c37f71d525b18ebfb49d63ed562b9b731fb
+~ -[HKSPAnalyticsStore uncollectedWindDownActions] : 392 -> 388
+~ ___48-[HKSPAnalyticsStore uncollectedWindDownActions]_block_invoke : sha256 fb8ad5f3d500b7a823afa423d76b84ccdaec4f35d176cb55647bc80e5a551ee5 -> 0e30876da933103d8a8ce3dc65abfd89ce01622e9462387dd85bf2083d373f0f
+~ -[HKSPAnalyticsStore windDownActionsAfterMorningIndex:] : sha256 38bc454d817385da60dc7521c7bec6ae8cf4ff801aa1591bf2c2eb27f39b0f48 -> 5b6cdd24c8ae68d8fec32e3546843ab79b24d5cc5715fec09f945c6289cfef99
+~ ___55-[HKSPAnalyticsStore windDownActionsAfterMorningIndex:]_block_invoke : sha256 656aa60308e1ab4387af24361bc530d9944f8c4c44f653927606a74804649a05 -> 20f8e2c1a1971b29462db4ec7e466c58bbc22e4fac4bd94caa40947d4881e0a5
+~ -[HKSPAnalyticsStore removeAllWindDownActionsBeforeMorningIndex:] : sha256 a8dcd6638a04c9e32f64af318c98b42c49cc85720ea41002066aff9c06f32997 -> 8001a9f6ff8de6f2a1b791d3319d98ff4e801e3d39ad1d696ee49a49154fab86
+~ -[HKSPAnalyticsStore markAllActionsAsCollected] : 388 -> 384
+~ ___47-[HKSPAnalyticsStore markAllActionsAsCollected]_block_invoke : sha256 05af41d03e531450107d6bec4b978a5c5eeb8bf7f971a645d3bdda2db1dfe65d -> bb292d78101815a97df1b5c9857e3cfb61b2ec4adae121103e9ad778679d612e
+~ -[HKSPAnalyticsStore _setWindDownActions:forMorningIndex:overwriteExisting:] : 744 -> 740
+~ -[HKSPAnalyticsStore setDiagnosticsOptInStatusProvider:] : sha256 e5b7dd37017eaff0a0a399ca6e1f57b6f0b9f9a005b4aa91514bd7626a4b33a9 -> 57d8240511b7e92418978ae6c190bc61a340166502f0f0dad73e8483532a5fae
+~ -[HKSPAnalyticsStore .cxx_destruct] : sha256 b88f10391610fa8b4a0ca3c70331598ebbb11c8eb951a87a3aac5ab24cf5371f -> bcec577c1a060b6d42cae30f424c3aa827c8e38bbcd11376c57c1b2180aa3df3
+~ -[HKSPAnalyticsWindDownEventData initWithWindDownAction:wasUsed:identifier:] : sha256 c49c9ffa566248189ae24b1c7a0965f41a476b2512279645cb5937c10fe32b54 -> 6962c9dcf7e91ab484d1bdbe8b6a72d8c5d06d228b220a53b4a07aaffe743873
+~ -[HKSPAnalyticsWindDownEventData initWithWindDownAction:wasUsed:identifier:wasCollected:] : sha256 374a2c7fcb0bc8d9df52d5b3416ac644082428949f2785200b3016f9b6d41605 -> 7462b3a57d4690a5b31c7e4a68187fec298561070a0b382ddeaa6f643e3d29bb
+~ -[HKSPAnalyticsWindDownEventData collectedEventDataCopy] : sha256 1771cdcd2e72858fb8c290126cbe55cf066e3078b06a582567ddf67b72cb93dc -> ab80090065838c373389701d230202b7bdb51310e100cfd991044f3b4c6a1b31
+~ -[HKSPAnalyticsWindDownEventData encodeWithCoder:] : sha256 205fe6cc1a9e34d9e9fa1826bb5a304616410695a33dae3928273d8ed20b800d -> ee362b21042855715dc7931a06cdaf08c8ae94329dd0443fc9df50b697ddab30
+~ -[HKSPAnalyticsWindDownEventData initWithCoder:] : sha256 e3b1c51c9c72e70610bcf583beed16c36539f3163390dcbb851f203faf9c2fdf -> 40c49fc678a4ef705e417c9a702bc9c2962867c21c8c437c6acf2468c4d89a52
+~ -[HKSPAnalyticsWindDownEventData hash] : sha256 61643e141623dcbb91b61cbe33524a03a8647ef123fbd383bd1811575b6a9f76 -> 25b84bdcc8bda9c3d45e15bb07115cd4545d08c98cc837b69d09aae96dc5f2ce
+~ -[HKSPAnalyticsWindDownEventData isEqualEventData:] : sha256 ba1229969cf90c70654b2e9aee8027308d045a546c9747b3c9ed7cacd8a64e31 -> 5c349e4544efa97e27f5cdcd80acc01cfe6c4f240fe8a1430123033657e83417
+~ -[HKSPAnalyticsWindDownEventData isEqual:] : sha256 59b32b4cab60e67ddaa64ee835011691f1b0985a55b5855debf31346c228e70b -> 37b766fda4d2aec3d46eda03ea7b847381008d75d9d2934bf73ea1a684551a86
+~ -[HKSPAnalyticsWindDownEventData .cxx_destruct] : sha256 36397a0e1ab5a5631064cbb526eed788a86982140aa59820c6f43a5bcc7d8e28 -> b7caa858bae8d2a7befd71ae981ab97622f6520bfefcb8d620ed6e6c2b4291bd
+~ -[HKSPAnalyticsWindDownEventDataWrapper initWithEventDatums:] : sha256 04940289b50ed2a121dde9bd587b165fbb4b9b61ab2226fd3a0a98a45e812ee9 -> dca78eb7d08facfd6db9125d3a055332003fb6d2efde3b911bdb2924ebed62c3
+~ -[HKSPAnalyticsWindDownEventDataWrapper encodeWithCoder:] : sha256 a225e78a7414f36d990fbf35e78d9b028568d5a14e4ac9329c23e72d13028068 -> 084139a3fac81c97a146c63c61f5df3648a6ca4fa688d01bfd38b8eb1f5ae661
+~ -[HKSPAnalyticsWindDownEventDataWrapper initWithCoder:] : sha256 238107ce6e4cab0edd0be06dd9ae7dba1ccd3e4e344cd707cf82b60a34a0fe1c -> 1a622df8e8ce85108109c90f02826a06285db1d9b78ef6f4364893a726db28b6
+~ -[HKSPAnalyticsWindDownEventDataWrapper setEventDatums:] : sha256 06989fb1b91158df71dc91193110064feebd9f2c2c0b6417083611f49ee6bc33 -> 7ddb9b090b884f60746bc9fb18cfaeffa372eeb3b97e221cd341dc5b1f65bf9d
+~ -[HKSPAnalyticsWindDownEventDataWrapper .cxx_destruct] : sha256 9a720100638a5696fb6a8296983f4d852f8bdd9ab280fb707d694fd47e61c106 -> 93e5430e7fa055da17dcfd49eff65ea91beb263bf0e122da995ece377c96b45e
+~ _HKSPAnalyticsSleepScheduleChangeApplicationFromValue : sha256 098a9583250661601b5d8565355eb3569833c1526da99990a10009182b358990 -> d9909213219a793ccee8588fe9297c2370aa14c9350007b71a4d57aa718a418d
+~ _HKSPAnalyticsScheduleChangeContext : sha256 f418cec22a38555df700056bc64728938d6f2367950c05fc9408239400298860 -> 2ce097ee1db2e525c153ae00afbe5fbec51e3d1aae5c08e40f5b44bbe7dc6470
+~ -[HKSPAnalyticsManager initWithUserDefaults:] : sha256 7757b2b8aec5e74c2b40dd110d00bf4e790aba55b6e80c869fabed8a3eaaff74 -> 8eb7ead0f2756561736f0b9011bae145c34ce7176527d6a8a466f20a366c1f54
+~ ___45-[HKSPAnalyticsManager initWithUserDefaults:]_block_invoke : sha256 25d6ad03533b7c94262f7344b0488a57ff120bd4d3fc20ef9f7584e0c9be95e8 -> 0459da975ca3f9eb4d65041dc0d1ba903b919701a8b00cbadf054999604478d3
+~ ___45-[HKSPAnalyticsManager initWithUserDefaults:]_block_invoke_2 : sha256 24a8358f43bbfa1025f5d457c9356a010b66aa25a0dbd983116afa11a0775d73 -> 6015afd3c5475008e09df8e779ec1b311d32fae00cf6c50d34f9426a1d51cd70
+~ ___45-[HKSPAnalyticsManager initWithUserDefaults:]_block_invoke_3 : sha256 1847e8322e0401f8a266e5b672d14812dacc5ce9983dfbb60de139ec785a0110 -> 267dbe4535956ba44866a891ef695d81b7bdca686929d500d3e2f2cc8bbb8b17
+~ -[HKSPAnalyticsManager initWithUserDefaults:ihaOptInStatusProvider:diagnosticsOptInStatusProvider:analyticsEventConsumer:] : sha256 1e8b93047e4b2da7a89ca85631029140c4c1f45aa9e647bacdeb630b6767af5a -> 95e9b76146aa7411a63aff3ee08a124fabf516d2a8889786b73f01b9df4ab017
+~ -[HKSPAnalyticsManager trackEvent:] : sha256 3f9ca037d3e53ab25ba413f0f82e68eb3c1f388c64f5c36454c7952b8fa5a405 -> 6b1f8fc2012fb73cfb3917616739d54c4fdc021e86c8df1a02f95eac94ff53d7
+~ -[HKSPAnalyticsManager trackEvents:] : 876 -> 868
+~ ___36-[HKSPAnalyticsManager trackEvents:]_block_invoke : sha256 8a41e441d37e9b7ac0c75000237ffa6e8e805d17cdb5fa5682c2be2fa0eab738 -> fdc9558e5fc1ff70272a270c00bc5f0bb06c0ee472b6c63dac19c33882f58f2b
+~ +[HKSPAnalyticsManager currentDeviceType] : sha256 e3e42e7bc4c2d5eff99f6ade853d6452f045c3ad3a61adbf9ccc1cbf02d5ae60 -> ab7992739911bb728747760944adb5bffad0fdfefa93fb9b031538d50b9a686a
+~ -[HKSPAnalyticsManager setAnalyticsStore:] : sha256 70f1125e272732fb9f8abe650146fe288e5185bf4c4da9544c87e23ef01f00a3 -> e4b3a88ce7771e673f1711286eaccca65860c1443ba3352af76c124edc14b7be
+~ -[HKSPAnalyticsManager setIhaOptInStatusProvider:] : sha256 59770c13f8c400b9805fd868c70f518d17d0ac9869c42d5e81ab40049be54297 -> 49b01ead97156849d47040a8d223c4cf79308185bdf7f1855ec9b8a20cf1bb17
+~ -[HKSPAnalyticsManager setDiagnosticsOptInStatusProvider:] : sha256 22ba0f1c1fbe700cb26077005542e2e0a17f40b2a4135874b297a06e23a19a8b -> 2da50cd25ff4eb93de6487f1b3309da7eaf4adb732dbb3fef9cf38178ad62450
+~ -[HKSPAnalyticsManager setAnalyticsEventConsumer:] : sha256 7d8e4ad4ac86fd7d83e1cd76956b7458b57c0ee6057b9236a1ff89e2e9e52e73 -> a5b7868d8383f2321e5725ff5b2cfe7c46098b76b51a7b03936d1041a0800190
+~ -[HKSPAnalyticsManager .cxx_destruct] : sha256 196894749e3e2174d787fd8a96103627bebee6b9d6446a2e73cc092067b8eddf -> 884f8aebc327da8a1b58e0f70db1e314eea43faeff9cb7eedba9493fc26d4700
+~ _HKSPAnalyticsEventsEqual : sha256 1d16f7cb2898ff358e9d42b83d3311d03b26eb9c52f1270a35d6cd6bb1bbe29b -> e26caba1404bd06bf3a80ca271bd5229d032d23aeee23d6e8f7152150ee98ba6
+~ _HKSPAnalyticsEventHash : sha256 7f2afea14d7d7b33dbc75a7ad16f7175631949cdb05f7f95d5cc20d90751fde4 -> 5a5c6b9207d24897c1130bdb3a9aee9591c7abae32aba2a8e40b29298c46c325
+~ _HKSPResetUserDefaults : sha256 d5f89cab3226d0900327c2136410566bde3f62b33f710b3b32231143ec375452 -> 6cacc84d409dc3eb84eec73939acfd1b68d65ec586c81a3561763e653e344607
+~ +[NSUserDefaults(HKSPSleep) hksp_sleepdUserDefaults] : sha256 6434917c439648bb77487553852e0666e033ccfe54c1d490c431dfb8cbc55e91 -> cf289cfa935e74c5426b65c53fd06c5ecb0444e1e50379155cff7298e491e7af
+~ ___52+[NSUserDefaults(HKSPSleep) hksp_sleepdUserDefaults]_block_invoke : sha256 db29e97198d8609203e33181c391954a7f3991fd8077efb9ab4a0bcaffcf74cc -> 8ebc051c9d38b8f8a6dc6e0a7b620d13a9f19865cf04072b97a7e070b919f625
+~ -[NSUserDefaults(HKSPSleep) hksp_objectForKey:] : sha256 a39e5853b0c568ce17828951c0428ff82f8ae2241d476c6a37dd771681565442 -> d7b074156a863fcbd71dd477912a8e813402cf28b5617a8fef19b4de88324fb2
+~ -[NSUserDefaults(HKSPSleep) hksp_setObject:forKey:] : sha256 c4ce68aeff9c92056b2a417e934c10158729b4444ff15e87930c88cc513b6213 -> 3fc232f1cf6ae4b228140bec8e26af6b89e82beaa54e1c1ac6ba746e525ba848
+~ -[NSUserDefaults(HKSPSleep) hksp_removeObjectForKey:] : sha256 70be7dbcb1d3d1d7b9cd15b7ab992be8ffe01d03d973213d644b8a8428829240 -> c6c0c225d860f685b897c67718297e50863d00c7ccc8b368ce13e4a7d22c539f
+~ -[NSUserDefaults(HKSPSleep) hksp_boolForKey:] : sha256 12d1a326a6e1d3ea7b382bc84fcb901661b42c051fc6c5e5dc387093dc474fdc -> 79a347e3a22fcf2f140a8499b7e4dcc80048a5b702e6d2f00e47d80b0cfc5682
+~ -[NSUserDefaults(HKSPSleep) hksp_setBool:forKey:] : sha256 89e2de2a6728d657b85cb567c89981ea8ff957d477f9af437ee07c909c1fc300 -> d4a80dbc7ce479d1edd44dd2403531333b45b33a68bb12811637f028e5e36bd2
+~ -[NSUserDefaults(HKSPSleep) hksp_floatForKey:] : sha256 13df74c2391af88ea1cf8ef3607ebd2502e43dd65c444b361d7165fc0d4b8a18 -> 816f9e7921ab69e31d2eca71856c4d95ecf1bbe2953cb76d458559806827c87e
+~ -[NSUserDefaults(HKSPSleep) hksp_setFloat:forKey:] : sha256 b96b5b56c1cc2de252dd2e0a131b9ff8be377ba6ef2b896051ff866d0a0aa509 -> 74dd3182be69e009b70909d48fd2d7ae7ed31445a493c94d481b868015cd6a04
+~ -[NSUserDefaults(HKSPSleep) hksp_integerForKey:] : sha256 d5e09d12f2ebb06f0973d09f67a4c1bdc34e12346766d3412909db754759d9e3 -> ce22acc2bc5e4b03fffd92d8214615d9f6cf80d5cbe493cddbd3baeee2816d80
+~ -[NSUserDefaults(HKSPSleep) hksp_setInteger:forKey:] : sha256 8283de6257e50e07f0627c42c985f8f73ecb9da069d30d0581859bc052f00f4f -> d67f40efcb56c6e227ad9f29cb7e6ca47fa6ba56018dd66944e35d9220e8b53b
+~ -[NSUserDefaults(HKSPSleep) hksp_dataForKey:] : sha256 551079751d6d0c7a031f2648a76e6837a9e27929b2ba6fed18b3b189e2c64bc6 -> 8b503ce52defe14c1703d307167e2309f2669e78e12195d781deffcefaab072c
+~ -[NSUserDefaults(HKSPSleep) hksp_dictionaryRepresentation] : sha256 39244cb47e25900de75859446cb9f11702644177a79b67c9d5ea42c3491d1ec2 -> 36d35dd842c3b55b917ed7cfe910ff69d985e3c2989b1f672cd9c0c44e6ecc17
+~ -[NSUserDefaults(HKSPSleep) hksp_dictionaryRepresentationForKeys:] : sha256 53bb222f71ee4e61c164fd3dd0c61d35ba7fafea8d37b72ea02c96c266769778 -> bf5003f835533848e6f4fd5a431d8e8652e8731712fce12f21597520555d9925
+~ -[NSUserDefaults(HKSPSleep) hksp_saveDictionary:] : sha256 ae658e8ee0872eb1d7ad563153ced816f3ab7003e3ece7a67ab5eb5af0991e4c -> c4636cd746f734cafc7f54b771dd2b87b6dab9b2a162be8be15daffbe247a042
+~ ___49-[NSUserDefaults(HKSPSleep) hksp_saveDictionary:]_block_invoke : sha256 ab9430f55e5eb127a41996dab1a36a31b4529f9a412b0893238a4b9f7ad195e7 -> aee454b1ba0d95af074a2b1ddb0d2fbf94f25e24ac6cdb4dcc277f96f83f76b9
+~ -[NSUserDefaults(HKSPSleep) hksp_removeObjectsForKeys:] : sha256 ebf7e6d7b64575fa18ea7a8ba8cabf94611d4f1628dcaf97829f628e3a570ad4 -> 6595649627d6f3485a320adda2087dbf733a383ff75d9e7d139fa82a7c1acda2
+~ ___55-[NSUserDefaults(HKSPSleep) hksp_removeObjectsForKeys:]_block_invoke : sha256 ea3fbe59db17e1b361b2f2fe6275b97e29ff40c1c0f165f1c462ad9e499b7c10 -> 48db13285f56fffb16d5708be125acd31b42f9159002ccd204f5a712d978bceb
+~ -[NSUserDefaults(HKSPSleep) hksp_synchronize] : sha256 abf437c88400415166e2f408997a69e2c2f41b19916402cdd60517e4a7864b67 -> 934bf0a9c83c3dd3611dc2081184ad948775633af9b6592b28a54c6ba907eecb
+~ -[NSUserDefaults(HKSPSleep) hksp_synchronizeKeys:] : sha256 0069e4868d2a78ab1b550efdcc625500a39d2e24f07897d13f9fe1585e216fb3 -> 224d9cec7b470cc5850055980c3f97a351ef6c21ef7ebce2674864c5bcfc0e52
+~ -[NSUserDefaults(HKSPSleep) hksp_reset] : sha256 ac0e076af78a8fbd38be97fc253b7f2e1be0e415e2ad6db199534cf9aa6ad71c -> 0287b36762d243c5abc7633f653d2b473b7009a42986ea4009567340820f0734
+~ +[NSUserDefaults(HKSPSleep) hksp_internalUserDefaults] : sha256 e04e9aaf4fa69c0e095c039d29bc017dd13c0724572b0965ca4e42075b736393 -> d20bb7a193da3b5b6bb1d52bf01687129b2da365a598b5da9ad7de5a4fe1589b
+~ ___54+[NSUserDefaults(HKSPSleep) hksp_internalUserDefaults]_block_invoke : sha256 6ec47ef5c02b23cabbf79230cde8fd56915c6d016b0fba5a122e710dbc086662 -> f7d9078a700e31ed12c51598a54a5ab84e30dcf4b454d914bc9cdb5da11f6e9b
+~ +[NSUserDefaults(HKSPSleep) hksp_analyticsUserDefaults] : sha256 4592d948c0a1cd2312b0e94ad3d51a627ea5fcb1340256b10fc3dac7beb87b66 -> 7a5a6bc4f93cf177aa102912aba7b551fdacb3a17e2ca68de5ffca17a0d1ccc6
+~ ___55+[NSUserDefaults(HKSPSleep) hksp_analyticsUserDefaults]_block_invoke : sha256 22c5e7fc03d175ecd0ca048d4ad0aad3df7641a9bb78a55007d37c059cb613eb -> 2e8c37e28503934325ce530a09eb8f9879c09ff3de9b6cc598be40d6df752a0e
+~ +[NSUserDefaults(HKSPSleep) hksp_springBoardUserDefaults] : sha256 0f77800747002c645eb98182ce1a22811a3fe32172ad8d346ef8e010c5940221 -> 2232ea82850a1aaec68ae32844a5f2dbce6a78d8bd5af86b65ed217d6e4e0153
+~ ___57+[NSUserDefaults(HKSPSleep) hksp_springBoardUserDefaults]_block_invoke : sha256 d32d10181a0fa65ba3d791a1538b6a3b8eb947731d01c9d6d6d3ce39e01fcd0f -> 77d3bb5e652522b98cb63715a37a90a08c8abdf7c8b5365629a90e06ddcf21f6
+~ -[NSUserDefaults(HKSPSleep) hksp_lockScreenDebugMode] : sha256 978c276a7fd6188a07cedc6b507d0d4af8066cfb6aaf1d863a7396c196dfda30 -> ed2348f6bf46c35b745711aa2b942441fd29387baeee1f2937a90e8a5f8913c5
+~ -[NSUserDefaults(HKSPSleep) hksp_setLockScreenDebugMode:] : sha256 294d6c16db3a75e1db264f342ddcb3fb559641682b6a8faad2847fc513c66a03 -> 02c6730a2854bbece3ffc36517be5a6c7f2ad6bee74e106c51cff17aca5db98b
+~ -[NSUserDefaults(HKSPSleep) hksp_lockScreenDemoMode] : sha256 3b81c0362ae97a777e062c866ee7ff1c357ffdf8f3bcec08b4cd4425718e04ad -> ebf1bada94f7890eebb839b29a71cc4a9905c87627c943fd467e262167c3f2f9
+~ -[NSUserDefaults(HKSPSleep) hksp_setLockScreenDemoMode:] : sha256 3084c574e64feea82a760ab6e58b1470b0f43581441cc64f452ba48fcaeb5f6d -> 3a53f65e215bd0157f65d4228514a9fe0191740ceb5cb89dc2da5ecbd051414f
+~ -[NSUserDefaults(HKSPSleep) hksp_debugSleepModeEnabled] : sha256 1c30ca538de377d16ec700d114683d76a491765dbbe94d8743eb6fadf7308b4d -> 58b5d37823e6ad451d738b318e20540ebea4b1cff87f3e024c1f7929ee4d81b9
+~ -[NSUserDefaults(HKSPSleep) hksp_setDebugSleepModeEnabled:] : sha256 4c3fef9af45e6e8b851916a7b7019e2cce3954b2a4df1458a0268cddd9195a89 -> 2043b82f4cba344aa31c01efb6fa5d47afd517f47df31edf67629a940bf14536
+~ -[NSUserDefaults(HKSPSleep) hksp_debugSleepModeAlpha:] : sha256 b82d62c013c2a96e1020581dcf878308a2896e3351eb7cbcbd38a5e679cc7e4f -> 4bc9b8c389a69c2833a44e6bd2f7d78cd6ada52b9470a7e7f6c03433a8582b60
+~ -[NSUserDefaults(HKSPSleep) hksp_setDebugSleepModeAlpha:] : sha256 caafda69b5dbc6c8e0053bf9003d8795f1f92d99e785d070ecab531131eaf1c4 -> 843effd6538cdd8b62c8253bd166ca1990456b629f88e17166d1c7d1f41dac03
+~ -[NSUserDefaults(HKSPSleep) hksp_useDemoSleepData] : sha256 84fa25be78b97f2435b90f08701bb6f000a0b4a597d6ca9f419f57a7193df682 -> 3f2d709a2dbd2b5f8dceabcbea08e157cecea0f5e14b111bde5f6c09db97f539
+~ -[NSUserDefaults(HKSPSleep) hksp_setUseDemoSleepData:] : sha256 115e7ffe72403bcfd29a7dd10b1a878d6acf8e64ee97b21bfb55fe6d1b9c36bd -> 1b429a1a3dea446e04054dc38202e70d0174e998a22272cf43b1ce74985b09ed
+~ -[HKSPFeatureAvailabilityStore initWithFeatureIdentifier:sleepStore:] : sha256 0a7887a7b3912c26f9b5efcab2686581a794f641f53a046c5c25619c23f09d6f -> 655b69b94c0d8b9ee5e43e47881b9490bcd572bdae1a040e73637fed14554e07
+~ -[HKSPFeatureAvailabilityStore initWithFeatureIdentifier:sleepStore:pairedDeviceRegistry:] : sha256 4dd65798ea73a6cef8228b8434dc9aaf470b8a35e1464ff6a2bed3024f7e7024 -> f6f93a44230c4a7790591aaf798d6d2ce571438e51c539ae72d1b4ef6e1d03d5
+~ -[HKSPFeatureAvailabilityStore _withLock:] : sha256 cf8b9098b664e4f18aa8816e4366dc0631f8602ca86a71def7238b8525c21962 -> 350b48ecea1d4c5087b96092b5e9192659bbcd8b7c0048d74644078a68102230
+~ -[HKSPFeatureAvailabilityStore _registerForNotifications] : sha256 8ed218d946300b13af5ea46d86502d34cee11d5cfd8d7bfa70d4162b2267ec8b -> d34f9c8c7a3800c20fd2798bb6252ce7c7e0820cac894b7e994c717df7a95961
+~ -[HKSPFeatureAvailabilityStore dealloc] : sha256 7d0821e5f08149311e1b27d4e72befabba272b03402e1297b4e079b4c362ccd6 -> ed582d5d0d93ab38904c02cb2a580fc942eba07b674c742fd5d3dcf846734bed
+~ -[HKSPFeatureAvailabilityStore description] : sha256 b2df01e6536974aab40e2854711e56045d1f35d0f4a6aa8bed6b05e73318dce0 -> f986f863a64ad760d8d0ee097f15556ad6cf573c40ca8a5a99e6b38af5662801
+~ -[HKSPFeatureAvailabilityStore _onboardedCountrySupportedStateForOnboardingModel:] : sha256 36e2830af47dce29b9fbc002fa631db630c133fdda9978015f61790f5272b0c3 -> 324f6c5d8cb058962f77f4dc8887f251d1739f0f1de53b494965b0a11ba55779
+~ -[HKSPFeatureAvailabilityStore _isCurrentOnboardingVersionCompletedForOnboardingModel:] : sha256 b4a33bcbf8987641d87aa541e92829ca302436a5faf11884a6baab9111ad8de9 -> 6ff7c67349efefa2b445758a99729cfe305b7b34e1678da1e0f625feee3bd98e
+~ -[HKSPFeatureAvailabilityStore _onboardingCompletionForOnboardingModel:] : sha256 9c3bacd94f2036d92ecd36853e7bf88e26e0abd761249a4094f50cd6c9f0c712 -> 03292255dba11c3059d4736d3b4ed5b66233bc014519431f712387713bb75a1c
+~ -[HKSPFeatureAvailabilityStore _featureSettingsForOnboardingModel:featureSettingsModel:] : sha256 7d408a91b936e9d1d78c3f0d4c5d1e23da43fb0984101433a988b8438731311c -> 56507d9e6b799bcaf6ac1258af6e2f420c83dbcf6d7e4a543e6ea829e51875f5
+~ -[HKSPFeatureAvailabilityStore _onboardingIneligibilityReasons] : sha256 2b91e4f55b8d9f74f7e77828d257801775802ed6619ec2899308998ec4cad95d -> e46f81f971c14af62b1d162ca72198abcda1aabad8fd779efbd20662c0ace17f
+~ -[HKSPFeatureAvailabilityStore _defaultSleepTrackingRequirements] : sha256 cd5f14ca58ccdb284b87ea24eeaa419aa475a26a1b17cc56a9923c3145490b0a -> fc8871115f21c5c6cafbb50d9920d6ae1bf99ba0cad6b7424f253879fe3589dd
+~ -[HKSPFeatureAvailabilityStore _onboardSleepTrackingRequirements] : sha256 825be5cb08e2eaf387b6fc0e028b6e7da1b65f1eb942639cb5caf4c97945fa9a -> 40d04533dbe3a3949f965e6ae9800a562651aaa8fdfce71e5bf0b86251791ff4
+~ -[HKSPFeatureAvailabilityStore _useSleepTrackingRequirements] : sha256 c6f9ffa559f3ef2a2781fbfbc4c81f18deb6f1c1cab1835825fb5eb423a83e35 -> 96bbd9bbaf2064de6c0447c04fbcd1df6c1f7155289c78fd1fa0c83bbb43c8f5
+~ -[HKSPFeatureAvailabilityStore _sleepTrackingRequirements] : sha256 e208799feb02cbb4ed260d1f01e84073cc14f82dd5613a5549adbf74f8bfbfa2 -> e0fb2217ed98e7633ab7cb85cf23158c2a73eb03e137cc05726eb1fe93927115
+~ -[HKSPFeatureAvailabilityStore _defaultRequirements] : sha256 602e018fa30ab356feb2e39e713290f36f4790b0a2ffdd91c634a811ed11d879 -> ac4b7ea287699f6fd079f3d339205fcad56080853700f3e50559f054163d81c4
+~ -[HKSPFeatureAvailabilityStore _featureSettingsModelWithError:] : sha256 e13a6e8e34e6e9abd967df122f51439a2b8352145c913f66bc9f475fd4812a11 -> 6580559656efbdd0fbf626cc935843980818493895bb7faf8d1796e489577882
+~ -[HKSPFeatureAvailabilityStore _onboardingModelWithError:] : sha256 d2e919e4c5f9e14b72087d1dbd187dfd0c4bab84294c96add916217dac3893c1 -> 48226dfb6bd1447116578beb5837dc1bd58567c4a6377c0ee8e52c548f2302bd
+~ -[HKSPFeatureAvailabilityStore _onboardingModelWithCompletion:] : sha256 7673b21de5df914d22578a70a37513da5b4de1cdd3497470d8984d6fb698b87a -> 0fc935738a03db21ddf2ea7957eb166f900baf27178912ff5255c11cb28a152d
+~ ___63-[HKSPFeatureAvailabilityStore _onboardingModelWithCompletion:]_block_invoke : sha256 0b107162418f0ed83868ccd82dfef33f23d0267402a5017adffd8d80ea19d9b5 -> c39b0695bb042910038d03de8d1bd411d7f2c1f678630ae9a3b91191d65e40a8
+~ -[HKSPFeatureAvailabilityStore featureOnboardingRecordWithError:] : sha256 860ab266c11bf418de487ce3e934ba8ebec9507374f6d99c6a76b28cd05e77fe -> 02cb237fc43f9b737e8e9747dd7666b0fe1a72baf39906b5355263366ed89429
+~ -[HKSPFeatureAvailabilityStore getFeatureOnboardingRecordWithCompletion:] : sha256 f8ab8591db3dabc70b5b32150be4e65331df33c3a42818986c30378edd1cd245 -> e46d48e9f3244b50c4f033987ebb95c4a9f22ffa05cb9159abea41b70f25fec4
+~ -[HKSPFeatureAvailabilityStore isCurrentOnboardingVersionCompletedWithError:] : sha256 df062100feec4abdbad269f734594f4ef7baa937009f93f4c3b359d21c64874f -> 2524155ed0206be752b3fc11b5d345ea6d17b074a30a2332cd09ce6fd66cb5fd
+~ -[HKSPFeatureAvailabilityStore onboardedCountryCodeSupportedStateWithError:] : sha256 05fbe98ddd041a999dfe29a43f8bea4b63675466494dfa55e1260924871c47c1 -> 6547ad1de303755ea2dc359a151d447fc8c0f48c3b8db25de33db3bd86e7e258
+~ -[HKSPFeatureAvailabilityStore isCurrentOnboardingVersionCompletedWithCompletion:] : sha256 3bad76e29bdeab86030dcf868ea2806ab4e2c804e6ae257f2475dd557409399c -> 08889fd755d706bee85d9f763e4facb8a82cdb8a8c7b5b8c2cfae05b0866a310
+~ ___82-[HKSPFeatureAvailabilityStore isCurrentOnboardingVersionCompletedWithCompletion:]_block_invoke : sha256 7be6759ddb52bfbb86e3cbe2df4665e109ebe8bdf14698c306739dfb5c94b15c -> 8aaadbf5c2ea9365a351e5fd32e7685654e4455572964fbfc58a86177cd6b474
+~ -[HKSPFeatureAvailabilityStore earliestDateLowestOnboardingVersionCompletedWithError:] : sha256 88cc95bdf81ca407389bca88630c405b4d37ae1ca78fccfe520cdcf366bd1379 -> ba86566582405688a453b59b56f79c2b34fa15f20ca83b23850dad84b30bdd48
+~ -[HKSPFeatureAvailabilityStore isFeatureCapabilitySupportedOnActivePairedDeviceWithError:] : sha256 a7e31e78274df3c98be78f0ae37f81a9b04ca91b6fdc28540093b9f5b7c96ad3 -> 28ac1fc15e849e6cb37b232642462b8ca0f494a9c7425078e0b71a325663bc01
+~ -[HKSPFeatureAvailabilityStore onboardingEligibilityForCountryCode:error:] : sha256 4602e008f43dbeaa9a5d6f0283fd8c786ccf08813ba9a71d3031e4f02a7f71fb -> e80c8b4088eea10a3ca5f12bbbd3466d16ca44e26b0210eef9471acfa43327e6
+~ -[HKSPFeatureAvailabilityStore pairedFeatureAttributesWithError:] : sha256 a7252606c57a32f15d9d982723a9340b14c007805d49eeabd53d543899cf12ab -> 09f7c86d4bb1bb6ebc76d5bb176388e2c8dd8720f0cc1d9a2ffbeea6fe00ee87
+~ -[HKSPFeatureAvailabilityStore featureAvailabilityRequirementsWithError:] : sha256 417b147be32935e6bdf94a528b7a5f5af09a98102563c42ef95fb4e68249729d -> 3acc370513b33f8a1550a82f31e3fe9c0f97ba5d61f383929001873dabf8255c
+~ -[HKSPFeatureAvailabilityStore regionAvailabilityWithError:] : sha256 047bbca8b58721ec622c23b2cd9c8ba6f0bb9b174c6b8ca89d1486e6b7bda5e9 -> c3224f25dd6f86fbcd40626e077d0061213d00ccb8f70802977a30b82fa47c93
+~ -[HKSPFeatureAvailabilityStore setCurrentOnboardingVersionCompletedForCountryCode:countryCodeProvenance:date:settings:completion:] : sha256 bd65614e58173994ff7a4fd6808a8cbab3d1d4658cff0ca528bf101b4ad9068b -> b657fcf04bc5d03502482599b8e8d66130a4150fbd759578cdb5f4417b6306e6
+~ ___130-[HKSPFeatureAvailabilityStore setCurrentOnboardingVersionCompletedForCountryCode:countryCodeProvenance:date:settings:completion:]_block_invoke : sha256 6425dca400afea40c8eb646d47d4780247a33f8c18b26b3c02175e2c3f7f7fca -> c90b8e62118ba76a38febbfee2b063a4951148325cb080642304fd40e95f99f2
+~ -[HKSPFeatureAvailabilityStore saveOnboardingCompletion:settings:completion:] : sha256 1842bc34aea7bcadd98326ff8cdf46eb7ee967f8cde23dd299dd1ae66c193e57 -> d5537b023239cff356aa197a2974aa8480ee382ed979c48dd42285a95ab9e9b9
+~ -[HKSPFeatureAvailabilityStore setFeatureSettingData:forKey:completion:] : sha256 14bc99953323099c5225299399c8bd601e5c300d652ef23e5bac5573d46c1f2c -> 7b76ed0f81817a9be9cfcab0f0e1c804a6be2d4f810055679dce2afe2a93ae3a
+~ -[HKSPFeatureAvailabilityStore setFeatureSettingString:forKey:completion:] : sha256 a3c18d3ce2caac580a9481c6dbb110e17569ad45d67137241688c78f5462af45 -> e623f8995b09afa2530eb63ce7d24c8c8bb761d532d5f973b39aa8a25ba0442b
+~ -[HKSPFeatureAvailabilityStore setFeatureSettingNumber:forKey:completion:] : sha256 27a79b79b0460b3e601e47c6580b24b6664e770b8e12c78f9b189f3472de2e8b -> 468b03c540f40535a6633d56cf520d58e7a665fc80f48d8db91e52f3a6beae21
+~ -[HKSPFeatureAvailabilityStore removeFeatureSettingValueForKey:completion:] : sha256 a602b18ab3a1663c3345e15c9ccf58ea6e82cf7046d69a752b49946522726779 -> 32345e69ea1e57ac39600e452d7f813038b2163715e912c6274fd41a5df71f03
+~ -[HKSPFeatureAvailabilityStore resetOnboardingWithCompletion:] : sha256 377341a4b4fd9d4d4c6f0ece091e5337b054992ef9f9d15b8663ae4eca6af080 -> db43958d8bc2c276e733d7ea2f72c40e2c4af69fd69425ae963a209493050210
+~ ___62-[HKSPFeatureAvailabilityStore resetOnboardingWithCompletion:]_block_invoke : sha256 90770c459515a614af8562ac20ffc5009cb9de2b456965eba403743dab62ea43 -> 93ba08092bbbfad59dbe738b54412d74626c85ca11bf6afa62274d2922513916
+~ -[HKSPFeatureAvailabilityStore registerObserver:queue:] : sha256 172aba3f7653ef89657def36d5c94c595467618b6a9ce0d07cdad6a419137884 -> 6837c9eb9b9b29671e829922524965b4469ab3afa3886df94841245de8654ec0
+~ -[HKSPFeatureAvailabilityStore unregisterObserver:] : sha256 bb05ed8e006850ff35ca4a48e7f967a66e4ecf794725ca370702abd8c6da56ce -> c0251a881fc62967a16226ae320122def71c8d7bef355780cde8fad7ec52c385
+~ -[HKSPFeatureAvailabilityStore _pairedDeviceDidChange] : sha256 009950c7217102c70ef27d599c5843f6a21fa60bc9d9eee1fd43a5950864cc50 -> 5a3b19c82575767ea939939de683395e8081af3770417a5e0d24b657a6d3fb38
+~ ___54-[HKSPFeatureAvailabilityStore _pairedDeviceDidChange]_block_invoke : sha256 1b6deb5ac4035bb8aa4a85386e09b17d77b0c1630a047a37396020f7a11383b4 -> d71a1dbe4ef2f61da845ce357c9e1890fe33b0fd8545da490b92108734402282
+~ -[HKSPFeatureAvailabilityStore sleepStore:sleepEventRecordDidChange:] : sha256 6bac4cb4170e91970c2e434b552d7defc0bf4371ed053094ed885b7399529d48 -> f94ef03be32eb7e8d9c7764e2f99a986b252f7db19b9596a700b9b7546b4d78d
+~ -[HKSPFeatureAvailabilityStore _updateCachedOnboardingModel:] : sha256 629f510ae0766dbcbe60d0fbe94382aa93697e28a9cda1c0c8fd39c484886a8c -> 69bfaa9b6b44d9a8ebf44d6808d8c577067fca816542c9ddb2d4f364091d44c6
+~ ___61-[HKSPFeatureAvailabilityStore _updateCachedOnboardingModel:]_block_invoke : sha256 937b99fc595b26e15f6d56e9dcf948ffb9356e91c3a552b09659db27e7f300b7 -> 58a8ab31783768c7cadd70da21e5e5edada01baefc93d192ccc1c3c4b2a4539c
+~ -[HKSPFeatureAvailabilityStore sleepStore:sleepSettingsDidChange:] : sha256 6a1aaebf0a3069e564f73af4d435158504e0a9408a7f3561df46121505bf3b61 -> 464b947a7fac87b71536522437e89e81bd12097a7cc7f0a79533355982708c82
+~ -[HKSPFeatureAvailabilityStore _updateCachedFeatureSettingsModel:] : sha256 b4f834f67900164d1c833e6a7d0d1f0f8c291b366d37c93ca7ee572d69d37272 -> 01186eda14da41f02bd7af8198fdac69defce8ae8ffb3854b5de31adf007512a
+~ ___66-[HKSPFeatureAvailabilityStore _updateCachedFeatureSettingsModel:]_block_invoke : sha256 a616dafb4f5e9b94c744881c58536bc6fe37a0152d1244d55ec23d4fbdb4f267 -> 32fa21bdb28e6b65cdcdc37d29935f763c07522f70389c0e5420579ffec82e9c
+~ -[HKSPFeatureAvailabilityStore _notifyObserversForDidUpdateOnboarding] : sha256 a347b06eb77ba0ee8147ec8dc9923a6099d7fe813fd6f5bf0904d801ac34adc2 -> 6a6955e44106e991ed48589f9ff6d5d3edbe36d69186d1dd0b35bdf7895f405f
+~ ___70-[HKSPFeatureAvailabilityStore _notifyObserversForDidUpdateOnboarding]_block_invoke : sha256 ab4b647b6bd5f5f53f7cbb06c66ff65eb8bcc2aefe68a281449c79cb1d4f185d -> 125599677bd9181caefda618c0d156082235ca3cf7511de8cab87c88bb6a4c9d
+~ -[HKSPFeatureAvailabilityStore _notifyObserversForDidUpdateSettings] : sha256 48b38034712028f9b52aaff78b148aa55daf244a5da47de14fd6c1b4f58cf99d -> dcae90690cb3e64de518adda2a3102a2b2752dea980ad569bec161d0c1b534f8
+~ ___68-[HKSPFeatureAvailabilityStore _notifyObserversForDidUpdateSettings]_block_invoke : sha256 b2864471583fb92f82e90b0224c46eb12202e0a7686a57e3177a72052b2877ee -> 04b0b85eb855cb02262ae4a34f720e56315b81351703f9139c2906f08a690bed
+~ -[HKSPFeatureAvailabilityStore .cxx_destruct] : sha256 c6cb283b39e6755f69b8894dd9fb62c658989acb4b4ba7bb60b95c64f9f1b2a4 -> ad224fc4c8e5b9491abab996d74af8dfc47e7c6d3cee38e6b28cf5b6650cadb6
+~ _getSleepFeatureAvailabilityProviding : sha256 14cdbc245de6db36971f3226cd8900c39bd0de653d02725e9b059bd7e2103c27 -> 12d7d9cd38f495b35c38e73bd13af56e7b41304f0f4b3156941c896d44a733c2
+~ ___getSleepFeatureAvailabilityProviding_block_invoke : sha256 6fe4b79c244642f13418f6b14163fd6f121853d9a0f21948b49e863b3d95ec16 -> 75c74354ae21fd104d27032eed0445773b13d41d1746eb14d5dddb652044b431
+~ -[HKSPSleepSettings(HKSPFeatureSettings) isEqualToFeatureSettingsModel:] : sha256 d229d04601028a2a25f8e08954544f7af13744dc855760dfd268a087bb7ec83e -> 425089d3e1b207e7058f6f05790d3aa9811411a42a948d797c76aba8d6f5e04f
+~ -[HKSPSleepSettings(HKSPFeatureSettings) sleepTrackingFeatureEnabled] : sha256 8f7697f3f0906b86e22841a295e456336f74581ac88a4277b57db53347e0324a -> bd71b9ce124d71559eae4faf08e90fde4b102e8a8768bbb269e4aa965c2ad6f7
+~ -[HKSPSleepHealthDataSource initWithSleepStore:healthDataSource:] : sha256 0a0a7ff162e23be71453a9cb5e46e62c2dafdb000de4c1f34ba727bd978ac9c4 -> 9c1e59e86bd2cd1ce3600ad7355d6965b24461631b315fcfd5b1ed99b4ece851
+~ -[HKSPSleepHealthDataSource initWithSleepStore:healthDataSource:pairedDeviceRegistry:] : sha256 51f4820609824281cad5086d166a534cc57fee88b3044dfa8287326e3d6360c7 -> c67527fbba2188f7ef4b3ce91837c9c07ee16e795a4b8647c91e80842bc79471
+~ -[HKSPSleepHealthDataSource healthDataSource] : sha256 6aef192869055eb059467a012881628d73ba76ac5e983e236948165409413402 -> e1fdd85942783fb52ea32170acec80119080eb610967f368c8282fc9174ac9c4
+~ -[HKSPSleepHealthDataSource profileIdentifier] : sha256 84a21ce1d563c5683821dc7df414efba3306a6b5d6226852236fc58394e63bab -> 94a7e35e14dd964c9064c0c4c8ffae968b7926f85b992a209024689dda963566
+~ -[HKSPSleepHealthDataSource featureAvailabilityProvidingForFeatureIdentifier:] : sha256 5afa540861c28a5d601b71d5bff5b6e9c49337511f06af55cd322e28ce3894e3 -> a1a17a8a964bd26d8a091bc2f2ecc24d9665aacb6354fc20a1675e4ea01d10f4
+~ -[HKSPSleepHealthDataSource sharedRequirementEvaluationDataSource] : sha256 5bdf9b5b96abe6fff297c80240796140dc6444d559e2fb7c7e069803bad54430 -> c1c6d3b0caf36a2c4b49c788e6c3db267dba2d58bd34d76355f253acd351f2a8
+~ -[HKSPSleepHealthDataSource healthDataRequirementEvaluationProvider] : sha256 f8ea75132f3fa783c9415d4b0ae988aa0cf6a2af174bba5e45f9006fc9892307 -> 032f3b01cc487e5a5bf43d4cd872aa5130002617d0ad177bebf69c1e8767aa4f
+~ -[HKSPSleepHealthDataSource requirementSatisfactionOverridesDataSource] : sha256 e63b6d552c31a1cef10630866010fcb56f3935998e952686d8e66c1fed950eca -> bfe703223b8448c7395a49a8c6ee8ce3a7834a0a0d458016aeb16278392422aa
+~ -[HKSPSleepHealthDataSource watchLowPowerModeDataSource] : sha256 557260a8b9dc068ad82cab7c1c022758a68aee0110ed263d940c230f7be8a07e -> 588b033e2d89afb1726ddd145b0098c26b711067ef21af69e3e7655d45745bf8
+~ -[HKSPSleepHealthDataSource authorizationRecordProvidingDataSource] : sha256 010c35395faba7e62ad2f4829570784f50c70485cd834f22f7ed9658833128a9 -> 30a42d5ee6e8f2446bb376edf4ff897860295c01fdbc40031e1d120a388a64d9
+~ -[HKSPSleepHealthDataSource wristDetectionSettingManager] : sha256 31fc30508d146ef27309f047e802aa4d3985c80f119f79b533373053e001f183 -> 9d84e46d00cb969ac6c98dec29ecc9768732b2858f0fee0b8274e6a331a62c7b
+~ -[HKSPSleepHealthDataSource userCharacteristicForDataType:error:] : sha256 1d19df76a73b9ffc060dc3048bdc6096cd86da5c5536c534bdb9071301f27118 -> c6da0c3891a08fc86ed6b74db486b2033ab859795d11b9f48796044a3312a855
+~ -[HKSPSleepHealthDataSource weakHealthDataSource] : sha256 f3a6925b348f17a5d4b14d23742257684f2c59999363529ef8f8d7fc65dfe558 -> e64a729b91cc1355cc85cb89f928f99f4ba7764a601e1a9a7be0ac512286ad8f
+~ -[HKSPSleepHealthDataSource .cxx_destruct] : sha256 7066932874ed4d565f98ee6185c7c9cbf1fa10153aa98362555aeccf537bca8e -> 86d8bd6ee30212199fd055367c94ed797340d55913680cfbacb5cec14f4fb0b2
+~ +[NSFileManager(HKSPFileManager) _bundleCacheDirectory] : sha256 99c0d8a324b03ee151aacb2aba56dfd34a5cc08c151d3d2de21b248e0208bac0 -> d798727b065370e463a0d723d377e87f847f37831fee1c65b10cb772bd93c4ab
+~ ___55+[NSFileManager(HKSPFileManager) _bundleCacheDirectory]_block_invoke : sha256 bbcecdb5d4b9d2e2bb92d63e72f72c74714ffd6fbbbd83c81b54c5a701ac2f78 -> 2a1d91468fec6846e4f4f32a739c3d8cad7ae36a1d2d39efd597999d0511a9ac
+~ +[NSFileManager(HKSPFileManager) _bundleCachePathForFile:] : sha256 bbf884276bdbe65289b5ee576d12611860934a199556e5b93e0c9784b275730d -> 0109c20126bb9c3a97ed6f0b4898fb8c4e44324aa3be5fe5658e9f354453f21f
+~ -[NSFileManager(HKSPFileManager) hkspFileWithNameExistsInCache:] : sha256 a8d5ba94754c487d7e2c0bdddc85d54055019fd6f3c0e5f3f7eecb1e784feb5c -> f84baa256c0ac80ff66b744f3af3dfacb6c565701acd53393198a31f6c645589
+~ -[NSFileManager(HKSPFileManager) hkspDataForCacheFileWithName:] : sha256 084be708f380876704d9cdc40ab3c5a0293ab8ddfe84336929304e20e5abf296 -> 6f98e827588a3948727a08a471322abe58fba949c85dc340c011ff23a4e7f869
+~ -[NSFileManager(HKSPFileManager) hkspWriteData:toCacheFileWithName:error:] : sha256 d155320e82216c05759f97a9e32710d3bab9f145e910ba0fbfebfb367f2cc692 -> a581133e086008950e4f233e4a8fdf81b1ee0d038b8f0a4526eb24ec6e4e3554
+~ -[NSFileManager(HKSPFileManager) hkspRemoveFileWithNameFromCache:error:] : sha256 d060222fbbb5a8bbcb87859880b0a210f4815a896b15750bbe981b5d773c661a -> 85cc915b4523deef3164a9d75cab7a3299cf1d07297d4d5b871564a584b0f29d
+~ -[NAFuture(HKSPSleep) hksp_boolErrorCompletionHandlerAdapter] : sha256 1229168b395652b5ad909b255b79ef6489addbc68f378a068cc2283a3060128a -> e23196afa3e095e28fc7f3cff67fec07285c1b86d724a65285da798b02ba793d
+~ ___61-[NAFuture(HKSPSleep) hksp_boolErrorCompletionHandlerAdapter]_block_invoke : sha256 42e4047a69a534fa6f03cb60cd451c49ffe3b8fd594176faefc5a23fd7f9e151 -> 7ad523f5bb95342a12f4a16cd0f72824a452418fb8d141e487eaf6f93ea9706b
+~ +[NAFuture(HKSPSleep) hksp_expiringFutureWithTimeout:] : sha256 5bbb484e9155b82a5e096f1ceaa4aad10bbdcda22165e40071b633c3d98e2cf8 -> 6735365e993e47471084422ced9ea255ab34f4db52a9e3f3c0d777a78d380ebd
+~ ___54+[NAFuture(HKSPSleep) hksp_expiringFutureWithTimeout:]_block_invoke : sha256 77522cbed1b0e1094183e40850ceca1f94af23d9dfe93b9716c27e2b96553f22 -> e184f3cd89c9abcdbc206be0e7c08f39179170c7ce9e72161a49e4d5362fe8b2
+~ +[NAFuture(HKSPSleep) hksp_chainFutures:returningFirstPassingTest:] : sha256 cec2920f5cde9a26ef8a1f492799e960142c2e284ca5c233ec627edf404724c4 -> 91747c8093b16980c6d03d2b6d55d5bb58702a78feb2c1ef059b06ecf0af63ee
+~ +[NAFuture(HKSPSleep) hksp_chainFutures:returningFirstPassingTest:ignoreErrors:] : sha256 ace6508f05b54106ec66dcb0510013909b656bac6582e3e5e22999155fd0a1a5 -> ea521f3902466393ba00f45381c33d09a1af0092f4fb8736f373262278f8d3a5
+~ +[NAFuture(HKSPSleep) _hksp_chainFutureHelperWithFutures:index:block:ignoreErrors:] : sha256 732adcc3d9638dfd5c2ef55bda6cb56e42cd4b1d3d0eaff55aaaf24da741c4ba -> b12a521238243e0d5343e082c909e64e7c1fd253e58d7e84caceaf3eaf8ea4e0
+~ ___83+[NAFuture(HKSPSleep) _hksp_chainFutureHelperWithFutures:index:block:ignoreErrors:]_block_invoke : sha256 ac9ab50f7ebc36782f7b1df5c9c9bb78e2a1307867a2e66f43a17e4af12ed2b7 -> 8933aefb1e4a77d6e30aba3b8853fd9ed32d07cfa30f7a89fd5a27a4aa1d0ca7
+~ __83+[NAFuture(HKSPSleep) _hksp_chainFutureHelperWithFutures:index:block:ignoreErrors:]_block_invoke.6 : sha256 74ab489ab894d91661d642b368b3e527319cce33c7b63a8b67663c77e74a15e5 -> ecc60dee5e157bb7a757a42fdb561b10809b1999d22cba7f3a5787a2f23073e9
+~ ___copy_helper_block_e8_32b40b : sha256 904ccc4f9d922dfab76dc09c45fad2cfd5f002c6ecbb3b7808f1596d369266d4 -> d8b4dc23432cca6c334085a1c2fb60402379286e9d41fff6bc174d75c87ce290
+~ __83+[NAFuture(HKSPSleep) _hksp_chainFutureHelperWithFutures:index:block:ignoreErrors:]_block_invoke.9 : sha256 4b2f3fb58e7099a9e9d9f469a07143751304197f2b4bd38a458073ac3a9876ef -> 8c6a15cd0e8b71c0f03836a18026af89b91c0fe2c3b6983296c54bffda41de37
+~ _HKSPMainQueueBackedScheduler : sha256 150159dfa1ccb94f0ba4a11fd85fee4848eb51801637acb3190e683e7cc80ff6 -> d670c4be57474f4161bf82682adad2cfd6a9957e76292270e5bfe5175dc724de
+~ -[_HKSPQueueBackedScheduler initWithQueue:] : sha256 2f7579555bab69ba77164df4c2d5cc1ca03f21a6e9cb4fe8f54edbd2f032cb9b -> 75ed6f9c32d0e5548c4c2e4d2e2c94594d120f0c3fa2adacc43e45dac1e2099f
+~ -[_HKSPQueueBackedScheduler initWithScheduler:queue:] : sha256 f97266853c2a131c2d799713df32c64ffcaf297ae0a560e48754cfecb0311dc2 -> da3a0207fb36b500ecddf962f3c5241de94d53297523da3ffef28e9373926672
+~ -[_HKSPQueueBackedScheduler afterDelay:performBlock:] : sha256 3f9a7bce7443d468a092d44eef89de13a39d9f0be096d658386fb4d9dcbe62ad -> 4d8e5c2b3a8c1a0683edcd47dbefb6a47750322fc90d1064410dc2f62f382c86
+~ -[_HKSPQueueBackedScheduler performBlock:] : sha256 30ff97e456f3c623dd43700e32035abf01b00555a49bcfe793a54d9d78dab266 -> 3097e474b128383e434e9d17e9e7cc9dc51e4e827c3288a100b5ece8c25aba9c
+~ -[_HKSPQueueBackedScheduler performCancelableBlock:] : sha256 51494e8205e8af399f0ebe7ba1e863bfa876e2a74dcc2852a42d617a6841aa3b -> 31322c33303513c7ae72b792eb84caf373d112678153280589dd9688cdc25f22
+~ -[_HKSPQueueBackedScheduler suspend] : sha256 afe30fb85abc4c8dcf3aedcab1d4b9d68f4d5fc328a89fa677bc9d1f3ebf7eb0 -> a838e1f867cd40ee159994814bc16040920aadabfbf5bbc8fad24f10aa4777e2
+~ -[_HKSPQueueBackedScheduler resume] : sha256 19ecefdd3f652cd5e9882bb40f9d0bb7a188438088c8adc7a507f4ab110d8e4f -> a91880830be39cb778fd460528e499c7b3d9fced847171ae36210440d066b151
+~ -[_HKSPQueueBackedScheduler .cxx_destruct] : sha256 2ac1e6553c7e445ad21b1584cb8255e18725128a3ff316a889b6210284e81954 -> d375f591e7f5a6316683837367e944c2376d843ec61f9078f0d991516241bd98
+~ -[_HKSPOrderPreservingScheduler initWithScheduler:mutexProvider:] : sha256 bdf1fc99771e37c4976c764596ec1bf57ba5076a09158d7de3a4a94f4bd6c1d1 -> 7bc2b6d078ea37b9fc59722e1a1622bdac2222e2860f9a44aa51ab70909721d3
+~ -[_HKSPOrderPreservingScheduler afterDelay:performBlock:] : sha256 ef53df1e198b8e45ceecaf14d6c342d3ea59137ec7f9756ac51e87dc7b6b6f30 -> 3286e264247cdd0256b8958a38049d5b76e88e14afb79d1a85bd79b79392c3ad
+~ -[_HKSPOrderPreservingScheduler performBlock:] : sha256 80d1b6965ab3ea3e04f6f35639b2d50c6901e269dc2726d9fb6456911c8e6880 -> bf7074548f52d7629c9021336efc339fdc8eb8f75cf870e22680b96df353c155
+~ -[_HKSPOrderPreservingScheduler performCancelableBlock:] : sha256 e12b345fa88f508dfd5181aacbc71e9897c9ab60b3b1797b97627758d8c65867 -> 090c0c919d15dddae3d40cd11c25e76ef1810f07cab3782b2a23e6f923344e73
+~ -[_HKSPOrderPreservingScheduler suspend] : sha256 b2bba348f42dfe6fb455bf9745185d415475ca8b8acd45e668678902fcbea5cb -> 25932c113eda99b478570f0cf27f482d9bc7cf3d988e792f603abec6497083b9
+~ -[_HKSPOrderPreservingScheduler resume] : sha256 ac260e235d1390b123bb1daf86bd7bb71f4be9f09e2d2d1c10799917643ef44b -> a387a740445b53a3d47f4705d9b5ecda735a8e52ebc51fbe9bbe0b7059b7c670
+~ -[_HKSPOrderPreservingScheduler _scheduleTask:] : sha256 d31b79c0d16f949e769f05e0f4baa5febe139ad99ad62af91c8644f712dee6ee -> ee03486b4ddd1dda2f054b22acedb1794f18666e886351590769d133db569e52
+~ ___47-[_HKSPOrderPreservingScheduler _scheduleTask:]_block_invoke : sha256 68e13a47f81dfcc8575e29ddff9e1ef272c5cc53a668199f5d8d403da7b5d042 -> 29dab795cd318a2c67491cfbdfc36028445b71c2e51e19e2b82f63a78a05ede8
+~ -[_HKSPOrderPreservingScheduler _scheduleNextTaskIfPossible] : sha256 0162f83f9f6d70c729ae5c99df58bc1c9af6b2f0629b654bcf47030006dbb9b9 -> 0cf7c5c06fac729815d03e4cb9ccf8a4a1e88f2221ece57266b6d56f78794859
+~ ___60-[_HKSPOrderPreservingScheduler _scheduleNextTaskIfPossible]_block_invoke : sha256 ba3f375cfcbab87900c21f75be4d839f68632ef83f9b0a3b388da26f046f9b93 -> 9bb2112e64b9a42ef762ba0ad21a76bd02d4029fa310f566eed4906a4031c808
+~ -[_HKSPOrderPreservingScheduler _actuallyScheduleTask:] : sha256 bf4cfeb9dd6f667aa5d39b27b12b57b25d2896865ea7621cf617d2864364e633 -> 6092c50003154ad352decb03b28d692738ad77b4a59b68dd6e5e7b96b8fedac4
+~ ___55-[_HKSPOrderPreservingScheduler _actuallyScheduleTask:]_block_invoke : sha256 098761aefcc13b19b77da5c9f94a02e32957b078d0560969eae881105163d8da -> df3217f4c08dd25c32bb966bd9da0dc2d26c18a36b984bd5ec83949dbd3d5dce
+~ ___55-[_HKSPOrderPreservingScheduler _actuallyScheduleTask:]_block_invoke_2 : sha256 9b607184be204e8907e9c33cec022e90aac433dbe8278f43a607a4af1af91bbf -> f029d9a6bf2bb3c356da4254ade85112c533a0d68c07be1fecabbdb7732750e5
+~ -[_HKSPOrderPreservingScheduler _executeTask:] : sha256 daa836161dcf5826daeaf9fbc6b2948f026afbd70c97faa694407463fc0fd352 -> 7345085725e84b939ae68245fea2a33d07399e285b0a07b5e12a55e116ca6a28
+~ -[_HKSPOrderPreservingScheduler _taskDidFinish] : sha256 986f2dbbeb28a21693290821fae4ae23084f8a06f8ae46bdc6dacc6d46709602 -> cb0cf296d693ec7fccfc797b33dc2d0423a00cc4ea1735d887ca3a7195cc11a8
+~ ___47-[_HKSPOrderPreservingScheduler _taskDidFinish]_block_invoke : sha256 9279093ab5dc694d37057b21c60c552ee4e7b13ebabc19a60459fff00148e48b -> 70d954296a1a81b5ca8fd5438271fe7d80788c04f57d04aab04664ecd12b34f1
+~ -[_HKSPOrderPreservingScheduler .cxx_destruct] : sha256 58036e3d3b65683de4e3cf0d320b99b1b54748368b8793900079292890969aaa -> 0b52287c2613bd71d52bf0c155bc82a10f5f8d66122d4662eb27ae54b9c6afef
+~ -[_HKSPImmediateScheduler init] : sha256 182c0641a3260e4b1062d29af25a2651a608009ca61ec860ef8cb60e7d681197 -> 9ac747780f54a4eb11926ef12fd745ae7d12078ce61e7a124f5f7534dfb9112f
+~ -[_HKSPImmediateScheduler _performOnMainThreadIfNecessary:] : sha256 69a4b0845542993edfc95104b901c0b5c1f0f03b062993a4848303c48a404f9d -> 5b748320b31852a34f23ce2a4ae96608daaab89dafa89f797ee110c6174120b9
+~ -[_HKSPImmediateScheduler afterDelay:performBlock:] : sha256 f61c3667b38d43ca8dca5d001e1f63a883a4b5e417f7ffb6ede1471a7e200997 -> 60c718ff7aebfda0ae1b55ffa422dcfcc8f38e3df4bfffa5a878162d89bdf57d
+~ ___51-[_HKSPImmediateScheduler afterDelay:performBlock:]_block_invoke : sha256 838e784f0f888a52bbe31bfed7582bab12b8685f6211f726b387e95f96b6b519 -> 72a790fd479c78fd14e69bdb63fb63a5d8a2c1b9d8fab3613cd4029a8ab80540
+~ -[_HKSPImmediateScheduler performBlock:] : sha256 d749549ea71e95dfdee47f1ca1e662c2c87b8a78afd0b143ace08a508cd1403b -> aabb0ba5ca1883c3ae643d5a99a551640483d3f44a34d1227f45e0db79f216f1
+~ ___40-[_HKSPImmediateScheduler performBlock:]_block_invoke : sha256 230e0d701d33adcc72cc54c9d182584dc863f86e20c636d6671a39842406fd75 -> 8c60ebaa3ab8144bdb669c7a87a99fb749a5fa7c50f29608fb12c5d97f1db8ee
+~ -[_HKSPImmediateScheduler performCancelableBlock:] : sha256 98690ff4c5a1c73eb526af67cf8f18c216df139ca1823309a0322f7b3a1e99ab -> a8de9eddb6bb319e9f47998184b98d4268e887c1ede9a05c6217c0920b73ef41
+~ ___50-[_HKSPImmediateScheduler performCancelableBlock:]_block_invoke : sha256 63771733843dc4a03ec987be0db8a8757abb7385f4303b51cc98d2b7327d1b2e -> 1ab807f96f80a325ab0e85192af27a69a7009e4fababed284f5ca06a1377988e
+~ ___50-[_HKSPImmediateScheduler performCancelableBlock:]_block_invoke_2 : sha256 e1c4bc3c138ac7943e9cc850e90a4db423588cac9fbc6ab32e06e1c2bfc24efe -> 3dce84390684fb7425b3d22e24aea1f2b0d941a571c79e072550de0d35f16e57
+~ -[_HKSPImmediateScheduler .cxx_destruct] : sha256 09bd839e382e4f5666a5d413c39d90c8486c63dd9febefac841efd5795f56249 -> 90fcaa8ea4c3eec88bbcefebc1375f04092531d61582348c9cc76fbd487f703e
+~ _HKSPImmediateScheduler : sha256 66acd74359e5cc252531a92edf9adec1900c91cf6a10b32e280983795aa40019 -> 3947246f88a7d6caa4deac4289088bf08433cbf4be7cfa201f7a442e65e071ec
+~ _HKSPQueueBackedScheduler : sha256 ffea46c63df157ab4d103b33a82d741d9e725d3a364ce65245141068bbb07f85 -> 176e6fab98a00f0a2e827a1fac4abdbf90253784859eaa8bb20e7e307d42b987
+~ _HKSPSerialQueueBackedSchedulerWithQoS : sha256 0d193e91b921a61ab8d49d7e981bd7f457e699c7bec742fd5b035e97e4020073 -> 336811126792f913f62d20cade60b1eac29d28a0cdde8ff5e13b3ab235c6b33e
+~ _HKSPOrderPreservingScheduler : sha256 cc805d6fcd3655a0b5a2fa8fc79d110d943e3bcc51a92ca0671f463ff14c459b -> 649b773dc1bd88fab1458269775a9f5b2f5a2745739aa32f342e8b8642e5e894
+~ _HKSPDispatchQueueName : sha256 559ae1747debe5442df1eb0d1334030b0c7a1c895b7c5440dfb7a8434f074565 -> 6efbc6a045550ba72b5a3e92e6e24d5b087b95890722fd66bfbfc566f25d639b
+~ -[NSCalendar(HKSPSleep) hksp_orderedSleepDays] : sha256 ff78163293b8e732248f993caed9e9358ff0a489d7730b86c8233e372c457403 -> da94e6de7dfae575a27d5eaad192bf05bb601d616e4f74a91545bec1ad9a3739
+~ ___46-[NSCalendar(HKSPSleep) hksp_orderedSleepDays]_block_invoke : sha256 7348faf6dd31fab69e30ab39d6b3e88d7afd4357409575a7473a2362b80a03e7 -> 9c7a424ca70682ac7e0abda3d194369a64d264c43ff07f123a9eea63862875ec
+~ -[NSCalendar(HKSPSleep) hksp_orderedSleepWeekdaysForWeekdays:] : sha256 64242a8972183fe0f20f19a286d3b5ce84ae0605e3cfd12c8845dfe753919d48 -> 9f6f1b4eb181c2c407cc4f2d0614cc26c41ce61a97999ac0ab1788e1c81683a4
+~ ___62-[NSCalendar(HKSPSleep) hksp_orderedSleepWeekdaysForWeekdays:]_block_invoke : sha256 03a34ac82d4cc6d878f77d957f49dfc79f1b0e23c94edba588aa7a0a6dcc9087 -> 8e4565028d6d744508a5ce7c1ac12fefab245c42e5271ee8e7ca3c0d2b620d95
+~ -[NSCalendar(HKSPSleep) hksp_localizedGroupingStringForWeekdays:] : sha256 33ca54f99e7aae812e5de89d0b933c2e61b654a24bdc3fce14e4d815c40c0d02 -> 8e40997a1b31d3d8dda6a12b05a3b27e8aa8396f1a3abcc9ef2cf144520f4c79
+~ -[NSCalendar(HKSPSleep) hksp_dayPeriodForDate:locale:] : sha256 67fb1de9d8eefc2d9b374208430a0e20cbe189f7ac8752ba2aaf4469b5c94998 -> 802194e1fb78badf70f6d85faf9751aef17af35c60e3790c640a5da85bb510c4
+~ -[NSCalendar(HKSPSleep) hksp_dayPeriodForDate:locale:options:] : sha256 69c35b8117f5fc1fb3ee1404447c80394963e44a9a25115a93756f2558161e83 -> 3724b9c451525f740ee38edc85f52c0351b2e3e691d5fd26f9aa6af2bbe3eb3a
+~ -[NSCalendar(HKSPSleep) hksp_nextDateAfterDate:matchingComponents:] : sha256 543e8b9417f593857bbc94dfc80fbdb50fac3835a48798593d97f95424e0f0e0 -> e0c404f37710120df5f2f32006a85bae879433f61c33409e2168fd38e017ee59
+~ -[NSCalendar(HKSPSleep) hksp_previousDateBeforeDate:matchingComponents:] : sha256 3a8f44e8d9fd47e39ced04fa788b22ef29f86ee432a201db65d50e9b9d3be05e -> 0d9641d7fb53d78f4e256f2ccfb00eaaa9d0b94298c194066bf4fc1289b1a03d
+~ -[NSCalendar(HKSPSleep) _hksp_nextDateAfterDate:matchingComponents:backwards:] : sha256 955176e2d8aba147b95cb71c5cf63409902c8f718f5f39a1d6c8e0f0a110b40e -> 5ff63b88f186201a27b69b3136a9e207402ecc6c4387d01e8667c3e33d089216
+~ ___78-[NSCalendar(HKSPSleep) _hksp_nextDateAfterDate:matchingComponents:backwards:]_block_invoke : sha256 0c186c831f388811ebb23abe12c0c102dda08c869e8f2bfaa89952ff9080c666 -> cf276a6730aa1541587d08c51c3137332418389c826763405ce18922ebba4c95
+~ -[NSCalendar(HKSPSleep) hksp_nextDateAfterDate:matchingUnit:value:] : sha256 04d0f6a06787482477ad1a8d67c955dc1ce6531f6a147e127a8c2df748082afa -> 34b32cb6b675fda2bbc5e61c369e348334792dad00a816e6d594e894792280b3
+~ -[NSCalendar(HKSPSleep) hksp_previousDateBeforeDate:matchingUnit:value:] : sha256 a981e78931f0f0f9c49d461122a10cf3fc0a59fd02601dafec067dc4bfc414a0 -> 02429a890486e7627908440170dbd934789ce05a9836e667307a0f4d3da23fed
+~ -[NSCalendar(HKSPSleep) _hksp_nextDateAfterDate:matchingUnit:value:backwards:] : sha256 5d9dc762893584b60c91c24027b013a92891c85f4eb19d0d205da5668aa19d3a -> 6ec2a4967de6ef37754db07d28faf535e93eada122985615140ad2611df45955
+~ ___78-[NSCalendar(HKSPSleep) _hksp_nextDateAfterDate:matchingUnit:value:backwards:]_block_invoke : sha256 7f80087bb30bb461a51bde62fbbc62f9e28850eefb87057643fe3cbd24501e60 -> f16310f831a2a29e1af35db8be5c55f47818ed948655c5dc4ef3b66ac73ee901
+~ -[NSCalendar(HKSPSleep) _hksp_nextDateHelperAfterDate:nextDateBlock:] : sha256 3030927795920d53d6305da74c650d7a66fa968f76adc7b961dcdd690ce48d60 -> a6f90d6962f0d241fa023da4171d6431bee26ba1cb9fe8e0fe2dfe153123c4eb
+~ -[NSCalendar(HKSPSleep) hksp_dateRequiresSingularTimeString:] : sha256 fe526040e07b0f578bcefe8b6f401f5a5c2e95f71665fe38e6cf666b4533b6d1 -> b215b09b0e1be890701d56da767ce3a29dcb6c9858c3dd2bb8629eb1080cf9d6
+~ -[NSCalendar(HKSPSleep) hksp_firstNonWeekendDay] : sha256 2b733de1839d8db28e245b508566c262cb13e022054341e446de094ae16444eb -> 8129dba5598ebcd2255a4d944b98327c2d1177a69f3481c74b401538cedf6bf8
+~ ___48-[NSCalendar(HKSPSleep) hksp_firstNonWeekendDay]_block_invoke : sha256 62e490ac552f0de8f00d0fd2f9578835893c41c4b013f5259f291ebccdc21c6d -> f1a91912226f0ed20653b24b3a000214407cf01bc2d8abdecafc0f001a910db7
+~ -[NSCalendar(HKSPSleep) hksp_componentsByAddingTimeInterval:toComponents:] : sha256 4c76b5745919ea979a38fb9c73fcf343fb60929b48c31504b27c0fb2783e03e3 -> 963289bbefd43080ebe22806d3869f459b790fcb425835907ccb6c1d45741235
+~ -[NSCalendar(HKSPSleep) hksp_timeIntervalFromComponents:toComponents:] : sha256 a4bef3fc571793550738c7bcc00da897d819ca0046cd2c7707c583ba59f3555f -> 734d7aae5c992388559a46c5250f799f87e686213c2af46e936fe19a4e8035ff
+~ -[NSDate(HKSPSleep) hkspDescription] : sha256 7fb803a28a9509863416f4883747f151e5dcaa577595a5cea7924288683612aa -> cd6967345accf4b8fb250ba374ba7b7d92f31ce1c79cfc603841de9bca7bde04
+~ -[NSDate(HKSPSleep) hksp_isBeforeDate:] : sha256 047c8301af867f6d2f153cd3e4bd6e2ae6eb715aad23728848ee488fddf03f23 -> 207ab04c52c76cd2b6b6b951cb215209f9c8103a9077fb40054d1146bbcc515b
+~ -[NSDate(HKSPSleep) hksp_isBeforeOrSameAsDate:] : sha256 28252fead731b1b39867d674e84d129299cd16674a96f221b6bf1e74455374a5 -> 189b004c66585051ab148ba5a8488c60408074a7b747a427756125e1ce745129
+~ -[NSDate(HKSPSleep) hksp_isAfterDate:] : sha256 614155939b687dd7558ef644316d2bc526f68fdbe191f55e17107c38aef8f794 -> 197cb201c92a1b6a23bb0c83039e687ea202a42c830be2e78dbcd612c9f133db
+~ -[NSDate(HKSPSleep) hksp_isAfterOrSameAsDate:] : sha256 5a84d7c3e0b4365680416e97a626e975957f4520c2392dd845f018293316031e -> 42207efd0432f92ce94105c9bd6bac46ace399bffab6c0706cb282a381d16db0
+~ -[NSDate(HKSPSleep) hksp_dateNearestMatchingComponents:] : sha256 c448d734556559a4ff07ad6872b89b6d86965be56bc43de8ca5f3ff5bbb4bebe -> 4e055915a65390eabb5d391610d42ca339281512f1737a3b55bef851be7c6800
+~ +[NSDate(HKSPSleep) hksp_latestFromDates:] : sha256 c4ea4f286dad362dbfbe2f47460026081e4289a02bb8618ebd0d0a871f6303ec -> df6fd781e70293661566d8990507d24bccb22080119989e62ddef1e9be460577
+~ ___42+[NSDate(HKSPSleep) hksp_latestFromDates:]_block_invoke : sha256 7518af5561a6ce2ef4ed87c924f5ebd78e2a2aee9fb8f7886b15386d496b82ee -> 97a9f5fa004bd691fe3a6bab6f5490b254cbd0d0989ab8b13e159a9a2c78c48d
+~ +[NSDate(HKSPSleep) hksp_earliestFromDates:] : sha256 53a93c6172a2944bf359c3fb32d75f275cfa584376cf2dc9c3c7f1183d38adc1 -> 57ddd2bf7b2b8201531f81ecd3a5bd64680b30b3084e6a471e91e0eec88f5cb6
+~ ___44+[NSDate(HKSPSleep) hksp_earliestFromDates:]_block_invoke : sha256 2aeab31174335fa2c8eba798e4309be6e17a36c59bee79cf10d1e86b6c8f44bb -> b0d3af42683a765e88d9f520fabc969c83f11ff606fd38261328fe02ad0c8638
+~ +[NSDate(HKSPSleep) hksp_closestFromDates:toDate:] : sha256 f566d8cdca954234f361823a8adb40a43f0008a9d3181ca88c83b1b4dc79d0c2 -> 1ad93dead618d30f31e5c185d79b251a9634020444d0bf174acad3a87fffb300
+~ ___50+[NSDate(HKSPSleep) hksp_closestFromDates:toDate:]_block_invoke : sha256 64c8bcf6e4e152bc572844c394351bae00e0db54bc02aa0815da0f37b1ea804a -> 88b7cbbba93dfc1c40324d5e03bbdccef50d47664e975e8c24ec7d935d41d27c
+~ ___copy_helper_block_e8_32s40r48r : sha256 08e327d2d3b37a4d68b0aefc09c347dbce41e36475f97e6b21f328c7a9c6cf79 -> 00623353b891cf72979c261c08f812b5ea4224529a84c425f1ff413a99c607c5
+~ ___destroy_helper_block_e8_32s40r48r : sha256 f7c82a87e04156f2684198937e3d5cce976e6ae106b0fb1edecb85eedc436068 -> 47a7a2de33419d6e6e0cadcae898543169b15479c2e25c8dd8ee1bd50e8fbb77
+~ -[NSDate(HKSPSleep) hksp_isWithinInterval:ofDate:] : sha256 83f692158f10a2519d58dcdd0ee9a6e18a5eb14de5e45f656d3caa4d7036c717 -> 792d2a04f05d8d881006b9a2659f3949f774729fe1564a8402ac9fd046dde316
+~ -[NSDateComponents(HKSPSleep) hksp_description] : sha256 e9a08c4ce9960be1634a2f37d97224c7667aa819e0607f541d0d13349eb80418 -> 8b6df074fe30842d1152028f66e18020a3c3403306e5b13b58c4dcc7cc19b2af
+~ -[NSDateComponents(HKSPSleep) hksp_compareHourAndMinuteComponents:] : sha256 918bc78d11b3555b27cfc9343b5d8c7eedceb1cb58b44cb1444c438a3c114e72 -> 39e4485348b4351345f00d3f61615aa910eac9e83e7077431700ef942b45e5e2
+~ -[NSDateComponents(HKSPSleep) hksp_timeComponents] : sha256 7a971c8b6c2c205c932d9e7d96f0f32ed935abc89415b2ed2fabb3827e8f14e2 -> 7c51bbbbdc2f1cbd91dc500ea0e0b5c6820e6279eb47fbbd5ac31d2d58118920
+~ -[NSDateFormatter(HKSPSleep) hksp_timeStringFromDate:designatorString:designatorIsBeforeTime:] : sha256 5739b947c4ebf3da60181ba9759676861b5fd67aa3fb6eab29bac887515c525e -> 587d6f50fcae5a7c85c23c622e6bf29302897ad8f99817dfff03a4493cbe85c5
+~ ___94-[NSDateFormatter(HKSPSleep) hksp_timeStringFromDate:designatorString:designatorIsBeforeTime:]_block_invoke : sha256 06610a1d8097e013ffc46ac71603f75f0975a60bbcf6dd16ec518b28d679945b -> 9b3fad598c08643cc93d8437f83578b2788200a7ebb0c4c53850e8285eab3628
+~ -[NSDateInterval(HKSPSleep) hksp_containsDate:] : sha256 5f1f7844cd42aabf2096679fdc3a0d236756c3abf5c04d823f645051f46dbb56 -> 5192b2ed733157961c10ef481ae0fc957429bb585aaf7dd39f6367f1bc4d0ce4
+~ -[NSDateInterval(HKSPSleep) hksp_containsDate:searchOptions:] : sha256 127567e0da169abd11d0bbd395e96304928b71714f5ba15d65931d5720745c9b -> e63a894a8455ccfb537584f735a5e1557bb792465691de81bfeee38799e3d901
+~ -[NSDateInterval(HKSPSleep) hksp_overlapsInterval:] : sha256 597248425fff661f486af54081e7aa982088ab6a742b0e7915a3069d680febe3 -> ae03f2eb1973c71c5cc6ca7191b8296007874f569dbfe906d0f4560882ea8793
+~ -[NSDateInterval(HKSPSleep) hksp_overlapsInterval:searchOptions:] : sha256 48f217b511b36997c4ad43ae3b9b5164ae4e8e3883d9957d4f8676d3037645b8 -> 92c1d5127c84723bb2214303cc2ba6b6f6d5b2615ff0fe0ad6b80cdf2ed58611
+~ -[NSDateInterval(HKSPSleep) hkspDescription] : sha256 a3335f211bdd0391d16f13c7a371754c1e985a8efba8d0ed9f7f68c666efb32e -> 2c84e8f1766a08bc00c5c2d7b66e12ee74370306e71b1d7c5bf409e6dadf5088
+~ -[NSDictionary(HKSPSleep) hksp_dictionaryByFilteringKeys:] : sha256 c04f5a805b722030fa08ab015c8d1dea617b631d3f80f9e88fd4030f52971e7f -> c6119d23965556ecadba70e866ef87c1134393396194bda7156913e52b562138
+~ ___58-[NSDictionary(HKSPSleep) hksp_dictionaryByFilteringKeys:]_block_invoke : sha256 e051f6050b7edacce9ebc09ed73e773e2181bc0b81c0381ce32f3aa17ed5113d -> 687a68cde4a09cfdb6c607bed213c4cca1502846c5606f644cdc64653e00eae7
+~ -[NSDictionary(HKSPSleep) hksp_computeDiffFromDictionary:] : sha256 a1844985d1cab67d92c5ff045a4da74b38047f4595c0ec211a762f0542a3f592 -> 52bafc7ecf6ecde6510effe124e4020c2dd5dd2d8f3efcc612c6f6b4a93594ad
+~ -[NSDictionary(HKSPSleep) hksp_computeDiffFromDictionary:keysToDiff:] : sha256 1fabe4b4de3de6541b36dd8262c106f3d2c3b235e9e4a8c566a49c0e0f0f9cea -> 07534b895076ae64dfe619eabb19c62a75ff2da423a7658c1969e0ce5617856d
+~ -[NSDictionary(HKSPSleep) hksp_hash] : sha256 790716a5fef0c46abe5704b9c0b0472d647390507defed8b6a279a28716f304c -> 37ca1cbb8c31614277c720902fd4bf2ec6476a2a9372aa72adde7c85f297794c
+~ ___36-[NSDictionary(HKSPSleep) hksp_hash]_block_invoke : sha256 f2b973b060b5ae72b12fba5935bf712d4d46b061fd57e3b04d4ec3fed8d17307 -> fcdf87d33ee747510e470cf7340a419294384c98cb5bbc7901a0451e727044c9
+~ -[HKSPDictionaryDiff initWithOriginalDictionary:updatedDictionary:keysToDiff:] : sha256 f6be00846d5339e0376986d4e61f34c04c99eba9f0d685cf89f84ae90e2589f3 -> c095e65ff4bcc71bd7a31436ae26e8cacbee5a9a96c04ae596a732c54b653ee9
+~ ___78-[HKSPDictionaryDiff initWithOriginalDictionary:updatedDictionary:keysToDiff:]_block_invoke : sha256 f933a426270320657522d102ec982939d172aa873bd9a726b5a4b16423bbe99f -> 28e26bcec863d14cb3f2928c1e7119ad3693aa246b2f21ab598d3e3cfa21aff8
+~ __78-[HKSPDictionaryDiff initWithOriginalDictionary:updatedDictionary:keysToDiff:]_block_invoke.414 -> __78-[HKSPDictionaryDiff initWithOriginalDictionary:updatedDictionary:keysToDiff:]_block_invoke.420 : sha256 1c7372df8c2e8000b42a8eb3eb8117b089c99b73f67a040e9cfc7ebceb3229c2 -> 63e0c71047398874f573e681eb351dfadfc60bf16a9635875c5e95c05218c7e1
+~ -[HKSPDictionaryDiff equalDictionaries] : sha256 1b16b2b404c70c10ad716ace48a5df27c5f328a95e1e86d88e6fca9ac1728571 -> db7c84ea6541b5ac5b0b0e3046805316406566400edd4132da5e9946ce3ba56e
+~ -[HKSPDictionaryDiff .cxx_destruct] : sha256 55a65bd664845b0f74b29f674f17c197bdb0974951794a7ff899d87599923a10 -> adcfea5d469c9948c35087c76be25ba3eb069d09e5904cc1b33d88d7549ff25b
+~ -[NSError(HKSPSleep) hksp_isHealthDatabaseInaccessibleError] : sha256 c76a0fa34ce00c10fc2d9d26a39ffa55b9c26f0b82fd3b84cf393811aac03318 -> 4ac13b88e44cba55c95bf40431b627f598cabdaf7214d160b48d0259b5a3fe50
+~ _HKSPLogCategoryForCategory : sha256 ea2169050ec461a70b6f4116cddaf47ebe4692e7e81ace7d2e4dd7f41d90a284 -> e29978dce29926f6069eff5cb96a54d1ac9c209b2a3cefe313e7a90a49c719f4
+~ _HKSPLogForCategory : sha256 bba6646cea6699c5fecd1b5b55b6660ca0bebda7ab5d6be25eab29ea16898448 -> 003585bf59292f07d6a783989997d0434381e4758e85d5215ad0433e35bacafe
+~ ___HKSPLogForCategory_block_invoke : 108 -> 104
+~ -[HKSPProvenanceInfo initWithSource:presentation:] : sha256 871597c7d57cafa8fb26ba50b76f68b075e1200f0868fe3c491b0374caa17ec9 -> 2818364058666b9227011dc47c87c128ff8e5241b7d8b74c92d202d11eb1308b
+~ +[HKSPProvenanceInfo unknownProvenance] : sha256 fc4387b4f28dca83a3b0a6eac2005ef74130c2082708ec57fdbcc6db28ba2192 -> 784cc731fa77b5520c8e8be38ffe8139be1062c5d9e7a0ed0deb9693aaf77f5a
+~ -[HKSPProvenanceInfo description] : sha256 2a450592299d6ef33c7264871db83d6b0dcd3adbf976c17ce4ae42174c2c87a2 -> 66386fafabee36c875fb967569d0337d3663116ab483221b44db008648508af4
+~ -[HKSPProvenanceInfo isEqualToProvenanceInfo:] : sha256 c8489e9bf67c8357eeb1a5121b0f3a6bb939eb331aa99c131e3016b7355548a3 -> 27cae1c0af3efc3ef2ccf7706662123da72930a791f93b3ac7a21a8d5c7e7ef0
+~ -[HKSPProvenanceInfo isEqual:] : sha256 758042460aed16ddee92f603b2f1ce8d6320a9a6942f1d2a9809ea6f9bd385ab -> 5d4be106f7b9720d3e50c21bed985fe15cd923032131ad0bc84c7243b48ab652
+~ -[HKSPProvenanceInfo hash] : sha256 5a0b979d75ac5d8daf2e6ece55e3d62e969a1ff47bb0206df44edfcb704f1dbc -> c012e224639f958d4e52a6559d95e0b8a87c0c7260310ea63a27a3b7050da94f
+~ -[HKSPProvenanceInfo .cxx_destruct] : sha256 b2b7eef0e5116177b218beb3e76fe5de2d656b03ab7390d83d77a86be17b56fd -> e85c26b622b856381660ea01113f701d554cfb78615133e3e0b640ac7d9a3024
+~ -[HKSPSleepEventRecord(HKSPOnboarding) isEqualToOnboardingModel:] : sha256 015c9096c8de32b6f6364a3a6e3c4ae8f1741b42b4a799115b186cb6f499a153 -> 7a67b2bbc7f7828a059609959cc74ec97f0d72cb0486ef4f842b871edfca91a4
+~ -[HKSPAccumulator initWithInterval:updateBlock:] : sha256 a7688d92b8410bafb1d7d94c5181189327a0c7faedc0075e068beeb904221d8e -> 7b97839450b8958111a221c47790976c55ec5fb01797a1d1ee48c7b5902c577a
+~ -[HKSPAccumulator initWithInterval:updateBlock:scheduler:] : sha256 a4931ce793b56a728e70c04548726185eb7ae116292e3fa0a1b1bdde37cfd62c -> 833099d8ac66e263321e839ac2cd3f4197f2478bf99c8568b90ec92fa4076cdf
+~ -[HKSPAccumulator initWithInterval:updateBlock:scheduler:mutexGenerator:] : sha256 b698802ecbd986e32dd53715011fd2213c96b7dff90e9c4bd4c99e03b7aac970 -> 4d5262cb1cbeef8d18d090bce026d6fdd20712be0a2e4e81b562122e13c12da4
+~ ___73-[HKSPAccumulator initWithInterval:updateBlock:scheduler:mutexGenerator:]_block_invoke : sha256 bc2a1ec5b262371392878677e45d13e4c61219dac78655ddda014898f9b3ef25 -> dade6a2c987e284c55e678d5b399be25c2eba3141516ba413c969d3da370ee96
+~ -[HKSPAccumulator accumulateValue:] : sha256 40f0108a4a20757af778ec951fa22d58d18f324f7d1ed14ff7f757e71b087eb3 -> 9e63a71dcab4e5d8a1c0e293ee1f73c0127f9f1235dae6a1f07b14f4ebb78f71
+~ -[HKSPAccumulator accumulateValues:] : sha256 ae70f4001a436be11a416abfac1eaa20e03f3f6d765ad7f0b3dd3f5e9041a021 -> 318b9864b5b9b986d88843788fbc69eab4c4a4d0a14e7a50871b6ec4d047fadc
+~ ___36-[HKSPAccumulator accumulateValues:]_block_invoke : sha256 41c0111cdf90d25e4cec03e9ada09881e54841a47f9d761f0617498687f92eab -> a897c2868f1bcb42c1c3064e0f38da21c61de99af263a30d800fbcd2a6b483b7
+~ -[HKSPAccumulator .cxx_destruct] : sha256 7f248f91636010ced70ea9b147187c55e02465c9cccca3b51f62fa67d58739a9 -> c1a2e12a20391d5dce828824485000c9d06e111c74eb34770af292b3f12a113e
+~ -[HKSPLimitingScheduler initWithScheduler:] : sha256 b352388a6ec83ebc62014800bca1526898439a210a7fed93dcbde66be444896f -> f4e30baf765178a390baa90925a5ab2c6b64756fb8c2cbb7eb03d850b130a5f8
+~ -[HKSPLimitingScheduler initWithScheduler:mutexGenerator:] : sha256 1d083619af3ddb7e3f982c78055468d447afdea2d63b255e4708efaccadf7ec9 -> 2be8eea8d8f4fe7d186e38e7fb8d92fec1fe67a7a7d54293719f14b6dd64189c
+~ -[HKSPLimitingScheduler initWithScheduler:mutexGenerator:ignoreDelays:] : sha256 be49d33b68f5a0ae16031b1e8da36523b97bed2362f4f8b0249a43f74e133fe8 -> e1b83d6a31ce2d025e154468ac61b64639cfdeda3c474b963632bfef6a81e9df
+~ -[HKSPLimitingScheduler _withLock:] : sha256 b52bb7dcc4fe3045725e1809839b2fd5301639aa5dec6024ea3778e6c0cf27f8 -> 80b72416ed7793388b6108e9f85323749559a047dc9cde5fb6e7faf7579f2dbc
+~ -[HKSPLimitingScheduler scheduleTask:] : sha256 d892fecca874738707b2e2b4cb7647646c0bdad4677f6bd28b07e9e7deaba539 -> 2b2f4da0d4b14d87d91652abdf02c98c91e7dc56a5a1ed32059dabc10cbb4bfc
+~ ___38-[HKSPLimitingScheduler scheduleTask:]_block_invoke : sha256 59229ce74e5c9ec85d89c3864fa7a4b0152143ab1056b0851ef943d9b6ab1f0a -> 9a194a17fabf20c17e80a06701aa87d706f3ea8cc495415b4b84da72280137f5
+~ __38-[HKSPLimitingScheduler scheduleTask:]_block_invoke.362 -> __38-[HKSPLimitingScheduler scheduleTask:]_block_invoke.368 : sha256 a98c87bc3ba3770c8d76cdcbd142e69a7cb4996adbbded8e02307692406ab3c7 -> da60eabf281720e5dc56c0a2b9a9387ce5c7c502174a887814c80b0b96425ca2
+~ __38-[HKSPLimitingScheduler scheduleTask:]_block_invoke.363 -> __38-[HKSPLimitingScheduler scheduleTask:]_block_invoke.369 : sha256 b93a02ea3b5301e313a343bb07e7c271f7764458f93b112f559aeb5810de88f3 -> 4f6da48aab82cf6817a06bf4f5073c7010ef3f20f999e2dfb3b08b8364c10999
+~ -[HKSPLimitingScheduler .cxx_destruct] : sha256 5d9c126a16ca5b8b4f357fe13938c48b45ec3010fbfddb987b46b3ac796a76fa -> 41aefb46d09458a92f6e9852ac03dd0acd8a5c12f250efd587366d4575d6c501
+~ -[_HKSPUnfairLock init] : sha256 ee17e9d1c16c619eb1d84a9a9882d5f70aafe7c99ad1c3736235107e432b65dd -> 6ae1efdc92332190411c990b83787a74cbc0cfd275901c50f3ce431bdc75847b
+~ -[_HKSPUnfairLock performBlock:] : sha256 a70c5a09b3b90643cff3a251d8798c5f8576cc9546249610176dcf7ed8e84287 -> 8686128d212e14091a42020287933e99feccd832bc545674cf352afaa03af976
+~ -[_HKSPUnfairLock performBlockAssertingLocked:] : sha256 3f963c63b98bb8a4457a802892ab2ada167feca10e20531740e162176754133d -> 7d26e5307df23d86e57018feb21aee70f71f0b722b0cae962e4b96bf9634f4b5
+~ -[_HKSPSynchronized performBlock:] : sha256 4464a52d8a4e38ccca20d2b794a345abe76992410acbebbc34578a61f6fc2747 -> f705869e7bdafb3c0429f6031f74fd9f4bc16632e4334c2862629ceee5a7e98c
+~ _HKSPUnfairLock : sha256 62d1ff5fe6f2c484c156bd8374f6858b76748800539f51045bca023bba6b5928 -> ca81ab79b37db4227a5311db529c9021f505f67f31c4d541d37824fd870119e7
+~ _HKSPSynchronized : sha256 4ec0eaef07580714457ad1ade31d7edaa8f97de84c8b4ef95f90f55c0c53170a -> c71a2bc703ea9aee5ed3320e969d2cd5ac0e726d80a022c817054bb046618ed4
+~ _HKSPNoop : sha256 6d53d4c80468cdd0763ed810a99e22be9d3eea1d3bd41846c62159140e690223 -> 10970bff9d2fe12f3c976dcb2a8c9c51e20db8e653378edc0ad2a74655432b54
+~ _HKSPUnfairLockGenerator : sha256 c07d876cd98770f01a2a7d5cc61caa2f8c5d7ef6ee1c12d8bcff06b5d3b5d4b0 -> 3a46f5ef0d0fe8c5f257625f2c06b2dab9d3333c7396d2c8c4d323516b21e628
+~ ___HKSPUnfairLockGenerator_block_invoke : sha256 edc26e7baa12789ee9a078784b2a72a3bf23ae272879b5474c2c1ce23c0f3a46 -> 1d449881b4f3ac54d8d6a66304bfaa29998dd697c847c8b19ad43c4ec62870b5
+~ _HKSPSynchronizedGenerator : sha256 d51a4ad10bd68a143f9d81e99306d3b3fe2ae61da223cb020f1b4978a6c51162 -> 5775805d6d3c3d2df8eaa7fddf6f0ff0a6c596b7a6c3754293ad7f2bb2892f11
+~ ___HKSPSynchronizedGenerator_block_invoke : sha256 586fa5c8ebbe12b98b8ae62d0e0f76a78890691b95bffed61bd7f65a4d534a8a -> e8abe1758255df180dc67261c71334036683c5358b4e084eb2ecb19b85baeca5
+~ _HKSPNoopGenerator : sha256 824b2a4d6255ad9a0a05590caeb484bf1ae81b4efed1b803fe9a31ef9843a811 -> 72330ed3e6eb9a4ba4485533c199df1e601f6bc493924af666fd4ced662250cb
+~ ___HKSPNoopGenerator_block_invoke : sha256 520c120b31c6596fc3a8fc20a02d0985392c9388c5e49bfce744b2f0c7a18a8f -> 9a62e335d055335e135d750b7438f35e62ddf97c59dae72ad174a6cefdfce8a4
+~ -[HKSPTask initWithBlock:] : sha256 3be15aba5e30c5d13fe36138b7d65c385ab6e0c3516f7a3e8208ab3742c3a430 -> e98cea6a20a4482033a8967347f82986c6ef8f0628a9bb37710ab3618711387c
+~ -[HKSPTask initWithIdentifier:block:] : sha256 568c6eaa4f10d55d10bd163693907930566081a6e4d6b4e94698552bf8958b33 -> 7c639cef39e64bbf25addf8049600184e43dadd2fe1bc5446c80c042ca2aa870
+~ -[HKSPTask initWithBlock:delay:] : sha256 9780e6705c8172f24e27ffd2f179917c14f6f650a053fd6376dd9b0ac24e6f1e -> 4c0a53d72d0afa705aa5441694ec7412c7b504fd33856f5d71ed221eebe1a18d
+~ -[HKSPTask initWithIdentifier:block:delay:] : sha256 05dcd07033049da8cd2fcb695dc0b28433d7140ee2d44da2ce220442fa977bdd -> 817073839cba9d616efdbcb1d51fc72993d6a4ed799befdb5c9920e8a174bba2
+~ ___43-[HKSPTask initWithIdentifier:block:delay:]_block_invoke : sha256 a161bdf814e1bd64918b43f92f157d3f7cf96a91f980e3ca9ce3f0676d95fe83 -> b30fcf7f3e7cd1aff3dc085e04375b29a3f2c0ec6bb202661f989e715e3f417e
+~ -[HKSPTask isCanceled] : sha256 6e4a10843ae83cab9870b41e78dbb0bd2065f98f9bc55b87fa85c82a38da6d43 -> 698c1f175239f603c0036d12609cb9861eb2d86b757240dfa480693994eca2c8
+~ -[HKSPTask cancel] : sha256 ed0e363a5fa7e8c6f06d5479f703668d7c99e2d08af1f9c030ef577cb144e4e2 -> 6ad26e68e314162e018867dacdb18fad16f3528b39bdbe50736a5fd2ea5636a8
+~ -[HKSPTask .cxx_destruct] : sha256 2c5161ff63e3780f2aa8874fbc91afca1d69b956d0690145d67de85104886f87 -> ae5b391fb4815d2d40789b9dab46f173c76a666caffb18dca3d7ef38de593f54
+~ -[HKSPThrottler initWithInterval:executeBlock:] : sha256 47dc48b7100607ef27e9cb595d949f357469a885b42ee71fc87728cf149e3899 -> de77984e2684301bac1b9c705b22213692553986f45ba290f94d2d3d48609cbb
+~ -[HKSPThrottler initWithInterval:executeBlock:scheduler:] : sha256 4b7a49fd48900e546e65ae22f2950c3dd6ed800d67e84ffed448cf59354a447c -> 9a36207143e36da4d1f0acd8d39ce636ace2725fe2a0af0495e699fd1515b7ff
+~ -[HKSPThrottler initWithInterval:executeBlock:scheduler:mutexGenerator:] : sha256 1ff3e56c845c3c714c3297888e54b0d40c1d6212ae3424fe81d6fc6a4bff03b9 -> 9d4848ddeeaaeec6fdc4a150ce010dfd44ea180e04784a5ba50faa55e9c15c99
+~ -[HKSPThrottler execute] : sha256 69c731cccd1b0a05a7ce84028ed49cadff63d8661df2446270203b45f2e15e28 -> 54a476e3da4d7f61d4dc23ab82975b4c5a22b2f8a86b617319831217805e130b
+~ -[HKSPThrottler .cxx_destruct] : sha256 53eb9f1f9b1205105a9dd9b5cd3f68f2668985ee926360bd1c1a8af3e97ea8ef -> cf928f3b41d994de20c1e4c8795d66ef52fc9bd83a0194580bb1de59688ddff9
+~ -[DNDModeConfiguration(Sleep) hksp_configurationState] : sha256 240ba5240f866de6ec3d61b512b203f178d93b386623d57ae9b1aea79762b269 -> fda5211e699b9e166158e58c697d7d55b29e08973bb5cef7931148767de2f4bd
+~ -[DNDModeConfiguration(Sleep) hksp_configurationWithConfigurationState:] : sha256 4fd7d59a0b64882835fc350e4cdbd7bcbcccb1a9f537248b2b63256b668e3649 -> 015ca087fb2cef21215a064994c47b2e48d9907307a8ddbe560e6efe37f61535
+~ +[HKSPDNDConfigurationService sleepFocusConfigurationService] : sha256 d703cfcde904d24d9e790bfceb99f18442bb580cb6befd2f0d1b683aeaa4d619 -> a968c1c7b1da23dea97b2b1dd5d902c4b22ad5fff22baa965d33a0991e49520e
+~ +[HKSPDNDConfigurationService sleepFocusConfigurationServiceWithOptions:] : sha256 c3a18b309381be44a2c10562d9f521d5d0a81cbead5e2d5e058195beababaae6 -> cf0ae595d485d84ebb214ad38ac050b28f04890e146194ebd9240c3e9219300b
+~ -[HKSPDNDConfigurationService initWithModeConfigService:globalConfigService:] : sha256 cc23f567c6c2c42f9f4705139cff04ac04cfd1f923248176e7969f2bf7508130 -> 733f0a6964db173432070bfa8955d7d7aba67155fd049315130f39d9ff98c2fc
+~ -[HKSPDNDConfigurationService initWithModeConfigService:globalConfigService:options:] : sha256 be7270adb1907afbe06c3ed6e4f945dc0051ef063d7382a9814dc9c0645d47e4 -> 13f32a028352dc8702731885ae2d0dd030855f3ef9b3640ea5266a71b20d9ba7
+~ -[HKSPDNDConfigurationService _withLock:] : sha256 728cb7fe6c10e3a173ea543a5d8c27c3eb1fc7c515275b9e9baa1a7afac3ac6e -> 178ba492b5b6f9bce5e6f9165e9e8af28a2183b1cabdf2e7c90c0b9feedb982b
+~ -[HKSPDNDConfigurationService _loadCachedSleepFocusConfig] : sha256 5b8f41aa15a4d9c6d477d6c548dafd16d3b652dc1898ccbcac9d8290e12935b7 -> d7944ffacf6fd30c9748e6a43f627636a41811b7c7db0ab5847ad690f085292f
+~ ___58-[HKSPDNDConfigurationService _loadCachedSleepFocusConfig]_block_invoke : sha256 caab3190d3ec4ea38d2f9e486efdf3f96e0c101506646ab3a60123706cb9423c -> b4905cb85f8fd06ff469ff15b7c5f4ac62722a053d94ff650ab2e8780c25572a
+~ -[HKSPDNDConfigurationService _checkForUpdatedSleepFocusConfig] : sha256 e557ee48d06b34c6f1de504038c3d663335d1dea15792a779596efe49d9223e4 -> ce4f85467d69c85361befa125fd2e1e215e5387147723110668a5c2fd4317cfb
+~ ___63-[HKSPDNDConfigurationService _checkForUpdatedSleepFocusConfig]_block_invoke : sha256 a5acf470a55ace745802c3ca38803aeedf2a466a2e4c3c628f0b12a4f73e2bc9 -> bbbab894b13991906ce913da755abe84cdac0f8542d3d41c6553d9c7fbfb93c3
+~ -[HKSPDNDConfigurationService _fetchUpdatedSleepFocusConfigurationWithCompletion:] : sha256 d25786a8664981682aaf79688314ed9aedf54e759b477610f4b2b36e417a7649 -> 198e3000dfd734671976371fa339632d9d2625d1383c0f949f39e47db82d8d0c
+~ ___82-[HKSPDNDConfigurationService _fetchUpdatedSleepFocusConfigurationWithCompletion:]_block_invoke : sha256 27476bb54fdc9a64f2bea7c6c3f0dab1a28b73bbe3b0262d9a190c93e9056825 -> 5370e993eb27bf530c7c24ed98a7ed009ac95eb4f2e1b94ac550bd8fc3bb8b0a
+~ -[HKSPDNDConfigurationService _updateCachedSleepFocusConfig:] : sha256 f449f25e2fac5fbf37c321ef897c06de4a4c40b35320324cd250d8712c01e6f8 -> e8d4df739023f632952d617dbc7131e90d990ec0f6a74a5608d1b8adb1d23061
+~ ___61-[HKSPDNDConfigurationService _updateCachedSleepFocusConfig:]_block_invoke : sha256 a112a44ea5787082641c5912397aeb8ebe1ec7806a68c2d689cf199f64b19e32 -> 95c90aa1295f910aae1ab838981fca43d34d38344d252afadda475a31fb4fa78
+~ -[HKSPDNDConfigurationService updateCachedUUID:state:] : sha256 a866b98e882518c8d169b3f7d1655232b14ffd14b9487e7e7b9690adc85ef703 -> 0948e21777ede6cbb52bd2201f298438495f9df680c05b5a78285a37732c8ab4
+~ ___54-[HKSPDNDConfigurationService updateCachedUUID:state:]_block_invoke : sha256 f9e22a5bf0e7674c0ce6bec71c269c4382d846b8ee01b93bd54b7164fda0ec99 -> cf0e64e60f66553b72e4f551f8f49bcd7899001bd7900dad5b0c8ebf08852bcd
+~ -[HKSPDNDConfigurationService updateCachedMirrorsFocusModes:] : sha256 957220801b8911c402c171850ede636f85a1b7e6b75daf6cb4e40a934a3d44b4 -> cc6be1c2dbaa2ca89b1f8fa06d092070f8fc6115a27900907a4dc819d019c4b3
+~ ___61-[HKSPDNDConfigurationService updateCachedMirrorsFocusModes:]_block_invoke : sha256 18419c76a6060fc17f536ce4366e0d1ec472212aa68452edb3cf3634b8beba62 -> 1d2932a0dbf90178a9accb72f98fa7b11f890f89565d7d024633abd01b465a2c
+~ -[HKSPDNDConfigurationService _updateCacheAndNotifyWithBlock:] : sha256 1b026a65c74f45a21ab9c401fb186070064179e1aa37a26dfb481eba3b425fcb -> 58c6052f64cbd132fd64c22d639c4332169cdd407cb820e31c60e05a42365513
+~ ___62-[HKSPDNDConfigurationService _updateCacheAndNotifyWithBlock:]_block_invoke : sha256 b45bad3aac33fa2dd62a0cc2e077c564ceeab02fbffaf17bc0d3642d76084396 -> 73e5d8ac303f4503e18d200a8e44e44d96b347fcb2b4bd28404dee793ae77c6f
+~ ___copy_helper_block_e8_32s40b48r : sha256 2d95acef549e986a93e067424e18ce5b6ab1c170ded64b23f4031901083f3394 -> 4d95fb00617e157627bc7dc5119b77b3921e39e83b5bce788bfe70b54e710d2d
+~ -[HKSPDNDConfigurationService _lock_updateCachedSleepFocusConfig:updatedSleepFocusConfig:] : sha256 66c2968742b2388e63def1b00c5365db4d79f4bd783105c96eeccedb4a4ac4e4 -> e49ab0354b2553df56d24bc67a3bf6a7d0a76912767486d6e3f0970f421b8673
+~ ___60-[HKSPDNDConfigurationService cachedSleepFocusConfiguration]_block_invoke : sha256 e2a4b53e0aa425ff9b7b64bad4a2b058a80378310874f6e1512520e42a5a749e -> 2ab7d3ebddfe72d4bc3f9bd10bd4971f62eab24262db635767e08956cab8c331
+~ -[HKSPDNDConfigurationService delegate] : sha256 6001a19579b6065ed4c31b904f64b79e5c97a59a278cad67045c9053a8637ae2 -> 8eacda333e910555b6b152964b701da12583d233e26df327d8e83d726fcdea56
+~ -[HKSPDNDConfigurationService setDelegate:] : sha256 a66c3ca7f73f314050df01ebe8f6eba7cd1b5db7944be8f3d4c1f61746159dde -> 33cd4b36d8c68062434b416c755a996bd4631497c9d784133c59e867b3fd4044
+~ -[HKSPDNDConfigurationService _readGlobalConfig] : sha256 d8dd9de78793120dfad61e5b380f7891e9faef026aba8071ed26b38ca1f4682b -> 019ef696fbafbe9407a8ea6bdee2b394970800ff339c40cc0d83cb9f7c32ddb2
+~ -[HKSPDNDConfigurationService hasSleepFocusMode:] : sha256 900be9bf137bf3014a3b8112aad2bd3db66fd349a793713d6488e463e0cb594c -> cc51fd8cd34e640b145a6334528c5dff57e6daa2fb93fd60bb76b89bc1a68ae8
+~ -[HKSPDNDConfigurationService sleepFocusConfiguration:] : sha256 5b29a5a0c43e2bad79e42dff9dc15e05da138286dbc079ff84cbab5478e428a9 -> 8b59fdba335d3404c0311b9343a9faf3267dbf9e0494f4d0f4e50349d7fb1761
+~ -[HKSPDNDConfigurationService _sleepFocusConfiguration:checkCache:] : sha256 d393e3ab2a2bc3c99e76a9a8f552f7b72868d7d64354cf1e71c8c29eaf5f8901 -> 8385f0680919dd58cdc4e246355ce82a605b28665badee3159fb6ef432ed33fa
+~ -[HKSPDNDConfigurationService _uncachedModeConfiguration:] : sha256 0fa684cb0367f6f9f9d2979a9327e30e86d8fd7b85b7e13c15d4108b7aa420c1 -> 115da2ba10378e90408d599b19dfd626b9c53d6ce32b77f77ebcd785e46f61f7
+~ -[HKSPDNDConfigurationService _uncachedMirrorsFocusModes:] : sha256 88fb8994a04747e1dc78f660a75ba27eb471645724e653966e45175d694ae06e -> 5eb9f24cff97525df2ee6202508266679c0cf7ba008e46efb8e82d4ff2f82c69
+~ -[HKSPDNDConfigurationService invalidate] : sha256 da5a3bc46b38e91325279c74e767f56d6b8437e1d0e4fd8d8c4c1c9204c1557d -> ac9c9e217536a3356e984b66e26b2b4b50001c2a39a83d99f5d2000a0979580b
+~ -[HKSPDNDConfigurationService modeConfigurationService:didReceiveAvailableModesUpdate:] : sha256 5af6bb7bb329e3b15c8d35c450e344351754a04a6e8859cecaacfa9346aa4bc0 -> 036d3eddfaf48410a5c87c1e2c2b939e2839532bac1d50f3e02f268101ee2e75
+~ ___87-[HKSPDNDConfigurationService modeConfigurationService:didReceiveAvailableModesUpdate:]_block_invoke : sha256 670e2c977511d833806ff842102a895f49d509dea504f21462370da6419f71fd -> 0931eed925eb5bdebd46f34d8e570ea866fef9e13537d9e4c9e1f4c35a2f8956
+~ __87-[HKSPDNDConfigurationService modeConfigurationService:didReceiveAvailableModesUpdate:]_block_invoke.381 -> __87-[HKSPDNDConfigurationService modeConfigurationService:didReceiveAvailableModesUpdate:]_block_invoke.387 : sha256 c425c116d0059ccee057d61f2ce7747abe1c130c24459b64729b47fc8b9ed665 -> f0a21f27e97f6826289ade45c94bd77362360ac0bf87f0bf9bcbd395d91d74f5
+~ ___87-[HKSPDNDConfigurationService modeConfigurationService:didReceiveAvailableModesUpdate:]_block_invoke_2 : sha256 09e38741ba7dc7da4f86da65827f4824c82081d71e8434f5b324318b64068545 -> fa22252bbc931b4d48bf73e46c8d8bd5a099fab2ba28c39afe3c02ffee4a74a4
+~ -[HKSPDNDConfigurationService globalConfigurationService:didReceiveUpdatedPairSyncState:] : sha256 87a7976d10d69d7a9be744ab9d3da5fac02d43474e3c0014d737a168bc0fd3cd -> 04f8c367c21bfb24e25122cd80035608515380963080ac5588563f55a0dc85a6
+~ ___89-[HKSPDNDConfigurationService globalConfigurationService:didReceiveUpdatedPairSyncState:]_block_invoke : sha256 b2c8183b8f7adca83e53655e0cf40cb33e9b92fabbf7303aaff14a289b99eadd -> 845315d55adc06d6b38d85efdf084201ed7035cd5ae2054081be17a7238930a8
+~ -[HKSPDNDConfigurationService _startListeningToModeConfigService] : sha256 781edd338421924e545a4cfa68ee55d036580f3946b1f6f73945d89da5d3ba8f -> 291c7a34e71e77a0183f88158bf4dbbf136735b8a589b68f551ef56147771f1c
+~ ___65-[HKSPDNDConfigurationService _startListeningToModeConfigService]_block_invoke : sha256 b01efb789635d31d9f452c054b957388dabcf13ab68d78689a2544212d819ff2 -> c8220003ae88725fe169e8c8d2fbccd7d121dc4123c71015a778777a9e7926ae
+~ -[HKSPDNDConfigurationService _stopListeningToModeConfigService] : sha256 5ccf96ea61f48995729cbbe66635b431a7091f6424e1b883e29bf695f1534506 -> a852f5f130c1034a495bc59ac476b399eef7d5cac2f1658eff64eda87b80b23b
+~ -[HKSPDNDConfigurationService _startListeningToGlobalConfigService] : sha256 d82693be36d6e2aaf99173672a5bd9674b5c49090961b778936d911ad1279466 -> 72d3694957e3f50810f7cb1a81264204007aa65944df8042865e804e8a908157
+~ ___67-[HKSPDNDConfigurationService _startListeningToGlobalConfigService]_block_invoke : sha256 2297ee219113ec8a12a34c244efd6c73601288db043ae5611a25abae48e67de8 -> ca9c58b5fd23f4d209501a2cdad9b780362d2bfff5b4eb8273e9d19a57576e0e
+~ -[HKSPDNDConfigurationService _stopListeningToGlobalConfigService] : sha256 8c29a54e9ff589b8d3e44e700849f420a48abf1953c82197a91382615f845af1 -> 5c26d459bcb4a665b28c119ad9618e7611bc9ec4873bb56d3c44260022a57aef
+~ -[HKSPDNDConfigurationService _notifyDelegate] : sha256 67c2d18595927db4cbcd6838d4e964e0d7575fb9b912c2d4beab710e6c705b93 -> f9afdbedb7479b4ec1625cfa39f53cf0c7ea1fbb9e83d16e727d2292c58048e9
+~ -[HKSPDNDConfigurationService .cxx_destruct] : sha256 6ed727ea2c89e08cfcdf1609733eddbbc32e407f62cf1492e34d308fd115e1e5 -> 22a0c000f52344735b0c4465a823d7466a14b18715cce04582d950d4afc35545
+~ -[_HKSPUserDefaultsStatePersistence initWithUserDefaults:] : sha256 486e71e8efbd9e3c9aca2a948a5959ea7ce930d070c8d94d0de8208ecf5aaccd -> 8ad0520c0d540b677ceec431e3cde68627e3a209366bf85074e126bad956e862
+~ -[_HKSPUserDefaultsStatePersistence loadPersistentStateForIdentifier:allowedStates:error:] : sha256 1bfa26acc54245475c424e7edceb7ffb28fea17f65f3e8ed225379c3199457fa -> 16874df8b888d6d0352755ff648d2b75d3aafb9bada6d8e4565e97be56e75361
+~ -[_HKSPUserDefaultsStatePersistence savePersistentState:identifier:error:] : sha256 187e343c4a7d0ef14984d56a484ec78f7529e6f9af874655614aba88013d5890 -> 49fb59bf69e8fb0674d07cceb0fd81d3ce5afb5a94993d0584059014f0ae9a69
+~ -[_HKSPUserDefaultsStatePersistence .cxx_destruct] : sha256 6b42dc34c2ca2239815e86dfb161133d9bf9f1b3bbcc2fca0db5f581c8ab57c2 -> 21f0eb320f2d7bd292d6f7453a624e242f52915786d660aba82595b3d33b0d4f
+~ -[HKSPPersistentStateMachine initWithAllowedStates:delegate:infoProvider:] : sha256 b99369a0c18512af1ec64961cd919e7db1757e6556167270ced46a2e2e41a718 -> d1c62765929dec19b1decd3b20ac28bcf4ef5d6da44b1d2b0a612ab4482547b9
+~ -[HKSPPersistentStateMachine initWithIdentifier:allowedStates:persistence:delegate:infoProvider:] : sha256 946a26d1cd740d296cb081986819e9359fa6a0489e8758d9e631f9e664d58369 -> 1cb320d29989fafb6465bc502ac65c59e1338a8d59106f21fa50053210a84178
+~ -[HKSPPersistentStateMachine initWithIdentifier:persistence:delegate:infoProvider:currentDateProvider:] : sha256 07cea108dc99b8700d8bbe2cebda25bcd77b39b53c3c890b6bae93003c350de1 -> 66d77b405e3f55c58ed095665c3cbbbe4fe2ad5207ddce070f6080867086737e
+~ -[HKSPPersistentStateMachine initWithIdentifier:allowedStates:persistence:delegate:infoProvider:currentDateProvider:] : sha256 7a3ea5517befa4bedf1a53c23c3de313616214acfc3cacb30b5ba12eb47e5f91 -> e53cac333bdd30ad02931a975df61e54007b61be07d2a5fa71186c823f5aa2f3
+~ -[HKSPPersistentStateMachine persistedState] : sha256 ac827a0640304f5b8107e7d830260eebd8368c5c602e2b1940b1ad1b79c782ad -> 45552d612c4e5da430e129ae40b459ee20dafcc6771dcfe07ed2094e4bbae47c
+~ -[HKSPPersistentStateMachine scheduledExpirationStateIdentifiers] : sha256 277984593a9498cbac95d72b99fe019b2b64dc91f8acab208263543fbc8d8980 -> a9ea72e8e16ef0f1ec6ab6fbc9c60f6fe5ffebea5b3f997c51d8b7d97341c6fc
+~ ___65-[HKSPPersistentStateMachine scheduledExpirationStateIdentifiers]_block_invoke : sha256 f257e27c03e038771e58b048c6409385bd0e7ba0c6b80d1f8ff97af461e6e46f -> 95908aa35fea3534d478143ae14fcba66951612920ccf042cf29706c6b7c0c16
+~ ___65-[HKSPPersistentStateMachine scheduledExpirationStateIdentifiers]_block_invoke_2 : sha256 2185279185be9011a9fc67bbf2f31db4595b49bd975c14e3c9ae8abac7cb00d2 -> b2a1719534add8fff58e6385055157cca520f164a2f2dead24c98452b40ccf0c
+~ -[HKSPPersistentStateMachine currentStateExpirationDate] : sha256 db9919da83809d86f715341541560c5e64675ddb2a5f9d912c182535cb0bfcdf -> c72956005eb42fd7111b78b46e70e81c9410ae692a474a8fa2f14233878705fc
+~ -[HKSPPersistentStateMachine enterState:] : sha256 2c3c62a4008df6e57f02064d264240b05fe8ad377c219497401ecb424370d8f4 -> e2d74363f43c2f38073c43bd1fad7c53901b33d53cc68e66e3fe4b7f44d0854d
+~ -[HKSPPersistentStateMachine stateWithIdentifierDidExpire:] : sha256 6537758a9dabb108879e62bff27f5d99daad6e4c3f60b79298519392cecdc57d -> d4eb5db416145904184f8024c9f4fff4613cb60415a1d88fb37d45adde00e6d0
+~ -[HKSPPersistentStateMachine scheduleStateExpiration] : sha256 38bf78c6d2814a972efa5570beb2ca4e7dbefcf347db208f763c4281c6b3abbe -> 51b8137c4e2d1b3bfa9b0b314e77fdbf267e2945c2bd7b10a109848411247123
+~ ___53-[HKSPPersistentStateMachine scheduleStateExpiration]_block_invoke : sha256 037ffac65b99fafd6229db6faf40ebbfa7b65f331a3fb660680b1d6eee6b1b74 -> 4f06d8e58876025dca5e80eb7a18939ff7984c7947ce338ffc0f38221fe36986
+~ -[HKSPPersistentStateMachine unscheduleStateExpiration] : sha256 4283ee59f68b75abba899465a4a019f3b86b74b3439d9be96ae4e57aef810643 -> ae3327b99a25c2efeacd1370530077ffae84f9507ad276496bf27fceab3c6ed1
+~ ___55-[HKSPPersistentStateMachine unscheduleStateExpiration]_block_invoke : sha256 0d6e8b3059295b971fd0d479cb7386931cf825053a4c05fddad8cbf0ed8c55ff -> 7fbdf221f50c9190f0726a288324f845128a2be18d92256009bc7acae49f044f
+~ -[HKSPPersistentStateMachine currentDateProvider] : sha256 4eb819b9cacaf30fd9c845b0dfc20ab79b681d36da663de106c380045332a106 -> 8b9ebad536ae7bc9733b88669a79bd9fd91afd01ffe1eddd52c014a93b886e48
+~ -[HKSPPersistentStateMachine identifier] : sha256 7a42e270c6340ddf2c5dd8a1c14bd185f3e7e31c46bab38a7d46dec32d88362d -> b4ac88b8d9769e920665ecedd89a03c51eeb4d2b51cbcd52bf8250c6b9c8ee41
+~ -[HKSPPersistentStateMachine allowedStates] : sha256 38aaadb2cbe6ff0076bdaadc320b51f4ceeb48b5c9cbc765ba2e196c47b6bb75 -> 2c07dc240d6b5f7e7163b59e3d108ea31fb32d4103d05b5471bd3d194a00ea6a
+~ -[HKSPPersistentStateMachine persistence] : sha256 1c58384c10ce35d94bf9c2334deb27f0b0d9de46a6c79abe31252d1591b9229a -> 050e62c15c3dea0008a0d24c05bd52ad59cadf266d5038764f1ae04c683d34cc
+~ -[HKSPPersistentStateMachine .cxx_destruct] : sha256 deef085739e04f099e860ead0dfc428e8e7f688b41683de36fde6207b1615761 -> 54c545c7ae408a9f36317517373091354e70e1b7bc1c6709a2a72a7cc9662ed9
+~ +[HKSPPersistentStateMachineState infiniteInterval] : sha256 45fbc80df3ea6687535d14e3326b7999e4746f8b8cb1ed7aa8336f458276c321 -> 236de82cb96c6729b7fb0ead2edfb0a6afde3f445866b4be6fd0868560fae4fd
+~ -[HKSPPersistentStateMachineState initWithStateMachine:] : sha256 cf1b3e4b0d3846cac94b5359cc7f1b9f7d6fde7e50b03d1060404ef2feb96425 -> 3bd093350231a1a39e258fac9e3567348eb47bd161cbbef011567cce891ff499
+~ -[HKSPPersistentStateMachineState encodeWithCoder:] : sha256 4722195e9c72181ae806ec443d812def006129d54fb4627944ccaaa250083eff -> 89469632e392f91d4d30440590a7b9db994e86cd9902571a6a4ef4d0572862a6
+~ -[HKSPPersistentStateMachineState initWithCoder:] : sha256 a4f0723f0d9e93b9225624892005f0736832aeea561c01bb6a9d660be704a59f -> e8a9a621dd72499d22f9cd766737d6e74294d4ae5d1e6fa2c6264c35c165a792
+~ -[HKSPPersistentStateMachineState copyWithZone:] : sha256 b483cbf40c50de6d9794cd6f89399ed829d5d446bfe294f062adc0779153c763 -> e7b7b1fb590be61f2815ac83b709c3523175b73fe932dc1bee4199af3219c562
+~ -[HKSPPersistentStateMachineState equalsBuilderWithObject:] : sha256 b11208642b210bae019649d7b4bb3421cedd8b544537f1a0eaa1d5d239853cee -> b371868cd7c18cd42100218ed8c1e7dbee6b14897891a4f8b6fe4e88d57649cc
+~ ___59-[HKSPPersistentStateMachineState equalsBuilderWithObject:]_block_invoke : sha256 c1ad1e22a3ca250a17eeb77912ca27854e36a6a1505815a1a076a1dfd3452202 -> baab812dd682d650b42526ddeae0c529c95001d956f99b940dfdac6541f452a2
+~ -[HKSPPersistentStateMachineState succinctDescriptionBuilder] : sha256 c706f3bfc08807a5c63532248d0091ab01839e34204f1afb4fd27392885c093b -> 87a94dd81cc99b12796728ecb2d2e9cb65f32509114e6f80708c1cd6cada97e2
+~ -[HKSPPersistentStateMachineState _updateState] : sha256 3a4c7e20745ce87d68324765c6e2d50aec5c081fd3d59be6402f3346efb96325 -> 7e365b3740937dda2edcd1a1709a7b4f60da611620b461986a233325cdcc5673
+~ -[HKSPPersistentStateMachineState _expireOrRescheduleExpirationIfNecessary] : sha256 09f8ad2bc4abb3f35f6b14b7ea4d0bb7ad86ecf9d7779dc66304c8a4d3544929 -> e0d639d9c8a26f272823517c1da70af3db09b56e02770f0f2697adbf7d663b16
+~ -[HKSPPersistentStateMachineState stateDidExpire] : sha256 3713a1d66552b0d251da4325035d575619cf5ac5bc6798647f7729afe35f9ff6 -> ee7c4152fafda98af00546dbed7b49fc5f006e50694b564a5b5e927c5e3fa17b
+~ +[HKSPPersistentStateMachineState _hasExpirationDate:] : sha256 179eb997004d66276f4182b7f151f8f03e7e87e06b8fdd94b64a086aeb381cbd -> c789f5036af46da20c26814b60f1ec51f695e78fb3c5111d626c26eda1cc9d03
+~ -[HKSPPersistentStateMachineState _isExpired] : sha256 c1e36888638230ec3a0c4d1a6b4354120b6dcdfc6603797d9d7095b3ab4331ba -> 3e162651c1991a019c0b7975d59b0055d497688636466e074fa9d455d33ad7fd
+~ +[HKSPPersistentStateMachineState _isExpired:currentDate:] : sha256 c325d6173d3c156e5ae47f095b69eb24ce28bff782c1d0a46f1988d263bec0fc -> a51e03d766b467c4027e449ec18ded83979e653b65d1135db1aecac8470b071c
+~ -[HKSPPersistentStateMachineState stateWithIdentifierDidExpire:] : sha256 bdd26eade5c9f95b4f07478b9d0965522131ad27181ef80816f5483dae00fd47 -> 08a5d86e61e1131d25b666ee5c781ed883de54692ba81fd5f3ac1c75a167dca2
+~ -[HKSPPersistentStateMachineState _willEnter] : sha256 9df2b8d4276b4dc8955c2e272c20bfc5371222eba42481efed983cb35fe0be32 -> 39533de1d7f7e9a5416f981e36d58726b8745cdcd9e1085b7f3a2e99c158bfef
+~ -[HKSPPersistentStateMachineState _willExit] : sha256 a1d822b92b4d97d270106ff43d1cd2f30ba929f0fc9f98187c150f29c8191884 -> 688105a08ebaeb5eaeaf025ae18cc9788967a6e096ecd7dc6a890b33fc27f190
+~ -[HKSPPersistentStateMachineState _didEnter] : sha256 3f17f1635866594f3e370f6dbd79f86072b133c811fcaab7951c775b4283655f -> 10e27ef09d5c351305bd67792d6fc63e48d6bb2f023e13b763950e2bf8d4256a
+~ -[HKSPPersistentStateMachineState _didExit] : sha256 5f9737c846ee4cf70dd82d835d2ced688fc0c52f0370bf03915ab9b5f9280c98 -> db0ecaf5a8e5161387347afb16938ee2e66a6cd777abb0fd5eaeda132735b6c0
+~ -[HKSPPersistentStateMachineState _updateExpirationDate] : sha256 a99b7ffcb7b54af33ea78824a3775cde20924c554545922565856c57bc93abb8 -> 1149bb5772d4d3063b093e06618caf07511d91e8771c826e5a24e325a735c797
+~ -[HKSPPersistentStateMachineState _updatedLifetimeIntervalWithStartDate:] : sha256 bf0206bc4f40d8ac3fd81ef09283d56f872f32572de4f74449437866b70d9e42 -> dbe6e614f862e4aba7f4677ff2f0e093d79573ae0b497be26a32a64aea016fb9
+~ -[HKSPPersistentStateMachineState _resetLifetimeInterval] : sha256 6586266154e6cf7fb89e731fe643a25d61c2926310783478571202984b1685fe -> 6abeafa1afcee718250d169991afbf1e56c8efe5dc5ac76bb69a1efe36282c07
+~ -[HKSPPersistentStateMachineState lifetimeInterval] : sha256 903833e7ca75665176e5877e7aa71b6194663f1d202e320ec345015e880ebc39 -> 02537f9098721ae770687208d82b29a5f1cc608e63a54fe6125846da98688ac4
+~ -[HKSPPersistentStateMachineState setLifetimeInterval:] : sha256 b7d746f91f5e1c8cd7ecae825a58d8adf67b102d81ec8a702e5132fe556a1e7c -> 4eaf53fe489f4b50271baaa7c16bfe7af3f9aafa70af0d7321023a5d2231788a
+~ -[HKSPPersistentStateMachineState .cxx_destruct] : sha256 fba800fed5fb078155b9f03156fe1009367cc461df7bd7c098b379f54b506855 -> 08414228f3391da4b1f66f234976f664afb8093b3eddb1fa02a604feb871f626
+~ +[HKSPStateMachine _contextKey] : sha256 cb8d0240fe1cd2edce76f034236822d7483aba7218876c1ebda312130d7c6b7c -> 3d9b08cb839b7ffbae7c5a7a5d45096f26fd537e4a5f4d36f59f543520a6af1c
+~ -[HKSPStateMachine initWithDelegate:infoProvider:] : sha256 d0e6098346e1e8af5d61923846846ba0458cae14ae0143a5c46f55eaa6b349a7 -> e532c1aa4ce3c3f52d26fa5a0acf9a26bb250b5cefa498ad670d53a3a9f65101
+~ -[HKSPStateMachine setInitialState:] : sha256 dd5e0dca781dee6413d66379613f88d9b6a41af14aabd7c5a25ac7b3e116b651 -> d4d3d7395f3d4edf0fd016846b06306e87cfd1aa5ee328c582f76b05c170c2f4
+~ -[HKSPStateMachine allStates] : sha256 15c5973f98d15ff86c3688e0b6598735b18fc9de7b2d3caa0c9aeafa3f0020f7 -> 9f6f58de5a9ac2a344ac5e18c26ef3625f7e7d398c7e174a160ff7e9fb6059df
+~ -[HKSPStateMachine currentStateIdentifier] : sha256 104505f2afaf0c8ad5da085fccfbc849d4afe3c44fcc60ada51416d854118d75 -> 674d65f4554c3aa1f45266ef0b3fad04d1ff3cdeb6de37f9549c6b16182d6b94
+~ -[HKSPStateMachine perform:withContext:] : sha256 483c74c9e1bc957c4f29e2db6c2856a02e9f12c464af0e7aa5157acc312d6518 -> f08d2b1d30e45865a52e0d57684fef04b9eb02240f6ac67aa61730fc86dc95a0
+~ -[HKSPStateMachine currentContext] : sha256 d4d5df3615dfda6d2b59c2ab25bd8f5706188635307e4dd69ad71421ae4bdb47 -> 8c6736ec8adc730bf923d83bc54e430c6395cc30849466b5ca20484657778ea9
+~ -[HKSPStateMachine enterState:] : sha256 35ca12c9f2ed6590e38fddb5cca71816d15bbf5a250d3249ba76ca9ff94d8f87 -> 59d2f293bfd1210c27f3f9b56b25e53d7dfdb1a149f5637bbcb8ee10b6931af8
+~ ___31-[HKSPStateMachine enterState:]_block_invoke : sha256 00dcb5e46614a8de6f1c490387461c56d04a0a9188de7894803d55bda511d4f7 -> aa6c024a0ec1ee02edf13d024fb48f2499d7f80182c403f2cece97c9869caf70
+~ -[HKSPStateMachine updateState] : sha256 0ccfae39d020a703a19dbc4ac169b9d70a794955bdad1aac351ea9539df65674 -> 275e2bf59922529f8ae612cbde7d8e2807d57d59049defad237f3355d5ecd370
+~ -[HKSPStateMachine notifyDelegateWithBlock:] : sha256 032cd2a8638c3458f91909a45cecba9292492c45c1ce3a041cb48733a4f2cb67 -> 0ddbbe52e492291a6a02e13f4599cf4b20fea8025d0aed019170e5e26f6f4f68
+~ ___44-[HKSPStateMachine notifyDelegateWithBlock:]_block_invoke : sha256 4b92a7f3ccb558e43cc7196c15908cdce28192f1fc0c248a7c072a3bdb918d26 -> f057e89f889c212befbdf3a819fb2e6d835c12417f80425f33c83739ec2e3406
+~ __44-[HKSPStateMachine notifyDelegateWithBlock:]_block_invoke.380 -> __44-[HKSPStateMachine notifyDelegateWithBlock:]_block_invoke.386 : sha256 2698100663cfc2a7e989e6da502886ac97cca8b31760f4d1286fafbdd92ea3df -> cee6521634d3298cc5ea0d4ebfe5adf5bb1807eab43aedd4091723e5e9d410dc
+~ -[HKSPStateMachine stateMachineName] : sha256 e40ee9208dba0466e70e6935b800a777b78e920075bf0577c803f44f0d745580 -> 08b5125d54f7dd2b664cbff738aad0816c6ffefa9e4b76a9a6c88fd214034998
+~ -[HKSPStateMachine description] : sha256 b65c149503654096583313c2e1b0073909496a851cda8c2af21918803ca86601 -> 1c89ffc2e8018105057c36a9f28fda928fda4fbe8d72eacd56ed451bd20683c4
+~ -[HKSPStateMachine delegate] : sha256 9991c782dae777dc10824fed15045e087dfd4fbc14488ce4485f6941826c3402 -> 452dc74b2d850b78e09000e7ed855ee34c0d8929fc7e3feb7d9436a80686d185
+~ -[HKSPStateMachine infoProvider] : sha256 39963934e461fdab4c288434ad83481dff412728d3275d70128498c8f99bbcac -> 11981640c1f0cafef8b95ea08474e88ecd57a119755e3c30857dac9c61b4bd68
+~ -[HKSPStateMachine .cxx_destruct] : sha256 b95a03f918c44d50eec23b6935f815d002b3c17867f4a143c1bd07d21c7a9666 -> b20706cc13b5bb0edbcd09bafc31d8c77e69a3d680f3a479b56773a59d7fd065
+~ -[HKSPStateMachineContext initWithNextState:previousState:isInitializing:] : sha256 cc7414e1078fde2cc50eeb669d20714b2390bde29d84756eb89e2f425780a3b9 -> 12e3eeff3f14024952770ef76f6f9795316b608644ab7619a771182988174778
+~ -[HKSPStateMachineContext copyWithZone:] : sha256 d6c2a3ac0ccf0e39a3e657c42fc8a2ef38f15f91980bb1973ac4d72c2d448106 -> 35c1856fd4a430c2c25e89bbcaff77f4fa4cb128c131a996f0d12cad53b0beb2
+~ -[HKSPStateMachineContext contextWithNextState:previousState:isInitializing:] : sha256 7a339e872c93e9c4f962d282372dd86a443de23d6e1f6670653064568ce2ae10 -> 9d6fbe0e65d5e9f3431b6b907514993171fa5b4b622ff54b9279996e1c4a7116
+~ -[HKSPStateMachineContext hasStateTransition] : sha256 72b9c441bdeac25d5a9905c9a4ca2fef4f90025a89136c1a3e93cf890953c4fa -> d4efaab8ae27faaa2845d7dff1f450f97eeb9f0ad9206c3c01de985009be062a
+~ -[HKSPStateMachineContext hasStateTransitionAndNotInitializing] : sha256 6317f89d2d4054b2466c435c1636ddff9700223eadfa58bfc95677a1ee7a612e -> 56f3b079ba282e3581e8c10cde557ed1a83f57d5f490b267b7c5958ad9294a52
+~ -[HKSPStateMachineContext hasStateTransitionOrInitializing] : sha256 0882caae3beaf61281e9eb529d1a363b573ad77a457d07d9e004a3140a5a5907 -> 14e76fb3859b2b68ae3f9ec2a05e27a60965ab0774ab1a79522cb066b321a6ad
+~ -[HKSPStateMachineContext description] : sha256 62bb216adde9b1110cb904fba5746751dc97d3a2b86d56492f5c19e84ac168ca -> 3c05b54c01804c03756cc289259bf71dbd863073457b424364671158b964575d
+~ -[HKSPStateMachineContext succinctDescription] : sha256 57295a363901c574ae032342fc4492d3e74e338ead61e033bdb96ed0c60ad56b -> 58c40db409d68ca2222ae38ef38f29e682a2e711e619d9093f7f5d75214eb562
+~ -[HKSPStateMachineContext succinctDescriptionBuilder] : sha256 03e90689a09b413ab100ed86b7de611778a840d1ca800670c5610e229002e98b -> 64352a605bd910d51a922e450d3f0f185efdcdbf7e1447cf4207e632c66537d3
+~ -[HKSPStateMachineContext descriptionWithMultilinePrefix:] : sha256 eff23cb3ce3e77b15340fcd5a7e562cebf2753b8c5c4879c8bc029ac15c889de -> 4207128ee72e00e931a3aa8055c8c946eb5ed80dc89fbee03499e103a2ea45bc
+~ -[HKSPStateMachineContext descriptionBuilderWithMultilinePrefix:] : sha256 9df8392b70de0d10da0bbb78817eab959f5e8132b8a2922752ad2eb9349071e2 -> 6c390eb42d2a0764c3d6659140aa29b7bbc00b24e9ed6dc0ad24c52b1752191e
+~ -[HKSPStateMachineContext setNextState:] : sha256 9881346a3da6ef78087720936b60826825d31caf01325b304d16fc6ad28fe49d -> 52075e9e7782b34cb3c18b73587a0b5811cca78125de896e50052af353742ef9
+~ -[HKSPStateMachineContext setPreviousState:] : sha256 1348bc279be833ed91cb1fb57f8a6048ccb54d0d8a28020f47f912089379e773 -> 0350b8d51d2eadfb9a1060227eb76a60c7eaf6f282f71dd3d8db7d411dd9208a
+~ -[HKSPStateMachineContext .cxx_destruct] : sha256 156f0623123c54a132721e575d1a07e412b3803b6928db64eb2483c0a236294b -> ead7ff6023ff9b36145a384f07593ca15b3d513122ff34293cdd078fcfa5e950
+~ -[HKSPStateMachineState initWithStateMachine:] : sha256 0c86568fc04bc531553a245774ab7b35a523785b834c0a1e90ab816d2eb6c0a3 -> 00b7a91bad2cc6cce7cd664d2754cb0e95f631608fed3473b52281119326e9fa
+~ -[HKSPStateMachineState isCurrentState] : sha256 3c095c4e0f08b60150b4baadcd304f5251394c67e8871ec2adc87707ca17deb1 -> 2600cc80833fc69ff4792df64fc55379235c0a15478a0f7ef909531398876c78
+~ -[HKSPStateMachineState _willExit] : sha256 17a7277dcc4829d41fb9da02371cc9017749fc69f1692f09f22e63cae91fb2e1 -> 91d0633782aa59aae044f52d4198b380f6caa58a97457f50ef7967abcb2ab765
+~ -[HKSPStateMachineState _willEnter] : sha256 02899ca27aa53261a60aebf30cc793a19f71b7bd65b7025b0131f51acd3f1795 -> c39cf4567dc38227f9b810262836368b096c2626073bc297bd220f2dfa3262a1
+~ -[HKSPStateMachineState _didExit] : sha256 02b297bcb86c5140a4ba21508bdcecf73fd8f8b2fd88a8ddec2193b13edff5f8 -> a6b5859ea1405b5b2918650ddd1b696a9356209902c570291c0783fd6cf76497
+~ -[HKSPStateMachineState _didEnter] : sha256 195d9a76e8253a28d446434410a8c6f11912b5f78b7c15d74a91344ad41d87ad -> 2a1c6e3dbd218600fc42183a2a111488e8e4c19358edbef5d4a0ba20c700bb19
+~ -[HKSPStateMachineState _updateState] : sha256 2bbfb8cd29adf31d0fac04e8eed945182a545aaee62c0f9e5008c66fd9d8841a -> 2d1fe534cd4ee5bedb6f71c15c55d9562841bff6ae13b70c8fe1996609768b2c
+~ -[HKSPStateMachineState stateMachine] : sha256 182f6b2e74eafdeaeec558f17ee16fa0e8854cca4392b69c098e47b12a633578 -> 51f17929cdd40c21ce3443b195015ca69018e576ea45cf99a461f841c2ef4af7
+~ -[HKSPStateMachineState setStateMachine:] : sha256 d89ebe5e142df4ea95a7d7f99655bf8548f6d0e9a1a9706ef2f330765998155b -> 29c5ef4492815ea78ed6ff3d6c764c57a139df0840fec0eb1dd9214bab5941b4
+~ -[HKSPStateMachineState stateName] : sha256 b8740a0c6a91ef368c115b45f041f4fe5a445d70ae4a24e38efa83c67b4cee2d -> 74c81288b4f005ea9ddf4a680f59b2c60e63357a45069c339c7b5d566ece90b2
+~ -[HKSPStateMachineState stateIdentifier] : sha256 77bc43247bd1d0e8817a165c614f66a98d559ac59500daffa295a6cbe6744a06 -> 9516ed8b334d35761670002bd681fa98969f8ff766b1f9aa9768d69782008814
+~ -[HKSPStateMachineState isEqual:] : sha256 ade8f368ec5a7c1877069a538f312877e104ccc0243cbfec8da8c6f31ccd8a2b -> 5789d45717116029c63b00bccd5da69fa6528107d4306c7e02d1694d4a223893
+~ -[HKSPStateMachineState copyWithZone:] : sha256 d5ccc8168129dad75966279eb936f96274bca87f644337beb1b9946228d026a3 -> 71e5f270e4844a9d5207e4f018e95d2973fd766b0a7563985b64161d990eafb3
+~ -[HKSPStateMachineState equalsBuilderWithObject:] : sha256 c50e1eca37f563e030d1154d71aa166e459e30777ff6732096cd2690f3df8bc0 -> e3a075c1cbdcb4f1a087c95a8f09b82701c34be02aa6fc3ffa6d4ba468412ab6
+~ ___49-[HKSPStateMachineState equalsBuilderWithObject:]_block_invoke : sha256 c302f8dbefabfe2f46025575b3ce945dbc0e4cb82305238f1ffbcb83279f0d8f -> d97d0122440a8ec2afb4b98c05aa73d598b874a968943b58ec968f06653ff351
+~ -[HKSPStateMachineState description] : sha256 aac3b08cc311a8d3e07f24463faf829206088825530b98c323d5cef97b960f20 -> d96c3fd6efce9dc409dd35c4e4fd1f457e728d7bdfc772fb093631e090fa9bfb
+~ -[HKSPStateMachineState succinctDescription] : sha256 091612825c161a671d28f51c7d71c92473a4fa99f68470a7114af7d8dff31d4e -> 0e280131a9a0b1647a39b7418832c5e05f3d726bc83a194856839d3439af5bde
+~ -[HKSPStateMachineState succinctDescriptionBuilder] : sha256 24bdc2cfd6d0f025225ea4bc7b16d4a7f4de4df15881c0be43f3faa82686a444 -> 35ad4544b5a51f019d6df2db373d5cfe26787e3ce9a03d31d8b79f7552122a10
+~ -[HKSPStateMachineState descriptionWithMultilinePrefix:] : sha256 c8e75ee30e7ba0af8bd17b49e484f9f7cb5cd9137a945e6471c3d106257e0be7 -> affaf4a0d5b5f4530b6f11a472ba43ed41620fd68ea390d48298fac416b63c3a
+~ -[HKSPStateMachineState descriptionBuilderWithMultilinePrefix:] : sha256 0015e2faf2463dfdb600df0d226e0a0d9d4115f078c94fba3c2d4a100deec0ee -> b6ef907960006bac7b3cbb4b89bfab4efa6024f74818a86401d09ff548017078
+~ -[HKSPStateMachineState .cxx_destruct] : sha256 030a318e1b30744a9e7ea28a99c2790e0d57ccde0f2e7fdb9a582a41e7f1b136 -> 65e0e2c12bd256b4684a0b03680d473e12e268c05c94b8648bcc72b0edaadf4d
+~ _HKSPUserDefaultsStatePersistence : sha256 dd7528aa9d6b9e3161d9a0440340138bcd4e5750a351d1c65d28d9715d77c0cf -> 87f00f690cdfdd84143d56d62d92278c4601a59b726e5df923b77cbe1741a0b6
+~ -[_HKBehavior(HKSPSleep) _hksp_supportsSleep_checkTinker:] : sha256 cbaf4dc7a724e6605f95fd90153dc2075bbd300d4e2c33c3dba976f8dcb3daae -> be2518ebf5eeafc4c8b9a3796f9029578427b682b24fb66feb408183385147d8
+~ -[_HKBehavior(HKSPSleep) hksp_supportsSleep] : sha256 73c8929ef491c78b1cc746949763e967032ba63a6bc54c96a20dcca263f7e10a -> b992de7005022d1a2537211fc3d7515ba4a3db51745ba32b4262a7b9468d0f9e
+~ -[_HKBehavior(HKSPSleep) hksp_supportsSleepDaemon] : sha256 ef101a677d1c2d24ae6b10c268de9a74da84b4fb612573df1dea91cfd5b77931 -> 057d64291531a2f1b41ce1959e87406a1d56aae264f79af436044c1eef58ead2
+~ -[_HKBehavior(HKSPSleep) hksp_supportsChargingReminders] : sha256 c8cc12d079173b212ed05b6d6439cd733584fc02d5f315ac9f4e5e2edf2a876f -> 9c4573f5882efcc88bffb38387e98bfd65d4eeefb1f5313609afefb8e10e3d6d
+~ -[_HKBehavior(HKSPSleep) hksp_supportsSleepLockScreen] : sha256 124efe717069be37eb69ae051aa4286bf4bef19ca9f5e0a6be7e98d1611bc901 -> 77d8286a034b2f0f4ebe2fb5e9096a85dec833410feea054cb8927671781af49
+~ -[_HKBehavior(HKSPSleep) hksp_supportsHealthData] : sha256 19cbeb9e56a2617a88696cee211f6d91884604698f47f739844de9ad84af5e6c -> 5e5fb6856dec7289c2be7b808abc72d57d4ced8c1a24e2bc955c06753561e321
+~ -[_HKBehavior(HKSPSleep) hksp_supportsSleepWidget] : sha256 f325775b8700421a6a879b5bf1f9de5c07a42a9a5eec80331a2b0ae3a43cd26b -> 846ac4e78fa0200cc44180b02d9f9ec7a633d9fedf89c8b6bd4f5311ea7ad4ec
+~ -[_HKBehavior(HKSPSleep) hksp_supportsSleepTracking] : sha256 f097fbc65a6dbf534b3681c7096384b613c585d38849537e113cce2e8a0ee8f9 -> 2035030e5e10e1b5d32adfd32fcd2215d54b669fd2cf48a65e49c1b8eb672930
+~ -[_HKBehavior(HKSPSleep) hksp_supportsAlwaysOnTracking] : sha256 dfbd4819e01ae42542cc5d54675e3b21d667ddd9ae20d8034b58e74dc554741c -> 2b93a618863d9b418e38621d6f33fbf85fb15a9bfecd19bf22c83e724130b3e6
+~ -[_HKBehavior(HKSPSleep) hksp_supportsGoodMorningAlerts] : sha256 00a8a9ff7c6d11a9a642bc716835299a5c9c420f3f644081187b3ece296e80b2 -> 91fb4ee61829f517d3635f4f56160db1e2a9d273f084785924c071419f510e0b
+~ -[_HKBehavior(HKSPSleep) hksp_supportsWakeDetection] : sha256 0a645e0ace5a79e39f5675097d2f478cd8413033f40233336ab61856b7e9f7ec -> 02fc5ab61d8fab469c74ed5e7b14e541461668805561837b1cb4cd3820b5a166
+~ -[_HKBehavior(HKSPSleep) hksp_supportsUserNotificationCenter] : sha256 a20d537f2d1718c1a8dca3a029b9f853ba488b2fa322a3e7e945f3b735b4fd02 -> 3a751d0f4692c8276e8175b43b956565055708b7effd9f1a2783dce115f947dd
+~ -[_HKBehavior(HKSPSleep) hksp_supportsCFUserNotifications] : sha256 0d51452005a574f86afe8f25cfb68eebdedb13051f524e93bd28a0b4895d8b9c -> 1af6e3b7a4c4d0c0cab35dba0616e096b677079f165b166476f7c846f732dea6
+~ -[_HKBehavior(HKSPSleep) hksp_supportsSleepAlarms] : sha256 0e3259d3181c7b7cf48f2fe745c4157b4e151003547678caac1b3d528569458d -> 03ea58dec34cb362e1f10e82e670bc52cab4b13fd467a9f28b682b7055ae5a9c
+~ -[_HKBehavior(HKSPSleep) hksp_supportsLegacySleepAlarms] : sha256 625d6a66253ba7aab1ec24c0e287d1764d5bfaa1cb88ab9da940ae4aa98d6fae -> cc5ae42f802002579863f0c5bcb04e2fff68d4031102abdfa0ec50a3b1323602
+~ -[_HKBehavior(HKSPSleep) hksp_supportsDailyAnalytics] : sha256 02675800f208da6510fe856df735085e71f2c2e06e285cd719ab86726cd6289e -> df20429e1d6aa62ba47e90cd33756f7ba4cdf65219e0a3ede33eaec4050074d0
+~ -[_HKBehavior(HKSPSleep) hksp_useDemoSleepData] : sha256 1c6600b93042ad91d7c018989334de399d720c04197f92b23071c5db3cbc3720 -> 8e62f9511b5f008075e8cf1e1003fea6520d1127f4c63be47d111d96a27ca19a
+~ -[_HKBehavior(HKSPSleep) hksp_demoMode] : sha256 f0b0c1922c8ba19b5fc3ce6d02956f3fa2f6097b936b444bc42b222220f83ab2 -> b11d608bfc8fa49717b11dba15e0ec4f4f56b5c77de16404766b65bbc12efc91
+~ -[_HKBehavior(HKSPSleep) hksp_device] : sha256 8865f11da4b0c36f36cfc14bf4ff309aa6c8e59ed410ec454f69ede765aea795 -> c1ef27da6f49d93d88705cae045c25105d71d9c049b91da4439d7db3c5076901
+~ _HKSPIsCharging : sha256 b0534347abe28b1f0b9174a6218ddd0cafaa8eb685d035af8485af2584dd250c -> 24c2785165ebb43a2c108ec1307b3f398c586440c223c34aa83608211246097c
+~ _HKSPBatteryLevel : sha256 679370cc5e2ee5922558d75deae7218c84da2f3fab444e24ceeac52271862157 -> 066c3748a749362b576577e3068a39df6b68d4addc52df21d454824c5379ab21
+~ _HKSPSleepURLWithOptionsFromSource : sha256 776056a9a992e1f35c4e1c976e5461e75bfa432b6110a1d51b76b200a453df27 -> 436a58d59470ff8a5b40138d04e9e736b258856e30b76617278ddb090bb936da
+~ _HKSPSleepURLWithProvenanceInfo : sha256 63bb1af2dcad1f4557d67d11f50f538fe17b3592d516bc44a83f14fa42e747a7 -> cdcd58e466cf53deb059a206ffe7cba202694d4af0d278b58bad29b239759faf
+~ _HKSPSleepFocusConfigurationURL : sha256 c167c14f6e5810148c217487fed5d57c7c0607ccec81296e28714cb6772ad3a4 -> 7e5ca624e276e77a248e194b3fd0c28f21742bbe766bc1eb483e3be61163a569
+~ _HKSPSleepFocusOnboardingURL : sha256 fc97e0569022d23ba50e3e67e3658e112e32a7cc7c62f2015b35c35d3e536b16 -> da9d2c6e1c0eb4897e503734caff8598e200370caba183f967f5123a62b2dc3d
+~ _HKSPSleepWatchAppURL : sha256 59d7d72a673037001ba6285fc60057d9a444f5f76f21af17f70f9b4c1c73fe4d -> 3adac413a7f193e47bcdb6213cb47cc6ee40e5922c7ae483f3eb6822baffb097
+~ _HKSPScreenTimeURL : sha256 2f9b00a2ea190072aa36561690c2711b8c79f15938a0796383302b5acaebb1bd -> 47ca9522a98220f65ed35aa014ffaca6e40262331ac8d7812b05634432ce8990
+~ _HKSPIsRemoveSpacesForTimeFormatEnabled : sha256 231b9599319fd71d4480383a3427388cd995076f7323516e162f8529679d3e4b -> 85b256800171d5cb5bc01a27fd0007c68597474130355604a93f319fed07b622
+~ _NSStringFromHKSPDevice : sha256 0befc0b545a91d074bcbf21a57c1b41528c1d60f90657f7e6e1ddd454976287c -> d608473c517d156aee331a89f42f531cfd70472165e58c6cdbeae984a6dbdd63
+~ _HKSPIsUnitTesting : sha256 68508b318ced57fd3f48626b46ac6cc87c6ed8eb860622e78e1cff623ef8dc80 -> 31ba6b55767c4707f4867664e352f0fc4be2caee30424b191c2be6f631c39682
+~ ___HKSPIsUnitTesting_block_invoke : sha256 c2dd6f8a919daa8cd28b68ba85ae337b9c1792376fa571dd0c28a0b6e3371075 -> 41f911ed2fbbc1612c287ef38f837e9953c42931cab8277b4c2e8e3cdfabebc7
+~ -[HKSPDiagnostics initWithLabel:] : sha256 1dd47ddc6670a491116f67fdcbc0b1458b92da641d96cd521c2c6a5e6ff1954e -> 43fd097ed0bb824f772f31f53f39e386e8998c736f1d4e055d2b1b507d12774a
+~ -[HKSPDiagnostics addProvider:] : sha256 6002a637378256d27c4135a8df9c779c40f001eb2f049b0d1d3140eb24d22380 -> 8b07401aacdc5887cd4bf84dd8cac680a8cb017eb986b0fa351ef58c18bd9436
+~ -[HKSPDiagnostics removeProvider:] : sha256 5ed3c1709a29dc5b2fe5685ef1ba1aa48e2ce737699a64da8262e8d1e7bd35dc -> 3a0172f7b0b22d8268ba1a5b0dd8966d00e0b63aa4cefd28cd28c1b4e7871c77
+~ -[HKSPDiagnostics _registerStateHandler] : sha256 4f22e336f3ce05ba905b17fd92d3521454bcfe302f005ac89784bd433c9e6262 -> 2cd201e3d43070db6b6ea472274e59af17b0ebf72244fffb60144af9e52a8934
+~ ___40-[HKSPDiagnostics _registerStateHandler]_block_invoke : sha256 b703352cbbae91180027cc4f63536d3240c2b95b581d32148e6fbf929ea89e1f -> 304ec0d2a5bca65ddf12bba74ddbab86967b66a338251e7103c919586e02385b
+~ __40-[HKSPDiagnostics _registerStateHandler]_block_invoke.363 -> __40-[HKSPDiagnostics _registerStateHandler]_block_invoke.369 : sha256 ce017f8eaeca1f229a0d283756f43dd6d37e1a3397e627b12bfdfa2084a1ea39 -> 38eec46536417e30e4bec38b1b92e35f3e1d2ed23d2f4dc323f82550203713a3
+~ ___copy_helper_block_e8_32s40w : sha256 69c0455c79713304a3ad6caaf4c0dd455aac68d293555632acb7b46c6768674c -> 04893967b9fa1b71e788e9b412bb76c8cc68175a338c2f2b481960f027f6d517
+~ -[HKSPDiagnostics .cxx_destruct] : sha256 81174ebe2b9e673ba7d934bf97e869239947f5fe0f839059724f88cdc423e24c -> db4275ae2b90ee04ffe337ab5eb289adc3831a9369dc85409e0fccc313daacbd
+~ -[HKSPObserverSet init] : sha256 801d31b44e2a3613060d10337f9f80d25457a697c9b1d1a2a1e78702be328c65 -> c9bc83f3f534cbc9f922ccd8c9f7135d6b2d799b59ecef476f2f3afdb8a5122d
+~ -[HKSPObserverSet initWithCallbackScheduler:] : sha256 48a815486e1730e097c2268396bd99c48dc7f5d4937ded5b62ee1bea5a02fcd7 -> 949d6879cf62ac73124a6fbbb36355dc2bc9e4725fad00ef749aea5bd891b303
+~ -[HKSPObserverSet _withLock:] : sha256 49b41b0320691e6d48e70ec90a42ef2af72ad1943cc2cd24ab252a4db417e491 -> 4f4f9b90e1216d746a86861c21d31dcaefe3aea19f838254a50cc4f092f65e68
+~ -[HKSPObserverSet addObserver:] : sha256 1c932bb4af7ddf486be5fa405cc3a67d07dd127db0ff6768a19a459b263dbd3c -> 50343427ed5fa4a5d351113e56049912e456a1ee863afd2cf26c0de153ad7fd7
+~ -[HKSPObserverSet addObserver:wasFirst:] : sha256 e8929c61a75fdb8420ba5287b8a379ba15a24f969be1528e81d814af0dc9efaa -> ca6f3bb9650faa811491302658735f37e1d46cdfd752c91c8d9c9e2e628fb648
+~ -[HKSPObserverSet addObserver:callbackScheduler:] : sha256 b0c4a122849219a8c433a4f3c9e5a80c895190ca126c2bd80a0cb08b75a1eb40 -> 09ab07e6fd381aad8f62f2895064ce6caf046aa05be43dbc77f9d5acc42c0da8
+~ -[HKSPObserverSet addObserver:callbackScheduler:wasFirst:] : sha256 c3e6eefd595e2cba9e10237bdd29d134a0d364b9cd034abc3db6e1e4f70c1ec1 -> 9908ac16d146695cc36551a54a2eaa61e71762453440bd36c2271c9038a4ffdc
+~ ___58-[HKSPObserverSet addObserver:callbackScheduler:wasFirst:]_block_invoke : sha256 3b1fcc9a777f24a41ab52d4a46d7af59bf20d7e694211ac058029e8f2110aa0a -> f0dd074fe2fd2050f15184cb85a7e46e8035f22bfbba27573648e8dc200772b8
+~ -[HKSPObserverSet removeObserver:] : sha256 dada38f5c69ed7c0c0decbc5fdc495aadf76b8519603f2b95fe371fc5e5c83ef -> b06b2f627ca1cb1204e11e8115e9e5635e3909ec321a9f2320ab94e6b1fe8ec5
+~ -[HKSPObserverSet removeObserver:wasLast:] : sha256 d32bafb0633e4313ca7c37c1dcb6eaf3612fab9ebde36757ee4245b0cdbbea29 -> 0534ac7e16eb7fb5b6d39d82dad382b53863b4c6c0c2bf4a4ba3a324255a61bd
+~ ___42-[HKSPObserverSet removeObserver:wasLast:]_block_invoke : sha256 8ef5cc7dbbae20a9a9ddaa35f4acee78e27b56a2c1e97854eab7134ddd4d29f0 -> 048c747520c064e6228dbedb3b466de993e7a779392e39dc8b1fb847902102c0
+~ -[HKSPObserverSet removeAllObservers] : sha256 595ddedbc45151c3b3ec746d7a313a44f3032bb66fa4eafa676a7fd939573c00 -> 30765219ff0502142eeaaff5d8974dc2320abff7a4d8464c81f853f556f05b8b
+~ ___37-[HKSPObserverSet removeAllObservers]_block_invoke : sha256 bdf336ed9b07408ad3248e61d827043a820f174d9f3f63a99ce3a75311a885a9 -> 9a1986121ab791d7e1e76fec2d21ec262d027e85beb1f9780422279dd8680944
+~ -[HKSPObserverSet enumerateObserversWithBlock:] : sha256 859292af3d83f19fadce591fa216805c732c150cdb2560aa8f4ced8fd31d68bb -> f0a0eb84a56ea33a7c2addd8639df9f50c5425b6e551a5c79fe1f6fd2163199c
+~ ___47-[HKSPObserverSet enumerateObserversWithBlock:]_block_invoke : sha256 63c7d7e49d03e07433673b83159b6d509b6b5b611e66cafd1f461d065e5184b0 -> 0864df0a0f9b89de689a09e0e68b060fab88f00d7e981d6d13bca57f6f40bd8e
+~ -[HKSPObserverSet enumerateObserversWithFutureBlock:] : 820 -> 816
+~ ___53-[HKSPObserverSet enumerateObserversWithFutureBlock:]_block_invoke : sha256 fc74d13977da6cdcc24ca99b1f9c98e14431f8ee7e5f3a6ee6f0b78d34203528 -> 8fff1612c6f63f1571211409246073060b7d660dfdf2fe692b9cdc47fbab17f1
+~ __53-[HKSPObserverSet enumerateObserversWithFutureBlock:]_block_invoke.375 -> __53-[HKSPObserverSet enumerateObserversWithFutureBlock:]_block_invoke.381 : sha256 446d7d18fdf2a505c80dfa5e859e73c5937f5a3538a03825f69c04d95f8cf846 -> 8f8a3aa9777234975411abd925a14fe809e2c555ea351030dd07d8e9520ffa96
+~ -[HKSPObserverSet containsObserver:] : sha256 81aa5aa9f0e410c43c0f49a094fd328de926ce59b4f2710eb856d426acd272dd -> d54b302ae1009925e2085562d7cb30c80495c28b722b5f57abfab5d0eed1cef8
+~ ___36-[HKSPObserverSet containsObserver:]_block_invoke : sha256 1a5ab30d7856bd52f4640779958e4a3863b9adf94d88f7b223ff97c9e4119323 -> 6108656496e6d7328a432642ce79b41e032e6935b03ef95fdb5abbc56f5c4a85
+~ -[HKSPObserverSet count] : sha256 21b61ea6e8cdd701ecfa10437dc039c47ede3b913665f9658dc4c3341d4b1023 -> ae5349510bb9ef7da97553173f182ff6f38ef83fa09e64c1f87db5c5851dc263
+~ ___24-[HKSPObserverSet count]_block_invoke : sha256 a1aef5b4310315e940879124e5a0617fda7833a4fef82b9cd9f54f2ccb8f3d1b -> 659e956c221da798a139cd701d7db1590ec7d00a1f393b9cd1fefa950aea5e55
+~ -[HKSPObserverSet description] : sha256 5f4bf360112cf4693e48dd350de6392c2455cb14ce83f5d03bd4abf67bfd65e2 -> 51575301114e1ff513a92ca7c427f0f7993e9a65421e199d4c2de287e123ab80
+~ ___30-[HKSPObserverSet description]_block_invoke : sha256 bba2a7d1256aedd542b19c4ab86ce93ce72a5221ede7021624b5f2697582a694 -> b599936a8260ecfd00b04a02aafffe79623acb100ffe2529870a51f8d4b6f082
+~ -[HKSPObserverSet .cxx_destruct] : sha256 81553afa602b0379d990dfb1ed659b42436bcd2b69dfa7666a1d321c507685b2 -> 26f3156f6ad1defa40e1a17ccb4a11c4e3a3a80593c6e9293272f027d1b923f3
+~ -[_HKSPObserverRecord initWithObserver:callbackScheduler:] : sha256 8dabaa314d01bfd47dccb154b2bf86b4d70b52053af6e87c5b95f7d78929d172 -> 316448c34bd98cfad05360f9c7fb87dd2159c2ec3df46e1346e33177a9b0b43f
+~ -[_HKSPObserverRecord observer] : sha256 0cca77b1f8b60f5a1e55bbb2094fb53b9840db45a13cd59c75722485ae55efe4 -> 332f1cae5d5912c63e9a6201b92d9d551aa16f79a815b689afd358da3c7e6f24
+~ -[_HKSPObserverRecord .cxx_destruct] : sha256 2eb66b3e2f82f06f2a6f7f0c6093a3a2f81bc771b11d8621fcbbe3ddb03ce04f -> 5178f94dff727413df683707c8c1d766c75dfbc247a5eada666f55c3039bca91
+~ _HKSPPowerLog : sha256 c69b7a90685996daf01cc8073ae098d883f4358a066aa15a2a9e1d150772a92f -> 38da985cd60c1dfffd4c09edcb7aeb8eaef298680b72f6eb871d0fd9df4c886b
+~ +[HKSPSensitiveUIMonitor sharedMonitor] : sha256 be46b97ca87790312a39715a090c3bcacebff568defccdb24f08c7f8671b8b17 -> 125fc10c330cf5cc7acbcc658414af18eecb406a3b8e1d0051e8dfe093b3a5a4
+~ ___39+[HKSPSensitiveUIMonitor sharedMonitor]_block_invoke : sha256 c28967774e779d47c7c6a50b263788d457d5db17693e46225ea6b13898aebbb4 -> 9418fdd7c4ad3b67f5798785ddcbafb5e56fd6230aca2dcf2246fafd21489b5e
+~ -[HKSPSensitiveUIMonitor _isVendorRelease] : sha256 92b8fd31d908595e29b54dd482799b13eb4aa270fc563a21a171360267c48669 -> a348843c879c054e8b38e304d7c4fcedd4e5e23b7d1c62d8daf62464bc5c7cb7
+~ ___42-[HKSPSensitiveUIMonitor _isVendorRelease]_block_invoke : sha256 dea42f67a1df04512f587f3307be1d896d024b50d5ed817e5992beb070b0960a -> 63e5f0215e5ab49846cbca30d67d42a8a996f028ce684ba9c66e9f32de2f082f
+~ -[HKSPSensitiveUIMonitor initWithCallbackScheduler:] : sha256 5dda47dd87ac1b312302c2bd73ea85a13f2ea708f0d8831ee4d82852efeaed4f -> 2b3f3af7ae25e994d975334f4942a2339bf678fd5b2fef5c904b8f4d5d56c0eb
+~ -[HKSPSensitiveUIMonitor dealloc] : sha256 a85ba0a6ce267ec80e02a87d447d20e5875884328f10bdfeb8f8a3b38677b5cb -> 465c3307c80ebb3d4269238a212857be3ab6fbb1baf1f30182c2e7b6d6a417a1
+~ -[HKSPSensitiveUIMonitor _withLock:] : sha256 1961d28b82d20366d2395bb5ae9f1525161ef45bed8dc8e759ac88b384f17144 -> 2d7310bab11a3bca889cb26ee52090a955e82de8d9ac95a6b95f376f51c6008a
+~ -[HKSPSensitiveUIMonitor registerForNotifications] : sha256 e8e7a8204ed16b69069a14630c8663083e869de8e192051402667c6f88a8e126 -> 31c672b307d830c8a763505b86cf1be18827065245a42508fcc097da7f65bc20
+~ -[HKSPSensitiveUIMonitor unregisterForNotifications] : sha256 94e7e14ee0f48a30496f7fdc96a1f9ac9a4501e010ebf9205f0b6c37c50992fc -> 03e884de339fcfb24bfd674adee12eeee032a3bae52a89e6f00a96c2a6e5fe5f
+~ -[HKSPSensitiveUIMonitor _handleNotification] : sha256 159cb6eb94687dac939775475517ec130fe83746af96691649fd55f20fa8cd50 -> 4c675af96ee765eb82c53c6fd437a7b0953ba6255598e5be88bb762f79a3a503
+~ __45-[HKSPSensitiveUIMonitor _handleNotification]_block_invoke.375 -> __45-[HKSPSensitiveUIMonitor _handleNotification]_block_invoke.381 : sha256 9b2249a1d8526c6efea5a94eedf07cbe5a9efad22c0becc1202e8884eb043dcb -> 670a6b52f5c2064ca7127040d0076650ecae739bba74a45db4a168b55871d5a0
+~ -[HKSPSensitiveUIMonitor observeValueForKeyPath:ofObject:change:context:] : sha256 5a6f85caeb810922f10edf1eee4b3c5160ccfb954a8b258c7de323b3a34d3ca3 -> c88e0bf8ca642bae583dcdf6aada7a67f60d35780e22f3b128abbd9b14df3cd0
+~ -[HKSPSensitiveUIMonitor addObserver:] : sha256 b1fbce0be78a6f3c035984b8230112102cb9ced33228ae6f467006d925384261 -> d44d8590b321a0c1273a11f63697976cff0bf711879d3d8571091c0c8120a293
+~ -[HKSPSensitiveUIMonitor removeObserver:] : sha256 0b52951efc42f4ff6367cbb6fc0a604a738d079d9b7f8d209c240f7c3009c2c6 -> 9bb373fcf0838cd68840baacd193b181c5235493b4d2c09622a6acf0e3adae80
+~ -[HKSPSensitiveUIMonitor shouldHideForSensitivity:] : sha256 7916b9efcf05ddde16d9001218c6284b25714ffa3896904d48e5ab31194c1ac5 -> 1e8608a10fdf2e2b5748528394d5bdebb817534304aacb5a34b5a9966381a091
+~ -[HKSPSensitiveUIMonitor _hideSensitiveUI] : sha256 fdbd96f24456494ad04869c83529fb2f5b5e4f9752444ab98263ae970eac5c68 -> e14807a361d8aa732230bb1a534e564f55b8807a278a298d5216f41d0c40c90d
+~ ___42-[HKSPSensitiveUIMonitor _hideSensitiveUI]_block_invoke : sha256 02b66f3fe5f2b90704b9dbbdd411742dd2ad285f4afc79358ec956309b0f2fe7 -> d8cb767a714b0793762824c1e5dce69a988b6673abc52d3e28e7259e711e4a70
+~ -[HKSPSensitiveUIMonitor overrideHideSensitiveUI:] : sha256 eb57824e9739727e4db93f1571c1c2906d402e4d6c2ff5cc8ec345f63719c18d -> ccf55e41cfbb970a5c6b30645527ed0155b71410f4b574e5bca9e3dd1a51e583
+~ -[HKSPSensitiveUIMonitor isCurrentSensitiveUIHidden] : sha256 d7883d07a1fca077bc081b5677de1e22f2e5bbc825778f8de189a0b5d77fa01f -> 8848606cf7236c10c6970d6bf1d91cf01fa4154975c514f80e7da268d58ca049
+~ -[HKSPSensitiveUIMonitor setCurrentSensitiveUIHidden:] : sha256 5dde5b47ba9b9116102d836fbf14315676a7c0608d632244cb08bab61b89f438 -> ef9eab8ee80f72a11d29aa9aaf3befe5dee3e7b48eff25ef29cfef1fbecc8413
+~ -[HKSPSensitiveUIMonitor .cxx_destruct] : sha256 f790859f8547fa0f75c14c826c3c56e676ae6a1d30350a400b32fd5547edcc32 -> 980cb8974a8cfaf2ba4221eac812971531529f569bbe412d1170ab3fef38cbd1
+~ -[HKSPSleepModeButtonModel initWithDelegate:] : sha256 5b67df958293a09c6d3362f8ab4963bc496e8e7200c317d0f06dd8c028e2c39c -> a039b5c533f6b99d322868abbae5d08d007cb03e17eb0f09bc511fb49fc45d63
+~ -[HKSPSleepModeButtonModel initWithSleepStore:delegate:behavior:] : sha256 3cc5cf5237ffb3e259b025a5aee051953bd45c12d6d20651fe778d5c55f0594f -> 1ccabe0b94c70d1bf8b1a020541d0586f2208b6d89bf32897b6ae55f8fedc022
+~ -[HKSPSleepModeButtonModel _checkSleepModeState] : sha256 c4b9822cf201325c2f03a55c6d63d83ee1de045005b96d736b21bf6e1b803116 -> 404ea8ff54e408ef6dda5197cc9da00feb2fde29d2e99a8a04bad76c20905e7c
+~ ___48-[HKSPSleepModeButtonModel _checkSleepModeState]_block_invoke : sha256 3804399a580c9d9cba8b4819d0fb680a486d65574f31863d3805d82122892788 -> ea127d68bfaee57ab2c8c80887486abf663cc31e7cfef6099451fb1f887b8923
+~ -[HKSPSleepModeButtonModel isSelected] : sha256 71bea9e4602b6fe103fe956b19e7ceae504bc47daa26c79ae9430f504418e6c1 -> b35ca21d59fa6377697f9dd6272b7ccdaef4702dd5af517d650a893ef2e8adba
+~ -[HKSPSleepModeButtonModel setSelected:] : sha256 c32dace84591063dcde264d3abdd913ee86be4b8487a4b186a2ab263695fdf95 -> 0231841f5aeec62401926960a253bf8bd6ae29821d9299315a2cede96d923cda
+~ ___40-[HKSPSleepModeButtonModel setSelected:]_block_invoke : sha256 7f66fd7931b7b5c8a8fa24e11f2f9464163b7a03910092ee42d86fb6a3aa74ee -> 384b0a227daa8454e9eebe289019c2b6639381092fd740cc0a77c7636cb8274a
+~ ___40-[HKSPSleepModeButtonModel setSelected:]_block_invoke_2 : sha256 f3095694b93463faae3766155d07c92c86c3f779cb33029fd18c6d0ee84aaff4 -> bd9d2e7c5912fcf6a81c48850a6c9b6fa6cf1d543e0c8c538fb59e22ff1a632e
+~ __40-[HKSPSleepModeButtonModel setSelected:]_block_invoke.373 -> __40-[HKSPSleepModeButtonModel setSelected:]_block_invoke.379 : sha256 87172e8d78c1d13b7f59b696368f30ef9f24de97f0351e63914698f65ec73cb2 -> 46a71d3bc2c84966dbcf839b6af0bd6fd50a5fc37226e993f1278b595201ad6f
+~ __40-[HKSPSleepModeButtonModel setSelected:]_block_invoke_2.374 -> __40-[HKSPSleepModeButtonModel setSelected:]_block_invoke_2.380 : sha256 9e97fc0861cf21f2366a1f104a2eb659d12234b490808688ef1ac202d1987c21 -> 420e387616c9ba87bc7eb3e8b1254c1084e4191efd0046e960a468f32e51c0ef
+~ ___copy_helper_block_e8_32s40s48s56b : sha256 a1ba599193edf3623bb63af71bfdf556c012f48877414850a5f97494c033ecdc -> 4d73c005ffa7c1126863e285ae4ff7df9510c955e5622400cf25a7a3f5b7f4aa
+~ -[HKSPSleepModeButtonModel _launchAppForOnboarding] : sha256 adace79c21a1c7e76feb5ed71c2f901d5046b2610346725b49606de57965805a -> dad0ca1e7460c89de9d22a5d476f8014288dc946e02207734821c311d4c03d70
+~ -[HKSPSleepModeButtonModel sleepStore:sleepModeOnDidChange:] : sha256 1779925457cd087b304566a7c77d3e68cdda56ef971f6995ad06914b6959cf00 -> f03102e3597bdf8cc0410c0ec7a0f51eef171b4624f250dd69838542cd146cf2
+~ -[HKSPSleepModeButtonModel _updateStateWithSleepMode:] : sha256 6fa1635b3b7ead89530e36705adf7ace48dbc4ceff1d89a3ecb2d33db6ad2ed4 -> e00dbc29d81c61ce94e3508ec7c0753f728e515d97a58a148524cd9bd3a34b21
+~ ___54-[HKSPSleepModeButtonModel _updateStateWithSleepMode:]_block_invoke : sha256 e777107839f80139d0ab5d7b424d1d33f067af3e203dfbd4978b96cc7625270b -> e91f613957547bc3233341cfa1217171464b84840cef3b5b9099d32c047d4ab9
+~ -[HKSPSleepModeButtonModel _queue_updateStateWithSleepMode:] : sha256 7cd1fbed7f76d6c091e80c1f25dbf5fd597ef875f8763835e87f0404b391d454 -> 001c9045ca63b50db8d420220209ef252ad1c70f712b2c1af7558f479ac74ab4
+~ -[HKSPSleepModeButtonModel delegate] : sha256 397eb95404c07b181e956f28953ccffc930c05118648f2ae618941378ad43cb4 -> bc06cbae1e213bc73a32c095cb8e21f158395e78b36d820d6c84c4abb18bdd23
+~ -[HKSPSleepModeButtonModel .cxx_destruct] : sha256 720ee4ae5165de10c3588c85e4f2c55433c02772c2115ea252622a401ce3ab08 -> 4cab07afc02788d4c21a7969480fdf892ee22f1d34ab80489ef533eb85fb7552
+~ _HKSPIsHomePod : sha256 0c85398f441f236fe5c5bc1b4d696a2da883e0d5d85814b112bdb989c639ce84 -> 8fe0863b7f3a90441620a17e26da0c0f796d6565185e22388cce171c933750f1
+~ ___HKSPIsHomePod_block_invoke : sha256 8d40806eaff34d8ce52cbadc7b1e94248e324b5068e1185685f828475bfca9ac -> b72a776f226a86aac4d00d05050aee53bc252375ff2ed0526a43254e3b8468cd
+~ _HKSPCurrentDateProvider : sha256 1df5aeb978ab736f30fa082b21890b4dea7425f524deac9ee47474386ed3065b -> ec48ac518eea30f21a8e36b4d53d9fdafa751187f6b8ee834fb3c625737a9f78
+~ ___HKSPCurrentDateProvider_block_invoke : sha256 6f3b396ffa4d88068845bf4fabdf73cd80f6e3128fe89f000ca6e24af3ae8b9e -> 15118c82939ade5678a1c1570a33ef88b7d99f84ba618a3204fc87f19ae7b2fa
+~ ___HKSPCurrentDateProvider_block_invoke_2 : sha256 a73fc2abe5e6fb476a96b685d71214b087a2a4de633fbe88039e3dec52e37deb -> 459088a63b8ce26654008c1849360c1639abcd157feb89e3ec7c28eb979b1327
+~ _HKSPNilify : sha256 17f3ae19a6ae7aeaa1b5172e679e083c6b1fe6889091186fb6ccb018a6980991 -> d83eb3f1f65e56b87250d3c0683c297c889733eb5d5e08df9769f9c69bbeb155
+~ _HKSPNullify : sha256 98aabfad7daca65e1fec8b5e272178019ffb6519c9bd48dffae71b5c9cbb8583 -> 18626ec2590871b98024fd01d68266be92fa3ec5f5a12b6ad18ce9fed086f607
+~ _HKSPLocalizedString : sha256 8e0638e9398a57e7d19ba07f1bdd3048de56bb0833ac85cc300f4cd67136b96e -> bb335dae6e6b6fbe1dabc3ecee966e892d057e07782c0770ab4ed856c7b83a4a
+~ ___HKSPLocalizedString_block_invoke : sha256 037133fa1831e993c995cadb2c1d95c6747b0f12f547d951ea7b93bc157deb79 -> a48e0e849f48f9d6978c951769170283b3f6d484a232964d3e13ccc96ab62a85
+~ _HKSPIsValidDate : sha256 b3f90cddb73721ed4dfd0a90754519810c76fa6664f15dfbf2dbb74297bcb079 -> be5c36f874c93d8ca796ba53a957c183124f8282c43a2576a7fd9a5335ca9e09
+~ _HKSPWatchKitApplicationLaunchURL : sha256 6b22c8b3621d62aa19755b66797e65ef0d2b1d354e6ac7e2261ef43066269d1b -> 454ec11eeab4d96ea6d57272b23a931d510e451add8d9350f8659ebcb8a3dfdf
+~ ____URLQueryAllowedCharacterSet_block_invoke : sha256 b4d18848a14c751de321219dd8eb35c0a65f26b107647a74d79ccd757f22d4ac -> fe2d343261f77474d1be2684c9cf1f942c7cffb35c26ea2963a723b3384eba32
+~ +[HKSPXPCClient clientForConnection:clientLink:] : sha256 a771424e29a946006357e06ae0d4fd58fa29520631680cbda127e0793d4c2cb8 -> 8539f3bc2102bdd25964821ea8f0f118b6d44d6b7477c390e89b0c283dc38eef
+~ +[HKSPXPCClient clientForConnection:clientIdentifierProvider:clientLink:] : sha256 4f0cb9e14baad1bb58efec846ce6f3569379e25dac9256360afb804dbaff739f -> d88298d21c5b5f4cdcf5e138e32dc5cd8af0296bca843c376c41cb0f487432d3
+~ -[HKSPXPCClient initWithConnection:clientIdentifierProvider:clientLink:] : sha256 4b19cee0a2826ece6c75e1dba6aa11a8fd3f9dd1b3e9eaf8fbc5dabe9a8b3606 -> 55cf9aee2dd9b58218ea354325d4bb58d0fef51f58d3257c70b81984b9f8be7f
+~ ___72-[HKSPXPCClient initWithConnection:clientIdentifierProvider:clientLink:]_block_invoke : sha256 9489c95dabef53619b49bc3a058d8fe65ce1e4a437d90bf36f20b140b929e903 -> 5ce6db178b3fc2714944dae9e3a64461bf57e51bdd552db727cce3cb29371508
+~ -[HKSPXPCClient processID] : sha256 e40a4079e6d2178dc743a0f091f31c8dd621af9203f5904b9801b831f8eb9671 -> 86062b25e31c69cb330270f509c8c4d65d2771ccb4ddaef914e4d6c8dfa26545
+~ -[HKSPXPCClient isEqual:] : sha256 c6e9041d212ed5f1ac65979d84a508f11eea718dcd9b481e6149a23a73df632d -> 6971d08521a5e801becc5248627d4b27ef86bcbcd9304cc5a89dfd2a01caf9f5
+~ ___25-[HKSPXPCClient isEqual:]_block_invoke : sha256 4ea9cac49fb095c96eb7e2b4dbb177468057fba76585165e410da644c472483b -> 33cddecda94e627b129f3e78d40fbb2e1095594ecc47680eb92ac846cf9bfb06
+~ -[HKSPXPCClient hash] : sha256 1d49b132544cba6db88e52a7f165dd903f3cf18c0b2de40ec7ff6317a8304b91 -> f0c61ccc4994e82041ee3d4b0190750c25818a148e26e663b915131593e84457
+~ -[HKSPXPCClient description] : sha256 bed6ff48231f0b049c0bce41b0e6f7267ac55b4ebe7fdfbb298de216d8616c06 -> 7c901e29b1aa6c8e273e5d1b896a4de72a1f5aa4b0cd4c7c50e1efbdfdc034a9
+~ -[HKSPXPCClient succinctDescription] : sha256 a7d030a714b1f60d5c839134cfd69923b33e91a3aefc808271a6ddfedf7fcbcd -> 54048cb1e81f83f00141641154239eca11a2af43a3f0f8e55cad848225efb9c0
+~ -[HKSPXPCClient succinctDescriptionBuilder] : sha256 5fe0b9fedab2d2100f0915ff82e6e877816ee2ce1101f20b56507c30cf299c06 -> 979be34b581b761c202a03c8ef071669d96358f393bf05c3ab946999357d183e
+~ -[HKSPXPCClient descriptionWithMultilinePrefix:] : sha256 423cac82f3b022dddac9cd1cf6eb77fe52d83ff34399937de7850042348f32ff -> 0e59db3014ff906805bbeb65b8b01099cf5cd5d1f5366215c935a249564da6e2
+~ -[HKSPXPCClient descriptionBuilderWithMultilinePrefix:] : sha256 32eaabb758fd34a0bcedecc6b9b67d92b371bfe0f6af02a580a945bfefea7e5d -> 95d45eebe94a43971a05b6dcfdebe7d8172982150216ed9a587eab542ef85734
+~ -[HKSPXPCClient clientIdentifier] : sha256 8af7a3e7b2e7d8017b8e22a70fd2cfcd01002f60d496fae880e908d1c8a1031d -> ab7f05e9fc24bd43ca9068f044cef63fa3995e9bbe78e0e8fd2853030d0ec7fa
+~ -[HKSPXPCClient setClientIdentifier:] : sha256 6f62edc9b4b63194fadd5f31ba84c0257cc3963711e49f38db061626255a6a84 -> a4423636d11876dcd7f4532b5bc8e8b687c49104105ce00b3b9422d7318c62cf
+~ -[HKSPXPCClient .cxx_destruct] : sha256 d24cc7f78cdc67ceb7c84274446f9b276dd9e9c2f1e8cf48d7fc781044f90557 -> 81932fb6611ae41a7d96b42d9bd57f702a6e139b6795fe5b67a39f7582bb01a2
+~ -[HKSPXPCClientIdentifier initWithUniqueIdentifier:loggingIdentifier:] : sha256 ce7c3064c6d52f5b5547cf3136415e64cd5d2f40b45f190d3c811f3f30892de5 -> a3346ab76e1bb9cb5e24fdac091638ad36ba33ccbce5aeb6fffe2af0b44238f4
+~ -[HKSPXPCClientIdentifier copyWithZone:] : sha256 20809b3c01b2f7e160d8855981649879633b5f3c66d6c1a2a6c74f6891860e8e -> f893dbdc684fcf0c48d8d0ad38d6064099b3a846101e875084f9a95361086f07
+~ -[HKSPXPCClientIdentifier encodeWithCoder:] : sha256 c0daf75ac1bd6c3b101d6ddf20bdebe539f8257ef26e943d245c6b05bb87f1b1 -> 1e858e8e952d69e6fcece78046ac98b303e76232cf3a8dd38ebd3b2b4c7f0b51
+~ -[HKSPXPCClientIdentifier initWithCoder:] : sha256 7fe6ada9f79f0b4428021ddf300d25dc97cc0196dd4baa83203eb54561a32045 -> e077142798cb2acac54f36a17b86ee312c9fdfb8495dbcb4b556431ac5eacc1f
+~ -[HKSPXPCClientIdentifier isEqual:] : sha256 005b6bb1441f45da562c8ff3586b5b6db14b71cc98d14de4df4b0de9ab6d776c -> e70c130914cbe99fd3d2d78162ce5ec694ed4c0cee3fd31d1b445a7fa9bf5260
+~ -[HKSPXPCClientIdentifier description] : sha256 1451e7f57f6fbc8cc29b86392927917c8813e529d8c20f92551e201146d0826d -> 710f9d69e80f73af2ad3b95fe6d6186db120e224c627165bf09d435aef0afd48
+~ -[HKSPXPCClientIdentifier succinctDescription] : sha256 cfa765fe179a1eee81d7577ef5e723cb210eb48964a4f36e3d4a980fe0e598f6 -> 5871e1b19e4164716dc6e93506b45702a20b82ddcb5c7e3f4c43d1f1116d9236
+~ -[HKSPXPCClientIdentifier succinctDescriptionBuilder] : sha256 1302a34935488f6da367fe7de8d83aac2be592dbf4a3cd22e241b8d7f55df7c5 -> ea3b0bf562dab3907a192c0da466ae8ea18dead463e41605aa4f12f7af1eed3e
+~ -[HKSPXPCClientIdentifier descriptionWithMultilinePrefix:] : sha256 e78d08886e5ac13fa25268792d6cb1793bc3493761d210fd607d1e2c2fb3aedf -> 37a72fe742848033204352e456e1d572c275b90e1b8b54b01e79d1d99535983a
+~ -[HKSPXPCClientIdentifier descriptionBuilderWithMultilinePrefix:] : sha256 f4cb70d41bbd795ffd364d0efe241e489aa2b2e5244002fc18e69436e46305e2 -> 51c35475d4d5e7382e59e1b8131845833d6aa32d020e417a0571209e7d330f71
+~ -[HKSPXPCClientIdentifier uniqueIdentifier] : sha256 3086b92401203ff8871939f52b1fbfd4299d51587b6d451fd01dfccd64c4351d -> 8155ac210426272b22be4e674df32810943ee29bc786902f3b0c19fbb144c6bd
+~ -[HKSPXPCClientIdentifier loggingIdentifier] : sha256 a9c259d5dc4b171356600bde16ab7412c9b5f2e04720c76ecbd552cc4c11b2c5 -> 0d4f00b1e176e5f7fd5edb66f32ce51f0ec50e4c510ae9b9c4dc8d57505214bf
+~ -[HKSPXPCClientIdentifier .cxx_destruct] : sha256 685828fc54779b28340f69af542086d2b8068c0a64b0d15e92397edda636f5ff -> 77fdfe12ee3d18d2342e6da7eb138f49d421a8555cad9bf6f2b36ae88157e6f8
+~ +[HKSPXPCConnectionInfo infoForMachServiceName:remoteObjectInterface:exportedObject:exportedObjectInterface:lifecycleNotification:requiredEntitlement:options:] : sha256 2321b79f14ac74e913f9eae64abaa7ddc7f64e7a9ab2eb8f9e53c7998c90f61e -> 7324eb761f1e493abfae6d8a6690ab733a434b3a9d2148b0bdb4428d91108fe4
+~ -[HKSPXPCConnectionInfo initWithMachServiceName:remoteObjectInterface:exportedObject:exportedObjectInterface:lifecycleNotification:requiredEntitlement:options:] : sha256 c86aed3f4f738a0b6822f3a171e983615c63e86f95be70d0de6de2dc3571de62 -> bb73d05c52cd0ffbbc1e1e642b13bb09273ff4ad0c2f952298d1e78a2e7496ca
+~ -[HKSPXPCConnectionInfo description] : sha256 471efef91f4e3ffdc785e1dacf2252396cd1ae287137ba3c98d044128eb3aa7d -> 2d6da33dee88cacbd192c76b42d034b2cc22a8c30d618243536d72f12de79217
+~ -[HKSPXPCConnectionInfo succinctDescription] : sha256 9aa54b7e470dee7c48641fb2f6517868ce3e1cd57e8a40d16f095cae3566b88e -> 16b7e84fd6b38896df3757f993e2b34ce7a57332246b2b7fe37945b367b4f859
+~ -[HKSPXPCConnectionInfo succinctDescriptionBuilder] : sha256 bb5ef39ba10992c3bcd2d84da6b1aeda930f3beee4fa9c54bc986c49a956b9b5 -> f91c7e443bd989c4def6d38864cf7e541655fd66d1f06fd12a2c8446bb5cd28c
+~ -[HKSPXPCConnectionInfo descriptionWithMultilinePrefix:] : sha256 218f1cb398528009c6989ad32574fe99c14106add407f9a330c9189a3f8906ef -> d266eb49be72af1e4ba825b857689e0ff62f1d8db89868beb7411c1dc29be7b3
+~ -[HKSPXPCConnectionInfo descriptionBuilderWithMultilinePrefix:] : sha256 e48b7e02b1d57c601340a221fc9e66f8fe8f9555476109d8928c5918d56f3356 -> 7f2e94762c80bc64954758fa6cae727b64ce8688fcd566d3916bfc55075a759f
+~ -[HKSPXPCConnectionInfo .cxx_destruct] : sha256 1afa6609110a96c939ce8c8e460968b7276c0c9c579cd312fece5a3a2c7a6257 -> 602ce51e13f91bea6be56298d10a3eaa48c775c4de9bb8bc9bdbfde501cc10d2
+~ +[HKSPXPCConnectionListener listenerWithConnectionInfo:] : sha256 7968a32c854fe26b1dc6e7569fc7ca3d8371fa6b0064c58c3e5c54761d5150d6 -> 736d65693a4a479ebcfab8f2a843e14b5944cb25fee3be112e6d2a8019b9c03b
+~ -[HKSPXPCConnectionListener initWithConnectionInfo:] : sha256 2076de729f02b77865f8df19e1f9e402fd3af5b0bc1e05376e6557893f1dd25f -> 79380298703fc271d1f7a9f836db09b00497d940df4c9f83f9aa67c1ad83680a
+~ -[HKSPXPCConnectionListener initWithConnectionInfo:connectionListener:heartbeatGenerator:] : sha256 67370f1163aec5bd34712bfab55e3ac9a225772fcfd815c90a00fedbc0c6448b -> 9ee6d6e0af67b5423830909e2710787178e3af9b976fb81b188973dc78afaeed
+~ ___90-[HKSPXPCConnectionListener initWithConnectionInfo:connectionListener:heartbeatGenerator:]_block_invoke : sha256 d6c81fc67af96b0c343f813c864530c558a2d39d482a203c6ec424fd409432b6 -> f8903214c5b152e22a0e7b4e442ba602ab63a89ed16942876409e114a8e2e362
+~ -[HKSPXPCConnectionListener _withLock:] : sha256 1fca53f6a10209b2efd90bee4f1f8b0c07677939e5f1553663265cf1c3c214e4 -> 208337728c9f3bd685145c1c7b2d355a6020fd65081498980aba7cfe4fbad211
+~ -[HKSPXPCConnectionListener startListening] : sha256 fea675d26a23e61165cf8b4d863283780e85ee0caf6d792037b0a7c8a5e62c4d -> d6e25abffd56295c5368d7e31f33421ae4f9ccedd17a9e6873346de71c8476d4
+~ -[HKSPXPCConnectionListener listener:shouldAcceptNewConnection:] : sha256 c1e57eb71e1de99d718823370d31c06736dcf2aca1b2b4654626db4a98068d41 -> cdda0bab6ddee16b74ef481195cf0d24110f08ef2e32fddfe76942dd0cc46695
+~ ___64-[HKSPXPCConnectionListener listener:shouldAcceptNewConnection:]_block_invoke : sha256 ad2e3e836a645ec0931b362e92175a3e692fa84de4646c34bf33d6a0bfca66c7 -> 7206d0f96c8436f74a403bb122cd82f55ed39c487a92c43d6472531cab206010
+~ ___copy_helper_block_e8_32w40w : sha256 34a7ed185e2e90e783773fce7c469838e6238aac2aab819ffc53635a6ebd5803 -> ca44a1e81fb50d16ee4ab87347c7bce5a8757ba63f6b5aa8b2bcc9a0673c536e
+~ ___destroy_helper_block_e8_32w40w : sha256 6af34717046feb543bc41b10acb1c830c6510e3cbbe7a5395e8e4b5e08aa67bc -> aa899d0b5028c4d6a49abb82ab73abc923119130d7e2c97b882a195a98dfd850
+~ __64-[HKSPXPCConnectionListener listener:shouldAcceptNewConnection:]_block_invoke.365 -> __64-[HKSPXPCConnectionListener listener:shouldAcceptNewConnection:]_block_invoke.371 : sha256 812ab30835f1513d6873005cd58a91502f8f21d9bd0355a3b8fac1b5c625f727 -> a668e17ef0da90c353e93c9e3f2d3a61b77fbef97e0b1573a0f61d433e9d2657
+~ __64-[HKSPXPCConnectionListener listener:shouldAcceptNewConnection:]_block_invoke.368 -> __64-[HKSPXPCConnectionListener listener:shouldAcceptNewConnection:]_block_invoke.374 : sha256 2da1f5aab0e7a09120e4c56196edef6a8fea452171dac6626872bf533a747feb -> b389c1ff80c81826b2531b1c03044c46f2a08090e32682634263782b4dc32a1c
+~ -[HKSPXPCConnectionListener _didInterruptConnection] : sha256 0087848e40fc96925a410d12e07dbed0acc03aa59e4723f2f8917aac7f73e9a8 -> 2a417b68d1a78457d26308e941173f5f7f60048dec86286a445a43856e29f29d
+~ -[HKSPXPCConnectionListener _didInvalidateConnection:] : sha256 885f2e5ade46a45930220d46cd67a1f571d648b3ae7aae65cd35e262ea778165 -> 3e52415cb33d47262b5b92349e94b3361efbe82abc2a50b71466d69f83f26ed5
+~ -[HKSPXPCConnectionListener addClientConnection:clientLink:] : sha256 d99b6ee59139db463d6f1a9b4d09bbe87095dc03fdcda6f2cbb00421491e8c46 -> 956b3c4f630c7425ee20f4a1cf3258b5fa3aa642dbcb07d3fa21ba5f5ef1217e
+~ ___60-[HKSPXPCConnectionListener addClientConnection:clientLink:]_block_invoke : sha256 e87dba090f4205cb50dca2829b888e95c67432ba46606642fc3f394a46238f80 -> 7e963fabd78b589c2a019813ef9c74fff63761895482f6da30494d7d275a4705
+~ -[HKSPXPCConnectionListener _clientWithConnection:clientLink:] : sha256 34d02d6eaaf5079e9bf3eb4ad00dc7dca1b3eb17845545af670d76e39310d418 -> dfe4ce223aba7cdc0767b30719027c3448b1fd1f1b3f68f7ec1d1c5fa17d7bf8
+~ ___62-[HKSPXPCConnectionListener _clientWithConnection:clientLink:]_block_invoke : sha256 37a3045447dd593aa3f642c672c4af982f70f5903059e3faee4e6c929cc18561 -> 310d4a09c460c62a37f582e59d73ed57f43825942a411292b1a8c75ad19ae957
+~ -[HKSPXPCConnectionListener _clientIdentifierProviderForClientLink:] : sha256 7818e70955c38d85479e504464a45bc7d9c9140624ea332feb770e83d19fc097 -> 2fecd0f2b5c7e16fa3a1523e49db7bc2329e03633fc56efd4e81a38ceda4da69
+~ ___68-[HKSPXPCConnectionListener _clientIdentifierProviderForClientLink:]_block_invoke : sha256 e9bed8ecd439078194e6b0fdb2118360e3d06401cd3ef72134c6dbeaad278388 -> 5aa875b6d3f59e5ef4ef15279ff94698018f0d84b2a81b884b7915b9b8d9da81
+~ -[HKSPXPCConnectionListener removeClientConnection:] : sha256 4d91352e482a19ae3ebb10e8281d3221320a169d2f576b98b0878d31ae2b64ac -> 367cf6dfb57032ffa98acec2c7cac7bda70c7944ace3b4275de0f5508e5e3513
+~ ___52-[HKSPXPCConnectionListener removeClientConnection:]_block_invoke : 464 -> 460
+~ -[HKSPXPCConnectionListener _logConnectedClients] : sha256 72fef838c7f6a1b6451c5f5e2b740ae0e715eb63ebb9a58feef1c15595251e38 -> c188a3426c23adcc1ff9fc342a983d805235f6bb801b12bb20ec223a3a117c4a
+~ ___49-[HKSPXPCConnectionListener _logConnectedClients]_block_invoke : sha256 d777604616c54ea88eee21bb055cec78ca85a3445b04d022455a1d35a3cf12c7 -> 314fd9513e73efc6863c55b8b600019f208997bd6b7e2ec615e7d0dc81b29a6c
+~ -[HKSPXPCConnectionListener connectedClients] : sha256 502dab248515e973b42fdf1dc6567bb7f599c9fd8554b28af0413ce835215a96 -> bce742c0c1be50a58a1068c182810560fb5fc4db5da1ace799b8810c214cd353
+~ ___45-[HKSPXPCConnectionListener connectedClients]_block_invoke : sha256 fe85c0d3636e96709918537d2811e9aa47ec74e9a64e355bf7e6ea8b365a65cb -> 64b249e8ec0e72080af2abe50d03d983718c2363b824d90aadbc8003ad662360
+~ -[HKSPXPCConnectionListener connectedClientsWithPID:] : sha256 83648c133cbcd53dc1eec2c47c5fde5fcb3f1dc316c14db905e47e09bcb92529 -> 7558bf79080ef77d693facb6fe033a3c7ca573c09713f9f7c185ff4f301a1e58
+~ ___53-[HKSPXPCConnectionListener connectedClientsWithPID:]_block_invoke : sha256 9023ee66faf99f73fed30d5b88571d9066f6895f96d8be694ba2ba3e8f579bd3 -> 9eb070ffb373bde61543501d3e977641bdc59cda94beed44adfec6e00a8b4946
+~ -[HKSPXPCConnectionListener currentClient] : sha256 e7ec34842f33a825a37d89566eb91cd358a8086a069f5fa4bb8d9d478bb6b412 -> bb37cae7d678397949c487a6d86401f009c8b4e1f6722593bd8ce4ed65f3c8e9
+~ ___42-[HKSPXPCConnectionListener currentClient]_block_invoke : sha256 79010b08a8f832e059b152ed2e538f1728a791ce09125604fb6ae038b7bd7825 -> 1b9fe911b7ed11f6789dcb1eb17d077165aa3f40eb1a78890066c3f2b823b2db
+~ -[HKSPXPCConnectionListener _currentClientForConnection:] : sha256 ec69b6d449b162a9acdef311e003c16173fa931d30a24df0f45fde4df4530e65 -> 29a9d97ba7d64960787d06255f42c58b359956d59d93fea37f5a90fe6774c804
+~ ___57-[HKSPXPCConnectionListener _currentClientForConnection:]_block_invoke : sha256 a78365de05f95f74d4728debbbf209406a378f0f2e1fb8b30c4fc58da2a0967a -> d826aa61f5112030dab698e756a1c230abb54becad55e2204f500ce6e1a90012
+~ -[HKSPXPCConnectionListener performRemoteBlockOnClients:] : sha256 5d93b6490db762d4fc9cdea463a0c6f6884d5d8b7ab2e31cfc0e9f9aa7b555a2 -> 9ee324289138a7c4f2a68201eea2178d5de7f53a691a3c01c85465c298e2dbe9
+~ -[HKSPXPCConnectionListener performRemoteBlockOnClients:passingTest:] : sha256 3cc491906ec8577ee3327524dc515579ac88e164a65f44a9a2ab3e91360e5f41 -> a3de1a67d093a7bd5b1db2cb38bd61e7010780a2e9f95ee7a182674d0798a3bc
+~ ___69-[HKSPXPCConnectionListener performRemoteBlockOnClients:passingTest:]_block_invoke : sha256 817b242b7f68d84df7b556f38930610454181120683b5c399998cb900a603df4 -> 32ed30030b06f5a6483a6e9fb55318fcbd53edcb7297a09468735e0a28a38712
+~ -[HKSPXPCConnectionListener performRemoteBlock:onClient:] : sha256 21e762227b70270b1ef13cafa95012d6833b5dd66d864ef2943bdbc8861b0b0a -> 85386a84c904c981ada0ed09e852c161814e117ed949fe89fc41fd1eb45fed24
+~ ___57-[HKSPXPCConnectionListener performRemoteBlock:onClient:]_block_invoke : sha256 7ad8277a8026d2f8f24e2c12a2798cd5ba941a78ab7fa383d863cb15dbae2312 -> 63583d0da4192a0477914f5873c3e9fcb3aa47b7eca4a25539fe56ccce0803a5
+~ -[HKSPXPCConnectionListener dealloc] : sha256 cfde888b70a1cdcab9786abf71981c1c46f318c0c8af0bc44b06f24471cb8fbc -> c55100f15f6d8077191de78913420dd7277c86763189029d43779cf7865fcd44
+~ -[HKSPXPCConnectionListener description] : sha256 251bdeeb6648b6c0d3b16bdd26b44ca23b6fc7aa74736d6496ae3c435b12f19a -> 717cf7b4892a416b1ac708a06ea419575469799775e9f7f5d3d68fb7e5e322bc
+~ -[HKSPXPCConnectionListener succinctDescription] : sha256 31d72de153175ed958f676c4113704a2defc4bdd31b9272e4e00641da2baea11 -> 9f28956395933b29209654eb68ea6b1bf9f2299758f28e79ac5bb7f00f766d43
+~ -[HKSPXPCConnectionListener succinctDescriptionBuilder] : sha256 a3c317120214f8576139798996d6dce1a7938ea388c7512208147b0b42bdf17a -> 091fc239ccb1558f4cf97fd6fd39476979ab1b6124372986e6dfd5d36a7c0e86
+~ -[HKSPXPCConnectionListener descriptionWithMultilinePrefix:] : sha256 435c78d260fd7ba23396802f9bdc6cfbcd59c0882dc2b5c93b543e3fee20365b -> 66f6a8ef8a59b95bf9e3b66fca46a8ed1e1092cb590877b0ed027868d81a6538
+~ -[HKSPXPCConnectionListener descriptionBuilderWithMultilinePrefix:] : sha256 3127c23c564c847e4ec037da974ef5eb5ea1831192daa06cd3574a49e304605d -> 8e3cb2ca89c18a97ed38eb2656fe358a99bdeaff99e6fb4c1ecc97d1325b7f0c
+~ -[HKSPXPCConnectionListener delegate] : sha256 28692a2321712276e6a126a60c53ada86ecdcb4c7c67291bcaf2705f4f825641 -> 3e9390be458bee41c8bc83bd6e3e34d429e56e17deeb909332a60730798a73d6
+~ -[HKSPXPCConnectionListener setDelegate:] : sha256 22a8230a1541398508dfc315923c18a909a72b0df4643e3b8ce32fd3f07ff4da -> 372d91ee4802d80a43f478ca90dcec53e1fc7df411d5f8e09cb6dcc2956baef1
+~ -[HKSPXPCConnectionListener .cxx_destruct] : sha256 a20df032609fea85c7466042b084d72a87a015201ead81311b4f3c1eac3c5902 -> c74bd58334dd1b9be6f52dadaca71c49e3cd7007ddad84d5c6e960fd895667c7
+~ +[HKSPXPCConnectionProvider providerWithConnectionInfo:] : sha256 a6c11cf8d42408c2c96c27761f74ff969e963a358bcf977aeba90ec34339875d -> abfb8d50a7a2761d87a3f1c488d4541cc2f2bfde2e7c6667ef256ac02ff06488
+~ -[HKSPXPCConnectionProvider initWithConnectionInfo:] : sha256 85515cefb2f1503c552c45c8d4e8bb9847e28ccce5a5123bca615f1083f50a5f -> 51b59464ab005ac49b0c92a6bdf4743f590f8fea35474aa1b6561a6f9d644079
+~ ___52-[HKSPXPCConnectionProvider initWithConnectionInfo:]_block_invoke : sha256 807a60d767948a224009cff8fb9fd060d80fcb478493ab076c534e2e21d2fdaf -> 7a5878a3ed7adc0fc12f2732cbdc40c9d71b148d5e90a78833a1eff51aef457e
+~ -[HKSPXPCConnectionProvider initWithConnectionInfo:connectionProvider:heartbeatListener:] : sha256 bc83fe1cdd053ecbeb0563d5d43ede0abee38e612bf5ab3cddc07f4ea9ab9a07 -> ac6a07eda7e0805c58283cb48feebbf2f5033fbb72db329f6666fe7e1f29d51b
+~ -[HKSPXPCConnectionProvider _withLock:] : sha256 dc2983b2309188ac09a9b5b66c0a84097cc7cc448517d21fa781b25930ee865a -> 5aa88db1e3537c06a3434b52dd8bbf5ee0e9982a4e94b1df31827cecb6492634
+~ -[HKSPXPCConnectionProvider _addPendingMessage:] : sha256 68b7395dc3835e86bc621220982fc1802e3f3b6f3fa976392c8906c0f99de160 -> e4f1aa5442ff00f01f8fc08b90a931c44d4afbb61d1f3997bd1fce09d4b94898
+~ -[HKSPXPCConnectionProvider _removePendingMessage:] : sha256 0e81f1a81888b2e5c3c25812f1d38d95e4bb664ce45b184bd2de7a16276ae3ca -> 235a86f03d1f3a01c387cbcc6e8ed122a9aafaad52b9de7b1275cb06f4503338
+~ -[HKSPXPCConnectionProvider _retryPendingMessages] : 640 -> 636
+~ -[HKSPXPCConnectionProvider dealloc] : sha256 e103f6012c53a7449ca7f3dcaf51d8855cbb213d73896c3ecc7f8b1e88f71939 -> ff81c3cd7eef254326869815618fc278ec7c4593584f5ce6d9367fb5704923a1
+~ -[HKSPXPCConnectionProvider connection] : sha256 a875595a1fa9c981dc211e266a1e9d2d62cb27790c603dd52517e4c8500da838 -> c9c5079ad1dac54a8d8a4032d77dccfa5db3f3d73d37435f2fb3bfa9e521db67
+~ ___39-[HKSPXPCConnectionProvider connection]_block_invoke : sha256 edcf6c8bb3da9e96d3055fc3c8d35fa21f44e74ef768560a423fa5399add46b9 -> ef767a708cab898868275735b87ed159b3ec582c7c722d99edcdcb9389f33c46
+~ __39-[HKSPXPCConnectionProvider connection]_block_invoke.375 -> __39-[HKSPXPCConnectionProvider connection]_block_invoke.381 : sha256 f569353ec126cec102a3e7fff983c04ee7c0b4a22759bc938ace6c26b11bf304 -> 6e8022327bd71b852f8a070557ebc9cf2f9a3c54dab5279137c6e63c69ae0290
+~ __39-[HKSPXPCConnectionProvider connection]_block_invoke.377 -> __39-[HKSPXPCConnectionProvider connection]_block_invoke.383 : sha256 7ffd5cc76adff1a95ed76cfbd67b9f9c7cb8ed3521844583f43e5423205b03ff -> 3169aa8bf7949f8f9091f92e0394f2b726acacd5c07ef5e503672892bbdfe43e
+~ -[HKSPXPCConnectionProvider isInvalidated] : sha256 5e38abc903535d9a50a3b277cdd729fe2643ed79c917e7687ea6d2952386babd -> 3012625c38ff84a2911a4b55b9dd4addcd9f1472b9524ebb534be6f4191ad4b2
+~ -[HKSPXPCConnectionProvider _didInterruptConnection] : sha256 da31b4c373520397c20eb2727c7cec547cab849056df6d51dc85eff304027a26 -> 8a126a37ff4f04853cfd5da6da59abc87de27f55715872c0de333d65b0ba22fd
+~ ___52-[HKSPXPCConnectionProvider _didInterruptConnection]_block_invoke : sha256 81374eaf876247a61ca07533af7a42ae1f107e314f621465d376f125230c23ce -> cd2adf06128e88cf7785b85d496ab4532b2be82d381c4122fa4fbcb5bc594e0f
+~ -[HKSPXPCConnectionProvider _didInvalidateConnection] : sha256 190ec4a677efcd512a98741c47107e718596f4b0a9d135274788b5d9892eb4f3 -> 0d39ad32a3e1c8b0b79d4ed53c3a88bbbfeb89c2f6b2d22a24ad9124cc894af1
+~ ___53-[HKSPXPCConnectionProvider _didInvalidateConnection]_block_invoke : sha256 7b428f7a36882167ab4bb86e72dff76151e783a321fb6c44ea239e515bed68c7 -> db00c3377ec54b2e05a2865e1d57f7ba80fe0b8ddc8e78aa5f698b49b609a0c8
+~ ___53-[HKSPXPCConnectionProvider _didInvalidateConnection]_block_invoke_2 : sha256 bec8baae4f123e874ad1d2a02b0be40ff4b989ee82b0611e456e2c4cd7a2a597 -> cf2478072e41aa8cffb315250c0b7703f6137c19be5cf3a04e86f7d6abcec161
+~ -[HKSPXPCConnectionProvider listenerDidReceiveHeartbeat:] : sha256 ad5827c4d1fe44c638282d80ab96da34075fcd05f3a04dff8960a4ed297d0573 -> 11f1ca95436e3dfb9bd396d80ec4476540489ccd12d977ae887903c718e9e91e
+~ -[HKSPXPCConnectionProvider performRemoteBlock:withErrorHandler:] : sha256 14c78161687a30200dcd0dbc7384cc95d0f418d90aa9312deca223fbeb32cc03 -> 84d1476cacfbf29e9fdb9e4bc98aff1d00e020500481193dfaeaf2d69583dca9
+~ -[HKSPXPCConnectionProvider performRemoteBlock:withErrorHandler:doSynchronously:] : sha256 2266418d701a472f65edf274044b8039538aaf377d3b3c01d450b8471f653029 -> 0bf64d492e440d5d7f777b105375cf681619098f759023e878593d5f81d10039
+~ -[HKSPXPCConnectionProvider sendMessage:] : sha256 8fca6b60611c2d8f21e1a815b75ad2ed2e9d6d59b58586cd6976ee988c66638c -> df68f9597e204ab860d72264775693207f4cd680dba4d47ea5059bb30017b494
+~ ___41-[HKSPXPCConnectionProvider sendMessage:]_block_invoke : sha256 cf164d560d2815a3e9e6c48ce13cbc574b4c714a59b2538066df1e658bdf1e35 -> 0074ce0b79bc91e840a5d068982023e077068d5117ceb5ebd5c74bd11fab286e
+~ -[HKSPXPCConnectionProvider invalidate] : sha256 c94842741d8951f6b67792c26c051f57419e7f047cfbc83b2f5f3e6f3368d0fa -> 664deb7af7b54278b08899412d2d82c9996458b57676662a9521ebc063dd7657
+~ ___39-[HKSPXPCConnectionProvider invalidate]_block_invoke : sha256 eb0e006f8c40aab2f335285975000fbaf72305945f806a90d81ba671fd8b3a2f -> 397f8e03a0847eb3795f26562671c716b2702c25a078089b9e79e7f8bd1bb801
+~ -[HKSPXPCConnectionProvider description] : sha256 e7e4b1e54c1c671430708a3a0669c014942bde51c6b4d081e3d8d593e4fee982 -> b1c2c562e46ee3f7904fc4e78929fcb20b74e9df3246b5af1083d5823fa71a95
+~ -[HKSPXPCConnectionProvider succinctDescription] : sha256 70015ab12e1daec8014d4ab1049a13b992332fb7f214f2d047a7c112821a4728 -> d464cc43a1fdab993429d63e1360646f0dd5d62c1ec9b24f4ff728fbec115453
+~ -[HKSPXPCConnectionProvider succinctDescriptionBuilder] : sha256 e025bcd9bea9adcdf1eccd28305fcb54daf45934333fc84923fa4cf25ce31cdb -> 9656a1724536db12f46d7206835fad9e7d6defd3d8a958f54006aa8b823abf65
+~ -[HKSPXPCConnectionProvider descriptionWithMultilinePrefix:] : sha256 340a8825b8cc26ce48d5efa7a837849b02834bac5a464e38b4807c5e88c95580 -> c209214c01db0e5660e4e36eecdd8c980cd5c5105d780faeb680529ab8cbad22
+~ -[HKSPXPCConnectionProvider descriptionBuilderWithMultilinePrefix:] : sha256 e43beac05f3d1ad598565d593bbae7286d977bbac7fd6de4d5db6bbb16e9e63c -> da97520558e985149e5fce7cf4be44e4531d406e8f864449204c86555e07cbe9
+~ -[HKSPXPCConnectionProvider delegate] : sha256 2a0ca11732d075b9edaae053f36eb47ddfdb5982292f15119634fb37571a617f -> 8fecf19eebb8a611686ac7096d517ae4319520ff7068ea887bf9cceead84f90a
+~ -[HKSPXPCConnectionProvider setDelegate:] : sha256 e673df3ec981079f4a9e970175b9ea5e02811e1e679fe4d7b7891fe2de5816be -> 1e0e840dacca0fe4529bae10624d70adbf76815088152086218dcfa540f1edac
+~ -[HKSPXPCConnectionProvider .cxx_destruct] : sha256 70b7ef73cadb7bac24dbe63923a9ee6ebb24db67c810d2a315f836f28725629a -> 904346be38d29735982e30850c2ff0435553cf583b1dcb26acc5a5eadd0c2e79
+~ -[NSError(HKSPXPCConnectionProvider) hksp_shouldRetryMessage] : sha256 dccc9418a717d0d5b527b3a19dbee83ba51944c1be88b311f0e68b376bb2f81c -> de34ba4ef6255a33812520ff92d9b13ca99c4d6413624991015dc8cf9b51523f
+~ -[_HKSPDarwinNotificationHeartbeatGenerator initWithLifecycleNotification:] : sha256 7c8870bc3367d4d4d65cb10aac87dedc622b6dcc7c37ca8954b4e1908bdb2cd8 -> e1998033bbc52d63fe34d4dc69c8b9721d24ce6f17f5a620b264ff216c39eb3f
+~ -[_HKSPDarwinNotificationHeartbeatGenerator sendHeartbeat] : sha256 b5382799c3734ba8075156ba7ba4b28ab11d338132fc50cec4fb42d5c1edc939 -> beb31e822fbe64d17962a6072b78ec33e0616e23c18be72530cebd7d92987cf7
+~ -[_HKSPDarwinNotificationHeartbeatGenerator .cxx_destruct] : sha256 1e894986ed562e0e90c804324c0933d255c1a12d0468d685946cfed7341bbde3 -> 4a396dd5c2f089b35ba96b4009c6ed8bc0e7b542f75630f44b54f40a28855003
+~ _HKSPStandardHeartbeatGenerator : sha256 bc6c4293ecd3c6ccdfc6677478ccce1df46f69fa8fd48a7f9491e6e1fcddf673 -> 4600b8cba67649d7a71246fbf48121300ceeec28be454591fd20a8484fd4f8ab
+~ -[_HKSPDarwinNotificationHeartbeatListener initWithLifecycleNotification:] : sha256 4c642d0afaeb38ecbbdb076ed0e8b8e6088667fcfce004d916059810a9d498d7 -> b816f481ede5b45af01f08dbee4e368c8157eb09c5975dccb8c0fc2129a65ba1
+~ -[_HKSPDarwinNotificationHeartbeatListener setHeartbeatDelegate:] : sha256 71e01fc0b4d12d11f49736686a912ce33608c366e127e1b73442e3cb1cfdc31f -> feccde6564cf640fa0f2ffab48d8c1be8093307fdb381c01dbdfab2d6f060160
+~ __handleLifeCycleNotification : sha256 d08f7c9988bf344f1ff0a752bf694f171838add03c63cf137e3e76f9b65b21a4 -> e26f1d22f690766b01c5692e8fa02ef03633427bdcf2b3843c49898367049301
+~ -[_HKSPDarwinNotificationHeartbeatListener didReceiveLifecycleNotification] : sha256 719fbd5f576bc178695dff82f7cf4b4c38af229c56c28a703896316b59d84e02 -> 2ecb062c943d9674905f34fa78e7591f4486abaa1b0e4884f8e71e285e788527
+~ -[_HKSPDarwinNotificationHeartbeatListener delegate] : sha256 631bc7f0e9975cec16cfc2073ffe4f557a2ebea907d726081df953e26f31cacc -> 02b6ed0ec1a6cf1a2816c458c738417b2e95bb5868ac5658392cbf047c654000
+~ -[_HKSPDarwinNotificationHeartbeatListener .cxx_destruct] : sha256 acb58f1b31bca76556900f062acea31852eb9b38dbefe4b1ff98ded15d608a5b -> a6ec3a9d2cd8c9241139368b069f60e0e841575d50b8675ac3debcdc887c6503
+~ _HKSPStandardHeartbeatListener : sha256 d2fad35806182bcb9a05ff6e22b4017d73f796e2caf7962717f5ae315db6da24 -> 2750b68df9373f6b41130bda076c371762ae3715c571ca24e79e02aa85e230b1
+~ _HKSPSleepServerInterface : sha256 7f7bc20f334dcb376b9416ab906f6481b9595e27ab31772913816919179fa1e4 -> 35f29fca9a8b70ec2c3dc6379ecc87a955eda121ea6bfeccc97ccd3773875bc3
+~ ___HKSPSleepServerInterface_block_invoke : sha256 4f006d40a69da52a604ebfdca6c56af60205aa0c34f1004e16a0409197c78edc -> 90db144fcb43bfd34a2b8ed9ebb5a984111ab3befccc2b3f5955beec3ea93a82
+~ _HKSPSleepClientInterface : sha256 48d5f0606671886caed8be562f0001a8f1cea04c0d69b4312f2e8315f368b845 -> f57023544882d4050890f66bd0a3027c0bd0c492592bf5886bf2c2cb4c373ae3
+~ ___HKSPSleepClientInterface_block_invoke : sha256 f4d69703a8db83cffadb7f22e1a6f84e69b21ef7a11b2e0edeb160ecc18d779a -> 68831d8728e529bdc118bb0e885ba468d73ce71346ef420c2b86c45e87b21913
+~ -[HKSPXPCMessage initWithIdentifier:block:options:errorHandler:] : sha256 c4904f6732ffbcea23c718c28429f2d0588f5f53548187faee9ad81a02d6bc62 -> e83c9c571c01c6940dfb6e701ec1910d2c1a6b7ed87a055380b950e21d4778b0
+~ -[HKSPXPCMessage description] : sha256 8e1676adb8c79ed40c96956ddd3aa99256de1d2c9a89957bd398e8223cfa1562 -> 410fdcb9616b0d2cf2492c6927481aba54fe5e664af3716607363fbdee92abe2
+~ -[HKSPXPCMessage succinctDescription] : sha256 cf3cebd8fc6992d1bfc587f2cb727e83c7d35a1dd8e80abd1af63e0c88b7dde1 -> 11b04299ee25abdbb6891e522ea608339f41d787f7036e96bb435ff2db270020
+~ -[HKSPXPCMessage succinctDescriptionBuilder] : sha256 bf35d2063972f34f0d759101a9a5759c68381a8ffdb043fe1de11d4f22867d2f -> 3888a0691c9ea59918d65ed84030a40a8b6b5780779c054e514bc51952bb0e1a
+~ -[HKSPXPCMessage descriptionWithMultilinePrefix:] : sha256 d567aa3ccffc1dfba517e4b72197cceb30a90a2bcedf51884cd155ad169c5cb3 -> 2fcb7b864bfb05935033b8ba546b0bcaf51561ae686c9557120a07c54ac354a4
+~ -[HKSPXPCMessage descriptionBuilderWithMultilinePrefix:] : sha256 c0581a0d7cca8af94554f8eee40145bcbc6a82341988f717c2fa3f405bce5b32 -> 2a1270d588af34a66299346b2ed26b3fdb31cf160f646671db30609210fcb064
+~ -[HKSPXPCMessage .cxx_destruct] : sha256 5f71d79f6fd16b2dcbc89a3b4ae7badf64b4533dd0531a872eabf560eac11698 -> 72f7a42c2be325c44af6418086e7004834a4802930f762a1d6d0ab4ea51621c8
+~ sub_28f30ab18 -> sub_29160baac : sha256 8eb0d87dd0912117343233c4a33fb500981e563d02c97ae175008cec85cea550 -> 0bad74687db4f49cd8027bc33a0bba07ef9248498fb31e0aac8fc312fb3ae6d3
+~ sub_28f30ab84 -> sub_29160bb18 : sha256 dd0e82fabcc64f77016e98081ab147d57169a62591965582741e850595840256 -> 0e033f507194d191570b80b3403c2c764265a245519ea9481431eeaa5cc1ee87
+~ sub_28f30abe4 -> sub_29160bb78 : sha256 ad42a4fc792920dac4ac5270f7ba658c508ce0bad38134abc1febab070a741bc -> ea1c1c0bd95e0dc477483f62741b9a36b8b4460394d666afad76a3779990848c
+~ sub_28f30ac34 -> sub_29160bbc8 : sha256 bc550eabb629db52d74762ebe508d9f321a871f46a57a5e27dde8fbd78844631 -> ef6998b8809e6047e5b4b8b6b5830bd753ad251396e9cd3ed8b8c7dc62f8d6cf
+~ ___Block_byref_object_dispose_ : sha256 dbe98199881743dd285178db5c1ad916664a7c2014096330880297bdb7bc57c3 -> 395b46b3f62f1f479eb379ff2b87079cb10f5765535333850952483c0eb6de49
+~ ___Block_byref_object_dispose_ : sha256 7a45c977f6eb97ee2840f9214e194e28f3f80fd6fa74cf97ed589d7d1d0512a7 -> 8fe2049ff8ba143eb787134c50af9c16e3826094508928df5ac1765ea05cbdda
+~ ___HKSPWeekdaysEnumerateDaysInCalendar_block_invoke : sha256 96153ba2c2971ba0192c1973e3169271067ad0e815fb0fb53bf086f0f988f357 -> f61c25cb839c9ec1d8236a9248a1fa8b24b127da6a6a4869b303e8922ee8bf2b
+~ ___HKSPPreviousDayInWeekdays_block_invoke : sha256 4ee5f15bd805ed027a3ff1ea4b7fb0b71489e12b9539607a42abf641ebf7a0a2 -> d2bfa9bf5c00cd5152daa4771e47afb66ca6e4def02139c1955a99dc472596eb
+~ ___HKSPWeekdaysFromDays_block_invoke : sha256 c293d2a7154bdadaacf8fbfe643737a8cd59f898387c4bc1d85138b826b705f8 -> a609575fbd6fee421922ea92071f131336baeee932c6b327b489cf465dc3a8a3
+~ ___HKSPWeekendDaysInCalendar_block_invoke : sha256 c00b91c7a7056c8308dbcc24e003177d9d80a04ab6c306061e76268905d463d7 -> 996059bdd8f4e529c95acb2e8b0873c8a7acafba4df4f0fdac8b4e87040a89e4
+~ ___HKSleepScheduleWeekdaysFromHKSPWeekdays_block_invoke : sha256 8dc9cfe2439407341b475a5b9469389bcf00ad4be358eaa3cea331ce3a56d27a -> 70d13e5fc4205da99bdb832e09ffc8ef84ad3786a8f89fff7aad8947bfafcb9d
+~ ___Block_byref_object_dispose_ : sha256 ebe9078547f313d2c59db146052d30f23868f09befeafed5e58a2ff81376423c -> 15bf65572d0b671a56b822162c0fba8514534ed998e3fb1749b7c6d4deeec8ea
+~ ___HKSPObjectsAreEqual_block_invoke : 512 -> 508
+~ ___HKSPObjectsAreEquivalentWithTransformer_block_invoke : 752 -> 748
+~ ___Block_byref_object_dispose_ : sha256 835d30a1808f700f7ef1a7483d259eb1c9421eae31fb94f3bb1383aa9ea5dd78 -> 3c89fe0a98a00a8e882c54eb700e1d8cda76fbd9985c07111821b5674033a9a4
+~ ___Block_byref_object_dispose_ : sha256 11965c6e704839133ebaa6275aed057a8f35384a0b4662258120f82ba4234ce4 -> 5c73c19d5795075563522abd7680c3ac13adfcc2e6c3e0e7dc558ee07098468f
+~ ___Block_byref_object_dispose_ : sha256 064f9f10822aea3054c3cb663bc9ee52cb56b8de161d6db610e94f0de0ae4b40 -> 25702ad0ac58689b7a4b6f6efed7bc92ea8a61eea136c4099f60ebb7270c6a46
+~ ___Block_byref_object_dispose_ : sha256 fa5463e863d9ae66553ccf4bcf71d14a595788a0b8a64318699e2a4b3d6731b0 -> 02ac0daf405c74f57a76bb9320c09d437bf9eeffba173ed747983713a15b28ab
+~ ___Block_byref_object_dispose_ : sha256 7e79850522c47ecfcd4ddac5d0f66f890c1005230fe28a7cd6255427cbfe32b3 -> 84179af174805c934fd2bf0f48cedcce0dff013952444ee4c7b4b47ec35b924e
+~ ___Block_byref_object_dispose_ : sha256 1c6c010407f91a6cd5a63134cf5cfb7b77016b85bd16a3b753d3298bbd0f10d1 -> 8511f249eb5b2d34868c1901af5c2ef414145146ee2032946dbcfe498e3b749a
+~ ___Block_byref_object_dispose_ : sha256 da5dce372f94f1bf95c20e897b9b104573f0a637f16c7587af6b56724da80c53 -> dc256f49fa99f59c52a9a3a1fd0a96c0b7b7a6e55530367c066414a0a401482a
+~ ___Block_byref_object_dispose_ : sha256 a65050748f88c3b09010d80c4823d39e80f348c621fa1ce5a67b14814d9cf052 -> 053e42085ce58f4604cf8b95f62e177aafef1674c3a5c0318193e88d186d5606
+~ ___Block_byref_object_dispose_ : sha256 b1b82589f08db957055a7999198514e2711c1fd52ae54dff6789c04ec4fe6b27 -> 74a9bd671cd6b3db86e67839e751d58a3d4f0baac1413608c4cadfe6ba831984
+~ ___Block_byref_object_dispose_ : sha256 a3c422dc429bc6c81596b713f6159a0add6e016c6e18cb7325672a4ca2959866 -> 4ab5f33fc4fa4e55f977e7a1411b6960136bb4d5845bd19ebca86067be980c77
+
+```

@@ -1,0 +1,59 @@
+## smb
+
+> `/System/Library/Templates/Data/usr/libexec/cups/apple/smb`
+
+```diff
+
+ 675.0.0.0.0
+-  __TEXT.__text: 0x5bf4 sha256:e68e5f0e26b8517974a6456e99ec5141476d6a6b7543a2eb3223fbefa52db70d
++  __TEXT.__text: 0x5c64 sha256:b37761596abb5c17b37a13bbd9b98cfa28e744b0a0c845b4b49c7726d8f9d824
+   __TEXT.__auth_stubs: 0x670 sha256:6d2da2c03a82794587d7c97d52f3061668aadc3a5811660594311a67ecd091d6
+   __TEXT.__const: 0x218 sha256:50cfad000099009a3d319b1c2da24dd5c9ffc89f36ea1e7a2c72f6acff71cc20
+-  __TEXT.__gcc_except_tab: 0x27c sha256:8467fe73a5764c665d4967518c46fd365eaba97f08f57143bb64c13854e81ea7
++  __TEXT.__gcc_except_tab: 0x27c sha256:ef6270526bbb2edaa1acba3511a56d48b66604b20bdd2842e6eaab714949c88c
+   __TEXT.__cstring: 0xdd51 sha256:46d701bd4e12f0ca148a9f6f8eaee56add7a1dad4ad251c6f141132d7f2061aa
+   __TEXT.__oslogstring: 0x106 sha256:9dbe4cc1af14f078af9760e23cc333d29f3095ea25de72c6d12aae4a78dba47a
+-  __TEXT.__unwind_info: 0x1b0 sha256:78877a0341922e0fcefe84664ae29bf6edbfa9dc5723cf2963420ea6db5245aa
+-  __DATA_CONST.__const: 0x7370 sha256:5082a7639130857e45bec5971f6f13c33e34962bd30050d6762af32f0ee6999a
++  __TEXT.__unwind_info: 0x1b0 sha256:47916b670a74dac991b67fde0208eb5be530a51ad90b806dcd65b19bd2137022
++  __DATA_CONST.__const: 0x7370 sha256:ac36016c7990e86e60a95709f3741ecee7dfd8edcf68eafd09474fdf3e5a4980
+   __DATA_CONST.__auth_got: 0x340 sha256:b6fcc47627c47fffbcdc2cef7f2c4fd7dcf1a867f0657f4a074b4292bdad4549
+   __DATA_CONST.__got: 0x70 sha256:1952f06243f58b9b90a12580766bc8dd5db1a7200a823f9892c657aeb50950ed
+   __DATA_CONST.__auth_ptr: 0x8 sha256:4596fa09787d6792f0958ad7502dc63aae898d0f467de79f3fa0fe5440e9bf40
+-  __DATA.__data: 0x67a0 sha256:c452181ff042ca6a7d86f5ad8ecd0cdc9eb17f2c861092dc15b9f09d324a4c0f
++  __DATA.__data: 0x67a0 sha256:79937940885ccbd3420aac230a8cff621372b4e93d03851de6374956b7953223
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+   __DATA.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcups.2.dylib
+-  UUID: F873D110-F14C-3246-813C-7D22CC764EA3
+-  Functions: 57
+-  Symbols:   214
++  UUID: 2BCEE539-A836-33AE-9297-6961A63C2E9A
++  Functions: 58
++  Symbols:   215
+   CStrings:  1938
+ 
+Symbols:
++ __ZNSt12length_errorC1B9nqe220106EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9nqe220106Em
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe220106Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe220106Ej
++ __ZNSt3__116__pad_and_outputB9nqe220106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe220106Ev
++ __ZNSt3__120__throw_length_errorB9nqe220106EPKc
++ __ZNSt3__124__put_character_sequenceB9nqe220106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB9nqe210106Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B9nqe210106Ej
+- __ZNSt3__116__pad_and_outputB9nqe210106IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106Ev
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- __ZNSt3__124__put_character_sequenceB9nqe210106IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+
+```

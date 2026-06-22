@@ -1,0 +1,56 @@
+## libswiftSpriteKit.dylib
+
+> `/System/iOSSupport/usr/lib/swift/libswiftSpriteKit.dylib`
+
+```diff
+
+ 1.2.0.0.0
+-  __TEXT.__text: 0x448 sha256:7863a44a0ad870f33de585f5a5fd9b1bcac17181fc9126867742abf252a9780f
+-  __TEXT.__objc_methlist: 0x20 sha256:e443d332ffdcd0e4cbcb1fddd813932bfff2a20374994b0175fb985e383c011f
+-  __TEXT.__const: 0x10a sha256:2c8dcf59e6030f36c04292eb0ca8e4de74de651b8dc3240a3e6f6f31eec6d2cd
++  __TEXT.__text: 0x448 sha256:f9e571c48c26ec7784c8a8d3f0d0d12a0fd59b1e47395f604de65636f91895e2
++  __TEXT.__objc_methlist: 0x20 sha256:4d34f3ba228b2278b226e3641ca6bc3cf54e147e8ef471cd7b0cea8a4432b800
++  __TEXT.__const: 0x10a sha256:ad312e43318c5c1e5a6859dd1053d07a49928b1aa46aacf83231e589898a7f52
+   __TEXT.__swift5_proto: 0x10 sha256:8cd51e6754976c3d7d7ec249008d13e39a96779a5b048e5cabb32106a888e510
+   __TEXT.__constg_swiftt: 0x48 sha256:90566b019bc163a84c5a41ec78747c2edbb7e73e95588c24a042b35b0b5de163
+   __TEXT.__swift5_typeref: 0x14 sha256:60490e55a544d315f81371a5d3202aee08be7c5e545bf9c03bd54300b852736c
+
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:5068527b59a216bc6717b7d8f7fb58aaaa1fcdd3e131a40bc6814adf6d15d921
++  __DATA_CONST.__objc_classlist: 0x8 sha256:b0ca210f2871a27885aa605830eb2dce1660648671c6305133f949809efc0982
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x40 sha256:4a80b6dfbd418429a076f46c0dd7736a8a668613d01e11631ffe92988b3b4f04
++  __DATA_CONST.__objc_selrefs: 0x40 sha256:00669c3ab8c7237dfa5943837560f1d24fff05475800ed67185e7a57749a29a4
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__objc_const: 0x48 sha256:f82f0ac2d94ca8a7418908cdbfdf36f75216c2f31af66bf01d5e1378bf3d62dd
++  __AUTH_CONST.__objc_const: 0x48 sha256:eca4819218499478f6957dd797dc1271bf2be0a7eb86a5458803927a5dc85c1d
+   __AUTH_CONST.__auth_got: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+-  __AUTH.__objc_data: 0xb8 sha256:545ab5349451b8cd1a4e9411c0c4a48cfdced05c861ca5c5e532fa6135d73e57
+-  __AUTH.__data: 0x28 sha256:6a20666b9b0601981da643b169e8c2d3233458c1b596583885356c8517bb5562
++  __AUTH.__objc_data: 0xb8 sha256:88167d708f33e402460a9c1e1df5d3bc8368489759ef88eed527f2a454d70ef2
++  __AUTH.__data: 0x28 sha256:be7b831bb77860ad26c5c3872f764f82eccf716cdad1c81231501f5e3a494796
+   __DATA.__data: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA.__bss: 0x200 sha256:076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560
+   __DATA.__common: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: F6E8A93F-C191-32E7-8B31-99619EDD3FBF
++  UUID: DB73C8D1-59FB-34FB-8DB3-CE31FB931969
+   Functions: 17
+   Symbols:   108
+   CStrings:  0
+Functions:
+~ _$s10Foundation4DataV15_RepresentationOWOe : sha256 b7a6946cceec82c45865ab9c66d0d1d9fba0be3b8eecf25b05a7e7c49f394403 -> a4e9ee507bc5037afd96722d817ae5edf7ed3bbffa99a98c7101870a9e904e30
+~ _$sSo7UIImageCMa : sha256 a6406fa9c1412119a9294b3a4d30d819365052e7c7beaa5628541d5614024f85 -> de09d29630c0d4eef05ab3d3aee729702b8b9b8529ff5468916fcb68e7c10b52
+~ _$sSo11SKShapeNodeC9SpriteKitE25customPlaygroundQuickLooks01_fgH0OvgTm : sha256 346d53ae99a8360b96c8d771ab87f673f5e1af869032d7ce293ea1002b3181b9 -> 007b0e60c236bb023630db5d8701ea34898f6dbdba9bc5f385bf8ae5e8d9fe5c
+~ _$s9SpriteKit02__aB14MethodProviderCfD : sha256 5fbcac97597509021ec921856e4b4d960bfb59b42a46a4ef36cccdffcf9b4603 -> 7c4857f33ba625d2c3b6b0ab05a1f978bb13971ffb4f8ce3d2dd4e5e85a17fbd
+~ _$sSo18SKWarpGeometryGridC9SpriteKitE7columns4rows15sourcePositions011destinationI0ABSi_SiSays5SIMD2VySfGGAKtcfC : sha256 14a1a30ae22ec0d6e01b3869a7367f872c48186c1c49fcb73aa463c88181a036 -> a017638ba031be2993cc1a4931d2c8ce3f1936f71b081df24cdecc964b13e9bc
+~ _$sSo18SKWarpGeometryGridC9SpriteKitE26replacingBySourcePositions9positionsABSays5SIMD2VySfGG_tF : sha256 14bdf13ff4e05e260d21262edf2f367005798e830e1437981f726473def47818 -> 6aafedbe8c00c06d00fb4d1e005546046f67ed323174f6dc2364acc880209b56
+~ _$sSo18SKWarpGeometryGridC9SpriteKitE31replacingByDestinationPositions9positionsABSays5SIMD2VySfGG_tF : sha256 8001db8d055ca37ffcac25b79cf1c5308f4b604bbac733524ab70f2347e4852d -> 0e4e5891c53799caae44ca809c24e7e8b233bbc6068e7d536fc3aea728b2fe1d
+~ _$s9SpriteKit02__aB14MethodProviderCMa : sha256 5d261e6aa78cfafcb046120f8d583e29a11566010a4cd3548275ccf0b00c56db -> 2172247cf23773f17b16029609fa6b7443f284bf77ab56400b6f68c8b2981d03
+
+```

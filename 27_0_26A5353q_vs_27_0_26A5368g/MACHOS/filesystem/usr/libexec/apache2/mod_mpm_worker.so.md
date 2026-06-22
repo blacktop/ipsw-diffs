@@ -1,0 +1,70 @@
+## mod_mpm_worker.so
+
+> `/usr/libexec/apache2/mod_mpm_worker.so`
+
+```diff
+
+-886.0.0.0.0
+-  __TEXT.__text: 0x7b44 sha256:8d3e1e9fb629e454e588952860040af6809d2a6f7d9ca0197992d1dbda2e79bf
++888.0.0.0.0
++  __TEXT.__text: 0x7b3c sha256:41d393c79b0e26fcbb72ccc01ba4ce24bca38a6797a5391d96e151ddeb463817
+   __TEXT.__auth_stubs: 0x760 sha256:f0877263666cede4fb3ba609fe24b012ae728a5df737cfd103730f2655b2ce7d
+-  __TEXT.__cstring: 0x199c sha256:05414c416df07c19b845409cf00a404b43a9b798007f153297f8fee5a53ab7b6
+-  __TEXT.__unwind_info: 0xa0 sha256:04f4968521d5b22acbba4f1ed8de45562d07c8489c0a1936432addc2fb1b159b
+-  __DATA_CONST.__const: 0x290 sha256:03750cf93e9b7c476984ede160b6d1438cbc637bdc2ae0516db8e1a7c585f53e
++  __TEXT.__cstring: 0x199c sha256:392daa9b2353c9d64c2b775f9966e0895447203ba3e9cdf9541279a5d00123a5
++  __TEXT.__unwind_info: 0xa0 sha256:704cc854305d7bda3679e9d92d20913024863c75f3be24e3a000e6e4425882d9
++  __DATA_CONST.__const: 0x290 sha256:02b7af1a0ff76c7c9bf147511d1dae40e799175543affbe0f20f7311d2c4f97d
+   __DATA_CONST.__auth_got: 0x3b0 sha256:05659504c88d9f7a6fdb38836a3b651d1dad7ae1b9f3f3334cc2de2d33106687
+   __DATA_CONST.__got: 0x60 sha256:7b8fa09f00fd1047bf2cac7991c3ef1bf34aa8772ca04716e02dcbc1d393793c
+-  __DATA.__data: 0x70 sha256:52ad3c1a0f103343d35f108c48a1de8b0f5b49773cb82a6c61b3d3cb569c04b8
++  __DATA.__data: 0x70 sha256:9be56b5f2a05b8546c204a69762183de72370a5ed5f33ca19e37a54dd5e5cd50
+   __DATA.__bss: 0xc4 sha256:d904e1f1e028ba9058a128a6fd724f0f9892ae8fe49c8f7dc2613183f7f8bbca
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcrypto.46.dylib
+   - /usr/lib/libssl.48.dylib
+-  UUID: 2009C9E8-296F-378D-8F41-DA32C52C0042
++  UUID: 4780225B-FEAD-3499-84D0-B2163A08CB76
+   Functions: 41
+   Symbols:   213
+   CStrings:  120
+Functions:
+~ _worker_hooks : sha256 65c9c192c65414ce8912f33052adee0c77550fb275d681393db3d5df50e66417 -> ab47a55c224f9cb096a76eaf24c19613b91296e37ed423c42d4d50318d88d929
+~ _set_daemons_to_start : sha256 d1a859f20fd7375346daa2b7ac9f094d7f7cd20f2bcfe97236ec1fda3925bef9 -> 026f91f9d261667753d9963649d76dbb0a4b38e0c7603501b00b2ed801e2c022
+~ _set_min_spare_threads : sha256 ccc9ceec564357ba81a385a7f4492cd85c14fa292371e8a53dfca80d3479ebc8 -> 42f24072026752fdcfaa44fe9c95ebdcb7cd874c6f85d8884ce9f1f1638564f3
+~ _set_max_spare_threads : sha256 ad7eab9d4cf3d131d93cf5799fdf5b0f8b26fa19f98e4d47a02c5460a8c0b52f -> 1c67e3fad9622efd0fa4a4a9cc32e883703252c8e400ab33b8c1ef504b077528
+~ _set_max_workers : sha256 37f139217147de9e6b83b51f777c3ec7ec34c5abe16804d88e163953595b687d -> 3f6e8c8c901b1c10a7cb1e66336cd6f306b2cd74c87e96306f4fc88170909a3a
+~ _set_threads_per_child : sha256 11c53ae0290d640bb390d443144abf6c86cc528d5b17661747cab9367c9b0b5a -> eedce97049d6dff35725facac7aacdc5f3d05e6bddf4f5546ddc97b3a1d8fee0
+~ _set_server_limit : sha256 50e235407444a0a39f5fde517c7d818e3476d0774cbd1311212b2386e7b38154 -> cc5bff3ce4611d09157f2b6ee72b435ac5d8dd1dfd11490c0f60eb3d360c431f
+~ _set_thread_limit : sha256 c6304bb99c15de297e9664fd7502bd760c638cfc04854d900734e68e953d6ce2 -> cbbbcafdc162a3c0ec7979afdb0db1c25ddf6364bcdc6a92bbe93dbe49ab1f02
+~ _worker_open_logs : sha256 82965f8dd9251a0974f3c4ff4a8ad1cd318776001f94671857944fd9ae9822cb -> 641d31e202d8513d56f9689b5caff89c725062060f937ff52dd2214d7a9d3bb8
+~ _worker_pre_config : sha256 3cb0faa1f7bc70dc6c74eacac51adcc659ec49515178870990e18150f3269741 -> b8288cf37b9a0c4f548182e7a7282ffd183df722f959c40afe9124175bfd4ef1
+~ _worker_check_config : sha256 496e0d2f350d63af12be1ce006568f0559f8a4e39978114b8a627429cc4aba8f -> 5467eef002882c84816bedda336c219fecaefc88655935458bc1ac88a9f279dc
+~ _worker_run : sha256 dfb3f84f4c46f35df8a54cea1e160dd27138de936679dc44b0ac5abb9bc66c6a -> ccb9b69665e419eae1e8e71f9ebebe2d8a651bb816c1c0e09a1043f518fb29b1
+~ _worker_get_name : sha256 45797f554d5c51bcf05c7ab2a6cf4a5602c4ab92f96e115a85cb58eaad4e5f44 -> 01949139b9e15566fa2213cbf933da0bb85e4019887b74d6a2f78dc097a641ed
+~ _server_main_loop : sha256 f477feb63c3ba5bf48cb50ffcb9847247f064fb61b07ecaba80356efa0814e67 -> 66db7614a70a38ab29d98552044242dec20839c3c293c9f9b29c8ea7bc02a414
+~ _worker_note_child_killed : sha256 a6ac4075d936662c68affa9bf0aa1ff0355e3296648a8b409018e736057b8232 -> 540db0644b6d1191c9d4049236b97272dd34a6cb448ea45c88c9fb008d9967e9
+~ _make_child : sha256 13b6b188b97fe45fe10c2c3c62cea58f949bf6722e380eea4010708de30537c7 -> a2b8d6ae7bfd69305546d2da99e559651eaa0ca334dd8901722ed9bd6c66658a
+~ _worker_note_child_started : sha256 4e6dffcaa37b75cd76fd13f0ce2d2d77b5c45a6663ddc001836952a9766892a8 -> aa5d57e5a2e5667ea3bb6c21121330663470c6217bc474f0874a5fba65f797cd
+~ _child_main : sha256 ef3e65bafa13d5f7cf40a01d45e667f3f099f03234ba5a31d1cadc20e123eff0 -> ace5370e7899001436120565572e027cb1fb1051472c37c0534a3ebc7fa41b35
+~ _worker_note_child_lost_slot : sha256 bccd8be63a388dcc8804b544c05bcbb5bd2379ce170bf69933c5003f7c7b6b93 -> f9a5cdedcb5b1393320fa8c5b6b149c25fd36ac5fa6ab1af25d3cffe9e0a55b7
+~ _clean_child_exit : sha256 9833168fbfe5f289e5dda694e2b85ae40f08152589d1669e61f2c95aaea2cea9 -> 86475dcd7cfc59aa380dee218cc523c93f52e806d5b6f903497708e959d7c785
+~ _setup_threads_runtime : sha256 ffb07a1245981af38dbce8c42f5e0e310fed07434ab03ef250b1800de6fd78b8 -> 58ce54b7c13c105f167cf0e4e7fd8ae7c6d28dd91666dcd47d658977f41c837a
+~ _start_threads : 1176 -> 1172
+~ _join_start_thread : sha256 063defee3e5b51889f358a78cf0ecf052154bc15334df9d9e82ee6d5649d6152 -> a4167426cb13264df7003ba522089ff95acb401ae4ca203116c945cbbf33e375
+~ _signal_threads : sha256 303bfe369eee1dafc78f5f38ecaf3f0c015da97a0f54b14d1c464414936ea6eb -> 6bb00671fb750ca45da10c5efce2e17141100f2185a6db16e35ad216208db466
+~ _join_workers : sha256 6413968d284c19c6051cde6c02eedf8a13e086913ae21c8e1a1ad747b916e6c7 -> 4393eb524e26a66d6d385ce08b654c16702c7bf884d36b146a1e31b4edda6aa3
+~ _unblock_signal : sha256 08c19a2320d4e5856894f55cd7d8ac722779aa7eed87219e4d71f9300646ba01 -> ef36d6db92b4aaa4c0014062321cc32c09120e55702ddc56a7d38794b5576b24
+~ _worker_thread : sha256 e01f6873a9352ac5fba1182b17e9e1d192e346c7fd51a658e0618d248f1606cd -> 8538bc00d3067cb37a51e8e2b2a183dc44b916f55377d0821db0bd71afab57b5
+~ _create_listener_thread : sha256 ba6c4084f633cbc95d864002b2f1f5c64d55729d8e70abbf6461b963249f7ddf -> 0ac76af8fd7260214d399c58491cf8cf8c98c8fa70f2b86bd006a32a7cdb61d0
+~ _process_socket : sha256 9234898313a0564911d9c05b73acd517d216522390527c3e39fffd198bcc170d -> 02162398b50c35094453c3d8b373bb22e9120aeba430850cb6366ef641dc3e4e
+~ _listener_thread : 2132 -> 2128
+~ _check_infinite_requests : sha256 4e8fc00a649ac5c62a767ef33e0f5a90515670723960890a308499c4fe4bac87 -> 3caf8e4102ee24ed17f1c3619fcadb70843737df00b2f469276a5e4a4af3b00b
+~ _accept_mutex_error : sha256 abfc939580b86736534df8a70d2dacd8ff27f87ffbb4bdbf9103322ffb94b262 -> 718e38651a4e8b9d7974decb7171625de0b21809cfefd6300be43cbda776caec
+~ _perform_idle_server_maintenance : sha256 c1892f91f56192498bc8320c8131e00410b2532a5ba8c23c12ebae8ade658b5f -> 63561fd11599b364197b0b7fe57bcd3946124013dd142fd700dc5b223b7ca0b5
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CRbjugDs63E_nh9LrKXIzNhaKOKGLV_zLQv5WSg/Library/Caches/com.apple.xbs/TemporaryDirectory.QaP6H4/Sources/apache/httpd/server/mpm/worker/worker.c"
+- "/AppleInternal/Library/BuildRoots/4~CQCNugBXuVk5QyWQghtZ7Xdpnx7s5XYALnb8teQ/Library/Caches/com.apple.xbs/TemporaryDirectory.AuKlu0/Sources/apache/httpd/server/mpm/worker/worker.c"
+
+```

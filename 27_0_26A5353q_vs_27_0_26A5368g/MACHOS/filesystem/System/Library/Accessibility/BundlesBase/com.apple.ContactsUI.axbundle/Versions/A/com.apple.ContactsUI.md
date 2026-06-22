@@ -1,0 +1,65 @@
+## com.apple.ContactsUI
+
+> `/System/Library/Accessibility/BundlesBase/com.apple.ContactsUI.axbundle/Versions/A/com.apple.ContactsUI`
+
+```diff
+
+-327.0.0.0.0
+-  __TEXT.__text: 0x123c sha256:142744dc6b432e2f643861ef8bd06c3bd01a7f863260318be10abe2c9c6fd2d5
+-  __TEXT.__auth_stubs: 0x110 sha256:64aecb5b67bb1d0ebc4ce3b0014271529d322c100f259e108aa4d7f48a6ed476
++329.0.0.0.0
++  __TEXT.__text: 0x1234 sha256:b740a24162a9a7654f347c33809fe01cfbecccbcb25473472c83d074f1786c40
++  __TEXT.__auth_stubs: 0x110 sha256:28943e89d2b5d1e089a4208725cfc184bbb8f13be8b0bf8cf09fc37b25e9d894
+   __TEXT.__objc_stubs: 0x4c0 sha256:fc15f687b4dce8a0779063b3f1cb3e203a0d05e5d3858810922c54a1cdae6ecd
+-  __TEXT.__objc_methlist: 0x1dc sha256:d33551af4ad13bbbe122c2b2b8fa4186e304d4e1b83fb2f54e930ef6eaa08380
++  __TEXT.__objc_methlist: 0x1dc sha256:28e13dc4b745652d9b328bd05df648e23647a85f11a0b5b839dacd8c428929ae
+   __TEXT.__cstring: 0x3ba sha256:338a83f3df0df1f7c1508c2b78d7a946e85f83a22c750cab630cc3dd7fc43c88
+   __TEXT.__objc_classname: 0x1a2 sha256:7644ff32b7c52c4fe05b557fb0b997bb3abd2293b29f890f3f5d36746a904a76
+   __TEXT.__objc_methname: 0x4a1 sha256:7717e1a167fb7f33d68c469a1b6b57647dcaa321ed27cc7b6df615a8c97b05d6
+   __TEXT.__objc_methtype: 0x2b sha256:50e573159368913d52cd5ca6031741c882c5856bc4ce26b5eaa21a21fb746e3f
+-  __TEXT.__unwind_info: 0xc8 sha256:108fe8a2c35ef10ac86422ce4dd4cd1286d7854865326d9240b56605457b5f04
++  __TEXT.__unwind_info: 0xc8 sha256:9c2fca6a01b9f4a10c23549fe36b46adbb0bbe93253ad31bb117e1ccd56897fa
+   __DATA_CONST.__const: 0xb0 sha256:39a2e824c9ec12891b3dca987113de77da775cfd925957c1044abacdd6451d5f
+   __DATA_CONST.__cfstring: 0x580 sha256:2e1ae75859d84b80621ba86018897448857964a3aa0fc25c52c24e30e62c1414
+   __DATA_CONST.__objc_classlist: 0x58 sha256:571f00d022a769172aa6f6e6a00876356eeccf1f64802e1061d0ab4b21cb2858
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BCA54BE1-9751-30A0-B81B-46A0A2EA027F
++  UUID: 04FF83B4-CBF3-3A63-8953-9ED0D90CA112
+   Functions: 34
+   Symbols:   177
+   CStrings:  160
+Symbols:
++ __block_literal_global.363
++ __block_literal_global.372
+- __block_literal_global.357
+- __block_literal_global.366
+Functions:
+~ +[AXContactsUIGlue accessibilityPrincipalClassInitializeBundle] : sha256 377a6bc3bc43e199117d93812b28dceae68252b0fda58854e0d6ae87285edf56 -> 6708c43ed0f1ee96a00285628a72b5dc97a103354f47c4166c824df558526276
+~ ___63+[AXContactsUIGlue accessibilityPrincipalClassInitializeBundle]_block_invoke_2 : sha256 85efa95fc7440e224bf06e46292166e8c99d23b8524f713d784d31875fba54eb -> 22251672e609e6c8ee918c715cd296835362d84bfaec083cced0a445a646e104
+~ ___63+[AXContactsUIGlue accessibilityPrincipalClassInitializeBundle]_block_invoke_3 : sha256 d833080a3fa0741273e0e1f44835a393d7fdfd623303ab0eb29be994b7104d27 -> ad2e8b390ac465577ffc9219f7240098808420559779dbf4374cd6a7eedf4cea
+~ _accessibilityLocalizedString : sha256 a2436b926d3198b80f2e01410326bacc3f6166e0f097306d733a3d7c3b102b78 -> 8cfc44acf3ce639b24634a67bec0ceb62b668101b85e1dff72f9773434c47beb
+~ +[CNAvatarEditOverlayViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 aab60800f4aea2886d2e746fb3225cdf1e960328369a18d0dba680ef76fe6b6e -> c2feaa61481f160b2a2e310a8901413b1c01a8aeb027ddef84a5b9c8bf4286bc
+~ -[CNAvatarEditOverlayViewAccessibility isAccessibilityElement] : sha256 aad528ceac123fb045f0b9f3c6ec42a15d3cd1a76ed33a01dc496798de8d3e58 -> 98cb85eb6555374584b984f2c995279ac9fea2758325144f3466017c11e162e4
+~ -[CNAvatarEditOverlayViewAccessibility _accessibilityInitAccessibility] : sha256 fd787f5dbada592c371464fc319055aba7833382fe9467548b1a91e167ba46e8 -> 7dff711055ed5dc0c1d01e456410a8dd2c32e5aecb3547760c43bade5354087b
+~ +[CNAvatarViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 c17936b9f412d1aef4606f3b6f526ed661d3aa27b1825dfac772ea3b5a4020d7 -> b00fa398d550d73887bc6d5dd1c4cb991b4f2996a50e28feb400a7d8cc6e3f8f
+~ -[CNAvatarViewAccessibility isAccessibilityElement] : sha256 6ef3930acf0fdd2262fd1e9201a8cf6bbac5cabcecac44d44e55d7a32a5f71b9 -> 5b64895d4efb81c5e7fcbf8da56a612d08b28cb727be3f345098a1b764977fb2
+~ -[CNAvatarViewAccessibility _accessibilityInitAccessibility] : 528 -> 524
+~ +[CNContactIconViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 3a1ed1741430ae67b1881599b5a0036df68264b734e967ec90b69437c9e75ba4 -> 9637472414325c96728623ffec3d82ab0e73a5502b8ae048f10b8f84d80984ac
+~ +[CNContactIconViewAccessibility _accessibilityPerformValidations:] : sha256 590865d9c521d7cdf386cabac0e5354fa5af5e9b2de3b4e73bdf89d8cfb4a5ec -> 4ef89594191e8ebc8324b8b7ae39d2d2a7bbf6429047a97d93c6bb3cee554913
+~ -[CNContactIconViewAccessibility viewModelDidUpdate:] : sha256 f7321485e27ee7e55946ced96f65689142477429cde9b541e3f4bd71e412a10b -> 8c1af5683d0aca49ef85975af34572e9b0bfe31447d997be7a2580aac9cf1e0d
+~ -[CNContactIconViewAccessibility accessibilityRole] : sha256 6415877596363f383419873279dc765827c494c091b7e98a90fb5d85660718e9 -> 5ee465c8ce0f599aed944926446e4e742bd5520146b606974abaf36cf08ba51d
+~ -[CNContactIconViewAccessibility accessibilityLabel] : sha256 140aca725e548a79fd8c50b0d20ec5d56a865c17e456b8676c9720c2e69a88ab -> 9e488574c913156d339189f4aa86341d1c3586bc4d440cfcd4cefc82e901b031
+~ -[CNContactIconViewAccessibility accessibilityHelp] : sha256 ace50856b0cd57bb40914f4376a980846012c96a5f5cb599b92c9f25775c99f2 -> 80923684829e5275a4a7baa4302172918aaa9707d36f58a713d12b29d668cd36
+~ -[CNContactIconViewAccessibility _accessibilityIsEditableProfilePicture] : sha256 24468fc5042b4ebf819f0dc5b28197a109b0940147c90f70197ce0373715db67 -> af060093dae3df1c588e7c9f9aeb0cc933943240f066abaf2d81934ea64dd82f
+~ +[CNResettingScrollViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 a63ac1b597c1acf2da44f38dac4f03fb1658b4f5de5b6d63c76ec76321554e23 -> c696f360a078dd52bbd1b18c7a68e9ddc9ef528982b4619f212735171f38b5ef
+~ +[CNResettingScrollViewControllerAccessibility _accessibilityPerformValidations:] : sha256 8b4ef9478f428b6b7c938c058e4f5a0b53666a88370d0bf526513cd82479539f -> 13ff60e9098c957e25aae9cb2c791832d425fd3a15926b3eacea8cbb3c60b92a
+~ -[CNResettingScrollViewControllerAccessibility viewWillAppear] : 784 -> 780
+~ +[CNContactLikenessViewAccessibility _accessibilityPerformValidations:] : sha256 ab751591b3bab383f353ae005fab1a385b4a21e427f96383856fea0704caec2a -> f8e7221043c9119d5d56515760d1436e29f84497439680a92a0e264e38487e6e
+~ -[CNContactLikenessViewAccessibility _setDisplayedView:] : sha256 8730fb546254d27dde397a6b34e170b10601630a104e921f0d86544735440780 -> 6a38c42253f9d2f2b849f6f369132aac36f0457d4fcba16dda6235bed993653c
+~ -[CNContactLikenessViewAccessibility isAccessibilityElement] : sha256 e1767b60d3826b46ea9266c84e0ae77708990ed9b85a048735bf9d5e640c4d9f -> 2c275fbaeeae01cbe64232781cbfae7a271fe368c8f5c1bb022dc0c7885e2898
+~ -[CNContactLikenessViewAccessibility _accessibilityInitAccessibility] : sha256 80d9f89759a70fa8abdc06238a5b590d5c43f9e309d201151cd9523ab571aa95 -> a1702a426e3971e51b7802c39f42b82ca4fd419f105d73aa5c1628d4b685f0c0
+
+```

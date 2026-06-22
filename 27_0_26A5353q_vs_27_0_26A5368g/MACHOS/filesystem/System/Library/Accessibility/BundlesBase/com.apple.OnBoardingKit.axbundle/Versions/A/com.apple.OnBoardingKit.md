@@ -1,0 +1,58 @@
+## com.apple.OnBoardingKit
+
+> `/System/Library/Accessibility/BundlesBase/com.apple.OnBoardingKit.axbundle/Versions/A/com.apple.OnBoardingKit`
+
+```diff
+
+-327.0.0.0.0
+-  __TEXT.__text: 0x9e8 sha256:9592d311b8bc7e3bbea4644bcc9367bc79fe5a6a7bb0c1781e298290ea891bff
++329.0.0.0.0
++  __TEXT.__text: 0x9e0 sha256:53b166bf48149956dbb69d114d3ca9b0e8348d40836c53e31ae19aa5c70bd58d
+   __TEXT.__auth_stubs: 0x100 sha256:0125bd42a8ce8557b646f47fddeee61dc4532544841bb7aaacab3f7b9b366264
+   __TEXT.__objc_stubs: 0x400 sha256:42b2d82a480999b30dbb0402bffb0cadc1f589c7dd4abb808f9f0df4ef3c254e
+-  __TEXT.__objc_methlist: 0xa0 sha256:dfebeabd2c01d2359fed527a15cd674804a916e82ab18f80ea5c631afb8aaafc
++  __TEXT.__objc_methlist: 0xa0 sha256:2c80e0fe86e18af6a60bbfd902edfb43f78019ba315b415dfe7bda9133e14f04
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__objc_classname: 0x6b sha256:7a67a487abf4c7cd2f70bada5502d58928946a92decf8855d88e99edb75f8e30
+   __TEXT.__cstring: 0x115 sha256:018f9c9124fa833ec086183ee12e70d37726b7c18199639bd0aaf0f290f75ec7
+   __TEXT.__objc_methname: 0x3d2 sha256:b1e7067621be286aee9ea98ba9c8f3ca50d2898c925aa8c55904749adabec36b
+   __TEXT.__objc_methtype: 0x40 sha256:4b8b4a49b07520c474bd25878e5015f7be35033a9f87ada9378eb24c17cc5ece
+-  __TEXT.__unwind_info: 0x98 sha256:f57d2a0717ecb8a31ccb72f312c515fde7d0ff3ef455d54a76816287d6ed00cc
+-  __DATA_CONST.__const: 0xe0 sha256:375ce44ba189a006c1512c316fe7bf1071b3736a833b36c83978dcb1e7ba9dfb
++  __TEXT.__unwind_info: 0x98 sha256:110b3ed9226d3fe391c791588770de3c175b4c05f23f651afba650b7037ae25a
++  __DATA_CONST.__const: 0xe0 sha256:04045db4917801efafae5b698d3db10c7b4556d610c499a15306afb34fe2fc9e
+   __DATA_CONST.__cfstring: 0x160 sha256:ffef43055ca92c6db2efe846c9f384a6e64aa0c861f7e653bf660112250fde74
+   __DATA_CONST.__objc_classlist: 0x18 sha256:63f709b7fe4bbd6c5608039256c0c190c48980da7d3c1ac4003cd76e92ad6334
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D39D1F7E-40CD-3588-A671-A0E38A533171
++  UUID: 3ED3046A-4AE4-32E7-AF96-5FB02F04E9F9
+   Functions: 17
+   Symbols:   107
+   CStrings:  78
+Symbols:
++ __block_literal_global.357
++ __block_literal_global.366
+- __block_literal_global.351
+- __block_literal_global.360
+Functions:
+~ +[OBPrivacySplashViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 9e28e45901e394232b67fee99c7c111524d01e826a59894485231def97c17fb6 -> d7eba2ad2c5b71fb237fccbe694454d7f97444ca68ec7d9c6fffebf9fa57e488
+~ +[OBPrivacySplashViewAccessibility _accessibilityPerformValidations:] : sha256 84a5ee743abfce4e4ad60e1abf7c2b5c9ec3114fff423681c230686075146dca -> a065b44657169b8f4dcdcf98cba6b6741ea242dc77ea8083dba03dd29ff9ff20
+~ -[OBPrivacySplashViewAccessibility accessibilityLabel] : sha256 8150e1c22bf95c71e5f47902665149ea99461967c911fa917a5a0717e5ae01c2 -> 90c1cb21692938245ac0be16abeea685c9d0338c10b53006ea7b16dcbe8531f2
+~ -[OBPrivacySplashViewAccessibility _axcUpdateAccessibilityOfStackView] : sha256 7e76153e8a25485e7aa23e47d88abea48eecbeb7edca0be1e5ac3dfbd88a3b3a -> 25ad9108b361b831e35eb83f9613ee76f82c752302b610bfe71222a7cdcdb267
+~ ___70-[OBPrivacySplashViewAccessibility _axcUpdateAccessibilityOfStackView]_block_invoke : 504 -> 500
+~ -[OBPrivacySplashViewAccessibility addIcon:] : sha256 d6768aa5dafa7478421c3c1a6c3778c8c2ad917ef17800f03836f8eb7e536c35 -> 311b064daaa98e4f030e4bc83be8d753f1602bfe13e031821f7b2ccd9d856fcf
+~ -[OBPrivacySplashViewAccessibility addTitle:contentList:] : sha256 b48052b2d6d9fd1ce0450604193e33ddeb7c3617d0a79ee86f43a96de9c13f6a -> 91d3f34409a63ed6f3b545fcbc7581e55db959ce75496203f6223a96000a5a9e
+~ +[OBPrivacySplashViewAccessibility accessibilitySetupExistingObjects] : sha256 a411e1ed8e20735681ddceca6b8a862ded4690b3249de4c42e6e50a3d8f37710 -> 86054eb9e5ab0a0bd41487444a2049600a3e6f6259808ad7f38a5f0ee240d704
+~ +[OBPrivacySplashViewAccessibility _axcRecurseThroughSubviews:performBlock:] : sha256 fb10e91193e174e789ceac7b006c2eb261eb40a5f8053c2d94b658000eef6c4f -> ecca234eba22c4ff1e140a95e1831ce5c8ad1f29963513cbc752af901cebb338
+~ +[OBPrivacySplashViewAccessibility _axcSetupAccessibilityForExistingClasses] : 520 -> 516
+~ ___76+[OBPrivacySplashViewAccessibility _axcSetupAccessibilityForExistingClasses]_block_invoke : sha256 04172087c2b978f7e5a6fa2cb24e8ea584d2f779c7c1e60abcbc8c317756da37 -> e9c738c9c3cb969a27277c2bf166fbd1fc44768424ba0b35a623602bb4052bc8
+~ +[AXOnBoardingKitGlue accessibilityPrincipalClassInitializeBundle] : sha256 115db3a5895ade5f22e378e67e2ce417638c36f7151e72a91d5fa6fd40d6271a -> ed4e77be961f8a98532b3b72e86609e04031bab6f483ada359593746dc0fdc81
+~ ___66+[AXOnBoardingKitGlue accessibilityPrincipalClassInitializeBundle]_block_invoke_2 : sha256 da55140d7328fc95ab43166c9c2f68a13ab6dde88cb41fed3b4c604214c68b50 -> 48b6d9e082082c94ab0d72db74f630a887c54dfb0d373af673d5ca6c7e3e9b74
+~ ___66+[AXOnBoardingKitGlue accessibilityPrincipalClassInitializeBundle]_block_invoke_3 : sha256 b7359b07cbdea714572716201d879d713c2ddaebc313438e541c224b23f3c819 -> ddd8b130bd8173cdae5cefd6b6787d205e4bfb07c67a1e12d75d605d465f6c02
+~ _accessibilityLocalizedString : sha256 963e425a5688d9e5e1cd598d7d2d713a8489a70cd1f1742763b80c7f81970379 -> 55d22eda0e508bcc05f4825540f623b8f7d5d86dfa2a7f22c3c7c1e06c784a48
+
+```

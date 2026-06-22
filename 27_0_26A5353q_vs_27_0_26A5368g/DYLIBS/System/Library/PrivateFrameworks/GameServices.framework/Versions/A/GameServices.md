@@ -1,0 +1,112 @@
+## GameServices
+
+> `/System/Library/PrivateFrameworks/GameServices.framework/Versions/A/GameServices`
+
+```diff
+
+-821.0.13.1.2
+-  __TEXT.__text: 0x16c9dc sha256:8aecb0f03dfe647637f9a8310926373fa610e8e4bf72399f36f8573601fb06cd
+-  __TEXT.__cstring: 0x8335 sha256:9b9b8ba2fbd87bc6d23b9e5e5ee7ad52a3198b988e529853b86700fb80bcd9a7
+-  __TEXT.__swift5_typeref: 0x7a63 sha256:ee2db50b3a5aced2dfe1f0c4921abaf9eb60ef30735d3df31edb4bb10327ebdf
+-  __TEXT.__const: 0x1e318 sha256:9460119a4f7d0c53f691c4ae5fa5779216aa930234f31308dffa5caa5d45e2ef
+-  __TEXT.__swift5_fieldmd: 0x41b0 sha256:861a73f0675e9258f45a48423691bed0be63be1588759e2c467b4b1a68142b98
+-  __TEXT.__constg_swiftt: 0x3b08 sha256:571cecc648bea169ab0096ff76f3f71c2a2584ececb9f41b1d33905de9931301
+-  __TEXT.__swift5_reflstr: 0x1eb2 sha256:51cbc935e2b71fd0162317ccae65d321a4f1e70f5d330ff894610305299f0aa0
+-  __TEXT.__swift5_protos: 0xd0 sha256:24ed45e4fff409c5960d8f9fd0ccab226dc6d21112c049291dee8d03337d6092
+-  __TEXT.__swift5_proto: 0x130c sha256:a2826f0d3eeb8a82bba3bfca1b2e5d1778962bc03a179eb9a77fc8fc1bd1ec35
+-  __TEXT.__swift5_types: 0x444 sha256:7d70075b63bca7b0532b8a03bdcfaaa9891e103de42b726caac22625957f349e
+-  __TEXT.__swift5_assocty: 0xb60 sha256:d95370378fff86a83939702ba5fc83fd2396fec64a79c575b2b084e1c0443d6a
+-  __TEXT.__swift5_builtin: 0x118 sha256:af12eef9efbf4bd29df6aaa75063ceb5f1ad357ffe8e40e102b56d39b718dfeb
+-  __TEXT.__swift5_mpenum: 0x70 sha256:6974ac172d566d34f0697999ffb4b3d0a5ce6234e1dfdb05f61439464a9d28c8
+-  __TEXT.__swift5_acfuncs: 0xe9c sha256:3f3d26d40505f332bd1ddbd548b47ca00efdac1365824065d724f7459c1ba003
+-  __TEXT.__swift_as_entry: 0xbb4 sha256:8b917b183a2997120e8690a90761b56983b78fadd4ee9df35abaeb264ed872b2
+-  __TEXT.__swift_as_ret: 0xe74 sha256:dc7750c16019bbe35a89e8eb9a12d29dc0a71987ea3a4193f9b55522084d098d
+-  __TEXT.__swift_as_cont: 0x16c8 sha256:e49bdc358b8d18a2549fee57217a8ef9ed5db3d635aa89c9af3c2f21da114463
++821.0.16.1.1
++  __TEXT.__text: 0x172be4 sha256:1b2d4f5a57e91df104f94767407f55f1a2fa489053d8f2e6ee1f41153dbe8386
++  __TEXT.__cstring: 0x8425 sha256:c6eb732a075a141a7b72ea1eced8d390b8d357d2575ba09080fb9b3df59dad82
++  __TEXT.__swift5_typeref: 0x7be5 sha256:b9c32481be36d6c049e1133a58bfb3fe73ef4aab2f549a2425ba0fa6cbf7491d
++  __TEXT.__const: 0x1e8c8 sha256:8aa0c6ba34237c8b98b785c411239a238b1dbc39a26f79b5527cb8b3e7e26c98
++  __TEXT.__swift5_fieldmd: 0x41bc sha256:3d87e702fbbb2c83daedda3cbfb738dcb5b17aaa50b1f998a922c291475f5f3f
++  __TEXT.__constg_swiftt: 0x3b48 sha256:ce526302e1aee16a9cf150387e7d44fcaa0dafbf02abccaa51927dc5f23eb2ba
++  __TEXT.__swift5_reflstr: 0x1ec2 sha256:52b27fef0832bb489db014b2eb1c83a18ddb6b234c3aac15f5a869c5057f5ed8
++  __TEXT.__swift5_protos: 0xd0 sha256:30b2e7db8d60eeedbf114c97e617135b21baeebaca259fc61e3f807dccaa665a
++  __TEXT.__swift5_proto: 0x130c sha256:e8e9e8922176ade220232c925aacf47ccf3c35b970cf8d0c501aa988f1ef3778
++  __TEXT.__swift5_types: 0x444 sha256:fd44d6a83b0c6352f6dc85629cd69f601c8f43c2ac1114a0dc0a990065eb5619
++  __TEXT.__swift5_assocty: 0xb60 sha256:1c195b20a4e95675cdd5351b288faf059ff0aa99f2d5abd1c47338428b491f7e
++  __TEXT.__swift5_builtin: 0x118 sha256:f844300951747a22a63f098ee21dbb1cd20e2cbb607ac95e4bb0deac1f98c76d
++  __TEXT.__swift5_mpenum: 0x70 sha256:de08f2b7f8a749a9d459adaaaad47f681d5d0ff11aa4d476c0859dffd1c58234
++  __TEXT.__swift5_acfuncs: 0xf3c sha256:aadf19de7ad50b93977163970cebc5fcfe8f36303bdc79557ecbd2b99bce1b90
++  __TEXT.__swift_as_entry: 0xc14 sha256:6265679ecd65d595ca75e0ef8672021465413995231c75527a37c0c90d4e6f01
++  __TEXT.__swift_as_ret: 0xed4 sha256:191b0a4cc928c2ca266070dc8f52528934fc7ca339adb9b49b3456113f2c35b7
++  __TEXT.__swift_as_cont: 0x1748 sha256:07347048157b292141b70401a2597cc0828d63e956d9fcc28f9a6e2c504b4ae9
+   __TEXT.__oslogstring: 0x34e sha256:99a6a206ae2c9f1a26beb684b2834b727c98eef4a78497bdf2aea0a8d0ec37b7
+-  __TEXT.__swift5_capture: 0x19c sha256:02a2deb0317645b091ffef2aaf32757df6df8aec78bccef7482fa2ad6656037c
+-  __TEXT.__unwind_info: 0x86a8 sha256:354fc728c2447c31ad5fec0ec783f9c7ae64504bdc1d333f8c221cd157d2bf7e
+-  __TEXT.__eh_frame: 0x18020 sha256:4bce8d1f54949ac7d97c8ea6a6a16f36222bd90e86d8c92c5bbd1293966c3666
++  __TEXT.__swift5_capture: 0x19c sha256:03250dd3c65748bac196856bd8ae1960e9f7abf27af0f19e7a1639afb737c0d1
++  __TEXT.__unwind_info: 0x88a0 sha256:939a99b4e4bdae2e2f38e7fc56591c30fc9951a8b8cd175db74dab9ef30f74f5
++  __TEXT.__eh_frame: 0x18950 sha256:e8fd2a3175dd7a61462e9f0c0d75e91f39b74d68d9479bee74d32a9e92c42285
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xb8 sha256:f23f7b1911878b8192dbf1fab9869376d5e3bb33f313d417b943728be7222200
+-  __DATA_CONST.__objc_classlist: 0x98 sha256:7eaedfbdd0dc398b50ef525dda3124e25405d1f138f6856433f4fafef3f6d39b
++  __DATA_CONST.__const: 0xb8 sha256:c10b31ecfdf41c6944c4c4d7fdaedd5afc366db51ea54fb6357bc3e654068a3e
++  __DATA_CONST.__objc_classlist: 0x98 sha256:1b35e73794b5b5fbebb93477f9fd8c3e7897008affb993bc1ca84235db2082d3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:ce857dcadc2529f941104469975d60698ea3610a86c121e7b4aee224cd0c59ea
+-  __DATA_CONST.__objc_selrefs: 0x38 sha256:1aad842b8507c59ad7c73746a6edae9c6bce65ddc5f8064618ef0d2202e64bd9
++  __DATA_CONST.__objc_selrefs: 0x38 sha256:876e3c2da3c10e059013f7cd55172a13519124f0bb593a0c073a3e31e6b9d32e
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x9578 sha256:745993330f24a86b567b9174045d572677a3f3c253fa18697a66de1cad36f07d
+-  __AUTH_CONST.__objc_const: 0x1200 sha256:56fff0970373ceefee84050f1f4214c38c7e88b25994ad62b506cd9efd12ae82
++  __AUTH_CONST.__const: 0x95b8 sha256:75092284b3df6bd103cf6cd0a34ce6d078bde36dfb94890d15b7c2ef558711f6
++  __AUTH_CONST.__objc_const: 0x1200 sha256:644c5475b31380c3955e716c02e4a5d398647406b7ae37561d10af6ee9553480
+   __AUTH_CONST.__auth_got: 0xbc8 sha256:2cdf06af022c6205a4ab4e5f4dca082be757655114755ba3445ac7c2e2799e85
+-  __AUTH.__data: 0x1758 sha256:0dd1105ddfa694de66347ccd8b385d6cdde805da2b0ea96a33d13e5ad319ce50
+-  __DATA.__data: 0x24c8 sha256:76f3e8229855af7b41f17bdedde9cb00d24684c94e4a6cb168ec210b7dd8325d
++  __AUTH.__data: 0x1758 sha256:dffa5261cdc8dd7e75d8d8aa31859879e2f1175a936f86ca2378f2592a679102
++  __DATA.__data: 0x24d0 sha256:3b3318b249b3e5332342e2b4450dce32882fe9e9e31cf72d5db81feec2d0dd52
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA.__bss: 0x22eb0 sha256:2d25e02dd1bdc1d9a1fe30392617045bb8da8c8510b653cf5d5974418b4fd206
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:5be94ad7e3012729b59206334f57900da0fbc8d0a202fd7a04b25223ad5e1743
+-  __DATA_DIRTY.__data: 0xbf0 sha256:40a894ab175808816de80438be7032f6a0ed78eab2fc103073e72539b8193875
++  __DATA_DIRTY.__objc_data: 0x50 sha256:d9221cd664e88777f87d92e7e686541f939801cc8cc79110a32c7ba0ce7f0619
++  __DATA_DIRTY.__data: 0xbf0 sha256:93bbf5991638782ad5d62e0af4f7f24be0c903a5dc323d95ea0a658ed0c9959b
+   __DATA_DIRTY.__bss: 0x4a30 sha256:9d3cd0c2a266c5c90c7d6ea65c693efc0b61da0fe76f34c3a4e26858313ddfcb
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 02ACB6FE-6CF6-318B-B621-15FC094543BE
+-  Functions: 11446
+-  Symbols:   6733
+-  CStrings:  485
++  UUID: 88A32E9B-3315-3355-BF6A-0876307E7D50
++  Functions: 11549
++  Symbols:   6793
++  CStrings:  489
+ 
+Symbols:
++ ___swift_memcpy25_8
++ _symbolic S2SSdxSb______p_____Rz_____RzlIetMHgTgTyTgdzo_ s5ErrorP 11Distributed01_B9ActorStubP 12GameServices0B23GamesCLIServiceProtocolP
++ _symbolic S2SSdxSb______p_____RzlIetWHgTgTyTgdzo_ s5ErrorP 12GameServices34DistributedGamesCLIServiceProtocolP
++ _symbolic SSSaySSGxSaySDyS2SGG______p_____Rz_____RzlIetMHgTgTgozo_ s5ErrorP 11Distributed01_B9ActorStubP 12GameServices0B23GamesCLIServiceProtocolP
++ _symbolic SSSaySSGxSaySDyS2SGG______p_____RzlIetWHgTgTgozo_ s5ErrorP 12GameServices34DistributedGamesCLIServiceProtocolP
++ _symbolic SSxSaySDyS2SGG______p_____Rz_____RzlIetMHgTgozo_ s5ErrorP 11Distributed01_B9ActorStubP 12GameServices0B23GamesCLIServiceProtocolP
++ _symbolic SSxSaySDyS2SGG______p_____RzlIetWHgTgozo_ s5ErrorP 12GameServices34DistributedGamesCLIServiceProtocolP
++ _symbolic SSx______p_____Rz_____RzlIetMHgTgzo_ s5ErrorP 11Distributed01_B9ActorStubP 12GameServices0B23GamesCLIServiceProtocolP
++ _symbolic SSx______p_____RzlIetWHgTgzo_ s5ErrorP 12GameServices34DistributedGamesCLIServiceProtocolP
++ _symbolic Si6status_SSSg7messaget
++ _symbolic ______AAt 12GameServices0aB13InternalErrorO
+CStrings:
++ "dumpAchievementProgressRows(bundleID:)"
++ "readAchievementProgress(bundleID:achievementIDs:)"
++ "writeAchievementProgress(bundleID:achievementID:percentComplete:)"
++ "writeAchievementReset(bundleID:)"
+
+```

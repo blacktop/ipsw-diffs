@@ -1,0 +1,53 @@
+## AppleAccessibilityAudio
+
+> `/System/Library/Audio/Plug-Ins/HAL/AppleAccessibilityAudio.driver/Contents/MacOS/AppleAccessibilityAudio`
+
+```diff
+
+-767.0.0.0.0
+-  __TEXT.__text: 0x4ac0 sha256:51cf3107b7a42342bb69ce145e2463d152e31fc27d1c4d51d0400ec7751d1eb6
++770.0.0.0.0
++  __TEXT.__text: 0x4ad4 sha256:3081a9cdf10fb8614c9c2ea1134c5e68528b97523a28bc023245cab075da7361
+   __TEXT.__auth_stubs: 0x1f0 sha256:8abb8b1f416e02c54f2754f1dde0d41b793824f0815540f90ad188714603d783
+   __TEXT.__const: 0x110 sha256:39aa3bb7eae63ac8f910dc0eff7ee1341d59e04e2833a2a609e94aff5fd07130
+   __TEXT.__cstring: 0x28c sha256:1cd77d0c86df8843a3a2751162fda943615f715ae200906527dd5e9aad362786
+-  __TEXT.__unwind_info: 0xd0 sha256:218d6cea01cd11fef4613d3d0f898a1fc22450f723bf8264c7b02df31eca318f
+-  __DATA_CONST.__const: 0x110 sha256:a8854fb1cca1590a19dac3bf66a1f542cf9351ef8645b4bac30e883227b60d08
+-  __DATA_CONST.__cfstring: 0x2c0 sha256:ae1f60142a3dbce23a336237dc1ca06bb0f0bf4298886327f94ebf57988292e0
++  __TEXT.__unwind_info: 0xd0 sha256:1b190cfd9b81e7d765d5c73fdd279ace43778d78e2722fd1552641dfc630b36f
++  __DATA_CONST.__const: 0x110 sha256:d541b2c233a798d661548f9802edcdeebba5c3219cff41b7b953c4dfd47c682d
++  __DATA_CONST.__cfstring: 0x2c0 sha256:0862c4f0471bd4a9167c6d7479675bfe9b761e0dccca5d3e8fe5b7114fad4080
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA_CONST.__auth_got: 0xf8 sha256:8a68618ac9a6e3508ecb136483bd206ffdc8877b8118ddf2fbf37ec3be1c0dad
+   __DATA_CONST.__got: 0x30 sha256:a5f6162c3f854e657116c9dd029411cef643d6eb8578f6a1413cbe2d50513281
+-  __DATA.__data: 0x148 sha256:c7e2c41cd2bf8f41ec0ba05f2c0c56cde8befb2e3d2b9970ebf1edee5291350a
++  __DATA.__data: 0x148 sha256:5f258df7f4e5bb6c15dd64bf449b78c34cb447b3418e77e7a91f96981abe350b
+   __DATA.__bss: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E75BFB2E-4875-331F-B5D6-5E0B43A367AA
++  UUID: 7F8218B4-C47C-3AB1-A5E9-B59821924577
+   Functions: 40
+   Symbols:   41
+   CStrings:  47
+Functions:
+~ _AXAudioPlugin_Create : sha256 83fce48abdb3e8e05bc18282997e3b395ba05a8624de0a2d00609b796edf8783 -> 00bc6895ab4ee993e611348452bf666e1a4e74834cc9a81e45597f563b5fdd40
+~ sub_7dc : sha256 e0ab2c6a493ebcdc93ec588c47b9538940001a61b03ec584212798d24eae2fab -> 9282dfcf040296b853df58eafa18fc46e69dcabd1ce889f5b94eeda29aa99c3a
+~ sub_928 : sha256 f35a6cbd73f72079df6c055e41d1f076dac10a625ab641bc253f573a72ccdb56 -> b129366c5760501638942513f7a164767f6cf0151f68fec2af601c0515ebd156
+~ sub_998 : sha256 651eef8fa39f0b4f7d6ad133bb8664823fa2a386fd37f30fbe5e16422ab2913c -> a17470f60fcb09643d5a5927865fa86d3473780231244a137649b079cd6b0ac8
+~ sub_a04 : sha256 49f08819d2be82ad95219f84d8f71795810ff1f3c42ec9a68d5c6323347efa36 -> a99ce23b2186afca71a9508a7fd530324c924f704dce26ce0276a0126da5dd68
+~ sub_cd0 : sha256 f938e8bd5fcf2ffaa79f2311dbbc2fc587812c5afce1c5a6a5bf28b4a2ae5032 -> 0c2330fd43ffebaeebfee60da41195eab57ce0e50e457b2e34acfa21ec9d4416
+~ sub_dac : sha256 8083a9f2d8fe938684d240cf8d2bb5a98b6fc7c639fa464977591fcfe914ccb8 -> 371ad98055e204d5fc0f75f57c123110fb2b47324f7e5894e4c4c035973b7415
+~ sub_1598 : sha256 039e658af14571e9826c6efd0ab916f39fae1ef5cff9d3c238201ae8313ba1ad -> 73b774cc4d81cba3e74ffeb2aed691607a2eac4cb4e97996b5e047944ebe891c
+~ sub_1b7c : sha256 8e7f8432ed5eeaeeadc84d0770eab5518cfca39cc305e348244e304972b8c04c -> ce2b9febab51929924a79438ba9300e5e0e16d0a99d88c47135375cd5f2fb29f
+~ sub_2230 : 4392 -> 4412
+~ sub_3358 -> sub_336c : sha256 19f7193d47cff71cced081916e2a52abe6a77e3c1f07651827b57047d47ce72f -> c4418f8b8ff433c165c5ef921dddc07393f53a8b5d0f5edbe0232452d11b0ab9
+~ sub_3eec -> sub_3f00 : sha256 40c7bb3214a08bf87af6aa9c008d13a5dca75607f0c536d54f04234b860c3c91 -> 01d9d18f0a36572afed20cc74b37e7c5af16c44d33c17168f125cb7db9871db6
+~ sub_45d8 -> sub_45ec : sha256 1f3d53be71284bd12a0d8bcc6e7235aa066d8cb47fd15a8c1572b67b2caec91c -> f87b0049b2163290243cf4122677af004bf7904e89dd3664091b9bfa4febb7d1
+~ sub_4dac -> sub_4dc0 : sha256 7735331ff1de8343b4a7d60b984191028cc5fd00abcb67ffa733f8be40e5cde2 -> a295fab3a999358f7683c63f8dcde79e3cc5477c4c3db0811af60a3f4c23e5f3
+~ sub_4fe0 -> sub_4ff4 : sha256 3cb80dfab9c91db32cd77bbd7ca92135c26f7e71f6b330e33952ab0045d88114 -> 594741498f8257220b62cf195a761626887cab92110ceff98fbda020e45aa1f0
+~ sub_502c -> sub_5040 : sha256 edc527fbc0fe0c522c6e8be9c2e70b1e8c5aea7022db158f00c3ec385926b84a -> 1f2b293ce4e62aed97aac962b5f9092acacb7c18a6e80a99bd580b896815501e
+
+```

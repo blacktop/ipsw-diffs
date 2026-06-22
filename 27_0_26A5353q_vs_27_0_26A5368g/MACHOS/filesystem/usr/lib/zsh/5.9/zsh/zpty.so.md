@@ -1,0 +1,39 @@
+## zpty.so
+
+> `/usr/lib/zsh/5.9/zsh/zpty.so`
+
+```diff
+
+ 118.0.0.0.0
+-  __TEXT.__text: 0x1498 sha256:c8141c637ecdf0c49d0e58a9ec08052cfc62f2f8bb2952f30f21d949e96d9819
++  __TEXT.__text: 0x148c sha256:bbc48401d251711e0c49fc9705f94d3572cb5b14e7c1bffb02e1459e99d94e5b
+   __TEXT.__auth_stubs: 0x420 sha256:39e05a1b7746a001e7b17d73373e85c7512e21c1c5533ff083662ce57f44a009
+   __TEXT.__cstring: 0x172 sha256:b1a5680e1ced98c01ed45fb0f0fbab3ece23cba3fd2fc5f73b0f6fd0f0e12e42
+-  __TEXT.__unwind_info: 0x98 sha256:744b39ba7d59ed325128055dd1f8aa9fa7e3e9715452e3b55275aba1780e68fb
++  __TEXT.__unwind_info: 0x98 sha256:1924c8f691a50e4872f1e3b87007157cef7bf51282369f8be056f6a3602ae1bb
+   __DATA_CONST.__auth_got: 0x210 sha256:ff746f1edf67c34003a61d7bec43eadea6ec73beaf0d59c423bde7fe7cbcd973
+   __DATA_CONST.__got: 0xa0 sha256:5a462d8b70aba498372793407b3f6b645a2876c71fced928e7455b9bb3cc93e6
+-  __DATA.__data: 0x80 sha256:1529f239063a0cb46b0158ad3bdab37e18cd1e963a60dcec339b5e2033619215
++  __DATA.__data: 0x80 sha256:d833acfabe347d5eb21929e8f0c003dbed7c785609709d37676a3aadb2590286
+   __DATA.__bss: 0x14 sha256:de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libiconv.2.dylib
+   - /usr/lib/libncurses.5.4.dylib
+   - /usr/lib/libpcre.0.dylib
+-  UUID: 22B795FF-8BF6-3EBD-8F40-4A68A8A8D709
++  UUID: E5759C60-247D-3871-8B4B-1D34D7D7A26A
+   Functions: 16
+   Symbols:   93
+   CStrings:  23
+Functions:
+~ _features_ : sha256 57dbe3335d362a7790fa7aa02db4aa71dad4ecfcd0fe6dd4aeadf6ffdb63384d -> 50c06d437cbf424045ff40b1536f6c9cda3e4fc14b397213abbfdb638f05b75d
+~ _enables_ : sha256 75d0f4fe98da4b57c9e51d6b0fa897479f9cf22f5f0a1790246ff1e7e8bb387a -> 312998c966748ddc0b7531057c422ae68953b7584553c1d73ab42a4cab0e9ba9
+~ _boot_ : sha256 511320b79adec9c9174082079a9374cde9063511401389abede9ad04a0bfb7fa -> 1270d9b273acfd2897c469f86bdc00c7dab03167eeef233d7cd33910f073b700
+~ sub_654 : sha256 4d5dd17470f394e32e6908772867315a49f9df605e78516c8014826af8df8b32 -> 74b97a5ce1fcebd38f4041de6852effe1a4573dca1cfabb159dd4018741e74e0
+~ _cleanup_ : sha256 80a41afbd5d1f0f03464fe6300daaed6a4c083863044e064e06f3e2030e0d233 -> 61351f88b48607ee31e6e53783bdd4b03d4756a1f71101c50938c6bf7fcf0196
+~ sub_714 : 1192 -> 1184
+~ sub_bbc -> sub_bb4 : 1292 -> 1288
+~ sub_10c8 -> sub_10bc : sha256 6584d6c710f1f64df58da1d00fffeaba6ea2854fea363b4f89ae5c35fa44fbc0 -> e93f5c498742104578c65b5c9b4905ca2b93d085c82871fbad25c8f3458d448c
+~ sub_1304 -> sub_12f8 : sha256 5fc0417f54ae63541c8311f3deaa530bdb6399d43a79c7d7b38d9a7712b4c348 -> 0d89af6df3dffb616acd1302cce8a39155cf6c92f05b0286054fb465ca78a60c
+
+```

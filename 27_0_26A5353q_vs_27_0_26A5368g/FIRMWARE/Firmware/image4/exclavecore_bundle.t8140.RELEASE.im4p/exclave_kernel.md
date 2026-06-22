@@ -1,0 +1,26 @@
+## exclave_kernel
+
+> `Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_kernel`
+
+```diff
+
+ 
+-  __TEXT.__head: 0x3f0 sha256:b0d4daa6135562ab62ef24f6dd80f7bb76d98097ca061d54f717dd061eb96ed3
+-  __TEXT.__text: 0x12aec sha256:63545b77f357f0eedc4d3821a839bf72c5f2916260913979cf883e71b52f9290
+-  __TEXT.__const: 0xb50 sha256:8339478e23630fe4572d5804314d80ca44b4134f623e4c92e654e69e3afc632d
+-  __TEXT.__cstring: 0xa19 sha256:228c1d9f2d481f3a885a0d459519d1b792853a64b05fd98e3cfd74310fb7463b
++  __TEXT.__head: 0x3f0 sha256:eae024c487d91010d5effc968385d54831d6cd12615d3ff9983e16894e26ee14
++  __TEXT.__text: 0x12bd8 sha256:412236c1f2d9a2e9a5f3ba0f7ff1839cfd6584c591012ef4edc31b690f6e7f38
++  __TEXT.__const: 0xb50 sha256:19c92b8e484ba9ec160a828a0880a62774a4819754d8967a1be277173a2a2966
++  __TEXT.__cstring: 0xa19 sha256:38a56121e7d2020d67bfe044594d86cdb0c907428dce96749cf491a875f00eef
+   __DATA.__data: 0x11b sha256:262907ce93371bc0e5cf41681b3b3b23d6663d77f14e3b0dd3e5690880367075
+   __DATA.__bss: 0x19bd1 sha256:67239829414af98f12ddd745d248b778a0deab49592dba291269babe90ea2b37
+   __DATA.__common: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+   __IMAGE_END.__image_end: 0x0
+-  UUID: 25BD7AA5-F84C-3FF6-ADE2-ED8705F55A51
++  UUID: 15D5099C-91B2-3874-8348-371B9BE17A4D
+   Functions: 0
+   Symbols:   460
+   CStrings:  0
+
+```
