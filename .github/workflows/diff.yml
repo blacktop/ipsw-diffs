@@ -264,6 +264,33 @@ jobs:
         if: steps.gate.outputs.run == 'true' && steps.detect.outputs.do_diff == 'true'
         run: git clone --quiet --depth 1 https://github.com/blacktop/symbolicator.git "$RUNNER_TEMP/symbolicator"
 
+      # The dyld_shared_cache diff holds ~14M symbols in memory and OOM-kills the
+      # 16 GB runner mid-diff (the VM dies -> "runner received a shutdown
+      # signal", not a timeout). Back the spike with a big swapfile. Prefer /mnt
+      # (separate ephemeral disk, away from the IPSWs under $RUNNER_TEMP on /);
+      # GitHub is moving to single-disk images where /mnt may be absent, so fall
+      # back to / and size to whatever the chosen disk can spare.
+      - name: Add swap
+        if: steps.gate.outputs.run == 'true' && steps.detect.outputs.do_diff == 'true'
+        run: |
+          set -euo pipefail
+          swapdir=/mnt
+          df "$swapdir" >/dev/null 2>&1 || swapdir=/
+          avail_g="$(df -P "$swapdir" | awk 'NR==2 {print int($4/1024/1024)}')"
+          # Leave the disk headroom; cap the swapfile at 28G.
+          size_g=$(( avail_g - 10 )); [ "$size_g" -gt 28 ] && size_g=28
+          if [ "$size_g" -lt 8 ]; then
+            echo "::warning::Only ${avail_g}G free on ${swapdir}; skipping swap (diff may OOM)"
+            exit 0
+          fi
+          swapfile="$swapdir/swapfile"
+          sudo fallocate -l "${size_g}G" "$swapfile" || sudo dd if=/dev/zero of="$swapfile" bs=1M count=$(( size_g * 1024 ))
+          sudo chmod 600 "$swapfile"
+          sudo mkswap "$swapfile" >/dev/null
+          sudo swapon "$swapfile"
+          echo "Added ${size_g}G swap at ${swapfile}"
+          free -h
+
       - name: Download and diff
         if: steps.gate.outputs.run == 'true' && steps.detect.outputs.do_diff == 'true'
         env:
