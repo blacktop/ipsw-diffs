@@ -44,6 +44,7 @@ jobs:
   diff:
     permissions:
       contents: write
+      models: read
     runs-on: ubuntu-latest
     timeout-minutes: 180
     strategy:
@@ -132,6 +133,7 @@ jobs:
             {
               echo "do_diff=true"
               echo "prev_build=$MANUAL_PREV"
+              echo "prev_version=manual"
               echo "next_build=$MANUAL_NEXT"
               echo "next_version=manual"
               echo "next_major=manual"
@@ -183,6 +185,7 @@ jobs:
           fi
 
           prev_build="$(jq -r --arg m "$next_major" '.[$m].build // empty' "$cache_file")"
+          prev_version="$(jq -r --arg m "$next_major" '.[$m].version // empty' "$cache_file")"
           prev_released="$(jq -r --arg m "$next_major" '.[$m].released // empty' "$cache_file")"
 
           # First sighting of this major. Record the baseline but do not diff
@@ -227,6 +230,7 @@ jobs:
           {
             echo "do_diff=true"
             echo "prev_build=$prev_build"
+            echo "prev_version=$prev_version"
             echo "next_build=$next_build"
             echo "next_version=$next_version"
             echo "next_major=$next_major"
@@ -342,6 +346,49 @@ jobs:
               '.[$m] = {version:$v, build:$b, released:$r}' "$cache_file" > "$tmp"
             mv "$tmp" "$cache_file"
           fi
+
+      - name: Generate README metadata
+        id: readme_metadata
+        if: steps.gate.outputs.run == 'true' && steps.detect.outputs.do_diff == 'true' && steps.detect.outputs.next_version != 'manual'
+        continue-on-error: true
+        uses: actions/ai-inference@b81b2afb8390ee6839b494a404766bef6493c7d9 # v1
+        with:
+          model: openai/gpt-5
+          system-prompt: |
+            Return only a JSON object. Do not use markdown fences.
+            Use exactly these keys:
+              - section_label
+              - previous_label
+              - next_label
+            The section_label must group beta releases without the beta number, such as "macOS 27.0 beta".
+            The previous_label and next_label must include version text plus build in parentheses.
+          prompt: |
+            Create README index labels for an automated Apple firmware diff.
+
+            OS: ${{ matrix.os }}
+            Previous version: ${{ steps.detect.outputs.prev_version }}
+            Previous build: ${{ steps.detect.outputs.prev_build }}
+            Next version: ${{ steps.detect.outputs.next_version }}
+            Next build: ${{ steps.detect.outputs.next_build }}
+
+      - name: Update README index
+        if: steps.gate.outputs.run == 'true' && steps.detect.outputs.do_diff == 'true' && steps.detect.outputs.next_version != 'manual'
+        env:
+          MATRIX_OS: ${{ matrix.os }}
+          PREV_VERSION: ${{ steps.detect.outputs.prev_version }}
+          PREV_BUILD: ${{ steps.detect.outputs.prev_build }}
+          NEXT_VERSION: ${{ steps.detect.outputs.next_version }}
+          NEXT_BUILD: ${{ steps.detect.outputs.next_build }}
+          README_AI_JSON: ${{ steps.readme_metadata.outputs.response }}
+        run: |
+          set -euo pipefail
+          python3 .github/scripts/update-readme-index.py \
+            --os "$MATRIX_OS" \
+            --prev-version "$PREV_VERSION" \
+            --prev-build "$PREV_BUILD" \
+            --next-version "$NEXT_VERSION" \
+            --next-build "$NEXT_BUILD" \
+            --ai-json "$README_AI_JSON"
 
       # Single commit/push path for all outcomes: a fresh diff, a bootstrapped
       # baseline, or a re-recorded cache. Skips cleanly when nothing changed
