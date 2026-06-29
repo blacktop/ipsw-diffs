@@ -61,7 +61,7 @@ jobs:
     steps:
       - name: Checkout
         # persist-credentials stays on (default): the job pushes new diffs.
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           fetch-depth: 1
 
@@ -351,7 +351,7 @@ jobs:
         id: readme_metadata
         if: steps.gate.outputs.run == 'true' && steps.detect.outputs.do_diff == 'true' && steps.detect.outputs.next_version != 'manual'
         continue-on-error: true
-        uses: actions/ai-inference@b81b2afb8390ee6839b494a404766bef6493c7d9 # v1
+        uses: actions/ai-inference@a7805884c80886efc241e94a5351df715968a0ad # v2.1.1
         with:
           model: openai/gpt-5
           system-prompt: |
