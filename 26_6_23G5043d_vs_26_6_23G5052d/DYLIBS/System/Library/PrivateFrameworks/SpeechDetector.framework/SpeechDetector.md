@@ -1,0 +1,104 @@
+## SpeechDetector
+
+> `/System/Library/PrivateFrameworks/SpeechDetector.framework/SpeechDetector`
+
+```diff
+
+ 3525.5.8.0.0
+-  __TEXT.__text: 0x1d30 sha256:f7b2dfd0b36d9befacacb67106a1f96fe454954b6ae33bb533fa649cb71f6196
+-  __TEXT.__auth_stubs: 0x2b0 sha256:39a61e1f7be8443b3ec9060771d376838882a22cf482988cf42a28df0f2dabdb
+-  __TEXT.__objc_methlist: 0x484 sha256:8e474b7e97eb81c67727fdf1ff11988cc2bd99bcfae3f62d0080f99116c68524
++  __TEXT.__text: 0x1d30 sha256:92c4026bed46e08efd6bb2d0b8455fc1a6912f9cd83552c4364a5c0c119cc7f6
++  __TEXT.__auth_stubs: 0x2b0 sha256:34172314eb28625941ae551cc5f5ab4487e76e96a871eac91e31e71553b80a04
++  __TEXT.__objc_methlist: 0x484 sha256:1563c2a35b566782501d49ed518eb7c03a7be409e14205eb84564858d4596e65
+   __TEXT.__const: 0x84 sha256:b07f8b26b2058c9dee23474be526550196f04aed0211878c005417501a10375d
+   __TEXT.__cstring: 0x535 sha256:d615d2b25bb9da27f42695e20544cc17b6fef317d1d2c81b47cf74f33292746c
+   __TEXT.__oslogstring: 0x20c sha256:419b99b929a36d565bac49ff91a6867e1cf6e64f33cbd443ae4caebb448ace08
+
+   __TEXT.__objc_classname: 0xb3 sha256:22210f39bcae85dd6561437a5b4b0a476d5febfbb4a70f8d0d64ac2ba0b86896
+   __TEXT.__objc_methname: 0xee5 sha256:87be1749556958b8eedde34fb3a19dfdecdc6be0f2a9d21b4b37d1fbd94355ee
+   __TEXT.__objc_methtype: 0x341 sha256:7dc68b5ff448cda922074c2535c4a7f9e9a029506352a4e9cd77cf52af594cfc
+-  __TEXT.__objc_stubs: 0x8a0 sha256:8a790b178633110f0415fbd55d7cff96252cd01849adb5ed6911dd95271c9b73
+-  __DATA_CONST.__got: 0xb8 sha256:7aa0849c2260bff55c4b6de02659a236ab42cb8b2ee3a0d77259483ecb89ff46
+-  __DATA_CONST.__const: 0x98 sha256:c64844a763af9b5fd16fa913caf892cb073eb30adea71c2b200af8f64f503d0b
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:764461c25920bd58951524e62f1b96f6c91ccd0db239d9507b56a5e8d61e5538
+-  __DATA_CONST.__objc_protolist: 0x30 sha256:78d3affd2a70bc9ba39c02d64e704eb529282fdf23d60488bd209879a6ef8cfb
++  __TEXT.__objc_stubs: 0x8a0 sha256:0da4d22b5ef1d1d13e01463669d842fc33aea18a87ad84ae3a00f62feef24e70
++  __DATA_CONST.__got: 0xb8 sha256:4669f25777312ac3c2ad8f8aecd2cc58fbe8c5a00454850b065c6b0155100765
++  __DATA_CONST.__const: 0x98 sha256:1456a9ee247d71ad58fe02f4aa0ea0a3ba6791fa4a4027d67fb83594aaaf544a
++  __DATA_CONST.__objc_classlist: 0x20 sha256:5a409c66fccbbf157375d158afa78fc48b1bd11d5d1f4c66190e3c2189d61bb5
++  __DATA_CONST.__objc_protolist: 0x30 sha256:c32e0fe820a4484e4200e8110b9653ee41908333b953fa76d2b4079207e502b4
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x3d0 sha256:d18d34d98845888cd951d6953493782c5dda826e8ca93421cddbafd5a77aeece
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:764461c25920bd58951524e62f1b96f6c91ccd0db239d9507b56a5e8d61e5538
+-  __DATA_CONST.__objc_arraydata: 0x220 sha256:b53c27f8e97e5aeb4ef9e75cbfff51a9fa1de9664a0e2cd76f0e758240e80cb9
++  __DATA_CONST.__objc_selrefs: 0x3d0 sha256:cd34a0614feb761c06ee18bd9026168981952abbfe919408fbf9339370e35588
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:5a409c66fccbbf157375d158afa78fc48b1bd11d5d1f4c66190e3c2189d61bb5
++  __DATA_CONST.__objc_arraydata: 0x220 sha256:467632bb79ff9904e24b79325cf668d27f49611e0f3d87e052f6b67db7a62268
+   __AUTH_CONST.__auth_got: 0x160 sha256:627f6149015f853f26db2f3dffba1b7c30b3b74b87c5cfb9f346c1616e3636d0
+-  __AUTH_CONST.__const: 0x20 sha256:6a9de7103277d7cb833fd157b6ad81124d2fcf5ba0b01096172b10a01d08d906
+-  __AUTH_CONST.__cfstring: 0x880 sha256:78ebe8d699b9a6bce694dc5e1108a3c26625523384bd655dfb77f326dbc2c2ec
+-  __AUTH_CONST.__objc_const: 0x910 sha256:edda4bbefb03296e33710b958289493f646e14723a74149048c593ce0be9eeac
+-  __AUTH_CONST.__objc_intobj: 0x60 sha256:bdb373a3c376e9ea7786fbb53c7c05bd37859eae24a7d49d059ca7a3da8d07c1
+-  __AUTH_CONST.__objc_arrayobj: 0xc0 sha256:ff28269d2b1bb47955b20a76411221bc6c2e91ad421381b1ea31d306bc25c037
+-  __AUTH.__objc_data: 0xa0 sha256:63dd5a0075a25b97b2dc2821c12d6d180d9ab2fd29acb8b1a2fecd44aab7b158
++  __AUTH_CONST.__const: 0x20 sha256:9390f10a691918b4327459d8b20735ea464ce1ee9ba6ee06df795095536dabf8
++  __AUTH_CONST.__cfstring: 0x880 sha256:cba850ef27a60d334102994c11658f0a257d3b35fc22ef371cf59cfe62bf3a2d
++  __AUTH_CONST.__objc_const: 0x910 sha256:1690da6fc7d23a3b14395226d625a91f7690f6c9c0bbf80eb3fe216d68b3a3b5
++  __AUTH_CONST.__objc_intobj: 0x60 sha256:4f9e648b630351dd28985ed7b798772366c579cb23ffa7cdc94ede6f38f7bb1d
++  __AUTH_CONST.__objc_arrayobj: 0xc0 sha256:1f8d84e2605dca6e840e0f9728d7d67306026206fcbc3f550cef0950ed79ee3d
++  __AUTH.__objc_data: 0xa0 sha256:c8a76ed01665509930baf30b7e6234202be81d4a81c68a48ab44238e6fad8cd9
+   __DATA.__objc_ivar: 0x68 sha256:a2aa550c6830de31f8101ef4a757020b8df71af49f7735636d17a33bb845dac5
+-  __DATA.__data: 0x258 sha256:0dfd990716327a9b53d0e7fff9c0f9bdc26381e7ee57c040a737d4b12780cadd
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:60e605c80b92977063a4be9e38aea79332c74b1e1ce16e7dd7602e800edc73b9
++  __DATA.__data: 0x258 sha256:58d5de00abd01d5cb5f5de993b0509643a86cd5b9f610d2aaac195cb8d8dd219
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:e280fddbd50a535d2b0690fd9434d2a9a3311b6d439c7d605f970028a2ebd511
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/EmbeddedAcousticRecognition.framework/EmbeddedAcousticRecognition
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6D110EE8-EDA8-371B-B5EF-CC9C23657E3D
++  UUID: 123AE2FD-C2EA-3D6D-BAB2-9690E6807364
+   Functions: 61
+   Symbols:   370
+   CStrings:  388
+Functions:
+~ -[OSDAnalyzer clientSilenceFeaturesAvailable:] : sha256 4fca15e1ce2161640f62a63c7c420e48b463df2c3138e87ffc2c8ab026b64aaf -> 707e88bcea3faccdc18cc84723c5658745d3726fe0ca701edea3d794112c8868
+~ -[OSDFeatures initWithSilenceFramesCountMs:silenceProbability:silenceDurationMs:processedAudioMs:] : sha256 0f045fa5102b86e2680cb0eeee3a40e7f3c3d97a49bc6c4799288d69f4a369f5 -> 1e6db25c686b57be5c6bd965321c0fd04b50b9837a6487977d47c76727de3797
+~ -[LipMovementData initWithBlendshape:andTime:] : sha256 a70c36bc4f0b02806f4d5af3cb36b7f787f0370f97d7961104db9b05cb0ffa4c -> 575b5c13b7ac0e9541362bef6a693dca0bdb64d55e83d9780e9fd5eef6a6e5cf
+~ -[SDLipMovementVAD .cxx_destruct] : sha256 304b774d7c568295d60e89900676f69cf96201bedb26f8373133b535af858c55 -> 714d68e757c2dbf05f63063ae17934f2aae1314cedacca64791cc4c3037a6a69
+~ -[SDLipMovementVAD setDelegate:] : sha256 100f8c3bcbff2d11089d730047e6f198cf3841e85b0c9db717d7615d71651673 -> 3aa1bf2d72e4f52fafd8c701b2f36185d156c9d9b30e27b929a1139a5daab582
+~ -[SDLipMovementVAD delegate] : sha256 f75b9ec30ecf87986bcfbbaad22b9629e920c10fedd7bbbd7a216bacc4559470 -> a7ffc5f26c1abdee7675a7265f1449c536d79f374b76d38f70861b26a86dfbb7
+~ -[SDLipMovementVAD runModel] : sha256 a6be040cea2c0bae9d2128c5eed013662a8dea970e9239f706e3e988e7dd6283 -> 98c0da1d20abd6b998fa2ebfa5747e6b4a89af54d4931e703620b0ea4817e341
+~ -[SDLipMovementVAD addFaceTrackingData:atMachAbsTime:] : sha256 04bdf94bd70b1877593c408568e665836e5a2f5ad229736b8573fa5d672ba3cf -> a7d8fd72c7bd13d3e2e47247ec63252ac51c03b481c0e1acdc733b4d6a40bcea
+~ -[SDLipMovementVAD setupBlendshapeIndexArray] : sha256 a2aee2e05a86dda72f6543dd4f7312eb3928dea74e1a93bf7623c61091a02a6b -> 18e2270ccfaa979de0e988b474cd02cb150196ee2de3f7c3bd73d9d267f05b4e
+~ ___45-[SDLipMovementVAD setupBlendshapeIndexArray]_block_invoke : sha256 3b51c2f2dc8ac9c2818808b00b159e81ff8f2383ceb0d55f2d798a1c4d5fff34 -> e47be49b061a12bdd5903d0e0de9364364e080de086d766b705b8623a0cfc7a7
+~ -[SDLipMovementVAD initWithModelFile:] : sha256 b0495a233d411d6215f2d41d524cd1ad2b3c2f63e93e6b8752fa44a027702cdd -> 8f9ee10eb47586af993f46a004974f1c6aa443c846417d89e59d166a21b36f71
+~ -[OSDFeatures initWithCoder:] : sha256 981ed0f316a43ee3b2a8c637780b9742e723088d0eaabbc9cdde3f904c969748 -> 3ab3e1f0e86759c0f6d17df4aadb8b9675b0f5d5816f4c6c81a62218e400310e
+~ -[OSDFeatures encodeWithCoder:] : sha256 1f0a6c3b98b339cb28ed64586bd2ec6d7571a38597a0344e85aa4e5e5231b3c5 -> 36f87276c5b64e13ebce776f36181f8b42dc5e705b0e1a6bbb4c0af8e0f2f27a
+~ -[OSDFeatures copyWithZone:] : sha256 6a86a7519ca3dcf293c75b099de26e225fa18f6cc6a7615b78a0356083b3456f -> 0d69137b625f4421b9270c50ebf62557854d65cffc4e2be52186f5a96a4fa7e9
+~ -[OSDFeatures description] : sha256 ba89b81ca9455113ef1d0a3a3846edc2cef4e052b1dabc43c280ca1d35a9c0e4 -> 9ff7fb341cb94d6129db024afcedd8d8bd55815fb283e55e1c235b7bef3552f1
+~ -[OSDAnalyzer .cxx_destruct] : sha256 2a9e4fef3a76f18f5b13ad2f1f6b6a00a6c23936b6e401a04d7d2bcd1acba2d4 -> f9a29cc4601efd790fad0a8c2c657a99347d94dfd98d4bef9636015972aada92
+~ -[OSDAnalyzer setLipMovementVAD:] : sha256 76ab91051f206ced96474131625067d48b22dec7a347144cda5d654c3f6fe670 -> a0b2b91a1aa63862fc07db93b921d5f6a96069247d6d2607177b896b71701482
+~ -[OSDAnalyzer setLipMovementQueue:] : sha256 67caa474450f11c55fc45de93e3ad1dfa16e4b3ec679f8bfc355f8dfedc91b91 -> a7212611974085863c7ec1476be3cbada13babda5042a10f790b72a9433fb3ec
+~ -[OSDAnalyzer setOsdFeatures:] : sha256 a9b88ded70395ead8676a188a99fc1561264a5d6e28d6faeb6d8f1f0ff847283 -> 177052cd52f19fe511be9e146f82cf4bcc7d397659d4f1046072d354d6e32477
+~ -[OSDAnalyzer setOsdContext:] : sha256 7237b01ed2592a2108e797644e1b12f993f739814e9d3c6f2304fb5a7c9672e9 -> 8dc81fea2802be3878df55cdc1fd8764e57aa59b6331cb36ab7612da32d93af0
+~ -[OSDAnalyzer setDelegate:] : sha256 65b43fe072c0dfe10d77a519115c12ff622771b530de4836611dd24a463a9a68 -> 322d813fb467066e6c2b896826bec847f2f2a4b26f9da4c88b1508100a3bf96a
+~ -[OSDAnalyzer delegate] : sha256 299d1dd748eb278d651d1da591539c76db3c0e3605dffca9eeeecb30de47948b -> 9efa702309ca84f5d11cffef71a929ab09635c9866e196754464f0a27ddcc723
+~ -[OSDAnalyzer setOsdAnalyzerAssetLocker:] : sha256 bc726f47dd16f1b63287325691353cd6e26de4465c1ece9c962a8a44720eb393 -> 3598a5fa1d82c88dfa14395a9b686f53e5680bfde2e6f7a97ac9037fe0693ed6
+~ -[OSDAnalyzer setCaesuraSPG:] : sha256 9a3b633dcee8b844c804a864aed30204721818efb40d557ca96125a36e29b44c -> 179e22533b58daf9e1ef39083736b47da9b2bcf8caac5c209490e2262f3a49b2
+~ -[OSDAnalyzer setQueue:] : sha256 d45f693dcc3d550255f6e9adb5c8ae62456c28fef3bf17d76decd3112f215763 -> 28c082dd3a374fd78a3e296c9acd7577c97450127c908c68445ab95d642fd92d
+~ -[OSDAnalyzer _setupCaesuraSPGWithConfigFile:sampleRate:osdAnalyzerAssetLocker:] : sha256 aedab54410d4a2b80dc7b2b05e8efffcafa3751f2c8246a8c6933ba25273d997 -> a67e84113301273ce61a9173cbfd5f1bbddf4fadd2b0f14ad3a3b0ea065374f3
+~ -[OSDAnalyzer _setupOEPAssetManagerWithOSDAnalyzerAssetLocker:] : sha256 535d20b1024f205fa09953ea68f04e3e80f4e504104c76d4d47a443999b0a69c -> 1209dd49fd0bd5b479f8e96e7b836e355b45cbd9838f1be71bca2779bb465e7e
+~ -[OSDAnalyzer addFaceTrackingData:atMachAbsTime:] : sha256 80a4b628c03ec23b395a5d2e99aa6b914d7870dee70a8d9289478000f04c75dd -> 17a688349a6ab0c12dab468d3a657f3ed59cff70e10e3b00c30fba8bf2403a1a
+~ -[OSDAnalyzer didUpdateVisualSpeechProbability:from:to:] : sha256 5d0443b8e2a84f1182d7d8f551bb8d3ed4d859c0e64b1af5c14cabe9517e4890 -> f7f4fbe2cecf3bf9163ebaabcfed05ad22984bfd612cc3b21b02bc24b1b82084
+~ -[OSDAnalyzer setupLipMovementVADWithModelPath:] : sha256 39fe35aecfc7c13d6a925d26f2f2f79ab71be39db156da87d6d7d574fa728c7c -> 77f55fdb352f3dac113f1e3ae1d15a10117c6b2654b02a227f7f8445be9d95c9
+~ -[OSDAnalyzer getCurrentOSDFeatures] : sha256 8a44de788bcc1b2edfcda44ead449ce8c158696026853f3a989714a9e3342827 -> 5ee461e77e9d0ad6ae5ea93243d0f4fb49e3c48cdd0506d6b57939a12a6dfa40
+~ -[OSDAnalyzer initWithConfigFile:sampleRate:context:queue:delegate:osdAnalyzerAssetLocker:] : sha256 3d880782c3aabdf2c37f9acfc8a2f41818060e8ab770d40d25f4b34bf807a8fd -> d904a8e8816c3e01c4de530c50dfdf8ff97adb86c5cd4750411bfa2a475ffd3d
+~ _SDLogInitIfNeeded : sha256 3de90c04e26367ed09c8f5d9289356e972ca6840f502490860ec9007e4ebc888 -> c75cf0efb2b80a4be0fc4d7e29dd6a44df6a50b97fbff81f460ccbbbe68afcb3
+~ ___SDLogInitIfNeeded_block_invoke : sha256 13f957dc7161faf3dad23d0341bc648408225136996f2cfd0c10c73d0ffa448a -> 5956b094d76b126e9dfdc43674e07b82f20fd2f6f1780ead7b737ba8b97c8e83
+
+```

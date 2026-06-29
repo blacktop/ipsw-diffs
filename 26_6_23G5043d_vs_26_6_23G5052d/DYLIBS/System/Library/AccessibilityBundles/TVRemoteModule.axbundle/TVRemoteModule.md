@@ -1,0 +1,63 @@
+## TVRemoteModule
+
+> `/System/Library/AccessibilityBundles/TVRemoteModule.axbundle/TVRemoteModule`
+
+```diff
+
+-3005.29.0.0.0
+-  __TEXT.__text: 0x24c sha256:e0457c02f52ff22a2b7352e2b7a348184a3c533aaecae2d164cf031c9fdc95f2
+-  __TEXT.__auth_stubs: 0x90 sha256:f1a03453251a8edfa7c96f6893df70b9174f5222b2dd45b6480d5d27fa766b36
+-  __TEXT.__objc_methlist: 0x64 sha256:d68f403da53915fc374e6fbd41113d5f7cbdf4c755d3447739120b8ceed39a77
++3005.30.0.0.0
++  __TEXT.__text: 0x24c sha256:20f094170d9d45093197afdad29519fbd2771cfd3540dee8b21788c104d6e15a
++  __TEXT.__auth_stubs: 0x90 sha256:1d4d5abf15e32fe8c6cc9de6ca99f972da952629b5dfcf05b11ce20ca96238e5
++  __TEXT.__objc_methlist: 0x64 sha256:3aad218787947c45e80c4529f7637e42a90691736de52908fc3848176dedec60
+   __TEXT.__cstring: 0xcf sha256:d534abeb90538779d92d6a2b5470f1b2c945a744dec472d6f2c87487500005a0
+   __TEXT.__unwind_info: 0x78 sha256:1377f04a07878ada477b50cbaf5f72a2959a1e9de13956a1f319916e59d530a6
+   __TEXT.__objc_classname: 0x78 sha256:8ee8ade81fd46570dabb0e3cb0c29c4d1799de743a48dcdef8faf844902a9ddb
+   __TEXT.__objc_methname: 0x1e8 sha256:f7e653469464b6798389aff14f1cc499244473c001389f7d494bb45d1ed8973f
+   __TEXT.__objc_methtype: 0x23 sha256:4eac88e50f25f0d12c0af0a12ede3e45656199e676f98f783b1eb3bbbf41b8e8
+-  __TEXT.__objc_stubs: 0x120 sha256:aef30943d84b6dfcb37be8dfccf95ed9b562af55439e45029ba780e7883b64da
+-  __DATA_CONST.__got: 0x28 sha256:186aa96fb192c9ae2542c06e55c6e81943a22f549918637677f5d8038f55ff43
+-  __DATA_CONST.__const: 0x60 sha256:c8c7166b344a39bad7bdcb0ec2db9e7671bf093e7cf951381883e12f0d546b5d
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:d9dba672c5e269ad5c15cec6bf8cdc5ab04945a7aa8f096322aacb24a1fce89e
++  __TEXT.__objc_stubs: 0x120 sha256:a5de2d5089a18ba106c17772cc824795b13852cfa2e1ed32d043ce13273e3eb2
++  __DATA_CONST.__got: 0x28 sha256:277382d1a7a518530bab1ab1b7d595121c68c93530403ea1f019d6e13e298042
++  __DATA_CONST.__const: 0x60 sha256:0712e3b7d060a71cde88597a9eabd8a55325dab46df7746c5fdcc22b17b61f6d
++  __DATA_CONST.__objc_classlist: 0x18 sha256:e6866e6621e43b3982aa135a12767449fa916bfeec9278845199cef98a3a7c4c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x78 sha256:dfc510bc5b4a6a887fe4f36a103ac6af3bca316862ac5afc5c7672c6b8b09495
++  __DATA_CONST.__objc_selrefs: 0x78 sha256:fd8ae3e96de4d1b73c72f301097de6d7095f6f3e2091d16491089100ab79689e
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x80 sha256:02965df92a96f6d3719b25441078a02463987f7c78f6182d84cb6569e9259ad8
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:2a4e8413741c822bc062a896c0abc0f2c816c7fa8e41f571c7c61f4797eea939
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:6837f3d1ca9ad73b134a890e376115c83c923f73095912863f288e0180b336d1
+-  __AUTH.__objc_data: 0xf0 sha256:b0a082aba1f74c39975f9ca00bd2c54e32da93e2e962f03e782b92df9cd45dca
++  __AUTH_CONST.__const: 0x80 sha256:e460f8a376b8abcec119760a22a40afb9d5e8d53416deecadde6c8b81153ac0a
++  __AUTH_CONST.__cfstring: 0xc0 sha256:f6ae94a72b80d9e1833621660f416850514412d8f11515393acb5fa7677583d1
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:70c067e053638ec1f68c42d0cdfa815ebacf8a725fda5dc1721c97f1d5214cd1
++  __AUTH.__objc_data: 0xf0 sha256:023292bbdebcc6c456fd6188e5377d747223b8a0e1f63d016c47a2b656cc0ebc
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BAAE5852-DF02-3AAC-9FB3-BFC4234F8C67
++  UUID: D2549746-8DC4-3D38-9330-51BBBEC34A35
+   Functions: 12
+   Symbols:   75
+   CStrings:  37
+Functions:
+~ +[TVRMContentViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 8b9b5bf2e7bf10a5086d3e9ebed0acd5765c733e8d075c66bfe407f6280b7e36 -> e3fea0e5e7a52660389d956e7fb589f81075471a720735516c6596ff5723b042
+~ +[TVRMContentViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 e9c2a348fbfea607b72a27e9e5b6e79c28e8b0b796ab4e36213310ca4eba4393 -> fc2ace5bc6585a0b2a18f93b0b5da5a699892ed6ffe9184d4409592264370dd5
+~ -[TVRMContentViewControllerAccessibility _accessibilityControlCenterButtonLabel] : sha256 4d8f01292486d3679e40dad532ab30ac8e24d656c7c2bb236fefe39dfa9fd0ab -> fd74f491ea95abb21a4961b04d74d48113608184aa297dfe1c3f4b727a0ee619
+~ +[AXTVRemoteModuleGlue accessibilityInitializeBundle] : sha256 62830f3625aaee8aef0a5499b21a73978738453981b2dc7afd749d9f57681612 -> 0b27d06c71aa89b03eeb921eb6835ec04110693629fcfaa976603a53f5f2a0da
+~ ___53+[AXTVRemoteModuleGlue accessibilityInitializeBundle]_block_invoke : sha256 0997745139ddfc95e876886916b7e58c7ab30146a9e8fe293379777dc1d3fa59 -> 00c7ee514646fd1e679043bf0521d6b76d61eae7d58c9bfc54e99a8275315225
+~ ___53+[AXTVRemoteModuleGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 f3935ab4670b5bd299e93d212b37ab044c2cd69a215efa2f941be5dffd9412b0 -> 1c876e94550f579dc04fc9c75eef852da0764f3d9f443dbaccafb9fe9644ff7f
+~ ___53+[AXTVRemoteModuleGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 d22596fa424964ea3a253348515c37c987c3e1364a2b22801d5a3a3907a1d3dd -> 5efb4bff879a6618d0ce0162ec67b190e4a8a66018f7a0adb2b82ea62d9b08b9
+~ _accessibilityLocalizedString : sha256 679c8b63caaece6a535fb8fc0ec91b21e6265f33a7e6796ef6840106b9b38177 -> bee0a161b66171c418b6f3d7c6a8740a85c9da107dcd56c0adeed8c77a322301
+~ +[AXTVRemoteModuleGlue accessibilityInitializeBundle].cold.1 : sha256 4fe88694237955aed1a99ca061be543210121fcfc18f4824426694ebee65e57a -> 71b48310eb16f0f81f0b6842eaff217ae6142ab5939347047930e67f99b9f621
+
+```

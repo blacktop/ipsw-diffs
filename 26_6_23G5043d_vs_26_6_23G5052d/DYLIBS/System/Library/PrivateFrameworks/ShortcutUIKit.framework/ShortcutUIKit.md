@@ -1,0 +1,75 @@
+## ShortcutUIKit
+
+> `/System/Library/PrivateFrameworks/ShortcutUIKit.framework/ShortcutUIKit`
+
+```diff
+
+ 375.5.2.100.0
+-  __TEXT.__text: 0xac8 sha256:f16fe1e9139cc8fc22f1ff697e15e33001990edf6c49bbc9c438f11e913339f3
+-  __TEXT.__auth_stubs: 0x170 sha256:85abbdc805202ff8647b062022f6fde77877f098b8f09ebd7ebbb9220089241a
+-  __TEXT.__objc_methlist: 0xe0 sha256:cbe85001ade4f8dc10a29f98ec9c097da0ac25631f7d191e6fa1c487eb9d6094
++  __TEXT.__text: 0xac8 sha256:6d2584ec7a727be5422cd64dd894d73486113c59147ceb83978552227059d93b
++  __TEXT.__auth_stubs: 0x170 sha256:9aadf3ca1b39b349e2747269a8e98537c08936afa113ec40ae1616ec3570f61f
++  __TEXT.__objc_methlist: 0xe0 sha256:ff21617688d008b91d1b1498019034bfe6e4372c08b24f9ecf38f7a5dcee4f6d
+   __TEXT.__const: 0x48 sha256:fc24277b3722b7aa3c538c2f714e969a6b83cbc2dfef8398843d355e2b747002
+   __TEXT.__cstring: 0x14c sha256:eb341c485a02f6cf880c949d518101c2312d91127ba3dd41475565ddaf74bbd4
+   __TEXT.__unwind_info: 0xa0 sha256:a7984f6d51c7e81d4b6bdf1314980eba2fd2e6f3a08268385986bfd3b70e0735
+   __TEXT.__objc_classname: 0x22 sha256:83ef4d806797fc3c85b85eb80f5e3d4c7959f7b8e6f5101578444f712550a297
+   __TEXT.__objc_methname: 0x436 sha256:446a5a38c24cb0dc309f2fd6cb2dc5c8e8f75a3db0e6979c668d98113efb31d8
+   __TEXT.__objc_methtype: 0x45 sha256:f87ee4aeb5ef16d5762390a197cdc206fdfb5931348f33f142b3fcb93ce3bc20
+-  __TEXT.__objc_stubs: 0x5a0 sha256:47c6a389cdc03fbf0545190a57ae4775ca0829d107022cd1dc6abe60dd758144
+-  __DATA_CONST.__got: 0x78 sha256:22d59e8a98dcb1362c7b5665d400d5c155b370fb65715bb9d6ac8f017fda9ea3
+-  __DATA_CONST.__const: 0x108 sha256:4b887d7ac554e70bccbce1a0bf05259a520d7aec03cf3d51623e1b00c7b15da5
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:e95275c2c802acff03522746f7c529cfd8103272c523e2f54ccfa65f95e29acd
+-  __DATA_CONST.__objc_catlist: 0x28 sha256:fbf62fa71b92e97a94993038d8b0f90a2b2c103f17d14147e27ae8d2007c8d87
++  __TEXT.__objc_stubs: 0x5a0 sha256:6346e31bef12ad3094434b622cd6d445fc0414c0a28958f90c90e0f0db5701fc
++  __DATA_CONST.__got: 0x78 sha256:6e73113092cc8bb6c2bcf1b6a6c6da97a335b52393b4c9232d61264d1f7a7f36
++  __DATA_CONST.__const: 0x108 sha256:461eccd372ea91a4bf91fe7f18888bbc65deacac6b4962745e49363af20f038a
++  __DATA_CONST.__objc_classlist: 0x8 sha256:5ba3f4d5a25cf14b14a1014939592c96bb0c651713b610f6117df2cc75d0bcdc
++  __DATA_CONST.__objc_catlist: 0x28 sha256:cd54484f7200782a5eaeec4141d243f8c71fea35d65810fc7876fce4157b6b62
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x188 sha256:a9e997c6f975e46b2f688fe121d5c5f88e7586f83106be5351ec62e96cf487c2
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:e95275c2c802acff03522746f7c529cfd8103272c523e2f54ccfa65f95e29acd
++  __DATA_CONST.__objc_selrefs: 0x188 sha256:0220900edc3a4bccd3c71611ae1b7af8494755afb0ccfe61255b45572793dc42
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:5ba3f4d5a25cf14b14a1014939592c96bb0c651713b610f6117df2cc75d0bcdc
+   __AUTH_CONST.__auth_got: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+-  __AUTH_CONST.__const: 0x20 sha256:0eff6d33c65875a67755240973eaf0c40490e8310b69df10e921a841f7617fb1
+-  __AUTH_CONST.__cfstring: 0x440 sha256:906f51d04c818ce0066ec8589f82834016c538d116f16475e5ebba1750f2b74e
+-  __AUTH_CONST.__objc_const: 0x218 sha256:e4c1372cce8783d310e2c1df300a4e773dee66cf6a1bfe82fbb6374298e431f1
++  __AUTH_CONST.__const: 0x20 sha256:6bf406a1471d7cfa9dd1e6b870f49d2d7a3b9c8ab10d5847e27fedb4662714ed
++  __AUTH_CONST.__cfstring: 0x440 sha256:87ecc993481de4e8f1e53b653cd9822ae7b8d55495727954d0e96d37a7717ee6
++  __AUTH_CONST.__objc_const: 0x218 sha256:56ad1d78ee33237d0b654cc14ac403a8de16f351a7b75536e8d223e8915e8c7d
+   __DATA.__objc_ivar: 0x8 sha256:1842d9d60985977543496f68d38a01a5470beb95bdae33af49b8167ada489f83
+   __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:55c9cc4b0f523b3e116a1b82ef60eecaefc5edfc0c6e9e894393cf66ca518de6
++  __DATA_DIRTY.__objc_data: 0x50 sha256:7d62d25389a3ec3bfd68ac36f19ef0cd4e19880303813c8681b4af0f26c6a9fc
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0A364715-77F1-31DF-A332-E84185F3E1CC
++  UUID: 16AD5A79-9849-3451-8F09-BFA2A56E5E63
+   Functions: 17
+   Symbols:   152
+   CStrings:  127
+Functions:
+~ -[SCUIAssetProvider initWithBundleURL:] : sha256 e2075dab334aae011333cbc1073eab9380fdcb043db5445b2de4f5e55a53a6c3 -> 6095a7988b89714b54ffac4189d8a56a4da06e31647d6bf6f71c5e1bf3eaccf6
+~ -[SCUIAssetProvider imageNamed:] : sha256 3ccc0cd885758e1faff6fda16a59d813fc3bad1698c12705e794c20e1db5e425 -> efa09490cc25a1c5f65d17b9a0ae639cfef094f2f966aeed9e8447dbe0136dd7
+~ -[SCUIAssetProvider _assetManager] : sha256 cb5738c6459187f7df699b1a926a9c6311ca45ecbb3b0cfad6bc791b72f31f83 -> e809ff211b3a18351501b7e4049f29774f3d70a4a4d4f2e3c7252b6b1785488c
+~ _ShortcutUIKitBundle : sha256 cd10c79db212bb40d00e46d073f7e0b99fb3d4e6425959f5bd9a758cbf3d1fc9 -> 87535747de425f551c8b3401366c12755bb110b78d07aa4b427f3f02a7cbeefc
+~ +[SBSApplicationShortcutIcon(ShortcutUIKit) _scui_defaultImage] : sha256 34659e9bb866fa5ffeae865e354750b9696d89cb4e094258f362fd3746a464f0 -> 3f7196a70cbededacdd48c62e32fb4548ca8ed104701e9079e8eb6a8eec35655
+~ ___63+[SBSApplicationShortcutIcon(ShortcutUIKit) _scui_defaultImage]_block_invoke : sha256 9d0cf620a94eb0efe632d6ebdace469d8ba8388b21c5703cf0daa35380076192 -> 203114f5a2daba3f57a9e3a7accfa9f72b069919fedc1b67a645bb04f7d3c6b4
+~ -[SBSApplicationShortcutIcon(ShortcutUIKit) scui_iconImageWithAssetProvider:] : sha256 03de8604ff9e238bb0c704ec19f7c79f1300525f872f8e18b39deed597be13a1 -> 1e7f4c687a0cfdc6848ef72e5d01097fe785d0db18ce566cd844f7054bc4f639
+~ -[SBSApplicationShortcutSystemIcon(ShortcutUIKit) _scui_iconImageWithAssetProvider:] : sha256 32616cd116d9cbcb2773260e95f02c67382ccb3cd57bcbd9ec8d1f3b933551c4 -> a1ed503a3e35a6734959c592b7b8f820f840f2b356438dae1edecdbc352ef754
+~ -[SBSApplicationShortcutSystemIcon(ShortcutUIKit) _scui_iconImageName] : sha256 6cab87e429c23c01c48d0558144034c3908d71dca00ba6f1dd323575970f25a2 -> 5ac2ae3b888e0fbd4132d8a759e80e7911e411cc6246cd6bc98a75e915dd6077
+~ -[SBSApplicationShortcutTemplateIcon(ShortcutUIKit) _scui_iconImageWithAssetProvider:] : sha256 1594d8688ae0aae9f2ee1e11cafdd004a1c2ad325366ad354dc28469490ba5de -> fd37df7f564b1b33bc7940eebf15d12fde6c6769f62f181c4812410407758dba
+~ -[SBSApplicationShortcutCustomImageIcon(ShortcutUIKit) _scui_iconImageWithAssetProvider:] : sha256 84c4ab1038cad99d4d8d6bf45ddc146669c0697893f3e5724a7c85eac817b32c -> 007e191d1fc2dcd528f30561cfd5a2b7f0000cde9a0f77a12206b983fb454c26
+~ -[SBSApplicationShortcutCustomImageIcon(ShortcutUIKit) _scui_iconImageForCachedBitmapData:scale:] : sha256 ee89116de55f606fd6eee088bb35ef142afc03ce5f382cfd61e155fd8997ce98 -> e9330bf56621aa555d908d13c94b44c3a35ce673b1ef5f4d25268d69fba2bc4e
+~ -[SBSApplicationShortcutContactIcon(ShortcutUIKit) _scui_iconImageWithAssetProvider:] : sha256 4b8f0f3520e312e8b21e6c5590d6838890e1d49e941bfa015c83da233acaec21 -> 02f1471fda48b2ef929816b6b18bec4744898f38d9e371e35b0e19644a1e4447
+~ -[SCUIAssetProvider initWithBundleURL:].cold.1 : sha256 ca039ec9b72a447ed954c7163bfcb31a4ac42cf0c65c9c117ff327352f0d5070 -> e9cf35ee09131d06381be3894f85ace996260ff420174c51901d005cb8ee039a
+~ +[SBSApplicationShortcutIcon(ShortcutUIKit) _scui_defaultImage].cold.1 : sha256 19691a6d7477499cf22509097a51dc7a4611c9206723c49c3581582d9abb3911 -> 3f42489df81c98c9d3751e32ee1e9940be3950d28c29e481c349d19921ce1d69
+
+```

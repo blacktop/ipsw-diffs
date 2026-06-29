@@ -1,0 +1,29 @@
+## IOGameControllerFamily
+
+> `/System/Library/Extensions/IOGameControllerFamily.kext/IOGameControllerFamily`
+
+```diff
+
+-13.6.1.0.0
++13.6.2.0.0
+   __TEXT.__const: 0x480 sha256:8ac690c50ee5b0abff83b0bd38a1d1b9232e3e6b709117ad373542e490163196
+   __TEXT.__cstring: 0xeb6 sha256:6d6e5b28d0b499a250c313da57dfb8ae27858d9d3938aa88a2e2af8e236de020
+   __TEXT.__os_log: 0x1b00 sha256:95c4b767829d6170195221f3592038bced9e0b09b01d1e85f1f75d5efaf3c0f7
+   __TEXT_EXEC.__text: 0x18c64 sha256:8f9f487482ccaf0acb300c4b98c8a71e105e95a8da64a8862dbc9bd629771b56
+   __TEXT_EXEC.__auth_stubs: 0x520 sha256:9d90381d3291c2ecb7d3a3b855f3e441e01abb251b4685686ea76982abed85d7
+-  __DATA.__data: 0xc8 sha256:adc994cbd3969e26fe2ba1800a8c9f9dc38630ce380106c731b5eb3ff5028037
++  __DATA.__data: 0xc8 sha256:84782fdc279025db0efb7807f6119fc9c256b2d2e86ca0743d8a2e26197d5e31
+   __DATA.__common: 0x240 sha256:1a0295f4bf5986c5f74eca9153a6a4cb10b073a01a76ba4a457fd862c78966a4
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA_CONST.__auth_got: 0x290 sha256:32869ee4c15d051b226bb60ec487b2a0a3ea806d7f42fc6fa78ca1030c16e7a8
+
+   __DATA_CONST.__mod_term_func: 0x50 sha256:7843ceccfc169e79339a68b45d495179f142c3a0779611ddc5fbd1a1056b79de
+   __DATA_CONST.__const: 0x4d30 sha256:2e48455499dafff3e33fc90dde5f0adea4385196059ea03c2f75c3d1eb8811a5
+   __DATA_CONST.__kalloc_type: 0x7c0 sha256:6827197f352dde4589350f6b296d29f340dbbc349696e01454f5385a747967f1
+-  UUID: 3B7E0078-FBE8-38E0-A211-66ECB952B775
++  UUID: 02AEE884-3BA3-31F5-9A91-B622001A933B
+   Functions: 622
+   Symbols:   828
+   CStrings:  276
+
+```

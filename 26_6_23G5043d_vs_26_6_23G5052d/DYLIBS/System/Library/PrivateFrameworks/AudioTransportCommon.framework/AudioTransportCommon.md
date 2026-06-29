@@ -1,0 +1,105 @@
+## AudioTransportCommon
+
+> `/System/Library/PrivateFrameworks/AudioTransportCommon.framework/AudioTransportCommon`
+
+```diff
+
+ 440.2.0.0.0
+-  __TEXT.__text: 0x2930 sha256:c59d16e47bf5a6bbdb515c256e6be3b9407349ecbf70ae5ab4a1cef54e79d4e3
+-  __TEXT.__auth_stubs: 0x250 sha256:7c1809dc633919878b75c713e3c0b956388677c18b963decc335d58e0d65efeb
+-  __TEXT.__objc_methlist: 0x30c sha256:be246e20e2705ebacdc31dd7c2b798ecb5c86d126dd78e2f884629afc85be855
++  __TEXT.__text: 0x2930 sha256:2a3abac4c00ba6c1d05c3f43d3b4c729f6cea689274bd262f7ab2ea98fd548c5
++  __TEXT.__auth_stubs: 0x250 sha256:dc35bdaadfb7e20404fa798a6dbd91cf74aa6db40a64cd11d8f39e8bee16d33d
++  __TEXT.__objc_methlist: 0x30c sha256:642782a3a833f87b40f7df021a02df61afc5d4e4aa37e620874b007355d3d2c1
+   __TEXT.__const: 0xb0 sha256:0c0273e2551e94b50e2b62ddfc071d80f8d37bb6097e1d2c039f2adcccb03525
+-  __TEXT.__cstring: 0x39c sha256:bc5939860ed87bbd57c8f1c1bdb37807cde73eceb984658f466ee79d1b26f66b
++  __TEXT.__cstring: 0x39c sha256:b41d43bae3e4823c78e9291dcce57219d5a8389c00272c10c10d75d032a4e9c0
+   __TEXT.__oslogstring: 0x8d sha256:515226d5b8e0d82c62b9f2d3257aa3dbda58b49a47e4964924065610313675b7
+   __TEXT.__unwind_info: 0xf8 sha256:2f4dbc0d378c13236175d6b85ed590e6b16f51ad24ed057cade8405bfbd3d54e
+   __TEXT.__objc_classname: 0x40 sha256:fa5d944b308e2993c08f3a1f106ae53e4b5290e1494fda940680e66295a0c0c7
+   __TEXT.__objc_methname: 0x9c0 sha256:6d3af3515b851f8ef29e9327a75a74febc483dbd5bce4f8da2a1356332135988
+   __TEXT.__objc_methtype: 0x24a sha256:65d85e9df16455f8a88dc6ba04445d6d5513ecdcc0a6cd2afa1bd4cfce15fd88
+-  __TEXT.__objc_stubs: 0x700 sha256:05f3381c45393bdcae0e5d19c5bbb8e455bbb759ab04230e7168bf2bef6f2452
+-  __DATA_CONST.__got: 0x60 sha256:56460263f849d53c84f34a991226fd4cd6d3f7c4f111fd576607300b3f8f6d79
+-  __DATA_CONST.__const: 0x50 sha256:7aeb16c946be5bad3215d4b2231fbbe259b469a4601a75fdc8aa7e320a838810
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:6ceed09ff217fbcfe31d204850ce6bd0ea5fe1b001ddae63d470d54a0ef71569
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:ebb3584bbdb6fe5cd73adb4afd0c646879bd9214775b10bedbdb71cd7cbbf444
++  __TEXT.__objc_stubs: 0x700 sha256:9cdce8d36ffd89c6e8a3c729d574f8fa03a64f565dce5bc205998d7f58083234
++  __DATA_CONST.__got: 0x60 sha256:13eb594c984b414a3d1e5a0140f9e8040437df75942737b77ed709e04117ab8c
++  __DATA_CONST.__const: 0x50 sha256:509440f40b6c1c5a6593b313698ca3cf9ef690714a4e87fbe550db4cb47f154c
++  __DATA_CONST.__objc_classlist: 0x18 sha256:9ec20f8742408bf02e2fce3194b9d46167d671926cd4569af64140b39d4b190d
++  __DATA_CONST.__objc_protolist: 0x8 sha256:ddbf65a0461e5bc8eef76e02225223082c27f2711b3158688643046a49974a28
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2a0 sha256:9ea9208774f28a3645c50a95ca99dafce1d09e16cc3eaf7afdcbd335f32616c8
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:6ceed09ff217fbcfe31d204850ce6bd0ea5fe1b001ddae63d470d54a0ef71569
+-  __DATA_CONST.__objc_arraydata: 0x30 sha256:7fa2730fdafba0a762e47cd7cc99f9a9bd396074321696df1b31abceadbd6f5e
++  __DATA_CONST.__objc_selrefs: 0x2a0 sha256:c847f3112c5f779ab2df36cb1ac4de57e33bd0d0622d26aece75f7f8d719d7ed
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:9ec20f8742408bf02e2fce3194b9d46167d671926cd4569af64140b39d4b190d
++  __DATA_CONST.__objc_arraydata: 0x30 sha256:2ea6b74519fd2d95057a58cbcb36097f1d4e532bc86ef4285ea7ae61bea68239
+   __AUTH_CONST.__auth_got: 0x130 sha256:e2fc162ed9124452d23c85e81d60a0c228f414c3214a5de635737e25fbd29ac1
+-  __AUTH_CONST.__cfstring: 0x360 sha256:885d2d3c41867fb8ded410d5b7c2052c8b930c316ed726f7b6dce6113c87da28
+-  __AUTH_CONST.__objc_const: 0x6e0 sha256:916228d0b004feb2ea001af22633165dbd2fac022f6759e60ad68b2fbbfbd6ec
+-  __AUTH_CONST.__objc_intobj: 0x90 sha256:e771bdb157cf27b914fd4ac9ddc5245d08081899f1ee476583d3a8a01f8b1f56
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:ea861b09a953a1aa9d790c6ab229854f24daa6519f90eeb0cd51eb1bf6c57d72
+-  __AUTH.__objc_data: 0xf0 sha256:7249c9d6da6dc47c1db1bce4c7fce38294411322b88d5401d9cb447bd4bebd35
++  __AUTH_CONST.__cfstring: 0x360 sha256:70d8c1233b549e5a63b5752914d4234b03ca77a2f6f5c9f58bcb8257ef86f0d8
++  __AUTH_CONST.__objc_const: 0x6e0 sha256:6cc91bdc8db2aac2757e44a04a3797945e55ce17fe5aa81e21a172a2059d1bb9
++  __AUTH_CONST.__objc_intobj: 0x90 sha256:b4f8867a8d01df6890f5eb9e0e0d9765bbb118931dbfa3187315fcefd5c04c79
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:ccdf7d76b2bef6cd767a40bd42376c2a8883fb72b42bb644e651928b797c345c
++  __AUTH.__objc_data: 0xf0 sha256:406b4b15b4487c2434026aa5c94d671be34fbf9abcc4cd7a090ba21c4407dab7
+   __DATA.__objc_ivar: 0x6c sha256:448ed1c4cabf7ffef380633674592feed79845afbe0ec68bf6f458f633899558
+-  __DATA.__data: 0x60 sha256:2adb0cf83168cf8e9c5461b1ec118c6a3ba34b4349c12b4b31046a439b35b167
++  __DATA.__data: 0x60 sha256:9146217811debf48c27dbea16c7c5bfacb077429172b309b2b707d85c4e33af6
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/IOKitten.framework/IOKitten
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0DC55354-7DFA-33A8-8EE2-C5D61E7CAF68
++  UUID: F3121161-CCD0-3B4C-BFE7-264B8369C494
+   Functions: 79
+   Symbols:   325
+   CStrings:  237
+Functions:
+~ +[ATCIOA2Device iokitMatchingDictionary] : sha256 711363826bf7ffe9baed502b5587dbdff8aaa219510dca50fbd0d02ab3cb28d2 -> 4b01afb11ba5d76b56faf97340bd0155a759d95b35b44c0a2a41ae7540b2554e
+~ -[ATCIOA2Device initWithService:] : sha256 5af1ca631b617cda0ed9f0e1bba448833849d60fa0466f58971714f56be09c42 -> 8fe681b15ef88910ab50765f8274bf1c5960c03d3784d39c2340937f80c482e2
+~ ___33-[ATCIOA2Device initWithService:]_block_invoke : sha256 b1543c835c245ffb23d6cef592336e3e6dcb79f3de795e232054b7739e1e53cd -> c7206dcdee5c8a291e7372d7b516a2e6a9fdf753a7d761d4a4f3b0ef5bdebd06
+~ -[ATCIOA2Device sampleRate] : sha256 8c10721f3b65542793600a78b7b512a29642c7fe813a4043d930c7b35f500ff0 -> b4559e515780314c7565d3af4c9c5025c8914b83038e1774b143d7c8d99991c6
+~ -[ATCIOA2Device clockDomain] : sha256 de27c0bc733d862b4938aebeec3422242aa2ac7dad518a2fdf30a51af35c0f40 -> 8c16eb69c4acc919af9e4fd82a8f7db39ef4ee2ad5cb097f0b29290bc9194077
+~ -[ATCIOA2Device inputSafetyOffset] : sha256 262c15e3ae38ee51ae0a2a7790a0d0ea003c45674a3bbe460692e1af451d0f66 -> 0f52911116445372d524e3a66fc5dfba537628e8de52e595df213bc6977dabbd
+~ -[ATCIOA2Device inputLatency] : sha256 062f03006c53594323c59ffee3e3ffaed7cd503bf69ca38878961fcb1388810c -> 1dcfe08807d30fc65e35eaf7a4dc129ef162b2810378b70825d507246a7cca77
+~ -[ATCIOA2Device outputSafetyOffset] : sha256 3c84679af4c6fefc047e152bdfbbd050cbf92b57e729db750183444e85a7fd07 -> 3da0fc60dcd06a3f31c3368d6bc8a3a371f4b58ef4ea8300271eb84ec182f6ce
+~ -[ATCIOA2Device outputLatency] : sha256 c9beddadf81c42631579888140a8efcd460b4035a960dbf1297d38fc9a05755e -> d949a4e291b93d52c656440d6bdba7321e92cfb20b8d52cbfa07b4bb6b975ab7
+~ -[ATCIOA2Device ioBufferSize] : sha256 1ac65728490c6a9f19d925402a378ec0e3157df32b5e706b4c42cd7a6cd4f4fb -> a7d7fadda992f3559e5d899c7bfcc6fb6d003013b00a165f24563e6b92f79b82
+~ -[ATCIOA2Device _buildInputStreams] : sha256 21edca44c32df87ee4e3b86a391a4f7c13724fd06c98b6d783a7e0b7f91ecf7b -> bb0901e64a1ffa03feeb5a365019e1fdec5977e4f7f96b044d82ebc802d23b8c
+~ -[ATCIOA2Device _buildOutputStreams] : sha256 69112966e453c938a6ad424afd244cfddef08d5b7f340b76ef14ee4a6b250eae -> deaa024246e9b8e4d8040e2050789b4f6c1ce90c1726c3e4d9d0d2f3265db136
+~ -[ATCIOA2Device performConfiigChangeForNotification:error:] : sha256 ccc8059815b01bdf7bf32e9aa79787946e00dd1ab44567cbc4458e24aed25ca5 -> e068a9578424efde5e4a5fc0744f8fd1a5b390b03575235e52448a697685487b
+~ -[ATCIOA2Device handleNotification:] : sha256 817ea69a0e8b1a32c38fe406fb20be1d9df8944dffe3fa2b82c91f8d7d453737 -> 21a919c2b2f3d9dae263fdf756a79ce69ffc34830097f93ca3b9bf4dd15db939
+~ ___36-[ATCIOA2Device handleNotification:]_block_invoke : sha256 e4963694f13221500dec28dd78452c5188fb798e8e24e698f4d223e6ee3ab63b -> 2fb04852d48d89de0340113f33529f4564cdb25ccc991bb73c73908b1421e828
+~ -[ATCIOA2Device dealloc] : sha256 5396094107022cbc55729a8be285707a0fce3a1ac3ad3c60617f2cc2b4753d1b -> 894cd4b4762ae5219197c33c4e0d6d104c96f0177e744ec2b0ce3d97cf7e4a7a
+~ _OUTLINED_FUNCTION_1 : sha256 7760340cc4c4af319bdb8b5cb872440a4145413c6a40f11b2023c98f88fbf8dd -> 77774890567e949c40974659795796eaaeab1b53d9ad2477e415501998091da4
+~ _OUTLINED_FUNCTION_2 : sha256 b1428f89ac2d912f1cdc460b6d6d6e96c01c39535db1af87e33da3d998ad15d2 -> ce8db6621cbbbca56b826a2ba2b2bcf271b7364fdc3f88a53e1f8749e44df093
+~ _OUTLINED_FUNCTION_3 : sha256 a91f202748e7cb60a237293c9c4992a2fa85a435eb91ecf6de13ef15f1e95c00 -> 6ee51f5b6425df25fac6b21f34dd2f9e06d9f86c2be75bd914c614bde38003c1
+~ _OUTLINED_FUNCTION_4 : sha256 4768c96777fe69c80a5a080cb096982e6661cff7b0f884ea5b4649a2b6836fd5 -> 131bc82e094f2fe4f95f45b8c50fc183420f821b6143e1b920fd350c3a3344c9
+~ _OUTLINED_FUNCTION_5 : sha256 4ab798a791537b7f8d6bfd28cff47c13fc32357309fcbae1dbe96b2a49fe993a -> aa400e5ba2b55aa198f43854094b2bcd8b4d4e95a968402bd0b1291f6774ae25
+~ _OUTLINED_FUNCTION_6 : sha256 99fbeff5cb323deab43ee6462fe9933cb18dd7fba09d7db264b401f2b889ddfc -> 74f1889c71aaae18b9b395b7ef825b59c5773fe0cea97cde4d6ed4214e13aca5
+~ -[ATCIOA2Stream initWithService:connection:index:input:description:] : sha256 7c828b6438a959eff5faef6d8cabc3be7efc61b28a675a1c761decd56c9c2c3e -> 9afa60322541572bb6ed545ccfac65bba3cb133c8b6d77a9ae04fd4ef3aa31a5
+~ +[ATCIOA2StreamFormat aeaStreamFormatWithDictionary:] : sha256 50c7e47ef92a1e01d63b9a131eae801735d498277742ce31cef75453f77d19c2 -> 394405f63a4c8f6a8cd37f90bfcd3982c8881d69d19cb5ca59acf3d5f3e1973f
+~ +[ATCIOA2StreamFormat aeaStreamFormatsWithRangedDictionary:] : sha256 46b5e0f0f99148d73949085c68bb4a6ecb9a64a78bcc707b50ea7b3ff916e240 -> 5250937156ee9f6d2300e73b1847b39e4d7a1406e6e70670ac1fb533c786fc34
+~ -[ATCIOA2StreamFormat initWithSampleRate:numChannels:commonPCMFormat:isInterleaved:] : sha256 233cc6a0cafd06b5a30ca12b09e46558abe3ef4add61f2e991001f534ef00eb9 -> c66f6bf1f731d3ba57220e2924d36b8878f7f238a96894ee0b31ec4f93295a47
+~ -[ATCIOA2StreamFormat initWithAudioStreamBasicDescription:] : sha256 6c736d8769465a82f494dc4883944d6c4737b8b6b583bfa42321ee7774035bca -> 4b0fe6f4a276b3d7c65c5b1e38589a73cb0b92a3e993d34903d3110c309a570a
+~ -[ATCIOA2StreamFormat initWithIOAudio2Dictionary:] : sha256 3bcdf2a1a8203d1278d420a4075789e8f4067ec9d5a9cf34ace7be85b65c290d -> 4c7a2c2fa35153dbbc6b28b0c68dc43f3aa403823c1a4b5851e53db920e2176e
+~ -[ATCIOA2StreamFormat copyWithZone:] : sha256 fc7900e36c7cb2d9e1d81edc47de18c0bf0d59fd7a4198284c17f8421dc03c22 -> b49ba32a3bd064bebfa47d49823a1bbe15803c65509158f6c1443e38a38b9310
+~ -[ATCIOA2StreamFormat isEqual:] : sha256 bd7400eb9c546052122a8d59d2a6579e1aa5adcfad830f05ff39ecfef3fd1828 -> fd67759ff140522496a5a1eeeacdaec4b981239c21ab1dafd2da772497e35b45
+~ -[ATCIOA2StreamFormat description] : sha256 d65f97b78eefc82bc5aaa3c0b6ce59aeecbafbf7b06436bc5f38fd64072c9214 -> 9d5d9d333dbecee0a9500fd2c9e7712187279ed8bc97785e8d2869793aa4952b
+~ -[ATCIOA2Device initWithService:].cold.1 : sha256 0ed748ae59ae8cc4f5c8c80c6a13458e3be3c46181da51ba30b6b4f166afe61c -> 8db5565b6b2d9c7188f368b56fb2f84304e785b7bed8010e847da16ccd0a6b25
+~ -[ATCIOA2Device initWithService:].cold.2 : sha256 355547e862023baef64ab3a93c0a01ef9355121e660e8beccbcb819f08538e5e -> f6d8102a7eb083776f08957afefc3af6ac71c3e865c213d8720beeed16f28167
+~ -[ATCIOA2Device initWithService:].cold.3 : sha256 bb8327565ec8a3f03a98af0e683c383eb34596b0e6e2e28c239bea70bcef3833 -> d6abe173946f5014e0c96efb444a40f00e3af2fbfb85dfc3111603c5a699824a
+~ -[ATCIOA2Device initWithService:].cold.4 : sha256 f0f8f41369588bfe3342523febfd50af2b79c25992cad3fcca94a60585f7b814 -> 060daf7447a414fa8ca7de4f34073ed57850e041b5c86ee3b385ac7d2a46782e
+~ -[ATCIOA2Device initWithService:].cold.5 : sha256 20eb1afa4fce00bd2fed17b7a733cba010d63fd41b3ceaffcb02e519e1889a39 -> 4ff506a92cdbc46a1f37c1fc4901461f2bb07c48ad470063d33191b5fae88a71
+~ -[ATCIOA2Device initWithService:].cold.6 : sha256 1ef4771fc922f34349984accb469a62e7a22814d9fd2ff2348fad2563f60628d -> 59293622cb64d9bf13c5f1879bf86e8d732e2ef670dcd9ea734eda98ffd8cb49
+~ -[ATCIOA2Device initWithService:].cold.7 : sha256 ec578218eea685a928514a024aa67eeb41e84566594dd2f09e7efdfa4a27c729 -> 4dfbe02d5507b64241cc326812db0d3fd49f9f2014ccc3f5365931fe03a05a26
+~ -[ATCIOA2Device initWithService:].cold.8 : sha256 b02494f2c1b9c5c5256e7d5b38e5343bd7fdc7e4714fa510bcc8ddbcc6babaaa -> 288e635b6bdbaed7217818867c50bd0046441395253ca5a825901fb5c57e58b7
+~ ___33-[ATCIOA2Device initWithService:]_block_invoke.cold.1 : sha256 352b1cc74d41dfdb744e3b3ea2108f4ff842522f2522ba1931365bc82827354e -> d0dadf3ca29a82e4754cdc2e862efe20689a858b0ba1286bf8a655780747959b
+
+```

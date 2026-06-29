@@ -1,0 +1,66 @@
+## FacebookSettings
+
+> `/System/Library/AccessibilityBundles/FacebookSettings.axbundle/FacebookSettings`
+
+```diff
+
+-3005.29.0.0.0
+-  __TEXT.__text: 0x3a0 sha256:56d3706e55565f80e9b5fcbab9a3227dd51fe6710ee1e94a9c889fc53f030e5c
+-  __TEXT.__auth_stubs: 0xc0 sha256:24a1998fd1ac877a7f52d287db3dbab28bbfe01b70e33d44ea8e9615d3b8f2aa
+-  __TEXT.__objc_methlist: 0x64 sha256:d07632d786aeca04439a6f2ec9ff051b1ee64ae1e1ab98e5f864cb7d535ac6a4
++3005.30.0.0.0
++  __TEXT.__text: 0x3a0 sha256:e83e9be3b3de02715bdaf75f0b41cc55961aa72a045bcc1ee9651018fd07fab9
++  __TEXT.__auth_stubs: 0xc0 sha256:1bec7bf7a8b7e2c0b7c8622b58a21ee5b16d25715aab755b7c7b1dd1e7ad29d5
++  __TEXT.__objc_methlist: 0x64 sha256:62ffb6c39c7b86ba011eccaff8ddd410c857bb36ef46289222d103d169f640c9
+   __TEXT.__cstring: 0x122 sha256:ecfb902d205b4f1a36046f6e551557ea19966ca086db39e947cd6686a73bd778
+   __TEXT.__unwind_info: 0x80 sha256:a965477daa5728eb762df8272c67b2af6721eb331f0e3461a1ca468bd2c807ea
+   __TEXT.__objc_classname: 0x8a sha256:ec859aa5e76b2b47a622e26502ae09a4b9f36d3e31fe8f4ed516baba447f50a3
+   __TEXT.__objc_methname: 0x24b sha256:590ca3593028a8dc7733404dc4414301de2b72f1325284d3dd458b5f7020120d
+   __TEXT.__objc_methtype: 0x43 sha256:4fa1bc800a7f3eaa4ef4af211b5555b1f07b4be6c276787a25f5498dd86372a7
+-  __TEXT.__objc_stubs: 0x180 sha256:f486445fbaee53ee95fc0703446e0032526b30f09242e443b4fd9e813848e665
++  __TEXT.__objc_stubs: 0x180 sha256:32264760d4d68ced5b783f7b21ae08986b32548eb89c2c1df788244c19973f98
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_CONST.__const: 0x60 sha256:7eac88321367d3cc2f7c850b78f611a4c559adea47b9c50ff37c9e1bb4be1fa5
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:d657531faa213b0e7b241732979295170e5e3b706178e4ccee145b150520be0b
++  __DATA_CONST.__const: 0x60 sha256:3454866371c5acd13d020f5a3c7353469d789c79d14d41d658d8da35979ea115
++  __DATA_CONST.__objc_classlist: 0x18 sha256:59701dfaba0164acbe2bdb194aca39a7ddfb0214b389b57cd63af83b804bdb15
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x90 sha256:43363fcfdc210ee85ff6bd76a3d206a9e33606b13c554128a5b84be093804f24
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:73497fcded040b564af926546733f1fdd45276d8e893b48925fd1aaabba8327b
++  __DATA_CONST.__objc_selrefs: 0x90 sha256:0ee375ff05ec9a94d8f7d1a8ddd698470eceffb43838dba4855eaae762086932
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:29013e6dbca4a9059c7869d5a6fff8ab68fae489da725a54b0dae45d7662bae9
+   __AUTH_CONST.__auth_got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __AUTH_CONST.__const: 0x80 sha256:ff5f4cda8c57dc78fe6366982b7c507f423992ff45c5c8626367b35b970ecd88
+-  __AUTH_CONST.__cfstring: 0xe0 sha256:55a899a1fd250d2d75cdc129d419bd0d5dce1e28c4e3af24e1e41b4db7393ce8
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:e542f57211b3bfe9b32aa2df911e9cb59111eb4535c0283633d451089b3b878c
+-  __AUTH.__objc_data: 0xf0 sha256:2f0c39853d7ade9860bd33cca91c04fa9aba87f44deaf5141623bd278491e170
++  __AUTH_CONST.__const: 0x80 sha256:319d8bce1f31dcbda9ffd6e67aa5dff45f901400eba57c7ed13270ab33d8381b
++  __AUTH_CONST.__cfstring: 0xe0 sha256:b552029b1a4968c38bbc32cdeaed8b9c8bb02a1fc816be27383444c3a4b73394
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:c5212cd4db4c4721f1c26585e7a8f62658190635af972ea1c4235a382a8b5750
++  __AUTH.__objc_data: 0xf0 sha256:9c95ac3e4a309f340ae5ad36a65d4e7d68935269dbb1563062ef10a96edc026a
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A6876CA6-BB3A-3FDA-A7D9-75A8FF2A8483
++  UUID: 8E6E8B2F-BE8A-3582-AB6B-31AFADB8DE67
+   Functions: 11
+   Symbols:   80
+   CStrings:  48
+Functions:
+~ +[AXFacebookSettingsGlue accessibilityInitializeBundle] : sha256 de162a46d3804fd1b60280f893f3f9ac1578552130d95c1be0994acded689cb0 -> 22ed61251e31f190141df1b097aa0dbb5d34094c0a68bf3850c02e8b6a574735
+~ ___55+[AXFacebookSettingsGlue accessibilityInitializeBundle]_block_invoke : sha256 2e961dd7cca652a94c3810665c8489812de85c11fd8e92a3b5f95a25a6e39b41 -> 6c0e532556cbe8cc1e750aba29af2e4e39a68fd5de57fbbf7cfd6c7e9fc1aaa7
+~ ___55+[AXFacebookSettingsGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 cbc7a019155de98236163345d69a7ecd6e18cf3855c5ea242a00e87678eaa4a1 -> a4dcea98de39fa5644bee40e39e5cbc000eacee8a28786b4355122e846a34791
+~ ___55+[AXFacebookSettingsGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 23666ad1a3ef4b1e57916f24e695fd76170cf737756be0cb01fe9c441a65cfff -> a59cd39cebca8ea876cf20b91c43abab1a8a60c6d4311ebe159f79fa16633fda
+~ ___55+[AXFacebookSettingsGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 be32db4896702cb57ced747fdba0bab7957446185dd663f568d882ba8184809a -> 7edd367d61f0874646b5943830e331625d4e063bace12ca4a370c6695da214ae
+~ +[SLFacebookRegistrationEmailPromptAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 45af69430b38f6e85173154a46501754ef1469696331beb7c26fa9af3c9e41b9 -> 9e95519e8728e6353dc1c17f0b38c4cac5e7ea9f827b3d3b13ff7237b6b18c23
+~ +[SLFacebookRegistrationEmailPromptAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 1f98efd8379986e0ad72625dc77961878090d3bbd66d90a977ac69e69d989099 -> 898853ca74af81ac8ee3357cf38fddff14be932bec4b13350b6fad9f787c1c79
+~ -[SLFacebookRegistrationEmailPromptAccessibility viewWillLayoutSubviews] : sha256 25fa35d84b067b2842f0bd3c1227b093da4856a4fbbcea1584945895aa2ee868 -> 895d72515baf33fc33c2baf2d5a06b5fe2b938068d2bc0a8bcac79a239a5da46
+~ -[SLFacebookRegistrationEmailPromptAccessibility tableView:titleForFooterInSection:] : sha256 5c8e716b1328bc62b615766d8475c7e59ff535e53f8936290e32f9423f9de91a -> d0e94d3125108f121149073dd53116bbf1344d1eabefc46f5f1106616827ee14
+~ -[SLFacebookRegistrationEmailPromptAccessibility textField:shouldChangeCharactersInRange:replacementString:] : sha256 ee0937d41797d9e96cf821c716c08ec62658437ef4457da453d3c4bc747984cf -> d53bace2cb231aacc67663d3ea86cebb73288ae9529509b14da5fab4312b7ecc
+~ +[AXFacebookSettingsGlue accessibilityInitializeBundle].cold.1 : sha256 3a21fbcecd783f82e929625692abfdea6e3f3c278ebb19a32b838c070411e90a -> 5a268ea16ff883800811cfb3f231949c2595ed3de34aab064a89c3e07030a279
+
+```

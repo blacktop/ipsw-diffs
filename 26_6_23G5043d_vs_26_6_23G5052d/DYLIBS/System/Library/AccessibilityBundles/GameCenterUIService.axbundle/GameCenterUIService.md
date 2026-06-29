@@ -1,0 +1,64 @@
+## GameCenterUIService
+
+> `/System/Library/AccessibilityBundles/GameCenterUIService.axbundle/GameCenterUIService`
+
+```diff
+
+-3005.29.0.0.0
+-  __TEXT.__text: 0x348 sha256:f535e240e8f5f5529515bdd8585bf96d46e01b90ed08f58fa704abb9cb6a5471
+-  __TEXT.__auth_stubs: 0xc0 sha256:0445ff097cef7ec313a2ce67d16d539834406abc563062bbf977008ecc104223
+-  __TEXT.__objc_methlist: 0x14 sha256:1869660f303b90c4412092e81fe19f7050dd74223bb8ff29cb1f03e57682e2c3
++3005.30.0.0.0
++  __TEXT.__text: 0x348 sha256:59e5aa6f1910c7327c9db8f4d0e5402f7639ac9f88c3f57078e01c045b29e06f
++  __TEXT.__auth_stubs: 0xc0 sha256:6171bf5e9594e08066620671c39337323c1111d24dc8f298f00f91b408f2b841
++  __TEXT.__objc_methlist: 0x14 sha256:7787a5bc68699bb25f3025dbdfff566a432e6e7c60a0bff3c7262ef0e9207354
+   __TEXT.__cstring: 0xcd sha256:8c27f7de75d22d51fcfb12129747d8a56e5f1221b2ee36d369b0dc2076edf388
+   __TEXT.__unwind_info: 0x78 sha256:e6842cf47808a4c818ae7c92a708d063d24e434ad84ca10bd8456f494bc205e7
+   __TEXT.__objc_classname: 0x1a sha256:6ae5b97368f89ff38bb753529f6dc0cbc5a005bec65cdb46340dda7af3152833
+   __TEXT.__objc_methname: 0x133 sha256:a8267954b9fe5e6fe2fa8c2c196790bbd3f90647e7c594918bf26bf2a4e19b9e
+   __TEXT.__objc_methtype: 0x8 sha256:6b3bf957e2feccea1614ba0d17780c05fdfa13300c0b89a3c072b7ad044d8273
+-  __TEXT.__objc_stubs: 0x120 sha256:c411188c894cbffcbd0593a5cce7f9d363a32de4369efc55a0658673d4b1641c
+-  __DATA_CONST.__got: 0x18 sha256:2eef21336e83ffc9b8cec1eea2cc1ab625cbf4d21d3956c4990faba51bcc0d91
+-  __DATA_CONST.__const: 0x60 sha256:6b0405bde13a57220f3fea94112b9df80555a8fba75843a02f719bad0f33bbdd
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:ccd0261516c179954b0a9d6d0c8b65d1edf3ed8adefd338499e52b1df680e03e
++  __TEXT.__objc_stubs: 0x120 sha256:a2d1ee07db57dc64f48cc8d3defff6452c8361c89b86b231bf6d87cd2dccca3e
++  __DATA_CONST.__got: 0x18 sha256:2fd1f2ee68f718d37c275bc788708e9b44c3d62f4f6ef9f1e76b940d694ae8e5
++  __DATA_CONST.__const: 0x60 sha256:784a8d98ead0f3d04fad2e8ba8f02ce20682e3379dcb54d7ff9941e7155c4210
++  __DATA_CONST.__objc_classlist: 0x8 sha256:a3c55ec4ecd3b7d116bd18463a1865380991eaa9de2b6ff00fe22f5c18745943
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x50 sha256:df25a7e9c1a4b238d0d7e2f3242d9b04850404cb2b4f2b9bd315215d41fa872b
++  __DATA_CONST.__objc_selrefs: 0x50 sha256:c4f10ec4865cce89934a6e0b5b0052bff0a0d55266d005478adf87d8a00abdcf
+   __AUTH_CONST.__auth_got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __AUTH_CONST.__const: 0xc0 sha256:6a09996a3113f147eb6227c5d8234aadfa4133dc3ad8231819322907f221638c
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:e5bd2e009193c10343d6d997e741a3ddc91bc247bbf07c71559ab213d2e74c0b
+-  __AUTH_CONST.__objc_const: 0x90 sha256:95f8747b240ec19c8b61d94939bdac7cb34478c01e92ee99c3592844e2ea0c72
+-  __AUTH.__objc_data: 0x50 sha256:d91063088cf842e706e7d159012be2da4d94fa829f0ee88aeb4c6a3e0b99c861
++  __AUTH_CONST.__const: 0xc0 sha256:00d73397c13c5c125f2629bb0fe497893a43529db24edb1dc6dd6bc591358b43
++  __AUTH_CONST.__cfstring: 0xc0 sha256:273399ddb932b3859afe899efff1966a98bfd4c1ccb4188109e8bee646e135b2
++  __AUTH_CONST.__objc_const: 0x90 sha256:7b9d3cababb5927aed2843746cc075bf175c0dbe134011312310591de0462ca7
++  __AUTH.__objc_data: 0x50 sha256:7e54d00a36e2d653bb088cf29fc7221c38fa7a1feb95c69b8197cf201261f8fe
+   __DATA.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E31942E5-9CF0-3B63-9EF8-CBDC7013AB15
++  UUID: D428CFCD-7764-3D2B-A1BF-70A4ED150117
+   Functions: 12
+   Symbols:   70
+   CStrings:  26
+Functions:
+~ _AXGameCenterLocString : sha256 26a3e1efa8f4f41073f2c4dd779d42cd191bd1cc3e9d064a58071ab79312fac0 -> 407653725f89dd5342d340ff5ec88171b3f4842b3e4225d37f1f2879e3502dce
+~ ___AXGameCenterLocString_block_invoke : sha256 fe2006000b5f50ad0c1a3cdcd8c9a89564c5050a9aef1752c354dc8148684a4a -> fb139bcd03d2a3224f13dbf4375b8133fd72815bb1d599f9a9219e4757e527b3
+~ +[AXGameCenterUIServiceGlue accessibilityInitializeBundle] : sha256 3c5c037ae1fbb55794cd3b1d538c88b52d5c02e8ad21194e975408a7eefb7293 -> d1b655556129f04e8e562e4eb1aa4f1dad67d17236807616fddb230f5de701cf
+~ ___58+[AXGameCenterUIServiceGlue accessibilityInitializeBundle]_block_invoke : sha256 7b4f5cc13e361156aec342fc7343d5bcab591bee05d53f4d7ae6d28c2f5f0810 -> c03d17476abc01d2ff4c82f1e4ab3bf9e1e494618961bf24e1944c83bcff161f
+~ ___58+[AXGameCenterUIServiceGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 862f55a7358204a3ae9ce28b704e8674646047cbaf5c553f160ccd6ac60e67b1 -> bd2ff3e1aac7749ed84f7d229fac7a5703517bf5c472cb220cf702d9331da8b4
+~ _AXGameCenterUIFrameworkLocString : sha256 fe940a74376b584f9c294ee78110cd6858f8730e309091fd64ab014e67b15e9f -> 68e99c5a7ad022031a8bed8f2ed6a743e25ca8ebceb1c5d8b08d4caf2822dd93
+~ ___AXGameCenterUIFrameworkLocString_block_invoke : sha256 67068fde2d9a887ed005e0ffc617231912362f14b344d4805a1d83b2e440bc04 -> 0d2872a11443e5e1eef82c967108a7a6d79dc95f804921df5498cd3884d83b72
+~ _AXGameCenterLocString.cold.1 : sha256 883026bd37898f2ee1b2dfba4d806aa071210ac58433f4ae137456e7e098c08c -> b5ccad550d54f8634bc0ee3199b2d4920e2bf9fc83e9aa9a7abc95f0df3b073d
+~ +[AXGameCenterUIServiceGlue accessibilityInitializeBundle].cold.1 : sha256 7d12f883610e346821a30cd64d5873ba44a933eafa9b9b692663792174067644 -> 9870ce8d1353360b29176d707ea96c7b6cee4ea3bec0b36b575b942d3e3e2482
+~ _AXGameCenterUIFrameworkLocString.cold.1 : sha256 940aa69a6335396976322fdfa9367c68d665dcf80354d8d7f0beea894eca5db4 -> 276c7528aef0f3b91fb1a7db698b2ae98ba52e36a97eb1029997647d78a97253
+
+```

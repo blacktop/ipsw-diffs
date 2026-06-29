@@ -1,0 +1,49 @@
+## ANEClientSignals
+
+> `/System/Library/PrivateFrameworks/ANEClientSignals.framework/ANEClientSignals`
+
+```diff
+
+-9.511.4.0.0
+-  __TEXT.__text: 0x704 sha256:581449388dc709878a8a1187e04f1ab97bab0194844e74463eb322c99892c760
+-  __TEXT.__auth_stubs: 0x130 sha256:a050fa74eb782c90be0d63ab46767612105ffb40dc4963c4f5a83878df757cd9
++9.511.7.0.0
++  __TEXT.__text: 0x704 sha256:e6346acf5609f1489ee2e4cac2a920a2ba165a2a530a543ff8ede3f7ed34b959
++  __TEXT.__auth_stubs: 0x130 sha256:17883658e11aeb1478515e03a953245a26ec3388c2e2c886e171c65e52423e0c
+   __TEXT.__const: 0x60 sha256:db2c769c4bb8126f937db08f6e5f50163eb70d5a6260403025d4df5b62b7459b
+   __TEXT.__cstring: 0xbd sha256:7a615ce88a8a81d8cf1e322a319bcf072fb6b451eeed97a11926ed416d5a0fc7
+   __TEXT.__oslogstring: 0x1f3 sha256:72775909b2cd6884f559d97753f859cada9b142968f77174f25ed86353ec4196
+
+   __DATA_CONST.__got: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+   __AUTH_CONST.__auth_got: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+-  __AUTH_CONST.__cfstring: 0x60 sha256:e94c10c633617fba2804952d3f3dcdb8b0e5558e59293d9658bf20cb7ef3de60
++  __AUTH_CONST.__cfstring: 0x60 sha256:47fc3dcaec1cc01b556814df06094294a69681820c0cfd09631ad0e43a7261ac
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2C04B7FA-8B97-3EED-95A6-1400F7F154C4
++  UUID: 60667D43-6086-38FE-8222-39414A469444
+   Functions: 17
+   Symbols:   61
+   CStrings:  19
+Functions:
+~ _sendAneSessionSignal : sha256 9f0fcdab34e9f1ddbae3e5a1597117d2c51649a626c41638a66faebe24d92f1f -> 965d8cc7a763e5a189ac3535ddfe800c0b88d2f948d3a1b51935282182ec2db8
+~ __ZL10setAneHintPK10__CFStringPKvPS3_ : sha256 72c444dc6a9e22193bb380843a543f44cc2b44f218356a683c9f0e6b49e289d1 -> 8ee5eef772f6e680dbc340d2df1e6438ba6830aeeb45cf49ee9536ed71ccab32
+~ _OUTLINED_FUNCTION_0 : sha256 075205f86ab01c578656d3c11d28f1a85d5b276b901c5a2ec6dca2f0745fe529 -> 27cb877150064b5267cbb8efd472a15519917915905b3e2ce309ceae82a32755
+~ _OUTLINED_FUNCTION_1 : sha256 c7ddf5e71553680b0e15a5a86b955fdb8f6b5bbcaa0da216c8c3a85556097fb4 -> 0020e091b95a8531c56e63a2aaabcc29f89c6bfbbcb2d293ed2aa0bf11612b96
+~ _OUTLINED_FUNCTION_3 : sha256 4090ee6ed909d5bb624a127324e39e27e25cc9fe4af72e6bdc323e648614a2f5 -> c6cda1e30152aadc82c586339db2db5d06751c13111d317f0ba944a7fb54cf31
+~ __ZL10setAneHintPK10__CFStringPKvPS3_.cold.1 : sha256 79063964f25030fdfe57cf16ae1b075da0c8b202b61216c99461d3722207bfb1 -> 31510f23cfa4d6b2e6075d4d4704a605fbd2b7c6b243bd7254deb7331bdb2653
+~ __ZL10setAneHintPK10__CFStringPKvPS3_.cold.2 : sha256 ea4f8ee284b80ebd2b9294d65e42ee9ab369cb496fb4ce909d07ab6648279496 -> 40a660884f5bac2a4ae13de3ca7d243b29d2d833ac5a5557ad9d1c8a587ca2b6
+~ __ZL10setAneHintPK10__CFStringPKvPS3_.cold.3 : sha256 511316c5a569f70be3343affe7c6c108ffe43e0ea9943ac62c069061f44af5a5 -> c51bf0f2ea407f1119427e558fe895bcbae1f984dbbeb1737a16a125734845f5
+~ __ZL10setAneHintPK10__CFStringPKvPS3_.cold.4 : sha256 d12903794d47cee3d90f3eeb6018d48037d5105f7a0e07675f54146ea8e2e31a -> d821df7efd7f1ca5994723980141e8eb3e80a2a4df317b26916022cdd1ac3cb7
+~ __ZL10setAneHintPK10__CFStringPKvPS3_.cold.5 : sha256 2c07bf1244dcfe08539010ed9ab6a6b17b3dd5c593ae6543f6774fb88fb710d2 -> 23d54a862c8afb36b25e9b6bcc8849a404ea0ec20b15538dbd5b27ec147f84ca
+~ __ZL10setAneHintPK10__CFStringPKvPS3_.cold.6 : sha256 c9ba90006136c85043fef3ead0c87644e60d95959e327f50d728d5feccd1fde9 -> a59bbe72d8454dd468c573335402b7d47a4113f70f579c150c890817ed939702
+~ __ZL10setAneHintPK10__CFStringPKvPS3_.cold.7 : sha256 333c13e916874b096567a4ce5dc541ba094407d202118acb9f74bbbcbbfd911b -> 80f8805da0846bcc9f30e41def7adca32f7bc85553968a68bfdce2c42bcc30f1
+~ __ZL10setAneHintPK10__CFStringPKvPS3_.cold.8 : sha256 23af9b0c2f98f9ab30864fc572bb54d97ecd6e1fcdb120414e19452ef591fd0c -> 07dae29deb2abfb215d37ed4b6d5bcab4164afbf79bad838de06774e1785d524
+~ __ZL10setAneHintPK10__CFStringPKvPS3_.cold.9 : sha256 242132c7b33aab0750b9eebc32bd3a715d1648ae15c325ff5d724cb1963681d0 -> b412be06a8804a028d6a0cb79a4f6bb499019aab3ec6f8c1dbf8f0116173f603
+
+```

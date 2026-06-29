@@ -1,0 +1,173 @@
+## sirittsd
+
+> `/System/Library/PrivateFrameworks/SiriTTSService.framework/sirittsd`
+
+```diff
+
+-3525.5.1.0.0
+-  __TEXT.__text: 0x2fc04 sha256:4bd3d327fcfc6e8acbc738024680b0ff7f48c0f1a9df5a73a376e69e04273064
+-  __TEXT.__auth_stubs: 0x21c0 sha256:95772f30f9bfea4398e12e1941011f267fd6f02065458876b95e4d15846b6cf3
+-  __TEXT.__objc_stubs: 0x600 sha256:9a5fa7ebb6023ad8905bad51db0d11639dfab786743f3b090975a85ceeb15952
+-  __TEXT.__objc_methlist: 0x538 sha256:091e8c83b8c4be5cf95440d3ede5c14e951b0ba4e6276514ea4993ccdad06ca8
+-  __TEXT.__const: 0xa78 sha256:09def517c6341332f57028954ae3f988e3f3f463703a8d38cd906cd33b2858ce
+-  __TEXT.__swift5_typeref: 0x75a sha256:431c0ce01dbbaa5437221c84735451ed8d21eaafe8a0ebd74666af38c1fc5285
+-  __TEXT.__cstring: 0x7c7 sha256:05a0823c6bbf6d8eb89348b623b8428bb1efb0406916abaee1100e4d50673ff4
+-  __TEXT.__oslogstring: 0x11a6 sha256:a1b5393f622efb0cfd2bb7d90b256ee10dfcbae794778dec85f5b8687fcdf001
+-  __TEXT.__swift5_entry: 0x8 sha256:3bd5c94c2f1611d783918b70df5931203ee1ddd8d8822d3e9d01ae5d81ffd24c
+-  __TEXT.__objc_classname: 0x3a6 sha256:0c54f85edde950447dd34f093e70a5c6fe3c938eb913ce64edf102bff948ab79
+-  __TEXT.__constg_swiftt: 0x7c0 sha256:70abde4fa1973cdf064d806fea812fc9d88cffea386f36cf13b0b2038996cc6b
+-  __TEXT.__swift5_fieldmd: 0x384 sha256:e5002ce08f25ed5b3af7aa6fb297e5717149fcac124599bb12f5024db10775c9
+-  __TEXT.__swift5_builtin: 0x14 sha256:665338f42ab54cf4556d23f57cf5245b195f91758a6a715a17362280edb38b74
+-  __TEXT.__swift5_types: 0x54 sha256:a36f653f6657cfbf63bd7db61aca149af4b644965861dadeb97f6d93184897ec
+-  __TEXT.__objc_methname: 0xd5f sha256:a995a7dd72221d960ac715ee01ef86993bbee4fa78e5f2750ef6fb084a28a994
+-  __TEXT.__objc_methtype: 0x88a sha256:cc2b85c7a58e648a123800493de265581e791afc1e4ca477959a3d4db3de808b
+-  __TEXT.__swift5_capture: 0x4d0 sha256:d3d9fca5b154ed779c19086e9aeff6698fb2be88ec5d909f2977eef8b967e3cc
+-  __TEXT.__swift5_reflstr: 0x2b4 sha256:654239f2755e6f84698b69b344d5964ee33f1148dc7bd2c821d72b9a968cb10f
+-  __TEXT.__swift5_assocty: 0x20 sha256:534f23092a2a2d027ee641aa61daaba2aefef8a03d3f452d2059370552f40e34
+-  __TEXT.__swift5_protos: 0xc sha256:518dfdbd07c8fe5db4202859c31be67ec3fb2041ad2c049e43ee9c5315847492
+-  __TEXT.__swift5_proto: 0x30 sha256:c69ab33fdd23c3e6e13454b6dc427cc4b4e55d853ed9e4886b5328ddff0db2f9
+-  __TEXT.__swift_as_entry: 0x28 sha256:671fae0c70c740a6ec585e1733063d450bd153626dafaf3121f826197c65f51c
+-  __TEXT.__swift_as_ret: 0x2c sha256:bfba37990593ec54dae396821ce077adcd3a44a416d6c7aaa1999cf0bdf68adc
+-  __TEXT.__unwind_info: 0x778 sha256:01b918d2b400943898bac432dba768aeae07e692a201e05211ab14c598f06f5a
+-  __TEXT.__eh_frame: 0x888 sha256:d2649cbd099c9baf1f455c517496beca40e2abbad64a8896a369510a37da9a29
+-  __DATA_CONST.__auth_got: 0x10e8 sha256:558c4fb8e5b488c619aab719d8e64e779ef9fc536b924346ea687ddca1e4c692
+-  __DATA_CONST.__got: 0x4c0 sha256:77a9518844337f021f8250ba94c86fed82404bf00944224eddb61ce27dea3576
+-  __DATA_CONST.__auth_ptr: 0x2e0 sha256:2061739746ddd3c4a7bad5660d4f6da12eced4c5a56d76413cf2a0315c9b5af5
+-  __DATA_CONST.__const: 0x1178 sha256:ac72c87612338a4ddfa304f77bd0d467824d8039421147733ad3bdde7dc4f1ba
+-  __DATA_CONST.__objc_classlist: 0x70 sha256:73583e1ef0d912d7dfb8c159850dd77526ecd8b7d35e513e7a621b317035d04f
+-  __DATA_CONST.__objc_protolist: 0x60 sha256:507aa395179aa51744fc10cc1ed79f88857f0e0d78be02af6bb502d74f1f2079
++3530.1.1.0.0
++  __TEXT.__text: 0x345d4 sha256:af584cbd789f5d4c838caa9c8d0a4270f2cd9b81894e616e876a8ae3b25b5beb
++  __TEXT.__auth_stubs: 0x23c0 sha256:af6ba7520219ff9c31068685a7fc8c4df375d6af96a0053725f3cc1cf472011f
++  __TEXT.__objc_stubs: 0x600 sha256:ab7aadc34bd2696d7f6808cb0b8c7445602dfc9e8e3ba78a68916015115bb3b7
++  __TEXT.__objc_methlist: 0x558 sha256:7b1a036a5b628b1ff1a5e7a9392ec339cf69a863896a96e66b7c0c4ac543d564
++  __TEXT.__const: 0xb40 sha256:a7a6befccdc876d44042741b9032bea0e5cb38265e91d5acb7a130ac900bb7e3
++  __TEXT.__swift5_typeref: 0x7ee sha256:84aab607602992a4de8015aaa284ac574648338b0646b45d5765545986d47e05
++  __TEXT.__cstring: 0x807 sha256:f17b4ed13712b36eda586a0edbe68810b6d29e7f6087fbab24ead0966c8756dc
++  __TEXT.__oslogstring: 0x12a6 sha256:184fbcea39c45aa2d9cfcb98cc4a7bba02be3d3005f818356a434bc5b488120e
++  __TEXT.__swift5_entry: 0x8 sha256:114d232257c3e00b4c5182fc200fd14c2ff8e9551b5eb375bec4a9001d7d319a
++  __TEXT.__objc_classname: 0x436 sha256:0993d7ebcd40a04dd4e1a71fd88ab2bbe25d1dcd37e64ddec018be9a3f6c71f2
++  __TEXT.__constg_swiftt: 0x8e8 sha256:19488a1f722e2df1b7062e4ac862637cc12ba2793dd14a3aea12dedd55a624cf
++  __TEXT.__swift5_fieldmd: 0x3f0 sha256:b7a5d17fe357d774263221fa5eb47c85b24e8a22448f5fc96af88aa37071ed69
++  __TEXT.__swift5_builtin: 0x14 sha256:e92e8017fd0687a03e44144be4096970294170f195313fd5a9ea650a334fd1e9
++  __TEXT.__swift5_types: 0x5c sha256:efac71f2a901de1ce0dae8e33e3f823126a4ada795416114c1ebaf4827e8f03c
++  __TEXT.__objc_methname: 0xdf7 sha256:6e5cd64f9bf9a32175af1732a407641afb5f916ce08c78cb634f17a4b3d4d5b3
++  __TEXT.__objc_methtype: 0x8ea sha256:4bd55f881bbc8916ac5fc5d5b9e55ba37a64239d125fada57f52b28b9d8c4d08
++  __TEXT.__swift5_capture: 0x560 sha256:8ae0dc596a9cc290df42c809d6e200fe6487ae4b29497975af677ce566cd7711
++  __TEXT.__swift5_reflstr: 0x2f4 sha256:9d6ab858fde43cf12d7170bb19e723c2999cdd0ac005bcfac42ed6a351e83e08
++  __TEXT.__swift5_assocty: 0x20 sha256:c3ea3d5b8fba214389eb21c61eed537eb50fdfa833341c7f32a56fa477dd8a58
++  __TEXT.__swift5_protos: 0x10 sha256:b4fb6436054cbdf37f8f96bb94d7727beffea2d697c59d16855a7e5eb3b180f7
++  __TEXT.__swift5_proto: 0x34 sha256:8018274033dcd803cd67bf0d34670e3ed0b0af7152d0cd4e0925d3d8c53106a0
++  __TEXT.__swift_as_entry: 0x28 sha256:4291df2ecde634700c8aecb82f29d686b6c126de0e877a1424d23d92c730958e
++  __TEXT.__swift_as_ret: 0x2c sha256:80c86e4627fffcb33bc7e99f3f89c1f7151cf40ab0ae1d3a6670ded5fc119477
++  __TEXT.__unwind_info: 0x7d0 sha256:2d3b5961861b8dd02a789eae55ae833e5868c7bacb29b433aee78bfcd97965c6
++  __TEXT.__eh_frame: 0x888 sha256:287bbc1ff41529de33efe73f7126e3bb75f9e23cc0c2ce00b3b0271a68053c2d
++  __DATA_CONST.__auth_got: 0x11e8 sha256:425e032f1f47a716c91d2756858e0dc8af4e321b86a0957e8f6760c6f1afa1c7
++  __DATA_CONST.__got: 0x540 sha256:b204b3afc05ae047bce98e5f2228c77dd29b9280f05391f312e78ac74117ed5b
++  __DATA_CONST.__auth_ptr: 0x2f0 sha256:af8ec1e308c303c3e10e96f503912f6b70a58869f263259ff15192f4f2337725
++  __DATA_CONST.__const: 0x11b0 sha256:8c49850f56916a74f2534109bea80a86d9bda36b9c11a4c39bf4874b4145d802
++  __DATA_CONST.__objc_classlist: 0x80 sha256:f6748e37168cdfea486644fe4e29fc4128fbe36707a9a53778ec08d829bc6efb
++  __DATA_CONST.__objc_protolist: 0x68 sha256:dcf6784b90083ec015479b3594e1579d49e23493befeec87bcd54ce104854600
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:234cedc7009d98da03ca2a7ff525d0db26b82bff0e6046456f4eda918f734526
+-  __DATA_CONST.__objc_protorefs: 0x40 sha256:8453177b7e3d4cd69d47852f2769154118c0c576db1f4a8267e23cb7c97ed24f
+-  __DATA.__objc_const: 0xff0 sha256:41459f080fee43a211a0bca3fd8927d358e61a67bb385bd260bdcf9e9c14353d
+-  __DATA.__objc_selrefs: 0x350 sha256:2dd58dade8baf7d8215632b05e972f2c8305276bcfe72676113495e3732903a3
+-  __DATA.__objc_data: 0x2d0 sha256:2a1a31dd33cf664dc4a8c07f0119486ab1fa532afea2bf8c22546425256a4573
+-  __DATA.__data: 0x1098 sha256:e62cfe803a86f41fa1d3ecea9f2164037352c31b46ec633dd1894fd78e41f2d8
++  __DATA_CONST.__objc_protorefs: 0x48 sha256:60c4ecf9a92d5b199fdaf172e8418951846e530124127baa28fb336947c7c0a5
++  __DATA.__objc_const: 0x1240 sha256:d20960976a83743ff24fe464664d79b03ee21014e6c84447592b3dba3e66af06
++  __DATA.__objc_selrefs: 0x360 sha256:7168c00f8e012f26b6c949dc94423a5414193c78373e5ca402087710fa216048
++  __DATA.__objc_data: 0x2d0 sha256:5626016f3935e0141f645a690fabc7d2eac87ffed80407b1f6b8ca43d173b476
++  __DATA.__data: 0x12b8 sha256:2a63959fa8590f4b087f47bb438577c5952be4e54087d0a81701989e479958cc
+   __DATA.__common: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+   __DATA.__bss: 0x480 sha256:4cf9816ed1062189ff0c8d427fba5e912cc68fc9af76cf7f08fd255977de3b33
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/CoreKnowledge.framework/CoreKnowledge
++  - /System/Library/PrivateFrameworks/FeatureStore.framework/FeatureStore
+   - /System/Library/PrivateFrameworks/PowerExperience.framework/PowerExperience
+   - /System/Library/PrivateFrameworks/SiriTTSService.framework/SiriTTSService
+   - /System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/SymptomDiagnosticReporter
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C7ADF92D-4B20-32AC-9AE0-A188843F5F1F
+-  Functions: 650
+-  Symbols:   785
+-  CStrings:  367
++  UUID: 8F5F4325-898C-378E-8F11-87BBC55567C1
++  Functions: 688
++  Symbols:   834
++  CStrings:  383
+ 
+Symbols:
++ _$s10Foundation4DateV21timeIntervalSince1970Sdvg
++ _$s12FeatureStore0aB7ServiceC6insert13interactionId4itemySS_xtSeRzSERzlFZ
++ _$s12FeatureStore0aB7ServiceCMa
++ _$s14SiriTTSService11BaseRequestC17interactionLinkId10Foundation4UUIDVSgvgTj
++ _$s14SiriTTSService11BaseRequestC9logLinkId10Foundation4UUIDVSgvgTj
++ _$s14SiriTTSService13MobileGestaltV15isInternalBuildSbvgZ
++ _$s14SiriTTSService14SynthesisVoiceC0D4TypeO11descriptionSSvg
++ _$s14SiriTTSService15TTSCodableValueO3intyACSicACmFWC
++ _$s14SiriTTSService15TTSCodableValueO6doubleyACSdcACmFWC
++ _$s14SiriTTSService15TTSCodableValueO6stringyACSScACmFWC
++ _$s14SiriTTSService15TTSCodableValueOMa
++ _$s14SiriTTSService15TTSCodableValueOMn
++ _$s14SiriTTSService20TTSFeatureStoreEventV0E4TypeO13voiceSelectedyA2EmFWC
++ _$s14SiriTTSService20TTSFeatureStoreEventV0E4TypeO14synthesisEndedyA2EmFWC
++ _$s14SiriTTSService20TTSFeatureStoreEventV0E4TypeO15requestReceivedyA2EmFWC
++ _$s14SiriTTSService20TTSFeatureStoreEventV0E4TypeO16encounteredIssueyA2EmFWC
++ _$s14SiriTTSService20TTSFeatureStoreEventV0E4TypeO16synthesisStartedyA2EmFWC
++ _$s14SiriTTSService20TTSFeatureStoreEventV0E4TypeO18audioPlaybackEndedyA2EmFWC
++ _$s14SiriTTSService20TTSFeatureStoreEventV0E4TypeO20audioPlaybackStartedyA2EmFWC
++ _$s14SiriTTSService20TTSFeatureStoreEventV0E4TypeO22instrumentationMetricsyA2EmFWC
++ _$s14SiriTTSService20TTSFeatureStoreEventV0E4TypeO8rawValueSSvg
++ _$s14SiriTTSService20TTSFeatureStoreEventV0E4TypeOMa
++ _$s14SiriTTSService20TTSFeatureStoreEventV9eventType9timestamp9requestId012clientBundleJ007logLinkJ0011interactionnJ00F4DataA2C0eG0O_SdS2SSgA2MSDySSAA15TTSCodableValueOGtcfC
++ _$s14SiriTTSService20TTSFeatureStoreEventV9eventTypeAC0eG0Ovg
++ _$s14SiriTTSService20TTSFeatureStoreEventVMa
++ _$s14SiriTTSService20TTSFeatureStoreEventVSEAAMc
++ _$s14SiriTTSService20TTSFeatureStoreEventVSeAAMc
++ _$s14SiriTTSService22InstrumentationMetricsC11SourceOfTTSO11descriptionSSvg
++ _$s14SiriTTSService22InstrumentationMetricsC11SourceOfTTSO8rawValueSivg
++ _$s14SiriTTSService22InstrumentationMetricsC11SourceOfTTSON
++ _$s14SiriTTSService22InstrumentationMetricsC11sourceOfTTSAC06SourcefG0OvgTj
++ _$s14SiriTTSService22InstrumentationMetricsC13audioDurationSdvgTj
++ _$s14SiriTTSService22InstrumentationMetricsC16synthesisLatencySdvg
++ _$s14SiriTTSService22InstrumentationMetricsC9utteranceSSSgvgTj
++ _$s14SiriTTSService22InstrumentationMetricsCMa
++ _$s14SiriTTSService8TTSErrorV11descriptionSSSgvg
++ _$sSo13os_log_type_ta0A0E5debugABvgZ
++ _$sSo18NSNotificationNamea14SiriTTSServiceE13voiceSelectedABvgZ
++ _$sSo18NSNotificationNamea14SiriTTSServiceE15requestReceivedABvgZ
++ _$sSo18NSNotificationNamea14SiriTTSServiceE16encounteredErrorABvgZ
++ _$sSo18NSNotificationNamea14SiriTTSServiceE16encounteredIssueABvgZ
++ _$sSo18NSNotificationNamea14SiriTTSServiceE16synthesisStartedABvgZ
++ _$sSo18NSNotificationNamea14SiriTTSServiceE18audioPlaybackEndedABvgZ
++ _$sSo18NSNotificationNamea14SiriTTSServiceE20audioPlaybackStartedABvgZ
++ _$sSo18NSNotificationNamea14SiriTTSServiceE31instrumentationMetricsAvailableABvgZ
++ _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
++ _$ss23CustomStringConvertibleP11descriptionSSvgTj
++ _$ss6UInt64VN
++ _$ss6UInt64Vs23CustomStringConvertiblesWP
+CStrings:
++ "@\"SiriTTSSynthesisContext\"16@0:8"
++ "FeatureStore: Wrote %s [interactionId: %s] (rinteractionId: %s, rlogLinkId: %s"
++ "FeatureStoreHandler: Cannot write event - request is nil"
++ "FeatureStoreHandler: Initialized and observing TTS events"
++ "FeatureStoreHandler: Removed all observers"
++ "SiriTTSSynthesizingRequestProtocol"
++ "T@\"SiriTTSSynthesisContext\",N,&"
++ "_TtC13SiriTTSDaemon19FeatureStoreHandler"
++ "_TtC13SiriTTSDaemon22FeatureStoreWriterImpl"
++ "errorDescription"
++ "isEnabledOverride"
++ "setSynthesisContext:"
++ "synthesisContext"
++ "synthesisLatency"
++ "v24@0:8@\"SiriTTSSynthesisContext\"16"
++ "writer"
+
+```

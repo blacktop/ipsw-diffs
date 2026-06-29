@@ -1,0 +1,19 @@
+## libETLDLOADCoreDumpDynamic.dylib
+
+> `/usr/lib/libETLDLOADCoreDumpDynamic.dylib`
+
+```diff
+
+ 1419.0.0.0.0
+-  __TEXT.__text: 0x9f0 sha256:97c2ba938a1d14595a3b1bfd11e7d519ac0c7e0bb924b27fda5d43935c2cb731
+-  __TEXT.__auth_stubs: 0xc0 sha256:30206f94afd81094568861909693202e90cd5b21dad78dc9660badd28a232efc
++  __TEXT.__text: 0x9f0 sha256:4dc4e3dee310d7d65799593ce18098c801a0440e9037aecbc2d9d560ad426442
++  __TEXT.__auth_stubs: 0xc0 sha256:1be349b9e7ca08bb07658f3a125a36f8545b522417b3f2f57c597b787c38bc23
+   __TEXT.__cstring: 0x1a5 sha256:bce19ce4135c04197607736e4f6d949a2e1442de32e327332e893f4e9067d4ac
+   __TEXT.__unwind_info: 0x58 sha256:c045e573c04416ebe4b6af8d304a07c8b943fc9d2a559362efe6f25d7cf318eb
+   __AUTH_CONST.__auth_got: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+Functions:
+~ _ETLDLOADCoreDumpCaptureRecord : sha256 264a17db4cda031792a90e146b33209d896037a0f4e6c8123936f1b3597f9387 -> 4d0b54e064b2455f97d5e4edfde6ab8b004e7eaea90297cb64f3bd9f242da987
+~ _ETLDLOADCoreDumpCaptureRecordFast : sha256 5e8a10f9089c5392767c5f1ff756931f4704f5c2f5d46a6e031dbd4154ec40d7 -> b06d437ddcb595df241dae2044a1209d8276ee3da05d21d6df5e55436cb73374
+
+```

@@ -1,0 +1,19 @@
+## com.apple.AGXFirmwareKextRTBuddy64
+
+> `com.apple.AGXFirmwareKextRTBuddy64`
+
+```diff
+
+ 353.10.0.0.0
+-  __TEXT_EXEC.__text: 0x48 sha256:4464095f412c1f67b36cb3e49cbffba04b0270c3a0325e110c46d5cc81511a31
+-  __DATA.__data: 0xc4 sha256:7bc3ff54f75614c6804784ac5eef2722d8dea98dd80bd8e2c71dd8cad659c358
++  __TEXT_EXEC.__text: 0x48 sha256:bf6f78f14f3dab05711a874bbbb2c5a6c0a27a16b73118b23a518b247997ab19
++  __DATA.__data: 0xc4 sha256:038e61b34eeaab505368b082a6ac6feca26a0ce8bda89ec3330026415510e660
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   UUID: 8BE080C3-DDF8-35BD-9650-019D2D068720
+   Functions: 2
+Functions:
+~ sub_fffffe00082f2b80 -> sub_fffffe00082f6b80 : sha256 b8bb3033d62af98f0e0254a68dee38719b63c314a80e6ee5321d5c9e5dff9672 -> cccc44b42bf4370249bb8db4c60f7d9c8f6ab0b79469e51d608e651573c96890
+~ sub_fffffe00082f2ba4 -> sub_fffffe00082f6ba4 : sha256 ece717deed23fd836a068215ed8e88d87759904ba09202776ee97b732c531993 -> 8160f6d4ba910c7a25a02839b64cf2b222d4c82004efc79623b40bd155a07941
+
+```

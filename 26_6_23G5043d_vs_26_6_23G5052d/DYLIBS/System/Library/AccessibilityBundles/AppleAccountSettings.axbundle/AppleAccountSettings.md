@@ -1,0 +1,72 @@
+## AppleAccountSettings
+
+> `/System/Library/AccessibilityBundles/AppleAccountSettings.axbundle/AppleAccountSettings`
+
+```diff
+
+-3005.29.0.0.0
+-  __TEXT.__text: 0x7bc sha256:1093493a41dda0bd0f183df24735c02ee967f6fe29bb849ac2c566d0dadb6dc3
+-  __TEXT.__auth_stubs: 0x180 sha256:574b1946a05d174bcd0b5ab6b834ad74359f91d1230098e20031f2a7449dd3c5
+-  __TEXT.__objc_methlist: 0xb8 sha256:21795c1da977f2d5bc3b1b3321112901c58c5f39ca09c597b00d9f2b6b6dbcba
++3005.30.0.0.0
++  __TEXT.__text: 0x7bc sha256:5bfbf6f2cca3217fa99379edd3dde9e9e38a213ad1c12a5fe236da558046ee65
++  __TEXT.__auth_stubs: 0x180 sha256:c957edd9994c55f20cd02080fdcf991a24cdcd5471ea85436461d6432fbbab71
++  __TEXT.__objc_methlist: 0xb8 sha256:8fe3ed042649ce6ed55b52ba0338e16188ef07cbd5a9e685eaa10d2a42c41890
+   __TEXT.__cstring: 0x2bd sha256:50462214d80df37e31d2325e01442be21a7bdb662f57d0c99db4ffc71097aa7b
+   __TEXT.__unwind_info: 0x98 sha256:597685fbc6fe74f41c1ab9f367c45e60df16a7340ddddcccb529a23c6d96d4b3
+   __TEXT.__objc_classname: 0xc8 sha256:4389a352c10d3a196d1919e727c7ada0fc2efe639c4a4ef004e840f8998a9224
+   __TEXT.__objc_methname: 0x3e6 sha256:24b940b1f61eeb55fec217987449c20cfa2e497ebb62150aa012aefa233f1753
+   __TEXT.__objc_methtype: 0x73 sha256:ea03646eacb324c41ef3373e34d41eade88a74b981769f14a9936000b0aef2ba
+-  __TEXT.__objc_stubs: 0x220 sha256:3241a5a9a5e1fbfcec7123ba7f9db059b82c125ca31256ed3ae03f20f3e9e862
++  __TEXT.__objc_stubs: 0x220 sha256:c8bd3322d0f32bb34fe31a5bf24707638ff73a5266a4ca95aa0da51283fb2a2d
+   __DATA_CONST.__got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_CONST.__const: 0x80 sha256:b8bbf630de71507f84c58efc1f78894074008ad9e6acee38159b1cf961096c1c
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:3aaac8bae8e1f8e0bf3a5175cb7c4b8c7d882e8ed208812720f7b812f44abd6a
++  __DATA_CONST.__const: 0x80 sha256:399bb857a989526b6f98919413e8f77e0f58211538f79383eeb3801e60c063b1
++  __DATA_CONST.__objc_classlist: 0x28 sha256:381580d970b05eedcec775a88c942998009984ddd36726c448e3a67e69cbe791
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xc8 sha256:87b33afecfe7ac15fa3841fdffa087aa45a0ce23c5d207a0d6589b329fbd2c4c
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:d03f1aa142344a5f17aa5f118a44cd96fde79ae98cabf1b32bf73981905cac17
++  __DATA_CONST.__objc_selrefs: 0xc8 sha256:3915a702d7fa7d71eeadb02142609fa0553041ea04b847ff68bede36b6c68549
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:92070abbba5320aae7d865411147fad453e3f6aebb39af8e8e80bad122ad6115
+   __AUTH_CONST.__auth_got: 0xc8 sha256:6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a
+-  __AUTH_CONST.__const: 0xa0 sha256:036c613c71cda93ca862cf08f525afba3b22d70a3ff18bb2de419661a482e7bc
+-  __AUTH_CONST.__cfstring: 0x1e0 sha256:f0a04cde360294efa5246b9f535d696bc8fe30ea475d5f5b4108043d77f98e3b
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:96b7098e946d64c4770c1e001b5297f1a3524087fbb9dbfc55b90d1fc9c487fd
+-  __AUTH.__objc_data: 0x190 sha256:747d307fa695f8e0ed925357a8235452aaaf7d1c4dedc58788f55b8a4166dde9
++  __AUTH_CONST.__const: 0xa0 sha256:0c31b9527c9a3649670ca44f03420c292a3640598481ad38c8f6cc061155d48b
++  __AUTH_CONST.__cfstring: 0x1e0 sha256:e06f5f4ed3337de6e6f7b601bc20ce2300883c631b82c07414ad8ae102823b7e
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:8f2dbbb4abce52be99e2b96542730e03914c5ef239ade1d7221f4d96561285a5
++  __AUTH.__objc_data: 0x190 sha256:b068e32280f6a70bd638d98a89da9dddb917747016e193f26d6ce8eaf6f562bd
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F29700C7-5D31-3610-9783-CA32F7E6D804
++  UUID: A0FA5214-E2A4-3578-8176-59FDA0779030
+   Functions: 19
+   Symbols:   126
+   CStrings:  75
+Functions:
+~ _accessibilityLocalizedString : sha256 befbd50b2e6fbf8e150942afbe972b2fd7241e2e290990c40379bfcc4a31e7f9 -> ff5d8f2c2366be15d4cfcb12cf30029a4b9bd9b28151b5c7d4014cde74f354e4
+~ +[AXAppleAccountSettingsGlue accessibilityInitializeBundle] : sha256 22b21f4e076fe97fe4aa18113e668ab035be604878186f27345e6d2db3e2ebf4 -> 03d8b3e3e9ed7d46177c8a2e41afcddecbeab4fb3da23a93b5f74f57fffbe45f
+~ ___59+[AXAppleAccountSettingsGlue accessibilityInitializeBundle]_block_invoke : sha256 493b4b92480f504f7f70d05ede79b8642d20a73b689d07391472a65d28e0ef93 -> bbaea7bed5f20b767d296894a8499b3a4fea81965e8df365d552e8c6c5c0f49f
+~ ___59+[AXAppleAccountSettingsGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 6f08f5c050ed30946db4e6819abcd3f6fd37b59911ef7ec315051f233ab25f3a -> ef14fceefac1430b5c89838070427c72a3cc718540931d47e19b19bafc161006
+~ ___59+[AXAppleAccountSettingsGlue accessibilityInitializeBundle]_block_invoke_5 : sha256 2783a46018770ecd07b1a384027e8a9b0fa26308ffad7c280453fbfa3b691b73 -> c6cac43b8795fb28ef4495c7b24fd665bbe484fc8e1194f2e746a81ceb6e848d
+~ +[AAUIAppleAccountHeaderViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 24f99322d421f43e62687bbb09e959607c42048ecd5e01b096319b857714c917 -> bdbeb31166cc3ee5df62594b0c42651ef5d6fc8cf8012eb51e616bd7567a9902
+~ +[AAUIAppleAccountHeaderViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d638def3e743f330f1ddae6200adb48fe37473f517005321f2f94d7464221af2 -> 18d4619c166baaa534b614ea888b6c08ce49350ba231b9c987f70904b999605e
+~ +[AAUIAppleAccountHeaderViewAccessibility _accessibilityPerformValidations:] : sha256 18b241636ad1011869cc0b63d06ab42803ce60ef555b2e4fc83b92e40ab87355 -> 826aaf872614c9b08327b2e7a8cade869b14e881e024cdc3bc804420c9333092
+~ -[AAUIAppleAccountHeaderViewAccessibility _accessibilityLoadAccessibilityInformation] : sha256 9b71c1df0621449780008164a91df55b11e5a2dd409ee029f4395ac78b0a95c0 -> 9d99983376765c3f795029d87c4526832cff9c0cbf1be585ed6e08d716bb639e
+~ -[AAUIAppleAccountHeaderViewAccessibility initWithLabelInsets:] : sha256 3005d7869b3bca95a8002a7f84acd1c99b018447614c7a8f3fb088e031b1b371 -> 7efce4996d53078a518d28c628b32e2a9fdac19221b04ade0b7a7d0ca24f32f4
+~ +[AAUserNotificationAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 0983798ce9d47102f94d668adc71749014d7d53e41f09792b174de0608f0c08e -> 7a27c878484dc0a524fe5b68be678180c7847a2175f9a7860b2e91b5060b1252
+~ +[AAUserNotificationAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 771af23d679a8f8dfe54aabf12632949741c022069c885920fa09d1684f3ff5c -> d9b1876f99164991ab5e56ce848c2cf77e6cfbfa5d3864bcd795d2d50c345cb0
+~ +[AAUserNotificationAccessibility _accessibilityPerformValidations:] : sha256 da21ebfc0b5b4ba9986c318c7a52b3a02e6f8d7847970c87e11396dbccede36b -> 30a68044e76de2ae10780e60062c489096bc0a899c52520ae5ef722e12f92098
+~ +[AAUserNotificationAccessibility showUserNotificationWithTitle:message:cancelButtonTitle:otherButtonTitle:withCompletionBlock:] : sha256 3adc72018c0fe2850872f84840806a0bd5d4557abe3a54cd7bb03b8f8500fb4e -> e1f69d31887eb21fc63d9bce83b98f49549f192a6a8711b78aa324d3fa5a102d
+~ +[AAUserNotificationAccessibility showUserNotificationWithTitle:message:textFieldTitle:cancelButtonTitle:otherButtonTitle:completion:] : sha256 fa37900df404c7958c849a3114885555de570a1a1d8f93f7b817204c1e7d5416 -> 419f10651fbbee019c46c93e6ca121165c11577d4e4dd694114ac29e95dc3696
+~ +[AAUserNotificationAccessibility showUserNotificationWithTitle:message:secureTextFieldTitle:cancelButtonTitle:otherButtonTitle:completion:] : sha256 e3311cae6ba02c5fa4f5f1de6ba940829238d0a5c26c14467d12a25b14fe7ce7 -> 1edc6c6fbdbd2b7df4f3e29720f99bebf9564921acafda62960048ead53a6f62
+~ +[AXAppleAccountSettingsGlue accessibilityInitializeBundle].cold.1 : sha256 231785eb3a6ffeb722898047b270de7baad72f1e17d19c34840693bd3e4f5751 -> 10204b780bb7c4350270b025f2abe0cd30f391960378c023d8059f27d100df35
+
+```

@@ -1,0 +1,35 @@
+## MusicMessagesApp
+
+> `/private/var/staged_system_apps/Music.app/PlugIns/MusicMessagesApp.appex/MusicMessagesApp`
+
+```diff
+
+-4025.700.3.0.0
+-  __TEXT.__text: 0x51cd44 sha256:449589229734639332ab8c56d679bba03f6af34570cb9f239b53dbe1f88146d3
+-  __TEXT.__auth_stubs: 0x9740 sha256:872e5e17337d828b82e0563c8058b4e9f1d7e1d9f0dcf642705988c9971764ca
+-  __TEXT.__objc_stubs: 0xd7c0 sha256:aee72ef7dc8b06a16dbe5cb8dc9dea59e840a9f033ae8c4f9e3fb819bf1d69ba
++4025.700.5.0.0
++  __TEXT.__text: 0x51cd44 sha256:4c4ee2c169fa1dfe8dbf1f7cd48130eb53ed91bebad87aa774fbb569562277d7
++  __TEXT.__auth_stubs: 0x9740 sha256:8719e57fb93b27e7a0aaa97e0ee0ad53df37eeb4c24eb73456de50b68051c23b
++  __TEXT.__objc_stubs: 0xd7c0 sha256:0ca261aa56725bfd2edb6776f5fe17648c36b3904fe4646fd67425d8c940247c
+   __TEXT.__objc_methlist: 0x4674 sha256:aa280279c37cb86f09bfe3bd01bb144ad1bc63ac47d82a973214703698892070
+   __TEXT.__cstring: 0xd954 sha256:3403448197fdbfb5ab3797202f052a4484b2fbfbb541d4de97262b7763dc041a
+   __TEXT.__objc_classname: 0x315f sha256:ec9c445b2bf8827e19981ec78fd13830ecbf5930eb5e4e88a7b6fd14b30c8583
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 5B275F10-C22E-3F5D-97C4-3D1024434C29
++  UUID: F0D7DC2B-72FE-32C5-B975-04F317A1D64F
+   Functions: 24305
+   Symbols:   1191
+   CStrings:  5706
+Functions:
+~ sub_10048a5ec : sha256 ff5867480a37101e56d0440c6ad2f220055a2c8236339496a1cac7a535038465 -> 4cfd94b9fb1697831f4a3bbbbc74844eb2657ce3208e3471118404651f3f7914
+~ sub_10048c88c : sha256 b87dc845c7c6ba36f0860523ac0ec31e85e3703a05cbfc31cb98c20dbff7123e -> 73713ad23dbd89f112e08cdad4e8ea6435a5f9a29439f72e54ce0c569fc9b979
+~ sub_10048cad4 : sha256 4c6ac0f58c858e42b327d825c8a52d2cfc4de91df4ac3fa946aaf3142488d45f -> 29aa32e71d18380c4a588bba3295645e91ce4459e6eb5606ddae9b0e34798eac
+~ sub_10048e838 : sha256 6c9cedd5ed4403b51c40834748bac47ceed8a372b571513d4a1040036119286b -> 2cf848b45f0d0e4ea1b2bbc10a224fca6c9649ed99103709ff2ad618af11c25b
+~ sub_100506a6c : sha256 4404f18f72335b7c75fa860f5c991830e85f00a50de117587b6ce536475555cb -> 211e6fca7dde7314bf43cbdb1fb6d6194576515493a6294ddc540f0de4bbd2d2
+~ sub_100506d44 : sha256 4fa1c6d6f4611bd47184d714b84869b3e30274784635684d5a6624bb686d9f12 -> e7f711951be194f2df0598768b4001a28056b93aca7167615c13c18763d6835c
+
+```

@@ -1,0 +1,69 @@
+## CameraOverlayAngel
+
+> `/System/Library/AccessibilityBundles/CameraOverlayAngel.axbundle/CameraOverlayAngel`
+
+```diff
+
+-3005.29.0.0.0
+-  __TEXT.__text: 0x96c sha256:cf5f250bd25b7cbbfa3a4d3fa7ee6b940fa50dea2f7082ca88cfe7cef97dfdc2
+-  __TEXT.__auth_stubs: 0x150 sha256:b47e096fe7cc2d6ab361e7cc59f0c7ea3e0b27fcab2824c2e9a783ae228732e0
+-  __TEXT.__objc_methlist: 0xbc sha256:b38e23278203334d8c7f0b8f5c7f5764d1ff69cd805c412f2af773f260b10453
++3005.30.0.0.0
++  __TEXT.__text: 0x96c sha256:2d8b59d9872383699566c40dd6f91cbd18bc6fee8ed723426fcd42bb46a298fe
++  __TEXT.__auth_stubs: 0x150 sha256:c1072449d6b44ec486372933625e18231c2e5fc221ae520302c9de3395ff8eac
++  __TEXT.__objc_methlist: 0xbc sha256:920244c8bc5b3cd2d1be0d05cf354242354ae142d0252bcf53ad8679d624a389
+   __TEXT.__cstring: 0x2ab sha256:f544a55d04bcc284b72b3148a2ca4a78918dfba1fb37c4c81e64e2b8f21a6777
+   __TEXT.__unwind_info: 0xa8 sha256:db3e3ac8e72aa40e7812aaaec24d9ee39f400e50d25a7ff9deff4880c1300570
+   __TEXT.__objc_classname: 0x72 sha256:f80d0d63bd02492df41115fedfb0c4ec906de8ff75eb99f06c4c6320bb8369c5
+   __TEXT.__objc_methname: 0x368 sha256:982645ca04156fd4ab2ed4a0599feaef7994ca401f9b42b133d6bcf44177ea63
+   __TEXT.__objc_methtype: 0x65 sha256:25b80437a208a988b1585e0daf567fdba1e8ec3d6f3f859cb9b5acf025c01720
+-  __TEXT.__objc_stubs: 0x2e0 sha256:346eb1130f4cd03a6027bbc83fb7b66f7012489e882843796c16c6d3e0c325db
+-  __DATA_CONST.__got: 0x30 sha256:8d5ea57b1a6cb3f19f14e25cc63842263930b9bd037182b9a18c9c6928d75ccc
+-  __DATA_CONST.__const: 0x40 sha256:3a6a0e14f697796f7b6196c68631314ca704f9ab703e2cedfd679fbdd459ad91
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:8ffa2bf519a923a5a1156c32f07a3cbc8ebcb0c6484c47b2af4fc5dd9ff44ec1
++  __TEXT.__objc_stubs: 0x2e0 sha256:b8e5adb9725143a4167872a39e4fb3a4b5034420f93be4404e642964d6105bcd
++  __DATA_CONST.__got: 0x30 sha256:6dd7f412465fd72519c6fecc5c162c81142c97eb46d46d15a5e58b3a4f654469
++  __DATA_CONST.__const: 0x40 sha256:720ef0e0065efa39fa17d1c6ffb09f69ed049bc79cc07e8db7d12bf1f2b65e84
++  __DATA_CONST.__objc_classlist: 0x18 sha256:42672c83ebca30a0bc97b6ddbc10a4d13587e7824bbf0c42297b301b53e5e19d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x100 sha256:f4b753825c435e84a7fe298e28057cced980a28f52680e2e028ffa62b3a1079c
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:648bd597a0be737c294985565dcf758dd4c00d2e387e7693047dfa507dd3f1c0
++  __DATA_CONST.__objc_selrefs: 0x100 sha256:51cbd262c75b2f703d58a5bc79846f09da9b840dde2460f3c19fe15178914356
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:683145f3e7723d9ec6147e2a9aa071a8b885b11b93ee5b80708c5a5c51ea118d
+   __AUTH_CONST.__auth_got: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+-  __AUTH_CONST.__const: 0x60 sha256:bdd329db2615d29a78678559a6c28e472d867cc2919720aa710ba75f27476b62
+-  __AUTH_CONST.__cfstring: 0x3c0 sha256:d525374b7480f6274244bfd40bdd68f103dd9bdb4544ca0d22185fa568b19451
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:e665b3902c76c1e21048133572ccfd738ae30f83dbf6c9bfd03d93546ad5dc06
+-  __AUTH.__objc_data: 0xf0 sha256:edd7d397facec1355effb9d1e42fff858158117cf5115ecbfdbb8a8e2f5dafb9
++  __AUTH_CONST.__const: 0x60 sha256:b30d3ee50ecb2ef109feca23caf7c5b11717cfbedc7ed8583d71db1f6204f1c1
++  __AUTH_CONST.__cfstring: 0x3c0 sha256:f6ddc58c33202f823e6180602a5edabe7ee48eeb77bae392e38b5433f72ae226
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:d9c194f3d7a3209f15ef433629f49704646fcf5079f44ed058c8a0a4ce4fb5ba
++  __AUTH.__objc_data: 0xf0 sha256:963f95be3a5cae4c1456456a45030889921123c0accc1be80092871b4ae88f48
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1E72072D-3868-3FC5-A7CF-89B1B0D4C6BE
++  UUID: C78DEECF-AB4D-342F-ADEE-A015EFBAE9C5
+   Functions: 17
+   Symbols:   111
+   CStrings:  111
+Functions:
+~ +[AXCameraOverlayAngelGlue accessibilityInitializeBundle] : sha256 484fba7aa230d3726cbfeaccdc517f07c6d4c6ddf4e8345339faed63fd36d349 -> 16e42cf3d130520494481f83cdea34ce304b78555e99072878e25a529cf16921
+~ ___57+[AXCameraOverlayAngelGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 ebfd895dd9f31f3a09a3fe1ef7d302baee601d0357b624f4e779de3787b02ec2 -> 2504efd7d7dd8d3fbff1048fbc6f144610e2c7ee7ea96c905f96b3bd7177747a
+~ ___57+[AXCameraOverlayAngelGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 f93c7307a62dc13734eabd0a441c922341a15d927ee58cf3fb0430d62e0edc44 -> 416f42dda366c6658f6627cce1fbca3834dff4045a9280497b2b2c88c6e89d11
+~ _accessibilityLocalizedString : sha256 3a609db10274c899ad5dcb903b9707175e663b189e84fda8a794b96ef9452bc3 -> d567c7c8b502e70aca12dc1c1bb64b7d878e6aa185618567e8de5482c80f35a1
+~ +[CAMSystemOverlayViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 0254ddae13dd061c07393c988d5232735a68a8efe8b6cccaaae7c5c9fab62166 -> 9b837886f40b3f6f4fc6827b757fe119b27d8fe6d6e48a9ade49fba43c39ba17
+~ +[CAMSystemOverlayViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 565be213d04cea8fc79c076966900c7a53b7d4c4eb71ebcd339944eddc07b32b -> 70871b7a17109ed16d16ad99bab34ac39e0c10cbe7f3adbb29fa1d8f71de3dc5
+~ +[CAMSystemOverlayViewAccessibility _accessibilityPerformValidations:] : sha256 33a5888318b80c0aa26ee1a127c9becb2b2fbfe284b920e782caece59a490f8a -> 13d93a773950020be182a298ae7e764d1d858590a6a7b68ff851e6696dd806ca
+~ -[CAMSystemOverlayViewAccessibility accessibilityTraits] : sha256 716e6331b2636059f14327b533a479c1a93490e7b3b1b1171e7120ecf5b53c20 -> 4b44f881efc39189e9366de2fe95067114bc3f3ad12cda64dc1f59f1a4857620
+~ -[CAMSystemOverlayViewAccessibility accessibilityLabel] : sha256 43a360f10fc307d4894908c7f955d07529cf546201ad4d31cfe76e6385d137fb -> e40e7b58aa51fa0c91c8f2f2ad9400f2676b9d56673d6d12c290e8da3cb8b18c
+~ -[CAMSystemOverlayViewAccessibility accessibilityValue] : sha256 9b6adcf6b0db50b637746d10cc9bfaece8b2a8dd3fa16be8341a7b6d7e9d64a8 -> 712ffba3e885d7a12441f71e7267e1b9b58ee670d12b70cc04b2c96885ad8e0f
+~ -[CAMSystemOverlayViewAccessibility accessibilityFrame] : sha256 ba4f49012fc54b833fc26fb9d4fa2848dcf62b17ef59501f142ab34e525e569f -> a5a2becfc1c9947220f36112facfa0be2cee99ea270b8b1c927026e7837d7b58
+~ -[CAMSystemOverlayViewAccessibility _axAdjustValue:] : sha256 583bedc1b4ca75493726eebc85f49bb792dc3491eb5a9f8ea00151b957b614b6 -> d98877a114644a1927898acba8175513589393b84b5af84b4c3c8ad74a691d99
+~ -[CAMSystemOverlayViewAccessibility _updateValueLabelText] : sha256 2ee6d80b8d2bfd210af170ae454ea4f7a3322ea8e68eb2d670a668f2aee4eacd -> 992d2872fcc44e001127fd5605a0eca35d6e5ca65d7b20d8f0e6f5709c64f5f4
+
+```

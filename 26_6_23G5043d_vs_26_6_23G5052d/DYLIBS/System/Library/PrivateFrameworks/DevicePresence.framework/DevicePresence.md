@@ -1,0 +1,89 @@
+## DevicePresence
+
+> `/System/Library/PrivateFrameworks/DevicePresence.framework/DevicePresence`
+
+```diff
+
+ 29.0.0.0.0
+-  __TEXT.__text: 0xe1c sha256:525ab1faacbf8d5d38a42cfcff776dabbfca21d82c4d892ec3ecd382a9fef32f
+-  __TEXT.__auth_stubs: 0x1a0 sha256:65fb658f903b4c204d674e91548495800fc80572f00eb83a9ffe0f7772aae0ce
+-  __TEXT.__objc_methlist: 0x2fc sha256:93162d4e5549b46cda0a2cf74c1bb434b1b8cfe8ef5e45864df82f1b6f9cc6be
++  __TEXT.__text: 0xe1c sha256:5dfd4cda75407094aef8cd0aed2944170f8b9b1f4a0a7254564aade63e0d07e4
++  __TEXT.__auth_stubs: 0x1a0 sha256:4b694e2ba7cf5d17133f70997bc2c6ec831c22f53d8ede1eef97882bb4c43232
++  __TEXT.__objc_methlist: 0x2fc sha256:26e6b45bcdbf7569de4d52dd2b6e016ddef46c58c645f7aa54e9a2cd3bb64694
+   __TEXT.__const: 0x58 sha256:2769aa23ca63d246826a5ebfbe7218afb0db2ad7d64002354cd97e177416b783
+   __TEXT.__gcc_except_tab: 0x28 sha256:1573a90084d23ec32a3901a55469d70be5a5858a7c950354fa1fbda771c1b476
+   __TEXT.__oslogstring: 0x107 sha256:788f4778b9ef0d95ad8787fd695e893730a6d1531f2314fa1c8cf379de351e5f
+   __TEXT.__cstring: 0x184 sha256:35a62ed35a4bba1eb7dccfd01baf14cdbf2b470d25184f70d7e37f07655b2b0f
+-  __TEXT.__unwind_info: 0xd0 sha256:eecd000b79525e3a83d2327bf7c68fe719ac8ceb2ace4155e0f0bfa2b5558eff
++  __TEXT.__unwind_info: 0xd0 sha256:830c64679186988b9c616b8ca3f81f21f69baa0abea8ead668ed742e9c54ac04
+   __TEXT.__objc_classname: 0x51 sha256:92726c59f46025eda8b29a19cac568fabfc5a1651ad0a4a6d39e1bf86377ef31
+   __TEXT.__objc_methname: 0x5a7 sha256:440fe9a78c7161a10f41e8361297928e9bd79fa28138970221603d5711877fdd
+   __TEXT.__objc_methtype: 0x137 sha256:69e82ec8835b2d9d0d56680ee3c7b03f1d0fb0ba2cc453beac6a9fb426422533
+-  __TEXT.__objc_stubs: 0x3e0 sha256:1e8477527b8c7c135d79274fe84208283e4c65d9d956a4393683b0a87d6d441b
+-  __DATA_CONST.__got: 0x30 sha256:bb631e17c4451a30bfdf5d931bbf30db5bcebb9016f8b6d5a8a9716dff81a127
+-  __DATA_CONST.__const: 0xa8 sha256:afc039eea6e3c825d694f788969176464c7bc82d42d03b27b167940c39381131
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:0fd4128838feffa6748c42b001bdb7eb30d57140279e6b9cd74ec582f0b44b5c
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:2ab3af7c372409b7529686aa78aae6913ac610ab1988202ed927369d82ffb65a
++  __TEXT.__objc_stubs: 0x3e0 sha256:417e95820147bb778a385f1aa47a589e310b9dfa2ab143ac7aa7916362d3dbeb
++  __DATA_CONST.__got: 0x30 sha256:ad08b535fbce100beae969f8aae301f550266601c1fc110794ea44cf954b2646
++  __DATA_CONST.__const: 0xa8 sha256:8faf1e077fff42ae6b6a6151e24592666db58fbaa87a7fbefb6e6670dbc7e130
++  __DATA_CONST.__objc_classlist: 0x10 sha256:2268237bb1ceef995ad76c60ee69f77c649316bd0a26c3c951d844ea02140adf
++  __DATA_CONST.__objc_protolist: 0x18 sha256:b2b2a1c55641f8537f50ad50ad87938133f13cf20fd4fcedfc615e2661695b5e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1f8 sha256:6080b09edecd46f00984da1654e7a91d0ee91b18064c6db6e91d059f24dcd19b
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:389db8ae68392371813bc27e30bf5f206e514817d49c837d0a826208810df9e5
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:0fd4128838feffa6748c42b001bdb7eb30d57140279e6b9cd74ec582f0b44b5c
++  __DATA_CONST.__objc_selrefs: 0x1f8 sha256:4a9580a24d0440d64de752ab70908de364f55d19de0b6a46df03e54e0f92ed5b
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:355e27cdc2ba713b7ef1fbd694af138d5a396095fe9e8c27bd9bb4b287083fee
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:2268237bb1ceef995ad76c60ee69f77c649316bd0a26c3c951d844ea02140adf
+   __AUTH_CONST.__auth_got: 0xe0 sha256:6eb69e26de2a26eda48af77d4cec893aa0cf4748a64cbefcfe11a22c1e680ad9
+-  __AUTH_CONST.__cfstring: 0x1e0 sha256:0905840870ae844907193a742371f94cb22c7b76662b665bd6d56bf5d4824426
+-  __AUTH_CONST.__objc_const: 0x738 sha256:bc91d3d2a1589ddb7134acb490f3a36cc3104fd2368b46212a82718afe133258
++  __AUTH_CONST.__cfstring: 0x1e0 sha256:c1df6c1ba2e97f9ed828899a25118447bfeab4eb5de73530590788d3a637b53d
++  __AUTH_CONST.__objc_const: 0x738 sha256:485fd9a6cf7812ac0a8974745c8d3b1f473fae4398d92e9fe6da7bb08b60456a
+   __DATA.__objc_ivar: 0x18 sha256:4c4ec1c810227ac456abce1af5f73ac3aca908235420432a97da89d54dbcfeb7
+-  __DATA.__data: 0x138 sha256:d4bac3bbfe89fc38f7d07f31a8930aab688077840a067ed683957831fdaaa353
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:4624e92b4b8136a1fad26a7e2ee5c60424b1b04a4859baa2d45cadf2425a6ec4
++  __DATA.__data: 0x138 sha256:1cf6a7d8c399a6deb1b6af1ae85eef68b8d01f28b5b6ce66198978a54480186d
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:a8259604b73215d09f14a44f3fa2a14a4d286dca68129ec2808b581f62fa2b88
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7BFF9F87-2690-39C6-AADA-3E436B1B8B2E
++  UUID: 2BB112AA-C645-34E6-A5A9-6D570BC23373
+   Functions: 37
+   Symbols:   196
+   CStrings:  151
+Functions:
+~ -[DPCManager unregisterForWatchPresence] : sha256 3030857ac6305c60409cdded6f66394fb6e7ef760a1b82a2a5eecd6ec7a251f2 -> 03c603a28b2b9097f113ab26d0d046edab55bf735f0993883345745402c359b7
+~ -[DPCManager stopWatchPresenceUpdate] : sha256 fafdf059f313e88841366caf6d1383dd77f1bcb1a79ab4cbe7588121657e3873 -> aa5f8ffbe074160d15edbccbd8924fe4b4e4348314713639fcf037200f0c146d
+~ __DPCLoggingFacility : sha256 3694fd7bc6882641e5dd41476b3ff3c06b3a5f318bd4e0382f845d9ebf9bf348 -> ef9dc560cf472583c7b0a668eeda0ae9a0be9b9fee6e2f5c76438d0c4585c716
+~ -[DPCManager dealloc] : sha256 d1de27b79136305f3faffc6fedc6740b59dac1e234e8b7926da56e8c98010368 -> 83ab5297d6f567eeb7e1e1ff096f601631ef5cb8300c38fa70a501072473570a
+~ -[DPCManager dealloc].cold.1 : sha256 7473e236560590915e712d1499b72fd7d8389029c46fe604b07e26bff593f2e0 -> b9d31d49555582c794767b67ea2d05ecf5b55daa31889b31795f9554e72d4e45
+~ -[DPCManager dealloc].cold.2 : sha256 d7ffc4c45416e9827b19e3f738f2a0fd0b9ea106e7b5bd72845ec3cb6140c59c -> 4d2cf8aaddcce87f069ae538989cdaa60a1e2842e0e6cc4321c8f1f263f7f6a3
+~ -[DPCManager .cxx_destruct] : sha256 f35ae61da343aa9c03b9a64e1ab44929e028850ce1c9e89918723e0575d5a5d4 -> aca9dfa15dee1fd6e113bebd9462c213d8690a8a133496b869309bc8bf36a163
+~ ___32-[DPCManager setupXPCConnection]_block_invoke : sha256 d03fcb78d9a64943bdae2f26de80f6e5b9f8fedd5d31c0d2f8f2edac24e6d8a3 -> 22a435d1dacfb46a511eeded893c8d7a3e33d2c970b6e2151a3573f7c5333e3a
+~ -[DPCDaemonClient .cxx_destruct] : sha256 de190fe227848f2df41bfda64b0de0971f0d3d369f056c61657b265bdc789ca3 -> 4a9afcab643c9c6030cf94ba06ab049ee01f9f0d7023248214c1c3d51846f68b
+~ -[DPCManager initWithDelegate:] : sha256 2ac7f80ad24ee50567a68fe535aa9cda23ff06a6180b9c15930fa83f5a543bf3 -> bafddae49167f2e37b3ad47a63ad501aa92c5f988c1870edd6ee172e040d894a
+~ -[DPCManager setupXPCConnection] : sha256 ca7fa740474874a90b5ae7ddc7bcca78dcce483976ec2ffc8c5be8374962b4f3 -> ab1eec64893f54d1c5de5852adaabbd8a2428b792e81876140386d7b0fb4c6d1
+~ ___32-[DPCManager setupXPCConnection]_block_invoke.61 : sha256 cf198542a5d78c57ed066a3c5ca9350e89559d23149e527a75f9229ebb81871a -> cf265e133ac7064c63a53e3c5125a1e00b85f824ee557827c46a348cd19043fe
+~ -[DPCManager registerForWatchPresence] : sha256 49f2f94c35bca41ce049f14376f495f13419210ef532df0ece1a33087d1c72be -> a3c8031dfb2f60283dea660bd646e96cfda669fbbbe1fe2086349c6b06dc6d07
+~ -[DPCManager updateWatchPresenceStatus] : sha256 e407d0b4dfb436b6bbdb894951cd14a9c259c8af0349d007afdbf6491c2cde6a -> 4a5446d1fb4745415af26709efda26a8726b3588210f0124d706ce665d1347f5
+~ -[DPCManager setupWatchPresenceDetection] : sha256 b2c0346edf135879c4dffb61ac13ce8cd3d43b6d9b2660e83ccfb359b757c71d -> c1277b153e4c033461762a87ed2fd12c56f974abcaadd7c7b57ee79471c357e4
+~ -[DPCManager startWatchPresenceUpdate] : sha256 fd9de005c146620e97fb8df947d76b46b05d22be086c4df00cdd0488489f7ca1 -> 06e5fb0f933029d7b90b5a9f2fedc5aa206be1a2c46319fe0952045b3cfa3225
+~ -[DPCManager setWatchNewEvent:] : sha256 27285066387d777448f0dfa794fe396756d05fdb79e8a6074be0d7755ac8ffb5 -> 223b1b8c226e489e91573faa71c8841416c727c323913e7e9055814e92d8a77b
+~ -[DPCManager setStreamingMode:] : sha256 8a2e0682e99b0d0f8066aa2e7c749fe53d3f5f630b70abd1b444aa76bf7d392e -> d0b383190a848f86938df03fa98a91b9249cf8348aa4b2d8ba8f4baddef46156
+~ -[DPCManager delegate] : sha256 52832556ba9c24d1ba2da1e27d47ed98f2d669c792b3d4bb6a89715f88a581b3 -> 6241c245a8bbcb0e1362f110cd0f1e331d1c6b8a8cc0c534bce4ecb0af1bc76b
+~ -[DPCManager setDelegate:] : sha256 e0566461e97253dd98a333c32a0018697a0bb2ab05d66bf31994201c56ed2b53 -> 0e3872d51f082245143fcab81c49ea504bd770cceb0b76037e57b0d8a6b06851
+~ ____DPCLoggingFacility_block_invoke : sha256 3d7c769baab8836b34d9d712cabe54a68d786f7d18d5eb568787387e6059a472 -> 86e025407f89e9bf01b474ef7cd5af5810106c2dd02f92360bfff868d991476f
+~ -[DPCDaemonClient initWithDelegate:] : sha256 3f98a76734aecbe59d8007809808f6932bdc38ed8f1c106692b5241f612bbbc8 -> 2c66e394ab1e8b05b07a9f8cf06b7f9a3084d3f7f008d2980b9a2c7a51f7bf91
+~ -[DPCDaemonClient informDelegateWithLatestEvent] : sha256 de9560e08c86050a57097ead9cd0dc231820e373105f71da59fe6c3615831e44 -> 2e9623bbeceb45de5ca495708c4c2de4afb0937e17530537db30e9bf78112963
+~ -[DPCDaemonClient informDelegateWithError:] : sha256 9fa2c5ccc12f6c7589f1eeab88bc2b42c111714ffcd94a81a8a545e8c11b7cae -> 73eec256eee8313c1f534186d591cd476778ecad461d24526ddc0463d7630ceb
+~ -[DPCDaemonClient informDelegateWithWatchStatusEvent:] : sha256 9903f01e1e8ca651ab2157cb43c598931816b3ed7d0a6017291f02ae77540de3 -> d6e0faff4976761f0739b58d96ec649da019e00b42af0b00a297902b2a14c33c
+~ -[DPCDaemonClient delegate] : sha256 8c5bd1c72920fb7aaaa6f9ca651f1ef0067b758972d0f08489d83480ef00b6c4 -> 2e3db27857f3647d83263cefd12a1addb903e005fffae9d148b7bf0a99623fd6
+~ -[DPCDaemonClient setDelegate:] : sha256 b6deecb8cd35d69d913bcfb71aa60b1eaac78e6d931390c650238eb9f8eddf11 -> 73d0d329f19ed0cf54cbe875463bd595c2d2e65775377d489496f5c3da37dc65
+
+```

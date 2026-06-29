@@ -1,0 +1,38 @@
+## libCVMSPluginSupport.dylib
+
+> `/System/Library/Frameworks/OpenGLES.framework/libCVMSPluginSupport.dylib`
+
+```diff
+
+ 23.1.1.0.0
+-  __TEXT.__text: 0xa04 sha256:8c333c544921e30aa167d3041aa942e3b7037b2468d0200066047d908fd57518
+-  __TEXT.__auth_stubs: 0x80 sha256:4c77af772077ef6404c2223e19a5b9581259a65764bda125500681b7e3694a5a
++  __TEXT.__text: 0xa04 sha256:9ae85d399d30b8bcec8c7be0f50fe480df66edfbf511476785059bbc35c1bfca
++  __TEXT.__auth_stubs: 0x80 sha256:505344dce767a6adb7cdfcd91bcef6894b972fdb161d8c1579db73a4c10fe495
+   __TEXT.__const: 0x10 sha256:a64a5761bc0e57ccd66210ee52f6025ee9fff0beeeed623dbda9a319a3d42371
+   __TEXT.__unwind_info: 0xb0 sha256:af989844652a8b4a7ef89df9ddd62012882a0d55e2d2e29679f64556a70083e8
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+
+   - /System/Library/Frameworks/OpenGLES.framework/libCoreVMClient.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: FD5119D1-EE76-3339-9D6F-1F5A759DE896
++  UUID: D54F9327-B1C1-37A9-9AFC-B4BDFE72C7EF
+   Functions: 34
+   Symbols:   58
+   CStrings:  0
+Functions:
+~ _cvmCreateHashMachine : sha256 b797a6050a82ab9137f559d5265cd62d4d1118088a4f8297d7d1581c9bb705f1 -> f4fe116f2e86b32290a46965082709879a3734e01bb15b8882bf74e6e3a7e02e
+~ _cvm_hash_set_new : sha256 651c27d6006eafe8c96cc406e522dc8f31c6651646b8c03dfa1d16e01ce911c4 -> d7659626444e158cf1d194fc1550ad122868c38bef6653c2430bfddaaaa31b1a
+~ _cvm_hash_set_init : sha256 64aee323286d76f401134f0f3cc60af977693f7fee1664ab535ee96ec92094ad -> a4ba5c17c0d1dc38085dbde72c2fdf2dc1dd3e8f878fe0bd2bfdbb57f6beb735
+~ _cvm_hash_set_term : sha256 88a7cf98b2c6a6a641d809acccf001d71d1439490fab2926be76be811867f3e2 -> ff7768ff53efc6bd43adb7c58b33d222ba82593f46fb804185bdcecf8a17e1eb
+~ _cvm_hash_set_add : sha256 65cb06720bdabf9cb112118d26793ce70b4acf7043c08e08e90a96298504dd08 -> c85b5e09d8b8c26d8ede16d15bb39c237bbec76aa580c1038bab77a97fd131f9
+~ _cvm_hash_object_new : sha256 5d571f50aa4105ebe12bce2d92fefb17c90db10979b933177eaad95e14b622f1 -> cd644645b96668e53db9892cbd253185f79d62bf875172efcc348f9bd8b94cb9
+~ _cvm_object_new : sha256 eb709a98618df295d07ce5035f2a635dd7a09e4e9ed0cda025a17f885a924b74 -> 520083533f169561e248518d6d6702d1307b74f51d4f3a628ba1e0a71bd73fc3
+~ __Z27_cvms_element_release_asyncP18_cvms_connection_sP15_cvms_element_s : sha256 e7fc706871c5745ee8d7bbfe10bfc760318aaa9fa7531b78552bf5f8ec907538 -> a2149993892e6d352ace8297ce65bf12828c961536eaee4520f2ed96d61d388b
+~ __Z27_cvms_element_build_and_getP18_cvms_connection_sPP15_cvms_element_sPKPKvPKmmjPS5_Pm : sha256 7117f09da68e8837bfa55d1c9f5da5ecf256589422258f7e7e7392d6b65827c6 -> 3c1e5ba46805ddd77ac814f6ef3775df4a116d334040ac7247a6ad24bf9d13a0
+~ _cvmPreInit : sha256 1d02b273f3dbe0995f849f7f835e163eae298d5034db8ebd6338965ea994b499 -> 4dea3c4dcfdacfda35cc6cb2fec1fb79b1916fbe067791ba1c9614d9e14bf672
+~ _cvmReleaseCVMObject : sha256 3b2432693914a9e4f03deb0e219aaf25e6cdbd430293f9b25cde5925d4bbdc83 -> ecf75432fa082fda6035e35ca36a4c566bc18d34add46a8f133ae359a945f5cc
+~ _cvmBuildModularFunctionSync : sha256 29c7436f880b4b3d9961b5032c10822b75f7c8c5a3656ab523651aa983fd9edb -> 21e4c0d50502d7fae64e9453a0a521e5a0711d05e16aed77647d266b1da8786a
+
+```

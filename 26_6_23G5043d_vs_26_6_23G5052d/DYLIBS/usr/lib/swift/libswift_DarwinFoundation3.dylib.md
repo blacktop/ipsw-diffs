@@ -1,0 +1,19 @@
+## libswift_DarwinFoundation3.dylib
+
+> `/usr/lib/swift/libswift_DarwinFoundation3.dylib`
+
+```diff
+
+ 377.160.5.0.0
+-  __TEXT.__text: 0xd8 sha256:a8e818693d23ac0002c38074183fa7a2546f2532a4d7bb848ec86fa86cf0c485
+-  __TEXT.__auth_stubs: 0x10 sha256:8d7b8405dc4440d12d07e1f7218cfe9a5732969369d22c05f17e0162e17b3799
++  __TEXT.__text: 0xd8 sha256:893a8c9c9e2b01d53b820ccc5ba00b7b7b2d03dc2a98d011a5fdbbe415ef9910
++  __TEXT.__auth_stubs: 0x10 sha256:0b7bcb80180d932605943484e42d10ce0041f9dd03c5b3ef0630c0514ca304e3
+   __TEXT.__const: 0x5a sha256:eedeceb89a4a9d83a1a5d5db04e354abad23a28d1ae5590d1795f0730c316597
+   __TEXT.__cstring: 0x55 sha256:fde04628c17e1269b5053af49eb266a7f48b6813f7666233fef04093cc60b8ee
+   __TEXT.__unwind_info: 0x60 sha256:d0738917c8b08837cde4e00b535c7e360992d31f1e9c4c6ff3cfe3e3f136ca4e
+Functions:
+~ _$s6Darwin4forks5Int32VyF : sha256 4521c37471b21206646886622c2fd69aaa48037bee81722c5c01f32a41580b19 -> 263ac2de233a9e3bee94b55581d8d22081563df7a51720b1f10f095b66783772
+~ _$s6Darwin5vforks5Int32VyF : sha256 9dc1a4015024a3189d936fc525f2a3b540fe1ea75b9047293fc6d9f0f2f9f36f -> 7ec4bd3662f47f9baf134fb42cd466198df124cb91ac36eb8147d467103f376d
+
+```

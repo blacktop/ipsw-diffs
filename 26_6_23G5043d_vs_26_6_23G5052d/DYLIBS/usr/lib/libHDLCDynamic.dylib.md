@@ -1,0 +1,23 @@
+## libHDLCDynamic.dylib
+
+> `/usr/lib/libHDLCDynamic.dylib`
+
+```diff
+
+ 1419.0.0.0.0
+-  __TEXT.__text: 0xb60 sha256:864b106467bf5ba87b42a734e7ebd8518f1f8fad16cba063c8eea2ebf5a3b5d9
+-  __TEXT.__auth_stubs: 0x40 sha256:35f0eea327a0ec091452cac0c3678d07fa69089f5d86bff3491a5cdfedc82c0c
++  __TEXT.__text: 0xb60 sha256:e6176b2c6b0da5b99f6a2e5ef248c1b2814a0ba27d36eb25cae2890d803306a2
++  __TEXT.__auth_stubs: 0x40 sha256:10c06841e9d0b1f1302e4dd778239ae79266ccadb5d772030e40d757d6600274
+   __TEXT.__const: 0x10 sha256:b1535c7783ea8829b6b0cf67704539798b4d16c39bf0bfe09494c5d9f12eee30
+   __TEXT.__unwind_info: 0x88 sha256:7e47e130f25c9ac16998781492c9f6a2a52fc94b838ec802d6943797dd289a3a
+   __AUTH_CONST.__auth_got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+Functions:
+~ _HDLCFrameCreateDownlink : sha256 4e71d649d69de05cb45fae88390a159e44db1cb6501603e019de6fbaaa965313 -> cab5445cbd855e027d2450c6570f0dd15817c0b2d453e8e6a3793eafd7df5418
+~ _HDLCFrameInject : sha256 d6df123bdf8bdcbd38bb6de696f1f728dcda3953cf62940000e5e66762542b05 -> e566a3c74a2f164d2c0d7718d8754d631fbbaaa2052b89debf4146cf6d81272d
+~ _HDLCFrameInjectUnsignedInt : sha256 e21396e8bad0a0cf54c78d251b2c1ded8c4b88c9fae2dec244ba19a45803a696 -> 6c3ac9a8228c4389f9c42e6a8998a0c8643134a242e073bcb947878d93a62de2
+~ _HDLCFrameInjectUnsignedShort : sha256 a4ba12b586d865b057f4a318f47a926085e79e5decc19e89831af44aed8dff53 -> 41a27eee2de5c5022d8ba38ec3f54acc054291118072c3d610a451a9b9bcb6b1
+~ _HDLCFrameInjectUnsignedChar : sha256 1ab202da9e2dec34969d6b9d4a0eebcf5446643bbb0ab1c3f63bf916a6db41fd -> ddfd12d6e60aca0323790d1ae370f680c1314ea6dc2fffa883f1bd60e2494520
+~ _CRCCCITT : sha256 383e44d4104a730e757fae91d5c431167dcf00ce94bc8e881b83ad3424d54e79 -> 14b93f9fbb27cd431403ae96844ee3ddd2aad91d58fed3b61bba9fa07cabf2ff
+
+```

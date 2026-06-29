@@ -1,0 +1,70 @@
+## Movie-QuickLook
+
+> `/System/Library/AccessibilityBundles/Movie-QuickLook.axbundle/Movie-QuickLook`
+
+```diff
+
+-3005.29.0.0.0
+-  __TEXT.__text: 0x594 sha256:3d8e2adc3ccd2b12f55b96567770b3ca0580d87f721734831db86b08ccba41f8
+-  __TEXT.__auth_stubs: 0xf0 sha256:e8593749bcd9a6f528609f5b810bc22385873afb585d612077c3bc3d4a366360
+-  __TEXT.__objc_methlist: 0xb8 sha256:760afbab1cb2ae9c285c8149c0c7c0a5652048b11b7abe8f6bf99fc40adf4a37
++3005.30.0.0.0
++  __TEXT.__text: 0x594 sha256:3d0aa62a5c879e5344c5d1e7c13d533a67096811513073721f71cb9c266626fc
++  __TEXT.__auth_stubs: 0xf0 sha256:8942830c05850c9ed1d617bb3fd528deb803b86fe1ae13e7ec3870202d4fb9d9
++  __TEXT.__objc_methlist: 0xb8 sha256:e004d0cea90cb6ef7b750128df777320ff560828dfbddf2dca42f1d4c112ece0
+   __TEXT.__cstring: 0x138 sha256:497e0a0f71d59775fbe889ad132e9fc104293188d996a1f0adc9ec649f981641
+   __TEXT.__unwind_info: 0x90 sha256:8d5241978fc7dca86ce90dbac190e86a29e8165e4ced42de1463aa05cb022663
+   __TEXT.__objc_classname: 0xbe sha256:0c6d100ea44e703562a1d2988072e5ab412959611dda787f91e32a20a60c0c3b
+   __TEXT.__objc_methname: 0x21d sha256:e747c1c3fcd715e86536a4405e0eac496098fb6197db2aae7450d85cf6d39c53
+   __TEXT.__objc_methtype: 0x23 sha256:453a037f7b1397a09d5784a6f1b9d49c2aa4f4cf911d9a251b24c25f6a2672b7
+-  __TEXT.__objc_stubs: 0x180 sha256:4dd4819875fa1969fb2bf8bcf1482a10a0117ad27e45e0e31516f05bf3b64d5c
+-  __DATA_CONST.__got: 0x28 sha256:afc5bfa98e89ce8a4dedebf7e097970b9faa1c6fd5c2994126922ca54668956a
+-  __DATA_CONST.__const: 0x40 sha256:42f649817b6bcdcd245788dacbc248b2d8fc9fd5520bf7c062df48afc6cd55d7
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:9626f56c6ae405c450b26d71e985cb7cb22aa0e6dd554a528d192aa834fcc968
++  __TEXT.__objc_stubs: 0x180 sha256:ddf2e888d66c568b2c729cf93926813efb41e1d91af1d03277845949fd4dda7f
++  __DATA_CONST.__got: 0x28 sha256:bf9da8bf4ad82ec2ad7599bb1ab75f4f689fea98e4087fad7d0f63e5a5cecb9c
++  __DATA_CONST.__const: 0x40 sha256:02b958c26651786cf5f71b3baca47520f2eb10f083e2fd7f57ce78cf1da95c6d
++  __DATA_CONST.__objc_classlist: 0x28 sha256:49f9c3e879539a7a3140b20b4845be34e83538d025cc94dc2edafb2287415cbd
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x88 sha256:17bff13bac8c22a784a70b60a4a41d60b8366f8f0c39cd9c397f6f478bc75482
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:c8757f01b7f0039f1c24c36e7c0d8d08242f6b9a470f367fd912702d78d1fc48
++  __DATA_CONST.__objc_selrefs: 0x88 sha256:3220dc5588312515281b3234aedf23e08fa0f8ea4829595ce55de1982b942965
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:c631f6cda23a60f63d1ba121e6004adf07c0a1d9b89684483a1ac160515de221
+   __AUTH_CONST.__auth_got: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __AUTH_CONST.__const: 0x60 sha256:f242af4db10c4e4892f60966889ee2798aaa71a8350f58ff161b8b73dddbaf56
+-  __AUTH_CONST.__cfstring: 0x1a0 sha256:8613406818c9197f8d5217accd022932b0dc7ece649168898d0c898c6eea8172
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:3e17f427349fdc6906091a48064112cbfe11c0b9913dc991fe3db7084c7f107d
+-  __AUTH.__objc_data: 0x190 sha256:12d98a4252d504010d9b9b059e2d21bcba5dac05bde0738a9ebe95ca513f68fd
++  __AUTH_CONST.__const: 0x60 sha256:7f997cc176aabd02f2c29fc36a1570c875ef492b169a36ae1c0d409142ac64b8
++  __AUTH_CONST.__cfstring: 0x1a0 sha256:6b105f1edba4e7ca69bd7ff920c7eec8183cd7d3439774d89e64869c4ffebdda
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:304b2ce47179c4de50617fb86ef37ec134d470b22089d7e86323dd88d2a19829
++  __AUTH.__objc_data: 0x190 sha256:d610ed7117a79497b7bce86bc82854818c5aad5b2539a8921e664303fd9531e1
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1F67CDA4-E2E0-3A1E-B73B-B6A2B50B2700
++  UUID: 916F7E2F-8435-38F6-9643-B338B3AC12E6
+   Functions: 15
+   Symbols:   98
+   CStrings:  55
+Functions:
+~ _accessibilityLocalizedString : sha256 10e8756b0a8a3298032ea8a50b39b24a0ad5a0cb6406fddb70615cb17747507a -> 1b62cc8c52663d5387a4484c14ba80d4431ef01b6b4a71303332da2d9503ef86
+~ +[AXMovieQuickLookGlue accessibilityInitializeBundle] : sha256 1d88111c8680527e1e4db4d2915ec4cecdc0dc88ba56ce1d7e109b4299690d86 -> f23d2613ad84ac8781fd11b2044b279b25dfd7dd10148238d81a92f82bfa66fa
+~ ___53+[AXMovieQuickLookGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 31af4b272370f05c6b712b80c2fbe62077e1b212f6ab070e03fe9dae88346d92 -> c7d58a9065640f7219a12c15d79fdf3c4c1f09ae23059ec5bc4f8c6f231727b4
+~ ___53+[AXMovieQuickLookGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 82d415f3a5733bb669a711d1b6c3dd4cc9492c00c947b894ef399ce4f01f49da -> ed868d9bad512dc78d7dd001e6c3035047714b211b37ed1138ad3cf7e1b8459d
+~ +[QLAudioViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 ab0ec395c285747fb38a10a7df32326bfb8cc56aa758f9dea8c7f6467533c4a0 -> e0871f94fa1bfec5be04d2a8503e95264f200d71cc3e307b3132f98beb0ff76e
+~ +[QLAudioViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 80423be06025086ab72679fa92548f4355e619601501e54bbc5c8fd87465e637 -> b8e40b8bc6b26682f5dbfd97329c4237afb18f30758177ce7b602afc7502d146
+~ +[QLAudioViewControllerAccessibility _accessibilityPerformValidations:] : sha256 16b281b0fe0dae67efe31d25e074e0a46138c0bfbf4d34c94d8e8f48074a2ceb -> 5caba0c49ae21527421d90e55a4e77bd04b22916d88374da50048e2587d6403d
+~ -[QLAudioViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 d8200f7737dfe921b5c5f361a03706d790e4d91705711907e52e327a29353c21 -> 3b87db4d71d9e357db4718626d3aa1ae6e695f4fc78e4cfa47725f05763e5b15
+~ -[QLAudioViewControllerAccessibility loadView] : sha256 752c1aabf94bfe4fb7c1dfc28aaec83c1cc3216b63656ef5a906e6e224937cd1 -> d135eed00a3d5f2703fb0f0e6785000780b0e0b7d27fd56cac56314fb8858c4a
+~ +[QLMovieViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 37162a5ba2973bb5a7a924b04b594fc523588970f049e4ac997d4e12e05ae1cd -> 4983e2a2af225019c521656d7a1d54af44bf3ab28a7d104e2a11b5e6dab102af
+~ +[QLMovieViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 8bb6b7ec713377ca70d5c94d0f74a00d8304916ec0d15d562a8cf8e4792271a1 -> c6a8d1a1bb4fc72065baeb315f99b5cd5bc5fb433074aacc60a1474eb2e8c6d2
+~ +[QLMovieViewControllerAccessibility _accessibilityPerformValidations:] : sha256 16471c1c4fc74840dd191fccff02ad5db3dff5092690e4707d5ec89e3669e0b8 -> 68dc818e82dd019562aafa7fe2049efd97d72c39336373cdc08da6da3aa1faca
+~ -[QLMovieViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 e0fb296a8409453115a0e3da00bc310fd666c3f011f10815d36ffada081c6e7f -> c8e2e106096d149cca444ce27f98d36429bdc8002c2cd973fae6a1fadf72ca8c
+~ -[QLMovieViewControllerAccessibility loadView] : sha256 baf21c36c6ffce203337a2946e74a004c73a55ba625a1bfaf4fd51db8a026380 -> 041dc2914f54c4fad049bc8c6078f3ae602d0846f5156cf14a709c094912a0ca
+
+```

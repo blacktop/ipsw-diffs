@@ -1,0 +1,69 @@
+## CardKit
+
+> `/System/Library/AccessibilityBundles/CardKit.axbundle/CardKit`
+
+```diff
+
+-3005.29.0.0.0
+-  __TEXT.__text: 0x424 sha256:63c8965c920fc10a7cc7b35accef8a1bcad0d8d42a15200e09771c414f5b6faf
+-  __TEXT.__auth_stubs: 0xc0 sha256:4006bef57ffdd2d562f12ef83e828cef1fca9bedf05fa758cc33800414903416
+-  __TEXT.__objc_methlist: 0x74 sha256:4f23475400c59a1ceaa751e4c1f5bdb65adc3fd5a1cab1b89432de069479ed30
++3005.30.0.0.0
++  __TEXT.__text: 0x424 sha256:110ab4f7cac2e0505d9a7a06a69bfa8ffb9cb083d5630e8e81f791398a658c5a
++  __TEXT.__auth_stubs: 0xc0 sha256:fcaba41050f0b58fce94e6fa81120338732f652a0a56f9982d27699c4f64a918
++  __TEXT.__objc_methlist: 0x74 sha256:3ab7b8ffac255365a0a71aea385b1f4c94b7ad992f0a92524be0515e572ddacc
+   __TEXT.__cstring: 0x13a sha256:63b96884c5c98c35ce98a527cd89147c5d645ff01dc3d3d3a075d7ca71bed88e
+   __TEXT.__unwind_info: 0x80 sha256:cfc176e5b366bdf80afae8feea266e52e80bcc1e15ab25db94907e39fdd8fcfd
+   __TEXT.__objc_classname: 0x77 sha256:0ad19746920c37c1b514e1055aea3121e76cd50745455b558e14bbcf81f8f125
+   __TEXT.__objc_methname: 0x2bd sha256:f821345805bd8def1687c02ba7f7306084c422e6ac7802e4ec06f0aee31b7e89
+   __TEXT.__objc_methtype: 0x23 sha256:4eac88e50f25f0d12c0af0a12ede3e45656199e676f98f783b1eb3bbbf41b8e8
+-  __TEXT.__objc_stubs: 0x200 sha256:9b1362823d5e4d3d4d22a6836fb162c8d6dbb770ca025483533edaacec073319
+-  __DATA_CONST.__got: 0x28 sha256:9ae90f14d49d75dad601fd902db0378e38bb22b4a53a774ee77a97ce91f9bb12
+-  __DATA_CONST.__const: 0x60 sha256:a9d1d895238888f0178079a514ea9ef467f5629ebb21ba9a18f498acf01b1891
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:168173b4ee956b109883119a5b6eb4a6853cefa6df911bc1f4b980a8f0dff482
++  __TEXT.__objc_stubs: 0x200 sha256:7cf0a161ab2119f84cfe06b41f62fe0273823228af36f961a1049a74531da454
++  __DATA_CONST.__got: 0x28 sha256:985a0a711e11ef5703e6a4002c99f5b5c3620af9a1ca12acb37d3ca0eccd9397
++  __DATA_CONST.__const: 0x60 sha256:3a015a01398bc1acf34d0f8aae5b778cf1a43c9d124e61c45bca63eb2195819d
++  __DATA_CONST.__objc_classlist: 0x18 sha256:e7aeb69bf7d51486a3a570b5fc78671f218f20903be6a65c8fca63ef06735cb3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xb0 sha256:44fb59f852819d82b2a1c13e0185c72bf7d2a43fc723ab746311a350c8c7f4a8
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:c1d17d7a82020614dc73bef9b873cf79626fd65851cacc437edf973d608d2804
++  __DATA_CONST.__objc_selrefs: 0xb0 sha256:a81bcf5efda3ff0b8ab7095d9a4f11e02ac2adf31a4126b642192f81d97a6237
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:60684c3d10ab41c6be5217c2b5e05283a81ee3818d5e4006e5b332c69c53cf4c
+   __AUTH_CONST.__auth_got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __AUTH_CONST.__const: 0x80 sha256:fe653567fb2df6933970cc60d77e28797e5e1cc16e1c056c7c1f1b60ac2f2ff0
+-  __AUTH_CONST.__cfstring: 0x180 sha256:72db34c54ff537703376d451055f46bc738b6ac195c00ce6b838e469950fc89f
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:de7c351caaaa19853c0fcb8da9cb9ec9055ab52e99b170dcca3ef488efc8be75
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:8018cc4d94b39f2437483ca6e3d01f80cee4e51eb025a1d6864220acc32cfd1e
++  __AUTH_CONST.__const: 0x80 sha256:5787a173bc4499abef368cfbbe9412bb0b61ddee892703eccb574c6fb39e4a63
++  __AUTH_CONST.__cfstring: 0x180 sha256:d3f7ba70b0f6ab92b2b7f8dbc08774be3adcfc4412d272237fe12f0c8d972c35
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:37cc5c081cd80f55f2b09b63373c548b5397999d6917446365eded174bf6abb2
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:729276f97b06425d1990250934a055b5c77eb35055d52ec9edca238be85e820d
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DD307889-9D08-349B-B566-AF00159C41B0
++  UUID: 0E51750C-26A9-3E5A-8275-A2CA66726224
+   Functions: 13
+   Symbols:   87
+   CStrings:  58
+Functions:
+~ +[CRKCardSectionViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 f13265ab07b56611ba091d63053e50d9296d0bcc2f6f3e95e596f81f4af73032 -> 0c153af20bc73a26a3a91406a3defbcfc19f1a98383246a3d9c49f7db333b736
+~ +[CRKCardSectionViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 437ebbe850cd97a0decbd1b117bc885d36d604f91b18d05f6b468ad7b8b665fe -> 37a2bbed51b577e494de6719fd45f06165009e508ae30865152597f3ec965166
+~ +[CRKCardSectionViewControllerAccessibility _accessibilityPerformValidations:] : sha256 f732a4ba2c44f110964c8a44e36302252fde828da481471a59769a7c97d9177a -> fa91483784691377f29adb64868e03ee1b8369d827b49904ac01c11aae7fcfe9
+~ -[CRKCardSectionViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 b16718be87672212b436928131d664cec9da489c09f517f6ce5a5c2e1f39858c -> bbfb9998e69bb8cb5cb4bd8068971660bc61bb05669974aa9177893df81ed38a
+~ -[CRKCardSectionViewControllerAccessibility _setupCardSectionButtons] : sha256 26a1499bbae45cf74680608341e35769ced8d3a2e2cbc5d0efb2400b9e82d6c8 -> 553ea41d031b1166b5015c3e5984768b3607731e35383fbf0446bec6db30a2b4
+~ -[CRKCardSectionViewControllerAccessibility viewDidLayoutSubviews] : sha256 bf0f35b440f28fb4c20197a5bbbac5f482cf041568aefb3e1222a1d3420dddde -> e752a3c9fd7feaf38cae18e31a1cff5dbee68d9d9a86e2ccbd5e0c27105ca978
+~ +[AXCardKitGlue accessibilityInitializeBundle] : sha256 db61d9328910f3fe55a51a75dcbe04bf55feca334e94a29276317eb560458558 -> 0a6ba1cbfb3f001c3b32c0ef33f90971ed9fc3a68ccfd3f06e40d54355271d4b
+~ ___46+[AXCardKitGlue accessibilityInitializeBundle]_block_invoke : sha256 b69f9a694d4001fb34ebb3e9fa83bfeab15995c952d455849f1b316eaa213640 -> a491f513c3c72459a8fbc3abb787fc70dce344657c70bb17f899e2ba4afe2c77
+~ ___46+[AXCardKitGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 fff03e9c7189b4b6e221938af814d1f55c4ffdc6f034ce533e39b5d92da2f46f -> 81466f4cddd4df48727784e3117895ee5296b8c0bff4815a3f78e63843d0fb6a
+~ ___46+[AXCardKitGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 bd710418d774ea7884a53bde5815b533e8ad23be181a9ffb6b79e1ee81e9d1c8 -> 1750d5acf530d770f176543da621ca8702550513169095b47b07d843214aa335
+~ ___46+[AXCardKitGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 cfe254344c607a187ec34f37924631baefbfb6b5145f48512443fb24e63710e8 -> 8b25a2a26227857936d52fa397a362b832eb9e49aaaf17f2fa76fafe251fdfcf
+~ _accessibilityLocalizedString : sha256 c28a6a561f569897378d11b2cc6d2804eda33f318b033a8e3bf252a6d33d8f01 -> c3172717f0404926c6533b03310c892af843eadf19ed66cc0a4df50dfcd89d67
+~ +[AXCardKitGlue accessibilityInitializeBundle].cold.1 : sha256 15adca7e0fdcb246b529571047e530cee8df8dc73f2e07df73d0ef2a86845e48 -> 35183f795545786bda0136b606a7b15194ff1c4450957f3c06f3a55b11b84ae8
+
+```

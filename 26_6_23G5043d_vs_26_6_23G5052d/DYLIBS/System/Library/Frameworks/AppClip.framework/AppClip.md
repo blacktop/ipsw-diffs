@@ -1,0 +1,75 @@
+## AppClip
+
+> `/System/Library/Frameworks/AppClip.framework/AppClip`
+
+```diff
+
+ 1036.1.0.0.0
+-  __TEXT.__text: 0x634 sha256:9ce9777957a7ef67637c34b038bf6edd3ba8ac617175fdf8cf563f7f66db6e3d
+-  __TEXT.__auth_stubs: 0x130 sha256:0eab59d64eac9d33bc048c2e17d6f8abd413ac85fc302dc3f5e2ba53a03848e7
+-  __TEXT.__objc_methlist: 0xe4 sha256:6682b86ad33b36aa04aec9f6872fb7a5997aca1acb757bd49ff1bf5badbec64f
++  __TEXT.__text: 0x634 sha256:872e5ac4a3d9dab32fc313f2b0d3ac663a7e01e96577d1c38588d04236dea457
++  __TEXT.__auth_stubs: 0x130 sha256:987a9d0ae045bd51848232f479acfc10cdcce78d063814d1c11cad9565ddbed8
++  __TEXT.__objc_methlist: 0xe4 sha256:486e2debb23ad420ef01bf56aa1d4d15100bdbaf74385ff51941022cc3ee09d1
+   __TEXT.__const: 0x10 sha256:bba2287ba7332a97a5a24683b5634c152297b27a4d78c518192a1632181c55b8
+   __TEXT.__cstring: 0x70 sha256:265b6631ca2f7a616909a33a072e91e4cf0aee6563ad8602fa06374616b99dbd
+   __TEXT.__oslogstring: 0xa9 sha256:91c8eb32094b8a47a75e4af8cc68b855a7e6b98a4b42ac8be9e968681bb48f5d
+
+   __TEXT.__objc_classname: 0x48 sha256:3d2b320787ec7fe7b5468db3d003236fef2c0a9818e7b1cb6a14c3cf0b310869
+   __TEXT.__objc_methname: 0x217 sha256:e5c854d64e65aae8784a0768d3b15bb9333cc533677d59d6b6a4c1b168ba27e2
+   __TEXT.__objc_methtype: 0x83 sha256:3ba995c6f134c198fc70328f774b3a444b6287dc7e7d0490a9493969e1cd3415
+-  __TEXT.__objc_stubs: 0x180 sha256:851e3cbb15ca654923adad7c8d60e8cee6053bd46c6c79221857e5fd6c001701
+-  __DATA_CONST.__got: 0x48 sha256:b0c735bded181db7a93f3ba9db01bf35a758902796ca9b9a5150c06a938fef5b
+-  __DATA_CONST.__const: 0x30 sha256:152e3803df04f470650564ce1c8cfcea1bf660386a1fd45480619b22b3ce9a09
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:d6c4d8e6fc02370eaca5afb8f3e53504a9ab0cfacdae44cd1c344d088283655f
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:702f3d5d3d43b8383640e2edf2f1035393de02caa424bd07f97c843c51cf28bf
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:e0672fea78e175962c1c19dd28b66f4f70a2a4e600aa6053f3aecbd6e13ead60
++  __TEXT.__objc_stubs: 0x180 sha256:0bfcb699d24f2c7330981e52f5079f4fecedad1c384e001db5dc203e00d96c92
++  __DATA_CONST.__got: 0x48 sha256:1af3ed56abc24988dda1e842d2a6930fbd6bda538dc3dd7c0e2839b2e462a640
++  __DATA_CONST.__const: 0x30 sha256:850dfa24500f4523bafa0863f942494f8410b6b7af8d397f4b8b97abd57f668e
++  __DATA_CONST.__objc_classlist: 0x8 sha256:1f6fd458803d66b7d78d32d3435225ba198d6375b95b2f651207b153ec993e4e
++  __DATA_CONST.__objc_catlist: 0x8 sha256:f6eb59fd9913f2e2e062f07e21d55ef998c5d61ff0df99a8552504cc602a5f73
++  __DATA_CONST.__objc_protolist: 0x18 sha256:536579b32c1b9101a9074ec214e2853cb9f6da9f6a3c3c146f20895d6ba42571
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xb0 sha256:6191dc1517f2ad19c5fb6518ff94ef9aa0692d88545f6980321e666c38d8a081
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:d25d3b1bc773aa8b7e6b38b92d24416a65d430de6c90a8187a115db562200d3e
++  __DATA_CONST.__objc_selrefs: 0xb0 sha256:943d1d3e5ca984fde53a0250fb763a66704a72128ffcfbdb00c12c779da5f111
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:76b3fc07917936b6b7a05c0d4b4464453fd6d9ef409ff4300092101f7ec5a36d
+   __AUTH_CONST.__auth_got: 0xa0 sha256:b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4
+-  __AUTH_CONST.__cfstring: 0x60 sha256:c4070690da8c43bb93ba1f65f9b0fe6c1824f45045e6a9e54119d8b3f6989285
+-  __AUTH_CONST.__objc_const: 0x198 sha256:b8d779721346102a3adf7d065a4cced9b33986195597ca5b8d83682bbf6803cd
+-  __AUTH.__objc_data: 0x50 sha256:bb33caca4bdf93fa8228aee9b21e3af815c07ce7562c0a6a5b73b92547338e4e
++  __AUTH_CONST.__cfstring: 0x60 sha256:6381f20256cc4601fdbd2863b276690dfef4f45568925ce886e77f1720834ffe
++  __AUTH_CONST.__objc_const: 0x198 sha256:e77d96ad963be285ce77090dc808c2770aa95572df1abb358c0376ea320b8cec
++  __AUTH.__objc_data: 0x50 sha256:3a984f2348b9cc6a739bd5190838a16aa74fa8710fca25ebd703ae113d05e606
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+-  __DATA.__data: 0x120 sha256:9c146a677316b4f38ce8ce087403daf3d512a821c96a316815161b1a70ee6386
++  __DATA.__data: 0x120 sha256:ecf3b916b81605a8a58b097521466cb075ae4f894082c224f08362dae562b02a
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/ClipServices.framework/ClipServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 544BFFC7-5E3E-3397-8DB7-1B712E1986A1
++  UUID: 98014681-DCB2-3C78-A59A-8471F0E88598
+   Functions: 17
+   Symbols:   108
+   CStrings:  50
+Functions:
+~ -[APActivationPayload initWithURL:] : sha256 81020848d6c7927e666b02e305e75e24d0b424fe756f00b01fbe3a958e9cc2d3 -> f77502593e51d8cf17051c04d65bebb3248cfb866984fc75a39896035e47a480
+~ -[APActivationPayload confirmAcquiredInRegion:completionHandler:] : sha256 31140bad95b298d47b9777015451a844490a62e187c4f24191f5fbad25168b79 -> 9408ddacd33aaa1b4892442c75b97f31b2ad364d9aa7069b87dc7020de6978ae
+~ ___65-[APActivationPayload confirmAcquiredInRegion:completionHandler:]_block_invoke : sha256 b1cec6daae6692e384cd6d1c834fcfb5a73ae6719c4f5debbfeb50662aafe60f -> 0ab3a66e72abf3a15f4374123408552e39856de773a34731177686c0c61c384a
+~ -[APActivationPayload encodeWithCoder:] : sha256 57ba73aa0ca3bd0e4d01f63b3b27044a55835c9493e40866d3131413b8546cc2 -> 7b504843cd4d66a85f0fe7c075ca4b962b65ab71cee59ff26f219d5dbac7f264
+~ -[APActivationPayload initWithCoder:] : sha256 ee7d29c3c54b9fda8cda31b0efdfb5dcdc1a1b757e23ee590b20a2fa3a76b7ca -> 975f0083a45ffa7db15e0dd624770cecc484a46f9067d440915c8ba162929136
+~ -[APActivationPayload copyWithZone:] : sha256 df888e16e2eae2b95ca9b9215acc9a3361c200f9acb41ba4b177d37a83960a19 -> 59ea854b29bbaaaa04f507362a83ebe5fba5a5834a67af833cbe4b89ae7b7f80
+~ -[NSUserActivity(AppClip_Private) appClipActivationPayload] : sha256 1a62c6fff1cd091a70a3ff7cd34f46fff49ce9e7db4165e315f21982f564e107 -> 580b8b1385d5d49f55b346ca4743cdcae6820cb1f1451440ac784842237eec3f
+~ -[NSUserActivity(AppClip_Private) setAppClipActivationPayload:] : sha256 f66eec81e2ed855165d35e293212ebec7418ce87d4bc15ccb03b392e4e62835f -> 3f9c7406420222c15ae1269e64961279f266a265201da54c518b6c05d0691533
+~ _OUTLINED_FUNCTION_0 : sha256 c1d78ab2617b52542744b4e2f89274e32170d06d7da497690b4685f3b3c2e0b2 -> 2a908412627ee3213155806c9dc935a3ed13ecbf337391afbb8be7b0da97edce
+~ _OUTLINED_FUNCTION_1 : sha256 f074b889e4851ca90cf5244b13272698b8f246d5c473ce30b841fb457ca888e4 -> 9ecc663421579aa452f68c8332ac1817e2d4cc89d8fd32f46054a9750d595744
+~ _OUTLINED_FUNCTION_2 : sha256 ab45c915cbe3d0a0389aebd132d6c9ba85b078cf65bfc2a49b025ccc72a43b03 -> b4f2ceb88a716d01f0f7ef6fb41f66fffac3f241ec1e13e867028342f8d8dc12
+~ -[NSUserActivity(AppClip_Private) appClipActivationPayload].cold.1 : sha256 f5f831a9125a275d8c779fadff91f7d80b6586e1e0a85c900d78354bf1c98a87 -> 1582e1716bfc0059d126d5fe452fb784297a3b7bd78d548414b560afa5075334
+~ -[NSUserActivity(AppClip_Private) setAppClipActivationPayload:].cold.1 : sha256 c729d1659c9c021645811f50788f22a7f301523b174704eb450177fb373b9130 -> 4af384aa98a9a1dd5712a02d1e5c3545b2497fca95487afc90a667e21167fbbd
+~ -[NSUserActivity(AppClip_Private) setAppClipActivationPayload:].cold.2 : sha256 efe05c855263485b22d8cf06f9ee281dd6bfe9626d411a7b81c7e878fc676bc3 -> eb7fdb395279c5762154cd64a5df763b3a421ae112a3a035917f505cc4e27861
+
+```

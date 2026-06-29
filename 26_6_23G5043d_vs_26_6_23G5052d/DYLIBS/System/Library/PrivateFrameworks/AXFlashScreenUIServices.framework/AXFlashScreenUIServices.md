@@ -1,0 +1,72 @@
+## AXFlashScreenUIServices
+
+> `/System/Library/PrivateFrameworks/AXFlashScreenUIServices.framework/AXFlashScreenUIServices`
+
+```diff
+
+ 3191.39.0.0.0
+-  __TEXT.__text: 0x3c0 sha256:7dd3563b1e613e9e8037432671c5de066aac4e316d7a5b919a51ae4e7134e3a8
+-  __TEXT.__auth_stubs: 0x110 sha256:e1dc263c3b13ddc4bcab40dfb69f1ceadb92f1c8258ffb7b3f7ebe08a118965e
+-  __TEXT.__objc_methlist: 0x1fc sha256:831ca876775ddd1133ab1dd79d4a404ee714b4a57d8575d1ac482cbb84b9e88f
++  __TEXT.__text: 0x3c0 sha256:3a305ab096f3fef54f79655748d453dbf8c60f29b6746768481a96a815f06bb5
++  __TEXT.__auth_stubs: 0x110 sha256:2917058924890a3e887470539b7faa41786ec5b0d3cffe8686004b4c2437bc76
++  __TEXT.__objc_methlist: 0x1fc sha256:bd64ee866e113b2fd66e778ee3566e53e4eb5210aa4c4b6f321c79e7a2151928
+   __TEXT.__const: 0x48 sha256:c91fd297c6f60f1c35c88a181155a880b9d1366487fecf1eb08e12d64ac24a89
+   __TEXT.__cstring: 0x85 sha256:eebc1e28044e496a1159ff17e1c844e4a631a6063d206bc72e2a7e7fe6a722ca
+   __TEXT.__unwind_info: 0x80 sha256:13c6fa4c820ca7d587847dd796b9561cc285f1167b7503a629c600e610ac757c
+   __TEXT.__objc_classname: 0x36 sha256:df082c498068a4ce3b75029f6ea29708211941eb818bcc57909fc9b961ab6446
+   __TEXT.__objc_methname: 0x4de sha256:d0709e64bba1bdde6e84ed743f9c2587e48849bed3ab6e93df454a8864390b7d
+   __TEXT.__objc_methtype: 0x24b sha256:69df82d2ac18c81f61afb47fd906f1eb0e6ba78fb81882f580f9af1b4117bfbe
+-  __TEXT.__objc_stubs: 0x100 sha256:1fbe4745f6b159cf2f33f63a81fe27b821f333ae9e5f2e00971c33c85d3f4880
+-  __DATA_CONST.__got: 0x40 sha256:f31baf9281d596b46a24fc0fdad592619674d9491ab35a6fdb2d444feb16ffc5
+-  __DATA_CONST.__const: 0x20 sha256:2636f9baadfdbe781ebba8e1040aa12bf4e185691cd9df16cb852ff5a910cd2a
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:ffc6ae91c28f043743987d85d35dfc526713b67f519e3bb0acdb3f6f179a7cde
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:ebc79248efa0e2ba3b9015754936a5a69091ab428e9cb49c80881bc0c8df52e6
++  __TEXT.__objc_stubs: 0x100 sha256:75a03041fc60f4b9b5559ac63609fc6453e0ec68d5b838ba1156bc9b2a70b5a8
++  __DATA_CONST.__got: 0x40 sha256:94d4bf1e837c3c5f920968296896b6b5d5dec1c60def57bae46eedc86695e1f4
++  __DATA_CONST.__const: 0x20 sha256:89a8b0dc1f492175b40a169739526aa02acb9b638c3cf95631ff2ea66bee1eb8
++  __DATA_CONST.__objc_classlist: 0x8 sha256:3e760924a8d5105f836663adb07cbd79a140617f70634db20494adc46e783a5b
++  __DATA_CONST.__objc_protolist: 0x10 sha256:f89d8542192c40a6f433c1a13915257bde3f51c1c7a32ccef5b561d2e6f0591a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x158 sha256:972adc25db8ea7180931e5897aba611c590a752488e7c4bd88a0aac79a85edba
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:cac7f36a7583ebe37c5fbe65527020a03df595f0dd3df16155f1806a509d3adc
++  __DATA_CONST.__objc_selrefs: 0x158 sha256:91b7db1e08707bcd5bb1601781a6cee3c86fc058e22397969cd3af2f8a8d4598
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:0239b5a4cc20156ae9bc1b65483f6c0363b4e6fe4cd9d0aa17cd3005a0ebdeb0
+   __AUTH_CONST.__auth_got: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
+-  __AUTH_CONST.__const: 0x20 sha256:c7c27bc4a68770cb4e2e7a1e00b681482c0d1938cfad61d714f5a316f2cda993
+-  __AUTH_CONST.__cfstring: 0xa0 sha256:2dc1e07987ad57e22fceb8b34e386b8346198495cfa4902ec4b7ce4649993274
+-  __AUTH_CONST.__objc_const: 0x260 sha256:f10322f58adf09d847418d561faca5cc0a28f0097a8a9a90b612d726eaf8f420
+-  __AUTH.__objc_data: 0x50 sha256:2ba1c727a6d5383857a031bf0f4a8ff567890a03e9264ac239891ec76b6ba303
++  __AUTH_CONST.__const: 0x20 sha256:f7481133c3f8346666e97f710b7b2acc32ca8f9743c81145fdde6643c91217f7
++  __AUTH_CONST.__cfstring: 0xa0 sha256:8ced2a76090a9b38e385eed42f5e619c573894b5a32b35f62117660b3e4ff7eb
++  __AUTH_CONST.__objc_const: 0x260 sha256:ead22f3f75100a8ba97216e46887f4ecefdc7fd4003c2c1fff0f23873140728d
++  __AUTH.__objc_data: 0x50 sha256:2be42bc3a505aebd8a30609cd1c5ee5d89a2a54d4fa2d7d8fe0e5d9419703083
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+-  __DATA.__data: 0xc0 sha256:c73d0f9ff02e96886beb033418e6d8bbd9461ca7f0f85b1204671143637aec1b
++  __DATA.__data: 0xc0 sha256:fbd9c62adb926de11cd0df5059f4a220985012edf163f991501396c982e76b5a
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4BC60C80-D282-37DD-87BE-84501EC48842
++  UUID: 09A22DB9-DDD1-3E54-BA21-44945A1F92ED
+   Functions: 13
+   Symbols:   91
+   CStrings:  93
+Functions:
+~ +[AXFlashScreenUIServices sharedInstance] : sha256 af5540e4172a1984d87f1c88467c27d9ee2d1acfac21fe469c05201e081e37a5 -> 5260221659cb7c4e5bf4a9ab36061b1b1f0751f83d0f31f830000982d08d2493
+~ ___41+[AXFlashScreenUIServices sharedInstance]_block_invoke : sha256 d9e180910fba4fc115ad7c465ebb09bd48a5a51cd83441d366c27e70b1698f14 -> 6585727d345fabad23fad77db1828c3a4b8dd6a45683f04d052abbbe3d047568
+~ -[AXFlashScreenUIServices dealloc] : sha256 48ba6f8ace38e77520311751620a44da8ce180feab25063442818f757a28c3ac -> 074d70b34dab7eeaf18a5b08b7726a394656960e0688f663b0bd8cb4719e9959
+~ -[AXFlashScreenUIServices flashScreenUIClient] : sha256 b0b55c17bc469b6eeff21fcce9cae3b555a96f52ebf72ab3e38267cc8786abb3 -> 3e7a88dbf440a06d17dcc1686799560aef9d0518fc293d64491e1e3df58789fc
+~ -[AXFlashScreenUIServices show] : sha256 797c04e8864650eedb85a301389ab107e0af98ed0ac82851b16c2b1c4ca35bc6 -> 8b68203c2c1b7df313f2c6d16636f5632a24d8d906bb002d7879a27c3a1bf02e
+~ -[AXFlashScreenUIServices hide] : sha256 b72c809a96db639760866cb8fd466416e2f9999eee7315f746444f5e318781f4 -> 29a933dd72e94b9b6b7cad0d7585fc3b6791272de41504edfc1eac7d417465bc
+~ -[AXFlashScreenUIServices flashWithDuration:] : sha256 aef8078e5f4c7b0ead4205b3ea48d619ebd0256dc71ef5e37867b126cbe40862 -> 21b163fe88a4af1a7ce734fe08b6f4cb5614eca434b7c914ba34b3b1c3f03dec
+~ +[AXFlashScreenUIServices possibleRequiredEntitlementsForProcessingMessageWithIdentifier:] : sha256 50c2885c0ffa7678b85ec7d946c1c123777d8fceda2221806fde454f39cf28d7 -> 4eda85a0df7037642a4dcf15e0aa173b947f393e6fbd3ccd4db536d83ea0b7e3
+~ -[AXFlashScreenUIServices userInterfaceClient:accessQueueForProcessingMessageWithIdentifier:] : sha256 336139f38abf07a302511068f0e255ff5cd194019a799285ee2ad9a4df1c5d87 -> 41a0e7d717a6581aeb375cefc7c0e4aed2a069575a4a16274e13214a93555b93
+~ -[AXFlashScreenUIServices setFlashScreenUIClient:] : sha256 49490fa2bc2ba78720973fd0bed8d71d3c0cfac1304cb1949a09906dee7126a6 -> ac8119554a5152ab631633033fe3f6bc2c19a0c48790ffba98791c6fee24471f
+~ +[AXFlashScreenUIServices sharedInstance].cold.1 : sha256 060fa0008b421d785ae1f4bd2baf6ce7f54cbe72261ad84a00c6b696df427729 -> 12120eb89757711174a0af6ece99fb686cc8893a3bc3753457fa859b1ad93a71
+
+```

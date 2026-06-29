@@ -1,0 +1,31 @@
+## libUTF8MAC.dylib
+
+> `/usr/lib/i18n/libUTF8MAC.dylib`
+
+```diff
+
+ 115.120.2.0.0
+-  __TEXT.__text: 0xde4 sha256:e28d4f55597e9d4f9404a880ed5bf07ef2ce26e82137a2bd4ada7d4fc81148ab
+-  __TEXT.__auth_stubs: 0x50 sha256:3946da49baf84121d44fa4c47c8c324f37a24355d81c88b8a4d794b968a08421
++  __TEXT.__text: 0xde4 sha256:fa70067a2d58106705ea50e0a890b7ff208228ff0f6bd6305c61938c4013fb9a
++  __TEXT.__auth_stubs: 0x50 sha256:23eba21e64310571de44daeaef6f35eb2d50aed1e0a71ad86726be5e8da9157a
+   __TEXT.__const: 0x34d4 sha256:5f2250dfb493a27d9f05f6f75463df55edfeca95df77f1e42f7cadd79ce4c081
+   __TEXT.__cstring: 0x76 sha256:b391014ce2a051247cc39bbcec7e0ad06984f4f4d5f251ef3b08c37ea9529ed7
+   __TEXT.__unwind_info: 0x90 sha256:6a0eaa118d6b6d8ee794b8ec091ae9be89d4b34abb1d55c4430fb057e00a430a
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __AUTH_CONST.__auth_got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __AUTH.__data: 0x58 sha256:e0a7a692cffab066f050a1c408476995005846e0ccf4c02f766946806dbedc28
++  __AUTH.__data: 0x58 sha256:e973dcff82ed7411f5f823be7a857da8f2c9c9844e465195737e6f00bba4270f
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libiconv.2.dylib
+   UUID: 6403C7CD-AC1C-3EA6-8B62-D08FFF63AED1
+Functions:
+~ __citrus_UTF8MAC_stdenc_init : sha256 9c35d1ed455d289d2b64ac969603a0ae8329f45c8b45a8b7d2a6ddb34737592b -> 4169a1072c0b31ebc510894ac22ec436524de68ab3f68bcfabb15b3dd613e1e7
+~ __citrus_UTF8MAC_stdenc_getops : sha256 9b257eada6628531a97831ae98a523c233f9f108ea3df985f86d5b64c187d0c1 -> 88f661244bfec57a9742ae34ddaea9ba1946f8464144e499d9b8e23efe196854
+~ __citrus_UTF8MAC_mbrtowc_priv : sha256 db145024eda5245b330a8d77bbca1977796e0e670df1332196c46e6f384f5eb0 -> a3b947a54e004bbb24532d2ce9d03fbdaeb2874c04ac41d04de40651940d68fd
+~ __citrus_UTF8MAC_wcrtomb_priv : sha256 3aadb48b496fb3a522bf5a73aecd492db9f229b0a321891cc6a181ece439e6b1 -> 3e4b4ad4682958c93d6070f3636fb5184eba10b32c58a94289df683c4ce2304b
+~ __citrus_UTF8MAC_stdenc_mbtocsn.cold.1 : sha256 32dce7ae985833a9db9ea15f8452788fe854798991d1b6a47120d969bcaa1c2f -> 97187723cf68d54852b48f45246c23bd5f2d7d63b71a0ab7d1c79153b8bd39d8
+~ __citrus_UTF8MAC_stdenc_mbtocsn.cold.2 : sha256 6277e0bb4fe8a64785f68ee0de5eb1f84e915c7a0a1063a0e85968b17116c92d -> 1dcbe7741a1cc2a3a52d108b563b84c55df975811fd56b8dd43bf9d2b94a8926
+~ __citrus_UTF8MAC_stdenc_cstombn.cold.1 : sha256 8b10f7c87021fd4f17c27698a25f56e11f424e93b9dae51076f8bf34ea23ea7d -> 04156eea02b1d343603f3ffedcffd2402101dc2849cffd3d5a46003de1957834
+
+```

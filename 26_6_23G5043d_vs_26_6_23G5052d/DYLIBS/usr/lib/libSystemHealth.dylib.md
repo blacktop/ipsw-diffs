@@ -1,0 +1,77 @@
+## libSystemHealth.dylib
+
+> `/usr/lib/libSystemHealth.dylib`
+
+```diff
+
+ 921.160.2.0.0
+-  __TEXT.__text: 0x7c8 sha256:43338b976e84fd292adade5b1c43f52f876f890a669b29dbb7bcf8c3f3acdd0f
+-  __TEXT.__auth_stubs: 0x180 sha256:7abb6c2c6d18683b818f3c6817498632cef85d725ef8c9437e6ce479e0e88b9f
+-  __TEXT.__objc_methlist: 0xc8 sha256:444fac54589fd71ff05262f43a05eb7461a156e5ce98b97c86fa9b4f700b9db9
++  __TEXT.__text: 0x7c8 sha256:5c7a64656391d7053bb86b3276d08475d9cca5865a718b374d3e1fc3451cbf75
++  __TEXT.__auth_stubs: 0x180 sha256:0eefeab0f93f2316e0136cb5d0b274465b201dc0c00ce749f7fbab4a5dd9d53e
++  __TEXT.__objc_methlist: 0xc8 sha256:10219447b969c242f1d685cb7910628f4854cdfe1120ddbca72edc0d5b4265eb
+   __TEXT.__const: 0x60 sha256:191e87efe897ed8bf78a421936c491153c689f3cc473e906020306b344e350b2
+   __TEXT.__cstring: 0xf7 sha256:9e032c798fe64349cbc907328d29d4c793304a856ddca717a3ba15d54110f292
+   __TEXT.__oslogstring: 0x1d sha256:56a94f89c5856a336c4486323258c52b0062e60473519b91cfbd507a202b5880
+
+   __TEXT.__objc_classname: 0x40 sha256:cfa75c1f5c0c259043ff964312bc9981e1594952a9fe093307fb7ffac3f861d2
+   __TEXT.__objc_methname: 0x24e sha256:2defda21252d152da5a00a53bea4eca0f85a06a1e9d5a50bbeffc593e6b7c8e1
+   __TEXT.__objc_methtype: 0xfd sha256:f0b3612d0d9be4f95bf6aa4d20f68c1a4f83d6e85433b2e174e1cacd19c6e7ed
+-  __TEXT.__objc_stubs: 0x1a0 sha256:3022825c5b1d0d5c30367de66bb28d01acb395a2985b6ff16e600b0e4c0640d0
++  __TEXT.__objc_stubs: 0x1a0 sha256:35b967191d802c5c17997450c01891fd08676fa236008492404815460090b90f
+   __DATA_CONST.__got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __DATA_CONST.__const: 0x70 sha256:b255a0cb15d76fbe5e1cdab5783071e29648b69a426df32a77c9e42440039ddc
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:6f6554602e72c192dd64bab235dc006d45f340bb889400270f02fa7bfbf48344
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:ce7570b6337a422ebc6481f7f1285ec77b95134ecfbbb30b62d4d2090f3efee7
++  __DATA_CONST.__const: 0x70 sha256:6c248d80612cfda44eab9c7e3d726b6f07778c74f650c2444633f9d30527b535
++  __DATA_CONST.__objc_classlist: 0x10 sha256:c9951f417bae0e1d0a22562c924ce0f6e00e31e9ad310a6dc9357604430fd278
++  __DATA_CONST.__objc_protolist: 0x8 sha256:02c97bd783a5f361306a83713b1f01fa98f7cd9ad4e3db795a6d78952b63504d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xb0 sha256:12f25387f5f4dcbda84c107310da430f36cb9eb04a42f33f0e1c2a8d7d4d5f68
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:76828286ec6fef6e223e26e27af5863447d7cbc086cee3f1b3ab03cbf49c18d2
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:6f6554602e72c192dd64bab235dc006d45f340bb889400270f02fa7bfbf48344
++  __DATA_CONST.__objc_selrefs: 0xb0 sha256:f092f1965eba440aba51ea73960a7d1be7092f4205059f15ad6a506c4921dd00
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:85dc8852141008e378997848c3bdbb528f46cec0d7046e110a62a67800ef3830
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:c9951f417bae0e1d0a22562c924ce0f6e00e31e9ad310a6dc9357604430fd278
+   __AUTH_CONST.__auth_got: 0xc8 sha256:6d9c54dee5660c46886f32d80e57e9dd0ffa57ee0cd2a762b036d9c8e0c3a33a
+-  __AUTH_CONST.__const: 0x40 sha256:2617fcb8eb08ae378fb22f2e7c51a41dc20d42a378605baf1f8cf5a5bf931e23
+-  __AUTH_CONST.__cfstring: 0xe0 sha256:d7e40782b7c132278c2f97af765824076e43ade995a38d741adaeccc07253fb7
+-  __AUTH_CONST.__objc_const: 0x1c8 sha256:bbe7d2c8f4c4aca47fe47394f9b3f14f25183505cfa5cb30b9342171664a968f
+-  __AUTH.__objc_data: 0x50 sha256:a72e3742345efda304590690214a31d51da4546089ae16a92b9353329e935989
++  __AUTH_CONST.__const: 0x40 sha256:8022f98d9d318bffda87f1201229de6f2e60f99078601838755d067722a18b06
++  __AUTH_CONST.__cfstring: 0xe0 sha256:be218598d7363eae00b4497172c2b9ca264b042998d00dfb9b60ac641accf262
++  __AUTH_CONST.__objc_const: 0x1c8 sha256:f1f5a0de13bd4b874c7943d8b82a9a48103e74afe33d0b82b96a26cb45f92198
++  __AUTH.__objc_data: 0x50 sha256:b0cc03653bb7423e58587efe5fc35dae40bc41ca18319815e6cd50a978c440be
+   __DATA.__objc_ivar: 0xc sha256:f89177b6d8c7aa8759ce3ed7f76c9978a6df38c90d5ccabbb89f82d20064e539
+-  __DATA.__data: 0x60 sha256:8979dca5ada07015ab75133054a125673f97ff4eddd9b97a87c871716c1a0dff
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:f1cf58d455de47ab8a14b60dee9b4443af26c821cc276d0507f4b3e66145e13f
++  __DATA.__data: 0x60 sha256:b724dd74e3886cdc497526b1d38c14eb2d2758b1ff5151bad7f8992fbf918cad
++  __DATA_DIRTY.__objc_data: 0x50 sha256:0471263d350dd4dba785af5b6fce1d03e06f17437ba6778292372a3000aeceb7
+   __DATA_DIRTY.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A9F11358-17C5-3BA4-B348-561FFFBF6C0F
++  UUID: 672E48DD-C1A6-35E6-803D-022E97191BD9
+   Functions: 16
+   Symbols:   116
+   CStrings:  68
+Functions:
+~ -[SystemHealthManager init] : sha256 5d71d0a08770c90677dae242b33fc5420735f11597d1debbd9e237ce74dd943d -> a0a4e7303fbb1e62c4430b0ea0f1d0f300d9e3b1437f793f5951d84b3c197afd
+~ -[SystemHealthManager isSupportedIPad] : sha256 6d901878740e4036f7e9b3c0f6d1815404366eb286a86c8af8817fd9a397d0d2 -> 8c8371a545213100a13299cbfca2862cbdb5e7393e56de125ce5a4e868d6cd01
+~ -[SystemHealthManager postComponentStatusEventFor:status:withReply:] : sha256 e0263c7bba9d9a1d51c7ac78d2985587091e56c565a14257d8feae96b1657152 -> 587d47092126a249d0d5d7b88a36c2d634eb9e87115a1d7ac65408b99962faba
+~ ___68-[SystemHealthManager postComponentStatusEventFor:status:withReply:]_block_invoke : sha256 71523148fb87e0a8a9ac1feacaa38479cee13f302a4c73d9e96612286c8b9788 -> bb9f679fea6dbbd6e0d309ed0c8000bf2b4070e295347ed9a571626cf1d0f1e2
+~ ___68-[SystemHealthManager postComponentStatusEventFor:status:withReply:]_block_invoke.23 : sha256 bff076e81068dc5e28ba6c3d0f57a516fe141f95695f544acc87510c04343c42 -> 9811234c8c90267a39fd253061919466b8b2c6f6a88e789c0ab3e6d50e15dc91
+~ _handleForCategory : sha256 2517eae57b68d6695ed9d43dce2c832d906e1676a33091bedd949ffeda8233a2 -> fa022def56f1c4861631ecf167ded4b04731ce87dda52e56f6ba8705f2100dc4
+~ ___handleForCategory_block_invoke : sha256 d5cf7106d6b2ce5bf3c1794415fdfb225740301dea68ae706cefcdcff0d81a8d -> e1cfee3911172dc0b08d214a98535c85e2dcb60ed026236f5544ac164281b187
+~ -[SystemHealthClient init] : sha256 52294bdc6f6d7b7aacf28749d2a2d963149a94227a0b251f5354b236c3244a2f -> 52f283577d57e3939c131d0c86311c99d11af33a3ee7fed6d522d830eaf8e783
+~ -[SystemHealthClient initWithComponentType:] : sha256 147ed3195206fd06738fd712d284bf4ec3057dfee35a473a1e162b9b9d2c04b2 -> cd034d952fe29a444af8dc64762b7c99c1f3c100a8ed4ea24af95116b25728a9
+~ -[SystemHealthClient getComponentStatusWithError:] : sha256 dd778e6f9a66aaa74193ea49856b34c94a134b208d720db35f66d9eeb5931199 -> 9069d3d59223c841d9597a57db81f70e671af58c6084c720c2e2c0d09847b4ed
+~ ___68-[SystemHealthManager postComponentStatusEventFor:status:withReply:]_block_invoke.cold.1 : sha256 734a5c2b6ac71a48d0c80e1ecc2eeaa86e49713322cc874f12c506bd36cec237 -> caacbfe88a256fcc80b48b6e97642179bb2a5a9c471829699ae75d1788c5f8cc
+~ _handleForCategory.cold.1 : sha256 49b691aa9032d9a44285080883f68ae13b7557782a8b7c12be391dd4468271a9 -> 42e6d0c6436a49273f7424f36b43d845cd617512e668951d62b22708dd490ca3
+
+```

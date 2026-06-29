@@ -1,0 +1,188 @@
+## SceneKit
+
+> `/System/Library/Frameworks/SceneKit.framework/SceneKit`
+
+```diff
+
+-608.500.0.0.0
+-  __TEXT.__text: 0x35b83c sha256:87a061895638eaf1b077c694d919c8053e4871e51459206cf1a75414b0e8099a
+-  __TEXT.__auth_stubs: 0x2f00 sha256:613936509faa7314417bd9d4778eb32fa6f02964f4fbb0eca38370deb7fe2bdd
+-  __TEXT.__objc_methlist: 0x17934 sha256:4db1acf43434e9b84eb96c7914fced5e80a84a56d6cfdbe8a2108ee7d71a3a34
+-  __TEXT.__const: 0x26238 sha256:45922436290978625d6b01ecb1f79d862ec0ee122998a3c8b8c8b47f8f82e97c
+-  __TEXT.__oslogstring: 0x16791 sha256:4b53f6fa62153a67a39f2b5045dc5f499f00414fffa3da18f6ec2394918d650d
+-  __TEXT.__cstring: 0x97904 sha256:8044a10a377b79db3fae06d179e8a5b2563bb30e1874900f23ca1b2acee1923f
+-  __TEXT.__gcc_except_tab: 0x42ac sha256:e7a8b8200474ac56bceec42dc8b40d3e7e5534f4e60c93008f1cb810148d73e2
++608.600.0.0.0
++  __TEXT.__text: 0x359c38 sha256:4201f4a7f636321209bc572bf5d1b3150689b7a197b18c60d606f0047387f746
++  __TEXT.__auth_stubs: 0x2f00 sha256:04032d3bdb94f156d77c2827e472a268c05564bbd69718a46627e0ed89805746
++  __TEXT.__objc_methlist: 0x1785c sha256:950fe4a96057f613e93e45f2fd35abaefa1219a776975047420d133fdc94bfdd
++  __TEXT.__const: 0x26238 sha256:c19e088fcc36962f88aa3c14fb2a104fba88b61f9b6c4402954c68428af798b2
++  __TEXT.__oslogstring: 0x16725 sha256:de8fbe6ad8d3c1f33c2aec61e35bde4b8fc441a355e876866d052d1c8128c649
++  __TEXT.__cstring: 0x9782d sha256:29a5bb4ed908a25b14f8dacaefdd4ff77dcb7318df62b26146a468c7aec220fa
++  __TEXT.__gcc_except_tab: 0x41a8 sha256:7a71d8233d8286f8d297b6e9a8a6059a33f856f68c3d0a1e4cd0cc8b53e309a5
+   __TEXT.__dlopen_cstrs: 0x45 sha256:e12bec5fbbf416960a3d03c5ec94f51f5f609fcea62db222116c4ef7f14d99a5
+   __TEXT.__ustring: 0x2e sha256:46738d38dd7191eb2954d61938f28731b666e7a4d557e17eec5007e7f5832d4d
+-  __TEXT.__unwind_info: 0xb0f0 sha256:bba2cece32838912ca342567383e635b4ce1f37e4600a859c4a3e496145c7096
+-  __TEXT.__objc_classname: 0x1d04 sha256:ebfbb41e34df3ab018ab77311b1a2d9c57bb584f55ef9518d9b9118c0e7e1151
+-  __TEXT.__objc_methname: 0x248ed sha256:f6bd7a6bf79d3fba9cdc1e4bb6cc4455f8709adee6e52b44b6e36210f50b60eb
+-  __TEXT.__objc_methtype: 0x121fe sha256:710c11042af6581ebaea8fb834c8a236d944b4ae4d00923eba91e127ecbddb23
+-  __TEXT.__objc_stubs: 0x1d5e0 sha256:579298d1718ebb937626d0de74e92f82af57471094da6ff94ff976e81ed44748
+-  __DATA_CONST.__got: 0xbf0 sha256:b520c4b66e0780948a1df37b5ce3eeb15cb5143be73c15ad865c0b14ac63fd52
+-  __DATA_CONST.__const: 0x7b38 sha256:827cfaa57d2244a8c99f9dcc18b6b3fa4c516efbee38aec46263de03a2b49373
+-  __DATA_CONST.__objc_classlist: 0x6e0 sha256:c52aadf08269a3ff8c53965a950903204254fdec6bb3de44d612ee94e2776a8a
+-  __DATA_CONST.__objc_catlist: 0xa0 sha256:d21cbc00834a2b27469c29cad8571414559ee880bb1c3d7dd4d71a55b511737c
+-  __DATA_CONST.__objc_protolist: 0x338 sha256:cfb5c819a33660ce20e4ed5ac4caab2d1d7e219917012f8d3b7eea3b1f80109a
++  __TEXT.__unwind_info: 0xb0a0 sha256:24b9eb889a2780a0f1903870a5a0fd40a59d32424157b003ece2f23812cbba00
++  __TEXT.__objc_classname: 0x1c6f sha256:d08d90293b7dfc836ec9c2dcd47a1a7195d39b6108b409a68837357031214fb5
++  __TEXT.__objc_methname: 0x2485f sha256:c0fada1570273e4eb90fa252af3d273a036b9e340c70d8847634d9f71c8fa5e6
++  __TEXT.__objc_methtype: 0x121fe sha256:443d85ca4935b709223b388d5d5a2e105a06b6c310a8b559df3dcba8e8fc4484
++  __TEXT.__objc_stubs: 0x1d5e0 sha256:d3a7ebee4ea0ce9ec80de78475eae15605b149454f488bba230db24aca0371bd
++  __DATA_CONST.__got: 0xbf0 sha256:bf9211b1fa4e914e78d2576b3c6b4c757c6a09039c58961f285b2229ef16403c
++  __DATA_CONST.__const: 0x7a98 sha256:abc292c64c056dde7eaebf9f5005e7cc56a4d998b2db3033b1f77d0643a68448
++  __DATA_CONST.__objc_classlist: 0x6c8 sha256:75df8c53360283eb317b9b12b3a8b20df822f6e0bd51e390b88da9f76ea874aa
++  __DATA_CONST.__objc_catlist: 0xa0 sha256:5af404732e2608ce1e891c419a0460ac9800b88046a60c9ae84a9f7ed35cdcba
++  __DATA_CONST.__objc_protolist: 0x338 sha256:9a51fa648c8c89ab4d07e3c3d9de426afbcf5210372774059c92f319d1e56389
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x9758 sha256:53d176f5501a5ba31a302a41756bb0925281f931b007eb11ea2049477de3b9c5
+-  __DATA_CONST.__objc_protorefs: 0x228 sha256:09af085d3d9ca9722c37b603eb8accec498c25e566cf7b4d44ca2b59e4254054
+-  __DATA_CONST.__objc_superrefs: 0x600 sha256:63c55e3822522361ddfe02e76c5dfd8d5fe4477040683d77067a397e14dd9bde
+-  __DATA_CONST.__objc_arraydata: 0x270 sha256:03e7768438f62a0c03b396f367257ec4af39c91147717ad2b606afd39b277e82
+-  __AUTH_CONST.__auth_got: 0x1798 sha256:63aec6dfc67b604ee29796e76da162b4703391b070023611855c09b7ecc176b3
+-  __AUTH_CONST.__const: 0x9410 sha256:c6d54e2cd1b0483d49d298ca73fde9c5e9dea9a6d02884cc39c1c0c5d43246ef
+-  __AUTH_CONST.__cfstring: 0x20d20 sha256:5eeeb54c33d144d5d28f72decef383288c73da8a6e507d204fd4e8c457e88ce6
+-  __AUTH_CONST.__objc_const: 0x23440 sha256:247b056f94e732f09eabc539241ed33147263cd59b7d8490828a38d14fdfb015
+-  __AUTH_CONST.__objc_intobj: 0x558 sha256:8a2bd9b3442172a532f045e2b071a5599bf0b5b51ef7d7faa2198901c95cff4c
+-  __AUTH_CONST.__objc_arrayobj: 0xa8 sha256:442b829a44dc6e6ea0178650860c29383cd44b79ca8b95639760931755357c7c
+-  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:09e68479b2bc1a17b8fc5053e18471d3746b36c25e76bf0d7521c2a2615b59b3
+-  __AUTH_CONST.__objc_dictobj: 0xf0 sha256:3706f83b6cb10a37be52668309297735f2ca3f520b245796ca116d96b82c4b0b
+-  __AUTH_CONST.__objc_floatobj: 0x10 sha256:373e18b320e6bda054f910e501a910658281a2b79947994baabd2c5cd6835e62
+-  __AUTH.__objc_data: 0x4290 sha256:8c8a6ee3ec1990d0dfce29d503823cdff49723154ddbd210828d917e96bcec9a
+-  __AUTH.__data: 0x4d90 sha256:b2d330d3c2deaef096415b6e9ebd65f0a01961102afd7b46f7c5191617ebc64a
+-  __DATA.__objc_ivar: 0x1c94 sha256:7cbd4923d618367b675ac3c5da3104f0a1b9089e3e874b2ebe1317e394087d3e
+-  __DATA.__data: 0x293c sha256:44f97d6d7efa15243d37782e75fdf340551747e45ed3d9837c43b0ec6601c3be
++  __DATA_CONST.__objc_selrefs: 0x9758 sha256:a9f97838db19dbb2489178a1b9619a4465a5825a536a2c596c09e35de95ede67
++  __DATA_CONST.__objc_protorefs: 0x228 sha256:cf740202a9a1ef3ec8706a1bfd011481c9f17888aaa993aeec456f62d3b579d2
++  __DATA_CONST.__objc_superrefs: 0x5e8 sha256:2e7fc557f3cef86e7059741173d24f7a27b2f1a380447de22f08b747c29ec06d
++  __DATA_CONST.__objc_arraydata: 0x270 sha256:8a6f2bfb00e7029d55d280e23c9d4fd48e1f9c088510e49c9da4357947b696c5
++  __AUTH_CONST.__auth_got: 0x1798 sha256:353100c435b7721ea60baa4dc6ea77e6d173694ba728a2ec00325c496f22cf57
++  __AUTH_CONST.__const: 0x9410 sha256:f3f7ddd75ee3723f28609b357ffa28870f43e00895a048c258e3306de2a81b88
++  __AUTH_CONST.__cfstring: 0x20ca0 sha256:12bf9acb7606a02b50352c4f781ced95653b959a224ba192569c32bd1e0df87d
++  __AUTH_CONST.__objc_const: 0x23060 sha256:a8f442411af31be27ad51be61970cdb780546690a5f51ac14d98d58d917e7eb5
++  __AUTH_CONST.__objc_intobj: 0x558 sha256:a43c6c85376f2165f33ff68ff8ac66171e7e6e4a328d18356de42b82228d78ad
++  __AUTH_CONST.__objc_arrayobj: 0xa8 sha256:f1293b9ca51c50a3bbb3f48582e889a830d91e87051a8f56cc88904604de2c15
++  __AUTH_CONST.__objc_doubleobj: 0x20 sha256:114fa7738aa92587b4f1f0ed356ccad91407d2edd32e459a3473d2ccc4430ec6
++  __AUTH_CONST.__objc_dictobj: 0xf0 sha256:5a985bda124b71ead4b43b9e40246f431e60eea2d93b5b567211eff352afc348
++  __AUTH_CONST.__objc_floatobj: 0x10 sha256:2f2f2ae407c7db65ee383a2c4dbab7cc3b89d7036ac101d07dfcab1853516d39
++  __AUTH.__objc_data: 0x41a0 sha256:051c6dd85de1dd0c13ce7e968129cc5888085ac57ecb7e36ec9667f9c15c59b7
++  __AUTH.__data: 0x4d90 sha256:bb389888d57eeb5aff6f7101fe9496133aacafdc2fda7f063ec8b58b6581928a
++  __DATA.__objc_ivar: 0x1c5c sha256:a96582e8851d9bce377deef63b8a391bf4e8dd6f2dfce3dadd6bfd526a5b1610
++  __DATA.__data: 0x293c sha256:0acd24653609ed457bf648ac871025e35ac297f10495729e399febe4aca0b568
+   __DATA.__bss: 0x2ec8 sha256:738edab154500850fa77e13e23e3798d3b1605953a7f189af5f44c42cea0b027
+   __DATA.__common: 0x1d1 sha256:4c555a3d8b83f80c2e0d0b647769e82148ebe7e27811d0a63277d6f61abafbbc
+-  __DATA_DIRTY.__objc_data: 0x230 sha256:ce2e9579f5a9f5e5ee32e7084557e6c6c5a05051b57f3e71514b1de1faf865d9
++  __DATA_DIRTY.__objc_data: 0x230 sha256:9c78cf2e0cc18c53d1752ae46cf6c9ffd4cacd34db3c1e89180071fcbdb954bb
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: E9F29158-ACBC-3A24-B445-538F06876235
+-  Functions: 19623
+-  Symbols:   58810
+-  CStrings:  20409
++  UUID: 1B93D842-BB66-38A7-A402-4D7932B1484F
++  Functions: 19597
++  Symbols:   58705
++  CStrings:  20389
+ 
+Symbols:
+- +[SCNGeometryVariableTopologySampleDeformer supportsSecureCoding]
+- -[SCNGeometryVariableTopologySampleDeformer dealloc]
+- -[SCNGeometryVariableTopologySampleDeformer deformedMeshReliesOnTransforms]
+- -[SCNGeometryVariableTopologySampleDeformer encodeWithCoder:]
+- -[SCNGeometryVariableTopologySampleDeformer initWithCoder:]
+- -[SCNGeometryVariableTopologySampleDeformer init]
+- -[SCNGeometryVariableTopologySampleDeformer newDeformerInstanceForNode:outputs:computeVertexCount:context:]
+- -[SCNGeometryVariableTopologySampleDeformer requiredInputs]
+- -[SCNGeometryVariableTopologySampleDeformer requiredOutputs]
+- -[SCNGeometryVariableTopologySampleDeformer supportedOutputs]
+- -[SCNGeometryVariableTopologySampleDeformerInstance dealloc]
+- -[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:]
+- -[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:].cold.1
+- -[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:].cold.2
+- -[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:].cold.3
+- -[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:].cold.4
+- -[SCNGeometryVariableTopologySampleDeformerInstance meshForDeformedTopology]
+- -[SCNGeometryVariableTopologySampleDeformerInstance updateWithContext:]
+- -[SCNGeometryVariableTopologySampleDeformerMeshElementData dealloc]
+- _C3DSourceAccessorGetPlatformLength
+- _OBJC_CLASS_$_SCNGeometryVariableTopologySampleDeformer
+- _OBJC_CLASS_$_SCNGeometryVariableTopologySampleDeformerInstance
+- _OBJC_CLASS_$_SCNGeometryVariableTopologySampleDeformerMeshElementData
+- _OBJC_IVAR_$_SCNGeometryVariableTopologySampleDeformerInstance._deformedMesh
+- _OBJC_IVAR_$_SCNGeometryVariableTopologySampleDeformerInstance._deformedPrimitiveCountBuffer
+- _OBJC_IVAR_$_SCNGeometryVariableTopologySampleDeformerInstance._drawIndexedPrimitivesIndirectBuffer
+- _OBJC_IVAR_$_SCNGeometryVariableTopologySampleDeformerInstance._finalizeComputePipeline
+- _OBJC_IVAR_$_SCNGeometryVariableTopologySampleDeformerInstance._meshElementData
+- _OBJC_IVAR_$_SCNGeometryVariableTopologySampleDeformerInstance._mode
+- _OBJC_IVAR_$_SCNGeometryVariableTopologySampleDeformerInstance._positionBuffer
+- _OBJC_IVAR_$_SCNGeometryVariableTopologySampleDeformerMeshElementData._computePipeline
+- _OBJC_IVAR_$_SCNGeometryVariableTopologySampleDeformerMeshElementData._deformedIndexBuffer
+- _OBJC_IVAR_$_SCNGeometryVariableTopologySampleDeformerMeshElementData._deformedPrimitiveCountBufferOffset
+- _OBJC_IVAR_$_SCNGeometryVariableTopologySampleDeformerMeshElementData._drawIndexedPrimitivesIndirectBufferOffset
+- _OBJC_IVAR_$_SCNGeometryVariableTopologySampleDeformerMeshElementData._originalIndexBuffer
+- _OBJC_IVAR_$_SCNGeometryVariableTopologySampleDeformerMeshElementData._originalPrimitiveCount
+- _OBJC_IVAR_$_SCNGeometryVariableTopologySampleDeformerMeshElementData._subdividedVertexStartIndex
+- _OBJC_METACLASS_$_SCNGeometryVariableTopologySampleDeformer
+- _OBJC_METACLASS_$_SCNGeometryVariableTopologySampleDeformerInstance
+- _OBJC_METACLASS_$_SCNGeometryVariableTopologySampleDeformerMeshElementData
+- __OBJC_$_CLASS_METHODS_SCNGeometryVariableTopologySampleDeformer
+- __OBJC_$_INSTANCE_METHODS_SCNGeometryVariableTopologySampleDeformer
+- __OBJC_$_INSTANCE_METHODS_SCNGeometryVariableTopologySampleDeformerInstance
+- __OBJC_$_INSTANCE_METHODS_SCNGeometryVariableTopologySampleDeformerMeshElementData
+- __OBJC_$_INSTANCE_VARIABLES_SCNGeometryVariableTopologySampleDeformerInstance
+- __OBJC_$_INSTANCE_VARIABLES_SCNGeometryVariableTopologySampleDeformerMeshElementData
+- __OBJC_$_PROP_LIST_SCNGeometryVariableTopologySampleDeformerInstance
+- __OBJC_CLASS_PROTOCOLS_$_SCNGeometryVariableTopologySampleDeformerInstance
+- __OBJC_CLASS_RO_$_SCNGeometryVariableTopologySampleDeformer
+- __OBJC_CLASS_RO_$_SCNGeometryVariableTopologySampleDeformerInstance
+- __OBJC_CLASS_RO_$_SCNGeometryVariableTopologySampleDeformerMeshElementData
+- __OBJC_METACLASS_RO_$_SCNGeometryVariableTopologySampleDeformer
+- __OBJC_METACLASS_RO_$_SCNGeometryVariableTopologySampleDeformerInstance
+- __OBJC_METACLASS_RO_$_SCNGeometryVariableTopologySampleDeformerMeshElementData
+- ___110-[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:]_block_invoke
+- ___110-[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:]_block_invoke.55
+- ___110-[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:]_block_invoke.55.cold.1
+- ___110-[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:]_block_invoke.55.cold.2
+- ___110-[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:]_block_invoke.56
+- ___110-[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:]_block_invoke.59
+- ___110-[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:]_block_invoke.cold.1
+- ___110-[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:]_block_invoke_2
+- ___110-[SCNGeometryVariableTopologySampleDeformerInstance initWithNode:deformer:outputs:computeVertexCount:context:]_block_invoke_3
+- ___block_descriptor_113_e8_32o40o48o56o64o72r80r88r_e201_v32?0^{__C3DMeshSource={__C3DGenericSource={__C3DEntity={__CFRuntimeBase=QAQ}^v^{__CFString}^{__CFString}^{__CFDictionary}^{__C3DScene}q}^{__C3DSourceAccessor}(?=^{__CFData}^v^v)qb1b1b1}SCC}8c16q20C28lr72l8r80l8s32l8s40l8s48l8s56l8r88l8s64l8
+- ___block_descriptor_48_e8_32o40r_e73_v32?0"SCNGeometryVariableTopologySampleDeformerMeshElementData"8Q16^B24lr40l8s32l8
+- ___block_descriptor_56_e8_32r40r_e201_v32?0^{__C3DMeshSource={__C3DGenericSource={__C3DEntity={__CFRuntimeBase=QAQ}^v^{__CFString}^{__CFString}^{__CFDictionary}^{__C3DScene}q}^{__C3DSourceAccessor}(?=^{__CFData}^v^v)qb1b1b1}SCC}8c16q20C28lr32l8r40l8
+- ___block_descriptor_80_e8_32r40r_e19_v32?0I8^I12I20^B24lr32l8r40l8
+CStrings:
++ "Welcome to SceneKit 608.600 (Jun 21 2026 19:26:09)"
+- "Assertion '%s' failed. Variable topology sample expects triangles"
+- "SCNGeometryVariableTopologySampleDeformer"
+- "SCNGeometryVariableTopologySampleDeformerInstance"
+- "SCNGeometryVariableTopologySampleDeformerMeshElementData"
+- "UInt%d-UInt%d"
+- "Unreachable code: Unsupported semantic %@"
+- "Variable topology sample deformer"
+- "Welcome to SceneKit 608.500 (Jun  2 2026 00:15:55)"
+- "_deformedIndexBuffer"
+- "_deformedMesh"
+- "_deformedPrimitiveCountBuffer"
+- "_deformedPrimitiveCountBufferOffset"
+- "_finalizeComputePipeline"
+- "_positionBuffer"
+- "deformer_variabletopologysample_any_order"
+- "deformer_variabletopologysample_any_order_finalize"
+- "v32@?0@\"SCNGeometryVariableTopologySampleDeformerMeshElementData\"8Q16^B24"
+
+```

@@ -1,0 +1,66 @@
+## AttributionWeeApp
+
+> `/System/Library/AccessibilityBundles/AttributionWeeApp.axbundle/AttributionWeeApp`
+
+```diff
+
+-3005.29.0.0.0
+-  __TEXT.__text: 0x2c8 sha256:7bf87430c5e89c3f6b2752851efa98afc1ebd5e3aa7e5533afb70ae7574743c4
+-  __TEXT.__auth_stubs: 0xb0 sha256:6ee3764855a4f9c6f42a28f30843292464d0cc876766c0b16c81015ad7d3e791
+-  __TEXT.__objc_methlist: 0xac sha256:51764227c05691162642b7edb6fd765305eb779751de9f8fc42297c076da9871
++3005.30.0.0.0
++  __TEXT.__text: 0x2c8 sha256:1d3107909aa186f7b32c0aa90efc0f469196b0e927b5bec25d65a0c554e373bb
++  __TEXT.__auth_stubs: 0xb0 sha256:cf974ffcad443c5956a6d282e4bf48505ce3083c2d54f5a0ef0191b8e34e1e70
++  __TEXT.__objc_methlist: 0xac sha256:7644bf25345866be3784b2da38e09629544fbd7c6af6379ebde66859e9d1fa11
+   __TEXT.__cstring: 0x120 sha256:0240a3fc4f17bc48ccaa5a5fe8fa6b8c6f91ad80e25b49fdb277dcaac6461293
+   __TEXT.__unwind_info: 0x80 sha256:69d3bfa3be52e92ca559e46132e79a54f3fbd50a63f4107bb323d6feb527a1d1
+   __TEXT.__objc_classname: 0xe5 sha256:d25931b2b8d635403f29404a76fb0ac00b85190bd554486089457e11cb08b24c
+   __TEXT.__objc_methname: 0x1e6 sha256:208b4c16bf43351f61c7f457ae2bc952678ceb0e3386f7a36311c5a58f8ec977
+   __TEXT.__objc_methtype: 0x23 sha256:4eac88e50f25f0d12c0af0a12ede3e45656199e676f98f783b1eb3bbbf41b8e8
+-  __TEXT.__objc_stubs: 0x120 sha256:c491751574330f4fffc54ecf8d1c208eba0e26d541b4893c8d16f0a8c43054fc
+-  __DATA_CONST.__got: 0x18 sha256:636e88fe24fecbf42975522d3750bcf40342ced49df56897dda4500398aa5489
+-  __DATA_CONST.__const: 0x40 sha256:49d1ecca788052077b1a2a9e70c39495543cf96fd5999d605ac497748d23d38e
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:017886f67f58bde92a9d2c219a1d6b49b6604072383ae4c7714bab5c17dca80d
++  __TEXT.__objc_stubs: 0x120 sha256:3179138e1c2afedd247cb4f6e0d5cc300d545ef8902489eff7a79783a22dfc3b
++  __DATA_CONST.__got: 0x18 sha256:a321cbd5e76a41e7bcc7f09adfda2acc34da6a0f1f5cbf65946bc04b79e5a1b2
++  __DATA_CONST.__const: 0x40 sha256:e506bf87b48ea448e7210900d1133149b411257c2ed16e91e3bae76a0c2bbe1f
++  __DATA_CONST.__objc_classlist: 0x28 sha256:ae9d5d8d0c033bda5ee0429e299ee34a2713c2ca208d496cf7a0449d38b0e913
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x80 sha256:78173e425366e3c8b2e2abfc5964f26809d3373d7371349302707075e96ee145
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:14deb1b1092e1af7ff03aa243ffce3e7a1f69eff9839a068b3256f3167acf1f9
++  __DATA_CONST.__objc_selrefs: 0x80 sha256:0167484550b6aaa9c5b8c24dd6bc80ba7b487cb5deba3b6a268e55dc19460d97
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:e8a230dbb6e1858e309c51c040d97931c6dcb51729b113d3e0ba671995c0945d
+   __AUTH_CONST.__auth_got: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+-  __AUTH_CONST.__const: 0x60 sha256:14dc21108cc2c9fc293b153fa48b01b09a6ddb789c7853fb9640a8ffeef60f2d
+-  __AUTH_CONST.__cfstring: 0x100 sha256:a6b5d942aba86bdd55c99f89360c6fa08ed2cc8d0caa30eebe9338cebf175167
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:93df407bf2e2c7072d2ad2134eaa7017a8295beb32527e4cf124f8e8d3913c88
+-  __AUTH.__objc_data: 0x190 sha256:5d9c6e33d0b0d4d1682d7e4e4035b386caee0cd7318992b7fb20fffa1bcb3341
++  __AUTH_CONST.__const: 0x60 sha256:eda3ddfc110365b8f0b0983abbac65e024199eb6c636c89c65009165b1d37c97
++  __AUTH_CONST.__cfstring: 0x100 sha256:78eb83cb888c5f60c05cc022419b669c9e061d76b024e243bc4ae352fa17ee2f
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:ffe103b58a3f76c63b09d0acddc77371133298f54da2005db3696d545907e9c1
++  __AUTH.__objc_data: 0x190 sha256:e9a21fdf1f10be6f24f008d8aed3c65151744eee21ad86b09411cd1d1a3f1dc7
+   __DATA.__common: 0x9 sha256:3e7077fd2f66d689e0cee6a7cf5b37bf2dca7c979af356d0a31cbc5c85605c7d
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 88DE37F6-FA74-3155-8CD3-369D87949C07
++  UUID: F5EB2430-486A-3AF7-92B0-9D46BF25E115
+   Functions: 13
+   Symbols:   87
+   CStrings:  45
+Functions:
+~ +[AttributionWeeAppControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 d637dffe0c492b5f825b473166111ac0b2c2731639d9cd2534f2bb379c67dd0c -> f68dd01331fd802bb5d9903f7bad0e618350e2669afb52bb4e7df21b90071b2e
+~ +[AttributionWeeAppControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 a68576a3399003320c7d670c4d75a1140e9d4d64c6d9e577873ca064ba36b6d4 -> f70a571ae0cb2e9db1d6b1a8e0adf064fcf17122c6cf51a0cfef58554d09e859
+~ +[AttributionWeeAppControllerAccessibility _accessibilityPerformValidations:] : sha256 41c505106eb2de6c174009779a6d0d42aba53f6c34412e2ee77bd5e8137484a3 -> b11bb028bd942ada96f6bf6860d72cb802d2cce97d0a60afdbf99a7cfc5b263d
+~ -[AttributionWeeAppControllerAccessibility _stocksAttributionAttributionString] : sha256 44f9d9787cce8dad612e657e37f50c84c47166c60fd030013a027c19c943a4e6 -> 9b72122c62e319c9a0e2ee43cb8db9a637d8191b12db377f2e5e3dbc8ab14446
+~ +[AttributionWeeAppNSTextAttachmentAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 b8f69b64866fbbb4a66506412a1e2859a31d82246555eb174c62b0a017f8f329 -> 4fbd46e4b598531eb28b132b19ede66a35457e3db3f05e623415ae439bd7a8d7
+~ +[AttributionWeeAppNSTextAttachmentAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 d6c7a0d0fe7365fca6b2d40e9e0062840b40a24877aedbe9ad8994a1d924f331 -> ba6b71faafcf3c69aa6a07693857d17a58509d916946a56d93a1bc16530bd31a
+~ -[AttributionWeeAppNSTextAttachmentAccessibility setImage:] : sha256 f7d3457b9386b026e8afe55f826fa7937a6d4153223ded604e29207d2a63b56b -> 9e8f8bce678f33129194c9248641d43d6b7d7045d8c5093f4227f5ae0d23f30c
+~ +[AXAttributionWeeAppGlue accessibilityInitializeBundle] : sha256 fe4114544036964256b4de910095d7c1dba73ab3aec10e031db7a84bd651441e -> 6a7506a08edbd0ff91d26c7faa759ebdf9497c911563d6ed1becd320afa2cf52
+~ ___56+[AXAttributionWeeAppGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 73e90c62528e62c8ee009b25b21fe85784a1e56b89282df0310595fb409ebaab -> 10aba3df279418dd3efcb473b664fdcba378666642e4bdf9d51f9ea3373d670b
+~ ___56+[AXAttributionWeeAppGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 b612c1e172e2049b4c36cdff916dca28e002c220ee623cd6e5895fcc7873c318 -> eaa47c3a0cce0623c3ea65948056addd85b5fc30a8ae45729ba939f0a81de089
+
+```

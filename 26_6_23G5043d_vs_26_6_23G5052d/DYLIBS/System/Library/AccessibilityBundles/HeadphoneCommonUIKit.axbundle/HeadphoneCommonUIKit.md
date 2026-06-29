@@ -1,0 +1,77 @@
+## HeadphoneCommonUIKit
+
+> `/System/Library/AccessibilityBundles/HeadphoneCommonUIKit.axbundle/HeadphoneCommonUIKit`
+
+```diff
+
+-3005.29.0.0.0
+-  __TEXT.__text: 0xa40 sha256:cab213f5358b722a1b7ffbedb9aa6983e6587de8276a773a51054bdb5f21c89f
+-  __TEXT.__auth_stubs: 0x170 sha256:59f5eeee2bd63a111d85ee7225daac3cb6a2449e04d19de66bc8721524377293
+-  __TEXT.__objc_methlist: 0x10c sha256:b0b3a5047317f4c6d37df89026b32da7f5975884ae798360ed4f82542281a4f7
++3005.30.0.0.0
++  __TEXT.__text: 0xa40 sha256:50e2ad0d0e54bb1e53af61023938213a05d05f98344d65f42bf54b878cd56e78
++  __TEXT.__auth_stubs: 0x170 sha256:c2cb8cc2f8922a5a6acce24bad22cdcaa18d5a0381c079c7836eb48bda028d26
++  __TEXT.__objc_methlist: 0x10c sha256:c430cc2e5219dc2ac3599dbe05a1313c8a218a97691e45da3c0835910edbea52
+   __TEXT.__cstring: 0x208 sha256:017bfd0f162ddda2dfe8e3ac2ce57ed11d505d85965dc24fbd0bb0235cc78d4f
+   __TEXT.__const: 0x8 sha256:cb529eddce2ef8826d77d57b8acb0f1b648ed6a4b1b5358696939aab6ee2b17c
+   __TEXT.__unwind_info: 0x98 sha256:56c03a483af526c66ec88d32f0df4ceb216e98945c189ee50dd718683f1317b3
+   __TEXT.__objc_classname: 0xc6 sha256:823e54444cb369e9857254fadf432546d5cedbe8b760d2037c58a97d451c482c
+   __TEXT.__objc_methname: 0x2f2 sha256:8908f3734586603d334cffb808e1aee305eec093d0bf762f21c424e4fe2cf307
+   __TEXT.__objc_methtype: 0x5d sha256:87c8fad2a6f0c707ed4ac9b93de49db4cbc47524a5230c5133d8083748548f48
+-  __TEXT.__objc_stubs: 0x2a0 sha256:8b3125e38d7b42efaeb1aa80357aa14d7b87980275f61f36e39440a3d57b173a
+-  __DATA_CONST.__got: 0x38 sha256:fe1b3907cd66304923eeb6444244a828ca0bdbfd8ffaa44eb3c448b383253cbf
+-  __DATA_CONST.__const: 0x40 sha256:6fdfff16a6a88ece94cc3b76771bcdbc950802425a62206a686f607d7c081976
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:01ce9f5a88bea7e6b4d8c64bcce18accf72a811a89f63e14f42cbae7c62c674e
++  __TEXT.__objc_stubs: 0x2a0 sha256:bce90fef3dcb3b4ef8a8db420c58ffd49307e7752d0f01d56a278e5194a91e7b
++  __DATA_CONST.__got: 0x38 sha256:9d12a8d1399e7cb95f832b0c686806fd4158044245595af8adf383bb421553c0
++  __DATA_CONST.__const: 0x40 sha256:b1612b5f221bad93de226a842e61979353911a33c03e0f39ca40d28a6116515e
++  __DATA_CONST.__objc_classlist: 0x28 sha256:7743a0c533474c368fac156966298999cb93c79fb12f27b94b5047f917b53483
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xe8 sha256:440dc872d8a869e00298c8cb52e1646877cc0eb74e5ab46ce554cd1e4340ddc7
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:1becf6965ee8b1f5d3d9f387a3a52a16864ca8f0428558fb7f5320e62e90660c
++  __DATA_CONST.__objc_selrefs: 0xe8 sha256:e5496b3d8dcbfbbc9b980358c07ac350a74a7e3a2439f36e167c5daf509e67bb
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:e0be76f4c9b4b5e22ccd3cfbadf0f3360722acfe48c710887e4a4f228eb75e69
+   __AUTH_CONST.__auth_got: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+-  __AUTH_CONST.__const: 0x60 sha256:a549eb66d95bb32016c898a113575c8baa4691d8bb1e4d3c67eb18ebe94364b0
+-  __AUTH_CONST.__cfstring: 0x280 sha256:0544ee96c69c7e314410a5fe750391b3e85c20e7803e96f3ee77d6b626329229
+-  __AUTH_CONST.__objc_const: 0x2d0 sha256:43d5ebf5809668619c5a2c98deaaa2e21548e76ab0da471192b8d519b3fdc5c7
+-  __AUTH.__objc_data: 0x190 sha256:7a7ac27b93a6a24c902ec6dac508f49eba00e21cfc321ddde569721b15776272
++  __AUTH_CONST.__const: 0x60 sha256:445b330e60adcea4c1c96aa5c2d886be01b44d08e6756510d36322120885a598
++  __AUTH_CONST.__cfstring: 0x280 sha256:f9478480df0308627ef35ca290ccdac556a3f05d897d202bc39fa1b8f7ea449c
++  __AUTH_CONST.__objc_const: 0x2d0 sha256:a42623258f83ee8e3f026a1c8e3a74767251bf85b3716fd9c264c32e6a25113f
++  __AUTH.__objc_data: 0x190 sha256:d46da41f25b2d989b4762b09925f2b55d34549e2c63e87f702f4c672ebf236c1
+   __DATA.__bss: 0x11 sha256:0a88111852095cae045340ea1f0b279944b2a756a213d9b50107d7489771e159
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F14A0035-917E-327E-A1F4-E2FDAECDA2EB
++  UUID: 56DC148E-7242-3964-8F20-12160E5304E0
+   Functions: 22
+   Symbols:   132
+   CStrings:  87
+Functions:
+~ +[AXHeadphoneCommonUIKitGlue accessibilityInitializeBundle] : sha256 fbd33e88b4f061bca8bb20cd720d1f26e30f26eb0cb9e2afe56c419968767826 -> 3a7b13e564638de1255b0ccf79bbb42c495f1689a770191f745af3b587c87f83
+~ ___59+[AXHeadphoneCommonUIKitGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 7745a84cbd7edb7b08dd475b757f0c090df858d8eb875422890f5e27135fc40c -> 47e519f08182fecd81aed04b64f17a825a1a54d020be8a069cbd0ebceafd14ad
+~ ___59+[AXHeadphoneCommonUIKitGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 82c0f17793ae108c8c2f8ff213e51ac381a9ad17bd98890b418cdd20dab3ac55 -> 6f4517357e313cfdd9856f90564757c8b47cf444a30122b9e4a107209f269129
+~ _accessibilityLocalizedString : sha256 7491eae6622559d630ef1ea219dfb9eb4b74ad424fd0f929d443fbf0ff5b186a -> 987ce82c8148771e49a540963dee9712360fcdee6f146fb371d0d5827b52b4d2
+~ +[HPCUIBatteryStatusViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 d0a3743337a651ebe419344eda54129590291969bd3ab48b8b04a340dd522f22 -> 5c1c2b3563562131fc05dfb9c3796e4bd50e67a9ea597bbaba0f3af34d323713
+~ +[HPCUIBatteryStatusViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 755a9a079ef46a6489713cf67317bbbb1583e05896bb08f943253161e1f5ff28 -> 843157bab854803d04894dfba94aab6965e6a63984e1d49ea8e3c4a9d5a41e7d
+~ +[HPCUIBatteryStatusViewAccessibility _accessibilityPerformValidations:] : sha256 60f78d7d39c1c35328b92d787908279a9257c3607a74e5d97007c088c1f0ea3a -> 8d75a94c6c36cdc12394f0a815b1901b5da39abdf5c41562be58ec5f8da701ab
+~ -[HPCUIBatteryStatusViewAccessibility _accessibilityLoadAccessibilityInformation] : sha256 f7e968dafa10aafdf9a0d30eb5e6571346ca552d1fa60b5591412338790ac780 -> 36f235f42676c3b07f7e7754ba1f836b2f16fd1af6a92e216b37fd5ebe2d33cb
+~ -[HPCUIBatteryStatusViewAccessibility setupViews] : sha256 359db85d572ffbf022568f3438b2edef0b9260bca0ac3446677cd5ebbe524312 -> bd5ab66ed248fb12c872c2056c78ae9fed18ae20cac13d292c7516a039d2b548
+~ -[HPCUIBatteryStatusViewAccessibility _axSetupViews] : sha256 109a6630d70de5e7732eb0fe577000781eb808e0e72aac3011ebd46f1531ba6a -> 448c53e7e587a0b329b481aeb6a95dcfa6d64f52f45e20257f01624026c4d141
+~ +[HPCUIBatteryGroupViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 b092558cca43eab30c54c0d23c6f4845c9ea5282df54a326121c1201222da0cd -> 4fe062946d74b290c2af28cfab5d774c811f5422e76ce75946cf6be5d660625e
+~ +[HPCUIBatteryGroupViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 f861822997125b743427feecee3030fd520d233a5b90fdb27b8bdfb46adec921 -> e3bc0234f9f8c7ec7d4b730bae46af6bc6b5f27dfb29e9b3539743cd2b4539e5
+~ -[HPCUIBatteryGroupViewAccessibility _axBatteryType] : sha256 85da999861df345b432be57532ee146da4563ff782f5f0c601725dd3675578e0 -> 056f6242f42cec572cf4714873343dcfad34693b5f6338c33a119a857abec20e
+~ -[HPCUIBatteryGroupViewAccessibility _axSetBatteryType:] : sha256 a7effd8b7642fdf6538dede8d61a553175356e3f2e95880ea6f3f0d9344b1915 -> 17bfd185a405bf4f6376622fa2967193f151f42dff645aa405fc94297d723573
+~ +[HPCUIBatteryGroupViewAccessibility _accessibilityPerformValidations:] : sha256 926214dc7a1cbd333a8014ec3e58d026d6ba62d0601cf41bfa2fcb81ea7357ee -> c9cc0e32a538e977378a11ccb8e8218ceb3949a2df08bda3db75f679223bb3f6
+~ -[HPCUIBatteryGroupViewAccessibility _accessibilityLoadAccessibilityInformation] : sha256 d4f08e2e0024702e39d2c7b6506be385d91375d0d5b4b9d32a392d75c9084ef2 -> ef93ba87e9fe01044fd562f0caee38a06251e3b8e4c5f793ec0f1b263a1a81fc
+~ -[HPCUIBatteryGroupViewAccessibility _accessibilityOverridesInvalidFrames] : sha256 e645bf91568a67a200aaa0cf7c8a3b2f96a5940242070d59fbb2d59b875955d0 -> f8d7af2fb9ec774c7ac405cf1312b82f9286243a8586a5bf123273b42925b634
+~ -[HPCUIBatteryGroupViewAccessibility accessibilityFrame] : sha256 f21142601b9f2b097a0a7ad58de1eb35f36e78a920d86e675d6e41e4ade60c23 -> b63e2c5703a36d9d20cd4db652dbc51b5dee8edeb4ed305a0f92e7d09a9323d1
+~ -[HPCUIBatteryGroupViewAccessibility setChargePercent:] : sha256 720741319f1b26758aa7fac7823d9c083ea403405d7fa94c9d57a563aec7e6aa -> 0dadaed8f62133895965f609b294674376ebdedb6a850643c5b9589d7fa9aa74
+~ -[HPCUIBatteryGroupViewAccessibility _axSetupLabel] : sha256 3312d1c534c9156995668e629070aa0b274bea5b0a06d1ce59c0a0092995c7f0 -> ad62031f0a4c5e14e929f999caf300056d7ba0fea9c15c5cb135eaf2cc51cc07
+
+```

@@ -1,0 +1,61 @@
+## Calculator
+
+> `/System/Library/AccessibilityBundles/Calculator.axbundle/Calculator`
+
+```diff
+
+-3005.29.0.0.0
+-  __TEXT.__text: 0x228 sha256:dc7238387b8a870b4a63ec0f7da6cc9335852929f6c13065b8abd952188c04be
+-  __TEXT.__auth_stubs: 0x90 sha256:f202d53054709359599d9b777f498efd3acaf8780c923dee59c747e216d58cd3
+-  __TEXT.__objc_methlist: 0x5c sha256:6451194189e9e9075c6a45f05e99e2edc0c16c019ecbd2e7c673c1d106a45258
++3005.30.0.0.0
++  __TEXT.__text: 0x228 sha256:dd816652dd483ec509ae75859a8c015749633170fee6593f2d92dea3c5dacafe
++  __TEXT.__auth_stubs: 0x90 sha256:4e3fc81abb716d5730b96bb5e17c0c9d6b33f3b237680ad03f187fb5b9ca6691
++  __TEXT.__objc_methlist: 0x5c sha256:92c3a1145c2633dd59245dd41736b96019a7e3e179747df8577e2ba83cc5b36d
+   __TEXT.__cstring: 0xd2 sha256:e707df67dfe465cfbdd35d0cf3ac5fbf0c4b148ae006eee58ecd754fcdb6d343
+   __TEXT.__unwind_info: 0x70 sha256:64b977d512ba2b198648d7990aae8828bd522a7ef4ad5e7c786a55888f1c7bb7
+   __TEXT.__objc_classname: 0x72 sha256:63e492ad3dfcb115127ef4ffd628484bc9919d484b2e28750b533a8fbefab0fa
+   __TEXT.__objc_methname: 0x1d6 sha256:c8fed60599d406a9962812bab8bf23f6085fb0c8107f55758864b0ba43e76617
+   __TEXT.__objc_methtype: 0x23 sha256:453a037f7b1397a09d5784a6f1b9d49c2aa4f4cf911d9a251b24c25f6a2672b7
+-  __TEXT.__objc_stubs: 0x140 sha256:72d423492483657ca03f0b78edb346e4b44d1aa303fd6b5d7c9d7931aa73d742
+-  __DATA_CONST.__got: 0x20 sha256:975d2d63b18433b34eaf8e937e623d5b477a5ab528118cac41f23189741221cb
+-  __DATA_CONST.__const: 0x40 sha256:dee13c4226d173be445e5f58153d1a3a3f56895a2adc122a9555c07b35950010
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:95b8fa44c2c0bdf3063bcfc42f8c9c912c55c0c53102842f3fd003dd9c590fcc
++  __TEXT.__objc_stubs: 0x140 sha256:ee4066068bcbf62117aa5581cd462260698248d0ea9d51bb0ad19469a0482e54
++  __DATA_CONST.__got: 0x20 sha256:cb3b3f82fbb058636d01667a44586a56ed6126f596ad9429d9fa7cc03fe75b96
++  __DATA_CONST.__const: 0x40 sha256:12e9ba7af609f1d9c94f773e57c2b3c9792e7702488b40acc5cd0761aab964cd
++  __DATA_CONST.__objc_classlist: 0x18 sha256:a6736154cb8a18e931dd0126f07c9552b3dffc2be7b4c0d9363f1b324852289c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x78 sha256:865899c1a1197905b2e887fd497ca4505193f6cc86750b953acec6ba64fe5804
++  __DATA_CONST.__objc_selrefs: 0x78 sha256:aea06c595a1e5fc740d4bec40cd2b765502f348760701cf7633a15c8a39ad613
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x60 sha256:6207592f6622d349eb76e2ffaf5ef0c71701827f730b238d30247bcb4160329c
+-  __AUTH_CONST.__cfstring: 0x100 sha256:6627a4d32be77b6c560349875404da0ec869a9498c76f0ba9c06173f5b67f42a
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:4be1aff4d5a2ce5fa034d265a2b4dfb236952d540edad118fe4173ed7f45d9b2
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:6fe1ab3a95f9f8db85beb87eb0638e672981f86c01ee4d902c24c7572897af77
++  __AUTH_CONST.__const: 0x60 sha256:6159ae22aabf812d003b19e9f8a76a2a9b12bb9eb6bbb8b610886e591aeebbec
++  __AUTH_CONST.__cfstring: 0x100 sha256:d4842eb428af1594835331ca8bfc592506a0ba10e4e485dbf4ea9bfe70ae3180
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:45e0e6ccfc0470629a6c13ab38b67a6047c984effc3624629ec5cfa1c6572dd3
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:3234e1f46ce45263345b66f80bb219d06df639f0fdbe7e2af54038f6d3b56feb
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DA398A6F-567D-384D-B96B-2E46427512A8
++  UUID: D02956D4-D7A4-3B91-8D09-CF91832FF4F9
+   Functions: 9
+   Symbols:   68
+   CStrings:  40
+Functions:
+~ +[AXCalculatorGlue accessibilityInitializeBundle] : sha256 c3fb0e18fcb0931f1352320e13ba7c362aefad62b686bab1f498474e9a0496fd -> 3585e3b54993a3c8cb2fcec80bc2ab85c4323f4f99e3386a7f33eaecbbfb8bd5
+~ ___49+[AXCalculatorGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 56b76280425aaa6df5556265d850ee1a485ad847e9bcc1016676af303240f284 -> 22ead761763cee1f3a5a47362eab85378174356f21758c00282249c8c22c6ecf
+~ ___49+[AXCalculatorGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 df0cd19882cf1c553d0ba1d19af3732f39684dac504b292b5f31f731ca3b88d9 -> 366401b2fdde8954c889dbfa184d17400bb238441513696e25cb84749af4ee5e
+~ _accessibilityLocalizedString : sha256 40357c148a200f038d39d2ff296939ba0298ae8fa953c03cb6e0b837d9eaaf76 -> 8f91253f78853c5340525473b9bba0e60c3ee9c30187da1ddf5f4def22375500
+~ +[Calculator_UIApplicationAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 858785e7bcbfdcc3e1e1e75e33ec6f1725391fdb8b86378a0ffcf708f077a654 -> ccc4272943e5fec2d2d69818a3e9ede0f8d33f13107946ea006006664faa2944
+~ +[Calculator_UIApplicationAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 99be2855c10442a18014c2cc720e4e8feaf1975e0626b0515130c9e5c17da0bd -> c8d292ce7909eae33ab64537b520d9ec216f7a47ec386535494ec639ecad430a
+~ -[Calculator_UIApplicationAccessibility _accessibilityActiveKeyboard] : sha256 3989a1b77836ff9f3c721e60695b0a68e68f564e71b30f863024fa9ae10dd196 -> d9289ab5ca8fe23081af471c74a7664c80e227d600443cce82b9b5f2baaeed22
+
+```

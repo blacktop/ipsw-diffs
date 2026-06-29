@@ -1,0 +1,91 @@
+## AXSpeakFingerManager
+
+> `/System/Library/PrivateFrameworks/AXSpeakFingerManager.framework/AXSpeakFingerManager`
+
+```diff
+
+ 3191.39.0.0.0
+-  __TEXT.__text: 0x1680 sha256:d0ab51683a16e2749975bab9adc59c6e340d9f3dff7fd973c526d982c027cfff
+-  __TEXT.__auth_stubs: 0x2d0 sha256:001a9aaadeed93b99698c60b736934e3b0bbc2f5e46fa21c05d4e2964e1d9fd5
+-  __TEXT.__objc_methlist: 0x48c sha256:527d0c471ed2713184c3c2fa19a8fc949f97197b5c2e7a689707e9c34b0c124c
++  __TEXT.__text: 0x1680 sha256:4d5213700bad3dd3777bade8b3dcb657f102897b8488f077cb7586d1144a3e1f
++  __TEXT.__auth_stubs: 0x2d0 sha256:b6f39fe5eb93f7ab55f0470687f7dca573c3c445fcfdf4bbc60353f10ed06774
++  __TEXT.__objc_methlist: 0x48c sha256:eec289d57e11671049669730242c67a8db563e49f32d1baea0c99949fa59e8b3
+   __TEXT.__const: 0x68 sha256:1c71623e8aa777ecb8221ae3bc3f1563e6b80c50aa18d9294c0458bfcbadf1d0
+   __TEXT.__gcc_except_tab: 0x2c sha256:fa9d4a3c1c4ca21a5b1e0cae2dc5e2a01ef559f83b8eba41476a02d7ab0c0253
+   __TEXT.__cstring: 0x175 sha256:9b7a9b1a96bb017f9814aee4be8033d320658c8a57866ca43763747b770ed500
+   __TEXT.__oslogstring: 0xb sha256:8f07885ef5796a973d8f6b2156e6f9ccb7542fd099242e8a12e80b0e1b6730c6
+-  __TEXT.__unwind_info: 0x100 sha256:08ecce1de3f81aaecc59d6b89bb4f17a7393a205a34e62c1aa6f03fcc8ea7862
++  __TEXT.__unwind_info: 0x100 sha256:2b03f5936efbc65770fbec06e01b5203e5275a201ede5255cadb340e91fb26b2
+   __TEXT.__objc_classname: 0x52 sha256:d588b7abc1bc3c3b63602a20b25ac2996a464a64c77d85317695b8531f1f4bed
+   __TEXT.__objc_methname: 0x10fe sha256:e430f1c9978144d1d26caea93cbe45ccf3b175131f0fde37f75f9473447a620b
+   __TEXT.__objc_methtype: 0x5e0 sha256:4b71f58c481d192fb8a75403ddc4dade30105fcf229b924a4d7b629102f9ae40
+-  __TEXT.__objc_stubs: 0x800 sha256:0e447faa921a4b811991a1e5915acc60ea780d7babaed17e6c21dd2e51436353
+-  __DATA_CONST.__got: 0xc8 sha256:4ed655d20534e15d0a8abb2ea20e5fb18100dd628994ed573602fe6d6a16da5a
+-  __DATA_CONST.__const: 0xb0 sha256:57a25cae2b256ce4dcc8e2f53a6411a794d6194f7c02819ed1140e9a65199a62
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:edb6c1d2da2af02451cdd8eb35790de721ba2495862ddb2734689d4c96fcd507
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:cda52f78507514fd57484960331f556c9a0e6d59a5210d76da210caead8997e4
++  __TEXT.__objc_stubs: 0x800 sha256:ace97471586edf0ebcc0d457cbf9fadfff9b3bac0f52a0824024fdbd8fbbdfa8
++  __DATA_CONST.__got: 0xc8 sha256:34f4abbdf9c20ad2d69db80b0c83dea4d5576ed3aa736a85911647cdec3fe933
++  __DATA_CONST.__const: 0xb0 sha256:3357b80cd82993ae20757989f8bf9bd09b05335eb8c4a9866f56e87e8693ca8a
++  __DATA_CONST.__objc_classlist: 0x8 sha256:6524ce2457cbd53d59c96483de6024100735d239beded18f652fa402ccfe93e5
++  __DATA_CONST.__objc_protolist: 0x20 sha256:a378629de9dcf17a3b68fa752b837e20f9e9696615962dbb8de23a6488a3582c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x428 sha256:4809ab38cee3f14d0cc0639005bf2d3264308c71bc725c7ecae6385c30d944a8
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:4bf37c1a8f3e4bc38a499d0353212f20753b2fdf863625147363335b99a79311
++  __DATA_CONST.__objc_selrefs: 0x428 sha256:71320dc6da442851712111bb5884bcf039a8be178d33221c8df28a3b9d6e00a3
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:96a2914d164126cd20987a522678718c84232b2c324ee5295b9cbddb503708cb
+   __AUTH_CONST.__auth_got: 0x178 sha256:70d6aad73b9cfd0facdee81f4aac5bbf30d603300653623c57f7c26e1c376271
+-  __AUTH_CONST.__const: 0x40 sha256:b38ee227cf67279689e73115ea4ee1272c2f91cf4d466a03ba8101dd60468f90
+-  __AUTH_CONST.__cfstring: 0x260 sha256:a85a74f785a776aef92a552e44491246ef1de202b4700ebd304381838caa88c7
+-  __AUTH_CONST.__objc_const: 0x558 sha256:d487d35d8bd64b509a62c36f66d80888b2fbb8b15a50ff668696bbad6f098ec9
+-  __AUTH.__objc_data: 0x50 sha256:eb3253cf778ae69eeda3d7be552248d5ea13165d7042e0df34f81cf1907717f1
++  __AUTH_CONST.__const: 0x40 sha256:bec82ffdaa9d57e28245aa2c5100f363cd4bb9ffc8a92ae61a860f8e5b51a27b
++  __AUTH_CONST.__cfstring: 0x260 sha256:0c7c7617b1296d274cf0d4f53d29943f46583a9d80677edcae7f7341a15743e5
++  __AUTH_CONST.__objc_const: 0x558 sha256:e00a5eb229cfb62c5cd26ea22e00482d10c881ce81ad95da2d06d3e312f28520
++  __AUTH.__objc_data: 0x50 sha256:b23dda5d36b10dcfa091e803b8d2a5078d88e5fcbe84806a0ebe769c69bdaf04
+   __DATA.__objc_ivar: 0x30 sha256:59d7d295c8ee6096369aef9df96236862d61fd4390b0c8e5bde87f56f591ac8e
+-  __DATA.__data: 0x180 sha256:4dbb74824f1fc8549737a0599457ffa471e8fd5f5c55bad84d7fabb3a66228c6
++  __DATA.__data: 0x180 sha256:3a2555357d52d64ad8f49bd7d2a1d9c315f5ae01df397acc5467ffa69f4b4fcb
+   __DATA.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8CFF382F-6AF3-3BB7-8B0E-6ECEE9824A3B
++  UUID: FDA02F60-0F99-3F55-BAF1-6A14816D194A
+   Functions: 48
+   Symbols:   292
+   CStrings:  274
+Functions:
+~ +[AXSpeakFingerManager sharedInstance] : sha256 8e9355d77c7fd94131aee1698ffefc957def5ab972546cc576c97a7282888147 -> 054d6152f95171402a8ae7a39daee0e8f419f7bf4b9a96da0a5af5eebaf826f8
+~ ___38+[AXSpeakFingerManager sharedInstance]_block_invoke : sha256 e2300caee4a3236fdf202522ceb282a49612d8e6062a12883ab2229826ac91fd -> 95367dc46aa59e05d1f0cc5bead9587685c63e25db96c7ee96069f2c2d3bb791
+~ -[AXSpeakFingerManager init] : sha256 cc2bc0442e752d96a68a2f966f000fe1322e003fa0a47f95b8405264691d6319 -> 356344f301e96de0dd70480e8b1a8a933f3d0102d9e7cb8737a75fe868d9d70f
+~ ___28-[AXSpeakFingerManager init]_block_invoke : sha256 56ced279e3d9394e6ab09617e26f8583702ea6272b8c599c15478250e83ecc23 -> a84c897611fafb99d635eb94b04eb653a984cb8e730735c6db86c85dafd45e5c
+~ ___28-[AXSpeakFingerManager init]_block_invoke_2 : sha256 58f5d139db07ecc1e35d21dfd69d7a418ef51b5506ad6edd26e00a48d1e2d716 -> 1f797fc579e921a9cd58f2ef8e6fb2f549fc711840c6a4faba921f24f6c6d2c3
+~ -[AXSpeakFingerManager dealloc] : sha256 73abd35a57cee73808d6cd0b547fdddb6aff18d835e12393076435396ce0dd75 -> cec99d95d93c0a6312846b8c6a297f76a0c2479ba3f7ccfe62af1f739cfd4835
+~ -[AXSpeakFingerManager speakElementAtLocation:] : sha256 98993e2cfddab7d0ed2113a169ad29ae7961a5646b7a54d2dc712141a75ecc1e -> 04ef638bd1266fc28f17485bbeca94e50281a9b322cd13a62cb724f9cf0922f7
+~ -[AXSpeakFingerManager _updateFocusRingForWebElement:remove:] : sha256 6ca0be37089531a1066e74fd4d61e73e45b9b268367331709abad394b2c026f7 -> d9c3be25173dc9921aa3699fde60830138d5f3d2412087e79700c09b4bdcee32
+~ -[AXSpeakFingerManager setCursorFrame:withPath:withContextId:element:forceRefresh:animated:] : sha256 97d9553ff29663e456e4b1c24ba431b4592011eec129b6742d6f072fbe0724a6 -> 30a813b792536cdca45cf562a75cd061bbe9ffece4647ed95a9bdca8de64ec46
+~ -[AXSpeakFingerManager userManuallyExitedSpeakUnderFingerMode] : sha256 4279c8c0f08909e21f650f41268ed52d06934735131d54d5fb8b6a658a3ce6da -> e66ab57a2432cfd4aa3e0622a09bd98b97f19238ac497dddfd00d0b8beeb7171
+~ -[AXSpeakFingerManager fingerWasLiftedInSpeakUnderFingerMode] : sha256 88635170854e97a13994662267644a3bb6cfea58fcd49531ba8631871da60a57 -> af8b3b3e42a2b4c2cf7af34e15f489ec31b462a8f0166ba09339b810375bea9a
+~ -[AXSpeakFingerManager _removeFocusRingForElement:] : sha256 ce662eb7c35a3db4e9756068fbbcc4211e0331da15bd523d1496cfac10208697 -> 91638c6486d2e9775a1b8801f39f4f97e7719bbd07058a85a1bacd8decfe2bf2
+~ -[AXSpeakFingerManager speakUnderFingerModeFinishedTalking] : sha256 3d802fd967d3d6331ee9028566682d73d55702ffe0946ebda0be88d2b3f3a7e6 -> 66d7a635cdec22929a0b20ac6f9a1c258bcc371550f920738d086a6cedbae98f
+~ -[AXSpeakFingerManager _speakFingerStateChanged] : sha256 ff6a201a3517d446b96426f796ed477cabbb63cac10a3bf888e50b7c8565b556 -> 95eb75e46424829b764adabe9f7d59396c8641babb2921205413480b262da208
+~ -[AXSpeakFingerManager registerBlockForStateChange:] : sha256 97e7094c31ae9d5e33d521a2cc04a92a2501a018d0875722a8a67cec841b6ce8 -> a6df65d1603bbf413ff569e8fd2dc1ecddca533c3dded59ec55893caee4ba1d3
+~ -[AXSpeakFingerManager desiredWindowLevelForContentViewController:userInteractionEnabled:] : sha256 625be2ba438c8aa3c4e9159de223bb17e607cc9ddd049d27976ce82f5cec671b -> 642939b2b3b70d85ff70f86dfac8622b146b14a5ec5515c2211bcfd5c2334ae8
+~ -[AXSpeakFingerManager setElementsForUnitTests:] : sha256 492fcbcc01608cfffb8ebd70d4d8dde8996a5895ef62230d4d012d22c2a498e8 -> a176315e43de50060c917dfd13f0efe8b3903cc2d3cbfd275056c4d9b247144e
+~ -[AXSpeakFingerManager setStateUpdateBlocks:] : sha256 e7c602656ec2929ad9c7966b558236861d35a076b7c42378cf65d63166de295c -> a7e644c8f8f05f5476ade9f60a5c10674ff80fb55d51bfe59816e9df52ae4af9
+~ -[AXSpeakFingerManager setCurrentSpeakFingerElement:] : sha256 a8bc4c71378c4076add0fa7152c71d09a2b5b1f75811213450d67cef665c1439 -> 7737599123f1967a0d86e42fdc8da927051d2d269739cc599effe9fa4ad5904c
+~ -[AXSpeakFingerManager setOrator:] : sha256 8d87859f98e53267d2b1e74d21cbed1b275e11e856f8ce0005340c0f932c6910 -> 9d5be3250203245bbdf158017193ecb86cf05333b239e9dd61f54593c228a603
+~ -[AXSpeakFingerManager setLastSpeakUnderFingerPhrase:] : sha256 147916d84b0a8efa4b650cbacd294d5a6c2051c9b131c31157b9b4e90162fd3f -> e2bc66f1e7817ea5f60b8d4c5fac4f982b90e183aef26d81d3d0c1ec1312a558
+~ -[AXSpeakFingerManager setHapticGenerator:] : sha256 72af74ea9db922f7a97cea5fcfd9b9eb033833e7036af3eb6302da39e1381e4f -> 2249c42b759e752ce3b25a267ab02530054375d8d34b6ea20b680dfeaf0dfb2e
+~ -[AXSpeakFingerManager setSpringBoardActionHandlerId:] : sha256 837d8d4c3f49aa0b1dc4531ca6d4de43bcb81cb9f29b2ecadbdc36593c3526c3 -> b85ba472f6e02133b43e76cd0cea278a94ecfb9ebc3719b9e90d8855e1070d85
+~ _AXSpeakFingerBundle : sha256 59b65d435f23e12eaaa249edf0490c475c7d6789bea01dc089217da2c4049592 -> 5b29aa5ac6322a394555fd7d5c103414bcbc23f45dbc8c62fa746de28d7bcb76
+~ ___AXSpeakFingerBundle_block_invoke : sha256 74969ad03197dcf49bc69093d2932be32381cd8f0c032ab16f8e221983e5c0a5 -> e88598b5841fde338b847847f56f7d4ec4a08d2b6fd4cb956d91c038fabdc108
+~ _AXSpeakFingerLocString : sha256 54acab07e4de5d6b1bec11de6e75ba8c36a7a852a2d3a0a985bbcd65f5d9fd65 -> 670246dae6291753ab3de74c7bcea25e1ac6174ad6e293f883deb1638ba76f54
+~ _AXSpeakFingerBundle.cold.1 : sha256 9145127948cf6baadf9c22ca929fd3d12631435a5e0a0441a4dd88ec5ba99e02 -> 9bdca01e5a15b931235d06e2a9f340961221893cd5a22f23c38bdafb136b7308
+
+```
