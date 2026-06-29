@@ -1,0 +1,35 @@
+## HealthMenstrualCyclesWidgetUI
+
+> `/System/Library/PrivateFrameworks/HealthMenstrualCyclesWidgetUI.framework/HealthMenstrualCyclesWidgetUI`
+
+```diff
+
+   __TEXT.__objc_methname: 0x235 sha256:d8af05ae26a60b77fab93f7133cf10d2725ecb52918b7744be913c4ab44cb75a
+   __TEXT.__objc_methtype: 0x59 sha256:5010c3e9bc518ac7e882e2fdae82cef7d47e6f12311f79317f9a6f6167608323
+   __TEXT.__objc_stubs: 0x2e0 sha256:e9c854cfbf50321e10982ffaffad8f99947435599bff0bc1bf18c8144cebb0b6
+-  __DATA_CONST.__got: 0x4a8 sha256:fb12d3d1912ec4390598e584c787e246c418adaae8a163482c19bfd5f778161a
++  __DATA_CONST.__got: 0x4a8 sha256:dbc83abaa92d82ccdc5be4721f411e60ef4bf952790f63a11dbbdc51be2b850f
+   __DATA_CONST.__const: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:c05c768898988a3e6f0dfc31084c25c2594a8b1ae5f96794bfede5a4cb5e69bf
++  __DATA_CONST.__objc_classlist: 0x10 sha256:e4eb762b74239002a72c2697c0ee6e3b471de6b20d70fc8bbea46caf7f6cd467
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0xb8 sha256:5fc07b97bd66fba8da6e58959f657ac84b071416f9080573aacb9c2cabae896c
++  __DATA_CONST.__objc_selrefs: 0xb8 sha256:3aff1c969837184ba62b0b6568b1759ffee31124c421b772164edf11a9affe7f
+   __AUTH_CONST.__auth_got: 0x998 sha256:e66f98a7fe250db74521cc03f1f1b34f9570d21f9f251e5a930d8d696957352c
+-  __AUTH_CONST.__const: 0x3a1 sha256:5f502b5175bb674e84734fc8d094bffe3ac9d32b4f13d3ae8c32725b552057f5
+-  __AUTH_CONST.__objc_const: 0x160 sha256:897781256fc6d5f44c50d042e6748526f1c119e4a547953b1cdf9a2c4cae9fa6
+-  __AUTH.__data: 0x98 sha256:a9372183e611565b5282552bb81357465b82050c5e8dc0dfab7fd31fdf4403d8
++  __AUTH_CONST.__const: 0x3a1 sha256:4fe386a9b045be2e079eef87a8f6fd7243d070eaac63c249e885a05c1efd137e
++  __AUTH_CONST.__objc_const: 0x160 sha256:d45c75e166e602c6a8a922972c53cdc75191477a8369a3f8102238e014bc01e4
++  __AUTH.__data: 0x98 sha256:76ed9e752c1651e6fef26e6acc88c651413b6f1959cb36e5305614fb41f109e5
+   __DATA.__data: 0x110 sha256:e4d879a3407de578f579dfab4366fcea75a6649c683d9efe4f056f6505437574
+   __DATA.__bss: 0x1d8 sha256:22fec3bc784546d70e79696b405d950aff355b6f429f266ceacffe0cc2e5ba02
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:ac2c599e771e50f5f1b93f1b0e19928b9aafc8ccc4b1590bc5d6dbee7cc7c6d4
+-  __DATA_DIRTY.__data: 0x840 sha256:bda277e51a337a15cd7317addeedb62f8c9fe52aa5a8e58426037b66df7f4308
++  __DATA_DIRTY.__objc_data: 0x50 sha256:3b7f0e1eca4b7147651a2229a3a7e5034750d276256836984cc1598ac9ce01e6
++  __DATA_DIRTY.__data: 0x840 sha256:278f1687be72156f111258aaf6a3badc76358e708aa278fd96a0a269f6afa308
+   __DATA_DIRTY.__common: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+   __DATA_DIRTY.__bss: 0x400 sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+```

@@ -1,0 +1,52 @@
+## _QuickLook_SwiftUI
+
+> `/System/Library/Frameworks/_QuickLook_SwiftUI.framework/_QuickLook_SwiftUI`
+
+```diff
+
+ 1016.206.3.0.0
+-  __TEXT.__text: 0x6878 sha256:c843752c309f0bf893041c9e416de4f15752d07688736f575f1c0bd5452e7ac7
++  __TEXT.__text: 0x6878 sha256:58fda68dd2b7d27e2f357bfc33fc349f792cf7b4359c17249ed84047ad78b287
+   __TEXT.__auth_stubs: 0x600 sha256:fae7d3ba0e4dacf7846974a8c5c9269d402241f92d710ff8870028dbea3f531e
+   __TEXT.__objc_methlist: 0x264 sha256:82913c7624d70b73100fa29ded045a87cb89831ef87f291471000fa9c63f2ae9
+-  __TEXT.__const: 0x30a sha256:af4aa3a2bcb13244893897bb741b20419069a7bb3e9eee6a05ff74ed00b6076b
++  __TEXT.__const: 0x30a sha256:3e9e3a4e4571dcc418ea10f267aa2611380d7df41624d9e932a1c7ff9fa8edd1
+   __TEXT.__swift5_typeref: 0x20b sha256:3526d0a1e3540823071fa5e7b093edaa94e64a938a790dc737f2c88287012c23
+   __TEXT.__constg_swiftt: 0x378 sha256:b06282f8b811bc7946a59fe811a9d0d4144e72f6c78de33bc62d78ddc84c46fd
+   __TEXT.__swift5_reflstr: 0x81 sha256:cbeecce077a41cc748b7bbb0708c108c9e23dc89a5d48be49f56c3ac8dd10ea9
+
+   __TEXT.__objc_classname: 0x82 sha256:e942bac4e3ca26d1c6c7616a9ab0b1459ecd807736042885386a4f9cbc405fc3
+   __TEXT.__objc_methname: 0x59f sha256:10a26d03fe5c251d8596603b587d99fabe5e3cd2e7c131dd11fde5b8d599d553
+   __TEXT.__objc_methtype: 0x3ea sha256:bddfe705edd936e84168699f6ffa25b579bf44c9de059a28e360f0abbba2cd23
+-  __TEXT.__objc_stubs: 0xe0 sha256:8125267392250c1a500f3da1c924121d6654d23ed753fc80d3cbff9085745bbd
++  __TEXT.__objc_stubs: 0xe0 sha256:8e15e438d2a5696eaaf650e08f8d85ec13ab0f1b81998509d06d80c850715777
+   __DATA_CONST.__got: 0xb8 sha256:d81bfb50e59a9abbe66f6ae0c6b45c7b9c0bc6eead2cf982118ac4d62b6ffeda
+   __DATA_CONST.__const: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:8d0748b57c82478bf199d929bfc17752259410705640b0d0193bbf9f2b3900cf
+-  __DATA_CONST.__objc_protolist: 0x40 sha256:e8275284777e16300c281ea65ba2f98cac8f640a879aa4587191d2277b2e090a
++  __DATA_CONST.__objc_classlist: 0x8 sha256:ec85626f0c382f1564528d7cff73f7f927f52c614d15dc5ca149fd05edafee6d
++  __DATA_CONST.__objc_protolist: 0x40 sha256:eb416c82ad5c028c74661f8c927b2ec43acf1b0e52142603f4366d215c19abaf
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x150 sha256:bc51e60b52344e278efd31243ca684d978feb6a0cebdc5b3496bd6cc508350e9
+-  __DATA_CONST.__objc_protorefs: 0x20 sha256:21e6298d7827aae23ff09a829eaa434d6e93fa6d9ced002f1bd576966d06a7a1
++  __DATA_CONST.__objc_selrefs: 0x150 sha256:a8f123608fd548b338147c37f31d2753fb1185b122fa2b5fbfef80219ab13579
++  __DATA_CONST.__objc_protorefs: 0x20 sha256:3d1e939439f7a330c47f7b52b0b52e540b637dfac438f28cb2d5073670b7a809
+   __AUTH_CONST.__auth_got: 0x308 sha256:508f5ba745944e982367cdbcd6a240acc7f895583df43b519b7d6745f5d86f7b
+-  __AUTH_CONST.__const: 0x1e0 sha256:5f2aca69e70456794545e02a34df3a17082a592e9b99791d941bde77166df2cd
+-  __AUTH_CONST.__objc_const: 0x318 sha256:65dfab74cf1f0e41e47db3f162436f1ecb9c5f79dc6810d793a5c0cfe1ec5764
+-  __AUTH.__objc_data: 0xd0 sha256:33afeaa89ab4abd38eec0525eb9f5ac52ef9e34f2b54292858522ab0a4bd1f37
+-  __AUTH.__data: 0x28 sha256:a32a002dfddaa3859634496f6b88b494a3ef25899afb71d0446a211fbfd346a7
+-  __DATA.__data: 0x3a0 sha256:5db3b8c84cc13b1f9c02646e0f70861d73b039ca24642a34011d19134abb24a3
++  __AUTH_CONST.__const: 0x1e0 sha256:6ddc32ff7c10d1337bc1cc845a28dc7f0c0768e258fb24e7b70ed82c926fd60b
++  __AUTH_CONST.__objc_const: 0x318 sha256:50ca609ee6ca526fa100bd024096b635e52b3d2f31b79eed72d94782cc85aeae
++  __AUTH.__objc_data: 0xd0 sha256:0a6a7d65f03d2405cfa69ad1f14d3192944e0ad03cf50762ecf462e4db298aac
++  __AUTH.__data: 0x28 sha256:ed2bb7397f241abdc40111dda53400e72d92095df495d173247d089b0eebeb62
++  __DATA.__data: 0x3a0 sha256:3e0f13ce7c864c80f706b98bb7eac34732294b2771aaf4203a16280953e530fd
+   __DATA.__bss: 0x190 sha256:7a12e561363385e9dfeeab326368731c030ed4b374e7f5897ac819159d2884c5
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/QuickLook.framework/QuickLook
+Functions:
+~ sub_241ab6dd4 -> sub_241aeedd4 : sha256 12ca5eebede3606f0489ca27eb604d647d9393ea967e8db01ef99b4131163357 -> e36c939372c4391e341711ad59c2c8cc10315326f6fe26a435684c3bf7e6538d
+~ sub_241ab7690 -> sub_241aef690 : sha256 932c026a6c945a8a221c531160c42e83b4aa27c58c30890f77869524097b9f29 -> 29f5e61f80dda502b56985d4d618a68699249415c72569bcf67575991a22dd5f
+
+```

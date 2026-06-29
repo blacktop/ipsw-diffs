@@ -1,0 +1,49 @@
+## FaceTimeMigrator
+
+> `/System/Library/DataClassMigrators/FaceTimeMigrator.migrator/FaceTimeMigrator`
+
+```diff
+
+ 1969.600.51.2.5
+-  __TEXT.__text: 0x11a4 sha256:2f88df5b3b36f777e47683d0be3cca7e58fe9b99de75083207c3d641d20193a9
++  __TEXT.__text: 0x11a4 sha256:36fc69a6ddfca1ce28867f51f1531e8779d8efb56a6b1e5abe8e87b8a74ca414
+   __TEXT.__auth_stubs: 0x1b0 sha256:9cf5ddba7101df0e5346de0cfa3ade19137918a1e5edad286d00a2a65e70f33d
+-  __TEXT.__objc_methlist: 0x2c sha256:98231423867243e2b176a8a79e3b07085435591cccef9f9f192ff5daaef9b66a
++  __TEXT.__objc_methlist: 0x2c sha256:5fbfef0aa2fdaf12e1ce63a0d075569c94b745bc511a1fdbe5dc07f816c25144
+   __TEXT.__const: 0x58 sha256:dc7d1c7b9c0cc4a43bacec074b7ce487f8eba5fffa4d7b9784f9ac75c07e552d
+   __TEXT.__cstring: 0xad sha256:7f6f64b1b69c60923300ed67d2c891cb49fabe127a6abfcfc3f82f2d271af133
+   __TEXT.__oslogstring: 0x24d sha256:39de60aac0724cf1d864e97e1491c0fbf8d236f68a320690bcf7b64d963af52f
+
+   __TEXT.__objc_classname: 0x19 sha256:d12235bfd1076f895e882115a01391467ee09453f4cd6d09ee4ba3cfcc97430b
+   __TEXT.__objc_methname: 0x196 sha256:d6fdd3f32aa96710ec8e7cfaf112c504b234575283cd9030b960d26b08ffeb07
+   __TEXT.__objc_methtype: 0x18 sha256:6404870a6dbab538b4bdad51c08745b53e39f57fc4e93f7b87c1fbbc52729c46
+-  __TEXT.__objc_stubs: 0x200 sha256:145cffa61b4d54990b4039fd4d69d7546845f3014247614471bbeecab9ddb79e
++  __TEXT.__objc_stubs: 0x200 sha256:8ff533eebb6e6d56984dff457c2f45a72129f8bd3c8e1b56a88e9403a6df55e2
+   __DATA_CONST.__got: 0x58 sha256:10eef285deef7a4b7c82b22aa53589b7833df29de3814649c772bbd5c832f365
+-  __DATA_CONST.__const: 0x48 sha256:dc87b51dd67dcb64f7da2f799a90195689ed11be327cdb4f0f5af13ccd7788f2
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:ded5fa105c6e66c4856d94c3241c6af21d52c33a51522ed488ecc6f878881b72
++  __DATA_CONST.__const: 0x48 sha256:368db92a7449eeb7c72f0627f2e8083b32f0d51b6cd55e6a8fb979ddee667c08
++  __DATA_CONST.__objc_classlist: 0x8 sha256:22fd1660ef8fd4071f307b02c8b044018b56c06af48b90a88692db9ddbdcdfc2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x98 sha256:7ebd10aa2317d9320892620b6bf450ebf9c5dea7ce738ede9e6f2fb352c94393
++  __DATA_CONST.__objc_selrefs: 0x98 sha256:5afdc68f86f4b9e8ef2b463dfab2ec1c978f89ca93c072de9b30b4c0eec767ae
+   __AUTH_CONST.__auth_got: 0xe0 sha256:6eb69e26de2a26eda48af77d4cec893aa0cf4748a64cbefcfe11a22c1e680ad9
+-  __AUTH_CONST.__const: 0x40 sha256:801284fdf981eeca86aa455fcd11a0aafa88c63dcca191a1993afc0a539db39d
+-  __AUTH_CONST.__cfstring: 0x120 sha256:d3b6872a3067307cf53869eb7858f77f9bd5a582f59535f5f545cb999e0231fd
+-  __AUTH_CONST.__objc_const: 0x90 sha256:cf20168c4d7f62d38e0bc7547d6b5c80fd699cbb05b49d514421eba38c6598f7
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:66d496acc2e6233b914d818607a9d21d657a137c38092c79706011532e988c20
+-  __AUTH.__objc_data: 0x50 sha256:4ff14a85d0ea93c70d953fd69e930762a6a6e2a30359e5a231b4c101892a39fc
++  __AUTH_CONST.__const: 0x40 sha256:8db2cd48ac9e15f10de2529d9af4bba1d620c1e85dd6bb64d1c72439b572150b
++  __AUTH_CONST.__cfstring: 0x120 sha256:c7a24d554245cb3c30172fa915dc6b565eef33fc082abbda083e2a7b2c76860e
++  __AUTH_CONST.__objc_const: 0x90 sha256:d5bcbc00da93fc7f70957db84d3558344b5f5471c2164c056083b07255a20e66
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:b836bc9c9586909b23d61b8a51b199fd8e09f4e780386f903f26a5c075a1135e
++  __AUTH.__objc_data: 0x50 sha256:e2d2ac64aa17d2d3215d5fa086bec53c8de821d24eaa2cd2ee4373d6409dcd9b
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ sub_239852c90 -> sub_23988ac90 : sha256 828d701a807e734444b6aa83b7bf79259f6aa103cb06e54f96fff5637df5ebff -> cc668cb6033f1972450e9fea31328feb4d620efa7652a91424db06e7d402ee77
+~ sub_239852c9c -> sub_23988ac9c : sha256 1378ae4f4fecd7191da20eb52f5442ed503d920deb69474838645f5c0a2769ef -> ddc8123d9d55f991ddf89a72242b33d3b0f622c046ab70bad50bd86965e5218c
+~ sub_239853d48 -> sub_23988bd48 : sha256 4176d3557d1c89feae8d071b3350b16e61a923e9caada42219088d2df76047fc -> 21a1d47c07e73ab89276d2255bf423ce7a68dbbc83fdcad5673ec11e6185fcb9
+
+```

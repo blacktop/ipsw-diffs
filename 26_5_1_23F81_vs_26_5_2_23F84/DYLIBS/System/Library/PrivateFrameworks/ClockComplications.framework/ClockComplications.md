@@ -1,0 +1,59 @@
+## ClockComplications
+
+> `/System/Library/PrivateFrameworks/ClockComplications.framework/ClockComplications`
+
+```diff
+
+ 2483.340.80.1.0
+-  __TEXT.__text: 0xe38 sha256:0fbfcd5a2b1d0bd3e5d4ab94b60b4ff8e31a45f2cf58872b76484e0511031ea0
++  __TEXT.__text: 0xe38 sha256:fd4b2cd513841a860fa62b50915db8eff61f891fb52355f7f27c47d04889b0e7
+   __TEXT.__auth_stubs: 0x1b0 sha256:8364af9a0b10411653f6bfdd80150fdd113426761411399943307fedb6dd1fc3
+-  __TEXT.__objc_methlist: 0x40c sha256:af86af0738f489127731580d3ffa20eefb175af6a9498c166d8bd44fbcc20d58
++  __TEXT.__objc_methlist: 0x40c sha256:26275ebb533426b8dec016af2dd5b1c011a51c873f147f18fb811c815baae252
+   __TEXT.__const: 0x48 sha256:03e0bb4afa64e5be1564b508efedbdf2241fd58dd1ded8e8b68801546ef3e971
+   __TEXT.__cstring: 0xad sha256:a1bb8107c1ffa941214a0a39eff9fe12e0771bf88ce427ab5abf7042df20f36a
+   __TEXT.__unwind_info: 0xd8 sha256:6bdba25507cfa55752fa743a90c2b2f3b199901d8ac86ea1b4bfd893830b52d8
+   __TEXT.__objc_classname: 0xd9 sha256:592aa985b3373f42dac4ec502901e016c269a90e2379fc85f2fdc5a6f474881b
+   __TEXT.__objc_methname: 0x96e sha256:8ab7d223e3d267a6e52565cc3d4b712e13118d9183c7b003dd44b9f29c02c3a8
+   __TEXT.__objc_methtype: 0x1cf sha256:e41228280b410da718835442c19a602322c581f059d925ae929f6d32a690714d
+-  __TEXT.__objc_stubs: 0x280 sha256:9aff90b9862b1f0a1441dc2f5be196ed1c614335fc970b05865f96cc6dd18449
+-  __DATA_CONST.__got: 0x40 sha256:1d71d1325c6ffc4f5305bf66987053d6572d3aa20aecdfda42b5a420dae0d5f4
+-  __DATA_CONST.__objc_classlist: 0x30 sha256:e74af2d9434ccce8d46ea4dd119af656131dba55f7697c803d0e596bbca8e89e
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:1c709eadfefcf12187871b9b11d28aabcde91fa649fc9877a4d2d31264478e4d
++  __TEXT.__objc_stubs: 0x280 sha256:6a3ab9fd1232588e9bd6cb1b998b2a8d68b8b36fce7a64cb74bb95ee9499ad20
++  __DATA_CONST.__got: 0x40 sha256:fae9c114a1a0e2498cbb9e7e7592f845323d392b8734af4dd62231c3e126621d
++  __DATA_CONST.__objc_classlist: 0x30 sha256:69cebbe6e883c8cb89a0f907891e070d1706cdfad979ffb9aa73f6d8639fc1a2
++  __DATA_CONST.__objc_protolist: 0x18 sha256:51eec2e4cfde06daacfe21df862f99cf0a6182de28ece3031db40fc7987be328
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x258 sha256:44ed89e7aaa37e041ed7647ff4c9ea82fbaa313cdb22ddf1979ebb63270567b1
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:a51536749e0dc0bac0d43a52b7f31c1ce3f7823c204ac2ec9982d79fa8eb6657
++  __DATA_CONST.__objc_selrefs: 0x258 sha256:8f49d23f0e131a879e9a5086368223428c6b5401cf921ebf9265a88e3b85e5ab
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:4fd15967d06b47de4eb15e9d811b4adf1686ed2c3d31b783c6fb3a324f01b229
+   __AUTH_CONST.__auth_got: 0xe0 sha256:6eb69e26de2a26eda48af77d4cec893aa0cf4748a64cbefcfe11a22c1e680ad9
+-  __AUTH_CONST.__cfstring: 0xa0 sha256:3375a96caa99518c4f91fb33a4f17f28e57b3d89b8a391f5b52b571e41f81f88
+-  __AUTH_CONST.__objc_const: 0x6d8 sha256:2e12c2d2c044ae3ff8f93b30521c9f76b0e0facbb5fd040780d713c75374ff84
+-  __AUTH.__objc_data: 0x140 sha256:a40bb26bff5417890b80aead6d1e0532d2af4f7816c5bdff8780ab9ef8871cbe
++  __AUTH_CONST.__cfstring: 0xa0 sha256:d323bcc0793ff46716e2de0073f3ffdaf7ba482a32ad593040b18873261e104c
++  __AUTH_CONST.__objc_const: 0x6d8 sha256:39f6ffcd30d961573aabc2c6888c16a8c393d2b977ea3eca53e6cc0d4cd48b2c
++  __AUTH.__objc_data: 0x140 sha256:8c448438216ba5955519ef3fe3d0be62cb28d129eac9241997cf6f477661d16a
+   __DATA.__objc_ivar: 0x24 sha256:819ec27d49863d0cbd732fe5c728158119a718827eaf9b52194b3907f3473d8d
+-  __DATA.__data: 0x120 sha256:080dedfd3fc91cb46bca6df1be606b119befca6bd8b7aa2e1f6615995c696426
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:e129fbd6187f210944e0e2d4f3bb175b612b93af0aba622a38acf363fb57e107
++  __DATA.__data: 0x120 sha256:bdfb1e4199666642ca723a1770c96b10995433fd028c8422864df9483eccc06c
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:ba87829c57db06f20a144f823e330c6377736a5333acb1500c72450334284969
+   - /System/Library/Frameworks/ClockKit.framework/ClockKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ -[CLKCComplicationBundleDataSource getLaunchURLForTimelineEntryDate:timeTravelDate:withHandler:] : sha256 3358077ec05b8a6eb9d46f5d66cbd1696cc4126e00b166e3a98effac437ff8b1 -> aa4b568cffdee12d674ccf6caa128e1ad1d16d4ac710200e340cedc1c66d9858
+~ -[CLKCComplicationDataSourceContext init] : sha256 8b6b340338b5d0a88a07cd5e2b01eb20c26af7ecf5e781bd644997ffffc62c5a -> 882c52fc39da174ef408e8255c83037bc56097842af3aa04295e302bf7d34d11
+~ -[CLKCComplicationDataSourceContext copyWithZone:] : sha256 d0df8682370c9c52ababf92ef4916bb077874c62b9d71122da2e8984852c4399 -> a89c29f28f6c42d9435701d37d67cc0b870101c713fb97edc058280833b5e221
+~ -[CLKCBundleComplication initWithBundleIdentifier:appBundleIdentifier:complicationDescriptor:] : sha256 b78d03dcee9af2461b758afd225e80d1c27433e58d44ee8d889fdf96c46f0e21 -> af9841bf997a15fd61d48def1911ab1dc1161ee4dc6ab9bafc7bceacbb0594d0
+~ -[CLKCBundleComplication description] : sha256 c071a92079761c774766b3b7a9c7b18b7bc1245223cb5cdfe40f1ebc1bfd4263 -> 41dc4e31c656ee51d5f2e4f69062d7929a142fdcd39d685aa3f43d4ab6263b89
+~ -[CLKCBundleComplication isEqual:] : sha256 e39bc46e6eeca0dfe39d2959ee6cbb87ff2e53063e05db29ded4090f9643324a -> bfb99b72d6ee7e04dac25053e411b0a600de8b31f83af05cafda4d0a78b6a0ca
+~ -[CLKCBundleComplication initWithCoder:] : sha256 3956aa2374fad1a64bbd301dd3204aaa4b632486eb13aec07b64f67f57cd81d7 -> 3477c6ddefcea95382fd445f41e4cb5a05a1c3e3f881f1f19e0d12c54766c909
+~ -[CLKCBundleComplication encodeWithCoder:] : sha256 bc803a641face21ac1e368182dd602d2a87ada9c1e28b5e2863ff1889f7bc850 -> f3db666e19324b0fc2c40fc78cff677f19a3fc8a72942d8ac9bef4c864741c9d
+~ -[CLKCComplicationDataSource init] : sha256 afa5e0b7ffefa708d22e841675a926567fd5880fbbadca2ee7cf09636326c005 -> 90286d893328403cfc72e2581d68da3512b25fd426053fa58b1174aa475fe1e5
+~ -[CLKCComplicationDataSource initWithComplication:family:forDevice:] : sha256 be47d5be06641f9838822e8102ee41ece6352848ec555aa7545f3fb76a39575e -> ca3449c4e4b3ca1627c1e1ab16e8e96cf83178ceba614a9e64d1c03e23218989
+
+```

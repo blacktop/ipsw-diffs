@@ -1,0 +1,36 @@
+## KRExperiments
+
+> `/System/Library/PrivateFrameworks/KRExperiments.framework/KRExperiments`
+
+```diff
+
+ 211.100.4.0.0
+-  __TEXT.__text: 0x1518 sha256:401b05c462116a02b76d41a2d94fc642b7a7212d429376c59ee3b124a9ffe1e6
++  __TEXT.__text: 0x1518 sha256:14f3d4af5ae32137b809988583fdd28a474bed356c0a1eff804ea8ed2c2500e2
+   __TEXT.__auth_stubs: 0x240 sha256:6ec83e5d00af56f1445ddfa398891b149ad08ac634a33383df2cd16f6844f176
+   __TEXT.__const: 0x80 sha256:d46d61fb96863fd5ac069e58f290298b1fb70a92596823cf91dea231843efc86
+   __TEXT.__cstring: 0x159 sha256:5e18eca809cf46a50f7f0e2ab243e3d97ea6be2a7f3790cd805234308513c717
+   __TEXT.__oslogstring: 0x390 sha256:a7ae956398a11444035c4b08feaf40bd6abde826dbcaf403382da2355d9619c1
+   __TEXT.__unwind_info: 0x80 sha256:dda06eea2c0a3cb6aea91f8dec3afbcaad262a6a09e7254c31bada4b75d40a5e
+   __TEXT.__objc_methname: 0x294 sha256:0096a5402b850b76e0c14e78dc7f121f24c4189a093b3ac5a1ee90fd7724e974
+-  __TEXT.__objc_stubs: 0x420 sha256:a4badaa712fb5e3e9f361cb557d80dd9b385ef73d21b0e3ddd47e71ee581a966
++  __TEXT.__objc_stubs: 0x420 sha256:b39def5e23ba8e1c9aaec2c2e043293894a77619dafe16796c6e47a15284a70a
+   __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__const: 0x28 sha256:b740548865c17e20909f8ae0cc58b2611f7e7fb0d8f687bb91680dc9d5427c90
++  __DATA_CONST.__const: 0x28 sha256:b6018150d02f766f3bb342decb9f2457c03bbfcd7cc163ad29963fa5e7e4dd40
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x108 sha256:98827c95bad3f94978744df1b0398463016eab5aeb40af51e4f7673a53b76a2b
++  __DATA_CONST.__objc_selrefs: 0x108 sha256:b746aa2980b82e49a08488e52314e0b83054b89cd4167667f0168305d47576e6
+   __AUTH_CONST.__auth_got: 0x128 sha256:250f52cb2d6f1966a29f6ac771fa1cd185b8f8531396c8a4026c0fe635617e0c
+-  __AUTH_CONST.__cfstring: 0x1a0 sha256:3546deb015b7f11a4908f84e057da885a768546450e61b95e3e845ee25fcd01b
++  __AUTH_CONST.__cfstring: 0x1a0 sha256:6ad1f81efc1741c63ef9a56a9fc9d630b2c6e338b12ecde2abf929aaef827695
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+Functions:
+~ _PrewarmingExperimentUpdated : sha256 59017ff37b54e59dafe8cf4a9a8947bec1269597d1c141a350e2dae679c332d8 -> 9abd8763fff4115da0110fce99e9c3729f5b122a0804d3490e1fad406b630a0f
+~ _UpdatePrewarmingDefault : sha256 c15deab9c725dae7deefb18d891222130d2f8e2bf8556db3824d8e26efbfdc10 -> 41d1c2474051502bbdba1401ab71852a342b82622f4d6ec5eec75e718c293eec
+~ ___PrewarmingExperimentUpdated_block_invoke : sha256 25dd123f2c2bde92b74875e629c5d6b44ef06aaf933d7279c57771541c9e9613 -> 9b72e078b550b2559d7a612e93bb0393dfb9e3980adcd3c41cad44304e67c8c1
+~ _KRExperimentsUpdateExperimentState : sha256 029736a87bb1ef7245c40a0d75bda45c35b5f08128964eb263484837e133dfda -> 32b6c40aeb344145c6c8190bf86e567312f6a308a0cf8dd33e42267e600d1d02
+
+```

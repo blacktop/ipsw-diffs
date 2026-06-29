@@ -1,0 +1,56 @@
+## AssistiveTouch-iOS
+
+> `/System/Library/CoreAccessories/PlugIns/Features/AssistiveTouch-iOS.feature/AssistiveTouch-iOS`
+
+```diff
+
+ 1147.120.2.0.0
+-  __TEXT.__text: 0x1334 sha256:4701dd0567548466650f657d30bc6fbbdec91ec64ed0d6ba0bcd17ca8e971459
++  __TEXT.__text: 0x1334 sha256:1a0260198e5d5ad9e6cf705f5142d97d3c32f3e41bee9422e7f9f8c2571ecdfc
+   __TEXT.__auth_stubs: 0x250 sha256:ae90c2f8c99479f9f67e637532e75f51fb9760822201c6244e29b4165a4fb63d
+   __TEXT.__objc_methlist: 0x22c sha256:9abee3f3ad325a99e4c65b8904a3687a254d16134e0349feab0d2736b69b1485
+   __TEXT.__const: 0x28 sha256:5c3cefdb2866f200a652f0beefdfe41e73cf8f7a7831bde9d58215033a33a97c
+
+   __TEXT.__objc_classname: 0x77 sha256:feb4cfcae81bc49e2e37b2551597701b18147365b3b8b080d15f0fd9b9e1d5b7
+   __TEXT.__objc_methname: 0x3b3 sha256:54da1c4b9a7a320b303c61b04af94ab4967ae2c46dc6ce63b1fc444bfc6bc3e0
+   __TEXT.__objc_methtype: 0x140 sha256:f6b2098c0f1fff1514da9c24fcc9590f945326d3fbb5d431e5c3db799b8fc68f
+-  __TEXT.__objc_stubs: 0x160 sha256:e2990f13fae3150fcad6d2f6d0addc1cc4390d4781da731d7f09ae9f625e478a
++  __TEXT.__objc_stubs: 0x160 sha256:e1940848f5864d132e7f94c0b22030da458760dd95a014cb52bdeae49eb336ce
+   __DATA_CONST.__got: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+-  __DATA_CONST.__const: 0x78 sha256:0e8d95af8d4b9667d9783a51f4fe1a6318ae33b06ec7055ba0a1f6e435d910bd
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:8f7570fec9e703c8449bace50d0405139dd483b5a801c9fd2066aea0238d8dcf
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:7e6b626f685d8cdcf0f4df6bad6b94e41c54e1bfbadd670ad3650d9b19b0244b
++  __DATA_CONST.__const: 0x78 sha256:0dcfe9b211746181842e78406895ba56be7d9a51cb25d201c94ee9023e8a1718
++  __DATA_CONST.__objc_classlist: 0x8 sha256:9213cab34846bd51c7f330afdc50fd6fedc1320521d7b48d1b32ae0fc95f00b9
++  __DATA_CONST.__objc_protolist: 0x20 sha256:703708cb1b79a7096a843272ae26ab514c46b88f657fb57f0ef33831baa240d6
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x148 sha256:00e88e5086d4424f43b3bf2da3c5ef208de6613dd202bbc4ff315c4649341b50
++  __DATA_CONST.__objc_selrefs: 0x148 sha256:160317ca71d9d0d744fdf56e3838e8952ea469735b99a46fded67397628e6c10
+   __AUTH_CONST.__auth_got: 0x130 sha256:e2fc162ed9124452d23c85e81d60a0c228f414c3214a5de635737e25fbd29ac1
+-  __AUTH_CONST.__const: 0x40 sha256:ece4bbb2df99031d83874071100500897abe32de20bc87d24f71956245456864
+-  __AUTH_CONST.__cfstring: 0x20 sha256:d623833b905b6bbbe906d3dd75c549c510043c91c9857b6d36111599043458ee
+-  __AUTH_CONST.__objc_const: 0x330 sha256:823e7f9a0bb3887d41d0922beee061eef342b75f9b9ff31c95fa52eefb0866d6
++  __AUTH_CONST.__const: 0x40 sha256:8be2fda6e7ea38294afd65d62ae059abff2e42f8ede17b2938900d8dcca0a5b2
++  __AUTH_CONST.__cfstring: 0x20 sha256:9adb45e48846f428bc5618a25afa434045ae1c5f5704cdab342c45a994e9fdd4
++  __AUTH_CONST.__objc_const: 0x330 sha256:f6b2bb311f9cf611293ece4dadd743f0c72457fede6d05794fb6303e42283a1d
+   __DATA.__objc_ivar: 0xc sha256:2e5c9862856b0c6f8e0cea23282dc6a269bad2a2cc34aa0668a8eeae66326835
+-  __DATA.__data: 0x180 sha256:5ac02cf10a2586f4a7ae7375efef8d7cf981d70d122a69a6a6a764bb0f444ed5
++  __DATA.__data: 0x180 sha256:d9b2702edfb31b81e917d5717ea49e4f6a4a65eebcc134d3ac9c01e2836e935a
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:d1453b384489bd6b13f40c2eaee25fc970f9fa331171fa02696694060cd517a1
+-  __DATA_DIRTY.__data: 0x8 sha256:e729fca88bcea85062da76745bae27292f01416406b6a5347d9bd66d5cf7a1bd
++  __DATA_DIRTY.__objc_data: 0x50 sha256:8e14064aa7347a42cf7dd12115d4bc019747528719996ff484fa4551f7397d3f
++  __DATA_DIRTY.__data: 0x8 sha256:b76aa61c98b9f8b48d29ec0dfbdef2ad483630b0483ec7e96486b6935997d4ec
+   __DATA_DIRTY.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+Functions:
+~ -[ACCAssistiveTouchFeaturePlugin description] : sha256 3b4fe800328aeba4ea5d2a398ef94fd9cbde4796231380de0a937d31a7bba646 -> cf8eb54d08d15d3ae754b00dfdfc95d615865eb1f647f485c39d1a2ab97cff5d
+~ -[ACCAssistiveTouchFeaturePlugin _assistiveTouchToggled:] : sha256 02ea4c1a2ee230c5d247d21935cfa8ac24346ade0648b388d6e959545e772aeb -> 38a84177c09cd915306cb05edbf726170ca73af4bb460684261df20f6a031ca6
+~ -[ACCAssistiveTouchFeaturePlugin _startAssistiveTouch:] : sha256 c79089eae6c8099d80aa5f865702c5415c71140646ed34afefb30e9fba2f1a77 -> 97861f89d21dc889e1a58e3b31108fb797c72b2ab1aec1513dae46e992c88072
+~ -[ACCAssistiveTouchFeaturePlugin _stopAssistiveTouch:] : sha256 98b0bbb57edf79e2415aa0f9e33fd43b2185e59a1f672fc35313b513a0f72ce6 -> 26cc484abe18a46ee45b7fb3282075534ea09f05eea199fd7e54a83e15009424
+~ _init_logging_modules : sha256 dd2b40b6109575489291a225f93741712e8d1f9626300fa7802d9a6267bfcb6c -> 8cf5c704f7032e142503d4a70ba1aa1af5ba89370c7f3267cc8f919c5e24a6c5
+~ _obfuscatedPointer : sha256 199862d53fe862f51bf026da645a2754768654ce350e1d4ab7cf14498f5eb453 -> 407bb86c15097146f7e761cda06a6240519d15f159cb3152ffe6812ad183f614
+~ _init_logging : sha256 bd7e8c040fda70a08b6be126f508f8e8341ad72864ba24c4557c12dba31383c0 -> a1508ca79fbd223a4e063b038a44c7b0d131553566bffb52e661dbe6ee210234
+
+```

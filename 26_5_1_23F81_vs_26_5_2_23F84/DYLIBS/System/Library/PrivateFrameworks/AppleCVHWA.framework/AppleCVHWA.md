@@ -1,0 +1,30 @@
+## AppleCVHWA
+
+> `/System/Library/PrivateFrameworks/AppleCVHWA.framework/AppleCVHWA`
+
+```diff
+
+   __TEXT.__eh_frame: 0x50 sha256:c35cc3161929dbd3083a9a4871c7d7f10c4ad991f080b62c6d2db1b26e7aee5f
+   __TEXT.__objc_methname: 0x25 sha256:d1baf7253bc1a57aaf3a4a24745376d88a7332e08724c2ccd7c49eaecaf92910
+   __TEXT.__objc_stubs: 0x20 sha256:285adabc9f21bcf374c9415347ea60706bcf0d43a42fc191fe36b561f6ce4a06
+-  __DATA_CONST.__got: 0x1f8 sha256:5f76ac62ab5b4753c057737c5c95f88733d9b375e3ef10facd2b8294e2c03a37
+-  __DATA_CONST.__const: 0x2a8 sha256:6839a0160013a117a1dffb2b712505e6b515d1c9a1cdee8df63fcb2db1844af8
++  __DATA_CONST.__got: 0x1f8 sha256:a3dad19b56d5771293358b4dea7e190e5207ce307f3d7875c5a6d029f9cc35c4
++  __DATA_CONST.__const: 0x2a8 sha256:e785f4dc569cb5f0dd9d1ce363afbb007c0ead841a9e61fd97da84678930d60f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x8 sha256:3c1fc59fac6162e09b4a57e7a4b3c1b9c3ca690dc35bde71d7bd56f83660429e
++  __DATA_CONST.__objc_selrefs: 0x8 sha256:2cd9e05b2ed468d4db479711053b7197c24b9cfdb8f11b5f6c794fed7dd64466
+   __AUTH_CONST.__auth_got: 0x620 sha256:9bb80e8751530722d406d9ae0ff7489fe90034b64c6c81b25fb8f3bef737d861
+-  __AUTH_CONST.__const: 0x1498 sha256:ea24c855d33080c6e4d8b06d3da500264480e782fc2e0d254f3f0c75fa045920
+-  __AUTH_CONST.__cfstring: 0x240 sha256:73417a5ce9c547cb76a4c0c0c9a47dc59abf01e651bbde96ab16d276432c5e09
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:71aa3fcbb6aa0506228bcfdfad9b972f92067708ab3c64e4b1ae51277e09db77
+-  __AUTH.__data: 0x20 sha256:9840a24e70b20e01ffc4257cb5a1dd16a297ce67c843f36001e56cc2131c0d7b
++  __AUTH_CONST.__const: 0x1498 sha256:58885b571270a7eefd66a9fc1b19d71a763b115b99f32a6fd87b171f7c71a450
++  __AUTH_CONST.__cfstring: 0x240 sha256:82bc28c69e18b0e523fbe67e6d4aec579972fe85ef03be9ea8b1aea8a755e19b
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:a05d7dfa6159839aedd15f77963cde6f99baf4c1437520cc9f1a1eed5dd47794
++  __AUTH.__data: 0x20 sha256:32324fd684b9cc856117c7ea93ec412b5dd9cf5a50743286e6cb1024beef9173
+   __DATA.__data: 0x7f98 sha256:59c9f2c945e0579725db5f5b613c7d8807191cf85ccf618a539c8ae94f3e3480
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+   __DATA.__bss: 0x3c8 sha256:a038ee252f6057f767a2e97566457a8ade06fc1203c8e9be326a5c29181df5ba
+
+```

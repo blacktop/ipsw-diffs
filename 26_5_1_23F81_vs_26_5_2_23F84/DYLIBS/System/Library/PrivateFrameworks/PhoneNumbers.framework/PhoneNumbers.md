@@ -1,0 +1,44 @@
+## PhoneNumbers
+
+> `/System/Library/PrivateFrameworks/PhoneNumbers.framework/PhoneNumbers`
+
+```diff
+
+ 106.600.51.2.2
+-  __TEXT.__text: 0x1f4 sha256:794d8461fbc4d5ce66be981da717a50f4810011c6f7c3e13fab7709dcdbbd73f
++  __TEXT.__text: 0x1f4 sha256:2b66636b79981bd8c369f69704f7f59498ec969d17d6a819eaefeb9568719ea1
+   __TEXT.__auth_stubs: 0x80 sha256:fead5f6c765a4b9dd139b1c275184e9c48fe731c44a51814761b1f95409f6014
+-  __TEXT.__objc_methlist: 0x6c sha256:8e4fc0528da96aae0d9c4c94d3c800e19022259dbc5b2df280d20ab5f65a6bcc
++  __TEXT.__objc_methlist: 0x6c sha256:3dba719d7ecf4959ff39b68df84f97cbdfaa6a273339d6687d970da4a216bc67
+   __TEXT.__const: 0x40 sha256:f7efefc4977b6a4442ab8f88feed244d6ca674cae368e42ef773606a9a7ff8ab
+   __TEXT.__cstring: 0x2a sha256:5989c92f9a7ce39d676912b798e2dde2ad2e864eb9e56c79845df10cc56a4c09
+   __TEXT.__unwind_info: 0x70 sha256:e3423dbdde592d38ddb06608bb2453008273335157e033d36286f9d8db55b120
+   __TEXT.__objc_classname: 0xd sha256:f94663aa28ba754e8d61138789da8090868e171b560f02ca31063421d5be0d61
+   __TEXT.__objc_methname: 0x13c sha256:d1f9d6c652ad371a8b0d3fc98bfb7e0412d3fd6704f94fa50659ed85902f9da9
+   __TEXT.__objc_methtype: 0x2e sha256:6c2577c7fe08cf79d72c937c0431d81a88498f5ca5aa7fd6c615a21a1770f3ac
+-  __TEXT.__objc_stubs: 0xc0 sha256:63ea08c560682c910541f4309177bcd4419e36cb7579aaab53a6a76b69701cff
++  __TEXT.__objc_stubs: 0xc0 sha256:a466195ad3706c2086beb6ca354b4131e9628067e19626a6ab46d8dc0c9cac99
+   __DATA_CONST.__got: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_CONST.__const: 0x20 sha256:f6ee6c81c176a95c2a35ace083cef85aeb320d02cf763514a005aed3375118f6
+-  __DATA_CONST.__objc_catlist: 0x18 sha256:b07f6b505bc1e811b758a65d65ff958f3d401c651c71e220277038f5bdb0da50
++  __DATA_CONST.__const: 0x20 sha256:212381d3ac82ea3036880d48036fccdf4edd3991d976b54cb4dac8c5e8d77ebd
++  __DATA_CONST.__objc_catlist: 0x18 sha256:690b2c290f22875e579fadf1da987ea623a8ab06c70928ec235cd6b6a41caff7
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x50 sha256:d7f45644f37697273ad4aac751e834679139ec993b9e899bb31abcdb4556d0b3
++  __DATA_CONST.__objc_selrefs: 0x50 sha256:c7f0ce17cb45d9d03a678a4ff0c94f5edda05937a70f63ea2c2ef750941c2953
+   __AUTH_CONST.__auth_got: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+-  __AUTH_CONST.__const: 0x20 sha256:5661874333a474924f785b3ae9197d6e0c1e781d8fd8e82cf0e819acfdb8a3be
+-  __AUTH_CONST.__cfstring: 0x40 sha256:62566f46ca162d851a0af384c2342dee0ed9648fbc96c3807265e5e1499ded59
+-  __AUTH_CONST.__objc_const: 0x118 sha256:829e75d49cd9b6bc287454a87dc96cf8c7603e3f29e1b4458a4abc6e5af75000
++  __AUTH_CONST.__const: 0x20 sha256:5f7314e3a71700ba74ea1b34bc8f392334e58acc5a0c7fd3e83fb387d84a8801
++  __AUTH_CONST.__cfstring: 0x40 sha256:ff3f5ad0f10ceb7b512782b23dcd0fe792a90277dd381227edd9c425f049e248
++  __AUTH_CONST.__objc_const: 0x118 sha256:f7aef4f115e0a0999a64f05c38730cb60b9d7d7eb18f683f608c2141bc43f1ee
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ -[NSString(PhoneNumbers) pn_hasInternationalDirectDialingPrefix] : sha256 97b1e3d2e0aa1b9ef529aa949325b02e2b1a164adff00bd20e5820c6beaebeea -> 987bf49bf674f544d32e76f930a1135e3af5f2a7a3089c68a62714b75faac01a
+~ +[NSCharacterSet(PhoneNumbers) pn_verticalServiceCharacterSet] : sha256 b4170d914c18acf0a71619a67864026d64f4dbed98efb18949dbfccf4f704208 -> 2dc5051011a8aa99cdaf051df624540b291307e3411f7eae649fb23914eb1edb
+~ _pn_default_log.cold.1 : sha256 7fd7a8f1f4638ecefafc697cca53783833771b1361bff313cb14de4c28d45c91 -> 507a868041e3577de4fa420ac08f631c53e0e5cd45963bbe7a71a8f78fa2fa49
+
+```

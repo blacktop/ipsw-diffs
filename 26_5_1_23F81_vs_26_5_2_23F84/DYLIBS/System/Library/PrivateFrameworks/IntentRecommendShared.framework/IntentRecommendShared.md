@@ -1,0 +1,27 @@
+## IntentRecommendShared
+
+> `/System/Library/PrivateFrameworks/IntentRecommendShared.framework/IntentRecommendShared`
+
+```diff
+
+ 67.6.0.0.0
+-  __TEXT.__text: 0x1080 sha256:a95828c7c3333cf18ede037b4b2d0b695c87e0e6c25528ad5391bbf0bf23affd
++  __TEXT.__text: 0x1080 sha256:e9939432e23933711cd5e89f35df8a68127ae8668acb035c64d6e8a3722f67ed
+   __TEXT.__auth_stubs: 0x260 sha256:aa92873d2d9430cc2daac9eae5278f4040966403628653f617560ca39bb02b2c
+   __TEXT.__const: 0x9a sha256:62a78297f8043bbb7b20ef05f6f8ee30737c801d3010cf029b989b43b43b3311
+   __TEXT.__cstring: 0x31 sha256:2aa2ee64c0412cec65640b3d1fe053357fe667e20b0f2ea4979274eb9da47cc4
+
+   __DATA_CONST.__const: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+   __AUTH_CONST.__auth_got: 0x130 sha256:e2fc162ed9124452d23c85e81d60a0c228f414c3214a5de635737e25fbd29ac1
+-  __AUTH_CONST.__const: 0x148 sha256:597e80a8c13f678b10f3e51abafeb0346ef0d03411147951d56c52346c17019c
++  __AUTH_CONST.__const: 0x148 sha256:73448c83415ecaf5bb7bd83f40cdd882914132568e7afff20dfee0cf01604ef5
+   __DATA.__data: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   __DATA_DIRTY.__bss: 0xf0 sha256:2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ sub_25d4675ac -> sub_25d49f5ac : sha256 e0ae710d2c5877a790979650af42686f945ddde79ab55fcc4f44c74372572393 -> f05e632160b9e45b67c2f6f16899209230515404c0eb69b66b1c3ae7b470d421
+~ sub_25d467a68 -> sub_25d49fa68 : sha256 f2015af89dd2e7716644e2f4d38bd1453332756bd3c158c759ed51ec922d9e8b -> 81464bf445fd90b343ae3037f85ee713557a8a8b624d244e2380dc7d59bb76a2
+~ sub_25d467b68 -> sub_25d49fb68 : sha256 0d0fa1cef568f4d182c29687f8b9485aec9114284360f2fc2cb8dd721d7158db -> 7c3c990cfaa1c6420eef3ad2eb66538aae5f08470913164876f6c4e8fdb879f1
+
+```

@@ -1,0 +1,49 @@
+## TextInput_en
+
+> `/System/Library/TextInput/TextInput_en.bundle/TextInput_en`
+
+```diff
+
+ 3532.5.3.100.0
+-  __TEXT.__text: 0x134 sha256:eb24767ee7a616a23a447d24fda97df3a93f9d214cb9c13a9aef87ed834fa78d
+-  __TEXT.__auth_stubs: 0x70 sha256:eca7dae4d3f96697ae091f41a3801adb4e99e89f61667b193a6172c03ab1112f
+-  __TEXT.__objc_methlist: 0x2c sha256:8add39e4109524a0ec59ff015be96a307fef9614c137fd56fb1b47593df9755b
++  __TEXT.__text: 0x134 sha256:ba482b3996dc69330e6c722180685924976241a2afdf69571d02d390bec1cc7c
++  __TEXT.__auth_stubs: 0x70 sha256:c3d65bc194db144ed04e0b5a745910e28f6ecab3e2b81f2a920b92086bcb1e0d
++  __TEXT.__objc_methlist: 0x2c sha256:36dbb22fa5f02f8f0b8e46e71e831035bad8f55ec7b7dcc4d9f83e7d31f3e038
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__ustring: 0x6 sha256:9006ec625f9d11859a26c6fc531ef28f0e5fcb5f22de6a486920836b72ac771e
+   __TEXT.__cstring: 0x6 sha256:957563ee9c5b2129695eff99c2399504a77e966bd69c5bb2b4beb58bc7ce2b6c
+
+   __TEXT.__objc_classname: 0x49 sha256:bcf712839f066415c7728d7abb783005754e40e1473959f8b79f2ac07b3c84a6
+   __TEXT.__objc_methname: 0x71 sha256:825b17987db22f5ba53933c37d4f25320ec83a0488de10acd9b9e044aaee9934
+   __TEXT.__objc_methtype: 0x10 sha256:0884495ad32216332f2e50f97f267011dca0c35b96b95ea2f6aebc7b0adeb28e
+-  __TEXT.__objc_stubs: 0x40 sha256:71be9434fdfe845f98ee1a483c63da5ef574c4523b96cba7b7726665324e2e53
++  __TEXT.__objc_stubs: 0x40 sha256:74110f9631f3031e9d3c6797df9aced57fb73d9db99709d1a8c113d72eb0841c
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_CONST.__const: 0x28 sha256:d29f0d8d9b94a709cf160f32a17baa4b5b7ad9f918482487c0f52ce48d84ba69
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:a74bb4e4f1f6500d8ae38b453d63b3b6f3d21bc0eb4e665ba3e6d75bdee60365
++  __DATA_CONST.__const: 0x28 sha256:059303f314415f88f141f1fb560e11982d3416ac86f27ebba18fdd8d3db95992
++  __DATA_CONST.__objc_classlist: 0x10 sha256:977ee5687a18079f00992e847e01cd68e96e6e6d9d7d06ab57725c13ccb4c35a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x20 sha256:514c4d0fd9f48b1f8332861ce663798560016630c675c471074134ae6aea7d52
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:db2c9aae63cbc504f47a60b8255179a26dcabcd9652c143de876ff9c7b1326f1
++  __DATA_CONST.__objc_selrefs: 0x20 sha256:940c7bd2aa11763faaced5a9c0d6b6f2796faea5531617a1bb9dae548e4dc692
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:7cc7075abc5ace5f7dce036253ce2cf4ed4694caefe782afe504ee236f9b868a
+   __AUTH_CONST.__auth_got: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+-  __AUTH_CONST.__cfstring: 0x20 sha256:b3e4775d29ab53f2588f2e676f0d7b1db69b0c4ded9871bd647fdb9c293eef0a
+-  __AUTH_CONST.__objc_const: 0x120 sha256:ebe787ae2a9f76f90e23f52c9c9c486fd809d858dffcab362b431c55277bef4b
+-  __AUTH.__objc_data: 0x50 sha256:92904e4cc0c893055294943b6c513786aa6a39925ed3889ef4bcf6e8411de75c
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:f6cb049a5098ae3fc0b33d081191e8b888718fac9c9d471006e1732574520218
++  __AUTH_CONST.__cfstring: 0x20 sha256:4f63b04bf08ca92ec51bb0fe4dbb3373219fa3d86581ba937f0b80219e330ae7
++  __AUTH_CONST.__objc_const: 0x120 sha256:ff5f09849ffb76926c40f2b5364a80ca931c9391b60ce1c55cd249d35e9e6218
++  __AUTH.__objc_data: 0x50 sha256:c278a7000fdb334ac6dfe5e4cd3f87cfe0f69149b3dda081ac7f0875b57aeaf2
++  __DATA_DIRTY.__objc_data: 0x50 sha256:9ea64b14ca4e9f03d9b9dc5b4b0c99229e3011af881fa99816a91cf15fced829
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ -[TIKeyboardFeatureSpecialization_en terminatorsDeletingAutospace] : sha256 9b30d806cb0f9b2ccb03e1760bbc7157477132cce8863e8e30d9cd380229c19b -> a11083a6706fa914fb0f5f6b02bae4f98f979f9b2cfc16da63692e403a039968
+~ ___66-[TIKeyboardFeatureSpecialization_en terminatorsDeletingAutospace]_block_invoke : sha256 e5ee2630739d99deb5fe21fb52fe1eb97ca0ee646cb2ad1e20c37515d455fe1a -> 6e4e35a352cdef67925283a3397ff104f43d222602d2258bb716eef04b2c985d
+
+```

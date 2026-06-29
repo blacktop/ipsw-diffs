@@ -1,0 +1,50 @@
+## AppleMSG
+
+> `/System/Library/PrivateFrameworks/AppleMSG.framework/AppleMSG`
+
+```diff
+
+ 101.0.24.0.0
+-  __TEXT.__text: 0x10620 sha256:3142cf64456afbf70adb5f247961576345c69dba8497fd03e3539ef885a7ba91
+-  __TEXT.__auth_stubs: 0x360 sha256:fe66f1802e5775d2e7e63d306385f3baa1a25c68c9a1c05566e762890a95dc9b
++  __TEXT.__text: 0x10620 sha256:f9bd33681d048b6fa1766250c98c0dd4f940d9e88cfe1bbf0a31e0c2452b992d
++  __TEXT.__auth_stubs: 0x360 sha256:0b452e5fec34b1f57791bbe84afcb8906c771952e4a309846688f5417e1f0d65
+   __TEXT.__const: 0xd8 sha256:4aa79a4a401c15809af2435cd755d770d3f72348b9d59a1408bb08b09dfb37c6
+   __TEXT.__oslogstring: 0xb7c sha256:283a762f6dd3bb8a124efe745959756091518269caa5b6ff63c000e84a1e72c4
+-  __TEXT.__cstring: 0x1f18 sha256:8f60c8b5ed99ba58bd54936b187a5359c11394284d63bdc2652ccbf5116c7be1
++  __TEXT.__cstring: 0x1f18 sha256:f1ca3e429600b9589e42376f0ec36ed0a95addf377eb2a8eac87ff63220d4692
+   __TEXT.__gcc_except_tab: 0x104 sha256:74a75203df3312900a0f0ab1b81a8dc07790f87fd24c197ee12482ef277047c9
+   __TEXT.__unwind_info: 0x3e8 sha256:c6d5ef22dc99a46e252bd411005f58ed374033fd75ac82ae1968eae3c9015f62
+-  __DATA_CONST.__got: 0x50 sha256:a2ed88ee225b1a6e74ef632f7564372da42464e0e45d4d2ed9dbfd32451ef0b3
+-  __DATA_CONST.__const: 0x70 sha256:4ea5bc30b8a3f04a88aa3155a2091aeb86c1fd3bf6695a7095164d2d47307a2b
++  __DATA_CONST.__got: 0x50 sha256:081cf03177bcd5c3e96af8bc3d62635bed42b748750a8c3d4248cebc93536ef2
++  __DATA_CONST.__const: 0x70 sha256:887196cf216d2e53d322a28c2e95ca42f047ccc15bad75c7b06dfe65c3a8b62f
+   __AUTH_CONST.__auth_got: 0x1b8 sha256:041fd94fce2b24cbd3e5d3a1c50723d266ac9044e62c41a67f3037692551ebad
+-  __AUTH_CONST.__const: 0x1c0 sha256:985fb51e5f4ab14a4fc1aea4f798336f1c3fac5488a8e509d94735132cecb599
+-  __AUTH_CONST.__cfstring: 0x40 sha256:22d78309498b4305681393c3d3728514221c3f531c7709603451602973a5d142
++  __AUTH_CONST.__const: 0x1c0 sha256:e18bbef23bb6b00bb8e2ee72ccbb899cf319e7743c1ee3fe2375711e0bcd2d71
++  __AUTH_CONST.__cfstring: 0x40 sha256:8a921c97271df7fbe58c249978137d0bb61f0464a8f0646c021cd3705c7d5f11
+   __DATA.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: E08A8A1D-0CDA-3C55-8F9B-C7C554D4E0EC
++  UUID: 91ECDE9D-F612-3469-9B18-1C7F768B0AB8
+   Functions: 483
+   Symbols:   923
+   CStrings:  242
+Functions:
+~ __ZN8AppleMSG14MSGTimerToCStrENS_15msg_timer_sel_tE : sha256 aa7e63ebf8c849745312ecfbaec5b1df6aadf8130879159a785e18dc1d5f3151 -> fe4e3cff15412895ae3649198358324cb3f4cdd38bcd1b4b144a0b775f3e4e24
+~ __ZN8AppleMSG16MSGTriggerToCStrENS_13msg_trigger_tE : sha256 43aa3fcf530c4191145d45084921c28acf21c03488a5ec92ed0b30a097c83054 -> 03325e4c124bfae71c5245508091cf83c0000c0c8ac55e2f9b1b63f94772a7d9
+~ __ZN8AppleMSG24getSyncConfigDescriptionEPNS_13sync_config_tE : sha256 542dfbdb3f176fe5379028bed181eb8f0d0e11e8c9b23f7b3e433f508220838c -> 17b999fce8e0d19183cc80473658aeca1abcfd4f70b5558b90a64437fdd95efc
+~ __ZN8AppleMSG26getEventTriggerDescriptionEjPNS_19event_trigger_cfg_tE : sha256 7652c81352822b3857731dbbcfa8450d70e5cbac8e4154ee8e630c2c671dc0eb -> 53fab080135df840ae5df15c2b06c0aa56e56d8a5cc2076d0df7fb1e21de48c4
+~ __ZN8AppleMSG20GTBScaleFactorToCStrE18gtb_scale_factor_t : sha256 ec7826e26ed8ab7c87483733639f04e6f082f2aede96513c62c9874ca5a199fc -> c3bbf6de31fe67362a55e46e20429827554d17d9458b9cafcd3a4d374521bae9
+~ __ZNSt3__120__throw_length_errorB9nqe210106EPKc : sha256 7ee2950ba0893c3ad2d63a67e7536bbb43cf5066eae4ee519e855f6f9a7e762e -> ae7507c3c2c33972ddc03d39344b2d0db9eb025160fea01ea0b7065c5c41f543
+~ __ZN13MSGControllerC2Ebb : sha256 b748319a4d88e2f4a19e0f7c25ae7d972f379f8a12f71ecf0c138e16d785a835 -> 96b7ae2cd1b130758d113360a2d687d58cc2eb5c2f168f0b490156f09dd7f4f1
+~ __ZN13MSGControllerD2Ev : sha256 f140a313c3a4b43efea6995869ec2a48c1a5d7be6527429e347482507240a7ae -> 475959e87271f80cbdec5260622ecaff9a6f9bd06f5a1f8d5a212004ceb25e49
+~ __ZN13MSGControllerC2EOS_ : sha256 6b351c94bd81da46bba02a8bec8375810d7af78494d7d61cf73d329336f91862 -> 53ed669859c5fff8063b82e21b6286d3bfc7d9a7eb970fd8409e42735f71c66e
+~ __ZN13MSGController20_openServiceInternalEPKcP16dispatch_queue_syRjS4_.cold.5 : sha256 4e1a824c94bbee47a5747761684ab3b5dc13c518c7eb6fe86b5decce3666169d -> e321a5872a42aa503fd54fe40dfced37e96c86394ac38c2beaa592e5d8c8b5ae
+
+```

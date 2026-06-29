@@ -1,0 +1,27 @@
+## libBasebandSharedServices.dylib
+
+> `/usr/lib/libBasebandSharedServices.dylib`
+
+```diff
+
+ 1418.1.0.0.0
+-  __TEXT.__text: 0x3ec sha256:82a0df30aae672a1307b907885db937a6c218edc1124d1949152959f37d8aa3e
+-  __TEXT.__auth_stubs: 0x40 sha256:83e59855f05bab3eba890ec194e4da2358a28f2ad2eff278ebf1bd70906e0b0d
++  __TEXT.__text: 0x3ec sha256:6c9c35c1d92291f1076efe19a759101fa4e0b975b6558ecc0345acac02351ebe
++  __TEXT.__auth_stubs: 0x40 sha256:3715ac07e418d29bc550c189b0c3f10aa7a1b46130dee4ac6c7d636511285b69
+   __TEXT.__const: 0x78 sha256:fcbdf691e3d7f7416af2119057f108fe243d0983613acf38be71d9f20c1e6655
+   __TEXT.__unwind_info: 0x70 sha256:d3a4f355b5ba9b049a0486004d34838302d3d53de9127eaa23e31555eee33379
+   __AUTH_CONST.__auth_got: 0x20 sha256:0fda3e90147ab064adb3ee0b7c22922c863640a2cf242d28bc6f0a00f4539497
+-  __AUTH_CONST.__const: 0xd0 sha256:d8ee8b3ba53466a1a2542cb063752b1868bf6148a29b288d4304541831ff47d1
++  __AUTH_CONST.__const: 0xd0 sha256:4f4639cb30b501d4d3a6eab345e5e50d98b5ded3e5e23b47d21878fc39c04113
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   UUID: 27860229-1D3A-32EA-BC90-480A6E97E62F
+Functions:
+~ __ZN7FactoryC2Ev : sha256 538197a2642a353c168510d1f8e2c829831543df473c6620543a8a556a57d5e1 -> f1310356e1a80ca0421254236de05f50690b86b047277b811ad8325be106e682
+~ __ZN8RegistryC2Ev : sha256 229353b05bd36de36ee882055539cdbca1a5ab551ac4d3df8200df14e802d0da -> 3b9b963e3894b7c22ef409e156350ff8274a06ca2ecf27b242cfa7c4545574a9
+~ __ZN8RegistryC1Ev : sha256 0c4d81e81137e8db0c2d11b6611589b4663fb59de972e9388ff93abb9e4bda77 -> b20c9e6fade19325ac800fdefec211a2a66d4a4d45ba9c1f7b885310b4de07c8
+~ __ZNSt3__120__shared_ptr_emplaceI13RegistryModelNS_9allocatorIS1_EEED1Ev : sha256 61e20cd57db06f65ed03b57d846ffc2f77a2e66aa041d3e5df8c578fc5abddce -> 001aca16e34b0b78a5b5165b30d53943a039c338f2d7fe90e9c8be37207137aa
+~ __ZNSt3__120__shared_ptr_emplaceI13RegistryModelNS_9allocatorIS1_EEED0Ev : sha256 ae03892c0ae9261be8f9c0363b7588ca0e03b82b39944700f712da22452fe604 -> 1dc8e2e4e38c73189cadeaab8469720165c464e9c228ac654816c7b51e2e94c6
+
+```

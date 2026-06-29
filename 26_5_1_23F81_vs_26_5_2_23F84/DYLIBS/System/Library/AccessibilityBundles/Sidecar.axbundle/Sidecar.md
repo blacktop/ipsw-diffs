@@ -1,0 +1,46 @@
+## Sidecar
+
+> `/System/Library/AccessibilityBundles/Sidecar.axbundle/Sidecar`
+
+```diff
+
+ 3005.28.0.0.0
+-  __TEXT.__text: 0x1b4 sha256:6ad7fc8da9c8106f050be934f4f4f8fb5b0fb1255a35f3843d4a678014e076d8
++  __TEXT.__text: 0x1b4 sha256:8ceac596651bdbf05712cff6769e9dc8411586430692b34d893efaefbf3cb525
+   __TEXT.__auth_stubs: 0x90 sha256:ac4d4fefbd1c9d1ff6df9d95b7858516515b2254462985abc007d726d188ac37
+-  __TEXT.__objc_methlist: 0x14 sha256:41222923c406d08472b951f69c15ea21e36a867cb1b331ddf2deda08d6ca3398
++  __TEXT.__objc_methlist: 0x14 sha256:db87355c5ddfcec0de4e4fd11cb7a6c86db2e4bf17867cf75ab9eaf6df63f966
+   __TEXT.__cstring: 0x65 sha256:60723f1c5e70a8c63c1a1f2b607579b06aaa16dac9c2043b3c71c24e703eb17d
+   __TEXT.__unwind_info: 0x70 sha256:00a492c1a7683e7dc9e03fa8f10765a24464bc40089241a54feceaf996767826
+   __TEXT.__objc_classname: 0xe sha256:6b9f44fc2243b6984c540e4ad6b843730de32261738bc715615778df6e2cc47f
+   __TEXT.__objc_methname: 0xf9 sha256:55c58ac0021250c061f8dca1c7308723c563c7c7f0a4b9af3ec8a8237f27f422
+   __TEXT.__objc_methtype: 0x8 sha256:6b3bf957e2feccea1614ba0d17780c05fdfa13300c0b89a3c072b7ad044d8273
+-  __TEXT.__objc_stubs: 0xe0 sha256:cc3ddb5e11c68af3c4bd6fb4b2573beee69004b6ca3f24cd2e2bac32fe2ee174
+-  __DATA_CONST.__got: 0x18 sha256:b3f2a502fbb1ae621a49a6d7dd6b82ba686e8194135f3e5a5b89bfb07497d865
+-  __DATA_CONST.__const: 0x40 sha256:48eba397ffa9446b37c364943da87734abdb84e45f14870f5aa9fdcdf248c8d5
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:a52b741332222a81da9b44b00d29f9716a06d5dec89fe07c8fd3e56dc7db6768
++  __TEXT.__objc_stubs: 0xe0 sha256:db561774e33de5434475c81ba0c491521c91df0c479ca1822ac890215e0c5cf5
++  __DATA_CONST.__got: 0x18 sha256:996ec9c80668478c29d7a2cd7b60effb76b0e250348560e396ba3ba771acd861
++  __DATA_CONST.__const: 0x40 sha256:957bc4e428d455381432944720877651396f25f978bc11554f652e5553df6620
++  __DATA_CONST.__objc_classlist: 0x8 sha256:5337f7cc4aa06d51892c42515805d1dbe8f4722264eb79fa9a33bd2f80a7d0f2
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x40 sha256:6c83feb36a64287255bb4cfd6baedc9918b0047ad4c4bb88d7f793fb2bdd3051
++  __DATA_CONST.__objc_selrefs: 0x40 sha256:a40a273a924125aed592ea1a541f46e9bd6cca99ee5745fd8f4d91132a755743
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x60 sha256:b59c4c6ecabe29ef2ed41a6095567ef3770d6a2b48a647df358615df915c681a
+-  __AUTH_CONST.__cfstring: 0x80 sha256:df1f29f1748cbcca8420ba3826f34a1012d91dd9d857d6e3961cf28debada39f
+-  __AUTH_CONST.__objc_const: 0x90 sha256:c7c3401c7e45e0d9b1739788657a04b81f1fdaf194f2f4e6a7a7aa881d9a74a2
+-  __AUTH.__objc_data: 0x50 sha256:e649f84d08c5b13f4f6496816eaba26bc32e105b60109ca882dc4b5a2f9f2e5d
++  __AUTH_CONST.__const: 0x60 sha256:4f3aa626a97e759cacfab74ec182522c4d0771d770386ca42b54da45e5b8b06f
++  __AUTH_CONST.__cfstring: 0x80 sha256:0d718f6ba0576e9d848c291913cf1f8b1397c45fe39d1f00694638390fb7130a
++  __AUTH_CONST.__objc_const: 0x90 sha256:d83c65f4b6a84b48b8d486ab1123c1aada19f9a17dc38c76bc289e8266f24534
++  __AUTH.__objc_data: 0x50 sha256:0fe5fac888a4dc141f333164ff4394bdf049d8aec65c0cf51fab56f3d567bd53
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+Functions:
+~ +[AXSidecarGlue accessibilityInitializeBundle] : sha256 bbe5c4c8616e79f94c7e60656b42de31cedca4ca6e64da684c1ad8cd332abad1 -> 4327665002c0deffa189d52d3a206f3c50d2057be88136e03510c0cc714c74c4
+~ ___46+[AXSidecarGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 3c29b0a713350353f7b84d84578d7575fab8e0df6dfced504f61acc691365765 -> 8b2b396916ab7da545de1c3b4d95d9a283d94ebc42f7330c3b31b4b1e46b7cc2
+~ _accessibilityLocalizedString : sha256 c1fa24896723daa87475a9319f9892181e8259e7c789ae82ebd79c0d516ddab5 -> fd1a41f071e19ff9d68bcfdb0511d06913ded1b127844b13d097a58b80c8c414
+
+```

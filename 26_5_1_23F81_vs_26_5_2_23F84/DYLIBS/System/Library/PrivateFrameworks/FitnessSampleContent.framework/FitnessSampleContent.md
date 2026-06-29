@@ -1,0 +1,30 @@
+## FitnessSampleContent
+
+> `/System/Library/PrivateFrameworks/FitnessSampleContent.framework/FitnessSampleContent`
+
+```diff
+
+   __TEXT.__objc_stubs: 0x20 sha256:643858da03ef8d3d3e56e4fb79e47424f210ccdbf921c2a342de2c335da56167
+   __DATA_CONST.__got: 0x368 sha256:232885aa9953d5c0890072e5589e9265c9a06f8354cb7403cde80d604c526f09
+   __DATA_CONST.__const: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:d4156de678ff9560930760f4eab5585417c08d8415b13fdee0a6253255ac9e92
++  __DATA_CONST.__objc_classlist: 0x10 sha256:a82a882dc324a7a8853379f8935299de119d28923b14d5e0965b3e4d633c3ec9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x8 sha256:bae3c716893ce39a5bda6b36492d5ce5594fa961bdc22d5d2334b3ab64009c1f
++  __DATA_CONST.__objc_selrefs: 0x8 sha256:7afc4520a8f3756dace13d053b346656fa1e0e33d75ff115f89b8fea37ee98f6
+   __AUTH_CONST.__auth_got: 0x740 sha256:8df33479f953d7860ad0f279a610303ff12bfca57a8610d3adda43663809f34b
+-  __AUTH_CONST.__const: 0x1228 sha256:bb1dcbbab9c41673e031b00288dadbc7ca82e492baa6ee7d69b61e240d496b84
+-  __AUTH_CONST.__objc_const: 0x120 sha256:2674f1abe67d6c923a84f148214ee272f48a89316ad91c2a8ae8beecb66b45da
+-  __AUTH.__data: 0x98 sha256:dc5b7476e6583746f4be216418b834ffb274cae09862c1b7cccae60b69ef3601
++  __AUTH_CONST.__const: 0x1228 sha256:482becc659e5afbb49fe3ebcb663b9ce3e1bcc3a48823823a4270f6920a81d75
++  __AUTH_CONST.__objc_const: 0x120 sha256:da51fec51011737a06b7e86e405a27766d310680cc68f725bf34a3abb8230751
++  __AUTH.__data: 0x98 sha256:341592b0b16b822c3875440d909a59d5483501518852cdb4ee618b02d1747a9a
+   __DATA.__data: 0x850 sha256:8378cf66af72b7b288185379a7bb28c562587780d9491a94b3b6d8df5a77d3dd
+   __DATA.__bss: 0x2ea0 sha256:0b8cfee32a518ea42e883b03d46f027ec33b274da656775a91af550ca39f2306
+-  __DATA_DIRTY.__data: 0x6b0 sha256:60eca2c0d16b467886acee22c2569f23330aae8d823d70dab5c13b63c2646770
++  __DATA_DIRTY.__data: 0x6b0 sha256:7a58820b26e5e31c0100be706ba7ab14b03a26e272a9dd4d85534fe36a5a6576
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_DIRTY.__bss: 0x1680 sha256:32ead73abab870ab0c7ba67a2337215e63ae49394d3c22dbf133e7ce1c7a2a0a
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+```

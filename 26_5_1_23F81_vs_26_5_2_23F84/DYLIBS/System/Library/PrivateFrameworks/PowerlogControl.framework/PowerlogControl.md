@@ -1,0 +1,43 @@
+## PowerlogControl
+
+> `/System/Library/PrivateFrameworks/PowerlogControl.framework/PowerlogControl`
+
+```diff
+
+ 3031.122.1.0.0
+-  __TEXT.__text: 0x90c sha256:9e891ab408c8aa01cc5d2326e464b7aeffa29403181ccccdae79c2fc5b6bda19
++  __TEXT.__text: 0x90c sha256:2e1d5d758b80329c3a1d4dc421fd7e264bd632f44556fda2474a39a35112aa70
+   __TEXT.__auth_stubs: 0x1e0 sha256:f07377e5a8ae3fbb11e4422170f2997863e9a6df80b8cf482b8f2d0c0e82bf48
+   __TEXT.__const: 0x50 sha256:c2f31ac3409c9564df594df70b014125cba039d902733f785bf6e882f93339a0
+   __TEXT.__cstring: 0x140 sha256:ce032065441027bb4120968552f3fa7c096b7467a1cac49e5c29b679471b382e
+   __TEXT.__oslogstring: 0xdd sha256:6d7e3e4d3223f63bfee3c0332bcb08c12daf970f8762e0f7442ff55fa5cd30ca
+   __TEXT.__unwind_info: 0x88 sha256:be30cd502bf0164ff144732ce086f2313cad14e0a0f4cbccdb30daac33c00003
+   __TEXT.__objc_methname: 0xdb sha256:bc97ee11867965e91237d57061b5d0bd63c5d2e47b25151c646fde8e0d81f019
+-  __TEXT.__objc_stubs: 0x160 sha256:843b243f5f20f65436a6fad04add9456b5cfd0053941cb878ee007e07f229958
++  __TEXT.__objc_stubs: 0x160 sha256:6ebcac625877722e450c75dd709658737ea08a0169fbcb4201161c0e020bed5d
+   __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__const: 0x40 sha256:3926f9b8016fea84d7ec8c01b4f420a0e4feb3cd2b65329ad55e8bd40661c741
++  __DATA_CONST.__const: 0x40 sha256:3f445de671cf72941086ca699dd9866e1fb3dc6dabfeceba371691a1be811f0b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x58 sha256:1c65903a2bc956bbc44ef503fc1c5b11575f034f6d31be5e54ff9b69db2da284
++  __DATA_CONST.__objc_selrefs: 0x58 sha256:b3774b2401b241766519f8a4fe7667ca8565537e9b0d9cf99b3022c73350ee7b
+   __AUTH_CONST.__auth_got: 0xf8 sha256:b3ab6982980fddf460a2f47adb428475ce9afa89092fd034499d017a35993f05
+-  __AUTH_CONST.__const: 0x40 sha256:7f3aca0af3e3e0da7b447911770ed06a453be3aec79da1686b055a47a35ed06b
+-  __AUTH_CONST.__cfstring: 0x120 sha256:12c12638e18256e80477d7024fefbcf7bc0e6b68d6aec73474dd1eef728a9502
+-  __DATA.__data: 0x8 sha256:da056ec864d675852a2a0960a4f8a13c61ae55969c9818fb29a67be7e72630a7
++  __AUTH_CONST.__const: 0x40 sha256:9ca46f512a81aac0f16945fb22cfc18fd3a5ad4ce6fd82f648bfa7c743819f54
++  __AUTH_CONST.__cfstring: 0x120 sha256:e9019617fc76614dd2bb425872bb5f3138efd85cc357f82f7f8bc0bba8e3f3bd
++  __DATA.__data: 0x8 sha256:814543db0da89d078df868827c9ddc106da42b3d1d1ea76175b966acf50fc500
+   __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ ___containerPath_block_invoke : sha256 9c8ffc0766f6dd926be188c7dcfa87cb7a22ac31eb24fa62bd417091b55a8ae5 -> 09a05d272c15485e1387d461699fdfbf8589260ef77c08d73dd1edc3cec085b9
+~ _allowModeTransition : sha256 88cb467ded0c5f38ad0709847aea80ed1f3c6d1f0ea4686216afdc8bdc027a19 -> 9f135c5fd69ca81462a26b44082cc4bcae0b6c69354e2c3a37ecd9029e91a9c2
+~ _PowerlogControlReadMode : sha256 5016deb265a5d64421e39608f052de353cc56558229947fd23c3cecfb9806910 -> 502d2b06e68d1e96719b9ca1c911df40b9060f6dbc4d60903aeeaaa4a5a30903
+~ _PowerlogControlDefaultsChanged : sha256 685e433ca56d88f3f6ce055183e22ce10bcf375e2ce1216a410891776f185081 -> 3c0cb44a111ff3cd17ad880c8fc0f3b81f8a9f86516aeb2b93e4be55df5424c2
+~ _PowerlogControlSwitchMode : sha256 1ab58f069e9fd09d84a3acd7f5723f7d7723c386cbe88cebe82073d5c124796c -> cdd4a8b207a4b1af2adbf7345cbe9a8d24d744749edff80a9059af6fb39b328f
+~ _PowerlogControlLog.cold.1 : sha256 0d20a68f29332a8d3c479718b1803b81dca365ab228cb80586f12024ed25ec18 -> 287c715ad30610d5f6b51937d88011375b40d43f6dcab72876a674650a1e6b77
+~ _containerPath.cold.1 : sha256 58ec53856661fe5796a9669c364e86528ec92b47f2ed39fdcda6315d20325ac6 -> dbe841a9d4110a09f5f75eaf76d28b4f27a0d6664e365f693877b1f6104f9b74
+
+```

@@ -1,0 +1,55 @@
+## VoiceShortcutsUICardKitProviderSupport
+
+> `/System/Library/PrivateFrameworks/VoiceShortcutsUICardKitProviderSupport.framework/VoiceShortcutsUICardKitProviderSupport`
+
+```diff
+
+ 3525.5.11.11.1
+-  __TEXT.__text: 0x393c sha256:943580fb8b7d490c476389cc5160aa50cadccd8b6dc106e40eaf3784eeab3c62
++  __TEXT.__text: 0x393c sha256:0f9ff5866fd0a98e5708190d96ab4fbc3f26d512461563712cf940725e1e8ec6
+   __TEXT.__auth_stubs: 0x280 sha256:2c60368d4d9d6f3480a8d2b191cb1777999df8b8444037e7a7aa66f3d41fc801
+-  __TEXT.__objc_methlist: 0x5dc sha256:d7900f63f710edd29012db468a0a371a32d91697e358c3f4b2de30e0e2962784
++  __TEXT.__objc_methlist: 0x5dc sha256:231e95c0d834363cc21429040024b59057b8f4bcad1e61ec4225f102dc718e68
+   __TEXT.__const: 0x90 sha256:878940506d6b8aed76f3be3cd84e40d831c2a2627cf1615ee2e905704647e49a
+   __TEXT.__cstring: 0x109 sha256:37ec9f17e530fc7ed282e9088c01f37f3c8fe66db7be0000618807fcabc19fe0
+   __TEXT.__oslogstring: 0x9e sha256:05c191a61a815c0a9e739b2489520e93c67bcb131f8906789259d54fc553673e
+
+   __TEXT.__objc_methname: 0x1355 sha256:22a03f9ddcc588f6b5c231ed9935e65a3ef0541c0524733066805219dd3e6fe0
+   __TEXT.__objc_methtype: 0x62c sha256:81636d60b97ff36588c68f3ad31625d93b47ddb76fbb53e7d6f0c78e6aafa8a0
+   __TEXT.__objc_stubs: 0x1040 sha256:21a3d54940cf358bbcab8fd68f01a6883bf3644176a02baf0a653e0f5d7c680f
+-  __DATA_CONST.__got: 0xf8 sha256:0ba16c536e08e48a54e708662186d3bcb219427d16b4ce8d011829050245b2a1
+-  __DATA_CONST.__const: 0xa0 sha256:3a67ed131d7989c895a9633219c3630ccbe2561f97f8b3d5e0110ba7700dc6b7
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:08a890b2a4ade7f096921a381abcaed8fe815ab3298ff040152ea38615c62400
+-  __DATA_CONST.__objc_protolist: 0x50 sha256:3dc60b3ad562fefe1ad8ab2f84d7f96d5415961fcb2a8d60cd10675fb62ab367
++  __DATA_CONST.__got: 0xf8 sha256:765c1cd52ba81e2ee070c835eeaa47e7dd92bae02e98336864922ba7d3195c1a
++  __DATA_CONST.__const: 0xa0 sha256:12e87ebc5813062a47ce635daa3b48ec787a1d98b99a40feaa7b133302500cb5
++  __DATA_CONST.__objc_classlist: 0x38 sha256:c86c9114383c6c217f61c8deab67d3243c7e1899087068cfd3716113bb3a259a
++  __DATA_CONST.__objc_protolist: 0x50 sha256:3bd766e4b1839cbc2e509eb038d765ed4a8c843c139f8ba520ba568e4d0fe58a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x5a0 sha256:3760f6bfa0ed9fd1476a24983695d3e749a15cc2004f719e38d49ebbdc6f9d3a
+-  __DATA_CONST.__objc_superrefs: 0x28 sha256:5991e1f70c8d1f6107414f4e4e8e2b104be58724a439cfa3d2bb061228cfba49
++  __DATA_CONST.__objc_selrefs: 0x5a0 sha256:aa9c24ccd10d7425a9176cb04dd679ad6e6900702b58dc60eb2e85784be3590d
++  __DATA_CONST.__objc_superrefs: 0x28 sha256:04b66b78fe4fc03b26717df51215200f725746263d98426a3fc355fb3929ee25
+   __AUTH_CONST.__auth_got: 0x148 sha256:7b4499c3cc6e82a9da3100028f52af7f8c1e9ee60e33010a108e401989782962
+-  __AUTH_CONST.__cfstring: 0xa0 sha256:b7f24138fcc8e4f845e5267a462d0e142b1d1bdee673fd977f41db2264f68c9e
+-  __AUTH_CONST.__objc_const: 0xbc8 sha256:5db8ccc9d8743f2275ba256866cb571ce773b3510773d471e06fe01649396eeb
+-  __AUTH.__objc_data: 0x1e0 sha256:01e794afd9667d0bebb4b3bcb1af438144f76ba31c9958d90ef5722d570c8dc5
++  __AUTH_CONST.__cfstring: 0xa0 sha256:b990bbb7263290d021f5e1ac93c7b94312e9deed6c908367592c7d6e9ac318a6
++  __AUTH_CONST.__objc_const: 0xbc8 sha256:92847c05df6c6b11189ed8b42f952439f832cddcd22c757e3dcdda64bd386bc7
++  __AUTH.__objc_data: 0x1e0 sha256:e9ce423b1806a1decd005229f90d4bf177c839a522d5fd87784868de3e0f26d8
+   __DATA.__objc_ivar: 0x54 sha256:3a8b973403f1fa77010c67f4745110bc4315c478c0fdad7fcda9daa40ba22266
+-  __DATA.__data: 0x3c0 sha256:17b4e84ec33f6471f76330f11d6603d53f87679e3b8012d8f652bda92b429058
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:e95a81b7ab4f71a743b17bd71575c97ca91dcddacd56db45960b469c7d122127
++  __DATA.__data: 0x3c0 sha256:c521e98d0d403be0fa30ef3c8c5efe9fb2b6032303eb73f4261d1a9d1bbfb827
++  __DATA_DIRTY.__objc_data: 0x50 sha256:1069565e3c763e48dfb8f998412708fef3abd84af28b8c84dce142590184f66e
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ -[VSUIProgressCardViewController _initWithCard:delegate:loadProvidersImmediately:] : sha256 c292a6ac400f2d5202999bf44cc7667f339f602415479a602143af53831f80b4 -> ad706f4a20c14e350a6d6f761e065969c2db505ce64cbd37bc156aa9871f9e74
+~ -[VSUIProgressCardViewController handleCardCommand:reply:] : sha256 fd2f525a238bc52639f301a6e05ce4e0b0e8746881f1cc5a6dd0ea002b36c755 -> da14859b353ffc1526f2958590ee402dc4880fb9c06e3c543a4f6a85ef1e9082
+~ -[VSUIVoiceShortcutCard initWithCard:] : sha256 5e75a5e88878ecff1e5c89e972a38b83e9786105dab1d39b62c8db7c8b436609 -> 8baaab7bec7b6cec858856431c0a5e70bf9703924f9fb6928ee2722936249f03
+~ -[VSUICKPEntryPoint cardViewControllerForCard:] : sha256 37c74ee81566c95d4e4be909e1c61dd3a08dfbdeb984072517d8a09bbf656baa -> 8450f0aff950cfdd307bc6ec55dcff929371ebb2095037665f0947723a1cd6e0
+~ -[VSUIActionStatusView _setUpViews] : sha256 fefa10182ed3727c2952b82ec4cdfce3b87081e316fd4a2243a73ca3cf07f714 -> 1559e99993f403d644561bb95d760d496e60a77f2087880659a3fccededbf3f2
+
+```

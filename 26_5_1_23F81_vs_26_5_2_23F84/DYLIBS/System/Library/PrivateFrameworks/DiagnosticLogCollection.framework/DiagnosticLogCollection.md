@@ -1,0 +1,35 @@
+## DiagnosticLogCollection
+
+> `/System/Library/PrivateFrameworks/DiagnosticLogCollection.framework/DiagnosticLogCollection`
+
+```diff
+
+ 1121.600.1.0.0
+-  __TEXT.__text: 0xaf0 sha256:efdcc85b503581ad7617dbd04dd44dac1f13ac510e13ed3798d257794e436dbb
++  __TEXT.__text: 0xaf0 sha256:c604e1e0a084a89185a571f7ce4156cb65ce5cb1cc81ada8c9105ccf156a05ca
+   __TEXT.__auth_stubs: 0x1e0 sha256:fe04f10339b0558d887fabcdecd6c5bb8dad06a1eaa0fd8df37072da2c11bf33
+   __TEXT.__const: 0x58 sha256:63cfb58f0b2332ed38618ae85de09cd5b136c744c83ecc03e8462b18875eb62e
+   __TEXT.__cstring: 0x12a sha256:a9676370f966309c680edba785a09eee467e8440bed2231d8f01ae25ac153044
+   __TEXT.__unwind_info: 0xb0 sha256:32fe0e53dec9e7c55121fac39d598826efe739d308742987f741682256393bf9
+   __TEXT.__objc_methname: 0x69 sha256:e2d1c404678361f1734d792c7682464f030bfbdba44ba8b9dcf2e0ba665832da
+-  __TEXT.__objc_stubs: 0xc0 sha256:b5fbe5749a2dac5cee7130671d674cba0e0635c3968e1d73501789fd44bf52cc
++  __TEXT.__objc_stubs: 0xc0 sha256:90b5b075acd5aacba6413f62a8755065fcaac23e73f3f76ff478fec87c67d68b
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_CONST.__const: 0x58 sha256:511fc8091944da890241d02971328e1ab2b42139503fcb343ddfa89402999eb1
++  __DATA_CONST.__const: 0x58 sha256:bd5a0f54139a5b65426ff2016c2b0ae06424fe3d412d4bdd1bbf26e2667f77dd
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x30 sha256:3aa89555a609c58178152ca7e0b501e75ed826cee705fe516049980b10328783
++  __DATA_CONST.__objc_selrefs: 0x30 sha256:73a622a80a54f62fcaad7749247d49f8b4b2c6c88e834fba012db5941dd363dd
+   __AUTH_CONST.__auth_got: 0xf8 sha256:b3ab6982980fddf460a2f47adb428475ce9afa89092fd034499d017a35993f05
+-  __AUTH_CONST.__cfstring: 0x1e0 sha256:a9840dc25d5acd5a535f44e342403d4f0315aa2aa58c951b527f41b8249a5f66
++  __AUTH_CONST.__cfstring: 0x1e0 sha256:0ea66623e986a0a0596df0501559f1b18949f674e040e66338013180325c4d7b
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
+Functions:
+~ _DLCSessionPerformSnapshot : sha256 299214c395f4c3b0ae5d30fc0ea96926b53ced88dcee55396dce4efaf256f123 -> c5ecdd80e42614dce1cc6e5371652d2971efd44c97b29b8f30db5a2a89e6bc7f
+~ _DLCCollectLogsWithCompletionHandler : sha256 9a38535f16a40b45d7cc405c72f9eea9df810af271c9399b3de59e9465913f18 -> 3576c112b24828a4619db6579da674973e23126eda46244142deb0e36eb81d90
+~ sub_250525188 -> sub_25055d188 : sha256 83059d3bab8f8c37496b45cf1f1a9abcfa506d305fa804f8cc415f567717689d -> 6ee06bb8e7ca5d822dafa7eb00bc86a6cf6c45ded5bc1c64e42e62182cbdaf9e
+~ _DLCCollectLogs : sha256 e10e530eec58270564690711dd3e498cf278bcc7558ee6e2eb040daa360304e1 -> 0a04f04a058727a2b6fccba9224ae040f71445d5bf5c5e84519d3f1f1284730f
+
+```

@@ -1,0 +1,50 @@
+## AddressBook-Assistant
+
+> `/System/Library/AccessibilityBundles/AddressBook-Assistant.axbundle/AddressBook-Assistant`
+
+```diff
+
+ 3005.28.0.0.0
+-  __TEXT.__text: 0x1f8 sha256:ceb81cbbc87fee1bb4eb7d233a0bc4d830d1ad8f9a8e85655ae45707be67d5e1
++  __TEXT.__text: 0x1f8 sha256:183763e3d0529e2730ba093a9ae8ad263fa59b3df5afd985ee914dab04878afa
+   __TEXT.__auth_stubs: 0x90 sha256:aa2756b8a6fe014064db7ad3aa391767d850994987840c452ccb01d775521974
+-  __TEXT.__objc_methlist: 0x54 sha256:58ac423e698628e619dfe83a895f815375d131bd9c6320cc679e626838f02b9e
++  __TEXT.__objc_methlist: 0x54 sha256:3ead66c84cc14db735018066fe6301d84958bd8b39c2d7e889c8465c138b8e89
+   __TEXT.__cstring: 0xb7 sha256:5a9d13e837b143ebb9fa8ff2b1c49e4aed439339744a7c3c9c52dbc5114a11fe
+   __TEXT.__unwind_info: 0x78 sha256:4dd88640156d2e0832c8b096d6a9b765ca965599901dfd586fc5b7104a610266
+   __TEXT.__objc_classname: 0x78 sha256:0975fbc73a68d5f6f84646b1c785c9380b0dfdaa5ed99bbda6dd19cd2132323f
+   __TEXT.__objc_methname: 0x196 sha256:a8e90e3dc7e1bf84890c3160255a0215af33251ae48cf67a3434de63c81ce5d0
+   __TEXT.__objc_methtype: 0x20 sha256:bab425ba17fd07d2c23499d74aa93ef87605c203594d6511883f0a2df990dc36
+-  __TEXT.__objc_stubs: 0x120 sha256:9ae89dd25f35aceeff1da34b1cc9b6fe8056e44d821da9426c2b3fe8b65db773
+-  __DATA_CONST.__got: 0x20 sha256:35794f6c14221f12b9dab1b28204363c744bf404ecda56f37f18d4c7c612b5f8
+-  __DATA_CONST.__const: 0x40 sha256:5a6e83bc86da40bbb3ed34d8eb604e9e7c29793f70f9258cebcac56480778d0c
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:c3ded3893afb0979f6b007a94023c129cbcec7c86ce28637773fe7bf79448ac9
++  __TEXT.__objc_stubs: 0x120 sha256:fd2bc7c4e7fbd0468a539f81b620acb275332433481470fa97e25131fd15ffe6
++  __DATA_CONST.__got: 0x20 sha256:5f6d686d2a46428b255eb9bafd8df126b620a6f7acbc803df1e8b9632344747f
++  __DATA_CONST.__const: 0x40 sha256:ee1e375f6c0a472fdc7d81d25bbee00ded4af7f54805d46665fa86c7cec0f622
++  __DATA_CONST.__objc_classlist: 0x18 sha256:be9fbc7febdbe998b7008fe0d86d7404d043de8206414eb36b91f175b0cc39e9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x70 sha256:38ce6b3f7ad85d8b35e2da0c78dc3b0d50c2f6824e460034234b1eed105f7d00
++  __DATA_CONST.__objc_selrefs: 0x70 sha256:5b8caf1fc9e6f0af28aece751b422ea480d3165afe6d2ee841cb795f489629dc
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x60 sha256:537b750a851ba3a469e5ec88a8db0497a3d2bbfe7595e3d84c938d91b91f3af4
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:bce6f28ee161f105263dbe434521adcab56f29bcb9cd5b0fd5f89c000d47adbc
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:87a66bd13d7cbb7fd1d1817a991931acc56a64379780b28d44579f86e6e56aa3
++  __AUTH_CONST.__const: 0x60 sha256:3c4cf95ae3095730dff7d8c1a3acfd3b8ebd1f11e0646894c2a7e9e4a8ac4a53
++  __AUTH_CONST.__cfstring: 0xc0 sha256:49b26db18769f6d9dd645d195de7f5a7dc7d2090ba3efabe2c2a8f0eb2079e7f
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:c749a1ec1739ba5e5495f358adfca3180afa73c72913a20ed65a8cbcec476c48
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:e0ba507e61714a38649a79f7245bb00380a3df438c543206154572bfb409978f
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:5843824e6c1acec1ec7c104a62bb2e58b46b0a1980caac8db6f08111aff5ca94
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ +[AddressBookUIAssistantGlue accessibilityInitializeBundle] : sha256 8bba2b59e36ee8efb6b7e864734583fd59f0ea4d196ab6d1efe0c5919703831b -> 8e5e7d921505252f219a584e84b6dbfbfebb7b4fe4b06ff9ef36b57218532242
+~ ___59+[AddressBookUIAssistantGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 343861141614f6b96cc08850ca06c2ab5216325154749a4ef5645da0446e8c97 -> 801c05e53f2c5db17527e800dcd29b64a985251ba0089e695264907f2fcbc447
+~ ___59+[AddressBookUIAssistantGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 a59200f5d77fa4ebd8fb9e24242a534254f870e3c866bbb65555491f88be69bc -> 14799010ffafb27414dd3210d04eafedc99f86f9ccb72727f0e7c0ad915a8276
+~ _accessibilityLocalizedString : sha256 13fe3d2a4ec6a0aa4d8c9ba702c7540b5448d04dc892416c2d624d6841274976 -> 0980c949e36db1ab524619ad1dca4486272ec3d999885fe13a3d4e81153b7d9a
+~ +[CNAssistantSnippetViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 7e8ca14c4b64f0f6233a28ed91e52b83daac141b545eba7d86ff84720500d342 -> 044d3c077ba9baf1eb0448b263494b1a8aba39302d629b28fd737ccd5be1a6cc
+~ +[CNAssistantSnippetViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 f2b4ada1ea6f0ed278f681016611b19dc49e04cbb4865143f0dcbf71506d6118 -> d237dd2a25eee4c1b5a58c6966f60cd4adcc809c13731bde095e15fedbe87e2b
+
+```

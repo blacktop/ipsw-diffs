@@ -1,0 +1,23 @@
+## FitnessCanvas
+
+> `/System/Library/PrivateFrameworks/FitnessCanvas.framework/FitnessCanvas`
+
+```diff
+
+   __DATA_CONST.__got: 0x2c8 sha256:283de789c3f9ae6115e627ecb921b7b39bdaa1b82289eca5e60da0b76d07a502
+   __DATA_CONST.__const: 0xc0 sha256:7e4ffc71df45f84e0ebd7368727b54c048c39b3422292402c2c93feb87f54a09
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x8 sha256:07df1526aedd2c8e1717e2616e5eb53d93d85ab9c745664c28e61d1edad2e67f
++  __DATA_CONST.__objc_selrefs: 0x8 sha256:d2e5efe375e06e02c32ba249670a7eb6a5e9fa2c525f70a0ec66c8ab07514730
+   __AUTH_CONST.__auth_got: 0x6b8 sha256:7f940f388dff02a4f956e483bb83d796c6b7e80d40704e13c67505a1cdf779b0
+-  __AUTH_CONST.__const: 0xf88 sha256:df734222df94c4228904357f35300ef4a9523752feaf2c4df2fc8c980ab3107d
+-  __AUTH_CONST.__objc_const: 0xa8 sha256:dc883cb98d7a1f7a6879a32c3629c2f356fd5377dd08f6090b4c332cbbe87aac
+-  __AUTH.__data: 0x1d0 sha256:872514251c81594880f49734ffd8594c5344c4159a55f232a505592b0299f9e1
++  __AUTH_CONST.__const: 0xf88 sha256:bcd3df3147cf920535467b39866b1c77f04d2bdeb8a9bbb1b7d25a9c425a53f1
++  __AUTH_CONST.__objc_const: 0xa8 sha256:ae4a7c24bb25d5abb4a5cb280215ba6c28d6c9dab96137ed77744f7c49d7bb19
++  __AUTH.__data: 0x1d0 sha256:2c280c4a7ac2cacd73d71c77953986e8568326a316b88dc26dbe88d5beb643ba
+   __DATA.__data: 0x4c8 sha256:e28b98a94e0077340a3aece749f2d400c3f06890cec9447f4c2567bd1e7a5839
+   __DATA.__bss: 0x2120 sha256:f0aa51fc81f8242316fcf2cb3b28196241ed3fa26dd320a959bce6c529b270a7
+   __DATA_DIRTY.__data: 0xc58 sha256:cdc28654cccd0ec8715c94a7c57162af4c223e85bfbb8100c1eb6802cbec5fb6
+
+```

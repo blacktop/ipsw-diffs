@@ -1,0 +1,93 @@
+## GraphVisualizer
+
+> `/System/Library/PrivateFrameworks/GraphVisualizer.framework/GraphVisualizer`
+
+```diff
+
+ 307.0.0.0.0
+-  __TEXT.__text: 0xa7a0 sha256:7f30ecd6461d804afc5b22d4516757d10875e049219c3c207b825a043076edb1
++  __TEXT.__text: 0xa7a0 sha256:40a4093c83d4542bd06484ffba00995ccfd629433ce715d9cc1a928d9b111279
+   __TEXT.__auth_stubs: 0x290 sha256:65428c4108107598a46189cfd46a06bc7d76d1fe628c40aa61f8a8782bb74ab5
+-  __TEXT.__objc_methlist: 0xacc sha256:8d042b1246b02936689950e60588a9758f187065341691d7691668a5bc685d70
++  __TEXT.__objc_methlist: 0xacc sha256:f14b64c3a229750acd0c8867f8e840292cc229a7daae7f17705da75d19054b59
+   __TEXT.__const: 0x30 sha256:1e31d0564d529b62f9c151ed053e2a918d50fa9d9c3bd7d8737f0ea54ab3d02a
+   __TEXT.__cstring: 0x2f2 sha256:1617bef7880f999bf7cb5655a5123ba21b3f781111b7324f97573a4589882dea
+   __TEXT.__oslogstring: 0x21e sha256:53d5575cfb1bb00e11060d27f9140a225cb73176caf5cdc073a54761f00659e1
+
+   __TEXT.__objc_classname: 0x78 sha256:b2dc69076a37d3ba35084206c06d2b46131488d02410843dbba01dd35624c5c6
+   __TEXT.__objc_methname: 0x1070 sha256:f7ab41a66246038d557f77174fa15f65d2e45fd110079bc88827ede4525b49ed
+   __TEXT.__objc_methtype: 0x36e sha256:6febba24f0db890ae8ef50456d70641727c575d3348374064f4243a9bae132f1
+-  __TEXT.__objc_stubs: 0x16e0 sha256:037ca2e9f292523988ab1ee5ae44ef67d4268af285bb9993be87a7d95118dcdf
+-  __DATA_CONST.__got: 0x88 sha256:8c012d19468e1c6f54d640b33c1fc72fa1586ccac5118e09cafabf38bc971b20
+-  __DATA_CONST.__const: 0x1c0 sha256:f1c3f9e45cec361f7de974ec26bb33b37c8e65fd62d28a9e0edd606dcc82ec8d
+-  __DATA_CONST.__objc_classlist: 0x50 sha256:75e2c25b0eff15b2212f60c17ec7078400a4424042fae86fb0ebe5fc80918bda
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:a51a23eac64e8df312ed235765141e8dd73815e92ee100afbfeaf95603fdb06d
++  __TEXT.__objc_stubs: 0x16e0 sha256:e60f6a63940568c2664d5425bb986a5e736db771d15dd020e1e3c649f5564a53
++  __DATA_CONST.__got: 0x88 sha256:d1e48a287930edadfa5f6c0bb372a317a3a0214ae81af381b734f6768bc84771
++  __DATA_CONST.__const: 0x1c0 sha256:b5b5ae9a89a996a204ad9d39846e0399bb83bc6f7e74dace926bef9fc2bb03fb
++  __DATA_CONST.__objc_classlist: 0x50 sha256:fbc6940fc208f7f97ede073e7010aff41c9f7a191e8fdd8136a281ec9413034c
++  __DATA_CONST.__objc_protolist: 0x8 sha256:6beeb55a9394b10f7f6771194fb236b60cd0c3cdec775e536b1f465f2916d23f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x6c8 sha256:845b1f63508481cf1a3d27470bec589aeb573478a15728d0601db7ff94987d7d
+-  __DATA_CONST.__objc_superrefs: 0x48 sha256:19e9a338b6dfd53fedc676c7c5ccf0c9c830b1aac4b372dbb61937f98ae427e7
++  __DATA_CONST.__objc_selrefs: 0x6c8 sha256:def60a84a91a6f3993d996f5b7c8f21355bac0ddb6481d6c2471ac529ee81b6f
++  __DATA_CONST.__objc_superrefs: 0x48 sha256:29769101bf3b5309f1b5a0b152fc2f3f7dd98e9d6e2838b2f5191f9b2e478a38
+   __AUTH_CONST.__auth_got: 0x158 sha256:7c7f15ed27de2f3a51d1da31356b27ea1be15370faa3caab96606e5390ebbd0e
+-  __AUTH_CONST.__const: 0x100 sha256:644f922215a2ce74a5223cc5a5ed3e8ae1da0894d0217fc583b7936e2ebcb535
+-  __AUTH_CONST.__cfstring: 0x260 sha256:e7e6982b5b1de4d92618eb5c8daf80218b66bc1e24a7455d7b3cc20acf37247b
+-  __AUTH_CONST.__objc_const: 0xea0 sha256:f0d0cc52e7d7c9a60921c453327c7b57c6e68c0baa494f70cac5ceb998528c15
++  __AUTH_CONST.__const: 0x100 sha256:ddf1fc4f6bb020cb23acbba217c90526c811c229297931178416bf0b51380096
++  __AUTH_CONST.__cfstring: 0x260 sha256:d884dd2e1cf4539f849bf7c61db1ca2e9f56799954abbe45ae3d30cfcdab4946
++  __AUTH_CONST.__objc_const: 0xea0 sha256:cb8d8c34b44a67e181ba5aa25a1da5f1c18d6c15b460176a8b26687ef5e71bf2
+   __DATA.__objc_ivar: 0xa0 sha256:45df861100ebe0a13f7b0945229292e0fb91cca462b07983861115fdc4a4fd4a
+-  __DATA.__data: 0x60 sha256:b414459639106776d6df2cc2ed8347d2985b5412675617561a0e8f40c9452507
++  __DATA.__data: 0x60 sha256:64f0749c01b30b5f8df620501b4a495d33271041898677a41596ab6d8fbd8238
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_DIRTY.__objc_data: 0x320 sha256:d598498ccbbf3ae37de0fad95a0f9e10b89594dc7adc07b0ad4bfe58d5133660
++  __DATA_DIRTY.__objc_data: 0x320 sha256:5038b52699c2af82f7e7795ec75ab646c9859a32cf436a33716e46012ee14de6
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ -[GVNode init] : sha256 dbc6748b3c35bd748cee6735c9d3d3b3d72526d4a5aacd4bcb2b3d0dc4bd4935 -> deec416a27798cc687a2a67bf2ae7e4e6ff897e29a4d3822be9e614018cc1faa
+~ -[GVNode description] : sha256 f594c68b8bf049eade4073a31de0f435361216b65e275e303f73dfb92a342c04 -> 4ba359a0424f86e84cbb554f8bcd3d0dda5f311b00c6c12e6b4416f04ecaf3ec
+~ _OUTLINED_FUNCTION_0 : sha256 f02c30c1b81a54c529f75c53d8c0cc6cd0ee2a1b70b50f34d450cb1d7d9d57a5 -> 959e08a159a69372cf61e74e5290a0fe4e7d783f946aa44d40616d2bf28ef2f3
+~ -[GVEdge initWithFromNode:to:reversed:] : sha256 57af5eef4bf4b8a0c4ebf71de500698100041888a59a126dffd8dca1de197543 -> 8e2ba626869b1f511d51bee8df475ab9b5695ec316caba46696f2200a2b36ab3
+~ -[GVEdge description] : sha256 cc8b0cd1ae7fd6748499eef3c3ac90dda688613a67e6f168b0225f4f298beb78 -> 6d93c2b99a89875fcb2df814649c01ad82e4f951e69ec09b56ba62788080904e
+~ -[GVRank initWithRank:separation:graph:] : sha256 426f0a68b33a06e1f1db0258d51e892c9bea6edd9425c76b19ded1cf4c1be8ea -> 8dd8172e56a6ef63edf2fa7703d82fb425e81d926dad8b27244c6549f36b0e0d
+~ -[GVRank dealloc] : sha256 49dde9744cb3308458e3fcdf6dc4487e3ae2d20132f953a35e440989b33199c4 -> 750a4033b9dc58dcc719c40c5eb2ebf0bba3b4b2b6841099f4520cb8d1ce6980
+~ -[GVRank debugDescription] : sha256 39c73698d019211754193cafabe714d2c5b767db48af264651d3886c678219b6 -> 3f8d3d75a2097f5ebbe45866e020c046286ce1c20da0b470f73d43bbfdfb1ea8
+~ -[GVRank sortByIndex] : sha256 48e65f05333ca3160a5c1e733aac21202e1304f0ee2555e6132a8e082f7a69de -> bdee6d1730fe1cf3910ea0bcd4544b1b78e18cb2e7dda4e778ea2f70b80406f8
+~ -[GVHorizontalRank initWithRank:separation:graph:] : sha256 f66503d9ce355516f8fb88ea251c12c1fff6eab34d1842bfe968458db39737fd -> 7383f97ae093891bd26d9e53cf63d61debc66b9ed8b170eb7d26551ee73ab261
+~ -[GVHorizontalRank centerNodesWithRespectoTo:] : sha256 3893ea4b74789e2bad091356be7adc09406bec245fb216d4af7bf20611988859 -> f986f978a00863f4eae65cc5a8661754fe28d63a75137ecbc946cd0ccaf7e001
+~ -[GVVerticalRank initWithRank:separation:graph:] : sha256 264b79c52f23839e948584af3f21d78b51f9d1c28107e0fbd39d5a72d8aaa62f -> aba82024456ac32bfb79623d19cd7b3744363f58f32c72fefe8abebcff145623
+~ -[GVVerticalRank centerNodesWithRespectoTo:] : sha256 e6845e86b98ea463ed4f9a344e6c59b8dd57c66f0f02d8a5ed47b5df2f65ee9f -> 18e17a1d8af774dd44280939b2fb8ec91f7ec36d4d58e3e70d5666161242454a
+~ -[GVGraph init] : sha256 da3ded2fbf0ae817f79f6793e22e57d1d690590042c0bd646e61bc6f9f8cc210 -> db0b85e33c134d6d768e661f45ca92fbe3eb1efb641ac1a582175349d0b79b06
+~ -[GVGraph dealloc] : sha256 4d3e0366e70b45a5a4e6e81f1b331c36799d015dfe75b37954a48c3b5869c541 -> b9bacadb5c410ce59041ac09d7f12609e987a49399d1d3de1775f5b66377ca4b
+~ -[GVGraph traverseNodesFromStart:direction:randomize:callback:] : sha256 4b810314ecf6d223759107681553f852a20fe687c1f38238f514f6bd8bb2edb4 -> be048fd7daa2bbf4c60ca0ba6abd96f0b826a13ff6bc054ea86a24084f59bab0
+~ -[GVGraph findEdgeFrom:to:] : sha256 199cc93cf644175020f20b29a0f9be883b55d3512b077821fcd7759e830c848d -> 1da3b6caadc479779cb63a3a082a74ecf61666985d4baf1726749974023baccc
+~ -[GVGraph findEdgeBetween:and:] : sha256 73db17aaae62efabb7ada8a92851ee2bba46dcae8503db0b77d46c2d273a721f -> 5bbeca469bcd05f638b4aaeffd0892028632cfd297c53e94b1b6019ec6972894
+~ -[GVGraph addEdgeFrom:to:reversed:] : sha256 9edf101eab524e6042aae6eff6b7bb455ef92ccb9d6d14bd80c547d224b950e3 -> 8c50897114b20bc0c0b5f669bbb5e643927bc42b4054fba2c497cc5461ae2d84
+~ -[GVGraph render:] : sha256 3b8494022bb4c6f063d803159a78e606255a5c2d3658fbd761c61a6ae7a206c9 -> a3c1373057f35c8ba8a19315ba2a19779d4d423e3f0ab5ab8aec3597606ebbbe
+~ -[GVGraph description] : sha256 5ce42341112d9e75a427548174dc3dd1dcab5abcf8622ee303965753b821343b -> 83f83048d8c358b4756e2d5d2f3e53b0b5133d448fc6ebcc766649fa16a32db2
+~ -[GVGraph debugDescription] : sha256 a0991ab2accabf24d0dd7854f1c1ca10b2623da801008eafc5606dfb9dd66511 -> 8c87a630d29fbecdb67ddd710fe75845a3afbf0c1439f55edb9c724548813128
+~ _OUTLINED_FUNCTION_0 : sha256 f528ce64ab319d4c74ad374f9e613cb36eabeb29799f64995fdca2ca602d6aa9 -> 030523476d1c70687a695252b022869608bf17ee3008d509db7ec65b5f788322
+~ _OUTLINED_FUNCTION_1 : sha256 94b12b3a6ab1b8721571d67b1ff8184c29323db066e3c93e198cdb4afeae7b92 -> e8019008a60cb299a636d9204711d60ed34225cd13065020e07cc42ffd72a784
+~ -[GVIntegerMap init] : sha256 9fbf1c924be0d2041b015fb054b0514fca436ff69097bd85f970a0f81a49bd2b -> 8636b7147450f849d8c9b409c822ca3d74d8708c8835b714b9643f012f9d617e
+~ -[GVIntegerMap dealloc] : sha256 3014ee49d23f4c1082cdf64090fa5747f575f36216b6ca3f1c41fa003b2e4893 -> 483cbe21f09abbaf202b8b569df1dd10bd59cc76623491bda9a1bf1b8c24d225
+~ -[GVIntegerMap debugDescription] : sha256 f4833987e4dc630bc8441cbd24a93bf7709ef0bed44acfda718dda5f76919e49 -> 7b66e6f831b312126555a846e1fc8d68bdc633dc8bd5a8329deac2023469ec17
+~ -[GVUIntegerMap init] : sha256 0ac0ca5ed8910572d5e51f0c08d1850a8f1e64aac5997160b22e82c92261ab9c -> d1d6d2fa1e7850631ff18f68b97f5fa53d8c8c062eaafe7af5e40f503ead76eb
+~ -[GVUIntegerMap dealloc] : sha256 06f4f54fa5c3c24e45645cbe25794caf22bec878fcae57cb8295ac2d80eefc7d -> be8b472fefc2a78a9dbe5d7d76b6c4dd8d5d677ed4563f3f162bccb806d44bb8
+~ -[GVUIntegerMap debugDescription] : sha256 e07185db814edc9f72996163df0654520537a6b21f66a2005ecb216270db3c51 -> 4a79616dfea760eecd275bc7636a5ee08aa9c8da19e0fd898ffad4d71b6356f4
+~ -[GVLayout dealloc] : sha256 a6dca627786b888401ff53c61912a93500e024e772a4b9a9cdb0cdab6eab9c8b -> 83b0c539e4761d154665f1740f6126fb07ae0d6cf320cadb58420f277e80c137
+~ +[GVLayout layoutGraph:withDirection:separation:] : sha256 fcb2cd4c0b92cfc8cb2b09fed43d41e8962f17245912d0cc7cf8527a65c37017 -> 5d98dd2f7d7cfa4eb07fa7cd5b1ff3c4f79d2f8bb0790593f88f091972fa9531
+~ -[GVLayout doLayout:direction:separation:] : sha256 e68a882ddc089039fb2e89acb645ae4d550a103e5e7671d3911f6d18b665e99b -> 72dbd0260a42e5c67b1b1ad94ed08586cc2c628352525acd0613a756c835ba33
+~ -[GVLayout removeCycles] : sha256 b7fc51088da1eaaa69c6e05ebff7940eab2fbf240123a75f93cb1e95ddbfec84 -> 8d03ad31729516622fb4473a98258972e3c15a7b093ae78f937bb1bb0abc66af
+~ -[GVLayout makeFeasibleTree] : sha256 11f9c592c57deb521ae3b6b83f3e8af55c78b8747545a76f66e9b868cacd1fbc -> 4b85d2e54f903d9b46d8d97ac7b4c4adc212f6ab8fa4838a746425decc8eb876
+~ ___28-[GVLayout makeFeasibleTree]_block_invoke : sha256 481c9320fe61e90c3e5e614b2b62b70a0851ebde100d623ad24400d4d543054c -> cd63dfcc93962342dd2a03e18bed935c1b8e11cb9d6023a825f09851694502e8
+~ -[GVLayout initializeOrder] : sha256 43e51ccbf3199a15ccacfa8fb0fa7efb863f258dba4f429c63d85a36d02a1191 -> 0e8166c9dd6e76c14cfd0642821f9887a845bcf8d6d75e33ea517482fc3f4dec
+~ -[GVLayout medianSort:withRespectTo:] : sha256 cb9af4aeb88ced54db2e10429d6a02354c8d091634bb55bdf547412361872b6c -> ef9bdca6aced00b7275a8d2d5f2d09ce9df8dd2448fd9cc680c2255dc9c7f70c
+~ -[GVLayout straighten] : sha256 6d38987bb587ec66cfa163b75977efaf405b9c43e38b1edf5261e4041ae7c257 -> 4496fa7461ce22ca065f47d5818c76ffc3d293ccf8ea26c704622344a8383ddb
+~ -[GVLayout drawAllEdges:of:] : sha256 1b6a4ceb92319de7fc35f7899ea223857bfb2ef1dfb538223c830bb669f4d221 -> 0dff2a9b2f88b76f659b0d405c9024bbe6807ec81cdcb5f11ecda7d95172d1b1
+
+```

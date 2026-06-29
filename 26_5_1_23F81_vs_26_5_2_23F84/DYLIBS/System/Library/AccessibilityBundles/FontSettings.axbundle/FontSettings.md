@@ -1,0 +1,46 @@
+## FontSettings
+
+> `/System/Library/AccessibilityBundles/FontSettings.axbundle/FontSettings`
+
+```diff
+
+ 3005.28.0.0.0
+-  __TEXT.__text: 0x1c0 sha256:4dd8aade154a0266497e5468beb3fa1cd5bc5e6ff40bbd8b26c58424e00f8641
++  __TEXT.__text: 0x1c0 sha256:89af0b9d760b22c61fe0a9bc56d4368d16bfaac1ce4da2f9d74fac77d9180231
+   __TEXT.__auth_stubs: 0x90 sha256:96bf497a1b18a425f1632d78e61ab4cc967fe34b562935ee571471d95bf8c0d9
+-  __TEXT.__objc_methlist: 0x14 sha256:f7d2d6eb5501d1a3cec356b968f5711da79ab7d90f6504b0aba3443d1f003a1a
++  __TEXT.__objc_methlist: 0x14 sha256:6cedaf89f96b4d7ff769078f500cc55aa49bcf1c0b7f59d7f4252c5fd5fa3e75
+   __TEXT.__cstring: 0x68 sha256:4c78909abc76bc18798776588a2f02d5c0335ba0da3f9ab820accc70cab1a3cd
+   __TEXT.__unwind_info: 0x70 sha256:93b84ea4d1e7a5b35400846aabba711ed896f348d193245ca1fd1752693448d2
+   __TEXT.__objc_classname: 0x13 sha256:8813c7430a44158364f8987a101f0bce1a3342c329600ff944db38cf852ec952
+   __TEXT.__objc_methname: 0x108 sha256:fbb7904db9632ee9f8a3687f7b40bb03d848ee64d5e781e5dd31a87e39c78bcc
+   __TEXT.__objc_methtype: 0x8 sha256:6b3bf957e2feccea1614ba0d17780c05fdfa13300c0b89a3c072b7ad044d8273
+-  __TEXT.__objc_stubs: 0x100 sha256:2c1b524d1a68adf56984f46dbb83ab1dff662fc5294d08edcf9cb9b6b1ac5578
+-  __DATA_CONST.__got: 0x18 sha256:e67841e5d0e291af162e1604109817a407758bb85f0616bf6882097c7fb186ba
+-  __DATA_CONST.__const: 0x40 sha256:88637f5aa4ed23e766e76c98b7d286fca83771e74346001753bb2f5e2a3a7cc6
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:4440e71373cbeedfd7ce24212a9c682a792f259584cf4039286062a8d7b8b9d3
++  __TEXT.__objc_stubs: 0x100 sha256:11048e4fa294681472f767b06a859a2eea230c208dc7fa5601cbca343560d0f7
++  __DATA_CONST.__got: 0x18 sha256:8b277698a1687dcb92b8ce4946f7617ddd2bc86594a1ea2ced0ec23914941573
++  __DATA_CONST.__const: 0x40 sha256:91f61d9575a2c3a24b1e9ebfa752591128bca6adaa4484abfa143bf4bf919638
++  __DATA_CONST.__objc_classlist: 0x8 sha256:ca5beee70683b43a5d4b227c5882fbb6a5bf0de48809685337594d6c362f6a00
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x48 sha256:afeeb0b168474e73787255644ee80d021ce712b8582eed2b9dcb37c499fc294c
++  __DATA_CONST.__objc_selrefs: 0x48 sha256:84955e9e4537f8c1c999173ae7cc1996ae2c54d710381c3c10dee57784cb515f
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x60 sha256:9f411ef2ccbb276fc911dc00ccc5f439ee40639a879374ea6d1b5ca2930fe202
+-  __AUTH_CONST.__cfstring: 0x80 sha256:95016e781ad01ff8b31ec7aa0e424521a075d948c28eb270311b3bd7644c9e24
+-  __AUTH_CONST.__objc_const: 0x90 sha256:0a0bb3f2fc537130e35d92ef445fae893752ff8fa7e8699427dcbadae65013ab
+-  __AUTH.__objc_data: 0x50 sha256:fa4ebaf79a8a5bb35207c686a8f2f3fc7fc7abc5f0872babb2e3b43b2aa28e1d
++  __AUTH_CONST.__const: 0x60 sha256:b7cecad683f51c465096d1e93295bc0323a9f81961cb842ba7a7f07ddcb6fc5f
++  __AUTH_CONST.__cfstring: 0x80 sha256:17817c2b0c4295dc641aa6dbcef4b30e0ccda588f2d8823649d1ee0e41811a89
++  __AUTH_CONST.__objc_const: 0x90 sha256:fdab76d676d978b33f9361cb25421f228f978c05c0d3b8875713343e26479532
++  __AUTH.__objc_data: 0x50 sha256:16e4915a97a7e1adfd4610bef558fabafa3dacb4c4ed0cda0fa9c79521fba098
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+Functions:
+~ +[AXFontSettingsGlue accessibilityInitializeBundle] : sha256 57ce1a0bd778bb2338312e93d43feb0d6cb8928ba5877424e81cec77abecefb9 -> f3a6d36ffb0fa9629a569fc918ffcf007cac8b55de9f25ae6f44e316e9ca3347
+~ ___51+[AXFontSettingsGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 c8edb57b88ea4e2d172fea15effbb7a26154d15ebe7d2e4744a7ca735c03f679 -> 4bfa2e9e1aed1dffe36e02177e2f1938b3d17623aa8d8c2f3f55c49ae7360b84
+~ _accessibilityLocalizedString : sha256 391854ab5004887ce59f6d2c20ab9900ed1b04c5fcc70f2edbed25d9112e2a1a -> ab17179f6ed6bdaecf228e22d05c13d83af1002c0f6aa9dac5ec3c5c7176e63a
+
+```

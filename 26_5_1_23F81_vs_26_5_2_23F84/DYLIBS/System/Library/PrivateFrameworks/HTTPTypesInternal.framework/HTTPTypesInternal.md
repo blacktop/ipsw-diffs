@@ -1,0 +1,32 @@
+## HTTPTypesInternal
+
+> `/System/Library/PrivateFrameworks/HTTPTypesInternal.framework/HTTPTypesInternal`
+
+```diff
+
+ 5812.122.1.0.0
+-  __TEXT.__text: 0xd064 sha256:065ea301a68c37d30bf8a06a05f80ddab385e99634f8afbf819161c89fcf1f10
++  __TEXT.__text: 0xd064 sha256:741369683fc906186eb214925d09e985a0bac8e1a8456386bfb9e688c0ed74b2
+   __TEXT.__auth_stubs: 0x1000 sha256:9074bcc403720f7d0456866596960765316cf9833a0bd3eb7f54eb67869b8e91
+   __TEXT.__const: 0xd98 sha256:8b7e77a882c226614ec4a40e2cb0da83a3eef3f90c24a6eaa570e57624b48987
+   __TEXT.__swift5_typeref: 0x28f sha256:60f85c924334bb9e7b536d3e02305b59598a5de4a28128bc065c0f1278ce0d3c
+
+   __TEXT.__unwind_info: 0x4e8 sha256:132332a4a311350ffd7188b89d1a3e80d9b86f01da68b2b2e3b8faf2802d2e6e
+   __TEXT.__eh_frame: 0x3a0 sha256:d4709b07ddaa05a6a00888e1cb2eb6aecd1a87d614f49aa511adf381f2338b67
+   __DATA_CONST.__got: 0x2d0 sha256:fe2f74a1e0b16a66452888eb4d734bc455cf1304481bb495d59afa8cf9cae93b
+-  __DATA_CONST.__const: 0x1d8 sha256:5398ec9a191b3192b86ca932c672d9e1f85863f02cc3c18a32a5d81731867ccf
++  __DATA_CONST.__const: 0x1d8 sha256:969221b6404e25db4fdd29ecde60524af2489a5e196f385bc9bc919b4144ac68
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+   __AUTH_CONST.__auth_got: 0x800 sha256:e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad
+-  __AUTH_CONST.__const: 0x90 sha256:78eaa4fc7fd4e1628aacc68987a9f00fb9f1fd615c8ee5e8ad689d58434ee6e7
+-  __AUTH.__data: 0x500 sha256:72184b97cb3aa06e3afbd141d8d105dffd1cd0889820af7b15b0146defbbf799
++  __AUTH_CONST.__const: 0x90 sha256:f336f033779cf08869063242e2958a776bc1ee4ff2ea41e62d55625775f27c64
++  __AUTH.__data: 0x500 sha256:b4bcf78035749da34664729c191f5db6dde9849d5079206a071aab34bb7668aa
+   __DATA.__data: 0x230 sha256:738c079dff6c9b77a0891ac42db1cabcab933a672b14aed8ecfcf94c0e77bb40
+   __DATA.__bss: 0x1ca0 sha256:b3ea2a67bb9f016da6e1aa2e9ea421d06877d62d48617244e866c86fadea0541
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ sub_25874713c -> sub_25877f13c : sha256 150ba1d77642330f64a13e73cd104704708215167279b0ceea8ff687bca18d79 -> 02fdc3ecb9c8b3eb452e807d5d3a5056453659fc5d114854108a8ba071e2058a
+~ sub_258747808 -> sub_25877f808 : sha256 0bfc7b5e9447f16f294d97af5cf81d6fb74d30098240abf88452fe552b0fdd2b -> 382d79cdf2bf47f2a1712096a50a56666ef1d81ea9df40210f6fdcf3b245b741
+
+```

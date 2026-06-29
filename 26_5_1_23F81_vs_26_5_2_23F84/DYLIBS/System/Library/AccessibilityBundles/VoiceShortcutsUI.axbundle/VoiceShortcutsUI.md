@@ -1,0 +1,46 @@
+## VoiceShortcutsUI
+
+> `/System/Library/AccessibilityBundles/VoiceShortcutsUI.axbundle/VoiceShortcutsUI`
+
+```diff
+
+ 3005.28.0.0.0
+-  __TEXT.__text: 0x1c0 sha256:c06b65210e6102034b060fae79a3bc29306d7e1c55fd23131aacc684dfde5e3d
++  __TEXT.__text: 0x1c0 sha256:ecd7e5aa4c56894d86662ba2069f2eaadfc807f009b9e14d4f2a064c6040febc
+   __TEXT.__auth_stubs: 0x90 sha256:82e2a2e9e2456ff3ad57a1c2bced330ec1189b44421ce966dfb7b1ff9f3be577
+-  __TEXT.__objc_methlist: 0x14 sha256:886e26491225eef21d446eb1ea08f1d66918d85d97c6671505dd84d3287eb78a
++  __TEXT.__objc_methlist: 0x14 sha256:a34d38a84041163462765aff6359ac49365abc6a51181359cdf98bd84d313511
+   __TEXT.__cstring: 0x70 sha256:cf1b1e500ec1cf78a31e72017e1cfff5deaef0e9e00cc3566fd484db552091b5
+   __TEXT.__unwind_info: 0x70 sha256:fe81461cec04e7d75be008a975b0eb0a616825327acbda450dead13f7901d5d9
+   __TEXT.__objc_classname: 0x17 sha256:b68f730d0f522cf3f8be4e8559f3dc107fd02b505238bf813c97711e4f1626f6
+   __TEXT.__objc_methname: 0x108 sha256:fbb7904db9632ee9f8a3687f7b40bb03d848ee64d5e781e5dd31a87e39c78bcc
+   __TEXT.__objc_methtype: 0x8 sha256:6b3bf957e2feccea1614ba0d17780c05fdfa13300c0b89a3c072b7ad044d8273
+-  __TEXT.__objc_stubs: 0x100 sha256:86d90387d30ddc3629eb10d6f4f2f263bca4fcb96d2666fb9497cc00cc28bbea
+-  __DATA_CONST.__got: 0x18 sha256:495115be311180d934277ca7b509f2703c12bfc1ce9588659b52c16c27f6f25b
+-  __DATA_CONST.__const: 0x40 sha256:580d9f75cd4ddc35fbad90c3ecd4006b34f351ab928399bb9a0226180a52b8d1
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:dd778868b623bb750ad057544f0951fbcffbbc053e3184c5c7ee9222b8672288
++  __TEXT.__objc_stubs: 0x100 sha256:a58da1445734c91eaa06c257abb2a6f3ba1d1b6c8f39823e61662839f86f75e0
++  __DATA_CONST.__got: 0x18 sha256:6bca460e6e4b3bd7d49bb67eb1793cc553fe3a377d036ac3a58c553d1ae6da0a
++  __DATA_CONST.__const: 0x40 sha256:1d2d161390008cb7f2ad54dee501488591d82a134d9c3e05d38fb5a761f008c2
++  __DATA_CONST.__objc_classlist: 0x8 sha256:11a4925494348500bce490242e506091b79e8e8cc752e267e1c3548628fb65a1
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x48 sha256:afeeb0b168474e73787255644ee80d021ce712b8582eed2b9dcb37c499fc294c
++  __DATA_CONST.__objc_selrefs: 0x48 sha256:84955e9e4537f8c1c999173ae7cc1996ae2c54d710381c3c10dee57784cb515f
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x60 sha256:e6d772c6c418b636e36b250a57a7beabed3cb944dc90b521f32bc204bc78f6ba
+-  __AUTH_CONST.__cfstring: 0x80 sha256:76477bee11510db1b363891066c8601f690bd57425510c01ce2580bb3067dd5b
+-  __AUTH_CONST.__objc_const: 0x90 sha256:467780bb8a45eb72a801cb40060a6da9dc1511de1e51c8bbce8b9fe1d9ae8245
+-  __AUTH.__objc_data: 0x50 sha256:fb747455f5155dfbb4d8ebc9351e5235e364fc51b0b00e1d578d2775877d0d60
++  __AUTH_CONST.__const: 0x60 sha256:bbc8d16999012fecd7cfd2c8416bfebd5ce92ac869d74d9bacaedfc290783e62
++  __AUTH_CONST.__cfstring: 0x80 sha256:b23af969c60d5f8878948c76d551964213fac33717dd194dbb5ee1cbb1183115
++  __AUTH_CONST.__objc_const: 0x90 sha256:24e8d1aa55e445615cfd9c03476dc3667ae2bb09bd06e4e8cc4aeafd5b1bfe28
++  __AUTH.__objc_data: 0x50 sha256:4b07e53e4649ada0b424be5cded9f1a95ee6a99183c08e700215302eef33f00f
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+Functions:
+~ +[AXVoiceShortcutsUIGlue accessibilityInitializeBundle] : sha256 a719ce1be1defd5efe25004fb8c1146c175fafe6362c9c94ab51e17d1c13383d -> ff77133f5c033694362940c26def2a0c65527cd65d828d7e1c1300c076951924
+~ ___55+[AXVoiceShortcutsUIGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 5417b882f22394556e4aec0484b731fe047469b55cb36b32983af29a241122e1 -> 1d481d5b65c66da757a6cea3b8fda4c50ceaa98880ac2c381fcef65ba22018b9
+~ _accessibilityLocalizedString : sha256 0c5a65ded878c6cff638583775d508a23fdf6a3279e0558156979553388f09ad -> bcc4aff7c48ed258ddd044eca166d82a8f99003458c0e01cc64a34c1655a9b25
+
+```

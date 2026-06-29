@@ -1,0 +1,33 @@
+## FitnessCanvasUI
+
+> `/System/Library/PrivateFrameworks/FitnessCanvasUI.framework/FitnessCanvasUI`
+
+```diff
+
+   __TEXT.__objc_methname: 0x21c sha256:4793e2db060f10c49d140ab8d95fc13a38f68b9b0eaa8494ce2240b06b4c3b93
+   __TEXT.__objc_methtype: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+   __TEXT.__objc_stubs: 0xc0 sha256:b980afac7b6bd283d2968a50c9fc494d7be9bd6cbf999aeb39dde2aa8e503542
+-  __DATA_CONST.__got: 0x9f0 sha256:a8813d978caf8bcafef37a60095fdf4359b11ba3cc3744a70f59acad5f26cdc3
++  __DATA_CONST.__got: 0x9f0 sha256:43298d7549525753fd8fa591bdc3b3db749cbdb327d07ca9ed4a8c70e06004da
+   __DATA_CONST.__const: 0x188 sha256:74228e981ce82529406c3f05420490e6495701f7f40638a356b80f196485d991
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:b7b6a54af7e856cc18a8881170fcaa140e351b25d2b66b1722fcbd038d1487fc
++  __DATA_CONST.__objc_classlist: 0x10 sha256:67838ef2666b785686898762e2428f251319c82e84ad8540c26a1df2aa16f573
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x30 sha256:363473eb8e81319dcb9270ababef25b2918236cdc7c63520d5b47a95462c637f
++  __DATA_CONST.__objc_selrefs: 0x30 sha256:68bb991b183a0ca374cb80537c93e75e84529d6c43d587e2b9060b1876819c32
+   __AUTH_CONST.__auth_got: 0x1650 sha256:ca1415ae8bf763c0c302af2ecf4c639174e2a2b9f00d915a8c53b09fdd8f6f75
+-  __AUTH_CONST.__const: 0x9b30 sha256:565b8be1e136391e67b877978eae0565a222fc998e307dea5176de7dfffa77f7
+-  __AUTH_CONST.__objc_const: 0x4c0 sha256:88582112bec2e206dc0c27dfeae24274f4a837da2bd7e3b53e446f229d53b334
+-  __AUTH.__data: 0x5f0 sha256:9d61b9fde280594381f166a0df225b6a87e01366936ec5596a846effbdceec7d
++  __AUTH_CONST.__const: 0x9b30 sha256:a329503fbf29eb03658c545ca153f7f3cdd9b613d65778699dde1a2861e1710d
++  __AUTH_CONST.__objc_const: 0x4c0 sha256:9577b5e761b61a55f4cea5a8d7582b5ac731da38c0529e9dc9aa54128c79ca61
++  __AUTH.__data: 0x5f0 sha256:e1c3997e2838992cee9c1895da4f448321f43eaa6523bbe41f8f650efc69ee39
+   __DATA.__data: 0x2fd8 sha256:7f70e50b96374e5e0e74b208e4a470ead76af1802cdd29dfb48088aba460e0d9
+   __DATA.__bss: 0x16490 sha256:b2fd4d0b47528099c9c079669cb469e3780e6331091fd04c5219f98b830c3c35
+-  __DATA_DIRTY.__data: 0x3f38 sha256:529c163bb03a8580a6da2da3d890642fe80fa473e4bccf42ca0dd43ea4ccc2fb
++  __DATA_DIRTY.__data: 0x3f38 sha256:beb6e1c4d2327df7b62e17ca85cd3b81715f0e8fb3b47c57cc2fc657bf0171bd
+   __DATA_DIRTY.__bss: 0xa9b0 sha256:b5cf266821e96b81d681a76823e9a416dd6a59ba904e3023a2e739b758f55f3b
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+```

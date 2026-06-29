@@ -1,0 +1,54 @@
+## Transliteration
+
+> `/System/Library/PrivateFrameworks/Transliteration.framework/Transliteration`
+
+```diff
+
+ 44.1.0.0.0
+-  __TEXT.__text: 0x18700 sha256:6c4d5d14453229ad44600bb74b1dff49b608dd4000550c688a4582aa006c23a0
++  __TEXT.__text: 0x18700 sha256:0b12e985139a23b4994b34437f4a42e6397b9ab116b9231f7a6fb1a15a985d15
+   __TEXT.__auth_stubs: 0xc50 sha256:23ffec31c13759070db6484f5ede9de12b387ee5db928356db2c0be10b41b2dc
+-  __TEXT.__objc_methlist: 0x26c sha256:35058b6945fe4a1484bf799ea76d3534d3f8f67d32d8380293d53dce6643b624
++  __TEXT.__objc_methlist: 0x26c sha256:e9871aeb466422a036dc59ad5c12648736ade02c169f253f3518e1f1dd9c259c
+   __TEXT.__const: 0x4b0 sha256:b281accbc4d381047d64d5812fef67d5d50d89b7e7e2bbfa48369ebd054ec91f
+   __TEXT.__gcc_except_tab: 0x1d74 sha256:ff247e76b29feac049a53fa408f6805d77d3d7c44fdf734e2103180567a4dfdd
+   __TEXT.__cstring: 0x5d4 sha256:9988ba062fe293670194299e0b061a35b89bec1957f0e4d29f7a5a21770528b5
+
+   __TEXT.__objc_methname: 0x7eb sha256:ac4c1c1a2f7850a085c26a574b62b80cc4b92a1098add2ff007959007eeb3bba
+   __TEXT.__objc_methtype: 0x16c sha256:2f85f5cf2f299aedcba257f7101c09f33649728caa43c46d31289f2183659d86
+   __TEXT.__objc_stubs: 0x840 sha256:ca53b0e01f4574152f3c8e2569a5f93d72f81aa2b6620fc716bf66fd2775dac0
+-  __DATA_CONST.__got: 0x180 sha256:91c8bed33e7cd8ad183e19e8a9780577ce50ff36e22f0e39b59c224a65c46073
+-  __DATA_CONST.__const: 0x1c0 sha256:d4a959acb260a89599e3a17276699d5205feeb158d5a5c19b3d688cf41e2c4a4
+-  __DATA_CONST.__objc_classlist: 0x30 sha256:26ed58ebd212c7a68e9287c54fa0682e27238dcc5f7460b5ba9dc02205725e53
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:06dbd454600901f340333230f7fb04b8003272813b7cda470f59422c83f68b1b
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:e1b58e17ac9db3271683ff646e5d5555c0f9422713781f2edb56931bf93c2c58
++  __DATA_CONST.__got: 0x180 sha256:20a377eed49de2252d6e8864f2b55a138a6d9dc93d0bc00649c5d5e91259001a
++  __DATA_CONST.__const: 0x1c0 sha256:79437920d37f68f58e4d01148502313bed2962a503e08817326bfde49055fd83
++  __DATA_CONST.__objc_classlist: 0x30 sha256:62d7333c217cd7f7b29188b9d9db81b3dc032ec4b496501b03330a59ae50bbe1
++  __DATA_CONST.__objc_catlist: 0x8 sha256:a05e06d6c41120ee04afcbb467ef51b25aeccc9d627678a9327b6ee800bd5461
++  __DATA_CONST.__objc_protolist: 0x10 sha256:70b5e2ee36b4ef5243315d85f8914d4f15b2944f48f17d1b486f2be6156ba911
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x270 sha256:70347c6fdcf555fda1beab13403a7c4ff6e36bcd8dd4fa07e7fc7d55b19c6666
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:1314529f0b8af4e7ee8eabb121fbc0edcd8ea495f1937fc3ef39b73275670597
++  __DATA_CONST.__objc_selrefs: 0x270 sha256:424e2da3af294b9d6d5dc7250560de2aadefbd6cdc8bc8841164275de55df47f
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:acad2e21b0002659ad0c35a6665054bfa7c90251498c397ff35520c47bd0bb4c
+   __AUTH_CONST.__auth_got: 0x638 sha256:05244c8da1fc8eb334e9c56d12fa02e90988e08b48a0fcfcb855d9ec4ecf1bdc
+-  __AUTH_CONST.__const: 0x4a0 sha256:2f47bff8dacf9caa6f0cee27d6ecb77fc787d2263c6fd453be092da4514ae8a8
+-  __AUTH_CONST.__cfstring: 0x5780 sha256:826567d53971bb9c43854cf73c9ec7095ea285f4707139f9a26bb607721b1c4f
+-  __AUTH_CONST.__objc_const: 0x6a8 sha256:32f0282746f4ca16226026557dfe46955af6eb3158aea752e6ea844e81d63c11
+-  __AUTH.__objc_data: 0x1e0 sha256:d2fb6f519b9b870f8131a21b2479bde40be9a5376412fca4dabba23f726bc8ae
++  __AUTH_CONST.__const: 0x4a0 sha256:b84eaec6fa09b6dc22a963d931f846035f492acb83cedcce845b746a369d3ee7
++  __AUTH_CONST.__cfstring: 0x5780 sha256:e00394b9f9a3e404afe39a51be819dc10412a6fd8206972e239cd68507631d3c
++  __AUTH_CONST.__objc_const: 0x6a8 sha256:b59dd6407027e9b368a271200c4597064a75359005d85a6d3ec9a6709f87b9d8
++  __AUTH.__objc_data: 0x1e0 sha256:c15c1638906c6ad842496a5d12c8fe1b24a4d68669b2fa4b07371383595935a2
+   __DATA.__objc_ivar: 0x30 sha256:8da0c0185b4de3690bd51859faef603659a0bbaa38d780ae9a02413c57962bb8
+-  __DATA.__data: 0x110 sha256:68f5786a6054a2403d5ec00d5aff058c8dee5ef7289b6368fab73b4374d30438
++  __DATA.__data: 0x110 sha256:aaed62340cca286d24f30cca226cb3a491d32b32f32b0a5d25101dc650f5c26a
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ -[TLTransliteratorInitParameters mutableCopyWithZone:] : sha256 6485f8e79d8bddcab197c14cde2d526295c146f8de5e3b20005cf4934cb597cd -> 7b6e6a15e0e25a3304ee9d087ec0270f9d0ed86f0aa59f677cdd83ff8b362160
+~ +[TLBundle mainBundle] : sha256 64ed47cb04c55f4de95befe32b28090df13ee6999f92f10df7d2dedef966992e -> d8b2033140847231d6a7dc750843ce590fd625e33edf0bd56cbcc8a41df9a0f7
+
+```

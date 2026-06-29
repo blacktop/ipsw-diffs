@@ -69,6 +69,7 @@
 <details>
   <summary>View diffs</summary>
 
+- [26.5.1 (23F81) .vs 26.5.2 (23F84)](26_5_1_23F81_vs_26_5_2_23F84/README.md)
 - [26.5 (23F77) .vs 26.5.1 (23F81)](26_5_23F77_vs_26_5_1_23F81/README.md)
 - [26.5 RC (23F75) .vs 26.5 (23F77)](26_5_23F75_vs_26_5_23F77/README.md)
 - [26.5 beta 4 (23F5069b) .vs 26.5 RC (23F75)](26_5_23F5069b_vs_26_5_23F75/README.md)

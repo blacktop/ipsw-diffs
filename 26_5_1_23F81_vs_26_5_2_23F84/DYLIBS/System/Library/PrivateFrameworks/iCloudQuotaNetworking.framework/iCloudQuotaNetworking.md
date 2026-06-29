@@ -1,0 +1,41 @@
+## iCloudQuotaNetworking
+
+> `/System/Library/PrivateFrameworks/iCloudQuotaNetworking.framework/iCloudQuotaNetworking`
+
+```diff
+
+ 301.23.4.7.0
+-  __TEXT.__text: 0x1b8 sha256:333266109858d3595c3af2dc695652101c42db2097387efb127bfa0d8c51380c
++  __TEXT.__text: 0x1b8 sha256:e69ed5ad2ce166e8918db52fc48e0b518e02093fce3d0e0124b773727d405f54
+   __TEXT.__auth_stubs: 0x80 sha256:de4b28d18b381871353ef8533cbb64b60b07ea8ed98a72be53b3924a6771736b
+   __TEXT.__objc_methlist: 0x50 sha256:bee858ced199a6ee09b935be6b79454b778692e1215c71e1d9f456b0b9817d58
+   __TEXT.__const: 0xa2 sha256:414a60416b7cc07422ecc6c12ff45ea2a220cdbf64a041aaa859692f627fb4c4
+
+   __TEXT.__objc_classname: 0x19 sha256:d9db2378c10ff10b892bff5b8457b980ebbf5fdfcb7b09269e3fdd3e77c8f8e8
+   __TEXT.__objc_methname: 0x7e sha256:ff598637e0ff674b56227b5d4e8d53bee1c1b72dc39ea2c79d1ca1765f3f581f
+   __TEXT.__objc_methtype: 0x2a sha256:4d612ab17d99abcdd31b546cb59a5a0ca98ff678726f61f5c5189937eff71b9f
+-  __TEXT.__objc_stubs: 0x40 sha256:c5137f44794c0b89bb27c280e44040a1c4820329c5bc383ab1a8cec1c68fffba
++  __TEXT.__objc_stubs: 0x40 sha256:1ac4aef973f4b19b7859a6c19886def3a12a019a9d3eb99c0894e0ef1aed01a5
+   __DATA_CONST.__const: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:bf53afa37b846388539f8d8c5a15e36fea579a05a1fe3769d4001c4301d8f9ce
++  __DATA_CONST.__objc_classlist: 0x10 sha256:774458037cdc1fa81414d67a6488def0c1b2f40e13db536305053ddade3fb64b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x28 sha256:b28249fd2f0976730cefc375383aa39052dae7f1fc01d8af68843e0276cec047
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:35f3efd777200dc04b31269c9f234be29ad6707278e4536d602f3081b07a5147
++  __DATA_CONST.__objc_selrefs: 0x28 sha256:4f887ee2daf28214e39a6878d1634d48cac6200b846741c555ad5862fa1bbbb5
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:3cec637058f9a6ea610d8acea76839ff9f9cf6494f25ed4722340697c320c779
+   __AUTH_CONST.__auth_got: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+-  __AUTH_CONST.__objc_const: 0x118 sha256:563c3083b94c1750e031280a46a402f768930f13d1e675a569f93c38e4e8dbe0
+-  __AUTH.__objc_data: 0x100 sha256:c55eaa98077df3abb7a477a9d8f72e18cb52f011de7025a34bd6944bde81276f
+-  __AUTH.__data: 0x28 sha256:a1ea0820ea5c91f9c5eb7b62ef4e74f43d51e25148cf2526fe92e96eaf680453
++  __AUTH_CONST.__objc_const: 0x118 sha256:68b6437fb78d3097bed629ba17909a4f544f94ca8605b0ef0d12a4c43eb37128
++  __AUTH.__objc_data: 0x100 sha256:6c3e2f57bce664f9e3e0cdf5071f0aaff2de9a1303874cd71a6f50d0e6071d38
++  __AUTH.__data: 0x28 sha256:6531b5d99baba063b9c2878fbb0298a6f0e40a8f82b048533429b694d9cf46f1
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/iCloudQuotaNetworkingCore.framework/iCloudQuotaNetworkingCore
+Functions:
+~ -[ICNService init] : sha256 d23e89101167b7d216fb3cb8329e542cca910a6f17553d2ef47d9583a95fb5bb -> 648a0c48c63b2e27d94565bb890366f3712a0b1560976c69b34434b7cd22ad18
+~ sub_29d3bdf18 -> sub_29d3f5f18 : sha256 8870fc92663354a24151204a286ea5a525e64d608333bcfe3dd736209ae93f9f -> 4a2ec25afb2d858267d66d08fb6171f7e32d29627fb4a579a398b14c255c5663
+
+```

@@ -1,0 +1,53 @@
+## AXLocalizationCaptionService
+
+> `/System/Library/PrivateFrameworks/AXLocalizationCaptionService.framework/AXLocalizationCaptionService`
+
+```diff
+
+ 3191.35.0.0.0
+-  __TEXT.__text: 0x468 sha256:f242aa3688cc7b96cf2154d7e1f63ac3feefe4d09d9f755b09c1e64b827cefed
++  __TEXT.__text: 0x468 sha256:ae0a8bd08cfd7f50328766fbcd02b2bdc583d7ff5ae077c1ce85e2d457e398f2
+   __TEXT.__auth_stubs: 0x130 sha256:4a5e3bd8f97bc58570234155be3c0dfdd89d49f81776fe54eac78a54160a65ae
+   __TEXT.__objc_methlist: 0x1e4 sha256:d0e5a06c45da4eca6a5e52a7e04e4ec760a80b880a01a701252c5123f6f82ca3
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+
+   __TEXT.__objc_classname: 0x3b sha256:154ae2c3fc78db930898eaec8354a1be17d65af28b6876ff16d58de47993a97a
+   __TEXT.__objc_methname: 0x4cc sha256:14c20f6c884736f24694998808cd3dea72bc2c542bacfc47556a5343794acc04
+   __TEXT.__objc_methtype: 0x247 sha256:bb9275b0176562a447f32174da9b0b32a841c811959b5461d3adff20f3e45d5d
+-  __TEXT.__objc_stubs: 0x1e0 sha256:629d6c3c3615d09e3cc876594ff990ca0b5bcc7c0043ffb49bfb49d0adde22c4
+-  __DATA_CONST.__got: 0x40 sha256:48ca86259d071437a99005512d329a1b149add4af998cf6bb4506b5d027f408f
+-  __DATA_CONST.__const: 0x48 sha256:f58e3f20381095c6404f233a9ac682d3e7ed9680e7ad94b41b875e34ecf16c6c
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:f7ef010b85cb71781da997c0b4e59cff8a9394195bf9bdba81706e510ee01167
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:519797e5c61a4cf8bae2a2e97aa0a4368dd15afd3756b3377ab913aa47f49d22
++  __TEXT.__objc_stubs: 0x1e0 sha256:116ac2e17addf1e379069c9c337857053b7221580ad7ccfa3ce5d91c3634ae88
++  __DATA_CONST.__got: 0x40 sha256:09fb530f0be1c421dfa693a9509315003a08b54b324c5c071b15269168447ee0
++  __DATA_CONST.__const: 0x48 sha256:ee63c096f4cc70dbbc3d944cafc862184522d363219775762deeaf4f55bf14d8
++  __DATA_CONST.__objc_classlist: 0x8 sha256:08bc34937356decab622c3694d6bca31a0bd260795c3a1f5cdad09e6d9a27f58
++  __DATA_CONST.__objc_protolist: 0x10 sha256:a049b0fdfed547e32628178f7f9d6ded21d51a687abf48895dcdba05418fd871
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x168 sha256:3cb3a10a1fe74b389185036d874d5fa356c81362fc064b1f49c4988c57d24f54
++  __DATA_CONST.__objc_selrefs: 0x168 sha256:4cd68bc5cee5405c727a8f7b50ff5562c1c31b241824f3db126401378ef4a1ae
+   __AUTH_CONST.__auth_got: 0xa0 sha256:b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4
+-  __AUTH_CONST.__const: 0x20 sha256:c8406767f14292b8bf0f59b4cd53df030f08efe206b127654eb13f5ec95458d2
+-  __AUTH_CONST.__cfstring: 0x60 sha256:31fe72988aee7010a071bcb3bd1bdfe3a2e770ce42ff4a0c6169aed6beb047d3
+-  __AUTH_CONST.__objc_const: 0x260 sha256:43749c57f8b308385f85f3c89266af7d79f9ec21d6966db51c92a179efef5f68
+-  __AUTH.__objc_data: 0x50 sha256:3ac6c64b0730324481b7e29f254fe510773f00b64ac645caea8fc02cab5e892f
++  __AUTH_CONST.__const: 0x20 sha256:bd68c232ffd78822903850269fa8d928d029ba8d5578178c40b6cf905fb78e48
++  __AUTH_CONST.__cfstring: 0x60 sha256:1c3ddb007fb7f835ded770febd38562c0dd217766a804a89038bee61b7207672
++  __AUTH_CONST.__objc_const: 0x260 sha256:a76e6d634c94847c917835f77c34c59f556c4922d889fe1be4308c29ec07fd87
++  __AUTH.__objc_data: 0x50 sha256:71caa8bec4b98179e290acb5f6eb5a9c78d26b287f6bfb7c48e45bb0731e8bd1
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+-  __DATA.__data: 0xc0 sha256:b331d1c8341f374047137ec97ce7cb49e73ee19e68fc249f07ff14d00ce44f26
++  __DATA.__data: 0xc0 sha256:32c088702833fe76481fd39d6e43cb2101409248135bc510e08ce6d6efb8fc20
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ ___39+[AXLocalizationCaptionService service]_block_invoke : sha256 2c696517f0de26d09867d24fd712e8b9936480e3e974f776d6dc1fd020bd9b9d -> a83b9e8d33cf09e194a00acdebdf1316d6d63a5addd0a74bcb10b2ddc50c107b
+~ -[AXLocalizationCaptionService _clientIdentifier] : sha256 481e6cd032e1ca29227b1ee0d73ceca6aea8b070ee2ca8c4a91d69abde350454 -> 099c3d1f1b74c0d0944694ff5e33b06cce669d1ac5a118ed07e71a30c438e212
+~ -[AXLocalizationCaptionService client] : sha256 2861fee23a79b7bc612b252c97814595a6d0872a940e2017465e3508e8c1dac5 -> b4e1047046be4390a692437aebfc3973dd95d21f73d818ff0739e16b59de3557
+~ +[AXLocalizationCaptionService _sendMessage:withIdentifier:errorHandler:] : sha256 369a0290ecb2ec14b39ac9464ec3318e286a0eac484ac625fa1e9fc938802b6a -> 42fb4f8dc207870620929f2a2aa3375b86ef08f2d255e3251c985a1334b4915e
+~ ___73+[AXLocalizationCaptionService _sendMessage:withIdentifier:errorHandler:]_block_invoke : sha256 73f0a9eaa242869137f9c6663b91e56581c7c0cede1edfce724836589891dd16 -> 2709ba9884006b143f1e3aebc3473d9274343631024d7d7309575c4e17f4a0d0
+~ +[AXLocalizationCaptionService service].cold.1 : sha256 0b7654b733f5b88b6dfe13445b9b58cb8aaefa68faa60c04f15c20854f19770d -> 0a771897e1b8791655f64e878854b3cb0dbe2d8aabe310488e044537ce5f3722
+
+```

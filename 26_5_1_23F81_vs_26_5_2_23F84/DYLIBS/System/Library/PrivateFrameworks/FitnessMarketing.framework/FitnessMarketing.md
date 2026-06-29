@@ -1,0 +1,52 @@
+## FitnessMarketing
+
+> `/System/Library/PrivateFrameworks/FitnessMarketing.framework/FitnessMarketing`
+
+```diff
+
+ 2026.5.5.0.0
+-  __TEXT.__text: 0x77440 sha256:d479a39e66a1dfccbfeceb4e76707c734d18542f5ff0578aa9fd0dd8805c05c8
++  __TEXT.__text: 0x77440 sha256:1839cadc78158d42de9b6705383290820ddb4f0e2345d189c872109bc231d48d
+   __TEXT.__auth_stubs: 0x1ea0 sha256:b905d2a9d764d189a924b2412397177e95379940bc0cb81f0a038f737c031d49
+-  __TEXT.__objc_methlist: 0x464 sha256:b076abbbef7649071243b0878c7cf044a771b183f248a29c71aacfc8aed94966
++  __TEXT.__objc_methlist: 0x464 sha256:4522e0e4f8836510dfb44a2bcc533ce0cc678201391966b19ded579e95bf98a8
+   __TEXT.__const: 0xa404 sha256:91672108891173ab2e06dc0c054bebf5b849be4c02364b7464ba7db3044f7d2f
+   __TEXT.__swift5_typeref: 0x8bee sha256:777c7ce145f18ad2f9835be00fd04e801437db336c122beafcdcd1a532fe9d85
+   __TEXT.__swift5_reflstr: 0x1256 sha256:c7eaff911eb71bcc7adaeb615e7d0e63dd5fb104619688cfd66635abb9cdfda2
+
+   __TEXT.__objc_stubs: 0x6c0 sha256:611993757f7adab73d417feb2a5298a2f7230364047b1ffa35c455f3ed72660e
+   __DATA_CONST.__got: 0x720 sha256:d68334e72457a9eefb367b20fe21b635debd92b6f131fb7f8776652021fd5e6c
+   __DATA_CONST.__const: 0x148 sha256:ff132a018ed6d73536f0693d4a4e465aad2fbccd5bd31e1a2d8c9ce70a302e86
+-  __DATA_CONST.__objc_classlist: 0x50 sha256:d5ec703168e27880627c366c4cc1bb36f6b8fdde00f9aaae85bc5d5a3cc8e2ae
+-  __DATA_CONST.__objc_protolist: 0x40 sha256:62dbc3669f28205e4229a59cddc51bd82ab146fbbbbfc8ba689777e9062dac82
++  __DATA_CONST.__objc_classlist: 0x50 sha256:64b074c7662f2f7e1685f0aa1838c9a599fdfdd01fd319c91d996d40d9a980d2
++  __DATA_CONST.__objc_protolist: 0x40 sha256:dab0da4fc938e9823670a17f06bcf42d83a1c749340c8636002595ba5bfb69d0
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x360 sha256:e9bfc45dcad33c80a6ee21c9d07176a654b1553beb18fc07978626e6bc8fb924
+-  __DATA_CONST.__objc_protorefs: 0x20 sha256:5565a94137ca004acd3b2dae7d99a745a5b4b23e9b462cb7c01f2e42923a4a88
++  __DATA_CONST.__objc_selrefs: 0x360 sha256:30b49e3ef46f0287c4640dbfdc4a936918a198a6b84148eb343849e07f5466a0
++  __DATA_CONST.__objc_protorefs: 0x20 sha256:af308f3a69c1af00dd0e42084bfe9d50652a1fc0dc1a13cb36d113b6719b610f
+   __AUTH_CONST.__auth_got: 0xf58 sha256:b1dceaeb061e90c151756a95dcdc6a876832c6195d1fd5f7dadf435b21545948
+-  __AUTH_CONST.__const: 0x4ab8 sha256:9eead19de3175dcd2ae254e8ad2dcaff90ef6898397f9c07ae19a95cfde85c79
+-  __AUTH_CONST.__objc_const: 0x890 sha256:16e84e70c65037350cecae4d3955c057869c63085080cf30b7a364669eb9bcae
+-  __AUTH.__objc_data: 0x478 sha256:5875d4a33c6340f0c7d15b443416e3554874f16d33e110520fe5335c66060856
+-  __AUTH.__data: 0x5b8 sha256:f16fbfb5c92ee3d00d7bbdd0cf05fae811c3d2545f298edd3ec18d95183e3c0a
+-  __DATA.__data: 0x1b28 sha256:d51344204ec2fd228d72af9112ccff6b2974acf15556945cc0bb2f36886796ec
++  __AUTH_CONST.__const: 0x4ab8 sha256:cdf076d2cd41974150780523371d8fef1db23fc6168ea68a487ff949ce43055e
++  __AUTH_CONST.__objc_const: 0x890 sha256:0eeef4a817175be2b4dfa0dbb5e7a4b5a9b33a20670186cab20e18f5034f6cf1
++  __AUTH.__objc_data: 0x478 sha256:a251e3e37c523e8b1b60000efd5a29240e71c823cfaac9364ceb7107c44f1239
++  __AUTH.__data: 0x5b8 sha256:8e8649cfd04fd4c671531ed5291daeae9d591c23e95e4b6ed49e5c2c0bb46adb
++  __DATA.__data: 0x1b28 sha256:240875e70209f91999fdc0e71586a9b5ff402a37e606d00f21a97b34140a3d47
+   __DATA.__bss: 0xd100 sha256:0db7a924b86c3e0a89e651ac7e05200800c446435be9825f2830102dc9b42d06
+   __DATA.__common: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+-  __DATA_DIRTY.__data: 0x16c8 sha256:61612a66da840cd5e6b16b1b2045565381125950cf0fddbc992af26122170296
++  __DATA_DIRTY.__data: 0x16c8 sha256:6fcf6e6308a416c6d5bee16a416b10d67ebba751eac67be79268728bf75d54cf
+   __DATA_DIRTY.__bss: 0x3600 sha256:299407adb3f1bd645191cfecb3c33a47510b1dfba3c0a936d741bdd8513526c0
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+Functions:
+~ sub_21064cf50 -> sub_210684f50 : sha256 8128d98b2fbf54e8ddcdee772d8c24410f6c55867ba02f89e8c12e49ba517743 -> 8c4eae9c510c5a9a898cc036bc7354bd2d48204bb2eee932a9b59211d97e40e3
+~ sub_21064d5e0 -> sub_2106855e0 : sha256 c6970aa6aac20057f3d77d9ab3e31c0b04ddb4d6c8ebe3fe82c9b5b17c5b1360 -> cfe5c676ce206417777e91fc7a8a017befff684b6ba096073b979a693b26c810
+~ sub_21064e110 -> sub_210686110 : sha256 e5a3e61ad7bf59508bb062f0f82dde2e51425b9bd1ca7d710ba816c8dee76d74 -> fc1d99f7427dfcd008936299d4ba64f4edf8711718951149c992b74489826416
+
+```

@@ -1,0 +1,58 @@
+## CryptoKitCBridging
+
+> `/System/Library/PrivateFrameworks/CryptoKitCBridging.framework/CryptoKitCBridging`
+
+```diff
+
+ 324.100.35.0.0
+-  __TEXT.__text: 0x2064 sha256:eab599b1db803fdae873c61477c5834abc372bd0f95cf25d1ddc182f75c6f024
++  __TEXT.__text: 0x2064 sha256:06ab9b1fa9b832435cf72561002bf67ad1ff173084cc2fc5feb43b43c5e8c54a
+   __TEXT.__auth_stubs: 0x460 sha256:243ccea46ee973fd0db99a6f6cb0013c3fa238850caeb2b9bd88888fd1188d40
+-  __TEXT.__objc_methlist: 0x1f8 sha256:2af59a88a6fe5285f482e4a39fc1940e8bdee5508ec5f0926adde7e5f6dde4ae
++  __TEXT.__objc_methlist: 0x1f8 sha256:d3ae4ff74cd75f2a3ac2a32bf8396e23b77babad5031133ed49d1694453769d2
+   __TEXT.__const: 0x40 sha256:42f6786852f2eca2084651da244433b9cf4e0f7468546a7da7272e7acc716a17
+   __TEXT.__cstring: 0x23 sha256:419c0706258714baabc6815b145bb5dd16383ed587b8f94255b612c73101a91f
+   __TEXT.__unwind_info: 0xe8 sha256:a0d7ec78c7faf7a7fe384ff18b091b90e9b96d25cf99b335b7eb3c38ddb09252
+   __TEXT.__objc_classname: 0x40 sha256:1d04236279a9f58f25a5092bda8be121d025541a25e5ab59b446c431f89d6926
+   __TEXT.__objc_methname: 0x3b1 sha256:09b5773934dd6cd9e35c8bedff58edaa5241f741b4d34041897053c1de5a3f7a
+   __TEXT.__objc_methtype: 0x33b sha256:f4505d66fa27cd73978cdd76e6daeeb10912ed25af466808d0c4a9b7c3cf1399
+-  __TEXT.__objc_stubs: 0x240 sha256:eb40ea888506c24a90e6ba70b824c8b77d67afe0c1c9e03c50c3f4d332fe065e
+-  __DATA_CONST.__got: 0x40 sha256:41adcbbdde1331896c46cf6d0b23952c5c6ba3a829dca2e46b08ed572976f59c
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:c29a7a50a6ab63d79b21a2feaa045634107ffc9c64f381a17a73fedcd5b28f40
++  __TEXT.__objc_stubs: 0x240 sha256:40eab91f139415b11edfb21ca36e723b20b22a8504af6093731ef24787d92eb2
++  __DATA_CONST.__got: 0x40 sha256:5613e888fc5da333964736d18b04d751a83282b1f65407ff4e9e0f7d1c010322
++  __DATA_CONST.__objc_classlist: 0x20 sha256:c62f68dacdde2c8283d3ead99ae851503b8cbc837418f96a4eee839457c8ccb6
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x130 sha256:b098482ab53c268f110f331cd2203a08b22c104da2dcc3fe89c94508dd66aabc
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:4deb7d73173526c96e854ce7d4799d17d6a9755b3edb83f13038c6b282a0950d
++  __DATA_CONST.__objc_selrefs: 0x130 sha256:396b27751e6d9615c3486b1deeb3da6f9404119b2555831f0b8d714f9bd26c51
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:e4e64e2e865a36d2f1ba8b4b3bd5673fbb22117249d0dc3180d9ba331a532a73
+   __AUTH_CONST.__auth_got: 0x238 sha256:5203ba4e767d42f262e42eaca774fe88c052b116e47febe72e9dd6183d4bd22f
+-  __AUTH_CONST.__objc_const: 0x368 sha256:417983bc40200b537b6e2f17bb0aec69fac288f44ae8b8d43d13973e06a2b37c
++  __AUTH_CONST.__objc_const: 0x368 sha256:e56f01e0fbae40bea69b450e201ffe3fc6da28f33837318ca35170e54224504a
+   __DATA.__objc_ivar: 0x18 sha256:0f90eeb58ff64398c563f0b14e14de9e18ec71087166435503616df93222d1ae
+-  __DATA_DIRTY.__objc_data: 0x140 sha256:462323c17b0228353d5aaf57eb1f1be80bb9da525d0282df6e474a500ed87a3d
++  __DATA_DIRTY.__objc_data: 0x140 sha256:47da8771d62d66d748cd51349284b7beca6c2ac0bf6a8cf5ef2d38fbbf6329b5
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+Functions:
+~ -[CKSSShare initWithParams:x:y:] : sha256 96d54003f07655e243c572555ba907169710f0010bc5bfda73df1d60ceb63883 -> 41956539771508c28011e9f084db40753de05f50441374cd90ade5799dde3372
+~ -[CKSSShare initWithParams:share:] : sha256 1eecc60b0d5a02415593b4ba880c3d3aaf8112d975efe1a42f8c7b67edde0789 -> bb46effbdd94ceb2234a1ae8f49b907096a86dcc6236a9be84b853d26166a2a9
+~ -[CKSSShare dealloc] : sha256 7fc633ceeb105c5b1a29a68a3d26d931d2c3e10840befb8daff097e55aac5fd1 -> 3e29e71a4c5d29366d2eec0494751236cd3ee5e85d65b6b799d2d44d7c78af68
+~ -[CKCBCorecryptoECScalar initWithScalarPointer:forGroup:] : sha256 2c2ff3ab4fadabbfa8039098339be67c70f6bbb7f5e31d30f7ea871e57c20e64 -> b34381f683be5e2b977d0775d04d0b8e57d4e5df074239d2abcbb4f1696608bb
+~ -[CKCBCorecryptoECScalar x963Representation] : sha256 e7c4a07b479a9d2eece306c29ef1e3bfaf94048fb1576e5d989eb24031034fff -> 5dc425464ec7bbf51d9dc4b44d6bdde628dd54d945c61f88c0e75516bc396b34
+~ -[CKCBCorecryptoECScalar initWithRandomScalarInGroup:] : sha256 6fb18585a3d71722dc6b9ccce1069bbfa1500c06805c5d5b643c45740138edf5 -> ddfc55d1931c56851b61c3e6f7a9c06f0e60825c817a74de2f5d29b4496eee45
+~ -[CKCBCorecryptoECScalar mapToCurve_SSWU_RandomOracle] : sha256 66e0386a0c996b2ebc44b776c89251d43739a020941dfd394dee2a6b72e30e78 -> 7288e5ebe62182b2b94f812f6c5e184871597037ec10b8be8c3e80ea179991e4
+~ -[CKCBCorecryptoECScalar add:corecryptoError:] : sha256 7bb4748322035be0c771c46f117b81d1006846a9948c21cb702360dcd4eee998 -> 35b01635a7dd76829125206022208fd94dd5f944e679f5a2fe89afff1dec5504
+~ -[CKCBCorecryptoECScalar sub:corecryptoError:] : sha256 3fbeb124060bef4ab5d60d3f4958fb254f1093e0fded5c0a181dd86daa41dc3e -> ab4e1da68ccb1abea372b5144ee2e13f1c18622c090ef187dcfc2da628a27d29
+~ -[CKCBCorecryptoECScalar multiply:corecryptoError:] : sha256 a0eb5d8faf8c2c9cbc599bf10e417f9b8ce11112781ddf66afe0abb2d49a9b36 -> 4cae18b3f926e06753e938c84b1c47b88fe54e9b3ae6f94ce24e678742cd58cf
+~ -[CKCBCorecryptoECScalar inverseModOrder] : sha256 15338bedc07dfce0e559acd86dfc070f68f2dc09ed2411aa454139fe0622c565 -> e9e80686694abd5bcf72ba36ef365ec0f90b17bc0e73cb2fce8d7d3bb385d8c0
+~ -[CKCBCorecryptoECScalar dealloc] : sha256 470721004cba4c53b715359523d9cd17327f50f94174d51b1e0ffb530832442b -> f68392d93a3eeb1be62c2819452f977fa956d03b8dbe8d9329083e704843b9ca
+~ -[CKCBCorecryptoECPoint initPoint:onGroup:] : sha256 1e467e25e7b24549211d89f1ef15beed46c4738fe2b901ac58697b544dfeaa95 -> 05ef586db291519461845135e342be7db26c1d2f32e4eb035707d18bbcd66af5
+~ -[CKCBCorecryptoECPoint add:corecryptoError:] : sha256 a7f061015ebe7e47c6aa504a352da4a5413859559c9e62c5cdab223b01f20afa -> fe1471badce86079bca1e3f27f13989bda65abddef7407aa477f6b6695021c41
+~ -[CKCBCorecryptoECPoint sub:corecryptoError:] : sha256 b6cba3d5c973d6cb2827f623b3cf2b81960d03dfe2e096ca7c4ca3d5c869d2ca -> aeeaad2c8185ceaacf688aa40c4fdbd3df5a9f6ca6b099ee31a88da453585c73
+~ -[CKCBCorecryptoECPoint multiply:corecryptoError:] : sha256 1ca4cb60582bcbfe966fcb9cc929d86a4cd1c6d44316264bab0442ef9661c03d -> cbf82fc99c42ce49ff96f6e8446ebd0e1131c19c7708458d903fe2c6acef44fa
+~ -[CKCBCorecryptoECPoint dealloc] : sha256 01363e26be512d3e993d206497d5123498d8c1058b0fa725e3c5c0f1202590f1 -> ca4e63d704bfc550587ed3b20000ae0116040b3d81106a07c531b4b4b6c82dc9
+
+```

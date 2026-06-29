@@ -1,0 +1,36 @@
+## SemanticPerception
+
+> `/System/Library/PrivateFrameworks/SemanticPerception.framework/SemanticPerception`
+
+```diff
+
+ 1.0.0.0.0
+-  __TEXT.__text: 0x14cc sha256:908027042a50f058fea0c9dcea08640bd632abc859dfb58ae38ab242b6adbf20
++  __TEXT.__text: 0x14cc sha256:e4d54b1ec8244a919ca10015ba3b121df481dd33ace523b5d6ac02f91eae60c4
+   __TEXT.__auth_stubs: 0x330 sha256:a62c200c9f1bb6646f0645b20038830f70fdf2b05fbf4f0e2f57524ca46706ac
+   __TEXT.__const: 0x112 sha256:ee5c1c94d8eb74e958a159ddf20607480919d8459e0a0e3724d75c7f77a18a0a
+   __TEXT.__cstring: 0x2c sha256:6f4e9dcd1a200c635c0a00d114a33edf33e6e8bacece362777adca81c09e668a
+
+   __TEXT.__unwind_info: 0x98 sha256:7bcd97c3c58c83ee5117dc633925de93c4bb4586bc52853da3f943cc244a661a
+   __TEXT.__objc_methname: 0x180 sha256:a4bd988cf4b231d6464d4aabf3f395180da05abf6b1173dbad48f76317a8e1f7
+   __TEXT.__objc_methtype: 0x17 sha256:d552d2455c94a5fba11a73331350282c4decf0f26f44191038dfe59a947c3079
+-  __TEXT.__objc_stubs: 0x220 sha256:6266ae2eb50a34b3824c575cc3ee3321ca854551c7c4e61325fc4052d64216f2
++  __TEXT.__objc_stubs: 0x220 sha256:d0daa09f9e642fec52d8984245c9f0eb3113ac0b0b0de5cfde86255c92e46c61
+   __DATA_CONST.__got: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   __DATA_CONST.__const: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x88 sha256:a59da3dd60f9147eb66587f749fdaf82a626b62757aa355061edf718c11b573b
++  __DATA_CONST.__objc_selrefs: 0x88 sha256:d1ebe53080a894ec05b710b582501e05749070ea19f085faf454db35903a27dd
+   __AUTH_CONST.__auth_got: 0x1a0 sha256:4cc7e6272db6b1ad7581f76c63c694e926e20698e9b02223d5041a55960463f2
+-  __AUTH_CONST.__const: 0x148 sha256:6117fd15811693f866c2d2b6b15547c44e818f79355e4394962f58c2a65acbfe
++  __AUTH_CONST.__const: 0x148 sha256:58f1a78c747a38b0b01dbed5b75bbde49017ed06ff6cad18c66c0decbd088919
+   __DATA.__data: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/BackgroundSystemTasks
+Functions:
+~ sub_26f62ed78 -> sub_26f666d78 : sha256 768a2f814d55f15d139cfec6faf1bbb520d1aec187d9bdad709102fa2315f3f3 -> 22f5d5ddcd381df37d99aab9a6c4afeb75212290d2661d4d634e67549ba4b3ff
+~ sub_26f62fc18 -> sub_26f667c18 : sha256 81d37544c41c2a38f905f9f7caccba86edc91c383b6fc6210dc2279f804b6a5f -> 3df7c75e6cb12e1d2ca0295d2c51c9a98e61a7a9557fab87951b13498f7e0954
+~ sub_26f6301c4 -> sub_26f6681c4 : sha256 bcb1bc789b80b3067badbef14b6c9959761092ecb811e60e119cb4decfbf7167 -> 773e2a7674f907acd73162076cc19ef2d6cb35e536ab783dfb6cf00ce573b507
+~ sub_26f630234 -> sub_26f668234 : sha256 8291eaeb258ebbabfb4df7e9c66fc08ee45fb34229b47f1e79acd491be46c302 -> ac72eddceeed7af1ea319067805fd99e8b4d78b6047007995e65dbcfb905c355
+
+```

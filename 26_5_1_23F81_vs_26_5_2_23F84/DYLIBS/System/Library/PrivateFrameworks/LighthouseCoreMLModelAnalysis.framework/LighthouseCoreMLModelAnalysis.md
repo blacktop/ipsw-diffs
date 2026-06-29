@@ -1,0 +1,52 @@
+## LighthouseCoreMLModelAnalysis
+
+> `/System/Library/PrivateFrameworks/LighthouseCoreMLModelAnalysis.framework/LighthouseCoreMLModelAnalysis`
+
+```diff
+
+ 3.0.0.0.0
+-  __TEXT.__text: 0x1644 sha256:7793ada8c929aaaefb7f329f1e539918c832c12da827f889e719886c6e8a4f08
++  __TEXT.__text: 0x1644 sha256:f9e8fa7a7efe611fe53a3615817e9faf9284d16adf0f811483bf123b038782aa
+   __TEXT.__auth_stubs: 0x2b0 sha256:ed381a48e3faa5e77d26ddad23811394545c449cfe5a8c5e42d855edd0beefbb
+-  __TEXT.__objc_methlist: 0x88 sha256:7acd45602d408a110322bcd639746d2e7dcebc922d015e6b6e665f60245e44ac
++  __TEXT.__objc_methlist: 0x88 sha256:6ac5405d625219a4173c1b4c386407233549efcefc89371be32dd5a01e777a7e
+   __TEXT.__const: 0x98 sha256:a86799eabee6f2399eef817541cfd8a144050c1be150881805c2b7eb87a772e3
+   __TEXT.__gcc_except_tab: 0x98 sha256:fdad6c19eaf5a1604e99f1c7740cf463083859318612e9a7d2a058c311019c63
+   __TEXT.__cstring: 0x6b sha256:1a43017d9bacf448d94ea54be507c37ebe35596623efae13f219ef3c6fff08e4
+
+   __TEXT.__objc_classname: 0x41 sha256:6b420aac379c41784f4ccdf2b2208d0a7dc4d827355d2e88fd948ebb2181e630
+   __TEXT.__objc_methname: 0x447 sha256:ed3443fc578433c32d090b9b91a024e3b66380dcf407ab67cad45e92a4945d71
+   __TEXT.__objc_methtype: 0x82 sha256:6802f1407c370292f8c70d50e0cd780a64b3a3c9d7c174dc9020a16d028eef10
+-  __TEXT.__objc_stubs: 0x4e0 sha256:19c77a53ec3b12984fe23d58c8d14654d8988cea1b68f420d385839d62c9bab3
+-  __DATA_CONST.__got: 0x70 sha256:883dd2191c5c061e0d8cb0e07862613b4946be5a8879815dcb03bc7217dddbc0
+-  __DATA_CONST.__const: 0x68 sha256:ebb9bc5533aa28f31030418bdfab26a2af306efd6778f1d9f35d4a16f3677d16
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:3b1a69c9c10ee3f0eea093e5e1b7a1ae115a86274638cf067a63dfe195929864
++  __TEXT.__objc_stubs: 0x4e0 sha256:542feb3229f877dc460d59977dedf42778f6f92abbd1c6de04d6be7d4c677e08
++  __DATA_CONST.__got: 0x70 sha256:c4ea3104d9f3a0fe91238bf4df3b995c9bd76782a301fa23dd9c1282bc7aacc3
++  __DATA_CONST.__const: 0x68 sha256:c337b8f9f92fd383ffd126dad0e4f7480341b2b8e44ef595ea5c993dbf66a4b2
++  __DATA_CONST.__objc_classlist: 0x10 sha256:de96d06d66797be970535c8fd4e93295aec3c281fe86bc4d56aae6228d20e7d0
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x168 sha256:ca000d4bda9757ea3b8d33b71a83fc52d580716ff6a3dc3bb14e010ad9b29455
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:9d7d91f220dc618098c3f35f81486ff6a389bcc8a1c7fce1006073437e4e4f29
++  __DATA_CONST.__objc_selrefs: 0x168 sha256:54a2eef9a7005a2a3d7d8e91b76c7df279f0cd7b53dbdf76a9f65bfcaa470425
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:5030c8ffb2ae11c5d85c449c761b6c6ee447df576d2d4350686147d38f64ab6e
+   __AUTH_CONST.__auth_got: 0x168 sha256:d3df611a0ed2e328b050d285287637c60643ba96ec09e4aaefaad7f2cd114b77
+-  __AUTH_CONST.__const: 0x40 sha256:d2d7b9d2b4584d10c140da4cf3a92fc89e352f85ecbe007ef4626c23f5380746
+-  __AUTH_CONST.__cfstring: 0x20 sha256:b48f7ea2e2cc6ba5239b6747170f2f5b25f294c7e685bb7da63552b225984ef5
+-  __AUTH_CONST.__objc_const: 0x160 sha256:d26d3c9e24b78236d50b8610ace839b684de728faa17b1b0f24066bb3b9f571d
+-  __AUTH.__objc_data: 0xa0 sha256:980a059f1e4e0e914aa930e9c06b0372a72735b87519793e08743fa98bc4093e
++  __AUTH_CONST.__const: 0x40 sha256:46d0b6fa4696d5372a76d4168af94d3345b54f13cfb8f05ec8353723ec2b8f1b
++  __AUTH_CONST.__cfstring: 0x20 sha256:dd530fc1157c6336595d41881c5d736dc816eedc5a22f0e1bec18132ac4d9a6e
++  __AUTH_CONST.__objc_const: 0x160 sha256:b25b31fac2d3b1c60047d59717eaaef68874b531cd1b0db675924ba6a9ee6deb
++  __AUTH.__objc_data: 0xa0 sha256:602d6795cf4baa0cddc9072794394a358580db59443f8209b675493efbd8b95d
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+Functions:
+~ -[LighthouseCoreMLEvaluationResult init] : sha256 72471adf6659fc347328f84e4f5aacc5e4367521b8504131f6fb4e112c4e01c0 -> c8128361f3864292f87e45a7376ea7a9299010183fb53a843e40cbef73d17e8b
+~ +[LighthouseCoreMLModelTraining trainModel:destModelUrl:modelConfiguration:dataBatch:] : sha256 2f19077e8826bd3fe50a07d6bd1aca2eadc6811b12e1579e58b1fe19a2ee6bb5 -> 9184c1222cdf40ec3c92f5ccfb8df0fccecd33f99b4dfe2430d1c9d5c970280d
+~ +[LighthouseCoreMLModelTraining trainModel:destModelUrl:modelConfiguration:dataBatch:labelFeatureName:] : sha256 2d6de88447bb36647d2d05b0c7765f999e21066cb1a61d50b88721171ff74c1f -> 75a68e62ee26ababe9ed4d71b9ab67ddb1a2646cbe97d674fd8eca598b43983e
+~ +[LighthouseCoreMLModelTraining evaluateModel:modelConfiguration:dataBatch:] : sha256 f3ea417758963cf909cf02d3142c6d61f029c7c095be8ac960e358bc46f25ce6 -> f322a0220a343adc6e86efe4c05a7f1a767a367f61a2976c7769aa0a60cfd751
+~ +[LighthouseCoreMLModelTraining initialize].cold.1 : sha256 9edf59afdd2bece03b6f4431059be475debf939dceeff01107d87d5183cb4c31 -> 7c1e1c272930992b8eb8a8f58f7ee70c280f76299ee55b1b47a165f36a2ee0c1
+
+```

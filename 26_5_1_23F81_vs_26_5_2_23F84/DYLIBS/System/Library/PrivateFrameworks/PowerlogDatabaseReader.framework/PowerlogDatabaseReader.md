@@ -1,0 +1,47 @@
+## PowerlogDatabaseReader
+
+> `/System/Library/PrivateFrameworks/PowerlogDatabaseReader.framework/PowerlogDatabaseReader`
+
+```diff
+
+ 3031.122.1.0.0
+-  __TEXT.__text: 0xa7c sha256:8da0b3f4f2edbc478ef1a3a606053db2bb5402762f366160316d9103dd218583
++  __TEXT.__text: 0xa7c sha256:58dd19d0926ba528c33733069fc2a0fe11c5bfad759dbb4657d0d94b390b6275
+   __TEXT.__auth_stubs: 0x250 sha256:ca8245a4c7b945104da7d11e915e0b6bcfc48c41b594bd43eca129321eb4df75
+-  __TEXT.__objc_methlist: 0x74 sha256:fa9890029f4d2a60925923617ff2efb13295180457b20f395546f252e9202c13
++  __TEXT.__objc_methlist: 0x74 sha256:3e78e40d583d98693eada5760b70a6997a35b9982032a1ff48925644fb7e6b03
+   __TEXT.__const: 0x40 sha256:31e787a269e977bbc60d359a7d64df58eff877cd2b2fe2c853aa311fbe487ab0
+   __TEXT.__cstring: 0x251 sha256:c3cd5399f3f9bfaaf385c11cde568dffa45a0e815053b12d1410399fe9fb10c9
+   __TEXT.__unwind_info: 0x88 sha256:f51c12df60fa8d0801c342f968e73ae529209c1fcab5670e103cc1af13b17f2b
+   __TEXT.__objc_classname: 0x11 sha256:4b4cca08b6c853322a9b4f1e76730605a43f280dbcdcbf240a7c78597005a3ca
+   __TEXT.__objc_methname: 0x1cc sha256:86492858732fd469bd71d08a4d6f8f165e526eda52c96c0b4651c2502346c491
+   __TEXT.__objc_methtype: 0x7d sha256:88ab995750aadbd5432ad795dfda3c983039fb92137ee0aef00d3acc486a04f9
+-  __TEXT.__objc_stubs: 0x260 sha256:5ca9258a23dd3fca0bf8e267cf93103768220066eda0c591b6efc00db8bae3e0
++  __TEXT.__objc_stubs: 0x260 sha256:aa688f4d5844321b35e3bbcf5e4475fc897a037140a5de49bd7dce9d96b8a333
+   __DATA_CONST.__got: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:41487df915985f850cee941699adf20c180bb264518b1cf84417407d4bbf2058
++  __DATA_CONST.__objc_classlist: 0x8 sha256:9d5bdbe0a7e78bdbb877c566a7926f450190ce4a6143a057fb2ea097e906a876
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xc8 sha256:a2948b5279ad6db45973c2c479558b1442a647e55d52093d4d0a0a0399a9e67a
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:262d5ab34b28247d1245311f94a63a57d85b007114742a1033e6cef1984cfd6d
++  __DATA_CONST.__objc_selrefs: 0xc8 sha256:734cb072c7b8839fbdff038ee238834ed1df50a78945594f83513607484e825c
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:bce051d77c56ede7d05e4e30961177f290e5c2c4c6a3d3aade1012e3048692b4
+   __AUTH_CONST.__auth_got: 0x130 sha256:e2fc162ed9124452d23c85e81d60a0c228f414c3214a5de635737e25fbd29ac1
+-  __AUTH_CONST.__cfstring: 0x260 sha256:142115b855e196364664fe6bb38074bf53fb7bdd1750d64a4406eaf7ce07ee05
+-  __AUTH_CONST.__objc_const: 0xd0 sha256:2bd635bdd34384350dbc1cab067a071b8fe2378bed5f879d4679a27b5014aead
+-  __AUTH.__objc_data: 0x50 sha256:2b7b5baf5a1b610d6128cf241d013c07693cca0754e14206f02e95cfcad1ce90
++  __AUTH_CONST.__cfstring: 0x260 sha256:a3e0f7bb63ec384ed22361267c89ccc0dd01f8dabc5ec67ba35868d37f460f61
++  __AUTH_CONST.__objc_const: 0xd0 sha256:72f3894060c5c0478c52653b5384627741d1faabcae44f751f8e253095949eef
++  __AUTH.__objc_data: 0x50 sha256:36ecc6dbde3ed32d8356290d0b26adc49035d956eecddd756e85531ba6305b97
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ -[PLDatabaseReader initWithDatabaseFile:] : sha256 ffbb97f5752280fa97678251912b57c5b651ca1704408667607b925c37fb895d -> 4d82c775dc600ca5eb1793f315a1dbffcbfff8ff1fa1bffb94798c423ff67e0d
+~ -[PLDatabaseReader dealloc] : sha256 54b0164c19678adf70a268333a5ee6f2970ce9bef5d285baa7e479996f588851 -> 22d15c846e81acd9bfd87f57070a962e4e3fabffdcf7ecdd99fb7b496ee63d39
+~ -[PLDatabaseReader prepareStatementAndPerformWithString:] : sha256 826d26defb48811887ef5ae7e8886ed6c3ddd8d60027e2c619e2aa21f6c63db2 -> 1535552cc11af65349f29c46adbf497c88ef90673f43ea14837f1dc69a66bdef
+~ -[PLDatabaseReader performStatement:] : sha256 ae443cb3b77496f372adea236e6f31412199c5b14a499eb7f8c8095a85523e2a -> 492b39de79baf61556fe07ca81c0dc0c21a8a973a1d8e80ea25dfb58a528d673
+~ -[PLDatabaseReader tableNamesFromDatabase] : sha256 9b777ab61f8aacf05716c0d58dfda74f024b07ee7b732e63039b8bccfb72c803 -> 7bba765e3c4c49a153d3f0201c154c75553ce0008160aba0107ad74ab803a229
+~ -[PLDatabaseReader stringValueOfTable:] : sha256 c96cbc83102bb639aef6d3e938474e67b6b78b78100f1a1e15848aa1d3bcc2aa -> 11e3ac698581d312dd7540cfc6d0151a34782e48c0e6ba4dfac47cdcd6af6c42
+
+```

@@ -1,0 +1,30 @@
+## TerminalToolKit
+
+> `/System/Library/PrivateFrameworks/TerminalToolKit.framework/TerminalToolKit`
+
+```diff
+
+   __TEXT.__const: 0x708 sha256:751ec3f86c0e6ea9d6a4e7d7978d4eb5d78c59fe82fc6857f49e638da9107ef0
+   __TEXT.__swift5_typeref: 0x1c8 sha256:fb4d5d0c5ebf72aeb004e5c9cf8626ccc6a6fec7569517b5f90ca1835014e955
+   __TEXT.__cstring: 0x3982 sha256:8ad58b494252e7b0d5c1f71c6fc5856ab32a443021bcefef920c592341e1951a
+-  __TEXT.__constg_swiftt: 0x158 sha256:a6460c0a7c6f11eaf8964f732154e62ccb114e4e93f7643b538d6f24fc55d7a6
++  __TEXT.__constg_swiftt: 0x158 sha256:1c850364bdcfb41286f5c5ec0d3f9a1dd4a32b9f248024f7fe5593333a8d67f0
+   __TEXT.__swift5_reflstr: 0x144 sha256:b73ae60e05b76a754561817049ee6d9c0ad931e2bcfb86029a7f4721eb9a7caf
+   __TEXT.__swift5_fieldmd: 0x248 sha256:d9c5cb4d148866f287ddf5454828829bf02794d96c1ec6bf9b91a0e169f9cf26
+   __TEXT.__swift5_types: 0x28 sha256:a1f6ae5c4bd3a37a34b8ffb4d68cd09009f93d58e3445949ee86b73c9df7926a
+
+   __DATA_CONST.__got: 0x158 sha256:7c7f15ed27de2f3a51d1da31356b27ea1be15370faa3caab96606e5390ebbd0e
+   __DATA_CONST.__const: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0xa8 sha256:709318935756a88e8556b5bc0d5b39d46ad05a15f3031a0b29e5b69b7e1f4354
++  __DATA_CONST.__objc_selrefs: 0xa8 sha256:cf3e2c32721cedd4390445fd3dc2e1afb9e5180887863b5ef87d2c29d63fb88f
+   __AUTH_CONST.__auth_got: 0x628 sha256:43782c4d9b63da7cfe64f6a9a06a6cf8007d2a793b8a5f94c9b962bb5cb25b0d
+-  __AUTH_CONST.__const: 0x800 sha256:a5d7c8cc6f1658653b9d4d86bde98109d8b76eac0797d8d8a8d7cdbb124cff50
+-  __AUTH.__data: 0xa0 sha256:7a8c5ca0f7ac5c6d03824820730bb190afad594d4997ec183a6da04257568a7e
++  __AUTH_CONST.__const: 0x800 sha256:5569f219a0d73e218eea97d8ab988e3cd4adf0438d6efe68e177fbe6ba2bcfd9
++  __AUTH.__data: 0xa0 sha256:a7135c53e4e8c4b777a12500ea5cf4b690d538172bae6c956d8842b7e5511891
+   __DATA.__data: 0x130 sha256:e2fc162ed9124452d23c85e81d60a0c228f414c3214a5de635737e25fbd29ac1
+   __DATA.__bss: 0xa80 sha256:bb270d5b01806f81489807bec2d3a07d07d3df4ecca188d9390cf4323ddbbee1
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+```

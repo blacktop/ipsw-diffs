@@ -1,0 +1,53 @@
+## MedicalIDDaemon
+
+> `/System/Library/PrivateFrameworks/MedicalIDDaemon.framework/MedicalIDDaemon`
+
+```diff
+
+ 6200.6.8.2.1
+-  __TEXT.__text: 0x1304 sha256:538777a47fc1d14bab5a3e98653376d8cdaa37f17790fdca30157f262552f139
++  __TEXT.__text: 0x1304 sha256:6ca72bd858da0de8ab9b98ffed6ecdc6004de566567c7952edabc34f7ee17666
+   __TEXT.__auth_stubs: 0x2e0 sha256:a730e8e4aba69546fa05539aef47fb223eb3cdeb70577aeea20b943c20049808
+-  __TEXT.__objc_methlist: 0x1b4 sha256:6f8e360acd5d538d037a96cb40b72615a8128cf6a7c507c642774d91929ea8fa
++  __TEXT.__objc_methlist: 0x1b4 sha256:423e6390eb0f8c41d8fb1927583597b953f1ab927aff2207f5bde603ba023428
+   __TEXT.__const: 0x8a sha256:0b7977a0b09a8f48782777fabbe6bfed0b1901a9cea11436d78533a00108de84
+   __TEXT.__oslogstring: 0x6d sha256:7861ed66cc4757ee78cf0afc6107f0aa331c9c87235e1991ef7dc6c42aca2003
+   __TEXT.__constg_swiftt: 0x68 sha256:cdddfe6afc4aea9cee872b732dd945324164a5efcdeb48e746fc0482229e9d3a
+
+   __TEXT.__objc_classname: 0x3f sha256:04f329496178576ccedc3bc41b0528f43d4053d47472238292983213f9af705c
+   __TEXT.__objc_methname: 0x2ef sha256:f807158168f1d126b50e06b7e3eb3c0b3ca3afb737715cdb3afd4939051baae3
+   __TEXT.__objc_methtype: 0x14e sha256:efac0262b7798eb86f4f92353ecd8043b9d67ee0b793200caddc9633e32b4881
+-  __TEXT.__objc_stubs: 0x40 sha256:5bf231ff9058af6d2d57380920427166549b17b966bf0915ff86127e5c483916
++  __TEXT.__objc_stubs: 0x40 sha256:18a5056f4ba41add59a4492b06fb459b238ab8d473e82272507380af55c433ed
+   __DATA_CONST.__got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_CONST.__const: 0x80 sha256:22445fdb70be4c9236b09e1cf32bd41dc319b50930d885df8883c1b8fb1aa243
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:6168b8e1d14b67c3d424e3b4f16211b8553481efbfe12adb5b7f48e84dd8afbb
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:89d3dacffc673fe8e0c5532455cadbda27438bb06bd3280e23ceaca5800ec3df
++  __DATA_CONST.__const: 0x80 sha256:6b0bed41e2f73a0e59a07ef30416a3b415b590828b38eb72e1431343bca5ba0a
++  __DATA_CONST.__objc_classlist: 0x8 sha256:36e564281d1df65a5e5a296ee6cd6d7e4dab364de8b4cca736ac4ad67d433729
++  __DATA_CONST.__objc_protolist: 0x20 sha256:f980fb6b0c4545b6120afd9fd88e77883ffbf0410581e92eac791bd95c61ab47
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0xf0 sha256:3ded5e8089f8d356c67efe665fe3ea9f3017f25888c673edd9555c5f7df782a6
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:b9f015d9a35302ace116576d4c4fc257bf705d7bc9bda8b9a123ca8ff2a8e189
++  __DATA_CONST.__objc_selrefs: 0xf0 sha256:8d0e989321722453793ae673839f6b21361c92d7e00b694a938ee43a963f2166
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:e7f8468c02dd458c108fa4e3ad186b5aaa521a147b4bdb731bc007588a819a6b
+   __AUTH_CONST.__auth_got: 0x178 sha256:70d6aad73b9cfd0facdee81f4aac5bbf30d603300653623c57f7c26e1c376271
+-  __AUTH_CONST.__const: 0x21 sha256:294687cd80d6c1b60b86edadf6f96e75968b733427bd2972bbf09483b6b1fc10
+-  __AUTH_CONST.__objc_const: 0x1e8 sha256:94deed2cf403f61acaca7497594acb9dabec617cb78bb2f47ba351e98fbd11b6
+-  __AUTH.__objc_data: 0x48 sha256:b2b7f290c9245f816a62275c0c2ecced1156d5219bf8b763763635270626b238
+-  __DATA.__data: 0xe0 sha256:5c913c5180397d38cd683b171b07f8ecc60510dfeb239b3b60a73587009a8f13
+-  __DATA_DIRTY.__objc_data: 0x98 sha256:387cb28cef06a692d7bb1a1a2ed35c625fc410054b7c2c367b00bb4865c7e602
+-  __DATA_DIRTY.__data: 0x50 sha256:846fa7c88a7f62d9697eff41bc583c9641e9e90fb0ba630e43689ce59f825121
++  __AUTH_CONST.__const: 0x21 sha256:be521c9d36852ce7060daac760310d7dae150579d9e46bb9ac3a1a717acc3297
++  __AUTH_CONST.__objc_const: 0x1e8 sha256:91a3fa9cbc49d76feee6080efa3ade93a8c24d0886d9fb16721ee58a26da6b6b
++  __AUTH.__objc_data: 0x48 sha256:ef0c156b7119ebdb97b07657212913bdf7194de0c6908bfa23554ce4f76b0f9e
++  __DATA.__data: 0xe0 sha256:c3a39f8e74c32e475ae8d1f7292797a720815eeaca499d8c4c6c93aa6df1a465
++  __DATA_DIRTY.__objc_data: 0x98 sha256:cd25e7ba02dc3fadbdf40e42216f069cc013763667d094be56a817b8376df852
++  __DATA_DIRTY.__data: 0x50 sha256:c4bbbf23b303fc423d004c913ee7f543ce761e2ec9d61f18262a72341ca884e7
+   __DATA_DIRTY.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
+Functions:
+~ sub_22e88fc54 -> sub_22e8c7c54 : sha256 bbf18ea5ff2c633920478d79e1776ff539c6c912b3dc8288512a2f126e4f5dc4 -> a8489d1d462f2e5db8db2300771ca12912c743594ab18ee1947eec24a233242e
+
+```

@@ -1,0 +1,68 @@
+## DocumentManager
+
+> `/System/Library/PrivateFrameworks/DocumentManager.framework/DocumentManager`
+
+```diff
+
+ 367.5.1.0.0
+-  __TEXT.__text: 0x366e4 sha256:e56901b481f860502fd13b19350f3c6d0b0a9ddc787dcad66ca3d5c5ae000c17
++  __TEXT.__text: 0x366e4 sha256:7c2d2cedd1fc41617ced331959c5c4fce18998e1b1119ea221d2f5ff5f64a0f7
+   __TEXT.__auth_stubs: 0x860 sha256:0ceab98cb07aec8eb61872092b383ae01742619ef1f24301f43ba46b64f82de6
+-  __TEXT.__objc_methlist: 0x2e1c sha256:6b46ff902dd382350cc0446fad4c88da0689311ce9edaa4ca315906693b09c83
++  __TEXT.__objc_methlist: 0x2e1c sha256:5a04c57bcf861cecfcb48048bbb886f482394efdc0d23dde1c5db655e57b8423
+   __TEXT.__const: 0x190 sha256:77e1a6bcd64165aa53a68d1254e7b7bb7a73ad94d67260c92c264302533d9ce4
+   __TEXT.__cstring: 0x4bec sha256:daeb8ac6322b64ab183407d04ca4c0546471703364ec6d26db92c52c1003a241
+   __TEXT.__ustring: 0x6a2 sha256:c34ab09a134db0ae774a00801feb63ed4beaf718636243418e34b37baac8b689
+
+   __TEXT.__objc_methname: 0xacf9 sha256:22b5d59e54701b542b68f828635eaf05bb213069ff7bce422cf6358b1719c011
+   __TEXT.__objc_methtype: 0x16b6 sha256:a58298b5dd7b0049793091cf78bd3d5491e45e5e4c735757f94bef43ba4f1cd7
+   __TEXT.__objc_stubs: 0x7ce0 sha256:16351ad8f9a15b21315d1c0fb30fa6344cde7b089b5daaf9883889ae288c7866
+-  __DATA_CONST.__got: 0x638 sha256:b6998660c787ead70a0849689050f87b43bd87c8e82c96dc2b03386612b52d2f
+-  __DATA_CONST.__const: 0x1708 sha256:2ba0afe7ffd60378d72b439e6dd1e30064438a1143eef51ca25badc03ce57c5b
+-  __DATA_CONST.__objc_classlist: 0x130 sha256:21594209badb2e7239dc49d4348edc028678846bb96823718edb3ad8e0bb63b2
+-  __DATA_CONST.__objc_catlist: 0x60 sha256:6cc5eb89f783814fafca48e7447bc1ac59a7d199de57babf483858fde4908da5
+-  __DATA_CONST.__objc_protolist: 0xc0 sha256:baf08e21370d91f05f7a1bee5690e8f05b7b5fae01767277f1f6b1daf6e385cf
++  __DATA_CONST.__got: 0x638 sha256:5306972ef904e56ab0323ed0996ab59adea9512531b248092a14c08fd4c473d8
++  __DATA_CONST.__const: 0x1708 sha256:6ab5f30f85d2e0cc05efda2d31d03f133aab52205996253fcbb7c354aba5f4ba
++  __DATA_CONST.__objc_classlist: 0x130 sha256:8e88f716c2e970c3cc602d94aeaee656272a47bc2db983ab52469591627b7bc4
++  __DATA_CONST.__objc_catlist: 0x60 sha256:54edd82504b30d9873eafb56a4d96efab3bf3ddf4ebbc5ba7dcc3c3746c1a7fe
++  __DATA_CONST.__objc_protolist: 0xc0 sha256:5b7af78e20ed423b032afd4adadade97acfc68c9cfe8c3fd253cde4a9c353a93
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2a40 sha256:e8edf53e9b75f6893767fa63b57bb0ebc4ebdc59303e35573021a589eb9e8131
+-  __DATA_CONST.__objc_protorefs: 0x60 sha256:8b79c82f0bffc8647fb34c60cc283c85fc55f261aecfa618ade0bfaff10fa01a
+-  __DATA_CONST.__objc_superrefs: 0xc0 sha256:e2f9d71fbe608c1de481e8eecee9b449460824f2d27482c445ada05c0e30535e
+-  __DATA_CONST.__objc_arraydata: 0x10 sha256:dd66196c8e2f331cf46476bae68c8ac679f4f02edc9e9dd1b3a737bb1884a8a8
++  __DATA_CONST.__objc_selrefs: 0x2a40 sha256:c734c9baa63e99283dc955f5e83a3ea71b18544e8115e33653d5fc86a2a10a4f
++  __DATA_CONST.__objc_protorefs: 0x60 sha256:d3dd1f52377fa013c37ac4d923ec3c4bb4bca18b6fff36d9328665d0efaac040
++  __DATA_CONST.__objc_superrefs: 0xc0 sha256:35cae6c18228eade62d6c1b4486b4ae85e3da27b6a193cbf005cd8a27223da29
++  __DATA_CONST.__objc_arraydata: 0x10 sha256:a435a0cdc4f8193b18cbd17874b99041be96d930e96d32ec0e67beb4d560643b
+   __AUTH_CONST.__auth_got: 0x440 sha256:0e40a09dd6c3d8b503c0095444488c25f0fa19356ddd9b77a16219cb1cec69e6
+-  __AUTH_CONST.__const: 0x400 sha256:e4b8eb1b9fb795a4f3d8431c3cb8bc4ab13b274e89009d24998f5be922bbd586
+-  __AUTH_CONST.__cfstring: 0x4100 sha256:6d46e25abf16568e053ca32175a4551ae95734d8ae6f97d560ded1b934e8ea63
+-  __AUTH_CONST.__objc_const: 0x45b0 sha256:5425768795194ffe4755194cc356ecef1d96c057f0dc8a9b3d58a5283bc1530e
+-  __AUTH_CONST.__objc_intobj: 0x78 sha256:fccfb4a1b28eeb1ca9c0c76a1f67b98a174829c99831ddfa9cd840270360fc5d
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:570528c3c4ff65b7e8c457b5e174a08503c9a7478ec92f8201f39bd1020f025a
+-  __AUTH.__objc_data: 0x8c0 sha256:c99b93eeb4adb31e13917b5586fa11b36afaefe066a91660a91a6e546803d579
++  __AUTH_CONST.__const: 0x400 sha256:ee95595f92f3c3e4ef4904f4d6c484ef74b23a049a0bc49d62ff6740c98343f3
++  __AUTH_CONST.__cfstring: 0x4100 sha256:0bdec90659603c2f45b7eca49b939eb6c8ee7a3511019d2fb00f4023b2ba1d2c
++  __AUTH_CONST.__objc_const: 0x45b0 sha256:c09179b1cbfde9ec443cd58c504133b309c723f4a655fba1d4ffe16b421336d1
++  __AUTH_CONST.__objc_intobj: 0x78 sha256:1b3a6e428877bfc17900d867671cb87e62fbc46b0e3ed15240f893ba4cbf3d18
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:95792cc8286c5cf43b5f64cd324b7f428ca3c181c15faa67bc4aef9a351169a4
++  __AUTH.__objc_data: 0x8c0 sha256:bafc9affb03986af7af15cc64c6218ea3a0df9473640b09b6e1df5460ac56792
+   __DATA.__objc_ivar: 0x290 sha256:e166dc3894095536ce97977ae1c7c0827cddd3066c099252997f5973ef00ed45
+-  __DATA.__data: 0x950 sha256:7ef08f547d677c8c0fb8627d15642593cb2e426dc139fff48c5f2d17a6f407ab
++  __DATA.__data: 0x950 sha256:3221e9818d706a1167676a60561581fe9486781c9c48bbea525b4d37f854897a
+   __DATA.__bss: 0xc9 sha256:ab3df617aaa3140f04dc53f65b5446f34a6b2bdbb1f7b78db8db4d067ba14db9
+-  __DATA_DIRTY.__objc_data: 0x320 sha256:6d10cc32e59c0f73c36e69d3e0709e132c8c6595b7061cd63ec45488a2cb5a74
++  __DATA_DIRTY.__objc_data: 0x320 sha256:c84d29512856ee7bbee14477bdf304e6ba9fb8cba4819aa6e686028134de1ed5
+   __DATA_DIRTY.__bss: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+Functions:
+~ -[UIDocumentBrowserViewController __commonInit] : sha256 45a2fe51e6c7d70e72df4a76fbfeb7de43fb734f1a38ed1ae1a687c76dfabe43 -> ed49f7ea0002ba640099ab268de2bfe09bded34a2698cc965f16daf05927b778
+~ ___39+[DOCExtensionInterface vendorProtocol]_block_invoke : sha256 c196de599ca1b3d99a4b9b892cbbe290eec1d46840d379bfb76647ce38360a12 -> 2499ccd58c3799fee57e2293b07c48c58be1604938a6f56fed900e70cd44359b
+~ -[UIDocumentBrowserViewController keyCommands] : sha256 53ffde4131760c3a5f0ca007bf4726e656239cbb3d2d7c5e7f0a282ea458655a -> fc6935880e5e48295d0d1016d4fbaabf4cb934d658e4d155e220d9f98b1c3ab5
+~ -[UIDocumentBrowserViewController canPerformAction:withSender:] : sha256 75257212d5c7af19ac7d82bac0f4743ab06c91515a91c3c454eab5312aaeb480 -> 3c779cbafb0a7931ae1d341314568f005d04554710e9a4127d9280d9e5b1d6e4
+~ -[DOCKeyCommandController _menuDefinition] : sha256 701ec0cce049636a2954de14994f5dd96b2a7dbf221dc1336e1f5003cfcd8cd9 -> 13dba81af56703a36e15c074008972b32b9885e6a69e14c2d936cdc605484ecd
+
+```

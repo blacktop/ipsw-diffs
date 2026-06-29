@@ -1,0 +1,35 @@
+## CoreCapture
+
+> `/System/Library/PrivateFrameworks/CoreCapture.framework/CoreCapture`
+
+```diff
+
+ 1330.5.0.0.0
+-  __TEXT.__text: 0x1fc0 sha256:2deb2218c91b4264a4834a145735367d11b56c943a8eac9b2eb0ee8468d35e55
++  __TEXT.__text: 0x1fc0 sha256:c17d6d9b9e4741e0a1f976258f64c0b3bf632496bc5e22276b12936df8adbb82
+   __TEXT.__auth_stubs: 0x1f0 sha256:e9604742a8321b4376894912c2fd5180dad12ce585d56517b449e4d413fd8c04
+   __TEXT.__const: 0x88 sha256:b18a98fd53947b358b7b73ac9c1b792009b66107292ec55eeb960d2bbbde6d32
+   __TEXT.__cstring: 0xe7 sha256:4ebb45ada20273bc945fb8df1815c92ea4c57e0eff1239c051fe13fd14f6eb90
+
+   __TEXT.__unwind_info: 0xc8 sha256:bb324e9fa1f38a50ef5ce56ba4a0ebfe2106f11a4a392e030cf385635de9e00e
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   __AUTH_CONST.__auth_got: 0xf8 sha256:b3ab6982980fddf460a2f47adb428475ce9afa89092fd034499d017a35993f05
+-  __AUTH_CONST.__const: 0x120 sha256:b6fbf15458aa916a4a9a9e17e76bb637a1c0ce5f57410b220f24e7f445b157fd
+-  __AUTH_CONST.__cfstring: 0x60 sha256:7fedd80c19baf9aa9f648644a5fca3ac7c1bfd15748dfa5077e7f551d99dc303
++  __AUTH_CONST.__const: 0x120 sha256:9cf025ad0801e0cb5c210a532a08a4f9fceb9f1b5af773cc7c276a3e9f55cf82
++  __AUTH_CONST.__cfstring: 0x60 sha256:dc727507438ecc7f767adeddc5dd25c88c3f3f822cce5d56d8d316d75498964d
+   __DATA.__data: 0x30 sha256:6a02f10fd9678c104f33dcbf52d942dfe9b4abd1856577ecf3d97a16b8863b6d
+   __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+Functions:
+~ ___CCPipeRegister : sha256 77f94387fe81d7317ed58d612c7b7d416a75a74ed07a6a359299fe65daaee4c7 -> b04dc85754867de457d31ea81238c4b7b2ff020298ba223adff1c53e748156f5
+~ ___CCPipeCopyDebugDesc : sha256 11b01b7a3fbe5e797518447a9aa25d2ef66563ed7345e32551451b740ed589a3 -> 04a83193e13d2ea55c4fc981a593fbb1d492a5f71f21868e197c744a45e0d388
+~ ___CCPipeCopyFormattingDesc : sha256 e1000d70a389394d331520ed1f4506c3c2f1879ae9754f2c9160ca55674e1a91 -> feb82c3f0153b29684d52b21683c5bcfe3845cb3a6774df362aaa025a095ec37
+~ ___CCStreamRegister : sha256 7587fbb8dcfb4955c72f7edd1835713bc77261bd4868e6c8078e1bb42d38cef0 -> 8765f531cb8cc7d5c89e8ac03afd78be012983c42fb9d4a03db0f8ad55bb12b0
+~ ___CCStreamCopyDebugDesc : sha256 4006cce08bbad5697f01c642d1e9c3158f0064c3d8e9f5e3cfe35c4f57fd42d9 -> 229cec2cabb735a7629a9d86db69aca95c5bb7761f448677e4c090d6661e9a3c
+~ ___CCStreamCopyFormattingDesc : sha256 06d5752098541f7417dc689d86574ab3867304c68f076a1b971fe338befce409 -> 4a2d2fafd72055f857518e19b8d01ec192a2f92b8ff4c5ce95c0f2828cab312e
+~ ___CCRegister : sha256 dfd1d2a601b0acca5940d8e15f1e45d957d3f8413b9810156aa000bbb32d75e5 -> 13bdb00bffa8987648af38b0766879c087903f826e46b821b4d5147f1e24e258
+~ ___CCCopyDebugDesc : sha256 e7aeecf92ece7e6f646d2f9802ee0a430fc0c2ae372793936cbf50a4cec9028e -> 80b04a6aa07bb654867ce3a710e4dda9368b527ba19c405080447a78ef2a9731
+~ ___CCCopyFormattingDesc : sha256 04debe19d34fc2d9460f7503047234d35985129c588b275b7d6cd61115dd5ff3 -> d316eac4f0145a260df97d34fea898e68cbc1147b965e991475ef650e2e23c0e
+
+```

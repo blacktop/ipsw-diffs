@@ -1,0 +1,45 @@
+## LegacyGameKit
+
+> `/System/Library/PrivateFrameworks/LegacyGameKit.framework/LegacyGameKit`
+
+```diff
+
+ 820.5.18.0.0
+-  __TEXT.__text: 0x394 sha256:e2b0e37e8eb5f1c368c8835960a203e132ea7a213134ca442900f193ce8cd3f9
++  __TEXT.__text: 0x394 sha256:7c9c9f6a3492c89dbfa9e6bd1ee952917ae5e1726083550c07c3d7c6174fd768
+   __TEXT.__auth_stubs: 0x70 sha256:fc71554413ce93bd3784ba96ed5e820a41f175d7d0edcd6c27e099f6396f1bd8
+-  __TEXT.__objc_methlist: 0x3c0 sha256:f4fe2bf25ed574373c25bc51ed4b32fcb36b90b3c6ee64c09d34c38b937d3f2e
++  __TEXT.__objc_methlist: 0x3c0 sha256:3d035d01131439f7f723b7e0b0401df4257d6afc123c9f7f6eb08ab1d7ab00d0
+   __TEXT.__cstring: 0x20 sha256:c108ffc8c4c1899d614047602f8361317fb205d2f3316c4ebca856b706c62a7d
+   __TEXT.__unwind_info: 0x70 sha256:0ea825cbef7269574ff74e046dff30d898952e77be43eae1fe72d8b5d56c1e54
+   __TEXT.__objc_classname: 0x5c sha256:b893437d7def316144e15af706781c28ed2d09e2452ac439ea8cba2959e06793
+   __TEXT.__objc_methname: 0x839 sha256:ad8932dd70036f35afe36bcd6fd9fa8bb69c1df65b845a89b7dca7d5e39a8541
+   __TEXT.__objc_methtype: 0x139 sha256:6525274f388565e0bc1364c738f525e911d449b011b6f6ffba8825e6a4e1c7f2
+-  __TEXT.__objc_stubs: 0x60 sha256:163af7a87e42ef15b3dd6f6481a249f143c392dde0009dd1954de090148d7107
++  __TEXT.__objc_stubs: 0x60 sha256:e9026a3d70102d378dfa1df1042f40926b51825ffe664c541811a3dd9ef50af3
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_CONST.__const: 0x8 sha256:7b0f6b2e49a84b64ec11050e46e42db9717064d2713dc523bd076535f92b478b
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:fc2db0b624dd211d45c7ce2bb668ea366231d7b78af73503701a62817f899503
++  __DATA_CONST.__const: 0x8 sha256:096106bb19acb9e28931e64e957667d9c9986b3dd47c78200f261cd9966b4858
++  __DATA_CONST.__objc_classlist: 0x20 sha256:f1b48c9f5bdbbdf6650e3329342c93b7f4d056bad176a924ccbf3ab5821083f8
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x240 sha256:452ec762cad76c5f89684af496cd82a1f3defc1e2f0349deca09e4684d2c9064
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:478c874641827e95cb27556c5648a79e2b19e4dce48438086dbf61e33bd92f01
++  __DATA_CONST.__objc_selrefs: 0x240 sha256:a93839b85f198d83511d3b25a651b54ccb89c79d8e18ed5734bea8b0f975ae01
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:e1e33144d7624e50cf4fe03a804410cb2b49bf7466d1a2e1af3c37291bbb4234
+   __AUTH_CONST.__auth_got: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+-  __AUTH_CONST.__cfstring: 0x20 sha256:bb4d3447e339206ed7436ba72769bfa871b720731b59f2ef608953b5fcf3b1df
+-  __AUTH_CONST.__objc_const: 0x6c0 sha256:60082dbf1dcf11017fbeacdbea4fbca252dbd9f52ed111e3e02340c04fef175c
+-  __AUTH.__objc_data: 0x140 sha256:87065efff119162e4612d6b7938758bb3e6570b708e15841e4ca69ba41176016
++  __AUTH_CONST.__cfstring: 0x20 sha256:608c42d709a76e2f87ab6fea2d271c0980f9bfe6b7111acba6f9e57aada494ef
++  __AUTH_CONST.__objc_const: 0x6c0 sha256:6eb799f358c91f29075e85e3c6ea59b2389c494cc7108e708e1a002df20ef2e5
++  __AUTH.__objc_data: 0x140 sha256:38b4751c33359218d198d9c4045e6b099ece9656228073a03941ba798422849f
+   __DATA.__objc_ivar: 0x4c sha256:c38a7a9dabd67227414df9612e3ebd33537051b37f6e0a36777fbeb8d056fb25
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+Functions:
+~ -[GKContentView initWithTitle:message:icon:cancelButtonTitle:otherButtonTitle:] : sha256 f2559760422d27fb7758000ee9702d464e9eeb9e11ffabe7171ce92a53cf35c0 -> b2f15a92d7786c0257f4c5a2540f0d72c2e172b524c778ff51647ed9af8b5007
+~ -[GKPeerPickerTableViewCell initWithStyle:reuseIdentifier:] : sha256 b58f4cafbf97b2c08f9faaca2a5c29245526e5181e66d037f37c0a4d152c526f -> 0a6d577073f9e8f067858e0ff1ef1db84312cdb94c63e2d30ed945748fc4eb2c
+~ -[GKPeerPickerViewController initWithNibName:bundle:] : sha256 df023e19b6832d54a7ef9d6ab11205705fd54e5457ae78e8f727c572b0718a35 -> 9c61e75dbf61bbfc77321180649c283727d5c18835b2b2d613b49544f4895765
+
+```

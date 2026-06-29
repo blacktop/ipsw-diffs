@@ -1,0 +1,40 @@
+## AXAggregateStatisticsServices
+
+> `/System/Library/PrivateFrameworks/AXAggregateStatisticsServices.framework/AXAggregateStatisticsServices`
+
+```diff
+
+ 3191.35.0.0.0
+-  __TEXT.__text: 0x90 sha256:e8f63bd44e47c593b430fc584daad6337851b4bf760cd1bcff16c0f4aaef6e8b
++  __TEXT.__text: 0x90 sha256:d3b28e03d1f7f15fc1522d63d20ee950e99ca27813f3faa3c5e8a24ef7f1f698
+   __TEXT.__auth_stubs: 0x40 sha256:384fbaa0737c7614ec6d99f544d86bf7185df33bb8417e98cbea68e87b90bf4d
+-  __TEXT.__objc_methlist: 0x20 sha256:915a64e15402885c17ec3068e98d0d8d0bfedd1abd02cd4fe38421698b9646cb
++  __TEXT.__objc_methlist: 0x20 sha256:aaf070468e060cf44a95a74a108a533a0de5d2f4a661912637d89356c89b74c3
+   __TEXT.__cstring: 0x26 sha256:80fb2e21d93aba2b7c31bf46878cb2383934390c8e93b768a21b022b2919d24e
+   __TEXT.__unwind_info: 0x60 sha256:9b3561bb8ee1ccce537e8d90b65a5a4b565e441ee229b7b4fdcf502e2006f5b2
+   __TEXT.__objc_classname: 0x1e sha256:b2f30bf351eb7f80a3ac1ffef817c91a17f10974648b5a6e587202a5c074b883
+   __TEXT.__objc_methname: 0xa2 sha256:c7f2c97b9fb0fbe4a5661b4a77dab6d6ccfe206506e771c4b22afe83d2e893f3
+   __TEXT.__objc_methtype: 0x13 sha256:e316aeb8ddf8736602778da393fb31fd7113c8fa6dff1c2ddd2a8390f376f034
+-  __TEXT.__objc_stubs: 0x60 sha256:2c827e30424a7185fbd9ae81344bc1c3a16567d268bf9230d2c9a49bc773e4ea
++  __TEXT.__objc_stubs: 0x60 sha256:fb91771e422ddd506a1e85357a99a846deccbcfb68e7a7481c2560eff5141dd9
+   __DATA_CONST.__got: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:3c9221ad415b8231c516c7629665542a55c7398ec0712a7ba8935ac375f63290
++  __DATA_CONST.__objc_classlist: 0x8 sha256:9055946e8359d7105c28a432097c722e427dd5fa581bab06d72476c3f0fd75ff
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x20 sha256:e3639221b54e802f0456cea263fcc5a793000bd828350613cce216b7d171d0b6
++  __DATA_CONST.__objc_selrefs: 0x20 sha256:f8505359adfae6629414ccf97fe3f3d152a5a0ad94179edbe6b8bba42503bf02
+   __AUTH_CONST.__auth_got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __AUTH_CONST.__cfstring: 0x40 sha256:9493d06a1ee9f88712b1d7b115dd81cd393be1f93e4d3fca9c981975eb9a490d
+-  __AUTH_CONST.__objc_const: 0x90 sha256:a881d58dc05359fa2d8a0a88e2aaf9a77d68b1e330058cada3d51f8731723c3a
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:eb8a8575b96efb9770c5626480540f446987fd4510f2c0c3cc756159bdeab95b
++  __AUTH_CONST.__cfstring: 0x40 sha256:7632dd309cfc721dd8983a190416010bc55d4d2cc115bf08afa10a88fb703b7c
++  __AUTH_CONST.__objc_const: 0x90 sha256:fb6809cc5c08c7051bdb0d827a564ef47476243eaa9bb5575af9d301c6284cbb
++  __DATA_DIRTY.__objc_data: 0x50 sha256:875f811667e8f0202fb3ccf944a5f610b5489a58bb470953eee2fe2476185d10
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AccessibilityUI.framework/AccessibilityUI
+Functions:
+~ +[AXAggregateStatisticsServices updateStatisticsWithClientIdentifier:] : sha256 34d5f5af4468ff41275355d79195f1b6cb506bd0b42b5b16e791e0cf3543d975 -> 417b6181f40ea141eff6bd4eafdbd861ceabd7e4a92e4921fb79daf138764fed
+~ +[AXAggregateStatisticsServices updateStatistics] : sha256 527f65666b8d2dffaa5a0199410e4d6d9daa1081cf458e126a7c6b843aef95d9 -> 0f10fc90fb91ffa9b77ab52adca88522fcbcf7b4357c45dd2d9e2829fb743d52
+
+```

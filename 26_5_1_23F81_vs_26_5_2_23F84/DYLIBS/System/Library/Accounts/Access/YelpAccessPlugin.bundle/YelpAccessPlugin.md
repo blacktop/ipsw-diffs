@@ -1,0 +1,41 @@
+## YelpAccessPlugin
+
+> `/System/Library/Accounts/Access/YelpAccessPlugin.bundle/YelpAccessPlugin`
+
+```diff
+
+ 1036.0.0.0.0
+-  __TEXT.__text: 0x1b8 sha256:b5d9eca327705c4ebd9d44dfb745595b3aa28d6713a51b4a304955c667ec9a72
++  __TEXT.__text: 0x1b8 sha256:9cbc1c54bc954f411b839653fb7e55c5feffcd83d380c0f8644cdc36e71033c1
+   __TEXT.__auth_stubs: 0x40 sha256:ec6a81a91517d67ad68730fd93e87fc220046cd136bfb5612b2fe287c08f061d
+   __TEXT.__objc_methlist: 0x1a4 sha256:9912bc7ed71273e7d99451a989eba865eb16b507416c90b29a59238819db0c86
+   __TEXT.__unwind_info: 0x60 sha256:051226ddab6a30e7923ad8422ed983628eae76a417197a3d6b0ce1058978ed10
+   __TEXT.__objc_classname: 0x31 sha256:8a4da05f3e67ff290f1b5ae75b6c3b2fdf760a03b30fcb001c24db3330dfee51
+   __TEXT.__objc_methname: 0x28f sha256:26a34c69759a5786153f01bf98dac19e921e192a2be4c1da19c8f99693f09ed3
+   __TEXT.__objc_methtype: 0x1fa sha256:8eb63beaed4baab76a73649337035a2feeaef84c43b0a0983ec75dc2d163713e
+-  __TEXT.__objc_stubs: 0x40 sha256:237240b725e9464fead0a4c64d46e8f9b4fa302618bdaf6f9dd4d6aac0ecf56d
++  __TEXT.__objc_stubs: 0x40 sha256:1cb0984caf4962459cc3e82b9c89e1f588947960cc1abc4cd6192f91c87ffd3a
+   __DATA_CONST.__got: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:9188152046d011894d1c978aac88acb36f1b2b61079aa4719b3558a1201508f1
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:a003bfe130c079ce022f170a9262aae64739453975c655399c2ee98589185205
++  __DATA_CONST.__objc_classlist: 0x8 sha256:f8e744000471fea90b542afb2c1ad4cf9e773f31b36eadcef48ef1efed4b888f
++  __DATA_CONST.__objc_protolist: 0x10 sha256:94eef8f8eaf8a78b79a7ae87bae7a5cb680903dac50e622c94e8d170feb8d382
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xd8 sha256:953c7cddef17aea3c0aa0c5f0fca191e19af4c83d30c50586b09e0936a50bacb
++  __DATA_CONST.__objc_selrefs: 0xd8 sha256:d20294ca249590ac0ee52b694e475a8c497391d0cadea2dce3435ee89d1f893c
+   __AUTH_CONST.__auth_got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __AUTH_CONST.__objc_const: 0x218 sha256:1507944b2da778deb4892711726365858b74879c1e985edab203687723af3c88
+-  __DATA.__data: 0xc0 sha256:ce85f5d32d2dc4c76c777d2f6287183e6f3d2b9f201e56a77eb82640b0ca88d0
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:70a0c613f62fa955fc6a493aec598e27000a689a47729a9828f3bdc0c3e5bae4
++  __AUTH_CONST.__objc_const: 0x218 sha256:a12cb2823ce26f8398657eaefba742306bb59dedac20638ef9b118f88696be5d
++  __DATA.__data: 0xc0 sha256:f0f1632447fd866676442dea6108e8d2c204b3bf95e5bea2c99e27674f36f019
++  __DATA_DIRTY.__objc_data: 0x50 sha256:58ece20f90b1389cd1a3204f8a2054e94a25455fd7b14e12cd814647b03bfaca
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AccountsDaemon.framework/AccountsDaemon
+Functions:
+~ sub_2a6e86a44 -> sub_2a6ebea44 : sha256 eaca63936f14179038bc350907afc345e85e4eb6c4755ceb498b8f84e4cad86d -> 27455e4e7d47a86498d2a0e0f7e7601c04d236be84d27f5cfb8f350fe26e5169
+~ sub_2a6e86ae0 -> sub_2a6ebeae0 : sha256 f3546c36abf540d33040bbfafb6bd702ccb253446a483fbc6c2c4ab2d8b889f5 -> 7c084aba4a7aa3b7bda4ad9a0caf4f6a789aabae7409b19979011f370a37bde5
+~ sub_2a6e86b58 -> sub_2a6ebeb58 : sha256 80683acc2b7a826a07d343fc8febc03016b0bc9bddb7d43ff12e2115f26ffa27 -> e366eee752154a3b33fc297806a85dd89a61237688933f21deb3b7ae1f92cd4f
+
+```

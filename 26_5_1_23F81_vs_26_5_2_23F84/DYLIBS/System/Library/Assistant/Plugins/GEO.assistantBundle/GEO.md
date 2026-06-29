@@ -1,0 +1,46 @@
+## GEO
+
+> `/System/Library/Assistant/Plugins/GEO.assistantBundle/GEO`
+
+```diff
+
+ 2031.35.2.9.20
+-  __TEXT.__text: 0x46c sha256:4235ad763e9df655af2d3d20ec9195d5da40275fbe93c9d9da506ea1e266105a
++  __TEXT.__text: 0x46c sha256:4a89cfb0fd97f004c83fe2f925ecb8a9346c8cabc42309f227bf4a006613cfd3
+   __TEXT.__auth_stubs: 0x100 sha256:958f06a6261bfbe6fc4abda81c47ed5c5ce56f401ecbe8b65811b100a74172fb
+-  __TEXT.__objc_methlist: 0x1ac sha256:a0bb81cc1fd4a1865d31622a5b269a38a0182951ae3ae66754034d7685c8f741
++  __TEXT.__objc_methlist: 0x1ac sha256:da51a1f3cdb1afe2a4ecd125cc53a203c91acd1848390aa772bd4dac30527321
+   __TEXT.__const: 0x10 sha256:0adb6fdb6079f2cb80ad53f44e071907f0dbb810ff0335cde2ad5b9b0207fc7a
+   __TEXT.__cstring: 0x3e sha256:4aaae7c760954e0ea40c50025844ae4e5bf000088cd4646d1d14ab0274483cdf
+   __TEXT.__oslogstring: 0x114 sha256:031969468862b5dcf10b57bcef3209542edc3b82d8b9627c6023450b2b6ef44a
+
+   __TEXT.__objc_classname: 0x2a sha256:bc3ff32c4771ebaa90741f5b4ce603eb1595e99c295910e114b7a1c3db7c0cf6
+   __TEXT.__objc_methname: 0x360 sha256:203731060e75b349aad12cad3a2a14e7ed6d23652ca4f93babb627ff201d7f1e
+   __TEXT.__objc_methtype: 0x2c2 sha256:e7eb5b5a2784d544ffcca7a0d663434e391f9a1b2573fb758876274de0fa4a3c
+-  __TEXT.__objc_stubs: 0x1a0 sha256:d715244b33547a027f645c7603b63c936da4a977c837b752f8fadd1747ad82b7
++  __TEXT.__objc_stubs: 0x1a0 sha256:e58b47fe87bd4232f7845dbeb6dec7fa2605cde8d9b85b21fb727bb1fe8226a0
+   __DATA_CONST.__got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:5b375da6672ef56a7f1a7d5f6865a4e6075718b574c4bf1705bd0479d3b9914d
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:36da99a243179625767dd3f1f6be0e92670cb454b1104b801d0190bd1ab9f3a1
++  __DATA_CONST.__objc_classlist: 0x8 sha256:1d279df28a3f4f1d5ef6c46b8ff8f1b58af8b588ae62280636fc4f232a8dc474
++  __DATA_CONST.__objc_protolist: 0x10 sha256:20bb69a439f417853cd584282c3afc79bc8d49b9e41cd6129b1cb5f1efb4f525
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x150 sha256:1e9dcdcec8927cc253bee74cacf52d882cccc6e0168693e39773eafde7980b14
++  __DATA_CONST.__objc_selrefs: 0x150 sha256:cd87816075a194f97ea9a373795663bcb38c15c6ddbbac6017d93a4657f016aa
+   __AUTH_CONST.__auth_got: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+-  __AUTH_CONST.__cfstring: 0x40 sha256:901ca61e4d3b417cdaf160a4048fb2bda4c87c97ccb059a92d4d69a0082b5bb4
+-  __AUTH_CONST.__objc_const: 0x238 sha256:20bc03e2b9eef3bafb0b9c9a02e1189f567de67e035baa8a1dd48e7d62405566
+-  __DATA.__data: 0xc0 sha256:907a584d6a373037cd170bf4de0b30074d53973ae9f72befbc21cb9efe1298ec
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:b8f06c66137e8ac9768aa69609c4630daea7be6092d365c383e4e0889bd94661
++  __AUTH_CONST.__cfstring: 0x40 sha256:618842e4e772e112c3f1125972bfd3f2da623a779f18b17cf7692979fa64cacd
++  __AUTH_CONST.__objc_const: 0x238 sha256:5d1ae89de9ef490286087ded102cbb6b41803d3a50c5f73942585e4ebbf19d38
++  __DATA.__data: 0xc0 sha256:a2e2703d645b6db34b80b15ad53edafb237c66f98867b490a923d7bff6021f11
++  __DATA_DIRTY.__objc_data: 0x50 sha256:1ef647c611a9864d3892a49663ba0810717e01aab496ddf6b2654e7d09683345
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
+Functions:
+~ sub_239391c40 -> sub_2393c9c40 : sha256 62f0dc1616e71e4fdc3121852cfa4762b0674c6e8ef1be783f9c2f3f10b3aa61 -> 8068810e0651c8b2817318bfc4148cca0b951be4271e6ec143874870ec043d8d
+~ sub_239391e9c -> sub_2393c9e9c : sha256 6707edf45634d896de7aa80278cc3aa0ce57f4709b62c4a3a3f657bb48cc4656 -> a88cd22fa6eefe0be65c03d69cce39d1eabeca96880467180f9a4ba1159eb250
+
+```

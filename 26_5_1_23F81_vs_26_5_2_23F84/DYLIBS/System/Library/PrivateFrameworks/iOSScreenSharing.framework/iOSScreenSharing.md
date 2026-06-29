@@ -1,0 +1,63 @@
+## iOSScreenSharing
+
+> `/System/Library/PrivateFrameworks/iOSScreenSharing.framework/iOSScreenSharing`
+
+```diff
+
+ 144.1.0.0.0
+-  __TEXT.__text: 0x10b0 sha256:b5ac1ab8fb079cf916d55b7730b026c7e62b63e5fee9603be0957bdeb4f6c354
++  __TEXT.__text: 0x10b0 sha256:f57e5459b590c777f845ebc4edf04743fd99c759f5f6336464779084ddda98f2
+   __TEXT.__auth_stubs: 0x280 sha256:6770e840cddf0659a0b8be6c437eb8d8179d68cc791c88269115a82a2e84693b
+-  __TEXT.__objc_methlist: 0x244 sha256:f2535e9caf62aa200f5ff167eae50386d1d498d64a2d588fd4148d32291b5f9d
++  __TEXT.__objc_methlist: 0x244 sha256:9393bbe03699310deaf9df8045e9f5cf43fe729ddc03b272e1c4f1f6270fc1b3
+   __TEXT.__const: 0x20 sha256:c68cf131dc00e08df50ae13543c945619f54279b5260423a8047445746a01354
+   __TEXT.__gcc_except_tab: 0x34 sha256:6223deef2360d53e5bd9cefad2cd8fc21788071cc617724abf8d7f47abbfa4ed
+   __TEXT.__cstring: 0x199 sha256:69b17396c842368fdddaf247e78bdbe575ff4428357d8abb2fca1cdb48378c1c
+
+   __TEXT.__objc_classname: 0x66 sha256:f913434190fcec3cf8b483dcc822a6d260441d358a1fd82b4b68d26ad30dd0e0
+   __TEXT.__objc_methname: 0x4f2 sha256:e7ea8e81f4a1c8ca6ff8f4dbe61f33e74a8674c41a25a114632ec658e8706b6d
+   __TEXT.__objc_methtype: 0x15f sha256:27aac51f3291470224df7c63c0cc34a0b8b5e3cc1c2ce912c03e825d2f4a8e39
+-  __TEXT.__objc_stubs: 0x400 sha256:30eeca6ba9ae402d6573df68e9d086fa09fd37f06c55b4de004c89c8bc6078d7
++  __TEXT.__objc_stubs: 0x400 sha256:1891f37f786a20a707f616119bca2aa886e4c708d4d740aa73ef7d830cdf494d
+   __DATA_CONST.__got: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+-  __DATA_CONST.__const: 0x68 sha256:6e5073344fb3f83df077869b125203f900e439544ba4ec89e49ddf58b8c29cf2
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:75b6e4519167618846e85c07a6a8486afa4d0239abbdaa594d52c4257e7b61a9
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:ed9cbbd118fa10d17734a7ae21d3717f828f1a21050bc24ee65e3f5508c62cbd
++  __DATA_CONST.__const: 0x68 sha256:faf1f8b31da9b215504e2a49430d47573de181317f17267ac332a626ed98a861
++  __DATA_CONST.__objc_classlist: 0x8 sha256:8ec5fcc9ef91647f9dff08a60d7fa4b414e5634b997aab61fa14e2495c9717df
++  __DATA_CONST.__objc_protolist: 0x20 sha256:83f58b63e097422651bc16cf9b8a1ccf07ced0a2d9f57eef561327d143ece421
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x200 sha256:9dda1a44de116779f87270458929f3816140dc018885d7b4f620cc78089d0a43
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:76621c1a12bf21c9013986d786aa7df4f74651ffe5cd6c658899e3fdb584bfdb
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:75b6e4519167618846e85c07a6a8486afa4d0239abbdaa594d52c4257e7b61a9
++  __DATA_CONST.__objc_selrefs: 0x200 sha256:59c0dd03b7f273846d7ac7c6179b3e72af2e2b133878dc87f684bae102b265c1
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:57e70974142a52432cf7f8f3e41b0b413d96c7e0c8d938858448009e43df0d01
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:8ec5fcc9ef91647f9dff08a60d7fa4b414e5634b997aab61fa14e2495c9717df
+   __AUTH_CONST.__auth_got: 0x150 sha256:52a3e0804d93dc525ec3c67ef8ac5b01756ecf0513e36f3c19435e4c82cb5d29
+-  __AUTH_CONST.__const: 0x60 sha256:a7ccdbf61e699b411fe998dbb91c81730cc5c361f49f3c7b4bd6dc84262dbcd2
+-  __AUTH_CONST.__cfstring: 0x1a0 sha256:bbec42598df16b06088cc88ced342df5176ea2963ba31b65b68cefa39c56a84a
+-  __AUTH_CONST.__objc_const: 0x2f8 sha256:2a3f0dd273e4401cee83c0846ad3d1537a99a57c81d4c502a01bffe3a901d606
+-  __AUTH.__objc_data: 0x50 sha256:a8573ef5a657164f8d8b4177331eecf5eb38887fae701406cfc3b63e51618194
++  __AUTH_CONST.__const: 0x60 sha256:198b6abe62cabe3dcdf3b7b4b7cdea089a2169af190cce3bb43d0e555be98aa3
++  __AUTH_CONST.__cfstring: 0x1a0 sha256:efa25e86fe4a02dcdc635876c6ce394ec700e11b1a8384628ca731d6f6f2ce0f
++  __AUTH_CONST.__objc_const: 0x2f8 sha256:4341366bc50805c0151d19e5d71e0bbff7532a370ca73e0adf7f0e35d3c67626
++  __AUTH.__objc_data: 0x50 sha256:a7ec4063f235381ebc3d7650c1a7b02487eee034ee2b418421fbcf3cfaeedbcc
+   __DATA.__objc_ivar: 0xc sha256:2e5c9862856b0c6f8e0cea23282dc6a269bad2a2cc34aa0668a8eeae66326835
+-  __DATA.__data: 0x180 sha256:d93e1fac88bc91038482f9523e4e002c4ecf83428775527684ca57e439863bdc
++  __DATA.__data: 0x180 sha256:1ad469342bccd95f579027847b797fcc52496d4de59a136b54fd74855bd089e6
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+Functions:
+~ _SS_SendStatusBarTapToScreenSharingServer : sha256 1d6987eaca6fa435a4dd5c5cf3f01a8d076205d218ace613c5007fe44f622543 -> 5f6a013252113d30676af6436389ebac8a1781f61957d0b836aee85cf27dd054
+~ ___SS_SendStatusBarTapToScreenSharingServer_block_invoke.51 : sha256 85ec23b3877f10c8b9241f725bad6197058a33e48af992636c8e5ac4e0579aa6 -> 18784c60500784172698b5b24461e2c6f438969fc6ffa40e6ae406cb965f088a
+~ -[ViewServiceHelper init] : sha256 fb8d4668c618825cd97f587e8d4ef5bee82c00eade6bb1d5131cf55c2133c5d3 -> 41953cc4af643817e6b66a6332f81aaf4f3f288aa7478fab4a59dc69e8732911
+~ -[ViewServiceHelper run] : sha256 b16354c50cbf71aa15616f5ea9a036e4432e494fa38d7441d1c57f068fcce9d4 -> d4e3fc763cbd4bcaf8a4a39eab281eb3906e833717e633abcd3421c88475f09c
+~ -[ViewServiceHelper listener:shouldAcceptNewConnection:] : sha256 8ebe7d0085e961b4f21dfad3b9137b7c1d7b567c39e94bc074cc9e09ef2aaa37 -> 965dfb91b0ab5fc42089f7795b4faa775c0a7da46d80e20d448ff05af9bfdf98
+~ -[ViewServiceHelper handleStatusBarTap] : sha256 a29960b9ae204979ed7d86bdea80dcf17deec356cb6a56dc9e9e52b18e3fd2a6 -> 38074c68250280fb4a42d822e34eae4d6f14731f4b9d6faba3ec324cb620f269
+~ -[ViewServiceHelper termsAndConditionsResponse:] : sha256 0cc4bfded7dece844eb979694e24462aace65599396fc8821f7016c55b58b69d -> 5bb44917667b2eea9e559a1979f2103cf3700b325a5a03ea85b93bc16079909a
+~ -[ViewServiceHelper pauseResumeResponse:] : sha256 caa9fef8d908d45e2349d8cb87deec79d7098fe5a7e2fd70ba14fb611606e078 -> 1a657bde089cc76870549940036e5da7ee7f63fa59e3f604c56deb0d3470ee1c
+~ -[ViewServiceHelper pidNotification:] : sha256 52b49b626d736404d039839c80d4d2324aea3aa94c06f2819e3c4740743b8ebd -> 4321f7095c90f8eddf748e30de7979ccb967393d4cb416fc22a45c59b9293ab6
+~ -[ViewServiceHelper requestUserInfo] : sha256 d8134d8b174af2f6084312374ca6c1dc6cbcd19d6adf89ff5211753644d24d1f -> bd61a4400e1cf3bd21a61087e43103a43d70fa1e6b06ba7ce003616717372c2d
+
+```

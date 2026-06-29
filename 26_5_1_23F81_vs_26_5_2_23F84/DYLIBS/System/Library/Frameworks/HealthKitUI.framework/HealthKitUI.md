@@ -1,0 +1,50 @@
+## HealthKitUI
+
+> `/System/Library/Frameworks/HealthKitUI.framework/HealthKitUI`
+
+```diff
+
+ 6200.6.8.2.1
+   __TEXT.__text: 0x45bc sha256:b861811f6bb5aef13eed3785895192613aa59d1fe1f0a844f68153791ff31630
+   __TEXT.__auth_stubs: 0x590 sha256:f346b0ba2ec7ef1face7d2db58d245d5e2f3ea174002a0d5b006abcbb0d507f6
+-  __TEXT.__objc_methlist: 0x2f0 sha256:baf51177ef1094c5e30a86622d7ec34c53229dc89a67b5e74ac6a23b37370b15
++  __TEXT.__objc_methlist: 0x2f0 sha256:1b0acd88e9c243396bf392da0dd011295b2b1569fc6f9256ab7649b1d0b4f375
+   __TEXT.__cstring: 0x2a1 sha256:5d192e86da6df4cff525d21819581c95dfd8fe71e6e1e49d92bbe8696e7d030f
+   __TEXT.__const: 0x19c sha256:67bd5631c1ba2153faf4c1027de2cfb3fbf0037962d32f38464c245a38324216
+   __TEXT.__constg_swiftt: 0x2d4 sha256:9ad2e2e72c1d69d1ed5c385152bdedf1fa1e0613ca47d203d56570d88aec34f5
+
+   __TEXT.__objc_methname: 0xd8c sha256:28253a291b8de3e828a5cbb61664c8247a58da033cb5ffa9317b237bc21b2618
+   __TEXT.__objc_methtype: 0x1c5 sha256:575828b8fed333d67182d298453d79b19c2cc9f1e3816aaca23955c6d6584ae9
+   __TEXT.__objc_stubs: 0xb60 sha256:608bec9a412313d34706c27991949253edb23f42f81cfd769f89cc08d66cb382
+-  __DATA_CONST.__got: 0x100 sha256:e5b0810ff3687c54dd766764d6f11a57aeb449ebb06c91ba6548afc8c4b2985e
+-  __DATA_CONST.__const: 0xb0 sha256:dae4d9708aaef86e6f2a51e322f802509fc6cce798bba74397a66c751f45ff3f
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:33eb363b69f2e493d2a8bc23c0fe6092a6a4e3da099bce8e53a2c8247bc1fcfa
+-  __DATA_CONST.__objc_catlist: 0x18 sha256:055d2f8093e5462c12f532998b27574bfee8c116bac197cda9fc9d5ddbdb39ed
++  __DATA_CONST.__got: 0x100 sha256:28991cc7ee0e29e95d398373abf06d977f4ec1425b169462db75a7e370122637
++  __DATA_CONST.__const: 0xb0 sha256:5ad910c839e68f5a0168ea350a8f4a643dea84e228cea3f5b358b2d5fead42f8
++  __DATA_CONST.__objc_classlist: 0x18 sha256:56f0f835600eec142b849210612970c62ed2b47277fe3a1ff2068ca17c9e1b95
++  __DATA_CONST.__objc_catlist: 0x18 sha256:8e2ecbf9f159bae137e696bbf29895e0c90b73224bb8c22ca8189e07ae078162
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x388 sha256:316462759cff07a555b1b8b3dfd53b318e7887f860cf76519ad6ba1440152c78
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:2a5c6ec6bd8d97318b3746137afc4f67362b5d8f745169782903d2437b9cda21
++  __DATA_CONST.__objc_selrefs: 0x388 sha256:6d587f83e4f07344cd0671d0d8bb0772c92331657851045d13d09c6d3748ff89
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:64e9054bbd8e9eefa09f12719922ce9396ef3806081505cdf72cbd9e58bd9bf6
+   __AUTH_CONST.__auth_got: 0x2d0 sha256:fe2f74a1e0b16a66452888eb4d734bc455cf1304481bb495d59afa8cf9cae93b
+-  __AUTH_CONST.__const: 0x1c0 sha256:af6c73997677fb36469922f184343cb12df0242fbd2ad979d4c1b0bc84a709c8
+-  __AUTH_CONST.__cfstring: 0x1c0 sha256:fbb31e4c62fe6ee32cb3b7c087217bbce14da74a2beb3738e78abf06ea91390b
+-  __AUTH_CONST.__objc_const: 0x500 sha256:adaed4380a62a7be0c996070d1dbb041bae2bf1ef3eeb234507e4d50d5f10cb5
+-  __AUTH.__objc_data: 0xa0 sha256:9933e29f37f59c1f141ce4fb81e9c3db36be7138673e5875a7c5d5cc022674d8
++  __AUTH_CONST.__const: 0x1c0 sha256:0b266f3d3e9e23bc39f72f2d106a45be69bc9fd3bf35e6153f9f936dd6a65623
++  __AUTH_CONST.__cfstring: 0x1c0 sha256:f17116e073d08e64d88762648d7e4aac2280d73504d11a93e08bb38836f7b702
++  __AUTH_CONST.__objc_const: 0x500 sha256:20df3fcc76c0662b4ee0afed60ef12898f13754700cd3b6b12f8d2b393715e7d
++  __AUTH.__objc_data: 0xa0 sha256:a23a4fed23559a9898dbb4b591688d780dee7f5e46120e72a74b2f94c45bf10d
+   __DATA.__objc_ivar: 0x34 sha256:0b4d2656ac5fe7f50551b5001e5f068e94558fd225a1e1b34657faabc5abe200
+   __DATA.__data: 0x180 sha256:e5e45e775b54e5d6726dfe0da922a2e14eef45fb5aea5fac99f5e916b8a19cb2
+   __DATA.__bss: 0x128 sha256:250f52cb2d6f1966a29f6ac771fa1cd185b8f8531396c8a4026c0fe635617e0c
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:76f28d461929003d03e4ec403be059536370f61eebdc55d2f0a46dc1122cff59
++  __DATA_DIRTY.__objc_data: 0x50 sha256:b92c7bd75d3ab60a41c1b00ccd42f4a94302c0cc5da404f2649cbf1ec4e42372
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+```

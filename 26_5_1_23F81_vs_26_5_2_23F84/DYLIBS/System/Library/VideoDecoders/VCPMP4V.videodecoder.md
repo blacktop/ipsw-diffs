@@ -1,0 +1,31 @@
+## VCPMP4V.videodecoder
+
+> `/System/Library/VideoDecoders/VCPMP4V.videodecoder`
+
+```diff
+
+ 624.1.0.0.0
+-  __TEXT.__text: 0x20b88 sha256:bbf59ed3c3092e9013c6e4c05da7ec75238a76f93f7b87d016242de723bb0a00
+-  __TEXT.__auth_stubs: 0x400 sha256:b64e28a9014e307ae23e1f76b0f77f6de687979d04759897a1e4f951b5ae4b20
++  __TEXT.__text: 0x20b88 sha256:6f773d8d5a43a997eed823138f3c255f815a7a4dc488b0c8a0417314113d2f5a
++  __TEXT.__auth_stubs: 0x400 sha256:f48d997a13870bcf9165dc4b1dd0110e86508ff0e8d6fdec59cdd2f503be9d79
+   __TEXT.__const: 0x15560 sha256:ebdc798fb73247f3448b3f00f5ee5344e7bf6bbeb503058d6ac9135b71ec18bf
+   __TEXT.__gcc_except_tab: 0x28 sha256:9ee4e0568ce2434859616eba16cf277846cd18b5c90c93fb6d2581e48b8a48bd
+   __TEXT.__cstring: 0xa9 sha256:4496e68e0644c49def3941bfaf054e5e7156d7858d7d2882ba3635e9a2c65d89
+
+   __TEXT.__eh_frame: 0x48 sha256:c729d29e730a58a7f288eea46e83393060a6267773c56a80311cb88f9cb709b6
+   __DATA_CONST.__got: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+   __AUTH_CONST.__auth_got: 0x208 sha256:d3039c0b5d951d946ed79c014b2a913671703141bf41ef4cb006dcbefcf87364
+-  __AUTH_CONST.__const: 0xd8 sha256:c246b598179860ada56fde22893fa85ba26bd5b5c060abe0d9f029ec27566fdd
+-  __AUTH_CONST.__cfstring: 0x40 sha256:3f1b57eed084abcec6dfb4dcbd2ec64d2fc8303e2c6365f688d734f9e703c6a5
++  __AUTH_CONST.__const: 0xd8 sha256:3a2690b0aa1ec19ad9a73e8f323a32a82027e1889cf3552c11e9a517a1e0a678
++  __AUTH_CONST.__cfstring: 0x40 sha256:7330a65157541851e4b3915ede58341f3907e1513ba9da3d18d52b96ca8cef7d
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+Functions:
+~ _MPEG4VideoDecoder_CreateInstance : sha256 762fb34179eea5aceb0e753b901b605a43b6899101cf86fa5d1c6d737eb699c1 -> a4f8bd202c3034f49314c691f2fbcf3c4e2e3d3e03856b22db8da684376c877d
+~ __ZL38MPEG4VideoDecoder_CopyDebugDescriptionP18OpaqueCMBaseObject : sha256 2e9960ccbff8ef7b55eb73a3d86be2fc7e064e2b0843da546fc6f4a49191bfd1 -> cdbfcf57dfb003863ccbb41bc581583ccf0cdf1a065e250ed1aa3e069e73aeeb
+~ __ZL30MPEG4VideoDecoder_StartSessionP20OpaqueVTVideoDecoderP27OpaqueVTVideoDecoderSessionPK25opaqueCMFormatDescription : sha256 607097e9475aadfe9801fa548a44f7c8fe1a6074c08490c4aa82f40e4d98b5b7 -> 72687a710d819325e8dba16f3ffb2d76bf5bfae9caad48de5e59b0fc7c2d46ee
+
+```

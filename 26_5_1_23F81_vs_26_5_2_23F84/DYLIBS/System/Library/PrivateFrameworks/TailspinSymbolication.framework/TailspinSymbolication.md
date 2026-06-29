@@ -1,0 +1,55 @@
+## TailspinSymbolication
+
+> `/System/Library/PrivateFrameworks/TailspinSymbolication.framework/TailspinSymbolication`
+
+```diff
+
+ 250.2.0.0.0
+-  __TEXT.__text: 0x660 sha256:cca0ad4267a414a4d3f216ad6ee026f01f6fedde8883a38c7d8fde836ac9fbee
++  __TEXT.__text: 0x660 sha256:19e875378b9f54de9b64ad9cc160a932b2df3467ea915cd0ebf1afa32311dead
+   __TEXT.__auth_stubs: 0x1b0 sha256:dee52f82761f045a9b5f5dbeed6599b2bfd01fc76b3163855f33ab43af8045e8
+-  __TEXT.__objc_methlist: 0x64 sha256:a732d3c345a9189aa7438e7d79785902ecf99cfd903e3982c07fee5f1839a7b7
++  __TEXT.__objc_methlist: 0x64 sha256:3630693dca9135d4aff8b928271fee9e90d72593843c1675914fe15a82aaf327
+   __TEXT.__const: 0x68 sha256:9d040213281603c105389c429d259dacd226f41f9477b292135591fd7e028289
+   __TEXT.__cstring: 0x15e sha256:a5cf397b45cb66ad8b2d9b60cb8f67a59f174e535370d9007088e53f84a4b0b9
+   __TEXT.__gcc_except_tab: 0x14 sha256:d583bdec56aea94a7c89797d1ef4b98495b31a44b13c334f7c279507f895dc4d
+
+   __TEXT.__objc_classname: 0x43 sha256:bf8ebac49b67f590f7fa9dd72565b39702bc1548ebd92234f50b93b27fd1f16c
+   __TEXT.__objc_methname: 0x1ab sha256:588f3c18f232c7a07c54e10c57c63b7573d92e995e30af4c9192d403670fe31a
+   __TEXT.__objc_methtype: 0xaf sha256:9b287b6ad261833311c17c912e325d5c7ee80f29657ffc29e040a0912f74cf93
+-  __TEXT.__objc_stubs: 0x1c0 sha256:5052a44578b7a9bbf64d96e82e78f88305ad6263158ab4e595ea64ce385e1ab1
++  __TEXT.__objc_stubs: 0x1c0 sha256:aa2a4b1e7540cb99c9b7cd35024ee19bd1b8ae29f6bf575740b176e3fa78cf90
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_CONST.__const: 0x118 sha256:426a25864961732d59ecba4a03e58575f426f5ea8c873a3c5baa01f756577309
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:7ee5cd0cccb707b321c95b6ced5a4c0338be3110299b4d99837312041569f7f9
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:db3ca4c84dcaaae2b86a45b48c5ed6d23d2c57e6a6f883ba6f750013b73a1c86
++  __DATA_CONST.__const: 0x118 sha256:80ee9776dda90f74f9da94b5d427819c5228a756f56672a2d86675f10834df4a
++  __DATA_CONST.__objc_classlist: 0x8 sha256:f7f95182e65a3435d250effb3a3ce6f52870b8168222eee9ace012c55ac5dbef
++  __DATA_CONST.__objc_protolist: 0x8 sha256:5096cf55a0b09b53a97a21068934f60127c6c19145b76ef62a08bd9046db4730
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x88 sha256:821a9e9c485e2933262cc9505371daacd9ccf54c680dfc2fddff3ee15d578795
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:2a09ff64eb0c888bc0cfd735043f3c9aad9e7b7de5e646c72d73492bed2af1ef
++  __DATA_CONST.__objc_selrefs: 0x88 sha256:5eda67dc0fc6dfe0397e68e3642c83a89bbcf8d6507904be39954743dbbe113f
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:40207ce55b316f876e2ee959c091431cd8c4fae169794366654e9ea69fba2227
+   __AUTH_CONST.__auth_got: 0xe8 sha256:c4fcd50d9f0c893c46288b57d8e62b18523145956b249b6ecd6c21718be49065
+-  __AUTH_CONST.__const: 0x80 sha256:4090381299776389505450f3aacf6c997f272aa9aaba4899743da2c7076f4e46
+-  __AUTH_CONST.__cfstring: 0x2c0 sha256:9ecef0b9e0ad7d7abe51acaf35d6c36d6f44898181cf31168cf909e8d63c8473
+-  __AUTH_CONST.__objc_const: 0xd8 sha256:975238530712377bbc1e5c02baaa8fe8f33bb782e803a711faacc6c5dc851b24
++  __AUTH_CONST.__const: 0x80 sha256:6659968c71d012365810e27f58300ecbf10d5362dc2b5a9371fb2c7a27994112
++  __AUTH_CONST.__cfstring: 0x2c0 sha256:db5af3479c55fc61db7d7b768091bf9b11d11b944415cb8457220bfebb0a8d9c
++  __AUTH_CONST.__objc_const: 0xd8 sha256:b8cd19c82ac0ca1e6635d9b90d1eeae9377186a300d4f7d5270b3a0f7b7095b5
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+-  __DATA.__data: 0x60 sha256:91f95e2c09d6a8270b5bf12e777f3cd60b7c0c3e155fef623f97f2395882e276
++  __DATA.__data: 0x60 sha256:49525ea2c44efd92712a670ceba3675b70caab26fd830894ff65b2e7432b3804
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:7bddba6d1572af0413707ba05f414fb8f8c5690e23b088aad872ac48ad83e71f
++  __DATA_DIRTY.__objc_data: 0x50 sha256:b0985a2ea719b2863e7a7eb600250c9e19f4e60585e98d869dfdee0d29340953
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+Functions:
+~ -[TailspinSymbolicationClient symbolicateUUID:pid:path:offsets:options:] : sha256 92eb300c09e7c29d0e0eec0bed2a0a05fb7350f00e07edc6cb53f07e687e958d -> b22047613b938ce7c1c046aa919becb2727f4536140704f11eea40993bef2187
+~ -[TailspinSymbolicationClient _initConnection] : sha256 20a5c556b0a44829081c94e0103eb1d2a8eea22a680e36003357e7d52f0f5750 -> 93096fcd48f3c59b24e093b26d66670b8ee117982886a7b4951729cd3d9737a5
+~ __symbolicationClientHandle.cold.1 : sha256 f2ddd81c598b1e2cde16c1d368e5c68e2f6a49a71ee347e97a4b9783b3bcec81 -> 347a97139c508ebebb69cb3ad67519acbce9673994795f77a1c591ef2aaa13f3
+
+```

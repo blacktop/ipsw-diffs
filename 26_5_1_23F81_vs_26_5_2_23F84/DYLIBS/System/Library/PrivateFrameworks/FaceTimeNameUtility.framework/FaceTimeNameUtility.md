@@ -1,0 +1,50 @@
+## FaceTimeNameUtility
+
+> `/System/Library/PrivateFrameworks/FaceTimeNameUtility.framework/FaceTimeNameUtility`
+
+```diff
+
+ 1576.600.51.2.2
+-  __TEXT.__text: 0x30c sha256:2508bd968e33281b80c141cb661ef32d8081ac68991d6574530e9958d276d0e2
++  __TEXT.__text: 0x30c sha256:dd70908676950180f56eb23301514fcf859dc1976138d83cf1fba67077d0675b
+   __TEXT.__auth_stubs: 0xb0 sha256:e67b38923984040dd8783a2df550489a1b7405d0b43caa8a31d2b39ee4f7bc4b
+-  __TEXT.__objc_methlist: 0x70 sha256:5adbd721f874a4905b84afa4290181ccd68f53dcca7d256b89b04d330cc540e6
++  __TEXT.__objc_methlist: 0x70 sha256:adc772bdad5394448e0d66796f44f25cd7f6b2629d0071e808b45622ccc4f20a
+   __TEXT.__const: 0x48 sha256:83e944dd898c8d8d3fb26dac7070b0369294f24461f86cc16315ff1077124258
+   __TEXT.__cstring: 0xad sha256:570844c90ba515fea989d430d85fa7f3b7a60e26c1f238e83ec68927f59bf68b
+   __TEXT.__unwind_info: 0x80 sha256:e60dd3506970546a0b4d4cb58ba7fbff565206c895ec52c495871677ce07f293
+   __TEXT.__objc_classname: 0x11 sha256:4ad96f4f89c893c0057fabd30cb5dd654c5a8fd47bf163976abcd78fd9f5371d
+   __TEXT.__objc_methname: 0x107 sha256:fdf60735a7a85a3ce879b496cdbd299406ea15d0457e0631b281259f12b91369
+   __TEXT.__objc_methtype: 0x1b sha256:e3d16ab6a25733630f035946987307542222c02f9757279950add12f058cc4f9
+-  __TEXT.__objc_stubs: 0x140 sha256:786c48ec0efddce4ed292c0786aa0215e3347bb61caaa654102f74e63a9c5896
++  __TEXT.__objc_stubs: 0x140 sha256:6e96b6574ac13d4c6ff5cced761933b2341177901e3d43d96402b1b16347b170
+   __DATA_CONST.__got: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_CONST.__const: 0x20 sha256:cae9a05317581b70d069d348548786a74855b407ec98b029d734fc92b4ede217
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:743db00a342ca0bdcbba634c650b13c57b19de4d41dc5f526e6568bcf674238c
++  __DATA_CONST.__const: 0x20 sha256:3295f7f516ade7793366aa77232bc8e6ef524cad7f7b527dee7747d03a4c196e
++  __DATA_CONST.__objc_classlist: 0x8 sha256:713b29fc1d6da097ce53f64d2fe14e2e733f03f73edf103c93c15937e6d0bd98
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x68 sha256:69b4d5addba74797691d3ff8d6dc1c846d62175299f9e08c4d1698375e8a55e5
++  __DATA_CONST.__objc_selrefs: 0x68 sha256:ea6419ec941d4ff8f4f36d250f5b48ff97613d0717d68893a35797806dd8fea6
+   __AUTH_CONST.__auth_got: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+-  __AUTH_CONST.__const: 0x20 sha256:0cb08e1cb3b7698cae2bb382a21ae5937950725864ea0514a1e566886fd2cba7
+-  __AUTH_CONST.__cfstring: 0x100 sha256:915a9ac86626ce00b1bcf8a239b3dddfb7ea260379df15e40954b649b83e74ae
+-  __AUTH_CONST.__objc_const: 0xc8 sha256:4626dc2644e09e46fd26ce1df30024976d01eaec3a53949f5b18b090a68fdb08
+-  __AUTH.__objc_data: 0x50 sha256:96a95598c85b7f490e1406fdc8f59ed9e2d5bd8fdc381881b0bd36f80326de12
++  __AUTH_CONST.__const: 0x20 sha256:95838da2ebb1e1c9833657e36a7a5bf8290117cf42cf4f0289b3046cc17d91bd
++  __AUTH_CONST.__cfstring: 0x100 sha256:2ebe1c6b9a779bcaea9a1f15dab958730bd09a0071cf8d66736602c9d0dc09d4
++  __AUTH_CONST.__objc_const: 0xc8 sha256:984be9afd565cb21bfb799aade7908109d2846f9ccf08f89efed71c7c500c69b
++  __AUTH.__objc_data: 0x50 sha256:a74df903ee89a55bd32445563f3ace203ba13f815ae6eb18687c57cda0af29b5
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ +[FTNUServiceNames localizedStringForKey:] : sha256 493b3e9886fa774ce5bc1c439a36141fe8bd89e21ff00a7706fc987783816444 -> e6ef48ed6c988c5840234ddbf0235275628f91b219f37f241d40e67415a2738e
+~ ___28+[FTNUServiceNames defaults]_block_invoke : sha256 741a899b79eca1c25161f7bbf254685e20e1ae5bbd8272b1ec4e075dfe6d941c -> c8d92b0f13a40da14371f67f70c4a0dd71d8632e8d1eb59b65de70495bf4e0e5
+~ +[FTNUServiceNames testingOverrideFTAName] : sha256 ae8b341584257f4e98fac074bbbcc2619fe3e2f3eb338dc837dc27f187053114 -> 3641ae9cf643f0c4683940b8f5dfd93283895b75c038ce2b03d8bdd7e2abec51
+~ -[FTNUServiceNames faceTimeServiceName] : sha256 40c6ca91d6c6c6cf4dd2ef2ac4f78958022582acb9aa01b6b368d273abf90dab -> 642b16c7900b285bc233ec67316d14415280f3a42949d24ace634f64dddaa57b
+~ -[FTNUServiceNames faceTimeVideoServiceName] : sha256 50b345e4ffc7e93ce7209a3e8e15f51f8fd339b001e931d4e377a087254bd752 -> 3c6947e21c1fbb7e07f9e68eb3829fbb93dcb386537252964e3ce0b37b42d4a9
+~ -[FTNUServiceNames faceTimeAudioServiceName] : sha256 717dafcfda03721047bcf150484528404dd3e23412e2d593df6bb978992ba3ec -> a8007edcf173a31b97331329910c447b50d70e0939490982328f8cb085ee8e3f
+~ +[FTNUServiceNames defaults].cold.1 : sha256 9a68037e949f75f01e44eac56a9b189e27b20fb50c645b21a7a097eca334e639 -> b62f2751cd6148b85f9d4ab1c43c2549ef76479850983fbbb87877aec9459766
+
+```

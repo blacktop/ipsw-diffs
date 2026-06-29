@@ -1,0 +1,65 @@
+## Timeline
+
+> `/System/Library/PrivateFrameworks/Timeline.framework/Timeline`
+
+```diff
+
+ 22.0.0.0.0
+-  __TEXT.__text: 0x79f8 sha256:b2aab638a993f922cfb91c27606061c97b34e1771a16172c01cb4b3a3b8eb167
++  __TEXT.__text: 0x79f8 sha256:7b0961ed60392d6dc81e79198ff3953b9593fc7cc5b586733189fbc64d1ce233
+   __TEXT.__auth_stubs: 0x3e0 sha256:8feb23be439931f7203eb648b8698542ad71bc59c9b27fae812c01adfa86c849
+-  __TEXT.__objc_methlist: 0xc6c sha256:aff98f1e0af1bffc437fdf48fa5637c93743d7c4f2f647c73746c8f614f8d456
++  __TEXT.__objc_methlist: 0xc6c sha256:b9e496520b49e0835d95b925d77f53dc56f8048f7f05a28031b0498532d537df
+   __TEXT.__const: 0x68 sha256:9be1c7b6190b9179b72ba4c44086943ed73b89bd45d97e4137fa195fb3c5591f
+   __TEXT.__gcc_except_tab: 0x504 sha256:6162a1a72d4f1db903a9b3fee922802a16cef38036e529d047f1f6f7229607f2
+   __TEXT.__cstring: 0x41e sha256:412b0b3e6aa9f8b470e0075e6aaf185033fe3d26f278ac319283de3a89a711fb
+
+   __TEXT.__objc_methname: 0x1725 sha256:a49f832e9ede0080ef81b55aac69127e40b912d808250065876077705f4540c4
+   __TEXT.__objc_methtype: 0x46f sha256:106a64fb42a3d275a7e6920472372a9c19fca27a9ff48511061e9563f75524eb
+   __TEXT.__objc_stubs: 0x13a0 sha256:61fae9f1a0812b9c69942d89b336374af4c01ffe083ee9a15430ca659bbd2e23
+-  __DATA_CONST.__got: 0x100 sha256:307515e5eb1cd0dd01fea2cd5aa4759f057a5b14b2825f11f21e034cd3bf148d
+-  __DATA_CONST.__const: 0x1a0 sha256:5887cdef4aef3eb53245f0ee75be9a5c300a95d958b245d56e4eaca977ee2be4
+-  __DATA_CONST.__objc_classlist: 0x78 sha256:281eab7f2a41ef30e564787013e0d155d7b6bc98d8e2934c991054f7fc0ebbcf
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:02d46eefb7450b710313bf2621c04274eeb0532ba94468fd4f87f9c1d121639f
+-  __DATA_CONST.__objc_protolist: 0x48 sha256:d093b3a0977a76d70a8e05328b170fc9da397ff753758d6a17a354d87e6585b0
++  __DATA_CONST.__got: 0x100 sha256:6abeaba46e55b60f59084a22a1fbd2e26a6b766457976754f3c8116fe7b002eb
++  __DATA_CONST.__const: 0x1a0 sha256:66f7dc8f5f0554e042804a87e228da1e715a495ebf1c309aab9fea1fbc8f7cd5
++  __DATA_CONST.__objc_classlist: 0x78 sha256:e51a232c0a186e8036036b91f1877444b91c1c33dc3016ca34c077d64fe24faa
++  __DATA_CONST.__objc_catlist: 0x8 sha256:f028e2f002380c83ba40e11f23fdd6f3a92428113fd1aa350419b8f06c17e39c
++  __DATA_CONST.__objc_protolist: 0x48 sha256:c96e0693c65e617818620c6a8f7ea473b5dac0a8b080918e9dd268f93f22b5a9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x680 sha256:48c0cf4731a143f0e31d6ace5c48522c29516443b8d9408418d54ec657151391
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:1d8e0be976416d61cee52b7c45d87737a8a87bd29569f9388eec313311b3bab9
+-  __DATA_CONST.__objc_superrefs: 0x70 sha256:d740ef660e3152ce7362edca7ce7635b9ce7b41548d9bc9d7179506c8f96991d
+-  __DATA_CONST.__objc_arraydata: 0xb0 sha256:99883d6657a0f73b659608611561f01eb5782fe3a0d72f6cec2fdd58cf4e6e80
++  __DATA_CONST.__objc_selrefs: 0x680 sha256:5a6b6f220fa679d0ae8023f57927a1604252a4478741720c0a2c5fbef35b2c4e
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:a63fab7688139f36e8c7af81986dba7064dafbc8b3c9896d61deb4f1a7eb90c2
++  __DATA_CONST.__objc_superrefs: 0x70 sha256:0328e302d743f75cb329b58e01647cf719eb3366fd422f9b39599e2ae430770c
++  __DATA_CONST.__objc_arraydata: 0xb0 sha256:465316f162633f7baf94c5c93ee2dc0b5c31dd4ac804f5c2b93ca82c7067606f
+   __AUTH_CONST.__auth_got: 0x200 sha256:076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560
+-  __AUTH_CONST.__const: 0xa0 sha256:0acbffede73d9a3e333e0aff9a279f128670edf51353d12baa7fb7e4af7a3d49
+-  __AUTH_CONST.__cfstring: 0x500 sha256:801be8b2944f071c7678388a94099b53475834d55869a3290b9de9544ca2d053
+-  __AUTH_CONST.__objc_const: 0x17d8 sha256:50b211d7788d02ba55334edcbdd7261cfb45e4ae601e58a88d81218a4e9b8cd2
+-  __AUTH_CONST.__objc_dictobj: 0x1b8 sha256:fc2ecb869ba621b15c34ba3e1896449894880286a53acb06fffc0b5477db0987
+-  __AUTH.__objc_data: 0x4b0 sha256:464fd265b443ecfced2dcc82c8372d77c69662c5c812ffa499362dff2cb568c5
++  __AUTH_CONST.__const: 0xa0 sha256:fde94445ddacd5079aba7d78a20d1b31a3d89ce4042e3a30cc7e1a3923c520f2
++  __AUTH_CONST.__cfstring: 0x500 sha256:61571a3d2f9ec87b39ee61b01383bc86a26d1d8319208f26859ce3e2942bf49f
++  __AUTH_CONST.__objc_const: 0x17d8 sha256:01ec03a88b4cde5faaa21efda2e116eaaca429749f2e9ad810092d451e873e50
++  __AUTH_CONST.__objc_dictobj: 0x1b8 sha256:8b473dd83e2b2f819ee07d02323b58a12cba6dc6dcacd0c616e2e30f04de2c86
++  __AUTH.__objc_data: 0x4b0 sha256:c9b995b019345cd396466cb5c82f75a35c3e79eb6daec97bd9642fe6d8f1033d
+   __DATA.__objc_ivar: 0xb8 sha256:1918a1fdbbfb8247cc739afa537834e13d508342feb18e883cbb3fd714e9443d
+-  __DATA.__data: 0x360 sha256:9f5585e577fc9db2f65681ad91185406447180b778a8217523a2907f6a399546
++  __DATA.__data: 0x360 sha256:df7da0bfbe9802a7d8dc7becbd7b09e714d082defb02e56043260ca99d0948f0
+   __DATA.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ -[TLTimelineExtendOperation initWithIdentifiable:afterDate:timeout:entryLimit:] : sha256 838bd17ed27613fc2095248754b7293684723e5e55c666cbdc15396fc308ef95 -> 1ba5a6e49410f01388ed1920af68b98349873f83bd0787ba79620707c27a1b4b
+~ -[TLTimelineExtendOperation main] : sha256 399d6f99251ed000d1b57a61fa10a1477a6349f8f2cde3ecf049a05cbcda51e2 -> 26c34866a61d2fef557639aef10a5b9c05890160d1aa39fdb11da54f7e948821
+~ -[TLTimelineSetupOperation initWithIdentifiable:timeout:entryLimit:] : sha256 c4fcf8bd966547c4c85be59324b208cf68463b7c4203136a8a342aa250d9ad8d -> a7140e967b3fb48495d554a88f7bbccaf245c7056fb186c7cfdd6d54be257d25
+~ -[TLTimelineSetupOperation main] : sha256 1a35ec78337326a3ec62ca94608ba1282b94bcf9c7b1a69462d20fd832aab1eb -> 52bfe0ec7709dae86e6d96f8b60f1de9660e136a7397a759396cbeb22dc1baa7
+~ -[TLTimelineSessionOperation main] : sha256 0fc5f96e7f5e60c9afb1288bb062f8a247430de54bcd1fb833715edfa96b13f4 -> 17011a4dde127a64afa3405d8a870a4c7f13c5e99915256bb9e7105de88a0ff8
+~ -[TLTimeline setDelegate:] : sha256 34fa16935d74e415fb58130ac4feb2f307aaeec220db6714d552d80a1f3c9405 -> ea2a503c725361576a48ca12edb686747df89a58fede7813f9a42b8c0fc7165e
+~ -[TLTimeline _updateNowWindow] : sha256 400042d18a052fa09f6d84236336182b0e1f24468dee903166d148550f923f3f -> 7f69615c38f5f9b6063481813912e9e8c42a8f6e4cb4f0bd0193d9204b8ee714
+
+```

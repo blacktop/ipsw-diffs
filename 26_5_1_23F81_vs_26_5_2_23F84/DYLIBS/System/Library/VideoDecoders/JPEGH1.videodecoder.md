@@ -1,0 +1,51 @@
+## JPEGH1.videodecoder
+
+> `/System/Library/VideoDecoders/JPEGH1.videodecoder`
+
+```diff
+
+-3320.8.1.1.0
+-  __TEXT.__text: 0x2e44 sha256:741082c958a0808b5bf14f94c1968a3c213dc4ff2adf18c9fc82a5f0cfb76f59
++3320.8.1.2.0
++  __TEXT.__text: 0x2e44 sha256:813d8a22a74837c974bacb65ca663459060ef67c4e9652ccd1094a555a7f325b
+   __TEXT.__auth_stubs: 0x6d0 sha256:558c625f0a6c5965da1844a751a39c5a1a1fff26b82455a6adc3757fe867add1
+   __TEXT.__const: 0x34 sha256:d6eb1db4dd2f9b565a3b3069842a8e1acaf8f209e12fe622c8ac81e8232c79bd
+   __TEXT.__cstring: 0xe7 sha256:9234142216fba999f0962738b5271a0fef74f0c0137fefc701646d48ca7c9a9d
+   __TEXT.__unwind_info: 0xd0 sha256:4b699a94c7a9c987860f74d900bba7cd25eafa0c72e036397204d62c78fd31a3
+   __DATA_CONST.__got: 0x150 sha256:52a3e0804d93dc525ec3c67ef8ac5b01756ecf0513e36f3c19435e4c82cb5d29
+-  __DATA_CONST.__const: 0x40 sha256:7a01c0c5cc0922feadb3b9a872df01943f5cc008977085fc1df4d19bd51ec26c
++  __DATA_CONST.__const: 0x40 sha256:4134b4e7b4a8c0b08b3553ddffddf545282dec3555c498ad12bb8d5fdeb92a6d
+   __AUTH_CONST.__auth_got: 0x368 sha256:232885aa9953d5c0890072e5589e9265c9a06f8354cb7403cde80d604c526f09
+-  __AUTH_CONST.__const: 0xd8 sha256:54501b356394259d672d1bd3c3c268f40a90985ad3bfb5fc1a3b8ef6e970d625
+-  __AUTH_CONST.__cfstring: 0x60 sha256:cfce061f874a857e873cbc4740b8f2990bcdb6cc79ce063836da5afb7c0f1abc
++  __AUTH_CONST.__const: 0xd8 sha256:a71f272007ac31be0e8fa3aae46c74c844fa78a93fd9dabe2d81f9968338d01d
++  __AUTH_CONST.__cfstring: 0x60 sha256:a5c1f4a65045618103ba1890232e53d2fac8a7f3ff5f7999997b4db07406b233
+   __DATA.__bss: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+   __DATA_DIRTY.__data: 0x30 sha256:6a02f10fd9678c104f33dcbf52d942dfe9b4abd1856577ecf3d97a16b8863b6d
+   __DATA_DIRTY.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 7C429EE6-E085-39AD-B600-4173C0022DAB
++  UUID: 11853900-4FEB-3064-8979-6D474193B71F
+   Functions: 41
+   Symbols:   248
+   CStrings:  14
+Functions:
+~ _H1JPEGVideoDecoder_CreateInstance : sha256 075e65e3ee83262c1690bd318eae806687c32f0a62a0aea17086791479a3b95a -> c9f81f4e5ed97a71e55a530c730a06b8836b888935d8903234bdd66b302c3061
+~ _H1JPEGVideoDecoder_Invalidate : sha256 6aaded2e1da7d85bc01ef18665e4cec0ed0f2c414c0f4fcea52ef66d60c7befc -> 0721d0d276e27c783589c59243e193277014771b95414dcfab13ce40e71ff208
+~ _H1JPEGVideoDecoder_CopyDebugDescription : sha256 a1c0dc69f9e807be19edeed3ec49e07622e8d7c439267bc0f4f7c3c1a64ad92f -> c5b4ba41972e195ab04abd095cf1ae04cab81dcc93ebd7ae0b47605918dda17c
+~ _H1JPEGVideoDecoder_CopyProperty : sha256 6f4970daf767ea5a06c1dea135573b70449d05bb511d39d77b59f1def0cd27ed -> 18feb17ef3a80a4e7bf7d5881db9b5e59365846dacab1a194a280d0bc80a84a6
+~ _jpeg_createSuggestedQualityOfServiceTiers : sha256 1fa05738d8ad99aab74cf794fbd810ce239a9609f8e3e8ebda063cac695037f0 -> 9a0a2577698699f1676d0ce27e3cc1cd5b7ebbd641a73ed20babb256f5279a22
+~ _H1JPEGVideoDecoder_StartSession : sha256 91ff1a7cebc3a996dcea9627a9eeaaf47f1a095f4eb6d76de2c72b98e3cb60bf -> 0d3add1f847ee63b4e03a7f37646abae3eb36ff862209d956eaad5e7abc49815
+~ _H1JPEGVideoDecoder_CopySupportedPropertyDictionary : sha256 87f25d8ca58077d90a99d2d8a52b53f4f62662c34a8075b07793a13093c224c0 -> 4ebe8028e1b61d01278ce0e15332748086e11fccff56d19e972407144906e860
+~ _jpeg_checkAndMaybeUpdateOutputPixelBufferAttributes : sha256 73dbc3ecca35b4074563686e38e903f77808dca8bfbf1afcab25af32b60b859a -> 1d529a2da8e843d0396eb6bfa066d3e3ff587f3b1b94f999be32255f8e4f80ef
+~ _jpeg_createSupportedPropertyDictionary : sha256 b76c8231a2cd674beb4d5c8abdb7a14fdbadf84ecfc5a8879e78c4a364ae2e9b -> f0fdb686a050c4d1063adbda7ea869f5fc0fdc828252d67d84f79b0fa80cd452
+~ __initalizeService : sha256 d4aaceffcaf7410f2f4ab743e475be13dfc58f64428c0f498f1912cf1744eec2 -> 94e7b62826bd36295387d38d0ee5d3dcbeb06717b985b82d9ec8be03a7c752f5
+~ __openDriverConnection : sha256 08a956d12fd55e808bdc3216e61725f1b9971c7bb3f0a1e09780abcecb5b7488 -> 6ca8d6bec776cd8dbbe07ec76fa4785ce9d406de98fe350e549cdc7c8cbb265d
+~ __openService : sha256 275baad2f088380e9841ade3fbc2fbb05ee60f018ee684c4b89e74ccba58f39e -> 281b7252fa2531ef45d68d07c3f377e4561dc5aeca2d74a3fd9a65d6fc02dfcf
+~ __closeService : sha256 16bcd4b72d6650818a2a2d6c2ec23f2eb7ad808b3a97b02c6b0b4691544f7d68 -> 1260ddcab02dbab6324eaa290941c564302b18aac943515d7dd5a411b379a754
+~ _H1JPEGVideoDecoder_DecodeFrame : sha256 5a00face7a37a252a363f0cbe67454828e0fd4268babb1eb7824abe31bcea7d4 -> 8da3b3ea216ef0791c496ef715ec8ff83cc019e9e3d0f98753fac509fe18918f
+
+```

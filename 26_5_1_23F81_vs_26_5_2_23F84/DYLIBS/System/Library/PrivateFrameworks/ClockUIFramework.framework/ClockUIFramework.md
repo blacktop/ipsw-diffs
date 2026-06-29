@@ -1,0 +1,41 @@
+## ClockUIFramework
+
+> `/System/Library/PrivateFrameworks/ClockUIFramework.framework/ClockUIFramework`
+
+```diff
+
+ 3525.1.1.0.0
+-  __TEXT.__text: 0x28e0 sha256:1ad6c2fce873cd94754815b475aac66fdcb0fbce31c0238d582c97f5c1681cd5
++  __TEXT.__text: 0x28e0 sha256:08fc634be37d8584976b0504c13749d69a232aa85a965608583fba5259cedd7e
+   __TEXT.__auth_stubs: 0x690 sha256:3a9d14c16e6a93a6a4101681ff9a70d4a352c5bf0f71d0f8b47e8b282cc500a1
+-  __TEXT.__const: 0x212 sha256:881c71e194351c3a761148e81a88c1821f3e197fcfc91787d0f1d5ddc9af9721
++  __TEXT.__const: 0x212 sha256:48cb2784b3020683eae9f22888d6928927466ddb5f5d5b80a32cbce9ade97294
+   __TEXT.__swift5_typeref: 0x150 sha256:818143531b1352eb2c2cdc619dff3154bac678f82263441f2239928a42a2f06a
+   __TEXT.__constg_swiftt: 0x98 sha256:bd90a5b2d49d72bdddb0a2f2595252a64b164bc85c8425bb56358b401a72916f
+   __TEXT.__swift5_reflstr: 0x37 sha256:500ac4c60e7fee4d6819ac77c58e23215145697909026e701064bea10486c54e
+
+   __TEXT.__objc_classname: 0x26 sha256:e77813b0365aa199d67ed2247272dd49a144545ffddc92f79b2807455b03cfa6
+   __DATA_CONST.__got: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+   __DATA_CONST.__const: 0xe8 sha256:c4fcd50d9f0c893c46288b57d8e62b18523145956b249b6ecd6c21718be49065
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:c6b7d7ded6ca836c6db044b83d8878243603ab3b1dfc87a1d32629824cd8f762
++  __DATA_CONST.__objc_classlist: 0x8 sha256:2ebabeeaa6d9cb98b18a4188f3aa14197133f4278868e66f0517477130ab764b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+   __AUTH_CONST.__auth_got: 0x348 sha256:16d0edc8b7ad7705b23a14058f366ff1c0dfa16a0ad14f741924c308754cf8d1
+-  __AUTH_CONST.__const: 0x98 sha256:0daebb23b2f187bbcbc5132250af3374aa1cc95b6d862863eeb167099712a9d6
+-  __AUTH_CONST.__objc_const: 0x90 sha256:f0c6af88833033335b38f2f47ed7c3c699c108dc55fb44dca18baecfe3c1c08e
+-  __AUTH.__data: 0x88 sha256:96acfbc90836b4d533b600684ca2e5a4fd921daa091c57dd59bb7925cf107f6d
++  __AUTH_CONST.__const: 0x98 sha256:b7339fb54e76343e7ec9c79fdde59da7f6f5261baaa3a16ea66a92199df1e113
++  __AUTH_CONST.__objc_const: 0x90 sha256:4fe8d011ae8edecf0eb41a1bb2d4f09fbbc8dfa2c4093ffe00489388361045ea
++  __AUTH.__data: 0x88 sha256:78b8a537ea46f2a7009b300c1ada83911bb83e70294e76d7cae90e7a67a0f9fa
+   __DATA.__data: 0xe8 sha256:c4fcd50d9f0c893c46288b57d8e62b18523145956b249b6ecd6c21718be49065
+   __DATA.__bss: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
+-  __DATA_DIRTY.__data: 0x98 sha256:24f67b6f4b6d10c46efc4f65d842582af3c5007318dca446252da772e1c08835
++  __DATA_DIRTY.__data: 0x98 sha256:ce179795749d98be895ff319b17e755d1b10f89f0c447d078b7d15087b298f05
+   __DATA_DIRTY.__bss: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+Functions:
+~ sub_24a0073d4 -> sub_24a03f3d4 : sha256 a69010e646076324564b1200dedfe0ca2f435c527d1ef6bc44803851b50561bb -> 4ab9695b71d80bdb5308f508a30cdbc7de3a5267ce0d9d079416e4af6df4af79
+~ sub_24a0077c0 -> sub_24a03f7c0 : sha256 4edde9f0da5158fc855fd01bbdd37e491e480da41a024d47a7dfab8eded9e51e -> 252e606318df34f6a97fc991258e97cfde2b5df98e70bf134bfe10d4892615ed
+
+```

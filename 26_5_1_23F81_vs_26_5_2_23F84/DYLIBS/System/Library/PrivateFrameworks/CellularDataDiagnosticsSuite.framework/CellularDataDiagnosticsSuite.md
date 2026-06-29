@@ -1,0 +1,54 @@
+## CellularDataDiagnosticsSuite
+
+> `/System/Library/PrivateFrameworks/CellularDataDiagnosticsSuite.framework/CellularDataDiagnosticsSuite`
+
+```diff
+
+ 1251.0.0.0.0
+-  __TEXT.__text: 0xedc sha256:efc928a600f1422404ecff2beec320c907923e3dcf9e2de7b43aec8252fbd462
++  __TEXT.__text: 0xedc sha256:b3c376aeae3390eed1de07132c81c6ac5cad37d7fd9c18060b2bfba901e8eeff
+   __TEXT.__auth_stubs: 0x1e0 sha256:16ca24c2ce82324eba3ef8743ef4e641e2c05ebfbdea0045bbe5eb6358c07c2e
+-  __TEXT.__objc_methlist: 0x70 sha256:1b55a4fc04784622ab2f45c58ff65f235aaeeabd510f6677d20160a56e0086c2
++  __TEXT.__objc_methlist: 0x70 sha256:66ab6a0532333536a811b47924881880b0d6479cf706d79a0dfe348740c5b0a6
+   __TEXT.__const: 0x90 sha256:a5036aeecdbaf3366f61739bfae1d664557ef8833c16ffe9be1cab9ab6d5d720
+   __TEXT.__cstring: 0x168 sha256:2c965064a14d01e4a4e520802ea20fbe016af18ca44d7e45907088eeaf430a41
+   __TEXT.__oslogstring: 0x46d sha256:3ea13e833ecc16c8d0cc0b85e2b281a2d0403e21878cb009bff231af665c912d
+
+   __TEXT.__objc_classname: 0x3b sha256:bbe8f1abd73c1bb25d782505efe064f4b24357f4247db820461376b715998561
+   __TEXT.__objc_methname: 0x25d sha256:21a216b68ee590c6eb153eb53bf03c9e3cb8737c342a304194957a896fdf4552
+   __TEXT.__objc_methtype: 0x4f sha256:320f14d84baab7209d84c0064f995fa56916c52e6a08cd9b34019fce02a82350
+-  __TEXT.__objc_stubs: 0x380 sha256:240e0cd3c760846d5c857f37415c604162e30e75e9638bf4d55ab5a0eff139cf
+-  __DATA_CONST.__got: 0x28 sha256:5cb2b936d825de4e160bf576e2c2c39f347d41ec39b9dd3c81ac2135e8b5083b
+-  __DATA_CONST.__const: 0xc8 sha256:7e7cff994d19f5026e0f009ac5061f9ebe1e03225ccbb0e5a6e789e2bc8aec01
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:5f775c5712f92992655494386f47de5ecb6c9efddee6ebb8a1cf094b4b4acff8
++  __TEXT.__objc_stubs: 0x380 sha256:97c6c6ec5608d80e138e8110c3e6bc7216129c15c729ad8dcc9dd017164a0140
++  __DATA_CONST.__got: 0x28 sha256:20f3d00be79e9454125457d23875e799a27f39ed41c0f61057325d3e3d5e3d70
++  __DATA_CONST.__const: 0xc8 sha256:55d07202087f2b5ee449fc0c3d4bb16933179681529c937e716cc42d2db22d47
++  __DATA_CONST.__objc_classlist: 0x10 sha256:6dc7196cc355e7cfe24b4c6d0cfd76f129d5be0e6326bc1e238a5befc590b676
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x110 sha256:8ac96f519296c01f07b6ff1436cb61d8bf713830c41a3c40556bc80491dd495a
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:92f867af2c8a767025d40fa1ebba84563695575c2e74eabc3130c5809f20d42c
++  __DATA_CONST.__objc_selrefs: 0x110 sha256:f464142a8461d1eb719d615bccfecbabe2369e42576591475b94ec1136b928f9
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:0cda12ad933486eb9d83893510605193ac88677e256319162a539c67419e2333
+   __AUTH_CONST.__auth_got: 0xf8 sha256:b3ab6982980fddf460a2f47adb428475ce9afa89092fd034499d017a35993f05
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:0822f3c2c889e1a63db83acf12089bde45eabcdf8825de23044f33e960970a33
+-  __AUTH_CONST.__objc_const: 0x190 sha256:ff4892448cafb855dc4887b0d0a3299948e23656517f8bab9a88033e62981553
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:0f1901b4de73c26661c28c8e51ed9431016672ce3e6e3e7f00a7a68de6e0cb8b
+-  __AUTH.__objc_data: 0xa0 sha256:7e00fa151f9da819a53e079d757dd60379155669f967c273445eafd1c4142d9f
++  __AUTH_CONST.__cfstring: 0xc0 sha256:250cc367888bac9378953f72f5a31a9d0296e6f0dcd14a547576d7128c067db3
++  __AUTH_CONST.__objc_const: 0x190 sha256:2411c10ca91a27990e421413202a752d6786f8a401469ebd156949da1b83a97e
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:67c837b184938d178eb1135f86610c7284e112b10c592404dbc36f7cd7c0dff9
++  __AUTH.__objc_data: 0xa0 sha256:d0300576a17f0e3c27832631785d48e866fac993963d7cc360a5786b7c6555bd
+   __DATA.__objc_ivar: 0xc sha256:dcd22c4268e0954d656634785328151cd5f68fbf8bcc28d43434b0c85430fa1e
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ -[CellularDataDiagnosticsSuiteController start] : sha256 21df3942efb66b9c482de22dec5a3fdb52afc4cc8af2bc90a23a70003ee281f6 -> 81be6dd8c385664af4b3db0d3d6203a7d94110b8c683345bce7ce3e6cac6a600
+~ ___47-[CellularDataDiagnosticsSuiteController start]_block_invoke : sha256 fe8077ce4181b3a57375a14945db59cdd9cdbcf5d2e30c30757fb5e22e9ff76e -> 54693d7863190463995e06e8012bf02b8fdb7ede3414b243730143db0393d197
+~ -[SpeedTestConfig init] : sha256 ed15e9a7954337651171c30f0e008267c1a3b3679a92f0d0e73da53d9e16648c -> c371ff2dacd2e45c96a52bce99a1d5402de34cd7f16d194b4eb7fbf2f2338f75
+~ -[SpeedTestConfig startDownloadTest:] : sha256 9a5020ea9f0e765e1a175b73174a04c02f4ae8cd37322b687c4fde20561571e8 -> 58fba6628cbf84548907c5c3f8279b81b8aa07f4f79ab17ff4a2ce5a4967c18f
+~ ___37-[SpeedTestConfig startDownloadTest:]_block_invoke.12 : sha256 c6cd21f650b3c7950097ea6ddb87f42e3cd044b2a55f9b855c28aceea424e1b2 -> 7c524e599b26671fb6cfd2bab07f7b4786e15b72cb12aadc8fee0d9aa743d68e
+~ ___37-[SpeedTestConfig startDownloadTest:]_block_invoke_2 : sha256 ccc563d59fb77bab765d9ce2434bacd97b3bc8f59f3f787afe13cc3c963a8eb8 -> 8cee3c51acf0a8ca2876a8b49f000d5b8d6274844d4dab5c8cb005f818188beb
+~ -[SpeedTestConfig dealloc] : sha256 e5648781be633d819c1b88e66d35858968693762e39c27fb42cb4830e0f5ae49 -> fb2e47251f13be729a8c0353f76665c770f7ddf65369c0a33cf30804c2a8d493
+
+```

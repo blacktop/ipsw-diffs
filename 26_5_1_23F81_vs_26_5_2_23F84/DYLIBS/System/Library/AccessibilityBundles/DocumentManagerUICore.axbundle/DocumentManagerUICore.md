@@ -1,0 +1,46 @@
+## DocumentManagerUICore
+
+> `/System/Library/AccessibilityBundles/DocumentManagerUICore.axbundle/DocumentManagerUICore`
+
+```diff
+
+ 3005.28.0.0.0
+-  __TEXT.__text: 0x10c sha256:129e52e9e79fdc0e7f7d591dbb61d02cda5d8d29af669cac9d0eaa6ea7003861
++  __TEXT.__text: 0x10c sha256:9b7bf6eb41408bb84321259ef39716070614e7c7025625416ecc35cef411f2c1
+   __TEXT.__auth_stubs: 0x60 sha256:de031515f3fa424b4402e437bf99d5ef28ec45b7de91077eb10b42e28ed53e2a
+-  __TEXT.__objc_methlist: 0x14 sha256:7bc319931893dd79cffca1f3fcb40bde86b69b950382a9bdcdd1206a2944bb7c
++  __TEXT.__objc_methlist: 0x14 sha256:9b48bdf73a79d12ab1630f65103703715851ff3824af4e416ba70a646a4aa973
+   __TEXT.__cstring: 0x71 sha256:6f6bf9d7476e625f7d89c7fea992888d457e5a018125bbc181ed0dc71d089556
+   __TEXT.__unwind_info: 0x68 sha256:4565f8321c54cbdfe5bf38e7927dcd02167a955f46c09e7b97d4a55c943640ac
+   __TEXT.__objc_classname: 0x1c sha256:885f1493597a73335efb14523cb1d328c08f2d8e3b9631227843ea3f223f5a65
+   __TEXT.__objc_methname: 0xc1 sha256:f01e35014eda86f4a32e36c5ef033f675d52ca18f76e2d70b17d6c60259a37b2
+   __TEXT.__objc_methtype: 0x8 sha256:6b3bf957e2feccea1614ba0d17780c05fdfa13300c0b89a3c072b7ad044d8273
+-  __TEXT.__objc_stubs: 0x80 sha256:bdc5c14b05872de3f88089efdcbe62f1fa8ab91956e0538f94df62a39728cb34
++  __TEXT.__objc_stubs: 0x80 sha256:6d67b5fb4f9e8b7cbabc42b4d827d63ef39d9c69f36dffd25c621ca47d767c78
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_CONST.__const: 0x60 sha256:2fe44de98259008832b979831c153d7ea32fcd154157ffaf615ad2fe88fb68e9
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:bc4e4b41085d7cbc5212aca7533ddeafbfe6e0e4b1db0321509c29ce6f45c289
++  __DATA_CONST.__const: 0x60 sha256:509cfcc8d71458c229bbeb516dfb52082007a24308db40f3a41abaa5fd6f9f4f
++  __DATA_CONST.__objc_classlist: 0x8 sha256:741f8abdfeb2478f841506b3d857d8e78d2048541b7afd8e887a4d79cab14562
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x28 sha256:40ebbdbac8cec5266ec453bb0826e9b65ee55dcb6b19bc0872e4479f1266bfc2
++  __DATA_CONST.__objc_selrefs: 0x28 sha256:5172c7cf100d899824d99ba20a269c9fa079abb6791494f596da66425c152b30
+   __AUTH_CONST.__auth_got: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __AUTH_CONST.__const: 0x80 sha256:6fe1a15d7bbb91418d5a2812fcbd02c875088990c3a4ff145880ae94d984c8a4
+-  __AUTH_CONST.__cfstring: 0x40 sha256:e6af78f31ebf760460c69d300ee8fd248ef02def139d41b9ecb42c8211849add
+-  __AUTH_CONST.__objc_const: 0x90 sha256:7902444cef67ffd4535036360eaece6f52715429065fa8f11d8b5ad117ad9d22
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:c4335980adc56909f07c1851de742e2ec04b9e1586ecf2e83ee7e2d2f7cb2a8f
++  __AUTH_CONST.__const: 0x80 sha256:b7f95902795133a5ff99bde8e20b1a040635def5abbbd94986e95fdc01e037e6
++  __AUTH_CONST.__cfstring: 0x40 sha256:4f621c6618d7e2bb234d39565336cddbdd667b7402871ba9ae9078c9d2158e53
++  __AUTH_CONST.__objc_const: 0x90 sha256:b7275087e69303a6d2139dfbef920c83269361ee845a7053c3910dc1b4a4142d
++  __DATA_DIRTY.__objc_data: 0x50 sha256:5f6995380017053ba43d8b4fa7063b033e345d94a4dd8e712688323be0f7efc0
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/FileProvider.framework/FileProvider
+Functions:
+~ +[AXDocumentManagerUICoreGlue accessibilityInitializeBundle] : sha256 90393bfb8d51e35b03b4f842bf123635dd0d8dffa04b972af77590ce996c7d1d -> 0c2e576e28f81823ee529e3338c209c6c8f8a4333b614f8bf0329845acbd72e8
+~ ___60+[AXDocumentManagerUICoreGlue accessibilityInitializeBundle]_block_invoke : sha256 2d070e8dc3a049773a8d10b028b7c7f52720fa339edcd8e6e73f6942f5b8a827 -> b69164d2638a992ccc0c992b773d1a098a563daf8bc5207f85ce0767ae19026c
+~ ___60+[AXDocumentManagerUICoreGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 b6b3401004a36e2f26607ae120c1a68f6367ecbb785510e55c9041b16895455c -> f9cffea1fbe36e8a660f114dec85071e326be3540e2d51d5cc3a65cbfbf26ff3
+~ +[AXDocumentManagerUICoreGlue accessibilityInitializeBundle].cold.1 : sha256 2385a1ef8ab9eeb166c1d395da97fe0b6f4e249558bfa8edb4d836ef4344fa6b -> 7324fa4a1eb28489fa73ce232dddbc6db8761fdbc40625b331a2f22f69ed55e0
+
+```

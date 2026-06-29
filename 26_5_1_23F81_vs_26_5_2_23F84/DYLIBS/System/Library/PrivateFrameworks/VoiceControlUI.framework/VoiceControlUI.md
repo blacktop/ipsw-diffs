@@ -1,0 +1,59 @@
+## VoiceControlUI
+
+> `/System/Library/PrivateFrameworks/VoiceControlUI.framework/VoiceControlUI`
+
+```diff
+
+ 6.9.0.0.0
+-  __TEXT.__text: 0x29b40 sha256:4231f2caeccedca65e56c123bedbae650194cdb7473fbebdf2f65bed9f6b0294
++  __TEXT.__text: 0x29b40 sha256:a5f76a64ea5474f4e94d22c4fee287fb8246c7ad5606d07372ab2cac977af1b6
+   __TEXT.__auth_stubs: 0x19e0 sha256:88a2b899525df38bed264ae1e8dab36222b2aa60b75203711ca27b250ba6f1b9
+-  __TEXT.__objc_methlist: 0x65c sha256:f8c68c63c4ab1706bda339556cb154e1a85260e496053b7bbdf629fc4e2f87d0
++  __TEXT.__objc_methlist: 0x65c sha256:f2f1a9d19b2046d70eb4bd3d0b874977761c2f0f226edf146fe86676a5730b81
+   __TEXT.__const: 0x1fe4 sha256:93d8b1b4846594c4e78a4a150972d6ca542ca82859318e3100c254d00fea55d1
+-  __TEXT.__constg_swiftt: 0xb20 sha256:83a2726aee9c74f2e09fda8bd2af5ceac1ff6194c2805375553a8977a24c49bc
++  __TEXT.__constg_swiftt: 0xb20 sha256:ea022e28d7243252ccde2fa37b6d1ec0bba80a318c186e6add982b60ffdff44a
+   __TEXT.__swift5_typeref: 0x42cc sha256:7db6048fd6f6c459fd09ecf03525de3d14d7b427fbd492a0341b97f2210fb2a6
+   __TEXT.__swift5_builtin: 0x50 sha256:c7c3a62b2eb5300f3e64eec4c2ddf82be9c4c8257c98a07f471da1927dcb7321
+   __TEXT.__swift5_reflstr: 0x663 sha256:1a1b7b6a62f1c2f7bc77a5e5998af9dac25969716507c2ce7dee9232b5b34ece
+
+   __TEXT.__objc_methname: 0x14a5 sha256:559c7598332e28ddd8b39dd9213144ebe797a8689b5c27b2421c67acdc7495ca
+   __TEXT.__objc_methtype: 0x7b6 sha256:4221260b2411d0b449f99ec4fbed4720a2a4b16d6e7d8781576bd1cba70fba50
+   __TEXT.__objc_stubs: 0xb00 sha256:0ff0a4c79531d38bec7b445c8f55a1fea307a4122fdb7d8973696c3806d97b9b
+-  __DATA_CONST.__got: 0x508 sha256:26607d0e65f2b6e5e7c2400556a2808a180fad8625812891c6bcfcb45dcd1223
++  __DATA_CONST.__got: 0x508 sha256:e6aa75f5b0736bbbe4069d5e996d75d7a32bbf4f46aaad2c6e7012c75368a819
+   __DATA_CONST.__const: 0x1c0 sha256:13108ccfefd67223020f077166c5378152a8a482eebfca687b8922120f44b3ab
+-  __DATA_CONST.__objc_classlist: 0x48 sha256:8d27da6322365199ddb1cc9f944620005a0fc233d7334800119b777036d653ac
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:41964e10182a62f6dc2f7a523e4ef6155d7eee8d72dfed815d24c5bb30d07c57
++  __DATA_CONST.__objc_classlist: 0x48 sha256:cee9e0f505b9c10ab27a8dd21792c5472aba003d0fa5a1fd5f785e90b69ef97f
++  __DATA_CONST.__objc_protolist: 0x20 sha256:8448a79face087846c54a07c127f31782e033690e8fc4d6a3244b342e755e96c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x4a0 sha256:95e963a79c0cf8557233c2bb12e394a909365283be2217da48310d8db1c12754
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:8edf88565c2e367543b97a2fd8299b1191cfbe7c19d6c0b3c0d66cfa01d04a78
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:05f9e9d6a8176e480c12a75811b3967fb9cca858197c5b536c26dbeb2ee36421
++  __DATA_CONST.__objc_selrefs: 0x4a0 sha256:3d061f545b6de500180926ce8542b4f1d15aa4e3ab762086c0f0faa6f6d555fc
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:2e178ec232bb11301b66f42457a02e303a3db52a90f03ea944c3f5da5a86e4e7
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:7f7a15f470e720f88d88ac756be60e614472dc3ced9062dc5f9f572005a92ac2
+   __AUTH_CONST.__auth_got: 0xcf8 sha256:8aee86fe49fc5c15a7eee34c13b6dd1985974628071e77c76416aa0ecea128e9
+-  __AUTH_CONST.__const: 0x1250 sha256:52b4271ae467066f63871d9c15e95a443e2357bdf0afacd13d9591b15ec1c51c
+-  __AUTH_CONST.__objc_const: 0xc18 sha256:fc1816cce38bc2e36a8e92d49524afecc991329e495f2e425296f2bb82e8186b
+-  __AUTH.__objc_data: 0x640 sha256:d8113bdba1abc1654fef34a2f0aba6bfd3b4c715267a50476195e182f419e8ac
+-  __AUTH.__data: 0x6d0 sha256:52162f48140465b2cadc9037604cc5a2e4c5e1516bbb62dc2c18825103b78422
++  __AUTH_CONST.__const: 0x1250 sha256:3fd3ffc5f3b5fed9806ba04227166bb04f01c3f51d13446d5106ea034fd94389
++  __AUTH_CONST.__objc_const: 0xc18 sha256:38ff35167d26f768432565b87fed37dd00227cb3a7522d0d0b1b832832f24297
++  __AUTH.__objc_data: 0x640 sha256:3a805e527629a23ec4c5fa2ddb32ff0a52ded3329cfd90f1977217d13ccf9ab0
++  __AUTH.__data: 0x6d0 sha256:521511bc1978e122240af0d0453937c5d58c1aac6aaa19e2fdee309f23020316
+   __DATA.__objc_ivar: 0x4 sha256:79ff7fbc96a0a6111e3c2706d61deb84c7c8e5a137b776f34a7dc3775f3652de
+-  __DATA.__data: 0xd18 sha256:c38951e4fcbc4c69ece66654c3b6da8006ea913e2b9767d8dd45d58d50e18f30
++  __DATA.__data: 0xd18 sha256:d6d6fd9dca0ad1ba3adacbe49bafc89e267560318451f892899ad1f8a6a980ca
+   __DATA.__bss: 0xfc8 sha256:bf45005795ffa8764d42f0a53d8ebc6e2068469ef97f4b0b6310e3d22063185c
+   __DATA.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+Functions:
+~ -[VCUIBadgedTextOverlayController init] : sha256 4af04843f6a2335e52779c143df676aea08ad2f28ef3db4af7b343d65e08140f -> dced0343833add858cfbfec77dcc8d5180141166a0c8ab75fb0a26f15ffa7a13
+~ +[VCUIBadgedTextOverlayController textSegmentModelsForText:type:start:] : sha256 a0d4deb852b3afadfc473fe1e713e1c615f42946eacd664c26480e21f30b8b2e -> 2fbf65aaa376208305921b42453cd0fe097f1a431399c6c9ea53bfd82e0a69ee
+~ _keypath_get_selector_isWhiteSpace : sha256 5d17975088e57a93f4357fd8780663e860c56ffe39758374782b602f6366d9c0 -> b92adb957309c72b56b8705e01b20afac536b34eaca349ae472eff8d935e1a6c
+~ sub_29a1e26e8 -> sub_29a21a6e8 : sha256 a7573ebf7d8f43d84eea150e12314809d5f07cd81ed9742e0d1ab58cee3eb110 -> 77d60cf4d1e04e6bef1d31ee376533d21e97626fffefc6faa3245734503db923
+~ sub_29a1e51f4 -> sub_29a21d1f4 : sha256 fdb9bfd7d47a6deaf7cd8a7df7284574b1a867c27f2e921d7274b8fb72920b6e -> bf321c8c33075d4684c68dfa11a4e2a2a2d846bcfa26ecd98a92e50b51fa3842
+
+```

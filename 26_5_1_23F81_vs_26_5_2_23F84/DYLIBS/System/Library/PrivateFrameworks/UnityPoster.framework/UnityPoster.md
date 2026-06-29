@@ -1,0 +1,53 @@
+## UnityPoster
+
+> `/System/Library/PrivateFrameworks/UnityPoster.framework/UnityPoster`
+
+```diff
+
+ 50.4.1.0.0
+-  __TEXT.__text: 0x4c10 sha256:f23e87ec8d378819d252073963e9efd2dca5d36571896a2bd8a25464d21fad5d
++  __TEXT.__text: 0x4c10 sha256:e1c08f3d51de8c1e4a1efb6e1fa7bc856d1b4d83deecd7b1fc7da0a41eeca4c9
+   __TEXT.__auth_stubs: 0x310 sha256:9c108dca3856801407b71fcf3f6caffe10ba4aff128449a531d9b360aa009ce5
+-  __TEXT.__objc_methlist: 0x5f0 sha256:f4c47dc809f158edefa385daf5a6014ac42cb23c32361933efdca3be54d88dc8
++  __TEXT.__objc_methlist: 0x5f0 sha256:ec0f1818159bcde9ad52da876e1167973886082274bd22da1b777c433b084ed4
+   __TEXT.__const: 0x3d0 sha256:5647affbee4219e40c4be4e3529ed0b4a2ffd817fc52c7f67cc7fa9e1a0fabe2
+   __TEXT.__gcc_except_tab: 0x4c sha256:bea6393ddf355864f00f865bc59061eec68ed30251df124ada7d5023ea7a18bf
+   __TEXT.__cstring: 0x8b sha256:71e768ce8f2088efc4b0f815534435eda9526671ddccf9c4ac59cc119a91724b
+
+   __TEXT.__objc_methname: 0x184d sha256:eb629fcc80af27245c0a9d414d790aebdd39cd6ebea8764491b3f0eff3d4ec95
+   __TEXT.__objc_methtype: 0x365 sha256:c87b828775383bb8d0db61b0d3352bd7399e8177e9f31473696849838d621a6f
+   __TEXT.__objc_stubs: 0xbe0 sha256:5b0d150ed9b8be49a53452dd50799bb23e23e61f8fafc7dc505c20f26f1e154d
+-  __DATA_CONST.__got: 0x98 sha256:66fdd22ad556d7c1c9efffea128eb4b2ed3269984524cd339c3e3c7cf5454d2f
+-  __DATA_CONST.__const: 0x90 sha256:3973f07a7ee800b1f2423bd748451c2ba195424b91c639e3ca00dc6f3a40bdb6
+-  __DATA_CONST.__objc_classlist: 0x48 sha256:e7236b5ea44dc4a01e3e5d4e23d01f178da84e3786e6ceb3f9159016cdf0aa68
++  __DATA_CONST.__got: 0x98 sha256:c2ed49312e90679c86f0faac7eeb9b1c359f170747a36fbf29a70b40c6654369
++  __DATA_CONST.__const: 0x90 sha256:7c3e02f5402f65928496b3a2c219cb0afe862da0b4b02ac55baa7071b7d4d51c
++  __DATA_CONST.__objc_classlist: 0x48 sha256:9eab9e376bb0b8230adc37ba57313516f248287e83f211d6fb59bbde63d4674e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x530 sha256:0ffe5102c57f88775aa118d3fb3b76ab2c16ec450826022490ca3cee54ff5f76
+-  __DATA_CONST.__objc_superrefs: 0x30 sha256:25d4eebad3258d2e7843796fd9b2f68e1ed777d95e28ae3cc6b1923dca375ccd
++  __DATA_CONST.__objc_selrefs: 0x530 sha256:ee98bb1b7eb269077fb953e74ccdc013efdeade1fc37b6c1c6b0dad109e17698
++  __DATA_CONST.__objc_superrefs: 0x30 sha256:a6910e48e616650ed81435ac9e07f6edc888e12f346a3f04c9e6904e72b88be7
+   __AUTH_CONST.__auth_got: 0x198 sha256:c76903cde8580d1c809ac5352aab33af5a310ad05126294d66e06db880c463ed
+-  __AUTH_CONST.__const: 0x40 sha256:bb5da82c90cde4b1240f9b5f667419c56aa803a9c98662b91738fe07e6ad9bff
+-  __AUTH_CONST.__cfstring: 0x80 sha256:b84a205775cd5758c24992d69b63016b0e71ea01aa4175b3d72d1fee772181a1
+-  __AUTH_CONST.__objc_const: 0x1018 sha256:cfa31b150a03e3f88aab0e4ab8bad56144d7fb1fa5146e507120d10174c80d14
+-  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:447c28766bd30eedbd7cf3f6deffb556fd7437e2a6b74cefdef8753f4c1132fb
+-  __AUTH.__objc_data: 0xa0 sha256:43d98f92310e2f97ceffbb2debbe00bbe37f8d004487783fdf860d2ad1ca7e3f
++  __AUTH_CONST.__const: 0x40 sha256:c9413ad23a38f08fc5546950c0da40ff552a5aecee8d3904d244df9e981cf809
++  __AUTH_CONST.__cfstring: 0x80 sha256:4ea660f037f1a080be35530c7ce4a084d5ed9652137f3e4a7c7818d5d403dfed
++  __AUTH_CONST.__objc_const: 0x1018 sha256:e0c2edfc5eaacabe0049a792663ee8769a5f94d3298f3d09d26608156f2e300d
++  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:244c2e2e7a44d1b28be313e1ba26b7ce021cd36daaaf1a1c7106242b602a7143
++  __AUTH.__objc_data: 0xa0 sha256:730d73c360ea14b4166549faddd8ccdc7e59da69afbbc24327c8f9d40029343a
+   __DATA.__objc_ivar: 0xf0 sha256:7d5b981f2b7f2cb907685eac888a3f264edda3f325657dc6a558664c1abf80ac
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0x230 sha256:eef77e0473f0ad8f7580c89d3a8ff24231e76caff9cf7d9d5eed09ab523813f1
++  __DATA_DIRTY.__objc_data: 0x230 sha256:f6f023b5616fa633185919f3edfd72f6d61b7db2df69a5427701f9df3d98eb37
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ -[UPQuiltConfigurationPad initWithRandomizationSeedValue:viewport:timeBounds:lineVariance:] : sha256 ebe78776bd6a0d777f08204fa511de7315771767efc09bac677d894bd7875410 -> 6de47f2243da5feb6b2b6477d464523bf19443522c16accbe7acc670cd5d6660
+~ -[UPQuiltConfigurationPhone initWithRandomizationSeedValue:viewport:timeBounds:lineVariance:] : sha256 8b884e6f679d3d9fd7fc4311ef89918c94f4369e1116dfbc446f768e007ccf6d -> 0500332786ad5d5e9e63deb4c3a8a132cbc01e5ca1811d3d79eec55c001ed19b
+
+```

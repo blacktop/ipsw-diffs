@@ -1,0 +1,34 @@
+## FitnessWorkoutPlan
+
+> `/System/Library/PrivateFrameworks/FitnessWorkoutPlan.framework/FitnessWorkoutPlan`
+
+```diff
+
+   __TEXT.__objc_classname: 0xe2 sha256:c69363780edd22a4bc8d65053122b6f491c1885a164fec74d2f64b450e109912
+   __TEXT.__objc_methname: 0x10a sha256:079dc06373841f656ad94269f2a2ba03e70945609b3cbdfb6ea4ed2eaa24a873
+   __TEXT.__objc_stubs: 0x1a0 sha256:cd8c519f33ff644c36a976684345054b894239bf4e36f22dbf5b20916f731e99
+-  __DATA_CONST.__got: 0xb70 sha256:19b9aed1801ec22a0fbe5469c63fd9a8b11ba30a6dc211ac4fba3a7155577f34
++  __DATA_CONST.__got: 0xb70 sha256:68798cd394e7245878f509e11d1304c45b0aff638e2c3dc49bcd6c16185a38e4
+   __DATA_CONST.__const: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:74b25b74c4dd624e786ec41fc2edce0ee72fdfb0ae3bd0ee070cc422ae85c646
++  __DATA_CONST.__objc_classlist: 0x18 sha256:ce88db3cbc7c8f3185ffab1251f41ecc5fa60cd2f7078a5ced625185118a1a13
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x68 sha256:d0288c2ef38041a0a965a8b6134ac3551d616bde5575abb7706654e1cd695590
++  __DATA_CONST.__objc_selrefs: 0x68 sha256:9359fe0ae5c69a3957e412305ebc58ad00c11936e1bd3a6195d09cc376af8c53
+   __AUTH_CONST.__auth_got: 0x1660 sha256:9d5c75a5bc689ce375e06e8530236708ecb04300792ba9a385c1ca44e432b556
+-  __AUTH_CONST.__const: 0xb3a8 sha256:012bb768f5eac397a6a1ffc86189653de3c9d758f2f7eaaa4822566a97e4a4a7
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:1ed4c68e2209367ec9123603746acb8732059ce98a6a5c55b53ad7a55f1b2cab
+-  __AUTH.__data: 0xe40 sha256:52f63490bf4f4f4559deb023443d9933b15aed4a6e782959ee7c83eead61ed9f
++  __AUTH_CONST.__const: 0xb3a8 sha256:e18fd514ccb710357939e0a9479d800bf9209d2419e7564d45074a21d844b869
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:b93d079fb1834e749e6e89666242eccfba1cec23e4a2615f57bda84088558484
++  __AUTH.__data: 0xe40 sha256:4701faea45259d42fa1e5e618a9f4a8aa584e66c9cb45ae2fbf8b8fa6097054e
+   __DATA.__data: 0x5e00 sha256:cb84ca9c299a9b76a5e4bd9663e89665d91fa72b1406a44bb36745f71383eee7
+   __DATA.__bss: 0x24b20 sha256:34037639d2fdad4fd4a99a0b0f6ec8b1fa0e3537a1d33ac324b37daad952ffe2
+   __DATA.__common: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
+-  __DATA_DIRTY.__data: 0x13a8 sha256:37deba4b6a95f8fe048bd823e89c9cb94ff1ff55d6dde258c77af672c4ddc416
++  __DATA_DIRTY.__data: 0x13a8 sha256:42e5972c02eefae0fd292245329b5367116272a91d0d24552eeb648520560fde
+   __DATA_DIRTY.__bss: 0x2e00 sha256:a5c0e37a6ba1219bc061630fe056b35f046fed334645689817a10f4be1ec5fa0
+   __DATA_DIRTY.__common: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+```

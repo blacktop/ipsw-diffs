@@ -1,0 +1,62 @@
+## HearingMLHelper
+
+> `/System/Library/PrivateFrameworks/HearingMLHelper.framework/HearingMLHelper`
+
+```diff
+
+ 496.22.0.0.0
+-  __TEXT.__text: 0x2f28 sha256:fb8891b339d94e3285baf6dde575d06be731dddf8111cbc1fd6d73a7c6dbcd2e
++  __TEXT.__text: 0x2f28 sha256:ffb790488b9df59943ea9812323cc3480df5294ba2de0eedab62ef066d7e67f9
+   __TEXT.__auth_stubs: 0x4f0 sha256:73ede72749cf453fe678ad234f792533a67724576476972d4b4312a9149617ad
+-  __TEXT.__objc_methlist: 0x1bc sha256:73fb648e5fe5c41d5251432ae97d6e37d06e4066f22205fc31541a745a130eee
++  __TEXT.__objc_methlist: 0x1bc sha256:bc24451d79a26724adc6f55c6ccf5c6e27b8847a197a1900e2a418c7da2b8991
+   __TEXT.__const: 0x62 sha256:47648ee7fa6555c994c6505694b6910db5333fa54fa210ecc460cf2aaad3b194
+   __TEXT.__gcc_except_tab: 0x44 sha256:20ec9fe4c728c65f1457889dabae969b8880013969594484a9465bcb2b7b8937
+   __TEXT.__cstring: 0xfe sha256:3f4e78698f7db2a0ccc4f8a0235b997c04c0efa37b665e1ea742173295b7cb32
+
+   __TEXT.__objc_classname: 0x9a sha256:288c0b4d3b7605cad13808c099c0cd869a4b30ba016f54b2c8921520b6c6c1f1
+   __TEXT.__objc_methname: 0x401 sha256:c85951266bda8a440408548bb9525ac9d422717cc924df3506f38c52869232f4
+   __TEXT.__objc_methtype: 0x185 sha256:8a8ec9b4ac2e7b0772aa241ac43959d596d250afc2a106b14bffc1b8f8dbf77c
+-  __TEXT.__objc_stubs: 0x240 sha256:d207f1f85e259014036dca53506073fd8a48a4a78ff78b53f3555036f23862b2
++  __TEXT.__objc_stubs: 0x240 sha256:9236b508e6a3562415355e2ecf6fecb0240d52daffdffaa2258065a5bf6cbd8c
+   __DATA_CONST.__got: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+-  __DATA_CONST.__const: 0x148 sha256:160c8a9603e222cd3132769be0e7a98359566c3288c9496f291d43c23a62aadc
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:a257349cca858601fe3b1221bf27be6e7e8b584787f1caabe7b8584faa27a423
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:aff1b7b2899be42047e7a6a2920d2dccbc5e776a94526607df6f83eeeadd427b
++  __DATA_CONST.__const: 0x148 sha256:1e82570006cfaa528241738243d94f5bf756a892439c94fde07f7461645c8493
++  __DATA_CONST.__objc_classlist: 0x10 sha256:2dfe73de9bc1dbeb1b792f38698cdfe778e61d1660b2bb008292846436ad88ce
++  __DATA_CONST.__objc_protolist: 0x18 sha256:d3fd484a005bf92a9d7f58e2e2785bdfa163580ed9fa25c2baea8222262441e3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x160 sha256:cb6d9fdd770007646911a4d3bd5e0de46ae62424fb78f77bae8f1638f8e769c1
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:dae98d8e38ea6eeaa3a8501db5fedfcdb2662ef54e0a088a824bf40b5ffe36a9
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:a257349cca858601fe3b1221bf27be6e7e8b584787f1caabe7b8584faa27a423
++  __DATA_CONST.__objc_selrefs: 0x160 sha256:c045418448c4f7ef934c397dc30a46a9325ad79790dd616fc42171343df5ceea
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:f5dd93268918693d3623825816d123f8e6aaf2166e3123e8f1f601ff9713f5f6
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:2dfe73de9bc1dbeb1b792f38698cdfe778e61d1660b2bb008292846436ad88ce
+   __AUTH_CONST.__auth_got: 0x288 sha256:f4bd841308415de6ed2727462cd66a7333ac8155b4e8e95de0220355189c785c
+-  __AUTH_CONST.__const: 0x48 sha256:038e503c4541f1212c67ade0aa74d8d0d7d541104440d413156336a797c10067
+-  __AUTH_CONST.__cfstring: 0x20 sha256:35d3910218f7649203da2f85d1010131ba7e3259a4c07f1734b5835ea3576a40
+-  __AUTH_CONST.__objc_const: 0x328 sha256:2daeb0caa2d5b4ff2595ae94bf00fb3ef0102d678b8ffd87a3e62a532ccf796e
+-  __AUTH.__objc_data: 0xa0 sha256:16e4a64868e2bd960fbffdc33bd7b9d76c6434190d05d8eadac955f7c52ce9e7
++  __AUTH_CONST.__const: 0x48 sha256:5848a0918c25f5676251d0faba98cb7defbc6f334988139d2ea60e1510941503
++  __AUTH_CONST.__cfstring: 0x20 sha256:4728ebeac07b311ec8897826bc2d064eebb33e33b8a841771aa74e4dfc7a1b47
++  __AUTH_CONST.__objc_const: 0x328 sha256:31b1cff09b262bb528580167a980a01c0a4036c1410a9c516198d98ef39fc0c4
++  __AUTH.__objc_data: 0xa0 sha256:7bdca7e85d2a9149dcdcba03388a680c35de2e38262f1fb8b6dda95a0849a904
+   __DATA.__objc_ivar: 0xc sha256:2e5c9862856b0c6f8e0cea23282dc6a269bad2a2cc34aa0668a8eeae66326835
+-  __DATA.__data: 0x170 sha256:b2626c78d4e08d20d6e837d6e81e7cb3201f376dbda8cbb34286a24966ecb1bb
++  __DATA.__data: 0x170 sha256:50c8dc13f22169526f1f4ce18340a79f44821ac768c5a7cb7f1972cb7051a4a6
+   __DATA.__bss: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreML.framework/CoreML
+Functions:
+~ -[HearingMLHelperService init] : sha256 66692f11880f5c4ae4ed05106cd9a38bbd8f76fd7b4ad7378ea6945797e041df -> 3f83ca4182288b761d9ca9df3e2962364bfaf217a8307e0091f1bc28b7bcd8a4
+~ -[HearingMLHelperService dealloc] : sha256 069ee3deceb1802abe46ce9a76dcdf139143a2456980d582972ece0fde06645a -> cd880dbd57b3aaa2702224b29ea47f38547078a36e308f2b345d5f9fdd90b480
+~ -[HearingMLHelperService xpcConnection] : sha256 db8cdef3169223b6bbf5dfe0c4f191551c7c0dffce6c32dc74b4c6de7651fc6f -> e88695901181583b4c8fb3ed1ed6cf56d3de49bbaa23a674b84d6bafb841fa09
+~ ___39-[HearingMLHelperService xpcConnection]_block_invoke : sha256 3075d47cc376b8dc9524985ae367a2dc40e795fec7ab458994be3063aa97be17 -> d32c15c298b53977b1df87ad65f352ac89c6feac243d429b3bdc393aaa80c45b
+~ -[HearingMLHelperService _serviceProxy] : sha256 2b6adbfd975ccd531c28e4ee7e6761877d9672d2c66f3b71adfde140e4a98624 -> 92c7d05bc814d36e98a65e2c4ea970e2f941c2c0bcad7d56b5f616c0b362d367
+~ ___HearingMLHelperServiceInterface_block_invoke : sha256 67b92a4e127683c330283cba818331c5ebb86e351c7400bc43b10359f474ca4e -> 241fe5c30d9a819af5e31693401b8177d3aac0aa4718b16688667a3036c0011d
+~ -[AXSDKShotModelCreationManager init] : sha256 25d871751dd6d72b79586a4da9261dcac677e3c72bda59d0259eef32d1cd8140 -> e9e61e459366f65fb89075be54d0ea5fdc86bb9b457532618c783bda00f8a639
+~ sub_259e1d508 -> sub_259e55508 : sha256 07ef1ef3c09ce97c5c0a344226d07176d65e231da5e668debcd976bc0be4d06e -> c4ebeb1c526de2432b10b9e062a68e5cafa02f7c5b5de7c98d62b512aa73177c
+~ _HearingMLHelperServiceInterface.cold.1 : sha256 696a3d790af6fba7658cd2d09701b1843ced7285950778033d17e01df39641f6 -> 19c59cfa48e375a4b1d2bbce16ec505deb31d5e363173334a8c45a1918580101
+
+```

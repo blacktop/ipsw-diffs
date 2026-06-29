@@ -1,0 +1,34 @@
+## ManagedEvent
+
+> `/System/Library/PrivateFrameworks/Symptoms.framework/Frameworks/ManagedEvent.framework/ManagedEvent`
+
+```diff
+
+ 2169.120.7.0.0
+-  __TEXT.__text: 0xa90 sha256:874cd7511f2a314caec81eca11b34ca11d885ca5ed8b589b8efc528f85707b7a
++  __TEXT.__text: 0xa90 sha256:42272f8c5419c19d69be11074901b0f6013b2a766c0491a8fac4eadcbd279710
+   __TEXT.__auth_stubs: 0x1d0 sha256:68b373b473739a228c9bf75455e3cc4bcb205a48f227555b14d4bc33bc7893bb
+   __TEXT.__const: 0x18 sha256:97d6c6ba80894cc6faffb874e0966524a9825921997bb75ddd81bec11be4cd0c
+   __TEXT.__oslogstring: 0x184 sha256:692985ddaba61134e971e24fb67a016eb4ef0976bba0e93200002ae7236647c1
+   __TEXT.__cstring: 0x776 sha256:4dda0797886705474335092f41ee337ad9037f81651b809fbf26ac85b6c26d8c
+   __TEXT.__unwind_info: 0x90 sha256:025084e75e5b89d25fb10a9b3c872f11d111756d3d667c1afb507818d7af6d33
+   __DATA_CONST.__got: 0x58 sha256:10eef285deef7a4b7c82b22aa53589b7833df29de3814649c772bbd5c832f365
+-  __DATA_CONST.__const: 0xe0 sha256:139041fe60ab0317465f27eebd3c3db0ffe56995b90a4f80635cba166b31d005
++  __DATA_CONST.__const: 0xe0 sha256:574438accce8054e2ef01351a9b948179a5daf753cc0cc1d778e436400e06bc8
+   __AUTH_CONST.__auth_got: 0xe8 sha256:c4fcd50d9f0c893c46288b57d8e62b18523145956b249b6ecd6c21718be49065
+-  __AUTH_CONST.__const: 0x40 sha256:19ee057d6d3bd20ac8e4b8664a3d8d0d6938baac158f0491f4bf4fb4670b1ec8
+-  __DATA.__data: 0x2a0 sha256:f3373a5e11ccef1ee1cf8075cc45ec599da9d4d7490099e0a5fc491cf4dc04d9
++  __AUTH_CONST.__const: 0x40 sha256:730a5bfe0c6b2def51d9d8232d3f8ec0c11886ed03cae064b55c472f317143b0
++  __DATA.__data: 0x2a0 sha256:ef6205677d2bc4312382977fdbd546a89a3128889197508e8cd1f35202874a80
+   __DATA_DIRTY.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ _managed_event_fetch : sha256 61406e16255f5ebe01ab4b13c79a928ec8397dade2e03fc6c420ceb8611fdb4b -> 906771c4b39de4c95a148ee11833cbd5e0acc2bfc4d251b96ba18550faac722f
+~ _managed_event_send_with_reply : sha256 d24f1db51ab54a4e16dcd444215dff098a337c8beed53e7abcd569a02d4b68e2 -> 3557564ecf1b145321b3b1487245a97689f273860c0d42e63cd8b7915cd0e1f4
+~ ___managed_event_fetch_helper_block_invoke : sha256 a5f50aa1e148302c391f85b5a7ebd69a323daf606df13d03ef6b40acdd4b2da3 -> 8e47a1250cee2d4636d6d39593a5d6834e0e23a262c9fe3587aeb8960a48ad8c
+~ ___managed_event_send_with_reply_block_invoke : sha256 530a6cb4b235ec2df50fa26240acfc84d7cbd128f1314191208a348fbec4de9a -> 6ee29468ffa6a42a1c7e585a5a2a6ae8850a62d3158ea6e681e61f5c8f24a718
+~ _managed_event_fetch_series : sha256 81a6dc1a671475bb840c770d318727549d9e92884180d20efb04fcefa2e892c7 -> a36c96cc2edb405878a3a005192a317cf72c495de77b643f26c9cfc1d65c31d8
+~ _OUTLINED_FUNCTION_0 : sha256 d2ab6a011acc7054d313002a3f3566d25d57796ef1e6c54b1bf0caeca0a8dc5d -> adcc5b8d5b69d6f32f471491477a787af792efedcf3c00356248b0b7125b9286
+
+```

@@ -1,0 +1,46 @@
+## iCloudSettings
+
+> `/System/Library/AccessibilityBundles/iCloudSettings.axbundle/iCloudSettings`
+
+```diff
+
+ 3005.28.0.0.0
+-  __TEXT.__text: 0x1c0 sha256:d855d94771a4651de352c176926fe49e7018c9244b6f9453159859bbdc7505a1
++  __TEXT.__text: 0x1c0 sha256:7f94a612a25de578c8147aa0fb906364550939a6ba228acebf0932abbbe21747
+   __TEXT.__auth_stubs: 0x90 sha256:80fbb9837e08881d0c56be550024f722123c4466bd8cebafa1a2ee0f4939d958
+-  __TEXT.__objc_methlist: 0x14 sha256:58ad7cec7455748057cb3553e30563557d9075c7e9dd009f689fed1d3c9b5cf6
++  __TEXT.__objc_methlist: 0x14 sha256:03645ffc459984049c66b4381b340cc9ef4187ec38b3909c17feecb8d9bd6701
+   __TEXT.__cstring: 0x6c sha256:aff776206aa4a136616670d03ee39fbd98a6048a848e7bcf6b202e844d163aac
+   __TEXT.__unwind_info: 0x70 sha256:fe81461cec04e7d75be008a975b0eb0a616825327acbda450dead13f7901d5d9
+   __TEXT.__objc_classname: 0x15 sha256:f6d462e71793228075dcf730fbef9f9f1c3d78e10d3982d9af532c9e86eb1693
+   __TEXT.__objc_methname: 0x108 sha256:fbb7904db9632ee9f8a3687f7b40bb03d848ee64d5e781e5dd31a87e39c78bcc
+   __TEXT.__objc_methtype: 0x8 sha256:6b3bf957e2feccea1614ba0d17780c05fdfa13300c0b89a3c072b7ad044d8273
+-  __TEXT.__objc_stubs: 0x100 sha256:71196b2083362d4b5919f8310f7262a543827f62431acdb87e676727745a8f95
+-  __DATA_CONST.__got: 0x18 sha256:156c823d8edcaabd00781b45187e7317b4011b9356f6ac7f658e8765c008226f
+-  __DATA_CONST.__const: 0x40 sha256:832db838a19811ff6e7cfdee21ef5a56de6b613833d24b4b3d045ee0cb7ccfeb
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:c40822bbd6639a5d88a243d22942d565bbd7d76b466dc62b1debe374bb859332
++  __TEXT.__objc_stubs: 0x100 sha256:95d7de8ccf88ed4dabf3df196525816320ac5154e6d0cd4e7e97330d2d866a62
++  __DATA_CONST.__got: 0x18 sha256:b84066a9d57c3f766d9633ee7fb3bde0fab41f14b61a06b09a7ba3f43a2ef366
++  __DATA_CONST.__const: 0x40 sha256:0015278e3d8ad7b41d71796e3c9accd1a6aea6e9ed85679467ef7ee737e870e9
++  __DATA_CONST.__objc_classlist: 0x8 sha256:35feedd8eb00f014cdf17e7360a5a14bd1fcd5af095996df424d4d21e294d829
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x48 sha256:afeeb0b168474e73787255644ee80d021ce712b8582eed2b9dcb37c499fc294c
++  __DATA_CONST.__objc_selrefs: 0x48 sha256:84955e9e4537f8c1c999173ae7cc1996ae2c54d710381c3c10dee57784cb515f
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x60 sha256:e7bf76047127b75b5811fcc02a0a72754fbaf790ae74af48db57238cf0f4c8b9
+-  __AUTH_CONST.__cfstring: 0x80 sha256:3431b0c5681b09408ad6239263a374570be92c583b6203d00d5a4b606b563c09
+-  __AUTH_CONST.__objc_const: 0x90 sha256:593802eb4259f59fecd792b57b793cf6a9e1ad49644289dcc2b910eb81247023
+-  __AUTH.__objc_data: 0x50 sha256:daab85aebbb6cb1a36c441a8957d53f1b167abd9ad7a48896cd5f7ab09a5d376
++  __AUTH_CONST.__const: 0x60 sha256:c128dc2ec436d7f39247f2b26bb012ebc2e0c7bc55c9055de93a151d2630b7c3
++  __AUTH_CONST.__cfstring: 0x80 sha256:b5c223a7bbab2a879ea20e3bb3cb16adb0389a378005936e6a1f0965a0912834
++  __AUTH_CONST.__objc_const: 0x90 sha256:76f98e9421ee74f0742f99b7add1ac1b93904f3da79a1f97eac97c6ecb07d473
++  __AUTH.__objc_data: 0x50 sha256:1d684769242b9cbfcce8781c9775508722dd3fe9bf4939d2dbef11c1657df7cb
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+Functions:
+~ +[AXiCloudSettingsGlue accessibilityInitializeBundle] : sha256 3d5f802448f66c4266054a091bf0085f3da2c2b5ea91cc20050688b2f3825abc -> b3950a1c44dee2f8bf77f97b4d8c373bd040569bd0fec1df834c480bb13aac25
+~ ___53+[AXiCloudSettingsGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 dd263954501eeb893685c40b53899476cd3c72368b393aa4f7f90469c735ed9a -> 8f96fced349a5d0c97405881bdb0beb0b77765b1f2989f6fa15a611c968032a5
+~ _accessibilityLocalizedString : sha256 ff8338d5b18afa884bae596e1195ad83bd55fc491b446f34206aca56c2633249 -> 87061595405cef73e8254af1a21d8c0ffd34396e5a413b999c8eab8b81a6d8da
+
+```

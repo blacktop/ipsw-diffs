@@ -1,0 +1,30 @@
+## libCoreVMClient.dylib
+
+> `/System/Library/Frameworks/OpenGLES.framework/libCoreVMClient.dylib`
+
+```diff
+
+ 352.1.0.0.0
+-  __TEXT.__text: 0x3b54 sha256:b0e9b8ac5d0d19c9b759a952ee2089307513f9261ac9668038990a929ea215ac
++  __TEXT.__text: 0x3b54 sha256:7876e6d62a939bd3102d157505ce6852968fd36cfda46b63f3b9f7dff6b330c0
+   __TEXT.__auth_stubs: 0x390 sha256:e67f92f232cb6a7e8da6d08ddad1d8c1e711c9b373ee12f16f7e0e67ae646a85
+   __TEXT.__cstring: 0xed4 sha256:ed76cd95862a1e2efccf87247e8efe3b76ddd3ce574032c3ac9b0506996ccfae
+   __TEXT.__const: 0x10 sha256:45edc7f8c9541dd125ce895118ae0506fff0669edd2effc0bfa91c5c5362730e
+   __TEXT.__unwind_info: 0x110 sha256:8334bda2bdd54d533ecf6913740f585c4cebaf5ae18b08327e201b5dfe1a280e
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_CONST.__const: 0xe0 sha256:bbb684bce26b63252b983ef2ee07ca5acde09ef24b295080e8049810dcd4bb97
++  __DATA_CONST.__const: 0xe0 sha256:f66e9fbcc5ca0ad800d2584f8d4cf2893e32f19874a8df566107e1fca24c6311
+   __AUTH_CONST.__auth_got: 0x1c8 sha256:b960fb5cb94682dfc4a873035d65f8befdcb9bed0e7db0feb905f0dcf437b38c
+-  __AUTH_CONST.__const: 0x60 sha256:3afd8c0c6edf3a0ab080eb8e1301a279319345e9fbfd36490fa2d95e0a5522f2
++  __AUTH_CONST.__const: 0x60 sha256:c1d97ba019cda754126bb728156f1a87780beb4a1a5867618971977b434405ea
+   __DATA.__data: 0x50 sha256:27da57e0004833ed3f9fc8143419d0087439957455e53df4729d4390feb26a6c
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA.__bss: 0x120 sha256:2d5565fb483d8ea4525a7a9229677d1038ad34b6e22c8d5152e1d7f7b9817597
+Functions:
+~ _cvms_connection_create : sha256 9cfd05249b8078ec5f556c2793d8e7238ee7e215ab30696503b327a485f5639c -> f9f1953b880c4e5ea7bba83cba9b03bc27e4de1d4a610e97b04a4122f268941e
+~ _cvms_queue_service_sync : sha256 bc2cc602894f624ac1e5372379063f8d764ec965b225248529f0f3864a7081f9 -> 30a870530d2cf30c69c818b66eac760b088bb056f84516b6c75efe0c9924fed7
+~ _cvms_queue_service_create : sha256 4daa592856fb82b11b71c2b5661f57d9a99cef0e03095d3656f41b9d4b7985de -> 49c7ccfc64d3274fe3f0b3a2b17ffd7fb647f28b27212b21d0195660165e8ddd
+~ _cvms_queue_service_release : sha256 eefff4d90646aaf38967637c6a54edac949ec2faa41f5f4dea3b6d7ed657066d -> d7ca9c3198a331e64ec14bcb71080237da92959bb7d9177675c6a4c5c00ab892
+~ _cvms_queue_service_control : sha256 029f351d2adc660fadeb133653cc2bb3f4a825c5f03874ef5d8795a32416c721 -> c05f2ade15b4e2978da66688326cbce41d340f1c6e9288ef88d46edd1d355ea2
+
+```

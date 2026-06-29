@@ -1,0 +1,47 @@
+## AppleTV
+
+> `/System/Library/AccessibilityBundles/AppleTV.axbundle/AppleTV`
+
+```diff
+
+ 3005.28.0.0.0
+-  __TEXT.__text: 0x1bc sha256:1c5be67eeb536fd16f176721d9c89531a0a97e51f83f8f46fc9c965f4ed57f1c
++  __TEXT.__text: 0x1bc sha256:d2454d489629dacf6e4376bc6076fb1af0d1cfeda8ebe0ab790c295cca18e3e3
+   __TEXT.__auth_stubs: 0x90 sha256:d1f0750798207074d167a808e67fe1abb83994ea0c0fc854c9d3f1971fc3d2a5
+-  __TEXT.__objc_methlist: 0x20 sha256:8ed4518d81e26cdc64cb126d120d2feb46061dd388fbca838ed15e6e511d909c
++  __TEXT.__objc_methlist: 0x20 sha256:bb2b3b236cb58ef2aa2863686a99d1d88b9768d4b210db9976d2157073426eeb
+   __TEXT.__cstring: 0x9a sha256:51a87e1f7ef1a1031f6a176950d54ee1ad0cf8f0552f3b6c1a2f713c1feacbe0
+   __TEXT.__unwind_info: 0x70 sha256:4a48ca147bf124b2d40e72668eff0756b2119e8196dce70756f4f1d79c6d0a4e
+   __TEXT.__objc_classname: 0xe sha256:4d87c41e004aeeef6080c76a03386e286e9aa28176c128fe0f8b941bbd8417fe
+   __TEXT.__objc_methname: 0x13e sha256:8476a6c7e89988a4316bd8b4e0a046d9ab5bf849261b6e7ee43c689661d110dd
+   __TEXT.__objc_methtype: 0x10 sha256:8e3c786a9565702f772a5db8e4f4de1f8ac31c51c2db756efdef15a41c043852
+-  __TEXT.__objc_stubs: 0x100 sha256:8e288de258c92ca1ea8d01f1c0062bb8843b762b67a4a9a7f4c69612978d88cb
+-  __DATA_CONST.__got: 0x18 sha256:871031afe7e52cf4628cdbb9a6e87d0c4770cd89c56da921f6a42b7f40404ec1
+-  __DATA_CONST.__const: 0x40 sha256:f10b3c91dc7265a3be609cf91dbb469acdbdfd67c69011e1160a4f6b2377a2f1
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:2d7f54f61ee33132bc768063deb776726ae67b45168ceb00f814691c4ac7614a
++  __TEXT.__objc_stubs: 0x100 sha256:aa10fc6814e29c62e41f531cde8a386d43883d9fa8a1e45568114dc1dea97092
++  __DATA_CONST.__got: 0x18 sha256:d2b49f4414b08e92f4630d1c4545e34c7a1ac3ae6bd7aa979987cfc90fa73694
++  __DATA_CONST.__const: 0x40 sha256:9d34d8278ac0166606e5d3841240dc7e7af806a6dede2540d303c74008df9390
++  __DATA_CONST.__objc_classlist: 0x8 sha256:89ca3009b58d5fcb6a3f412ce0bdc6aa728a5bebac906e9b839a0fad34cfdfc6
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x50 sha256:4842e90a6e273a7a5cfa22a77618c8b6112ab69c24fe8e3bc729b3b2a40d3e53
++  __DATA_CONST.__objc_selrefs: 0x50 sha256:ef944b6ae70b3f8a6ca3dce1419baa3955707c9db83faa84b88caf39d96759d5
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x60 sha256:4a1ac32958bee89a4f596a78d550ea2e0e4e2f4ffcb28262536d217177ad4f42
+-  __AUTH_CONST.__cfstring: 0xa0 sha256:99cfd47907fc82a4ca16903d2aad66483a33d8e5df7de4fccaecf81610b126d1
+-  __AUTH_CONST.__objc_const: 0x90 sha256:26de6b3a59a15da4f338a3b5e99c19778658621605e230f8e5330146e472967c
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:adb0c7c160a37188e2f0581810846a779aaa1d1a1bf7619882158eebbf4f6cbe
++  __AUTH_CONST.__const: 0x60 sha256:c09b7ce23fe30db193960b87ebaad5762418cf6c07ceb5214af3ad9271a5d18b
++  __AUTH_CONST.__cfstring: 0xa0 sha256:5dbbd217fce2b13c2d6836792e9970566a18b1601d2ad6ae7e3302692e9bf5b0
++  __AUTH_CONST.__objc_const: 0x90 sha256:575a426575978cbe7bdb7b1878d679034370857986afaa69ac2afc9f1f5c840e
++  __DATA_DIRTY.__objc_data: 0x50 sha256:cbd60e8591a3e93f907f20601a91ca02000b267f29d581a0eabc48e607133b7a
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+Functions:
+~ +[AXAppleTVGlue accessibilityInitializeBundle] : sha256 45c8c010443d931a881e197a4c3bafc2d10780be235f67de5ec96d1e5bb2f9a8 -> 1bcdcf42a5d2f8d0b01168c48e705dbb0f9bfc35aefb3e21cbccb2f36f62b03c
+~ ___46+[AXAppleTVGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 1fb985425115fca223b29128a33e0919d68f664ffac32436dd08aee7f4388eba -> 219842b1ebe3ff40921e8d15fca545255e00c36506342aa067f12ecdd8539b49
+~ ___46+[AXAppleTVGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 7e431badc499f5eebdf4056c99add762521bf2f2041574972e5501cfc4fc3335 -> 7c79c88d4109b4008d32fad43b69b6da43fd97ff3f078636edd716d6efd9e1e3
+~ _accessibilityLocalizedString : sha256 f0000dd45382222b6c196f7d22c16fb6ee808d6cd92996275d05f8bf4edac3a9 -> 814efb8772d9d9865b883ffb3845edba26fade9fbc51b1066bc969cd9b239bf6
+
+```

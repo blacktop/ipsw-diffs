@@ -1,0 +1,36 @@
+## GCoreFramework
+
+> `/System/Library/PrivateFrameworks/GCoreFramework.framework/GCoreFramework`
+
+```diff
+
+ 1042.120.1.0.0
+-  __TEXT.__text: 0x10ec sha256:7db89f153c71db010329d1fef48cd81f9031d5fb0c69d274330f63053a735837
++  __TEXT.__text: 0x10ec sha256:faaf4d99fdecb01ebc516b91989aee6a185a72f083e44697a823a19749257bdf
+   __TEXT.__auth_stubs: 0x210 sha256:8ffaab1f6859c26576c3de27dd34d7ab1d02f4eba70d3822e13aabcd0ccc162c
+   __TEXT.__const: 0xb0 sha256:4e371144664a07401c93471e85f4d03c8cfed57f026ca7f39d6170e2e2b82871
+   __TEXT.__cstring: 0xc2 sha256:39f7af34a00efcd2594133c558da1c012021af1a9a7f01bc54099466a235e70f
+   __TEXT.__oslogstring: 0x3f6 sha256:8809d1bbc728663fed27ee2ae739c343bc952c88b98c307c44e72efb5f45fa5c
+   __TEXT.__unwind_info: 0x80 sha256:d79308e88ef800cd659fc3900ddc43065da21980fbaf0d68664fd37b6b42bb49
+   __TEXT.__objc_methname: 0xae sha256:415f3f81aaee4cb474ce48a69aa2d100f25df61adf7320f330c033b09c815721
+-  __TEXT.__objc_stubs: 0x140 sha256:6ef722485df6f123af576fe520883912c1b76d775baf87b6e3a4f85916e7e2a8
++  __TEXT.__objc_stubs: 0x140 sha256:7a6345b17c3befd8d575a7ae203e01c2c98a1f328acb4bdd93a1575217c7fe08
+   __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__const: 0x158 sha256:5fb65bc2eb582081633806837f37352a33d6392f114b47957629285c41e88c50
++  __DATA_CONST.__const: 0x158 sha256:50899fcca0fdd960fc603acc3c09603f38f4e1d1113a3a594e2f96ae56b94254
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x50 sha256:8a6a1539452048b6247fdb8118058ebfa6071055396aa405ade85eb59af088e5
++  __DATA_CONST.__objc_selrefs: 0x50 sha256:7b2e80341969ac6ffc284046ac8abae0caf870e69cf8f5b791866cfa98bdf8f9
+   __AUTH_CONST.__auth_got: 0x110 sha256:e4d879a3407de578f579dfab4366fcea75a6649c683d9efe4f056f6505437574
+-  __AUTH_CONST.__const: 0x20 sha256:5d914a84b8a3381043ed954ad859851b414e7aa324a6133e069a7de41ab4248c
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:aaa7de0274ae1b1631973c5ebf2ddab18b7da21f876c698014f17cc22e5329f9
++  __AUTH_CONST.__const: 0x20 sha256:d89c7642d1f98651f1a98ba15455a00f4f90d432559a461fee876dc706c33f93
++  __AUTH_CONST.__cfstring: 0xc0 sha256:1fbdaec016ed689e3e706eee9da7b1d9a8f1340440ba8fbd9d6988945d299464
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ _create_gcore_with_options : sha256 b4495058081f9c0a86a4f4a54c91223ab46b8decc5c77900f634db47a4d0f951 -> 97dec5c43747c4c0ad2d3645d2df70b9e65732cb8471ec409d42bbf685ff11ff
+~ _create_gcore_with_options.cold.1 : sha256 c58d7d1acd245318843520696a387c0969d4ce70905bf0b4cd2ed1fdd95c9524 -> dc285818e7bbf6d1d978afb4cdbb10a4af69500935331e7ad8e279a8b6421e3e
+
+```

@@ -1,0 +1,30 @@
+## WatchControlAssets
+
+> `/System/Library/PrivateFrameworks/WatchControlAssets.framework/WatchControlAssets`
+
+```diff
+
+   __TEXT.__objc_classname: 0x1e sha256:2bcfe6bc561f02a26755d4ffce5987a0f11c5831cc799fd0018fe5dbdbbfe09d
+   __TEXT.__objc_methname: 0x37 sha256:64c408c54878754b4536e0dc1f6efc6f2ba5ea7754bbaa08537468a9917f1b66
+   __TEXT.__objc_stubs: 0x40 sha256:0adc78254c6cdd565490e100f9e5788f12a99bf6e84625d73d452f331f574534
+-  __DATA_CONST.__got: 0x18 sha256:c0414a994facaf882748566c2544ecc164cde6ccd07dee4f4e766688f5d081a9
+-  __DATA_CONST.__const: 0x20 sha256:f40982860fb0648c677fd4ab22293ae11037254301fc101a258ca1dcbc082b14
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:98dfaad2d01bd84ac3ac3a4565d4e1bd8633b82c882197b79774d2d26242e433
++  __DATA_CONST.__got: 0x18 sha256:dbd8ab50851c6b75fc127d3641ebbcdf67b5ebc9685f967d4155fde9899584c0
++  __DATA_CONST.__const: 0x20 sha256:59dafe7a06dfeeefdc670ff44e592029bfb3876cbd66e57c37615a758e29c5bf
++  __DATA_CONST.__objc_classlist: 0x8 sha256:47502d1a3f5cb0439216fb3af39d63401d5574a2eecfa22046bcf4b5ad03a7f7
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x10 sha256:2b54b29428212caf78195852a0d1817b284d982ddbcb79f395796ca96e424032
++  __DATA_CONST.__objc_selrefs: 0x10 sha256:c828390522e8ec030000c43e778ba726dd0112aab6eb1111166e2bb8290ebe34
+   __AUTH_CONST.__auth_got: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+-  __AUTH_CONST.__const: 0x20 sha256:a5b0b4abd61339c26f5b4788f9fa8c0cf2a3a40b3ace992498b8ffa2a2525288
+-  __AUTH_CONST.__objc_const: 0x90 sha256:0fde73681b412fa689e6417d2cf5ab755dad0a87095a3c9668e6738dd1d9b05b
+-  __AUTH.__objc_data: 0x50 sha256:0a658f28cee63d0dcd70adc37618788a80643cc26e8150ec7968629b7632cf3e
++  __AUTH_CONST.__const: 0x20 sha256:6b3922d567a42154699d250ddf6f71122f2c1f301b007649b5ddd248b559fb18
++  __AUTH_CONST.__objc_const: 0x90 sha256:0c31c5575b481b5b3fba40ba6e596dc2d72b9bf38ddd31f6bc21fca3264db525
++  __AUTH.__objc_data: 0x50 sha256:8eb51138268cdd9d187f46f7ff2f213105ce705ef7aa8e1924c5b08ed1c5d6d2
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+
+```

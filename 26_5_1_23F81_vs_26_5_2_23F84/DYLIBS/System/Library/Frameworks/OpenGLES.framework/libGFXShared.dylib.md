@@ -1,0 +1,32 @@
+## libGFXShared.dylib
+
+> `/System/Library/Frameworks/OpenGLES.framework/libGFXShared.dylib`
+
+```diff
+
+ 23.1.1.0.0
+-  __TEXT.__text: 0x64a0 sha256:f212a06e7924c6810711a4a5a50d4a785360d7b35d93bf0ca1ee06194d9fd283
++  __TEXT.__text: 0x64a0 sha256:efe5438b6bbd8f641ffbff3f4798bd2e33a880113a09e60f97eec556693599e9
+   __TEXT.__auth_stubs: 0x390 sha256:23746727d54b3c6918c0139f1835021243dbbab32d6671fc392d7003e5c85805
+   __TEXT.__cstring: 0x1b8a sha256:cf3fbfa30a9fa9e482f8610f45a2e328e9f40e456b112f59652549f432a9f4e4
+   __TEXT.__const: 0x40 sha256:16938af99599167f7621ec14744d50993625d1b890e8fbac191ec5ee9efa7c5a
+   __TEXT.__unwind_info: 0x158 sha256:fb650b1de1d0e1bb49aa78fa817f7e084ea4346d097f97a576d40b493222ea7f
+   __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__const: 0x4a0 sha256:9c71c488cf8d392bc14bfd291eb33e435425ee42b7eaf52131114f277aff6bb1
++  __DATA_CONST.__const: 0x4a0 sha256:f16775c8555c43423064b2cae263410455a2746a4bad9dbb750a5d89012e92bb
+   __AUTH_CONST.__auth_got: 0x1c8 sha256:b960fb5cb94682dfc4a873035d65f8befdcb9bed0e7db0feb905f0dcf437b38c
+-  __AUTH_CONST.__const: 0x40 sha256:f264210fb200bb842edbc19fa6af89ef40088eb81cc65f431d9c7a1428a75eb0
+-  __AUTH_CONST.__cfstring: 0x380 sha256:d15c424f0dcc8620245c8a5dfbb6901d899800985f045cfe7094798af8db95ea
++  __AUTH_CONST.__const: 0x40 sha256:1dc9402f8053520b0af2c4c35585820d48ab3eae8ec4de7153eb8781f583ef02
++  __AUTH_CONST.__cfstring: 0x380 sha256:fd2c20791b59de927543c20692b13aaf8f3fdfde2e9bbd766a182dd7c11768cb
+   __DATA.__common: 0xac sha256:58f218aeb259309eeb545345a8f5c715987967b0ec724806d448394da578d0b0
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_DIRTY.__data: 0x10 sha256:eba956dc8f5e792f083beb1e308446a00c07f6a663aebe3d3d7ecc6936d4a6ab
+Functions:
+~ _gfxInitializeLibrary : sha256 96e064a60d3a8a766c25232842b20ecc75d5a437392a4ab77e9473d5d01fc6a7 -> ca4ab1e561ad012ac40ca28899a3c9df2a08da90559ac4b8eb82e5030736fd74
+~ _CreateAnnotateDictionary : sha256 67e211467b59185e9d4b6476409c4fa536843b8d356f0a4195ab59f70dbe327b -> 3abdedb7b5b89b470e91fdcb2c5d93844af759aaac42b58d8e04de7d2f556775
+~ _AnnotateObjectsInHash : sha256 31ef4be1ac8279024dbbc2ce46f17ec3282eba5202c9feee3881719aee3d01dc -> f1c4f968bbade8590577c15033fefd878e6466aa28f4427c518a6fbbd08f9b17
+~ _AnnotateOGLHashObj : sha256 d6b3d6f1f7d83c1acf119e501bf331b2071db91ef8c117d1b86560ccea503da4 -> f264e28d19d670bc54b933aa4520cedbbb5cebf1058229953ff1379a188b97a8
+~ _gfxLinkedOSVersion.cold.1 : sha256 e863937a5d138b845fdfe18e41d01f7a923d562ae18c35b1453b610554b4730b -> 33663ccaa815bb2e07a56a0e57b0eb38bfb62fb35beb4342487d0b39604ea492
+
+```

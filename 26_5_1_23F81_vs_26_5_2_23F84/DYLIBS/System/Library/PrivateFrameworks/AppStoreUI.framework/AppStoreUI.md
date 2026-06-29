@@ -1,0 +1,55 @@
+## AppStoreUI
+
+> `/System/Library/PrivateFrameworks/AppStoreUI.framework/AppStoreUI`
+
+```diff
+
+ 1202.5.1.0.0
+-  __TEXT.__text: 0xc7c sha256:ff34475ab0b589acbd7eb3c7aeec9aa2e740fce4552e6b2bd3feb350c25e18b3
++  __TEXT.__text: 0xc7c sha256:49e9a89dfcfd7e18c36c84bdc739c24bbf85b7363330211f0c6c22b6a6c6ea46
+   __TEXT.__auth_stubs: 0x140 sha256:3a5279d372187beb32c707225ca41157bb545ab981c0ccb189c870c006e907be
+-  __TEXT.__objc_methlist: 0xd0 sha256:c63b0d7bbd66fa081ff45ebbc001c337e1277465541b52481cdf1a9510709263
++  __TEXT.__objc_methlist: 0xd0 sha256:0360759167e65a460ca7c92fdd0344ccf648c979db1dd8a9c7d8d6a978d4c557
+   __TEXT.__const: 0x8 sha256:31b83611b41047d26623cf19d8282887b9a108240958774f753152d3c63851c5
+   __TEXT.__oslogstring: 0x4d sha256:80835a568806a806555f0b8bb3bbacd48194a03ffa46b541faa197ee1186c215
+   __TEXT.__cstring: 0x16c sha256:5df2b762261fa05dea5020cc9ea332c6b57fca6d1d9437acb6e44e13ea9dc372
+
+   __TEXT.__objc_classname: 0x3b sha256:1d971ec1c9f404d5d9e8d17d14815230482075f476d9772aea35b79609c69c9e
+   __TEXT.__objc_methname: 0x512 sha256:7453e4f9e3939d3a90b765e37ff4ce5215535986c309601789e49dba6af66c59
+   __TEXT.__objc_methtype: 0x58 sha256:651efe7b46496ef39796899f910ee29a4594134ace31dd6bb2f40faa92e298dd
+-  __TEXT.__objc_stubs: 0x580 sha256:5d2d6d1cc168bbcd94166d5f804bdabc3577076ee5581650d6836bb2a450ec1c
+-  __DATA_CONST.__got: 0xa0 sha256:5eaa890e7b7cbe3c9c0319fbb68b410525164f3c50dd8ce5250a2989e62533f7
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:12e8b7f0e65ecfb3958a21d4ab4e817db6b80fec99e5e8169aca41c51a0f690e
++  __TEXT.__objc_stubs: 0x580 sha256:0aa50fbb40c9d50c42d044b27b49dd44f273dc8a7b1b6f59a55ec9d35a7e9845
++  __DATA_CONST.__got: 0xa0 sha256:6eea19377735d7519f5b8e75622ba7d928e794a4e15225c3e1fdc2873ebacbb4
++  __DATA_CONST.__objc_classlist: 0x18 sha256:3538a9df339e864e62679f9722f5116a98dc8b2da4017da681ecce558b310f4e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1c0 sha256:19f7319de2de90f98e379002ed6bc954ccc2fd2fa73939407407b1c2590f7bf1
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:1f5abd8b9fadec54f3af8439b92c666adb1e149b6f00f24d2367b9f190deec3d
++  __DATA_CONST.__objc_selrefs: 0x1c0 sha256:d0403ea2486ed8dd91fb0583cbb3c552da2c2613840dbe4402ce3cba88c8398b
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:df8191896ca18deb83dcb273f396c809e401e96cf77d4e367abf7cc3115de197
+   __AUTH_CONST.__auth_got: 0xa8 sha256:e3c2af35d1dfc500e16f826a071cc311bf55003a3de77de7ea3376c6b6fa2857
+-  __AUTH_CONST.__cfstring: 0x1a0 sha256:d66abae1bc574cc8dd45a9dd7402bf6e3194eae413bda35921877dc33c72615d
+-  __AUTH_CONST.__objc_const: 0x1f0 sha256:f8e39f292aef011fa5b6a5639a34387a70afa1bf1de45edaef3d1a6715caf126
+-  __AUTH.__objc_data: 0xf0 sha256:671a16d1e77dc1495bdafa6e947b048baf63c0c97235beb70618dc0cd71a4a69
++  __AUTH_CONST.__cfstring: 0x1a0 sha256:80a4c979f531764a42e8ad8dc89a9d72d5769ed82c43ec9cefd96f4ff4e46c73
++  __AUTH_CONST.__objc_const: 0x1f0 sha256:2c38518b0f12da3f94447f9e277453eaaa0b01dadaaef7374f0520393f1dea9b
++  __AUTH.__objc_data: 0xf0 sha256:50d57cc465643cdfa77dc106ca64b903f7f8fd93b6d2aa48127f4e51fc7632c4
+   __DATA.__objc_ivar: 0x4 sha256:d3fe97979d0fbe3bf464e5001637443d72b890242a801cc221b1c8a169a69761
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+Functions:
+~ -[ASViewControllerFactory newNetworkLockoutViewControllerWithSection:] : sha256 02c09e9f08ab236f32cac1289648a796c15051756b6f6ef76707ab708b9ea1ec -> 9d752d5f5dc01044339d3d4be3890cf5685e23d18e30eada6d56662c1db3935d
+~ -[ASPurchaseBatch copyFilteredItemsFromItems:] : sha256 ad6d7c1f214e73be8e3e105a773721630e5ed41752d62aef7feba95be4467ef4 -> 5395165dca44697eba51cf565ec22a92a4c624a8bd1a8354dd9e0f80d9666a3a
+~ -[ASPurchaseBatch everythingFailedErrorForError:] : sha256 80ad219918cfbcc483443a0b8fffb58bff22e7733a7f13f20e60b35f1345bd64 -> 722e0c8c72ce6583f73dfcd18eca6abda14a5c2ffaacf0b919f1e134cdb5c408
+~ -[ASPurchaseBatch mergedErrorForError:withCount:] : sha256 f19ae589e4f545f38a7267b174b75dee11d2047090b547f0d0e24b718f595085 -> 5dc1044bfdecd490f4b5f3e0e5b0485b6f0c6d558821948cbb8eecdd60ca496f
+~ -[ASPurchaseBatch _copyItemsByStorefrontFromItems:] : sha256 edf200a2b677fcd0c0930fea4a67a324ee18d2386377749ec69afd4d8cdfd760 -> 4b324cbc80b5c5bc8be08b92263daeb51b96fff57e37574a3970ea0f61b808fb
+~ -[ASPurchaseBatch _tooBigForNetworkErrorForError:withCount:] : sha256 20f8ec037e52e2b1d7d6892e4b98701e86d735b5e5dac3a6fe4afbcec3ec9910 -> 39a53f5408529f3c86d4ae19346076607ae048ce7b0924dcd2957af27e335ddc
+~ -[ASClientController initWithClientIdentifier:] : sha256 848a8cdd64b339574a62ad2b127c37608dc1ed36405c007db741f103526191e1 -> 8d6753a3ba35d27c55b561c374235ee8da572f34d11bc874a0fca792042a1d47
+~ -[ASClientController initWithClientInterface:] : sha256 dafac4fdb2acb69f2564c4f6ed7d0ffe08fd1261a08aa08212b610fe19e71852 -> 1a996076cd9a94846b0c17d4a4e23ec8de3d78c0f027b5e761226bae8b361161
+~ -[ASClientController libraryContainsItemIdentifier:] : sha256 881128577f5099a3bb78c153d9dcc0159595ab1aa60e139675735cb047309ae1 -> c292029343d7a34caddfb76549f4a1169bb7c48c901869b3958d94bd11371c6e
+~ -[ASClientController purchaseManager:purchaseBatchForItems:] : sha256 e7606b380b14cfc995e78cbff3f5d53c4dad799f3bf561b530107671af28e51e -> 704a1294980362c46a107ca444ffc3068271353ce33851736dd02a823da54088
+~ -[ASClientController purchaseManager:purchaseBatchForPurchases:] : sha256 cbd0c6361d66e00c057c5d9e5a1130043ded5e9340b6e23ee4bf0205b91d6d81 -> f97a5a18f20bfa35fa424352e2a16be6393954cd7770148d04b40281094177a0
+~ _ASAppStoreUIBundle : sha256 b4bb4e2c8114825d86167883f6c381d707f80071d06dca498dd7f96280d14c62 -> 96d4b5763a8168fc3d9d1cfe9ce33505609e752cb9544f665a304eb69c5bb8a8
+
+```

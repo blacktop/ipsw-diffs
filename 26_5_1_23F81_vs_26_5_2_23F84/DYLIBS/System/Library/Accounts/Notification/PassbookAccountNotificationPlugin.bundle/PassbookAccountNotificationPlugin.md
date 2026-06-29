@@ -1,0 +1,46 @@
+## PassbookAccountNotificationPlugin
+
+> `/System/Library/Accounts/Notification/PassbookAccountNotificationPlugin.bundle/PassbookAccountNotificationPlugin`
+
+```diff
+
+ 1642.6.5.0.0
+-  __TEXT.__text: 0x500 sha256:084c495b5fa2135d768a85600ac06127991c9a3f8d97bfbb1fe323b65da53be1
++  __TEXT.__text: 0x500 sha256:2dc56f92cc362a3e13cf03e666b45d4167db55957bb309ecb38be0fcd509212a
+   __TEXT.__auth_stubs: 0xf0 sha256:29080484c7a1b2bcdd55063e5225c487e4a1dff23be202566322e0d64221925c
+-  __TEXT.__objc_methlist: 0x1a4 sha256:85e88734b8aaca011f100b20ac8590609ced7dd6f98573cf64cf07b421fafcdf
++  __TEXT.__objc_methlist: 0x1a4 sha256:52d72e6a94a0ccd3254be20809404e61766f79a1cde84f11dfa16c76166a7e54
+   __TEXT.__const: 0x10 sha256:65e0e037ede49a6895979432e1e4bec3c4b2e9ca943c7b2965aa3dfba3d26492
+   __TEXT.__oslogstring: 0x16b sha256:fd98aedc8f0a1855daeb70f2f3abb877ecad0a9d3f94efe6b6ab71135f688715
+   __TEXT.__unwind_info: 0x60 sha256:0ad3658207a609f10e7de79bda1cad0eed021d9d53124042a741ed91e0668374
+   __TEXT.__objc_classname: 0x4d sha256:7ba3cfb75dc1a378bb39ceb6a13d7ace5d4543b38afcfe4ea46fa88f2190aed0
+   __TEXT.__objc_methname: 0x36b sha256:6fb7719d0cbd0c5fd53ba0d12c65cb45f0c42e4535c95390e5d9bebfcadf5c6b
+   __TEXT.__objc_methtype: 0x1f3 sha256:4d2588b7bd2f4aebb3fcdafc6bad8e6f7d0a972880de8bae8c8a50ddf072c156
+-  __TEXT.__objc_stubs: 0x160 sha256:6ebb8f722b2f890fe16d92b5bb3db5d78dd221a1f0d0a40bd72e84b6ef2a42b0
++  __TEXT.__objc_stubs: 0x160 sha256:5bb8a32ef08fa4cd15227beaab2c8d025ec95b3a8e0ff1cbe607822b56fc2240
+   __DATA_CONST.__got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:e4c629dee47392cfd979e67f9e65257aba3d2330bead4c040cad850d8b945a62
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:d785e5bc0705d261a3cbed6a683e29dc6dd04e893c414c44c1f2027d5062677a
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:f20ae5f5ee8bbd639129a14fe1d05591784e97ab0c76aa2e7b9a9cf9cd5ab8e7
++  __DATA_CONST.__objc_classlist: 0x8 sha256:518e069e3fac755ac9f69b4cce155ff6ee557eb8337b38b8af9f4db53277a32e
++  __DATA_CONST.__objc_catlist: 0x8 sha256:c8163af9df719d9fb4a9d225f0865ea1f1ac40817faa321eee49741c60a133fe
++  __DATA_CONST.__objc_protolist: 0x10 sha256:a5868d7307a26e0bf398167719541fa097ffdb932abb142e7df39368f803e92d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x140 sha256:feea708adb33a932512c5dbb2281dd47efbdd116c59c90c4d92670ebd51fa925
++  __DATA_CONST.__objc_selrefs: 0x140 sha256:e6471302103f34e0f493053ac25b93ec5b3e354b466f40bf3fd4c2f31d4162ab
+   __AUTH_CONST.__auth_got: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __AUTH_CONST.__objc_const: 0x270 sha256:5bdd72e9008bb4bb5989a467d9abb2110aa105699ec9c9362c5476384ae2bd03
+-  __DATA.__data: 0xc0 sha256:e7fb133014ca827e293855c65fe485f0424b54588e6bd3be3b15c1a1ae3baa00
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:06f24456aadfc692fb1aa428c1f0823c430c5d5dfff6ef9b9fda4c2ac6683a2a
++  __AUTH_CONST.__objc_const: 0x270 sha256:3dc23cf002502cde91b0a953a5468ff26cef5b592f315bb7e70a79f746b6e990
++  __DATA.__data: 0xc0 sha256:f87fa3344fc3d0c8bc59ecdbcb42fb8ad8a90c42609c8af79be2760462d69466
++  __DATA_DIRTY.__objc_data: 0x50 sha256:4b2e4e1f918db45c78e2f7c9fb49ba864b42e5044118765d257b1228e720fc05
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AppleAccount.framework/AppleAccount
+Functions:
+~ sub_2a6f8eba8 -> sub_2a6fc6ba8 : sha256 85dbb4ca7a5658c743821849868d669ee2c8161f5e437d25571d734de3934c60 -> d6dbf12b6dae658841bbc06fca427bfc7c5482a84ed230820379643bca7f0e03
+~ sub_2a6f8edb8 -> sub_2a6fc6db8 : sha256 3b9be5d80e8542aaa07ac96fe8f3605c4d795abfde27193496fa208619290cc5 -> 2ffb595f2586fef338e1aed05b7b0cd63eae50e4725a36056baf6be13d1fc289
+~ sub_2a6f8f01c -> sub_2a6fc701c : sha256 d1431fe076b7fe196bbd89f82b43c7b581ac58656eb04cb0537b123aa9d808fe -> 04f769ba76297ad265f9489f85d92bb9a18e0b4bd8b08088985e9295f78f45f2
+
+```

@@ -1,0 +1,49 @@
+## ProceduralWallpapers
+
+> `/System/Library/ProceduralWallpaper/ProceduralWallpapers.bundle/ProceduralWallpapers`
+
+```diff
+
+ 147.0.0.0.0
+-  __TEXT.__text: 0x444 sha256:c6ed8cca6f40a44ca75e4460f139da73f193581c5e2cd491313e280c1ebd99b4
++  __TEXT.__text: 0x444 sha256:2564c3605442d83bf8d5c3883d9492de8f87efa7cebe38e80a4de083dccbf1a4
+   __TEXT.__auth_stubs: 0xf0 sha256:55e723475f474b353263c9a3d313cc83dcdf1952cc75c77ce67f8631c5ec01d7
+-  __TEXT.__objc_methlist: 0x38 sha256:23be9db46f17a656e47397567c71d3960b548f6149dc0aa19ce52179e1dc81bf
++  __TEXT.__objc_methlist: 0x38 sha256:a7122cbdeb87057c93a636f99a09012a1f725e4d87cded33f04f72c4652687fc
+   __TEXT.__cstring: 0x25e sha256:007408281306b38115052a6151c0c31cb416d86be6816040278a0ec27f4a24dd
+   __TEXT.__unwind_info: 0x70 sha256:7f808008510ec763c9062f38f5236d0c30bb47bac03bf8374bccf2409c3036ac
+   __TEXT.__objc_classname: 0x6 sha256:eabc51e0a8caa7fb38a128fd9e6658a33b3eb31405a41ba209d60c00224a4ff3
+   __TEXT.__objc_methname: 0xc2 sha256:db06ab62264e0a9eda2936abbacbc71f2c88dffaf39b4cc916ada765179a3e14
+   __TEXT.__objc_methtype: 0x8 sha256:f800facdcdbe56f6a2a8ba11e9e3d4c2a8852b2cef57d7b935bf3d348e3437ce
+-  __TEXT.__objc_stubs: 0xc0 sha256:86d0d363906c847e1d4ea53b86fc443d282fbf1c59215a9d1654647c6457e633
++  __TEXT.__objc_stubs: 0xc0 sha256:faf1716f8bfa185eaa06b16f47837a066c849080a1945734bb981f875c4d8242
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:5709657c6f0b2fe6df040cd502c94f1cc37c10da9ab367778c371298dc9308a1
++  __DATA_CONST.__objc_classlist: 0x8 sha256:e0c2c5820380d417fda9397694815c664a49f0451862975da3be054d5da8eb1b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x48 sha256:b2753d2624a6eb73dd7e35cdb1f351dda06c2465e1fa9a7900007a5a993adad3
+-  __DATA_CONST.__objc_arraydata: 0x70 sha256:79ea4757957fca8eb82276d054abf3d54041cdbeb6ed4a878dc7ad5c717b5564
++  __DATA_CONST.__objc_selrefs: 0x48 sha256:156889cefb91ba8de1774074cdf3e6cf4c6895d34fea633f2d63f3a92eeb99a5
++  __DATA_CONST.__objc_arraydata: 0x70 sha256:86a6370f74564ddb15cf64d6409e742403a8d56f1511cdf3e2a54d0f82de8e28
+   __AUTH_CONST.__auth_got: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __AUTH_CONST.__cfstring: 0x400 sha256:15668d646c4cfa82044390a5e5ec6ef7733909b4c11284c7ae2f4c0e836ae9d5
+-  __AUTH_CONST.__objc_const: 0x90 sha256:ad61bfee7e6bc50f0ada84692bbd20d089d00e44a92ca64ca8278b747308111f
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:d7c20d33f91405b923570e151264f3810d41ef9bb0cead569e728342d694d09f
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:7f8d54e15a94d34ac50b9c4a97e154ed814651bac877b885cf53970816f9a1d8
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:9bde321546c0edfc665591a0bc654be45772f935b876f5b405fdcc0c608175d1
++  __AUTH_CONST.__cfstring: 0x400 sha256:92592316258ed5870610e99db19f232604a254f8a54382a14f4121117b738461
++  __AUTH_CONST.__objc_const: 0x90 sha256:880d2e92dad3f9929041fbf378b9f5c768c85d6a9b9e507fa30c7bde9ecc085a
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:cc3dc5128cb081e0dfb1880722112a75440deb62adb9ae8dead88e9a50f483e7
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:c1507d317b817692c99bdcb286a1fc5890108b6988c0abef500194f8875c5aae
++  __DATA_DIRTY.__objc_data: 0x50 sha256:c5300f2c3af9b0bed579973bae78c60a26a40685e11d4f34e0d230e1071c8f53
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+Functions:
+~ +[Bokeh identifier] : sha256 fd0af02747199d4174d48511e26bf0c411d4dd712913c933b7e6e5f2dcc50e26 -> 9f9e8c26eaef3502f0af7a89a14845826209d73879e9b5080588d69353b96260
+~ +[Bokeh presetWallpaperOptions] : sha256 ec46120c1d91728c3821fea46294bd7d835579dc66dd36618ba389814abedc4d -> 818969926a3da5bcd506c9c1053ea2e7619447391e1bd080646718e452333788
+~ _optionVariant : sha256 2ae1c11ddd3a0573da8a19e3700573ac2b5df9adf093607d4accea27b64df01f -> 2d9b55fc77abcdae589ec07f0605536ca039e046425f93dd7fefe892141ecf32
+~ +[Bokeh representativeThumbnailImageName] : sha256 773c0aa0de96139ce1fb413b87e102926a5b0a31801a609f301331ef87bcaf7c -> b90127120aa438140fa04bc37f207f651e52e8adfdf703c0e629fde250988ae6
+~ +[Bokeh thumbnailImageName] : sha256 f17fcbffdd7bf333210f0fcc6d456ae5c799c92f1e2191b5d00d72bcadc3d51f -> 70722a9dceb206daad9259b91c6a500ce509189bc0067a2e17f54cde20935e29
+
+```

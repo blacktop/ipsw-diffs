@@ -1,0 +1,41 @@
+## DAIMAPNotes
+
+> `/System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DAIMAPNotes.framework/DAIMAPNotes`
+
+```diff
+
+ 2691.4.6.0.0
+-  __TEXT.__text: 0xbc sha256:0b19facd683fd71c703709c6c18c244644bcece4d17db79af151ddfd17ab1b49
++  __TEXT.__text: 0xbc sha256:acad6be390d7dfe5b28ee004791ac712c1b7b261e476fd1d375a96546697a0eb
+   __TEXT.__auth_stubs: 0x40 sha256:d33279986bb79a1c2578723e97be034e32167e67245b60265fa7e2185293fe92
+-  __TEXT.__objc_methlist: 0x38 sha256:92984a358504e26d13ef1170e0b508abf46e562e28563ddb42cce9124e9611f7
++  __TEXT.__objc_methlist: 0x38 sha256:5dcbe26d179c745c331bf1abf116da76b5058b9d952c1cfe5e883ad26efc50d6
+   __TEXT.__cstring: 0x64 sha256:6a1432ba58ce28681ed0bdf92b9c7f04dc55fac300353a2cbb5194d67c0ca8ed
+   __TEXT.__unwind_info: 0x60 sha256:7068aa151929163747077555d9460dae801ffcea92f5adf22a4e2e59bb5f4d82
+   __TEXT.__objc_classname: 0x13 sha256:cf2e559963db8e499edd4e4ee0e62916e601e8118639ba067ec5100a5bfabac4
+   __TEXT.__objc_methname: 0xff sha256:df5b9a9dd4e8651a524b9899d416d38f2b0ce9fb88feaf3504e1ab27396b8394
+   __TEXT.__objc_methtype: 0x28 sha256:534673606bca4daaffd90f302731bfae76c1ce6860538592171eae7c4bd3be3f
+-  __TEXT.__objc_stubs: 0x40 sha256:7fe70ac35d7891b7d26b6276ddb1c172c360f38765ca07cd2a337570e38f67b2
++  __TEXT.__objc_stubs: 0x40 sha256:b30addd5e133c6862b399b6a6c394128b561421d7350be11506513347a5ffeb6
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:7c9593818125926f345511aef37c8fafc05190d78202bc710414d3c308cdd22c
++  __DATA_CONST.__objc_classlist: 0x8 sha256:11c753bf5ff21d3a3e674892de89fbaf9cea1f737c48a9292646a9716f813eb9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x30 sha256:b2fc47b2fbcdd18a6e68a17e176893ec007a7ee34c67992b57bb6500281cb323
++  __DATA_CONST.__objc_selrefs: 0x30 sha256:1a5932d633315e50bd9bdadd0bb63427c136811e2e9921825b896d90e4edb8d5
+   __AUTH_CONST.__auth_got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __AUTH_CONST.__cfstring: 0x60 sha256:d782f98df09243cb4325eb4d848bb321d3eddc6bd8efec13f2076b83c8272cc7
+-  __AUTH_CONST.__objc_const: 0xd0 sha256:d5c8a6f8ad14680601135e22d997735d4fdfd78249f47d9f2ca53662277ad53d
++  __AUTH_CONST.__cfstring: 0x60 sha256:ed133d59aab61a4a96f6225dc207135998cfd66abdce6d349628167a3fdcd620
++  __AUTH_CONST.__objc_const: 0xd0 sha256:37323b774d64dc1def45aa88f6d8e38810eab76d6a46fed8e65284e7f29ffa2b
+   __DATA.__objc_ivar: 0x4 sha256:895d79e3e0fc9b5679aed8ae35e529676b9a4ef6802c1423dfea6ab30c6faa7f
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:b11a82a9f33b0c6a41ffc462fe499ba962895580419c15166d5af475c818eda7
++  __DATA_DIRTY.__objc_data: 0x50 sha256:84131b25691fcf63eeb4a57ef2230677371d409d7b95bf50689e2d580bb375ea
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ -[DAIMAPNotesAccount isEqualToAccount:] : sha256 0be05abe0af0c55d8fd117e2372b2c92dd6d4d2f393b971526366547b667a1dc -> 2c0d4464bd64e12009e8aa9296045881ec0ec78e716873e0c791b153d063547f
+~ -[DAIMAPNotesAccount onBehalfOfBundleIdentifier] : sha256 4b3d20726baf109dc92ba4c45cd44d8b003946a1d009410d9cc212a07724ef97 -> aedb9a73a6c286a8c55e336dda221a59c978a83e7a111e4ceed2131ddb285f4a
+
+```

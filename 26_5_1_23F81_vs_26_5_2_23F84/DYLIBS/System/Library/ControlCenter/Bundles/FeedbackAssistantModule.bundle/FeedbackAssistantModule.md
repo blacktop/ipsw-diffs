@@ -1,0 +1,38 @@
+## FeedbackAssistantModule
+
+> `/System/Library/ControlCenter/Bundles/FeedbackAssistantModule.bundle/FeedbackAssistantModule`
+
+```diff
+
+ 655.10.5.3.0
+-  __TEXT.__text: 0x138 sha256:1accc28ecaae6788c78555309652143df1e2473fa586769221817329397277e4
++  __TEXT.__text: 0x138 sha256:984c6259d8f2bc9625a42cd8c9538443a84295b3b732156135491a57d0c77ae4
+   __TEXT.__auth_stubs: 0x80 sha256:a4bf023ec8532696ad646d1816653580656d89837d5cc15dac535f1d283a1a72
+   __TEXT.__objc_methlist: 0x14 sha256:15cdd4e733c70ab4aebb8662d63c3ecb9be27d06f781753a0f4752309591639e
+   __TEXT.__const: 0x48 sha256:579ce5b5fc64021d178bdbac4088175c5f57eac8731a5c22278b80b6134b2a67
+
+   __TEXT.__objc_classname: 0x1c sha256:3d59fd93ce8d3146e3964cd4c46b990aee803a7adb5ea006612d498c954c9692
+   __TEXT.__objc_methname: 0xd1 sha256:84763eb82f2884770ccde0d40d080486f1c126fa216baf21c8ed1e25e508cf07
+   __TEXT.__objc_methtype: 0xb sha256:b2b1f07ab75f48945d9e5b2bb8e2868f1e7c39c144ccadad8a69321579409acc
+-  __TEXT.__objc_stubs: 0x140 sha256:461a0d851c96ea61f504bd623fb455527b27134bfec3b9aa75c1c17da3196e0f
++  __TEXT.__objc_stubs: 0x140 sha256:2f64866d86f25099bd6b7e49d70670b2d7f7e97c8da316c3acd462cb7d15b523
+   __DATA_CONST.__got: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:5a27e44e4a631c0e405ef93d64b585cb064651ecf3cca22003f381390fe74574
++  __DATA_CONST.__objc_classlist: 0x8 sha256:cb4125c43c9f8ee9dc5e72647af88cd7251b4e86b1849252bb56b7dadb83ca38
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x58 sha256:8f4ea75b90cbd72747bc5cd328b2982e964e0d92fc0d45d28d77de3222bd4494
++  __DATA_CONST.__objc_selrefs: 0x58 sha256:43d7a706e4b08fa1b7660679fd08e4934463b54a155b09b763ffdbcb55d4db7b
+   __AUTH_CONST.__auth_got: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+-  __AUTH_CONST.__cfstring: 0x60 sha256:0deb674e2257c77b10ae3be96db1794f6e09bb3fb186c9e735a3849856fe5605
+-  __AUTH_CONST.__objc_const: 0x90 sha256:f32ba3d64ab4d65730858b33a65fd9fb070a2311323e206affeb08d4877d4d4f
+-  __AUTH.__objc_data: 0x50 sha256:58a7c72119f6e164464a891f9340cfba1adacb8c3f395c17f7e8ebd6c6ce3556
++  __AUTH_CONST.__cfstring: 0x60 sha256:806471f7acf19ddb9a080b9ad6429442a7df0ba0dfe0d175f127961e9d19b246
++  __AUTH_CONST.__objc_const: 0x90 sha256:3efce815bbb44cd900956b13916ac93409a068e0a1465c55f76c942bbfcf5947
++  __AUTH.__objc_data: 0x50 sha256:f7b81e6474762b892fc806ddd84ff40949f8c7ce58b9e95d5d895d8a4b51d583
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/ControlCenterUIKit.framework/ControlCenterUIKit
+Functions:
+~ sub_2a700cac8 -> sub_2a7044ac8 : sha256 1accc28ecaae6788c78555309652143df1e2473fa586769221817329397277e4 -> 984c6259d8f2bc9625a42cd8c9538443a84295b3b732156135491a57d0c77ae4
+
+```

@@ -1,0 +1,39 @@
+## TextInput_pt
+
+> `/System/Library/TextInput/TextInput_pt.bundle/TextInput_pt`
+
+```diff
+
+ 3532.5.3.100.0
+-  __TEXT.__text: 0x7c sha256:57998c49bdf4ad9df812e0cddc01bb27791aadfa639ab0fb9d15cfefaae14c3e
+-  __TEXT.__auth_stubs: 0x40 sha256:f51d60657b7d510ff360a7ad6f7fd0a891b85f8b3c56bf48f39a396eacad9ac2
++  __TEXT.__text: 0x7c sha256:d4e41312deb2aa6d07d8744f12bbce1f4021cb5daad7e9e71d2341b71e81bf56
++  __TEXT.__auth_stubs: 0x40 sha256:a0d572fedda47c5d09fb5adb60aaf2414d3cc0fa5f4483940db66947f0fdabb4
+   __TEXT.__objc_methlist: 0x14 sha256:df5c96f836d2513cb21940ef885f22916de79e6deb588ed5467c833d07edf8ae
+   __TEXT.__cstring: 0x2 sha256:24ea1ebd0bafd39482db46ec2d8959e61353a90efc072719e1308f86c3a106ba
+   __TEXT.__objc_classname: 0x23 sha256:4529888e7e06b4dcd4225e30ab7a18e43ba5f691f7005424dd15f4c7743c18b5
+   __TEXT.__objc_methname: 0x36 sha256:ecd30507b10d900875d68394b80f360960ad45b7d3c01ef75fccd024d293771f
+   __TEXT.__objc_methtype: 0x8 sha256:f800facdcdbe56f6a2a8ba11e9e3d4c2a8852b2cef57d7b935bf3d348e3437ce
+-  __TEXT.__objc_stubs: 0x20 sha256:a56b11b923c921a1dd022c7f7e86c499c82123e41fd41ef3da5b28c00dcff3d0
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:8fff3b087e7c7b66dc8e71c11233a78f06990e2e0fe19e57c646d7eb7d311e59
++  __TEXT.__objc_stubs: 0x20 sha256:8a78b44b36b6253be26371785235172df1744a32bc27dc94e9e84bdb0821da3d
++  __DATA_CONST.__objc_classlist: 0x8 sha256:d8572fecfca05be3bce180d0d81dfabee79b6bd8deb4d80eb8efeb1bed42bbf7
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x10 sha256:317d2c48f3b13326722aed33d8b1d6ea083ee99abafdc5cef233a672dc32f4d5
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:7de800b58e00b9b57490f0cab5fb09267adddc02c2d98a04dbaa6bbd56b18a8f
++  __DATA_CONST.__objc_selrefs: 0x10 sha256:c49a5fffd514173715c0c7a7cbd38ebc392107f3c5a90d4ae280f139938b9481
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:f2054d107c1bdfc8ffafca4112f318ff0158868a7dd5701bf03fa96230c6b9c5
+   __AUTH_CONST.__auth_got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __AUTH_CONST.__cfstring: 0x20 sha256:1a717f643a698235c7aecf324d1a49982085c25f0de34cdb36e72f3ad295d6cd
+-  __AUTH_CONST.__objc_const: 0x90 sha256:e199262349165c69a24dd81d9e5082b1bea7120a4a7d966086938f11fcd719f6
+-  __AUTH.__objc_data: 0x50 sha256:bbb8deb85d4d20c8ec17972db4b76cd9934126b3f7fc864e7b4aa0734b51f5f4
++  __AUTH_CONST.__cfstring: 0x20 sha256:bebe609b46def89e1a610de698d007da9f492a32bbdee262c72de76997e7e792
++  __AUTH_CONST.__objc_const: 0x90 sha256:46fa25f3a999aa3b9800d63193f0f76a7f915cb83053b754d36ea110793d3073
++  __AUTH.__objc_data: 0x50 sha256:5f2d4ae41365c84b94620405decdb02d4e058de102af8353f98dbd33a56669ac
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/TextInputCore.framework/TextInputCore
+Functions:
+~ -[TIKeyboardFeatureSpecialization_pt nonstopPunctuationCharacters] : sha256 57998c49bdf4ad9df812e0cddc01bb27791aadfa639ab0fb9d15cfefaae14c3e -> d4e41312deb2aa6d07d8744f12bbce1f4021cb5daad7e9e71d2341b71e81bf56
+
+```

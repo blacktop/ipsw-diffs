@@ -1,0 +1,52 @@
+## WiFiLogCapture
+
+> `/System/Library/PrivateFrameworks/WiFiLogCapture.framework/WiFiLogCapture`
+
+```diff
+
+ 1175.1.0.0.0
+-  __TEXT.__text: 0x72c sha256:20eb99e369d6e090222ef190955b7abdecd0611fb5b8735a04c637966006af68
++  __TEXT.__text: 0x72c sha256:db89b4c5811acbbb1f45c3efaf67eee683a31f5e9fc95b045173f7461d871839
+   __TEXT.__auth_stubs: 0x1c0 sha256:1b8663c257a3f7577bfc41a8ccf54c702fc468588d5ad1ca61f972b170997806
+-  __TEXT.__objc_methlist: 0x74 sha256:814d0274bbf4beec054583a6c0bb87ca741c5bc4ce950e2efa5d89601086fb38
++  __TEXT.__objc_methlist: 0x74 sha256:4266e62a96651804a69b8514135c86c4123804a0bc856b1c06d4d025e48d5913
+   __TEXT.__const: 0x58 sha256:ff5fb85724c71ac4df2cb52fe32625e313949989a2998e98df645b0f6c9ae8c6
+   __TEXT.__gcc_except_tab: 0x30 sha256:2173c9344b908cd56fb5cd7efffd5006d6ad38f80c21436350f06b2ab84b1708
+   __TEXT.__cstring: 0x20f sha256:3bf8b95dc077851831f178420d9d1d96b635b6fea04dc98f22cd7b2e3c921c0d
+
+   __TEXT.__objc_classname: 0x13 sha256:a288eaf43fbd455e66451fabe6167171807e52893630f8f59423629c7778ff6f
+   __TEXT.__objc_methname: 0x16a sha256:0dc219dab7004568936294d5acd92af44d6d16fac32288ceabc2dfbed3f04d2e
+   __TEXT.__objc_methtype: 0xba sha256:7e9c0630841f6fff53c808332d010853337a626812caa408818f05faa32162c8
+-  __TEXT.__objc_stubs: 0x80 sha256:a02205506eb362306bd75c9d6f7c84bba1352a84c47beffb192995fb63662cdb
++  __TEXT.__objc_stubs: 0x80 sha256:0eb49ce511b788dc517983514f40dd021546016ac2e59c9c394140f3b75cfee0
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_CONST.__const: 0xa0 sha256:c2c76b088cae93e6cf2163eff860b44a52c198d646cdfdc24b6856b71c7b25bc
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:e8686d14cd94a2d6de5f63a92860b837099b2bd55fd5838407153e95b8e41ee5
++  __DATA_CONST.__const: 0xa0 sha256:ca5a317c153f33a134d85562078c85cf8b7e92a60c92c39b18327287d108d522
++  __DATA_CONST.__objc_classlist: 0x8 sha256:24a2db72df026bdcd86452bfe09c04894af0edb0d83e934c1c343188b53e26e3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x48 sha256:fdad5965533906f8fc22c8432ecff51be44fc65ecb8870ac0a4879da4ba3e794
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:cbbdb999615587b8194e46bdf3149017b653c9d16426b09a4504380604e9e0b7
++  __DATA_CONST.__objc_selrefs: 0x48 sha256:d1b1254582a34e5050ed896faeb52b0f28843adfcb0399023f987259812ffd1f
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:c28c925b434b752fb1830784fde1c3b58d2da7c86a4c37b3ce8188b96f93b368
+   __AUTH_CONST.__auth_got: 0xf0 sha256:2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:340d2c15fd8c496651713edf718cb1ecf134f673cc5ee9f30bf7930ea5ffdc44
+-  __AUTH_CONST.__objc_const: 0x110 sha256:389e7e853b1b016b2db6523fabc8289cee53f46959b83ca0349b76cff44812a8
+-  __AUTH.__objc_data: 0x50 sha256:5830e0f56f683ab95c6bc4decc5b44c9df68724da8b01c7a580556898a10d7b8
++  __AUTH_CONST.__cfstring: 0xc0 sha256:47545333651439414d0c67740a148c51a8ac33f44590b7210f8a7a67de0a1e08
++  __AUTH_CONST.__objc_const: 0x110 sha256:74460b60e97cc239e1ffa394dad75966abf7949a3d14e78e4c449c99122f6257
++  __AUTH.__objc_data: 0x50 sha256:5fe5a86133fa5683b3e23bc0c1a2f13b5b09205d3d222c5dc19e27e37160543a
+   __DATA.__objc_ivar: 0xc sha256:2e5c9862856b0c6f8e0cea23282dc6a269bad2a2cc34aa0668a8eeae66326835
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ -[WiFiLogDumpTaker init] : sha256 a3373e47a0df595ff2caf52b6a7baf93918512c3345ed21b87a1a4462c55b822 -> b7fad87853f94386b30aa4aeaa3c7925186c46d94af97527a1b031776950d6c6
+~ -[WiFiLogDumpTaker handleConnection:] : sha256 8428ab6a0778c80da85675253eca89c45ca5075391f3c4db4a81991e2f1aa3ba -> 728a347ec0206daf6f2a3952d7d87f637073b1d71ed3f4d337fdf7488e434356
+~ -[WiFiLogDumpTaker XPCConnection:] : sha256 ce79b703e4ad507645ee02aba124c895d50e94424eb5676c95faf3cb5f0a6e2f -> 53adca84e7e87d868e235f5e758ba566fd15f7182421d98fe465ed5d71e3e1e6
+~ -[WiFiLogDumpTaker takeWiFiCoreCaptureDumpWithReason:callback:] : sha256 2d30088838056966d87a90cf5e8ad2a39f63193e7b7dde6c07c3fa893a520ad9 -> be991e8af6b684664f812d376ecdc8799923f86f8e2e5b9463ff5d563d37806d
+~ -[WiFiLogDumpTaker takeWiFiDiagnosticsDumpWithPath:reason:callback:] : sha256 e8cc7a3e8131888d0d57439768648674dfadd33dad7d4910545a6572f6488940 -> 8fc35189044ec9d161b9baadbe9ebe7f2fa3f94f62fe28905400a486d2289ee1
+~ ___68-[WiFiLogDumpTaker takeWiFiDiagnosticsDumpWithPath:reason:callback:]_block_invoke : sha256 578bb581c3de53a8044fb0003ac88fb12ac521970af1da0d31f733763e7d2f1c -> 6c14340b0b99812d115d9ca8d7f7a23da267521604b3fe0c3ce4b487188ad0bd
+~ -[WiFiLogDumpTaker takeWiFiDiagnosticsDumpWithPath:reason:shouldTryFallback:callback:] : sha256 af934534faa4f1533ec7560bcac5d35e92766cbddebb728740539743897a4989 -> 2d9354b095ed688a6bf20571f4ae14af6ab38d1e7f4450cd7da55a907c57628b
+~ ___86-[WiFiLogDumpTaker takeWiFiDiagnosticsDumpWithPath:reason:shouldTryFallback:callback:]_block_invoke : sha256 177672b4c7b7c729640ed88be7c078e148e23f3a69922853d9079c97e5d6176c -> b71f62f81c161eddbea100e09c268d0ed504dd928f18da53defb16cb7938f51a
+
+```

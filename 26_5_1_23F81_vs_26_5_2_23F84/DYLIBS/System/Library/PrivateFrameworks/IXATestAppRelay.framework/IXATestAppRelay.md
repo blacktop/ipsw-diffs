@@ -1,0 +1,60 @@
+## IXATestAppRelay
+
+> `/System/Library/PrivateFrameworks/IXATestAppRelay.framework/IXATestAppRelay`
+
+```diff
+
+ 3532.5.3.100.0
+-  __TEXT.__text: 0x834 sha256:bd7e271603b28fac20112ceab426c1e2be310b1634f6a384fbc67522419c7bff
++  __TEXT.__text: 0x834 sha256:c2b61a9b1891a842c8f242f2246028a3038585dbc25e9f4c71d3ddf27d6b9bf7
+   __TEXT.__auth_stubs: 0x190 sha256:286f12cf0bec39f50ab50da1c19682935b8040599b215c21c23159fdebdfd2d0
+-  __TEXT.__objc_methlist: 0xac sha256:848f1f00dbbf35ac7dc806b3b4ab1d75113f3e23363292b9f6fdec2ce36d421d
++  __TEXT.__objc_methlist: 0xac sha256:bf85bbb7975cc64e45c38176778ecbc3b142806e51fed884fbd840dfaef7cf18
+   __TEXT.__const: 0x10 sha256:820c0c402ea61771b639c5f013f25b1e7ca41f6dc8f46762033daf35a6c80a9b
+   __TEXT.__oslogstring: 0x79 sha256:9b87d49d7f75a6ebc4b7237ce1edb14fbbb1ebbd3f428cc08265bdbc4b7306db
+   __TEXT.__cstring: 0x64 sha256:ca6ab3621c602ed053b5cf6c9326f52b5942c4af34bc2593a5a8374199194a67
+
+   __TEXT.__objc_classname: 0x30 sha256:e02edbd01805bbaf2b8eeb80e92291fe78d13cb7ed3d39a663d8245652a2fb3a
+   __TEXT.__objc_methname: 0x1cd sha256:539f870dce8d207fc83ecbda89d2bd1c1922210212a32775da093f4b460a2088
+   __TEXT.__objc_methtype: 0xf2 sha256:1af04bc03bca5140ecd4d0ab32c42fe39b9607eacfaf5f3a37e734dc19e6e095
+-  __TEXT.__objc_stubs: 0x1c0 sha256:6a596b9b8bc97a3dd70a6f0c84facd0168f12c4fbc9116b326ab32512607989d
++  __TEXT.__objc_stubs: 0x1c0 sha256:ee14cf92b465555abdb0dc3647bf7b2119a3b7864b4a745b30e1fae6f875dba6
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_CONST.__const: 0x50 sha256:bec1b590655368dd2ace5cc1d8c7ce4aa39794cefe8032105557d1227e6e4b94
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:fcbc6a144d010027c938ced5ecdf7c6ba9f8ffb880d2837794d4c5b005a91df4
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:3d6e8ea70391326f2c21fbc27f553c458181f9752db1d2375281076d227dfcb7
++  __DATA_CONST.__const: 0x50 sha256:1819ed645d74d5b8c7373f01e46493b5309e1fe5fd765bf6b3254a7dd813c5c8
++  __DATA_CONST.__objc_classlist: 0x8 sha256:0e4915bc450322c71c978d56697444979f609c3d1f46c3b75f6c65c9502a4e10
++  __DATA_CONST.__objc_protolist: 0x8 sha256:0ca70d216fe7edfd5c8d3923f96f7a68934f8d9964ba458dbf2fb30bf3c1ec01
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x90 sha256:60bfaca8efd97f8125d62eaef5c21e641f4321dc2fa1ae0f32ae4233407a0e63
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:a31d8f9dacb5c63a3e62da19a40b077a1f2dd40a1168f9abab9e2921909a2024
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:fcbc6a144d010027c938ced5ecdf7c6ba9f8ffb880d2837794d4c5b005a91df4
++  __DATA_CONST.__objc_selrefs: 0x90 sha256:48651d4ae428d74ea2af6c46d21b48107780f8c312b519543d252fd6fd97066d
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:efde641f23a0f8fa54e52355a1326e0b376ed7b8ef4728f48f94c526f2ec9d0d
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:0e4915bc450322c71c978d56697444979f609c3d1f46c3b75f6c65c9502a4e10
+   __AUTH_CONST.__auth_got: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+-  __AUTH_CONST.__const: 0x20 sha256:2b1f5598939ec0067e5b0a15bc0c512d74e73ca3d41e7fae82338f510ff917d4
+-  __AUTH_CONST.__cfstring: 0x20 sha256:d337b6926245a227c31d1201bc8d6ce276ba9741c8f96d04f71663293162255e
+-  __AUTH_CONST.__objc_const: 0x100 sha256:a1e38813f0d5883119bf4fa0250ea3f246ba4c65efe15062852511bf8e1ec34d
+-  __AUTH.__objc_data: 0x50 sha256:974490ef7cf592ef18040ccace3ac59ad0bf42f3784b38f031b1b0391811c230
++  __AUTH_CONST.__const: 0x20 sha256:a8804e13bacca9da6b0c941aa39f271775a3b31e639e8beefdb32af443f700bc
++  __AUTH_CONST.__cfstring: 0x20 sha256:e5eb6c56abc76979e4cce8f1f856c814e6550b97733c8745cd66948e7205d5ae
++  __AUTH_CONST.__objc_const: 0x100 sha256:cf11fef5f495860004714848b1bcfe289e1fdc1e64457bbcaefff340d36484f5
++  __AUTH.__objc_data: 0x50 sha256:a526645bbc8ef76c1c7ab1319d32f538f362e85155db3c3c1983b9025ab56e00
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+-  __DATA.__data: 0x60 sha256:20aa77af642e85a7775ceab2d3424662d44ba448c011b8c9f5e9d3c3af662a07
++  __DATA.__data: 0x60 sha256:774081cbf07c37ce9311901515baf656e7d0ac0cd33edae768a11b3fbeb5932e
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+Functions:
+~ -[IXATestAppRelayClient init] : sha256 ea857cfccfd75f2210bef19e603a9c4bc1ade79790fdf3aa7ab9567dddc8f423 -> 80bf1414f38194f1bf19f1a8eb284fb7da298fa96180d552a3c7965945c43bd8
+~ -[IXATestAppRelayClient dealloc] : sha256 3f9dca3f7bd26358607593afc28aceb5d2cd1a490c41096ad0d39731b4791e30 -> a8950079f3ab19e80494e5a1f756e672c73d304e86414eed238dafc9994bdb79
+~ -[IXATestAppRelayClient _initializeConnection] : sha256 be079f0dc2657fb156026e27e3cfcc05642e68aa1526da4d14b9ce67b0735a63 -> 34295fa686e47f26249743d81f14d52796e26070c2681da8a8926c6ff27a5976
+~ -[IXATestAppRelayClient registerEndpoint:forServiceName:withEntitlement:canReplace:completion:] : sha256 4adacd4122d592ce87c3cfc7a037e5c4fffd993ea0058befa9e0a0036cb505e9 -> 70e8770433137576369fadff1984aed8b841d54d673805fcffff92b5ae6cbc55
+~ -[IXATestAppRelayClient unregisterEndpointForServiceName:completion:] : sha256 1f8a55ec25c0b7b98f4743ece0bf52b49e6839859f7dd418addc8826c62f1658 -> 1dfbccc2bf48734612c0ceeefb698366500524ffc558280eee93f71ab0269965
+~ -[IXATestAppRelayClient fetchEndpointForServiceName:completion:] : sha256 f38c49fc03fce89a82892020b6c810e225cd7911d324603cc7596c7674656112 -> 90147f1b13bbcafe2ff3b058fe90a69750507d9ee07ed927ea1705fedae544f0
+~ _IXATestAppRelayLog.cold.1 : sha256 bbbe548cf016dde23e199eda71bb8984d6ad06af16dbe2357f4baaff4eb40a18 -> 4af0cce81493700ee2370af49d43ac727f4c8bb6081c87a3720b493ae655e378
+
+```

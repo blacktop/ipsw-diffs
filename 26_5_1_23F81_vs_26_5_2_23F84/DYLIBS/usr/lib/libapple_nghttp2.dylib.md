@@ -1,0 +1,35 @@
+## libapple_nghttp2.dylib
+
+> `/usr/lib/libapple_nghttp2.dylib`
+
+```diff
+
+ 37.120.3.0.0
+-  __TEXT.__text: 0x100b0 sha256:9b51301a24103b75fb280edc81255dd928f772ff1868f2cc5a7e1c66c16c95f6
++  __TEXT.__text: 0x100b0 sha256:03b9fe77755a2833d3fc383cbf815ea4d9b8da4acb08ea70c9ca71be8fe9e0c2
+   __TEXT.__auth_stubs: 0xd0 sha256:cb46cef2af0355e15484a97b01f0ffa39e27ddca399c4a31e87ad5d8edd59875
+   __TEXT.__const: 0x5860 sha256:b372ad6619518f82d3648db5bbade7ae1c7e439ec593dcf398ff8694aa97a3ea
+   __TEXT.__cstring: 0x2022 sha256:3a291adfa01ef60a126641baff3241630522a2cfbfe70779409c87bc9e97d329
+   __TEXT.__unwind_info: 0x320 sha256:b5f0e4121a271bca072fe77d62187a5239afbc9f121d2fa23e0370a28954fc00
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_CONST.__const: 0x1ef0 sha256:12f8ad34a51f865693b7f3b3c9215014ba4e739f427f5f35add702bb1f93f56f
++  __DATA_CONST.__const: 0x1ef0 sha256:fc5fbd2e645a8128aca0ded726c157ebdaf7abe6930c9c7c550b05fd0b00fcbd
+   __AUTH_CONST.__auth_got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __DATA.__data: 0x18 sha256:b68da6ffef20ff9c40f1522604a1db1082317e1d8ecd679b9cb331ac249a0cc5
++  __DATA.__data: 0x18 sha256:5f9d830a299077fb23a05b393f89c0354da02a37eb956f39d4dac00a9c99d6dd
+   __DATA.__bss: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __DATA_DIRTY.__data: 0x28 sha256:8d2661a1230c25c6058113142cc9ddd489e1d1d5d67a734d0f937ea1d9c735f0
++  __DATA_DIRTY.__data: 0x28 sha256:6f2761aeb2d385f8b46608e60b1b878c3feebb827c8b03ff13d57667585c4ae0
+   - /usr/lib/libSystem.B.dylib
+   UUID: 3C5D59C3-B9F4-3CE5-885D-3B6A061B8FCE
+   Functions: 299
+Functions:
+~ _session_new : sha256 7930a21e9645de270c831115ed8ada91cc8e32620575c1c16453c82046523ab8 -> c599eab1afdd9cd570b77e70e01b0e65fa62a8cccbd829bc6c342b73efc700d0
+~ _nghttp2_hd_deflate_hd_bufs : sha256 368c68a83b724497ea6a3b5b0f2194d0483e9b5dc7ab98221a6f525a66ef51d8 -> af24d5f7a23786e1fceab7ce88ab58f4935943c49951c3d895461f8d024d0361
+~ _nghttp2_hd_table_get : sha256 5da7a357ab6782c625cb2fdedb8e81297eb8447ffffdca0c27d094462a922b5d -> c65d94555442c64c6b6a04db462beb48daf0afa27efea703e3ca299bcb879940
+~ _nghttp2_hd_deflate_new2 : sha256 adcd96ef0a08ca0a0768857db4cedf62330ffb4c9434ff159d84e4fe7128db12 -> bd62e1d0329a8a98935881ff9cebf79e4efbbe51bc2bb785cebe0e990efb7e6f
+~ _nghttp2_hd_inflate_new2 : sha256 d8f6477479c542e31d2aec80280285dd3388e227f6c412c07b8e7079679e2086 -> 492a132acc78b1ca38dafa0860ae29114f016d663262b27a4cfdddfab4a5d23d
+~ _hd_get_table_entry : sha256 30daff7bac14d36e944c046bfbba5433fea13a379f2f54a0b69c8e362196c14e -> 5f568dc73f4f8fd470aa1abfa3c3b18516360523eea2170dd2e431232778b63b
+~ _nghttp2_http2_strerror : sha256 a42b4955afc4baa1fd7c6fd572f91958c3b9b42c5b1448ccf0daa3ed072f9f80 -> 77b0f7a3da4973282849d13cc1cd5fc5e876d8010228edfcdc92d8bee76697c7
+
+```

@@ -1,0 +1,50 @@
+## EnergyKitInternal
+
+> `/System/Library/PrivateFrameworks/EnergyKitInternal.framework/EnergyKitInternal`
+
+```diff
+
+ 422.6.2.0.0
+-  __TEXT.__text: 0x73b7c sha256:11d2b401971a24ff28347fe9314c92aafeaef7b93d11f5f3d2edd8ac87839fc9
++  __TEXT.__text: 0x73b7c sha256:edb46be641246f6c8a4f38b6fda9ba14bdb17d8597ae3fe651ba566196e74443
+   __TEXT.__auth_stubs: 0x1220 sha256:e60320eb1e50cd056b39d8aa002dd85f67bd2fcf9e80128ba7ab73bda1579e6f
+-  __TEXT.__objc_methlist: 0x488 sha256:7cd82713ce690ccdc01ebaf6266006628286255c912f259579ff0b38f760a9b7
++  __TEXT.__objc_methlist: 0x488 sha256:3224fc059435ea0966cd932e7b4bae6c727bb64d5ac226671563430608f4e0b4
+   __TEXT.__const: 0x1fc0 sha256:d643694b3c732989fdf6b860032ded52979c5bbcb708e421f06571341cf80550
+   __TEXT.__cstring: 0x1611 sha256:8319fa0e360101e1ae6d9c6cccff3c64c416ebbb7dc4f410fcdaec051436929c
+   __TEXT.__swift5_typeref: 0xa2a sha256:cc03688ce30f1940c5bb074bb063efbaf9aa1b0da987964bae5ed1661564449c
+
+   __TEXT.__objc_methtype: 0x1666 sha256:d0cb9e95aad6fec2ccf84e105ba22a51ab7d210b5475452bb53bb83a6e122157
+   __TEXT.__objc_stubs: 0xb20 sha256:c93bcd72ff25a5e3e7b8b381759b20ed8b67f72f3915e14b7afdf1995aa2fd99
+   __DATA_CONST.__got: 0x318 sha256:52f033ec34066343ced3a1bed745100fe4efe6577154125a6d9483c6b482219a
+-  __DATA_CONST.__const: 0x158 sha256:e52dfdc06fc886bc4e85a8ba104a1ecb9861d2aaf82004e616401013bab25cbe
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:807d08db45652695474b7864e171683fe75fcba76e135f3750f603be1064bff1
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:e48402b57929a05f6e45fed583b69b173c5d4d40e4df1d7f5076fa44f5e465eb
++  __DATA_CONST.__const: 0x158 sha256:d1ac8e6fc600e6783ed92b9589a3c556a63f83c3d585fbadcfb9eaf63caee284
++  __DATA_CONST.__objc_classlist: 0x38 sha256:7865cce174c7ad43d497b538b896f1f1f7efbfef6cbdc5d9b2300d9704d85fc1
++  __DATA_CONST.__objc_protolist: 0x20 sha256:17a2875ffd1449f4cea53ace48dff00727c717fa77f70ec202a3c285991064b0
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x378 sha256:51e3ee4091a9bd64fe236c86adf491d125a6263f64fb3b949a308cc3b9aba6a6
+-  __DATA_CONST.__objc_protorefs: 0x18 sha256:08eac901d94e68666e132483649d4be25da5665ef5941cba2d63621ea1b93ae3
++  __DATA_CONST.__objc_selrefs: 0x378 sha256:5c0d5c9414a74a87bcc87f5ffe9408d4b12bceca18715f93948da373d60f80c2
++  __DATA_CONST.__objc_protorefs: 0x18 sha256:116d5c8bf2dd7cb86dda29eb880d7c72c82c6ec18f59847edcc346017ef440ea
+   __AUTH_CONST.__auth_got: 0x918 sha256:36a6e54200c16cf75a5c6d92708b5dfa9b19130726ae417f3853b46434787221
+-  __AUTH_CONST.__const: 0x29b8 sha256:ec5159357ba21206edf9b3a56e3d7a6a7f9567bb1edfe3d7e2906b6a36f04986
+-  __AUTH_CONST.__objc_const: 0xf98 sha256:8e25633558ea1b68ace119c1da5a5724c758e1a585a20aa94dc997a6f4e181a6
+-  __AUTH.__data: 0x4c0 sha256:36e6fea323e4e5b7186dd545d89daf1d3ba3a3820a7c3a85a680557da86a9263
+-  __DATA.__data: 0x498 sha256:f6df2a251d936938f0c04cb0ceaa8892860f544700245ce6711075fc6740ef01
++  __AUTH_CONST.__const: 0x29b8 sha256:539c844743e3220323486c04f043bdefd932b93bd6e0c4e090887312b2120b5c
++  __AUTH_CONST.__objc_const: 0xf98 sha256:bc8454e2a9f34c8c82a973d7d10db5e8fc81d09893c0c7cc903bd7ea3c2f341f
++  __AUTH.__data: 0x4c0 sha256:ab9af1a53d1fc0b13f179e54ec923f639f2ae3655e95b8e2d8e8c0cf43bd7394
++  __DATA.__data: 0x498 sha256:a874390c91fd486e9ab483fee0d8d221d200cf02f8df7af66d73b3207d8415f1
+   __DATA.__bss: 0x1280 sha256:373e58db31dbad517dfede6bb84a58f4f7d5bf03630597ca677658b8bd136106
+   __DATA.__common: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+-  __DATA_DIRTY.__data: 0x778 sha256:5565e00d0c0d4915a38ca2fc923456ea55541042b3e7742246ea19b78f206588
++  __DATA_DIRTY.__data: 0x778 sha256:481a49fccbfc4026d8a390c37376eeef25c2c6a053dd6806521b38ed1137b1e3
+   __DATA_DIRTY.__bss: 0x280 sha256:9e132485d5107211de325a45e7917cbe3e4b5b9cde3e4ee91d7d2102317759ee
+   __DATA_DIRTY.__common: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+Functions:
+~ _$s17EnergyKitInternal04HomeA13XPCConnectionCACycfc : sha256 54bfde0a05a617d960b6397cae0e80e336c89b6003464c3e337ba7c5dda8d4be -> 29bcc40e1cb2f10819e665f96f291a5ee8b3038460b5666b56401ed15d46296a
+
+```

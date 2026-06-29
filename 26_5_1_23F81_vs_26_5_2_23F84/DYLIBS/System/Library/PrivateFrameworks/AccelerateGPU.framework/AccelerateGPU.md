@@ -1,0 +1,35 @@
+## AccelerateGPU
+
+> `/System/Library/PrivateFrameworks/AccelerateGPU.framework/AccelerateGPU`
+
+```diff
+
+ 35.0.0.0.0
+-  __TEXT.__text: 0x40c8 sha256:767f20b41e495116f783faa8956cb5a5ad725abca059e4e049c1c31bd4a383e7
++  __TEXT.__text: 0x40c8 sha256:52e403f01704b9c297010125f02aa1c4f35e91125ebeeeb55b465e31224b1b90
+   __TEXT.__auth_stubs: 0x1e0 sha256:08847198a92115209bfb2d05620a570a89eaa28ce8ac3bcc1c7652ac5b56cc11
+   __TEXT.__gcc_except_tab: 0x83c sha256:f5e3c64cfcaae8f9bfd666d3544c7190b44c3583aa7a0219ab259375790b4510
+   __TEXT.__const: 0x58 sha256:78fb5cc629ad5af6159bd060c0e42ff70d37d578c8b8596960b59263694c3733
+   __TEXT.__cstring: 0x82f sha256:2297cf122e213c0a4269ee528d5d2becefd1fe1cd3a08285e80900205b8132fc
+   __TEXT.__unwind_info: 0x190 sha256:ac02ba6c9c1a09c02852d053ace449e1006805a29b97fa3544f62bdcea426da9
+   __TEXT.__objc_methname: 0x3ac sha256:3ebb8bc3bc94344c2c114cd1af351c00dfb35b9e45b86d3289a490a7270ae8b0
+-  __TEXT.__objc_stubs: 0x420 sha256:b739750deeadae7aa69e02e511d44e46d15b16e92cc25d0c06da0145b8500f28
++  __TEXT.__objc_stubs: 0x420 sha256:118766ae31e9f97e8cb4cc3a81a6a591059634e6b8c10962706a402127bf798e
+   __DATA_CONST.__got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_CONST.__const: 0x28 sha256:60ba0c1403ed75507d963a87d7a94f045a1ffecad96854a620f81063a892198c
++  __DATA_CONST.__const: 0x28 sha256:9e4aa8ca1eebbe3b68b2130a0b9551d3f7bbd78dfe54433632be16e0b349947b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x108 sha256:735bb0bec2e9810316af91fc6109fccc01ce9b1a366ea8613ff2d7b1a4bc810e
++  __DATA_CONST.__objc_selrefs: 0x108 sha256:7094ed61b46ccc9add1ff46a3fcd6d50ad30177bbaa7777411f5985bd31fca2b
+   __AUTH_CONST.__auth_got: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+-  __AUTH_CONST.__cfstring: 0x6e0 sha256:e9798f6f3307d208584cf5ead591809f91c472cdf2f96ee307eb8b52d5f97465
++  __AUTH_CONST.__cfstring: 0x6e0 sha256:ab86610aa504d86cfe94a13986a6627b13ac009fba17be83fbbbe61ba7810bc9
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Metal.framework/Metal
+Functions:
+~ _gpuCreateSession : sha256 b32c7c84e24b815e62fb392ec2d00a40888f8fe7becf2330d554a7a76e0a776d -> e9fcf14edbc910fb176b5e74d3fdf0befb563cb111f112600d2679c2b86f0b85
+~ _gpuExecuteBlockEndWithCompletionHandler : sha256 7cba8f690dd478c1c9d07d360f559f95a645f15817d3bfb4f7302211c4e8feef -> ccbd1ade3135638401a6f9b25f63240e63d147bb688d52eadd12310542e42009
+~ _gpuGetLibrary : sha256 5d8b9726b452cfdd2f8a1653dbf0142ae03981c2c4b7d38f6ea1609e33de8e33 -> c8083e91f86108d099574716d3e33274eefe5dc146be23710700e8235957438e
+
+```
