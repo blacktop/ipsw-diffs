@@ -1,0 +1,22 @@
+## com.apple.iokit.IOPortFamily
+
+> `com.apple.iokit.IOPortFamily`
+
+```diff
+
+ 85.0.0.0.0
+-  __TEXT_EXEC.__text: 0x84 sha256:2c5acbf6a50dbc8a64e0dbdd167639430cde227aa1d6b3fb8e7eddad92f1030c
+-  __DATA.__data: 0xc8 sha256:c5400dea79ef05ba15e5b9e172d093725a7ba2dbc6fe7e4ad4077abd04a90c95
++  __TEXT_EXEC.__text: 0x84 sha256:0e4449ff1cbcddf69d68de54c2333599bd0cbabb5132a964e7d20c555465bf5d
++  __DATA.__data: 0xc8 sha256:88d222b1fc1dea166435384777b4732be5ea85482be55c2437115396c3cff455
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   UUID: A9B8CB32-9858-38D1-A8E1-4F5C9A023D5A
+   Functions: 5
+Functions:
+~ __start : sha256 34d365ba3367da6789b64804647f55b36867ee562b656559ab82b20827b78029 -> ebd813f1b098a50bf0824dc6ef3e5135df5fd4e3185711209810ba7d09609ac1
+~ _OSKextGetCurrentIdentifier : sha256 fb9e65f19964b4c66597280d2cd06671eed0706c42eb84381f62cf36161166d6 -> 7cf449d4ef219e3e98b7b36ad3407d53d6a1e0f7ae11e7f65470ce9eb14061f0
+~ _OSKextGetCurrentVersionString : sha256 733077a14104d4a12e76d2bde24d7978ba793f5addc122d9d1b1ec70d31f6369 -> 58b6f9780ce21ed4c994302d54d491a1e88f64c89ed066c141e4560245c4d613
+~ _OSKextGetCurrentLoadTag : sha256 d4c3fbc4bedcabea1b0d6a60b7a25f9ed93e93177ae615ac15422520f4f01d86 -> e21b5ba5aaf12fbcde29789259823fb8356a9bfab8aad0ccca401ee8253733e3
+~ __stop : sha256 a621963204e3dcc97f9247098556d7fd52f780fc845168aa478ad0bb77262334 -> aa48c00de54b0bcbba9fcbdc4cbcff0cbda5b86772053c7bfd880abda32630c6
+
+```

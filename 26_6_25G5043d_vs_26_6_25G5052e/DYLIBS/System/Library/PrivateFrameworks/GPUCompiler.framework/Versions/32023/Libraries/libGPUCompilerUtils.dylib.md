@@ -1,0 +1,38 @@
+## libGPUCompilerUtils.dylib
+
+> `/System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/libGPUCompilerUtils.dylib`
+
+```diff
+
+-32023.885.0.0.0
+-  __TEXT.__text: 0x4c30 sha256:cb3507565c05b6865175e6acb7ac59c6b129dd24bd94a0c7a4a9d96068149a7d
+-  __TEXT.__auth_stubs: 0xc0 sha256:4fdfb993a5ed4f1c169f9c975529634ad78563b29d9c171b7da5bd3e334a7b43
+-  __TEXT.__cstring: 0x15 sha256:ae017b6d04fe11803259bb9f10844a39898235484c65ee639b34ac2a16ead73b
++32023.886.1.0.0
++  __TEXT.__text: 0x4c30 sha256:8647064696f30e1d185828dc733d2ac37e2acb57812c5d917403d22076d16d1e
++  __TEXT.__auth_stubs: 0xc0 sha256:8e4b05ea24236eb7ee65ae399131710e7833e2da365b55d746630d0c6eac5f46
++  __TEXT.__cstring: 0x15 sha256:ab7a257737424483da3217b953245e58f1c7cc766d6608fd4cca7c665d2ca559
+   __TEXT.__unwind_info: 0x98 sha256:deedeb825529e3d5a8d8c1c50a035e8663c7cc52101897086919eafc4d6d96bf
+   __DATA_CONST.__got: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __AUTH_CONST.__auth_got: 0x60 sha256:041829f22d2288af128df954f69b1441205a9c3fe205d22f70ab8eff1320b421
++  __AUTH_CONST.__auth_got: 0x60 sha256:a29b9f0bd5b6005e002c5230077de778fe81c0680d885d344299fc61beb3018f
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: A61C6BD2-7A5A-3771-972C-171986218244
++  UUID: 08424839-45C1-360D-9069-3DB7CCE0F043
+   Functions: 20
+   Symbols:   21
+   CStrings:  1
+Functions:
+~ _MTLGPUCompilerHashFunctionScript : sha256 fb9d6a284b955d8f984e8f69bc0d8e379c43ab5dd3c95a1111be79bf613e88f0 -> 7006e5220a0c9ad39a83504b630f2c8b742293fcb0b2c832320c9ae75118ed2c
+~ _MTLGPUCompilerHashComputePipelineScript : sha256 50e2d62ac888dc9e47af3b2d8e54c33bb7af40cf398ab0649f8f19b70575ee4c -> a8a5bf06556a1ce9f58925f589548217f3388323633915aa940884f5a756a4e9
+~ _MTLGPUCompilerHashVertexPipelineScript : sha256 6f7f76bc9831b6fcf542663fea84ab2d9466473b4a666544b84c51c6044a456d -> 95f3517b1b0975d97319ba7f8c62423693dee8059d988484e4c6e4344e94c953
+~ _MTLGPUCompilerHashObjectPipelineScript : sha256 dac44c955b3b6553da62a20030c91e103d82dfcf6617fb6acff8d1a00f232a0f -> 5913ac297afbb861d42beb01bc32f755e905ba4e395b91199cab99c2423d3614
+~ _MTLGPUCompilerHashMeshPipelineScript : sha256 46e9d6c7296c4ceb0d13d66f0fc4f52bb519707cc01af1f35afd16e0aa3a2660 -> 0290665c3c0c8a941da206446ea03594cdb7e9661166ef34490a43174c8c75a2
+~ _MTLGPUCompilerHashFragmentPipelineScript : sha256 a6f9917d0126f632c16a73d3e70b1d433191e0a0809e9af170a7b0733b5e490c -> 2e66ad69b043f0f588ba51c99e3be618b98e21d877b3226785c0b33ec15afa88
+~ sub_2446df3a4 -> sub_24473c3a4 : sha256 76b6a6f4452cb047d831c16b194208cd3937639e2c224315e650360e9cc63113 -> 2b4c5aa3c24c42632734936e81ffe93e12448c4a3dfe09dd1289d27e60a85c8a
+CStrings:
++ "Jun 21 2026 21:23:33"
+- "Jun  7 2026 22:08:30"
+
+```

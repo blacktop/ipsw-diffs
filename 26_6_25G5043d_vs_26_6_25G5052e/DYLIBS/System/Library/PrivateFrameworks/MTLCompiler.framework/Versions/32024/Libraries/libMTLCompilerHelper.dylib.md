@@ -1,0 +1,44 @@
+## libMTLCompilerHelper.dylib
+
+> `/System/Library/PrivateFrameworks/MTLCompiler.framework/Versions/32024/Libraries/libMTLCompilerHelper.dylib`
+
+```diff
+
+-373.3.0.0.0
+-  __TEXT.__text: 0x1468 sha256:c5941e130bcb99882f921bb30ee602b7acdfb9e501dc6c37986fb88d6a3fcc15
+-  __TEXT.__auth_stubs: 0x1c0 sha256:47498a51dd68b48f66466c0f43b6c119b29c705f33a76f681ff078af44d89856
++373.6.0.0.0
++  __TEXT.__text: 0x1468 sha256:144c6fa84c66d1590a9990ad36a55ffdd3fba215c4b77585b3ef8f6408c3d0ce
++  __TEXT.__auth_stubs: 0x1c0 sha256:3e2ad7b1ffa71ff936b6bd36586448ea0d6971f0c03019a6b79ee08cb53fb742
+   __TEXT.__gcc_except_tab: 0xdc sha256:df14c5cfc94d30fd5bc1122c0019b15b898742537eaf094ec9c5d71cd00b19a4
+   __TEXT.__cstring: 0x28 sha256:e59ab43a2b580d495d43d6c76529ac8abe02b1bc4e86b063ba19edf151ab0374
+   __TEXT.__const: 0x73 sha256:6e71b3568329313b34f89f2363b33d97ec506de401e8d96350dc850b83a43774
+-  __TEXT.__unwind_info: 0x118 sha256:b40f90e738d9f597b8a4bec563caf0d15540a4125fcd22ef7235fd548b1fcf9e
+-  __DATA_CONST.__got: 0x30 sha256:9099a7f3619a3ac966d44dac3fd8394ea8e6a4d5223f86945c446b19917bfba8
++  __TEXT.__unwind_info: 0x118 sha256:b84d0342c91d5ae40fb9d20a7eb181045dc6fffaf930df9b208b17d4633ea1e5
++  __DATA_CONST.__got: 0x30 sha256:b05b75ed605db5a686e0669f5c2ede146ee302d2660378c958144e7bb9ffa3cd
+   __AUTH_CONST.__auth_got: 0xe8 sha256:0325f17ef9d65bf44a62903447a6bd7c9d9ed7d4c5ad6edb91d102524cb72ec5
+-  __AUTH_CONST.__const: 0xa8 sha256:3a1eaf0e233daa561ead5d736bdc0c63325efe634cae5a22fd8ae17b5c13e40a
+-  __DATA.__data: 0x10 sha256:a770705f15569f4a5c8cc7764ab801cc89436c2289607c3b4fb81ad141a78840
++  __AUTH_CONST.__const: 0xa8 sha256:6bc2b93eefd23e1d18bacd464e9034f072c53ce93f7e304a0cd7c125150a8a4d
++  __DATA.__data: 0x10 sha256:5994436ff360471a3e692117607aefae86fdd156e098c0110afd95b8fe50023e
+   - /System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/libLLVM.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 761B539F-CE81-3CFA-B0EF-DC509DFB9C18
++  UUID: 61522B0D-2179-3408-8945-567428E19327
+   Functions: 38
+   Symbols:   96
+   CStrings:  3
+Functions:
+~ _createCompilerHelper : sha256 d047ecf9d4b69e2e0e9c4cf4bd7be16fa33c46c59a1630f13392e46a8a910ddb -> f9e7161212141fc70964efda0c971f5e3fe0db865578368520da8d19d92ec691
+~ __ZN32MTLCompilerBuiltInFileReaderImpl22getBuiltinModuleByNameERN4llvm11LLVMContextEPKc : sha256 a856c545114503242cf326b6bbe9feaef4075612480d25a06ee65e53a999a3ff -> c83b06006657faa2030b2718bfb58bef84f0cc44b5e8fe413cbda66cf0d25c79
+~ __ZN32MTLCompilerBuiltInFileReaderImpl17getBuiltinsModuleERN4llvm11LLVMContextERKNSt3__16vectorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS8_ISA_EEEE : sha256 8b76bc4e556ad12f72796d3b745c40a3441ff3c6dc81ba1312ae07c56cab0e6f -> 804e55e1668866eee71c42dd9dac017576f186b8abd71874c64bc93cb1526da5
+~ __ZN32MTLCompilerBuiltInFileReaderImpl4openEPKc : sha256 4fa8e618f81520ba94f50a45910ff0ddd84fdfbc826efa419da7156d434d336b -> 4d69f366b2939f7f9f1363fc4c1ac0066303c2452f48ca98ef1b5f1520b9a65c
+~ __ZN17MTLCompilerHelper21openBuiltInFileReaderEPKc : sha256 1900cfc6d90033627df25f956e26b4b084fac0bfd76b83ef329f5681eecb9e03 -> 159201769ad7a87b7523ac333d83ebb1bc870d3ff05766deaf3b77ac0ad1d80b
+~ __ZNSt3__120__throw_length_errorB9nqe210106EPKc : sha256 23f07944d17210aa22ea4e1f9c7d25a4203889ad487a82263d1cb819b38a52d1 -> 0749388cc9bcb1f024e90480e3a6d75027e0dc2827a4c91a04fc8a8a1e17f71a
+~ __ZNSt12length_errorC1B9nqe210106EPKc : sha256 d8569f8e908b1833b9d215d3a253658eca7929a9bcc25c8c002992ec5c10ebf3 -> 242fa3996c964e82a68c229fa66cc0b2547e1d273bf93149f78747a1a8bf7782
+~ __ZSt28__throw_bad_array_new_lengthB9nqe210106v : sha256 4c1df7a2d33f4d8f3cfb859b1d173d2793faec09bff91d9ef18065413013dcb8 -> adaa2c13f5a4e010a8a0c89d7fb3c771e7e08d2b2596f1b504b78e0941acab51
+~ __ZN32MTLCompilerBuiltInFileReaderImplD2Ev : sha256 9cc3622078364fa874c1954943446b753fe7ac944d119b2a286bcfe332269f7e -> 6b0a9824152ec96e41cef272e7320962967b64175484c397635854981383c420
+
+```

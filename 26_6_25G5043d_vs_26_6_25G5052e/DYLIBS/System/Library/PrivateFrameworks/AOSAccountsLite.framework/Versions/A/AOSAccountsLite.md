@@ -1,0 +1,64 @@
+## AOSAccountsLite
+
+> `/System/Library/PrivateFrameworks/AOSAccountsLite.framework/Versions/A/AOSAccountsLite`
+
+```diff
+
+-210.575.3.0.0
+-  __TEXT.__text: 0x95c sha256:7e5dc675aff46a48eb67009184e19f13b6d9be638e318658cf349972ccf1c812
+-  __TEXT.__auth_stubs: 0x170 sha256:760de6b23431727075f71237e7a5df17af2ccd5795359a82ace4af97d00bbd0b
+-  __TEXT.__const: 0x50 sha256:bbd8ea346e1636a15d94d33a9e96d9e9877712f61b0774c35c64b2ec4adbecca
++210.600.1.0.0
++  __TEXT.__text: 0x95c sha256:ae72ef44b1a6d88dca07047782c83f94fbf0fb5372a056da8da2111b47a4b926
++  __TEXT.__auth_stubs: 0x170 sha256:88ac571106c07c6ca6a48705729814e9bd633089cd9a381cd60ee7894b8be37a
++  __TEXT.__const: 0x50 sha256:02d78056e756af0ffae89b52092a66d2d9defb58294a0ea2d75075edcc186916
+   __TEXT.__cstring: 0x16c sha256:6b607118ff97d28657ed22e06b4137f5a7762745a145c45124a848024d7e531e
+   __TEXT.__unwind_info: 0x88 sha256:f59084341b8a2dec3ee16eecdec53b5a83049de45ab813fb1dcfc1aeb11bad13
+   __TEXT.__objc_classname: 0xf sha256:c101709fbb6efc15bbd9b96060def63c96471e1dc2dfbebf546954021e055200
+   __TEXT.__objc_methname: 0x6e sha256:ae04df0f12be00ead325fa374a20ae15941ac930724621e1662b173712421cc7
+-  __TEXT.__objc_stubs: 0x80 sha256:6b33a5e2e278777005f3f4bd9e2838eabe2a151d20e495bc3486a168af158ea7
++  __TEXT.__objc_stubs: 0x80 sha256:1c401093b13483ba95edf67a26ad2f9c5727efb551e387f90e06f12c7fe70d60
+   __DATA_CONST.__got: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
+-  __DATA_CONST.__const: 0x20 sha256:e35d152ca1bddde786188ddccf142e48ca306f49eb99cbd1c28bbc569c094380
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:50f134918d1881a8dc956eebd4f84dc18951be38bdc855d13454716d525e6325
++  __DATA_CONST.__const: 0x20 sha256:d87a61394c9e18392c4818fed01abd04a7ee2f56dbeab9715c7728d186b36c04
++  __DATA_CONST.__objc_classlist: 0x8 sha256:bfe89be432bd7d76ca626594d60357e12e18fed087853b5add26d9c23a2607ca
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x20 sha256:bbf126c6533c96f3e03c13e418e983ce0018134da6c6722e2515ce58331ead0d
++  __DATA_CONST.__objc_selrefs: 0x20 sha256:29f52a9fdc9cd13658a3909fd7c2a171f4f23089f27f459accbdf34ebaa2db1f
+   __AUTH_CONST.__auth_got: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+-  __AUTH_CONST.__const: 0x50 sha256:f3e1a5c590dc9e551f6177c2aa8776a868667057eb13f95861146d8ecaa256d6
+-  __AUTH_CONST.__cfstring: 0x100 sha256:1800ea04aa52393420bb5e873bb9f20bfb722a11787dce43f6cddf77fefa641d
+-  __AUTH_CONST.__objc_const: 0x90 sha256:96c48c5d1009ef271b2d68ec7afee9eff630ee6ddf7021e492a7448eb87df805
+-  __AUTH.__objc_data: 0x50 sha256:afa413e7603405db465dcde0135d3b8d64a024701068721ceac01af050b76fcc
++  __AUTH_CONST.__const: 0x50 sha256:6414482e89865d3e15de4b387e33d92617689ae3b1f815289b8a9987931ae406
++  __AUTH_CONST.__cfstring: 0x100 sha256:87d205497d2c911dd1006110771fcfefa9f8261189a9de40354a401d15bee2fc
++  __AUTH_CONST.__objc_const: 0x90 sha256:e7eeed2f6692687a6eb2f9899c998922395e595771bbd3918bab0ed85405265f
++  __AUTH.__objc_data: 0x50 sha256:b19876391421d7f4c6638ed3cb5a043ae7b6badc24dd521ef4ca99d2c99b4fd3
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/AOSKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B6AB5669-2400-3421-8F44-7903E05BE89A
++  UUID: DBAAE9C6-1F42-3BE1-B2B1-DF098F55E343
+   Functions: 16
+   Symbols:   80
+   CStrings:  29
+Functions:
+~ _MMLAccountLogin : sha256 2480f1ad0d24bc7da7aea429d6096f38e75dcbc673fa5f3635190514092ae165 -> cec855f6c5e22d2b1a700998f74918fa04541b0f50c6f9a7e888c4a3605342dd
+~ ___MMLAccountLogin_block_invoke : sha256 09bb2a73916f8f8b795a971f12ac1066bf2eb0b0fd062b369914c646795d18ab -> b980d3f22280609925868565a6f9364d711585d611fb0383cdf31dbff9bea654
+~ _MMLCopyLoggedInAccount : sha256 57cac51192585177636ce36f97ab32ce1c1c46a1276a4b8d58a0793c580faaea -> 73695cbc7ccac1943a4ef6a72c2ccbae8526d1c2cbda06e03922f42ab1a372e6
+~ __copyBagAccountProperty : sha256 db2536c68bc7a09bc12e4d9f4066a2fb09b1b1e43d23f74f2eb8c9021fc4c1d8 -> a34037581cff5584892d9b525b2fb64fe9e02089383c8a7610e90ca5e52bb6d9
+~ _MMLAccountIsVetted : sha256 6984c36b49efabf550e6cbe51434cf0ed5f76bcf4588dec7b26513f4e0b4d012 -> c77e050bdef63cccf8343de0b40543571dda13e94c4999d6601c078ec21ddc89
+~ _MMLAccountCopyProperty : sha256 9665df819bb770419346ca392ea65a07c23453ff496e3c6ff6407c4de4ee0429 -> 9596ae5d8ce8def9f2758bb59da0d252a2b8e2566cb369c9f3528bb5c20825eb
+~ _MMLServiceCopyProperty : sha256 39be421d5ec836ad39196226fd8c3ddf5e71d80a3aeed1363f7053faf2e0ed1f -> 45a1c3e8f83a42ed6d78fd8bdd50b049380852cf3da7cb64e77e620820cd0bad
+~ __copyBagServiceProperty : sha256 885e0523bd834210c50c7377ce92bf94db67b871a077fb7e877fde86a5f2fe8d -> 2f3bccaada46a94c0509298cf56b70a584049d814370d593384c3d757e750a72
+~ _MMLCopyMailActivationInfo : sha256 4453c923c7d7b98f6dae563d7803817d51cd9546dd44ff780f26047f4caf9b63 -> e8ab685b68d10cfcaaaeeda1402f0733b9d0adcc6e99085de52d18860d6f72c8
+~ __getBag : sha256 a7b13090ae8e1dcb9f0f63ecc10765b918a5fdabbee998a667a0fae7d2ad9117 -> cce221aab83a41c9899e262ea74a843f03c1d43aeff53aec50e5d4a062f8d4da
+~ __useFullAOSAccounts : sha256 17da0977aeea4e3a33b7fb86588422e6edfa38878989c53e13884c7d172e96a5 -> 3d179d8c41681c59ca14281e1d55b86791fe43e3921a9fea35e2e50ded3f4331
+~ ____useFullAOSAccounts_block_invoke : sha256 c77a66d28f31ab1c698688236fc39a26d5778aa697cff25338a3fcbd51bedd5d -> 98626ba31701767194920308082d750037dc39da492edacd9a894d7258e3ee47
+~ _OUTLINED_FUNCTION_0 : sha256 888081b5d3b37a6397e735d95373466a96c58b53b48b2b07b4e4d27b06dec129 -> 9a9c1b01139a634029d0543dc05ee0c3cd0755130c133d6f3f1ec2de19cf1f7f
+
+```

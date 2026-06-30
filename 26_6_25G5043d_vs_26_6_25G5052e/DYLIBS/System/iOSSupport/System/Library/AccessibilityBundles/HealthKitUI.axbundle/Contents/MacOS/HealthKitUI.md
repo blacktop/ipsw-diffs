@@ -1,0 +1,64 @@
+## HealthKitUI
+
+> `/System/iOSSupport/System/Library/AccessibilityBundles/HealthKitUI.axbundle/Contents/MacOS/HealthKitUI`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x2a0 sha256:0b4a4d22b75b5ac54b66a64373a920c4f4732ad9a13c60cbc2095ced66b487e2
+-  __TEXT.__auth_stubs: 0x90 sha256:02c0d70136810bfc30ac3fbb950ed617284d1f6fc4400846c11ab4a8de22d9f4
+-  __TEXT.__objc_methlist: 0x7c sha256:be0c27850cc1ee95609dcbe5c3beb7a2d03bed1dadb53780085fa35d870fe3ca
++  __TEXT.__text: 0x2a0 sha256:dca548ae758965f394b3a18e367392dded6618baf369304f80c4c181d8744c31
++  __TEXT.__auth_stubs: 0x90 sha256:22d7defa79eb3ef8f0e8efe2202baca266f4ae605bbf12b0bcf27e853d1ab93c
++  __TEXT.__objc_methlist: 0x7c sha256:f672659ca11d991dd8eecf9c756da452ddcf8b1aa4f46e84f263f76275d71567
+   __TEXT.__cstring: 0xb4 sha256:88059e9a651d0e80116d04e2805860f89d28e416d258bc7b895c073908d4dd21
+   __TEXT.__unwind_info: 0x88 sha256:bcdac837bb3fb8d3be91e2f99f181be344394c4f4af0ccc2a61262c10002e134
+   __TEXT.__objc_classname: 0x67 sha256:f13d089905feed3423244177bc389dd57ff28dde0934741de376dd52fb3d303a
+   __TEXT.__objc_methname: 0x21d sha256:5b27d2a1b74c9a84d80dad640ace9b01c86ac3472e0ad39cfd1dce6bfe463408
+   __TEXT.__objc_methtype: 0x2b sha256:f2356df62a897c7866575bb6c989124adb562b0b9acd3a9b65ab6eac95485d48
+-  __TEXT.__objc_stubs: 0x160 sha256:3e0effeea0d8cf55beeabf619bed680a729498da09b8a275e9d6a67d01f887f8
+-  __DATA_CONST.__got: 0x20 sha256:d0d237ef6b143e7809ea88a77b5bb9a74f9b5c6bede4e68f724c4ba909d93d6a
+-  __DATA_CONST.__const: 0x60 sha256:cd88852ba9e0a71a265df1709e7078aabcf91e471eb3f7ca7584528c145e6744
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:6c4a30d7bb104c95625bdb27c20302f8bb153503395d986c7c28bb1fb6ecc692
++  __TEXT.__objc_stubs: 0x160 sha256:bedefa2fa46e00b7b5e62f869e1b38e4228ed18e06d783c3b16da367c9eaaa00
++  __DATA_CONST.__got: 0x20 sha256:65f33691b9b96b0dabe6d3fc3bc6f536de077a0d9aa8f4b4c049aadf5fef9eb8
++  __DATA_CONST.__const: 0x60 sha256:96cddd38e6da2c9690d763ac520ff14c75b0680957b6b1e4b8fdad0c8a6d3bff
++  __DATA_CONST.__objc_classlist: 0x18 sha256:a713b3a998b6c3b34aae51327618a58dc21f0776ac28a7f5c1e61b438c8af52c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x90 sha256:a8f000b047a62bf3e67b596e7896d62420f07fc7f2eabb9fa9cad4d1ad012e95
++  __DATA_CONST.__objc_selrefs: 0x90 sha256:7505341b0030f70e96564b9f57d35e59de2a3cd9d43aba8b058f51c0f741dae3
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x80 sha256:0eee76d1eeb83dae28f619c356b1770ceb7d6730e4fd38d87b83da63c157a2b0
+-  __AUTH_CONST.__cfstring: 0xe0 sha256:f6039802fe5e0092bd0a3d52a697b568fe4523d5cadaa7da336f0cec30eafcd7
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:8dcda4e3ea38c4456274fa6f23084aa3918dde98513364e7ef3facdd02584734
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:760d1d2ecf4d1de69b0e8df1fbed19e66ce31821a047bf6d8e1eb672d6ff9571
++  __AUTH_CONST.__const: 0x80 sha256:4a1a2bfc53eeaac80a96cd4540770a8a822989a9bb03b80824d9efd91e82ad26
++  __AUTH_CONST.__cfstring: 0xe0 sha256:4c9d45a9d565a54ae4d0e2fa335af7f47911e77c23a4f8cdcd9f888416468369
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:838dfb57d096d1532319d09eca8fc97ef1858c9ee0945f7a0f9767290007259f
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:6267c916e8fee19fc1b0435b3679686f4fd22bbffe8b6fc7ec9a1b4bae5e5a35
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: EA0774E3-51F3-3539-A2E4-8E49F2819AE9
++  UUID: FED4BCE4-1524-3D88-A3A0-1983C41021E4
+   Functions: 14
+   Symbols:   67
+   CStrings:  44
+Functions:
+~ +[AXHealthKitUIGlue accessibilityInitializeBundle] : sha256 2036e18fdbe9e34c8ced0e98b42bc72ea2de516a96d5cb2ae64d250330d864a3 -> b7ddb7ab4f85c3f47ac1c4d9ecb0aa91efe1d0c428472c6502df0e098b2a4ce9
+~ ___50+[AXHealthKitUIGlue accessibilityInitializeBundle]_block_invoke : sha256 6618af7f74e831bd0b1c56440adedbf2c9dab748550faaadf163a1ac30ffec8a -> 4acf9632dc8a0359c7abc8e2ab8b68c478b22ceb6868f2f5abe2a708001b0342
+~ ___50+[AXHealthKitUIGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 f0192fc76dee2348f8f0dd7043e5eeb33fe6a75931a586cd643072a27e16dda7 -> d05636285a70a8a1db2614e07d320283ceab2926f95639978a744f8a55cf7a86
+~ ___50+[AXHealthKitUIGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 4bc5c2ed7acd90f7593baede97062c6ed49ba3629d6040f1be74de743eb3c404 -> 699238752c4c8291eeffeff174cb7e8c33334f2fac053e6e4d61af556170cea2
+~ _accessibilityHealthKitUILocalizedString : sha256 1c0854ee9317c7c3fec85ad1a8d3fbdcb656a498319846edbeda6a81636948eb -> 5879008f4ce3f8715576d960a2e63b86d0e7608bc5976b64a1f990148b1198cf
+~ +[HKActivityRingViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 f2737232fb2425d82509a6bddf71540c7d649aa8842f1ff3c21a48fe5f12c0e8 -> 8ae71718d015bca1c313728135afb879190b0b125c67087f322473bfa311e33e
+~ +[HKActivityRingViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 669e334a2b067ce9b01d3a89f1cc98c6b5878a47b93eb15e5c657b9d6169e26f -> 95bec798ce059c3f564a78bd58d5d5b0d3f0a527b8ea538a343ba4a0d996b475
+~ +[HKActivityRingViewAccessibility _accessibilityPerformValidations:] : sha256 9a531a3e92049a302a2bd5f6308f25c1980092b9b9c1cbd2677a0accd1b16836 -> f5af18d53c0221456821467c00a3d46dc1edf8a802a5546969e8cad108843467
+~ -[HKActivityRingViewAccessibility accessibilityLabel] : sha256 1f782bfde85f35e12622bfcc57927a0f39754b30e5a24c802c33b68c1f6bbca8 -> ea298a66c2a894ca30c1e6b8cdbd2fe45309070d0f4fbc3cbf5250679eeb5a1b
+~ -[HKActivityRingViewAccessibility accessibilityValue] : sha256 2ddd7775c0e53cb9bf844e8f875503c226c3705cb77604d0a6ddd2dbcc689e10 -> 619c3fb01b0b20e0ce616210745ed79663a0db1c24f91aeb09a7d9c7ea39991e
+~ +[AXHealthKitUIGlue accessibilityInitializeBundle].cold.1 : sha256 579dd91f3625f7db6d5066a2591f5e8336af2290fd7a90cb9df5dca0c107ca7f -> 0fbc72e476681b9340e11aeb3e81df6c3f5ee6939fda9c590e80bf70c0c82737
+
+```

@@ -1,0 +1,89 @@
+## UAUPlugin
+
+> `/System/Library/PrivateFrameworks/UAUPlugin.framework/Versions/A/UAUPlugin`
+
+```diff
+
+ 535.4.1.0.0
+-  __TEXT.__text: 0x1f9c sha256:25a23aadaf91c43bde051a1963f4003789da7aac0422283cc8babe571d36e997
+-  __TEXT.__auth_stubs: 0x200 sha256:0fbe12e22c084868ae44877f252f8b2612f17d6d6ec2b6225ab3bc7d6fedaff4
+-  __TEXT.__objc_methlist: 0x3ec sha256:110be147b74b34e32ff47c7bf05c59595e491595516210e9f8ede68c3f3db208
++  __TEXT.__text: 0x1f9c sha256:fdb2f590caed90ac43f74d389a0eb778c4f2348f0bd4f38dec64a5a0abbc8ea7
++  __TEXT.__auth_stubs: 0x200 sha256:45e79240acb237cda7629657c8138c4b657df5b5f635ba7381a3356dba5221f7
++  __TEXT.__objc_methlist: 0x3ec sha256:c7ada0e3e74f2bfdb1f665140e2590be61520e784f9763106cabc9fa7039efce
+   __TEXT.__const: 0x50 sha256:db19d9671b53477f8f49e228303d47417fc86561456bf2a41358a2bc2ba93249
+   __TEXT.__cstring: 0x599 sha256:ca93cc47b6edb165c9d770a724c42dfa483a44e67c3d91373633ab1f530f8059
+   __TEXT.__oslogstring: 0x1c sha256:07e399d237ccbd1283055fbe2d25b48a36d435bd6b2d1286e9424aa6458e6e4d
+-  __TEXT.__gcc_except_tab: 0x9c sha256:b3b17c1638c9d0e25cf956eeab53492a2fc9f724ca6cf245cc4e77c78e9bd356
+-  __TEXT.__unwind_info: 0xe8 sha256:626eab8a2d6b011ed697ffcae1f65f8b21621958ec502ba84839ab10e75e5c67
++  __TEXT.__gcc_except_tab: 0x9c sha256:b71b408278666d20bcc7050652129d8b39f42e9474727cd88322716594f3559a
++  __TEXT.__unwind_info: 0xe8 sha256:ec3da8e6bdf99cd106ac0f583558684f6f6a3809c6ac41805a32db442f1da213
+   __TEXT.__objc_classname: 0x6b sha256:ce479bcb4c6c9f0d913d4fe7b85432fe5d614271602abaa91edc3020467554db
+   __TEXT.__objc_methname: 0xaf6 sha256:cbc64338e083825ac35aa5f8c251ff6d2191175126a7f8525def1071eff836ab
+   __TEXT.__objc_methtype: 0x220 sha256:05ba5d0b60c75cff1d4048bc2a62c69f0a4db81153fdfb23149a153fad878464
+-  __TEXT.__objc_stubs: 0x980 sha256:a6650acc620cbfcde2ec4c360baec3bb332de5f6af5cfceb9380d050e9498827
+-  __DATA_CONST.__got: 0xa0 sha256:5b37f0e1ee4266158387ba3dbc980540d83cc3bc70641662a0e905d4321610ee
+-  __DATA_CONST.__const: 0x60 sha256:fa9eafc90bbb7e78bd61f04b4346f36eab3f1dfc08f6b8cc3f1970f17129fac6
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:5508589e261b755486390a7208415178b38d50e0b7c7087202a2d10ec29af75f
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:578bcbd383adf7806adb410fd7554ff892f2d681c01b6240246863c3bed4012b
++  __TEXT.__objc_stubs: 0x980 sha256:9dcad33d3ac1aaaf474aed829414e06291b02e19554f9ab719c67cff7d93db11
++  __DATA_CONST.__got: 0xa0 sha256:c05a197090ce72e690614a03927b3f65eb010bac1c537a6a7cf9e7d6c338cf52
++  __DATA_CONST.__const: 0x60 sha256:e04f60651986292e7809b6530d12423bcbe8ed24d4fc69ef6f0f9cbe6bb57e2d
++  __DATA_CONST.__objc_classlist: 0x20 sha256:cfc21d88c5655491b903255812fb067e94c92b0317c1d54aa416368f1dd36d02
++  __DATA_CONST.__objc_protolist: 0x18 sha256:a7a19082829a51e3987c9e932276314729711318c74735609c37d472f2e9745c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x378 sha256:ddac1cf417f0a29597ffaf1193110de513d28f42987a131b44bd86caf27e1daf
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:cfbbc31b644bb21264f6466dafd62066bf43c7ac676b41bdf5096e1ca4a5058b
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:0c98ca7553c4632225816aab12e56267b1ce36af64b7126c351f008bcf4a12ef
+-  __DATA_CONST.__objc_arraydata: 0x8 sha256:b487b51fd7e931712435f6b87d0747bc818b66f416bd0ec6c1c444e4918ba8bb
++  __DATA_CONST.__objc_selrefs: 0x378 sha256:1b7528465d1ef3982d4a8f32a1244e2307a3e8c93e846eee32a8bd3119bb3a6d
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:80df7c93f4c72363d9d2aa018e83903ad359871e574c41fd483efb4049c85351
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:6f9654d6926052d3c3ab7ead8eaf8e0a82a4cb7b43b64493e2b816dbe7b9d5b9
++  __DATA_CONST.__objc_arraydata: 0x8 sha256:5dc207a1fc889859dd4aac9594de47d5f9be67528d2db9aca638c80cf0624c30
+   __AUTH_CONST.__auth_got: 0x110 sha256:e4d879a3407de578f579dfab4366fcea75a6649c683d9efe4f056f6505437574
+-  __AUTH_CONST.__const: 0xb0 sha256:ec8613d38da0df3d0c6da2f0bedb9ac44e6c3f82f47580961af0af7b78c121ef
+-  __AUTH_CONST.__cfstring: 0x500 sha256:faad0b614100a205d3585358646bf46569a849e95d3915f361fffa6dbef3353c
+-  __AUTH_CONST.__objc_const: 0x690 sha256:09650613dcf59a071bb010a65619538ab1444573e23ce4dc2c9359062cbc06ab
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:4048fe3a57de779f612779bb705284b4d363a4e682261637f04f908f386376e8
+-  __AUTH.__objc_data: 0x140 sha256:e11b74c309e080e68b0fa51d9bf0cbf903384cf4cbce6736588fd8bd26b1ccf4
++  __AUTH_CONST.__const: 0xb0 sha256:e227521ea47861aa7652fb2b08d0227afd5deb517e528a758b15260245988a52
++  __AUTH_CONST.__cfstring: 0x500 sha256:461c451434e2e12080cb7c77cbecb9e7f800671f6231b51c73729e543def9992
++  __AUTH_CONST.__objc_const: 0x690 sha256:2a779ec938853f52c12b8f91bc0927f527421c942325f67e6b875c915543ec7f
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:f547c723d3a963f4a320a01f44595b3b76477748a507539697c33e4e8f9f3755
++  __AUTH.__objc_data: 0x140 sha256:67d110b8a5e1efb0d4d19b7bcca488524c915c2eabd67af21d845673ea4414f3
+   __DATA.__objc_ivar: 0x3c sha256:a35bd6a71b56afe5a7d938fdfd0c28f1a520b051d8990544cab42584cbc515ef
+-  __DATA.__data: 0x120 sha256:92fee5970ac217ad801f33d29eb43a15114c5b4e9cc3baa2d1168979ca06c514
++  __DATA.__data: 0x120 sha256:9e0664ac5de1ef35a55237e6898af6d0aacdf9498500b221baf9a38b2061c7ee
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libDiagnosticMessagesClient.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7F205CFA-697F-3DB6-A817-EF1D956E34FD
++  UUID: DF8C1EF7-6A13-3ADD-A26B-B16B9E0577E4
+   Functions: 66
+   Symbols:   277
+   CStrings:  279
+Functions:
+~ +[UAULaunch requiredODProperties] : sha256 c984aece8e48ac7cbc313c453fd77adf7c7ce7f5b49163fdeaa9206087f79902 -> 9dee77a38fd2a66197ddbb02ffded827d941b3cd6f5ca20fdfcc7cb563860c5f
+~ +[UAULaunch shouldLaunchUAU:useCLIArguments:] : sha256 326729f8ee588ae9acae28459c4fdc77f368579df4ec0d19fde8369dd7261535 -> 2007519d31f85b3b39c0634abec794b9141beabd5fc9301a5c27ec114395778d
+~ +[UAULogging logType:withString:] : sha256 710d728001a187826380b4760b18963fa34b0ef6a9b7d1273d8ff0aa33667e15 -> 15aa123e2d9d3a746a862941021c434ab53643fa61dab5fcbd7550777afbf528
+~ +[UAULogging logHandle] : sha256 4845e9343ef64b9e3924174a412a7409e557474b14007aee075dd81264e076b8 -> fe60e1e74e6986141fdcccbbc3618e30fdd2975ee1813e7bc19340e84b2c747a
+~ ___23+[UAULogging logHandle]_block_invoke : sha256 1837619cc19e7be2d864d6d341be82092786ead66f5bbd0bbd191dc1d01fc738 -> 5161815ebc0a55d28b576cee40c7d93939f948787b5f49d18fef45d26f567876
+~ _OUTLINED_FUNCTION_0 : sha256 33beca6ebd94ad207bf19172b57fdd42e3e6d69691ce8c0a8456f60811bd203a -> cd78a923255a17482042357a31939f9d288b575c2360274229536af15683ddda
+~ _OUTLINED_FUNCTION_2 : sha256 d170a9cb4f69fb32dc4263d5bb7120ad660b04efc28809b3df06ef1dfb29de36 -> 5037314c33241dff43413fe12b354e9f43bde1e604eb92cde44cff5708e41df9
+~ -[UAUSession initWithParameters:] : sha256 f7ac68e46bdda7399fc17367e7e53d856b5075e3799901eb2e40b0dc6796fdaa -> 13599259bac7607842d3b27863aece44da13269f5ef7f590d28212f570b7b0ea
+~ -[UAUSession loadOnePlugin:fromBundle:withOverrideID:] : sha256 ca37b507cd0958583e68dc7ae9a19fb6b726679e9197c987b29adfcc0cceecf9 -> fdf6928202660bf4ef6febb123ff10c8b092d28c647ff89936424ce3f15f5422
+~ -[UAUSession loadPlugins] : sha256 667aba3239c47e7aba4912f2c4ef0e608b7c7f95d928026e00c63f3da81e9c27 -> 02b14beda3ffef128840db124f9cdb67d62b4ac589041d3e6424d3a8dd7161c6
+~ -[UAUSession runOnePlugin:withPrivilege:withCompletedSet:andQueue:] : sha256 04e49d0143e11970eeb6a15921654a7f7cf5bd6e1dde8ca1877eb71037d089ce -> d1c696ab6b77443e900e9c0ca8f455b1d7286a23d5de3ae8e267a4c7082de33f
+~ -[UAUSession processPluginsWithPrivilege:] : sha256 c8acdfe32fca139ff5c872f5830f8c920020a579ad311fb092cfaedeefc4ca4f -> 60f7cc96c2421e4f3004df21ed98946d47880d4c9459a13a4fc7e1ff8d891e30
+~ ___42-[UAUSession processPluginsWithPrivilege:]_block_invoke : sha256 1289aba779d3f196cb13c175d4b97475c92aacda5a4e9eed2249c63a58a3ac9e -> b27cb1e7681519bd66e5960f972cd14baf18acd2d48d554f2d0b431393146862
+~ -[UAUSession shouldAllowPasswordAccessForPlugin:] : sha256 ead74dbd0939c6a6587c9b15e80a0771b1a49e4c5cbb6af41de457977cc0d727 -> 17063a26601229f3f52c18aef642f23e30db31023d018a215e8d0f23cba62fb6
+~ -[UpdaterSessionParameters compareToSpecificOSVersion:] : sha256 94de8801caedaade14adb089b76ba8e58bf145b2319a3d547144d263c1ff9d4b -> c1b0ddbac2984e74da6c0500c9c5c7cbea4e3995a5626bd5c354b6baa9330091
+~ +[UpdaterSessionParameters compareSpecificOSVersion:toSpecificOSVersion:] : sha256 d9b8c7220f44267508042c280e0fcf3462844cd00de1f2bbb6ea931f4e0dfe9c -> 88891ee7920e1c1f456e821f77fed277ea3dff03b1d9de8edd628a5089a23a61
+~ -[UpdaterSessionParameters compareSpecificOSVersion:toSpecificOSVersion:] : sha256 136e6d8705201534dcb20c0071be16162f37f18e9ded32e0929d07d7868af212 -> fd405e7ce0847370b7a2c46bfd581db6e0a9b12a9372372e35a6d5ba629ee132
+~ +[UAULogging logHandle].cold.1 : sha256 7745339e2c42f174ac5004427bf87fed83aee0d798987a97ae048f634dc5e69a -> 6c356a08d309ae8c0afd1eaead306442c653d301c9d53adffe099c1d43dbdf3f
+
+```

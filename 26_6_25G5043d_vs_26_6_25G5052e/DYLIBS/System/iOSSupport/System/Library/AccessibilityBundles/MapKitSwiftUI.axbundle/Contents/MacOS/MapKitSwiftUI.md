@@ -1,0 +1,61 @@
+## MapKitSwiftUI
+
+> `/System/iOSSupport/System/Library/AccessibilityBundles/MapKitSwiftUI.axbundle/Contents/MacOS/MapKitSwiftUI`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x208 sha256:58f397ff003e9d6b0858b9a1cfc0eba02cb2a68f6bf15278bb84fa8e7b32fbd1
+-  __TEXT.__auth_stubs: 0x90 sha256:cdf95a9854a8c6657ee00c7fe0f0e669b13e35d6afbb155f34fe7d76e05001ea
+-  __TEXT.__objc_methlist: 0x5c sha256:5bdfeddaf70e09a77fa0926a005e90160d3b1d77acead5049b4e2d350b13965f
++  __TEXT.__text: 0x208 sha256:8a17784353bdd1d943fd895c48b3925c010001b813b07acd943f73e6821df92d
++  __TEXT.__auth_stubs: 0x90 sha256:a8d3ab6874ee1854deaeac6d910a5af95e89418f67bbb8383d66594d238a598e
++  __TEXT.__objc_methlist: 0x5c sha256:b55fe24436bfb70a5a8d43f7d1a980c70ce09f2e1b811b441d1680271400857d
+   __TEXT.__cstring: 0xc4 sha256:ef4988c46351877daf5c9bb19c1e462330832cde331de416843ad5b85d10abef
+   __TEXT.__unwind_info: 0x70 sha256:c7ce7093e7d965fd7cab3e5075ce57295c2a5b07e4b3a3f4f662c4bf18285e62
+   __TEXT.__objc_classname: 0x6f sha256:f1dc39e74359408da69947c7687f18abb4fa661f67ed7e228f64501346b78c60
+   __TEXT.__objc_methname: 0x1c0 sha256:99c8b11ea9dcdd14d26095bb561b91deec6e5c454bd10c3b5cf5c649f179b4ba
+   __TEXT.__objc_methtype: 0x2b sha256:fe45f65ec280fb7a73f42703aed9a39ca862c19ca7262693edd4bdf1324cec55
+-  __TEXT.__objc_stubs: 0x140 sha256:c7d4f14681a6a37b3c0612f46004fe660e32dee318fae721f8449fda142c42c1
+-  __DATA_CONST.__got: 0x20 sha256:7083861dd12175f49fa5ffa1b160ad238595853fa37959178ccf301150739fba
+-  __DATA_CONST.__const: 0x40 sha256:c04cbd1eb51307183ee795f5bf3df2d3f93947eb3112dd88f6354762011be96b
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:0921db837884f1f9c83b44cfcf6b35902513ee11bdaea56ac261e3f39bfd6588
++  __TEXT.__objc_stubs: 0x140 sha256:6ce75892a3ed3de39a31ab6b6e0d99b8becef4dc5a68524c20db2dac166cd0c1
++  __DATA_CONST.__got: 0x20 sha256:2c6e731db269531c491d3f6bf326b8e999d74f6e49bbd8eafe0391ad7e7d7376
++  __DATA_CONST.__const: 0x40 sha256:a8a26b6b5d6c839b56aeb215ee0b404fd27aa41391e9c752ff6525aa9088008b
++  __DATA_CONST.__objc_classlist: 0x18 sha256:5fa748932a4761481685cbfce5a5c8259f7a8d90cbc60b1924fa241464ea8de8
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x78 sha256:795e704eded7aabb306d9e4508451b4d4427db29f588642f59328b397b000bc7
++  __DATA_CONST.__objc_selrefs: 0x78 sha256:8dc5c0f27d28bf8a7023fed92cc3a04a04cb630e370f3999bb0272bd80c8afca
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x60 sha256:d06c5d430681af3351afb6229a96b37c0c0d1fd722a007b4b33e1f7d82bb7b90
+-  __AUTH_CONST.__cfstring: 0xe0 sha256:b70b3da75e50981c184f5e456f329623f1ebcb2ab78e7df17d436532be19bcf9
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:97f8d9d12b290e1b23ffe7535b230d9005d267db9d428a578073fb1f382d3b4e
++  __AUTH_CONST.__const: 0x60 sha256:544d5c9d7fb19bc5974cfc5f0b0e031aa145eee9204f356d92ec60864ce5be6a
++  __AUTH_CONST.__cfstring: 0xe0 sha256:f4e3cb986b28067bc576364992fd3da10908da46a306ff53ff8ec8334ff7e2f2
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:2eb0905a771ddc906932c05d185bd367e1c966f5167b4536ea3f3abfcb974fa9
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:b8f2909828f8fbf90481c93259515ab52255a4b7a0f8b9d96d8cf0e814a377c8
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:8d27480a1791b277493f16579158b03bfee2cc5bffc371ac57ae3b4e9360f140
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A9BEFDC2-ADF2-3677-9295-02878509AFE4
++  UUID: 197EF689-B55C-345A-BC27-A91152A3D653
+   Functions: 9
+   Symbols:   60
+   CStrings:  39
+Functions:
+~ +[SwiftUIAnnotationViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 c0f5f3639d1f5bea7ffc5e88af71c1e8cab6857db55e25b7757beb38ee40dedd -> 84cbd4234ac9dd09d0d46b685b3d7cc6957036026da2987d5fdf58b71dcdd2ac
+~ +[SwiftUIAnnotationViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 c173aa600badb9920f3cac51e53ffa53be3fa80c54c4ed887f5d10e6b30e88c5 -> 8abac61e1dc2644da89baf50392c27856945df24bffa68ec968dc761828c9f44
+~ +[SwiftUIAnnotationViewAccessibility _accessibilityPerformValidations:] : sha256 224a336ff066e4a35bc9ee4ca22a0d2172fc537600580b3eb98e53c56c0441c6 -> c7ac499c6c1ffdc4110ba941554a0b731a80be7e4acd75f46e4e92131af4519e
+~ +[AXMapKitSwiftUIGlue accessibilityInitializeBundle] : sha256 379e45fb8da817e9659314774bf1a600241b266aa39d99ea105804e707697130 -> 363df7e8011739ac72051a170bf46150370efba9a83a41f477829b1eea674305
+~ ___52+[AXMapKitSwiftUIGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 bc554b0d3c163158a6da4e733f4d94a67f2cdbf345ec2c8d31609b60e067b6f2 -> f84ed6178850e3b582c12bc395e40ec3d2117a52b0a9576c8805d6e36912f3b8
+~ ___52+[AXMapKitSwiftUIGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 c894b3b1b90bce18030fa42fe1b8c6dc5f3924d13986e75555eca78d327f52e1 -> b96d3a855524339329565cdd3495a070ecfdbe690c18d970288662142c1b26c8
+~ _accessibilityLocalizedString : sha256 cb2d55472124dfb5a5e26f6da1137a6f4fad59506b9cb6240764ef7799d39519 -> 11ecc3bde84a2e6074e8032e7b7306726b4b06795f068a1d19dac34a539f66ad
+
+```

@@ -1,0 +1,62 @@
+## IntentsUI
+
+> `/System/iOSSupport/System/Library/AccessibilityBundles/IntentsUI.axbundle/Contents/MacOS/IntentsUI`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x280 sha256:4f0459bb0535618b7755ad84100bda414852086958e656e734c801927d61036c
+-  __TEXT.__auth_stubs: 0xb0 sha256:8be695f6382ffd7e1dac8e110b5421331ec016a45c249a520bb679c7099c0499
+-  __TEXT.__objc_methlist: 0x5c sha256:feffdd9a645174d27d696b6ba0c34db1a7b3b60320031e2d05f42ac5dcfcdc44
++  __TEXT.__text: 0x280 sha256:279cd8520aa6c8b19b915282ea2ebc0878d1d8ffa5f8952a33798db2131dbb05
++  __TEXT.__auth_stubs: 0xb0 sha256:099cbdc832e832cd63f4bb7b56e776b05b0aa04455fc942f004304270b86af6a
++  __TEXT.__objc_methlist: 0x5c sha256:1df09255b6ec6226437890d9b6b9c6b123596f263b19214ccb4f7254421d46f8
+   __TEXT.__cstring: 0xde sha256:104f2e843064e64d942d56d33ff3d0868713dfacf15ae688b286dfdc8f2e700d
+   __TEXT.__unwind_info: 0x78 sha256:696bb0863681bc36257527651f388870be249f03ae9bce4b3d9f2e2e65791950
+   __TEXT.__objc_classname: 0x75 sha256:f5d24340eae28a0ebb4ba2260fb3eea651ab58c6fdf57fdff08ce686b2ca69bc
+   __TEXT.__objc_methname: 0x1f9 sha256:dd45d0d9522caca5631e9b195cbafab6b806841a84d26e35278a95245b6a1d47
+   __TEXT.__objc_methtype: 0x23 sha256:453a037f7b1397a09d5784a6f1b9d49c2aa4f4cf911d9a251b24c25f6a2672b7
+-  __TEXT.__objc_stubs: 0x160 sha256:96a246e1304887ced823303948ee0c047bbfbadfffce76a6eba8d29500268599
+-  __DATA_CONST.__got: 0x20 sha256:e3412bc2a52d546281b1ac2d1e00ef73090e06b5ac823bf4b7001a93d6a43be9
+-  __DATA_CONST.__const: 0x40 sha256:e8d64ffae860fed4b43072c570b56a9b2f56a2bf54476171a51c433f2f815193
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:cbae4e6edbb14489993741f34009b2342be8155d485a00ff7bf93e7c53d7126f
++  __TEXT.__objc_stubs: 0x160 sha256:9fca6b97f61fac04ba37c7a7f5668619fa68a6cd6b8148f047f30d56bb3bb050
++  __DATA_CONST.__got: 0x20 sha256:3c3d6e969443f47f2bbd09c9cf2d057c57461e82f81b54accfe3ebc02adc2be9
++  __DATA_CONST.__const: 0x40 sha256:edcb71c2b6117d0e8c6eb06b4de096b072ec72967df36c2021b3292dca2f8240
++  __DATA_CONST.__objc_classlist: 0x18 sha256:71feb67fbc015977101640fa9b561148a83935c5b29c0813694d686797014b6c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x80 sha256:bcc9613fc13a49e3795bd2ca8ae1eec83d34bd3157e001335073155bf807b7d4
++  __DATA_CONST.__objc_selrefs: 0x80 sha256:e1c096683a422accfcd5820843d8632a4ae1b8fbc69b1cd0a14705decd964628
+   __AUTH_CONST.__auth_got: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+-  __AUTH_CONST.__const: 0x60 sha256:c6cc63cc7848a5faaab843fbf2be42c8de5974f02da09e4f551352b644a87d7b
+-  __AUTH_CONST.__cfstring: 0x120 sha256:f69b844f14da18389ae2ecb8562e5903aa98fd080d518da7d4e72c73fda8ba86
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:dbc23090d6be196336b1692ced55354313486c77d9ec4915b2edf7686b08e32a
++  __AUTH_CONST.__const: 0x60 sha256:af72f79bc3b173e7a53ec8941e68f4a64a18a9d418f3e21809b1763ac4b93d73
++  __AUTH_CONST.__cfstring: 0x120 sha256:d9a18f4baa5d352096faba0dc38b68876a708072d87f74d7c845f16a18a28df8
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:782cd5dcc8d2fa512db22aee05946b55f2be3f934e38a3b2e18667ee70aa18a0
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:cbf50c01a6aaca3804b0d9439f32743a59f11d258d205b88641523b741ea2cf9
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:2e31147bc9cb5e64686468262d911ba499f37175e74d785b2c4824becb07b08c
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 47FB66A9-E5ED-3C0A-9F82-E9CBF93322E6
++  UUID: D4C3B779-C8C1-3DDF-9552-435C6D360537
+   Functions: 9
+   Symbols:   63
+   CStrings:  44
+Functions:
+~ +[AXIntentsUIGlue accessibilityInitializeBundle] : sha256 0e1ea221b81e01654ae020a43af3a9639febdc22cf86d836cd0f9344bbff7cd8 -> 2d010475415680e349613da25ff878bfa0f7d92acdf9098efc52294c477789b9
+~ ___48+[AXIntentsUIGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 bb6a97601550e107d7da355b1c192d4633e31c79491facb73f463233c2e8f10d -> c77335bd0a9f2b658742c0d89e82baf1b16045cf6ff987a4e58cf3a066f02843
+~ ___48+[AXIntentsUIGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 c078b80402f0ff24e8c171a3ccb52f59f38f8316210777c1b4c778bf1d11e158 -> 987b3ecfe760e00e0bbd3b3916c0897e0585e820a9a860bae901b1c25485e09c
+~ _accessibilityLocalizedString : sha256 bbeb959678e4a382c69b9c25cf5ef5e160829709398006555f0a82b9cf526577 -> fb5bce7b2ec7b1b40f6e3e50d617a790e216edbb0e9271a3a2a1a64b9eebd084
+~ +[INUIAddVoiceShortcutButtonAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 be41c366228bf6a85a94d577f4179deaa522223020dfb3e94ff7d0e599e30b3c -> 6743f50afb697200622c57d7c5ad7cfe07087944d6ed3b100440768cdd695ad6
+~ +[INUIAddVoiceShortcutButtonAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 b62bb199b5fd6ea78f5f813c36815080248a0a947a11bd36b3d9459860c76b67 -> 407dab357d2ddec4a532a01a6c3902f186b6cb1c95ccc465d59f5e83181e8697
+~ +[INUIAddVoiceShortcutButtonAccessibility _accessibilityPerformValidations:] : sha256 90cd408d937f99f5664c03ab81f63e65c5ad218175b9908ef0c606948c3bc4bb -> 1cd2f269e10e3b9aaefe004d6a95d30ea1b433dc56cf8a97f004999afb44ab26
+~ -[INUIAddVoiceShortcutButtonAccessibility accessibilityLabel] : sha256 7bbb57198e004a1af437881e6d290943d6a4dbe0a8e5ac98991fd3bf090ddec5 -> db7e4fa14610c93102b3af79f30f0b53a0561d4acbcbefbfe9fdaab64ed5eddf
+
+```

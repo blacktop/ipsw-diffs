@@ -1,0 +1,72 @@
+## ShortcutDropletServices
+
+> `/System/Library/PrivateFrameworks/ShortcutDropletServices.framework/Versions/A/ShortcutDropletServices`
+
+```diff
+
+-4707.0.1.0.0
+-  __TEXT.__text: 0xc0c sha256:68afcf59e917ff0ad52ca1ae8213382701623e919a22236b4ca52127e594ccaf
+-  __TEXT.__auth_stubs: 0xe0 sha256:3dbda9b16a3e1b889e5a76de166697ab72d7f830f3887f9507604873f8cb5616
+-  __TEXT.__objc_methlist: 0x400 sha256:b6c8ff37ade5e81fef9d7582f75beaa62c19e05323a093c001964adb1b51c9e9
++4708.0.0.0.0
++  __TEXT.__text: 0xc0c sha256:89d09e5d6b0b8af253e827d17e9fbf58470cd283cb26179b008065485a222b9b
++  __TEXT.__auth_stubs: 0xe0 sha256:04967a9ff945241f7f757ede9a1c3011f37937291ca3dc5a63f5db0da6f33635
++  __TEXT.__objc_methlist: 0x400 sha256:7e3baa5b8b3c62c15ec64cc2935d110a3b3ea613f73b9ba85aad8fef22b2b69d
+   __TEXT.__const: 0x60 sha256:0025dece63ee8ff4904f619c790ecf24e9e9457e6226093e26fd85ea776bbca2
+   __TEXT.__cstring: 0x1d3 sha256:81e1aaea3dd4dffaeaa448b0bc68282cc70b733518cfcd46b7938ff3b378e381
+   __TEXT.__oslogstring: 0x13a sha256:ea372b2a699b223198b3301ca518a73a8f22419e4d87ae36e42c35a268c02a26
+
+   __TEXT.__objc_classname: 0x5d sha256:e6457f1245652bd5aacceac2259f7d5e534d65f9a6ba1e2524e476edabca1e00
+   __TEXT.__objc_methname: 0xbab sha256:02d20e8ddb413d7a6df3041d29cada2ab72e3a9848fdf75ac5eb0ad8d1352e32
+   __TEXT.__objc_methtype: 0x56d sha256:25dcbe7a76987587df7d27be32ed987216873d3b9913326d9ff73c9169ed9281
+-  __TEXT.__objc_stubs: 0x3e0 sha256:b3097155aea96a2494ded5757927c72da40d7b905584cb198568bd2d598c1629
+-  __DATA_CONST.__got: 0x80 sha256:6d4f999ebdb420f3babaaa0576f6a272076b8a6af0be5b39e7d46d6f852a9e7d
+-  __DATA_CONST.__const: 0x48 sha256:ee2f501ec5f82c9b7a759b4eb9c88363c88fc3fc03eb5cad2d5ff6ccddcf72be
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:af170e68f69d7da125fb20f7cab9692304c1d824d4636336cf2f82b1c8e67bc0
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:62fe594779d35e174a9b477fa6f577e74f1ca45cab51aa6b3868e739fb0001e0
++  __TEXT.__objc_stubs: 0x3e0 sha256:a27c2a71d5649f16950638c57ccf394cefdef861e1dcab510d054a1dbc043556
++  __DATA_CONST.__got: 0x80 sha256:af6f0edabde41992217982f56806e8715c7339efa302009c71161da53b72e37f
++  __DATA_CONST.__const: 0x48 sha256:ac11c81666f78da1f9ac85b86b2386e2f1243e407533586f4481e6f6727f0089
++  __DATA_CONST.__objc_classlist: 0x8 sha256:9055a8f93a7a2a03bb4311c992351ee4cab52e09c6b910d0d8981ffb8fc1bd79
++  __DATA_CONST.__objc_protolist: 0x18 sha256:223077982a01456077ab8bf1843a16e82519be599f1a1538198f7a5c79ddf14f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x328 sha256:677f0c842ccc8055aa7f12a1246f68f1d87d7d3a36730acd184052ebd3cf1a6a
++  __DATA_CONST.__objc_selrefs: 0x328 sha256:83db4cb488746ac6fb227b4df42209b6be93ea22ef41c8855d40e6e0d079af48
+   __AUTH_CONST.__auth_got: 0x78 sha256:6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f
+-  __AUTH_CONST.__const: 0xa0 sha256:b4923d669359424219fec64f26912e9002f50c2bced40ba881b29673e60440a8
+-  __AUTH_CONST.__cfstring: 0x20 sha256:aa6a75164888a01d9426236a911a619eef8a960fcaad66eb7b950e78def42154
+-  __AUTH_CONST.__objc_const: 0x400 sha256:98678d30f13ee9ef0ba0b92dcf81498da9807808c7e311a8ab97021b20bdea9d
+-  __AUTH.__objc_data: 0x50 sha256:ba131924d09525a199441409814cd9a443124583820ce7875531bbb981df149d
++  __AUTH_CONST.__const: 0xa0 sha256:9f09ba709df60922acf2327442ba5c5c4ceebfc0dae5870a18bef2356714826d
++  __AUTH_CONST.__cfstring: 0x20 sha256:aa5a7e75fd024092abfa55c2cb97d38999e9b166f3a9fe7d6f6dd341d1269b19
++  __AUTH_CONST.__objc_const: 0x400 sha256:e4bc7bce83e84e133ab2afea5035b267f2ef5f239d96924d1f7ebe57e25e0360
++  __AUTH.__objc_data: 0x50 sha256:b66d6e54cd6b5dd7eb32678eb277455d5f6d3b26b5ac27abeb661663b2ad73cd
+   __DATA.__objc_ivar: 0x8 sha256:1842d9d60985977543496f68d38a01a5470beb95bdae33af49b8167ada489f83
+-  __DATA.__data: 0x120 sha256:5a4df78127cdb295e744a62ba5ec9557dc58c904237e3b50184ccb2cdbafb0fd
++  __DATA.__data: 0x120 sha256:89b7bd6a44e902bab315f5ce6d855ff1e51fe38c66818a9f617dc83fe0cda0b7
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/FileProvider.framework/Versions/A/FileProvider
+
+   - /System/Library/PrivateFrameworks/WorkflowKit.framework/Versions/A/WorkflowKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 642DE52A-A189-3A30-9753-D1EE4CB5867E
++  UUID: B792AF17-5372-3D5B-A0DE-59C1D95A9A1A
+   Functions: 21
+   Symbols:   122
+   CStrings:  180
+Functions:
+~ -[WFShortcutDropletAppDelegate showErrorAndExit:] : sha256 92cb3b83c7880573685867b5cb13706674021b5a4390055f0450f8268ab4d75d -> f9a15de8c0dfb840aa67fe5ce485832f83071641243a68abc4b563b0a26570ef
+~ -[WFShortcutDropletAppDelegate workflowRunnerClient:didFinishRunningWorkflowWithOutput:error:cancelled:] : sha256 6644e9ccf68f02e2792e92ca9b465e21821d1e9f1570cc077e0949f3f28c5228 -> 04f852f2a25b2a5d3253cf313815461548d40181496df5fac202cf1f0a744c4f
+~ -[WFShortcutDropletAppDelegate application:openFiles:] : sha256 7b34d969199b4d43524a42916e03618669bfc535a55b4a7603901d85dd7c48ce -> 41c432208946649db1a73479ea8b9b44fa39362090451330d02a1924dd3590b1
+~ ___54-[WFShortcutDropletAppDelegate application:openFiles:]_block_invoke : sha256 55bb690494f7de8fff4c7c75956b97fb27459cdcf36454161966f62836db6c05 -> 25bef2a760fc273d5474810fa40e30135d8c92eb874b6c9f59d395a6d4e8fa5a
+~ -[WFShortcutDropletAppDelegate runSerializedLNActionWithDropletMetadata:] : sha256 3626b31ccd90fe238ef4bff8b7b69dc12f831076bfae119737d3a7af405bb239 -> a31132f793e460b596fa1099cd7fffbb3d462d4497e2be09c5c4774a3c0ab291
+~ __73-[WFShortcutDropletAppDelegate runSerializedLNActionWithDropletMetadata:]_block_invoke.178 : sha256 2f86160866007a95630839a210119b2159b94ac27866d2c6a59facdd327f2fad -> 058eb8e5a4aa0d4286813a251f110b154bef9442c451a1c5919f260fb33fa714
+~ ___73-[WFShortcutDropletAppDelegate runSerializedLNActionWithDropletMetadata:]_block_invoke : sha256 c9a23113b673d16fd73027019f1b5911b9e2b039aab154cacc230bf048378345 -> 8936318f5896e0dec0e5e3d023c19205e9f8d1d10ed6c46a749a7f533fffff1e
+~ -[WFShortcutDropletAppDelegate runWorkflowWithWorkflowDropletMetadata:] : sha256 dcb72cc51df9f898bb61a128ca2e70fccc14af0f51f93e6f0979c5c585436081 -> 9bbbdfe10dc8135f335e19eb33479099b6df08341b89ffe139f3c312c343cf06
+~ -[WFShortcutDropletAppDelegate applicationDidFinishLaunching:] : sha256 99c198189de2214922401ad42bec9930dd937aae23afbc8f419caa7876d967c0 -> d0141884befda1fc112d32e5dacbbfe706bd8051a28c9ecc0e6ae366b24861aa
+~ _WFShortcutDropletServicesMain : sha256 ce97f0ac61e99d49de1e13297144564858a50cfebaab50bccdc00fa156422fec -> 37cd652ec28b73f55fbcf703e0855c0a3f58cee0928f334a5dd27f2b554b27a2
+~ ___49-[WFShortcutDropletAppDelegate showErrorAndExit:]_block_invoke : sha256 cd02d9f1db65813bf74c3f8ae47af9d0b0237ac64aadfc8471ba53cc3c8eb070 -> ac826f71a1ad129ede00e80192a7d264b3b4c71a91fd1e394acef7a5ec950c79
+
+```

@@ -1,0 +1,82 @@
+## DataRelay
+
+> `/System/Library/PrivateFrameworks/DataRelay.framework/Versions/A/DataRelay`
+
+```diff
+
+ 35.14.0.0.0
+-  __TEXT.__text: 0x17d0 sha256:c62030d594e916d633f493d086db99c598f09d0949654f98497e2d2c0094655d
+-  __TEXT.__auth_stubs: 0x150 sha256:0a6e07d03cfe9f2092d6e01e14fc199e30771ad05ba3355c2ef9edce88a3b27c
+-  __TEXT.__objc_methlist: 0x2d0 sha256:0607a2f152081c31c11b7736a3b18d057a537c8fd1f6664dccc7ec00a969e31e
++  __TEXT.__text: 0x17d0 sha256:704c455873064c181bc5bceb8d76d910c6852f44e7f58227b64ed18aa919d7e0
++  __TEXT.__auth_stubs: 0x150 sha256:66ef35ae022f4890c78978e633b81ac768379d792d7a7d316a88cbf30afbb18a
++  __TEXT.__objc_methlist: 0x2d0 sha256:abd3e6a4ccfbdd9ea1105208a25051b7cb1a4b88e671167ebbde126f1a0c301a
+   __TEXT.__const: 0x40 sha256:49c665ba05f6b7601fd0d0b215bc72c94f4f7110af3e81bcc8db83fea7af2358
+   __TEXT.__gcc_except_tab: 0x28 sha256:ba3e4ab71aadad84c1e7bbb7ef8b920bd03be3ea32f2baa56860b3b5cb220919
+   __TEXT.__cstring: 0x4eb sha256:1beb7687574784b60faed19904183b249ce9a398abae727f99fda7e44c9f8e7a
+-  __TEXT.__unwind_info: 0xe8 sha256:01cc4e1d25e49066d81fdff74a54b55b3217051fe510bc10149a3f99e5aaa20f
++  __TEXT.__unwind_info: 0xe8 sha256:61d37a755c67d8f904f30794b42b7c14368d07659b0e6e47cb40cb8871b1752a
+   __TEXT.__objc_classname: 0x4f sha256:6a16cfd6d929122b49ca3bfb24bf54acfc2612f51f6ed062ef9e18122d481459
+   __TEXT.__objc_methname: 0x9ab sha256:9a3dc83ad1b53cfb47c190e19e84af868a9c9023891e4c688a1913ce08af870a
+   __TEXT.__objc_methtype: 0x647 sha256:66b657298b36a8e218e112a170bbc3cbc56af4072bc4645596b52e8c32043505
+-  __TEXT.__objc_stubs: 0x280 sha256:73d9bbd6a6aa62e7f3b62ed4e920cb2074562c89044113efc27a5d492125b0ba
++  __TEXT.__objc_stubs: 0x280 sha256:83f8213ee51b7fa1bf99a7474c8066494a84189e72c5ba0c8e8f48ff3d0a59d4
+   __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:b434720582ea42a66ea6f515044574e93f7b377eaede4e1c8ad9b8c3bb5255b3
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:4e0a6165c0a17a159cdbc168908a987b59160f67f18d1f441e02e25a55bc3479
++  __DATA_CONST.__objc_classlist: 0x8 sha256:dafb201f5686ce9ff37802f9eebbbdd63d2c40368306574493ef17924a9d40f2
++  __DATA_CONST.__objc_protolist: 0x18 sha256:ef34e9639a737dd36a5782fd812679431ace3910ad3643b66dc59c094e20228e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1f0 sha256:5e69501180ff0b9341e7bcdac63cbf9e11f2518e6ad6405838aa3d4eadda16ae
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:6d3b1e06b2a5bd823c2cb739aa1e61e0f31522694eb1677d3895a1f28b023244
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:b434720582ea42a66ea6f515044574e93f7b377eaede4e1c8ad9b8c3bb5255b3
++  __DATA_CONST.__objc_selrefs: 0x1f0 sha256:92aaed72e9466003daeaf2f77b852dce935b817f711919cfa46054a8c26e832c
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:dc53cb5a2709d340e8dbba42fbd3bed7887179879c766308f08693346f40fee8
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:dafb201f5686ce9ff37802f9eebbbdd63d2c40368306574493ef17924a9d40f2
+   __AUTH_CONST.__auth_got: 0xb8 sha256:d81bfb50e59a9abbe66f6ae0c6b45c7b9c0bc6eead2cf982118ac4d62b6ffeda
+-  __AUTH_CONST.__const: 0x120 sha256:63d2dee193e6db717a58564f581b50319dc47012079a28f29374ce11281bd459
+-  __AUTH_CONST.__cfstring: 0xa0 sha256:d4023ef8e87bde47689df91b0399c679db14632d9fff03f2ee807386a9e4922f
+-  __AUTH_CONST.__objc_const: 0x348 sha256:2868dec978b5c62ed8cfa35145884fa3290931e0a560d658a7d18fadb335f611
+-  __AUTH.__objc_data: 0x50 sha256:b666167197a5cf1aeed912f2723f4230afef10520db06988592bc906193ac343
++  __AUTH_CONST.__const: 0x120 sha256:7d065ac2c877e610021b62e6f38b212f8c7f7691fb9bae5d65104bc0f4963a5d
++  __AUTH_CONST.__cfstring: 0xa0 sha256:dde1180a927c9abc4ad95873a191691549c11b4f0f6c98a0b142a0ad9c1e3d92
++  __AUTH_CONST.__objc_const: 0x348 sha256:2fa0dab18808a6d04f00a51a7ba429f63e382591d6b891ac125913a6ec9eec82
++  __AUTH.__objc_data: 0x50 sha256:73469cbfeda2dae8d5f3d92d9849109fe20a812eb8856eb002ac6398c65b6aac
+   __DATA.__objc_ivar: 0x20 sha256:94a2feb93a92d591e9bc7a42287ef7888f1352ff32088b202d187fe751bdb690
+-  __DATA.__data: 0x190 sha256:f5c71e0bd1dc6094b9e67efe6450cadb9d1f90ed47e1b8d71e07e019c7ddea02
++  __DATA.__data: 0x190 sha256:02116f287deb62f1eec7ab3696a98d3502d99da565f2b6e45bf2fa404cde2534
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/AudioAccessoryServices.framework/Versions/A/AudioAccessoryServices
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9416810A-0EE7-37F4-AF47-8E8D01DA1084
++  UUID: 5A7576B4-BDFE-35C0-830F-73C8F73B2EA8
+   Functions: 55
+   Symbols:   151
+   CStrings:  169
+Functions:
+~ -[DataRelayServiceClient init] : sha256 26acc79f3c967edc6aeeb7eec4d9d74ebaa62af9e563cdcb99013682332631c0 -> 2448b1861168d44c888b75b3e3af3ccf501241df4eee41abf78dc646c66adf7e
+~ -[DataRelayServiceClient activateWithCompletion:] : sha256 c1635dee72c99bd88fda78cc1f6c460231efbad2ef670183037a98f761c968bb -> e4a9e98db097a6dd0e81ebc1976f0e0f9674e02c93d37f257145edba5a48f23f
+~ ___49-[DataRelayServiceClient activateWithCompletion:]_block_invoke : sha256 0146c1d6687c14b7c39a369228fdf54faf66c8f58dcb876adfdf9377df681be7 -> 91231d8d0a95c80f55d66c957a824e9f9f335a5143f444ce3b22a2f6d0c1c2cc
+~ -[DataRelayServiceClient _activate] : sha256 0e742ba0f633cb72b9509e9075eb1097fe8432f59881a005a8837bed7dee834c -> bd9bfd6e6cf47709803088f528f8b0a60e102768c28faa2e55c26b75c512c939
+~ -[DataRelayServiceClient _ensureXPCStarted] : sha256 34d2a1dc7aa458b8c41f95deaf2c563bf246f88fb1c52a5b61a98ffbb148abbb -> b67c574f0bf431c9adbaf3ce7030a525cbb7cb6fd53381480aad2ddf8d8e59f0
+~ -[DataRelayServiceClient _interrupted] : sha256 e11cf75cf3a7130dd4a54036c8517d80e1e1ae150bfbe96e42d7580097cc70ea -> 6136eff7c82b32507917b1c91a080462c0cf3d17ed47c4a51ba08e52e08e9b7c
+~ -[DataRelayServiceClient invalidate] : sha256 24e1958ea22f5eace8f2b38f2118ae00b259ecfe4a983244f08f93493fa8c906 -> 40bd44b16c9fea4de795b30a8adafaaa325830f8aa394d8827ba02a5344b1b48
+~ ___36-[DataRelayServiceClient invalidate]_block_invoke : sha256 0a3711d7d596642624200abc339c43faf37140016e1310257ec73828cd0ad626 -> 204708de8e84c610f352a4b4caff5726028984398746285898f8b5282a5a50e5
+~ -[DataRelayServiceClient _invalidated] : sha256 9ff01ff0d64a0b3995cba09019b5c0a145800f1f62004966078c313752af603a -> f9c20cd9c17c115a48fd5affb82f904fa5f1811ad4771f70abbc35770a266f42
+~ -[DataRelayServiceClient sensorDataAvailable:dataTypes:completion:] : sha256 351673ee1ebc30d848a88e7a659242020658f7e94fd965f71b56711266b007d7 -> 6e60cf63d419ca8f11187ddadc13f6373efb37079ba263250f47d46d6341ca85
+~ ___67-[DataRelayServiceClient sensorDataAvailable:dataTypes:completion:]_block_invoke : sha256 8cd5b9a2b9288771b022d9b01dac56e6da5d6e37faecfccf2e1a8fa93351ee49 -> cbcfa6012b43f9c1951174c680e6e3940ed3e89253aeac4d7cd1a2d74c3886e7
+~ -[DataRelayServiceClient sensorDataUnavailable:dataTypes:completion:] : sha256 23c9eca256d76082fc6d6e34d706c723aa7c39301d6962812f8f36327f22151a -> 18c42074ce49914cfff3c796bdef456aaeb814fa3637ce50a3fe5bbd03e92b9e
+~ ___69-[DataRelayServiceClient sensorDataUnavailable:dataTypes:completion:]_block_invoke : sha256 24a5216561c059e3e33d935e30d7b6cd63002c92b2d8d41384625db5f71903e0 -> d3914cb3050b9e2e0c11cbb44017e8fd4546768e28b09a685b46617b5967bfab
+~ _OUTLINED_FUNCTION_2 : sha256 8fda287d68fbbf72dc025222f041987873c3120f54ff96d726c6e9821c9a1b9d -> 0ef13213c24d0327b90daf2233978db0589ae5e408ea316c693218e55edf2eab
+~ -[DataRelayServiceClient _interrupted].cold.1 : sha256 8eb151cbf6e7d15ca89de3c7b081c6c3a3415ee20855ccdb7abfc5fda1f9ddc1 -> 19050a06bdda8861318c76a9ffcb19936e97c9e820ff60760718f58057ddaf7c
+~ __36-[DataRelayServiceClient invalidate]_block_invoke.cold.1 : sha256 309137caba9a3027bdf95b5f69d43f149b712798d0addb69613c8a5f370e038c -> 0539ea8a32a15a69c8ebdbebc8a93450647655e02d2647d491024b5502812749
+~ -[DataRelayServiceClient _invalidated].cold.1 : sha256 adcbef67664fb4defa519364ce8afb6fc30f7a5562034c7fabd33972852dbd96 -> 792a85ae4a6cb2265f20ad3364fa4a26404e7a56c5c4c96262a2362c5023a7cb
+~ -[DataRelayServiceClient sensorDataAvailable:dataTypes:completion:].cold.1 : sha256 44d819cbe1855287a6db4a8eff755fa6363f05ab9995cc048fbde74c2d81f68a -> 3b610e05f3eaf16ccdfed0458ba0bccc788065e9f033908b193b9d87c130188f
+~ __67-[DataRelayServiceClient sensorDataAvailable:dataTypes:completion:]_block_invoke.cold.1 : sha256 b37f665418c3ee9862abe833b1f462a0c59e9e2293a3e6f008860d0dc4ee7b86 -> b67295d16e9519f9be1978660d00c33ee4277c732affb3a7d2af5b225ef911db
+~ -[DataRelayServiceClient sensorDataUnavailable:dataTypes:completion:].cold.1 : sha256 7b5872da3845187324a3e48bb20a2d0ffe7131bb0ad006065b0c012e545fff48 -> eec75f53e4c0ce55870495649d3cdf9d00a97fa1f8bdc1e6076f6236b2f82f40
+~ __69-[DataRelayServiceClient sensorDataUnavailable:dataTypes:completion:]_block_invoke.cold.1 : sha256 7da027739cfe374400ef6a8dc948f6a7705c4c27366c7f9fb0ef5e74abdb0a7d -> 3aa1fcc4a63e4589bbcadc6e388773c89b8004e3e67168898c6cbc18d66a0ffa
+
+```

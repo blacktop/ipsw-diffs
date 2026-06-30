@@ -1,0 +1,91 @@
+## BiomeSync
+
+> `/System/Library/PrivateFrameworks/BiomeSync.framework/Versions/A/BiomeSync`
+
+```diff
+
+-209.19.0.0.0
+-  __TEXT.__text: 0x3738 sha256:b7b9f99cb01305b94ada7bdc774016a40e724e929c6d46ddf52ab2f55b34b5bf
+-  __TEXT.__auth_stubs: 0x180 sha256:b3a580c688a9e1621b9260aa955706a451b4d69afb3ef63bb9dd81a09e062863
+-  __TEXT.__objc_methlist: 0x210 sha256:824b45af31a31f98159f6c7ae6039bc9236d6ee2b8f2bdc95cb7e671d8ef6b1b
+-  __TEXT.__const: 0x58 sha256:17e0967327217337a13934b74d2af0f3dbb84183377b474776b58959d5a1c16b
++209.21.0.0.0
++  __TEXT.__text: 0x3738 sha256:e08dbba0b2b666cf3fac6e0d42e801e5a43e3506e677c0868adf9b031aaf5eb5
++  __TEXT.__auth_stubs: 0x180 sha256:d5127c4e3e7489dc62c3030053b83cd4b3ec30643ba6a4e212f17a3740499eaa
++  __TEXT.__objc_methlist: 0x210 sha256:643062d4fdbb0bc77db5c4b2e48d8ba5462955a5c58cd70f3646f2fd3be97c45
++  __TEXT.__const: 0x58 sha256:f3387260aa2a6011f17087a726cc02092a0e7798b1eb9ac5d7dd2473312ed192
+   __TEXT.__cstring: 0xf8 sha256:5e3f259a29f5ad28b02e789d0db71cbc4f95a43e9f359ab85e2790c130679d0a
+   __TEXT.__gcc_except_tab: 0x28c sha256:40e11ac9a01d354917aef757822472eb65ab65b7ade10db9e2fe98a5e1b95ba0
+   __TEXT.__oslogstring: 0x63 sha256:e4c9814b0c8522f2c9ae9a595861968e7e7bacece2a9c58312147f8d85441065
+-  __TEXT.__unwind_info: 0x198 sha256:bcda1f2c42aadc2b5dd29db80c84177f7a0a371476d4d3cee31bbca8924e5de4
++  __TEXT.__unwind_info: 0x198 sha256:0b72e5a446907c949435ac3547755551bff1820f0301139cd7d5c8dcbc2a9b27
+   __TEXT.__objc_classname: 0x6a sha256:297db9b40eccf0a5bdda9f3ec3cfceaa0821dd5a0b1cb01eafa8f2a8d3cb78f9
+   __TEXT.__objc_methname: 0x5ca sha256:431dac5d6b8667d584458c0c14f9a427f7ea8ed66b2f7dec7c84bef5ea880079
+   __TEXT.__objc_methtype: 0x191 sha256:666b405354b1d4f532cfbd5cc2a8c2e0d5bb102540d8a1bc66db71fe34de42d0
+-  __TEXT.__objc_stubs: 0x4a0 sha256:1341ee174a873d022d7019ed7380f1c5cde833bcbc2a32135e578a036f47a414
+-  __DATA_CONST.__got: 0x58 sha256:f9a3e20e3fc48feb748d472a884fb2412d7d61361465a474e132df78ce24cc27
+-  __DATA_CONST.__const: 0x28 sha256:f84559e78bd0fa0d6bd023429ec08ca16df423d8bfb934cd9560b258c7865817
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:3bae36523a4e625268533ae7cf8899f219dfa6a9d42b37d736db02dfcbbd4846
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:54010aada77246ba35099e4b7c5c5ff2130792d28a1d03eb417763f24fc0c2d2
++  __TEXT.__objc_stubs: 0x4a0 sha256:4b3a5d17a00e2f0e7486c63d315ef50bf99f71592976cb87aad9243a6a5747b6
++  __DATA_CONST.__got: 0x58 sha256:4a51c097756cd5ce2bf4b7bb451f155191c02d43b58affc8925724cf7f09283e
++  __DATA_CONST.__const: 0x28 sha256:12e3d8737b6665e9779126866cad398b3e6bb54e167d4e3422630220420b8e08
++  __DATA_CONST.__objc_classlist: 0x10 sha256:8a4f7865b496f30ff46711843a5d512706b25805f94abbe50efad278397bd786
++  __DATA_CONST.__objc_protolist: 0x20 sha256:55a95163d631760d675033011fadb329dedf684a54d0aefe004e18e1fa5e5ede
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1b0 sha256:bf043a0e14629795995ccd302a2607140fe5032e67bd858d8e57cc83881fc9b7
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:9d543a8a30d96d7605686ecee702ecf0641e3b5305cb0b0990aec70abedb2891
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:97bf85a1fc3e2c8fe86dc76a396be44db7764e6d85004e041bb94a857d98da57
++  __DATA_CONST.__objc_selrefs: 0x1b0 sha256:4f5943d5f0d310249ab074b8a3054e713f58b8ca08b02d0ade72cbcd4ea9ea6d
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:507acd686071966062618ca588229378f184f9d53e6975283378040a69067000
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:6b1c11f71e2bba2c24db20514247545f2b58fc1db91a79d5fd804fa8b7079bb2
+   __AUTH_CONST.__auth_got: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+-  __AUTH_CONST.__const: 0x140 sha256:7885581220f278f0b928367d89089a28110fc7f131cd1b2be95c6f141a3ca5fa
+-  __AUTH_CONST.__cfstring: 0x100 sha256:b8ca9f5b29977ea4aaa3284131183b542fd9906f26f21c0e47f02340d619a3a4
+-  __AUTH_CONST.__objc_const: 0x2f0 sha256:a01822496573df8c97270c7c3efaabeecb5f88870c644db9d9b84cbe57aeb06d
++  __AUTH_CONST.__const: 0x140 sha256:1030b6998aae607a55242f23adae4c1c2a3717d905bc973080edd2aa0cb6d748
++  __AUTH_CONST.__cfstring: 0x100 sha256:c6047c4591a4ff2ce4eb76a2d38e297ac69f12a93a7cb7c5bb46615224e7c02f
++  __AUTH_CONST.__objc_const: 0x2f0 sha256:1519c3390c1b5b15ac4b8d9fda0ed6742bb79e38b048ce4071a32a2220639016
+   __DATA.__objc_ivar: 0x14 sha256:bf6763836f38048ba662546fb0e0aa6a2339d540b19338568f6df3047141b3e5
+-  __DATA.__data: 0x180 sha256:289d102494a7f5d72a4576fc1b006e7bfba000d3384409566d5a3e85909aa939
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:4f71fc2785156b59298b72f8e57826d08507b53fd74da6b811d25f13c8b5f47a
++  __DATA.__data: 0x180 sha256:5edf51dcc3474b01fc089329f61cbb7d92ef793a0cfb7b0a00061cb77779a8dd
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:d35e4c220484df38fabd50412bb76d59382556e085ff9c4c4fa08cd3eabda704
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/BiomeFoundation.framework/Versions/A/BiomeFoundation
+   - /System/Library/PrivateFrameworks/BiomeStorage.framework/Versions/A/BiomeStorage
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 38A9B051-EC34-36DC-ACF0-DCDD49E86582
++  UUID: 953F6B2F-C2C4-3414-9EE6-2B6A20817233
+   Functions: 66
+   Symbols:   208
+   CStrings:  116
+Functions:
+~ -[BMDevice initWithDeviceIdentifier:idsDeviceIdentifier:name:model:platform:] : sha256 0f91e55f773386f767867ff27b03a88b1687a0e236d1b197642590170e3435c5 -> 24b6889d6b6bbf6b9f0e55b23664db32ab725cd8bdf54438e9903e496159ef1e
+~ -[BMDevice encodeWithCoder:] : sha256 3a8ff09c5322cd55d42c64626b3e6d4f2fa42e7a2317d04d771105359a78af22 -> 02b7e36887383210d0ac76cde5833f011eec1a74dec878afa30b31f14a69762f
+~ -[BMDevice initWithCoder:] : sha256 cebe1d3803b87a88acce1ff42540fcbab6d27c2a2e1903ccde83aee7ea017d9b -> 76387f3916a106ba8a44471228317c9ceb2b6e8a7af0e34525c02764a050630b
+~ -[BMDevice description] : sha256 86094d32710a5ab7fcba7c6191e32f6c7382f32cab7f3e91e9a4f43d74e5282b -> a2b274537aeb539678211a48e74a7774d20a334787bd225416279c223c7dce1f
+~ -[BMSyncService connection] : sha256 039496596cb77bb08ee69a4bcf750e71da7a0b811e56e28aa47c7017613107a5 -> ae3ca18d9a5395ce826806bfa499d4c33b063c17a6c764524792881aa4667bbe
+~ ___27-[BMSyncService connection]_block_invoke : sha256 e4d3a1f195591a81b383be9fd5762745ca7b1923ac5c4fd2553e86d1badaffc3 -> b1f3cab0200629641c06b24a1224f9074b7caf898bee5a5428efb6a36ca2d8de
+~ -[BMSyncService remoteDevicesWithReply:] : sha256 a615aa48f1cbd17ef7768906a240dce82386e646fd62a2ca39f5a70699ac8923 -> 9e52b19433697d7ee9f2b2e6a0bc379a180018332b7a0b06ce74c6b14e6b8a19
+~ ___40-[BMSyncService remoteDevicesWithReply:]_block_invoke : sha256 f95a408c4e8905aacc5c966fbf67d7d7e8ab28b68e2d2f0b33c847fe5e52a065 -> e59708e4ad71ae4f01e3a3de579e0c2cba124d22e31f6ba0071494d0dadcde15
+~ -[BMSyncService remoteDevicesForAccount:reply:] : sha256 c998ad5e1bf1d2267ade08a7244b202a59ddbf5af91fb9b45e7d487f2f3c7734 -> f06900d8e90d6e2b9c588e1c5090c953f7854760c24aca06992d9e5fb7f9016e
+~ ___47-[BMSyncService remoteDevicesForAccount:reply:]_block_invoke : sha256 ca1cebbbb9b6d86f907e2ccc48d319b3212e58e8d2e77dfcb6ec0f2e811bd9b1 -> 505fd301b7cff9acf3bc264baa6a25b42b9370f3dd14359e2e49c4a39f1d01d9
+~ -[BMSyncService triggerRapportSyncWithReply:] : sha256 13e67e4f9b2f5e3d9bc51e1165065e95a9dcf5332152ed4e787599107c2526d6 -> c4734162370d9b99f69fa7aa9e1e3c3e0ea9ab30353451860d9dac52879d7321
+~ -[BMSyncService triggerCloudKitSyncWithReply:] : sha256 70625773965a6f3c20c72a39e1de2e6ff8dedaae98f5b86322636ad6ddd276b1 -> 251a99c5032749cc41b93bc6ce5bda8eb9502ab1a2bee19011dc3c3e679bb127
+~ -[BMSyncService remoteDevicesWithError:] : sha256 a77a96dbec28c7a1351d4b8c2a3da4b933932f8c7f61176472475b166383608b -> 70c23742bed35144f659f8c22b935203abaae061c4bcb861d9430b39cc25db50
+~ -[BMSyncService remoteDevicesForAccount:error:] : sha256 6cc675cc1c30700576db6c1e4add55e5b33f932c48002cd25470f9750d8be8d1 -> 332bff43a6361fb06a73e41b8bc64b974ed1c8989d07d85a84cc0637811f72fb
+~ -[BMSyncService triggerRapportSyncWithError:] : sha256 ff37a9be9519c20f46d07c52d4e907d281771c0707c7e3e0a006a2584f45d184 -> 6c19d858cfef6e8511d2faafe60a8aefca3404116d6ea9acd5f51ff32852e4fd
+~ -[BMSyncService triggerRapportSyncWithDeviceIdentifiers:error:] : sha256 67207ea6926c6d246ac01f51ea137ea58165ecfb6022dda3da2d360379c95426 -> e59ca627ccf07fbc9ef9c41bb152cd86ff719b62f2efd55003cd70bfdf630d78
+~ -[BMSyncService triggerCloudKitSyncWithError:] : sha256 e7dc566ee19fbe4b650d510c7be7d6eb077ae04354e91ab3fbe5b2a6b64f556f -> 2ae16862ba0e75d561ec93fd511baadd64d74ba1dc1515edcc15fd888dc5e6dd
+~ -[BMSyncService rapportSyncWithErrors:] : sha256 5f15b11a72a26bc9048ea4166adf9544df78d1de1d865346a22d67196ecaa222 -> 7da47b7e3ca265181056bebf759ca7de28556db0acfec8bab039a6e3d8df6398
+~ ___39-[BMSyncService rapportSyncWithErrors:]_block_invoke : sha256 11dd771097581da19a1f33a1a308f48483bf2637a74fd7e37eb7a0cf8c0fe435 -> 35cec7611ffdbd02cad14fe92f3224338a3147fbef771948b56e80c3a9bbc847
+~ -[BMSyncService cascadeRapportSyncWithErrors:] : sha256 8a9bda77f1712060fcddb5fe11b728c840fbd50ebc836977796b03f769e0ec81 -> b72e12df33a440c25a9220c4c1e53d7640a8f02d2d506fccf470eacf225c8258
+~ ___46-[BMSyncService cascadeRapportSyncWithErrors:]_block_invoke : sha256 aec6e2bb688f73ee2412c4b31d5e3d70e96ab8d1f50dab98fcbc18ba5be322b0 -> b9b9e2738bfbfc3a039e466b34c7c6ea79496bc2fc8f717425920b9535f3da0b
+~ -[BMSyncService cloudKitSyncWithErrors:] : sha256 3c426ac3ea64c0588bbdf19b07e933d53d7db9274e8a54c6460a08825050d7fb -> 0faac28568499698c5280cacf86d38c9ddd2b371d06ec1a2d8a38784375e24ce
+~ ___40-[BMSyncService cloudKitSyncWithErrors:]_block_invoke : sha256 19c657f5f02e3d43d9d228be9d2171ae745e4523962a1d53691e485e6e43811f -> 0b6d67fbc261743277abeb9a1e6bd02f16e679a976206095812456a683854008
+~ -[BMSyncService peerInformationWithError:] : sha256 9c6ae882be9b28d6aad858a4878f68fd7e4e7c8914a130ea06026ffbf7a4d9b6 -> 5a4620491a42a9b711a0b8e7690f865948f96e9afdcd43ae43491dc9f5380135
+
+```

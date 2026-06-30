@@ -1,0 +1,82 @@
+## CoreRepairKit
+
+> `/System/Library/PrivateFrameworks/CoreRepairKit.framework/Versions/A/CoreRepairKit`
+
+```diff
+
+ 921.160.2.0.0
+-  __TEXT.__text: 0x1440 sha256:b995581cb61f7e9810c8238d7cf652d485b0a09661799bac0376b73d52b3e380
+-  __TEXT.__auth_stubs: 0x130 sha256:2cd9336257c803049688e2e406fb092f4825cfa57be84a5d74a760afb63be2c2
+-  __TEXT.__objc_methlist: 0x118 sha256:b9dfd95df7b1ea830a0e238040890655605f860327953cc7045bd7d58af81706
++  __TEXT.__text: 0x1440 sha256:c85d7e8bd384e3ca0bc94dac4a6b98965ac355cad714e9790613c960b0d4097e
++  __TEXT.__auth_stubs: 0x130 sha256:051d9081d60d854858bc33acabbb4125c07d06cd6f4b13d20ba1efacb7aae337
++  __TEXT.__objc_methlist: 0x118 sha256:23a3bdfdf84b25ba5f0fab0acb3c4015cfea01018dec84b5668a952cded2fba6
+   __TEXT.__const: 0x88 sha256:4d0adaa8553c82d8de415d2425284ccd66953319579d28713c9461c195f5e521
+   __TEXT.__gcc_except_tab: 0x38 sha256:659c675420578bb0c4b8a2a9d1f4aef72748fc4ee9d90cf99f7f60bfac2336eb
+   __TEXT.__cstring: 0x18b sha256:715049b296067f148ca17e6bd02bf6bc1ffaa08d00c7630a555c45f94cefa015
+   __TEXT.__oslogstring: 0x171 sha256:935f66a7647e1f90d88a9e03f791971de220398b6dc4f2fd1e3163ff9c539921
+-  __TEXT.__unwind_info: 0xc8 sha256:d5568f0ef67b8bf1503bf4d82cda2f61eaf45085481b671a012a6dabf30b49cb
++  __TEXT.__unwind_info: 0xc8 sha256:eae7a7941dabe92e52782a3a572f6d63eb7852eeb36587e20b775b7c87de9d46
+   __TEXT.__objc_classname: 0x61 sha256:369b5e4ee2bc288dd4dc599367f5930eedb25fb4911e0e6c84d034a18148a7f0
+   __TEXT.__objc_methname: 0x544 sha256:f0c3573205f7d3e6d9830d6fa15a87cb4e1bc8d3b4e9676563193a6cc9c7ae45
+   __TEXT.__objc_methtype: 0x101 sha256:ac19c235fa0496b190146c157b3cc3b3b6eed414567642472b1d7cfeaf2e30d2
+-  __TEXT.__objc_stubs: 0x520 sha256:a6c09bb89d4b3c6fd3c167fdbc26d57c7269b387b346a05df3b36d2eb9b52fac
+-  __DATA_CONST.__got: 0x80 sha256:319cf868980bc120177c3b46a67575cf37ce19df5c41985aec9012cc5907b345
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:dbf8a1e18e5d6f038a12b1ae9798a84b9a9e692204264bdec7d6fc670d6763bc
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:5da44d7fa21c4c4b2596fc409d42032ba96039550da0eb5acd27b29fe4cee632
++  __TEXT.__objc_stubs: 0x520 sha256:c3f51a581a84f33e29d46510debfb6363b060e0c56d4df76213cd5359b3b302b
++  __DATA_CONST.__got: 0x80 sha256:4318bdc2aaad331f8e8e6b5054b9373636a833b5564b0aea9a5edb41676742be
++  __DATA_CONST.__objc_classlist: 0x20 sha256:58537ad1c4771d3b40fe2c262c7b7e4cc76023bf3431a37a12c4c0b3f6c27adf
++  __DATA_CONST.__objc_protolist: 0x8 sha256:2a4eafe65464db98a69246b42b0ba21fd49d66b41ac28ee3e9e6aa2070ceaf1c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1a0 sha256:3479dc776f984d69eec12d8e08dea8918503d90a4f01e060861682f73cc97ded
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:104e454119994741fb12f8840a11516954af82e7eb0762d5f4721ebf4818ec95
++  __DATA_CONST.__objc_selrefs: 0x1a0 sha256:5583528d0d6b97e0b8f3087cc562579e8f6f0fa9c1d7c62b787e6501c0db26c7
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:5ead78a6d68aa68f01074657f9c3a9fde1e283961259092afbaced33ae93b4e6
+   __AUTH_CONST.__auth_got: 0xa8 sha256:e3c2af35d1dfc500e16f826a071cc311bf55003a3de77de7ea3376c6b6fa2857
+-  __AUTH_CONST.__const: 0x60 sha256:055d45575157f12e229b40c915a6caff605f49065f79011afaca8fc498ee400e
+-  __AUTH_CONST.__cfstring: 0x240 sha256:021a711811e7d8215f2c5a618a93301f492d272d1bc2b7091471cb393f51b9b5
+-  __AUTH_CONST.__objc_const: 0x260 sha256:2c8629082778ea72d9419fbe09390e5456291099bb8b4c5e7c4647305cabaf96
+-  __AUTH.__objc_data: 0xf0 sha256:e295b36726ada3fa19891e6c620442513b1b2871cdb9f69982c323ea5b804206
+-  __DATA.__data: 0x60 sha256:02dd0e45f151dfed808e465ea14e1e77faeb53402530a90c3976a75c1cc8de92
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:5bd69f929b12a731add2b6dd81fa03b37cf20b11019d6a0b208feec1f65e1895
++  __AUTH_CONST.__const: 0x60 sha256:96511d68f19daf6db403ff98c69ebb8c07115cdc9ea681ff86092c53f1bb0950
++  __AUTH_CONST.__cfstring: 0x240 sha256:2baf018eb81301d1fa964143a32e49b5bc8d0482095605ef6013883c5c9d6021
++  __AUTH_CONST.__objc_const: 0x260 sha256:5d8bbf1cd826a49db9bdf26903cf4a6fc27b535baeb1da98c1d1721576893d74
++  __AUTH.__objc_data: 0xf0 sha256:e311db3755f2fc3ff2230f35df3fabe4a2f8f754c5940e3351572ff0f92b1f0c
++  __DATA.__data: 0x60 sha256:99a693fa02bb93a6b3ee067a2b22cf9a8e8cc25206df9a36efbcc51ed4a2c107
++  __DATA_DIRTY.__objc_data: 0x50 sha256:b6cfd105715ca02c3c2024a36766952cdcdb00cc94e725d32568eeb1e690fe57
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+
+   - /usr/lib/libamsupport.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/updaters/libT200Updater.dylib
+-  UUID: 95B72132-9911-3E27-93FB-939D9E830C2B
++  UUID: C0011D00-299B-3A08-ABA4-9B0252D3DB7A
+   Functions: 34
+   Symbols:   146
+   CStrings:  122
+Functions:
+~ -[CRSystemHealthStatus getCurrentSystemHealthStatusForComponents:WithReply:] : sha256 7aa6671f1a9a88e9e2b3b3b9b45a3674e159d351e442bc403e7f26b54150afa1 -> 5b4a86f91ce4126184716e1bab5e8dc6e88421a3ec2a5ec9f5cc55025b1535a8
+~ __76-[CRSystemHealthStatus getCurrentSystemHealthStatusForComponents:WithReply:]_block_invoke.11 : sha256 659b9672561644440ddda2ac63e87f72e16e1ea5389a2c213ec2c7b9486ba9d5 -> 43ca7e1bbeea4773bb87ee964be250037bffb08005264f672d3ba689d0748df0
+~ +[CRRepairStatus _wasRepairedWithSysCfg:] : sha256 e96183ea0ec4f75372c20a35a27b3e736446b2ec07cd0c33b4a2a4928f0dab77 -> 4d6af71fcbc12bdce8497b3121c3411129f2b81262ea238fe341ff912575de39
+~ +[CRRepairStatus isVeridianFWUpdateRequired] : sha256 69ad210081df2b91f1e918eec17cd4d20dfba0ab2fd0edb291884c208961e208 -> 109f96092c8855d1b59d0e35ca1f49b34a0895dac3392012a8547cf54672e6f2
+~ +[CRRepairStatus isVeridianFWUpdateRequiredLite] : sha256 3b69350627d86d8e2d98c9e54bfa5da5cc3e446ac3e2d6a7779d736bf694b16d -> 70499259d5fe0135424d4796f713f6c8defc6a31b1fe157e823302f6e75f9abb
+~ +[CRRepairStatus isServicePartWithError:] : sha256 cca3bbb019a9a4ff875029a141214c6a9b68ed9556333b9543c0fb17d93bf5d0 -> 41e63285e49e55a12af59fcfd220493ec689c6e5f49a9aa08fb1e832ac9ff67b
+~ +[CRRepairStatus getVeridianFWVersionInfo] : sha256 fc2937b49cc5bd42f80b97a052d035f77aada4baa0d2e7dd50556c4204f28dd1 -> 0efd3608b70d5744d6cd273291cab477750983c983874256598ba683fd2cac92
+~ +[CRRepairStatus isDeviceStagedSealed] : sha256 3b99e51c945ff6f3b487a0fe09da52d5da423089b6b07e67e6d5ea9109180447 -> ca1ed1460a4326ef11bf428796a5182fafea0ccac363e2e9c06a7f252fcbd7a4
+~ +[CRRepairStatus isSpeakerRepaired] : sha256 a780d8c0799ef7645118c4bb5ddca952ee46a7f390b8cbeb0f51823624eb4366 -> 00c471b81bde3ef18351515bb6492085aae0d32d595392c4504f1e62079862ea
+~ +[CRRepairStatus isCoverGlassRepaired] : sha256 ff6bfcfbe326e85f30e170f5611e761edf2fc3819bfac4db3082b1aa09925839 -> c570fe2ae44ca4f17914e8e8d9599bc849c45974eb72ee037f5a02efcc22a29d
+~ +[CRRepairStatus isVolumeButtonRepaired] : sha256 5de0dd997e258db6b37b4a7d4c0f19f4989968c7c0fbbdc17812ba31b09625ce -> d39ab308a0aae5926c28802b553e43336bb000a355e77345bd45816a0cd94ed4
+~ _OUTLINED_FUNCTION_0 : sha256 609e60eb81b5920530ee078c58899dd3bdc51dcdcde8bf02e93bb149c03f2335 -> 4910f4321bcab6699455599db9947e3922ef23877bf36a671e6a4466db4ec575
+~ _OUTLINED_FUNCTION_1 : sha256 e95f3acd1f56f8680414a803ff39914c059cf6c25f0714b72f822ce07859bc72 -> bb1d5f1423010315404693f07b21347c59f68f0471f294e7a60ce8baf3a95e5d
+~ +[MRDataCollectionNotice shouldShowDataCollectionNoticeForComponent:] : sha256 5d21a602335dac4ba44b85e49f4a583d8f71649dfbc646a33896f6bc5f5a65d9 -> 1fd77b14ec3dab2ee230a09e08375a821001ae5b9004875e136eb5f319ca236e
+~ +[MRDataCollectionNotice didShowDataCollectionNoticeForComponent:] : sha256 9145f9f97e048c876175cc63418dace6c2483fc5b41ac09a99b26f6b0481d3a6 -> cfbc7b8381cf8efd866963edcb44dd87edcc00b131e237d59b578d860af70ac1
+~ -[MRLocalization localizedStringWithKey:defaultString:] : sha256 87c90afe225a9e0f07c68b55101e87218d558d9f2deef5b8e6546ad3bf783e87 -> efd85f46a532017547e1bd8563d346ec60cae8cc1a54b1c8cbeb63e23b2fdda2
+~ -[MRLocalization locKeyWithFormat:component:] : sha256 52c244a989437c7a4c4214b1a6a37f887989bf4e27ec48c68e99ca651120ddbc -> d0d5dfa5b10b079a459412412d3a356ae404d33a2950d82c8e95a55b621ab5b6
+~ __76-[CRSystemHealthStatus getCurrentSystemHealthStatusForComponents:WithReply:]_block_invoke.cold.1 : sha256 60e3664bc62853f547ebd523e06552a69e24cc6e6a1e44113a6670d9ce4d6951 -> 914284f6906c3d94c1b06c8b860fbedece5f6863c2cfb2cb87ddbec1b5986556
+~ -[MRLocalization locKeyWithFormat:component:].cold.2 : sha256 15927f2be7d2b8076c99b8362ec6210c2f1923528393c69e6ba4f82bfb754d29 -> 906ce20662f83037aac4d29fa3c6277c8b0272d98e7fd384a99d648047c3f690
+
+```

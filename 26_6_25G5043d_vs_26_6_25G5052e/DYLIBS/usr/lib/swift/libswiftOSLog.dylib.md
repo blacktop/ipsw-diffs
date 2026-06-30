@@ -1,0 +1,54 @@
+## libswiftOSLog.dylib
+
+> `/usr/lib/swift/libswiftOSLog.dylib`
+
+```diff
+
+ 10.0.0.0.0
+-  __TEXT.__text: 0x580 sha256:046041c0ce2e003bededbf1d3a09c094119519510d15934e08af819be8c02d71
+-  __TEXT.__auth_stubs: 0x100 sha256:906d1bac64c4ff0b0def39ead5078110e624745e9520534200cd43e569320e2d
+-  __TEXT.__swift5_typeref: 0x93 sha256:0bbe8724299ec2e36549ffccf04df8926245fe632aaa48ce201c7057e360d43d
++  __TEXT.__text: 0x580 sha256:8e50e1a3d8ff923d73b497d4699537fbc1780fdbb3dfa84d4c1ad5d64e9c0579
++  __TEXT.__auth_stubs: 0x100 sha256:8eb853b6865b02f4ef43f34ceecf051219dfc05b5dd7ce50c3a2cec080d4286f
++  __TEXT.__swift5_typeref: 0x93 sha256:0ae0a08b67b545dbc8d30fe6901f1c30527585661b8fa9910d00450463782de5
+   __TEXT.__swift5_capture: 0x10 sha256:ac8e534610611efb7b5fa840369557f835d4080ff05efd51a86888b383627944
+-  __TEXT.__const: 0x1aa sha256:f6129f3a59d318c69811049b119cf763ba96c4b1f7e644e0522f19bd263e8635
++  __TEXT.__const: 0x1aa sha256:1db03555157e99594c082a9c2231aefb714989c135585c20e75353ac2f6205e9
+   __TEXT.__constg_swiftt: 0x64 sha256:8f01ee084ab353df6182be5c985561dfb64f8116fd00f6af1eb2820457b79570
+   __TEXT.__swift5_builtin: 0x14 sha256:afd39ff73fcb84b4ce44d9e6db54b98e297097f0315edd225a65e15f947d3682
+   __TEXT.__swift5_mpenum: 0x8 sha256:c5db8bfb8861e4494e720d8a9ec1aa084fb6dc6cc11bcd8843394109fcab48a5
+
+   __TEXT.__unwind_info: 0x88 sha256:0aa38a91963e769e3214c366c52323cb46945ad08268f73b9852e54f9703a4cd
+   __TEXT.__eh_frame: 0x40 sha256:da79a2912e1dc6dcd2726789c595a48ef62f531167e5f2b3c488ddf1a04a4b74
+   __TEXT.__objc_methname: 0xb4 sha256:8bdfac4bb690b37aec9dd397420dbbc1b0ef78ca955a1e4b75a036a2b5d00527
+-  __TEXT.__objc_stubs: 0x100 sha256:9937ecb78be6aeb2895edbc404e298997fa60217da58e479ba28dca8305028c2
++  __TEXT.__objc_stubs: 0x100 sha256:76adce2de4676d69ad09780c90f36c8fcf30a2d403bf01ac6f00646164db8187
+   __DATA_CONST.__got: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   __DATA_CONST.__const: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x40 sha256:ab0324846922f24e64525dd3864e129dcf2a2b55355902909e936b6c1ae4b249
++  __DATA_CONST.__objc_selrefs: 0x40 sha256:7ad0ccb986be7baca1a5d0eedd388a4d99e3d4d8ef91d19ea16005c4bb300765
+   __AUTH_CONST.__auth_got: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+-  __AUTH_CONST.__const: 0xe0 sha256:88553b8da0bba3516ad633f8e417c29a938e06530b14fbd2a2ed45fd55a5f543
++  __AUTH_CONST.__const: 0xe0 sha256:80c8c3c3f948eb0b3399853189b852d838dbab59fa034142138c4ae87c9b6af1
+   __DATA.__data: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   __DATA.__bss: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+   __DATA.__common: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 7ADEE925-B2F1-3CB5-A562-07DB0EFDB351
++  UUID: 6C9A94B8-FE93-3992-97DD-D82303091BAC
+   Functions: 19
+   Symbols:   123
+   CStrings:  8
+Functions:
+~ _$sSo10OSLogStoreC0A0E15PrivateIterator33_A983D55EFF15D70AF9FA0E38A33507C0LLV4nextSo0A5EntryCSgyF : sha256 629bbca82a3ba6bed0832e55ae2e4c0b79d024b4783482806130927057fd093c -> e2dc2fb5a3f7f8fb2bbd530663785bbef175198865df8905fbdd8b210173a8dc
+~ _$sSo10OSLogStoreC0A0E10getEntries4with2at8matchings11AnySequenceVySo0A5EntryCGSo0A17EnumeratorOptionsV_So0A8PositionCSgSo11NSPredicateCSgtKF : sha256 6a4ff6b3e1a40478122d6469fcca98791508a2b9f91e24a741045b9931a57f61 -> bbbeff797dd0471b6aa82157b3483dd14dc32d962cd459bab3b4fbd2110aa790
+~ _$sSo21OSLogMessageComponentC0A0E8ArgumentOMa : sha256 78a0a327bb1bd24a5405bf0eb40b257f58ba458d507ff9d5b2fbd9cabb7deb41 -> f4c5fece1aefa6a6a4af66e5fd73b7e0eb7501ec98978bf61a2473318173271e
+~ _$sSo10OSLogStoreC0A0E15PrivateIterator33_A983D55EFF15D70AF9FA0E38A33507C0LLVMa : sha256 bf4617a819a3b98c2ae2ed6baca2df0945a81249f9707fad863185505de1c4d3 -> d22df0b8eeac8676ccd21de927d8c7a138f0dc73604dadf7aafdd558f23f5183
+~ _$sypSgWOh : sha256 26bcdca65cec4df2962a51e2ed9096406332f26e4797e532e71629aab99b5c5f -> aea1d4041c0752539bf46730fa74a730f16353a9a1a726bc439395f5e05894c5
+~ _$sSo10OSLogEntryCMa : sha256 c3f211757dc1cf24d704db311075fbbcb29b4e05af07d67e44733a18f6edaabd -> 966bc4b78a792c3bcb0524e7c76180b06a07e0106ad92ed3829fd04d0fe234cc
+
+```

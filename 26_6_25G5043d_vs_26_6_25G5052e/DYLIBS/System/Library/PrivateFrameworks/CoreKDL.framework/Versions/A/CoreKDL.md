@@ -1,0 +1,164 @@
+## CoreKDL
+
+> `/System/Library/PrivateFrameworks/CoreKDL.framework/Versions/A/CoreKDL`
+
+```diff
+
+ 51.0.0.0.0
+-  __TEXT.__text: 0x9e78 sha256:456ed26c7e10497a2469b860c90ff4d89aa2fe34fd10772fdd3b8d49b624f97c
+-  __TEXT.__auth_stubs: 0x480 sha256:4a025c11fa283a7e98f34396b50fea3b5563bcf22b3a9e979a7d33172af57e6c
+-  __TEXT.__objc_methlist: 0x594 sha256:db602ceea78c1d19d648c8a1527b65f756fac165c52b06e00f799b3e2dcd1cc6
++  __TEXT.__text: 0x9e78 sha256:bdc0c6d6f1ea4bcdd8cf8bf16a274d617785659192fabf1ca89167704cce6479
++  __TEXT.__auth_stubs: 0x480 sha256:06597f4220ecb22bee4bba5bd164febe33e4358b2241c11b8b0ccbe0e4e926ce
++  __TEXT.__objc_methlist: 0x594 sha256:3c2c30c8cd4e9d21ddf53a792ed9fb3763b1cfa6bced4535a694560bbc349cc2
+   __TEXT.__const: 0x68 sha256:60f22c7c4fe98f1523850cc3cd180606a622fa57a3c2b2d7c153d9ff32a9f68a
+-  __TEXT.__cstring: 0x15fb sha256:e90242f609633aa2006bbba5304351012605fa42d4a0464f3e93f1eccc293f86
++  __TEXT.__cstring: 0x15fb sha256:18bb40dfe6f0e6259e0af0dd476d46358045074bcb1e1bc1e6264dceca2bb6a0
+   __TEXT.__gcc_except_tab: 0x180 sha256:fa1c0436a276c3078432753038989f33d2616fbeb91549b8e1b529276e34ad74
+   __TEXT.__oslogstring: 0x32d sha256:47e50efc4b517ea8c948123c4e3418c8f0e04ecd3beebb9197bb68222b70ddd6
+-  __TEXT.__unwind_info: 0x298 sha256:101f57998ec66e15a4dddea59eb263c2b2603001bb2c30bff1c4ebed84009fc8
++  __TEXT.__unwind_info: 0x298 sha256:09602ca83ee6106fc322e9918eadd279212d86cc13fdaf3805b2ffb63f52300f
+   __TEXT.__objc_classname: 0xd7 sha256:b1d0acab5333e71748d8d7ce429ef7eb939602a3c9e4c6107224138003df7b39
+   __TEXT.__objc_methname: 0xc19 sha256:4d565be144c619bcd3b71f5f5a568971e9b0aed2ec5238dd78051163da98c0ac
+   __TEXT.__objc_methtype: 0x2c5 sha256:01fa600723f6ab79ea1690dea45a0840dd7002af7bc7213ec3ec372ea43f0a3d
+-  __TEXT.__objc_stubs: 0xbe0 sha256:fc5076a623df27ea76b958579be3e8ba2ec133e7e8f9ebfcc780f1f9225c20e1
+-  __DATA_CONST.__got: 0xd8 sha256:9953795b502383cdd674d4a3cc51dc0453fd895aae93de38695afb8cec17889d
+-  __DATA_CONST.__const: 0x20 sha256:5582593ed67372819f0abdfd98fb213c4efb71b9204383099ac3372db20be5b5
+-  __DATA_CONST.__objc_classlist: 0x58 sha256:5197e32e9dd31586893732c9c4ceb598eee6965d900037e387f06f3bce1eae82
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:562529bef89d377e334dbc2e1431fb1f5ee36efc73e50834b5f9ea19bce9da70
++  __TEXT.__objc_stubs: 0xbe0 sha256:06f78468e624a0e90ae69fa89b3c317823814a1d8cee9a3f32f6c73cb6289854
++  __DATA_CONST.__got: 0xd8 sha256:65707b4defc76c35fbabefad6de20590956005d587cf0d992d01516c683553ef
++  __DATA_CONST.__const: 0x20 sha256:202a6fd38dcc327be9cf5c80429fc55871b04b8ec2b7f9cd91c3d23a8f76d537
++  __DATA_CONST.__objc_classlist: 0x58 sha256:ce1eeff7bda2b3e9cc8a392b38dfa2efcc7ff5d8339fdada1c1924b466587dcb
++  __DATA_CONST.__objc_protolist: 0x20 sha256:6acee1b29afafb81f9f16907a722ad540fad5a2f56a0a0b406d100489587b577
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x450 sha256:213105ddb3ef340b0701cfaa99cac6a9e7960f651bb7ccbd360b59beaf5c37a8
+-  __DATA_CONST.__objc_superrefs: 0x30 sha256:a84d5cb27c246aa422084c04762357fa9edd4b7ab66dc49bdeca9b5676ac9d7a
+-  __DATA_CONST.__objc_arraydata: 0x8 sha256:6fa32aaa36e7fb2edd526aca84810af6512f15cfb692819801fcaef6e7809e30
++  __DATA_CONST.__objc_selrefs: 0x450 sha256:88932b04a3413bd56d72e96e7147af1883514db0ecda101dc8a167ab3d46a781
++  __DATA_CONST.__objc_superrefs: 0x30 sha256:1110f78e5855177140fe4398dc2a771b3d46fd5e5ed0f902256f2f69ee8e4ea8
++  __DATA_CONST.__objc_arraydata: 0x8 sha256:18e2a4263a7f344d4cfdb9a561157ed9dca55b36c1af4dd32022f01cb0d1a84e
+   __AUTH_CONST.__auth_got: 0x250 sha256:2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04
+-  __AUTH_CONST.__const: 0x150 sha256:2305a45f560d1867745f3863ddcda21dc716763164ff70be1861f0091be9e280
+-  __AUTH_CONST.__cfstring: 0x2e0 sha256:f82848545cdacc7150db5ca28348acc16c010bc524f7917f19dde837adc0aee1
+-  __AUTH_CONST.__objc_const: 0xee8 sha256:cff3d978456362d176d8585a0663baff5d2955b4c3d98e5f84b371118dd581ca
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:92b1e7fc8bca5e15656495d6d3ac7fdd34d450a41e2ad390ee4a086881cbb1db
+-  __AUTH.__objc_data: 0x280 sha256:601c3ab65e1dd7dea04cd5230fd39c09397f848ca573d10130a77d35f2a065bb
++  __AUTH_CONST.__const: 0x150 sha256:862ed9c581bce1353b199648bf8044d74cdaeb35ebdd36d51cf3ed6cf042a880
++  __AUTH_CONST.__cfstring: 0x2e0 sha256:0783e5a9dc358978cd51c275de086149fd604205b61373545d2fb9816429d6b1
++  __AUTH_CONST.__objc_const: 0xee8 sha256:47d1d377b0a693320508337aecddf2f2f9f393c720dbf6088eed7d159d59f4e4
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:2a57257e2903acdf2e8a561d2b8c0fadedfed4930b462752af50110b97c0ef1e
++  __AUTH.__objc_data: 0x280 sha256:6a1f132070f8a68a3ceb60a9c3fb1383b15bc99b30eb7610e3c7eeea8e0164ed
+   __DATA.__objc_ivar: 0x40 sha256:3019ae224a041779d1295bb3385d6778528a38b13176ddc7b6d2e375e573ce78
+-  __DATA.__data: 0x180 sha256:2300068a7e3f2ddc520de4feade1ce2955898f6d1c3b256078e7a21273d2793d
+-  __DATA_DIRTY.__objc_data: 0xf0 sha256:02e3a1c1d44a3bb72091b0d362e7c784272b41c970b9d28272436ff91cbddc7a
++  __DATA.__data: 0x180 sha256:9f7132ff30c7347b2490a5409d5a81574d3e3a9bfc3520def601f1adee5ef009
++  __DATA_DIRTY.__objc_data: 0xf0 sha256:d9b882f1f14a6e6a4f14762ee5df7f502ad86e58d6f71968cacb581df88a6302
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+
+   - /System/Library/PrivateFrameworks/RemoteXPC.framework/Versions/A/RemoteXPC
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 00F2E2F4-7B37-3731-A8E9-CF34B025C19E
++  UUID: 6F0E0901-4CCA-3F19-8C36-C432C3D29739
+   Functions: 240
+   Symbols:   607
+   CStrings:  448
+Functions:
+~ +[CoreKDLKext kextWithCDHashData:teamID:bundleIDHashData:version:] : sha256 2c707840ee8f670324bcd75f381f8ca07dd59e6bdfe383609c250154161dd2cd -> be47119b810b24329d230dad67dd07e9821ca2d54dfce9a31d6f983a065c99b6
+~ +[CoreKDLKext kextWithCDHash:teamID:bundleID:version:] : sha256 1268567de777ed42e7dae3657be4ad363c3242f0715c50ecb5c81af9044a3d60 -> 2ce31db31de83b79949ecd1fe48c797a94ebd98e732bbd9522b1580f2b1fda70
+~ -[CoreKDLKext initWithCDHash:teamID:bundleIDHash:version:] : sha256 7d72d43694b29e285733fe99b036c95a2d850d68961b55f24f5d630f6ca83b09 -> afa631b6cb021502e78ec730cc10b8f7b8fadb2ad7668c1b329847fde5ce24e9
+~ -[CoreKDLKext initWithCoder:] : sha256 c47684663f622a3d2cdc0913ed958689f0e422d3d0abafd85f6db83262c4d8e2 -> f8ccb46f4c5bd0f0b345c413540d64aaa28ca8c7c65a4debc58ee4489844d021
+~ -[CoreKDLKext encodeWithCoder:] : sha256 6dffeb2dc116f8795f69635e259d372197d54db72e41ffc69830200b7c35eec0 -> 486b1d8aace256092df9f4331033d69406127dd0c797220cdcea0eccda8e5ef1
+~ -[CoreKDLKext description] : sha256 afffe9ab993e451a00b7f6b2e8db07f5cacbbc16e8e9e46bf0c02aac55181644 -> 3b23985c8befa9140f013015c4843d3636fd9270620deb86317c2873fde336cb
+~ -[CoreKDLKext setCDHashData:] : sha256 58aa4626072ca60194066e4200868dc8fcf061e3b3e36ce7852ce0d39fb7f807 -> 8d40927f4fb0292ad8aef8447b1c9f71f0050314f5b9a065488a2b1495f84d98
+~ -[CoreKDLKext CDHashData] : sha256 97bf0b35c4874a6ac8713f573510f0671478cbf9b88b28f70a11696dec07e13e -> f03a0e91a97c2bcfbb35d357362de6c20e2de816195f719ddc3a30f8d7680f70
+~ -[CoreKDLKext setBundleIDHashData:] : sha256 6505f0b68033b6d34d05ffa0461998218b9bae46f5d71855c82230208020e9ed -> c7773a9ab18e81423bb84de9afc60049d31e13b11e9f82b26eda666c3aa6be26
+~ -[CoreKDLKext bundleIDHashData] : sha256 a7c72a0412909ea364d4a11083a60ef293f9b02b20f81a4480d0315eadb744be -> 50cd4738a196eee81da0fc18c3f8c3cd7ba9df5439f3658f937ac6ebdbedf5e1
+~ +[KDLError errorWithCode:] : sha256 8ea01c1bd0d5e614f00c494fdbb9e4691d43a59312904e775d0cd5fe06306a18 -> 997ae256777061c23d7c2374804303485fd505bad3d58fdd7f074fd84f67d3a9
+~ -[KDLRemoteXPCConnection init] : sha256 535ba7a057bf5aecbacaa84660d0fa6c494cbf35552d3fcd3f295bf843d485bf -> d303aa26d9a91207a4f269bb37ff8a3dbcaaadd63fac3b8d625a1b2937454b78
+~ -[KDLRemoteXPCConnection connect] : sha256 7045ee817df92f36e98ac3c59b8b1ee7500cbde41220fd77363c404185a49cef -> 65921df210a51612716469c9eb836167acbc04a5d831c3afcda88e15b7a395c0
+~ -[KDLRemoteXPCConnection listenWithHandler:] : sha256 87832d5a57c0828982974689f5c4d5760a6d95df155832bd1d57a496619ceea0 -> 6f5678f63e4598fe7e519d807a4f07210dd00351e8dc0c43040320ccab422942
+~ -[KDLRemoteXPCConnection handleNewXPCConnection:] : sha256 435b684840aff9261fa4f533f9644d7e17f68145f2498362becbd983a80edca0 -> dc910e0555d535950e728a369ffba565359f65eab1143c3dfa5d520f33366dca
+~ -[KDLRemoteXPCConnection handleConnectionEvent:event:] : sha256 f9cba4e9e1ada0f9cb608ee35922fa405fe932e5cf513e137565f877b8af686f -> a8f53c6e83e0c069fdf7d6ada3859ac01ef6f6650a1344a8bf4ded17ee8816b4
+~ -[KDLRemoteXPCConnection sendMessage:reply:] : sha256 fa269c411a85e9f46034a940e107e5ea8d0edd905aff2415d38a1e635c573ee0 -> 840a5bfbe45f32eb56f438be88a98c9999c67b30a042775e7997e82c64608ce5
+~ -[KDLRemoteXPCConnection sendMessage:] : sha256 1b4bf585e27aefd4841150f2c45b225ff18e442048273ce84e5bed1547fa0c70 -> 61464b8e80c9c872082b0147f22206b75e3182ac20858a66337cf753377cb68b
+~ _OUTLINED_FUNCTION_1 : sha256 b620fc4835e62c07aed9e09fa9db6676af5bfb32426d3f27e2b4b94c7d6bd9af -> 65fa313425947fd5b2e9a2a3af39946e511f7e63176ed7eeb3c44c9c78f061c4
+~ _OUTLINED_FUNCTION_3 : sha256 b34aebd6f6b7e9538961fdf98cf9722e6fd593182612adbc663184177d85443c -> a03706c9756671db15422e288005cdef12faf2022855010585171a24cde7cc84
+~ _OUTLINED_FUNCTION_4 : sha256 00c7da8c1900397adf04fe7ce41a030db0ece8ec92e4c3d17a9f9d343b4dea91 -> 31d1d03ae6e1a68e1b6fe98df91a2abf4dd28aff7ede2e713dc732a6706f7844
+~ _OUTLINED_FUNCTION_5 : sha256 d4d2ec5dbee0abec75b7939192eb82d5ad082455f257efcee52982bf28b3b914 -> 2bbc55539be85a76805c924e42b69ff69c1a67c5ba11ca2e289af287d9aa94e8
+~ -[KDLRemoteXPCClient init] : sha256 d89aaabf286d488622828c51010adea58c73fdb4d89c034adf645b3a9989e123 -> a4560a975cc3e735cca3e601e7ed57d04535b28b62d44e0062a9992f0f2a3dd7
+~ -[KDLRemoteXPCClient currentKDLVersion] : sha256 e477c31299722b383ca3c0c4b17cf645bead615cfb83365690792f1cface84e2 -> 6fbc762fdeee9863f55c57d1dc68019619fd22f6956d421d9f3cbb3e5114efed
+~ -[KDLRemoteXPCClient updateKDLFromPath:] : sha256 9bc2e18e1cb79001cb1a51e02828d83aead1f7bb5422723d9869f24c0f0b13d8 -> bdf7ac95b3678a9beeb40977a4d36321bcebf10a530e9ee4491b1c44829bdb2f
+~ -[KDLRemoteXPCClient listOffendingKexts:forService:] : sha256 78ecdad50f74abb34c03e5d58e76a3836a99b4e253a8970de688bff1b782b66c -> 853c8e8136034e4626bc600860f9780393988963720a1f2c9c91b562a7988c42
+~ _OUTLINED_FUNCTION_7 : sha256 8044aa25883631135a465fa5088297c45e667254612de9d16e30e999e9d00ef4 -> 3b462081b7ba379fdf8f67581f033de14c7666d1e60ada1c751286ea3170a7c8
+~ -[KDLRemoteXPCServer init] : sha256 cee2ac1b9bf75d13dbe2587da13bc43ca329b25a6289a8731e06905284fcc9e7 -> e779a8d5ed3315136e2b499ba84ed1f3a776fd1bff67defa6cfc04ba28c8fd99
+~ ___26-[KDLRemoteXPCServer init]_block_invoke : sha256 b5c788a3642cdfe8de1bb3d36be12c26bf9764efaa1abe343a3b4cc224c00ab7 -> 546267e7453dbc63cc3dcab7130ba28376e304535bd546f3813059e5c03085b4
+~ -[KDLRemoteXPCServer handleMessage:] : sha256 5e77c81247442cc7fab0c1482e4d04c0c03638b78eae454cbfee8770a9a1a185 -> 6de6d93c0964a4f145fb9ed1fc17ba747dbdcc0e14fe490ac2cae65fbbfe59e9
+~ -[KDLRemoteXPCServer updateKDL:] : sha256 4211c7b9b0ccb3801189a2647d993b7ac22de8c126b9b41511f6401cd91a842d -> fd02630cf072139b14152ce1affb5b62ff39e6216788c7f84c095760bee7e070
+~ -[KDLRemoteXPCServer listOffendingKexts:forService:] : sha256 7e698df600279d0a60d34f98d49a410b614653d3cc5337f169c16f2f1e911760 -> 4bbdf97d489a5e1e0b2b2a6824963364eeb4abc1833e073d06077a85b33897d4
+~ -[KDLRemoteXPCServer queryCurrentState:forService:] : sha256 cb438a7ef1f08e970e84aa4d95e76e2f244b6ad974eb236904ed70328001faaf -> c32d23418ac357552cb8518bc594b354400037bbd0d96b1f4fcfff282f5dcb48
+~ _OUTLINED_FUNCTION_5 : sha256 eba8d6a5fcba4520ace84e6c62157564516899a9e143db36332f3532b865c7a7 -> 8c3becfb6f90cf793da72018816f65de5e16b6cb35a3ef01c635768257a39d10
+~ _OUTLINED_FUNCTION_10 : sha256 4f31b8f3af713485001032c53dcd07c8cbb9497bae4a9e0a778a8aba0599533b -> c93df92a9e2c9f619f0d4a30294337172925601d7ed36b7e33cd2719e05d3eee
+~ +[KDLUtils dataFromHexString:] : sha256 e0d64eb7865124d2455e3531d0a2e75b2763efa4776671e2267814c34d0e65e9 -> bab7fcaeff54bac6b5bcba2d0aec2a481f09f7d1ea97965279e15e3e785b5b6e
+~ +[KDLUtils hexStringFromData:] : sha256 b943578be8e41e004915a67a8c2aece449476dbe883cc2951b5eb00ec4bddb8a -> 82e31ae27f3b495d4e0fcf7b74d827347b2a0e58d9cef8e7bbf5a4cf0e645cb9
+~ +[KDLUtils getSHA256FromData:] : sha256 af2b88bc77d989e0a14cda54221aa1e8dcad9d65d468184b69b5cf10d1b9fd81 -> 511ea6e14da5c72f4fb3964ab0e145d622d9c2c32d6693837cf34a8bb74284f3
+~ +[KDLUtils lookupBundleIDBasedOnHash:] : sha256 4ebc3460a4767aee17e3937c603759c322b33d82b9e5efc431a050a8a8b0d8e2 -> 6906c8c647d454acbab09ae7b5f6426a5235c2a8c020693ed7154e8b515ffd2c
+~ +[KDLUtils lookupBundleVersionBasedOnBundleID:] : sha256 a86740d0491a46624dafe09fa4b687bd42e96857a2d191405f0d9df78cbdc82e -> 18ce732803c25776268feb4670626e69b8476790af5e1c7cee0c2739f68bf45e
+~ _OUTLINED_FUNCTION_3 : sha256 00e6ed3dfc0fd0c74304c59ac517a87e251a2e068d72c7d67f9174bac95134e4 -> 9f729bce818d1ccf1b0de5e845f384a5ddc3a81ac176222c8df33812b81ef75f
+~ +[KDLArchive extractArchive:toPath:] : sha256 96851fa50968a86582bf28b2a5d58c11a215bf54dc4ce25fc4a452b65c78996b -> 801aab4e14fd05309e6c1383edf40d4b410765bb32b33e97d3f6f7aaa39f378a
+~ +[KDLArchive createArchiveFromPath:] : sha256 102e87aeec6aaf0bc86141c46912332eb93d4e18f313342b76de4281c3b62acf -> 45f0a65e285096856a07c1d3cf5b5359bd223bdea01f506420cfcd3528e6e41e
+~ _OUTLINED_FUNCTION_2 : sha256 96662dd34db9e71d24116c51bb31794a2e7a60a69c7d5951716931f2c9f4ae5f -> 7c364948bcfa2bea21bafa373ee534702431497f329e585f00e114bff26d5c7e
+~ -[CoreKDL init] : sha256 5fd6201d5a76cf4f5aa7205810aa35a67e650b63d75c7a1c2f37370ca3952919 -> 1399430469ba9012bfcbcde51159f1168e762264dcfbd36cd5dec913e8b7895e
+~ -[CoreKDL dealloc] : sha256 016ea8397f98779befc75b2cabc5592ce094f559f0a1436790fff8ee9a4502fe -> cca1a394c26f51997d61f336ddce3cc48632478e838037a16813a97de5b97a8d
+~ -[CoreKDL currentKDLVersion] : sha256 71a346655ebee3cc48bd0db3a92b0f7a126946bdbd1d0c0642abc1ba5f25bd0e -> a943cdbe1b81f5298c11b4d924a7ad9bc8d4c930f536a399b1ccf7662b283523
+~ -[CoreKDL updateKDLFromPath:error:] : sha256 907b82b4f4b144dd78f3ce9753c137b6844cba5f7a85fc081ecb51ba1ee2ace8 -> 4d3bb1dba1864d294df7b5f915b2648855f7582ee9410c23e02de8ecf6578c55
+~ -[CoreKDL updateKDLToLatestVersionWithError:] : sha256 2842f2c71fa0706305772f00860846a5d0e7df79a3adf11ac93a36a535a60c16 -> 0be160a341ef8412d2859bbd9db21a50e067e3d6f3ad78ddc59835734f6d33df
+~ -[CoreKDL listOffendingKextsForService:error:] : sha256 2d55bba9758341f07ddf0b347350743135a8b12fa3ce7bcc8877cae27dc2f152 -> 7c5bdb476754396310a6c0300274462b4742cc0457bf1cd89ca5f7a103f19488
+~ -[CoreKDL queryCurrentState:forService:error:] : sha256 9018e1913ff1c506848454975b28fcd1bc0265451c60d5c0bcb98f21ee5e0dad -> 604f5fb26d948099b59638808c79e8f899593878d6adb07d2f2403bd10e8efc8
+~ _OUTLINED_FUNCTION_4 : sha256 56406fbb7c0c98bcf500c093831c818d3ea919ea90c048e296f30050906f8aee -> a50f469dacf19aa7c50b787e57a38bd7daa213679e99860ef335784270996987
+~ +[KDLMobileAsset findLatestAssetInQueryResults:] : sha256 98f149698bce0fe6c0af5a9b7755719314b1af8eedb2ca396e1e63f58b106bd9 -> b105f15c2a63eea557052526f903deecc7af5cbb3078b7c8a768b827184650c6
+~ +[KDLMobileAsset downloadLatestVersion] : sha256 63966115540f82c81f98ce529454858b794c2697a38a5deffda36d949745a240 -> e00a20bda4b3fccc1f91b99173ed3fa8d4c225e136f410292a2b71632324fb79
+~ ___39+[KDLMobileAsset downloadLatestVersion]_block_invoke : sha256 191b8212efdd10fb08d9088d2521af8def1d23e10a6e3c83cdf41d0c8ad2827f -> c74448ff62a598d55521ebfcb905dca3e1c863bdff289d7268a5b4edfe5647ef
+~ __39+[KDLMobileAsset downloadLatestVersion]_block_invoke.335 : sha256 fa09bb3409e0c28f50126bf6811d9cb0e4023c6ef4dc13ceb1f3629a24cc5cd6 -> b96e6072106f83d2f6c8c3b467c3d6403565665b403418f6a1a354437a2a1529
+~ __39+[KDLMobileAsset downloadLatestVersion]_block_invoke.338 : sha256 29dcdd290f487d89d41b806399d1df42b03c7b5fc313bd49da76383a02b02ce2 -> fca1f317be62d7384a953df140cfe7a243f1c1d4c133fa4840a5d01a3fea4207
+~ +[KDLMobileAsset latestInstalledVersion] : sha256 df6d0b77db3960b12fcb5623b90b10b302a65068c593fcfdec50cd8486fcb354 -> f5d0d49b382273acdf39daa84bcbb4bab997b0befb0cf8ba781e0fe205dc07f9
+~ ___40+[KDLMobileAsset latestInstalledVersion]_block_invoke : sha256 66ca5ab3b90335650ff65846f922bd0ed7c2cbdfbc4e4cf06823ca1df24956ee -> 50b51522481ba07a1648e1f7819df9bd554d2936b5c8261d195ac5d47793e7a6
+~ _OUTLINED_FUNCTION_3 : sha256 07b5bac75c6c3c14f6c23bb922664667e1a023754ca075cd95d9b0eda228c4b8 -> 27776b2c043d7e5dddd98fb539b70f044965ed8f383585164c5b7bf04b35f33b
+~ +[KDLLoggingStrings stringFromStatus:] : sha256 03724e451e206d8b83885af93c7e404925c3c4e0554e649c510b5636b67d2d48 -> 36145f6087f1c22f5e56b71aa7da154d2c3637031ded3c319e548f0d94d2e970
+~ +[KDLLoggingStrings stringFromService:] : sha256 14cb4376058af075758f96311576ef21afe9eda059025b9abbd345be58cca917 -> d83ebbbebcaff4431f4ba9c788ddefaac1a28f0343a0497bce5656acce1f3f50
+~ +[KDLLoggingStrings stringFromState:] : sha256 68790954a4558f8e7cb5170f243d151f499e05c050c0e9d2ffa8a0e372672b1e -> 4a64cb27f56ee2d9065a18eb704f6ed28ce85adb612a87be25f7782bd581115f
+~ +[KDLLoggingStrings stringFromCredentialType:] : sha256 e831f3811eaaf29dbca433bacb62143610e073d42a84b9840b1f690f02fcab0e -> 04586d80922b7da6cd12ad1eb61fc7aa48d4f33defeff557a7777afe0f251b45
+~ -[KDLIOKitClient init] : sha256 3dfa19c58f8a2b77bb3317de8e6015525274db6e5041659af2de370661e28bda -> d1ab7d43cfd349d9d2ec5692bf21c720f95025e0b56b22fc410d69cbd8df25a4
+~ -[KDLIOKitClient connect] : sha256 74928513704cb110a7816186582c51154e6c27301900369b4b2e5b53fbc9eb89 -> 9387acfde323bf74b49474debfd32c178e90342817fcf3e37e48e45ea74ef56c
+~ -[KDLIOKitClient performCommand:inData:inSize:outData:outSize:] : sha256 44e5c58bc62fdcd4c11e197fb0cbb64f6a4046d4e0c21007613077fc35149aa1 -> 71dfb31f0f06a916c9517541b9c906f71521960161972b7d55c97a6fd2109e81
+~ -[KDLIOKitClient updateKDLFromPath:] : sha256 302205fc7b2d00f6b9b9b9ae8ddfa4ef6ad494b249658ba60591b3d60fffa866 -> 59cf026557db89eb9ca1e44a9d760efdea00499f4acf5557207116e95bf24376
+~ -[KDLIOKitClient listOffendingKexts:forService:] : sha256 ce8302d9613c06866764632ec136326dcaa4bddfbdc899eb5429058e7c030103 -> 3cdddfa58a288488a604a4a99709d3cca35915780a153224b0958b5c612cf318
+~ -[KDLRemoteXPCConnection handleConnectionEvent:event:].cold.1 : sha256 b96f427f16097c2e1e2b205db3387fbab791dbbe14d8d68d714d9720dcef4eb2 -> f8d4d9cdc73fc9e21b1b27dcfa63c9957b02f436be6d5a8a1901cf731d6f1741
+~ -[KDLRemoteXPCConnection sendMessage:reply:].cold.1 : sha256 115d02c67cc668e190b42e99b64d39938b4d2b5f90c62a7a75f687f365e8b740 -> a1ec1b2ec544088b92a5cd8307d940bcd98e04c243a90e733fcc1a66dd417694
+~ -[KDLRemoteXPCClient currentKDLVersion].cold.4 : sha256 972f5eeaf0d90119e4f004cf500da98ae90b1feb8e37eda30f8aa2c4f7e25860 -> 1bfba607f444c915e62f4b5ee31646e9e8735109ed55ce6bc3416fce658d452f
+~ -[CoreKDL listOffendingKextsForService:error:].cold.1 : sha256 a1babe68ceb4872b564b80d67efa60e3fdf70883bb6f9f1dcc1e81ac9030d752 -> 099eeb68a7fd52813e0c96cb562d6b9dbf56701d8fa571e346e16224a179d62f
+~ -[CoreKDL queryCurrentState:forService:error:].cold.1 : sha256 93f907f263dd1c8e8d88af5afabc15fc056efa98332d6e7c9caaaea3a3bd37c2 -> 59ff52da1bba9c56f5a54523a6af08b7cb58342ee8534298a12a95f3fa98f79e
+~ __39+[KDLMobileAsset downloadLatestVersion]_block_invoke.cold.1 : sha256 ab9453efd828e88ad59889fa3d86b057328929974b161cb90c2843a1fe02e030 -> c8e75409c10e2416bb84f5b83a40e8508dd4354888931f3ee06a4187344c9078
+~ __40+[KDLMobileAsset latestInstalledVersion]_block_invoke.cold.1 : sha256 c4156dde901aeabd1a036231a682113e02002e60dae57b44e76e363feafd9abb -> 27b529fad3875cca7690aef4964045711bca67654e588a1266b1ea64c688ba64
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CSWFugDJAFp2-5f4DlHWY54xn9fH8-dk5ByHBUc/Library/Caches/com.apple.xbs/TemporaryDirectory.w14ReZ/Sources/CoreKDL/CoreKDL/CoreKDL.m"
++ "/AppleInternal/Library/BuildRoots/4~CSWFugDJAFp2-5f4DlHWY54xn9fH8-dk5ByHBUc/Library/Caches/com.apple.xbs/TemporaryDirectory.w14ReZ/Sources/CoreKDL/IOKit/KDLIOKitClient.m"
++ "/AppleInternal/Library/BuildRoots/4~CSWFugDJAFp2-5f4DlHWY54xn9fH8-dk5ByHBUc/Library/Caches/com.apple.xbs/TemporaryDirectory.w14ReZ/Sources/CoreKDL/RemoteXPC/KDLArchive.m"
++ "/AppleInternal/Library/BuildRoots/4~CSWFugDJAFp2-5f4DlHWY54xn9fH8-dk5ByHBUc/Library/Caches/com.apple.xbs/TemporaryDirectory.w14ReZ/Sources/CoreKDL/RemoteXPC/KDLRemoteXPCClient.m"
++ "/AppleInternal/Library/BuildRoots/4~CSWFugDJAFp2-5f4DlHWY54xn9fH8-dk5ByHBUc/Library/Caches/com.apple.xbs/TemporaryDirectory.w14ReZ/Sources/CoreKDL/RemoteXPC/KDLRemoteXPCConnection.m"
++ "/AppleInternal/Library/BuildRoots/4~CSWFugDJAFp2-5f4DlHWY54xn9fH8-dk5ByHBUc/Library/Caches/com.apple.xbs/TemporaryDirectory.w14ReZ/Sources/CoreKDL/RemoteXPC/KDLRemoteXPCServer.m"
++ "/AppleInternal/Library/BuildRoots/4~CSWFugDJAFp2-5f4DlHWY54xn9fH8-dk5ByHBUc/Library/Caches/com.apple.xbs/TemporaryDirectory.w14ReZ/Sources/CoreKDL/Shared/KDLMobileAsset.m"
++ "/AppleInternal/Library/BuildRoots/4~CSWFugDJAFp2-5f4DlHWY54xn9fH8-dk5ByHBUc/Library/Caches/com.apple.xbs/TemporaryDirectory.w14ReZ/Sources/CoreKDL/Shared/KDLUtils.m"
+- "/AppleInternal/Library/BuildRoots/4~CRUlugBF3S5vAWwtADHspGdgCxMbCbJNzsHUwHg/Library/Caches/com.apple.xbs/TemporaryDirectory.WYQSGo/Sources/CoreKDL/CoreKDL/CoreKDL.m"
+- "/AppleInternal/Library/BuildRoots/4~CRUlugBF3S5vAWwtADHspGdgCxMbCbJNzsHUwHg/Library/Caches/com.apple.xbs/TemporaryDirectory.WYQSGo/Sources/CoreKDL/IOKit/KDLIOKitClient.m"
+- "/AppleInternal/Library/BuildRoots/4~CRUlugBF3S5vAWwtADHspGdgCxMbCbJNzsHUwHg/Library/Caches/com.apple.xbs/TemporaryDirectory.WYQSGo/Sources/CoreKDL/RemoteXPC/KDLArchive.m"
+- "/AppleInternal/Library/BuildRoots/4~CRUlugBF3S5vAWwtADHspGdgCxMbCbJNzsHUwHg/Library/Caches/com.apple.xbs/TemporaryDirectory.WYQSGo/Sources/CoreKDL/RemoteXPC/KDLRemoteXPCClient.m"
+- "/AppleInternal/Library/BuildRoots/4~CRUlugBF3S5vAWwtADHspGdgCxMbCbJNzsHUwHg/Library/Caches/com.apple.xbs/TemporaryDirectory.WYQSGo/Sources/CoreKDL/RemoteXPC/KDLRemoteXPCConnection.m"
+- "/AppleInternal/Library/BuildRoots/4~CRUlugBF3S5vAWwtADHspGdgCxMbCbJNzsHUwHg/Library/Caches/com.apple.xbs/TemporaryDirectory.WYQSGo/Sources/CoreKDL/RemoteXPC/KDLRemoteXPCServer.m"
+- "/AppleInternal/Library/BuildRoots/4~CRUlugBF3S5vAWwtADHspGdgCxMbCbJNzsHUwHg/Library/Caches/com.apple.xbs/TemporaryDirectory.WYQSGo/Sources/CoreKDL/Shared/KDLMobileAsset.m"
+- "/AppleInternal/Library/BuildRoots/4~CRUlugBF3S5vAWwtADHspGdgCxMbCbJNzsHUwHg/Library/Caches/com.apple.xbs/TemporaryDirectory.WYQSGo/Sources/CoreKDL/Shared/KDLUtils.m"
+
+```

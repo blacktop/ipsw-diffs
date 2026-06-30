@@ -1,0 +1,60 @@
+## SystemDesktopAppearance
+
+> `/System/Library/PrivateFrameworks/SystemDesktopAppearance.framework/Versions/A/SystemDesktopAppearance`
+
+```diff
+
+ 186.4.1.0.0
+-  __TEXT.__text: 0x514 sha256:56f85de95f9703e656ab2405e675336fa94aac0e7cab565e291acf67a675e6fc
+-  __TEXT.__auth_stubs: 0x90 sha256:9aeb8bb15b85b66c99383d6bdc83962025479dc1372396e85bbbe2c4a65da6a6
+-  __TEXT.__objc_methlist: 0x50 sha256:8b932357b30de29b8eaa47505c7bb307e2b71738c6802a7ad36407b33b9228e8
++  __TEXT.__text: 0x514 sha256:ba9d421f42aa0c444e0bce9f76efb265257d4c039761bb788c53771d2c166609
++  __TEXT.__auth_stubs: 0x90 sha256:bf458d9c4eac6ddbdf182643952db20d34b14827eee63630b1e99c8d9980eb7e
++  __TEXT.__objc_methlist: 0x50 sha256:9a2cd245d5aef571da34e8af0941270d4a134d113e575ac9fcc36b0804a8706e
+   __TEXT.__const: 0xc sha256:ae0acbe0a6531c81bca24f46fffdb9983907e17ad77cd7eebc4372c6a0121c5b
+   __TEXT.__cstring: 0x1e6 sha256:b555f7ccf00c6d5f757761a7c97acb3cad9e480dc99b2898ae24982398a464f6
+   __TEXT.__unwind_info: 0x70 sha256:cb53f940ff4baa8456971b9647c846451660ad87b588714288a221a148def1b0
+   __TEXT.__objc_classname: 0x18 sha256:072ee6e3f1c62b73902ba9eeecd82a93a413c0364c877c6b3bd6fd008d471b6a
+   __TEXT.__objc_methname: 0x190 sha256:edd20ea5bd25a1cc3b441706a490e10f9ad89ed5b9eddd450fe5dfbe130454b5
+   __TEXT.__objc_methtype: 0x13 sha256:c85a2eeb2453f013322241e704b4ac8257fdd85185271790e41b90aa6c60d2a4
+-  __TEXT.__objc_stubs: 0x1c0 sha256:5babaaa665166887e6c21937115828411af6a1410407adb2021bbff15fc42c39
+-  __DATA_CONST.__got: 0x30 sha256:bbdf993a16eeeca0fc2de9b9faef81e7fa1a06f7cdac8411a25e6a472c622e02
+-  __DATA_CONST.__const: 0x18 sha256:6152fabe1563cfabe360305618b9b92f00a4e1284c80ffcf0cab61d61b1fdafd
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:f49a971baa4187c22113ab431226ec44d12bde48d777ebbea46a710fd9e76d3d
++  __TEXT.__objc_stubs: 0x1c0 sha256:edb40a11c571fbd8f34620a2c56ec9a68334b8b2da1e14c97a093756b92d2edc
++  __DATA_CONST.__got: 0x30 sha256:21e3e5feb6b638cb98186007ad0c3f751da928a4a44a956b494503e2e86e75a6
++  __DATA_CONST.__const: 0x18 sha256:866962e2d62f0c416e6bc87c48f5de1dcac70211e30d1089e111da2d2e020943
++  __DATA_CONST.__objc_classlist: 0x8 sha256:2101ac7750d7af52542280242c19565f8d89535c1164980e97ac6e63cb506f4e
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xa0 sha256:c53f1e2d352ac419c362425e167834127b7fa5f76560819b8d700ae0f7d99af4
+-  __DATA_CONST.__objc_arraydata: 0xd0 sha256:6f5983e3b7ed090d2ac2939e2b0e943415f34379254286c0c85ea3f2cd4ad9ba
++  __DATA_CONST.__objc_selrefs: 0xa0 sha256:3d0886cda2552e6c421bba72f1d92818eb9b819dba97c33eaa36f9243fc87dde
++  __DATA_CONST.__objc_arraydata: 0xd0 sha256:defd0135f4f713935d7a2ccbcac6a97b4fe0ee62551f4b8847b4abc0c9fa561d
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__cfstring: 0x4a0 sha256:73cb685de54aee445f02cc323e0789409bc380eb40b9a418c193039f9be40242
+-  __AUTH_CONST.__objc_const: 0x90 sha256:c19f2b01d65a52f44489c62226cd9e84a5d5d1e31db6451787a27c8b24ede2ab
+-  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:8ef13ce5cf5873ab8d6e446a993ce8a07309f02df0c1d0c6f6f5cb02149d0a39
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:3ee0ded44b58dc12bd0bcd958e4568f2a165852fa82101987f1a94a099052ce4
++  __AUTH_CONST.__cfstring: 0x4a0 sha256:2b4b0f66672865ce6898ab6bca535486178cc4cafaba5d80dcfe9e65ebf54b8c
++  __AUTH_CONST.__objc_const: 0x90 sha256:f066c3c8c53d449d200ea6eb3522264e4e98353bb18f9a64c184fe929208a93a
++  __AUTH_CONST.__objc_arrayobj: 0x30 sha256:565d9c4e9381eb14d562dd27dd80ea6dcc3bccbba86b986db62fb10483c38b0b
++  __DATA_DIRTY.__objc_data: 0x50 sha256:ea70d331cb714ddf966d2ea63e1f92eab2f6be33619b98a2579cf82d9f192e69
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DA90B040-3E21-3B1E-A10F-25BE4F258C49
++  UUID: 3FA76BDD-23E0-3C10-8823-F7E624A47216
+   Functions: 8
+   Symbols:   51
+   CStrings:  97
+Functions:
+~ _ObliterateDevice : sha256 0b8958e4b761d773c1d54f0f4c5b0cb728dfcd25dd0a7b8cdcdc4e9cc672ed6a -> 577ee4d8720724891636eceb401941d7f22611041ca75a0b4b71fc5abc7ab8e9
+~ __OSVersion : sha256 95b56d1e3cec3d13de100834317f713d3d38e471f8c1fd3385e6b8ad7a7212d0 -> d967d12ec4e521c8aaa53cd7fb4dcffa83c856954ba9e545e20d39ae65163752
+~ +[SystemDesktopAppearance SystemDefaultDesktopThumbnail:] : sha256 0b1e7a52f1451f976e74e0757e7eaae5cb9c6bacc12c3198a737fb67ead0b0b9 -> 7d20e0ec14564df958a771e1573da1ea42b65a50716e354138ca5af208f09845
+~ +[SystemDesktopAppearance DynamicDesktopAnimationFrames:] : sha256 4f875a7e826a0ce822f7e9920cfb7151aeb46f8705c70def64179af0fa0ec93c -> e055171dc06556955f1cf6eabd35dad043817da0ea8be5b074566a86072eafae
+~ +[SystemDesktopAppearance OSName] : sha256 da42b11810dcfc1f2ec1c4f7da5033e4885761dff5365ce850facf4a64c2016c -> b4144f2a3c73e76338b18ac5f83a3c11cef38ff734c2e88bb16a9b3d01fbbd84
+~ +[SystemDesktopAppearance AboutThisMacRoundel] : sha256 62955a8f03b7d1d1a8ed4bad0fa8f26860adc44f0ab922ffe33fdfc16178b6ed -> 254591ad49c976fc6c98bba96041fae5e4108def1f2cbd2edd788b4c6fd5bb7a
+~ +[SystemDesktopAppearance DefaultScreenSaverPhotoCollection] : sha256 6530e09abd7fdf94f3f8b0a77192c545df7b84645f10f1966fd176cc86f07f5e -> 432bd369c32af7c336a001a1c64a93d3f09ae076f8fadc7cd57b058eac155761
+
+```

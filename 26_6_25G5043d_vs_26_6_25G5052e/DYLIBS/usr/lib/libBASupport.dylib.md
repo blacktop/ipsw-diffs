@@ -1,0 +1,58 @@
+## libBASupport.dylib
+
+> `/usr/lib/libBASupport.dylib`
+
+```diff
+
+-227.160.4.0.0
+-  __TEXT.__text: 0x8a0 sha256:3512744c84755003933955ab8b615f3c04833ab222f95ce29e991c91208b5805
+-  __TEXT.__auth_stubs: 0x1d0 sha256:d2aedb196c8e776eb2eb0f6b35bc466a743a06f556dc49fc35db5d1718a4c6b2
++227.160.6.0.0
++  __TEXT.__text: 0x8a0 sha256:ee25225b05b632afb72474316e7cba6675236a66fa4dba560211cfcb2db91f53
++  __TEXT.__auth_stubs: 0x1d0 sha256:ced3237e5e9626a0520f40bb90ed826d94d81f6fbc64da6a61365c6c5e54116d
+   __TEXT.__const: 0x60 sha256:e790a4293eddb5ec8906357d4dc2ac570e62f496e09fa96037a0b2733dd283e3
+   __TEXT.__gcc_except_tab: 0x7c sha256:5d500b217de3ce2bd1999c95dbd5a57dc05e62ef8278ae6b6440c19e3d86404d
+   __TEXT.__cstring: 0x21a sha256:6500dffb261d0191be5fb77ec8c31270c02065abe1e55614b2f3befc2e8573c5
+   __TEXT.__oslogstring: 0x46 sha256:cda68a5e421c7b5a767aa1512bae74def710a68368fd41bf8a762109961a0876
+   __TEXT.__dlopen_cstrs: 0x4f sha256:d325d59b3f081826fb00587243c4c0d2e74c0089da17416c0632d0fe5deb8a83
+-  __TEXT.__unwind_info: 0xa0 sha256:60f2887aa62df87fcda2ac72802de328c28de27df69d6e4f2a412d7ca577b166
++  __TEXT.__unwind_info: 0xa0 sha256:72b3405f29b0c22eb513a7a8b7cc887711e330cd1d92ea10f71549336e1325b9
+   __TEXT.__objc_classname: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+   __TEXT.__objc_methname: 0x52 sha256:16b5ca0ba7b3f8b73f3716c7426baebf1429ec2e439765fa40d64c0c9740faeb
+-  __TEXT.__objc_stubs: 0x80 sha256:f9cea9291d15c1a3831e7471d323a4dfd1ccea69212b20071beabeb410df061c
++  __TEXT.__objc_stubs: 0x80 sha256:9ca1cf5728443bfff3d590ae11ddbfd66364bd28cedafc01a5d166747c79b2b0
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_CONST.__const: 0x38 sha256:d6d9841f9d2b8a238b1f7aa45093e3290e3d0592b889677df06a7f1517c23062
++  __DATA_CONST.__const: 0x38 sha256:ad0715de6a7f686d4818e0eb3c83e3371de790e3e0cf49f56675481c96ce66c5
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x20 sha256:9235d9844d472fb4e5caf30ba0e25bd8130d2cfa3d84193c6a5f2ee395029ccd
++  __DATA_CONST.__objc_selrefs: 0x20 sha256:78b7a1cb8258fc570a17c023b19838dc1b443ca3f5d959454c7203e4ccb4cc16
+   __AUTH_CONST.__auth_got: 0xf8 sha256:b3ab6982980fddf460a2f47adb428475ce9afa89092fd034499d017a35993f05
+-  __AUTH_CONST.__const: 0x30 sha256:5244d129468e3fd8481cca8c9dc845da6203ce29cff18bba5506a14484595c04
+-  __AUTH_CONST.__cfstring: 0xa0 sha256:6c746908a8c32b2788955b7026ea8c0780eead8ad14b663dd54aead3666c797c
++  __AUTH_CONST.__const: 0x30 sha256:f7a8175e17a486baa06242199c6ce574e714fb9ac032c93a543d43dbe19b60e0
++  __AUTH_CONST.__cfstring: 0xa0 sha256:8d13ef6b34a6c7b81e149ec72836f16d03b692a1c8255e9011fac7c228e37b64
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+   __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D29B8A6F-C387-3655-8181-51BB0C22ED46
++  UUID: 4B86E506-FF2F-3E0C-8F65-BE2703AC3177
+   Functions: 14
+   Symbols:   66
+   CStrings:  26
+Functions:
+~ _ba_is_current_process_extension : sha256 c260096bf35ebb71b86cd2729f7e86cffa17a872721d0e15e8c02b2088f45f0d -> fd0f58b9acbf1e457031e5024c329e8cb77287eae1121cada2b9e3b87d2253cd
+~ _ba_is_process_extension_ls : sha256 970f29d7b5eac672a9403a249ee95cd7b5d25c7d3dd56bb7b3466134cacda51d -> fd834edd6ad239d8c3e458205517900e2b34979affaabf3b305e67393d361c9d
+~ _ba_is_process_extension : sha256 0c5444b9fffd37da6041a4b58d194537cb4ea085260ed5b9b8c1523beedd98dd -> 4777849dcb9eb0462d42795f09b7f223f5a01af33ac0b512b68c382852fbd5d9
+~ ___getLSBundleRecordClass_block_invoke : sha256 34061807655289c5e209fcf4f86c686ed1653a461a823d99ac86d67453faad44 -> d675093909b4f73a45d0989423af13797f8ddf732f6046112385cad1bd4435cb
+~ _CoreServicesLibrary : sha256 db512e77e54f37e9e16a22be7fef752e56fb5b5d439ad528a8909af310fd3103 -> 521ba82d47f145eb7e0db2d325f4c829685354a129194c19b24175bfe7693c49
+~ ___CoreServicesLibraryCore_block_invoke : sha256 088eee3d35fb4057e2b5f1503f44d4d2c98833a1a485f7d4aa8833222fbb3b4c -> e163a04da923c688a3ce73a14c2725e31d39db34a4805d04b2eea8dc95c3b36b
+~ ___getLSApplicationExtensionRecordClass_block_invoke : sha256 58b08d473a409b1c1b0ead573de8180aac9cab73b2a94b9e9d227c505ec10177 -> 6cf9bc1b7688b44532501f2d19b0292f21dbcb0d907a265dbb2249ba6108a0d1
+~ ba_is_process_extension_ls.cold.1 : sha256 48a1eb67bc764d3bd372abff654788d627b80c89cc1ab139e9d195685a173cca -> a01a090c52b87c76bf98c33b7ecec0d86f184c7188202209d347cc6f6ef3ceb3
+~ ba_is_process_extension_ls.cold.2 : sha256 b40d864c4ad66e909a9295d17397c010631f8f67bbc437ef8465d22a285fdf63 -> fef058e665e69c1e854f1126fcf5176529ddaeb8e3f31da46d142177bd9da5dc
+~ ba_is_process_extension.cold.1 : sha256 654fa008933faf8169a103a4a791a6778d22c598a315e4e2111507594873997e -> c6f8d223107a59e3b760908a11c3d0c64cfdb5539a077f12d9b907603ca0eeb4
+
+```

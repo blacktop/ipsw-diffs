@@ -1,0 +1,62 @@
+## com.apple.CloudDocsUI.CloudSharing-AppExtension
+
+> `/System/iOSSupport/System/Library/AccessibilityBundles/com.apple.CloudDocsUI.CloudSharing-AppExtension.axbundle/Contents/MacOS/com.apple.CloudDocsUI.CloudSharing-AppExtension`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x1f0 sha256:5a2a7e5223be9649db71e208b309b9cb9bda2cf4af0bb6f3f6024288420c7a47
+-  __TEXT.__auth_stubs: 0x80 sha256:d080b8bd6483479980440ccaf4be44b6b227da3dbf47c7222600277eeff081c1
+-  __TEXT.__objc_methlist: 0x74 sha256:7b68a2203e96e6e6cf593cb2037bdbb19f3805c2beb1b1426178c6c2e4eacc26
++  __TEXT.__text: 0x1f0 sha256:ae9bf198eeba64a3e5140170d33cac113a9a39d21c4b8ecdbe2011379db80adc
++  __TEXT.__auth_stubs: 0x80 sha256:e7481649d78b2cfc0f033737732fc485258f5a4cda3a627f7d45567cb41739dc
++  __TEXT.__objc_methlist: 0x74 sha256:94f1b81633aa862c67e66eb1228d2e1ecfcfa9bbd21bb233df1f77f7121ca359
+   __TEXT.__cstring: 0xc8 sha256:2e2da92c5baaf16bd6d84c0ba066e39c82dc390a104a57465ea80cf87139ea7a
+   __TEXT.__unwind_info: 0x70 sha256:1db07ebeb869f9b27461bbfb483f671602ea75180c6e096b652e5f07fbb0a465
+   __TEXT.__objc_classname: 0x77 sha256:29d9cb571e09387086f4cbe9037c575bb5c7c006a1dd1a3ac038f6823019ab42
+   __TEXT.__objc_methname: 0x1ec sha256:c25637981ff85531bb750efffbc5745dad119514bc4de88f725409212c5e1125
+   __TEXT.__objc_methtype: 0x33 sha256:c1009f2d0c3c7880333113b82cf11ca4860ee7b1fba3e5fd0b70e78b90fb933a
+-  __TEXT.__objc_stubs: 0x100 sha256:e53c28b673fbbe1800365863c847204be50815bb272e63d69d87a4d2f6245eb2
++  __TEXT.__objc_stubs: 0x100 sha256:f00fc5b07888670c6b7495600c0fce73946eded7bdc008aba3eb03d2036c831b
+   __DATA_CONST.__got: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_CONST.__const: 0x60 sha256:c001c61f060a50fb4eb0cbe7c15f6ade9a36a2566993dc618b96853a18c4a4a4
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:61b624941ca40d16f0ca0aa870dd5bf0f94895a35a1093cbb0e32144d3c74ab2
++  __DATA_CONST.__const: 0x60 sha256:d746c35dc0f398ac2bc17f23460d6e8032ff5c60452932ae2c931e63f50f4c26
++  __DATA_CONST.__objc_classlist: 0x18 sha256:e955db4f54bc0a5589993d38705128f8eb865679154796953a87ba5a7b085510
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x78 sha256:4e9b6c9a8ce9901cb8ec3095bbc7d62bf5442b31a1e95ada7ae06dee32b70826
++  __DATA_CONST.__objc_selrefs: 0x78 sha256:e19ede5a9976282be83ff3b955d96e1d3205e11d2b4049e6fd6849993d87f68a
+   __AUTH_CONST.__auth_got: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+-  __AUTH_CONST.__const: 0x80 sha256:a02f34d1ee2f6e9fb7b0dea6b8596bcdd6822dc54a77425f84bb07d4a3e45f02
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:4760947b98c489587f3096e9bf46584d7b4297f5aa4f89058eb43a4e2c9cc149
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:1efa426be66df3d5b5b81281be451bea3937e49b02f8565854b84e0670baeaf8
+-  __AUTH.__objc_data: 0xf0 sha256:7bc74380013eef8627a8aae8ade038017f1c63dc031897f050562047cbcfb79c
++  __AUTH_CONST.__const: 0x80 sha256:75f1736d3963a313e1324ce9ce4656d559604e9aeaa378604f99a7e2f7060051
++  __AUTH_CONST.__cfstring: 0xc0 sha256:56ac4fee1aae38d26ec5865c04308d2f5da94a518edf0917dd7174de3245f0ed
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:9d85ff8678697118317630960e45da808cfe45aabaa7487a3d755849822a6e14
++  __AUTH.__objc_data: 0xf0 sha256:944fb603cf999a4db3b9042265722799646d8693873143972d5525d2e8656b47
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/FileProvider.framework/Versions/A/FileProvider
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C05D672B-439B-3E5C-8B5A-BEB64E4C22CB
++  UUID: 41479E31-0755-3B0B-9601-864EB62DEE7E
+   Functions: 12
+   Symbols:   61
+   CStrings:  41
+Functions:
+~ +[AXCloudSharingExtensionGlue accessibilityInitializeBundle] : sha256 d2fca24cee8c7413d025c41c43a86d4a9a935e3ab747bc833c6bb4de1a668cf7 -> 35964cd92f582eb4c2c09edd6498ccefabf284e148ee803c96f85d404cba146a
+~ ___60+[AXCloudSharingExtensionGlue accessibilityInitializeBundle]_block_invoke : sha256 5114afdda9c38f97aef6b90c1b36e0b3b913045fcda55aeed03152de06e26082 -> b4c60d150730b36ab6a39455509d815621c3067fdc86a07c0599832e84f23099
+~ ___60+[AXCloudSharingExtensionGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 442286e5ae112d42ab9ee4ccc491a9658768d413f97800652586865d07d19bd1 -> ea7ef5048efc7d89731bb4b53401d94fe69ff9addea7c704658bc9a2e86abf21
+~ ___60+[AXCloudSharingExtensionGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 6f11e74434feff7d35fdb51dc26adfca0054dc0341e1a789f3c6874a29533c11 -> dd601e0ad5c2f4d3d7eafc682fb9fbe2d42229a162c285c3e17002f36e35c1d1
+~ +[BRShareSettingsButtonAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 da5fd40fff0b331568f037584076a01fa4044083781d00604dc1a7c46b39f0e4 -> 932ff0118202770b8681bf537d5c57bb24c6e1a8f48ace827a0d3def19172ab2
+~ +[BRShareSettingsButtonAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 cdce9e446ad10750c3de53b96fa8c29c15b2e0f02dc97798c6431dc7ccfafe55 -> 25973042dca88111eb7f010c596882c869980d8b01dc46d2fc5e26f57f37a92e
+~ +[BRShareSettingsButtonAccessibility _accessibilityPerformValidations:] : sha256 ed93038bb15935a549c42d7e5e3fef4db07cda709a4d20b5f67f64cd2dab0f8c -> 57d377eddc333d917206670cb492570b9ccbed8628b67ecbef752ceca28fc1da
+~ -[BRShareSettingsButtonAccessibility accessibilityLabel] : sha256 f3240ccd48568f215fb618c5d13522499d3864db22d6417316483b0afb602f2b -> 33c858a77d9c9da5275071359d3e4365b5f2afd9d39e4c67e4aaf6d3b93f4381
+~ -[BRShareSettingsButtonAccessibility accessibilityTraits] : sha256 1ea2632c2e992c9e5b861ed87f81eb9d2e337e040d757b1da4243111ec810f35 -> 15eec8a7a563796225d2802275164b4efbfa684343ed4d294b0e1da47d3a0d3e
+~ +[AXCloudSharingExtensionGlue accessibilityInitializeBundle].cold.1 : sha256 30f50aaf11fab450feb0a60eabcd6bc9f2c2d7dcb60fffda816b1b1b465274ef -> a08cc5f152898efdc43ded0bb5da1751cb6b61c2ee7a3fab8edb6362eea2d44a
+
+```

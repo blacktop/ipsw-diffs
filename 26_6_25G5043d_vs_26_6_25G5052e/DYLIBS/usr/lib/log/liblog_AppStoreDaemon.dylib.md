@@ -1,0 +1,78 @@
+## liblog_AppStoreDaemon.dylib
+
+> `/usr/lib/log/liblog_AppStoreDaemon.dylib`
+
+```diff
+
+-12.6.5.0.0
+-  __TEXT.__text: 0x1454 sha256:0d3346e874092139e655ea14625feb8f284adb610453517f2586918a4af8f879
+-  __TEXT.__auth_stubs: 0x100 sha256:43425da48d556f0eac9561aea0badaa3f76e87baf67b88b79b597a32cb60e5a7
+-  __TEXT.__objc_methlist: 0x104 sha256:4de6c81563eb3dcee43ed2cbdcf929bc83574ab677d40e9626653be66a685594
++12.6.6.1.1
++  __TEXT.__text: 0x1454 sha256:22cf839af506677f6b1b64a2818bca3ada56ddec547f3483ae52970ad35f0a74
++  __TEXT.__auth_stubs: 0x100 sha256:6776558b84cb07cb1b872cf73ffd926c37df36e2c9c789b93e7e3fbf66035017
++  __TEXT.__objc_methlist: 0x104 sha256:2ddc84bcae1dc5546dadaa6b63b922dca424364ee9fdc1a46765d4934d20cca3
+   __TEXT.__cstring: 0xdd sha256:cab81a645c468ba09a39e10ef7155db259223d8adb973d23d4325c9a700f95a2
+   __TEXT.__unwind_info: 0xb0 sha256:fb38e2ad37dbbd20524421bc99a61d78f70d0f3d61e59af568f2f9f49dc009da
+   __TEXT.__objc_classname: 0x3b sha256:b8871f266a9a8c5ce468a5ab4b6da309cbdd7dbdf23f8e0e251caaa527dbdce9
+   __TEXT.__objc_methname: 0x1d4 sha256:cbb5e4c236c71fa53dbca130036cc9b915bac4c17f0768ba1f63258994a0915c
+   __TEXT.__objc_methtype: 0x61 sha256:5f89b35daad8e9b52a327f8a0eb74fd58aa50d07134737ceb2dbd73c4ef04850
+-  __TEXT.__objc_stubs: 0x360 sha256:1b7410b7bde3ff18fac0cddda0bcd6f33e9c10950edc550d36273e8c432119a9
++  __TEXT.__objc_stubs: 0x360 sha256:d65c6315ebe88c311a110d25dd7852552a309dcc2fb6d8e0ce272fc3487e52a0
+   __DATA_CONST.__got: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:661ea2e3f897de77b217ecf829e95612f3595c08d049ac9d0e61a75d3c168322
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:fbff5933ab1af52157751b63dd3b95df19b96cff1122ca83a46f357917c059c9
++  __DATA_CONST.__objc_classlist: 0x10 sha256:1a4be2b0d84748f9292d98abd414bd90f3a2958bc371e12b44a143f83f21ec5e
++  __DATA_CONST.__objc_protolist: 0x8 sha256:e2d5ead2f05f650b3e5d04054d0c3a9ce9b772f0249d5c3ea2d14a3776044a4a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xf8 sha256:01917ae55cb1e958c228c66d191d3004d734a6ca2fba5369a3c1f8205f438917
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:70f6c249a22b9c97b6d9ab938bfe6c15cc77b76a9a86b288d4126a7a5544b93b
++  __DATA_CONST.__objc_selrefs: 0xf8 sha256:91b38e1c4c71dac58aad680c8939493510c5910e333439391cc595811d7453c1
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:f9c00beb5480db081c08e0b67f59320a3d1b2cb7a9788357d4865503d376c4f7
+   __AUTH_CONST.__auth_got: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+-  __AUTH_CONST.__cfstring: 0x1c0 sha256:ecc49a98d0a4b7b5c25d4eebbcdc2f98a470bc1f538cb316d20edc63d5c74989
+-  __AUTH_CONST.__objc_const: 0x1e8 sha256:0f893777a765289b598c532f835f5d24bd6dd8adba948e1b53b27885264370de
+-  __AUTH.__objc_data: 0xa0 sha256:c2cbe0b601a6c1477482e52ffaa4180bad9984360f09c5f98f3ac22ddd380c52
++  __AUTH_CONST.__cfstring: 0x1c0 sha256:1b33a8bc4ecd3946613150ec47368af8d98e6136f88669eab4b46260f043cebc
++  __AUTH_CONST.__objc_const: 0x1e8 sha256:5b6942fa5c82fafbe6a3a896df4a04150c0be75ded7ce84f5f26ca46f9065a0d
++  __AUTH.__objc_data: 0xa0 sha256:6ad1c214105cc5b366b156e9381c6a5f5779f45a5f45d17f841b16b6d6a458dd
+   __DATA.__objc_ivar: 0x10 sha256:4e9a042c6c4f20cf76391140f76f1a2eb9d3e8d9cfc4bafe52b9293bdeaa1cb1
+-  __DATA.__data: 0x60 sha256:d36a658cf182102adb9ca393ad4b963bc507a39604ab3f26495f1fa24e9aff15
++  __DATA.__data: 0x60 sha256:4a0f7414592b3e806f1fea74859282f4909c9ee2b6759c460af58950da64b2ad
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/AppStoreDaemon.framework/Versions/A/AppStoreDaemon
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: A31EA8D4-6C80-3C3F-AB77-864ED567AF62
++  UUID: FABDA2DD-CA60-3F0B-BF79-103621DA4B94
+   Functions: 25
+   Symbols:   103
+   CStrings:  75
+Functions:
+~ -[LogTransactions(Extensions) formattedText] : sha256 6625f39927b2dbd177b7ab7208acf8e607a8c634aefddf766426adcad6e835eb -> 790341c26386af73cae7b82f38a280cf092e4bf7120b6a1c59b178510d47b516
+~ -[LogTransactions addTransactionID:] : sha256 f12aaf99c795a4a0f636c82b221d8b372a6f64364fdc97b96742daeb7252de95 -> 91e6be64237e1686557dcf1c1811b65fe3331d7802a26955dba12dd0c5cba28b
+~ -[LogTransactions description] : sha256 6f24f729bff3e20ca151fff203f8bea4b1d7b5ce7d00b6a75c86bd7a677e56ef -> 8fa057c9c575b9a182aca21c4ce12c73dc17446d705f4a4b35c61e37c401574f
+~ -[LogTransactions dictionaryRepresentation] : sha256 91a0c01dd5c04f6cff373dd48f6a754f53b568403e8b64a503bbd6f34672572a -> 8bcf6ad1160eb1a9e194e6eed031ffafdf494261320f03612cb2563101ed1c58
+~ -[LogTransactions writeTo:] : sha256 4cfc0e0aa023b86dc0766906005e3080bfccc4c7913def1a6c3e223f9bf4348e -> 5bcae0c5d787bef953dc6f2e171b1f7e2e1042006d02786628638fbd7fe7bfc2
+~ -[LogTransactions copyWithZone:] : sha256 df02773c54355d77d2e62314e708f75da842216c8160fd03669550978ce58c06 -> 21eaac3b71f4fc611d28558fcd22de56da740fd13c5f3db56adc5e4496a0c9fd
+~ -[LogTransactions isEqual:] : sha256 be4a0059330ab1f0d84a6119930e9767fe97c54bb17623cd71dc06822f770b22 -> 9742ab3dcdab3f064c5f5162302c4993313fc19c2e583f7f5ac6196f024e756f
+~ -[LogTransactions hash] : sha256 60123386eee664830a06f9131a67f0bef139e58096130e5743147a22cf9f58a2 -> b7fdae1bf76c88b8575adc3530b001df791ab844f3bda7f4c4f521093a81b5a9
+~ -[LogTransactions .cxx_destruct] : sha256 2f8bd390db16004ac56cc69ea06180c6427c48c0530bed26010b05f988600a63 -> b1ddc402d288213aa79040984161cb6b37d1c3b00da336ec46f4ec1ae572d35d
+~ -[LogPushConnection addMessages:] : sha256 daf2d822654b59408e50ac99be8c639ee31800504990d850558fa468d34647fe -> 5866f0aa22a9e96570eb6a8c485486274d803636c9dc2714ead7bbb11b778c71
+~ -[LogPushConnection description] : sha256 63de71347ce26524f114a225c1b13d1aa1d94515c875418c504e2448904e01c7 -> 78bb65e38d8a25c7b8b6c2cd60f2a77c7d079490773cb8c89b47a3f712247170
+~ -[LogPushConnection dictionaryRepresentation] : sha256 530f145a56480a3ae4b6646ee964b6aeaa90b852d78616512cbb9ff83328d0f2 -> 606d71ea999cc9b6d2ce2dc57aac7a0ac488377d147dcbfe478d183b763ff782
+~ _LogPushConnectionReadFrom : sha256 816e135f51a4a431625e75642f8802c22f33835fe5ea1d448c6a4e15b06954be -> ad3972e5421ab4ee197064ac0db5c8eee1aedd7019f47fb64ccb3405ca678b73
+~ -[LogPushConnection writeTo:] : sha256 0bf313dfcec88e83740b33dbd70c580acbb61b50fe0fbb6a8d849f6e54d8c6a2 -> 317d0add25a2569dd524b7b6e6909650a145de30e976dd50fb23fd70da21f8d1
+~ -[LogPushConnection copyWithZone:] : sha256 ad2913b663078362f967f115c61f66fa5e033700b62a9adbcb4523492fbc8558 -> b7b22abbbc4d7b7695061588a001a43168737fe7d9370758dbf4292b01891246
+~ -[LogPushConnection isEqual:] : sha256 7f72d84e62637bc5fc7f621f32b92d0c11821747c6fc6822c74a016fbac6b7c8 -> eec5af7a4b9dd233a74d5babf016239b8a7a979439a32a6f48765ea8a9ecb953
+~ -[LogPushConnection hash] : sha256 98219fd48fe38a54a8d35bbba93c974630253789d07d2c7b1776a544d2581aef -> c5ae32ae67e6073199c91c75d396a09612aeb0bbc60100589598a6c488b3223f
+~ -[LogPushConnection .cxx_destruct] : sha256 eb6e3786bfa8ff1b9f42a1aa5f74dddaf42ae30f9986c1cfd022f05f4a234097 -> 0a7d401d64f90a71097f92ed30005b1d77c58da28af440ce34ed216517a4c0d9
+~ -[PBCodable initWithOSStateData:length:] : sha256 0c65d696359975067e03c1bcf262fb4bcf67aea6e7e548a745bc92994fbe080a -> cf46a4443cd3d090865ee377ad1a46c6a4c985ac1b672bfb55eb30ab1cc333c5
+~ -[LogPushConnection(Extensions) formattedText] : sha256 6bd2397d6680dac0335aea554cdd0192467f47b97eab5a8ba8aa11e79e8a3a4f -> 2cfad4dc2e49e96383d027c38df8772b654225c958fd9b23594e229228d04937
+~ _OSLogCopyFormattedString : sha256 730683bf40bb464489360baddd15198d484d565918577b8fd54f374bec990462 -> 3fd21ce876e6d11f8ade68f0b7da9c4f6ef7be2647e0c10ae126e2a6abffe8fb
+~ _OSStateCreateStringWithData : sha256 2d0f8c0fe304d5165607f852c1999e4144389f0469e475dcb9a8962d15fd5ab7 -> a5b905e1b96e53b87870771a9dcc1e84b5a03dae4308e4272876f8c804f05dfb
+
+```

@@ -1,0 +1,89 @@
+## libSoftwareUpdateSSO.dylib
+
+> `/usr/lib/libSoftwareUpdateSSO.dylib`
+
+```diff
+
+-1837.160.12.0.0
+-  __TEXT.__text: 0x2b04 sha256:29c2ca94952e2f0139b418522570b43ae922cdd529115d071862783366d23974
+-  __TEXT.__auth_stubs: 0x280 sha256:2cf56619d0c83b4a7f46b71b32c82c35c92ff77f2337f196761c301e439fb5a7
+-  __TEXT.__objc_methlist: 0x3b8 sha256:55b36296a2a7bd93999ea90fb56c0ca2b1ef35f774c835c56698656974da4dbf
+-  __TEXT.__const: 0x60 sha256:101bbf6163a2cb3d637b285dc83bd55d0c139cc65bb18270f7c4b8c246a17462
++1837.160.13.0.0
++  __TEXT.__text: 0x2b04 sha256:d2561bbaa786807e413ddd5cfecfb03a6eae81fc45ce5bb3d3d9c4f4aa11e3a1
++  __TEXT.__auth_stubs: 0x280 sha256:b6af3ffa1d8fe4d6c4d899a5c4d7613935e82c81119c7e587ced0737928243c2
++  __TEXT.__objc_methlist: 0x3b8 sha256:840840a79ed7095068f9b3b176cf5131fb2847a4b58b827cd3f93bac83ab5c68
++  __TEXT.__const: 0x60 sha256:3aafc10b3d7a8bbb83d1cd88f5e80b29c52b59691ed1da756b619e94e5641fb4
+   __TEXT.__cstring: 0x286 sha256:0188a1f49a079b043227abe9cf4f4102485cc180a4baff81de144bb48e3d9a82
+   __TEXT.__oslogstring: 0x52f sha256:8617b70ad837acbf9c34c5c49a7d12e7e1aa3afdd707db7009ed243e2bf3722d
+   __TEXT.__unwind_info: 0x110 sha256:8bdbfbaf3293689d0b2cc3ea9b0ff822286ceaaf8fb1557d053495420d9573ce
+   __TEXT.__objc_classname: 0x9d sha256:e862043ba1c541321da1b249fb35009e57834a5933a9a9b2989548c6afdb91f8
+   __TEXT.__objc_methname: 0xb84 sha256:704b8f2e94f301fa4e088321d597c0fc305b9c207fc2d8212052dcaac6500bc3
+   __TEXT.__objc_methtype: 0x2e8 sha256:215360272276746c23a3283afd9d910b83a683dcf3848c98db601d0611a936da
+-  __TEXT.__objc_stubs: 0x9c0 sha256:84c419b6699d29562d2acd0df6c77df75dabe206640564e62f8b235946deeae9
+-  __DATA_CONST.__got: 0xb0 sha256:2dc611dbe626f0613b79f7902d3194fcf12f21270467a027366f65e03a6fa2db
+-  __DATA_CONST.__const: 0x88 sha256:a6abba5f11923fd731eeab2c02c290df4eac081fc15c7d7b54a2068f71016fe3
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:3aa80cccbe9fdd0965db9d170b3a0cab7c67e6cd6bf00addb267469784a76bba
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:f88a52d7910c519c6382d1b18a5c5e97261761198fbed5306e4b8cc4563265bb
++  __TEXT.__objc_stubs: 0x9c0 sha256:e521eeec0ebf5b8b717b948e73f0bf988ccdb1fda0eb978439277fc937ad13c3
++  __DATA_CONST.__got: 0xb0 sha256:241105a722bcdee48c25743c474bf83c4c8113c467f3eee75dc79415b51264a5
++  __DATA_CONST.__const: 0x88 sha256:7c38caed101a098585d8469d13efed9c86ac102af1cd95a3827434dab57cc54b
++  __DATA_CONST.__objc_classlist: 0x10 sha256:62fae7e59c038f9ae7f06500edd7f9d3234b634c119f69cbaf2c985fa77db79f
++  __DATA_CONST.__objc_protolist: 0x18 sha256:79fbcab5fc5f1d7557356f077d3104db8401105b193c5fba4fbeccba706f7d1d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x378 sha256:ddd6664e36773dd079643fe5d56b18e8ca850d2f51cc4e536355e36da4d978fd
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:d71dc28fb9edef038cc3d8f397b7abf3465486b9c9d24cd42935bb3c33c9ec52
++  __DATA_CONST.__objc_selrefs: 0x378 sha256:82a4f06efff771106c2bda0075f020965cc8e73e27e77a1e6c145fe366d1e4b5
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:246175983408c811a5a4951fdbd6839bb92c308f487d6b9dc2b057e170dc08d2
+   __AUTH_CONST.__auth_got: 0x148 sha256:7b4499c3cc6e82a9da3100028f52af7f8c1e9ee60e33010a108e401989782962
+-  __AUTH_CONST.__const: 0xd0 sha256:40eab73e575acc30f4ded16c84b766c960958094e6da94be0312d18c4ba6fe9e
+-  __AUTH_CONST.__cfstring: 0x480 sha256:3611e59789471fe64500f872db5685174b5f369af8500001e6a4fa19b12eb00d
+-  __AUTH_CONST.__objc_const: 0x640 sha256:d2f9b88ef74650fd5662ad16f1d4fd6317c3f96e78e653225de39f4eec65e533
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:d00e442823fb51f30ccc100d1208333a2feb0d3fffb8cdc0e0d44561c0590943
+-  __AUTH.__objc_data: 0xa0 sha256:cd1758926f7b291d3f9a5d296d1f9428a5d495b508ceb4d44a807c50775465c9
++  __AUTH_CONST.__const: 0xd0 sha256:dcce3209c461c8040fc08f115db785d466dd69a5cf2345779f290a3731358491
++  __AUTH_CONST.__cfstring: 0x480 sha256:3e945e73b3a2c6e24253b105b4e944f797502b4c9ff3f76e973acda66b81074b
++  __AUTH_CONST.__objc_const: 0x640 sha256:864c90a3353d3586458ce7cabde3fbbd6c12365a5fa581fbea382f71392f0850
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:f3fbe9b913e1b893bd15cedaf8ecb48d1cd8dae3bd72d6badadd6c3711b24067
++  __AUTH.__objc_data: 0xa0 sha256:2babadc75270e6293bbea3337be479524e55e3dccf1d36415d7afa91faa8109c
+   __DATA.__objc_ivar: 0x44 sha256:3c8bc09d6ba182299d1e36fef445b01617b6918ef1d5e19d7d6889353789ff0c
+-  __DATA.__data: 0x120 sha256:febb68c3ab839249de0d05e9e60bccc92469a82e9fe232703655a902bf805f51
++  __DATA.__data: 0x120 sha256:3357c7d47c051376bcdeb15daa57b1702ab67e495566da37a716909dbce76e4c
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/AuthenticationServices.framework/Versions/A/AuthenticationServices
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/SoftwareUpdateCoreSupport.framework/Versions/A/SoftwareUpdateCoreSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D6279ACB-CC00-3688-84F3-13799A4094FA
++  UUID: 97900926-E087-3873-8AD5-51DA5E1A2F05
+   Functions: 65
+   Symbols:   280
+   CStrings:  289
+Functions:
+~ __MAClientLog : sha256 204be08d299e7053fa4038307649d548fc83ed19463722b348c2408a1355f316 -> f2c1c4e395b917193e031e26619f65260a441ec03887bb164b77f12ed4240980
+~ ____MAClientLog_block_invoke : sha256 3c4245021b64623b67cd60b7d84cf2f37210f602bac7fba1e13b925485f7ceef -> 3b0f3d6094569c12f0fc4310231532483b3e1ca8d1fdcc62c8e0820a96ef817c
+~ -[SoftwareUpdateExtensibleSSOAuthenticator copyQueryItemsWithParameters:] : sha256 731414d17a3cfe100277740dd69146f667624f19d9c28d54c4b04dc2523addba -> 77b4ccec062493c6cb01736075c5092a9639762d15f956eb5e711439686d800c
+~ ___73-[SoftwareUpdateExtensibleSSOAuthenticator copyQueryItemsWithParameters:]_block_invoke : sha256 f42317f9d3a495692eb544b1e7de7370e80a287e26c6f307577f6c705a7ecd4c -> 8c488e069c9ddeeb17fcc474c9680949b446c4a9d06a4c13877b64cc49521432
+~ -[SoftwareUpdateExtensibleSSOAuthenticator authenticate] : sha256 c66e4e99e0c215034edc4149a2b8a8704e3a392c044958cbb2d5615208714ad7 -> ffe4bb5889de81b3e2d17f51b9fca36ae01a44c935fde0f61cebc862c002e2b4
+~ -[SoftwareUpdateExtensibleSSOAuthenticator authenticationSupported] : sha256 3ffe8512823f977b3ac38c31b6460d0e752b7cb2c36248b889f1f6761f83a552 -> 09972331e2337a442211612932b34add7e9f0f1bb98c357e7804ddb4dac5f0cf
+~ -[SoftwareUpdateExtensibleSSOAuthenticator authorizationController:didCompleteWithAuthorization:] : sha256 2ce6bac8cb73a98cf8eb6faa739ef26ca9afe955d28aa4fc9c20b240d47bb9c0 -> d85a3b30aaed38d33ff6d807fecb00358e03189f14d149110fe285755a91f27a
+~ -[SoftwareUpdateExtensibleSSOAuthenticator authorizationController:didCompleteWithError:] : sha256 59a41627ec66800600fdb345a040e5b1fbd59db4eaad84c7fc154edff7750bd7 -> 0a3f95f7f651b513a9174318922189119924af77db9cb728d9410b74a36e7bc0
+~ -[SoftwareUpdateSSO buildSSOError:underlying:description:] : sha256 2cb86d49d819894a46aeaecb0ed55c0040b53c1fef59b312dc1d900e1a7c4a4b -> b8595fcbe4214e6c386046b6a3400f0251e2f6befb6760f1ff8ac69503fa06fc
+~ -[SoftwareUpdateSSO initWithOptions:] : sha256 a0b453e94ee449fa2a19ce6d6734a42bc95c0ad1eb0e41628693f05bfab1c94c -> d8782fdf83289493e30a67d8f8dc1ee70bc7d392999d453f9fa21fb339d46e73
+~ -[SoftwareUpdateSSO copyTokenFromAuthenticatorResponse:error:] : sha256 9726bee484731601bef86731ba88d11fe9a52e3e7eebee1988f9b8cdcd76716c -> d63b9e84b980137c171fe351fee23802b0bdfc44b95e6e600e6521df34bcd08c
+~ -[SoftwareUpdateSSO callerHasRequiredEntitlements] : sha256 2902056167d089ed9431dee4ef833285a2a0ba72dc26d5cd8181cbc100936e13 -> 4f3450625660674e45f53cfca0d966893a5059f6c4da036aca3a3108082c7d48
+~ -[SoftwareUpdateSSO copyUserInfo] : sha256 c1c1e8b2c6dec84b1506bec0e2abae97116ddd5460121d92159ed4521c9e9aa1 -> 58e022b5e59b69df605bd2d3e9c82d4c2a89e3de4b8e805e1edf518bb080ae5d
+~ ___33-[SoftwareUpdateSSO copyUserInfo]_block_invoke : sha256 d2f3364a5af7fe58e8ee5ec2606d9998217635bf6c4ed067322e3bd11500a612 -> 14277dba1cdde9e8c31601a2f197e70a74e9d26168dd90138ab174498345b901
+~ -[SoftwareUpdateSSO getDawToken] : sha256 dabddad241551b87a23ce970b16e12669f7085942e6494cc9e02e6bf7d484b84 -> f88c4319badf328b10685987e50d74fc547e56a93befa9dd714f787b548eb832
+~ ___32-[SoftwareUpdateSSO getDawToken]_block_invoke : sha256 2047778e69fb6e1c29bd4efb321bd83a5ed0d0e9b50cc3ce3ddf5d400e0494a7 -> ee88aa6e37da3f5799c13b13337a04334e46c935ebe3ba7392991cbffc9995fb
+~ -[SoftwareUpdateSSO ssoIsSupported] : sha256 9cb8c4efe18f2583c75a809db2c865df1f4f55996492f92ea7b50cef3a54b32a -> 5fc9b8065efec49b5bd5f0bfe8541e576b681ca9b4e31f67f9bb6823032e831b
+~ -[SoftwareUpdateSSO authenticator:didCompleteWithResult:] : sha256 183670496fcafabbeaa0ff25beebf558b3d0a1e40a6c4174b8cb56708ca35348 -> e151aa93b2549633c0e6a341709cc7465939d14f4df2db14e51ff5fa4b5ef646
+~ -[SoftwareUpdateSSO authenticator:didCompleteWithError:] : sha256 289ff08f34115ebbd9d87b23821f43c3cb72ed04142b2206427ecb3ff93a3ec2 -> c934e17effb36cd6fdd9b0f31c205e8877bc0f9a1cc38b6d4cae544997ed2644
+~ _copyPersonalizationSSOToken : sha256 a1ce2028a3014a3c92388fbdd648751852ca5b7ced06153b21aa9a9f7f46b4ab -> 2d77cc76ce50a7926c0a09b88626ccfe27a01b4e7c1e9d0084a54bb84a61b079
+~ _MSUSSOIsAvailable : sha256 be0c5344d419ef7ccd968c4b1e81a0dd3c7bdc216c92fefcbfa5b8aa73e6ce89 -> d40f51bf21f3067690883275862d13b8ea817818ece64bdb7b3ff16b420b0425
+~ _copyDawToken : sha256 c045bed3f5518b57c5f9a23e0aa93b1b3ecdfad178c6c87127968100ba784b84 -> 08dc7d698d95f7cd5a6cb11a3977d26fa3f41bbd93c490b9bcbea770943c0d38
+~ _MAClientLog.cold.1 : sha256 2686be3bfaa6633cc1fe57be121c9e868efc7a39c70f5f15f1fcc6c639fc2473 -> 67f513b8cdcdc2723afb941d0574b0d8e6646ac0fc728b7d0de6f169c4441250
+
+```

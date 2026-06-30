@@ -1,0 +1,242 @@
+## ManagedBackgroundAssetsHelper
+
+> `/System/Library/PrivateFrameworks/ManagedBackgroundAssetsHelper.framework/Versions/A/ManagedBackgroundAssetsHelper`
+
+```diff
+
+-1.6.1.0.0
+-  __TEXT.__text: 0x17ec70 sha256:c2f50e515093f1203e2614eceb8ffdbcc64098e106cca756f7fc022312243483
+-  __TEXT.__auth_stubs: 0x2290 sha256:547b274df045e5bf2cdfeb48d57af6aede63758f32600df62e920f35def3ef5e
+-  __TEXT.__objc_methlist: 0x1e4 sha256:1af3213ae74e3f6e676f3217afd4953a93392121920c786b4b48dce99b0893ab
+-  __TEXT.__const: 0x13254 sha256:22343873ed419da6bc6c1157f0e68d9e89347bfdcb4fa9e4cba5682e341edd2a
+-  __TEXT.__constg_swiftt: 0x2d2c sha256:debfa5418d65d95c5cef6724fea008c954641439dcdbd2dac9a3c810378d7df0
+-  __TEXT.__swift5_typeref: 0x497d sha256:be517b5c1fccc226caa69312c30d65d3ca37c206c42eb596635b89f159fbc346
+-  __TEXT.__swift5_builtin: 0xa0 sha256:a6e23e032a56ee74187ae2796107c4eecdc6a91bdcbc32fe97738479e5ece93e
+-  __TEXT.__swift5_reflstr: 0x1a28 sha256:212110b16d37b02f8c9f8b1687947a1e4a2d1cbaccf6e59790b88a972471f768
+-  __TEXT.__swift5_fieldmd: 0x3498 sha256:17e141ddae389b874d4e154cb38d64fe8da3a94408ad073eb1b0fe14b3ecac67
+-  __TEXT.__swift5_assocty: 0x2b8 sha256:fbaeaeb229da8cb5fff070371e66e4da9b3c8f7ddc24c8e2ce946a1de43e1fe4
+-  __TEXT.__swift5_proto: 0xff4 sha256:e22989aa1e730fa50364e25c70a0d5b8a7be8bfecf70a85f89247f160754afb5
+-  __TEXT.__swift5_types: 0x430 sha256:69acacd9c952a045bf2f0a8f960a69f7642e0e23306269c36d13677d28519d1d
+-  __TEXT.__swift5_types2: 0x20 sha256:552b771047c003dde2df6fab2f3218e82c598176303d9f7577bee7eef8d16c0a
+-  __TEXT.__cstring: 0x3dac sha256:1c28dd3eae5f75ba747a109eaa0deb2d24dfea8999add118b3f470e758e856b0
+-  __TEXT.__oslogstring: 0x76b5 sha256:fbc31b854af59bf519244c3a06a6a0d5a98e156ef31574bcb5855c8f7100c681
+-  __TEXT.__swift5_capture: 0x11c sha256:e16dc81c3a5e4206757a9683a1be5f2647155a7f47d5cafb45c14ddb820bc434
+-  __TEXT.__swift_as_entry: 0x2f0 sha256:80d76762614d9c78ac82ff83c0d3973af5e23c450114e902679e434b6577e64e
+-  __TEXT.__swift_as_ret: 0x420 sha256:f8078e85c82b7401a6dcb7e076b4307c13617de8b61ee51f9c25f850af66fb8f
+-  __TEXT.__swift5_mpenum: 0x30 sha256:cf196bbf97594aa3277ff7c7a51fff7124a985adb85948c93e7db140e164bbce
+-  __TEXT.__swift5_protos: 0x10 sha256:c1999b9d42f92fac4ff647b9e7647f2ceb755273970346e297a0abbca45e4df1
+-  __TEXT.__swift5_acfuncs: 0x410 sha256:39fc26d7f1f555a1ffa10b85e40bf6f8407e2a9fb2daa3ffe5d5480761eb7308
+-  __TEXT.__unwind_info: 0x51b0 sha256:6a86bc53c4b3b9d2ecfe15552fca347d2ec686b1c3521acaf27e51ee84fc6ef5
+-  __TEXT.__eh_frame: 0xeeb0 sha256:45f5219883b376d74235fd65a469d8a8f46f3ac95c9411b1362f6527cbc4d0d6
+-  __TEXT.__objc_classname: 0x4f2 sha256:bdc194040695345fc6cdf152cd808aa11bf073365449db24854fdebb1e5d6840
+-  __TEXT.__objc_methname: 0xd0c sha256:85eca8beb41e86bf2928cc7f60ecda1bb6864732f13c66a8b3bb015e2b32e953
++1.6.2.0.0
++  __TEXT.__text: 0x18d9a8 sha256:1f58a22be1c2872e8982332b4efdba467e415e6d644f54fe80fe3889d52f8836
++  __TEXT.__auth_stubs: 0x22e0 sha256:3ab2ce21d8fe499a643952c98d2bf338fa0f7b92f3706682324bde6f3b9f9261
++  __TEXT.__objc_methlist: 0x1e4 sha256:98814125bb57c72a7b67c9dd479123198c51f02d5aace2ebc7a94b8600fc9f9d
++  __TEXT.__const: 0x141e4 sha256:3bab19bdf081dea3c6cd3d8060fac299fb5b31920a3742940ef847592ef9b0e5
++  __TEXT.__constg_swiftt: 0x2ed8 sha256:3e99bcea9239db2e4772e89ea010ffc1ef682696f3a89a5b72907f669f310577
++  __TEXT.__swift5_typeref: 0x4c8b sha256:b4037920d9038bd8bacd9d98e6dda5dc445edee0e16cfdb7edf605cbb24d93bc
++  __TEXT.__swift5_reflstr: 0x1b38 sha256:250345261f2ff6e8cc566a1eacdbc9b4686a453789376b4781c02eaee206cb62
++  __TEXT.__swift5_fieldmd: 0x3628 sha256:cb365625ab07dfe130b5fc91b5d8e40f777051e898a7f9f7637b2a93aed32548
++  __TEXT.__swift5_builtin: 0xa0 sha256:268c520e83718a39d3ee3da8cc5a37452905aa83b776f7f8c685c921cf17a22f
++  __TEXT.__swift5_assocty: 0x2e8 sha256:7f88bb3563cb096b155a76fd99b4ab9361108e80f95435e9e50d2813634ba1e2
++  __TEXT.__swift5_proto: 0x1080 sha256:b1cc045bc8c298ebf690813b31b32e94191587b8689218f99a1975434bd66ebc
++  __TEXT.__swift5_types: 0x458 sha256:d7e965c99704c3c28d4195a2d646feb37076f53c5128a47eb49938d25f18e27e
++  __TEXT.__swift5_types2: 0x20 sha256:29a935c66e85da15bd82d3638763546dfd25311ed2e36c6029349c94bad85b7e
++  __TEXT.__cstring: 0x405c sha256:b018c3387d37febfcfa878ff4e955b2b3de292b952274522021eacc568b1f170
++  __TEXT.__oslogstring: 0x7ec5 sha256:e57aa40fa90a9d288681c0c21ad92064e2df79fc8f73c2a85d618a946206dc2e
++  __TEXT.__swift5_capture: 0x13c sha256:087020bb9b236e741390e5e4b8307133b0d559ff3e58f76deab2f475e31948ff
++  __TEXT.__swift_as_entry: 0x324 sha256:16f931290fa3bcfaa82a14f0f95c659002e14d89a1bf2fb8cd9a0549c20c20b1
++  __TEXT.__swift_as_ret: 0x454 sha256:720d7edb31f40e2260367bfc5e457280c26f8d0416fd6cf6041bb2b2220c4649
++  __TEXT.__swift5_mpenum: 0x30 sha256:6e7e0a17eb2222b5b003278bff580cb2267ceff7f50b46ae9febc1f851905a0c
++  __TEXT.__swift5_protos: 0x10 sha256:a0fabdf546dfb37fbea9c23a8df311a393b9e2c0f8a23cf9779639678d4d883b
++  __TEXT.__swift5_acfuncs: 0x474 sha256:a1725483e8debd54fc94ed2549b4719937e4c12a208a470267d2052277e299a3
++  __TEXT.__unwind_info: 0x55d0 sha256:375b9711086f3fd55ad162091b93f4394f7bfee4ee1eedf39f804406f15ba612
++  __TEXT.__eh_frame: 0xfe30 sha256:6498254dcec1ade339c42847a7c872220ac8133dfe9a0b14a40e176ab3c804b3
++  __TEXT.__objc_classname: 0x532 sha256:a3a6e750bc89bbad83f25c19466ea6e7835fe4eaa82c2e6dea6b73caa65ee072
++  __TEXT.__objc_methname: 0xd6c sha256:8d81c2a63fd253588810d325c67bf235fe0dff17820465ddd934140f9a25b1a6
+   __TEXT.__objc_methtype: 0x1e2 sha256:26e65272b83e62b0872c11bceed7701f92d38db73143294a74f5778518f459d8
+-  __TEXT.__objc_stubs: 0xbe0 sha256:828ea311abefc9b67f3a6c6f8836b27df11c3a1588a134db874affe27d1864c9
+-  __DATA_CONST.__got: 0x728 sha256:413f6e5f62098e97fda9aba97a94d03d464cbbfcf6cde5225c66b53284c1db86
+-  __DATA_CONST.__const: 0xb0 sha256:924c3726820f54ec263ef54a55546683ffabd80461a954dfd0aa9846b6a9b102
+-  __DATA_CONST.__objc_classlist: 0x98 sha256:ea70258a26687e047498c4262f8e64ee3de93af0ba427c7c90f978f3a0abba78
+-  __DATA_CONST.__objc_protolist: 0x40 sha256:5ee42a0f4727efa7bb31efb5660e1438fa2ff58e97d3b055ade88910507cdb4d
++  __TEXT.__objc_stubs: 0xbe0 sha256:f1d37fbfb2ce812db612d1a040cea57438b12c815840471ce0b977731d996cd3
++  __DATA_CONST.__got: 0x748 sha256:a856205a99e673dab8b12368cc5352d184f3e3ffb734591917fd57f3647ba38b
++  __DATA_CONST.__const: 0xc0 sha256:22500de120cd54ca74c2b4cb3dc058ed1945375a2848e4ca98dddb9d6373aadb
++  __DATA_CONST.__objc_classlist: 0xa0 sha256:ccc3a6cb30d2e5bdb36770093ad3c7e83b41ed5e96617720722a15fb092bed83
++  __DATA_CONST.__objc_protolist: 0x40 sha256:ac3a3c3156914316911108498f6cdb71c52e9210d13beb13808b47e711bf6b25
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x3c8 sha256:08db8296485d813ae0b6699cc54b8e1c51624f15f1b33c3961e7cf1cf4cb83e7
+-  __DATA_CONST.__objc_protorefs: 0x20 sha256:ead018e736b3a6e2297f232611d7cf63f01688026f61be3b84a6051f130228e3
+-  __AUTH_CONST.__auth_got: 0x1150 sha256:c76cf87fee8e1a0775616d397868f69807d1e9d4fef7e5e65ac8d048614d8d09
+-  __AUTH_CONST.__const: 0x6ef8 sha256:69533c74518e9dd36936d55d5d7cafb510d847a86fd64dc1a5f89fb956491ad6
+-  __AUTH_CONST.__objc_const: 0x1268 sha256:c3fe79ac7310f8b4e88c75e05e194597c8059acaa5750603fde32bd45914e7ba
+-  __AUTH.__objc_data: 0x210 sha256:af6769e787fe538b1f6f611c7c7ae318291a4e45b3d41c93ef8c6176f9fed775
+-  __AUTH.__data: 0x800 sha256:98175855a96e95ec669f5316fa9465a994927c81187817e73734ee7bfb9d9841
+-  __DATA.__data: 0x2ed0 sha256:aef3c3f036c40f16506639cc048ad42f747e5741a4e0de075d375f533eea378d
+-  __DATA.__bss: 0x1c280 sha256:0bdf89b95030ffe68bd5bdfba66187571dd8a1ee0bcb3924f882cb09d341126c
+-  __DATA.__common: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_DIRTY.__objc_data: 0x230 sha256:7b141c930db343c848b16301e2a52e663f2aa1dfdf5b15bd213a59bbaec9e63d
+-  __DATA_DIRTY.__data: 0x1d58 sha256:0bd611390784fda307c654e32425845795b65751912bca483d04306acc56ab73
++  __DATA_CONST.__objc_selrefs: 0x3c8 sha256:627de5d4a22c22b70fe324010293e8b80151810438ae4ca66b52d954a30158cd
++  __DATA_CONST.__objc_protorefs: 0x20 sha256:ae2ae9190a88cbed772210020370483bf25c8a10e4cf7c16cd55eb651192af36
++  __AUTH_CONST.__auth_got: 0x1178 sha256:ddbd7d7f1c4e9216892df57be3da7ebc7bd08458ba1c7b34c27f6bd6646ebeb6
++  __AUTH_CONST.__const: 0x7300 sha256:3da4a422f625acbde9e0ced81ed81561a8258dda022b6d8f8fbfc2e24bfdb2a6
++  __AUTH_CONST.__objc_const: 0x1358 sha256:9feee266d67b942d5307748f12baea76b52747a573fded5bca5c4baaa0e8ca76
++  __AUTH.__objc_data: 0x260 sha256:00ab985a9935259bf95e152a28f08b2d8e47f7d6ab106e1ca49b8520d35d0329
++  __AUTH.__data: 0x8d0 sha256:6c17468604f9947eed29e2668c6ef21a33b26c94eb2dfe49fdd81ef5349114c3
++  __DATA.__data: 0x30a0 sha256:5916b9ecf9c33d10668eaf645237c419663fd1845d4e88628a854a2c772b58ae
++  __DATA.__bss: 0x1d450 sha256:5957389e08d56ef862f26b9d1f2ab4e016edf9da1b9d3a34b4e7ee901b95fb1b
++  __DATA.__common: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
++  __DATA_DIRTY.__objc_data: 0x230 sha256:a8dae50f3eac473387bcf784562e3ce2fe3627c30ad0d76381a77632c94e3ba5
++  __DATA_DIRTY.__data: 0x1d80 sha256:5cc0b9193d4a2efa8bf080dfc89637e0379f2154a8689cbe708b8c299fb496f1
+   __DATA_DIRTY.__bss: 0x3b00 sha256:66026fdcd1ce585b7abed7189e9668dec2b7107f74de10c6fc3f4d373bd527bc
+-  __DATA_DIRTY.__common: 0xa8 sha256:e3c2af35d1dfc500e16f826a071cc311bf55003a3de77de7ea3376c6b6fa2857
++  __DATA_DIRTY.__common: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: DA150E99-1E12-3328-965F-277E4CD812AA
+-  Functions: 5127
+-  Symbols:   2087
+-  CStrings:  975
++  UUID: 3C51A32B-55B2-34A7-AD4D-06E19A783416
++  Functions: 5397
++  Symbols:   2153
++  CStrings:  1016
+ 
+Symbols:
++ __DATA__TtC29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecord
++ __IVARS__TtC29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecord
++ __METACLASS_DATA__TtC29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecord
++ ___swift_memcpy80_8
++ __swift_get_extra_inhabitant_index.570Tm
++ __swift_store_extra_inhabitant_index.571Tm
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC20StaticRepresentationV10CodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLOSHAASQ
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC20StaticRepresentationV10CodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC20StaticRepresentationV10CodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC20StaticRepresentationVSLAASQ
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO10CodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLOSHAASQ
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO10CodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO10CodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO16FailedCodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLOSHAASQ
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO16FailedCodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO16FailedCodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO18FinishedCodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO18FinishedCodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC9SwiftData15PersistentModelAA11Observation10Observable
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC9SwiftData15PersistentModelAA4RootAdEP_AdE
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC9SwiftData15PersistentModelAASH
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC9SwiftData15PersistentModelAAs12Identifiable
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordCSHAASQ
++ _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordCs12IdentifiableAA2IDsADP_SH
++ _get_enum_tag_for_layout_string 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO
++ _swift_getMetatypeMetadata
++ _symbolic S2SSg_____Say_____G______pIetMHgTgTgozo_ 29ManagedBackgroundAssetsHelper0D0C AA26DeferredStatusUpdateRecordC20StaticRepresentationV s5ErrorP
++ _symbolic SS6withID_t
++ _symbolic SSSuSS___________pSg_____AB_pIeghHgygygyzo_ s6UInt64V s5ErrorP So16MIBetaTesterTypeV
++ _symbolic SS_____________________pIetMHgTnTnTgzo_ 29ManagedBackgroundAssetsHelper11ErrorCodingV AA15AssetPackRecordC8GlobalIDV AA0D0C s0E0P
++ _symbolic SS________________pIetMHgTgrzo_ 29ManagedBackgroundAssetsHelper0D0C AA26DeferredStatusUpdateRecordC20StaticRepresentationV s5ErrorP
++ _symbolic SS________________pIetMHgTnTgzo_ 29ManagedBackgroundAssetsHelper15AssetPackRecordC8GlobalIDV AA0D0C s5ErrorP
++ _symbolic Say_____G 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC20StaticRepresentationV
++ _symbolic SayypG
++ _symbolic _____ 29ManagedBackgroundAssetsHelper11Schema1_1_0O
++ _symbolic _____ 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC
++ _symbolic _____ 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC16_SwiftDataNoTypeV
++ _symbolic _____ 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC20StaticRepresentationV
++ _symbolic _____ 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC20StaticRepresentationV10CodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLO
++ _symbolic _____ 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC20StaticRepresentationV4KindO
++ _symbolic _____ 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO
++ _symbolic _____ 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO10CodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLO
++ _symbolic _____ 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO16FailedCodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLO
++ _symbolic _____ 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO18FinishedCodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLO
++ _symbolic _____11errorCoding_t 10Foundation4DataV
++ _symbolic _____Say_____G______pIetMHgozo_ 29ManagedBackgroundAssetsHelper0D0C AA26DeferredStatusUpdateRecordC20StaticRepresentationV s5ErrorP
++ _symbolic __________Xj l9SwiftData07BackingB0_px5ModelRts_XPXGMq 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC
++ _symbolic _____y_____G 9SwiftData15FetchDescriptorV 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC20StaticRepresentationV10CodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO10CodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO16FailedCodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO18FinishedCodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC20StaticRepresentationV10CodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO10CodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO16FailedCodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO18FinishedCodingKeys33_7CE3177D2EDE655BA87C6193DE33153CLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC20StaticRepresentationV
++ _symbolic _____y______AAQo_ 9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZQO 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC
++ _symbolic _____y______QPG 10Foundation9PredicateV 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC
++ _symbolic _____y______QPGSg 10Foundation9PredicateV 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC
++ _symbolic _____y______y______GSSG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC
++ _symbolic _____y______y______y______GSSG_____y_SSGG 10Foundation20PredicateExpressionsO5EqualV AC7KeyPathV AC8VariableV 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC AC5ValueV
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic ypXp
++ _type_layout_string 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC20StaticRepresentationV
++ _type_layout_string 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC20StaticRepresentationV4KindO
++ _type_layout_string 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO
++ get_type_metadata 15Synchronization5MutexVy29ManagedBackgroundAssetsHelper0F0C23SandboxExtensionHandles33_ED623D7967CBC4B05F3678C49B776590LLVG noncopyable.641
++ get_type_metadata 15Synchronization6AtomicVySbG noncopyable.640
++ get_type_metadata 29ManagedBackgroundAssetsHelper11NoCopyArrayVyAA7SandboxO15ExtensionHandleVSgG noncopyable.1306
+- __swift_get_extra_inhabitant_index.525Tm
+- __swift_store_extra_inhabitant_index.526Tm
+- get_type_metadata 15Synchronization5MutexVy29ManagedBackgroundAssetsHelper0F0C23SandboxExtensionHandles33_ED623D7967CBC4B05F3678C49B776590LLVG noncopyable.596
+- get_type_metadata 15Synchronization6AtomicVySbG noncopyable.595
+- get_type_metadata 29ManagedBackgroundAssetsHelper11NoCopyArrayVyAA7SandboxO15ExtensionHandleVSgG noncopyable.1261
+CStrings:
++ " asset pack global ID: "
++ "<Container Manager | Root path: "
++ "<Deferred Status Update Record | Download ID: "
++ "<Kind | Failed error coding: "
++ "<Kind | Failed: "
++ "<Kind | Finished>"
++ "<Static Representation | Download ID: "
++ "A team-ID mismatch was detected."
++ "All deferred status update records"
++ "App is running with bundle ID: %{public}s"
++ "Checking for deferred-status-update records failed: %{public}@"
++ "Checking for stale deferred-status-update records…"
++ "Checking whether the record of the deferred status update about the download with the unique ID “%{public}s” for the app with the bundle ID “%{public}s” is stale…"
++ "Database: %s"
++ "Defer status update about failed download with unique ID: %{public}s error coding: %s of asset pack with global ID: %{public}s"
++ "Defer status update about failed download with unique ID: %{public}s error: %{public}@ of asset pack with global ID: %{public}s"
++ "Defer status update about finished download with unique ID: %{public}s of asset pack with global ID: %{public}s"
++ "Drain deferred status updates for app with bundle ID: %{public}s"
++ "Drain deferred status updates for app with bundle ID: %{public}s team ID: %{public}s"
++ "Draining the deferred status update%{public}s %{public}s from the database…"
++ "Init actor system: %{public}s TestFlight manifest request: %{public}s TestFlight download terminal phase handler: %{public}s"
++ "Init model container: %{public}s container manager: %{public}s"
++ "ManagedBackgroundAssetsHelper/AssetPackRecord.swift"
++ "Multiple deferred-status-update records share the ID “"
++ "No record of the deferred status update with the ID “"
++ "Remove deferred status update record about download with unique ID: %{public}s"
++ "Removing the record of the deferred status update about the download with the unique ID “%{public}s” for the app with the bundle ID “%{public}s” from the database…"
++ "Report download of asset pack with global ID: %{public}s version: %lu"
++ "Report download of asset pack with global ID: %{public}s version: %lu reached terminal phase with error coding: %{public}s"
++ "Report failed download of asset pack with global ID: %{public}s version: %lu with error: %{public}@"
++ "The record of the deferred status update about the download with the unique ID “%{public}s” for the app with the bundle ID “%s” won’t be removed because that app is running."
++ "The staging directory for the app with the bundle ID “%{public}s” won’t be removed because that app is running."
++ "Whether the app with the bundle ID “%{public}s” is running couldn’t be determined: %{public}@"
++ "With model context body: %{public}s"
++ "With record of deferred status update about download with unique ID: %{public}s body: %{public}s"
++ "_TtC29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecord"
++ "_assetPackGlobalID"
++ "_downloadID"
++ "_kind"
++ "aboutDownloadWithUniqueID"
++ "aboutFailedDownloadWithUniqueID"
++ "aboutFinishedDownloadWithUniqueID"
++ "assetPackGlobalID"
++ "reachedTerminalPhaseWithErrorCoding"
++ "testFlightDownloadTerminalPhaseHandler"
+- "A process handle couldn’t be created for the app with the bundle ID “%{public}s”: %{public}@"
+- "Report finished download of asset pack with global ID: %{public}s version: %lu with error coding: %{public}s"
+- "The staging directory for the app with the bundle ID “%{public}s” won’t be removed because that app is currently running."
+- "finishedTestFlightDownloadHandler"
+
+```

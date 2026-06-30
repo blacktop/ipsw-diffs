@@ -1,0 +1,23 @@
+## exclave_kernel
+
+> `Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p/exclave_kernel`
+
+```diff
+
+ 
+-  __TEXT.__head: 0x1b0 sha256:f6881436b21b666e39c3670f0ac38de1a5b35257279d645f5bd339f09f48c436
++  __TEXT.__head: 0x1b0 sha256:4e5217d294d200c2023efa492c466adb769cd871cfdbed69b351cd1641034332
+   __TEXT.__text: 0x1174c sha256:21f08ea398681c929e5f9fa1dd5ef958a445741bc63a09df9525ffe803561904
+   __TEXT.__const: 0xad8 sha256:7bfac9f11420f60d2c257818b2e6582efaf2d31c26116932209ee13a06a8d3a1
+   __TEXT.__cstring: 0x993 sha256:c83f45d3a72400e3a5d28ab8d14fa563f625669f2bc868b0012e24dbc3466b4b
+
+   __DATA.__bss: 0x19b00 sha256:977060c6d8dd217008fd2fa83b2e44de7e521540830a75933f43374958361a58
+   __DATA.__common: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+   __IMAGE_END.__image_end: 0x0
+-  UUID: 0656A27F-37D2-3B98-B694-444DC71891B7
++  UUID: 2D12B68A-EF55-3120-83B0-12041BB91BBD
+   Functions: 158
+   Symbols:   440
+   CStrings:  170
+
+```

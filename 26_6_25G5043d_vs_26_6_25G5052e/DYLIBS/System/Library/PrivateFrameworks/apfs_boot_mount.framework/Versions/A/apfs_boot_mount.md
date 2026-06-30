@@ -1,0 +1,32 @@
+## apfs_boot_mount
+
+> `/System/Library/PrivateFrameworks/apfs_boot_mount.framework/Versions/A/apfs_boot_mount`
+
+```diff
+
+ 2811.160.6.0.0
+-  __TEXT.__text: 0xe18 sha256:0d872f966885d8e8d7e50bbce007b2427cdf7a155f37c4ceaa1397926fee2ce8
+-  __TEXT.__auth_stubs: 0x260 sha256:bf2b9789203cd7a6b650d30e651e4f45f98c8f9db5672099d875860fbedad4b7
++  __TEXT.__text: 0xe18 sha256:4008a8e79175ee18b1be4f327ac578cf69b018b9819d998ad7ab347ea4156e71
++  __TEXT.__auth_stubs: 0x260 sha256:d67d1b91e21cf557a6cc0761daaa3fd5b09827ac1d8748a10d3cee6721d5c31e
+   __TEXT.__const: 0x38 sha256:6404167f85dcb30fbc717be08b88b39b9b6209c2d386821cd60acd735637cbb4
+   __TEXT.__cstring: 0x6a6 sha256:abeeba928c131b79d81f28627dbb3ceda61566e88f28be0b5945c68112799bf4
+   __TEXT.__unwind_info: 0x88 sha256:ca80e905bc27062086aeb513f7bb7898885ec7bea31c250c84243beccf297a99
+   __DATA_CONST.__got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   __AUTH_CONST.__auth_got: 0x130 sha256:e2fc162ed9124452d23c85e81d60a0c228f414c3214a5de635737e25fbd29ac1
+-  __AUTH_CONST.__cfstring: 0x120 sha256:69de1492aa5962c16e25eaf88c943e4b001ad5d210fdb8c0b721c76bb5dd69de
++  __AUTH_CONST.__cfstring: 0x120 sha256:a16bbf16d0873d29faf89e6b92b9de6a9e8b6c27234ec66e9e1f485d2ce1fb39
+   __DATA.__data: 0xc sha256:65536c129f290987890b4c6c880d43bdecac47e954651457a53a49b362da8969
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+Functions:
+~ _log_debug : sha256 3e5e5f9d91448143ccc42bd2e4056f940fdd1292c64f18cf09fddd119c1a01ab -> 602d718eb3d99b44fca231984708eed37a68ea9b5b87862191162c3199926987
+~ _log_info : sha256 b42c0fca90137239a2475ca529cead3e1ba61df09938626ab411bc795f8de306 -> 918c5631768e3615421407b758bef909fc4601376ee701c13cc588c7a0060508
+~ _log_warn : sha256 6f3c24eb14b7d08fd29060cedd98a9a70719971ea3b7d5c1bdf326fad9091988 -> 89358bad59b8fa1dc2d118e569f01764225a3af32c0b6fccbdadb6380a7f7a4c
+~ _log_err : sha256 999f2b1f61197fd295495a6ed8a8a0dde2dd8c17c21d55e25abef2bc9218eea6 -> 12e6d0229d3e442ca41fc9d7db81e332ddf436e85bca65c7d5fcf6a41431a7e1
+~ _get_apfs_node : sha256 b111dca1367270ad759e9a7ad908aa21ee0e1ebc2d8bb24f9f516a234b703325 -> ae5c76e754a67f2fe3bf185e97cfd966179ccc814dec3d812478faf72503e386
+~ _node_found_callback : sha256 530709301664101cc3867b393a62dc56430dfc7c2952b9a5e96fc45edd36c7ae -> c0523cea17ffd4280b8d3ed4a4255838594db500474f185021a656f0a6d3810f
+~ _log_unknown_dev_node : sha256 8277e8519a5c2e9feae02c01bc26d38583f19de1667285d1ea3cd40dbd735b8c -> e85f0b04dd8287dfc7570fe30bf1660c4f21e6f7f8d9550e083358848b4ebfad
+~ _registry_entry_dev_node : sha256 fd24ec896b0fc1cd23a778c6a7ec0e8c18441d4ed9961e2ec36679de14a0334e -> 564c570c75ec09ae679799714d2d56fe7edd12e02c8bfeb9ad1900b12f355a3d
+
+```

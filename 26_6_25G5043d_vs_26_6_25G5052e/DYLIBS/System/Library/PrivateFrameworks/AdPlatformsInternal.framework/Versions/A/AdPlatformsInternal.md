@@ -1,0 +1,91 @@
+## AdPlatformsInternal
+
+> `/System/Library/PrivateFrameworks/AdPlatformsInternal.framework/Versions/A/AdPlatformsInternal`
+
+```diff
+
+-637.6.2.0.0
+-  __TEXT.__text: 0x19a0 sha256:9d72594a1899c2c69cf151240aadb867dcfd64b9fcb7a0a9ab5224d44ff0c1ae
+-  __TEXT.__auth_stubs: 0x1b0 sha256:48b85605e06231a6cd81cecec3c30d8a35f97b405bbe496f4349929a87208d6d
+-  __TEXT.__objc_methlist: 0x294 sha256:d9eba46f0780e0e670fc31d1187ab10a04ad3325bc0a10c3c404cfd0382f23ef
++637.6.3.0.0
++  __TEXT.__text: 0x19a0 sha256:42b2dd6bb252937200193c0824e734b90c2286c9c51a5af6a083ed5ed1d4d3ce
++  __TEXT.__auth_stubs: 0x1b0 sha256:5fb6f37c11ab52f94faebef6f544689cd0fbf8c3b764fb20ab059f92c001e6f3
++  __TEXT.__objc_methlist: 0x294 sha256:01597c3e37d75eb4ae384a5bb45bb96991c62fce990bd5e7422977cda856f019
+   __TEXT.__const: 0x50 sha256:08ae0da51ed99e07ca4d4bc5ff77e48ac27c952c8c955dda2a6d93a91149df8a
+   __TEXT.__gcc_except_tab: 0x64 sha256:44d0179fcee8b09a71bf8179f297a09fa1c0aaf63c00d4d5e9bbc13e8a5cb82b
+   __TEXT.__cstring: 0x897 sha256:8470a1f35d5dbaba7c4418624f8225dd91c2932d2eca60318bef471cb3cbcd87
+-  __TEXT.__unwind_info: 0x100 sha256:f9c9b1d11792d9c599f8e48c619b257677091f3255aa7941539099be4821aa87
++  __TEXT.__unwind_info: 0x100 sha256:8613319f0610c5827ec08e6c34ccc3f8f5c83fe283d41ce85208c4aaee62dd59
+   __TEXT.__objc_classname: 0x60 sha256:253cd068bacab13e7958e22b81effa7e7a255e88f445dda318e30d22ab4a04a6
+   __TEXT.__objc_methname: 0x754 sha256:5efd409e550376ade4e2577d3d4e673ee18786b320e04ba3c8d6efc90610879c
+   __TEXT.__objc_methtype: 0x1be sha256:19b350032dd3f696f4231722aa79b906916b6839548583bea46830aa4baca372
+-  __TEXT.__objc_stubs: 0x5e0 sha256:1fa74ade810dd42846e64d4c1c89912f74b574d55973e9cf4f6ebfab6b9382e9
+-  __DATA_CONST.__got: 0xa8 sha256:ef352f882aa14c6de242744a9d02c813ab3731a7a9800902bf6267a53bf3cdc4
+-  __DATA_CONST.__const: 0x90 sha256:6ada2af76d7498bb019177dea410cc5742f3ff94a65e2135adb8ab57a4ad772c
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:9f06db3d8936d3373ffbf1a22184f7cc77849349f0fa3c626a45cd0be0555ac3
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:0d1cc6f72475b1f83415b8703dc7b3ea3de2ce4f3416d1223d65064ef3a50739
++  __TEXT.__objc_stubs: 0x5e0 sha256:0a9bb723a35a9c6006b5e692054abaeb12723803127594da3c3a8736108b2d49
++  __DATA_CONST.__got: 0xa8 sha256:a7816a72e4ad06a360a569a72428b3bd7a8ccd1b559c0e1ecb03da8faa58ca47
++  __DATA_CONST.__const: 0x90 sha256:55e75d175f7a2f8a9c1e5854e80dd11828495ea6c539deeb63c774a460f8653e
++  __DATA_CONST.__objc_classlist: 0x10 sha256:d4ad27c95cc4bdceb73e640d34f3254268bd3844d4169a0fd1c0238e4b07f2a4
++  __DATA_CONST.__objc_protolist: 0x18 sha256:d92d6c967ad9e98f00deb27614b3f9a451666afe5f42ca13ddf52dc1d507d4e6
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x298 sha256:01a01dbea2583ad56d75aecf72294af623e869977cc5b7ea9c762fdf885956e2
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:0a1d28761387cd658173bf88660cbe75fae2baec5d1cf71963ede42c091435cc
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:9f06db3d8936d3373ffbf1a22184f7cc77849349f0fa3c626a45cd0be0555ac3
++  __DATA_CONST.__objc_selrefs: 0x298 sha256:34bec4b29050b6c2bf2fadf53edda6929a1955bd85b1c1c50f65c40a5333194f
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:1b4da8a5fc1617781c030e8bfb5cb60e98a40117c7c61dd92659f4695f7e6d59
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:d4ad27c95cc4bdceb73e640d34f3254268bd3844d4169a0fd1c0238e4b07f2a4
+   __AUTH_CONST.__auth_got: 0xe8 sha256:c4fcd50d9f0c893c46288b57d8e62b18523145956b249b6ecd6c21718be49065
+-  __AUTH_CONST.__const: 0xb0 sha256:0a81ce89a68a27e761a85d9f08f7afeafd62f6f252006fb68320e404813a6f65
+-  __AUTH_CONST.__cfstring: 0x620 sha256:864418db526cb8c66cc4d3041a408442e7ec99e399216f6af35d6749caf4e125
+-  __AUTH_CONST.__objc_const: 0x3f0 sha256:f0237fe81868317ac724a90c5ca83cfd3c706a293b5277d09cb4395fe11ab3c9
++  __AUTH_CONST.__const: 0xb0 sha256:4080ca28302724a330edfd154b350c61bd524dca6c91141aeda8f949bdb9872d
++  __AUTH_CONST.__cfstring: 0x620 sha256:17049e9289d55a3e58bce3efeeb0ec590780e0e3be8dae5174f8ef79d64020a1
++  __AUTH_CONST.__objc_const: 0x3f0 sha256:d94dc69c94124a05aed648ca1ce9b9127a103284323f8342b4b47ca32b1c7014
+   __DATA.__objc_ivar: 0x18 sha256:5187eddfde3f9c73859c1e531d4e0fc7c1baafd3d6a9738586d8b50625a1c39f
+-  __DATA.__data: 0x120 sha256:f9ec1939ae521e4a915eb91bcde0a5212c6b20d7f8fa532982a55a05c8636e77
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:c7dafb8c19b94ac00e3c7ee62f4b307ca2bbf67bd7c2b37bb5c6d379a7b5b8c7
++  __DATA.__data: 0x120 sha256:b98a2a9198f323fb978228dc315ca11294cd4d35b114a3ad8be018b966ceb65e
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:154d6daa4d9f28895cdb244dd132e1b98237276939976f1581675cca200e8e87
+   __DATA_DIRTY.__bss: 0x14 sha256:de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 198DDCEA-27DF-3126-8B83-5A6C566807A9
++  UUID: 9AA34887-7DD9-3FA6-AD31-ECDF61C25591
+   Functions: 37
+   Symbols:   192
+   CStrings:  233
+Functions:
+~ +[ADAttributionService sharedInstance] : sha256 517768602ff6c7d306b694e99753bfd4d546f287f3beea237cf1105b1529bcbf -> 74f5a646dab87f66b6d793f6d3e3d4466bb4b7dea4799d34c12541fa43317959
+~ ___38+[ADAttributionService sharedInstance]_block_invoke : sha256 d21681596931eb1c03f5a54ccfe9a8dbd81890428940d59eb54ec6a9d5c7e0e6 -> 7bbd2a3e51cc7387574c67628f1ec838ff00c1c25a0a19a7064b433e0b2081a7
+~ -[ADAttributionService init] : sha256 c3e8d691e079962dc6b538bb24534deb9f9140edc1a963ba6027c2f0dc00dba1 -> 9be08aa556249d1169059a995f0168b85fa12a34195d98fb5e86ab4c7d87ee24
+~ -[ADAttributionService listener:shouldAcceptNewConnection:] : sha256 4b468dd5279eb9dfeff8cfd2ca1392d2c323c0c283c1e6bc789422f8151c3b22 -> c47f22c610ac74a9aa06d04390d06eae514997dac623d6cd514afedf05063a39
+~ -[ADAttributionService removeClientForToken:] : sha256 96c6c2598a07991af3525c24e1f3a6c2702bb433b2b4d9b78b0ac013573705c1 -> 3047451a8b8ef2eadc3ecbe2056e961d0141fffa8ad7a17c1d78171248d08f48
+~ -[ADAttributionService listener] : sha256 a0c142c0575c19ba27fe7a94a0d84f52709e531ca8bfb4c6c1541bdc5a0a1966 -> 90b8accbcdcf19bed2b68fdb9012e6c715e14122749c3308dccf655a1adb2ac0
+~ -[ADAttributionService setListener:] : sha256 fea39f58c2bbfc10d1674234c6b9fd2ad5d9689ad4726d136bb14746c2274625 -> e9acca1fbd2b3efa53469ce3b98e5d0021100148dfc3419387dc83e928dcc55c
+~ -[ADAttributionService clients] : sha256 d144e55f80be2a35da2363e4c875ea33a2d9802156779dfbc09343b3b2ceaed6 -> 2bb61cfaf6d424cd202e5bd2fc6299241747f4e7476f599d50d712c48ede9e3a
+~ -[ADAttributionService setClients:] : sha256 c42720415d720fee38679daf3dd3361bc96892a18e8f7f8b580d5b6509c2b8eb -> e0502f331b4b7c38cdfff5939ba33f8c4c8c880e9e1dcfd3a265529b47149253
+~ -[ADAttributionService transactionID] : sha256 d1b14094f262ffd60bc5f296115178e7b9b171047926e1d6769f5c30865d5386 -> 05d8e8a4b3f722cbb6ca903355dfb2e33a5d16a572db83f5ce6da0b32147487c
+~ -[ADAttributionService setTransactionID:] : sha256 a2c1edec69c3cff70885010d7e8c119da0ad5116641cfc76af97cf49d86147e7 -> 00096c6e3e0a60021ba1c28cfce78fcfeb84b7178430dae55ae96db902a5665f
+~ -[ADAttributionService .cxx_destruct] : sha256 7e304fcefda7c21baf2ad95864339ead955e439d161355f7ea7460e7ce998bdf -> 474c87916228bdd3230a982bb638edc7e642b25f5b8d40b8c53407d9363266e4
+~ -[ADAttributionRequester initWithConnection:bundleID:transactionID:] : sha256 47c3531337ea621e1ba803281b9918b6260c29ed16383ae0269e4de699ef7002 -> e04dace68d6b7a144e882f70484dd36e0b41d6fb670a022280446a756987a606
+~ ___68-[ADAttributionRequester initWithConnection:bundleID:transactionID:]_block_invoke : sha256 e4f1a5fa6690e27b42ade4d8b4d3aa517c3ffe3503d7427fd5188e44c520d5fe -> 2f9d2ff0e33548f78150e1c015e9b34dceaf78fd1be16e250453eb879085490e
+~ __68-[ADAttributionRequester initWithConnection:bundleID:transactionID:]_block_invoke.18 : sha256 06fd6c49b87d2c65d3717d9b0ab0efbac74be2e8534712d114f375a6f66d29a5 -> 77f96d54112ccda13b5a55be5cc91c0a570be007fd0330d2111aaa37363e8e98
+~ -[ADAttributionRequester _isAppTrackingAuthorized] : sha256 152ca7160069f89aca584f0b0a55601d84141194d16490c74269c4b55ef7c78d -> 8c20834df8fe47686b791223040ac1b71c30dd954b5a9930b3d2e0d092f317c8
+~ -[ADAttributionRequester requestAttributionDetails:] : sha256 d548714c11c276c709a14fdfa2df00985022b1e1b8a8088bfbedf1ed8562f851 -> ea7a97814be59e830aa9a8b94fafb1183596d35e3f7b0af313a42de4b8c1433d
+~ -[ADAttributionRequester beginAttributionRequest:reason:completionHandler:] : sha256 8d9071222dabf3af0984dab03475c92fe51c6418b90065391f6b41ba3667d603 -> e053e696444472d3924011cf996749ae8d8e14b04aaf7742fe02a09541f2be7b
+~ ___75-[ADAttributionRequester beginAttributionRequest:reason:completionHandler:]_block_invoke : sha256 d22164145315f48f3871eef70690c755de5f2d96100a832d77c312c1c2ed4c83 -> 7a4b3fe037adefb36295efc81813bfac0f6e18669c8b62238c6320ba34c30f8d
+~ -[ADAttributionRequester requestAttributionDetailsWithBlock:] : sha256 9e737a36fec9cbe874f42c1e0533a93d0969c90e5700d4db8508ced6e966de52 -> 2a69169689e71d5921ec139217408c506832bbb27cc37fe46c4cb300b96ff1cf
+~ ___61-[ADAttributionRequester requestAttributionDetailsWithBlock:]_block_invoke : sha256 e6df4b0ccbe3c6e473d3998d498f7841c7c30ed5e4dd853411938664ccda6a41 -> 5fc241634be6638f0f9625cd3f911802cd15504736045b9af7676a8f00a30f42
+~ ___61-[ADAttributionRequester requestAttributionDetailsWithBlock:]_block_invoke_2 : sha256 c5c26b17ca9736e3c78a22219d0b66492ea90636f03d82441e3c21fd317c529f -> 1ebf700dd24df6d0db3e97ffa9ba4b6b22a37fea4fd2b2beeccb6055a0bbf41e
+~ -[ADAttributionRequester setStocksAdEnabled:] : sha256 66f125d207a91d44e7be8f46af4048ddba243f2bc550765a147c43d3b47b3d8f -> 25c9776f608c6ad5b12f688feeaa29d2ef621c02e1375be8feecdb3bbc6061ad
+~ ___45-[ADAttributionRequester setStocksAdEnabled:]_block_invoke : sha256 fd54f486114f6f8fe5da325ce0df718f7fd1ff3c97602bdd64e6461fb72f8d74 -> 39f1791bea8a6451666c5cc526820a7fa68516512b9d988aec352bd06ab5b54e
+~ -[ADAttributionRequester setServerToTest:] : sha256 5b706d3a942bddba2f3992dd1a7f4eceaaf1ba1565c29f94ab70e8c2bcd82059 -> 9deb471dbd02cba8864cd7c8db28c3c7e89b5f6fcd45a572436b13a4cd451ae8
+
+```

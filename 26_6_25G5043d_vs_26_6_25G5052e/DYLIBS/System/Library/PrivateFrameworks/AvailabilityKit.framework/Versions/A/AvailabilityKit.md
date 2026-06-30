@@ -1,0 +1,77 @@
+## AvailabilityKit
+
+> `/System/Library/PrivateFrameworks/AvailabilityKit.framework/Versions/A/AvailabilityKit`
+
+```diff
+
+ 116.700.1.0.0
+-  __TEXT.__text: 0xefc sha256:e8227200f181cc7e5dd91cf2b7733c63c2bed6c867732800eb75f9cf829e32fe
+-  __TEXT.__auth_stubs: 0x100 sha256:82fd046153a01ee737f6fd55bd994586cce337d4280b785b879a0c5f031afdd6
+-  __TEXT.__objc_methlist: 0x154 sha256:9c950cd54756548bcee31d79c8f293f6687d109269bdc9e29e1479de8bb4447a
++  __TEXT.__text: 0xefc sha256:478894ab261f1ea7be711f46abb34bc951179554a373b62476eadd148d9929de
++  __TEXT.__auth_stubs: 0x100 sha256:8d0036ca73947985d0641e931bc294fc75339f864eec7d76246e1cf8ee7f72ee
++  __TEXT.__objc_methlist: 0x154 sha256:99d7ad11b4ada855e5f15ad25fdc93b0aea1d8341e0e51184dd47350d92f14f1
+   __TEXT.__const: 0x58 sha256:5fd844a665bedc2bd7ac2b51614260be9aed4f5c9954d8dfa3205b70ad1993e5
+   __TEXT.__cstring: 0x46 sha256:9bb6b86c6eb0d7596289c0d27899e51393562b25577b567ed4941623e1af848f
+   __TEXT.__oslogstring: 0x4f6 sha256:8aee2b5f2d1cc1079dff896c298b81ca907fccfbcd6c4274e7e74d5236771a2f
+
+   __TEXT.__objc_classname: 0x51 sha256:076e3d4d6977be91816125e7d5ad4a173b890e7d2a2f933ba07e973c3d295a5e
+   __TEXT.__objc_methname: 0x5f2 sha256:357f8fd2484c53c01b977948f9f154cdb11e9b245a4dd10fc18270edd37a1cd6
+   __TEXT.__objc_methtype: 0x85 sha256:494c51fbba54508d505ac192a303728ee5bac663fdb703146cf4661a094b7f35
+-  __TEXT.__objc_stubs: 0x420 sha256:9f845ddfc6c6984e95933911d79f3fc722c06b1fcaf27c8b59b2aaa1c981aa6c
+-  __DATA_CONST.__got: 0x68 sha256:9157387b0a9e4f869028443a9b0315a0edd9c2ad172d2de6edec86bfc5e3b2c1
+-  __DATA_CONST.__const: 0x28 sha256:6724a6657f629224f59259856031140a6dcaeaa14c3b9edc80d6a03f1cfbdcca
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:a54e93c5649402e3cdf4b4c3630de5391d1ada9aed394cadc762cb1c9c6f2053
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:62d3d2630caa5e61ffab69ad2fe81185f89187db8312e54f12ec6d1300b6400f
++  __TEXT.__objc_stubs: 0x420 sha256:ebd3f090c701de2d3f0f214cf86aca8a3cd3737e7f90ce798f3b08c1a030068e
++  __DATA_CONST.__got: 0x68 sha256:1a7a58d212bf0edbe0a6e23380820470bcea4d961013c29a8003de78db033021
++  __DATA_CONST.__const: 0x28 sha256:c4d3b4ce0c37010cb4cd06c1475feb1b76d0742ca228bc89b503eae8e4e274f3
++  __DATA_CONST.__objc_classlist: 0x10 sha256:e7f2107848f79c79bf031edab68bf71081696150f60346dbe86d294fde75dbd8
++  __DATA_CONST.__objc_catlist: 0x8 sha256:f1b8db1299be7b8650d2954950bf69a9932ced7b0e8e396d040ace87f553d2cc
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x150 sha256:edcacaf2d67635c15a755cf4f7eb0b26a067755639aeeffb30300aa3bac8f34c
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:a54e93c5649402e3cdf4b4c3630de5391d1ada9aed394cadc762cb1c9c6f2053
++  __DATA_CONST.__objc_selrefs: 0x150 sha256:f8726b1016208e46d02ca2a8289587c25c01d5025ec9dc32934874d65532ac56
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:e7f2107848f79c79bf031edab68bf71081696150f60346dbe86d294fde75dbd8
+   __AUTH_CONST.__auth_got: 0x88 sha256:b707241545a346265aab1ffb32ff64b55bf8f8dc1b56a46ef33ce3d15db11d33
+-  __AUTH_CONST.__const: 0x20 sha256:6e6202b541d1d830a4eb75d13b7d3d448970ab9168e8759a47b570352e48b671
+-  __AUTH_CONST.__cfstring: 0x80 sha256:a02fcf70e41dda829b9c4e4d559a43c95064e19dd44316ba5200784942291552
+-  __AUTH_CONST.__objc_const: 0x290 sha256:83f7ddcc19c9fa98299c249a6fafa28f9e2b70b271cc3ad8a9506e5c8d63bb5b
+-  __AUTH.__objc_data: 0x50 sha256:ad92b3c055044eec100afe5d537480f4e6a7bd700ff37f0ec4a646754ce974c0
++  __AUTH_CONST.__const: 0x20 sha256:973a1c471c4d873c36256a6f0afca11f380a3dcff4e3b1669347a431238fc7be
++  __AUTH_CONST.__cfstring: 0x80 sha256:e8cac9c0c7e4b5c6a6afe4cfde51bce424224f518c3f056f56592c65215c8b58
++  __AUTH_CONST.__objc_const: 0x290 sha256:7a7d515e3d8fd68f68d1fcceb358d3a4929a371227ea7cf92ed58fd26f7e9c7a
++  __AUTH.__objc_data: 0x50 sha256:0342de028a5dde6668709e7c3985f834ecca9a37677c499830df80e7d7ca27fb
+   __DATA.__objc_ivar: 0x14 sha256:e0d474cb6483ae649074fb10c6bc32c7ec5bf935590ebd82f5862cdcf6a168fa
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:0de48fe0442e1eef467855ff440af9aa739e835b5e0bcce4112491a5e6e088f3
++  __DATA_DIRTY.__objc_data: 0x50 sha256:8c6c5850e777bd2109d9410c9c629ed0c122b5fb195f6b5a85488be69803282c
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/StatusKit.framework/Versions/A/StatusKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 90BB492E-4DAA-3ADA-95C0-75F4F9CE198B
++  UUID: 9E59113B-25C7-37C5-B62B-81332C280677
+   Functions: 27
+   Symbols:   122
+   CStrings:  94
+Functions:
+~ -[AKAvailability initWithAvailable:activityIdentifierString:] : sha256 07b34dacb44adc1bcb149eb7c033de939dcf7f100d5e6c42d740d76026b26748 -> a1f78576129f446aec0bb3e02379b2640239c219e8f67a404da9feb82e1d6655
+~ -[AKAvailability(Deprecated) activityIdentifier] : sha256 813ee8264bc0273d363233f4860ad1fc747021de505faaf844edad2a262a5947 -> 0fdc6ec7b37fe61b042e2915b972dcaf2a01fffd8ab256d691ab0cb6adaef2fe
+~ -[AKAvailability(StatusKit) statusPublishRequest] : sha256 7e7a14fff3cfa5cc317bc6d786a6a155603309265406a3216f938e4ce0645a47 -> 5c73c70ac88687ddd1c3877db371dd1690b5b4597387e55dd8e70317d0f631e6
+~ -[AKAvailability(StatusKit) _payloadDictionary] : sha256 c89d160fdd6567ead97e7fd91a1c86f2ba16e8fde0fed0b428620ded8f850ff9 -> 19910e1561b6823a0042921db2903f7ceff7e71e3e325835770659b83b5e99ae
+~ -[AKAvailability(StatusKit) initWithStatusPayload:invitationPayload:] : sha256 44f03e1060b1fd8276fa369217eb241a73f06e2e157a4deffa6b65d2ea7e3f21 -> 8c02840901c71c1c07369ab8cca3b36cec71af41a5f12b09aed45dacd0701005
+~ +[AKAvailability(StatusKit) logger] : sha256 3b0da2cf1186d20441c601d898861652ea4df0d937ffb3c4b231db060f9197fc -> 72e7e04de960d21bbc1e47e6b60134ab47807d0d1fd814426e4dc4809585ee54
+~ ___35+[AKAvailability(StatusKit) logger]_block_invoke : sha256 6835d5c52fb121bf5cd3915486e5aaa66dd6d0b4456eddfb65ac4d8fa86e4988 -> 197f664a7a09b795b805e9f5b2c2ca69e0abdcbed592f4216ffba5078caa11c0
+~ -[NSDictionary(AvailabilityKit) availabilityKit_boolForKey:defaultValue:] : sha256 94c48e45698a9363cf1b7e2737ea12b72b8ee4d8c2fb7a84726287d91f70c926 -> 6ef500369e599bdb2a3e37c6ffb54b25a013e288c46983c67185437fd58c2458
+~ -[NSDictionary(AvailabilityKit) availabilityKit_stringForKey:] : sha256 7eaecba2a021a1bdb6a5c511e27af2c154bbfa3299499fd9191aef1f9e927934 -> 11f5cae77dc64113bf76dec7eb51226beed9d39a7a0f72701ee66198ff66ea2a
+~ -[AKAvailabilityInvitation initWithAvailableDuringActivityIdentifiers:unavailableDuringActivityIdentifiers:] : sha256 930c807cfddb001061de7979d786d502b09f76aad2f1bfc578574cd6b274db11 -> 08c8c769e8de6b5e3340c5a226f5a5b80cc8ad9d6399ba432d14a3d8acea6b9e
+~ -[AKAvailabilityInvitation(Deprecated) initWithAvailableDuringActivityIdentifiers:] : sha256 b3f6f764be69b4e35f63d042507c5947aa58d4c36eaa4c0fb7a36d23b3711a1a -> 8043ffdb7e93eda6cb110fa021575513f284caffdfbd84572c61e915c2b3c52b
+~ -[AKAvailabilityInvitation(StatusKit) initWithStatusKitInvitationPayload:] : sha256 29b513020ba7c39570504f3fbc8cdd845da63b2215db5eb5f108e86c485a5a03 -> 617f2b49612ad101d0fcf2067b6ede9272b230214fcfd2c88f331c9a6e5c1cda
+~ -[AKAvailabilityInvitation(StatusKit) statusKitInvitationPayloadWithDateCreated:] : sha256 6fa52551d239689249546d26d638dcac70082fa412a97b49e631d015015233c4 -> 884ee5fddf3c3e3e90fe9a047248f7454f04d2836f6a97f31ba89023c2e4d7a5
+~ -[AKAvailabilityInvitation(StatusKit) _payloadDictionary] : sha256 247f293380a4b29aa910e5075b6c1fefcb39c6d071f4e8739cf359cab7443d60 -> 2bb042baf23964947102f2415e688ad4d3cfbf880ab72671d17edfa38ba23848
+~ -[NSDictionary(AvailabilityKit) availabilityKit_stringArrayForKey:allowEmptyString:] : sha256 11c3350147a0ab6e3870d2b47e4d19de5d90199802338dbd868f72b88b4763a7 -> 9d502d72602db13bcca9b49e42f5787cd59d14ce0dba2ab9054ea7055c3f7c73
+~ +[AKAvailability(StatusKit) logger].cold.1 : sha256 da03e21d94b513074a77624f345a181e71c4d5df5933c3a882e108512bc2439d -> afe2a345894b6c1da8aa89bd745e50c40e58ee52cab8f523ce9e41be73627b33
+
+```

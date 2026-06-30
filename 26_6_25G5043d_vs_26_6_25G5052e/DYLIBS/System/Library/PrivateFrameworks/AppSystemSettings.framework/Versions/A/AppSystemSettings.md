@@ -1,0 +1,49 @@
+## AppSystemSettings
+
+> `/System/Library/PrivateFrameworks/AppSystemSettings.framework/Versions/A/AppSystemSettings`
+
+```diff
+
+ 20.5.1.0.0
+-  __TEXT.__text: 0xbf8 sha256:5362c9e581802e3268b9cfea22ea1bf42e0677b1ea179484d01e681a971722e6
+-  __TEXT.__auth_stubs: 0x100 sha256:41c6d1d6f780ac6dac076910cce9250f2806e989b0269b1343a27266fe85c37c
+-  __TEXT.__const: 0x28e sha256:687cc778134d93fff4ae66a71524cacc2331707239b7455a0f6de4dd0e3a35d6
+-  __TEXT.__swift5_typeref: 0x4b sha256:4e174cd186dcd41dc5bdaf189506c4432548a5342fcdb4fa5b73dfca8fe17610
++  __TEXT.__text: 0xbf8 sha256:862ed7fe08cd7f67a658b4abb907b87e248cbf31accaaec5216301468faec3ce
++  __TEXT.__auth_stubs: 0x100 sha256:542ab46807de2f8c6f79544db75586d359d34192e76c22cb9485eb52c75ca971
++  __TEXT.__const: 0x28e sha256:a7d1891c69888bedfceede5c73af7b5bd0dfaa854e4d1932b14e19ec1a596518
++  __TEXT.__swift5_typeref: 0x4b sha256:82584f6ff4af553bcd98dd39a536cbee397f12fc35da99cd222d77e5486d0fc5
+   __TEXT.__constg_swiftt: 0x4c sha256:b65ee3bc9871e63cc121c2d26aee3688213ea8f66d8314c8051e9190f00f7d51
+   __TEXT.__swift5_reflstr: 0x11 sha256:bb5a889f22b264eaacc155671dd2dd1a37ddb6e49be0976aefac4e0e6fd1a00c
+   __TEXT.__swift5_fieldmd: 0x38 sha256:1f7ac28ec2a511683cab1b9ecf9aa778e13183c296fbc9163d2930362efc31a7
+
+   __DATA_CONST.__const: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+   __AUTH_CONST.__auth_got: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __AUTH_CONST.__const: 0x110 sha256:64f63f6fc7ef309c0b21b0c4f1ab70144ed6e6a11955b7280dc53dd8f87d6bf2
++  __AUTH_CONST.__const: 0x110 sha256:0eb490b6753ef638722e6e896b0e5f22f728f55c355b1f30f7fa39c02045747d
+   __DATA.__data: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   __DATA.__bss: 0x4b0 sha256:655a3ef0465a9f30fddf25f4dde0c19a05c6f9069b83961800c1944165955273
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  UUID: 02A21020-F8EB-31AD-835D-8D47EDB818F4
++  UUID: 0CF2B56C-73D1-324A-9D96-39B33DB86F9A
+   Functions: 48
+   Symbols:   44
+   CStrings:  1
+Functions:
+~ sub_2345fce80 -> sub_234648e80 : sha256 fe07fa9f5e57e205768c0edd62453971d36f6b8a453cff37369e6c80c8e83c2d -> 7a535c673f663468f3a70df6f0b6ff38899ec10eb8eaea438a67fcd863b23843
+~ sub_2345fd054 -> sub_234649054 : sha256 dd5c8c6863dab7417bcac6db86f1772070679161653a1c34587e93a097a8fb38 -> eaebf423f7733ac93562393ba30835b3b5dec3cca992e18e50828c077e1e7967
+~ sub_2345fd0fc -> sub_2346490fc : sha256 b5fae2a60d6eb98ac15d22c442dd2acd27dfaa7e814699af78cfb1b328946d94 -> 695a70826b9dcc8ee8efdf0c86711867a56e369cc294115d58300281507f8d66
+~ sub_2345fd288 -> sub_234649288 : sha256 897a4ed571c66c7a4cdcf19c2f44f93fcfa4bdff7499e2750f7490cdff6ea689 -> f46ef1a939f2f77d358571abda285e5c19d876db095ba91674661ef98814492b
+~ sub_2345fd4a8 -> sub_2346494a8 : sha256 4ca8a34ad6c4750ba6f936d6fc12bca585b9cafe45597ada835b2880b8885e82 -> 37b538d3e5575da5b7fca26c65003756aa56fb3a124d04acc6f310b20adc491f
+~ sub_2345fd5bc -> sub_2346495bc : sha256 a941246c6bdce19c1b296f7b8d7c0f1609908f0d8741e16819bee96ea434f166 -> 97ffad51033d2b3736cdc3ca1e2cba6f980dd996fbe298f6b5e56f0d0e77db6d
+~ sub_2345fd6a8 -> sub_2346496a8 : sha256 fa8b7106874c7bd8c41e87f3d5f3a773fb2cb97f4f671a643b4e7c26c1d1d01c -> 818b3384eaefac4f88c8040095113d619e654b5d364286146c45af5107287b0e
+~ sub_2345fd6bc -> sub_2346496bc : sha256 d01bf3c23ee5fe426d32ddba13123fb67c03bc3ff0de94bc800e239cfb71e8d7 -> 05c437b18b2bb3449daa75a36efef67648b6cacf6dbdfe31c7e2fba75206fbe5
+~ sub_2345fd714 -> sub_234649714 : sha256 4f970a1d3de638f764c695ff96cf1fe743b87344bf1c0cb98ec118f759d24bf5 -> c3dc355c9a88da83d5bba7268d1450a505ef3f2fdf970f3944f54cf73db550aa
+~ sub_2345fd76c -> sub_23464976c : sha256 0769bf451c4036c0f6ff56758c5e08c859d90913665ce18907e0f3f20e771df7 -> 9918c6a2c0ada6ea4ed7a84326125bd3d0806deee8113d541078a7738626589d
+
+```

@@ -1,0 +1,66 @@
+## UserFS
+
+> `/System/Library/PrivateFrameworks/UserFS.framework/Versions/A/UserFS`
+
+```diff
+
+ 741.100.13.0.0
+-  __TEXT.__text: 0x194c sha256:3c72c91b00979201384b9a56703ae2996d5d2803a2fc8eec11508e314c395809
+-  __TEXT.__auth_stubs: 0x180 sha256:ea69df1ff02809dc90c52fa44252d36db6cd1f085eaef80aee3d3ee2f136faa2
+-  __TEXT.__objc_methlist: 0x5c sha256:54f124af8131dde69bfa815969aab61d19872b33f27efabcfad72f598d57efb7
++  __TEXT.__text: 0x194c sha256:ff0f8041044b9c22d85ef1835ecdaec81f0f03274eb0f475890ebddf7d4ef1a8
++  __TEXT.__auth_stubs: 0x180 sha256:0bf2bc0b0d85c21f719853522ee8d74f742d3f587e7952a70c2969973a049d48
++  __TEXT.__objc_methlist: 0x5c sha256:bf9f99e1f9d2a7cf266027289ab12c802e7bf665d2980c9fb489ba6f357983ad
+   __TEXT.__const: 0x38 sha256:698a689ed358ce3a71f46776640cbb2c44533736d75b88bb92bddd816136c3f9
+   __TEXT.__gcc_except_tab: 0x110 sha256:4918e071627adc19cebf48a36c80b470217661590e5ef091082281dd61f80947
+   __TEXT.__cstring: 0x21a sha256:0de1b20232cb3f3a0646b0946c9448577e6d14a295f6e01f504ba56d912dfbd8
+   __TEXT.__oslogstring: 0x178 sha256:c30ad4b00bcfe10012e4b584bd027fdb22aa644661b62bb6fc712053cb85d61a
+-  __TEXT.__unwind_info: 0xe0 sha256:d964a320b77fe125055aa1a5c8a238d195a61d8e6242a7b2d63726925b5100fc
++  __TEXT.__unwind_info: 0xe0 sha256:e26ad9968f763cf70d34891131a39ea54e06f82c5d85266c638542c0bd84dbe0
+   __TEXT.__objc_classname: 0x1c sha256:db2f6a93edcae62d6168e5d60967cfd0641fd206cdca39ac5e5fc6a217c29e2e
+   __TEXT.__objc_methname: 0x2a9 sha256:0b79e0fd3aa68a656d7292c23801598e076369f24a74f8d7e5960bb3694a15b7
+   __TEXT.__objc_methtype: 0x3b sha256:23a2689d2940b5f674ec0653953bf6e0ddccbcf03c65b150b51b4507b22b6b85
+-  __TEXT.__objc_stubs: 0x2c0 sha256:7f7c5a644da157a5a3b5b843733a5e8ea6a897417491da2128defa4f3bf5c019
++  __TEXT.__objc_stubs: 0x2c0 sha256:526b439db030746bdb0dc78bbda27f431756abc574cf9b928e69b686ffef75ef
+   __DATA_CONST.__got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:ae196e0f68d56e6515fe8f6d0f0cf2f865cfee2b063f501574b1aeb6850a08fd
++  __DATA_CONST.__objc_classlist: 0x8 sha256:8b778b6dfe6336958d1b6a11b17d3fe820013c46ebb8ae5d96c82e3bd587514a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xe0 sha256:1b8d9c9702439db8e70f8ac5a5f716479e30496b786cb363bc7871b2c0e399cb
++  __DATA_CONST.__objc_selrefs: 0xe0 sha256:4078b34bbe2821630c36218fbf388b70c104ae82dd1b1c7f4330b31ac655550f
+   __AUTH_CONST.__auth_got: 0xd0 sha256:46f531b7ea0428fbf2c3ca2b60e8dc33d6bbfa000e0fd1b489c5e39140a47006
+-  __AUTH_CONST.__const: 0x180 sha256:3b5a571706981fd11ff3fce23d96a181746ddfa1c9f1befdb4334f39dcce9a5d
+-  __AUTH_CONST.__cfstring: 0x80 sha256:43ec8663204ca66d200d4f742bb720c3e97f169e2bb356dd1b95fe6a168c973e
+-  __AUTH_CONST.__objc_const: 0x90 sha256:da2c7178c9c7a8c47e86630b26baed43cfe00261ad26401968a4f04fe97c59ed
+-  __AUTH.__objc_data: 0x50 sha256:ea68b36b385c1d5d24d9dadff00477b4826d5578a9c02081d34bcd493cdd0c28
++  __AUTH_CONST.__const: 0x180 sha256:f41257de532f375867eacdf6bbef7538db1256dfb8b4c034934ffa94ba975297
++  __AUTH_CONST.__cfstring: 0x80 sha256:bb74b02e1f89a06d2d36f069f8c9f61aac8f4eb0b9e46724d5e801d238bd03a1
++  __AUTH_CONST.__objc_const: 0x90 sha256:e07496f01c0709b0035388e10ce8b1bfa42cb54e66a1695707b192a5153958c7
++  __AUTH.__objc_data: 0x50 sha256:c6c29f77a83ac8b8484e342b95d3a021a914c2dafa35f152d4d9694a2b467a8a
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/LiveFS.framework/Versions/A/LiveFS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 481DA9D3-9777-39FD-812B-134710E73079
++  UUID: 76FDD000-D1C3-33A9-9486-5BC27A707D81
+   Functions: 43
+   Symbols:   122
+   CStrings:  64
+Functions:
+~ +[LiveFSUSBLocalStorageClient newManager] : sha256 0fe1defaca270e578f6cdff109625ccc82049e03485d1fa2e1888ac6d9857b13 -> f3b19da7bf997c455d199f99d8d23beabea42f9ef4267dd3a18a29feeac143d1
+~ -[LiveFSUSBLocalStorageClient getConnectionForVolume:withError:] : sha256 9843eedcb09b320291439a39fb9349870d9b3b75c8e13c59bd67137bc01716e0 -> 2563bc63009f6fadca5b6748956a72f0c98d614e1874a28abaa9c524dae7436a
+~ -[LiveFSUSBLocalStorageClient getVolumeName:withError:] : sha256 1525e85e5778ff750766d899dff9fff65a20db04865a2a3be77e2208ad7fb87c -> 55e63d72adb0a58bd3748baebf69483f5e88b5579eb5529847f1631922946c5d
+~ ___55-[LiveFSUSBLocalStorageClient getVolumeName:withError:]_block_invoke : sha256 036cc9831e5d44ac1afebcf2b72dfbc12cfb3ea8e50a9913f201f708e17f5305 -> ec64fe9af4d7c8c251675b52adffc751105098d4ca39f985906ee0faec952a47
+~ __55-[LiveFSUSBLocalStorageClient getVolumeName:withError:]_block_invoke.4 : sha256 60b08ef8ac8a56a616582896a2fe1faf090273bb3adf8333e0880fda823afbe4 -> 80ac16e06956f23d9255571edbdf409499202cba5aa962eacb35255e74c77364
+~ __55-[LiveFSUSBLocalStorageClient getVolumeName:withError:]_block_invoke.13 : sha256 2aacb23caffd994acbdaf8a6b2ee3faeb2627037fe9dc07e4391e50302e8d34f -> 5bc0128798c672e3c87f91d46515f7bcfddd62e645854ac3d19454f15f068f79
+~ -[LiveFSUSBLocalStorageClient loadVolumes:ofType:withError:] : sha256 a0692dde3c5c211f8696b2ed79d9da26be85de5e7484aac55741e9a7d21d19ec -> 0eb37f36514882bcde5af45cb1bbf1810e0d7b6b000c821b0c1ce299a52488cd
+~ -[LiveFSUSBLocalStorageClient loadVolume:ofType:withReply:] : sha256 2816de8519e7a81fc5fd1a6f8f594ae07d9e561c6f176cfb673a2138508fb448 -> 15c35bc344853aa2be92f83a829d6108ee99cb355e7c8412101d38f50389acf6
+~ -[LiveFSUSBLocalStorageClient removeAllVirtualDisks] : sha256 9fd853bb6eca684e2bce830c46a7e8c57d83285c9375bec5b05a02366b778abe -> 3808dc1e39c98dabea3ff408a470765372c26151f800a9d0874f67a4edf42240
+~ __52-[LiveFSUSBLocalStorageClient removeAllVirtualDisks]_block_invoke.22 : sha256 4a154c2d2c9f8264b6ca8e316f3d5ce85543cc0df2664fe8878f8e2fe40aa006 -> f1f5fdf453645dc5c6ec64a5189d926da1f755055e880f5bc705bbf2dc6b830b
+~ __52-[LiveFSUSBLocalStorageClient removeAllVirtualDisks]_block_invoke_2.26 : sha256 040b09bf7f7aeb061f72edf1c9120d24da084d1cb32784042ee179c39d988d3b -> a7b8d223fd9ae3fdd2c2e605d5e99fc895208513e40ba0b0c91e5bfe54856ab6
+~ _OUTLINED_FUNCTION_0 : sha256 5d0c3bd725a7ac9e39f0b309ab94de0354f5ca4f05b767a3cca844dd23d9c3cc -> a474dd4047e9f81c3788c33ff338ce1682c1890375e9faf7e167a9bf727c2312
+~ _OUTLINED_FUNCTION_1 : sha256 88e2111a8007d594cc344ce71b7bfdb882122465be5225358db73ed91b62d459 -> 57f73a40f7850682e586b23c6209e1eada4096a751223493af76c165c3a36476
+~ _OUTLINED_FUNCTION_2 : sha256 5e7bd0d8834878617e1b9233f947220972714f82e8e1806f0eb3c0f9a125dfda -> b114a05c781ad520a77b0e600223d2237a74b21b2caaf019d3a1717738f66b8b
+
+```

@@ -1,0 +1,52 @@
+## libCVMSPluginSupport.dylib
+
+> `/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCVMSPluginSupport.dylib`
+
+```diff
+
+ 23.1.1.0.0
+-  __TEXT.__text: 0x1bc8 sha256:fa3df29b0f2b3d69b84b5743ab4c0c0055cb175824cc702c6ef77571a244192a
+-  __TEXT.__auth_stubs: 0x200 sha256:20ca5662ad7c2a08c03341d0fe0f034d8bba4e1699f544d09bd6017995d0c8a9
++  __TEXT.__text: 0x1bc8 sha256:15464bfa2219b3f1d44b878ae3a0071737458214b4e3fb5aff0612bfd20e48ae
++  __TEXT.__auth_stubs: 0x200 sha256:2ce1ef4f04686305225db12c7f70728ee15a799f07ac48ea8c5d7e2bcb6016fc
+   __TEXT.__cstring: 0x91 sha256:5022e302c5660b04df367dd4b335741e07ab333148e16f739ba4886b3bb5e2b3
+   __TEXT.__const: 0x20 sha256:1c5fd535c354eb261d1277fc6460889f64f43264dc8168165a029ca61b4a8aba
+   __TEXT.__unwind_info: 0xd0 sha256:c3efaf2a6b4f54a513ece951e8613f883592fbe9b8a1de535a2ff09c7b5a6b72
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_CONST.__const: 0x20 sha256:bd076cbeea6b8b4ff1dbd59e7d1acc5a0988350275de485f5ec25ea576d5554f
++  __DATA_CONST.__const: 0x20 sha256:98e8171866e775bc28898f4cde707cb816957a7b91a750c74057ec0a004a25b3
+   __AUTH_CONST.__auth_got: 0x100 sha256:5341e6b2646979a70e57653007a1f310169421ec9bdd9f1a5648f75ade005af1
+-  __AUTH_CONST.__const: 0x20 sha256:7d6d9d2ee6665215f70024b975a7d022f4c66daf8128f3f64b0d22963bedbfbe
++  __AUTH_CONST.__const: 0x20 sha256:ce42f69fa5651ed40ea7940b232994f10456547a1cb6546421a353b98b59734a
+   __DATA_DIRTY.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_DIRTY.__common: 0xd8 sha256:a5645e7a3fa0866cde8842c4dab96567507c3d1a3c028b816bc63f6966367b70
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libRosetta.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 4DB3E89D-C72E-31B3-B102-3A48C94908C7
++  UUID: 30FB9745-7C24-3623-9803-E15B6BB63369
+   Functions: 65
+   Symbols:   103
+   CStrings:  7
+Functions:
+~ _cvmPreInit : sha256 6b9b9d571e57df851b78f60a025aade663e3cdcee322c140b9e37c11eb7abff3 -> 283b6c3469197cde4faff2d739785420b0ac2001ef897ce59e684ea959cf6815
+~ _cvm_function_new : sha256 987961ad510009ceb87c3ff4180062d13113cd4b3857518e6a700cbb98639d71 -> 6a92ae1748d9d8afdde04b84a1d7289b1107a372995bebb552cd48e96624ab88
+~ __ZL17cvmInitializeCVMSPv : sha256 2491d615c30bd3b7752e117cbdd5c2bb0b22b8cf9c8e2e1acac7278018b316d6 -> f6fc3f465ffce032d67bc07aa179315b8f03eb18cc25cc3b7e8c7a196084561d
+~ _cvmGetDummyFunction : sha256 fbb9f8f5cf5af52d1358baa899d72abb0353a7ec4d7998936032f2b98ea3bf26 -> 7e163ac6902357e61669defdb791503add4b407908a75e8c4a76297c9ccaee39
+~ _cvmReleaseFunction : sha256 3913a462fb9a2bed5a67c5d5c9b9337c20bd30f77ee0da0ae753d9f9d9d74a3c -> 51e076bd57a6bb0921015d08af71532513903a2dee604fc4f57b8630e929e974
+~ _cvmGetModularFunctionFromCache : sha256 0fb57bdbaf613ed1f6961e6a35202f7d7a02bf0b2160030764b695684bd20f19 -> 0b1227f8ab91c2c7597fc14e2d5faf034e36cfa7919f08344d0e2ebee85257d0
+~ _cvmBuildModularFunctionDeferred : sha256 1ff2b63d3f72d8966f536fb4344ee3eac661967cd4d49bb1d41e3a25a77bb3d9 -> 4372b6e6d9b77d91b477c759fbe4e0ac04491cdd3b0ec7b39c3881e7735f0491
+~ __Z26cvm_deferred_build_modularPv : sha256 715fb5c34cc8005efe6d91cdd83574d28f736b0b091d2673cc4a8bf181076f34 -> ffdab0426b68f5de501153f3b48876e027ddefa373e5f7fd2c2aa57ba2b99394
+~ _cvmAddModularFunctionToCache : sha256 3d81ee031058ea93cf797f0a6136bdf76eb0d800d58b51fcae4da040e404db01 -> f8969c9a7ca907a8d46109f5b60827646a5fa79ce9dd326ca6679465403e0cef
+~ __Z19cvm_hash_set_reduceP13_cvm_hash_set : sha256 b78ad2458483b6a253e73c4ce23e0ed39e70924da844c42e929d8d73955e98d0 -> cd1a5fe4ee69f6011a288009a21440990dc484cc882041ecd4cc42fc7b93c204
+~ _cvmEndWork : sha256 28609e308495907866236bc36cdf7c71e79f18d9a6b8ed0244d84211aec9f3d1 -> 80c1c5faadd8e5a8d794b6207cb66f501af08609f1d5f36ce66e209c461cda92
+~ __Z17cvm_deferred_freePv : sha256 2147a4461cd8fca2fcb99fddffad387d8c5e6611a857c20349f04b04ad9b851b -> 4225e79262654c01558c41f76a5785dd286bf847859bc78d64e17b89a4824c04
+~ _cvmObtainMonolithicFunction : sha256 1f2e6b5bfa297e4e1d4846897ab774f5f88d867e55e08b75077562cade566e2d -> 82924d558091047a78039d5f8b529f6e2c624b663c0be399cdb2f23cd736c235
+~ _cvmRequestFunctionPointerArrayWrite : sha256 79492bd3bbcbc170240e71386d623e0a4655a2b8000a493267cff684ad085459 -> 733fb5a92441762380f494ea9dae7b974eafe25fae2350c3aaed7c63b0d2dfba
+~ _cvmPostTerm : sha256 21cc5c13d6d481f821e41e4f023142038dadc21c52d9a47c003eb63e1334a236 -> 86866c473c234ed19dafffcacd87f19bedfcdaa777d68aec4c15000e44920667
+~ _cvmReleaseCVMObject : sha256 3fe0ad0e1b848fcf42584ab8530b6887993aa94329030055dbf41a7dc8ae1972 -> b1ca170e8381ad60c1609cc1a6e4af9ee329f2b5e626f14d3146976a9bb1c421
+~ _cvmBuildModularFunctionSync : sha256 e4f8a9e53b31b6a94eed9931c4e4beb6159e70f6ad3d1e8dd2ef74dc3f5227dc -> 8f12be2d94ab6de5b4cb02da4ed8a9ed48ab0214990f524351f58a3652204826
+
+```

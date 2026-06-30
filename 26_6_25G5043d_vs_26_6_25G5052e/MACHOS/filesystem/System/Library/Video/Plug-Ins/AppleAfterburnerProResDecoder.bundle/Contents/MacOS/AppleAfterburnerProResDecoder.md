@@ -1,0 +1,57 @@
+## AppleAfterburnerProResDecoder
+
+> `/System/Library/Video/Plug-Ins/AppleAfterburnerProResDecoder.bundle/Contents/MacOS/AppleAfterburnerProResDecoder`
+
+```diff
+
+ 6.1.0.0.0
+-  __TEXT.__text: 0x24120 sha256:05bf96e3528c6d565631e7afd9c8236f165d686e38b9bba8269b40fa56638f16
++  __TEXT.__text: 0x24120 sha256:e476db7befaac8fccdd41b79cf51c1272d8943c7f6bc932233b9251d0f003f88
+   __TEXT.__auth_stubs: 0xde0 sha256:16d64bfa3c0c0b2c8574e247c6d6c69447430cd3c192502d81c5aa230e0037ac
+   __TEXT.__objc_stubs: 0x3a0 sha256:09b0b5332f8ffe76c3d7c189b93c74b4611f6d0b186de334dd5eca21b167bc2e
+-  __TEXT.__const: 0x17b28 sha256:dbfaefd3b0c483e9789073b429cd23fe284766a9c0fa76b2a02748687ab17ba7
++  __TEXT.__const: 0x17b28 sha256:3d4e16a31edf1a9f443cc055e4098a3aa68c51f531797239f44daf63a8c1df1c
+   __TEXT.__oslogstring: 0xb04 sha256:a45b96eea50fff142656b28055aa3d4636340d7d1051388bb015b066982298cb
+-  __TEXT.__cstring: 0x1c11 sha256:1891ed81bbb2d985c1c2e8b08396154f82d487bfcdb5ed7c4c9a4de516f22679
++  __TEXT.__cstring: 0x1c11 sha256:2d476442d56f32b933de89d78f382959beec5f620ee9cbd2a6f59b7f47193e8f
+   __TEXT.__objc_classname: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+   __TEXT.__gcc_except_tab: 0x1320 sha256:3bb4f364f637917157a29c0f4c6f7f48244eaaaf09bd112b5adf45634d119306
+   __TEXT.__objc_methname: 0x224 sha256:d4d7c64c993b24d5a7ac6a6cce3bfb165177e873631b05f697a75fb081172620
+
+   __DATA_CONST.__auth_got: 0x700 sha256:23f5068a731bfe7991ede79b72fb994ba1b681e25460669d6c1992401f7dd4ce
+   __DATA_CONST.__got: 0x250 sha256:45fc6769e656657fbf7b6b5f2fc359203c0b359cab7e6b3e9ae1d6304c6d6465
+   __DATA_CONST.__auth_ptr: 0x8 sha256:dd97d10ac8c933719dfea6a8ed6918eeec85a8b02ada24870a038670ed0f1354
+-  __DATA_CONST.__const: 0x11d0 sha256:5ce4bafe7283523e0df55fc487e2920fad8832dfd0bea5d894b5f54b9191fe99
++  __DATA_CONST.__const: 0x11d0 sha256:8612312fbd87319d6dba7c5d2e5801d4d0598a08e6de828f1b7c7bb55c0320e2
+   __DATA_CONST.__cfstring: 0x520 sha256:bb54ff18976db536f6db05281dccc08135c82c425b851aaffb62aeddea5210e3
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:1fa65ffcccc24c72d5d7f804a2be05ae57dfbb8769ffb33c4272ed6795b7e61c
+   __DATA.__objc_selrefs: 0xe8 sha256:c3f74cfc5069dd78a539b1e2860e8e056775204a4c214844faa9918682d5b508
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 185265C0-5019-3625-8622-E8FE27EE6670
++  UUID: A7313716-23F6-35EF-ABB5-6FF87BCE6D38
+   Functions: 571
+   Symbols:   308
+   CStrings:  359
+Functions:
+~ sub_e294 : sha256 01e6851cbb756bdc017d518f7c26ca020127b1fcbd86afb11513658ab9a3abfc -> f1bfaa2d5cc18a6e543282636f07a8ea3c78095a6dfdd97d7b7c9f0e79eff1ef
+~ sub_125b0 : sha256 756d06585619fd87add02a84b8521a5744b6351c681bf79b7c8974a017d6b556 -> e812d91b2210609b718fb13094f4f1ba6525b457dd586c24e43bf22630590a3d
+~ sub_12be8 : sha256 25637a25bc4a86bdcccd7a59bdc3b43dddfa47e7607c4b72a38be99621a9e2c9 -> 98a4fa704302dec1572e5a2f465862ea71de512199e9b7e43ddef269a35e8088
+~ sub_13f1c : sha256 b39fc57f9015d5006dc205b846bb7c9d1339d705351019cd77580bc858f609e3 -> 8b5c8e07946a0a358c2e56b36f5e8659b180af377516fee8e78eb6242c41f200
+~ sub_15ce4 : sha256 9d9f56de61b02a9f09af8fce506c0cd9521bfbb99d3543f02fcacfd580febbba -> f68e45657dad86f69ffbc5d21f50b0327fd5f3fc3cf660a32ba75c2dcd07c2a2
+~ sub_172bc : sha256 49fab5be65bb34498267535a73c0d8243b58b81fcae6149ccc60542826b93156 -> 416b1bd9f52081eb01a519d7a4f8af60add58d7eefa7c547caac524765ba0f1d
+~ sub_17e44 : sha256 6d84334be9d2124b19189a227e7a5718edb3b69d9d9b41d6f24e33f7bd0754e8 -> ee8ab2d912b0463450779d1d14fed6c2f934a711d979c0511d5b977950f15d5c
+~ sub_189a8 : sha256 ce9e8bbd989be65520571031f5cfe3a64737e9f6583ed187b94b0d3c282d86fa -> 6b768f1e84e0fd595ce73770d653a1b21bd23bb700e32f9e5f3fb8d66738274e
+~ sub_1b7a4 : sha256 88d8b58e92e7529ff11680bbb3d9be3414f9d83c2ecd7b51c6884c58a2a0b918 -> 86f9ad094e569cd4c2df201ee94a1b8288c6f317d909bafc698adf57c3c3e739
+~ sub_1d294 : sha256 47b883c613d2e1c6716e6e64cd93ad8d5830adaf7022afdca827e93c559d1ca7 -> a7178975b3ffdba8b5b0e3a464e7f1687d6d00447ba3fe344872fab8eeb8fca3
+~ sub_1e314 : sha256 305b5120a55370da93afe0ba16efbd663788c9b470e3f1440505297f12965860 -> a19ca639303d583af3ed8caa1bde4a86a95fa5b2be8b150f5091ce3aa5af0ee9
+~ sub_1f920 : sha256 85ed57c312baa7d23e1be8b1fa91ea4f9401b6a7af2e6e3dbeaf03b92e9544c5 -> 943a266ad71fc1efff8724dd2c375e587a5b062fcbb43f3637bce826fd4772c7
+~ sub_1fc00 : sha256 776f9c7125ce6b4bf34d038634e68b56693ee4c641334e2c9c2c6470afaacd23 -> 6a6f72e8389e220a62dacde4c116ed0d42df378edc87b779b054d63f20b92374
+~ sub_22dfc : sha256 175b6ead5982b81895dd712ac77598f1e3b195bc0cc5f8161aa9382316627922 -> a33117482cf9e8d3762a544123a4f6171be4d2ac34cda9f935f81faeb3d2c749
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CSEQugC4nAh04P2mjWZLOIHb90Czeu87hg_SbcA/Library/Caches/com.apple.xbs/TemporaryDirectory.cvtmSS/Sources/Athena/AppleAthenaDecoder/AppleAthenaDecoder.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRehugDv1vCuIEGf5kmI4-buECe0nxxMEZXaIM4/Library/Caches/com.apple.xbs/TemporaryDirectory.focazv/Sources/Athena/AppleAthenaDecoder/AppleAthenaDecoder.cpp"
+
+```

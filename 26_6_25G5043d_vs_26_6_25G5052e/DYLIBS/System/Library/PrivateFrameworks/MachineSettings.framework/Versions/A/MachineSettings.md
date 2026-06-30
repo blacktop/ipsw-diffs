@@ -1,0 +1,68 @@
+## MachineSettings
+
+> `/System/Library/PrivateFrameworks/MachineSettings.framework/Versions/A/MachineSettings`
+
+```diff
+
+ 14.0.0.0.0
+-  __TEXT.__text: 0xb18 sha256:633d2225333cf96c798d1a245804798ed631470613da6e45bced985b5af8c338
+-  __TEXT.__auth_stubs: 0x170 sha256:beec3bd3be55c1ad9aee3a4607d314a353ee8e16a1914cc8290bd404a8da3e7f
+-  __TEXT.__objc_methlist: 0x50 sha256:e8d195da329a307daec3a70eb159c307724faac3744b86f1839fcad954c66eae
+-  __TEXT.__cstring: 0xa23 sha256:ba9327cce3a3ba75d8e18920b91e609cc3c30d5fb60185a72566a2a95d5c05fd
++  __TEXT.__text: 0xb18 sha256:d0c8da0d2272acc5e12e546dcdb5090cc29f9a37115dab4a8edf992902d62f81
++  __TEXT.__auth_stubs: 0x170 sha256:8b22671eaa2f25b47d7adccd343d621b59afebc5d34a917e1f70ec8296758b5a
++  __TEXT.__objc_methlist: 0x50 sha256:fcdf4c1107008a3dca5ae4ffcb2d1d2d09b39e7b4d8061ed2b2b8ad252348b33
++  __TEXT.__cstring: 0xa23 sha256:9fb4d281dc9192ac387010df05db4acf4d463c7dc096a4b72401cb05c8dc1992
+   __TEXT.__unwind_info: 0x88 sha256:01fc244bfceed7bfc8171eb483013723ee4a2cb050272789c31568050d4ef986
+   __TEXT.__objc_classname: 0xe sha256:8d6b2b0b4577d39fa2c4dfa150def50f26e90e83076947f2b71c958b558ed9b0
+   __TEXT.__objc_methname: 0x4a sha256:41631f2824c31d1baf453f8e078002e27d0e86181e4ed204e6f9e36bbd7d6087
+   __TEXT.__objc_methtype: 0x23 sha256:02ab08e1da34c49960cd44298cc25ffda6b0b33c956ecd76515dd1aa2c6f75b8
+-  __TEXT.__objc_stubs: 0x20 sha256:411166a3dcc767ccf50f47970dc4835e899ca45a2ba24114d9ed5b63c36b00e2
++  __TEXT.__objc_stubs: 0x20 sha256:74ac2a2865b5a93f11c26d4340669e8bcea9de44155e2b5e583ae487b773a60d
+   __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:f5c2809238e7e94b22deacc20efb5e075a33ada0f3f0a44fec92a0fa2b6b6c36
++  __DATA_CONST.__objc_classlist: 0x8 sha256:adb8c2575da1a429ca9a7161f60e43ee867eb13029be026587cff5f4eb74bfeb
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x30 sha256:04e0b356c3abe1f4a6b9309a18531e9ea1897d6bacd8b94b70ceba37677a3f7f
++  __DATA_CONST.__objc_selrefs: 0x30 sha256:5251dca0729403645b7a806eea00eb867b033fa10c57023521abf0723dcf0283
+   __AUTH_CONST.__auth_got: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+-  __AUTH_CONST.__cfstring: 0x820 sha256:ff0aa20d9acf22f7d9d1c11622adc4fc7429b0c12cf54d93f982a89d73f98964
+-  __AUTH_CONST.__objc_const: 0x90 sha256:ac0503eb67dbec1848c677a8ee2a6bd756c1039c41b3315386c7f4931d6c82ec
+-  __AUTH.__objc_data: 0x50 sha256:ce04a2e6c2e81ecf7755c2f7c6a8291886f28d42ba17e02ea10b51507f004c03
+-  __DATA.__data: 0xe0 sha256:386b5cbccd2a66bfe4bac75adfa4614e845795fe5fecba65d0260c3f185aa321
++  __AUTH_CONST.__cfstring: 0x820 sha256:9c3223e35ef4d462c643ab4e860d90d6fa27e5e6eef087a134141a32fd08c039
++  __AUTH_CONST.__objc_const: 0x90 sha256:9deedbf1bb43053ddb13c62d7db043159d7cbd5f6d5c54f69c11e30b0545eff2
++  __AUTH.__objc_data: 0x50 sha256:d126d4f152412c6526256565e594366be5ea529bb07163f973ea333c74249a7a
++  __DATA.__data: 0xe0 sha256:b366bb7e31a77269adcc1a22f3f947fdb01f80a76883cf32f285dac85bb8bb8c
+   __DATA.__bss: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+   - /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E36C660A-ECB0-373F-BC08-FEA306DB702C
++  UUID: 71A4A97E-A308-322B-BCA6-E0357E93A880
+   Functions: 21
+   Symbols:   91
+   CStrings:  148
+Functions:
+~ _getEVSHandle : sha256 b7998be114729396c6bb9bd9900a7e48a09805df6df1fc32cd4bba5f0a27dff6 -> 022e204743801d16f9d64ac8c91f7df0b03e27597abd166ba4188b4b0f068ef7
+~ _doubleClickThresholdLevel : sha256 8dfc027eb532494250f0686a8786b0b6388b802afd68f1477b082b91a99e15df -> 367924682e4965adeb9ae3a2162c7926f011fb1692d7c0e5b3b7c4ea47f50cd7
+~ _openIOConnection : sha256 a5ed05fb9fd5e74362eef9a97cc733178a06f20fa586634e5288df97585a52b4 -> c9400042a8a6f98d872d1832cc7059787a5bd85655e4c47182830334050d9900
+~ _setDoubleClickThresholdLevel : sha256 2a7641a0985703e3fd912a8b37e59677704fb4cdcf5d497eb18c38d1ade51cb8 -> 8951dc19483d806e60048d557f54eadc18ffbbfc360aaca3137de7a6240c130a
+~ _setMultitouchTrackpadBehavior : sha256 164441fabbbbf59dc1f9805030f8de58d09b11d7405ef7bdbd5408407e4060e8 -> 31908b3ebfef60692b44b66d0312c7887e3950327b5e6ba116e27a2f2a95d3bf
+~ _createDictionaryForTrackpadPreferences : sha256 9abcdf1b991e59fb693e46f1b2c3816a53ed345181b8e664bce59d3a2027b99c -> f3ceba7e4d7660199cefc31cf220e7ed431c3e60abd697dd31c2a56b2f05a09c
+~ _setTrackpadTapBehavior : sha256 38de1da8bdda09423b31407b075fdbd0acbd05690c7fc5f1f4cdc46206e6f264 -> e35ff137b4cba127ec57c93c2b0875ef7ec6f3862c38ff7522592894049a481b
+~ _setIgnoreTrackWhileTypingBehavior : sha256 dbdc2e1229d05aea9b4a011d8910a52ef3e7284555da57a9bc71eb2d1f15187d -> c9b59c46e8d75032650c6b3ad132e5266672a3071548707a010e9d003b8c177b
+~ _setIgnoreTrackpadIfMousePresent : sha256 b00b6c8ffb98c552786d70c476b0e6593bcd927eaa67b3ece420a7d3d9305413 -> aedc0c02f18f7915b6cdf076e1ae675cfc89a9f74f80eab09544d4ed40add19d
+~ _NSSetMouseButtonClickBehavior : sha256 82d08f1c8b707d095308da155c1ae0b714800cdf52179dee49e6e4b2078b65f8 -> b9b0a7d0486ff1f6950288689eb3dd14ec372c0949b293cd8815267cd80b1d9c
+~ _NSMouseButtonClickBehavior : sha256 f61bb66d87dbdb029940e2b2e11773bfb9f40716758eb1c819694bbebac8897d -> d14344330737d888935f428438f8dc8c360a8fc65c84a54083a583a7e356663d
+~ _setXServeLockEnclosureState : sha256 a1d090a54adebe48aec94824714b8acc11ebe55215b5cec8576df941788de7e1 -> a37a46ea723796b47324a93fbb30efdb0190b4ca9f8244408d687d8f565cc148
+~ _setXServeLockEnclosureStateForConnection : sha256 3403b83331e7cadc79673abbf7241dc2f14812ee8de29c55a8e26f590e39ea3e -> 94b061c033ab04769a6b4ceb4786f6fb58fa178581c358ef4539884b75264486
+~ _createKeyForKeyboard : sha256 2b904ecf0dda1e1c709a83b9cb16ad61940894548801c616fc1b8d23993655ac -> 85e0193ad6baf6560903344f4169f470681fac723f1dae3adb97309b5528d6bc
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CSAXugC8VFdOthjC1Kp2TtPimw-xqV_XZQeZQUU/Library/Caches/com.apple.xbs/TemporaryDirectory.oztI6y/Sources/MachineSettingsFramework/MachineSettings/InputDeviceUtilities.m"
+- "/AppleInternal/Library/BuildRoots/4~CQ4-ugASLMBbfs1Plt0bvONp9fv1R3hXNqmAOfQ/Library/Caches/com.apple.xbs/TemporaryDirectory.7cx9Am/Sources/MachineSettingsFramework/MachineSettings/InputDeviceUtilities.m"
+
+```

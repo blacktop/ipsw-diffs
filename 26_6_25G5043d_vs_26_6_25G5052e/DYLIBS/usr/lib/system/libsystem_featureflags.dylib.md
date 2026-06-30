@@ -1,0 +1,38 @@
+## libsystem_featureflags.dylib
+
+> `/usr/lib/system/libsystem_featureflags.dylib`
+
+```diff
+
+ 103.0.0.0.0
+-  __TEXT.__text: 0x1fe0 sha256:bf111fec96c9e3157dd9910abc4bc44fd61fba23e1fc4888a01f2bc0b79f3501
+-  __TEXT.__auth_stubs: 0x2a0 sha256:ec4c8492ca3c1bbd3df93bbc517e8cb1e0f5fb2965f7ed0a901da9564adbadcf
++  __TEXT.__text: 0x1fe0 sha256:d6c50d9d511ed8d2e271b70b0b6887f12ca7ca76ab797d8b6ed4332834ee9132
++  __TEXT.__auth_stubs: 0x2a0 sha256:13a36eb22dc2ac528e9997893bdc3aaa9d62fb846c219d83b006b5dd8b44ea18
+   __TEXT.__const: 0x50 sha256:a20b30455daa8dafe9490dee08625a0dd32210f334e2e40919723d39aa532510
+   __TEXT.__cstring: 0x279 sha256:e9c907f6964b8cf097c4122240cc19075f2e917f59e766c656f59fcac83c59e7
+   __TEXT.__unwind_info: 0xa8 sha256:bf0438586bf6be62603012f558eb5a1d4c52d7cd9b6593ebe3f8c374c4ff6b96
+
+   - /usr/lib/system/libsystem_platform.dylib
+   - /usr/lib/system/libsystem_pthread.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: C0418B62-C218-3971-9CDB-8640D16637A6
++  UUID: 17868720-C078-31BF-A78C-E418CD7DB96E
+   Functions: 22
+   Symbols:   80
+   CStrings:  26
+Functions:
+~ __os_feature_enabled_impl : sha256 2f30b959a859d6506dd961385f34864c3dbfdf4b3abeb9c9be1037e2937167f3 -> 46f1046bca65f5189cdf322643678e0f84f67d82d7753d1f0208f4784577a864
+~ __os_feature_table : sha256 81e6aa1de24d298641f423fa1cd69d84a58bf5d9ffdad8986efb78bdf81ed940 -> afc3786e2eab85691b3649bb2da2909b3e2f684bc95b38c16cbd237d47a6fb13
+~ __os_feature_search_paths : sha256 d1967aa30822dc8b4ad53f868389e786d7b50d0348ba68032b28c8f638c491e5 -> 3cd1ee689dc1360d02b43803833fa4f56b5483daba1eb9766689902c022e6023
+~ __os_feature_enabled_SLOWPATH : sha256 62c9ebd75e82adedb22caad5524a3368b5f665e833a3f1aa2095509d368da9fb -> ca9ad2b31c3c69c98edcefd2f351e46e9df5be2144467b0e55bda7e95c093a63
+~ __os_feature_enabled_load : sha256 b8b191beb7d64991b6991ed813b9b1750126966980813b0078efcfcc216122a2 -> 551d6c579d93917f3b45d961d12a6febc89467feaba0a40c6c43d259909ef828
+~ __os_feature_enabled_extract : sha256 badde157a448b60d9dda141b60a39e11cb18bd004f7de232678e96c62f619011 -> 395fb8779facc4d34190182cb123d04b011104332f3ae41f82c2be004cd2a86c
+~ __os_feature_enabled_extract_domain : sha256 34fc120f9f7d42ade8de48b66c3a358ad97e802d96c396d5d06a8c3496d4f545 -> 05530960014b34c20e72791ff9b2896a89407b4c3221092078353976d934fbb7
+~ ____os_featureenabled_slow_load_disclosures_block_invoke : sha256 d68aca321dfa2be7a77d4a4234933c1b66bf5c574da8712de291364d48a05df4 -> 22ec86a2cbae73bb480d8837cc6e1d3b39f53e7d9b8f5ed0449e0a5670caa337
+~ ___os_featureenabled_slow_load_disclosures_block_invoke.7 : sha256 68d1882b30c40f88b748f6c955e185a96aae4ce199863fbfd7f569dbd5819528 -> 766803aa7e4be7b82e56d7d0a8f8092778403ae4e9227c8120baac232c441b2e
+~ __os_feature_enabled_simple_impl : sha256 13e6a5e714d7f279ebca946e7f9a77050b756373b8bd7b8a0b0a8aa61716df52 -> 1a54aa314d92f7cb2635a9ffca39f375712f23a13a45c9191ddef72a8eef1e06
+~ _os_feature_enabled_impl.cold.1 : sha256 af9dcd54282240437eab1440b85ceb0a1fcfc899f0eb3984e671f53df6801b3d -> 9abccc7d7c213e455d792d43d75b3138088bff5f849df8134d11cb07443386af
+~ _os_feature_table.cold.1 : sha256 35d6f3ed29aa9e226fb7c146ad48ebaa1576bc5c3097ec0f47848412e34a4f08 -> defc1a3b403be36ab2c94c8eb71ca2e683ac907613c508170c5160b032f2611b
+
+```

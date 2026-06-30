@@ -1,0 +1,37 @@
+## libAppleParavirtCompilerPlugin.dylib
+
+> `/System/Library/Extensions/AppleParavirtGPUMetal.bundle/Contents/Resources/libAppleParavirtCompilerPlugin.dylib`
+
+```diff
+
+ 64.4.7.0.0
+-  __TEXT.__text: 0x888 sha256:65170277b76c4e7d7f8074844eb08eea53eb06cced468a1c707e8ceefd2b63d2
+-  __TEXT.__auth_stubs: 0x1f0 sha256:f7368095c5a2efa0351dab2ceb2873d2144ee5867227673e5a6247e04506568c
++  __TEXT.__text: 0x888 sha256:9de529de4ccb768c6d6d862b57f7698b90b68aed24046fa0126348d3813b04af
++  __TEXT.__auth_stubs: 0x1f0 sha256:1fd07927f9a6e6d6c9a44d2a0c5501976675a79ec55cbca2fad601c6aec8ed45
+   __TEXT.__gcc_except_tab: 0x38 sha256:eaad86dd8614c1a6dc52d9247c5c89ab466aee431bbfbffd734da6cb903990a5
+   __TEXT.__const: 0x36 sha256:60bb7ff6dd5089b3ed2df5c3beb3776fa5e98726355037a497c15de1ddda23c0
+   __TEXT.__oslogstring: 0x1e sha256:9e6e759db64acb53b79c2ff8b4d9c990510621f15cf06f579268bf8f447f5350
+   __TEXT.__cstring: 0x1b7 sha256:4f067c97f9415ebf3b8bfdf8d528a5d0c8a0cbdcb42dc931d5826bc5c24c9363
+-  __TEXT.__unwind_info: 0xb8 sha256:555f852add7eede00e84f4611c6fbf598449aa6c8848ce6a0caa6eb88d3e8fb1
++  __TEXT.__unwind_info: 0xb8 sha256:c37e5f9dd2cee7cf7e96186d5ec6832af57e3b8ffa5f3184da36a5d6172c33d3
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+   __AUTH_CONST.__auth_got: 0x100 sha256:edc08bc52070b407675f18ad8d8bc3105276733d90e7428da3b6750b05ceff48
+-  __AUTH_CONST.__const: 0x60 sha256:b9919ffe673cdb5d8d2ee91619fa89309cc5db2f9ce2a1ed87534f69178e7e67
+-  __DATA.__data: 0x18 sha256:47f187ae8ae73e0d80a92c42f91bbbfbfb8d4cb0dedf6463cf4590e0f90a49fc
++  __AUTH_CONST.__const: 0x60 sha256:7a5b604602c68b4c293888134d78205912743b71a735bf2e849205f4d5d0906e
++  __DATA.__data: 0x18 sha256:dcb0b1237c156693fa601326f3f825ce90f6c58b8840702da5c315179e028126
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/libGPUCompiler.dylib
+   - /System/Library/PrivateFrameworks/GPUCompiler.framework/Versions/32023/Libraries/libLLVM.dylib
+Functions:
+~ _MTLCompilerCreate : sha256 69180f23786b4a46e7f75f0b28de3c9e55e6c0366b2da6166855d479e9f2bcc7 -> f44986384edf75807c6aefa0cfa5f0bdd66af7f8aa51ac4c6f924c0219b3bdfa
+~ __ZN21AppleParavirtCompiler4initEPK31AppleParavirtCompilerTargetInfo : sha256 95230564ae6f7807dac84d30807fd3ff0e00439dab543473c93eb21efa93807f -> b067a4d1af23015c51c94707700c080518c1b4eaa7742f1452df5d2145b57473
+~ __ZN21AppleParavirtCompiler23buildRequestWithOptionsEPKvmjPN4llvm6ModuleEPS1_PmS5_S6_S5_S6_PPKc : sha256 498733696590c40b53b20e352c224bdd6c649343c71cfee5b9c1aa4535f86a23 -> 2994992bf48306c7442fe522257bafe88fb5050ff93b3bc50ca2755b755acbe7
+~ __ZN21AppleParavirtCompilerD2Ev : sha256 ba437a3de807ac2e470b41798d82c1fa545a3400dbf9bd3b5505928cb9f70e9f -> 416ed686db526b94952ada632be58ac30701a45d864f63466abd35debf759054
+~ __ZNSt3__120__throw_length_errorB9nqe210106EPKc : sha256 c28f6e39075867c5e5789353fba1e21bdfd10f217200b8e6eef54b3342b210fd -> 687b079373e447a50856b2214235e6444e725871a56eff5a15d457d3eec84db4
+~ __ZNSt12length_errorC1B9nqe210106EPKc : sha256 ec97393e589763c9968d8fe56c4957ac47a578e504cb1c0c8886438583795593 -> 385f7f0d7c133dc558a7fcf10201f625e792f560c1e7f42f5cec2afc3ec494d0
+~ _ZN21AppleParavirtCompiler4initEPK31AppleParavirtCompilerTargetInfo.cold.1 : sha256 2dcfe00d4d9242ba30315a39869449699da0f8eafde39bd5847a529a61d420b7 -> fbce033e0f16c11a0f9b9595ce702bd3c937c7f8cd22853fc3e4122dbeb64f2d
+
+```

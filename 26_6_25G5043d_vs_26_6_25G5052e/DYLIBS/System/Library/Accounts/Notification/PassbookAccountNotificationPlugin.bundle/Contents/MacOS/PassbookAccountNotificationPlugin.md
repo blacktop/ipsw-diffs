@@ -1,0 +1,47 @@
+## PassbookAccountNotificationPlugin
+
+> `/System/Library/Accounts/Notification/PassbookAccountNotificationPlugin.bundle/Contents/MacOS/PassbookAccountNotificationPlugin`
+
+```diff
+
+ 1642.7.2.0.0
+-  __TEXT.__text: 0x568 sha256:5e77c5f9340a2704e38cfea2c11211528c96c8e3087414330b64f4ac4c66989e
+-  __TEXT.__auth_stubs: 0x80 sha256:b56b4cc9e6007d8c6fdad4c6072857351a6d4696ea9d30735dec39fcb809f3bf
+-  __TEXT.__objc_methlist: 0x1a4 sha256:8e64c6c92904ab0b6ad7d29bbfaf96ba6ab167123d5d702810cbb32212527128
++  __TEXT.__text: 0x568 sha256:f2d529255799c0464df138b9321b8527fdeb2ebcbb90a64fe825925f7787d860
++  __TEXT.__auth_stubs: 0x80 sha256:ebd6cd7de42192b8a96db28253517c9c56cef51a030b9d4679a8dd0a3f128538
++  __TEXT.__objc_methlist: 0x1a4 sha256:2020d06326cade2f4f7cc69190a131d4c01d6a27d6bf26f21d95e9c3efa75381
+   __TEXT.__const: 0x10 sha256:65e0e037ede49a6895979432e1e4bec3c4b2e9ca943c7b2965aa3dfba3d26492
+   __TEXT.__oslogstring: 0x16b sha256:fd98aedc8f0a1855daeb70f2f3abb877ecad0a9d3f94efe6b6ab71135f688715
+   __TEXT.__unwind_info: 0x60 sha256:259797343e8e92235239cfc21052c59a23949b5c54b9a470fcf4836daa50821b
+   __TEXT.__objc_classname: 0x4d sha256:7ba3cfb75dc1a378bb39ceb6a13d7ace5d4543b38afcfe4ea46fa88f2190aed0
+   __TEXT.__objc_methname: 0x36b sha256:6fb7719d0cbd0c5fd53ba0d12c65cb45f0c42e4535c95390e5d9bebfcadf5c6b
+   __TEXT.__objc_methtype: 0x1f3 sha256:4d2588b7bd2f4aebb3fcdafc6bad8e6f7d0a972880de8bae8c8a50ddf072c156
+-  __TEXT.__objc_stubs: 0x160 sha256:72865ed04e64fce3b46ce8da2924086cdc4ecf8518167586cccf746c2c8e075b
++  __TEXT.__objc_stubs: 0x160 sha256:10e150c7f9e638fb3695116e723e95fb456cc4d2092a1000cf1c37cf66ead143
+   __DATA_CONST.__got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:d0364a18a9e2dd47e5cc452e845c8fa28ed121ab945c58b3f7baedf60e9d71b9
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:8e4eadf0d863fdc93f43b21379f26c480d301af53454480e384c20212602a8c9
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:83b65310d5346c6afc6ad4c6071b5132a241146db86ee36158edd97e651ec232
++  __DATA_CONST.__objc_classlist: 0x8 sha256:1f4e8a52b6b915aa726ba65495d186336897ee4d10124c3ce4ae015e636e784f
++  __DATA_CONST.__objc_catlist: 0x8 sha256:c753f08c9867097bd08e60a38957ac45790a7dafc7a5c9ff3e4c6abb56bd6925
++  __DATA_CONST.__objc_protolist: 0x10 sha256:caf29544255aa42e6542263c2980075ad16ed26e1d1c4ebd198107c889be871a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x140 sha256:a975e0cbe9c24bd1fc4d21cda889380113e35e7316fb474f65109cbf7e965db1
++  __DATA_CONST.__objc_selrefs: 0x140 sha256:fde67818137b7078735b90df2af4dfdcfbb5b23ce283884dbc79765f14166c71
+   __AUTH_CONST.__auth_got: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+-  __AUTH_CONST.__objc_const: 0x270 sha256:d8829b06b1701067df17a5ed9d24273a3bbba7c1271ec0c1ee42656123566426
+-  __DATA.__data: 0xc0 sha256:b292ba302c693df8132e361e0822b5892fd8cd38a611ed585fd820e097da5341
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:c9f8544890bd2d920ac67f6151e706b36665b6734453211354770ade8c22c31b
++  __AUTH_CONST.__objc_const: 0x270 sha256:34f03b2c3e136861c9fb2f5c971309f9c1973a80ef19c2305a73f4d29cfd2c2c
++  __DATA.__data: 0xc0 sha256:932c9e585282f8d94c7e6a535c22b20ac8521259aa04ab58a5b5153f38aebfa2
++  __DATA_DIRTY.__objc_data: 0x50 sha256:be4a0dc26347342b6a85f225e1556b4639c1a7f8248f885c3efc6e91c9dce5ff
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/AppleAccount.framework/Versions/A/AppleAccount
+Functions:
+~ sub_22370bbe0 -> sub_223753be0 : sha256 1718a18e886e7e5d2e9504e38fb92eb1ed1069eee86f24562409a7dfa4ccd19d -> d900b6680b6c411867d2d6326f7fcfc7cfb98a0f09789b2629f3aadd6f3d95bb
+~ sub_22370be20 -> sub_223753e20 : sha256 ff31cb52b016531744ef1e3533add05949c66b4ab0cdd1be0a4feefa746424ea -> 92c76969605ceed0751f113bd0a890d994e83a084cdb6ea54f7bf1219ab5e5d5
+~ sub_22370c0b4 -> sub_2237540b4 : sha256 216ee0e62a74f967ec6376199b2d9618b1e1475776dbada40f3347c2f905967f -> 9d19431a07602ecb5d9f8881e7b8814f0810330c5d3e5715d14e5ebe25736561
+
+```

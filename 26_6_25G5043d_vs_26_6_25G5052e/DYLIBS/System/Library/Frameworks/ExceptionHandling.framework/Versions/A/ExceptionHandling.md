@@ -1,0 +1,75 @@
+## ExceptionHandling
+
+> `/System/Library/Frameworks/ExceptionHandling.framework/Versions/A/ExceptionHandling`
+
+```diff
+
+ 16.0.0.0.0
+-  __TEXT.__text: 0xbf4 sha256:88aa2866524eea757a9d581387d918ce83488f5fe9433a2972ae1e59cbd0537b
+-  __TEXT.__auth_stubs: 0x1b0 sha256:85796178c4d6958934001f56db1ea89bc33a16637ac3db13e11dbdbf6e38accd
+-  __TEXT.__objc_methlist: 0x110 sha256:353eeacc8c69379082db86c1778b1cc5c106c845d228a491eb249c376feee6be
+-  __TEXT.__gcc_except_tab: 0x2c sha256:9e3a486addf1539e6853dda216380506ab3268afa8a14f8742700c83ecefb181
++  __TEXT.__text: 0xbf4 sha256:1599a75426869c85fca281df040e257c597946c9bf966778ccc76986f7e2f1c9
++  __TEXT.__auth_stubs: 0x1b0 sha256:628a56cee060841d3c12a0652e02f3bce67ea43e4a959d5959f208cceb4d8aae
++  __TEXT.__objc_methlist: 0x110 sha256:941c1b39c68246b36bfee8e3900e94aff24e45a1039b6ffa6d4a48a4bec6fddb
++  __TEXT.__gcc_except_tab: 0x2c sha256:c8571c5cbe04ffe391d6fb1f773c0adde763c200da8a8101956522767ae37f27
+   __TEXT.__cstring: 0x18b sha256:9914237a290ae6c89a39a0f6dd098acadb4c77c2ac27c40ce9c9a0494d8c332f
+   __TEXT.__const: 0x20 sha256:0165c730b0677212ecb68f2a288faa2dc515a2abf8ae772c6cce4c88df94e874
+-  __TEXT.__unwind_info: 0xa0 sha256:d344cba83abdbf0408f0e3149673ce9b69051e91e1205321adac6f2177e53f0a
++  __TEXT.__unwind_info: 0xa0 sha256:3b808da1f70908896749bcb4ec540b7f0a46d29c281d16a7c7c5d351198a2249
+   __TEXT.__objc_classname: 0x2d sha256:6f8e730e96381fd203c7d5144f57e43deba667145801986fe83eb2b3870bda6b
+   __TEXT.__objc_methname: 0x348 sha256:6ed06c07b50f970380632ef1f39adc13634e0a17e63c95e846fd029ddd4bd1b2
+   __TEXT.__objc_methtype: 0xc8 sha256:0403ded99571e6f1643c5067a14a7fb19c1e4c748376c4f154e6a74f9de23bfc
+-  __TEXT.__objc_stubs: 0x3c0 sha256:aaa8757b2aef735c4fe60d0cd99cab3aa8db1884433c443f419fa077125c1d79
+-  __DATA_CONST.__got: 0x68 sha256:f2f995165c22c8bb532be5d79f542d2280f919f4609c1427b9286eb5d9939556
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:9a415d6ce57d57a51b9f770851ef2fb89ed2243f8ae4ab8dedc46bb829cb7369
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:c1e3ac816292db96d87403a837daceb44a51d8e6433a7a95ced9a18002371398
++  __TEXT.__objc_stubs: 0x3c0 sha256:57c2418c159307cb4025b8eacc00590fff6de470d8d71dee1a7a3e05fa05f412
++  __DATA_CONST.__got: 0x68 sha256:17f3b1437e34693358274a6ed69757d1192e70235f9cde3b11a0e50b863eb886
++  __DATA_CONST.__objc_classlist: 0x8 sha256:6f25928187b82c2b630cc8185b318f54e5b353b2721c88c884c170f0e1e1e1af
++  __DATA_CONST.__objc_catlist: 0x8 sha256:a25db35324f19f66d65b68776f4382cfaba4487439940de47780eea7f458759d
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x150 sha256:88cbbe2dc59a756e39b4d00c679e92e20539f6502cf38fee1097de1317abd6de
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:9a415d6ce57d57a51b9f770851ef2fb89ed2243f8ae4ab8dedc46bb829cb7369
++  __DATA_CONST.__objc_selrefs: 0x150 sha256:a3eb641a0e23588e7339316cea13081b079785026e89ee946a10b5a9322827a7
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:6f25928187b82c2b630cc8185b318f54e5b353b2721c88c884c170f0e1e1e1af
+   __AUTH_CONST.__auth_got: 0xe8 sha256:c4fcd50d9f0c893c46288b57d8e62b18523145956b249b6ecd6c21718be49065
+-  __AUTH_CONST.__cfstring: 0x180 sha256:cb60242df345d7ab4a30d07be6eeb826551aacae22df0479f99e58aec6323db4
+-  __AUTH_CONST.__objc_const: 0x138 sha256:18d3dae4f8a40474df23a15b475ca55f046699224d0b193ef15ca8d1ea12dac1
+-  __AUTH.__objc_data: 0x50 sha256:1cb194158c3a6314361906d7608230b04105fa842b9ca648d6f437d238eaae56
++  __AUTH_CONST.__cfstring: 0x180 sha256:2633af10948eb1ba7adc66367320a7090c2fd76c7c53d1c4938bd62768f63333
++  __AUTH_CONST.__objc_const: 0x138 sha256:21fe1d8b85976daf9f8c570c4d2778dbe5a6dac6590b77bf68a0bd96c2697556
++  __AUTH.__objc_data: 0x50 sha256:bcc5d322239a6db51870d7bb1d68d2f2a04f7baae1f1d76470332543c078382c
+   __DATA.__objc_ivar: 0xc sha256:2e5c9862856b0c6f8e0cea23282dc6a269bad2a2cc34aa0668a8eeae66326835
+-  __DATA.__data: 0x18 sha256:e150bdd435c4459e5181f60a0f3977c23547f2557740ae3fc0895919963d6df6
++  __DATA.__data: 0x18 sha256:6a1100e1d099c13925ef0e5ede44fb04867d789da9817b73939d03176f49fdce
+   __DATA.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CCC2A15A-F2E9-368B-9B33-5F299AEB9A52
++  UUID: A2F79C9E-A1AB-38A3-9590-55CAD1D90274
+   Functions: 25
+   Symbols:   124
+   CStrings:  84
+Functions:
+~ +[NSExceptionHandler initialize] : sha256 1a7d6b2c4ec4760d30fb4e1f514b01b01e74bca614a6dc01dcd87782adf253a4 -> 556f97860e125f96d41e109f50063e6e8071db772d86d063c5c81d696847fc0c
+~ +[NSExceptionHandler defaultExceptionHandler] : sha256 27b04efaeb2b3162a87790c67b0aaefbbd9ec1220712a3727dbd79977909800d -> 7e984711c068f349ddf72d19a75da687b7c45c2900077d9a4c79a61f27778cef
+~ -[NSExceptionHandler init] : sha256 56a69ed5342b16706e7708b48b65b85a70d929efb8951417b0b20683c01f0e21 -> 1f9d7d4831a9ae99a3c6fee16660085c665a92cf9f7465223286dddda7837b18
+~ _NSExceptionHandlerExceptionRaiser : sha256 198a8a852f7053e2b62bc17bbca893e4d1ee5980c0fdfe840bfd33a9c3309977 -> 94697b7e4b826737957f8873599c36790a441dd035bef59bfdb1ab73fe630945
+~ _NSExceptionHandlerUncaughtExceptionHandler : sha256 d55ff0d5bac869bac9db60770f911cd5a9d95e79bea1792e3d33688f109dcb24 -> aa31f8cbb08852b434bb0f6addb7b8a71e8e9cfb53f8150f395100d29efb16fc
+~ _NSExceptionHandlerUncaughtSignalHandler : sha256 ad32bad1594a6dd8676db14f2273cdfa70c7f8a350f2cccb9079b43f92115b8b -> fa7cb32f7aefb3eaf81b00c8cc269750de6aab7dd0922fee0ba7b1b8ffb95739
+~ -[NSExceptionHandler setDelegate:] : sha256 7778f9c931f0683472f3d461567c68c5f53f99a0299d64f3494cf1099958fcac -> b7621c1575a25ec961257be02affc3b48ed493da917850833d9e44b9248eaa4a
+~ -[NSExceptionHandler setExceptionHandlingMask:] : sha256 68ff3332820d935c66f743b53824670964b2115c48ce5a2627ddfb4d6f29e7cb -> e4d01ef5611ebcbaf5aecc019216accc41d918b6468db8bd651f586b76cc281e
+~ -[NSExceptionHandler processInfo] : sha256 5a0d11e7770d67f99beae94a869f815ced0719afc60477d403f8903651107583 -> 911841d90059bff94805d16ee2fb937b02fec0571efd3af63cf8cafffe6ce0fd
+~ -[NSExceptionHandler host] : sha256 49661b2971e12dd3950c3ea0436271fedf71d0287f94d8ea5f9ca511e8c28b75 -> 0fa226b3f21c01b196ef45c56d667502385ae7f08d43af401d1dacd4cdfbb498
+~ -[NSExceptionHandler _handleException:mask:] : sha256 d2048c1f7e35637388824730ec352d5417c8f01b5295d9d04361029a1ae23290 -> 2b5ac7b13a56e6065c3a90b2a254761ae1ccaaefaf4597236ed6eea47147af1e
+~ -[NSExceptionHandler _createAndHandleUncaughtSystemExceptionWithSignal:pc:sp:] : sha256 1fd80e8ed86df27db3451fa28deb3e4ab942bb34104fc1cd2667226b449c32d4 -> 229df85a0d63fbbdd51fecc37b91ed27d7d38b091ed8185d923e90196675ea68
+~ _NSExceptionHandlerStringFromStack : sha256 014e5a9f423ff1080b799865fc5972c8d33657a697b75456c6f5c47852259340 -> 2d599f22fd697e1c0c930680bf280fc707a663326dd543e72ffc608ff2f8c5cc
+~ -[NSExceptionHandler dealloc] : sha256 2a1b7613c0fb3371215478805944587f4f08ddb8565587e0c0d3918f5d0666e2 -> e7ba89a8a8ead92f9f33de3902e6432893e0d5d718af52fa98be5716f07e81e8
+~ -[NSExceptionHandler finalize] : sha256 f438e1d1bc54cf5699a2ccacce2096691c72fd6f561b1d1e301c08d200c9c2d8 -> 6e88aa54cd5e3984268f05899075a1fa940a6a8288d3a3077f49447ff0de32a4
+~ -[NSException(NSExceptionHandlerSupport) _addExceptionHandlerStackTrace] : sha256 d3f4f8e8386a1e3aadaee8cfcacb081457f71eaeb438e1f0b5393740fc941100 -> cd3d73dbfba81b92295a28c448e4acd54d8aced994b960fa453271b566761680
+~ _NSExceptionHandlerResume : sha256 5dd30719fea3f0abf95ac989e518d0295c0c6c5d6c301f82018aad21bb63016c -> 13a1192ede8c09d4c42eb6b107d49053a16752461dd4aa95dc10f2b488c05b59
+
+```

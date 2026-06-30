@@ -1,0 +1,34 @@
+## rans.t604x.release.im4p
+
+> `Firmware/rans.t604x.release.im4p`
+
+```diff
+
+ 
+-  __TEXT.text_first: 0x45a0 sha256:dee28e8fd355e0a6e0fed3bcd8b001e50e4975e72cab00fdf4e1e9f860e9e787
++  __TEXT.text_first: 0x45a0 sha256:2ff2403aa5d849ecfe3e715fe0ed6174aa75a9c11f49e5375bac70a2633b9d61
+   __TEXT.__text: 0x1f44c8 sha256:152b32fe3957648af5f2da4435b36cc59a1741c858a8312829482afdf35412da
+   __TEXT.shared: 0xdeb4 sha256:0157d43739222338e7b637a8766f49eb1cc7bf2fc95105037fa57e7ed2234072
+   __TEXT.read: 0x7310 sha256:ab05d2987926f663d364f4675b2bdcad31a4dd3850ef557dd08c33bc4b66ff1e
+   __TEXT.__const: 0x6308 sha256:439e8105962cc4d803330e497afadc6ddefd59fdce2ca66dfb2b6a8747db1b4d
+-  __TEXT.__cstring: 0x25160 sha256:e10555ac2e164e809d972084a317e8a8344384a5c9bded0624e0d37a859974b8
++  __TEXT.__cstring: 0x25160 sha256:e67ac714bdfa1b08103aacd5a918a408d057934fd41ed0f3076cde476bc96bad
+   __TEXT.__init_offsets: 0x0
+   __TEXT.__chain_starts: 0x24 sha256:ec0c3992bc9a48f76fd143d8123f828414a0296f0d65012d5a75d95162bc95e8
+   __DATA._rtk_boot: 0x4000 sha256:4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe
+
+   __DATA._rtk_patchbay: 0x400 sha256:0cf822632830e904b23be366951b9a6385e935280781769968a525a11774aa31
+   __DATA._rtk_tunables: 0x6a0 sha256:f8865ee4dde1dac4e24c54b47aa716bc60eee57282a3c933dc867ac972101c33
+   __DATA._rtk_mtab: 0x540 sha256:9fd6970f2975c1306207390c81e5093e11ba585d353fa5625699c7d0fc1b0e0f
+-  __DATA.__data: 0x7840 sha256:4d357cf2515cfc93a6923a5cbee64c4026a22e6dbe0bc5b605420ee0547e11b5
++  __DATA.__data: 0x7840 sha256:cfb972929eecd8f0c79bfb164aef6a9d16fae321b76887a3aa6c2c6a8fea8293
+   __DATA.__const: 0x35d0 sha256:4c30aefac7a5046b68b81cfc44b82da1728d13f746f2d7be33e55e0f1ecb36e7
+   __DATA.__gxf_data: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA.core_globals: 0x16c sha256:146c6df27b7290bdce124532b61ad8a47b28105f3f098eadc692218726393f69
+CStrings:
++ "2973.120.4~538"
++ "AppleStorageFirmware-2973.120.4~538"
+- "2973.120.4~488"
+- "AppleStorageFirmware-2973.120.4~488"
+
+```

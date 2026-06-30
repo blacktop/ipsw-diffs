@@ -1,0 +1,48 @@
+## AppleGPIOUser
+
+> `/System/Library/PrivateFrameworks/AppleGPIOUser.framework/Versions/A/AppleGPIOUser`
+
+```diff
+
+ 61.80.1.0.0
+-  __TEXT.__text: 0x8d8 sha256:ff6aca3f41bf39fb4c0c4348c2a31dfff6352cbb304d0f7f2f50ddccc3a42888
+-  __TEXT.__auth_stubs: 0x160 sha256:4051373b595d7a75e2147e2a0105276e693070db6a952c80bad5dc0167d83111
+-  __TEXT.__objc_methlist: 0x38 sha256:3705b5d80e4deab84aeeaad7078e455f210595d8653b735cfd322d57fbc08c9f
++  __TEXT.__text: 0x8d8 sha256:a931f43afe98b17fbd095b9e44b82969cb89889941f65bb5509a7c00e98e0818
++  __TEXT.__auth_stubs: 0x160 sha256:a44ff4a4e6954f4e1e0b163bbd2aa4a75069661906c95b58d4c91f3ce92da352
++  __TEXT.__objc_methlist: 0x38 sha256:005f36d7542acfedd6021fd4e9ae70f751bd0e4d9eec865964443db333277101
+   __TEXT.__const: 0x50 sha256:14942f87dbafda3e16f1e96cae69bf2841df3dcb975fc0fe33a4d591a3a672be
+   __TEXT.__oslogstring: 0xf5 sha256:1a5a287e3254d7e6262274bf9873fb6a3f70b27b773227ed8ba3e6a8ded4978c
+   __TEXT.__cstring: 0x36 sha256:4bd53b15f82b49d36e073acb896844b38cf2ef5fc3053f620b1551d09cfd337d
+
+   __TEXT.__objc_classname: 0x9 sha256:a52636388933b237e4aad080794769fefe6a3440b638122bb2fea6e9127b8728
+   __TEXT.__objc_methname: 0x5b sha256:fcfc2972e70ffbb114a2622b436f2cc868e7126d450c30305dd14ccac4322049
+   __TEXT.__objc_methtype: 0x59 sha256:49e133210678694b8ce7bb029c6ffccb456a3403c484d2aad5da9b8d3096083a
+-  __TEXT.__objc_stubs: 0xa0 sha256:0d023e29cf5d40a3ac0b36c636fc8456e1ac71351743c0465b8c5caa8a34e4a6
+-  __DATA_CONST.__got: 0x20 sha256:0ba8922c61d4cfbf52fb3565eda6d9948f0f5c79708349f09b6a1b0269928542
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:90b9079d6bcdfe4e7ff9f28c2415557e6f40b25651872e793147f187740f7904
++  __TEXT.__objc_stubs: 0xa0 sha256:a9255372a042bc68bcbce16022ca5beae63516db6b7bd6026552fd0e038c4e2f
++  __DATA_CONST.__got: 0x20 sha256:1ed3302dbc6f2f960cb09d087865eaa70dbb7e98689acbb5f9654ddb3b0f00c8
++  __DATA_CONST.__objc_classlist: 0x8 sha256:fed98d76e45bd1fb1c10e19f2003a7f129b03c50cbe3738167ece6b7954a2d3a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x38 sha256:ae0dcfcc16b39e7b0ef41d28d2e262ba569ad65443a3112d9ae80c3e81503585
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:ebf465eb80f546fa06cceb3125022ae40af3d9aaf05a4e7de5888cc141d7bd82
++  __DATA_CONST.__objc_selrefs: 0x38 sha256:931b974787f892ad33b6bb4f923fe14698b236b8c0ec7bf61aea6317faec9012
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:71ceb41057daeb29cd440561587fcc335ebada2bc84cc884fec7fb141cdf13ce
+   __AUTH_CONST.__auth_got: 0xb8 sha256:d81bfb50e59a9abbe66f6ae0c6b45c7b9c0bc6eead2cf982118ac4d62b6ffeda
+-  __AUTH_CONST.__objc_const: 0xb8 sha256:9a1d208492ed84a46e34ef9a5f84ba2271c70a97b27f44b433528648c3429817
+-  __AUTH.__objc_data: 0x50 sha256:27d07502b5ca00490a23e2f606d0ed995632ff374e3db6d0f45c556cbd9c2580
++  __AUTH_CONST.__objc_const: 0xb8 sha256:73fee5700ae3761879ac8763cd0ef28ff041a20d0d6df632af6ef4ec6bec2be3
++  __AUTH.__objc_data: 0x50 sha256:01cec5e80c2f5a16e1f88b7ba98c116508511afa3c09a161c6ad6d7e011c839c
+   __DATA.__objc_ivar: 0x4 sha256:dc765660b06ee03dd16fd7ca5b957e8c805161ac2c4af28c5a100ab2ab432ca1
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+Functions:
+~ -[GPIOUser initWithName:result:] : sha256 dae7f6a5b01f93deea3e8c8299c1a9a3a86ebad55d062a373af27e523a22e55a -> 973e49a12fcfde35165b8f8c6d0fd4582437c8c0c0e4a11f43b6399b3201e2aa
+~ -[GPIOUser dealloc] : sha256 b8cd35895fbe7bb2ae77fe1fa40cb0662fec4e00a6cceed7298743747e21c6a7 -> 179747725f44ee38f152e2bf976a710baddf3cd7d30bb85e423ff805a3340bc1
+~ _GPIOUserCreate : sha256 4e3b87613d46b4bb3be428de3fb2ebd10a59d047ce7eea4d508bc6453fb5e4cf -> fa7b01d4c1220368e1e104a320ed07a8dc2f5e286b8d1c6c552d940d669a8ff2
+~ _GPIOUserLog : sha256 bc348f9333c747ec70d563070b2a479e5c08983daade05672253d77703adb4c4 -> 14807667cf845b85808d5dd95c64c084434c5699bb12f54a9eb2cc6141703cdf
+~ _OUTLINED_FUNCTION_0 : sha256 3b4883be75e126d900d5261d7a93aebab7f9fc3aea400fc92eaecd4430ef671c -> 596921674287a798755256e5678b964e139410b82efa51feac9ce496325a87b3
+~ _OUTLINED_FUNCTION_1 : sha256 f06990299ea2e4782a5c054a52d0bf5f77babf5e16d7f3f8b45da3291439a2ba -> 779cca889d9fb31470a3cff2f7a6a77c9912aad7a35e8571f1c5a501a5b7d542
+
+```

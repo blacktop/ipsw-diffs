@@ -1,0 +1,101 @@
+## libReverseProxyDevice.dylib
+
+> `/usr/lib/libReverseProxyDevice.dylib`
+
+```diff
+
+ 104.120.2.0.0
+-  __TEXT.__text: 0x4384 sha256:ad59035f7af06f403753eeccfe2ab93d5a7d94fbd1bf15b2c3e582ff2e41905b
+-  __TEXT.__auth_stubs: 0x670 sha256:fd053ee30e17d8fb64c10dec2dd280907ad67570171496faa414d7e2a89962ad
+-  __TEXT.__objc_methlist: 0x2bc sha256:ff4b82597ceae25ee8ae58c9d55dec37cc13a5968aca0816c5ef931d1556b787
++  __TEXT.__text: 0x4384 sha256:83cb218c25b12763bde7de468d5e66e9927a77d2aaf36e874b9aaed012b1b498
++  __TEXT.__auth_stubs: 0x670 sha256:ea4b60837d2a73371466258d17b3bd63d1ace0aa1a3b8044c0baae40189352a7
++  __TEXT.__objc_methlist: 0x2bc sha256:cac2e748b81647612a8d1f45ef03468e9416588325557c1d77b3e2b83a995b78
+   __TEXT.__const: 0x30 sha256:9cd20eaed8eb543936c14045779429891fb7d80780cc4e8b03c21e5e9fcaa591
+   __TEXT.__gcc_except_tab: 0xd4 sha256:d0aadfb2085ece10c2dd4f372f46a5ce102ab89372bef0761ff6bde169a43905
+-  __TEXT.__cstring: 0xbdf sha256:9d9d2951197301649b855c6a9cff4a5182975f3172558abcfdeb7e3308761ee8
+-  __TEXT.__unwind_info: 0x198 sha256:1bd047923d6ec77b8d5f8502a9339c0ef673fd2c8be45e5e675166e49cfb2e7c
++  __TEXT.__cstring: 0xbdf sha256:65c1f131eedc8c3709941de774abd3f3c44bea2e20cc8e2c7a2d7501c06dfc85
++  __TEXT.__unwind_info: 0x198 sha256:167df12125ba3d1cc47ef5cce12d02df52dd905c0e49874f01a438f5cc8c3fbb
+   __TEXT.__objc_classname: 0x61 sha256:f4c5ee28a0f997fb72dc01bfd7ec96df8dcf95f859dc6dbcec885ea3662035a9
+   __TEXT.__objc_methname: 0x6e2 sha256:842f25f277a9c9d0039aedf872546172f1e038be297850cab73bf424ecf63e20
+   __TEXT.__objc_methtype: 0x603 sha256:d1517f396f8166e6369ef1588dad4f676b41d127000101d9117dc77e6d79f351
+-  __TEXT.__objc_stubs: 0x240 sha256:f1fc022423113de04f494177ad9270f5dfe02d5962c49611b4299e33a89f85f5
++  __TEXT.__objc_stubs: 0x240 sha256:6e58b98fdd18875c461059150badcedf7318c89f7dedac4a81f4e533d2c8a1ca
+   __DATA_CONST.__got: 0x60 sha256:2ea9ab9198d1638007400cd2c3bef1cc745b864b76011a0e1bc52180ac6452d4
+-  __DATA_CONST.__const: 0x80 sha256:11fc226f2822426260e6936ab02e6b8d32f7e3e136aecfe097fcd18f239ef4bf
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:4849c5daab0a758178b30001cedae9a11d52a8c19daf83b35fe29c9c86768424
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:d647c86519e2ce3e132f73f06c29266c8cc7d445d3f17d862faef4b387020f92
++  __DATA_CONST.__const: 0x80 sha256:562be12b8d470c571bee10e43fea68d101ba6a81baf7215c5b5cb4b5d94af22c
++  __DATA_CONST.__objc_classlist: 0x8 sha256:bd1d8456a89a47adc27c87970d9a38274b24e3716042c655e4e79ec9eff983f8
++  __DATA_CONST.__objc_protolist: 0x20 sha256:9e70908b22c9fe5a71b3a66d284e5586f7b1b61c0fb6f3c2667a40db8da3c222
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1e0 sha256:03625be3fb0ed6a9d8145c5ea1fa33488dfaf38e0422cc0ea43bef0d88ca90cf
++  __DATA_CONST.__objc_selrefs: 0x1e0 sha256:5bd3a867c7fb782d0e9a0ae1a53e6179f1167da9ed5271cb6ccf60d8e0d9dc20
+   __AUTH_CONST.__auth_got: 0x348 sha256:eb74aedcb0ac92eb79948f9e1281ecb493929a7639e8c1bca7057ff957535ef3
+-  __AUTH_CONST.__const: 0x198 sha256:d7bc84b536c9cfb4d405bfa05a27e69ff34ee4147c7b75fafaf53cd6582837ab
+-  __AUTH_CONST.__cfstring: 0x820 sha256:1696f48f45eb50c3c433dc728a49b944d342e645cfd3c04292a6dc4d00784166
+-  __AUTH_CONST.__objc_const: 0x3d8 sha256:64b5cbba81080d96f8683be1b4051a29d9f74c4eaab4f9ab377808df566bee66
+-  __AUTH.__data: 0x110 sha256:8b416700c06629cdd88f8a15c051a461066aafd96373760fc63746a22feaec5a
+-  __DATA.__objc_classrefs: 0x10 sha256:008bfc1c3f6b3c0b7c48e978ca8679e3c8fef59f3bc1da5a3cbddbbe75f0fa5f
+-  __DATA.__objc_superrefs: 0x8 sha256:2947e1334e4b8aabf1d5730ea10cd8468d01390f618253c8462ca694779567c8
++  __AUTH_CONST.__const: 0x198 sha256:6094de15e55296ae17c61b5e2ef9bbcccd52ecc13def22342de7d6414d0a4c77
++  __AUTH_CONST.__cfstring: 0x820 sha256:be649822dafc9b3a930d39abf0a258d04d3e5dd3782e54aa1d08cf5f4a3ebe7d
++  __AUTH_CONST.__objc_const: 0x3d8 sha256:4a0b7a0a5e3dcab684290ae11ecafa3dbd9296a4c5e7420174cd4f24b0167df8
++  __AUTH.__data: 0x110 sha256:91a725ce95d907be8d8f149534327ffe032892cc58d9ced319ac3d0fdfbaef8b
++  __DATA.__objc_classrefs: 0x10 sha256:d2d18385983ef2b31fe8315ffa96d50cd18a547cc98564bdf33cd97960ccd845
++  __DATA.__objc_superrefs: 0x8 sha256:1f49cb870b01542c7ce63251badb4a8598d30b355dbb58b690fca5cacafdd6f6
+   __DATA.__objc_ivar: 0x18 sha256:929dd245faf182c8ba5e1de934c088d6f88e357f881d51db7fd643e9a6aa7b2c
+-  __DATA.__data: 0x180 sha256:5da58a2e52454c35d2636a12ac0e33949af591b85ee3e9f468785b1b211123e4
++  __DATA.__data: 0x180 sha256:b763cb3d302a2e004927962b8ccb3ba94b827b75a6ad09436501362260b56a4b
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:df1655ca128807b3696c9d085796ed703a1b511d12cc0d43f8f94ed1e0bcba4f
++  __DATA_DIRTY.__objc_data: 0x50 sha256:c593e38e170b874ff2033278952dc108ff2e6cbb25fb37a1fddf4bea00afa301
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 58EB9443-C13B-369F-AC0D-259EF45716B1
++  UUID: 455BDF44-5522-3E9E-9E73-A8E90C574B31
+   Functions: 90
+   Symbols:   293
+   CStrings:  312
+Functions:
+~ _RPRelease : sha256 cb7d5ee322b7819cf389914c5cf842929ad6721c9706f3acea817e856d9b04c5 -> 6dbad2732c587a7c345d28e75c98d2a92cacbdcbfe6effbb0db52b4738ffa468
+~ __ZN8RPSocket10set_clientEPFvP10RPSocket_smPKvES3_ : sha256 d8f1892599f31d0e7094d73e6fe9d6980d2016ffda0170ad37060ff45278a8a3 -> 63562ad8b4296ea1fd0272b6a8f21ac2535cb88756cb02b20008f370f84c2686
+~ _RPSocketReadBuffer : sha256 a59bf5e264fb6cb725555c5480377e21a4651387944f800b7017f667add2ac64 -> 98d8d84eb99ceddb96a37a09a7f6f2cdbd142ea82e38e3db16772d6f3ea592dd
+~ _RPSocketWrite : sha256 08464d6c5d801fe7ef0cfaaf0898e2fd7f4c7f5256a31ecf7c664998d6fc472e -> a76f6920032732d4d531d9bdd837aefd7d642343995a581e10518c899662cc02
+~ _RPSocketWriteDictionary : sha256 10f64a29a4b9860f63ff84b0f71ef4bac4101a748193aeb4642bc24ec44a5ba9 -> e2790936199c95ed2447336f7523a76749fb34ab5a9826151049428b9b37990a
+~ _RPCreateSocketForFD : sha256 b81df345c1e2c80315054a38e209e869fa439069a3c2321639451e97a6a808db -> 59ea60f0cf6bb1c90202eb1743630a5ff10174d64c6db49e9f4a85e415a29c84
+~ __ZL22rps_sockaddr_to_stringPcmPK8sockaddrPKc : sha256 f90de5b2e17b5a310152df82faf94047927341a1e45842d0d03d8ceb36f2736a -> 286f512d51c4d8bebb5c03f655ddb0f325d3d0d74acaf7a8aed1a3a31a500abf
+~ __ZN8RPSocketD2Ev : sha256 00df0c777601f14611cae0c31e626076796a97f17f3f1f1da28c471b59f452f7 -> 0928727a742b57c18e3c5bb7f9a99c78c134dac8c63eeaea4097ac47ca724d09
+~ __ZN8RPSocket13EventCallback6invokeEv : sha256 3b3fdc98f797ae85216ead83af4c3567ccca348cec4abdb544b7dc1166477c92 -> ed240ff1b523699d7646a92056cf75d238bbcc7c373f79a2522996e69bf0b0e2
+~ __ZN11RPSocket_fdD2Ev : sha256 431fad1f46077a0be730f3332f5943fbb3d7d9693844d509c96af4e2e1f7542b -> 6c47c9ffcaa6dc2e4817e64f1fa2331cf995bfe243201e1741db4ad2c2c26a73
+~ __ZN11RPSocket_fd17copy_entitlementsEv : sha256 1d95e9ff96e5d7ff16d74e6023e6e5440b0d694f3ec0da33b03eeb954b30f7a7 -> 3b119bcfe47105656dfc6a1cc450355d616e1e63410d55fd4aecae763259c93e
+~ __ZN11RPSocket_fd6acceptEy : sha256 cea925e4db1ee1db039e6b96ee8deff635962c6c5fb030a9940669eac9c227d1 -> 1c62ac4edb7cdc39778952600c442baf68cf08aa16493ba4f61d105921a81871
+~ __ZN11RPSocket_fd21copy_type_descriptionEv : sha256 05bb769aa470dd4db5ccb82922eca5cd2e35be1eae82f680a642ff1b7d67bfb2 -> ac83540cb88b26318aa5a43193b2ff8f947864b709acacf34e5ff2332451ea51
+~ __ZL23RPSocketCopyDescriptionP10RPSocket_s : sha256 19e2101a7f4ce418c39f9b4133bc1771010a93cb26712a93794e977016a10c60 -> 2a084eb34876ea029611176a5fce21481dd730df1dcab4a066bda9e690e7b609
+~ __ZL16FinalizeRPSocketP10RPSocket_s : sha256 4f096595b2d087d5e283e088c0f81dd51ace4214ceb4f726161b8090781577d9 -> 69f7b7c3de57d70ca75d498f2c0fb1efc0a849d6492a7d2f13afd4101365e414
+~ _RPCreateSocketForHost : sha256 cfc9fdd2e8b078a4bf9ec835683a371b05a20513bd366cbe89feb7f1a90ede68 -> 1816021ec468ff2fefbb3c383f9aee51b3f111651e131448ed6fa59d248d5704
+~ -[RPStreamDevice initWithHost:port:cb:userContext:queue:] : sha256 f96853a66a588107fe7665bc0eb9bb76c721f1ea4f80daa4a04555ef5f53411f -> 42b45d2a646e20b9512317ce4d28152ac7d058da5d9114be3ac4286433842ebe
+~ _LogCtxCopyDescription : sha256 9a7ec4a06df92926c08b6e09256dfa75bd7855193874e34c7143ec35e9d91876 -> bbd286d108f685e6de69d891478cbbc5f6071bd9ee43cd6afce8877192f2e814
+~ _InitLog : sha256 4a10fdf5495e48e37fd1cdf1a752b8dc21086402ca8cfd925fff3c0df7fa93ae -> 11cbae7aa8530f4be07e01411a0025a266115e925203aa477aff2bcfb2981e05
+~ _LogToFileHandle : sha256 4109d9c361e5bd0dec2327e2634e184e3e773db8ccee633a567f380d0f51f520 -> a0510e35655d37c3cc454c6b764e2dd9edb1962e3a47e3bd8f4a4a44e24a1724
+~ _LogMsg : sha256 02a91304400db31b9f4d65f815daf17f343e694038bd4c5d1412757b399e324c -> 20abf557c75b5929d97e368c1a9086c37fb6102b86459bb8044ee01ccc402982
+~ _createCommandDictionaryWithArgs : sha256 58674c088a29735fd6d5317903c6750535b8b63dca28ff3b0283125020cf8731 -> b4add3eb2bff262fd70d91dad16d251537ad7da21f01bb3039ac4a06b8674c03
+~ __RPCopyProxyDictionaryWithOptions : sha256 2244f6dabb63bb381d1b4d37dc3a65156e6be23e6c3701aa89931a8bfc1d7570 -> 5105ee9ed2b333c429381feeb51559ee327b9d5d766530483a33920a6a71c468
+~ __RPRegisterForAvailability : sha256 96aabe98bd703561e92018d88cef95ff8274b88f2bc331d7bbd7886c52e7320e -> b933d62706bcc7e21bb6abf6f93366e1ae7bea77f8306bdfcec30e3712566009
+~ __RPRegistrationCallback : sha256 0c02967c7a3d97753fda7855cb06ac7798757be6f9716837a44a3631f7fc64b3 -> a6cbe6d1bf4b33e8f9297ff62295c6d23d4ea5abe75b80c65bd87a2e01ca6aff
+~ __RPSetLogLevel : sha256 eb833c71b1a4d287c4b49b3d0e62db7e359aa6c8488ded0f36fac55674005857 -> 658f0a5ef1f25afe9fd3f59680bb15b0740c7bf02e3e0d023f251686b7019784
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CSAMugBmtYjYheUoak6MpZjfAyssJM3kGZjkp88/Library/Caches/com.apple.xbs/TemporaryDirectory.qdUT2A/Sources/PurpleReverseProxy/Common/Logging.c"
++ "/AppleInternal/Library/BuildRoots/4~CSAMugBmtYjYheUoak6MpZjfAyssJM3kGZjkp88/Library/Caches/com.apple.xbs/TemporaryDirectory.qdUT2A/Sources/PurpleReverseProxy/Common/RPSocket.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSAMugBmtYjYheUoak6MpZjfAyssJM3kGZjkp88/Library/Caches/com.apple.xbs/TemporaryDirectory.qdUT2A/Sources/PurpleReverseProxy/Common/Utilities.c"
++ "/AppleInternal/Library/BuildRoots/4~CSAMugBmtYjYheUoak6MpZjfAyssJM3kGZjkp88/Library/Caches/com.apple.xbs/TemporaryDirectory.qdUT2A/Sources/PurpleReverseProxy/ReverseProxyDevice/ReverseProxyDevice.c"
+- "/AppleInternal/Library/BuildRoots/4~CQ40ugCpEsAchl4pti9rHcz8M4F2TdB56P_7fOI/Library/Caches/com.apple.xbs/TemporaryDirectory.uzM8F6/Sources/PurpleReverseProxy/Common/Logging.c"
+- "/AppleInternal/Library/BuildRoots/4~CQ40ugCpEsAchl4pti9rHcz8M4F2TdB56P_7fOI/Library/Caches/com.apple.xbs/TemporaryDirectory.uzM8F6/Sources/PurpleReverseProxy/Common/RPSocket.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQ40ugCpEsAchl4pti9rHcz8M4F2TdB56P_7fOI/Library/Caches/com.apple.xbs/TemporaryDirectory.uzM8F6/Sources/PurpleReverseProxy/Common/Utilities.c"
+- "/AppleInternal/Library/BuildRoots/4~CQ40ugCpEsAchl4pti9rHcz8M4F2TdB56P_7fOI/Library/Caches/com.apple.xbs/TemporaryDirectory.uzM8F6/Sources/PurpleReverseProxy/ReverseProxyDevice/ReverseProxyDevice.c"
+
+```

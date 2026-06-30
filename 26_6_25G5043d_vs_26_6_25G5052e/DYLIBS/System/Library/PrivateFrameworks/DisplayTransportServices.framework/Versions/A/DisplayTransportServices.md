@@ -1,0 +1,115 @@
+## DisplayTransportServices
+
+> `/System/Library/PrivateFrameworks/DisplayTransportServices.framework/Versions/A/DisplayTransportServices`
+
+```diff
+
+ 1.4.0.0.0
+-  __TEXT.__text: 0x4b30 sha256:d7683c0adaca2d67144629b75d93166b4e56d38868bcafb8a6e93dd0967e4471
+-  __TEXT.__auth_stubs: 0x260 sha256:d2de8cad77954b821bf8ad200dcc05e8ffa844e687a362a6a62775289bb2d541
+-  __TEXT.__objc_methlist: 0x8e4 sha256:398e370c7c02ecfab9a7b7880e87cde5f033ed6be1e4277e72a0fde02c4ca613
++  __TEXT.__text: 0x4b30 sha256:bc071273753b9efd160c58168be03bbe5a4ca0e5a3e73d5d718920911242e75c
++  __TEXT.__auth_stubs: 0x260 sha256:252d8a2b2d8a6b5c62a91b77556556dce101b8b05a8a4766d885753b5378f091
++  __TEXT.__objc_methlist: 0x8e4 sha256:0fda81cfff029f656ce03d8b941edf21faf73cde046d81591e738161dd1e08d0
+   __TEXT.__const: 0x88 sha256:12b522f3f380e668bbfd7e5f99ed30f77735ac6a303de8aa0962992204985c05
+   __TEXT.__gcc_except_tab: 0x374 sha256:848e582ae4b06733a1cd048c1c0c00efd7818f525339ec209f07aab9b1339899
+   __TEXT.__cstring: 0x382 sha256:3b116c051fb7d1aee443566dc4d689d1da1d1bb987ee0dd2580aae3a0c707b2d
+   __TEXT.__oslogstring: 0x1e sha256:4cb16fc3a08881d791c42a3f54671e64e2bf6bdd85ce8e4ae404d716b872764c
+-  __TEXT.__unwind_info: 0x220 sha256:e30835956514a98b782e93a990daf90100a6350c6cc3018acfd5e79cf57ae66e
++  __TEXT.__unwind_info: 0x220 sha256:b84cc5dd6207742635775f5d88b9f36fabde0520078dcd2387e8cf18a8bf0b8a
+   __TEXT.__objc_classname: 0x1b0 sha256:bf9a4741cd4fde1911b4d011d5ac24412dc70bda30a342faeb7c0d644889b180
+   __TEXT.__objc_methname: 0x1311 sha256:b9f01a04323c43455da9452944d11fd6b493cca066c46342cc347d63d9c1e030
+   __TEXT.__objc_methtype: 0x65b sha256:ff5b5210c082592acff2f572bd0dd91b5819238d411d3781fecba2e41542b4ef
+-  __TEXT.__objc_stubs: 0xea0 sha256:4d9cd9a8912ec1e6a29644703a471c19094700dc89fe2ad0922009e93f0675cb
+-  __DATA_CONST.__got: 0xf8 sha256:b19c5ae37d233227864353e992b816c9709f1a2935e9fe57f0a03a83b2014f63
+-  __DATA_CONST.__const: 0x60 sha256:618ee5b8cf21c08aad72ee7a1e4e5d5a8a754a4cc890023844b61f1bc9093c90
+-  __DATA_CONST.__objc_classlist: 0x58 sha256:94d036c01903059f2b2ddb96f958df72ee7ec3292e3e067f0c7f2ea7bc27a0bc
+-  __DATA_CONST.__objc_protolist: 0x60 sha256:1074cb82c29d76eb217c52f87bc3f7afe533e483edefd690bb0e42a0f9eac5b0
++  __TEXT.__objc_stubs: 0xea0 sha256:5d81ef586369094249045605106eb9c0d7464b96f5f1df773407346eda07bb79
++  __DATA_CONST.__got: 0xf8 sha256:0647997c3e3fb7bd289d08aa2214b85d41093a0443533a2f6552001d47f697ec
++  __DATA_CONST.__const: 0x60 sha256:8cd149d44a0f1fcacd86986ec47b7c21e25e6f3d1ef05bc386f74e6d76187af5
++  __DATA_CONST.__objc_classlist: 0x58 sha256:899c5f19529e87d3ddde9b988f30e0a9081f25b15ee4acb9af16b776c741cc1a
++  __DATA_CONST.__objc_protolist: 0x60 sha256:00dab663601d9e2c21f331e292a8672ea7f9a7cc9126e5ecf84b65d69d0b48f4
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x528 sha256:b7637c573fe6f74a74015666b4ceef3f1c5c6fd054ea8cde18190e2d1dce4605
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:b39dd1794e3c0543b1d435f51c7b3d67a2ea274ad0f354154632e3ae65cb4ed2
+-  __DATA_CONST.__objc_superrefs: 0x30 sha256:2f699e9a9736b958a2c16dc2fa1794b60c78db6863d6cf1eee4f5f5c0af0580f
++  __DATA_CONST.__objc_selrefs: 0x528 sha256:4aa2a3b54e26a4c6b56a7e0f0956791493af8d550c4fe2a1cd81a1ffc30df58a
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:34dcdcab6e2c2b9618a906d5b72c0e092700a9ef0a804a109e354b06d76bd47e
++  __DATA_CONST.__objc_superrefs: 0x30 sha256:d39abb8acd4ebbf559e828406cc4ff352826a6c39c9921db1460c3ab0d7ef554
+   __AUTH_CONST.__auth_got: 0x140 sha256:7b6436b0c98f62380866d9432c2af0ee08ce16a171bda6951aecd95ee1307d61
+-  __AUTH_CONST.__const: 0x1f0 sha256:aaa673f36f09bceb4bb12aba523dccac4dfc3ea2db3c6883f138f8897ea59b04
+-  __AUTH_CONST.__cfstring: 0x4a0 sha256:1fc42dc4d744363f9719e1536686746a5e7ba8090938ae1b3e38e017c0691b1e
+-  __AUTH_CONST.__objc_const: 0x1820 sha256:985fefae2a72ec46fd426ad1abd5a3b7287ecc5ea1f91c13184eddcbee3d32c1
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:715bf1d21330aeead9a8ffd1d3259a941d76f86af4fde1b201862ccf5a6e5585
+-  __AUTH.__objc_data: 0x370 sha256:e7576f4c2ef45a3553622f05e1f51240f4abe465668eafd3251392ecef415d88
++  __AUTH_CONST.__const: 0x1f0 sha256:82cd9e0e5fa33a4489f187460e6ac6389d2e907b7f54b402f869ba4066f50e98
++  __AUTH_CONST.__cfstring: 0x4a0 sha256:ca07d819db702ab83c25129b96be22728120a920069fad413a6bcc208ef11edf
++  __AUTH_CONST.__objc_const: 0x1820 sha256:54c722db716864fb3ba32e6a44b6c2864acdae9144df9d4ed9d786594ec7b057
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:8c7018a866ce776950c2f7991e17d75492656d27dd2de3e22ee99af766c47662
++  __AUTH.__objc_data: 0x370 sha256:488c60f455cb5e90dd349750b5a55f72aa8aa4111a739ad7b82bd317a555c8fe
+   __DATA.__objc_ivar: 0x70 sha256:f062ff6069c5edd99f8e9c54c0ad770da20f634c0c79ce97f103289bc94ca0f8
+-  __DATA.__data: 0x480 sha256:a9b2b8f52a750dd1ce4aaaf92c4666fd130dea2702993dc4bb913c476c3141a3
++  __DATA.__data: 0x480 sha256:c8cbbee62b8cdacd870be813c470214b0e25efcc230a90764b50a69b16b7741f
+   __DATA.__bss: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CE94799C-6B0E-3480-8405-2F802216B7EE
++  UUID: 4957A7AC-1988-3B68-B9CD-5E91AA5A19CC
+   Functions: 138
+   Symbols:   539
+   CStrings:  427
+Functions:
+~ +[DTSDPDeviceProxy setPortState:forKey:] : sha256 9d064a860c97e62a621feffd7b8a31c62fa0f950a155cfdeb011c2644593c084 -> dbfddbe9b4f1bb53bc0e7978e130b80b0244c1a62b44aea9291e3a6ae4b46496
+~ +[DTSDPDeviceProxy portStateForKey:] : sha256 7154bba74c1ec2f81e28959b0cf16864e084832bf8a3bb2b41e2a8915226f9af -> 8924a13b75eeb56145ea9efa4e257e67e9781490fffdb2295f83831e0279e17b
+~ +[DTSDPDeviceProxy initialize] : sha256 d280816ed4c522ce8179a9bf85e2534b88b05bf7b65717765893adaa4d3a3da0 -> 5d466f3225c20cfab4d08d1753191b888a0f622e8eacd873d7ef246dea5d6ef4
+~ -[DTSDPDeviceProxy initWithDescription:] : sha256 13913a342e5b89e8dc66a2571310b599e59ff782c67e812f6c7f96b25adb418a -> c5c848f919d6cdcf32fc56c234f3379593662eb32c4ef5bf2137486fce570caf
+~ ___40-[DTSDPDeviceProxy initWithDescription:]_block_invoke : sha256 21494b8ada5fc32cb712419ba21d2baeeb5db4dee163b154dda448747ee1cf65 -> 9294cb87eed773a5b1a9db590d17e9bd34ecde61a2ccae9cdc9a61c2251edfbd
+~ -[DTSDPDeviceProxy nativeReadAtAddress:length:error:] : sha256 df202d5a71df8ba1b04ce6c3c174eb28af890afb44081429e42ac80f954de185 -> 8045782f8ad96f55805a3790b0d6c7759552609a4087958d1080039af4b8fdb5
+~ -[DTSDPDeviceProxy nativeWriteAtAddress:data:error:] : sha256 8b19df49173fa3e684ab1f4735f4a971eb9509b203e0d8b4635129c5df4eddcd -> 9c9605490be574a1fb0fc2b8a9adf7200e83fc3c1cd7c847fb67352a12130476
+~ -[DTSDPDeviceProxy i2cReadAtAddress:length:error:] : sha256 cc74ace7dd27b1e0a6d745fcb7234c5ef30d4015e643d3b3291eabd9174fd06f -> 500c0524aa05d66e94f511c0225ed6426d300330a7784157394979350473ebc6
+~ -[DTSDPDeviceProxy i2cWriteAtAddress:data:error:] : sha256 b9d1e064f7c7cbf7f6d82135186e44d7c4e3c3108689e027d5ecba5b8e2e862b -> f939778b3021ddd1d28f6af8afecded5796d396243440c801919a6050139b462
+~ -[DTSDPDeviceProxy i2cWriteReadAtAddress:data:length:error:] : sha256 7ff63e54ee28cd36d0fdd484234952cfdd03fde1a6712d6c716b26a5687a172f -> 57ae195c1d417aba09d044df593191b6e601219cd756ad7c79944f6f0890f804
+~ -[DTSDPDeviceProxy _assertPortState:] : sha256 e1d610ace6526432239c05b60d5a84c7385d513822b442f438a92dd2f05016c5 -> 7a80fcc70fa8af896a57679b18a59577708f0e337991acb88f21ae41591b889f
+~ -[DTSDPDeviceProxy _deassertPortState] : sha256 750e353f5dbb29b23d78cfce987f0f9c813d0d6f8359dae283b3c6fd1d55243b -> 32f42668ce726570373291359117ad522909d036aa2cd4a152748630a57b7d5c
+~ -[DTSDPDeviceProxy _isDeviceLocked] : sha256 0154d246cfebb045052c370efb9a73c0e0657ebb071a4dc97506f0f817b371d2 -> f559b5226e3465c3ed97513e1cf7ab43276aef413b86df11a3f1abd983f252fa
+~ -[DTSDPDeviceProxy lock:] : sha256 8d9b0d2b305f90e7335fd4d9de92383ba6cb0ac33216f80ae9de360faa1e9ebf -> a0229d6704424bbeaaaf47898e8911e17ad521fd1c9d2aa184ab40fa3ea6cc49
+~ -[DTSDPDeviceProxy unlock:] : sha256 5335a22d38d07566efa9c67c41d4a9b1d676a392124fe90e2cbfcef509109335 -> e11badecd5e9506516f94f7e41afc964a6d6ffa1538ab801630031dd4e9ff94d
+~ _createMethodTimeoutError : sha256 7fcb40f0f0ffb9505f09d0c41093d55fc63e60b0076611bc256475303fffb7a6 -> afc3a0f99724b4e9c0a91f96b3689006c0ed7e450abeb380f718bac0abfa0461
+~ -[DTSDPDeviceDPCDInfo initWithInfo:] : sha256 3222f1ee0a3f05bf919627cf50e461139c022fbe4694c65eee94e210d240e638 -> afef90d2a8989594e5e839221783c27ca4a785fcfc82fed12d65458308c0dff7
+~ -[DTSDPDeviceDPCDInfo initWithCoder:] : sha256 3447b41391fd5cde758df72cc80afba4ad24273036b03b93b2f26d5c92e0af6a -> a54b2bf484d70841067a8be3d179981f1880e7983ffcc13a73fd439879e0753b
+~ -[DTSDPDeviceDPCDInfo description] : sha256 c2da59a80e56c1d1e44f3621c9f9bffe6412f0aae974f07c3e4b2b62226c7916 -> 1baa16d2cd071c9c8dafe8bd6798f442f74b137d242237fdeebbe4e74ba20799
+~ -[DTSDPDeviceDPCDInfo encodeWithCoder:] : sha256 92e99f131889a61f09adbfb73a8cb2d2b8fb2fb8ba519ca512e17c5fe5b8da20 -> 8c22928fb9c0bb738e51823d41262d0e64dc7a77cf49ebae39ce4e0a692a4bea
+~ -[DTSDPDeviceDPCDInfo copyWithZone:] : sha256 f80b47041351b5310a0e453c9ede6399bdd62361e43e010dfdf29053b513fcb8 -> fb3d0ad1dcf81719b01d8be7cf6809dd5aac30290c2f86bafbfafce7a2c5d00d
+~ -[DTSDPDeviceDescription initWithDescription:] : sha256 f75df9651acb9af06069e88e40b97b8abe562528ed12bfc689422db82d83df4d -> c310241a20b48b86bf6f04186afe9d408d5661b34c83e4d63737cb006e5b310f
+~ -[DTSDPDeviceDescription initWithRegistryEntryID:port:framebufferIndex:info:] : sha256 5e092ea46e0d9afc69e605d89abd251b9b964f0a6aefcd35d3d69aeca77479e5 -> e12fc48ec4a8bdebe8ee5a3240253a29a2fcd865df3191a8929c5ea001ef3370
+~ -[DTSDPDeviceDescription encodeWithCoder:] : sha256 9ceb1644a4f97073d060bc9ae3c9e6e3d9b3065c1a7da46632db51ae3ac4f034 -> 9867b1f1f77ab3c1072f90d74be6b841cc00dfc501dd91146fbf934e80670068
+~ -[DTSDPDeviceDescription initWithCoder:] : sha256 b77bbe1ac769fb84d88caf15e75171b6cbb99b6bff7954e5edd61a8601781106 -> ace59f2a2644b8194d081725b5d0945d437f1780f965e6d84d40a026a2c74d31
+~ -[DTSDisplayPortDeviceAnalyticsData _readDFPTypeFrom:] : sha256 69b02ab0950a5158d7fb0dc837ecd3e273fbfaac94ac7c3ab6ca8f8aaa40896f -> 68b314ee23cd3cfc905f8193e5fe0b1a42642bb69e1f4fbbe38b58fa3621053a
+~ -[DTSDisplayPortDeviceAnalyticsData deviceLockedWithInfo:] : sha256 da34a81cd116521cf75c1adb496979cf1c466a57e10f60cd3e7b6ef26b42e217 -> 41d8b184a39f0cacb81f34c60f10066b80073f642e5288dc356549207257e2ac
+~ -[DTSDisplayPortDeviceAnalyticsData deviceUnlocked:] : sha256 011bdab24ad44b565e8d1bad5e5a69249d994c3fce5cf372d18029bb5d891bb8 -> 4f9f380d8e462e7416fd5fba99b15a134c8f9f4e29537cb6e52dcb33c162a0f3
+~ -[DTSDisplayPortDeviceAnalyticsData sendEvent] : sha256 0e6ea5012be45b74d3ed4130c201887401e468fe396b894f4d0504d223751728 -> ba7201e20c01b27a95cd839f6bf30b1c20eaa6080887f2365da50d955b8638ef
+~ ___46-[DTSDisplayPortDeviceAnalyticsData sendEvent]_block_invoke : sha256 947b2499ccf72baf396fa4764722e7e7999237945d24bb40d6c35fb553c30eb7 -> 00a8b1539421cc8767f3bfb5b10eff81b930b90924a79bad7ac814df274a66b8
+~ +[DTSIOKitLib initialize] : sha256 b47af971768c64b102f60ab14d24a5c9feb4da627860d856cb94a47141858acd -> 3450744d40cf6af12e3394f9d8b44a81d9424e84481419eada083971e50ff10b
+~ +[DTSIOKitLib sharedIOKitLib] : sha256 9444779426be95f4f2419092cd80a01167a5fcabedaf608a7654c71166e628ed -> e5dad83704a2f41e8bb36f3913154657645c8e46fe843a8a31acf557d29246d1
+~ -[DTSIOKitLibImpl makeServiceForService:] : sha256 0617b9c1c2b3784e7580be376aba5bd4a1a7918412fd606213aa179f1d5858cd -> cb07a15acab6d7b2a837656890ad2a4e2ffe71e832a7995a332339b8c6c07fc8
+~ -[DTSIOKitLibImpl serviceForPort:matchingDictionary:] : sha256 93370037874d2ecf708849126ca15977f5839d1c5660fbab8fbc105ac0a1f045 -> 686c4069d546ef642add50afdf4b80031cafe8fe4fdbcb032f1ab2b1c91dcb15
+~ -[DTSIOKitLibImpl PMAssertionWithType:level:name:error:] : sha256 748b6b9671a5ceb1ba4242e2f495282b470a46d4451eda3258a0baad84dac0f1 -> 997930fb2f0ac566163f811835672def08fe2fb75ed916063633284c30135a6e
+~ -[DTSIOServiceImpl initWithService:] : sha256 a468e2a93d74712b0242387b9998db93f57f63db9a6d292d30b8fcd8c887f6f5 -> 8f5c2599fdf8d4663368c3363aa0d14aacfcb2da238776ea68132b708fb76381
+~ -[DTSIOServiceImpl dealloc] : sha256 15f23f89cf0bdc083add234d247a06eb149c4435f44101db33e77983e338dcf7 -> 8d5f6e72e512aceee730518d80ee3543732909e684f97622f52c1af9f7620c48
+~ -[DTSIOServiceImpl openWithTask:connectionType:error:] : sha256 ef8e7888a032dcdc9ff85fe29b648acb8225da9eda1be2a25a6c24c4c7092f97 -> b5d2d9bf2fe1e164bfcec3f3d067c457c22b365d2f5cf288155ad6d7771454d2
+~ -[DTSIOConnectImpl initWithConnect:] : sha256 c7cd91646792ec6eea9cd854ca5ff8ef1568e4afe944cf91dd08d108315b3173 -> 19c0986e83bd85fecefe2594bdfc8ec3c68446b001e04794229b34122c7af7c9
+~ -[DTSIOConnectImpl dealloc] : sha256 62cfdaf66c78516822e2b29c40d980de9b2a0258ab1e11e6951678ac2a15cc3a -> 2c8a56f51a10d8c0d14b723d8cf4b36a13f4407cd60a2f90313aea355e1dc989
+~ -[DTSIOPMAssertionImpl initWithAssertion:] : sha256 f57d0fdb654195e1145882867af3929f01f6545985f50b46d5d31a79bfad7200 -> fbeffd0b6fa8c393b3ab94c833602bcdc35c6c1520580c061bcfbe66d51e8559
+~ -[DTSIOPMAssertionImpl dealloc] : sha256 2750de0f3204043256c2e4229a72365a8990a2c8a389c6a28ebe6e4d6f65f450 -> 330c8536ca308472024d1cb2fad54ca6efc76b0a9d2bf825258e713b7e667bc3
+~ +[DTSDisplayPortDeviceManager devices] : sha256 0fe3f5fa00ee3e0c72e76697b457ec3b98132b3f3b7b32375f5589b307c05ed4 -> c707a9f31773ee941f0963dcfcde2331aeb011632b1321ff26ca4e53756b1f48
+~ +[DTSAgentConnection sharedConnection] : sha256 072d940a77a34db18c2d080b6346515a762ab2321a9a3295d7c6e5e9315ee186 -> 2f8d9b88fe625de885fc75606c5b1faef7ff9ea2ebf1078d50d1cf9df1b33850
+~ ___38+[DTSAgentConnection sharedConnection]_block_invoke : sha256 652ef8c8cda2edd34005883c022c5fbfc0307e1242cbc78f4b43e5170fa47b4c -> dc255fb43b79d8d0e61429990964ba16b60471e1176c885d9ebddff802990d28
+~ -[DTSDPDeviceProxy initWithDescription:].cold.1 : sha256 706d9ee8d04999ece2e258f858967719c515e08365b8c23b7daff684835451fa -> dc219a4cd13efeefb5b0cf1fe0f24cc2ccd609f9f727864efe6a1a71da01000d
+~ +[DTSAgentConnection sharedConnection].cold.1 : sha256 a98c928c6cef3006540eb44499a939fd8f47ac34e583bb942bf3cbe605d72a47 -> ecfeafc64531c58a385a6a4a598d15a2732445cdfa165e5059fe953c890eaa56
+
+```

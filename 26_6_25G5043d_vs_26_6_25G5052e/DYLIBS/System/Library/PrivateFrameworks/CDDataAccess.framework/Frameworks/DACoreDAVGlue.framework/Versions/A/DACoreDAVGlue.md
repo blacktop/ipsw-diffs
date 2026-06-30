@@ -1,0 +1,75 @@
+## DACoreDAVGlue
+
+> `/System/Library/PrivateFrameworks/CDDataAccess.framework/Frameworks/DACoreDAVGlue.framework/Versions/A/DACoreDAVGlue`
+
+```diff
+
+ 3976.0.0.0.0
+-  __TEXT.__text: 0x78c sha256:149f526e3b6c5c8404283fa0ff7e791f5831289c57e4245441bec65cc2414fc5
+-  __TEXT.__auth_stubs: 0x120 sha256:bdf929cb69d2aeb8cefd34e4e58d47126af733cae698af2556567dce46b9a40f
+-  __TEXT.__objc_methlist: 0x394 sha256:cdcdfeca0bd1c69cb4109aef493f39fae7b49086aabbb3f3f02c62d5fbdda693
++  __TEXT.__text: 0x78c sha256:49e284ab8137261e0a94eef82032a386ee9eb3a3950f7a9a8e32478e4742f6ce
++  __TEXT.__auth_stubs: 0x120 sha256:3ec55bcfd7794da37e0a18fab01a86f9dd04dbc905eb1c9f0856cc11bdbd059f
++  __TEXT.__objc_methlist: 0x394 sha256:ba63d4bd6150905a513678409f550711b4150fd78a620c8963691dd448d5eeb3
+   __TEXT.__const: 0x18 sha256:a2d1679112015481ac1a038a8e23896cc1b6da645155955c2471b02ae2077817
+   __TEXT.__oslogstring: 0x6e sha256:74b0e60ba6ae351038f731c48efcc2870f8aabe999e679ca791dc736c3f93f02
+   __TEXT.__gcc_except_tab: 0x28 sha256:c77cda74db053562cc682e2cd672fb4ccf9e4117d1985ee18a11104923937551
+   __TEXT.__cstring: 0x6 sha256:957563ee9c5b2129695eff99c2399504a77e966bd69c5bb2b4beb58bc7ce2b6c
+-  __TEXT.__unwind_info: 0xa0 sha256:b28a3e772cc6f914d47a50ead02ab45487380731b1b358be7befaac25de875c5
++  __TEXT.__unwind_info: 0xa0 sha256:2db2d27e44cbd5301732d47ac5c292900b40e5da7acf261a9c7a7d14487c0fe5
+   __TEXT.__objc_classname: 0x75 sha256:9ac3275d354f25a8d52fd900486332495792c266c1522d450c5c74a780081e47
+   __TEXT.__objc_methname: 0x552 sha256:f605f96744231dbd03e6bf5aa29304ed2587b66c50f77809e2ae16084bd48a4a
+   __TEXT.__objc_methtype: 0x1e3 sha256:853725bef1ee52e5dbb69203fe8c11b3f864860303e51b669238074031f75ff7
+-  __TEXT.__objc_stubs: 0x220 sha256:0ab0e5768e2ea65aadf599c7a248ba302fd250d5852c359e092756818554c605
+-  __DATA_CONST.__got: 0x70 sha256:19c0d036e59fe7b00ac506790c491eff383b7ecaaf40c275096bf908d4924f54
+-  __DATA_CONST.__const: 0x20 sha256:773dfbdcb03848315b32e0e4474b90159298c26f12e17fc6d22fb2579164bfb9
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:29439262ce5468c2a45e4ab618a003b8c22f1bb444bd3516d7b74767b9a3315c
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:c401abc27edd28155f701cbcd04c487fbedc1b8aeb6e96f810ad26807792f4a9
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:f9e482ed283a1b2cfa356bff90bdccccd5cefa83791345c30be44963db8baaee
++  __TEXT.__objc_stubs: 0x220 sha256:52349cf2c5b66d47578d0d25160fca98bb4a77eca785b764799491b5f1aee13c
++  __DATA_CONST.__got: 0x70 sha256:a4ae751b022b2ba9a0a6ec0ec9838967da3ad2b89976099b8e3c6662cd9935b4
++  __DATA_CONST.__const: 0x20 sha256:6e45070c5056b92ce8348087070d4ef56504651bf65125b68ba0ca2cbcc8b2c1
++  __DATA_CONST.__objc_classlist: 0x10 sha256:129953c7d9f1e2fafe45cfef391b6e043592aa21e61a6ec6d22bfded049f709a
++  __DATA_CONST.__objc_catlist: 0x8 sha256:fdabe324e28f37340dd67a391c837043fd2d280cc95846860ac933472ed2e78f
++  __DATA_CONST.__objc_protolist: 0x20 sha256:8830ab0b215b0cb66f77bed32acb953a88875c18b23a87a6cbd4469e0d1072be
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x218 sha256:66a1869781d1d1cdd79fdddc6c2ddf0ac91972f2e2dcd7046f1f11a461b482cb
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:9833bf9b75fc7be6b4824a7a36791a90c1fd80bfed49481ef8c5df81d7e8c178
++  __DATA_CONST.__objc_selrefs: 0x218 sha256:ea0c76cf618a984cf1ee82d62d2d013cb01fc2a0578a0c7ad884b34d8bc7cc06
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:62cffb802a927c5dade8bcf71ee6587dbe625b3238a3f0fe3b987b6177d33030
+   __AUTH_CONST.__auth_got: 0xa0 sha256:b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4
+-  __AUTH_CONST.__const: 0x20 sha256:b6ad878ccaa0c381b9c3bf52b9e7aeab6418a00b2d28c28739bc633f23406237
+-  __AUTH_CONST.__objc_const: 0x4c8 sha256:ab6d0aac00944540646a2a1b67f676db930ed504a66fad6eeda89de9af85e2fa
++  __AUTH_CONST.__const: 0x20 sha256:b9e63a68554066d4798d729b81136be7dc16df1e7e6e6a13b64cd03fdbf0366b
++  __AUTH_CONST.__objc_const: 0x4c8 sha256:deeaaf69c7b1fddc50452163616474ce9ea3fbb3b15a8829e3ec77ac889238c8
+   __DATA.__objc_ivar: 0x4 sha256:ecab6a43b90f389289083777f42fc1c3f3576b001c385057c5c774fe67e12930
+-  __DATA.__data: 0x180 sha256:41106786f28f84cbeab6535996b917b72e04a7d05f71dff7bfa0e4f79040c115
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:ce94dbbc52820c80106a1b38521b94ff81d6b7b8a0cbcdd2234e2f43d1ce48e4
++  __DATA.__data: 0x180 sha256:924ec7f623473aa539a57b64dae1a274d321ed31ebc773b85d45041cb85a2f54
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:af4681a38661cf2e93467f711b774c89e47d4a94cd3a36f868b73bc777e703cc
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /System/Library/PrivateFrameworks/CoreDAV.framework/Versions/A/CoreDAV
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 8AF38521-AA37-3488-8618-A4030A67A62C
++  UUID: 6AC498B1-9FE6-35FE-8AC8-1C5CB50B5790
+   Functions: 25
+   Symbols:   134
+   CStrings:  117
+Functions:
+~ _coreDAVValidationErrorFromRawError : sha256 0c1ad9cb5153f7f7cb206d7a48366cbb6f6284c636170d3ede11eaf21dc5a11d -> 44da23fe7095740172c2c86304bab5ccc4c88ecfa93310e62ae99932e31750c3
+~ -[CoreDAVTask(DACoreDAVGlueExtensions) cancelTaskWithReason:underlyingError:] : sha256 60d075594fa893827224bc6df9c55ac95f866c43f21447a2f4561b1bdef77606 -> 13befd5a2db9371be3cf731da7e0a7c9baad4b766c94f7eb61c1029cafee083e
+~ -[DACoreDAVTaskManager initWithAccount:] : sha256 391f4c13c1329845c59f5ab9083d73c90a59b9f66eea5e5a469eb9d2279600a2 -> ec36c5cb7b1e45d0f5a701a30fda9d29617814d37a1eb237e28137998b6031dd
+~ -[DACoreDAVTaskManager taskManagerDidAddTask:] : sha256 e98497aa7143939bcedbbaa9de62b9cdf2b128ea7d8f08759395b51b634bc570 -> c709993ac5c680a5f9cb9e939851600249320c0955ac19892a3627cbbdf8a612
+~ -[DACoreDAVTaskManager taskManagerWillRemoveTask:] : sha256 80ef2b5414a880746fe1d0d75ac25de8a4f529b67b3c3c7921688cea90443bbc -> 4e645001bd7ca93945f2bd39d2e3a606ae3363b3854b3a0ad8ce1255a871b5cf
+~ -[DACoreDAVTaskManager workRunLoop] : sha256 7cedbddd5e14e7bdab8fe4d45feb0c9aa8a42c6a4f3c700877180900ab88ed58 -> 2940fa3fff173b391157aa03fc651d0a51f229b530f7b7eee79d03d3b851feef
+~ -[DACoreDAVTaskManager .cxx_destruct] : sha256 37026a12ac62689364421266f4fb1cdedda8b8cf1e753381ad428d2502479e13 -> 78da43bb8348f90ad0a016a5beaa5c027098a38ffeba2af8da5a6323162a6490
+~ +[DACoreDAVLogger registerDefaultLoggerWithCoreDAV] : sha256 8e4a1d26c349416d0fc35e527db07d9280b48e8a37cea522a7bd2c0f3188434f -> d028cb4ae2377e555fec0260516e34211716eb686a5a95be3b2aade73bac8927
+~ ___51+[DACoreDAVLogger registerDefaultLoggerWithCoreDAV]_block_invoke : sha256 6d350e5f2744956a2f0b85d8679586fb3f73b961a42227b6c4d231546d30e878 -> 8c6335a59e8eecba2e12a476d581c04c1381c631f09d2b8fca2d442df1dbe280
+~ -[DACoreDAVLogger coreDAVLogDiagnosticMessage:atLevel:] : sha256 76299b0844cd51b15440fa6c91e40bd17f4452be1685b506b4651ba8f36f98d8 -> e4deb7af9637ead4cc4822f7a63e641f35a452dde00d37a7d61067d1b43fddbf
+~ +[DACoreDAVLogger registerDefaultLoggerWithCoreDAV].cold.1 : sha256 d4d90e7403be17713715027c971ac5617891d6916c10f4e9fecb401750a4bc99 -> 2047c562f02df905d2607470364c397b4c2d7dc792c889e7d9cd17c0a41af505
+
+```

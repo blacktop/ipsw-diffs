@@ -1,0 +1,67 @@
+## HomeControlService
+
+> `/System/iOSSupport/System/Library/AccessibilityBundles/HomeControlService.axbundle/Contents/MacOS/HomeControlService`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x3a0 sha256:2d8055dfa002e389244d9c911b1585ec3004231d2712d464cc630207274668e3
+-  __TEXT.__auth_stubs: 0xf0 sha256:cdd58e44a95a89579efc3cd2527a53c0b67ca12beb058d160c022721ebcd167b
+-  __TEXT.__objc_methlist: 0x64 sha256:41f8189a9ae0bbaeb3944a2b6455bc2d7474159dfbae0c33087f42363a7659e3
++  __TEXT.__text: 0x3a0 sha256:9716e4be578734be17e393d9e6b86257799538cda70e59fb2c17250db0c6aca0
++  __TEXT.__auth_stubs: 0xf0 sha256:627855efc2f9cc476096830427b4d3c9018f747faf045379bcfa9642a54963cb
++  __TEXT.__objc_methlist: 0x64 sha256:94dd703f770388af4d0ce4dee462416654572ae7dc5f3f39b6fce08690c41b98
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__cstring: 0x113 sha256:4a776594986a9c07127351aaca581948ed0ab516ea6e43f73943a87fb06a8a5e
+   __TEXT.__unwind_info: 0x80 sha256:0a315154c608c7bd0c3c300316316f7f0c3bee6926aae85458e5b608118145d2
+   __TEXT.__objc_classname: 0x78 sha256:0881938716f801cdd75835df8600bff616199f0fc04f89de6ac2e8ef1bf263db
+   __TEXT.__objc_methname: 0x206 sha256:9dfd8bbfb2cd6ec1de2f4ce826553b8aab4cef1ebe80b88f3c9266550c4d624f
+   __TEXT.__objc_methtype: 0x31 sha256:347579c2c7c79bb34aab75a123f65bd1ec64ab4e2f65dbade47f399963e61d73
+-  __TEXT.__objc_stubs: 0x140 sha256:2257d0d767ded51527c2c3ca533c03dbc5370ed0dc0754c6682f8f9992c62b06
+-  __DATA_CONST.__got: 0x30 sha256:705f3896b48a0ea597d02a42ffc9200c20ce2df73f57066ccc5ad3fdfebd0b80
+-  __DATA_CONST.__const: 0x88 sha256:54181c5f88028086355020252e74531f7280756425999a8976b5118c1fc59198
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:0f609daf3e064cd546ef23ca673187d726fa288e4c107347458caa3efca1d49c
++  __TEXT.__objc_stubs: 0x140 sha256:3057153c46444ec125748d85d5e2669efa9ac453b1d7e8ceeeb81ccf02224681
++  __DATA_CONST.__got: 0x30 sha256:f8c02ef7470b43dc453a1c68d2d023acebe8c4bac8d3a5d36c8c49037d9aca95
++  __DATA_CONST.__const: 0x88 sha256:35b20eda7b82fe157d788accdac274a070da4571c6f64085bbb639d7837fc199
++  __DATA_CONST.__objc_classlist: 0x18 sha256:94546f417f5e2f4dde4e6d4f321bf50522cc2afc8d34e441fd9c800db420227b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x80 sha256:978d4d30a71bc74567540d85e6c111874ddb6ef7e917c29b0c9ab998171197d8
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:91eb91c75b5980d1c6991eaa37b89d1ee06c27c786ea1c71db65a1b9de25bed1
++  __DATA_CONST.__objc_selrefs: 0x80 sha256:00fd7c38f2f1cfdb1aaff90f5bff9afdc448b221d9bf90ba93b434b27e028fc4
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:3488e6f3f0b5c5a144b060f4c0cae0539a5aea72cb2bd101a687139ee5b7d63d
+   __AUTH_CONST.__auth_got: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __AUTH_CONST.__const: 0x80 sha256:252de683c05603b9ad2da92bc923edc4132ac311f3cdd2152953d7ee5be8d184
+-  __AUTH_CONST.__cfstring: 0x120 sha256:72affd2a4345aaa5439ba04deaf0ac4abf88e82b0479ab7be1cda4e24a817363
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:4712f1ff86bba658f87d75db8353ca12aae4ab64e4b3e2835afc4f312b5e2e5d
+-  __AUTH.__objc_data: 0xf0 sha256:70f641c616d6286d4ec849b0e8ef6b2ba9e0aad1b39654ab06d5ad94b4f3a1e7
++  __AUTH_CONST.__const: 0x80 sha256:235303449bfc4266c9b044d336d563d463d917e1a3b9eef649bb9f26a56da069
++  __AUTH_CONST.__cfstring: 0x120 sha256:5b869c7cfb0989b42053c1f5f14923d52e95f13dd1f08402ba57d84605209221
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:22a963fa1e4770542fbd8db4f20de96162e3174e2a6c081992a177223db0984d
++  __AUTH.__objc_data: 0xf0 sha256:d57506c53aad313b36fd639604cc42f85496a3c90af997a4e2409af3cc28c249
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E4E87C43-4B04-31ED-9E47-B89CBA59E15A
++  UUID: 48FBA5D8-212D-3E1D-8259-80FD19BFA863
+   Functions: 13
+   Symbols:   74
+   CStrings:  48
+Functions:
+~ +[HCSRemoteViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 65b672b34bff55e3157ef08f12bb814d4eb9a1218e21e9bf69cb8a6106d2ccc9 -> 974eee05918536900eddb011c2c1dc7cec051eda95bda76407e153422adb241f
+~ +[HCSRemoteViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 5e168d0f2ad85c90ec4929d6e4b6eb09a7648959817b851ea9508f588b6c8761 -> 5a641021cde94393214a3c7536bd52ed9976420ae0765fa4a850396358c76d2c
+~ +[HCSRemoteViewControllerAccessibility _accessibilityPerformValidations:] : sha256 71d25f68c900b68ac8c80c050075ac890a9d08ce189a3fff0f8c333188b934d0 -> 34ba15e693b9fd44b2b3a0f6a59902ab4e0e61fdf8533d5c4359f412c127bc53
+~ -[HCSRemoteViewControllerAccessibility willBeginTransition:forCompactModule:] : sha256 19f51fe5efc3117777fb64c431667590dc141e61c0a80797617d16947baa53f8 -> 032b0101b0219056811e1fd11029c4677bb74b31a5c3d910b152e7eb31b93fa7
+~ ___77-[HCSRemoteViewControllerAccessibility willBeginTransition:forCompactModule:]_block_invoke : sha256 97b5349ab8221348a1a8b22d29120cdf85baa23fce7fb0f51795f44ba0e3dc71 -> aa1f9163f2b0248b45199d084915167ef275cb3692514c070874c1955540a296
+~ +[AXHomeControlServiceGlue accessibilityInitializeBundle] : sha256 a148e7513c5f4dc85976616cc8c0d1d0775f1a91267bfb0d0fbfb29d70208af5 -> c05aa47ab6d45bc410a36245a69380a1dd1045b1465dd5321cef0b6bccb8658a
+~ ___57+[AXHomeControlServiceGlue accessibilityInitializeBundle]_block_invoke : sha256 653e32dd0103893ec9c7412918076062b09592f53c2aa0d93f91aac49a877a3c -> e32834357f4d2f47547c02d08a0a9a0c858af01cc00a0b69bc713eb1f33eb7bc
+~ ___57+[AXHomeControlServiceGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 7c723f20eef246da29053ab834cd1d809a6d6fcbfaeb5cb7a144f30b66537740 -> 63f4385bba3122627ba432f431b41a7252c08c9c5317f0a76d2763d7a240cfd9
+~ ___57+[AXHomeControlServiceGlue accessibilityInitializeBundle]_block_invoke_4 : sha256 d09dd6dcd4c8be7e8822552f07d310b56ac36b0755b77c2e7b9f9923f633e5f3 -> a8629c0e0b679de05c17668ee766f07b4cfbcbde1f145dc3756fab5e39f4eec9
+~ _accessibilityLocalizedString : sha256 975d455d44f4c2334448f29d0e8dc9ce03e16bd4935a8d1bb108031a52662abd -> 5114125c9969f829bf33af6703948f730dfdc187354c94b5549fae20b7092c47
+~ +[AXHomeControlServiceGlue accessibilityInitializeBundle].cold.1 : sha256 1d8e2c54639be286dda1cfeeaf7fcc365a137065f062ecfe7bcb1c6c8a8cf7c4 -> e920358bc9e1783c7a0880f75500b0f6a08521946ad63d7b818ab329ec658818
+
+```

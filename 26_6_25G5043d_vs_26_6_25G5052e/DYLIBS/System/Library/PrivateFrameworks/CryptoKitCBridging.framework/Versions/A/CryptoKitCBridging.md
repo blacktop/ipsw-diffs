@@ -1,0 +1,73 @@
+## CryptoKitCBridging
+
+> `/System/Library/PrivateFrameworks/CryptoKitCBridging.framework/Versions/A/CryptoKitCBridging`
+
+```diff
+
+ 324.160.2.0.0
+-  __TEXT.__text: 0x210c sha256:e1f08ada489cdc8db3485b472c51441e43253a323ea68672aa4855ea8bbdae82
+-  __TEXT.__auth_stubs: 0x3d0 sha256:888c9a8339af95e013dfbf01bbde2d3c4a92ff939cffa4d68d8a0b83d92e2a0b
+-  __TEXT.__objc_methlist: 0x1f8 sha256:418cb2f8176319bc79919f426c0d13d7a6f2a1fdb4473dd104a25be7cedb3291
++  __TEXT.__text: 0x210c sha256:b31cb40dee002595a6427746c51360c8bafd92fb5a558f510cafdc35d5b85574
++  __TEXT.__auth_stubs: 0x3d0 sha256:7c138119512833cac701f3ce029235df34c2392ad7ff6569ff381024369849dd
++  __TEXT.__objc_methlist: 0x1f8 sha256:a6c4a9366c2061506104a5545afe09a664c60ab90f707cb5960e2e3475cd3573
+   __TEXT.__const: 0x40 sha256:42f6786852f2eca2084651da244433b9cf4e0f7468546a7da7272e7acc716a17
+   __TEXT.__cstring: 0x23 sha256:419c0706258714baabc6815b145bb5dd16383ed587b8f94255b612c73101a91f
+   __TEXT.__unwind_info: 0xf0 sha256:5f1a520b31ca9f299895f4bccc68c60b6aa1f434287656e4254830ef9133aee5
+   __TEXT.__objc_classname: 0x40 sha256:1d04236279a9f58f25a5092bda8be121d025541a25e5ab59b446c431f89d6926
+   __TEXT.__objc_methname: 0x3b1 sha256:09b5773934dd6cd9e35c8bedff58edaa5241f741b4d34041897053c1de5a3f7a
+   __TEXT.__objc_methtype: 0x33b sha256:f4505d66fa27cd73978cdd76e6daeeb10912ed25af466808d0c4a9b7c3cf1399
+-  __TEXT.__objc_stubs: 0x240 sha256:e8359d17ed10c659f414e93f108df38fc65af0a5e7e8a75e82c984cf481a64b8
+-  __DATA_CONST.__got: 0x40 sha256:e222472882f123f2c389fb334c3a1af1b341e3b37a26bf3280d4913455137c6c
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:3d60eef96ccc0bdaf86e31bd43ada3712b6a2cf37638bb5407309cbf567e2fbf
++  __TEXT.__objc_stubs: 0x240 sha256:3535cc1705765402f737ec1bf919c3e5257c34dc748df8a6198179e70d3b9c8c
++  __DATA_CONST.__got: 0x40 sha256:246654f4840d64a152df844ede686da3c4ea385eca1d9cdb2cc89c5489eb356d
++  __DATA_CONST.__objc_classlist: 0x20 sha256:f0fd90d26669336191bc4b3f90bb2b19c81efa99408ac51862ab1b905c1fadcc
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x130 sha256:3d157e4c816b7761ea4de0bfd5f82741e2e439f4255ab4adf6f6688dd603145f
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:06838133b4c830bfb86037fcd273eb3cba318a15b1675f06d2f09fa08c626a68
++  __DATA_CONST.__objc_selrefs: 0x130 sha256:6535e2c24d5ef323b89141203b8946223a5330f4886caf0e683fda44f98ade38
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:b56538dd9ff08528c7b338ccd4fc1992c03246e829dafad605de25caf3d5f122
+   __AUTH_CONST.__auth_got: 0x1f0 sha256:882993b55cc0c527f0a6059b69b3faf4ef3ccb9cecd3d8847ca0e49a1444debe
+-  __AUTH_CONST.__objc_const: 0x368 sha256:62afa241e61becb0e13810c2940afdd134f9e4fed569fe361da9a78ff8e139de
++  __AUTH_CONST.__objc_const: 0x368 sha256:8759a6d4217820bda56f52a65a032c11ee8230166813d537d3b381c0aca6d928
+   __DATA.__objc_ivar: 0x18 sha256:0f90eeb58ff64398c563f0b14e14de9e18ec71087166435503616df93222d1ae
+-  __DATA_DIRTY.__objc_data: 0x140 sha256:76579cd34291a101c1eff3ead20844a24ae310a55fcbf69eac6d84b47baef8cb
++  __DATA_DIRTY.__objc_data: 0x140 sha256:1da8664c55c354c40659feaa02e6354311d42666d4f4f992c3338445ec2f96cd
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A956926F-D732-34F7-82F8-FB7B028B90E3
++  UUID: E156637C-C958-38D1-B207-ACA1C5A53653
+   Functions: 55
+   Symbols:   179
+   CStrings:  76
+Functions:
+~ _keyIsCompactRepresentable : sha256 912bf12f907a018b7f27b5cb226da3d74ca0f9ad89b5b21f9351d433a2a14480 -> b98e53ab4f723c4a54cd5f4f898037ca6ee656a756591f9f720f49565eb9dbb4
+~ -[CKSSShare initWithParams:x:y:] : sha256 780f93d07b89b2950d8022ff645fa5c23b553d3b956ddec54600eb9581d67bc9 -> bb48a1fd2a12c83317f44d9fcae00ed4d73c11be87b7664b0404ebc44e9cd9ca
+~ -[CKSSShare initWithParams:share:] : sha256 cae7f3951f511deffca879bae204f45d48f4b973dc2d76fb35bc0cc654e5104a -> 111a54ee08d6592dd2ebc8f9019c68ceca0d8163bc26d23020d7723dc356e352
+~ -[CKSSShare x] : sha256 164d825073a1a8381d5d3ec596b465aac4b80aaa05bcb39e06099c0500162c6f -> fe3cf65aa21df4c601371d991237da7a8e90a142d5a0052491734ee658b1d106
+~ -[CKSSShare y] : sha256 cc2c5e483cf909654e6cf5bc34862eeb0abda76e001a6983538807a0618ffe34 -> 251f64ae8bcf3d9354f0790c7fe80301c4f47eec719d8665b467f60f059dae70
+~ -[CKSSShare dealloc] : sha256 1f0907bee509d9df674b46892f2ce16acfeaa1e0957560f9fbff1bcc3198a98b -> e97be9b5d985e8f5ce58554b759cb1284e2d9e9d0630eefc28f80a6da36c7c8f
+~ -[CKCBCorecryptoECScalar initWithx963Representation:group:] : sha256 8cd56f2bf17977ee3321bc641b982712bfa5356b71804c3f2df1f7b087f84a8a -> 21cab114a49e6b66007c14ef8ca64c881275fad5b3b2d52e12e0940d2c25fae2
+~ -[CKCBCorecryptoECScalar initWithScalarPointer:forGroup:] : sha256 e51c4a617b50727652d5b475920652a19c13e76cafe69a8f15cc4a96b0427ad4 -> 22843869cab621db69c956ab38a8c74275b99bb92b7eb32fe154c4701c685806
+~ -[CKCBCorecryptoECScalar x963Representation] : sha256 c89958e7c38c54cbd9dee1e52f0fa9fae0a0e060bd00af9462b573614f02037a -> 51fb612d7b999935991bd8b792eb936ccc739c9b3930331ff604e8552be53760
+~ -[CKCBCorecryptoECScalar initWithRandomScalarInGroup:] : sha256 95b5874339936ecac7df9b118f6eac124f17c705b290ee31dd5fcb26fdb4ff44 -> 1f1f7ed084ac51fd5b493f2eedb748ce4f4ea1f515f4a63fde0fb4d7af536e3b
+~ -[CKCBCorecryptoECScalar serializedBigEndianScalar] : sha256 edf2a1138fbb7fa57cba469e3946e9c9689714b5a2b9f0ab53a41e00942b4705 -> 4d9e73443e3d7684d0c8273fe2fb5196ea9db81db5bbbcb022f77b4aef25ecfa
+~ -[CKCBCorecryptoECScalar mapToCurve_SSWU_RandomOracle] : sha256 33d35c9d0494d0971fc26084b225a22cadd6de121a4880a7e51e04d551fdcd98 -> 29634a0b6cbeb3467ee349eab198571d6686daa7c2584c768ba0fca9b7b2c94b
+~ -[CKCBCorecryptoECScalar add:corecryptoError:] : sha256 96bab238cdb21077374f46fb1c1efa69ec2c883d09972e84c56192b56768ccdb -> bb0cb3a5ed5fc3840b06a07f7fe40f1bea5ddceff0f1106bd1d582e62a3d73ea
+~ -[CKCBCorecryptoECScalar sub:corecryptoError:] : sha256 2c61bdbbf543ddfa156d6b27adac610e5b5fd97441bafc570bd3aefc22f3f4c8 -> e0223ef369a438b820b2ef3a112d3635b52b17480aa4728e7f34483de2c4cc0f
+~ -[CKCBCorecryptoECScalar multiply:corecryptoError:] : sha256 80896ef10b05f2e0e0172e8491077b4677d366da6d9600ee006acd863424589b -> e38c66683bf665261b735fef0892ba35382c67939e991509e5c02fdf35538a06
+~ -[CKCBCorecryptoECScalar inverseModOrder] : sha256 71e646d9925ce2ac1689afab80b18dde424ab2625d591c7674a2a76022254bc0 -> fe4c7acb21ea4fbb1b0b16b1a2a99be3bc70f3c67c3e09db65aa064f9d0ef76d
+~ -[CKCBCorecryptoECScalar dealloc] : sha256 9181b32eacaf93165e2fd65ca3b7071b8bd17e0d87c43053c5a8b38a7b873976 -> 9346c2e84d26aa6e3abe919826f09b0d6bd599db9a20ffee2fd4f91ce207d27e
+~ -[CKCBCorecryptoECPoint initPoint:onGroup:] : sha256 3928412093c42c0fd129c09fb3facfdd08dee901433b9c14c90cddfc2e2fd110 -> ef0bcbdcf1b5924b224426117a2f1831acf1ffff7207a0963682b0a0acedbd19
+~ -[CKCBCorecryptoECPoint initFromPublicKeyBytes:inGroup:compressed:corecryptoError:] : sha256 13409e5ad651be202d57bed3f0330ca8dbb3faea39d64b8a5521f227572a1272 -> f173a39714ef779450e42ee031754467f0e3070e667871753508e9003ef5e64f
+~ -[CKCBCorecryptoECPoint serializedPublicKey:] : sha256 69541e2e541c4598ada2dcc3595643f73ee6252f10f35c69f7facb1cf8cc013b -> 17140569847f1f9b9bff64ece7251c756326ac4734c01f81bf60ab8e414779fb
+~ -[CKCBCorecryptoECPoint add:corecryptoError:] : sha256 eed7695127a10836afc53557f3a84f8a45338dbee98645a719048b7b5e1ff631 -> 114a94b561481b3be5e90752a314078f6653eb3511a29a1df273ba0cbe93d883
+~ -[CKCBCorecryptoECPoint sub:corecryptoError:] : sha256 606819c27fa96b6cf75f59192d4ea1cc522b57908fb8b12337c05121e4017666 -> b0444abab4771709799e9fea55c58d96a91cdfbb28b2d028f21096c0c6428040
+~ -[CKCBCorecryptoECPoint multiply:corecryptoError:] : sha256 08962a6dec90872c1b5d06c3df3e4a25ba0ac0fc1d54b730030c48bf5089da08 -> 8c78de5b3c764bd722bc99e19698f04e66d89a574fd4c8c4ba03a7e6980d901a
+~ -[CKCBCorecryptoECPoint dealloc] : sha256 6e7f4cfb0f4a20526d9a571dbc4835aa103f5bda24982a999ef49748c00e3af1 -> ce5ccffba36e9c0f522d0402c24d3cf9c392057b96b9986b54d73cda0bd001f9
+
+```

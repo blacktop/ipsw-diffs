@@ -1,0 +1,52 @@
+## SystemOverride
+
+> `/System/Library/PrivateFrameworks/SystemOverride.framework/Versions/A/SystemOverride`
+
+```diff
+
+ 85.0.0.0.0
+-  __TEXT.__text: 0x698 sha256:ddec8214b910f33da583b2067a702ab35693f539aafe3f13b8afb1a03d2271f6
+-  __TEXT.__auth_stubs: 0x70 sha256:af5e6601770c27c81675213dceae46719f3abfea3edcffebfa39df9c24a0e11b
+-  __TEXT.__objc_methlist: 0x5c sha256:82e5ea4d145b64933dd4e4887178b83f3b5c506fefa7e65c8dad8be9529e5079
++  __TEXT.__text: 0x698 sha256:9b0ce23971ad9235d4dbe6fd5ba94e88673562bf1da2a77d10d9c4b396b82fb2
++  __TEXT.__auth_stubs: 0x70 sha256:f1910a8780976d294264abc218dbde4cc6d071f22b0bb7f36e9a65b45c668c36
++  __TEXT.__objc_methlist: 0x5c sha256:7c34949b20beb34f56a0cfae01405e8fac4e3e986c46d900346a2509168c93ea
+   __TEXT.__const: 0x50 sha256:ef54e17f7bcdc20738aab1b590f702205a0b425074d892c000ef972a9ce57512
+   __TEXT.__cstring: 0xb0 sha256:7f4cd2f8c48b0af2a6b08262d5612bf5f133bc4c7db568c32d5c9d220206726d
+   __TEXT.__unwind_info: 0x78 sha256:daf680d0aac86fd0722db61e8d4816917c2c1dfa691728afad06bafb42574256
+   __TEXT.__objc_classname: 0xf sha256:ca8af1b7e43faa9e68fcfd61ecf3386fc9983cc03592bb44edf271ff92da5870
+   __TEXT.__objc_methname: 0x20e sha256:f1402f54364db8358a0fcd56f684f554f7ec14251ec721241229bc959437f891
+   __TEXT.__objc_methtype: 0x48 sha256:327d13646f94a6ccdafc852cd4b5bf31004ec664a8902dd700e5d26144ae9827
+-  __TEXT.__objc_stubs: 0x240 sha256:f6fe17d1e8bbecaeb28cf72f9abe39122828a3142c8e76c748f1c1a1a49063f3
+-  __DATA_CONST.__got: 0x48 sha256:c42eb7539b4c279a6d299f3889dc44aff972bc9c43ade1a167ebe12219787895
+-  __DATA_CONST.__const: 0x10 sha256:f5f175f14907b2d2c965cf6c4070a89b461f46b615ae4e60c0d9de40a57f9f13
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:91761f7e329a5f8de6c6e24291b62f8c0e21f04f80a946db2e72d19e94edeec4
++  __TEXT.__objc_stubs: 0x240 sha256:034046f1d65ef67e6552fe15c28375aadd685114509edebd2c516521f3e9b249
++  __DATA_CONST.__got: 0x48 sha256:be9c305355106a03971d4ddd245037e086d08c8b318d954b26801b0f1699f51e
++  __DATA_CONST.__const: 0x10 sha256:ec16f4acff978c77a1ec9d582a5506b4ad4ab9fff032be98327d50a0fb034744
++  __DATA_CONST.__objc_classlist: 0x8 sha256:e1dc166c649e22687fb9c2c3f308310f3922c4230beb80c972c601d4232e9dd1
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xa8 sha256:c448cd7f1a7bf604c3a0d3cbe7ac64740abbce5e27aa128577621e8e3112c31b
++  __DATA_CONST.__objc_selrefs: 0xa8 sha256:718d907220e7b62cab084b193e34643a33a17dd75aba6c0661836d6e1702b500
+   __AUTH_CONST.__auth_got: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+-  __AUTH_CONST.__cfstring: 0xa0 sha256:821f5d30a1f19a5a8c8b11a72ee8d829eb1f81b074ba04c52fd8d4abe0b9d54d
+-  __AUTH_CONST.__objc_const: 0x90 sha256:e4b7f4f2270393ebcd90d0534e4d76906a403ca38ee082ca3b42fe9f42755512
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:fe1fd72098823222eda4ee5cb3161f84de44139ac2776a1a4dbc91e3a491aabf
++  __AUTH_CONST.__cfstring: 0xa0 sha256:1022632d826bd145c6deb907a9de0592c145b2f838b26c7950ffb55c38911c85
++  __AUTH_CONST.__objc_const: 0x90 sha256:989d705611d2959cc1742d7728d7040afb170bad4b6077b45e1d578aea00f96f
++  __DATA_DIRTY.__objc_data: 0x50 sha256:60ca71389729fb5fce9bf3dc23381376f6227ed203b6a42e4fda034280c71203
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+Functions:
+~ _assert_valid_key : sha256 dfc41d14b8685aa8a24380258747a1b5ce47c759ba8fd24a157ef831b151cf0b -> 96ec80409f0d5b7e917a7f3036b105260d6ba0518a9f1bd0143d272a5d94409f
+~ _get_system_overrides : sha256 720794c65a13dbfdd640fdb03aa8de3510cdc49d2b176b7592cd1cc280edc4ca -> 6364cef43bfaac2ad7b42bbf43809c5872d863dfcf4f9eb3476efe38968d06b7
+~ +[SystemOverride getSystemOverrideForKey:] : sha256 aec0f112b1ebad015860c0b63874646ade0749313e1200849d83b1bd98c12243 -> 7b9d2f7c9fa6cc1bdae76cdf95df8b1de1eca56f883279fba41dc20511864963
+~ +[SystemOverride setSystemOverrideValue:forKey:mountPoint:] : sha256 93049cb1ee9f58df403e4012e5c6d1a45407eb09c679dc95d3307549d06ed048 -> a248b59c237903394eb2c22ddde52881de885579dc76384e0f7c2ace6d097be9
+~ _set_system_overrides : sha256 ab5ea684f4bd3735211a683d80729044e67c093a06e18a3f9980535535d505af -> 1cc113c7f445983c8035c17c2f376a273e3cac070da9c63ca009dbdf5068e61b
+~ +[SystemOverride setSystemOverrideValue:forKey:] : sha256 1477ec3c7870c4ebb544cccc79e1cc74569a2274aebea0cd4994f04e8d563992 -> 59a1802000400e3601415c64421383a73cec3e880679f88cc78190f4e00fdb25
+~ +[SystemOverride validSystemOverrideKeys] : sha256 1e01192e81ef5fea94d7bba6fbf4fa6e4f80e1e4351e31d13a2f0526003263ab -> 4a763f15c7655fd398f5bb353771715cf28c4764ae76cbd65ab175d0209637b3
+~ +[SystemOverride resetSystemOverridesForMountPoint:] : sha256 ee13afc778c36443650500312230539bbc66f66426e90f333ea2135607e0ca35 -> 6075b2c7598965501b19fc4294d109b8cda2d05b63b64eb3a32ebcc05b798155
+~ +[SystemOverride resetSystemOverrides] : sha256 b924292e294ced7d9eab27b90d8d5aee191a9db08ac66bfb41bde3830bf7b6fd -> 651007a89d7662fd16648012d676870500666fec743da51a9de6f1c52a8e19d2
+
+```

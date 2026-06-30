@@ -1,0 +1,92 @@
+## UserSafetyUI
+
+> `/System/Library/PrivateFrameworks/UserSafetyUI.framework/Versions/A/UserSafetyUI`
+
+```diff
+
+-130.5.3.0.0
+-  __TEXT.__text: 0x20f8 sha256:7212d836e64f70425a95f2953df4a1a039a0a78eafee973778012c8be25126c1
+-  __TEXT.__auth_stubs: 0x110 sha256:b41349c5d0931ba55468a744faa19213a3691c20d436573987d20356bcbb73e4
+-  __TEXT.__objc_methlist: 0x38c sha256:cfdbfb4ce7e545fff4a80e66be6f85639a7ee874a3c9bacee07abfe3d43270db
++130.5.4.0.0
++  __TEXT.__text: 0x20f8 sha256:88b3aa0c19a0881ad5375ec867dc13773f66ac7086a7edca00f507638409c559
++  __TEXT.__auth_stubs: 0x110 sha256:ee9779d45a2560d30cb3cb6108b63e636007b77d0bf2cdf7f8e49aade461f592
++  __TEXT.__objc_methlist: 0x38c sha256:d07a687fcde684d00f5629553875ea4ab406f217c81b3ee1e5ffb1584fc50231
+   __TEXT.__const: 0x76 sha256:119ffc560e40a9d6f9cc81cff10e6c5a3f3f435a9171701a87d3ff661d726f7f
+   __TEXT.__cstring: 0x554 sha256:9e2e28911706ee8eb2299e9588eb98d1e36a235311c9c56a12a7fc361b4be1d3
+   __TEXT.__ustring: 0x3c sha256:a16dfd5ea960305e8acccafd6960f5fef3afcfd61cf43c4ef4f96f2e7b7359c6
+
+   __TEXT.__objc_classname: 0xfc sha256:1fef976dfcad22b14fc21ddb5b835165205b775c9e771124d57ba188d68134f8
+   __TEXT.__objc_methname: 0x6a5 sha256:d3982d96ae03f9ea585f7145252aa1188c4792049ed7d499ad19058136a31694
+   __TEXT.__objc_methtype: 0xf0 sha256:15089e1919f2a3ac559bc6f9b53afd21a4e8582b2e98b933d70dd7c8771bea21
+-  __TEXT.__objc_stubs: 0x7a0 sha256:1e75487b2daa361276abdde78fdb640af3c92518298cbb0d9c19e827d2c90cc0
+-  __DATA_CONST.__got: 0x90 sha256:604238df3067d9dec23d5cf28d91411436b1d647ad421cb9b33aaa1979162c6d
+-  __DATA_CONST.__const: 0x100 sha256:ed6784a388322ea80ae702f77b5a8cdcc8fb664a26ef31b708de928c8a7499d2
+-  __DATA_CONST.__objc_classlist: 0x38 sha256:86ce4f0fef5c06fae14a95f1c8e75fd26ccb003c9eba164e6fa7c86fdc2fe017
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:04842ddbe8f71be4413b770902ae950ece1f0b5387ea1d86019b660b4a15295f
++  __TEXT.__objc_stubs: 0x7a0 sha256:ed231457333695160e21355d2d906fa50e2e46a378bf7de2699dc6ab6b3d8877
++  __DATA_CONST.__got: 0x90 sha256:0927130bbae3c3a42b54364dc71418dbf9ef45043f72e7d041c9064558cc5140
++  __DATA_CONST.__const: 0x100 sha256:ae853e544bbb2207fb363e73e6366b7755700bd6caf35196dcd7f3649b8b1773
++  __DATA_CONST.__objc_classlist: 0x38 sha256:d958efe5135b504e39650fb756ae22c7a768734d4193cf1b322534d4d8a00897
++  __DATA_CONST.__objc_catlist: 0x8 sha256:b89ace76b59323585ecd3a779ab667f27d83c61a8b5becf5333bea3868e8afd7
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x260 sha256:3640177076c2377358abe4c9e0edbe6f2c12f6b7f2c997437a806a7e69222a04
++  __DATA_CONST.__objc_selrefs: 0x260 sha256:422e7a3b2555c5b13ebc1ceed135abd090db3bef9af86ca6e354485fc3c54a5c
+   __AUTH_CONST.__auth_got: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
+-  __AUTH_CONST.__const: 0xd0 sha256:2418a8803bfd2eba8b60dbf05fe5c20ffdd921a1883abcb94c2e777e4aac6403
+-  __AUTH_CONST.__cfstring: 0x7c0 sha256:69b7939ed5e897bc778e642676b6b5f38022a8777ad77e73aa0ffda773041441
+-  __AUTH_CONST.__objc_const: 0x780 sha256:5535f649bd7d45146f84ea27288d481f33dcbce4372da4a7d1134e2e6e233780
+-  __AUTH.__objc_data: 0x1e0 sha256:4b1561f25cdb2da32c23de087db0f1c31e87ec1226593a6f93cbd0d0e9dbe943
+-  __AUTH.__data: 0x98 sha256:7b5bae83675e6358d726920d29cea2e3a368f1e51adcac4f558a850c5713ac17
++  __AUTH_CONST.__const: 0xd0 sha256:973bd316e75995e62d26232679b8c232cf245bc4f365eb6f89a1996e9c54745d
++  __AUTH_CONST.__cfstring: 0x7c0 sha256:46325b1771649b8aac1311974fd6808b744473e2672c9cb21b7ef1ff1864beaf
++  __AUTH_CONST.__objc_const: 0x780 sha256:dc57f12f40391cedf17665353aca6f59de34099e82ab1c16c7e47e0b7830f8c1
++  __AUTH.__objc_data: 0x1e0 sha256:6b94564f723e861e2dabbc06fa6898948acb9662bde9ccc0773afef342a555de
++  __AUTH.__data: 0x98 sha256:23e029a2d828a3571be69df6fc8b320f6ee1861829cd4fa5950f40bdfa83e086
+   __DATA.__objc_ivar: 0x40 sha256:cd1df225d2d4bcd2e52922b49c8e868c06d7a65f010c2b821871f1505f39bac2
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 794FA72C-A376-3EB5-90EA-C189D7DC7208
++  UUID: 33A74236-89AC-3E01-9169-F5483AC452A4
+   Functions: 75
+   Symbols:   297
+   CStrings:  247
+Functions:
+~ +[USUIInterventionScreenBullet bullet:imageName:emoji:] : sha256 a732bfee26e5af6668a829cb0aab56f8f00a2cf96db24da705b5ac9cf251f4f1 -> 171c267bfce15663924cc6cfc548cb72449cda1bcaaddc675c97c38849e7fc8e
+~ +[USUIInterventionScreenAction action:primary:actionID:] : sha256 f186dd98cd5e884976fbcffed2f4fd15ea3010fa1f6a643089415c6a7c0325c8 -> cc31d5f4fa22b3c95409ffd55270f29ddaa708a64eb3624ec84f434be4969cb1
+~ +[USUIInterventionScreenModel modelForScreen:workflow:type:options:] : sha256 2b1887e33e3cab9bddf80bfe73b9bceafd2fde0cd89b298701f69a6f7b506c8d -> bad15237b7e9d5c391fe63f91ff3e5620b8f1783eaba4a49c5b222fb6d776328
+~ +[USUIInterventionScreenModel titleForScreen:workflow:] : sha256 383f3ba804e6a0e56747ab389394ff03a1b69ae12712d66c14b8d9ba27cb2263 -> 4399ec0e86352d37d76c6f7879acd102a63d5e443e22382b640eea452e50182e
+~ +[USUIInterventionScreenModel imageNameForScreen:] : sha256 bf0ec8ca7d85e5885f1b7d89f5c7bcad5c1d76bc55f8a26b27b76d5b005469ba -> 0eddf0b281f2311ffd98e4e46ca8bb8f137327c8de8a50084f058fff0236f5fa
+~ +[USUIInterventionScreenModel emojiForScreen:] : sha256 4a29f08f00a579c006e2d611967d92181184cb86af88a26f7960c2ec6adc4dd5 -> c98d3a0d4885efe4cb0fca961eb2327dacdd49c15ee789f59701ae7c540eaf12
+~ +[USUIInterventionScreenModel bulletsForScreen:workflow:type:] : sha256 68641ae4d4885494f9405d5ac53871b364c137a0034032a9b625520afaef5882 -> 5064931347c9f8282e99850ee59974a0990c80bc0c73b3e6bdf43b0184646030
+~ +[USUIInterventionScreenModel bulletsForScreenOneUnder13:] : sha256 1e131dd0e57f06b694a16eba788f850fbff12a0604eb665dd818d51306be0d25 -> c39c003f38228653f833b528990348df9bcb67e408f7754e8ede8735dfa19776
+~ +[USUIInterventionScreenModel bulletsForScreenOneOver13:] : sha256 b8cfa3e0ac25c7cf2b60c6f0929ce9deaa6d0628de654b50ac8445bdfe1cb53b -> a5a46703ca9d3cd04698db6a77d0829747b8afc9e012bb353bd69d8ad7b018d0
+~ +[USUIInterventionScreenModel bulletsForScreenTwoUnder13:] : sha256 5e93668ebdb072e35302cf63f02a7183dee16007da605055afd4c4d1133fa5d1 -> dbfbc23bedd50765f74da504c4650e5855b8df623e33cfe6906707d5e8fa8c44
+~ +[USUIInterventionScreenModel bulletsForScreenTwoOver13:] : sha256 02f062c996952108bda35ca966fddf0e4a6d4aae4cddf8276304fe24d2165420 -> cd8950d4d4e698eb117de7e3ff0ea558f4f469b10eebbab0471a3d6bc8ecb6dd
+~ +[USUIInterventionScreenModel actionsForScreenOne:type:options:] : sha256 7373cba9f03c5859985a897c6ed57f2929998f0ed14cd59b8062ce7f98d3ab35 -> c97efae53a546407b4ec0144eb0cc3c3835db81d11d6c7b2882e8c63a0990ac6
+~ +[USUIInterventionScreenModel actionsForScreenTwo:type:] : sha256 7755718dcca84d3f1e41ce5b799961ba813bf4425082c2c7090dc4ee8a93d3f9 -> ef3eeb7228e1ee8a9f3c2a2b912ec883fd34a22caf1878de9a35225ba9f869da
+~ +[USUIContactParentsHelper openChatWithParentsForInterventionType:] : sha256 fc535f105fe0cc2599b426e0034c31c33f86e6c1c9b65ab30678dd1773984ae8 -> d333fe28ca696326aa8a886af0af62d9056c1c3f3486b6d3b9861be5572b0715
+~ ___67+[USUIContactParentsHelper openChatWithParentsForInterventionType:]_block_invoke : sha256 887f628e2f2b56b6f5710302ab6130887a0b27e6736b2fb82cb9eab72355628c -> 20cc87f722b7882ef8b1a3228438d9ddcfd0fbe8295bdb208e7da4ef5c29cea9
+~ ___67+[USUIContactParentsHelper openChatWithParentsForInterventionType:]_block_invoke_2 : sha256 b940aada17ef81475e1d8b2b66cc73f2bb25a05c13c457727ab43b2010af2430 -> 41d631352134253db3a4a38b2d3fee53dbaf37307fe901043c7da211ead3e21e
+~ ___67+[USUIContactParentsHelper openChatWithParentsForInterventionType:]_block_invoke_3 : sha256 ebd8d34ecb31be3871fb8d4d828ebf84b8f8a833c22086755e7b901faf59d767 -> 84008b624fddab6ef0b1f0c637f156ad9c3d373268edba7dee7d9215e8494139
+~ +[USUIContactParentsHelper obtainChatWithParentsURLForInterventionType:completionHandler:] : sha256 9c22de09e54507c4bc6d58511d7942509162cff497ee49dc7b20515ce7dab154 -> 23fe77875c2a6ae59836067bd9534cd3ee477946e1345f4334810ac77cbbd92f
+~ ___90+[USUIContactParentsHelper obtainChatWithParentsURLForInterventionType:completionHandler:]_block_invoke : sha256 b93767d741695535f079be6694a84764d45553221182729e48949e8564ce30fb -> 0265bda5e10e4c8dd3026277b397d2b173d90c37e015b1e8f093b12ac0e983c4
+~ +[USUIContactParentsHelper openChatWithURL:] : sha256 8c7e18484587a0a9a957030256f1fa8b6c8bf50c600a970f0f93d3c97734b1ec -> 6f7b1a3ce4aaa53fabf488a65a54c97eba75ee33a992148a7ed7d38f246a86c8
+~ +[USUIContactParentsHelper urlFromAddressList:] : sha256 62c8a814d89be12dd46928daacb34775d630064b79cabfe932cff87381234b2d -> b56339ed2b01381447ed53e4890a1f3a930ea9a8eee33bb6ea4e94edd232de03
+~ +[USUIContactParentsHelper obtainParentsForCurrentContact:] : sha256 f9cb3fa255c7433a27d8b3dcc446feb629e5e90890ac64922180e24d04d6f0f2 -> 773bf9cade2be71e9fe9cec73153f272cc2e6e466a0f34ac22c7d41de1b8be96
+~ ___59+[USUIContactParentsHelper obtainParentsForCurrentContact:]_block_invoke : sha256 be877734b2ed052c1432cdf828700851a757164a2c03a94d53d60597d2f4a68a -> de6e38dffe16b6e8ba0497f14847494ffea299f093ab71f4949130713c91a829
+~ +[USUIMoreHelpMenuAction action:destructive:actionID:] : sha256 c30f3cc8dcfc80747502c67614438333ebfaf8803a5f634e4236661e058382d1 -> c99c49417eaf709c76aa5392b69be78a2caa03d6549a8a2ebb60c7bb210769d4
+~ +[USUIMoreHelpMenuModel modelWithOptions:interventionType:] : sha256 0b7ca7ff5c1f8cd6a404aa5b3e4dbf42b76bdf6873492c8f26bd93384efe4344 -> a9f776c4af999e9f05566bacbc4bfe9bad5c26c8426f34c5869ec5fd17aa8374
+~ +[USUIMoreHelpMenuModel menuTitleWith:] : sha256 fc4001659bb9b2792e9da2bb05d1e33feb707494587d3394ecb7015254a20911 -> 9ec7805e2371089fd5f40f5fa6aa72c1339d37ccb88e1f0475610086c281619f
+~ +[USUIMoreHelpMenuModel addMenuActionsTo:interventionType:] : sha256 7e624ed3b02730522d2915dc6b048540f3dc1e3ef45d54e69f517df79f0fefd8 -> 73ce5c177aa0d3ac243ab56f2b328893c5decdd319b617208063234ede129753
+~ +[USUIMoreHelpMenuModel addDefaultActionsTo:] : sha256 d6ba59268785d1d9d0dcddc5c825b84d3225fd12c17c2f287eb50b86fa080a74 -> aeb35e2157f3a63c6b2b0056b80119008b1522b822be024b46fe8a30f6eab058
+~ +[USUIMoreHelpMenuModel addOptionalActionsTo:options:] : sha256 1029bf764a11ad71856de739427a0391184ba2256a09a489b401b8c6aa0b17c7 -> a47ade77111a73dec361008871b16ec103dde3f5536d9412a3251c08c4c4f375
+~ +[NSImage(UserSafety) usImageNamed:] : sha256 4bb8ba5e4299b539659b15a5b0af673fff3d2a137dabed3c69f8e9a57b409c9c -> 91e012e04d20dcdb91dc8646e5ea80b00928084fbdfd311399d67029eaffb220
+~ sub_278954984 -> sub_278cba984 : sha256 db911707dbbbc03f7d572ce337df655cf25956999bf3d16cbf476c8bfe719266 -> 2633800c9a37cf6bb845927047995ee77b5e3bfe5ec6222c9646b513851c2d89
+~ __59+[USUIContactParentsHelper obtainParentsForCurrentContact:]_block_invoke.cold.1 : sha256 1dcf4473188daecb2c4e842b54d380fee084727c4ab0e2a17fbb9a833c5a8b6b -> 5d78475d72f72a069e32dc92eac546a30967eef5e0d93968479c1033557a77ab
+
+```

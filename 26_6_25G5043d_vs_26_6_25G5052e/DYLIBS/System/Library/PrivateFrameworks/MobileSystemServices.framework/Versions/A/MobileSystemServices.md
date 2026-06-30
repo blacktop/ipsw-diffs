@@ -1,0 +1,79 @@
+## MobileSystemServices
+
+> `/System/Library/PrivateFrameworks/MobileSystemServices.framework/Versions/A/MobileSystemServices`
+
+```diff
+
+ 24.0.0.0.0
+-  __TEXT.__text: 0x25d0 sha256:9f32a35e6fd895bf141c57438943d2ed0f88adbc0e1f8a30d2fbd0fad1b02586
+-  __TEXT.__auth_stubs: 0x4a0 sha256:eb12bde99a0e733ed5bc55b113dc396d0f0f27be0ec96e7044bb383a0a2f2d12
+-  __TEXT.__objc_methlist: 0x274 sha256:fe5b4066e485d73eea2ceb20a01c246131069122ccf68a89f96392e44cb9376f
++  __TEXT.__text: 0x25d0 sha256:2e8717f4b907c4fab3b78de6bd213b1ec38bc7dd811f44691356028f625f48a6
++  __TEXT.__auth_stubs: 0x4a0 sha256:e740d4fff7940ecc09dbb503c397f817e5dcfc81731d03b8849053cc5abef897
++  __TEXT.__objc_methlist: 0x274 sha256:58c23202330945dd9cc554a159d420d4e4d75c403072a6bb9d5478a6f2ff9728
+   __TEXT.__const: 0x418 sha256:0b6279c4e3b2f1a24142428b357c93448e1daf55dfdb785e7b4524b0c3a841c0
+   __TEXT.__cstring: 0x6cc sha256:76c1c8d188dc012303b0c3af16d9bce1967709ff45e621701a56d9d9f0e8ad0e
+   __TEXT.__unwind_info: 0x110 sha256:1f6c5b74302b0675d2f3591054b7d6cb5c8deef0caf3abe6c5827cf561351df5
+   __TEXT.__objc_classname: 0x2f sha256:fdd737b970c2711e9fc5e91e091d57e8db4727340c836cc276dd2b2e82aa7323
+   __TEXT.__objc_methname: 0x82e sha256:6a0e832afbca9a0044c37dfd8fc0700350da633f1fb12dfced21d10eb4a18ec9
+   __TEXT.__objc_methtype: 0x20b sha256:1494326f29cec3fbd9566f7889ac35cc7466f8a6551caceaa952683045af434a
+-  __TEXT.__objc_stubs: 0x600 sha256:407a60f9625c18dbc5958b686db3517776204a1bbc23eeeac52a712b10a9d45e
++  __TEXT.__objc_stubs: 0x600 sha256:e8c7487dfd2412669517c1f75a15bba1cb5ffe96db94914d3cfd219952db2d7c
+   __DATA_CONST.__got: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+-  __DATA_CONST.__const: 0xc0 sha256:e07274f220f27f4b73b5da4cda60848d710208486b53b2828c4fba7ed0e32c92
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:b396e66e58a7987cf53bdacb94c51e9dbbc3d2780b598dbde25ddcb2b0b80c07
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:d0011e1c9cbafe2383cd2ffac473bc80286942f331207816aa3b844f0006ede8
++  __DATA_CONST.__const: 0xc0 sha256:77e1599870272a30d4f84b3161a24de2eff6630ac8c9b50e43570ea5e9b943ee
++  __DATA_CONST.__objc_classlist: 0x8 sha256:659dd570e5a088f03183a0ae6d8ccda467901d603e6ac773c7ef0cc92fe63ad7
++  __DATA_CONST.__objc_protolist: 0x10 sha256:b62da3bd46e3e7cc2686e1b9b67617ae1d01ceda88568dc34d304396477053bb
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x288 sha256:d5bf6ad40f262762619c4ea71417d983b1db1ead7cf264e15a8c55a5a1a0a62f
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:b396e66e58a7987cf53bdacb94c51e9dbbc3d2780b598dbde25ddcb2b0b80c07
++  __DATA_CONST.__objc_selrefs: 0x288 sha256:a5252ecad32c3d416f413f4e699bdcce8f9776242e977bbf0bd5ee324c5287bd
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:659dd570e5a088f03183a0ae6d8ccda467901d603e6ac773c7ef0cc92fe63ad7
+   __AUTH_CONST.__auth_got: 0x258 sha256:bd50e12c55dda3ee443c1cb6d71c7bcf6351c4ec96f7bc8d6adec015d1192eea
+-  __AUTH_CONST.__const: 0xf0 sha256:c97e7cd52437e6a2c83291e812de6459bba041bc1e453ad69c39baf62ad0da74
+-  __AUTH_CONST.__cfstring: 0x440 sha256:800985759af234380af52195c99eb13c7f7223a80aca1c49ac5ff0651820db64
+-  __AUTH_CONST.__objc_const: 0x3f0 sha256:c7759428c649a686be3df490dd7b0d397ac3a26f7d5ef1781904577a9ba8c31b
++  __AUTH_CONST.__const: 0xf0 sha256:a3b90ef3a038a6c93798385b308080c792f3367d7f2731ad0bf7780978d55dd1
++  __AUTH_CONST.__cfstring: 0x440 sha256:da57b825a4e962a3e60cb193b26aa9433a0032aadfe792c6e5cac8e053c0e49b
++  __AUTH_CONST.__objc_const: 0x3f0 sha256:441e928369293af961e81952ef361cb81ad76a02c985b841fcf2956fef8d76b8
+   __DATA.__objc_ivar: 0x28 sha256:0f8e40d7dbda54d7ade25745045ccd14cc7b53e1c7b2a73862b5540a04fa33e6
+-  __DATA.__data: 0xc0 sha256:6c8e6691fbf8073c29d3a1a4b75529e8d906fc54c614734a9df401eb4a94987c
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:405065b1c78ea3b3b3b780c70bcb55bbdaa6827a9aa7c647209f23c1fa590389
++  __DATA.__data: 0xc0 sha256:c5f6236ceafc9144f748dea854ae6a7f14e50166c4f42a4d2ab33a2e263759bc
++  __DATA_DIRTY.__objc_data: 0x50 sha256:1472d423ac27c4f5135947bd8b3df85cfdeb64c25aa1c65262b200c1995df228
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C9C8AFE5-6A11-3981-BE95-808222EF4DF3
++  UUID: B30D1A32-ABE7-341C-A44D-F36D75DFE3E4
+   Functions: 52
+   Symbols:   238
+   CStrings:  241
+Functions:
+~ -[MOSplunkLogger initWithName:configurationURL:splunkTopic:version:allowInvalidCert:] : sha256 3232547e6dd6658e5eb3eb4464900b9144cb50a609ff92b3c4d03a87273fa6be -> fae2ed0c426b562bbe2056b25cb78d48aaa3ed9f624624892bbe75cb831df2ec
+~ -[MOSplunkLogger _onQueue_loadConfiguration] : sha256 189fc76540ea5adfe7f1999ad745159fc063350547f5e8f6197618f4ff7efed9 -> fda68e4bfddc6dc29223b1274b9de5f81f7cbb05f1f40bf8eb5afaf3634ef055
+~ ___44-[MOSplunkLogger _onQueue_loadConfiguration]_block_invoke : sha256 68b995872da895ebe66743b9941e63013e8993b4d385e3ea4d373f5a7273f8e6 -> 0a0c200965ac50054fe94da882d72f5e91f904b9c33455464e43635b85325f30
+~ -[MOSplunkLogger uploadEventsWithCompletion:] : sha256 95718f31ed88120fe6b5393fbd1ad92d8e6bb334ba1e02128dc3510adb53a385 -> a4b7f8e11aebd607fa60a18521ab69c20a8f37dc7e65ffc9345579a7942b5b54
+~ ___45-[MOSplunkLogger uploadEventsWithCompletion:]_block_invoke : sha256 081e517c82b08d9445c914a682ae7cd18d9aaa68c219fe9695b75619ca89a734 -> bad066defe2cbf8fa162f71aebbbf70e19e7f5a251c2d83cff144f14bc870ee1
+~ __45-[MOSplunkLogger uploadEventsWithCompletion:]_block_invoke.55 : sha256 cb0cba3bdb9e0a5a0e6e504ad3c5635d99515a5b48ad4c620601aebc14f07aab -> 0c1c5f031ffad7bc22b063781e971a0bdc6309456505aef74c15e6b4a96fb3c2
+~ ___45-[MOSplunkLogger uploadEventsWithCompletion:]_block_invoke_2 : sha256 d41e21e783c3b21df3811e58f037c47b4a4def0740aa6c41a95f554b9919d16f -> dd601f6e069239059ffbb7051165f43aca260beb1b16ed0fd41264ee61c85271
+~ -[MOSplunkLogger logEventNamed:value:] : sha256 d5d2f9d8e668ca3ebd2145e34cf1935750216d53aacd3bcceca5eee968274019 -> b447f28e28ab0df56114a356a80b95cfd9f5e652db8fe01561f7439cd923900d
+~ ___38-[MOSplunkLogger logEventNamed:value:]_block_invoke : sha256 4902816207b5b60f0d84b8f9a0b711f55c4c4effb73fab3a9a11307b21429009 -> 90e0a95d26f1ff91ed90cd20a1404a604ebb82420923bbc14a178420d2f18c31
+~ -[MOSplunkLogger URLSession:didReceiveChallenge:completionHandler:] : sha256 4611c485edc90cd057a99894bd013403b9002a7c085143c74ad4bee473704f3c -> ae8db872ffd0558ac6b2c9f0f61f8af6ff22d8825686006616d08354fa2d6a11
+~ _MOLogOpen : sha256 842ea6b8c2f7df78fc6b949f9e8e50ccc980e3e6490f0696264622a43e6963e3 -> 689a3ab976037c5f8fa6d9cf6ace596f2bfbc929c3eefc6f1c75e2d902960fa3
+~ ___MOLogOpen_block_invoke : sha256 62efe9ac560aaa25696e786ae84e0b3482a9a58125f02e39a2d2974f43a10ad0 -> b67819c1f41de2a83dfe4d76822319ff67eabb2671da3c14eb7225d3fdd0ecf0
+~ _MOLogEnableDiskLogging : sha256 fb8226523a61c82d22ba67976f046b6ba313f26de6b04900f5de593e0ab15ed4 -> f25df937fedd0976ea9d347dba032730a6fb1ff9baac5c1e43b1532f71d882e3
+~ _MOLogWriteV : sha256 03d3bdb021414e1610a487c328dd0ad4e5dbfec1b03e1160588038123a300075 -> 911a20df5bb889998917d0c73c261584885425e6d2491dfc4a56f2590cfd1d52
+~ ___MOLogWriteV_block_invoke : sha256 6ec6a9410bc13942012c9de5b52df4e74a8928aee226432224e08d2a4d976fe3 -> 6a4034db22cc482bbb88352d43b2c87dba761d28bd13637a41c0b30233a844db
+~ _MOLogSetLogLevel : sha256 dd7c652c9d4a6a33ce3807ed36cf5aa45953884035adc030a03a5a39fa4b3f22 -> d27e42b2cdb071b6e3e5cdb810f4a4e8faf14ad4256038e4e66d61c884b0998e
+~ _MOLogGetLogLevel : sha256 a5f3c2e3b97379eaa99c043e85da0e380ebd017853d873d83ae780e00c10dcd6 -> 378aa3cfff73eeda73e7c6d235404fbd3908bb7902bc80652a9a63f4d01b3992
+~ __MOLogGetPreferenceIntValue : sha256 05aaeb2fe102d266df511421948f1f06b5125f739d0d9cd9db681b2d6b51ecbf -> 79ea0d9a78061169f3ed0cbc61eaf33c112526c8c412fe5ef2b5a153d438c98b
+~ ____MOLogLoadPreferences_block_invoke : sha256 e9437c491afa78fe3c42ec604f6830afaa2eaed800092b9aa8b98c4dec470b5a -> 182dd3767802af411ee428b34cc67149ae10cc7e6529a8486e33e408cc32ce07
+~ _MOCreateSerializedData : sha256 a9806be730240a0e1c208c27c6c2a8190b8a50ccd6fff18d946e508951a78398 -> e221e453293c8eaf5075a0f39677b1b3b83088846f2056bc33e6412229903caf
+~ _MOCreateCFTypeFromSerializedBuffer : sha256 fede75ce805cb35d3f01a0aeb7ccf7881dc16a817bf5e9837b75fd11d5397b29 -> 65b19df57133c8375342d0248ed2e4e8b445673dfb72d38c6c3a476541420cd3
+
+```

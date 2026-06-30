@@ -1,0 +1,49 @@
+## Help
+
+> `/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework/Versions/A/Help`
+
+```diff
+
+ 81.0.0.0.0
+-  __TEXT.__text: 0x2054 sha256:e073b898b0f5a4306200d599739cbe8d45f24a07584f03f9fe73ba7bf7416b31
+-  __TEXT.__auth_stubs: 0x360 sha256:ea4e9e8198cbda1197b7a4f645473e8caa15145eed3abbec9586ec189cbd333a
+-  __TEXT.__gcc_except_tab: 0x3ec sha256:9d36572e43192a1cb973c393911b87e73704efea4254cb95b65d7827adc77283
++  __TEXT.__text: 0x2054 sha256:c7796e220c4ba397c31b2933b33a9dd65833d6054e055f43393c6f40ce7984f8
++  __TEXT.__auth_stubs: 0x360 sha256:acfcc89239545cebb93796191a6263d86e7f60e9737aaf1f518a3cb10d46dd15
++  __TEXT.__gcc_except_tab: 0x3ec sha256:adbe1c9d5c1a02b0f79e4d4ed4287d1ebec09b769099330435756f09c8a00d26
+   __TEXT.__cstring: 0x57a sha256:3c16553bbf6c9ac1c40a05f053b541513835d5d1d544e8736ec5ef4fa11f3266
+-  __TEXT.__unwind_info: 0xf0 sha256:3cbaee489e3985ec26c68397e825c25f285948b5aff76e5bc66679256df75295
++  __TEXT.__unwind_info: 0xf0 sha256:07548d0316e75bc8e9293facaff25dee67f3db294a6186e79e3260886d6f9a22
+   __DATA_CONST.__got: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+   __AUTH_CONST.__auth_got: 0x1b8 sha256:360d579dbd14759b41afdf7fb5e80c0101e15150ae401d59f92a1e32d129f7cb
+-  __AUTH_CONST.__cfstring: 0x460 sha256:1fe5113fa358d25d9785ec31b285986c9f5cb66427e1af5d4acb72ae622d018f
+-  __DATA.__data: 0x40 sha256:014cfda41571f8b82f4e3d7a3af13b3def36da7c041f053900a9ef975ec4d26f
++  __AUTH_CONST.__cfstring: 0x460 sha256:ab044f5d0d5c5dac2483809def395959d0bf932e37361092a4ee480ec5910241
++  __DATA.__data: 0x40 sha256:44bce2aff5ef9f17eebf127a54b15ffaaa5582811c255e65c5238cbc38c32558
+   __DATA.__bss: 0x119 sha256:e00f7afdb63013b706018c55b783bffedd850f191f9a3184e9b896b498077e76
+   - /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 48080F06-9CE5-364F-B303-8A7BBB4BA746
++  UUID: 6CC6A70F-3DC0-3A47-8B5E-3FE63E399CEE
+   Functions: 17
+   Symbols:   100
+   CStrings:  97
+Functions:
+~ _AHRegisterHelpBook : sha256 fc9fdf924ec1698eb82d3eb0bb95233b12d6eeccfdcc1a96956e6aa644c3e631 -> e821c6c686fbcf99296b16106b4a78ca9b0d19debe8881df484bfa3deafdac4c
+~ _AHRegisterHelpBookWithURL : sha256 4775c6966ad57731d05f61bf7d294f5c4ea0762d57ed09619ed6d4b3cbf1f7e6 -> 5ab9d10d12e63c00676e1484e1328971db9e662b0c12247c8963c10a18eb6449
+~ _CopyBookDetails : sha256 dd23d967b314d443d7a7b15782c631508a5d08201eaa18f5bce15535696fa100 -> 5f399cf721b947f0677d9303428f8f417d362eba58b78200143dcc10176302fe
+~ _AHGotoApplicationHelp : sha256 dea87eeffc00a4fbb4b62eee72ed2f1fd92a519a8987756aaa506efb1e17104b -> 0bf68b01668a2b48df7bad12cea739ae7cb5f644d87c0b0879a64053f1d5e647
+~ _AHGotoPage : sha256 71ebf453dad374a770e9c2e338cd931a9a4a45d13e99cd52e1311481d4e1e2fd -> d411f2795331b3cd35ac89f3c4f63d7f9240ba927dd24933e674afa0b1a099de
+~ _AHSearch : sha256 d9aae55d5fa6d59abb358c35b796ee2ca5298233d1b69e132e3e3b3563087fff -> 178a7258635e01dd5ea3baecbd8698c35232f60e8107fdb3e09609e9e4e40fb4
+~ _AHGotoMainTOC : sha256 57e20b4508bdc77d9fb46f737cd550b6667dacf57ee32e164cf1c08581ba2786 -> ededb591ae272860b77603fcf6ee9266949b160d7429814975fce9e6a2e27c58
+~ _AHLookupAnchor : sha256 6067dc72a87cabdc0aaa5f3062f90fc9a96aa19560dd3d2af5270befeaf250d1 -> ae7f08974a3df8bec47757a92262a5b00220f8044f4b8126fa2c6ae050d60614
+~ __ZL18_helpFuncForStringPK10__CFString : sha256 a1992b90b4b4de8cf50302851e356dfc46a6662fdf8fd1c267e1edc29cc1759c -> 3a91a7b049a1eada0bea3e42e1a648c982e02b11daa64e67af19874f18d5bedf
+~ _EscapeMacCharacters : sha256 2a71d5ca831218a527667c411e09c9fda52d4cc7a6a4b6810805ef12ee674f49 -> 6c8d7e83b6f3f4da96981c962aca1c18f6214799aff42194bd3663e06ca660ea
+~ _CreateBookDetailsFromAppBundleAtIndex : sha256 1ff7a29c56d3b06e3018783a1da16a38ed6611edc3c8b3818ffa2d039feec11a -> 2bfa5c2d65f55889e764cb017c7b1292b3d07f4509decdcd71162751ab58c60d
+~ _CreateBookDetailsWithBookNameAndID : sha256 c2befd878090247c93977908358843e21577c057b77f7e25d1f419231ed346f1 -> d89c47590dff8c23d8d303fb121aa21b5105cf74e8eaaeb39eecc915d12ef78c
+~ _CreateBookDetailsFromAppBundle : sha256 80d4dcc92bb0fb1c0ae123140653843910f8ece9a3bc4b296c566ffb866b795d -> 8186bcbf90dd03ae0d973e003097ee6bc52ca7d05e1781d906569574974a4582
+
+```

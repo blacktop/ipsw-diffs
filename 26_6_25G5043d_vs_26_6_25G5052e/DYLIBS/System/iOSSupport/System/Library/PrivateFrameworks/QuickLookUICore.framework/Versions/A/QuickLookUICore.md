@@ -1,0 +1,66 @@
+## QuickLookUICore
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/QuickLookUICore.framework/Versions/A/QuickLookUICore`
+
+```diff
+
+ 1016.206.3.0.0
+-  __TEXT.__text: 0x648 sha256:814a08db8823a12354f85630bb27fab4d1aa60c32ddb3f02dc7031c35671475e
+-  __TEXT.__auth_stubs: 0x150 sha256:42ab7ab87db12ce30f6f2ee47311d543f2619d98f7c23d0c73367c4a21260491
+-  __TEXT.__objc_methlist: 0x274 sha256:252564e49af0ba71f590397d10876630f06c923d78b7ff5361dad96d0d1045bc
++  __TEXT.__text: 0x648 sha256:32759387ecad36d913fb48058b791bc14d597b7df4ff0973b84dd61118d7d53a
++  __TEXT.__auth_stubs: 0x150 sha256:fc139c912e98ca18e5a008a05b795ec1a31d41642029bd6fb0722021b199b79b
++  __TEXT.__objc_methlist: 0x274 sha256:e610d3180ed2d31e56a0a984abf8364469c22673751f594c84f16e948b3602f0
+   __TEXT.__cstring: 0xd0 sha256:dc99617d29ef84f341cead6e9a554b2d7cd3f80661071e222a357e82f0c10f94
+   __TEXT.__unwind_info: 0x98 sha256:c29e7baaf9cb9f6a3a0de2342bce3b8e723c08aa7ba3388de5828cdd78469a41
+   __TEXT.__objc_classname: 0x4d sha256:456760c0ac4dae649d00b5ae9c2b1352dfa3e9d17fe4819bcdd89ba9b664c675
+   __TEXT.__objc_methname: 0x505 sha256:af54e0cb0c9aef27e23d8394bd0da989331184477de9b89bd6f7351855621fe7
+   __TEXT.__objc_methtype: 0x138 sha256:ae456974f26093304e363897b4ac9763a1502b02f4b81d6ffcc2c439a1f5c687
+-  __TEXT.__objc_stubs: 0x140 sha256:89af5e010ba45bc4f988bc86eaf2bed21c2528fd52c11e5b6e3aa14e2e0e854b
++  __TEXT.__objc_stubs: 0x140 sha256:f41c3ed20b7ad5af7026eae98af82637d8a46cfefed7897c56f06a46afe50bd7
+   __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__const: 0x20 sha256:0cdadcd6e4b3f070e78a0a410cc9e22f71ef043a60380a534091caeed9e21bc9
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:926f04d29fab8dc90bc74b0d155b83cbadaafc0c104c9847dc1bd9e7b424255d
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:5d04613e23789c1970c1b4e2705e0a53a89e21e3cc075405e8c11ccc73859195
++  __DATA_CONST.__const: 0x20 sha256:d974e56819fc25dcad4a53f6e80cbf1a7440dada6d7afd6deb86331fe12e02a0
++  __DATA_CONST.__objc_classlist: 0x8 sha256:5968f8ba42d2aba28208e863a15026f798ac512aeb2e73a1a6fc0eaf2a773eb1
++  __DATA_CONST.__objc_protolist: 0x18 sha256:f0ee0779b6d063e68319cd282868df996006b59eaee1cdaa7577edf92355c7e6
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x198 sha256:ae92f00d4d53f036e91bcc32db348a6965ea0d7bba68b1d73359ef430e40249c
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:926f04d29fab8dc90bc74b0d155b83cbadaafc0c104c9847dc1bd9e7b424255d
++  __DATA_CONST.__objc_selrefs: 0x198 sha256:a7ffb7537544ab0356a1990bbad24ad6e8835045ced4d8252aae861f6a566d03
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:5968f8ba42d2aba28208e863a15026f798ac512aeb2e73a1a6fc0eaf2a773eb1
+   __AUTH_CONST.__auth_got: 0xb0 sha256:86d2cf5b090f43ee54d8f7c1dcf746a853951191457ff6dac96269a9d24860b9
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:1575ac0983b3f94c071a2de7403941914be5e859e95ac0dbdd8bedf511039c74
+-  __AUTH_CONST.__objc_const: 0x4e0 sha256:a6d42b7cde10ad7f9629136ea2cab9a71fd9e26e428ee053f7071f1a5cd402fe
+-  __AUTH.__objc_data: 0x50 sha256:41fb586c697abde9747f4d991c8cb5488152613123b4cab0125c113d85725eb7
++  __AUTH_CONST.__cfstring: 0xc0 sha256:ecdcf55f3abf3aed0946a69911af371803216fb23f4846eca28137782253ea0d
++  __AUTH_CONST.__objc_const: 0x4e0 sha256:825b378327cd316c162ac33ef64ad49f696f9397904c1169fa6c1cad249d1958
++  __AUTH.__objc_data: 0x50 sha256:ab546ce3861e9a9fd5d716c2a16b2e1e7fced8c6196df5c5c72a1645b19a14ee
+   __DATA.__objc_ivar: 0x14 sha256:c2d4308dd3514e6a407cabb7a0759fcf27e11b81ee20fdcd9a4499118f345625
+-  __DATA.__data: 0x120 sha256:b1b587bef74d3d2df9f7f7732cdde06087f87d4b21ad1051e403d252da0f81c8
++  __DATA.__data: 0x120 sha256:25e7bae1906f31c0b89dcd4423b30d5748c19f888f09e99b751f974c46241ba2
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/CloudDocs.framework/Versions/A/CloudDocs
+
+   - /System/iOSSupport/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/Versions/A/PhotosUIPrivate
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C8410466-759D-3F0E-9545-517E9FAA2E13
++  UUID: C3B4ACAB-53D8-30D3-A1E6-09642232186D
+   Functions: 24
+   Symbols:   103
+   CStrings:  118
+Functions:
+~ _QLLocalizedDictionaryString : sha256 3912dc23761f8a737fd76a53ddff527fb9988ded6fa3a249173cfa84813928d5 -> c22edcc476b4cc60e8ca81b1e03a80c15467ab33b17d5166c21af4c0c746ade2
+~ _QLLocalizedString : sha256 60e59323fe3c900a467df27283498fc563fc05b153ce72c2e74e128c016ac5b1 -> 5003145da05f33566d4a15d9787a0048b13e7a8f5641d1d276cecbc1540a6eb0
+~ _QLLocalizedStringFromTable : sha256 bca9fd413f7c114738e4356fdc937fcf5f67dac21ded8cdba2a6f8a6780d1c48 -> fcc6887a581c99c88b2d4ec4ca90a608505a7ff29db4fe8c4c90a639e7f46b4a
+~ _QLLocalizedStringWithDefaultValue : sha256 a1e51c62e9f312e1ca69fe8bc643a3384e170b0fb30d54e58c5b1d39861db30a -> ee9da2e33380033d2db1542dea25b92e912b0b15f3873b1b09c95d67ca12b7d6
+~ _QLRunInMainThread : sha256 37a825a0f9459385dcd93ff980a52d59b836a82dfa156e92b9a1315094a0f355 -> 1b4616b4304d4d6c53c54ddfef47dcf625daa5d83a4abbb5849fad0092675748
+~ _QLRunInMainThreadSync : sha256 15b08b915da14499837df8ea3fb5bbd53322e04f6a937d74141e6673ea3a64a2 -> 235fb6d7bd2fee1411399a2d58ab231419b16a4a7d1b1f20f62b19619433f9b1
+~ _QLRunInBackgroundThread : sha256 3f52abf938079118f8155154d303d353b6c2534bf73217ce536b3e9863c1de39 -> 355728d4263387c9d2b5430e6c0d2c376cea5a94aefee300806655317e982e66
+~ -[ARQuickLookPreviewItem initWithFileAtURL:] : sha256 3b0020dacb6c191067a090b93d17958bb8a1bf6f1483158fd060bf26eae06011 -> dd8f8cf1c398d0cadeeca333e68181724cc6443161c9611845aa1a6999d4e23e
+~ -[ARQuickLookPreviewItem previewOptions] : sha256 c43e7aa72eeaa38307ff0682f92ac6ea52b7fa7b0485495ba6f330c6fb26840b -> 1b7ab87512655f635587bf638ac52bacb188e50fc0dde1dd80a6ca3a1a75557b
+
+```

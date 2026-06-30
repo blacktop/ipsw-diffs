@@ -1,0 +1,45 @@
+## libAWDProtobufGCK.dylib
+
+> `/System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Versions/A/Libraries/libAWDProtobufGCK.dylib`
+
+```diff
+
+ 7019.0.0.0.0
+-  __TEXT.__text: 0xe14 sha256:40a625ed8b07384fdd7b96737d868234138881b073a8f17c2d0dac07f3792f2b
+-  __TEXT.__auth_stubs: 0x1b0 sha256:59f66a75bbb126353f0622d59214d274593f9c3d6f8f1f4afeac2e828bbe07e9
++  __TEXT.__text: 0xe14 sha256:6a65b6419481845c2db82e899bc1388effd7245ed21d285f904e542498d9c890
++  __TEXT.__auth_stubs: 0x1b0 sha256:6cf62574fc07cfedec0bab4237b5c546afed4c7c69cfba12fb9d671ec770ac0c
+   __TEXT.__init_offsets: 0x4 sha256:4e8aebacc52a1a64a7d398aec05e4b25a02f32a840d0852d4e7c7b854a914b74
+   __TEXT.__gcc_except_tab: 0x40 sha256:c007c28c800473516270889c2d8c0e749a08c34b96d7b017fcf63fce23ef3a30
+   __TEXT.__const: 0x44 sha256:634f3543b60224c615a28800aaa2bcf566d931208e54b516514b36311f545533
+   __TEXT.__cstring: 0xf5 sha256:7f4f3175ef6609d550fa7fdd24807b04d5ee51f1ed149457eb6110049f9110b3
+-  __TEXT.__unwind_info: 0xe0 sha256:5bd0db0e5bef85b47a3c47747d77266b0f1aa81a5f65464fbf3a95ebe7334ca8
++  __TEXT.__unwind_info: 0xe0 sha256:d8f6ab9748cbf7910ffa8010dfa98220fcd2093e6e0f75c2e5aec5f8ebfa134b
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __AUTH_CONST.__auth_got: 0xe0 sha256:284dc8c8072a3c67c9047408fd70448806655527a421818d99dcc37992c5d74b
+-  __AUTH_CONST.__const: 0x90 sha256:7ddeb1129f37d58d1617c713fd7bd3f832c68def06e69520e47420255b3de91b
++  __AUTH_CONST.__const: 0x90 sha256:368a7c230268b26f87b0e4d048eceb1629dcc7ef3a9225ab2261ba9aafe30020
+   __DATA.__common: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+   __DATA_DIRTY.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_DIRTY.__bss: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D467D432-B87F-3EFB-8DDF-2BEC567E69EB
++  UUID: 5A2C8102-2F84-3015-B50A-551222B6F188
+   Functions: 30
+   Symbols:   75
+   CStrings:  8
+Functions:
+~ __ZN3awd7metrics33protobuf_ShutdownFile_GCK_2eprotoEv : sha256 b7203562b87fa0d13c4d800cf8c3a8456924d8c183c806ae848be44974e31142 -> 03697535589dad348932dc15ba7a4c5e2aab730997b23b8f556a7027070403ab
+~ __ZN3awd7metrics28protobuf_AddDesc_GCK_2eprotoEv : sha256 f5600760b1346fad4ee0741873d1265d5132f4f7f7cdfb926fb1dae872059fc8 -> 0ce7705b2e0ef5dbe3fc275a56659c595269f6f052e009f6aeae0e07436ca3a4
+~ __ZN3awd7metrics19GCKLinkStatusReportC1Ev : sha256 981550771da94e59d5365c23c166114a2495f4a28013415d01d2f7528cf20365 -> e03a02cd4eee8648bf45a46feda4f8596edcb1d837fb63c412a2cf4e2e84721f
+~ __ZN3awd7metrics19GCKLinkStatusReportC2Ev : sha256 981550771da94e59d5365c23c166114a2495f4a28013415d01d2f7528cf20365 -> e03a02cd4eee8648bf45a46feda4f8596edcb1d837fb63c412a2cf4e2e84721f
+~ __ZN3awd7metrics19GCKLinkStatusReportC2ERKS1_ : sha256 f71ddf09514833537ae16a4bd5a8a9dbb3fb544594808d642c70886acbf9b277 -> 34b5fcc91cb26346ff5351864e5714cbbdadc3719fab1d82cd401d1171ed02d1
+~ __ZN3awd7metrics19GCKLinkStatusReportD2Ev : sha256 f5e9138af3a20485abc27bc3f012d7400d614f782c9e54429deb0257883abdfc -> 4682dab554800660e804c1cc61292d8b3a5efbe154adf350d4dab648fb301772
+~ __ZN3awd7metrics19GCKLinkStatusReport16default_instanceEv : sha256 77f51456ea938c4d6d489697549893f491454bd244b82194ae7907c1cbb69f9f -> a59055497e728751f0362dcebc8fbce492501daf08b2eff19abf6c3f04fad564
+~ __ZNK3awd7metrics19GCKLinkStatusReport3NewEv : sha256 937fafcf3ef6a5b2fc1f5c8dfba5b1b47401b9abaff415c4c5016a6608db63c0 -> 92dfe6649ceca70161c668081c8853f587be9e6a6605db2650a2a9fa9c4d976c
+~ __ZN3awd7metrics19GCKLinkStatusReport21CheckTypeAndMergeFromERKN20wireless_diagnostics6google8protobuf11MessageLiteE : sha256 4b5d7ab8185cd65ec1aaa6b5052568aaafa7dc863c8eabd980318fdfa9bbd907 -> ee114fc2c199a6ea8e994c89f77a8cba27af6840c8c07a9ed2aa3024217a8c35
+
+```

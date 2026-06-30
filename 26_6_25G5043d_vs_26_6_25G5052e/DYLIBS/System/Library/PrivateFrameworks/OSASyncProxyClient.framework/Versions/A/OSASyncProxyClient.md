@@ -1,0 +1,70 @@
+## OSASyncProxyClient
+
+> `/System/Library/PrivateFrameworks/OSASyncProxyClient.framework/Versions/A/OSASyncProxyClient`
+
+```diff
+
+ 934.160.3.0.0
+-  __TEXT.__text: 0x3ec sha256:1360c7b6bdf7cce43b70ead8b19db9b3f9b8aea04576fd2ab920b8700604e212
+-  __TEXT.__auth_stubs: 0x90 sha256:e3cba68b7944f88ee95b3ca4de64f9f2a1dc4a47305980c1aba4ce2409e4d94f
+-  __TEXT.__objc_methlist: 0x224 sha256:21880aa31a1d8a3f125f5d1ae96f2ea880116616a9edd4f14e7e32d5385bf45d
++  __TEXT.__text: 0x3ec sha256:0bee364abc7d7902f41ab53c43cccbad0339dff68ee7b529049a0fc85ee7ff89
++  __TEXT.__auth_stubs: 0x90 sha256:96c8f8a2f02a61e51349dba45fff1e6926044ec7236e9c90b75784ce44f2a1fe
++  __TEXT.__objc_methlist: 0x224 sha256:e92b2552f6d730ecb0c21ea9b0ebff330278774f295d10821470cf3af2e10345
+   __TEXT.__const: 0x48 sha256:c96a1703007449c31150056106769ae6b553c888263473a52c51cd70e9d73a66
+   __TEXT.__cstring: 0x3d sha256:37a272e15c5059da3505da105272f03017db04c2a5c857077b3cd4e6270bc9a5
+   __TEXT.__oslogstring: 0x3a sha256:c493b298ab20136eaed38b336dc68c358443f5388e917452569ced6cfb8b91f1
+
+   __TEXT.__objc_classname: 0x33 sha256:31371208e0511e48bc954a54d53ea1a4250a7b281e34b101905596238c9a41f4
+   __TEXT.__objc_methname: 0x385 sha256:7fc886e9a8a5482923f304f5d236f9a45f568034344675a77f7a601b8ff7da93
+   __TEXT.__objc_methtype: 0x285 sha256:c5361a9579d1c53002aeb3772ff6ca46364f3c236421f60dcf70de05d9adfb48
+-  __TEXT.__objc_stubs: 0x200 sha256:a18f6e2e26517167264c1abb8936e70e4b730ba8cd8a5002e09119cfbb5c1027
++  __TEXT.__objc_stubs: 0x200 sha256:c8f3aa572fe97c461c90252d78052d10a907c67a441f1a588f903c736b7dbdd8
+   __DATA_CONST.__got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __DATA_CONST.__const: 0x20 sha256:5d5906c25e03143bf62572806aebbb375208de45b195d3f891f9c6e95c3c33ed
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:ec40c5fd78a5814c0fec2856347b89e7d15bdedeebc9c7c74dcb6ba8cf2702ab
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:bd335f4da6c60b4ef254fe2a0705b34d35cb8a0fc599252ef8fe68fa7168a048
++  __DATA_CONST.__const: 0x20 sha256:d30f980112dbbe9111c7a589c46c5cc266bf17c4a5866d572f9b18eaba92c66d
++  __DATA_CONST.__objc_classlist: 0x8 sha256:72e5c1bcc6b54fac4e5fd6405a9d1b8e695ac69739fe79056c839c6fd98d047b
++  __DATA_CONST.__objc_protolist: 0x10 sha256:ec7af5861d1dfca347a253233d6fb47d6a8aca20f483db129005dcb14eff6c98
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x148 sha256:d8cff91df7530ee556cc6c513114cd2d052854e040eb7969c9721f9a24f9b4fe
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:bb9c523db56bf324147426fc25871d1e75ef81d7e458a6c8c2eda4120fab5c25
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:ec40c5fd78a5814c0fec2856347b89e7d15bdedeebc9c7c74dcb6ba8cf2702ab
+-  __DATA_CONST.__objc_arraydata: 0x20 sha256:d1cd492b084d1d19ed45e65c21198c46cb3a6e648ddb1c8ab76d03576e6a453e
++  __DATA_CONST.__objc_selrefs: 0x148 sha256:c25e630f67770d7b66cde26042f63b3a21eb9c26291b1dbd587be37b2025846d
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:d848c52935baf8048e89088c1cf5c902aa5c6c58165589dc0d512ebcfd80432c
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:72e5c1bcc6b54fac4e5fd6405a9d1b8e695ac69739fe79056c839c6fd98d047b
++  __DATA_CONST.__objc_arraydata: 0x20 sha256:ef4a185ff46a9a5bdcc457375a063e69133339d31b27d9585ea17967694d0b77
+   __AUTH_CONST.__auth_got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __AUTH_CONST.__const: 0x20 sha256:a92db4f84b500899c6cd9757e34e0da771e2a073c49bddb53201884e975fcd49
+-  __AUTH_CONST.__cfstring: 0x60 sha256:c4af06ae0e2196b2d6d566cfeb0aeb8f277feeddf85b6f3df2bd25e808b7ce58
+-  __AUTH_CONST.__objc_const: 0x280 sha256:fb32a54c1dc2d3c5926f2ca4301e90e9d1b3325dc00b061572ab8643ffa4d9f9
+-  __AUTH_CONST.__objc_dictobj: 0x50 sha256:a766480bdb6bf1201c09e17c774258923375a9239da1b582a6ce8f133029fdc3
+-  __AUTH.__objc_data: 0x50 sha256:f3d97e85087cc2184fc38854f9ba96c3de5cdba178aeaa29b7eb40daeec77cf1
++  __AUTH_CONST.__const: 0x20 sha256:84757664c93ae374b6b63ae04018fe83c568ebeebda563ce8324a28295abc53f
++  __AUTH_CONST.__cfstring: 0x60 sha256:f15e61e2a9e2bd00e0713f0b74eace14968562cb9f60beb304046c70d93232d0
++  __AUTH_CONST.__objc_const: 0x280 sha256:cff7bd4078870c68f875949d838b80aa2c7cc3c4878fb484a6d6a81995198f3e
++  __AUTH_CONST.__objc_dictobj: 0x50 sha256:4c550a811ea3b92dd2f7d973d95df0966281e57f99a3d2ef685765a2e87eb382
++  __AUTH.__objc_data: 0x50 sha256:c8f96c5d7d64966b6ecf92c8918144821405bc12cc1d8ac217f05816c7134088
+   __DATA.__objc_ivar: 0x8 sha256:1842d9d60985977543496f68d38a01a5470beb95bdae33af49b8167ada489f83
+-  __DATA.__data: 0xc0 sha256:b15d0cba3e85a1e725e5aa5fbc9bc76a3819dca0cdc853260e2578227be67ae3
++  __DATA.__data: 0xc0 sha256:7b6f2523f7c2a38928d3019779731b953e934b398dc1b85457d019377dfd9a18
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B55B6BE0-F3F2-3E08-B06C-FED7EDEE6DCD
++  UUID: CC113DCC-FEDC-3C87-BA0D-EF36F45823A9
+   Functions: 14
+   Symbols:   76
+   CStrings:  87
+Functions:
+~ -[OSASyncProxyClient initWithErrorHandler:] : sha256 670a1077d834b218122fa4b47eda163d7470c46a79525a6cf79dfd6d9a560ac2 -> fd071c287eddd83e886d37361d4e50a46738f4cb2f895365dc975b25139e53ed
+~ -[OSASyncProxyClient init] : sha256 bfeb0406500fd5f651447fff38e40a950504f8ea29f6a610f7acfac173d9096f -> 174655a9f9e8f05626f84b51ccbc6b487b7792efe1fdc2b4296b7a6c4df7ad52
+~ ___26-[OSASyncProxyClient init]_block_invoke : sha256 dc13cdc5aa6e75bec764bb678bcc2a33bb30ec31e23ad5ee59734d5935e7abf5 -> 09782399a09a59c7c3afda3b8d84c8623dbc41e2018e2bcf35f75ec39d956ce3
+~ -[OSASyncProxyClient dealloc] : sha256 60c7698c439cd45e1c7b903dfd43858710b080d1b46609341563fc3184d07554 -> 355d47b395d83e837380866f84d30db07a38674115a1c5c5725941a238f2053e
+~ -[OSASyncProxyClient request:transferGroupWithOptions:onComplete:] : sha256 473dd9e554b2cea0391c7a68260422127e62fc9fd5abf21aea34eccb77073234 -> 628f7506f092ffa1d6de0f6bb123bee8d59788dac937e5c423fc08add12c87d6
+~ -[OSASyncProxyClient request:transferLog:withOptions:onComplete:] : sha256 46c64b8edc99bb0fa634a2b3cfacab4bdeedcb79b78004ceda61379302009b86 -> 0977c94ed38e0c67c7eb8ce8975ede89f41c76e8900f830e036bb31f999cc03d
+
+```

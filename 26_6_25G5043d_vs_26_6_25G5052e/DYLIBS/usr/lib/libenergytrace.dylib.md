@@ -1,0 +1,34 @@
+## libenergytrace.dylib
+
+> `/usr/lib/libenergytrace.dylib`
+
+```diff
+
+ 23.0.0.0.0
+-  __TEXT.__text: 0x694 sha256:21fa6ee365fa705782c41b37f0514f04ac275ae2eef44c95a3a8c5c22a21cdfe
+-  __TEXT.__auth_stubs: 0x70 sha256:8759fc4b32125a45336cec4efc1110b33cd6d82f3964c6873a2a84d1f16610c4
++  __TEXT.__text: 0x694 sha256:2c0d2c672723a6408da473a1d494fb812df5bcce72b146e56a00a1c679749cf4
++  __TEXT.__auth_stubs: 0x70 sha256:9ae5ac1bda3b8ce8baf96de58b7006979868558633830aebfc83cf12e4ffbff6
+   __TEXT.__const: 0x10 sha256:aba2c3d2096ba933e75011352adad082c5f240df3c2ca01646fd8bfa24d54a32
+   __TEXT.__oslogstring: 0x19f sha256:7a84f40cff6d784b7e0ed3771381add5e8a9de7713afb04cdb92ab8295bebe66
+   __TEXT.__cstring: 0x57 sha256:ca07812bfee4f05a38739cc6b57330057fc14ef94af1c84fd85d5ff417fe8b49
+   __TEXT.__unwind_info: 0x80 sha256:c7b7d33175471af91dc1fee8decb6696d08dbe0806dce872192f6cc0bed9d996
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_CONST.__const: 0x20 sha256:4bdfc89ba10926ffee9821c59891a65e2c70a798d595be3b30da42fdbceda2f3
++  __DATA_CONST.__const: 0x20 sha256:2076065793850457861b083c761bba245ec57ea743c276ed895d14dd4d6b3106
+   __AUTH_CONST.__auth_got: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __AUTH_CONST.__const: 0x20 sha256:0a679a6ca29535dc569a2a90ab59594c5eba33517bcda6dad9e337a780cf6834
++  __AUTH_CONST.__const: 0x20 sha256:52544a757bd9dd05f9bbcb17f66717c652fa765619d04ab272aef17667660e6b
+   __DATA_DIRTY.__bss: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+   - /usr/lib/libSystem.B.dylib
+   UUID: 87E902A1-34F8-3ED8-8A5B-00F346A553AE
+Functions:
+~ _entr_act_begin : sha256 c63944a2eb3afe8d5d744fc07d6d79c107211c211021b36d39a1a8e998016627 -> 91bc129b690bbf87b568a842cc76bb9795b121f96346a9d90da2eaadf836557b
+~ __get_signpost_params : sha256 2581f6b5b9c1f4e85ea4ff67238b43e257c584cf7d2ce3335d89d6dee353170b -> dc111a2c603fa93b4e5200c24eeeb497803f8a1560a5e7e15d01adea0b919f61
+~ ____get_signpost_params_block_invoke : sha256 f929bd600a7ac0baf335d9101faf045225f81a84fcabc520bdce0b0ddf8c8dfc -> f0824f4da70be83b41c7f0d9f98f746a5cb49885d5d7a61ec7f185e359aaf55f
+~ _entr_act_end : sha256 09dd16713e80fe2bb254fbd92ffd9e5dcf177dd357a8042a7150118f7d6a5b9a -> 2b577fcc607409a7c3e8e80d27cdc08f75143da450fd779fc7a7a9cad716ce93
+~ _entr_act_modify : sha256 c8404fe3cc034f210e15dcb618b27887fc35591ef49af8f29f299e9ed445eaec -> 121fb58bb1665f1dad1e35ed86f11d1299ecedb10dd7221ac1560893d4bbf904
+~ _entr_act_associate : sha256 cbf2dda7485683d7d0f711b2dc109575eaf9d7896ac9ea470901d78111fa09e6 -> 4bbd84395a004666f0076dafe2687383a8df8c5be9cd51032926017144208019
+~ _get_signpost_params.cold.1 : sha256 9c1056ea501c62d901ce9e1ee8e36dab74c25782b177de7bbd7958e521cf3ec0 -> ba8566ba737ce9918339ebaa87aff4759c66800b3ca7ad7dda0c3642c30e70f2
+
+```

@@ -1,0 +1,86 @@
+## GPURawCounter
+
+> `/System/Library/PrivateFrameworks/GPURawCounter.framework/Versions/A/GPURawCounter`
+
+```diff
+
+ 34.0.0.0.0
+-  __TEXT.__text: 0x10b0 sha256:1dba590d7a637bd708725e195b06571bb3a495d91c555b2c072e432e578aa4d1
+-  __TEXT.__auth_stubs: 0x1c0 sha256:5d1653025990213e26093916dc2c94d47b07c3bbfeb12e913ab68804bca517d7
+-  __TEXT.__objc_methlist: 0x714 sha256:17d4334fbe91357889d3ad6971585ab79aadd74bd41284acb8c21e9a76a28b05
++  __TEXT.__text: 0x10b0 sha256:3053c311dcbc9f19dc7310abecb71005e3c0a27d128cd577f737245df24921bb
++  __TEXT.__auth_stubs: 0x1c0 sha256:8cbeb582174ca79318e61d1d350f38f66364b73ca98ef6a8f9267f9eba6e6830
++  __TEXT.__objc_methlist: 0x714 sha256:a553921c932d1f35796cf90ade7f295da853773b26b3875625b492812bc081a2
+   __TEXT.__const: 0x8 sha256:61ea6d291f51bed018bdd7fb80d20685e7773ed7872222c6648a8ecfbe680f88
+   __TEXT.__cstring: 0x1ac sha256:901919036825067cd9c7f24e8c7a61b0fc2eaa65bdd87925285e2d5c37918864
+   __TEXT.__unwind_info: 0x118 sha256:e239838bb1181d9b1123b4f01df68c6cf55cca74017e58e54fad9e390c4064bf
+   __TEXT.__objc_classname: 0xef sha256:f031bda9f7a4f971e63dfe37a534b27b3321078deb45927e22c108217ae3ef6c
+   __TEXT.__objc_methname: 0xac2 sha256:64fc63008d3ae74f67b160721ebbc783e27bc8385ecda2f2323abf5a115363f8
+   __TEXT.__objc_methtype: 0x3f3 sha256:bc90b400210cad25ac0d09ccd5402f538e555557c98a825ae8c9a8e745492030
+-  __TEXT.__objc_stubs: 0x360 sha256:83dc3902084d2e0d5e216c127028c3cb2b66bc5070a9cb2b41e26d4a54f2d780
+-  __DATA_CONST.__got: 0x68 sha256:0eb2ff0a00473c64fb1177c8010193a460454ccc860f74969e630d5b2d423bf9
+-  __DATA_CONST.__const: 0x40 sha256:0ec4c72d9c6a418bea749a5e3500a4a95f881d0826b451e62ffb72fdc3703501
+-  __DATA_CONST.__objc_classlist: 0x30 sha256:c1583a2ec2c4020b5cf5fd0c2449a8a8960b404b21f1d351e60272094fbcace5
+-  __DATA_CONST.__objc_protolist: 0x28 sha256:e5b204ce9a467e5c599ae902b527079a7582758150d8ba059fb9cdb6ee9d189d
++  __TEXT.__objc_stubs: 0x360 sha256:eac64094d50f0a0153fd75a5e31fd3d5a38390d661cd0b9620e4d5d4b877cf08
++  __DATA_CONST.__got: 0x68 sha256:137dad22eda89f6cd3c3800f5ebcfee9b0290e625dbdd177d6af8a91d96823c2
++  __DATA_CONST.__const: 0x40 sha256:b330f4b34ff7a83ac0d883b4bd80910ecd4eb51ec235c21337a184d614f1c278
++  __DATA_CONST.__objc_classlist: 0x30 sha256:d8ba039ff498a54a4de8831d8dc2a874042febcdb7d7924fdafcc140650dfa10
++  __DATA_CONST.__objc_protolist: 0x28 sha256:24570478baa2830152033946c39f3ad7c909b7db5cf983d9e5ee5d1d3e051743
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x288 sha256:fd537708d979e51a6f3387b0c1a9d3064f164cf525b72bf8b15ebfeeafdfdefc
+-  __DATA_CONST.__objc_superrefs: 0x30 sha256:28e35572ebc803b88a55d8aaab9edb8fafa99319ae86723a97a0dbf7a4f91c59
++  __DATA_CONST.__objc_selrefs: 0x288 sha256:13a3b4383d98d40c1640016757ae59a747fdf46cf60ce58bacb9d63d1f9f8a82
++  __DATA_CONST.__objc_superrefs: 0x30 sha256:5aab800d81a44a2ef4193686d72a7a3b03057cd02004bf554591c10cdbed8ed7
+   __AUTH_CONST.__auth_got: 0xe8 sha256:c4fcd50d9f0c893c46288b57d8e62b18523145956b249b6ecd6c21718be49065
+-  __AUTH_CONST.__const: 0x40 sha256:8bd475b0f574be9ca436960d359fcc8492a2f356f35c230a846388b525e9f2fd
+-  __AUTH_CONST.__cfstring: 0x180 sha256:ee038e14c9913fe2ebcc3d1e42007f6197c2562fbd29f76e0959acd32ca8aa62
+-  __AUTH_CONST.__objc_const: 0xc00 sha256:5f89ef490bee5c95fc8bc83c05bcb6f4ecdbab82ae6378861041cf069d1267a0
++  __AUTH_CONST.__const: 0x40 sha256:b3f6758042ed7e5e40c530bcb7fcf1cb689fa405b602747cb9de0dbe6650d26f
++  __AUTH_CONST.__cfstring: 0x180 sha256:b497ac169881579aa3288049ea75b8031f0c909742a40ee8a8303fcfea32778e
++  __AUTH_CONST.__objc_const: 0xc00 sha256:16d2af5681358fad3ec88148bc768b4bd0b9f20ead9536da72c4ef254c366b52
+   __DATA.__objc_ivar: 0x4c sha256:e561b5ded5970025450442bfee89fd80fe26deecf23cab22f2177aafe83d76cf
+-  __DATA.__data: 0x1e0 sha256:e1a5df5d8fac07f1ca6a1d066d9b4e1303dadee72cd9bf91bbce4158389c1619
++  __DATA.__data: 0x1e0 sha256:d0773632ede4c0d26d093a56980f8eac0f3fc6e000d44fbaa1382a96f24c768f
+   __DATA.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_DIRTY.__objc_data: 0x1e0 sha256:4af0d54caecb3e01e47e5c27bc9b8b54e0cd5d52d45446a60501646038a40dc0
++  __DATA_DIRTY.__objc_data: 0x1e0 sha256:63544426f58dc684624f12c7a8f561aacee59bfe2e206eed59b1ff5f376fd1cd
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9CDFFB76-583B-3A41-8E78-2DC41FD2C919
++  UUID: 1DBB3786-AE82-300D-BE1E-5FA4419162E2
+   Functions: 76
+   Symbols:   249
+   CStrings:  203
+Functions:
+~ _GRCCopyAllCounterSourceGroup : sha256 bdb323233b2022ae55a20050ab3d747d2176e95acb9a92ff318335d86058463c -> 192548215c61b08fa13f16e36b611bc71cccc31a73fc8b7cdcc764412593b362
+~ _GRCCopyAllCounterSourceGroupWithError : sha256 01b7380dc8a38b1a6df8eb7434c01dce1a94a28e6f48ed372afb9b2bc4529be2 -> 4ac0a9bf15bafdeb70d91eb304f37eb83f625bde2c53625162d4e20e694cf4d8
+~ ___GRCCopyAllCounterSourceGroupWithError_block_invoke : sha256 b1357670c7e7b71d76cf46391dafda0b0f41beb6721bb8601a943c9a187e85ab -> 39c52853018aa26fb9ecf86d398d0fa767153ab5be4727802234da5d3f92ace5
+~ ___GRCCopyAllCounterSourceGroupWithError_block_invoke_2 : sha256 5068c872550255b59095f92e477aff8f2a202336e677f51bba4e2d49eb7c9c2f -> 0701b9bacadd1fa8a1f52d99b56f8e24ad28a19bc7a21ad0446078add5e0250d
+~ _GRCReleaseAllCounterSourceGroup : sha256 79b47ca83215a4c3adde1515006656a60e0e2f2bcd8e1d2fde2a47db091deacb -> 086190785947c2df19ab0c30fa2aa2b62f3184e4f62dffb19c891d65fa8c2d86
+~ ___GRCReleaseAllCounterSourceGroup_block_invoke : sha256 8ff3bd001efb805b62cc7ab360695f5c8e7510510a83d01fe23c89ec4b2d90e6 -> 523cb4e498f46c0b3dee855ffca370303e944d87dd8f85353a33fc40c28c4e76
+~ -[_GPURawCounter initWithName:description:valueType:] : sha256 e9fa3dc4e6633d1460cf4dcbef8f2faddbedcaa51671301e4b5ba575c348d84e -> 1c5d0535aafb7db15ec972b655b6ec692a9adcfeb1374419bf56127db978f5fb
+~ -[_GPURawCounter dealloc] : sha256 3a21fee05c45269a6701c3267bc0a7cf90ebbde74a623454e2d08aab52da8fff -> 3c3804500caf8a273d00b4787040c2f3982ccea8ceabb8ad6ad372dd1fcd155c
+~ -[GPURawCounterSelect initWithName:options:] : sha256 543e1414edfcb83cc19d7f84ade21ad4f12eeacbaac1c4d940ae7a1ebf7a5e2f -> 3e1c708eccf4940eec67ef0f95649a33692db1b6fc3e50892937f80826d4a2c2
+~ -[GPURawCounterSelect dealloc] : sha256 372bc969b9b13397c26295a0727f12bb12ec13ac63bd5881ebd9852dbe65de20 -> 2aeec40ba169062b86c55e88aa6e213f6864da03adf08b1337a906fb5c46f01a
+~ +[GPURawCounterSelect selectWithName:options:] : sha256 3ebdec6b5dce6b1903f644fd66e5130cc1ec8b913a8bc235f6b94b3d1d060e61 -> 43ff9037347d6f822131d7795a22cd63eec6b26a634276f979c5e40970d3018f
+~ -[GPURawCounterSelect description] : sha256 93a39b095e62a9e8f9384d045126cff78e586b7db9010d42e0dd69c9aa33751c -> 605548e0bfd5d013fedc1e367f6571a4e34de32e276d4d79bdd1df483618d8cc
+~ -[_GPURawCounterSourceTrigger initWithName:description:options:] : sha256 37eddbc066f5e6059ae5d9da566bc37393f5622b42ecf217a5f7184c747847c6 -> 5bfe31ee578a177afde5ae112846822fcfe4ae06ebbb5ae768f86e8cebc6f4b8
+~ -[_GPURawCounterSourceTrigger dealloc] : sha256 5e44a366df65c562bf1b4439e74552d867a2ac02533f46492147f89cb9f10151 -> 302027e6dc2fb95ce683e9a96f685514f7221e556742af842fe4c0ed3be117a4
+~ -[GPURawCounterSourceTriggerSelect initWithName:options:] : sha256 e08d581af2475a5bcd11177434074d6b053d76f7576842715bc478124f08984d -> 51549802f9d0b84c8cb82206d5e810a46a531699649de30b7ffcd2820f95c9e6
+~ -[GPURawCounterSourceTriggerSelect dealloc] : sha256 be0f01036f3cb51e2090135a369d9807c048738be00cdf7209cc601708d48485 -> d074666683a5dedb49b2e9f636d7421f77803e5c5fdcb0a72670ecdf464e30fd
+~ +[GPURawCounterSourceTriggerSelect selectWithName:options:] : sha256 3ced9786458ac9ab3f461d9d6061217502466e4d28dd9b0e96fdb319d7fa2e57 -> bd39e3bc9afd976ce4c74c130ffe9bec2719579f1ecc71a0578f85b420a99dd9
+~ -[GPURawCounterSourceTriggerSelect description] : sha256 d529d96a22a7a9f509f4f6181db9d5cfbca506aa8f8084545bb071df7b5d36f9 -> 849205d49cd3d81380e485f48b4157972c52f54e285d1478bf0565b8138b5a5e
+~ -[_GPURawCounterSource initWithSourceGroup:name:] : sha256 ebe8ad9134dd29613dd939727374cf4b0791d80f84bf810ecf0e5393ea8901cd -> a6d85fb8863433f2f2b08d6ffec7812fff6639f2a21cc635f2c42589fc8eab3f
+~ -[_GPURawCounterSource dealloc] : sha256 dcefed0d0163aab09ba4ceeccc00e380f6f87c47f0512b82609f442d3adbdf8c -> c90b1fbb94d78b75da745838e9268913e79d881a55c26ea699847159eaa80ba9
+~ -[_GPURawCounterSource availableTriggers] : sha256 803d60e0c2050ea3ca92928b9d29974e08d020a18bc3912a4706e5116b690b39 -> f9a5abf61ec83db1558d4cc0cfc0c73cc45bd1f70bc9114aa76337a6bf39eef7
+~ -[_GPURawCounterSource availableCounters] : sha256 60f2638209bf38bc6a5c6b46b745f7b47b1479cc1239a8528eeac91e49139662 -> 26346247d08e0dbcc33099739989db1ed37c07a7b05d484531ac9cc5a1324d73
+~ -[_GPURawCounterSourceGroup initWithAcceleratorPort:] : sha256 0292fa12ace50fc651c191afdb7f7b265570cfb4994acf2c32002392cb2db10b -> afc66bbdfe81e6d1d102899f568b0daa85b7d9d2c97b62415ff1e2a706eb0919
+~ -[_GPURawCounterSourceGroup dealloc] : sha256 62ba6a18628ad10780e6b4eb009c5cc0111caafbccda8984ba42a4c37a755a90 -> 093ec3abf69a06bf7b5d45a050246d05eb2fb4ee174ce8929830df63d69cfa04
+~ GRCCopyAllCounterSourceGroupWithError.cold.1 : sha256 e178e6dff28cf283a8a1aee82df78837a18d597ddbc355abbf8052ec9ca80541 -> 6de99b9abeaabf8f0eedacd959343ef0fc12e6ce4282e3988233602f502f1901
+
+```

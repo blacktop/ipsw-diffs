@@ -1,0 +1,70 @@
+## OAuth
+
+> `/System/Library/PrivateFrameworks/OAuth.framework/Versions/A/OAuth`
+
+```diff
+
+ 32.0.0.0.0
+-  __TEXT.__text: 0x10b8 sha256:f6c8a448254637d246c3336d298f36925d7f4f50d5fcf3d7a2a02fb63a37df10
+-  __TEXT.__auth_stubs: 0xf0 sha256:622579900ab4c8d94ee8f016709c302dcccc0219fb324d1ddf2f4a38936e369b
+-  __TEXT.__objc_methlist: 0x184 sha256:435f98c81a1e37a5eaf799e93ce6aa8c0eb6a0dcd0c14930fbf6210ded7f9550
++  __TEXT.__text: 0x10b8 sha256:28c13c6b44407da64063bb4cab244c1b1eb2defd8bf3cbfba42bb08c7a6450c5
++  __TEXT.__auth_stubs: 0xf0 sha256:d069ac06feba2c9c4d7fa912bc194c4898a601b13ca1e61223217ebe0cd61dfd
++  __TEXT.__objc_methlist: 0x184 sha256:2ed58d35bd206f85bb6f7c4ca0f65fb2d82cf48ce3aa48bab18818c3d116122f
+   __TEXT.__cstring: 0x186 sha256:c3a96fcf811ea1ac2c5dd0b56e09293ba37a16f8920bdcd39886954e00529547
+   __TEXT.__ustring: 0x28 sha256:1d438e22654afdd678fd1e04ab47ef537a69b7924c8368ac2a307a05ca0a027c
+   __TEXT.__unwind_info: 0xb0 sha256:555533250a8fbce51d3b9818bb59b8f458dfc613374c3243877abc3f4bc8d958
+   __TEXT.__objc_classname: 0x5c sha256:42753ca9117e21d56b7369ddcfd446a624eae139669e88443a1d164028f77ee9
+   __TEXT.__objc_methname: 0x624 sha256:2a2a5ec930fb8f9504234584aa2308e4bcf1a680a282d868d5eee54f8c29bc95
+   __TEXT.__objc_methtype: 0xbb sha256:a1e4db81e2655c182bc014b85c67cf6910912999136b6ff474d736bfb5a88a1c
+-  __TEXT.__objc_stubs: 0x760 sha256:b5a0981384ccb543889f661a0d75506f92037fb2550f82fb791f155b570ae545
+-  __DATA_CONST.__got: 0x58 sha256:389871a559dae0d44122836cf8ff81697ad1e16fd2df10c9a37c40a3175d152e
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:64f40ff189d07fb35ed15de2dd897d8702d7d856264bb0bb99a95e8b7a379869
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:b8cc262ed494b8694f6d6603b9a83dab7760720077a138f9d110c17b28c14aa2
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:03612cf20c5a211a7c7103ba3816e80bdbe17fe7cd2981c4fc4a3f51aea19c48
++  __TEXT.__objc_stubs: 0x760 sha256:55cdaaf4e7bfba0ba874b12b86be08372a1640482a3bf4ae44cf109fbaabd092
++  __DATA_CONST.__got: 0x58 sha256:bfbeb31edfdbb8590ad90f6c6fb4f96efc0ceb3ff1e403e4670418bfa7bb57ff
++  __DATA_CONST.__objc_classlist: 0x20 sha256:12977169d7af4b5bd105630c7d2e776e2d0154e16fd330de012e09f49f3ca1cf
++  __DATA_CONST.__objc_catlist: 0x8 sha256:2065595c0861bf054187ec91fe8bfbab802dbb0482d980de83399ada8a6bcf59
++  __DATA_CONST.__objc_protolist: 0x8 sha256:173a7044ad5f8da9644a53f221fc14929f06dcae20a641a7d25bd036fbd1886b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x228 sha256:e3f75ad8dd41eae15747aac36b462117c7e3c243ebcaab4459c49856f314b635
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:9f5bceedd8f7c16a7d819bdb680d7f0b0b211f54d36b9fe7d1069ee7b3a5c646
++  __DATA_CONST.__objc_selrefs: 0x228 sha256:af3c442c613afa1a5147b8f176955d5a68be3de977f4eea6a5d104808c9e9473
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:9b8daabe34f7278cf1e6e1270e5a9b66dc63ce73f29612d92ab25bf2311fa864
+   __AUTH_CONST.__auth_got: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __AUTH_CONST.__cfstring: 0x540 sha256:b336a14760464a144de5a9c7defbd387787015f03877b8442a04bb46a282ee5b
+-  __AUTH_CONST.__objc_const: 0x410 sha256:8f7ac4d70c4cc56995045f773b4cba8dfb5c0f110219e5d0200238a3703fe22c
++  __AUTH_CONST.__cfstring: 0x540 sha256:496546aef20255c9817ca43ecc5f20e5dae9600f677ef3132cd9425779392f69
++  __AUTH_CONST.__objc_const: 0x410 sha256:c490327acb1a604233babc72cd1d772e8d20f882df7338de4ea0de32067e210d
+   __DATA.__objc_ivar: 0x18 sha256:6ee86f2a91b2696f6ef931c539120dd47092ac24f4327fdeba827692247a7463
+-  __DATA.__data: 0xa0 sha256:edf07b5a86fc400a362aef874a2b442eb35e910435c68b5812dca5ccebebfd3b
+-  __DATA_DIRTY.__objc_data: 0x140 sha256:ec25840e5ba4c5220dae88fb3fa6d5a935c81f878f17f1aef8051fd19d12df6e
++  __DATA.__data: 0xa0 sha256:140fd0bba58c64a4cb4db0eb4a0e110fab6a05db29acc0486858e933532678cf
++  __DATA_DIRTY.__objc_data: 0x140 sha256:77a4c13caeb728c627b25858c3ed7b011471dba24f3b93927d87f3f3218d30eb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BF247779-1A33-390A-B4BA-E28B190B62E1
++  UUID: B4AED5D5-7FB0-39D3-9E14-376091F9865F
+   Functions: 26
+   Symbols:   162
+   CStrings:  182
+Functions:
+~ -[OAURLRequestSigner initWithCredential:] : sha256 4c6a9b22663fb8c04b46c9197edf7a86c3590a7981e88843074b3ce8d1ec4212 -> ae08e52619c9c4e8a69a8110cda14818acf4672f0518f7d2a4b0b2ab12ac9066
+~ -[OAURLRequestSigner signedURLRequestWithRequest:applicationID:timestamp:] : sha256 3e2a1c3b164fba9a4c4503ac65f2901ad939c448d0b110689b65fb3dd5d86309 -> 33643a44142cdc0f530de7fab92683ff3edf9c07a5fc583caad25915a8a2c934
+~ -[OAURLRequestSigner oauthNonce] : sha256 33f50075e35f51b85e8df417c214c9bde9796d1dae281c81b59ad9f4ed5547db -> 312d735638e1f1eb68cd294c4b86ff8f080230d96486e0f052af31bca53e5f25
+~ -[OAURLRequestSigner timestamp:] : sha256 bd44b76a1916b70e92c7f7693e151c9d434517f71f987102f749044c25ecdfdd -> ad82235eedfcd87149ad9c6982cc76eaca66bf05f16f6c96fccbf712f320d669
+~ -[OAURLRequestSigner oauthParametersWithNonce:timeStamp:] : sha256 2a76470fcd158f04c2804560db1a669712c9ffa34f49639f1859712461f5d378 -> f1a92b92525a019e2de250d8a81244fb7b89e7af59c699b26304151ab38e46e5
+~ -[OAURLRequestSigner signatureMethodString] : sha256 992d77d774a3d09e8eae38f2dc7fbcc324b4ac2cecf77ccf568fd2f7bd6716aa -> 747f62240d3acb9deb6836396fb45c30c5ac1d0f9bb6d2596b5412a232670cae
+~ -[NSString(OAURLEncode) oauth_urlEncodedString] : sha256 27ed69fe4f63654062bc85efdbface7557f27e4810c49cdea75dbc1020a31f35 -> d27ac66617feb47aff414d31a35de08c6a063548470be70ad46ebd90f13185c5
+~ -[OAURLRequestSigner signer] : sha256 99a8f03be0af3a7293dbd75a30b977b6ab2331cf81f060a1048c336a7a26987b -> b7fd5942ae8748749acbd5255ba4343285a3c425313cf1320b0bd006a7577d7e
+~ -[OACredential signingKey] : sha256 a53f3354a296e0e2b465c6f1b80e0f39790fadc6174619757cc9fd3de94f1847 -> 6b411acc96343c70db87e7161fced32bafc72327897738487c16fb6ccc71101f
+~ +[OAHMAC_SHA1Signer signatureForText:withKey:] : sha256 4bab3142ee5db3cd1884595d5f21128f24944b9d3de7a03c92ca8396fd48f455 -> fc3398e103d3006829b29434430e9c4b7efa809ec1e5c5c67933372864c486b8
+~ -[OAURLRequestSigner oauthAuthorizationHeaderWithSignature:nonce:timestamp:] : sha256 90da5ea0c742d740f53efd2523b99e0d9a032ba09d639123a540dcbccc9949cf -> dcfff2d08f8740ea565a58dac2b2028530525f9311b86636bcfb7cf4beae36b8
+~ -[OAURLRequestSigner dealloc] : sha256 af25740b8c590aa05260b9ad603ef40f14b899efb596a2dea5af9f6d238d488b -> 812dc50b63667add67cd2ed7eb3dba7f7f3ecd19b7bc88736dca716de56377a7
+~ -[OACredential dealloc] : sha256 f1adf530476f4f2713ddc12bdfa7bf4e50ac97692daa6d7810a32ec300e98fc4 -> 67dc6e7ef77a644b8aeeed60af5e6e08fb843ef5899f8fa3d35019aa1cbdef64
+~ -[OAURLRequestSigner applyApplicationID:toRequest:containsMultiPartData:] : sha256 ea673a86b9c555fb8744aa3420a13aea19b628ab36db0940c5ffc3ab60362b89 -> 03394af56ae36049f80ce0fdf15cafd4179468880c856663af22155118819f55
+
+```

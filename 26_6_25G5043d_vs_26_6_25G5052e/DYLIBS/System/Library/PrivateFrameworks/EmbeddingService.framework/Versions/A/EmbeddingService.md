@@ -1,0 +1,89 @@
+## EmbeddingService
+
+> `/System/Library/PrivateFrameworks/EmbeddingService.framework/Versions/A/EmbeddingService`
+
+```diff
+
+ 3525.3.5.0.0
+-  __TEXT.__text: 0x1fc4 sha256:4d0f05e17be949483b0c4e5369b0158b9319dd3cec58e021ad93e50539061ac7
+-  __TEXT.__auth_stubs: 0x260 sha256:de0ae06ce478715ab0b7239e1cce4ea7ab0cdc898511a4a4f8c021fcf61d35c8
+-  __TEXT.__delay_helper: 0xdc sha256:20081d0fae88618d7dfdbe5e35fdc4a1c739bbdc63fb6f14a9bfeb844a4cae56
+-  __TEXT.__objc_methlist: 0x2cc sha256:478d492691a7b97b327ef7b939915bb4e05c986b6863babb65535fc9642d8291
++  __TEXT.__text: 0x1fc4 sha256:bef0ec6a8d217aaa447711d710e1ff87c7118153c0d7d95e009a324b9cdc53d3
++  __TEXT.__auth_stubs: 0x260 sha256:cffedf86b708a87443fd8b559547012e405cbeb6b624fdb2f1f4cef9cf81f79c
++  __TEXT.__delay_helper: 0xdc sha256:8c58e36ffb302cf348b6e2ae2825a53a7110c335faa21b3ae325be00369f3009
++  __TEXT.__objc_methlist: 0x2cc sha256:d448bd2e51d27eefa1805e3649da6a21425b3cd13a7f36f45a727ceda91c653c
+   __TEXT.__const: 0x70 sha256:f502504b311497b929f0ba89c0d40880592349e8725b8adf8198124ab6be34dd
+   __TEXT.__cstring: 0x169 sha256:9a613bd189f6429651597e123ad0532f46d8f8331acdf9e2cd664521df34b619
+   __TEXT.__oslogstring: 0x197 sha256:e1fb60bb4274b229e05a95c712f75ba25c76f255e6ca44526af09eee85118fbc
+
+   __TEXT.__objc_classname: 0x33 sha256:6fc418fc663e89340d6b29833cd2ab9d69bd2e44b4989c39ba446c8fff1c64da
+   __TEXT.__objc_methname: 0x7fa sha256:972833ee71911946f67dc69b233400b94d3eb14b0ba8ec7b9855f75d75fd9ca2
+   __TEXT.__objc_methtype: 0x18a sha256:b5a9e8c801fd41ab233bf1b9ec573eda1acc0f30ba6506d171f911f57a595bb0
+-  __TEXT.__objc_stubs: 0x700 sha256:9ec66703f094fea9d61534cf92f6b66bb4acf24970bcfb9a451a7a6de641d07a
+-  __DATA_CONST.__got: 0x60 sha256:6ef004be089677da85eabc2a07b8dbe54818fce5e243a002d278df50cf953568
+-  __DATA_CONST.__const: 0x40 sha256:aac02d122c2622f9624d87ea26c7aa950be0610399ac970a642dc0b3373b306f
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:ef3bf40f2296d6ea6a655bbc58f5c18f483846f22de3ef87b194411c97805447
+-  __DATA_CONST.__objc_protolist: 0x10 sha256:0dd5d8958155b564a47ac80dd0270281999070c407d4add92061b582900422f8
++  __TEXT.__objc_stubs: 0x700 sha256:112decb2cbb22d5ccab87b7a00985d3ebe9a14bcf729f5361b549f952ca9bad3
++  __DATA_CONST.__got: 0x60 sha256:27c2da378a62b60ff0a2c4f874e68bdfcdcb596cb0d7bada2cb4ce5a3e9bef2e
++  __DATA_CONST.__const: 0x40 sha256:be294788f29fc7d36968e878f5270f5e462cdf3666eac6fc75cf12eed9feede1
++  __DATA_CONST.__objc_classlist: 0x10 sha256:ed2b8e70aa1485a18f102ca719b34030ebebbdec2dc94a6dddc05c501fbadae5
++  __DATA_CONST.__objc_protolist: 0x10 sha256:12271af0bc2d9d39e61dba0277a2e775e9b5212725eff09ad7a442bc2efc767f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2f0 sha256:f37ab64030243ac4d6fec479b42ada4f8eb0772d6daad7872baa7c7564104734
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:ea40207a37b2902ce6c4b069b993c50e9601b880b7e0ea07143cad9930765e06
+-  __DATA_CONST.__objc_arraydata: 0x18 sha256:9dfc6914726475369d82dcb05ddc9df0ef3610bbe54ad0ddfc4c053e88c0887f
++  __DATA_CONST.__objc_selrefs: 0x2f0 sha256:82b417b7fc2cd36f9a03f90e30dcf22aae8b913ef0f7c1fc2e078a6df322faaf
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:4ea7d4ee02f3a2fdb9d4d3421632785d6fed2e6ad948c777736798a701a3b3be
++  __DATA_CONST.__objc_arraydata: 0x18 sha256:bdfdea3249fe3b0c0be553de84aa6bfc75276afc9a2c9e9ef845cf6e41765e0f
+   __AUTH_CONST.__auth_got: 0x138 sha256:6287e17fe5efcb191aec8a2578e685d0a1040a0ab53bd1f02c7f49cc6c8fced7
+-  __AUTH_CONST.__const: 0xe0 sha256:a02a5ae930d03eaf1b81699654927c43ff80919c2a03b9640f923f259b7ec2ed
+-  __AUTH_CONST.__cfstring: 0x100 sha256:d2f4b4957cdda14eb1289287633d3a877bf26ddc4e96323d301769fdaf340e99
+-  __AUTH_CONST.__objc_const: 0x4f8 sha256:7b0322dafd42b9ee96eb9cd90dd08eb51eee1bc11b1724a869c931701800e707
+-  __AUTH_CONST.__objc_intobj: 0x48 sha256:e08d46cb652e101ccf0d99774454fc63e04e302173ab5873724d1bf857e01046
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:361e6a68b7f2c48a502be479267620eb1be2205138eb6eea9540f73aa02711f9
+-  __AUTH_CONST.__objc_floatobj: 0x10 sha256:2ee35b0340d41f2c82be66da97009d18ba1d32f3789791fd032078c32d53578a
++  __AUTH_CONST.__const: 0xe0 sha256:97ee01a81b12dad849bd446eef5ee78d6add96c4363380692c33f37a417354f4
++  __AUTH_CONST.__cfstring: 0x100 sha256:4a1c6d618ada2e78c1b2830f1720cfba6e3ca6226278ed6ae4f14550a7a64e25
++  __AUTH_CONST.__objc_const: 0x4f8 sha256:fca4830dec3ad042b88184b8a951b4811f02a52b6c19bd4dbe69fd3261ec6183
++  __AUTH_CONST.__objc_intobj: 0x48 sha256:f3d0b96bee12d792810abe23015e7a3a49896bbe7d2fe7c7d2f3130be3a1a520
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:baa72912866568a65a547b3492ee6f9025041d429f88650d6e3a3f18f6922f1d
++  __AUTH_CONST.__objc_floatobj: 0x10 sha256:e8a2ae9a8df8f7ef2d9b6cf6db7090e2bf950d096074eb406614d111c559d956
+   __DATA.__objc_ivar: 0x2c sha256:bc1ff1f1d02d5cab8d86457d69eedbb3e14bdf8dd5ca7b5184dca8920dd6e25a
+-  __DATA.__data: 0xc0 sha256:856a752a736638a774e601b8e6a0b79cc73163db08faf2b32dd928771659f73d
++  __DATA.__data: 0xc0 sha256:3a6c7a8f4c01c96faede052559b4aa7e32762e156439e4efb371398252a830fb
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0xa0 sha256:4db37cf2d7509ad2b698bb2ff9bf79a993cca7c73fa414557a707cd7b645f897
++  __DATA_DIRTY.__objc_data: 0xa0 sha256:3240057f0594a6da193f92736b836bb0fb825b0dd1983b1f9a60129705facf9f
+   __DATA_DIRTY.__data: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+   __DATA_DIRTY.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B03976FF-1EE8-3377-974A-DFB029AED750
++  UUID: 6B32EA01-9FE1-3EAE-B1CD-FF0551DA81FF
+   Functions: 44
+   Symbols:   216
+   CStrings:  184
+Functions:
+~ +[QUEmbeddingService log] : sha256 3b311353aced0b9af123b9ef67db1640d7790bcee5bec468d63eddb4f33c7096 -> ded44109a192cb136c25a1237b108b6b7320b51b06f6bbc0ce9e6036791cad36
+~ ___25+[QUEmbeddingService log]_block_invoke : sha256 42a5ec7966e34d86dea70e8b2c2e1324ccd9656f270a43da4be56294b180d3e2 -> 6c031f8912d5b01d4a09c0316cfc6864d158961df9be00ca3445f28fb876503b
+~ +[QUEmbeddingService signpostLog] : sha256 8a6f276ceae39608e208467671f45fb5687817d47209d1aa10673e3a36bc4743 -> add09e820f839e0a9ae0ed28357475cac69b53673d212889df9fb548916739b2
+~ ___33+[QUEmbeddingService signpostLog]_block_invoke : sha256 081fa2a38ff0a91ac4e513f7e05b3de03d95db8020c99687181f5e379ef84194 -> d51f61dd6da84babdbe1512f5a4d32727999df1074294d1416aea3e1cc8e4ec5
+~ +[QUEmbeddingService setTestEmbeddings:] : sha256 429fa140540101040baeef66049ee6eb0c479533e10eeffcfc5a5b2678d70247 -> 699970ccfd21cbf458b2722da8d18345e3de2caf62bd45248c66d7d508b007bc
+~ +[QUEmbeddingService testEmbeddings] : sha256 0e6d7597c2423212408eacde3b0f3587afe3792061dd746112d9ef8e515129e2 -> 1d90c2d40019f96acf0852f5dce899d102ad14eda7bf0546038e78a38dffdc3e
+~ +[QUEmbeddingService isUnitTested] : sha256 f047e8bd540d26c7e66a66c5e8ff7a61ec6066cf0bcd19e16eaf217b69dbaa71 -> 06c2a5bf643d30341b230e753d3ee98b8aadbc0c5e83b5fe1ef7a17a031f3d1d
+~ ___34+[QUEmbeddingService isUnitTested]_block_invoke : sha256 e65b228d50c78f36a56b735ade615cdc9ec866385856e37c371d4c1b526b225f -> 34a6629fa171ccf1a17902cf75c7081506b044c4858368e7645e7baaaf31f38b
+~ -[QUEmbeddingService initWithLocale:version:] : sha256 d08c33594c35fd6a57dc89a6056ca66f263083979af2f880e3dc6a560bc9abdf -> e0db3f3cbc909fccf28edf59f5128bf6cd50c83582b03f90c6a347e2c6c18df9
+~ -[QUEmbeddingService dealloc] : sha256 9bbec998dca4d947fb0179ffe4d236157751ab01be843ce18de9c12bfb7985fb -> 13fec79087d0b9d2b24e93b808cce2a5cb88816fa966fd98f1b74d69c69b4473
+~ -[QUEmbeddingService rangeOfSubtoken:range:query:] : sha256 c3b854dfaf5b2dc504dfbe7eac8357c1e70137f7a3ca088e1c266da6ad4f71e7 -> 194c19254b50ab1b03be2a7fa06bad2d2e72d3c8d1bb4a7e5fe40253b8278e7b
+~ -[QUEmbeddingService loadWithCompletionHandler:] : sha256 bccaec1e39238d0386140afc9a93b9049a7d61253b123c72c8838f7280faec7c -> 305d14c8b8791fccafa7b7b892a2a735a4edbe5d629ad1586a0dd19f1a48bcbe
+~ __48-[QUEmbeddingService loadWithCompletionHandler:]_block_invoke.95 : sha256 06a625a33325d90f3328b1d4f105bc0cbb141add0d67653e2f3582bf3b908ad4 -> 0e9fc7e090337e5e89f40fb0231f79b7f54e9b6b31c204effc9de1bdd2bc7a2a
+~ -[QUEmbeddingService getEmbeddingForQuery:completionHandler:] : sha256 d31909566abafc09ea4912f9a9e551a505711d24abe94f0e0f69838f65b31aba -> ba271b0977834f3d896c6d5684ed73bcfc27bfaf1b36defcc2f1bfc2f76e8e6c
+~ __61-[QUEmbeddingService getEmbeddingForQuery:completionHandler:]_block_invoke.104 : sha256 d638fd95a0e55a126b49d1c0263a614bab51309c8f78ce60effdd6c1fb9002ef -> f74c52f3f27cdb64a6bf8fab5b18885a494b600ae9470e47c3116151619f74e2
+~ +[QUEmbeddingService isUnitTested].cold.1 : sha256 26602f2b87f3cf48c446c601c6382dc9277f69272bb67e9be221552d237c6fd6 -> 0045d4def6b26c8405c47536a8eef708d4adcf37d9f4e91c56ccba072600b032
+
+```

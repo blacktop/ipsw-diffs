@@ -1,0 +1,94 @@
+## FamilyNotification
+
+> `/System/Library/PrivateFrameworks/FamilyNotification.framework/Versions/A/FamilyNotification`
+
+```diff
+
+ 254.600.2.0.0
+-  __TEXT.__text: 0x27ec sha256:ca09cee306613b767809bb2c041a4352859317dfa023ef4f74dad33928d89483
+-  __TEXT.__auth_stubs: 0x1b0 sha256:df30fd7dd014e09895e5c475ad8f73872b5314d73e13d786cc04282339965fee
+-  __TEXT.__objc_methlist: 0x55c sha256:ce8b9215739473495c8bccbefe45fbdcda401aab5f9d539cfa04fb57d382faf4
++  __TEXT.__text: 0x27ec sha256:281202318746d68d134382f0066271cb29597e448a54e85883e09abaa29fc587
++  __TEXT.__auth_stubs: 0x1b0 sha256:aa9e36cc6eaaed53aba4edbed1c228b0556b8835374b57c8ab70964a92e9b8f0
++  __TEXT.__objc_methlist: 0x55c sha256:8d04a713d2ed8ccee3b592e74c201c7e706297454b6f902d7b3f9111a205babc
+   __TEXT.__const: 0x70 sha256:906620aa5480e1fa0833fe7d46605e42bcc138105530d461c054f4bebf934cfd
+   __TEXT.__cstring: 0x401 sha256:12f98699151cf1781f03a5fd9a5e1499c8f19e6a432b75aff3e4be34f452262b
+   __TEXT.__gcc_except_tab: 0x4c sha256:8135952eaf7bd0810f0a92fec4f75d0c090850a31f807ac96e0ae4c1474ea271
+   __TEXT.__oslogstring: 0x18a sha256:11c73a65dfe8de763dda1e7a931cdb972a894c59b37754e628d3862c0920ece8
+-  __TEXT.__unwind_info: 0x100 sha256:5cbd56166bf5411a9a0676c5237e107df424f3f9a2c31417a0947d8f31db5354
++  __TEXT.__unwind_info: 0x100 sha256:ba0a4373937b692b71f69da036e7e2d425a6d119e51a058fae4a62b75310b43b
+   __TEXT.__objc_classname: 0xa7 sha256:76f257a1ba5d0c13548b8430ba669b67e18da49d0ac0b42dd1f3de6d951a244d
+   __TEXT.__objc_methname: 0xeea sha256:6f86c2916a1e2de3dbadfc739ddefa56c9b54bff9bf5dc9253ba44ed6a501440
+   __TEXT.__objc_methtype: 0x263 sha256:cee49873eb4888dcc7b10dac9173fe4effc0312b2b96228e3ab2c78d1b94dd13
+-  __TEXT.__objc_stubs: 0x740 sha256:d1e153714ea0333a5a01b3c7e31d3514ba3c79ab094d932a841ca996d8fca50a
+-  __DATA_CONST.__got: 0x80 sha256:30612481396ff326315ef2cc5beeb1ccfcb950d5d88a648f9282bf1e3e3fb00c
+-  __DATA_CONST.__const: 0x40 sha256:59d3fff9d624705a6568a2843d3d2d4743c90b6ea91645a04a3737bc1f6c9716
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:d1cf4c5495ea22fba1584a562090c302a3636a0c29342a62f700b03705479f25
+-  __DATA_CONST.__objc_protolist: 0x30 sha256:0c0fa106741e1b9583991eae89af19555aaacad0f66b3d797354e9f9a37c6bb2
++  __TEXT.__objc_stubs: 0x740 sha256:2a2a5e0c5707bec8167a1b060e3296c687fa7402596b227e3045104e2a5efe68
++  __DATA_CONST.__got: 0x80 sha256:854f023d205e6c352f310ddf04c2771bff01bab6e80cf343e63f5a0e10f79d36
++  __DATA_CONST.__const: 0x40 sha256:448e08fb74409309457021e1bfb342080f864767ae449fae33b3843658ae2c01
++  __DATA_CONST.__objc_classlist: 0x10 sha256:2e4f4b135f673605bb173fa91daeabaddc72743a56fb3e2f8cf057a92cd2a8ab
++  __DATA_CONST.__objc_protolist: 0x30 sha256:7d77dc891dbe2ba74988999f615b47ca05cdec6c60e6ff362fef89de6903d3cb
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x418 sha256:c7095dfbc32b37fa27b77320c67f07b5da87b77334be6c69eb935d2abe8a3b38
+-  __DATA_CONST.__objc_protorefs: 0x10 sha256:788e585a66ed4b046dbce760a4d1404bee9dee0f922d6620071e4d1e4fc72160
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:a9cdf72650c6c790004cbb3c78fa0ff0153292cd18608a4b31dc6c42ee29a00a
++  __DATA_CONST.__objc_selrefs: 0x418 sha256:e213f35d0b89342dd5994235bc48399e37d0c2cd26841a53a155b80ceb8806bb
++  __DATA_CONST.__objc_protorefs: 0x10 sha256:2d9d5ce06ea6e258eb3b2bd1aecc8779eb2f59d23eeb58e0127243ac9dbbfe25
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:9ebaefaded365f39caaa954c1eb026d881e24e8a9bba7ce71ee7116c7ed6238e
+   __AUTH_CONST.__auth_got: 0xe8 sha256:c4fcd50d9f0c893c46288b57d8e62b18523145956b249b6ecd6c21718be49065
+-  __AUTH_CONST.__const: 0x100 sha256:fa29fe4ff2695c9d1a76e267f5b25293cbe351bc0dd8e6c40e193d3b26a8d729
+-  __AUTH_CONST.__cfstring: 0x320 sha256:8a5216ce3e9da505e78d4212919146a654073de28ab9e28e38175d111ee8a735
+-  __AUTH_CONST.__objc_const: 0x8b8 sha256:99befdbc92f76b847d2ad74fba5810eaaf7c3b7ca1dd9e81164f80b648b2a0e1
+-  __AUTH.__objc_data: 0x50 sha256:20458c3cefb26e9ba25c5e18f00b866a8ad4a13a6003d0fea1119a1194052329
++  __AUTH_CONST.__const: 0x100 sha256:c1c5cd831177b4486146a858fbd76058eb71957408581da5446a8e251863b35d
++  __AUTH_CONST.__cfstring: 0x320 sha256:502ad2e85d8924f933fe93aaadd80510ae066e055fce669647a52faccd393fa2
++  __AUTH_CONST.__objc_const: 0x8b8 sha256:4b395555717b40ba8123e5e2be7c92fd3674a86ffd685a65751159537347c31b
++  __AUTH.__objc_data: 0x50 sha256:d8f5e5b38a3db24d7914ce0de22b5e8f920643e395b12cb12f26ef0f40d38c5d
+   __DATA.__objc_ivar: 0x74 sha256:4736f7de5f1597ba5159c8bd5c4e8e004119e1655eaf4026ec42ede385560070
+-  __DATA.__data: 0x240 sha256:7ce319d5c865b81fffd888c8b4644d418011ab335b5560f41b6d896998ca0346
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:c973783e4c9157803021d1b1f83baea2568b0a7243ca5803cfe2af7944b84b4e
++  __DATA.__data: 0x240 sha256:bd2a66e0ad50beb0782b9376416d3f57780506734046ecb0581495f8cdc1a28a
++  __DATA_DIRTY.__objc_data: 0x50 sha256:c7fc4abc2cb82bea66e276e00f28d9ea50d49eb42dac23915546d63186cb2285
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/FamilyCircle
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0554616E-4DD0-37B0-B767-1E29EE58FC08
++  UUID: 26F5D564-8934-3FF7-BE43-54BD2BFBF3D9
+   Functions: 93
+   Symbols:   293
+   CStrings:  309
+Functions:
+~ __FALogSystem : sha256 267f82333b018a975ee70055008744c23a52de88cdd775d4e459a992133d9ed0 -> f1a72136cdf26ca4289644e3d74375ed948eac20388aad946269b268c2d44be1
+~ ____FALogSystem_block_invoke : sha256 42108a19033ff0a38af1161ee332fb390088aa7ea3a86a4ea346d6387c3c52d9 -> 9243cc010000bb3bc8bd0dc52aa412034f80165571d8901d9dd862c1ee3eb1a6
+~ -[FAFamilyNotifier initWithIdentifier:machServiceName:] : sha256 ddaf293b813b18819bfd1798a124b19419e5becc6797699e3972a095731422d3 -> 10edddb3713792be4dc08817afa55d4c7e9b0aefa3be5d6abc10ee91861d07d7
+~ -[FAFamilyNotifier deliverNotification:] : sha256 a9b3b5328406431fd106cd54565e4db0d8ab00f3f603d650419989fd6cda64a7 -> 2bb95e63188d3df7e3315d893f9b2c86720cd7fd55da4d9fe179d04324a328ed
+~ ___40-[FAFamilyNotifier deliverNotification:]_block_invoke : sha256 65b92ff2910942780466f220c05eb2177f0b069c7554189322737c4032d7a849 -> ccf6050fdc64a5a3cf5f74cdad1a3d075e29688d9d35c80f17c00f28c082ce95
+~ -[FAFamilyNotifier removeNotificationWithIdentifier:] : sha256 11fcca149e4817aa5921c5519dc5d3c23f9ad0d18c68ebda71b21aba0eeaa0b8 -> bd7ddf56976633137a3675e3fd9e306cb1629865da191a5bfaf2c6b9112a0596
+~ ___53-[FAFamilyNotifier removeNotificationWithIdentifier:]_block_invoke : sha256 f53b96bc5f8cf899273b041fd7536bb88e1514c90679c9a39bf65f0ee04a62cf -> 0470875efaab2589f6432ef6d1a423d2a41f6533123b9cf90f307d3e1c7c2ff4
+~ -[FAFamilyNotifier removeAllNotifications] : sha256 d3e3f9581557a08ac70709668fb7b87a871736a617428f2f28333292a3f082ca -> 945e4b054ac6719e440d450a2f02672e52047e6e1d43912e0a871ed3f7968f6d
+~ ___42-[FAFamilyNotifier removeAllNotifications]_block_invoke : sha256 5a53dd6d3430f6d3a42a84aa6f9a1c66dd51c6b980f71c2ec22a79816d26b241 -> 58c8eea6769221124207c7fc332c81dd5814f9c2bf35d08831b0904b074801c0
+~ -[FAFamilyNotifier _pendingNotificationsWithClientIdentifier:] : sha256 64c6b59667984e07a4e5b14385e21a66243cc830f90686203e25495dc4d1228a -> a04d34a5e268cc5bf1855189274311cc2465054175430c8accbf6229e14a3388
+~ ___62-[FAFamilyNotifier _pendingNotificationsWithClientIdentifier:]_block_invoke : sha256 d0757acfda69e4791b1da31afacdbdc48c1bfaf5b13587daa96e1ab75c9c789a -> 87d6e2fbc9f9ddb9a1ef90e006bcf8bb488c85d6cdfdbff41dfa8779d316946d
+~ -[FAFamilyNotifier agentConnection] : sha256 e8941ac1313a93df4c5b77527eaecea3d9c53a0e13c95f36dcc8e297a99c42dc -> da0c6f1e429fea38a0e84f53e6084f871594fe72e0e4b5fe2037dd9ae19d471f
+~ ___35-[FAFamilyNotifier agentConnection]_block_invoke_2 : sha256 33c5d129e85826114eede65dcd06399aa00505f6425b854fa307aa0f5969f0f2 -> 93518483d728eede06c29564416d424aa860ea1f51b1bccefa473cb0d12a3926
+~ -[FAFamilyNotifier _agentConnectionWasInterrupted] : sha256 cef0b0a89f2bfb9e714ce2d99fee7935817fc3047102aae31158b95be7d6ee92 -> 84e27a801755ffc096620772ec7ad64998f18a89e46942f7d0c5752fba1a2ba7
+~ -[FAFamilyNotifier _agentConnectionWasInvalidated] : sha256 a9bf210a935eedc7aaa616efb4cd1324f6f1457f73b65add7e6b1b25ec85b0a5 -> bd3136ab5776cbdc0c3ae40743fe07941e67d7b61854da5bb8d4105d6644cb7c
+~ -[FAFamilyNotifier _agentConnectionFailedToBootstrap] : sha256 f8347264afb577952549efb25a779870375178a3146fdbf8cc83d429aaaa09e6 -> 4aafa1f9b11308042325a25d55c7c7af988839b552f776b96f6e1375acd2f256
+~ -[FAFamilyNotifier listener:shouldAcceptNewConnection:] : sha256 4d6ffc4f86f7d411abee493cfd66ccae8e6714701b522cdea8108a7531a8078c -> 07d400cde32eeffef5cb9031e23cb6467fc3b734be65ff77dc6fadca8fa539f4
+~ -[FAFamilyNotifier didActivateNotification:] : sha256 daffdf66f542d8d6abe1d6d4f90dc9444e871cb0fe4adfb909b5c0ae55fa559a -> fba3e22653150b6e047ff8b749bc7ca86ae3aa7fb2e1ecd16d31c6c734c010c4
+~ -[FAFamilyNotifier didDismissNotification:] : sha256 418a6f1ce04c4017180e5cdedadb9aa95def3e462e5363529cb007ba1fe50085 -> 9873445b7d3e197ed0f1e61dcf8052b24b1f931bb2c718c2b528b65160d203a5
+~ -[FAFamilyNotifier didClearNotification:] : sha256 10588d3c9d5ac71fd93887b36379bf7f907814070e4b4ce875cad05c0d28f416 -> 525fd75e08609f3a0d37e30255cebf0504c2c13f6ec617e7d3d193d20c76ba85
+~ -[FAFamilyNotification init] : sha256 4ac9b9ab57937bde5cc8c69baa5fe3b3bc624316b946df65bc3cab31ae493582 -> daaf3b51e87b40682d17a656533ac181fe0620f42c20997147d2ff9d76dfb80b
+~ -[FAFamilyNotification initWithCoder:] : sha256 8f28ccaf4a2b663f4b0069b5868f59989eeb581a0d18727e3a22abd248f8efef -> 5018e18b9c1eacbb2c083a22e5361dae026b44fea096131a7e15ea6a88080a0f
+~ -[FAFamilyNotification encodeWithCoder:] : sha256 7f04fed088c888919cfc643be703447d54b1242d4857a4937149bc686da912bb -> 3200bbabd47aedd588b1261e515c473d01a4b61d1304927f82b3971382078b38
+~ -[FAFamilyNotification cacheDictionaryRepresentation] : sha256 9cc598bce0e22be004bd706bd6fce99e7803ad86c4360676eadaa123afdd9bae -> 67db9b708eaa1d6c6c53ec25f3ec116ec1f31711eb4a6d5b7dedffef609f69cd
+~ -[FAFamilyNotification initWithCacheDictionaryRepresentation:] : sha256 a985b0cae0c862c1baad1a7004f243fce3a261d718a9be84132e14c73c9349c3 -> 3569553a408c42f7c049f9acf774df1fdbce92f2ebe123403e45ff5713b19318
+~ -[FAFamilyNotification description] : sha256 05ae768f394b3ced8de2ccdb8ffd9a3e39692a3fa4e9894e7b209c5c7efb2c34 -> e584c61948fc807fbff9511b6d397c9f45538cb54b94e3de0e340102f915685b
+~ _FALogSystem.cold.1 : sha256 922c7993dfd90bb6b6b1371ede88f87010903331e3b880d6cb172ba5b5c6d434 -> 8c7d6237a1818efda105bea7575bbc404b097e22f66961a1151a67a4102c6bc6
+
+```

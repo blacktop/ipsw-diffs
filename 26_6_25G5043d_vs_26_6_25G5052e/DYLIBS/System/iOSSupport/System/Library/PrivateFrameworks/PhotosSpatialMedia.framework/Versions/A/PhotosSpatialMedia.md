@@ -1,0 +1,59 @@
+## PhotosSpatialMedia
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/PhotosSpatialMedia.framework/Versions/A/PhotosSpatialMedia`
+
+```diff
+
+ 860.0.130.0.0
+-  __TEXT.__text: 0x49c sha256:b74f2810a0ee5b368a6ec0206db937b8b26aaff8559f8c5bdddd47d3996bfa8f
+-  __TEXT.__auth_stubs: 0xf0 sha256:647af544a6b0b637d26398020b3fbf16d14b2f3bbc9c1a02dc14d99244218351
++  __TEXT.__text: 0x49c sha256:799b3ea8d2eec07b220d52f3249a943f5efe6a5b815b7681a9f57c9895339ced
++  __TEXT.__auth_stubs: 0xf0 sha256:cd06239486dfa1a38cda852842093ca84d57e7ddfe881d9d8c312b164e01fc06
+   __TEXT.__const: 0x40 sha256:9e2f4f33748de79e7f5d9a147e9f3abc61aef8c50600ac40479e9835bde77ff6
+   __TEXT.__constg_swiftt: 0x50 sha256:9e3fb41973119a3959054df414887e179830b798f20d42ff9ee8dffbf895c436
+   __TEXT.__swift5_typeref: 0x6 sha256:918769fcfe2eae86e1dabb816505aa20e5df31fdcd45580a1a9ddcb307c1750a
+
+   __TEXT.__unwind_info: 0x80 sha256:16f566048c76a751d1bc305509f0e70c2b981d668cb030d0cfe826cee15842e6
+   __TEXT.__objc_classname: 0x52 sha256:47f87b96995cf67c1e156b1f5699efc177440d3f70620e6999a65c5cc3014be8
+   __TEXT.__objc_methname: 0x96 sha256:b8d8e6d2b42828e89e3611bde9a5f05321cd10460d6e716c29ba8aec6ee3c877
+-  __TEXT.__objc_stubs: 0xc0 sha256:6e649c0e321cfd3c56a96c0ec80150ae2829a98c2c3c56cbdff007b117ac8759
++  __TEXT.__objc_stubs: 0xc0 sha256:a4717000061ebcb8b385515d227e4215251dfbe5c6ca2a9f00ebe50b0201a57e
+   __DATA_CONST.__got: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_CONST.__const: 0xa0 sha256:0dc3fd39d834dd0060a33a646c218b3756097e5e3a52478c00beb5ef8b70f0e6
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:20e186312b45168f62243e678c8a3dc9099233033fc342a2c524165ce985964e
++  __DATA_CONST.__const: 0xa0 sha256:94be88ad1533eb25a3c5806766b79c595dd925985a465b8fe973b01a74234ff9
++  __DATA_CONST.__objc_classlist: 0x8 sha256:f35f29ab651e407eb26ac4a21fa24ffa78c8fbe0154fb78b577e9776222c29a9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x30 sha256:c1792eae2d6286d3765195c8ee1c84b4d884b3e8062a18d676dd20a7c0843c1c
++  __DATA_CONST.__objc_selrefs: 0x30 sha256:ce1ffbb28f9901b5f170be814be8ffd0ca197c586b6a3cad33f1ae39ffdbba03
+   __AUTH_CONST.__auth_got: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __AUTH_CONST.__const: 0x40 sha256:d47cf6c4ef7024a72c3a293460d8f68cea9b93e7b6bd84549c8ba39748599ba1
+-  __AUTH_CONST.__cfstring: 0x40 sha256:cce27c32ae3764ed521b3226a9aad5f20bb3e2c3191ed3ab95c408044fb7ebcd
+-  __AUTH_CONST.__objc_const: 0x90 sha256:80db68847ff58501e949874e852afa5526d3b7a096810e21db98d4cfac0aaf16
+-  __AUTH.__data: 0x98 sha256:7e2a2b2dbb2b7b3c01e0c536191b3f9c4985d38b985bfe238b2fe0940da2bc3a
++  __AUTH_CONST.__const: 0x40 sha256:e28c0371ce92f7c6699b762d840cec3197b2a49f4ff7f8988dbd68bb567531db
++  __AUTH_CONST.__cfstring: 0x40 sha256:7aca26cc4beb212f621cca605a1b6618de6f54ddd177faef7c26544a09ec4540
++  __AUTH_CONST.__objc_const: 0x90 sha256:c20a914695f2ab0d3ff92a45099cbc34a901b8c26a9eb13b18002c9be19afa06
++  __AUTH.__data: 0x98 sha256:7d4a12928792808f613e31f7159b9fa86aab911d16c15e416610cc83decbe574
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreMotion.framework/Versions/A/CoreMotion
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8156A06F-2C08-312A-8BB1-185D14E76329
++  UUID: B1201D65-0902-3A98-8E5D-97CCB857107D
+   Functions: 8
+   Symbols:   80
+   CStrings:  18
+Functions:
+~ sub_2ca63c460 -> sub_2cadd2460 : sha256 6d60b63230073961cca9485bd34d2ab12dd0e5b004f47a90b401af98954b1f3d -> d732e4df00995dcb9bb35017363b5b03d8d06d2fee0b1e273415b89013262fd3
+~ _PXSpatialPhotoGetLog : sha256 78aacf1a26d4920ac189b268e9e331d5e87e0f44d0048272e95479ee5d72e187 -> fc8e8c24d058fbecf24b53fc005cb252142b24c0c425014188f2f6ad8747d890
+~ ___PXSpatialPhotoGetLog_block_invoke : sha256 975513e8d790c34d173ad170c57d32c3e3158b411efbc8b7836057d6ff7692e9 -> b95c7892d57c27059385103c6c8840711a445432235b3d0a7ec3cb060fe91382
+~ _PXSpatialPhotoConfigureMotionManager : sha256 6c6f9e682434323f90c92114fc3fb7c9c27fbdea57bdfa7855479cf051a951ad -> f175652069cdf44e253e9b88740f43eaf1839c58d776e80cfed442320f165dc8
+~ ___PXSpatialPhotoWantsLightSourceReference_block_invoke : sha256 364512c05ee33527e8ab5a519e06b69034e0060b8329f1c87276fd24dbc2155b -> 35f00cbcb7222b3169e863ffeb0f4ba732470cc3e9f05931c0f028ab696a05cb
+~ _PXSpatialPhotoWantsLightSourceReference : sha256 6a7ae533db3420ec74bcac81c2bed8ef1722af9a93e620c7257b61c248fbe0fd -> f37d524a3d2d73bdfe7c5a2c1bac9117c5001388a30e70fbd00a4893bd398f3f
+~ _PXSpatialPhotoMetalLayerSetWantsIOSurfaceCompression : sha256 939ff4a45975594206a539af6ae79a036fa00251fc2efa6dceba7d0d28859a40 -> 28719158e6cbfe0c3fd42ebbcafdddb3803b2a8bdee86573ff33875d6bfe2155
+
+```

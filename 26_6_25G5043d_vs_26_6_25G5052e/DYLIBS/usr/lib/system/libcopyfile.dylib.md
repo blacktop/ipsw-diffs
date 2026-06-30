@@ -1,0 +1,55 @@
+## libcopyfile.dylib
+
+> `/usr/lib/system/libcopyfile.dylib`
+
+```diff
+
+ 240.160.2.0.0
+-  __TEXT.__text: 0x7ca4 sha256:ba9f2fddc43a534bf14eeaf13ab0b78c017334be3f5feb2885ad8d8b498711fc
+-  __TEXT.__auth_stubs: 0x6e0 sha256:39e3f46b0b599dca611d380d9575582d60f96ca4549f7bd3d0143f1b035bbca5
++  __TEXT.__text: 0x7ca4 sha256:370272ef01c2155a611b7f0d1e83ef61597c390e0c4d499599abcea90b9aa9e9
++  __TEXT.__auth_stubs: 0x6e0 sha256:4aecdef2a15d4a732b626efa189bf0da3fd9d9d25889c9f13000103b09c97114
+   __TEXT.__const: 0x1c8 sha256:ffe08091a8d31a9e9ef40fddf94729d49a976b6b040aabae9e78c27d87279c50
+-  __TEXT.__cstring: 0x1bee sha256:d478f01e07399dc888585785edf92581581b676635e8aca44a6c56f9e3e6b7d7
++  __TEXT.__cstring: 0x1bee sha256:e54dd208e02079faa3f28eacc3aca0b524de5439e8bb05cd6185d9a1796b1947
+   __TEXT.__unwind_info: 0xe8 sha256:0414cc0a6ab326e13b3e7f13711297fb277974a6ba2036a2726456178cd3aa4d
+   __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__const: 0x3b0 sha256:ff3f48d1be7c61ec82c9d425ff07ae77193b25d8a2bffcb9031249c5a22a4123
++  __DATA_CONST.__const: 0x3b0 sha256:e573a3709a3bd0e2bd4de80e31467f9d9998e6a78aa9ef92a04563eb50f3eac9
+   __AUTH_CONST.__auth_got: 0x370 sha256:c23a5cc2d7277749c47ddcad301aa92fcbbaeab54e552813333c1306c5cf2425
+-  __AUTH_CONST.__const: 0xe0 sha256:79da6a4c14b70db3968d886cc2a447f4e15ab5b29ad6cd77c63d8a4f413e14e7
++  __AUTH_CONST.__const: 0xe0 sha256:ef533490d2f5b12fe3fff121bb8d170e0eef7d1770af10567b06431de347add3
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /usr/lib/system/libcompiler_rt.dylib
+   - /usr/lib/system/libdispatch.dylib
+
+   - /usr/lib/system/libsystem_kernel.dylib
+   - /usr/lib/system/libsystem_malloc.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: F56FC8DF-6FE2-3372-A8C6-8BDECB5883F4
++  UUID: B765BCC9-E84D-3458-B3CD-CA0B2D0DFA21
+   Functions: 41
+   Symbols:   177
+   CStrings:  199
+Functions:
+~ _copyfile : sha256 af961c83e907349754afa0b62cbd4179375de60d173e93bf22b34384478224c0 -> f85520f6a4451216d1bfa6af2f7613e1dafd90fc21dd8175476526473c3ee0ad
+~ _copyfile_internal : sha256 7eee246bfb242d19481840926df8a55922563a9005f5f5e68aaffda50d422cbf -> adb9a66547d230a002a4778f89c99b892a5a1f464e3b86b2c4b1963cd26f3010
+~ _copyfile_stat : sha256 df24f2bce0ffd50a69c26e7735f79a216ac14f49ec6a27b89bd74b361af4d816 -> 287a0f641aa7ba0c62ff610901cf9f2e9dadd87ad143ecc607e7ed592982ab09
+~ _xattr_name_with_flags : sha256 2d87dbc16af47c207416a7fa3a40b3a6f1e501072b420c7b73a375a4d669a2b6 -> 686f0594da6d76014ff3eb63b30b4ee25f15947feb7237a19cb2ed754858d8f2
+~ _nameInDefaultList : sha256 ae8df31349f5beffc81c5b928c02d0f33c6c39174f7459ceeacdd9d693811cb1 -> 3a5f0fc5df6e4acc7635d900f3436c3a0909c9710ae22b6f92c8deb8db38db8d
+~ ___nameInDefaultList_block_invoke : sha256 623e8d2c0faa85922959128ea020df4c8a1b3ef43082ccb3f6f483f3d56d60bf -> b065c78fe7bd80bbfd85b1d61d90c58e6c513f80a55ce2c0216feee307a1f554
+~ _doesdecmpfs : sha256 e166bb741bbe3c5a67ac10b4cb50889994b6227281194ba37cb0ea587be6889f -> 3aa23d168e86dde2258653c79864d6a5e9fe5350fe6de3f6b92d915812d16c96
+~ _copyfile_open : sha256 8936678ebce9e23a0cc3ac53f092ba92c4cba4cd18d867acd0ae0180ff55368c -> a1a38d2b7b6407bdfa1d58319ea716c808a54f51b7a8998292009fa7187621a8
+~ _reset_security : sha256 59b2f6ae5edabdb894f252c883349a276c30fafbb5b872b48cc6393657fe8f03 -> bf9e4c1e04902abf41269314bf7fce0e9ef4453d5e479cdf6f9fbbb8e95c9abd
+~ _add_uberace : sha256 164a2cf300b3cee08fb1d875886ac456577ffc2bb0a919a10b7d35b9fd0724db -> 746dceca5506e93b0a30e9d0ca1b21853895e1607de097340233258cf16e05f6
+~ _copyfile_pack : sha256 e04ff257a4aaa6c5dea7ee1bd598259e0b757e601b165df010240932d6391ddf -> fc43ba1e09d2be11732e2da9b0ea3c3f3e6d115f569bda5d9016755fa18e8e39
+~ _copyfile_data : sha256 171199ff0eeb510e01fadf2edb9f1c0b3077e33436fd4bae6d5fdaaeb02fb075 -> 0f16d1a6d5e1fb511a7f53263236aa67e0e13996cd67ac7129ddef27ce25ea83
+~ _copyfile_unpack_quarantine : sha256 8e0058b66b49bd39800a3be0dcc280bd652b43a392a528895aa7b6c279695a9c -> 4844a96fa429861ab5f708cf8f6f7773a059387db55a89319732d9ab13e5f98f
+~ _xattr_intent_with_flags : sha256 023ef3e39ae447f7f32ecd1a847844b334a8fff3de0add9700adb45c14e92671 -> e24fce895278741825b817c9072f48c21d457fd835e5fc42ac2eca2c42b6687d
+~ _xattr_preserve_for_intent : sha256 8357e463a17007dcf7db08f922f21d0784c79043aef89d62b8942e062f7c896e -> 684e5a2a7493887883145eac2960753e879193a51c9a5c9229eeb83a29376047
+~ nameInDefaultList.cold.1 : sha256 56b1c56215e465285e0f38d322b9143a9f146b600d577ec8d5f52cbbfb598407 -> cd3074962684b839d547df3b95b78b13429b3d6383094f25dac77a5e21ceda17
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CR_0ugAzZxlPRMkoMVUqvZZic5XXjqcmH86y1R8/Library/Caches/com.apple.xbs/TemporaryDirectory.DJhFSZ/Sources/copyfile/copyfile.c"
+- "/AppleInternal/Library/BuildRoots/4~CQ4dugDp3Dde26Ox1S5HXhEfRMxNdV03LA20J88/Library/Caches/com.apple.xbs/TemporaryDirectory.FwHtLJ/Sources/copyfile/copyfile.c"
+
+```

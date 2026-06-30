@@ -1,0 +1,102 @@
+## EasyConfig
+
+> `/System/Library/PrivateFrameworks/EasyConfig.framework/Versions/A/EasyConfig`
+
+```diff
+
+ 830.24.0.0.0
+-  __TEXT.__text: 0x51e4 sha256:6dd665ca064602e7ba9fae71e9489295a934a2d4f44b71ed59549e5ab179342e
+-  __TEXT.__auth_stubs: 0x660 sha256:af4c5a31adb6203f3c9e7b2c35bf776fa9626fc560cbe75db2a2d931175921d9
+-  __TEXT.__objc_methlist: 0x334 sha256:734bd663d232c48b2d34eed8069e2fb778035291319dd011055b0b325467c9de
++  __TEXT.__text: 0x51e4 sha256:12cba20fd02b33f1a166573b0896437827f627d5e597f970afebaf6d71a27849
++  __TEXT.__auth_stubs: 0x660 sha256:6705b6315815279dbd97a39867881563df09c25e8755e3d88f0a3743b91f2c9a
++  __TEXT.__objc_methlist: 0x334 sha256:af77da6d2a1db54463aaec5d4866b80819fde24cf03fd7aded2afd2a5e241e6f
+   __TEXT.__const: 0x10 sha256:059ae25443f258cdbecefbf7a4be573b805eba1c53c283caa45e27dd3ce8f51c
+   __TEXT.__cstring: 0x1028 sha256:ff09cca5a0d8977c7007b2928665b2457dd145ba844740cd71a0ff9faa5592f9
+   __TEXT.__unwind_info: 0x170 sha256:e31bd7c74b205af93e00e60dc186ba64346b9fe65559a345af603d183b4d09e0
+   __TEXT.__objc_classname: 0x27 sha256:ed72bbebe14a61582ac781ac8f15b9048b21d96573ad1520234f5ecb2ceb7f86
+   __TEXT.__objc_methname: 0xa32 sha256:790441187dc18289703d1e8d98921b52c7e1b169276866adf63f2e41ac4c712f
+   __TEXT.__objc_methtype: 0x5cb sha256:eaba90b2377f45a1cff95a0b1bcb3754cdc00f5ab700343914edc327b8faf387
+-  __TEXT.__objc_stubs: 0x5c0 sha256:0c85b5aac3c87cf87139c3f7d15414d89b15f3d3a3b219cff8607cd13e6ce3f8
+-  __DATA_CONST.__got: 0x88 sha256:e55407da23fa643529add5bc835420ae6f1b0d99671d5d932890dcfed7364bed
+-  __DATA_CONST.__const: 0xd0 sha256:fa9365fe301c2572ad79378620d60f2d8c9a5ba5fcb18b0e0ddc625383d9a578
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:33a93c4a1dfbee28f6d6aec7ef22722697144848d70449d1a73fa46223b3a981
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:0943ac598780f9f85c68d292c93df3c1ee709180bc34441caf2d84dfc840b6ca
++  __TEXT.__objc_stubs: 0x5c0 sha256:b442f8bf29ccd782b2bbc5b3c5821cb0e2058536176425b84858fcdd138e2435
++  __DATA_CONST.__got: 0x88 sha256:d9596d9bff452581bfcf6146a6a345ce8caa718c3cb3eff506e264734649806e
++  __DATA_CONST.__const: 0xd0 sha256:a1feecdb4bb12619618782399962ea8587094c1c8893d5341127b31c2130f1ff
++  __DATA_CONST.__objc_classlist: 0x8 sha256:d3f23563fa9420d9ef21920e0f575d0a7a516da0929d6dce142e0c0766af30ea
++  __DATA_CONST.__objc_protolist: 0x8 sha256:b4415f70cdc0ddcde8ad4fa7a2517d8624b736f896f12b67eebb61f1a67a2cef
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x280 sha256:704be03d0deef975455bcb6858258c14c3fa12c93b93ef35f75ebd5c7b11e1e2
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:1b680625ae35046bc5872228986e8ea2f8dfaedf7fbb1e1b58362fa3924e4d47
++  __DATA_CONST.__objc_selrefs: 0x280 sha256:7dbef738acf40a6337e6bfe7827b19adfefe20d6a0f9889d701e36c4c122cb81
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:46817e90f0319341490bcb883e4d1f959cc40b4c1afbef3f508f08c15629ea89
+   __AUTH_CONST.__auth_got: 0x338 sha256:7de592043d3613deb65a36d48372038b1b0a910e79f60b360988df59a391e970
+-  __AUTH_CONST.__const: 0x150 sha256:c8cb44cc62d02a63ba64358d8cc96fa3bfe9f9277bcb7906a72cf7f9686582bc
+-  __AUTH_CONST.__cfstring: 0x4a0 sha256:916012b73ad23d5fdef5578a4332dee54e85373af5f897c32b0c6fcd08eeeb2e
+-  __AUTH_CONST.__objc_const: 0x870 sha256:d747cf10b224e003c089632b8591a4687ab2bc61cb3a9b4e424c7afb5d8eac93
+-  __AUTH.__objc_data: 0x50 sha256:004327fd6d8cba2b283b1a860cc2f43da0c9871ac58a89e28f34ab05523ca7a9
++  __AUTH_CONST.__const: 0x150 sha256:516d57d2b61c7e8160a0d4d52d0af237bac41f786526ff9528d205234a4b64d8
++  __AUTH_CONST.__cfstring: 0x4a0 sha256:1f69358ee886692819e3487b997afa533379a78900833b18c791e58beeaba165
++  __AUTH_CONST.__objc_const: 0x870 sha256:2078e83cc041cc036e5c738f27f110b7b9e881b1cec51628ed51330e48b97b61
++  __AUTH.__objc_data: 0x50 sha256:b9d72102f94ca1d702fe061fd3246c6bd87b30602dcad4047ee5265d50c337b6
+   __DATA.__objc_ivar: 0xe0 sha256:0abbc552fb4ac10cdbc5f73553d86c99afed3193f17528903fcf50cc677d4a12
+-  __DATA.__data: 0xd0 sha256:5e71bb2da89bc8085bc969718fa4b976a4abc9c39273be9a8b6066db18cad202
++  __DATA.__data: 0xd0 sha256:ba13d462a19a6db26f13b4244995f24bcaa63dad6bcc16ed1360cb1b8fe219ed
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 22FB9150-D296-35C7-9843-ED98D8EA51E3
++  UUID: 734AB6AA-3611-39BA-BC2E-5FC40E188C65
+   Functions: 99
+   Symbols:   370
+   CStrings:  369
+Functions:
+~ -[EasyConfigDevice _timeoutTimerStart:block:] : sha256 47b117559734d1918939c9bc260a5c74f68cac3e45aac0c67ef40c313be768c8 -> 049117bea7204aeab550d577d9a05502d518942a1aacbb8ed7d49212a4c5528c
+~ -[EasyConfigDevice _startBonjourWithTimeout:handler:] : sha256 81ee1338928ef1c7ff4170120eda874b0f79ebdddb12a3f739e3e876daf75b4a -> b4dbe2873f1113b86ede943ad8f8ae055e272c54d7264204d59c56b34a7bc663
+~ -[EasyConfigDevice _setupClient:] : sha256 93144fc300f4f522e8c55e4fa065e6138027095f7bf38f45d51e71521d8fc178 -> 20e8013b9fa2b27c870c713cd0f032c7ab6a435da430998412cfce97a0b18227
+~ -[EasyConfigDevice _postProgress:withResponse:] : sha256 0175e5272cee4a7c948fc592683cae90c9e74fa428b979ca43cc76aaec9be0c2 -> e00fa4ea48aa907d2baa365361ff4125aa7659124200e06eb77ff71a46ad242e
+~ ___47-[EasyConfigDevice _postProgress:withResponse:]_block_invoke : sha256 967a3fd2930cbca7927a363a27f2a5de60df3787bbd5a57cc25f260db99f5bd5 -> 8b5a1400182feaa0db3501332a4865c0df064975b1cba7407aeaa4b74630f975
+~ -[EasyConfigDevice _postProgress:info:] : sha256 d11dd673d471dcdf94eff261e5129a8f653f5c4850c96d996d66e7dc3db61e1c -> 04ebb29112a8e442e27c98b6876f0dfea3abda968360cb7dc16b6cd319313770
+~ ___39-[EasyConfigDevice _postProgress:info:]_block_invoke : sha256 2cfc8fab02748fb412ad05a1ace2548902f82444f1b95ec19e6fcab254508b1f -> 0d7048080fda675d21a64f4f88983bd1f7ad59f9a78f59c4446651c080c83478
+~ -[EasyConfigDevice _postNote:info:] : sha256 befec2c498bcc9f0423611e8db93b1423962cf45485a4d2598339d2337eac15e -> 993758f2f5f835ac128567f9781ab98cc6168ce3c7c73e9cf8c35150038ea3ca
+~ ___35-[EasyConfigDevice _postNote:info:]_block_invoke : sha256 8ceeb5762c752774848646f31d26af787ba85456dbddef6dc2b5a13fd299acf5 -> ba5b1463aba3a769479b82fbcb847ffa8a0d7e4b6ff5c2c4de43627a272b8a29
+~ -[EasyConfigDevice _logEnded] : sha256 1bd8a9bc64e1ce36ae2393f373e2b710a733cf6facb8a97eba02e4db1f0ae9f9 -> 6ed23a5bdf4f13405aa28d60b8ae3bdd8110dfb7fe94c008e1d1588aa2005185
+~ -[EasyConfigDevice _handleError:] : sha256 cd638366a0b73e553dff1037a451708e6ff9856a0960367023803ed6e6a41021 -> abe9da607e74158c4689523581da35ce94dd96b1162de0ae8307331f5dec5c51
+~ -[EasyConfigDevice _postConfigCheckCompletion:] : sha256 23a0a56f20598af5ff41a9f247cd50d6b6a48fae9fa341fc52a0486523ebe1e5 -> 76181ce624bc38079557a5a572ee1f402c34c25cf85a39b1d27aba9ef8058bb1
+~ -[EasyConfigDevice _postConfigCheckStart:] : sha256 d4ae0c23e1d43508fad279f5591541aa2be86d7ef324f5666b543ff08d2201a7 -> 07044afde1b3a58974dd0830fb0d2df814f0595da0c416ee1a518d01eaf5b609
+~ -[EasyConfigDevice _findDevicePostConfigEvent:info:] : sha256 3430cdfd194cd7af9603b4a9b61aa450fdbe7626bfa14354df5e9ecfb75ca255 -> 447bb09af01da4cd03a021c7327cab6c36773c4a7b8d42c22198e63149be598e
+~ -[EasyConfigDevice _findDevicePostConfigStart] : sha256 15a0f9dbd973319b21b2fb6f74f1a7b763d4627ab0cd1ff5091e8348f6ee9045 -> 75b6d3d4c1a354d3f06c1a76bfd7d3ca8bec8244819bba7b1ce0d0245040d306
+~ -[EasyConfigDevice _applyConfigCompletion:] : sha256 708f504a9371f3ad241bd9a78cc7bb779657ab9e6b856984cb0ce158bbbeeafb -> 7c7888ebbf562b7569dbbb7f8ff9bfe67001304bda5de984727f0fd6e1fbbc5f
+~ -[EasyConfigDevice _applyConfigStart] : sha256 1b94240534d01335b558eddea0e96028cfca393661dd7a6957689b73270d139d -> f4b86c5dedafdf0084804fac7dbc7df861da4f77b3a7a3fb0229297926271adb
+~ -[EasyConfigDevice _pairVerifyNext:] : sha256 412c97618abca9089873c4cbc9cb4f1b573352e1af42d5631fb86f67062ad9e0 -> 00969c832cb84d5acda457dddd5d969bc3e82bc4bfdcea25c25e135a99364132
+~ -[EasyConfigDevice _pairVerifyStart] : sha256 d90bd3d4616ddd0a875223d8b4cf65f73f3f582250432746d5855f8d2bfdf366 -> ad2fca07f25b24213eaab5503580c375cbfdd994025b59cb32e1fc1650422fdf
+~ -[EasyConfigDevice _pairSetupNext:] : sha256 c13341e4f57721d93f2c990f89273f34bdd87b3212a53278965668e6178526b3 -> 2c049d1dcfd0101df2a3639c79c27d73a60823749c4811870cc4e32ee4cad2a1
+~ -[EasyConfigDevice _pairSetupStart] : sha256 109b9a0ea69d7cfd005361c651b00f4f25ffba07e4d4f6d0a67c9c851a928e60 -> 3f42db7802c60530513ff48e0e3f2aae3d7458d6e313201a23c580cddf27ff3f
+~ __pairSetupPromptForSetupCode : sha256 e838b2812e418518972d3bb472f10a044d164517aa2b26005777e92585d28a9d -> 30afc2f51c2bb18da83c316c68c93635e6abd87e0b9c978ceaa82c73ba95da9f
+~ -[EasyConfigDevice _mfiSAPNext:] : sha256 611c82be4fca7cc8d4e58b741059695e7960c55224ef470c33d0a1e8f1bb6590 -> 1611071db68345fba22500230fbe13f16b5e416af105d36654b46a284f7d86a3
+~ -[EasyConfigDevice _mfiSAPStart] : sha256 33424914f5236ef05fdb4fde07193a50a113099985c6c8b01ea0dcad8bc9d3d3 -> 2dc83824000998f97eccb20211e1d55aae2becfa069d8b908dd50ffa7c09714a
+~ -[EasyConfigDevice _configureStart:] : sha256 2516d3c1b28ea2ee62537e64043b22fdd92d87608496a35e4c4237c920645297 -> 48036f3f4d87ba044ede54553705d5178407512090b2aabfab94aee63a85b689
+~ -[EasyConfigDevice _findDevicePreConfigStart] : sha256 e0c62c6b4bcd3bc731130735407ca62d7efeb2a7ce03291fdf3b9bdba8763dbc -> 6c04e3814aade7e3d7370b474df34befce1e89cac2c035212e4d8b6e0b4edd15
+~ -[EasyConfigDevice trySetupCode:] : sha256 c02026f13cf515180639b26e8bfc3c193bfd30d3002e3188581e3eb020fc8853 -> f7c623c3f06b2b4652815b35fdcc7c553d1480e638fedebd28a1b97ab558a244
+~ -[EasyConfigDevice resumePostConfig] : sha256 e18ad6156663570b8dc345a129168324d4d4a045c51b545415e96168344cfc2b -> 3cbd714ea1c4ef4cede5437eba9d9c24e6604e4913c7ec0c0f3f33439697e030
+~ ___36-[EasyConfigDevice resumePostConfig]_block_invoke : sha256 63c97cf1ee360e8c72fa0173a8476cb178da74df4f3a78f02ca4e530ff38148a -> f07d12caa084ca31e495ea6fc7fcf8e5e311d82ab145600e235348f0cadf5555
+~ -[EasyConfigDevice _stop:] : sha256 02a0c778620c2c0daf7a8be4ac91369c60a067a7434126a0adc55d78d58564a7 -> 25ad52f11f80f56fc2f6bf90619e01c3a2ca61d43b19822611a0d8fc804e2a55
+~ -[EasyConfigDevice stop] : sha256 469d2e12862b3669861282a4a6712a7f223fbf00ad8bded370a8c7b55c3680ab -> 4ef4bd4cf3086b8d67b5af5db1aa53b5777e666dafea276016cc8ea6bd6ea261
+~ -[EasyConfigDevice _start] : sha256 3204c3ce27f401b3e7a6356db8506d0163b932e45c85e9522c9f0cc932903785 -> 7d7702dad122d5d859b24bfcd43c2e4b2a28272596d702c02b801cc69139f289
+~ -[EasyConfigDevice start] : sha256 927d50db64a331dfcf9ce14d923b371cab5e2a077f4c79772131f847419e0c0b -> 29e75886d984fff7921f9c07bacebf382ebe4f0f43b42d02cca45341c1449129
+~ -[EasyConfigDevice removed:] : sha256 b1b074fbb197200ec4235417696d8ccccd4d4f1becad3ac75ee2dbb70dc3138f -> 190f5ece53c9a6ae5117caf34ca3dfe90f3cb409f08756d6345b926903d654cb
+~ -[EasyConfigDevice updated:] : sha256 be0b410a8f31ec163559e9982b1ae49a139dc149d63629ca9a804292c9b30ca2 -> 78289acc4d33d2cebb0aa6b99eaa5c3c49dabb7b47a5a9b90064c8b39a48ad76
+~ -[EasyConfigDevice dealloc] : sha256 e9ffe9a64c11cad55c792c95d13f2612311450f7d3b145f02e541deaba24f0ba -> 07988bdd2b831c3d49f7dcff9ba3659e468cf1b9b276d218b34916a2ef98d41c
+~ -[EasyConfigDevice init] : sha256 660725abfc1796e68e6197f00f20239dd3e3a35d485ccd0c866bb614ddc02b8f -> f348ef7367d9ab57d16c41925d87dca6638ea6498aef6ebd423176d691f57726
+~ +[EasyConfigDevice deviceWithScanRecord:] : sha256 48482d82f9d6902c079d557bbf80cba08bb1e22f8cdf689c18dc8d8d4489884b -> ccd946f036a12891db5dc1ebc9c1965d3165113e2c70667351214a099b152e2e
+~ +[EasyConfigDevice deviceWithInfo:] : sha256 cc0492873ec28a3af9a0ee9df3e81790fbf5fd31fd2c2e8ce7cce335bf6e2619 -> c38cf3feef7d89e86f89d0df226f444e9fd016e9071d34628757f26b2e5d358b
+~ +[EasyConfigDevice supportedScanRecord:] : sha256 e5c43b6a7e947ae14d01a851b0ffff06fc0bcaa4eae94bd8f22aacf8e371ca86 -> 9a1d7d847de2403efe6e617d5c299e320af5015195f9156913ebd938ce8771db
+~ _EasyConfigCreateDictionaryFromTLV : sha256 a931da305ed8138130cbe424b56c2d330785adf1a8eb033b05f85df6f73610b1 -> b2e33550130ec810b112fa74f75479d1bba04bfba4537de6320e67fb68ef8a7e
+~ _EasyConfigCreateTLVfromDictionary : sha256 e7d82c2a0d0805f3f4b8ff288a6d50fcc16e14a0402ed7d2482f327d69cc5065 -> 26c734d0196b6b387c9127f1e02f411da29f88ed2e3f9804b75f2e6b2727e7c5
+~ __EasyConfigCreateTLVfromDictionaryApplier : sha256 1cbd6cd46209d469c81043e642ddda5eea69b25afa78856147d7e1487002bb65 -> d4a39260c72de84ea31c8eebe8d3701fb41f25cb67d8fcbef279e9f87bceb9ef
+
+```

@@ -1,0 +1,59 @@
+## FontServices
+
+> `/System/Library/PrivateFrameworks/FontServices.framework/Versions/A/FontServices`
+
+```diff
+
+ 157.1.0.1.0
+-  __TEXT.__text: 0x19cc sha256:3183fa494f96bf7b189cd780eac646072f736ce39145afcd4604eadc11da525c
+-  __TEXT.__auth_stubs: 0x160 sha256:228745ef0943e22d154d948f5ea038c220c697942b055687736f9d168d5601a7
+-  __TEXT.__delay_helper: 0x184 sha256:d10dad74407cd90a5e812f283d1901cd2797ab585096e17f53f425a92d435fc1
++  __TEXT.__text: 0x19cc sha256:a1b3cc4812613ce27045fe65c6855fbe2fc05aca020ef27ea1fecc055590389d
++  __TEXT.__auth_stubs: 0x160 sha256:30fcdcad22aa0270adf84f8870ec55c722b96de8341e933fb73548a65990ba7a
++  __TEXT.__delay_helper: 0x184 sha256:4ba9d964d85c21e164aa86f5002c116422305da3a55a85079a82fd869e639e98
+   __TEXT.__const: 0x4c sha256:25e2a62d71993d9a2ca47c7ee866d82ce50d6107113ad3e81518cb9535991cdd
+   __TEXT.__gcc_except_tab: 0x32c sha256:04dd7464a10e04263ad126e232e38974de1136255e54d010fb1240e01ee8deea
+   __TEXT.__cstring: 0x125 sha256:e406ed6f3255a0221f85a1252dfefaa8a2f1f038b35d681b58dd999c9f074961
+-  __TEXT.__unwind_info: 0xe8 sha256:4996f09fb19d2e1e8aba6a74b5cfe6c32a5ee37208694699247cb00e735627f8
++  __TEXT.__unwind_info: 0xe8 sha256:699da775e435b6553df42473a8777a1bbdb42207e83ea9082af025c29fa00f28
+   __TEXT.__objc_methname: 0x1ed sha256:7c98dd3feffb34fd62437267bd0511faf0fdd19845ea89fbcaf89c7f974f94cf
+-  __TEXT.__objc_stubs: 0x380 sha256:4eced00f910a50b7c01dc9c6df5fb9e11db0905aa8a55a430b8f1ef029111570
++  __TEXT.__objc_stubs: 0x380 sha256:b6bf487b0ac4e7eb1482c8eebd8c371499b4d6cab9ca58ba17a75bf8a12f666b
+   __DATA_CONST.__got: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+-  __DATA_CONST.__const: 0x28 sha256:af3a24eded46d2bfa9aa94b203f566fdd4160de2de6cf568f234a09746d2f392
++  __DATA_CONST.__const: 0x28 sha256:f0bdcc9d96fc7a197792f5abd17c30ede2b7b6736cc1bcfcb4394621a1b1c3f4
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xe0 sha256:c774af4570ce2f0b1759ea8aaefa13fc91a4d882face7de1d161c24358d19a46
+-  __DATA_CONST.__objc_arraydata: 0x10 sha256:5d0ff1329536afcc587f2071ebc8a2b93660c7291eea17b4c2e7a8bb7042f0ed
++  __DATA_CONST.__objc_selrefs: 0xe0 sha256:28c6d2044d3357bb1d227097c61a5888a8527d7d51a91222e1290a4dfd3e56f3
++  __DATA_CONST.__objc_arraydata: 0x10 sha256:7f469701a125e24a1abd30cc083d56c727ee66fd3bd6868a4280c7d0a72dd5b5
+   __AUTH_CONST.__auth_got: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+-  __AUTH_CONST.__const: 0x120 sha256:29322698baff9e4fedd45c486fbabc0dbb48b2157bcdf58753fe0afdf93a5267
+-  __AUTH_CONST.__cfstring: 0x100 sha256:c30e9d3584c171b3eb653a6068e824ff60a736558d1ba825e9164f56d50a3d3b
+-  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:9f917170d1c0b11111d73201e2ce505f468b520d13b309e61b36fe409766f29a
++  __AUTH_CONST.__const: 0x120 sha256:a29ececb8801d1524ee81c4b986a190b0ae0f68dd57a34db8f653da242359d59
++  __AUTH_CONST.__cfstring: 0x100 sha256:e571069bf4d6c79bd3494e8e5404ae735bb2368d44f461eb66f5c96924435cb8
++  __AUTH_CONST.__objc_arrayobj: 0x18 sha256:00472b26794384c12819aecbac80d4b2ea690ac3e955a67098798b6e150fb0b4
+   __DATA.__data: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CDA0799A-1129-3440-AF03-6FA7945FA9FF
++  UUID: B4CEE3AD-9BFE-3CD9-A9EF-1D5772CB8833
+   Functions: 22
+   Symbols:   114
+   CStrings:  48
+Functions:
+~ _FSGetAllFontAssets : sha256 47a784d52782aad3bdd4ee290e692549e3a51231a037b1e8c6cd2ba065ac1ecd -> 2ced96f82c94556d3055e141159832702edaafa6cf112543057171ecc187b0fb
+~ _FSIsAssetInstalled : sha256 30bc757c26179480fa2dbf7e77a0476389e8e41118b021400b3627d22560a60e -> 411da447246c60315ec480cebaa8293fe3d894e01d4235917605dfa55a04116f
+~ _FSIterateFontAssets : sha256 2cfa82e399dc8aa5f16909b67291ac27daab575fab7a74512716b77a725e2425 -> 4a25617820fef3ae54882d4bcf1ede5155089762b1717e8c60ecabe7721bd938
+~ _FSInstallAssets : sha256 b9b555a6d43cc02ceda08a6bc346015b774bd51fac514a3bd60e63b0b1f9ce85 -> aa9735c9e9a3469ad072176c5e2098db59cf43e1850f50a8b7e8f184de72edd7
+~ ___FSInstallAssets_block_invoke : sha256 95d373ba8d45546d9dcabd80b4aeb01c039c91c94e553c39dee732d5990546cb -> f2ed258b4bc1be5819107f624d1a8301a7ab2799aa51a17daedf1bc562f718b8
+~ _FSRefreshObsoleteAssets : sha256 1b1513a0d53551e98c0f2f77e8e84fdb287cb8fa91f18e6201bf1fa3c2f399f6 -> 3376a28e19c783b9334cb578f32383cc57255db16acb6451d3248942ce97dc2b
+~ ___FSRefreshObsoleteAssets_block_invoke : sha256 79d822c65ba5e6e460924b43d1f506cce981cd53eff55691299efb4aecef8070 -> 9d25bde8baa9d1fc787adf2ee07273e50b390f6fc984daeaeeb6e9e8f5f6626e
+~ ___FSRefreshObsoleteAssets_block_invoke_2 : sha256 5843d31db23e752e985b82307244a8f1e2d054e0637fc93c657fdd5966cc6dc7 -> 5c6c491c7e04798b2a768a6d51132596bfd69b7fe0f9e0003ce969243c9aa8fe
+
+```

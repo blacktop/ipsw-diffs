@@ -1,0 +1,25 @@
+## libQuadrature.dylib
+
+> `/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libQuadrature.dylib`
+
+```diff
+
+ 8.0.0.0.0
+-  __TEXT.__text: 0x2e5c sha256:9486a7ba5ecdfeea5eab23b880e4ac5de24e70b71d0f6514278e9b80b4b7ded0
+-  __TEXT.__auth_stubs: 0x50 sha256:e69ff9162def0679b8772453516961fe149a42e54a5a1fbed12b5944410adb67
++  __TEXT.__text: 0x2e5c sha256:e2f00c91e0ec5d63cb96f39aa24e30a0163e6b137083cdf820d0673a698e36d9
++  __TEXT.__auth_stubs: 0x50 sha256:5e8faee4b3f5d112bd86f7bf70fc11ef74e3318254ee1d0949b3824e2a942a8a
+   __TEXT.__const: 0xdc0 sha256:ad307f68959ef2657ec6cd5672fd5b67785d713236d71921792e254f44353d68
+   __TEXT.__unwind_info: 0x88 sha256:e81668cf679bd72d819dfe8a2516cd80c2bb3044407765f33509bacd0a8265f6
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+Functions:
+~ _quadrature_integrate : sha256 1c29fd9a02e2f25bbd09e751397fd21678fc30baa90ec5c8d2c1c05099666221 -> 4707dd35204bd091efb8defc72ba8a83129778c6dc1ec542efebca9ecaf88501
+~ _integrate_qk15 : sha256 a47c39a8b361c8b926c1d300f20b659036c5f8791a5c43eaf73f75daf7d5d8b1 -> 3d3ca09b7bfc92b36a1ad4c4889c8e9b131ceb6f8503461453ef58b29d4ca0fe
+~ _integrate_qk21e : sha256 638bf8c8b4885bd0c8a3667bd3b3ba5ce18b7af21e3af9268f52cdee59fbe7d3 -> 05fc72bbd845198cf6c6b279b914be12652019073fca9e7d81399d0be18da7a6
+~ _integrate_qk31 : sha256 14b759fa20e6bfa42804d870df69e0c69ab26cec8b7fb3572f58152fdb8ee8ed -> 3de206f3b5bb009242dfe82021e222117ddc0acc444cbad00604f614c6a7dd12
+~ _integrate_qk41 : sha256 80d778c28a257920ddc5fb09b81edbb3c9d9905202bd671e9528d6875fdc82cb -> 8ae8f9017cd4a5f45a0c1348cc58fbc35cb7534ae4a8c401e3de8d852dbc8c1b
+~ _integrate_qk51 : sha256 861c6a1f604e5842be3ee1897b16a5c7f5a4a3fc353f4b389c75ca3c26547e3d -> 547aac0867871aefe461f9f60de5c889ab75c0efb9b170bc370183d6fa828940
+~ _integrate_qk61 : sha256 6897a3d1e9737138ef8e9de9aaeb789956c76750396d327b74e0ca37404e5275 -> 03ccd1020fd6d89ec24a35c06f964414a7d085420b09b831cfe21ac432a5b521
+~ _integrate_qk15_inf : sha256 eb23e67c0ad2194916604397623eee6da712baaff71b04ea8553dd2fc20103e1 -> 187a02695b6f684bb46ab65eec34ce0060e583977b80555ee918ef2cedb097ec
+
+```

@@ -1,0 +1,59 @@
+## libsystem_secinit.dylib
+
+> `/usr/lib/system/libsystem_secinit.dylib`
+
+```diff
+
+ 168.100.7.0.0
+-  __TEXT.__text: 0x19f0 sha256:2f057ba0554c722521d9d466a03b186c2bb71b1b83f039245c169dd83f073150
+-  __TEXT.__auth_stubs: 0x4e0 sha256:0e3aa95cda33a7d47e0b4945372c7e16eb39f949bb3eb685100ba18a0d8a3a34
++  __TEXT.__text: 0x19f0 sha256:b2ea587d5820a3f1310377633902dde9c25506cd8d10f7b8f6035ebafea0c300
++  __TEXT.__auth_stubs: 0x4e0 sha256:e902f0dc7cf55d7e7edc50660f3d2a3d1f25a0fd0d6ea6cb8862ae8d4daa8643
+   __TEXT.__cstring: 0x8f7 sha256:af50cfa3de5a3398ca768b7ca4800b5237cdc2dbf6fdc37750066f7dfe33c490
+   __TEXT.__oslogstring: 0x1a2 sha256:67296f78e528d2a7ef346d21f5ce38e60a831e3c02d52c3fa5be5d8995e43537
+   __TEXT.__const: 0x30 sha256:e504585b71e9cba38d8d4bf8f1470201edd158366ca05c2b30266ca79478332c
+   __TEXT.__unwind_info: 0xd0 sha256:396ad86b67b10742992f817cf4c6bc9c7a647b8aa58fb4b33c754856a803926f
+   __DATA_CONST.__got: 0x30 sha256:17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1
+-  __DATA_CONST.__const: 0x60 sha256:dca4a10b0910c671bf49714c89e4c9ec374291256c028788d104e98b774096f9
++  __DATA_CONST.__const: 0x60 sha256:723ff80928f0c3a922d512f533daa3626603edc2dcfe1a1e8ae4551d64ed50da
+   __AUTH_CONST.__auth_got: 0x270 sha256:afc249b32e5549092c980b1995ea5401e73af3fcda168c1da9ae1bdbfce0d447
+-  __AUTH_CONST.__const: 0xd0 sha256:b7aa4e8b8377d76cd7da8e0055ac3b678f94eb6eaa55f813971594937faa5a0b
++  __AUTH_CONST.__const: 0xd0 sha256:ac1613bac2768eb495f246b32c4f840fdc439ff8ebd72eb0ee22b71687e90c5b
+   __DATA.__crash_info: 0x148 sha256:6da6349e97370e8d430272961ce52dff296ff7c22208bd465045a16f557b12e4
+   - /usr/lib/system/libdyld.dylib
+   - /usr/lib/system/libsystem_blocks.dylib
+
+   - /usr/lib/system/libsystem_sandbox.dylib
+   - /usr/lib/system/libsystem_trace.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: D307199B-7667-31EA-99E4-40EA9C632997
++  UUID: 1281AE46-5FCC-3FDA-A298-6CF15D7431ED
+   Functions: 41
+   Symbols:   139
+   CStrings:  87
+Functions:
+~ __libsecinit_initializer : sha256 c7b88be60bf4e9e73be9f0df2c032a4a863105e87332305aeba37dc9c45cb3b0 -> 57ad992ec9b3d33573d0457998b9be9cd22bade378f529f1a9cc64c9e676c514
+~ __libsecinit_appsandbox : sha256 95b9e91b4ea34d456da0437de0b1080f279e1ce0d0b179b1edee40a4f50d120c -> f6aeb5d931b82ef7142bdcee602e55abd775b307466ec279b3d66ee6da2450ff
+~ _libsecinit_fileoperation_symlink : sha256 96effdaa3022e6f9ea83c8b98b8ccc2d812171e113a5414a4eb92c7e57e36f4e -> ee81bb33990f37c74b67ebbc44ab61f02ec4767ceee51ad6c7e63fc9efbaab5d
+~ __libsecinit_fileoperation_request_send : sha256 c643c964566567a777bdd7ceaf092c191059df25c25b459779b7f15383a0379b -> 23e83c31a71eaedc12726ba4b87a2c69ee722d1aae6a60b281044b8b37e572e6
+~ _libsecinit_fileoperation_save : sha256 3392cccee884a0110b9789eec428e9e083239b66d3c7b48611b145f89484e43e -> c0f5a4387b4d23bd3c63d98acf6ef1359cb9bfa4ce87364e9bf3e24679eff076
+~ _libsecinit_fileoperation_set_attributes : sha256 8822620828e13518aedbd553866c97e7ba1480db9637d99a2c83fec0aa8ed0c4 -> 6b7d0e3814a0a190d72e7e17f0cfbf15314d594943a579688bd002b247fa5702
+~ _OUTLINED_FUNCTION_0 : sha256 8107b6f2f185cdc73a2401c736df0b8f44d1ada049abdf262f2b0c81ed8b61ed -> 4cff9c99404448f4f30e78a00272520ebc945e7049fa99ab6fa87cf4d0d2d5af
+~ _OUTLINED_FUNCTION_1 : sha256 26e6b021720ac5d800719955844870122cab92c3156c8bc7b9f603bab30ef7cf -> 47cd657fba080fe75717dc6be6aaea44ee6757c006be1ebbfe1798eb047acebc
+~ _OUTLINED_FUNCTION_2 : sha256 519c4cff1070f0cebf303d883739b4f94668af83b2e413a36fe15448b6168553 -> 37ff04ffaa2643d87ffafdd8c19f26dfacd3dd2955c7a56927df27a2107afd7b
+~ __libsecinit_appsandbox_check : sha256 b733bf6fd34ecfa7eadfbcb1acdab2ffa9dfabb51baeedaa80dbc6661e5849d4 -> 7b0db6bce8f19a2289abc745d5bd211a46fe8dab068801c226bfdafc28466f6a
+~ _path_is_mountpoint : sha256 9b1e9e62a5fda040d6083ee36ec3ff1d9d2f6b35a6e91729348be66561d5906a -> c74310a21828cc0f2d4d2913fda3adbb00918fa56f925f3cf30e294a66231d24
+~ _OUTLINED_FUNCTION_1 : sha256 c747e632771bba30be28a857c28c07a146538e4c6f100535fab50ad9ee926a6d -> 5d7b6f750ee50e709d9a63e117832ad572f73e71e7c54552a0265fc9bf0ac2bb
+~ _libsecinit_appsandbox.cold.1 : sha256 6f318de8d9f8cb52971f46d2e2ab77512f03a8056010f5ad74f9b81bd2c741ae -> 9acc68223033b7341c59cad60d1d4e2c789e8fb65c8b9a9826155034acee2786
+~ _libsecinit_appsandbox.cold.6 : sha256 97e7ee7e94b135cadc4139d2cd056986253fbccdbd6cb0a0aa51e0de287cbe04 -> 3e00a2fbeb5365d75f036f56b66a12dd409466d964c24561d661b1d0cc0b3d37
+~ _libsecinit_appsandbox.cold.7 : sha256 7b05efeaf20c148e5be8e2cc0f292176a308fe134cceb217b73d1ec9a806b7d6 -> e22e36f650ac0615649c982f20ca8c223d876f5afafa519948997edf028f0370
+~ _libsecinit_appsandbox.cold.8 : sha256 5142440cbf174417385cfe6fdc18ce1cab8ab2cb6b74a714886bdff2c0aab1b4 -> d76be52c8e04682207e5c972c1febebf4b5e2945f78ad593070d1584dcd5bde6
+~ _libsecinit_appsandbox.cold.9 : sha256 3b9fd030d6055b8e78aeea0899199016f3f6a8d719c865d66a5db315f4e73cfb -> f69a808ea568288e76c6cb92f0d445fa0030fbb117a3b7c544f9747eacc7595e
+~ _libsecinit_appsandbox.cold.10 : sha256 fa41b5f4c953cda68494b14e315784d6d0deac16387f32928309a9c6a0d56dfd -> f46340d9599ec9aac9f74d989d6c68000f4a2f23b5d34ecd8a39ff340579306c
+~ _libsecinit_appsandbox.cold.11 : sha256 489f215e1079dc353be3861809bf833d0afd4f79366baafa8862ee3dfc499ea0 -> 1cff1f899fa5af4146adcdebe51dd23dcc89769a4b5d96a35177db8076697836
+~ _libsecinit_appsandbox.cold.13 : sha256 728f82ce8a4bab99549dd9138e1f76f26addce20b36ee5d5dedc061d8629f35a -> 9e00d646844af78a1c65ac7a50723785efcf5d425c20dfd06398ab1ceefa16a2
+~ _libsecinit_appsandbox.cold.14 : sha256 e970bc0b60770679280f9546045209f4c0659e93aede5a871d521e7dd29337dc -> 10d1659f30035bd274c716bbf021320253857f490238de3c49a07ed59b59f625
+~ _libsecinit_appsandbox.cold.15 : sha256 15a30d72dfe14d97dff44ff4bfda8510ddf52328cc7ff5957ddf015c9778926e -> 4a92ef7e2582eef30c2f02abfdd3b4b7a3ac6ebac67a7c4c972d2ebcaf13fe0b
+~ _libsecinit_appsandbox.cold.16 : sha256 e2ec5792d5e20e76f24e5da8cca6bf9603dcb61ec5b558f4f0568c9ba62df8d2 -> fa296d625a8efd0dae0b96b667cc286ee49fd32f6d0414dca4a84453521162f8
+
+```

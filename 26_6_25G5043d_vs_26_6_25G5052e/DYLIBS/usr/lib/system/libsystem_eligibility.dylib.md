@@ -1,0 +1,48 @@
+## libsystem_eligibility.dylib
+
+> `/usr/lib/system/libsystem_eligibility.dylib`
+
+```diff
+
+ 319.160.14.0.0
+-  __TEXT.__text: 0x4b24 sha256:5a784a09b30092b8756da8aba5177ae9e7d7216210c93e5cdff259a8eb1e3516
+-  __TEXT.__auth_stubs: 0x290 sha256:718afa902ede22d475857f2130bef3ccf77785344fc7a8d261ee4c484698042a
++  __TEXT.__text: 0x4b24 sha256:7c6f4fda3b00d5a426cff41d1ac548464aa0749b33b6d6ba44e67689fe320f3d
++  __TEXT.__auth_stubs: 0x290 sha256:692ab5d76b48d086526be37c1f05bf415270e4816d220654a5ce49b1721f546a
+   __TEXT.__const: 0x80 sha256:e2541cea88235e0b89fc6574cc388d091589a436c14613628fa93a985c07d644
+   __TEXT.__cstring: 0x481d sha256:a752eaec03d7bd47ca3fb02a6f38930be647577abaa2dfdfc1b56041a3adae39
+   __TEXT.__oslogstring: 0x3d6 sha256:b153a83e73e1dae88d9e58e1bc0f64630716ddc199e05f6ae243734b71ed81db
+   __TEXT.__unwind_info: 0xc8 sha256:f35e133ae484f8ff7435b6b7c3c07db165040b95ffd97fa2da6ab0a366cd70b2
+   __DATA_CONST.__got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_CONST.__const: 0x800 sha256:7cdd3e1dedbfbfa7e139a08f3b3ee730e48c1f8c86ff9d4c641090c6d879e36b
++  __DATA_CONST.__const: 0x800 sha256:ecd0cac8241c461cd4b1d79ccea6d34ae6f3683f20c2326519d6c6deba52a653
+   __AUTH_CONST.__auth_got: 0x148 sha256:7b4499c3cc6e82a9da3100028f52af7f8c1e9ee60e33010a108e401989782962
+-  __AUTH_CONST.__const: 0x70 sha256:35ddd93e62e6aeb4f2a3522853a3eea2b45ead45045d2d52ac754e7dde587dbb
++  __AUTH_CONST.__const: 0x70 sha256:5758e7da746899c13f97ccb3474272d5adc5f9ff2c4b1b4c9df61cd4884b93f3
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /usr/lib/system/libdispatch.dylib
+   - /usr/lib/system/libsystem_blocks.dylib
+
+   - /usr/lib/system/libsystem_malloc.dylib
+   - /usr/lib/system/libsystem_trace.dylib
+   - /usr/lib/system/libxpc.dylib
+-  UUID: D0E2EC8B-2588-3A8A-9738-1A88C2261877
++  UUID: 6FDC18EF-C403-3F53-8567-5E408AD9D382
+   Functions: 30
+   Symbols:   83
+   CStrings:  449
+Functions:
+~ ___eligibility_log_handle_block_invoke : sha256 b80e69684e10b53cc96458e33275ff63c18227e5e4e9f0bf54fb07ae9a3a1e6a -> 407dc703ef7e8a7fc878e324c45fed8f2570336c47946c22eddb5fd3ce74b1de
+~ _eligibility_xpc_set_message_type : sha256 65572b63fac25f5da927dd2b8833b34b23d6d28d9175249a8977732a6681e848 -> 70b379d226283a8d18ca77ddd55587fe880902a8988b764d52e0305ab32be7ba
+~ _eligibility_xpc_send_message_with_reply : sha256 c7472c2a4236a30f229902d9ac5cbfced0a299a795c219b22456d24ab95e9d3f -> 50b81dec71e3427b1f55d83f63ee433b370be3d90bfad9abae4f1af47cee361d
+~ _os_eligibility_get_error_description : sha256 acc91e62138369b76eeaa807b3e1931b73f4bf7a3318422b14125b089f1f2179 -> c3f42e403dbaf032d4f154f418a0a12cca87711b5d5bfab96e178640de83b8d7
+~ _load_eligibility_answers : sha256 4bfaccec6cafaf39bccde2509191182a1bb80d07f4ca58ba1d4f0d391fc65ba6 -> f33802a57d9ee0c70be8be2e83673925b9feb242fbd3b18001d1d717f213ce18
+~ _load_eligibility_plist : sha256 d5ce4570846850083b6cfe989c798f45b7b2bf7839ebfc50b4f14c5a53ed4a27 -> 71427b404d6203701b0e0e42ab2f22929d8239957a4b691a156c74d8b42f9ae5
+~ _os_eligibility_get_domain_answer : sha256 c063dec0f7749585d02dff59cf2b6180cac2f2a2d4a7a9bdd6df59524b5e9806 -> 365f089dd97d242a1c2457e722619b4ee6d5a8b09cf439d410c18d09c06f6d21
+~ _os_eligibility_get_all_domain_answers : sha256 d79cdc8a97ddcad4ed155f783b7ad43471dd3a2af3a8e4d5a86c0acceca71534 -> d1d7f5f9fbc987a1b6ea35cf183c4733798941a12dff0dfb5587e29bc08576d2
+~ __append_plist_keys_to_dictionary : sha256 19042e2d64d884f968bb98029584a928b8e35a9dd74ab28adc133eff5fda878f -> ad919c75a871679ffbc4e743daeacb09a740b3b56da1b7934c87e10c865b0436
+~ ____append_plist_keys_to_dictionary_block_invoke : sha256 d6e806db46316a2406b8aefe0bdd2343b697aff2aea20864e14db7dc678e8d39 -> 3a090462c06fe595ffe7f0e128507818cf6292dfcf74516e8c3eb46e0d77b203
+~ _os_eligibility_precise_locations : sha256 f3624602d131f0e30649d49d2cd05a44e8067b15103a04d3249cacebc03c385c -> 1836902e610ca73c4504bcba3f55e7b8a5c14a886239a56e52da3784f746e83a
+~ _os_eligibility_get_domain_notification_name : sha256 7e8ad74880f808bf2a4c4afe12988ccf9137b5e51d8a234dcbe310a9d6335b58 -> 7075b962264f196c64fc47023f55f91cb1fccf8c50edde92abafa0f0c5f2c4c9
+
+```

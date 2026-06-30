@@ -1,0 +1,45 @@
+## DeviceToDeviceManager
+
+> `/System/Library/PrivateFrameworks/DeviceToDeviceManager.framework/Versions/A/DeviceToDeviceManager`
+
+```diff
+
+ 39.0.0.0.0
+-  __TEXT.__text: 0xc10 sha256:e70ecd3d5f5759619e6110d72a6bea1f1a0d3299749eea8c40c083dd87f1fbe9
+-  __TEXT.__auth_stubs: 0x100 sha256:46476b6061fa35eb052bc4f95c96ca1c688b3d3244c37b2119fedc55ce94b5b6
++  __TEXT.__text: 0xc10 sha256:2197df32b9115ee06289c052ed3f3cc39c0a71b432cbe006486979d9073f20cd
++  __TEXT.__auth_stubs: 0x100 sha256:684e8a6f476b1ef731f65385810cd9997e37c1bb08ba5a83d17d7dbe83648597
+   __TEXT.__const: 0x50 sha256:110874604b3aa57873658ec3d861c93aaff2f68e393cc59937188738674a57ce
+   __TEXT.__cstring: 0x16d sha256:5cb3dd339f16d253e20122090def5a78caa0612f7bcb92f493971c8f506334d8
+   __TEXT.__unwind_info: 0x98 sha256:de1720b6d158d900317f4174a900898ac35c0996b1080759a19dc118e66aa587
+   __DATA_CONST.__got: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __AUTH_CONST.__auth_got: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __AUTH_CONST.__cfstring: 0x80 sha256:f243630936d5d77877361b472e1664349d651a158f7c3f796e3d89140dcd9705
++  __AUTH_CONST.__cfstring: 0x80 sha256:7bfc833373a61ef1ca7887802b0397735c859e077af162f3aaf4ecabee809a1e
+   __DATA_DIRTY.__bss: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+-  UUID: F025C9C1-A007-3C1E-9322-289733ECC2D5
++  UUID: 9449C01A-8982-34FE-BD5F-7F0657D4F2C6
+   Functions: 16
+   Symbols:   39
+   CStrings:  15
+Functions:
+~ _D2DInitialize : sha256 533547c460a0b62b410c8e88265b3302ae1a6fa5c00cdf43ff5ce65ea5be66bb -> 83531390eedbc6993edfd8ec8faa9c5f69ca35536290338d1afec7d72f0bd44a
+~ _D2DStartAdvertisingPairOnTransport : sha256 9daea7797c05a5618c8818082b199ee9fd003e3fd1e5560ae1f2ffe3f8a6b5fb -> 8092f22d389104cf9bcb6235a7bf8352b1156cb82235de2f65431eba4f46d7c8
+~ _D2DTerminate : sha256 e49a0967b9e6455da31e20714cd33dc07235632107526c6d32679edc4d3b8bd2 -> 8c506fcc29a1502100da4738ad6a950b85aea487ca7216324cc3570f123eb104
+~ _D2DStartAdvertisingPair : sha256 697141e5c8c0bbdfed294d4a2102d706bbbea1973a117a607c46dfaf9222f63d -> d23b4d3f917db2512988ce02e75d867c0f122f87108ca6ac45987afdd858241a
+~ _D2DStopAdvertisingPair : sha256 4ebb5d23ab5c87c7608dec3fe50f17015915c83414c4cf9529583686a9173001 -> 0de85a29bce0fd6b98c6eca7a4f1897c6829efee3b9f64cf8cc295e39c84a3b9
+~ _D2DStopAdvertisingPairOnTransport : sha256 53628b334264dda1fc16105fcddda04441498e29092b642b737190693282a3ac -> 2423fb4ca5711e508ae1f462fa8a93e95c07b3fe9660ecf7cb5081691fa5cce3
+~ _D2DStartBrowsingForKey : sha256 4cfa116ef045df0140dbfd24131f6416d6e9707f52378e69467046544dc082b0 -> d5029e2df677e4a658f8ebd0c3ea3dcd98ee6639cf0751ca7d66a13edceefab6
+~ _D2DStartBrowsingForKeyOnTransport : sha256 5a79b7577b2916a142a9e487774ac07890142a03078fc2490efda4eb800f3c8c -> 1b5824c71df3c0fadf4486f972cf6ab419978ae70790f612656dcf3a722a8783
+~ _D2DStopBrowsingForKey : sha256 3198972013d0406819ae8f81c2512ce0a4f1674df01f7496d80e6f27760bf4cb -> ab455ba73f50c86fb05b2c14ed30a7699ce7681d41bf2cc1fb7fbe89a0efeab9
+~ _D2DStopBrowsingForKeyOnTransport : sha256 69c4b7f8128596ca49b60cf8e60dac4e2316118cdd89d0f5080a543a25a5199f -> 30b65de326adb7691e2ad418e89cd65b6ed7530eee67e9a7d4be17a59da38e1c
+~ _D2DStartResolvingPair : sha256 e1ef26e130615dc8687eafa2405cb9f63c511c3c50ee632517d5b1bea7c77b9a -> 7e806d2a1d905d73303030dd0e36a773a2dc547446a2c693e96cee26e024ae42
+~ _D2DStartResolvingPairOnTransport : sha256 3442c32319209211eafdb870db9f6b0bbef2085f74b7038792e72234da69e15a -> 6c6d8184a43afed7de3f0fee8b90a0545e9972557464889e6cf2ea2583f2e774
+~ _D2DStopResolvingPair : sha256 c99f6547afa123dbff72f2a4698ff49afed9d2af325477d529f7abf859da753e -> cd527acbd35052453fd163411cd797ea6a836aa338965215221267f9c24186f2
+~ _D2DStopResolvingPairOnTransport : sha256 3009dcda7f7d15e71934302955ee1383faad47bdd3deb1b5ec6e34d3ab01a38f -> 14f4e0c366a8588810ce0fe080dcd8aed3faba1ecd724bd719253f434e523446
+~ _D2DRetain : sha256 70d7e49a12e0dc86c607bf83d54ab0884f8be8fc340a4bb43e435b3a4d8a7974 -> 08da8a6c418a7a4adf63a7f5c1a9cc9e354d7531a04924bb78c97ac9f95db86b
+~ _D2DRelease : sha256 fe8a588eb2dd93fbbfcf8f05e448e249afc931da9ba0ed51bc73e200ba9deb64 -> 84132cac44d657a5aee57c5b9dbb743ba822293a63ab5c3cf7f1e089f0127747
+
+```

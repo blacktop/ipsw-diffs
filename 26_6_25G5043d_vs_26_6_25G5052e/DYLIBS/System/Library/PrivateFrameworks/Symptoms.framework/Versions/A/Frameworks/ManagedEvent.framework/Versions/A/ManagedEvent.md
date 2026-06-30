@@ -1,0 +1,45 @@
+## ManagedEvent
+
+> `/System/Library/PrivateFrameworks/Symptoms.framework/Versions/A/Frameworks/ManagedEvent.framework/Versions/A/ManagedEvent`
+
+```diff
+
+ 2169.160.3.0.0
+-  __TEXT.__text: 0xb5c sha256:f00d0b6ea2fe72af62d456e05c8ca4000299e4fd7569509d4d91a31478ba73f0
+-  __TEXT.__auth_stubs: 0x1e0 sha256:26f5576887dd58cf0f5d6b99db3670fba0b37c4a89f89e15c660ff6a3397c4a8
++  __TEXT.__text: 0xb5c sha256:1073fe16f5a7e1f1a20c5ddfae28fb150d5d9e6e07cb2d5e2fb05d89aa8f536a
++  __TEXT.__auth_stubs: 0x1e0 sha256:a9cd5c12951de3e48abbb2ffed285fd406ad6b42369d79e0f6f71cea92434c07
+   __TEXT.__const: 0x18 sha256:ced9b1485ede441ae9dcd37d213ed6bcd8df582b94ea0f17ad6cefdf3d4124d7
+   __TEXT.__oslogstring: 0x184 sha256:692985ddaba61134e971e24fb67a016eb4ef0976bba0e93200002ae7236647c1
+   __TEXT.__cstring: 0x776 sha256:4dda0797886705474335092f41ee337ad9037f81651b809fbf26ac85b6c26d8c
+   __TEXT.__unwind_info: 0x88 sha256:0a1e97bbe70b01ae35c0a7620b6d0746f2ff45164678c8c351e074b17d9a81f5
+   __DATA_CONST.__got: 0x58 sha256:10eef285deef7a4b7c82b22aa53589b7833df29de3814649c772bbd5c832f365
+-  __DATA_CONST.__const: 0x40 sha256:2ac47e3c08264c22e62d9a94b08c1b7ff06238dd2e71df16b9f5cc2faa338783
++  __DATA_CONST.__const: 0x40 sha256:83eb42c77c0ddf4e769f13342c1f6bc68d839cf33519bac36a8da90ceb2cb316
+   __AUTH_CONST.__auth_got: 0xf0 sha256:2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537
+-  __AUTH_CONST.__const: 0x100 sha256:7e4c73778674e859e1468b6a69f514834bf179f8319dc144db72095acc8a10cd
+-  __DATA.__data: 0x2a0 sha256:36b5a2ff080d6f3934bb52fa6cf69ce386c42aad6471b6225f191e01f630b43a
++  __AUTH_CONST.__const: 0x100 sha256:9e09bcce3eb9e585457578531dc10b8687fa7dbd66762dfdb57eb07cb759da04
++  __DATA.__data: 0x2a0 sha256:02d22535ef729bd74387876f2f26d2d19a1c606de9b58530fb564226cc8b06ea
+   __DATA_DIRTY.__bss: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 78E7B728-225A-36AC-A545-6E834A2E38C3
++  UUID: 9F53D111-6289-3040-AA08-EA3FF3691777
+   Functions: 23
+   Symbols:   161
+   CStrings:  95
+Functions:
+~ _managed_event_send_with_reply : sha256 b2c9fcde2c3ce44940e0a49e5181f11d0b27096832e2c9cc85b1fa4fe1f28ad7 -> 29ac56e079f6cc4b8355a2346aa2f0e9d787075b69a4b5f5af208128ff9ffdf9
+~ ___managed_event_send_with_reply_block_invoke : sha256 e143d7d778368c1cd874af556b1cf0ec93315f7ef63981637d186274292cf1f1 -> 5ffd9103d918aa660046f94556978fb8c339c130e232b7ceabe52195a9c95325
+~ _managed_event_fetch : sha256 a1694953c4ac267ee185acc5f92c7eb6298c6e69b7d53aff723a16181ab1acf7 -> 84be98f4c68ebb754fd2aeffa99be08855132fdfa3dd8263bf419f31231341f2
+~ _msg_requesting : sha256 5536ea40882d9a0820475ed18b31f8d6c4fc9fdd2d5644255d2f2bc3949a6eee -> b41588c8b2d1373c64e5144e77fa44e148757a943f92717d2b8f9629367c9698
+~ _managed_event_fetch_series : sha256 044dfd3b83154547edf7781e049d20170ee1f4a10b8eaac7c21017a30f72aa3a -> 5e75bb6931c1fa19c12a1d179c42076b6f3b0c839783f80317e81a7374fd9c94
+~ ___managed_event_get_queue_block_invoke : sha256 c20b25a9cc7a6a64949b7611a5697a323d6d808af2b7c062ef0a66b83ca40438 -> c57ec4a3b54c24b3de047b4f89405a68b6de780d54587c8b4259f760b6edbde5
+~ ___managed_event_get_connection_block_invoke : sha256 ec9047ac0034ef9f3c95a24f39c438668f1f8c2d18824767d008dae30444b632 -> 89d3f6272fdb6b8438fff504e9cc21f025e54e6b6ba49a94cc4bd23f5cd7f93a
+~ ___managed_event_fetch_helper_block_invoke : sha256 2b1340a32fef4959d61c861e69ced794cf0fd0df22a00f64349a7a6fba5fd8f2 -> b76fca3d567d71038c2a8021f444b7f2fc19e033519e602ad60941b22371de69
+~ ___managed_event_compose_from_xpc_object_block_invoke : sha256 fd2c2a46b5fa203ace80c6a4fde1ca25c0e18e8f2659691e993945c3e096d517 -> 47f8daa2231ec1ef41b2796188ec86cf77b71a2fa81765ce376647a82fbcb657
+~ _OUTLINED_FUNCTION_0 : sha256 64cb88a5c7e7ebc0094a81e7d7c9b7c63455a82db3994501f91d41f82dbedca1 -> 4ffe6b0947b16352f071d3402350003da84f4917f4ff97df9bdab92f2bbd1684
+
+```

@@ -1,0 +1,110 @@
+## BusinessChat
+
+> `/System/Library/Frameworks/BusinessChat.framework/Versions/A/BusinessChat`
+
+```diff
+
+ 30114.26.5.12.1
+-  __TEXT.__text: 0x27e8 sha256:777d8507757913e3a89e85f16695e3d7ee0c00d3f15eeb2c03a008d7e2f8cb06
+-  __TEXT.__auth_stubs: 0x170 sha256:3529c8a10643aa409aaebb0a319195d789374f15c39e125f64667ece0dda70c7
+-  __TEXT.__objc_methlist: 0x46c sha256:e0e8040f15db215e46aa019c56021fe4dac485e3b855bdbb427f7915acd72b46
++  __TEXT.__text: 0x27e8 sha256:c040f9a66bac7a044c7386ef5de81181b22a3cf0886e1080f511ca58c2e8989a
++  __TEXT.__auth_stubs: 0x170 sha256:63fbf8158ee651c2f1c06799f5dc3fc0d668a1cdbbb565b5373631ba07b37b73
++  __TEXT.__objc_methlist: 0x46c sha256:65fbc010676189199d9d7226cdba90f9f6d98a6e111ddeb28e7be1434f1f6176
+   __TEXT.__const: 0x5e0 sha256:1fef239ff4a955649b259665b512ab33b9176e28ca7b1658bf15dc320a52e9f0
+   __TEXT.__cstring: 0x24f sha256:588ba9f7c605ff84f2b1c52abf43242f4da6f552477b86aa3cdcdbfc008c5c29
+   __TEXT.__oslogstring: 0x11b sha256:70e3ce42b4cf61a667e38303f537ed3063adb0e8ae5620447dd812a3cf913286
+
+   __TEXT.__objc_classname: 0x8f sha256:c9f418da71086e3988df29737bd6d67fe47691a90e7ec19d68e310b5011fa685
+   __TEXT.__objc_methname: 0xc81 sha256:b58b4d32a706c61afc68b367a5533ca4264d6f554e551e6395d8fd7ee121359f
+   __TEXT.__objc_methtype: 0x2ff sha256:6a9490ba75bd686ee2ac4cf77abe58500bc815b726dc3a06784bd6bd62e7066c
+-  __TEXT.__objc_stubs: 0xce0 sha256:6d9a6f8fe8d5ec8d31b890b001170f666f284bd14ebdf65255efd2e3dfd1c884
++  __TEXT.__objc_stubs: 0xce0 sha256:c5dd4d4771c8fab112ae453dd85c2111cbc15c4a86b9881be0da4482a6ea76f1
+   __DATA_CONST.__got: 0xa8 sha256:e3c2af35d1dfc500e16f826a071cc311bf55003a3de77de7ea3376c6b6fa2857
+-  __DATA_CONST.__const: 0x38 sha256:273aca367a5c3da6af32b16ae7581f5f57d3e52d264d714b3229b4450777bee7
+-  __DATA_CONST.__objc_classlist: 0x28 sha256:e4c1de3d0065a4a882eaa144c8f337acdc06d7bf23688b91ad2f246a743d77bb
+-  __DATA_CONST.__objc_catlist: 0x10 sha256:3a5e3181ee1c1338806a6c31df5291a5cf2f73b08ae14f52c5f73bb3498fb949
+-  __DATA_CONST.__objc_protolist: 0x18 sha256:6114cbad1aeb4a778dde16b2efe40837d98ffa4a4e3ea0d00edbe690049dbb15
++  __DATA_CONST.__const: 0x38 sha256:ed9e6e128ad2db51ee2cade62779524a24fce0702a1207e34ae3999eeab351d3
++  __DATA_CONST.__objc_classlist: 0x28 sha256:3717bf71dd3177d9592843def056b6ef5511ca625af1871981492d205cfc82d4
++  __DATA_CONST.__objc_catlist: 0x10 sha256:a0e5df8883cfab6e0ee9a9549cde1ec5c24e5d0b2e9a611086c28b2781a0a6d2
++  __DATA_CONST.__objc_protolist: 0x18 sha256:5a4a90ff34385e0bad0e32297cea7263eb21bf6f42e87cb96554e76a89c3ab98
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x4a8 sha256:cfecc88c5cdd9297e5fc42f63f65016d7f0301cbe2e2787f251c3612f4adc695
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:e77606f27790594dfd06b0fff16e2de9e56325683e9d55a7421140e7d917eabb
++  __DATA_CONST.__objc_selrefs: 0x4a8 sha256:54d20032f74f6e1c7ab5992f4d23d64a414151a8209a68d63bc92678998f5311
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:442b50f161d6de551686a469f90890f116e2c25ab48c1543a7715cbd8d1d2624
+   __AUTH_CONST.__auth_got: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+-  __AUTH_CONST.__const: 0x70 sha256:049def4b213dc558347c7a4f9aa80db130e678f7d3cc914fe40056ceddeda8ab
+-  __AUTH_CONST.__cfstring: 0x220 sha256:1842af6856bc76ff2741eb034b3a662c17f987b7a4a73d1a8f759bc2da0f4773
+-  __AUTH_CONST.__objc_const: 0x710 sha256:5910d33f63913aad58e1ef594d6921e68f132180d23a6ae90438a47a9c42adc8
+-  __AUTH.__objc_data: 0x190 sha256:6a17d947d63f4866ff81f0e04a6a446641e0eebb134ba0881c99373319b6ccb3
++  __AUTH_CONST.__const: 0x70 sha256:cc201497ed7c76b230982825845825d98f53184a3db690e09bd04541ae6fadec
++  __AUTH_CONST.__cfstring: 0x220 sha256:203d620a7b6c13f0f05e5fc0fc5e63d730ab7c622a368093f9ff65458f906b9a
++  __AUTH_CONST.__objc_const: 0x710 sha256:9820c9181c6b8d05d1f5fba9f4c7dd1ad78cbae2138660f3a8bf076bf86d9a20
++  __AUTH.__objc_data: 0x190 sha256:3f277fd5dacd8ee868b3637e787961af2564f0902add4ebfd3580a1c3138206c
+   __DATA.__objc_ivar: 0x24 sha256:8099a380759a330ed3609628e087518f72393c430a5042a9ee1b1e52fbe85de4
+-  __DATA.__data: 0x120 sha256:6be9b1e0c63195e011c3ca5f6626375d1cd7ae522bcfd848a39e744f388d1ab7
++  __DATA.__data: 0x120 sha256:46bd4e8ca87c32222e14fdcff24ec953d28a53011c133383e0d76f7ea424a2e3
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 02A2BAFB-B685-38ED-9165-151D72C2DEA1
++  UUID: D53F55B0-2987-33C4-901B-C53C7DA7F9D5
+   Functions: 69
+   Symbols:   292
+   CStrings:  268
+Functions:
+~ _LogCategory_Daemon : sha256 d5a17eafac4b36360b82b5cab7b648ddce959aef317f0da82edd54d11a6203df -> 584359580e1d1bb527de3a02e9e2ce10f75e1f8dc39fcb42c4b9ba655210f775
+~ ___LogCategory_Daemon_block_invoke : sha256 555d0c5023cae6ab087df06896e99df6054880f46b734df254aafabd6fe95a99 -> 9e002f61bb862099eb12374c4962676d34a57b39ab005ef67ba77fd425d38072
+~ +[BCShared classBundle] : sha256 de3c90fc68b962d43db5a10e3feec8276c5614ec1567e5c93fae93ad56c265b7 -> e0aecf121d488d1cf5e311270292ed658585e67772e43f8bcf78df92ddb6231e
+~ -[NSBundle(BusinessChat) businessBundle] : sha256 18617c2fc4b58a55602f67d1a8184de8dbd34c01921307002ff2844f3b3d8785 -> d22b60bbae8de29ee7c6e0176865b1a29a531c5405f2703c2714db622866c326
+~ ___40-[NSBundle(BusinessChat) businessBundle]_block_invoke : sha256 4ac8535814e1c06b180cedb731f9878cee0697e0c9f6ec795c3b77ddf4746a4e -> 6f7331242820d25d4e35f1a64b3f5a293837fd9a358e833abe27541991dcd5f1
+~ -[NSString(BusinessChat) normalizedBase64Encoded] : sha256 e1fbfd4a73598c350ab43e4d776d72989528bdce3b9e5247bb0c10420ede420d -> d3ca24fcc8f3dcb6808b8fbde70332afe0ef88d9006c2533479dd7424fd12087
+~ +[BCChatAction openTranscript:intentParameters:] : sha256 aed10ebe10651dda5edabc883e9d8aefd4ab37c60257c28d7def3511e5ebc299 -> f45519d92fe869f012e5af0a5bf728f45300f9ab105628ec4a250346e8692aa2
+~ -[BCImageManager init] : sha256 5f7b4a2ce62fd5152fc5d85a6319ea7fd2ab06aa36ef9e013f7010ee544e5820 -> 978138f87d1398f50fbf07df7c696615ec9be0b3c1afad456be06df7853119bf
+~ -[BCImageManager initWithNetworkProvider:] : sha256 9342e45b50c10b0e5d490c8c13a14f68b59b1deb10a529fba7f0d27e7e63149a -> 9dc18712955b7053cfc1a575757ffea4c501391397292954e50a61e8b1eec386
+~ -[BCImageManager _fetchBrandIconDataForMapItem:desiredSize:allowSmaller:completion:] : sha256 f3a4e67372ab7d6a0da5ff4c8f3c3676e2026e133476597bf638cb0463967727 -> d61a253b78287fbfb0610933ee148eb6200b6b6ea0e93abc69d3a5484f09bbc6
+~ ___84-[BCImageManager _fetchBrandIconDataForMapItem:desiredSize:allowSmaller:completion:]_block_invoke : sha256 026ac41a09b0a4a7a5ed3274f3f7a7998de37edfe0d3bc43d509f571f6928300 -> ba98e3355c932a943665b709992abe91fd626cb555123d5a5f9e24b7ad9279ad
+~ -[BCImageManager _fetchNavBarBrandIconDataForMapItem:desiredSize:allowSmaller:completion:] : sha256 a0280508d0b4f8cf70c7d6364a8187b1ea2cf0593620b1b807a132dc33697588 -> 162eaf0d378eceb27d48210bd94b8b69c64a71ca48a9256c906d3376892989d0
+~ ___90-[BCImageManager _fetchNavBarBrandIconDataForMapItem:desiredSize:allowSmaller:completion:]_block_invoke : sha256 0ec04f683529e001f40985a6e066dd2cda5661f97ad4308d460850b5eb4bb386 -> ac47b2d0239056024ed942c7c81dce85aa044c4ea760cff336101e4e76142abf
+~ -[BCNetworkProvider init] : sha256 5a39fe2a552d267e1d49739fe2be67bfb353496b90987f5a118eac069bebdb37 -> 3aa09b356ec42b01de4cb953c0efd8ad684656fc650620eb4b876227336dc8ec
+~ -[BCChatButton initWithStyle:] : sha256 3cc604d17463dd7bb4181d839a62c0e06c03b036c38ceee196c70024b1fb9071 -> b1a5875e76bfef0ccd0e74b873854f9033390768f7e5eba978d8d4a6e3c8765b
+~ -[BCChatButton initWithCoder:] : sha256 0d95a2c001386036aa109a790abc83673c2bc504f211ecf30fbe18f4dcbac916 -> 4a5bcb72517d3c1078b77aa2d5ef5297601ca4fbc81025e9eee423e1507708d1
+~ -[BCChatButton encodeWithCoder:] : sha256 94f63e5208e1d1c6a45bdb115027b5ee01467f0bed8e90c63040458859826aad -> d50c62abb8d8a2557fef0e659413562078ae8f763e86c26c6ea0c75f089349b9
+~ -[BCChatButton setup] : sha256 12c909462cf407e98a26bd6ec094422dbde4ec34541cd26a52757b80e3fb014a -> dcfe4160649bfc2a553d38d94ff851cd420fa3a567a33f0ef2aa823f016d4d4a
+~ -[BCChatButton createSubviews] : sha256 746d6c3d03dc94fe5fa1803fe64e248ec5160993ad0bebadd745f7c6e93a372e -> 32b952ffc87db494ca2f67e545e5b13671e4230c718a455f21e180087d4f40c3
+~ -[BCChatButton setEnabled:] : sha256 44a53bcd567aadf3447794321df00a02e9c92b137cf04cc599086b4b4b9d3b8c -> 19b58cf824b4a1eba66ce0c200432eb1b81e5bc47e8b72c307f306dbc10a493c
+~ -[BCChatButton setHighlighted:] : sha256 21060865ea2808ed127c43c03d2d963fd980a5569b94cd4497d022eb75057384 -> ff0cbb3eccebf563adb2dddd83cbc2b0413b048416c594c580eb01de3c0ae5c2
+~ -[BCChatButton setFrame:] : sha256 7ef46760478d6c5065060cdf23d1cb79c3618c438ee76e77b00834ed1ae199d3 -> db12324d88c60dcb370e995f2fff7018846d531ca7834a1358393896d9270f31
+~ -[BCChatButton _setStyle:] : sha256 12cf9e9ea21d0208dba20021024ca8d7bc6f4eda063b7f8785bc30e7a35dc5ff -> dcbaf4b6697833e58b1595c9ebba88a719e9840782fa98558948d79e4e3a0264
+~ -[BCChatButton setAccessibilityValues] : sha256 e91cf0038696f257e45db0413e567269f00bda52fae8c0f6a1f9e27fcf8ba859 -> 23fa248936794fdf9995abfd879d29241ed1aecf3fb2af890c360141dd701ddd
+~ -[BCChatButton layout] : sha256 b45a3d256d2f7546510579f64588060fe6b301f274f875674cc5361acbad0f6a -> bfc69dc61f01490d05f5ea1e32ad0781a92f870212a9c8b1e1787502a0f3f5c0
+~ -[BCChatButton updateTrackingAreas] : sha256 aa09c65da8f826cb949828939e393d42e0b7d3322907bb5e5a0edb97df16631a -> 0bdbfa3d34beae0dac3e0416f3415d90b4cc5c77f5a6736eb4369fa3d93aa3c3
+~ -[BCChatButton color:] : sha256 7cca9ec44fe5305a17f25f9b047869daa006cb7dd1948cb29c88891c2d3bfb7b -> b80c53c37b6d9067949604cebc54c3637d45635d77d145756fd8e2a3d9cabe94
+~ -[BCChatButton mouseUp:] : sha256 97dfda59cf1819e7a5c19efb998b8e9ab3ab7641172857158f15fc75eb2a0138 -> 0f9a54981540dceed35a491b86a6f1ff000e99f3545c5871e30a116627ff6823
+~ -[BCChatButton mouseDown:] : sha256 b0884928a9fb4aac3082a2e14699f640199346f41e853d91e55619859632b179 -> da01b2670e4d31b0c25c7d8b4829e9b5ed83668e94e321d33d34f735a7961828
+~ -[BCChatButton mouseEntered:] : sha256 85ea8b164d603df262b3ced213ed1c169281462725c40d979ba90d4d3b76935a -> c45e14841728d53da791ea63c342e8de6ce9c625c6685fb133f9fd1c02ccf01d
+~ -[BCChatButton mouseExited:] : sha256 630d7521eda9e820914a0ed7f1d239a53109d1f620d47f24d73182c4ac4b22eb -> 3f2c513a0c876ad02942a403182f7d0fc4235094b4efebb18c0f3220c58561b2
+~ -[BCChatButton drawFocusRingMask] : sha256 90f7bf4d9b76115533008c503d4c6f834bb9235398f098ceb9d13e217369b6bb -> 5e7ba410b495cf5b4ffc282ca9ce71b72c371d92b4f23ceb9568d681cf25ce30
+~ -[BCChatButton style] : sha256 3c062ecb77ac60f91422eeda0f6bc089e1cba21aba6a65cb9b267dc19237685e -> 452e3659878af91e5616710a23541049600f9a2dae84804d02a868d98a6eb960
+~ -[BCChatButton setStyle:] : sha256 5c465203261ccc838be2b77d030fd94cf03090fd25b2bf846f59c6addced7a0f -> e892f39e8351460cb4cf77243e8fa4dedf4a99ba7a339c0141b127feb6eae9b5
+~ -[BCChatButton isInverted] : sha256 efee7b97d165e0f66013f1f52d8192983261e3de3747530cf539bdb980a98ae2 -> 79e073ce3e2baa13a65b0c9d3440f93f30fbe371c7e321f7e28400185dca8ec0
+~ -[BCChatButton setIsInverted:] : sha256 f1631991334b8e11da4b135d987daa2e8847d46caf0941bc73d32baddadd7492 -> df877aec4116dfa840c34cb86d9ffc35a0228ffbf86152c69b0017f9567d244e
+~ -[BCChatButton label] : sha256 1ac352d5cb8beb954d5b22e3cded1bcb725081a2afd82197d81de38c4dcbb12b -> fef2a00722c0888c0f345b2d40fb5f046974e8efea0e07ef8ef08ce24958d97c
+~ -[BCChatButton setLabel:] : sha256 0b1a27122945e4a771c71f0d245852bdd4e3bbc3ec1d9296a3114ddb2339aae1 -> 702f613ae00efbb93f4e9594d95eb7d2b1691da62b580ee5c3c807724253e7b8
+~ -[BCChatButton smallLabel] : sha256 35e387a8e0b3c41b53bf6f9c1c9736e540bbfbdce943436f4f64a72fb6f7d9ac -> cf671ed44f2c2f85185d19e3330ebfd55cb7dd0a7eeab173534071b71c7f3212
+~ -[BCChatButton setSmallLabel:] : sha256 c89b61585e3c978eb75ae4b6a27d164f98da9af7271b9a4be1a555d81c130cb8 -> ec54a5427dc67a45286df7b43c36e75872ecfa12fd4e7e37d038783413c63690
+~ -[BCChatButton trackingArea] : sha256 94e3c4f196ffe904282bfa4b8e220ff04bba038a97ab900e973ec28fbdcbd758 -> 65590156bbb0e037df894bc3443e5314461212422c6fb4724e01b505a8ad697e
+~ -[BCChatButton setTrackingArea:] : sha256 e2465f57c9fd007ede89cbea41edb3167fd7a5008b9af0b83475aba268e5160b -> cba1515ad00d9a74679b56601dc1fc0a6f309b50c2316f7957536fbd7a0a45f0
+~ -[BCChatButton iconImageView] : sha256 f2585e6ad54c3d0e873e29f137238703c34a98015e27878be87e3efc792387dc -> 50cf1db07ca2b7efbaf3bdfc38762dd9fbbdbd80b3541bfe680765fc12622c04
+~ -[BCChatButton setIconImageView:] : sha256 bcf61bd65551233fd5f1042cbe61abff89e0a2d24adad10a42bdec5aa920643d -> 8143430355b24931c14ab42d00a95f49993379d64833e8f83f9392925809fa68
+~ -[BCChatButton centeredView] : sha256 ac5ecdb3a08e9e1f21ca1c61d4f56abb9d40023b1249cb4267442d6782eb7bb1 -> 3980893a6ddbca02f096cc5485ea295242887407d2c3873797c9ec56375f43ad
+~ -[BCChatButton setCenteredView:] : sha256 89db6526243f74528030bf863e1292ce78d84bbe7659c94ae1e0e16300bc0298 -> 12ccc1d2af5bbf3b01b2f6ee5c6197dc5c539732c089bfe3201d53422a75193c
+~ -[BCChatButton .cxx_destruct] : sha256 87f87d0c86af6e297b2a836290e70242a699f46b04065234e670895033d0f7ed -> a033b051aa41e090761f3b3fe34e850979e237ca983370dc2493451072881cfc
+
+```

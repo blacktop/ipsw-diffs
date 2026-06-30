@@ -1,0 +1,18 @@
+## libccan.dylib
+
+> `/usr/lib/rdma/libccan.dylib`
+
+```diff
+
+ 62.160.5.0.0
+-  __TEXT.__text: 0x25c sha256:3b4767c46d9111d2f3676f36628c029f9d42ab36faa854fea70ad5d31078f71d
+-  __TEXT.__auth_stubs: 0x40 sha256:f31f26360054a53432f84dbc073a18226997e7eb0cc25690c448794a8c916e11
++  __TEXT.__text: 0x25c sha256:4f7ec8c09acb3e0a7d811b22b14ecab02c9b8c6b84005604ce2a124b8f3492f0
++  __TEXT.__auth_stubs: 0x40 sha256:e8c8833b98c39a7eb49d89cbf62cef5ac2ed10cb208bbc494368af1a85c94b49
+   __TEXT.__cstring: 0x28 sha256:6e677d4f3001c3989708faafdb30da39a86b3c1cf639261a2df9cd09510853b6
+   __TEXT.__const: 0x60 sha256:dd806370fa3185da34c951aa646ea708d29c8990d0836564a9ffe3e95b73061c
+   __TEXT.__unwind_info: 0x70 sha256:5542b2e97347ee531d8aef7dd02fa16ad1c5db2975b2c30407d150d9bbe33a8d
+Functions:
+~ _corrupt : sha256 bade44223645c61f78bcd3b6471aedb1659c6c258822fcecc89ae2a732945c79 -> b72cd174363a27833d271b35ba602b37e9cc0a4a3dc83e860695a8862233f598
+
+```

@@ -1,0 +1,55 @@
+## liblog_network.dylib
+
+> `/usr/lib/log/liblog_network.dylib`
+
+```diff
+
+ 5812.160.7.0.0
+-  __TEXT.__text: 0x1870 sha256:64f5dca54767d4197bef2767ac90324492dbb58a159369d54615233a69ce6884
+-  __TEXT.__auth_stubs: 0x130 sha256:aa94e0d0a9b3ec18a8ddeed4e3353573cccd4ee793c0459b34d8f949f7a52ea8
++  __TEXT.__text: 0x1870 sha256:4e1cb694732b72726598c79a65d1ac2a86856dbe07d6894323e306454b4c7268
++  __TEXT.__auth_stubs: 0x130 sha256:801aa513efc597d9895546cee832bde97bed72fa33c497e492a11be7b12d72fb
+   __TEXT.__const: 0x50 sha256:a8934f5f7dc9fa6ff00afb43f1f70ed2980958e4222b144ce3a99b1982e0146e
+   __TEXT.__cstring: 0x2f7 sha256:31a4d182652d49e8a04f42c8304e9f9b8d5bb4d9699716627176ee3a8a858aea
+   __TEXT.__gcc_except_tab: 0x54 sha256:5dd248296c31ac1791135c1ea30b1b713a6bacc070a4251d93f62f354388b84d
+-  __TEXT.__unwind_info: 0xa8 sha256:ba768228c9f5a000fe12d8b757323b6fe1534957a61f366f12156bd7775802ee
++  __TEXT.__unwind_info: 0xa8 sha256:cd21e757575cb1a4f968c12a3e55d3b6b89fb0a0972427071bb0b21cbf3e13c1
+   __TEXT.__objc_methname: 0xa9 sha256:4fce29cce4539392e2930b66c4adb821d35f7c019eebbeef1775f185fca99496
+-  __TEXT.__objc_stubs: 0x180 sha256:58d82c3d0152b208d64661cca0c32f1c4ff039ae3ff447eb448b82fb8b7e3922
++  __TEXT.__objc_stubs: 0x180 sha256:118db55ae21d4e0dde9c8e14b200f5e2a3291251ec809d092d98cd8189c96c62
+   __DATA_CONST.__got: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_CONST.__const: 0x90 sha256:d011911fe274de5cd7d453d0ab094a4ad251bf548fca23d6fcb028bb6a050fd8
++  __DATA_CONST.__const: 0x90 sha256:e9459c36feafc188d37aa5bd7d10eef72b2704bffda27668128fb9c46f9e50f4
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x60 sha256:2779aeb10aca5425b11cb12557e0e4608bb8c51a5056cd5b88822ba58f50b4fa
++  __DATA_CONST.__objc_selrefs: 0x60 sha256:350b02c37c44f06d42fc308158982a41f71c345b5d32c23e1cd8014af28b9e81
+   __AUTH_CONST.__auth_got: 0xa8 sha256:e3c2af35d1dfc500e16f826a071cc311bf55003a3de77de7ea3376c6b6fa2857
+-  __AUTH_CONST.__const: 0xe0 sha256:182ff9892068f3ccbdd370b2a12e7f555462b11589da561d96e1e3f8e1a53d24
+-  __AUTH_CONST.__cfstring: 0x380 sha256:eac6664e6bff43e6f80619103ae998b3cbb81b693acdbe9809141b156dccd52d
++  __AUTH_CONST.__const: 0xe0 sha256:a56fdadbeb87810ccb43c78f68375380ccd3a299becb806032164ab98a816ac5
++  __AUTH_CONST.__cfstring: 0x380 sha256:545075c1a66abf5dbf8c1b86e585a710869b6e0fd0711d0ba79d568d938d586a
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/Network.framework/Versions/A/Network
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libquic.dylib
+-  UUID: 234ECB4B-60D6-30D4-B6C3-E37CC8AD1000
++  UUID: 91852004-121D-3F08-84C1-56F61C4EB4FB
+   Functions: 15
+   Symbols:   65
+   CStrings:  102
+Functions:
+~ _OSLogCopyFormattedString : sha256 fa3f33e193beb7b2875cb8855b50c8636566dc40b4b46fb6e31e54ed379a3f9d -> 06db71b901812ce35c6ca67f0a6a47362c6f451aeb678e06e9debfcb529fd3c2
+~ _NWOLCopyFormattedStringIPv4Address : sha256 8523058f6fb40a54b9cdacedb8ece98313e21f8daa5844f0643a27330008ab1a -> 0de02af4f58f683cdedbee0772f2ea6d77a5cfb6f91da73f5867338cca02bdfd
+~ _NWOLCopyFormattedStringIPv6Address : sha256 8f51b4e2795d7632b05682242232baeb2c5e2e914008d038f9cc2b3c6668c724 -> 2e04c7c814d8838265e1a81fd5f2a3152428ce6170e14b0bf887bf6872a67425
+~ _NWOLCopyFormattedStringData : sha256 6d3f7cf03fda2a1b0f385b8eee2e168be1a2195b393b4a3dbb756bd0541e3ff2 -> 59855245e408e93136d505fa142a5c2031f1c81f14b5273a561d87f426971503
+~ _NWOLCopyFormattedStringQUICPackets : sha256 827a4e9986b570fce807f6c53eb2b22b3127e2cf24b798c279ce6e225bb458d2 -> 90227e76e1f49139bc03cd9816bfe624b642a01c58c774fd01b8de0848e9e30f
+~ ___NWOLCopyFormattedStringQUICPackets_block_invoke : sha256 03ec35aac60a357c50d2b89882add1eef1a8bb518978b1c17f0cb19b87cb172d -> 7d14b3b3419fca2ed21de92771cf11183163a345794081d0481adefea2fab8f2
+~ _NWOLCopyFormattedStringTCPPackets : sha256 5c00c26135d6b1d950d84ae3a6d1887b454ace4d5e0c7b17c9d747451fe3b024 -> 4691d4bd7788911ab9df2e70a4a7a55849d333fd83abc5562c50636acba000ed
+~ ___NWOLCopyFormattedStringTCPPackets_block_invoke : sha256 9a3140828d44233c6db522cbc8c5b27dfc61df6ff7370ae26513ad9c73bdf417 -> 3671ec7d36326fb3db36e708b6d4619a0c819b489606e4daa5b6b2a887192060
+~ _NWOLCopyFormattedStringTCPState : sha256 5af5ac4b4b4c24dbc4e15d179ff3c99c3ee85c99e671f7e557193da815e0b8dd -> 4497783504fd9c7ad8d917049cedb08c77f005575b71c18c8917850413915401
+~ _NWOLCopyFormattedStringTCPFlags : sha256 1cb23ad49193b6cb1544d5b6c3fffc22818abcbde9107cd16a230e088228c2a2 -> f87a9341fbbf0aa668462a5ac54a30b2d795e9d5d80d4d53cfd4e9eb26443185
+~ _NWOLCopyFormattedStringSockaddr : sha256 86e891a3226931e939e28e4b7736bd26e3d827f3c73b5b8d5176d85faebdb7f8 -> faa938032750aea5a489ae04344db4b16317c15b3ae60b9038297c8af53be368
+
+```

@@ -1,0 +1,68 @@
+## DASDelegate
+
+> `/System/Library/PrivateFrameworks/DASDelegate.framework/Versions/A/DASDelegate`
+
+```diff
+
+ 2109.160.3.0.0
+-  __TEXT.__text: 0xe98 sha256:6eb27bb8e15461ebcfbcb385330157201accfba2feb999686d133497a84e8a7e
+-  __TEXT.__auth_stubs: 0x110 sha256:44d40ab6b29c9e2b9699c24627d904dd2a696555598443ed21a27d666aaa7e2c
+-  __TEXT.__objc_methlist: 0xa0 sha256:d49b15bf8afd02396b61e95bcb22f0e59e8b5e9a2537fc2e616e536523bca71e
++  __TEXT.__text: 0xe98 sha256:ef7ffc723276c3cc0eaedd219419e5feefcb15edd4b5f5e4b85181ef76910cf3
++  __TEXT.__auth_stubs: 0x110 sha256:47119dcc1e3a7cb2e95c3b1c0e225f5ec6fa9de265aebe77fbc38d2374e6cc1e
++  __TEXT.__objc_methlist: 0xa0 sha256:8fdfbbcb72371df5b53a8bb97dad85b9238170c69bf6a7b5bd62cacc392b1343
+   __TEXT.__const: 0x58 sha256:e2019b8588e8b977c32fe56bde56984cf41f0a4ed582816ce629b2d0ad55f211
+   __TEXT.__gcc_except_tab: 0x20 sha256:90edb51c9b78b191f7edddbfd8e6aee76e485536b2d0ab59cdc13e6203c54ede
+   __TEXT.__cstring: 0xdc sha256:15cfc75f3266d4d01ffbc04c7204fad1286f39cb18a4159b5e6c8740ae9473b8
+   __TEXT.__oslogstring: 0x125 sha256:47f7c862479511e2a0382318e5db67d62d8a34e67107aa91511922039f05bd9b
+-  __TEXT.__unwind_info: 0xb0 sha256:3a4240ddb099cfaff7f5b861bca85ffc16f8601923e40519c911d7fa59f5970f
++  __TEXT.__unwind_info: 0xb0 sha256:3b2a19a8f742a0c1ca8774e23491f70cfc494d21d219f3a7069fdc855aad1d5f
+   __TEXT.__objc_classname: 0x29 sha256:a07f8fdf6663fa622b401d3dba60b67fd6d4b43f3c1e9b08bb5fd6cbfd9c2b35
+   __TEXT.__objc_methname: 0x20e sha256:6df6eac074d5de02f4c3ac83c93d5d5369e9cc8021585e3053f4a73858501599
+   __TEXT.__objc_methtype: 0xde sha256:ba2556a47f36baf61e602acc12e80e32bec545a852e7ca45297b07d640953db9
+-  __TEXT.__objc_stubs: 0x180 sha256:e8e89783e3ee61ca92052ff503fb1b837e0e83654dd245350579e55a598691f7
++  __TEXT.__objc_stubs: 0x180 sha256:b7f427fd5bbb19ab56551d51f491cfdcbd2ecc45972f487522523c397c62657b
+   __DATA_CONST.__got: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:299be101a2d9e3b9194bfd1b7a517c0b615c2c782faa708c5141141066cd440d
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:5322cf5b5d42c6442735e68a12516e8a220b2c619cbe397d6cf5e5c23190f35f
++  __DATA_CONST.__objc_classlist: 0x8 sha256:309ae6c961eefcdad0c0d0229c53942002629e19544b86f628c4efbf0dbe60b0
++  __DATA_CONST.__objc_protolist: 0x8 sha256:3c7241a5b6a1562fed24515cafd33187537cb723292fe1d76c1ddcb7ac05fc48
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x98 sha256:23e8db898f370a18d6ea51267231d0738a643c02239558052f8c69cefdac126c
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:28c6573ec87d868f58d08f0fef6c8e920dc4192a4661f2fea5b4a48a296d1eec
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:299be101a2d9e3b9194bfd1b7a517c0b615c2c782faa708c5141141066cd440d
++  __DATA_CONST.__objc_selrefs: 0x98 sha256:4b6554913681f1d8201c08888a9742c3028a89c86730f8c1c48a52e3065d4e5f
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:8d132004ce3287eb34497c0a4fe2c5111d45b5143496fc7cf8d0e970b2e3012b
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:309ae6c961eefcdad0c0d0229c53942002629e19544b86f628c4efbf0dbe60b0
+   __AUTH_CONST.__auth_got: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+-  __AUTH_CONST.__const: 0xf0 sha256:343b357e7d166819505eb6c09cca8b880740c72536013aba5a4aba84c8a7cd8a
+-  __AUTH_CONST.__cfstring: 0x20 sha256:625bc095156353ef67169da5943ffecc2309c3e16566c94b547911dc5ccf3ff2
+-  __AUTH_CONST.__objc_const: 0x128 sha256:0d4f63ffba153a8bf82fc0d731e628fbd05f9d8a29b81735543e981ab4b73fae
++  __AUTH_CONST.__const: 0xf0 sha256:c1f2704ed10dbd4d4ad8913e208e56ee25a1148881a5b4700bcdbeeaa8ad73a2
++  __AUTH_CONST.__cfstring: 0x20 sha256:bcc322b6e54bafc885f853b36a938ef85c3f2fe64ea1ec380473ee7b73f11464
++  __AUTH_CONST.__objc_const: 0x128 sha256:8b26593f1f25469a005617c8b1613f635044d29d6bce3216880d85c5f5fa6ecd
+   __DATA.__objc_ivar: 0x8 sha256:1842d9d60985977543496f68d38a01a5470beb95bdae33af49b8167ada489f83
+-  __DATA.__data: 0x60 sha256:3efffed951a871c572e2a28dddf7459f494166f1536aeaf784f3da2c3a7dddd7
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:6cfd8078a49fb0232358aa430ce4fa6013cc113362859170b25ac4247a56e42b
++  __DATA.__data: 0x60 sha256:9875ed75885fb3b26be848abf5bac5f56eabbaf7a58d400296af3693a816d10c
++  __DATA_DIRTY.__objc_data: 0x50 sha256:96f8f0716fd0a39311c60957e12ff35d4b13f6bbeb5b703479eaef32413a47f6
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 660A61C4-00BC-300F-811E-9A2E46277BB0
++  UUID: 333D6BCF-FB55-3A23-9BE4-D83D289A9D24
+   Functions: 28
+   Symbols:   96
+   CStrings:  49
+Functions:
+~ -[DASDelegate init] : sha256 a1a75a298087702a5b4abf7509f5a0764dd534da9f11ebb135dfa38be5e8ab50 -> c6bed54584b3bce5d283047b1025311cffeab4b9d9aed66bb55a215e3d8beb25
+~ -[DASDelegate connect] : sha256 8f06bac8fe6252c844e54f585ad8c30eb04d613552222afec52533ee23172c14 -> 1480f606f1525569010fbe07675e5b0a166d529a942dfab35a24fd5b40b01251
+~ -[DASDelegate appLaunchResumeInfoWithStartDate:withEndDate:withReply:] : sha256 799ce146d0e1ed7a0904b09d8c7959bf92859754c40cac685d7b0f7e41cca0a6 -> 8f016304076d833ee8f957ae8cd7f9de4198553efd202bb0cd0af3c07ba06527
+~ __70-[DASDelegate appLaunchResumeInfoWithStartDate:withEndDate:withReply:]_block_invoke.10 : sha256 87de1b861106aa3ffc86299ea2cb10debd90a5959bc027c7ad8d7a5e289b59b9 -> 53c0d48889893f6404fcbc32466fcb36bc5eeb1545f4c9f99b831222603a6545
+~ __70-[DASDelegate appLaunchResumeInfoWithStartDate:withEndDate:withReply:]_block_invoke.13 : sha256 74788dbada2a8cdc8380a91c01fe27c64ecae2fe2509c9ad074c32e7f3f65758 -> 0662d666c87774cb06c32c371a005f907dada9c83680d0946b0e249dc63faef8
+~ __70-[DASDelegate appLaunchResumeInfoWithStartDate:withEndDate:withReply:]_block_invoke.15 : sha256 78f22d028a4901c73c0748254cfa74453289c4267e67c018aa295432c8da836f -> 750d3fe82ab26a7fbd1c5b9c175c680930dddbf8a8278bc608c916bc0f881c14
+~ -[DASDelegate evaluateTailspinAt:withReply:] : sha256 9782b730aa28dedda40a47cb0b888af02ca7beb8388eb40adbd54903f9b52734 -> 722cdea5f3ec49675364aa2a6d126eff004dfa8258c966809d31321428e4f32d
+~ __44-[DASDelegate evaluateTailspinAt:withReply:]_block_invoke.22 : sha256 2b9ea580c361d6fecea5349b661ab55f154ab865a76602d1ca25e3de70e0ff4c -> 88831a4687ad481cc5575889aa6e67468c54ed0cd8d41fcf6e3daf8833102e3a
+
+```

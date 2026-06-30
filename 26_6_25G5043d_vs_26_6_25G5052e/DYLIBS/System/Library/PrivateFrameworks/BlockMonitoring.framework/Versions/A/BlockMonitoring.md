@@ -1,0 +1,90 @@
+## BlockMonitoring
+
+> `/System/Library/PrivateFrameworks/BlockMonitoring.framework/Versions/A/BlockMonitoring`
+
+```diff
+
+ 427.0.0.0.0
+-  __TEXT.__text: 0x44ac sha256:d0d5bea0fc3bdcdbf91db674b4c276f13233eb674c11c795d16c5272b795cc9f
+-  __TEXT.__auth_stubs: 0x650 sha256:43458ab12fd14c8b8de2e1d178dd2bf09bb90b30461f26ad9ecab70961d33545
+-  __TEXT.__objc_methlist: 0x1e8 sha256:c115f8cf5087da9fd90c5f53f9b5d2134fc7e7a160c0deba0f9e7eb2ac6fa499
++  __TEXT.__text: 0x44ac sha256:3bb1fc178c16c9b883023720069e5962ba698ed587095cf0299cbdf9884bc6c0
++  __TEXT.__auth_stubs: 0x650 sha256:faef8409474c16c0485bf470d355a6bc00ca26230d3fee7293696e381fb27de7
++  __TEXT.__objc_methlist: 0x1e8 sha256:48e053f8c1d5ff93f9082f45ac1106fd1ca3dc31edbcfd3877ce1b7239619a8e
+   __TEXT.__const: 0xc8 sha256:5f306f523dbde5e6e4dfde12e756a3829932b609ef3367f721be113eed058b93
+   __TEXT.__gcc_except_tab: 0x14c sha256:7b0831b93bc797d13b3197e01b4c06a2ff2d7e9c3aa5554ebc323bbc00473678
+   __TEXT.__cstring: 0x453 sha256:2831bfa7c0c01d343a1b85765991d5bd21039cc8e88cfd554735175beaa5536d
+   __TEXT.__oslogstring: 0xf28 sha256:64655181b651aa01c1aebde49fdb5a34c9fce64cce3d91031662200031a88263
+-  __TEXT.__unwind_info: 0x128 sha256:4958b38261c3c76e37f8a543f0029bf49c9bb6fb8601aa41626e041a940be9d6
++  __TEXT.__unwind_info: 0x128 sha256:ed40624a46b536c9860d1bf95ee50f4e9a71cdcb3cd99307aaba02e2239c3985
+   __TEXT.__objc_classname: 0x22 sha256:ce509a7a3151780245762ead1100f7038a116a7742c7c33c60dfe79b44c565b8
+   __TEXT.__objc_methname: 0x859 sha256:9a7bd4eb56de7aca44ee35c2b22d703f2475606c4b09d2108dbe8ab9f8eaa5a8
+   __TEXT.__objc_methtype: 0x158 sha256:ea85d43d36cfbe8d83cbc518833f7639eb618a1bf265ee87a44fffbfdd8d724b
+-  __TEXT.__objc_stubs: 0x560 sha256:8a9ebff178b8ceab6ca0737750b31e937c570e4d605d384616f321443c6e3d98
+-  __DATA_CONST.__got: 0xb8 sha256:ff99dcce7cc9e0e47407665d0228aa9d881b91133281354cac0e20adff370490
+-  __DATA_CONST.__const: 0x40 sha256:a140e85b480fb46853206fabd5fef9b040d2b57b7ee0bc07f8ca48bfa081aab6
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:561c3b3171713bf230f93d0f906c98b21a04d2299568c89f7058076ae7bd4e0a
++  __TEXT.__objc_stubs: 0x560 sha256:c847857694c9257396955e667ccfcef8448ac34d56afcbfee915c21effdf1aa6
++  __DATA_CONST.__got: 0xb8 sha256:ca06e0a72f75c78cd172e109bcb89862025e442e2f56a4c2b1e9fb16aebf2d8d
++  __DATA_CONST.__const: 0x40 sha256:99ba8e45b0f4b8f090c9bfbe50432cefbd149aee80d06f062328a6f39cbeaec7
++  __DATA_CONST.__objc_classlist: 0x8 sha256:49ad4c45d00cfc67653a1612176417bf86cf83257fe62176767a1565464d8171
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x248 sha256:b6064873289acfb57e5034db58ab93f39ec0f91cf142893cd2fb1fe857ed7461
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:561c3b3171713bf230f93d0f906c98b21a04d2299568c89f7058076ae7bd4e0a
++  __DATA_CONST.__objc_selrefs: 0x248 sha256:a362a7ff8523ef975ed305182573a95b63942614f715143d180c7713381c3f51
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:49ad4c45d00cfc67653a1612176417bf86cf83257fe62176767a1565464d8171
+   __AUTH_CONST.__auth_got: 0x338 sha256:7de592043d3613deb65a36d48372038b1b0a910e79f60b360988df59a391e970
+-  __AUTH_CONST.__const: 0x130 sha256:52da5401704152f02175f8615a31d43d30510ad105c45500523849d865ca3612
+-  __AUTH_CONST.__cfstring: 0x340 sha256:0850b4adbdd8295097462870498e25940535844bc205e2375bcdd37eea33fe18
+-  __AUTH_CONST.__objc_const: 0x438 sha256:62c86b837c39d4098ec7a1fce9d365acbb03791def90ca253db80fddba502f82
++  __AUTH_CONST.__const: 0x130 sha256:602e424cd694e4ef7c74892a816a4fb492400e16aa75b81f36fb6fd98043aff5
++  __AUTH_CONST.__cfstring: 0x340 sha256:06cde25c59bb91b2b74665919c2443c7a9e8e5e63127eb81fa3f72610dafca94
++  __AUTH_CONST.__objc_const: 0x438 sha256:d7383dc623076d5744dfbe24707949922c886689f927277272c8cc2d88f61a8c
+   __DATA.__objc_ivar: 0x74 sha256:f75350ac55ea2f7b81159da1b5ab915ee37c33f026ef9079197851fb74a5603d
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:772703648f7205079ecc2d109a06a9b7654f1888728b624ec52166716771ab16
++  __DATA_DIRTY.__objc_data: 0x50 sha256:3b550195961b2708c4dbec70fc991541645b0b0e2723dd4624c100be3727f596
+   __DATA_DIRTY.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D5BC7C22-C099-35AC-857C-99F3D55D8A1C
++  UUID: D8A7446C-5B7D-315D-9DC1-15F9F0506F04
+   Functions: 117
+   Symbols:   345
+   CStrings:  269
+Functions:
+~ +[BMBlockMonitoring sharedManager] : sha256 3531faecc13a39197f52370b802e90551741f97586fd7383fee71f07fd2711c3 -> 32d0ebbbf96514746251b27013fe6cbd27d6c60a72abd6a7a5df097e452f1eee
+~ ___34+[BMBlockMonitoring sharedManager]_block_invoke : sha256 4b686701082888e68aff50a6bcb8bad72cf2726600b88494bd51d8b226b25d5e -> 797e0a2f729b45d8e2ad4557424bebff31b826d6e6c4733b8625de0aced7c2cb
+~ -[BMBlockMonitoring initForTesting:bootArgs:] : sha256 167ad4f592c8be6233fa2c438ca021d29364cfad3bc28323eaf6fd274eb245e1 -> e8c38824cd2d2936863260872d6d2fbec95a900f215f1d1838d47324e0071b97
+~ ___45-[BMBlockMonitoring initForTesting:bootArgs:]_block_invoke : sha256 8e5a3c5c3f758e0fa87cd0ed0172297ea75e3ce1512abe983adb9bcfe78e9b18 -> d04afe4eea603775eccc40f58a8b836905798a5e21cd71dda9be41c8fc328d54
+~ -[BMBlockMonitoring parseBootArgInt:where:] : sha256 35fd97396576b99981ab01278e25ba500d149ddd87a4481a79920750ea0f9f72 -> f8076103439e327821bfbab8781bf1cd55bdfe746ae95a7fe9e11aeaadd90ad8
+~ __45-[BMBlockMonitoring initForTesting:bootArgs:]_block_invoke.33 : sha256 2caaec27559cd31c9d49f80524536f6719d1e2d48ce942b59ac4a50ea3820d4c -> d7e172d61f03e920a77ed6058ba5a41aad8e7b693edfa59fdd7ab67058260f03
+~ ___104-[BMBlockMonitoring takeActionIfRelevant:thread_id:timeout:options:recovered:diagnosticCollectionBlock:]_block_invoke : sha256 d6d99f9943c2b9cad0d5ae551a1c106be02899cd1ee9579278bc14613f560a27 -> 6ca86a5fcc056d899cbd6784473c8fe611828232d2233f973232158a06974d2b
+~ -[BMBlockMonitoring executeBlockWithSignature:timeout:options:diagnosticCollectionBlock:block:] : sha256 61b528f4d14e7dbe677ab8d6ca913fbe5208c2192aaa79c39563e7687bf07c66 -> c2df3876f1f5e6af25f4e90abf46b9767e0aa974a62c46e315da3bbf503e13f4
+~ +[BMBlockMonitoring(Testing) monitorForTestingWithBootArgs:] : sha256 dc574c356cbfb6415e03e966e2266736bcc9d690ec3b4925bbdf5521c3a2295c -> 3a1f96bf0bfbc4a12f610750bfd5f3ef30c02f834c223d04637cfcc1a8c3c2b9
+~ +[BMBlockMonitoring(Testing) computePersistencePath:error:] : sha256 c999ffa348f0a271cc323cce86852d1d9a50ef773fe953403a00e7911978703b -> 62cb2880023b4bf315dfa155fe77d0dab97620034922f7e599b3b690e7b77379
+~ +[BMBlockMonitoring(Testing) signatureFileName] : sha256 b55e68feca4356e9bc7b1a0e8d1c648eb7df991f92d6e4ecb7103d28fd9ad22c -> 5a4b8a2597bf133c3df62e5544fe1e01cda5ab9358dcbf7e4080c877fc5b7772
+~ +[BMBlockMonitoring(Testing) alertFileName] : sha256 efd3c8949a1b9f399c1956bb48c306b7e7e27acfa15afc9b2b29973a72fe6d89 -> db8ae12cb527623cffa43f319f47e059f973622f9338da0450e099a79ddea87d
+~ +[BMBlockMonitoring(Testing) sanitizedSignature:maxLength:] : sha256 919981db62103ae48c7a8298484c4ba79df0a0a5c41bfb07e259c43157967bbf -> 938b67b8c81e3e53a35e9ef4d875cfba2d830df989a889d9062947ae29146639
+~ ___59+[BMBlockMonitoring(Testing) sanitizedSignature:maxLength:]_block_invoke : sha256 3e546808b3e7b9aff82361b129c78ef8419e2894519d1ccd5d9f337e69d02845 -> 3565e9fe02c5d9212895b986cdd343f3eacfdeddeb9e608f3414fa4eff9baee7
+~ -[BMBlockMonitoring(Testing) isProcessBeingDebugged] : sha256 5e16a1ed4930935f121a130139c59b9f82a39023214d6e12a6ddbfe6d6f85fbc -> 63f9b3713cd5f00318aef34fa26f859d978db8ee278b3f10327451aed353a1d4
+~ _BMEnrollIntoBlockMonitoring : sha256 2324df6cfa0b904ac804d42f2b42bac3faa4d5526263415a1aecf6df7ad8b7b3 -> 0b6ae177db66acf85ddab76a096bcded1fc7ff07c69a162de7e6450f97b73052
+~ _BMMonitorBlockExecutionWithSignature : sha256 263b00dc0d30afadf5174c0543bec3bfacab2efe9cf2774ce588815362cbf8fe -> afd7d911f7629d5086addf89d5a4ffacf8f76fba5ca87878bb155cca13afe699
+~ _BMMonitorBlockExecutionWithSignatureAndOptions : sha256 499522dcf776d425276b19ea2d1bc07d0e3b58cd6be6d095972c44c6d65e9631 -> d31ccb73c6b39dd0d21f7c021e9fde9a3bf33c500df4cf74c61c428a297b96ea
+~ _BMMonitorBlockExecutionWithExtraDiagnostics : sha256 8ca45bd1ffa881318d2fc2317a32deed988eef6711eef3dc83cc793d966cde1b -> b976a7d1065c3b0a78d987f57e473ea0a32656b6d98fefe6a94027faa551b68c
+~ _OUTLINED_FUNCTION_4 : sha256 a9f180e1e36a48e749dbac6530738027cc5258ab948aec96c6e5ebb73359cb4c -> 72faa949023eeef770802881f50805daca2ed29452fc3e61973cc14d52f4eca7
+~ _OUTLINED_FUNCTION_6 : sha256 977addf05952bd6a2da99d7aaf246d1404a7194a9c141b73445499de298088c4 -> 7c9dc7ec2c2ab2284e6d86e5428dd5bf68647a7fff0d6376d2775b99c6b223ef
+~ _OUTLINED_FUNCTION_7 : sha256 2304d90b3248cca8e6cb06937eb7f4ca0c98ffb7524b8265eb5165da0975f1bb -> ae28de88ffdc58fd613daf52010020412b55f448a2c8477bf6996bb8e087c72e
+~ _OUTLINED_FUNCTION_31 : sha256 c5f7f74089d0448404f833e350f2867f2b1586666a6f787302b9a4017f025d71 -> 3af611714a16ee5e5b9caad74aee7b14774b9e0119a1b2c07a1ffd0d244d4cbd
+~ -[BMBlockMonitoring showBootArgsAlertWithCheckingFirst:] : sha256 11e3f36d6d409de87f322205c0b71f884d957745f0a7beadc5caf56b4ba1e8aa -> f6dd29c24178b17244e7829e2f02c43eb02d481179fb3b8e52130732c36691f8
+~ -[BMBlockMonitoring dealloc] : sha256 664c28476dcdce601e1bfd7ee09dbe3239a54e2138c39a953539c246e73e6ace -> d6fe03ab62c9a34a3f7d48778ef580e399dee33c7752e37a415cc56645ba583c
+~ -[BMBlockMonitoring takeActionIfRelevant:thread_id:timeout:options:recovered:diagnosticCollectionBlock:] : sha256 e337ef4b8fcb9272a9be965cdae646dbd9654947620b9b9c92f721d8a510740d -> 47a649676debbfdeca6917d834dc88f21770c9c1cdfd38bf0caa001803c3974c
+~ ___95-[BMBlockMonitoring executeBlockWithSignature:timeout:options:diagnosticCollectionBlock:block:]_block_invoke : sha256 d3868ec6ebb706cb640f007b4c24d26f1fb9c48ea2282e363f218cf41c237be6 -> 0aae45cc9debb7e15d98fa8666a519f154d2b0dd0c6e0d2a765f8c026929a232
+~ +[BMBlockMonitoring sharedManager].cold.1 : sha256 7c0bedd19af55cd373bd7bc9b095ebc34e8292910ae699b81c4d8a8875047ce0 -> 636948469e8b1470ba11423516b5e84eee1f169000eff4f307ab89680210d8b9
+~ +[BMBlockMonitoring(Testing) sanitizedSignature:maxLength:].cold.1 : sha256 d06b87ee103d8fa391f0b770cc9ae532e11cb67d4f64dc90653dfdf218c46c6b -> a988c0d03874f63259a70aa2d58e02bc7a12781b5a6e2ef7b58505d7756ef5f4
+
+```

@@ -1,0 +1,85 @@
+## LocationLogEncryption
+
+> `/System/Library/PrivateFrameworks/LocationLogEncryption.framework/Versions/A/LocationLogEncryption`
+
+```diff
+
+ 3077.0.4.0.0
+-  __TEXT.__text: 0x2200 sha256:1255e3ff19ec7cdd0a02a6178104c02d176aa22deb206105529ecc342e4a724c
+-  __TEXT.__auth_stubs: 0x2f0 sha256:e60ce016a249b284242978a41382a245404766c3a2ee7e54800c423d1c8f311f
+-  __TEXT.__objc_methlist: 0x94 sha256:099e49ec850927d287258abd331d3473410d0c9fbfa4245a01151bd4d2febdf1
++  __TEXT.__text: 0x2200 sha256:57a3eac50585b58188ae339274332ac629b624d9705bc35c9ae40c6dc59cfe5c
++  __TEXT.__auth_stubs: 0x2f0 sha256:1f39c279739a8bc42a8ec2d2d186d873b640e4ddbb2f00ae1d562ac87e85bbdf
++  __TEXT.__objc_methlist: 0x94 sha256:2c9edfd74683d41fdd70d8cf7e69acbf23e434ba20e5b62a522dbc59c94d0b4d
+   __TEXT.__const: 0x98 sha256:5cc466ee997ae4d3865675ce4880d236c33e10dca269c5dd280ef6a499cd1a7a
+   __TEXT.__gcc_except_tab: 0x228 sha256:6fa035857cd37207a150a7ade60c468b0701e7f3ad43e413c9284a02aea58f0f
+-  __TEXT.__cstring: 0x24c sha256:16675fe9de61832bd9a6ce8ddc8fe19ef36875f2d566912d73bb352abe0768f5
++  __TEXT.__cstring: 0x24c sha256:2cb9d28d3fa4d8ef352fa6eca71e1765c1b89801ec53452ca1b09da1c1043667
+   __TEXT.__oslogstring: 0x53f sha256:758cbf08a4dcce9a6f9006ab4ce20ba505693e190b1abfe2a12a1477b15c28e4
+-  __TEXT.__unwind_info: 0x110 sha256:1e2f2b2fc7eae29065b30f9a06d38482d8b3bf86e2e078126efeb41a73262794
++  __TEXT.__unwind_info: 0x110 sha256:57d97fe32dcb35050981303e47a0afa48e0d35f56897f2f0869ec1b1302e3482
+   __TEXT.__objc_classname: 0x1a sha256:8e3e51f4caa760a3c28d29e2047e9b41615e7dc1408c44e404a0f9380c885009
+   __TEXT.__objc_methname: 0x2a3 sha256:991b8510e59e5c416d6c275fe2750271b868e29deef57d2e19e1ae2528771708
+   __TEXT.__objc_methtype: 0x8b sha256:8c5d4321b76e2e900918948846b368235d1c5ee65a6263e979b99bfb49fb1493
+-  __TEXT.__objc_stubs: 0x260 sha256:cfe1ffb7acf8fffad44fbcd6981cec4bcbd3cc51e42004e2494019a16fbb9383
++  __TEXT.__objc_stubs: 0x260 sha256:fab91cf325911203f6129c193b02610408337d59f45a72ef9b22c54ed61cbf55
+   __DATA_CONST.__got: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_CONST.__const: 0x20 sha256:a5f303a7cfe30dfc4c6631056f6e10ee3bc251de89030ef4b065c7d70765370c
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:37d4f8d6cc76fd6b6e17492bcb65b7fcd7515e822a3ac044f58e087bf1100bed
++  __DATA_CONST.__const: 0x20 sha256:43cef68648dbf2fd63ef96ce09c9cbd8c03b78492252096ad92556c9b5a74763
++  __DATA_CONST.__objc_classlist: 0x8 sha256:a49c0bad0991e8cc6c66ffd6a859b0d05ec178351eaba35e0ef0fa2d696314c0
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xe0 sha256:17895bbcb01787ed23d01ca094fd8005862c0253482ba23f73abfb466d4e7382
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:e158522103c4cb77dda70bdd75b37a2f83185a6e9244503f88e0c2d9c3122f2b
++  __DATA_CONST.__objc_selrefs: 0xe0 sha256:ce9f411b4c881028fc35a0d9f10fa1e71be6dfafa38b592141279030b99469f3
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:43ddfce770bef212d345de9845b047a295192bcafeab677cfc124764458384dd
+   __AUTH_CONST.__auth_got: 0x188 sha256:3eefc4790b52024832ea4c03c6e7a781f3ef9416866a959b2777fce101ad9d61
+-  __AUTH_CONST.__const: 0x40 sha256:2f4bd52dcf9c206822c4483e93a56d04b3bf042e26bd84c757cec32e739fc141
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:7ce114ac6c05892e1be99d0dc2842e6ed39bffe54444bc49ad5ecfcf60e3a69d
+-  __AUTH_CONST.__objc_const: 0x100 sha256:7f542f3d6b9bec66835b820658a76e41a9a24d045358f30cbdbc8b3797d3e453
+-  __AUTH_CONST.__objc_intobj: 0x18 sha256:7945debeec69b4e023e95119c5a2a0ac72b5dfefadb5dd5eed0945411ba64d83
+-  __AUTH.__thread_vars: 0x30 sha256:f4507a633f7fd9900216883f25b64c5ce2dac5d71ebd2b7e121c45cb1aa95151
++  __AUTH_CONST.__const: 0x40 sha256:a5677960c5eae9d8ca1efaae85eafa1a112f9c1b81799339139a4093f9165963
++  __AUTH_CONST.__cfstring: 0xc0 sha256:54a577f07d3d6f256f4198ad36f989df742c8eccf9c44e560fbd81c19b0c455b
++  __AUTH_CONST.__objc_const: 0x100 sha256:041ceb40fe47b830a67c426e075d1a29aafa82bca0a4fa4bbb2b4909d68c421d
++  __AUTH_CONST.__objc_intobj: 0x18 sha256:104aed6bbf75cad1dccdcf465eb448c34463c5c3808095e6b5b1b1ac6a2e4997
++  __AUTH.__thread_vars: 0x30 sha256:ddedea387b79f05e829d6bf6419177256950388e5d6ecd99442e55f90212ebf3
+   __AUTH.__thread_bss: 0x2004 sha256:ee08408f66797c467e56d652fbf3cd6768598ed3a5920f87b06046b43d7c25ae
+   __DATA.__objc_ivar: 0x8 sha256:1842d9d60985977543496f68d38a01a5470beb95bdae33af49b8167ada489f83
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:3725c52f83f3d024991dccb452e38e4f934337453e87171ce5935c048460abe8
+-  __DATA_DIRTY.__data: 0x10 sha256:bcfe3a3a97a8de07da7a888680bc4ed4ec2c322075622d911b851183ecd2d3a1
++  __DATA_DIRTY.__objc_data: 0x50 sha256:4ba5ff6d20c9c395a77c8123c0698a3ae737e330d4bfcdf1cdab3cd9591f4431
++  __DATA_DIRTY.__data: 0x10 sha256:84b1e50772db04ebed9412dcb432bd84535c83abb529edfddc5a1a244762793d
+   __DATA_DIRTY.__bss: 0x50 sha256:5b6fb58e61fa475939767d68a446f97f1bff02c0e5935a3ea8bb51e6515783d8
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 1C86C0F1-DE0F-3D29-B70C-0EAED74AA9DC
++  UUID: 1E59D24E-4FCF-3D83-A60F-EF1B4DC6B2FC
+   Functions: 23
+   Symbols:   70
+   CStrings:  94
+Functions:
+~ sub_254e030d0 -> sub_254e6a0d0 : sha256 50dd89af57f41dbe7f3f4daed013df4c5a30981f470c73959aab88b1059f8f3c -> 58718f0e6449a3dd39d2db0bb67ce427d50e8810e6be87aa9a4ac2f1af9cf689
+~ sub_254e031a4 -> sub_254e6a1a4 : sha256 6172ed7d1fc8f8989526d02d700f39a011e047ad6b782d2283077a521b76a458 -> 92ff765fa4b0c17f3b7a19c7c73a26693d95f294704c1d8a11fbd5e94b6bcd6f
+~ sub_254e03270 -> sub_254e6a270 : sha256 24c33f09c50ed39ddf9df697da649ab67ec69300553a0608ed2b66d795b8cb06 -> cdabd186b65a21a9f9d7da0d7760a5da41aed8a1da7e21310cfaf1a39665bcb4
+~ sub_254e03334 -> sub_254e6a334 : sha256 797749882bb138a30ca9be046a00eefbc2e7405e86fd89356410b17beb49c2fc -> 5db5d3bebead087354dc281ac180606135659128e627b542306f0351601bfb92
+~ _LocationLogEncryptionKeyStoreDirPathForTime : sha256 5cce952cd51931c4576533d098e2c48d0d5be031ed413896a9a6efe3f6408d04 -> 1322ee975455d7ffcbfcd4f46469b841ddcb60cb467f5edcb94311c7cc03ce16
+~ _LocationLogEncryptionClearObsoleteKeys : sha256 77d514b58f9d05f698f41a9e1778a172546b683bba4371e22ce09e250d4bd248 -> 3b0bbcb384cb4c7b446494d2070287e60c4478ab0896d88a2ba58bed23fbb437
+~ _LocationLogEncryptionSetDisabled : sha256 d783a9676a976d9223a5f83cbc82d4b499e56917d1fff95bf8fe3d0cf6d3016f -> f31ecb36515347aa3827f71867023a2e714ee6e6665b55d15183c1bb07d8d603
+~ _LocationLogEncryptionDataSize : sha256 5b827a98cb6c0838ddbfc5dee4fe18ba0db3fcf9341b2ec618db939f86182115 -> cabb94223615a2e8b935dc34880e0987952a63dbb8a73ce822a7033824f94cd0
+~ _LocationLogEncryptionEncryptData : sha256 06e2c8008ed9f80d40c1ecad10e5bf1f7e48c38244a6ac54cbe20fcb98e6d4a8 -> 1756c663415f0c5fec4f1c1d77d99eeca44c8bffcdaee2998f75b311eeede539
+~ sub_254e040b4 -> sub_254e6b0b4 : sha256 17a19a1ce00af4179ea67a6baa027572da208296a3281eeaabb2e79738ff2142 -> 884d960ac9e919653c06292486f232f321159a5ae0192189efde307fc6bbd04d
+~ sub_254e04360 -> sub_254e6b360 : sha256 6cabd5e11fb965d9ae9c149dc15771e34acf0c40a381a8efb75c49bea5a698f4 -> d437239cf721e0c9781d3f359e6a3558132c910002b7f8cd1fd49aa80c35e3cf
+~ sub_254e04ac0 -> sub_254e6bac0 : sha256 06a963beb25895fb24cb85753c30138369b9b84dbb742a10538d1bdee31f6b02 -> d3f88a3a37cb88cb87fc086dba285e862133daf54026a7f25c1d229c6a5b9121
+~ sub_254e04c70 -> sub_254e6bc70 : sha256 ff1bed34e81757d17ceb26b8d7cd4ce4ad6570b0803d8968fcaef2424db8c1de -> b20d0181f20356a42ab1ebe6aa8f79c1c2d6b4d613b15d9dc0ace99214511e16
+~ sub_254e04d9c -> sub_254e6bd9c : sha256 0f77263d7c4677ccc9ce980c83de943f8f4b1d5ddb02e5feecfda0498be63a10 -> 48a310d3bdd44fc26a2b6fb825cea9205edc905b7e5c6331eabf34e901113287
+~ sub_254e050cc -> sub_254e6c0cc : sha256 901cbb9a56cf95815b35f05d5b6c9e8be5a19ad5b9631df2a01a687ce43d4bcc -> 99b46beb70b02556f58e208b674dcb109892103b3f408880e00a268433a74e15
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CSAXugBsL6CyFdyObpTaXxG8-w1vRDwX9NX3sKM/Library/Caches/com.apple.xbs/TemporaryDirectory.bHmlNi/Sources/CoreLocationFramework/Framework/LocationLogEncryption/LocationLogEncryption.mm"
+- "/AppleInternal/Library/BuildRoots/4~CQ4-ugBEirE-S4Zj6EJoY2RMYkp1fCzAYaSWmaw/Library/Caches/com.apple.xbs/TemporaryDirectory.NXsFY5/Sources/CoreLocationFramework/Framework/LocationLogEncryption/LocationLogEncryption.mm"
+
+```

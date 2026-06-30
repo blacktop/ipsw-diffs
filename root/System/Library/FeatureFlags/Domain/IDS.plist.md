@@ -16,16 +16,4 @@
  	<dict>
  		<key>DevelopmentPhase</key>
 
- 		<key>DevelopmentPhase</key>
- 		<string>FeatureComplete</string>
- 	</dict>
--	<key>RetainVettedPhoneAlias</key>
--	<dict>
--		<key>DevelopmentPhase</key>
--		<string>FeatureComplete</string>
--	</dict>
- 	<key>SMSRelayUC</key>
- 	<dict>
- 		<key>DevelopmentPhase</key>
-
 ```

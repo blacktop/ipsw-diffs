@@ -1,0 +1,53 @@
+## libswiftGameplayKit.dylib
+
+> `/usr/lib/swift/libswiftGameplayKit.dylib`
+
+```diff
+
+ 2.0.0.0.0
+-  __TEXT.__text: 0x51c sha256:f957d190a28c611cda39dd3ae855b54b7193581d3910f4f184bba2393bf87e21
+-  __TEXT.__auth_stubs: 0x120 sha256:16258f37304462db294ba6626c6ef15775a3c148428c6a20091c7d0deff8093e
+-  __TEXT.__objc_methlist: 0x14 sha256:2e085bd279c7f1bea9fcab17458d791d2227a744263e82c0d6698cb667c87697
++  __TEXT.__text: 0x51c sha256:3f33cec40d91b50ba08af018ad8539522ce28ae929443ead90985ecf4491a6be
++  __TEXT.__auth_stubs: 0x120 sha256:06672544e58a675111033848a7682a0ae2536c086b3698de4631068b65feb679
++  __TEXT.__objc_methlist: 0x14 sha256:ed5eede8525cf9d6e9469c7c6790a7bbf047a9a15fe194ecd7388f99c00691c6
+   __TEXT.__const: 0x1a sha256:c706d35fc49a7a0b101eab8164d995bb95ff13934ee69e7090ac035d26cfdda8
+-  __TEXT.__swift5_typeref: 0x4f sha256:11b922e16cf885ae2ddc57e6091d7a929a1e294d44ac752451e51a398a7eac93
++  __TEXT.__swift5_typeref: 0x4f sha256:10533c01b6bfbff7a0a696183d9fef0f48b6362f291107952460c21a31341781
+   __TEXT.__swift5_fieldmd: 0x10 sha256:5422b1e092f2cee50f9c9808f528bf788f588b59ee8bfa5d5b9cf79e10f562b7
+   __TEXT.__unwind_info: 0x80 sha256:25e01a5e3027b5cbee7d693d61c9562a28f2fc3e81a7480e94c8772b22025b25
+   __TEXT.__objc_classname: 0x2d sha256:5fc78b7d22d62187c939ebbbb85f9946526c482a56c62132878066904b89e026
+   __TEXT.__objc_methname: 0xbf sha256:18edf37a5668d767e7adca665b97100ad3a28eabe4a19e964e04060067db5f6f
+   __TEXT.__objc_methtype: 0xb sha256:8bce72cdf1cb4c803a1e64ea66cea6f890e149f43c2657cd056b52268a2093cd
+-  __TEXT.__objc_stubs: 0xc0 sha256:3c48d0ba87e2df0caf6d53f916bf96064126f2d78261f6a6ce5433d19aa219fd
++  __TEXT.__objc_stubs: 0xc0 sha256:6de71f4a128d8c5796f6b21129dad707aeef4fd374a4d9ca008cc2a52f95ffd0
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA_CONST.__const: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+-  __DATA_CONST.__objc_protolist: 0x8 sha256:3ed86585829703044277db4e1e6b5ec3c532aaad5033a19870a13fb93d9efc50
++  __DATA_CONST.__objc_protolist: 0x8 sha256:89773cfe62692ddafed25b228bcc60f440279c17f2adc149c218a9333e31efba
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:8c2e86a3d61473a17440ee60441113a7d285704a3b70278f03e88b3c356a5493
+-  __DATA_CONST.__objc_selrefs: 0x38 sha256:310335f2f7f185d596ca9a2d95e75ec92e9e6f2ccd3bb3288bc4079d7f730263
+-  __DATA_CONST.__objc_protorefs: 0x8 sha256:26cf9074074141e57b2143b81e87d8284386a564b3fd1630d67765aa4ab5fa24
++  __DATA_CONST.__objc_selrefs: 0x38 sha256:c024bf254e07c440d414afa4130f11389ba506850827ea4e56fda2f319fcab80
++  __DATA_CONST.__objc_protorefs: 0x8 sha256:058f43d1b35276a92bfa2b0fa1ad999a4e166de37781a7a34c3b1a9e8be8dd16
+   __AUTH_CONST.__auth_got: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+-  __AUTH_CONST.__objc_const: 0x68 sha256:dfbbc0751787b3b7f5943aa99c52287db925308ad1be4850d4339be41aa796e2
++  __AUTH_CONST.__objc_const: 0x68 sha256:d5aa026f149f877d74aa5272f42cae27516dceabbd9abcf6e149cc8fcdc97b02
+   __DATA.__data: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA.__common: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 8AAEEEF9-D24D-3CB1-BE5C-549A989E1434
++  UUID: 57E06E18-38A2-35FF-9EEF-E71B891599A5
+   Functions: 10
+   Symbols:   90
+   CStrings:  9
+Functions:
+~ _$sSo14GKStateMachineC11GameplayKitE5state8forClassxSgxm_tSo0A0CRbzlF : sha256 7b2d9a52c490c113721b9424e28a5cb82a63018126e4162b1306408639d3a2a0 -> 74a916852e0c78121ff23231f49f0a2f2327dd2c85c67c87f9ebdbb9e472c545
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5SIMD2VySfG_Tg5 : sha256 765e8aebba63d7eaffc7cb30c94f5262ed84064437ee6b841079488cb47ecc22 -> 56a7bf2a6a9a55667b3af3a9109092e066e058709ce18907e9cc7bf704b150d3
+~ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5SIMD3VySfG_Tg5 : sha256 af1e3b9c55b88380165159b071c7fff420dba529c7e4318ba50876982034fd7f -> 7c66b73523ef29a7ae35b40801a2acd7d8d2e54884ae4c888153f7565852608c
+
+```

@@ -1,0 +1,38 @@
+## XPCKeychainSandboxCheck
+
+> `/System/Library/Frameworks/Security.framework/Versions/A/XPCServices/XPCKeychainSandboxCheck.xpc/Contents/MacOS/XPCKeychainSandboxCheck`
+
+```diff
+
+-61901.160.36.0.0
+-  __TEXT.__text: 0x12e4 sha256:8cf183b39c713add1c800d2413fc12dc1b75776576ff003549a398f8c33cafc3
++61901.160.42.501.1
++  __TEXT.__text: 0x12e4 sha256:6b0e205ded11f87bd36003644ff96b687c9b2b9812ff6bda636885233b30201b
+   __TEXT.__auth_stubs: 0x3d0 sha256:271c4c198a08c7dc23f6978664325c8f0494c98f59252c3c855dbf146d4a8e71
+-  __TEXT.__const: 0xb8 sha256:ebdb71cac65048967b410f7bd88b3fbd3df73d7d3e352541b0ded0ffdb0f5297
++  __TEXT.__const: 0xc0 sha256:4773ab42d4ca7d382581b725e24885943067a3aa4d47e008e96cdf50c5ced035
+   __TEXT.__cstring: 0x1a7 sha256:8c6e47d7662855cc38825baefed9848d9879c69e3f3944a9e3d104de2b1f4876
+   __TEXT.__oslogstring: 0x309 sha256:a3066ff8ff92abf52c7ee01a7accc0e37765bfdffff272ff44ca5d4f734138ed
+   __TEXT.__unwind_info: 0x98 sha256:7a7ed4606f71b2856a2137ad82216d4cc7c8bf67fd62201d845fb5cb61d84a1e
+   __DATA_CONST.__auth_got: 0x1e8 sha256:5af9d6102c56b8e7819636f2a9c62f0500322bb31edb8f30acf1d3593cec47a9
+   __DATA_CONST.__got: 0x58 sha256:f619798e0ae0d3d2b17e0552641b4834937a5affddb824290fa96972cfe97345
+-  __DATA_CONST.__const: 0x150 sha256:b111e5986cd61166523ff5b629b3a302893285c5e6b2fa387e4ea4a1c3a21a1d
++  __DATA_CONST.__const: 0x150 sha256:433a917dd162591ebc205ebccc00b24af2d88494d09e859bcb49d262e8129cfe
+   __DATA.__bss: 0x18 sha256:e3153e0e347321aad53e9b256b3da82eb466b14e5af9d65f020c10a5c3038196
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /usr/lib/libSystem.B.dylib
+-  UUID: E90016CD-64A5-3AF8-B1D0-A8028DA5DC98
++  UUID: 91683EB6-323A-397D-8D1F-6793A33FC8B7
+   Functions: 18
+   Symbols:   78
+   CStrings:  35
+Functions:
+~ _main : sha256 41b748746661ff01f5344521ee71109f7cb439eae59cb580bb4875bb47d4af4d -> 4ec5360367997d6b8250b6d852c6bad7e3386ae435d1d986613701e55e75126a
+~ sub_1000008cc : sha256 59c4035636dc25605b3c788004ed361489bc4659c4435fd9930fc80271f541b6 -> 48d732afcd7c9c69d128ac0294fd782e211bd95d28816ccb637bd545e07fb6e5
+~ sub_100000e68 : sha256 ad29431e578e42687199b30598429f950048b3f418f71aaa5ec016f1f23d2a51 -> cde80d5950911e442a6c59f95dee2a43249e1a03687ddc126f9221d223bee08e
+~ sub_1000012c8 : sha256 50f8c7b2c248604e8d7cb5ef463d700cc37c1f86c47d635703bdfb1cc00e5ccb -> ba86e80592360f2861a44922e7e005cdde88a027c94ee5a276bef801dbe6abb8
+~ sub_1000014d0 : sha256 351db7a164b555382b35800f43d14a34e928606856afd7db04ce07e0a86cf216 -> 6088fca1ce91749b8386e7651d2504f02968712c072b15bf111f088bcddaebfa
+~ sub_100001570 : sha256 51cf790ed3ddd638201410d33a6d6c451194cddf097dbbfaf6a64f6f2695dcf6 -> 6c4bd5053f2fe1d2c66830c549565768b1f700522cf733f333d5ec24e1510265
+
+```

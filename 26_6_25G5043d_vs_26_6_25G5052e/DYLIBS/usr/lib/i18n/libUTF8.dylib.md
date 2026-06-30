@@ -1,0 +1,24 @@
+## libUTF8.dylib
+
+> `/usr/lib/i18n/libUTF8.dylib`
+
+```diff
+
+ 115.120.2.0.0
+-  __TEXT.__text: 0x770 sha256:82f25f8e7006f5a5a9c7692ab151934e2a03934a516d8819513f04a2fa0ef951
+-  __TEXT.__auth_stubs: 0x40 sha256:8ddf3029b1317978e6c3f83667ee928e4d41e976a33f8378a9a7fa9072f7ceb0
++  __TEXT.__text: 0x770 sha256:482d935234160be9da9c2e2443054acd8b3f58c709c1ed4fae707da236493c5f
++  __TEXT.__auth_stubs: 0x40 sha256:f26b3e801612c634d81090b6cc608c43a95ff0b2fe7acc6866ce2d5a5131930c
+   __TEXT.__const: 0x130 sha256:cf1452a6b4d56de4ad9f3f3fbeb4bccda1379111707b60f2b6322f6c48969888
+   __TEXT.__cstring: 0x70 sha256:036e8de250954ed5348d799f44be35904191b87cd684881175c7a52a930c2376
+   __TEXT.__unwind_info: 0x88 sha256:b94b2c7c9b7c7e608f7f6afaa8e9b85525b69e53e1639a5506fab54688470030
+   __AUTH_CONST.__auth_got: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+-  __AUTH.__data: 0x58 sha256:ac0b7c5c84c0320ca633a4427923c09464cbd6c58524832850ecef034943cd6f
++  __AUTH.__data: 0x58 sha256:1960ebbe12c101bf3da93675b41923925956d56e42bfaf28dde5fa3946f48457
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libiconv.2.dylib
+   UUID: EE58659F-4EED-3D96-BC49-6579FFF8FF09
+Functions:
+~ __citrus_UTF8_stdenc_getops : sha256 1bd2dcf6343a04aa6911568785cff5b46fa4bf06946be0060e812c4f25964159 -> 15f9b59d20e4dfd91689629703e47cf26e5d6fb01134ebbc3870c8c19ccc1e11
+
+```

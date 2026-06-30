@@ -1,0 +1,121 @@
+## AppleFSCompression
+
+> `/System/Library/PrivateFrameworks/AppleFSCompression.framework/Versions/A/AppleFSCompression`
+
+```diff
+
+ 174.100.2.0.0
+-  __TEXT.__text: 0x7cf8 sha256:4bfaeac455f55ee97b34759d9d3b9259113f1ba8255c5d91a7400ee9c5ed38c0
+-  __TEXT.__auth_stubs: 0x840 sha256:9e06df11cd8f21a2ff6df956e0be92eeed6092618fcbd7a2719483adb3861d4f
++  __TEXT.__text: 0x7cf8 sha256:84f70b93426dae7bd86f705e7d7e46b1c983253aa07bd82f72448f6e60fc9ce5
++  __TEXT.__auth_stubs: 0x840 sha256:7f99b7d6c502df660b3a2a0c934f74745d220adf126329c917d9ed0bd01e1949
+   __TEXT.__const: 0x178 sha256:c1124eb2c4d20be11187bb758c65caf037b1188f47adf9f09551b0c5c4393069
+-  __TEXT.__cstring: 0x231c sha256:2b2b7e7fc7d18a288732e869d9d12d63095129414aae0f7e229702f712c11d59
++  __TEXT.__cstring: 0x231c sha256:c64a724c026df2105ac6b7989333b1de1a8e4070b3dca7ccda449aaf72becfe2
+   __TEXT.__unwind_info: 0x1d0 sha256:e30470f18291e6f8be568619c424da649c88deb1370b427337186d5ac0673dd1
+   __DATA_CONST.__got: 0x48 sha256:834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400
+-  __DATA_CONST.__const: 0x4e0 sha256:1535c7fdb84a662426afd576abfe099478424d96163d03e3a523bbfcfc0ade93
++  __DATA_CONST.__const: 0x4e0 sha256:0b0c6c04a2df561512e7f06a0e280fb1780d7f97cc9e0203cb8344bd8ef12c6c
+   __AUTH_CONST.__auth_got: 0x420 sha256:10e2103ee73921931a7828ebdf325d3a3a64c7a90cc1da5c0ca6fe17b1e3dd78
+-  __AUTH_CONST.__const: 0x300 sha256:848a8373b9b384fa5e80309b5f5841834de682895e15bc620275d86450301fcc
+-  __AUTH_CONST.__cfstring: 0x1220 sha256:9756e8532e91a8747da48c3435693bc2affbd95fcc6dffc68d8acdcd0f7e5c47
++  __AUTH_CONST.__const: 0x300 sha256:ebe8c9d77a4415d808d06c4295897b88b8c63a125391cc98c716aab5b6b1c2b1
++  __AUTH_CONST.__cfstring: 0x1220 sha256:da76718eee2826d70c3faa647e5198719c927ccfc8b2bb0444b4237eea9416fc
+   __DATA.__data: 0x4 sha256:ad95131bc0b799c0b1af477fb14fcf26a6a9f76079e48bf090acb7e8367bfd0e
+   __DATA.__bss: 0x90 sha256:81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/liblzma.5.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 063736EE-FBA5-38CA-A15D-C694AF3020E3
++  UUID: 86B516FB-B080-31B0-A56E-8C934B72A4FB
+   Functions: 105
+   Symbols:   189
+   CStrings:  357
+Functions:
+~ _CreateStreamCompressorQueueWithOptions : sha256 cf9a7b55180401210ed66f3571f997486e91f82cdb5a17592fdc7fe4feefb46c -> 6b985fd17598ef46e4dd75a6d7e233c92778eec66cc5e12d6d0219bd9724c110
+~ _CompressFile : sha256 10178e327d5e5eb294f181926a5fb136cd6c6d69858f06ca25cbeb61a5b216e4 -> fab0c2905a0623198b74a5f6032f78209df5c56afebb25d3ac80fb2509638b90
+~ _CreateStreamCompressor : sha256 1440fd8cc5f1c5a28835418058ecdb0b32d7e8b04a76563d62aceb0aba74ee99 -> 01a5a269e3a4c866182a64c2d3dce206e69fc19cb0a96a40f3e4ed3419d27128
+~ _WriteToStreamCompressor : sha256 a4917278cebf690e0f47e02beefd7b6770414e5963750148dab37c4b3ebd7399 -> ec28bf8f835d0de02b21b092f38a24a2973cc726cbfe542e5a39f2e32a298b14
+~ _CloseStreamCompressor : sha256 126f63a453dae0ebc2c245a54ff629f5dc6b42f995073b7ee63ab9bd3a93817b -> d2a56baecbf468a3f6b44f68846c734a4e23edb619be474167e68ae2b256441a
+~ _DrainStreamCompressorQueue : sha256 481ed5896ef877b06448a144cf1aec695ba0f8f99c65c59992efa96ab46de335 -> 6cc26594c272f26b631f9879ddbd2bf22d94f8d8dbaf4f15daabc4a7a1706492
+~ _VolumeSupportsCompression : sha256 d673b61fa6d594ab173c1db085d79c0b35a1e5eb94bb36ee8736719746cfb9fc -> 1d337087aa6bfbf3a8b84bfe52d065bf9a3b4c765ffffc8e60cc5afe15db3580
+~ sub_18fdd4728 -> sub_18fdd6728 : sha256 2a628e6f962fe493b8e90a2fad3641b4903f9cb5194f7feeec91d00ff6df6c51 -> 6bdff43ff32b6e681c114bc175e8fdf2b173b7a2cf1910b7948bf0c4c6116470
+~ _catFile : sha256 0c8c3848e4b9531e384287b8de9307046aef7d23a1acf328b7242995310e9dcb -> ce8acddb706fecb01a5f21e413cefaa495ec2fc7f4205ae0121868226f50d236
+~ sub_18fdd4a48 -> sub_18fdd6a48 : sha256 0d9af0eb78f6ee9e0b2d60fdebbaabde1844bde29bf98a2b4a4fd284ba00b135 -> 21ae937903e9d2dd1943ced8df1c86196d9df033f3b743d340faf3eecd23a6eb
+~ sub_18fdd4e94 -> sub_18fdd6e94 : sha256 f4a6c51f5fb7a7a9acccfd5e7235de3b5cdc5c0fcf053836f189bfd78428f768 -> b5affb5477c4ad93af623860373aa37f6d4bd3b855497df2d50559e2e836453f
+~ _decompressFile : sha256 601e4cf8e17f981fe393324ee009b2e9f4240a14eeb018c3626787eddef3613d -> 13a0d6a2e7d132d3726081478d3d00cc724b20791c0389a2f9f11c0782d06372
+~ sub_18fdd5374 -> sub_18fdd7374 : sha256 d28cc5b4999e12e6d55bb8f4d6d6fe43d1f6116a5efe669eb672beb335eda942 -> 72dae8d09d69ffa2f9d0ed8cf4c3c67080afc62a2dd808406cd944c2ade6b4ab
+~ sub_18fdd5504 -> sub_18fdd7504 : sha256 e0d1486c80edd220a61553c5798926c08361b0613cb2d01625b2d61c34e9d561 -> 120aa7a6acdc1aacf3f90b208751cab230f70862f047c707bc5b81847abbe8d0
+~ sub_18fdd558c -> sub_18fdd758c : sha256 6ab8a58f7d23f1dfbdb7939e52054ba8c0e1b967d4f6bdd1d1abd7e3b48d8e47 -> 8ca6abd9039521874b16f6a115be5dad359b89a1ba7e5df82383599eaf3f3a2a
+~ sub_18fdd5918 -> sub_18fdd7918 : sha256 2fd8cb57a12f2971f28232075e084c5575eb59ebab6f994b4b7a185e75785062 -> 9bfb8fed8517416f9dd3fd713fcc364f561bb5c4ea918a5f3fc7a57d12a63f08
+~ sub_18fdd5a84 -> sub_18fdd7a84 : sha256 0c086332e63f49657d904c460fcbe378600b17124a76bfa14c6f15da2bf81740 -> 552cc29fe53dfde20eb1217d78652d4fa8a591216aa2d3a8100b0874afd014e4
+~ sub_18fdd5ab0 -> sub_18fdd7ab0 : sha256 fdd376abe8f38e210623de23daafb9ec3588c7cc8d18af97cc696cb0c1127d6f -> a0655a579ae20c3ab4c9335a1f412ec3e431d0af355af475e2d00aa0cfc49022
+~ sub_18fdd5d44 -> sub_18fdd7d44 : sha256 2595f89ca7f88628d542657dc8ce6691fe6e7302a1f68f80736d3e8aac50965f -> caca2e513248cfa4f295b089b1cb8685814dd1c47966346c45600d3f48f21eac
+~ sub_18fdd5df4 -> sub_18fdd7df4 : sha256 ea62bbc295c9cc206baa44f007540a4a0178996ef9ecd5f442da7657ab0b04be -> bfbda5180b7cc47e8d7725922c8cfd3692a44ef5ded609229316f4bcaf337274
+~ sub_18fdd5ebc -> sub_18fdd7ebc : sha256 fb8fad624da99770f40a9a4cf23cadb0b340154166109fa12f078b4e38d9eb5b -> 47ea6e303dad37820785629dcb3de8548c5de6da775c55001d5302c04c3de775
+~ _FinishCompressionAndCleanUp : sha256 28c611e4b68a569bbd21bae805d336907f953a79958f1066eacba725eaa7a6a8 -> 64f19ecb9a6b89c045c37f60ba42d782584a7a209592efaff2170b48bae508f1
+~ sub_18fdd612c -> sub_18fdd812c : sha256 f920297ba8f052024e15db59215098c96c30294e9305a53782705caa6d5b8244 -> 89462d6db99f0153a40586a6754b24b1c73172a80c92d1559e6a47a4f57ae7ed
+~ sub_18fdd64d4 -> sub_18fdd84d4 : sha256 4d34b4e822dbf4405bbe68a6f0e325d98537a7a064439e1369a52eb571633027 -> 3485d5201b40e56f8674ff88f5b152b2b36434660c94bab6c9bc5f706dec8506
+~ sub_18fdd66fc -> sub_18fdd86fc : sha256 673cb859b3463a4711d723102c485e65ccac729d4a525e1c08a9d4154e188236 -> 7e551e94c9189d2502beb2719b40e837572c65035d56cd7dafcfca0f19ccff73
+~ sub_18fdd6834 -> sub_18fdd8834 : sha256 c3142f7e94ba4e87ae03a0efb4232d11adda71a675f045f2d0f8fc4b4974f9bf -> 83d57e8638aaea0b4e27234945d9aa52d0a1ed71a6eee202d068b629b20f7d0f
+~ sub_18fdd6920 -> sub_18fdd8920 : sha256 afc0aba3e6e2bf63dea57e467b5833e305191bdd1da836a39285d7324f91be90 -> d4447469df6a380ef3b0ccb901f92a5916c2c1138afc26f71197f3e150e7acde
+~ sub_18fdd6a20 -> sub_18fdd8a20 : sha256 2eacad60f5ac1f864f4612a067dfe7ac1881e751af9aad58eec834976d03d2e5 -> add15158c2b897d4c48cd9d3d8f0f10b51013826063c670477fef2f001cd3dcc
+~ sub_18fdd6af0 -> sub_18fdd8af0 : sha256 4d3d52047931462ab83f972f579f975513b8e607b1f22a7603f8e6c6f26a3149 -> 7f8cff2afd510815b83d963ea87ae90bf33cedfc83eaccb22eba6d6e921dd11f
+~ sub_18fdd6b00 -> sub_18fdd8b00 : sha256 0a17646f6738da1db97afa17ed7d5a6df6a987962d931f8e022ebb19b74d7ad8 -> d4fa854afbf89d0385e66f477708aec64edc2c1c71fed4b2d9b72f35a4bad73e
+~ sub_18fdd6b7c -> sub_18fdd8b7c : sha256 49b90e2da0209e81856bbc4b40b95e06c6c490e1a1a033b48d568b0f5e4b43f6 -> 3b7a68ace7070f0873b75aa1489b1fa33af00838cdf056edaaea7f5f5fb5d6b9
+~ sub_18fdd6ccc -> sub_18fdd8ccc : sha256 12d5d3a57b00d1b430e03e38e1814fa129e6829f90e70b98aba69635579b8518 -> 464f14d31e37cc3208bf1755f547a1cba674c17b20fc24c7701e6b60662c2c1f
+~ sub_18fdd6e20 -> sub_18fdd8e20 : sha256 1371ad8ec570c9d18ed3f68325645fd9fdfcdc7cb16e1d24985ed9f4088d4871 -> 69adf7142f150d0499c085d4d8cb7b73888380ec47b19fb0e070602e94f4f3b3
+~ sub_18fdd6ed4 -> sub_18fdd8ed4 : sha256 4c7d0fa1c91d0e7b9c7b5f21a5165f37432450155d7b88e78033fbcfbb35e730 -> f1bdaef7a2085253dcc3333e0d925ad561ae535c8baba67cb44c468ec250cbf6
+~ sub_18fdd70a0 -> sub_18fdd90a0 : sha256 4b7d27eae9a18cf5c1a6f8da818e41bf71bde498e7ccfcfe61c7bc2c6f688684 -> 03d8a73cfcc69fbd3ba4a11cc79c612ccd45719c1d2fcb3fd35895951e1fad2f
+~ sub_18fdd711c -> sub_18fdd911c : sha256 d7f9945174a1740c1384f3c921b874f0f584fcefec0ec66df1e2dd4e74eb1c20 -> c0d750d5a97f22df82f5c78b29d16c4378dd88fc393a74964db10bec1d5460db
+~ sub_18fdd7320 -> sub_18fdd9320 : sha256 e74bb4db5d81691d4be89789f69108e2beabfcea56bed2ae6413a29e29037123 -> 2a05060e9578b11d0cc6d077889ac8ad37f9ebd7104d33de850a0d2b698e4775
+~ sub_18fdd73e0 -> sub_18fdd93e0 : sha256 0994fc225f27d43a2f8d7ca08c6ce938487b2531c7dcde1a203beeee2eec6acb -> 5d018f1425327c442004dd48091383c282fc9477423102ce0369edb543515d04
+~ sub_18fdd7654 -> sub_18fdd9654 : sha256 8e91f7e91206b079bc8e96b72912fd15b51e9f9bd8a3b4c70ce2b8f6c6a59383 -> 65105c607ec6411a68ff6cd2deee9954636b5e91dafbb2bce5f2f8c8d2184f61
+~ sub_18fdd7828 -> sub_18fdd9828 : sha256 cb863fdc3003877531eb8225f4ef35f06aec68da7e8dff0fd6a98acc84b7e130 -> f7431a3010a9c673b24c2002331ee2e58747cc11dba55f5c76eebaa3bfb8cf49
+~ sub_18fdd7964 -> sub_18fdd9964 : sha256 555a520da6316eda3f55397e182a6b88685b5b80354e17162d25d5575d7c9a87 -> 5fcba400384de3fc9dc16365f365ab81788b3de39448762d3d64272c86746079
+~ sub_18fdd7ac8 -> sub_18fdd9ac8 : sha256 bc9242f8ebe7e3bddbb27c8749a3f451db4054fe88cedadf52cd10b29f2ec7c5 -> 874a15cc62c5d94d0bb294f054b98f606c799c1a0f0d72729993f9ba3187757e
+~ sub_18fdd7fc0 -> sub_18fdd9fc0 : sha256 3012baf1f77c9ee8b47b91b1cf6ace315525b0858b221c81c2c17ca248aae85e -> fe197c2c559aa4ebdcb2a423f924fadf4dfc87106232d1f9ef387fef16a08d1f
+~ sub_18fdd8088 -> sub_18fdda088 : sha256 66903a2e839ce09ebc3acd958b885c312c7dac40c01dc40778ab14dd11396e78 -> 0eafaba37e1fc6e95cddcdb767d181ae5f3bb3010185ab1889f2cf6a14aaa356
+~ sub_18fdd82c0 -> sub_18fdda2c0 : sha256 0bdc2114b2a8be479f5e7e6890da943257a4bccf11c77ed7da1fc37e0dfa2bb5 -> 0738e24bbe645f02851185df3b6316f8fe925dbc942663c488b4a4861c44e8a7
+~ sub_18fdd84f0 -> sub_18fdda4f0 : sha256 8ee606e3ea78652130e471c7f95b1b17473eac35fa592ed3a40e345c4a2a56cf -> a178a4b9fb062c772fa77ac96b9b4d53cb41b6150dbcc9a8d642d860be7b7462
+~ sub_18fdd851c -> sub_18fdda51c : sha256 81bfcc7a1fa5b1ce0e5900609c560dcf3f8e64c01dce06a1d69425aa0255ab9b -> 7b7fd5559af833f6167bc81d77a0d0740d2b938cd164baecc04c53639ac124dd
+~ sub_18fdd8544 -> sub_18fdda544 : sha256 26f13bce79f13e54d2b49230d9510b451490c2221ac3d73b11b4f06ec3fd7caf -> 829efa57a2e84e9acf2f88d66d58353472ecba790b03c69ff0ad820ea8685894
+~ sub_18fdd85c0 -> sub_18fdda5c0 : sha256 4d55106ccd8d1d0dd71b486340ad87d54877d88cc0a5b5bf0e59c8e0e9819cd9 -> ef888ab6a9122f3873b03cc22745fb6d42a3a6eff52baea4291b023570beae00
+~ sub_18fdd8648 -> sub_18fdda648 : sha256 704d8ef88582a8bcb75a30d1f044d3d6da3e2706b839e6ae7d883febb2dd9e30 -> 20923bfd4f8a2a1327516ad95359e59f1445bbdad64b0ab98a62361e4d15ad03
+~ sub_18fdd88fc -> sub_18fdda8fc : sha256 eaa12e4ca685fa57a7be75f8ab6d6354f93c51d2781b7ca30dcaecf96de7c159 -> 990d61ac7a85c5afedc541b7af6315e49457757eeb73c18d0ccff20603406c07
+~ sub_18fdd8ac4 -> sub_18fddaac4 : sha256 6f7813951276040db2d7c2d6e5d6e602feaff96bbab808dc6d10f660d8c74037 -> f8e06841b52a3aea9b1f790cf6e5adea6ab142baf10ce87a8df1ac7e687c73e9
+~ sub_18fdd8de4 -> sub_18fddade4 : sha256 3f178e268ff275b86951d20fb0820fd35812cec2879b1c1b41b78be2823ae874 -> b78315c51003dd9701b4aebd2c34d0da3a87590deb4bfa537d098abb52f61454
+~ _AFSCLockFilePath : sha256 d77bcf7d7c6d38731c01780d84e5efa81e319c39ad345a336305edb44bd47616 -> 759dea1f496cb1e4c64136336c3f4d8d424fca34ab3dc0118378e8352a01d328
+~ _AFSCLockFileFd : sha256 d77bcf7d7c6d38731c01780d84e5efa81e319c39ad345a336305edb44bd47616 -> 759dea1f496cb1e4c64136336c3f4d8d424fca34ab3dc0118378e8352a01d328
+~ sub_18fdd9078 -> sub_18fddb078 : sha256 7fff7ebb7b5c649b8e1350d8da0463fdf6478c39b0eb0ced7c86a3e825619433 -> c8afd71b3669ff42570b7da65aec7f2c10b98ddf90698e817f5cbad5bd41a1aa
+~ sub_18fdd91fc -> sub_18fddb1fc : sha256 127c0101c7cd5430299a06f9742673363fb2aa75fee61f5ec32639b1494feb8a -> 50b98f49dc028df71e054d0dfc5642c956183b9935e14809a80144336cc5ba59
+~ sub_18fdd92d8 -> sub_18fddb2d8 : sha256 c4ced8e03ad3e4b35719b8abd4f95e5e56b597710e0a72ca45331946f7dcff77 -> 78fe567af6b28fbcfb98326c61afed499de9b4fce10985422d339bd83d78519b
+~ sub_18fdd950c -> sub_18fddb50c : sha256 8b15eed7156d565968d0e9d64e2bee3172ae7a2084e9df78a83eb51a98c297b0 -> 38832d4f2e4d30159537c5af9c7786732c5d018b8efcf7127991517a48455c7a
+~ sub_18fdd9b08 -> sub_18fddbb08 : sha256 aec6d8a5717ccc5d6455a4eea622bf2577572a6a231d1507deac7de0ea475d80 -> 77a93d7980129c88735646d2bf27611c442ba754ce7b09db21caa794e20653fa
+~ sub_18fdd9efc -> sub_18fddbefc : sha256 818258d0eb1b5082fc3a13affb81d78e12393dafefe88033998e894099fa8b2a -> 2ef4e414ad7e57cf3a8c170acc9f5304fe2dbc833692c0e05b5f4098c54d60c5
+~ sub_18fdd9fb4 -> sub_18fddbfb4 : sha256 faab1f1292043e9655f6748a9fc6db7c5fd93a007b77ea7ca177f1d119984131 -> 73e069bdafb602d49d595590fe0315046e5d5752a7327eed57b59d51bcaac712
+~ sub_18fdda0a8 -> sub_18fddc0a8 : sha256 e2d40d2eba9d6c1a746c5af00375356722f340ad1953b27ddcc4dd07dc6df666 -> 28e1837d023f09e36dcca4eb99ecac6df2eaafc37ba34673f5f826e71e5c5526
+~ sub_18fdda108 -> sub_18fddc108 : sha256 33bfad28e77c78f71bce4918f8ea6c2a345450a0105cdb5fa034ae793a485720 -> df7194a018f61c9c4b913647019ff1994af872b8ce5374b8cc5395e56ce5a138
+~ _type5_handler_function : sha256 814e9ce78cb1cf16e43847e9351ace7dbe648eaa7dd0b778858762ba9763dd27 -> 54721d774d7eb06dff146d85238b794391ca3065b979cbda7a953f0961252b00
+~ sub_18fdda584 -> sub_18fddc584 : sha256 c67eeeca5c6807afb439a95b07122fe6a2c4d0440240ea341d1c09b1d582b36e -> f59acb0b802fcff19400aa055da89878a79a6893593576fc234c4ef220be274d
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CR_4ugCoZii5nx2afzUky8iyyFE0KMAzcFPDfmc/Library/Caches/com.apple.xbs/TemporaryDirectory.CaJ8Qn/Sources/AppleFSCompression/Common/ChunkCompression.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CR_4ugCoZii5nx2afzUky8iyyFE0KMAzcFPDfmc/Library/Caches/com.apple.xbs/TemporaryDirectory.CaJ8Qn/Sources/AppleFSCompression/Common/StreamCompressor.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CR_4ugCoZii5nx2afzUky8iyyFE0KMAzcFPDfmc/Library/Caches/com.apple.xbs/TemporaryDirectory.CaJ8Qn/Sources/AppleFSCompression/Common/StreamCompressorQueue.c"
++ "/AppleInternal/Library/BuildRoots/4~CR_4ugCoZii5nx2afzUky8iyyFE0KMAzcFPDfmc/Library/Caches/com.apple.xbs/TemporaryDirectory.CaJ8Qn/Sources/AppleFSCompression/Common/ThrottlingAllocator.c"
++ "/AppleInternal/Library/BuildRoots/4~CR_4ugCoZii5nx2afzUky8iyyFE0KMAzcFPDfmc/Library/Caches/com.apple.xbs/TemporaryDirectory.CaJ8Qn/Sources/AppleFSCompression/Common/commonUtilsUser.c"
++ "/AppleInternal/Library/BuildRoots/4~CR_4ugCoZii5nx2afzUky8iyyFE0KMAzcFPDfmc/Library/Caches/com.apple.xbs/TemporaryDirectory.CaJ8Qn/Sources/AppleFSCompression/Common/pathUtils.c"
++ "/AppleInternal/Library/BuildRoots/4~CR_4ugCoZii5nx2afzUky8iyyFE0KMAzcFPDfmc/Library/Caches/com.apple.xbs/TemporaryDirectory.CaJ8Qn/Sources/AppleFSCompression/Libraries/CompressData/CompressData.c"
++ "/AppleInternal/Library/BuildRoots/4~CR_4ugCoZii5nx2afzUky8iyyFE0KMAzcFPDfmc/Library/Caches/com.apple.xbs/TemporaryDirectory.CaJ8Qn/Sources/AppleFSCompression/Libraries/CompressionQueue/CompressionQueue.c"
+- "/AppleInternal/Library/BuildRoots/4~CQ4iugBq1GAaEeZC4jkhv70sL9mZSLOgGA_0HYA/Library/Caches/com.apple.xbs/TemporaryDirectory.hNxM4Z/Sources/AppleFSCompression/Common/ChunkCompression.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQ4iugBq1GAaEeZC4jkhv70sL9mZSLOgGA_0HYA/Library/Caches/com.apple.xbs/TemporaryDirectory.hNxM4Z/Sources/AppleFSCompression/Common/StreamCompressor.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CQ4iugBq1GAaEeZC4jkhv70sL9mZSLOgGA_0HYA/Library/Caches/com.apple.xbs/TemporaryDirectory.hNxM4Z/Sources/AppleFSCompression/Common/StreamCompressorQueue.c"
+- "/AppleInternal/Library/BuildRoots/4~CQ4iugBq1GAaEeZC4jkhv70sL9mZSLOgGA_0HYA/Library/Caches/com.apple.xbs/TemporaryDirectory.hNxM4Z/Sources/AppleFSCompression/Common/ThrottlingAllocator.c"
+- "/AppleInternal/Library/BuildRoots/4~CQ4iugBq1GAaEeZC4jkhv70sL9mZSLOgGA_0HYA/Library/Caches/com.apple.xbs/TemporaryDirectory.hNxM4Z/Sources/AppleFSCompression/Common/commonUtilsUser.c"
+- "/AppleInternal/Library/BuildRoots/4~CQ4iugBq1GAaEeZC4jkhv70sL9mZSLOgGA_0HYA/Library/Caches/com.apple.xbs/TemporaryDirectory.hNxM4Z/Sources/AppleFSCompression/Common/pathUtils.c"
+- "/AppleInternal/Library/BuildRoots/4~CQ4iugBq1GAaEeZC4jkhv70sL9mZSLOgGA_0HYA/Library/Caches/com.apple.xbs/TemporaryDirectory.hNxM4Z/Sources/AppleFSCompression/Libraries/CompressData/CompressData.c"
+- "/AppleInternal/Library/BuildRoots/4~CQ4iugBq1GAaEeZC4jkhv70sL9mZSLOgGA_0HYA/Library/Caches/com.apple.xbs/TemporaryDirectory.hNxM4Z/Sources/AppleFSCompression/Libraries/CompressionQueue/CompressionQueue.c"
+
+```

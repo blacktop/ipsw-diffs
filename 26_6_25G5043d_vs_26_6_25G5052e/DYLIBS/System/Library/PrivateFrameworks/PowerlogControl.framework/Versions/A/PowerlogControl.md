@@ -1,0 +1,53 @@
+## PowerlogControl
+
+> `/System/Library/PrivateFrameworks/PowerlogControl.framework/Versions/A/PowerlogControl`
+
+```diff
+
+ 3031.160.4.0.0
+-  __TEXT.__text: 0x7f8 sha256:bc2ffcf45c18efce4c2bcdb1772aedd26e0cd9f198f6a5571191c01e1269d05c
+-  __TEXT.__auth_stubs: 0x120 sha256:1b1d5ba78ff62f95f03ac8e3ece8233158aa28dc1aa68ebed543f198bfff5bc3
++  __TEXT.__text: 0x7f8 sha256:9f7b2f06b3b57fb4ec2eda65c906182129b886c9cd1510016d34dcbb8d005ded
++  __TEXT.__auth_stubs: 0x120 sha256:0046c00933e1855247bc5ba4b42618bbc7ac5e245c36192d65419b007d8ad3f4
+   __TEXT.__const: 0x50 sha256:01148a494541ad1c1ce94cdf9b373dfe233cc4885aca49a18930960bb4454bec
+   __TEXT.__cstring: 0x88 sha256:f3a2cd99a15a7149d224998bee144757539e6e60c482f87f253ae32169b79a85
+   __TEXT.__oslogstring: 0xdd sha256:6d7e3e4d3223f63bfee3c0332bcb08c12daf970f8762e0f7442ff55fa5cd30ca
+   __TEXT.__unwind_info: 0x88 sha256:cdfd1900bd863cd1e67d40a7b88c6f93d03a6d6689e01abe77fca27c89697be4
+   __TEXT.__objc_methname: 0xa1 sha256:9a42a01f58da027d523fe552bad3fb8cd1cd7221d5591681c3ae4298a6f50a41
+-  __TEXT.__objc_stubs: 0x100 sha256:c932c9187bbfe5a1946a66f1daa1184d23ee6409da0261e66d06913d927ae2a1
++  __TEXT.__objc_stubs: 0x100 sha256:309b2486ec2a4f8a7e6d1287c9d7a12da34469421ea6352d089490e3c4e8d369
+   __DATA_CONST.__got: 0x28 sha256:2c34ce1df23b838c5abf2a7f6437cca3d3067ed509ff25f11df6b11b582b51eb
+-  __DATA_CONST.__const: 0x40 sha256:777d8b6d12029be28cb58ca36ed2cdff629620c7029c3b6a23c1763e554d1aca
++  __DATA_CONST.__const: 0x40 sha256:c7821b5b5f4a4f8f3b8a2d839632d5ddab8d1b528fcc55bc9c943f8fe0db8848
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x40 sha256:9f6c375ee3814d3b96c4c816fda69c923cdfa30ef9297c0ab6d809a9234c5577
++  __DATA_CONST.__objc_selrefs: 0x40 sha256:41703f1974a8fdf8d98dafd58ad522c56cf070a769dedc649ee069837696809b
+   __AUTH_CONST.__auth_got: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+-  __AUTH_CONST.__const: 0x20 sha256:289d7d2959c311e1b57de38b7b07a8ecb4f32e960370b6f1ceaa7944d3528c98
+-  __AUTH_CONST.__cfstring: 0xc0 sha256:2c804a7696f91668a35d18ad7c16b683cb356567d54f8588c68987e478cc1dcb
++  __AUTH_CONST.__const: 0x20 sha256:b8896db35db39aea285f95ae2d5abf5c09716569bc861d63b18c5e8b0872f7f2
++  __AUTH_CONST.__cfstring: 0xc0 sha256:471da26ec12e593f1f1bab0c4ea2b873cf2b359f3626dc83e55ccf9380f0a98d
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6E1AFB5B-7567-3497-8192-B94D714DED0D
++  UUID: F8920FB6-2BFC-3A57-90C6-1EBD399DC83E
+   Functions: 16
+   Symbols:   60
+   CStrings:  30
+Functions:
+~ _PowerlogControlLog : sha256 54d9e1a0a24ed9361bacf481fa58c1f885e1310818e58a57e059ec6af3bb8f92 -> 0da408e34b19ae37b498d65ecdc21c71402657c1fc05fa0befd4af1d64f568cb
+~ ___PowerlogControlLog_block_invoke : sha256 9e7b315b4e46ec1203aa0a12cfd0b65fb78ec48f8a2034a877418d1234a92e6d -> d450d247b018e1eba56cd54ad9af5ef5760a2641ec7a18e9293ff2daf8119208
+~ _containerPath : sha256 7ae4ff73e4224e299acfc4278dffcc607aa56cf197740abafae2bcbec62f320c -> 3516ae0a4ee187d0a10e06524c1cfc06f785a787922609f7691b8e0c8bc63a5f
+~ _allowModeTransition : sha256 b097ff9db6430c0d0aab8c6ec1b9f6fe21dcb0073ecdbdb0f2ba64558680c50d -> 65cc1a7e4a60dc68641453136d3f864d13fc1b8044068a25f84307887064cfce
+~ _validValue : sha256 475bddd3556c2b6db23c8340b7503ec7a19aea34d6279053ade156863749caf9 -> dc241521379db1eb5e5b56f789634c0706c6b632675a8a2291e48f4f3ad1b68b
+~ _PowerlogControlReadMode : sha256 d0a58d977ff116660e57311c5f81499fbdbb74eb74b82e1297bae6b909714ea5 -> 101c6d68096b309fa2dcdf492791bde7d069301a1513258a66573d6cb5b6acfc
+~ _PowerlogControlDefaultsChanged : sha256 d282237bd340d1eadb2e4eb6ab2562c61e5b8eda17daf082e6a8c71cf541f168 -> be8eec1bed952e7c3b5544fcd4a378a084f572097968e8f8c7567f548675bf8a
+~ _PowerlogControlSwitchMode : sha256 3cdcf0bc42e057bccac1cdf908c2e48cfe227f7a29ba7d2a11a5504369f2c4b8 -> 9e169eadb493dfca579e69983b93114b97689bf76968ed38cad2bac4534f2b20
+~ _OUTLINED_FUNCTION_0 : sha256 c39655bfeecd9f63a8bf9d361550eb2f3e6a1880113805c74dec02c27596b8ad -> 9a70a0a81abc4a560e135372a02976ac53f330a10adb091485c8db3d5a8340b9
+~ _OUTLINED_FUNCTION_2 : sha256 928cd2a516e63b3faf7a320d289708657272889480e722d82f55d41cb50a6c7b -> 5b12afbd73d9ec17dc3a961d4df5edc74b1f4b4ca9ae3a5eafe3d6adc9eb8b84
+~ PowerlogControlLog.cold.1 : sha256 e76f6c2bdb13d5fc27744d60e6aa47281d41d92d8a23d92afc442a670e308413 -> 8a4e19a5ca7eea257b67c1d8ec23f7de1efd150c3555ac521edac17346c16c0b
+
+```

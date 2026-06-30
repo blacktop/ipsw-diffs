@@ -1,0 +1,45 @@
+## aopfw-j773gaop.RELEASE.im4p
+
+> `Firmware/AOP/aopfw-j773gaop.RELEASE.im4p`
+
+```diff
+
+ 
+-  __TEXT.__text: 0x8b480 sha256:ae046f1469048f5fbad80ec36f1c717b41a6ae03f0792256f78a157ed8e6be3d
+-  __TEXT.__const: 0x843c sha256:c01fae6c9a71844e5858810f11320ef1e935106e457e5f817a8f0915fe409e7e
+-  __TEXT.__cstring: 0x4bec sha256:e2f811b092fcfae74173b501e0f8ddae19d432ddd3243b4129b0c7bc8d711721
++  __TEXT.__text: 0x8b480 sha256:629edb7fbd337cc7076c85f27786ce221b82be64ec0eeba7044539be49b10343
++  __TEXT.__const: 0x843c sha256:562892d34266f5fdfc31b9169fa717670df33c1601d674a2218fe1d956e7f572
++  __TEXT.__cstring: 0x4bec sha256:d15b634a88cf9f7f4ec8e35391916258b504eb69a3a223c6e20035be6786f263
+   __TEXT.__init_offsets: 0x0
+   __TEXT.__chain_starts: 0x40 sha256:42ae33346e0a2db9b3b39281a232b882720c79a57f459c535c9cd512fdafc05e
+   __DATA._rtk_boot: 0x3000 sha256:f3cc103136423a57975750907ebc1d367e2985ac6338976d4d5a439f50323f4a
+
+   __DATA._rtk_ext_stack: 0x1800 sha256:e35a93399d957e2d6ab8c9ec54292a8af662c6ee44a7f25fe6c3b0337be5aa4a
+   __DATA._rtk_heap: 0x2ba20 sha256:dbe4330cd1d090ae26345db422e24102b0cf3a3394e8304966b5f31f5f98c9eb
+   __DATA.__const: 0xa280 sha256:922891c850fbdc3a77bc4e660d75b3119dff5e119d96f5576db6405671ebd6bd
+-  __DATA.__data: 0x6aa8 sha256:a28917c384b2a4652a12c37ad6b12ff6f600361800a404544248b902e61f9001
++  __DATA.__data: 0x6aa8 sha256:fb3284016d97137cda5935f202ccbdda5f7b29a17d9231012d1fe48b20249e61
+   __DATA._rtk_patchbay: 0x2ee sha256:51c7ad1270e05051f346b1999a2123d6915b0ee365af1a97ba99853188046e95
+   __DATA._rtk_mtab: 0x600 sha256:3c52a57aaf18c1979fe83bf0d0f0ddbe945eb42cd589c6a87279454d4940644d
+   __DATA.__version: 0x8 sha256:7fe41c59b1b7657b46a556a05d067acd60f18d604161246f197696b9c0a9d110
+
+   __EDATA.__const: 0x0
+   __OS_LOG.__string: 0x26c54 sha256:7785c2e3cd64a945fc4c0492737e32d7567ecbafc9a2e4d924886fb55c402d8c
+   __MISC.__apf_list: 0x30 sha256:e697ad98a0299d6d6afe86a632ceec0e4029896ca9e7950cf635c382af9fbd27
+-  UUID: 8FDAD9C5-B96D-350A-9706-7EC55F94D888
++  UUID: 3B7B9DF0-8186-3F57-BA2B-F6E62E8411B1
+   Functions: 2239
+   Symbols:   0
+   CStrings:  2422
+CStrings:
++ "00:58:51"
++ "01:05:41"
++ "AppleSPUFirmware-2186.120.6~788"
++ "Jun 17 2026"
+- "19:36:54"
+- "19:45:45"
+- "AppleSPUFirmware-2186.120.6~763"
+- "Jun  1 2026"
+
+```

@@ -1,0 +1,76 @@
+## SocialServices
+
+> `/System/Library/PrivateFrameworks/SocialServices.framework/Versions/A/SocialServices`
+
+```diff
+
+ 772.0.0.0.0
+-  __TEXT.__text: 0x26ec sha256:783362921d601b5e964336d7ef7d6812c4f1280423e00547373e2feef4956150
+-  __TEXT.__auth_stubs: 0x150 sha256:78ebf430c6f608cfa1583fc75a261271a0a1f2d9a531e0809ae9dc7cd58a87a4
+-  __TEXT.__objc_methlist: 0xf4 sha256:5eda859b8c153b25c216b0f69e1ef8b86d087de059b067473f4bb293c4ffcc4c
++  __TEXT.__text: 0x26ec sha256:bd4eb246d3a2ce957b57fd0bf3d1032691d67c381b0c7d326614bf9c2f397149
++  __TEXT.__auth_stubs: 0x150 sha256:5646d9fe339a17bf69856aff38fd8360072bbef0d4c9a1bc33f4c347758ff6d3
++  __TEXT.__objc_methlist: 0xf4 sha256:e55fa09996cab39ed95b54bc0a4a4104e4717451e7bfbf128846231970e71092
+   __TEXT.__const: 0x18 sha256:0623f706d2550ec3644e103495545f57c9e0053789c453973144f8761a0f509e
+   __TEXT.__gcc_except_tab: 0x2c sha256:1ce9715ca25a03b0330b472f5393c68004b4abef8d73523412a8725fdd3ecfb7
+   __TEXT.__cstring: 0x4c2 sha256:713d41f14a67d044433c51097b1acb652c3c89843951630044ae033f20648e20
+-  __TEXT.__unwind_info: 0xe8 sha256:91df5d601b28457675d01d1fd6a148d7ee4c50f0c3c15d9c0fe432e6d7c3f653
++  __TEXT.__unwind_info: 0xe8 sha256:9cdcc04fe0c4463daf1dd57032806ea9f66983eca3a2ed3a92215f186f7e0b21
+   __TEXT.__objc_classname: 0x19 sha256:07e3e6b56da90b4439c0545340349aa5dab3826a5b4f8f18ea008756f9851c72
+   __TEXT.__objc_methname: 0x7d6 sha256:a95b52f60f062a37f4ef08944f76e509cfb74d94aaa69da4da85b8e7bb29a659
+   __TEXT.__objc_methtype: 0x12c sha256:b4fb943df5059a56dfe851d5d8f58782d7e547fe03150c95aebae5958eea9d74
+-  __TEXT.__objc_stubs: 0x7c0 sha256:de5c329e838c041fae34920b9e65b75037fb394e06308d59340aeccd10f1fdc2
+-  __DATA_CONST.__got: 0xe8 sha256:1c0cdd430f10b1c1fb476fa3889cbd6a4b5af96da506c901b56a81970e853b73
+-  __DATA_CONST.__objc_classlist: 0x8 sha256:b0f26ac23281965a510ec0d8235beb92bde40645296680299de3884c77cb9422
++  __TEXT.__objc_stubs: 0x7c0 sha256:1e05a28d980d90efe94111afa977363be83b8e25b6e86f07079f663e4504431e
++  __DATA_CONST.__got: 0xe8 sha256:a1c59abf7c492a0bb7af1c0da8a8f7e09600ad3747dab3eb1ad1be3f456448c9
++  __DATA_CONST.__objc_classlist: 0x8 sha256:17877091f9aa8854aaaf271f23e9df639821b300ceab4ebac15270778dfcb02c
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x250 sha256:2448f88b2c12447ccdde2e661b4305481ecca280a69cb2107f9d0569931c8143
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:fe8c98f20efc746187ceb7465e02075aba5ef3142b201da2389406a95cc6aeaf
++  __DATA_CONST.__objc_selrefs: 0x250 sha256:e1fe34e2857486d7b5986090651b6868419cf5efa648bc80e83a0d7fde0b8fc4
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:7176068b2b090f1359ca28386af21df4848a7f868af9825828a1a5ac03d635c8
+   __AUTH_CONST.__auth_got: 0xb8 sha256:d81bfb50e59a9abbe66f6ae0c6b45c7b9c0bc6eead2cf982118ac4d62b6ffeda
+-  __AUTH_CONST.__const: 0x1b0 sha256:cfedb722534019ba3fce48ab74cc0a14b573cf8e3a7fbef91c4511520ce25cbb
+-  __AUTH_CONST.__cfstring: 0x380 sha256:f2cf50d7ae51357a351759da6e87603db060bac47cfc0e8749f018a88f1c1fb5
+-  __AUTH_CONST.__objc_const: 0x138 sha256:7a46c05b72c0a577269a658233ddc771f1aad9523dfd8c5ef1dd1f5b5f51172c
++  __AUTH_CONST.__const: 0x1b0 sha256:a8d9208eaeea48a43952bf6b99734df07a85d4f954cd85b9a01cf55417aaf5ad
++  __AUTH_CONST.__cfstring: 0x380 sha256:6ed8515594a745c5180eed299a2a3482f9108df80ebd4d1aa1711ad12de9f801
++  __AUTH_CONST.__objc_const: 0x138 sha256:2a0ac45f65c0174f8cb6f1f66e287a788a7074f8f7e0190430511dfd0f034222
+   __DATA.__objc_ivar: 0x14 sha256:c79e2ddcf27e94b41d08c6f612632a60b35240f18ad53cc86f4d94629c732f6c
+-  __DATA_DIRTY.__objc_data: 0x50 sha256:968b3a8d0c3b471c0f17b49e1c8adaf3b3f3ead0992e00a663e92204c9b16ac7
++  __DATA_DIRTY.__objc_data: 0x50 sha256:4761715a0ab5e8c3051bd0f9ac94a38ae562a08f1fcc1c4a7e6e1e1840f059a0
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/AuthenticationServices.framework/Versions/A/AuthenticationServices
+
+   - /System/Library/Frameworks/Social.framework/Versions/A/Social
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: AF567CD5-F103-3237-82C5-A7F8C2CE40F1
++  UUID: EC73B396-55B4-3FBF-9339-C93F49083060
+   Functions: 45
+   Symbols:   185
+   CStrings:  156
+Functions:
+~ -[SLGoogleAuthController _webClient] : sha256 8819b69eceffafad840f5fe9bf13ad2bf9a438b8c020446c3f4a413268ec47e4 -> b5977c50787ec9fe5f0247caf2fd1ef2bb204bf27a08454475f968116b2251c1
+~ -[SLGoogleAuthController _initWithAccount:accountStore:username:youTube:emailOnly:clientID:presentationBlock:completion:] : sha256 020e9cb77d0ce835f388477f588ba118c7d0497d72b007e12a163b150bc0fde3 -> bfd3d14e00a4753c0216b8dfbf27ca786e225e3460a01436488c8957541bd28d
+~ ___121-[SLGoogleAuthController _initWithAccount:accountStore:username:youTube:emailOnly:clientID:presentationBlock:completion:]_block_invoke : sha256 5b66bbd631fed3fa545466afeb3c2a4af8ff936992419bb76e36b4559007937b -> 16b76c290cc3ae81a8e0c9a3514ece170199dd572ef9e0d0b5ae0fff062c04bb
+~ ___121-[SLGoogleAuthController _initWithAccount:accountStore:username:youTube:emailOnly:clientID:presentationBlock:completion:]_block_invoke_2 : sha256 0c9ac9f8325bd18e5be9743c15ccac68e434371238274bd6e834aa6634c63554 -> d39e070c9f3a80642e997a486c258f9ec436bceda8ed7be4bad96039334d67c3
+~ __121-[SLGoogleAuthController _initWithAccount:accountStore:username:youTube:emailOnly:clientID:presentationBlock:completion:]_block_invoke.27 : sha256 455e2adf4348ba2335b3eb8fa3951365c9d757beb978995e7374a9356cf63ddd -> ac17d8f0d3a789a39a6bf2da599bbb10371fde0495caefbc1e2bc497ff22e7ee
+~ __121-[SLGoogleAuthController _initWithAccount:accountStore:username:youTube:emailOnly:clientID:presentationBlock:completion:]_block_invoke_2.31 : sha256 a8f37d9958390dbb6c72e5178f5ac712b4bc0ab05765ace05eeb85d4f1f5bc85 -> cb79601d3e62030169caa244697acaaeea8f1687f9f12e90a0bd8f78fe66e30d
+~ -[SLGoogleAuthController cancelAuthorization] : sha256 791f0c764fbeb2299f6e3a5af9af2142bed7ea56b32a91183b5ef5cff575b299 -> f34a3233d66c322b3a4657b2321a3318251568687c71a0b31558a7013774db04
+~ -[SLGoogleAuthController dealloc] : sha256 f1a36fb487efc6ff034f11e4453e1ba00015336dfe072d3d2661fa412ce19807 -> cea6c958a81fa371d7e5553a4c83c39f181651d5e16f80fa44cdc4a53574e9e7
+~ -[SLGoogleAuthController _redirectPathForURI:] : sha256 7a3c72efcf97b2f745755bc396121bf171d489a9ec53269b2f472b628371beae -> efaee081e06b4213b4861a08e9331ec62c985a7c700aaa41935dbabf33448803
+~ +[SLGoogleAuthController _identityFromUsername:displayName:token:refreshToken:idToken:grantedDataclasses:] : sha256 d34b136ce65e4f76369308185b7bcbf62b929af3b96140390e2c5c968becd56f -> c62c93ee8f529310b5a19440fe4f776560a8bf8ffb7c49dcc81e9a21ecb7f045
+~ -[SLGoogleAuthController _didRedirectToURL:codeVerifier:] : sha256 ed82cc9ee8511ee3e1cbe63b4b3170185f8dc7bca580085e6e1730eb25995a5a -> 81fbfcb4d82740fd5a129cc056f1d0557641f059f7f66888456cc989d6ac4c0c
+~ ___57-[SLGoogleAuthController _didRedirectToURL:codeVerifier:]_block_invoke : sha256 6bf6567214c2de44ee15941df52bbb7ddc70eb491ab605874bb69ec8c4fe6dd5 -> 7cef04364d825e2ae55eda390c9b96e9038a6b5d7f4c83ef953ba448d87ae8e2
+~ ___57-[SLGoogleAuthController _didRedirectToURL:codeVerifier:]_block_invoke_2 : sha256 7fb718e0727f7161c7d75dcf4f3cb9f181912da95fee348141bdd58b57f4ae9d -> 8986c47e13333c2918cabfdb328413bbefb15e33007d1027995fa6168e4a7686
+~ __57-[SLGoogleAuthController _didRedirectToURL:codeVerifier:]_block_invoke.67 : sha256 e0ddfb9ee7a948aaaa9800468f1712d0d25a148e8dabdb4ad9f7b7ccdc4459fa -> 0e7185b4c1ff7813ce8a54a78f584bd0cde593ce24b848174181dde71656f438
+~ -[SLGoogleAuthController _dismissAndCompleteWithIdentity:error:] : sha256 4c45dd8ef707049eb9d572e296dc88f016cb4a51ba36c09a73050836d102d1d6 -> 1e6bd64bc162f3eb450be90fcf4c84b53afa4cab9a460362fd37bda4cbf80ba7
+~ -[SLGoogleAuthController _completeWithIdentity:error:] : sha256 e2ad816ca7f2d54853dc5a9091049a520c41aa0ac10f891606bcabf769c38c3a -> 56032650d6cd2de1fb311e60231fcf162518a309610541c03053abfe6b8d027e
+~ +[SLGoogleAuthController _presentUsernameMismatchAlert] : sha256 58dd32819c87ce5773c806e659966374e443e1b55188c941f286e9b30a35b15b -> d5125f36fd8956d9fae482e2e41810d78ddfd260b5634e1b61400537840f957e
+~ +[SLGoogleAuthController _presentInternetOfflineError] : sha256 0b3a5d6e39a2c89837ba4f1217dfd3904fb4611ccc6be19e8a4b353daa88b417 -> a2b27d4f3258f0e7304f9c3d0ad6076b40e278cec1120621a31c5624fc976223
+~ -[SLGoogleAuthController .cxx_destruct] : sha256 983265862b42dafcbdb035d884dc2b39f79599723014c79e1a3b6422eee76168 -> 198950fb22ee8b9d7f35de0cdd5172d43b039881146e00e249000df7ecaac525
+
+```

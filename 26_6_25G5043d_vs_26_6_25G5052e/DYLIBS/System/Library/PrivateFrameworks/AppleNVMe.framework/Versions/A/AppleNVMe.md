@@ -1,0 +1,42 @@
+## AppleNVMe
+
+> `/System/Library/PrivateFrameworks/AppleNVMe.framework/Versions/A/AppleNVMe`
+
+```diff
+
+ 819.120.3.0.0
+-  __TEXT.__text: 0x9dc sha256:51cc1e6eb289c56eaf49ca8bab4e930cf0e95708ac13fb665476b02e62ed3f6f
+-  __TEXT.__auth_stubs: 0x180 sha256:93a7e96fda6a198420d8ef1c116f35f1daab96e4189a7b5a8246e4d177a8f864
++  __TEXT.__text: 0x9dc sha256:bac502ea8e6b7b11799e153498bb8a47f0357606cc1d931616a66218a9ff99fa
++  __TEXT.__auth_stubs: 0x180 sha256:9eabff9a064238b205b07ed30d6df4d7eec0813aae6f962fd90709c7f2b68cf9
+   __TEXT.__const: 0x40 sha256:42cccc03d09da1a6df0e5e73fa5b3feff041d993408c193356b9a8140b2e79b5
+   __TEXT.__cstring: 0x3a6 sha256:9ade036b4049a9029469d640f8ef679c3c6bc7365a0eb8b0e196f930089e9eec
+   __TEXT.__unwind_info: 0x88 sha256:3800c35e5f7013245b9e3ed950fd0dc30f300f3e4ec70b5320d9b3220c178a3e
+   __DATA_CONST.__got: 0x40 sha256:f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b
+   __AUTH_CONST.__auth_got: 0xc0 sha256:5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5
+-  __AUTH_CONST.__cfstring: 0x60 sha256:b1c18e79771ef58074de8fe383fe3846d92b7994c1acbb51c3acdf2f30752dc3
+-  __DATA.__data: 0x80 sha256:0b3154f39c0837242e3c854e18688236c7482727a399b333121a64fe90a9530a
++  __AUTH_CONST.__cfstring: 0x60 sha256:60f5854110755c3f59a8b1d3906e518c01171dbae82d12273cc21faeaba8a960
++  __DATA.__data: 0x80 sha256:7ea556234b306dcf405e45a2e42af6e33a3345e2949cf7dd61caf2314808c250
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+-  UUID: F0C9BC99-9DE8-39D9-9F98-49AC6AB65223
++  UUID: E329DA6B-7FA6-3DB6-9AC1-1119225F238E
+   Functions: 14
+   Symbols:   51
+   CStrings:  37
+Functions:
+~ _AppleNVMeNamespaceAccessFindServiceByNSType : sha256 b31de0a92fd0b69978b8dbd4add7a02c907d01c8d1af8826a7ca5f29836ead9d -> ad6f35e4df9a38d3317fe84700cc1efd4531e2222e2ed1cb1da02262cf7f35df
+~ _AppleNVMeNamespaceAccessFindServiceByName : sha256 3de4621168b7fa4c228d17c1faa79df6354e6ec02f84900c4ee2cdddc04431e3 -> 07a1939798ffd6e07aae3edb062f91ff7d53a4e4cf7db6a6a9f2992fd6dd699e
+~ _AppleNVMeNamespaceAccessOpenConection : sha256 7ba51bf9fbd088b40686734cd698ee48bd13f5fb8ce510b6d0d422adfb9e9e4b -> 569ee7cec04840b1bb51fce0f6888fcaeec6b35de62f080726ede810c9cc5eb7
+~ _AppleNVMeNamespaceAccessGetBlockSize : sha256 b78acb7bf464dacd4be25789d6f76023614b8fd67252d1a3eef1ab0faac9a97a -> 7808be5fdb974435eafbf10a02a26689631ca24be03f61269a50d3e2dc55b3e1
+~ _AppleNVMeNamespaceAccessGetBlockCount : sha256 02bc7d85185da6c7ee50e276cde239b65a6857cb64de9459c0f3ee558331d777 -> 628a6ff4818b8d7ca3e80a22fb6d669944d4f62a40118e1eb65a1eb934b9085d
+~ _AppleNVMeNamespaceAccessReadData : sha256 d508ec445f8ef1cd1631ebf3d4acb2ad787baef82ef4f2548253aa12fa86245c -> 56ca5ef230ccba4f9ba035d269b12afc9f5ea5d4bb5327788a5964edd75e1200
+~ _AppleNVMeNamespaceAccessWriteData : sha256 846066735e1aba629bb8383a7f3b899f23a90cb9a0a60892383b450d5799e107 -> ff7785636eebd3ff2b620e31d5135d985114222d85429c1746ac1e2d62151a0a
+~ _AppleNVMeNamespaceAccessUnmapRange : sha256 46dff55223bcf71a1db3a9dd1c3c496f119532782b95ff96435e5da2a8b54b64 -> 7b6b4249153d4e4f34d72a402f990cfd5e552f487458039040b7a349b8c33876
+~ _AppleNVMeDeviceSupportsPanicLogAccess : sha256 4f20be900c5e52dd4e22a337687c46c458c4cf859474dd88c285f2232cd8fbb4 -> 735ec61047f063c22e2c64e1dedccef9d074bacaa454992efdb5d3f9c6110d18
+~ _AppleNVMeReadPanicLogData : sha256 41a221d38264dabd9181df951a8b1657bc47de4c419493386c645f439cab88e7 -> 91d85dc83bff5149751f19933cdeefb958511c6753d94f1861c2b7548c04d825
+~ _AppleNVMeDeviceHasAVP : sha256 3084a27047aa9f4158c21f438c04a747c539748e2a2de63cedee2ed771e0aee8 -> f6d323da1baec673aad6bc704e279112f0d7ea4a49d4802b48e8cd3194626310
+
+```

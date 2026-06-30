@@ -7,7 +7,7 @@
  		<key>DevelopmentPhase</key>
  		<string>FeatureComplete</string>
  	</dict>
-+	<key>rb_removal</key>
++	<key>redsnapper</key>
 +	<dict>
 +		<key>DevelopmentPhase</key>
 +		<string>FeatureComplete</string>

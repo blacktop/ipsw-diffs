@@ -1,0 +1,55 @@
+## ImageCapture
+
+> `/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/ImageCapture.framework/Versions/A/ImageCapture`
+
+```diff
+
+ 2020.2.2.0.0
+-  __TEXT.__text: 0x10c0 sha256:35bad09e09db7b99851d480ab364d808b26d1574e9bff2d9c47e1a9b959700e9
+-  __TEXT.__auth_stubs: 0xd0 sha256:3c119b7430d5a8037d644df3cd8137935859c73093f671dd1fbd540b79fe5c67
++  __TEXT.__text: 0x10c0 sha256:c4eeae438efbf24126245da8d378e345a0154c11eb001f5add9d56fbe98259a1
++  __TEXT.__auth_stubs: 0xd0 sha256:8f2c05472fa8d43db3347367aad97bfe54b5f688b98ca1790d1e79f500846b65
+   __TEXT.__const: 0x8 sha256:78f12b3c1d4937079be007554c1f2b32197e4bce6c543ba0840aa744d66c97d8
+   __TEXT.__cstring: 0x5eb sha256:9385a1bdb5fa5e8d2678b48ac52689425707bb7500146691ffbf3743c08c535f
+   __TEXT.__oslogstring: 0x10e sha256:f1ad0fe907ae342d90e4e141b18b60c2e4432218cf71bca942bca3d7a0470c32
+   __TEXT.__unwind_info: 0x70 sha256:82f7ce429b5d543d2eb5c12733ceefe3f35d5dde2b17dbe151fbdfd86c0f6f0e
+   __DATA_CONST.__got: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+-  __DATA_CONST.__const: 0x170 sha256:3bbf15200809c69d23d3710941cca492f7433c65087026e9a507105e889faa65
++  __DATA_CONST.__const: 0x170 sha256:d978da6c563dd708f97b274d296adb490b7cfa0e6fc83c4843a78f833651e178
+   __AUTH_CONST.__auth_got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __AUTH_CONST.__const: 0x20 sha256:7121e3b16ed165203a6c360c393e319ecaa8083e7eae571a6db2a582138110d5
+-  __AUTH_CONST.__cfstring: 0x540 sha256:c6f6e74115c16aa327de5dbd54060f2c826c1f0692c18bdb1e10b66580925346
++  __AUTH_CONST.__const: 0x20 sha256:7f6a65643b175584a143492c100b74b3b3e8bbe63271598c1a16e34d18aee6a5
++  __AUTH_CONST.__cfstring: 0x540 sha256:931bf2078d2c2ac6c38dba61c239335666b82968e34a9bac8f8c7dc1e7a08e91
+   __DATA.__common: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+   - /usr/lib/libSystem.B.dylib
+-  UUID: FB40FD39-F440-3537-BD08-2CA737ABB8A0
++  UUID: 79606980-5730-3B06-8AF4-684EA038CB46
+   Functions: 19
+   Symbols:   97
+   CStrings:  105
+Functions:
+~ _____ICOSLogCreate_block_invoke : sha256 a2e9a4461b1c8228d39f565c76c953c350e1eb6b5d93a7bee089873d9df294f4 -> f6ace00b31a26524bce79a1b49d1f9f70d6bd82addf6958ca5993362417884d2
+~ _ICAGetDeviceList : sha256 effa1b41dfb9813faca342f513e6b4b2a219c1d6db1f59d947b0bfcf4e841811 -> 0b0759658a471b59078bd1bcee2ff3c1a163a01d202e6c575f83fef06afe2206
+~ _ICACopyObjectPropertyDictionary : sha256 ff13a9c19e0dac52bef74ea204bc72f5afd00107cf4e88358cccdaacd2f3f9f8 -> 2cb74f2b3398def32905b9e8b3c5e80e0289870723d8b9d36496af35ef52d99f
+~ _ICACopyObjectThumbnail : sha256 e2e9601d86dfcc7e6eee816758fc3380dd65c206d24939c0ecd70d60f7a81b30 -> bc5dbb29cb086087b89d195179b808aa64a5de3b0648786d1ed50d4a748d95be
+~ _ICADownloadFile : sha256 6d6bc419f6da5bc6e01043c234b0981cbffe5a64fc55c1b38fdde44f9f652cb6 -> 1584fdc8f8d213ebb9ed7cf4637a6a852d657822f4422b9449b44be6436a9d72
+~ _ICAGetSInt16ValueFromDict : sha256 0df5e2ec339d54b37d231cac20bef81c3df1d24da1c974fddbdae401e6696cde -> c915363234fe91961f5b444eb8b457920ed4f09fede0d624a0261917ce974b13
+~ _ICASetSInt16ValueInDict : sha256 abe68c725fb71a901ed6c004e52b7c07e6dc5d04f99f9a50bc49c75b758cef18 -> 47c488176636727a42e5dd1c5cefef35273d5e88254ade18e6cdc7c7cfd9129b
+~ _ICAGetSInt32ValueFromDict : sha256 f4d84ed843e76eb554bb6c6f4482852d84005ae3923283385e557d033e3e8779 -> 93b8a31fc82e49f0b1aa8be1095f41ef0bd9075b1e117311c9145c2c617ac778
+~ _ICASetSInt32ValueInDict : sha256 eb148f5834219e93a79b868c9fd6b46bc46e19984f9cc57a6904df78a8bd69b2 -> ed254cf054ef6624e3c11e152e6fb3e9b0e9d851da25c6ba2eb4fbe3c471c0a6
+~ _ICAGetLongValueFromDict : sha256 cec3301f9c044440b11dfafded6fcff18b0951535a34645553a8199b8d9428dc -> 493964f75c052571cfab6a4330266ec4644d5e939d2c9de9bc0409c80323fdb6
+~ _ICASetLongValueInDict : sha256 47d378e54b3d7a787b2173ddac1c55717a27af3623624dbc7a101e3914141d28 -> 2c7fc6b93c951182affa72679f74165e99ac7a2d36715d12e2b4afa7406a0a08
+~ _ICAGetSInt64ValueFromDict : sha256 ffda5c48be1a3d622fafa173418e9296f51c0da14528d3b8c4138fad00db965d -> 9c3cc45efa523db1f95121301f1d31e7b1980225445bf2d95362c1ea136cf535
+~ _ICASetSInt64ValueInDict : sha256 a5a958d25d09f185839b9ff71d4e2b3d72e49614791c803c192c0bd084429d07 -> 359a7e3f3e65306ce5e5f88996b35b2626c1bb4e20d1e1ade0f652695ead915d
+~ _ICASetUTF8StringInDict : sha256 d022430a3680e811895968e50cf3be56d0ec12adbea49e95ebe3aafa10808d87 -> 13ecbbce661098138980c19f9d2d641c80f60e2e8104ea209d56f1e4e7e08d6d
+~ _ICAGetICAObjectFromDict : sha256 ef798922adcffbcd01da90d3b202949192b2485b1fea2a9e9ddb68be14fb7eb0 -> cb0cd44ebaffb996d99a886b0e6eec7e6afe88f9728668680395dccb8089ac0b
+~ _ICASetICAObjectInDict : sha256 e1b987862d62a2ca1db594d470844f4e6bd4bc5f433e21dbbfa3efdce1419170 -> dc7c327ff7fe20c3387a5a9f3221c3ab334a8ed456b78c08c89b20137aa70e98
+~ _ICADictionaryApplierFunction : sha256 25deb65e3312df2acd9e90773582f39f8b5ad321278d47240cf97354bf7d2c00 -> e059430f0a7073fbb90034d6b17835b27a41bcebfe7f47bb806313247275e1c0
+~ _OUTLINED_FUNCTION_0 : sha256 f8905473dbf3375c8f60152da33c8e9cce5fbeaf36f7cabe8d2c34837548d93b -> 0306b7b0b44508e5250718a8e992c838a2a4ebeac33691318e5d6da1534df8a7
+
+```

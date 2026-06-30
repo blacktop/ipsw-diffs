@@ -1,0 +1,33 @@
+## libdpfu.dylib
+
+> `/usr/lib/libdpfu.dylib`
+
+```diff
+
+ 323.0.0.0.0
+-  __TEXT.__text: 0x1788 sha256:c0878ba4829aa64f33687d33aa4a4d2f41970dae76daa5e0e01f775a7005d93b
+-  __TEXT.__auth_stubs: 0x1b0 sha256:0732d42e4e34a0f8e6f3e11d2f37f6c08319df24a031028efaf19b6dc36ad9cf
++  __TEXT.__text: 0x1788 sha256:003982c67ab94b9c46c4c11be968c5cf60708c22d3dd55430fd0b37d5c0e4e89
++  __TEXT.__auth_stubs: 0x1b0 sha256:c5352ff9b9d5e46dbfb5cadcd05bceadd45ef59282b80aa68668db2071034e66
+   __TEXT.__const: 0x3 sha256:7218510317377bf176abefa6be046386dbf3ccf33cf8359844f6443c62daa6b8
+   __TEXT.__cstring: 0x555 sha256:3f134de0ece7a40d22663824a3d1a880b6009fb242225f99a6393c5e9744270b
+   __TEXT.__unwind_info: 0xc8 sha256:b10cafca4064f8cfab57c54748439a8828d30179fea98aadd822a8567cea98ea
+   __DATA_CONST.__got: 0x18 sha256:9d908ecfb6b256def8b49a7c504e6c889c4b0e41fe6ce3e01863dd7b61a20aa0
+-  __DATA_CONST.__const: 0x78 sha256:0e73aeeaaf6866977313bd382e482868b9cc3391f840d2095dfb63553832aba8
++  __DATA_CONST.__const: 0x78 sha256:3e8513ab8d64727c4f93711e312cae6b93fdca0bf49cc406e10b99ffd47596aa
+   __AUTH_CONST.__auth_got: 0xd8 sha256:a5645e7a3fa0866cde8842c4dab96567507c3d1a3c028b816bc63f6966367b70
+-  __AUTH_CONST.__const: 0x60 sha256:d71550290e48488fa2d1c17e256603f9713f34926ad93d4f937a7739d6bd7082
++  __AUTH_CONST.__const: 0x60 sha256:f0635a81048fd681a7fff21d975cb0cc5438bdbb70b2c2babd54597c2b6198f4
+   __DATA.__data: 0x10 sha256:eba956dc8f5e792f083beb1e308446a00c07f6a663aebe3d3d7ecc6936d4a6ab
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+Functions:
+~ _DPFUSessionGetTypeID : sha256 9a15b495c7281c00780f23c163f4c344ce6d164237452b17bb896d5ded51a52c -> e5939d53ce2cf859bb2f9a45945968f2f028c11a62e555e6c204b4e7e99963d5
+~ ___DPFUSessionRegister : sha256 abe7e870c5edd4aa3369a9cb4e46121882e1c7fcd2c74dcb256f0a238e9c5a17 -> 3cdafad25cf072e76449e0a1cfd3dfa954bb90172275b122743d28b7df8f841e
+~ _DPFUSessionCreate : sha256 965cccb09688e5b921371bca68f0cfbfe13696f52663c64c667ad0be47519ab5 -> ad32247c9d82b69d8e1b0fcf8e25281ff1ae591a2c674e077575c8018a2545f4
+~ ___DPFULog : sha256 305a893d0c8ba68240509c0e580e7d0a529d451226871c66fca06c7235e5fd52 -> 7162df9f64011f27776032892a7d4a0129f96acd2b9539e0b5c578e1549a262c
+~ _dpfuUpdateDeviceWithContentsOfFile : sha256 82b0422ad04b977667644fb957e63cba1bc6890e45de2180709614d9bf028dec -> 0b5f7be6da83438df5498434c4eca561bcb8689a1525b4f89e4ca52e2f63d8c8
+~ ___DPFUSessionSendHostCommand : sha256 cb16b05a8863dfd924cc794c5241fa0ec71cb3575e276f708eaaf43d361397ba -> 1dae41cc5b5126117c5b4c850502211a7544e4d1457d811ecdc9032fad678c33
+~ _DPFUSessionGetDeviceInfo : sha256 c6461da8b1b51f8369fff3c2d0524ef5c0c556df02494073bdb84e34adca403b -> 741368197baa0de6e41bcbbe6f0b7fdfaebbc5a72866cb74a50e92c6e03b18ee
+
+```

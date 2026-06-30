@@ -1,0 +1,49 @@
+## CFAccountPolicy
+
+> `/System/Library/PrivateFrameworks/AccountPolicy.framework/Frameworks/CFAccountPolicy.framework/Versions/A/CFAccountPolicy`
+
+```diff
+
+ 62.0.0.0.0
+-  __TEXT.__text: 0x14dc sha256:20f11af54407550db355646c91b1fb0b2d68a6dec13f4959f98e9b99b1a0af8d
+-  __TEXT.__auth_stubs: 0xe0 sha256:5b2379b0e3fc87d6df485408b646852782bc88e64d1aaea88a528b6a5e4f579a
++  __TEXT.__text: 0x14dc sha256:e6c3566556053946c146fa94bb0f4969e8a52514c0ce98ef01b08afabe178512
++  __TEXT.__auth_stubs: 0xe0 sha256:de9176a82d81dbb6f14672a739e1f2a23897b5a26a63612e677c8897c1a777d8
+   __TEXT.__cstring: 0xa6a sha256:3dd796988ad59e9dbea7cc11f9843c7e672dababfdbcca62f2d730bb89e5c01b
+   __TEXT.__const: 0x10 sha256:787979ee6a78d79a5c6cf1f3ede7cb1d40a6ae9e410062d0b57f848ca083edd6
+   __TEXT.__unwind_info: 0xd0 sha256:7749aec17559f0559520cfc4ada67dbcc3d88c07d0c56e7f576f12db4690f927
+   __DATA_CONST.__got: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+-  __DATA_CONST.__const: 0x1e8 sha256:7d8469f0c7124a2d378825ede3bee7f19377e08b3a0fbdaa3895adaf32f0a066
++  __DATA_CONST.__const: 0x1e8 sha256:1f81daed2e1bfa4982abea07643e83c2049fd5ed0d8fc6c8f6f7ab8067043113
+   __AUTH_CONST.__auth_got: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+-  __AUTH_CONST.__const: 0x40 sha256:e9337b4b6480a81bbd8f409130c729564f2bb1d2ceeda6dc1c0ddcd438904e88
+-  __AUTH_CONST.__cfstring: 0x6e0 sha256:b2b432361dae481657ca2dc0dd97584af639c0c4e08e9c5fe46e2980a5984b99
+-  __AUTH.__data: 0xc0 sha256:895e5e7d94731035d1f79ef9f0833c3d90b8e6658c8283fdc5e630af91f7b045
++  __AUTH_CONST.__const: 0x40 sha256:a36b025e8eab9d037862d1c21e0cd74864e5f33728b3a779f4d524f17eff8909
++  __AUTH_CONST.__cfstring: 0x6e0 sha256:cfaf9765c0a9bd0f4fa070e042c287bef0c226ce73f9202ee5e564ddbbb6e0b9
++  __AUTH.__data: 0xc0 sha256:c3944c5b19349520156561bd0dacae5f6d5a08ebc856f3b2c77294e509a6c247
+   __DATA.__bss: 0x20 sha256:66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 07E01C92-FAEA-3A7D-B08E-AD91EC861ACD
++  UUID: D434692C-263E-3E67-B468-9DF5B62B7096
+   Functions: 50
+   Symbols:   136
+   CStrings:  144
+Functions:
+~ _APPolicySetWithLegacyPolicies : sha256 cb01ae0e6b4b5f29acce2a2508f5c198d32654b387a54b3d8d4bdd76d1d9d464 -> ce74ce5f6b32ec5569eada244b52a2a1512cfd50951271b2d981d4e00e7417d8
+~ _APLegacyPoliciesWithPolicySet : sha256 171f78a05a7dea68c1d6c395d4ad1ba27bb4be97ac05da9c692837dd45e253d8 -> 2ed8b5af2106ff9eb5ba3ece96528c92980bdf96c4f1c3b52dc9b9f20e664f5c
+~ _APPolicyGetTypeID : sha256 d04b11b149ca3fff2139c394b8f058e15a2c13d8d3479a493d9331d9752e4300 -> 00c433a25814d8f7adc0acdd15037900466124a36a33611f8f8096c3cf810d85
+~ ___APPolicyGetTypeID_block_invoke : sha256 50ccb959aa8b537d1dc061654721f7e867343fb9dd92d8cf5dea65fcd8e03e98 -> 6789c60a72c52832aa9508c52c71f6afec6452061cfbf5c34d353b255b5f4ebb
+~ __APPolicyCreate : sha256 6dbc6b425a75964a8ee8fbc7eebef4ea2e38842e7cbebabab9148f3349562826 -> ba6c26902fc6af393341db63c94eb1cb22a1a46221c920407f19fad928c213d9
+~ __isValidAPPolicy : sha256 efdae01edc56c8d692318c49fca4e445119c8374635ee9c0e0a76e46142c599a -> 47c4f6bf409a7a6635f54d5cfd7ca84c935ca94c74a04a64bb5e3a256b70f584
+~ _APPolicyCreateWithDetails : sha256 fb049c40a8d57eedb39bfb2a369f6ee0d557bd959f70cd1c96ff6d67d50ed74b -> 4027ca93732e80e17394bef2846662700ab9eb1ca2345765d1850560400e5537
+~ _OUTLINED_FUNCTION_0 : sha256 0203fa4dff3de97cf22c94fc99400d256dfee1b5cbe4b7ad4b056cb7a621e79c -> 9f258504711c510f4c12120c24d4e5622f00602f2b51b93784ce13c99cfba4bf
+~ _APPolicySetGetTypeID : sha256 497bc5cfed0b23eafebae8f0df5f4c656faa697c5a7bf8a1f78dc0fb2210462e -> 85ff1d3dc116b5912ece228428e2ca68ddffddb19d671351feaf0ea44256fd15
+~ ___APPolicySetGetTypeID_block_invoke : sha256 debe59d5efdbcf092e79490664c3d0f0def7fbcc554f6093d0d74e5e397509f1 -> 223068e744559f0c10254491fda9911dfcfce74e377a1728516689d1a57f7445
+~ __APPolicySetCreate : sha256 e4bacb626fe19368231471079f90e9b17c725c979cce49c43f69ed831fe7e6d0 -> b5f392e7382521932d6dac3e7bd4df5f09ce8c1214424bfa70c32f38f5e5279d
+~ __isValidAPPolicySet : sha256 e6aa5c2ca5fb8bd267590af37a07d9bc001b06eb945d0ff5a35eb5b16031381d -> 19ce85a4055bb9de34721d9777afa18b6570c3aaffecaee277367da12870f4dd
+~ _OUTLINED_FUNCTION_0 : sha256 82b26b8b8f3efe2736da5ae605f7cc409c27b13d4d6d8887d8710799285e0049 -> 9706f7f98f3db7926f3242c6a0b3694c455b6c7ea035a7dd975df16954fe97e0
+
+```

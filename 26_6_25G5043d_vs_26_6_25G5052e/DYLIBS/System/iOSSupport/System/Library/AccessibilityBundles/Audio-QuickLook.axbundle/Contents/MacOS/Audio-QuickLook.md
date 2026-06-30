@@ -1,0 +1,64 @@
+## Audio-QuickLook
+
+> `/System/iOSSupport/System/Library/AccessibilityBundles/Audio-QuickLook.axbundle/Contents/MacOS/Audio-QuickLook`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x394 sha256:ea304a7d5ccc2d40750091f9b733a3a01db87d2f87733f71a23da3b523c4f2c1
+-  __TEXT.__auth_stubs: 0xf0 sha256:f5d0a0c21d3a1167f177fa7eca0bc21f9eaae02fc6cdc7921a5029acf1aacdf9
+-  __TEXT.__objc_methlist: 0x68 sha256:6f27b89aaaa76f7c4b9e29bf47ff8aca025a727f21884fb4cb1ed67d81b14182
++  __TEXT.__text: 0x394 sha256:6e056933128025ceed2f8cf6401ae8b74cf75fc57bbc0f34cbb82b4067c0c9d0
++  __TEXT.__auth_stubs: 0xf0 sha256:156a8391369a87e4e303384f65362321e4098d357f79f81f68434f54b185d219
++  __TEXT.__objc_methlist: 0x68 sha256:32cdf041815f1cb8a0c4d5b5f1df020d9187ecc2e650cfa873e2cd31a1966e68
+   __TEXT.__cstring: 0x10e sha256:2dc0d68e338d0ab15a2f209e85aaed3025d2597e986993565133b0df2754b64e
+   __TEXT.__unwind_info: 0x80 sha256:8752142205d673ac7a5d6c55e84c5a1ce6d7f3b10d5240d6856bbbc2a7d73710
+   __TEXT.__objc_classname: 0x70 sha256:e733600a0e8dbfa234b3fe1e066bf7aae10bfa460cdbc7a50c4a97ac9b6b3e25
+   __TEXT.__objc_methname: 0x21d sha256:e747c1c3fcd715e86536a4405e0eac496098fb6197db2aae7450d85cf6d39c53
+   __TEXT.__objc_methtype: 0x23 sha256:453a037f7b1397a09d5784a6f1b9d49c2aa4f4cf911d9a251b24c25f6a2672b7
+-  __TEXT.__objc_stubs: 0x180 sha256:9200d02d86b4972197808f07911031c3d8b545a472a3f019dd763ee9bd65e84a
+-  __DATA_CONST.__got: 0x28 sha256:aed21a43b3fe5b35f9a5ec3779ec59958224962f9a3267808d0e9de396686aab
+-  __DATA_CONST.__const: 0x40 sha256:b9ccda4054ebd9dfac86ebbd275183fd3aeec5733533b6cb0e29414f4d26874b
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:aa56ba10b9e6674b8f2603a44bf21544832b6ec8cbddb70c9b57d090a5642975
++  __TEXT.__objc_stubs: 0x180 sha256:341620700766be3014b00dae651a717e8ba3ec95ff22b8514e8776132efaa63b
++  __DATA_CONST.__got: 0x28 sha256:16b6077b4bf62532a24608f7aa472cc07a8ce3cd067404e4a5b71907d45f3ad3
++  __DATA_CONST.__const: 0x40 sha256:d4bca30dd33b24ab01029ee16c290b09fd187be295886bb6a69c1ae2e9c89898
++  __DATA_CONST.__objc_classlist: 0x18 sha256:d18936417a5f091d9dc8b5ad45705c428464255595026bbac8eced6438fb56fb
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x88 sha256:887b2b4726195ad051e5a522ed17849023efcf87a08fa520e78a40514de00f20
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:2d64053e9994fce57d2f51515fe365cf0b1578d33cffa211feeeb887719f0ab6
++  __DATA_CONST.__objc_selrefs: 0x88 sha256:f3757e2c9eaee11943717424d0c0a5194ca611e88d66fbeed73d6f863c1a6586
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:080af00a298787d70db60de1bc6520e98844e3ce9d33d594f623d1fbeb6df6dc
+   __AUTH_CONST.__auth_got: 0x80 sha256:38723a2e5e8a17aa7950dc008209944e898f69a7bd10a23c839d341e935fd5ca
+-  __AUTH_CONST.__const: 0x60 sha256:437ab6a14ab7a9dc02afd98954df2df43c8aebb997b8d08aa41fb58a5e563579
+-  __AUTH_CONST.__cfstring: 0x160 sha256:464cea1261668cfc15b3a05ab4637637030b0809453af90f847e1ff1a7f6f407
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:4495a62b13b7dd0e50787ca5261dbda660fed1d612691c9ae2782f4faf493501
+-  __AUTH.__objc_data: 0xf0 sha256:e60a956e9ced0210f564c51aa0bb33855bc16ffe4a89687cdfa9a5b08795b7f5
++  __AUTH_CONST.__const: 0x60 sha256:99fbd8f5211067e778efb02ee05b3f2ed5749f403c7e3b005e6d45afb032d952
++  __AUTH_CONST.__cfstring: 0x160 sha256:fbbd16375bfb980534e3e9e97d3a908774ec2c1a9ff0f589b9baff353597b789
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:4f7396004b6e355c22191207e53d30eaa80e012f730fd33fa58c8de5f066041f
++  __AUTH.__objc_data: 0xf0 sha256:f48453fb543bbcd6d28c4556d00882e9cf3b312c63a3c9883a096749f32fac6e
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F77C9696-F5C5-3E72-BD4D-E0711022B08A
++  UUID: DCD6FDC8-BC45-3BB1-84A7-9083983E89CF
+   Functions: 10
+   Symbols:   69
+   CStrings:  49
+Functions:
+~ _accessibilityLocalizedString : sha256 517b116dc27d2ef0e57fdedcd81ab70e3b2f56524aca13b937d5a7dfe1a977f0 -> 8a9f6fa02baaa3321e85e69bda1050126a177998b401af9209c02a852820e76e
+~ +[AXAudioQuickLookGlue accessibilityInitializeBundle] : sha256 7ce1eea214437e96fc96b9cd2d4983a1683b1c569e127c2a6cb1fecb8db12fb8 -> d3148248e7244dceba05a38af15bab85122b5ede97bbcf02861de7de905bbf27
+~ ___53+[AXAudioQuickLookGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 2f3e3018d9d6b8cacbc72b3297315370a3f8d11b9d3cf8a531e6d742830bda4d -> 5cca453bc4a19eab5a370d031f93059603f3a2d064e9550c7bdfcbaeb0dbd81c
+~ ___53+[AXAudioQuickLookGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 f9a3ec3ea56e434f0e0ee9464fc0502c9fa246a4b0c67f89a8e728babea782ca -> ac930b46e769316a133dfa9f6808c8c0675df6d6f64cef367698c0601e81c008
+~ +[QLAudioViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 7fa639084b06cd75c1c018a4b04f7d29510b235c1abce4da8e8fe1b3abbd0ea3 -> 07f0f30d9edf54078ed1b8b08bbbde7d533f4b3b2eccf17e5a2e43204d7cf700
+~ +[QLAudioViewControllerAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 95c1ad85345b8dd8d7df8fa64173a2c63808b290395b8ebd84c975e43bfe3755 -> 9cdc41f1e38d26331d77db3d8b627e953d046d338e5788cb619c19aa3ec31d3e
+~ +[QLAudioViewControllerAccessibility _accessibilityPerformValidations:] : sha256 0516c387c0b8514db4b1fa85f4ba743c333cb6d71b140e98645ad2f8b85aed70 -> ce9d93637d88f3aaaa6db2f802c992b61834ea18d5010106bfaf422590ddc19d
+~ -[QLAudioViewControllerAccessibility _accessibilityLoadAccessibilityInformation] : sha256 e3d1bd4c06e663c160d2747643d32412268086f8c7557f66dceff91de21fc645 -> 20054cd15bea24d826cc0800875c109832cb982fd762e8faaa38f96e7a6bc848
+~ -[QLAudioViewControllerAccessibility loadView] : sha256 9864ea62087dbc5ed9d0a207abdd1dedbef83e4be4b8b5633658325ef74a0f3a -> 0868da544cfa7b05bc510ad91911452df031f7f4de60f6ba4a5f1d023878ef76
+
+```

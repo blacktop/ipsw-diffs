@@ -1,0 +1,313 @@
+## libANGLE-shared.dylib
+
+> `/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/Frameworks/libANGLE-shared.dylib`
+
+```diff
+
+-624.4.1.11.1
+-  __TEXT.__text: 0x2577fc sha256:c66c38e5c13c7beaf527a5f66412a746610040ba4649ace12104efd5f9912bd4
+-  __TEXT.__auth_stubs: 0xd00 sha256:906e701029cae5158890df9eed083ab91ab872744811aa6f8abb9f47b4ba24a4
+-  __TEXT.__const: 0x83900 sha256:26952f80b9d98592cad781bfb17b7793a57cc2c50490e1b29dbb5f958cbe13d1
+-  __TEXT.__cstring: 0x43f0e sha256:0c591a6bfc9e34c573844baf84ff331c6ea4fa963f03410e48c9c1537652c983
+-  __TEXT.__gcc_except_tab: 0x2c2c sha256:d84532dcd3c044bff8bf08190bb1481b9c4a377113c56487d4701e9b530618d3
++624.4.2.11.2
++  __TEXT.__text: 0x259d4c sha256:a1ce7d0c131b1748820389657f0a3d57f709928e944573b8389bcc2108504230
++  __TEXT.__auth_stubs: 0xd00 sha256:a2be6b4c0e28d1b9f0f56b2cdfcc2d2dfd5a26c8ff200298c779b8d46c4603a1
++  __TEXT.__const: 0x84080 sha256:78d74283e5e447c65f5f69ae86a3f111a8d757c16ca0b82c2444a76425206473
++  __TEXT.__cstring: 0x44346 sha256:f9a3ed2b5ddcec3f9f51abb528c608c103ab7d704dd32f0918142acc0c978d18
++  __TEXT.__gcc_except_tab: 0x2c4c sha256:79b26a7311eb00b16d6a8fc179d72ffb4176bb5c4032500036e4c966a462a0ea
+   __TEXT.__oslogstring: 0xf sha256:344cc4068ef7f0a84f95ce0e67214def1775f6b5eb01e1c61ed615caa3bf7f26
+-  __TEXT.__unwind_info: 0x1788 sha256:508212e786be6e291c2f4103a019669c86cb9b8e064933c1ca98c02178be703b
++  __TEXT.__unwind_info: 0x17a0 sha256:e6928c79f894f2265c349c3af0e9c9680241f0fa642ab26e8cf6c408e43f98aa
+   __TEXT.__objc_classname: 0x1 sha256:6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d
+   __TEXT.__objc_methname: 0x1920 sha256:a856169601659ecdb7142592df7b82b37b5d5d042eaa798ef6f3875cecff6f21
+-  __TEXT.__objc_stubs: 0x20c0 sha256:eb91facfe4c7a9c9598e7a67433489dee3bea052d1f87ad15eff5878f030eb23
++  __TEXT.__objc_stubs: 0x20c0 sha256:299fa333890f1f15486aa3dfe06858ec4df044344c80c935b1a98f90b863af49
+   __DATA_CONST.__got: 0x148 sha256:7b4499c3cc6e82a9da3100028f52af7f8c1e9ee60e33010a108e401989782962
+-  __DATA_CONST.__const: 0x12fd0 sha256:2735f3028921c5b07bd4c636db0d61ee37ffd76908cf63d1d3f8a53f5ec5e4e6
++  __DATA_CONST.__const: 0x12fd8 sha256:5e6c1e024c863cbfe8f0ab6c1e0d4398fc024eec1f1aa19bc2355f42af11563a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x830 sha256:5686d54638952c0dab2b89a1b4dfb160e33b271a4e8aad61970b661f8d470ce5
++  __DATA_CONST.__objc_selrefs: 0x830 sha256:3eb736e8f0cf657620cba545bf0dc27792125a0531876f10fe895a14520a813f
+   __AUTH_CONST.__auth_got: 0x690 sha256:75e9ef7f95c9749112ae665192ad18c946df8f5a3fae8ec0ff9bb2e76db65c04
+-  __AUTH_CONST.__const: 0x15d70 sha256:593a11eb67ca6ea2adc0fc19c599f1e10ad66709dccb2ac598479438a03bb065
+-  __AUTH_CONST.__cfstring: 0xa20 sha256:405b11d7aaeb6cebe99e02133a6c6b198a880edb207cb01dcf64a21bcb2eb5cb
+-  __DATA.__data: 0x26050 sha256:66e128ff1f35a4283e4d5e32e8f15abd27d80ecc77489c619f85862f39eac67a
++  __AUTH_CONST.__const: 0x15df0 sha256:39e6c27630a1b7d7c2c1ddf07bb11b8719b6960663eac904830405ca874f9549
++  __AUTH_CONST.__cfstring: 0xa20 sha256:ef9317491afdc996914a34cf4e28e48759f209d597599f4c3efcaef686cc8b5d
++  __DATA.__data: 0x26050 sha256:46cebace3cfb4181876b5a731716fb5be700e12be656c03af5fc03b2b40fd722
+   __DATA.__bss: 0x24 sha256:6db65fd59fd356f6729140571b5bcd6bb3b83492a16e1bf0a3884442fc3c8a0e
+-  __DATA.__common: 0x37c sha256:9600fa91f88abf02543f1141589d72b35f3dab28ddadda98b5101b53e123b622
+-  __DATA_DIRTY.__data: 0xc70 sha256:0dcabcbe2a2b91edb8f8e0ef585df79837c0ca8adffe3d275dca9b261f26102a
+-  __DATA_DIRTY.__bss: 0x1a0 sha256:4cc7e6272db6b1ad7581f76c63c694e926e20698e9b02223d5041a55960463f2
+-  __DATA_DIRTY.__common: 0x4f8 sha256:fbb4fa31c3fa0c14ccb3fe426e39dcad529b17e379309c0adbe27fcc93feba50
++  __DATA.__common: 0x35c sha256:be0b1f2bcf1812a1b42727bb64413764b2b9e904fcbc64ce0d4b8dc49719ff04
++  __DATA_DIRTY.__data: 0xc70 sha256:f2d21ad59752135db654e153e4564cfa74507414a0a53b146c2aa7be9601076d
++  __DATA_DIRTY.__bss: 0x1b0 sha256:1fe2373734955e60c172999142934b52e69ba7ab9039b3c18ea54082ba32afcd
++  __DATA_DIRTY.__common: 0x4e8 sha256:83f93640fbe3c899ab20bfe1ed1ce660b7e4314d47fab1ccc9552fe2128cd119
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 0A4807E8-FB07-3309-84E0-799C5E27E98F
+-  Functions: 8983
+-  Symbols:   16730
+-  CStrings:  7306
++  UUID: CFE5C89C-83A0-3696-932D-234F53E1F963
++  Functions: 9003
++  Symbols:   16733
++  CStrings:  7327
+ 
+Symbols:
++ GCC_except_table49
++ GCC_except_table62
++ __ZN2gl11SyncManager10createSyncEPN2rx13GLImplFactoryEPKNS_7ContextEPNS_6SyncIDE
++ __ZN2gl12_GLOBAL__N_129ValidateES2TexImageParametersEPKNS_7ContextEN5angle10EntryPointENS_13TextureTargetEijbbiiiiijjPKvPj
++ __ZN2gl17TransformFeedback19bindProgramPipelineEPKNS_7ContextEPNS_15ProgramPipelineE
++ __ZN2gl17TransformFeedback23checkBufferSpaceForDrawEPKNS_7ContextEPKiS5_i
++ __ZN2gl17TransformFeedback5beginEPKNS_7ContextENS_13PrimitiveModeEPNS_7ProgramEPNS_15ProgramPipelineE
++ __ZN2gl17ValidatePixelPackEPKNS_7ContextEN5angle10EntryPointEjjiiiPKv
++ __ZN2gl18ValidImageDataSizeEPKNS_7ContextEN5angle10EntryPointENS_11TextureTypeEiiijjPKvPj
++ __ZN2gl20TypedResourceManagerINS_11FramebufferENS_18FramebufferManagerENS_13FramebufferIDEE13recycleHandleES3_
++ __ZN2gl20TypedResourceManagerINS_12RenderbufferENS_19RenderbufferManagerENS_14RenderbufferIDEE13recycleHandleES3_
++ __ZN2gl20TypedResourceManagerINS_15ProgramPipelineENS_22ProgramPipelineManagerENS_17ProgramPipelineIDEE13recycleHandleES3_
++ __ZN2gl20TypedResourceManagerINS_4SyncENS_11SyncManagerENS_6SyncIDEE13recycleHandleES3_
++ __ZN2gl20TypedResourceManagerINS_6BufferENS_13BufferManagerENS_8BufferIDEE13recycleHandleES3_
++ __ZN2gl20TypedResourceManagerINS_7SamplerENS_14SamplerManagerENS_9SamplerIDEE13recycleHandleES3_
++ __ZN2gl20TypedResourceManagerINS_7TextureENS_14TextureManagerENS_9TextureIDEE13recycleHandleES3_
++ __ZN2gl21IsAngleInternalFormatEj
++ __ZN2gl22ValidateReadPixelsBaseEPKNS_7ContextEN5angle10EntryPointEiiiijjiPKv
++ __ZN2gl22ValidateRobustTexImageEPKNS_7ContextEN5angle10EntryPointEPKvji
++ __ZN2gl24ValidImageAllocationSizeEPKNS_7ContextEN5angle10EntryPointEiiiij
++ __ZN2gl26ValidateWebGLBufferBindingEPKNS_7ContextEN5angle10EntryPointENS_13BufferBindingENS_8BufferIDE
++ __ZN2gl29ValidateTexStorageMultisampleEPKNS_7ContextEN5angle10EntryPointENS_11TextureTypeEiiiii
++ __ZN2gl31ValidateES3TexImage2DParametersEPKNS_7ContextEN5angle10EntryPointENS_13TextureTargetEijbbiiiiiiijjPKvPj
++ __ZN2gl31ValidateES3TexImage3DParametersEPKNS_7ContextEN5angle10EntryPointENS_13TextureTargetEijbbiiiiiiijjPKvPj
++ __ZN2gl33ValidateES2TexImageParametersBaseEPKNS_7ContextEN5angle10EntryPointENS_13TextureTargetEijbbiiiiijjPKvPj
++ __ZN2gl33ValidateES3TexImageParametersBaseEPKNS_7ContextEN5angle10EntryPointENS_13TextureTargetEijbbiiiiiiijjPKvPj
++ __ZN2gl7Context16makeStaticStringERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZN2gl7Context16readPixelsRobustEiiiijjiPiS1_S1_Pv
++ __ZN2gl7Texture12setInitStateENS_9InitStateE
++ __ZN2gl7Texture9syncStateEPKNS_7ContextENS_7CommandE
++ __ZN2rx10ContextMtl10createSyncEPKN2gl7ContextE
++ __ZN2rx10TextureMtl26ensureNativeStorageCreatedEPKN2gl7ContextEb
++ __ZN2rx12_GLOBAL__N_115StreamIndexDataEPNS_10ContextMtlEN2gl16DrawElementsTypeEmN5angle4SpanIKhLm18446744073709551615EPS7_EENS6_IhLm18446744073709551615EPhEEb
++ __ZN2rx12_GLOBAL__N_116StreamVertexDataEPNS_10ContextMtlEPNS_3mtl10BufferPoolEPKhmmmmPFvS7_mmPhEPNS3_11BufferSliceE
++ __ZN2rx3mtl10BufferPool8allocateEPNS_10ContextMtlEmPN5angle4SpanIhLm18446744073709551615EPhEEPNS0_11BufferSliceE
++ __ZN2rx3mtl10BufferPool8allocateEPNS_10ContextMtlEmPNS0_11BufferSliceE
++ __ZN2rx3mtl11FormatTable13setFormatCapsE14MTLPixelFormatRKNS0_10FormatCapsE
++ __ZN2rx3mtl19IndexGeneratorUtils21convertIndexBufferGPUEPNS_10ContextMtlEN2gl16DrawElementsTypeEjRKNS0_11BufferSliceES8_b
++ __ZN2rx9BufferMtl26getUniformConversionBufferEPNS_10ContextMtlEyNSt3__14pairImmEEm
++ __ZN2sh12_GLOBAL__N_119PruneNoOpsTraverser11visitSwitchENS_5VisitEPNS_13TIntermSwitchE
++ __ZN2sh12_GLOBAL__N_124PruneEmptyCasesTraverser10visitBlockENS_5VisitEPNS_12TIntermBlockE
++ __ZN2sh12_GLOBAL__N_18kPaddingE
++ __ZN2sh31MoveDeclarationsBeforeFunctionsEPNS_12TIntermBlockE
++ __ZNK2gl14InternalFormat16computeImageSizeERKN5angle7ExtentsIiEEiPj
++ __ZNK2gl16FramebufferState23getReadPixelsAttachmentEj
++ __ZNK2gl7Context15onBufferChangedEPKNS_6BufferEN5angle14SubjectMessageEbNS4_7BitSetTILm17EymEE
++ __ZNK2gl7Context19getZeroFilledBufferEmPPKN5angle12MemoryBufferE
++ __ZNK2gl7Context37invalidateTransformFeedbackCapacitiesEPKNS_6BufferE
++ __ZNK2gl7Texture31isFramebufferAttachmentCompleteEjPPKc
++ __ZNK2sh11TIntermNode29isSafeToExecuteInShortCircuitEv
++ __ZNK2sh13TIntermBinary29isSafeToExecuteInShortCircuitEv
++ __ZNK2sh13TIntermSymbol29isSafeToExecuteInShortCircuitEv
++ __ZNK2sh14TIntermSwizzle29isSafeToExecuteInShortCircuitEv
++ __ZNK2sh15TIntermOperator20isShortCircuitNeededEv
++ __ZNK2sh16TIntermAggregate29isSafeToExecuteInShortCircuitEv
++ __ZNK2sh20TIntermConstantUnion29isSafeToExecuteInShortCircuitEv
++ __ZNKSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEE7__cloneEPNS0_6__baseISH_EE
++ __ZNKSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEE7__cloneEv
++ __ZNSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEE7destroyEv
++ __ZNSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEED0Ev
++ __ZNSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEED1Ev
++ __ZNSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEEclEv
++ __ZNSt3__114__split_bufferIPN2rx26UniformConversionBufferMtlENS_9allocatorIS3_EEE12emplace_backIJRS3_EEEvDpOT_
++ __ZNSt3__15dequeIN2rx26UniformConversionBufferMtlENS_9allocatorIS2_EEE12emplace_backIJRPNS1_10ContextMtlERyRNS_4pairImmEERmEEERS2_DpOT_
++ __ZNSt3__15dequeIN2rx26UniformConversionBufferMtlENS_9allocatorIS2_EEE26__maybe_remove_front_spareB9sqn210106Eb
++ __ZNSt3__15dequeIN2rx26UniformConversionBufferMtlENS_9allocatorIS2_EEE9pop_frontEv
++ __ZNSt3__16vectorIN2sh7TVectorIPKNS1_9TVariableEEE14pool_allocatorIS6_EE20__throw_length_errorB9sqn210106Ev
++ __ZNSt3__16vectorIPKN2sh9TVariableE14pool_allocatorIS4_EEC2B9sqn210106ERKS7_
++ __ZNSt3__16vectorIPN2sh11TIntermNodeE14pool_allocatorIS3_EE6resizeEm
++ __ZNSt3__16vectorIPN2sh11TIntermNodeE14pool_allocatorIS3_EE8__appendEm
++ __ZNSt3__19allocatorIPN2rx26UniformConversionBufferMtlEE17allocate_at_leastB9sqn210106Em
++ __ZTVNSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEEE
++ __func__._ZN2rx18GetVertexRangeInfoEPKN2gl7ContextEiiNS0_16DrawElementsTypeEPKviPiPm
+- .str.132
+- GCC_except_table60
+- __Z16MakeStaticStringRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZGVZ16MakeStaticStringRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE5mutex
+- __ZGVZ16MakeStaticStringRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE7strings
+- __ZGVZN3egl11QueryStringEPNS_6ThreadEPNS_7DisplayEiE14sVersionString
+- __ZN2gl11SyncManager10createSyncEPN2rx13GLImplFactoryEPNS_6SyncIDE
+- __ZN2gl12_GLOBAL__N_129IsValidCopyTextureSourceLevelEPKNS_7ContextEPKNS_7TextureENS_11TextureTypeEi
+- __ZN2gl12_GLOBAL__N_129ValidateES2TexImageParametersEPKNS_7ContextEN5angle10EntryPointENS_13TextureTargetEijbbiiiiijjiPKv
+- __ZN2gl17TransformFeedback5beginEPKNS_7ContextENS_13PrimitiveModeEPNS_7ProgramE
+- __ZN2gl17TransformFeedback6resumeEPKNS_7ContextE
+- __ZN2gl17ValidatePixelPackEPKNS_7ContextEN5angle10EntryPointEjjiiiiiPiPKv
+- __ZN2gl18ValidImageDataSizeEPKNS_7ContextEN5angle10EntryPointENS_11TextureTypeEiiijjPKvi
+- __ZN2gl19ValidateReadnPixelsEPKNS_7ContextEN5angle10EntryPointEiiiijjiPKv
+- __ZN2gl22ValidateReadPixelsBaseEPKNS_7ContextEN5angle10EntryPointEiiiijjiPiS5_S5_PKv
+- __ZN2gl22ValidateReadnPixelsEXTEPKNS_7ContextEN5angle10EntryPointEiiiijjiPKv
+- __ZN2gl22ValidateReadnPixelsKHREPKNS_7ContextEN5angle10EntryPointEiiiijjiPKv
+- __ZN2gl29ValidateReadPixelsRobustANGLEEPKNS_7ContextEN5angle10EntryPointEiiiijjiPKiS6_S6_PKv
+- __ZN2gl29ValidateTexStorageMultisampleEPKNS_7ContextEN5angle10EntryPointENS_11TextureTypeEiiii
+- __ZN2gl31ValidateES3TexImage2DParametersEPKNS_7ContextEN5angle10EntryPointENS_13TextureTargetEijbbiiiiiiijjiPKv
+- __ZN2gl31ValidateES3TexImage3DParametersEPKNS_7ContextEN5angle10EntryPointENS_13TextureTargetEijbbiiiiiiijjiPKv
+- __ZN2gl33ValidateES2TexImageParametersBaseEPKNS_7ContextEN5angle10EntryPointENS_13TextureTargetEijbbiiiiijjiPKv
+- __ZN2gl33ValidateES3TexImageParametersBaseEPKNS_7ContextEN5angle10EntryPointENS_13TextureTargetEijbbiiiiiiijjiPKv
+- __ZN2rx10ContextMtl10createSyncEv
+- __ZN2rx10TextureMtl26ensureNativeStorageCreatedEPKN2gl7ContextE
+- __ZN2rx12_GLOBAL__N_115StreamIndexDataEPNS_10ContextMtlEPNS_3mtl10BufferPoolEPKhN2gl16DrawElementsTypeEmbPNS3_11BufferSliceE
+- __ZN2rx12_GLOBAL__N_116StreamVertexDataEPNS_10ContextMtlEPNS_3mtl10BufferPoolEPKhmmmmPFvS7_mmPhEPNS_25SimpleWeakBufferHolderMtlEPm
+- __ZN2rx3mtl10BufferPool8allocateEPNS_10ContextMtlEmPPhPNS0_11BufferSliceEPb
+- __ZN2rx3mtl11FormatTable13setFormatCapsE14MTLPixelFormatbbbbbbbmm
+- __ZN2rx3mtl19IndexGeneratorUtils21convertIndexBufferGPUEPNS_10ContextMtlERKNS0_21IndexConversionParamsE
+- __ZN2rx9BufferMtl26getUniformConversionBufferEPNS_10ContextMtlENSt3__14pairImmEEm
+- __ZN2sh12_GLOBAL__N_111ValidateAST24variableNeedsDeclarationEPKNS_9TVariableE
+- __ZN2sh12_GLOBAL__N_17kDitherE
+- __ZN2sh13TParseContext30checkInputOutputTypeIsValidES3ENS_10TQualifierERKNS_11TPublicTypeERKNS_10TSourceLocE
+- __ZN2sh9SpecConstD0Ev
+- __ZN2sh9SpecConstD1Ev
+- __ZNK2gl17TransformFeedback23checkBufferSpaceForDrawEPKiS2_i
+- __ZNK2gl7Context19getZeroFilledBufferEmPPN5angle12MemoryBufferE
+- __ZNKSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_9SpecConstEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEE7__cloneEPNS0_6__baseISJ_EE
+- __ZNKSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_9SpecConstEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEE7__cloneEv
+- __ZNSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_9SpecConstEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_9SpecConstEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEE7destroyEv
+- __ZNSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_9SpecConstEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEED0Ev
+- __ZNSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_9SpecConstEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEED1Ev
+- __ZNSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_9SpecConstEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEEclEv
+- __ZNSt3__114__split_bufferIN2rx26UniformConversionBufferMtlERNS_9allocatorIS2_EEED2Ev
+- __ZNSt3__16__treeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4lessIS6_EENS4_IS6_EEE4findIS6_EENS_15__tree_iteratorIS6_PNS_11__tree_nodeIS6_PvEElEERKT_
+- __ZNSt3__16vectorIN2rx26UniformConversionBufferMtlENS_9allocatorIS2_EEE20__throw_length_errorB9sqn210106Ev
+- __ZNSt3__16vectorIN2rx26UniformConversionBufferMtlENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRPNS1_10ContextMtlERNS_4pairImmEERmEEEPS2_DpOT_
+- __ZNSt3__16vectorIN2sh16TIntermTraverser28NodeReplaceWithMultipleEntryENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRPNS1_12TIntermBlockERPNS1_11TIntermNodeENS1_7TVectorISC_EEEEEPS3_DpOT_
+- __ZTVN2sh9SpecConstE
+- __ZTVNSt3__110__function6__funcIZN2sh13TranslatorMSL13translateImplERNS2_13TInfoSinkBaseEPNS2_12TIntermBlockERK16ShCompileOptionsPNS2_22PerformanceDiagnosticsEPNS2_9SpecConstEPNS2_18DriverUniformMetalEE3$_0FNS2_15ImmutableStringEvEEE
+- __ZZ16MakeStaticStringRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE5mutex
+- __ZZ16MakeStaticStringRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE7strings
+- __ZZN3egl11QueryStringEPNS_6ThreadEPNS_7DisplayEiE14sVersionString
+CStrings:
++ " characters"
++ "'in' can only be used to specify the local group size"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/common/aligned_memory.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/common/android_util.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/common/apple_platform_utils.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/compiler/translator/IntermNode.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/image_util/loadimage_astc.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/BlobCache.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Buffer.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Context.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Debug.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Display.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/GLES1Renderer.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/HandleAllocator.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Platform.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Program.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Shader.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/State.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Surface.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Texture.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/angletypes.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/queryconversions.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/BufferMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/ContextMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/DisplayMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/FrameBufferMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/IOSurfaceSurfaceMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/ProgramExecutableMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/ProvokingVertexHelper.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/RenderBufferMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/SurfaceMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/TextureMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/TransformFeedbackMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/VertexArrayMtl.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_command_buffer.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_context_device.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_pipeline_cache.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_render_utils.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_resources.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_utils.mm"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/renderer_utils.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/validationES.cpp"
++ "/AppleInternal/Library/BuildRoots/4~CSkPugAQsw_KaAE0gVDQpgZbHhBSkTGAQQRDjRE/Library/Caches/com.apple.xbs/TemporaryDirectory.4wMGZU/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/validationES2.cpp"
++ "1.5 (ANGLE 2.1.27783 git hash: 4a6d53434044)"
++ "2.1.27783 git hash: 4a6d53434044"
++ "4447a893865c453c716492ef8620c012"
++ "<validateNoCaseAtEndOfSwitchBlock>"
++ "A bound program is overriding the bound pipeline from when transform feedback began."
++ "Buffer total allocation size is too large."
++ "Found switch block that ends in a case statement"
++ "GetVertexRangeInfo"
++ "Implementation does not support baseinstance + primcount - 1 overflowing GLuint."
++ "Invalid operation between WebGL buffer types."
++ "Source texture and destination texture are the same."
++ "StreamIndexData"
++ "TexSubImage2D with YUV formats requires even offsets and dimensions."
++ "Texture total allocation size is too large."
++ "The bufSize is not 0 and either a pixel unpack buffer is bound or the data pointer is null."
++ "The bufSize is smaller than the texture data size."
++ "The program when transform feedback began is no longer bound."
++ "allowExtensionDisableAfterNonPpTokens"
++ "array index for gl_FragData must be less than GL_MAX_DUAL_SOURCE_DRAW_BUFFERS_EXT when gl_SecondaryFragDataEXT is used"
++ "extension directive with disable behavior must occur before any non-preprocessor tokens"
++ "identifiers beginning with `_u` must be < "
++ "limitMaxBufferBytesTo1MB"
++ "limitMaxTextureBytesTo1MB"
++ "qualifier can only be used with in and out variables"
++ "source.size() <= destination.size()"
++ "texture_env_lod_bias"
+- "'in' can be only used to specify the local group size"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/common/aligned_memory.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/common/android_util.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/common/apple_platform_utils.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/compiler/translator/IntermNode.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/image_util/loadimage_astc.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/BlobCache.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Buffer.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Context.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Debug.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Display.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/GLES1Renderer.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/HandleAllocator.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Platform.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Program.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Shader.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/State.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Surface.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/Texture.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/angletypes.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/queryconversions.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/BufferMtl.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/ContextMtl.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/DisplayMtl.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/FrameBufferMtl.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/IOSurfaceSurfaceMtl.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/ProgramExecutableMtl.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/ProvokingVertexHelper.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/RenderBufferMtl.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/SurfaceMtl.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/TextureMtl.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/TransformFeedbackMtl.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/VertexArrayMtl.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_command_buffer.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_context_device.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_pipeline_cache.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_render_utils.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_resources.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/metal/mtl_utils.mm"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/renderer/renderer_utils.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/validationES.cpp"
+- "/AppleInternal/Library/BuildRoots/4~CRZYugAUlp6oFY8T_YSHX0BEYUIzURLJa5WKw9Q/Library/Caches/com.apple.xbs/TemporaryDirectory.adex6Z/Sources/ANGLE/Source/ThirdParty/ANGLE/src/libANGLE/validationES2.cpp"
+- "1.5 (ANGLE "
+- "2.1.27540 git hash: 82fdb86b3a2b"
+- "Buffer size is too large (artificial limitation)."
+- "fb0a6fb22a09cb91fb8f3bb30871348a"
+- "imageSize is too small."
+- "imageSize must be 0 if no texture data is provided."
+
+```

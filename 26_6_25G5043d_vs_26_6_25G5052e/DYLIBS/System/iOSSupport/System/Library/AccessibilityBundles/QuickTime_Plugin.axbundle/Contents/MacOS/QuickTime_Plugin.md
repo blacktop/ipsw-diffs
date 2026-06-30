@@ -1,0 +1,65 @@
+## QuickTime Plugin
+
+> `/System/iOSSupport/System/Library/AccessibilityBundles/QuickTime Plugin.axbundle/Contents/MacOS/QuickTime Plugin`
+
+```diff
+
+ 3005.29.0.0.0
+-  __TEXT.__text: 0x390 sha256:c8d9a1f80d6b736babc88334f5d2a2097d234622947fcafff0b289a10add7fa0
+-  __TEXT.__auth_stubs: 0xc0 sha256:45fd2b9e8cab5a456dcf091919044e159cd8c2305e034c88900bcd1b16e47a3a
+-  __TEXT.__objc_methlist: 0x78 sha256:24f71d449165484051cb01c055b059e3815f2a90c032b0eb0cc0da53e3f1391b
++  __TEXT.__text: 0x390 sha256:4d798cfe7d1e5effb9c8aee622cae99b1c119f40aa93d50ab71f6cb8652ca025
++  __TEXT.__auth_stubs: 0xc0 sha256:16ba801692e404ffd5cbaa91176e4f993da6b107606cb5c05f6e3f5fa0237e18
++  __TEXT.__objc_methlist: 0x78 sha256:d3eb8878cbf558db4b770903a6ef16c53ceb4e58ff9e06acb979b38695291ec1
+   __TEXT.__cstring: 0x124 sha256:9f06a328199ba5b204ab83227bce3fae43dd187b74e5ba52e05936c0c5267757
+   __TEXT.__unwind_info: 0x70 sha256:bcb689c14e67f4eca604d3f30a5d0e0435f85a859e1a8dbf36a80c14dd9e34cd
+   __TEXT.__objc_classname: 0x61 sha256:fef21e7cbfc18299d29c558e72a6752d7503410f48eb431f88a0502d8f9cc677
+   __TEXT.__objc_methname: 0x269 sha256:d77a40f0d57f5d08af336cfc3910ccff1ae6428085480d941d59f96182879c2d
+   __TEXT.__objc_methtype: 0x33 sha256:d1eb9812350e65f34e36d8c14867018f35970aacf27664bb3e83cfa1ea46bdd8
+-  __TEXT.__objc_stubs: 0x1c0 sha256:d48a9b77a564c4196113ae86ab9da944eb32aec93c9f93003ceebd8535956f25
+-  __DATA_CONST.__got: 0x38 sha256:6210c27f152e94ca4aba0a5205b1ed6c862f4e4c765585322a6f90a8b67ad499
+-  __DATA_CONST.__const: 0x40 sha256:ae67fa8c0bff9a242e7d4d3144f0bdb228fd09d104c3fc59cfcc48284b507487
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:88a19dde28fbfeda47448b8b4b3302276da6cea67a19c5202a448b0b766a3a38
++  __TEXT.__objc_stubs: 0x1c0 sha256:46e79ba8c740af68cb1d8891aab018b8d2294dceee322f63f86ed66cf8979e41
++  __DATA_CONST.__got: 0x38 sha256:09affa84e2d33d00a8a64b90acdc5718e6c190d881fe0d37f24cd7a52778ee46
++  __DATA_CONST.__const: 0x40 sha256:7022f8e9c0cbe97e18975038f62afb73a5095e2abd8e054a69bb2b28da5dd0a0
++  __DATA_CONST.__objc_classlist: 0x18 sha256:b4eb0365a4d0ad953a6bd98abfc618fc6576fc5973023edb2924768b56e0622b
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0xb0 sha256:691060c8b2d3b00c8001ae52923a3b5a99960628b96d2bc807836e85eb5136d8
+-  __DATA_CONST.__objc_superrefs: 0x8 sha256:e9007d55ede49a63babba20c68deda1b77fe43becf2fc7a00bdf7c9edd5323bb
++  __DATA_CONST.__objc_selrefs: 0xb0 sha256:02a00298f5cca4957daed23e7f8011e157b125186be3a61e188c6fe794d2cc00
++  __DATA_CONST.__objc_superrefs: 0x8 sha256:a131cd14ab10599fb396852bea231031fef8f2d2867d42c1da4985512be6d601
+   __AUTH_CONST.__auth_got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __AUTH_CONST.__const: 0x60 sha256:1f7b80030a9e50daab774f9a74bce426e3e8112c31ac605c511854166c273e10
+-  __AUTH_CONST.__cfstring: 0x160 sha256:d9a3d6907aed3b956f526a440ca8775a26b665d9cc566b917b1d26f84913a6ee
+-  __AUTH_CONST.__objc_const: 0x1b0 sha256:6b46493e1b77e4ba12ac819b39f2cb536b25745a30b940f87371fad674252b7d
+-  __AUTH.__objc_data: 0xf0 sha256:5f5da495a8fa9f004ef137b7f9c45907229101a7a0b772f725f00ffcc586164e
++  __AUTH_CONST.__const: 0x60 sha256:ab3d20461a599f01b75075c73764c1456992ca9af187a06e596df2b477c6d6f8
++  __AUTH_CONST.__cfstring: 0x160 sha256:ba40ab97c3bca54882de6028e410fce417387f7e6ba89435545b6e906b5d107b
++  __AUTH_CONST.__objc_const: 0x1b0 sha256:538dde85aa5e6787d0d305d9621a7eafe839bcb8fb4b1d01cb559b082c502f88
++  __AUTH.__objc_data: 0xf0 sha256:d4a7bb78c46ae032089e90438624fa715aa3cb97844908b1a20ba4517a086692
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: CC0BA35E-9296-3D40-B24A-C00242E83BE3
++  UUID: EB5EB40B-3614-39E2-96C7-BF9B14A7485C
+   Functions: 12
+   Symbols:   73
+   CStrings:  59
+Functions:
+~ _accessibilityLocalizedString : sha256 116b69f9a611e398f0f9155f2f5d503a914acaaa584a228646e436ac4dd50b33 -> a6493b81d9b006df2399291ba85d94590db9d439252ce2d0659b7a6c3580851d
+~ +[AXQuicktimePluginGlue accessibilityInitializeBundle] : sha256 014daae150a959629b6ca85a76c7e7d158f5d7c10a7f8aed705c6e69bed92d29 -> 9add80a75031d1972ec9c5850080d9d2d5ccf8bb1f3c8114b4f8a3fc5c18a138
+~ ___54+[AXQuicktimePluginGlue accessibilityInitializeBundle]_block_invoke : sha256 94b74b14b6395637e78f0f09ebc03833aa6aa18ae0a855470247e204c716ef73 -> 771365d9f74ee1b5660b39a6b51133659fc7e5bed69657a0437c6836d0a01466
+~ ___54+[AXQuicktimePluginGlue accessibilityInitializeBundle]_block_invoke_2 : sha256 539e1957e538a5d9da802517f44f911875a80c3d39504ececbf0887e5595a933 -> af489d37323c70f92aef0fe320dc576a92e653b06a8ffb75a0b7c674b7d46591
+~ ___54+[AXQuicktimePluginGlue accessibilityInitializeBundle]_block_invoke_3 : sha256 928d1ec38dcef5fede549f64fb08fb25c6261ce6cb900f0df6e82bf6d035c9c0 -> 9fabffc3fade11e8bdc56e1156219ea9dcc0a6e4b4f744f525366a28691e0974
+~ +[FigPluginViewAccessibility(SafeCategory) safeCategoryTargetClassName] : sha256 3391b7914774cbb19bdaf665fef3fb8f94890b6379c1154018c088ce43f00295 -> 7584cec7e0d7ff0f3b0257a803c4e39b62747d925a678742d0a09e6382ac0e8a
+~ +[FigPluginViewAccessibility(SafeCategory) safeCategoryBaseClass] : sha256 85fd9744ab099d54b289eab43833efce71506ff099167341b5cf1f471f0ced52 -> f1a892ec7479c06ffdab7e73204744df29c71bd69238547b73ed59b9de1b0684
+~ -[FigPluginViewAccessibility setAllowPlayback:] : sha256 f86d64fc48ae71a6fa4e269f3437db99faf4a53141f579253dcef96f979006d7 -> 9676b25bc06c4d3cabd876443ee83c902b61ea0b9f8a37a8af872e3d8f0d0ca8
+~ -[FigPluginViewAccessibility webPlugInStart] : sha256 a8c488cd8e845db634e05b2aba3f335ccc6c4e5c5fff8d1dc4bf6f885a871891 -> 6b1e3ebbafc52ee42844845f2bea64dc4f94c8b502f9d0b103b70f847adad704
+~ -[FigPluginViewAccessibility accessibilityTraits] : sha256 91762fc4a1379f3f62f5b12239dd988c9400dd890b3d01c6cd367d0d5ddfaec3 -> fb7dbdf9d5541320d0b7fab0d72c2d5c7efe52b5f2f81325c32efbad7879e504
+
+```

@@ -1,0 +1,89 @@
+## StoreKitMacHelper
+
+> `/System/Library/PrivateFrameworks/StoreKitMacHelper.framework/Versions/A/StoreKitMacHelper`
+
+```diff
+
+-815.6.2.0.0
+-  __TEXT.__text: 0x1638 sha256:8f14352a45641b00743333869d523ad2236d8ca5bec20a607096dfda18137def
+-  __TEXT.__auth_stubs: 0x120 sha256:b0517fe063f7c019c6f47a3b3f09b48d945eebc63dd8f5dac74eb1ae0d8e8232
+-  __TEXT.__objc_methlist: 0x32c sha256:fa6a088b19b55a123c2e8e40e271e82f529dbd4d026791d7915abd02cee6dac6
++815.6.3.0.0
++  __TEXT.__text: 0x1638 sha256:2bb56190d000b45e242629f88fe493dd7c821b2f6deec386af0a32ec7c244c07
++  __TEXT.__auth_stubs: 0x120 sha256:c768fe9264c7049a2bca5cab9d5ce44974dec34fcf546e5e01f8d63aee27758d
++  __TEXT.__objc_methlist: 0x32c sha256:4cbae27575f8736bc7508530e40de5d7092967a4a9dd2b7dde32fcae2d35cb62
+   __TEXT.__const: 0x10 sha256:828f972687f3d22e01c34f62abed8c6c33340ae8613534c9dcd97d1158a7436b
+   __TEXT.__cstring: 0xe6 sha256:dda506d803c54e943359ddd7ba1140c312177a333b95c422aad8f7b0d4e24be1
+   __TEXT.__oslogstring: 0x35 sha256:0d5557db5962469318c8846aee0ec006a966be7f3799bfd7b5787e0d8780c252
+
+   __TEXT.__objc_classname: 0xfc sha256:8f269801e4a28cd31c2423325c0bccf09907125f4e88cb392dcd939e39140c6a
+   __TEXT.__objc_methname: 0x6af sha256:978cd7c89904f895ff160e296481e827691409d10536d949e430f115da636568
+   __TEXT.__objc_methtype: 0x328 sha256:7c2e395656cc18f70eeda27de0a922693a6e2d81a44e9e0fe991f82de8aa562a
+-  __TEXT.__objc_stubs: 0x460 sha256:999c8d06b89465379c4dec2ffdb301b118357b8da59f893253d14b765cabc508
++  __TEXT.__objc_stubs: 0x460 sha256:a2c83643841cc22071bec5b5a8600041fbbbd181a469a7fb0089bdc4265689c7
+   __DATA_CONST.__got: 0x70 sha256:b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa
+-  __DATA_CONST.__const: 0x28 sha256:09127d7cb0c0e045563c6b089b35b69567561d1fbcde69b8d20bd8faa6624d20
+-  __DATA_CONST.__objc_classlist: 0x20 sha256:8f1442f918d659004fa55c7fa195d9f09ccccb820d06a5e2d37fb698a35052c9
+-  __DATA_CONST.__objc_protolist: 0x20 sha256:569b249c7c0544b818d5331d6dd2071e9942093ecaa565ca89043c1266f243c5
++  __DATA_CONST.__const: 0x28 sha256:6ad392ee9737e9c089e175c6556ce1d6196e1a8c2bdd400bdd749b73c66c7462
++  __DATA_CONST.__objc_classlist: 0x20 sha256:c130411cfc1a1b43f6d6250a42c28cf38edf7ff03982428694a609a203b4960d
++  __DATA_CONST.__objc_protolist: 0x20 sha256:a2710b169efce41228b36d2e77dda59a68cba690dba4dc359b1f5ce9af6df35f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x1f0 sha256:1bcc8e3b0090d90198e8981b20d2923d99839fccc89db179e35a1e2b43aec246
+-  __DATA_CONST.__objc_superrefs: 0x18 sha256:3c1636131f150b813f18790f71dc2ea9b28ea5291e07992d55df43854548dd6c
++  __DATA_CONST.__objc_selrefs: 0x1f0 sha256:c50445485c75651e0f3d67b9b9a678671e5bd5d10fae54a30f69b9aa7614cdce
++  __DATA_CONST.__objc_superrefs: 0x18 sha256:640da8a81d4b9c893466e62488fa2cfcb6b838165f9b56a77fb971b70860610d
+   __AUTH_CONST.__auth_got: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+-  __AUTH_CONST.__const: 0x90 sha256:b50097e52d1d2851da0e43939ab6f7e4760be61a799073caa329a702125bd7ba
+-  __AUTH_CONST.__cfstring: 0x120 sha256:b6cff2e9d353c1725fd6aa2722ca2cc5173e777fbc2a6eda0564335594ee675b
+-  __AUTH_CONST.__objc_const: 0x958 sha256:3cc6388d0f3e68424e372025c7fccbe432a3fef8bb692c65c33fb0a987a9bdc0
+-  __AUTH.__objc_data: 0x140 sha256:615625cd7c9fc7de267484e86ccf8181eeff3fe57af43bf2b5fc84fc427f0bbc
++  __AUTH_CONST.__const: 0x90 sha256:5aec1cd9733fad62b516d63b4d79aab75137c1246875c4fb08dbf297241e7584
++  __AUTH_CONST.__cfstring: 0x120 sha256:1b6f7d0bf857504ccdbc3e2a4a9c6fd57375236500eae3d4fab2b6319847ee65
++  __AUTH_CONST.__objc_const: 0x958 sha256:811a0d48bcdc39bd61797109edbdd69cf3d88f69042e129d4e42be5c12ec7159
++  __AUTH.__objc_data: 0x140 sha256:69bc9f766dc86b15a33b01e6d3be7bbd91c643f80cb4fbe09d1aea4bb5c09503
+   __DATA.__objc_ivar: 0x30 sha256:2d16e67112bf51dc16602d7392e66d5a8e3b4e2a4953e67a11ecf5d75261f383
+-  __DATA.__data: 0x180 sha256:8215536b7f8ff7bc3b8ce6b9873c44e0cc5914b549acf46409e8916257044bf8
++  __DATA.__data: 0x180 sha256:4ffeb38d6e674f2463bf982a6673954834967da61e2e9e1cff542126d5928544
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /System/Library/PrivateFrameworks/UIKitMacHelper.framework/Versions/A/UIKitMacHelper
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D8998D99-31F8-3651-94A1-D46CBE0EE2EA
++  UUID: 729D52A9-6218-3D8F-824D-5824EDF76B75
+   Functions: 37
+   Symbols:   184
+   CStrings:  140
+Functions:
+~ +[StorePaymentSheetMacHelper connectInWindow:completionHandler:] : sha256 6eaf297f560b8ac1461438943c567cb758c7cbe0f50d0875cc16f7a09ec27d77 -> 8df67474545fa28385d7412d455489c9dce0b476ec943fe318205855e879157a
+~ -[SKRemoteEngagementMacHelperViewController init] : sha256 deacc66ef3d82fdbdf5c25077390765f2c4562de94e9b280625ab27d440809c1 -> 539fae06638fda975f6f222e9656b273aef1735db4c3d9e7df268817e50ca16c
+~ -[SKRemoteEngagementMacHelperViewController loadView] : sha256 70f62a0b104e7aa5ed9f35cd81808de0e3f1e153c6a60f01b4d7e0c4f28d3271 -> ed445b9b537dd46cce48f33260a19ab167e0dc2d6911231e3593a1dd4df02ae9
+~ -[SKRemoteEngagementMacHelperViewController viewDidAppear] : sha256 9edc4afb3fa555a5aa63fef7f966689ba9a7f12e443b6f375a48fb3cad95aa6f -> 378790a576d8e9e8378a8c168860f136313ab22534530a36721ef051e9412f82
+~ -[SKRemoteEngagementMacHelperViewController presentEngagementRequestData:completion:] : sha256 9b7f98748e3ad960b05e24c1c02c571fa0645df0cea2a2bc8e6989feb9a33c62 -> 23d5348f39d34f9b25d4e166241590220768f46b044d1b6cf5ecaaa1f277f1ff
+~ -[SKRemoteEngagementMacHelperViewController presentSheetOverWindow:] : sha256 9413281b6bd614067d6eb1d54cf785eec5d63505f0147e4ed79ea2e6879386a8 -> f3131e856a8594ed32940a31e412121803afc660b2bd6706737e0ea0038877bb
+~ -[SKRemoteEngagementMacHelperViewController dismissSheet] : sha256 3ead96f79b17b58945ff0d3ad3b328a720cd598f4e36d3bc00342eef212ba92f -> 51970c72e38fd978803feea0b392448f637daf4daba5364f9b0262f872d10948
+~ -[SKRemoteEngagementMacHelperViewController engagementTaskDidFinishWithResult:resultData:error:completion:] : sha256 45105ee0e10690328133a55cf8af1e434fbf6995f9c023c6cc50ea8ca569f9a1 -> 112e7a294ce76b3c51f5f65aab2da5588a0b707aa5b3d1035373a6fe54117710
+~ -[SKRemoteEngagementMacHelperViewController preferredContentSizeDidChange:] : sha256 305b41d33dca7a2799dad91ddc34b4e27b028adefa6b61409d76c86414bd5668 -> 7d17ce34253d28276c8416faf4ee0a92ff5780d1b9cb216c92988abf3314cbb8
+~ -[SKRemoteEngagementMacHelperViewController delegate] : sha256 605e5928702add2e87d95f0b5e210a33e18d04d3c0fe7c4b9ed28b75d3ba3e9c -> d3178b16412d610144786eac0e430615b3b5f2b70d93b575836d3f14a67dc90b
+~ -[SKRemoteEngagementMacHelperViewController setDelegate:] : sha256 a3bed9fdf705661afaee87a4cd550f84a06706a8e832555a69919eb355a5b877 -> 81194c04ed0418c1f80bcf80d443558544b457a9a4ea7a8fc3358dd41b1188e1
+~ -[SKRemoteEngagementMacHelperViewController .cxx_destruct] : sha256 4818539c90bc2752569e4a5e4c144760e41a7df755e88a34133374a83a03eb07 -> 77d2c9e112f04f127dbafac2effd23a6d71324cd6a110c873954c0ac8d02a444
+~ _SKRemoteEngagementCatalystHelper : sha256 3b21595e3f8ab9a7c45082f9bd123828da6e4a73b6f27c1f38d437b0fc95e4bd -> 0978514a7c41dcb61cd25e13d9ff7dddce8d63cb472148f7f7ddd76600d5d67b
+~ -[StoreProductPageMacHelperViewController init] : sha256 05b4e32ecb873b5e292cae568d9005a3e4349dbb4d256d425d93df95b00baee1 -> bc8da6137462243c644356402387ace1c581a6a2cc4f3c9b9c79f5eb8318db54
+~ -[StoreProductPageMacHelperViewController loadView] : sha256 a58b0f133f9c7b85b17e0313e3e4bc2544621eb8b80efa45b87b2a4a4d4b716f -> 6e60929d036b7db397790081ceacbed77c41d5e6ff7e8d45c4291391035fb048
+~ -[StoreProductPageMacHelperViewController viewDidAppear] : sha256 7e0ddcd9593ba5b78d5b9d078c71e7a4b0cc614440db8f9f51a80aaf487d4743 -> 353e9dab64fd5ca36346ccc6381c3276bf97d03ef447eb54c4087cfecf94d1ac
+~ -[StoreProductPageMacHelperViewController loadProductWithParameters:completionHandler:] : sha256 d0a2fbc923f91b579faf3492ed946b05e3c22495e2f1dbd90a491720de266e82 -> 91b8bace69d6d2b5e4f96e1ce74aa51f6f8b25f1f0e008410c6bcba1d1be1529
+~ -[StoreProductPageMacHelperViewController presentSheetOverWindow:] : sha256 d82621ab70b2470f75949fd634a4401646b0a0e720ec3a663d7ef6adf1c77427 -> c8222e9ff05cea8025e438f7e43ddf6da523735d513fd951c44730e1cc3000df
+~ -[StoreProductPageMacHelperViewController dismissSheet] : sha256 03b58b4c3a9e3bfb8acfa3ecc2459079e2c5465aaf44abea097a137a3b9e8f26 -> 255f97fc24e406c2c1279169b499ad0ebe7b9a0eda5ad17386b4ac62c0af7a17
+~ -[StoreProductPageMacHelperViewController delegate] : sha256 2fb15f7960a7a1ae24dc8af46f02b4c989829f56e2c22ec197ac16194c674e62 -> def9d3e06244ef499eba33fbd71fb07999465dffd513eb795392aa158c2ea810
+~ -[StoreProductPageMacHelperViewController setDelegate:] : sha256 92cf594b7029c3a45c27e4b2bc364a20b18b05baf03f556caf02b190384dd4e6 -> fe1c9a79d34b5d4a90b3457f62e7f4f16cc8254047605a8f56064ca2843ed757
+~ -[StoreProductPageMacHelperViewController .cxx_destruct] : sha256 c532de02efa3143727fa2221b7687c7e21278c10acc870e600d91be84becc510 -> 5da16642efcea071105ef0cba9380ceb2b6b29914c8b7cbe41f478f2cafad71d
+~ _StoreProductPageNewHelper : sha256 5bbe2a4e3d7102591f46d896dc5ba0071513ccfaa9fd5dd74a70b2c982456e70 -> 18e8357d507154171ef1daea37dd8a34a69fa653280351e563cd261fc026fbbb
+~ -[SKPrivateMerchandisingMacHelper init] : sha256 83c9cf10216e44da803ae479d145b04de8a33e80d3d30320c9a302f20e794f24 -> 78610ccb05ad660abd0bd9152392acfac75ad82e8118c17afd5362c0f97b95d1
+~ -[SKPrivateMerchandisingMacHelper presentSheetOverWindow:] : sha256 2f757bb7ef9e750c603272c3a4086eeefff0344d1baeb81c0d02f89d819dc20a -> a771cb0612e93f6bda71e284d9dbd4bbe582e5ea54ee07d53c30ffab1590af47
+~ -[SKPrivateMerchandisingMacHelper displayRequest:completion:] : sha256 0e84b157f3fbf5c0bb673843af4f32e50539a772a7107854c0bf38350bb129dc -> 354f120b27fcc1222ecea531a771a9570e231ca6e24d3f35cee7345d2f880a55
+~ -[SKPrivateMerchandisingMacHelper displayRequest:completion:].cold.1 : sha256 bf7e3bc6006c2d2187cfcb2d0eee91a8e73d59900fb0525a3a61b0e72f08a678 -> 4908141b67dd08a722e4e1ed554048636749a1b96edc9421398a75cd84358f2f
+
+```

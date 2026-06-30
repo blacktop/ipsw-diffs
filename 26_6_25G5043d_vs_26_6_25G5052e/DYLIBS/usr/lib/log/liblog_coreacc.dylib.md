@@ -1,0 +1,45 @@
+## liblog_coreacc.dylib
+
+> `/usr/lib/log/liblog_coreacc.dylib`
+
+```diff
+
+ 1147.120.2.0.0
+-  __TEXT.__text: 0x1594 sha256:9db5767382eace2c2e616455c429c123b08e22476cbd8421fdb32c3da74c5284
+-  __TEXT.__auth_stubs: 0x130 sha256:10eb0598ca171f77f5bf3725c55304a3ae6b0d1f5ca62fb0bb18134c00f554fb
++  __TEXT.__text: 0x1594 sha256:03d5bbed8975c61a85ab35e49a56ec298653d7641f41858d1fbfdd431959b568
++  __TEXT.__auth_stubs: 0x130 sha256:743b0ed5de6e2ca294b03d0d2697337b72bb02a17af2f688e54754bed26bca45
+   __TEXT.__ustring: 0xa sha256:b0e464e7e73416f02b2e55653e73a1d6e086fa3944db7dfc2f50c9776fd541dd
+   __TEXT.__cstring: 0xb83 sha256:f1359d821d2e35b3dfeadc39cf7662f7ec8931c36683e40dcafc86c627170302
+   __TEXT.__unwind_info: 0x98 sha256:ceceb6c4d4d7819213bb6b451413389fed62a568f6f170f5f1f13c979fbe69fe
+   __TEXT.__objc_methname: 0x289 sha256:bf082b4762ec5aab33a5b841f6d66527cc18559ec7e617eda9aeb6145336cd6d
+-  __TEXT.__objc_stubs: 0x420 sha256:ff45b79b64ba174daca665e5794f2880d87afad90227581cc85d7072a1472665
++  __TEXT.__objc_stubs: 0x420 sha256:70232c3bd183312926a71279ad1e28e829ad05021798f2322241d8433af47c90
+   __DATA_CONST.__got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __DATA_CONST.__const: 0x408 sha256:27dee807850c2243d846dbc0fd45d0b697c66c3b824540c5aef3bc77e202a20c
++  __DATA_CONST.__const: 0x408 sha256:02d0dcdcea326aa4b83e709ecd55b21ed7f2c6091fdb08933b6ccd3c1b031970
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x108 sha256:d0042b13582f1a75cb97481f4de1d007d09fa4e256ca2932b980706b391192f8
++  __DATA_CONST.__objc_selrefs: 0x108 sha256:803f10188747d463229bcd9bab99ed49f96da576edc4fa4840454e3cc0d902d9
+   __AUTH_CONST.__auth_got: 0xa0 sha256:b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4
+-  __AUTH_CONST.__cfstring: 0xf60 sha256:0c9d5393e2694cfb8222d87c38e73c7145269163aa82bf0437392c77e2e11f9f
+-  __DATA.__data: 0x190 sha256:819579f3d95376fca3a4ed7475f639a830ce0638a9cf273153b31ef50381c6a8
++  __AUTH_CONST.__cfstring: 0xf60 sha256:96197f10da62a64c0cdf73addde1955c5bc77e23ca1be66833a61869de3dd0bf
++  __DATA.__data: 0x190 sha256:957f2328a9f663289f0a44589a37000b32698b70d2018f481ea23b7a12745c55
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /usr/lib/libSystem.B.dylib
+Functions:
+~ _convertNSDataToNSString : sha256 84087094e54d104873f3e8a4053ac024172fd7c6f72468b08426930e6447a949 -> 4e7686bf814d75793b8cf18658d270b460e3b5efe2c577dd9260436dd123b915
+~ _trimBidirectionalUnicodeCharacters : sha256 598a48303bd885f60e8ce2774e5028cf67023cb4781eef4528906ff295dffd7e -> 740d52c47c37ab174fc36ae0f6756c23fdf5444de70bce22f1544bd2df50e8d8
+~ _removeBidirectionalUnicodeCharacters : sha256 0502690d5995a0730e9ac15147007ed4d2f5277e6d519f2bf9dcaf8a3de01a53 -> 6f4f9201a889c9727e7c7f34c1fc7f20e4dad32ad6acb57f4ec457f8e2e6c92a
+~ _convertNSStringToNSData : sha256 cb64488313e701c881b4d871c05019a0f7188f48b31083c1ee5b4b155146ea7c -> 81c39b480fb1b3ac65d8df91827078b9fc44c925900e25dbc71cbc4fe18fbaa6
+~ _classImplementsMethodsInProtocol : sha256 bfe74bd6d48bf3cd095900f6c26a6705c9e8e09aef08e07d7b9f8c7b8c2663bc -> abbcef2f9fb0e1194abd1aa9dbfc632889030ada5aa3b31bb13925aee8d1e9de
+~ _isNSObjectNull : sha256 181d23d697f69ad3aef59b5fd0851db3e1e1a2f5431b6d180ca0a9b801dae2dd -> 4ab7aeb94971e73a5d1d357aee5d5b2af310d44dd92449eb306e5ee379a587c2
+~ _readJSONFile : sha256 e95a515ce632fec94ffb8dc13a19d8ca973b1ef18d4d7b07b8054ce16229469c -> 54ad501ae15e83797463fa98d6677283410dbac3c25a947b32b2f13aa334668a
+~ _writeJSONFile : sha256 d626ddc72977ec6868d47e612dc0cef591e73704d264c326095baafefd59df54 -> 1ff553a4f27a9dfd7512907361da5ecae44b1ee505613157b48af93913caf311
+~ _base64EncodeArray : sha256 0e23812d4b995bcdb05d5f96c7994be977fc71b56017f5e9198cb0d808802630 -> 6068c912780a86f4998eacdc4379fef8d4ed6b845f89fe2b2aaa90e33d9d7f0b
+~ _base64DecodeArray : sha256 ea3332a67dab154524ee3ac401084fb224aecd6763bd892a8dbc028401b2a4f2 -> 33a298b83bbcd3503d177d849b00c9fe937596de447e49f70fd8d626a9bb9fef
+~ _OSLogCopyFormattedString : sha256 012e43d582edf7a1dd27ec808214adc6cde2a1a9273de0e46779f9dbeaa72c91 -> e412402e5453b5d9e6299ee4a8d9a1bb824ccfdbc7bea90729c418c52824e70a
+
+```

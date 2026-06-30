@@ -1,0 +1,85 @@
+## LighthouseModelMonitoring
+
+> `/System/Library/PrivateFrameworks/LighthouseModelMonitoring.framework/Versions/A/LighthouseModelMonitoring`
+
+```diff
+
+ 3.0.0.0.0
+-  __TEXT.__text: 0x3968 sha256:83de529c0ba03d6ebc85cd5f744f45e23a7b884fd280fd9d59281351f5706bea
+-  __TEXT.__auth_stubs: 0x120 sha256:5a506de17191433919e8312e63929ed4fc0547d7a9661127d0bc24756f5c2734
+-  __TEXT.__objc_methlist: 0x1dc sha256:41618635a24077eb8760f728a5ed8279d4aa703b58187ccb4de7476b7203f1d9
++  __TEXT.__text: 0x3968 sha256:23a55665503d481236fafed5f75b80b90c68f8643f8110ff67525cd33729de35
++  __TEXT.__auth_stubs: 0x120 sha256:1f777bfc9118b8f648cfabb32b9877f611688e1ed4bc6e08240de5c37b097d71
++  __TEXT.__objc_methlist: 0x1dc sha256:400384e1016eddfa38ccf1edf80275d6ceafe96cb25917bead75b40ddec55f3f
+   __TEXT.__const: 0x80 sha256:273ceca246c130e23ae90a86d4e70bee600733b264033a33f0cba05bfbae49af
+   __TEXT.__cstring: 0x93 sha256:8ab86b33dc3fc4a4f321c4d0eca217e50400fc9306232cb9a7168f35d15c1cbf
+   __TEXT.__oslogstring: 0x1d1 sha256:7b3bfac2debf40b95b98d314bb07138fc8d57d39a92e7984bc09d6e1aa20a281
+
+   __TEXT.__objc_classname: 0xd4 sha256:e0a9b52eb7e3a2757e2419d95bb917c8bf886e961e8d78ef6815de150aa08fd7
+   __TEXT.__objc_methname: 0xc9e sha256:85f3ab19e873713ea4ecc2e9c838f96a9818e125e8ba20b6308333245f6dc233
+   __TEXT.__objc_methtype: 0x12c sha256:d2a2a0325111567a3f5ed2d8170999db528edc7d03c5ee68cb6e0af65125a229
+-  __TEXT.__objc_stubs: 0x8a0 sha256:82a2bd51c946d906b26094f8467191d8ed10738fd9499dd88e24194af19f644b
+-  __DATA_CONST.__got: 0x98 sha256:bc9e69acc31fab783fba880cb78dbaca63b68198d946dbecbf257138f3db1225
+-  __DATA_CONST.__const: 0x20 sha256:bc7fd9357d9a4ac4681a6804852706e427ab3cec9b31909eddac7fddcc33f9d2
+-  __DATA_CONST.__objc_classlist: 0x40 sha256:80d2955a7db7e736729d7e348914fbd9e7e4ea93651d166576c0cef8ca75b6c1
++  __TEXT.__objc_stubs: 0x8a0 sha256:c6ecf95280aa7343262f2b0bb2faa2c8f5335b8cd14a1ebc6915bae19e752304
++  __DATA_CONST.__got: 0x98 sha256:74ef8c4e303a5c0eb4452b0c17c3c3a91dfce68e6bbeb458f7d5ae468e14d90d
++  __DATA_CONST.__const: 0x20 sha256:f08509fe6459dbe3c1f57dfe3939630f347013f321c71aefb99c97610f598609
++  __DATA_CONST.__objc_classlist: 0x40 sha256:79b58ae5e862a9cfffc790920634bc21d24a619ffd85fbacbdb8e02d80a28676
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x2a8 sha256:a711c8d791ee9db65dfe124a6b45f858195bf0c2bf41880807deede70dd123b6
+-  __DATA_CONST.__objc_superrefs: 0x20 sha256:208acf8f43f4c4b78dd2eb5572b953433cce4e5b868b50638d2ff5d780971a05
++  __DATA_CONST.__objc_selrefs: 0x2a8 sha256:dde09d273db611e875b0fb2ea1d9b79065cf672dda8240c395ee6f0d6c4e4778
++  __DATA_CONST.__objc_superrefs: 0x20 sha256:a34b3777a68874128152f698bec70741b96fb7c2920d2036b494bcf23994a097
+   __AUTH_CONST.__auth_got: 0x98 sha256:85ada57e1f601e962d705f389285adb4e74f450bc00672240dfef7399d82457f
+-  __AUTH_CONST.__const: 0x20 sha256:e01d1d09cb715548b59c81a46621d4a80b0313a3bc068756d31a8bd15bc67b7b
+-  __AUTH_CONST.__cfstring: 0x80 sha256:42e5804a8251f2cfa337325e0f8e4f549ccbd09fd6e53ce703edba8c570146eb
+-  __AUTH_CONST.__objc_const: 0x7b0 sha256:20163904288a39df677c099dc33f3aac142ee1d3c22530f51e30c4269666ec60
+-  __AUTH_CONST.__objc_intobj: 0x30 sha256:70cfc3c5cf9d260d8ca3466d92d11d5d0d447648966c23fa1cc01381a76d230e
+-  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:e9f1d27c217eca1e9b89424e0a9252d1f410a26aab79dbbd277d7c5a23f617d8
+-  __AUTH.__objc_data: 0x280 sha256:3e31134a4cf54723e959f7e01ae494bb590b6ee76561f445bd4a8f02df9ce0ca
++  __AUTH_CONST.__const: 0x20 sha256:321f601dc8ed7f06651193312cb4b81d5f0763de6ec8171c934de698a7238c21
++  __AUTH_CONST.__cfstring: 0x80 sha256:2a506b12041a37576d95abf7c2a6b5b667afe30995dfe4439d35beae435b07a7
++  __AUTH_CONST.__objc_const: 0x7b0 sha256:f89cd2c1fed5a1f3d77f50355f68ae340c5f377926004e6a482a73eb506884c7
++  __AUTH_CONST.__objc_intobj: 0x30 sha256:bb590e2f346f38e37d0c7ccfba63c64066906877dab5ea99ae6f1580d5da0de7
++  __AUTH_CONST.__objc_doubleobj: 0x10 sha256:c0f41c17591d11862ac7bd3c1110c89613f2f05ded000f44f65075011a8957e1
++  __AUTH.__objc_data: 0x280 sha256:76fcd5fb129dff314abfe913abc2c3f1ba908d3755cb9bbff78595637854ad3c
+   __DATA.__objc_ivar: 0x40 sha256:39591c708d56cf68e822951a5cbacc694f08f70d5a473e7dc2b1f32da304ec25
+-  __DATA.__data: 0x18 sha256:73e69129c5e9b8384a7adb9845845ddb7337594e8e3259793e5039f844addd79
++  __DATA.__data: 0x18 sha256:e6d6a27fbbe107a18255200a0289748086e3515e85cf4795738ae62aae116811
+   __DATA.__bss: 0x8 sha256:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+   __DATA.__common: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/LighthouseCoreMLModelStore.framework/Versions/A/LighthouseCoreMLModelStore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6FF5FB8F-F498-361E-95AD-7434433AE237
++  UUID: 4A3ACEAF-B4D5-350D-963B-BD678E0D947E
+   Functions: 46
+   Symbols:   228
+   CStrings:  168
+Functions:
+~ _LCFModelMonitoringLoggingUtilsInit : sha256 c3a0561861330dcaf85eaf7102f09d3b332ab7601c649a3d281f7e3fc13936ec -> 0c21a3f7536fa0fe636c0b0ee4f0accf2bb2744b1bcab761bb62d4b336ab5884
+~ ___LCFModelMonitoringLoggingUtilsInit_block_invoke : sha256 dafde380ee77e4eb465303c82f2d307504c4ff79580a5565160caa4034f466f0 -> 2187ba6989cb87b18e2c5662941e615f16c9a4ef50de6ff519c4831cf410e28b
+~ +[LCFChangepointDetection convertFeatureStoreToEvents:featureNames:labelName:valueName:timestampName:] : sha256 7cfe226a5650a1480a51eb97bafe9194fb85f042e8707cf8833a6d95e2fe006a -> c088129561d6fc26a8dc62d921b137decd9e9fb9eedb334568318c2cf8fc332d
+~ +[LCFChangepointDetection _generateFeatureDictionaryForFeatureStore:featureNames:labelName:timestampName:] : sha256 bed4dfe468e54b203454309259628768a2c47e0e53c690af79733b4d29608e7d -> 55c5535bd188d676c9caba35948cca22628eaf6fbae0fe9d3c6a96442824020c
+~ -[LCFShadowEvaluationParameters init:featureNames:vectorFeatureName:srcLabelName:destLabelName:startDate:endDate:] : sha256 6d69c1f38fc1237769f36a72fef2e85abb2ef8d56d30d7c76875cfd752cf712f -> 5e3aac483bc9ed3b790591c5a129336b823feab1ef42e6cc423ce043340bb996
+~ -[LCFShadowEvaluationParameters init:featureNames:vectorFeatureName:srcLabelName:destLabelName:startDate:endDate:preprocessHandler:inferenceHandler:metricsHandler:groundTruthLabelFeatureName:predictedLabelFeatureName:] : sha256 d6b47c74ecb13c3320d3f5925626c0143003127788054b7ab92cb156db05ee77 -> a149da5aad167c3c36fb24d240ca905f665c031234757eaf383d41ebd25cc102
+~ +[LCFFeatureImportance analyzeFeatureQuality:featureNames:labelName:] : sha256 f09e51b3451b6a7ec9d78b8a007582bc99f43e09bb2d40bb48bbc3b9d18b7271 -> aa6d5c2a5bbfe736f444010d3ebb4ad09268348fb48d840fa81c28c550126147
+~ +[LCFFeatureImportance analyzeFeatureImportanceWithFeatureStore:featureNames:labelName:] : sha256 753c93dcd517f6df4253b95e2538e8bc87ed4d47a8ab9b51ce71f0a38c4c16fb -> e45ff41d8de21f1dd308bdb5c4ed4920d0612ab8e748c42763d7b56b3baebb3b
+~ +[LCFFeatureImportance _generateFeatureDictionaryForFeatureStore:featureNames:labelName:] : sha256 ba5a03c6a89d20c519c61551673d6232fb3f5776e146da60ad5d3c075b3cbd20 -> ac1ff6bd89681856ae6a8f98cc2dbfb95776f20cbf70df5abb97e0eac0527e82
+~ +[LCFFeatureImportance computeCorrelationBetweenVector:andOtherVector:] : sha256 5844f3ab9941d05fbae96bbfebb21246d7f67de18f6427e15fdaad1bc581d30b -> 73bd7eb16338d91ab4165ddbb0787a3a89dd5fecdd28514c9d69950ac4ec0ff9
+~ -[LCFShadowEvaluation init:modelStore:] : sha256 d42a3b5e8f86c02fb336abb3992cf90b6a179b53120a974718a9ad80a1f8d9fb -> 28de8fd6c99b2be416ccac1c81a83c4486d30b1109692e5601e89210d72b8dfd
+~ -[LCFShadowEvaluation evaluateModels:] : sha256 a70b1a2447d3847005acc56352bc5bcdd3a874e5ce57de7e4a1337fb32e90ca1 -> 5bdee8d1fe8c8f40a5542b3d54755edd71ee9640a6d345b1c40be0687bd06b57
+~ _OUTLINED_FUNCTION_0 : sha256 dc8435da8aea2f1fbecfc162b2cfcf1ec07eb4d6775df873e629b448a1d1d747 -> 3f34559427d134c3675aab01ea62d4b8ede21cc36fb1dcf73b4a542b9581aab8
+~ _OUTLINED_FUNCTION_1 : sha256 d51f79e411454900cbdec9f86c493c673cfae7b90c50f5e5b2fa38e601571309 -> a5415523f0c6cb4fbf5d2f7ece2b5637c89d399df4f385e4bb3aaf65f015c32e
+~ +[LCFProactiveMetricsComputation mrr:] : sha256 9bb84c8f738dbb2bac16a2d5ebf068a2ccdc12128d225781f32bb1266d32a1a5 -> 19dea3d80fd49013870e343b6b6470e56e29690fad25f85883bf943db4df9887
+~ -[LCFProactivePredictionRankerHolder init:prediction:] : sha256 4a01b11580f43888fd26c9f45e20b7a87b1edaf0af3f0e02e8701f49be3cdbaa -> 86d9e85fbebb0d4872724bbedc102a133a0490a56d33c0708e85a61919fa4a41
+~ -[LCFProactivePredictionRanker init] : sha256 801dc04469e36ba27daea52fb51443966e5f0d6f5037154282e6557d5969d175 -> 88433a0392852ffa385c4ef3d8a87cfa0149c1a1094eb1c247d74ad6ce828483
+~ _predictionSort : sha256 1fd0f3c2cd2ac36c91fc215501754495d8a73d8e93683d241c97c65aa57095bc -> 02cb8c968fb69dafcc7b8b802198bfb8d5e4d286be784e9e000ffc5cbf77efaf
+~ -[LCFProactivePredictionRanker proactiveRanking:predictions:] : sha256 71bdee9053e1f3fccfbb259460d34277257bda19d91d888293b2758566cd68a5 -> bedc1bf73552437947e8f2933970f91754d64227632fe82f485ab99dad9f293e
+~ LCFModelMonitoringLoggingUtilsInit.cold.1 : sha256 facd5d0a312986719132fa191e222f2152934795c09cafcad258be2ca2e9dd04 -> 0abe47a19695d04fa06315a5792535d2e21ef0cb819088e17816ba253545d23e
+~ -[LCFProactivePredictionRanker proactiveRanking:predictions:].cold.1 : sha256 75c0698e59d2febe7b04930b535e9fd61fc3b8b5effa359f77b9e87ffdf560ca -> dabbde91ea0766e578667e4f0c74933eed4520b976280965373828248de2b1bf
+
+```

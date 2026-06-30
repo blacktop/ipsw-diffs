@@ -1,0 +1,35 @@
+## libsystem_m.dylib
+
+> `/usr/lib/system/libsystem_m.dylib`
+
+```diff
+
+ 3312.100.1.0.0
+-  __TEXT.__text: 0x2d4ac sha256:1cea90ab7df92d8e3b9b002e5b73be2840cfa14cc3f0b9d86431d807a4badf63
+-  __TEXT.__auth_stubs: 0x20 sha256:02c1260fc25a39c897e3cb896a2db837b0e08ded42f3bb034e67b1fd4ea1f2b4
+-  __TEXT.__const: 0xfd20 sha256:770334557514a5bfbb23350f7cf5f011652ce460548987eb153961bd267087d3
++  __TEXT.__text: 0x2d4ac sha256:0b48de45b3b378702746880e4203983c6a74217bf01a2cf38f954ea1dcdc55ce
++  __TEXT.__auth_stubs: 0x20 sha256:8bec59683d077f169b729000e7bc3a8e08ae06cda4d0b55e6e1521d8f17a8de7
++  __TEXT.__const: 0xfd20 sha256:9aa2a309daaafaafa3ab5c77a65c7d8cbe4e8b6b8582bd441844275e14badda8
+   __TEXT.__unwind_info: 0x298 sha256:dba21254fea86b1872470bad2f67aec4e8d50cc463148fbe574f3a40c60c1c64
+   __AUTH_CONST.__auth_got: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   __DATA.__common: 0x4 sha256:df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119
+   - /usr/lib/system/libcompiler_rt.dylib
+   - /usr/lib/system/libdyld.dylib
+-  UUID: 7FD467E1-4DBC-3B9C-A2EE-AE4BEFC1D835
++  UUID: F99121D1-D8C5-3E49-B483-4EC8EE234925
+   Functions: 343
+   Symbols:   447
+   CStrings:  0
+Functions:
+~ __simd_orient_pd3 : sha256 a06ac9369cd8eaaa06119b7243dfc55fa619dc1f9f25ccdeb3fda2bd90b3fee8 -> 779aed5a939f36a7ffb725c6551ebaefe793f55e997d62eb75940ba6b527b283
+~ __simd_incircle_pd2 : sha256 06c7b7fed70eb30057d813575a8a24f226dc6345869c22c5fe6e86eec98736f9 -> 1a7040a3801d3750efe2de5bb61fad6f13cc15701e8ac3303f23b19f2d7b3df5
+~ __simd_insphere_pd3 : sha256 e132e188d3d32ef93d3246856133d8abe85cc756965627ad9bd2f75d1ea57ba1 -> cd27948b491f885a5da6ebdf21c00c57e5529a23143a34e36ab231166d563b3c
+~ __simd_incircle_ph2 : sha256 ce46cf63e6b75f5f7589175ab55e6be8323f69c93425f7b33d33fef52f3733d9 -> 32c0ec1218539995414b4f8462f78e975c13b4d5a21ed7d910ec77722ece4679
+~ __simd_insphere_ph3 : sha256 4de97d54426ed145185f94b7970fcaac98baa995eebeeea3bb28c4593f8339bb -> 352dc07bf2121a7aed7db2ded4b0967936ed28d83ad3a6359a02f63768bfef18
+~ __simd_incircle_pf2 : sha256 20ed3c2c8b82e1fd4b5f528e838636ce47a1ba4b45c49f2f9c6d80d63c754643 -> 4cf39e0f8016972ed9bc8a5fb713399dad664b6cdc608969761d040978b11a59
+~ __simd_insphere_pf3 : sha256 2751c52f93541607c85771edf286e1471aee076544dbc1fc31473fc9a6aa9c20 -> a9120e5aba3c176f0e3ff51b1e32077063f454824cb4b09189a9c2de14f22d22
+~ _lgammal : sha256 e7c8492b6caed9a9cd1e1a9c8d7034656bc01ef4b5d9aa3ff20865cba5db7a13 -> b95f3372ec1fb7111b7022896456f7d86cff84f52e1bad07e6055db440fdd535
+~ _lgammaf : sha256 be775407085f6ab390aaae0387608dbfbbcd7ab883166628f8a071d176f24039 -> 8b64d864c6dbbde93b67fd28f93d788e3e3b7e25a09e2321a780118f5108f15c
+
+```

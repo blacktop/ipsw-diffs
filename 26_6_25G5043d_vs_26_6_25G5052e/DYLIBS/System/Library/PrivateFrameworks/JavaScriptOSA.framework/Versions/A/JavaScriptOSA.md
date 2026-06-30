@@ -1,0 +1,112 @@
+## JavaScriptOSA
+
+> `/System/Library/PrivateFrameworks/JavaScriptOSA.framework/Versions/A/JavaScriptOSA`
+
+```diff
+
+ 47.1.0.0.0
+-  __TEXT.__text: 0x6b14 sha256:705822eb2e1843bc957765a08c17889149ca85645cf3f2bf46de8a3b31f238dd
+-  __TEXT.__auth_stubs: 0x2f0 sha256:cade6fb06ac878de1ecdb7cf822bead1025ef24627fcedebef85d7446adc2eb4
+-  __TEXT.__objc_methlist: 0x76c sha256:807dd76055fe9799495401a7edbe7110e6bc81ef6fd2935568f5997f94eb30cf
++  __TEXT.__text: 0x6b14 sha256:e01e19bc2a888eabb95845c5d2c223a66d3ef3baf3c84a68af0941d42179ed62
++  __TEXT.__auth_stubs: 0x2f0 sha256:c9465b6f0ce787648520ce694d3e6327d183938eb8a838a888224d91686c3f20
++  __TEXT.__objc_methlist: 0x76c sha256:ce27c0b5905bd04b34a6492a63ea648905b518e78593816e29f163142fb3deac
+   __TEXT.__const: 0x34 sha256:937e84cd3708c07b4ba2c63d36c9485fe6436329985ea18a50de3cdab08ca271
+   __TEXT.__gcc_except_tab: 0x18 sha256:5157b39156b0a67e4a23663765dd3f5ed2ea7e46a6ba2dbc21cbad1657d4957c
+   __TEXT.__cstring: 0x454 sha256:a70772fa779716e6e39a3479b7deea15783cc1fd9a2b27558d121c426531d1e7
+-  __TEXT.__unwind_info: 0x198 sha256:216594b2ca26b642bd7fc1ee32ea8673f2498dc9aba21c6f9b92e9d74ce9a8c5
++  __TEXT.__unwind_info: 0x198 sha256:ae0cbfa545d929ec50a5301019dbf82b009e29c83a47aa9ab69f1ed9dc324c4d
+   __TEXT.__objc_classname: 0x60 sha256:9273ca26d93d0e6b349194c5582586bd88b8a4abfa86a2c3d959ec3591c7ab4e
+   __TEXT.__objc_methname: 0x1cfe sha256:045d8732f21daf2bb8f1cb01155258fe5614d2abdca127b3b006b6b7916649f0
+   __TEXT.__objc_methtype: 0x5d2 sha256:42a20c526930d22ccc88c8fa9b657fd2c93d412b342cd9c3304895d5b13da499
+-  __TEXT.__objc_stubs: 0x1d40 sha256:68cbc579980d12e94374b2974d49197c645a1d8c39112407e06ea035d4747d93
+-  __DATA_CONST.__got: 0xf0 sha256:ce0f39612a16f98e58ef613dd07297e008f43e6197c176ae98282d7f62d3b4c6
+-  __DATA_CONST.__objc_classlist: 0x18 sha256:233f92e2abe76aa25e6e19f0e624bdb97ecdb25fe62fe7276df04f593e4c7e33
+-  __DATA_CONST.__objc_catlist: 0x8 sha256:70e47706c3850a17af88831f32ee8230efdd4e4faa323d22ca148f0974b7063c
++  __TEXT.__objc_stubs: 0x1d40 sha256:b0285f5df9189a37a681c3a63f0bcf12a5af7bc2a11448778649c7f5bdd895a8
++  __DATA_CONST.__got: 0xf0 sha256:2bc7747d30da6da1cfc7b8ee16ec12dc7b3965f23ae22b2962fd82a8e2c3c247
++  __DATA_CONST.__objc_classlist: 0x18 sha256:e14fda2969f8f574664bcee540879ddcdfb9177644071237c23bb3f49387017f
++  __DATA_CONST.__objc_catlist: 0x8 sha256:d791d6952444ae2f54a39d6bd0ce82ea3ddb08a70fa5ee8d1d3bf26078d73cf9
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x890 sha256:95275cf0f44217bcbe9897dd5aaba4cfcf080cb9b618486a01b39788a4dc3d47
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:bc79206f102fd18c604714b4660597ad005e8fbae3d136866c3af393a0b57121
++  __DATA_CONST.__objc_selrefs: 0x890 sha256:6dd20250a4d9ff960951efe0958b515717b778b76ad635e92c9aff4c4fa7cc52
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:1f54ce0fb470ea98e4ff49065c56e8e781f9272ea167da8a984ca436d8c81309
+   __AUTH_CONST.__auth_got: 0x188 sha256:3eefc4790b52024832ea4c03c6e7a781f3ef9416866a959b2777fce101ad9d61
+-  __AUTH_CONST.__const: 0x30 sha256:446cc2a5b58603bc7c06f4650acbf5bd16ba7ae718d8d123d02975cdad64b64f
+-  __AUTH_CONST.__cfstring: 0x560 sha256:9eec5eb86b0246168160f9354c3f0383a376c0b248f42f86f066a0d912ae96d0
+-  __AUTH_CONST.__objc_const: 0x780 sha256:ec955b0ce7c94fb16845892a1ce5ced63b58f79deaaf3db4bd04e3c73d4ecc9e
+-  __AUTH.__objc_data: 0xf0 sha256:f749204ba753e5f5d4bea25fdf606c619f6842da769550407438b483057cb929
++  __AUTH_CONST.__const: 0x30 sha256:34bc11d313b1050b315ddd0c2f08ebfd6d6d67424ad880afb7a50c80d6dc70eb
++  __AUTH_CONST.__cfstring: 0x560 sha256:5d64415afa08245aa17e7c85840abac52e14b527896eaea79913d7a2291c75ec
++  __AUTH_CONST.__objc_const: 0x780 sha256:80dcabb9e8c8cc0ddfd3dd0ac6bdc3bf1e41e2346fa05839869c265973b0dc0c
++  __AUTH.__objc_data: 0xf0 sha256:1fbe77ab86cb09b8fe31de4cbfd015e741728efab17e24a940136b7d15071f01
+   __DATA.__objc_ivar: 0x74 sha256:e538c4ed840585360946a5ad943fc91ed92ee10b78bbdf76986142c5044ddfa1
+   __DATA.__bss: 0x109 sha256:766945d07e482349b0c75427ad1146bf0c21f1c7e7ee55dbbf990402fe20bfdd
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/libDiagnosticMessagesClient.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 24A509DA-E13B-30C0-B677-994BBFA9E6A2
++  UUID: 8570E0E3-5071-38C0-9246-2D7935308EAE
+   Functions: 161
+   Symbols:   536
+   CStrings:  493
+Functions:
+~ _JavaScriptOpen : sha256 25d62b395e5fbf790d622d175069b32d09ad2f2235682879414a548d7a2f2989 -> 0a24f0691366fa64c5d4a2c0f128a32a92da4c5adbbf9448077f4b78d5c2af30
+~ -[JSStorage(JSErrorInfo) storeErrorInfoForScript:exception:message:] : sha256 98949bb7b58d68a4bb864ee67b272df811a83ab2288be3a6679cc7eb1d3e5883 -> ce05edbe3ecdaf11aecb107a9af6a833a3d9bceea26f7d8293e6b1cbe1fbca22
+~ -[JSStorage(JSProcedures) closeComponent:] : sha256 5792e5359b191443729f7bfa6577f3af90dcf44b083f8781aea657d3840148eb -> 017a367250ae512a9b01a9a24a600afbe4b7d99222843d66b5424deb1382c0c8
+~ -[JSStorage(JSProcedures) loadScriptData:modeFlags:resultingScriptID:] : sha256 474189f055503564ac1971772fe1e0117215d8cd51af1cfa6accd11d5b6036e6 -> 5c5ba3a0d9f0872e825296dc08d422bbc64f84125a89cfbeab107c7c484a29a0
+~ _readScriptDataPlist : sha256 0ef8bd7aef2bf1c3bec5970dec617c0a44e5fb616f99f8820956174af4a4b0bc -> 40a3934c601b42d5bcf733659caa7996d6e179c9ef03113cbd2e3685ce83b9aa
+~ _readScriptDataString : sha256 c20d864a27b7ddb091f37f2149eae25424a5876bc7274b1667be4c2d33976539 -> d5455b62f57f8f84caaf917a2ba5d347222bad579a83af33c675dc712ee0d711
+~ -[JSStorage(JSProcedures) storeScript:desiredType:modeFlags:resultingScriptData:] : sha256 2289f95f892a878402dd6f2272f63e8badb881973d8f2db8db0cf41918636cc5 -> 12e0c4bc0923671f56a17ab64549d966fae04fedfb9495d3010aded3e159e32f
+~ -[JSStorage(JSProcedures) setupProgressInContext:] : sha256 c0d85df3ba3e17a820095c4ceb4c4aff0e8c6c4f5064c317a8ae6913a13ddc86 -> bb4473ee3bb4cd2292611603fe335d472ec87639a655e589643a7ff51d095cc2
+~ -[JSStorage(JSProcedures) evaluateScript:inContextID:] : sha256 12d9643b74f8bb66b650d78d4dbe6cd47e7a2d305c39a080a400d5702b2e18e2 -> df47a985a0ebb74ceae500b00de5a1a6e4c8f98ed30facc28c362f76974ae190
+~ -[JSStorage(JSProcedures) executeScript:inContext:modeFlags:resultingResultID:] : sha256 dca9e61c9159d87ef409435730536470447c01545a0e2a924d44a819aa457c2d -> 1c7bdbfd5d604a58222351b3543c73707231f480698bb001fe003ff50b213bfe
+~ -[JSStorage(JSProcedures) displayResult:desiredType:modeFlags:resultingResultData:] : sha256 14bfb8b26084d3561f3028345705da853e760b6525263cc294ed55b644963c4b -> c374ecb76bf6f60ec320c42619e0a948fb5c707eaaf6c9c38d2c46d33eadc9f3
+~ -[JSStorage(JSProcedures) getErrorDetail:desiredType:resultingErrorData:] : sha256 8ff38412205617c27d347a88b69989d6dd1d445e489ec81fa747f867f7fbed1e -> 8b2d8a42acc2eab7f0149b29c87d41f3b07f35f9d3ec65a850929a3127ea8f21
+~ -[JSStorage(JSProcedures) setInfoForItem:infoSelector:value:] : sha256 7f163be938cefccc69e9eb05239aaac9bf5c5cb9c07e9e62fd88b1116d533a0e -> 0821337311d23d68ebad3c421d89bc0342acc5bdda1966eea283064450620eeb
+~ -[JSStorage(JSProcedures) getInfoForItem:infoSelector:resultingResult:] : sha256 9bc0200fbe9e581f4a5d824f74ce6b2996b9cd6d5ad236819d34b5474acd1df5 -> 21de56f4cd5de444c64d982c1c4c52bbbf6400b5d94ce2ef92df8b3dec59e264
+~ -[JSStorage(JSProcedures) getScriptingComponentName:] : sha256 94a689f33965730b694392587b3f9836588ad43dc7559472f33071010dbe65e9 -> 2a604c28a00c53705d123c6e336dc35548b678602fb0cc87eb6a8a385427f442
+~ -[JSStorage(JSProcedures) compileScriptData:modeFlags:scriptID:] : sha256 3e4ead08d90987667072afc1ac126c37aee186bc30a771537923836b2f0859c0 -> b4b0af2df2be5a9dada9dd08dea7cfe71d5fbbe71a5c749e853691868b195803
+~ -[JSStorage(JSProcedures) copyScript:resultingScriptID:] : sha256 f6913ef03b1832c70e6fd49748a7c0c2ea5e947d78bd33aabb8c30f8d8d0687a -> c82ebf9010e39675bab761e02bec56cb048252875bea6429a509d757f993e08d
+~ -[JSStorage(JSProcedures) styleAttributedString:inRange:] : sha256 61505cd2bdad47e4aca5862316e4386c839497cea4825bdb877eb933270ab7ad -> aff8107a68fabbd00c349d25752262dd9ee14e7092c5a90387a546a006e0c33d
+~ -[JSStorage(JSProcedures) styleString:] : sha256 7b6ea12f5592d107a347010332e48487779f8776a356ab461e16c0c250373e37 -> 9c47a10f24caf9ed4c40854a7032c2799c096b2168909e96390ad822f3949e26
+~ -[JSStorage(JSProcedures) getSourceStyleNamesWithModeFlags:result:] : sha256 a34d1f6b4b78d91436ed9a2ebf5529930a9e23f792c08ed2ebe4edb255c9758d -> c7f6f71aea94883f1a2f50dc991d963f4db0d697cbc5535b1f80004b2c5c9736
+~ -[JSStorage(JSProcedures) _defaultSourceAttributes] : sha256 1c464440588d7c3973f273a42a0e6cea3d14a01be6a02d848f4249bcd68e5ac1 -> e0c72e75014e84f495cc4e9157b85098802f872f883747406ff899f97b06dd33
+~ -[JSStorage(JSProcedures) _unarchiveSourceAttributes:] : sha256 5d1fbd73d6589a6b9fa9d231540e15dc162fb325fb81c65837b8e3b6cfa71fb4 -> faaeab6ee58dc4c5209c66e3f32b71fef6636b8db45c27d513cabc0342a14193
+~ -[JSStorage(JSProcedures) copySourceAttributes:] : sha256 571deb40b2690b99f769e6e6ff06b0e649607eb8226297491a0794fb5801794d -> 341c83216caf43da7a7461fbb254130bca61b7ccae9b02b63a00527c90caf254
+~ -[JSStorage(JSProcedures) setSourceAttributes:] : sha256 8c7b91a62f4eb9ad2937f1074a5d00ca032bf6cd92bdc0b81621ac12d899c9de -> 9be15613dc71d2184c967d0d5b6159cdb226c2643b32f06505f0407b5fb07bf9
+~ -[JSStorage(JSProcedures) coerceToDesc:desiredType:modeFlags:resultingDesc:] : sha256 044e098417e3fc0d4f148a67a33ca3d3edc86be7245402965980e808915a0c9e -> 4e4f4e7d74c38d6b1fc708452839ff24eac0efc2bd38cd021e978f6f1f152637
+~ -[JSStorage(JSProcedures) coerceFromDesc:modeFlags:resultingItemID:] : sha256 12654cb59cb8a0d214f0f95c4a71a5fa61164c97c8d4d946628e77476f716337 -> 30d98a505f38cf22c016f5cb0705461d95273d7ed4b0233acae52299d95a261f
+~ -[JSStorage(JSProcedures) setDefaultTargetFromDesc:] : sha256 a4c3d7fb8c562d6aa261ac2dbc5b9212378a5db8c2fe06c932df9f6d52e3bc21 -> 3a41a155d757f559fae45d3a0334c9927ffd5023064aefd9695fab6c4acf768a
+~ -[JSStorage(JSProcedures) handleEvent:inContext:modeFlags:resultingResultID:] : sha256 9b5a9508392647d08069ba2bc40de2bb4a3dbac2e40d692e90b57b4c37030bdb -> 016de02b4718095a791c110e65b1a8358d39b3f5cedb5f77e4fe599c8a8e0131
+~ -[JSStorage(JSProcedures) handleEvent:inContext:modeFlags:resultingReply:] : sha256 da67a827d03ce3edb3e912f8b416b9192b869d7449962dfdd5c247bdd5ccbacb -> 217d17a9845f6532d3b62edd5b55a24ede524e9c3a646dca8cd3c59396a57865
+~ -[JSStorageScriptContext initWithScript:] : sha256 19f5556a83689dadebe5f9dac7f8495ca3d49ad0c6edf8a914fd68c1758ee718 -> 34856106a6bef1f4321b39d975b2d016aea695bccee7a61bdd642fb224698f59
+~ -[JSStorageScriptContext initWithContext:] : sha256 1fe0e07a763765864c08ebcf7f7810ac3f224f1bbdbdc4c44fe28db1fea2ac84 -> cfd929aec17a5925cc4fcb5b9a19d20ef677d90c9ca5fa97960289f10af10204
+~ -[JSStorageScriptContext setValue:forInfoSelector:] : sha256 e7f35427f2e2f577bcd0781fc9d21d9f2913f3cb6c113a55dad3eac7a46a75ac -> 326a82a8f42c37b94a67e12afaf0055aefe14172763d8a516af37ceb75213226
+~ -[JSStorageScriptContext getValueForInfoSelector:] : sha256 2c5bff4b704cb4449c5523f2ff3b4750e3f24780fda93e38e26b2f7917cd1346 -> 5b6e782ba70bf7834388e88095ab467ac3a23e386bee77e9d2d33d18089eb6f4
+~ +[JSStorage storageWithComponentInstance:] : sha256 6cf1ece498bfbba170c48d64b88cce925f3c721bda18494256fdc30487dae2ad -> 35171e45aa9b8791c3704eb2c261b9e5062d1e9de90f557af194aa98607436ab
+~ -[JSStorage initWithComponentInstance:] : sha256 e2286e8587995fa5f9451bed368feab8557a9c9c57acaedbc5b164954ec8c20a -> fd766bc71b3f85335aaf723891c98cdba4c1357fa039ea3b0e40aac40401838a
+~ -[JSStorage dealloc] : sha256 65fa6ef2ade5f436e163b2d688ea07cb67de5055e8928c7555b9752d2dea6b22 -> ad3b53630a80470ec03b3dd07d04c9e3c8955b568d8f6a2115309395af9d9caf
+~ -[JSStorage startObservingInspectedContext:] : sha256 a3d128727471ac2324a349081d3d178539d989fcd9161867a9eb12f347b8a425 -> a8a6828f170a9a216d5956d71fffafb7b5fbaab340395d1bf9ffa66454ab0568
+~ -[JSStorage stopObservingInspectedContext:] : sha256 e893504a5367a7db0c7c1630ecd6f652e55697247eecd4e7e8b15f24acf60c04 -> d659a2131b92910bdbc74a2ac6323c1fafe2c9436cec083ece633830856acf76
+~ -[JSStorage inspectorDidDisconnect:] : sha256 42b5570e9f2d364afc56180bfd9fac52066d9e7e777090da05fb3e8bcbeabee9 -> 56ed6bf00e8f3f66b5de45d6d876454a40b5e822f5d4bcd1abe48565429e98c8
+~ -[JSStorage getUnusedID] : sha256 df19a2172b8d5b02efd9257c7b306e8180d010ced4bf30cc0be66252a9366419 -> a865d8021e5afcc5dc130b4cc6201d8b802cca9992d3c0b9b44547e939b89311
+~ -[JSStorage addScript:] : sha256 47b34ec06470703158638c9a69cae6847aaf6a1f9e03de551dca14b3e81f96e9 -> 0aec11480cf735ba9ac03bc544cc7be539eb13190d791c5b63e61f28db92ca25
+~ -[JSStorage addContext:] : sha256 b065cc7c0b9cc904490988d343c539eb1a6c89145c7bdc1780f0c31cd80bbb47 -> 17992f7b020d5b5eed631911818cc5e08466e6e4c60fac3a56c7ee03876c17b2
+~ -[JSStorage addResult:] : sha256 c73d7d3299fe1d6b7b43e62b63b0756f4f2819cf7f14a0f722f34cfddd086c8e -> d19fc10acec6f5b84df7ab62b11fc4fcfb77709c75079a6d4152a6849da801fc
+~ -[JSStorage addLogString:] : sha256 43e0bc147534e35a3b69e3749c6e10b72baf804c7b0d50ef42856ffab28357a4 -> 1f6d8dd0420da2d2459530cae20b428d5b25e0dccb408b0698000bd06ef91ff6
+~ -[JSStorage itemForID:] : sha256 fde6582d7dee5b736b7aee45798a1c2eaabb107fccdf067204e83a551c3f1527 -> 27af13e59bc045d320063e6a775d38d06c3b0485091adc625aa49356b28aa2e4
+~ -[JSStorage dispose:] : sha256 b328e18d6b10d2072f5b2073ccc9b874e74900908a996a7607d83fcf555549cc -> dbfa1263879f2218d0dc0a3d1097c36fc4b59a5d2b9fb6486e55db70d3ad9ea9
+~ -[JSStorage scriptContextForID:] : sha256 4829fb3e244d4c8b82cc22eac70778a2064d2c6659897517fdae030a82ecc966 -> 50520ad501f8b56fb04ff709c9aaca9af1fd74952764d849477e240558d4b4fe
+~ -[JSStorage resultForID:] : sha256 347855b140e4c43ab1a951fc5de9dbed337f23fcc23a1286bb6cb7096be48188 -> 225a6e1bcbefbaa1bde488f0ca5561ce9bba5718d2c1c74ee062f307dacf3881
+~ -[JSStorage isResult:] : sha256 c53497872c295ea0f94aef2dc604d4819f2955fa10133f9b77fd95060d35af4e -> 4943d26482379c70d75caace6f2f23ca3ede47b8d13affc879f3d1948bfb41d1
+~ -[JSStorage sourceStringForID:] : sha256 84dc3f325663a24ee46afc40721d11ad78d967c7048b7033e70471dee4fc137a -> 77b4e586b88d3b24a4d5b0cc5ffba2bfb5bc79d3156990a6ae24e24ef2a58672
+~ -[JSStorage displayStringForID:] : sha256 f56f547474359f986a383d36093c2c8260aac87caef4211a4d5a0f3aa92acc03 -> 09e710fc8d39fd73d98610f2df5744c400bafacc6638b332b96c3e9e2954fe49
+~ -[JSStorage setActiveProcOnAllContexts] : sha256 ff04af2da90b0ebfaacab006835248447b73b5dbde9049c5cd8db4376e9299be -> 0fc80589d10f6caa260cd8aaca626e3805380c86d94162e431e72624192fa786
+~ -[JSStorage setSendProcOnAllContexts] : sha256 cbd41396defa46b5d5f847c60d1d231eb624ee79719e631b675f9ec1482ed8c2 -> 6a9b25b3d1dd33b1b89ad92277d0e7430c9971683a2169665d8ed270b6145c64
+~ -[JSStorage setDefaultTargetOnAllContexts] : sha256 0d61b7d0cdfc2e327cac230f0e5b2d25e92fc889c5bafa0f132187622d41f226 -> 97ed19e623416adf76a1b056fbab5bf5b3987025a235c45503eb60c4f5b5e2d9
+
+```

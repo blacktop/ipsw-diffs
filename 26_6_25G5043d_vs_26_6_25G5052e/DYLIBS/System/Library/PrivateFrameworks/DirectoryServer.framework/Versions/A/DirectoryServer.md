@@ -1,0 +1,114 @@
+## DirectoryServer
+
+> `/System/Library/PrivateFrameworks/DirectoryServer.framework/Versions/A/DirectoryServer`
+
+```diff
+
+ 65.0.0.0.0
+-  __TEXT.__text: 0x57c8 sha256:dea27ae61ff24b77226ca5ec226a6c123089eff798289598b891fda53372c5b8
+-  __TEXT.__auth_stubs: 0x2e0 sha256:285c8f89b926d8f2101cf0f21a29e22cc37f7a38fef563855d0943ea9eba2350
+-  __TEXT.__objc_methlist: 0x2bc sha256:f6342cab2f0efc531157dc8fbfda31df9e81a0850e9ed92a1cf2160909e0939b
++  __TEXT.__text: 0x57c8 sha256:4a3be4ce738926ab122b56205c0b21e6be467fdb4bc9be64d97738137c0709bc
++  __TEXT.__auth_stubs: 0x2e0 sha256:f8fa8926485a5daa4cc3569772343d2bfcf56f031635a65783076aa62b7c2718
++  __TEXT.__objc_methlist: 0x2bc sha256:b2504aaf1b65b7028eceb2b92b3f2ea77a0fdd0a5262aa871cbb4989e6af25b7
+   __TEXT.__const: 0x10 sha256:825b13da936b93cafe948a525b8f28a1ea24c636e7f351fa8c13e897547d3eea
+-  __TEXT.__gcc_except_tab: 0x104 sha256:acecf095e0ef850bc1f94910dbc456827e42019d473c302a1e55652782041bb9
++  __TEXT.__gcc_except_tab: 0x104 sha256:2fb8c5555a200b99da497443314bfc9a2c2f8fd6c6c3ff383a9dd6651ed60de3
+   __TEXT.__cstring: 0xe94 sha256:745a34065d628093b33fa5d6ac25eda73a73f6c42ede1310097017f127dd1ef6
+-  __TEXT.__unwind_info: 0x168 sha256:e44496cd30ecfdb18a509144a6f9674c358cb2f32336d0eadefce299bbd1adba
++  __TEXT.__unwind_info: 0x168 sha256:377196bcb4e5bc4b75abbbd2958f2e74d9b1e31b05ad8851614fe7dced28e145
+   __TEXT.__objc_classname: 0x11 sha256:60c17657f374472e294768fc7e725ef47869ec52fc1c25233e4a3fb4f5737298
+   __TEXT.__objc_methname: 0xaa4 sha256:38bb4b9bd64514649966ecf0d7c98c007739703f44f0bcba028b97c09875b605
+   __TEXT.__objc_methtype: 0xbd sha256:dbc2b38ee3f0dfd779722e839f9c8c1d8f333753c078651c687bc0aab5446a89
+-  __TEXT.__objc_stubs: 0xf00 sha256:719918a21bd229c32e0f69b8a73c9431f6707b9c71c797310095914f72bcfc5c
+-  __DATA_CONST.__got: 0xe8 sha256:77c4f90a69ed71b38b673ff9a8c23b87bc0c4849441584f90a1f106ae8e57774
+-  __DATA_CONST.__const: 0x70 sha256:f4b44bb491288675c9d9699d68318fffce0d6aa493616afa340c4325d56ab94b
+-  __DATA_CONST.__objc_classlist: 0x10 sha256:163673defb4bfd229a3b794b779eaaeb93f978ea57e16097dd71a16c2eda0c7b
++  __TEXT.__objc_stubs: 0xf00 sha256:5c082309eb729fabc5d0832281c9956fa72e942bbe999ff299a4de14af2eaf33
++  __DATA_CONST.__got: 0xe8 sha256:3076af4c1976e3023b271f0733bb9eabfa130387ade2df9fc413f8a67884e838
++  __DATA_CONST.__const: 0x70 sha256:ef24a9c22dc2ea30c8d20e26d9c53001f928ad25f0f50435ea836497e67003c6
++  __DATA_CONST.__objc_classlist: 0x10 sha256:9d4096df16b9ac949635a74445491d8ea7cc1891440bc4c4ed298a188df3f5bc
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x408 sha256:25cedd58969b83c5c5483c24b80c120ddb271ce51e5c331e52d6b1140f426868
+-  __DATA_CONST.__objc_superrefs: 0x10 sha256:173ce202582dba43e612cfbde1c621b93d8fcda32be8f5ab09fb502bde0cee96
++  __DATA_CONST.__objc_selrefs: 0x408 sha256:0c6d2b02229ac66bbc98eb9f62ffd75c60aa5c7fc51cba59902087868f4a59aa
++  __DATA_CONST.__objc_superrefs: 0x10 sha256:b286ed9dc4d5d60f599c866b1fa7e0a4ea3ef1ddfc315852a9d9e2c311a699e0
+   __AUTH_CONST.__auth_got: 0x180 sha256:a1a4f5721c1c4610af7f71078f3a68c330536d679803b0e0507ee8dc10c5dfca
+-  __AUTH_CONST.__const: 0x120 sha256:03e5bec46f5c8bb7d672410234715681f45bc01e676826aa2936b76510f7876a
+-  __AUTH_CONST.__cfstring: 0xca0 sha256:0cb7e0951b532dd6469bb1738728c9a0f67cc1c098b8a7e5babf0fc9c46eebc8
+-  __AUTH_CONST.__objc_const: 0x268 sha256:523889ae8fce20ec78bb1344141fb8e088ee32a8fde96c7a6abcee7e7f53aa7a
+-  __AUTH.__objc_data: 0xa0 sha256:a5bd578fe9355931982bad5733e952fc9d8326091c70cc474bb5172b1415dcaf
++  __AUTH_CONST.__const: 0x120 sha256:c02b1292b9c3c39f09fd3f3d69bbec80d335b97bd4eafd9463cff2f04ee3bd5f
++  __AUTH_CONST.__cfstring: 0xca0 sha256:f7b85ff75f92015ce851503a26edffa2023c3d8235b7f36a32ad1d7e52e27547
++  __AUTH_CONST.__objc_const: 0x268 sha256:731f4e8eb412091eab993beacc8d4279abdc338cdf781f7f03d5fe797507ae5f
++  __AUTH.__objc_data: 0xa0 sha256:ea2dde6a771c61431474711d82cc38f6941a5290a2c58c890a4336b30a4e5e5c
+   __DATA.__objc_ivar: 0x1c sha256:29e73f3c6ec7f1e2b79d3060b7f6d2b537f18a5068ab1214ff6bae26647576ea
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /System/Library/PrivateFrameworks/DirectoryServer.framework/Frameworks/CFDirectoryServer.framework/Versions/A/CFDirectoryServer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: E549D8F5-6771-38D7-9D4E-6B939AF15CC9
++  UUID: 47CEFDBD-15C8-36CE-8501-465DBACFC526
+   Functions: 81
+   Symbols:   319
+   CStrings:  378
+Functions:
+~ +[DSLocale localeByFindingExistingLocaleWithName:] : sha256 83471526982970eb4549eed23e9a97ea7fc5de8a50a7e3c60b7307809034cc50 -> 4ce42f7b4d8575dc7f18a2cfa45df5d6ca63231c89c6709437356c1b28a3fc34
+~ +[DSLocale localeByFindingExistingLocaleWithGroupRec:] : sha256 48000c99fcde8355c21a120eb64b426e01d1f5e2001b5e87323145b4d42f5533 -> 07d959ab2ea25f460182a300f0c02f8e9e02193511bd9ff60190bbeedaf10927
+~ +[DSLocale localeByCreatingNewLocaleWithName:] : sha256 c6aa9bc82fe3e2ac13b32f52b864a9f9c3e9a4d6f31c545295ad91161de80886 -> 4cf1e1ab9333c8b7cddd16c4cc3eceb6b8f6cf1b3701d2f0c7286f13710a8f61
+~ -[DSLocale init] : sha256 f92d1f3664d0bd50ef2a8073f6773525f12695e683c12408639f02367f4b1e3b -> 66d7a04cade69a23f947856158a6e7c4e19ed4a5db15f1b7b3f0845007d0ef70
+~ -[DSLocale initByFindingExistingLocaleWithName:] : sha256 64819c58d0513c202c1e53239a35fab90ee6697b1e41d6edfd6564928520cb01 -> c056fc1a91f19f215e6f8681096cc8da77f7cca3ed8a66493b28921d64e586e0
+~ -[DSLocale initByFindingExistingLocaleWithGroupRec:] : sha256 4f23f7166e7013a3de8de145d1585272a5be665dc92ce1623894e5865c9ed901 -> 97c086a5ad830166d0307980a3b0a15fd5a22dc2ddea6b9e3ecad4c73d5f2337
+~ -[DSLocale initByCreatingNewLocaleWithName:] : sha256 d8b37433deb533f974ba155a772d84d46ac5610f1301583401d58a87cc864f8a -> 7a7dd27221f953eb3be3d4477f2f949ce6b854cb7641856d0afaff49a92a3b2c
+~ -[DSLocale dealloc] : sha256 24eed3449b8dbe30fa1ec2c92d509d0605d9079f3062077558133119968abcb7 -> 20484d4b1ea77e07b0da1c2e7da8ea6dc2f8c524c88925cb882c59a0b3e9c242
+~ -[DSLocale isDefaultLocale] : sha256 621edba82c96d123c3f5c372aabd9f48c79412d37c3513ac0b6717ccc90eacb9 -> 2cc63e2c895b4fdd7e0205f25b623ccd39055101a5d000e6e1319ed90d81fc64
+~ -[DSLocale deleteLocale] : sha256 433f4fd718783ac5d6f19496a49cb5680afc1d0a3b12e4670c86a0adf31a950c -> b3456aa5abbf973955d5bbd3493a1fd2f05a70a38e72d74953aefaa60a05e3c8
+~ -[DSLocale description] : sha256 f3dbcf7483c4f707f0289173aeaf157afd19cb5b7a17cbdab257d210ba95a9ab -> 4aa6dfd5eade047e43f38933e354816da28a8d829de738c1a92dbb30746882ca
+~ ___23-[DSLocale description]_block_invoke : sha256 44da270d28cb691f01985701bf9c5e886c69a1c7b672d820db16dd285f1da6de -> b71d60ba5f69041d0637ae780f1d294e613c376fbbdac127cfc76658ae3c2b51
+~ __23-[DSLocale description]_block_invoke.71 : sha256 be72ebdd373c541d48f0868f49e7ac98584149f1636cc1a3e5d9a995c0c49bb1 -> ab0e63b31a5e230ddbf9424250cb9ad41db3c9f0640deb048475b759fa4e9bd4
+~ ___23-[DSLocale description]_block_invoke_2 : sha256 7d6fced7bf1b86575b2002463ad2893736f7670c89e61a641a18f8e70c383142 -> 5a4cdb1ade8ecff940051e7492d826ba43b5f7a63d0142f86ab263352862beda
+~ -[DSLocale getComment] : sha256 e26d185426707d4f384e63ce131238f161886201c8c2320a44fd1d47a37ff927 -> 1573dbdd6a3bf27a8711ed37e6b1a88932e418e6e103d889947ba2e01f9f9b55
+~ -[DSLocale setComment:] : sha256 9ab1e4a6c4430deaa840239c1689256d4f48a596cf1c2094b6a01b6bdbec09f0 -> 8c5248f1f7876a7f1621a31b7d0e7a2438095ca10a959e30d9adb7471c684709
+~ -[DSLocale getSubnets] : sha256 dd11ffb8e697f7518b1c1018e3adb1fea30c70a7b35db6cd79f817bc3d1c801a -> 4efec99aafb3604bc225cfcda8a019381e03ce9a1c0d3ff8f9112fb819fe7c58
+~ -[DSLocale addSubnet:] : sha256 26d85bd4207aa111f913beeadd256f2ba56e6f7413722c2239521eeaab2249bf -> e704243845dd7b3d1aaece0e262fe05d610b1d2b8e700ad39307f5207a3e4a03
+~ -[DSLocale removeSubnet:] : sha256 142fdff0ec1fc350cdd010f8d0777af3d3924c580124e06b1bbef31f8b05c278 -> fc43decc00b4b284fe177234881e0666e6dc9c499f54e55863a045ea7844d2d9
+~ -[DSLocale getServerNames] : sha256 898976161da52f43640983d68b8e00206f191fbf538ad2004eee79490ed4cce1 -> f2cf720fab5d2c72b57d7dcedc0c665c27fc49dd8b9283a89c9360d3db148eda
+~ ___26-[DSLocale getServerNames]_block_invoke : sha256 b5b5cb0f28c33ad64598e27363cd00eae07e92d4734b9bca7e8a30a1890536b0 -> fd4b3797dc37c6fa1ca095f385b725536e2ac9b65261ca97c1825bdd65ab73ac
+~ -[DSLocale getIPAddrsForServer:] : sha256 5fb400f67266ab0f536d771743cd536970d647be0121395948cfe0d1e6fe91e2 -> a952ac02dca54cd9bbdad7f441b42f2de2fed0dbf39ec5c2020aff5088788e71
+~ -[DSLocale addServer:withIPAddr:] : sha256 b8c6a272e36c895374422e79a725f335e3cea37acd1a30b364afcdb2657605dc -> 9f53e360ad61afc64c50f91398d24996b2fe6691800d2aadf2a816df1cbbe5bf
+~ ___33-[DSLocale addServer:withIPAddr:]_block_invoke : sha256 928f4047ce02950a6a45e4da46644d366a82a909322a29a12f9c9e9bc1b0e020 -> 2b57d29f10bac7f1fca7d23349b1e21ad96e20d2cac963e798a90a6635e376cb
+~ __33-[DSLocale addServer:withIPAddr:]_block_invoke.164 : sha256 67ac26e993de84b15b53bf82a17815c542e47305e04c147e4f48891f6ee51ed1 -> 913f5ed9d9f8ca3dc741ef9ae4a7a3b07fea7f196e68cd1a4a4a8c212424520e
+~ ___33-[DSLocale addServer:withIPAddr:]_block_invoke_2 : sha256 7d2dd5fa0feea40937ae7c945f6a958397e6b01b8bc5d27196b9312a86ca46d6 -> 9bcdef9428aa5ca5ffc1aa653afcae6dc58105ab2698f12cabec675724151fca
+~ -[DSLocale removeServer:withIPAddr:] : sha256 6dc0929a1583e570c95ecf7a83b2251c8ef9a7ad9d8dcb479f0b25e6380612e8 -> c791b830521499da8ce9c7b37927347ac3ef8b56a1406e5a55f0a1e66038674e
+~ ___36-[DSLocale removeServer:withIPAddr:]_block_invoke : sha256 a62340313ae3180ce76498e9c20e8c6665735872c42aa548fb2f6b3043c531a0 -> 856bcebcc40eea996094496d0fdeb1691140a57fa3a2d2f7618df3150b6014b8
+~ +[DSLocale getAllLocales] : sha256 9b12c97ca3f5eeb8f8621d0aba5ee8d3122924ffcb32a911a8af43713f7e2e23 -> 6858b2c94f72e02a2453d682528e5d11690ddacbaea81e949b265931b0a2b804
+~ +[DSLocale addLocaleOverlay] : sha256 e6ef9cd6b00b93faaef73d63b26a2bd444c914c653c576af7d2189ad91e039d7 -> f2ded5321e0de7707e7629c61ad543b1c02e30bc2d5e43b3061590e823a53d5c
+~ -[DSLocale getLocaleGroupRec] : sha256 ad7716bf581e2201e57c0ff82fff9c3d26e497412d43ff60ab29c63db386adb2 -> 099b5c7b66499a69f3d53c3e50a91546e54ab94fe6f0d6cf058d9ac04ad7331a
+~ -[DSLocale createLocaleGroupRec] : sha256 0ab3af8ff06d4e4db9c82b504f93cb8d7e881dc9ac72043701452a17f53c1a28 -> 08c39e2b852faf8ae2f0294abb55baecf63aa53513221817632ed9759378c9e2
+~ -[DSLocale getNormalizedServerName:] : sha256 5f5e7703850dadd35e103a7b03720cfd9413a83a526cafe2a453188987fad8cc -> 3be17cc2bef8d9b8459a3583a1c0a8d6accb2e788ee8e0ddc9c2ef1570b771c3
+~ -[DSLocale getAllServerRecs] : sha256 e3f7d23131daf6c42dbf4e09fa625bb9829074379d8ed1be01952b13f730065c -> cbdfb11a9da2842d067c589bbbef785fc6fef0efa60d8911d4206ae26c8c4db9
+~ ___28-[DSLocale getAllServerRecs]_block_invoke : sha256 3eb062d646db20091cd1c25fb2a7a059c30c7c3b730ab8f824470756343869d8 -> 15000da19eafed1c3238abec8bb2d474a2ff04627635277f3624b1bb4ae5cc63
+~ -[DSLocale getServerRec:] : sha256 39d1cf01c19b9727936ecbc264dd112f6d594b455bc137443ace9eb4c42791e0 -> 1edd3749f9bce98d34006cc473246d3a2e54502f78dc1003423badc31e5dd5ca
+~ -[DSLocale serverExistsInLocale:withIPAddr:] : sha256 3e45dc4ea548aab92e4c4cec9d59deaadfb15fa4581e1735b891398fbe756466 -> 8db92c1b8a24211eb2a787031b1aaefbf58780c87de5d5c7a98103eea739fcbb
+~ -[DSLocale getServerDict:] : sha256 8c6e8057585744ac50a01f8224b6e467e8d91e4ff0cc7ab53e3d8b61999779c7 -> af3949083da7a7b9fa542fce71b5ed54294b8ebffbfeb6136909d9cf8fe49bdf
+~ -[DSLocale updateXMLPlistInCompRec:withIPAddr:usingBlock:] : sha256 c917085bbb127a1f8129aebeb1d50fe2030718c7cd0ac2b31b09b2ced65f8472 -> e332dc80bce67a308f82e0672ebb8c256c4774ad2d6d2276d654203c0e33c7b8
+~ +[DSLocale createLocaleConfig:] : sha256 0e82e6318b3ee34a172a261c37a72550ef9cd49ab1d4f51d227fec8b81be45bb -> 26280a897f10b4552ed8ef83740296fcf42fb12a30a98aebd3948a0f5e14316b
+~ +[DSLocale createInterfaceLocales] : sha256 7b0d143b1571a53ab1aab1fea58ec633acf4e0da7f9967449cc0eb971116cb91 -> 7d57611cc1cb6a6d2af0fb837084c225c7278ba52e1ed83033ee4fc3550d0d96
+~ +[DSLocale hasBeenLocalified:] : sha256 d96bcbad663810c83ad9eb3b02f2422efb03a1b2ed3b9f001b82db73943ecd59 -> 4600b5dc751f3ce8a19ec9401282923bfc5d380474e7f0f952832a7584fadd75
+~ +[DSLocale localeifyIfNeeded:] : sha256 b0adf5ea55488fae1013a25d8a8cdef7bd4528b941e22d2285dfcad7d268f883 -> 46e9146f3b90a45bd3295294bfeaa660c100f3b307601d21d9e0945ee482b460
+~ +[DSLocale localeLog] : sha256 27f690c43d429168c4cc05d92fb1c94390d32b8575ea8ef1419f2b8adbdb961a -> ca2a82a6990a5c160edfef39ecf6a2df93bc2e6b8808ce65f9d159a57a31a7df
+~ +[DSLocale pickGID] : sha256 cc52ddbebb33167784b253826c153eeb02d20e75c6d5315cb7d8676627dda85d -> f49f9b7920149c88ff93b858f5ab928a230c28a95cc1e0d7ea23f1ebe4024595
+~ +[DSLog log] : sha256 e651a6bb13d60011fbcd8c5eaf66ed01f1e720535593d29f0e5a98c97e2757c6 -> a7486f49497a4d99e8c6f83a711f15924df1fc0fe574076a0865fd837e2a7082
+~ +[DSLog logWithName:andLogFilePath:] : sha256 30d58a40de182c960dcf3c28a9a63ade5557e3020111a8686754de6072ff3b30 -> d3775de35af4d66e1d4423f110b5e2687aa0c8c77ce4cdad752214f3f15bac1f
+~ +[DSLog logWithLogFilePath:] : sha256 ded3be07528ac21f254919969682da0a5f6001552d3a96415a29495fd50a97fa -> 4269f164fe25a008ded146b936562fe6ffe7f5726b8ad044c359594f5d430b6e
+~ -[DSLog init] : sha256 cd3be6f9fa7915098ad4dc1fc2f8270d47b887aced191aad4b2e9c6990355afb -> 50b1cb4b9eb6dfdd4b286a16f8edce9ea764b9027770b77c855455d8bc55fa9d
+~ -[DSLog initWithLogFilePath:] : sha256 a7147b324016adaa49b8c596e830b13987bf9bfe79c4675047ffce72c10779c0 -> bc0e9f417095672cccdd5180db6ccb6235efd913f8e00e9a87301a7e2b872b0d
+~ -[DSLog initWithName:andLogFilePath:] : sha256 7a8c04ccdbdb5699c5bf989f4789ab4731a3536dd9d6a735e287adf311633bdb -> b3a0c3446014b9b6a46ef039e88d5a88c95fe74fd7660d90416438e161891db4
+~ -[DSLog dealloc] : sha256 9b357e26f78105302701451cfe423cef098ff09b8be5ff30ed986418e53cce72 -> 63f2a68facb9cd36f2a331bb9d807ccec1a0d442926020c034b02a4a8792c5f4
+~ -[DSLog logMessage:] : sha256 d9e0100b8d7138710db3d69b1de6723af822decce19adcff1181e07390516a8e -> 4e3e11a84d1fda9c7dc73563e35e48510160f3fc3d33b85ae632a75aec9a53ce
+~ _DSRunTask : sha256 c126b5ce162f0600db1f1143a7b36c16a8ff128b6984767e152bfa4a4909e417 -> 0065a2fd39d82408b77356353b00627ba61026412e34bf28e91de90be0d4a76d
+~ _DSRunTaskAsync : sha256 7288a88c4e486538a822ccf1db8e4bc6a2b3e4d3bb079e255208cabf8b364aea -> 42a96fde76483f97a7be95ead89761ecdc7cb3d4b704083bfee285ec26966a8c
+
+```

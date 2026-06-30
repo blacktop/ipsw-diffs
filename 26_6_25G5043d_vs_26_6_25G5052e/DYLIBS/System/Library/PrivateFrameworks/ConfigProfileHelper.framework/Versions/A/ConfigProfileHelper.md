@@ -1,0 +1,58 @@
+## ConfigProfileHelper
+
+> `/System/Library/PrivateFrameworks/ConfigProfileHelper.framework/Versions/A/ConfigProfileHelper`
+
+```diff
+
+ 1806.160.2.0.0
+-  __TEXT.__text: 0x12f4 sha256:f69db7b2f74edafac6689ab70d15cd6063955a09634bea27b1fa5ea68a65c9e4
+-  __TEXT.__auth_stubs: 0x3d0 sha256:d4334bd500caeb443d60283f5f73e49954df55617aee692ce41970febec94974
++  __TEXT.__text: 0x12f4 sha256:cf677d2ca783eff659f5ea253863aee106322e3fa7c1ff8545b0448f26f46cdb
++  __TEXT.__auth_stubs: 0x3d0 sha256:9cd6b7fcb0a8585bceeb19f3fc2980a4fd8dfc06e858c47be1eafa5fa125f74f
+   __TEXT.__const: 0x48 sha256:41c58a9a76fc4c9c05d6c04d8d07d0e22434098978d56e626d9ccd263c01ae86
+   __TEXT.__cstring: 0x21c sha256:a97c4879ad6ab61f4a32ebe6b4a6e57b7692a60c3d8e41da9d0fd2a7fbd1e7e8
+   __TEXT.__oslogstring: 0xd9 sha256:889416017cb00655014b67396bfa64af5477c3c69c9e4044ce136d23b0d7b772
+   __TEXT.__unwind_info: 0xa8 sha256:057c0a26d3d5f1a3aaac09c1e53e7fd19eeb9c9d7768eba402d9896d66be677b
+   __TEXT.__objc_methname: 0x50 sha256:5be08330ee1ca4874e696a63fcadb6b7f263b55530cf5cb37c28780514490cc0
+-  __TEXT.__objc_stubs: 0xa0 sha256:ad76943d16c47d741c3c3746a7eb5ac1f651ddf762a122862345e525fa34e0c4
++  __TEXT.__objc_stubs: 0xa0 sha256:29c62842529b7cbbed9fe392699eca43819ae6ff5d0ff645d2dd9eb9c45ed1de
+   __DATA_CONST.__got: 0x68 sha256:39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418
+-  __DATA_CONST.__const: 0x88 sha256:e63e9b33ee1802a3bd6117243dc14e94dc4ec1c7c63691f30cced73556cd678b
++  __DATA_CONST.__const: 0x88 sha256:d4871433f45abbef08e19591d9cab6da3853db4c4efcad2ec48c4422465ebe0a
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+-  __DATA_CONST.__objc_selrefs: 0x28 sha256:59343e01d40d1980e043b05786789a0a878dd9458fff0d27aea7570a1ca2e13a
++  __DATA_CONST.__objc_selrefs: 0x28 sha256:65b926e9fec46ceecb8e2ae3c39df96553d1b0dc6c7d99c7553e36bb58989f56
+   __AUTH_CONST.__auth_got: 0x1f0 sha256:882993b55cc0c527f0a6059b69b3faf4ef3ccb9cecd3d8847ca0e49a1444debe
+-  __AUTH_CONST.__const: 0x100 sha256:9a8d47f4f8bb89f57661dad40877f82d78e277a0d8223b2ee56b460e7d5f681f
+-  __AUTH_CONST.__cfstring: 0x120 sha256:bc54d305c1ffeb01def2d46817401c63e0bb1ffee6c71270369589d8e1a08b25
+-  __DATA.__data: 0x10 sha256:5add0b68a64b213b2fe0da3b6b74fcfd275d390d7432c83e72f79af5e9bea8fb
++  __AUTH_CONST.__const: 0x100 sha256:3551d027260cacea2399ede6db6dea4c7de3c9fa23c39f8cafa4bd7b221248a9
++  __AUTH_CONST.__cfstring: 0x120 sha256:cf4da34b89aae465af75cfe8e5e6fb84360d24adfbae6993f026ad71a949cef7
++  __DATA.__data: 0x10 sha256:5c9e362093f8ec0e8bcdef21f7340962d3fe3006edd360ebe43ffe1a6dea4fb1
+   __DATA.__bss: 0x10 sha256:374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 84B50852-F959-360B-8ADC-731F7B5D786B
++  UUID: 219A5F60-BA62-3783-BBF3-5CD14D469ABD
+   Functions: 33
+   Symbols:   134
+   CStrings:  41
+Functions:
+~ _CPValidateProvisioningDictionariesExtViaBridge : sha256 72b7fe2db9e1dd9bc21a99f401fd8b53f5da33992e5fbee36a3599826fb8c355 -> 8fd4a1984d203c978252c7a0dcd7fe1bb5a9fe27059de271952e9bfdba03c56a
+~ ___ourlog_block_invoke : sha256 fdb469076308a75eb255cbb08d22359e2f91fb46b211e2ed59ef6a8deca39835 -> 4032930059bb48d2c3e951b4611232f1ee3ca741530937269f9d88ead4d0dfe2
+~ _OUTLINED_FUNCTION_0 : sha256 3fe291f8995a52a45add25f280aa769141ebe926dc7453797502d1d5b893d37c -> 5c002fcb449f7cf12d9b63471348dd1a1aff7ba92facbfe40f00be5fcdb54c63
+~ _OUTLINED_FUNCTION_1 : sha256 4607460ad5d3c0259c0634a669568b371a6fca1a0d71caad493aae8fd9c0c22e -> 519dbbd2c86aadbb32aad3e847f76bbefe2f7e244219c2193d35fa1bf4e5b44d
+~ _OUTLINED_FUNCTION_2 : sha256 f1752dc032d1c994296d9d07f38e4035435dd416398d74ce474c0c9475549454 -> eca3d7e0c69a19da08832d701fe5d0f50baea8b78ee651a5fbbbb754d8b0c1af
+~ _OUTLINED_FUNCTION_3 : sha256 ce763e319e073585fbef53aa6249af936fa83a3fe2f1927795089134a24031e8 -> 2b131f18ec573230c1e1797805f22167208b3ff128777f5426d441b930cd4758
+~ _XSCHelperAgentPerformCommandAsync : sha256 ebdc5fabdaefca8b53c9cdec9e6751a2576438400186aa36e06fd82f53345593 -> fc7495537d7d3824c272b9563e6f8bad301c829b5de9a4d14d9bef996180c00b
+~ ___XSCHelperAgentPerformCommandAsync_block_invoke_2 : sha256 e2ee900a830375583c9d3bfcc5854e5908b95cdbe8d7edd564f928677782d5c9 -> 807e136f8cae86c4ed495fd322ff4c7d0c0d39ddc1018daedbcda7f07483e074
+~ _XSCHelperAgentDeserializeReply : sha256 c1b5899f655d5304c9de21b9bfa651aecdbcf88a994b811185606a39539ec53d -> 5b2a8fa5a6a1d6807b687e820fc97bc65aeac4d35f6735a00f5a5ee80e1cce75
+~ __XSCHelperAgentPerformCommandAsync_block_invoke.6 : sha256 8306dbe54c0d4b48023e3bfe787a4b3c8e57020f574a6a3905ed4f8f16130246 -> 2970f190fd50973a3071bcbe628c761e9feb5c5efb4099481cdb719e0d124ef0
+~ _XSCHelperAgentPerformCommand : sha256 d5f67beafd299f687b42af8e4f8f0ee30f1509d3bc5ab07f9a96842cff1ca518 -> c4ef98fd9fcd9f0e4310be3cb57671bc0ca90640f0a9ef7001ae21849125bef4
+~ CPValidateProvisioningDictionariesExtViaBridge.cold.4 : sha256 a9f9e4e2623ef1292baf807eca0312d337416c650569ae852c2331870aa9017f -> 8ce71d4186d0ee77461db611a449540550f8c6bf88deebb153c639ee4131dd6e
+~ CPValidateProvisioningDictionariesExtViaBridge.cold.6 : sha256 98607be34cb70af429798543ff71dc88056a0ee77c8cb7be73a40234f63c1c71 -> fce2007ba1d2a98827ed78a47b4ae5a2f9c2a95c4d14757e612bb46fb85a8635
+
+```

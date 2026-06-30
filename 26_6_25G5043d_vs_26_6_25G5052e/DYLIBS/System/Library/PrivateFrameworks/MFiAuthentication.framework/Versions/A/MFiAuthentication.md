@@ -1,0 +1,51 @@
+## MFiAuthentication
+
+> `/System/Library/PrivateFrameworks/MFiAuthentication.framework/Versions/A/MFiAuthentication`
+
+```diff
+
+ 2176.100.2.0.0
+-  __TEXT.__text: 0x1bac sha256:bfb40af0dcdbeae4bfa95df44f0d1c3cfa9453424c4a7fcfcaa3b328044549b8
+-  __TEXT.__auth_stubs: 0x220 sha256:daa6b440ed5b598e7c1daa4088eeac69717d0897509e70fefdc15e2963566244
++  __TEXT.__text: 0x1bac sha256:4de0ec51f785a0e05db0b54335bb65df77cd4d8e9ebf8791471d016d1c0a8f69
++  __TEXT.__auth_stubs: 0x220 sha256:f25a2d31a26cff359dca4292a2c6af694c7147e3a60cad3a42ed1a5f779e752d
+   __TEXT.__const: 0x55afc sha256:2f90f3ae25f8591957a142764b6592f45a8a5ec647e5349fc4007091728637fc
+-  __TEXT.__cstring: 0xbbe sha256:a5817f5546c464d0dcc28562a9bb45b9934bd10902971899ef4f3c8b0e069111
++  __TEXT.__cstring: 0xbbe sha256:b81a8c3f55e6e1fe1b87ba7ce0aed314fdfd8033ccb6f8bb947f12f0078443f7
+   __TEXT.__unwind_info: 0xc0 sha256:125f7f99aa90c92d2d61c7aac1aef35736da4a0a98062e7e77a3140af6d2df45
+   __DATA_CONST.__got: 0x38 sha256:d4817aa5497628e7c77e6b606107042bbba3130888c5f47a375e6179be789fbb
+-  __DATA_CONST.__const: 0x638 sha256:aa8a4ceed4740cb2636850d331152895642f57bdbe21117301a67330c3522d00
++  __DATA_CONST.__const: 0x638 sha256:5b299e9109c13c60eb4473e29e364196785df26a262ee9543ee3c518f3a2e48f
+   __DATA_CONST.__objc_imageinfo: 0x8 sha256:59fc9e64071aa89b9247d029e0b37ebe0fe9fc5434efb8e67b0b36435fb494cf
+   __AUTH_CONST.__auth_got: 0x110 sha256:e4d879a3407de578f579dfab4366fcea75a6649c683d9efe4f056f6505437574
+-  __AUTH_CONST.__cfstring: 0x80 sha256:9f4c2266cfd2a67a02579f9182058e71d2a925547bd649dde541a84707f81651
++  __AUTH_CONST.__cfstring: 0x80 sha256:a504b1cd5bfb9c60155d9173791612a3dcbc777b4fc3e42be36ba6bef7d02199
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/Security.framework/Versions/A/Security
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5C52C82B-A590-3E81-9E6D-83C6FDE61D82
++  UUID: 91721C72-93AB-3F77-B460-7A72BC396EE5
+   Functions: 30
+   Symbols:   430
+   CStrings:  64
+Functions:
+~ _GetSecCertRef : sha256 c09225a343dfe06caa29e0055528b264ec9bac05fbceeea03250a192c46671df -> 7d3493b7acaae82ee71628580e8b79aa4bc5a49af7dbdeec6dd60fec3301572f
+~ _VerifyCertAuthorityDictionary : sha256 552ac2cba422557db6b11219cb5db846003ce928fc16ba4224ca0857c585e9f8 -> e41c8e5546333b9cb73e6c96351506977533ba7f669e564eea421c7cb72f8b8e
+~ _VerifyNonceSigned : sha256 54b585198e9bc7de0d8b5c35f0a49d8253360f1cd05d07ab41b03bfa92da48d6 -> f8f7c48e4110fae81753673b22661c8192f125b6b1f5a23d06150f24c1c55e25
+~ _GetRandomDigest : sha256 ecf9f7cd7b032ad3c093cb744f9fc362ba3d58cf34f34a0475dacdc939837b8f -> 254776f0d26b39c4f4a3060821d514abd3c46ba439b052935b08022fc418ff4e
+~ _IapAuthRandomNumber : sha256 f2ab0ed5a4bd8f6924c3e238ed3e5a5f782cfdbeeabf93f5399528af43c196a0 -> 06f77ac58b4f3b433308e7881a3eefd43883ce78f6c86ec2fa675042cb3f0742
+~ _IapAuthChallengeVerify : sha256 bd93526858f79307f2be893d40d68e8749974f70e0465fa26f3d19fe3f1855c0 -> 56c5097919e0c25ce20f29e859334be274a6610bc26f61fdcb2cf333737c0e75
+~ _GetCertRef : sha256 17c2739c6283eb9463a4e345cc42cb9f07b717b6faf58ab63caaa21bb7f02dea -> 096a6e2b5c9f107ecab04a4c292f4c56bb082d51f01d1c2dfa02c45f314aa9e8
+~ _PrintCertSerialNumber : sha256 a47d8f060856e5ca067e13185afabb8b45e0a34147c21cc24fd59c4017ef5e8e -> 86333beca6613c2e77fd828eeb64305d4285b827aa6847de5e8f80f80fd0d91b
+~ _IapAuthCertVerifyAuthVersion : sha256 6c66196bb45cd829230aad1b5962e1db4d1b905bf2a99c191474619bb38456f1 -> e08b23296658fd56657c36ddc7fe5dc8d12518c9cd9f6923050ed107f74697dd
+~ _PrintSerialNumberBytes : sha256 4e88709003639e1cafba7fb6200df8d6953f1e937e1079b2113bbf901ea6bdae -> d6a667e4278942238e484cb63c6597aeafdcdf4de332b0cabd42551f6dee186b
+~ _IapAuthVerifyCertSerialNumber : sha256 215c09709cfe34ca8d1ceadde008d86bedcc42160f22dc8f89c08d2e89866f0d -> b139c3de99cb11ff04e676a3e250894c77a2a1e39ef2dedee0b2548eb66a0776
+~ _IapAuthGetCertClassAuthV2 : sha256 00afacad4144f7ffde09277573dd101e648d7d107950c0e9405d2218bffb5b43 -> 35806c908334acb5e1aa877994ab6052d85e9c7269b58986e03659d81983808b
+~ _getRevokedAuthICBatches : sha256 18353722d86cdb5278bc699c0e0668fb60ab7ea12d4e182b034e7a8d3763c518 -> dd38e39245d3d7f94c803ea43f600e7b41b024e11d537c441e1e9c7afb393300
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CSAMugBsQeLpk91XhF_O257Phxtbw8l9CNH5C8U/Library/Caches/com.apple.xbs/TemporaryDirectory.qUDj0T/Sources/iapd/IAPAuthentication/IAPSecurity.c"
+- "/AppleInternal/Library/BuildRoots/4~CQ40ugCi7aIFOojf5OQwrAG_TNYfjTDP5aXjrh0/Library/Caches/com.apple.xbs/TemporaryDirectory.3gKQuv/Sources/iapd/IAPAuthentication/IAPSecurity.c"
+
+```
