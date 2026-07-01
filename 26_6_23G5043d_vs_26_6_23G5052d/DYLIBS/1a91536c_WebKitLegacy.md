@@ -1,0 +1,133 @@
+## WebKitLegacy
+
+> `/System/Library/PrivateFrameworks/WebKitLegacy.framework/WebKitLegacy`
+
+```diff
+
+-  __TEXT.__text: 0x15d730
++  __TEXT.__text: 0x15c970
+   __TEXT.__auth_stubs: 0x8dc0
+   __TEXT.__objc_methlist: 0xf610
+   __TEXT.__const: 0x220
+
+   __TEXT.__dlsym_cstr: 0x39
+   __TEXT.__gcc_except_tab: 0x12720
+   __TEXT.__cstring: 0x1b961
+-  __TEXT.__oslogstring: 0x141
++  __TEXT.__oslogstring: 0x155
+   __TEXT.__unwind_info: 0x8600
+   __TEXT.__objc_classname: 0x1be0
+   __TEXT.__objc_methname: 0x1895c
+
+   __DATA_CONST.__objc_superrefs: 0x358
+   __DATA_CONST.__objc_arraydata: 0x30
+   __AUTH_CONST.__auth_got: 0x46f8
+-  __AUTH_CONST.__const: 0x5220
++  __AUTH_CONST.__const: 0x5228
+   __AUTH_CONST.__cfstring: 0xf0a0
+   __AUTH_CONST.__objc_const: 0xfe80
+   __AUTH_CONST.__objc_intobj: 0x2d0
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  Functions: 7302
+-  Symbols:   23686
+-  CStrings:  9600
++  Functions: 7303
++  Symbols:   23688
++  CStrings:  9601
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__gcc_except_tab : content changed
+~ __TEXT.__cstring : content changed
+~ __TEXT.__unwind_info : content changed
+~ __DATA_CONST.__got : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__objc_arraydata : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__objc_intobj : content changed
+~ __AUTH_CONST.__objc_dictobj : content changed
+~ __AUTH_CONST.__objc_arrayobj : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+~ __DATA_DIRTY.__data : content changed
+Symbols:
++ __ZN7WebCore14SocketProvider32countWebSocketChannelsForTestingEON3WTF17CompletionHandlerIFvjEEE
++ __ZN7WebCore9IDBServer9IDBServerC1ERKN3WTF6StringEONS2_8FunctionIFbRKNS_12ClientOriginEyEEE
+- __ZN7WebCore9IDBServer9IDBServerC1ERKN3WTF6StringEONS2_8FunctionIFbRKNS_12ClientOriginEyEEERNS2_4LockE
+Functions:
+~ __ZN18InProcessIDBServerD0Ev : 88 -> 84
+~ __ZThn16_N18InProcessIDBServerD0Ev : 96 -> 92
+~ __ZN18InProcessIDBServerC2EN3PAL9SessionIDERKN3WTF6StringE : 632 -> 628
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServerD1EvE3$_0vJEE4callEv : 208 -> 112
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServerC1EN3PAL9SessionIDERKNS_6StringEE3$_0vJEE4callEv : 392 -> 300
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer14deleteDatabaseERKN7WebCore18IDBOpenRequestDataEE3$_0vJEE4callEv : 148 -> 20
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer12openDatabaseERKN7WebCore18IDBOpenRequestDataEE3$_0vJEE4callEv : 148 -> 20
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer16abortTransactionERKN7WebCore21IDBResourceIdentifierEE3$_0vJEE4callEv : 148 -> 20
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer17commitTransactionERKN7WebCore21IDBResourceIdentifierEyE3$_0vJEE4callEv : 152 -> 24
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer41didFinishHandlingVersionChangeTransactionENS_23ObjectIdentifierGenericIN7WebCore35IDBDatabaseConnectionIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEERKNS4_21IDBResourceIdentifierEE3$_0vJEE4callEv : 152 -> 24
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer17createObjectStoreERKN7WebCore14IDBRequestDataERKNS3_18IDBObjectStoreInfoEE3$_0vJEE4callEv : 152 -> 24
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer17deleteObjectStoreERKN7WebCore14IDBRequestDataERKNS_6StringEE3$_0vJEE4callEv : 152 -> 24
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer17renameObjectStoreERKN7WebCore14IDBRequestDataENS_23ObjectIdentifierGenericINS3_28IDBObjectStoreIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEERKNS_6StringEE3$_0vJEE4callEv : 156 -> 28
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer16clearObjectStoreERKN7WebCore14IDBRequestDataENS_23ObjectIdentifierGenericINS3_28IDBObjectStoreIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE3$_0vJEE4callEv : 152 -> 24
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer11createIndexERKN7WebCore14IDBRequestDataERKNS3_12IDBIndexInfoEE3$_0vJEE4callEv : 152 -> 24
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer11deleteIndexERKN7WebCore14IDBRequestDataENS_23ObjectIdentifierGenericINS3_28IDBObjectStoreIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEERKNS_6StringEE3$_0vJEE4callEv : 156 -> 28
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer11renameIndexERKN7WebCore14IDBRequestDataENS_23ObjectIdentifierGenericINS3_28IDBObjectStoreIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS7_INS3_22IDBIndexIdentifierTypeESA_yEERKNS_6StringEE3$_0vJEE4callEv : 156 -> 28
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer8putOrAddERKN7WebCore14IDBRequestDataERKNS3_10IDBKeyDataERKNS3_8IDBValueERKNS_7HashMapINS_23ObjectIdentifierGenericINS3_22IDBIndexIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEENS3_8IndexKeyENS_11DefaultHashISI_EENS_10HashTraitsISI_EENSM_ISJ_EENS_15HashTableTraitsELNS_17ShouldValidateKeyE1ENS_10FastMallocEEENS3_9IndexedDB24ObjectStoreOverwriteModeEE3$_0vJEE4callEv : 164 -> 36
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer9getRecordERKN7WebCore14IDBRequestDataERKNS3_16IDBGetRecordDataEE3$_0vJEE4callEv : 152 -> 24
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer13getAllRecordsERKN7WebCore14IDBRequestDataERKNS3_20IDBGetAllRecordsDataEE3$_0vJEE4callEv : 152 -> 24
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer8getCountERKN7WebCore14IDBRequestDataERKNS3_15IDBKeyRangeDataEE3$_0vJEE4callEv : 152 -> 24
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer12deleteRecordERKN7WebCore14IDBRequestDataERKNS3_15IDBKeyRangeDataEE3$_0vJEE4callEv : 152 -> 24
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer10openCursorERKN7WebCore14IDBRequestDataERKNS3_13IDBCursorInfoEE3$_0vJEE4callEv : 152 -> 24
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer13iterateCursorERKN7WebCore14IDBRequestDataERKNS3_20IDBIterateCursorDataEE3$_0vJEE4callEv : 152 -> 24
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer20establishTransactionENS_23ObjectIdentifierGenericIN7WebCore35IDBDatabaseConnectionIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEERKNS4_18IDBTransactionInfoEE3$_0vJEE4callEv : 152 -> 24
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer30databaseConnectionPendingCloseENS_23ObjectIdentifierGenericIN7WebCore35IDBDatabaseConnectionIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE3$_0vJEE4callEv : 148 -> 16
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer24databaseConnectionClosedENS_23ObjectIdentifierGenericIN7WebCore35IDBDatabaseConnectionIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEE3$_0vJEE4callEv : 148 -> 16
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer25abortOpenAndUpgradeNeededENS_23ObjectIdentifierGenericIN7WebCore35IDBDatabaseConnectionIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEERKNSt3__18optionalINS4_21IDBResourceIdentifierEEEE3$_0vJEE4callEv : 152 -> 24
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer25didFireVersionChangeEventENS_23ObjectIdentifierGenericIN7WebCore35IDBDatabaseConnectionIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEERKNS4_21IDBResourceIdentifierENS4_9IndexedDB32ConnectionClosedOnBehalfOfServerEE3$_0vJEE4callEv : 156 -> 28
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer28didGenerateIndexKeyForRecordERKN7WebCore21IDBResourceIdentifierES6_RKNS3_12IDBIndexInfoERKNS3_10IDBKeyDataERKNS3_8IndexKeyENSt3__18optionalIxEEE3$_0vJEE4callEv : 168 -> 40
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer22openDBRequestCancelledERKN7WebCore18IDBOpenRequestDataEE3$_0vJEE4callEv : 148 -> 20
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer30getAllDatabaseNamesAndVersionsERKN7WebCore21IDBResourceIdentifierERKNS3_12ClientOriginEE3$_0vJEE4callEv : 156 -> 28
+~ __ZN3WTF6Detail15CallableWrapperIZN18InProcessIDBServer36closeAndDeleteDatabasesModifiedSinceENS_8WallTimeEE3$_0vJEE4callEv : 148 -> 16
++ __ZN7WebCore14SocketProvider32countWebSocketChannelsForTestingEON3WTF17CompletionHandlerIFvjEEE
+~ +[WebView initialize] : 216 -> 380
+~ +[WebPreferences(WebPrivateExperimentalFeatures) _experimentalFeatures] : 25432 -> 25308
+~ +[WebPreferences(WebPrivateInternalFeatures) _internalFeatures] : 12796 -> 12916
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StyleScrollbarWidth.h"
++ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Box.h"
++ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CheckedPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
++ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Deque.h"
++ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/HashTable.h"
++ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/RefCounted.h"
++ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
++ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
++ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/WeakPtr.h"
++ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/WeakRef.h"
++ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
+- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StyleScrollbarWidth.h"
+- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Box.h"
+- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CheckedPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
+- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Deque.h"
+- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/HashTable.h"
+- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/RefCounted.h"
+- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
+- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
+- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/WeakPtr.h"
+- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/WeakRef.h"
+- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
+
+```

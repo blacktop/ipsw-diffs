@@ -1,0 +1,18 @@
+## binaryArchive.g18p_a0
+
+> `/System/Library/VideoProcessors/MattingV2.bundle/binaryArchive.g18p_a0`
+
+```diff
+
+   __TEXT.__metallib: 0x6b0
+   __TEXT.__descriptor: 0x460
+-  __TEXT.__compute: 0x6670
++  __TEXT.__compute: 0x6680
+   __TEXT.__reflection: 0x1da0
+   Functions: 0
+   Symbols:   0
+Sections:
+~ __TEXT.__metallib : content changed
+~ __TEXT.__reflection : content changed
+
+```

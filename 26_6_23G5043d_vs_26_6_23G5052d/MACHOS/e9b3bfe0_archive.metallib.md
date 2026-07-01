@@ -1,0 +1,8 @@
+## archive.metallib
+
+> `/System/Library/Frameworks/ImageIO.framework/archive.metallib`
+
+Sections:
+~ __TEXT.__compute : content changed
+~ __TEXT.__descriptor : content changed
+~ __TEXT.__metallib : content changed

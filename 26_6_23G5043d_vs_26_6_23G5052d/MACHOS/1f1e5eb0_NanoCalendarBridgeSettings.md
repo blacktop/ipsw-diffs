@@ -1,0 +1,58 @@
+## NanoCalendarBridgeSettings
+
+> `/System/Library/NanoPreferenceBundles/Applications/NanoCalendarBridgeSettings.bundle/NanoCalendarBridgeSettings`
+
+```diff
+Sections:
+~ __TEXT.__oslogstring : content changed
+CStrings:
++ "==> alerts_ttl [Jun 17 2026 08:30:26]"
++ "==> always_on_display [Jun 17 2026 08:30:26]"
++ "==> bulletin_ui [Jun 17 2026 08:30:26]"
++ "==> complication [Jun 17 2026 08:30:26]"
++ "==> data_display [Jun 17 2026 08:30:26]"
++ "==> data_loading [Jun 17 2026 08:30:26]"
++ "==> data_loading_verbose [Jun 17 2026 08:30:26]"
++ "==> debugging [Jun 17 2026 08:30:26]"
++ "==> error [Jun 17 2026 08:30:26]"
++ "==> event_creation [Jun 17 2026 08:30:26]"
++ "==> icon_generation [Jun 17 2026 08:30:26]"
++ "==> lifecycle [Jun 17 2026 08:30:26]"
++ "==> metrics [Jun 17 2026 08:30:26]"
++ "==> reminders_demo [Jun 17 2026 08:30:26]"
++ "==> reminders_snapshot [Jun 17 2026 08:30:26]"
++ "==> selected_calendars [Jun 17 2026 08:30:26]"
++ "==> settings [Jun 17 2026 08:30:26]"
++ "==> snapshot [Jun 17 2026 08:30:26]"
++ "==> snapshot_creation [Jun 17 2026 08:30:26]"
++ "==> snapshot_vending [Jun 17 2026 08:30:26]"
++ "==> status_bar [Jun 17 2026 08:30:26]"
++ "==> user_data_change [Jun 17 2026 08:30:26]"
++ "==> user_interaction [Jun 17 2026 08:30:26]"
++ "==> utility [Jun 17 2026 08:30:26]"
+- "==> alerts_ttl [Jun  2 2026 04:26:41]"
+- "==> always_on_display [Jun  2 2026 04:26:41]"
+- "==> bulletin_ui [Jun  2 2026 04:26:41]"
+- "==> complication [Jun  2 2026 04:26:41]"
+- "==> data_display [Jun  2 2026 04:26:41]"
+- "==> data_loading [Jun  2 2026 04:26:41]"
+- "==> data_loading_verbose [Jun  2 2026 04:26:41]"
+- "==> debugging [Jun  2 2026 04:26:41]"
+- "==> error [Jun  2 2026 04:26:41]"
+- "==> event_creation [Jun  2 2026 04:26:41]"
+- "==> icon_generation [Jun  2 2026 04:26:41]"
+- "==> lifecycle [Jun  2 2026 04:26:41]"
+- "==> metrics [Jun  2 2026 04:26:41]"
+- "==> reminders_demo [Jun  2 2026 04:26:41]"
+- "==> reminders_snapshot [Jun  2 2026 04:26:41]"
+- "==> selected_calendars [Jun  2 2026 04:26:41]"
+- "==> settings [Jun  2 2026 04:26:41]"
+- "==> snapshot [Jun  2 2026 04:26:41]"
+- "==> snapshot_creation [Jun  2 2026 04:26:41]"
+- "==> snapshot_vending [Jun  2 2026 04:26:41]"
+- "==> status_bar [Jun  2 2026 04:26:41]"
+- "==> user_data_change [Jun  2 2026 04:26:41]"
+- "==> user_interaction [Jun  2 2026 04:26:41]"
+- "==> utility [Jun  2 2026 04:26:41]"
+
+```

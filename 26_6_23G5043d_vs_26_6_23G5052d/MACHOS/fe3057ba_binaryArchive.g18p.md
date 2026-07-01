@@ -1,0 +1,20 @@
+## binaryArchive.g18p
+
+> `/System/Library/VideoProcessors/MetalFilter.bundle/binaryArchive.g18p`
+
+```diff
+
+   __TEXT.__metallib: 0x4380
+   __TEXT.__descriptor: 0x280
+   __TEXT.__fragment: 0xfb00
+-  __TEXT.__vertex: 0x7b90
++  __TEXT.__vertex: 0x82a0
+   __TEXT.__reflection: 0x14f0
+   Functions: 0
+   Symbols:   0
+Sections:
+~ __TEXT.__metallib : content changed
+~ __TEXT.__fragment : content changed
+~ __TEXT.__reflection : content changed
+
+```
