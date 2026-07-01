@@ -1,0 +1,8 @@
+## _HomeKit_SwiftUI
+
+> `/System/Library/Frameworks/_HomeKit_SwiftUI.framework/_HomeKit_SwiftUI`
+
+Sections:
+~ __TEXT.__swift5_typeref : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __AUTH_CONST.__const : content changed

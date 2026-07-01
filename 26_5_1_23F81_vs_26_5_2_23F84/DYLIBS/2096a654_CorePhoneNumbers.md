@@ -1,0 +1,9 @@
+## CorePhoneNumbers
+
+> `/System/Library/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers`
+
+Sections:
+~ __TEXT.__swift5_typeref : content changed
+~ __DATA_CONST.__const : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed

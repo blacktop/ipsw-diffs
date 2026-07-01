@@ -1,0 +1,7 @@
+## ubershader_archive_bin.metallib
+
+> `/System/Library/Frameworks/CoreImage.framework/ubershader_archive_bin.metallib`
+
+Sections:
+~ __TEXT.__reflection : content changed
+~ __TEXT.__compute : content changed

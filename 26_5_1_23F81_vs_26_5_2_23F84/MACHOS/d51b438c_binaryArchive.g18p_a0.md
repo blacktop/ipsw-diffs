@@ -1,0 +1,17 @@
+## binaryArchive.g18p_a0
+
+> `/System/Library/VideoProcessors/STF.bundle/binaryArchive.g18p_a0`
+
+```diff
+
+   __TEXT.__metallib: 0x67d0
+   __TEXT.__descriptor: 0x2000
+-  __TEXT.__compute: 0x35a50
++  __TEXT.__compute: 0x35a60
+   __TEXT.__reflection: 0xdc50
+   Functions: 0
+   Symbols:   0
+Sections:
+~ __TEXT.__metallib : content changed
+
+```

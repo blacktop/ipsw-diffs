@@ -1,0 +1,15 @@
+## _QuickLook_SwiftUI
+
+> `/System/Library/Frameworks/_QuickLook_SwiftUI.framework/_QuickLook_SwiftUI`
+
+Sections:
+~ __TEXT.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__data : content changed
