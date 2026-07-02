@@ -35,12 +35,6 @@ Sections:
 ~ __AUTH_CONST.__cfstring : content changed
 Symbols:
 + _OUTLINED_FUNCTION_9
-+ ___block_descriptor_tmp.26
-+ _fscache_open_worker.cold.19
-+ _heap_alloc.cold.3
-+ _open_data_file.cold.7
-+ _reset_cache.cold.4
-- ___block_descriptor_tmp.25
 CStrings:
 + "Unexpected: in-memory page-aligned size: %zu is larger than read-only on-disk file size: %zu by more than a page. Page size is %zu."
 + "fopen for resetting cache not permitted on read-only cache file."

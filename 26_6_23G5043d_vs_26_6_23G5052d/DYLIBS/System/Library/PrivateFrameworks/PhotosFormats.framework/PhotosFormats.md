@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/PhotosFormats.framework/PhotosFormats`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__gcc_except_tab : content changed
@@ -26,8 +25,3 @@ Sections:
 ~ __AUTH.__objc_data : content changed
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSbsugABjdoNfy3g-vNd3gW3d0iEjLnUZyjddRs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/geometry/index/detail/exception.hpp"
-- "/AppleInternal/Library/BuildRoots/4~CRUwugD8CFwGAIiuA2duFGX8Avyjlj9AefNBayk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/geometry/index/detail/exception.hpp"
-
-```

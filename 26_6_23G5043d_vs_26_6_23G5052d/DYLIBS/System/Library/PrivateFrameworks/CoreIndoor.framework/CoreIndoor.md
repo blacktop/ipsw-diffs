@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CoreIndoor.framework/CoreIndoor`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__gcc_except_tab : content changed
@@ -24,10 +23,3 @@ Sections:
 ~ __AUTH.__data : content changed
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSApugASs6PAkb9HrWJU8mU2pPPmsvFl1-vvnXs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/exception/detail/exception_ptr.hpp"
-+ "/AppleInternal/Library/BuildRoots/4~CSApugASs6PAkb9HrWJU8mU2pPPmsvFl1-vvnXs/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/geometry/algorithms/detail/throw_on_empty_input.hpp"
-- "/AppleInternal/Library/BuildRoots/4~CQ5cugCF0xN8w-i6EC3oyjnr2aGZBOX96kbe2Xo/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/exception/detail/exception_ptr.hpp"
-- "/AppleInternal/Library/BuildRoots/4~CQ5cugCF0xN8w-i6EC3oyjnr2aGZBOX96kbe2Xo/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/geometry/algorithms/detail/throw_on_empty_input.hpp"
-
-```

@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/WiFiKitUI.framework/WiFiKitUI`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__const : content changed
@@ -30,22 +29,3 @@ Sections:
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
 ~ __DATA_DIRTY.__data : content changed
-Symbols:
-+ ___53-[WFNetworkSettingsViewController _runNetworkQuality]_block_invoke.226
-+ ___69-[WFNetworkSettingsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.330
-+ ___69-[WFNetworkSettingsViewController tableView:didSelectRowAtIndexPath:]_block_invoke_2.333
-+ ___73-[WFNetworkSettingsViewController _presentRenewLeaseAlertWithSourceRect:]_block_invoke.520
-+ ___block_literal_global.210
-+ ___block_literal_global.225
-+ ___block_literal_global.318
-+ ___block_literal_global.522
-- ___53-[WFNetworkSettingsViewController _runNetworkQuality]_block_invoke.220
-- ___69-[WFNetworkSettingsViewController tableView:didSelectRowAtIndexPath:]_block_invoke.324
-- ___69-[WFNetworkSettingsViewController tableView:didSelectRowAtIndexPath:]_block_invoke_2.327
-- ___73-[WFNetworkSettingsViewController _presentRenewLeaseAlertWithSourceRect:]_block_invoke.514
-- ___block_literal_global.204
-- ___block_literal_global.219
-- ___block_literal_global.312
-- ___block_literal_global.516
-
-```

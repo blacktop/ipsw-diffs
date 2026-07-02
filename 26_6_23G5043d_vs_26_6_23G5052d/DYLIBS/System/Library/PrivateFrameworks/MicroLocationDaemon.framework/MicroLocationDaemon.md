@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/MicroLocationDaemon.framework/MicroLocationDaemon`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__const : content changed
@@ -34,12 +33,3 @@ Sections:
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
 ~ __DATA_DIRTY.__data : content changed
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSWJugBPLrqvV-hRG9hbwuuynbKUA60UIZMevjY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"
-+ "/AppleInternal/Library/BuildRoots/4~CSWJugBPLrqvV-hRG9hbwuuynbKUA60UIZMevjY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/uuid/string_generator.hpp"
-+ "/AppleInternal/Library/BuildRoots/4~CSWJugBPLrqvV-hRG9hbwuuynbKUA60UIZMevjY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ9wugD3gMKEdE9FLfkbdfNwSn6b7AbgUtE-ixg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"
-- "/AppleInternal/Library/BuildRoots/4~CQ9wugD3gMKEdE9FLfkbdfNwSn6b7AbgUtE-ixg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/uuid/string_generator.hpp"
-- "/AppleInternal/Library/BuildRoots/4~CQ9wugD3gMKEdE9FLfkbdfNwSn6b7AbgUtE-ixg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
-
-```

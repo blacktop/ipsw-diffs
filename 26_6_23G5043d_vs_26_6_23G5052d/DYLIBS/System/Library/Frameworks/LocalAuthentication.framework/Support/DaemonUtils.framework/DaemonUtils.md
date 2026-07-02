@@ -82,12 +82,10 @@ Symbols:
 + -[LAAnalyticsDTO initForStatusMonitoringWithEnvironment:device:workQueue:]
 + _OBJC_IVAR_$_LAAnalyticsDTO._device
 + ___74-[LAAnalyticsDTO initForStatusMonitoringWithEnvironment:device:workQueue:]_block_invoke
-+ ___block_literal_global.199
 + _objc_msgSend$_skipRetryInterval
 + _objc_msgSend$hasBeenUnlockedSinceBoot
 - -[LAAnalyticsDTO initForStatusMonitoringWithEnvironment:workQueue:]
 - ___67-[LAAnalyticsDTO initForStatusMonitoringWithEnvironment:workQueue:]_block_invoke
-- ___block_literal_global.195
 CStrings:
 + "@\"<LACDTODeviceInfoProvider>\""
 + "@40@0:8@16@24@32"

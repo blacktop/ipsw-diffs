@@ -21,10 +21,8 @@ Sections:
 ~ __AUTH.__objc_data : content changed
 CStrings:
 + "#version,CoreGPS-332.0.2,machContSec,%{public}.3f,BuildTime,{Jun 17 2026,03:21:10}"
-+ "/AppleInternal/Library/BuildRoots/4~CSANugBoTiCIUG47U0xgBGIOpR9E8iRHV0bN46E/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
 + "Jun 17 2026 03:21:07"
 - "#version,CoreGPS-332.0.2,machContSec,%{public}.3f,BuildTime,{Jun  1 2026,22:14:28}"
-- "/AppleInternal/Library/BuildRoots/4~CQ45ugDnEbvhhguha3yh6iLT9vlQQxeKKQ-s_to/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
 - "Jun  1 2026 22:14:25"
 
 ```

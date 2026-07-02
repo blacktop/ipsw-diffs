@@ -33,12 +33,10 @@ Sections:
 ~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + _SSSemanticSearchMD8Enabled
-+ _SSSemanticSearchMD8Enabled.cold.1
 + _SSSemanticSearchMD8Enabled.ffStatus
 + _SSSemanticSearchMD8Enabled.onceToken
 + ___SSSemanticSearchMD8Enabled_block_invoke
 - _SSSemanticSearchMD7Enabled
-- _SSSemanticSearchMD7Enabled.cold.1
 - _SSSemanticSearchMD7Enabled.ffStatus
 - _SSSemanticSearchMD7Enabled.onceToken
 - ___SSSemanticSearchMD7Enabled_block_invoke

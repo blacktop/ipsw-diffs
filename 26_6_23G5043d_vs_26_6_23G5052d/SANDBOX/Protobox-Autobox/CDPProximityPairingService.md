@@ -1,6 +1,6 @@
-# CDPProximityPairingService
+## CDPProximityPairingService
 
-Group: Updated
+> Group: ⬆️ Updated
 
 ```diff
 

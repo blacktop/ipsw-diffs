@@ -82,22 +82,7 @@ Sections:
 ~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + _OBJC_IVAR_$_SPCSSearchQuery._isFilesAppDisabled
-+ ___47-[SPCSSearchQuery updateMailAttachmentResults:]_block_invoke.636
-+ ____ZN12_GLOBAL__N_117updateMailVIPListEv_block_invoke.1070
-+ ____ZN12_GLOBAL__N_117updateMailVIPListEv_block_invoke.1070.cold.1
-+ ___block_literal_global.1068
-+ ___block_literal_global.670
-+ ___block_literal_global.686
-+ ___block_literal_global.711
 + _objc_msgSend$isFPBundleID:
-- ___47-[SPCSSearchQuery updateMailAttachmentResults:]_block_invoke.633
-- ____ZN12_GLOBAL__N_117updateMailVIPListEv_block_invoke.1066
-- ____ZN12_GLOBAL__N_117updateMailVIPListEv_block_invoke.1066.cold.1
-- ___block_literal_global.1064
-- ___block_literal_global.667
-- ___block_literal_global.683
-- ___block_literal_global.685
-- ___block_literal_global.708
 Functions:
 ~ -[SPCSSearchQuery addSearchResult:withFoundBundleID:] : 4228 -> 4428
 ~ -[SPCSSearchQuery executeQuery] : 21692 -> 22276

@@ -741,29 +741,6 @@ Symbols:
 + GCC_except_table974
 + GCC_except_table988
 + GCC_except_table992
-+ _.str.4453
-+ _.str.4454
-+ _.str.4455
-+ _.str.4456
-+ __MergedGlobals.113
-+ __MergedGlobals.161
-+ __MergedGlobals.178
-+ __MergedGlobals.19
-+ __MergedGlobals.207
-+ __MergedGlobals.243
-+ __MergedGlobals.244
-+ __MergedGlobals.25
-+ __MergedGlobals.32
-+ __MergedGlobals.329
-+ __MergedGlobals.330
-+ __MergedGlobals.46
-+ __MergedGlobals.47
-+ __MergedGlobals.83
-+ __MergedGlobals.836
-+ __MergedGlobals.86
-+ __MergedGlobals.87
-+ __MergedGlobals.937
-+ __MergedGlobals.938
 + __ZGVZN6WebKit13LaunchLogHook9singletonEvE7logHook
 + __ZGVZN6WebKit21WebPlatformStrategies10initializeEvE18platformStrategies
 + __ZGVZN6WebKit23WebSharedWorkerProvider9singletonEvE8provider
@@ -4270,7 +4247,7 @@ Symbols:
 + __ZZN6WebKitL14mediaTypeCacheEvE9typeCache
 + __ZZN6WebKitL29webExtensionControllerProxiesEvE11controllers
 + __ZZN6WebKitL34isAsyncTextInputFeatureFlagEnabledEvE7enabled
-+ __ZZN6WebKitL40remoteVideoFrameObjectHeapQueueSingletonEvE5queue.0
++ __ZZN6WebKitL40remoteVideoFrameObjectHeapQueueSingletonEvE5queue
 + __ZZN7WebCore5TimerC1IN6WebKit10GPUProcessES3_EERT_MT0_FvvEENKUlvE_clEv
 + __ZZNK3WTF29ThreadSafeWeakPtrControlBlock11strongDerefIN6WebKit18RemoteAudioSessionELNS_17DestructionThreadE0EEEvvENKUlvE_clEv
 + __ZZNK3WTF29ThreadSafeWeakPtrControlBlock11strongDerefIN6WebKit24RemoteMediaPlayerManagerELNS_17DestructionThreadE0EEEvvENKUlvE_clEv
@@ -4281,8 +4258,6 @@ Symbols:
 + __ZZNK3WTF29ThreadSafeWeakPtrControlBlock11strongDerefIN7WebCore28MediaSessionManagerInterfaceELNS_17DestructionThreadE0EEEvvENKUlvE_clEv
 + __ZZNK6WebKit13PDFPluginBase17isFullFramePluginEvENK3$_0clEv
 + __ZZNK6WebKit36WebUserMessageHandlerDescriptorProxy14didPostMessageERN7WebCore18UserMessageHandlerERN3JSC14JSGlobalObjectENS4_7JSValueEON3WTF8FunctionIFvS7_RKNS8_6StringEEEEENKUlONSt12experimental15fundamentals_v38expectedINS_26JavaScriptEvaluationResultESA_EEE_clESL_
-+ ___Block_byref_object_copy_.1691
-+ ___Block_byref_object_dispose_.1692
 + ___PRETTY_FUNCTION__._ZN3WTF5DequeINS_8FunctionIFvRN3IPC10ConnectionEEEELm0EE11removeFirstEv
 + ___PRETTY_FUNCTION__._ZN3WTF5DequeINSt3__14pairINS_3RefIN6WebKit34SpeechRecognitionPermissionRequestENS_12RawPtrTraitsIS5_EENS_21DefaultRefDerefTraitsIS5_EEEENS4_13FrameInfoDataEEELm0EE11removeFirstEv
 + ___PRETTY_FUNCTION__._ZN3WTF8downcastIN6WebKit10PluginViewEN7WebCore14PluginViewBaseEEEPNSt3__111conditionalIXsr3stdE10is_const_vIT0_EENS5_9add_constIT_E4typeEu14__remove_constIS9_EE4typeEPS7_
@@ -4294,8 +4269,6 @@ Symbols:
 + ___block_descriptor_33_e8_32c81_ZTSKZ66-[WKWebView(WKPrivate) _setDisplayCaptureState:completionHandler:]E5$_130_e5_v8?0l
 + ___block_descriptor_33_e8_32c85_ZTSKZ70-[WKWebView(WKPrivate) _setSystemAudioCaptureState:completionHandler:]E5$_131_e5_v8?0l
 + ___block_descriptor_40_e8_32c67_ZTSKZ52-[WKWebView(WKPrivate) _didEnableBrowserExtensions:]E5$_128_e35_v32?0"NSString"8"NSString"16^B24l
-+ ___block_literal_global.1630
-+ ___block_literal_global.240
 + ___copy_helper_block_e8_32c67_ZTSKZ52-[WKWebView(WKPrivate) _didEnableBrowserExtensions:]E5$_128
 + ___copy_helper_block_e8_32c81_ZTSKZ66-[WKWebView(WKPrivate) _setDisplayCaptureState:completionHandler:]E5$_130
 + ___copy_helper_block_e8_32c85_ZTSKZ70-[WKWebView(WKPrivate) _setSystemAudioCaptureState:completionHandler:]E5$_131
@@ -5256,27 +5229,6 @@ Symbols:
 - GCC_except_table993
 - GCC_except_table995
 - GCC_except_table999
-- __MergedGlobals.10
-- __MergedGlobals.131
-- __MergedGlobals.176
-- __MergedGlobals.206
-- __MergedGlobals.236
-- __MergedGlobals.276
-- __MergedGlobals.277
-- __MergedGlobals.30
-- __MergedGlobals.33
-- __MergedGlobals.34
-- __MergedGlobals.363
-- __MergedGlobals.364
-- __MergedGlobals.48
-- __MergedGlobals.49
-- __MergedGlobals.80
-- __MergedGlobals.865
-- __MergedGlobals.88
-- __MergedGlobals.89
-- __MergedGlobals.95
-- __MergedGlobals.993
-- __MergedGlobals.994
 - __Z14makeUnexpectedIN7WebCore13ResourceErrorEENSt12experimental15fundamentals_v310unexpectedIu7__decayIT_EEEOS5_
 - __ZGVZN6WebKit12SecureCodingL45internalClassNamesExemptFromSecureCodingCrashEvE16exemptClassNames
 - __ZGVZN6WebKit14WebProcessPool54establishRemoteWorkerContextConnectionToNetworkProcessENS_16RemoteWorkerTypeEON7WebCore4SiteENSt3__18optionalIN3WTF23ObjectIdentifierGenericINS2_21ProcessIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENS6_INS2_16ProcessQualifiedINS7_4UUIDEEEEEN3PAL9SessionIDEONS7_17CompletionHandlerIFvSC_EEEE23remoteWorkerProcessPool
@@ -12794,7 +12746,7 @@ Symbols:
 - __ZZN6WebKit7WebPage33resetViewportDefaultConfigurationEPNS_8WebFrameEbENK3$_1clEv
 - __ZZN6WebKit7WebPage33runJavaScriptInFrameInScriptWorldEONS_23RunJavaScriptParametersENSt3__18optionalIN3WTF23ObjectIdentifierGenericIN7WebCore19FrameIdentifierTypeENS5_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEERKNS_16ContentWorldDataEbONS5_17CompletionHandlerIFvNSt12experimental15fundamentals_v38expectedINS_26JavaScriptEvaluationResultENS4_INS7_16ExceptionDetailsEEEEEEEEEN3$_0D1Ev
 - __ZZN6WebKit7WebPage33runJavaScriptInFrameInScriptWorldEONS_23RunJavaScriptParametersENSt3__18optionalIN3WTF23ObjectIdentifierGenericIN7WebCore19FrameIdentifierTypeENS5_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEERKNS_16ContentWorldDataEbONS5_17CompletionHandlerIFvNSt12experimental15fundamentals_v38expectedINS_26JavaScriptEvaluationResultENS4_INS7_16ExceptionDetailsEEEEEEEEEN3$_0clISN_EEDaOT_
-- __ZZN6WebKitL12granterQueueEvE5queue.0
+- __ZZN6WebKitL12granterQueueEvE5queue
 - __ZZN6WebKitL16createParametersERNS_29NetworkConnectionToWebProcessEON3WTF3URLERN7WebCore19WebTransportOptionsEONS2_23ObjectIdentifierGenericINS_26WebPageProxyIdentifierTypeENS2_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEONS5_12ClientOriginEEN3$_0C1ERKSG_
 - __ZZN6WebKitL19networkProcessesSetEvE3set
 - __ZZN6WebKitL21sharedStatisticsQueueEvE5queue
@@ -12809,7 +12761,7 @@ Symbols:
 - __ZZN6WebKitL34isAsyncTextInputFeatureFlagEnabledEvENK3$_0clEv
 - __ZZN6WebKitL34subPathsBlockedForSandboxExtensionEvE15subPathsBlocked
 - __ZZN6WebKitL42parseAndAllowAccessToCORSDisablingPatternsERKN3WTF6VectorINS0_6StringELm0ENS0_15CrashOnOverflowELm16ENS0_10FastMallocEEEENK3$_0clIKS2_EENSt3__18optionalIN7WebCore21UserContentURLPatternEEERT_
-- __ZZN6WebKitL8worldMapEvE3map.0
+- __ZZN6WebKitL8worldMapEvE3map
 - __ZZN8WebPushD11PushService21didReceivePushMessageEP8NSStringP12NSDictionaryON3WTF17CompletionHandlerIFvvEEEEN3$_0D1Ev
 - __ZZN8WebPushD13WebPushDaemon18handleIncomingPushERKN7WebCore29PushSubscriptionSetIdentifierEON6WebKit14WebPushMessageEEN3$_0C1EOS8_
 - __ZZNK3WTF17StringTypeAdapterINS_4UUIDEE6lengthEvENKUlDpOT_E_clIJNS0_INS_15HexNumberBufferEEENS0_IcEES9_SA_S9_SA_S9_SA_S9_EEEjS5_
@@ -12869,8 +12821,6 @@ Symbols:
 - __ZZZZN6WebKit27ResourceLoadStatisticsStore30grandfatherExistingWebsiteDataEON3WTF17CompletionHandlerIFvvEEEEN3$_0clEvENUlONS1_7HashSetIN7WebCore17RegistrableDomainENS1_11DefaultHashIS9_EENS1_10HashTraitsIS9_EENS1_15HashTableTraitsELNS1_17ShouldValidateKeyE1EEEE_clESH_ENUlvE_D1Ev
 - __ZZZZN6WebKit27ResourceLoadStatisticsStore30grandfatherExistingWebsiteDataEON3WTF17CompletionHandlerIFvvEEEEN3$_0clEvENUlONS1_7HashSetIN7WebCore17RegistrableDomainENS1_11DefaultHashIS9_EENS1_10HashTraitsIS9_EENS1_15HashTableTraitsELNS1_17ShouldValidateKeyE1EEEE_clESH_ENUlvE_clEv
 - __ZZZZN6WebKit30WebResourceLoadStatisticsStore29resourceLoadStatisticsUpdatedEON3WTF6VectorIN7WebCore22ResourceLoadStatisticsELm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEEONS1_17CompletionHandlerIFvvEEEEN3$_0clIS0_EEDaRT_ENKUlvE_clEvENKUlvE_clEv
-- ___Block_byref_object_copy_.1690
-- ___Block_byref_object_dispose_.1691
 - ___PRETTY_FUNCTION__._ZN3WTF14lazyInitializeIN6WebKit24BackgroundFetchStoreImplES2_EEvRKNS_6RefPtrIT_NS_12RawPtrTraitsIS4_EENS_21DefaultRefDerefTraitsIS4_EEEEONS_3RefIT0_NS5_ISD_EENS7_ISD_EEEE
 - ___PRETTY_FUNCTION__._ZN3WTF23ObjectIdentifierGenericIN7WebCore31RenderingResourceIdentifierTypeENS_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEC2Ey
 - ___PRETTY_FUNCTION__._ZN3WTF8downcastIN3API4DataENS1_6ObjectEEEPNSt3__111conditionalIXsr3stdE10is_const_vIT0_EENS4_9add_constIT_E4typeEu14__remove_constIS8_EE4typeEPS6_
@@ -12885,8 +12835,6 @@ Symbols:
 - ___block_descriptor_33_e8_32c81_ZTSKZ66-[WKWebView(WKPrivate) _setDisplayCaptureState:completionHandler:]E5$_129_e5_v8?0l
 - ___block_descriptor_33_e8_32c85_ZTSKZ70-[WKWebView(WKPrivate) _setSystemAudioCaptureState:completionHandler:]E5$_130_e5_v8?0l
 - ___block_descriptor_40_e8_32c67_ZTSKZ52-[WKWebView(WKPrivate) _didEnableBrowserExtensions:]E5$_127_e35_v32?0"NSString"8"NSString"16^B24l
-- ___block_literal_global.1629
-- ___block_literal_global.243
 - ___copy_helper_block_e8_32c67_ZTSKZ52-[WKWebView(WKPrivate) _didEnableBrowserExtensions:]E5$_127
 - ___copy_helper_block_e8_32c81_ZTSKZ66-[WKWebView(WKPrivate) _setDisplayCaptureState:completionHandler:]E5$_129
 - ___copy_helper_block_e8_32c85_ZTSKZ70-[WKWebView(WKPrivate) _setSystemAudioCaptureState:completionHandler:]E5$_130
@@ -12894,46 +12842,7 @@ Symbols:
 - ___func__._ZN6WebKit38UserMediaPermissionRequestManagerProxy29enumerateMediaDevicesForFrameEN3WTF23ObjectIdentifierGenericIN7WebCore19FrameIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEONS1_3RefINS3_14SecurityOriginENS1_12RawPtrTraitsIS9_EENS1_21DefaultRefDerefTraitsIS9_EEEESF_ONS1_17CompletionHandlerIFvRKNS1_6VectorINS3_29CaptureDeviceWithCapabilitiesELm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEEONS3_20MediaDeviceHashSaltsEEEE
 CStrings:
 + "%s: storage site validation failed"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/GCGLSpan.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/IOSurface.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/PixelFormat.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/RealtimeMediaSourceCapabilities.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/SecurityOriginData.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StorageNamespaceProvider.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StyleLengthWrapper.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/DisallowVMEntry.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/GenericTypedArrayViewInlines.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/WebKitAdditions/DyldCallbackAdditions.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/pal/spi/cocoa/NSAttributedStringSPI.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Box.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CheckedArithmetic.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CheckedPtr.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CompactVariantOperations.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CompletionHandler.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Deque.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/HashTable.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/LazyUniqueRef.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/ListHashSet.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Markable.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Ref.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/RefCounted.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/RefPtr.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/RetainPtr.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakHashSet.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakPtr.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/ThreadSpecific.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Vector.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/WeakPtr.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/WeakRef.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/cocoa/TypeCastsCocoa.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/text/StringBuilder.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkgugBoWZUkSuG_6ALpNFxFdtHkObrpOXo5SRY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/text/StringImpl.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/RealtimeMediaSourceCapabilities.h"
 + "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/GPUProcess/GPUConnectionToWebProcess.cpp 751: Invalid message dispatched %s"
 + "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/GPUProcess/GPUConnectionToWebProcess.cpp 758: Invalid message dispatched %s"
 + "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/GPUProcess/GPUConnectionToWebProcess.cpp 772: Invalid message dispatched %s"
@@ -13589,7 +13498,6 @@ CStrings:
 + "createDecoder() should not be called with unsupported mime-type."
 + "endSessionWithCompletion:"
 + "putPixelBuffer() should not be called if (resolutionScale() != 1)"
-+ "static T *WTF::LazyUniqueRef<WebKit::NetworkSession, WebKit::WebSharedWorkerServer>::callFunc(OwnerType &, LazyUniqueRef<type-parameter-0-0, type-parameter-0-1> &) [OwnerType = WebKit::NetworkSession, T = WebKit::WebSharedWorkerServer, Func = (lambda at /Library/Caches/com.apple.xbs/0C4093F6-7988-4911-804B-26867DA8731F/TemporaryDirectory.agXoiE/Sources/WebKit/Source/WebKit/NetworkProcess/NetworkSession.cpp:181:28)]"
 + "v@:@?"
 + "void WTF::Deque<WTF::CompletionHandler<void (std::optional<WebCore::CAAudioStreamDescription>)>>::removeFirst()"
 + "void WTF::Deque<WTF::Function<void (IPC::Connection &)>>::removeFirst()"
@@ -13632,45 +13540,6 @@ CStrings:
 - " known gamepads"
 - "\")"
 - "&url="
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/GCGLSpan.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/IOSurface.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/PixelFormat.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/SecurityOriginData.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StorageNamespaceProvider.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Cryptexes/OS/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StyleLengthWrapper.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/DisallowVMEntry.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Library/Frameworks/JavaScriptCore.framework/PrivateHeaders/GenericTypedArrayViewInlines.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/WebKitAdditions/DyldCallbackAdditions.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/pal/spi/cocoa/NSAttributedStringSPI.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Box.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CheckedArithmetic.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CheckedPtr.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CompactVariantOperations.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CompletionHandler.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Deque.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/HashTable.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/LazyUniqueRef.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/ListHashSet.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Markable.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/ObjectIdentifier.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Ref.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/RefCounted.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/RefPtr.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/RetainPtr.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakHashSet.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/ThreadSafeWeakPtr.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/ThreadSpecific.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Vector.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/WeakPtr.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/WeakRef.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/cocoa/TypeCastsCocoa.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/text/StringBuilder.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/text/StringConcatenate.h"
-- "/AppleInternal/Library/BuildRoots/4~CRehugCNonH6sTlhO8bbsTZdcxtCPmB6OaP6oHg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/text/StringImpl.h"
 - "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/GPUProcess/GPUConnectionToWebProcess.cpp 751: Invalid message dispatched %{public}s"
 - "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/GPUProcess/GPUConnectionToWebProcess.cpp 758: Invalid message dispatched %{public}s"
 - "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/WebKit/Source/WebKit/GPUProcess/GPUConnectionToWebProcess.cpp 772: Invalid message dispatched %{public}s"
@@ -14267,7 +14136,6 @@ CStrings:
 - "String WebKit::OriginStorageManager::StorageBucket::resolvedPath(WebsiteDataType)"
 - "T *WTF::WeakPtr<WebKit::WebSharedWorkerServerConnection>::operator->() const [T = WebKit::WebSharedWorkerServerConnection, WeakPtrImpl = WTF::DefaultWeakPtrImpl, PtrTraits = WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>]"
 - "Unknown platform gamepad disconnect: Index "
-- "static T *WTF::LazyUniqueRef<WebKit::NetworkSession, WebKit::WebSharedWorkerServer>::callFunc(OwnerType &, LazyUniqueRef<type-parameter-0-0, type-parameter-0-1> &) [OwnerType = WebKit::NetworkSession, T = WebKit::WebSharedWorkerServer, Func = (lambda at /Library/Caches/com.apple.xbs/5BEFD94B-43B7-4DE7-A596-3EB84E5EAB7A/TemporaryDirectory.zJgJWK/Sources/WebKit/Source/WebKit/NetworkProcess/NetworkSession.cpp:181:28)]"
 - "void WTF::HashTable<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::RegistrableDomain>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::RegistrableDomain>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::RegistrableDomain>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::RegistrableDomain>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::RegistrableDomain>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::RegistrableDomain>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes]"
 - "void WTF::HashTable<std::pair<WTF::RefPtr<WTF::ThreadSafeWeakPtrControlBlock, WTF::RawPtrTraits<WTF::ThreadSafeWeakPtrControlBlock>, WTF::ThreadSafeWeakPtrControlBlockRefDerefTraits>, const WebKit::PDFIncrementalLoader::SemaphoreWrapper *>, std::pair<WTF::RefPtr<WTF::ThreadSafeWeakPtrControlBlock, WTF::RawPtrTraits<WTF::ThreadSafeWeakPtrControlBlock>, WTF::ThreadSafeWeakPtrControlBlockRefDerefTraits>, const WebKit::PDFIncrementalLoader::SemaphoreWrapper *>, WTF::IdentityExtractor, WTF::DefaultHash<std::pair<WTF::RefPtr<WTF::ThreadSafeWeakPtrControlBlock, WTF::RawPtrTraits<WTF::ThreadSafeWeakPtrControlBlock>, WTF::ThreadSafeWeakPtrControlBlockRefDerefTraits>, const WebKit::PDFIncrementalLoader::SemaphoreWrapper *>>, WTF::HashTraits<std::pair<WTF::RefPtr<WTF::ThreadSafeWeakPtrControlBlock, WTF::RawPtrTraits<WTF::ThreadSafeWeakPtrControlBlock>, WTF::ThreadSafeWeakPtrControlBlockRefDerefTraits>, const WebKit::PDFIncrementalLoader::SemaphoreWrapper *>>, WTF::HashTraits<std::pair<WTF::RefPtr<WTF::ThreadSafeWeakPtrControlBlock, WTF::RawPtrTraits<WTF::ThreadSafeWeakPtrControlBlock>, WTF::ThreadSafeWeakPtrControlBlockRefDerefTraits>, const WebKit::PDFIncrementalLoader::SemaphoreWrapper *>>>::validateKey(const ValueType &) [Key = std::pair<WTF::RefPtr<WTF::ThreadSafeWeakPtrControlBlock, WTF::RawPtrTraits<WTF::ThreadSafeWeakPtrControlBlock>, WTF::ThreadSafeWeakPtrControlBlockRefDerefTraits>, const WebKit::PDFIncrementalLoader::SemaphoreWrapper *>, Value = std::pair<WTF::RefPtr<WTF::ThreadSafeWeakPtrControlBlock, WTF::RawPtrTraits<WTF::ThreadSafeWeakPtrControlBlock>, WTF::ThreadSafeWeakPtrControlBlockRefDerefTraits>, const WebKit::PDFIncrementalLoader::SemaphoreWrapper *>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<std::pair<WTF::RefPtr<WTF::ThreadSafeWeakPtrControlBlock, WTF::RawPtrTraits<WTF::ThreadSafeWeakPtrControlBlock>, WTF::ThreadSafeWeakPtrControlBlockRefDerefTraits>, const WebKit::PDFIncrementalLoader::SemaphoreWrapper *>>, Traits = WTF::HashTraits<std::pair<WTF::RefPtr<WTF::ThreadSafeWeakPtrControlBlock, WTF::RawPtrTraits<WTF::ThreadSafeWeakPtrControlBlock>, WTF::ThreadSafeWeakPtrControlBlockRefDerefTraits>, const WebKit::PDFIncrementalLoader::SemaphoreWrapper *>>, KeyTraits = WTF::HashTraits<std::pair<WTF::RefPtr<WTF::ThreadSafeWeakPtrControlBlock, WTF::RawPtrTraits<WTF::ThreadSafeWeakPtrControlBlock>, WTF::ThreadSafeWeakPtrControlBlockRefDerefTraits>, const WebKit::PDFIncrementalLoader::SemaphoreWrapper *>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes]"
 - "x-"

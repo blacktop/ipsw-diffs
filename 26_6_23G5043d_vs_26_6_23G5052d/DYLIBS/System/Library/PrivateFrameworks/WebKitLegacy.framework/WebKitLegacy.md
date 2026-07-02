@@ -104,30 +104,5 @@ Functions:
 ~ +[WebView initialize] : 216 -> 380
 ~ +[WebPreferences(WebPrivateExperimentalFeatures) _experimentalFeatures] : 25432 -> 25308
 ~ +[WebPreferences(WebPrivateInternalFeatures) _internalFeatures] : 12796 -> 12916
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StyleScrollbarWidth.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Box.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CheckedPtr.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Deque.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/HashTable.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/RefCounted.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/WeakPtr.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/WeakRef.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkhugDhuFlzF3FuVjqQ3X4xvqbJI3Vk-aKZ_8I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Library/PrivateFrameworks/WebCore.framework/PrivateHeaders/StyleScrollbarWidth.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Box.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CheckedPtr.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/CheckedRef.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Deque.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/HashTable.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/RefCounted.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/TypeCasts.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/WeakPtr.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/WeakRef.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZmugCLSjtsM9_VuTmJlu6mPQ1mQE9zt6D68mc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/cf/TypeCastsCF.h"
 
 ```

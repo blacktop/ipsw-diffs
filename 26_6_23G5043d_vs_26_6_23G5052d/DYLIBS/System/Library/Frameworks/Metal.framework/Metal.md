@@ -70,11 +70,7 @@ Symbols:
 + __ZGVZN18MTLCompilerFSCache8openSyncEvE20sShaderCacheReadOnly
 + __ZL19newErrorWithMessageP8NSString22MTLDynamicLibraryError
 + __ZZN18MTLCompilerFSCache8openSyncEvE20sShaderCacheReadOnly
-+ ___Block_byref_object_copy_.127
-+ ___Block_byref_object_dispose_.128
 - GCC_except_table86
-- ___Block_byref_object_copy_.124
-- ___Block_byref_object_dispose_.125
 CStrings:
 + "19:20:28"
 + "Jun 21 2026"

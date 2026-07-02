@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SiriTTS.framework/SiriTTS`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__gcc_except_tab : content changed
@@ -22,8 +21,3 @@ Sections:
 ~ __AUTH_CONST.__objc_floatobj : content changed
 ~ __AUTH.__data : content changed
 ~ __DATA.__data : content changed
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSAQugCZsjDpoyyekDk4IKRi3KFK9n-cn0wjRqI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/utility/string_ref.hpp"
-- "/AppleInternal/Library/BuildRoots/4~CQ4-ugBa27jPORzxI-CWR2TM_CSJz2AFBfbzs5U/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/utility/string_ref.hpp"
-
-```

@@ -80,11 +80,7 @@ Symbols:
 + -[CompletionListTableViewCell updateIconAppearanceAndConfiguration]
 + _OBJC_CLASS_$_CALayer
 + _OBJC_IVAR_$_BrowserRootViewController._suppressBannerContentOffsetAdjustment
-+ ___114-[BrowserRootViewController capsuleNavigationBarViewController:selectedItemWillChangeToState:options:coordinator:]_block_invoke.285
 + ___block_descriptor_48_e8_32s40w_e17_v16?0"UIImage"8lw40l8s32l8
-+ ___block_literal_global.1135
-+ ___block_literal_global.178
-+ ___block_literal_global.184
 + _objc_msgSend$iconForSystemImageName:iconConfiguration:
 + _objc_msgSend$mask
 + _objc_msgSend$setDisableActions:
@@ -92,10 +88,7 @@ Symbols:
 + _objc_msgSend$updateIconAppearanceAndConfiguration
 - -[CompletionListTableViewCell _updateIconForCurrentAppearance]
 - _OBJC_IVAR_$_CompletionList._urlStringsForInProgressSearchSuggestionImageLoads
-- ___114-[BrowserRootViewController capsuleNavigationBarViewController:selectedItemWillChangeToState:options:coordinator:]_block_invoke.283
 - ___block_descriptor_56_e8_32s40s48w_e17_v16?0"UIImage"8lw48l8s32l8s40l8
-- ___block_literal_global.179
-- ___block_literal_global.185
 - _objc_msgSend$filenameWithoutExtension
 - _objc_msgSend$iconForSystemImageName:isDarkMode:
 Functions:

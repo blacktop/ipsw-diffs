@@ -70,21 +70,15 @@ Sections:
 ~ __DATA_DIRTY.__data : content changed
 Symbols:
 + _PCSDBRGetWrappingKey
-+ _PCSDBRGetWrappingKey.cold.1
 + _PCSDBRRepairWrappingKeyFromEscrowIdentity
 + _PCSDBRRepairWrappingKeyFromEscrowIdentityOuterBlob
 + __DeleteWrappingKeyAndFail
 + __ValidateInnerBlob
 + ___PCSDBRGetWrappingKey_block_invoke
 + ___PCSDBRRepairWrappingKeyFromEscrowIdentityOuterBlob_block_invoke
-+ ___PCSDBRRepairWrappingKeyFromEscrowIdentityOuterBlob_block_invoke.88
-+ ___PCSDBRRepairWrappingKeyFromEscrowIdentityOuterBlob_block_invoke.90
-+ ___PCSDBRUnwrapKeys_block_invoke.99
 + ___PCSDBRUnwrapKeys_block_invoke_2
 + ____DeleteWrappingKeyAndFail_block_invoke
 + ____ValidateInnerBlob_block_invoke
-+ ____ValidateInnerBlob_block_invoke.452
-+ ____ValidateInnerBlob_block_invoke.453
 + ____ValidateInnerBlob_block_invoke_2
 + ___block_descriptor_48_e8_32s40bs_e61_v48?0"NSData"8"NSData"16"NSData"24"NSData"32"NSError"40ls32l8s40l8
 + ___block_descriptor_56_e8_32s40r48r_e23_v32?0q8q16"NSError"24lr40l8r48l8s32l8
@@ -92,26 +86,11 @@ Symbols:
 + ___block_descriptor_56_e8_32s40s48bs_e61_v48?0"NSData"8"NSData"16"NSData"24"NSData"32"NSError"40ls32l8s40l8s48l8
 + ___block_descriptor_72_e8_32s40s48r56r64r_e34_v40?0"NSData"8q16q24"NSError"32lr48l8r56l8r64l8s32l8s40l8
 + ___block_descriptor_72_e8_32s40s48r56r64r_e34_v40?0"NSData"8q16q24"NSError"32lr48l8s32l8r56l8s40l8r64l8
-+ ___block_literal_global.393
-+ ___block_literal_global.445
-+ ___block_literal_global.448
-+ ___connectionPCSKeySyncing_block_invoke.443
-+ ___connectionPCSKeySyncing_block_invoke.446
 - __PCSDBRGetWrappingKey
-- __PCSDBRGetWrappingKey.cold.1
-- ___PCSDBRValidateIdentities_block_invoke.364
-- ___PCSDBRValidateIdentities_block_invoke.365
 - ____PCSDBRGetWrappingKey_block_invoke
 - ____PCSDBRRepairWrappingKeyFromEscrowIdentity_block_invoke
-- ____PCSDBRRepairWrappingKeyFromEscrowIdentity_block_invoke.198
-- ____PCSDBRRepairWrappingKeyFromEscrowIdentity_block_invoke.200
 - ___block_descriptor_56_e8_32r40r48r_e34_v40?0"NSData"8q16q24"NSError"32lr32l8r40l8r48l8
 - ___block_descriptor_64_e8_32s40r48r56r_e34_v40?0"NSData"8q16q24"NSError"32lr40l8r48l8r56l8s32l8
-- ___block_literal_global.395
-- ___block_literal_global.447
-- ___block_literal_global.450
-- ___connectionPCSKeySyncing_block_invoke.445
-- ___connectionPCSKeySyncing_block_invoke.448
 CStrings:
 + "error while attempting to get wrapping key: %@"
 + "failed to unwrap inner blob: %@"

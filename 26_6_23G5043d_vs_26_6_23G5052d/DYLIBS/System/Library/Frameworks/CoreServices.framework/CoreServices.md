@@ -2,7 +2,6 @@
 
 > `/System/Library/Frameworks/CoreServices.framework/CoreServices`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__cstring : content changed
@@ -26,10 +25,3 @@ Sections:
 ~ __AUTH.__data : content changed
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
-CStrings:
-+ "static NSInteger LaunchServices::PrefsStorage::_GetIndexOfValueInPrefsArrayWithPredicate(NSArray *__strong, const Pred &) [Pred = (lambda at /Library/Caches/com.apple.xbs/27D9EFE5-9D88-43D1-A9C4-CDC5151F2CCC/TemporaryDirectory.jJ0EFb/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSPrefs.mm:1433:63)]"
-+ "void LaunchServices::UTTypeEnumerateFlavoredDisplayNames(__strong LSDatabaseRef, const _UTTypeData *, const F &) [F = (lambda at /Library/Caches/com.apple.xbs/27D9EFE5-9D88-43D1-A9C4-CDC5151F2CCC/TemporaryDirectory.jJ0EFb/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Database/UTTypeCore.mm:159:55)]"
-- "static NSInteger LaunchServices::PrefsStorage::_GetIndexOfValueInPrefsArrayWithPredicate(NSArray *__strong, const Pred &) [Pred = (lambda at /Library/Caches/com.apple.xbs/80913CE3-B6A0-4817-9249-B388C83516A3/TemporaryDirectory.I8PVd8/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSPrefs.mm:1433:63)]"
-- "void LaunchServices::UTTypeEnumerateFlavoredDisplayNames(__strong LSDatabaseRef, const _UTTypeData *, const F &) [F = (lambda at /Library/Caches/com.apple.xbs/80913CE3-B6A0-4817-9249-B388C83516A3/TemporaryDirectory.I8PVd8/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Database/UTTypeCore.mm:159:55)]"
-
-```

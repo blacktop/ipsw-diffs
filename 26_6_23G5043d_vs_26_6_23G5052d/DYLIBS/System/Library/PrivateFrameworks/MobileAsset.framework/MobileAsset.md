@@ -60,21 +60,7 @@ Sections:
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
-+ ____MAPreferencesCopyValue_block_invoke.1540
-+ ___block_literal_global.1546
-+ ___block_literal_global.1548
-+ ___block_literal_global.1553
-+ ___block_literal_global.1555
-+ ___block_literal_global.1557
-+ ___block_literal_global.1562
 + _kMobileAssetPreferencesAutoAssetStagerInjectAvailableAlreadyDownloaded
-- ____MAPreferencesCopyValue_block_invoke.1537
-- ___block_literal_global.1543
-- ___block_literal_global.1545
-- ___block_literal_global.1550
-- ___block_literal_global.1552
-- ___block_literal_global.1554
-- ___block_literal_global.1556
 CStrings:
 + "AutoAssetStagerInjectAvailableAlreadyDownloaded"
 

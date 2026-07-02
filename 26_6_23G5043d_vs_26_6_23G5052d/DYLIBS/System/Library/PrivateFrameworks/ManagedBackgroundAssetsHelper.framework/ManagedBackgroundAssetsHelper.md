@@ -132,13 +132,7 @@ Symbols:
 + _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC9SwiftData15PersistentModelAAs12Identifiable
 + _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordCSHAASQ
 + _associated conformance 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordCs12IdentifiableAA2IDsADP_SH
-+ _block_copy_helper.1417
-+ _block_descriptor.1419
-+ _block_destroy_helper.1418
 + _get_enum_tag_for_layout_string 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO
-+ _get_type_metadata 15Synchronization5MutexVy29ManagedBackgroundAssetsHelper0F0C23SandboxExtensionHandles33_ED623D7967CBC4B05F3678C49B776590LLVG noncopyable.644
-+ _get_type_metadata 15Synchronization6AtomicVySbG noncopyable.643
-+ _get_type_metadata 29ManagedBackgroundAssetsHelper11NoCopyArrayVyAA7SandboxO15ExtensionHandleVSgG noncopyable.1309
 + _objc_release
 + _swift_getMetatypeMetadata
 + _symbolic S2SSg_____Say_____G______pIetMHgTgTgozo_ 29ManagedBackgroundAssetsHelper0D0C AA26DeferredStatusUpdateRecordC20StaticRepresentationV s5ErrorP
@@ -185,12 +179,6 @@ Symbols:
 + _type_layout_string 29ManagedBackgroundAssetsHelper26DeferredStatusUpdateRecordC4KindO
 - ___swift_get_extra_inhabitant_index.528Tm
 - ___swift_store_extra_inhabitant_index.529Tm
-- _block_copy_helper.1364
-- _block_descriptor.1366
-- _block_destroy_helper.1365
-- _get_type_metadata 15Synchronization5MutexVy29ManagedBackgroundAssetsHelper0F0C23SandboxExtensionHandles33_ED623D7967CBC4B05F3678C49B776590LLVG noncopyable.599
-- _get_type_metadata 15Synchronization6AtomicVySbG noncopyable.598
-- _get_type_metadata 29ManagedBackgroundAssetsHelper11NoCopyArrayVyAA7SandboxO15ExtensionHandleVSgG noncopyable.1264
 CStrings:
 + " asset pack global ID: "
 + "<Container Manager | Root path: "

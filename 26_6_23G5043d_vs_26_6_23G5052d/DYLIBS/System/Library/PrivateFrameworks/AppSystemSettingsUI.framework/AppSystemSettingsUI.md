@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AppSystemSettingsUI.framework/AppSystemSettingsUI`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__const : content changed
@@ -26,8 +25,3 @@ Sections:
 ~ __AUTH.__objc_data : content changed
 ~ __AUTH.__data : content changed
 ~ __DATA.__data : content changed
-Symbols:
-+ ___47-[PSAccessoriesListController refreshDADevices]_block_invoke.148
-- ___47-[PSAccessoriesListController refreshDADevices]_block_invoke.142
-
-```

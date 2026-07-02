@@ -136,9 +136,7 @@ Symbols:
 + __METACLASS_DATA_CNDebounceFixedWindowStrategy
 + __METACLASS_DATA_CNVoidDebouncer
 + __PROTOCOLS_CNDebounceExponentialBackoffWindowStrategy
-+ __PROTOCOLS_CNDebounceExponentialBackoffWindowStrategy.17
 + __PROTOCOLS_CNDebounceFixedWindowStrategy
-+ __PROTOCOLS_CNDebounceFixedWindowStrategy.10
 + __PROTOCOL_CNDebounceWindowStrategy
 + __PROTOCOL_INSTANCE_METHODS_CNDebounceWindowStrategy
 + __PROTOCOL_METHOD_TYPES_CNDebounceWindowStrategy
@@ -150,42 +148,6 @@ Symbols:
 + _associated conformance 18ContactsFoundation14CNDebounceModeVs9OptionSetAASY
 + _associated conformance 18ContactsFoundation14CNDebounceModeVs9OptionSetAAs0F7Algebra
 + _associated conformance 18ContactsFoundation19CNDebounceModeFlagsOSHAASQ
-+ _block_copy_helper.100
-+ _block_copy_helper.107
-+ _block_copy_helper.113
-+ _block_copy_helper.120
-+ _block_copy_helper.36
-+ _block_copy_helper.49
-+ _block_copy_helper.56
-+ _block_copy_helper.63
-+ _block_copy_helper.72
-+ _block_copy_helper.79
-+ _block_copy_helper.86
-+ _block_copy_helper.93
-+ _block_descriptor.102
-+ _block_descriptor.109
-+ _block_descriptor.115
-+ _block_descriptor.122
-+ _block_descriptor.38
-+ _block_descriptor.51
-+ _block_descriptor.58
-+ _block_descriptor.65
-+ _block_descriptor.74
-+ _block_descriptor.81
-+ _block_descriptor.88
-+ _block_descriptor.95
-+ _block_destroy_helper.101
-+ _block_destroy_helper.108
-+ _block_destroy_helper.114
-+ _block_destroy_helper.121
-+ _block_destroy_helper.37
-+ _block_destroy_helper.50
-+ _block_destroy_helper.57
-+ _block_destroy_helper.64
-+ _block_destroy_helper.73
-+ _block_destroy_helper.80
-+ _block_destroy_helper.87
-+ _block_destroy_helper.94
 + _flat unique So12CNCancelable_p
 + _flat unique So24CNDebounceWindowStrategy_p
 + _objc_msgSend$initWithMode:windowStrategy:scheduler:downstream:sink:

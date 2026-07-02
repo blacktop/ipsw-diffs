@@ -99,62 +99,15 @@ Sections:
 ~ __DATA_DIRTY.__data : content changed
 Symbols:
 + -[ICNote currentMergeDataFingerprint]
-+ -[ICNote mergeNotePrimitiveData].cold.5
 + GCC_except_table111
 + GCC_except_table347
 + GCC_except_table401
 + _OBJC_IVAR_$_ICNote._lastMergedDataHash
-+ ___63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1192
-+ ___63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1192.cold.1
-+ ___63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1192.cold.2
-+ ___63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1193
-+ ___63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1194
-+ ___63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1194.cold.1
-+ ___block_literal_global.1060
-+ ___block_literal_global.1160
-+ ___block_literal_global.1173
-+ ___block_literal_global.1189
-+ ___block_literal_global.127
-+ ___block_literal_global.180
-+ ___block_literal_global.182
-+ ___block_literal_global.276
-+ ___block_literal_global.279
-+ ___block_literal_global.286
-+ ___block_literal_global.288
-+ ___block_literal_global.296
-+ ___block_literal_global.349
-+ ___block_literal_global.360
-+ ___block_literal_global.363
-+ ___block_literal_global.493
-+ ___block_literal_global.590
 + _objc_msgSend$currentMergeDataFingerprint
 - GCC_except_table180
 - GCC_except_table300
 - GCC_except_table323
 - GCC_except_table346
-- ___63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1186
-- ___63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1186.cold.1
-- ___63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1186.cold.2
-- ___63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1187
-- ___63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1188
-- ___63-[ICNote(AttachmentManagement) addMediaToAttachment:withBlock:]_block_invoke.1188.cold.1
-- ___block_literal_global.1054
-- ___block_literal_global.1154
-- ___block_literal_global.1167
-- ___block_literal_global.1183
-- ___block_literal_global.123
-- ___block_literal_global.174
-- ___block_literal_global.176
-- ___block_literal_global.272
-- ___block_literal_global.275
-- ___block_literal_global.282
-- ___block_literal_global.284
-- ___block_literal_global.292
-- ___block_literal_global.345
-- ___block_literal_global.356
-- ___block_literal_global.359
-- ___block_literal_global.490
-- ___block_literal_global.587
 CStrings:
 + "%@-%@-%@"
 + "Skipping note data merge for %@ because primitive data is unchanged"

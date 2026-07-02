@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AudioServerDriver.framework/AudioServerDriver`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__gcc_except_tab : content changed
@@ -24,8 +23,3 @@ Sections:
 ~ __AUTH.__objc_data : content changed
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSAKugDZjikRuXy5Yo2uWMk4sPyNEk_hj3CY4u8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Library/PrivateFrameworks/AudioToolboxCore.framework/PrivateHeaders/DSPGraph_Box.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ44ugAzwAgsCzBq8SHVQSwPIk4J3wbUrzjtvlc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Library/PrivateFrameworks/AudioToolboxCore.framework/PrivateHeaders/DSPGraph_Box.h"
-
-```

@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/WebInspector.framework/WebInspector`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__cstring : content changed
@@ -24,10 +23,3 @@ Sections:
 ~ __AUTH.__objc_data : content changed
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSkRugAMWK6gG7wcjIFJqQu6DiUAi_Xi9LQyTXY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/HashTable.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkRugAMWK6gG7wcjIFJqQu6DiUAi_Xi9LQyTXY/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/RefCounted.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZYugAe-UQTdQHtHpbEDIej2DuoCPZ_ZAjcAVI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/HashTable.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZYugAe-UQTdQHtHpbEDIej2DuoCPZ_ZAjcAVI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/RefCounted.h"
-
-```

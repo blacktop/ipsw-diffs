@@ -45,24 +45,5 @@ Sections:
 Symbols:
 + __ZN32pxrInternal__aapl__pxrReserved__8UsdStage4OpenERKNS_8TfRefPtrINS_8SdfLayerEEENS0_14InitialLoadSetE
 - __ZN32pxrInternal__aapl__pxrReserved__8UsdStage4OpenERKNS_9TfWeakPtrINS_8SdfLayerEEENS0_14InitialLoadSetE
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSAOugDJbUP8cV72TW-ElAc7w9Y00YFvT2mK45k/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/base/tf/refPtr.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSAOugDJbUP8cV72TW-ElAc7w9Y00YFvT2mK45k/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/base/tf/weakPtrFacade.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSAOugDJbUP8cV72TW-ElAc7w9Y00YFvT2mK45k/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/base/vt/array.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSAOugDJbUP8cV72TW-ElAc7w9Y00YFvT2mK45k/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/usd/sdf/declareHandles.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSAOugDJbUP8cV72TW-ElAc7w9Y00YFvT2mK45k/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/usd/sdf/listProxy.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSAOugDJbUP8cV72TW-ElAc7w9Y00YFvT2mK45k/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/usd/usd/object.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSAOugDJbUP8cV72TW-ElAc7w9Y00YFvT2mK45k/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/usd/usd/primData.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSAOugDJbUP8cV72TW-ElAc7w9Y00YFvT2mK45k/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/usd/usd/primRange.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSAOugDJbUP8cV72TW-ElAc7w9Y00YFvT2mK45k/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/usd/usdGeom/xformOp.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ45ugAu36-tX9ZB2t-2Zf_q2Twq0sn19M8QaLU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/base/tf/refPtr.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ45ugAu36-tX9ZB2t-2Zf_q2Twq0sn19M8QaLU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/base/tf/weakPtrFacade.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ45ugAu36-tX9ZB2t-2Zf_q2Twq0sn19M8QaLU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/base/vt/array.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ45ugAu36-tX9ZB2t-2Zf_q2Twq0sn19M8QaLU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/usd/sdf/declareHandles.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ45ugAu36-tX9ZB2t-2Zf_q2Twq0sn19M8QaLU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/usd/sdf/listProxy.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ45ugAu36-tX9ZB2t-2Zf_q2Twq0sn19M8QaLU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/usd/usd/object.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ45ugAu36-tX9ZB2t-2Zf_q2Twq0sn19M8QaLU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/usd/usd/primData.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ45ugAu36-tX9ZB2t-2Zf_q2Twq0sn19M8QaLU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/usd/usd/primRange.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ45ugAu36-tX9ZB2t-2Zf_q2Twq0sn19M8QaLU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/usd/pxr/usd/usdGeom/xformOp.h"
 
 ```

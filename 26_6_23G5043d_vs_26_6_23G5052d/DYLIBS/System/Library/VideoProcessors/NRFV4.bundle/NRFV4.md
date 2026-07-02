@@ -75,18 +75,7 @@ Sections:
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
-+ -[GainMapShaders initWithMetal:].cold.21
 + _OBJC_IVAR_$_GainMapShaders._MPPFlexRangeExtract
-+ ___block_literal_global.188
-+ ___block_literal_global.257
-+ ___block_literal_global.259
-+ ___block_literal_global.263
-+ ___block_literal_global.265
-- ___block_literal_global.183
-- ___block_literal_global.252
-- ___block_literal_global.254
-- ___block_literal_global.258
-- ___block_literal_global.260
 Functions:
 ~ -[GainMapShaders initWithMetal:] : 1644 -> 1708
 ~ -[GainMapShaders .cxx_destruct] : 284 -> 296

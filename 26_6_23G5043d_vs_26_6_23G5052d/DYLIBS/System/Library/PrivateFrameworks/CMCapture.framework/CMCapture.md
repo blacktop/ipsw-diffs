@@ -54,32 +54,8 @@ Sections:
 ~ __DATA_DIRTY.__data : content changed
 Symbols:
 + -[BWAudioSourceNode _setLevelMeteringEnabled:]
-+ _.compoundliteral.28
-+ _.compoundliteral.38
-+ _.compoundliteral.39
-+ _.compoundliteral.41
-+ _.compoundliteral.42
-+ _.compoundliteral.58
-+ _.compoundliteral.63
-+ _.compoundliteral.73
-+ _.compoundliteral.74
-+ _.compoundliteral.77
-+ _.compoundliteral.84
-+ _.compoundliteral.89
 - GCC_except_table81
 - GCC_except_table85
-- _.compoundliteral.29
-- _.compoundliteral.47
-- _.compoundliteral.48
-- _.compoundliteral.53
-- _.compoundliteral.54
-- _.compoundliteral.56
-- _.compoundliteral.59
-- _.compoundliteral.71
-- _.compoundliteral.72
-- _.compoundliteral.75
-- _.compoundliteral.80
-- _.compoundliteral.81
 CStrings:
 + "-[BWAudioSourceNode _setLevelMeteringEnabled:]"
 + "20:08:50"

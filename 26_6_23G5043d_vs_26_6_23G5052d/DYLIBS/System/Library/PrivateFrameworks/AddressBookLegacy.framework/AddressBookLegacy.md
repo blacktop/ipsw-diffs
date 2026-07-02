@@ -88,22 +88,17 @@ Symbols:
 + GCC_except_table102
 + GCC_except_table105
 + _ABVCardFilterIfNoVisibleContent
-+ _ABVCardFilterIfNoVisibleContent.cold.1
 + _ABVCardFilterIfNoVisibleContent.sOnce
 + _ABVCardFilterIfNoVisibleContent.sVisible
-+ __MergedGlobals.213
 + ___ABVCardFilterIfNoVisibleContent_block_invoke
 + ____distributedNotificationDebouncerQueue_block_invoke
 + ____scheduleDistributedNotificationWindow_block_invoke
 + ___block_descriptor_56_e5_v8?0l
-+ ___block_literal_global.192
-+ ___block_literal_global.818
 + ___distributedNotificationSerial
 + __distributedNotificationDebouncerQueue.onceToken
 + __distributedNotificationDebouncerQueue.queue
 + __handleDistributedNotificationEvent
 + __scheduleDistributedNotificationWindow
-+ __scheduleDistributedNotificationWindow.cold.1
 + _dispatch_after
 + _dispatch_time
 + _distributedNotificationWindowInitial
@@ -113,7 +108,6 @@ Symbols:
 - GCC_except_table101
 - GCC_except_table103
 - _OUTLINED_FUNCTION_22
-- __MergedGlobals.207
 CStrings:
 + "alphanumericCharacterSet"
 + "com.apple.AddressBookLegacy.DistributedNotificationDebouncer"

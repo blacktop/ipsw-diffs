@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CoreEmoji.framework/CoreEmoji`
 
-```diff
 Sections:
 ~ __TEXT.__gcc_except_tab : content changed
 ~ __TEXT.__cstring : content changed
@@ -14,8 +13,3 @@ Sections:
 ~ __AUTH_CONST.__cfstring : content changed
 ~ __AUTH.__data : content changed
 ~ __DATA_DIRTY.__data : content changed
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CR_-ugD6RMXbmB_hYTbZkdKTQ-7SuaB3fgtGPTo/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/trie/cedarpp.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ4rugAWywIzODnqqALzjr2nLL75YxwfIVSM8lE/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/trie/cedarpp.h"
-
-```

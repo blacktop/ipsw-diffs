@@ -107,8 +107,6 @@ Symbols:
 + _OBJC_IVAR_$_MADAutoAssetControlManager._preferenceStagerInjectAvailableAlreadyDownloaded
 + _OBJC_IVAR_$_MADAutoAssetJob._nextSetAtomicEntryToDownload
 + _OBJC_IVAR_$_MADAutoAssetJob._setAtomicEntriesToDownload
-+ ___block_literal_global.2512
-+ ___block_literal_global.5535
 + _kMobileAssetPreferencesAutoAssetStagerInjectAvailableAlreadyDownloaded
 + _objc_msgSend$addToPrePersonalizedSelectors:addingAssetSelector:
 + _objc_msgSend$dedupAssetSelectors:dedupingSelectors:
@@ -127,8 +125,6 @@ Symbols:
 - GCC_except_table797
 - GCC_except_table803
 - _OBJC_IVAR_$_MADAutoAssetJob._nextSetSpecifierToDownload
-- ___block_literal_global.2509
-- ___block_literal_global.5523
 - _objc_msgSend$nextSetSpecifierToDownload
 - _objc_msgSend$refreshOnFilesystemFromManagerPromotingIfStaged:
 - _objc_msgSend$setNextSetSpecifierToDownload:

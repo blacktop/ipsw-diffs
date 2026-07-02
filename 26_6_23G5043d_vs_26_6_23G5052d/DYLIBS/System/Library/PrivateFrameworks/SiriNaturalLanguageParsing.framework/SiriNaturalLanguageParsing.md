@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/SiriNaturalLanguageParsing.framework/SiriNaturalLanguageParsing`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__cstring : content changed
@@ -22,8 +21,3 @@ Sections:
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
 ~ __DATA_DIRTY.__data : content changed
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSAsugC6Xs5C4gCrqkfRuNTGlbn2Zr-Vvy1i90A/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"
-- "/AppleInternal/Library/BuildRoots/4~CQ5fugDsimg0jIMvbzpk__ZdGCm4a9snTGc5hC0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"
-
-```

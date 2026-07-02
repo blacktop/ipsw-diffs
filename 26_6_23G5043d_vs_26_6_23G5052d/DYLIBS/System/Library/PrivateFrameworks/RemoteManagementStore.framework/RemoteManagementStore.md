@@ -100,12 +100,6 @@ Sections:
 ~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + ___swift_memcpy32_8
-+ _block_copy_helper.88
-+ _block_copy_helper.92
-+ _block_descriptor.90
-+ _block_descriptor.94
-+ _block_destroy_helper.89
-+ _block_destroy_helper.93
 + _objc_msgSend$metadataReturningError:
 + _swift_cvw_assignWithCopy
 + _swift_cvw_assignWithTake
@@ -115,12 +109,6 @@ Symbols:
 + _symbolic _____ So12RMErSSOStoreC21RemoteManagementStoreE24AppAndDeclarationDetailsV
 + _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
 + _type_layout_string So12RMErSSOStoreC21RemoteManagementStoreE24AppAndDeclarationDetailsV
-- _block_copy_helper.89
-- _block_copy_helper.93
-- _block_descriptor.91
-- _block_descriptor.95
-- _block_destroy_helper.90
-- _block_destroy_helper.94
 CStrings:
 + "ErSSOStoreAppConfigurationID"
 + "ErSSOStoreBundleID"

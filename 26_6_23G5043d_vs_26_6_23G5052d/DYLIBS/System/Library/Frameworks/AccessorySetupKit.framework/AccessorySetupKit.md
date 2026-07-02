@@ -84,39 +84,6 @@ Sections:
 ~ __AUTH_CONST.__objc_intobj : content changed
 ~ __AUTH.__data : content changed
 ~ __DATA.__data : content changed
-Symbols:
-+ __PROTOCOLS__TtC17AccessorySetupKit17ASUIClientWrapper.38
-+ _block_copy_helper.70
-+ _block_copy_helper.74
-+ _block_copy_helper.80
-+ _block_copy_helper.84
-+ _block_copy_helper.91
-+ _block_descriptor.72
-+ _block_descriptor.76
-+ _block_descriptor.82
-+ _block_descriptor.86
-+ _block_descriptor.93
-+ _block_destroy_helper.71
-+ _block_destroy_helper.75
-+ _block_destroy_helper.81
-+ _block_destroy_helper.85
-+ _block_destroy_helper.92
-- __PROTOCOLS__TtC17AccessorySetupKit17ASUIClientWrapper.37
-- _block_copy_helper.68
-- _block_copy_helper.72
-- _block_copy_helper.78
-- _block_copy_helper.82
-- _block_copy_helper.89
-- _block_descriptor.70
-- _block_descriptor.74
-- _block_descriptor.80
-- _block_descriptor.84
-- _block_descriptor.91
-- _block_destroy_helper.69
-- _block_destroy_helper.73
-- _block_destroy_helper.79
-- _block_destroy_helper.83
-- _block_destroy_helper.90
 CStrings:
 + "invalidateSession"
 

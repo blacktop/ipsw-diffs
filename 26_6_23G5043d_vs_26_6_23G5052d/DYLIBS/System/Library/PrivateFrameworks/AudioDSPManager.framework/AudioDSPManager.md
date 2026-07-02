@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AudioDSPManager.framework/AudioDSPManager`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__const : content changed
@@ -26,8 +25,3 @@ Sections:
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
 ~ __DATA_DIRTY.__data : content changed
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSAVugAnApIIeYHtWcgQGkLQL3W2wrFYM8h-5p8/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/exception/detail/exception_ptr.hpp"
-- "/AppleInternal/Library/BuildRoots/4~CQ5CugBUS0Pp3K_Dv73QWZuVQEeLbYM6lv2r1tI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/exception/detail/exception_ptr.hpp"
-
-```

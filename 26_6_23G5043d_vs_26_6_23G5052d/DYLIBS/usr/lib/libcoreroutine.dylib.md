@@ -66,9 +66,6 @@ Sections:
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
 ~ __DATA_DIRTY.__data : content changed
-Symbols:
-+ ___block_literal_global.742
-- ___block_literal_global.739
 Functions:
 ~ -[RTTripClusterManager _deleteAllTripClusterDataForClusterID:] : 1152 -> 1372
 CStrings:

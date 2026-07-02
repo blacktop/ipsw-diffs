@@ -2,7 +2,6 @@
 
 > `/System/Library/Frameworks/PDFKit.framework/PDFKit`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__const : content changed
@@ -30,8 +29,3 @@ Sections:
 ~ __AUTH.__data : content changed
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSApugB65IGS_rcKjIwO8YFvvhcB3tjEgkWmaC4/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Library/Frameworks/CoreGraphics.framework/PrivateHeaders/CGBuf.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ5cugDws0jzoDn37yRYop99M5sMPDS96GO3bP0/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Library/Frameworks/CoreGraphics.framework/PrivateHeaders/CGBuf.h"
-
-```

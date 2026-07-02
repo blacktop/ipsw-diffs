@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ProVideo.framework/ProVideo`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__gcc_except_tab : content changed
@@ -29,12 +28,3 @@ Sections:
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
 ~ __DATA_DIRTY.__data : content changed
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSABugARd77EnLAjDywMiiR-_y1feo8cMD1dQQk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/ProCore/PCMatrix44.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSABugARd77EnLAjDywMiiR-_y1feo8cMD1dQQk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/ProCore/PCMod.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSABugDBBzdzdOIRMRDMW09SYU1tea1S3hNs4oM/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/ProCore/PCMatrix44.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ4tugAHgzWBy6YtmIn87yFuG5_kgAynCoUV2Dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/ProCore/PCMatrix44.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ4tugAHgzWBy6YtmIn87yFuG5_kgAynCoUV2Dc/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/ProCore/PCMod.h"
-- "/AppleInternal/Library/BuildRoots/4~CQ4tugAnb2TeM7C_8YC17PoICdz25zmZXe01Tao/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/ProCore/PCMatrix44.h"
-
-```

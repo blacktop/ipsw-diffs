@@ -104,56 +104,22 @@ Sections:
 ~ __DATA_DIRTY.__objc_data : content changed
 ~ __DATA_DIRTY.__data : content changed
 Symbols:
-+ -[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:].cold.3
-+ -[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:].cold.4
 + GCC_except_table71
 + _DMIsMigrationNeeded
 + _DMPerformMigrationReturningAfterPlugin
 + _GKKickoffAccountsMigrationGate.once
-+ ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.102
-+ ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.117
-+ ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.122
-+ ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.133
-+ ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.133.cold.1
-+ ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.134
-+ ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.141
-+ ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.141.cold.1
 + ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke_3
-+ ___66-[ACAccountStore(GameCenter) _gkSaveCredential:completionHandler:]_block_invoke.181
-+ ___69-[ACAccountStore(GameCenter) _gkDeleteCredentials:completionHandler:]_block_invoke.183
-+ ___69-[ACAccountStore(GameCenter) _gkDeleteCredentials:completionHandler:]_block_invoke.184
-+ ___81-[ACAccountStore(GameCenter) _getAltDSIDFromIDMSForCredential:completionHandler:]_block_invoke.166
-+ ___81-[ACAccountStore(GameCenter) _getAltDSIDFromIDMSForCredential:completionHandler:]_block_invoke.166.cold.1
-+ ___81-[ACAccountStore(GameCenter) _getAltDSIDFromIDMSForCredential:completionHandler:]_block_invoke.167
 + ___GKKickoffAccountsMigrationGate_block_invoke
-+ ___GKKickoffAccountsMigrationGate_block_invoke.208
 + ___block_descriptor_40_e8_32s_e18_v16?0"NSString"8ls32l8
 + ___block_descriptor_64_e8_32s40s48bs56bs_e14_v16?0?<v?>8ls48l8s32l8s56l8s40l8
 + ___block_descriptor_64_e8_32s40s48s56bs_e34_v32?0"NSNumber"8"NSArray"16^B24ls56l8s32l8s40l8s48l8
 + ___block_descriptor_72_e8_32s40s48bs56bs64bs_e35_v24?0"ACAccountType"8"NSError"16ls48l8s56l8s32l8s64l8s40l8
 + ___block_descriptor_80_e8_32s40s48s56bs64bs72bs_e20_v20?0B8"NSError"12ls56l8s32l8s40l8s64l8s48l8s72l8
-+ ___block_literal_global.164
-+ ___block_literal_global.210
 + __gkAccountsMigrationDone
 - GCC_except_table33
-- ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.82
-- ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.88
-- ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.90
-- ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.92
-- ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.92.cold.1
-- ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.93
-- ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.94
-- ___54-[ACAccountStore(GameCenter) _gkMapAccountsWithBlock:]_block_invoke.94.cold.1
-- ___66-[ACAccountStore(GameCenter) _gkSaveCredential:completionHandler:]_block_invoke.120
-- ___69-[ACAccountStore(GameCenter) _gkDeleteCredentials:completionHandler:]_block_invoke.122
-- ___69-[ACAccountStore(GameCenter) _gkDeleteCredentials:completionHandler:]_block_invoke.123
-- ___81-[ACAccountStore(GameCenter) _getAltDSIDFromIDMSForCredential:completionHandler:]_block_invoke.104
-- ___81-[ACAccountStore(GameCenter) _getAltDSIDFromIDMSForCredential:completionHandler:]_block_invoke.104.cold.1
-- ___81-[ACAccountStore(GameCenter) _getAltDSIDFromIDMSForCredential:completionHandler:]_block_invoke.105
 - ___block_descriptor_56_e8_32s40s48s_e34_v32?0"NSNumber"8"NSArray"16^B24ls32l8s40l8s48l8
 - ___block_descriptor_64_e8_32s40s48bs56bs_e35_v24?0"ACAccountType"8"NSError"16ls48l8s32l8s56l8s40l8
 - ___block_descriptor_72_e8_32s40s48s56bs64bs_e20_v20?0B8"NSError"12ls32l8s40l8s56l8s48l8s64l8
-- ___block_literal_global.102
 CStrings:
 + "\n"
 + "  +%7.3fs %@ (%.1fms)"

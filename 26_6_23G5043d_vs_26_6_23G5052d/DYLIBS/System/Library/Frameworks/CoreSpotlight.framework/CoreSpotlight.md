@@ -87,24 +87,15 @@ Sections:
 ~ __DATA_DIRTY.__data : content changed
 Symbols:
 + -[CSFileProviderContainerCache filterForDisabledBundles:logForQuery:]
-+ -[CSFileProviderContainerCache filterForDisabledBundles:logForQuery:].cold.1
-+ -[CSFileProviderContainerCache filterForDisabledBundles:logForQuery:].cold.2
-+ -[CSFileProviderContainerCache filterForDisabledBundles:logForQuery:].cold.3
 + ___69-[CSFileProviderContainerCache filterForDisabledBundles:logForQuery:]_block_invoke
-+ ___69-[CSFileProviderContainerCache filterForDisabledBundles:logForQuery:]_block_invoke.59
 + ___69-[CSFileProviderContainerCache filterForDisabledBundles:logForQuery:]_block_invoke_2
-+ ___69-[CSFileProviderContainerCache filterForDisabledBundles:logForQuery:]_block_invoke_2.63
 + ___69-[CSFileProviderContainerCache filterForDisabledBundles:logForQuery:]_block_invoke_3
-+ ___69-[CSFileProviderContainerCache filterForDisabledBundles:logForQuery:]_block_invoke_3.67
 + ___69-[CSFileProviderContainerCache filterForDisabledBundles:logForQuery:]_block_invoke_4
 + ___block_descriptor_40_e8_32s_e22_v24?0"NSNumber"8^B16ls32l8
 + ___block_descriptor_40_e8_32s_e22_v24?0"NSString"8^B16ls32l8
 + ___block_descriptor_56_e8_32s40r48r_e35_v32?0"NSString"8"NSNumber"16^B24ls32l8r40l8r48l8
 + ___block_descriptor_57_e8_32s40r_e46_v32?0"NSString"8"NSMutableDictionary"16^B24ls32l8r40l8
 - -[CSFileProviderContainerCache filterForDisabledBundles:]
-- -[CSFileProviderContainerCache filterForDisabledBundles:].cold.1
-- -[CSFileProviderContainerCache filterForDisabledBundles:].cold.2
-- -[CSFileProviderContainerCache filterForDisabledBundles:].cold.3
 - ___57-[CSFileProviderContainerCache filterForDisabledBundles:]_block_invoke
 - ___57-[CSFileProviderContainerCache filterForDisabledBundles:]_block_invoke_2
 - ___57-[CSFileProviderContainerCache filterForDisabledBundles:]_block_invoke_3

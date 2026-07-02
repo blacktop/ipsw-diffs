@@ -76,11 +76,9 @@ Sections:
 ~ __DATA_DIRTY.__objc_data : content changed
 ~ __DATA_DIRTY.__data : content changed
 Symbols:
-+ -[CNVCardParser parseStringValue].cold.1
 + _CNVCardFilterIfNoVisibleContent.sOnce
 + _CNVCardFilterIfNoVisibleContent.sVisible
 + ___CNVCardFilterIfNoVisibleContent_block_invoke
-+ ___block_literal_global.668
 + _objc_msgSend$alphanumericCharacterSet
 + _objc_msgSend$formUnionWithCharacterSet:
 + _objc_msgSend$punctuationCharacterSet

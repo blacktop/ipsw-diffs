@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/Sharing.framework/Sharing`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__const : content changed
@@ -32,10 +31,3 @@ Sections:
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
 ~ __DATA_DIRTY.__data : content changed
-CStrings:
-+ "Unimplemented at /Library/Caches/com.apple.xbs/56DBC94D-03E5-4477-BA24-96A4F2CE118A/TemporaryDirectory.QWlXqS/Sources/Sharing/Framework/SFTokenBucket.m:142 : Don't use init on SFTokenBucketWithDups"
-+ "Unimplemented at /Library/Caches/com.apple.xbs/56DBC94D-03E5-4477-BA24-96A4F2CE118A/TemporaryDirectory.QWlXqS/Sources/Sharing/Framework/SFTokenBucket.m:25 : Don't use init on SFTokenBucket"
-- "Unimplemented at /Library/Caches/com.apple.xbs/FDF17D74-A4AC-4311-AAF3-46EA6CD20C22/TemporaryDirectory.OlzJ3R/Sources/Sharing/Framework/SFTokenBucket.m:142 : Don't use init on SFTokenBucketWithDups"
-- "Unimplemented at /Library/Caches/com.apple.xbs/FDF17D74-A4AC-4311-AAF3-46EA6CD20C22/TemporaryDirectory.OlzJ3R/Sources/Sharing/Framework/SFTokenBucket.m:25 : Don't use init on SFTokenBucket"
-
-```

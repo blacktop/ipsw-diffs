@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/EmbeddedAcousticRecognition.framework/EmbeddedAcousticRecognition`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__const : content changed
@@ -34,18 +33,3 @@ Sections:
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
 ~ __DATA_DIRTY.__data : content changed
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSATugDu6yNph7W_p-1D7Hq9B0rF3GHoRbrG1KU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/property_tree/detail/ptree_implementation.hpp"
-+ "/AppleInternal/Library/BuildRoots/4~CSATugDu6yNph7W_p-1D7Hq9B0rF3GHoRbrG1KU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/property_tree/detail/xml_parser_read_rapidxml.hpp"
-+ "/AppleInternal/Library/BuildRoots/4~CSATugDu6yNph7W_p-1D7Hq9B0rF3GHoRbrG1KU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/property_tree/json_parser.hpp"
-+ "/AppleInternal/Library/BuildRoots/4~CSATugDu6yNph7W_p-1D7Hq9B0rF3GHoRbrG1KU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/property_tree/json_parser/detail/parser.hpp"
-+ "/AppleInternal/Library/BuildRoots/4~CSATugDu6yNph7W_p-1D7Hq9B0rF3GHoRbrG1KU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/property_tree/json_parser/detail/write.hpp"
-+ "/AppleInternal/Library/BuildRoots/4~CSATugDu6yNph7W_p-1D7Hq9B0rF3GHoRbrG1KU/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"
-- "/AppleInternal/Library/BuildRoots/4~CQ4_ugBHpqQFSEAsBM0GHzudwekYYfbiFUqkkAQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/property_tree/detail/ptree_implementation.hpp"
-- "/AppleInternal/Library/BuildRoots/4~CQ4_ugBHpqQFSEAsBM0GHzudwekYYfbiFUqkkAQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/property_tree/detail/xml_parser_read_rapidxml.hpp"
-- "/AppleInternal/Library/BuildRoots/4~CQ4_ugBHpqQFSEAsBM0GHzudwekYYfbiFUqkkAQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/property_tree/json_parser.hpp"
-- "/AppleInternal/Library/BuildRoots/4~CQ4_ugBHpqQFSEAsBM0GHzudwekYYfbiFUqkkAQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/property_tree/json_parser/detail/parser.hpp"
-- "/AppleInternal/Library/BuildRoots/4~CQ4_ugBHpqQFSEAsBM0GHzudwekYYfbiFUqkkAQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/property_tree/json_parser/detail/write.hpp"
-- "/AppleInternal/Library/BuildRoots/4~CQ4_ugBHpqQFSEAsBM0GHzudwekYYfbiFUqkkAQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/boost/uuid/detail/random_provider_posix.ipp"
-
-```

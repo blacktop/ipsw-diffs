@@ -123,8 +123,6 @@ Symbols:
 + __IVARS_SKPurchaseAnalyticsMetadata
 + __METACLASS_DATA_SKPurchaseAnalyticsMetadata
 + __PROPERTIES_SKPurchaseAnalyticsMetadata
-+ ___48-[SKPaymentQueue _updatedTransactions:restored:]_block_invoke.97
-+ ___50-[SKPaymentQueue(Package) checkServerQueueForced:]_block_invoke.167
 + ___swift_memcpy73_8
 + _objc_msgSend$_logPurchaseResult:primaryError:mappedError:inAppPurchaseID:analyticsMetadata:
 + _objc_msgSend$initWithStorefront:environment:serverCorrelationID:
@@ -138,8 +136,6 @@ Symbols:
 + _symbolic _____ So26SKAnalyticsEnvironmentTypeV
 + _type_layout_string 8StoreKit22SKPurchaseEventContextV
 - -[SKPaymentQueue _logPurchaseResult:primaryError:mappedError:inAppPurchaseID:]
-- ___48-[SKPaymentQueue _updatedTransactions:restored:]_block_invoke.96
-- ___50-[SKPaymentQueue(Package) checkServerQueueForced:]_block_invoke.166
 - _objc_msgSend$_logPurchaseResult:primaryError:mappedError:inAppPurchaseID:
 - _objc_retain_x9
 CStrings:

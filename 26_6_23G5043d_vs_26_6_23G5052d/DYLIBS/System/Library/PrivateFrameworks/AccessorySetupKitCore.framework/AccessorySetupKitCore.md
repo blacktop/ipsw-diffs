@@ -69,25 +69,6 @@ Sections:
 ~ __AUTH_CONST.__cfstring : content changed
 ~ __AUTH.__data : content changed
 ~ __DATA.__data : content changed
-Symbols:
-+ _block_copy_helper.39
-+ _block_copy_helper.43
-+ _block_copy_helper.47
-+ _block_descriptor.41
-+ _block_descriptor.45
-+ _block_descriptor.49
-+ _block_destroy_helper.40
-+ _block_destroy_helper.44
-+ _block_destroy_helper.48
-- _block_copy_helper.38
-- _block_copy_helper.42
-- _block_copy_helper.46
-- _block_descriptor.40
-- _block_descriptor.44
-- _block_descriptor.48
-- _block_destroy_helper.39
-- _block_destroy_helper.43
-- _block_destroy_helper.47
 Functions:
 + sub_2ab0d6c5c
 CStrings:

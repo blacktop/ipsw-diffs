@@ -85,32 +85,8 @@ Sections:
 ~ __DATA_DIRTY.__objc_data : content changed
 ~ __DATA_DIRTY.__data : content changed
 Symbols:
-+ _block_copy_helper.100
-+ _block_copy_helper.17
-+ _block_copy_helper.23
-+ _block_copy_helper.77
-+ _block_descriptor.102
-+ _block_descriptor.19
-+ _block_descriptor.25
-+ _block_descriptor.79
-+ _block_destroy_helper.101
-+ _block_destroy_helper.18
-+ _block_destroy_helper.24
-+ _block_destroy_helper.78
 + _objc_msgSend$fetchDSIDWithCompletionHandler:
 + _objectdestroy.60Tm
-- _block_copy_helper.14
-- _block_copy_helper.20
-- _block_copy_helper.72
-- _block_copy_helper.95
-- _block_descriptor.16
-- _block_descriptor.22
-- _block_descriptor.74
-- _block_descriptor.97
-- _block_destroy_helper.15
-- _block_destroy_helper.21
-- _block_destroy_helper.73
-- _block_destroy_helper.96
 - _objc_msgSend$fetchAltDSIDWithCompletionHandler:
 - _objectdestroy.55Tm
 CStrings:

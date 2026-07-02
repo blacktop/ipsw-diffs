@@ -79,23 +79,10 @@ Sections:
 ~ __DATA_DIRTY.__data : content changed
 Symbols:
 + -[CDPDFollowUpController _existingTelemetryFlowIDForIdentifier:usingController:]
-+ -[CDPDFollowUpController _existingTelemetryFlowIDForIdentifier:usingController:].cold.1
 + -[CDPInternalWalrusStateController _hydrateRepairTelemetryOnContext]
-+ -[CDPInternalWalrusStateController _hydrateRepairTelemetryOnContext].cold.1
-+ -[CDPInternalWalrusStateController _hydrateRepairTelemetryOnContext].cold.2
 + _CDPFollowUpItemUserInfoKeyTelemetryFlowID
-+ ___113-[CDPInternalWalrusStateController _updateWalrusStateAndPerformPostEnablementActions:context:account:completion:]_block_invoke.68
-+ ___113-[CDPInternalWalrusStateController _updateWalrusStateAndPerformPostEnablementActions:context:account:completion:]_block_invoke.68.cold.1
-+ ___113-[CDPInternalWalrusStateController _updateWalrusStateAndPerformPostEnablementActions:context:account:completion:]_block_invoke.70
-+ ___79-[CDPInternalWalrusStateController setWalrusStatusEnabled:password:completion:]_block_invoke.61.cold.1
-+ ___79-[CDPInternalWalrusStateController setWalrusStatusEnabled:password:completion:]_block_invoke.62
 + _objc_msgSend$_existingTelemetryFlowIDForIdentifier:usingController:
 + _objc_msgSend$_hydrateRepairTelemetryOnContext
-- ___113-[CDPInternalWalrusStateController _updateWalrusStateAndPerformPostEnablementActions:context:account:completion:]_block_invoke.67
-- ___113-[CDPInternalWalrusStateController _updateWalrusStateAndPerformPostEnablementActions:context:account:completion:]_block_invoke.67.cold.1
-- ___113-[CDPInternalWalrusStateController _updateWalrusStateAndPerformPostEnablementActions:context:account:completion:]_block_invoke.69
-- ___79-[CDPInternalWalrusStateController setWalrusStatusEnabled:password:completion:]_block_invoke.60
-- ___79-[CDPInternalWalrusStateController setWalrusStatusEnabled:password:completion:]_block_invoke.60.cold.1
 CStrings:
 + "CDPInternalWalrusStateController: no CDPContext available; walrusRepair telemetry will lack flow/session IDs"
 + "CDPInternalWalrusStateController: no telemetryFlowID on daemon _context; minted for repair pair: %{public}@"

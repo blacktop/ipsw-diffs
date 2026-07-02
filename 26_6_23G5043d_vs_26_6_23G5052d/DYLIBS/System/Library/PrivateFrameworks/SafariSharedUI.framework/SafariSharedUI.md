@@ -112,18 +112,6 @@ Sections:
 ~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + ___swift_memcpy16_8
-+ _block_copy_helper.21
-+ _block_copy_helper.27
-+ _block_copy_helper.33
-+ _block_copy_helper.9
-+ _block_descriptor.11
-+ _block_descriptor.23
-+ _block_descriptor.29
-+ _block_descriptor.35
-+ _block_destroy_helper.10
-+ _block_destroy_helper.22
-+ _block_destroy_helper.28
-+ _block_destroy_helper.34
 + _objc_msgSend$continuousCornerRadiusRatio
 + _objc_msgSend$createSystemSymbolIconWithSystemImageName:iconConfiguration:
 + _objc_msgSend$drawAtPoint:blendMode:alpha:
@@ -138,9 +126,6 @@ Symbols:
 + _symbolic _____ So30WBSCompletionIconConfigurationV
 + _symbolic _____ So6CGSizeV
 + _type_layout_string So6CGSizeV
-- _block_copy_helper.5
-- _block_descriptor.7
-- _block_destroy_helper.6
 - _objc_msgSend$_continuousCornerRadius
 - _objc_msgSend$continuousCornerRadius
 - _objc_msgSend$createIconWithSystemImageName:isDarkMode:
@@ -149,7 +134,6 @@ Symbols:
 - _objc_msgSend$setAppearance:
 - _objc_msgSend$set_continuousCornerRadius:
 CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSkXugA1_8ijjfrZD1Sphr3vEYtQ9jHwh7TyQx4/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/HashTable.h"
 + "Td,N,R,VcontinuousCornerRadiusRatio"
 + "createSystemSymbolIconWithSystemImageName:iconConfiguration:"
 + "drawAtPoint:blendMode:alpha:"
@@ -162,7 +146,6 @@ CStrings:
 + "initWithSize:"
 + "labelColor"
 + "resolvedColorWithTraitCollection:"
-- "/AppleInternal/Library/BuildRoots/4~CRZeugBD97V6mG7rRU_wwi_ZxFAyHfi7x9g-EEk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/HashTable.h"
 - "Td,N,R"
 - "Td,N,V_continuousCornerRadius"
 - "_continuousCornerRadius"

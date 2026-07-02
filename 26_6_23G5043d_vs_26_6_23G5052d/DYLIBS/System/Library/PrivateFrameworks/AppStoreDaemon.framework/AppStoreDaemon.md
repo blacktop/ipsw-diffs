@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AppStoreDaemon.framework/AppStoreDaemon`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__const : content changed
@@ -27,14 +26,3 @@ Sections:
 ~ __AUTH.__objc_data : content changed
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
-CStrings:
-+ "Unimplemented at /Library/Caches/com.apple.xbs/F915DEE5-31D7-4CA2-92F0-11534A642583/TemporaryDirectory.2KBNDF/Sources/AppStoreDaemonFramework/Libraries/AppStoreDaemon/XPC/Updates/ASDSoftwareUpdatesStore.m:384 : Not supported on iOS"
-+ "Unimplemented at /Library/Caches/com.apple.xbs/F915DEE5-31D7-4CA2-92F0-11534A642583/TemporaryDirectory.2KBNDF/Sources/AppStoreDaemonFramework/Libraries/AppStoreDaemon/XPC/Updates/ASDSoftwareUpdatesStore.m:81 : Not supported on iOS"
-+ "Unimplemented at /Library/Caches/com.apple.xbs/F915DEE5-31D7-4CA2-92F0-11534A642583/TemporaryDirectory.2KBNDF/Sources/AppStoreDaemonFramework/Libraries/AppStoreDaemon/XPC/Updates/ASDSoftwareUpdatesStore.m:85 : Not supported on iOS"
-+ "Unimplemented at /Library/Caches/com.apple.xbs/F915DEE5-31D7-4CA2-92F0-11534A642583/TemporaryDirectory.2KBNDF/Sources/AppStoreDaemonFramework/Libraries/AppStoreDaemon/XPC/Updates/ASDSoftwareUpdatesStore.m:90 : Not supported on iOS"
-- "Unimplemented at /Library/Caches/com.apple.xbs/A1950992-5C16-478F-998A-88322025D4DC/TemporaryDirectory.BSEvIv/Sources/AppStoreDaemonFramework/Libraries/AppStoreDaemon/XPC/Updates/ASDSoftwareUpdatesStore.m:384 : Not supported on iOS"
-- "Unimplemented at /Library/Caches/com.apple.xbs/A1950992-5C16-478F-998A-88322025D4DC/TemporaryDirectory.BSEvIv/Sources/AppStoreDaemonFramework/Libraries/AppStoreDaemon/XPC/Updates/ASDSoftwareUpdatesStore.m:81 : Not supported on iOS"
-- "Unimplemented at /Library/Caches/com.apple.xbs/A1950992-5C16-478F-998A-88322025D4DC/TemporaryDirectory.BSEvIv/Sources/AppStoreDaemonFramework/Libraries/AppStoreDaemon/XPC/Updates/ASDSoftwareUpdatesStore.m:85 : Not supported on iOS"
-- "Unimplemented at /Library/Caches/com.apple.xbs/A1950992-5C16-478F-998A-88322025D4DC/TemporaryDirectory.BSEvIv/Sources/AppStoreDaemonFramework/Libraries/AppStoreDaemon/XPC/Updates/ASDSoftwareUpdatesStore.m:90 : Not supported on iOS"
-
-```

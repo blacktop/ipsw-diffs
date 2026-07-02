@@ -105,24 +105,6 @@ Symbols:
 + GCC_except_table54
 + _NSFileGroupOwnerAccountID
 + _NSFileOwnerAccountID
-+ ___44+[POCoreConfigurationUtil updateTriggerFile]_block_invoke.36
-+ ___44+[POCoreConfigurationUtil updateTriggerFile]_block_invoke.36.cold.1
-+ ___50+[POCoreConfigurationUtil writeTriggerFileToPath:]_block_invoke.20
-+ ___50+[POCoreConfigurationUtil writeTriggerFileToPath:]_block_invoke.20.cold.1
-+ ___50+[POCoreConfigurationUtil writeTriggerFileToPath:]_block_invoke.26
-+ ___50+[POCoreConfigurationUtil writeTriggerFileToPath:]_block_invoke.26.cold.1
-+ ___50-[PODaemonCoreProcess writeData:toPath:saveError:]_block_invoke.21
-+ ___50-[PODaemonCoreProcess writeData:toPath:saveError:]_block_invoke.21.cold.1
-+ ___50-[PODaemonCoreProcess writeData:toPath:saveError:]_block_invoke.25
-+ ___50-[PODaemonCoreProcess writeData:toPath:saveError:]_block_invoke.25.cold.1
-+ ___50-[PODaemonCoreProcess writeData:toPath:saveError:]_block_invoke.31
-+ ___50-[PODaemonCoreProcess writeData:toPath:saveError:]_block_invoke.31.cold.1
-+ ___53-[PODaemonCoreProcess _saveUserLoginStateList:error:]_block_invoke.78
-+ ___53-[PODaemonCoreProcess _saveUserLoginStateList:error:]_block_invoke.78.cold.1
-+ ___58-[PODaemonCoreProcess _parseUserLoginStateListData:error:]_block_invoke.63
-+ ___58-[PODaemonCoreProcess _parseUserLoginStateListData:error:]_block_invoke.63.cold.1
-+ ___block_literal_global.251
-+ ___block_literal_global.59
 + __sharedPrebootKey
 + _objc_msgSend$URLByDeletingLastPathComponent
 + _objc_msgSend$createDirectoryAtPath:withIntermediateDirectories:attributes:error:
@@ -131,20 +113,6 @@ Symbols:
 + _objc_msgSend$stringByDeletingLastPathComponent
 - GCC_except_table42
 - _OBJC_IVAR_$_PODaemonCoreProcess._prebootKey
-- ___44+[POCoreConfigurationUtil updateTriggerFile]_block_invoke.28
-- ___44+[POCoreConfigurationUtil updateTriggerFile]_block_invoke.28.cold.1
-- ___50+[POCoreConfigurationUtil writeTriggerFileToPath:]_block_invoke.18
-- ___50+[POCoreConfigurationUtil writeTriggerFileToPath:]_block_invoke.18.cold.1
-- ___50-[PODaemonCoreProcess writeData:toPath:saveError:]_block_invoke.17
-- ___50-[PODaemonCoreProcess writeData:toPath:saveError:]_block_invoke.17.cold.1
-- ___50-[PODaemonCoreProcess writeData:toPath:saveError:]_block_invoke.23
-- ___50-[PODaemonCoreProcess writeData:toPath:saveError:]_block_invoke.23.cold.1
-- ___53-[PODaemonCoreProcess _saveUserLoginStateList:error:]_block_invoke.70
-- ___53-[PODaemonCoreProcess _saveUserLoginStateList:error:]_block_invoke.70.cold.1
-- ___58-[PODaemonCoreProcess _parseUserLoginStateListData:error:]_block_invoke.55
-- ___58-[PODaemonCoreProcess _parseUserLoginStateListData:error:]_block_invoke.55.cold.1
-- ___block_literal_global.245
-- ___block_literal_global.51
 CStrings:
 + "$"
 + "Failed to create parent directory for config write"

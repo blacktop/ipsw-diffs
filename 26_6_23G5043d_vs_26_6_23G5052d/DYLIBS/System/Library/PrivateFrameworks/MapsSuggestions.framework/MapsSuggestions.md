@@ -97,18 +97,8 @@ Symbols:
 + GCC_except_table172
 + GCC_except_table183
 + GCC_except_table203
-+ ___44-[MapsSuggestionsRoutine _msgLOIsForRTLOIs:]_block_invoke.395
-+ ___44-[MapsSuggestionsRoutine _msgLOIsForRTLOIs:]_block_invoke.396
-+ ___50-[MapsSuggestionsRoutine fetchLOIsOfType:handler:]_block_invoke.398
-+ ___53-[MapsSuggestionsRoutine fetchLOIsSinceDate:handler:]_block_invoke.400
-+ ___58-[MapsSuggestionsRoutine fetchLocationsSinceDate:handler:]_block_invoke.401
-+ ___76-[MapsSuggestionsRoutine fetchLocationOfInterestWithIdentifier:withHandler:]_block_invoke.404
-+ ___76-[MapsSuggestionsRoutine fetchLocationOfInterestWithIdentifier:withHandler:]_block_invoke.407
 + ___block_descriptor_72_ea8_32s40s48s56s64s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
 + ___block_descriptor_72_ea8_32s40s48s56s64w_e27_v16?0"GEOMapItemStorage"8lw64l8s32l8s40l8s48l8s56l8
-+ ___block_literal_global.547
-+ ___block_literal_global.553
-+ ___block_literal_global.572
 - GCC_except_table153
 - GCC_except_table156
 - GCC_except_table162
@@ -117,19 +107,9 @@ Symbols:
 - GCC_except_table201
 - OBJC_IVAR_$_MapsSuggestionsBaseShortcutMatcher._didUpdateOffloadQueue
 - OBJC_IVAR_$_MapsSuggestionsBaseShortcutMatcher._queue
-- ___44-[MapsSuggestionsRoutine _msgLOIsForRTLOIs:]_block_invoke.394
-- ___50-[MapsSuggestionsRoutine fetchLOIsOfType:handler:]_block_invoke.396
-- ___51-[MapsSuggestionsBaseShortcutMatcher _loadIfNeeded]_block_invoke.22
-- ___51-[MapsSuggestionsBaseShortcutMatcher _loadIfNeeded]_block_invoke.23
 - ___51-[MapsSuggestionsBaseShortcutMatcher _loadIfNeeded]_block_invoke_2
-- ___53-[MapsSuggestionsRoutine fetchLOIsSinceDate:handler:]_block_invoke.398
-- ___58-[MapsSuggestionsRoutine fetchLocationsSinceDate:handler:]_block_invoke.399
 - ___71-[MapsSuggestionsBaseShortcutMatcher mapsSync:didChangeForContentType:]_block_invoke
-- ___76-[MapsSuggestionsRoutine fetchLocationOfInterestWithIdentifier:withHandler:]_block_invoke.402
-- ___76-[MapsSuggestionsRoutine fetchLocationOfInterestWithIdentifier:withHandler:]_block_invoke.403
 - ___block_descriptor_56_ea8_32s40s48s_e27_v16?0"GEOMapItemStorage"8ls32l8s40l8s48l8
-- ___block_literal_global.545
-- ___block_literal_global.551
 CStrings:
 + "-[MapsSuggestionsRoutine _msgLOIsForRTLOIs:]_block_invoke"
 + "21:01:56"

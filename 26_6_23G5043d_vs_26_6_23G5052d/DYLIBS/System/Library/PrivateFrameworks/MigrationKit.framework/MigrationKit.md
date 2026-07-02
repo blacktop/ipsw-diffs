@@ -142,12 +142,6 @@ Symbols:
 + __METACLASS_DATA__TtC12MigrationKit17SkippedMessageIDs
 + ___swift_get_extra_inhabitant_index.46Tm
 + ___swift_store_extra_inhabitant_index.47Tm
-+ _block_copy_helper.12
-+ _block_copy_helper.26
-+ _block_descriptor.14
-+ _block_descriptor.28
-+ _block_destroy_helper.13
-+ _block_destroy_helper.27
 + _get_enum_tag_for_layout_string 12MigrationKit14DatabaseHandleC5State022_5F5479FF8FD2B9769B8C9J9E51353C2ALLO
 + _objc_msgSend$defaultSoundForCategory:
 + _objc_msgSend$setSound:
@@ -187,12 +181,6 @@ Symbols:
 + _type_layout_string 12MigrationKit14DatabaseHandleC5State022_5F5479FF8FD2B9769B8C9J9E51353C2ALLO
 - ___swift_get_extra_inhabitant_index.61Tm
 - ___swift_store_extra_inhabitant_index.62Tm
-- _block_copy_helper.21
-- _block_copy_helper.34
-- _block_descriptor.23
-- _block_descriptor.36
-- _block_destroy_helper.22
-- _block_destroy_helper.35
 - _objectdestroy.26Tm
 - _objectdestroy.31Tm
 - _objectdestroy.51Tm

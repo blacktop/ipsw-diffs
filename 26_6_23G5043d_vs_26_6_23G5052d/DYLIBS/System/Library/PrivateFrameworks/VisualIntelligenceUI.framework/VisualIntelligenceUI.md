@@ -46,12 +46,5 @@ Sections:
 ~ __DATA.__objc_stublist : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
 ~ __DATA_DIRTY.__data : content changed
-Symbols:
-+ _block_copy_helper.415
-+ _block_descriptor.417
-+ _block_destroy_helper.416
-- _block_copy_helper.410
-- _block_descriptor.412
-- _block_destroy_helper.411
 
 ```

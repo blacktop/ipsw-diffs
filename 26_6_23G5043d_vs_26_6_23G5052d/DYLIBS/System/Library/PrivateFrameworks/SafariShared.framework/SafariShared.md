@@ -31,13 +31,7 @@ Sections:
 ~ __DATA.__data : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
 CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSkVugBBK7zedRqVrR2nQDdr5Q5we1lDO6Ut0Dk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/HashTable.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkVugBBK7zedRqVrR2nQDdr5Q5we1lDO6Ut0Dk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
-+ "/AppleInternal/Library/BuildRoots/4~CSkVugBBK7zedRqVrR2nQDdr5Q5we1lDO6Ut0Dk/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Vector.h"
 + "8624.4.2.10.1"
-- "/AppleInternal/Library/BuildRoots/4~CRZbugCpmyNb9QfKmW7sLFFjZ3v9riHhWuHrGMI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/HashTable.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZbugCpmyNb9QfKmW7sLFFjZ3v9riHhWuHrGMI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/StdLibExtras.h"
-- "/AppleInternal/Library/BuildRoots/4~CRZbugCpmyNb9QfKmW7sLFFjZ3v9riHhWuHrGMI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/include/wtf/Vector.h"
 - "8624.4.1.10.1"
 
 ```

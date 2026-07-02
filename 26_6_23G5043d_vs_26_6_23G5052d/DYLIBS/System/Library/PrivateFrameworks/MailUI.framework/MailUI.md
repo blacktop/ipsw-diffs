@@ -2,7 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/MailUI.framework/MailUI`
 
-```diff
 Sections:
 ~ __TEXT.__objc_methlist : content changed
 ~ __TEXT.__cstring : content changed
@@ -32,8 +31,3 @@ Sections:
 ~ __DATA.__objc_stublist : content changed
 ~ __DATA_DIRTY.__objc_data : content changed
 ~ __DATA_DIRTY.__data : content changed
-CStrings:
-+ "/AppleInternal/Library/BuildRoots/4~CSWRugDJz8zSxpFqSJBm8xy3kuujsHLYWhuTidA/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Library/PrivateFrameworks/Email.framework/Headers/EMContentRequestOptions.h"
-- "/AppleInternal/Library/BuildRoots/4~CRCuugBJ4oaysZJ1sftFheCR8Weeal-ZpXV5Mvw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/System/Library/PrivateFrameworks/Email.framework/Headers/EMContentRequestOptions.h"
-
-```

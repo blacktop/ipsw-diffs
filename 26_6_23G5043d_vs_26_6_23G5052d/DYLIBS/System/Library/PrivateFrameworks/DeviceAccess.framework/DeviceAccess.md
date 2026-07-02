@@ -81,13 +81,6 @@ Sections:
 ~ __DATA_DIRTY.__data : content changed
 Symbols:
 + -[DADeviceRegistry requiresCompanionApp]
-+ ___30-[DADiscovery _activateDirect]_block_invoke_2.cold.1
-+ ___block_literal_global.268
-+ ___block_literal_global.279
-+ ___block_literal_global.286
-- ___block_literal_global.262
-- ___block_literal_global.273
-- ___block_literal_global.280
 Functions:
 ~ ___30-[DADiscovery _activateDirect]_block_invoke_2 : 500 -> 556
 + -[DADeviceRegistry requiresCompanionApp]
