@@ -1,0 +1,439 @@
+## MobilePhone
+
+> `/Applications/MobilePhone.app/MobilePhone`
+
+```diff
+
+-  __TEXT.__text: 0x1f5a04
+-  __TEXT.__auth_stubs: 0x5030
++  __TEXT.__text: 0x1f9794
++  __TEXT.__auth_stubs: 0x50f0
+   __TEXT.__objc_stubs: 0x1c000
+-  __TEXT.__objc_methlist: 0x11270
+-  __TEXT.__const: 0x8784
+-  __TEXT.__objc_methname: 0x2fda5
+-  __TEXT.__cstring: 0x82ca
+-  __TEXT.__oslogstring: 0xbc52
+-  __TEXT.__objc_classname: 0x2f6b
++  __TEXT.__objc_methlist: 0x112a8
++  __TEXT.__const: 0x8824
++  __TEXT.__objc_methname: 0x2fe85
++  __TEXT.__cstring: 0x829a
++  __TEXT.__oslogstring: 0xbca2
++  __TEXT.__objc_classname: 0x2fab
+   __TEXT.__objc_methtype: 0x7ca0
+   __TEXT.__gcc_except_tab: 0xc38
+   __TEXT.__dlopen_cstrs: 0x5e
+   __TEXT.__ustring: 0x10
+-  __TEXT.__swift5_typeref: 0x6982
+-  __TEXT.__swift5_capture: 0x2ec4
+-  __TEXT.__constg_swiftt: 0x3318
++  __TEXT.__swift5_typeref: 0x6a16
++  __TEXT.__swift5_capture: 0x2f18
++  __TEXT.__constg_swiftt: 0x335c
+   __TEXT.__swift5_builtin: 0x280
+-  __TEXT.__swift5_reflstr: 0x31d4
+-  __TEXT.__swift5_fieldmd: 0x2a84
++  __TEXT.__swift5_reflstr: 0x3274
++  __TEXT.__swift5_fieldmd: 0x2ae8
+   __TEXT.__swift5_assocty: 0x6b8
+-  __TEXT.__swift5_proto: 0x384
+-  __TEXT.__swift5_types: 0x304
++  __TEXT.__swift5_proto: 0x388
++  __TEXT.__swift5_types: 0x308
+   __TEXT.__swift5_mpenum: 0x40
+   __TEXT.__swift5_protos: 0x5c
+-  __TEXT.__swift_as_entry: 0x3a8
+-  __TEXT.__swift_as_ret: 0x398
+-  __TEXT.__swift_as_cont: 0x788
+-  __TEXT.__unwind_info: 0x8518
+-  __TEXT.__eh_frame: 0x9bc4
+-  __DATA_CONST.__const: 0xbab8
++  __TEXT.__swift_as_entry: 0x3b0
++  __TEXT.__swift_as_ret: 0x3a0
++  __TEXT.__swift_as_cont: 0x798
++  __TEXT.__unwind_info: 0x85b8
++  __TEXT.__eh_frame: 0x9d74
++  __DATA_CONST.__const: 0xbbb0
+   __DATA_CONST.__cfstring: 0x4fc0
+-  __DATA_CONST.__objc_classlist: 0x710
++  __DATA_CONST.__objc_classlist: 0x718
+   __DATA_CONST.__objc_catlist: 0xb8
+   __DATA_CONST.__objc_catlist2: 0x8
+   __DATA_CONST.__objc_protolist: 0x4e0
+
+   __DATA_CONST.__objc_arraydata: 0x60
+   __DATA_CONST.__objc_arrayobj: 0xa8
+   __DATA_CONST.__objc_dictobj: 0x28
+-  __DATA_CONST.__auth_got: 0x2828
+-  __DATA_CONST.__got: 0x1988
+-  __DATA_CONST.__auth_ptr: 0x1410
+-  __DATA.__objc_const: 0x1a060
+-  __DATA.__objc_selrefs: 0x9740
++  __DATA_CONST.__auth_got: 0x2888
++  __DATA_CONST.__got: 0x1a60
++  __DATA_CONST.__auth_ptr: 0x1470
++  __DATA.__objc_const: 0x1a180
++  __DATA.__objc_selrefs: 0x9750
+   __DATA.__objc_ivar: 0xc28
+-  __DATA.__objc_data: 0x7490
+-  __DATA.__data: 0x7748
++  __DATA.__objc_data: 0x7578
++  __DATA.__data: 0x77a0
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x65d8
++  __DATA.__bss: 0x6658
+   __DATA.__common: 0x848
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 12003
+-  Symbols:   85308
+-  CStrings:  10201
++  Functions: 12049
++  Symbols:   85676
++  CStrings:  10209
+ 
+Sections:
+~ __TEXT.__objc_methtype : content changed
+~ __TEXT.__gcc_except_tab : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __DATA_CONST.__cfstring : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_catlist2 : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__objc_intobj : content changed
+~ __DATA_CONST.__objc_arraydata : content changed
+~ __DATA_CONST.__objc_arrayobj : content changed
+~ __DATA_CONST.__objc_dictobj : content changed
+~ __DATA.__objc_ivar : content changed
+~ __DATA.__objc_stublist : content changed
+~ __DATA.__common : content changed
+Symbols:
++ $s11MobilePhone30ClarityUILegacyMailboxProviderC06legacyE7ServiceAC10CallsAppUI06LegacyeH8Protocol_p_tcfcyyt_tcfU_TA
++ $s11MobilePhone30ClarityUILegacyMailboxProviderC15ConversationKit0cdE9ProvidingAadEP8delegateAD0cdeF8Delegate_pSgvMTW.resume
++ $s11MobilePhone30ClarityUILegacyMailboxProviderC8delegate15ConversationKit0cdeF8Delegate_pSgvM.resume
++ $s11MobilePhone30ClarityUILegacyMailboxProviderC8delegate15ConversationKit0cdeF8Delegate_pSgvM.resume.0Tm
++ $sIeAgH_ytIeAgHr_TRTA.58TQ0_
++ $sIeAgH_ytIeAgHr_TRTA.58Tu
++ $sIeghH_IeAgH_TRTA.53TQ0_
++ $sIeghH_IeAgH_TRTA.53Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR7Combine14AnyCancellableC_TG5TA.133TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR7Combine14AnyCancellableC_TG5TA.133Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.111TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.111Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.127TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.127Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.173TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.173Tu
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/ClarityUILegacyMailboxProvider.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/MPRTTTranscriptionMessage-ec98e4a9be297b5c25f99bd8d57ea0b0.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/MPRecentsTableViewController-3211a5b3a0a181e0ab55c5ac91f0ed92.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/MPRecentsTableViewController-a10560fb648a116e606e102e72266f0d.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/PHVoicemailInboxListViewController-a873683fed000d34f22767457d3228e8.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/PHVoicemailInboxListViewController-b9109e562d126c6b6dc330b4f7c17f81.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/PhoneApplication_Testing-759b7128c3741f5c8046d96261b87f50.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/PhoneApplication_Testing-8005ee4b03ea0248fc366ee03ab2044a.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/VMGreetingChangeViewController-2af1b5222b4cce14e39bd3fde10a92dd.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/VMGreetingChangeViewController-d1885c06a4765c36ce896fb11163c860.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/VMMessageTranscriptViewModel-15f5744e48914efd2f65b4c856e51b81.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/VMMessageTranscriptViewModel-e6fef4276bc25f1b57a70443002c731d.o
++ /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/VVMVoicemailCountSource-539270f979ed3c87a073b4e15e74ecb6.o
++ ClarityUILegacyMailboxProvider.swift
++ _$s10CallsAppUI13LegacyMailboxV17hasUnreadMessagesSbvg
++ _$s10CallsAppUI13LegacyMailboxV5labelSSSgvg
++ _$s10CallsAppUI28LegacyMailboxServiceProtocolP05fetchD9MailboxesSayAA0dE0VGyYaFTj
++ _$s10CallsAppUI28LegacyMailboxServiceProtocolP05fetchD9MailboxesSayAA0dE0VGyYaFTjTu
++ _$s10CallsAppUI28LegacyMailboxServiceProtocolP15changePublisher7Combine18PassthroughSubjectCyyts5NeverOGvgTj
++ _$s10CallsAppUI28LegacyMailboxServiceProtocolP4dial7mailboxyAA0dE0V_tFTj
++ _$s10CallsAppUI28LegacyMailboxServiceProtocol_pWOc
++ _$s10Foundation4UUIDVACSQAAWL
++ _$s10Foundation4UUIDVSQAAMc
++ _$s10Foundation4UUIDV_10CallsAppUI13LegacyMailboxVtMR
++ _$s10Foundation4UUIDV_10CallsAppUI13LegacyMailboxVtMd
++ _$s10Foundation4UUIDV_10CallsAppUI13LegacyMailboxVtWOb
++ _$s11MobilePhone22ClarityUISceneDelegateC31didInstallLegacyMailboxProvider33_001DBC0BEC4104ED794DAD8E6954EC07LLSbvpZ
++ _$s11MobilePhone22ClarityUISceneDelegateC9rootSceneQrvgZ15ConversationKit0C10UIRootViewVyXEfU_
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC06legacyE7Service33_269A11AA8AE664E6F60205269C488346LL10CallsAppUI06LegacyeH8Protocol_pvpWvd
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC06legacyE7ServiceAC10CallsAppUI06LegacyeH8Protocol_p_tcfC
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC06legacyE7ServiceAC10CallsAppUI06LegacyeH8Protocol_p_tcfCTfq4en_nTf4gn_n
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC06legacyE7ServiceAC10CallsAppUI06LegacyeH8Protocol_p_tcfCTq
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC06legacyE7ServiceAC10CallsAppUI06LegacyeH8Protocol_p_tcfc
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC06legacyE7ServiceAC10CallsAppUI06LegacyeH8Protocol_p_tcfcTf4en_n
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC06legacyE7ServiceAC10CallsAppUI06LegacyeH8Protocol_p_tcfcTf4en_nAA0leH0C_Tg5
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC06legacyE7ServiceAC10CallsAppUI06LegacyeH8Protocol_p_tcfcyyt_tcfU_
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC06legacyE7ServiceAC10CallsAppUI06LegacyeH8Protocol_p_tcfcyyt_tcfU_TA
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC11refreshTask33_269A11AA8AE664E6F60205269C488346LLScTyyts5NeverOGSgvpWvd
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC11refreshTask33_269A11AA8AE664E6F60205269C488346LLScTyyts5NeverOGSgvpfi
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15ConversationKit0cdE9ProvidingAAMc
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15ConversationKit0cdE9ProvidingAAMcMK
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15ConversationKit0cdE9ProvidingAadEP4dial9mailboxIDy10Foundation4UUIDV_tFTW
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15ConversationKit0cdE9ProvidingAadEP8delegateAD0cdeF8Delegate_pSgvMTW
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15ConversationKit0cdE9ProvidingAadEP8delegateAD0cdeF8Delegate_pSgvgTW
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15ConversationKit0cdE9ProvidingAadEP8delegateAD0cdeF8Delegate_pSgvsTW
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15ConversationKit0cdE9ProvidingAadEP9mailboxesSayAD0cdE0VGvgTW
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15scheduleRefresh33_269A11AA8AE664E6F60205269C488346LLyyF
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15scheduleRefresh33_269A11AA8AE664E6F60205269C488346LLyyFyyYacfU_
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15scheduleRefresh33_269A11AA8AE664E6F60205269C488346LLyyFyyYacfU_TA
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15scheduleRefresh33_269A11AA8AE664E6F60205269C488346LLyyFyyYacfU_TATQ0_
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15scheduleRefresh33_269A11AA8AE664E6F60205269C488346LLyyFyyYacfU_TATu
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15scheduleRefresh33_269A11AA8AE664E6F60205269C488346LLyyFyyYacfU_TQ1_
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15scheduleRefresh33_269A11AA8AE664E6F60205269C488346LLyyFyyYacfU_TY0_
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15scheduleRefresh33_269A11AA8AE664E6F60205269C488346LLyyFyyYacfU_TY2_
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC15scheduleRefresh33_269A11AA8AE664E6F60205269C488346LLyyFyyYacfU_Tu
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC17changeCancellable33_269A11AA8AE664E6F60205269C488346LL7Combine03AnyH0CSgvpWvd
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC17changeCancellable33_269A11AA8AE664E6F60205269C488346LL7Combine03AnyH0CSgvpfi
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC21legacyMailboxesByUUID33_269A11AA8AE664E6F60205269C488346LLSDy10Foundation0J0V10CallsAppUI06LegacyE0VGvpWvd
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC21legacyMailboxesByUUID33_269A11AA8AE664E6F60205269C488346LLSDy10Foundation0J0V10CallsAppUI06LegacyE0VGvpfi
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC4dial9mailboxIDy10Foundation4UUIDV_tF
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC7refresh33_269A11AA8AE664E6F60205269C488346LLyyYaF
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC7refresh33_269A11AA8AE664E6F60205269C488346LLyyYaF10CallsAppUI06LegacyE0VAH_AHtXEfU0_
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC7refresh33_269A11AA8AE664E6F60205269C488346LLyyYaFTQ1_
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC7refresh33_269A11AA8AE664E6F60205269C488346LLyyYaFTY0_
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC7refresh33_269A11AA8AE664E6F60205269C488346LLyyYaFTY2_
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC7refresh33_269A11AA8AE664E6F60205269C488346LLyyYaFTu
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC8delegate15ConversationKit0cdeF8Delegate_pSgvM
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC8delegate15ConversationKit0cdeF8Delegate_pSgvg
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC8delegate15ConversationKit0cdeF8Delegate_pSgvpMV
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC8delegate15ConversationKit0cdeF8Delegate_pSgvpWvd
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC8delegate15ConversationKit0cdeF8Delegate_pSgvpfi
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC8delegate15ConversationKit0cdeF8Delegate_pSgvs
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC9mailboxesSay15ConversationKit0cdE0VGvg
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC9mailboxesSay15ConversationKit0cdE0VGvpMV
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC9mailboxesSay15ConversationKit0cdE0VGvpWvd
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderC9mailboxesSay15ConversationKit0cdE0VGvpfi
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderCAC15ConversationKit0cdE9ProvidingAAWL
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderCAC15ConversationKit0cdE9ProvidingAAWlTm
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderCACycfC
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderCACycfc
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderCACycfcTo
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderCMF
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderCMa
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderCMf
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderCMn
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderCN
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderCfD
++ _$s11MobilePhone30ClarityUILegacyMailboxProviderCfETo
++ _$s11MobilePhone8DefaultsC27forceCarrierVoicemailBannerSbvg
++ _$s11MobilePhone8DefaultsC27forceCarrierVoicemailBannerSbvgTf4d_n
++ _$s11MobilePhone8DefaultsC27forceCarrierVoicemailBannerSbvpMV
++ _$s11MobilePhone8DefaultsCAA0C8ProtocolA2aDP27forceCarrierVoicemailBannerSbvgTW
++ _$s15ConversationKit17ClarityUIRootViewV7SwiftUI0E0AAMc
++ _$s15ConversationKit17ClarityUIRootViewVAC7SwiftUI0E0AAWL
++ _$s15ConversationKit17ClarityUIRootViewVACycfC
++ _$s15ConversationKit17ClarityUIRootViewVMa
++ _$s15ConversationKit17ClarityUIRootViewVMn
++ _$s15ConversationKit22ClarityUILegacyMailboxV2id5label17hasUnreadMessagesAC10Foundation4UUIDV_SSSgSbtcfC
++ _$s15ConversationKit22ClarityUILegacyMailboxVMa
++ _$s15ConversationKit22ClarityUILegacyMailboxVMn
++ _$s15ConversationKit26ClarityUILegacyMailboxListC11setProvideryyAA0cdE9Providing_pF
++ _$s15ConversationKit26ClarityUILegacyMailboxListC6sharedACvgZ
++ _$s15ConversationKit26ClarityUILegacyMailboxListCMa
++ _$s15ConversationKit31ClarityUILegacyMailboxProvidingMp
++ _$s15ConversationKit31ClarityUILegacyMailboxProvidingP4dial9mailboxIDy10Foundation4UUIDV_tFTq
++ _$s15ConversationKit31ClarityUILegacyMailboxProvidingP8delegateAA0cdE16ProviderDelegate_pSgvMTq
++ _$s15ConversationKit31ClarityUILegacyMailboxProvidingP8delegateAA0cdE16ProviderDelegate_pSgvgTq
++ _$s15ConversationKit31ClarityUILegacyMailboxProvidingP8delegateAA0cdE16ProviderDelegate_pSgvsTq
++ _$s15ConversationKit31ClarityUILegacyMailboxProvidingP9mailboxesSayAA0cdE0VGvgTq
++ _$s15ConversationKit38ClarityUILegacyMailboxProviderDelegateMp
++ _$s15ConversationKit38ClarityUILegacyMailboxProviderDelegateP18mailboxesDidChangeyyFTj
++ _$s15ConversationKit38ClarityUILegacyMailboxProviderDelegate_pSgXwWOh
++ _$s16CallsAppServices11RecentsItemV4from07recentsE08contacts24subtitleWithoutCallNotesACSo08CHRecentK0C_So09PKRecentsE0CSaySo9CNContactCGSSSgtcfC
++ _$s7Combine10PublishersO9ReceiveOnVMn
++ _$s7Combine10PublishersO9ReceiveOnVy_AA18PassthroughSubjectCyyts5NeverOGSo17OS_dispatch_queueCGAEy_xq_GAA9PublisherAAWL
++ _$s7Combine10PublishersO9ReceiveOnVy_AA18PassthroughSubjectCyyts5NeverOGSo17OS_dispatch_queueCGMR
++ _$s7Combine10PublishersO9ReceiveOnVy_AA18PassthroughSubjectCyyts5NeverOGSo17OS_dispatch_queueCGMd
++ _$s7Combine10PublishersO9ReceiveOnVy_xq_GAA9PublisherAAMc
++ _$s7Combine9PublisherPAAE7receive2on7optionsAA10PublishersO9ReceiveOnVy_xqd__Gqd___16SchedulerOptionsQyd__SgtAA0I0Rd__lF
++ _$s7SwiftUI15AssistiveAccessVy15ConversationKit17ClarityUIRootViewVGACyxGAA5SceneAAWL
++ _$s7SwiftUI15AssistiveAccessVy15ConversationKit17ClarityUIRootViewVGACyxGAA5SceneAAWl
++ _$s7SwiftUI15AssistiveAccessVy15ConversationKit17ClarityUIRootViewVGMR
++ _$s7SwiftUI15AssistiveAccessVy15ConversationKit17ClarityUIRootViewVGMd
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC10Foundation4UUIDV_10CallsAppUI13LegacyMailboxVTt0g5Tf4g_n
++ _$sScMs11GlobalActorsMc
++ _$sScTss5NeverORszABRs_rlE11isCancelledSbvgZ
++ _$sSo17OS_dispatch_queueC7Combine9Scheduler8DispatchMc
++ _$sSo17OS_dispatch_queueC8DispatchE16SchedulerOptionsVMa
++ _$sSo17OS_dispatch_queueC8DispatchE16SchedulerOptionsVMn
++ _$sSo17OS_dispatch_queueC8DispatchE16SchedulerOptionsVSgMR
++ _$sSo17OS_dispatch_queueC8DispatchE16SchedulerOptionsVSgMd
++ _$sSo17OS_dispatch_queueC8DispatchE16SchedulerOptionsVSgWOhTm
++ _$sSo17OS_dispatch_queueCAB7Combine9Scheduler8DispatchWL
++ _$sSo17OS_dispatch_queueCAB7Combine9Scheduler8DispatchWl
++ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lF11MobilePhone9MessageIDC_SayAIGTg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF10Foundation4UUIDV_10CallsAppUI13LegacyMailboxVt_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF15ConversationKit22ClarityUILegacyMailboxV_Tg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_10CallsAppUI13LegacyMailboxVTg5
++ _$ss18_DictionaryStorageCy10Foundation4UUIDV10CallsAppUI13LegacyMailboxVGMR
++ _$ss18_DictionaryStorageCy10Foundation4UUIDV10CallsAppUI13LegacyMailboxVGMd
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4UUIDV_10CallsAppUI13LegacyMailboxVt_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15ConversationKit22ClarityUILegacyMailboxV_Tg5Tm
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlF11MobilePhone9MessageIDC_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo8CHHandleC_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlF10Foundation4UUIDV_Tg5
++ _$ss23_ContiguousArrayStorageCy10Foundation4UUIDV_10CallsAppUI13LegacyMailboxVtGMR
++ _$ss23_ContiguousArrayStorageCy10Foundation4UUIDV_10CallsAppUI13LegacyMailboxVtGMd
++ _$ss23_ContiguousArrayStorageCy15ConversationKit22ClarityUILegacyMailboxVGMR
++ _$ss23_ContiguousArrayStorageCy15ConversationKit22ClarityUILegacyMailboxVGMd
++ _OBJC_CLASS_$_PHClarityUISceneDelegate
++ _OBJC_CLASS_$__TtC11MobilePhone30ClarityUILegacyMailboxProvider
++ _OBJC_METACLASS_$_PHClarityUISceneDelegate
++ _OBJC_METACLASS_$__TtC11MobilePhone30ClarityUILegacyMailboxProvider
++ _PROTOCOLS_PHClarityUISceneDelegate
++ __DATA_PHClarityUISceneDelegate
++ __DATA__TtC11MobilePhone30ClarityUILegacyMailboxProvider
++ __INSTANCE_METHODS_PHClarityUISceneDelegate
++ __INSTANCE_METHODS__TtC11MobilePhone30ClarityUILegacyMailboxProvider
++ __IVARS__TtC11MobilePhone30ClarityUILegacyMailboxProvider
++ __METACLASS_DATA_PHClarityUISceneDelegate
++ __METACLASS_DATA__TtC11MobilePhone30ClarityUILegacyMailboxProvider
++ __PROTOCOLS_PHClarityUISceneDelegate
++ ___79-[PhoneTabBarController keyPadSearchFor:shouldRefreshResult:completionHandler:]_block_invoke_2
++ ___79-[PhoneTabBarController keyPadSearchFor:shouldRefreshResult:completionHandler:]_block_invoke_3
++ ___79-[PhoneTabBarController keyPadSearchFor:shouldRefreshResult:completionHandler:]_block_invoke_4
++ ___79-[PhoneTabBarController keyPadSearchFor:shouldRefreshResult:completionHandler:]_block_invoke_5
++ ___79-[PhoneTabBarController keyPadSearchFor:shouldRefreshResult:completionHandler:]_block_invoke_6
++ ___79-[PhoneTabBarController keyPadSearchFor:shouldRefreshResult:completionHandler:]_block_invoke_7
++ ___79-[PhoneTabBarController keyPadSearchFor:shouldRefreshResult:completionHandler:]_block_invoke_8
++ ___block_descriptor_65_e8_32s40s48s56bs_e5_v8?0ls32l8s40l8s56l8s48l8
++ ___block_descriptor_72_e8_32s40s48s56s64bs_e5_v8?0ls64l8s32l8s40l8s48l8s56l8
++ _symbolic SDy__________G 10Foundation4UUIDV 10CallsAppUI13LegacyMailboxV
++ _symbolic Say_____G 15ConversationKit22ClarityUILegacyMailboxV
++ _symbolic ScM
++ _symbolic _____ 11MobilePhone30ClarityUILegacyMailboxProviderC
++ _symbolic _____Sg So17OS_dispatch_queueC8DispatchE16SchedulerOptionsV
++ _symbolic _____SgXw 11MobilePhone30ClarityUILegacyMailboxProviderC
++ _symbolic _____SgXwz_Xx 11MobilePhone30ClarityUILegacyMailboxProviderC
++ _symbolic ___________t 10Foundation4UUIDV 10CallsAppUI13LegacyMailboxV
++ _symbolic ______p 10CallsAppUI28LegacyMailboxServiceProtocolP
++ _symbolic ______pSgXw 15ConversationKit38ClarityUILegacyMailboxProviderDelegateP
++ _symbolic _____y_____G 7SwiftUI15AssistiveAccessV 15ConversationKit17ClarityUIRootViewV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 15ConversationKit22ClarityUILegacyMailboxV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 10CallsAppUI13LegacyMailboxV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 10Foundation4UUIDV 10CallsAppUI13LegacyMailboxV
++ _symbolic _____y______yyt_____GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA18PassthroughSubjectC s5NeverO
++ _symbolic _____y_____y_x_GG 15Synchronization5MutexVAARi_zrlE 11MobilePhone9FTMessageC4LazyC5StateO
++ _symbolic _____yq_G 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____yxSgG 15Synchronization5MutexVAARi_zrlE
++ get_witness_table 7SwiftUI15AssistiveAccessVy15ConversationKit17ClarityUIRootViewVGAA5SceneHPyHC
+- $s11MobilePhone22ClarityUISceneDelegateC9rootSceneQrvgZAC23assistiveAccessRootView33_001DBC0BEC4104ED794DAD8E6954EC07LLQrvpZQOy_Qo_yXEfU_TA
+- $sIeAgH_ytIeAgHr_TRTA.59TQ0_
+- $sIeAgH_ytIeAgHr_TRTA.59Tu
+- $sIeghH_IeAgH_TRTA.54TQ0_
+- $sIeghH_IeAgH_TRTA.54Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR7Combine14AnyCancellableC_TG5TA.143TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR7Combine14AnyCancellableC_TG5TA.143Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.116TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.116Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.132TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.132Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.178TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.178Tu
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/MPRTTTranscriptionMessage-4b93e340ccbe349f255d2ef6b5063c66.o
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/MPRecentsTableViewController-94358104e75fed1271379831f0719279.o
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/MPRecentsTableViewController-ceed7e8c23259c51d64be77134ce83da.o
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/PHVoicemailInboxListViewController-2dbf5a692428e9fb6aff1f4fbbc9b643.o
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/PHVoicemailInboxListViewController-b49daecbd6dcd1a9c5ac209e918cec7c.o
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/PhoneApplication_Testing-7ea31a186eb8f634fc0ed1d514038c1f.o
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/PhoneApplication_Testing-a37c05ced27e6e9cfb6fceb98cdd1743.o
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/VMGreetingChangeViewController-2f913c42ba1c53a08ba0f210b0044ba4.o
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/VMGreetingChangeViewController-d1e7d9c736d79b1a3c85511744c6bb6e.o
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/VMMessageTranscriptViewModel-22797b96ef196ac0ffc6584dcfd7372a.o
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/VMMessageTranscriptViewModel-88b019ecfa07553ce61b09db6553cde1.o
+- /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/VVMVoicemailCountSource-bcfabe23ad3a608df292eeefe94306a2.o
+- _$s11MobilePhone22ClarityUISceneDelegateC23assistiveAccessRootView33_001DBC0BEC4104ED794DAD8E6954EC07LLQrvgZ
+- _$s11MobilePhone22ClarityUISceneDelegateC23assistiveAccessRootView33_001DBC0BEC4104ED794DAD8E6954EC07LLQrvgZ7projectL_5value7SwiftUI03AnyI0Vx_tAH0I0RzlF
+- _$s11MobilePhone22ClarityUISceneDelegateC9rootSceneQrvgZAC23assistiveAccessRootView33_001DBC0BEC4104ED794DAD8E6954EC07LLQrvpZQOy_Qo_yXEfU_TA
+- _$s11TelephonyUI12TPTipsHelperC5EntryV4KindOAGSHAAWlTm
+- _$s15Synchronization5MutexVy11MobilePhone13MessageFolderOSgGMR
+- _$s15Synchronization5MutexVy11MobilePhone13MessageFolderOSgGMd
+- _$s15Synchronization5MutexVy11MobilePhone26VMVoicemailManagerProtocol_pSgGMR
+- _$s15Synchronization5MutexVy11MobilePhone26VMVoicemailManagerProtocol_pSgGMd
+- _$s15Synchronization5MutexVy11MobilePhone31VoicemailAccountManagerProtocol_pSgGMR
+- _$s15Synchronization5MutexVy11MobilePhone31VoicemailAccountManagerProtocol_pSgGMd
+- _$s15Synchronization5MutexVy11MobilePhone38VVMVoicemailCountSourceVoicemailStatus_AD0H22AccountManagerProtocolAD0h15BadgeCalculatorjK0So8NSObjectCXcSgGMR
+- _$s15Synchronization5MutexVy11MobilePhone38VVMVoicemailCountSourceVoicemailStatus_AD0H22AccountManagerProtocolAD0h15BadgeCalculatorjK0So8NSObjectCXcSgGMd
+- _$s15Synchronization5MutexVySayypGGMR
+- _$s15Synchronization5MutexVySayypGGMd
+- _$s15Synchronization5MutexVySbSgGMR
+- _$s15Synchronization5MutexVySbSgGMd
+- _$s15Synchronization5MutexVyScTyyts5Error_pGSgGMR
+- _$s15Synchronization5MutexVyScTyyts5Error_pGSgGMd
+- _$s15Synchronization5MutexVyScTyyts5NeverOGSgGMR
+- _$s15Synchronization5MutexVyScTyyts5NeverOGSgGMd
+- _$s15Synchronization5MutexVySiGMR
+- _$s15Synchronization5MutexVySiGMd
+- _$s15Synchronization6AtomicVySbGMR
+- _$s15Synchronization6AtomicVySbGMd
+- _$s16CallsAppServices11RecentsItemV4from07recentsE08contactsACSo12CHRecentCallC_So09PKRecentsE0CSaySo9CNContactCGtcfC
+- _$s20LiveCommunicationKit6HandleVACSHAAWlTm
+- _$s7SwiftUI12SceneBuilderV10buildBlockyxxAA0C0RzlFZ
+- _$s7SwiftUI15AssistiveAccessVyAA7AnyViewVGACyxGAA5SceneAAWL
+- _$s7SwiftUI15AssistiveAccessVyAA7AnyViewVGACyxGAA5SceneAAWl
+- _$s7SwiftUI15AssistiveAccessVyAA7AnyViewVGMR
+- _$s7SwiftUI15AssistiveAccessVyAA7AnyViewVGMd
+- _$s7SwiftUI4View_pMR
+- _$s7SwiftUI4View_pMd
+- _$sSS7cStringSSSPys4Int8VG_tcfC
+- _$sSh11subtractingyShyxGqd__7ElementQyd__RszSTRd__lF11MobilePhone9MessageIDC_SayAGGTg5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4UUIDV_Tg5
+- _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlF11MobilePhone9MessageIDC_Tg5Tm
+- _OBJC_CLASS_$_CNKClarityUISceneDelegate
+- _OBJC_METACLASS_$_CNKClarityUISceneDelegate
+- _PROTOCOLS_CNKClarityUISceneDelegate
+- __DATA_CNKClarityUISceneDelegate
+- __INSTANCE_METHODS_CNKClarityUISceneDelegate
+- __METACLASS_DATA_CNKClarityUISceneDelegate
+- __PROTOCOLS_CNKClarityUISceneDelegate
+- __swift_closure_destructor.39Tm
+- _dlerror
+- _dlopen
+- _swift_runtimeSupportsNoncopyableTypes
+- _symbolic ______p 7SwiftUI4ViewP
+- _symbolic _____y_____G 7SwiftUI15AssistiveAccessV AA7AnyViewV
+- get_type_metadata 11MobilePhone35VoicemailAccountManagerDataProtocolRz0F0Qy_RszAA0cde5CacheG0R_r0_l15Synchronization5MutexVyAA0cdeG0_pSgG noncopyable
+- get_type_metadata 11MobilePhone35VoicemailAccountManagerDataProtocolRz0F0Qy_RszAA0cde5CacheG0R_r0_l15Synchronization5MutexVySayypGG noncopyable
+- get_type_metadata 11MobilePhone35VoicemailAccountManagerDataProtocolRz0F0Qy_RszAA0cde5CacheG0R_r0_l15Synchronization5MutexVyScTyyts5Error_pGSgG noncopyable
+- get_type_metadata 11MobilePhone35VoicemailAccountManagerDataProtocolRz0F0Qy_RszAA0cde5CacheG0R_r0_l15Synchronization5MutexVyq_G noncopyable
+- get_type_metadata 11MobilePhone35VoicemailAccountManagerDataProtocolRz0F0Qy_RszAA0cde5CacheG0R_r0_l15Synchronization5MutexVyxSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVy11MobilePhone13MessageFolderOSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVy11MobilePhone26VMVoicemailManagerProtocol_pSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVy11MobilePhone38VVMVoicemailCountSourceVoicemailStatus_AD0H22AccountManagerProtocolAD0h15BadgeCalculatorjK0So8NSObjectCXcSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVySayypGG noncopyable
+- get_type_metadata 15Synchronization5MutexVySbSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVyScTyyts5NeverOGSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVySiG noncopyable
+- get_type_metadata 15Synchronization6AtomicVySbG noncopyable
+- get_type_metadata s8SendableRzl15Synchronization5MutexVy11MobilePhone9FTMessageC4LazyC5StateOy_x_GG noncopyable
+- get_witness_table 7SwiftUI15AssistiveAccessVyAA7AnyViewVGAA5SceneHPyHC
+CStrings:
++ "Carrier Voicemail (Forced)"
++ "Duplicate accountID in legacy mailboxes! Keeping first: %s (%s)"
++ "ForceCarrierVoicemailBanner"
++ "LegacyMailboxService: ForceCarrierVoicemailBanner is ON — injecting synthetic legacy mailbox accountID=%{public}s"
++ "PHClarityUISceneDelegate"
++ "Tried to dial voicemail for unknown mailbox: %s"
++ "_TtC11MobilePhone30ClarityUILegacyMailboxProvider"
++ "changeCancellable"
++ "legacyMailboxService"
++ "legacyMailboxesByUUID"
++ "mailboxes"
++ "refreshTask"
++ "voicemailQuickSwitchDataChanged:"
++ "voicemailQuickSwitchDataLost"
+- "/System/Library/PrivateFrameworks/ConversationKit.framework/ConversationKit"
+- "CNKClarityUISceneDelegate"
+- "Failed to load ConversationKit.framework:%s"
+- "No function clarityUIRootView_generic in ConversationKit."
+- "Successfully soft linked ConversationKit!"
+- "clarityUIRootView_generic"
+
+```

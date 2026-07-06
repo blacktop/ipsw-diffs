@@ -1,0 +1,73 @@
+## MenstrualAlgorithmsInternal
+
+> `/System/Library/PrivateFrameworks/MenstrualAlgorithmsInternal.framework/MenstrualAlgorithmsInternal`
+
+```diff
+
+-  __TEXT.__text: 0x6172c
++  __TEXT.__text: 0x615d8
+   __TEXT.__objc_methlist: 0x1258
+   __TEXT.__const: 0x14fc
+   __TEXT.__gcc_except_tab: 0x4590
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__gcc_except_tab : content changed
+~ __TEXT.__unwind_info : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __AUTH_CONST.__objc_intobj : content changed
+~ __AUTH.__objc_data : content changed
+~ __DATA.__data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+Functions:
+~ __ZN11Nightingale6lstmHr22copyASliceToLstmStructERNSt3__16vectorIdNS1_9allocatorIdEEEERKNS2_INS1_8optionalIfEENS3_IS8_EEEEtt : 188 -> 180
+~ __ZNSt3__16vectorINS_8optionalIfEENS_9allocatorIS2_EEEC2B9fqn220106INS_11__wrap_iterIPKS2_EELi0EEET_SB_ : 116 -> 104
+~ __ZN11Nightingale8lstmLuna12validateWTmpEif : 1040 -> 1032
+~ __ZN11Nightingale10lstmLunaFw16validateLunaRsltEi : 1004 -> 992
+~ __ZN11Nightingale14lstmLunaPeriod12validateWTmpEif : 608 -> 600
+~ __ZNSt3__16vectorIfNS_9allocatorIfEEEC2B9fqn220106IPKfLi0EEET_S7_ : 116 -> 104
+~ __ZN11Nightingale40extract_temperature_data_for_given_rangeEiiRKNS_17lunaExtractedDataE : 1500 -> 1460
+~ __ZN11Nightingale41prepare_temperature_input_slice_for_kdaysENSt3__16vectorIiNS0_9allocatorIiEEEEiRNS_17lunaExtractedDataE : 1292 -> 1280
+~ __ZN11Nightingale35remove_outlier_via_sliding_window_rERKNSt3__16vectorIfNS0_9allocatorIfEEEEif : 668 -> 656
+~ __ZN11Nightingale21slidingWindowBaseLuna34getOverallWTmpValidationRsltASliceEi : 112 -> 104
+~ __ZN11Nightingale21slidingWindowBaseLuna33accumulateFailureReasonOverSlicesEb : 568 -> 576
+~ __ZN11Nightingale24heartRateInputValidation17validateHrSamplesERNS_14hrSlicesStructE : 304 -> 288
+~ __ZN11Nightingale26heartRateInputPreCondition30find1stHrSampleDayStreamLstmHrEv : 280 -> 268
+~ __ZN11Nightingale26heartRateInputPreCondition14standardizeVecERNSt3__16vectorINS1_8optionalIfEENS1_9allocatorIS4_EEEEff : 72 -> 64
+~ __ZNSt3__16vectorIN11Nightingale12ngt_DayInputENS_9allocatorIS2_EEEC2B9fqn220106INS_11__wrap_iterIPKS2_EELi0EEET_SB_ : 128 -> 116
+~ __ZN11Nightingale32wristTemperatureInputAcquisition22getAWTmpEntryDailyDataERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERii : 116 -> 120
+~ __ZN11Nightingale32wristTemperatureInputAcquisition26extractKaliInputsJDayRangeERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEEiiNS1_8optionalINS1_4pairIiiEEEE : 1720 -> 1724
+~ __ZN11Nightingale28wristTemperatureInputProcess42constructVectorOfSlicesFromMultipleWatchesERNS_20extractKaliInputsRtnEiii : 1300 -> 1288
+~ __ZN11Nightingale31wristTemperatureInputValidation21checkListOfConditionsERNSt3__16vectorINS1_8functionIFNS1_4pairIbfEERNS0_31wristTemperatureInputCheckItemsERKNS2_IfNS1_9allocatorIfEEEEifEEENS8_ISE_EEEESC_RKNS2_IiNS8_IiEEEESC_b : 264 -> 256
+~ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fqn220106EPKvm : 532 -> 520
+~ __ZN11Nightingale9CGradient27set_isNull_if_grad_allZerosEv : 72 -> 60
+~ __ZN11Nightingale21ngt_deviationAnalyzer11detectIrregENSt3__18optionalIiEES3_RKNS_5uiLogERNS1_4pairINS1_6vectorIiNS1_9allocatorIiEEEENS8_INS_8PhaseSetENS9_ISC_EEEEEEibRNS_12deviationOutERNS_18deviationIrregMetaE : 604 -> 596
+~ __ZN11Nightingale21ngt_deviationAnalyzer15detectProlongedENSt3__18optionalIiEES3_RKNS_5uiLogERNS1_4pairINS1_6vectorIiNS1_9allocatorIiEEEENS8_INS_8PhaseSetENS9_ISC_EEEEEEibRNS_12deviationOutERNS_20deviationProlongMetaE : 288 -> 280
+~ __ZN11Nightingale21ngt_deviationAnalyzer14detectSpottingENSt3__18optionalIiEES3_NS1_6vectorINS_12ngt_DayInputENS1_9allocatorIS5_EEEERKNS_5uiLogERNS1_4pairINS4_IiNS6_IiEEEENS4_INS_8PhaseSetENS6_ISF_EEEEEEibRNS_12deviationOutERNS_21deviationSpottingMetaE : 420 -> 404
+~ __ZNK11Nightingale14PhaseCondenser13phase_updatesEv : 356 -> 348
+~ __ZN11Nightingale20phaseFactorProcessor36getjDayStartOfAPhasetojDayRangeStartENSt3__14pairIiiEERNS2_INS1_6vectorIiNS1_9allocatorIiEEEENS4_INS_8PhaseSetENS5_IS8_EEEEEENS_5PhaseE : 284 -> 296
+~ __ZN11Nightingale20phaseFactorProcessor32getjDayEndOfAPhasetojDayRangeEndENSt3__14pairIiiEERNS2_INS1_6vectorIiNS1_9allocatorIiEEEENS4_INS_8PhaseSetENS5_IS8_EEEEEENS_5PhaseE : 300 -> 324
+~ __ZN11Nightingale20phaseFactorProcessor33aPhase_contains_phaseTobeDetectedENS_8PhaseSetERKNSt3__16vectorINS_5PhaseENS2_9allocatorIS4_EEEE : 104 -> 84
+~ __ZN11Nightingale12ngtProjector28constructSurfacedPeriodProjsERNS_27firstFwPeriodStartOutStructERNS_24derivedPeriodProjsStructEi : 716 -> 712
+~ __ZN11Nightingale20uiCycleFactorProcess26suppressPeriodReproductiveERNSt3__16vectorINS1_4pairIiiEENS1_9allocatorIS4_EEEERNS3_INS2_IiNS5_IiEEEENS2_INS_8PhaseSetENS5_ISB_EEEEEE : 1136 -> 1148
+~ __ZN11Nightingale14uiLogProcessor7processERKNSt3__16vectorINS_12ngt_DayInputENS1_9allocatorIS3_EEEERNS1_4pairINS2_IiNS4_IiEEEENS2_INS_8PhaseSetENS4_ISC_EEEEEE : 2332 -> 2328
+~ __ZN11Nightingale14uiLogProcessor13print_anUILogERKNS_5uiLogE : 1812 -> 1804
+~ __ZN11Nightingale22ngt_DayStreamProcessorC2ERNS_10ngt_ConfigE : 1216 -> 1192
+~ __ZN11Nightingale22ngt_HistoricalAnalyzer7analyzeEb : 3492 -> 3476
+~ __ZN11Nightingale22ngt_HistoricalAnalyzer23getCoreAnalyticsContentERNS_5uiLogENSt3__18optionalINS3_4pairIiiEEEERNS3_6vectorINS_27coreAnalyticsHistPerCycle_tENS3_9allocatorIS9_EEEE : 7884 -> 7876
+~ __ZN11Nightingale22ngt_HistoricalAnalyzer23getHasMultipleWatchHistEiNSt3__18optionalINS1_4pairIiiEEEE : 316 -> 308
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqn220106INS_9allocatorIN11Nightingale27coreAnalyticsHistPerCycle_tEEEPS3_EEvRT_T0_S8_S8_ : 288 -> 260
+~ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB9fqn220106IPN11Nightingale27coreAnalyticsHistPerCycle_tES6_S6_EENS_4pairIT_T1_EES8_T0_S9_ : 144 -> 140
+~ -[NgtMenstrualAlgorithmsDayStreamProcessor analyzeWithMostRecentMenstrualFlowJulianDayUpdated:error:] : 3340 -> 3332
+~ -[MAIDayStreamProcessor analyzeWithMostRecentMenstrualFlowJulianDayUpdated:] : 4204 -> 4196
+
+```

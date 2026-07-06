@@ -1,0 +1,357 @@
+## AVSystemRouting
+
+> `/System/Library/Frameworks/AVSystemRouting.framework/AVSystemRouting`
+
+```diff
+
+-  __TEXT.__text: 0x211cc
+-  __TEXT.__objc_methlist: 0xd04
+-  __TEXT.__const: 0x1808
++  __TEXT.__text: 0x22c4c
++  __TEXT.__objc_methlist: 0xdb4
++  __TEXT.__const: 0x1988
+   __TEXT.__gcc_except_tab: 0x288
+-  __TEXT.__cstring: 0xbfa
++  __TEXT.__cstring: 0xc3a
+   __TEXT.__oslogstring: 0x635
+-  __TEXT.__swift5_typeref: 0x694
+-  __TEXT.__swift5_capture: 0x878
+-  __TEXT.__constg_swiftt: 0x978
+-  __TEXT.__swift5_reflstr: 0x398
+-  __TEXT.__swift5_fieldmd: 0x3d4
++  __TEXT.__swift5_typeref: 0x766
++  __TEXT.__swift5_capture: 0x960
++  __TEXT.__constg_swiftt: 0x9e8
++  __TEXT.__swift5_reflstr: 0x3b8
++  __TEXT.__swift5_fieldmd: 0x3ec
+   __TEXT.__swift5_builtin: 0x64
+   __TEXT.__swift5_assocty: 0x30
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_proto: 0x58
+   __TEXT.__swift5_types: 0x4c
+-  __TEXT.__swift_as_entry: 0xb4
++  __TEXT.__swift_as_entry: 0xc4
+   __TEXT.__swift_as_ret: 0x44
+-  __TEXT.__swift_as_cont: 0xac
+-  __TEXT.__unwind_info: 0xc60
+-  __TEXT.__eh_frame: 0x12e0
++  __TEXT.__swift_as_cont: 0xbc
++  __TEXT.__unwind_info: 0xcf0
++  __TEXT.__eh_frame: 0x14d8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x98
+   __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x770
++  __DATA_CONST.__objc_selrefs: 0x7b8
+   __DATA_CONST.__objc_protorefs: 0x48
+   __DATA_CONST.__objc_superrefs: 0x48
+-  __DATA_CONST.__got: 0x218
+-  __AUTH_CONST.__const: 0x1330
+-  __AUTH_CONST.__cfstring: 0x8a0
+-  __AUTH_CONST.__objc_const: 0x2088
+-  __AUTH_CONST.__auth_got: 0x688
++  __DATA_CONST.__got: 0x228
++  __AUTH_CONST.__const: 0x14c0
++  __AUTH_CONST.__cfstring: 0x9a0
++  __AUTH_CONST.__objc_const: 0x2140
++  __AUTH_CONST.__auth_got: 0x680
+   __AUTH.__objc_data: 0x470
+-  __AUTH.__data: 0xb38
++  __AUTH.__data: 0xba0
+   __DATA.__objc_ivar: 0xac
+   __DATA.__data: 0x660
+   __DATA.__common: 0x20
+-  __DATA.__bss: 0xc90
++  __DATA.__bss: 0xca0
+   __DATA_DIRTY.__objc_data: 0xa0
+   __DATA_DIRTY.__bss: 0x10
+   - /System/Library/Frameworks/AVKit.framework/AVKit
+   - /System/Library/Frameworks/AVRouting.framework/AVRouting
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1020
+-  Symbols:   1570
+-  CStrings:  194
++  Functions: 1067
++  Symbols:   1624
++  CStrings:  209
+ 
+Sections:
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_types : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __AUTH.__objc_data : content changed
+~ __DATA.__data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+Symbols:
++ -[AVSRSerializationHelper dictionaryFromMediaSelectionOptionSourceWithDisplayName:identifier:extendedLanguageTag:mediaCharacteristics:]
++ -[AVSRSerializationHelper dictionaryFromMetadataWithHasVideo:presentationSize:hasAudio:hasLegible:title:subtitle:artworks:]
++ -[AVSRSerializationHelper dictionaryFromPlaybackPositionWithPosition:hostTime:rate:]
++ -[AVSRSerializationHelper dictionaryFromSeekRequestWithPosition:tolerance:]
++ -[AVSRSerializationHelper dictionaryFromTimelineSegmentWithTimeRange:segmentType:marked:requiresLinearPlayback:identifier:]
++ -[AVSRSerializationHelper playbackPositionFromDictionary:]
++ -[AVSystemMediaSourceExtensionImpl _mediaSelectionOptionsForKey:]
++ -[AVSystemMediaSourceExtensionImpl _setMediaSelectionOption:forKey:propertyName:]
++ -[AVSystemMediaSourceExtensionImpl audioDescriptionOptions]
++ -[AVSystemMediaSourceExtensionImpl currentAudioDescriptionOption]
++ -[AVSystemMediaSourceExtensionImpl error]
++ -[AVSystemMediaSourceExtensionImpl playbackPosition]
++ -[AVSystemMediaSourceExtensionImpl seekToPosition:tolerance:]
++ -[AVSystemMediaSourceExtensionImpl setCurrentAudioDescriptionOption:]
++ -[AVSystemRoutePlaybackControl audioDescriptionOptions]
++ -[AVSystemRoutePlaybackControl currentAudioDescriptionOption]
++ -[AVSystemRoutePlaybackControl error]
++ -[AVSystemRoutePlaybackControl playbackPosition]
++ -[AVSystemRoutePlaybackControl seekToPosition:tolerance:]
++ -[AVSystemRoutePlaybackControl setCurrentAudioDescriptionOption:]
++ _OBJC_CLASS_$_AVPlaybackUserInterfaceContentArtwork
++ _OBJC_CLASS_$_AVPlaybackUserInterfaceContentMetadata
++ _OBJC_CLASS_$_AVPlaybackUserInterfaceContentURLArtwork
++ _OBJC_CLASS_$_AVPlaybackUserInterfaceContentVideoProperties
++ _OBJC_CLASS_$_AVPlaybackUserInterfaceMediaSelectionOption
++ _OBJC_CLASS_$_AVPlaybackUserInterfacePlaybackPosition
++ _OBJC_CLASS_$_AVPlaybackUserInterfaceTimelineSegment
++ __OBJC_$_PROP_LIST_AVPlaybackUserInterfaceMediaSelectionControllable
++ __OBJC_$_PROP_LIST_AVPlaybackUserInterfaceMetadataProviding
++ __OBJC_$_PROP_LIST_AVPlaybackUserInterfacePlaybackControllable
++ __OBJC_$_PROP_LIST_AVPlaybackUserInterfaceTimeControllable
++ __OBJC_$_PROP_LIST_AVPlaybackUserInterfaceVolumeControllable
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVPlaybackUserInterfaceMediaSelectionControllable
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVPlaybackUserInterfaceMetadataProviding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVPlaybackUserInterfacePlaybackControllable
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVPlaybackUserInterfaceTimeControllable
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVPlaybackUserInterfaceVolumeControllable
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVPlaybackUserInterfaceMediaSelectionControllable
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVPlaybackUserInterfaceMetadataProviding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVPlaybackUserInterfacePlaybackControllable
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVPlaybackUserInterfaceTimeControllable
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVPlaybackUserInterfaceVolumeControllable
++ __OBJC_$_PROTOCOL_REFS_AVPlaybackUserInterfaceControllable
++ __OBJC_$_PROTOCOL_REFS_AVPlaybackUserInterfaceMediaSelectionControllable
++ __OBJC_$_PROTOCOL_REFS_AVPlaybackUserInterfaceMetadataProviding
++ __OBJC_$_PROTOCOL_REFS_AVPlaybackUserInterfacePlaybackControllable
++ __OBJC_$_PROTOCOL_REFS_AVPlaybackUserInterfaceTimeControllable
++ __OBJC_$_PROTOCOL_REFS_AVPlaybackUserInterfaceVolumeControllable
++ __OBJC_LABEL_PROTOCOL_$_AVPlaybackUserInterfaceControllable
++ __OBJC_LABEL_PROTOCOL_$_AVPlaybackUserInterfaceMediaSelectionControllable
++ __OBJC_LABEL_PROTOCOL_$_AVPlaybackUserInterfaceMetadataProviding
++ __OBJC_LABEL_PROTOCOL_$_AVPlaybackUserInterfacePlaybackControllable
++ __OBJC_LABEL_PROTOCOL_$_AVPlaybackUserInterfaceTimeControllable
++ __OBJC_LABEL_PROTOCOL_$_AVPlaybackUserInterfaceVolumeControllable
++ __OBJC_PROTOCOL_$_AVPlaybackUserInterfaceControllable
++ __OBJC_PROTOCOL_$_AVPlaybackUserInterfaceMediaSelectionControllable
++ __OBJC_PROTOCOL_$_AVPlaybackUserInterfaceMetadataProviding
++ __OBJC_PROTOCOL_$_AVPlaybackUserInterfacePlaybackControllable
++ __OBJC_PROTOCOL_$_AVPlaybackUserInterfaceTimeControllable
++ __OBJC_PROTOCOL_$_AVPlaybackUserInterfaceVolumeControllable
++ ___61-[AVSystemMediaSourceExtensionImpl seekToPosition:tolerance:]_block_invoke
++ ___81-[AVSystemMediaSourceExtensionImpl _setMediaSelectionOption:forKey:propertyName:]_block_invoke
++ ___swift_closure_destructor.18Tm
++ ___swift_closure_destructor.245Tm
++ ___swift_closure_destructor.435Tm
++ ___swift_closure_destructor.464Tm
++ ___swift_closure_destructor.473Tm
++ _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit023AVPlaybackUserInterfaceD12ControllableAA11Observation10Observable
++ _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit35AVPlaybackUserInterfaceControllableAaE0mnO17MetadataProviding
++ _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit35AVPlaybackUserInterfaceControllableAaE0mno14MediaSelectionP0
++ _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit35AVPlaybackUserInterfaceControllableAaE0mno4TimeP0
++ _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit35AVPlaybackUserInterfaceControllableAaE0mno6VolumeP0
++ _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit35AVPlaybackUserInterfaceControllableAaE0mnodP0
++ _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit39AVPlaybackUserInterfaceTimeControllableAA11Observation10Observable
++ _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit40AVPlaybackUserInterfaceMetadataProvidingAA11Observation10Observable
++ _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit41AVPlaybackUserInterfaceVolumeControllableAA11Observation10Observable
++ _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit49AVPlaybackUserInterfaceMediaSelectionControllableAA11Observation10Observable
++ _flat unique So35AVPlaybackUserInterfaceControllable_p
++ _generic environment So8NSObjectCRbzSo35AVPlaybackUserInterfaceControllableRzl
++ _kCMTimeZero
++ _keypath_get_selector_audioDescriptionOptions
++ _keypath_get_selector_currentAudioDescriptionOption
++ _keypath_get_selector_error
++ _keypath_get_selector_playbackPosition
++ _objc_msgSend$_mediaSelectionOptionsForKey:
++ _objc_msgSend$_setMediaSelectionOption:forKey:propertyName:
++ _objc_msgSend$artworkRepresentations
++ _objc_msgSend$artworkWithURL:contentType:size:
++ _objc_msgSend$audioDescriptionOptions
++ _objc_msgSend$currentAudioDescriptionOption
++ _objc_msgSend$dictionaryFromMediaSelectionOptionSourceWithDisplayName:identifier:extendedLanguageTag:mediaCharacteristics:
++ _objc_msgSend$dictionaryFromPlaybackPositionWithPosition:hostTime:rate:
++ _objc_msgSend$dictionaryFromSeekRequestWithPosition:tolerance:
++ _objc_msgSend$error
++ _objc_msgSend$initWithDisplayName:identifier:extendedLanguageTag:mediaCharacteristics:
++ _objc_msgSend$initWithPosition:hostTime:rate:
++ _objc_msgSend$initWithPresentationSize:
++ _objc_msgSend$initWithTimeRange:segmentType:marked:requiresLinearPlayback:identifier:
++ _objc_msgSend$initWithVideoProperties:title:subtitle:artworkRepresentations:
++ _objc_msgSend$mediaCharacteristics
++ _objc_msgSend$playbackPosition
++ _objc_msgSend$playbackPositionFromDictionary:
++ _objc_msgSend$seekToPosition:tolerance:
++ _objc_msgSend$segmentType
++ _objc_msgSend$setCurrentAudioDescriptionOption:
++ _objc_msgSend$videoProperties
++ _objc_retain_x28
++ _symbolic SaySo38AVPlaybackUserInterfaceTimelineSegmentCG
++ _symbolic SaySo43AVPlaybackUserInterfaceMediaSelectionOptionCG
++ _symbolic So38AVPlaybackUserInterfaceContentMetadataC
++ _symbolic So38AVPlaybackUserInterfaceTimelineSegmentC
++ _symbolic So39AVPlaybackUserInterfacePlaybackPositionC
++ _symbolic So43AVPlaybackUserInterfaceMediaSelectionOptionC
++ _symbolic So43AVPlaybackUserInterfaceMediaSelectionOptionCSg
++ _symbolic _____ 5AVKit38AVPlaybackUserInterfaceContentMetadataV
++ _symbolic _____ So36AVPlaybackUserInterfacePlaybackStateV
++ _symbolic _____ So39AVPlaybackUserInterfaceSeekCapabilitiesV
++ _symbolic _____Sg 5AVKit38AVPlaybackUserInterfaceContentMetadataV15VideoPropertiesV
++ _symbolic ______pSg So35AVPlaybackUserInterfaceControllableP
++ _symbolic _____ySaySo38AVPlaybackUserInterfaceTimelineSegmentCGG 10Foundation24NSKeyValueObservedChangeV
++ _symbolic _____ySaySo43AVPlaybackUserInterfaceMediaSelectionOptionCGG 10Foundation24NSKeyValueObservedChangeV
++ _symbolic _____ySo38AVPlaybackUserInterfaceContentMetadataCG 10Foundation24NSKeyValueObservedChangeV
++ _symbolic _____ySo38AVPlaybackUserInterfaceTimelineSegmentCG 10Foundation24NSKeyValueObservedChangeV
++ _symbolic _____ySo39AVPlaybackUserInterfacePlaybackPositionCG 10Foundation24NSKeyValueObservedChangeV
++ _symbolic _____ySo43AVPlaybackUserInterfaceMediaSelectionOptionCSgG 10Foundation24NSKeyValueObservedChangeV
++ _type_layout_string So39AVPlaybackUserInterfaceSeekCapabilitiesV
+- -[AVSRSerializationHelper dictionaryFromMediaSelectionOptionSourceWithDisplayName:identifier:extendedLanguageTag:]
+- -[AVSRSerializationHelper dictionaryFromMetadataWithAudioOnly:presentationSize:title:subtitle:albumArtworks:]
+- -[AVSRSerializationHelper dictionaryFromTimelineSegmentWithTimeRange:auxiliaryContent:marked:requiresLinearPlayback:identifier:]
+- -[AVSystemMediaSourceExtensionImpl currentPlaybackPosition]
+- -[AVSystemMediaSourceExtensionImpl playbackError]
+- -[AVSystemMediaSourceExtensionImpl setCurrentPlaybackPosition:]
+- -[AVSystemRoutePlaybackControl currentPlaybackPosition]
+- -[AVSystemRoutePlaybackControl playbackError]
+- -[AVSystemRoutePlaybackControl setCurrentPlaybackPosition:]
+- _CGSizeZero
+- _OBJC_CLASS_$_AVInterfaceAlbumArtwork
+- _OBJC_CLASS_$_AVInterfaceMediaSelectionOptionSource
+- _OBJC_CLASS_$_AVInterfaceMetadata
+- _OBJC_CLASS_$_AVInterfaceTimelineSegment
+- __OBJC_$_PROP_LIST_AVInterfaceMediaSelectionControllable
+- __OBJC_$_PROP_LIST_AVInterfaceMetadataProviding
+- __OBJC_$_PROP_LIST_AVInterfacePlaybackControllable
+- __OBJC_$_PROP_LIST_AVInterfaceTimeControllable
+- __OBJC_$_PROP_LIST_AVInterfaceVolumeControllable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVInterfaceMediaSelectionControllable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVInterfaceMetadataProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVInterfacePlaybackControllable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVInterfaceTimeControllable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVInterfaceVolumeControllable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AVInterfaceMediaSelectionControllable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AVInterfaceMetadataProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AVInterfacePlaybackControllable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AVInterfaceTimeControllable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AVInterfaceVolumeControllable
+- __OBJC_$_PROTOCOL_REFS_AVInterfaceControllable
+- __OBJC_$_PROTOCOL_REFS_AVInterfaceMediaSelectionControllable
+- __OBJC_$_PROTOCOL_REFS_AVInterfaceMetadataProviding
+- __OBJC_$_PROTOCOL_REFS_AVInterfacePlaybackControllable
+- __OBJC_$_PROTOCOL_REFS_AVInterfaceTimeControllable
+- __OBJC_$_PROTOCOL_REFS_AVInterfaceVolumeControllable
+- __OBJC_LABEL_PROTOCOL_$_AVInterfaceControllable
+- __OBJC_LABEL_PROTOCOL_$_AVInterfaceMediaSelectionControllable
+- __OBJC_LABEL_PROTOCOL_$_AVInterfaceMetadataProviding
+- __OBJC_LABEL_PROTOCOL_$_AVInterfacePlaybackControllable
+- __OBJC_LABEL_PROTOCOL_$_AVInterfaceTimeControllable
+- __OBJC_LABEL_PROTOCOL_$_AVInterfaceVolumeControllable
+- __OBJC_PROTOCOL_$_AVInterfaceControllable
+- __OBJC_PROTOCOL_$_AVInterfaceMediaSelectionControllable
+- __OBJC_PROTOCOL_$_AVInterfaceMetadataProviding
+- __OBJC_PROTOCOL_$_AVInterfacePlaybackControllable
+- __OBJC_PROTOCOL_$_AVInterfaceTimeControllable
+- __OBJC_PROTOCOL_$_AVInterfaceVolumeControllable
+- ___58-[AVSystemMediaSourceExtensionImpl setCurrentAudioOption:]_block_invoke
+- ___60-[AVSystemMediaSourceExtensionImpl setCurrentLegibleOption:]_block_invoke
+- ___63-[AVSystemMediaSourceExtensionImpl setCurrentPlaybackPosition:]_block_invoke
+- ___swift_closure_destructor.19Tm
+- ___swift_closure_destructor.236Tm
+- ___swift_closure_destructor.412Tm
+- ___swift_closure_destructor.441Tm
+- ___swift_closure_destructor.450Tm
+- _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit011AVInterfaceD12ControllableAA11Observation10Observable
+- _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit23AVInterfaceControllableAaE0M17MetadataProviding
+- _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit23AVInterfaceControllableAaE0m14MediaSelectionN0
+- _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit23AVInterfaceControllableAaE0m4TimeN0
+- _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit23AVInterfaceControllableAaE0m6VolumeN0
+- _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit23AVInterfaceControllableAaE0mdN0
+- _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit27AVInterfaceTimeControllableAA11Observation10Observable
+- _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit28AVInterfaceMetadataProvidingAA11Observation10Observable
+- _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit29AVInterfaceVolumeControllableAA11Observation10Observable
+- _associated conformance 15AVSystemRouting0A20RoutePlaybackControl33_9923179369F9DD5FC0D4384DC7CF8771LLC5AVKit37AVInterfaceMediaSelectionControllableAA11Observation10Observable
+- _flat unique So23AVInterfaceControllable_p
+- _generic environment So8NSObjectCRbzSo23AVInterfaceControllableRzl
+- _get_type_metadata 15Synchronization5MutexVy15AVSystemRouting23WeakDataDelegateWrapper33_9923179369F9DD5FC0D4384DC7CF8771LLCSgG noncopyable
+- _get_type_metadata 15Synchronization5MutexVySDySO15AVSystemRouting19WeakObserverWrapper33_31ADC135A6F2193423E699A1B77CFCCELLCGG noncopyable
+- _keypath_get_selector_currentPlaybackPosition
+- _keypath_get_selector_playbackError
+- _objc_msgSend$albumArtworkRepresentations
+- _objc_msgSend$arrayWithCapacity:
+- _objc_msgSend$currentPlaybackPosition
+- _objc_msgSend$dictionaryFromMediaSelectionOptionSourceWithDisplayName:identifier:extendedLanguageTag:
+- _objc_msgSend$initWithAudioOnly:presentationSize:title:subtitle:albumArtworkRepresentations:
+- _objc_msgSend$initWithDisplayName:identifier:extendedLanguageTag:
+- _objc_msgSend$initWithTimeRange:auxiliaryContent:marked:requiresLinearPlayback:identifier:
+- _objc_msgSend$initWithURL:contentType:size:
+- _objc_msgSend$isAudioOnly
+- _objc_msgSend$isAuxiliaryContent
+- _objc_msgSend$playbackError
+- _objc_msgSend$respondsToSelector:
+- _objc_msgSend$setCurrentPlaybackPosition:
+- _objc_msgSend$setValue:forKey:
+- _swift_retain_x1
+- _swift_runtimeSupportsNoncopyableTypes
+- _symbolic SaySo26AVInterfaceTimelineSegmentCG
+- _symbolic SaySo37AVInterfaceMediaSelectionOptionSourceCG
+- _symbolic So19AVInterfaceMetadataC
+- _symbolic So26AVInterfaceTimelineSegmentC
+- _symbolic So37AVInterfaceMediaSelectionOptionSourceC
+- _symbolic So37AVInterfaceMediaSelectionOptionSourceCSg
+- _symbolic _____ 5AVKit19AVInterfaceMetadataV
+- _symbolic _____ So24AVInterfacePlaybackStateV
+- _symbolic _____ So27AVInterfaceSeekCapabilitiesV
+- _symbolic ______pSg So23AVInterfaceControllableP
+- _symbolic _____ySaySo26AVInterfaceTimelineSegmentCGG 10Foundation24NSKeyValueObservedChangeV
+- _symbolic _____ySaySo37AVInterfaceMediaSelectionOptionSourceCGG 10Foundation24NSKeyValueObservedChangeV
+- _symbolic _____ySo19AVInterfaceMetadataCG 10Foundation24NSKeyValueObservedChangeV
+- _symbolic _____ySo26AVInterfaceTimelineSegmentCG 10Foundation24NSKeyValueObservedChangeV
+- _symbolic _____ySo37AVInterfaceMediaSelectionOptionSourceCSgG 10Foundation24NSKeyValueObservedChangeV
+- _symbolic _____y_____G 10Foundation24NSKeyValueObservedChangeV So6CMTimea
+- _type_layout_string So27AVInterfaceSeekCapabilitiesV
+CStrings:
++ "artworks"
++ "audioDescriptionOptions"
++ "currentAudioDescriptionOption"
++ "error"
++ "hasLegible"
++ "hasVideo"
++ "hostTime"
++ "mediaCharacteristics"
++ "playbackPosition"
++ "position"
++ "rate"
++ "segmentType"
++ "tolerance"
+- "albumArtworks"
+- "audioOnly"
+- "auxiliaryContent"
+- "currentPlaybackPosition"
+- "playbackError"
+- "setCurrentPlaybackPosition:"
+
+```

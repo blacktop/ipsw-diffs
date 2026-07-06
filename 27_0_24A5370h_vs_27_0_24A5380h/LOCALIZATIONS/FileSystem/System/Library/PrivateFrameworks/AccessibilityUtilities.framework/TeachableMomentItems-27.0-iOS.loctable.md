@@ -1,0 +1,55 @@
+## AccessibilityUtilities
+
+> `FileSystem/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/TeachableMomentItems-27.0-iOS.loctable`
+
+```diff
+
+ en.AR_SUMMARIZATION_TITLE = "Summarization"
+ en.AR_TRANSLATION_DESCRIPTION = "Content on screen can now be translated across supported languages, allowing users to read pages in their preferred language."
+ en.AR_TRANSLATION_TITLE = "Translation"
+-en.ASK_LIVE_RECOGNITION_DESCRIPTION_IPAD = "Use Live Recognition to learn more about what’s around you by asking questions such as, ”What’s the title of this book?” iPad will guide you with sounds and speech when an object you’re looking for or asking about is not in view. You can open the Ask flow in Live Recognition by setting Ask to your Action Button, Back Tap, or Accessibility Shortcut option or by opening Live Recognition with a VoiceOver gesture or the Live Recognition Rotor."
+-en.ASK_LIVE_RECOGNITION_DESCRIPTION_IPHONE = "Use Live Recognition to learn more about what’s around you by asking questions such as, ”What’s the title of this book?” iPhone will guide you with sounds and speech when an object you’re looking for or asking about is not in view. You can open the Ask flow in Live Recognition by setting Ask to your Action Button, Back Tap, or Accessibility Shortcut option or by opening Live Recognition with a VoiceOver gesture or the Live Recognition Rotor."
+-en.ASK_LIVE_RECOGNITION_DESCRIPTION_VISION = "Use Live Recognition to learn more about what’s around you by asking questions such as, ”What’s the title of this book?” Vision Pro will guide you with sounds and speech when an object you’re looking for or asking about is not in view. You can open the Ask flow in Live Recognition by setting Ask to your Action Button, Back Tap, or Accessibility Shortcut option or by opening Live Recognition with a VoiceOver gesture or the Live Recognition Rotor."
++en.ASK_LIVE_RECOGNITION_DESCRIPTION_IPAD = "Use Live Recognition to learn more about what’s around you by asking questions such as, “What’s the title of this book?” iPad will guide you with sounds and speech when an object you’re looking for or asking about is not in view. You can open the Ask flow in Live Recognition by setting Ask to your Action Button, Back Tap, or Accessibility Shortcut option or by opening Live Recognition with a VoiceOver gesture or the Live Recognition Rotor."
++en.ASK_LIVE_RECOGNITION_DESCRIPTION_IPHONE = "Use Live Recognition to learn more about what’s around you by asking questions such as, “What’s the title of this book?” iPhone will guide you with sounds and speech when an object you’re looking for or asking about is not in view. You can open the Ask flow in Live Recognition by setting Ask to your Action Button, Back Tap, or Accessibility Shortcut option or by opening Live Recognition with a VoiceOver gesture or the Live Recognition Rotor."
++en.ASK_LIVE_RECOGNITION_DESCRIPTION_VISION = "Use Live Recognition to learn more about what’s around you by asking questions such as, “What’s the title of this book?” Vision Pro will guide you with sounds and speech when an object you’re looking for or asking about is not in view. You can open the Ask flow in Live Recognition by setting Ask to your Action Button, Back Tap, or Accessibility Shortcut option or by opening Live Recognition with a VoiceOver gesture or the Live Recognition Rotor."
+ en.ASK_LIVE_RECOGNITION_TITLE = "Ask Live Recognition"
+-en.ASK_MAGNIFIER_DESCRIPTION_IPAD = "Learn more about what’s around you by asking questions such as, ”What’s the title of this book?“ iPad will guide you with sounds and speech when an object you’re looking for or asking about is not in view."
+-en.ASK_MAGNIFIER_DESCRIPTION_IPHONE = "Learn more about what’s around you by asking questions such as, ”What’s the title of this book?“ iPhone will guide you with sounds and speech when an object you’re looking for or asking about is not in view."
+-en.ASK_MAGNIFIER_DESCRIPTION_VISION = "Learn more about what’s around you by asking questions such as, ”What’s the title of this book?“ Vision Pro will guide you with sounds and speech when an object you’re looking for or asking about is not in view."
++en.ASK_MAGNIFIER_DESCRIPTION_IPAD = "Learn more about what’s around you by asking questions such as, “What’s the title of this book?” iPad will guide you with sounds and speech when an object you’re looking for or asking about is not in view."
++en.ASK_MAGNIFIER_DESCRIPTION_IPHONE = "Learn more about what’s around you by asking questions such as, “What’s the title of this book?” iPhone will guide you with sounds and speech when an object you’re looking for or asking about is not in view."
++en.ASK_MAGNIFIER_DESCRIPTION_VISION = "Learn more about what’s around you by asking questions such as, “What’s the title of this book?” Vision Pro will guide you with sounds and speech when an object you’re looking for or asking about is not in view."
+ en.ASK_MAGNIFIER_TITLE = "Ask Magnifier"
+ en.AST_DWELL_2_0_DESCRIPTION = "Fully control your selections using just your eyes. Use Dwell Control 2.0 as your preferred activation to only send a tap to the app when you want to."
+ en.AST_DWELL_2_0_TITLE = "Dwell 2.0 on visionOS"
+ en.AST_EYE_TRACKING_DESCRIPTION = "On-device Eye Tracking is now more responsive as you use your eyes to move the cursor around the screen."
+ en.AST_EYE_TRACKING_TITLE = "Eye Tracking Responsiveness"
+-en.AST_LOCK_MENU_DESCRIPTION = "Prevent the AssistiveTouch menu from being accidentally moved. Assign ”Lock Menu Position” to single-tap, double-tap, or long press in Settings \u003e Accessibility \u003e Touch \u003e AssistiveTouch."
++en.AST_LOCK_MENU_DESCRIPTION = "Prevent the AssistiveTouch menu from being accidentally moved. Assign “Lock Menu Position” to single-tap, double-tap, or long press in Settings \u003e Accessibility \u003e Touch \u003e AssistiveTouch."
+ en.AST_LOCK_MENU_TITLE = "Lock Menu Position"
+ en.AST_REORDER_MENU_DESCRIPTION = "Rearrange items in the AssistiveTouch top-level menu in Settings. You can drag \u0026 move to reorder in Settings \u003e Accessibility \u003e Touch \u003e AssistiveTouch \u003e Customize Top-Level Menu."
+ en.AST_REORDER_MENU_TITLE = "Reorder AssistiveTouch menu items in Customize Top-Level Menu"
+
+ en.TA_ONBOARDING_TITLE = "Improved Onboarding Experience"
+ en.VC_FLEXIBLE_NAMES_DESCRIPTION = "Powered by Apple Intelligence, you can now use more flexible item names in your commands."
+ en.VC_FLEXIBLE_NAMES_TITLE = "Flexible Item Names"
+-en.VO_ASK_ABOUT_IMAGE_DESCRIPTION = "Ask a question about any image without leaving the view you’re on, like “What color is the shirt?“ or “Is there text in this photo?“"
++en.VO_ASK_ABOUT_IMAGE_DESCRIPTION = "Ask a question about any image without leaving the view you’re on, like “What color is the shirt?” or “Is there text in this photo?”"
+ en.VO_ASK_ABOUT_IMAGE_TITLE = "Ask About Image"
+-en.VO_ASK_ABOUT_SCREEN_DESCRIPTION = "Quickly get answers about what’s on your screen with a VoiceOver gesture, like “What does this chart show?“ or “How many items are in this list?“"
++en.VO_ASK_ABOUT_SCREEN_DESCRIPTION = "Quickly get answers about what’s on your screen with a VoiceOver gesture, like “What does this chart show?” or “How many items are in this list?”"
+ en.VO_ASK_ABOUT_SCREEN_TITLE = "Ask About Screen"
+ en.VO_CURSOR_VISIBILITY_DESCRIPTION = "In Settings \u003e Accessibility \u003e VoiceOver \u003e Cursor Visibility, you can now opt to hide the VoiceOver cursor in screenshots and screen recordings, or to keep it hidden at all times."
+ en.VO_CURSOR_VISIBILITY_TITLE = "Cursor Visibility"
+
+ en.VO_INTELLIGENT_IMAGE_DESCRIPTIONS_TITLE = "Intelligent Image Descriptions"
+ en.VO_PRONUNCIATION_EXPORT_DESCRIPTION = "Import and Export the VoiceOver pronunciation database. The file is a comma separated list that can be manually edited."
+ en.VO_PRONUNCIATION_EXPORT_TITLE = "Pronunciation Import \u0026 Export"
+-en.VO_SCREEN_EXPLORER_DESCRIPTION = "Explore what’s on your screen in detail. Get a full description of the current view and ask follow-up questions about what's displayed."
++en.VO_SCREEN_EXPLORER_DESCRIPTION = "Explore what’s on your screen in detail. Get a full description of the current view and ask follow-up questions about what’s displayed."
+ en.VO_SCREEN_EXPLORER_TITLE = "Screen Explorer"
+ en.VO_TEXT_EXPLORER_DESCRIPTION = "When exploring text using your finger, you can now choose what will be highlighted between paragraphs, sentences, or lines."
+ en.VO_TEXT_EXPLORER_TITLE = "Text Exploration"
+
+```

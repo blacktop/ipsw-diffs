@@ -1,0 +1,393 @@
+## ScreenTimeSettingsServices
+
+> `/System/Library/PrivateFrameworks/ScreenTimeSettingsServices.framework/ScreenTimeSettingsServices`
+
+```diff
+
+-  __TEXT.__text: 0x13c8a8
+-  __TEXT.__objc_methlist: 0x3dc
+-  __TEXT.__const: 0x18e58
+-  __TEXT.__swift5_typeref: 0x4c5c
+-  __TEXT.__swift5_reflstr: 0x448c
+-  __TEXT.__swift5_assocty: 0x7c8
+-  __TEXT.__constg_swiftt: 0x3a40
+-  __TEXT.__swift5_fieldmd: 0x5d00
++  __TEXT.__text: 0x14cb78
++  __TEXT.__objc_methlist: 0x430
++  __TEXT.__const: 0x19970
++  __TEXT.__swift5_typeref: 0x5152
++  __TEXT.__swift5_reflstr: 0x4a9c
++  __TEXT.__swift5_assocty: 0x8b0
++  __TEXT.__constg_swiftt: 0x3e28
++  __TEXT.__swift5_fieldmd: 0x61e0
+   __TEXT.__swift5_builtin: 0x8c
+-  __TEXT.__cstring: 0x3fc2
+-  __TEXT.__swift5_proto: 0x1794
+-  __TEXT.__swift5_types: 0x618
+-  __TEXT.__oslogstring: 0x187a
+-  __TEXT.__swift5_capture: 0x4d4
+-  __TEXT.__swift5_protos: 0x68
+-  __TEXT.__swift_as_entry: 0xfc
+-  __TEXT.__swift_as_ret: 0x104
+-  __TEXT.__swift_as_cont: 0x1c4
++  __TEXT.__cstring: 0x453c
++  __TEXT.__swift5_proto: 0x1814
++  __TEXT.__swift5_types: 0x640
++  __TEXT.__oslogstring: 0x1c3a
++  __TEXT.__swift5_capture: 0x700
++  __TEXT.__swift5_protos: 0x78
++  __TEXT.__swift_as_entry: 0x118
++  __TEXT.__swift_as_ret: 0x120
++  __TEXT.__swift_as_cont: 0x230
+   __TEXT.__swift5_mpenum: 0x3c
+-  __TEXT.__unwind_info: 0x52a0
+-  __TEXT.__eh_frame: 0x8228
++  __TEXT.__unwind_info: 0x5688
++  __TEXT.__eh_frame: 0x8bb4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x1a8
+   __DATA_CONST.__objc_classlist: 0x38
+-  __DATA_CONST.__objc_protolist: 0x60
++  __DATA_CONST.__objc_protolist: 0x68
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x460
+-  __DATA_CONST.__objc_protorefs: 0x38
++  __DATA_CONST.__objc_selrefs: 0x4a0
++  __DATA_CONST.__objc_protorefs: 0x40
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xe6b8
+-  __AUTH_CONST.__objc_const: 0xc20
+-  __AUTH_CONST.__auth_got: 0xf68
+-  __AUTH.__objc_data: 0xc0
+-  __AUTH.__data: 0x7f0
+-  __DATA.__data: 0x3090
+-  __DATA.__bss: 0x22320
+-  __DATA.__common: 0x68
+-  __DATA_DIRTY.__objc_data: 0x148
+-  __DATA_DIRTY.__data: 0x2428
+-  __DATA_DIRTY.__bss: 0xc100
+-  __DATA_DIRTY.__common: 0x50
++  __AUTH_CONST.__const: 0xf5f0
++  __AUTH_CONST.__objc_const: 0xe00
++  __AUTH_CONST.__auth_got: 0xf88
++  __AUTH.__objc_data: 0x198
++  __AUTH.__data: 0x630
++  __DATA.__data: 0x2690
++  __DATA.__objc_stublist: 0x10
++  __DATA.__bss: 0x1d0b0
++  __DATA.__common: 0x80
++  __DATA_DIRTY.__objc_data: 0x98
++  __DATA_DIRTY.__data: 0x3680
++  __DATA_DIRTY.__bss: 0x12200
++  __DATA_DIRTY.__common: 0x70
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+-  - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+   - /System/Library/PrivateFrameworks/CalendarFoundation.framework/CalendarFoundation
+   - /System/Library/PrivateFrameworks/Categories.framework/Categories
++  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 8289
+-  Symbols:   2927
+-  CStrings:  513
++  Functions: 8725
++  Symbols:   3191
++  CStrings:  560
+ 
+Sections:
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+Symbols:
++ _AnalyticsSendEventLazy
++ _OBJC_METACLASS_$__TtC26ScreenTimeSettingsServicesP33_7BA7617E16ADC30A583569312645C74D32ScreenTimeSettingsXPCClientRelay
++ _OBJC_METACLASS_$__TtCC26ScreenTimeSettingsServices28ScreenTimeWebBrowserSettings9XPCClient
++ __DATA__TtC26ScreenTimeSettingsServices28ScreenTimeWebBrowserSettings
++ __DATA__TtC26ScreenTimeSettingsServicesP33_7BA7617E16ADC30A583569312645C74D32ScreenTimeSettingsXPCClientRelay
++ __DATA__TtCC26ScreenTimeSettingsServices28ScreenTimeWebBrowserSettings9XPCClient
++ __INSTANCE_METHODS__TtC26ScreenTimeSettingsServices27ScreenTimeSettingsXPCClient
++ __INSTANCE_METHODS__TtC26ScreenTimeSettingsServicesP33_7BA7617E16ADC30A583569312645C74D32ScreenTimeSettingsXPCClientRelay
++ __INSTANCE_METHODS__TtCC26ScreenTimeSettingsServices28ScreenTimeWebBrowserSettings9XPCClient
++ __IVARS__TtC26ScreenTimeSettingsServices27ScreenTimeSettingsXPCClient
++ __IVARS__TtC26ScreenTimeSettingsServices27UniqueElementsAsyncSequence
++ __IVARS__TtC26ScreenTimeSettingsServices28ScreenTimeWebBrowserSettings
++ __IVARS__TtC26ScreenTimeSettingsServicesP33_7BA7617E16ADC30A583569312645C74D32ScreenTimeSettingsXPCClientRelay
++ __IVARS__TtCC26ScreenTimeSettingsServices28ScreenTimeWebBrowserSettings9XPCClient
++ __METACLASS_DATA__TtC26ScreenTimeSettingsServices28ScreenTimeWebBrowserSettings
++ __METACLASS_DATA__TtC26ScreenTimeSettingsServicesP33_7BA7617E16ADC30A583569312645C74D32ScreenTimeSettingsXPCClientRelay
++ __METACLASS_DATA__TtCC26ScreenTimeSettingsServices28ScreenTimeWebBrowserSettings9XPCClient
++ __PROTOCOLS__TtC26ScreenTimeSettingsServicesP33_7BA7617E16ADC30A583569312645C74D32ScreenTimeSettingsXPCClientRelay
++ __PROTOCOL_INSTANCE_METHODS__TtP26ScreenTimeSettingsServices35ScreenTimeSettingsXPCClientProtocol_
++ __PROTOCOL_INSTANCE_METHODS__TtPC26ScreenTimeSettingsServices28ScreenTimeWebBrowserSettings17XPCServerProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP26ScreenTimeSettingsServices35ScreenTimeSettingsXPCClientProtocol_
++ __PROTOCOL_METHOD_TYPES__TtPC26ScreenTimeSettingsServices28ScreenTimeWebBrowserSettings17XPCServerProtocol_
++ __PROTOCOL__TtP26ScreenTimeSettingsServices35ScreenTimeSettingsXPCClientProtocol_
++ __PROTOCOL__TtPC26ScreenTimeSettingsServices28ScreenTimeWebBrowserSettings17XPCServerProtocol_
++ ___swift_closure_destructor.221Tm
++ ___swift_closure_destructor.254Tm
++ ___swift_closure_destructor.358Tm
++ ___swift_memcpy1001_8
++ ___swift_memcpy1064_8
++ ___swift_memcpy10_1
++ ___swift_memcpy13_1
++ ___swift_memcpy256_8
++ ___swift_memcpy264_8
++ ___swift_memcpy272_8
++ ___swift_memcpy296_8
++ ___swift_memcpy305_8
++ ___swift_memcpy369_8
++ ___swift_memcpy49_8
++ ___swift_memcpy57_8
++ ___swift_memcpy65_8
++ _associated conformance 26ScreenTimeSettingsServices0ab10WebBrowserC0C0C0V10CodingKeys33_2ADFD7EEA0925BF92AE41EA57A185B00LLOSHAASQ
++ _associated conformance 26ScreenTimeSettingsServices0ab10WebBrowserC0C0C0V10CodingKeys33_2ADFD7EEA0925BF92AE41EA57A185B00LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 26ScreenTimeSettingsServices0ab10WebBrowserC0C0C0V10CodingKeys33_2ADFD7EEA0925BF92AE41EA57A185B00LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26ScreenTimeSettingsServices0ab10WebBrowserC0C19XPCServerParametersO0E15HistoryResponseV10CodingKeys33_8122AAEFE85A44A70D29B4A6633D3266LLOSHAASQ
++ _associated conformance 26ScreenTimeSettingsServices0ab10WebBrowserC0C19XPCServerParametersO0E15HistoryResponseV10CodingKeys33_8122AAEFE85A44A70D29B4A6633D3266LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 26ScreenTimeSettingsServices0ab10WebBrowserC0C19XPCServerParametersO0E15HistoryResponseV10CodingKeys33_8122AAEFE85A44A70D29B4A6633D3266LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26ScreenTimeSettingsServices0ab10WebBrowserC0C6UpdateV10CodingKeys33_7FCC34BF0831694BD0BCC63F2049BA52LLOSHAASQ
++ _associated conformance 26ScreenTimeSettingsServices0ab10WebBrowserC0C6UpdateV10CodingKeys33_7FCC34BF0831694BD0BCC63F2049BA52LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 26ScreenTimeSettingsServices0ab10WebBrowserC0C6UpdateV10CodingKeys33_7FCC34BF0831694BD0BCC63F2049BA52LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26ScreenTimeSettingsServices0ab10WebBrowserC0C9XPCClientCAA0abC15ObservableStoreAA0C0AaFP_Se
++ _associated conformance 26ScreenTimeSettingsServices0abC0C31IntelligenceAndSiriRestrictionsV0G6PolicyOSHAASQ
++ _associated conformance 26ScreenTimeSettingsServices0abC0C9XPCClientCAA0abC15ObservableStoreAA0C0AaFP_Se
++ _associated conformance 26ScreenTimeSettingsServices11PresetQueryV23RecommendedAppSelectionOSHAASQ
++ _associated conformance 26ScreenTimeSettingsServices11PresetQueryV23RecommendedAppSelectionOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 26ScreenTimeSettingsServices27UniqueElementsAsyncSequenceC0eF8IteratorVyxq__GScIAA7FailureScI_s5Error
++ _associated conformance 26ScreenTimeSettingsServices27UniqueElementsAsyncSequenceCyxq_GSciAA0G8IteratorSci_ScI
++ _flat unique 26ScreenTimeSettingsServices0ab10WebBrowserC0C17XPCServerProtocol_p
++ _flat unique 26ScreenTimeSettingsServices0abC14UpdateObserver_px0E0AaBPRts_XP
++ _objc_class_stubs
++ _objc_msgSend$bundleIdentifier
++ _objc_msgSend$deleteAllWebApplicationHistoryWithWebApplication:profileIdentifier:clientBundleURLWrapper:completion:
++ _objc_msgSend$deleteWebHistoryForURL:webApplication:profileIdentifier:clientBundleURLWrapper:completion:
++ _objc_msgSend$deleteWebHistoryWithDuringInterval:webApplication:profileIdentifier:clientBundleURLWrapper:completion:
++ _objc_msgSend$fetchAllWebApplicationHistoryWithWebApplication:profileIdentifier:clientBundleURLWrapper:completion:
++ _objc_msgSend$fetchWebHistoryWithDuringInterval:webApplication:profileIdentifier:clientBundleURLWrapper:completion:
++ _objc_msgSend$settingsAndReturnError:
++ _objc_msgSend$writeAgeBasedDefaultsAndReturnError:
++ _objc_retain_x28
++ _swift_isaMask
++ _symbolic $s26ScreenTimeSettingsServices0ab10WebBrowserC0C11ClientStoreP
++ _symbolic $s26ScreenTimeSettingsServices0ab10WebBrowserC0C17XPCServerProtocolP
++ _symbolic $s26ScreenTimeSettingsServices0abC14UpdateObserverP
++ _symbolic $s26ScreenTimeSettingsServices0abC15ObservableStoreP
++ _symbolic $s26ScreenTimeSettingsServices0abC17XPCClientProtocolP
++ _symbolic $s26ScreenTimeSettingsServices14AnalyticsEventP
++ _symbolic $s26ScreenTimeSettingsServices16AnalyticsLoggingP
++ _symbolic 6Update_____Qyd__ 26ScreenTimeSettingsServices0abC14UpdateObserverP
++ _symbolic 8Observer_____Qz 26ScreenTimeSettingsServices0abC15ObservableStoreP
++ _symbolic 8Settings_____Qz 26ScreenTimeSettingsServices0abC15ObservableStoreP
++ _symbolic B1
++ _symbolic B2
++ _symbolic SS3key______5valuet 26ScreenTimeSettingsServices0abC0C12ServerPresetV015SharedAllowanceF0V
++ _symbolic SSSg28localizedRegionSpecificTitle_AA0abC11Descriptiont
++ _symbolic Say_____G 26ScreenTimeSettingsServices11PresetQueryV23RecommendedAppSelectionO
++ _symbolic ScCy___________pG 26ScreenTimeSettingsServices0ab10WebBrowserC0C19XPCServerParametersO0E15HistoryResponseV s5ErrorP
++ _symbolic Shy_____G 10Foundation3URLV
++ _symbolic So26NSSecurityScopedURLWrapperCSg
++ _symbolic _____ 10Foundation12DateIntervalV
++ _symbolic _____ 26ScreenTimeSettingsServices0ab10WebBrowserC0C
++ _symbolic _____ 26ScreenTimeSettingsServices0ab10WebBrowserC0C0C0V
++ _symbolic _____ 26ScreenTimeSettingsServices0ab10WebBrowserC0C0C0V10CodingKeys33_2ADFD7EEA0925BF92AE41EA57A185B00LLO
++ _symbolic _____ 26ScreenTimeSettingsServices0ab10WebBrowserC0C10XPCServiceO
++ _symbolic _____ 26ScreenTimeSettingsServices0ab10WebBrowserC0C19XPCServerParametersO
++ _symbolic _____ 26ScreenTimeSettingsServices0ab10WebBrowserC0C19XPCServerParametersO0E15HistoryResponseV
++ _symbolic _____ 26ScreenTimeSettingsServices0ab10WebBrowserC0C19XPCServerParametersO0E15HistoryResponseV10CodingKeys33_8122AAEFE85A44A70D29B4A6633D3266LLO
++ _symbolic _____ 26ScreenTimeSettingsServices0ab10WebBrowserC0C6UpdateV
++ _symbolic _____ 26ScreenTimeSettingsServices0ab10WebBrowserC0C6UpdateV10CodingKeys33_7FCC34BF0831694BD0BCC63F2049BA52LLO
++ _symbolic _____ 26ScreenTimeSettingsServices0ab10WebBrowserC0C9XPCClientC
++ _symbolic _____ 26ScreenTimeSettingsServices0abC0C31IntelligenceAndSiriRestrictionsV0G6PolicyO
++ _symbolic _____ 26ScreenTimeSettingsServices0abC14XPCClientRelay33_7BA7617E16ADC30A583569312645C74DLLC
++ _symbolic _____ 26ScreenTimeSettingsServices0abC9XPCClientC
++ _symbolic _____ 26ScreenTimeSettingsServices11PresetQueryV23RecommendedAppSelectionO
++ _symbolic _____ 26ScreenTimeSettingsServices15AnalyticsLoggerV
++ _symbolic _____ 26ScreenTimeSettingsServices27UniqueElementsAsyncSequenceC
++ _symbolic _____ 26ScreenTimeSettingsServices27UniqueElementsAsyncSequenceC0eF8IteratorV
++ _symbolic _____Sg 26ScreenTimeSettingsServices0ab10WebBrowserC0C0C0V
++ _symbolic _____Sg 26ScreenTimeSettingsServices0abC0C12ServerPresetV0b10AllowancesF0V29SharedAllowanceRecommendationV
++ _symbolic _____Sg 26ScreenTimeSettingsServices0abC0C31IntelligenceAndSiriRestrictionsV0G6PolicyO
++ _symbolic ______AAt 26ScreenTimeSettingsServices10RegulatoryO18PresentationPolicyV37WebContentFilterSetupNonEditableAlertO
++ _symbolic ______AAt 26ScreenTimeSettingsServices10RegulatoryO18PresentationPolicyV40CommunicationSafetySetupNonEditableAlertO
++ _symbolic __________Xj l26ScreenTimeSettingsServices0abC14UpdateObserver_px0E0Rts_XPXG AA0ab10WebBrowserC0CACV
++ _symbolic __________Xj l26ScreenTimeSettingsServices0abC14UpdateObserver_px0E0Rts_XPXG AA0abC0CACV
++ _symbolic __________XjSg l26ScreenTimeSettingsServices0abC14UpdateObserver_px0E0Rts_XPXG AA0ab10WebBrowserC0CACV
++ _symbolic __________XjSg l26ScreenTimeSettingsServices0abC14UpdateObserver_px0E0Rts_XPXG AA0abC0CACV
++ _symbolic __________XjSgXw l26ScreenTimeSettingsServices0abC14UpdateObserver_px0E0Rts_XPXG 10Foundation4DataV
++ _symbolic __________XjSgXw l26ScreenTimeSettingsServices0abC14UpdateObserver_px0E0Rts_XPXG AA0ab10WebBrowserC0CACV
++ _symbolic __________XjSgXw l26ScreenTimeSettingsServices0abC14UpdateObserver_px0E0Rts_XPXG AA0abC0CACV
++ _symbolic ______p 26ScreenTimeSettingsServices0ab10WebBrowserC0C11ClientStoreP
++ _symbolic ______p 26ScreenTimeSettingsServices0ab10WebBrowserC0C17XPCServerProtocolP
++ _symbolic ______p 26ScreenTimeSettingsServices14AnalyticsEventP
++ _symbolic ______p_____Sg______pSgIeghng_AD_pIeghggzo_ 26ScreenTimeSettingsServices0ab10WebBrowserC0C17XPCServerProtocolP AC0G10ParametersO0E15HistoryResponseV s5ErrorP
++ _symbolic ______p______pSgIeghg_AB_pIeghggzo_ 26ScreenTimeSettingsServices0ab10WebBrowserC0C17XPCServerProtocolP s5ErrorP
++ _symbolic _____ySSSgG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26ScreenTimeSettingsServices0de10WebBrowserF0C0F0V10CodingKeys33_2ADFD7EEA0925BF92AE41EA57A185B00LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26ScreenTimeSettingsServices0de10WebBrowserF0C19XPCServerParametersO0H15HistoryResponseV10CodingKeys33_8122AAEFE85A44A70D29B4A6633D3266LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26ScreenTimeSettingsServices0de10WebBrowserF0C6UpdateV10CodingKeys33_7FCC34BF0831694BD0BCC63F2049BA52LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26ScreenTimeSettingsServices0de10WebBrowserF0C0F0V10CodingKeys33_2ADFD7EEA0925BF92AE41EA57A185B00LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26ScreenTimeSettingsServices0de10WebBrowserF0C19XPCServerParametersO0H15HistoryResponseV10CodingKeys33_8122AAEFE85A44A70D29B4A6633D3266LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26ScreenTimeSettingsServices0de10WebBrowserF0C6UpdateV10CodingKeys33_7FCC34BF0831694BD0BCC63F2049BA52LLO
++ _symbolic _____y__________G 26ScreenTimeSettingsServices27UniqueElementsAsyncSequenceC AA0abC0C22CategorizedApplicationV AE0C5ErrorO
++ _symbolic _____y___________p_____G 26ScreenTimeSettingsServices0abC9XPCClientC AA0ab10WebBrowserC0C6UpdateV AE17XPCServerProtocolP AE0C0V
++ _symbolic _____y___________p_____G 26ScreenTimeSettingsServices0abC9XPCClientC AA0abC0C0E6UpdateV AE17XPCServerProtocolP AE0C0V
++ _symbolic _____y___________p_____GSgXw 26ScreenTimeSettingsServices0abC9XPCClientC AA0ab10WebBrowserC0C6UpdateV AE17XPCServerProtocolP AE0C0V
++ _symbolic _____y___________p_____GSgXw 26ScreenTimeSettingsServices0abC9XPCClientC AA0abC0C0E6UpdateV AE17XPCServerProtocolP AE0C0V
++ _symbolic _____yxq__G 26ScreenTimeSettingsServices27UniqueElementsAsyncSequenceC0eF8IteratorV
++ _symbolic _____yxq_q0_GSgXw 26ScreenTimeSettingsServices0abC9XPCClientC
++ _symbolic _____yxq_q0_GSgXwz_____________p_____SeRzSeR0_r1_lXX 26ScreenTimeSettingsServices0abC9XPCClientC AA0ab10WebBrowserC0C6UpdateV AE17XPCServerProtocolP AE0C0V
++ _symbolic _____yxq_q0_GSgXwz_____________p_____SeRzSeR0_r1_lXX 26ScreenTimeSettingsServices0abC9XPCClientC AA0abC0C0E6UpdateV AE17XPCServerProtocolP AE0C0V
++ _symbolic _____yxq_q0_GSgXwz_x_q_q0_SeRzSeR0_r1_lXX 26ScreenTimeSettingsServices0abC9XPCClientC
++ _symbolic q0_
++ _type_layout_string 26ScreenTimeSettingsServices0ab10WebBrowserC0C0C0V
++ _type_layout_string 26ScreenTimeSettingsServices0ab10WebBrowserC0C19XPCServerParametersO0E15HistoryResponseV
++ _type_layout_string 26ScreenTimeSettingsServices0ab10WebBrowserC0C6UpdateV
++ _type_layout_string SHRzr0_l26ScreenTimeSettingsServices27UniqueElementsAsyncSequenceC0eF8IteratorVyxq__G
+- _OBJC_CLASS_$__TtCC26ScreenTimeSettingsServices18ScreenTimeSettings9XPCClient
+- _OBJC_METACLASS_$__TtCC26ScreenTimeSettingsServices18ScreenTimeSettingsP33_6675DE2B2EFDFD50DDB1BB4454AACFD614XPCClientRelay
+- __DATA__TtCC26ScreenTimeSettingsServices18ScreenTimeSettingsP33_6675DE2B2EFDFD50DDB1BB4454AACFD614XPCClientRelay
+- __INSTANCE_METHODS__TtCC26ScreenTimeSettingsServices18ScreenTimeSettingsP33_6675DE2B2EFDFD50DDB1BB4454AACFD614XPCClientRelay
+- __IVARS__TtC26ScreenTimeSettingsServices26DeduplicatingAsyncSequence
+- __IVARS__TtCC26ScreenTimeSettingsServices18ScreenTimeSettingsP33_6675DE2B2EFDFD50DDB1BB4454AACFD614XPCClientRelay
+- __METACLASS_DATA__TtCC26ScreenTimeSettingsServices18ScreenTimeSettingsP33_6675DE2B2EFDFD50DDB1BB4454AACFD614XPCClientRelay
+- __PROTOCOLS__TtCC26ScreenTimeSettingsServices18ScreenTimeSettings9XPCClient
+- __PROTOCOLS__TtCC26ScreenTimeSettingsServices18ScreenTimeSettingsP33_6675DE2B2EFDFD50DDB1BB4454AACFD614XPCClientRelay
+- __PROTOCOL_INSTANCE_METHODS__TtPC26ScreenTimeSettingsServices18ScreenTimeSettings17XPCClientProtocol_
+- __PROTOCOL_METHOD_TYPES__TtPC26ScreenTimeSettingsServices18ScreenTimeSettings17XPCClientProtocol_
+- __PROTOCOL__TtPC26ScreenTimeSettingsServices18ScreenTimeSettings17XPCClientProtocol_
+- ___swift_closure_destructor.257Tm
+- ___swift_closure_destructor.316Tm
+- ___swift_memcpy184_8
+- ___swift_memcpy192_8
+- ___swift_memcpy216_8
+- ___swift_memcpy249_8
+- ___swift_memcpy26_8
+- ___swift_memcpy321_8
+- ___swift_memcpy42_8
+- ___swift_memcpy7_1
+- ___swift_memcpy920_8
+- ___swift_memcpy937_8
+- _associated conformance 26ScreenTimeSettingsServices0abC0C14WebPermissionsV14OverridePolicyO10CodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLOSHAASQ
+- _associated conformance 26ScreenTimeSettingsServices0abC0C14WebPermissionsV14OverridePolicyO10CodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 26ScreenTimeSettingsServices0abC0C14WebPermissionsV14OverridePolicyO10CodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 26ScreenTimeSettingsServices0abC0C14WebPermissionsV14OverridePolicyO26AskForPermissionCodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 26ScreenTimeSettingsServices0abC0C14WebPermissionsV14OverridePolicyO26AskForPermissionCodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 26ScreenTimeSettingsServices0abC0C14WebPermissionsV14OverridePolicyO27LocalApprovalOnlyCodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLOs0L3KeyAAs23CustomStringConvertible
+- _associated conformance 26ScreenTimeSettingsServices0abC0C14WebPermissionsV14OverridePolicyO27LocalApprovalOnlyCodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLOs0L3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 26ScreenTimeSettingsServices0abC0C14WebPermissionsV14OverridePolicyOSHAASQ
+- _associated conformance 26ScreenTimeSettingsServices26DeduplicatingAsyncSequenceC0E8IteratorVyxq__GScIAA7FailureScI_s5Error
+- _associated conformance 26ScreenTimeSettingsServices26DeduplicatingAsyncSequenceCyxq_GSciAA0F8IteratorSci_ScI
+- _objc_retain_x27
+- _symbolic $s26ScreenTimeSettingsServices0abC0C0C14UpdateObserverP
+- _symbolic $s26ScreenTimeSettingsServices0abC0C17XPCClientProtocolP
+- _symbolic _____ 26ScreenTimeSettingsServices0abC0C14WebPermissionsV14OverridePolicyO
+- _symbolic _____ 26ScreenTimeSettingsServices0abC0C14WebPermissionsV14OverridePolicyO10CodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLO
+- _symbolic _____ 26ScreenTimeSettingsServices0abC0C14WebPermissionsV14OverridePolicyO26AskForPermissionCodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLO
+- _symbolic _____ 26ScreenTimeSettingsServices0abC0C14WebPermissionsV14OverridePolicyO27LocalApprovalOnlyCodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLO
+- _symbolic _____ 26ScreenTimeSettingsServices0abC0C14XPCClientRelay33_6675DE2B2EFDFD50DDB1BB4454AACFD6LLC
+- _symbolic _____ 26ScreenTimeSettingsServices26DeduplicatingAsyncSequenceC
+- _symbolic _____ 26ScreenTimeSettingsServices26DeduplicatingAsyncSequenceC0E8IteratorV
+- _symbolic ______pSg 26ScreenTimeSettingsServices0abC0C0C14UpdateObserverP
+- _symbolic ______pSgXw 26ScreenTimeSettingsServices0abC0C0C14UpdateObserverP
+- _symbolic _____y_____G s22KeyedDecodingContainerV 26ScreenTimeSettingsServices0deF0C14WebPermissionsV14OverridePolicyO10CodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 26ScreenTimeSettingsServices0deF0C14WebPermissionsV14OverridePolicyO26AskForPermissionCodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 26ScreenTimeSettingsServices0deF0C14WebPermissionsV14OverridePolicyO27LocalApprovalOnlyCodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 26ScreenTimeSettingsServices0deF0C14WebPermissionsV14OverridePolicyO10CodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 26ScreenTimeSettingsServices0deF0C14WebPermissionsV14OverridePolicyO26AskForPermissionCodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 26ScreenTimeSettingsServices0deF0C14WebPermissionsV14OverridePolicyO27LocalApprovalOnlyCodingKeys33_8B88D3DE2FBE88A67A4471C2523F1108LLO
+- _symbolic _____y__________G 26ScreenTimeSettingsServices26DeduplicatingAsyncSequenceC AA0abC0C22CategorizedApplicationV AE0C5ErrorO
+- _symbolic _____yxq__G 26ScreenTimeSettingsServices26DeduplicatingAsyncSequenceC0E8IteratorV
+- _symbolic yp
+- _type_layout_string SHRzr0_l26ScreenTimeSettingsServices26DeduplicatingAsyncSequenceC0E8IteratorVyxq__G
+CStrings:
++ "%{public}s connection from %{public}s activated"
++ "%{public}s connection from %{public}s interrupted"
++ "%{public}s connection from %{public}s invalidated"
++ "%{public}s: Could not register for daemon startup notifications"
++ "%{public}s: Failed to cast connection to server interface protocol"
++ "%{public}s: Failed to decode client update: %s"
++ "%{public}s: Failed to establish a connection"
++ "Deleted all web history for %{private}s."
++ "Deleted web history for %{private}s during %{public}s."
++ "Deleted web history for URL %{private}s for %{private}s."
++ "Failed to delete all web history for %{private}s: %{public}s"
++ "Failed to delete web history for %{private}s during %{public}s: %{public}s"
++ "Failed to delete web history for URL %{private}s for %{private}s: %{public}s"
++ "Failed to fetch all web history for %{private}s: %{public}s"
++ "Failed to fetch web history for %{private}s: %{public}s"
++ "Failed to send analytics event: %{public}s"
++ "Fetched %{public}ld URL(s) of all web history for %{private}s."
++ "Fetched %{public}ld URL(s) of web history for %{private}s."
++ "PresetQuery: recommendedInitialValue '%{public}s' is not a selectable tier; ignoring"
++ "PresetQuery: siriVersion '%{public}ld' is not a known SiriPolicy; ignoring"
++ "ScreenTimeSettingsServices.ScreenTimeSettingsXPCClient"
++ "ScreenTimeSettingsServices.ScreenTimeSettingsXPCClientRelay"
++ "ScreenTimeSettingsServices/ScreenTimeSettingsXPCClient.swift"
++ "ScreenTimeWebBrowserSettings"
++ "Sent analytics event: %{public}s %{public}s"
++ "ServerPreset: siriVersion '%{public}ld' is not a known SiriPolicy; ignoring"
++ "Subclasses must override apply(_:completion:)"
++ "Subclasses must override makeConnection()"
++ "Subclasses must override serverInterface"
++ "Subclasses must override settings(from:)"
++ "UniqueElementsAsyncSequence underlying iterator threw %@ during next()"
++ "com.apple.ScreenTimeSettings.private"
++ "com.apple.ScreenTimeSettings.public"
++ "com.apple.ScreenTimeSettings.web-browser-service"
++ "com.apple.ScreenTimeSettingsAgent.public"
++ "com.apple.ScreenTimeSettingsServices."
++ "com.apple.ScreenTimeWebBrowserSettings"
++ "gradientStartingDuration"
++ "groupsWithOneContact"
++ "intelligenceExtensionsIsEditable"
++ "intelligenceExtensionsIsOverriddenToBlocked"
++ "intelligencePhotorealisticCreationPolicy"
++ "intelligenceSensitiveContentPolicy"
++ "intelligenceSiriPolicy"
++ "localizedRegionSpecificTitle"
++ "performXPCRequest(_:)"
++ "photorealisticCreationIsEditable"
++ "photorealisticCreationIsOverriddenToBlocked"
++ "photorealisticCreationPolicy"
++ "recommendedInitialValue"
++ "sensitiveContentIsEditable"
++ "sensitiveContentIsOverriddenToReduce"
++ "sensitiveContentPolicy"
++ "siriAIIsAvailable"
++ "siriAIIsDisallowed"
++ "system.allowedFeature.realisticImages"
++ "system.allowedFeature.sensitiveTopics"
++ "system.restriction.siriVersion"
++ "webBrowserSettings"
++ "webContentFilterUseUnverifiedAdultShield"
+- "Could not register for daemon startup notifications"
+- "DeduplicatingAsyncSequence underlying iterator threw %@ during next()"
+- "ScreenTimeSettings connection from %{public}s activated"
+- "ScreenTimeSettings connection from %{public}s interrupted"
+- "ScreenTimeSettings connection from %{public}s invalidated"
+- "ScreenTimeSettings: Failed to cast connection to server interface protocol"
+- "ScreenTimeSettings: Failed to decode client update: %s"
+- "ScreenTimeSettings: Failed to establish a connection"
+- "ScreenTimeSettingsServices.XPCClient"
+- "ScreenTimeSettingsServices.XPCClientRelay"
+- "askForPermission"
+- "com.apple.ScreenTimesSettingsServices.xpc.XPCClient"
+- "localApprovalOnly"
+
+```

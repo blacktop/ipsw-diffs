@@ -1,0 +1,15 @@
+## HomeKit
+
+> `FileSystem/System/Library/Frameworks/HomeKit.framework/en.lproj/HMAccessorySetting-b238.strings`
+
+```diff
+
+ ROOT_ANNOUNCE_ENABLED = "Intercom"
+ ROOT_AUDIOANALYSIS_ENABLED = "Sound Recognition"
+ ROOT_DISPLAY_TOUCHANDVISUALIZATION_INTERACTION_TOUCHENABLED = "Enable Touch"
++ROOT_DISPLAY_TOUCHANDVISUALIZATION_MEDIAVISUALIZER_VISUALIZATION = "Light Show"
+ ROOT_DOORBELLCHIME = "Doorbell Chime"
+ ROOT_DOORBELLCHIME_ENABLED = "Doorbell Chime"
+ ROOT_GENERAL_ACCESSIBILITY_AUTOADJUSTSIRIVOLUMEENABLED = "Automatically Adjust Siri Volume"
+
+```

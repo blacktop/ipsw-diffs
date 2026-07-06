@@ -1,0 +1,45 @@
+## InputTranscoder
+
+> `/System/Library/PrivateFrameworks/InputTranscoder.framework/InputTranscoder`
+
+```diff
+
+-  __TEXT.__text: 0x2b244
++  __TEXT.__text: 0x2b04c
+   __TEXT.__const: 0x3878
+   __TEXT.__gcc_except_tab: 0x2478
+   __TEXT.__cstring: 0xecc
+Sections:
+~ __TEXT.__gcc_except_tab : content changed
+~ __TEXT.__unwind_info : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __AUTH.__data : content changed
+~ __DATA_DIRTY.__data : content changed
+Functions:
+~ __ZN15InputTranscoder16LexiconContainer18isPresentInLexiconERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE : 372 -> 352
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERPFbPKN15InputTranscoder8PathTrieES5_EPPS3_EEbT1_SB_T0_ : 768 -> 744
+~ __ZNSt3__113__nth_elementB9fqe220106INS_17_ClassicAlgPolicyERPFbPKN15InputTranscoder8PathTrieES5_ENS_11__wrap_iterIPPS3_EEEEvT1_SD_SD_T0_ : 1152 -> 1116
+~ __ZNK15InputTranscoder8PathTrie7getPathERNSt3__16vectorIjNS1_9allocatorIjEEEE : 176 -> 164
+~ __ZNK15InputTranscoder15LexiconPathTrie11isValidWordEv : 100 -> 72
+~ __ZN15InputTranscoder26TouchTranscoderSessionImpl23enumerateCandidatesImplEPK14__CFDictionaryRKNSt3__18functionIFbNS4_10unique_ptrINS_13CandidateImplENS4_14default_deleteIS7_EEEEEEERNS4_12basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE : 10108 -> 10092
+~ __ZN15InputTranscoder26TouchTranscoderSessionImpl34enumerateKeyCandidatesForLastTouchERKNSt3__18functionIFbNS1_10unique_ptrINS_16KeyCandidateImplENS1_14default_deleteIS4_EEEEEEE : 760 -> 744
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERPFbRKN15InputTranscoder20CTCSurfaceFormOutputES5_EPS3_Lb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb : 5316 -> 5252
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERPFbRKN15InputTranscoder20CTCSurfaceFormOutputES5_EPS3_EEbT1_SA_T0_ : 1124 -> 1072
+~ __ZNSt3__16vectorIN15InputTranscoder20CTCSurfaceFormOutputENS_9allocatorIS2_EEE18__insert_with_sizeB9fqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPS2_EESA_EESA_NS8_IPKS2_EET0_T1_l : 1072 -> 1020
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220106INS_9allocatorINS_4pairIPN15InputTranscoder8PathTrieENS3_20CTCSurfaceFormOutputEEEEEPS7_S9_S9_EET2_RT_T0_T1_SA_ : 152 -> 136
+~ __ZNKSt3__111__copy_implclB9fqe220106IPNS_4pairIPN15InputTranscoder8PathTrieENS3_20CTCSurfaceFormOutputEEES8_S8_Li0EEENS2_IT_T1_EES9_T0_SA_ : 128 -> 124
+~ __ZN15InputTranscoder21generateConfigurationINS_20DecoderConfigurationEEET_P10__CFBundlePK14__CFDictionary12ITTypingMode : 2452 -> 2344
+~ __ZN15InputTranscoder21generateConfigurationINS_23TranscoderConfigurationEEET_P10__CFBundlePK14__CFDictionary12ITTypingMode : 2528 -> 2532
+~ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fqe220106EPKvm : 532 -> 520
+~ __ZNK15InputTranscoder13MontrealModel9recognizeENSt3__14spanIKjLm18446744073709551615EEE : 1108 -> 1096
+~ __ZNK15InputTranscoder13MontrealModel9recognizeENSt3__14spanIKfLm18446744073709551615EEEPK14__CFDictionarym : 1144 -> 1140
+~ __ZNK15InputTranscoder11DecoderImpl19enumerateCandidatesENSt3__14spanIKjLm18446744073709551615EEEPK14__CFDictionaryNS1_8functionIFvNS1_10unique_ptrINS_13CandidateImplENS1_14default_deleteISA_EEEERbEEE : 680 -> 668
+~ __ZNSt3__16vectorINS0_IdNS_9allocatorIdEEEENS1_IS3_EEEC2B9fqe220106EmRKS3_ : 304 -> 288
+~ __ZN15InputTranscoder4Path30set_sample_is_inflection_pointEj : 124 -> 120
+
+```

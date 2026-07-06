@@ -1,0 +1,52 @@
+## pointeruid
+
+> Group: ⬆️ Updated
+
+```diff
+
+ (deny mach-lookup
+ 	(require-all
+ 		(global-name "com.apple.dt.testmanagerd.uiprocess")
+-		(require-not (global-name "com.apple.diagnosticd"))
+-		(require-not (global-name "com.apple.logd.events"))
+-		(require-not (global-name "com.apple.runningboard"))
+-		(require-not (global-name "com.apple.backboard.display.services"))
+-		(require-not (global-name "com.apple.mobileassetd.v2"))
+-		(require-not (global-name "com.apple.debug.telemetry"))
+-		(require-not (global-name "com.apple.system.libinfo.muser"))
+-		(require-not (global-name "com.apple.analyticsd"))
+-		(require-not (global-name "com.apple.backboard.hid.services"))
+ 		(require-not (global-name "com.apple.mobilegestalt.xpc"))
+-		(require-not (global-name "com.apple.cfprefsd.daemon"))
+-		(require-not (global-name "com.apple.iohideventsystem"))
+ 		(require-not (global-name "com.apple.symptom_diagnostics"))
+ 		(require-not (global-name "com.apple.accessibility.AXBackBoardServer"))
+-		(require-not (global-name "com.apple.UIKit.OverlayUI.services"))
+-		(require-not (global-name "com.apple.logd"))
+-		(require-not (global-name "com.apple.backboard.hid-services.xpc"))
++		(require-not (global-name "com.apple.mobileassetd.v2"))
+ 		(require-not (global-name "com.apple.frontboard.systemappservices"))
++		(require-not (global-name "com.apple.backboard.hid-services.xpc"))
++		(require-not (global-name "com.apple.UIKit.OverlayUI.services"))
++		(require-not (global-name "com.apple.diagnosticd"))
++		(require-not (global-name "com.apple.system.libinfo.muser"))
++		(require-not (global-name "com.apple.backboard.display.services"))
+ 		(require-not (global-name "com.apple.cfprefsd.daemon.system"))
+-		(require-not (xpc-service-name "com.apple.EventTimingProfileService"))
++		(require-not (global-name "com.apple.runningboard"))
++		(require-not (global-name "com.apple.iohideventsystem"))
++		(require-not (global-name "com.apple.logd.events"))
++		(require-not (global-name "com.apple.cfprefsd.daemon"))
++		(require-not (global-name "com.apple.debug.telemetry"))
++		(require-not (global-name "com.apple.backboard.hid.services"))
++		(require-not (global-name "com.apple.logd"))
++		(require-not (global-name "com.apple.analyticsd"))
+ 		(require-not (xpc-service-name "com.apple.SiriTTSService.TrialProxy"))
+-		(require-not (global-name "com.apple.SBUserNotification"))
++		(require-not (xpc-service-name "com.apple.EventTimingProfileService"))
+ 		(require-not (global-name "com.apple.PrototypeTools.domainserver"))
++		(require-not (global-name "com.apple.SBUserNotification"))
+ 		(require-not (global-name "com.apple.PointerUI.pointeruid.service"))
+ 		(require-not (global-name "com.apple.DragUI.druid.destination"))
+ 		(require-not (global-name "com.apple.CARenderServer"))
+```

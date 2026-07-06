@@ -1,0 +1,68 @@
+## CoreRE3DGSFoundation
+
+> `/System/Library/PrivateFrameworks/CoreRE3DGSFoundation.framework/CoreRE3DGSFoundation`
+
+```diff
+
+-  __TEXT.__text: 0x8fd5c
++  __TEXT.__text: 0x8f9d8
+   __TEXT.__objc_methlist: 0x146c
+   __TEXT.__const: 0x4f5d
+   __TEXT.__gcc_except_tab: 0xaba0
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__gcc_except_tab : content changed
+~ __TEXT.__unwind_info : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__objc_arraydata : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __AUTH_CONST.__objc_intobj : content changed
+~ __AUTH_CONST.__objc_arrayobj : content changed
+~ __AUTH_CONST.__objc_doubleobj : content changed
+~ __AUTH_CONST.__objc_dictobj : content changed
+~ __AUTH.__objc_data : content changed
+~ __DATA.__data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+Functions:
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220106INS_9allocatorIN8nlohmann16json_abi_v3_11_310basic_jsonINS_3mapENS_6vectorENS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEbxydS1_NS3_14adl_serializerENS6_IhNS1_IhEEEEvEEEEPSF_SH_SH_EET2_RT_T0_T1_SI_ : 152 -> 136
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220106INS_9allocatorIN8nlohmann16json_abi_v3_11_310basic_jsonINS_3mapENS_6vectorENS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEbxydS1_NS3_14adl_serializerENS6_IhNS1_IhEEEEvEEEEPKNS6_IfNS1_IfEEEESK_PSF_EET2_RT_T0_T1_SM_ : 152 -> 136
+~ __ZN8nlohmann16json_abi_v3_11_310basic_jsonINSt3__13mapENS2_6vectorENS2_12basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEbxydS8_NS0_14adl_serializerENS4_IhNS8_IhEEEEvEC2ESt16initializer_listINS0_6detail8json_refISE_EEEbNSG_7value_tE : 568 -> 556
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220106INS_9allocatorIN8nlohmann16json_abi_v3_11_310basic_jsonINS_3mapENS_6vectorENS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEbxydS1_NS3_14adl_serializerENS6_IhNS1_IhEEEEvEEEEPKNS3_6detail8json_refISF_EESL_PSF_EET2_RT_T0_T1_SN_ : 152 -> 136
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220106INS_9allocatorIN8nlohmann16json_abi_v3_11_310basic_jsonINS_3mapENS_6vectorENS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEbxydS1_NS3_14adl_serializerENS6_IhNS1_IhEEEEvEEEEPKSF_SI_PSF_EET2_RT_T0_T1_SK_ : 152 -> 136
+~ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fqe220106EPKvm : 532 -> 520
+~ __ZNSt3__15dequeIbNS_9allocatorIbEEE19__add_back_capacityEv : 484 -> 472
+~ __ZNSt3__15dequeINS_8functionIFvRN4cv3d9aspenbase11concurrency12AsyncManager13ThreadContextEEEENS_9allocatorIS9_EEE19__add_back_capacityEv : 484 -> 472
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN9apple3dgs13CPUSortWorker7ProcessERKNS2_11ISortWorker3JobEE3$_0PjLb0EEEvT1_SB_T0_NS_15iterator_traitsISB_E15difference_typeEb : 3300 -> 3272
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERZN9apple3dgs13CPUSortWorker7ProcessERKNS2_11ISortWorker3JobEE3$_0PjEEbT1_SB_T0_ : 648 -> 624
+~ __ZN9apple3dgs40ComputeDepthBoundariesFromHybridSamplingIfEENSt3__16vectorIfNS1_9allocatorIfEEEEjRKN4simd8float4x4ERKNS_8Buffer2DIT_EEff : 1336 -> 1320
+~ __ZNK9apple3dgs6Sorter14GetSortWorkersEv : 276 -> 252
+~ __ZN9apple3dgs8Renderer21BuildBlendingPipelineEPU21objcproto10MTLLibrary11objc_objectPU27objcproto16MTLBinaryArchive11objc_objectRKNSt3__16vectorINS_15BlendingVariantENS5_9allocatorIS7_EEEE14MTLPixelFormatSD_PU15__autoreleasingP7NSErrorm : 2252 -> 2228
+~ __ZNK9apple3dgs8Renderer17UpdateSorterRangeEPU27objcproto16MTLCommandBuffer11objc_objectRNS_7ISorterERKNS_16RenderDescriptorE : 376 -> 368
+~ __ZZN9apple3dgs12FreetimeData11ParseHeaderERNSt3__113basic_istreamIcNS1_11char_traitsIcEEEEENK3$_0clENS1_4spanIKNS1_4pairINS1_12basic_stringIcS4_NS1_9allocatorIcEEEESD_EELm18446744073709551615EEE : 628 -> 608
+~ __ZN9apple3dgs5Asset26ValidateAttributeAlignmentEPU15__autoreleasingP7NSError : 512 -> 520
+~ __ZN9apple3dgs7loadPlyERKNSt3__14__fs10filesystem4pathEPU19objcproto9MTLDevice11objc_objectRKNS_5Asset19AttributeDescriptorEPU15__autoreleasingP7NSError : 12476 -> 12404
+~ __ZN6happly7PLYData10hasElementERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE : 168 -> 152
+~ __ZN6happly7Element8validateEv : 916 -> 928
+~ __ZN6happly7PLYData11writeHeaderERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEE : 792 -> 760
+~ __ZN4avir21CDSPFracFilterBankLinIfE13buildSrcTableEv : 560 -> 532
+~ __ZN4avir26CImageResizerFilterStepINLIffE14applySRGBGammaEPfiRKNS_17CImageResizerVarsE : 1256 -> 1216
+~ __ZN4avir26CImageResizerFilterStepINLIffE14unpackScanlineIhEEvPKfPT_iRKNS_17CImageResizerVarsE : 344 -> 304
+~ __ZNK4avir13CImageResizerINS_11fpclass_defIffNS_27CImageResizerDithererDefINLIfEEEEE18assignFilterParamsERNS_26CImageResizerFilterStepINLIffEEbiddbb : 864 -> 844
+~ __ZN4avir9CDSPFIREQ4initEddiddbd : 732 -> 744
+~ __ZN4avir13CImageResizerINS_11fpclass_defIffNS_27CImageResizerDithererDefINLIfEEEEE11fillRPosBufERNS_26CImageResizerFilterStepINLIffEERKNS_17CImageResizerVarsE : 188 -> 180
+~ __ZNK4avir26CImageResizerFilterStepINLIffE12packScanlineIhEEvPKT_Pfi : 2036 -> 1936
+~ __ZNK4avir26CImageResizerFilterStepINLIffE12prepareInBufEPf : 896 -> 816
+~ __ZNK4avir26CImageResizerFilterStepINLIffE10doUpsampleEPKfPf : 3188 -> 3000
+~ __ZNK4avir26CImageResizerFilterStepINLIffE9doResize2EPKfPfiS3_S4_ : 960 -> 944
+~ __ZNK4avir26CImageResizerFilterStepINLIffE11convertVtoHEPKfPfii : 280 -> 244
+
+```

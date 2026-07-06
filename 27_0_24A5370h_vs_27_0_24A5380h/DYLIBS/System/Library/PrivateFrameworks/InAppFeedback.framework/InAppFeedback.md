@@ -1,0 +1,440 @@
+## InAppFeedback
+
+> `/System/Library/PrivateFrameworks/InAppFeedback.framework/InAppFeedback`
+
+```diff
+
+-  __TEXT.__text: 0x10020
++  __TEXT.__text: 0x460cc
+   __TEXT.__objc_methlist: 0x25c
+-  __TEXT.__const: 0xf90
+-  __TEXT.__constg_swiftt: 0x494
+-  __TEXT.__swift5_typeref: 0x556
+-  __TEXT.__swift5_reflstr: 0x203
+-  __TEXT.__swift5_fieldmd: 0x3b4
+-  __TEXT.__cstring: 0x26e
+-  __TEXT.__oslogstring: 0x296
+-  __TEXT.__swift5_proto: 0xc8
+-  __TEXT.__swift5_types: 0x4c
+-  __TEXT.__swift_as_entry: 0x20
+-  __TEXT.__swift_as_cont: 0x40
+-  __TEXT.__swift5_protos: 0x8
+-  __TEXT.__swift_as_ret: 0x14
+-  __TEXT.__swift5_assocty: 0xc8
+-  __TEXT.__swift5_capture: 0x10
+-  __TEXT.__unwind_info: 0x528
+-  __TEXT.__eh_frame: 0x668
++  __TEXT.__const: 0x39f8
++  __TEXT.__constg_swiftt: 0xd68
++  __TEXT.__swift5_typeref: 0xe35
++  __TEXT.__swift5_reflstr: 0x85d
++  __TEXT.__swift5_fieldmd: 0xfc4
++  __TEXT.__cstring: 0x452
++  __TEXT.__oslogstring: 0x376
++  __TEXT.__swift5_proto: 0x2e8
++  __TEXT.__swift5_types: 0x108
++  __TEXT.__swift_as_entry: 0x88
++  __TEXT.__swift_as_cont: 0x14c
++  __TEXT.__swift5_protos: 0x10
++  __TEXT.__swift5_capture: 0x1ec
++  __TEXT.__swift_as_ret: 0x74
++  __TEXT.__swift5_assocty: 0xe0
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__swift5_mpenum: 0x8
++  __TEXT.__unwind_info: 0x1368
++  __TEXT.__eh_frame: 0x20b8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x98
+-  __DATA_CONST.__objc_classlist: 0x30
++  __DATA_CONST.__const: 0xd8
++  __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x200
++  __DATA_CONST.__objc_selrefs: 0x218
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x840
+-  __AUTH_CONST.__objc_const: 0x5c8
+-  __AUTH_CONST.__auth_got: 0x650
+-  __AUTH.__objc_data: 0x2c0
+-  __AUTH.__data: 0x548
+-  __DATA.__data: 0x548
+-  __DATA.__common: 0x10
+-  __DATA.__bss: 0x1780
++  __AUTH_CONST.__const: 0x1f00
++  __AUTH_CONST.__objc_const: 0xe08
++  __AUTH_CONST.__auth_got: 0xb78
++  __AUTH.__objc_data: 0x3b0
++  __AUTH.__data: 0xfe0
++  __DATA.__data: 0xdf0
++  __DATA.__common: 0x18
++  __DATA.__bss: 0x5a80
++  - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 449
+-  Symbols:   383
+-  CStrings:  38
++  Functions: 1554
++  Symbols:   783
++  CStrings:  57
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+Symbols:
++ _OBJC_CLASS_$_NSJSONSerialization
++ _OBJC_CLASS_$_NSURLSession
++ __DATA__TtC13InAppFeedback10Serializer
++ __DATA__TtC13InAppFeedback11ConfigStore
++ __DATA__TtC13InAppFeedback14ConfigHydrator
++ __DATA__TtC13InAppFeedback17HTTPConfigFetcher
++ __DATA__TtC13InAppFeedback17TreatmentProvider
++ __DATA__TtC13InAppFeedback20TreatmentsCalculator
++ __DATA__TtC13InAppFeedback25CrossAreaHoldoutEvaluator
++ __DATA__TtC13InAppFeedback25TreatmentsRandomGenerator
++ __DATA__TtC13InAppFeedbackP33_377D044F6A166F2E262FCABE967F60D323OneShotContinuationGate
++ __IVARS__TtC13InAppFeedback10Serializer
++ __IVARS__TtC13InAppFeedback11ConfigStore
++ __IVARS__TtC13InAppFeedback14ConfigHydrator
++ __IVARS__TtC13InAppFeedback17HTTPConfigFetcher
++ __IVARS__TtC13InAppFeedback17TreatmentProvider
++ __IVARS__TtC13InAppFeedback20TreatmentsCalculator
++ __IVARS__TtC13InAppFeedback25CrossAreaHoldoutEvaluator
++ __IVARS__TtC13InAppFeedback25TreatmentsRandomGenerator
++ __IVARS__TtC13InAppFeedbackP33_377D044F6A166F2E262FCABE967F60D323OneShotContinuationGate
++ __METACLASS_DATA__TtC13InAppFeedback10Serializer
++ __METACLASS_DATA__TtC13InAppFeedback11ConfigStore
++ __METACLASS_DATA__TtC13InAppFeedback14ConfigHydrator
++ __METACLASS_DATA__TtC13InAppFeedback17HTTPConfigFetcher
++ __METACLASS_DATA__TtC13InAppFeedback17TreatmentProvider
++ __METACLASS_DATA__TtC13InAppFeedback20TreatmentsCalculator
++ __METACLASS_DATA__TtC13InAppFeedback25CrossAreaHoldoutEvaluator
++ __METACLASS_DATA__TtC13InAppFeedback25TreatmentsRandomGenerator
++ __METACLASS_DATA__TtC13InAppFeedbackP33_377D044F6A166F2E262FCABE967F60D323OneShotContinuationGate
++ ___stack_chk_fail
++ ___stack_chk_guard
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_closure_destructor
++ ___swift_closure_destructor.61Tm
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_memcpy120_8
++ ___swift_memcpy136_8
++ ___swift_memcpy17_8
++ ___swift_memcpy24_8
++ ___swift_memcpy32_8
++ ___swift_memcpy40_8
++ ___swift_memcpy48_8
++ ___swift_memcpy56_8
++ ___swift_memcpy57_8
++ ___swift_memcpy64_8
++ ___swift_memcpy72_8
++ ___swift_memcpy80_8
++ ___swift_mutable_project_boxed_opaque_existential_1
++ __swiftEmptySetSingleton
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 13InAppFeedback03OptA0V10CodingKeys33_839C847A125D5E0992CA367606ED8A6ALLOSHAASQ
++ _associated conformance 13InAppFeedback03OptA0V10CodingKeys33_839C847A125D5E0992CA367606ED8A6ALLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13InAppFeedback03OptA0V10CodingKeys33_839C847A125D5E0992CA367606ED8A6ALLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13InAppFeedback03OptA0VSHAASQ
++ _associated conformance 13InAppFeedback10ExperimentV10CodingKeys33_68466B6EB056C9F3A22FE81187C1477BLLOSHAASQ
++ _associated conformance 13InAppFeedback10ExperimentV10CodingKeys33_68466B6EB056C9F3A22FE81187C1477BLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13InAppFeedback10ExperimentV10CodingKeys33_68466B6EB056C9F3A22FE81187C1477BLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13InAppFeedback10ExperimentVSHAASQ
++ _associated conformance 13InAppFeedback10FullConfigV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLOSHAASQ
++ _associated conformance 13InAppFeedback10FullConfigV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13InAppFeedback10FullConfigV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13InAppFeedback10FullConfigVSHAASQ
++ _associated conformance 13InAppFeedback11AreaHoldoutV10CodingKeys33_3479309108BA00ADF56F49529A1B50B4LLOSHAASQ
++ _associated conformance 13InAppFeedback11AreaHoldoutV10CodingKeys33_3479309108BA00ADF56F49529A1B50B4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13InAppFeedback11AreaHoldoutV10CodingKeys33_3479309108BA00ADF56F49529A1B50B4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13InAppFeedback11AreaHoldoutVSHAASQ
++ _associated conformance 13InAppFeedback11BucketRangeV10CodingKeys33_390BF72B7A117DFCFAAD458878CC589DLLOSHAASQ
++ _associated conformance 13InAppFeedback11BucketRangeV10CodingKeys33_390BF72B7A117DFCFAAD458878CC589DLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13InAppFeedback11BucketRangeV10CodingKeys33_390BF72B7A117DFCFAAD458878CC589DLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13InAppFeedback11BucketRangeVSHAASQ
++ _associated conformance 13InAppFeedback11ConfigStoreC14DiagnosticCodeOSHAASQ
++ _associated conformance 13InAppFeedback12ABAssignmentV10CodingKeys33_55F63CC419B9322453217AEEBCC64DB1LLOSHAASQ
++ _associated conformance 13InAppFeedback12ABAssignmentV10CodingKeys33_55F63CC419B9322453217AEEBCC64DB1LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13InAppFeedback12ABAssignmentV10CodingKeys33_55F63CC419B9322453217AEEBCC64DB1LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13InAppFeedback12ABAssignmentVSHAASQ
++ _associated conformance 13InAppFeedback14BaseLineConfigV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLOSHAASQ
++ _associated conformance 13InAppFeedback14BaseLineConfigV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13InAppFeedback14BaseLineConfigV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13InAppFeedback21SerializableTreatmentV10CodingKeys33_87FE0102D7A640F68A39F0906325E701LLOSHAASQ
++ _associated conformance 13InAppFeedback21SerializableTreatmentV10CodingKeys33_87FE0102D7A640F68A39F0906325E701LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13InAppFeedback21SerializableTreatmentV10CodingKeys33_87FE0102D7A640F68A39F0906325E701LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13InAppFeedback21SerializableTreatmentVSHAASQ
++ _associated conformance 13InAppFeedback4AreaV10CodingKeys33_8921441654D8257471DF71DA5494B0E7LLOSHAASQ
++ _associated conformance 13InAppFeedback4AreaV10CodingKeys33_8921441654D8257471DF71DA5494B0E7LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13InAppFeedback4AreaV10CodingKeys33_8921441654D8257471DF71DA5494B0E7LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13InAppFeedback4AreaVSHAASQ
++ _associated conformance 13InAppFeedback5TopicV10CodingKeysOSHAASQ
++ _associated conformance 13InAppFeedback5TopicV10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13InAppFeedback5TopicV10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13InAppFeedback5TopicVSHAASQ
++ _associated conformance 13InAppFeedback8MetadataV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLOSHAASQ
++ _associated conformance 13InAppFeedback8MetadataV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13InAppFeedback8MetadataV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13InAppFeedback8SeedTypeV10CodingKeys33_56608282A52FAF5CB6BFF38AB7DBF1C4LLOSHAASQ
++ _associated conformance 13InAppFeedback8SeedTypeV10CodingKeys33_56608282A52FAF5CB6BFF38AB7DBF1C4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 13InAppFeedback8SeedTypeV10CodingKeys33_56608282A52FAF5CB6BFF38AB7DBF1C4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13InAppFeedback8SeedTypeVSHAASQ
++ _associated conformance 13InAppFeedback9JSONValueOSHAASQ
++ _associated conformance 13InAppFeedback9NamespaceV10CodingKeys33_DE45D290205F7142E60BA20A68DDF3EELLOSHAASQ
++ _associated conformance 13InAppFeedback9NamespaceV10CodingKeys33_DE45D290205F7142E60BA20A68DDF3EELLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13InAppFeedback9NamespaceV10CodingKeys33_DE45D290205F7142E60BA20A68DDF3EELLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13InAppFeedback9NamespaceVSHAASQ
++ _associated conformance 13InAppFeedback9TreatmentV10CodingKeys33_6ABC4E975999D0BF21B4C7B6E97C1EC9LLOSHAASQ
++ _associated conformance 13InAppFeedback9TreatmentV10CodingKeys33_6ABC4E975999D0BF21B4C7B6E97C1EC9LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 13InAppFeedback9TreatmentV10CodingKeys33_6ABC4E975999D0BF21B4C7B6E97C1EC9LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13InAppFeedback9TreatmentVSHAASQ
++ _get_enum_tag_for_layout_string 13InAppFeedback11ConfigStoreC14DiagnosticCodeOIeghn_Sg
++ _get_enum_tag_for_layout_string 13InAppFeedback11ConfigStoreC14DiagnosticCodeOs5Error_pIeghng_Sg
++ _get_enum_tag_for_layout_string 13InAppFeedback9JSONValueO
++ _objc_msgSend$code
++ _objc_msgSend$dataWithJSONObject:options:error:
++ _objc_msgSend$sharedSession
++ _objc_release_x27
++ _objc_release_x28
++ _objc_retain_x27
++ _swift_allocBox
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_dynamicCast
++ _swift_getEnumCaseMultiPayload
++ _swift_getExistentialTypeMetadata
++ _swift_getTupleTypeMetadata2
++ _swift_makeBoxUnique
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x28
++ _swift_retain_n
++ _swift_retain_x19
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x8
++ _swift_storeEnumTagMultiPayload
++ _swift_task_create
++ _swift_task_future_wait_throwing
++ _swift_unknownObjectRelease
++ _symbolic $s13InAppFeedback13ConfigFetcherP
++ _symbolic $s13InAppFeedback5ClockP
++ _symbolic SDySSSay_____GG 13InAppFeedback10ExperimentV
++ _symbolic SDySSSay_____GG 13InAppFeedback4AreaV
++ _symbolic SDySSSay_____GG 13InAppFeedback9TreatmentV
++ _symbolic SDySS_____G 13InAppFeedback10ExperimentV
++ _symbolic SDySS_____G 13InAppFeedback4AreaV
++ _symbolic SDySS_____G 13InAppFeedback5TopicV
++ _symbolic SDySS_____G 13InAppFeedback9JSONValueO
++ _symbolic SDySS_____G 13InAppFeedback9TreatmentV
++ _symbolic SDySSypG
++ _symbolic SS______t 13InAppFeedback10ExperimentV
++ _symbolic SS______t 13InAppFeedback4AreaV
++ _symbolic SS______t 13InAppFeedback9TreatmentV
++ _symbolic SaySSG
++ _symbolic Say_____G 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic Say_____G 13InAppFeedback03OptA0V
++ _symbolic Say_____G 13InAppFeedback10ExperimentV
++ _symbolic Say_____G 13InAppFeedback11AreaHoldoutV
++ _symbolic Say_____G 13InAppFeedback11BucketRangeV
++ _symbolic Say_____G 13InAppFeedback21SerializableTreatmentV
++ _symbolic Say_____G 13InAppFeedback4AreaV
++ _symbolic Say_____G 13InAppFeedback5TopicV
++ _symbolic Say_____G 13InAppFeedback9JSONValueO
++ _symbolic Say_____G 13InAppFeedback9NamespaceV
++ _symbolic Say_____G 13InAppFeedback9TreatmentV
++ _symbolic Say_____GIeAgHr_ 13InAppFeedback9TreatmentV
++ _symbolic Sb
++ _symbolic ScA_pSg
++ _symbolic ScCySay_____G_____G 13InAppFeedback9TreatmentV s5NeverO
++ _symbolic ScPSg
++ _symbolic ScTySay_____G_____G 13InAppFeedback9TreatmentV s5NeverO
++ _symbolic ScTy__________GSg 13InAppFeedback10FullConfigV s5NeverO
++ _symbolic ScTyyt_____G s5NeverO
++ _symbolic Sd
++ _symbolic So12NSURLSessionC
++ _symbolic _____ 10Foundation4DateV
++ _symbolic _____ 10Foundation8URLErrorV
++ _symbolic _____ 13InAppFeedback03OptA0V
++ _symbolic _____ 13InAppFeedback03OptA0V10CodingKeys33_839C847A125D5E0992CA367606ED8A6ALLO
++ _symbolic _____ 13InAppFeedback10ExperimentV
++ _symbolic _____ 13InAppFeedback10ExperimentV10CodingKeys33_68466B6EB056C9F3A22FE81187C1477BLLO
++ _symbolic _____ 13InAppFeedback10FullConfigV
++ _symbolic _____ 13InAppFeedback10FullConfigV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLO
++ _symbolic _____ 13InAppFeedback10SerializerC
++ _symbolic _____ 13InAppFeedback11AreaHoldoutV
++ _symbolic _____ 13InAppFeedback11AreaHoldoutV10CodingKeys33_3479309108BA00ADF56F49529A1B50B4LLO
++ _symbolic _____ 13InAppFeedback11BucketRangeV
++ _symbolic _____ 13InAppFeedback11BucketRangeV10CodingKeys33_390BF72B7A117DFCFAAD458878CC589DLLO
++ _symbolic _____ 13InAppFeedback11ConfigStoreC
++ _symbolic _____ 13InAppFeedback11ConfigStoreC14DiagnosticCodeO
++ _symbolic _____ 13InAppFeedback11ConfigStoreC19DiagnosticCallbacksV
++ _symbolic _____ 13InAppFeedback11SystemClockV
++ _symbolic _____ 13InAppFeedback12ABAssignmentV
++ _symbolic _____ 13InAppFeedback12ABAssignmentV10CodingKeys33_55F63CC419B9322453217AEEBCC64DB1LLO
++ _symbolic _____ 13InAppFeedback13ConfigIndexesV
++ _symbolic _____ 13InAppFeedback14BaseLineConfigV
++ _symbolic _____ 13InAppFeedback14BaseLineConfigV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLO
++ _symbolic _____ 13InAppFeedback14ConfigHydratorC
++ _symbolic _____ 13InAppFeedback14HydratedConfigV
++ _symbolic _____ 13InAppFeedback17HTTPConfigFetcherC
++ _symbolic _____ 13InAppFeedback17TreatmentProviderC
++ _symbolic _____ 13InAppFeedback17TreatmentProviderC9LayerKind33_DFE56CB67D93B5F6EB11B40550BB828ALLO
++ _symbolic _____ 13InAppFeedback20TreatmentsCalculatorC
++ _symbolic _____ 13InAppFeedback21SerializableTreatmentV
++ _symbolic _____ 13InAppFeedback21SerializableTreatmentV10CodingKeys33_87FE0102D7A640F68A39F0906325E701LLO
++ _symbolic _____ 13InAppFeedback23OneShotContinuationGate33_377D044F6A166F2E262FCABE967F60D3LLC
++ _symbolic _____ 13InAppFeedback25CrossAreaHoldoutEvaluatorC
++ _symbolic _____ 13InAppFeedback25TreatmentsRandomGeneratorC
++ _symbolic _____ 13InAppFeedback4AreaV
++ _symbolic _____ 13InAppFeedback4AreaV10CodingKeys33_8921441654D8257471DF71DA5494B0E7LLO
++ _symbolic _____ 13InAppFeedback4SeedO
++ _symbolic _____ 13InAppFeedback5TopicV
++ _symbolic _____ 13InAppFeedback5TopicV10CodingKeysO
++ _symbolic _____ 13InAppFeedback7ABErrorO
++ _symbolic _____ 13InAppFeedback8MetadataV
++ _symbolic _____ 13InAppFeedback8MetadataV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLO
++ _symbolic _____ 13InAppFeedback8SeedTypeV
++ _symbolic _____ 13InAppFeedback8SeedTypeV10CodingKeys33_56608282A52FAF5CB6BFF38AB7DBF1C4LLO
++ _symbolic _____ 13InAppFeedback9ConstantsO
++ _symbolic _____ 13InAppFeedback9JSONValueO
++ _symbolic _____ 13InAppFeedback9NamespaceV
++ _symbolic _____ 13InAppFeedback9NamespaceV10CodingKeys33_DE45D290205F7142E60BA20A68DDF3EELLO
++ _symbolic _____ 13InAppFeedback9TreatmentV
++ _symbolic _____ 13InAppFeedback9TreatmentV10CodingKeys33_6ABC4E975999D0BF21B4C7B6E97C1EC9LLO
++ _symbolic _____ s5Int64V
++ _symbolic _____IeAgHr_ 13InAppFeedback10FullConfigV
++ _symbolic _____Ieghn_ 13InAppFeedback11ConfigStoreC14DiagnosticCodeO
++ _symbolic _____Sg 10Foundation8TimeZoneV
++ _symbolic _____Sg 13InAppFeedback10ExperimentV
++ _symbolic _____Sg 13InAppFeedback11AreaHoldoutV
++ _symbolic _____Sg 13InAppFeedback11ConfigStoreC19DiagnosticCallbacksV
++ _symbolic _____Sg 13InAppFeedback17TreatmentProviderC9LayerKind33_DFE56CB67D93B5F6EB11B40550BB828ALLO
++ _symbolic _____Sg 13InAppFeedback21SerializableTreatmentV
++ _symbolic _____Sg 13InAppFeedback4AreaV
++ _symbolic _____Sg 13InAppFeedback9TreatmentV
++ _symbolic _____Sg_ABt 13InAppFeedback11AreaHoldoutV
++ _symbolic _____Sg_ABt 13InAppFeedback4AreaV
++ _symbolic ______AAt 13InAppFeedback7ABErrorO
++ _symbolic ___________pIeghng_ 13InAppFeedback11ConfigStoreC14DiagnosticCodeO s5ErrorP
++ _symbolic ___________pytIeghnnr_ 13InAppFeedback11ConfigStoreC14DiagnosticCodeO s5ErrorP
++ _symbolic ___________t 13InAppFeedback10ExperimentV AA4AreaV
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic ______p 13InAppFeedback13ConfigFetcherP
++ _symbolic ______p 13InAppFeedback5ClockP
++ _symbolic ______p s5ErrorP
++ _symbolic ______pSg 13InAppFeedback13ConfigFetcherP
++ _symbolic _____ySDySSypGG s23_ContiguousArrayStorageC
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 13InAppFeedback10ExperimentV
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 13InAppFeedback4AreaV
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 13InAppFeedback9TreatmentV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 13InAppFeedback10ExperimentV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 13InAppFeedback4AreaV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 13InAppFeedback5TopicV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 13InAppFeedback9JSONValueO
++ _symbolic _____ySS_____G s18_DictionaryStorageC 13InAppFeedback9TreatmentV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 13InAppFeedback4AreaV
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____ySsG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G s11_SetStorageC 10Foundation8CalendarV9ComponentO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13InAppFeedback03OptD0V10CodingKeys33_839C847A125D5E0992CA367606ED8A6ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13InAppFeedback10ExperimentV10CodingKeys33_68466B6EB056C9F3A22FE81187C1477BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13InAppFeedback10FullConfigV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13InAppFeedback11AreaHoldoutV10CodingKeys33_3479309108BA00ADF56F49529A1B50B4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13InAppFeedback11BucketRangeV10CodingKeys33_390BF72B7A117DFCFAAD458878CC589DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13InAppFeedback12ABAssignmentV10CodingKeys33_55F63CC419B9322453217AEEBCC64DB1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13InAppFeedback14BaseLineConfigV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13InAppFeedback21SerializableTreatmentV10CodingKeys33_87FE0102D7A640F68A39F0906325E701LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13InAppFeedback4AreaV10CodingKeys33_8921441654D8257471DF71DA5494B0E7LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13InAppFeedback5TopicV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13InAppFeedback8MetadataV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13InAppFeedback8SeedTypeV10CodingKeys33_56608282A52FAF5CB6BFF38AB7DBF1C4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13InAppFeedback9NamespaceV10CodingKeys33_DE45D290205F7142E60BA20A68DDF3EELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13InAppFeedback9TreatmentV10CodingKeys33_6ABC4E975999D0BF21B4C7B6E97C1EC9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13InAppFeedback03OptD0V10CodingKeys33_839C847A125D5E0992CA367606ED8A6ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13InAppFeedback10ExperimentV10CodingKeys33_68466B6EB056C9F3A22FE81187C1477BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13InAppFeedback10FullConfigV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13InAppFeedback11AreaHoldoutV10CodingKeys33_3479309108BA00ADF56F49529A1B50B4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13InAppFeedback11BucketRangeV10CodingKeys33_390BF72B7A117DFCFAAD458878CC589DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13InAppFeedback12ABAssignmentV10CodingKeys33_55F63CC419B9322453217AEEBCC64DB1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13InAppFeedback14BaseLineConfigV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13InAppFeedback21SerializableTreatmentV10CodingKeys33_87FE0102D7A640F68A39F0906325E701LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13InAppFeedback4AreaV10CodingKeys33_8921441654D8257471DF71DA5494B0E7LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13InAppFeedback5TopicV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13InAppFeedback8MetadataV10CodingKeys33_AC7A5F328E99B4A08EAF5874CA998F10LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13InAppFeedback8SeedTypeV10CodingKeys33_56608282A52FAF5CB6BFF38AB7DBF1C4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13InAppFeedback9NamespaceV10CodingKeys33_DE45D290205F7142E60BA20A68DDF3EELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13InAppFeedback9TreatmentV10CodingKeys33_6ABC4E975999D0BF21B4C7B6E97C1EC9LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation8CalendarV9ComponentO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13InAppFeedback10ExperimentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13InAppFeedback11AreaHoldoutV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13InAppFeedback21SerializableTreatmentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13InAppFeedback4AreaV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13InAppFeedback5TopicV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13InAppFeedback9TreatmentV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____ytIeghnr_ 13InAppFeedback11ConfigStoreC14DiagnosticCodeO
++ _symbolic ySSYbcSg
++ _symbolic ySS_______ptYbcSg s5ErrorP
++ _symbolic y_____YbcSg 13InAppFeedback11ConfigStoreC14DiagnosticCodeO
++ _symbolic y____________ptYbcSg 13InAppFeedback11ConfigStoreC14DiagnosticCodeO s5ErrorP
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ _symbolic ytIeAgHr_
++ _type_layout_string 13InAppFeedback03OptA0V
++ _type_layout_string 13InAppFeedback10FullConfigV
++ _type_layout_string 13InAppFeedback11BucketRangeV
++ _type_layout_string 13InAppFeedback11ConfigStoreC19DiagnosticCallbacksV
++ _type_layout_string 13InAppFeedback12ABAssignmentV
++ _type_layout_string 13InAppFeedback13ConfigIndexesV
++ _type_layout_string 13InAppFeedback14BaseLineConfigV
++ _type_layout_string 13InAppFeedback14HydratedConfigV
++ _type_layout_string 13InAppFeedback21SerializableTreatmentV
++ _type_layout_string 13InAppFeedback4AreaV
++ _type_layout_string 13InAppFeedback5TopicV
++ _type_layout_string 13InAppFeedback8MetadataV
++ _type_layout_string 13InAppFeedback8SeedTypeV
++ _type_layout_string 13InAppFeedback9JSONValueO
++ _type_layout_string 13InAppFeedback9NamespaceV
+- ___swift_destroy_boxed_opaque_existential_0Tm
+CStrings:
++ "A/B JSON serialization failed: %{public}s"
++ "A/B treatment resolution failed for area %{public}s: %{public}s"
++ "A/B treatment resolution timed out after %{public}fs"
++ "Caught Exception making HTTP Request"
++ "Configuration on \""
++ "Duplicate values for key: '"
++ "Fatal error"
++ "Malformed survey URL: %{public}s"
++ "Swift/NativeDictionary.swift"
++ "Unknown JSON value"
++ "allowsMultipleAssignments"
++ "areaKeys"
++ "counterfactualKeys"
++ "fallbackTreatmentKey"
++ "https://experiments.apple.com/treatment_provider/v2/config.json"
++ "isAdaptiveTraffic"
++ "key"
++ "resolveAllTreatments(provider:identifier:timeout:)"
++ "storefrontSegmented"
+
+```

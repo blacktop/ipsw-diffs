@@ -1,0 +1,123 @@
+## NLP
+
+> `/System/Library/PrivateFrameworks/NLP.framework/NLP`
+
+```diff
+
+-  __TEXT.__text: 0xca974
++  __TEXT.__text: 0xca498
+   __TEXT.__objc_methlist: 0x3cc
+   __TEXT.__const: 0x1f89
+   __TEXT.__cstring: 0x96fb
+-  __TEXT.__gcc_except_tab: 0x10548
++  __TEXT.__gcc_except_tab: 0x10540
+   __TEXT.__ustring: 0x4e6
+   __TEXT.__oslogstring: 0x4c3
+   __TEXT.__dlopen_cstrs: 0x51
+
+   __AUTH_CONST.__objc_const: 0x670
+   __AUTH_CONST.__weak_auth_got: 0x30
+   __AUTH_CONST.__auth_got: 0xca8
++  __AUTH.__data: 0x2a0
+   __DATA.__objc_ivar: 0x20
+   __DATA.__data: 0x320
+-  __DATA.__bss: 0xf0
+-  __DATA.__common: 0x30
++  __DATA.__bss: 0xe0
++  __DATA.__common: 0x28
+   __DATA_DIRTY.__objc_data: 0x140
+-  __DATA_DIRTY.__data: 0x5a0
+-  __DATA_DIRTY.__common: 0x48
+-  __DATA_DIRTY.__bss: 0x60
++  __DATA_DIRTY.__data: 0x300
++  __DATA_DIRTY.__common: 0x50
++  __DATA_DIRTY.__bss: 0x70
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/CoreEmoji.framework/CoreEmoji
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__unwind_info : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __DATA.__data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+Functions:
+~ __ZN23NLAbstractTransMappings17addDynamicMappingERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEER16NLExtendedString : 648 -> 656
+~ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fqe220106EPKvm : 532 -> 520
+~ __ZNSt3__114__split_bufferI16NLExtendedStringRNS_9allocatorIS1_EEE28__construct_at_end_with_sizeINS_11__wrap_iterIPS1_EEEEvT_m : 192 -> 148
+~ __ZN21NLTransliteratorUtils21findExistingCandidateENSt3__16vectorIP26NLTransliterationCandidateNS0_9allocatorIS3_EEEERKNS0_12basic_stringIcNS0_11char_traitsIcEENS4_IcEEEE : 168 -> 180
+~ _NLMorphologicalAnalyzerEnumerateLemmasForToken : 316 -> 312
+~ _NLMorphologicalAnalyzerEnumerateVariantsForToken : 316 -> 312
+~ __ZNK34NLCompositeTransliteratorException27exceptionCandidatesForInputERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE : 556 -> 532
+~ __ZN2NL14ParseAttribute5closeEv : 724 -> 712
+~ __Z23enumerateIndexesOfRangeNSt3__16vectorINS_10shared_ptrIN2NL6EntityEEENS_9allocatorIS4_EEEE7CFRangeU13block_pointerFvlPbE : 380 -> 360
+~ __ZN2NL14QueryTokenizer36tokenRangeAtTokenizationIndexForSpanEl7CFRange : 220 -> 212
+~ __ZNK2NL14QueryTokenizer36enumerateEntitiesAtTokenizationIndexElU13block_pointerFvNSt3__110shared_ptrINS_6EntityEEEllPbE : 532 -> 504
+~ __ZNK2NL14QueryTokenizer23enumerateQuotedEntitiesEU13block_pointerFvNSt3__110shared_ptrINS_6EntityEEElPbE : 228 -> 212
+~ __ZN2NL14QueryTokenizer34updateEntitiesWithQuotedTextValuesERNSt3__16vectorINS1_10shared_ptrINS_6EntityEEENS1_9allocatorIS5_EEEE : 700 -> 684
+~ __ZN2NL14QueryTokenizer24tokenRangeForSearchPieceE7CFRange : 376 -> 384
+~ __ZN2NL14QueryTokenizer31updateEntitiesWithUnknownValuesERNSt3__16vectorINS1_10shared_ptrINS_6EntityEEENS1_9allocatorIS5_EEEE : 2732 -> 2724
+~ __ZNSt3__16vectorINS_10shared_ptrIN2NL6EntityEEENS_9allocatorIS4_EEE18__insert_with_sizeB9fqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPS4_EESC_EESC_NSA_IPKS4_EET0_T1_l : 488 -> 480
+~ __ZNSt3__116__insertion_sortB9fqe220106INS_17_ClassicAlgPolicyER22entity_less_than_rangePNS_10shared_ptrIN2NL6EntityEEEEEvT1_S9_T0_ : 420 -> 332
+~ __ZNSt3__126__insertion_sort_unguardedB9fqe220106INS_17_ClassicAlgPolicyER22entity_less_than_rangePNS_10shared_ptrIN2NL6EntityEEEEEvT1_S9_T0_ : 408 -> 372
+~ __ZNSt3__132__partition_with_equals_on_rightB9fqe220106INS_17_ClassicAlgPolicyEPNS_10shared_ptrIN2NL6EntityEEER22entity_less_than_rangeEENS_4pairIT0_bEESA_SA_T1_ : 748 -> 740
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyER22entity_less_than_rangePNS_10shared_ptrIN2NL6EntityEEEEEbT1_S9_T0_ : 680 -> 616
+~ __ZNSt3__116__insertion_sortB9fqe220106INS_17_ClassicAlgPolicyER25entity_greater_than_rangePNS_10shared_ptrIN2NL6EntityEEEEEvT1_S9_T0_ : 404 -> 316
+~ __ZNSt3__126__insertion_sort_unguardedB9fqe220106INS_17_ClassicAlgPolicyER25entity_greater_than_rangePNS_10shared_ptrIN2NL6EntityEEEEEvT1_S9_T0_ : 392 -> 356
+~ __ZNSt3__132__partition_with_equals_on_rightB9fqe220106INS_17_ClassicAlgPolicyEPNS_10shared_ptrIN2NL6EntityEEER25entity_greater_than_rangeEENS_4pairIT0_bEESA_SA_T1_ : 712 -> 696
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyER25entity_greater_than_rangePNS_10shared_ptrIN2NL6EntityEEEEEbT1_S9_T0_ : 656 -> 592
+~ __ZNSt3__116__insertion_sortB9fqe220106INS_17_ClassicAlgPolicyER25ranges_greater_than_rangePNS_6vectorI7CFRangeNS_9allocatorIS5_EEEEEEvT1_SA_T0_ : 632 -> 588
+~ __ZNSt3__126__insertion_sort_unguardedB9fqe220106INS_17_ClassicAlgPolicyER25ranges_greater_than_rangePNS_6vectorI7CFRangeNS_9allocatorIS5_EEEEEEvT1_SA_T0_ : 648 -> 664
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyER25ranges_greater_than_rangePNS_6vectorI7CFRangeNS_9allocatorIS5_EEEEEEbT1_SA_T0_ : 1024 -> 968
+~ __ZN29NLMessageIntentDomainDetector23hasPhotoSharingKeywordsERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE : 6016 -> 5988
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE19__add_back_capacityEv : 484 -> 472
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220106INS_9allocatorI31NLMessageIntentTypeWithMetadataEEPS2_EEvRT_T0_S7_S7_ : 140 -> 124
+~ _NLSentenceCorrectorEnumerateErrorsForSentenceWithBlock : 376 -> 368
+~ __ZN24NLSentenceCorrectorModel14setInputTokensEPK10__CFString : 900 -> 884
+~ __ZN24NLSentenceCorrectorModel35possibleCorrectionsForSentenceErrorEPK10__CFString15NLSentenceError : 572 -> 556
+~ __ZNSt3__116__insertion_sortB9fqe220106INS_17_ClassicAlgPolicyERPFbPK26NLTransliterationCandidateS4_ENS_11__wrap_iterIPPS2_EEEEvT1_SC_T0_ : 216 -> 208
+~ __ZNSt3__115__inplace_mergeINS_17_ClassicAlgPolicyERPFbPK26NLTransliterationCandidateS4_ENS_11__wrap_iterIPPS2_EEEEvT1_SC_SC_OT0_NS_15iterator_traitsISC_E15difference_typeESH_PNSG_10value_typeEl : 688 -> 752
+~ __ZNSt3__120__half_inplace_mergeB9fqe220106INS_17_ClassicAlgPolicyENS_8__invertIRPFbPK26NLTransliterationCandidateS5_EEENS_16reverse_iteratorIPPS3_EESD_NSA_INS_11__wrap_iterISC_EEEESG_SG_EEvT1_T2_T3_T4_T5_OT0_ : 200 -> 180
+~ __ZNSt3__116__insertion_sortB9fqe220106INS_17_ClassicAlgPolicyERNS_7greaterI16NLExtendedStringEENS_11__wrap_iterIPS3_EEEEvT1_S9_T0_ : 412 -> 372
+~ __ZNSt3__119__merge_move_assignB9fqe220106INS_17_ClassicAlgPolicyERNS_7greaterI16NLExtendedStringEEPS3_S6_NS_11__wrap_iterIS6_EEEEvT1_S9_T2_SA_T3_T0_ : 444 -> 412
+~ __ZNSt3__115__inplace_mergeINS_17_ClassicAlgPolicyERNS_7greaterI16NLExtendedStringEENS_11__wrap_iterIPS3_EEEEvT1_S9_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeESE_PNSD_10value_typeEl : 776 -> 792
+~ __ZNSt3__122__merge_move_constructB9fqe220106INS_17_ClassicAlgPolicyERNS_7greaterI16NLExtendedStringEENS_11__wrap_iterIPS3_EES8_EEvT1_S9_T2_SA_PNS_15iterator_traitsIS9_E10value_typeET0_ : 404 -> 384
+~ __ZNSt3__112__destruct_n9__processB9fqe220106I16NLExtendedStringEEvPT_NS_17integral_constantIbLb0EEE : 104 -> 96
+~ __ZNSt3__120__half_inplace_mergeB9fqe220106INS_17_ClassicAlgPolicyERNS_7greaterI16NLExtendedStringEEPS3_S6_NS_11__wrap_iterIS6_EES8_S8_EEvT1_T2_T3_T4_T5_OT0_ : 300 -> 280
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE25__parse_equivalence_classIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE : 532 -> 508
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_character_classIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE : 176 -> 152
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_collating_symbolIPKcEET_S7_S7_RNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE : 228 -> 204
+~ __ZN16NLEmojiGenerator23copyKeyEndingWithPhraseEPK10__CFString : 356 -> 376
+~ __ZNSt3__116__insertion_sortB9fqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEvT1_S8_T0_ : 220 -> 192
+~ __ZNSt3__126__insertion_sort_unguardedB9fqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEvT1_S8_T0_ : 236 -> 216
+~ __ZNSt3__132__partition_with_equals_on_rightB9fqe220106INS_17_ClassicAlgPolicyEPNS_4pairIiiEERNS_6__lessIvvEEEENS2_IT0_bEES8_S8_T1_ : 460 -> 456
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIiiEEEEbT1_S8_T0_ : 684 -> 640
+~ __ZNK2NL15EntityConverter34enumerateEntitiesWithTypeAndValuesEPK10__CFString7CFRangeS3_S3_PK14__CFDictionarybU13block_pointerFvNSt3__110unique_ptrINS_6EntityENS8_14default_deleteISA_EEEEE : 4852 -> 4860
+~ __ZN7NLQamus8loadDictERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE : 4452 -> 4424
+~ __ZN7NLQamus29process_word_for_analysisTypeERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_ : 6804 -> 6760
+~ __ZN7NLQamus12get_variantsERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE : 3792 -> 3680
+~ __ZN7NLQamus7analyzeERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE : 7612 -> 7568
+~ __ZNSt3__16vectorI8NLResultNS_9allocatorIS1_EEE22__base_destruct_at_endB9fqe220106EPS1_ : 96 -> 84
+~ __ZNSt3__113__stable_sortINS_17_ClassicAlgPolicyERZNK25NLCompositeTransliterator36assignLanguageModelScoreToCandidatesERNS_6vectorIP26NLTransliterationCandidateNS_9allocatorIS5_EEEERKNS3_INS_12basic_stringIcNS_11char_traitsIcEENS6_IcEEEENS6_ISE_EEEEE3$_2NS_11__wrap_iterIPS5_EEEEvT1_SO_T0_NS_15iterator_traitsISO_E15difference_typeEPNSR_10value_typeEl : 664 -> 656
+~ __ZNSt3__115__inplace_mergeINS_17_ClassicAlgPolicyERZNK25NLCompositeTransliterator36assignLanguageModelScoreToCandidatesERNS_6vectorIP26NLTransliterationCandidateNS_9allocatorIS5_EEEERKNS3_INS_12basic_stringIcNS_11char_traitsIcEENS6_IcEEEENS6_ISE_EEEEE3$_2NS_11__wrap_iterIPS5_EEEEvT1_SO_SO_OT0_NS_15iterator_traitsISO_E15difference_typeEST_PNSS_10value_typeEl : 952 -> 1044
+~ __ZNSt3__116__insertion_sortB9fqe220106INS_17_ClassicAlgPolicyERPFbRKNS_10shared_ptrI25NLMessageConversationTurnEES6_EPS4_EEvT1_SB_T0_ : 320 -> 276
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERPFbRKNS_10shared_ptrI25NLMessageConversationTurnEES6_EPS4_EEbT1_SB_T0_ : 932 -> 884
+~ __ZNSt3__116__insertion_sortB9fqe220106INS_17_ClassicAlgPolicyERPFbRKNS_10unique_ptrI24NLMessageIntentCandidateNS_14default_deleteIS3_EEEES8_EPS6_EEvT1_SD_T0_ : 332 -> 320
+~ __ZNSt3__126__insertion_sort_unguardedB9fqe220106INS_17_ClassicAlgPolicyERPFbRKNS_10unique_ptrI24NLMessageIntentCandidateNS_14default_deleteIS3_EEEES8_EPS6_EEvT1_SD_T0_ : 352 -> 348
+~ __ZNSt3__132__partition_with_equals_on_rightB9fqe220106INS_17_ClassicAlgPolicyEPNS_10unique_ptrI24NLMessageIntentCandidateNS_14default_deleteIS3_EEEERPFbRKS6_S9_EEENS_4pairIT0_bEESE_SE_T1_ : 476 -> 464
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERPFbRKNS_10unique_ptrI24NLMessageIntentCandidateNS_14default_deleteIS3_EEEES8_EPS6_EEbT1_SD_T0_ : 1040 -> 1016
+~ __ZN3nlp12BurstTrieAddEPNS_10_BurstTrieEPKhjj : 432 -> 444
+~ __ZN3nlp15BurstTrieRemoveEPNS_10_BurstTrieEPKhj : 2372 -> 2380
+
+```

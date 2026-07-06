@@ -1,0 +1,52 @@
+## FindMyUICore
+
+> `FileSystem/System/Library/PrivateFrameworks/FindMyUICore.framework/UIBase.loctable`
+
+```diff
+
+ en.LOST_MODE_FEATURE_TITLE_SHOW_CONTACT_INFO_MAC = "Show Message"
+ en.LOST_MODE_FEATURE_TITLE_SHOW_CONTACT_INFO_PENCIL = "Info Card"
+ en.PAUSE_DURATION_DATE_FORMAT_STYLE_FUTURE_%@ = "Hiding until %@"
+-en.PAUSE_DURATION_DATE_FORMAT_STYLE_MINUTES_%@ = "Hiding for %@ min"
++en.PAUSE_DURATION_DATE_FORMAT_STYLE_MINUTES_%lld.NSStringLocalizedFormatKey = "%#@value@"
++en.PAUSE_DURATION_DATE_FORMAT_STYLE_MINUTES_%lld.value.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++en.PAUSE_DURATION_DATE_FORMAT_STYLE_MINUTES_%lld.value.NSStringFormatValueTypeKey = "lld"
++en.PAUSE_DURATION_DATE_FORMAT_STYLE_MINUTES_%lld.value.one = "Hiding for %lld min"
++en.PAUSE_DURATION_DATE_FORMAT_STYLE_MINUTES_%lld.value.other = "Hiding for %lld min"
+ en.PAUSE_DURATION_DATE_FORMAT_STYLE_TODAY_%@ = "Hiding until %@"
+-en.PAUSE_DURATION_DATE_FORMAT_STYLE_TOMORROW_%@ = "Hiding until tomorrow at %@"
++en.PAUSE_DURATION_DATE_FORMAT_STYLE_TOMORROW_%@.NSStringLocalizedFormatKey = "%2$#@arg1@"
++en.PAUSE_DURATION_DATE_FORMAT_STYLE_TOMORROW_%@.arg1.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++en.PAUSE_DURATION_DATE_FORMAT_STYLE_TOMORROW_%@.arg1.NSStringFormatValueTypeKey = "lld"
++en.PAUSE_DURATION_DATE_FORMAT_STYLE_TOMORROW_%@.arg1.one = "Hiding until tomorrow at %1$@"
++en.PAUSE_DURATION_DATE_FORMAT_STYLE_TOMORROW_%@.arg1.other = "Hiding until tomorrow at %1$@"
+ en.PERSON_LOCATE_ACTION_DIRECTIONS_TITLE = "Directions"
+ en.PERSON_LOCATE_ACTION_FIND_TITLE = "Find"
+ en.PERSON_LOCATE_ACTION_OPENFINDMY_TITLE = "Open in Find My"
++en.SEPARATED_PAIR_FORMAT_%@_%@_%@ = "%1$@%2$@%3$@"
+ en.SEPARATOR_%@_%@ = "%@ • %@"
++en.SEPARATOR_BULLET_CHAR = " • "
++en.SEPARATOR_INTERPUNCT_CHAR = " · "
++en.SEPARATOR_VERTICAL_BAR = " | "
+ en.SETTINGS_ALERT_ACTIVE_SHARING_DEVICE_ERROR_MESSAGE = "Cannot update device sharing location. Please try again later."
+ en.SETTINGS_ALERT_ACTIVE_SHARING_DEVICE_ERROR_TITLE = "Error Updating Device"
+ en.SETTINGS_ALERT_ERROR_ALLOW_FRIENDSHIP_REQUEST_MESSAGE = "Cannot update allow friend requests. Please try again later."
+
+ en.SETTINGS_ALERT_SHARE_MY_LOCATION_OFF_ERROR_MESSAGE = "Error turning on Share My Location"
+ en.SETTINGS_ALERT_SHARE_MY_LOCATION_ON_ERROR_MESSAGE = "Error turning off Share My Location"
+ en.SHARE_DURATION_DATE_FORMAT_STYLE_FUTURE_%@ = "Sharing until %@"
+-en.SHARE_DURATION_DATE_FORMAT_STYLE_MINUTES_%@ = "Sharing for %@ min"
++en.SHARE_DURATION_DATE_FORMAT_STYLE_MINUTES_%lld.NSStringLocalizedFormatKey = "%#@value@"
++en.SHARE_DURATION_DATE_FORMAT_STYLE_MINUTES_%lld.value.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++en.SHARE_DURATION_DATE_FORMAT_STYLE_MINUTES_%lld.value.NSStringFormatValueTypeKey = "lld"
++en.SHARE_DURATION_DATE_FORMAT_STYLE_MINUTES_%lld.value.one = "Sharing for %lld min"
++en.SHARE_DURATION_DATE_FORMAT_STYLE_MINUTES_%lld.value.other = "Sharing for %lld min"
+ en.SHARE_DURATION_DATE_FORMAT_STYLE_TODAY_%@ = "Sharing until %@"
+-en.SHARE_DURATION_DATE_FORMAT_STYLE_TOMORROW_%@ = "Sharing until tomorrow at %@"
++en.SHARE_DURATION_DATE_FORMAT_STYLE_TOMORROW_%@_%lld.NSStringLocalizedFormatKey = "%2$#@arg1@"
++en.SHARE_DURATION_DATE_FORMAT_STYLE_TOMORROW_%@_%lld.arg1.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++en.SHARE_DURATION_DATE_FORMAT_STYLE_TOMORROW_%@_%lld.arg1.NSStringFormatValueTypeKey = "lld"
++en.SHARE_DURATION_DATE_FORMAT_STYLE_TOMORROW_%@_%lld.arg1.one = "Sharing until tomorrow at %1$@"
++en.SHARE_DURATION_DATE_FORMAT_STYLE_TOMORROW_%@_%lld.arg1.other = "Sharing until tomorrow at %1$@"
+
+```

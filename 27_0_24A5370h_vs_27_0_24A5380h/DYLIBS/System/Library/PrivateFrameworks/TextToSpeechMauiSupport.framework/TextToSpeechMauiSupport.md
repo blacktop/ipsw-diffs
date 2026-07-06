@@ -1,0 +1,271 @@
+## TextToSpeechMauiSupport
+
+> `/System/Library/PrivateFrameworks/TextToSpeechMauiSupport.framework/TextToSpeechMauiSupport`
+
+```diff
+
+-  __TEXT.__text: 0x54c36c
+-  __TEXT.__const: 0xdd008
+-  __TEXT.__cstring: 0x4850e
+-  __TEXT.__constg_swiftt: 0x86c
+-  __TEXT.__swift5_typeref: 0x7cf
++  __TEXT.__text: 0x53d018
++  __TEXT.__const: 0xdd0c8
++  __TEXT.__cstring: 0x4856e
++  __TEXT.__constg_swiftt: 0x888
++  __TEXT.__swift5_typeref: 0x795
+   __TEXT.__swift5_builtin: 0x1b8
+   __TEXT.__swift5_reflstr: 0x64e
+-  __TEXT.__swift5_fieldmd: 0x914
++  __TEXT.__swift5_fieldmd: 0x924
+   __TEXT.__swift5_assocty: 0x78
+-  __TEXT.__swift5_capture: 0x16c
+-  __TEXT.__swift5_proto: 0x5c
+-  __TEXT.__swift5_types: 0x8c
+-  __TEXT.__swift_as_entry: 0x70
+-  __TEXT.__swift_as_ret: 0x44
+-  __TEXT.__swift_as_cont: 0xb8
++  __TEXT.__swift5_capture: 0x1a0
++  __TEXT.__swift5_proto: 0x60
++  __TEXT.__swift5_types: 0x90
++  __TEXT.__swift_as_entry: 0x78
++  __TEXT.__swift_as_ret: 0x48
++  __TEXT.__swift_as_cont: 0xbc
+   __TEXT.__oslogstring: 0xdbe
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__ustring: 0x8
+-  __TEXT.__gcc_except_tab: 0x7c2c
+-  __TEXT.__unwind_info: 0xbca8
+-  __TEXT.__eh_frame: 0x18c0
++  __TEXT.__gcc_except_tab: 0x74a4
++  __TEXT.__unwind_info: 0xb830
++  __TEXT.__eh_frame: 0x1908
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x10
+   __DATA_CONST.__objc_selrefs: 0xd0
+-  __DATA_CONST.__got: 0x330
+-  __AUTH_CONST.__const: 0x128c0
++  __DATA_CONST.__got: 0x340
++  __AUTH_CONST.__const: 0x129b8
+   __AUTH_CONST.__cfstring: 0x1e0
+   __AUTH_CONST.__objc_const: 0x590
+   __AUTH_CONST.__weak_auth_got: 0x20
+-  __AUTH_CONST.__auth_got: 0xe68
++  __AUTH_CONST.__auth_got: 0xe70
+   __AUTH.__objc_data: 0xf0
+   __AUTH.__data: 0x4d0
+-  __DATA.__data: 0x388
++  __DATA.__data: 0x398
+   __DATA.__objc_stublist: 0x8
+   __DATA.__crash_info: 0x148
+-  __DATA.__bss: 0xbf0
++  __DATA.__bss: 0xc70
+   __DATA.__common: 0x54
+   __DATA_DIRTY.__objc_data: 0xd0
+   __DATA_DIRTY.__data: 0x208
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 15482
+-  Symbols:   25087
+-  CStrings:  12620
++  Functions: 15448
++  Symbols:   24928
++  CStrings:  12622
+ 
+Sections:
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_reflstr : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__objc_stublist : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+~ __DATA_DIRTY.__data : content changed
+Symbols:
++ GCC_except_table101
++ GCC_except_table108
++ GCC_except_table119
++ GCC_except_table139
++ GCC_except_table142
++ GCC_except_table148
++ GCC_except_table152
++ GCC_except_table162
++ GCC_except_table168
++ GCC_except_table172
++ GCC_except_table178
++ GCC_except_table180
++ GCC_except_table184
++ GCC_except_table193
++ GCC_except_table73
++ GCC_except_table78
++ GCC_except_table79
++ _Psola_CopyDataPartRev
++ __ZN11MIXTURE_ARMD2Ev
++ __ZN11StyleEngineD2Ev
++ __ZN14MelganStreamerD2Ev
++ __ZN15HifiganStreamerD2Ev
++ __ZN19DECODER_LIGHTSPEECHD2Ev
++ __ZN19ENCODER_LIGHTSPEECHD2Ev
++ __ZN20HIFIGAN_UPSAMPLER_16D2Ev
++ __ZN20HIFIGAN_UPSAMPLER_32D2Ev
++ __ZN21PARLOTRON_MIXTURE_ARMD2Ev
++ __ZN22DURATION_PREDICTOR_ARMD2Ev
++ __ZN9CONV_TYPED2Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEES9_EEPvEENS_22__hash_node_destructorINS7_ISC_EEEEE5resetB9nqe220106EPSC_
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEE14CUSTOM_STYLE_SEEPvEENS_22__tree_node_destructorINS7_ISD_EEEEE5resetB9nqe220106EPSD_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEE14CUSTOM_STYLE_SEEEEvPT_
++ __ZNSt3__112__destroy_atB9nqe220106INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEES8_EEEEvPT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEES8_EENS_22__unordered_map_hasherIS8_NS_4pairIKS8_S8_EENS_4hashIS8_EENS_8equal_toIS8_EEEENS_21__unordered_map_equalIS8_SD_SH_SF_EENS6_ISD_EEE22__deallocate_node_listB9nqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS9_PvEEEE
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEERNS5_IS7_EEE17__destruct_at_endB9nqe220106EPS7_
++ __ZNSt3__114__split_bufferINS_4pairImNS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEEEERNS6_IS9_EEE17__destruct_at_endB9nqe220106EPS9_
++ __ZNSt3__114__split_bufferINS_6vectorIfN5ENTTS9AllocatorIfEEEERNS3_IS5_EEE17__destruct_at_endB9nqe220106EPS5_
++ __ZNSt3__114__split_bufferINS_6vectorIiN5ENTTS9AllocatorIiEEEERNS3_IS5_EEE17__destruct_at_endB9nqe220106EPS5_
++ __ZNSt3__114__split_bufferINS_6vectorImN5ENTTS9AllocatorImEEEERNS3_IS5_EEE17__destruct_at_endB9nqe220106EPS5_
++ __ZNSt3__128__exception_guard_exceptionsIZNS_10shared_ptrI11StyleEngineEC1B9nqe220106IS2_N5ENTTS7DeleterIS2_EENS5_9AllocatorIS2_EELi0EEEPT_T0_T1_EUlvE_ED2B9nqe220106Ev
++ __ZNSt3__14listINS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEENS5_IS7_EEE9push_backEOS7_
++ __ZNSt3__16vectorINS0_IfN5ENTTS9AllocatorIfEEEENS2_IS4_EEE5clearB9nqe220106Ev
++ __ZNSt3__16vectorINS0_IiN5ENTTS9AllocatorIiEEEENS2_IS4_EEE5clearB9nqe220106Ev
++ __ZNSt3__16vectorINS0_ImN5ENTTS9AllocatorImEEEENS2_IS4_EEE5clearB9nqe220106Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEENS5_IS7_EEE5clearB9nqe220106Ev
++ __ZNSt3__16vectorINS_4pairImNS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEEEENS6_IS9_EEE5clearB9nqe220106Ev
++ ___swift_closure_destructor.93Tm
++ ___swift_memcpy0_1
++ _calloc
++ _symbolic _____ 23TextToSpeechMauiSupport33EnglishSentenceBoundaryNormalizerV
++ _type_layout_string 23TextToSpeechMauiSupport33EnglishSentenceBoundaryNormalizerV
+- GCC_except_table103
+- GCC_except_table109
+- GCC_except_table113
+- GCC_except_table118
+- GCC_except_table121
+- GCC_except_table124
+- GCC_except_table129
+- GCC_except_table132
+- GCC_except_table133
+- GCC_except_table138
+- GCC_except_table140
+- GCC_except_table143
+- GCC_except_table146
+- GCC_except_table147
+- GCC_except_table150
+- GCC_except_table151
+- GCC_except_table153
+- GCC_except_table160
+- GCC_except_table161
+- GCC_except_table163
+- GCC_except_table166
+- GCC_except_table167
+- GCC_except_table170
+- GCC_except_table175
+- GCC_except_table176
+- GCC_except_table177
+- GCC_except_table179
+- GCC_except_table181
+- GCC_except_table182
+- GCC_except_table186
+- GCC_except_table187
+- GCC_except_table190
+- GCC_except_table200
+- GCC_except_table201
+- GCC_except_table208
+- GCC_except_table212
+- GCC_except_table32
+- GCC_except_table34
+- GCC_except_table35
+- GCC_except_table60
+- GCC_except_table65
+- GCC_except_table69
+- GCC_except_table72
+- GCC_except_table75
+- GCC_except_table76
+- GCC_except_table81
+- GCC_except_table83
+- GCC_except_table87
+- GCC_except_table88
+- GCC_except_table91
+- _Psola_ReallocIfNeeded
+- __AbstractComponent_BorrowFreeCallbackFn
+- __TTSMauiVocalizerHeapImplCalloc
+- __TTSMauiVocalizerHeapImplFree
+- __TTSMauiVocalizerHeapImplMalloc
+- __TTSMauiVocalizerHeapImplRealloc
+- __Z12entts_deleteI11StyleEngineEvPT_
+- __ZN11MIXTURE_ARMD1Ev
+- __ZN13DECODER_LAYERD2Ev
+- __ZN13ENCODER_LAYERD2Ev
+- __ZN17PITCH_LIGHTSPEECHD2Ev
+- __ZN20DURATION_LIGHTSPEECHD2Ev
+- __ZN22DURATION_PREDICTOR_ARMD1Ev
+- __ZNSt3__110__list_impINS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEENS5_IS7_EEE13__create_nodeB9nqe220106IJS7_EEEPNS_11__list_nodeIS7_PvEEPNS_16__list_node_baseIS7_SC_EESH_DpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEES8_EENS_22__unordered_map_hasherIS8_NS_4pairIKS8_S8_EENS_4hashIS8_EENS_8equal_toIS8_EEEENS_21__unordered_map_equalIS8_SD_SH_SF_EENS6_ISD_EEE17__deallocate_nodeB9nqe220106EPNS_11__hash_nodeIS9_PvEE
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEE23__reset_internal_bufferB9nqe220106ENS6_5__repE
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEaSB9nqe220106EOS6_
+- __ZNSt3__114__split_bufferIDhRN5ENTTS9AllocatorIDhEEED2Ev
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEERNS5_IS7_EEE5clearB9nqe220106Ev
+- __ZNSt3__114__split_bufferINS_4pairImNS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEEEERNS6_IS9_EEE5clearB9nqe220106Ev
+- __ZNSt3__114__split_bufferINS_6vectorIfN5ENTTS9AllocatorIfEEEERNS3_IS5_EEE5clearB9nqe220106Ev
+- __ZNSt3__114__split_bufferINS_6vectorIiN5ENTTS9AllocatorIiEEEERNS3_IS5_EEE5clearB9nqe220106Ev
+- __ZNSt3__114__split_bufferINS_6vectorImN5ENTTS9AllocatorImEEEERNS3_IS5_EEE5clearB9nqe220106Ev
+- __ZNSt3__114__split_bufferIPNS_6vectorIfN5ENTTS9AllocatorIfEEEERNS3_IS6_EEED2Ev
+- __ZNSt3__114__split_bufferIPNS_6vectorIiN5ENTTS9AllocatorIiEEEERNS3_IS6_EEED2Ev
+- __ZNSt3__114__split_bufferIPNS_6vectorImN5ENTTS9AllocatorImEEEERNS3_IS6_EEED2Ev
+- __ZNSt3__114__split_bufferIcRN5ENTTS9AllocatorIcEEED2Ev
+- __ZNSt3__114__split_bufferIfRN5ENTTS9AllocatorIfEEED2Ev
+- __ZNSt3__114__split_bufferIiRN5ENTTS9AllocatorIiEEED2Ev
+- __ZNSt3__114__split_bufferIjRN5ENTTS9AllocatorIjEEED2Ev
+- __ZNSt3__114__split_bufferImRN5ENTTS9AllocatorImEEED2Ev
+- __ZNSt3__114__split_bufferIsRN5ENTTS9AllocatorIsEEED2Ev
+- __ZNSt3__118__allocation_guardIN5ENTTS9AllocatorINS_11__list_nodeINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEPvEEEEE9__destroyB9nqe220106Ev
+- __ZNSt3__122__hash_node_destructorIN5ENTTS9AllocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEES9_EEPvEEEEEclB9nqe220106EPSC_
+- __ZNSt3__122__tree_node_destructorIN5ENTTS9AllocatorINS_11__tree_nodeINS_12__value_typeI9JKEY_ID_EPKcEEPvEEEEEclB9nqe220106EPSA_
+- __ZNSt3__122__tree_node_destructorIN5ENTTS9AllocatorINS_11__tree_nodeINS_12__value_typeI9JKEY_ID_EiEEPvEEEEEclB9nqe220106EPS8_
+- __ZNSt3__122__tree_node_destructorIN5ENTTS9AllocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEE14CUSTOM_STYLE_SEEPvEEEEEclB9nqe220106EPSD_
+- __ZNSt3__125__bucket_list_deallocatorIN5ENTTS9AllocatorIPNS_16__hash_node_baseIPNS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEESA_EEPvEEEEEEEclB9nqe220106EPSG_
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEEN5ENTTS9AllocatorIcEEEE14CUSTOM_STYLE_SEENS_19__map_value_compareIS8_NS_4pairIKS8_S9_EENS_4lessIS8_EEEENS6_ISE_EEE5eraseENS_21__tree_const_iteratorISA_PNS_11__tree_nodeISA_PvEElEE
+- __ZNSt3__16vectorIDhN5ENTTS9AllocatorIDhEEE13__vdeallocateEv
+- __ZNSt3__16vectorIDhN5ENTTS9AllocatorIDhEEE16__destroy_vectorclB9nqe220106Ev
+- __ZNSt3__16vectorIPNS0_IfN5ENTTS9AllocatorIfEEEENS2_IS5_EEE16__destroy_vectorclB9nqe220106Ev
+- __ZNSt3__16vectorIPNS0_IiN5ENTTS9AllocatorIiEEEENS2_IS5_EEE16__destroy_vectorclB9nqe220106Ev
+- __ZNSt3__16vectorIPNS0_ImN5ENTTS9AllocatorImEEEENS2_IS5_EEE16__destroy_vectorclB9nqe220106Ev
+- __ZNSt3__16vectorIcN5ENTTS9AllocatorIcEEE16__destroy_vectorclB9nqe220106Ev
+- __ZNSt3__16vectorIdN5ENTTS9AllocatorIdEEE16__destroy_vectorclB9nqe220106Ev
+- __ZNSt3__16vectorIfN5ENTTS9AllocatorIfEEE13__vdeallocateEv
+- __ZNSt3__16vectorIfN5ENTTS9AllocatorIfEEE16__destroy_vectorclB9nqe220106Ev
+- __ZNSt3__16vectorIiN5ENTTS9AllocatorIiEEE16__destroy_vectorclB9nqe220106Ev
+- __ZNSt3__16vectorIjN5ENTTS9AllocatorIjEEE13__vdeallocateEv
+- __ZNSt3__16vectorIjN5ENTTS9AllocatorIjEEE16__destroy_vectorclB9nqe220106Ev
+- __ZNSt3__16vectorImN5ENTTS9AllocatorImEEE13__vdeallocateEv
+- __ZNSt3__16vectorImN5ENTTS9AllocatorImEEE16__destroy_vectorclB9nqe220106Ev
+- __ZNSt3__16vectorIsN5ENTTS9AllocatorIsEEE16__destroy_vectorclB9nqe220106Ev
+- __ZNSt3__16vectorIyN5ENTTS9AllocatorIyEEE13__vdeallocateEv
+- ___swift_closure_destructor.94Tm
+- _heap_Alloc
+- _heap_Calloc
+- _heap_Free
+- _heap_Realloc
+- _hlp_freeWordPhoneList
+- _malloc_type_realloc
+- _symbolic SvSgAA_AASitXCSg
+- _symbolic SvSgAA_S2itXCSg
+- _symbolic SvSgAA_SitXCSg
+- _symbolic ySvSg_AAtXCSg
+- _type_layout_string So19VE_HEAP_INTERFACE_SV
+CStrings:
++ "/(?:[A-Za-z]+\\s+){2,}[A-Za-z]+(?:[!?]+|\\.(?!\\.))(?=\\s+[a-z])/"
++ "EnglishSentenceBoundary"
+
+```

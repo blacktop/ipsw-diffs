@@ -1,0 +1,336 @@
+## SiriSettings
+
+> `/System/Library/PreferenceBundles/SiriSettings.bundle/SiriSettings`
+
+```diff
+
+-  __TEXT.__text: 0xaccc
+-  __TEXT.__auth_stubs: 0xb50
+-  __TEXT.__objc_stubs: 0x460
++  __TEXT.__text: 0xe4e8
++  __TEXT.__auth_stubs: 0xc40
++  __TEXT.__objc_stubs: 0x580
+   __TEXT.__objc_methlist: 0x15c
+-  __TEXT.__const: 0x638
+-  __TEXT.__objc_methname: 0x595
++  __TEXT.__const: 0x7c8
++  __TEXT.__objc_methname: 0x685
+   __TEXT.__objc_classname: 0xec
+-  __TEXT.__objc_methtype: 0x155
+-  __TEXT.__cstring: 0x2cf
+-  __TEXT.__swift5_typeref: 0x197
+-  __TEXT.__swift5_capture: 0x64
+-  __TEXT.__constg_swiftt: 0x2c8
+-  __TEXT.__swift5_reflstr: 0x126
+-  __TEXT.__swift5_fieldmd: 0x134
+-  __TEXT.__swift5_proto: 0x34
+-  __TEXT.__swift5_types: 0x2c
+-  __TEXT.__swift_as_entry: 0x14
+-  __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__swift_as_cont: 0x10
+-  __TEXT.__oslogstring: 0xb3
++  __TEXT.__objc_methtype: 0x199
++  __TEXT.__cstring: 0x38f
++  __TEXT.__swift5_typeref: 0x2a3
++  __TEXT.__swift5_capture: 0xa4
++  __TEXT.__constg_swiftt: 0x31c
++  __TEXT.__swift5_reflstr: 0x166
++  __TEXT.__swift5_fieldmd: 0x178
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__swift5_proto: 0x40
++  __TEXT.__swift5_types: 0x34
++  __TEXT.__swift_as_entry: 0x2c
++  __TEXT.__swift_as_ret: 0x28
++  __TEXT.__swift_as_cont: 0x2c
++  __TEXT.__oslogstring: 0x172
+   __TEXT.__swift5_assocty: 0x30
+-  __TEXT.__unwind_info: 0x340
+-  __TEXT.__eh_frame: 0x440
+-  __DATA_CONST.__const: 0x588
++  __TEXT.__unwind_info: 0x430
++  __TEXT.__eh_frame: 0x5f8
++  __DATA_CONST.__const: 0x7a0
+   __DATA_CONST.__cfstring: 0x60
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA_CONST.__auth_got: 0x5b0
+-  __DATA_CONST.__got: 0x128
+-  __DATA_CONST.__auth_ptr: 0x1e0
+-  __DATA.__objc_const: 0x4b0
+-  __DATA.__objc_selrefs: 0x1c0
++  __DATA_CONST.__auth_got: 0x628
++  __DATA_CONST.__got: 0x148
++  __DATA_CONST.__auth_ptr: 0x218
++  __DATA.__objc_const: 0x4d0
++  __DATA.__objc_selrefs: 0x208
+   __DATA.__objc_ivar: 0x4
+   __DATA.__objc_data: 0x50
+-  __DATA.__data: 0x4c8
+-  __DATA.__bss: 0x690
++  __DATA.__data: 0x548
++  __DATA.__bss: 0x810
+   __DATA.__common: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AAAFoundationSwift.framework/AAAFoundationSwift
++  - /System/Library/PrivateFrameworks/AppConduit.framework/AppConduit
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/BulletinBoard.framework/BulletinBoard
+   - /System/Library/PrivateFrameworks/CoreSuggestions.framework/CoreSuggestions
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/ModelCatalog.framework/ModelCatalog
++  - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
++  - /System/Library/PrivateFrameworks/NanoResourceGrabber.framework/NanoResourceGrabber
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /System/Library/PrivateFrameworks/Settings.framework/Settings
+   - /System/Library/PrivateFrameworks/SiriSetup.framework/SiriSetup
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 273
+-  Symbols:   2322
+-  CStrings:  124
++  Functions: 348
++  Symbols:   2868
++  CStrings:  146
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __DATA_CONST.__cfstring : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA.__objc_data : content changed
+Symbols:
++ _$s10Foundation4DataV15_RepresentationOWOe
++ _$s10Foundation4DataV15_RepresentationOWOy
++ _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
++ _$s10Foundation4DataVMn
++ _$s10Foundation4DataVSgMR
++ _$s10Foundation4DataVSgMd
++ _$s10Foundation4DataVSgWOe
++ _$s10Foundation4DataVSgWOy
++ _$s12SiriSettings0A11FeatureFlagO9hashValueSivgTm
++ _$s12SiriSettings0A11FeatureFlagO9isEnabledSbvgTm
++ _$s12SiriSettings0A11FeatureFlagOSHAASH13_rawHashValue4seedS2i_tFTWTm
++ _$s12SiriSettings0A11FeatureFlagOSHAASH9hashValueSivgTWTm
++ _$s12SiriSettings0A11FeatureFlagOwetTm
++ _$s12SiriSettings0A11FeatureFlagOwstTm
++ _$s12SiriSettings0A21TTSServiceFeatureFlagO0D5Flags0dF3KeyAAMc
++ _$s12SiriSettings0A21TTSServiceFeatureFlagO0D5Flags0dF3KeyAAMcMK
++ _$s12SiriSettings0A21TTSServiceFeatureFlagO0D5Flags0dF3KeyAadEP6domains12StaticStringVvgTW
++ _$s12SiriSettings0A21TTSServiceFeatureFlagO0D5Flags0dF3KeyAadEP7features12StaticStringVvgTW
++ _$s12SiriSettings0A21TTSServiceFeatureFlagO21__derived_enum_equalsySbAC_ACtFZ
++ _$s12SiriSettings0A21TTSServiceFeatureFlagO4hash4intoys6HasherVz_tF
++ _$s12SiriSettings0A21TTSServiceFeatureFlagO6domains12StaticStringVvg
++ _$s12SiriSettings0A21TTSServiceFeatureFlagO6domains12StaticStringVvpMV
++ _$s12SiriSettings0A21TTSServiceFeatureFlagO7features12StaticStringVvg
++ _$s12SiriSettings0A21TTSServiceFeatureFlagO7features12StaticStringVvpMV
++ _$s12SiriSettings0A21TTSServiceFeatureFlagO9hashValueSivg
++ _$s12SiriSettings0A21TTSServiceFeatureFlagO9hashValueSivpMV
++ _$s12SiriSettings0A21TTSServiceFeatureFlagO9isEnabledSbvg
++ _$s12SiriSettings0A21TTSServiceFeatureFlagO9isEnabledSbvpMV
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOAC0D5Flags0dF3KeyAAWL
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOAC0D5Flags0dF3KeyAAWl
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOACSQAAWL
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOACSQAAWl
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOMF
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOMa
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOMf
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOMn
++ _$s12SiriSettings0A21TTSServiceFeatureFlagON
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOSHAAMc
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOSHAAMcMK
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOSHAASH9hashValueSivgTW
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOSHAASQWb
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOSQAAMc
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOSQAAMcMK
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOSQAASQ2eeoiySbx_xtFZTW
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOWV
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOwet
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOwst
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOwug
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOwui
++ _$s12SiriSettings0A21TTSServiceFeatureFlagOwup
++ _$s12SiriSettings22RestrictAccessProviderC0A5Setup0cD9ProvidingAadEP9watchAppsSayAD0cD7AppInfoVGyYaFTW
++ _$s12SiriSettings22RestrictAccessProviderC0A5Setup0cD9ProvidingAadEP9watchAppsSayAD0cD7AppInfoVGyYaFTWTQ0_
++ _$s12SiriSettings22RestrictAccessProviderC0A5Setup0cD9ProvidingAadEP9watchAppsSayAD0cD7AppInfoVGyYaFTWTu
++ _$s12SiriSettings22RestrictAccessProviderC0A5Setup0cD9ProvidingAadEP9watchIcon3for10Foundation4DataVSgSS_tYaFTW
++ _$s12SiriSettings22RestrictAccessProviderC0A5Setup0cD9ProvidingAadEP9watchIcon3for10Foundation4DataVSgSS_tYaFTWTQ0_
++ _$s12SiriSettings22RestrictAccessProviderC0A5Setup0cD9ProvidingAadEP9watchIcon3for10Foundation4DataVSgSS_tYaFTWTu
++ _$s12SiriSettings22RestrictAccessProviderC13watchOnlyApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL12iosBundleIDsSay0A5Setup0cD7AppInfoVGShySSG_tYaFZ
++ _$s12SiriSettings22RestrictAccessProviderC13watchOnlyApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL12iosBundleIDsSay0A5Setup0cD7AppInfoVGShySSG_tYaFZTQ1_
++ _$s12SiriSettings22RestrictAccessProviderC13watchOnlyApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL12iosBundleIDsSay0A5Setup0cD7AppInfoVGShySSG_tYaFZTY0_
++ _$s12SiriSettings22RestrictAccessProviderC13watchOnlyApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL12iosBundleIDsSay0A5Setup0cD7AppInfoVGShySSG_tYaFZTY2_
++ _$s12SiriSettings22RestrictAccessProviderC13watchOnlyApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL12iosBundleIDsSay0A5Setup0cD7AppInfoVGShySSG_tYaFZTu
++ _$s12SiriSettings22RestrictAccessProviderC13watchOnlyApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL12iosBundleIDsSay0A5Setup0cD7AppInfoVGShySSG_tYaFZyScCyAJs5NeverOGXEfU_
++ _$s12SiriSettings22RestrictAccessProviderC13watchOnlyApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL12iosBundleIDsSay0A5Setup0cD7AppInfoVGShySSG_tYaFZyScCyAJs5NeverOGXEfU_SbSo20ACXRemoteApplicationCSg_s5Error_pSgtcfU0_
++ _$s12SiriSettings22RestrictAccessProviderC13watchOnlyApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL12iosBundleIDsSay0A5Setup0cD7AppInfoVGShySSG_tYaFZyScCyAJs5NeverOGXEfU_SbSo20ACXRemoteApplicationCSg_s5Error_pSgtcfU0_TA
++ _$s12SiriSettings22RestrictAccessProviderC13watchOnlyApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL12iosBundleIDsSay0A5Setup0cD7AppInfoVGShySSG_tYaFZyScCyAJs5NeverOGXEfU_SbSo20ACXRemoteApplicationCSg_s5Error_pSgtcfU0_yAJ9collected_Sb9didResumetz_tYbXEfU0_
++ _$s12SiriSettings22RestrictAccessProviderC13watchOnlyApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL12iosBundleIDsSay0A5Setup0cD7AppInfoVGShySSG_tYaFZyScCyAJs5NeverOGXEfU_yAJcfU_
++ _$s12SiriSettings22RestrictAccessProviderC13watchOnlyApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL12iosBundleIDsSay0A5Setup0cD7AppInfoVGShySSG_tYaFZyScCyAJs5NeverOGXEfU_yAJcfU_TA
++ _$s12SiriSettings22RestrictAccessProviderC17fetchWatchAppIcon33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL16bundleIdentifier10Foundation4DataVSgSS_tYaFZTf4nd_n
++ _$s12SiriSettings22RestrictAccessProviderC17fetchWatchAppIcon33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL16bundleIdentifier10Foundation4DataVSgSS_tYaFZTf4nd_nTQ1_
++ _$s12SiriSettings22RestrictAccessProviderC17fetchWatchAppIcon33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL16bundleIdentifier10Foundation4DataVSgSS_tYaFZTf4nd_nTY0_
++ _$s12SiriSettings22RestrictAccessProviderC17fetchWatchAppIcon33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL16bundleIdentifier10Foundation4DataVSgSS_tYaFZTf4nd_nTY2_
++ _$s12SiriSettings22RestrictAccessProviderC17fetchWatchAppIcon33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL16bundleIdentifier10Foundation4DataVSgSS_tYaFZTf4nd_nTu
++ _$s12SiriSettings22RestrictAccessProviderC17fetchWatchAppIcon33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL16bundleIdentifier10Foundation4DataVSgSS_tYaFZyScCyAJs5NeverOGXEfU_ySo7UIImageCSgcfU_
++ _$s12SiriSettings22RestrictAccessProviderC17fetchWatchAppIcon33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL16bundleIdentifier10Foundation4DataVSgSS_tYaFZyScCyAJs5NeverOGXEfU_ySo7UIImageCSgcfU_TA
++ _$s12SiriSettings22RestrictAccessProviderC22excludedWatchBundleIDs33_66C4B3A0C06B7EB3D990F0393DAFD9F8LLShySSGvpZ
++ _$s12SiriSettings22RestrictAccessProviderC22excludedWatchBundleIDs33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL_WZ
++ _$s12SiriSettings22RestrictAccessProviderC22excludedWatchBundleIDs33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL_WZTv_r
++ _$s12SiriSettings22RestrictAccessProviderC22excludedWatchBundleIDs33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL_Wz
++ _$s12SiriSettings22RestrictAccessProviderC7iosApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LLSay0A5Setup0cD7AppInfoVGyF
++ _$s12SiriSettings22RestrictAccessProviderC9iconCache33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL2os21OSAllocatedUnfairLockVySDySS10Foundation4DataVGGvpWvd
++ _$s12SiriSettings22RestrictAccessProviderC9iconCache33_66C4B3A0C06B7EB3D990F0393DAFD9F8LL2os21OSAllocatedUnfairLockVySDySS10Foundation4DataVGGvpfi
++ _$s12SiriSettings22RestrictAccessProviderC9watchAppsSay0A5Setup0cD7AppInfoVGyYaF
++ _$s12SiriSettings22RestrictAccessProviderC9watchAppsSay0A5Setup0cD7AppInfoVGyYaFTQ1_
++ _$s12SiriSettings22RestrictAccessProviderC9watchAppsSay0A5Setup0cD7AppInfoVGyYaFTY0_
++ _$s12SiriSettings22RestrictAccessProviderC9watchAppsSay0A5Setup0cD7AppInfoVGyYaFTq
++ _$s12SiriSettings22RestrictAccessProviderC9watchAppsSay0A5Setup0cD7AppInfoVGyYaFTu
++ _$s12SiriSettings22RestrictAccessProviderC9watchIcon3for10Foundation4DataVSgSS_tYaF
++ _$s12SiriSettings22RestrictAccessProviderC9watchIcon3for10Foundation4DataVSgSS_tYaFTQ1_
++ _$s12SiriSettings22RestrictAccessProviderC9watchIcon3for10Foundation4DataVSgSS_tYaFTY0_
++ _$s12SiriSettings22RestrictAccessProviderC9watchIcon3for10Foundation4DataVSgSS_tYaFTY2_
++ _$s12SiriSettings22RestrictAccessProviderC9watchIcon3for10Foundation4DataVSgSS_tYaFTq
++ _$s12SiriSettings22RestrictAccessProviderC9watchIcon3for10Foundation4DataVSgSS_tYaFTu
++ _$s2os21OSAllocatedUnfairLockVMn
++ _$s9SiriSetup21RestrictAccessAppInfoV8bundleID4name11isWatchOnlyACSS_SSSbtcfC
++ _$s9SiriSetup21RestrictAccessAppInfoV8bundleIDSSvg
++ _$s9SiriSetup23RestrictAccessProvidingP9watchAppsSayAA0cD7AppInfoVGyYaFTq
++ _$s9SiriSetup23RestrictAccessProvidingP9watchIcon3for10Foundation4DataVSgSS_tYaFTq
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_10Foundation4DataVTg5
++ _$sSDyq_SgxcisSS_10Foundation4DataVTg5
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSry9SiriSetup21RestrictAccessAppInfoVG_Tg504$s12i10Settings22kl69ProviderC7iosApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LLSay0A5Setup0cD7mN18VGyFSbAH_AHtXEfU2_Tf1nncn_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVy9SiriSetup21RestrictAccessAppInfoVG_Tg504$s12f10Settings22hi69ProviderC7iosApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LLSay0A5Setup0cD7jK18VGyFSbAH_AHtXEfU2_Tf1cn_n
++ _$sSay9SiriSetup21RestrictAccessAppInfoVGMR
++ _$sSay9SiriSetup21RestrictAccessAppInfoVGMd
++ _$sScCy10Foundation4DataVSgs5NeverOGMR
++ _$sScCy10Foundation4DataVSgs5NeverOGMd
++ _$sScCySay9SiriSetup21RestrictAccessAppInfoVGs5NeverOGMR
++ _$sScCySay9SiriSetup21RestrictAccessAppInfoVGs5NeverOGMd
++ _$sSh15minimumCapacityShyxGSi_tcfC
++ _$sSh8containsySbxFSS_Tg5
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSS_SaySSGTt0g5Tf4g_n
++ _$sSo16os_unfair_lock_sVMB
++ _$sSo16os_unfair_lock_sVMF
++ _$sSo16os_unfair_lock_sVML
++ _$sSo16os_unfair_lock_sVMa
++ _$sSo16os_unfair_lock_sVMf
++ _$sSo16os_unfair_lock_sVMn
++ _$sSo16os_unfair_lock_sVWV
++ _$sSo16os_unfair_lock_sVwet
++ _$sSo16os_unfair_lock_sVwst
++ _$sSo20ACXRemoteApplicationCSgs5Error_pSgSbIegggd_ACSo7NSErrorCSgSbIeyByyd_TR
++ _$sSo7UIImageCSgIegg_ACIeyBy_TR
++ _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF9SiriSetup21RestrictAccessAppInfoV_Tg504$s12f10Settings22hi69ProviderC7iosApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LLSay0A5Setup0cD7jK18VGyFSbAH_AHtXEfU2_Tf1nncn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKF9SiriSetup21RestrictAccessAppInfoV_Tg504$s12e10Settings22gh69ProviderC7iosApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LLSay0A5Setup0cD7iJ18VGyFSbAH_AHtXEfU2_Tf1cn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_9SiriSetup21RestrictAccessAppInfoV_Tg504$s12e10Settings22gh69ProviderC7iosApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LLSay0A5Setup0cD7iJ18VGyFSbAH_AHtXEfU2_Tf1nnncn_n
++ _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF9SiriSetup21RestrictAccessAppInfoV_Tg5
++ _$ss13ManagedBufferCMn
++ _$ss13ManagedBufferCySDySS10Foundation4DataVGSo16os_unfair_lock_sVGMR
++ _$ss13ManagedBufferCySDySS10Foundation4DataVGSo16os_unfair_lock_sVGMd
++ _$ss13ManagedBufferCySay9SiriSetup21RestrictAccessAppInfoVG9collected_Sb9didResumetSo16os_unfair_lock_sVGMR
++ _$ss13ManagedBufferCySay9SiriSetup21RestrictAccessAppInfoVG9collected_Sb9didResumetSo16os_unfair_lock_sVGMd
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSS_Tg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_10Foundation4DataVTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_10Foundation4DataVTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_10Foundation4DataVTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_10Foundation4DataVTg5
++ _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
++ _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
++ _$ss18_DictionaryStorageCySS10Foundation4DataVGMR
++ _$ss18_DictionaryStorageCySS10Foundation4DataVGMd
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5
++ _$ss23_ContiguousArrayStorageCySSGMR
++ _$ss23_ContiguousArrayStorageCySSGMd
++ _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$ss6UInt32VMn
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF9SiriSetup21RestrictAccessAppInfoV_Tg504$s12g10Settings22ij69ProviderC7iosApps33_66C4B3A0C06B7EB3D990F0393DAFD9F8LLSay0A5Setup0cD7kL18VGyFSbAH_AHtXEfU2_Tf1nnnnc_n
++ _OBJC_CLASS_$_ACXDeviceConnection
++ _OBJC_CLASS_$_NRPairedDeviceRegistry
++ _OBJC_CLASS_$_NanoResourceGrabber
++ _UIImagePNGRepresentation
++ ___swift_memcpy4_4
++ _associated conformance 12SiriSettings0A21TTSServiceFeatureFlagOSHAASQ
++ _objc_msgSend$applicationMode
++ _objc_msgSend$applicationName
++ _objc_msgSend$companionAppBundleID
++ _objc_msgSend$counterpartIdentifiers
++ _objc_msgSend$enumerateInstalledApplicationsOnPairedDevice:withBlock:
++ _objc_msgSend$getActivePairedDevice
++ _objc_msgSend$getIconForBundleID:iconVariant:block:timeout:
++ _objc_msgSend$sharedDeviceConnection
++ _objc_msgSend$sharedInstance
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _swift_errorRetain
++ _swift_getErrorValue
++ _swift_release_x28
++ _swift_retain
++ _swift_retain_x21
++ _swift_retain_x23
++ _symbolic Say_____G 9SiriSetup21RestrictAccessAppInfoV
++ _symbolic Say_____GIegg_ 9SiriSetup21RestrictAccessAppInfoV
++ _symbolic ScCySay_____G_____G 9SiriSetup21RestrictAccessAppInfoV s5NeverO
++ _symbolic ScCy_____Sg_____G 10Foundation4DataV s5NeverO
++ _symbolic _____ 12SiriSettings0A21TTSServiceFeatureFlagO
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____ s6UInt32V
++ _symbolic _____Sg 10Foundation4DataV
++ _symbolic _____XDXMT 12SiriSettings22RestrictAccessProviderC
++ _symbolic _____ySDySS_____GG 2os21OSAllocatedUnfairLockV 10Foundation4DataV
++ _symbolic _____ySDySS_____G_____G s13ManagedBufferCsRi__rlE 10Foundation4DataV So16os_unfair_lock_sV
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 10Foundation4DataV
++ _symbolic _____ySay_____G9collected_Sb9didResumetG 2os21OSAllocatedUnfairLockV 9SiriSetup21RestrictAccessAppInfoV
++ _symbolic _____ySay_____G9collected_Sb9didResumet_____G s13ManagedBufferCsRi__rlE 9SiriSetup21RestrictAccessAppInfoV So16os_unfair_lock_sV
++ _type_layout_string So16os_unfair_lock_sV
++ block_copy_helper
++ block_descriptor
++ block_destroy_helper
+- _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSry9SiriSetup21RestrictAccessAppInfoVG_Tg504$s12i10Settings22kl39ProviderC13availableAppsSay0A5Setup0cD7mN20VGyYaFSbAG_AGtXEfU2_Tf1nncn_n
+- _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVy9SiriSetup21RestrictAccessAppInfoVG_Tg504$s12f10Settings22hi39ProviderC13availableAppsSay0A5Setup0cD7jK20VGyYaFSbAG_AGtXEfU2_Tf1cn_n
+- _$sSr13_mergeTopRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKF9SiriSetup21RestrictAccessAppInfoV_Tg504$s12f10Settings22hi39ProviderC13availableAppsSay0A5Setup0cD7jK20VGyYaFSbAG_AGtXEfU2_Tf1nncn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF9SiriSetup21RestrictAccessAppInfoV_Tg504$s12e10Settings22gh39ProviderC13availableAppsSay0A5Setup0cD7iJ20VGyYaFSbAG_AGtXEfU2_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_9SiriSetup21RestrictAccessAppInfoV_Tg504$s12e10Settings22gh39ProviderC13availableAppsSay0A5Setup0cD7iJ20VGyYaFSbAG_AGtXEfU2_Tf1nnncn_n
+- _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF9SiriSetup21RestrictAccessAppInfoV_Tg504$s12g10Settings22ij39ProviderC13availableAppsSay0A5Setup0cD7kL20VGyYaFSbAG_AGtXEfU2_Tf1nnnnc_n
+- _swift_release_x22
+- _swift_retain_x22
+CStrings:
++ "B24@?0@\"ACXRemoteApplication\"8@\"NSError\"16"
++ "SiriTTSService"
++ "Watch apps: %ld watch-only apps"
++ "Watch apps: enumeration error: %s"
++ "Watch apps: no active paired device; iOS-only list"
++ "Watch icon %s: NanoResourceGrabber unavailable"
++ "applicationMode"
++ "applicationName"
++ "com.apple.NanoPhone"
++ "com.apple.NanoSettings"
++ "companionAppBundleID"
++ "counterpartIdentifiers"
++ "custom_voice_preset"
++ "enumerateInstalledApplicationsOnPairedDevice:withBlock:"
++ "fetchWatchAppIcon(bundleIdentifier:)"
++ "getActivePairedDevice"
++ "getIconForBundleID:iconVariant:block:timeout:"
++ "iconCache"
++ "sharedDeviceConnection"
++ "sharedInstance"
++ "v16@?0@\"UIImage\"8"
++ "watchOnlyApps(iosBundleIDs:)"
+
+```

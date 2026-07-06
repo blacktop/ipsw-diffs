@@ -1,0 +1,187 @@
+## MomentsUI
+
+> `/System/Library/PrivateFrameworks/MomentsUI.framework/MomentsUI`
+
+```diff
+
+-  __TEXT.__text: 0x518078
+-  __TEXT.__objc_methlist: 0x4374
+-  __TEXT.__cstring: 0xe5e6
+-  __TEXT.__const: 0x1f7b4
+-  __TEXT.__swift5_typeref: 0x8e78
++  __TEXT.__text: 0x518544
++  __TEXT.__objc_methlist: 0x4364
++  __TEXT.__cstring: 0xe626
++  __TEXT.__const: 0x1f7d4
++  __TEXT.__swift5_typeref: 0x8e84
+   __TEXT.__swift5_reflstr: 0x9032
+   __TEXT.__swift5_assocty: 0x1180
+   __TEXT.__constg_swiftt: 0xe2a4
+
+   __TEXT.__swift5_proto: 0x119c
+   __TEXT.__swift5_types: 0x920
+   __TEXT.__oslogstring: 0x13be8
+-  __TEXT.__swift_as_entry: 0xc14
+-  __TEXT.__swift_as_ret: 0xd44
+-  __TEXT.__swift_as_cont: 0x1a10
++  __TEXT.__swift_as_entry: 0xc10
++  __TEXT.__swift_as_ret: 0xd40
++  __TEXT.__swift_as_cont: 0x1a00
+   __TEXT.__swift5_protos: 0xb4
+   __TEXT.__swift5_capture: 0x4a4c
+   __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__unwind_info: 0x108e8
+-  __TEXT.__eh_frame: 0x1e3f8
++  __TEXT.__unwind_info: 0x108a0
++  __TEXT.__eh_frame: 0x1e328
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x7e8
+   __DATA_CONST.__objc_protolist: 0x1a8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2d78
++  __DATA_CONST.__objc_selrefs: 0x2d70
+   __DATA_CONST.__objc_protorefs: 0xe8
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __DATA_CONST.__got: 0x1798
++  __DATA_CONST.__got: 0x1790
+   __AUTH_CONST.__const: 0x19220
+   __AUTH_CONST.__cfstring: 0x1c0
+   __AUTH_CONST.__objc_const: 0x10d28
+-  __AUTH_CONST.__auth_got: 0x2620
++  __AUTH_CONST.__auth_got: 0x2628
+   __AUTH.__objc_data: 0x138e0
+   __AUTH.__data: 0x69c8
+   __DATA.__objc_ivar: 0x24
+-  __DATA.__data: 0x6b60
++  __DATA.__data: 0x6b10
+   __DATA.__bss: 0x1bba0
+   __DATA.__common: 0x1110
+   __DATA_DIRTY.__objc_data: 0xe20
+-  __DATA_DIRTY.__data: 0x49b8
++  __DATA_DIRTY.__data: 0x49a8
+   __DATA_DIRTY.__bss: 0x4800
+   __DATA_DIRTY.__common: 0x238
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 24142
+-  Symbols:   70289
+-  CStrings:  2631
++  Functions: 24134
++  Symbols:   70275
++  CStrings:  2632
+ 
+Sections:
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_fieldmd : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift5_capture : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__common : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+Symbols:
++ _$s9MomentsUI11CloudDeviceV11systemIdiomAC0F0OvpACTK
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ0_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ10_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ12_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ14_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ2_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ4_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ6_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ8_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY11_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY13_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY15_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY1_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY3_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY5_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY7_
++ _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY9_
++ _$s9MomentsUI12CloudManagerC25nextRecordZoneChangeBatch_10syncEngine0C3Kit06CKSyncK0C0fghI0VSgAH18SendChangesContextV_AHtYaFyyYaXEfU_TQ0_
++ _$s9MomentsUI12CloudManagerC25nextRecordZoneChangeBatch_10syncEngine0C3Kit06CKSyncK0C0fghI0VSgAH18SendChangesContextV_AHtYaFyyYaXEfU_TY1_
++ _$s9MomentsUI19ProgressLoadingViewC11statusLabel33_D3F6E6234ED0AC059FA720935173F4B9LLSo7UILabelCvpfiAGyXEfU_Tm
++ _$sShy9MomentsUI11CloudDeviceV10CapabilityOGSgMR
++ _$sShy9MomentsUI11CloudDeviceV10CapabilityOGSgMd
++ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lF9MomentsUI11CloudDeviceV10CapabilityO_ShyAKGTg5
++ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lFSS_ShySSGTg5
++ _$ss10_NativeSetV19genericIntersectionyAByxGqd__7ElementQyd__RszSTRd__lF9MomentsUI11CloudDeviceV10CapabilityO_SayAKGTg5
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.248TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.248Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.291TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.291Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.460TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.460Tu
++ ___swift_closure_destructor.211Tm
++ ___swift_closure_destructor.239Tm
++ _swift_task_localValuePop
++ _swift_task_localValuePush
++ _symbolic Shy_____GSg 9MomentsUI11CloudDeviceV10CapabilityO
+- _$s9MomentsUI11CloudSyncDBC5_sync33_5ED2EBDED70EE9FCCE73C129B259B72FLL5force4fromySb_SStYaFyyYaXEfU_
+- _$s9MomentsUI11CloudSyncDBC5_sync33_5ED2EBDED70EE9FCCE73C129B259B72FLL5force4fromySb_SStYaFyyYaXEfU_TA
+- _$s9MomentsUI11CloudSyncDBC5_sync33_5ED2EBDED70EE9FCCE73C129B259B72FLL5force4fromySb_SStYaFyyYaXEfU_TATQ0_
+- _$s9MomentsUI11CloudSyncDBC5_sync33_5ED2EBDED70EE9FCCE73C129B259B72FLL5force4fromySb_SStYaFyyYaXEfU_TATu
+- _$s9MomentsUI11CloudSyncDBC5_sync33_5ED2EBDED70EE9FCCE73C129B259B72FLL5force4fromySb_SStYaFyyYaXEfU_TQ0_
+- _$s9MomentsUI11CloudSyncDBC5_sync33_5ED2EBDED70EE9FCCE73C129B259B72FLL5force4fromySb_SStYaFyyYaXEfU_Tu
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFTY2_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ11_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ13_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ15_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ1_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ3_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ5_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ7_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TQ9_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY0_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY10_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY12_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY14_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY19_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY2_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY4_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY6_
+- _$s9MomentsUI12CloudManagerC11handleEvent_10syncEnginey0C3Kit06CKSyncH0C0F0O_AHtYaFyyYaXEfU_TY8_
+- _$s9MomentsUI12CloudManagerC25nextRecordZoneChangeBatch_10syncEngine0C3Kit06CKSyncK0C0fghI0VSgAH18SendChangesContextV_AHtYaFTY4_
+- _$s9MomentsUI12CloudManagerC25nextRecordZoneChangeBatch_10syncEngine0C3Kit06CKSyncK0C0fghI0VSgAH18SendChangesContextV_AHtYaFyyYaXEfU_TQ1_
+- _$s9MomentsUI12CloudManagerC25nextRecordZoneChangeBatch_10syncEngine0C3Kit06CKSyncK0C0fghI0VSgAH18SendChangesContextV_AHtYaFyyYaXEfU_TY0_
+- _$s9MomentsUI12CloudManagerC25nextRecordZoneChangeBatch_10syncEngine0C3Kit06CKSyncK0C0fghI0VSgAH18SendChangesContextV_AHtYaFyyYaXEfU_TY2_
+- _$s9MomentsUI19ProgressLoadingViewC11statusLabel33_D3F6E6234ED0AC059FA720935173F4B9LLSo7UILabelCvpfiAGyXEfU_
+- _$s9MomentsUI19ProgressLoadingViewC14secondaryLabel33_D3F6E6234ED0AC059FA720935173F4B9LLSo7UILabelCvpfiAGyXEfU_
+- _$s9MomentsUI34InterstitialCarouselViewControllerC21viewDidLayoutSubviewsyyF
+- _$s9MomentsUI34InterstitialCarouselViewControllerC21viewDidLayoutSubviewsyyFTo
+- _$sSh11subtractingyShyxGABF9MomentsUI11CloudDeviceV10CapabilityO_Tg5
+- _$sSh11subtractingyShyxGABFSS_Tg5
+- _$sSh16formIntersectionyyqd__7ElementQyd__RszSTRd__lF9MomentsUI11CloudDeviceV10CapabilityO_SayAHGTg5
+- _$ss9TaskLocalC9withValue_9operation9isolation4file4lineqd__x_qd__yYaKXEScA_pSgYiSSSutYaKlF
+- _$ss9TaskLocalC9withValue_9operation9isolation4file4lineqd__x_qd__yYaKXEScA_pSgYiSSSutYaKlFTu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.250TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.250Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.293TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.293Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.462TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.462Tu
+- ___swift_closure_destructor.213Tm
+- ___swift_closure_destructor.241Tm
+CStrings:
++ "Check back later..."
++ "Tell user to check journaling suggestions sheet again later"
+- "MomentsUI/CloudManager.swift"
+
+```

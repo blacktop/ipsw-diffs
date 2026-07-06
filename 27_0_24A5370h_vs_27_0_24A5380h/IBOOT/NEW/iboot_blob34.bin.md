@@ -1,0 +1,41 @@
+## iboot_blob34.bin
+
+- `BMSScratchpad: Migration failed, zeroing scratchpad`
+- `drivers/gasgauge/v1/veridian/drv_gg_veridian.cpp`
+- `PTD: Disabled push agent index %d from ptd_type %d`
+- `Read Shelf life- data=%d, return state=%d, rc=%#x`
+- `drivers/inductive/bcm59367.cpp`
+- `PTD: Configured push base address for push agent (%d) die_index=%d ondie_push_agent_index=%d push_base_lo=0x%08x`
+- `drivers/devices/ptd.cpp`
+- `BMSScratchpad: Migration successful (v0x%04x -> v0x%04x)`
+- `GGFWUPD: task out of sync ggIdx:%d`
+- `GGFWUPD: Error: op does not have GG_FW_UPDATE_FLAG_IDATA_VALID`
+- `i2c err: %#x : bus=%d i2ca=%#x cmd=%#x : error reading count`
+- `%s:%d fwdl addr %x`
+- `PTD: Enabled push agent (%d) die_index=%d ondie_push_agent_index=%d pwcwin=0x%08x`
+- `BattTh: !ok2switch`
+- `GGFWUPD: op:%u rc:0x%x status:0x%x`
+- `shsn_update_firmware`
+- `s:%d: %s, %s GAPF error: addr=0x%llx, cmd=%c, valid=%d, id=%d`
+- `BMSScratchpad: Old version detected (0x%04x), migrating to 0x%04x`
+- `BMS: system pack detection state:%d`
+- `GGFWUPD: board id read failure rc:%d ggIdx:%d`
+- `lc_transfer_core`
+- `drivers/inductive/drv_bcm59367.cpp`
+- `Error Reading %d: %d`
+- `GGFWUPD: Invalid key %x`
+- `BattTh: ok2switch`
+- `data size > expected size:: bus=%d i2ca=%#x cmd=%#x`
+- `GGFWUPD: out of sync kick_cnt:%zu task_cnt:%zu`
+- `BMSScratchpad: Performing migration from version 0x%04x to 0x%04x`
+- `drivers/devices/ptd_fwd_eng.cpp`
+- `GGFWUPD: model id read failure rc:%d ggIdx:%d`
+- `lc_read_multiple`
+- `%s: i2c err %#x : bus=%d i2ca=%#x cmd=%#x count=%d ggI2cFlags=%x`
+- `BMSScratchpad: Failed to write migrated data (rc=%d)`
+- `Write Shelf life state requested = %d, data=%d, rc = %d, `
+- `dotara_spmi_irq_handler`
+- `%s: %s:%d: %s, PTD: PWC quiesce failed data=0x%x (%d)`
+- `GGFWUPD: Error: op >= kGgFwUpdOpMax`
+- `%s:%d SPMI error: %x`
+- `%s:%d : strt`

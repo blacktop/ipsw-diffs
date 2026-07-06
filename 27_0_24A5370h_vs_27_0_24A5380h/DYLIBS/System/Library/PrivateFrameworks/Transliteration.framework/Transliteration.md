@@ -1,0 +1,41 @@
+## Transliteration
+
+> `/System/Library/PrivateFrameworks/Transliteration.framework/Transliteration`
+
+```diff
+
+-  __TEXT.__text: 0x18688
++  __TEXT.__text: 0x185a8
+   __TEXT.__objc_methlist: 0x26c
+   __TEXT.__const: 0x4b0
+   __TEXT.__gcc_except_tab: 0x1df8
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__gcc_except_tab : content changed
+~ __TEXT.__unwind_info : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __AUTH.__objc_data : content changed
+~ __DATA.__data : content changed
+Functions:
+~ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fqe220106EPKvm : 532 -> 520
+~ __ZNK25TLCompositeTransliterator35updateCandidatesWithEmojiCandidatesERNSt3__16vectorI34TLCompositeTransliteratorCandidateNS0_9allocatorIS2_EEEE : 1020 -> 1012
+~ __ZNSt3__114__split_bufferI34TLCompositeTransliteratorCandidateRNS_9allocatorIS1_EEE28__construct_at_end_with_sizeINS_11__wrap_iterIPS1_EEEEvT_m : 264 -> 220
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220106INS_9allocatorI34TLCompositeTransliteratorCandidateEEPS2_S4_S4_EET2_RT_T0_T1_S5_ : 260 -> 244
+~ __ZNKSt3__111__copy_implclB9fqe220106IP34TLCompositeTransliteratorCandidateS3_S3_Li0EEENS_4pairIT_T1_EES5_T0_S6_ : 128 -> 124
+~ __ZNSt3__113__stable_sortINS_17_ClassicAlgPolicyERZNK25TLCompositeTransliterator36assignLanguageModelScoreToCandidatesERNS_6vectorI34TLCompositeTransliteratorCandidateNS_9allocatorIS4_EEEERKNS3_INS_12basic_stringIcNS_11char_traitsIcEENS5_IcEEEENS5_ISD_EEEEE3$_1NS_11__wrap_iterIPS4_EEEEvT1_SN_T0_NS_15iterator_traitsISN_E15difference_typeEPNSQ_10value_typeEl : 1652 -> 1556
+~ __ZNSt3__118__stable_sort_moveINS_17_ClassicAlgPolicyERZNK25TLCompositeTransliterator36assignLanguageModelScoreToCandidatesERNS_6vectorI34TLCompositeTransliteratorCandidateNS_9allocatorIS4_EEEERKNS3_INS_12basic_stringIcNS_11char_traitsIcEENS5_IcEEEENS5_ISD_EEEEE3$_1NS_11__wrap_iterIPS4_EEEEvT1_SN_T0_NS_15iterator_traitsISN_E15difference_typeEPNSQ_10value_typeE : 1776 -> 1764
+~ __ZNSt3__115__inplace_mergeINS_17_ClassicAlgPolicyERZNK25TLCompositeTransliterator36assignLanguageModelScoreToCandidatesERNS_6vectorI34TLCompositeTransliteratorCandidateNS_9allocatorIS4_EEEERKNS3_INS_12basic_stringIcNS_11char_traitsIcEENS5_IcEEEENS5_ISD_EEEEE3$_1NS_11__wrap_iterIPS4_EEEEvT1_SN_SN_OT0_NS_15iterator_traitsISN_E15difference_typeESS_PNSR_10value_typeEl : 1844 -> 1828
+~ __ZNSt3__110unique_ptrI34TLCompositeTransliteratorCandidateRNS_12__destruct_nEED2B9fqe220106Ev : 140 -> 124
+
+```

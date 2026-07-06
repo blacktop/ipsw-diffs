@@ -1,0 +1,10 @@
+## _MarketplaceIntents_AppIntents
+
+> `/System/Library/PrivateFrameworks/_MarketplaceIntents_AppIntents.framework/_MarketplaceIntents_AppIntents`
+
+Sections:
+~ __TEXT.__const : content changed
+~ __TEXT.__swift5_typeref : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __DATA_CONST.__const : content changed
+~ __AUTH_CONST.__const : content changed

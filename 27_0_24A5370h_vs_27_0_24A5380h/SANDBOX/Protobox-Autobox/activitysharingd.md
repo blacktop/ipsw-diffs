@@ -1,0 +1,107 @@
+## activitysharingd
+
+> Group: ⬆️ Updated
+
+```diff
+
+ (deny mach-lookup
+ 	(require-all
+ 		(global-name "com.apple.dt.testmanagerd.uiprocess")
+-		(require-not (global-name "com.apple.securityd"))
+-		(require-not (global-name "com.apple.diagnosticd"))
+-		(require-not (global-name "com.apple.lsd.icons"))
+-		(require-not (global-name "com.apple.logd.events"))
+-		(require-not (global-name "com.apple.runningboard"))
+-		(require-not (global-name "com.apple.lsd.xpc"))
+-		(require-not (global-name "com.apple.contactsd"))
+-		(require-not (global-name "com.apple.nanoprefsync"))
+-		(require-not (global-name "com.apple.accountsd.accountmanager"))
+-		(require-not (global-name "com.apple.mobile.keybagd.UserManager.xpc"))
+-		(require-not (global-name "com.apple.contacts.poster.api"))
+-		(require-not (global-name "com.apple.inputservice.keyboardui"))
+-		(require-not (global-name "com.apple.apsd"))
+-		(require-not (global-name "com.apple.debug.telemetry"))
+-		(require-not (global-name "com.apple.familycircle.agent"))
+-		(require-not (global-name "com.apple.biome.compute.source"))
+-		(require-not (global-name "com.apple.system.logger"))
+-		(require-not (global-name "com.apple.diagd"))
+-		(require-not (global-name "com.apple.activityawardsd"))
+-		(require-not (global-name "com.apple.mobile.usermanagerd.xpc"))
+-		(require-not (global-name "com.apple.fitnesscoachingd"))
+-		(require-not (global-name "com.apple.trustd"))
+-		(require-not (global-name "com.apple.DiskArbitration.diskarbitrationd"))
+-		(require-not (global-name "com.apple.analyticsd"))
+-		(require-not (global-name "com.apple.healthd.server"))
+-		(require-not (global-name "com.apple.identityservicesd.nsxpc"))
+ 		(require-not (global-name "com.apple.biome.access.user"))
+-		(require-not (global-name "com.apple.cloudd"))
+-		(require-not (global-name "com.apple.cfprefsd.daemon"))
++		(require-not (global-name "com.apple.lsd.icons"))
++		(require-not (global-name "com.apple.biome.compute.source"))
++		(require-not (global-name "com.apple.healthd.server"))
+ 		(require-not (global-name "com.apple.lsd.mapdb"))
+-		(require-not (global-name "com.apple.distributed_notifications@1v3-debug"))
+-		(require-not (global-name "com.apple.identityservicesd.embedded.auth"))
+-		(require-not (global-name "com.apple.distributed_notifications@1v3"))
++		(require-not (global-name "com.apple.nanoprefsync"))
+ 		(require-not (global-name "com.apple.coreduetd.knowledge"))
+-		(require-not (global-name "com.apple.erm.logging"))
+-		(require-not (global-name "com.apple.imagent.embedded.auth"))
+-		(require-not (global-name "com.apple.logd"))
+-		(require-not (global-name "com.apple.contacts.CNContactsTestsEnvironmentServer"))
+-		(require-not (global-name "com.apple.containermanagerd.system"))
++		(require-not (global-name "com.apple.trustd"))
+ 		(require-not (global-name "com.apple.frontboard.systemappservices"))
++		(require-not (global-name "com.apple.mobile.keybagd.UserManager.xpc"))
++		(require-not (global-name "com.apple.fitnesscoachingd"))
++		(require-not (global-name "com.apple.lsd.xpc"))
++		(require-not (global-name "com.apple.apsd"))
++		(require-not (global-name "com.apple.accountsd.accountmanager"))
++		(require-not (global-name "com.apple.DiskArbitration.diskarbitrationd"))
++		(require-not (global-name "com.apple.mobile.usermanagerd.xpc"))
++		(require-not (global-name "com.apple.inputservice.keyboardui"))
++		(require-not (global-name "com.apple.diagnosticd"))
+ 		(require-not (global-name "com.apple.cmfsyncagent.embedded.auth"))
++		(require-not (global-name "com.apple.cloudd"))
++		(require-not (global-name "com.apple.distributed_notifications@1v3"))
++		(require-not (global-name "com.apple.activityawardsd"))
++		(require-not (global-name "com.apple.erm.logging"))
+ 		(require-not (global-name "com.apple.cfprefsd.daemon.system"))
++		(require-not (global-name "com.apple.contacts.poster.api"))
++		(require-not (global-name "com.apple.runningboard"))
++		(require-not (global-name "com.apple.identityservicesd.nsxpc"))
++		(require-not (global-name "com.apple.imagent.embedded.auth"))
++		(require-not (global-name "com.apple.diagd"))
++		(require-not (global-name "com.apple.securityd"))
++		(require-not (global-name "com.apple.logd.events"))
++		(require-not (global-name "com.apple.distributed_notifications@1v3-debug"))
++		(require-not (global-name "com.apple.cfprefsd.daemon"))
++		(require-not (global-name "com.apple.contacts.CNContactsTestsEnvironmentServer"))
++		(require-not (global-name "com.apple.debug.telemetry"))
++		(require-not (global-name "com.apple.system.logger"))
++		(require-not (global-name "com.apple.familycircle.agent"))
++		(require-not (global-name "com.apple.logd"))
++		(require-not (global-name "com.apple.analyticsd"))
++		(require-not (global-name "com.apple.identityservicesd.embedded.auth"))
++		(require-not (global-name "com.apple.containermanagerd.system"))
++		(require-not (global-name "com.apple.contactsd"))
+ 		(require-not (xpc-service-name "com.apple.siri.context.service"))
+ 		(require-not (xpc-service-name "com.apple.ctcategories.service"))
+ 		(require-not (global-name "com.apple.CoreServices.coreservicesd"))
+
+ 		SYS_openat_dprotected_np
+ 		SYS_getattrlist
+ 		SYS_fgetattrlist
++		SYS_listxattr
+ 		SYS_fsctl
+ 		SYS_shm_open
+ 		SYS_sysctlbyname
+
+ (with-filter (mac-policy-name "Sandbox")
+ 	(deny system-mac-syscall
+ 		(require-all
++			(require-not (mac-syscall-number 80))
+ 			(require-not (mac-syscall-number 7))
+ 			(require-not (mac-syscall-number 6))
+ 			(require-not (mac-syscall-number 4))
+```

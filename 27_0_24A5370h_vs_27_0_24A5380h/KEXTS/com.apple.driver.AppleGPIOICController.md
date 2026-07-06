@@ -1,0 +1,27 @@
+## com.apple.driver.AppleGPIOICController
+
+> `com.apple.driver.AppleGPIOICController`
+
+```diff
+
+   __TEXT.__cstring: 0xf8a
+   __TEXT.__const: 0x13b
+   __TEXT.__os_log: 0xd9
+-  __TEXT_EXEC.__text: 0xb9f4
++  __TEXT_EXEC.__text: 0xb9ec
+   __TEXT_EXEC.__auth_stubs: 0x420
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x150
+Sections:
+~ __DATA.__data : content changed
+~ __DATA_CONST.__mod_init_func : content changed
+~ __DATA_CONST.__mod_term_func : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__kalloc_type : content changed
+~ __DATA_CONST.__kalloc_var : content changed
+~ __DATA_CONST.__auth_got : content changed
+~ __DATA_CONST.__got : content changed
+Functions:
+~ __ZN16AppleT8006GPIOIC15claimWakeEventsEv : 2076 -> 2068
+
+```

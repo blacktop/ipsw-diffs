@@ -1,0 +1,47 @@
+## iboot_blob35.bin
+
+- `iOS CHI1 = %d`
+- `Pack[%d] Shutdown flags: Battery=%d reason=0x%x`
+- `dram_region_map_region`
+- `gg_fw_update_init = %d`
+- `Resetting charge timer failed, try again...`
+- `DE: Checksum becomes valid SMC %d AP %d`
+- `charger_set_termination_voltage`
+- `smc/bms/v1/bms_v1/charger_helper/charger_keys_intf.cpp`
+- `ILIM_FAIL charger_ilim_cleanup`
+- `ESP: camera_bitmask: 0x%x -> 0x%x`
+- `smc/bms/v1/bms_v1/charger.cpp`
+- `vBMSTaskStop fail`
+- `Error checking charger VBUS rc:%d`
+- `Error accessing scratchpad key '%s', rc=%d`
+- `smc/bms/v1/charge_control/charge_control.cpp`
+- `%d: %llu %d`
+- `iBoot CHI1 = %d ignored`
+- `ILIM_FAIL VBUS2_PWR_SRC1 %d`
+- `%s: RTK_mc_register_remote returned status %d (!= RTK_ST_OK) `
+- `Critical Shutdown Requested`
+- `%s: battery_set_charging_parameter failed`
+- `Error setting input current limit rc:%d idx:%d`
+- `DE: invalid checksum SMC %d AP %d`
+- `smc/comms.cpp`
+- `DE: correcting shutdown_threshold from %d to %d`
+- `LVR init failed: %d`
+- `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
+- `%s: pack%d voltage limit changed=%u mV`
+- `Unable to write LVR data to GG for pack %d: %d`
+- `%s: upo_state=%d, clearUPOConConnect=%d`
+- `charger_set_charging_parameters`
+- `smc/bms/v1/dynamic_shutdown/battery_dynamic_shutdown.cpp`
+- `ILIM_FAIL charger_set_path_priority`
+- `ILIM_FAIL charger_get_ilim %d`
+- `Error getting LVR data from PMU for pack %d: %d`
+- `Pack[%d] Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d iss=%d vbat=%d dod=%d temp=%d.`
+- `upo_periodic_action`
+- `smc/bms/v1/bms_v1/bms.cpp`
+- `%s: iSawAnUPO=%d`
+- `Error copy ilim values rc:%d`
+- `charger_configure_input_src[%d]: ilim=%u, vlim=%u, src:%u`
+- `ILIM_FAIL charger_ilim_backoff_state_handler`
+- `charger: Failed to set termination voltage to:%umV rc:%d`
+- `smc/crashlog.cpp`
+- `BMS: pack[%d] gauge start fail, skip critical`

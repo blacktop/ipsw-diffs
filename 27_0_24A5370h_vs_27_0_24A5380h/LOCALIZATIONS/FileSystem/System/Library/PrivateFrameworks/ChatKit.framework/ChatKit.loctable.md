@@ -1,0 +1,73 @@
+## ChatKit
+
+> `FileSystem/System/Library/PrivateFrameworks/ChatKit.framework/ChatKit.loctable`
+
+```diff
+
+ en.COLLABORATION_ERROR_SINGLE_RECIPIENT_CANNOT_JOIN_TITLE = "“%@” Cannot Join Collaboration"
+ en.COLLABORATION_ERROR_SOME_RECIPIENTS_CANNOT_JOIN_MESSAGE = "To join this collaboration in Messages, the recipients need to be on iOS 16 or macOS Ventura."
+ en.COLLABORATION_ERROR_SOME_RECIPIENTS_CANNOT_JOIN_TITLE = "Not Everyone Can Join Collaboration"
+-en.COLLABORATION_ERROR_TOO_MANY_PARTICIPANTS_ALERT_MESSAGE = "New invitations can't be sent. Reduce the number of people you're inviting or have previously invited, then try again."
++en.COLLABORATION_ERROR_TOO_MANY_PARTICIPANTS_ALERT_MESSAGE = "New invitations can’t be sent. Reduce the number of people you’re inviting or have previously invited, then try again."
+ en.COLLABORATION_ERROR_TOO_MANY_PARTICIPANTS_ALERT_TITLE = "Maximum Invites Reached"
+ en.COLLABORATION_ERROR_TRY_AGAIN_LATER = "Try again later."
+ en.COLLABORATION_ERROR_UNKNOWN_MESSAGE = "Unable to start collaboration."
+
+ en.CUSTOMIZE_LINK = "Customize"
+ en.CUSTOM_STICKER = "Custom Sticker"
+ en.CUSTOM_STICKER_ME = "Me"
+-en.DATA_DETECTORS_MENTION_ACTION = "View %@'s Info"
++en.DATA_DETECTORS_MENTION_ACTION = "View %@’s Info"
+ en.DATA_DETECTORS_PHOTOS_ACTION = "Choose Photos"
+ en.DEFAULT_COLLABORATION_OPTIONS_SUMMARY = "Share Options"
+ en.DEFAULT_DICTATION_MODE = "0"
+
+ en.POLLS_ADD_CHOICE = "Add Choice"
+ en.POLLS_MENU_ITEM_TITLE = "Polls"
+ en.POLLS_VOTE_FAILED = "Poll vote failed."
+-en.POLLS_VOTE_FAILED_ALERT_DESCRIPTION = "Your vote was not sent. Tap \"Try Again\" to resend your vote."
++en.POLLS_VOTE_FAILED_ALERT_DESCRIPTION = "Your vote was not sent. Tap “Try Again” to resend your vote."
+ en.POLL_DETAILS = "Poll Details"
+ en.PRESENTATIONS.DOCUMENT_TYPE.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ en.PRESENTATIONS.DOCUMENT_TYPE.NSStringFormatValueTypeKey = "lu"
+
+ en.QUICK_SAVE_CONFIRMATION_SINGLE_PHOTO = "This photo will be added to your Photo Library."
+ en.QUICK_SAVE_CONFIRMATION_SINGLE_VIDEO = "This video will be added to your Photo Library."
+ en.QUOTED_REPLY = "“%@”"
+-en.RCS_ENCRYPTION_ONBOARDING_MESSAGE_DESCRIPTION_1 = "If you choose to opt in, we’ll use your device to send randomly-generated RCS-encrypted messages in the background for testing purposes. The RCS messages won't appear in the transcript or be saved."
++en.RCS_ENCRYPTION_ONBOARDING_MESSAGE_DESCRIPTION_1 = "If you choose to opt in, we’ll use your device to send randomly-generated RCS-encrypted messages in the background for testing purposes. The RCS messages won’t appear in the transcript or be saved."
+ en.RCS_ENCRYPTION_ONBOARDING_MESSAGE_DESCRIPTION_2 = "The RCS test messages will be generated and sent when you send an iMessage, but only if the recipient is also enrolled in the test. These RCS-encrypted messages will be transmitted through third-party servers."
+ en.RCS_ENCRYPTION_ONBOARDING_MESSAGE_TITLE_1 = "We need your help to test RCS encryption"
+ en.RCS_ENCRYPTION_ONBOARDING_MESSAGE_TITLE_2 = "How it works"
+ en.RCS_ENCRYPTION_ONBOARDING_TITLE = "RCS Encryption Test"
+ en.RCS_INACTIVE_SIM_ACTIVATION_ERROR_CELLULAR_DATA_SETTINGS = "Cellular Data Settings"
+ en.RCS_INACTIVE_SIM_ACTIVATION_ERROR_NOT_NOW = "Not Now"
+-en.RCS_INACTIVE_SIM_ACTIVATION_ERROR_TEXT = "To activate RCS messaging, switch your cellular data line to “%@“ in %@."
++en.RCS_INACTIVE_SIM_ACTIVATION_ERROR_TEXT = "To activate RCS messaging, switch your cellular data line to “%@” in %@."
+ en.RCS_INACTIVE_SIM_ACTIVATION_ERROR_TITLE = "RCS Messaging not enabled for “%@”"
+ en.RCS_WATCH = "RCS"
+ en.READ = "Read"
+
+ en.SCHEDULED_MESSAGE_NOT_RETRACTED_RETRY_RETRACTION_ALERT_DESCRIPTION = "Your message was not cancelled. The original scheduled message might still be sent."
+ en.SCHEDULED_MESSAGE_NOT_RETRACTED_RETRY_RETRACTION_ALERT_TITLE = "Message Not Cancelled"
+ en.SCREEN_SHARE_BUTTON_TITLE = "Share"
+-en.SCREEN_SHARING_ALERT_MESSAGE = "Share your screen with %@, or ask to share %@'s screen?"
++en.SCREEN_SHARING_ALERT_MESSAGE = "Share your screen with %@, or ask to share %@’s screen?"
+ en.SCREEN_SHARING_ALERT_TITLE = "Screen Sharing"
+ en.SEARCH = "Search"
+ en.SEARCH_ADD_TO_PHOTOS_LIBRARY = "Add to Photos Library"
+
+ en.UNKNOWN_SENDERS_TIP_MESSAGE = "Hide notifications and move messages to a separate list to review later."
+ en.UNKNOWN_SENDERS_TIP_TITLE = "Screen Unknown Senders"
+ en.UNKNOWN_SENDERS_UNREADCOUNT = "Unknown Senders (%@)"
+-en.UNKNOWN_SENDER_NOT_IN_CONTACTS = "This sender is not in your contact list."
++en.UNKNOWN_SENDER_NOT_IN_CONTACTS.NSStringDeviceSpecificRuleType.applewatch = "This is from an unknown sender. Tap to view."
++en.UNKNOWN_SENDER_NOT_IN_CONTACTS.NSStringDeviceSpecificRuleType.ipad = "This is from an unknown sender. Tap to view."
++en.UNKNOWN_SENDER_NOT_IN_CONTACTS.NSStringDeviceSpecificRuleType.iphone = "This is from an unknown sender. Tap to view."
++en.UNKNOWN_SENDER_NOT_IN_CONTACTS.NSStringDeviceSpecificRuleType.mac = "This is from an unknown sender. Click to view."
++en.UNKNOWN_SENDER_NOT_IN_CONTACTS.NSStringDeviceSpecificRuleType.other = "This is from an unknown sender. Tap to view."
+ en.UNMUTE_ACTION = "Unmute"
+ en.UNPIN = "Unpin"
+ en.UNPIN_ACTION = "Unpin"
+
+```

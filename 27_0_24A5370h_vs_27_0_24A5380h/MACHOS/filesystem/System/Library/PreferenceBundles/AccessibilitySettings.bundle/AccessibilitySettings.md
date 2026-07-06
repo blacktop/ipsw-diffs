@@ -1,0 +1,610 @@
+## AccessibilitySettings
+
+> `/System/Library/PreferenceBundles/AccessibilitySettings.bundle/AccessibilitySettings`
+
+```diff
+
+-  __TEXT.__text: 0x1c8218
+-  __TEXT.__auth_stubs: 0x59b0
+-  __TEXT.__objc_stubs: 0x25b00
+-  __TEXT.__objc_methlist: 0x15c0c
++  __TEXT.__text: 0x1ca924
++  __TEXT.__auth_stubs: 0x5a10
++  __TEXT.__objc_stubs: 0x25c00
++  __TEXT.__objc_methlist: 0x15c2c
+   __TEXT.__dlopen_cstrs: 0x17a
+-  __TEXT.__objc_methname: 0x35f19
+-  __TEXT.__cstring: 0x18ec5
+-  __TEXT.__swift5_typeref: 0x9616
+-  __TEXT.__const: 0x5c12
+-  __TEXT.__constg_swiftt: 0x1fc8
++  __TEXT.__objc_methname: 0x360b9
++  __TEXT.__const: 0x5d42
++  __TEXT.__constg_swiftt: 0x2084
++  __TEXT.__swift5_typeref: 0x9980
++  __TEXT.__cstring: 0x191c7
+   __TEXT.__objc_classname: 0x4b83
+-  __TEXT.__swift5_fieldmd: 0xebc
++  __TEXT.__swift5_fieldmd: 0xed8
+   __TEXT.__swift5_reflstr: 0x97d
+   __TEXT.__swift5_builtin: 0xc8
+-  __TEXT.__swift5_assocty: 0x880
+-  __TEXT.__swift5_capture: 0x868
+-  __TEXT.__swift5_proto: 0x1c4
+-  __TEXT.__swift5_types: 0x1d0
++  __TEXT.__swift5_assocty: 0x898
++  __TEXT.__swift5_capture: 0x878
++  __TEXT.__swift5_proto: 0x1c8
++  __TEXT.__swift5_types: 0x1d4
+   __TEXT.__objc_methtype: 0x5b20
+-  __TEXT.__oslogstring: 0x31c2
++  __TEXT.__oslogstring: 0x31ce
+   __TEXT.__swift_as_entry: 0x54
+   __TEXT.__swift_as_cont: 0x94
+   __TEXT.__swift_as_ret: 0x48
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__gcc_except_tab: 0x40ac
++  __TEXT.__gcc_except_tab: 0x40c4
+   __TEXT.__ustring: 0x36
+-  __TEXT.__unwind_info: 0x6900
++  __TEXT.__unwind_info: 0x6950
+   __TEXT.__eh_frame: 0x14fc
+-  __DATA_CONST.__const: 0x68f8
+-  __DATA_CONST.__cfstring: 0x1cf00
++  __DATA_CONST.__const: 0x6920
++  __DATA_CONST.__cfstring: 0x1d1e0
+   __DATA_CONST.__objc_classlist: 0xf38
+   __DATA_CONST.__objc_catlist: 0x50
+   __DATA_CONST.__objc_protolist: 0x290
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__objc_superrefs: 0xb18
++  __DATA_CONST.__objc_doubleobj: 0x1e0
++  __DATA_CONST.__objc_arraydata: 0x1350
++  __DATA_CONST.__objc_arrayobj: 0x780
+   __DATA_CONST.__objc_intobj: 0x1a70
+-  __DATA_CONST.__objc_arraydata: 0x1330
+-  __DATA_CONST.__objc_arrayobj: 0x750
+-  __DATA_CONST.__objc_doubleobj: 0x1c0
+   __DATA_CONST.__objc_dictobj: 0xac8
+   __DATA_CONST.__objc_floatobj: 0x10
+-  __DATA_CONST.__auth_got: 0x2ce8
+-  __DATA_CONST.__got: 0x2848
+-  __DATA_CONST.__auth_ptr: 0xa00
+-  __DATA.__objc_const: 0x1ed18
+-  __DATA.__objc_selrefs: 0xcfa0
+-  __DATA.__objc_ivar: 0xdd8
++  __DATA_CONST.__auth_got: 0x2d18
++  __DATA_CONST.__got: 0x29a0
++  __DATA_CONST.__auth_ptr: 0xa18
++  __DATA.__objc_const: 0x1ecf8
++  __DATA.__objc_selrefs: 0xcff8
++  __DATA.__objc_ivar: 0xdd4
+   __DATA.__objc_data: 0xa970
+-  __DATA.__data: 0x5820
+-  __DATA.__bss: 0x3bc0
++  __DATA.__data: 0x5960
++  __DATA.__bss: 0x3c50
+   __DATA.__common: 0x28
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 9727
+-  Symbols:   20401
+-  CStrings:  17182
++  Functions: 9760
++  Symbols:   20435
++  CStrings:  17241
+ 
+Sections:
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__objc_intobj : content changed
+~ __DATA_CONST.__objc_dictobj : content changed
+~ __DATA.__objc_data : content changed
+~ __DATA.__common : content changed
+Symbols:
++ -[AXVoiceOverImageDescriptionsController _addImageCaptionsModeSpecifiers:groupSpecifier:]
++ -[VoiceOverBrailleController cursorRoutingValue:]
++ -[VoiceOverBrailleController setCursorRoutingValue:specifier:]
++ -[VoiceOverCommandsOverviewController setVoiceOverFunctionKeysDoNotRequireModifier:specifier:]
++ -[VoiceOverCommandsOverviewController voiceOverFunctionKeysDoNotRequireModifier:]
++ -[VoiceOverRotorSettingsController _showLiveRecognitionRotorViewController:]
++ GCC_except_table1015
++ GCC_except_table1056
++ GCC_except_table1092
++ GCC_except_table1095
++ GCC_except_table1162
++ GCC_except_table1268
++ GCC_except_table1319
++ GCC_except_table1334
++ GCC_except_table1337
++ GCC_except_table1365
++ GCC_except_table1371
++ GCC_except_table1398
++ GCC_except_table1425
++ GCC_except_table1468
++ GCC_except_table1475
++ GCC_except_table151
++ GCC_except_table1638
++ GCC_except_table167
++ GCC_except_table170
++ GCC_except_table1701
++ GCC_except_table1710
++ GCC_except_table1760
++ GCC_except_table1763
++ GCC_except_table1834
++ GCC_except_table1866
++ GCC_except_table1917
++ GCC_except_table1972
++ GCC_except_table1998
++ GCC_except_table2071
++ GCC_except_table2126
++ GCC_except_table2172
++ GCC_except_table2180
++ GCC_except_table2222
++ GCC_except_table2227
++ GCC_except_table2289
++ GCC_except_table2290
++ GCC_except_table2295
++ GCC_except_table2314
++ GCC_except_table2327
++ GCC_except_table2383
++ GCC_except_table2410
++ GCC_except_table2538
++ GCC_except_table2577
++ GCC_except_table2610
++ GCC_except_table2615
++ GCC_except_table2655
++ GCC_except_table2681
++ GCC_except_table2694
++ GCC_except_table2704
++ GCC_except_table2806
++ GCC_except_table2831
++ GCC_except_table2839
++ GCC_except_table2860
++ GCC_except_table2883
++ GCC_except_table289
++ GCC_except_table2941
++ GCC_except_table2950
++ GCC_except_table2958
++ GCC_except_table3038
++ GCC_except_table3059
++ GCC_except_table3065
++ GCC_except_table3114
++ GCC_except_table3165
++ GCC_except_table3180
++ GCC_except_table3194
++ GCC_except_table3206
++ GCC_except_table3207
++ GCC_except_table3208
++ GCC_except_table3296
++ GCC_except_table3319
++ GCC_except_table3345
++ GCC_except_table3347
++ GCC_except_table3363
++ GCC_except_table3395
++ GCC_except_table3443
++ GCC_except_table350
++ GCC_except_table3511
++ GCC_except_table3554
++ GCC_except_table359
++ GCC_except_table3630
++ GCC_except_table3633
++ GCC_except_table3644
++ GCC_except_table3735
++ GCC_except_table3845
++ GCC_except_table385
++ GCC_except_table388
++ GCC_except_table3918
++ GCC_except_table3961
++ GCC_except_table3990
++ GCC_except_table4040
++ GCC_except_table4073
++ GCC_except_table4076
++ GCC_except_table4165
++ GCC_except_table418
++ GCC_except_table4217
++ GCC_except_table4222
++ GCC_except_table4248
++ GCC_except_table4285
++ GCC_except_table4296
++ GCC_except_table4308
++ GCC_except_table4359
++ GCC_except_table4388
++ GCC_except_table4503
++ GCC_except_table4535
++ GCC_except_table4593
++ GCC_except_table461
++ GCC_except_table4631
++ GCC_except_table4662
++ GCC_except_table4700
++ GCC_except_table4718
++ GCC_except_table482
++ GCC_except_table4868
++ GCC_except_table490
++ GCC_except_table4956
++ GCC_except_table4961
++ GCC_except_table4964
++ GCC_except_table4989
++ GCC_except_table4996
++ GCC_except_table5037
++ GCC_except_table5080
++ GCC_except_table5186
++ GCC_except_table5203
++ GCC_except_table5276
++ GCC_except_table5278
++ GCC_except_table5288
++ GCC_except_table5331
++ GCC_except_table5406
++ GCC_except_table5538
++ GCC_except_table5650
++ GCC_except_table5672
++ GCC_except_table5674
++ GCC_except_table5676
++ GCC_except_table5681
++ GCC_except_table5701
++ GCC_except_table5703
++ GCC_except_table5705
++ GCC_except_table5718
++ GCC_except_table5730
++ GCC_except_table5763
++ GCC_except_table5886
++ GCC_except_table5887
++ GCC_except_table5890
++ GCC_except_table5891
++ GCC_except_table5930
++ GCC_except_table5935
++ GCC_except_table6002
++ GCC_except_table6311
++ GCC_except_table6314
++ GCC_except_table6335
++ GCC_except_table6490
++ GCC_except_table6563
++ GCC_except_table6679
++ GCC_except_table6746
++ GCC_except_table6786
++ GCC_except_table6823
++ GCC_except_table6923
++ GCC_except_table6947
++ GCC_except_table6950
++ GCC_except_table7060
++ GCC_except_table7065
++ GCC_except_table7097
++ GCC_except_table711
++ GCC_except_table7114
++ GCC_except_table7147
++ GCC_except_table7173
++ GCC_except_table7178
++ GCC_except_table7182
++ GCC_except_table7185
++ GCC_except_table7187
++ GCC_except_table7206
++ GCC_except_table7261
++ GCC_except_table73
++ GCC_except_table7306
++ GCC_except_table7309
++ GCC_except_table7316
++ GCC_except_table76
++ GCC_except_table793
++ GCC_except_table796
++ GCC_except_table852
++ GCC_except_table971
++ _AXImageExplorerGenerativeModelsAvailable
++ _OUTLINED_FUNCTION_46
++ _OUTLINED_FUNCTION_50
++ _OUTLINED_FUNCTION_74
++ __70-[AccessibilitySettingsController handleResourcesDictionaryDidChange:]_block_invoke
++ ___34-[VoiceOverBrailleController init]_block_invoke_12
++ __swift_closure_destructor.22Tm
++ _associated conformance 21AccessibilitySettings24BrailleCursorRoutingViewV7SwiftUI0F0AA4BodyAdEP_AdE
++ _keypath_get_selector_voiceOverTouchBrailleSnapToPrintText
++ _objc_msgSend$_addImageCaptionsModeSpecifiers:groupSpecifier:
++ _objc_msgSend$hasBackTapDoubleTapAction
++ _objc_msgSend$hasBackTapTripleTapAction
++ _objc_msgSend$postNotificationName:object:userInfo:
++ _objc_msgSend$setValues:titles:
++ _objc_msgSend$setVoiceOverFunctionKeysDoNotRequireModifier:
++ _objc_msgSend$setVoiceOverImageCaptionsMode:
++ _objc_msgSend$setVoiceOverTouchBrailleSnapToPrintText:
++ _objc_msgSend$voiceOverFunctionKeysDoNotRequireModifier
++ _objc_msgSend$voiceOverImageCaptionsMode
++ _objc_msgSend$voiceOverTouchBrailleSnapToPrintText
++ _symbolic _____ 21AccessibilitySettings24BrailleCursorRoutingViewV
++ _symbolic _____y_____G______yAB_____GA6cDy_____y_____y_____yAHyAB______ABQPGG______yAHyAB_ABQPGGQPGG_____y_____y__________G_SSQo_GADyAQ_____yARy_____ATG_SSQo_GADyAQ_____yARy_____ATG_SSQo_GADyAQ_____yARy_____ATG_SSQo_Gt 7SwiftUI6ToggleV AA4TextV 021AccessibilitySettingsB018AXSUISpecifierLinkV AA9EmptyViewV AA0J8ThatFitsV AA12TupleContentV AA6HStackV AA6SpacerV AA6VStackV AA0J0PAAE15navigationTitleyQrqd__SyRd__lFQO AA08ModifiedN0V 0eF0020BrailleCursorRoutingJ0V AA30_SafeAreaRegionsIgnoringLayoutV AvAEAWyQrqd__SyRd__lFQO AZ0U23AlertIntervalControllerV AvAEAWyQrqd__SyRd__lFQO AZ0u18KeyDebounceTimeoutJ10ControllerV AvAEAWyQrqd__SyRd__lFQO AZ0u11AutoAdvanceJ10ControllerV
++ _symbolic _____y_____Sb_____y_____y______SbQo__AEQPGG 7SwiftUI6PickerV AA9EmptyViewV AA12TupleContentV AA0E0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV
++ _symbolic _____y______SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO 21AccessibilitySettings025AXHeadTrackingSensitivityC0V
++ _symbolic _____y______SbQo_ 7SwiftUI4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV
++ _symbolic _____y______SbQo__ABt 7SwiftUI4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 21AccessibilitySettings24BrailleCursorRoutingViewV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y__________y__________y_____y_____y______SSQo__Qo______GGABG 7SwiftUI7SectionV AA9EmptyViewV AA14NavigationLinkV AA4TextV AA15ModifiedContentV AA0E0PAAE29navigationBarTitleDisplayModeyQrAA0fL4ItemV0mnO0OFQO AmAE0kM0yQrqd__SyRd__lFQO 21AccessibilitySettings025AXHeadTrackingSensitivityE0V AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y__________y_____yABSb_____y_____y______SbQo__AFQPGG______Qo_AEG 7SwiftUI7SectionV AA9EmptyViewV AA0E0PAAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA12TupleContentV AgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV AA06InlinehG0V
++ _symbolic _____y__________y_____y_____G______yAeBGA6fGy_____yACy_____yACyAE______AEQPGG______yACyAE_AEQPGGQPGG_____y_____y__________G_SSQo_GAGyAR_____yASy_____AUG_SSQo_GAGyAR_____yASy_____AUG_SSQo_GAGyAR_____yASy_____AUG_SSQo_GQPGABG 7SwiftUI7SectionV AA9EmptyViewV AA12TupleContentV AA6ToggleV AA4TextV 021AccessibilitySettingsB018AXSUISpecifierLinkV AA0E8ThatFitsV AA6HStackV AA6SpacerV AA6VStackV AA0E0PAAE15navigationTitleyQrqd__SyRd__lFQO AA08ModifiedG0V 0jK0020BrailleCursorRoutingE0V AA30_SafeAreaRegionsIgnoringLayoutV AxAEAYyQrqd__SyRd__lFQO A0_0V23AlertIntervalControllerV AxAEAYyQrqd__SyRd__lFQO A0_0v18KeyDebounceTimeoutE10ControllerV AxAEAYyQrqd__SyRd__lFQO A0_0v11AutoAdvanceE10ControllerV
++ _symbolic _____y__________y_____y_____y_____G_____G______y_____yACy_____yACyAF______AFQPGG______yACyAF_AFQPGGQPGG_____yADy_____AHG_SSQo_GAXSgAJyAfWGQPGABG_AAyAbJyAfBGABGAAyAbCyA1__A1_QPGABGAAyAbCyAG_A1_A6gJyAT_____yADy_____AHG_SSQo_GAJyAT_____yADy_____AHG_SSQo_GAJyAT_____yADy_____AHG_SSQo_GAJyAT_____yADy_____AHG_SSQo_GQPGABGAAyAB_____y_____yAG_SbQo__SSACy_____yAFG_A25_QPGAFQo_AFGAAyAbgFG_____t 7SwiftUI7SectionV AA9EmptyViewV AA12TupleContentV AA08ModifiedG0V AA6ToggleV AA4TextV AA30_SafeAreaRegionsIgnoringLayoutV 021AccessibilitySettingsB018AXSUISpecifierLinkV AA0E8ThatFitsV AA6HStackV AA6SpacerV AA6VStackV AA0E0PAAE15navigationTitleyQrqd__SyRd__lFQO 0pQ0018BrailleInputOutputQ10ControllerV A0_AAEA1_yQrqd__SyRd__lFQO A2_020BrailleCursorRoutingE0V A0_AAEA1_yQrqd__SyRd__lFQO A2_30BrailleAlertIntervalControllerV A0_AAEA1_yQrqd__SyRd__lFQO A2_025BrailleKeyDebounceTimeoutE10ControllerV A0_AAEA1_yQrqd__SyRd__lFQO A2_018BrailleAutoAdvanceE10ControllerV A0_AAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AAA_Rd_0_AAA_Rd_1_r1_lFQO A0_AAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ButtonV A2_017BrailleConnectionE0V
++ _symbolic _____y__________y_____y_____y______SSQo__Qo______GG 7SwiftUI14NavigationLinkV AA4TextV AA15ModifiedContentV AA4ViewPAAE29navigationBarTitleDisplayModeyQrAA0cJ4ItemV0klM0OFQO AiAE0iK0yQrqd__SyRd__lFQO 21AccessibilitySettings025AXHeadTrackingSensitivityH0V AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y_____AAy_____y_____y_____G_____G______y_____yAAy_____yAAyAF______AFQPGG______yAAyAF_AFQPGGQPGG_____yADy_____AHG_SSQo_GAXSgAJyAfWGQPGACG_AByAcJyAfCGACGAByAcAyA1__A1_QPGACGAByAcAyAG_A1_A6gJyAT_____yADy_____AHG_SSQo_GAJyAT_____yADy_____AHG_SSQo_GAJyAT_____yADy_____AHG_SSQo_GAJyAT_____yADy_____AHG_SSQo_GQPGACGAByAC_____y_____yAG_SbQo__SSAAy_____yAFG_A25_QPGAFQo_AFGAByAcgFG_____QPG 7SwiftUI12TupleContentV AA7SectionV AA9EmptyViewV AA08ModifiedD0V AA6ToggleV AA4TextV AA30_SafeAreaRegionsIgnoringLayoutV 021AccessibilitySettingsB018AXSUISpecifierLinkV AA0G8ThatFitsV AA6HStackV AA6SpacerV AA6VStackV AA0G0PAAE15navigationTitleyQrqd__SyRd__lFQO 0pQ0018BrailleInputOutputQ10ControllerV A0_AAEA1_yQrqd__SyRd__lFQO A2_020BrailleCursorRoutingG0V A0_AAEA1_yQrqd__SyRd__lFQO A2_30BrailleAlertIntervalControllerV A0_AAEA1_yQrqd__SyRd__lFQO A2_025BrailleKeyDebounceTimeoutG10ControllerV A0_AAEA1_yQrqd__SyRd__lFQO A2_018BrailleAutoAdvanceG10ControllerV A0_AAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AAA_Rd_0_AAA_Rd_1_r1_lFQO A0_AAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ButtonV A2_017BrailleConnectionG0V
++ _symbolic _____y_____y_____G______yAC_____GA6dEy_____yAAy_____yAAyAC______ACQPGG______yAAyAC_ACQPGGQPGG_____y_____y__________G_SSQo_GAEyAQ_____yARy_____ATG_SSQo_GAEyAQ_____yARy_____ATG_SSQo_GAEyAQ_____yARy_____ATG_SSQo_GQPG 7SwiftUI12TupleContentV AA6ToggleV AA4TextV 021AccessibilitySettingsB018AXSUISpecifierLinkV AA9EmptyViewV AA0L8ThatFitsV AA6HStackV AA6SpacerV AA6VStackV AA0L0PAAE15navigationTitleyQrqd__SyRd__lFQO AA08ModifiedD0V 0gH0020BrailleCursorRoutingL0V AA30_SafeAreaRegionsIgnoringLayoutV AvAEAWyQrqd__SyRd__lFQO AZ0U23AlertIntervalControllerV AvAEAWyQrqd__SyRd__lFQO AZ0u18KeyDebounceTimeoutL10ControllerV AvAEAWyQrqd__SyRd__lFQO AZ0u11AutoAdvanceL10ControllerV
++ _symbolic _____y_____y_____Sb_____y_____y______SbQo__AEQPGG______Qo_ 7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQO AA0F0V AA05EmptyC0V AA12TupleContentV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV AA06InlinefE0V
++ _symbolic _____y_____y______SSQo__Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AcAE0dF0yQrqd__SyRd__lFQO 21AccessibilitySettings025AXHeadTrackingSensitivityC0V
++ _symbolic _____y_____y______SbQo__ACQPG 7SwiftUI12TupleContentV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV
++ _symbolic _____y_____y__________G_SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AA15ModifiedContentV 21AccessibilitySettings020BrailleCursorRoutingC0V AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y__________y__________y_____y_____y______SSQo__Qo______GGACGG 23AccessibilitySettingsUI42AXSUIAccessibilityActionListNavigationViewV 05SwiftC07SectionV AD05EmptyH0V AD0G4LinkV AD4TextV AD15ModifiedContentV AD0H0PADE29navigationBarTitleDisplayModeyQrAD0gQ4ItemV0rsT0OFQO ApDE0pR0yQrqd__SyRd__lFQO 0aB0025AXHeadTrackingSensitivityH0V AD30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y__________y_____yACSb_____y_____y______SbQo__AGQPGG______Qo_AFGG 23AccessibilitySettingsUI25AXSUIPlatformFormListViewV 05SwiftC07SectionV AD05EmptyG0V AD0G0PADE11pickerStyleyQrqd__AD06PickerL0Rd__lFQO AD0M0V AD12TupleContentV AjDE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AD4TextV AD06InlinemL0V
++ _symbolic _____y_____y_____y_____ABy_____y_____y_____G_____G______y_____yABy_____yAByAG______AGQPGG______yAByAG_AGQPGGQPGG_____yAEy_____AIG_SSQo_GAYSgAKyAgXGQPGADG_ACyAdKyAgDGADGACyAdByA2__A2_QPGADGACyAdByAH_A2_A6hKyAU_____yAEy_____AIG_SSQo_GAKyAU_____yAEy_____AIG_SSQo_GAKyAU_____yAEy_____AIG_SSQo_GAKyAU_____yAEy_____AIG_SSQo_GQPGADGACyAD_____y_____yAH_SbQo__SSABy_____yAGG_A26_QPGAGQo_AGGACyAdhGG_____QPGG 23AccessibilitySettingsUI25AXSUIPlatformFormListViewV 05SwiftC012TupleContentV AD7SectionV AD05EmptyG0V AD08ModifiedJ0V AD6ToggleV AD4TextV AD30_SafeAreaRegionsIgnoringLayoutV AA18AXSUISpecifierLinkV AD0G8ThatFitsV AD6HStackV AD6SpacerV AD6VStackV AD0G0PADE15navigationTitleyQrqd__SyRd__lFQO 0aB0018BrailleInputOutputB10ControllerV A2_ADEA3_yQrqd__SyRd__lFQO A4_020BrailleCursorRoutingG0V A2_ADEA3_yQrqd__SyRd__lFQO A4_30BrailleAlertIntervalControllerV A2_ADEA3_yQrqd__SyRd__lFQO A4_025BrailleKeyDebounceTimeoutG10ControllerV A2_ADEA3_yQrqd__SyRd__lFQO A4_018BrailleAutoAdvanceG10ControllerV A2_ADE5alert_11isPresented7actions7messageQrqd___AD7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__ADA1_Rd_0_ADA1_Rd_1_r1_lFQO A2_ADE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AD6ButtonV A4_017BrailleConnectionG0V
++ _symbolic _____y_____y_____y______SSQo__Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationG4ItemV0hiJ0OFQO AeAE0fH0yQrqd__SyRd__lFQO 21AccessibilitySettings025AXHeadTrackingSensitivityE0V AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y_____y_____yACy___________AEQPGG______yACyAE_AEQPGGQPGG_____y_____y__________G_SSQo_G 23AccessibilitySettingsUI18AXSUISpecifierLinkV 05SwiftC012ViewThatFitsV AD12TupleContentV AD6HStackV AD4TextV AD6SpacerV AD6VStackV AD0G0PADE15navigationTitleyQrqd__SyRd__lFQO AD08ModifiedK0V 0aB0020BrailleCursorRoutingG0V AD30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic qd0__
++ _voiceOverLocalizedStringForKeyboardShortcutsFooterTextWithFunctionKeyHint
++ get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr
++ get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC
++ get_witness_table 23AccessibilitySettingsUI25AXSUIPlatformFormListViewVy05SwiftC012TupleContentVyAD7SectionVyAD05EmptyG0VAFyAD08ModifiedJ0VyAD6ToggleVyAD4TextVGAD30_SafeAreaRegionsIgnoringLayoutVG_AA18AXSUISpecifierLinkVyAD0G8ThatFitsVyAFyAD6HStackVyAFyAP_AD6SpacerVAPQPGG_AD6VStackVyAFyAP_APQPGGQPGGAD0G0PADE15navigationTitleyQrqd__SyRd__lFQOyALy0aB0018BrailleInputOutputB10ControllerVASG_SSQo_GA17_SgAVyAPA16_GQPGAJG_AHyAjVyApJGAJGAHyAjFyA22__A22_QPGAJGAHyAjFyAQ_A22_A6qVyA8_A10_ADEA11_yQrqd__SyRd__lFQOyALyA12_020BrailleCursorRoutingG0VASG_SSQo_GAVyA8_A10_ADEA11_yQrqd__SyRd__lFQOyALyA12_30BrailleAlertIntervalControllerVASG_SSQo_GAVyA8_A10_ADEA11_yQrqd__SyRd__lFQOyALyA12_025BrailleKeyDebounceTimeoutG10ControllerVASG_SSQo_GAVyA8_A10_ADEA11_yQrqd__SyRd__lFQOyALyA12_018BrailleAutoAdvanceG10ControllerVASG_SSQo_GQPGAJGAHyAJA10_ADE5alert_11isPresented7actions7messageQrqd___AD7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__ADA9_Rd_0_ADA9_Rd_1_r1_lFQOyA10_ADE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAQ_SbQo__SSAFyAD6ButtonVyAPG_A61_QPGAPQo_APGAHyAjqPGA12_017BrailleConnectionG0VQPGGADA9_HPyHC
++ get_witness_table 23AccessibilitySettingsUI25AXSUIPlatformFormListViewVy05SwiftC07SectionVyAD05EmptyG0VAD0G0PADE11pickerStyleyQrqd__AD06PickerL0Rd__lFQOyAD0M0VyAHSbAD12TupleContentVyAjDE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAD4TextV_SbQo__AUQPGG_AD06InlinemL0VQo_ATGGAdIHPyHC
++ get_witness_table 23AccessibilitySettingsUI42AXSUIAccessibilityActionListNavigationViewVy05SwiftC07SectionVyAD05EmptyH0VAD0G4LinkVyAD4TextVAD15ModifiedContentVyAD0H0PADE29navigationBarTitleDisplayModeyQrAD0gQ4ItemV0rsT0OFQOyApDE0pR0yQrqd__SyRd__lFQOy0aB0025AXHeadTrackingSensitivityH0V_SSQo__Qo_AD30_SafeAreaRegionsIgnoringLayoutVGGAHGGAdOHPyHC
+- -[AXVoiceOverImageDescriptionsController setSpeakDiscoveredImageDescriptions:specifier:]
+- -[AXVoiceOverImageDescriptionsController speakDiscoveredImageDescriptions:]
+- -[VoiceOverLiveRecognitionController _showLiveRecognitionRotorViewController:]
+- GCC_except_table1013
+- GCC_except_table1054
+- GCC_except_table1090
+- GCC_except_table1091
+- GCC_except_table1160
+- GCC_except_table1266
+- GCC_except_table1317
+- GCC_except_table1332
+- GCC_except_table1333
+- GCC_except_table1363
+- GCC_except_table1369
+- GCC_except_table1394
+- GCC_except_table1423
+- GCC_except_table1466
+- GCC_except_table1473
+- GCC_except_table149
+- GCC_except_table1636
+- GCC_except_table166
+- GCC_except_table169
+- GCC_except_table1699
+- GCC_except_table1708
+- GCC_except_table1758
+- GCC_except_table1761
+- GCC_except_table1832
+- GCC_except_table1864
+- GCC_except_table1915
+- GCC_except_table1970
+- GCC_except_table1996
+- GCC_except_table2069
+- GCC_except_table2124
+- GCC_except_table2170
+- GCC_except_table2178
+- GCC_except_table2220
+- GCC_except_table2223
+- GCC_except_table2287
+- GCC_except_table2288
+- GCC_except_table2293
+- GCC_except_table2312
+- GCC_except_table2325
+- GCC_except_table2381
+- GCC_except_table2408
+- GCC_except_table2536
+- GCC_except_table2575
+- GCC_except_table2608
+- GCC_except_table2613
+- GCC_except_table2651
+- GCC_except_table2677
+- GCC_except_table2686
+- GCC_except_table2700
+- GCC_except_table2801
+- GCC_except_table2826
+- GCC_except_table2834
+- GCC_except_table2855
+- GCC_except_table2878
+- GCC_except_table288
+- GCC_except_table2936
+- GCC_except_table2945
+- GCC_except_table2953
+- GCC_except_table3033
+- GCC_except_table3054
+- GCC_except_table3060
+- GCC_except_table3109
+- GCC_except_table3161
+- GCC_except_table3176
+- GCC_except_table3190
+- GCC_except_table3202
+- GCC_except_table3203
+- GCC_except_table3204
+- GCC_except_table3292
+- GCC_except_table3315
+- GCC_except_table3341
+- GCC_except_table3343
+- GCC_except_table3359
+- GCC_except_table3391
+- GCC_except_table3439
+- GCC_except_table348
+- GCC_except_table3507
+- GCC_except_table3550
+- GCC_except_table357
+- GCC_except_table3624
+- GCC_except_table3627
+- GCC_except_table3638
+- GCC_except_table3729
+- GCC_except_table383
+- GCC_except_table3839
+- GCC_except_table384
+- GCC_except_table3912
+- GCC_except_table3955
+- GCC_except_table3984
+- GCC_except_table4034
+- GCC_except_table4067
+- GCC_except_table4070
+- GCC_except_table4159
+- GCC_except_table416
+- GCC_except_table4211
+- GCC_except_table4216
+- GCC_except_table4242
+- GCC_except_table4279
+- GCC_except_table4290
+- GCC_except_table4302
+- GCC_except_table4353
+- GCC_except_table4382
+- GCC_except_table4497
+- GCC_except_table4529
+- GCC_except_table4587
+- GCC_except_table459
+- GCC_except_table4625
+- GCC_except_table464
+- GCC_except_table4656
+- GCC_except_table4694
+- GCC_except_table4712
+- GCC_except_table4862
+- GCC_except_table488
+- GCC_except_table4950
+- GCC_except_table4955
+- GCC_except_table4958
+- GCC_except_table4983
+- GCC_except_table4990
+- GCC_except_table5031
+- GCC_except_table5074
+- GCC_except_table5180
+- GCC_except_table5197
+- GCC_except_table5270
+- GCC_except_table5272
+- GCC_except_table5282
+- GCC_except_table5325
+- GCC_except_table5400
+- GCC_except_table5532
+- GCC_except_table5642
+- GCC_except_table5644
+- GCC_except_table5646
+- GCC_except_table5656
+- GCC_except_table5673
+- GCC_except_table5675
+- GCC_except_table5677
+- GCC_except_table5687
+- GCC_except_table5712
+- GCC_except_table5724
+- GCC_except_table5757
+- GCC_except_table5880
+- GCC_except_table5881
+- GCC_except_table5884
+- GCC_except_table5885
+- GCC_except_table5924
+- GCC_except_table5929
+- GCC_except_table5996
+- GCC_except_table6305
+- GCC_except_table6308
+- GCC_except_table6329
+- GCC_except_table6484
+- GCC_except_table6557
+- GCC_except_table6673
+- GCC_except_table6740
+- GCC_except_table6780
+- GCC_except_table6817
+- GCC_except_table6917
+- GCC_except_table6941
+- GCC_except_table6944
+- GCC_except_table7054
+- GCC_except_table7059
+- GCC_except_table709
+- GCC_except_table7091
+- GCC_except_table7108
+- GCC_except_table7141
+- GCC_except_table7167
+- GCC_except_table7172
+- GCC_except_table7176
+- GCC_except_table7179
+- GCC_except_table7181
+- GCC_except_table72
+- GCC_except_table7200
+- GCC_except_table7255
+- GCC_except_table7300
+- GCC_except_table7303
+- GCC_except_table7310
+- GCC_except_table74
+- GCC_except_table791
+- GCC_except_table794
+- GCC_except_table850
+- GCC_except_table970
+- OBJC_IVAR_$_AXVoiceOverImageDescriptionsController._preferenceToggleSpecifier
+- _AXDeviceSupportsAppleIntelligence
+- _OUTLINED_FUNCTION_45
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_73
+- __swift_closure_destructor.20Tm
+- _objc_msgSend$_shouldUseKShotEnrollment
+- _objc_msgSend$backTapEnabled
+- _objc_msgSend$setVoiceOverImageCaptionsEnabled:
+- _symbolic _____y_____G______yAB_____GA6cDy_____y_____y_____yAHyAB______ABQPGG______yAHyAB_ABQPGGQPGG_____y_____y__________G_SSQo_GADyAQ_____yARy_____ATG_SSQo_GADyAQ_____yARy_____ATG_SSQo_Gt 7SwiftUI6ToggleV AA4TextV 021AccessibilitySettingsB018AXSUISpecifierLinkV AA9EmptyViewV AA0J8ThatFitsV AA12TupleContentV AA6HStackV AA6SpacerV AA6VStackV AA0J0PAAE15navigationTitleyQrqd__SyRd__lFQO AA08ModifiedN0V 0eF030BrailleAlertIntervalControllerV AA30_SafeAreaRegionsIgnoringLayoutV AvAEAWyQrqd__SyRd__lFQO AZ0u18KeyDebounceTimeoutjX0V AvAEAWyQrqd__SyRd__lFQO AZ0u11AutoAdvancejX0V
+- _symbolic _____y__________G 7SwiftUI14NavigationLinkV AA4TextV 21AccessibilitySettings29AXHeadTrackingSensitivityViewV
+- _symbolic _____y__________y__________GABG 7SwiftUI7SectionV AA9EmptyViewV AA14NavigationLinkV AA4TextV 21AccessibilitySettings025AXHeadTrackingSensitivityE0V
+- _symbolic _____y__________y_____y_____G______yAeBGA6fGy_____yACy_____yACyAE______AEQPGG______yACyAE_AEQPGGQPGG_____y_____y__________G_SSQo_GAGyAR_____yASy_____AUG_SSQo_GAGyAR_____yASy_____AUG_SSQo_GQPGABG 7SwiftUI7SectionV AA9EmptyViewV AA12TupleContentV AA6ToggleV AA4TextV 021AccessibilitySettingsB018AXSUISpecifierLinkV AA0E8ThatFitsV AA6HStackV AA6SpacerV AA6VStackV AA0E0PAAE15navigationTitleyQrqd__SyRd__lFQO AA08ModifiedG0V 0jK030BrailleAlertIntervalControllerV AA30_SafeAreaRegionsIgnoringLayoutV AxAEAYyQrqd__SyRd__lFQO A0_0v18KeyDebounceTimeouteY0V AxAEAYyQrqd__SyRd__lFQO A0_0v11AutoAdvanceeY0V
+- _symbolic _____y__________y_____y_____y_____G_____G______y_____yACy_____yACyAF______AFQPGG______yACyAF_AFQPGGQPGG_____yADy_____AHG_SSQo_GAXSgAJyAfWGQPGABG_AAyAbJyAfBGABGAAyAbCyA1__A1_QPGABGAAyAbCyAG_A1_A6gJyAT_____yADy_____AHG_SSQo_GAJyAT_____yADy_____AHG_SSQo_GAJyAT_____yADy_____AHG_SSQo_GQPGABGAAyAB_____y_____yAG_SbQo__SSACy_____yAFG_A21_QPGAFQo_AFGAAyAbgFG_____t 7SwiftUI7SectionV AA9EmptyViewV AA12TupleContentV AA08ModifiedG0V AA6ToggleV AA4TextV AA30_SafeAreaRegionsIgnoringLayoutV 021AccessibilitySettingsB018AXSUISpecifierLinkV AA0E8ThatFitsV AA6HStackV AA6SpacerV AA6VStackV AA0E0PAAE15navigationTitleyQrqd__SyRd__lFQO 0pQ0018BrailleInputOutputQ10ControllerV A0_AAEA1_yQrqd__SyRd__lFQO A2_30BrailleAlertIntervalControllerV A0_AAEA1_yQrqd__SyRd__lFQO A2_025BrailleKeyDebounceTimeoutE10ControllerV A0_AAEA1_yQrqd__SyRd__lFQO A2_018BrailleAutoAdvanceE10ControllerV A0_AAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AAA_Rd_0_AAA_Rd_1_r1_lFQO A0_AAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ButtonV A2_017BrailleConnectionE0V
+- _symbolic _____y_____y_____AAy_____y_____y_____G_____G______y_____yAAy_____yAAyAF______AFQPGG______yAAyAF_AFQPGGQPGG_____yADy_____AHG_SSQo_GAXSgAJyAfWGQPGACG_AByAcJyAfCGACGAByAcAyA1__A1_QPGACGAByAcAyAG_A1_A6gJyAT_____yADy_____AHG_SSQo_GAJyAT_____yADy_____AHG_SSQo_GAJyAT_____yADy_____AHG_SSQo_GQPGACGAByAC_____y_____yAG_SbQo__SSAAy_____yAFG_A21_QPGAFQo_AFGAByAcgFG_____QPG 7SwiftUI12TupleContentV AA7SectionV AA9EmptyViewV AA08ModifiedD0V AA6ToggleV AA4TextV AA30_SafeAreaRegionsIgnoringLayoutV 021AccessibilitySettingsB018AXSUISpecifierLinkV AA0G8ThatFitsV AA6HStackV AA6SpacerV AA6VStackV AA0G0PAAE15navigationTitleyQrqd__SyRd__lFQO 0pQ0018BrailleInputOutputQ10ControllerV A0_AAEA1_yQrqd__SyRd__lFQO A2_30BrailleAlertIntervalControllerV A0_AAEA1_yQrqd__SyRd__lFQO A2_025BrailleKeyDebounceTimeoutG10ControllerV A0_AAEA1_yQrqd__SyRd__lFQO A2_018BrailleAutoAdvanceG10ControllerV A0_AAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AAA_Rd_0_AAA_Rd_1_r1_lFQO A0_AAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ButtonV A2_017BrailleConnectionG0V
+- _symbolic _____y_____y_____G______yAC_____GA6dEy_____yAAy_____yAAyAC______ACQPGG______yAAyAC_ACQPGGQPGG_____y_____y__________G_SSQo_GAEyAQ_____yARy_____ATG_SSQo_GAEyAQ_____yARy_____ATG_SSQo_GQPG 7SwiftUI12TupleContentV AA6ToggleV AA4TextV 021AccessibilitySettingsB018AXSUISpecifierLinkV AA9EmptyViewV AA0L8ThatFitsV AA6HStackV AA6SpacerV AA6VStackV AA0L0PAAE15navigationTitleyQrqd__SyRd__lFQO AA08ModifiedD0V 0gH030BrailleAlertIntervalControllerV AA30_SafeAreaRegionsIgnoringLayoutV AvAEAWyQrqd__SyRd__lFQO AZ0u18KeyDebounceTimeoutlX0V AvAEAWyQrqd__SyRd__lFQO AZ0u11AutoAdvancelX0V
+- _symbolic _____y_____y__________y__________GACGG 23AccessibilitySettingsUI42AXSUIAccessibilityActionListNavigationViewV 05SwiftC07SectionV AD05EmptyH0V AD0G4LinkV AD4TextV 0aB0025AXHeadTrackingSensitivityH0V
+- _symbolic _____y_____y_____y_____ABy_____y_____y_____G_____G______y_____yABy_____yAByAG______AGQPGG______yAByAG_AGQPGGQPGG_____yAEy_____AIG_SSQo_GAYSgAKyAgXGQPGADG_ACyAdKyAgDGADGACyAdByA2__A2_QPGADGACyAdByAH_A2_A6hKyAU_____yAEy_____AIG_SSQo_GAKyAU_____yAEy_____AIG_SSQo_GAKyAU_____yAEy_____AIG_SSQo_GQPGADGACyAD_____y_____yAH_SbQo__SSABy_____yAGG_A22_QPGAGQo_AGGACyAdhGG_____QPGG 23AccessibilitySettingsUI25AXSUIPlatformFormListViewV 05SwiftC012TupleContentV AD7SectionV AD05EmptyG0V AD08ModifiedJ0V AD6ToggleV AD4TextV AD30_SafeAreaRegionsIgnoringLayoutV AA18AXSUISpecifierLinkV AD0G8ThatFitsV AD6HStackV AD6SpacerV AD6VStackV AD0G0PADE15navigationTitleyQrqd__SyRd__lFQO 0aB0018BrailleInputOutputB10ControllerV A2_ADEA3_yQrqd__SyRd__lFQO A4_30BrailleAlertIntervalControllerV A2_ADEA3_yQrqd__SyRd__lFQO A4_025BrailleKeyDebounceTimeoutG10ControllerV A2_ADEA3_yQrqd__SyRd__lFQO A4_018BrailleAutoAdvanceG10ControllerV A2_ADE5alert_11isPresented7actions7messageQrqd___AD7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__ADA1_Rd_0_ADA1_Rd_1_r1_lFQO A2_ADE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AD6ButtonV A4_017BrailleConnectionG0V
+- get_witness_table 23AccessibilitySettingsUI25AXSUIPlatformFormListViewVy05SwiftC012TupleContentVyAD7SectionVyAD05EmptyG0VAFyAD08ModifiedJ0VyAD6ToggleVyAD4TextVGAD30_SafeAreaRegionsIgnoringLayoutVG_AA18AXSUISpecifierLinkVyAD0G8ThatFitsVyAFyAD6HStackVyAFyAP_AD6SpacerVAPQPGG_AD6VStackVyAFyAP_APQPGGQPGGAD0G0PADE15navigationTitleyQrqd__SyRd__lFQOyALy0aB0018BrailleInputOutputB10ControllerVASG_SSQo_GA17_SgAVyAPA16_GQPGAJG_AHyAjVyApJGAJGAHyAjFyA22__A22_QPGAJGAHyAjFyAQ_A22_A6qVyA8_A10_ADEA11_yQrqd__SyRd__lFQOyALyA12_30BrailleAlertIntervalControllerVASG_SSQo_GAVyA8_A10_ADEA11_yQrqd__SyRd__lFQOyALyA12_025BrailleKeyDebounceTimeoutG10ControllerVASG_SSQo_GAVyA8_A10_ADEA11_yQrqd__SyRd__lFQOyALyA12_018BrailleAutoAdvanceG10ControllerVASG_SSQo_GQPGAJGAHyAJA10_ADE5alert_11isPresented7actions7messageQrqd___AD7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__ADA9_Rd_0_ADA9_Rd_1_r1_lFQOyA10_ADE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAQ_SbQo__SSAFyAD6ButtonVyAPG_A56_QPGAPQo_APGAHyAjqPGA12_017BrailleConnectionG0VQPGGADA9_HPyHC
+- get_witness_table 23AccessibilitySettingsUI42AXSUIAccessibilityActionListNavigationViewVy05SwiftC07SectionVyAD05EmptyH0VAD0G4LinkVyAD4TextV0aB0025AXHeadTrackingSensitivityH0VGAHGGAD0H0HPyHC
+CStrings:
++ "AUTOMATIC_IMAGE_DESCRIPTIONS_ALWAYS"
++ "AUTOMATIC_IMAGE_DESCRIPTIONS_FALLBACK"
++ "AUTOMATIC_IMAGE_DESCRIPTIONS_FOOTER"
++ "AUTOMATIC_IMAGE_DESCRIPTIONS_NEVER"
++ "AUTOMATIC_IMAGE_DESCRIPTIONS_TITLE"
++ "AXSUIScrollAnchorReady"
++ "BrailleCursorRouting"
++ "CURSOR_ROUTING"
++ "CURSOR_ROUTING_ANY_CELL"
++ "CURSOR_ROUTING_ANY_CELL_FOOTER"
++ "CURSOR_ROUTING_FOOTER"
++ "CURSOR_ROUTING_SNAP_TO_PRINT"
++ "CURSOR_ROUTING_SNAP_TO_PRINT_FOOTER"
++ "FunctionKeysDoNotRequireModifier"
++ "ImageCaptionsModeAlways"
++ "ImageCaptionsModeFallback"
++ "ImageCaptionsModeGroup"
++ "ImageCaptionsModeNever"
++ "KeyboardShortcutsGroup"
++ "STATUS_BAR_PREVIEW"
++ "VO_LIVE_RECOGNITION_CUSTOMIZATION_AI"
++ "VO_REAL_WORLD_DETECTION_TOP_LEVEL"
++ "_addImageCaptionsModeSpecifiers:groupSpecifier:"
++ "com.apple.GenerativePlayground"
++ "cursorRoutingValue:"
++ "detection.ask"
++ "hasBackTapDoubleTapAction"
++ "hasBackTapTripleTapAction"
++ "postNotificationName:object:userInfo:"
++ "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY_SWITCH"
++ "setCursorRoutingValue:specifier:"
++ "setValues:titles:"
++ "setVoiceOverFunctionKeysDoNotRequireModifier:"
++ "setVoiceOverFunctionKeysDoNotRequireModifier:specifier:"
++ "setVoiceOverImageCaptionsMode:"
++ "setVoiceOverTouchBrailleSnapToPrintText:"
++ "vo.no.modifier.for.function.keys"
++ "vo.no.modifier.for.function.keys.hint.text"
++ "voiceOverFunctionKeysDoNotRequireModifier"
++ "voiceOverFunctionKeysDoNotRequireModifier:"
++ "voiceOverImageCaptionsMode"
++ "voiceOverImageCaptionsMode pref did change. newValue=%@ self=%@"
++ "voiceOverTouchBrailleSnapToPrintText"
+- "Enable Image Descriptions toggle adjusted. inVal=%@"
+- "VO_IMAGE_DESCRIPTIONS_WHILE_NAVIGATING"
+- "backTapEnabled"
+- "prefs:root=ACCESSIBILITY&path=TOUCH_REACHABILITY_TITLE/AIR_TOUCH_TITLE#APPLE_PAY"
+- "setSpeakDiscoveredImageDescriptions:specifier:"
+- "setVoiceOverImageCaptionsEnabled:"
+- "speakDiscoveredImageDescriptions:"
+
+```

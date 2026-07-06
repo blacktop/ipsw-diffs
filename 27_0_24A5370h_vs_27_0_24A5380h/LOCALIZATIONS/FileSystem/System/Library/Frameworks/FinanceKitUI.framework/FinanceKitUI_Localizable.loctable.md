@@ -1,0 +1,26 @@
+## FinanceKitUI
+
+> `FileSystem/System/Library/Frameworks/FinanceKitUI.framework/FinanceKitUI_Localizable.loctable`
+
+```diff
+
+ en.ORDER_DETAILS_COLLAPSED_FULFILLMENT_PICKUP_NUMBER = "Pickup %1$d of %2$d"
+ en.ORDER_DETAILS_COLLAPSED_FULFILLMENT_SHIPMENT_NUMBER = "Shipment %1$d of %2$d"
+ en.ORDER_DETAILS_CONTEXT_MENU_COPY_CARRIER = "Copy Carrier"
++en.ORDER_DETAILS_CONTEXT_MENU_COPY_EMAIL = "Copy Email Address"
++en.ORDER_DETAILS_CONTEXT_MENU_COPY_PHONE_NUMBER = "Copy Phone Number"
++en.ORDER_DETAILS_CONTEXT_MENU_COPY_RETURN_ID = "Copy Return ID"
+ en.ORDER_DETAILS_CONTEXT_MENU_COPY_TRACKING_ID = "Copy Tracking ID"
+ en.ORDER_DETAILS_CONTEXT_MENU_COPY_TRACKING_URL = "Copy Tracking URL"
+ en.ORDER_DETAILS_CUSTOM_STATUS_FROM = "From %@"
+
+ en.ORDER_DETAILS_TRACKING_ID_TITLE = "Tracking ID"
+ en.ORDER_DETAILS_TRACKING_NOT_PROVIDED = "Tracking Info Not Provided"
+ en.ORDER_DETAILS_TRACKING_NUMBER = "Track %@"
++en.ORDER_DETAILS_TRACKING_NUMBER_TITLE = "Tracking No."
++en.ORDER_DETAILS_TRACKING_NUMBER_TITLE_WITH_CARRIER = "%@ Tracking No."
+ en.ORDER_DETAILS_TRACKING_POWERED_BY = "Powered by"
+ en.ORDER_DETAILS_TRACKING_SHIPMENT = "Track Shipment"
+ en.ORDER_DETAILS_UNKNOWN_STATUS_DESCRIPTION = "Use information provided by %@ to track and manage this order."
+
+```

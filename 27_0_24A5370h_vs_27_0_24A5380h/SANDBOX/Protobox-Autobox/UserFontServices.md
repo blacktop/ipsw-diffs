@@ -1,0 +1,16 @@
+## UserFontServices
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 	(require-all
+ 		(global-name "com.apple.dt.testmanagerd.uiprocess")
+ 		(require-not (global-name "com.apple.system.libinfo.muser"))
+-		(require-not (global-name "com.apple.system.logger"))
+ 		(require-not (global-name "com.apple.fontservicesd"))
++		(require-not (global-name "com.apple.system.logger"))
+ 		(require-not (global-name "com.apple.logd"))
+ 		(require-not (global-name "com.apple.diagnosticd"))
+ 		(require-not (global-name "com.apple.cfprefsd.daemon.system"))
+```

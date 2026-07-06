@@ -1,0 +1,148 @@
+## PhoneSnippetUI
+
+> `/System/Library/PrivateFrameworks/PhoneSnippetUI.framework/PhoneSnippetUI`
+
+```diff
+
+-  __TEXT.__text: 0x9e554
+-  __TEXT.__const: 0x8bf8
+-  __TEXT.__swift5_typeref: 0x8de6
+-  __TEXT.__swift5_capture: 0x76c
+-  __TEXT.__swift5_reflstr: 0x1ad4
++  __TEXT.__text: 0x9fb78
++  __TEXT.__const: 0x8c48
++  __TEXT.__swift5_typeref: 0x8e52
++  __TEXT.__swift5_capture: 0x78c
++  __TEXT.__swift5_reflstr: 0x1af4
+   __TEXT.__swift5_assocty: 0x5b8
+-  __TEXT.__constg_swiftt: 0x203c
+-  __TEXT.__swift5_fieldmd: 0x2134
++  __TEXT.__constg_swiftt: 0x206c
++  __TEXT.__swift5_fieldmd: 0x2140
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__oslogstring: 0x1b25
++  __TEXT.__oslogstring: 0x1b45
+   __TEXT.__swift5_proto: 0x680
+   __TEXT.__swift5_types: 0x218
+   __TEXT.__cstring: 0x1352
+
+   __TEXT.__swift_as_entry: 0x8
+   __TEXT.__swift_as_ret: 0x10
+   __TEXT.__swift_as_cont: 0x24
+-  __TEXT.__unwind_info: 0x2920
++  __TEXT.__unwind_info: 0x2958
+   __TEXT.__eh_frame: 0x13a8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x960
++  __DATA_CONST.__const: 0x980
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xf8
+-  __DATA_CONST.__got: 0x8e8
+-  __AUTH_CONST.__const: 0x4308
+-  __AUTH_CONST.__objc_const: 0x448
++  __DATA_CONST.__got: 0x8f8
++  __AUTH_CONST.__const: 0x43a8
++  __AUTH_CONST.__objc_const: 0x468
+   __AUTH_CONST.__auth_got: 0x13d0
+   __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x1e38
+-  __DATA.__data: 0x2a40
+-  __DATA.__bss: 0xcfe0
++  __AUTH.__data: 0x1e70
++  __DATA.__data: 0x2a70
++  __DATA.__bss: 0xcff0
+   __DATA.__common: 0x190
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3932
+-  Symbols:   13905
++  Functions: 3964
++  Symbols:   13983
+   CStrings:  267
+ 
+Sections:
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_types : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __AUTH.__objc_data : content changed
+Symbols:
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21waitingForCallToStartSbvM
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21waitingForCallToStartSbvM.resume
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21waitingForCallToStartSbvMTj
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21waitingForCallToStartSbvMTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21waitingForCallToStartSbvg
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21waitingForCallToStartSbvgTj
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21waitingForCallToStartSbvgTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21waitingForCallToStartSbvpACTK
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21waitingForCallToStartSbvpACTk
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21waitingForCallToStartSbvpMV
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21waitingForCallToStartSbvs
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21waitingForCallToStartSbvsTj
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC21waitingForCallToStartSbvsTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC22$waitingForCallToStart7Combine9PublishedV9PublisherVySb_GvM
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC22$waitingForCallToStart7Combine9PublishedV9PublisherVySb_GvM.resume
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC22$waitingForCallToStart7Combine9PublishedV9PublisherVySb_GvMTj
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC22$waitingForCallToStart7Combine9PublishedV9PublisherVySb_GvMTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC22$waitingForCallToStart7Combine9PublishedV9PublisherVySb_Gvg
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC22$waitingForCallToStart7Combine9PublishedV9PublisherVySb_GvgTj
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC22$waitingForCallToStart7Combine9PublishedV9PublisherVySb_GvgTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC22$waitingForCallToStart7Combine9PublishedV9PublisherVySb_GvpACTk
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC22$waitingForCallToStart7Combine9PublishedV9PublisherVySb_GvpMV
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC22$waitingForCallToStart7Combine9PublishedV9PublisherVySb_Gvs
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC22$waitingForCallToStart7Combine9PublishedV9PublisherVySb_GvsTj
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC22$waitingForCallToStart7Combine9PublishedV9PublisherVySb_GvsTq
++ _$s14PhoneSnippetUI27EmergencyCountdownViewModelC22_waitingForCallToStart33_C7669CA20219013364605B6C26FF3F9DLL7Combine9PublishedVySbGvpWvd
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewV15smartCallButton33_ED95F6B6B2D3423B4B0D8D564A0FF87ELLQrvgyyScMYccfU_yyScMYccfU_
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewV15smartCallButton33_ED95F6B6B2D3423B4B0D8D564A0FF87ELLQrvgyyScMYccfU_yyScMYccfU_TA
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewV15statusIndicator33_ED95F6B6B2D3423B4B0D8D564A0FF87ELLQrvg
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewV17smartCancelButton33_ED95F6B6B2D3423B4B0D8D564A0FF87ELLQrvgyyScMYccfU_yyScMYccfU_
++ _$s14PhoneSnippetUI29SlidingEmergencyCountdownViewV17smartCancelButton33_ED95F6B6B2D3423B4B0D8D564A0FF87ELLQrvgyyScMYccfU_yyScMYccfU_TA
++ _$s7SwiftUI15ModifiedContentVyAA4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaDRd__lFQOy05PhonefB00I14ComponentStackVyAA05TupleD0VyACyACyACyAA6VStackVyAMyAA4TextV_AQQPGGAA30_EnvironmentKeyWritingModifierVyAA0N9AlignmentOGGAA16_FlexFrameLayoutVGAA08_PaddingV0VG_AF012BinaryButtonE0VQPGG_AeFE21requestHostBackground_8accepted6deniedQrAF14HostBackgroundOSg_qd__xcqd_0_xctAaDRd__AaDRd_0_r0_lFQOyACyA7_A2_G_A14_ACyA14_AA016_BackgroundStyleR0VyAA15BackgroundStyleVGGQo_Qo_AUyAA11ColorSchemeOGGWOhTm
++ _$s7SwiftUI19_ConditionalContentV7StorageOyAA4ViewP07SnippetB0E10separators_10isOverrideQr0G3Kit14SeparatorStyleO_SbtFQOyAH015StatusIndicatorF0V_Qo_AP_GMR
++ _$s7SwiftUI19_ConditionalContentV7StorageOyAA4ViewP07SnippetB0E10separators_10isOverrideQr0G3Kit14SeparatorStyleO_SbtFQOyAH015StatusIndicatorF0V_Qo_AP_GMd
++ _$s7SwiftUI19_ConditionalContentV7StorageOyACyAA4ViewP07SnippetB0E10separators_10isOverrideQr0G3Kit14SeparatorStyleO_SbtFQOyAH015StatusIndicatorF0V_Qo_APGAA05EmptyF0V_GMR
++ _$s7SwiftUI19_ConditionalContentV7StorageOyACyAA4ViewP07SnippetB0E10separators_10isOverrideQr0G3Kit14SeparatorStyleO_SbtFQOyAH015StatusIndicatorF0V_Qo_APGAA05EmptyF0V_GMd
++ _$s7SwiftUI19_ConditionalContentVyAA4ViewP07SnippetB0E10separators_10isOverrideQr0F3Kit14SeparatorStyleO_SbtFQOyAF015StatusIndicatorE0V_Qo_ANGACyxq_GAad2aDRzAaDR_rlWL
++ _$s7SwiftUI19_ConditionalContentVyAA4ViewP07SnippetB0E10separators_10isOverrideQr0F3Kit14SeparatorStyleO_SbtFQOyAF015StatusIndicatorE0V_Qo_ANGACyxq_GAad2aDRzAaDR_rlWl
++ _$s7SwiftUI19_ConditionalContentVyAA4ViewP07SnippetB0E10separators_10isOverrideQr0F3Kit14SeparatorStyleO_SbtFQOyAF015StatusIndicatorE0V_Qo_ANGMR
++ _$s7SwiftUI19_ConditionalContentVyAA4ViewP07SnippetB0E10separators_10isOverrideQr0F3Kit14SeparatorStyleO_SbtFQOyAF015StatusIndicatorE0V_Qo_ANGMd
++ _$s7SwiftUI19_ConditionalContentVyACyAA4ViewP07SnippetB0E10separators_10isOverrideQr0F3Kit14SeparatorStyleO_SbtFQOyAF015StatusIndicatorE0V_Qo_ANGAA05EmptyE0VGACyxq_GAad2aDRzAaDR_rlWL
++ _$s7SwiftUI19_ConditionalContentVyACyAA4ViewP07SnippetB0E10separators_10isOverrideQr0F3Kit14SeparatorStyleO_SbtFQOyAF015StatusIndicatorE0V_Qo_ANGAA05EmptyE0VGACyxq_GAad2aDRzAaDR_rlWl
++ _$s7SwiftUI19_ConditionalContentVyACyAA4ViewP07SnippetB0E10separators_10isOverrideQr0F3Kit14SeparatorStyleO_SbtFQOyAF015StatusIndicatorE0V_Qo_ANGAA05EmptyE0VGMR
++ _$s7SwiftUI19_ConditionalContentVyACyAA4ViewP07SnippetB0E10separators_10isOverrideQr0F3Kit14SeparatorStyleO_SbtFQOyAF015StatusIndicatorE0V_Qo_ANGAA05EmptyE0VGMd
++ _$s9SnippetUI16BinaryButtonViewV15TransitionStateO30showStatusIndicatorFromPrimaryyA2EmFWC
++ _$s9SnippetUI19StatusIndicatorViewV0D4TypeO10inProgressyA2EmFWC
++ _$sIeg_IeyB_TR
++ _$sSo17OS_dispatch_queueCMa
++ ___swift_closure_destructor.129Tm
++ _symbolic _____yAAy_____y______Qo_ACG_____G 7SwiftUI19_ConditionalContentV AA4ViewP07SnippetB0E10separators_10isOverrideQr0F3Kit14SeparatorStyleO_SbtFQO AF015StatusIndicatorE0V AA05EmptyE0V
++ _symbolic _____y_____y______Qo_ACG 7SwiftUI19_ConditionalContentV AA4ViewP07SnippetB0E10separators_10isOverrideQr0F3Kit14SeparatorStyleO_SbtFQO AF015StatusIndicatorE0V
++ _symbolic _____y_____y______Qo_AC_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewP07SnippetB0E10separators_10isOverrideQr0G3Kit14SeparatorStyleO_SbtFQO AH015StatusIndicatorF0V
++ _symbolic _____y_____y_____y______Qo_ADG______G 7SwiftUI19_ConditionalContentV7StorageO AC AA4ViewP07SnippetB0E10separators_10isOverrideQr0G3Kit14SeparatorStyleO_SbtFQO AH015StatusIndicatorF0V AA05EmptyF0V
+- _$s7SwiftUI4ViewP07SnippetB0E10separators_10isOverrideQr0D3Kit14SeparatorStyleO_SbtFQOyAD015StatusIndicatorC0V_Qo_MR
+- _$s7SwiftUI4ViewP07SnippetB0E10separators_10isOverrideQr0D3Kit14SeparatorStyleO_SbtFQOyAD015StatusIndicatorC0V_Qo_Md
+- ___swift_closure_destructor.121Tm
+- _symbolic _____y______Qo_ 7SwiftUI4ViewP07SnippetB0E10separators_10isOverrideQr0D3Kit14SeparatorStyleO_SbtFQO AD015StatusIndicatorC0V
+CStrings:
++ "#EmergencyCountdownView counter reached 0 -- executing confirm action after going waiting for call to start"
+- "#EmergencyCountdownView counter reached 0 -- executing confirm action"
+
+```

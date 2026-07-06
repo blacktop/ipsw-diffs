@@ -1,0 +1,522 @@
+## FitnessApp
+
+> `/System/Library/AccessibilityBundles/FitnessApp.axbundle/FitnessApp`
+
+```diff
+
+-  __TEXT.__text: 0xfd7c
+-  __TEXT.__auth_stubs: 0x510
+-  __TEXT.__objc_stubs: 0x1920
+-  __TEXT.__objc_methlist: 0x19b8
++  __TEXT.__text: 0xf13c
++  __TEXT.__auth_stubs: 0x500
++  __TEXT.__objc_stubs: 0x1820
++  __TEXT.__objc_methlist: 0x18e8
+   __TEXT.__const: 0x18
+-  __TEXT.__gcc_except_tab: 0x270
+-  __TEXT.__objc_classname: 0x1a73
+-  __TEXT.__cstring: 0x2dd9
+-  __TEXT.__objc_methname: 0x1bd1
++  __TEXT.__gcc_except_tab: 0x258
++  __TEXT.__objc_classname: 0x1997
++  __TEXT.__cstring: 0x2bba
++  __TEXT.__objc_methname: 0x1ab8
+   __TEXT.__objc_methtype: 0x200
+   __TEXT.__ustring: 0xa
+-  __TEXT.__unwind_info: 0x600
+-  __DATA_CONST.__const: 0x4e0
+-  __DATA_CONST.__cfstring: 0x3560
+-  __DATA_CONST.__objc_classlist: 0x490
++  __TEXT.__unwind_info: 0x5c0
++  __DATA_CONST.__const: 0x480
++  __DATA_CONST.__cfstring: 0x32a0
++  __DATA_CONST.__objc_classlist: 0x470
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_superrefs: 0x1b8
+-  __DATA_CONST.__auth_got: 0x298
++  __DATA_CONST.__auth_got: 0x290
+   __DATA_CONST.__got: 0x180
+-  __DATA.__objc_const: 0x52a8
+-  __DATA.__objc_selrefs: 0x7e0
++  __DATA.__objc_const: 0x5068
++  __DATA.__objc_selrefs: 0x798
+   __DATA.__objc_ivar: 0x8
+-  __DATA.__objc_data: 0x2da0
+-  __DATA.__bss: 0x69
++  __DATA.__objc_data: 0x2c60
++  __DATA.__bss: 0x61
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 486
+-  Symbols:   1628
+-  CStrings:  1313
++  Functions: 467
++  Symbols:   1574
++  CStrings:  1255
+ 
+Sections:
+~ __TEXT.__objc_methtype : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__got : content changed
+Symbols:
++ +[CHMindfulnessSessionListCollectionViewCellAccessibility _accessibilityPerformValidations:]
++ +[CHMindfulnessSessionListCollectionViewCellAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[CHMindfulnessSessionListCollectionViewCellAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[CHWorkoutsListCollectionViewCellAccessibility _accessibilityPerformValidations:]
++ +[CHWorkoutsListCollectionViewCellAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[CHWorkoutsListCollectionViewCellAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[DayViewActivityRingsCellAccessibility _accessibilityPerformValidations:]
++ +[DayViewActivityRingsCellAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[DayViewActivityRingsCellAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[DayViewMoveAndExerciseChartCellAccessibility _accessibilityPerformValidations:]
++ +[DayViewMoveAndExerciseChartCellAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[DayViewMoveAndExerciseChartCellAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[DayViewStandChartCellAccessibility _accessibilityPerformValidations:]
++ +[DayViewStandChartCellAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[DayViewStandChartCellAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[HistoryListHeaderViewAccessibility _accessibilityPerformValidations:]
++ +[HistoryListHeaderViewAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[HistoryListHeaderViewAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[MindfulnessSessionListContentViewAccessibility _accessibilityPerformValidations:]
++ +[MindfulnessSessionListContentViewAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[MindfulnessSessionListContentViewAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[TrendSectionHeaderViewAccessibility _accessibilityPerformValidations:]
++ +[TrendSectionHeaderViewAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[TrendSectionHeaderViewAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[TrophyCaseAwardDetailDescriptionCellAccessibility _accessibilityPerformValidations:]
++ +[TrophyCaseAwardDetailDescriptionCellAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[TrophyCaseAwardDetailDescriptionCellAccessibility(SafeCategory) safeCategoryTargetClassName]
++ -[CHMindfulnessSessionListCollectionViewCellAccessibility accessibilityLabel]
++ -[CHMindfulnessSessionListCollectionViewCellAccessibility accessibilityPath]
++ -[CHMindfulnessSessionListCollectionViewCellAccessibility isAccessibilityElement]
++ -[CHWorkoutsListCollectionViewCellAccessibility accessibilityLabel]
++ -[CHWorkoutsListCollectionViewCellAccessibility accessibilityPath]
++ -[CHWorkoutsListCollectionViewCellAccessibility isAccessibilityElement]
++ -[DayViewActivityRingsCellAccessibility accessibilityFrame]
++ -[DayViewActivityRingsCellAccessibility accessibilityLabel]
++ -[DayViewActivityRingsCellAccessibility accessibilityPath]
++ -[DayViewActivityRingsCellAccessibility isAccessibilityElement]
++ -[DayViewMoveAndExerciseChartCellAccessibility accessibilityElements]
++ -[DayViewStandChartCellAccessibility accessibilityElements]
++ -[HistoryListHeaderViewAccessibility accessibilityLabel]
++ -[HistoryListHeaderViewAccessibility accessibilityTraits]
++ -[HistoryListHeaderViewAccessibility isAccessibilityElement]
++ -[MindfulnessSessionListContentViewAccessibility _accessibilityLoadAccessibilityInformation]
++ -[MindfulnessSessionListContentViewAccessibility _isDateInLastWeek:]
++ -[TrendSectionHeaderViewAccessibility _accessibilityLoadAccessibilityInformation]
++ -[TrophyCaseAwardDetailDescriptionCellAccessibility _accessibilityLoadAccessibilityInformation]
++ GCC_except_table133
++ GCC_except_table156
++ GCC_except_table166
++ GCC_except_table200
++ GCC_except_table218
++ GCC_except_table249
++ GCC_except_table258
++ GCC_except_table313
++ GCC_except_table317
++ GCC_except_table327
++ GCC_except_table369
++ GCC_except_table374
++ GCC_except_table385
++ GCC_except_table391
++ GCC_except_table406
++ GCC_except_table58
++ GCC_except_table88
++ _OBJC_CLASS_$_CHMindfulnessSessionListCollectionViewCellAccessibility
++ _OBJC_CLASS_$_CHWorkoutsListCollectionViewCellAccessibility
++ _OBJC_CLASS_$_DayViewActivityRingsCellAccessibility
++ _OBJC_CLASS_$_DayViewMoveAndExerciseChartCellAccessibility
++ _OBJC_CLASS_$_DayViewStandChartCellAccessibility
++ _OBJC_CLASS_$_HistoryListHeaderViewAccessibility
++ _OBJC_CLASS_$_MindfulnessSessionListContentViewAccessibility
++ _OBJC_CLASS_$_TrendSectionHeaderViewAccessibility
++ _OBJC_CLASS_$_TrophyCaseAwardDetailDescriptionCellAccessibility
++ _OBJC_CLASS_$___CHMindfulnessSessionListCollectionViewCellAccessibility_super
++ _OBJC_CLASS_$___CHWorkoutsListCollectionViewCellAccessibility_super
++ _OBJC_CLASS_$___DayViewActivityRingsCellAccessibility_super
++ _OBJC_CLASS_$___DayViewMoveAndExerciseChartCellAccessibility_super
++ _OBJC_CLASS_$___DayViewStandChartCellAccessibility_super
++ _OBJC_CLASS_$___HistoryListHeaderViewAccessibility_super
++ _OBJC_CLASS_$___MindfulnessSessionListContentViewAccessibility_super
++ _OBJC_CLASS_$___TrendSectionHeaderViewAccessibility_super
++ _OBJC_CLASS_$___TrophyCaseAwardDetailDescriptionCellAccessibility_super
++ _OBJC_METACLASS_$_CHMindfulnessSessionListCollectionViewCellAccessibility
++ _OBJC_METACLASS_$_CHWorkoutsListCollectionViewCellAccessibility
++ _OBJC_METACLASS_$_DayViewActivityRingsCellAccessibility
++ _OBJC_METACLASS_$_DayViewMoveAndExerciseChartCellAccessibility
++ _OBJC_METACLASS_$_DayViewStandChartCellAccessibility
++ _OBJC_METACLASS_$_HistoryListHeaderViewAccessibility
++ _OBJC_METACLASS_$_MindfulnessSessionListContentViewAccessibility
++ _OBJC_METACLASS_$_TrendSectionHeaderViewAccessibility
++ _OBJC_METACLASS_$_TrophyCaseAwardDetailDescriptionCellAccessibility
++ _OBJC_METACLASS_$___CHMindfulnessSessionListCollectionViewCellAccessibility_super
++ _OBJC_METACLASS_$___CHWorkoutsListCollectionViewCellAccessibility_super
++ _OBJC_METACLASS_$___DayViewActivityRingsCellAccessibility_super
++ _OBJC_METACLASS_$___DayViewMoveAndExerciseChartCellAccessibility_super
++ _OBJC_METACLASS_$___DayViewStandChartCellAccessibility_super
++ _OBJC_METACLASS_$___HistoryListHeaderViewAccessibility_super
++ _OBJC_METACLASS_$___MindfulnessSessionListContentViewAccessibility_super
++ _OBJC_METACLASS_$___TrendSectionHeaderViewAccessibility_super
++ _OBJC_METACLASS_$___TrophyCaseAwardDetailDescriptionCellAccessibility_super
++ __OBJC_$_CLASS_METHODS_CHMindfulnessSessionListCollectionViewCellAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS_CHWorkoutsListCollectionViewCellAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS_DayViewActivityRingsCellAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS_DayViewMoveAndExerciseChartCellAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS_DayViewStandChartCellAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS_HistoryListHeaderViewAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS_MindfulnessSessionListContentViewAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS_TrendSectionHeaderViewAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS_TrophyCaseAwardDetailDescriptionCellAccessibility(SafeCategory)
++ __OBJC_$_INSTANCE_METHODS_CHMindfulnessSessionListCollectionViewCellAccessibility
++ __OBJC_$_INSTANCE_METHODS_CHWorkoutsListCollectionViewCellAccessibility
++ __OBJC_$_INSTANCE_METHODS_DayViewActivityRingsCellAccessibility
++ __OBJC_$_INSTANCE_METHODS_DayViewMoveAndExerciseChartCellAccessibility
++ __OBJC_$_INSTANCE_METHODS_DayViewStandChartCellAccessibility
++ __OBJC_$_INSTANCE_METHODS_HistoryListHeaderViewAccessibility
++ __OBJC_$_INSTANCE_METHODS_MindfulnessSessionListContentViewAccessibility
++ __OBJC_$_INSTANCE_METHODS_TrendSectionHeaderViewAccessibility
++ __OBJC_$_INSTANCE_METHODS_TrophyCaseAwardDetailDescriptionCellAccessibility
++ __OBJC_CLASS_RO_$_CHMindfulnessSessionListCollectionViewCellAccessibility
++ __OBJC_CLASS_RO_$_CHWorkoutsListCollectionViewCellAccessibility
++ __OBJC_CLASS_RO_$_DayViewActivityRingsCellAccessibility
++ __OBJC_CLASS_RO_$_DayViewMoveAndExerciseChartCellAccessibility
++ __OBJC_CLASS_RO_$_DayViewStandChartCellAccessibility
++ __OBJC_CLASS_RO_$_HistoryListHeaderViewAccessibility
++ __OBJC_CLASS_RO_$_MindfulnessSessionListContentViewAccessibility
++ __OBJC_CLASS_RO_$_TrendSectionHeaderViewAccessibility
++ __OBJC_CLASS_RO_$_TrophyCaseAwardDetailDescriptionCellAccessibility
++ __OBJC_CLASS_RO_$___CHMindfulnessSessionListCollectionViewCellAccessibility_super
++ __OBJC_CLASS_RO_$___CHWorkoutsListCollectionViewCellAccessibility_super
++ __OBJC_CLASS_RO_$___DayViewActivityRingsCellAccessibility_super
++ __OBJC_CLASS_RO_$___DayViewMoveAndExerciseChartCellAccessibility_super
++ __OBJC_CLASS_RO_$___DayViewStandChartCellAccessibility_super
++ __OBJC_CLASS_RO_$___HistoryListHeaderViewAccessibility_super
++ __OBJC_CLASS_RO_$___MindfulnessSessionListContentViewAccessibility_super
++ __OBJC_CLASS_RO_$___TrendSectionHeaderViewAccessibility_super
++ __OBJC_CLASS_RO_$___TrophyCaseAwardDetailDescriptionCellAccessibility_super
++ __OBJC_METACLASS_RO_$_CHMindfulnessSessionListCollectionViewCellAccessibility
++ __OBJC_METACLASS_RO_$_CHWorkoutsListCollectionViewCellAccessibility
++ __OBJC_METACLASS_RO_$_DayViewActivityRingsCellAccessibility
++ __OBJC_METACLASS_RO_$_DayViewMoveAndExerciseChartCellAccessibility
++ __OBJC_METACLASS_RO_$_DayViewStandChartCellAccessibility
++ __OBJC_METACLASS_RO_$_HistoryListHeaderViewAccessibility
++ __OBJC_METACLASS_RO_$_MindfulnessSessionListContentViewAccessibility
++ __OBJC_METACLASS_RO_$_TrendSectionHeaderViewAccessibility
++ __OBJC_METACLASS_RO_$_TrophyCaseAwardDetailDescriptionCellAccessibility
++ __OBJC_METACLASS_RO_$___CHMindfulnessSessionListCollectionViewCellAccessibility_super
++ __OBJC_METACLASS_RO_$___CHWorkoutsListCollectionViewCellAccessibility_super
++ __OBJC_METACLASS_RO_$___DayViewActivityRingsCellAccessibility_super
++ __OBJC_METACLASS_RO_$___DayViewMoveAndExerciseChartCellAccessibility_super
++ __OBJC_METACLASS_RO_$___DayViewStandChartCellAccessibility_super
++ __OBJC_METACLASS_RO_$___HistoryListHeaderViewAccessibility_super
++ __OBJC_METACLASS_RO_$___MindfulnessSessionListContentViewAccessibility_super
++ __OBJC_METACLASS_RO_$___TrendSectionHeaderViewAccessibility_super
++ __OBJC_METACLASS_RO_$___TrophyCaseAwardDetailDescriptionCellAccessibility_super
++ ___92-[MindfulnessSessionListContentViewAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke
+- +[AddToYourRingTableViewCellAccessibility _accessibilityPerformValidations:]
+- +[AddToYourRingTableViewCellAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[AddToYourRingTableViewCellAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[CHAchievementDetailViewControllerAccessibility _accessibilityPerformValidations:]
+- +[CHAchievementDetailViewControllerAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[CHAchievementDetailViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[CHAchievementsSectionHeaderViewAccessibility _accessibilityPerformValidations:]
+- +[CHAchievementsSectionHeaderViewAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[CHAchievementsSectionHeaderViewAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[CHListSummaryTableViewCellAccessibility _accessibilityPerformValidations:]
+- +[CHListSummaryTableViewCellAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[CHListSummaryTableViewCellAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[CHListTableHeaderViewAccessibility _accessibilityPerformValidations:]
+- +[CHListTableHeaderViewAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[CHListTableHeaderViewAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[CHMindfulnessSessionListTableViewCellAccessibility _accessibilityPerformValidations:]
+- +[CHMindfulnessSessionListTableViewCellAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[CHMindfulnessSessionListTableViewCellAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[CatalogTipActivityTileAccessibility _accessibilityPerformValidations:]
+- +[CatalogTipActivityTileAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[CatalogTipActivityTileAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DayViewActivityRingsTableViewCellAccessibility _accessibilityPerformValidations:]
+- +[DayViewActivityRingsTableViewCellAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DayViewActivityRingsTableViewCellAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DayViewMoveAndExerciseChartTableViewCellAccessibility _accessibilityPerformValidations:]
+- +[DayViewMoveAndExerciseChartTableViewCellAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DayViewMoveAndExerciseChartTableViewCellAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[DayViewStandChartTableViewCellAccessibility _accessibilityPerformValidations:]
+- +[DayViewStandChartTableViewCellAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[DayViewStandChartTableViewCellAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[_CHWorkoutSummaryTabbedLabelContainerAccessibility _accessibilityPerformValidations:]
+- +[_CHWorkoutSummaryTabbedLabelContainerAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[_CHWorkoutSummaryTabbedLabelContainerAccessibility(SafeCategory) safeCategoryTargetClassName]
+- -[AddToYourRingTableViewCellAccessibility accessibilityElements]
+- -[CHAchievementDetailViewControllerAccessibility _accessibilityLoadAccessibilityInformation]
+- -[CHAchievementDetailViewControllerAccessibility _axAnnotateAchievementView]
+- -[CHAchievementDetailViewControllerAccessibility viewDidLoad]
+- -[CHAchievementsSectionHeaderViewAccessibility accessibilityLabel]
+- -[CHAchievementsSectionHeaderViewAccessibility accessibilityTraits]
+- -[CHAchievementsSectionHeaderViewAccessibility isAccessibilityElement]
+- -[CHListSummaryTableViewCellAccessibility accessibilityElements]
+- -[CHListTableHeaderViewAccessibility accessibilityLabel]
+- -[CHListTableHeaderViewAccessibility accessibilityTraits]
+- -[CHListTableHeaderViewAccessibility isAccessibilityElement]
+- -[CHMindfulnessSessionListTableViewCellAccessibility _accessibilityLoadAccessibilityInformation]
+- -[CHMindfulnessSessionListTableViewCellAccessibility _isDateInLastWeek:]
+- -[CHMindfulnessSessionListTableViewCellAccessibility accessibilityPath]
+- -[CHMindfulnessSessionListTableViewCellAccessibility isAccessibilityElement]
+- -[CatalogTipActivityTileAccessibility accessibilityTraits]
+- -[CatalogTipActivityTileAccessibility isAccessibilityElement]
+- -[DayViewActivityRingsTableViewCellAccessibility accessibilityFrame]
+- -[DayViewActivityRingsTableViewCellAccessibility accessibilityLabel]
+- -[DayViewActivityRingsTableViewCellAccessibility accessibilityPath]
+- -[DayViewActivityRingsTableViewCellAccessibility isAccessibilityElement]
+- -[DayViewMoveAndExerciseChartTableViewCellAccessibility accessibilityElements]
+- -[DayViewStandChartTableViewCellAccessibility accessibilityElements]
+- -[_CHWorkoutSummaryTabbedLabelContainerAccessibility _accessibilityLabelAttribute]
+- -[_CHWorkoutSummaryTabbedLabelContainerAccessibility _accessibilitySetLabelAttribute:]
+- -[_CHWorkoutSummaryTabbedLabelContainerAccessibility accessibilityLabel]
+- -[_CHWorkoutSummaryTabbedLabelContainerAccessibility isAccessibilityElement]
+- GCC_except_table104
+- GCC_except_table149
+- GCC_except_table172
+- GCC_except_table182
+- GCC_except_table221
+- GCC_except_table241
+- GCC_except_table254
+- GCC_except_table272
+- GCC_except_table281
+- GCC_except_table336
+- GCC_except_table340
+- GCC_except_table350
+- GCC_except_table37
+- GCC_except_table388
+- GCC_except_table399
+- GCC_except_table405
+- GCC_except_table431
+- GCC_except_table83
+- _OBJC_CLASS_$_AddToYourRingTableViewCellAccessibility
+- _OBJC_CLASS_$_CHAchievementDetailViewControllerAccessibility
+- _OBJC_CLASS_$_CHAchievementsSectionHeaderViewAccessibility
+- _OBJC_CLASS_$_CHListSummaryTableViewCellAccessibility
+- _OBJC_CLASS_$_CHListTableHeaderViewAccessibility
+- _OBJC_CLASS_$_CHMindfulnessSessionListTableViewCellAccessibility
+- _OBJC_CLASS_$_CatalogTipActivityTileAccessibility
+- _OBJC_CLASS_$_DayViewActivityRingsTableViewCellAccessibility
+- _OBJC_CLASS_$_DayViewMoveAndExerciseChartTableViewCellAccessibility
+- _OBJC_CLASS_$_DayViewStandChartTableViewCellAccessibility
+- _OBJC_CLASS_$_UICollectionViewController
+- _OBJC_CLASS_$__CHWorkoutSummaryTabbedLabelContainerAccessibility
+- _OBJC_CLASS_$___AddToYourRingTableViewCellAccessibility_super
+- _OBJC_CLASS_$___CHAchievementDetailViewControllerAccessibility_super
+- _OBJC_CLASS_$___CHAchievementsSectionHeaderViewAccessibility_super
+- _OBJC_CLASS_$___CHListSummaryTableViewCellAccessibility_super
+- _OBJC_CLASS_$___CHListTableHeaderViewAccessibility_super
+- _OBJC_CLASS_$___CHMindfulnessSessionListTableViewCellAccessibility_super
+- _OBJC_CLASS_$___CatalogTipActivityTileAccessibility_super
+- _OBJC_CLASS_$___DayViewActivityRingsTableViewCellAccessibility_super
+- _OBJC_CLASS_$___DayViewMoveAndExerciseChartTableViewCellAccessibility_super
+- _OBJC_CLASS_$___DayViewStandChartTableViewCellAccessibility_super
+- _OBJC_CLASS_$____CHWorkoutSummaryTabbedLabelContainerAccessibility_super
+- _OBJC_METACLASS_$_AddToYourRingTableViewCellAccessibility
+- _OBJC_METACLASS_$_CHAchievementDetailViewControllerAccessibility
+- _OBJC_METACLASS_$_CHAchievementsSectionHeaderViewAccessibility
+- _OBJC_METACLASS_$_CHListSummaryTableViewCellAccessibility
+- _OBJC_METACLASS_$_CHListTableHeaderViewAccessibility
+- _OBJC_METACLASS_$_CHMindfulnessSessionListTableViewCellAccessibility
+- _OBJC_METACLASS_$_CatalogTipActivityTileAccessibility
+- _OBJC_METACLASS_$_DayViewActivityRingsTableViewCellAccessibility
+- _OBJC_METACLASS_$_DayViewMoveAndExerciseChartTableViewCellAccessibility
+- _OBJC_METACLASS_$_DayViewStandChartTableViewCellAccessibility
+- _OBJC_METACLASS_$__CHWorkoutSummaryTabbedLabelContainerAccessibility
+- _OBJC_METACLASS_$___AddToYourRingTableViewCellAccessibility_super
+- _OBJC_METACLASS_$___CHAchievementDetailViewControllerAccessibility_super
+- _OBJC_METACLASS_$___CHAchievementsSectionHeaderViewAccessibility_super
+- _OBJC_METACLASS_$___CHListSummaryTableViewCellAccessibility_super
+- _OBJC_METACLASS_$___CHListTableHeaderViewAccessibility_super
+- _OBJC_METACLASS_$___CHMindfulnessSessionListTableViewCellAccessibility_super
+- _OBJC_METACLASS_$___CatalogTipActivityTileAccessibility_super
+- _OBJC_METACLASS_$___DayViewActivityRingsTableViewCellAccessibility_super
+- _OBJC_METACLASS_$___DayViewMoveAndExerciseChartTableViewCellAccessibility_super
+- _OBJC_METACLASS_$___DayViewStandChartTableViewCellAccessibility_super
+- _OBJC_METACLASS_$____CHWorkoutSummaryTabbedLabelContainerAccessibility_super
+- _UIAXLabelForElements
+- __OBJC_$_CLASS_METHODS_AddToYourRingTableViewCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_CHAchievementDetailViewControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_CHAchievementsSectionHeaderViewAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_CHListSummaryTableViewCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_CHListTableHeaderViewAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_CHMindfulnessSessionListTableViewCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_CatalogTipActivityTileAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DayViewActivityRingsTableViewCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DayViewMoveAndExerciseChartTableViewCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_DayViewStandChartTableViewCellAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS__CHWorkoutSummaryTabbedLabelContainerAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_AddToYourRingTableViewCellAccessibility
+- __OBJC_$_INSTANCE_METHODS_CHAchievementDetailViewControllerAccessibility
+- __OBJC_$_INSTANCE_METHODS_CHAchievementsSectionHeaderViewAccessibility
+- __OBJC_$_INSTANCE_METHODS_CHListSummaryTableViewCellAccessibility
+- __OBJC_$_INSTANCE_METHODS_CHListTableHeaderViewAccessibility
+- __OBJC_$_INSTANCE_METHODS_CHMindfulnessSessionListTableViewCellAccessibility
+- __OBJC_$_INSTANCE_METHODS_CatalogTipActivityTileAccessibility
+- __OBJC_$_INSTANCE_METHODS_DayViewActivityRingsTableViewCellAccessibility
+- __OBJC_$_INSTANCE_METHODS_DayViewMoveAndExerciseChartTableViewCellAccessibility
+- __OBJC_$_INSTANCE_METHODS_DayViewStandChartTableViewCellAccessibility
+- __OBJC_$_INSTANCE_METHODS__CHWorkoutSummaryTabbedLabelContainerAccessibility
+- __OBJC_CLASS_RO_$_AddToYourRingTableViewCellAccessibility
+- __OBJC_CLASS_RO_$_CHAchievementDetailViewControllerAccessibility
+- __OBJC_CLASS_RO_$_CHAchievementsSectionHeaderViewAccessibility
+- __OBJC_CLASS_RO_$_CHListSummaryTableViewCellAccessibility
+- __OBJC_CLASS_RO_$_CHListTableHeaderViewAccessibility
+- __OBJC_CLASS_RO_$_CHMindfulnessSessionListTableViewCellAccessibility
+- __OBJC_CLASS_RO_$_CatalogTipActivityTileAccessibility
+- __OBJC_CLASS_RO_$_DayViewActivityRingsTableViewCellAccessibility
+- __OBJC_CLASS_RO_$_DayViewMoveAndExerciseChartTableViewCellAccessibility
+- __OBJC_CLASS_RO_$_DayViewStandChartTableViewCellAccessibility
+- __OBJC_CLASS_RO_$__CHWorkoutSummaryTabbedLabelContainerAccessibility
+- __OBJC_CLASS_RO_$___AddToYourRingTableViewCellAccessibility_super
+- __OBJC_CLASS_RO_$___CHAchievementDetailViewControllerAccessibility_super
+- __OBJC_CLASS_RO_$___CHAchievementsSectionHeaderViewAccessibility_super
+- __OBJC_CLASS_RO_$___CHListSummaryTableViewCellAccessibility_super
+- __OBJC_CLASS_RO_$___CHListTableHeaderViewAccessibility_super
+- __OBJC_CLASS_RO_$___CHMindfulnessSessionListTableViewCellAccessibility_super
+- __OBJC_CLASS_RO_$___CatalogTipActivityTileAccessibility_super
+- __OBJC_CLASS_RO_$___DayViewActivityRingsTableViewCellAccessibility_super
+- __OBJC_CLASS_RO_$___DayViewMoveAndExerciseChartTableViewCellAccessibility_super
+- __OBJC_CLASS_RO_$___DayViewStandChartTableViewCellAccessibility_super
+- __OBJC_CLASS_RO_$____CHWorkoutSummaryTabbedLabelContainerAccessibility_super
+- __OBJC_METACLASS_RO_$_AddToYourRingTableViewCellAccessibility
+- __OBJC_METACLASS_RO_$_CHAchievementDetailViewControllerAccessibility
+- __OBJC_METACLASS_RO_$_CHAchievementsSectionHeaderViewAccessibility
+- __OBJC_METACLASS_RO_$_CHListSummaryTableViewCellAccessibility
+- __OBJC_METACLASS_RO_$_CHListTableHeaderViewAccessibility
+- __OBJC_METACLASS_RO_$_CHMindfulnessSessionListTableViewCellAccessibility
+- __OBJC_METACLASS_RO_$_CatalogTipActivityTileAccessibility
+- __OBJC_METACLASS_RO_$_DayViewActivityRingsTableViewCellAccessibility
+- __OBJC_METACLASS_RO_$_DayViewMoveAndExerciseChartTableViewCellAccessibility
+- __OBJC_METACLASS_RO_$_DayViewStandChartTableViewCellAccessibility
+- __OBJC_METACLASS_RO_$__CHWorkoutSummaryTabbedLabelContainerAccessibility
+- __OBJC_METACLASS_RO_$___AddToYourRingTableViewCellAccessibility_super
+- __OBJC_METACLASS_RO_$___CHAchievementDetailViewControllerAccessibility_super
+- __OBJC_METACLASS_RO_$___CHAchievementsSectionHeaderViewAccessibility_super
+- __OBJC_METACLASS_RO_$___CHListSummaryTableViewCellAccessibility_super
+- __OBJC_METACLASS_RO_$___CHListTableHeaderViewAccessibility_super
+- __OBJC_METACLASS_RO_$___CHMindfulnessSessionListTableViewCellAccessibility_super
+- __OBJC_METACLASS_RO_$___CatalogTipActivityTileAccessibility_super
+- __OBJC_METACLASS_RO_$___DayViewActivityRingsTableViewCellAccessibility_super
+- __OBJC_METACLASS_RO_$___DayViewMoveAndExerciseChartTableViewCellAccessibility_super
+- __OBJC_METACLASS_RO_$___DayViewStandChartTableViewCellAccessibility_super
+- __OBJC_METACLASS_RO_$____CHWorkoutSummaryTabbedLabelContainerAccessibility_super
+- ___64-[CHListSummaryTableViewCellAccessibility accessibilityElements]_block_invoke
+- ___68-[DayViewStandChartTableViewCellAccessibility accessibilityElements]_block_invoke
+- ___76-[CHAchievementDetailViewControllerAccessibility _axAnnotateAchievementView]_block_invoke
+- ___96-[CHMindfulnessSessionListTableViewCellAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke
+- ____CHWorkoutSummaryTabbedLabelContainerAccessibility___accessibilityLabelAttribute
+- ___block_descriptor_32_e23_B32?0"UIView"8Q16^B24l
+- _objc_msgSend$_accessibilityFindSubviewDescendantsPassingTest:
+- _objc_msgSend$_accessibilityLabelAttribute
+- _objc_msgSend$_accessibilitySetOverridesInvisibility:
+- _objc_msgSend$_accessibilitySetViewIsVisible:
+- _objc_msgSend$_accessibilityViewIsVisible
+- _objc_msgSend$_axAnnotateAchievementView
+- _objc_msgSend$ax_filteredArrayUsingBlock:
+- _objc_msgSend$collectionView
+CStrings:
++ "CHMindfulnessSessionListCollectionViewCell"
++ "CHMindfulnessSessionListCollectionViewCellAccessibility"
++ "CHWorkoutsListCollectionViewCell"
++ "CHWorkoutsListCollectionViewCellAccessibility"
++ "DayViewActivityRingsCellAccessibility"
++ "DayViewMoveAndExerciseChartCellAccessibility"
++ "DayViewStandChartCellAccessibility"
++ "FitnessApp.DayViewActivityRingsCell"
++ "FitnessApp.DayViewMoveAndExerciseChartCell"
++ "FitnessApp.DayViewStandChartCell"
++ "FitnessApp.HistoryListHeaderView"
++ "FitnessApp.MindfulnessSessionListContentView"
++ "FitnessApp.TrendSectionHeaderView"
++ "FitnessApp.TrophyCaseAwardDetailDescriptionCell"
++ "HistoryListHeaderViewAccessibility"
++ "MindfulnessSessionListContentView"
++ "MindfulnessSessionListContentViewAccessibility"
++ "TrendSectionHeaderViewAccessibility"
++ "TrophyCaseAwardDetailDescriptionCellAccessibility"
++ "__CHMindfulnessSessionListCollectionViewCellAccessibility_super"
++ "__CHWorkoutsListCollectionViewCellAccessibility_super"
++ "__DayViewActivityRingsCellAccessibility_super"
++ "__DayViewMoveAndExerciseChartCellAccessibility_super"
++ "__DayViewStandChartCellAccessibility_super"
++ "__HistoryListHeaderViewAccessibility_super"
++ "__MindfulnessSessionListContentViewAccessibility_super"
++ "__TrendSectionHeaderViewAccessibility_super"
++ "__TrophyCaseAwardDetailDescriptionCellAccessibility_super"
++ "achievement.badge"
++ "mindfulnessContentView"
+- "ACHAchievementLocalizationProvider"
+- "AddToYourRingTableViewCellAccessibility"
+- "B32@?0@\"UIView\"8Q16^B24"
+- "CHAchievementDetailViewController"
+- "CHAchievementDetailViewControllerAccessibility"
+- "CHAchievementsSectionHeaderView"
+- "CHAchievementsSectionHeaderViewAccessibility"
+- "CHListSummaryTableViewCell"
+- "CHListSummaryTableViewCellAccessibility"
+- "CHListTableHeaderView"
+- "CHListTableHeaderViewAccessibility"
+- "CHMindfulnessSessionListTableViewCell"
+- "CHMindfulnessSessionListTableViewCellAccessibility"
+- "CatalogTipActivityTileAccessibility"
+- "DayViewActivityRingsTableViewCellAccessibility"
+- "DayViewMoveAndExerciseChartTableViewCellAccessibility"
+- "DayViewStandChartTableViewCellAccessibility"
+- "FitnessApp.AddToYourRingTableViewCell"
+- "FitnessApp.CatalogTipActivityTile"
+- "FitnessApp.DayViewActivityRingsTableViewCell"
+- "FitnessApp.DayViewMoveAndExerciseChartTableViewCell"
+- "FitnessApp.DayViewStandChartTableViewCell"
+- "Optional<AddToYourRingCollectionViewController>"
+- "_CHWorkoutSummaryTabbedLabelContainer"
+- "_CHWorkoutSummaryTabbedLabelContainerAccessibility"
+- "_UITableViewHeaderFooterViewLabel"
+- "__AddToYourRingTableViewCellAccessibility_super"
+- "__CHAchievementDetailViewControllerAccessibility_super"
+- "__CHAchievementsSectionHeaderViewAccessibility_super"
+- "__CHListSummaryTableViewCellAccessibility_super"
+- "__CHListTableHeaderViewAccessibility_super"
+- "__CHMindfulnessSessionListTableViewCellAccessibility_super"
+- "__CatalogTipActivityTileAccessibility_super"
+- "__DayViewActivityRingsTableViewCellAccessibility_super"
+- "__DayViewMoveAndExerciseChartTableViewCellAccessibility_super"
+- "__DayViewStandChartTableViewCellAccessibility_super"
+- "___CHWorkoutSummaryTabbedLabelContainerAccessibility_super"
+- "_accessibilityFindSubviewDescendantsPassingTest:"
+- "_accessibilityLabelAttribute"
+- "_accessibilitySetLabelAttribute:"
+- "_accessibilitySetOverridesInvisibility:"
+- "_accessibilitySetViewIsVisible:"
+- "_accessibilityViewIsVisible"
+- "_achievement"
+- "_activeEnergyLabel"
+- "_averageText"
+- "_axAnnotateAchievementView"
+- "_dateLabel"
+- "_detailLabel"
+- "_distanceLabel"
+- "_durationLabel"
+- "_locProvider"
+- "_numberOfWorkoutsLabel"
+- "_paceLabel"
+- "_titleText"
+- "_totalText"
+- "achievement.badge.format"
+- "addToYourRingCollectionViewController"
+- "ax_filteredArrayUsingBlock:"
+- "badgeContainer"
+- "collectionView"
+- "summary.cell.header.average"
+- "summary.cell.header.total"
+
+```

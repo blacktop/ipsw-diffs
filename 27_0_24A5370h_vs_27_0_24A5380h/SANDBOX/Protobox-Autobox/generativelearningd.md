@@ -1,0 +1,51 @@
+## generativelearningd
+
+> Group: ⬆️ Updated
+
+```diff
+
+ (deny mach-lookup
+ 	(require-all
+ 		(global-name "com.apple.dt.testmanagerd.uiprocess")
+-		(require-not (global-name "com.apple.generativesearch.server.search"))
+-		(require-not (global-name "com.apple.mobileasset.autoasset"))
+-		(require-not (global-name "com.apple.powerlog.plxpclogger.xpc"))
+-		(require-not (global-name "com.apple.contactsd"))
+ 		(require-not (global-name "com.apple.mediaanalysisd.analysis"))
+-		(require-not (global-name "com.apple.contacts.poster.api"))
+-		(require-not (global-name "com.apple.mediaanalysisd.service.public"))
+-		(require-not (global-name "com.apple.nehelper"))
+-		(require-not (global-name "com.apple.dnssd.service"))
+-		(require-not (global-name "com.apple.usymptomsd"))
++		(require-not (global-name "com.apple.appleneuralengine"))
+ 		(require-not (global-name "com.apple.trustd"))
+-		(require-not (global-name "com.apple.photos.service"))
+-		(require-not (global-name "com.apple.PointerUI.pointeruid.service"))
+-		(require-not (global-name "com.apple.backboard.hid.services"))
+-		(require-not (global-name "com.apple.spotlightknowledged"))
+-		(require-not (global-name "com.apple.privacyaccountingd"))
++		(require-not (global-name "com.apple.frontboard.systemappservices"))
++		(require-not (global-name "com.apple.powerlog.plxpclogger.xpc"))
+ 		(require-not (global-name "com.apple.geod"))
+ 		(require-not (global-name "com.apple.linkd.autoShortcut"))
++		(require-not (global-name "com.apple.photos.service"))
++		(require-not (global-name "com.apple.nehelper"))
++		(require-not (global-name "com.apple.mobileasset.autoasset"))
++		(require-not (global-name "com.apple.privacyaccountingd"))
++		(require-not (global-name "com.apple.contacts.poster.api"))
++		(require-not (global-name "com.apple.spotlightknowledged"))
++		(require-not (global-name "com.apple.dnssd.service"))
++		(require-not (global-name "com.apple.PointerUI.pointeruid.service"))
++		(require-not (global-name "com.apple.usymptomsd"))
++		(require-not (global-name "com.apple.mediaanalysisd.service.public"))
++		(require-not (global-name "com.apple.generativesearch.server.search"))
++		(require-not (global-name "com.apple.backboard.hid.services"))
+ 		(require-not (global-name "com.apple.intelligenceflow.contextTool"))
+ 		(require-not (global-name "com.apple.spotlight.SearchAgent"))
+-		(require-not (global-name "com.apple.appleneuralengine"))
+-		(require-not (global-name "com.apple.frontboard.systemappservices"))
++		(require-not (global-name "com.apple.contactsd"))
+ 		(require-not (xpc-service-name "com.apple.SetStoreUpdateService"))
+ 		(require-not (global-name "com.apple.CARenderServer"))
+ 		(require-not (global-name "com.apple.AppSSO.service-xpc"))
+```

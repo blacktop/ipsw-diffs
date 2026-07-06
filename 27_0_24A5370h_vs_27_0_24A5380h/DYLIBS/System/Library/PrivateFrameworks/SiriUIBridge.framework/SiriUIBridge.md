@@ -1,0 +1,104 @@
+## SiriUIBridge
+
+> `/System/Library/PrivateFrameworks/SiriUIBridge.framework/SiriUIBridge`
+
+```diff
+
+-  __TEXT.__text: 0x2d0c0
+-  __TEXT.__objc_methlist: 0x24cc
+-  __TEXT.__const: 0x520
+-  __TEXT.__cstring: 0x1faa
++  __TEXT.__text: 0x2d310
++  __TEXT.__objc_methlist: 0x24fc
++  __TEXT.__const: 0x550
++  __TEXT.__cstring: 0x1fda
+   __TEXT.__constg_swiftt: 0x83c
+-  __TEXT.__swift5_typeref: 0xb12
++  __TEXT.__swift5_typeref: 0xb50
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_types: 0x34
+   __TEXT.__swift5_fieldmd: 0x200
+
+   __DATA_CONST.__objc_superrefs: 0x108
+   __DATA_CONST.__got: 0x428
+   __AUTH_CONST.__const: 0x25d0
+-  __AUTH_CONST.__cfstring: 0xc80
+-  __AUTH_CONST.__objc_const: 0x51a8
+-  __AUTH_CONST.__auth_got: 0xa38
++  __AUTH_CONST.__cfstring: 0xcc0
++  __AUTH_CONST.__objc_const: 0x5208
++  __AUTH_CONST.__auth_got: 0xa40
+   __AUTH.__objc_data: 0x768
+   __AUTH.__data: 0x68
+-  __DATA.__objc_ivar: 0x248
+-  __DATA.__data: 0x640
++  __DATA.__objc_ivar: 0x250
++  __DATA.__data: 0x680
+   __DATA_DIRTY.__objc_data: 0x1298
+   __DATA_DIRTY.__data: 0x5e8
+   __DATA_DIRTY.__common: 0x68
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/IntelligenceFlow.framework/IntelligenceFlow
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1751
+-  Symbols:   3604
+-  CStrings:  339
++  Functions: 1755
++  Symbols:   3619
++  CStrings:  343
+ 
+Sections:
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_types : content changed
+~ __TEXT.__swift5_fieldmd : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift5_capture : content changed
+~ __TEXT.__unwind_info : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+~ __DATA_DIRTY.__data : content changed
+Symbols:
++ -[SUIBVisualCaptureContext setSurfaces:]
++ -[SUIBVisualCaptureContext surfaces]
++ -[SUIBVisualCaptureContextMutation setSurfaces:]
++ -[SUIBVisualCaptureContextMutation surfaces]
++ _NSClassFromString
++ _OBJC_CLASS_$_IOSurface
++ _OBJC_IVAR_$_SUIBVisualCaptureContext._surfaces
++ _OBJC_IVAR_$_SUIBVisualCaptureContextMutation._surfaces
++ ___NSDictionary0__struct
++ ___block_descriptor_48_e8_32s40s_e42_v16?0"SUIBVisualCaptureContextMutation"8ls32l8s40l8
++ _objc_msgSend$setSurfaces:
++ _objc_msgSend$surfaces
++ _symbolic So12NSDictionaryCm
++ _symbolic So6NSDataCm
++ _symbolic So8NSStringCm
++ _symbolic So9IOSurfaceCm
+- _OBJC_CLASS_$_NSKeyedArchiver
+- _OBJC_CLASS_$_NSKeyedUnarchiver
+- ___block_descriptor_40_e8_32s_e42_v16?0"SUIBVisualCaptureContextMutation"8ls32l8
+- _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
+- _objc_msgSend$unarchivedObjectOfClasses:fromData:error:
+CStrings:
++ "NSXPCCoder"
++ "SUIBVisualCaptureContext::surfaces"
+
+```

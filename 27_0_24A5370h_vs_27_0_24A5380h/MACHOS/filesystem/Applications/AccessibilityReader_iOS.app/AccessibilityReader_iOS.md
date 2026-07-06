@@ -1,0 +1,191 @@
+## AccessibilityReader_iOS
+
+> `/Applications/AccessibilityReader_iOS.app/AccessibilityReader_iOS`
+
+```diff
+
+-  __TEXT.__text: 0x11128
+-  __TEXT.__auth_stubs: 0x1170
++  __TEXT.__text: 0x160c0
++  __TEXT.__auth_stubs: 0x1520
+   __TEXT.__objc_stubs: 0x1a0
+   __TEXT.__objc_methlist: 0x19c
+-  __TEXT.__const: 0x6c4
++  __TEXT.__const: 0x734
+   __TEXT.__objc_classname: 0x107
+   __TEXT.__objc_methname: 0x459
+   __TEXT.__objc_methtype: 0x159
+   __TEXT.__constg_swiftt: 0x288
+-  __TEXT.__swift5_typeref: 0xb92
+-  __TEXT.__swift5_reflstr: 0x236
+-  __TEXT.__swift5_fieldmd: 0x1e8
+-  __TEXT.__swift5_capture: 0x1b8
++  __TEXT.__swift5_typeref: 0xc04
++  __TEXT.__swift5_reflstr: 0x286
++  __TEXT.__swift5_fieldmd: 0x20c
++  __TEXT.__swift5_capture: 0x1e0
+   __TEXT.__cstring: 0x19b
+   __TEXT.__oslogstring: 0x5bb
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_proto: 0x14
+   __TEXT.__swift5_types: 0x24
+-  __TEXT.__swift_as_entry: 0x24
+-  __TEXT.__swift_as_ret: 0x1c
+-  __TEXT.__swift_as_cont: 0x44
++  __TEXT.__swift_as_entry: 0x28
++  __TEXT.__swift_as_ret: 0x20
++  __TEXT.__swift_as_cont: 0x58
+   __TEXT.__swift5_assocty: 0x48
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x400
+-  __TEXT.__eh_frame: 0x680
+-  __DATA_CONST.__const: 0x660
++  __TEXT.__unwind_info: 0x470
++  __TEXT.__eh_frame: 0x7a0
++  __DATA_CONST.__const: 0x6b0
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__auth_got: 0x8c0
+-  __DATA_CONST.__got: 0x2c0
+-  __DATA_CONST.__auth_ptr: 0x2c8
++  __DATA_CONST.__auth_got: 0xa98
++  __DATA_CONST.__got: 0x3e0
++  __DATA_CONST.__auth_ptr: 0x2f8
+   __DATA.__objc_const: 0x328
+   __DATA.__objc_selrefs: 0x150
+   __DATA.__objc_data: 0xb8
+-  __DATA.__data: 0x8c8
++  __DATA.__data: 0x958
+   __DATA.__common: 0x10
+   __DATA.__bss: 0x2b0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 270
+-  Symbols:   484
++  Functions: 293
++  Symbols:   581
+   CStrings:  107
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_types : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_entry : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA.__objc_const : content changed
+~ __DATA.__objc_selrefs : content changed
+~ __DATA.__objc_data : content changed
+Symbols:
++ _$s10Foundation4DateVSQAAMc
++ _$s23AccessibilityReaderData12AXRTextBlockC14characterCountSivgTj
++ _$s23AccessibilityReaderData12AXRTextBlockCMa
++ _$s23AccessibilityReaderData12AXRTextBlockCMn
++ _$s23AccessibilityReaderData15AXRBlockManagerC13playbackSpeedAA011AXRPlaybackG0Ovg
++ _$s23AccessibilityReaderData15AXRBlockManagerC15currentLanguageSSSgvg
++ _$s23AccessibilityReaderData15AXRBlockManagerC17TokenSessionStateV10totalInputSivg
++ _$s23AccessibilityReaderData15AXRBlockManagerC17TokenSessionStateV11totalOutputSivg
++ _$s23AccessibilityReaderData15AXRBlockManagerC17TokenSessionStateV9pageCountSivg
++ _$s23AccessibilityReaderData15AXRBlockManagerC17TokenSessionStateVMa
++ _$s23AccessibilityReaderData15AXRBlockManagerC18SpeechSessionStateV10pauseCountSivg
++ _$s23AccessibilityReaderData15AXRBlockManagerC18SpeechSessionStateV13speechInvokedSbvg
++ _$s23AccessibilityReaderData15AXRBlockManagerC18SpeechSessionStateV16skipForwardCountSivg
++ _$s23AccessibilityReaderData15AXRBlockManagerC18SpeechSessionStateV16totalDurationSecSdvg
++ _$s23AccessibilityReaderData15AXRBlockManagerC18SpeechSessionStateV17skipBackwardCountSivg
++ _$s23AccessibilityReaderData15AXRBlockManagerC18SpeechSessionStateV9endReason0aB8Services0B9AnalyticsV0f3EndJ0Ovg
++ _$s23AccessibilityReaderData15AXRBlockManagerC18SpeechSessionStateVAEycfC
++ _$s23AccessibilityReaderData15AXRBlockManagerC18SpeechSessionStateVMa
++ _$s23AccessibilityReaderData15AXRBlockManagerC18SpeechSessionStateVMn
++ _$s23AccessibilityReaderData15AXRBlockManagerC21kMaxCharactersPerPageSivgZ
++ _$s23AccessibilityReaderData15AXRBlockManagerC24consumeTokenSessionStateAC0ghI0VyFZ
++ _$s23AccessibilityReaderData15AXRBlockManagerC25consumeSpeechSessionState9endReasonAC0ghI0V0aB8Services0B9AnalyticsV0g3EndK0O_tF
++ _$s23AccessibilityReaderData15AXRBlockManagerC5pagesSayAA7AXRPageVGvg
++ _$s23AccessibilityReaderData16AXRPlaybackSpeedO6normalyA2CmFWC
++ _$s23AccessibilityReaderData16AXRPlaybackSpeedO8rawValueSfvg
++ _$s23AccessibilityReaderData17AXRFormatterThemeO13allDarkThemesSayACGvgZ
++ _$s23AccessibilityReaderData17AXRFormatterThemeO14allLightThemesSayACGvgZ
++ _$s23AccessibilityReaderData17AXRFormatterThemeO6customyA2CmFWC
++ _$s23AccessibilityReaderData17AXRFormatterThemeO8rawValueSSvg
++ _$s23AccessibilityReaderData17AXRFormatterThemeOMa
++ _$s23AccessibilityReaderData17AXRFormatterThemeOMn
++ _$s23AccessibilityReaderData17AXRFormatterThemeOSQAAMc
++ _$s23AccessibilityReaderData18AXReaderFetchActorC6sharedACvgZ
++ _$s23AccessibilityReaderData18AXReaderFetchActorCMa
++ _$s23AccessibilityReaderData18AXReaderFetchActorCScAAAMc
++ _$s23AccessibilityReaderData30AXRTextFormatterPresetsManagerC22persistedFontPointSize12CoreGraphics7CGFloatVSgyFZ
++ _$s23AccessibilityReaderData30AXRTextFormatterPresetsManagerC22persistedSelectedThemeAA012AXRFormatterJ0OSgyFZ
++ _$s23AccessibilityReaderData30AXRTextFormatterPresetsManagerC24persistedDynamicTypeSize7SwiftUI0ijK0OSgyFZ
++ _$s23AccessibilityReaderData30AXRTextFormatterPresetsManagerC25isSelectedThemeCustomizedSbyFZ
++ _$s23AccessibilityReaderData7AXRPageV11pageContentSayAA12AXRTextBlockCGvg
++ _$s23AccessibilityReaderData7AXRPageVMa
++ _$s27AccessibilityReaderServices0B9AnalyticsV015CleanupBehaviorD0O5neveryA2EmFWC
++ _$s27AccessibilityReaderServices0B9AnalyticsV015CleanupBehaviorD0O6alwaysyA2EmFWC
++ _$s27AccessibilityReaderServices0B9AnalyticsV015CleanupBehaviorD0OMa
++ _$s27AccessibilityReaderServices0B9AnalyticsV11ThemeFamilyO4darkyA2EmFWC
++ _$s27AccessibilityReaderServices0B9AnalyticsV11ThemeFamilyO5lightyA2EmFWC
++ _$s27AccessibilityReaderServices0B9AnalyticsV11ThemeFamilyO6customyA2EmFWC
++ _$s27AccessibilityReaderServices0B9AnalyticsV11ThemeFamilyOMa
++ _$s27AccessibilityReaderServices0B9AnalyticsV13sessionTokensyyAC07SessionF7MetricsVFZ
++ _$s27AccessibilityReaderServices0B9AnalyticsV13speechSessionyyAC06SpeechF7MetricsVFZ
++ _$s27AccessibilityReaderServices0B9AnalyticsV14AppearanceModeO4darkyA2EmFWC
++ _$s27AccessibilityReaderServices0B9AnalyticsV14AppearanceModeO5lightyA2EmFWC
++ _$s27AccessibilityReaderServices0B9AnalyticsV14AppearanceModeOMa
++ _$s27AccessibilityReaderServices0B9AnalyticsV14formatSnapshotyyAC06FormatF7MetricsVFZ
++ _$s27AccessibilityReaderServices0B9AnalyticsV15SpeechEndReasonO13articleClosedyA2EmFWC
++ _$s27AccessibilityReaderServices0B9AnalyticsV15SpeechEndReasonOMa
++ _$s27AccessibilityReaderServices0B9AnalyticsV15SpeechEndReasonOMn
++ _$s27AccessibilityReaderServices0B9AnalyticsV17DynamicTypeBucketO17accessibility1To5yA2EmFWC
++ _$s27AccessibilityReaderServices0B9AnalyticsV17DynamicTypeBucketO4mToLyA2EmFWC
++ _$s27AccessibilityReaderServices0B9AnalyticsV17DynamicTypeBucketO5xsToSyA2EmFWC
++ _$s27AccessibilityReaderServices0B9AnalyticsV17DynamicTypeBucketO7xlToXxlyA2EmFWC
++ _$s27AccessibilityReaderServices0B9AnalyticsV17DynamicTypeBucketOMa
++ _$s27AccessibilityReaderServices0B9AnalyticsV19ContentLengthBucketO14characterCountAESi_tcfC
++ _$s27AccessibilityReaderServices0B9AnalyticsV19ContentLengthBucketOMa
++ _$s27AccessibilityReaderServices0B9AnalyticsV19PlaybackSpeedBucketO4rateAESf_tcfC
++ _$s27AccessibilityReaderServices0B9AnalyticsV19PlaybackSpeedBucketOMa
++ _$s27AccessibilityReaderServices0B9AnalyticsV20SessionTokensMetricsV010totalInputF00h6OutputF09pageCount17firstPageMaxChars03pernoP015cleanupBehavior8bundleIDAESi_S3iSgSiAC07CleanupsD0OSSSgtcfC
++ _$s27AccessibilityReaderServices0B9AnalyticsV20SessionTokensMetricsVMa
++ _$s27AccessibilityReaderServices0B9AnalyticsV20SpeechSessionMetricsV13speechInvoked19playbackSpeedBucket17durationSpokenSec10pauseCount011skipForwardQ00r8BackwardQ09endReason8bundleID8languageAESb_AC08PlaybackkL0OS4iAC0e3EndV0OSSSgAStcfC
++ _$s27AccessibilityReaderServices0B9AnalyticsV20SpeechSessionMetricsVMa
++ _$s27AccessibilityReaderServices0B9AnalyticsV21FormatSnapshotMetricsV8themeKey0H6Family13fontPointSize14appearanceMode17dynamicTypeBucket013contentLengthR08bundleIDAESS_AC05ThemeJ0OSiAC010AppearanceO0OAC07DynamicqR0OAC07ContenttR0OSSSgtcfC
++ _$s27AccessibilityReaderServices0B9AnalyticsV21FormatSnapshotMetricsVMa
++ _$s7SwiftUI15DynamicTypeSizeO14accessibility1yA2CmFWC
++ _$s7SwiftUI15DynamicTypeSizeO14accessibility2yA2CmFWC
++ _$s7SwiftUI15DynamicTypeSizeO14accessibility3yA2CmFWC
++ _$s7SwiftUI15DynamicTypeSizeO14accessibility4yA2CmFWC
++ _$s7SwiftUI15DynamicTypeSizeO14accessibility5yA2CmFWC
++ _$s7SwiftUI15DynamicTypeSizeO5largeyA2CmFWC
++ _$s7SwiftUI15DynamicTypeSizeO5smallyA2CmFWC
++ _$s7SwiftUI15DynamicTypeSizeO6mediumyA2CmFWC
++ _$s7SwiftUI15DynamicTypeSizeO6xLargeyA2CmFWC
++ _$s7SwiftUI15DynamicTypeSizeO6xSmallyA2CmFWC
++ _$s7SwiftUI15DynamicTypeSizeO7xxLargeyA2CmFWC
++ _$s7SwiftUI15DynamicTypeSizeO8xxxLargeyA2CmFWC
++ _$s7SwiftUI15DynamicTypeSizeOMa
++ _$s7SwiftUI15DynamicTypeSizeOMn
++ _$sSayxGSlsMc
++ _$sScTss5NeverORszABRs_rlE11isCancelledSbvgZ
++ _$sSo10AXSettingsC22AccessibilityUtilitiesE0B6ReaderC22ContentCleanUpBehaviorO6alwaysyA2GmFWC
++ _$sSo10AXSettingsC22AccessibilityUtilitiesE0B6ReaderC22contentCleanUpBehaviorAE07ContentfgH0Ovg
++ _$sSo10AXSettingsC22AccessibilityUtilitiesE19accessibilityReaderAbCE0bE0CvpWvd
++ _$sSo10AXSettingsC22AccessibilityUtilitiesE6sharedABvgZ
++ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
++ _$ss18_CocoaArrayWrapperV8endIndexSivg
++ _$ss27_diagnoseUnexpectedEnumCase4types5NeverOxm_tlF
++ _OBJC_CLASS_$_AXSettings
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _swift_retain_x26
+- _swift_release_x26
+- _swift_retain_x23
+
+```

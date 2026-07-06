@@ -1,0 +1,68 @@
+## com.apple.quicklook.ThumbnailsAgent
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 
+ (deny mach-lookup
+ 	(require-all
+-		(require-not (global-name "com.apple.diagnosticd"))
+-		(require-not (global-name "com.apple.logd.events"))
+-		(require-not (global-name "com.apple.runningboard"))
+-		(require-not (global-name "com.apple.bird"))
+-		(require-not (global-name "com.apple.mobile.keybagd.UserManager.xpc"))
+-		(require-not (global-name "com.apple.swiftuitracingsupport.xpc"))
+-		(require-not (global-name "com.apple.gpumemd.source"))
+-		(require-not (global-name "com.apple.inputservice.keyboardui"))
+-		(require-not (global-name "com.apple.debug.telemetry"))
+-		(require-not (global-name "com.apple.iapd.xpc"))
+-		(require-not (global-name "com.apple.system.libinfo.muser"))
+-		(require-not (global-name "com.apple.diagd"))
+-		(require-not (global-name "com.apple.mobile.usermanagerd.xpc"))
+-		(require-not (global-name "com.apple.IIOBlastDoorService"))
+-		(require-not (global-name "com.apple.analyticsd"))
++		(require-not (global-name "com.apple.mobilegestalt.xpc"))
+ 		(require-not (global-name "com.apple.iap2d.xpc"))
+ 		(require-not (global-name "com.apple.systemstatus"))
+-		(require-not (global-name "com.apple.mobilegestalt.xpc"))
+-		(require-not (global-name "com.apple.cfprefsd.daemon"))
+ 		(require-not (global-name "com.apple.lsd.mapdb"))
++		(require-not (global-name "com.apple.IIOBlastDoorService"))
++		(require-not (global-name "com.apple.mobile.keybagd.UserManager.xpc"))
++		(require-not (global-name "com.apple.bird"))
++		(require-not (global-name "com.apple.mobile.usermanagerd.xpc"))
++		(require-not (global-name "com.apple.inputservice.keyboardui"))
++		(require-not (global-name "com.apple.diagnosticd"))
++		(require-not (global-name "com.apple.system.libinfo.muser"))
+ 		(require-not (global-name "com.apple.distributed_notifications@1v3"))
+ 		(require-not (global-name "com.apple.erm.logging"))
+-		(require-not (global-name "com.apple.logd"))
+-		(require-not (global-name "com.apple.containermanagerd"))
+-		(require-not (global-name "com.apple.containermanagerd.system"))
++		(require-not (global-name "com.apple.iapd.xpc"))
+ 		(require-not (global-name "com.apple.cfprefsd.daemon.system"))
+-		(require-not (xpc-service-name "com.apple.swiftuitracingsupport.xpc"))
++		(require-not (global-name "com.apple.containermanagerd"))
++		(require-not (global-name "com.apple.runningboard"))
++		(require-not (global-name "com.apple.diagd"))
++		(require-not (global-name "com.apple.gpumemd.source"))
++		(require-not (global-name "com.apple.logd.events"))
++		(require-not (global-name "com.apple.cfprefsd.daemon"))
++		(require-not (global-name "com.apple.debug.telemetry"))
++		(require-not (global-name "com.apple.logd"))
++		(require-not (global-name "com.apple.analyticsd"))
++		(require-not (global-name "com.apple.containermanagerd.system"))
++		(require-not (global-name "com.apple.swiftuitracingsupport.xpc"))
+ 		(require-not (require-any
+ 			(xpc-service-name "com.apple.AssetViewer.ASVAssetThumbnail")
+ 			(xpc-service-name "com.apple.Bridge.GreenfieldThumbnailExtension")
+
+ 				(xpc-service-name "*")
+ 				(global-name "com.apple.dt.testmanagerd.uiprocess")
+ 				(require-not (xpc-service-name "com.apple.MTLCompilerService"))
++				(require-not (xpc-service-name "com.apple.swiftuitracingsupport.xpc"))
+ 				(require-not (xpc-service-name "com.apple.extensionkitservice"))
+ 				(require-not (extension "com.apple.pluginkit.plugin-service"))
+ 				(require-not (global-name "com.apple.DiskArbitration.diskarbitrationd"))
+```

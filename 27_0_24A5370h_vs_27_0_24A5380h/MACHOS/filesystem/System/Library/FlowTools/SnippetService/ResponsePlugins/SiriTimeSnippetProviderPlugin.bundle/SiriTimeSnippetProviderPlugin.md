@@ -1,0 +1,81 @@
+## SiriTimeSnippetProviderPlugin
+
+> `/System/Library/FlowTools/SnippetService/ResponsePlugins/SiriTimeSnippetProviderPlugin.bundle/SiriTimeSnippetProviderPlugin`
+
+```diff
+
+-  __TEXT.__text: 0x3a2b0
+-  __TEXT.__auth_stubs: 0x1450
++  __TEXT.__text: 0x39dbc
++  __TEXT.__auth_stubs: 0x1420
+   __TEXT.__objc_stubs: 0x140
+   __TEXT.__const: 0x1424
+   __TEXT.__swift5_typeref: 0x46c
+
+   __TEXT.__swift5_capture: 0x30
+   __TEXT.__objc_methname: 0x213
+   __TEXT.__objc_methtype: 0x1
+-  __TEXT.__unwind_info: 0xcb8
+-  __TEXT.__eh_frame: 0x1f48
++  __TEXT.__unwind_info: 0xcb0
++  __TEXT.__eh_frame: 0x1f18
+   __DATA_CONST.__const: 0xff9
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__auth_got: 0xa30
+-  __DATA_CONST.__got: 0x328
++  __DATA_CONST.__auth_got: 0xa18
++  __DATA_CONST.__got: 0x320
+   __DATA_CONST.__auth_ptr: 0x440
+   __DATA.__objc_const: 0x620
+   __DATA.__objc_selrefs: 0x50
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 939
+-  Symbols:   7365
++  Functions: 935
++  Symbols:   7341
+   CStrings:  172
+ 
+Sections:
+~ __TEXT.__const : content changed
+~ __TEXT.__swift5_typeref : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__auth_ptr : content changed
+~ __DATA.__objc_const : content changed
+~ __DATA.__objc_selrefs : content changed
+~ __DATA.__objc_data : content changed
+~ __DATA.__data : content changed
+Symbols:
++ _$s18AppIntentsServices0A20IntentPerformOptionsV19allowLiveActivities019allowsPrepareBeforeE024assistantDismissalPolicy21confirmationCondition26connectionOperationTimeout18donateToTranscript19executionIdentifier19exportedContentType15interactionMode4kind015preferredBundleY024preferNoticePresentation21requestUnlockIfNeeded18snippetEnvironmentACSb_SbSo011LNAssistantnO0VSgSo029LNActionExecutionConfirmationQ0VSdSbSg10Foundation4UUIDVSg22UniformTypeIdentifiers6UTTypeVSgSo17LNInteractionModeVSo22LNTranscriptActionKindVSSSgS2bAA18SnippetEnvironmentVSgtcfC
++ _$s23FlowToolsSnippetService0cD7ContextV24outputGenerationManifest07SiriKitA006OutputgH0Vvg
++ _$s29SiriTimeSnippetProviderPlugin09StopwatchC7HandlerV6handle7payload7context0A7KitFlow6Output_p012IntelligenceL014SystemResponseV_0l5ToolsC7Service0cR7ContextVtYaF
++ _$s29SiriTimeSnippetProviderPlugin09StopwatchC7HandlerV6handle7payload7context0A7KitFlow6Output_p012IntelligenceL014SystemResponseV_0l5ToolsC7Service0cR7ContextVtYaFTQ1_
++ _$s29SiriTimeSnippetProviderPlugin09StopwatchC7HandlerV6handle7payload7context0A7KitFlow6Output_p012IntelligenceL014SystemResponseV_0l5ToolsC7Service0cR7ContextVtYaFTY0_
++ _$s29SiriTimeSnippetProviderPlugin09StopwatchC7HandlerV6handle7payload7context0A7KitFlow6Output_p012IntelligenceL014SystemResponseV_0l5ToolsC7Service0cR7ContextVtYaFTY2_
++ _$s29SiriTimeSnippetProviderPlugin09StopwatchC7HandlerV6handle7payload7context0A7KitFlow6Output_p012IntelligenceL014SystemResponseV_0l5ToolsC7Service0cR7ContextVtYaFTY3_
++ _$s29SiriTimeSnippetProviderPlugin09StopwatchC7HandlerV6handle7payload7context0A7KitFlow6Output_p012IntelligenceL014SystemResponseV_0l5ToolsC7Service0cR7ContextVtYaFTu
+- _$s11SiriKitFlow11DialogPhaseV10completionACvgZ
+- _$s11SiriKitFlow11DialogPhaseVMa
+- _$s11SiriKitFlow24OutputGenerationManifestV11dialogPhase_AcA06DialogH0V_yACzXEtcfC
+- _$s11SiriKitFlow24OutputGenerationManifestV11dialogPhase_AcA06DialogH0V_yACzXEtcfcfA0_yACzcfU_
+- _$s11SiriKitFlow24OutputGenerationManifestVSgWOc
+- _$s11SiriKitFlow24OutputGenerationManifestVSgWOd
+- _$s18AppIntentsServices0A20IntentPerformOptionsV19allowLiveActivities019allowsPrepareBeforeE024assistantDismissalPolicy26connectionOperationTimeout18donateToTranscript19executionIdentifier19exportedContentType15interactionMode4kind015preferredBundleW024preferNoticePresentation21requestUnlockIfNeeded18snippetEnvironmentACSb_SbSo011LNAssistantnO0VSgSdSbSg10Foundation4UUIDVSg07UniformZ11Identifiers6UTTypeVSgSo17LNInteractionModeVSo22LNTranscriptActionKindVSSSgS2bAA18SnippetEnvironmentVSgtcfC
+- _$s23FlowToolsSnippetService15ResponseHandlerPAAE6handle7payload7context07SiriKitA06Output_p1TQz_AA0cD7ContextVtYaF
+- _$s23FlowToolsSnippetService15ResponseHandlerPAAE6handle7payload7context07SiriKitA06Output_p1TQz_AA0cD7ContextVtYaFTu
+- _$s29SiriTimeSnippetProviderPlugin03GetbC7HandlerV6handle7payload7context0A7KitFlow6Output_p04ToolK010TypedValueO06EntityP0V_0l5ToolsC7Service0cS7ContextVtYaFyAG0M18GenerationManifestVzXEfU_TA
+- _$s29SiriTimeSnippetProviderPlugin09StopwatchC7HandlerV6handle7payload0A7KitFlow6Output_p012IntelligenceK014SystemResponseV_tYaF
+- _$s29SiriTimeSnippetProviderPlugin09StopwatchC7HandlerV6handle7payload0A7KitFlow6Output_p012IntelligenceK014SystemResponseV_tYaFTQ1_
+- _$s29SiriTimeSnippetProviderPlugin09StopwatchC7HandlerV6handle7payload0A7KitFlow6Output_p012IntelligenceK014SystemResponseV_tYaFTY0_
+- _$s29SiriTimeSnippetProviderPlugin09StopwatchC7HandlerV6handle7payload0A7KitFlow6Output_p012IntelligenceK014SystemResponseV_tYaFTY2_
+- _$s29SiriTimeSnippetProviderPlugin09StopwatchC7HandlerV6handle7payload0A7KitFlow6Output_p012IntelligenceK014SystemResponseV_tYaFTY3_
+- _$s29SiriTimeSnippetProviderPlugin09StopwatchC7HandlerV6handle7payload0A7KitFlow6Output_p012IntelligenceK014SystemResponseV_tYaFTu
+
+```

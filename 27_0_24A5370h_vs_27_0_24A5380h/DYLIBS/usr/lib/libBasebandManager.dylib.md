@@ -1,0 +1,140 @@
+## libBasebandManager.dylib
+
+> `/usr/lib/libBasebandManager.dylib`
+
+```diff
+
+-  __TEXT.__text: 0x279d78
++  __TEXT.__text: 0x279d28
+   __TEXT.__init_offsets: 0x178
+   __TEXT.__objc_methlist: 0x52c
+   __TEXT.__const: 0x13550
+   __TEXT.__dlopen_cstrs: 0x52
+-  __TEXT.__gcc_except_tab: 0x3a0b8
++  __TEXT.__gcc_except_tab: 0x3a0dc
+   __TEXT.__cstring: 0x8c0f
+-  __TEXT.__oslogstring: 0xd1d2
+-  __TEXT.__unwind_info: 0xacf8
++  __TEXT.__oslogstring: 0xd1f2
++  __TEXT.__unwind_info: 0xad08
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __AUTH_CONST.__weak_auth_got: 0x20
+   __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x140
++  __AUTH.__objc_data: 0xf0
+   __DATA.__objc_ivar: 0x4c
+   __DATA.__data: 0x570
+   __DATA.__bss: 0x4d0
+   __DATA.__common: 0xa
+-  __DATA_DIRTY.__objc_data: 0xf0
++  __DATA_DIRTY.__objc_data: 0x140
+   __DATA_DIRTY.__data: 0x630
+   __DATA_DIRTY.__common: 0x118
+   __DATA_DIRTY.__bss: 0x16ca
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libprotobuf-lite.dylib
+   - /usr/lib/libprotobuf.dylib
+-  Functions: 6805
+-  Symbols:   20651
+-  CStrings:  2780
++  Functions: 6807
++  Symbols:   20657
++  CStrings:  2781
+ 
+Sections:
+~ __TEXT.__init_offsets : content changed
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__cstring : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __AUTH_CONST.__objc_intobj : content changed
+~ __DATA.__data : content changed
+Symbols:
++ __ZN6config2hw9deviceNEDEv
++ __ZNSt3__16__treeIN3abm11AccessoryIDENS_4lessIS2_EENS_9allocatorIS2_EEE14__tree_deleterclB9fqe220106EPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIP17dispatch_source_sNS_8functionIFviEEEEEEENS_19__map_value_compareIS7_NS8_IKS7_SE_EENS_4lessIS7_EEEENS5_ISI_EEE5eraseENS_21__tree_const_iteratorISF_PNS_11__tree_nodeISF_PvEElEE
+Functions:
+~ __ZNK5boost8signals26detail20slot_call_iterator_tINS1_21variadic_slot_invokerINS1_9void_typeEJbEEENSt3__115__list_iteratorINS_10shared_ptrINS1_15connection_bodyINS6_4pairINS1_15slot_meta_groupENS_8optionalIiEEEENS0_4slotIFvbENS_8functionISG_EEEENS0_5mutexEEEEEPvEESL_E18lock_next_callableEv : 2404 -> 2364
+~ __ZN7support2ui23displayUserNotificationERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_bd : 780 -> 756
+~ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fqe220106EPKvm : 1116 -> 1104
+~ __ZN5boost8signals26detail11auto_bufferINS_10shared_ptrIvEENS1_15store_n_objectsILj10EEENS1_19default_grow_policyENSt3__19allocatorIS4_EEE9push_backERKS4_ : 504 -> 496
+~ __ZNSt3__16vectorIN5boost7variantINS1_8weak_ptrINS1_8signals26detail17trackable_pointeeEEEJNS3_IvEENS5_21foreign_void_weak_ptrEEEENS_9allocatorISA_EEEC2B9fqe220106ERKSD_ : 396 -> 360
+~ __ZNSt3__16vectorIN5boost7variantINS1_8weak_ptrINS1_8signals26detail17trackable_pointeeEEEJNS3_IvEENS5_21foreign_void_weak_ptrEEEENS_9allocatorISA_EEE26__swap_out_circular_bufferERNS_14__split_bufferISA_RSC_EE : 404 -> 320
+~ __ZNKSt3__111__copy_implclB9fqe220106IPKN4lcdm6SubTLVENS_16__deque_iteratorIS3_PS3_RS3_PS7_lLl128EEELi0EEENS_4pairIT_T0_EESC_SC_SD_ : 492 -> 464
+~ __ZNSt3__111__formatter27__write_string_no_precisionB9fqe220106IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET0_NS_13__format_spec23__parsed_specificationsIS9_EE : 468 -> 452
+~ __ZNSt3__111__formatter15__format_bufferB9fqe220106IffEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_bbNS_13__format_spec6__signENS8_6__typeE : 1412 -> 1416
+~ __ZNSt3__111__formatter15__format_bufferB9fqe220106IddEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_bbNS_13__format_spec6__signENS8_6__typeE : 1412 -> 1416
+~ __ZNSt3__111__formatter15__format_bufferB9fqe220106IdeEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_bbNS_13__format_spec6__signENS8_6__typeE : 1412 -> 1416
+~ __ZNSt3__111__formatter14__write_stringB9fqe220106IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET0_NS_13__format_spec23__parsed_specificationsIS9_EE : 344 -> 348
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_expression_termINS_11__wrap_iterIPKcEEEET_S9_S9_PNS_20__bracket_expressionIcS2_EE : 1440 -> 1392
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE25__parse_equivalence_classINS_11__wrap_iterIPKcEEEET_S9_S9_PNS_20__bracket_expressionIcS2_EE : 672 -> 664
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_collating_symbolINS_11__wrap_iterIPKcEEEET_S9_S9_RNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE : 240 -> 232
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_expression_termIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE : 1380 -> 1332
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE25__parse_equivalence_classIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE : 668 -> 628
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_collating_symbolIPKcEET_S7_S7_RNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE : 244 -> 208
+~ __ZN10OBDManagerD2Ev : 740 -> 720
+~ __ZNSt3__16vectorIN8dispatch19function_with_queueIFvN3sar8OBDStateENS3_10TunerStateEEEENS_9allocatorIS7_EEED2B9fqe220106Ev : 204 -> 196
+~ __ZNSt3__16vectorIN8dispatch19function_with_queueIFvN3sar8OBDStateENS3_10TunerStateEEEENS_9allocatorIS7_EEE24__emplace_back_slow_pathIJRKS7_EEEPS7_DpOT_ : 720 -> 656
++ __ZN6config2hw9deviceNEDEv
+~ ____ZN9AWDModule27setMetricHandlerReportBatchENSt3__110shared_ptrIN3awd10AppContextEEE_block_invoke : 3736 -> 3728
+~ __ZN16CMOnBodyDelegateD2Ev : 380 -> 360
+~ __ZN16CMOnBodyDelegate19motionCallback_syncENS_14CMOnBodyResultENS_24CMOnBodyResultConfidenceE : 932 -> 916
+~ __ZNSt3__16vectorIN8dispatch19function_with_queueIFvN16CMOnBodyDelegate14CMOnBodyResultENS3_24CMOnBodyResultConfidenceEEEENS_9allocatorIS7_EEE24__emplace_back_slow_pathIJRKS7_EEEPS7_DpOT_ : 720 -> 656
+~ __ZN20HandDetectionManagerD2Ev : 708 -> 688
+~ __ZNSt3__16vectorIN8dispatch19function_with_queueIFvN23CMHandDetectionDelegate21CMHandDetectionResultEEEENS_9allocatorIS6_EEED2B9fqe220106Ev : 204 -> 196
+~ __ZNSt3__16vectorIN8dispatch19function_with_queueIFvN23CMHandDetectionDelegate21CMHandDetectionResultEEEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJRKS6_EEEPS6_DpOT_ : 720 -> 656
+~ __ZN11RadioModule28registerCommandHandlers_syncEv : 12668 -> 12740
+~ __ZN7support2fs11updateOwnerENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEjj : 1892 -> 1864
+~ __ZN7support2fs16getLastNumberDirERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE : 2848 -> 2860
+~ __ZNSt3__16vectorIN9ResetInfo25RegexPatternAndReasonMaskENS_9allocatorIS2_EEE18__assign_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPS2_S8_EEvT0_T1_l : 948 -> 912
+~ __ZN14ResetDetection18addToHandlers_syncENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_8functionIFviEEERNS0_3mapIS6_NS0_4pairIP17dispatch_source_sS9_EENS0_4lessIS6_EENS4_INSB_IKS6_SE_EEEEEEy : 1176 -> 1376
+~ ____ZN14ResetDetection18addToHandlers_syncENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_8functionIFviEEERNS0_3mapIS6_NS0_4pairIP17dispatch_source_sS9_EENS0_4lessIS6_EENS4_INSB_IKS6_SE_EEEEEEy_block_invoke : 600 -> 420
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIP17dispatch_source_sNS_8functionIFviEEEEEEENS_19__map_value_compareIS7_NS8_IKS7_SE_EENS_4lessIS7_EEEENS5_ISI_EEE5eraseENS_21__tree_const_iteratorISF_PNS_11__tree_nodeISF_PvEElEE
+~ __ZNK5boost8signals26detail15connection_bodyINSt3__14pairINS1_15slot_meta_groupENS_8optionalIiEEEENS0_4slotIFvbENS_8functionISA_EEEENS0_5mutexEE27nolock_grab_tracked_objectsISE_NS_9iterators24function_output_iteratorINS1_12does_nothingEEEEEvRNS1_23garbage_collecting_lockIT_EET0_ : 548 -> 536
+~ __ZNK12HealthModule37findMostRecentBarrierHealthEvent_syncEv : 1456 -> 1476
+~ __ZN9LogDumpDB12commitToDiskEv : 1796 -> 1772
+~ __ZN9LogDumpDB9writeToDBERK9ResetInfoNSt3__16chrono8durationIxNS3_5ratioILl1ELl1EEEEE : 1184 -> 1176
+~ __ZN9LogDumpDB9writeToDBERK9ResetInfo : 352 -> 344
+~ __ZN9LogDumpDB14queryLogDumpDBERN3xpc4dictE : 1764 -> 1740
+~ __ZNSt3__16vectorI9ResetInfoNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_ : 544 -> 520
+~ __ZN9SARModuleC2ENSt3__18weak_ptrI14ServiceManagerEENS0_10shared_ptrI8RegistryEE : 1048 -> 1068
+~ __ZN9SARModuleD2Ev : 784 -> 792
+~ __ZN9SARModule22initializeHelpers_syncEv : 7892 -> 7900
+~ __ZN9SARModule22handleAccessories_syncERNSt3__16vectorIN3abm13AccessoryInfoENS0_9allocatorIS3_EEEE : 1048 -> 1504
+~ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI9SARModuleE15execute_wrappedIZZNS3_28registerCommandHandlers_syncEvEUb0_E3$_6EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrIS7_NSC_14default_deleteIS7_EEEEENUlPvE_8__invokeESH_ : 1016 -> 1000
+~ __ZN10LogTracker13parseMetaDataERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERNS0_6vectorINS_8MetaDataENS4_ISA_EEEE : 3476 -> 3492
+~ __ZNSt3__111__introsortINS_15_RangeAlgPolicyERZN10LogTracker21processBBTraceScratchERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE3$_0PNS2_8MetaDataELb0EEEvT1_SF_T0_NS_15iterator_traitsISF_E15difference_typeEb : 10096 -> 9976
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_15_RangeAlgPolicyERZN10LogTracker21processBBTraceScratchERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE3$_0PNS2_8MetaDataEEEbT1_SF_T0_ : 1432 -> 1384
+~ __ZN9Timestamp9toISO8601ERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE : 1060 -> 1072
+~ __ZN12AudioManagerD2Ev : 1272 -> 1300
+~ __ZNSt3__16vectorIN8dispatch19function_with_queueIFvN3sar10AudioInputEEEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJRKS6_EEEPS6_DpOT_ : 720 -> 656
+~ __ZNSt3__16vectorIN8dispatch19function_with_queueIFvN3sar11AudioOutputEEEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJRKS6_EEEPS6_DpOT_ : 720 -> 656
+~ __ZNSt3__16vectorIN8dispatch19function_with_queueIFvbEEENS_9allocatorIS4_EEE24__emplace_back_slow_pathIJRKS4_EEEPS4_DpOT_ : 720 -> 656
+~ __ZNSt3__16vectorINS_10shared_ptrI23AccessoriesDelegateBaseEENS_9allocatorIS3_EEE18__assign_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPKS3_SA_EEvT0_T1_l : 852 -> 848
+~ __ZN4util22strip_leading_trailingERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_ : 420 -> 412
+~ __ZN4util28compareTwoStringsWithPatternERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_S8_ : 2364 -> 2352
+~ __ZN4util14trimWhitespaceERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE : 456 -> 448
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_7greaterINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEPS8_Lb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb : 4668 -> 4540
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERNS_7greaterINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEPS8_EEbT1_SC_T0_ : 752 -> 724
+CStrings:
++ "AppleBasebandManager-AppleBasebandServices_Manager-1576"
++ "AppleBasebandServices_Manager-1576"
++ "RFFE Scan Data is not supported"
+- "AppleBasebandManager-AppleBasebandServices_Manager-1570"
+- "AppleBasebandServices_Manager-1570"
+
+```

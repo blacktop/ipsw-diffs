@@ -1,0 +1,639 @@
+## DeviceRecovery
+
+> `/System/Library/PrivateFrameworks/DeviceRecovery.framework/DeviceRecovery`
+
+```diff
+
+-  __TEXT.__text: 0x1fbc8
++  __TEXT.__text: 0xf0f0
+   __TEXT.__objc_methlist: 0x700
+-  __TEXT.__const: 0x1a0
+-  __TEXT.__oslogstring: 0x12d5
+-  __TEXT.__cstring: 0x452a
+-  __TEXT.__gcc_except_tab: 0x248
+-  __TEXT.__unwind_info: 0x6c0
++  __TEXT.__const: 0xa0
++  __TEXT.__oslogstring: 0x1145
++  __TEXT.__cstring: 0x273a
++  __TEXT.__gcc_except_tab: 0x1c0
++  __TEXT.__unwind_info: 0x410
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x530
++  __DATA_CONST.__const: 0x4e0
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x510
++  __DATA_CONST.__objc_selrefs: 0x500
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __DATA_CONST.__got: 0xb0
++  __DATA_CONST.__got: 0x98
+   __AUTH_CONST.__const: 0x1c0
+-  __AUTH_CONST.__cfstring: 0xfc0
++  __AUTH_CONST.__cfstring: 0xf40
+   __AUTH_CONST.__objc_const: 0x820
+   __AUTH_CONST.__objc_intobj: 0x48
+-  __AUTH_CONST.__auth_got: 0x360
++  __AUTH_CONST.__auth_got: 0x0
+   __AUTH.__objc_data: 0xa0
+   __DATA.__objc_ivar: 0x60
+-  __DATA.__data: 0x18a
+-  __DATA.__bss: 0x58
++  __DATA.__data: 0x188
++  __DATA.__bss: 0x30
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0x8
+   __DATA_DIRTY.__bss: 0x8
+
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 929
+-  Symbols:   2092
+-  CStrings:  672
++  Functions: 498
++  Symbols:   1417
++  CStrings:  432
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__objc_intobj : content changed
+~ __AUTH.__objc_data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+~ __DATA_DIRTY.__data : content changed
+Symbols:
++ _objc_retain_x25
+- GCC_except_table18
+- _ACMContextAddCredential
+- _ACMContextAddCredentialWithScope
+- _ACMContextContainsCredentialType
+- _ACMContextContainsCredentialTypeEx
+- _ACMContextContainsPassphraseCredentialWithPurpose
+- _ACMContextCopyData
+- _ACMContextCreate
+- _ACMContextCreateWithExternalForm
+- _ACMContextCreateWithFlags
+- _ACMContextCredentialGetProperty
+- _ACMContextCredentialGetPropertyEx
+- _ACMContextDelete
+- _ACMContextGetData
+- _ACMContextGetDataEx
+- _ACMContextGetDataProperty
+- _ACMContextGetExternalForm
+- _ACMContextGetInfo
+- _ACMContextGetTrackingNumber
+- _ACMContextRemoveCredentialsByType
+- _ACMContextRemoveCredentialsByTypeAndScope
+- _ACMContextRemoveCredentialsByValue
+- _ACMContextRemoveCredentialsByValueAndScope
+- _ACMContextRemovePassphraseCredentialsByPurposeAndScope
+- _ACMContextReplacePassphraseCredentialsWithScope
+- _ACMContextSetData
+- _ACMContextSetDataEx
+- _ACMContextVerifyAclConstraint
+- _ACMContextVerifyAclConstraintForOperation
+- _ACMContextVerifyPolicy
+- _ACMContextVerifyPolicyEx
+- _ACMContextVerifyPolicyWithPreflight
+- _ACMCredentialCreate
+- _ACMCredentialDelete
+- _ACMCredentialGetProperty
+- _ACMCredentialGetPropertyData
+- _ACMCredentialGetType
+- _ACMCredentialSetProperty
+- _ACMDecryptData
+- _ACMDecryptDataEx
+- _ACMEncryptData
+- _ACMEncryptDataEx
+- _ACMGetAclAuthMethod
+- _ACMGetEnvironmentVariable
+- _ACMGetEnvironmentVariableData
+- _ACMGlobalContextAddCredential
+- _ACMGlobalContextCredentialGetProperty
+- _ACMGlobalContextRemoveCredentialsByType
+- _ACMGlobalContextVerifyPolicy
+- _ACMKernelControl
+- _ACMParseAclAndCopyConstraintCharacteristics
+- _ACMPing
+- _ACMRequirementGetPriority
+- _ACMRequirementGetProperties
+- _ACMRequirementGetProperty
+- _ACMRequirementGetPropertyData
+- _ACMRequirementGetState
+- _ACMRequirementGetSubrequirements
+- _ACMRequirementGetType
+- _ACMSEPControl
+- _ACMSEPControlEx
+- _ACMSetEnvironmentVariable
+- _ACMSetEnvironmentVariableWithAccessPolicy
+- _CompareCredentials
+- _CopyCredential
+- _DeallocCredentialList
+- _DeserializeAddCredential
+- _DeserializeAddCredentialType
+- _DeserializeCredential
+- _DeserializeCredentialList
+- _DeserializeGetContextProperty
+- _DeserializeProcessAcl
+- _DeserializeRemoveCredential
+- _DeserializeReplacePassphraseCredential
+- _DeserializeRequirement
+- _DeserializeVerifyAclConstraint
+- _DeserializeVerifyPolicy
+- _GetSerializedAddCredentialSize
+- _GetSerializedCredentialSize
+- _GetSerializedGetContextPropertySize
+- _GetSerializedProcessAclSize
+- _GetSerializedRemoveCredentialSize
+- _GetSerializedReplacePassphraseCredentialSize
+- _GetSerializedRequirementSize
+- _GetSerializedVerifyAclConstraintSize
+- _GetSerializedVerifyPolicySize
+- _IOConnectCallScalarMethod
+- _IOConnectCallStructMethod
+- _IOServiceGetMatchingService
+- _IOServiceMatching
+- _IOServiceOpen
+- _LibCall_ACMContexAddCredentialWithScope
+- _LibCall_ACMContexRemoveCredentialsByTypeAndScope
+- _LibCall_ACMContextContainsCredentialTypeEx
+- _LibCall_ACMContextCopyData
+- _LibCall_ACMContextCreate
+- _LibCall_ACMContextCreateWithExternalForm
+- _LibCall_ACMContextCredentialGetProperty
+- _LibCall_ACMContextDelete
+- _LibCall_ACMContextGetData
+- _LibCall_ACMContextGetInfo
+- _LibCall_ACMContextLoadFromImage
+- _LibCall_ACMContextRemoveCredentialsByValueAndScope
+- _LibCall_ACMContextSetData
+- _LibCall_ACMContextUnloadToImage
+- _LibCall_ACMContextUnloadToImage_Block
+- _LibCall_ACMContextVerifyAclConstraint
+- _LibCall_ACMContextVerifyAclConstraintForOperation
+- _LibCall_ACMContextVerifyPolicyAndCopyRequirementEx
+- _LibCall_ACMContextVerifyPolicyEx
+- _LibCall_ACMContextVerifyPolicyEx_Block
+- _LibCall_ACMContextVerifyPolicyWithPreflight_Block
+- _LibCall_ACMContextVerifyPolicy_Block
+- _LibCall_ACMCredentialCreate
+- _LibCall_ACMCredentialDelete
+- _LibCall_ACMCredentialGetPropertyData
+- _LibCall_ACMCredentialGetType
+- _LibCall_ACMCredentialSetProperty
+- _LibCall_ACMGetAclAuthMethod_Block
+- _LibCall_ACMGetEnvironmentVariable
+- _LibCall_ACMGetEnvironmentVariable_Block
+- _LibCall_ACMGlobalContextCredentialGetProperty
+- _LibCall_ACMGlobalContextCredentialGetProperty_Block
+- _LibCall_ACMGlobalContextVerifyPolicyEx
+- _LibCall_ACMGlobalContextVerifyPolicy_Block
+- _LibCall_ACMKernDoubleClickNotify
+- _LibCall_ACMKernelControl
+- _LibCall_ACMKernelControl_Block
+- _LibCall_ACMPing
+- _LibCall_ACMPublishTrustedAccessories
+- _LibCall_ACMRequirementDelete
+- _LibCall_ACMRequirementGetPriority
+- _LibCall_ACMRequirementGetPropertyData
+- _LibCall_ACMRequirementGetState
+- _LibCall_ACMRequirementGetType
+- _LibCall_ACMSEPControl
+- _LibCall_ACMSEPControl_Block
+- _LibCall_ACMSecContextCopyCredentialsArrayEx
+- _LibCall_ACMSecContextGetUnlockSecret
+- _LibCall_ACMSecContextProcessAcl
+- _LibCall_ACMSecContextProcessAclAndCopyAuthMethod
+- _LibCall_ACMSecContextVerifyAclConstraintAndCopyRequirement
+- _LibCall_ACMSecContextVerifyPolicyAndCopyRequirementEx
+- _LibCall_ACMSecCredentialProviderEnrollmentStateChangedForUser
+- _LibCall_ACMSecCredentialsArrayDelete
+- _LibCall_ACMSecSetBiometryAvailability
+- _LibCall_ACMSecSetBuiltinBiometry
+- _LibCall_ACMSetEnvironmentVariable
+- _LibCall_ACMTRMLoadState
+- _LibCall_ACMTRMLoadState_Block
+- _LibCall_ACMTRMSaveState
+- _LibCall_BuildCommand
+- _LibSer_ACMDeserializeEnvironmentVariableType
+- _LibSer_ACMDeserializeSEPControlCode
+- _LibSer_ContextCredentialGetPropertyEx_Deserialize
+- _LibSer_ContextCredentialGetPropertyEx_GetSize
+- _LibSer_ContextCredentialGetPropertyEx_Serialize
+- _LibSer_ContextCredentialGetProperty_Deserialize
+- _LibSer_ContextCredentialGetProperty_GetSize
+- _LibSer_ContextCredentialGetProperty_Serialize
+- _LibSer_DeleteContext_Deserialize
+- _LibSer_DeleteContext_GetSize
+- _LibSer_DeleteContext_Serialize
+- _LibSer_GetAclAuthMethod_Deserialize
+- _LibSer_GetAclAuthMethod_GetSize
+- _LibSer_GetAclAuthMethod_Serialize
+- _LibSer_GetSerializedContainsCredential_GetSize
+- _LibSer_GetSerializedContainsCredential_Serialize
+- _LibSer_GetUnlockSecretResponse_Deserialize
+- _LibSer_GetUnlockSecretResponse_GetSize
+- _LibSer_GetUnlockSecretResponse_Serialize
+- _LibSer_GetUnlockSecret_Deserialize
+- _LibSer_GetUnlockSecret_GetSize
+- _LibSer_GetUnlockSecret_Serialize
+- _LibSer_GlobalContextCredentialGetProperty_Deserialize
+- _LibSer_GlobalContextCredentialGetProperty_GetSize
+- _LibSer_GlobalContextCredentialGetProperty_Serialize
+- _LibSer_RemoveCredentialByType_Deserialize
+- _LibSer_RemoveCredentialByType_GetSize
+- _LibSer_RemoveCredentialByType_Serialize
+- _LibSer_SEPControlResponse_Deserialize
+- _LibSer_SEPControlResponse_GetSize
+- _LibSer_SEPControlResponse_Serialize
+- _LibSer_SEPControl_Deserialize
+- _LibSer_SEPControl_GetSize
+- _LibSer_SEPControl_Serialize
+- _LibSer_StorageAnyCmd_DeserializeCommonFields
+- _LibSer_StorageGetData_Deserialize
+- _LibSer_StorageGetData_GetSize
+- _LibSer_StorageGetData_Serialize
+- _LibSer_StorageSetData_Deserialize
+- _LibSer_StorageSetData_GetSize
+- _LibSer_StorageSetData_Serialize
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_35
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_37
+- _OUTLINED_FUNCTION_38
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_40
+- _OUTLINED_FUNCTION_41
+- _OUTLINED_FUNCTION_42
+- _OUTLINED_FUNCTION_43
+- _OUTLINED_FUNCTION_44
+- _OUTLINED_FUNCTION_45
+- _OUTLINED_FUNCTION_46
+- _OUTLINED_FUNCTION_47
+- _OUTLINED_FUNCTION_48
+- _OUTLINED_FUNCTION_49
+- _OUTLINED_FUNCTION_50
+- _OUTLINED_FUNCTION_51
+- _OUTLINED_FUNCTION_52
+- _OUTLINED_FUNCTION_53
+- _OUTLINED_FUNCTION_54
+- _OUTLINED_FUNCTION_55
+- _OUTLINED_FUNCTION_56
+- _OUTLINED_FUNCTION_57
+- _OUTLINED_FUNCTION_58
+- _OUTLINED_FUNCTION_59
+- _OUTLINED_FUNCTION_60
+- _OUTLINED_FUNCTION_61
+- _OUTLINED_FUNCTION_62
+- _OUTLINED_FUNCTION_63
+- _OUTLINED_FUNCTION_64
+- _OUTLINED_FUNCTION_65
+- _OUTLINED_FUNCTION_66
+- _OUTLINED_FUNCTION_67
+- _SerializeAddCredential
+- _SerializeCredential
+- _SerializeCredentialList
+- _SerializeGetContextProperty
+- _SerializeProcessAcl
+- _SerializeRemoveCredential
+- _SerializeReplacePassphraseCredential
+- _SerializeRequirement
+- _SerializeVerifyAclConstraint
+- _SerializeVerifyPolicy
+- _Util_AllocCredential
+- _Util_AllocRequirement
+- _Util_CreateRequirement
+- _Util_DeallocCredential
+- _Util_DeallocRequirement
+- _Util_GetBitCount
+- _Util_KeybagLockStateToEnvVar
+- _Util_ReadFromBuffer
+- _Util_SafeDeallocParameters
+- _Util_WriteToBuffer
+- _Util_hexDumpToStrHelper
+- _Util_isNonNullEqualMemory
+- _Util_isNullOrZeroMemory
+- __MergedGlobals
+- ___assert_rtn
+- ___block_descriptor_40_e8_32r_e13_v24?0r^v8Q16lr32l8
+- ___block_descriptor_56_e8_32s40bs_e51_v32?0"NSError"8"NSDictionary"16"NSDictionary"24ls32l8s40l8
+- ___chkstk_darwin
+- ___memcpy_chk
+- __allocatedMem
+- __logLevel
+- _aclRequiresPasscodeInternal
+- _acm_explicit_bzero
+- _acm_get_mem
+- _acm_mem_alloc_data
+- _acm_mem_alloc_info
+- _acm_mem_alloc_typed
+- _acm_mem_free
+- _acm_mem_free_data
+- _acm_mem_free_info
+- _cc_clear
+- _cc_cmp_safe
+- _ccaes_gcm_decrypt_mode
+- _ccaes_gcm_encrypt_mode
+- _ccgcm_context_size
+- _ccgcm_finalize
+- _ccgcm_init
+- _ccgcm_set_iv
+- _ccgcm_update
+- _cchkdf
+- _ccrng
+- _ccsha256_di
+- _checkCCError
+- _checkParameter
+- _crypto_decryptText
+- _crypto_decryptText_version1
+- _crypto_decryptText_version2
+- _crypto_deriveKeyAndDecryptData
+- _crypto_deriveKeyAndEncryptData
+- _crypto_encryptText
+- _crypto_encryptText_version1
+- _crypto_encryptText_version2
+- _crypto_encryptedTextLength
+- _crypto_generateKey
+- _crypto_generateKeyFromSharedInfo
+- _crypto_generateRandomSaltLazily
+- _crypto_plainTextLength
+- _deserializeParameters
+- _gACMLoggingLevel
+- _generateRandom
+- _getLengthOfParameters
+- _getRequirementDataSizeForVersion
+- _init
+- _ioKitTransport
+- _kIOMasterPortDefault
+- _mach_task_self_
+- _malloc_type_calloc
+- _memcmp
+- _memcpy
+- _memset_s
+- _objc_msgSend$UTF8String
+- _objc_msgSend$dataWithBytes:length:
+- _objc_release_x27
+- _objc_retain_x26
+- _performCommand
+- _platform_rng.state
+- _printf
+- _processAclCommandInternal
+- _putchar
+- _serializeParameters
+- _strlen
+- _strnlen
+- _updateLogLevelFromKext
+- _verifyAclConstraintForOperationCommandInternal
+- _verifyAclConstraintInternal
+CStrings:
++ "Passcode is not NSData (%s)"
++ "[passcode isKindOfClass:[NSData class]]"
+- "%02x "
+- "%s: %s (len=%u): acl:"
+- "%s: %s (len=%u): operation:"
+- "%s: %s: CS[%u] acquired.\n"
+- "%s: %s: CS[%u] created (flags=0x%x).\n"
+- "%s: %s: CS[%u] deleted (contextDestroyed=%s).\n"
+- "%s: %s: CoreCrypto - %s() failed, ccErr: %d.\n"
+- "%s: %s: CoreCrypto - %s() succeeded, ccErr: %d.\n"
+- "%s: %s: acl = %p, aclLength = %zu.\n"
+- "%s: %s: called.\n"
+- "%s: %s: cmd(%u) on CS[%u] -> err 0x%x (%d).\n"
+- "%s: %s: cmd(%u) on CS[%u] -> ok.\n"
+- "%s: %s: command = %u.\n"
+- "%s: %s: constraintState = %p.\n"
+- "%s: %s: context = %p.\n"
+- "%s: %s: log level set to %d.\n"
+- "%s: %s: maxGlobalCredentialAge = %u.\n"
+- "%s: %s: mem: type=%s ptr=%p size=%u (total=%u raw=%u data=%u types=%u) %s:%d (%s).\n"
+- "%s: %s: operation = %p, operationLength = %zu.\n"
+- "%s: %s: parameters = %p, parameterCount = %u.\n"
+- "%s: %s: requirePasscode = %p.\n"
+- "%s: %s: returning, -> ctx = %p.\n"
+- "%s: %s: returning, err = %ld, code=%u.\n"
+- "%s: %s: returning, err = %ld, var=%u.\n"
+- "%s: %s: returning, err = %ld.\n"
+- "%s: %s: returning.\n"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AppleCredentialManager_ClientLibs/common/LibSerialization.c"
+- "0123456789abcdef"
+- "<data>"
+- "ACM"
+- "ACMContextAddCredential"
+- "ACMContextAddCredentialWithScope"
+- "ACMContextContainsCredentialType"
+- "ACMContextContainsCredentialTypeEx"
+- "ACMContextContainsPassphraseCredentialWithPurpose"
+- "ACMContextCopyData"
+- "ACMContextCreateWithExternalForm"
+- "ACMContextCreateWithFlags"
+- "ACMContextCredentialGetPropertyEx"
+- "ACMContextDelete"
+- "ACMContextGetData"
+- "ACMContextGetDataEx"
+- "ACMContextGetDataProperty"
+- "ACMContextGetExternalForm"
+- "ACMContextGetInfo"
+- "ACMContextRemoveCredentialsByType"
+- "ACMContextRemoveCredentialsByTypeAndScope"
+- "ACMContextRemoveCredentialsByValue"
+- "ACMContextRemoveCredentialsByValueAndScope"
+- "ACMContextRemovePassphraseCredentialsByPurposeAndScope"
+- "ACMContextReplacePassphraseCredentialsWithScope"
+- "ACMContextSetData"
+- "ACMContextSetDataEx"
+- "ACMContextVerifyPolicy"
+- "ACMContextVerifyPolicyEx"
+- "ACMContextVerifyPolicyWithPreflight"
+- "ACMCredential"
+- "ACMCredential - ACMCredentialDataAP"
+- "ACMCredential - ACMCredentialDataBiometryMatchAttempted"
+- "ACMCredential - ACMCredentialDataBiometryMatched"
+- "ACMCredential - ACMCredentialDataContinuityUnlock"
+- "ACMCredential - ACMCredentialDataKextDenyList"
+- "ACMCredential - ACMCredentialDataPasscodeValidated"
+- "ACMCredential - ACMCredentialDataPasscodeValidated2"
+- "ACMCredential - ACMCredentialDataPassphraseEntered"
+- "ACMCredential - ACMCredentialDataPassphraseExtractable"
+- "ACMCredential - ACMCredentialDataSecureIntent"
+- "ACMCredential - ACMCredentialDataSignature"
+- "ACMCredential - ACMCredentialDataUserOutputDisplayed"
+- "ACMCredentialGetProperty"
+- "ACMGetAclAuthMethod"
+- "ACMGetEnvironmentVariable"
+- "ACMGetEnvironmentVariableData"
+- "ACMGlobalContextAddCredential"
+- "ACMGlobalContextCredentialGetProperty"
+- "ACMGlobalContextRemoveCredentialsByType"
+- "ACMGlobalContextVerifyPolicy"
+- "ACMHandleWithPayload"
+- "ACMKernelControl"
+- "ACMLib"
+- "ACMParseAclAndCopyConstraintCharacteristics"
+- "ACMRequirement"
+- "ACMRequirement - ACMRequirementDataAP"
+- "ACMRequirement - ACMRequirementDataAccessGroups"
+- "ACMRequirement - ACMRequirementDataAnd"
+- "ACMRequirement - ACMRequirementDataBiometryMatchAttempted"
+- "ACMRequirement - ACMRequirementDataBiometryMatched"
+- "ACMRequirement - ACMRequirementDataBiometryMatchedWithAttributes"
+- "ACMRequirement - ACMRequirementDataKeyRef"
+- "ACMRequirement - ACMRequirementDataKofN"
+- "ACMRequirement - ACMRequirementDataKofNWithAttributes"
+- "ACMRequirement - ACMRequirementDataOr"
+- "ACMRequirement - ACMRequirementDataPasscodeValidated"
+- "ACMRequirement - ACMRequirementDataPasscodeValidatedWithAttributes"
+- "ACMRequirement - ACMRequirementDataPassphraseEntered"
+- "ACMRequirement - ACMRequirementDataPushButton"
+- "ACMRequirement - ACMRequirementDataPushButtonWithAttributes"
+- "ACMRequirement - ACMRequirementDataRatchet"
+- "ACMRequirement - ACMRequirementDataSecureIntent"
+- "ACMRequirement - ACMRequirementDataSecureStateWithAttributes"
+- "ACMRequirement - ACMRequirementDataUserOutputDisplayed"
+- "ACMRequirementGetProperties"
+- "ACMRequirementGetProperty"
+- "ACMRequirementGetSubrequirements"
+- "ACMSetEnvironmentVariable"
+- "ACMSetEnvironmentVariableWithAccessPolicy"
+- "AppleCredentialManager"
+- "CommonUtil.c"
+- "DeallocCredentialList"
+- "DeserializeCredentialList"
+- "DeserializeProcessAcl"
+- "DeserializeVerifyAclConstraint"
+- "DeserializeVerifyPolicy"
+- "Failed to create ACM context - context is NULL"
+- "Failed to get external form of ACM ref with passcode"
+- "Failed to set passcode on the ACM context: acmStatus = %d"
+- "LibCall.c"
+- "LibCall_ACMContexAddCredentialWithScope"
+- "LibCall_ACMContexRemoveCredentialsByTypeAndScope"
+- "LibCall_ACMContextContainsCredentialTypeEx"
+- "LibCall_ACMContextCopyData"
+- "LibCall_ACMContextCreate"
+- "LibCall_ACMContextCreateWithExternalForm"
+- "LibCall_ACMContextCredentialGetProperty"
+- "LibCall_ACMContextDelete"
+- "LibCall_ACMContextGetData"
+- "LibCall_ACMContextGetInfo"
+- "LibCall_ACMContextLoadFromImage"
+- "LibCall_ACMContextRemoveCredentialsByValueAndScope"
+- "LibCall_ACMContextSetData"
+- "LibCall_ACMContextUnloadToImage"
+- "LibCall_ACMContextUnloadToImage_Block"
+- "LibCall_ACMContextVerifyPolicyAndCopyRequirementEx"
+- "LibCall_ACMContextVerifyPolicyEx"
+- "LibCall_ACMContextVerifyPolicyEx_Block"
+- "LibCall_ACMContextVerifyPolicyWithPreflight_Block"
+- "LibCall_ACMGetAclAuthMethod_Block"
+- "LibCall_ACMGetEnvironmentVariable"
+- "LibCall_ACMGetEnvironmentVariable_Block"
+- "LibCall_ACMGlobalContextCredentialGetProperty"
+- "LibCall_ACMGlobalContextCredentialGetProperty_Block"
+- "LibCall_ACMGlobalContextVerifyPolicyEx"
+- "LibCall_ACMGlobalContextVerifyPolicy_Block"
+- "LibCall_ACMKernDoubleClickNotify"
+- "LibCall_ACMKernelControl"
+- "LibCall_ACMKernelControl_Block"
+- "LibCall_ACMPing"
+- "LibCall_ACMPublishTrustedAccessories"
+- "LibCall_ACMRequirementDelete"
+- "LibCall_ACMSEPControl"
+- "LibCall_ACMSEPControl_Block"
+- "LibCall_ACMSecContextCopyCredentialsArrayEx"
+- "LibCall_ACMSecContextGetUnlockSecret"
+- "LibCall_ACMSecContextVerifyAclConstraintAndCopyRequirement"
+- "LibCall_ACMSecContextVerifyPolicyAndCopyRequirementEx"
+- "LibCall_ACMSecCredentialProviderEnrollmentStateChangedForUser"
+- "LibCall_ACMSecSetBiometryAvailability"
+- "LibCall_ACMSecSetBuiltinBiometry"
+- "LibCall_ACMSetEnvironmentVariable"
+- "LibCall_ACMTRMLoadState"
+- "LibCall_ACMTRMLoadState_Block"
+- "LibCall_ACMTRMSaveState"
+- "LibCall_BuildCommand"
+- "LibSer_ACMDeserializeEnvironmentVariableType"
+- "LibSer_ACMDeserializeSEPControlCode"
+- "LibSerialization.c"
+- "NO"
+- "NULL"
+- "Passcode is not a NSString (%s)"
+- "Unable to create the ACM context: acmStatus = %d"
+- "Util_AllocCredential"
+- "Util_AllocRequirement"
+- "Util_CreateRequirement"
+- "Util_DeallocCredential"
+- "Util_DeallocRequirement"
+- "Util_ReadFromBuffer"
+- "Util_SafeDeallocParameters"
+- "Util_WriteToBuffer"
+- "Util_hexDumpToStrHelper"
+- "YES"
+- "[passcode isKindOfClass:[NSString class]]"
+- "aclRequiresPasscodeInternal"
+- "acmContext != NULL"
+- "acmStatus == 0 "
+- "acm_mem_alloc_info"
+- "acm_mem_free_info"
+- "acm_transport"
+- "array of ACMCredentialRef"
+- "array of ACMParameter"
+- "cc_cmp_safe"
+- "ccgcm_finalize"
+- "ccgcm_init"
+- "ccgcm_set_iv"
+- "ccgcm_update"
+- "cchkdf"
+- "ccrng"
+- "checkCCError"
+- "commandCursor == commandBuffer + sizeof(commandBuffer)"
+- "crypto_decryptText"
+- "crypto_decryptText_version1"
+- "crypto_decryptText_version2"
+- "crypto_deriveKeyAndDecryptData"
+- "crypto_deriveKeyAndEncryptData"
+- "crypto_encryptText"
+- "crypto_encryptText_version1"
+- "crypto_encryptText_version2"
+- "crypto_generateKey"
+- "crypto_generateKeyFromSharedInfo"
+- "crypto_generateKeyFromSharedInfo_version1"
+- "crypto_generateKeyFromSharedInfo_version2"
+- "crypto_generateRandomSaltLazily"
+- "data != nil"
+- "deserializeParameters"
+- "dst || !dstCapacity"
+- "false"
+- "generateRandom"
+- "getLengthOfParameters"
+- "getRequirementDataSizeForVersion"
+- "init"
+- "ioKitTransport"
+- "performCommand"
+- "platform_rng"
+- "processAclCommandInternal"
+- "processAclInternal"
+- "requirement"
+- "serializeParameters"
+- "src || !srcLen"
+- "updateLogLevelFromKext"
+- "v24@?0r^v8Q16"
+- "verifyAclConstraintForOperationCommandInternal"
+- "verifyAclConstraintInternal"
+
+```

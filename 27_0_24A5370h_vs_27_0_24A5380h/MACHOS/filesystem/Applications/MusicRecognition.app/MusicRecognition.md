@@ -1,0 +1,420 @@
+## MusicRecognition
+
+> `/Applications/MusicRecognition.app/MusicRecognition`
+
+```diff
+
+-  __TEXT.__text: 0xcfe88
+-  __TEXT.__auth_stubs: 0x4260
+-  __TEXT.__objc_stubs: 0x2520
++  __TEXT.__text: 0xdca90
++  __TEXT.__auth_stubs: 0x45c0
++  __TEXT.__objc_stubs: 0x2560
+   __TEXT.__objc_methlist: 0xa04
+-  __TEXT.__const: 0x9874
+-  __TEXT.__constg_swiftt: 0x20b4
+-  __TEXT.__swift5_typeref: 0x5156
+-  __TEXT.__swift5_reflstr: 0x28d0
+-  __TEXT.__swift5_assocty: 0xc90
++  __TEXT.__const: 0xa784
++  __TEXT.__constg_swiftt: 0x231c
++  __TEXT.__swift5_typeref: 0x6602
++  __TEXT.__swift5_reflstr: 0x2c5f
++  __TEXT.__swift5_assocty: 0xd10
+   __TEXT.__swift5_builtin: 0xb4
+-  __TEXT.__swift5_fieldmd: 0x1fbc
+-  __TEXT.__cstring: 0x2bca
+-  __TEXT.__swift5_proto: 0x5fc
+-  __TEXT.__swift5_types: 0x224
+-  __TEXT.__swift_as_entry: 0x2bc
+-  __TEXT.__swift_as_ret: 0x2cc
+-  __TEXT.__objc_classname: 0xab0
+-  __TEXT.__objc_methname: 0x3665
+-  __TEXT.__objc_methtype: 0x96b
+-  __TEXT.__oslogstring: 0x14ed
+-  __TEXT.__swift_as_cont: 0x584
+-  __TEXT.__swift5_protos: 0x28
+-  __TEXT.__swift5_capture: 0xec4
++  __TEXT.__swift5_fieldmd: 0x2308
++  __TEXT.__cstring: 0x2d63
++  __TEXT.__swift5_proto: 0x67c
++  __TEXT.__swift5_types: 0x250
++  __TEXT.__swift_as_entry: 0x308
++  __TEXT.__swift_as_ret: 0x304
++  __TEXT.__swift5_protos: 0x24
++  __TEXT.__objc_classname: 0xaf0
++  __TEXT.__objc_methname: 0x37b5
++  __TEXT.__oslogstring: 0x1514
++  __TEXT.__swift5_capture: 0xe6c
++  __TEXT.__swift_as_cont: 0x5e4
++  __TEXT.__objc_methtype: 0x966
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x3598
+-  __TEXT.__eh_frame: 0x66f8
+-  __DATA_CONST.__const: 0x4be1
+-  __DATA_CONST.__objc_classlist: 0x148
++  __TEXT.__unwind_info: 0x39e0
++  __TEXT.__eh_frame: 0x6c80
++  __DATA_CONST.__const: 0x4d78
++  __DATA_CONST.__objc_classlist: 0x150
+   __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x38
+-  __DATA_CONST.__auth_got: 0x2138
+-  __DATA_CONST.__got: 0x12a8
+-  __DATA_CONST.__auth_ptr: 0x1ad8
+-  __DATA.__objc_const: 0x2b78
+-  __DATA.__objc_selrefs: 0xc40
+-  __DATA.__objc_data: 0x14a0
+-  __DATA.__data: 0x54e0
+-  __DATA.__bss: 0xba98
+-  __DATA.__common: 0x170
++  __DATA_CONST.__auth_got: 0x22e8
++  __DATA_CONST.__got: 0x1370
++  __DATA_CONST.__auth_ptr: 0x1d20
++  __DATA.__objc_const: 0x2d08
++  __DATA.__objc_selrefs: 0xc50
++  __DATA.__objc_data: 0x14f0
++  __DATA.__data: 0x5fb0
++  __DATA.__bss: 0xcb08
++  __DATA.__common: 0x188
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/Frameworks/WidgetKit.framework/WidgetKit
++  - /System/Library/Frameworks/_AppIntents_SwiftUI.framework/_AppIntents_SwiftUI
+   - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
++  - /System/Library/Frameworks/_MusicKit_SwiftUI.framework/_MusicKit_SwiftUI
+   - /System/Library/PrivateFrameworks/ActivityUIServices.framework/ActivityUIServices
+   - /System/Library/PrivateFrameworks/AdaptiveMusic.framework/AdaptiveMusic
+   - /System/Library/PrivateFrameworks/AppProtection.framework/AppProtection
+
+   - /System/Library/PrivateFrameworks/SessionAssertion.framework/SessionAssertion
+   - /System/Library/PrivateFrameworks/ShazamCore.framework/ShazamCore
+   - /System/Library/PrivateFrameworks/ShazamKitUI.framework/ShazamKitUI
++  - /System/Library/PrivateFrameworks/SnippetKit.framework/SnippetKit
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
++  - /System/Library/PrivateFrameworks/_MusicKitInternal_SwiftUI.framework/_MusicKitInternal_SwiftUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3977
+-  Symbols:   2294
+-  CStrings:  1075
++  Functions: 4344
++  Symbols:   2436
++  CStrings:  1097
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_entry : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+Symbols:
++ _$s10AppIntents0A10DependencyC3key7managerACyxGs11AnyHashableVSg_AA0aC7ManagerCtcfC
++ _$s10AppIntents0A10DependencyCMn
++ _$s10AppIntents0A17DependencyManagerC3add3key10dependencyys11AnyHashableVSg_xyXAts8SendableRzlF
++ _$s10AppIntents0A17DependencyManagerC6sharedACvgZ
++ _$s10AppIntents0A17DependencyManagerCMa
++ _$s10AppIntents10OpenIntentMp
++ _$s10AppIntents10OpenIntentP5ValueAC_AA0aE0Tn
++ _$s10AppIntents10OpenIntentP6target5ValueQzvMTq
++ _$s10AppIntents10OpenIntentP6target5ValueQzvgTq
++ _$s10AppIntents10OpenIntentP6target5ValueQzvsTq
++ _$s10AppIntents10OpenIntentPAA06SystemD0Tb
++ _$s10AppIntents12IntentDialogV13stringLiteralACSS_tcfC
++ _$s10AppIntents12IntentDialogVyAC10Foundation23LocalizedStringResourceVcfC
++ _$s10AppIntents12IntentResultP01_aB8_SwiftUIE6result5value6dialog4viewAA0cD9ContainerVyqd__s5NeverOAA012_SnippetViewK0VAA0C6DialogVGqd___APqd_0_tAQRszAA01_C5ValueRd__0eF00N0Rd_0_r0_lFZ
++ _$s10AppIntents12IntentResultPAAE6result5value15pluginContainer6dialogAA0cdH0Vyqd__s5NeverOAA012_SnippetViewH0VAA0C6DialogVGqd___AA0k6PluginH0VAOtAPRszAA01_C5ValueRd__lFZ
++ _$s10AppIntents12IntentResultPAAE6resultAA0cD9ContainerVys5NeverOA3HGyAIRszrlFZ
++ _$s10AppIntents14EntityPropertyCMa
++ _$s10AppIntents14ProvidesDialogMp
++ _$s10AppIntents15IntentParameterC12wrappedValuexvM
++ _$s10AppIntents15IntentParameterC12wrappedValuexvs
++ _$s10AppIntents15IntentParameterCA2A0A6Entity9ValueTypeRpzrlE5title11description7default07requestF6Dialog0k14DisambiguationL023inputConnectionBehaviorACyxG10Foundation23LocalizedStringResourceV_APSg09UnwrappedG0QzSgAA0cL0VSgAwA05InputoP0OYttcfC
++ _$s10AppIntents17IntentViewOptionsV23canReplacePrintableTextACSb_tcfC
++ _$s10AppIntents17IntentViewOptionsVMa
++ _$s10AppIntents21IntentResultContainerVyxq_q0_q1_GAA14ProvidesDialogA2A0cG0VRs1_rlMc
++ _$s10AppIntents21IntentResultContainerVyxq_q0_q1_GAA26ProvidesSnippetPluginModelA2A01_g4ViewE0VRs0_rlMc
++ _$s10AppIntents21_SnippetViewContainerVMn
++ _$s10AppIntents22SnippetPluginContainerV4data16bundleIdentifier17intentViewOptionsAC10Foundation4DataV_SSSgAA06IntentjK0VtcfC
++ _$s10AppIntents22SnippetPluginContainerVMa
++ _$s10AppIntents26ProvidesSnippetPluginModelMp
++ _$s10Foundation23LocalizedStringResourceV19stringInterpolationACSSAAE17LocalizationValueV0cF0V_tcfC
++ _$s10Foundation3URLV10AppIntents12_IntentValueADMc
++ _$s10Foundation4UUIDV36_unconditionallyBridgeFromObjectiveCyACSo6NSUUIDCSgFZ
++ _$s10Foundation4UUIDVSEAAMc
++ _$s10Foundation4UUIDVSeAAMc
++ _$s10SnippetKit0A11PluginModelMp
++ _$s10SnippetKit0A11PluginModelP10bundleNameSSvgZTq
++ _$s10SnippetKit0A11PluginModelP13snippetHidden3for5idiomSb13SiriUtilities12ResponseModeV_AG11DeviceIdiomOtFTq
++ _$s10SnippetKit0A11PluginModelP4data10Foundation4DataVSgvgTq
++ _$s10SnippetKit0A11PluginModelPAAE13snippetHidden3for5idiomSb13SiriUtilities12ResponseModeV_AG11DeviceIdiomOtF
++ _$s10SnippetKit0A11PluginModelPAAE4data10Foundation4DataVSgvg
++ _$s10SnippetKit0A11PluginModelPSETb
++ _$s10SnippetKit0A11PluginModelPSeTb
++ _$s11Observation0A9RegistrarV6didSet_7keyPathyx_s03KeyF0Cyxq_GtAA10ObservableRzr0_lF
++ _$s11Observation0A9RegistrarV7willSet_7keyPathyx_s03KeyF0Cyxq_GtAA10ObservableRzr0_lF
++ _$s11ShazamKitUI11TrackActionO015analyticsModuleE0AA09AnalyticsgE0Ovg
++ _$s11ShazamKitUI11TrackActionO06openInA0yACyxG10Foundation3URLVcAEmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO11openInMusicyACyxGAC04OpengH7OptionsOyx_GcAEmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO13addToPlaylistyACyxG4SongQzcAEmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO13updateHistoryyACyxGxcAEmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO15openInClassicalyACyxG10Foundation3URLVcAEmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO17addToMusicLibraryyACyxG4SongQzcAEmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO17removeFromHistoryyACyxGx_SbtcAEmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO18OpenInMusicOptionsO25musicSubscriptionCampaignyAEyx_GAA06ITunesL0V_SSSgtcAGmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO18OpenInMusicOptionsO5musicyAEyx_G10Foundation3URLVcAGmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO18OpenInMusicOptionsO5offeryAEyx_GAA5OfferVcAGmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO18OpenInMusicOptionsOMn
++ _$s11ShazamKitUI11TrackActionO22openInStreamingServiceyACyxG0H22ServicesControllerType_0hiL0QZcAEmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO22removeFromMusicLibraryyACyxG4SongQzcAEmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO5ToastOMn
++ _$s11ShazamKitUI11TrackActionO5shareyACyxG10Foundation3URLVcAEmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO7BuilderV10buildBlockySayACyxGGAHd_tFZ
++ _$s11ShazamKitUI11TrackActionO7BuilderV13buildOptionalySayACyxGGAHSgFZ
++ _$s11ShazamKitUI11TrackActionO7BuilderV15buildExpressionySayACyxGGAGFZ
++ _$s11ShazamKitUI11TrackActionO7BuilderV15buildExpressionySayACyxGGAGSgFZ
++ _$s11ShazamKitUI11TrackActionO7ContextO5trackyAEyx_GAGmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO7ContextO7libraryyAEyx_GAGmAA0D8ProtocolRzlFWC
++ _$s11ShazamKitUI11TrackActionO7ContextOMn
++ _$s11ShazamKitUI11TrackActionO7SectionV4name7contentAEyx_G05SwiftC018LocalizedStringKeyVSg_SayACyxGGyXEtcfC
++ _$s11ShazamKitUI11TrackActionO7SectionV4name_AEyx_G05SwiftC018LocalizedStringKeyVSg_SayACyxGSgGtcfC
++ _$s11ShazamKitUI11TrackActionO7SectionVMn
++ _$s11ShazamKitUI11TrackActionOMn
++ _$s11ShazamKitUI11TrackActionOyxGSQAAMc
++ _$s11ShazamKitUI13TrackProtocolP20ActionControllerTypeAC_AA0fG0Tn
++ _$s11ShazamKitUI15SHLibraryReaderVMn
++ _$s11ShazamKitUI15SHLibraryReaderV_16onResultReceived7contentACyxq_G0aB00D0C5QueryV_xSaySo11SHMediaItemCGcq_xctcfC
++ _$s11ShazamKitUI15SHLibraryReaderVyxq_G05SwiftC04ViewAAMc
++ _$s11ShazamKitUI15TrackActionMenuV_7contextACyxGx_AA0dE0O7ContextOyx_GtcfC
++ _$s11ShazamKitUI16ActionControllerMp
++ _$s11ShazamKitUI16ActionControllerP016resetSongLibraryE0yyFTq
++ _$s11ShazamKitUI16ActionControllerP017primaryAppleMusicD03forAA05TrackD0Oy0J4TypeQzGSgAI_tFTq
++ _$s11ShazamKitUI16ActionControllerP020addToPlaylistLibraryE0yy8SongTypeQzFTq
++ _$s11ShazamKitUI16ActionControllerP020resetPlaylistLibraryE0yyFTq
++ _$s11ShazamKitUI16ActionControllerP12PlaylistTypeAC_AA0F8ProtocolTn
++ _$s11ShazamKitUI16ActionControllerP12addToHistoryyy9TrackTypeQzYaKFTq
++ _$s11ShazamKitUI16ActionControllerP12addToLibraryyy8SongTypeQzYaFTq
++ _$s11ShazamKitUI16ActionControllerP13playlistStateAA07Librarye8PlaylistG0Oy0I4TypeQzGSgvgTq
++ _$s11ShazamKitUI16ActionControllerP14actionSections3for7context16isAddedToLibrary0J10SubscriberSayAA05TrackD0O7SectionVy0O4TypeQz_GGAN_AJ7ContextOyAN_GS2btFTq
++ _$s11ShazamKitUI16ActionControllerP14fetchPlaylistsyyYaFTq
++ _$s11ShazamKitUI16ActionControllerP15songForDeletion8SongTypeQzSgvMTq
++ _$s11ShazamKitUI16ActionControllerP15songForDeletion8SongTypeQzSgvgTq
++ _$s11ShazamKitUI16ActionControllerP15songForDeletion8SongTypeQzSgvsTq
++ _$s11ShazamKitUI16ActionControllerP15songForPlaylist8SongTypeQzSgvMTq
++ _$s11ShazamKitUI16ActionControllerP15songForPlaylist8SongTypeQzSgvgTq
++ _$s11ShazamKitUI16ActionControllerP15songForPlaylist8SongTypeQzSgvsTq
++ _$s11ShazamKitUI16ActionControllerP16campaignOfferURL10Foundation0H0VSgvMTq
++ _$s11ShazamKitUI16ActionControllerP16campaignOfferURL10Foundation0H0VSgvgTq
++ _$s11ShazamKitUI16ActionControllerP16campaignOfferURL10Foundation0H0VSgvsTq
++ _$s11ShazamKitUI16ActionControllerP16selectedPlaylist0G4TypeQzSgvMTq
++ _$s11ShazamKitUI16ActionControllerP16selectedPlaylist0G4TypeQzSgvgTq
++ _$s11ShazamKitUI16ActionControllerP16selectedPlaylist0G4TypeQzSgvsTq
++ _$s11ShazamKitUI16ActionControllerP16trackForDeletion9TrackTypeQzSgvMTq
++ _$s11ShazamKitUI16ActionControllerP16trackForDeletion9TrackTypeQzSgvgTq
++ _$s11ShazamKitUI16ActionControllerP16trackForDeletion9TrackTypeQzSgvsTq
++ _$s11ShazamKitUI16ActionControllerP17removeFromHistoryyy9TrackTypeQzYaKFTq
++ _$s11ShazamKitUI16ActionControllerP17removeFromLibraryyy8SongTypeQzYaFTq
++ _$s11ShazamKitUI16ActionControllerP23recentlyEditedPlaylistsSay12PlaylistTypeQzGvgTq
++ _$s11ShazamKitUI16ActionControllerP24subscriptionOfferOptions06_Musicb6_SwiftC00i12SubscriptionG0V0H0VSgvMTq
++ _$s11ShazamKitUI16ActionControllerP24subscriptionOfferOptions06_Musicb6_SwiftC00i12SubscriptionG0V0H0VSgvgTq
++ _$s11ShazamKitUI16ActionControllerP24subscriptionOfferOptions06_Musicb6_SwiftC00i12SubscriptionG0V0H0VSgvsTq
++ _$s11ShazamKitUI16ActionControllerP24subscriptionOfferOptions14iTunesCampaign6songIDyAA06ITunesJ0V_SSSgtFTq
++ _$s11ShazamKitUI16ActionControllerP28fetchRecentlyEditedPlaylistsyyYaFTq
++ _$s11ShazamKitUI16ActionControllerP7addSong2toy12PlaylistTypeQz_tYaFTq
++ _$s11ShazamKitUI16ActionControllerP9TrackTypeAC_AA0F8ProtocolTn
++ _$s11ShazamKitUI16ActionControllerPxycfCTq
++ _$s11ShazamKitUI18PlaybackControllerP4stopyyFTq
++ _$s11ShazamKitUI20RematchNoMatchBannerV05SwiftC04ViewAAMc
++ _$s11ShazamKitUI20RematchNoMatchBannerV17matchAttemptCountACSi_tcfC
++ _$s11ShazamKitUI20RematchNoMatchBannerVMa
++ _$s11ShazamKitUI20RematchNoMatchBannerVMn
++ _$s11ShazamKitUI22TrackActionHandlerViewVMn
++ _$s11ShazamKitUI22TrackActionHandlerViewV_7context08selectedE0ACyxGx_AA0dE0O7ContextOyx_G05SwiftC07BindingVyAHyxGSgGtcfC
++ _$s11ShazamKitUI22TrackActionHandlerViewVyxG05SwiftC00G0AAMc
++ _$s11ShazamKitUI23DefaultTrackRowSubtitleVMn
++ _$s11ShazamKitUI8TrackRowV5title8explicit8subtitle4date11attribution11leadingView08trailingL0ACyAA07DefaultdE8SubtitleVq_q0_GSSSg_SbAN10Foundation4DateVSgANq_yXEq0_yXEtcALRszrlufC
++ _$s11ShazamKitUI8TrackRowV5title8explicit8subtitle4date11attribution11leadingViewACyAA07DefaultdE8SubtitleVq_05SwiftC005EmptyL0VGSSSg_SbAP10Foundation4DateVSgAPq_yXEtcAKRszANRs0_rlufC
++ _$s11ShazamKitUI8TrackRowV5title8explicit8subtitle4date11attribution7artworkACyAA07DefaultdE8SubtitleVAA0ldE7ArtworkVyqd__G05SwiftC09EmptyViewVGSSSg_SbAS10Foundation4DateVSgASqd__SgtcAKRszANRs_AQRs0_AA0N8ProtocolRd__lufC
++ _$s11ShazamKitUI8TrackRowVyxq_q0_G05SwiftC04ViewAAMc
++ _$s12PlaylistType11ShazamKitUI16ActionControllerPTl
++ _$s13AdaptiveMusic5MediaV3url5title6artist7artworkAC10Foundation3URLV_SSSgAK0B3Kit7ArtworkVSgtcfC
++ _$s13AdaptiveMusic6PlayerC4stopyyF
++ _$s17_MusicKit_SwiftUI0A17SubscriptionOfferV17MessageIdentifierV04playA0AEvgZ
++ _$s17_MusicKit_SwiftUI0A17SubscriptionOfferV17MessageIdentifierV4joinAEvgZ
++ _$s17_MusicKit_SwiftUI0A17SubscriptionOfferV17MessageIdentifierVMa
++ _$s17_MusicKit_SwiftUI0A17SubscriptionOfferV6ActionV9subscribeAEvgZ
++ _$s17_MusicKit_SwiftUI0A17SubscriptionOfferV6ActionVMa
++ _$s17_MusicKit_SwiftUI0A17SubscriptionOfferV7OptionsV01_ab9Internal_cD0E19figaroCampaignGroupSSSgvs
++ _$s17_MusicKit_SwiftUI0A17SubscriptionOfferV7OptionsV01_ab9Internal_cD0E19figaroCampaignTokenSSSgvs
++ _$s17_MusicKit_SwiftUI0A17SubscriptionOfferV7OptionsV17messageIdentifierAC07MessageI0Vvs
++ _$s17_MusicKit_SwiftUI0A17SubscriptionOfferV7OptionsV6action17messageIdentifier6itemID14affiliateToken08campaignN0AeC6ActionV_AC07MessageJ0V0aB00a4ItemL0VSgSSSgAStcfC
++ _$s17_MusicKit_SwiftUI0A17SubscriptionOfferV7OptionsV6itemID0aB00a4ItemI0VSgvs
++ _$s17_MusicKit_SwiftUI0A17SubscriptionOfferV7OptionsVMa
++ _$s17_MusicKit_SwiftUI0A17SubscriptionOfferV7OptionsVMn
++ _$s17_MusicKit_SwiftUI0A17SubscriptionOfferV7OptionsVSQAAMc
++ _$s20ActionControllerType11ShazamKitUI13TrackProtocolPTl
++ _$s4Body7SwiftUI12ViewModifierPTl
++ _$s5Value10AppIntents10OpenIntentPTl
++ _$s7SwiftUI11StrokeStyleV9lineWidth0E3Cap0E4Join10miterLimit4dash0K5PhaseAC12CoreGraphics7CGFloatV_So06CGLineG0VSo0pH0VALSayALGALtcfC
++ _$s7SwiftUI12ViewModifierMp
++ _$s7SwiftUI12ViewModifierP05_makeC08modifier6inputs4bodyAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVAiA01_J0V_ANtctFZTq
++ _$s7SwiftUI12ViewModifierP05_makeC4List8modifier6inputs4bodyAA01_cF7OutputsVAA11_GraphValueVyxG_AA01_cF6InputsVAiA01_K0V_ANtctFZTq
++ _$s7SwiftUI12ViewModifierP14_viewListCount6inputs4bodySiSgAA01_cfG6InputsV_AgIXEtFZTq
++ _$s7SwiftUI12ViewModifierP4BodyAC_AA0C0Tn
++ _$s7SwiftUI12ViewModifierP4body7content4BodyQzAA01_cD8_ContentVyxG_tFTq
++ _$s7SwiftUI12ViewModifierPAAE05_makeC08modifier6inputs4bodyAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVAiA01_J0V_ANtctFZ
++ _$s7SwiftUI12ViewModifierPAAE05_makeC4List8modifier6inputs4bodyAA01_cF7OutputsVAA11_GraphValueVyxG_AA01_cF6InputsVAiA01_K0V_ANtctFZ
++ _$s7SwiftUI12ViewModifierPAAE14_viewListCount6inputs4bodySiSgAA01_cfG6InputsV_AgIXEtFZ
++ _$s7SwiftUI14NavigationPathVACycfC
++ _$s7SwiftUI14NavigationPathVSQAAMc
++ _$s7SwiftUI15NavigationStackV4path4rootACyAA0C4PathVq_GAA7BindingVyAGG_q_yXEtcAGRszrlufC
++ _$s7SwiftUI15StrokeShapeViewVMn
++ _$s7SwiftUI16_OverlayModifierVMn
++ _$s7SwiftUI16_OverlayModifierVyxGAA04ViewD0AAMc
++ _$s7SwiftUI21_ViewModifier_ContentVMn
++ _$s7SwiftUI21_ViewModifier_ContentVyxGAA0C0AAMc
++ _$s7SwiftUI30ClipsListRowBackgroundTraitKeyVMn
++ _$s7SwiftUI4ViewP09ShazamKitB0E6handle6action5toastQrAA7BindingVyAD11TrackActionOyqd__GSgG_AIyAK5ToastOyqd___GSgGSgtAD0J8ProtocolRd__lF
++ _$s7SwiftUI4ViewP09ShazamKitB0E6handle6action5toastQrAA7BindingVyAD11TrackActionOyqd__GSgG_AIyAK5ToastOyqd___GSgGSgtAD0J8ProtocolRd__lFQOMQ
++ _$s7SwiftUI5ColorV5whiteACvgZ
++ _$s7SwiftUI7BindingV14projectedValueACyxGvg
++ _$s7SwiftUI7BindingVMa
++ _$s8SongType11ShazamKitUI16ActionControllerPTl
++ _$s9ShazamKit9SHArtworkV010buildMusicB7Artwork0eB00F0VyKF
++ _$s9ShazamKit9SHLibraryC5QueryV8allItems12identifiedByAEx_tSlRz10Foundation4UUIDV7ElementRtzlFZ
++ _$s9ShazamKit9SHLibraryC5QueryVMa
++ _$s9TrackType11ShazamKitUI16ActionControllerPTl
++ _$sSS10AppIntents12_IntentValueAAMc
++ _$sSS10FoundationE17LocalizationValueV19StringInterpolationV06appendE0yySSF
++ _$sSS10FoundationE17LocalizationValueV19StringInterpolationV13appendLiteralyySSF
++ _$sSS10FoundationE17LocalizationValueV19StringInterpolationV15literalCapacity18interpolationCountAESi_SitcfC
++ _$sSS10FoundationE17LocalizationValueV19StringInterpolationVMa
++ _$sSb10AppIntents12_IntentValueAAMc
++ _$sShyxGSlsMc
++ _$ss11AnyHashableVMn
++ _$ss13DecodingErrorO12typeMismatchyABypXp_AB7ContextVtcABmFWC
++ _$ss13DecodingErrorO7ContextV10codingPath16debugDescription010underlyingB0ADSays9CodingKey_pG_SSs0B0_pSgtcfC
++ _$ss13DecodingErrorO7ContextVMn
++ _$ss13DecodingErrorOMa
++ _$ss13DecodingErrorOs0B0sWP
++ _$ss22KeyedDecodingContainerV06nestedC07keyedBy6forKeyAByqd__Gqd__m_xtKs06CodingH0Rd__lF
++ _$ss22KeyedDecodingContainerV10codingPathSays9CodingKey_pGvg
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySSSgSSm_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2bm_xtKF
++ _$ss22KeyedDecodingContainerV7allKeysSayxGvg
++ _$ss22KeyedEncodingContainerV06nestedC07keyedBy6forKeyAByqd__Gqd__m_xts06CodingH0Rd__lF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySb_xtKF
++ _SHMediaItemIdentifier
++ _swift_coroFrameAlloc
++ _swift_cvw_initEnumMetadataSingleCaseWithLayoutString
++ _swift_unownedRelease
++ _swift_unownedRetain
++ _swift_unownedRetainStrong
+- _$s11ShazamKitUI11HistoryViewVMa
+- _$s11ShazamKitUI13TrackProtocolP0D11ActionsTypeAC_AA0dfE0Tn
+- _$s11ShazamKitUI15TrackActionItemO06openInA0yACyxG10Foundation3URLVcAEmAA0D8ProtocolRzlFWC
+- _$s11ShazamKitUI15TrackActionItemO11openInMusicyACyxGAA0def4OpenhI7OptionsOcAEmAA0D8ProtocolRzlFWC
+- _$s11ShazamKitUI15TrackActionItemO13addToPlaylistyACyxG4SongQzcAEmAA0D8ProtocolRzlFWC
+- _$s11ShazamKitUI15TrackActionItemO13updateHistoryyACyxGxcAEmAA0D8ProtocolRzlFWC
+- _$s11ShazamKitUI15TrackActionItemO15openInClassicalyACyxG10Foundation3URLVcAEmAA0D8ProtocolRzlFWC
+- _$s11ShazamKitUI15TrackActionItemO17addToMusicLibraryyACyxG4SongQzcAEmAA0D8ProtocolRzlFWC
+- _$s11ShazamKitUI15TrackActionItemO17removeFromHistoryyACyxGxcAEmAA0D8ProtocolRzlFWC
+- _$s11ShazamKitUI15TrackActionItemO22openInStreamingServiceyACyxG0I22ServicesControllerType_0ijM0QZcAEmAA0D8ProtocolRzlFWC
+- _$s11ShazamKitUI15TrackActionItemO22removeFromMusicLibraryyACyxG4SongQzcAEmAA0D8ProtocolRzlFWC
+- _$s11ShazamKitUI15TrackActionItemO5shareyACyxG10Foundation3URLVcAEmAA0D8ProtocolRzlFWC
+- _$s11ShazamKitUI15TrackActionItemOMn
+- _$s11ShazamKitUI15TrackActionMenuV_13actionContextACyxGx_AA0deH0OtcfC
+- _$s11ShazamKitUI18TrackActionContextO7libraryyA2CmFWC
+- _$s11ShazamKitUI18TrackActionContextOMa
+- _$s11ShazamKitUI20TrackActionsProtocolMp
+- _$s11ShazamKitUI20TrackActionsProtocolP0D4TypeAC_AA0dF0Tn
+- _$s11ShazamKitUI20TrackActionsProtocolP12addToHistoryyy0D4TypeQzYaKFZTq
+- _$s11ShazamKitUI20TrackActionsProtocolP17removeFromHistoryyy0D4TypeQzYaKFZTq
+- _$s11ShazamKitUI20TrackActionsProtocolP23primaryAppleMusicAction3forAA0dJ4ItemOy0D4TypeQzGSgAI_tFZTq
+- _$s11ShazamKitUI20TrackActionsProtocolP7actions3for7context16isAddedToLibrary0J10SubscriberSayAA0D17ActionItemSectionVy0D4TypeQzGGAL_AA0dO7ContextOS2btFZTq
+- _$s11ShazamKitUI21RematchNoMatchSectionV05SwiftC04ViewAAMc
+- _$s11ShazamKitUI21RematchNoMatchSectionV17matchAttemptCountACSi_tcfC
+- _$s11ShazamKitUI21RematchNoMatchSectionVMa
+- _$s11ShazamKitUI21RematchNoMatchSectionVMn
+- _$s11ShazamKitUI22TrackActionItemBuilderV10buildBlockySayAA0deF0OyxGGAHd_tFZ
+- _$s11ShazamKitUI22TrackActionItemBuilderV13buildOptionalySayAA0deF0OyxGGAHSgFZ
+- _$s11ShazamKitUI22TrackActionItemBuilderV15buildExpressionySayAA0deF0OyxGGAGFZ
+- _$s11ShazamKitUI22TrackActionItemBuilderV15buildExpressionySayAA0deF0OyxGGAGSgFZ
+- _$s11ShazamKitUI22TrackActionItemSectionV4name7contentACyxG05SwiftC018LocalizedStringKeyVSg_SayAA0deF0OyxGGyXEtcfC
+- _$s11ShazamKitUI22TrackActionItemSectionV4name_ACyxG05SwiftC018LocalizedStringKeyVSg_SayAA0deF0OyxGSgGtcfC
+- _$s11ShazamKitUI22TrackActionItemSectionVMn
+- _$s11ShazamKitUI27TrackActionItemsHandlerViewVMn
+- _$s11ShazamKitUI27TrackActionItemsHandlerViewV_13actionContext08selecteddE0ACyxGx_AA0deJ0O05SwiftC07BindingVyAA0dE4ItemOyxGSgGtcfC
+- _$s11ShazamKitUI27TrackActionItemsHandlerViewVyxG05SwiftC00H0AAMc
+- _$s11ShazamKitUI33TrackActionItemOpenInMusicOptionsO25musicSubscriptionCampaignyAcA06ITunesM0V_SSSgtcACmFWC
+- _$s11ShazamKitUI33TrackActionItemOpenInMusicOptionsO5musicyAC10Foundation3URLVcACmFWC
+- _$s11ShazamKitUI33TrackActionItemOpenInMusicOptionsO5offeryAcA5OfferVcACmFWC
+- _$s11ShazamKitUI33TrackActionItemOpenInMusicOptionsOMa
+- _$s11ShazamKitUI8TrackRowV5title8explicit8subtitle4date11attribution11leadingView08trailingL0ACyxq_GSSSg_SbAL10Foundation4DateVSgALxyXEq_yXEtcfC
+- _$s11ShazamKitUI8TrackRowV5title8explicit8subtitle4date11attribution11leadingViewACyx05SwiftC005EmptyL0VGSSSg_SbAN10Foundation4DateVSgANxyXEtcALRs_rlufC
+- _$s11ShazamKitUI8TrackRowV5title8explicit8subtitle4date11attribution7artworkACyAA07DefaultdE7ArtworkVyqd__G05SwiftC09EmptyViewVGSSSg_SbAQ10Foundation4DateVSgAQqd__SgtcALRszAORs_AA0M8ProtocolRd__lufC
+- _$s11ShazamKitUI8TrackRowVyxq_G05SwiftC04ViewAAMc
+- _$s13AdaptiveMusic5MediaV3urlAC10Foundation3URLV_tcfC
+- _$s16TrackActionsType11ShazamKitUI0A8ProtocolPTl
+- _$s7SwiftUI14NavigationLinkVMa
+- _$s7SwiftUI18_AnimationModifierVMn
+- _$s7SwiftUI18_AnimationModifierVyxGAA04ViewD0AAMc
+- _$s7SwiftUI4ViewP09ShazamKitB0E17handleTrackAction3forQrAA7BindingVyAD0gH4ItemOyqd__GSgG_tAD0G8ProtocolRd__lF
+- _$s7SwiftUI4ViewP09ShazamKitB0E17handleTrackAction3forQrAA7BindingVyAD0gH4ItemOyqd__GSgG_tAD0G8ProtocolRd__lFQOMQ
+- _$s7SwiftUI4ViewPAAE13listRowInsetsyQrAA04EdgeF0VSgF
+- _$s7SwiftUI4ViewPAAE18listSectionSpacingyQr12CoreGraphics7CGFloatVF
+- _$s7SwiftUI5StateV12wrappedValuexvs
+- _$s7SwiftUI5StateV14projectedValueAA7BindingVyxGvg
+- _$s7SwiftUI9AnimationV7defaultACvgZ
+- _$s9TrackType11ShazamKitUI0A15ActionsProtocolPTl
+- _swift_getTupleTypeMetadata3
+- _swift_retain_x1
+CStrings:
++ "$__lazy_storage_$_recognitionState"
++ "Failed to present media item due to error %@"
++ "Invalid number of keys found, expected one."
++ "MusicRecognitionUIPlugin"
++ "OPEN_SHAZAM_SONG_INTENT_TARGET_PARAMETER_DESCRIPTION"
++ "OPEN_SHAZAM_SONG_INTENT_TARGET_PARAMETER_TITLE"
++ "OPEN_SHAZAM_SONG_INTENT_TITLE"
++ "Performing ShazamSongEntityOpenIntent with song title: %s, shazamID: %s, webURL: %s"
++ "RECOGNIZE_AUDIO_MATCH_FOUND_DIALOG "
++ "SHAZAM_SONG_ENTITY_SHAZAM_ID"
++ "SHAZAM_SONG_ENTITY_SHAZAM_LIBRARY_ID"
++ "View.task @ MusicRecognition/HistoryRootView.swift:"
++ "_TtC16MusicRecognition21TrackActionController"
++ "_campaignOfferURL"
++ "_path"
++ "_playlistLibraryController"
++ "_selectedPlaylist"
++ "_songForDeletion"
++ "_songForPlaylist"
++ "_songLibraryController"
++ "_subscriptionOfferOptions"
++ "_trackForDeletion"
++ "group footer "
++ "history"
++ "identifier"
++ "initWithProperties:"
++ "setCategory:mode:routeSharingPolicy:options:error:"
++ "shazamLibraryIdentifier"
+- "Failed to configure audio session category: %@"
+- "Failed to remove history items %@"
+- "View.task @ MusicRecognition/MusicRecognitionHistoryRoot.swift:"
+- "_selectedSheetTrack"
+- "rematchHandler"
+- "setCategory:mode:options:error:"
+
+```

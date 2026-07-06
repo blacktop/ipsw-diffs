@@ -1,0 +1,30 @@
+## FindMyCore
+
+> `FileSystem/System/Library/PrivateFrameworks/FindMyCore.framework/Models.loctable`
+
+```diff
+
+ en.BADGE_DESCRIPTION_AUTOMOTIVE = "Automotive"
+ en.BADGE_DESCRIPTION_BATTERY_CHARGING = "Battery Charging"
+ en.BADGE_DESCRIPTION_BATTERY_CHARGINGFULL = "Battery Charging - Full"
++en.BADGE_DESCRIPTION_BATTERY_EMPTY = "Empty Battery"
++en.BADGE_DESCRIPTION_BATTERY_FULL = "Full Battery"
+ en.BADGE_DESCRIPTION_BATTERY_HALF = "Medium Battery"
+ en.BADGE_DESCRIPTION_BATTERY_LOW = "Low Battery"
+ en.BADGE_DESCRIPTION_BATTERY_QUARTER = "Low Battery"
+
+ en.PERSON_DETAIL_FENCE_EVERY_TIME_ARRIVES_AT_%@ = "Every time %@ arrives at"
+ en.PERSON_DETAIL_FENCE_EVERY_TIME_I_ARRIVE_AT = "Every time I arrive at"
+ en.PERSON_DETAIL_FENCE_EVERY_TIME_I_LEAVE_FROM = "Every time I leave"
+-en.PERSON_DETAIL_FENCE_EVERY_TIME_LEAVES_FROM_%@ = "Every time %@ leaves from"
++en.PERSON_DETAIL_FENCE_EVERY_TIME_LEAVES_FROM_%@ = "Every time %@ leaves"
+ en.PERSON_DETAIL_FENCE_NEXT_TIME_ARRIVES_AT_%@ = "When %@ arrives at"
+ en.PERSON_DETAIL_FENCE_NEXT_TIME_I_ARRIVE_AT = "When I arrive at"
+ en.PERSON_DETAIL_FENCE_NEXT_TIME_I_LEAVE_FROM = "When I leave"
+ en.PERSON_DETAIL_FENCE_NEXT_TIME_LEAVES_FROM_%@ = "When %@ leaves"
++en.PERSON_DETAIL_FENCE_PENDING_STATE = "Pending Request"
+ en.PERSON_HANDLE_KIND_EMAIL_LABEL = "Email"
+ en.PERSON_HANDLE_KIND_PHONE_NUMBER_LABEL = "Phone"
+ en.PERSON_HANDLE_KIND_UNKNOWN_LABEL = "Unknown"
+
+```

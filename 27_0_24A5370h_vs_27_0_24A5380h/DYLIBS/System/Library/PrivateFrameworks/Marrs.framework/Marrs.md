@@ -1,0 +1,84 @@
+## Marrs
+
+> `/System/Library/PrivateFrameworks/Marrs.framework/Marrs`
+
+```diff
+
+-  __TEXT.__text: 0x84428
++  __TEXT.__text: 0x83efc
+   __TEXT.__init_offsets: 0x44
+   __TEXT.__objc_methlist: 0x63c
+   __TEXT.__const: 0xfec
+
+   __TEXT.__swift5_assocty: 0x30
+   __TEXT.__swift5_proto: 0x18
+   __TEXT.__swift5_types: 0x18
+-  __TEXT.__gcc_except_tab: 0x75cc
++  __TEXT.__gcc_except_tab: 0x75d0
+   __TEXT.__unwind_info: 0x1ac8
+   __TEXT.__eh_frame: 0x80
+   __TEXT.__objc_stubs: 0x0
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__const : content changed
+~ __TEXT.__swift5_typeref : content changed
+~ __TEXT.__cstring : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__unwind_info : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+Functions:
+~ -[MRRMultimodalMentionDetector initWithAssets:forLocale:status:] : 7384 -> 7396
+~ __ZN5boost9algorithm13trim_right_ifINSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEENS0_6detail14is_classifiedFEEEvRT_T0_ : 320 -> 312
+~ __ZN5marrs3mrr2mr13OrdinalFilterC2ERKNSt3__14__fs10filesystem4pathERKNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE : 7496 -> 7416
+~ __ZN5marrs2qr13orchestration24QueryRewriteOrchestrator6HandleERKNS1_9QRRequestEbb : 10176 -> 10184
+~ __ZNKSt3__111__copy_implclB9fqe220106IPN5marrs2qr13orchestration7QRTokenES6_S6_Li0EEENS_4pairIT_T1_EES8_T0_S9_ : 220 -> 196
+~ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB9fqe220106ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE : 1092 -> 1080
+~ +[MarrsSiriNLUTypesConverter fromPluginInteraction:] : 1180 -> 1164
+~ +[MarrsSiriNLUTypesConverter toPluginRequestPtr:] : 1216 -> 1168
+~ +[MarrsSiriNLUTypesConverter fromPluginResponsePtr:] : 512 -> 500
+~ +[MarrsSiriNLUTypesConverter fromPluginResponseObj:] : 504 -> 492
+~ __ZNSt3__16vectorIN5marrs2qr13orchestration11QRUtteranceENS_9allocatorIS4_EEE16__destroy_vectorclB9fqe220106Ev : 128 -> 116
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220106INS_9allocatorIN5marrs2qr13orchestration11QRUtteranceEEEPS5_S7_S7_EET2_RT_T0_T1_S8_ : 324 -> 304
+~ __ZNSt3__16vectorIN5marrs2qr13orchestration13QRInteractionENS_9allocatorIS4_EEE16__destroy_vectorclB9fqe220106Ev : 128 -> 116
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220106INS_9allocatorIN5marrs2qr13orchestration13QRInteractionEEEPS5_S7_S7_EET2_RT_T0_T1_S8_ : 376 -> 356
+~ __ZNSt3__16vectorIN5marrs2qr13orchestration11QRUtteranceENS_9allocatorIS4_EEE18__assign_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPS4_SA_EEvT0_T1_l : 444 -> 420
+~ __ZNKSt3__111__copy_implclB9fqe220106IPN5marrs2qr13orchestration11QRUtteranceES6_S6_Li0EEENS_4pairIT_T1_EES8_T0_S9_ : 200 -> 176
+~ __ZNK5marrs3mrr2mr13OrdinalFilter14filterEntitiesERKNSt3__16vectorINS1_9MRREntityENS3_9allocatorIS5_EEEERKNS3_12basic_stringIcNS3_11char_traitsIcEENS6_IcEEEE : 9164 -> 9048
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220106INS_9allocatorI17MDMentionOverrideEEPS2_S4_S4_EET2_RT_T0_T1_S5_ : 212 -> 200
+~ __ZNKSt3__111__copy_implclB9fqe220106IPN5marrs3mrr2mr18VerbalKeywordEntryES6_S6_Li0EEENS_4pairIT_T1_EES8_T0_S9_ : 124 -> 116
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220106INS_9allocatorIN5marrs3mrr2mr16MRMatchingResultEEEPS5_EEvRT_T0_SA_SA_ : 200 -> 180
+~ __ZNSt3__16vectorIN15sirinluinternal12MatchingSpanENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_ : 404 -> 388
+~ __ZNSt3__16vectorIN15sirinluinternal12MatchingSpanENS_9allocatorIS2_EEE16__destroy_vectorclB9fqe220106Ev : 152 -> 144
+~ __ZNSt3__16vectorIN5marrs3mrr2mr16MRMatchingResultENS_9allocatorIS4_EEE16__destroy_vectorclB9fqe220106Ev : 128 -> 116
+~ __ZNSt3__16vectorIN5marrs3mrr2mr16MRMatchingResultENS_9allocatorIS4_EEE13__vdeallocateEv : 108 -> 96
+~ __ZNSt3__16vectorIN5marrs3mrr2mr16MRMatchingResultENS_9allocatorIS4_EEE18__insert_with_sizeB9fqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPS4_EESC_EESC_NSA_IPKS4_EET0_T1_l : 660 -> 624
+~ __ZNKSt3__111__copy_implclB9fqe220106IPN5marrs3mrr2mr16MRMatchingResultES6_S6_Li0EEENS_4pairIT_T1_EES8_T0_S9_ : 176 -> 136
+~ __ZNSt3__113__stable_sortINS_17_ClassicAlgPolicyERZN5marrs3mrr2md13preprocessing23getIndexesOfTopMentionsERKNS_6vectorIfNS_9allocatorIfEEEEifE3$_1NS_11__wrap_iterIPmEEEEvT1_SH_T0_NS_15iterator_traitsISH_E15difference_typeEPNSK_10value_typeEl : 728 -> 720
+~ __ZNSt3__115__inplace_mergeINS_17_ClassicAlgPolicyERZN5marrs3mrr2md13preprocessing23getIndexesOfTopMentionsERKNS_6vectorIfNS_9allocatorIfEEEEifE3$_1NS_11__wrap_iterIPmEEEEvT1_SH_SH_OT0_NS_15iterator_traitsISH_E15difference_typeESM_PNSL_10value_typeEl : 1320 -> 1308
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN5marrs3mrr2mr16MRMatchingResult21sortByMentionAndScoreERNS_6vectorIS5_NS_9allocatorIS5_EEEEE3$_0PS5_Lb0EEEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeEb : 7128 -> 6984
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERZN5marrs3mrr2mr16MRMatchingResult21sortByMentionAndScoreERNS_6vectorIS5_NS_9allocatorIS5_EEEEE3$_0PS5_EEbT1_SE_T0_ : 1160 -> 1108
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN5marrs3mrr2mr16MRMatchingResult22sortByEntityIdAndScoreERNS_6vectorIS5_NS_9allocatorIS5_EEEEE3$_0PS5_Lb0EEEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeEb : 10632 -> 10548
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERZN5marrs3mrr2mr16MRMatchingResult22sortByEntityIdAndScoreERNS_6vectorIS5_NS_9allocatorIS5_EEEEE3$_0PS5_EEbT1_SE_T0_ : 1612 -> 1556
+~ __ZNK5marrs2qr13orchestration16InputCheckerUtil22utteranceCheckerHelperERKNS1_9QRRequestENS2_9TokenTypeE : 212 -> 192
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN5marrs3mrr2mr18EntityWithDistanceELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb : 4544 -> 4508
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN5marrs3mrr2mr18EntityWithDistanceEEEbT1_SA_T0_ : 1056 -> 1008
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN5marrs3mrr2mr25getSortedSurroundingTextsERKNS_6vectorINS4_9MRREntityENS_9allocatorIS6_EEEEE3$_0PNS4_15SurroundingTextELb0EEEvT1_SG_T0_NS_15iterator_traitsISG_E15difference_typeEb : 7264 -> 7124
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERZN5marrs3mrr2mr25getSortedSurroundingTextsERKNS_6vectorINS4_9MRREntityENS_9allocatorIS6_EEEEE3$_0PNS4_15SurroundingTextEEEbT1_SG_T0_ : 1968 -> 1900
+~ __ZNSt3__16vectorIN5marrs2qr13orchestration12QRHypothesisENS_9allocatorIS4_EEE16__init_with_sizeB9fqe220106IPS4_S9_EEvT_T0_m : 348 -> 336
+~ __ZNK28RuleBasedRepetitionPredictor7PredictERKNSt3__16vectorINS0_12basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS5_IS7_EEEESB_RKNS1_INS1_IjNS5_IjEEEENS5_ISD_EEEESH_jRKNS0_13unordered_mapIjNSI_IjfNS0_4hashIjEENS0_8equal_toIjEENS5_INS0_4pairIKjfEEEEEESK_SM_NS5_INSN_ISO_SR_EEEEEER25RepetitionPredictorResult : 3380 -> 3388
+~ __Z15alignmentMatrixIjEvRKNSt3__16vectorINS1_IT_NS0_9allocatorIS2_EEEENS3_IS5_EEEES9_RKNS1_INS1_IbNS3_IbEEEENS3_ISB_EEEERKNS0_13unordered_mapIS2_NSG_IS2_fNS0_4hashIS2_EENS0_8equal_toIS2_EENS3_INS0_4pairIKS2_fEEEEEESI_SK_NS3_INSL_ISM_SP_EEEEEES2_bRNS1_INS1_IfNS3_IfEEEENS3_ISW_EEEERNS1_INS1_INSL_IjjEENS3_IS10_EEEENS3_IS12_EEEE : 8644 -> 8576
+
+```

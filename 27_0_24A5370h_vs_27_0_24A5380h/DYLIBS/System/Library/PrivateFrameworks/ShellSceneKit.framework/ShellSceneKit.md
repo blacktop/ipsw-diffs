@@ -1,0 +1,206 @@
+## ShellSceneKit
+
+> `/System/Library/PrivateFrameworks/ShellSceneKit.framework/ShellSceneKit`
+
+```diff
+
+-  __TEXT.__text: 0xe9204
++  __TEXT.__text: 0xec0d8
+   __TEXT.__objc_methlist: 0x16b8
+-  __TEXT.__const: 0x82a0
++  __TEXT.__const: 0x8280
+   __TEXT.__cstring: 0x2bfb
+-  __TEXT.__swift5_typeref: 0x2554
+-  __TEXT.__swift5_capture: 0x1f14
+-  __TEXT.__oslogstring: 0xab3
++  __TEXT.__swift5_typeref: 0x2538
++  __TEXT.__swift5_capture: 0x21c4
++  __TEXT.__oslogstring: 0xbb3
+   __TEXT.__constg_swiftt: 0x1f04
+   __TEXT.__swift5_reflstr: 0x156b
+   __TEXT.__swift5_fieldmd: 0x1b90
+
+   __TEXT.__swift_as_ret: 0x4c
+   __TEXT.__swift_as_cont: 0x88
+   __TEXT.__swift5_types2: 0x8
+-  __TEXT.__unwind_info: 0x3088
+-  __TEXT.__eh_frame: 0x1eb0
++  __TEXT.__unwind_info: 0x3250
++  __TEXT.__eh_frame: 0x1e88
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x1a8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xbe0
++  __DATA_CONST.__objc_selrefs: 0xbe8
+   __DATA_CONST.__objc_protorefs: 0xe8
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA_CONST.__got: 0x638
+-  __AUTH_CONST.__const: 0x7a80
++  __DATA_CONST.__got: 0x630
++  __AUTH_CONST.__const: 0x8138
+   __AUTH_CONST.__cfstring: 0x120
+   __AUTH_CONST.__objc_const: 0x6c68
+   __AUTH_CONST.__auth_got: 0xcb8
+   __AUTH.__objc_data: 0x1238
+   __AUTH.__data: 0x660
+   __DATA.__objc_ivar: 0xc
+-  __DATA.__data: 0x14d0
++  __DATA.__data: 0x14c0
+   __DATA.__common: 0x18
+   __DATA.__bss: 0x8bd0
+   __DATA_DIRTY.__objc_data: 0x1178
+-  __DATA_DIRTY.__data: 0x13a8
++  __DATA_DIRTY.__data: 0x1378
+   __DATA_DIRTY.__bss: 0x2b60
+   __DATA_DIRTY.__common: 0x90
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5765
+-  Symbols:   15694
+-  CStrings:  372
++  Functions: 5852
++  Symbols:   15865
++  CStrings:  375
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__cstring : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_fieldmd : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__bss : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+Symbols:
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitorACSo010FBSDisplayG0C_tcfcSo8NSObjectCycfu0_
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitorACSo010FBSDisplayG0C_tcfcSo8NSObjectCycfu0_TA
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitorACSo010FBSDisplayG0C_tcfcSo8NSObjectCycfu_
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitorACSo010FBSDisplayG0C_tcfcSo8NSObjectCycfu_TA
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFAA7DisplayV10IdentifierVycfu4_
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFAA7DisplayV10IdentifierVycfu4_TA
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFAA7DisplayV10IdentifierVycfu6_
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFAA7DisplayV10IdentifierVycfu6_TA
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFSbycfu1_
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFSbycfu1_TA
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFSo8NSObjectCycfu5_
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFSo8NSObjectCycfu5_TA
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFSo8NSObjectCycfu7_
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFSo8NSObjectCycfu7_TA
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFSo8NSObjectCycfu_
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFSo8NSObjectCycfu_TA
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_22willDisconnectIdentityySo010FBSDisplayG0C_So0kJ0CtFAA7DisplayV10IdentifierVycfu4_
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_22willDisconnectIdentityySo010FBSDisplayG0C_So0kJ0CtFAA7DisplayV10IdentifierVycfu4_TA
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_22willDisconnectIdentityySo010FBSDisplayG0C_So0kJ0CtFSo8NSObjectCycfu3_
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_22willDisconnectIdentityySo010FBSDisplayG0C_So0kJ0CtFSo8NSObjectCycfu3_TA
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_9didUpdate4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFAA7DisplayV10IdentifierVycfu1_
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_9didUpdate4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFAA7DisplayV10IdentifierVycfu1_TA
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_9didUpdate4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFSo8NSObjectCycfu0_
++ _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_9didUpdate4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFSo8NSObjectCycfu0_TA
++ _$s13ShellSceneKit17FBSHardwareSourceC17connectedHardware33_25496FD56A57C26EECCB67A09BF9F1E1LL19CollectionsInternal17OrderedDictionaryVyAA7DisplayV10IdentifierVAA09CADisplayG0CGvg
++ _$s13ShellSceneKit17FBSHardwareSourceC17connectedHardware33_25496FD56A57C26EECCB67A09BF9F1E1LL19CollectionsInternal17OrderedDictionaryVyAA7DisplayV10IdentifierVAA09CADisplayG0CGvpWvd
++ _$s13ShellSceneKit17FBSHardwareSourceC17connectedHardware33_25496FD56A57C26EECCB67A09BF9F1E1LL19CollectionsInternal17OrderedDictionaryVyAA7DisplayV10IdentifierVAA09CADisplayG0CGvpfi
++ _$s13ShellSceneKit17FBSHardwareSourceC17connectedHardware33_25496FD56A57C26EECCB67A09BF9F1E1LL19CollectionsInternal17OrderedDictionaryVyAA7DisplayV10IdentifierVAA09CADisplayG0CGvs
++ _$s19CollectionsInternal17OrderedDictionaryV6ValuesVMn
++ _$s19CollectionsInternal17OrderedDictionaryV6ValuesVy13ShellSceneKit7DisplayV10IdentifierVAF17CADisplayHardwareC_GAEyxq__GSTAAWL
++ _$s19CollectionsInternal17OrderedDictionaryV6ValuesVy13ShellSceneKit7DisplayV10IdentifierVAF17CADisplayHardwareC_GAEyxq__GSTAAWl
++ _$s19CollectionsInternal17OrderedDictionaryV6ValuesVy13ShellSceneKit7DisplayV10IdentifierVAF17CADisplayHardwareC_GMR
++ _$s19CollectionsInternal17OrderedDictionaryV6ValuesVy13ShellSceneKit7DisplayV10IdentifierVAF17CADisplayHardwareC_GMd
++ _$s19CollectionsInternal17OrderedDictionaryV6ValuesVyxq__GSTAAMc
++ _$s19CollectionsInternal17OrderedDictionaryV6valuesAC6ValuesVyxq__Gvg
++ _$s19CollectionsInternal17OrderedDictionaryVy13ShellSceneKit7DisplayV10IdentifierVAD17CADisplayHardwareCGACyxq_Gs23CustomStringConvertibleAAWL
++ _$s19CollectionsInternal17OrderedDictionaryVy13ShellSceneKit7DisplayV10IdentifierVAD17CADisplayHardwareCGACyxq_Gs23CustomStringConvertibleAAWl
++ _$s19CollectionsInternal17OrderedDictionaryVy13ShellSceneKit7DisplayV10IdentifierVAD17CADisplayHardwareCGMR
++ _$s19CollectionsInternal17OrderedDictionaryVy13ShellSceneKit7DisplayV10IdentifierVAD17CADisplayHardwareCGMd
++ _$s19CollectionsInternal17OrderedDictionaryVy13ShellSceneKit7DisplayV10IdentifierVAD17CADisplayHardwareCGWOh
++ _$s19CollectionsInternal17OrderedDictionaryVyxq_Gs23CustomStringConvertibleAAMc
++ _$sShySo7FBSceneCGWOh
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA.67TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA.67Tu
++ _get_witness_table 19CollectionsInternal17OrderedDictionaryV6ValuesVy13ShellSceneKit7DisplayV10IdentifierVAF17CADisplayHardwareC_GSTHPyHC
++ _objc_msgSend$alwaysConnectedIdentities
++ _symbolic _____y__________G 19CollectionsInternal17OrderedDictionaryV 13ShellSceneKit7DisplayV10IdentifierV AD17CADisplayHardwareC
++ _symbolic _____y___________G 19CollectionsInternal17OrderedDictionaryV6ValuesV 13ShellSceneKit7DisplayV10IdentifierV AF17CADisplayHardwareC
+- _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFSbycfu_
+- _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFSbycfu_TA
+- _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFSo8NSObjectCycfu1_
+- _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_10didConnect4withySo010FBSDisplayG0C_So0K8IdentityCSo0K13ConfigurationCtFSo8NSObjectCycfu1_TA
+- _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_22willDisconnectIdentityySo010FBSDisplayG0C_So0kJ0CtFAA7DisplayV10IdentifierVycfu3_
+- _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_22willDisconnectIdentityySo010FBSDisplayG0C_So0kJ0CtFAA7DisplayV10IdentifierVycfu3_TA
+- _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_22willDisconnectIdentityySo010FBSDisplayG0C_So0kJ0CtFSo8NSObjectCycfu4_
+- _$s13ShellSceneKit17FBSHardwareSourceC14displayMonitor_22willDisconnectIdentityySo010FBSDisplayG0C_So0kJ0CtFSo8NSObjectCycfu4_TA
+- _$s13ShellSceneKit17FBSHardwareSourceC17connectedHardware33_25496FD56A57C26EECCB67A09BF9F1E1LLSDyAA7DisplayV10IdentifierVAA09CADisplayG0CGvg
+- _$s13ShellSceneKit17FBSHardwareSourceC17connectedHardware33_25496FD56A57C26EECCB67A09BF9F1E1LLSDyAA7DisplayV10IdentifierVAA09CADisplayG0CGvpWvd
+- _$s13ShellSceneKit17FBSHardwareSourceC17connectedHardware33_25496FD56A57C26EECCB67A09BF9F1E1LLSDyAA7DisplayV10IdentifierVAA09CADisplayG0CGvpfi
+- _$s13ShellSceneKit17FBSHardwareSourceC17connectedHardware33_25496FD56A57C26EECCB67A09BF9F1E1LLSDyAA7DisplayV10IdentifierVAA09CADisplayG0CGvs
+- _$s15Synchronization5MutexVy13ShellSceneKit17CADisplayHardwareC5StateVGMR
+- _$s15Synchronization5MutexVy13ShellSceneKit17CADisplayHardwareC5StateVGMd
+- _$s15Synchronization5MutexVy13ShellSceneKit17DeviceAudioRouterC5State33_C39C0C912C14669CE2DC717F52EBB502LLVGMR
+- _$s15Synchronization5MutexVy13ShellSceneKit17DeviceAudioRouterC5State33_C39C0C912C14669CE2DC717F52EBB502LLVGMd
+- _$s15Synchronization5MutexVySbGMR
+- _$s15Synchronization5MutexVySbGMd
+- _$s15Synchronization5MutexVySo23FBSDisplayConfigurationCGMR
+- _$s15Synchronization5MutexVySo23FBSDisplayConfigurationCGMd
+- _$sSD6ValuesVMn
+- _$sSD6ValuesVy13ShellSceneKit7DisplayV10IdentifierVAC17CADisplayHardwareC_GAByxq__GSTsWL
+- _$sSD6ValuesVy13ShellSceneKit7DisplayV10IdentifierVAC17CADisplayHardwareC_GAByxq__GSTsWl
+- _$sSD6ValuesVy13ShellSceneKit7DisplayV10IdentifierVAC17CADisplayHardwareC_GMR
+- _$sSD6ValuesVy13ShellSceneKit7DisplayV10IdentifierVAC17CADisplayHardwareC_GMd
+- _$sSD6ValuesVyxq__GSTsMc
+- _$sSD6valuesSD6ValuesVyxq__Gvg
+- _$sSDy13ShellSceneKit7DisplayV10IdentifierVAA17CADisplayHardwareCGMR
+- _$sSDy13ShellSceneKit7DisplayV10IdentifierVAA17CADisplayHardwareCGMd
+- _$sSDy13ShellSceneKit7DisplayV10IdentifierVAA17CADisplayHardwareCGSDyxq_Gs23CustomStringConvertiblesWL
+- _$sSDy13ShellSceneKit7DisplayV10IdentifierVAA17CADisplayHardwareCGSDyxq_Gs23CustomStringConvertiblesWl
+- _$sSDy13ShellSceneKit7DisplayV10IdentifierVAA17CADisplayHardwareCGWOh
+- _$sSDyxq_Gs23CustomStringConvertiblesMc
+- _$sShySo7FBSceneCGSgWOh
+- _$sSo13CADisplayModeCSgWOh
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA.68TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRTA.68Tu
+- _get_type_metadata 13ShellSceneKit13_RegistrationVyAA17FBSHardwareSourceCAA17DeviceAudioRouterCG noncopyable
+- _get_type_metadata 13ShellSceneKit8PlatformO14HardwareSourceRzAC11AudioRouterR_r0_l15Synchronization5MutexVySbG noncopyable
+- _get_type_metadata 15Synchronization5MutexVy13ShellSceneKit17CADisplayHardwareC5StateVG noncopyable
+- _get_type_metadata 15Synchronization5MutexVy13ShellSceneKit17DeviceAudioRouterC5State33_C39C0C912C14669CE2DC717F52EBB502LLVG noncopyable
+- _get_type_metadata 15Synchronization5MutexVySo23FBSDisplayConfigurationCG noncopyable
+- _get_witness_table SD6ValuesVy13ShellSceneKit7DisplayV10IdentifierVAC17CADisplayHardwareC_GSTHPyHC
+- _swift_runtimeSupportsNoncopyableTypes
+- _symbolic SDy__________G 13ShellSceneKit7DisplayV10IdentifierV AA17CADisplayHardwareC
+- _symbolic _____y___________G SD6ValuesV 13ShellSceneKit7DisplayV10IdentifierV AC17CADisplayHardwareC
+CStrings:
++ "Ignoring connecting display %@; isUsable: %{bool}d; isRootIdentity: %{bool}d; hardwareIdentity: %s"
++ "Ignoring connecting display as we've already processed connection of its hardware %@; hardwareIdentity: %s"
++ "Not tracking hardware for display "
++ "Received update for connected display %@; hardwareIdentity: %s"
++ "Stopped tracking disconnecting display identity: %@; hardwareIdentity: %s"
++ "Tracking connecting display %@; hardwareIdentity: %s; configuration: %@"
++ "no configuration found for alwaysConnectedIdentity: %@"
++ "no configuration found for connectedIdentity: %@"
+- "Ignoring connecting display as we've already processed its connection"
+- "Ignoring connecting display. isUsable: %{bool}d; isRootIdentity: %{bool}d; %@"
+- "Not tracking hardware for display identity: "
+- "Stopped tracking disconnecting display. hardwareIdentity: %s; identity: %@"
+- "Tracking connecting display. hardwareIdentity: %s; configuration: %@"
+
+```

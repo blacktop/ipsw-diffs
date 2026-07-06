@@ -1,0 +1,222 @@
+## SiriCloudSettings
+
+> `/System/Library/PrivateFrameworks/SiriCloudSettings.framework/SiriCloudSettings`
+
+```diff
+
+-  __TEXT.__text: 0x21f1c
++  __TEXT.__text: 0x23c58
+   __TEXT.__objc_methlist: 0x15c
+-  __TEXT.__const: 0x16f2
+-  __TEXT.__cstring: 0xdcd
+-  __TEXT.__constg_swiftt: 0xab8
+-  __TEXT.__swift5_typeref: 0x1bec
+-  __TEXT.__swift5_reflstr: 0x31d
+-  __TEXT.__swift5_assocty: 0x188
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_fieldmd: 0x364
+-  __TEXT.__swift5_proto: 0x94
+-  __TEXT.__swift5_types: 0x64
++  __TEXT.__const: 0x1852
++  __TEXT.__cstring: 0xffd
++  __TEXT.__constg_swiftt: 0xad8
++  __TEXT.__swift5_typeref: 0x1c22
++  __TEXT.__swift5_reflstr: 0x32d
++  __TEXT.__swift5_assocty: 0x1b8
++  __TEXT.__swift5_builtin: 0x50
++  __TEXT.__swift5_fieldmd: 0x38c
++  __TEXT.__swift5_proto: 0xac
++  __TEXT.__swift5_types: 0x68
+   __TEXT.__swift5_capture: 0x250
+   __TEXT.__swift_as_entry: 0x30
+   __TEXT.__swift_as_cont: 0x28
+
+   __TEXT.__swift_as_ret: 0x18
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x780
++  __TEXT.__unwind_info: 0x7b0
+   __TEXT.__eh_frame: 0x634
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x190
++  __DATA_CONST.__const: 0x198
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x158
++  __DATA_CONST.__objc_selrefs: 0x168
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xd40
+-  __AUTH_CONST.__objc_const: 0x420
++  __AUTH_CONST.__const: 0xd68
++  __AUTH_CONST.__objc_const: 0x440
+   __AUTH_CONST.__auth_got: 0x908
+-  __AUTH.__objc_data: 0x260
++  __AUTH.__objc_data: 0x268
+   __AUTH.__data: 0x300
+-  __DATA.__data: 0x750
+-  __DATA.__bss: 0x1318
++  __DATA.__data: 0x790
++  __DATA.__bss: 0x1618
+   __DATA.__common: 0x68
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/DeveloperToolsSupport.framework/DeveloperToolsSupport
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 770
+-  Symbols:   2909
+-  CStrings:  118
++  Functions: 810
++  Symbols:   3022
++  CStrings:  131
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__swift5_capture : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __AUTH.__data : content changed
+Symbols:
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O022siriUnavailableDueToAiJ0ACvgZ
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O022siriUnavailableDueToAiJ0ACvpZMV
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O22appleIntelligenceTitleACvgZ
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O22appleIntelligenceTitleACvpZMV
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O22siriUnavailableDefaultACvgZ
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O22siriUnavailableDefaultACvpZMV
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O25siriDisabledReasonGenericACvgZ
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O25siriDisabledReasonGenericACvpZMV
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O25siriDisabledReasonManagedACvgZ
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O25siriDisabledReasonManagedACvpZMV
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O26siriDisabledReasonParentalACvgZ
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O26siriDisabledReasonParentalACvpZMV
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O32mainSectionPrivacyFooterOptedOutyACSSFZ
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O32siriPrivacyLinkAccessibilityHintACvgZ
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O32siriPrivacyLinkAccessibilityHintACvpZMV
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O36siriAssetUnavailableExpensiveNetworkACvgZ
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O36siriAssetUnavailableExpensiveNetworkACvpZMV
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O40siriAssetUnavailableExpensiveNetworkLinkACvgZ
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O40siriAssetUnavailableExpensiveNetworkLinkACvpZMV
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O41siriAssetUnavailableExpensiveNetworkChinaACvgZ
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O41siriAssetUnavailableExpensiveNetworkChinaACvpZMV
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O41siriAssetUnavailableInsufficientDiskSpaceACvgZ
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O41siriAssetUnavailableInsufficientDiskSpaceACvpZMV
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O45siriAssetUnavailableInsufficientDiskSpaceLinkACvgZ
++ _$s10Foundation23LocalizedStringResourceV17SiriCloudSettingsE011LocalizableG0O45siriAssetUnavailableInsufficientDiskSpaceLinkACvpZMV
++ _$s17SiriCloudSettings0abC9ViewModelC14accountManagerACSo011AIDAAccountG0C_tcfC
++ _$s17SiriCloudSettings0abC9ViewModelC14accountManagerACSo011AIDAAccountG0C_tcfCTj
++ _$s17SiriCloudSettings0abC9ViewModelC14accountManagerACSo011AIDAAccountG0C_tcfCTq
++ _$s17SiriCloudSettings0abC9ViewModelC14accountManagerACSo011AIDAAccountG0C_tcfc
++ _$s17SiriCloudSettings0abC9ViewModelC14accountManagerACSo011AIDAAccountG0C_tcfcyyYacfU_
++ _$s17SiriCloudSettings0abC9ViewModelC14accountManagerACSo011AIDAAccountG0C_tcfcyyYacfU_TA
++ _$s17SiriCloudSettings0abC9ViewModelC14accountManagerACSo011AIDAAccountG0C_tcfcyyYacfU_TATQ0_
++ _$s17SiriCloudSettings0abC9ViewModelC14accountManagerACSo011AIDAAccountG0C_tcfcyyYacfU_TATu
++ _$s17SiriCloudSettings0abC9ViewModelC14accountManagerACSo011AIDAAccountG0C_tcfcyyYacfU_TY0_
++ _$s17SiriCloudSettings0abC9ViewModelC14accountManagerACSo011AIDAAccountG0C_tcfcyyYacfU_Tu
++ _$s17SiriCloudSettings0abC9ViewModelC14accountManagerSo011AIDAAccountG0Cvg
++ _$s17SiriCloudSettings0abC9ViewModelC14accountManagerSo011AIDAAccountG0CvpMV
++ _$s17SiriCloudSettings0abC9ViewModelC14accountManagerSo011AIDAAccountG0CvpWvd
++ _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
++ _$sSo15AIDAServiceTypeaABSHSCWL
++ _$sSo15AIDAServiceTypeaABSHSCWlTm
++ _$sSo15AIDAServiceTypeaABSQSCWL
++ _$sSo15AIDAServiceTypeaABSYSCWL
++ _$sSo15AIDAServiceTypeaABs20_SwiftNewtypeWrapperSCWL
++ _$sSo15AIDAServiceTypeaABs35_HasCustomAnyHashableRepresentationSCWL
++ _$sSo15AIDAServiceTypeaMB
++ _$sSo15AIDAServiceTypeaMF
++ _$sSo15AIDAServiceTypeaML
++ _$sSo15AIDAServiceTypeaMa
++ _$sSo15AIDAServiceTypeaMf
++ _$sSo15AIDAServiceTypeaMn
++ _$sSo15AIDAServiceTypeaSHSCMc
++ _$sSo15AIDAServiceTypeaSHSCMcMK
++ _$sSo15AIDAServiceTypeaSHSCSH13_rawHashValue4seedS2i_tFTW
++ _$sSo15AIDAServiceTypeaSHSCSH13_rawHashValue4seedS2i_tFTWTm
++ _$sSo15AIDAServiceTypeaSHSCSH4hash4intoys6HasherVz_tFTW
++ _$sSo15AIDAServiceTypeaSHSCSH4hash4intoys6HasherVz_tFTWTm
++ _$sSo15AIDAServiceTypeaSHSCSH9hashValueSivgTW
++ _$sSo15AIDAServiceTypeaSHSCSH9hashValueSivgTWTm
++ _$sSo15AIDAServiceTypeaSHSCSQWb
++ _$sSo15AIDAServiceTypeaSQSCMc
++ _$sSo15AIDAServiceTypeaSQSCMcMK
++ _$sSo15AIDAServiceTypeaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo15AIDAServiceTypeaSQSCSQ2eeoiySbx_xtFZTWTm
++ _$sSo15AIDAServiceTypeaSYSCMA
++ _$sSo15AIDAServiceTypeaSYSCMc
++ _$sSo15AIDAServiceTypeaSYSCMcMK
++ _$sSo15AIDAServiceTypeaSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo15AIDAServiceTypeaSYSCSY8rawValuexSg03RawD0Qz_tcfCTW
++ _$sSo15AIDAServiceTypeas20_SwiftNewtypeWrapperSCMc
++ _$sSo15AIDAServiceTypeas20_SwiftNewtypeWrapperSCMcMK
++ _$sSo15AIDAServiceTypeas20_SwiftNewtypeWrapperSCSYWb
++ _$sSo15AIDAServiceTypeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb
++ _$sSo15AIDAServiceTypeas21_ObjectiveCBridgeableSCMA
++ _$sSo15AIDAServiceTypeas21_ObjectiveCBridgeableSCMc
++ _$sSo15AIDAServiceTypeas21_ObjectiveCBridgeableSCMcMK
++ _$sSo15AIDAServiceTypeas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromC1C_6resulty01_C5CTypeQz_xSgztFZTW
++ _$sSo15AIDAServiceTypeas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromC1C_6resultSb01_C5CTypeQz_xSgztFZTW
++ _$sSo15AIDAServiceTypeas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromC1Cyx01_C5CTypeQzSgFZTW
++ _$sSo15AIDAServiceTypeas21_ObjectiveCBridgeableSCsACP09_bridgeToC1C01_C5CTypeQzyFTW
++ _$sSo15AIDAServiceTypeas35_HasCustomAnyHashableRepresentationSCMc
++ _$sSo15AIDAServiceTypeas35_HasCustomAnyHashableRepresentationSCMcMK
++ _$sSo15AIDAServiceTypeas35_HasCustomAnyHashableRepresentationSCsACP03_todeF0s0eF0VSgyFTW
++ _$sSo18ACAccountDataclassaSYSCSY8rawValuexSg03RawD0Qz_tcfCTWTm
++ _$sSo18ACAccountDataclassas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromC1C_6resulty01_C5CTypeQz_xSgztFZTWTm
++ _$sSo18ACAccountDataclassas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromC1C_6resultSb01_C5CTypeQz_xSgztFZTWTm
++ _$sSo18ACAccountDataclassas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromC1Cyx01_C5CTypeQzSgFZTWTm
++ _$sSo9ACAccountCML
++ _$sSo9ACAccountCMa
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo15AIDAServiceTypea_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo15AIDAServiceTypea_Tg5
++ _AIDAServiceTypeCloud
++ _OBJC_CLASS_$_ACAccount
++ _associated conformance So15AIDAServiceTypeaSHSCSQ
++ _associated conformance So15AIDAServiceTypeas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So15AIDAServiceTypeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _objc_msgSend$accountStore
++ _objc_msgSend$accounts
++ _symbolic So18AIDAAccountManagerC
++ _symbolic _____ So15AIDAServiceTypea
+- _$s17SiriCloudSettings0abC9ViewModelC7accountACSo9ACAccountCSg_tcfC
+- _$s17SiriCloudSettings0abC9ViewModelC7accountACSo9ACAccountCSg_tcfCTj
+- _$s17SiriCloudSettings0abC9ViewModelC7accountACSo9ACAccountCSg_tcfCTq
+- _$s17SiriCloudSettings0abC9ViewModelC7accountACSo9ACAccountCSg_tcfc
+- _$s17SiriCloudSettings0abC9ViewModelC7accountACSo9ACAccountCSg_tcfcyyYacfU_
+- _$s17SiriCloudSettings0abC9ViewModelC7accountACSo9ACAccountCSg_tcfcyyYacfU_TA
+- _$s17SiriCloudSettings0abC9ViewModelC7accountACSo9ACAccountCSg_tcfcyyYacfU_TATQ0_
+- _$s17SiriCloudSettings0abC9ViewModelC7accountACSo9ACAccountCSg_tcfcyyYacfU_TATu
+- _$s17SiriCloudSettings0abC9ViewModelC7accountACSo9ACAccountCSg_tcfcyyYacfU_TY0_
+- _$s17SiriCloudSettings0abC9ViewModelC7accountACSo9ACAccountCSg_tcfcyyYacfU_Tu
+- _$s17SiriCloudSettings0abC9ViewModelCAC11Observation10ObservableAAWl
+- _OBJC_CLASS_$_AIDAAccountManager
+- _objc_release_x25
+CStrings:
++ "APPLE_INTELLIGENCE_TITLE"
++ "MAIN_SECTION_PRIVACY_FOOTER_OPTED_OUT"
++ "SIRI_ASSET_UNAVAILABLE_EXPENSIVE_NETWORK"
++ "SIRI_ASSET_UNAVAILABLE_EXPENSIVE_NETWORK_CHINA"
++ "SIRI_ASSET_UNAVAILABLE_EXPENSIVE_NETWORK_LINK"
++ "SIRI_ASSET_UNAVAILABLE_INSUFFICIENT_DISK_SPACE"
++ "SIRI_ASSET_UNAVAILABLE_INSUFFICIENT_DISK_SPACE_LINK"
++ "SIRI_DISABLED_REASON_GENERIC"
++ "SIRI_DISABLED_REASON_MANAGED"
++ "SIRI_DISABLED_REASON_PARENTAL"
++ "SIRI_PRIVACY_LINK_ACCESSIBILITY_HINT"
++ "SIRI_UNAVAILABLE_DEFAULT"
++ "SIRI_UNAVAILABLE_DUE_TO_AI_UNAVAILABLE"
+
+```

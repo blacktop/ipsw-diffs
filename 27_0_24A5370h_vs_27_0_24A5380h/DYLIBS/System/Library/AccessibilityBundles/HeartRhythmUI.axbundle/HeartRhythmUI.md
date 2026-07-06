@@ -1,0 +1,146 @@
+## HeartRhythmUI
+
+> `/System/Library/AccessibilityBundles/HeartRhythmUI.axbundle/HeartRhythmUI`
+
+```diff
+
+-  __TEXT.__text: 0x1664
+-  __TEXT.__objc_methlist: 0x46c
++  __TEXT.__text: 0xfb0
++  __TEXT.__objc_methlist: 0x2fc
+   __TEXT.__const: 0x8
+   __TEXT.__gcc_except_tab: 0x28
+-  __TEXT.__cstring: 0x74e
+-  __TEXT.__unwind_info: 0x128
++  __TEXT.__cstring: 0x555
++  __TEXT.__unwind_info: 0xe8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x90
+-  __DATA_CONST.__objc_classlist: 0xe8
++  __DATA_CONST.__objc_classlist: 0x98
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x138
+-  __DATA_CONST.__objc_superrefs: 0x60
++  __DATA_CONST.__objc_selrefs: 0x128
++  __DATA_CONST.__objc_superrefs: 0x38
+   __DATA_CONST.__got: 0x68
+   __AUTH_CONST.__const: 0x60
+-  __AUTH_CONST.__cfstring: 0x640
+-  __AUTH_CONST.__objc_const: 0x1050
++  __AUTH_CONST.__cfstring: 0x4e0
++  __AUTH_CONST.__objc_const: 0xab0
+   __AUTH_CONST.__auth_got: 0x0
+   __DATA.__bss: 0x10
+-  __DATA_DIRTY.__objc_data: 0x910
++  __DATA_DIRTY.__objc_data: 0x5f0
+   __DATA_DIRTY.__bss: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libAXSafeCategoryBundle.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 76
+-  Symbols:   378
+-  CStrings:  108
++  Functions: 55
++  Symbols:   285
++  CStrings:  86
+ 
+Sections:
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+Symbols:
++ GCC_except_table38
+- +[HRAtrialFibrillationIntroViewControllerAccessibility _accessibilityPerformValidations:]
+- +[HRAtrialFibrillationIntroViewControllerAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[HRAtrialFibrillationIntroViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[HROnboardingAtrialFibrillationEnableViewControllerAccessibility _accessibilityPerformValidations:]
+- +[HROnboardingAtrialFibrillationEnableViewControllerAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[HROnboardingAtrialFibrillationEnableViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility _accessibilityPerformValidations:]
+- +[HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[HROnboardingHeroExplanationViewControllerAccessibility _accessibilityPerformValidations:]
+- +[HROnboardingHeroExplanationViewControllerAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[HROnboardingHeroExplanationViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[HRSpeedBumpViewControllerAccessibility _accessibilityPerformValidations:]
+- +[HRSpeedBumpViewControllerAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[HRSpeedBumpViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName]
+- -[HRAtrialFibrillationIntroViewControllerAccessibility _accessibilityLoadAccessibilityInformation]
+- -[HRAtrialFibrillationIntroViewControllerAccessibility setUpUI]
+- -[HROnboardingAtrialFibrillationEnableViewControllerAccessibility _accessibilityLoadAccessibilityInformation]
+- -[HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility _accessibilityLoadAccessibilityInformation]
+- -[HROnboardingHeroExplanationViewControllerAccessibility _accessibilityLoadAccessibilityInformation]
+- -[HRSpeedBumpViewControllerAccessibility _accessibilityLoadAccessibilityInformation]
+- GCC_except_table55
+- _OBJC_CLASS_$_HRAtrialFibrillationIntroViewControllerAccessibility
+- _OBJC_CLASS_$_HROnboardingAtrialFibrillationEnableViewControllerAccessibility
+- _OBJC_CLASS_$_HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility
+- _OBJC_CLASS_$_HROnboardingHeroExplanationViewControllerAccessibility
+- _OBJC_CLASS_$_HRSpeedBumpViewControllerAccessibility
+- _OBJC_CLASS_$___HRAtrialFibrillationIntroViewControllerAccessibility_super
+- _OBJC_CLASS_$___HROnboardingAtrialFibrillationEnableViewControllerAccessibility_super
+- _OBJC_CLASS_$___HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility_super
+- _OBJC_CLASS_$___HROnboardingHeroExplanationViewControllerAccessibility_super
+- _OBJC_CLASS_$___HRSpeedBumpViewControllerAccessibility_super
+- _OBJC_METACLASS_$_HRAtrialFibrillationIntroViewControllerAccessibility
+- _OBJC_METACLASS_$_HROnboardingAtrialFibrillationEnableViewControllerAccessibility
+- _OBJC_METACLASS_$_HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility
+- _OBJC_METACLASS_$_HROnboardingHeroExplanationViewControllerAccessibility
+- _OBJC_METACLASS_$_HRSpeedBumpViewControllerAccessibility
+- _OBJC_METACLASS_$___HRAtrialFibrillationIntroViewControllerAccessibility_super
+- _OBJC_METACLASS_$___HROnboardingAtrialFibrillationEnableViewControllerAccessibility_super
+- _OBJC_METACLASS_$___HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility_super
+- _OBJC_METACLASS_$___HROnboardingHeroExplanationViewControllerAccessibility_super
+- _OBJC_METACLASS_$___HRSpeedBumpViewControllerAccessibility_super
+- __OBJC_$_CLASS_METHODS_HRAtrialFibrillationIntroViewControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_HROnboardingAtrialFibrillationEnableViewControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_HROnboardingHeroExplanationViewControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS_HRSpeedBumpViewControllerAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS_HRAtrialFibrillationIntroViewControllerAccessibility
+- __OBJC_$_INSTANCE_METHODS_HROnboardingAtrialFibrillationEnableViewControllerAccessibility
+- __OBJC_$_INSTANCE_METHODS_HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility
+- __OBJC_$_INSTANCE_METHODS_HROnboardingHeroExplanationViewControllerAccessibility
+- __OBJC_$_INSTANCE_METHODS_HRSpeedBumpViewControllerAccessibility
+- __OBJC_CLASS_RO_$_HRAtrialFibrillationIntroViewControllerAccessibility
+- __OBJC_CLASS_RO_$_HROnboardingAtrialFibrillationEnableViewControllerAccessibility
+- __OBJC_CLASS_RO_$_HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility
+- __OBJC_CLASS_RO_$_HROnboardingHeroExplanationViewControllerAccessibility
+- __OBJC_CLASS_RO_$_HRSpeedBumpViewControllerAccessibility
+- __OBJC_CLASS_RO_$___HRAtrialFibrillationIntroViewControllerAccessibility_super
+- __OBJC_CLASS_RO_$___HROnboardingAtrialFibrillationEnableViewControllerAccessibility_super
+- __OBJC_CLASS_RO_$___HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility_super
+- __OBJC_CLASS_RO_$___HROnboardingHeroExplanationViewControllerAccessibility_super
+- __OBJC_CLASS_RO_$___HRSpeedBumpViewControllerAccessibility_super
+- __OBJC_METACLASS_RO_$_HRAtrialFibrillationIntroViewControllerAccessibility
+- __OBJC_METACLASS_RO_$_HROnboardingAtrialFibrillationEnableViewControllerAccessibility
+- __OBJC_METACLASS_RO_$_HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility
+- __OBJC_METACLASS_RO_$_HROnboardingHeroExplanationViewControllerAccessibility
+- __OBJC_METACLASS_RO_$_HRSpeedBumpViewControllerAccessibility
+- __OBJC_METACLASS_RO_$___HRAtrialFibrillationIntroViewControllerAccessibility_super
+- __OBJC_METACLASS_RO_$___HROnboardingAtrialFibrillationEnableViewControllerAccessibility_super
+- __OBJC_METACLASS_RO_$___HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility_super
+- __OBJC_METACLASS_RO_$___HROnboardingHeroExplanationViewControllerAccessibility_super
+- __OBJC_METACLASS_RO_$___HRSpeedBumpViewControllerAccessibility_super
+- _objc_msgSend$validateClass:
+CStrings:
+- "HRAtrialFibrillationIntroViewController"
+- "HRAtrialFibrillationIntroViewControllerAccessibility"
+- "HROnboardingAtrialFibrillationEnableViewController"
+- "HROnboardingAtrialFibrillationEnableViewControllerAccessibility"
+- "HROnboardingElectrocardiogramTakeRecordingViewController"
+- "HROnboardingElectrocardiogramTakeRecordingViewControllerAccessibility"
+- "HROnboardingHeroExplanationViewController"
+- "HROnboardingHeroExplanationViewControllerAccessibility"
+- "HRSpeedBumpViewController"
+- "HRSpeedBumpViewControllerAccessibility"
+- "setUpUI"
+
+```

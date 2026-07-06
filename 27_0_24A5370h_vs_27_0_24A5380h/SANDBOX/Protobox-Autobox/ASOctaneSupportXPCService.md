@@ -1,0 +1,52 @@
+## ASOctaneSupportXPCService
+
+> Group: ⬆️ Updated
+
+```diff
+
+ (deny mach-lookup
+ 	(require-all
+ 		(global-name "com.apple.dt.testmanagerd.uiprocess")
+-		(require-not (global-name "com.apple.diagnosticd"))
+-		(require-not (global-name "com.apple.lsd.icons"))
+-		(require-not (global-name "com.apple.logd.events"))
+-		(require-not (global-name "com.apple.system.notification_center"))
+-		(require-not (global-name "com.apple.system.libinfo.muser"))
+-		(require-not (global-name "com.apple.familycircle.agent"))
+-		(require-not (global-name "com.apple.iconservices"))
+-		(require-not (global-name "com.apple.trustd"))
+-		(require-not (global-name "com.apple.analyticsd"))
+ 		(require-not (global-name "com.apple.mobilegestalt.xpc"))
+-		(require-not (global-name "com.apple.cfprefsd.daemon"))
+-		(require-not (global-name "com.apple.lsd.mapdb"))
+-		(require-not (global-name "com.apple.gputools.service"))
+-		(require-not (global-name "com.apple.distributed_notifications@1v3"))
+-		(require-not (global-name "com.apple.logd"))
+-		(require-not (global-name "com.apple.assistant.settings"))
+ 		(require-not (global-name "com.apple.storekit.configuration.xpc"))
+-		(require-not (global-name "com.apple.lsd.advertisingidentifiers"))
+-		(require-not (global-name "com.apple.containermanagerd"))
+-		(require-not (global-name "com.apple.containermanagerd.system"))
++		(require-not (global-name "com.apple.lsd.icons"))
++		(require-not (global-name "com.apple.assistant.settings"))
++		(require-not (global-name "com.apple.lsd.mapdb"))
++		(require-not (global-name "com.apple.trustd"))
++		(require-not (global-name "com.apple.system.notification_center"))
++		(require-not (global-name "com.apple.iconservices"))
++		(require-not (global-name "com.apple.diagnosticd"))
++		(require-not (global-name "com.apple.system.libinfo.muser"))
++		(require-not (global-name "com.apple.distributed_notifications@1v3"))
+ 		(require-not (global-name "com.apple.cfprefsd.daemon.system"))
++		(require-not (global-name "com.apple.containermanagerd"))
++		(require-not (global-name "com.apple.lsd.advertisingidentifiers"))
++		(require-not (global-name "com.apple.logd.events"))
++		(require-not (global-name "com.apple.cfprefsd.daemon"))
++		(require-not (global-name "com.apple.gputools.service"))
++		(require-not (global-name "com.apple.familycircle.agent"))
++		(require-not (global-name "com.apple.logd"))
++		(require-not (global-name "com.apple.analyticsd"))
++		(require-not (global-name "com.apple.containermanagerd.system"))
+ 		(require-not (global-name "com.apple.accountsd.accountmanager"))
+ 		(require-not (system-attribute developer-mode))
+ 	)
+```

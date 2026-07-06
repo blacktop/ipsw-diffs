@@ -1,0 +1,27 @@
+## PassKit
+
+> `FileSystem/System/Library/Frameworks/PassKit.framework/RemoteNetworkPayment_Localizable.loctable`
+
+```diff
+
+-en.ERROR_NOTIFICATION_INVALID_TOKEN_MESSAGE = "Invalid Code"
++en.ERROR_NOTIFICATION_INVALID_TOKEN_MESSAGE = "Unable to Continue"
++en.ERROR_NOTIFICATION_INVALID_TOKEN_SUBTITLE = "Please try again."
+ en.ERROR_NOTIFICATION_NEWER_OS_REQUIRED_MESSAGE = "Software Update Required"
++en.ERROR_NOTIFICATION_NEWER_OS_REQUIRED_SUBTITLE = "This transaction requires the latest version of %@."
+ en.ERROR_NOTIFICATION_NO_INTERNET_CONNECTIVITY_MESSAGE = "No Internet Connection"
+-en.ERROR_NOTIFICATION_REMOTE_LINK_ID_EXPIRED_MESSAGE = "Code Expired"
+-en.ERROR_NOTIFICATION_REMOTE_REQUEST_EXPIRED_MESSAGE = "Code Expired"
++en.ERROR_NOTIFICATION_NO_INTERNET_CONNECTIVITY_SUBTITLE = "Check your internet connection and try again."
++en.ERROR_NOTIFICATION_REMOTE_LINK_ID_EXPIRED_MESSAGE = "Unable to Continue"
++en.ERROR_NOTIFICATION_REMOTE_LINK_ID_EXPIRED_SUBTITLE = "Please try again."
++en.ERROR_NOTIFICATION_REMOTE_REQUEST_EXPIRED_MESSAGE = "Unable to Continue"
++en.ERROR_NOTIFICATION_REMOTE_REQUEST_EXPIRED_SUBTITLE = "Please try again."
+ en.ERROR_NOTIFICATION_UNAVAILABLE_MESSAGE = "Service Unavailable"
+-en.ERROR_NOTIFICATION_UNSUPPORTED_MESSAGE = "Invalid Code"
++en.ERROR_NOTIFICATION_UNAVAILABLE_SUBTITLE = "Please try again later."
++en.ERROR_NOTIFICATION_UNSUPPORTED_MESSAGE = "Not Supported"
++en.ERROR_NOTIFICATION_UNSUPPORTED_SUBTITLE = "This transaction cannot be completed on this device."
+ en.LOADING_VIEW_LOADING_MESSAGE = "Loading"
+
+```

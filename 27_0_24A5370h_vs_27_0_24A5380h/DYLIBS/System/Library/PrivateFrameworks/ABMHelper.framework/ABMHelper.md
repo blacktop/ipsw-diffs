@@ -1,0 +1,101 @@
+## ABMHelper
+
+> `/System/Library/PrivateFrameworks/ABMHelper.framework/ABMHelper`
+
+```diff
+
+-  __TEXT.__text: 0x1cf5c8
++  __TEXT.__text: 0x1cf444
+   __TEXT.__init_offsets: 0x16c
+   __TEXT.__objc_methlist: 0x14
+   __TEXT.__const: 0x7220
+-  __TEXT.__gcc_except_tab: 0x21858
++  __TEXT.__gcc_except_tab: 0x21888
+   __TEXT.__cstring: 0x88c2
+   __TEXT.__oslogstring: 0xdb4d
+-  __TEXT.__unwind_info: 0x7108
++  __TEXT.__unwind_info: 0x7118
+   __TEXT.__eh_frame: 0x138
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsysdiagnose.dylib
+-  Functions: 4312
+-  Symbols:   12324
++  Functions: 4314
++  Symbols:   12328
+   CStrings:  2881
+ 
+Sections:
+~ __TEXT.__init_offsets : content changed
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__cstring : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_arraydata : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __AUTH_CONST.__objc_intobj : content changed
+~ __AUTH_CONST.__objc_dictobj : content changed
+~ __DATA.__data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+Symbols:
++ __ZN6config2hw9deviceNEDEv
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIP17dispatch_source_sNS_8functionIFviEEEEEEENS_19__map_value_compareIS7_NS8_IKS7_SE_EENS_4lessIS7_EEEENS5_ISI_EEE5eraseENS_21__tree_const_iteratorISF_PNS_11__tree_nodeISF_PvEElEE
+Functions:
+~ __ZN14INTTraceEngine15sendConfig_syncEN8dispatch5groupENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEbbb : 3072 -> 3064
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_expression_termIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE : 1380 -> 1332
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE25__parse_equivalence_classIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE : 668 -> 628
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_collating_symbolIPKcEET_S7_S7_RNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE : 244 -> 208
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_expression_termINS_11__wrap_iterIPKcEEEET_S9_S9_PNS_20__bracket_expressionIcS2_EE : 1440 -> 1392
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE25__parse_equivalence_classINS_11__wrap_iterIPKcEEEET_S9_S9_PNS_20__bracket_expressionIcS2_EE : 672 -> 664
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_collating_symbolINS_11__wrap_iterIPKcEEEET_S9_S9_RNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE : 240 -> 232
+~ __ZN3abm14TapToRadarTask28checkTraceLogsInArchive_syncERNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERNS1_6vectorIPKcNS5_ISB_EEEE : 960 -> 964
+~ __ZN18ResetReasonEncoder7MappingD1Ev : 280 -> 256
+~ __ZN18ResetReasonEncoder19findMatchingMappingENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERNS_7MappingE : 2064 -> 1996
+~ __ZN18ResetReasonEncoder5parseENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE : 2784 -> 2720
+~ __ZNSt3__128__exception_guard_exceptionsINS_6vectorIN18ResetReasonEncoder12SubmatchInfoENS_9allocatorIS3_EEE16__destroy_vectorEED1B9fqe220106Ev : 256 -> 244
+~ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN18ResetReasonEncoder12SubmatchInfoEEEPS4_EEED1B9fqe220106Ev : 232 -> 212
+~ __ZNSt3__112__destroy_atB9fqe220106IN18ResetReasonEncoder7MappingEEEvPT_ : 284 -> 260
++ __ZN6config2hw9deviceNEDEv
+~ __ZN7support2ui23displayUserNotificationERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_bd : 792 -> 768
+~ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fqe220106EPKvm : 1116 -> 1104
+~ __ZN3abm16LocalizationTask30getPreferredLocalizations_syncEv : 1132 -> 1164
+~ __ZN7support2fs11updateOwnerENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEjj : 1892 -> 1864
+~ __ZN7support2fs16getLastNumberDirERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE : 2848 -> 2860
+~ __ZN14ResetDetection18addToHandlers_syncENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_8functionIFviEEERNS0_3mapIS6_NS0_4pairIP17dispatch_source_sS9_EENS0_4lessIS6_EENS4_INSB_IKS6_SE_EEEEEEy : 1176 -> 1376
+~ ____ZN14ResetDetection18addToHandlers_syncENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_8functionIFviEEERNS0_3mapIS6_NS0_4pairIP17dispatch_source_sS9_EENS0_4lessIS6_EENS4_INSB_IKS6_SE_EEEEEEy_block_invoke : 600 -> 420
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIP17dispatch_source_sNS_8functionIFviEEEEEEENS_19__map_value_compareIS7_NS8_IKS7_SE_EENS_4lessIS7_EEEENS5_ISI_EEE5eraseENS_21__tree_const_iteratorISF_PNS_11__tree_nodeISF_PvEElEE
+~ __ZN9Timestamp9toISO8601ERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE : 1060 -> 1072
+~ __ZN17KernelPCIABPTrace28selectChunksForSnapshot_syncERKNSt3__16vectorINS_12PipeFileInfoENS0_9allocatorIS2_EEEEm : 3520 -> 3492
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN17KernelPCIABPTrace21analyzePipeFiles_syncEvE3$_0PNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEELb0EEEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeEb : 3208 -> 3152
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERZN17KernelPCIABPTrace21analyzePipeFiles_syncEvE3$_0PNS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEmEEEEbT1_SE_T0_ : 824 -> 772
+~ ____ZN3abm17LogManagementTask9init_syncEv_block_invoke_2 : 4932 -> 4912
+~ ____ZN3abm17LogManagementTask9init_syncEv_block_invoke_2.21 : 5972 -> 5956
+~ __ZNSt3__16vectorIN3abm14DirectoryQueryENS_9allocatorIS2_EEEC2B9fqe220106ESt16initializer_listIS2_E : 348 -> 336
+~ __ZN14INTTraceLegacy15sendConfig_syncEN8dispatch5groupENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEbbb : 2252 -> 2216
+~ __ZN3abm5trace31extractSettingsTypeFromFileNameERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE : 1016 -> 1032
+~ __ZN3abm5trace4atdd12ATDDMetadata10addSourcesERKNSt3__16vectorINS1_11SourceEntryENS3_9allocatorIS5_EEEE : 1360 -> 1292
+~ __ZNSt3__16vectorIN3abm5trace4atdd11SourceEntryENS_9allocatorIS4_EEE24__emplace_back_slow_pathIJRKS4_EEEPS4_DpOT_ : 712 -> 676
+~ __ZN22DaleCrashReportMetrics18decodeCPSSignatureEN3xpc4dictERKS1_ : 2808 -> 2800
+~ __ZN5boost8signals26detail11auto_bufferINS_10shared_ptrIvEENS1_15store_n_objectsILj10EEENS1_19default_grow_policyENSt3__19allocatorIS4_EEE9push_backERKS4_ : 504 -> 496
+~ __ZNSt3__16vectorIN5boost7variantINS1_8weak_ptrINS1_8signals26detail17trackable_pointeeEEEJNS3_IvEENS5_21foreign_void_weak_ptrEEEENS_9allocatorISA_EEEC2B9fqe220106ERKSD_ : 396 -> 360
+~ __ZNSt3__16vectorIN5boost7variantINS1_8weak_ptrINS1_8signals26detail17trackable_pointeeEEEJNS3_IvEENS5_21foreign_void_weak_ptrEEEENS_9allocatorISA_EEE24__emplace_back_slow_pathIJSA_EEEPSA_DpOT_ : 692 -> 592
+~ __ZN4util22strip_leading_trailingERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_ : 420 -> 412
+~ __ZN4util28compareTwoStringsWithPatternERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_S8_ : 2364 -> 2352
+~ __ZN4util14trimWhitespaceERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE : 456 -> 448
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_7greaterINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEPS8_Lb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb : 4668 -> 4540
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERNS_7greaterINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEPS8_EEbT1_SC_T0_ : 752 -> 724
+~ __ZN4diag16DIAGProtocolHDLC14handleReadDataEPKhj : 732 -> 728
+~ ____ZN9ResetInfo23readResetReasonPatternsEv_block_invoke : 2264 -> 2236
+~ __ZN3tlv6parseVIN3bsp3tlv3abm12CapabilitiesEEET_RPKhi : 388 -> 380
+
+```

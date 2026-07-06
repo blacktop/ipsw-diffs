@@ -1,0 +1,103 @@
+## ProximityUI
+
+> `/System/Library/PrivateFrameworks/ProximityUI.framework/ProximityUI`
+
+```diff
+
+-  __TEXT.__text: 0x328b0
++  __TEXT.__text: 0x32598
+   __TEXT.__objc_methlist: 0x2010
+   __TEXT.__const: 0x690
+-  __TEXT.__gcc_except_tab: 0x4aa4
++  __TEXT.__gcc_except_tab: 0x4aa0
+   __TEXT.__cstring: 0x1854
+   __TEXT.__oslogstring: 0x3447
+   __TEXT.__unwind_info: 0x11a8
+
+   __AUTH_CONST.__objc_const: 0x4058
+   __AUTH_CONST.__weak_auth_got: 0x28
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x6e0
+   __DATA.__objc_ivar: 0x344
+   __DATA.__data: 0x318
+   __DATA.__bss: 0x48
++  __DATA_DIRTY.__objc_data: 0x6e0
+   - /System/Library/Frameworks/ARKit.framework/ARKit
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 1104
+-  Symbols:   3811
++  Functions: 1103
++  Symbols:   3809
+   CStrings:  658
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__unwind_info : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __DATA.__data : content changed
+Symbols:
+- _OUTLINED_FUNCTION_11
+Functions:
+~ __ZN30RoseSyntheticApertureFiltering34PRRoseSyntheticApertureBatchFilter12reinitFilterEv : 476 -> 468
+~ __ZN30RoseSyntheticApertureFiltering34PRRoseSyntheticApertureBatchFilter14spatialBinningENSt3__16vectorINS_17InternalRangeMeasENS1_9allocatorIS3_EEEE : 1904 -> 1840
+~ __ZN30RoseSyntheticApertureFiltering34PRRoseSyntheticApertureBatchFilter27computeStraightPathSolutionEv : 2980 -> 2976
+~ __ZN30RoseSyntheticApertureFiltering34PRRoseSyntheticApertureBatchFilter14addMeasurementERKNS_16RangeMeasWithVIOE : 7716 -> 7692
+~ __ZN30RoseSyntheticApertureFiltering34PRRoseSyntheticApertureBatchFilter11batchSolverEv : 5632 -> 5648
+~ __ZN30RoseSyntheticApertureFiltering34PRRoseSyntheticApertureBatchFilter17measModelBatchAltERKN8cnmatrix8CNMatrixILj3ELj1EdEES5_RKNSt3__16vectorINS_17InternalRangeMeasENS6_9allocatorIS8_EEEERKNS7_INS_15InternalAoAMeasENS9_ISE_EEEERNS7_INS_25InternalExpectedRangeMeasENS9_ISJ_EEEERNS7_INS_23InternalExpectedAoAMeasENS9_ISN_EEEE : 1916 -> 1908
+~ __ZN30RoseSyntheticApertureFiltering34PRRoseSyntheticApertureBatchFilter25initializeFilterWithGuessERKN8cnmatrix8CNMatrixILj3ELj1EdEERKNSt3__16vectorINS_17InternalRangeMeasENS6_9allocatorIS8_EEEERKNS7_INS_15InternalAoAMeasENS9_ISE_EEEE : 2664 -> 2656
+~ __ZN30RoseSyntheticApertureFiltering34PRRoseSyntheticApertureBatchFilter14generateGNStepERKN8cnmatrix8CNMatrixILj3ELj1EdEERKNSt3__16vectorINS_17InternalRangeMeasENS6_9allocatorIS8_EEEERKNS7_INS_15InternalAoAMeasENS9_ISE_EEEERS3_ : 1576 -> 1564
+~ __ZN30RoseSyntheticApertureFiltering34PRRoseSyntheticApertureBatchFilter14measModelBatchERKN8cnmatrix8CNMatrixILj3ELj1EdEERKNSt3__16vectorINS_17InternalRangeMeasENS6_9allocatorIS8_EEEERKNS7_INS_15InternalAoAMeasENS9_ISE_EEEERNS7_INS_25InternalExpectedRangeMeasENS9_ISJ_EEEERNS7_INS_23InternalExpectedAoAMeasENS9_ISN_EEEE : 1620 -> 1612
+~ __ZNSt3__16vectorIN30RoseSyntheticApertureFiltering17InternalRangeMeasENS_9allocatorIS2_EEE16__destroy_vectorclB9fqe220106Ev : 84 -> 80
+~ __ZNSt3__16vectorIN30RoseSyntheticApertureFiltering15InternalAoAMeasENS_9allocatorIS2_EEE16__destroy_vectorclB9fqe220106Ev : 116 -> 112
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220106INS_9allocatorIN30RoseSyntheticApertureFiltering17InternalRangeMeasEEEPS3_EEvRT_T0_S8_S8_ : 280 -> 220
+~ __ZNSt3__114__split_bufferIN30RoseSyntheticApertureFiltering17InternalRangeMeasERNS_9allocatorIS2_EEED2Ev : 112 -> 108
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220106INS_9allocatorIN30RoseSyntheticApertureFiltering17InternalRangeMeasEEEPS3_S5_S5_EET2_RT_T0_T1_S6_ : 212 -> 176
+~ __ZNSt3__16vectorIN30RoseSyntheticApertureFiltering17InternalRangeMeasENS_9allocatorIS2_EEE13__vdeallocateEv : 116 -> 112
+~ __ZNSt3__16vectorIN30RoseSyntheticApertureFiltering17InternalRangeMeasENS_9allocatorIS2_EEE18__assign_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPS2_S8_EEvT0_T1_l : 516 -> 512
+~ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB9fqe220106IPN30RoseSyntheticApertureFiltering15InternalAoAMeasES6_S6_EENS_4pairIT_T1_EES8_T0_S9_ : 120 -> 116
+~ __ZNSt3__16vectorIN30RoseSyntheticApertureFiltering25InternalExpectedRangeMeasENS_9allocatorIS2_EEE16__destroy_vectorclB9fqe220106Ev : 116 -> 112
+~ __ZNSt3__16vectorIN30RoseSyntheticApertureFiltering23InternalExpectedAoAMeasENS_9allocatorIS2_EEE16__destroy_vectorclB9fqe220106Ev : 116 -> 112
+~ __ZNSt3__114__split_bufferIN30RoseSyntheticApertureFiltering25InternalExpectedRangeMeasERNS_9allocatorIS2_EEED2Ev : 144 -> 140
+~ __ZNSt3__16vectorIN8cnmatrix8CNMatrixILj3ELj1EdEENS_9allocatorIS3_EEE16__destroy_vectorclB9fqe220106Ev : 172 -> 152
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220106INS_9allocatorIN8cnmatrix8CNMatrixILj3ELj1EdEEEEPS4_EEvRT_T0_S9_S9_ : 184 -> 180
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220106INS_9allocatorIN30RoseSyntheticApertureFiltering26FilterInitializationResultEEEPS3_EEvRT_T0_S8_S8_ : 324 -> 320
+~ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN30RoseSyntheticApertureFiltering26FilterInitializationResultEEEPS3_EclB9fqe220106Ev : 176 -> 160
+~ __ZNSt3__114__split_bufferIN30RoseSyntheticApertureFiltering26FilterInitializationResultERNS_9allocatorIS2_EEE17__destruct_at_endB9fqe220106EPS2_ : 172 -> 160
+~ __ZNSt3__16vectorIN30RoseSyntheticApertureFiltering26FilterInitializationResultENS_9allocatorIS2_EEE22__base_destruct_at_endB9fqe220106EPS2_ : 172 -> 160
+~ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB9fqe220106IPN30RoseSyntheticApertureFiltering26FilterInitializationResultES6_S6_EENS_4pairIT_T1_EES8_T0_S9_ : 160 -> 156
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN30RoseSyntheticApertureFiltering34PRRoseSyntheticApertureBatchFilter11batchSolverEvE3$_2PNS2_26FilterInitializationResultELb0EEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEb : 4420 -> 4376
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERZN30RoseSyntheticApertureFiltering34PRRoseSyntheticApertureBatchFilter11batchSolverEvE3$_2PNS2_26FilterInitializationResultEEEbT1_S8_T0_ : 976 -> 928
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN30RoseSyntheticApertureFiltering34PRRoseSyntheticApertureBatchFilter11batchSolverEvE3$_3PNS2_26FilterInitializationResultELb0EEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEb : 4640 -> 4528
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERZN30RoseSyntheticApertureFiltering34PRRoseSyntheticApertureBatchFilter11batchSolverEvE3$_3PNS2_26FilterInitializationResultEEEbT1_S8_T0_ : 928 -> 844
+~ __ZNSt3__16vectorIN30RoseSyntheticApertureFiltering19InternalFilterStateENS_9allocatorIS2_EEE22__base_destruct_at_endB9fqe220106EPS2_ : 204 -> 188
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220106INS_9allocatorIN30RoseSyntheticApertureFiltering19InternalFilterStateEEEPS3_EEvRT_T0_S8_S8_ : 444 -> 424
+~ __ZNSt3__119__allocator_destroyB9fqe220106INS_9allocatorIN30RoseSyntheticApertureFiltering19InternalFilterStateEEEPS3_S5_EEvRT_T0_T1_ : 188 -> 176
+~ __ZNSt3__119__allocator_destroyB9fqe220106INS_9allocatorIN30RoseSyntheticApertureFiltering19InternalFilterStateEEENS_16reverse_iteratorIPS3_EES7_EEvRT_T0_T1_ : 196 -> 176
+~ __ZNSt3__114__split_bufferIN30RoseSyntheticApertureFiltering19InternalFilterStateERNS_9allocatorIS2_EEE17__destruct_at_endB9fqe220106EPS2_ : 204 -> 188
+~ __ZNSt3__114__split_bufferIN30RoseSyntheticApertureFiltering23InternalExpectedAoAMeasERNS_9allocatorIS2_EEED2Ev : 144 -> 140
+~ __ZNSt3__16vectorIN8cnmatrix8CNMatrixILj2ELj1EdEENS_9allocatorIS3_EEE16__destroy_vectorclB9fqe220106Ev : 172 -> 152
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220106INS_9allocatorIN8cnmatrix8CNMatrixILj2ELj1EdEEEEPS4_EEvRT_T0_S9_S9_ : 184 -> 180
+~ __ZNSt3__114__split_bufferIN30RoseSyntheticApertureFiltering15InternalAoAMeasERNS_9allocatorIS2_EEED2Ev : 144 -> 140
+~ _OUTLINED_FUNCTION_7 : 32 -> 36
+- _OUTLINED_FUNCTION_8
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220106INS_9allocatorIN30RoseSyntheticApertureFiltering25InternalExpectedRangeMeasEEEPS3_EEvRT_T0_S8_S8_.cold.1 : 76 -> 80
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220106INS_9allocatorIN8cnmatrix8CNMatrixILj3ELj1EdEEEEPS4_EEvRT_T0_S9_S9_.cold.1 : 92 -> 76
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220106INS_9allocatorIN30RoseSyntheticApertureFiltering23InternalExpectedAoAMeasEEEPS3_EEvRT_T0_S8_S8_.cold.1 : 76 -> 68
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220106INS_9allocatorIN8cnmatrix8CNMatrixILj2ELj1EdEEEEPS4_EEvRT_T0_S9_S9_.cold.1 : 92 -> 76
+
+```

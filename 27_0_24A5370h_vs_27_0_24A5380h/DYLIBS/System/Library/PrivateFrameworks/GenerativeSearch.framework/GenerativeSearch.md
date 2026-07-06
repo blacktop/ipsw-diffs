@@ -1,0 +1,1462 @@
+## GenerativeSearch
+
+> `/System/Library/PrivateFrameworks/GenerativeSearch.framework/GenerativeSearch`
+
+```diff
+
+-  __TEXT.__text: 0x46df28
+-  __TEXT.__objc_methlist: 0x3f4
+-  __TEXT.__cstring: 0x6d23
+-  __TEXT.__swift5_typeref: 0x10afe
+-  __TEXT.__const: 0x4f920
+-  __TEXT.__constg_swiftt: 0xbf74
+-  __TEXT.__swift5_builtin: 0x30c
+-  __TEXT.__swift5_reflstr: 0x13494
+-  __TEXT.__swift5_fieldmd: 0x16e04
+-  __TEXT.__swift5_assocty: 0x5ba0
+-  __TEXT.__swift5_proto: 0x4778
+-  __TEXT.__swift5_types: 0x1364
+-  __TEXT.__oslogstring: 0x1b0e
+-  __TEXT.__swift_as_entry: 0x62c
+-  __TEXT.__swift_as_ret: 0x5e8
+-  __TEXT.__swift_as_cont: 0xa38
+-  __TEXT.__swift5_protos: 0x74
+-  __TEXT.__swift5_mpenum: 0x1bc
+-  __TEXT.__swift5_capture: 0x444c
+-  __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x13110
+-  __TEXT.__eh_frame: 0x1a088
+-  __TEXT.__objc_stubs: 0x0
+-  __TEXT.__auth_stubs: 0x0
+-  __TEXT.__objc_classname: 0x0
+-  __TEXT.__objc_methname: 0x0
+-  __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x160
+-  __DATA_CONST.__objc_classlist: 0xb0
+-  __DATA_CONST.__objc_catlist: 0x50
+-  __DATA_CONST.__objc_protolist: 0x70
++  __TEXT.__text: 0x0
++  __TEXT.__const: 0x2
++  __DATA_CONST.__const: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x528
+-  __DATA_CONST.__objc_protorefs: 0x48
+-  __DATA_CONST.__got: 0x630
+-  __AUTH_CONST.__const: 0x3eb08
+-  __AUTH_CONST.__objc_const: 0x1cb0
+-  __AUTH_CONST.__auth_got: 0x1560
+-  __AUTH.__objc_data: 0xf0
+-  __AUTH.__data: 0x7950
+-  __DATA.__data: 0xb0f8
+-  __DATA.__bss: 0x671a0
+-  __DATA.__common: 0xe8
+-  __DATA_DIRTY.__data: 0x9040
+-  __DATA_DIRTY.__bss: 0x22500
+-  __DATA_DIRTY.__common: 0x8
+-  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/Security.framework/Security
+-  - /System/Library/PrivateFrameworks/BiomeFoundation.framework/BiomeFoundation
+-  - /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
+-  - /System/Library/PrivateFrameworks/CascadeSets.framework/CascadeSets
+-  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+-  - /System/Library/PrivateFrameworks/GRDBInternal.framework/GRDBInternal
+-  - /System/Library/PrivateFrameworks/HybridDatabaseTokenizer.framework/HybridDatabaseTokenizer
+-  - /System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/IntelligencePlatformLibrary
+-  - /System/Library/PrivateFrameworks/IntelligencePlatformQuery.framework/IntelligencePlatformQuery
+-  - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+-  - /System/Library/PrivateFrameworks/ProactiveDaemonSupport.framework/ProactiveDaemonSupport
+-  - /usr/lib/libMobileGestalt.dylib
++  - /System/Library/PrivateFrameworks/HybridSearch.framework/HybridSearch
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/libsqlite3.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftSynchronization.dylib
+-  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 33194
+-  Symbols:   279
+-  CStrings:  1095
++  Functions: 0
++  Symbols:   7
++  CStrings:  0
+ 
+Symbols:
+- _BMUseCaseNotApplicable
+- _CCItemErrorDomain
+- _CCSetDescriptorKeySourceIdentifier
+- _MobileGestalt_get_current_device
+- _MobileGestalt_get_deviceSupportsGenerativeModelSystems
+- _NSLocalizedDescriptionKey
+- _OBJC_CLASS_$_CCCachedDocumentUtilities
+- _OBJC_CLASS_$_CCGenerativeInsightMetaContent
+- _OBJC_CLASS_$_CCGenerativeLearningPlatformProvenance
+- _OBJC_CLASS_$_CCGenerativeLearningPlatformSummarizationRecordMetaContent
+- _OBJC_CLASS_$_CCItemMessage
+- _OBJC_CLASS_$_CCSet
+- _OBJC_CLASS_$_CCSetDescriptor
+- _OBJC_CLASS_$_CCTextUnderstandingContactMetaContent
+- _OBJC_CLASS_$_CCTextUnderstandingDeliveryTrackingMetaContent
+- _OBJC_CLASS_$_CCTextUnderstandingEventMetaContent
+- _OBJC_CLASS_$_CCTextUnderstandingFlightMetaContent
+- _OBJC_CLASS_$_CCTextUnderstandingHotelReservationMetaContent
+- _OBJC_CLASS_$_CCTextUnderstandingIdentificationDocumentMetaContent
+- _OBJC_CLASS_$_CCTextUnderstandingLocationMetaContent
+- _OBJC_CLASS_$_CCTextUnderstandingRestaurantReservationMetaContent
+- _OBJC_CLASS_$_CCTypeIdentifierRegistry
+- _OBJC_CLASS_$_CSCustomAttributeKey
+- _OBJC_CLASS_$_CSSearchQuery
+- _OBJC_CLASS_$_CSSearchQueryContext
+- _OBJC_CLASS_$_CSSearchableItem
+- _OBJC_CLASS_$_NSDateFormatter
+- _OBJC_CLASS_$_NSError
+- _OBJC_CLASS_$_NSFileHandle
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSISO8601DateFormatter
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSProcessInfo
+- _OBJC_CLASS_$_NSPurgeableData
+- _OBJC_CLASS_$_NSRegularExpression
+- _OBJC_CLASS_$_NSUserDefaults
+- _OBJC_CLASS_$_NSXPCConnection
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- _SecTaskCopyValueForEntitlement
+- _SecTaskCreateFromSelf
+- __Block_copy
+- __Block_release
+- __NSConcreteStackBlock
+- ___chkstk_darwin
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __exit
+- __objc_autoreleasePoolPop
+- __objc_autoreleasePoolPush
+- __objc_empty_cache
+- __os_activity_create
+- __os_log_impl
+- __os_signpost_emit_with_name_impl
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftEmptySetSingleton
+- __swiftImmortalRefCount
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
+- __swift_isClassOrObjCExistentialType
+- __swift_stdlib_bridgeErrorToNSError
+- _bzero
+- _dlsym
+- _free
+- _malloc_size
+- _memcmp
+- _memcpy
+- _memmove
+- _notify_cancel
+- _notify_get_state
+- _notify_register_dispatch
+- _objc_allocWithZone
+- _objc_autorelease
+- _objc_autoreleaseReturnValue
+- _objc_msgSend
+- _objc_opt_self
+- _objc_release
+- _objc_release_x19
+- _objc_release_x20
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_release_x8
+- _objc_retain
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x28
+- _objc_retain_x3
+- _objc_retain_x8
+- _os_activity_scope_enter
+- _os_activity_scope_leave
+- _os_log_type_enabled
+- _os_unfair_lock_lock
+- _os_unfair_lock_unlock
+- _os_variant_has_internal_diagnostics
+- _sqlite3_bind_int
+- _sqlite3_bind_text
+- _sqlite3_close
+- _sqlite3_column_int
+- _sqlite3_column_text
+- _sqlite3_errmsg
+- _sqlite3_exec
+- _sqlite3_finalize
+- _sqlite3_free
+- _sqlite3_open
+- _sqlite3_prepare_v2
+- _sqlite3_reset
+- _sqlite3_result_blob
+- _sqlite3_result_double
+- _sqlite3_result_int64
+- _sqlite3_result_null
+- _sqlite3_result_text
+- _sqlite3_step
+- _sqlite3_value_blob
+- _sqlite3_value_bytes
+- _sqlite3_value_double
+- _sqlite3_value_int64
+- _sqlite3_value_text
+- _swift_allocBox
+- _swift_allocError
+- _swift_allocObject
+- _swift_allocateGenericClassMetadata
+- _swift_arrayDestroy
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_beginAccess
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain
+- _swift_bridgeObjectRetain_n
+- _swift_checkMetadataState
+- _swift_conformsToProtocol2
+- _swift_continuation_await
+- _swift_continuation_init
+- _swift_coroFrameAlloc
+- _swift_cvw_allocateGenericValueMetadataWithLayoutString
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_enumFn_getEnumTag
+- _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
+- _swift_cvw_initEnumMetadataSingleCaseWithLayoutString
+- _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
+- _swift_cvw_initStructMetadataWithLayoutString
+- _swift_cvw_initWithCopy
+- _swift_cvw_initWithTake
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_cvw_instantiateLayoutString
+- _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_multiPayloadEnumGeneric_getEnumTag
+- _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_singlePayloadEnumGeneric_getEnumTag
+- _swift_deallocBox
+- _swift_deallocClassInstance
+- _swift_deallocObject
+- _swift_deallocPartialClassInstance
+- _swift_deallocUninitializedObject
+- _swift_defaultActor_deallocate
+- _swift_defaultActor_destroy
+- _swift_defaultActor_initialize
+- _swift_deletedAsyncMethodErrorTu
+- _swift_deletedMethodError
+- _swift_dynamicCast
+- _swift_dynamicCastClass
+- _swift_dynamicCastMetatype
+- _swift_dynamicCastObjCProtocolConditional
+- _swift_endAccess
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_getAtKeyPath
+- _swift_getEnumCaseMultiPayload
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getErrorValue
+- _swift_getExtendedExistentialTypeMetadata
+- _swift_getForeignTypeMetadata
+- _swift_getGenericMetadata
+- _swift_getKeyPath
+- _swift_getMetatypeMetadata
+- _swift_getObjCClassFromMetadata
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_getSingletonMetadata
+- _swift_getTupleTypeMetadata
+- _swift_getTupleTypeMetadata2
+- _swift_getTupleTypeMetadata3
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_initClassMetadata2
+- _swift_initStackObject
+- _swift_initStructMetadata
+- _swift_isClassType
+- _swift_isUniquelyReferenced_nonNull_bridgeObject
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_lookUpClassMethod
+- _swift_makeBoxUnique
+- _swift_once
+- _swift_projectBox
+- _swift_release
+- _swift_release_n
+- _swift_release_x1
+- _swift_release_x15
+- _swift_release_x19
+- _swift_release_x20
+- _swift_release_x21
+- _swift_release_x22
+- _swift_release_x23
+- _swift_release_x24
+- _swift_release_x25
+- _swift_release_x26
+- _swift_release_x27
+- _swift_release_x28
+- _swift_release_x8
+- _swift_retain
+- _swift_retain_n
+- _swift_retain_x12
+- _swift_retain_x19
+- _swift_retain_x2
+- _swift_retain_x20
+- _swift_retain_x21
+- _swift_retain_x22
+- _swift_retain_x23
+- _swift_retain_x24
+- _swift_retain_x25
+- _swift_retain_x26
+- _swift_retain_x27
+- _swift_retain_x28
+- _swift_retain_x8
+- _swift_runtimeSupportsNoncopyableTypes
+- _swift_setDeallocating
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_storeEnumTagMultiPayload
+- _swift_storeEnumTagSinglePayloadGeneric
+- _swift_task_addCancellationHandler
+- _swift_task_addPriorityEscalationHandler
+- _swift_task_alloc
+- _swift_task_create
+- _swift_task_dealloc
+- _swift_task_future_wait_throwing
+- _swift_task_localValueGet
+- _swift_task_removeCancellationHandler
+- _swift_task_removePriorityEscalationHandler
+- _swift_task_switch
+- _swift_unexpectedError
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRetain
+- _swift_unownedRelease
+- _swift_unownedRetain
+- _swift_unownedRetainStrong
+- _swift_updateClassMetadata2
+- _swift_weakAssign
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _swift_willThrow
+- _swift_willThrowTypedImpl
+CStrings:
+- "    Fitness+ Session: "
+- "    Motion Distance: "
+- "    Organizers: "
+- "    Place Name: "
+- "    Source IDs: "
+- "    Step Count: "
+- "  Birthday Person: "
+- "  Photo Traits: "
+- " ARRAY_CONTAINS "
+- " ARRAY_STRING_REGEX '"
+- " ARRAY_STRING_REGEX '<redacted("
+- " CONTAINS '<redacted("
+- " Recurring event"
+- " Relationships: "
+- " Scheduled for: "
+- " Virtual location: "
+- " exceeds maximum allowed depth "
+- " is missing RecordType mapping"
+- " is not a valid record name."
+- " is not currently supported as a provenance source"
+- " tokens, which exceeds the context length of "
+- "%{public}s cancelling request %{public}s"
+- "%{public}s sending request %{public}s"
+- "' does not conform to SpotlightSearchableRecord"
+- "' does not have permission to search "
+- "' is not registered for GenerativeSearch"
+- "' not allowed to search '"
+- "(?: [^;]*)?|\\S+ "
+- "(?: [^;]*)?|\\S+ [^;]*"
+- "(?i)^(?:[^;]*; )*(?:"
+- "(?i)^(?:[^;]*; )*(?:\\S*"
+- "(?i)^(?:[^;]*; )*(?:\\S+ )?"
+- ") is not supported for SpotlightSearchProvider"
+- ") must be less than available space per chunk ("
+- "--- Environment ---"
+- "--- Event Significance ---"
+- "--- Extra Metadata ---"
+- "--- Health Metrics ---"
+- "--- Sentiment ---"
+- "--- Social Context ---"
+- "--- Time Metadata ---"
+- "----\\(.*?\\)----.*?---===---"
+- ". Cannot decode record for summary, explicitMemory, or insight types."
+- ". Record is required but was nil."
+- "=== Sensed Context Augmented Event ==="
+- "=== Sensed Context Event ==="
+- "============================="
+- "ALTER TABLE curr RENAME TO prev"
+- "AdminClient.dropIndex(reason:)"
+- "AdminClient.indexSize()"
+- "AdminClient.taskRecords"
+- "AdminClient.triggerCorruptionHandler()"
+- "AdminClientError.taskFailed("
+- "AdminClientError.taskNotFound"
+- "Airport Terminal"
+- "AllAppEntityIngestion"
+- "At least one search parameter or filter must be provided"
+- "AttributePredicateError: Complex predicate not supported: "
+- "AttributePredicateError: Unsupported attribute type: "
+- "AttributePredicateError: Unsupported operation: "
+- "Automotive Repair"
+- "BodyKeyword"
+- "CREATE TABLE curr(id TEXT PRIMARY KEY, idx INTEGER) WITHOUT ROWID"
+- "CREATE TABLE prev(id TEXT PRIMARY KEY) WITHOUT ROWID"
+- "CSSearchQuery execution"
+- "CacheDelete level "
+- "CacheDelete relinquish"
+- "Cannot create base directory at %s. Error: %@"
+- "Cannot resolve library directory."
+- "Cannot service predicates with recursion depth > %ld"
+- "ClassABIndexing"
+- "CoalescingLiveQueryTrigger cancelled during cooldown"
+- "CoalescingLiveQueryTrigger coalesced stream ended"
+- "CoalescingLiveQueryTrigger started with cooldown %{public}s"
+- "CoalescingLiveQueryTrigger terminated"
+- "CoalescingLiveQueryTrigger wrapped stream ended"
+- "CoalescingLiveQueryTrigger yielding event"
+- "Confidence Score: "
+- "Content type must have internal mapping conformance to be counted"
+- "Content type must have internal mapping conformance to be retrievable"
+- "Content type must have internal mapping conformance to be scanned"
+- "Content type must have internal mapping conformance to be searchable"
+- "Content type must have internal mapping conformance to count all"
+- "Content type must have internal mapping conformance to count embeddings"
+- "Convention Center"
+- "Daemon did not exit after restart request"
+- "DarwinNotificationStream failed to get value from notify_get_state for %{public}s: %{public}u"
+- "DarwinNotificationStream failed to register for darwin notification %{public}s: %{public}u"
+- "DarwinNotificationTrigger received notification '%{public}s'"
+- "DarwinNotificationTrigger registering for '%{public}s'"
+- "DarwinNotificationTrigger stream ended for '%{public}s'"
+- "DarwinNotificationTrigger terminated for '%{public}s'"
+- "DateSuggestion"
+- "Delete Spotlight"
+- "Delete Spotlight Index"
+- "DocumentCacheRetriever: Cache miss while retrieving document from cache. Reason: %@"
+- "DocumentCacheRetriever: Failed to retrieve item: %s, error: %@"
+- "DocumentProcessingTest"
+- "DomainRRFConfiguration<"
+- "Duplicate values for key: '"
+- "DynamicStartupTaskRecord(id: "
+- "EducationInsight"
+- "EmbeddingClient.createEmbeddings(for:)"
+- "EmbeddingClient.deleteEmbeddingsWithResults(for:)"
+- "EmbeddingClient.prewarm()"
+- "EmbeddingClient.rebind: %{public}s → %{public}s"
+- "EmbeddingClient.tearDown()"
+- "EmbeddingClient.updateEmbeddings(byReference:)"
+- "EmbeddingClient.updateEmbeddingsWithResults(_:)"
+- "EmbeddingClient: %s by internal override"
+- "EmbeddingClient: Not ready since Generative Search feature flags are disabled"
+- "EmbeddingClient: Not ready since device doesn't support Apple Intelligence"
+- "EmbeddingClient: Ready"
+- "EmbeddingClient: Using model version %hu (internal override)"
+- "EmploymentInsight"
+- "Entitlement does not include use-case '"
+- "Executing query via spotlight search %s"
+- "Exiting with reason: %{public}d"
+- "FTS_NOT_CONTAINS("
+- "Failed to cast record to "
+- "Failed to cast record to expected type "
+- "Failed to create SecTask to check process entitlements"
+- "Failed to create UserDefaults for GenerativeSearch"
+- "Failed to create os_activity"
+- "Failed to determine connection"
+- "Failed to extract value for attribute "
+- "Failed to reconstruct record from Spotlight item: "
+- "Failed to register %{public}s task: %@"
+- "Failed to retrieve entitlement '"
+- "Fatal error"
+- "FeatureEnablementTracker.ready.mail"
+- "FeatureEnablementTracker.reason.mail"
+- "FeatureEnablementTracker.timestamp.mail"
+- "Found %{public}ld items from spotlight search"
+- "Foundation._GenericObjCError"
+- "FrequentLocation"
+- "GEOPOICategoryATM"
+- "GEOPOICategoryAirport"
+- "GEOPOICategoryAirportGate"
+- "GEOPOICategoryAirportTerminal"
+- "GEOPOICategoryAmusementPark"
+- "GEOPOICategoryAnimalService"
+- "GEOPOICategoryAquarium"
+- "GEOPOICategoryAutomotiveRepair"
+- "GEOPOICategoryBakery"
+- "GEOPOICategoryBank"
+- "GEOPOICategoryBaseball"
+- "GEOPOICategoryBasketball"
+- "GEOPOICategoryBeach"
+- "GEOPOICategoryBeauty"
+- "GEOPOICategoryBowling"
+- "GEOPOICategoryBrewery"
+- "GEOPOICategoryCafe"
+- "GEOPOICategoryCampground"
+- "GEOPOICategoryCarRental"
+- "GEOPOICategoryCastle"
+- "GEOPOICategoryConventionCenter"
+- "GEOPOICategoryDistillery"
+- "GEOPOICategoryEVCharger"
+- "GEOPOICategoryFairground"
+- "GEOPOICategoryFireStation"
+- "GEOPOICategoryFishing"
+- "GEOPOICategoryFitnessCenter"
+- "GEOPOICategoryFoodMarket"
+- "GEOPOICategoryFortress"
+- "GEOPOICategoryGasStation"
+- "GEOPOICategoryGoKart"
+- "GEOPOICategoryGolf"
+- "GEOPOICategoryHiking"
+- "GEOPOICategoryHospital"
+- "GEOPOICategoryHotel"
+- "GEOPOICategoryKayaking"
+- "GEOPOICategoryLandmark"
+- "GEOPOICategoryLaundry"
+- "GEOPOICategoryLibrary"
+- "GEOPOICategoryMailbox"
+- "GEOPOICategoryMarina"
+- "GEOPOICategoryMiniGolf"
+- "GEOPOICategoryMovieTheater"
+- "GEOPOICategoryMuseum"
+- "GEOPOICategoryMusicVenue"
+- "GEOPOICategoryNationalMonument"
+- "GEOPOICategoryNationalPark"
+- "GEOPOICategoryNightlife"
+- "GEOPOICategoryPark"
+- "GEOPOICategoryParking"
+- "GEOPOICategoryPharmacy"
+- "GEOPOICategoryPlanetarium"
+- "GEOPOICategoryPlayground"
+- "GEOPOICategoryPolice"
+- "GEOPOICategoryPostOffice"
+- "GEOPOICategoryPublicTransport"
+- "GEOPOICategoryRVPark"
+- "GEOPOICategoryReligiousSite"
+- "GEOPOICategoryRestaurant"
+- "GEOPOICategoryRestroom"
+- "GEOPOICategoryRockClimbing"
+- "GEOPOICategorySchool"
+- "GEOPOICategorySkatePark"
+- "GEOPOICategorySkating"
+- "GEOPOICategorySkiing"
+- "GEOPOICategorySoccer"
+- "GEOPOICategorySpa"
+- "GEOPOICategoryStadium"
+- "GEOPOICategoryStore"
+- "GEOPOICategorySurfing"
+- "GEOPOICategorySwimming"
+- "GEOPOICategoryTennis"
+- "GEOPOICategoryTheater"
+- "GEOPOICategoryUniversity"
+- "GEOPOICategoryVolleyball"
+- "GEOPOICategoryWinery"
+- "GEOPOICategoryZoo"
+- "GenerativeLearningPlatform"
+- "GenerativeSearch/CalendarContent.swift"
+- "GenerativeSearch/ProvenanceTracking+Conformance.swift"
+- "GenerativeSearch/ProvenanceTracking.swift"
+- "GenerativeSearch/SearchResult.swift"
+- "GenerativeSearch/Task+Deadline.swift"
+- "GenerativeSearch/UserDefaults.swift"
+- "GenerativeSearch/_OSActivity.swift"
+- "GenerativeSearchError: Donation failed: "
+- "GenerativeSearchError: Search failed: "
+- "GenerativeSearchError: Vector database error: "
+- "Hybrid search type missing keyword or semantic config"
+- "HybridSearchVirtualTable: Invalid ORDER BY column index %ld, skipping"
+- "HybridSearchVirtualTable: No ORDER BY specified, using identifier ASC for stable pagination"
+- "HybridSearchVirtualTable: constraint not usable, skipping"
+- "HybridSearchVirtualTable: failed to extract value, skipping"
+- "HybridSearchVirtualTable: invalid query, skipping"
+- "HybridSearchVirtualTable: limit provided %{public}ld"
+- "HybridSearchVirtualTable: no result to process"
+- "HybridSearchVirtualTable: offset provided %{public}ld"
+- "HybridSearchVirtualTable: operator %hhu not usable, skipping"
+- "HybridSearchVirtualTable: textArray type not supported in SQLite queries"
+- "INSERT INTO curr(id, idx) VALUES(?, ?)"
+- "INSERT INTO prev(id) VALUES(?)"
+- "IdentityCardInsight"
+- "Ignoring index(items:) request, feature flag is disabled"
+- "Ignoring prewarm() request, feature flag is disabled"
+- "Ignoring tearDown() request, feature flag is disabled"
+- "InAppGenerativeSearch"
+- "InMemoryDiffer diff: %{public}ld new results, %{public}ld additions, %{public}ld removals"
+- "InMemoryDiffer initialized with %{public}ld results"
+- "InMemoryDiffer.diff"
+- "InMemoryDiffer.setInitialResults"
+- "IndexingClient.index(items:)"
+- "IndexingClient.prewarm()"
+- "IndexingClient.sendCancelRequest"
+- "IndexingClient.sendCancelRequest. Error: %{public}@"
+- "IndexingClient.tearDown()"
+- "IndexingClientError.featureDisabled"
+- "InitializeDiffer"
+- "InternalSearchClient.checkEmbeddingModelEnabled"
+- "InternalSearchClient.cooldown"
+- "InternalSearchClient.dump(ofType:)"
+- "InternalSearchClient.prewarm"
+- "InternalSearchClient.scan(ofType:)"
+- "InternalSearchClient.scanSync(ofType:)"
+- "InternalSearchClient.sendCancelRequest. Error: %{public}@"
+- "Invalid entitlement format"
+- "Invalid entitlement format for use-case '"
+- "Invalid number of keys found, expected one."
+- "Invalid record type: "
+- "Invalid search parameters: "
+- "Invalid type for Spotlight attribute '"
+- "Keyword search type missing keyword config"
+- "Kickoff Calendar donation"
+- "Kickoff Contacts donation"
+- "Kickoff Locations ingestion"
+- "Kickoff Mail donation"
+- "Kickoff Messages donation"
+- "Kickoff Notes donation"
+- "Kickoff Reminders donation"
+- "Kickoff Siri transcript donation"
+- "LRUCache: Unable to get LRU node or key."
+- "LiveQuery awaiting next trigger"
+- "LiveQuery diff complete: %ld additions, %ld removals"
+- "LiveQuery initial retrieval returned %ld results"
+- "LiveQuery initializing differ (%ld results)"
+- "LiveQuery starting initial retrieval"
+- "LiveQuery trigger fired, performing retrieval"
+- "LiveQuery trigger stream ended, finishing delta stream"
+- "LiveQuery.start"
+- "Location (%.4f, %.4f)"
+- "MMM d, yyyy 'at' h:mma"
+- "MMMM d, yyyy 'at' h:mm a"
+- "Mail"
+- "MailIndexing"
+- "MailIndexingMac"
+- "MailIndexingVision"
+- "MailSearchClient.retrieval"
+- "MailSearchHistory"
+- "MergedLiveQueryTrigger all children ended"
+- "MergedLiveQueryTrigger child[%{public}s] ended"
+- "MergedLiveQueryTrigger child[%{public}s] fired"
+- "MergedLiveQueryTrigger started with %ld children"
+- "MergedLiveQueryTrigger terminated"
+- "Missing entitlement 'com.apple.private.intelligenceplatform.use-cases'"
+- "Missing record for entity type: "
+- "Missing required Spotlight attribute: "
+- "MultiPersona"
+- "National Monument"
+- "No Spotlight attribute mapping for: "
+- "No room for dynamic text after fixed text"
+- "ObservationIndexing"
+- "OrganizationInsight"
+- "PRAGMA journal_mode=OFF"
+- "PRAGMA locking_mode=EXCLUSIVE"
+- "PRAGMA page_size=16384"
+- "PRAGMA synchronous=OFF"
+- "PeopleSuggestionFull"
+- "PeopleSuggestionSimple"
+- "PersonalizationDonation"
+- "PhoneNumberInsight"
+- "Photos is not currently supported as a provenance source"
+- "Place of birth: "
+- "PlatformDaemons"
+- "Postal address: "
+- "Predicate tree depth "
+- "Provenance"
+- "Public Transport"
+- "QueryLogRedactionDisabled"
+- "RRFConfiguration("
+- "Registered %{public}s task: %s"
+- "RelationshipInsight"
+- "RemoteWritingAssistantProfile"
+- "RoutineHabitInsight"
+- "SELECT c.idx FROM curr c WHERE c.id NOT IN (SELECT id FROM prev)"
+- "SELECT p.id FROM prev p WHERE p.id NOT IN (SELECT id FROM curr)"
+- "SQLiteDiffer diff failed: %{public}@"
+- "SQLiteDiffer diff: %{public}ld new results, %{public}ld additions, %{public}ld removals"
+- "SQLiteDiffer failed to open in-memory database, code: %{public}d"
+- "SQLiteDiffer opened in-memory database"
+- "SQLiteDiffer setting initial results: %{public}ld identifiers"
+- "SQLiteDiffer.diff"
+- "SQLiteDiffer.setInitialResults"
+- "Search operation failed: "
+- "SearchClient.count(ofType:predicate:)"
+- "SearchClient.count(predicate:)"
+- "SearchClient.countAll(ofType:predicate:)"
+- "SearchClient.countEmbeddings(ofType:predicate:)"
+- "SearchClient.countEmbeddings(predicate:)"
+- "SearchClient.retrieve(ofType:searchTerms:predicate:)"
+- "SearchClient.search(ofType:query:searchTerms:predicate:limit:orderBy:)"
+- "SearchClient.search(query:predicate:limit:orderBy:)"
+- "SearchClient.sendCancelRequest"
+- "SearchHistory"
+- "SearchIngestionClient.countByDisplayIdentifier()"
+- "SearchIngestionClient.forceBackfill"
+- "SearchIngestionClient.listStores"
+- "SearchIngestionClient.processingStatus"
+- "SearchIngestionClient.sendCancelRequest"
+- "SearchIngestionClient.vacuum"
+- "SearchIngestionClient.vacuumStatus"
+- "SearchTermSpecification"
+- "Semantic search type missing semantic config"
+- "SensedContextAugmentedEvent"
+- "SensedContextEvent"
+- "SensedContextPattern"
+- "SensedContextPerson"
+- "SensedContextPlace"
+- "SiriTranscriptConversation"
+- "SocialActivityInsight"
+- "Source Event ID: "
+- "Spotlight does not support operation: "
+- "Spotlight does not support predicate operation: "
+- "Spotlight query execution failed: "
+- "SpotlightAutomationTesterEntityIngestion"
+- "SpotlightKnowledge"
+- "SpotlightKnowledgeDaemon"
+- "SpotlightKnowledgePipelineGLPEmbeddings"
+- "SpotlightKnowledgePipelineGLPIndexing"
+- "SpotlightQueryExecutor CSSearchQuery complete %{public}s. Total items: %{public}ld. Request: %{public}s"
+- "SpotlightQueryExecutor CSSearchQuery failed. Request: %{public}s. Error: %{public}s"
+- "SpotlightQueryExecutor starting CSSearchQuery. Request: %{public}s"
+- "SpotlightSearch"
+- "SpotlightSearch complete for %{public}s %{public}s. Found %{public}ld items. Request: %{public}s"
+- "SpotlightSearch entitlement validated for %{public}s. Request: %{public}s"
+- "SpotlightSearch entitlement validation failed for %{public}s. Request: %{public}s. Error: %{public}s"
+- "SpotlightSearch started for %{public}s. Request: %{public}s"
+- "SpotlightSearch validation failed for %{public}s. Request: %{public}s"
+- "SpotlightSearchProvider converted %{public}ld SearchResults. Request: %{public}s"
+- "SpotlightSearchProvider delegating to query executor. Request: %{public}s"
+- "SpotlightSearchProvider fetch attributes: %{public}s. Request: %{public}s"
+- "SpotlightSearchProvider query string: %{public}s. Request: %{public}s"
+- "StructuredExtractionInsight"
+- "SubjectKeyword"
+- "Swift.CancellationError"
+- "Swift/NativeDictionary.swift"
+- "Task %{public}s completed successfully"
+- "Task %{public}s failed: %{public}s"
+- "Task %{public}s not found after restart"
+- "Task still pending after daemon restart"
+- "TextUnderstandingDeliveryTracking"
+- "TextUnderstandingEvent"
+- "TextUnderstandingFlight"
+- "TextUnderstandingHotelReservation"
+- "TextUnderstandingIdentificationDocument"
+- "TextUnderstandingRestaurantReservation"
+- "The predicate tree is too deeply nested. Use balancedAnd/balancedOr to combine predicates."
+- "The provided search parameters are invalid or incomplete."
+- "The search operation encountered an error. Check the underlying error for details."
+- "The use case does not have the required permissions. Check your use case configuration."
+- "The use case identifier has not been registered with GenerativeSearch. Contact the GenerativeSearch team to register your use case."
+- "This operation is not currently supported."
+- "Token count failed: "
+- "TokenAwareChunker: Falling back to UTF-8 chunking: %{public}@"
+- "Unable to get current connection"
+- "Unknown Spotlight content type: "
+- "Unknown provenance source"
+- "UnknownEntityType"
+- "Unsupported operation: "
+- "Use case identifier '"
+- "UserActivityInsight"
+- "Vacuum completed"
+- "Vacuum in progress"
+- "Virtual location: "
+- "WritingAssistantProfile"
+- "XCTestConfigurationFilePath"
+- "[Error] Interval already ended"
+- "\\[Webex Meeting\\].*?(?=\\n\\n|\\Z)"
+- "_createProjectedGraph"
+- "_dropProjectedGraph"
+- "_filterOnlyRetrieve"
+- "_filterOnlySearch"
+- "_ftsRetrieve"
+- "_ftsSearch"
+- "_hybridRetrieve"
+- "_hybridSearch"
+- "_kMDItemAppEntityTypeIdentifier"
+- "_kMDItemAppEntityTypeIdentifier == NoteEntity"
+- "_kMDItemBundleID"
+- "_os_activity_current"
+- "_vectorRetrieve"
+- "_vectorSearch"
+- "accepted"
+- "accountID"
+- "accountIdentifier"
+- "acquireConnection"
+- "actionType"
+- "actionTypes"
+- "activities"
+- "activityType"
+- "address"
+- "addressInsight"
+- "administrativeArea"
+- "alternateContactIdentifiers"
+- "alternateDisplayNames"
+- "alternateEmailAddresses"
+- "api"
+- "appEntityIdentifier"
+- "appEntityReferences"
+- "application/gzip"
+- "application/json"
+- "application/msword"
+- "application/pdf"
+- "application/pkcs7-signature"
+- "application/rtf"
+- "application/vnd.ms-excel"
+- "application/vnd.ms-powerpoint"
+- "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+- "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+- "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+- "application/x-7z-compressed"
+- "application/x-rar-compressed"
+- "application/xml"
+- "application/zip"
+- "areaInSquareMeters"
+- "arrayStringRegex"
+- "arrivalAirportAddress"
+- "arrivalAirportCity"
+- "arrivalAirportCode"
+- "arrivalAirportCountry"
+- "arrivalAirportGate"
+- "arrivalAirportInternationalNames"
+- "arrivalAirportName"
+- "arrivalAirportRegion"
+- "arrivalAirportStreet"
+- "attachmentNames"
+- "attachmentNamesText"
+- "attachments"
+- "attribute_name"
+- "audio/aac"
+- "audio/mp4"
+- "audio/mpeg"
+- "audio/wav"
+- "avg"
+- "backupPlaceInfos"
+- "bcc"
+- "birthday"
+- "birthdayPersonContactIdentifier"
+- "birthdayPersonPhotoLocalIdentifier"
+- "blindCarbonCopy"
+- "blue"
+- "boardingDateTime"
+- "body"
+- "boost"
+- "bundleID"
+- "bundleId"
+- "bundleIdentifier"
+- "businessCard"
+- "businessCategory"
+- "busy"
+- "calDAV"
+- "calendar"
+- "calendarAttributes"
+- "calendarType"
+- "canceled"
+- "carbonCopy"
+- "cardCategory"
+- "cardNumber"
+- "cardProvider"
+- "cardRestrictions"
+- "cardType"
+- "carrier"
+- "carrierCode"
+- "carrierName"
+- "category"
+- "cc"
+- "chunkIndexContent"
+- "city"
+- "com.apple.GenerativeSearch"
+- "com.apple.HybridSearch"
+- "com.apple.email.SearchIndexer"
+- "com.apple.generativelearningapp"
+- "com.apple.generativelearningplatform"
+- "com.apple.generativesearch"
+- "com.apple.generativesearch.enablement.changed"
+- "com.apple.generativesearch.gstool"
+- "com.apple.generativesearch.ingestion.completed"
+- "com.apple.generativesearch.ingestion.completed.backfill."
+- "com.apple.generativesearch.ingestion.completed.priority."
+- "com.apple.generativesearch.internal"
+- "com.apple.generativesearch.server.indexing"
+- "com.apple.generativesearch.server.search"
+- "com.apple.hybridsearch.embedding-pipeline-version-changed"
+- "com.apple.hybridsearch.index-version-changed"
+- "com.apple.mobilemail"
+- "com.apple.private.generativesearch.client.index"
+- "com.apple.private.generativesearch.client.search"
+- "com.apple.private.intelligenceplatform.use-cases"
+- "com.apple.vectordb"
+- "completed"
+- "confidence"
+- "confidenceScore"
+- "confidential"
+- "confirmationNumber"
+- "confirmed"
+- "conjunctive"
+- "contact"
+- "contactIdentifier"
+- "contactPersonNames"
+- "contacts"
+- "containsCorrection"
+- "containsPrefixExpansion"
+- "contentType"
+- "contentURL"
+- "content_creation_date"
+- "context"
+- "contractionUsage"
+- "conversationIdentifier"
+- "cosineDistanceThreshold"
+- "cosineThreshold: "
+- "count"
+- "countAll: predicate: %{public}s | sensitive: %{sensitive}s"
+- "country"
+- "createdTimestamp"
+- "customerAddresses"
+- "customerNames"
+- "date(descending)"
+- "dateAscending"
+- "dateBiasWeight=default"
+- "dateDescending"
+- "dateLastViewed"
+- "dateReceived"
+- "dateSent"
+- "day"
+- "dayOfWeek"
+- "declined"
+- "degree"
+- "delegated"
+- "deleteSpotlightIndex"
+- "departureAirport"
+- "departureAirportAddress"
+- "departureAirportCity"
+- "departureAirportCode"
+- "departureAirportCountry"
+- "departureAirportGate"
+- "departureAirportInternationalNames"
+- "departureAirportName"
+- "departureAirportRegion"
+- "departureAirportStreet"
+- "detectedEventTypes"
+- "deviceIdentifier"
+- "devicePlatform"
+- "disjunctive"
+- "displayName"
+- "distanceFromHomeInMiles"
+- "doSearchVariants"
+- "documentIdentifier"
+- "documentNotFound"
+- "documentProcessingTest"
+- "documentUnderstandingVersion"
+- "documentsWithEmbeddingsCount"
+- "domainIdentifier"
+- "dominantOrderType"
+- "downloadDate"
+- "draftMail"
+- "driver's license"
+- "driverLicense"
+- "dropIndex(reason: \""
+- "durationMinutes"
+- "educationInsight"
+- "emailAddress"
+- "emailInsight"
+- "emails"
+- "embed"
+- "embeddingAttributeCounts"
+- "embeddingEnabledInternalOverride"
+- "embeddingModelDisabled"
+- "embeddingModelVersionInternalOverride"
+- "embeddingResults"
+- "employeeCard"
+- "employeeIdNumber"
+- "employer"
+- "employmentInsight"
+- "endDate"
+- "endTime"
+- "entityDescription"
+- "entityType"
+- "entity_type_name"
+- "error"
+- "estimatedEndDate"
+- "estimatedStartDate"
+- "evaluations.db-shm"
+- "evaluations.db-wal"
+- "eventPlaceIdentifier"
+- "eventSignificance"
+- "eventType"
+- "exchange"
+- "exchange-activesync"
+- "exchange-webservices"
+- "execute(_:limit:requestId:)"
+- "expirationDate"
+- "expiryDate"
+- "explicitMemory"
+- "extended"
+- "extractedText"
+- "extractionSourceIds"
+- "extractionTimestamp"
+- "failed"
+- "familyName"
+- "filterDate"
+- "filterDate must not be composite"
+- "filterOnlyQuery"
+- "filterableAttributeCounts"
+- "firstName"
+- "flagColor"
+- "flightNumber"
+- "formalityConsistency"
+- "formalityTriggers"
+- "free"
+- "frequentLocation"
+- "frequentLocations"
+- "frequentlyUsedAcronyms"
+- "frequentlyUsedMessages"
+- "ftsAttributeWeights"
+- "ftsAttributeWeights=["
+- "ftsDoesNotContain"
+- "fullContent"
+- "fullTextSearchContent"
+- "general"
+- "generalWritingStyle"
+- "general_writing_style"
+- "generationDate"
+- "generationVersion"
+- "givenName"
+- "glpTest"
+- "glpTestRemote"
+- "gray"
+- "greaterThanOrEqual"
+- "green"
+- "greenCard"
+- "groupNumber"
+- "gs_withDeadline stream finished without yielding or throwing"
+- "gstool"
+- "hasActions"
+- "hasContactIdentifier"
+- "hasMedia"
+- "hasPersons"
+- "hasPhotoTraits"
+- "hasPhotosPersonIdentifier"
+- "hasPlaces"
+- "hasRelationship"
+- "has_lexical"
+- "has_lexical_term_matches"
+- "has_vector_scores"
+- "holiday"
+- "homePod"
+- "horizontalAccuracy"
+- "horizontalUncertainty"
+- "hotelAddress"
+- "hotelAddressSynonyms"
+- "hotelCity"
+- "hotelCountry"
+- "hotelName"
+- "hotelRegion"
+- "hotelStreet"
+- "hotelTelephone"
+- "hour"
+- "https://.*?webex\\.com/.*?(?=\\n|\\s|\\Z)"
+- "hybrid"
+- "hybrid_search_xpc.ResultBatchProto"
+- "hybrid_search_xpc.ResultMetadataProto"
+- "hybrid_search_xpc.RetrievalBatchProto"
+- "hybrid_search_xpc.RetrievalMetadataProto"
+- "hybrid_search_xpc.TermMatchProto"
+- "hybrid_search_xpc.TermScoreProto"
+- "iPad"
+- "iPhone"
+- "id=%{name=requestId,public}s"
+- "id=%{name=requestId,public}s\noperation=%{name=operation,public}s"
+- "id=%{name=requestId,public}s itemCount=%{name=itemCount,public}ld"
+- "id=%{name=requestId,public}s qos=%{name=qos,public}u"
+- "id=%{name=requestId,public}s qos=%{name=qos,public}u priority=%{name=priority,public}s activeConnections=%{name=activeConnections,public}ld waitersAhead=%{name=waitersAhead,public}ld"
+- "id=%{name=requestId,public}s table=%{name=table,public}s"
+- "id=%{name=requestId,public}s table=%{name=table,public}s limit=%{name=limit,public}ld"
+- "id=%{name=requestId,public}s type=%{name=recordType,public}s"
+- "id=%{name=requestId,public}s type=%{name=recordType,public}s limit=%{name=limit,public}ld"
+- "identification card"
+- "identificationNumber"
+- "identifier"
+- "identifier_type_raw"
+- "identityCard"
+- "identityCardInsight"
+- "identityInsight"
+- "image/bmp"
+- "image/gif"
+- "image/heic"
+- "image/heif"
+- "image/jpeg"
+- "image/png"
+- "image/tiff"
+- "image/webp"
+- "imap"
+- "inProcess"
+- "inProgress"
+- "initials"
+- "instanceIdentifier"
+- "institution"
+- "insuranceCard"
+- "intentBasedProfiles"
+- "internationalNames"
+- "interpersonalContext"
+- "isFitnessPlusSession"
+- "isFlagged"
+- "isFromVIPSender"
+- "isHighImpact"
+- "isJunk"
+- "isMePerson"
+- "isPHPersonTypeImportant"
+- "isPinned"
+- "isRead"
+- "isReplied"
+- "isSelf"
+- "isTrash"
+- "isTwoFactorCode"
+- "isUnsubscribable"
+- "isUrgent"
+- "isUser"
+- "isWeekend"
+- "issueDate"
+- "issuedBy"
+- "issuingAuthority"
+- "itemInstanceUUID"
+- "jobTitle"
+- "json"
+- "jsonl"
+- "kMDItemAttributeChangeDate"
+- "kMDItemCardAddress"
+- "kMDItemCardExpirationDate"
+- "kMDItemCardIssueDate"
+- "kMDItemCardNumber"
+- "kMDItemCardProvider"
+- "kMDItemCardSubType"
+- "kMDItemCardType == *"
+- "kMDItemCardUnderName"
+- "kMDItemContentCreationDate"
+- "kMDItemContentType"
+- "kMDItemIdentifier"
+- "kMDItemTextContent"
+- "kMDItemTextContent == \"*"
+- "key value "
+- "keyPrefixedItemInstanceIdentifier"
+- "keyword"
+- "keywordAttributeCounts"
+- "keywordConfiguration"
+- "keywordOnlySearchType"
+- "kind"
+- "label"
+- "lastName"
+- "learning_app"
+- "lexical_score"
+- "lexical_term_matches"
+- "local"
+- "locales"
+- "locations"
+- "macDesktop"
+- "macPortable"
+- "mail"
+- "mailAttachment"
+- "mailCategory"
+- "mailSearchHistory"
+- "mail_smart_reply"
+- "mailboxes"
+- "make"
+- "max"
+- "mealType"
+- "mediaType"
+- "medicalCard"
+- "membershipCard"
+- "message"
+- "messageIDHeader"
+- "messageSmartReply"
+- "message_smart_reply"
+- "messages"
+- "middleName"
+- "min"
+- "missingFromDocumentCache"
+- "model"
+- "modifiedDate"
+- "modifiedTimestamp"
+- "month"
+- "motionDistance"
+- "motionStepCount"
+- "motivatorsBarriersResources"
+- "name"
+- "nameInsight"
+- "namePrefix"
+- "nameSuffix"
+- "nationalID"
+- "naturalLanguageDescription"
+- "news"
+- "nlpObservation"
+- "noOngoing"
+- "none"
+- "normal"
+- "notSupported"
+- "note"
+- "notes"
+- "notify_register_dispatch."
+- "number"
+- "occupation"
+- "orange"
+- "organizationHours"
+- "organizationIdentifier"
+- "organizationInsight"
+- "organizationName"
+- "others"
+- "parentIdentifier"
+- "participantNames"
+- "partySize"
+- "passengerNames"
+- "passport"
+- "patternType"
+- "paused"
+- "payload_byte_count"
+- "pending"
+- "people_in_my_life"
+- "performCount: predicate: %{public}s | sensitive: %{sensitive}s"
+- "performCountEmbeddings: predicate: %{public}s | sensitive: %{sensitive}s"
+- "performRetrieve: predicate: %{public}s | sensitive: %{sensitive}s | searchTerms: %{public}s"
+- "performSearch: %{public}s | sensitive: %{sensitive}s | limit: %{public}ld | orderBy: %{public}s"
+- "personInsight"
+- "personal"
+- "persons"
+- "phone"
+- "phoneNumber"
+- "phoneNumberInsight"
+- "phoneticFirstName"
+- "phoneticLastName"
+- "phoneticMiddleName"
+- "phoneticRepresentation"
+- "photosPersonIdentifier"
+- "placeName"
+- "placeNameConfidence"
+- "places"
+- "plans"
+- "policyNumber"
+- "pop"
+- "preExtractionIsPartial"
+- "preferences"
+- "primaryPlaceIdentifier"
+- "priority"
+- "private"
+- "profileType"
+- "promotions"
+- "provenanceMetadata"
+- "provenanceStableIdentifier"
+- "provenanceVersionedIdentifier"
+- "provenance_stableIdentifier"
+- "provenance_stale"
+- "provenance_versionedIdentifier"
+- "provider"
+- "providerInsight"
+- "providerType"
+- "punctuationUsage"
+- "purple"
+- "rankingConfiguration was provided but is no longer supported; use GenerativeSearchResultRanker for post-retrieval ranking"
+- "recipientIdentifier"
+- "recipients"
+- "red"
+- "region"
+- "relatedPersonIdentifier"
+- "relatedUniqueIdentifier"
+- "relationship"
+- "relationshipInsight"
+- "relationshipType"
+- "reminder"
+- "reminders"
+- "remoteWritingAssistantProfile"
+- "repliedToMessageID"
+- "reservationForName"
+- "reservationID"
+- "reservationId"
+- "restaurantAddress"
+- "restaurantAddressSynonyms"
+- "restaurantCity"
+- "restaurantCountry"
+- "restaurantName"
+- "restaurantRegion"
+- "restaurantStreet"
+- "restaurantTelephone"
+- "resultingQueryString"
+- "results"
+- "retrieve"
+- "retrieveDomain"
+- "reverseLocationDataIsValid"
+- "roomNumbers"
+- "routeSearchTestEmailToMailStore"
+- "routineHabitInsight"
+- "rrfConfigurationData"
+- "runSingleFlight(key:produce:)"
+- "scan"
+- "scan: predicate: %{public}s | sensitive: %{sensitive}s | limit: %{public}ld | offset: %{public}ld | orderBy: %{public}s"
+- "score"
+- "search"
+- "searchDomain"
+- "searchGlobal"
+- "searchGlobal: predicate: %{public}s | sensitive: %{sensitive}s | searchTerms: %{public}s | limit: %{public}ld | orderBy: %{public}s"
+- "searchTest"
+- "seatNumbers"
+- "semantic"
+- "semanticConfiguration"
+- "sender"
+- "sensedContextAugmentedEvent"
+- "sensedContextEvent"
+- "sensedContextPattern"
+- "sensedContextPerson"
+- "sensedContextPlace"
+- "sensedEventSources"
+- "sensitiveQuery"
+- "sentenceStructure"
+- "sessionID"
+- "sharedItemUUID"
+- "shiftedLocationIsValid"
+- "short"
+- "shortQuery"
+- "signature"
+- "significanceLevel"
+- "significanceReason"
+- "siriTranscript"
+- "siriTranscriptConversation"
+- "social"
+- "social security number"
+- "socialActivities"
+- "socialActivityInsight"
+- "socialSecurityNumber"
+- "sortedPlaceInfos"
+- "sourceBundleID"
+- "sourceBundleIdentifier"
+- "sourceEventID"
+- "sourceIdentifier"
+- "sourceIds"
+- "sourceItemIdentifier"
+- "sources"
+- "spotlightknowledged"
+- "stableIdentifier"
+- "stableIdentifier missing"
+- "stable_identifier"
+- "startDate"
+- "startDate completionDate "
+- "startDate failureDate error "
+- "startDate progress status "
+- "startDate progress status indexedCount totalCount "
+- "startTime"
+- "state"
+- "stateID"
+- "stateOnly"
+- "status"
+- "status=%{name=status,public}s"
+- "status=%{name=status,public}s\ncount=%{name=count,public}ld"
+- "structuredExtractionInsight"
+- "structuredExtractionInsights"
+- "studentCard"
+- "studentIdNumber"
+- "subType"
+- "subject"
+- "subjectEmailAddresses"
+- "subjectName"
+- "subscribeToVersionChanges() failed to get index version: %{public}@"
+- "subscription"
+- "success"
+- "suggestedEventsVersion"
+- "sum"
+- "summary"
+- "summary has no content"
+- "systemAccount"
+- "temperatureCategory"
+- "tentative"
+- "term"
+- "term_scores"
+- "term_type_raw"
+- "testDouble"
+- "testInt"
+- "testString"
+- "text/calendar"
+- "text/html"
+- "text/plain"
+- "text/vcard"
+- "textContent"
+- "textContentLength"
+- "textContentSnippet"
+- "textContentWeight"
+- "textUnderstandingDeliveryTracking"
+- "textUnderstandingEvent"
+- "textUnderstandingFlight"
+- "textUnderstandingHotelReservation"
+- "textUnderstandingIdentificationDocument"
+- "textUnderstandingRestaurantReservation"
+- "ticketType"
+- "timeBoundIngestion"
+- "timeOfDay"
+- "title"
+- "titleSource"
+- "to"
+- "topicsOfInterest"
+- "topics_of_interest"
+- "totalCost"
+- "trackingNumber"
+- "transaction"
+- "transitCard"
+- "transition"
+- "turnIndex"
+- "tv"
+- "type"
+- "unavailable"
+- "underName"
+- "unknown"
+- "unrecoverableError"
+- "unrecoverableError("
+- "updates"
+- "useCount"
+- "usecaseIdentifier"
+- "userActivityInsight"
+- "userParticipationStatus"
+- "userSpecificPlaceType"
+- "vectorAttributeWeights"
+- "vectorAttributeWeights=["
+- "vector_scores"
+- "vehicleInsight"
+- "versionedIdentifier"
+- "versioned_identifier"
+- "verticalAccuracy"
+- "verticalUncertainty"
+- "video/mp4"
+- "video/quicktime"
+- "video/x-msvideo"
+- "vision"
+- "visit"
+- "watch"
+- "weakAnd"
+- "weakAndThreshold"
+- "weatherCondition"
+- "week"
+- "workflowExecutionIdentifier"
+- "writingAssistantProfile"
+- "writingToolsButton"
+- "xpcDecodeBatch"
+- "xpcEncodeBatch"
+- "xpcSerialization"
+- "year"
+- "yellow"
+- "zip"
+
+```

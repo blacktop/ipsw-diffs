@@ -1,0 +1,81 @@
+## AccessibilitySettingsUI
+
+> `FileSystem/System/Library/PrivateFrameworks/AccessibilitySettingsUI.framework/AccessibilitySettingsUI.loctable`
+
+```diff
+
+ en.ACCESSIBILITY_READER_AUTOMATICALLY_START_SPEAKING_TOGGLE_FOOTER = "Automatically start speaking the content in the Accessibility Reader."
+ en.ACCESSIBILITY_READER_CONTENT_CLEANUP_ALWAYS = "Always"
+ en.ACCESSIBILITY_READER_CONTENT_CLEANUP_BEHAVIOR = "Content Cleanup"
+-en.ACCESSIBILITY_READER_CONTENT_CLEANUP_BEHAVIOR_FOOTER = "Choose to always show original text or automatically clean text."
++en.ACCESSIBILITY_READER_CONTENT_CLEANUP_BEHAVIOR_FOOTER = "Choose to have the content formatted and structured to enhance readability. Text and some visual elements not relevant to the content, such as ads, will be removed."
+ en.ACCESSIBILITY_READER_CONTENT_CLEANUP_NEVER = "Never"
+ en.ACCESSIBILITY_READER_SHORTCUT_ALERT_ADD = "Add to Accessibility Shortcut"
+ en.ACCESSIBILITY_READER_SHORTCUT_ALERT_MESSAGE = "You can start Accessibility Reader from the share menu in apps or Control Center.\n\nWould you like to add it to the Accessibility Shortcut?"
+
+ en.ACCESSIBILITY_READER_SHORTCUT_ALERT_MESSAGE_SIRI = "You can start Accessibility Reader from the share menu in apps, Control Center, or Siri.\n\nWould you like to add it to the Accessibility Shortcut?"
+ en.ACCESSIBILITY_READER_SHORTCUT_ALERT_NOT_NOW = "Not Now"
+ en.ACCESSIBILITY_READER_SHORTCUT_ALERT_TITLE = "Accessibility Reader"
+-en.ACCESSIBILITY_READER_START_INSTRUCTIONS = "Start Accessibility Reader from the share menu in apps, Control Center, the Accessibility Shortcut, or Siri."
++en.ACCESSIBILITY_READER_START_INSTRUCTIONS = "With Accessibility Reader, you can improve the reading experience by customizing fonts, layout, and background colors. You can also choose to listen to content."
+ en.ACCESSIBILITY_READER_TOGGLE = "Accessibility Reader"
+ en.ACTION_LIST_SEARCH = "Search"
+ en.ADD_EFFECT_TITLE = "Add Effect"
+
+ en.APPLE_PAY_FOOTER_IPHONE = "Use AssistiveTouch to confirm payments with Face ID or any time double-clicking the side button is required."
+ en.APPLE_PAY_FOOTER_PASSCODE = "Use AssistiveTouch to confirm payments with your Passcode or any time double-clicking the side button is required."
+ en.APPLE_PAY_FOOTER_PASSCODE_IPAD = "Use AssistiveTouch to confirm payments with your Passcode or any time double-clicking the top button is required."
+-en.APPLE_PAY_FOOTER_PASSCODE_IPAD_TOUCHID = "Use AssistiveTouch or Switch Control to confirm payments with your Passcode or any time double-clicking the Top button/Touch ID is required."
++en.APPLE_PAY_FOOTER_PASSCODE_IPAD_TOUCHID = "Use AssistiveTouch or Switch Control to confirm payments with your Passcode or any time double-clicking the top button/Touch ID is required."
+ en.APPLE_PAY_FOOTER_PASSCODE_IPHONE = "Use AssistiveTouch to confirm payments with your Passcode or any time double-clicking the side button is required."
+ en.APPLE_PAY_FOOTER_PASSCODE_VISION = "Use AssistiveTouch to confirm payments with your Passcode or any time double-clicking the top button is required."
+ en.APPLE_PAY_FOOTER_SC_ON_ADDITION = "Enabling Confirm with AssistiveTouch while Switch Control is in use will also enable Confirm with Switch Control."
+
+ en.GUEST_PASS_FEATURE_TOUCH = "Touch"
+ en.GUEST_PASS_FEATURE_VOICEOVER = "VoiceOver"
+ en.GUEST_PASS_FEATURE_ZOOM = "Zoom"
+-en.GUEST_PASS_FOOTER = "Temporarily transfer accessibility settings to another device. Your settings will be available while using a borrowed or public device, such as a friend's device or a kiosk, and be removed when you are done using the other device."
++en.GUEST_PASS_FOOTER = "Temporarily transfer accessibility settings to another device. Your settings will be available while using a borrowed or public device, such as a friend’s device or a kiosk, and be removed when you are done using the other device."
+ en.GUEST_PASS_LEARN_MORE = "Learn more…"
+ en.GUEST_PASS_ONBOARDING = "You can temporarily transfer settings from your device to another iPhone or iPad.\n\nShare Accessibility Settings is a great option if you need to use a shared iPad such as a public kiosk at a cafe. It also makes it easy to look at something on a friend’s device."
+ en.GUEST_PASS_ONBOARDING_IPAD = "You can temporarily transfer settings from your iPad to another iPhone or iPad.\n\nShare Accessibility Settings is a great option if you need to use a shared iPad such as a public kiosk at a cafe. It also makes it easy to look at something on a friend’s device."
+
+ en.LIVE_SPEECH_FOOTER = "Live Speech speaks aloud what you type using the speaker, and in calls."
+ en.LIVE_SPEECH_PHRASES_FOOTER = "Create phrases that you can quickly speak with Live Speech."
+ en.LIVE_SPEECH_TRIPLE_CLICK_EXPLANATION = "Live Speech speaks aloud what you type using the speaker, and in calls. Triple-click the Home Button to show Live Speech."
+-en.LIVE_SPEECH_TRIPLE_CLICK_EXPLANATION_NHB = "Live Speech speaks aloud what you type using the speaker, and in calls. Triple-click the Side Button to show Live Speech."
+-en.LIVE_SPEECH_TRIPLE_CLICK_EXPLANATION_NHB_IPAD = "Live Speech speaks aloud what you type using the speaker, and in calls. Triple-click the Top Button to show Live Speech."
++en.LIVE_SPEECH_TRIPLE_CLICK_EXPLANATION_NHB = "Live Speech speaks aloud what you type using the speaker, and in calls. Triple-click the side button to show Live Speech."
++en.LIVE_SPEECH_TRIPLE_CLICK_EXPLANATION_NHB_IPAD = "Live Speech speaks aloud what you type using the speaker, and in calls. Triple-click the top button to show Live Speech."
+ en.LIVE_SPEECH_TRIPLE_CLICK_EXPLANATION_VISION = "Live Speech speaks aloud what you type in calls. Triple-click the Digital Crown to show Live Speech."
+ en.LIVE_SPEECH_TRIPLE_CLICK_EXPLANATION_WATCH = "Live Speech speaks aloud what you type using the speaker, and in calls. Triple-click the Digital Crown to show Live Speech."
+ en.LIVE_SPEECH_VOICES_FOOTER = "Live Speech uses Keyboards to determine available voices."
+
+ en.ON_DEVICE_EYE_TRACKING_USE_GAUSIAN_BLUR = "Use Gaussian Blur"
+ en.ON_DEVICE_EYE_TRACKING_USE_MOTION_FILTER = "Use Median Filter"
+ en.ON_DEVICE_EYE_TRACKING_USE_WEIGHTED_AVERAGES = "Use Weighted Averages"
+-en.ON_DEVICE_EYE_TRACKING_WHATS_NEW_LINK = "What's new in Eye Tracking…"
++en.ON_DEVICE_EYE_TRACKING_WHATS_NEW_LINK = "What’s new in Eye Tracking…"
+ en.PITCH = "Pitch"
+ en.PITCH_CHANGES_TITLE = "Pitch Change"
+ en.PITCH_SLIDER = "Pitch Slider"
+
+ en.WC_ABOUT_CONTACT_SUPPORT_URL = "https://getsupport.apple.com/"
+ en.WC_ABOUT_FEATURE_VERSION = "Feature Version"
+ en.WC_ABOUT_IFU = "Instructions for Use"
+-en.WC_ABOUT_IFU_URL = "https://www.apple.com/legal/ifu/wheelchair-control"
++en.WC_ABOUT_IFU_URL = "https://www.apple.com/legal/ifu/"
+ en.WC_ABOUT_MANUFACTURER = "Manufacturer Address"
+ en.WC_ABOUT_MANUFACTURER_ADDRESS = "Apple Inc.\nOne Apple Park Way\nCupertino, CA 95014, United States."
+ en.WC_ABOUT_PRODUCT_NAME = "Product Name"
+
+ en.WC_CONTROL_BUTTONS_POSITION_FOOTER = "Choose where control buttons appear in the overlay."
+ en.WC_CONTROL_BUTTONS_TOP = "Top"
+ en.WC_EVENT_LOGGING = "Allow Logging"
++en.WC_EVENT_LOGGING_FOOTER = "Choose how long wheelchair control event logs are kept. Logs older than the selected duration are deleted automatically. Select Never to turn off logging."
++en.WC_EVENT_LOGGING_NEVER = "Never"
+ en.WC_EXPORT_ERROR_TITLE = "Error Exporting Logs"
+ en.WC_EXPORT_LOGS = "Export Logs"
+ en.add.action.accessibility.label = "Add Action"
+
+```

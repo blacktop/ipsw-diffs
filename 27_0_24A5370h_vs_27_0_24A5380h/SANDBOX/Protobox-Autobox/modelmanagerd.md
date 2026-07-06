@@ -1,0 +1,97 @@
+## modelmanagerd
+
+> Group: ⬆️ Updated
+
+```diff
+
+ (deny mach-lookup
+ 	(require-all
+ 		(global-name "com.apple.dt.testmanagerd.uiprocess")
+-		(require-not (global-name "com.apple.securityd"))
+-		(require-not (global-name "com.apple.diagnosticd"))
+-		(require-not (global-name "com.apple.mobileasset.autoasset"))
+-		(require-not (global-name "com.apple.powerlog.plxpclogger.xpc"))
+-		(require-not (global-name "com.apple.logd.events"))
+-		(require-not (global-name "com.apple.runningboard"))
+-		(require-not (global-name "com.apple.system.notification_center"))
+-		(require-not (global-name "com.apple.ERFoundationExtensionDaemon"))
+-		(require-not (global-name "com.apple.mobile.keybagd.UserManager.xpc"))
++		(require-not (global-name "com.apple.biome.access.user"))
++		(require-not (global-name "com.apple.biome.compute.source"))
+ 		(require-not (require-any
+ 			(global-name "com.apple.edgekitd")
+ 			(global-name "com.apple.tests.callbackService")
+ 			(global-name "com.apple.trustedcloudcompute")
+ 		))
+-		(require-not (global-name "com.apple.siri.uaf.subscription.service"))
+-		(require-not (global-name "com.apple.mobileassetd.v2"))
+-		(require-not (global-name "com.apple.system.libinfo.muser"))
+-		(require-not (global-name "com.apple.biome.compute.source"))
+-		(require-not (global-name "com.apple.system.logger"))
+-		(require-not (global-name "com.apple.dnssd.service"))
+-		(require-not (global-name "com.apple.mobile.usermanagerd.xpc"))
+-		(require-not (global-name "com.apple.usymptomsd"))
+-		(require-not (global-name "com.apple.trustd"))
+-		(require-not (global-name "com.apple.analyticsd"))
+-		(require-not (global-name "com.apple.ctkd.token-client"))
+-		(require-not (global-name "com.apple.biome.access.user"))
+-		(require-not (global-name "com.apple.cfprefsd.daemon"))
+-		(require-not (global-name "com.apple.symptom_diagnostics"))
+-		(require-not (global-name "com.apple.lsd.mapdb"))
+-		(require-not (global-name "com.apple.distributed_notifications@1v3"))
+-		(require-not (global-name "com.apple.remoted"))
+-		(require-not (global-name "com.apple.duetactivityscheduler"))
+-		(require-not (global-name "com.apple.logd"))
+-		(require-not (global-name "com.apple.biome.access.system"))
+-		(require-not (global-name "com.apple.biome.compute.source.user"))
+-		(require-not (global-name "com.apple.siri.uaf.service"))
+-		(require-not (global-name "com.apple.modelcatalog.catalog"))
+-		(require-not (global-name "com.apple.containermanagerd.system"))
+ 		(require-not (global-name "com.apple.appleneuralengine"))
+-		(require-not (global-name "com.apple.cfprefsd.daemon.system"))
++		(require-not (global-name "com.apple.symptom_diagnostics"))
++		(require-not (global-name "com.apple.duetactivityscheduler"))
++		(require-not (global-name "com.apple.biome.access.system"))
++		(require-not (global-name "com.apple.mobileassetd.v2"))
++		(require-not (global-name "com.apple.lsd.mapdb"))
++		(require-not (global-name "com.apple.trustd"))
++		(require-not (global-name "com.apple.system.notification_center"))
++		(require-not (global-name "com.apple.powerlog.plxpclogger.xpc"))
++		(require-not (global-name "com.apple.mobile.keybagd.UserManager.xpc"))
+ 		(require-not (xpc-service-name "com.apple.PerfPowerTelemetryClientRegistrationService"))
++		(require-not (global-name "com.apple.mobile.usermanagerd.xpc"))
++		(require-not (global-name "com.apple.diagnosticd"))
++		(require-not (global-name "com.apple.system.libinfo.muser"))
++		(require-not (global-name "com.apple.biome.compute.source.user"))
++		(require-not (global-name "com.apple.distributed_notifications@1v3"))
++		(require-not (global-name "com.apple.ctkd.token-client"))
++		(require-not (global-name "com.apple.remoted"))
++		(require-not (global-name "com.apple.modelcatalog.catalog"))
++		(require-not (global-name "com.apple.mobileasset.autoasset"))
++		(require-not (global-name "com.apple.cfprefsd.daemon.system"))
++		(require-not (global-name "com.apple.runningboard"))
++		(require-not (global-name "com.apple.dnssd.service"))
++		(require-not (global-name "com.apple.usymptomsd"))
++		(require-not (global-name "com.apple.siri.uaf.service"))
++		(require-not (global-name "com.apple.siri.uaf.subscription.service"))
++		(require-not (global-name "com.apple.ERFoundationExtensionDaemon"))
++		(require-not (global-name "com.apple.securityd"))
++		(require-not (global-name "com.apple.logd.events"))
++		(require-not (global-name "com.apple.cfprefsd.daemon"))
+ 		(require-not (xpc-service-name "com.apple.MTLCompilerService"))
++		(require-not (global-name "com.apple.system.logger"))
++		(require-not (global-name "com.apple.logd"))
++		(require-not (global-name "com.apple.analyticsd"))
++		(require-not (global-name "com.apple.containermanagerd.system"))
+ 		(require-not (global-name "com.apple.DiskArbitration.diskarbitrationd"))
+ 		(require-not (global-name "com.apple.CoreServices.coreservicesd"))
+ 		(require-not (global-name "com.apple.CoreAuthentication.daemon"))
+
+ 		SYS_terminate_with_payload
+ 		SYS_abort_with_payload
+ 		SYS_os_fault_with_payload
++		SYS_kqueue_workloop_ctl
+ 		SYS_memorystatus_available_memory
+ 		SYS_objc_bp_assist_cfg_np
+ 		SYS_preadv
+```

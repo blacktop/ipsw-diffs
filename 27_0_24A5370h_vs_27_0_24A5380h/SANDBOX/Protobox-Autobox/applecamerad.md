@@ -1,0 +1,52 @@
+## applecamerad
+
+> Group: ⬆️ Updated
+
+```diff
+
+ (deny mach-lookup
+ 	(require-all
+ 		(global-name "com.apple.dt.testmanagerd.uiprocess")
+-		(require-not (global-name "com.apple.diagnosticd"))
+-		(require-not (global-name "com.apple.logd.events"))
+-		(require-not (global-name "com.apple.commcenter.xpc"))
+-		(require-not (global-name "com.apple.system.notification_center"))
+-		(require-not (global-name "com.apple.gpumemd.source"))
+-		(require-not (global-name "com.apple.audio.AudioComponentRegistrar"))
+-		(require-not (global-name "com.apple.system.libinfo.muser"))
+-		(require-not (global-name "com.apple.system.logger"))
+-		(require-not (global-name "com.apple.awdd"))
+-		(require-not (global-name "com.apple.audio.AURemoteIOServer"))
+-		(require-not (global-name "com.apple.coremedia.admin"))
+-		(require-not (global-name "com.apple.cfprefsd.daemon"))
+-		(require-not (global-name "com.apple.symptom_diagnostics"))
+-		(require-not (global-name "com.apple.logd"))
+-		(require-not (global-name "com.apple.audioanalyticsd"))
+-		(require-not (global-name "com.apple.containermanagerd"))
+ 		(require-not (global-name "com.apple.appleneuralengine"))
++		(require-not (global-name "com.apple.symptom_diagnostics"))
++		(require-not (global-name "com.apple.system.notification_center"))
++		(require-not (global-name "com.apple.coremedia.admin"))
++		(require-not (global-name "com.apple.audioanalyticsd"))
++		(require-not (global-name "com.apple.diagnosticd"))
++		(require-not (global-name "com.apple.system.libinfo.muser"))
++		(require-not (global-name "com.apple.commcenter.xpc"))
+ 		(require-not (global-name "com.apple.cfprefsd.daemon.system"))
+-		(require-not (xpc-service-name "com.apple.ImageIOXPCService"))
+-		(require-not (xpc-service-name "com.apple.MTLCompilerService"))
++		(require-not (global-name "com.apple.containermanagerd"))
++		(require-not (global-name "com.apple.awdd"))
++		(require-not (global-name "com.apple.gpumemd.source"))
++		(require-not (global-name "com.apple.logd.events"))
++		(require-not (global-name "com.apple.cfprefsd.daemon"))
++		(require-not (global-name "com.apple.audio.AudioComponentRegistrar"))
++		(require-not (global-name "com.apple.system.logger"))
++		(require-not (global-name "com.apple.logd"))
++		(require-not (global-name "com.apple.audio.AURemoteIOServer"))
+ 		(require-not (xpc-service-name "com.apple.audio.AudioConverterService"))
++		(require-not (xpc-service-name "com.apple.MTLCompilerService"))
++		(require-not (xpc-service-name "com.apple.ImageIOXPCService"))
+ 		(require-not (global-name "com.apple.analyticsd"))
+ 		(require-not (global-name "com.apple.FileCoordination"))
+ 		(require-not (system-attribute developer-mode))
+```

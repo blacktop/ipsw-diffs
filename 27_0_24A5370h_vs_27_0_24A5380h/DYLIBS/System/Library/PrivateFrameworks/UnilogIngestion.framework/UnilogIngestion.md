@@ -1,0 +1,52 @@
+## UnilogIngestion
+
+> `/System/Library/PrivateFrameworks/UnilogIngestion.framework/UnilogIngestion`
+
+```diff
+
+-  __TEXT.__text: 0x1c870
++  __TEXT.__text: 0x1c864
+   __TEXT.__objc_methlist: 0x174
+   __TEXT.__const: 0xd20
+   __TEXT.__constg_swiftt: 0x6e8
+
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0xa90
+   __AUTH_CONST.__objc_const: 0x588
+-  __AUTH_CONST.__auth_got: 0x958
++  __AUTH_CONST.__auth_got: 0x950
+   __AUTH.__objc_data: 0x50
+   __AUTH.__data: 0x2c8
+   __DATA.__data: 0x678
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   Functions: 528
+-  Symbols:   391
++  Symbols:   390
+   CStrings:  28
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__const : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_typeref : content changed
+~ __TEXT.__unwind_info : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__data : content changed
+~ __DATA_DIRTY.__data : content changed
+Symbols:
+- _swift_willThrowTypedImpl
+Functions:
+~ sub_2ac362634 -> sub_2afe29634 : 1504 -> 1492
+
+```

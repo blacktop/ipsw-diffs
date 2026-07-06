@@ -1,0 +1,591 @@
+## maild
+
+> `/System/Library/PrivateFrameworks/EmailDaemon.framework/maild`
+
+```diff
+
+-  __TEXT.__text: 0x154d8c
+-  __TEXT.__auth_stubs: 0x2860
+-  __TEXT.__objc_stubs: 0x16840
+-  __TEXT.__objc_methlist: 0xb3ac
+-  __TEXT.__gcc_except_tab: 0x19ba0
+-  __TEXT.__objc_methname: 0x1d405
+-  __TEXT.__cstring: 0x8f26
+-  __TEXT.__objc_classname: 0x1bdf
+-  __TEXT.__objc_methtype: 0x4219
+-  __TEXT.__const: 0x162c
+-  __TEXT.__oslogstring: 0xb1fe
++  __TEXT.__text: 0x154490
++  __TEXT.__auth_stubs: 0x28c0
++  __TEXT.__objc_stubs: 0x163e0
++  __TEXT.__objc_methlist: 0xaff4
++  __TEXT.__gcc_except_tab: 0x19640
++  __TEXT.__objc_methname: 0x1ce25
++  __TEXT.__cstring: 0x8e76
++  __TEXT.__objc_classname: 0x1aff
++  __TEXT.__objc_methtype: 0x4169
++  __TEXT.__const: 0x161c
++  __TEXT.__oslogstring: 0xaf6e
+   __TEXT.__dlopen_cstrs: 0x288
+   __TEXT.__ustring: 0x72
+-  __TEXT.__constg_swiftt: 0x4c4
+-  __TEXT.__swift5_typeref: 0xabf
++  __TEXT.__constg_swiftt: 0x4cc
++  __TEXT.__swift5_typeref: 0xac9
+   __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift5_reflstr: 0x30c
+-  __TEXT.__swift5_fieldmd: 0x394
++  __TEXT.__swift5_reflstr: 0x31c
++  __TEXT.__swift5_fieldmd: 0x3a0
+   __TEXT.__swift5_assocty: 0x150
+   __TEXT.__swift5_proto: 0xa8
+   __TEXT.__swift5_types: 0x58
+   __TEXT.__swift_as_entry: 0x80
+   __TEXT.__swift_as_ret: 0x8c
+-  __TEXT.__swift5_capture: 0x3c6c
++  __TEXT.__swift5_capture: 0x3d9c
+   __TEXT.__swift5_protos: 0x14
+   __TEXT.__swift_as_cont: 0x114
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x7130
+-  __TEXT.__eh_frame: 0xfc8
+-  __DATA_CONST.__const: 0xe060
+-  __DATA_CONST.__cfstring: 0x65e0
+-  __DATA_CONST.__objc_classlist: 0x578
++  __TEXT.__unwind_info: 0x6fc8
++  __TEXT.__eh_frame: 0xff0
++  __DATA_CONST.__const: 0xe2b0
++  __DATA_CONST.__cfstring: 0x65a0
++  __DATA_CONST.__objc_classlist: 0x550
+   __DATA_CONST.__objc_catlist: 0x78
+-  __DATA_CONST.__objc_protolist: 0x360
++  __DATA_CONST.__objc_protolist: 0x348
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0xb0
+-  __DATA_CONST.__objc_superrefs: 0x3e0
+-  __DATA_CONST.__objc_intobj: 0x480
+-  __DATA_CONST.__objc_arraydata: 0xc8
+-  __DATA_CONST.__objc_arrayobj: 0x90
++  __DATA_CONST.__objc_superrefs: 0x3c0
++  __DATA_CONST.__objc_intobj: 0x450
++  __DATA_CONST.__objc_arraydata: 0xb8
++  __DATA_CONST.__objc_arrayobj: 0x78
+   __DATA_CONST.__objc_dictobj: 0x78
+-  __DATA_CONST.__auth_got: 0x1440
+-  __DATA_CONST.__got: 0x1860
+-  __DATA_CONST.__auth_ptr: 0x440
+-  __DATA.__objc_const: 0x13938
+-  __DATA.__objc_selrefs: 0x70f8
+-  __DATA.__objc_ivar: 0xbe4
+-  __DATA.__objc_data: 0x3858
+-  __DATA.__data: 0x2fb0
+-  __DATA.__bss: 0x1960
++  __DATA_CONST.__auth_got: 0x1470
++  __DATA_CONST.__got: 0x1928
++  __DATA_CONST.__auth_ptr: 0x448
++  __DATA.__objc_const: 0x13080
++  __DATA.__objc_selrefs: 0x6ff8
++  __DATA.__objc_ivar: 0xb90
++  __DATA.__objc_data: 0x36c8
++  __DATA.__data: 0x2eb0
++  __DATA.__bss: 0x1950
+   __DATA.__common: 0x48
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /System/Library/PrivateFrameworks/GenerativeSearch.framework/GenerativeSearch
+   - /System/Library/PrivateFrameworks/GenerativeSearchAdapter.framework/GenerativeSearchAdapter
+   - /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
++  - /System/Library/PrivateFrameworks/HybridSearch.framework/HybridSearch
++  - /System/Library/PrivateFrameworks/HybridSearchAdapter.framework/HybridSearchAdapter
+   - /System/Library/PrivateFrameworks/MIME.framework/MIME
+   - /System/Library/PrivateFrameworks/MailKit.framework/MailKit
+   - /System/Library/PrivateFrameworks/MailServices.framework/MailServices
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5921
+-  Symbols:   1584
+-  CStrings:  8488
++  Functions: 5876
++  Symbols:   1592
++  CStrings:  8403
+ 
+Sections:
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_types : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_dictobj : content changed
+Symbols:
++ _$s12HybridSearch08SemanticB6StatusV10SkipReasonO14sensitiveQueryyA2EmFWC
++ _$s12HybridSearch08SemanticB6StatusV10SkipReasonOMa
++ _$s12HybridSearch08SemanticB6StatusV10SkipReasonOMn
++ _$s12HybridSearch08SemanticB6StatusV10SkipReasonOSQAAMc
++ _$s12HybridSearch08SemanticB6StatusV11skipReasonsSayAC10SkipReasonOGvg
++ _$s12HybridSearch08SemanticB6StatusV12wasTriggeredSbvg
++ _$s12HybridSearch08SemanticB6StatusVMa
++ _$s12HybridSearch0B17TermSpecificationVMa
++ _$s12HybridSearch0B17TermSpecificationVMn
++ _$s12HybridSearch0B17TermSpecificationVs23CustomStringConvertibleAAMc
++ _$s12HybridSearch0B6ResultV0aB7AdapterE27mailSpotlightSearchableItemSo012CSSearchableH0Cvg
++ _$s12HybridSearch0B6ResultVMa
++ _$s12HybridSearch0B6ResultVMn
++ _$s12HybridSearch10ScanResultV6entityAA6EntityOvg
++ _$s12HybridSearch10ScanResultVMa
++ _$s12HybridSearch10ScanResultVMn
++ _$s12HybridSearch11MailContentV10StoredBodyOMa
++ _$s12HybridSearch11MailContentV10StoredBodyOMn
++ _$s12HybridSearch11MailContentV10identifierSSvg
++ _$s12HybridSearch11MailContentV10storedBodyAC06StoredF0OSgvg
++ _$s12HybridSearch11MailContentV19FilterableAttributeOMn
++ _$s12HybridSearch11MailContentV19SearchableAttributeOMa
++ _$s12HybridSearch11MailContentV19SearchableAttributeOMn
++ _$s12HybridSearch11MailContentV19SearchableAttributeOSHAAMc
++ _$s12HybridSearch11MailContentVMa
++ _$s12HybridSearch11MailContentVMn
++ _$s12HybridSearch14AttributeValueO4datayAC10Foundation4DataVcACmFWC
++ _$s12HybridSearch14AttributeValueO4dateyAC10Foundation4DateVcACmFWC
++ _$s12HybridSearch14AttributeValueO4jsonyACSScACmFWC
++ _$s12HybridSearch14AttributeValueO4nullyA2CmFWC
++ _$s12HybridSearch14AttributeValueO4textyACSScACmFWC
++ _$s12HybridSearch14AttributeValueO6doubleyACSdcACmFWC
++ _$s12HybridSearch14AttributeValueO7booleanyACSbcACmFWC
++ _$s12HybridSearch14AttributeValueO7integeryACs5Int64VcACmFWC
++ _$s12HybridSearch14AttributeValueO9textArrayyACSaySSGcACmFWC
++ _$s12HybridSearch14AttributeValueOMa
++ _$s12HybridSearch14AttributeValueOMn
++ _$s12HybridSearch14QueryPredicateOMn
++ _$s12HybridSearch15ComposableQueryV02toD0AA0D0VyxGyF
++ _$s12HybridSearch15ComposableQueryV3andyACyxGAEF
++ _$s12HybridSearch15ComposableQueryV9predicateAA18AttributePredicateOy010FilterableF0QzGSgvg
++ _$s12HybridSearch15ComposableQueryVA2A11MailContentVRszrlE26withSourceBundleIdentifieryACyAEGSSF
++ _$s12HybridSearch15ComposableQueryVMn
++ _$s12HybridSearch15LiveQueryResultV0cD5DeltaV8removalsShySSGvg
++ _$s12HybridSearch15LiveQueryResultV0cD5DeltaV9additionsSayAA09RetrievalE0VGvg
++ _$s12HybridSearch15LiveQueryResultV0cD5DeltaVMa
++ _$s12HybridSearch15LiveQueryResultV0cD5DeltaVMn
++ _$s12HybridSearch15LiveQueryResultV14initialResultsSayAA09RetrievalE0VGvg
++ _$s12HybridSearch15LiveQueryResultV6deltasScsyAC0cD5DeltaVs5Error_pGvg
++ _$s12HybridSearch15LiveQueryResultVMa
++ _$s12HybridSearch15LiveQueryResultVMn
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO10carbonCopyyA2G6PersonVcAGmFWC
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO14senderContainsyA2G7KeywordVcAGmFWC
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO15blindCarbonCopyyA2G6PersonVcAGmFWC
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO15subjectContainsyA2G7KeywordVcAGmFWC
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO2toyA2G6PersonVcAGmFWC
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO4bodyyA2G7KeywordVcAGmFWC
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6PersonV11displayNameSSSgvg
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6PersonV12emailAddressSSvg
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6PersonV17contactIdentifierSSSgvg
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6PersonV21alternateDisplayNamesSaySSGvg
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6PersonV23alternateEmailAddressesSaySSGvg
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6PersonV27alternateContactIdentifiersSaySSSgGvg
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6PersonVMa
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6senderyA2G6PersonVcAGmFWC
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO7KeywordV20resultingQueryStringSSvg
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO7KeywordVMa
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindO7subjectyA2G7KeywordVcAGmFWC
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV0cE4KindOMa
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionV4kindAE0cE4KindOvg
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionVMa
++ _$s12HybridSearch15MailSuggestionsV0C10SuggestionVMn
++ _$s12HybridSearch15MailSuggestionsV11suggestionsSayAC0C10SuggestionVGvg
++ _$s12HybridSearch15MailSuggestionsVMa
++ _$s12HybridSearch15RetrievalResultV0aB7AdapterE27mailSpotlightSearchableItemSo012CSSearchableI0Cvg
++ _$s12HybridSearch15RetrievalResultV10identifierSSvg
++ _$s12HybridSearch15RetrievalResultV19contentCreationDate10Foundation0G0Vvg
++ _$s12HybridSearch15RetrievalResultVMa
++ _$s12HybridSearch15RetrievalResultVMn
++ _$s12HybridSearch17L2RankingMetadataV11tophitCountSivg
++ _$s12HybridSearch17L2RankingMetadataVMa
++ _$s12HybridSearch17SearchableContentP19FilterableAttributeAC_AA0F11ConvertibleTn
++ _$s12HybridSearch17SearchableContentP19FilterableAttributeAC_SETn
++ _$s12HybridSearch17SearchableContentP19FilterableAttributeAC_SeTn
++ _$s12HybridSearch17SearchableContentTL
++ _$s12HybridSearch17UseCaseIdentifierV8rawValueACSS_tcfC
++ _$s12HybridSearch17UseCaseIdentifierVMa
++ _$s12HybridSearch18AttributePredicateO11descriptionSSvg
++ _$s12HybridSearch18AttributePredicateO11greaterThanyACyxGx_AA0C5ValueOtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
++ _$s12HybridSearch18AttributePredicateO13arrayContainsyACyxGx_AA0C5ValueOtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
++ _$s12HybridSearch18AttributePredicateO14stringContainsyACyxGx_SStcAEmAA0C11ConvertibleRzSeRzSERzlFWC
++ _$s12HybridSearch18AttributePredicateO15lessThanOrEqualyACyxGx_AA0C5ValueOtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
++ _$s12HybridSearch18AttributePredicateO18greaterThanOrEqualyACyxGx_AA0C5ValueOtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
++ _$s12HybridSearch18AttributePredicateO2oryACyxGAE_AEtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
++ _$s12HybridSearch18AttributePredicateO3andyACyxGAE_AEtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
++ _$s12HybridSearch18AttributePredicateO3notyACyxGAEcAEmAA0C11ConvertibleRzSeRzSERzlFWC
++ _$s12HybridSearch18AttributePredicateO4isInyACyxGx_SayAA0C5ValueOGtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
++ _$s12HybridSearch18AttributePredicateO5regexyACyxGx_SStcAEmAA0C11ConvertibleRzSeRzSERzlFWC
++ _$s12HybridSearch18AttributePredicateO6equalsyACyxGx_AA0C5ValueOtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
++ _$s12HybridSearch18AttributePredicateO6isNullyACyxGxcAEmAA0C11ConvertibleRzSeRzSERzlFWC
++ _$s12HybridSearch18AttributePredicateO8lessThanyACyxGx_AA0C5ValueOtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
++ _$s12HybridSearch18AttributePredicateO9isNotNullyACyxGxcAEmAA0C11ConvertibleRzSeRzSERzlFWC
++ _$s12HybridSearch18AttributePredicateOMa
++ _$s12HybridSearch18AttributePredicateOMn
++ _$s12HybridSearch20AttributeConvertibleP02toC4NameSSvgTj
++ _$s12HybridSearch5QueryV11descriptionSSvg
++ _$s12HybridSearch5QueryV11searchTermsSDy19SearchableAttributeQzAA0B17TermSpecificationVGvg
++ _$s12HybridSearch5QueryV19redactedDescriptionSSvg
++ _$s12HybridSearch5QueryV9predicateAA18AttributePredicateOy010FilterableE0QzGSgvg
++ _$s12HybridSearch5QueryVMn
++ _$s12HybridSearch6EntityO4mailyAcA11MailContentVcACmFWC
++ _$s12HybridSearch6EntityOMa
++ _$s12HybridSearch6EntityOMn
++ _$s12HybridSearch9MailQueryV0aB7AdapterE4noneACvgZ
++ _$s12HybridSearch9MailQueryV14hasAttachmentsACyF
++ _$s12HybridSearch9MailQueryV14withIdentifieryACSaySSGF
++ _$s12HybridSearch9MailQueryV26withSourceBundleIdentifieryACSSF
++ _$s12HybridSearch9MailQueryV2oryA2CF
++ _$s12HybridSearch9MailQueryV3andyA2CF
++ _$s12HybridSearch9MailQueryV3notACyF
++ _$s12HybridSearch9MailQueryV4fromyACSaySSGF
++ _$s12HybridSearch9MailQueryV4junkACyF
++ _$s12HybridSearch9MailQueryV4readACyF
++ _$s12HybridSearch9MailQueryV5afteryAC10Foundation4DateVF
++ _$s12HybridSearch9MailQueryV5queryAA0D0VyAA0C7ContentVGvg
++ _$s12HybridSearch9MailQueryV5trashACyF
++ _$s12HybridSearch9MailQueryV6beforeyAC10Foundation4DateVF
++ _$s12HybridSearch9MailQueryV6unreadACyF
++ _$s12HybridSearch9MailQueryV7flaggedACyF
++ _$s12HybridSearch9MailQueryV9inMailboxyACSSF
++ _$s12HybridSearch9MailQueryV9unflaggedACyF
++ _$s12HybridSearch9MailQueryVACycfC
++ _$s12HybridSearch9MailQueryVMa
++ _$s12HybridSearch9MailQueryVMn
++ _$s19FilterableAttribute12HybridSearch17SearchableContentPTl
++ _$s19HybridSearchAdapter04MailB6ClientV04scanD09predicate5limit6offset9sortOrderSay0aB010ScanResultVGAI14QueryPredicateOyAI0D7ContentV19FilterableAttributeOAP010SearchableR0OGSg_S2iAC04SortK0OtYaKF
++ _$s19HybridSearchAdapter04MailB6ClientV04scanD09predicate5limit6offset9sortOrderSay0aB010ScanResultVGAI14QueryPredicateOyAI0D7ContentV19FilterableAttributeOAP010SearchableR0OGSg_S2iAC04SortK0OtYaKFTu
++ _$s19HybridSearchAdapter04MailB6ClientV13ConfigurationV0B0V5limit7topHitsAGSi_SitcfC
++ _$s19HybridSearchAdapter04MailB6ClientV13ConfigurationV0B0VMa
++ _$s19HybridSearchAdapter04MailB6ClientV13ConfigurationV11SuggestionsV5limit12useBodyCacheAGSi_SbtcfC
++ _$s19HybridSearchAdapter04MailB6ClientV13ConfigurationV11SuggestionsVMa
++ _$s19HybridSearchAdapter04MailB6ClientV13ConfigurationV6search11suggestions7rankingA2E0B0V_AE11SuggestionsVAE7RankingVtcfC
++ _$s19HybridSearchAdapter04MailB6ClientV13ConfigurationV7RankingV12useBodyCacheAGSb_tcfC
++ _$s19HybridSearchAdapter04MailB6ClientV13ConfigurationV7RankingVMa
++ _$s19HybridSearchAdapter04MailB6ClientV13ConfigurationVMa
++ _$s19HybridSearchAdapter04MailB6ClientV17useCaseIdentifierAC0aB003UsegH0V_tcfC
++ _$s19HybridSearchAdapter04MailB6ClientV19retrieveIdentifiers_6filter11vectorLimitSay0aB015RetrievalResultVGSS_AG0D5QueryVSiSgtYaKF
++ _$s19HybridSearchAdapter04MailB6ClientV19retrieveIdentifiers_6filter11vectorLimitSay0aB015RetrievalResultVGSS_AG0D5QueryVSiSgtYaKFTu
++ _$s19HybridSearchAdapter04MailB6ClientV5count6filters5Int64V0aB015ComposableQueryVyAH0D7ContentVG_tYaKF
++ _$s19HybridSearchAdapter04MailB6ClientV5count6filters5Int64V0aB015ComposableQueryVyAH0D7ContentVG_tYaKFTu
++ _$s19HybridSearchAdapter04MailB6ClientV6search_6filter13configurationAC8ResponseVSS_0aB00D5QueryVAC13ConfigurationVtYaKF
++ _$s19HybridSearchAdapter04MailB6ClientV6search_6filter13configurationAC8ResponseVSS_0aB00D5QueryVAC13ConfigurationVtYaKFTu
++ _$s19HybridSearchAdapter04MailB6ClientV6search_6filter13configurationAC8ResponseVSS_0aB015ComposableQueryVyAI0D7ContentVGSgAC13ConfigurationVtYaKF
++ _$s19HybridSearchAdapter04MailB6ClientV6search_6filter13configurationAC8ResponseVSS_0aB015ComposableQueryVyAI0D7ContentVGSgAC13ConfigurationVtYaKFTu
++ _$s19HybridSearchAdapter04MailB6ClientV7isReadySbvg
++ _$s19HybridSearchAdapter04MailB6ClientV7prewarmyyYaF
++ _$s19HybridSearchAdapter04MailB6ClientV7prewarmyyYaFTu
++ _$s19HybridSearchAdapter04MailB6ClientV8ResponseV08semanticB6Status0aB008SemanticbH0Vvg
++ _$s19HybridSearchAdapter04MailB6ClientV8ResponseV11suggestions0aB00D11SuggestionsVvg
++ _$s19HybridSearchAdapter04MailB6ClientV8ResponseV17l2RankingMetadata0aB002L2hI0Vvg
++ _$s19HybridSearchAdapter04MailB6ClientV8ResponseV7resultsSay0aB00B6ResultVGvg
++ _$s19HybridSearchAdapter04MailB6ClientV8ResponseVMa
++ _$s19HybridSearchAdapter04MailB6ClientV8ResponseVMn
++ _$s19HybridSearchAdapter04MailB6ClientV9SortOrderO10descendingyA2EmFWC
++ _$s19HybridSearchAdapter04MailB6ClientV9SortOrderOMa
++ _$s19HybridSearchAdapter04MailB6ClientV9liveQuery5query0aB004LiveG6ResultVAF0G0VyAF0D7ContentVG_tYaKF
++ _$s19HybridSearchAdapter04MailB6ClientV9liveQuery5query0aB004LiveG6ResultVAF0G0VyAF0D7ContentVG_tYaKFTu
++ _$s19HybridSearchAdapter04MailB6ClientV9liveQuery5query6filter11vectorLimit0aB004LiveG6ResultVSS_AH010ComposableG0VyAH0D7ContentVGSgSiSgtYaKF
++ _$s19HybridSearchAdapter04MailB6ClientV9liveQuery5query6filter11vectorLimit0aB004LiveG6ResultVSS_AH010ComposableG0VyAH0D7ContentVGSgSiSgtYaKFTu
++ _$s19HybridSearchAdapter04MailB6ClientVMa
++ _$s19HybridSearchAdapter04MailB6ClientVMn
++ _$sSTsSQ7ElementRpzrlE8containsySbABF
++ _$sSo12CSSuggestionC19HybridSearchAdapterE12toMailFilter0bC00F5QueryVyF
++ _$sSo12CSSuggestionC19HybridSearchAdapterE22toComposableMailFilter0bC00F5QueryVyAE0G7ContentVGyF
++ _CacheDeleteEnumerateRemovedFiles
++ _CacheDeleteInitPurgeMarker
++ _CacheDeleteRegisterPurgeNotification
++ _EDLibraryLog
++ _setiopolicy_np
+- _$s16GenerativeSearch08SemanticB6StatusV12wasTriggeredSbvg
+- _$s16GenerativeSearch08SemanticB6StatusVMa
+- _$s16GenerativeSearch0B17TermSpecificationVMa
+- _$s16GenerativeSearch0B17TermSpecificationVMn
+- _$s16GenerativeSearch0B17TermSpecificationVs23CustomStringConvertibleAAMc
+- _$s16GenerativeSearch0B6ResultV0aB7AdapterE27mailSpotlightSearchableItemSo012CSSearchableH0Cvg
+- _$s16GenerativeSearch0B6ResultVMa
+- _$s16GenerativeSearch0B6ResultVMn
+- _$s16GenerativeSearch10ScanResultV6entityAA6EntityOvg
+- _$s16GenerativeSearch10ScanResultVMa
+- _$s16GenerativeSearch10ScanResultVMn
+- _$s16GenerativeSearch11MailContentV10StoredBodyOMa
+- _$s16GenerativeSearch11MailContentV10StoredBodyOMn
+- _$s16GenerativeSearch11MailContentV10identifierSSvg
+- _$s16GenerativeSearch11MailContentV10storedBodyAC06StoredF0OSgvg
+- _$s16GenerativeSearch11MailContentV19FilterableAttributeOMn
+- _$s16GenerativeSearch11MailContentV19SearchableAttributeOMa
+- _$s16GenerativeSearch11MailContentV19SearchableAttributeOMn
+- _$s16GenerativeSearch11MailContentV19SearchableAttributeOSHAAMc
+- _$s16GenerativeSearch11MailContentVMa
+- _$s16GenerativeSearch11MailContentVMn
+- _$s16GenerativeSearch14AttributeValueO4datayAC10Foundation4DataVcACmFWC
+- _$s16GenerativeSearch14AttributeValueO4dateyAC10Foundation4DateVcACmFWC
+- _$s16GenerativeSearch14AttributeValueO4jsonyACSScACmFWC
+- _$s16GenerativeSearch14AttributeValueO4nullyA2CmFWC
+- _$s16GenerativeSearch14AttributeValueO4textyACSScACmFWC
+- _$s16GenerativeSearch14AttributeValueO6doubleyACSdcACmFWC
+- _$s16GenerativeSearch14AttributeValueO7booleanyACSbcACmFWC
+- _$s16GenerativeSearch14AttributeValueO7integeryACs5Int64VcACmFWC
+- _$s16GenerativeSearch14AttributeValueO9textArrayyACSaySSGcACmFWC
+- _$s16GenerativeSearch14AttributeValueOMa
+- _$s16GenerativeSearch14AttributeValueOMn
+- _$s16GenerativeSearch14QueryPredicateOMn
+- _$s16GenerativeSearch15ComposableQueryV02toD0AA0D0VyxGyF
+- _$s16GenerativeSearch15ComposableQueryV3andyACyxGAEF
+- _$s16GenerativeSearch15ComposableQueryV9predicateAA18AttributePredicateOy010FilterableF0QzGSgvg
+- _$s16GenerativeSearch15ComposableQueryVA2A11MailContentVRszrlE26withSourceBundleIdentifieryACyAEGSSF
+- _$s16GenerativeSearch15ComposableQueryVMn
+- _$s16GenerativeSearch15LiveQueryResultV0cD5DeltaV8removalsShySSGvg
+- _$s16GenerativeSearch15LiveQueryResultV0cD5DeltaV9additionsSayAA09RetrievalE0VGvg
+- _$s16GenerativeSearch15LiveQueryResultV0cD5DeltaVMa
+- _$s16GenerativeSearch15LiveQueryResultV0cD5DeltaVMn
+- _$s16GenerativeSearch15LiveQueryResultV14initialResultsSayAA09RetrievalE0VGvg
+- _$s16GenerativeSearch15LiveQueryResultV6deltasScsyAC0cD5DeltaVs5Error_pGvg
+- _$s16GenerativeSearch15LiveQueryResultVMa
+- _$s16GenerativeSearch15LiveQueryResultVMn
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO10carbonCopyyA2G6PersonVcAGmFWC
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO14senderContainsyA2G7KeywordVcAGmFWC
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO15blindCarbonCopyyA2G6PersonVcAGmFWC
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO15subjectContainsyA2G7KeywordVcAGmFWC
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO2toyA2G6PersonVcAGmFWC
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO4bodyyA2G7KeywordVcAGmFWC
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6PersonV11displayNameSSSgvg
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6PersonV12emailAddressSSvg
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6PersonV17contactIdentifierSSSgvg
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6PersonV21alternateDisplayNamesSaySSGvg
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6PersonV23alternateEmailAddressesSaySSGvg
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6PersonV27alternateContactIdentifiersSaySSSgGvg
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6PersonVMa
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO6senderyA2G6PersonVcAGmFWC
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO7KeywordV20resultingQueryStringSSvg
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO7KeywordVMa
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindO7subjectyA2G7KeywordVcAGmFWC
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV0cE4KindOMa
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionV4kindAE0cE4KindOvg
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionVMa
+- _$s16GenerativeSearch15MailSuggestionsV0C10SuggestionVMn
+- _$s16GenerativeSearch15MailSuggestionsV11suggestionsSayAC0C10SuggestionVGvg
+- _$s16GenerativeSearch15MailSuggestionsVMa
+- _$s16GenerativeSearch15RetrievalResultV0aB7AdapterE27mailSpotlightSearchableItemSo012CSSearchableI0Cvg
+- _$s16GenerativeSearch15RetrievalResultV10identifierSSvg
+- _$s16GenerativeSearch15RetrievalResultV19contentCreationDate10Foundation0G0Vvg
+- _$s16GenerativeSearch15RetrievalResultVMa
+- _$s16GenerativeSearch15RetrievalResultVMn
+- _$s16GenerativeSearch17L2RankingMetadataV11tophitCountSivg
+- _$s16GenerativeSearch17L2RankingMetadataVMa
+- _$s16GenerativeSearch17SearchableContentP19FilterableAttributeAC_AA0F11ConvertibleTn
+- _$s16GenerativeSearch17SearchableContentP19FilterableAttributeAC_SETn
+- _$s16GenerativeSearch17SearchableContentP19FilterableAttributeAC_SeTn
+- _$s16GenerativeSearch17SearchableContentTL
+- _$s16GenerativeSearch17UseCaseIdentifierV8rawValueACSS_tcfC
+- _$s16GenerativeSearch17UseCaseIdentifierVMa
+- _$s16GenerativeSearch18AttributePredicateO11descriptionSSvg
+- _$s16GenerativeSearch18AttributePredicateO11greaterThanyACyxGx_AA0C5ValueOtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
+- _$s16GenerativeSearch18AttributePredicateO13arrayContainsyACyxGx_AA0C5ValueOtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
+- _$s16GenerativeSearch18AttributePredicateO14stringContainsyACyxGx_SStcAEmAA0C11ConvertibleRzSeRzSERzlFWC
+- _$s16GenerativeSearch18AttributePredicateO15lessThanOrEqualyACyxGx_AA0C5ValueOtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
+- _$s16GenerativeSearch18AttributePredicateO18greaterThanOrEqualyACyxGx_AA0C5ValueOtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
+- _$s16GenerativeSearch18AttributePredicateO2oryACyxGAE_AEtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
+- _$s16GenerativeSearch18AttributePredicateO3andyACyxGAE_AEtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
+- _$s16GenerativeSearch18AttributePredicateO3notyACyxGAEcAEmAA0C11ConvertibleRzSeRzSERzlFWC
+- _$s16GenerativeSearch18AttributePredicateO4isInyACyxGx_SayAA0C5ValueOGtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
+- _$s16GenerativeSearch18AttributePredicateO5regexyACyxGx_SStcAEmAA0C11ConvertibleRzSeRzSERzlFWC
+- _$s16GenerativeSearch18AttributePredicateO6equalsyACyxGx_AA0C5ValueOtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
+- _$s16GenerativeSearch18AttributePredicateO6isNullyACyxGxcAEmAA0C11ConvertibleRzSeRzSERzlFWC
+- _$s16GenerativeSearch18AttributePredicateO8lessThanyACyxGx_AA0C5ValueOtcAEmAA0C11ConvertibleRzSeRzSERzlFWC
+- _$s16GenerativeSearch18AttributePredicateO9isNotNullyACyxGxcAEmAA0C11ConvertibleRzSeRzSERzlFWC
+- _$s16GenerativeSearch18AttributePredicateOMa
+- _$s16GenerativeSearch18AttributePredicateOMn
+- _$s16GenerativeSearch20AttributeConvertibleP02toC4NameSSvgTj
+- _$s16GenerativeSearch5QueryV11descriptionSSvg
+- _$s16GenerativeSearch5QueryV11searchTermsSDy19SearchableAttributeQzAA0B17TermSpecificationVGvg
+- _$s16GenerativeSearch5QueryV19redactedDescriptionSSvg
+- _$s16GenerativeSearch5QueryV9predicateAA18AttributePredicateOy010FilterableE0QzGSgvg
+- _$s16GenerativeSearch5QueryVMn
+- _$s16GenerativeSearch6EntityO4mailyAcA11MailContentVcACmFWC
+- _$s16GenerativeSearch6EntityOMa
+- _$s16GenerativeSearch6EntityOMn
+- _$s16GenerativeSearch9MailQueryV0aB7AdapterE4noneACvgZ
+- _$s16GenerativeSearch9MailQueryV14hasAttachmentsACyF
+- _$s16GenerativeSearch9MailQueryV14withIdentifieryACSaySSGF
+- _$s16GenerativeSearch9MailQueryV26withSourceBundleIdentifieryACSSF
+- _$s16GenerativeSearch9MailQueryV2oryA2CF
+- _$s16GenerativeSearch9MailQueryV3andyA2CF
+- _$s16GenerativeSearch9MailQueryV3notACyF
+- _$s16GenerativeSearch9MailQueryV4fromyACSaySSGF
+- _$s16GenerativeSearch9MailQueryV4junkACyF
+- _$s16GenerativeSearch9MailQueryV4readACyF
+- _$s16GenerativeSearch9MailQueryV5afteryAC10Foundation4DateVF
+- _$s16GenerativeSearch9MailQueryV5queryAA0D0VyAA0C7ContentVGvg
+- _$s16GenerativeSearch9MailQueryV5trashACyF
+- _$s16GenerativeSearch9MailQueryV6beforeyAC10Foundation4DateVF
+- _$s16GenerativeSearch9MailQueryV6unreadACyF
+- _$s16GenerativeSearch9MailQueryV7flaggedACyF
+- _$s16GenerativeSearch9MailQueryV9inMailboxyACSSF
+- _$s16GenerativeSearch9MailQueryV9unflaggedACyF
+- _$s16GenerativeSearch9MailQueryVACycfC
+- _$s16GenerativeSearch9MailQueryVMa
+- _$s16GenerativeSearch9MailQueryVMn
+- _$s19FilterableAttribute16GenerativeSearch17SearchableContentPTl
+- _$s23GenerativeSearchAdapter04MailB6ClientV04scanD09predicate5limit6offset9sortOrderSay0aB010ScanResultVGAI14QueryPredicateOyAI0D7ContentV19FilterableAttributeOAP010SearchableR0OGSg_S2iAC04SortK0OtYaKF
+- _$s23GenerativeSearchAdapter04MailB6ClientV04scanD09predicate5limit6offset9sortOrderSay0aB010ScanResultVGAI14QueryPredicateOyAI0D7ContentV19FilterableAttributeOAP010SearchableR0OGSg_S2iAC04SortK0OtYaKFTu
+- _$s23GenerativeSearchAdapter04MailB6ClientV13ConfigurationV0B0V5limit7topHitsAGSi_SitcfC
+- _$s23GenerativeSearchAdapter04MailB6ClientV13ConfigurationV0B0VMa
+- _$s23GenerativeSearchAdapter04MailB6ClientV13ConfigurationV11SuggestionsV5limit12useBodyCacheAGSi_SbtcfC
+- _$s23GenerativeSearchAdapter04MailB6ClientV13ConfigurationV11SuggestionsVMa
+- _$s23GenerativeSearchAdapter04MailB6ClientV13ConfigurationV6search11suggestions7rankingA2E0B0V_AE11SuggestionsVAE7RankingVtcfC
+- _$s23GenerativeSearchAdapter04MailB6ClientV13ConfigurationV7RankingV12useBodyCacheAGSb_tcfC
+- _$s23GenerativeSearchAdapter04MailB6ClientV13ConfigurationV7RankingVMa
+- _$s23GenerativeSearchAdapter04MailB6ClientV13ConfigurationVMa
+- _$s23GenerativeSearchAdapter04MailB6ClientV17useCaseIdentifierAC0aB003UsegH0V_tcfC
+- _$s23GenerativeSearchAdapter04MailB6ClientV19retrieveIdentifiers_6filter11vectorLimitSay0aB015RetrievalResultVGSS_AG0D5QueryVSiSgtYaKF
+- _$s23GenerativeSearchAdapter04MailB6ClientV19retrieveIdentifiers_6filter11vectorLimitSay0aB015RetrievalResultVGSS_AG0D5QueryVSiSgtYaKFTu
+- _$s23GenerativeSearchAdapter04MailB6ClientV5count6filters5Int64V0aB015ComposableQueryVyAH0D7ContentVG_tYaKF
+- _$s23GenerativeSearchAdapter04MailB6ClientV5count6filters5Int64V0aB015ComposableQueryVyAH0D7ContentVG_tYaKFTu
+- _$s23GenerativeSearchAdapter04MailB6ClientV6search_6filter13configurationAC8ResponseVSS_0aB00D5QueryVAC13ConfigurationVtYaKF
+- _$s23GenerativeSearchAdapter04MailB6ClientV6search_6filter13configurationAC8ResponseVSS_0aB00D5QueryVAC13ConfigurationVtYaKFTu
+- _$s23GenerativeSearchAdapter04MailB6ClientV6search_6filter13configurationAC8ResponseVSS_0aB015ComposableQueryVyAI0D7ContentVGSgAC13ConfigurationVtYaKF
+- _$s23GenerativeSearchAdapter04MailB6ClientV6search_6filter13configurationAC8ResponseVSS_0aB015ComposableQueryVyAI0D7ContentVGSgAC13ConfigurationVtYaKFTu
+- _$s23GenerativeSearchAdapter04MailB6ClientV7isReadySbvg
+- _$s23GenerativeSearchAdapter04MailB6ClientV7prewarmyyYaF
+- _$s23GenerativeSearchAdapter04MailB6ClientV7prewarmyyYaFTu
+- _$s23GenerativeSearchAdapter04MailB6ClientV8ResponseV08semanticB6Status0aB008SemanticbH0Vvg
+- _$s23GenerativeSearchAdapter04MailB6ClientV8ResponseV11suggestions0aB00D11SuggestionsVvg
+- _$s23GenerativeSearchAdapter04MailB6ClientV8ResponseV17l2RankingMetadata0aB002L2hI0Vvg
+- _$s23GenerativeSearchAdapter04MailB6ClientV8ResponseV7resultsSay0aB00B6ResultVGvg
+- _$s23GenerativeSearchAdapter04MailB6ClientV8ResponseVMa
+- _$s23GenerativeSearchAdapter04MailB6ClientV8ResponseVMn
+- _$s23GenerativeSearchAdapter04MailB6ClientV9SortOrderO10descendingyA2EmFWC
+- _$s23GenerativeSearchAdapter04MailB6ClientV9SortOrderOMa
+- _$s23GenerativeSearchAdapter04MailB6ClientV9liveQuery5query0aB004LiveG6ResultVAF0G0VyAF0D7ContentVG_tYaKF
+- _$s23GenerativeSearchAdapter04MailB6ClientV9liveQuery5query0aB004LiveG6ResultVAF0G0VyAF0D7ContentVG_tYaKFTu
+- _$s23GenerativeSearchAdapter04MailB6ClientV9liveQuery5query6filter11vectorLimit0aB004LiveG6ResultVSS_AH010ComposableG0VyAH0D7ContentVGSgSiSgtYaKF
+- _$s23GenerativeSearchAdapter04MailB6ClientV9liveQuery5query6filter11vectorLimit0aB004LiveG6ResultVSS_AH010ComposableG0VyAH0D7ContentVGSgSiSgtYaKFTu
+- _$s23GenerativeSearchAdapter04MailB6ClientVMa
+- _$s23GenerativeSearchAdapter04MailB6ClientVMn
+- _$sSo12CSSuggestionC23GenerativeSearchAdapterE12toMailFilter0bC00F5QueryVyF
+- _$sSo12CSSuggestionC23GenerativeSearchAdapterE22toComposableMailFilter0bC00F5QueryVyAE0G7ContentVGyF
+- _CacheDeleteRequestCacheableSpaceGuidance
+- _MFMailDirectoryURL
+- _OBJC_CLASS_$_NSDateComponents
+CStrings:
++ "/private/var"
++ "AttachmentData"
++ "CacheDelete purge history unavailable; rescan needed."
++ "CacheDelete purged attachment file: '%{public}@'."
++ "CacheDelete purged body file: '%{public}@'."
++ "MessageData"
++ "[%{public}s] semanticSearchWasTriggered=%{bool}d, isUnsafeQuery=%{bool}d"
++ "_registerForPurgeNotifications"
++ "baseMailDirectory"
++ "com.apple.mobilemail.purge.bodies"
++ "containsString:"
++ "historyDone"
++ "rescan"
++ "v16@?0^{__CFSet=}8"
+- "#MessageBodyProcessor Begin processing mailbox: %@"
+- "#MessageBodyProcessor Canceling body-backfill download %@ because one with the same name is currently running"
+- "#MessageBodyProcessor Failed to wait for message (%@) download with error %{public}@"
+- "#MessageBodyProcessor Finished body download %@ (Duration: %.2fs)"
+- "#MessageBodyProcessor Finished body download for mailbox %@"
+- "#MessageBodyProcessor Found message to download %@ of size: %lu"
+- "#MessageBodyProcessor Should continue: conditions: %@ | time budget: %@ (stop by %@)"
+- "#MessageBodyProcessor Should stop searching %@ because condition are no more met"
+- "#MessageBodyProcessor Starting body download for mailbox %@ (batch size: %lu)"
+- "#MessageBodyProcessor Starting body-backfill download %@"
+- "#MessageBodyProcessor Stopping body-backfill download because requirements are no longer met"
+- "#MessageBodyProcessor Testing message %{public}@"
+- "@\"<MFDeviceStorage>\""
+- "@\"<MFMailboxMessageBodyProcessorDelegate>\""
+- "@\"<MessageBodyLoader>\""
+- "@40@0:8@16Q24@32"
+- "@40@0:8Q16@24@?32"
+- "B24@0:8@\"MFMailboxMessageBodyProcessor\"16"
+- "BodyProcessor"
+- "CACHE_DELETE_GUIDANCE"
+- "CACHE_DELETE_GUIDANCE_CAN_EXPAND_CACHE"
+- "CACHE_DELETE_GUIDANCE_DO_NOT_EXPAND_CACHE"
+- "CACHE_DELETE_GUIDANCE_WILL_EVICT_LOWER_PRIORITY"
+- "MFDeviceStorage"
+- "MFMailDeviceStorage"
+- "MFMailboxMessageBodyProcessor"
+- "MFMailboxMessageBodyProcessor.m"
+- "MFMailboxMessageBodyProcessorDelegate"
+- "MFMessageBodyProcessor"
+- "MessageConsumer"
+- "T@\"<MFAccountsProvider>\",R,N,V_accountsProvider"
+- "T@\"<MFActivityCondition>\",R,N,V_condition"
+- "T@\"<MFDeviceStorage>\",R,N,V_deviceStorage"
+- "T@\"<MFMailboxMessageBodyProcessorDelegate>\",W,N,V_delegate"
+- "T@\"<MessageBodyLoader>\",R,N,V_messageBodyLoader"
+- "T@\"EFFuture\",R,N"
+- "T@\"MFLibraryStore\",&,N,V_messageStore"
+- "T@\"MFMailMessageLibrary\",R,N"
+- "T@\"MailPersistentStorage\",R,N"
+- "T@\"NSDate\",W,N,V_stopDate"
+- "T@\"NSMutableArray\",&,N,V_messagesAccumulator"
+- "T@\"NSObject<OS_os_activity>\",R,N,V_loggingActivity"
+- "T@\"NSString\",R,C,N,V_name"
+- "T@?,C,N,V_filter"
+- "TQ,N,V_batchSize"
+- "TQ,R,N,V_batchSize"
+- "Tq,N,V_mailboxMessagesBatchSize"
+- "_MFBatchedMessageConsumer"
+- "_MFMFMailboxMessageBodyProcessorLoaderClient"
+- "_batchSize"
+- "_deviceStorage"
+- "_enumerateMessagesToDownload:"
+- "_filter"
+- "_freeSpaceGuidanceForSpaceIncreaseForMessage:"
+- "_loggingActivity"
+- "_mailboxMessagesBatchSize"
+- "_mailboxesToDownload"
+- "_messageStore"
+- "_messagesAccumulator"
+- "_runSynchronously"
+- "_shouldContinueProcessing"
+- "_shouldDownloadMessage:"
+- "_shouldTryToDownloadMessage:"
+- "_spaceIncreaseUrgencyForMessage:"
+- "_stopDate"
+- "batchSize"
+- "com.apple.mobilemail.body.powernap"
+- "currentCalendar"
+- "dateByAddingComponents:toDate:options:"
+- "deviceStorage"
+- "downloadMessageBodiesWithCompletion:"
+- "filter"
+- "freeSpaceGuidanceForSpaceIncrease:urgency:"
+- "handler"
+- "initWithBatchSize:messageStore:filter:"
+- "initWithMailbox:batchSize:deviceStorage:"
+- "initWithName:accountsProvider:deviceStorage:condition:"
+- "loggingActivity"
+- "mailboxMessageBodyProcessorShouldContinueProcessing:"
+- "mailboxMessagesBatchSize"
+- "messageBodyLoader"
+- "messagesAccumulator"
+- "newMessagesAvailable:"
+- "persistentStorage"
+- "q24@?0@\"MFMailboxUid\"8@\"MFMailboxUid\"16"
+- "q32@0:8q16q24"
+- "runSynchronously"
+- "runWithCompletion:"
+- "sendMessagesMatchingCriterion:to:options:"
+- "setBatchSize:"
+- "setFilter:"
+- "setMailboxMessagesBatchSize:"
+- "setMessagesAccumulator:"
+- "setSecond:"
+- "setStopDate:"
+- "stopDate"
+
+```

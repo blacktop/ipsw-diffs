@@ -1,0 +1,48 @@
+## iboot_blob34.bin
+
+- `smc/bms/v1/dynamic_shutdown/battery_dynamic_shutdown.cpp`
+- `smc/bms/v1/bms_v1/bms.cpp`
+- `ILIM_FAIL charger_set_path_priority`
+- `DE: correcting shutdown_threshold from %d to %d`
+- `nductive/drv_bcm59367.cpp`
+- `Unable to write LVR data to GG for pack %d: %d`
+- `Error copy ilim values rc:%d`
+- `smc/bms/v1/charge_control/charge_control.cpp`
+- `upo_periodic_action`
+- `%d: %llu %d`
+- `ILIM_FAIL VBUS2_PWR_SRC1 %d`
+- `Error setting input current limit rc:%d idx:%d`
+- `charger_set_charging_parameters`
+- `Critical Shutdown Requested`
+- `%s: upo_state=%d, clearUPOConConnect=%d`
+- `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
+- `smc/bms/v1/bms_v1/charger_helper/charger_keys_intf.cpp`
+- `LVR init failed: %d`
+- `Error getting LVR data from PMU for pack %d: %d`
+- `Error accessing scratchpad key '%s', rc=%d`
+- `DE: invalid checksum SMC %d AP %d`
+- `Pack[%d] Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d iss=%d vbat=%d dod=%d temp=%d.`
+- `%s: RTK_mc_register_remote returned status %d (!= RTK_ST_OK) `
+- `smc/comms.cpp`
+- `smc/crashlog.cpp`
+- `iOS CHI1 = %d`
+- `%s: pack%d voltage limit changed=%u mV`
+- `dram_region_map_regi`
+- `BMS: pack[%d] gauge start fail, skip critical`
+- `Error checking charger VBUS rc:%d`
+- `DE: Checksum becomes valid SMC %d AP %d`
+- `Pack[%d] Shutdown flags: Battery=%d reason=0x%x`
+- `ILIM_FAIL charger_ilim_cleanup`
+- `%s: iSawAnUPO=%d`
+- `charger_configure_input_src[%d]: ilim=%u, vlim=%u, src:%u`
+- `Resetting charge timer failed, try again...`
+- `gg_fw_update_init = %d`
+- `vBMSTaskStop fail`
+- `BattChgMT %dmAh`
+- `iBoot CHI1 = %d ignored`
+- `ILIM_FAIL charger_get_ilim %d`
+- `ILIM_FAIL charger_ilim_backoff_state_handler`
+- `%s: battery_set_charging_parameter failed`
+- `charger: Failed to set termination voltage to:%umV rc:%d`
+- `smc/bms/v1/bms_v1/charger.cpp`
+- `charger_set_termination_voltage`

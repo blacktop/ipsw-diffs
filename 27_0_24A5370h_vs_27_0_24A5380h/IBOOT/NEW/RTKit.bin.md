@@ -1,0 +1,44 @@
+## RTKit.bin
+
+- `pmu: missing SRAM address/base_register/size`
+- `pmu: FW SRAM access not allowed on main pmu`
+- `paniced_pmu_idx = %u, has_fw = %s, error_count = %u, spmi_error_count = %u`
+- `pmu: sram_addr_hi_reg set error`
+- `fw_ver_string = %s`
+- `UUID: %02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x`
+- `pmu: failed SRAM read (ofst=0x%08hX,len=%u)`
+- `assert_params = 0x%x, 0x%x`
+- `Adapter Eff Loss`
+- ` A%d BCDB !Rdy bat %d Ace %d CapInv %d`
+- `pmu: out of range (ofst=0x%08hX,len=%u)`
+- `smc/pmu_monitor.cpp`
+- `PMU FW Monitor Parameters:`
+- `PMU FW info:`
+- `power rail fault: Restarting`
+- `Measure invalid: v %d i %d`
+- `pmu: failed SRAM write (ofst=0x%08hX,len=%u)`
+- `status = 0x%x`
+- `Battery Discharge`
+- `pmu_feature_flag set to 0x%02x`
+- `Battery Power`
+- `%s: %s:%d: %s, GET_POWER_RAIL_ONOFF_STATUS(%d) not supported (%d)`
+- `<<<PMU monitor crashlog start>>>`
+- `ticks_diff = %lld, expected_ticks_diff = %lld, iter_counter = %u, previous_count = %u`
+- `power rail fault: ADC ch %u reading failed`
+- `assert_id = %d`
+- `System Power In`
+- `pmu: FW SRAM is in use`
+- `sALD r/w = 0x%02X, val = %d, rc = %d`
+- `Could not complete appending PMU FW information to crashlog because of SPMI err`
+- `smc/ppm_task.cpp`
+- `pmu: sram_addr_lo_reg set error`
+- `%s: %s:%d: %s, pmu %d health, err_count: %d, spmi_err_count: %d,  diff:%lld  expected_diff:%lld, fw_status:0x%llx, assert_id:%d, hw_status:0x%x assert params:0x%x 0x%x`
+- `preventing overflow for %s accumulator, resetting`
+- `smc/pmu/pmu_v3.cpp`
+- `From non-primary PMU: IRQ %d`
+- `CA notification error %u`
+- `power rail fault: *Fault* in ch %u %lld (thre=%lld)`
+- `power rail fault: all rails disabled`
+- `<<<PMU monitor crashlog end>>>`
+- `%s: %s:%d: %s, pmu %d health, err_count: %d, spmi_err_count: %d,  diff:%lld  expected_diff:%lld`
+- `power rail fault[%d]: flag set`
