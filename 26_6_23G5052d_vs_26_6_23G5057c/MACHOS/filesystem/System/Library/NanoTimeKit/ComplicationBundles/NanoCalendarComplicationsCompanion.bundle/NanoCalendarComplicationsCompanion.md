@@ -1,0 +1,58 @@
+## NanoCalendarComplicationsCompanion
+
+> `/System/Library/NanoTimeKit/ComplicationBundles/NanoCalendarComplicationsCompanion.bundle/NanoCalendarComplicationsCompanion`
+
+```diff
+Sections:
+~ __TEXT.__oslogstring : content changed
+CStrings:
++ "==> alerts_ttl [Jun 27 2026 03:50:56]"
++ "==> always_on_display [Jun 27 2026 03:50:56]"
++ "==> bulletin_ui [Jun 27 2026 03:50:56]"
++ "==> complication [Jun 27 2026 03:50:56]"
++ "==> data_display [Jun 27 2026 03:50:56]"
++ "==> data_loading [Jun 27 2026 03:50:56]"
++ "==> data_loading_verbose [Jun 27 2026 03:50:56]"
++ "==> debugging [Jun 27 2026 03:50:56]"
++ "==> error [Jun 27 2026 03:50:56]"
++ "==> event_creation [Jun 27 2026 03:50:56]"
++ "==> icon_generation [Jun 27 2026 03:50:56]"
++ "==> lifecycle [Jun 27 2026 03:50:56]"
++ "==> metrics [Jun 27 2026 03:50:56]"
++ "==> reminders_demo [Jun 27 2026 03:50:56]"
++ "==> reminders_snapshot [Jun 27 2026 03:50:56]"
++ "==> selected_calendars [Jun 27 2026 03:50:56]"
++ "==> settings [Jun 27 2026 03:50:56]"
++ "==> snapshot [Jun 27 2026 03:50:56]"
++ "==> snapshot_creation [Jun 27 2026 03:50:56]"
++ "==> snapshot_vending [Jun 27 2026 03:50:56]"
++ "==> status_bar [Jun 27 2026 03:50:56]"
++ "==> user_data_change [Jun 27 2026 03:50:56]"
++ "==> user_interaction [Jun 27 2026 03:50:56]"
++ "==> utility [Jun 27 2026 03:50:56]"
+- "==> alerts_ttl [Jun 17 2026 08:30:18]"
+- "==> always_on_display [Jun 17 2026 08:30:18]"
+- "==> bulletin_ui [Jun 17 2026 08:30:18]"
+- "==> complication [Jun 17 2026 08:30:18]"
+- "==> data_display [Jun 17 2026 08:30:18]"
+- "==> data_loading [Jun 17 2026 08:30:18]"
+- "==> data_loading_verbose [Jun 17 2026 08:30:18]"
+- "==> debugging [Jun 17 2026 08:30:18]"
+- "==> error [Jun 17 2026 08:30:18]"
+- "==> event_creation [Jun 17 2026 08:30:18]"
+- "==> icon_generation [Jun 17 2026 08:30:18]"
+- "==> lifecycle [Jun 17 2026 08:30:18]"
+- "==> metrics [Jun 17 2026 08:30:18]"
+- "==> reminders_demo [Jun 17 2026 08:30:18]"
+- "==> reminders_snapshot [Jun 17 2026 08:30:18]"
+- "==> selected_calendars [Jun 17 2026 08:30:18]"
+- "==> settings [Jun 17 2026 08:30:18]"
+- "==> snapshot [Jun 17 2026 08:30:18]"
+- "==> snapshot_creation [Jun 17 2026 08:30:18]"
+- "==> snapshot_vending [Jun 17 2026 08:30:18]"
+- "==> status_bar [Jun 17 2026 08:30:18]"
+- "==> user_data_change [Jun 17 2026 08:30:18]"
+- "==> user_interaction [Jun 17 2026 08:30:18]"
+- "==> utility [Jun 17 2026 08:30:18]"
+
+```
