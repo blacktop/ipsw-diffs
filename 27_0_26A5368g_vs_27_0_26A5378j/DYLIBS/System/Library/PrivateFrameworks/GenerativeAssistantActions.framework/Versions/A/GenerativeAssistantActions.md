@@ -1,0 +1,40 @@
+## GenerativeAssistantActions
+
+> `/System/Library/PrivateFrameworks/GenerativeAssistantActions.framework/Versions/A/GenerativeAssistantActions`
+
+```diff
+
+-  __TEXT.__text: 0xb7f84
++  __TEXT.__text: 0xb8000
+   __TEXT.__const: 0x41b8
+   __TEXT.__constg_swiftt: 0x131c
+   __TEXT.__swift5_typeref: 0x110a
+Sections:
+~ __TEXT.__const : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_typeref : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__unwind_info : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__data : content changed
+Functions:
+~ _$s26GenerativeAssistantActions31GenerateTextFromMediaControllerV08generateeF5Image33_B096FFEE7FB77E152B29E1FFF0AD2F3ELL9userQuery15requestMetadata9imageInfo20associatedScreenshot21intentCallbackManagerAA17GeneratedResponseVSS_AA0a7RequestW0VAA0jY0VAPSgAA21IntentCallbackManagerVtYaKFTY21_ : 2720 -> 2724
+~ _$s26GenerativeAssistantActions31GenerateTextFromMediaControllerV08generateeF5Image33_B096FFEE7FB77E152B29E1FFF0AD2F3ELL9userQuery15requestMetadata9imageInfo20associatedScreenshot21intentCallbackManagerAA17GeneratedResponseVSS_AA0a7RequestW0VAA0jY0VAPSgAA21IntentCallbackManagerVtYaKFTY23_ : 3888 -> 3892
+~ _$s26GenerativeAssistantActions31GenerateTextFromMediaControllerV08generateeF8Document33_B096FFEE7FB77E152B29E1FFF0AD2F3ELL9userQuery15requestMetadata12documentInfo20associatedScreenshot21intentCallbackManagerAA17GeneratedResponseVSS_AA0a7RequestW0VAA0jY0VAA05ImageY0VSgAA21IntentCallbackManagerVtYaKFTY11_ : 3088 -> 3096
+~ _$s26GenerativeAssistantActions31GenerateTextFromMediaControllerV08generateeF8Document33_B096FFEE7FB77E152B29E1FFF0AD2F3ELL9userQuery15requestMetadata12documentInfo20associatedScreenshot21intentCallbackManagerAA17GeneratedResponseVSS_AA0a7RequestW0VAA0jY0VAA05ImageY0VSgAA21IntentCallbackManagerVtYaKFTY13_ : 3056 -> 3064
+~ _$s26GenerativeAssistantActions31GenerateTextFromMediaControllerV08generateeF8Document33_B096FFEE7FB77E152B29E1FFF0AD2F3ELL9userQuery15requestMetadata12documentInfo20associatedScreenshot21intentCallbackManagerAA17GeneratedResponseVSS_AA0a7RequestW0VAA0jY0VAA05ImageY0VSgAA21IntentCallbackManagerVtYaKFTY15_ : 3088 -> 3096
+~ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VySSG_s010CollectionH3OneVySSGTg5Tf4nngn_n : 228 -> 312
+~ _$s26GenerativeAssistantActions22GenerateTextControllerV19generateRichContent9userQuery15requestMetadata21intentCallbackManagerAA17GeneratedResponseVSS_AA0a7RequestM0VAA06IntentoP0VtYaKFTY4_ : 1888 -> 1892
+~ _$s26GenerativeAssistantActions22GenerateTextControllerV36generateRichContentWithStreamWrapper9userQuery15requestMetadata21intentCallbackManager07partnerkL0AA17GeneratedResponseVSS_AA0a7RequestP0VAA06IntentrS0VAA07PartnerkL0CtYaKFTY4_ : 1904 -> 1908
+
+```

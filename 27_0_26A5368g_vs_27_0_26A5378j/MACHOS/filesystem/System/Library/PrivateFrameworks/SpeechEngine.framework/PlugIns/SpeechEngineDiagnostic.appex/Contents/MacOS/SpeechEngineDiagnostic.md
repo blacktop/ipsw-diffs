@@ -1,0 +1,24 @@
+## SpeechEngineDiagnostic
+
+> `/System/Library/PrivateFrameworks/SpeechEngine.framework/PlugIns/SpeechEngineDiagnostic.appex/Contents/MacOS/SpeechEngineDiagnostic`
+
+```diff
+
+-  __TEXT.__text: 0x3b30
++  __TEXT.__text: 0x3b1c
+   __TEXT.__auth_stubs: 0x4c0
+   __TEXT.__objc_stubs: 0xa0
+   __TEXT.__objc_methlist: 0x38
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_typeref : content changed
+~ __TEXT.__unwind_info : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA.__objc_const : content changed
+~ __DATA.__objc_selrefs : content changed
+~ __DATA.__objc_data : content changed
+Functions:
+~ sub_1000042d0 : 764 -> 744
+
+```

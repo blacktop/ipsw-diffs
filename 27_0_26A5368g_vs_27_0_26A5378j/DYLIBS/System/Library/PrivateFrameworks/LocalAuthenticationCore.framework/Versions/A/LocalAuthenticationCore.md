@@ -1,0 +1,399 @@
+## LocalAuthenticationCore
+
+> `/System/Library/PrivateFrameworks/LocalAuthenticationCore.framework/Versions/A/LocalAuthenticationCore`
+
+```diff
+
+-  __TEXT.__text: 0x14efd0
+-  __TEXT.__objc_methlist: 0xa248
+-  __TEXT.__const: 0x7499
+-  __TEXT.__gcc_except_tab: 0xb24
+-  __TEXT.__oslogstring: 0x7d04
+-  __TEXT.__cstring: 0xafc4
++  __TEXT.__text: 0x14f5b4
++  __TEXT.__objc_methlist: 0xa330
++  __TEXT.__const: 0x73c9
++  __TEXT.__gcc_except_tab: 0xb50
++  __TEXT.__oslogstring: 0x7e84
++  __TEXT.__cstring: 0xb074
+   __TEXT.__dlopen_cstrs: 0x2a3
+-  __TEXT.__swift5_typeref: 0x2b3a
+-  __TEXT.__swift5_capture: 0x162c
+-  __TEXT.__constg_swiftt: 0x2398
+-  __TEXT.__swift5_reflstr: 0xc81
+-  __TEXT.__swift5_fieldmd: 0x13e0
++  __TEXT.__swift5_typeref: 0x2b14
++  __TEXT.__swift5_capture: 0x1614
++  __TEXT.__constg_swiftt: 0x2364
++  __TEXT.__swift5_reflstr: 0xc61
++  __TEXT.__swift5_fieldmd: 0x1384
+   __TEXT.__swift5_builtin: 0x21c
+   __TEXT.__swift5_assocty: 0x4c8
+-  __TEXT.__swift5_proto: 0x364
+-  __TEXT.__swift5_types: 0x1e8
++  __TEXT.__swift5_proto: 0x35c
++  __TEXT.__swift5_types: 0x1e0
+   __TEXT.__swift5_protos: 0x5c
+   __TEXT.__swift_as_entry: 0xa4
+   __TEXT.__swift_as_cont: 0xe8
+   __TEXT.__swift_as_ret: 0x98
+   __TEXT.__swift5_mpenum: 0x1c
+-  __TEXT.__unwind_info: 0x5098
+-  __TEXT.__eh_frame: 0x46a0
++  __TEXT.__unwind_info: 0x5090
++  __TEXT.__eh_frame: 0x4670
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1478
++  __DATA_CONST.__const: 0x1498
+   __DATA_CONST.__objc_classlist: 0x910
+   __DATA_CONST.__objc_protolist: 0x700
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3ba8
++  __DATA_CONST.__objc_selrefs: 0x3c30
+   __DATA_CONST.__objc_protorefs: 0x360
+   __DATA_CONST.__objc_superrefs: 0x358
+-  __DATA_CONST.__got: 0xb80
+-  __AUTH_CONST.__const: 0x835b
+-  __AUTH_CONST.__cfstring: 0x60e0
+-  __AUTH_CONST.__objc_const: 0x3c048
++  __DATA_CONST.__got: 0xb78
++  __AUTH_CONST.__const: 0x82c3
++  __AUTH_CONST.__cfstring: 0x6140
++  __AUTH_CONST.__objc_const: 0x3bfe8
+   __AUTH_CONST.__objc_intobj: 0xc0
+-  __AUTH_CONST.__auth_got: 0x1340
+-  __AUTH.__objc_data: 0x2848
+-  __AUTH.__data: 0xc78
+-  __DATA.__objc_ivar: 0x568
+-  __DATA.__data: 0x5092
+-  __DATA.__bss: 0x63c8
++  __AUTH_CONST.__auth_got: 0x1360
++  __AUTH.__objc_data: 0x48b8
++  __AUTH.__data: 0x9b8
++  __DATA.__objc_ivar: 0x56c
++  __DATA.__data: 0x5082
++  __DATA.__bss: 0x62e8
+   __DATA.__common: 0x8
+-  __DATA_DIRTY.__objc_data: 0x47d8
+-  __DATA_DIRTY.__data: 0x1d88
++  __DATA_DIRTY.__objc_data: 0x2770
++  __DATA_DIRTY.__data: 0x1fe0
+   __DATA_DIRTY.__bss: 0x4f8
+   __DATA_DIRTY.__common: 0x60
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /System/Library/PrivateFrameworks/AppleKeyStore.framework/Versions/A/AppleKeyStore
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
++  - /System/Library/PrivateFrameworks/DFRFoundation.framework/Versions/A/DFRFoundation
+   - /System/Library/PrivateFrameworks/DiskManagement.framework/Versions/A/DiskManagement
+   - /System/Library/PrivateFrameworks/LocalAuthenticationCredentialServices.framework/Versions/A/LocalAuthenticationCredentialServices
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/Versions/A/MobileKeyBag
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 8224
+-  Symbols:   20628
+-  CStrings:  2930
++  Functions: 8226
++  Symbols:   20608
++  CStrings:  2948
+ 
+Sections:
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __AUTH_CONST.__objc_intobj : content changed
+Symbols:
++ +[LACACMHelper createContext:]
++ +[LACACMHelper createContextWithExternalForm:]
++ +[LACACMHelper createContextWithFlags:contextRef:]
++ +[LACMobileGestalt _updateDFRStatus]
++ +[LACMobileGestalt _updateWithDFRStatus:source:]
++ +[LACMobileGestalt deviceHasAtLeastSimulatedDFR]
++ +[LACMobileGestalt deviceHasDFR]
++ +[LACMobileGestalt deviceHasSecureDFR]
++ +[LACMobileGestalt deviceHasSecureDoublePressHW]
++ +[LACMobileGestalt deviceHasSpecialTouchID]
++ +[LACMobileGestalt deviceHasTouchIDAndSecureDoublePress]
++ +[LACMobileGestalt deviceIsPoseidon]
++ +[LACMobileGestalt deviceSupportsSecureDoubleClick]
++ +[LACMobileGestalt dfrStatus]
++ GCC_except_table110
++ GCC_except_table30
++ GCC_except_table60
++ GCC_except_table67
++ GCC_except_table87
++ GCC_except_table89
++ GCC_except_table91
++ GCC_except_table93
++ GCC_except_table95
++ GCC_except_table97
++ LACLogPushButton
++ LACLogPushButton.__logObj
++ LACLogPushButton.onceToken
++ OBJC_IVAR_$_LACUserInterfaceRemoteUIAdapter._currentRequestId
++ _$s15Synchronization5MutexVMn
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC06reportE13CreationRetry13originalError05retryL0ySi_SitF
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC06reportE13CreationRetry13originalError05retryL0ySi_SitFTo
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0014_A90692431F3D3K17C560F240C9A719F89LLSo0dG0_pvpWvd
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0dG0_p_tcfC
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0dG0_p_tcfCTfq4en_n
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0dG0_p_tcfCTj
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0dG0_p_tcfCTq
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0dG0_p_tcfc
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0dG0_p_tcfcTf4en_n
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterCMu
++ _$s23LocalAuthenticationCore6LACLogO8sessions2os6LoggerVvgZ
++ _$s23LocalAuthenticationCore6LACLogO8sessions2os6LoggerVvpZMV
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE16createConnection9forModule11serviceNameSo15NSXPCConnectionCSgSo12LACAHPModulea_SStF
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE16createConnection9forModule11serviceNameSo15NSXPCConnectionCSgSo12LACAHPModulea_SStFTf4nnd_n
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE16createConnection9forModule11serviceNameSo15NSXPCConnectionCSgSo12LACAHPModulea_SStFTo
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE19configureConnection33_8685B772FCE7C057618E0A36B40B2188LL_9forModuleSo6LACAHP_pSgSo15NSXPCConnectionC_So12LACAHPModuleatF
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE19configureConnection33_8685B772FCE7C057618E0A36B40B2188LL_9forModuleSo6LACAHP_pSgSo15NSXPCConnectionC_So12LACAHPModuleatFTo
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE19configureConnection33_8685B772FCE7C057618E0A36B40B2188LL_9forModuleSo6LACAHP_pSgSo15NSXPCConnectionC_So12LACAHPModuleatFys5Error_pcfU2_
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE19configureConnection33_8685B772FCE7C057618E0A36B40B2188LL_9forModuleSo6LACAHP_pSgSo15NSXPCConnectionC_So12LACAHPModuleatFys5Error_pcfU2_TA
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE19configureConnection33_8685B772FCE7C057618E0A36B40B2188LL_9forModuleSo6LACAHP_pSgSo15NSXPCConnectionC_So12LACAHPModuleatFyyXEfU1_
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE19configureConnection33_8685B772FCE7C057618E0A36B40B2188LL_9forModuleSo6LACAHP_pSgSo15NSXPCConnectionC_So12LACAHPModuleatFyyXEfU1_TA
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE19configureConnection33_8685B772FCE7C057618E0A36B40B2188LL_9forModuleSo6LACAHP_pSgSo15NSXPCConnectionC_So12LACAHPModuleatFyyXEfU3_
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE19configureConnection33_8685B772FCE7C057618E0A36B40B2188LL_9forModuleSo6LACAHP_pSgSo15NSXPCConnectionC_So12LACAHPModuleatFyyXEfU3_TA
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE19configureConnection33_8685B772FCE7C057618E0A36B40B2188LL_9forModuleSo6LACAHP_pSgSo15NSXPCConnectionC_So12LACAHPModuleatFyycfU0_TA
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE19configureConnection33_8685B772FCE7C057618E0A36B40B2188LL_9forModuleSo6LACAHP_pSgSo15NSXPCConnectionC_So12LACAHPModuleatFyycfU_TA
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE19configureConnection33_8685B772FCE7C057618E0A36B40B2188LL_9forModuleSo6LACAHP_pSgSo15NSXPCConnectionC_So12LACAHPModuleatFyycfU_Tm
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE23handleConnectionFailure33_8685B772FCE7C057618E0A36B40B2188LL3for10connectionySo12LACAHPModulea_So15NSXPCConnectionCSgtF
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE23handleConnectionFailure33_8685B772FCE7C057618E0A36B40B2188LL3for10connectionySo12LACAHPModulea_So15NSXPCConnectionCSgtFTo
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE23handleConnectionFailure33_8685B772FCE7C057618E0A36B40B2188LL3for10connectionySo12LACAHPModulea_So15NSXPCConnectionCSgtFyyXEfU_
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE23handleConnectionFailure33_8685B772FCE7C057618E0A36B40B2188LL3for10connectionySo12LACAHPModulea_So15NSXPCConnectionCSgtFyyXEfU_TA
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE24moduleConnectionProviderSo25LACAHPConnectionProviding_pSgvg
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE24moduleConnectionProviderSo25LACAHPConnectionProviding_pSgvgTo
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE24moduleConnectionProviderSo25LACAHPConnectionProviding_pSgvpMV
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE24moduleConnectionProviderSo25LACAHPConnectionProviding_pSgvpWvd
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE24moduleConnectionProviderSo25LACAHPConnectionProviding_pSgvs
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE24moduleConnectionProviderSo25LACAHPConnectionProviding_pSgvsTo
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE26deactivateAllActiveModules33_8685B772FCE7C057618E0A36B40B2188LL7context22moduleDeactivatedBlockySDys11AnyHashableVypGSg_ySo12LACAHPModuleactFyyYbcfU0_TATm
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE8xpcProxy33_8685B772FCE7C057618E0A36B40B2188LL3for7onErrorSo6LACAHP_pSgSo12LACAHPModulea_ys0P0_pctFysAL_pcfU0_
++ _$sSo13LACAHPManagerC23LocalAuthenticationCoreE8xpcProxy33_8685B772FCE7C057618E0A36B40B2188LL3for7onErrorSo6LACAHP_pSgSo12LACAHPModulea_ys0P0_pctFysAL_pcfU0_TA
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSo18NSFileAttributeKeya_ypTg5
++ _DFRGetStatus
++ _DFRRegisterStatusChangeCallback
++ _LACLogPushButton
++ _OUTLINED_FUNCTION_69
++ _OUTLINED_FUNCTION_70
++ __38+[LACMobileGestalt deviceHasSecureDFR]_block_invoke
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_LACAHPConnectionProviding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_LACAHPConnectionProviding
++ __OBJC_$_PROTOCOL_REFS_LACAHPConnectionProviding
++ __OBJC_LABEL_PROTOCOL_$_LACAHPConnectionProviding
++ __OBJC_PROTOCOL_$_LACAHPConnectionProviding
++ ___36+[LACMobileGestalt _updateDFRStatus]_block_invoke
++ ___36+[LACMobileGestalt _updateDFRStatus]_block_invoke_2
++ ___38+[LACMobileGestalt deviceHasSecureDFR]_block_invoke
++ ___LACLogPushButton_block_invoke
++ ___block_descriptor_40_e8_v16?0Q8l
++ __dfrStatus
++ __swift_closure_destructor.144Tm
++ __swift_closure_destructor.239Tm
++ __swift_closure_destructor.275Tm
++ _keypath_get_selector_moduleConnectionProvider
++ _objc_msgSend$_updateDFRStatus
++ _objc_msgSend$_updateWithDFRStatus:source:
++ _objc_msgSend$configureConnection:forModule:
++ _objc_msgSend$createConnectionForModule:serviceName:
++ _objc_msgSend$createContext:
++ _objc_msgSend$createContextWithExternalForm:
++ _objc_msgSend$createContextWithFlags:contextRef:
++ _objc_msgSend$deviceHasSecureDFR
++ _objc_msgSend$deviceHasSecureDoublePressHW
++ _objc_msgSend$deviceSupportsSecureDoubleClick
++ _objc_msgSend$handleConnectionFailureFor:connection:
++ _objc_msgSend$moduleConnectionProvider
++ _objc_msgSend$reportAnomaly:
++ _objc_msgSend$reportContextCreationRetryWithOriginalError:retryError:
++ _objc_msgSend$setModuleConnectionProvider:
++ _objc_sync_enter
++ _objc_sync_exit
++ _symbolic _____yxG 15Synchronization5MutexVAARi_zrlE
++ _updateDFRStatus.onceToken
+- $sSo13LACAHPManagerC23LocalAuthenticationCoreE20createModuleInstance_11serviceNameSo6LACAHP_pSgSo12LACAHPModulea_SStFys5Error_pcfU2_TA
+- GCC_except_table104
+- GCC_except_table27
+- GCC_except_table57
+- GCC_except_table58
+- GCC_except_table64
+- GCC_except_table84
+- GCC_except_table86
+- GCC_except_table88
+- GCC_except_table90
+- GCC_except_table92
+- GCC_except_table94
+- _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0014_A90692431F3D3K17C560F240C9A719F89LLSo0dG0CvpWvd
+- _$s23LocalAuthenticationCore9LACLoggerV13dtoEvaluationACvgZ
+- _$s23LocalAuthenticationCore9LACLoggerV13dtoEvaluationACvpZMV
+- _$s23LocalAuthenticationCore9LACLoggerV14dtoEnvironmentACvgZ
+- _$s23LocalAuthenticationCore9LACLoggerV14dtoEnvironmentACvpZMV
+- _$s23LocalAuthenticationCore9LACLoggerV2uiACvgZ
+- _$s23LocalAuthenticationCore9LACLoggerV2uiACvpZMV
+- _$s23LocalAuthenticationCore9LACLoggerV3abmACvgZ
+- _$s23LocalAuthenticationCore9LACLoggerV3abmACvgZTm
+- _$s23LocalAuthenticationCore9LACLoggerV3abmACvpZMV
+- _$s23LocalAuthenticationCore9LACLoggerV3log5level_yAC5LevelO_SStF
+- _$s23LocalAuthenticationCore9LACLoggerV3logyySSF
+- _$s23LocalAuthenticationCore9LACLoggerV4infoyySSF
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelO2eeoiySbAE_AEtFZ
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelO4hash4intoys6HasherVz_tF
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelO4infoyA2EmFWC
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelO5debugyA2EmFWC
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelO5erroryA2EmFWC
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelO7defaultyA2EmFWC
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelO9hashValueSivg
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelO9hashValueSivpMV
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOAESQAAWL
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOAESQAAWl
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOMF
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOMa
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOMf
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOMn
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelON
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOSHAAMc
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOSHAAMcMK
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOSHAASH13_rawHashValue4seedS2i_tFTW
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOSHAASH4hash4intoys6HasherVz_tFTW
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOSHAASH9hashValueSivgTW
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOSHAASQWb
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOSQAAMc
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOSQAAMcMK
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOSQAASQ2eeoiySbx_xtFZTW
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOWV
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOwet
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOwst
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOwug
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOwui
+- _$s23LocalAuthenticationCore9LACLoggerV5LevelOwup
+- _$s23LocalAuthenticationCore9LACLoggerV5debugyySSF
+- _$s23LocalAuthenticationCore9LACLoggerV5dtoUIACvgZ
+- _$s23LocalAuthenticationCore9LACLoggerV5dtoUIACvpZMV
+- _$s23LocalAuthenticationCore9LACLoggerV5erroryySSF
+- _$s23LocalAuthenticationCore9LACLoggerV5testsACvgZ
+- _$s23LocalAuthenticationCore9LACLoggerV5testsACvpZMV
+- _$s23LocalAuthenticationCore9LACLoggerV7defaultACvgZ
+- _$s23LocalAuthenticationCore9LACLoggerV7defaultACvpZMV
+- _$s23LocalAuthenticationCore9LACLoggerV7warningyySSF
+- _$s23LocalAuthenticationCore9LACLoggerV8preboardACvgZ
+- _$s23LocalAuthenticationCore9LACLoggerV8preboardACvpZMV
+- _$s23LocalAuthenticationCore9LACLoggerV9processorACvgZ
+- _$s23LocalAuthenticationCore9LACLoggerV9processorACvpZMV
+- _$s23LocalAuthenticationCore9LACLoggerVMF
+- _$s23LocalAuthenticationCore9LACLoggerVMa
+- _$s23LocalAuthenticationCore9LACLoggerVMf
+- _$s23LocalAuthenticationCore9LACLoggerVMl
+- _$s23LocalAuthenticationCore9LACLoggerVMn
+- _$s23LocalAuthenticationCore9LACLoggerVMr
+- _$s23LocalAuthenticationCore9LACLoggerVN
+- _$s23LocalAuthenticationCore9LACLoggerVWV
+- _$s23LocalAuthenticationCore9LACLoggerVwet
+- _$s23LocalAuthenticationCore9LACLoggerVwst
+- _$s2os6LoggerV23LocalAuthenticationCoreE5dtoUIACvgZ
+- _$s2os6LoggerV23LocalAuthenticationCoreE5dtoUIACvpZMV
+- _$s2os6LoggerVMn
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE14loadAllModules33_8685B772FCE7C057618E0A36B40B2188LL17moduleLoadedBlock10completionyySo12LACAHPModulea_s5Error_pSgtc_ySayAIGctFyyYbcfU_TATm
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE20createModuleInstance_11serviceNameSo6LACAHP_pSgSo12LACAHPModulea_SStF
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE20createModuleInstance_11serviceNameSo6LACAHP_pSgSo12LACAHPModulea_SStFTo
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE20createModuleInstance_11serviceNameSo6LACAHP_pSgSo12LACAHPModulea_SStFys5Error_pcfU2_
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE20createModuleInstance_11serviceNameSo6LACAHP_pSgSo12LACAHPModulea_SStFys5Error_pcfU2_TA
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE20createModuleInstance_11serviceNameSo6LACAHP_pSgSo12LACAHPModulea_SStFytSgyXEfU1_
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE20createModuleInstance_11serviceNameSo6LACAHP_pSgSo12LACAHPModulea_SStFytSgyXEfU1_TA
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE20createModuleInstance_11serviceNameSo6LACAHP_pSgSo12LACAHPModulea_SStFyyXEfU3_
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE20createModuleInstance_11serviceNameSo6LACAHP_pSgSo12LACAHPModulea_SStFyyXEfU3_TA
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE20createModuleInstance_11serviceNameSo6LACAHP_pSgSo12LACAHPModulea_SStFyycfU0_TA
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE20createModuleInstance_11serviceNameSo6LACAHP_pSgSo12LACAHPModulea_SStFyycfU_TA
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE20createModuleInstance_11serviceNameSo6LACAHP_pSgSo12LACAHPModulea_SStFyycfU_TATm
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE20createModuleInstance_11serviceNameSo6LACAHP_pSgSo12LACAHPModulea_SStFyycfU_Tm
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE23handleConnectionFailure3for10connectionySo12LACAHPModulea_So15NSXPCConnectionCSgtF
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE23handleConnectionFailure3for10connectionySo12LACAHPModulea_So15NSXPCConnectionCSgtFyyXEfU_
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE23handleConnectionFailure3for10connectionySo12LACAHPModulea_So15NSXPCConnectionCSgtFyyXEfU_TA
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE23moduleProvidingDelegateSo012LACAHPModuleF0_pSgvg
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE23moduleProvidingDelegateSo012LACAHPModuleF0_pSgvgTo
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE23moduleProvidingDelegateSo012LACAHPModuleF0_pSgvpMV
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE23moduleProvidingDelegateSo012LACAHPModuleF0_pSgvpWvd
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE23moduleProvidingDelegateSo012LACAHPModuleF0_pSgvs
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE23moduleProvidingDelegateSo012LACAHPModuleF0_pSgvsTo
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE8xpcProxy33_8685B772FCE7C057618E0A36B40B2188LL3for7onErrorSo6LACAHP_pSgSo12LACAHPModulea_ys0P0_pctFAIyXEfU0_
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE8xpcProxy33_8685B772FCE7C057618E0A36B40B2188LL3for7onErrorSo6LACAHP_pSgSo12LACAHPModulea_ys0P0_pctFAIyXEfU0_TA
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE8xpcProxy33_8685B772FCE7C057618E0A36B40B2188LL3for7onErrorSo6LACAHP_pSgSo12LACAHPModulea_ys0P0_pctFysAL_pcfU1_
+- _$sSo13LACAHPManagerC23LocalAuthenticationCoreE8xpcProxy33_8685B772FCE7C057618E0A36B40B2188LL3for7onErrorSo6LACAHP_pSgSo12LACAHPModulea_ys0P0_pctFysAL_pcfU1_TA
+- _$sSo6LACAHP_pSgMR
+- _$sSo6LACAHP_pSgMd
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_23LocalAuthenticationCore012LACCompanionN14PendingRequest33_7C23A2E67F893FA563A4E1A97AE88CD3LLCTg5
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_23LocalAuthenticationCore012LACCompanionN24ControllerPendingRequestCTg5
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSo30LACEvaluationRequestPayloadKeya_ypTg5
+- _$sytSgMR
+- _$sytSgMd
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_LACAHPModuleProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_LACAHPModuleProviding
+- __OBJC_$_PROTOCOL_REFS_LACAHPModuleProviding
+- __OBJC_LABEL_PROTOCOL_$_LACAHPModuleProviding
+- __OBJC_PROTOCOL_$_LACAHPModuleProviding
+- __swift_closure_destructor.178Tm
+- __swift_closure_destructor.279Tm
+- __swift_closure_destructor.86Tm
+- _associated conformance 23LocalAuthenticationCore9LACLoggerV5LevelOSHAASQ
+- _keypath_get_selector_moduleProvidingDelegate
+- _objc_msgSend$createModuleInstance:serviceName:
+- _objc_msgSend$moduleProvidingDelegate
+- _objc_msgSend$setModuleProvidingDelegate:
+- _swift_runtimeSupportsNoncopyableTypes
+- _symbolic _____ 23LocalAuthenticationCore9LACLoggerV
+- _symbolic _____ 23LocalAuthenticationCore9LACLoggerV5LevelO
+- _symbolic _____ 2os6LoggerV
+- _symbolic ______pSg So6LACAHPP
+- _symbolic ytSg
+- get_type_metadata l15Synchronization5MutexVyxG noncopyable
+CStrings:
++ "%@ not processing dismiss message for rid: %u - id does not match %u"
++ "%{public}@ updated DFR status: %x"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wifYPg/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wifYPg/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wifYPg/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wifYPg/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wifYPg/Sources/AppleCredentialManager_ClientLibs/common/LibSerialization.c"
++ "ACMContextCreateWithExternalForm returned NULL."
++ "ACMContextCreateWithFlags rc=%d."
++ "ACMContextCreateWithFlags rc=0 (after retrying on rc=%d)."
++ "Connection configured for module %{public}s"
++ "DFRGetStatus"
++ "Failed to mint proxy for module: "
++ "Module %{public}s proxy could not be minted"
++ "No XPC connection for module %{public}s"
++ "StatusChangeCallback"
++ "com.apple.LocalAuthentication.ContextManagement.ContextCreationRetry"
++ "deviceHasAtLeastSimulatedDFR returned %d"
++ "deviceHasDFR returned %d"
++ "deviceHasSecureDFR returned %d (status:%d)"
++ "deviceHasSecureDoublePressHW returned %d"
++ "deviceSupportsSecureDoubleClick returned %d"
++ "dfrPresent: Invalid data length:%d"
++ "v16@?0Q8"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6yKJWu/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6yKJWu/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6yKJWu/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6yKJWu/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6yKJWu/Sources/AppleCredentialManager_ClientLibs/common/LibSerialization.c"
+- "Connection %{public}s created for module %{public}s"
+- "Module %{public}s was not created"
+- "No XPC connection for module %{public}s, using stored module instance"
+- "Unable to create ACM context with status: %d"
+
+```

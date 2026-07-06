@@ -1,0 +1,249 @@
+## TextGenerationInference
+
+> `/System/Library/PrivateFrameworks/TextGenerationInference.framework/Versions/A/TextGenerationInference`
+
+```diff
+
+-  __TEXT.__text: 0x83f78
++  __TEXT.__text: 0x8349c
+   __TEXT.__objc_methlist: 0x4c0
+   __TEXT.__const: 0x2b57
+-  __TEXT.__gcc_except_tab: 0x9130
++  __TEXT.__gcc_except_tab: 0x912c
+   __TEXT.__cstring: 0x6df5
+   __TEXT.__oslogstring: 0x2fb
+   __TEXT.__unwind_info: 0x3ae0
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__cstring : content changed
+~ __TEXT.__unwind_info : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__data : content changed
+Functions:
+~ -[TGITextGenerationInferenceRunner run] : 5240 -> 5204
+~ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9nqe220106EPKvm : 532 -> 520
+~ __ZNSt3__15dequeIZNK5Darts15DoubleArrayImplIvvivE16predictiveSearchINS3_16result_pair_typeEEEmPKcPT_mmiE5StateNS_9allocatorISA_EEE19__add_back_capacityEv : 480 -> 468
+~ __ZN13sentencepiece22SentencePieceProcessor4LoadENSt3__110unique_ptrINS_10ModelProtoENS1_14default_deleteIS3_EEEE : 2380 -> 2372
+~ __ZNK13sentencepiece22SentencePieceProcessor17ParseExtraOptionsENSt3__117basic_string_viewIcNS1_11char_traitsIcEEEEPNS1_6vectorINS0_11ExtraOptionENS1_9allocatorIS7_EEEE : 2152 -> 2124
+~ __ZNK13sentencepiece22SentencePieceProcessor17ApplyExtraOptionsERKNSt3__16vectorINS0_11ExtraOptionENS1_9allocatorIS3_EEEEPNS_17SentencePieceTextE : 1480 -> 1472
+~ __ZNSt3__16vectorIN13sentencepiece26ImmutableSentencePieceTextENS_9allocatorIS2_EEE18__construct_at_endEm : 156 -> 120
+~ __ZNSt3__16vectorIN13sentencepiece26ImmutableSentencePieceTextENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe220106Ev : 172 -> 152
+~ __ZN13sentencepiece7unigram7Lattice7ViterbiEv : 704 -> 692
+~ __ZN13sentencepiece7unigram7Lattice6SampleEf : 900 -> 884
+~ __ZNK13sentencepiece7unigram5Model15EncodeOptimizedENSt3__117basic_string_viewIcNS2_11char_traitsIcEEEE : 1160 -> 1164
+~ __ZNK13sentencepiece7unigram5Model20SampleEncodeAndScoreENSt3__117basic_string_viewIcNS2_11char_traitsIcEEEEfibb : 2972 -> 2964
+~ __ZNK13sentencepiece4word5Model6EncodeENSt3__117basic_string_viewIcNS2_11char_traitsIcEEEE : 380 -> 356
+~ __ZNK13sentencepiece31SentencePieceText_SentencePiece18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 708 -> 684
+~ __ZN6google8protobuf2io19EpsCopyOutputStream23WriteStringMaybeAliasedEjRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPh : 304 -> 292
+~ __ZNK13sentencepiece17SentencePieceText18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 500 -> 492
+~ __ZNK13sentencepiece22NBestSentencePieceText18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 368 -> 360
+~ __ZNK13sentencepiece11TrainerSpec18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 4612 -> 4484
+~ __ZNK13sentencepiece12SelfTestData18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 396 -> 388
+~ __ZNK13sentencepiece24ModelProto_SentencePiece18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 432 -> 424
+~ __ZNK13sentencepiece10ModelProto18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1040 -> 1000
+~ __ZNKSt3__114default_deleteIN13sentencepiece4util6Status3RepEEclB9nqe220106EPS4_ : 100 -> 104
+~ __ZN6google8protobuf2io16CodedInputStream20ReadVarint32FallbackEj : 528 -> 516
+~ __ZN6google8protobuf2io16CodedInputStream15ReadTagFallbackEj : 616 -> 604
+~ __ZN6google8protobuf2io19EpsCopyOutputStream30WriteStringMaybeAliasedOutlineEjRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPh : 396 -> 388
+~ __ZN6google8protobuf2io19EpsCopyOutputStream18WriteStringOutlineEjRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPh : 436 -> 428
+~ __ZN6google8protobuf2io17CodedOutputStream26WriteStringWithSizeToArrayERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPh : 296 -> 280
+~ __ZNK6google8protobuf8internal12ExtensionSet13IsInitializedEv : 212 -> 208
+~ __ZN6google8protobuf8internal12ExtensionSet23ParseMessageSetItemLiteEPNS0_2io16CodedInputStreamEPNS1_15ExtensionFinderEPNS1_12FieldSkipperE : 852 -> 844
+~ __ZNK6google8protobuf8internal12ExtensionSet9Extension44InternalSerializeFieldWithCachedSizesToArrayEiPhPNS0_2io19EpsCopyOutputStreamE : 11144 -> 10532
+~ __ZNK6google8protobuf8internal12ExtensionSet9Extension53InternalSerializeMessageSetItemWithCachedSizesToArrayEiPhPNS0_2io19EpsCopyOutputStreamE : 612 -> 596
+~ __ZN6google8protobuf8internal24SerializeInternalToArrayEPKhPKNS1_13FieldMetadataEibPh : 4052 -> 3932
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi1EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 212 -> 196
+~ __ZN6google8protobuf8internal17PackedFieldHelperILi1EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 308 -> 276
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi2EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 212 -> 196
+~ __ZN6google8protobuf8internal17PackedFieldHelperILi2EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 308 -> 276
+~ __ZN6google8protobuf8internal19SingularFieldHelperILi3EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 108 -> 92
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi3EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 204 -> 188
+~ __ZN6google8protobuf8internal17PackedFieldHelperILi3EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 300 -> 268
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi4EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 204 -> 188
+~ __ZN6google8protobuf8internal17PackedFieldHelperILi4EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 300 -> 268
+~ __ZN6google8protobuf8internal19SingularFieldHelperILi5EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 108 -> 92
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi5EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 204 -> 188
+~ __ZN6google8protobuf8internal17PackedFieldHelperILi5EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 300 -> 268
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi6EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 212 -> 196
+~ __ZN6google8protobuf8internal17PackedFieldHelperILi6EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 308 -> 276
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi7EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 212 -> 196
+~ __ZN6google8protobuf8internal17PackedFieldHelperILi7EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 308 -> 276
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi8EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 212 -> 196
+~ __ZN6google8protobuf8internal17PackedFieldHelperILi8EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 308 -> 276
+~ __ZN6google8protobuf8internal19SingularFieldHelperILi9EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 148 -> 132
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi9EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 208 -> 192
+~ __ZN6google8protobuf8internal19SingularFieldHelperILi10EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 256 -> 224
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi10EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 312 -> 280
+~ __ZN6google8protobuf8internal19SingularFieldHelperILi11EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 112 -> 96
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi11EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 208 -> 192
+~ __ZN6google8protobuf8internal19SingularFieldHelperILi13EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 108 -> 92
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi13EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 204 -> 188
+~ __ZN6google8protobuf8internal17PackedFieldHelperILi13EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 300 -> 268
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi15EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 212 -> 196
+~ __ZN6google8protobuf8internal17PackedFieldHelperILi15EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 308 -> 276
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi16EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 212 -> 196
+~ __ZN6google8protobuf8internal17PackedFieldHelperILi16EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 308 -> 276
+~ __ZN6google8protobuf8internal19SingularFieldHelperILi17EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 140 -> 124
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi17EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 208 -> 192
+~ __ZN6google8protobuf8internal17PackedFieldHelperILi17EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 304 -> 272
+~ __ZN6google8protobuf8internal19SingularFieldHelperILi18EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 140 -> 124
+~ __ZN6google8protobuf8internal19RepeatedFieldHelperILi18EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 208 -> 192
+~ __ZN6google8protobuf8internal17PackedFieldHelperILi18EE9SerializeINS1_11ArrayOutputEEEvPKvRKNS1_13FieldMetadataEPT_ : 304 -> 272
+~ __ZN6google8protobuf8internal11SerializeToILi13ENS0_2io17CodedOutputStreamEEEvPKvPT0_ : 160 -> 152
+~ __ZN6google8protobuf8internal11SerializeToILi3ENS0_2io17CodedOutputStreamEEEvPKvPT0_ : 160 -> 152
+~ __ZN6google8protobuf8internal19PrimitiveTypeHelperILi5EE9SerializeEPKvPNS0_2io17CodedOutputStreamE : 160 -> 152
+~ __ZN6google8protobuf8internal19PrimitiveTypeHelperILi9EE9SerializeEPKvPNS0_2io17CodedOutputStreamE : 212 -> 204
+~ __ZN6google8protobuf8internal11SerializeToILi17ENS0_2io17CodedOutputStreamEEEvPKvPT0_ : 168 -> 160
+~ __ZN6google8protobuf8internal11SerializeToILi18ENS0_2io17CodedOutputStreamEEEvPKvPT0_ : 168 -> 160
+~ __ZN6google8protobuf8internal12OutputHelperINS1_11ArrayOutputELi13EE9SerializeEPKvPS3_ : 104 -> 88
+~ __ZN6google8protobuf8internal12OutputHelperINS1_11ArrayOutputELi3EE9SerializeEPKvPS3_ : 104 -> 88
+~ __ZN6google8protobuf8internal12OutputHelperINS1_11ArrayOutputELi5EE9SerializeEPKvPS3_ : 104 -> 88
+~ __ZN6google8protobuf8internal18SerializeMessageToINS1_11ArrayOutputEEEvPKNS0_11MessageLiteEPKvPT_ : 344 -> 320
+~ __ZN6google8protobuf8internal19PrimitiveTypeHelperILi17EE16SerializeToArrayEPKvPh : 108 -> 92
+~ __ZN6google8protobuf8internal19PrimitiveTypeHelperILi18EE16SerializeToArrayEPKvPh : 108 -> 92
+~ __ZN6google8protobuf8internal12ShutdownDataD2Ev : 164 -> 168
+~ __ZN6google8protobuf8internal18EpsCopyInputStream10NextBufferEii : 1064 -> 1068
+~ __ZN6google8protobuf8internal17VarintParseSlow32EPKcj : 104 -> 116
+~ __ZN6google8protobuf8internal16WireFormatParserINS1_28UnknownFieldLiteParserHelperEEEPKcRT_S5_PNS1_12ParseContextE : 248 -> 252
+~ __ZN6google8protobuf8internal11VarintParseIyEEPKcS4_PT_ : 124 -> 128
+~ __ZN6google8protobuf8internal15UTF8GenericScanEPKNS1_19UTF8StateMachineObjEPKciPi : 500 -> 464
+~ __ZN6google8protobuf8internal24UTF8GenericScanFastAsciiEPKNS1_19UTF8StateMachineObjEPKciPi : 296 -> 276
+~ __ZN6google8protobuf11JoinStringsERKNSt3__16vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS6_IS8_EEEEPKcPS8_ : 360 -> 352
+~ __ZN6google8protobuf24UnescapeCEscapeSequencesEPKcPcPNSt3__16vectorINS4_12basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEENS9_ISB_EEEE : 712 -> 704
+~ __ZN6google8protobuf17FastInt64ToBufferExPc : 188 -> 192
+~ __ZN6google8protobuf17FastInt32ToBufferEiPc : 188 -> 192
+~ __ZN6google8protobuf15FastHexToBufferEiPc : 192 -> 196
+~ __ZN6google8protobuf15DelocalizeRadixEPc : 280 -> 272
+~ __ZN6google8protobuf22Base64UnescapeInternalEPKciPciPKa : 1732 -> 1580
+~ __ZN6google8protobuf8internal14WireFormatLite9SkipFieldEPNS0_2io16CodedInputStreamEjPNS3_17CodedOutputStreamE : 1548 -> 1492
+~ __ZN6google8protobuf8internal14WireFormatLite11SkipMessageEPNS0_2io16CodedInputStreamEPNS3_17CodedOutputStreamE : 284 -> 276
+~ __ZN6google8protobuf8internal29CodedOutputStreamFieldSkipper15SkipUnknownEnumEii : 308 -> 292
+~ __ZN6google8protobuf8internal14WireFormatLite30ReadPackedEnumPreserveUnknownsEPNS0_2io16CodedInputStreamEiPFbiEPNS3_17CodedOutputStreamEPNS0_13RepeatedFieldIiEE : 616 -> 600
+~ __ZN6google8protobuf8internal14WireFormatLite10WriteInt32EiiPNS0_2io17CodedOutputStreamE : 296 -> 280
+~ __ZN6google8protobuf8internal14WireFormatLite10WriteInt64EixPNS0_2io17CodedOutputStreamE : 292 -> 276
+~ __ZN6google8protobuf8internal14WireFormatLite11WriteUInt32EijPNS0_2io17CodedOutputStreamE : 292 -> 276
+~ __ZN6google8protobuf8internal14WireFormatLite11WriteSInt32EiiPNS0_2io17CodedOutputStreamE : 300 -> 284
+~ __ZN6google8protobuf8internal14WireFormatLite11WriteSInt64EixPNS0_2io17CodedOutputStreamE : 300 -> 284
+~ __ZN6google8protobuf8internal14WireFormatLite12WriteFixed32EijPNS0_2io17CodedOutputStreamE : 220 -> 212
+~ __ZN6google8protobuf8internal14WireFormatLite12WriteFixed64EiyPNS0_2io17CodedOutputStreamE : 212 -> 204
+~ __ZN6google8protobuf8internal14WireFormatLite10WriteFloatEifPNS0_2io17CodedOutputStreamE : 220 -> 212
+~ __ZN6google8protobuf8internal14WireFormatLite11WriteDoubleEidPNS0_2io17CodedOutputStreamE : 212 -> 204
+~ __ZN6google8protobuf8internal14WireFormatLite9WriteBoolEibPNS0_2io17CodedOutputStreamE : 208 -> 200
+~ __ZN6google8protobuf8internal14WireFormatLite11WriteStringEiRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPNS0_2io17CodedOutputStreamE : 528 -> 512
+~ __ZN6google8protobuf8internal14WireFormatLite23WriteStringMaybeAliasedEiRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPNS0_2io17CodedOutputStreamE : 484 -> 468
+~ __ZN6google8protobuf8internal14WireFormatLite10WriteBytesEiRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPNS0_2io17CodedOutputStreamE : 528 -> 512
+~ __ZN6google8protobuf8internal14WireFormatLite22WriteBytesMaybeAliasedEiRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPNS0_2io17CodedOutputStreamE : 484 -> 468
+~ __ZN6google8protobuf8internal14WireFormatLite10WriteGroupEiRKNS0_11MessageLiteEPNS0_2io17CodedOutputStreamE : 352 -> 332
+~ __ZN6google8protobuf8internal14WireFormatLite12WriteMessageEiRKNS0_11MessageLiteEPNS0_2io17CodedOutputStreamE : 380 -> 364
+~ __ZN6google8protobuf8internal14WireFormatLite22WriteGroupMaybeToArrayEiRKNS0_11MessageLiteEPNS0_2io17CodedOutputStreamE : 388 -> 368
+~ _ZN13sentencepiece5error5AbortEv.cold.1 : 56 -> 48
+~ __ZN6google8protobuf8internal16ReadSizeFallbackEPKcj : 120 -> 124
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/src/builtin_pb/sentencepiece.pb.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/src/builtin_pb/sentencepiece_model.pb.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/src/builtin_pb/sentencepiece_model.pb.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/src/filesystem.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/src/mmap.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/src/mmap_model_proto.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/src/model_factory.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/src/model_interface.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/src/model_interface.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/src/normalizer.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/src/sentencepiece_processor.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/src/unigram_model.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/src/util.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/src/util.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/darts_clone/darts.h:1111: exception: failed to insert key: negative value"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/darts_clone/darts.h:1113: exception: failed to insert key: zero-length key"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/darts_clone/darts.h:1127: exception: failed to insert key: invalid null character"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/darts_clone/darts.h:1132: exception: failed to insert key: wrong key order"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/darts_clone/darts.h:1344: exception: failed to modify unit: too large offset"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/darts_clone/darts.h:1680: exception: failed to build double-array: invalid null character"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/darts_clone/darts.h:1682: exception: failed to build double-array: negative value"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/darts_clone/darts.h:1697: exception: failed to build double-array: wrong key order"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/darts_clone/darts.h:748: exception: failed to resize pool: std::bad_alloc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/darts_clone/darts.h:864: exception: failed to build rank index: std::bad_alloc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/arena.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/arenastring.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/coded_stream.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/common.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/extension_set.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/generated_message_util.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/arena_impl.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/arenastring.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/extension_set_inl.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/io/coded_stream.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/message_lite.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/parse_context.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/repeated_field.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/int128.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/message_lite.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/parse_context.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/stringpiece.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/stringprintf.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/strutil.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/wire_format_lite.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/zero_copy_stream.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/zero_copy_stream_impl.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6v9Nws/Sources/SentencePiece/third_party/protobuf-lite/zero_copy_stream_impl_lite.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/src/builtin_pb/sentencepiece.pb.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/src/builtin_pb/sentencepiece_model.pb.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/src/builtin_pb/sentencepiece_model.pb.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/src/filesystem.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/src/mmap.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/src/mmap_model_proto.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/src/model_factory.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/src/model_interface.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/src/model_interface.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/src/normalizer.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/src/sentencepiece_processor.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/src/unigram_model.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/src/util.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/src/util.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/darts_clone/darts.h:1111: exception: failed to insert key: negative value"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/darts_clone/darts.h:1113: exception: failed to insert key: zero-length key"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/darts_clone/darts.h:1127: exception: failed to insert key: invalid null character"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/darts_clone/darts.h:1132: exception: failed to insert key: wrong key order"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/darts_clone/darts.h:1344: exception: failed to modify unit: too large offset"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/darts_clone/darts.h:1680: exception: failed to build double-array: invalid null character"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/darts_clone/darts.h:1682: exception: failed to build double-array: negative value"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/darts_clone/darts.h:1697: exception: failed to build double-array: wrong key order"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/darts_clone/darts.h:748: exception: failed to resize pool: std::bad_alloc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/darts_clone/darts.h:864: exception: failed to build rank index: std::bad_alloc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/arena.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/arenastring.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/coded_stream.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/common.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/extension_set.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/generated_message_util.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/arena_impl.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/arenastring.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/extension_set_inl.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/io/coded_stream.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/message_lite.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/parse_context.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/google/protobuf/repeated_field.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/int128.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/message_lite.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/parse_context.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/stringpiece.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/stringprintf.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/strutil.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/wire_format_lite.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/zero_copy_stream.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/zero_copy_stream_impl.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.56j0m3/Sources/SentencePiece/third_party/protobuf-lite/zero_copy_stream_impl_lite.cc"
+
+```

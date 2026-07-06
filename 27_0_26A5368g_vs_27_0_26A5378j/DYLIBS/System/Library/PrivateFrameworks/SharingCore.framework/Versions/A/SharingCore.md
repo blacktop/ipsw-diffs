@@ -1,0 +1,79 @@
+## SharingCore
+
+> `/System/Library/PrivateFrameworks/SharingCore.framework/Versions/A/SharingCore`
+
+```diff
+
+-  __TEXT.__text: 0xfa0c
++  __TEXT.__text: 0xfacc
+   __TEXT.__objc_methlist: 0x38
+-  __TEXT.__const: 0xaf0
++  __TEXT.__const: 0xaf8
+   __TEXT.__swift5_typeref: 0x4e1
+   __TEXT.__constg_swiftt: 0x458
+   __TEXT.__swift5_reflstr: 0x1d8
+
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift_as_entry: 0x3c
+   __TEXT.__swift_as_ret: 0x40
+-  __TEXT.__swift_as_cont: 0x74
++  __TEXT.__swift_as_cont: 0x70
+   __TEXT.__swift5_assocty: 0x28
+-  __TEXT.__unwind_info: 0x518
+-  __TEXT.__eh_frame: 0x8b8
++  __TEXT.__unwind_info: 0x520
++  __TEXT.__eh_frame: 0x8c8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __AUTH_CONST.__const: 0x8c8
+   __AUTH_CONST.__objc_const: 0x208
+   __AUTH_CONST.__auth_got: 0x5f0
+-  __DATA.__data: 0x330
++  __DATA.__data: 0x310
+   __DATA.__bss: 0xa80
+-  __DATA_DIRTY.__data: 0x370
++  __DATA_DIRTY.__data: 0x390
+   __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 361
+-  Symbols:   285
++  Functions: 360
++  Symbols:   284
+   CStrings:  29
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__swift5_typeref : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_fieldmd : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__cstring : content changed
+~ __TEXT.__swift5_types : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_capture : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__objc_const : content changed
+Symbols:
+- __swift_implicitisolationactor_to_executor_cast
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.1Ee8RH/Sources/Sharing/SharingCore/SFError.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.1Ee8RH/Sources/Sharing/SharingCore/SFProgressTask.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.eq7zoG/Sources/Sharing/SharingCore/SFError.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.eq7zoG/Sources/Sharing/SharingCore/SFProgressTask.swift"
+
+```

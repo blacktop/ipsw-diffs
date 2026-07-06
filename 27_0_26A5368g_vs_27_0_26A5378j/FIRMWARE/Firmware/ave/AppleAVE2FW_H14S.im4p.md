@@ -1,0 +1,88 @@
+## AppleAVE2FW_H14S.im4p
+
+> `Firmware/ave/AppleAVE2FW_H14S.im4p`
+
+```diff
+
+-  __TEXT.__text: 0xfc634
++  __TEXT.__text: 0xfc6a0
+   __TEXT.__const: 0x22c04
+   __TEXT.__cstring: 0x1622d
+   __TEXT.__init_offsets: 0x0
+Sections:
+~ __TEXT.__const : content changed
+~ __TEXT.__cstring : content changed
+~ __DATA._rtk_patchbay : content changed
+~ __DATA.__data : content changed
+~ __DATA._rtk_mtab : content changed
+~ __DATA.__const : content changed
+Functions:
+~ __ZN14CAVCController14ConfigureMCPUsEPK18AVE_PICMGMT_PARAMSPK12_S_AVC_Slice : 6108 -> 6096
+~ __ZN14CAVCController19GetSliceHeaderForFWEPK12_S_AVC_SliceyiPhPji : 908 -> 904
+~ __ZN14CAVCController21CollectLrmeStatsMcoreEv : 584 -> 572
+~ __ZN14CAVCController19CollectDataFromCpusEb : 4336 -> 4416
+~ __ZN14CAVCController24CollectDataFromTranscodeEP30CAVEControllerTranscodeDoneCmd : 2040 -> 2032
+~ __ZN20CAVECommonController20processLowResMeStatsEjji : 1264 -> 1244
+~ __ZN15CHEVCController14ConfigureMCPUsEPK18AVE_PICMGMT_PARAMS : 21272 -> 21276
+~ __ZN15CHEVCController21ProcessLRMEStatsMcoreEv : 10256 -> 10244
+~ __ZN15CHEVCController28CollectDataFromCpusMultiCoreEv : 1668 -> 1672
+~ __ZN17CMultiPassControl24MpFinalPassSceneBitratesEfb : 6164 -> 6168
+~ __ZN17CAVEPriorityQueue16UnregisterClientEy : 612 -> 616
+~ __ZNK17CAVEPriorityQueue17GetClientPriorityEyPi : 284 -> 288
+~ __ZN17CAVEPriorityQueue17SetClientPriorityEyi : 296 -> 300
+~ __ZN17CAVEPriorityQueue22SetClientUseFirmwareRCEyb : 300 -> 304
+~ __ZN17CAVEPriorityQueue7EnqueueEyyyjPvPN10CAVEClient9FrameInfoEj : 668 -> 660
+~ __ZN17CAVEPriorityQueue24GetCommandQueueToDequeueEy : 224 -> 228
+~ __ZN17CAVEPriorityQueue5FlushEyyP15sCmdInformation : 756 -> 768
+~ __ZN17CAVEPriorityQueue8CompleteEyj19_E_Proc_Mode_Queues : 440 -> 428
+~ __ZN17CAVEPriorityQueue8ConvertPEyj19_E_Proc_Mode_Queues : 876 -> 880
+~ _IOProcessorChannelCreate : 268 -> 260
+~ sub_d1f8c -> sub_d1fac : 868 -> 844
+~ __ZN4CFSM12PostCallbackEPviPFvS0_iE : 804 -> 816
+~ __ZN9CTaskPool17TerminateCallbackEmPv : 392 -> 404
+~ __ZN9CTaskPool9TerminateEP11_rtk_thread : 304 -> 308
+~ __ZN9CTaskPool8runUntilEv : 156 -> 164
+~ __ZNK9CTaskPool4InfoEv : 416 -> 400
+~ __ZN9CIOObject4TaskEv : 1328 -> 1336
+~ __ZN15CChannelManager10UnregisterEPv : 392 -> 404
+~ __Z17FakeChannelCreateP7CObjectiii : 3412 -> 3420
+~ __Z27FakeChannelManagerTargetGetPKc : 132 -> 152
+~ __Z25FakeChannelIndexTargetGetPKc : 132 -> 152
+~ __Z25FakeChannelManagerHostGetPKc : 132 -> 152
+~ __Z23FakeChannelIndexHostGetPKc : 132 -> 152
+~ __Z17RealChannelCreateP7CObjectmP23ffwIOPChannelDescriptorbi : 2208 -> 2216
+~ __Z14RealChannelGetPKcPP15CChannelManagerPm : 176 -> 184
+~ _exp2f : 168 -> 176
+~ sub_ec9e4 -> sub_eca84 : 104 -> 88
+~ sub_eca4c -> sub_ecadc : 468 -> 452
+~ sub_ecc20 -> sub_ecca0 : 764 -> 740
+~ sub_ecf1c -> sub_ecf84 : 84 -> 68
+~ sub_ecf70 -> sub_ecfc8 : 248 -> 244
+~ sub_ed614 -> sub_ed668 : 876 -> 872
+~ sub_ef584 -> sub_ef5d4 : 176 -> 180
+~ __ZN7RTKHeap9addToPoolEPvm : 496 -> 500
+~ sub_f15f4 -> sub_f164c : 228 -> 244
+~ sub_f17b0 -> sub_f1818 : 168 -> 236
+~ sub_f1858 -> sub_f1904 : 244 -> 212
+~ _RTK_stack_guard_free : 168 -> 164
+~ sub_f3c64 -> sub_f3cec : 296 -> 292
+~ sub_f4000 -> sub_f4084 : 412 -> 408
+~ sub_f54fc -> sub_f557c : 2356 -> 2344
+~ sub_f6e88 -> sub_f6efc : 1884 -> 1836
+~ sub_f7938 -> sub_f797c : 452 -> 456
+~ sub_f85e4 -> sub_f862c : 172 -> 168
+~ _RTK_mbi_route_create : 612 -> 592
+~ sub_fb964 -> sub_fb994 : 2540 -> 2600
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VBnlrw/Sources/AppleAVE2FW/External/Algorithm/RateControl.cpp"
++ "Caller is /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VBnlrw/Sources/AppleAVE2FW/External/Algorithm/RateControl.cpp:855"
++ "Caller is /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VBnlrw/Sources/AppleAVE2FW/External/Algorithm/RateControl.cpp:860"
++ "Caller is /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VBnlrw/Sources/AppleAVE2FW/External/Algorithm/RateControl.cpp:901"
++ "Caller is /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VBnlrw/Sources/AppleAVE2FW/External/Algorithm/RateControl.cpp:913"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.jAk0EN/Sources/AppleAVE2FW/External/Algorithm/RateControl.cpp"
+- "Caller is /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.jAk0EN/Sources/AppleAVE2FW/External/Algorithm/RateControl.cpp:855"
+- "Caller is /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.jAk0EN/Sources/AppleAVE2FW/External/Algorithm/RateControl.cpp:860"
+- "Caller is /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.jAk0EN/Sources/AppleAVE2FW/External/Algorithm/RateControl.cpp:901"
+- "Caller is /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.jAk0EN/Sources/AppleAVE2FW/External/Algorithm/RateControl.cpp:913"
+
+```

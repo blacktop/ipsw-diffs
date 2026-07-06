@@ -1,0 +1,427 @@
+## com.apple.kec.corecrypto
+
+> `com.apple.kec.corecrypto`
+
+```diff
+
+-  __TEXT.__cstring: 0x456b
+-  __TEXT.__const: 0x1b5a0
++  __TEXT.__cstring: 0x3f30
++  __TEXT.__const: 0x10140
+   __TEXT.__fips_hmacs: 0x20
+-  __TEXT_EXEC.__text: 0x6fd08
+-  __TEXT_EXEC.__auth_stubs: 0x250
+-  __DATA.__data: 0x9340
+-  __DATA.__bss: 0x2a00
+-  __DATA.__common: 0x140
+-  __DATA_CONST.__const: 0x4218
+-  __DATA_CONST.__auth_got: 0x128
++  __TEXT_EXEC.__text: 0x69c44
++  __TEXT_EXEC.__auth_stubs: 0x230
++  __DATA.__data: 0x29e0
++  __DATA.__bss: 0x27c0
++  __DATA.__common: 0x18
++  __DATA_CONST.__const: 0x3fb8
++  __DATA_CONST.__auth_got: 0x118
+   __DATA_CONST.__got: 0x10
+-  __DATA_CONST.__auth_ptr: 0x190
+-  Functions: 1992
+-  Symbols:   2544
+-  CStrings:  443
++  __DATA_CONST.__auth_ptr: 0x188
++  Functions: 1944
++  Symbols:   2262
++  CStrings:  337
+ 
+Sections:
+~ __TEXT.__fips_hmacs : content changed
+~ __DATA_CONST.__got : content changed
+Symbols:
+- _TD0
+- _TD1
+- _TD2
+- _TD3
+- _TE0
+- _TE1
+- _TE2
+- _TE3
+- _Td4
+- _Te4_0
+- _Te4_1
+- _Te4_2
+- _Te4_3
+- _Tks0
+- _Tks1
+- _Tks2
+- _Tks3
+- _XWING_LABEL
+- __ccdh_gp_apple768
+- __ccdh_gp_rfc2409group02
+- __ccdh_gp_rfc3526group05
+- __ccdh_gp_rfc3526group15
+- __ccdh_gp_rfc3526group16
+- __ccdh_gp_rfc3526group17
+- __ccdh_gp_rfc3526group18
+- __ccdh_gp_rfc5114_MODP_1024_160
+- __ccdh_gp_rfc5114_MODP_2048_224
+- __ccdh_gp_rfc5114_MODP_2048_256
+- _aes_ecb_decrypt_impl_name
+- _aes_ecb_encrypt_impl_name
+- _aes_xts_decrypt_impl_name
+- _aes_xts_encrypt_impl_name
+- _cc_impl_name
+- _ccaes_ecb_decrypt_init
+- _ccaes_ecb_encrypt_init
+- _ccaes_ecb_encrypt_roundkey
+- _ccaes_gladman_decrypt
+- _ccaes_gladman_decrypt_key
+- _ccaes_gladman_decrypt_key128
+- _ccaes_gladman_decrypt_key192
+- _ccaes_gladman_decrypt_key256
+- _ccaes_gladman_encrypt
+- _ccaes_gladman_encrypt_key
+- _ccaes_gladman_encrypt_key128
+- _ccaes_gladman_encrypt_key192
+- _ccaes_gladman_encrypt_key256
+- _ccaes_ltc_init
+- _ccdh_gp_apple768
+- _ccdh_gp_rfc2409group02
+- _ccdh_gp_rfc3526group05
+- _ccdh_gp_rfc3526group15
+- _ccdh_gp_rfc3526group16
+- _ccdh_gp_rfc3526group17
+- _ccdh_gp_rfc3526group18
+- _ccdh_gp_rfc5114_MODP_1024_160
+- _ccdh_gp_rfc5114_MODP_2048_224
+- _ccdh_gp_rfc5114_MODP_2048_256
+- _ccdh_init_gp_from_bytes
+- _cckem_xwing_mlkem768x25519
+- _cckem_xwing_mlkem768x25519_combine
+- _cckem_xwing_mlkem768x25519_decapsulate
+- _cckem_xwing_mlkem768x25519_derive_key_from_seed
+- _cckem_xwing_mlkem768x25519_encapsulate
+- _cckem_xwing_mlkem768x25519_export_privkey
+- _cckem_xwing_mlkem768x25519_export_pubkey
+- _cckem_xwing_mlkem768x25519_generate_key
+- _cckem_xwing_mlkem768x25519_generate_key_with_seed
+- _cckem_xwing_mlkem768x25519_import_privkey
+- _cckem_xwing_mlkem768x25519_import_pubkey
+- _cckem_xwing_mlkem768x25519_info
+- _ccn_prime_table
+- _ccn_prime_table_n
+- _ccprime_rabin_miller
+- _ccprime_rabin_miller_init_ws
+- _ccprime_rabin_miller_iteration_ws
+- _ccprime_rabin_miller_ws
+- _ccrsa_is_valid_prime_ws
+- _ccxwing_mlkem768x25519_encapsulate_derand
+- _ccxwing_mlkem768x25519_encapsulate_derand_internal
+- _gen_tabs
+- _rcon
+- _sha1_impl_name
+- _sha256_impl_name
+- _sha384_impl_name
+- _sha3_impl_name
+- _sha512_impl_name
+- _strlcpy
+- _sysctl__kern_children
+- _sysctl__kern_crypto
+- _sysctl__kern_crypto_aes
+- _sysctl__kern_crypto_aes_children
+- _sysctl__kern_crypto_aes_ecb
+- _sysctl__kern_crypto_aes_ecb_children
+- _sysctl__kern_crypto_aes_ecb_decrypt
+- _sysctl__kern_crypto_aes_ecb_encrypt
+- _sysctl__kern_crypto_aes_xts
+- _sysctl__kern_crypto_aes_xts_children
+- _sysctl__kern_crypto_aes_xts_decrypt
+- _sysctl__kern_crypto_aes_xts_encrypt
+- _sysctl__kern_crypto_children
+- _sysctl__kern_crypto_sha1
+- _sysctl__kern_crypto_sha256
+- _sysctl__kern_crypto_sha3
+- _sysctl__kern_crypto_sha384
+- _sysctl__kern_crypto_sha512
+- _sysctl__kern_prng
+- _sysctl__kern_prng_children
+- _sysctl__kern_prng_entropy_max_sample_count
+- _sysctl__kern_prng_pool_0
+- _sysctl__kern_prng_pool_0_children
+- _sysctl__kern_prng_pool_0_drain_count
+- _sysctl__kern_prng_pool_0_max_sample_count
+- _sysctl__kern_prng_pool_0_sample_count
+- _sysctl__kern_prng_pool_1
+- _sysctl__kern_prng_pool_10
+- _sysctl__kern_prng_pool_10_children
+- _sysctl__kern_prng_pool_10_drain_count
+- _sysctl__kern_prng_pool_10_max_sample_count
+- _sysctl__kern_prng_pool_10_sample_count
+- _sysctl__kern_prng_pool_11
+- _sysctl__kern_prng_pool_11_children
+- _sysctl__kern_prng_pool_11_drain_count
+- _sysctl__kern_prng_pool_11_max_sample_count
+- _sysctl__kern_prng_pool_11_sample_count
+- _sysctl__kern_prng_pool_12
+- _sysctl__kern_prng_pool_12_children
+- _sysctl__kern_prng_pool_12_drain_count
+- _sysctl__kern_prng_pool_12_max_sample_count
+- _sysctl__kern_prng_pool_12_sample_count
+- _sysctl__kern_prng_pool_13
+- _sysctl__kern_prng_pool_13_children
+- _sysctl__kern_prng_pool_13_drain_count
+- _sysctl__kern_prng_pool_13_max_sample_count
+- _sysctl__kern_prng_pool_13_sample_count
+- _sysctl__kern_prng_pool_14
+- _sysctl__kern_prng_pool_14_children
+- _sysctl__kern_prng_pool_14_drain_count
+- _sysctl__kern_prng_pool_14_max_sample_count
+- _sysctl__kern_prng_pool_14_sample_count
+- _sysctl__kern_prng_pool_15
+- _sysctl__kern_prng_pool_15_children
+- _sysctl__kern_prng_pool_15_drain_count
+- _sysctl__kern_prng_pool_15_max_sample_count
+- _sysctl__kern_prng_pool_15_sample_count
+- _sysctl__kern_prng_pool_16
+- _sysctl__kern_prng_pool_16_children
+- _sysctl__kern_prng_pool_16_drain_count
+- _sysctl__kern_prng_pool_16_max_sample_count
+- _sysctl__kern_prng_pool_16_sample_count
+- _sysctl__kern_prng_pool_17
+- _sysctl__kern_prng_pool_17_children
+- _sysctl__kern_prng_pool_17_drain_count
+- _sysctl__kern_prng_pool_17_max_sample_count
+- _sysctl__kern_prng_pool_17_sample_count
+- _sysctl__kern_prng_pool_18
+- _sysctl__kern_prng_pool_18_children
+- _sysctl__kern_prng_pool_18_drain_count
+- _sysctl__kern_prng_pool_18_max_sample_count
+- _sysctl__kern_prng_pool_18_sample_count
+- _sysctl__kern_prng_pool_19
+- _sysctl__kern_prng_pool_19_children
+- _sysctl__kern_prng_pool_19_drain_count
+- _sysctl__kern_prng_pool_19_max_sample_count
+- _sysctl__kern_prng_pool_19_sample_count
+- _sysctl__kern_prng_pool_1_children
+- _sysctl__kern_prng_pool_1_drain_count
+- _sysctl__kern_prng_pool_1_max_sample_count
+- _sysctl__kern_prng_pool_1_sample_count
+- _sysctl__kern_prng_pool_2
+- _sysctl__kern_prng_pool_20
+- _sysctl__kern_prng_pool_20_children
+- _sysctl__kern_prng_pool_20_drain_count
+- _sysctl__kern_prng_pool_20_max_sample_count
+- _sysctl__kern_prng_pool_20_sample_count
+- _sysctl__kern_prng_pool_21
+- _sysctl__kern_prng_pool_21_children
+- _sysctl__kern_prng_pool_21_drain_count
+- _sysctl__kern_prng_pool_21_max_sample_count
+- _sysctl__kern_prng_pool_21_sample_count
+- _sysctl__kern_prng_pool_22
+- _sysctl__kern_prng_pool_22_children
+- _sysctl__kern_prng_pool_22_drain_count
+- _sysctl__kern_prng_pool_22_max_sample_count
+- _sysctl__kern_prng_pool_22_sample_count
+- _sysctl__kern_prng_pool_23
+- _sysctl__kern_prng_pool_23_children
+- _sysctl__kern_prng_pool_23_drain_count
+- _sysctl__kern_prng_pool_23_max_sample_count
+- _sysctl__kern_prng_pool_23_sample_count
+- _sysctl__kern_prng_pool_24
+- _sysctl__kern_prng_pool_24_children
+- _sysctl__kern_prng_pool_24_drain_count
+- _sysctl__kern_prng_pool_24_max_sample_count
+- _sysctl__kern_prng_pool_24_sample_count
+- _sysctl__kern_prng_pool_25
+- _sysctl__kern_prng_pool_25_children
+- _sysctl__kern_prng_pool_25_drain_count
+- _sysctl__kern_prng_pool_25_max_sample_count
+- _sysctl__kern_prng_pool_25_sample_count
+- _sysctl__kern_prng_pool_26
+- _sysctl__kern_prng_pool_26_children
+- _sysctl__kern_prng_pool_26_drain_count
+- _sysctl__kern_prng_pool_26_max_sample_count
+- _sysctl__kern_prng_pool_26_sample_count
+- _sysctl__kern_prng_pool_27
+- _sysctl__kern_prng_pool_27_children
+- _sysctl__kern_prng_pool_27_drain_count
+- _sysctl__kern_prng_pool_27_max_sample_count
+- _sysctl__kern_prng_pool_27_sample_count
+- _sysctl__kern_prng_pool_28
+- _sysctl__kern_prng_pool_28_children
+- _sysctl__kern_prng_pool_28_drain_count
+- _sysctl__kern_prng_pool_28_max_sample_count
+- _sysctl__kern_prng_pool_28_sample_count
+- _sysctl__kern_prng_pool_29
+- _sysctl__kern_prng_pool_29_children
+- _sysctl__kern_prng_pool_29_drain_count
+- _sysctl__kern_prng_pool_29_max_sample_count
+- _sysctl__kern_prng_pool_29_sample_count
+- _sysctl__kern_prng_pool_2_children
+- _sysctl__kern_prng_pool_2_drain_count
+- _sysctl__kern_prng_pool_2_max_sample_count
+- _sysctl__kern_prng_pool_2_sample_count
+- _sysctl__kern_prng_pool_3
+- _sysctl__kern_prng_pool_30
+- _sysctl__kern_prng_pool_30_children
+- _sysctl__kern_prng_pool_30_drain_count
+- _sysctl__kern_prng_pool_30_max_sample_count
+- _sysctl__kern_prng_pool_30_sample_count
+- _sysctl__kern_prng_pool_31
+- _sysctl__kern_prng_pool_31_children
+- _sysctl__kern_prng_pool_31_drain_count
+- _sysctl__kern_prng_pool_31_max_sample_count
+- _sysctl__kern_prng_pool_31_sample_count
+- _sysctl__kern_prng_pool_3_children
+- _sysctl__kern_prng_pool_3_drain_count
+- _sysctl__kern_prng_pool_3_max_sample_count
+- _sysctl__kern_prng_pool_3_sample_count
+- _sysctl__kern_prng_pool_4
+- _sysctl__kern_prng_pool_4_children
+- _sysctl__kern_prng_pool_4_drain_count
+- _sysctl__kern_prng_pool_4_max_sample_count
+- _sysctl__kern_prng_pool_4_sample_count
+- _sysctl__kern_prng_pool_5
+- _sysctl__kern_prng_pool_5_children
+- _sysctl__kern_prng_pool_5_drain_count
+- _sysctl__kern_prng_pool_5_max_sample_count
+- _sysctl__kern_prng_pool_5_sample_count
+- _sysctl__kern_prng_pool_6
+- _sysctl__kern_prng_pool_6_children
+- _sysctl__kern_prng_pool_6_drain_count
+- _sysctl__kern_prng_pool_6_max_sample_count
+- _sysctl__kern_prng_pool_6_sample_count
+- _sysctl__kern_prng_pool_7
+- _sysctl__kern_prng_pool_7_children
+- _sysctl__kern_prng_pool_7_drain_count
+- _sysctl__kern_prng_pool_7_max_sample_count
+- _sysctl__kern_prng_pool_7_sample_count
+- _sysctl__kern_prng_pool_8
+- _sysctl__kern_prng_pool_8_children
+- _sysctl__kern_prng_pool_8_drain_count
+- _sysctl__kern_prng_pool_8_max_sample_count
+- _sysctl__kern_prng_pool_8_sample_count
+- _sysctl__kern_prng_pool_9
+- _sysctl__kern_prng_pool_9_children
+- _sysctl__kern_prng_pool_9_drain_count
+- _sysctl__kern_prng_pool_9_max_sample_count
+- _sysctl__kern_prng_pool_9_sample_count
+- _sysctl__kern_prng_scheduled_reseed_count
+- _sysctl__kern_prng_scheduled_reseed_max_sample_count
+- _sysctl_handle_quad
+- _sysctl_handle_string
+- _sysctl_register_oid
+- _t_fl
+- _t_fn
+- _t_il
+- _t_im
+- _t_in
+- _t_rc
+CStrings:
+- "A"
+- "AES-ECB decryption implementation"
+- "AES-ECB encryption implementation"
+- "AES-XTS decryption implementation"
+- "AES-XTS encryption implementation"
+- "AES_ECB_ARM"
+- "AES_ECB_ARM_ALIGNED"
+- "AES_ECB_INTEL_AESNI"
+- "AES_ECB_INTEL_OPT"
+- "AES_ECB_LTC"
+- "AES_ECB_SKG"
+- "AES_ECB_TRNG"
+- "AES_XTS_ARM"
+- "AES_XTS_ARM_ALIGNED"
+- "AES_XTS_GENERIC"
+- "AES_XTS_INTEL_AESNI"
+- "AES_XTS_INTEL_OPT"
+- "Failed to pick a random Miller-Rabin base"
+- "Implementations of AES modes"
+- "Implementations of AES-ECB"
+- "Implementations of AES-XTS"
+- "Implementations of cryptographic functions"
+- "N"
+- "Q"
+- "SHA1 implementation"
+- "SHA1_LTC"
+- "SHA1_VNG_ARM"
+- "SHA1_VNG_INTEL_AVX1"
+- "SHA1_VNG_INTEL_AVX2"
+- "SHA1_VNG_INTEL_SUPPLEMENTAL_SSE3"
+- "SHA256 implementation"
+- "SHA256_ARMV6M"
+- "SHA256_LTC"
+- "SHA256_VNG_ARM"
+- "SHA256_VNG_ARM64_NEON"
+- "SHA256_VNG_ARM_ALIGNED"
+- "SHA256_VNG_INTEL_AVX1"
+- "SHA256_VNG_INTEL_AVX2"
+- "SHA256_VNG_INTEL_SUPPLEMENTAL_SSE3"
+- "SHA3 implementation"
+- "SHA384 implementation"
+- "SHA384_LTC"
+- "SHA384_VNG_ARM"
+- "SHA384_VNG_ARM_HW"
+- "SHA384_VNG_INTEL_AVX1"
+- "SHA384_VNG_INTEL_AVX2"
+- "SHA384_VNG_INTEL_SUPPLEMENTAL_SSE3"
+- "SHA3_C"
+- "SHA3_VNG_ARM"
+- "SHA3_VNG_ARM_HW"
+- "SHA3_VNG_INTEL"
+- "SHA512 implementation"
+- "SHA512_LTC"
+- "SHA512_VNG_ARM"
+- "SHA512_VNG_ARM_HW"
+- "SHA512_VNG_INTEL_AVX1"
+- "SHA512_VNG_INTEL_AVX2"
+- "SHA512_VNG_INTEL_SUPPLEMENTAL_SSE3"
+- "UNKNOWN"
+- "aes"
+- "crypto"
+- "decrypt"
+- "drain_count"
+- "ecb"
+- "encrypt"
+- "entropy_max_sample_count"
+- "max_sample_count"
+- "pool_0"
+- "pool_1"
+- "pool_10"
+- "pool_11"
+- "pool_12"
+- "pool_13"
+- "pool_14"
+- "pool_15"
+- "pool_16"
+- "pool_17"
+- "pool_18"
+- "pool_19"
+- "pool_2"
+- "pool_20"
+- "pool_21"
+- "pool_22"
+- "pool_23"
+- "pool_24"
+- "pool_25"
+- "pool_26"
+- "pool_27"
+- "pool_28"
+- "pool_29"
+- "pool_3"
+- "pool_30"
+- "pool_31"
+- "pool_4"
+- "pool_5"
+- "pool_6"
+- "pool_7"
+- "pool_8"
+- "pool_9"
+- "prng"
+- "sample_count"
+- "scheduled_reseed_count"
+- "scheduled_reseed_max_sample_count"
+- "sha3"
+- "sha384"
+- "xts"
+
+```

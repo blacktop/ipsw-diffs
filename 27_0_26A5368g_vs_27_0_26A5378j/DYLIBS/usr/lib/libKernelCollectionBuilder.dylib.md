@@ -1,0 +1,96 @@
+## libKernelCollectionBuilder.dylib
+
+> `/usr/lib/libKernelCollectionBuilder.dylib`
+
+```diff
+
+-  __TEXT.__text: 0x4877c
++  __TEXT.__text: 0x48b0c
+   __TEXT.__init_offsets: 0x8
+   __TEXT.__const: 0x394
+-  __TEXT.__cstring: 0xa024
++  __TEXT.__cstring: 0xa0f9
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__const: 0xe80
+   __DATA_CONST.__got: 0x0
+
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  Functions: 1394
++  Functions: 1393
+   Symbols:   2111
+-  CStrings:  1042
++  CStrings:  1046
+ 
+Sections:
+~ __TEXT.__init_offsets : content changed
+~ __TEXT.__const : content changed
+~ __DATA_CONST.__const : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __DATA.__data : content changed
+Symbols:
++ __ZNK6mach_o6Policy26enforceSegmentSectionNamesEv
+- __ZN6mach_o12read_uleb128ENSt3__14spanIKhLm18446744073709551615EEERmRb
+Functions:
+~ __ZNK5dyld313MachOAnalyzer18validEmbeddedPathsER11DiagnosticsN6mach_o8PlatformEPKcb : 1048 -> 1036
+~ __ZNK5dyld313MachOAnalyzer27parseOrgArm64eChainedFixupsER11DiagnosticsU13block_pointerFvjRbEU13block_pointerFvRKNS_11MachOLoaded12LinkEditInfoEPKN6mach_o12UnsafeHeader11SegmentInfoEbjihPKcybS3_EU13block_pointerFvS9_SE_hbytS3_E : 1196 -> 1184
+~ __ZNK15AppCacheBuilder20hasSancovGateSectionEv : 144 -> 124
+~ __ZN15AppCacheBuilder10parseStubsEv : 316 -> 296
+~ __ZN15AppCacheBuilder30assignSegmentRegionsAndOffsetsEv : 5692 -> 5680
+~ __ZN15AppCacheBuilder37adjustAllImagesForNewSegmentLocationsEyPNSt3__13mapIyNS0_3setIPvNS0_4lessIS3_EENS0_9allocatorIS3_EEEENS4_IyEENS6_INS0_4pairIKyS8_EEEEEE : 384 -> 400
+~ __ZN15AppCacheBuilder15copyRawSegmentsEv : 208 -> 192
+~ __ZN13VTablePatcher11findVTablesEhRKN6mach_o5ImageERNSt3__13mapINS4_12basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE12DylibSymbolsNS4_4lessISB_EENS9_INS4_4pairIKSB_SC_EEEEEERKN13cache_builder12ASLR_TrackerERKNS5_IPKhK16VTableBindSymbolNSD_ISQ_EENS9_INSF_IKSQ_SS_EEEEEE : 600 -> 588
+~ __ZN15AppCacheBuilder13processFixupsEv : 6456 -> 6528
+~ ___ZN15AppCacheBuilder11writeFixupsEv_block_invoke.310 : 964 -> 904
+~ __ZN15AppCacheBuilder14allocateBufferEv : 1628 -> 1604
+~ __ZN15AppCacheBuilder19generateCacheHeaderEv : 1416 -> 1408
+~ __ZN15AppCacheBuilder16addCustomSectionERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS_13CustomSegment13CustomSectionE : 648 -> 620
+~ __ZN15AppCacheBuilder19rewriteRemovedStubsEv : 2276 -> 2288
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqn220106INS_9allocatorIN15AppCacheBuilder10InputDylibEEEPS3_EEvRT_T0_S8_S8_ : 320 -> 308
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqn220106INS_9allocatorIN15AppCacheBuilder17AppCacheDylibInfoEEEPS3_EEvRT_T0_S8_S8_ : 308 -> 276
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN15AppCacheBuilder16makeSortedDylibsERKNS_6vectorINS2_10InputDylibENS_9allocatorIS4_EEEEE3$_0PNS2_17AppCacheDylibInfoELb0EEEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeEb : 4112 -> 4052
+~ __ZNSt3__127__insertion_sort_incompleteB9fqn220106INS_17_ClassicAlgPolicyERZN15AppCacheBuilder16makeSortedDylibsERKNS_6vectorINS2_10InputDylibENS_9allocatorIS4_EEEEE3$_0PNS2_17AppCacheDylibInfoEEEbT1_SE_T0_ : 984 -> 952
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN15AppCacheBuilder16makeSortedDylibsERKNS_6vectorINS2_10InputDylibENS_9allocatorIS4_EEEEE3$_1PS4_Lb0EEEvT1_SD_T0_NS_15iterator_traitsISD_E15difference_typeEb : 8304 -> 8236
+~ __ZNSt3__127__insertion_sort_incompleteB9fqn220106INS_17_ClassicAlgPolicyERZN15AppCacheBuilder16makeSortedDylibsERKNS_6vectorINS2_10InputDylibENS_9allocatorIS4_EEEEE3$_1PS4_EEbT1_SD_T0_ : 1276 -> 1216
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqn220106INS_9allocatorIN13VTablePatcher11VTableDylibEEEPS3_EEvRT_T0_S8_S8_ : 196 -> 184
+~ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fqn220106EPKvm : 532 -> 520
+~ __ZZNSt3__16vectorIZN11DylibFixups13processFixupsERKNS_3mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE12DylibSymbolsNS_4lessIS8_EENS6_INS_4pairIKS8_S9_EEEEEERKNS_13unordered_mapINS_17basic_string_viewIcS5_EENS0_I19DylibSymbolLocationNS6_ISM_EEEENS_4hashISL_EENS_8equal_toISL_EENS6_INSC_IKSL_SO_EEEEEERSD_RKN13cache_builder12ASLR_TrackerEE10BindTargetNS6_IS14_EEE12emplace_backIJS14_EEERS14_DpOT_ENKUlvE0_clEv : 568 -> 464
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE27__insert_assign_n_uncheckedB9fqn220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPKPKcEELi0EEEvT0_lPS6_ : 208 -> 188
+~ __ZNK12CacheBuilder19adjustDylibSegmentsERKNS_9DylibInfoER11DiagnosticsyRN13cache_builder12ASLR_TrackerEPNSt3__13mapIyNS8_3setIPvNS8_4lessISB_EENS8_9allocatorISB_EEEENSC_IyEENSE_INS8_4pairIKySG_EEEEEEPKNS_21DylibSectionCoalescerE : 8564 -> 8504
+~ ____ZN12_GLOBAL__N_18Adjustor30rebuildLinkEditAndLoadCommandsEPKN12CacheBuilder21DylibSectionCoalescerE_block_invoke : 1404 -> 1344
+~ __ZN5dyld39MachOFile8trieWalkER11DiagnosticsPKhS4_PKc : 612 -> 624
+~ ___ZNK5dyld39MachOFile13validSegmentsER11DiagnosticsPKcm_block_invoke.155 : 548 -> 536
+~ __Z9mapReduceIN6mach_o11SubtreeRootENS0_5ErrorEEvNSt3__14spanIT_Lm18446744073709551615EEEmU13block_pointerFvmRT0_S6_EU13block_pointerFvNS4_IS7_Lm18446744073709551615EEEE : 752 -> 724
+~ ____ZN6mach_o17GenericTrieWriter10buildNodesENSt3__14spanIKNS_22GenericTrieWriterEntryELm18446744073709551615EEE_block_invoke_2 : 64 -> 52
+~ ____ZN6mach_oL18buildWriterEntriesIZNS_17ExportsTrieWriterC1ENSt3__14spanIKNS_6SymbolELm18446744073709551615EEEbbE3$_0EENS2_6vectorINS_22GenericTrieWriterEntryENS2_9allocatorIS9_EEEER22ChunkBumpAllocatorZonembT__block_invoke : 1396 -> 1364
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN6mach_oL18buildWriterEntriesIZNS2_17ExportsTrieWriterC1ENS_4spanIKNS2_6SymbolELm18446744073709551615EEEbbE3$_0EENS_6vectorINS2_22GenericTrieWriterEntryENS_9allocatorISB_EEEER22ChunkBumpAllocatorZonembT_EUlRKSB_SJ_E_PSB_Lb0EEEvT1_SN_T0_NS_15iterator_traitsISN_E15difference_typeEb : 2956 -> 2896
+~ __ZNSt3__127__insertion_sort_incompleteB9sqn220106INS_17_ClassicAlgPolicyERZN6mach_oL18buildWriterEntriesIZNS2_17ExportsTrieWriterC1ENS_4spanIKNS2_6SymbolELm18446744073709551615EEEbbE3$_0EENS_6vectorINS2_22GenericTrieWriterEntryENS_9allocatorISB_EEEER22ChunkBumpAllocatorZonembT_EUlRKSB_SJ_E_PSB_EEbT1_SN_T0_ : 520 -> 484
+~ __ZNK6mach_o12Architecture6nameSVEv : 124 -> 128
+~ __ZNK6mach_o11BindOpcodes11forEachBindEU13block_pointerFv7CStringibhybiS1_bxbRbE : 1432 -> 1916
+~ __ZNK6mach_o47PointerFormat_DYLD_CHAINED_PTR_ARM64E_SEGMENTED15writeChainEntryERKNS_5FixupEPKvyNSt3__14spanIPKNS_13MappedSegmentELm18446744073709551615EEE : 676 -> 668
+~ __ZNK6mach_o11GenericTrie14recursiveVisitEmmmRbU13block_pointerFvNSt3__14spanIKhLm18446744073709551615EEES1_EU13block_pointerFb7CStringymmS1_EPNS_5ErrorE : 692 -> 760
+- __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE11starts_withB9sqn220106EPKc
+~ __ZNK6mach_o11ExportsTrie23terminalPayloadToSymbolE7CStringNSt3__14spanIKhLm18446744073709551615EEERNS_6SymbolE : 796 -> 956
+~ __ZNK6mach_o14FunctionStarts20forEachFunctionStartEyU13block_pointerFvyE : 152 -> 220
+~ __ZNK6mach_o21FunctionVariantFixups5validENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEE : 200 -> 188
++ __ZNKSt3__117basic_string_viewIcNS_11char_traitsIcEEE11starts_withB9sqn220106EPKc
+~ __ZNK6mach_o6Header22validSemanticsSegmentsERKNS_6PolicyEy : 1724 -> 1684
+~ __ZNK6mach_o6Header22validStructureLinkeditERKNS_6PolicyEy : 1640 -> 1632
+~ __ZNK6mach_o6Header27parse_linker_option_commandERKNS0_15LoadCommandInfoEPNS_5ErrorE : 404 -> 420
+~ __ZNK6mach_o6Header27validSemanticsSingleSegmentILb1EEENS_5ErrorERKNS_6PolicyEyNSt3__14spanIKhLm18446744073709551615EEE : 2092 -> 2416
+~ __ZNK6mach_o6Header27validSemanticsSingleSegmentILb0EEENS_5ErrorERKNS_6PolicyEyNSt3__14spanIKhLm18446744073709551615EEE : 2056 -> 2380
+- __ZN6mach_o12read_uleb128ENSt3__14spanIKhLm18446744073709551615EEERmRb
+~ __ZNK6mach_o18PlatformInfo_macOS14yearForVersionENS_9Version32ERtRb : 60 -> 92
+~ __ZNK6mach_o13RebaseOpcodes13forEachRebaseEU13block_pointerFv7CStringibhyRbE : 908 -> 1360
+~ ____ZNK6mach_o12UnsafeHeader14forEachSegmentEU13block_pointerFvRKNS0_11SegmentInfoEyjRbE_block_invoke : 500 -> 512
+~ ____ZNK6mach_o12UnsafeHeader14forEachSectionEU13block_pointerFvRKNS0_11SectionInfoERbE_block_invoke : 612 -> 584
+CStrings:
++ "section '%s' has an empty segment name"
++ "section '%s' segment name '%s' does not match containing segment's name '%s'"
++ "section in segment '%s' has an empty section name"
++ "segment load command has an empty segment name"
+
+```

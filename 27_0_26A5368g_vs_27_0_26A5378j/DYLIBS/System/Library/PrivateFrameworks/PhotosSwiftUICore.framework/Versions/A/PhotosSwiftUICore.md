@@ -1,0 +1,166 @@
+## PhotosSwiftUICore
+
+> `/System/Library/PrivateFrameworks/PhotosSwiftUICore.framework/Versions/A/PhotosSwiftUICore`
+
+```diff
+
+-  __TEXT.__text: 0x25cfc0
+-  __TEXT.__objc_methlist: 0x1a3c
+-  __TEXT.__swift5_typeref: 0x27d66
+-  __TEXT.__const: 0x273d4
+-  __TEXT.__constg_swiftt: 0x144d4
+-  __TEXT.__swift5_reflstr: 0x9cee
+-  __TEXT.__swift5_assocty: 0x2c90
+-  __TEXT.__swift5_fieldmd: 0x9ea8
++  __TEXT.__text: 0x25fcc8
++  __TEXT.__objc_methlist: 0x1a44
++  __TEXT.__swift5_typeref: 0x27f16
++  __TEXT.__const: 0x27a24
++  __TEXT.__constg_swiftt: 0x1476c
++  __TEXT.__swift5_reflstr: 0x9ebe
++  __TEXT.__swift5_assocty: 0x2d08
++  __TEXT.__swift5_fieldmd: 0xa03c
+   __TEXT.__swift5_builtin: 0x320
+-  __TEXT.__cstring: 0x2811
+-  __TEXT.__swift5_proto: 0x1014
+-  __TEXT.__swift5_types: 0xaf0
++  __TEXT.__cstring: 0x2841
++  __TEXT.__swift5_proto: 0x1038
++  __TEXT.__swift5_types: 0xb10
+   __TEXT.__oslogstring: 0x11ff
+   __TEXT.__swift5_protos: 0xf8
+   __TEXT.__swift_as_entry: 0x50
+-  __TEXT.__swift5_capture: 0x27a8
++  __TEXT.__swift5_capture: 0x2828
+   __TEXT.__swift5_mpenum: 0x118
+   __TEXT.__swift_as_ret: 0x44
+   __TEXT.__swift_as_cont: 0x8c
+-  __TEXT.__unwind_info: 0xb000
+-  __TEXT.__eh_frame: 0x4ff0
++  __TEXT.__unwind_info: 0xb170
++  __TEXT.__eh_frame: 0x5068
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1b20
+-  __DATA_CONST.__objc_classlist: 0x2c0
++  __DATA_CONST.__const: 0x1b80
++  __DATA_CONST.__objc_classlist: 0x2c8
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x120
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1480
++  __DATA_CONST.__objc_selrefs: 0x1488
+   __DATA_CONST.__objc_protorefs: 0x90
+-  __DATA_CONST.__got: 0x1810
+-  __AUTH_CONST.__const: 0x13d28
+-  __AUTH_CONST.__objc_const: 0x8810
++  __DATA_CONST.__got: 0x1820
++  __AUTH_CONST.__const: 0x14148
++  __AUTH_CONST.__objc_const: 0x8a00
+   __AUTH_CONST.__auth_got: 0x3208
+-  __AUTH.__objc_data: 0x2cd0
+-  __AUTH.__data: 0x50c0
+-  __DATA.__data: 0x73e0
+-  __DATA.__bss: 0xa048
+-  __DATA.__common: 0x30
+-  __DATA_DIRTY.__objc_data: 0xcc8
+-  __DATA_DIRTY.__data: 0xc610
+-  __DATA_DIRTY.__bss: 0x16a30
+-  __DATA_DIRTY.__common: 0x168
++  __AUTH.__objc_data: 0x798
++  __AUTH.__data: 0x19b8
++  __DATA.__data: 0x6b20
++  __DATA.__bss: 0x9878
++  __DATA.__common: 0x20
++  __DATA_DIRTY.__objc_data: 0x3260
++  __DATA_DIRTY.__data: 0x10888
++  __DATA_DIRTY.__bss: 0x176b0
++  __DATA_DIRTY.__common: 0x178
+   - /System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 20555
+-  Symbols:   9826
+-  CStrings:  352
++  Functions: 20726
++  Symbols:   9885
++  CStrings:  353
+ 
+Sections:
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+Symbols:
++ __DATA__TtC17PhotosSwiftUICoreP33_4F3FD8DBE07220B6F3C186FDD01EC3E522CoalescingMaskRenderer
++ __IVARS__TtC17PhotosSwiftUICoreP33_4F3FD8DBE07220B6F3C186FDD01EC3E522CoalescingMaskRenderer
++ __METACLASS_DATA__TtC17PhotosSwiftUICoreP33_4F3FD8DBE07220B6F3C186FDD01EC3E522CoalescingMaskRenderer
++ __swift_closure_destructor.49Tm
++ _associated conformance 17PhotosSwiftUICore17OneUpBadgeBarModeOSHAASQ
++ _associated conformance 17PhotosSwiftUICore19OneUpBadgeGroupViewV0B2UI0H0AA4BodyAdEP_AdE
++ _associated conformance 17PhotosSwiftUICore19OneUpTitleAlignmentOSHAASQ
++ _associated conformance 17PhotosSwiftUICore23OneUpInlineBadgeBarViewV0B2UI0I0AA4BodyAdEP_AdE
++ _symbolic So7CIImageC
++ _symbolic _____ 17PhotosSwiftUICore0A23SwipeToSelectAllowedKey33_A773CF958E4481CD362DF79D78D8E01ALLV
++ _symbolic _____ 17PhotosSwiftUICore17OneUpBadgeBarModeO
++ _symbolic _____ 17PhotosSwiftUICore19OneUpBadgeGroupViewV
++ _symbolic _____ 17PhotosSwiftUICore19OneUpTitleAlignmentO
++ _symbolic _____ 17PhotosSwiftUICore22CoalescingMaskRenderer017_4F3FD8DBE07220B6G14C186FDD01EC3E5LLC
++ _symbolic _____ 17PhotosSwiftUICore23OneUpInlineBadgeBarViewV
++ _symbolic _____ 17PhotosSwiftUICore26OneUpInlineBadgeBarContextV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV06PhotosA6UICoreE23__Key_oneUpBadgeBarMode33_34A59350E995D936E9A9B65F072E11BFLLV
++ _symbolic _____Iegg_ So10CGImageRefa
++ _symbolic _____SgXw 17PhotosSwiftUICore22CoalescingMaskRenderer017_4F3FD8DBE07220B6G14C186FDD01EC3E5LLC
++ _symbolic _____SgXw 17PhotosSwiftUICore23CleanupMaskOutlineLayer017_4F3FD8DBE07220B6H14C186FDD01EC3E5LLC
++ _symbolic _____SgXw 17PhotosSwiftUICore27CleanupMaskEffectGroupLayer017_4F3FD8DBE07220B6I14C186FDD01EC3E5LLC
++ _symbolic _____SgXwz_Xx 17PhotosSwiftUICore22CoalescingMaskRenderer017_4F3FD8DBE07220B6G14C186FDD01EC3E5LLC
++ _symbolic ______p 17PhotosSwiftUICore22OneUpChromeEnvironmentP
++ _symbolic ______p 17PhotosSwiftUICore25OneUpBadgeContentProviderP
++ _symbolic _____yAAyAAyAAy_____y______y_____G_____y______A2GQPGG_____GAJG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 06PhotosA6UICore024OneUpCenteringTrioHStackH0V AA05TupleD0V AJ0lm10BadgeGroupF0V AA08_PaddingH0V AA30_EnvironmentKeyWritingModifierV AJ0lmR7BarModeO AJ0lmy6LockedX033_557AA1D91310E68F95AA16A2A61CE6F8LLV
++ _symbolic _____yAAyAAyAAy_____y______y_____G_____y______A2GQPGG_____GAJG_____y_____GG_____GSg 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 06PhotosA6UICore024OneUpCenteringTrioHStackH0V AA05TupleD0V AJ0lm10BadgeGroupF0V AA08_PaddingH0V AA30_EnvironmentKeyWritingModifierV AJ0lmR7BarModeO AJ0lmy6LockedX033_557AA1D91310E68F95AA16A2A61CE6F8LLV
++ _symbolic _____yAAyAAyAAy_____y_____y______AAyAD_____GAFQPGGAEGAEG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V 06PhotosA6UICore19OneUpBadgeGroupViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AH0ijK7BarModeO AH0ijt6LockedS033_557AA1D91310E68F95AA16A2A61CE6F8LLV
++ _symbolic _____yAAyAAyAAy_____y_____y______AAyAD_____GAFQPGGAEGAEG_____y_____GG_____GSg 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V 06PhotosA6UICore19OneUpBadgeGroupViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AH0ijK7BarModeO AH0ijt6LockedS033_557AA1D91310E68F95AA16A2A61CE6F8LLV
++ _symbolic _____yAAyAAy_____y______y_____G_____y______A2GQPGG_____GAJG_____y_____GG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 06PhotosA6UICore024OneUpCenteringTrioHStackH0V AA05TupleD0V AJ0lm10BadgeGroupF0V AA08_PaddingH0V AA30_EnvironmentKeyWritingModifierV AJ0lmR7BarModeO
++ _symbolic _____yAAyAAy_____y_____y______AAyAD_____GAFQPGGAEGAEG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V 06PhotosA6UICore19OneUpBadgeGroupViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AH0ijK7BarModeO
++ _symbolic _____yAAy_____y______y_____G_____y______A2GQPGG_____GAJG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 06PhotosA6UICore024OneUpCenteringTrioHStackH0V AA05TupleD0V AJ0lm10BadgeGroupF0V AA08_PaddingH0V
++ _symbolic _____yAAy_____y_____y______AAyAD_____GAFQPGGAEGAEG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V 06PhotosA6UICore19OneUpBadgeGroupViewV AA14_PaddingLayoutV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV 06PhotosA6UICore17OneUpBadgeBarModeO
++ _symbolic _____y______A2BQPG 7SwiftUI12TupleContentV 06PhotosA6UICore19OneUpBadgeGroupViewV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 06PhotosA6UICore19OneUpBadgeGroupViewV AA14_PaddingLayoutV
++ _symbolic _____y______y_____G_____y______A2FQPGG 7SwiftUI13_VariadicViewO4TreeV AA11_LayoutRootV 06PhotosA6UICore024OneUpCenteringTrioHStackF0V AA12TupleContentV AH0jk10BadgeGroupD0V
++ _symbolic _____y_____y___________yAC_____GAFQPGG 7SwiftUI6HStackV AA12TupleContentV 06PhotosA6UICore19OneUpBadgeGroupViewV AA08ModifiedE0V AA14_PaddingLayoutV
++ _symbolic _____y_____y______y_____G_____y______A2GQPGG_____G 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 06PhotosA6UICore024OneUpCenteringTrioHStackH0V AA05TupleD0V AJ0lm10BadgeGroupF0V AA08_PaddingH0V
++ _symbolic _____y_____y_____y______AAyAD_____GAFQPGGAEG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V 06PhotosA6UICore19OneUpBadgeGroupViewV AA14_PaddingLayoutV
++ _type_layout_string 17PhotosSwiftUICore19OneUpBadgeGroupViewV
++ _type_layout_string 17PhotosSwiftUICore23OneUpInlineBadgeBarViewV
++ _type_layout_string 17PhotosSwiftUICore26OneUpInlineBadgeBarContextV
++ get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA7ForEachVySay06PhotosA6UICore14OneUpBadgeSpecOGAjH0jkL4ViewVGGAA14_OpacityEffectVGAA0N0HPAoaSHPyHC_AqA0N8ModifierHPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA13_VariadicViewO4TreeVy_AA11_LayoutRootVy06PhotosA6UICore024OneUpCenteringTrioHStackH0VGAA05TupleD0VyAJ0lm10BadgeGroupF0V_A2QQPGGAA08_PaddingH0VGAUGAA30_EnvironmentKeyWritingModifierVyAJ0lmR7BarModeOGGAJ0lmy6LockedX033_557AA1D91310E68F95AA16A2A61CE6F8LLVGSgAA0F0HpA5_AAA7_HPA1_AAA7_HPAwAA7_HPAvAA7_HPAsAA7_HPAmA01_ef1_fI0HPyHC_ArAA7_HPAqAA7_HPyHC_AqAA7_HPyHCAqAA7_HPyHCHX_HCHC_AuA0fX0HPyHCHC_AuAA9_HPyHCHC_A0_AAA9_HPyHCHC_A4_AAA9_HPyHCHC_HC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6HStackVyAA05TupleD0Vy06PhotosA6UICore19OneUpBadgeGroupViewV_ACyAjA14_PaddingLayoutVGAMQPGGALGALGAA30_EnvironmentKeyWritingModifierVyAH0ijK7BarModeOGGAH0ijt6LockedS033_557AA1D91310E68F95AA16A2A61CE6F8LLVGSgAA0M0HpA_AAA1_HPAwAA1_HPAqAA1_HPApAA1_HPAoAA1_HPyHC_AlA0mS0HPyHCHC_AlAA2_HPyHCHC_AvAA2_HPyHCHC_AzAA2_HPyHCHC_HC
+- ___unnamed_21
+- __swift_closure_destructor.45Tm
+- _swift_willThrowTypedImpl
+- _symbolic _____yAAyAAy_____y______y_____G_____yAAy_____y_____ySay_____GAI_____GG_____G_A2OQPGG_____GARG_____G 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 06PhotosA6UICore024OneUpCenteringTrioHStackH0V AA05TupleD0V AA0P0V AA7ForEachV AJ0lM9BadgeSpecO AJ0lmtF0V AA14_OpacityEffectV AA08_PaddingH0V AJ0lM17BarLockedModifier33_557AA1D91310E68F95AA16A2A61CE6F8LLV
+- _symbolic _____yAAyAAy_____y______y_____G_____yAAy_____y_____ySay_____GAI_____GG_____G_A2OQPGG_____GARG_____GSg 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 06PhotosA6UICore024OneUpCenteringTrioHStackH0V AA05TupleD0V AA0P0V AA7ForEachV AJ0lM9BadgeSpecO AJ0lmtF0V AA14_OpacityEffectV AA08_PaddingH0V AJ0lM17BarLockedModifier33_557AA1D91310E68F95AA16A2A61CE6F8LLV
+- _symbolic _____yAAy_____y______y_____G_____yAAy_____y_____ySay_____GAI_____GG_____G_A2OQPGG_____GARG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 06PhotosA6UICore024OneUpCenteringTrioHStackH0V AA05TupleD0V AA0P0V AA7ForEachV AJ0lM9BadgeSpecO AJ0lmtF0V AA14_OpacityEffectV AA08_PaddingH0V
+- _symbolic _____y______y_____G_____y_____y_____y_____ySay_____GAI_____GG_____G_A2OQPGG 7SwiftUI13_VariadicViewO4TreeV AA11_LayoutRootV 06PhotosA6UICore024OneUpCenteringTrioHStackF0V AA12TupleContentV AA08ModifiedP0V AA0N0V AA7ForEachV AH0jK9BadgeSpecO AH0jktD0V AA14_OpacityEffectV
+- _symbolic _____y_____y______y_____G_____yAAy_____y_____ySay_____GAI_____GG_____G_A2OQPGG_____G 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 06PhotosA6UICore024OneUpCenteringTrioHStackH0V AA05TupleD0V AA0P0V AA7ForEachV AJ0lM9BadgeSpecO AJ0lmtF0V AA14_OpacityEffectV AA08_PaddingH0V
+- _symbolic _____y_____y_____ySay_____GAD_____GG_____G_A2Jt 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV 06PhotosA6UICore14OneUpBadgeSpecO AH0jkL4ViewV AA14_OpacityEffectV
+- _symbolic _____y_____y_____y_____ySay_____GAE_____GG_____G_A2KQPG 7SwiftUI12TupleContentV AA08ModifiedD0V AA6HStackV AA7ForEachV 06PhotosA6UICore14OneUpBadgeSpecO AJ0klM4ViewV AA14_OpacityEffectV
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA13_VariadicViewO4TreeVy_AA11_LayoutRootVy06PhotosA6UICore024OneUpCenteringTrioHStackH0VGAA05TupleD0VyACyAA0P0VyAA7ForEachVySayAJ0lM9BadgeSpecOGAuJ0lmtF0VGGAA14_OpacityEffectVG_A1_A1_QPGGAA08_PaddingH0VGA5_GAJ0lM17BarLockedModifier33_557AA1D91310E68F95AA16A2A61CE6F8LLVGSgAA0F0HpA11_AAA13_HPA7_AAA13_HPA6_AAA13_HPA3_AAA13_HPAmA01_ef1_fI0HPyHC_A2_AAA13_HPA1_AAA13_HPAzAA13_HPyHC_A0_AA0F8ModifierHPyHCHC_A1_AAA13_HPAzAA13_HPyHC_A0_AAA15_HPyHCHCA1_AAA13_HPAzAA13_HPyHC_A0_AAA15_HPyHCHCHX_HCHC_A5_AAA15_HPyHCHC_A5_AAA15_HPyHCHC_A10_AAA15_HPyHCHC_HC
+CStrings:
++ "CleanupMaskRootLayer.renderQueue"
+
+```

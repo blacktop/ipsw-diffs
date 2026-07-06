@@ -1,0 +1,114 @@
+## TSCollaborationKit
+
+> `/System/Library/QuickLook/iWork.qlgenerator/Contents/Frameworks/TSCollaborationKit.framework/Versions/A/TSCollaborationKit`
+
+```diff
+
+-  __TEXT.__text: 0x43420
++  __TEXT.__text: 0x42ec8
+   __TEXT.__init_offsets: 0x8
+   __TEXT.__objc_methlist: 0x660
+   __TEXT.__const: 0x4bba
+Sections:
+~ __TEXT.__init_offsets : content changed
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__cstring : content changed
+~ __TEXT.__swift5_typeref : content changed
+~ __TEXT.__unwind_info : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __AUTH.__objc_data : content changed
+~ __DATA.__data : content changed
+~ __DATA_DIRTY.__data : content changed
+Functions:
+~ __ZNK4TSCK32CollaborationCommandHistoryArray18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 244 -> 236
+~ __ZNK4TSCK39CollaborationCommandHistoryArraySegment18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 244 -> 236
+~ __ZNK4TSCK36CollaborationCommandHistory_ItemList18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 452 -> 436
+~ __ZNK4TSCK27CollaborationCommandHistory18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 572 -> 548
+~ __ZNK4TSCK31CollaborationCommandHistoryItem18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 768 -> 736
+~ sub_2a32b48d0 -> sub_2ac4e5878 : 304 -> 292
+~ __ZNK4TSCK42CollaborationCommandHistoryCoalescingGroup18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 352 -> 344
+~ __ZNK4TSCK46CollaborationCommandHistoryCoalescingGroupNode18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 244 -> 236
+~ __ZNK4TSCK68CollaborationCommandHistoryOriginatingCommandAcknowledgementObserver18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 408 -> 392
+~ __ZNK4TSCK33DocumentSupportCollaborationState18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 408 -> 392
+~ __ZNK4TSCK38SetAnnotationAuthorColorCommandArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 728 -> 696
+~ __ZNK4TSCK49SetActivityAuthorShareParticipantIDCommandArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 496 -> 480
+~ __ZNK4TSCK15IdOperationArgs18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 244 -> 236
+~ __ZNK4TSCK18AddIdOperationArgs18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 392 -> 376
+~ __ZNK4TSCK21RemoveIdOperationArgs18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 392 -> 376
+~ __ZNK4TSCK24RearrangeIdOperationArgs18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 548 -> 524
+~ __ZNK4TSCK24IdPlacementOperationArgs18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 548 -> 524
+~ __ZNK4TSCK28ActivityCommitCommandArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 628 -> 604
+~ __ZNK4TSCK50ExecuteTestBetweenRollbackAndReapplyCommandArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 244 -> 236
+~ __ZNK4TSCK40CreateLocalStorageSnapshotCommandArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 296 -> 288
+~ __ZNK4TSCK34BlockDiffsAtCurrentRevisionCommand18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 244 -> 236
+~ __ZNK4TSCK16TransformerEntry18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 464 -> 448
+~ __ZNK4TSCK50CollaborationAppliedCommandDocumentRevisionMapping18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 904 -> 864
+~ __ZNK4TSCK62CollaborationDocumentSessionState_AcknowledgementObserverEntry18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 452 -> 436
+~ __ZNK4TSCK33CollaborationDocumentSessionState18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 3300 -> 3156
+~ sub_2a32c46e8 -> sub_2ac4f54c4 : 304 -> 292
+~ __ZNK4TSCK26OperationStorageEntryArray18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 244 -> 236
+~ __ZNK4TSCK33OperationStorageEntryArraySegment18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 804 -> 772
+~ __ZNK4TSCK16OperationStorage18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1100 -> 1052
+~ __ZNK4TSCK20OutgoingCommandQueue18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 244 -> 236
+~ __ZNK4TSCK27OutgoingCommandQueueSegment18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 244 -> 236
+~ __ZNK4TSCK24CommandAssetChunkArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 784 -> 752
+~ __ZNK4TSCK53AssetUploadStatusCommandArchive_AssetUploadStatusInfo18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 280 -> 272
+~ __ZNK4TSCK31AssetUploadStatusCommandArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 452 -> 436
+~ __ZNK4TSCK41AssetUnmaterializedOnServerCommandArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 324 -> 316
+~ __ZNK4TSCK25CollaboratorCursorArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 276 -> 268
+~ __ZNK4TSCK21ActivityStreamArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1096 -> 1048
+~ __ZNK4TSCK27ActivityStreamActivityArray18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 244 -> 236
+~ __ZNK4TSCK34ActivityStreamActivityArraySegment18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 244 -> 236
+~ __ZNK4TSCK15ActivityArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1712 -> 1640
+~ __ZNK4TSCK21ActivityAuthorArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 448 -> 440
+~ __ZNK4TSCK30CommandActivityBehaviorArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 800 -> 768
+~ __ZNK4TSCK31ActivityCursorCollectionArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1080 -> 1032
+~ __ZNK4TSCK49ActivityCursorCollectionPersistenceWrapperArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 244 -> 236
+~ __ZNK4TSCK36CommentActivityNavigationInfoArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 464 -> 448
+~ __ZNK4TSCK50ActivityAuthorCacheArchive_ShareParticipantIDCache18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 296 -> 288
+~ __ZNK4TSCK40ActivityAuthorCacheArchive_PublicIDCache18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 296 -> 288
+~ __ZNK4TSCK37ActivityAuthorCacheArchive_IndexCache18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 392 -> 376
+~ __ZNK4TSCK41ActivityAuthorCacheArchive_FirstJoinCache18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 408 -> 392
+~ __ZNK4TSCK26ActivityAuthorCacheArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1372 -> 1316
+~ __ZNK4TSCK26ActivityOnlyCommandArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 244 -> 236
+~ __ZNK4TSCK31ActivityNotificationItemArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 748 -> 716
+~ __ZNK4TSCK71ActivityNotificationParticipantCacheArchive_UniqueIdentifierAndAttempts18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 392 -> 376
+~ __ZNK4TSCK43ActivityNotificationParticipantCacheArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 840 -> 808
+~ __ZNK4TSCK32ActivityNotificationQueueArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 664 -> 640
+~ __ZNK4TSCK40ActivityStreamTransformationStateArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1016 -> 976
+~ __ZNK4TSCK54ActivityStreamActivityCounterArchive_ActionTypeCounter18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 384 -> 368
+~ __ZNK4TSCK54ActivityStreamActivityCounterArchive_CursorTypeCounter18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 384 -> 368
+~ __ZNK4TSCK36ActivityStreamActivityCounterArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 480 -> 464
+~ __ZNK4TSCK72ActivityStreamRemovedAuthorAuditorPendingStateArchive_DateToAuditAndType18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 392 -> 376
+~ __ZNK4TSCK53ActivityStreamRemovedAuthorAuditorPendingStateArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 480 -> 464
+~ sub_2a32e7108 -> sub_2ac517be0 : 152 -> 144
+~ sub_2a32e72f0 -> sub_2ac517dc0 : 276 -> 268
+~ __ZNK7TSCKSOS30FixCorruptedDataCommandArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 392 -> 384
+~ __ZNK7TSCKSOS37RemoveAuthorIdentifiersCommandArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 504 -> 488
+~ __ZNK7TSCKSOS33ResetActivityStreamCommandArchive18_InternalSerializeEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 244 -> 236
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/messages/src/TSCKArchives.pb.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/messages/src/TSCKArchives.sos.pb.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/collaborationkit/TSCKApplicationPropertiesProvider.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/collaborationkit/TSCKAuthorUtilities.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/collaborationkit/TSCKDocumentRoot+SubscriptionExtensions.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/collaborationkit/TSCKDocumentRoot.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.hW4jyj/Sources/iWorkGenerator/messages/src/TSCKArchives.pb.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.hW4jyj/Sources/iWorkGenerator/messages/src/TSCKArchives.sos.pb.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.hW4jyj/Sources/iWorkGenerator/shared/collaborationkit/TSCKApplicationPropertiesProvider.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.hW4jyj/Sources/iWorkGenerator/shared/collaborationkit/TSCKAuthorUtilities.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.hW4jyj/Sources/iWorkGenerator/shared/collaborationkit/TSCKDocumentRoot+SubscriptionExtensions.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.hW4jyj/Sources/iWorkGenerator/shared/collaborationkit/TSCKDocumentRoot.mm"
+
+```

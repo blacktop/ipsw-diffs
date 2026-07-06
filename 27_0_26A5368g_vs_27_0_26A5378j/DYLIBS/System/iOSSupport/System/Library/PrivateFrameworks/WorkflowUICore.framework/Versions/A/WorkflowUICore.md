@@ -1,0 +1,155 @@
+## WorkflowUICore
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/WorkflowUICore.framework/Versions/A/WorkflowUICore`
+
+```diff
+
+-  __TEXT.__text: 0xbb1f8
++  __TEXT.__text: 0xbc334
+   __TEXT.__objc_methlist: 0x1f94
+-  __TEXT.__const: 0xd4c4
+-  __TEXT.__swift5_typeref: 0x10871
+-  __TEXT.__cstring: 0x1338
+-  __TEXT.__constg_swiftt: 0x4e9c
+-  __TEXT.__swift5_reflstr: 0x24b3
+-  __TEXT.__swift5_fieldmd: 0x2bbc
++  __TEXT.__const: 0xd6c4
++  __TEXT.__swift5_typeref: 0x109c5
++  __TEXT.__cstring: 0x1378
++  __TEXT.__constg_swiftt: 0x4edc
++  __TEXT.__swift5_reflstr: 0x24f3
++  __TEXT.__swift5_fieldmd: 0x2c18
+   __TEXT.__swift5_builtin: 0x258
+-  __TEXT.__swift5_assocty: 0x1340
++  __TEXT.__swift5_assocty: 0x1358
+   __TEXT.__oslogstring: 0x56c
+   __TEXT.__swift5_mpenum: 0x50
+-  __TEXT.__swift5_proto: 0x53c
+-  __TEXT.__swift5_types: 0x3b4
++  __TEXT.__swift5_proto: 0x544
++  __TEXT.__swift5_types: 0x3bc
+   __TEXT.__swift5_capture: 0x10c4
+   __TEXT.__swift_as_entry: 0x50
+   __TEXT.__swift_as_cont: 0xa4
+   __TEXT.__swift5_protos: 0x34
+   __TEXT.__swift_as_ret: 0x5c
+   __TEXT.__gcc_except_tab: 0x114
+-  __TEXT.__unwind_info: 0x39a0
+-  __TEXT.__eh_frame: 0x144c
++  __TEXT.__unwind_info: 0x39d8
++  __TEXT.__eh_frame: 0x1454
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x148
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1dd0
++  __DATA_CONST.__objc_selrefs: 0x1dd8
+   __DATA_CONST.__objc_protorefs: 0x98
+   __DATA_CONST.__objc_superrefs: 0x50
+   __DATA_CONST.__objc_arraydata: 0x10
+-  __DATA_CONST.__got: 0x1738
+-  __AUTH_CONST.__const: 0x8210
++  __DATA_CONST.__got: 0x1740
++  __AUTH_CONST.__const: 0x82c0
+   __AUTH_CONST.__cfstring: 0x220
+   __AUTH_CONST.__objc_const: 0x4860
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH_CONST.__auth_got: 0x25d8
++  __AUTH_CONST.__auth_got: 0x25f8
+   __AUTH.__objc_data: 0x1080
+   __AUTH.__data: 0x2148
+   __DATA.__objc_ivar: 0xd4
+-  __DATA.__data: 0x5320
+-  __DATA.__bss: 0x96c8
++  __DATA.__data: 0x5350
++  __DATA.__bss: 0x97c8
+   __DATA.__common: 0x18
+   __DATA_DIRTY.__objc_data: 0xf0
+   __DATA_DIRTY.__data: 0x590
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 6261
+-  Symbols:   5228
+-  CStrings:  216
++  Functions: 6305
++  Symbols:   5250
++  CStrings:  218
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__swift5_capture : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__objc_arraydata : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__objc_doubleobj : content changed
+~ __AUTH_CONST.__objc_dictobj : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__objc_ivar : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+~ __DATA_DIRTY.__data : content changed
+Symbols:
++ ___swift_memcpy120_8
++ ___swift_memcpy50_8
++ ___unnamed_26
++ ___unnamed_27
++ __swift_closure_destructor.113Tm
++ __swift_closure_destructor.22Tm
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy14WorkflowUICore0D19CollectionListStyleO_G
++ _objc_msgSend$isConversationEntity
++ _swift_getObjCClassFromObject
++ _symbolic SS26defaultThumbnailSymbolName_t
++ _symbolic _____ 14WorkflowUICore26ContentCollectionListStyleO
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV14WorkflowUICoreE29ContentCollectionListStyleKey33_79D40540D89A359D22420F453724930ELLV
++ _symbolic _____Sg 7ToolKit26TypedValueHydrationOptionsV
++ _symbolic _____yAAyAAyAAy__________y_____GGACy_____GGACy_____SgGG_____G 7SwiftUI15ModifiedContentV 14WorkflowUICore0D21CollectionPreviewViewV AA30_EnvironmentKeyWritingModifierV AD0d4ItemhI0V19PresentationContextO AD0dG9ListStyleO AD0dghI7OptionsC AA16_FlexFrameLayoutV
++ _symbolic _____yAAyAAy__________y_____GGACy_____GGACy_____SgGG 7SwiftUI15ModifiedContentV 14WorkflowUICore0D21CollectionPreviewViewV AA30_EnvironmentKeyWritingModifierV AD0d4ItemhI0V19PresentationContextO AD0dG9ListStyleO AD0dghI7OptionsC
++ _symbolic _____yAAy__________y_____GGACy_____GG 7SwiftUI15ModifiedContentV 14WorkflowUICore0D21CollectionPreviewViewV AA30_EnvironmentKeyWritingModifierV AD0d4ItemhI0V19PresentationContextO AD0dG9ListStyleO
++ _symbolic _____yAAy_____y_____yACy_____yAAy__________y_____SgGGG_____yAJGG_____yAJGGG_____G_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 14WorkflowUICore8ListView33_F0B275CF8FB53CDFF01766E4A7C75B69LLV AH0i3RowJ0V AA30_EnvironmentKeyWritingModifierV AH0d17CollectionPreviewJ7OptionsC AH012SingleSelectiJ0AJLLV AH014MultipleSelectiJ0AJLLV AA16_FlexFrameLayoutV AA12_FrameLayoutV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 14WorkflowUICore26ContentCollectionListStyleO
++ _symbolic _____y_____yAAy_____y_____yACy_____yAAy__________y_____SgGGG_____yAJGG_____yAJGGG_____G_____G______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AA15ModifiedContentV AA5GroupV AA012_ConditionalH0V 14WorkflowUICore0fC033_F0B275CF8FB53CDFF01766E4A7C75B69LLV AL0f3RowC0V AA30_EnvironmentKeyWritingModifierV AL0h17CollectionPreviewC7OptionsC AL012SingleSelectfC0ANLLV AL014MultipleSelectfC0ANLLV AA16_FlexFrameLayoutV AA12_FrameLayoutV AA05PlainfE0V
++ _symbolic _____y_____yAByAByABy__________y_____GGADy_____GGADy_____SgGG_____GG 7SwiftUI6VStackV AA15ModifiedContentV 14WorkflowUICore0E21CollectionPreviewViewV AA30_EnvironmentKeyWritingModifierV AF0e4ItemiJ0V19PresentationContextO AF0eH9ListStyleO AF0ehiJ7OptionsC AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____yACyAAyAAy__________y_____SgGG_____G_____y_____AFGGACyAAyAAyAdJGAHGANGGG_____GSg 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA18_AspectRatioLayoutV AA10_ShapeViewV AA9RectangleV AA06_FrameO0V
++ _symbolic _____y_____y_____y_____y_____yAEyACyACy__________y_____SgGG_____G_____y_____AHGGAEyACyACyAfLGAJGAPGGG_____GSg______yAByACy_____AGySiSgGG_ADyAEyAEyA2_A_G_____GGQPGG_____ADyAEyAEyA_A_GA4_GGQPGG 7SwiftUI6HStackV AA12TupleContentV AA08ModifiedE0V AA5GroupV AA012_ConditionalE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA18_AspectRatioLayoutV AA10_ShapeViewV AA9RectangleV AA06_FrameQ0V AA6VStackV AA4TextV AA05EmptyS0V AA6SpacerV
++ _type_layout_string 14WorkflowUICore26ContentCollectionListStyleO
++ get_witness_table 7SwiftUI6HStackVyAA12TupleContentVyAA08ModifiedE0VyAA5GroupVyAA012_ConditionalE0VyAKyAGyAGyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA18_AspectRatioLayoutVGAA10_ShapeViewVyAA9RectangleVAQGGAKyAGyAGyAmVGASGA0_GGGAA06_FrameQ0VGSg_AA6VStackVyAEyAGyAA4TextVAOySiSgGG_AIyAKyAKyA17_A14_GAA05EmptyS0VGGQPGGAA6SpacerVAIyAKyAKyA14_A14_GA20_GGQPGGAA0S0HPyHC
++ get_witness_table 7SwiftUI6VStackVyAA15ModifiedContentVyAEyAEyAEy14WorkflowUICore0E21CollectionPreviewViewVAA30_EnvironmentKeyWritingModifierVyAF0e4ItemiJ0V19PresentationContextOGGAJyAF0eH9ListStyleOGGAJyAF0ehiJ7OptionsCSgGGAA16_FlexFrameLayoutVGGAA0J0HPyHC
++ get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE9listStyleyQrqd__AA04ListE0Rd__lFQOyAA15ModifiedContentVyAGyAA5GroupVyAA012_ConditionalH0VyAKy14WorkflowUICore0fC033_F0B275CF8FB53CDFF01766E4A7C75B69LLVyAGyAL0f3RowC0VAA30_EnvironmentKeyWritingModifierVyAL0h17CollectionPreviewC7OptionsCSgGGGAL012SingleSelectfC0ANLLVyAXGGAL014MultipleSelectfC0ANLLVyAXGGGAA16_FlexFrameLayoutVGAA12_FrameLayoutVG_AA05PlainfE0VQo_HO
+- ___unnamed_23
+- ___unnamed_24
+- ___unnamed_25
+- __swift_closure_destructor.105Tm
+- __swift_closure_destructor.23Tm
+- _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV 14WorkflowUICore0D21CollectionPreviewViewV AA30_EnvironmentKeyWritingModifierV AD0d4ItemhI0V19PresentationContextO AA16_FlexFrameLayoutV
+- _symbolic _____y_____yABy__________y_____GG_____GG 7SwiftUI6VStackV AA15ModifiedContentV 14WorkflowUICore0E21CollectionPreviewViewV AA30_EnvironmentKeyWritingModifierV AF0e4ItemiJ0V19PresentationContextO AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____yACyAAyAAy__________y_____SgGG_____G_____y_____AFGGANGG_____GSg 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA18_AspectRatioLayoutV AA10_ShapeViewV AA9RectangleV AA06_FrameO0V
+- _symbolic _____y_____y_____y_____yACy_____yAAy__________y_____SgGGG_____yAJGG_____yAJGGG_____G______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AA15ModifiedContentV AA5GroupV AA012_ConditionalH0V 14WorkflowUICore0fC033_F0B275CF8FB53CDFF01766E4A7C75B69LLV AL0f3RowC0V AA30_EnvironmentKeyWritingModifierV AL0h17CollectionPreviewC7OptionsC AL012SingleSelectfC0ANLLV AL014MultipleSelectfC0ANLLV AA16_FlexFrameLayoutV AA05PlainfE0V
+- _symbolic _____y_____y_____y_____y_____yAEyACyACy__________y_____SgGG_____G_____y_____AHGGAPGG_____GSg______yAByACy_____AGySiSgGG_ADyAEyAEyA_AXG_____GGQPGG_____ADyAEyAEyA2XGA1_GGQPGG 7SwiftUI6HStackV AA12TupleContentV AA08ModifiedE0V AA5GroupV AA012_ConditionalE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA18_AspectRatioLayoutV AA10_ShapeViewV AA9RectangleV AA06_FrameQ0V AA6VStackV AA4TextV AA05EmptyS0V AA6SpacerV
+- get_witness_table 7SwiftUI6HStackVyAA12TupleContentVyAA08ModifiedE0VyAA5GroupVyAA012_ConditionalE0VyAKyAGyAGyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA18_AspectRatioLayoutVGAA10_ShapeViewVyAA9RectangleVAQGGA0_GGAA06_FrameQ0VGSg_AA6VStackVyAEyAGyAA4TextVAOySiSgGG_AIyAKyAKyA14_A11_GAA05EmptyS0VGGQPGGAA6SpacerVAIyAKyAKyA11_A11_GA17_GGQPGGAA0S0HPyHC
+- get_witness_table 7SwiftUI6VStackVyAA15ModifiedContentVyAEy14WorkflowUICore0E21CollectionPreviewViewVAA30_EnvironmentKeyWritingModifierVyAF0e4ItemiJ0V19PresentationContextOGGAA16_FlexFrameLayoutVGGAA0J0HPyHC
+- get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE9listStyleyQrqd__AA04ListE0Rd__lFQOyAA15ModifiedContentVyAA5GroupVyAA012_ConditionalH0VyAKy14WorkflowUICore0fC033_F0B275CF8FB53CDFF01766E4A7C75B69LLVyAGyAL0f3RowC0VAA30_EnvironmentKeyWritingModifierVyAL0h17CollectionPreviewC7OptionsCSgGGGAL012SingleSelectfC0ANLLVyAXGGAL014MultipleSelectfC0ANLLVyAXGGGAA16_FlexFrameLayoutVG_AA05PlainfE0VQo_HO
+CStrings:
++ "ContentCollectionListStyle"
++ "Share ‘%@’"
++ "person.crop.circle.fill"
+- "Share '%@'"
+
+```

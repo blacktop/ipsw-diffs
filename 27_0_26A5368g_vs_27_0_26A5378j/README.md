@@ -1,0 +1,874 @@
+# 27.0 (26A5368g) .vs 27.0 (26A5378j)
+
+## Inputs
+
+- `UniversalMac_27.0_26A5368g_Restore.ipsw`
+- `UniversalMac_27.0_26A5378j_Restore.ipsw`
+
+## Kernel
+
+### Version
+
+| iOS | Version | Build | Date |
+| :-- | :------ | :---- | :--- |
+| 27.0 *(26A5368g)* | 27.0.0 | 13432.0.5.501.1~2 | Mon, 15Jun2026 23:01:01 PDT |
+| 27.0 *(26A5378j)* | 27.0.0 | 13432.0.50.501.3~1 | Mon, 29Jun2026 21:24:54 PDT |
+
+### Kexts
+
+#### ⬆️ Updated (344)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+- [com.apple.AGXFirmwareKextG13GRTBuddy](KEXTS/com.apple.AGXFirmwareKextG13GRTBuddy.md)
+- [com.apple.AGXFirmwareKextRTBuddy64](KEXTS/com.apple.AGXFirmwareKextRTBuddy64.md)
+- [com.apple.AGXG13G](KEXTS/com.apple.AGXG13G.md)
+- [com.apple.AUC](KEXTS/com.apple.AUC.md)
+- [com.apple.AppleEmbeddedSimpleSPINORFlasher](KEXTS/com.apple.AppleEmbeddedSimpleSPINORFlasher.md)
+- [com.apple.AppleEthernetAquantiaAqtionFirmware](KEXTS/com.apple.AppleEthernetAquantiaAqtionFirmware.md)
+- [com.apple.AppleFSCompression.AppleFSCompressionTypeDataless](KEXTS/com.apple.AppleFSCompression.AppleFSCompressionTypeDataless.md)
+- [com.apple.AppleFSCompression.AppleFSCompressionTypeZlib](KEXTS/com.apple.AppleFSCompression.AppleFSCompressionTypeZlib.md)
+- [com.apple.AppleSystemPolicy](KEXTS/com.apple.AppleSystemPolicy.md)
+- [com.apple.BootCache](KEXTS/com.apple.BootCache.md)
+- [com.apple.EXBrightCalibrationConsumer](KEXTS/com.apple.EXBrightCalibrationConsumer.md)
+- [com.apple.IOTextEncryptionFamily](KEXTS/com.apple.IOTextEncryptionFamily.md)
+- [com.apple.UVCService](KEXTS/com.apple.UVCService.md)
+- [com.apple.driver.AFKHIDTBDevice](KEXTS/com.apple.driver.AFKHIDTBDevice.md)
+- [com.apple.driver.AppleA7IOP](KEXTS/com.apple.driver.AppleA7IOP.md)
+- [com.apple.driver.AppleA7IOP-ASCWrap-v4](KEXTS/com.apple.driver.AppleA7IOP-ASCWrap-v4.md)
+- [com.apple.driver.AppleA7IOP-M3Wrap-v2](KEXTS/com.apple.driver.AppleA7IOP-M3Wrap-v2.md)
+- [com.apple.driver.AppleAHCIPort](KEXTS/com.apple.driver.AppleAHCIPort.md)
+- [com.apple.driver.AppleALSColorSensor](KEXTS/com.apple.driver.AppleALSColorSensor.md)
+- [com.apple.driver.AppleAOPAudio](KEXTS/com.apple.driver.AppleAOPAudio.md)
+- [com.apple.driver.AppleAOPVoiceTrigger](KEXTS/com.apple.driver.AppleAOPVoiceTrigger.md)
+- [com.apple.driver.AppleARMPMU](KEXTS/com.apple.driver.AppleARMPMU.md)
+- [com.apple.driver.AppleARMPlatform](KEXTS/com.apple.driver.AppleARMPlatform.md)
+- [com.apple.driver.AppleARMWatchdogTimer](KEXTS/com.apple.driver.AppleARMWatchdogTimer.md)
+- [com.apple.driver.AppleAVD](KEXTS/com.apple.driver.AppleAVD.md)
+- [com.apple.driver.AppleAVE2](KEXTS/com.apple.driver.AppleAVE2.md)
+- [com.apple.driver.AppleActuatorDriver](KEXTS/com.apple.driver.AppleActuatorDriver.md)
+- [com.apple.driver.AppleAudioClockLibs](KEXTS/com.apple.driver.AppleAudioClockLibs.md)
+- [com.apple.driver.AppleAuthCP](KEXTS/com.apple.driver.AppleAuthCP.md)
+- [com.apple.driver.AppleBCMWLANBusInterfacePCIe](KEXTS/com.apple.driver.AppleBCMWLANBusInterfacePCIe.md)
+- [com.apple.driver.AppleBCMWLANCore](KEXTS/com.apple.driver.AppleBCMWLANCore.md)
+- [com.apple.driver.AppleBSDKextStarter](KEXTS/com.apple.driver.AppleBSDKextStarter.md)
+- [com.apple.driver.AppleBTM](KEXTS/com.apple.driver.AppleBTM.md)
+- [com.apple.driver.AppleBiometricSensor](KEXTS/com.apple.driver.AppleBiometricSensor.md)
+- [com.apple.driver.AppleBiometricServices](KEXTS/com.apple.driver.AppleBiometricServices.md)
+- [com.apple.driver.AppleBluetoothDebug](KEXTS/com.apple.driver.AppleBluetoothDebug.md)
+- [com.apple.driver.AppleBluetoothDebugService](KEXTS/com.apple.driver.AppleBluetoothDebugService.md)
+- [com.apple.driver.AppleBluetoothHIDKeyboard](KEXTS/com.apple.driver.AppleBluetoothHIDKeyboard.md)
+- [com.apple.driver.AppleBluetoothHIDMouse](KEXTS/com.apple.driver.AppleBluetoothHIDMouse.md)
+- [com.apple.driver.AppleBluetoothModule](KEXTS/com.apple.driver.AppleBluetoothModule.md)
+- [com.apple.driver.AppleBluetoothMultitouch](KEXTS/com.apple.driver.AppleBluetoothMultitouch.md)
+- [com.apple.driver.AppleBluetoothRemote](KEXTS/com.apple.driver.AppleBluetoothRemote.md)
+- [com.apple.driver.AppleCS42L83Audio](KEXTS/com.apple.driver.AppleCS42L83Audio.md)
+- [com.apple.driver.AppleCSEmbeddedAudio](KEXTS/com.apple.driver.AppleCSEmbeddedAudio.md)
+- [com.apple.driver.AppleCallbackPowerSource](KEXTS/com.apple.driver.AppleCallbackPowerSource.md)
+- [com.apple.driver.AppleConvergedIPCOLYBTControl](KEXTS/com.apple.driver.AppleConvergedIPCOLYBTControl.md)
+- [com.apple.driver.AppleConvergedPCI](KEXTS/com.apple.driver.AppleConvergedPCI.md)
+- [com.apple.driver.AppleCredentialManager](KEXTS/com.apple.driver.AppleCredentialManager.md)
+- [com.apple.driver.AppleDAPF](KEXTS/com.apple.driver.AppleDAPF.md)
+- [com.apple.driver.AppleDCP](KEXTS/com.apple.driver.AppleDCP.md)
+- [com.apple.driver.AppleDCPDPTXProxy](KEXTS/com.apple.driver.AppleDCPDPTXProxy.md)
+- [com.apple.driver.AppleDPDisplayTCON](KEXTS/com.apple.driver.AppleDPDisplayTCON.md)
+- [com.apple.driver.AppleDPRepeater](KEXTS/com.apple.driver.AppleDPRepeater.md)
+- [com.apple.driver.AppleDPTX](KEXTS/com.apple.driver.AppleDPTX.md)
+- [com.apple.driver.AppleDiagnosticDataAccessReadOnly](KEXTS/com.apple.driver.AppleDiagnosticDataAccessReadOnly.md)
+- [com.apple.driver.AppleDialogPMU](KEXTS/com.apple.driver.AppleDialogPMU.md)
+- [com.apple.driver.AppleDiskImages2](KEXTS/com.apple.driver.AppleDiskImages2.md)
+- [com.apple.driver.AppleDisplayCrossbar](KEXTS/com.apple.driver.AppleDisplayCrossbar.md)
+- [com.apple.driver.AppleDockChannel](KEXTS/com.apple.driver.AppleDockChannel.md)
+- [com.apple.driver.AppleEffaceableBlockDevice](KEXTS/com.apple.driver.AppleEffaceableBlockDevice.md)
+- [com.apple.driver.AppleEffaceableNOR](KEXTS/com.apple.driver.AppleEffaceableNOR.md)
+- [com.apple.driver.AppleEffaceableStorage](KEXTS/com.apple.driver.AppleEffaceableStorage.md)
+- [com.apple.driver.AppleEffaceableTDM](KEXTS/com.apple.driver.AppleEffaceableTDM.md)
+- [com.apple.driver.AppleEmbeddedAudio](KEXTS/com.apple.driver.AppleEmbeddedAudio.md)
+- [com.apple.driver.AppleEmbeddedAudioLibs](KEXTS/com.apple.driver.AppleEmbeddedAudioLibs.md)
+- [com.apple.driver.AppleEmbeddedLightSensor](KEXTS/com.apple.driver.AppleEmbeddedLightSensor.md)
+- [com.apple.driver.AppleEmbeddedPCIE](KEXTS/com.apple.driver.AppleEmbeddedPCIE.md)
+- [com.apple.driver.AppleEmbeddedTempSensor](KEXTS/com.apple.driver.AppleEmbeddedTempSensor.md)
+- [com.apple.driver.AppleEmbeddedUSBHost](KEXTS/com.apple.driver.AppleEmbeddedUSBHost.md)
+- [com.apple.driver.AppleEthernetAquantiaAqtion](KEXTS/com.apple.driver.AppleEthernetAquantiaAqtion.md)
+- [com.apple.driver.AppleEthernetAquantiaAqtionPortMonitor](KEXTS/com.apple.driver.AppleEthernetAquantiaAqtionPortMonitor.md)
+- [com.apple.driver.AppleEthernetRL](KEXTS/com.apple.driver.AppleEthernetRL.md)
+- [com.apple.driver.AppleEventLogHandler](KEXTS/com.apple.driver.AppleEventLogHandler.md)
+- [com.apple.driver.AppleFDEKeyStore](KEXTS/com.apple.driver.AppleFDEKeyStore.md)
+- [com.apple.driver.AppleFileSystemDriver](KEXTS/com.apple.driver.AppleFileSystemDriver.md)
+- [com.apple.driver.AppleFireStormErrorHandler](KEXTS/com.apple.driver.AppleFireStormErrorHandler.md)
+- [com.apple.driver.AppleFirmwareKit](KEXTS/com.apple.driver.AppleFirmwareKit.md)
+- [com.apple.driver.AppleFirmwareUpdateKext](KEXTS/com.apple.driver.AppleFirmwareUpdateKext.md)
+- [com.apple.driver.AppleGPIOICController](KEXTS/com.apple.driver.AppleGPIOICController.md)
+- [com.apple.driver.AppleGameControllerPersonality](KEXTS/com.apple.driver.AppleGameControllerPersonality.md)
+- [com.apple.driver.AppleH11ANEInterface](KEXTS/com.apple.driver.AppleH11ANEInterface.md)
+- [com.apple.driver.AppleH13CameraInterface](KEXTS/com.apple.driver.AppleH13CameraInterface.md)
+- [com.apple.driver.AppleHIDALSService](KEXTS/com.apple.driver.AppleHIDALSService.md)
+- [com.apple.driver.AppleHIDKeyboard](KEXTS/com.apple.driver.AppleHIDKeyboard.md)
+- [com.apple.driver.AppleHIDMouse](KEXTS/com.apple.driver.AppleHIDMouse.md)
+- [com.apple.driver.AppleHIDTransport](KEXTS/com.apple.driver.AppleHIDTransport.md)
+- [com.apple.driver.AppleHIDTransportSPI](KEXTS/com.apple.driver.AppleHIDTransportSPI.md)
+- [com.apple.driver.AppleHPM](KEXTS/com.apple.driver.AppleHPM.md)
+- [com.apple.driver.AppleI2CEthernetAquantia](KEXTS/com.apple.driver.AppleI2CEthernetAquantia.md)
+- [com.apple.driver.AppleIISController](KEXTS/com.apple.driver.AppleIISController.md)
+- [com.apple.driver.AppleIPAppender](KEXTS/com.apple.driver.AppleIPAppender.md)
+- [com.apple.driver.AppleInputDeviceSupport](KEXTS/com.apple.driver.AppleInputDeviceSupport.md)
+- [com.apple.driver.AppleInterruptController](KEXTS/com.apple.driver.AppleInterruptController.md)
+- [com.apple.driver.AppleJPEGDriver](KEXTS/com.apple.driver.AppleJPEGDriver.md)
+- [com.apple.driver.AppleLMBacklight](KEXTS/com.apple.driver.AppleLMBacklight.md)
+- [com.apple.driver.AppleLSIFusionMPT](KEXTS/com.apple.driver.AppleLSIFusionMPT.md)
+- [com.apple.driver.AppleLockdownMode](KEXTS/com.apple.driver.AppleLockdownMode.md)
+- [com.apple.driver.AppleM2ScalerCSCDriver](KEXTS/com.apple.driver.AppleM2ScalerCSCDriver.md)
+- [com.apple.driver.AppleM68Buttons](KEXTS/com.apple.driver.AppleM68Buttons.md)
+- [com.apple.driver.AppleMCA2-T8103](KEXTS/com.apple.driver.AppleMCA2-T8103.md)
+- [com.apple.driver.AppleMCDP29XXUpdateSupport](KEXTS/com.apple.driver.AppleMCDP29XXUpdateSupport.md)
+- [com.apple.driver.AppleMesaSEPDriver](KEXTS/com.apple.driver.AppleMesaSEPDriver.md)
+- [com.apple.driver.AppleMobileApNonce](KEXTS/com.apple.driver.AppleMobileApNonce.md)
+- [com.apple.driver.AppleMobileDispH13G-DCP](KEXTS/com.apple.driver.AppleMobileDispH13G-DCP.md)
+- [com.apple.driver.AppleMobileDispH13G-DFR](KEXTS/com.apple.driver.AppleMobileDispH13G-DFR.md)
+- [com.apple.driver.AppleMobileFileIntegrity](KEXTS/com.apple.driver.AppleMobileFileIntegrity.md)
+- [com.apple.driver.AppleMultiFunctionManager](KEXTS/com.apple.driver.AppleMultiFunctionManager.md)
+- [com.apple.driver.AppleMultitouchDriver](KEXTS/com.apple.driver.AppleMultitouchDriver.md)
+- [com.apple.driver.AppleNANDConfigAccess](KEXTS/com.apple.driver.AppleNANDConfigAccess.md)
+- [com.apple.driver.AppleOLYHAL](KEXTS/com.apple.driver.AppleOLYHAL.md)
+- [com.apple.driver.AppleOnboardSerial](KEXTS/com.apple.driver.AppleOnboardSerial.md)
+- [com.apple.driver.ApplePIODMA](KEXTS/com.apple.driver.ApplePIODMA.md)
+- [com.apple.driver.ApplePMGR](KEXTS/com.apple.driver.ApplePMGR.md)
+- [com.apple.driver.ApplePMP](KEXTS/com.apple.driver.ApplePMP.md)
+- [com.apple.driver.ApplePMPFirmware](KEXTS/com.apple.driver.ApplePMPFirmware.md)
+- [com.apple.driver.ApplePassthroughPPM](KEXTS/com.apple.driver.ApplePassthroughPPM.md)
+- [com.apple.driver.AppleRAID](KEXTS/com.apple.driver.AppleRAID.md)
+- [com.apple.driver.AppleRSMChannel](KEXTS/com.apple.driver.AppleRSMChannel.md)
+- [com.apple.driver.AppleS5L8920XPWM](KEXTS/com.apple.driver.AppleS5L8920XPWM.md)
+- [com.apple.driver.AppleS5L8940XI2C](KEXTS/com.apple.driver.AppleS5L8940XI2C.md)
+- [com.apple.driver.AppleS5L8960XNCO](KEXTS/com.apple.driver.AppleS5L8960XNCO.md)
+- [com.apple.driver.AppleS8000AES](KEXTS/com.apple.driver.AppleS8000AES.md)
+- [com.apple.driver.AppleS8000DWI](KEXTS/com.apple.driver.AppleS8000DWI.md)
+- [com.apple.driver.AppleSART](KEXTS/com.apple.driver.AppleSART.md)
+- [com.apple.driver.AppleSDXC](KEXTS/com.apple.driver.AppleSDXC.md)
+- [com.apple.driver.AppleSEPHDCPManager](KEXTS/com.apple.driver.AppleSEPHDCPManager.md)
+- [com.apple.driver.AppleSEPKeyStore](KEXTS/com.apple.driver.AppleSEPKeyStore.md)
+- [com.apple.driver.AppleSEPManager](KEXTS/com.apple.driver.AppleSEPManager.md)
+- [com.apple.driver.AppleSMC](KEXTS/com.apple.driver.AppleSMC.md)
+- [com.apple.driver.AppleSPIMC](KEXTS/com.apple.driver.AppleSPIMC.md)
+- [com.apple.driver.AppleSPMI](KEXTS/com.apple.driver.AppleSPMI.md)
+- [com.apple.driver.AppleSPMIPMU](KEXTS/com.apple.driver.AppleSPMIPMU.md)
+- [com.apple.driver.AppleSPU](KEXTS/com.apple.driver.AppleSPU.md)
+- [com.apple.driver.AppleSSE](KEXTS/com.apple.driver.AppleSSE.md)
+- [com.apple.driver.AppleSSM3515Audio](KEXTS/com.apple.driver.AppleSSM3515Audio.md)
+- [com.apple.driver.AppleSamsungSerial](KEXTS/com.apple.driver.AppleSamsungSerial.md)
+- [com.apple.driver.AppleSerialShim](KEXTS/com.apple.driver.AppleSerialShim.md)
+- [com.apple.driver.AppleSkywalkAVB](KEXTS/com.apple.driver.AppleSkywalkAVB.md)
+- [com.apple.driver.AppleSmartBatteryManager](KEXTS/com.apple.driver.AppleSmartBatteryManager.md)
+- [com.apple.driver.AppleSmartIO2](KEXTS/com.apple.driver.AppleSmartIO2.md)
+- [com.apple.driver.AppleStockholmControl](KEXTS/com.apple.driver.AppleStockholmControl.md)
+- [com.apple.driver.AppleSummitLCD](KEXTS/com.apple.driver.AppleSummitLCD.md)
+- [com.apple.driver.AppleSynopsysMIPIDSI](KEXTS/com.apple.driver.AppleSynopsysMIPIDSI.md)
+- [com.apple.driver.AppleSyntheticGameController](KEXTS/com.apple.driver.AppleSyntheticGameController.md)
+- [com.apple.driver.AppleT7000USBOTGDevice](KEXTS/com.apple.driver.AppleT7000USBOTGDevice.md)
+- [com.apple.driver.AppleT8020DART](KEXTS/com.apple.driver.AppleT8020DART.md)
+- [com.apple.driver.AppleT8020SOCTuner](KEXTS/com.apple.driver.AppleT8020SOCTuner.md)
+- [com.apple.driver.AppleT8101](KEXTS/com.apple.driver.AppleT8101.md)
+- [com.apple.driver.AppleT8103CLPCv3](KEXTS/com.apple.driver.AppleT8103CLPCv3.md)
+- [com.apple.driver.AppleT8103PCIe](KEXTS/com.apple.driver.AppleT8103PCIe.md)
+- [com.apple.driver.AppleT8103PCIeC](KEXTS/com.apple.driver.AppleT8103PCIeC.md)
+- [com.apple.driver.AppleT8103PCIeCPIODMA](KEXTS/com.apple.driver.AppleT8103PCIeCPIODMA.md)
+- [com.apple.driver.AppleT8103PMGR](KEXTS/com.apple.driver.AppleT8103PMGR.md)
+- [com.apple.driver.AppleT8103TypeCPhy](KEXTS/com.apple.driver.AppleT8103TypeCPhy.md)
+- [com.apple.driver.AppleTAS5770LAmp](KEXTS/com.apple.driver.AppleTAS5770LAmp.md)
+- [com.apple.driver.AppleTCA7408GPIOIC](KEXTS/com.apple.driver.AppleTCA7408GPIOIC.md)
+- [com.apple.driver.AppleThunderboltDPAdapterFamily](KEXTS/com.apple.driver.AppleThunderboltDPAdapterFamily.md)
+- [com.apple.driver.AppleThunderboltDPInAdapter](KEXTS/com.apple.driver.AppleThunderboltDPInAdapter.md)
+- [com.apple.driver.AppleThunderboltDPOutAdapter](KEXTS/com.apple.driver.AppleThunderboltDPOutAdapter.md)
+- [com.apple.driver.AppleThunderboltEDMSource](KEXTS/com.apple.driver.AppleThunderboltEDMSource.md)
+- [com.apple.driver.AppleThunderboltIP](KEXTS/com.apple.driver.AppleThunderboltIP.md)
+- [com.apple.driver.AppleThunderboltNHI](KEXTS/com.apple.driver.AppleThunderboltNHI.md)
+- [com.apple.driver.AppleThunderboltPCIDownAdapter](KEXTS/com.apple.driver.AppleThunderboltPCIDownAdapter.md)
+- [com.apple.driver.AppleThunderboltPCIUpAdapter](KEXTS/com.apple.driver.AppleThunderboltPCIUpAdapter.md)
+- [com.apple.driver.AppleThunderboltUSBDownAdapter](KEXTS/com.apple.driver.AppleThunderboltUSBDownAdapter.md)
+- [com.apple.driver.AppleThunderboltUSBType2DownAdapter](KEXTS/com.apple.driver.AppleThunderboltUSBType2DownAdapter.md)
+- [com.apple.driver.AppleThunderboltUSBType2UpAdapter](KEXTS/com.apple.driver.AppleThunderboltUSBType2UpAdapter.md)
+- [com.apple.driver.AppleThunderboltUSBUpAdapter](KEXTS/com.apple.driver.AppleThunderboltUSBUpAdapter.md)
+- [com.apple.driver.AppleThunderboltUTDM](KEXTS/com.apple.driver.AppleThunderboltUTDM.md)
+- [com.apple.driver.AppleTopCaseHIDEventDriver](KEXTS/com.apple.driver.AppleTopCaseHIDEventDriver.md)
+- [com.apple.driver.AppleTrustedAccessory](KEXTS/com.apple.driver.AppleTrustedAccessory.md)
+- [com.apple.driver.AppleTypeCPhy](KEXTS/com.apple.driver.AppleTypeCPhy.md)
+- [com.apple.driver.AppleTypeCRetimer](KEXTS/com.apple.driver.AppleTypeCRetimer.md)
+- [com.apple.driver.AppleUIO](KEXTS/com.apple.driver.AppleUIO.md)
+- [com.apple.driver.AppleUSBAudio](KEXTS/com.apple.driver.AppleUSBAudio.md)
+- [com.apple.driver.AppleUSBCardReader](KEXTS/com.apple.driver.AppleUSBCardReader.md)
+- [com.apple.driver.AppleUSBDeviceMux](KEXTS/com.apple.driver.AppleUSBDeviceMux.md)
+- [com.apple.driver.AppleUSBDeviceNCM](KEXTS/com.apple.driver.AppleUSBDeviceNCM.md)
+- [com.apple.driver.AppleUSBHIDMouse](KEXTS/com.apple.driver.AppleUSBHIDMouse.md)
+- [com.apple.driver.AppleUSBHostMergeProperties](KEXTS/com.apple.driver.AppleUSBHostMergeProperties.md)
+- [com.apple.driver.AppleUSBLightningAdapter](KEXTS/com.apple.driver.AppleUSBLightningAdapter.md)
+- [com.apple.driver.AppleUSBMassStorageInterfaceNub](KEXTS/com.apple.driver.AppleUSBMassStorageInterfaceNub.md)
+- [com.apple.driver.AppleUSBMergeNub](KEXTS/com.apple.driver.AppleUSBMergeNub.md)
+- [com.apple.driver.AppleUSBODD](KEXTS/com.apple.driver.AppleUSBODD.md)
+- [com.apple.driver.AppleUSBTDM](KEXTS/com.apple.driver.AppleUSBTDM.md)
+- [com.apple.driver.AppleUSBTopCaseDriver](KEXTS/com.apple.driver.AppleUSBTopCaseDriver.md)
+- [com.apple.driver.AppleUSBXDCI](KEXTS/com.apple.driver.AppleUSBXDCI.md)
+- [com.apple.driver.AppleUSBXDCIARM](KEXTS/com.apple.driver.AppleUSBXDCIARM.md)
+- [com.apple.driver.AppleUVDM](KEXTS/com.apple.driver.AppleUVDM.md)
+- [com.apple.driver.AppleUVDMDriver](KEXTS/com.apple.driver.AppleUVDMDriver.md)
+- [com.apple.driver.AppleXsanScheme](KEXTS/com.apple.driver.AppleXsanScheme.md)
+- [com.apple.driver.AudioDMAController-T8103](KEXTS/com.apple.driver.AudioDMAController-T8103.md)
+- [com.apple.driver.BCMWLANFirmware4378.Hashstore](KEXTS/com.apple.driver.BCMWLANFirmware4378.Hashstore.md)
+- [com.apple.driver.CoreKDL](KEXTS/com.apple.driver.CoreKDL.md)
+- [com.apple.driver.CoreStorage](KEXTS/com.apple.driver.CoreStorage.md)
+- [com.apple.driver.CoreStorageFsck](KEXTS/com.apple.driver.CoreStorageFsck.md)
+- [com.apple.driver.DCPAVFamilyProxy](KEXTS/com.apple.driver.DCPAVFamilyProxy.md)
+- [com.apple.driver.DCPDPFamilyProxy](KEXTS/com.apple.driver.DCPDPFamilyProxy.md)
+- [com.apple.driver.DiskImages](KEXTS/com.apple.driver.DiskImages.md)
+- [com.apple.driver.DiskImages.FileBackingStore](KEXTS/com.apple.driver.DiskImages.FileBackingStore.md)
+- [com.apple.driver.DiskImages.KernelBacked](KEXTS/com.apple.driver.DiskImages.KernelBacked.md)
+- [com.apple.driver.DiskImages.RAMBackingStore](KEXTS/com.apple.driver.DiskImages.RAMBackingStore.md)
+- [com.apple.driver.DiskImages.ReadWriteDiskImage](KEXTS/com.apple.driver.DiskImages.ReadWriteDiskImage.md)
+- [com.apple.driver.DiskImages.UDIFDiskImage](KEXTS/com.apple.driver.DiskImages.UDIFDiskImage.md)
+- [com.apple.driver.ExclavesAudioKext](KEXTS/com.apple.driver.ExclavesAudioKext.md)
+- [com.apple.driver.FairPlayIOKit](KEXTS/com.apple.driver.FairPlayIOKit.md)
+- [com.apple.driver.IISAudioIsolatedStreamECProxy](KEXTS/com.apple.driver.IISAudioIsolatedStreamECProxy.md)
+- [com.apple.driver.IOBluetoothHIDDriver](KEXTS/com.apple.driver.IOBluetoothHIDDriver.md)
+- [com.apple.driver.IODARTFamily](KEXTS/com.apple.driver.IODARTFamily.md)
+- [com.apple.driver.IOHIDPowerSource](KEXTS/com.apple.driver.IOHIDPowerSource.md)
+- [com.apple.driver.IOImageLoader](KEXTS/com.apple.driver.IOImageLoader.md)
+- [com.apple.driver.IOSlaveProcessor](KEXTS/com.apple.driver.IOSlaveProcessor.md)
+- [com.apple.driver.RTBuddy](KEXTS/com.apple.driver.RTBuddy.md)
+- [com.apple.driver.SEPHibernation](KEXTS/com.apple.driver.SEPHibernation.md)
+- [com.apple.driver.SoftRAID](KEXTS/com.apple.driver.SoftRAID.md)
+- [com.apple.driver.corecapture](KEXTS/com.apple.driver.corecapture.md)
+- [com.apple.driver.driverkit.serial](KEXTS/com.apple.driver.driverkit.serial.md)
+- [com.apple.driver.iPodSBCDriver](KEXTS/com.apple.driver.iPodSBCDriver.md)
+- [com.apple.driver.mDNSOffloadUserClient](KEXTS/com.apple.driver.mDNSOffloadUserClient.md)
+- [com.apple.driver.usb.AppleEmbeddedUSBXHCIPCI](KEXTS/com.apple.driver.usb.AppleEmbeddedUSBXHCIPCI.md)
+- [com.apple.driver.usb.AppleSynopsysUSB40XHCI](KEXTS/com.apple.driver.usb.AppleSynopsysUSB40XHCI.md)
+- [com.apple.driver.usb.AppleSynopsysUSBXHCI](KEXTS/com.apple.driver.usb.AppleSynopsysUSBXHCI.md)
+- [com.apple.driver.usb.AppleUSBCommon](KEXTS/com.apple.driver.usb.AppleUSBCommon.md)
+- [com.apple.driver.usb.AppleUSBEHCI](KEXTS/com.apple.driver.usb.AppleUSBEHCI.md)
+- [com.apple.driver.usb.AppleUSBEHCIPCI](KEXTS/com.apple.driver.usb.AppleUSBEHCIPCI.md)
+- [com.apple.driver.usb.AppleUSBHostBillboardDevice](KEXTS/com.apple.driver.usb.AppleUSBHostBillboardDevice.md)
+- [com.apple.driver.usb.AppleUSBHostCompositeDevice](KEXTS/com.apple.driver.usb.AppleUSBHostCompositeDevice.md)
+- [com.apple.driver.usb.AppleUSBHostDeviceSupport](KEXTS/com.apple.driver.usb.AppleUSBHostDeviceSupport.md)
+- [com.apple.driver.usb.AppleUSBHostPacketFilter](KEXTS/com.apple.driver.usb.AppleUSBHostPacketFilter.md)
+- [com.apple.driver.usb.AppleUSBHostiOSDevice](KEXTS/com.apple.driver.usb.AppleUSBHostiOSDevice.md)
+- [com.apple.driver.usb.AppleUSBHub](KEXTS/com.apple.driver.usb.AppleUSBHub.md)
+- [com.apple.driver.usb.AppleUSBRecoveryHost](KEXTS/com.apple.driver.usb.AppleUSBRecoveryHost.md)
+- [com.apple.driver.usb.AppleUSBUserHCI](KEXTS/com.apple.driver.usb.AppleUSBUserHCI.md)
+- [com.apple.driver.usb.AppleUSBVHCI](KEXTS/com.apple.driver.usb.AppleUSBVHCI.md)
+- [com.apple.driver.usb.AppleUSBVHCICommon](KEXTS/com.apple.driver.usb.AppleUSBVHCICommon.md)
+- [com.apple.driver.usb.AppleUSBVHCICommonRSM](KEXTS/com.apple.driver.usb.AppleUSBVHCICommonRSM.md)
+- [com.apple.driver.usb.AppleUSBVHCIRSM](KEXTS/com.apple.driver.usb.AppleUSBVHCIRSM.md)
+- [com.apple.driver.usb.AppleUSBXHCI](KEXTS/com.apple.driver.usb.AppleUSBXHCI.md)
+- [com.apple.driver.usb.AppleUSBXHCIPCI](KEXTS/com.apple.driver.usb.AppleUSBXHCIPCI.md)
+- [com.apple.driver.usb.IOUSBHostHIDDevice](KEXTS/com.apple.driver.usb.IOUSBHostHIDDevice.md)
+- [com.apple.driver.usb.cdc](KEXTS/com.apple.driver.usb.cdc.md)
+- [com.apple.driver.usb.cdc.acm](KEXTS/com.apple.driver.usb.cdc.acm.md)
+- [com.apple.driver.usb.cdc.ecm](KEXTS/com.apple.driver.usb.cdc.ecm.md)
+- [com.apple.driver.usb.cdc.ncm](KEXTS/com.apple.driver.usb.cdc.ncm.md)
+- [com.apple.driver.usb.ethernet.asix](KEXTS/com.apple.driver.usb.ethernet.asix.md)
+- [com.apple.driver.usb.networking](KEXTS/com.apple.driver.usb.networking.md)
+- [com.apple.driver.usb.realtek8153patcher](KEXTS/com.apple.driver.usb.realtek8153patcher.md)
+- [com.apple.driver.usb.serial](KEXTS/com.apple.driver.usb.serial.md)
+- [com.apple.filesystems.acfs](KEXTS/com.apple.filesystems.acfs.md)
+- [com.apple.filesystems.acfsctl](KEXTS/com.apple.filesystems.acfsctl.md)
+- [com.apple.filesystems.apfs](KEXTS/com.apple.filesystems.apfs.md)
+- [com.apple.filesystems.autofs](KEXTS/com.apple.filesystems.autofs.md)
+- [com.apple.filesystems.cd9660](KEXTS/com.apple.filesystems.cd9660.md)
+- [com.apple.filesystems.cddafs](KEXTS/com.apple.filesystems.cddafs.md)
+- [com.apple.filesystems.exfat](KEXTS/com.apple.filesystems.exfat.md)
+- [com.apple.filesystems.hfs.kext](KEXTS/com.apple.filesystems.hfs.kext.md)
+- [com.apple.filesystems.lifs](KEXTS/com.apple.filesystems.lifs.md)
+- [com.apple.filesystems.msdosfs](KEXTS/com.apple.filesystems.msdosfs.md)
+- [com.apple.filesystems.nfs](KEXTS/com.apple.filesystems.nfs.md)
+- [com.apple.filesystems.smbfs](KEXTS/com.apple.filesystems.smbfs.md)
+- [com.apple.filesystems.tmpfs](KEXTS/com.apple.filesystems.tmpfs.md)
+- [com.apple.filesystems.udf](KEXTS/com.apple.filesystems.udf.md)
+- [com.apple.filesystems.webdav](KEXTS/com.apple.filesystems.webdav.md)
+- [com.apple.iokit.AppleARMIISAudio](KEXTS/com.apple.iokit.AppleARMIISAudio.md)
+- [com.apple.iokit.AppleBCM5701Ethernet](KEXTS/com.apple.iokit.AppleBCM5701Ethernet.md)
+- [com.apple.iokit.AppleSEPGenericTransfer](KEXTS/com.apple.iokit.AppleSEPGenericTransfer.md)
+- [com.apple.iokit.CoreAnalyticsFamily](KEXTS/com.apple.iokit.CoreAnalyticsFamily.md)
+- [com.apple.iokit.EndpointSecurity](KEXTS/com.apple.iokit.EndpointSecurity.md)
+- [com.apple.iokit.IO80211Family](KEXTS/com.apple.iokit.IO80211Family.md)
+- [com.apple.iokit.IOAHCIBlockStorage](KEXTS/com.apple.iokit.IOAHCIBlockStorage.md)
+- [com.apple.iokit.IOAHCIFamily](KEXTS/com.apple.iokit.IOAHCIFamily.md)
+- [com.apple.iokit.IOAVBFamily](KEXTS/com.apple.iokit.IOAVBFamily.md)
+- [com.apple.iokit.IOAVFamily](KEXTS/com.apple.iokit.IOAVFamily.md)
+- [com.apple.iokit.IOAccessoryManager](KEXTS/com.apple.iokit.IOAccessoryManager.md)
+- [com.apple.iokit.IOAccessoryPortUSB](KEXTS/com.apple.iokit.IOAccessoryPortUSB.md)
+- [com.apple.iokit.IOAudio2Family](KEXTS/com.apple.iokit.IOAudio2Family.md)
+- [com.apple.iokit.IOAudioFamily](KEXTS/com.apple.iokit.IOAudioFamily.md)
+- [com.apple.iokit.IOBDStorageFamily](KEXTS/com.apple.iokit.IOBDStorageFamily.md)
+- [com.apple.iokit.IOBiometricFamily](KEXTS/com.apple.iokit.IOBiometricFamily.md)
+- [com.apple.iokit.IOBluetoothFamily](KEXTS/com.apple.iokit.IOBluetoothFamily.md)
+- [com.apple.iokit.IOBufferCopyEngineFamily](KEXTS/com.apple.iokit.IOBufferCopyEngineFamily.md)
+- [com.apple.iokit.IOCDStorageFamily](KEXTS/com.apple.iokit.IOCDStorageFamily.md)
+- [com.apple.iokit.IOCECFamily](KEXTS/com.apple.iokit.IOCECFamily.md)
+- [com.apple.iokit.IOCryptoAcceleratorFamily](KEXTS/com.apple.iokit.IOCryptoAcceleratorFamily.md)
+- [com.apple.iokit.IODVDStorageFamily](KEXTS/com.apple.iokit.IODVDStorageFamily.md)
+- [com.apple.iokit.IODisplayPortFamily](KEXTS/com.apple.iokit.IODisplayPortFamily.md)
+- [com.apple.iokit.IOGPUFamily](KEXTS/com.apple.iokit.IOGPUFamily.md)
+- [com.apple.iokit.IOGameControllerFamily](KEXTS/com.apple.iokit.IOGameControllerFamily.md)
+- [com.apple.iokit.IOGraphicsFamily](KEXTS/com.apple.iokit.IOGraphicsFamily.md)
+- [com.apple.iokit.IOHDCPFamily](KEXTS/com.apple.iokit.IOHDCPFamily.md)
+- [com.apple.iokit.IOHIDFamily](KEXTS/com.apple.iokit.IOHIDFamily.md)
+- [com.apple.iokit.IOKitRegistryCompatibility](KEXTS/com.apple.iokit.IOKitRegistryCompatibility.md)
+- [com.apple.iokit.IOMobileGraphicsFamily](KEXTS/com.apple.iokit.IOMobileGraphicsFamily.md)
+- [com.apple.iokit.IOMobileGraphicsFamily-DCP](KEXTS/com.apple.iokit.IOMobileGraphicsFamily-DCP.md)
+- [com.apple.iokit.IONVMeFamily](KEXTS/com.apple.iokit.IONVMeFamily.md)
+- [com.apple.iokit.IONetworkingFamily](KEXTS/com.apple.iokit.IONetworkingFamily.md)
+- [com.apple.iokit.IOPCIFamily](KEXTS/com.apple.iokit.IOPCIFamily.md)
+- [com.apple.iokit.IOPortFamily](KEXTS/com.apple.iokit.IOPortFamily.md)
+- [com.apple.iokit.IORSMFamily](KEXTS/com.apple.iokit.IORSMFamily.md)
+- [com.apple.iokit.IOReportFamily](KEXTS/com.apple.iokit.IOReportFamily.md)
+- [com.apple.iokit.IOSCSIArchitectureModelFamily](KEXTS/com.apple.iokit.IOSCSIArchitectureModelFamily.md)
+- [com.apple.iokit.IOSCSIBlockCommandsDevice](KEXTS/com.apple.iokit.IOSCSIBlockCommandsDevice.md)
+- [com.apple.iokit.IOSCSIMultimediaCommandsDevice](KEXTS/com.apple.iokit.IOSCSIMultimediaCommandsDevice.md)
+- [com.apple.iokit.IOSCSIParallelFamily](KEXTS/com.apple.iokit.IOSCSIParallelFamily.md)
+- [com.apple.iokit.IOSCSIReducedBlockCommandsDevice](KEXTS/com.apple.iokit.IOSCSIReducedBlockCommandsDevice.md)
+- [com.apple.iokit.IOSerialFamily](KEXTS/com.apple.iokit.IOSerialFamily.md)
+- [com.apple.iokit.IOSkywalkFamily](KEXTS/com.apple.iokit.IOSkywalkFamily.md)
+- [com.apple.iokit.IOSlowAdaptiveClockingFamily](KEXTS/com.apple.iokit.IOSlowAdaptiveClockingFamily.md)
+- [com.apple.iokit.IOStorageFamily](KEXTS/com.apple.iokit.IOStorageFamily.md)
+- [com.apple.iokit.IOStreamFamily](KEXTS/com.apple.iokit.IOStreamFamily.md)
+- [com.apple.iokit.IOSurface](KEXTS/com.apple.iokit.IOSurface.md)
+- [com.apple.iokit.IOThunderboltFamily](KEXTS/com.apple.iokit.IOThunderboltFamily.md)
+- [com.apple.iokit.IOTimeSyncFamily](KEXTS/com.apple.iokit.IOTimeSyncFamily.md)
+- [com.apple.iokit.IOUSBDeviceFamily](KEXTS/com.apple.iokit.IOUSBDeviceFamily.md)
+- [com.apple.iokit.IOUSBHostFamily](KEXTS/com.apple.iokit.IOUSBHostFamily.md)
+- [com.apple.iokit.IOUSBMassStorageDriver](KEXTS/com.apple.iokit.IOUSBMassStorageDriver.md)
+- [com.apple.iokit.IOUserEthernet](KEXTS/com.apple.iokit.IOUserEthernet.md)
+- [com.apple.iokit.IOVideoFamily](KEXTS/com.apple.iokit.IOVideoFamily.md)
+- [com.apple.iokit.SCSITaskUserClient](KEXTS/com.apple.iokit.SCSITaskUserClient.md)
+- [com.apple.kec.AppleEncryptedArchive](KEXTS/com.apple.kec.AppleEncryptedArchive.md)
+- [com.apple.kec.Compression](KEXTS/com.apple.kec.Compression.md)
+- [com.apple.kec.InvalidateHmac](KEXTS/com.apple.kec.InvalidateHmac.md)
+- [com.apple.kec.Libm](KEXTS/com.apple.kec.Libm.md)
+- [com.apple.kec.corecrypto](KEXTS/com.apple.kec.corecrypto.md)
+- [com.apple.kec.pthread](KEXTS/com.apple.kec.pthread.md)
+- [com.apple.kernel](KEXTS/com.apple.kernel.md)
+- [com.apple.kext.AppleMatch](KEXTS/com.apple.kext.AppleMatch.md)
+- [com.apple.kext.CoreTrust](KEXTS/com.apple.kext.CoreTrust.md)
+- [com.apple.kext.mcx.alr](KEXTS/com.apple.kext.mcx.alr.md)
+- [com.apple.kext.triggers](KEXTS/com.apple.kext.triggers.md)
+- [com.apple.macos.driver.AppleUSBEthernetHost](KEXTS/com.apple.macos.driver.AppleUSBEthernetHost.md)
+- [com.apple.nke.l2tp](KEXTS/com.apple.nke.l2tp.md)
+- [com.apple.nke.ppp](KEXTS/com.apple.nke.ppp.md)
+- [com.apple.nke.pppoe](KEXTS/com.apple.nke.pppoe.md)
+- [com.apple.plugin.IOAVBControlPlugin](KEXTS/com.apple.plugin.IOAVBControlPlugin.md)
+- [com.apple.plugin.IOAVBDiscoveryPlugin](KEXTS/com.apple.plugin.IOAVBDiscoveryPlugin.md)
+- [com.apple.plugin.IOAVBStreamingPlugin](KEXTS/com.apple.plugin.IOAVBStreamingPlugin.md)
+- [com.apple.plugin.IOMRPPlugin](KEXTS/com.apple.plugin.IOMRPPlugin.md)
+- [com.apple.plugin.IOgPTPPlugin](KEXTS/com.apple.plugin.IOgPTPPlugin.md)
+- [com.apple.security.AppleImage4](KEXTS/com.apple.security.AppleImage4.md)
+- [com.apple.security.BootPolicy](KEXTS/com.apple.security.BootPolicy.md)
+- [com.apple.security.Image4](KEXTS/com.apple.security.Image4.md)
+- [com.apple.security.quarantine](KEXTS/com.apple.security.quarantine.md)
+- [com.apple.security.sandbox](KEXTS/com.apple.security.sandbox.md)
+
+</details>
+
+## MachO
+
+### filesystem
+
+#### 🆕 NEW (14)
+
+- `/System/Applications/Siri AI.app/Contents/MacOS/Siri AI`
+- `/System/Library/CoreServices/SiriAppAccessMigrator`
+- `/System/Library/ExtensionKit/Extensions/SafariSearchUploadWorker.appex/Contents/MacOS/SafariSearchUploadWorker`
+- `/System/Library/ExtensionKit/Extensions/WritingToolsAppIntentsExtension.appex/Contents/MacOS/WritingToolsAppIntentsExtension`
+- `/System/Library/Frameworks/PhotosUI.framework/Versions/A/XPCServices/PhotosViewService.xpc/Contents/MacOS/PhotosViewService`
+- `/System/Library/Frameworks/Speech.framework/PlugIns/SpeechEncryptedLogsDiagnostic.appex/Contents/MacOS/SpeechEncryptedLogsDiagnostic`
+- `/System/Library/PrivateFrameworks/AgentCanvasUICore.framework/Versions/A/Resources/binary.metallib`
+- `/System/Library/PrivateFrameworks/AgentCanvasUICore.framework/Versions/Current/Resources/binary.metallib`
+- `/System/Library/PrivateFrameworks/AppleNeuralEngine.framework/XPCServices/ANELargeModelCompilerService.xpc/Contents/MacOS/ANELargeModelCompilerService`
+- `/System/Library/PrivateFrameworks/FindMySecureEnvironment.framework/XPCServices/FindMySecureEnvironmentXPCService.xpc/Contents/MacOS/FindMySecureEnvironmentXPCService`
+- `/System/Library/PrivateFrameworks/UARPAssetManager.framework/XPCServices/UARPAssetManagerServiceiCloud.xpc/Contents/MacOS/UARPAssetManagerServiceiCloud`
+- `/System/Library/Snippets/UIPlugins/MusicRecognitionUIPlugin.bundle/Contents/MacOS/MusicRecognitionUIPlugin`
+- `/System/Library/UserNotifications/Bundles/com.apple.RemotePairing.AuditActivityNotifications.bundle/Contents/MacOS/com.apple.RemotePairing.AuditActivityNotifications`
+- `/usr/libexec/tvremoted`
+
+#### ❌ Removed (13)
+
+- `/System/Applications/Campo.app/Contents/MacOS/Campo`
+- `/System/Library/CoreServices/destinationd`
+- `/System/Library/ExtensionKit/Extensions/InferenceExtension.appex/Contents/MacOS/InferenceExtension`
+- `/System/Library/ExtensionKit/Extensions/PhotosViewService.appex/Contents/MacOS/PhotosViewService`
+- `/System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent`
+- `/System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbctl`
+- `/System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated`
+- `/System/Library/PrivateFrameworks/Noticeboard.framework/Versions/Current/Resources/nbagent.app/Contents/MacOS/nbagent`
+- `/System/Library/PrivateFrameworks/Noticeboard.framework/Versions/Current/Resources/nbctl`
+- `/System/Library/PrivateFrameworks/Noticeboard.framework/Versions/Current/Resources/nbstated`
+- `/System/Library/PrivateFrameworks/Vista.framework/Versions/A/Resources/VSTPrecompiledPipelines.metallib`
+- `/System/Library/PrivateFrameworks/Vista.framework/Versions/Current/Resources/VSTPrecompiledPipelines.metallib`
+- `/usr/libexec/firmwaresyncd`
+
+#### ⬆️ Updated (3266)
+
+- [View 3266 updated files](MACHOS/filesystem.Updated.md)
+
+### SystemOS
+
+#### ❌ Removed (1)
+
+- `/System/Library/PrivateFrameworks/HybridDatabaseToolUtils.framework/Versions/A/HybridDatabaseToolUtils`
+
+#### ⬆️ Updated (24)
+
+- [/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit_x86Support](MACHOS/SystemOS/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit_x86Support.md)
+- [/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight_x86Support](MACHOS/SystemOS/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight_x86Support.md)
+- [/System/Library/Frameworks/GameKit.framework/Versions/A/GameKit_x86Support](MACHOS/SystemOS/System/Library/Frameworks/GameKit.framework/Versions/A/GameKit_x86Support.md)
+- [/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc](MACHOS/SystemOS/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc.md)
+- [/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/GameCenterFoundation_x86Support](MACHOS/SystemOS/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/GameCenterFoundation_x86Support.md)
+- [/System/Library/PrivateFrameworks/HelloWorldMacHelper.framework/Versions/A/HelloWorldMacHelper](MACHOS/SystemOS/System/Library/PrivateFrameworks/HelloWorldMacHelper.framework/Versions/A/HelloWorldMacHelper.md)
+- [/System/Library/PrivateFrameworks/Nodes.framework/Versions/A/Nodes](MACHOS/SystemOS/System/Library/PrivateFrameworks/Nodes.framework/Versions/A/Nodes.md)
+- [/System/Library/PrivateFrameworks/NodesUI.framework/Versions/A/NodesUI](MACHOS/SystemOS/System/Library/PrivateFrameworks/NodesUI.framework/Versions/A/NodesUI.md)
+- [/System/Library/PrivateFrameworks/PlugInKitDaemon.framework/Versions/A/PlugInKitDaemon](MACHOS/SystemOS/System/Library/PrivateFrameworks/PlugInKitDaemon.framework/Versions/A/PlugInKitDaemon.md)
+- [/System/Library/PrivateFrameworks/SafariFoundation.framework/Versions/A/XPCServices/CredentialProviderExtensionHelper.xpc/Contents/MacOS/CredentialProviderExtensionHelper](MACHOS/SystemOS/System/Library/PrivateFrameworks/SafariFoundation.framework/Versions/A/XPCServices/CredentialProviderExtensionHelper.xpc/Contents/MacOS/CredentialProviderExtensionHelper.md)
+- [/System/Library/PrivateFrameworks/SafariFoundation.framework/Versions/Current/XPCServices/CredentialProviderExtensionHelper.xpc/Contents/MacOS/CredentialProviderExtensionHelper](MACHOS/SystemOS/System/Library/PrivateFrameworks/SafariFoundation.framework/Versions/Current/XPCServices/CredentialProviderExtensionHelper.xpc/Contents/MacOS/CredentialProviderExtensionHelper.md)
+- [/System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper](MACHOS/SystemOS/System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper.md)
+- [/System/Library/PrivateFrameworks/SafariShared.framework/Versions/Current/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper](MACHOS/SystemOS/System/Library/PrivateFrameworks/SafariShared.framework/Versions/Current/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper.md)
+- [/System/Library/PrivateFrameworks/iCloudDriveCore.framework/Versions/A/Support/Frameworks/libos-brain.dylib](MACHOS/SystemOS/System/Library/PrivateFrameworks/iCloudDriveCore.framework/Versions/A/Support/Frameworks/libos-brain.dylib.md)
+- [/System/iOSSupport/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc](MACHOS/SystemOS/System/iOSSupport/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Helpers/jsc.md)
+- [/usr/lib/libBacktraceRecording.dylib](MACHOS/SystemOS/usr/lib/libBacktraceRecording.dylib.md)
+- [/usr/lib/libLaunchServicesSupport.dylib](MACHOS/SystemOS/usr/lib/libLaunchServicesSupport.dylib.md)
+- [/usr/lib/libLogRedirect.dylib](MACHOS/SystemOS/usr/lib/libLogRedirect.dylib.md)
+- [/usr/lib/libMTLHud.dylib](MACHOS/SystemOS/usr/lib/libMTLHud.dylib.md)
+- [/usr/lib/libMainThreadChecker.dylib](MACHOS/SystemOS/usr/lib/libMainThreadChecker.dylib.md)
+- [/usr/lib/libMetalMetricsInterpose.dylib](MACHOS/SystemOS/usr/lib/libMetalMetricsInterpose.dylib.md)
+- [/usr/lib/system/libsystem_kernel.dylib](MACHOS/SystemOS/usr/lib/system/libsystem_kernel.dylib.md)
+- [/usr/lib/system/libsystem_platform.dylib](MACHOS/SystemOS/usr/lib/system/libsystem_platform.dylib.md)
+- [/usr/lib/system/libsystem_pthread.dylib](MACHOS/SystemOS/usr/lib/system/libsystem_pthread.dylib.md)
+
+### AppOS
+
+#### ⬆️ Updated (2)
+
+- [/usr/libexec/AuthenticationServicesAgent](MACHOS/AppOS/usr/libexec/AuthenticationServicesAgent.md)
+- [/usr/libexec/SafariBookmarksSyncAgent](MACHOS/AppOS/usr/libexec/SafariBookmarksSyncAgent.md)
+
+### ExclaveOS
+
+#### ⬆️ Updated (5)
+
+- [/System/ExclaveKit/System/Library/Frameworks/CodeCoverageDelegate.framework/CodeCoverageDelegate](MACHOS/ExclaveOS/System/ExclaveKit/System/Library/Frameworks/CodeCoverageDelegate.framework/CodeCoverageDelegate.md)
+- [/System/ExclaveKit/usr/bin/tightbeam_stub](MACHOS/ExclaveOS/System/ExclaveKit/usr/bin/tightbeam_stub.md)
+- [/System/ExclaveKit/usr/lib/dyld](MACHOS/ExclaveOS/System/ExclaveKit/usr/lib/dyld.md)
+- [/System/ExclaveKit/usr/lib/system/libsystem_blocks_debug.dylib](MACHOS/ExclaveOS/System/ExclaveKit/usr/lib/system/libsystem_blocks_debug.dylib.md)
+- [/System/ExclaveKit/usr/lib/system/libsystem_blocks_profile.dylib](MACHOS/ExclaveOS/System/ExclaveKit/usr/lib/system/libsystem_blocks_profile.dylib.md)
+
+### 🔑 Entitlements
+
+- [Entitlements DIFF](Entitlements.md)
+
+## Firmware
+
+### ⬆️ Updated (249)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+- [Firmware/AOP/aopfw-j773gaop.RELEASE.im4p](FIRMWARE/Firmware/AOP/aopfw-j773gaop.RELEASE.im4p.md)
+- [Firmware/AOP/aopfw-mac13gaop.RELEASE.im4p](FIRMWARE/Firmware/AOP/aopfw-mac13gaop.RELEASE.im4p.md)
+- [Firmware/AOP/aopfw-mac13jaop.RELEASE.im4p](FIRMWARE/Firmware/AOP/aopfw-mac13jaop.RELEASE.im4p.md)
+- [Firmware/AOP/aopfw-mac14gaop.RELEASE.im4p](FIRMWARE/Firmware/AOP/aopfw-mac14gaop.RELEASE.im4p.md)
+- [Firmware/AOP/aopfw-mac14jaop.RELEASE.im4p](FIRMWARE/Firmware/AOP/aopfw-mac14jaop.RELEASE.im4p.md)
+- [Firmware/AOP/aopfw-mac15gaop.RELEASE.im4p](FIRMWARE/Firmware/AOP/aopfw-mac15gaop.RELEASE.im4p.md)
+- [Firmware/AOP/aopfw-mac15jaop.RELEASE.im4p](FIRMWARE/Firmware/AOP/aopfw-mac15jaop.RELEASE.im4p.md)
+- [Firmware/AOP/aopfw-mac15saop.RELEASE.im4p](FIRMWARE/Firmware/AOP/aopfw-mac15saop.RELEASE.im4p.md)
+- [Firmware/AOP/aopfw-mac16gaop.RELEASE.im4p](FIRMWARE/Firmware/AOP/aopfw-mac16gaop.RELEASE.im4p.md)
+- [Firmware/AOP/aopfw-mac16gaop_l4.RELEASE.im4p](FIRMWARE/Firmware/AOP/aopfw-mac16gaop_l4.RELEASE.im4p.md)
+- [Firmware/AOP/aopfw-mac16jaop.RELEASE.im4p](FIRMWARE/Firmware/AOP/aopfw-mac16jaop.RELEASE.im4p.md)
+- [Firmware/M3/bin/securem3fw-j70m.im4p](FIRMWARE/Firmware/M3/bin/securem3fw-j70m.im4p.md)
+- [Firmware/M3/bin/securem3fw-j7xm.im4p](FIRMWARE/Firmware/M3/bin/securem3fw-j7xm.im4p.md)
+- [Firmware/M3/bin/securem3fw-sc7x.im4p](FIRMWARE/Firmware/M3/bin/securem3fw-sc7x.im4p.md)
+- [Firmware/SmartIOFirmware_ASCv4.im4p](FIRMWARE/Firmware/SmartIOFirmware_ASCv4.im4p.md)
+- [Firmware/SmartIOFirmware_ASCv5.im4p](FIRMWARE/Firmware/SmartIOFirmware_ASCv5.im4p.md)
+- [Firmware/SmartIOFirmware_ASCv6.im4p](FIRMWARE/Firmware/SmartIOFirmware_ASCv6.im4p.md)
+- [Firmware/SmartIOFirmware_ASCv7.im4p](FIRMWARE/Firmware/SmartIOFirmware_ASCv7.im4p.md)
+- [Firmware/agx/armfw_g13g.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g13g.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g13g.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g13g.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g13g.im4p/agx_b100](FIRMWARE/Firmware/agx/armfw_g13g.im4p/agx_b100.md)
+- [Firmware/agx/armfw_g13x.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g13x.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g13x.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g13x.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g13x.im4p/agx_c000](FIRMWARE/Firmware/agx/armfw_g13x.im4p/agx_c000.md)
+- [Firmware/agx/armfw_g14c.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g14c.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g14c.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g14c.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g14d.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g14d.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g14d.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g14d.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g14g.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g14g.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g14g.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g14g.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g14s.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g14s.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g15c.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g15c.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g15c.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g15c.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g15d.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g15d.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g15d.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g15d.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g15g.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g15g.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g15g.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g15g.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g15g.im4p/agx_c000](FIRMWARE/Firmware/agx/armfw_g15g.im4p/agx_c000.md)
+- [Firmware/agx/armfw_g15s.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g15s.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g15s.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g15s.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g16c.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g16c.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g16c.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g16c.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g16g.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g16g.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g16g.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g16g.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g16s.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g16s.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g16s.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g16s.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g17g.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g17g.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g17g.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g17g.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g17g.im4p/agx_c000](FIRMWARE/Firmware/agx/armfw_g17g.im4p/agx_c000.md)
+- [Firmware/agx/armfw_g17p.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g17p.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g17p.im4p/agx_a010](FIRMWARE/Firmware/agx/armfw_g17p.im4p/agx_a010.md)
+- [Firmware/agx/armfw_g17p.im4p/agx_b000](FIRMWARE/Firmware/agx/armfw_g17p.im4p/agx_b000.md)
+- [Firmware/agx/armfw_g17p.im4p/agx_b010](FIRMWARE/Firmware/agx/armfw_g17p.im4p/agx_b010.md)
+- [Firmware/agx/armfw_g17p.im4p/agx_b100](FIRMWARE/Firmware/agx/armfw_g17p.im4p/agx_b100.md)
+- [Firmware/agx/armfw_g17x.im4p/agx_a000](FIRMWARE/Firmware/agx/armfw_g17x.im4p/agx_a000.md)
+- [Firmware/agx/armfw_g17x.im4p/agx_a010](FIRMWARE/Firmware/agx/armfw_g17x.im4p/agx_a010.md)
+- [Firmware/ane/h13_ane_fw_styx_j5x.im4p](FIRMWARE/Firmware/ane/h13_ane_fw_styx_j5x.im4p.md)
+- [Firmware/ane/h14_ane_fw_bia_j4xx.im4p](FIRMWARE/Firmware/ane/h14_ane_fw_bia_j4xx.im4p.md)
+- [Firmware/ane/h15_ane_fw_themis_j51y.im4p](FIRMWARE/Firmware/ane/h15_ane_fw_themis_j51y.im4p.md)
+- [Firmware/ane/h16_ane_fw_leto_j7x.im4p](FIRMWARE/Firmware/ane/h16_ane_fw_leto_j7x.im4p.md)
+- [Firmware/ane/h17_ane0_fw_hyperion_j71y.im4p](FIRMWARE/Firmware/ane/h17_ane0_fw_hyperion_j71y.im4p.md)
+- [Firmware/ane/h17_ane_fw_theia_d9x.im4p](FIRMWARE/Firmware/ane/h17_ane_fw_theia_d9x.im4p.md)
+- [Firmware/ane/h17_ane_fw_theia_j73y.im4p](FIRMWARE/Firmware/ane/h17_ane_fw_theia_j73y.im4p.md)
+- [Firmware/ane/t600x_ane0_fw_eos_jc3x.im4p](FIRMWARE/Firmware/ane/t600x_ane0_fw_eos_jc3x.im4p.md)
+- [Firmware/ane/t600x_ane1_fw_eos_jc3x.im4p](FIRMWARE/Firmware/ane/t600x_ane1_fw_eos_jc3x.im4p.md)
+- [Firmware/ane/t600x_ane2_fw_eos_jc3x.im4p](FIRMWARE/Firmware/ane/t600x_ane2_fw_eos_jc3x.im4p.md)
+- [Firmware/ane/t600x_ane3_fw_eos_jc3x.im4p](FIRMWARE/Firmware/ane/t600x_ane3_fw_eos_jc3x.im4p.md)
+- [Firmware/ane/t602x_ane0_fw_selene_rc4x.im4p](FIRMWARE/Firmware/ane/t602x_ane0_fw_selene_rc4x.im4p.md)
+- [Firmware/ane/t602x_ane1_fw_selene_rc4x.im4p](FIRMWARE/Firmware/ane/t602x_ane1_fw_selene_rc4x.im4p.md)
+- [Firmware/ane/t603x_ane0_fw_erebus_ls5x.im4p](FIRMWARE/Firmware/ane/t603x_ane0_fw_erebus_ls5x.im4p.md)
+- [Firmware/ane/t603x_ane0_fw_erebus_pc5x.im4p](FIRMWARE/Firmware/ane/t603x_ane0_fw_erebus_pc5x.im4p.md)
+- [Firmware/ane/t603x_ane1_fw_erebus_pc5x.im4p](FIRMWARE/Firmware/ane/t603x_ane1_fw_erebus_pc5x.im4p.md)
+- [Firmware/ane/t604x_ane_fw_aether_brvx.im4p](FIRMWARE/Firmware/ane/t604x_ane_fw_aether_brvx.im4p.md)
+- [Firmware/ansf.t6000.release.im4p](FIRMWARE/Firmware/ansf.t6000.release.im4p.md)
+- [Firmware/ansf.t6020.release.im4p](FIRMWARE/Firmware/ansf.t6020.release.im4p.md)
+- [Firmware/ansf.t6030.release.im4p](FIRMWARE/Firmware/ansf.t6030.release.im4p.md)
+- [Firmware/ansf.t603x.release.im4p](FIRMWARE/Firmware/ansf.t603x.release.im4p.md)
+- [Firmware/ansf.t603x_ASP3.release.im4p](FIRMWARE/Firmware/ansf.t603x_ASP3.release.im4p.md)
+- [Firmware/ansf.t604x.release.im4p](FIRMWARE/Firmware/ansf.t604x.release.im4p.md)
+- [Firmware/ansf.t6050.release.im4p](FIRMWARE/Firmware/ansf.t6050.release.im4p.md)
+- [Firmware/ansf.t8103.release.im4p](FIRMWARE/Firmware/ansf.t8103.release.im4p.md)
+- [Firmware/ansf.t8112.release.im4p](FIRMWARE/Firmware/ansf.t8112.release.im4p.md)
+- [Firmware/ansf.t8122.release.im4p](FIRMWARE/Firmware/ansf.t8122.release.im4p.md)
+- [Firmware/ansf.t8132_ASP3.release.im4p](FIRMWARE/Firmware/ansf.t8132_ASP3.release.im4p.md)
+- [Firmware/ansf.t8140_largemem.release.im4p](FIRMWARE/Firmware/ansf.t8140_largemem.release.im4p.md)
+- [Firmware/ansf.t8142.release.im4p](FIRMWARE/Firmware/ansf.t8142.release.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H13C.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H13C.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H13D.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H13D.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H13G.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H13G.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H13S.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H13S.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H14C.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H14C.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H14D.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H14D.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H14G.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H14G.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H14S.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H14S.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H15C.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H15C.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H15D.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H15D.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H15G.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H15G.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H15M.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H15M.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H15S.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H15S.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H16C.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H16C.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H16G.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H16G.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H16S.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H16S.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H17.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H17.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H17D.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H17D.im4p.md)
+- [Firmware/ave/AppleAVE2FW_H17G.im4p](FIRMWARE/Firmware/ave/AppleAVE2FW_H17G.im4p.md)
+- [Firmware/dcp/ipad13dcp.im4p](FIRMWARE/Firmware/dcp/ipad13dcp.im4p.md)
+- [Firmware/dcp/ipad13dcp_restore.im4p](FIRMWARE/Firmware/dcp/ipad13dcp_restore.im4p.md)
+- [Firmware/dcp/ipad14dcp.im4p](FIRMWARE/Firmware/dcp/ipad14dcp.im4p.md)
+- [Firmware/dcp/ipad14dcp_restore.im4p](FIRMWARE/Firmware/dcp/ipad14dcp_restore.im4p.md)
+- [Firmware/dcp/t600xdcp.im4p](FIRMWARE/Firmware/dcp/t600xdcp.im4p.md)
+- [Firmware/dcp/t600xdcp_restore.im4p](FIRMWARE/Firmware/dcp/t600xdcp_restore.im4p.md)
+- [Firmware/dcp/t602xdcp.im4p](FIRMWARE/Firmware/dcp/t602xdcp.im4p.md)
+- [Firmware/dcp/t602xdcp_restore.im4p](FIRMWARE/Firmware/dcp/t602xdcp_restore.im4p.md)
+- [Firmware/dcp/t6030dcp.im4p](FIRMWARE/Firmware/dcp/t6030dcp.im4p.md)
+- [Firmware/dcp/t6030dcp_restore.im4p](FIRMWARE/Firmware/dcp/t6030dcp_restore.im4p.md)
+- [Firmware/dcp/t603xdcp.im4p](FIRMWARE/Firmware/dcp/t603xdcp.im4p.md)
+- [Firmware/dcp/t603xdcp_restore.im4p](FIRMWARE/Firmware/dcp/t603xdcp_restore.im4p.md)
+- [Firmware/dcp/t604xdcp.im4p](FIRMWARE/Firmware/dcp/t604xdcp.im4p.md)
+- [Firmware/dcp/t604xdcp_restore.im4p](FIRMWARE/Firmware/dcp/t604xdcp_restore.im4p.md)
+- [Firmware/dcp/t8122dcp.im4p](FIRMWARE/Firmware/dcp/t8122dcp.im4p.md)
+- [Firmware/dcp/t8122dcp_restore.im4p](FIRMWARE/Firmware/dcp/t8122dcp_restore.im4p.md)
+- [Firmware/dcp/t8132dcp.im4p](FIRMWARE/Firmware/dcp/t8132dcp.im4p.md)
+- [Firmware/dcp/t8132dcp_restore.im4p](FIRMWARE/Firmware/dcp/t8132dcp_restore.im4p.md)
+- [Firmware/image4/exclavecore_bundle.t6050.RELEASE.im4p/exclave_hib_server](FIRMWARE/Firmware/image4/exclavecore_bundle.t6050.RELEASE.im4p/exclave_hib_server.md)
+- [Firmware/image4/exclavecore_bundle.t6050.RELEASE.im4p/exclave_kernel](FIRMWARE/Firmware/image4/exclavecore_bundle.t6050.RELEASE.im4p/exclave_kernel.md)
+- [Firmware/image4/exclavecore_bundle.t6050.RELEASE.im4p/exclave_pmm_exclave](FIRMWARE/Firmware/image4/exclavecore_bundle.t6050.RELEASE.im4p/exclave_pmm_exclave.md)
+- [Firmware/image4/exclavecore_bundle.t6050.RELEASE.im4p/exclave_roottask](FIRMWARE/Firmware/image4/exclavecore_bundle.t6050.RELEASE.im4p/exclave_roottask.md)
+- [Firmware/image4/exclavecore_bundle.t6050.RELEASE.im4p/exclave_sharedcache](FIRMWARE/Firmware/image4/exclavecore_bundle.t6050.RELEASE.im4p/exclave_sharedcache.md)
+- [Firmware/image4/exclavecore_bundle.t6050.RELEASE.restore.im4p/exclave_kernel](FIRMWARE/Firmware/image4/exclavecore_bundle.t6050.RELEASE.restore.im4p/exclave_kernel.md)
+- [Firmware/image4/exclavecore_bundle.t6050.RELEASE.restore.im4p/exclave_pmm_exclave](FIRMWARE/Firmware/image4/exclavecore_bundle.t6050.RELEASE.restore.im4p/exclave_pmm_exclave.md)
+- [Firmware/image4/exclavecore_bundle.t6050.RELEASE.restore.im4p/exclave_roottask](FIRMWARE/Firmware/image4/exclavecore_bundle.t6050.RELEASE.restore.im4p/exclave_roottask.md)
+- [Firmware/image4/exclavecore_bundle.t6050.RELEASE.restore.im4p/exclave_sharedcache](FIRMWARE/Firmware/image4/exclavecore_bundle.t6050.RELEASE.restore.im4p/exclave_sharedcache.md)
+- [Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_hib_server](FIRMWARE/Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_hib_server.md)
+- [Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_kernel](FIRMWARE/Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_kernel.md)
+- [Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_pmm_exclave](FIRMWARE/Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_pmm_exclave.md)
+- [Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_roottask](FIRMWARE/Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_roottask.md)
+- [Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_sharedcache](FIRMWARE/Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p/exclave_sharedcache.md)
+- [Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p/exclave_kernel](FIRMWARE/Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p/exclave_kernel.md)
+- [Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p/exclave_pmm_exclave](FIRMWARE/Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p/exclave_pmm_exclave.md)
+- [Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p/exclave_roottask](FIRMWARE/Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p/exclave_roottask.md)
+- [Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p/exclave_sharedcache](FIRMWARE/Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p/exclave_sharedcache.md)
+- [Firmware/image4/exclavecore_bundle.t8142.RELEASE.im4p/exclave_hib_server](FIRMWARE/Firmware/image4/exclavecore_bundle.t8142.RELEASE.im4p/exclave_hib_server.md)
+- [Firmware/image4/exclavecore_bundle.t8142.RELEASE.im4p/exclave_kernel](FIRMWARE/Firmware/image4/exclavecore_bundle.t8142.RELEASE.im4p/exclave_kernel.md)
+- [Firmware/image4/exclavecore_bundle.t8142.RELEASE.im4p/exclave_pmm_exclave](FIRMWARE/Firmware/image4/exclavecore_bundle.t8142.RELEASE.im4p/exclave_pmm_exclave.md)
+- [Firmware/image4/exclavecore_bundle.t8142.RELEASE.im4p/exclave_roottask](FIRMWARE/Firmware/image4/exclavecore_bundle.t8142.RELEASE.im4p/exclave_roottask.md)
+- [Firmware/image4/exclavecore_bundle.t8142.RELEASE.im4p/exclave_sharedcache](FIRMWARE/Firmware/image4/exclavecore_bundle.t8142.RELEASE.im4p/exclave_sharedcache.md)
+- [Firmware/image4/exclavecore_bundle.t8142.RELEASE.restore.im4p/exclave_kernel](FIRMWARE/Firmware/image4/exclavecore_bundle.t8142.RELEASE.restore.im4p/exclave_kernel.md)
+- [Firmware/image4/exclavecore_bundle.t8142.RELEASE.restore.im4p/exclave_pmm_exclave](FIRMWARE/Firmware/image4/exclavecore_bundle.t8142.RELEASE.restore.im4p/exclave_pmm_exclave.md)
+- [Firmware/image4/exclavecore_bundle.t8142.RELEASE.restore.im4p/exclave_roottask](FIRMWARE/Firmware/image4/exclavecore_bundle.t8142.RELEASE.restore.im4p/exclave_roottask.md)
+- [Firmware/image4/exclavecore_bundle.t8142.RELEASE.restore.im4p/exclave_sharedcache](FIRMWARE/Firmware/image4/exclavecore_bundle.t8142.RELEASE.restore.im4p/exclave_sharedcache.md)
+- [Firmware/isp_bni/adc-aion-ls5x.im4p](FIRMWARE/Firmware/isp_bni/adc-aion-ls5x.im4p.md)
+- [Firmware/isp_bni/adc-aion-pc5x.im4p](FIRMWARE/Firmware/isp_bni/adc-aion-pc5x.im4p.md)
+- [Firmware/isp_bni/adc-astraeus-jc3x.im4p](FIRMWARE/Firmware/isp_bni/adc-astraeus-jc3x.im4p.md)
+- [Firmware/isp_bni/adc-eris-j129.im4p](FIRMWARE/Firmware/isp_bni/adc-eris-j129.im4p.md)
+- [Firmware/isp_bni/adc-helios-rc4x.im4p](FIRMWARE/Firmware/isp_bni/adc-helios-rc4x.im4p.md)
+- [Firmware/isp_bni/adc-hestia-j129.im4p](FIRMWARE/Firmware/isp_bni/adc-hestia-j129.im4p.md)
+- [Firmware/isp_bni/adc-nyx-bc6x.im4p](FIRMWARE/Firmware/isp_bni/adc-nyx-bc6x.im4p.md)
+- [Firmware/isp_bni/adc-nyx-sc7x.im4p](FIRMWARE/Firmware/isp_bni/adc-nyx-sc7x.im4p.md)
+- [Firmware/isp_bni/adc-pallas-j129.im4p](FIRMWARE/Firmware/isp_bni/adc-pallas-j129.im4p.md)
+- [Firmware/isp_bni/adc-rheia-J7xm.im4p](FIRMWARE/Firmware/isp_bni/adc-rheia-J7xm.im4p.md)
+- [Firmware/isp_bni/adc-rheia-j129.im4p](FIRMWARE/Firmware/isp_bni/adc-rheia-j129.im4p.md)
+- [Firmware/isp_bni/adc-rheia-j70m.im4p](FIRMWARE/Firmware/isp_bni/adc-rheia-j70m.im4p.md)
+- [Firmware/isp_bni/adc-triton-j129.im4p](FIRMWARE/Firmware/isp_bni/adc-triton-j129.im4p.md)
+- [Firmware/msr/t605x.msrf.im4p](FIRMWARE/Firmware/msr/t605x.msrf.im4p.md)
+- [Firmware/msr/t605x.rmsr.im4p](FIRMWARE/Firmware/msr/t605x.rmsr.im4p.md)
+- [Firmware/msr/t8142.msrf.im4p](FIRMWARE/Firmware/msr/t8142.msrf.im4p.md)
+- [Firmware/msr/t8142.rmsr.im4p](FIRMWARE/Firmware/msr/t8142.rmsr.im4p.md)
+- [Firmware/pmp/t6000pmp.im4p](FIRMWARE/Firmware/pmp/t6000pmp.im4p.md)
+- [Firmware/pmp/t6020pmp.im4p](FIRMWARE/Firmware/pmp/t6020pmp.im4p.md)
+- [Firmware/pmp/t6030pmp.im4p](FIRMWARE/Firmware/pmp/t6030pmp.im4p.md)
+- [Firmware/pmp/t6031pmp.im4p](FIRMWARE/Firmware/pmp/t6031pmp.im4p.md)
+- [Firmware/pmp/t6041pmp.im4p](FIRMWARE/Firmware/pmp/t6041pmp.im4p.md)
+- [Firmware/pmp/t6050pmp.im4p](FIRMWARE/Firmware/pmp/t6050pmp.im4p.md)
+- [Firmware/pmp/t8103pmp.im4p](FIRMWARE/Firmware/pmp/t8103pmp.im4p.md)
+- [Firmware/pmp/t8112pmp.im4p](FIRMWARE/Firmware/pmp/t8112pmp.im4p.md)
+- [Firmware/pmp/t8122pmp.im4p](FIRMWARE/Firmware/pmp/t8122pmp.im4p.md)
+- [Firmware/pmp/t8132pmp.im4p](FIRMWARE/Firmware/pmp/t8132pmp.im4p.md)
+- [Firmware/pmp/t8140pmp.im4p](FIRMWARE/Firmware/pmp/t8140pmp.im4p.md)
+- [Firmware/pmp/t8142pmp.im4p](FIRMWARE/Firmware/pmp/t8142pmp.im4p.md)
+- [Firmware/rans.t6000.release.im4p](FIRMWARE/Firmware/rans.t6000.release.im4p.md)
+- [Firmware/rans.t6020.release.im4p](FIRMWARE/Firmware/rans.t6020.release.im4p.md)
+- [Firmware/rans.t6030.release.im4p](FIRMWARE/Firmware/rans.t6030.release.im4p.md)
+- [Firmware/rans.t603x.release.im4p](FIRMWARE/Firmware/rans.t603x.release.im4p.md)
+- [Firmware/rans.t603x_ASP3.release.im4p](FIRMWARE/Firmware/rans.t603x_ASP3.release.im4p.md)
+- [Firmware/rans.t604x.release.im4p](FIRMWARE/Firmware/rans.t604x.release.im4p.md)
+- [Firmware/rans.t6050.release.im4p](FIRMWARE/Firmware/rans.t6050.release.im4p.md)
+- [Firmware/rans.t8103.release.im4p](FIRMWARE/Firmware/rans.t8103.release.im4p.md)
+- [Firmware/rans.t8112.release.im4p](FIRMWARE/Firmware/rans.t8112.release.im4p.md)
+- [Firmware/rans.t8122.release.im4p](FIRMWARE/Firmware/rans.t8122.release.im4p.md)
+- [Firmware/rans.t8132_ASP3.release.im4p](FIRMWARE/Firmware/rans.t8132_ASP3.release.im4p.md)
+- [Firmware/rans.t8140_largemem.release.im4p](FIRMWARE/Firmware/rans.t8140_largemem.release.im4p.md)
+- [Firmware/rans.t8142.release.im4p](FIRMWARE/Firmware/rans.t8142.release.im4p.md)
+- [Firmware/scodec/scodec_host_v1.im4p](FIRMWARE/Firmware/scodec/scodec_host_v1.im4p.md)
+- [Firmware/scodec/t602xscodec.im4p](FIRMWARE/Firmware/scodec/t602xscodec.im4p.md)
+- [Firmware/scodec/t8112scodec.im4p](FIRMWARE/Firmware/scodec/t8112scodec.im4p.md)
+- [Firmware/sptm.t6000.release.im4p](FIRMWARE/Firmware/sptm.t6000.release.im4p.md)
+- [Firmware/sptm.t6020.release.im4p](FIRMWARE/Firmware/sptm.t6020.release.im4p.md)
+- [Firmware/sptm.t6030.release.im4p](FIRMWARE/Firmware/sptm.t6030.release.im4p.md)
+- [Firmware/sptm.t6031.release.im4p](FIRMWARE/Firmware/sptm.t6031.release.im4p.md)
+- [Firmware/sptm.t6041.release.im4p](FIRMWARE/Firmware/sptm.t6041.release.im4p.md)
+- [Firmware/sptm.t6050.release.im4p](FIRMWARE/Firmware/sptm.t6050.release.im4p.md)
+- [Firmware/sptm.t8103.release.im4p](FIRMWARE/Firmware/sptm.t8103.release.im4p.md)
+- [Firmware/sptm.t8112.release.im4p](FIRMWARE/Firmware/sptm.t8112.release.im4p.md)
+- [Firmware/sptm.t8122.release.im4p](FIRMWARE/Firmware/sptm.t8122.release.im4p.md)
+- [Firmware/sptm.t8132.release.im4p](FIRMWARE/Firmware/sptm.t8132.release.im4p.md)
+- [Firmware/sptm.t8140.release.im4p](FIRMWARE/Firmware/sptm.t8140.release.im4p.md)
+- [Firmware/sptm.t8142.release.im4p](FIRMWARE/Firmware/sptm.t8142.release.im4p.md)
+- [Firmware/t6000ciofw.im4p](FIRMWARE/Firmware/t6000ciofw.im4p.md)
+- [Firmware/t6000tmufw.im4p](FIRMWARE/Firmware/t6000tmufw.im4p.md)
+- [Firmware/t6001ciofw.im4p](FIRMWARE/Firmware/t6001ciofw.im4p.md)
+- [Firmware/t6001tmufw.im4p](FIRMWARE/Firmware/t6001tmufw.im4p.md)
+- [Firmware/t6002ciofw.im4p](FIRMWARE/Firmware/t6002ciofw.im4p.md)
+- [Firmware/t6002tmufw.im4p](FIRMWARE/Firmware/t6002tmufw.im4p.md)
+- [Firmware/t6020ciofw.im4p](FIRMWARE/Firmware/t6020ciofw.im4p.md)
+- [Firmware/t6020tmufw.im4p](FIRMWARE/Firmware/t6020tmufw.im4p.md)
+- [Firmware/t6021ciofw.im4p](FIRMWARE/Firmware/t6021ciofw.im4p.md)
+- [Firmware/t6021tmufw.im4p](FIRMWARE/Firmware/t6021tmufw.im4p.md)
+- [Firmware/t6022ciofw.im4p](FIRMWARE/Firmware/t6022ciofw.im4p.md)
+- [Firmware/t6022tmufw.im4p](FIRMWARE/Firmware/t6022tmufw.im4p.md)
+- [Firmware/t6030ciofw.im4p](FIRMWARE/Firmware/t6030ciofw.im4p.md)
+- [Firmware/t6030tmufw.im4p](FIRMWARE/Firmware/t6030tmufw.im4p.md)
+- [Firmware/t6031ciofw.im4p](FIRMWARE/Firmware/t6031ciofw.im4p.md)
+- [Firmware/t6031tmufw.im4p](FIRMWARE/Firmware/t6031tmufw.im4p.md)
+- [Firmware/t6032ciofw.im4p](FIRMWARE/Firmware/t6032ciofw.im4p.md)
+- [Firmware/t6032cphyfw.im4p](FIRMWARE/Firmware/t6032cphyfw.im4p.md)
+- [Firmware/t6032tmufw.im4p](FIRMWARE/Firmware/t6032tmufw.im4p.md)
+- [Firmware/t6034ciofw.im4p](FIRMWARE/Firmware/t6034ciofw.im4p.md)
+- [Firmware/t6034tmufw.im4p](FIRMWARE/Firmware/t6034tmufw.im4p.md)
+- [Firmware/t6040ciofw.im4p](FIRMWARE/Firmware/t6040ciofw.im4p.md)
+- [Firmware/t6040cphyfw.im4p](FIRMWARE/Firmware/t6040cphyfw.im4p.md)
+- [Firmware/t6040tmufw.im4p](FIRMWARE/Firmware/t6040tmufw.im4p.md)
+- [Firmware/t6041ciofw.im4p](FIRMWARE/Firmware/t6041ciofw.im4p.md)
+- [Firmware/t6041cphyfw.im4p](FIRMWARE/Firmware/t6041cphyfw.im4p.md)
+- [Firmware/t6041tmufw.im4p](FIRMWARE/Firmware/t6041tmufw.im4p.md)
+- [Firmware/t6050ciofw.im4p](FIRMWARE/Firmware/t6050ciofw.im4p.md)
+- [Firmware/t6050cphyfw.im4p](FIRMWARE/Firmware/t6050cphyfw.im4p.md)
+- [Firmware/t6050tmufw.im4p](FIRMWARE/Firmware/t6050tmufw.im4p.md)
+- [Firmware/t8103ciofw.im4p](FIRMWARE/Firmware/t8103ciofw.im4p.md)
+- [Firmware/t8103tmufw.im4p](FIRMWARE/Firmware/t8103tmufw.im4p.md)
+- [Firmware/t8112ciofw.im4p](FIRMWARE/Firmware/t8112ciofw.im4p.md)
+- [Firmware/t8112tmufw.im4p](FIRMWARE/Firmware/t8112tmufw.im4p.md)
+- [Firmware/t8122ciofw.im4p](FIRMWARE/Firmware/t8122ciofw.im4p.md)
+- [Firmware/t8122tmufw.im4p](FIRMWARE/Firmware/t8122tmufw.im4p.md)
+- [Firmware/t8132ciofw.im4p](FIRMWARE/Firmware/t8132ciofw.im4p.md)
+- [Firmware/t8132tmufw.im4p](FIRMWARE/Firmware/t8132tmufw.im4p.md)
+- [Firmware/t8142ciofw.im4p](FIRMWARE/Firmware/t8142ciofw.im4p.md)
+- [Firmware/t8142tmufw.im4p](FIRMWARE/Firmware/t8142tmufw.im4p.md)
+- [Firmware/txm.macosx.release.im4p](FIRMWARE/Firmware/txm.macosx.release.im4p.md)
+- [Firmware/xhc.t6050.im4p](FIRMWARE/Firmware/xhc.t6050.im4p.md)
+
+</details>
+
+### iBoot
+
+| iOS | Version |
+| :-- | :------ |
+| 27.0 *(26A5368g)* | mBoot-20457.0.13.0.11 |
+| 27.0 *(26A5378j)* | mBoot-20457.0.77.0.2 |
+
+## DSC
+
+### WebKit
+
+| iOS | Version |
+| :-- | :------ |
+| 27.0 *(26A5368g)* | 625.1.20.11.3 |
+| 27.0 *(26A5378j)* | 625.1.22.11.4 |
+
+### Dylibs
+
+#### 🆕 NEW (9)
+
+- `/System/Library/PrivateFrameworks/FindMySecureEnvironment.framework/Versions/A/FindMySecureEnvironment`
+- `/System/Library/PrivateFrameworks/HybridSearch.framework/Versions/A/HybridSearch`
+- `/System/Library/PrivateFrameworks/HybridSearchAdapter.framework/Versions/A/HybridSearchAdapter`
+- `/System/Library/PrivateFrameworks/HybridSearchResultRanker.framework/Versions/A/HybridSearchResultRanker`
+- `/System/Library/PrivateFrameworks/IntelligenceTasks.framework/Versions/A/IntelligenceTasks`
+- `/System/Library/PrivateFrameworks/SafariSearchSchemaManifest.framework/Versions/A/SafariSearchSchemaManifest`
+- `/System/Library/PrivateFrameworks/TrialEncryption.framework/Versions/A/TrialEncryption`
+- `/System/Library/PrivateFrameworks/UnilogSafariSearchLibrary.framework/Versions/A/UnilogSafariSearchLibrary`
+- `/System/iOSSupport/System/Library/Frameworks/_ScreenCaptureKit_SwiftUI.framework/Versions/A/_ScreenCaptureKit_SwiftUI`
+
+#### ❌ Removed (3)
+
+- `/System/Library/PrivateFrameworks/LighthouseInference.framework/Versions/A/LighthouseInference`
+- `/System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Noticeboard`
+- `/System/iOSSupport/System/Library/PrivateFrameworks/NewsUserEvents.framework/Versions/A/NewsUserEvents`
+
+#### ⬆️ Updated (3937)
+
+- [View 3937 updated files](DYLIBS/Dylibs.Updated.md)
+
+## Files
+
+### 🆕 New
+
+#### filesystem (909)
+
+- [View 909 new files](FILES/filesystem.NEW.md)
+
+#### SystemOS (5)
+
+- `/System/Library/PrivateFrameworks/DesignLibrary.framework/SiriWaveArchive.metallib`
+- `/System/iOSSupport/System/Library/Frameworks/AuthenticationServices.framework/Versions/A/Resources/es_US.lproj/Localizable.strings`
+- `/System/iOSSupport/System/Library/Frameworks/AuthenticationServices.framework/Versions/A/Resources/es_US.lproj/Localizable.stringsdict`
+- `/System/iOSSupport/System/Library/Frameworks/AuthenticationServices.framework/Versions/Current/Resources/es_US.lproj/Localizable.strings`
+- `/System/iOSSupport/System/Library/Frameworks/AuthenticationServices.framework/Versions/Current/Resources/es_US.lproj/Localizable.stringsdict`
+
+#### ExclaveOS (3)
+
+- `/System/ExclaveKit/System/Library/Frameworks/Vision.framework/Vision_internal.framework/Info.plist`
+- `/System/ExclaveKit/System/Library/Frameworks/Vision.framework/Vision_internal.framework/version.plist`
+- `/System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_mac_constraints.plist`
+
+### ❌ Removed
+
+#### filesystem (693)
+
+- [View 693 removed files](FILES/filesystem.Removed.md)
+
+#### SystemOS (1)
+
+- `/System/Library/PrivateFrameworks/HybridDatabaseToolUtils.framework/Versions/A/HybridDatabaseToolUtils`
+
+#### ExclaveOS (3)
+
+- `/System/ExclaveKit/System/Library/PrivateFrameworks/AppleCameraSISP_EK_AlgoModels.framework/AlgoCoreLib.bundle/AACoreLib.bundle/H19.bundle/fdPPtestCfg.bin`
+- `/System/ExclaveKit/System/Library/PrivateFrameworks/AppleCameraSISP_EK_AlgoModels.framework/AlgoCoreLib.bundle/AACoreLib.bundle/H19.bundle/fdPPtestCfg_with_crc.bin`
+- `/System/ExclaveKit/System/Library/PrivateFrameworks/SILManagerAssets.framework/cam_mic_mac_constraints_J700.plist`
+
+## Feature Flags
+
+### filesystem
+
+#### 🆕 NEW (1)
+
+<details>
+  <summary><i>View New</i></summary>
+
+##### Nexus.plist
+
+>  `Domain/Nexus.plist`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict/>
+</plist>
+
+```
+
+</details>
+
+#### ⬆️ Updated (39)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+- [Domain/AVConference.plist](FEATURES/filesystem/Domain/AVConference.plist.md)
+- [Domain/AirPlay.plist](FEATURES/filesystem/Domain/AirPlay.plist.md)
+- [Domain/AlwaysOnExclaves.plist](FEATURES/filesystem/Domain/AlwaysOnExclaves.plist.md)
+- [Domain/AppleAccount.plist](FEATURES/filesystem/Domain/AppleAccount.plist.md)
+- [Domain/AppleMediaServices.plist](FEATURES/filesystem/Domain/AppleMediaServices.plist.md)
+- [Domain/CompanionServices.plist](FEATURES/filesystem/Domain/CompanionServices.plist.md)
+- [Domain/CoreIDV.plist](FEATURES/filesystem/Domain/CoreIDV.plist.md)
+- [Domain/DesktopServices.plist](FEATURES/filesystem/Domain/DesktopServices.plist.md)
+- [Domain/FindMy.plist](FEATURES/filesystem/Domain/FindMy.plist.md)
+- [Domain/Freeform.plist](FEATURES/filesystem/Domain/Freeform.plist.md)
+- [Domain/GenerativeLearningPlatform.plist](FEATURES/filesystem/Domain/GenerativeLearningPlatform.plist.md)
+- [Domain/GenerativeModels.plist](FEATURES/filesystem/Domain/GenerativeModels.plist.md)
+- [Domain/HomeEnergy.plist](FEATURES/filesystem/Domain/HomeEnergy.plist.md)
+- [Domain/IDS.plist](FEATURES/filesystem/Domain/IDS.plist.md)
+- [Domain/IntelligenceFlow.plist](FEATURES/filesystem/Domain/IntelligenceFlow.plist.md)
+- [Domain/IntelligencePlatform.plist](FEATURES/filesystem/Domain/IntelligencePlatform.plist.md)
+- [Domain/MediaRemote.plist](FEATURES/filesystem/Domain/MediaRemote.plist.md)
+- [Domain/MenuBar.plist](FEATURES/filesystem/Domain/MenuBar.plist.md)
+- [Domain/Messages.plist](FEATURES/filesystem/Domain/Messages.plist.md)
+- [Domain/ModelCatalog.plist](FEATURES/filesystem/Domain/ModelCatalog.plist.md)
+- [Domain/ModelManager.plist](FEATURES/filesystem/Domain/ModelManager.plist.md)
+- [Domain/PrivateCloudCompute.plist](FEATURES/filesystem/Domain/PrivateCloudCompute.plist.md)
+- [Domain/Reminders.plist](FEATURES/filesystem/Domain/Reminders.plist.md)
+- [Domain/SecureMessagingAgent.plist](FEATURES/filesystem/Domain/SecureMessagingAgent.plist.md)
+- [Domain/SensitiveContentAnalysisML.plist](FEATURES/filesystem/Domain/SensitiveContentAnalysisML.plist.md)
+- [Domain/Siri.plist](FEATURES/filesystem/Domain/Siri.plist.md)
+- [Domain/SiriSetup.plist](FEATURES/filesystem/Domain/SiriSetup.plist.md)
+- [Domain/SiriTTSService.plist](FEATURES/filesystem/Domain/SiriTTSService.plist.md)
+- [Domain/StoreKit.plist](FEATURES/filesystem/Domain/StoreKit.plist.md)
+- [Domain/Summarization.plist](FEATURES/filesystem/Domain/Summarization.plist.md)
+- [Domain/SystemPolicy.plist](FEATURES/filesystem/Domain/SystemPolicy.plist.md)
+- [Domain/TVApp.plist](FEATURES/filesystem/Domain/TVApp.plist.md)
+- [Domain/TelephonyUtilities.plist](FEATURES/filesystem/Domain/TelephonyUtilities.plist.md)
+- [Domain/TextComposer.plist](FEATURES/filesystem/Domain/TextComposer.plist.md)
+- [Domain/TimberLorry.plist](FEATURES/filesystem/Domain/TimberLorry.plist.md)
+- [Domain/UIKit.plist](FEATURES/filesystem/Domain/UIKit.plist.md)
+- [Domain/VoiceControlLocales.plist](FEATURES/filesystem/Domain/VoiceControlLocales.plist.md)
+- [Domain/Wallet.plist](FEATURES/filesystem/Domain/Wallet.plist.md)
+- [Domain/gseui.plist](FEATURES/filesystem/Domain/gseui.plist.md)
+
+</details>
+
+## EOF

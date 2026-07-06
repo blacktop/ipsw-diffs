@@ -1,0 +1,181 @@
+## PegasusAPI
+
+> `/System/Library/PrivateFrameworks/PegasusAPI.framework/Versions/A/PegasusAPI`
+
+```diff
+
+-  __TEXT.__text: 0xbf0b4c
+-  __TEXT.__const: 0x10e6c8
+-  __TEXT.__constg_swiftt: 0x2c8b0
+-  __TEXT.__swift5_typeref: 0x19041
+-  __TEXT.__swift5_fieldmd: 0x349e4
+-  __TEXT.__swift5_types: 0x2228
+-  __TEXT.__swift5_reflstr: 0x320b5
+-  __TEXT.__swift5_proto: 0xb2b8
+-  __TEXT.__swift5_assocty: 0x51c0
+-  __TEXT.__cstring: 0x10050
++  __TEXT.__text: 0xc01c8c
++  __TEXT.__const: 0x10fbb8
++  __TEXT.__constg_swiftt: 0x2cc40
++  __TEXT.__swift5_typeref: 0x1922d
++  __TEXT.__swift5_fieldmd: 0x34db0
++  __TEXT.__swift5_types: 0x2258
++  __TEXT.__swift5_reflstr: 0x322b5
++  __TEXT.__swift5_proto: 0xb398
++  __TEXT.__swift5_assocty: 0x5220
++  __TEXT.__cstring: 0x101f0
+   __TEXT.__swift5_builtin: 0x12c
+   __TEXT.__swift5_mpenum: 0x80
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x55288
+-  __TEXT.__eh_frame: 0x71378
++  __TEXT.__unwind_info: 0x55588
++  __TEXT.__eh_frame: 0x71e60
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x14008
+-  __DATA_CONST.__objc_classlist: 0x5f0
++  __DATA_CONST.__const: 0x141a8
++  __DATA_CONST.__objc_classlist: 0x5f8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x40
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x23388
+-  __AUTH_CONST.__objc_const: 0x21ed8
+-  __AUTH_CONST.__auth_got: 0x730
+-  __AUTH.__objc_data: 0x13b0
+-  __AUTH.__data: 0x1ca28
+-  __DATA.__data: 0x28ef8
+-  __DATA.__bss: 0x149300
+-  __DATA_DIRTY.__objc_data: 0x2030
+-  __DATA_DIRTY.__data: 0x49348
+-  __DATA_DIRTY.__bss: 0x1c100
++  __AUTH_CONST.__const: 0x235d8
++  __AUTH_CONST.__objc_const: 0x22148
++  __AUTH_CONST.__auth_got: 0x720
++  __AUTH.__objc_data: 0x50
++  __AUTH.__data: 0xc2c0
++  __DATA.__data: 0x25bf8
++  __DATA.__bss: 0x149f00
++  __DATA_DIRTY.__objc_data: 0x33e0
++  __DATA_DIRTY.__data: 0x5d980
++  __DATA_DIRTY.__bss: 0x1d100
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/Versions/A/InternalSwiftProtobuf
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  Functions: 132990
+-  Symbols:   42455
+-  CStrings:  1377
++  Functions: 133657
++  Symbols:   42680
++  CStrings:  1384
+ 
+Sections:
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+Symbols:
++ __DATA__TtCV10PegasusAPI59Apple_Parsec_DeviceExpert_V1alpha_DeviceExpertSearchRequestP33_4258DE3C42363B23E8414EBE8D43740C13_StorageClass
++ __IVARS__TtCV10PegasusAPI59Apple_Parsec_DeviceExpert_V1alpha_DeviceExpertSearchRequestP33_4258DE3C42363B23E8414EBE8D43740C13_StorageClass
++ __METACLASS_DATA__TtCV10PegasusAPI59Apple_Parsec_DeviceExpert_V1alpha_DeviceExpertSearchRequestP33_4258DE3C42363B23E8414EBE8D43740C13_StorageClass
++ __swift_get_extra_inhabitant_index.160Tm
++ __swift_get_extra_inhabitant_index.202Tm
++ __swift_get_extra_inhabitant_index.220Tm
++ __swift_get_extra_inhabitant_index.247Tm
++ __swift_get_extra_inhabitant_index.84Tm
++ __swift_get_extra_inhabitant_index.93Tm
++ __swift_store_extra_inhabitant_index.203Tm
++ __swift_store_extra_inhabitant_index.221Tm
++ __swift_store_extra_inhabitant_index.248Tm
++ __swift_store_extra_inhabitant_index.85Tm
++ __swift_store_extra_inhabitant_index.94Tm
++ _associated conformance 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF13SearchRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF13SearchRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
++ _associated conformance 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF13SearchRequestV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF13SearchRequestVSHAASQ
++ _associated conformance 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF14SearchResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF14SearchResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
++ _associated conformance 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF14SearchResponseV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF14SearchResponseVSHAASQ
++ _associated conformance 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF7UseCaseO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF7UseCaseO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF7UseCaseOSHAASQ
++ _associated conformance 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF7UseCaseOs0I8IterableAA8AllCasessADP_Sl
++ _associated conformance 10PegasusAPI055Apple_Parsec_Sam_V1alpha_StandardRepresentations_Video_I10PersonRoleO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 10PegasusAPI055Apple_Parsec_Sam_V1alpha_StandardRepresentations_Video_I10PersonRoleO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 10PegasusAPI055Apple_Parsec_Sam_V1alpha_StandardRepresentations_Video_I10PersonRoleOSHAASQ
++ _associated conformance 10PegasusAPI055Apple_Parsec_Sam_V1alpha_StandardRepresentations_Video_I10PersonRoleOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 10PegasusAPI32Apple_Parsec_Search_NumberFormatV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI32Apple_Parsec_Search_NumberFormatV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0K0
++ _associated conformance 10PegasusAPI32Apple_Parsec_Search_NumberFormatV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI32Apple_Parsec_Search_NumberFormatVSHAASQ
++ _associated conformance 10PegasusAPI44Apple_Parsec_DeviceExpert_V1alpha_AgentInputV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI44Apple_Parsec_DeviceExpert_V1alpha_AgentInputV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
++ _associated conformance 10PegasusAPI44Apple_Parsec_DeviceExpert_V1alpha_AgentInputV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI44Apple_Parsec_DeviceExpert_V1alpha_AgentInputVSHAASQ
++ _associated conformance 10PegasusAPI48Apple_Parsec_DeviceExpert_V1alpha_AgentExtensionV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI48Apple_Parsec_DeviceExpert_V1alpha_AgentExtensionV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
++ _associated conformance 10PegasusAPI48Apple_Parsec_DeviceExpert_V1alpha_AgentExtensionV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI48Apple_Parsec_DeviceExpert_V1alpha_AgentExtensionVSHAASQ
++ _associated conformance 10PegasusAPI51Apple_Parsec_DeviceExpert_V1alpha_QuickAnswersInputV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI51Apple_Parsec_DeviceExpert_V1alpha_QuickAnswersInputV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0N0
++ _associated conformance 10PegasusAPI51Apple_Parsec_DeviceExpert_V1alpha_QuickAnswersInputV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI51Apple_Parsec_DeviceExpert_V1alpha_QuickAnswersInputVSHAASQ
++ _associated conformance 10PegasusAPI55Apple_Parsec_DeviceExpert_V1alpha_QuickAnswersExtensionV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 10PegasusAPI55Apple_Parsec_DeviceExpert_V1alpha_QuickAnswersExtensionV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0N0
++ _associated conformance 10PegasusAPI55Apple_Parsec_DeviceExpert_V1alpha_QuickAnswersExtensionV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 10PegasusAPI55Apple_Parsec_DeviceExpert_V1alpha_QuickAnswersExtensionVSHAASQ
++ _symbolic Say_____G 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF7UseCaseO
++ _symbolic Say_____G 10PegasusAPI055Apple_Parsec_Sam_V1alpha_StandardRepresentations_Video_I10PersonRoleO
++ _symbolic _____ 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF13SearchRequestV
++ _symbolic _____ 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF13SearchRequestV11OneOf_InputO
++ _symbolic _____ 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF13SearchRequestV13_StorageClass33_4258DE3C42363B23E8414EBE8D43740CLLC
++ _symbolic _____ 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF14SearchResponseV
++ _symbolic _____ 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF14SearchResponseV15OneOf_ExtensionO
++ _symbolic _____ 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF7UseCaseO
++ _symbolic _____ 10PegasusAPI055Apple_Parsec_Sam_V1alpha_StandardRepresentations_Video_I10PersonRoleO
++ _symbolic _____ 10PegasusAPI32Apple_Parsec_Search_NumberFormatV
++ _symbolic _____ 10PegasusAPI44Apple_Parsec_DeviceExpert_V1alpha_AgentInputV
++ _symbolic _____ 10PegasusAPI48Apple_Parsec_DeviceExpert_V1alpha_AgentExtensionV
++ _symbolic _____ 10PegasusAPI51Apple_Parsec_DeviceExpert_V1alpha_QuickAnswersInputV
++ _symbolic _____ 10PegasusAPI55Apple_Parsec_DeviceExpert_V1alpha_QuickAnswersExtensionV
++ _symbolic _____Sg 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF13SearchRequestV11OneOf_InputO
++ _symbolic _____Sg 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF14SearchResponseV15OneOf_ExtensionO
++ _symbolic _____Sg 10PegasusAPI32Apple_Parsec_Search_NumberFormatV
++ _symbolic _____Sg 10PegasusAPI44Apple_Parsec_DeviceExpert_V1alpha_AgentInputV
++ _symbolic _____Sg 10PegasusAPI48Apple_Parsec_DeviceExpert_V1alpha_AgentExtensionV
++ _symbolic _____Sg 10PegasusAPI51Apple_Parsec_DeviceExpert_V1alpha_QuickAnswersInputV
++ _symbolic _____Sg 10PegasusAPI55Apple_Parsec_DeviceExpert_V1alpha_QuickAnswersExtensionV
++ _symbolic _____Sg_ABt 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF13SearchRequestV11OneOf_InputO
++ _symbolic _____Sg_ABt 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF14SearchResponseV15OneOf_ExtensionO
++ _symbolic _____Sg_ABt 10PegasusAPI32Apple_Parsec_Search_NumberFormatV
++ _symbolic ______AAt 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF13SearchRequestV11OneOf_InputO
++ _symbolic ______AAt 10PegasusAPI034Apple_Parsec_DeviceExpert_V1alpha_eF14SearchResponseV15OneOf_ExtensionO
+- __swift_get_extra_inhabitant_index.154Tm
+- __swift_get_extra_inhabitant_index.195Tm
+- __swift_get_extra_inhabitant_index.213Tm
+- __swift_get_extra_inhabitant_index.243Tm
+- __swift_get_extra_inhabitant_index.46Tm
+- __swift_store_extra_inhabitant_index.196Tm
+- __swift_store_extra_inhabitant_index.214Tm
+- __swift_store_extra_inhabitant_index.244Tm
+- __swift_store_extra_inhabitant_index.47Tm
+- _swift_willThrowTypedImpl
+CStrings:
++ "apple.parsec.device_expert.v1alpha.AgentExtension"
++ "apple.parsec.device_expert.v1alpha.AgentInput"
++ "apple.parsec.device_expert.v1alpha.DeviceExpertSearchRequest"
++ "apple.parsec.device_expert.v1alpha.DeviceExpertSearchResponse"
++ "apple.parsec.device_expert.v1alpha.QuickAnswersExtension"
++ "apple.parsec.device_expert.v1alpha.QuickAnswersInput"
++ "apple.parsec.search.NumberFormat"
+
+```

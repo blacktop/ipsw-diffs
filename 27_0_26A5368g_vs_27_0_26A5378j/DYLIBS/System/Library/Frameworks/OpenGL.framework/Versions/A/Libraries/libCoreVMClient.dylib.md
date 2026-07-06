@@ -1,0 +1,7 @@
+## libCoreVMClient.dylib
+
+> `/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCoreVMClient.dylib`
+
+Sections:
+~ __DATA_CONST.__const : content changed
+~ __AUTH_CONST.__const : content changed

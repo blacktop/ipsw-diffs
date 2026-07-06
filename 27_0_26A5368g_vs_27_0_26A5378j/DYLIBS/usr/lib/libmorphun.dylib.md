@@ -1,0 +1,193 @@
+## libmorphun.dylib
+
+> `/usr/lib/libmorphun.dylib`
+
+```diff
+
+-  __TEXT.__text: 0x104134
++  __TEXT.__text: 0x103384
+   __TEXT.__const: 0x10aba0
+   __TEXT.__gcc_except_tab: 0x132f0
+   __TEXT.__cstring: 0x2a58
+   __TEXT.__ustring: 0xcc48
+   __TEXT.__oslogstring: 0xa3
+-  __TEXT.__unwind_info: 0x5b50
++  __TEXT.__unwind_info: 0x5b58
+   __TEXT.__auth_stubs: 0x0
+   __DATA_CONST.__const: 0x16808
+   __DATA_CONST.__weak_got: 0x20
+Sections:
+~ __TEXT.__gcc_except_tab : content changed
+~ __TEXT.__cstring : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+Functions:
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEELb0EEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEb : 3536 -> 3504
+~ __ZNSt3__127__insertion_sort_incompleteB9sqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIjjEEEEbT1_S8_T0_ : 1036 -> 1008
+~ __ZNSt3__113__stable_sortINS_17_ClassicAlgPolicyERNS_7greaterIN6marisa8grimoire4trie13WeightedRangeEEEPS6_EEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEPNSD_10value_typeEl : 576 -> 560
+~ __ZNSt3__115__inplace_mergeINS_17_ClassicAlgPolicyERNS_7greaterIN6marisa8grimoire4trie13WeightedRangeEEEPS6_EEvT1_SA_SA_OT0_NS_15iterator_traitsISA_E15difference_typeESF_PNSE_10value_typeEl : 1236 -> 1172
+~ __ZN6marisa8grimoire9algorithm7details4sortIPNS0_4trie10ReverseKeyEEEmT_S7_m : 1548 -> 1532
+~ __ZNK6marisa8grimoire4trie4Tail7restoreERNS_5AgentEm : 240 -> 228
+~ __ZNK6marisa8grimoire4trie4Tail12prefix_matchERNS_5AgentEm : 552 -> 520
+~ __ZN6marisa8grimoire9algorithm7details4sortIPNS0_4trie5EntryEEEmT_S7_m : 1376 -> 1360
+~ __ZNK6marisa4Trie14reverse_lookupERNS_5AgentE : 788 -> 764
+~ __ZNSt3__134__uninitialized_allocator_relocateB9sqe220106INS_9allocatorIN7morphun8analysis15tokenattributes12LemmaMappingEEEPS5_EEvRT_T0_SA_SA_ : 336 -> 280
+~ __ZNSt3__16vectorIN7morphun8analysis15tokenattributes12LemmaMappingENS_9allocatorIS4_EEE16__destroy_vectorclB9sqe220106Ev : 152 -> 144
+~ __ZNSt3__16vectorIN7morphun8analysis15tokenattributes12LemmaMappingENS_9allocatorIS4_EEE16__init_with_sizeB9sqe220106IPKS4_SA_EEvT_T0_m : 240 -> 228
+~ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9sqe220106EPKvm : 1092 -> 1080
+~ __ZN7morphun8analysis15tokenattributes25LemmaMappingAttributeImpl5clearEv : 104 -> 96
+~ __ZNK7morphun8analysis15tokenattributes25LemmaMappingAttributeImpl6equalsERKNS0_4util9AttributeE : 236 -> 228
+~ __ZNSt3__16vectorIN7morphun8analysis15tokenattributes12LemmaMappingENS_9allocatorIS4_EEE18__assign_with_sizeB9sqe220106INS_17_ClassicAlgPolicyEPS4_SA_EEvT0_T1_l : 540 -> 516
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9sqe220106INS_9allocatorIN7morphun8analysis15tokenattributes12LemmaMappingEEEPS5_S7_S7_EET2_RT_T0_T1_S8_ : 256 -> 228
+~ __ZN7morphun8analysis4util14WordlistLoader10getWordSetENSt3__117basic_string_viewIDsNS3_11char_traitsIDsEEEES7_ : 692 -> 672
+~ __ZNK7morphun8analysis21MorphologicalAnalyzer16getLemmaMappingsENSt3__117basic_string_viewIDsNS2_11char_traitsIDsEEEExRNS2_6vectorINS0_15tokenattributes12LemmaMappingENS2_9allocatorIS9_EEEERKNS7_IxNSA_IxEEEE : 3280 -> 3276
+~ __ZNK7morphun6dialog8language22ArCommonConceptFactory12quantifyTypeERKNS0_15SpeakableStringERKNS0_26SemanticFeatureConceptBaseEbNS0_23GrammaticalCountConcept5CountE : 1176 -> 1152
+~ __ZNK7morphun6dialog8language22DeCommonConceptFactory8quantifyERKNS0_13NumberConceptEPKNS0_26SemanticFeatureConceptBaseE : 3140 -> 2968
+~ __ZNK7morphun6dialog8language22FiCommonConceptFactory12quantifyTypeERKNS0_15SpeakableStringERKNS0_26SemanticFeatureConceptBaseEbNS0_23GrammaticalCountConcept5CountE : 1084 -> 1072
+~ __ZNK7morphun6dialog8language22FiCommonConceptFactory15shouldUsePluralERKNS0_26SemanticFeatureConceptBaseE : 936 -> 944
+~ __ZNK7morphun6dialog8language22HeCommonConceptFactory10isDefiniteEPKNS0_26SemanticFeatureConceptBaseE : 180 -> 172
+~ __ZNK7morphun6dialog8language22HeCommonConceptFactory8quantifyERKNS0_13NumberConceptEPKNS0_26SemanticFeatureConceptBaseE : 1680 -> 1656
+~ __ZNK7morphun6dialog8language22PlCommonConceptFactory12quantifyTypeERKNS0_15SpeakableStringERKNS0_26SemanticFeatureConceptBaseEbNS0_23GrammaticalCountConcept5CountE : 2300 -> 2220
+~ __ZNK7morphun6dialog8language22PlCommonConceptFactory8quantifyERKNS0_13NumberConceptEPKNS0_26SemanticFeatureConceptBaseE : 2308 -> 2260
+~ __ZNK7morphun6dialog8language22RuCommonConceptFactory12quantifyTypeERKNS0_15SpeakableStringERKNS0_26SemanticFeatureConceptBaseEbNS0_23GrammaticalCountConcept5CountE : 2236 -> 2176
+~ __ZNK7morphun6dialog8language22RuCommonConceptFactory8quantifyERKNS0_13NumberConceptEPKNS0_26SemanticFeatureConceptBaseE : 1560 -> 1532
+~ __ZN7morphun6dialogL16getFeatureValuesEPNSt3__13setINS1_12basic_stringIDsNS1_11char_traitsIDsEENS1_9allocatorIDsEEEENS1_4lessIS8_EENS6_IS8_EEEERKNS1_6vectorINS_4lang8features31LanguageGrammarFeatures_FeatureENS6_ISH_EEEERKSC_ : 680 -> 672
+~ __ZNSt3__16vectorIN7morphun4lang8features31LanguageGrammarFeatures_FeatureENS_9allocatorIS4_EEE16__destroy_vectorclB9sqe220106Ev : 152 -> 144
+~ __ZN7morphun6dialogL14getDefaultListERKNS_4util7ULocaleE18UListFormatterTypeb : 1316 -> 1320
+~ __ZNSt3__16vectorINS_4pairIKPKN7morphun6dialog15SemanticFeatureENS_12basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEEEEENSB_ISE_EEE16__init_with_sizeB9sqe220106IPSE_SI_EEvT_T0_m : 316 -> 296
+~ __ZNSt3__16vectorINS_4pairINS_12basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEEENS0_INS1_IKPKN7morphun6dialog15SemanticFeatureES7_EENS5_ISE_EEEEEENS5_ISH_EEE16__destroy_vectorclB9sqe220106Ev : 128 -> 116
+~ __ZN7morphun6dialog27DefinitenessDisplayFunction11getArticlesERKNS_4util7ULocaleENSt3__117basic_string_viewIDsNS6_11char_traitsIDsEEEE : 1272 -> 1280
+~ __ZNK7morphun6dialog27DefinitenessDisplayFunction15addDefinitenessEPNS0_33SemanticFeatureModel_DisplayValueERKNSt3__13mapINS0_15SemanticFeatureENS4_12basic_stringIDsNS4_11char_traitsIDsEENS4_9allocatorIDsEEEENS4_4lessIS6_EENSA_INS4_4pairIKS6_SC_EEEEEE : 952 -> 928
+~ __ZNK7morphun6dialog25DictionaryLookupInflector25inflectWordImplementationENSt3__117basic_string_viewIDsNS2_11char_traitsIDsEEEExRKNS2_6vectorINS2_12basic_stringIDsS5_NS2_9allocatorIDsEEEENS9_ISB_EEEESF_SF_ : 5376 -> 5352
+~ __ZNSt3__111__introsortINS_15_RangeAlgPolicyERZNK7morphun6dialog25DictionaryLookupInflector25inflectWordImplementationENS_17basic_string_viewIDsNS_11char_traitsIDsEEEExRKNS_6vectorINS_12basic_stringIDsS7_NS_9allocatorIDsEEEENSB_ISD_EEEESH_SH_E3$_0PNS2_8analysis29DictionaryExposableMorphology19InflectionGrammemesELb0EEEvT1_SO_T0_NS_15iterator_traitsISO_E15difference_typeEb : 2840 -> 2812
+~ __ZNSt3__127__insertion_sort_incompleteB9sqe220106INS_15_RangeAlgPolicyERZNK7morphun6dialog25DictionaryLookupInflector25inflectWordImplementationENS_17basic_string_viewIDsNS_11char_traitsIDsEEEExRKNS_6vectorINS_12basic_stringIDsS7_NS_9allocatorIDsEEEENSB_ISD_EEEESH_SH_E3$_0PNS2_8analysis29DictionaryExposableMorphology19InflectionGrammemesEEEbT1_SO_T0_ : 712 -> 688
+~ __ZNSt3__16vectorIN7morphun6dialog33SemanticFeatureModel_DisplayValueENS_9allocatorIS3_EEE16__init_with_sizeB9sqe220106IPKS3_S9_EEvT_T0_m : 352 -> 324
+~ __ZNSt3__16vectorIN7morphun4util7ULocaleENS_9allocatorIS3_EEE16__destroy_vectorclB9sqe220106Ev : 152 -> 144
+~ __ZNK7morphun6dialog14PronounConcept23isMatchingSoundPropertyERKNSt3__112basic_stringIDsNS2_11char_traitsIDsEENS2_9allocatorIDsEEEENS2_17basic_string_viewIDsS5_EE : 504 -> 456
+~ __ZNK7morphun6dialog14PronounConcept21getFirstPossibleValueEPKNS0_26SemanticFeatureConceptBaseEbb : 1652 -> 1580
+~ __ZNSt3__134__uninitialized_allocator_relocateB9sqe220106INS_9allocatorINS_4pairINS_17basic_string_viewIDsNS_11char_traitsIDsEEEENS_3mapIS6_S6_NS_4lessIS6_EENS1_INS2_IKS6_S6_EEEEEEEEEEPSE_EEvRT_T0_SJ_SJ_ : 184 -> 160
+~ __ZNSt3__16vectorIN7morphun6dialog33SemanticFeatureModel_DisplayValueENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_ : 552 -> 472
+~ __ZNSt3__16vectorIN7morphun6dialog33SemanticFeatureModel_DisplayValueENS_9allocatorIS3_EEE16__init_with_sizeB9sqe220106IPS3_S8_EEvT_T0_m : 384 -> 356
+~ __ZNK7morphun6dialog32SemanticFeatureModel_DisplayDataeqERKS1_ : 124 -> 116
+~ __ZNK7morphun6dialog15SpeakableString8containsERKNSt3__112basic_stringIDsNS2_11char_traitsIDsEENS2_9allocatorIDsEEEE : 296 -> 280
+~ __ZNK7morphun7grammar9synthesis38ArGrammarSynthesizer_ArDisplayFunction17performInflectionERKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEExRKNS2_21InflectionConstraintsE : 1344 -> 1320
+~ __ZNK7morphun7grammar9synthesis38ArGrammarSynthesizer_ArDisplayFunction15getDisplayValueERKNS_6dialog32SemanticFeatureModel_DisplayDataERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEEb : 3204 -> 3092
+~ __ZNK7morphun7grammar9synthesis42ArGrammarSynthesizer_ArticleLookupFunction15getFeatureValueERKNS_6dialog33SemanticFeatureModel_DisplayValueERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEE : 1032 -> 936
+~ __ZN7morphun7grammar9synthesis20DaGrammarSynthesizer9getNumberEPKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEE : 208 -> 184
+~ __ZN7morphun7grammar9synthesis20DaGrammarSynthesizer9getGenderEPKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEE : 200 -> 176
+~ __ZNK7morphun7grammar9synthesis38DaGrammarSynthesizer_DaDisplayFunction15getDisplayValueERKNS_6dialog32SemanticFeatureModel_DisplayDataERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEEb : 1864 -> 1824
+~ __ZNK7morphun7grammar9synthesis38DaGrammarSynthesizer_DaDisplayFunction25makeGenitiveWhenRequestedERKNSt3__13mapINS_6dialog15SemanticFeatureENS3_12basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEENS3_4lessIS6_EENSA_INS3_4pairIKS6_SC_EEEEEERKSC_ : 500 -> 488
+~ __ZNK7morphun7grammar9synthesis38DaGrammarSynthesizer_DaDisplayFunction11inflectWordERKNSt3__13mapINS_6dialog15SemanticFeatureENS3_12basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEENS3_4lessIS6_EENSA_INS3_4pairIKS6_SC_EEEEEERKSC_xSN_xbb : 3036 -> 2964
+~ __ZN7morphun7grammar9synthesis20DeGrammarSynthesizer9getNumberEPKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEE : 208 -> 184
+~ __ZN7morphun7grammar9synthesis20DeGrammarSynthesizer9getGenderEPKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEE : 320 -> 284
+~ __ZN7morphun7grammar9synthesis20DeGrammarSynthesizer7getCaseEPKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEE : 424 -> 376
+~ __ZNK7morphun7grammar9synthesis38DeGrammarSynthesizer_DeDisplayFunction28getLookupDeclensionAdjectiveERKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEERKNS3_3mapINS_6dialog15SemanticFeatureES9_NS3_4lessISE_EENS7_INS3_4pairIKSE_S9_EEEEEESB_ : 932 -> 896
+~ __ZNK7morphun7grammar9synthesis38DeGrammarSynthesizer_DeDisplayFunction15getDisplayValueERKNS_6dialog32SemanticFeatureModel_DisplayDataERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEEb : 7580 -> 7532
+~ __ZNK7morphun7grammar9synthesis42EnGrammarSynthesizer_ArticleLookupFunction15getFeatureValueERKNS_6dialog33SemanticFeatureModel_DisplayValueERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEE : 1084 -> 1072
+~ __ZNK7morphun7grammar9synthesis39EnGrammarSynthesizer_CaseLookupFunction15getFeatureValueERKNS_6dialog33SemanticFeatureModel_DisplayValueERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEE : 700 -> 688
+~ __ZNK7morphun7grammar9synthesis38EnGrammarSynthesizer_EnDisplayFunction15getDisplayValueERKNS_6dialog32SemanticFeatureModel_DisplayDataERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEEb : 3900 -> 3856
+~ __ZN7morphun7grammar9synthesis20EsGrammarSynthesizer9getGenderEPKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEE : 208 -> 184
+~ __ZNK7morphun7grammar9synthesis42EsGrammarSynthesizer_ArticleLookupFunction15getFeatureValueERKNS_6dialog33SemanticFeatureModel_DisplayValueERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEE : 1380 -> 1372
+~ __ZNK7morphun7grammar9synthesis38EsGrammarSynthesizer_EsDisplayFunction11inflectWordENSt3__117basic_string_viewIDsNS3_11char_traitsIDsEEEExRKNS3_3mapINS_6dialog15SemanticFeatureENS3_12basic_stringIDsS6_NS3_9allocatorIDsEEEENS3_4lessISA_EENSC_INS3_4pairIKSA_SE_EEEEEEb : 2060 -> 2048
+~ __ZN7morphun7grammar9synthesis20FiGrammarSynthesizer8getCountEPKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEE : 208 -> 184
+~ __ZN7morphun7grammar9synthesis20FiGrammarSynthesizer16getPronounPersonEPKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEE : 300 -> 264
+~ __ZNK7morphun7grammar9synthesis48FiGrammarSynthesizer_LocativeBasedLookupFunction15getFeatureValueERKNS_6dialog33SemanticFeatureModel_DisplayValueERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEE : 2320 -> 2316
+~ __ZNK7morphun7grammar9synthesis42FrGrammarSynthesizer_ArticleLookupFunction15getFeatureValueERKNS_6dialog33SemanticFeatureModel_DisplayValueERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEE : 2012 -> 2000
+~ __ZNK7morphun7grammar9synthesis38FrGrammarSynthesizer_FrDisplayFunction11inflectWordENSt3__117basic_string_viewIDsNS3_11char_traitsIDsEEEExRKNS3_3mapINS_6dialog15SemanticFeatureENS3_12basic_stringIDsS6_NS3_9allocatorIDsEEEENS3_4lessISA_EENSC_INS3_4pairIKSA_SE_EEEEEEb : 1516 -> 1504
+~ __ZN7morphun7grammar9synthesis22GrammarSynthesizerUtil14hasAnyFeaturesERKNSt3__13mapINS_6dialog15SemanticFeatureENS3_12basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEENS3_4lessIS6_EENSA_INS3_4pairIKS6_SC_EEEEEERKNS3_6vectorIPSG_NSA_ISN_EEEE : 144 -> 132
+~ __ZNK7morphun7grammar9synthesis38HeGrammarSynthesizer_HeDisplayFunction22singleWordStemToPluralENSt3__117basic_string_viewIDsNS3_11char_traitsIDsEEEE : 3144 -> 2884
+~ __ZNK7morphun7grammar9synthesis38HeGrammarSynthesizer_HeDisplayFunction15getDisplayValueERKNS_6dialog32SemanticFeatureModel_DisplayDataERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEEb : 5212 -> 5176
+~ __ZNK7morphun7grammar9synthesis38HiGrammarSynthesizer_HiDisplayFunction11inflectWordERKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEExRKNS3_3mapINS_6dialog15SemanticFeatureES9_NS3_4lessISE_EENS7_INS3_4pairIKSE_S9_EEEEEEbb : 2852 -> 2804
+~ __ZN7morphun7grammar9synthesis20ItGrammarSynthesizer28getPossessiveAdjectivePersonEPKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEE : 300 -> 264
+~ __ZNK7morphun7grammar9synthesis38KoGrammarSynthesizer_KoDisplayFunction15getDisplayValueERKNS_6dialog32SemanticFeatureModel_DisplayDataERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEEb : 1248 -> 1236
+~ __ZN7morphun7grammar9synthesis20NbGrammarSynthesizer9getGenderEPKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEE : 320 -> 284
+~ __ZNK7morphun7grammar9synthesis38NbGrammarSynthesizer_NbDisplayFunction24inflectSignificantTokensERKNSt3__13mapINS_6dialog15SemanticFeatureENS3_12basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEENS3_4lessIS6_EENSA_INS3_4pairIKS6_SC_EEEEEEPNS3_6vectorISC_NSA_ISC_EEEERKNSM_IiNSA_IiEEEE : 1596 -> 1584
+~ __ZNK7morphun7grammar9synthesis38NbGrammarSynthesizer_NbDisplayFunction11inflectWordERKNSt3__13mapINS_6dialog15SemanticFeatureENS3_12basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEENS3_4lessIS6_EENSA_INS3_4pairIKS6_SC_EEEEEERKSC_xSN_b : 3800 -> 3692
+~ __ZN7morphun7grammar9synthesis20NlGrammarSynthesizer9getNumberERKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEE : 220 -> 196
+~ __ZN7morphun7grammar9synthesis20NlGrammarSynthesizer13getDeclensionERKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEE : 204 -> 180
+~ __ZNK7morphun7grammar9synthesis42NlGrammarSynthesizer_ArticleLookupFunction15getFeatureValueERKNS_6dialog33SemanticFeatureModel_DisplayValueERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEE : 1968 -> 1924
+~ __ZNK7morphun7grammar9synthesis38NlGrammarSynthesizer_NlDisplayFunction15getDisplayValueERKNS_6dialog32SemanticFeatureModel_DisplayDataERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEEb : 1452 -> 1440
+~ __ZNK7morphun7grammar9synthesis44NlGrammarSynthesizer_NlNounInflectionPattern7inflectERKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEExRKNS3_3mapINS_6dialog15SemanticFeatureES9_NS3_4lessISE_EENS7_INS3_4pairIKSE_S9_EEEEEE : 2056 -> 2032
+~ __ZNK7morphun7grammar9synthesis38PlGrammarSynthesizer_PlDisplayFunction15getDisplayValueERKNS_6dialog32SemanticFeatureModel_DisplayDataERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEEb : 5844 -> 5800
+~ __ZNK7morphun7grammar9synthesis38PtGrammarSynthesizer_PtDisplayFunction11inflectWordENSt3__117basic_string_viewIDsNS3_11char_traitsIDsEEEExRKNS3_3mapINS_6dialog15SemanticFeatureENS3_12basic_stringIDsS6_NS3_9allocatorIDsEEEENS3_4lessISA_EENSC_INS3_4pairIKSA_SE_EEEEEEb : 1660 -> 1648
+~ __ZNK7morphun7grammar9synthesis38RuGrammarSynthesizer_RuDisplayFunction22inflectUsingDictionaryERKNSt3__112basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEExRKNS3_6vectorIS9_NS7_IS9_EEEESB_ : 1104 -> 1096
+~ __ZNK7morphun7grammar9synthesis38RuGrammarSynthesizer_RuDisplayFunction15getDisplayValueERKNS_6dialog32SemanticFeatureModel_DisplayDataERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEEb : 5188 -> 5144
+~ __ZNK7morphun7grammar9synthesis38SvGrammarSynthesizer_SvDisplayFunction24inflectSignificantTokensERKNSt3__13mapINS_6dialog15SemanticFeatureENS3_12basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEENS3_4lessIS6_EENSA_INS3_4pairIKS6_SC_EEEEEEPNS3_6vectorISC_NSA_ISC_EEEERKNSM_IiNSA_IiEEEE : 1596 -> 1584
+~ __ZNK7morphun7grammar9synthesis38SvGrammarSynthesizer_SvDisplayFunction11inflectWordERKNSt3__13mapINS_6dialog15SemanticFeatureENS3_12basic_stringIDsNS3_11char_traitsIDsEENS3_9allocatorIDsEEEENS3_4lessIS6_EENSA_INS3_4pairIKS6_SC_EEEEEERKSC_SN_b : 1812 -> 1764
+~ __ZNK7morphun7grammar9synthesis38TrGrammarSynthesizer_TrDisplayFunction15getDisplayValueERKNS_6dialog32SemanticFeatureModel_DisplayDataERKNSt3__13mapINS3_15SemanticFeatureENS7_12basic_stringIDsNS7_11char_traitsIDsEENS7_9allocatorIDsEEEENS7_4lessIS9_EENSD_INS7_4pairIKS9_SF_EEEEEEb : 7384 -> 7252
+~ __ZNK7morphun4lang8features23LanguageGrammarFeatures11getFeaturesEv : 1636 -> 1524
+~ __ZNSt3__16vectorIN7morphun4lang8features31LanguageGrammarFeatures_FeatureENS_9allocatorIS4_EEE16__init_with_sizeB9sqe220106IPS4_S9_EEvT_T0_m : 384 -> 356
+~ __ZNKSt3__16ranges9__reverseclB9sqe220106IRNS_12basic_stringIDsNS_11char_traitsIDsEENS_9allocatorIDsEEEEEENS_7_IfImplIXL_ZNS0_14borrowed_rangeIT_EEEEE7_SelectIDTclL_ZNS0_5__cpo5beginEEclsr3stdE7declvalIRSC_EEEENS0_8danglingEEEOSC_ : 88 -> 76
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZNK7morphun9tokenizer10dictionary14ParsingsScorer12_getBestLeafEPNS_6vectorINS_10shared_ptrINS4_7SegmentEEENS_9allocatorIS9_EEEEE3$_0PS9_Lb0EEEvT1_SH_T0_NS_15iterator_traitsISH_E15difference_typeEb : 3684 -> 3644
+~ __ZNSt3__127__insertion_sort_incompleteB9sqe220106INS_17_ClassicAlgPolicyERZNK7morphun9tokenizer10dictionary14ParsingsScorer12_getBestLeafEPNS_6vectorINS_10shared_ptrINS4_7SegmentEEENS_9allocatorIS9_EEEEE3$_0PS9_EEbT1_SH_T0_ : 1320 -> 1276
+~ __ZN7morphun9tokenizer6locale2ar11ArTokenizer20createTokenExtractorERKNS_4util7ULocaleERKNSt3__13mapINS8_17basic_string_viewIDsNS8_11char_traitsIDsEEEEPKDsNS8_4lessISD_EENS8_9allocatorINS8_4pairIKSD_SF_EEEEEE : 2824 -> 2796
+~ __ZN7morphun9tokenizer6locale2fiL14loadSuffixInfoEv : 616 -> 600
+~ __ZN7morphun9tokenizer6locale2fi13FiSuffixSplit13addBoundariesEPNSt3__16vectorIiNS4_9allocatorIiEEEENS3_10SuffixTypeE : 1340 -> 1328
+~ __ZN7morphun9tokenizer19TokenExtractorMecabC1ERKNS_4util7ULocaleENS1_9MecabTypeERKNSt3__13setI11UScriptCodeNS7_4lessIS9_EENS7_9allocatorIS9_EEEERKNS7_3mapINS7_17basic_string_viewIDsNS7_11char_traitsIDsEEEEPKDsNSA_ISL_EENSC_INS7_4pairIKSL_SN_EEEEEE : 1692 -> 1684
+~ __ZN7morphun4util23DelimitedStringIterator7getNextEv : 364 -> 344
+~ __ZNSt3__16vectorIN7morphun4util7ULocaleENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJS3_EEEPS3_DpOT_ : 460 -> 416
+~ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIN7morphun4util7ULocaleENS5_ISB_EEEEEENS_19__map_value_compareIS7_NS_4pairIKS7_SD_EENS_4lessIS7_EEEENS5_ISI_EEE21__construct_from_treeB9sqe220106IZNSN_21__copy_construct_treeB9sqe220106EPNS_11__tree_nodeISE_PvEEEUlRKSI_E_EESS_SS_T_ : 504 -> 484
+~ __ZNKSt3__117basic_string_viewIDsNS_11char_traitsIDsEEE4findB9sqe220106ES3_m : 224 -> 204
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/agent.cc:61: std::invalid_argument: str == nullptr"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/agent.cc:69: std::invalid_argument: (ptr == nullptr) && (length != 0)"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/agent.cc:84: std::logic_error: state_ != nullptr"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/mapper.cc:70: std::logic_error: !is_open()"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/mapper.cc:71: std::runtime_error: size > avail_"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/mapper.cc:98: std::logic_error: !is_open()"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/mapper.cc:99: std::runtime_error: size > avail_"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:114: std::logic_error: !is_open()"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:131: std::system_error: write: size_written <= 0"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:138: std::system_error: std::fwrite: std::fwrite(data, 1, size, file_) != size"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:140: std::system_error: std::fflush: std::fflush(file_) != 0"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:144: std::runtime_error: !stream_->write(static_cast<const char *>(data), static_cast<std::streamsize>(size))"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:145: std::runtime_error: !stream_->flush()"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:65: std::logic_error: !is_open()"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/trie/louds-trie.cc:72: std::out_of_range: agent.query().id() >= size()"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/trie/tail.cc:171: std::out_of_range: current.length() == 0"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/trie/tail.cc:193: std::length_error: buf_.size() > UINT32_MAX"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/trie/tail.cc:38: std::invalid_argument: undefined tail mode"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/keyset.cc:57: std::invalid_argument: (ptr == nullptr) && (length != 0)"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/keyset.cc:58: std::invalid_argument: length > UINT32_MAX"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:114: std::logic_error: trie_ == nullptr"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:127: std::logic_error: trie_ == nullptr"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:147: std::logic_error: trie_ == nullptr"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:152: std::logic_error: trie_ == nullptr"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:212: std::logic_error: trie.trie_ == nullptr"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:39: std::invalid_argument: (ptr == nullptr) && (size != 0)"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:90: std::logic_error: trie_ == nullptr"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QLG1ly/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:98: std::logic_error: trie_ == nullptr"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/agent.cc:61: std::invalid_argument: str == nullptr"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/agent.cc:69: std::invalid_argument: (ptr == nullptr) && (length != 0)"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/agent.cc:84: std::logic_error: state_ != nullptr"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/mapper.cc:70: std::logic_error: !is_open()"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/mapper.cc:71: std::runtime_error: size > avail_"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/mapper.cc:98: std::logic_error: !is_open()"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/mapper.cc:99: std::runtime_error: size > avail_"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:114: std::logic_error: !is_open()"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:131: std::system_error: write: size_written <= 0"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:138: std::system_error: std::fwrite: std::fwrite(data, 1, size, file_) != size"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:140: std::system_error: std::fflush: std::fflush(file_) != 0"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:144: std::runtime_error: !stream_->write(static_cast<const char *>(data), static_cast<std::streamsize>(size))"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:145: std::runtime_error: !stream_->flush()"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:65: std::logic_error: !is_open()"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/trie/louds-trie.cc:72: std::out_of_range: agent.query().id() >= size()"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/trie/tail.cc:171: std::out_of_range: current.length() == 0"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/trie/tail.cc:193: std::length_error: buf_.size() > UINT32_MAX"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/trie/tail.cc:38: std::invalid_argument: undefined tail mode"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/keyset.cc:57: std::invalid_argument: (ptr == nullptr) && (length != 0)"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/keyset.cc:58: std::invalid_argument: length > UINT32_MAX"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:114: std::logic_error: trie_ == nullptr"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:127: std::logic_error: trie_ == nullptr"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:147: std::logic_error: trie_ == nullptr"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:152: std::logic_error: trie_ == nullptr"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:212: std::logic_error: trie.trie_ == nullptr"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:39: std::invalid_argument: (ptr == nullptr) && (size != 0)"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:90: std::logic_error: trie_ == nullptr"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XeDIRZ/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/trie.cc:98: std::logic_error: trie_ == nullptr"
+
+```

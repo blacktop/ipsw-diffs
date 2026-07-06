@@ -1,0 +1,293 @@
+## NewsPersonalization
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/NewsPersonalization.framework/Versions/A/NewsPersonalization`
+
+```diff
+
+-  __TEXT.__text: 0x248e38
+-  __TEXT.__objc_methlist: 0x3c58
+-  __TEXT.__const: 0x19e70
++  __TEXT.__text: 0x23bcf4
++  __TEXT.__objc_methlist: 0x3c48
++  __TEXT.__const: 0x19ac0
+   __TEXT.__cstring: 0x106c1
+-  __TEXT.__constg_swiftt: 0x55c4
+-  __TEXT.__swift5_typeref: 0x4bd1
+-  __TEXT.__swift5_fieldmd: 0x5f98
+-  __TEXT.__swift5_builtin: 0x1f4
+-  __TEXT.__swift5_reflstr: 0x4f75
++  __TEXT.__constg_swiftt: 0x534c
++  __TEXT.__swift5_typeref: 0x4497
++  __TEXT.__swift5_fieldmd: 0x5e40
++  __TEXT.__swift5_builtin: 0x1e0
++  __TEXT.__swift5_reflstr: 0x4e65
+   __TEXT.__swift5_assocty: 0x708
+-  __TEXT.__swift5_capture: 0x1318
+-  __TEXT.__swift5_proto: 0x1490
+-  __TEXT.__swift5_types: 0x6b8
++  __TEXT.__swift5_capture: 0xea0
++  __TEXT.__swift5_proto: 0x148c
++  __TEXT.__swift5_types: 0x698
+   __TEXT.__swift5_protos: 0xe0
+-  __TEXT.__swift5_mpenum: 0x138
+-  __TEXT.__oslogstring: 0x57e
+-  __TEXT.__swift_as_entry: 0x108
+-  __TEXT.__swift_as_ret: 0x11c
+-  __TEXT.__swift_as_cont: 0x1b0
+-  __TEXT.__unwind_info: 0x8888
+-  __TEXT.__eh_frame: 0xf6b0
++  __TEXT.__swift5_mpenum: 0x130
++  __TEXT.__oslogstring: 0x30e
++  __TEXT.__swift_as_entry: 0xe0
++  __TEXT.__swift_as_ret: 0xf0
++  __TEXT.__swift_as_cont: 0x154
++  __TEXT.__unwind_info: 0x84b0
++  __TEXT.__eh_frame: 0xeab8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xb40
++  __DATA_CONST.__const: 0xb18
+   __DATA_CONST.__objc_classlist: 0x2d0
+-  __DATA_CONST.__objc_protolist: 0x320
++  __DATA_CONST.__objc_protolist: 0x318
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x36f0
+-  __DATA_CONST.__objc_protorefs: 0x198
++  __DATA_CONST.__objc_selrefs: 0x36f8
++  __DATA_CONST.__objc_protorefs: 0x190
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xc618
++  __AUTH_CONST.__const: 0xb998
+   __AUTH_CONST.__cfstring: 0x20
+-  __AUTH_CONST.__objc_const: 0xbe20
+-  __AUTH_CONST.__auth_got: 0x2db8
++  __AUTH_CONST.__objc_const: 0xbd40
++  __AUTH_CONST.__auth_got: 0x2d20
+   __AUTH.__objc_data: 0x4a8
+   __AUTH.__data: 0xe58
+-  __DATA.__data: 0x4c78
++  __DATA.__data: 0x4b88
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x21710
+-  __DATA.__common: 0x118
++  __DATA.__bss: 0x21510
++  __DATA.__common: 0x130
+   __DATA_DIRTY.__objc_data: 0xa78
+-  __DATA_DIRTY.__data: 0xa020
+-  __DATA_DIRTY.__bss: 0x5f10
++  __DATA_DIRTY.__data: 0x9d00
++  __DATA_DIRTY.__bss: 0x6090
+   __DATA_DIRTY.__common: 0x140
+   - /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+   - /System/Library/Frameworks/_LocationEssentials.framework/Versions/A/_LocationEssentials
+   - /System/Library/PrivateFrameworks/AppAnalytics.framework/Versions/A/AppAnalytics
++  - /System/Library/PrivateFrameworks/AppUserEvents.framework/Versions/A/AppUserEvents
+   - /System/Library/PrivateFrameworks/ComputationalGraph.framework/Versions/A/ComputationalGraph
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/Versions/A/InternalSwiftProtobuf
+   - /System/Library/PrivateFrameworks/NewsCore.framework/Versions/A/NewsCore
+
+   - /System/Library/PrivateFrameworks/TeaDB.framework/Versions/A/TeaDB
+   - /System/Library/PrivateFrameworks/TeaFoundation.framework/Versions/A/TeaFoundation
+   - /System/Library/PrivateFrameworks/TeaSettings.framework/Versions/A/TeaSettings
++  - /System/Library/PrivateFrameworks/_AppUserEvents_AppAnalytics.framework/Versions/A/_AppUserEvents_AppAnalytics
+   - /System/iOSSupport/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+   - /System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+   - /System/iOSSupport/System/Library/PrivateFrameworks/NewsAds.framework/Versions/A/NewsAds
+   - /System/iOSSupport/System/Library/PrivateFrameworks/NewsAnalytics.framework/Versions/A/NewsAnalytics
+   - /System/iOSSupport/System/Library/PrivateFrameworks/NewsFeed.framework/Versions/A/NewsFeed
+   - /System/iOSSupport/System/Library/PrivateFrameworks/NewsServicesInternal.framework/Versions/A/NewsServicesInternal
+-  - /System/iOSSupport/System/Library/PrivateFrameworks/NewsUserEvents.framework/Versions/A/NewsUserEvents
+   - /System/iOSSupport/System/Library/PrivateFrameworks/TeaUI.framework/Versions/A/TeaUI
+   - /System/iOSSupport/System/Library/PrivateFrameworks/XavierNews.framework/Versions/A/XavierNews
+   - /System/iOSSupport/usr/lib/swift/libswiftGameplayKit.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 11735
+-  Symbols:   3993
+-  CStrings:  1145
++  Functions: 11417
++  Symbols:   3836
++  CStrings:  1137
+ 
+Sections:
+~ __TEXT.__cstring : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__objc_stublist : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+Symbols:
++ _associated conformance 19NewsPersonalization010Com_Apple_a1_B14_RecipeSessionV13AppUserEvents0h5EventF0AA0J0AdEP_AD0hJ0
++ _associated conformance 19NewsPersonalization010Com_Apple_a1_B8_SessionV13AppUserEvents0g5EventE0AA0I0AdEP_AD0gI0
++ _associated conformance 19NewsPersonalization0A19UserEventSerializerCAA07Bridgedcd4FastE0AA7SessionAaDP_03AppC6Events0cdH0
++ _associated conformance 19NewsPersonalization0A19UserEventSerializerCAA07BridgedcdE0AA7SessionAaDP_03AppC6Events0cdG0
++ _associated conformance 19NewsPersonalization23BridgedUserEventStorageCyxG03AppD6Events0deF0AA7SessionAeFP_AE0deI0
++ _associated conformance 19NewsPersonalization25RecipeUserEventSerializerCAA07BridgeddeF0AA7SessionAaDP_03AppD6Events0deH0
++ _associated conformance 19NewsPersonalization27BridgedUserEventFastStorageCyxq_G03AppD6Events0deG0AA7SessionAeFP_AE0deJ0
++ _generic environment 19NewsPersonalization30BridgedUserEventFastSerializerRz03AppD6Events0dE7StorageR_7SessionQy_AERtzr0_l
++ _objc_msgSend$baseFileURL
++ _symbolic $s13AppUserEvents0B12EventSessionP
++ _symbolic $s13AppUserEvents0B12EventStorageP
++ _symbolic 5Event_____Qy_ 13AppUserEvents0B12EventStorageP
++ _symbolic 7Session_____Qy_ 13AppUserEvents0B12EventStorageP
++ _symbolic 7Session______5Event_____QZ 19NewsPersonalization26BridgedUserEventSerializerP 03AppD6Events0dE7SessionP
++ _symbolic 7Session______5Event_____QZ 19NewsPersonalization30BridgedUserEventFastSerializerP 03AppD6Events0dE7SessionP
++ _symbolic _____ 13AppUserEvents0B10EventLimitO
++ _symbolic _____y7Session_____QzG 13AppUserEvents11LazySessionV 19NewsPersonalization07BridgedB19EventFastSerializerP
++ _symbolic _____ySbG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySiG 15Synchronization6AtomicV
++ _symbolic _____ySiSgG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____y_____G 13AppUserEvents0B12EventHistoryC 19NewsPersonalization010Com_Apple_f1_g14_RecipeSessionD0V
++ _symbolic _____y_____G 13AppUserEvents0B12EventHistoryC 19NewsPersonalization010Com_Apple_f1_g8_SessionD0V
++ _symbolic _____y___________Qo_ 13AppUserEvents0B12EventHistoryC8sessions2as5order5limitQrqd__m_AA0bD5OrderOAA0bD5LimitOtK0D0Qyd__RszAA0bD7SessionRd__lFQO 19NewsPersonalization010Com_Apple_m1_n1_lD0V AO0o1_p1_m1_n1_L0V
++ _symbolic _____y___________Qo_ 13AppUserEvents0B12EventHistoryC8sessions2as5order5limitQrqd__m_AA0bD5OrderOAA0bD5LimitOtK0D0Qyd__RszAA0bD7SessionRd__lFQO 19NewsPersonalization010Com_Apple_m1_n7_RecipelD0V AO0o1_p1_m1_n1_qL0V
++ _symbolic _____y_____y___________pGSgG 15Synchronization5MutexVAARi_zrlE s6ResultOsRi_zRi0_zrlE 10Foundation3URLV s5ErrorP
++ _symbolic _____yxG 13AppUserEvents0B12EventHistoryC
++ _symbolic _____yxq_GSgXwz_x_q______Rz_____R_7Session_____Qy_AF_____Rtzr0_lXX 19NewsPersonalization27BridgedUserEventFastStorageC AA0cdeF10SerializerP 03AppD6Events0deG0P AH AE
++ get_witness_table 19NewsPersonalization010Com_Apple_a1_B13_SessionEventVRszlqd0__STHD2_13AppUserEvents0hF7HistoryC8sessions2as5order5limitQrqd__m_AD0hF5OrderOAD0hF5LimitOtK0F0Qyd__RszAD0hfE0Rd__lFQOyAC_AA0c1_d1_a1_b1_E0VQo_HO
++ get_witness_table 19NewsPersonalization010Com_Apple_a1_B19_RecipeSessionEventVRszlqd0__STHD2_13AppUserEvents0iG7HistoryC8sessions2as5order5limitQrqd__m_AD0iG5OrderOAD0iG5LimitOtK0G0Qyd__RszAD0igF0Rd__lFQOyAC_AA0c1_d1_a1_b1_eF0VQo_HO
++ get_witness_table 19NewsPersonalization30BridgedUserEventFastSerializerRz03AppD6Events0dE7StorageR_7SessionQy_AERtzr0_lxAaBHD1_AgC0deK0HA2_
+- _PROTOCOLS__TtC19NewsPersonalization18UserEventProcessor
+- __INSTANCE_METHODS__TtC19NewsPersonalization18UserEventProcessor
+- __IVARS__TtC19NewsPersonalization18UserEventProcessor
+- __PROTOCOLS__TtC19NewsPersonalization18UserEventProcessor
+- __PROTOCOL_AAFlushable
+- __PROTOCOL_INSTANCE_METHODS_AAFlushable
+- __PROTOCOL_METHOD_TYPES_AAFlushable
+- ___swift_allocate_boxed_opaque_existential_0
+- ___unnamed_6
+- _associated conformance 19NewsPersonalization010Com_Apple_a1_B14_RecipeSessionV0A10UserEvents0g5EventF0AA0I0AdEP_AD0gI0
+- _associated conformance 19NewsPersonalization010Com_Apple_a1_B8_SessionV0A10UserEvents0f5EventE0AA0H0AdEP_AD0fH0
+- _associated conformance 19NewsPersonalization0A19UserEventSerializerCAA07Bridgedcd4FastE0AA7SessionAaDP_0aC6Events0cdH0
+- _associated conformance 19NewsPersonalization0A19UserEventSerializerCAA07BridgedcdE0AA7SessionAaDP_0aC6Events0cdG0
+- _associated conformance 19NewsPersonalization23BridgedUserEventStorageCyxG0aD6Events0deF0AA7SessionAeFP_AE0deH0
+- _associated conformance 19NewsPersonalization25RecipeUserEventSerializerCAA07BridgeddeF0AA7SessionAaDP_0aD6Events0deH0
+- _associated conformance 19NewsPersonalization27BridgedUserEventFastStorageCyxq_G0aD6Events0deG0AA7SessionAeFP_AE0deI0
+- _generic environment 19NewsPersonalization30BridgedUserEventFastSerializerRz0aD6Events0dE7StorageR_7SessionQy_AERtzr0_l
+- _get_enum_tag_for_layout_string 19NewsPersonalization20UserEventTranslationV0E4Type33_D8C8657CA340D96B37C54398A4511571LLOyx_G
+- _swift_cvw_instantiateLayoutString
+- _swift_runtimeSupportsNoncopyableTypes
+- _symbolic $s14NewsUserEvents0B12EventSessionP
+- _symbolic $s14NewsUserEvents0B12EventStorageP
+- _symbolic 5Event_____Qy_ 14NewsUserEvents0B12EventStorageP
+- _symbolic 7Session_____Qy_ 14NewsUserEvents0B12EventStorageP
+- _symbolic 7Session______5Event_____QZ 19NewsPersonalization26BridgedUserEventSerializerP 0aD6Events0dE7SessionP
+- _symbolic 7Session______5Event_____QZ 19NewsPersonalization30BridgedUserEventFastSerializerP 0aD6Events0dE7SessionP
+- _symbolic B2
+- _symbolic B3
+- _symbolic Ieg_Sg
+- _symbolic SayScTyyt_____GG s5NeverO
+- _symbolic Say_____yxGG 19NewsPersonalization20UserEventTranslationV
+- _symbolic SayxGyYaYbKc
+- _symbolic ScSy_____yxGG 19NewsPersonalization18TranslationRequest33_B94B633608BB56C32B132D743ACD13E2LLV
+- _symbolic ScTyyt_____G s5NeverO
+- _symbolic _____ 14NewsUserEvents0B10EventLimitO
+- _symbolic _____ 19NewsPersonalization18TranslationRequest33_B94B633608BB56C32B132D743ACD13E2LLV
+- _symbolic _____ 19NewsPersonalization18UserEventProcessorC
+- _symbolic _____ 19NewsPersonalization18UserEventProcessorC11ActiveState33_B94B633608BB56C32B132D743ACD13E2LLV
+- _symbolic _____ 19NewsPersonalization18UserEventProcessorC5State33_B94B633608BB56C32B132D743ACD13E2LLO
+- _symbolic _____ 19NewsPersonalization19UserEventTranslatorV
+- _symbolic _____ 19NewsPersonalization20UserEventTranslationV
+- _symbolic _____ 19NewsPersonalization20UserEventTranslationV0E4Type33_D8C8657CA340D96B37C54398A4511571LLO
+- _symbolic _____ 19NewsPersonalization26UserEventTranslatorBuilderV
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics13BlockTagEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics13FeedViewEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics14FollowTagEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics14IgnoreTagEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics15UnblockTagEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics16ArticleLikeEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics16ArticleSaveEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics16ArticleViewEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics16AudioEngageEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics16TagExposureEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics16UnfollowTagEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics17ArticleShareEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics18ArticleScrollEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics18ArticleUnlikeEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics18ArticleUnsaveEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics19ArticleDislikeEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics21ArticleUndislikeEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics21HeadlineExposureEventV5ModelV AA0E8UserInfoV 0A15Personalization010Com_Apple_a1_i8_SessionE0V s5ErrorP
+- _symbolic __________Sg_____Sg______pIeghnnrzo_ 13NewsAnalytics29AudioEngagementCompletedEventV5ModelV AA0F8UserInfoV 0A15Personalization010Com_Apple_a1_j8_SessionF0V s5ErrorP
+- _symbolic _____y7Session_____QzG 14NewsUserEvents11LazySessionV 0A15Personalization07BridgedB19EventFastSerializerP
+- _symbolic _____y_____G 14NewsUserEvents0B12EventHistoryC 0A15Personalization010Com_Apple_a1_f14_RecipeSessionD0V
+- _symbolic _____y_____G 14NewsUserEvents0B12EventHistoryC 0A15Personalization010Com_Apple_a1_f8_SessionD0V
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0010UnblockTagD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0011ArticleLikeD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0011ArticleSaveD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0011ArticleViewD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0011AudioEngageD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0011TagExposureD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0011UnfollowTagD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0012ArticleShareD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0013ArticleScrollD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0013ArticleUnlikeD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0013ArticleUnsaveD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0014ArticleDislikeD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0016ArticleUndislikeD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0016HeadlineExposureD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB0024AudioEngagementCompletedD0V 0E15Personalization010Com_Apple_e1_i8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB008BlockTagD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB008FeedViewD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB009FollowTagD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y_____G_____Sg______pIeghnrzo_ 12AppAnalytics12ProcessEventV 04NewsB009IgnoreTagD0V 0E15Personalization010Com_Apple_e1_h8_SessionD0V s5ErrorP
+- _symbolic _____y___________Qo_ 14NewsUserEvents0B12EventHistoryC8sessions2as5order5limitQrqd__m_AA0bD5OrderOAA0bD5LimitOtK0D0Qyd__RszAA0bD7SessionRd__lFQO 0A15Personalization010Com_Apple_a1_m1_lD0V AO0n1_o1_a1_m1_L0V
+- _symbolic _____y___________Qo_ 14NewsUserEvents0B12EventHistoryC8sessions2as5order5limitQrqd__m_AA0bD5OrderOAA0bD5LimitOtK0D0Qyd__RszAA0bD7SessionRd__lFQO 0A15Personalization010Com_Apple_a1_m7_RecipelD0V AO0n1_o1_a1_m1_pL0V
+- _symbolic _____y_____yxG_G ScS12ContinuationV 19NewsPersonalization18TranslationRequest33_B94B633608BB56C32B132D743ACD13E2LLV
+- _symbolic _____yqd__G 12AppAnalytics12ProcessEventV
+- _symbolic _____yqd__GxSg______pIeghHnrzo_ 12AppAnalytics12ProcessEventV s5ErrorP
+- _symbolic _____yqd__GxSg______pIeghnrzo_ 12AppAnalytics12ProcessEventV s5ErrorP
+- _symbolic _____yxG 14NewsUserEvents0B12EventHistoryC
+- _symbolic _____yxG 14NewsUserEvents0B16EventWriteStreamV
+- _symbolic _____yxG 19NewsPersonalization19UserEventTranslatorV
+- _symbolic _____yxGSgXw 19NewsPersonalization18UserEventProcessorC
+- _symbolic _____yxGSgXwz_x______RzlXX 19NewsPersonalization18UserEventProcessorC 0aC6Events0cD0P
+- _symbolic _____yx_G 19NewsPersonalization18UserEventProcessorC11ActiveState33_B94B633608BB56C32B132D743ACD13E2LLV
+- _symbolic _____yx_G 19NewsPersonalization20UserEventTranslationV0E4Type33_D8C8657CA340D96B37C54398A4511571LLO
+- _symbolic _____yxq_GSgXwz_x_q______Rz_____R_7Session_____Qy_AF_____Rtzr0_lXX 19NewsPersonalization27BridgedUserEventFastStorageC AA0cdeF10SerializerP 0aD6Events0deG0P AH AE
+- _symbolic qd_0_
+- _symbolic qd_0_qd_1_SgxSg______pIeghHnnrzo_ s5ErrorP
+- _symbolic qd_0_qd_1_SgxSg______pIeghnnrzo_ s5ErrorP
+- _symbolic qd_0_xSg______pIeghHnrzo_ s5ErrorP
+- _symbolic qd_0_xSg______pIeghnrzo_ s5ErrorP
+- _symbolic qd_1_
+- _symbolic xSgypYaYbKc
+- _symbolic xSgypYbKc
+- _symbolic ypXp
+- _type_layout_string 14NewsUserEvents0B5EventRzl0A15Personalization0bD10TranslatorVyxG
+- _type_layout_string 14NewsUserEvents0B5EventRzl0A15Personalization0bD11TranslationV0F4Type33_D8C8657CA340D96B37C54398A4511571LLOyx_G
+- _type_layout_string 14NewsUserEvents0B5EventRzl0A15Personalization0bD11TranslationVyxG
+- _type_layout_string 14NewsUserEvents0B5EventRzl0A15Personalization18TranslationRequest33_B94B633608BB56C32B132D743ACD13E2LLVyxG
+- get_type_metadata 14NewsUserEvents0B5EventRzl15Synchronization5MutexVy0A15Personalization0bD9ProcessorC5State33_B94B633608BB56C32B132D743ACD13E2LLOyx_GG noncopyable
+- get_type_metadata 14NewsUserEvents0B5EventRzl15Synchronization5MutexVySDy10Foundation4UUIDVScTyyts5NeverOGGG noncopyable
+- get_type_metadata 15Synchronization5MutexVySiSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVys6ResultOy10Foundation3URLVs5Error_pGSgG noncopyable
+- get_type_metadata 15Synchronization6AtomicVySiG noncopyable
+- get_type_metadata 19NewsPersonalization30BridgedUserEventFastSerializerRz0aD6Events0dE7StorageR_7SessionQy_AERtzr0_l15Synchronization5MutexVySbG noncopyable
+- get_witness_table 19NewsPersonalization010Com_Apple_a1_B13_SessionEventVRszlqd0__STHD2_0A10UserEvents0gF7HistoryC8sessions2as5order5limitQrqd__m_AD0gF5OrderOAD0gF5LimitOtK0F0Qyd__RszAD0gfE0Rd__lFQOyAC_AA0c1_d1_a1_b1_E0VQo_HO
+- get_witness_table 19NewsPersonalization010Com_Apple_a1_B19_RecipeSessionEventVRszlqd0__STHD2_0A10UserEvents0hG7HistoryC8sessions2as5order5limitQrqd__m_AD0hG5OrderOAD0hG5LimitOtK0G0Qyd__RszAD0hgF0Rd__lFQOyAC_AA0c1_d1_a1_b1_eF0VQo_HO
+- get_witness_table 19NewsPersonalization30BridgedUserEventFastSerializerRz0aD6Events0dE7StorageR_7SessionQy_AERtzr0_lxAaBHD1_AgC0deJ0HA2_
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8ISuw0/Sources/FeldsparFrameworks/Modules/news-reader/NewsPersonalization/Services/XavierScoringService.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZxI3i2/Sources/FeldsparFrameworks/Modules/news-reader/NewsPersonalization/Services/XavierScoringService.swift"
+- "Can't end session when no session is in progress"
+- "Can't submit event when no session is in progress"
+- "Failed to close write stream on session end, error=%{public}@"
+- "Failed to open write stream on session start because one is already open"
+- "Failed to open write stream on session start, error=%{public}@"
+- "Failed to submit translated event to write stream, error=%{public}@, originalEvent=%{public}s"
+- "Failed to submit translated event to write stream, error=%{public}@, translatedEvent=%{public}s"
+- "Failed to translate analytics event to user event, error=%{public}@, event=%{public}s"
+
+```

@@ -1,0 +1,33 @@
+## HealthDomainsTools
+
+> `/System/Library/PrivateFrameworks/HealthDomainsTools.framework/Versions/A/HealthDomainsTools`
+
+```diff
+
+-  __TEXT.__text: 0x1db80
++  __TEXT.__text: 0x1db7c
+   __TEXT.__objc_methlist: 0x26c
+   __TEXT.__const: 0x1230
+   __TEXT.__swift5_typeref: 0x4ec
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__const : content changed
+~ __TEXT.__swift5_typeref : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__unwind_info : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__data : content changed
+Functions:
+~ sub_24faec42c -> sub_24ffc742c : 580 -> 576
+
+```

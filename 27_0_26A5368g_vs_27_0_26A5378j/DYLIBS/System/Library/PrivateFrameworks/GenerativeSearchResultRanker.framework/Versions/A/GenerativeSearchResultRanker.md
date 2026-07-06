@@ -1,0 +1,497 @@
+## GenerativeSearchResultRanker
+
+> `/System/Library/PrivateFrameworks/GenerativeSearchResultRanker.framework/Versions/A/GenerativeSearchResultRanker`
+
+```diff
+
+-  __TEXT.__text: 0xaccf4
+-  __TEXT.__const: 0x41b0
+-  __TEXT.__oslogstring: 0x3ab6
+-  __TEXT.__swift5_typeref: 0x1f6a
+-  __TEXT.__swift5_reflstr: 0x1cab
+-  __TEXT.__swift5_assocty: 0x140
+-  __TEXT.__constg_swiftt: 0xe50
+-  __TEXT.__swift5_fieldmd: 0x2158
+-  __TEXT.__swift5_protos: 0xc
+-  __TEXT.__swift5_proto: 0x210
+-  __TEXT.__swift5_types: 0x19c
+-  __TEXT.__swift_as_entry: 0xe8
+-  __TEXT.__swift_as_ret: 0x100
+-  __TEXT.__swift_as_cont: 0x1b8
+-  __TEXT.__cstring: 0x1c04
+-  __TEXT.__swift5_capture: 0x1380
+-  __TEXT.__swift5_builtin: 0x14
+-  __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x1d58
+-  __TEXT.__eh_frame: 0x3cf0
+-  __TEXT.__objc_stubs: 0x0
+-  __TEXT.__auth_stubs: 0x0
+-  __TEXT.__objc_classname: 0x0
+-  __TEXT.__objc_methname: 0x0
+-  __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xc8
+-  __DATA_CONST.__objc_classlist: 0x10
++  __TEXT.__text: 0x0
++  __TEXT.__const: 0x2
++  __DATA_CONST.__const: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x170
+-  __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x6450
+-  __AUTH_CONST.__objc_const: 0x1b0
+-  __AUTH_CONST.__auth_got: 0x10a8
+-  __AUTH.__data: 0xc18
+-  __DATA.__data: 0xf10
+-  __DATA.__bss: 0x4150
+-  __DATA.__common: 0x8
+-  __DATA_DIRTY.__data: 0x420
+-  __DATA_DIRTY.__bss: 0x80
+-  __DATA_DIRTY.__common: 0x30
+-  - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+-  - /System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary
+-  - /System/Library/PrivateFrameworks/EmbeddingCore.framework/Versions/A/EmbeddingCore
+-  - /System/Library/PrivateFrameworks/GenerativeSearch.framework/Versions/A/GenerativeSearch
+-  - /System/Library/PrivateFrameworks/HybridQueryProcessing.framework/Versions/A/HybridQueryProcessing
+-  - /System/Library/PrivateFrameworks/MediaAnalysisServices.framework/Versions/A/MediaAnalysisServices
++  - /System/Library/PrivateFrameworks/HybridSearchResultRanker.framework/Versions/A/HybridSearchResultRanker
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAVFoundation.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+-  - /usr/lib/swift/libswiftCompression.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+-  - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3883
+-  Symbols:   150
+-  CStrings:  265
++  Functions: 0
++  Symbols:   8
++  CStrings:  0
+ 
+Symbols:
+- _BiomeLibrary
+- _OBJC_CLASS_$_BML1Score
+- _OBJC_CLASS_$_BML2Score
+- _OBJC_CLASS_$_BMMailRankerEvent
+- _OBJC_CLASS_$_BMMessageFeatures
+- _OBJC_CLASS_$_BMQueryMatchInfo
+- _OBJC_CLASS_$_BMRankedMailItem
+- _OBJC_CLASS_$_BMResultsRankedGLP
+- _OBJC_CLASS_$_MADCrossEncoderOutput
+- _OBJC_CLASS_$_MADCrossEncoderSimilarityRequest
+- _OBJC_CLASS_$_MADCrossEncoderSimilarityResult
+- _OBJC_CLASS_$_MADService
+- _OBJC_CLASS_$_MADTextRequest
+- _OBJC_CLASS_$_NSDateFormatter
+- _OBJC_CLASS_$_NSISO8601DateFormatter
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSProcessInfo
+- _OBJC_CLASS_$_NSRegularExpression
+- _OBJC_CLASS_$_NSTextCheckingResult
+- _OBJC_CLASS_$_NSUserDefaults
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- __Block_copy
+- __Block_release
+- __NSConcreteStackBlock
+- ___chkstk_darwin
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __objc_empty_cache
+- __os_log_impl
+- __os_signpost_emit_with_name_impl
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftEmptySetSingleton
+- __swiftImmortalRefCount
+- __swift_FORCE_LOAD_$_swiftAVFoundation
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftCompression
+- __swift_FORCE_LOAD_$_swiftCoreAudio
+- __swift_FORCE_LOAD_$_swiftCoreImage
+- __swift_FORCE_LOAD_$_swiftCoreMIDI
+- __swift_FORCE_LOAD_$_swiftMLCompute
+- __swift_FORCE_LOAD_$_swiftMetal
+- __swift_FORCE_LOAD_$_swiftQuartzCore
+- __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
+- __swift_FORCE_LOAD_$_swiftsimd
+- __swift_isClassOrObjCExistentialType
+- _bzero
+- _exp
+- _exp2
+- _free
+- _malloc
+- _malloc_size
+- _memcpy
+- _memmove
+- _objc_allocWithZone
+- _objc_msgSend
+- _objc_opt_self
+- _objc_release
+- _objc_retain
+- _objc_retainAutoreleasedReturnValue
+- _os_log_type_enabled
+- _os_unfair_lock_lock
+- _os_unfair_lock_unlock
+- _os_variant_has_internal_diagnostics
+- _pow
+- _swift_allocBox
+- _swift_allocError
+- _swift_allocObject
+- _swift_arrayDestroy
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_beginAccess
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain
+- _swift_bridgeObjectRetain_n
+- _swift_continuation_await
+- _swift_continuation_init
+- _swift_cvw_allocateGenericValueMetadataWithLayoutString
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_enumFn_getEnumTag
+- _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
+- _swift_cvw_initStructMetadataWithLayoutString
+- _swift_cvw_initWithCopy
+- _swift_cvw_initWithTake
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_multiPayloadEnumGeneric_getEnumTag
+- _swift_deallocClassInstance
+- _swift_deallocObject
+- _swift_defaultActor_deallocate
+- _swift_defaultActor_destroy
+- _swift_deletedAsyncMethodErrorTu
+- _swift_deletedMethodError
+- _swift_dynamicCast
+- _swift_dynamicCastClass
+- _swift_endAccess
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_getAtKeyPath
+- _swift_getEnumCaseMultiPayload
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getErrorValue
+- _swift_getGenericMetadata
+- _swift_getKeyPath
+- _swift_getObjCClassFromMetadata
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_getSingletonMetadata
+- _swift_getTupleTypeMetadata2
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_initStackObject
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_once
+- _swift_projectBox
+- _swift_release
+- _swift_release_n
+- _swift_retain
+- _swift_retain_n
+- _swift_setDeallocating
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_storeEnumTagMultiPayload
+- _swift_storeEnumTagSinglePayloadGeneric
+- _swift_task_alloc
+- _swift_task_create
+- _swift_task_dealloc
+- _swift_task_switch
+- _swift_unexpectedError
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRetain
+- _swift_willThrow
+- _swift_willThrowTypedImpl
+CStrings:
+- "  L2 Raw Scores - min:%s max:%s avg:%s"
+- " lexicalRetrieved:"
+- " query(ies), isShortQuery: "
+- " tophit(s) from cliff detection\n"
+- "#%ld: ✓ PASS role:%s content:\"%s\" score:%s %s"
+- "#%ld: ✓ PASS sub:\"%s\" score:%s %s"
+- "#%ld: ❌ FAIL role:%s content:\"%s\" score:%s reason:%s"
+- "#%ld: ❌ FAIL sub:\"%s\" score:%s reason:%s"
+- "#CrossEncoder Rule3-boost DEMOTED semantic #1: similarity=%s < threshold=%s"
+- "#CrossEncoder Rule3-boost KEPT semantic #1: similarity=%s >= threshold=%s"
+- "#CrossEncoder Rule3-boost: score unavailable — allowing demotion"
+- "#CrossEncoder Rule3-boost: scoring semantic #1, threshold=%s"
+- "#CrossEncoder client: completed | scores=%ld | max=%s | latency=%ss"
+- "#CrossEncoder client: computing similarity | query_len=%ld | documents=%ld | timeout=%fs"
+- "#CrossEncoder client: score count (%ld) != document count (%ld), padding/truncating"
+- "#CrossEncoder latency: %sms"
+- "#CrossEncoder prewarm failed: %s"
+- "#CrossEncoder prewarm: completed"
+- "#CrossEncoder prewarm: starting"
+- "#CrossEncoder scoring failed: %s"
+- "$time.iso(2147483647)"
+- "(not all persons)"
+- "@[^@\\s]+\\.[a-z]{3,}$"
+- "Attachment multi-query dedup: %ld unique candidates from %ld total"
+- "CLIFF DETECTION SKIPPED: person-query ranking active — all %ld candidates are tophits"
+- "Cross-encoder timed out after "
+- "Cross-type dedup: attachment(idx:%ld, score:%s) wins over mail(idx:%ld, score:%s)"
+- "Cross-type dedup: mail(idx:%ld, score:%s) wins over attachment(idx:%ld, score:%s)"
+- "Cross-type ranking: %ld candidates (%ld mail/attachment duplicate pairs to resolve)"
+- "Cross-type: skipping corrupted attachment entity at index %ld: %s"
+- "Cross-type: skipping corrupted draft entity at index %ld: %s"
+- "Cross-type: skipping corrupted mail entity at index %ld: %s"
+- "De-dup: removed %ld duplicate(s) from %ld results"
+- "Document at index "
+- "Documents array is empty"
+- "Draft multi-query dedup: %ld unique candidates from %ld total"
+- "DraftMailSearchClient.ranking"
+- "Duplicate values for key: '"
+- "Fatal error"
+- "GenerativeSearchResultRanker/MailCoreRanker.swift"
+- "Invalid request: "
+- "L2 Ranking is disabled via configuration"
+- "L2 Ranking returns %ld ranked results, %ld as tophit count"
+- "L2 Ranking: Limited to first %ld candidates (skipped %ld)"
+- "L2 cliff detection: %ld/%ld embedding-only items filtered | cliff at position %ld gap:%s [%s -> %s]"
+- "L2 cliff filter: filtered \"%s\" role:%s vectorDist:%s cliffGap:%s > threshold:%f termscores:[%s]"
+- "L2 filter: filtered \"%s\" date:%s vectorDist:%s > threshold:%f termscores:[%s] queries:[%s]"
+- "L2 ranking disabled via configuration"
+- "L2Ranker.rerankWithMetadata called with %ld queries - using only the first"
+- "MADService not available"
+- "MADService returned invalid request ID"
+- "MailAttachmentSearchClient.ranking"
+- "MailCoreRanker.featureExtraction"
+- "MailDomainCrossTypeRanker.emitBiomeSignals"
+- "MailL2RankingAmbiguousDateFilterDemotionEnabled"
+- "MailL2RankingBodyMatchingEnabled"
+- "MailL2RankingComparisonLoggingEnabled"
+- "MailL2RankingCrossEncoderBoostThreshold"
+- "MailL2RankingCrossEncoderSemanticBoostingEnabled"
+- "MailL2RankingCrossFieldDampeningFactor"
+- "MailL2RankingEnabled"
+- "MailL2RankingEngagementEnabled"
+- "MailL2RankingInternalSenderDemotionEnabled"
+- "MailL2RankingInternalSenderDemotionPenalty"
+- "MailL2RankingLogRedactionEnabled"
+- "MailL2RankingMatchTypeDemotionMultiplier"
+- "MailL2RankingMaxL1CandidatesToRetrieve"
+- "MailL2RankingMaxL2CandidatesToRank"
+- "MailL2RankingMaxScoringBreakdownsToLog"
+- "MailL2RankingMinimumSuggestionLimit"
+- "MailL2RankingPersonQueryRankingEnabled"
+- "MailL2RankingQualityEnabled"
+- "MailL2RankingQueryMatchEnabled"
+- "MailL2RankingRecencyReorderEnabled"
+- "MailL2RankingRecencyReorderThreshold"
+- "MailL2RankingStructuralEnabled"
+- "MailL2RankingTemporalEnabled"
+- "MailL2RankingTophitCliffThreshold"
+- "MailL2RankingTophitFilteringEnabled"
+- "MailL2RankingVectorOnlyDistanceThreshold"
+- "MailSearchClient.ranking"
+- "Multi-query dedup: %ld unique candidates from %ld total"
+- "No similarity results returned"
+- "QHF1aXAtYXBwbGUuY29t"
+- "QHN0YXNoLnNkLmFwcGxlLmNvbQ=="
+- "Query string is empty"
+- "RECENCY REORDER: reordered tophits by date (band:%s)"
+- "Request failed: "
+- "Result error at index "
+- "Rule1:phrase-match"
+- "Rule2:sender-match"
+- "Rule3:fts-over-embedding"
+- "Score count mismatch: expected "
+- "SiriTranscriptL2RankingEnabled"
+- "SiriTranscriptL2RankingLogRedactionEnabled"
+- "SiriTranscriptL2RankingMaxCandidatesToRank"
+- "SiriTranscriptL2RankingQualityEnabled"
+- "SiriTranscriptL2RankingQueryMatchEnabled"
+- "SiriTranscriptL2RankingRankTrustEnabled"
+- "SiriTranscriptL2RankingTemporalEnabled"
+- "SiriTranscriptL2RankingTitleSourceScorerEnabled"
+- "SiriTranscriptL2RankingTophitCliffThreshold"
+- "SiriTranscriptL2RankingVectorOnlyCliffThreshold"
+- "Skipping corrupted draft mail entity at index %ld: %s"
+- "Skipping corrupted mail attachment entity at index %ld: %s"
+- "Skipping corrupted mail entity at index %ld: %s"
+- "Swift/NativeDictionary.swift"
+- "TOPHIT DETECTION: %ld results, checking top %ld, max %ld tophits"
+- "TOPHIT DIVERSIFICATION SKIPPED: %s"
+- "TOPHIT DIVERSIFICATION: %s"
+- "TOPHIT RESULT: %ld tophits"
+- "TOPHIT RESULT: %ld tophits (all candidates passed)"
+- "TOPHIT RESULT: %ld tophits (cliff at #%ld: %s)"
+- "TOPHIT: %ld result, tophit count: %ld"
+- "TopHit %s: all %ld tophits match — keeping all"
+- "TopHit %s: demoted #%ld sub:\"%s\" reason:%s"
+- "TopHit %s: no matching items in tophits — no-op"
+- "TopHit %s: removed %ld items, tophitCount %ld→%ld"
+- "TopHit Adjust [%s] #%ld→#%ld sub:\"%s\" phraseSubj:%{bool}d phraseSender:%{bool}d lexicalRetrieved:%{bool}d"
+- "TopHit Adjust [%s] no-op (order unchanged)"
+- "TopHit Adjust [Rule3:fts-over-embedding] BLOCKED by cross-encoder boost — keeping semantic #1"
+- "TopHit Diversify: inserted query-%ld item at #%ld, tophitCount %ld→%ld"
+- "TopHit Diversify: swapped query-%ld item at #%ld with query-%ld item"
+- "YWRnX2JvdEBhcHBsZS5jb20="
+- "Z2l0aHViQGdpdGh1Yi5wYXJzZWMuYXBwbGUuY29t"
+- "Z3VhcmRpYW4tc3RhdHVzQGdyb3VwLmFwcGxlLmNvbQ=="
+- "[Error] Interval already ended"
+- "\\$time\\.iso\\(([^)]+)\\)"
+- "all queries already represented in tophits"
+- "attachment"
+- "bm9yZXBseUBnaXRodWIuc2lyaS5hcHBsZS5jb20="
+- "cGllLWdpdGh1Yi1ub3JlcGx5QGFwcGxlLmNvbQ=="
+- "cmFkYXJAYXBwbGUuY29t"
+- "com.apple.GenerativeSearchLearningPlatform.GenerativeSearchResultRanker"
+- "com.apple.email.SearchIndexer"
+- "com.apple.mobilemail"
+- "computeSimilarity(query:documents:)"
+- "contentCreationDate"
+- "conversation"
+- "conversation_title_floor"
+- "date or person annotations in query"
+- "domain_match_type_demote"
+- "draft"
+- "exchangeActiveSync"
+- "exchangeWebServices"
+- "expectedSessionIds"
+- "fallback_minimum"
+- "filter_retrieved"
+- "imap"
+- "isFlagged filter"
+- "items=%ld"
+- "key value "
+- "lexicalTermMatches"
+- "local"
+- "mail"
+- "match_type_demotion"
+- "news"
+- "no candidate found for missing query "
+- "no missing query index"
+- "no single-query tophit to swap out"
+- "no tophits to diversify"
+- "none"
+- "offset element "
+- "others"
+- "person_query_ranking"
+- "personal"
+- "phrase_match_content"
+- "pop"
+- "predicateDescription"
+- "previous score invalid"
+- "promotions"
+- "provenanceIdentifierType"
+- "queryParserOutput"
+- "raw_vector_min_dist"
+- "single query — no diversification needed"
+- "siri"
+- "skipped (person-query ranking)"
+- "social"
+- "stableIdentifier"
+- "systemAccount"
+- "title_source_model"
+- "title_source_none"
+- "title_source_user"
+- "transaction"
+- "turn"
+- "unknown"
+- "updates"
+- "user"
+- "versionedIdentifier"
+- "winning_query_idx"
+- "yyyy-MM-dd'T'HH:mm:ss"
+- "───────────────────────────────────────────────────────────────"
+- "═══════════════════════════════════════════════════════════════"
+- "║\n║ CROSS-TYPE DEDUP DECISIONS:\n"
+- "║\n║ FILTERED ITEMS ("
+- "║\n║ Position #%ld:\n║   BEFORE: \"%s\"\n║            L1 Score: %s\n║   AFTER:  \"%s\" %s %s\n║            L2 Score: %s"
+- "║\n║ Position #%ld:\n║   BEFORE: \"%s\" [%s]\n║            L1 Score: %s\n║   AFTER:  \"%s\" [%s] %s %s\n║            L2 Score: %s"
+- "║\n║ SCORE STATISTICS:\n"
+- "║\n║ SCORING BREAKDOWN (L2 Order):\n"
+- "║\n║ Stage 2 — Diversification:\n"
+- "║\n║ Stage 3 — Rule-Based Adjustment:\n"
+- "║\n║ TOPHIT DETECTION\n"
+- "║\n║ TOPHIT SCORING BREAKDOWN ("
+- "║       Filters: "
+- "║       Tokens: ["
+- "║   All candidates passed -> "
+- "║   Body Matching: "
+- "║   Cliff at #"
+- "║   Engagement: "
+- "║   L1 Retrieval: "
+- "║   L2 Ranking: "
+- "║   Q%ld (idx:%ld): %s → %ld results | limit: %ld tophitLimit: %ld | Filters: %s"
+- "║   Query Match: "
+- "║   Query Understanding: "
+- "║   Structural: "
+- "║   Temporal: "
+- "║   Tophit Cliff Threshold: "
+- "║   Vector Distance Threshold: "
+- "║   no-op (order unchanged)\n"
+- "║ Filters: %s"
+- "║ Filters: (none)"
+- "║ QUERY UNDERSTANDING\n"
+- "║ Query %ld: %s → %ld results | Filters: %s"
+- "║ RETRIEVAL RESULTS ("
+- "║ Ranking Configuration:\n"
+- "║ SEARCH CONTEXT\n"
+- "║ Search Terms: %s"
+- "║ Search Terms: (none)"
+- "║ Stage 1 — Cliff Detection (maxTophits: "
+- "║ TIMING SUMMARY\n"
+- "║ [%s] %ld query(ies), %ld results"
+- "║ [attachment] (not requested)"
+- "║ [draft] (not requested)"
+- "║ [mail] (not requested)"
+- "║ ───────────────────────────────────────────────────────────────\n"
+- "║ ═══════════════════════════════════════════════════════════════\n"
+- "╔═══════════════════════════════════════════════════════════════\n"
+- "╔═══════════════════════════════════════════════════════════════\n║ CROSS-TYPE L2 RANKING REQUEST\n╠═══════════════════════════════════════════════════════════════"
+- "╔═══════════════════════════════════════════════════════════════\n║ L2 RANKING CONTEXT\n╠═══════════════════════════════════════════════════════════════\n║ Original Query: \"%s\"\n║ Original Search Terms: %s\n║ Query Token Sets: %s\n║ Query Filter Attributes: %s\n║ Parsed Date Ranges: %s\n║ QueryParserOutput: %s\n║ PersonQueryInfo: %s\n║ SearchEntryPoint: %s\n║ UserProvidedFilter: %s\n╚═══════════════════════════════════════════════════════════════"
+- "╔═══════════════════════════════════════════════════════════════\n║ L2 RANKING REQUEST\n╠═══════════════════════════════════════════════════════════════\n║ Query Details:\n║   Query Limit: %ld\n║   Query tophit Limit: %ld\n║   L1 Result Count: %ld\n╟───────────────────────────────────────────────────────────────"
+- "╔═══════════════════════════════════════════════════════════════\n║ L2 RANKING REQUEST (Multi-Query: %ld queries)\n╠═══════════════════════════════════════════════════════════════"
+- "╔═══════════════════════════════════════════════════════════════\n║ L2 RANKING SKIPPED\n╠═══════════════════════════════════════════════════════════════\n║ Reason: %s\n║ L1 Result Count: %ld\n╚═══════════════════════════════════════════════════════════════"
+- "╔═══════════════════════════════════════════════════════════════\n║ L2 RANKING TIMING SUMMARY\n╠═══════════════════════════════════════════════════════════════\n║ Total Time: %sms\n║   Ranking: %sms (%s)\n║   Logging: %sms (%s)\n╚═══════════════════════════════════════════════════════════════"
+- "╔═══════════════════════════════════════════════════════════════\n║ MAIL SEARCH DIAGNOSTICS\n"
+- "╔═══════════════════════════════════════════════════════════════\n║ RANKING COMPARISON (Before L2 → After L2)\n╠═══════════════════════════════════════════════════════════════"
+- "╔═══════════════════════════════════════════════════════════════\n║ RANKING COMPARISON (Before L2 → After L2) | Query: \"%s\"\n╠═══════════════════════════════════════════════════════════════"
+- "╔═══════════════════════════════════════════════════════════════\n║ SIRI TRANSCRIPT L2 RANKING REQUEST\n╠═══════════════════════════════════════════════════════════════\n║ Query Details:\n║   Query Limit: %ld\n║   L1 Result Count: %ld\n╟───────────────────────────────────────────────────────────────"
+- "╔═══════════════════════════════════════════════════════════════\n║ SIRI TRANSCRIPT L2 RANKING SKIPPED\n╠═══════════════════════════════════════════════════════════════\n║ Reason: %s\n║ L1 Result Count: %ld\n╚═══════════════════════════════════════════════════════════════"
+- "╔═══════════════════════════════════════════════════════════════\n║ SIRI TRANSCRIPT L2 RANKING TIMING SUMMARY\n╠═══════════════════════════════════════════════════════════════\n║ Total Time: %sms\n║   Ranking: %sms (%s)\n║   Logging: %sms (%s)\n╚═══════════════════════════════════════════════════════════════"
+- "╚═══════════════════════════════════════════════════════════════"
+- "╚═══════════════════════════════════════════════════════════════\n"
+- "╚═══════════════════════════════════════════════════════════════\n\n"
+- "╟───────────────────────────────────────────────────────────────"
+- "╟───────────────────────────────────────────────────────────────\n║ Total L1 Results (all scopes): %ld\n╠═══════════════════════════════════════════════════════════════\n║ Ranking Configuration:\n║   L2 Ranking: %s\n║   Temporal: %s\n║   Query Match: %s\n║   Engagement: %s\n║   Structural: %s\n║   Quality: %s\n║   Body Matching: %s\n║   Person Query Ranking: %s\n╚═══════════════════════════════════════════════════════════════"
+- "╟───────────────────────────────────────────────────────────────\n║ Total L1 Results: %ld\n║ Query Limit: %ld\n║ Query Tophit Limit: %ld\n╠═══════════════════════════════════════════════════════════════\n║ Ranking Configuration:\n║   L2 Ranking: %s\n║   Temporal: %s\n║   Query Match: %s\n║   Engagement: %s\n║   Structural: %s\n║   Quality: %s\n║   Body Matching: %s\n║   Person Query Ranking: %s\n╚═══════════════════════════════════════════════════════════════"
+- "╠═══════════════════════════════════════════════════════════════\n"
+- "╠═══════════════════════════════════════════════════════════════\n║ Ranking Configuration:\n║   L2 Ranking: %s\n║   Temporal: %s\n║   Query Match: %s\n║   Engagement: %s\n║   Structural: %s\n║   Quality: %s\n║   Body Matching: %s\n║   Person Query Ranking: %s\n╚═══════════════════════════════════════════════════════════════"
+- "╠═══════════════════════════════════════════════════════════════\n║ Ranking Configuration:\n║   L2 Ranking: %s\n║   Temporal: %s\n║   Query Match: %s\n║   Quality: %s\n╚═══════════════════════════════════════════════════════════════"
+- "❌ Error ranking transcript turn %s: %s"
+- "🎯 FINAL TOPHIT SCORING BREAKDOWN (%ld tophit(s))"
+- "🎯 MAIL TOPHIT DETECTION"
+- "🎯 SIRI TRANSCRIPT TOPHIT DETECTION"
+- "📊 SCORING BREAKDOWN SECTION (L2 Order)"
+- "📊%s"
+- "📊L2#%ld l1#%ld l1score:%s role:%s age:%s session:%s... content:\"%s\" final:%s | %s -> %s"
+
+```

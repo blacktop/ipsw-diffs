@@ -1,0 +1,320 @@
+## Speech
+
+> `/System/Library/Frameworks/Speech.framework/Versions/A/Speech`
+
+```diff
+
+-  __TEXT.__text: 0x234bb0
++  __TEXT.__text: 0x236458
+   __TEXT.__objc_methlist: 0x4fdc
+-  __TEXT.__const: 0xfa80
+-  __TEXT.__swift5_typeref: 0x6d8c
+-  __TEXT.__constg_swiftt: 0x4b30
++  __TEXT.__const: 0xfa50
++  __TEXT.__swift5_typeref: 0x6d26
++  __TEXT.__constg_swiftt: 0x4b38
+   __TEXT.__swift5_reflstr: 0x51ab
+   __TEXT.__swift5_fieldmd: 0x4200
+   __TEXT.__swift5_builtin: 0x104
+   __TEXT.__swift5_assocty: 0xa88
+-  __TEXT.__cstring: 0x982d
++  __TEXT.__cstring: 0x9a5d
+   __TEXT.__swift5_proto: 0x988
+   __TEXT.__swift5_types: 0x3d0
+-  __TEXT.__oslogstring: 0x5005
+-  __TEXT.__swift5_capture: 0x41cc
++  __TEXT.__oslogstring: 0x4ff5
++  __TEXT.__swift5_capture: 0x41bc
+   __TEXT.__swift5_acfuncs: 0x5a0
+   __TEXT.__swift_as_entry: 0xac8
+   __TEXT.__swift_as_ret: 0xb1c
+
+   __TEXT.__swift5_protos: 0x68
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__gcc_except_tab: 0x8cc
+-  __TEXT.__unwind_info: 0x9a50
+-  __TEXT.__eh_frame: 0x14144
++  __TEXT.__unwind_info: 0x9a48
++  __TEXT.__eh_frame: 0x1411c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_protorefs: 0xf8
+   __DATA_CONST.__objc_superrefs: 0x238
+   __DATA_CONST.__objc_arraydata: 0x118
+-  __DATA_CONST.__got: 0xf60
+-  __AUTH_CONST.__const: 0x12318
++  __DATA_CONST.__got: 0xf68
++  __AUTH_CONST.__const: 0x122f0
+   __AUTH_CONST.__cfstring: 0x47e0
+   __AUTH_CONST.__objc_const: 0xe658
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH_CONST.__objc_intobj: 0xf0
+-  __AUTH_CONST.__auth_got: 0x1a18
+-  __AUTH.__objc_data: 0x1078
+-  __AUTH.__data: 0x1988
++  __AUTH_CONST.__auth_got: 0x1a20
++  __AUTH.__objc_data: 0x510
++  __AUTH.__data: 0xb40
+   __DATA.__objc_ivar: 0x624
+-  __DATA.__data: 0x3520
+-  __DATA.__common: 0x100
+-  __DATA.__bss: 0xe380
+-  __DATA_DIRTY.__objc_data: 0x1aa8
+-  __DATA_DIRTY.__data: 0x5358
+-  __DATA_DIRTY.__bss: 0x1dc0
+-  __DATA_DIRTY.__common: 0x340
++  __DATA.__data: 0x3240
++  __DATA.__common: 0x68
++  __DATA.__bss: 0xdc00
++  __DATA_DIRTY.__objc_data: 0x2610
++  __DATA_DIRTY.__data: 0x6458
++  __DATA_DIRTY.__bss: 0x2540
++  __DATA_DIRTY.__common: 0x3d8
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 15414
+-  Symbols:   33013
+-  CStrings:  2026
++  Functions: 15435
++  Symbols:   33018
++  CStrings:  2040
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__swift5_fieldmd : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_types : content changed
+~ __TEXT.__swift5_acfuncs : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__objc_arraydata : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__objc_dictobj : content changed
+~ __AUTH_CONST.__objc_arrayobj : content changed
+~ __AUTH_CONST.__objc_intobj : content changed
+Symbols:
++ $sIeAgH_s5Error_pIegHzo_TRTA.50TQ0_
++ $sIeAgH_s5Error_pIegHzo_TRTA.50Tu
++ $sIeAgH_s5Error_pIegHzo_TRTA.64TQ0_
++ $sIeAgH_s5Error_pIegHzo_TRTA.64Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.640TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.640Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.145TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.145Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.174TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.174Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.188TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.188Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.200TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.200Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.219TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.219Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.243TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.243Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.254TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.254Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.266TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.266Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.287TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.287Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.297TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.297Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.336TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.336Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.342TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.342Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.347TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.347Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.652TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.652Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.663TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.663Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.668TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.668Tu
++ _$s6Speech12NCBVQProfileC5resetyyF
++ _$s6Speech12NCBVQProfileC5resetyyFTj
++ _$s6Speech12NCBVQProfileC5resetyyFTq
++ _$s6Speech13compactCMTime33_39BE6206A7FBA82774580F2E19469961LLySSSo0C0aSgF
++ _$s6Speech15InstrumentationC7logTTAW7message11timeInTicksySS_s6UInt64VtF
++ _$s6Speech18TranscriptionTokenV18compactDescriptionSSvg
++ _$s6Speech20TranscriptionSegmentV18compactDescriptionSSvg
++ _$s6Speech29TranscriberMultisegmentResultPAAE19compactFinalSummary8redactedSSSb_tFAA0B6CommonC0cD0V_TB5
++ _$s6Speech29TranscriberMultisegmentResultPAAE19compactFinalSummary8redactedSSSb_tFSSyXEfU_AA0B6CommonC0cD0V_TB5
++ _$sSds7CVarArgsWP
++ _$sSh11subtractingyShyxGABFSo21SFEntitledAssetConfigC_Tg5Tm
++ _$sSo17SFEncryptedLoggerC6SpeechE4infoyySSyXKFTm
++ _$sSo8NSObjectCs7CVarArg10ObjectiveCMc
++ _$sSo8NSStringCSo8NSObjectCs7CVarArg10ObjectiveCWL
++ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lF10Foundation6LocaleV_SayAIGTg5
++ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lF10Foundation6LocaleV_ShyAIGTg5
++ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lF6Speech0E16RecognizerWorkerC_ShyAIGTg5
++ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lF6Speech17TranscriberCommonC15ReportingOptionO_SayAKGTg5
++ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lF6Speech17TranscriberCommonC19TranscriptionOptionO_SayAKGTg5
++ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lF6Speech17TranscriberCommonC19TranscriptionOptionO_SayAKGTg5Tm
++ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lFSo21SFEntitledAssetConfigC_ShyAHGTg5
++ _$ss10_NativeSetV19genericIntersectionyAByxGqd__7ElementQyd__RszSTRd__lF10Foundation6LocaleV_SayAIGTg5
++ _$ss10_NativeSetV19genericIntersectionyAByxGqd__7ElementQyd__RszSTRd__lFSo13AVAudioFormatC_ShyAHGTg5
++ _$ss10_NativeSetV8isSubset2ofSbqd___t7ElementQyd__RszSTRd__lF10Foundation6LocaleV_SayAIGTg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF6Speech18TranscriptionTokenV_Tg5
++ _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_AiBq_xRi_zRi0_zRi__Ri0__r0_lys5NeverOxIsgyrzr_xA2KRs_r0_lIetygrzo_Tpq5s10_NativeSetVy10Foundation6LocaleVG_Tg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxt32_YKXEfU_A2Bq_xRi_zRi0_zRi__Ri0__w5_lys5k11OxIsgyrzr_xz4HRs_w19_lIetygrzo_TPq5s10_lm15Vy10Foundation6O6VG_TG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAkQIsgyrzr_Tf1nc_nTm
++ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VySSG_s010CollectionH3OneVySSGTg5
++ _CMTimeAdd
++ _OUTLINED_FUNCTION_823
++ _OUTLINED_FUNCTION_824
++ __swift_closure_destructor.142Tm
++ __swift_closure_destructor.182Tm
++ __swift_closure_destructor.204Tm
++ __swift_closure_destructor.212Tm
++ __swift_closure_destructor.22Tm
++ __swift_closure_destructor.248Tm
++ __swift_closure_destructor.270Tm
++ __swift_closure_destructor.424Tm
++ __swift_closure_destructor.53Tm
++ __swift_closure_destructor.634Tm
++ __swift_closure_destructor.89Tm
++ _objc_msgSend$isBypassed
+- $sIeAgH_s5Error_pIegHzo_TRTA.54TQ0_
+- $sIeAgH_s5Error_pIegHzo_TRTA.54Tu
+- $sIeAgH_s5Error_pIegHzo_TRTA.68TQ0_
+- $sIeAgH_s5Error_pIegHzo_TRTA.68Tu
+- $ss10_NativeSetV19genericIntersectionyAByxGqd__7ElementQyd__RszSTRd__lFADs13_UnsafeBitsetVXEfU_So13AVAudioFormatC_ShyAJGTG5TA
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.643TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.643Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.146TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.146Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.177TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.177Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.191TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.191Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.203TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.203Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.222TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.222Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.246TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.246Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.257TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.257Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.267TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.267Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.276TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.276Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.290TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.290Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.300TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.300Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.339TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.339Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.345TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.345Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.350TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.350Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.655TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.655Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.666TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.666Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.671TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.671Tu
+- _$s15Synchronization5MutexVy6Speech0C16RecognizerWorkerC16PerfMeasurementsVGMR
+- _$s15Synchronization5MutexVy6Speech0C16RecognizerWorkerC16PerfMeasurementsVGMd
+- _$s15Synchronization5MutexVy6Speech0C16RecognizerWorkerCSg6worker_Sb015hasModuleLockedE6BeforetGMR
+- _$s15Synchronization5MutexVy6Speech0C16RecognizerWorkerCSg6worker_Sb015hasModuleLockedE6BeforetGMd
+- _$s15Synchronization5MutexVy6Speech15AnalysisContextCSgGMR
+- _$s15Synchronization5MutexVy6Speech15AnalysisContextCSgGMd
+- _$s15Synchronization5MutexVy6Speech17TranscriberCommonC18MultisegmentResultVSgGMR
+- _$s15Synchronization5MutexVy6Speech17TranscriberCommonC18MultisegmentResultVSgGMd
+- _$s15Synchronization5MutexVy6Speech22LanguageDetectorWorkerCSg6worker_Sb015hasModuleLockedF6BeforetGMR
+- _$s15Synchronization5MutexVy6Speech22LanguageDetectorWorkerCSg6worker_Sb015hasModuleLockedF6BeforetGMd
+- _$s15Synchronization5MutexVySDy6Speech15AnalysisContextC11UserDataTagVs8Sendable_pGGMR
+- _$s15Synchronization5MutexVySDy6Speech15AnalysisContextC11UserDataTagVs8Sendable_pGGMd
+- _$s15Synchronization5MutexVySDy6Speech15AnalysisContextC20ContextualStringsTagVSayAF08EnhancedF6StringVGGSgGMR
+- _$s15Synchronization5MutexVySDy6Speech15AnalysisContextC20ContextualStringsTagVSayAF08EnhancedF6StringVGGSgGMd
+- _$s15Synchronization5MutexVySDy6Speech15AnalysisContextC20ContextualStringsTagVSaySSGGGMR
+- _$s15Synchronization5MutexVySDy6Speech15AnalysisContextC20ContextualStringsTagVSaySSGGGMd
+- _$s15Synchronization5MutexVySSSgGMR
+- _$s15Synchronization5MutexVySSSgGMd
+- _$s15Synchronization5MutexVySay6Speech15ContextDelegate_pSgyYbcGGMR
+- _$s15Synchronization5MutexVySay6Speech15ContextDelegate_pSgyYbcGGMd
+- _$s15Synchronization5MutexVySay6Speech22EARXPCRegistryDelegate_pSgycGGMR
+- _$s15Synchronization5MutexVySay6Speech22EARXPCRegistryDelegate_pSgycGGMd
+- _$s15Synchronization5MutexVySayScs12ContinuationVy6Speech13AnalyzerInputVs5Error_p_GGGMR
+- _$s15Synchronization5MutexVySayScs12ContinuationVy6Speech13AnalyzerInputVs5Error_p_GGGMd
+- _$s15Synchronization5MutexVySbGMR
+- _$s15Synchronization5MutexVySbGMd
+- _$sSh11subtractingyShyxGABFSo21SFEntitledAssetConfigC_Tg5
+- _$sSh11subtractingyShyxGqd__7ElementQyd__RszSTRd__lF10Foundation6LocaleV_SayAGGTg5
+- _$sSh11subtractingyShyxGqd__7ElementQyd__RszSTRd__lF6Speech17TranscriberCommonC15ReportingOptionO_SayAIGTg5
+- _$sSh11subtractingyShyxGqd__7ElementQyd__RszSTRd__lF6Speech17TranscriberCommonC19TranscriptionOptionO_SayAIGTg5
+- _$sSh11subtractingyShyxGqd__7ElementQyd__RszSTRd__lF6Speech17TranscriberCommonC19TranscriptionOptionO_SayAIGTg5Tm
+- _$sSh12intersectionyShyxGqd__7ElementQyd__RszSTRd__lF10Foundation6LocaleV_SayAGGTg5
+- _$sSo17SFEncryptedLoggerC6SpeechE5debugyySSyXKFTm
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_AiBq_xRi_zRi0_zRi__Ri0__r0_lys5NeverOxIsgyrzr_xA2KRs_r0_lIetygrzo_Tpq5s10_NativeSetVy10Foundation6LocaleVG_Tg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxt32_YKXEfU_A2Bq_xRi_zRi0_zRi__Ri0__w5_lys5k11OxIsgyrzr_xz4HRs_w19_lIetygrzo_TPq5s10_lm15Vy10Foundation6O6VG_TG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAkQIsgyrzr_Tf1nc_n
+- _$ss13_UnsafeBitsetV027_withTemporaryUninitializedB09wordCount4bodyxSi_xABq_YKXEtq_YKs5ErrorR_r0_lFZxSryAB4WordVGq_YKXEfU_AiBq_xRi_zRi0_zRi__Ri0__r0_lys5NeverOxIsgyrzr_xA2KRs_r0_lIetygrzo_Tpq5s10_NativeSetVySo13AVAudioFormatCG_Tg506$ss13_ab8V013withd36B08capacity4bodyxSi_xABq_YKXEtq_YKs5i9R_r0_lFZxt32_YKXEfU_A2Bq_xRi_zRi0_zRi__Ri0__w5_lys5k11OxIsgyrzr_xz4HRs_w19_lIetygrzo_TPq5s10_lm6VySo13nO6CG_TG5ABq_xRi_zRi0_zRi__Ri0__r0_lyAkPIsgyrzr_Tf1nc_n
+- __swift_closure_destructor.145Tm
+- __swift_closure_destructor.183Tm
+- __swift_closure_destructor.207Tm
+- __swift_closure_destructor.213Tm
+- __swift_closure_destructor.251Tm
+- __swift_closure_destructor.25Tm
+- __swift_closure_destructor.273Tm
+- __swift_closure_destructor.427Tm
+- __swift_closure_destructor.48Tm
+- __swift_closure_destructor.54Tm
+- __swift_closure_destructor.637Tm
+- __swift_closure_destructor.90Tm
+- _swift_runtimeSupportsNoncopyableTypes
+- get_type_metadata 15Synchronization5MutexVy10Foundation6LocaleVSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVy6Speech0C16RecognizerWorkerC16PerfMeasurementsVG noncopyable
+- get_type_metadata 15Synchronization5MutexVy6Speech0C16RecognizerWorkerCSg6worker_Sb015hasModuleLockedE6BeforetG noncopyable
+- get_type_metadata 15Synchronization5MutexVy6Speech15AnalysisContextCSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVy6Speech17TranscriberCommonC18MultisegmentResultVSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVy6Speech22LanguageDetectorWorkerCSg6worker_Sb015hasModuleLockedF6BeforetG noncopyable
+- get_type_metadata 15Synchronization5MutexVySDy6Speech15AnalysisContextC11UserDataTagVs8Sendable_pGG noncopyable
+- get_type_metadata 15Synchronization5MutexVySDy6Speech15AnalysisContextC20ContextualStringsTagVSayAF08EnhancedF6StringVGGSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVySDy6Speech15AnalysisContextC20ContextualStringsTagVSaySSGGG noncopyable
+- get_type_metadata 15Synchronization5MutexVySSSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVySay6Speech15ContextDelegate_pSgyYbcGG noncopyable
+- get_type_metadata 15Synchronization5MutexVySay6Speech22EARXPCRegistryDelegate_pSgycGG noncopyable
+- get_type_metadata 15Synchronization5MutexVySayScs12ContinuationVy6Speech13AnalyzerInputVs5Error_p_GGG noncopyable
+- get_type_metadata 15Synchronization5MutexVySbG noncopyable
+CStrings:
++ "\", alternatives: "
++ "\", appendedAutoPunctuation: "
++ "\", ipaPhoneSequence: \""
++ ", acousticCost: "
++ ", alternativeTokens: "
++ ", hasSpaceAfter: "
++ ", hasSpaceBefore: "
++ ", isModifiedByAutoPunctuation: "
++ ", phoneSequence: \""
++ ", prependedAutoPunctuation: "
++ ", silenceStart: "
++ ", silenceStartSamples: "
++ ", startSamples: "
++ "Speech.TranscriptionSegment(text: \""
++ "Speech.TranscriptionToken(tokenName: \""
++ "Transcriber: Final transcription "
+- "TTAW%ld: %s"
+- "TTAW: %s"
+
+```

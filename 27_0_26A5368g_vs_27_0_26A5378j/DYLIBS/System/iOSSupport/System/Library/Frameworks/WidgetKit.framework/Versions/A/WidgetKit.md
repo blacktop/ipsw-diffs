@@ -1,0 +1,232 @@
+## WidgetKit
+
+> `/System/iOSSupport/System/Library/Frameworks/WidgetKit.framework/Versions/A/WidgetKit`
+
+```diff
+
+-  __TEXT.__text: 0x413ce8
++  __TEXT.__text: 0x40caf0
+   __TEXT.__objc_methlist: 0xdb0
+-  __TEXT.__const: 0x2b118
+-  __TEXT.__cstring: 0x81bf
+-  __TEXT.__swift5_typeref: 0xd4ba
+-  __TEXT.__swift5_reflstr: 0x5961
+-  __TEXT.__swift5_assocty: 0x1fd8
+-  __TEXT.__constg_swiftt: 0xdb0c
+-  __TEXT.__swift5_fieldmd: 0x7ba4
+-  __TEXT.__swift5_builtin: 0x384
+-  __TEXT.__swift5_proto: 0x1818
+-  __TEXT.__swift5_types: 0xe38
+-  __TEXT.__swift5_capture: 0x9998
+-  __TEXT.__oslogstring: 0x31b6
++  __TEXT.__const: 0x2ab28
++  __TEXT.__cstring: 0x812f
++  __TEXT.__swift5_typeref: 0xd3f2
++  __TEXT.__swift5_reflstr: 0x5931
++  __TEXT.__swift5_assocty: 0x1f60
++  __TEXT.__constg_swiftt: 0xda68
++  __TEXT.__swift5_fieldmd: 0x7b28
++  __TEXT.__swift5_builtin: 0x370
++  __TEXT.__swift5_proto: 0x17cc
++  __TEXT.__swift5_types: 0xe28
++  __TEXT.__swift5_capture: 0x9958
++  __TEXT.__oslogstring: 0x3176
+   __TEXT.__swift5_mpenum: 0xa8
+   __TEXT.__swift_as_entry: 0x388
+   __TEXT.__swift_as_ret: 0x410
+   __TEXT.__swift_as_cont: 0x654
+   __TEXT.__swift5_protos: 0x10c
+-  __TEXT.__unwind_info: 0x6f20
+-  __TEXT.__eh_frame: 0x8a9c
++  __TEXT.__unwind_info: 0x6e68
++  __TEXT.__eh_frame: 0x897c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x7f8
++  __DATA_CONST.__const: 0x7c8
+   __DATA_CONST.__objc_classlist: 0x360
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xd8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xa48
++  __DATA_CONST.__objc_selrefs: 0xa30
+   __DATA_CONST.__objc_protorefs: 0x80
+-  __DATA_CONST.__got: 0x1888
+-  __AUTH_CONST.__const: 0x24598
++  __DATA_CONST.__got: 0x1878
++  __AUTH_CONST.__const: 0x24440
+   __AUTH_CONST.__cfstring: 0xa0
+   __AUTH_CONST.__objc_const: 0x67c8
+-  __AUTH_CONST.__auth_got: 0x2d08
++  __AUTH_CONST.__auth_got: 0x2cf8
+   __AUTH.__objc_data: 0xa78
+-  __AUTH.__data: 0x4880
+-  __DATA.__data: 0x6758
+-  __DATA.__bss: 0x148d0
++  __AUTH.__data: 0x4680
++  __DATA.__data: 0x6488
++  __DATA.__bss: 0x13740
+   __DATA.__common: 0x679
+   __DATA_DIRTY.__objc_data: 0xdf0
+-  __DATA_DIRTY.__data: 0x8f40
++  __DATA_DIRTY.__data: 0x91a0
+   __DATA_DIRTY.__common: 0x748
+-  __DATA_DIRTY.__bss: 0x1a980
++  __DATA_DIRTY.__bss: 0x1b180
+   - /System/Library/Frameworks/ActivityKit.framework/Versions/A/ActivityKit
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard
+   - /System/Library/PrivateFrameworks/BoardServices.framework/Versions/A/BoardServices
+   - /System/Library/PrivateFrameworks/ChronoServices.framework/Versions/A/ChronoServices
+-  - /System/Library/PrivateFrameworks/CollectionsInternal.framework/Versions/A/CollectionsInternal
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 19554
+-  Symbols:   7290
+-  CStrings:  1274
++  Functions: 19384
++  Symbols:   7261
++  CStrings:  1270
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH.__objc_data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+Symbols:
++ _associated conformance 9WidgetKit0A28PreferredColorSchemeModifierV7SwiftUI04ViewF0AA4BodyAdEP_AD0I0
++ _associated conformance 9WidgetKit36AllowsContentPreferredColorSchemeKeyVAA01_a11EnvironmentH0AA11CodingValueAaDP_SE
++ _associated conformance 9WidgetKit36AllowsContentPreferredColorSchemeKeyVAA01_a11EnvironmentH0AA11CodingValueAaDP_SL
++ _associated conformance 9WidgetKit36AllowsContentPreferredColorSchemeKeyVAA01_a11EnvironmentH0AA11CodingValueAaDP_Se
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV9WidgetKitE033AllowsContentPreferredColorSchemeC3Key33_1F11BB46A98EC637B55C57D61ABE947CLLV
++ _symbolic _____ 9WidgetKit0A28PreferredColorSchemeModifierV
++ _symbolic _____ 9WidgetKit36AllowsContentPreferredColorSchemeKeyV
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGGAEy_____SgGG_____G_____G_____G_____G_____G_____G_____G_____G_____GAEySo9CHSWidgetCSgGGAEy_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit015CommonArchivingg11EnvironmentF0V AA01_k10KeyWritingF0V AA14FontDefinitionP AA8MaterialV AF07Assuredg8MetadataF0V AF0gd7MarginsF0V AF0g10BackgroundF0V AF0g14ContainerShapeF0V AF0g12LayoutInsetsF0V AF0g7ScalingF0V AF017GaugeTintVibrancyF0V AF0g20PreferredColorSchemeF0V AF0g5IdiomF0V AA13OpenURLActionV
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGGAEy_____SgGG_____G_____G_____G_____G_____G_____G_____G_____G_____GAEySo9CHSWidgetCSgGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit015CommonArchivingg11EnvironmentF0V AA01_k10KeyWritingF0V AA14FontDefinitionP AA8MaterialV AF07Assuredg8MetadataF0V AF0gd7MarginsF0V AF0g10BackgroundF0V AF0g14ContainerShapeF0V AF0g12LayoutInsetsF0V AF0g7ScalingF0V AF017GaugeTintVibrancyF0V AF0g20PreferredColorSchemeF0V AF0g5IdiomF0V
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGGAEy_____SgGG_____G_____G_____G_____G_____G_____G_____G_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit015CommonArchivingg11EnvironmentF0V AA01_k10KeyWritingF0V AA14FontDefinitionP AA8MaterialV AF07Assuredg8MetadataF0V AF0gd7MarginsF0V AF0g10BackgroundF0V AF0g14ContainerShapeF0V AF0g12LayoutInsetsF0V AF0g7ScalingF0V AF017GaugeTintVibrancyF0V AF0g20PreferredColorSchemeF0V AF0g5IdiomF0V
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGGAEy_____SgGG_____G_____G_____G_____G_____G_____G_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit015CommonArchivingg11EnvironmentF0V AA01_k10KeyWritingF0V AA14FontDefinitionP AA8MaterialV AF07Assuredg8MetadataF0V AF0gd7MarginsF0V AF0g10BackgroundF0V AF0g14ContainerShapeF0V AF0g12LayoutInsetsF0V AF0g7ScalingF0V AF017GaugeTintVibrancyF0V AF0g20PreferredColorSchemeF0V
++ _symbolic _____yAAy_____y_____G_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit0g20PreferredColorSchemeF0V AA022_EnvironmentKeyWritingF0V AA0jK0O AA017_PreferenceActionF0V AA0ijkM0V
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA11ColorSchemeO
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 9WidgetKit0f20PreferredColorSchemeD0V
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA11ColorSchemeO
++ _symbolic _____y_____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGGAEy_____SgGG_____G_____G_____G_____G_____G_____G_____G_____G_____GAEySo9CHSWidgetCSgGGAEy_____GG_Qo_ 7SwiftUI4ViewPAAE22_addingBackgroundLayerQryFQO AA15ModifiedContentV AA01_c9Modifier_H0V 9WidgetKit015CommonArchivingj11EnvironmentI0V AA01_n10KeyWritingI0V AA14FontDefinitionP AA8MaterialV AI07Assuredj8MetadataI0V AI0jh7MarginsI0V AI0jeI0V AI0j14ContainerShapeI0V AI0j12LayoutInsetsI0V AI0j7ScalingI0V AI017GaugeTintVibrancyI0V AI0j20PreferredColorSchemeI0V AI0j5IdiomI0V AA13OpenURLActionV
++ _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit0g20PreferredColorSchemeF0V AA022_EnvironmentKeyWritingF0V AA0jK0O
++ _symbolic _____y_____y_____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGGAEy_____SgGG_____G_____G_____G_____G_____G_____G_____G_____G_____GAEySo9CHSWidgetCSgGGAEy_____GG_Qo__Qo_ 7SwiftUI4ViewPAAE38addingHandGestureShortcutPlatformLayerQryFQO AcAE01_d10BackgroundI0QryFQO AA15ModifiedContentV AA01_c9Modifier_L0V 9WidgetKit015CommonArchivingn11EnvironmentM0V AA01_r10KeyWritingM0V AA14FontDefinitionP AA8MaterialV AJ07Assuredn8MetadataM0V AJ0nl7MarginsM0V AJ0njM0V AJ0n14ContainerShapeM0V AJ0n12LayoutInsetsM0V AJ0n7ScalingM0V AJ017GaugeTintVibrancyM0V AJ0n20PreferredColorSchemeM0V AJ0n5IdiomM0V AA13OpenURLActionV
++ _type_layout_string So23LSRestrictionReasonMaskV
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy9WidgetKit0g20PreferredColorSchemeF0VGAA022_EnvironmentKeyWritingF0VyAA0jK0OGGAA017_PreferenceActionF0VyAA0ijkM0VGGAA0E0HPAoaVHPAiaVHPyHC_AnA0eF0HPyHCHC_AtaWHPyHCHC
++ get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE38addingHandGestureShortcutPlatformLayerQryFQOyAcAE01_d10BackgroundI0QryFQOyAA15ModifiedContentVyAGyAGyAGyAGyAGyAGyAGyAGyAGyAGyAGyAGyAA01_c9Modifier_L0Vy9WidgetKit015CommonArchivingn11EnvironmentM0VGAA01_r10KeyWritingM0VyAA14FontDefinition_pXpGGAOyAA8MaterialVSgGGAJ07Assuredn8MetadataM0VGAJ0nl7MarginsM0VGAJ0njM0VGAJ0n14ContainerShapeM0VGAJ0n12LayoutInsetsM0VGAJ0n7ScalingM0VGAJ017GaugeTintVibrancyM0VGAJ0n20PreferredColorSchemeM0VGAJ0n5IdiomM0VGAOySo9CHSWidgetCSgGGAOyAA13OpenURLActionVGG_Qo__Qo_HO
+- _associated conformance 9WidgetKit20ColorSchemePolicyKeyVAA01_a11EnvironmentF0AA11CodingValueAaDP_SE
+- _associated conformance 9WidgetKit20ColorSchemePolicyKeyVAA01_a11EnvironmentF0AA11CodingValueAaDP_SL
+- _associated conformance 9WidgetKit20ColorSchemePolicyKeyVAA01_a11EnvironmentF0AA11CodingValueAaDP_Se
+- _associated conformance 9WidgetKit25ColorSchemePolicyModifierV7SwiftUI04ViewF0AA4BodyAdEP_AD0I0
+- _associated conformance 9WidgetKit25ResolvedColorSchemePolicyV010ComparabledE033_5C416018783F5B00E6FE6B9F59DF37CDLLVSLAASQ
+- _associated conformance 9WidgetKit25ResolvedColorSchemePolicyV10CodingKeys33_5C416018783F5B00E6FE6B9F59DF37CDLLOSHAASQ
+- _associated conformance 9WidgetKit25ResolvedColorSchemePolicyV10CodingKeys33_5C416018783F5B00E6FE6B9F59DF37CDLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit25ResolvedColorSchemePolicyV10CodingKeys33_5C416018783F5B00E6FE6B9F59DF37CDLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9WidgetKit25ResolvedColorSchemePolicyVSHAASQ
+- _associated conformance 9WidgetKit25ResolvedColorSchemePolicyVSLAASQ
+- _associated conformance So15CHSColorSchemesVs10SetAlgebraSCSQ
+- _associated conformance So15CHSColorSchemesVs10SetAlgebraSCs25ExpressibleByArrayLiteral
+- _associated conformance So15CHSColorSchemesVs9OptionSetSCSY
+- _associated conformance So15CHSColorSchemesVs9OptionSetSCs0D7Algebra
+- _objc_msgSend$allowsContentPreferredColorScheme
+- _objc_msgSend$colorScheme
+- _objc_msgSend$initWithColorScheme:allowsContentPreferredColorScheme:
+- _symbolic Say_____G 7SwiftUI11ColorSchemeO
+- _symbolic Say_____G 9WidgetKit25ResolvedColorSchemePolicyV
+- _symbolic Shy_____G 9WidgetKit25ResolvedColorSchemePolicyV
+- _symbolic _____ 7SwiftUI17EnvironmentValuesV9WidgetKitE025ExplicitColorSchemePolicyC3Key33_8874794CC36AFDFD17E9B4D4D5BB5971LLV
+- _symbolic _____ 9WidgetKit20ColorSchemePolicyKeyV
+- _symbolic _____ 9WidgetKit25ColorSchemePolicyModifierV
+- _symbolic _____ 9WidgetKit25ResolvedColorSchemePolicyV
+- _symbolic _____ 9WidgetKit25ResolvedColorSchemePolicyV010ComparabledE033_5C416018783F5B00E6FE6B9F59DF37CDLLV
+- _symbolic _____ 9WidgetKit25ResolvedColorSchemePolicyV10CodingKeys33_5C416018783F5B00E6FE6B9F59DF37CDLLO
+- _symbolic _____ So15CHSColorSchemesV
+- _symbolic _____Sg 9WidgetKit25ResolvedColorSchemePolicyV
+- _symbolic _____Sg_ABt 9WidgetKit25ResolvedColorSchemePolicyV
+- _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGGAEy_____SgGG_____G_____G_____G_____G_____G_____G_____G_____G_____GAEySo9CHSWidgetCSgGGAEy_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit015CommonArchivingg11EnvironmentF0V AA01_k10KeyWritingF0V AA14FontDefinitionP AA8MaterialV AF07Assuredg8MetadataF0V AF0gd7MarginsF0V AF0g10BackgroundF0V AF0g14ContainerShapeF0V AF0g12LayoutInsetsF0V AF0g7ScalingF0V AF017GaugeTintVibrancyF0V AF017ColorSchemePolicyF0V AF0g5IdiomF0V AA13OpenURLActionV
+- _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGGAEy_____SgGG_____G_____G_____G_____G_____G_____G_____G_____G_____GAEySo9CHSWidgetCSgGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit015CommonArchivingg11EnvironmentF0V AA01_k10KeyWritingF0V AA14FontDefinitionP AA8MaterialV AF07Assuredg8MetadataF0V AF0gd7MarginsF0V AF0g10BackgroundF0V AF0g14ContainerShapeF0V AF0g12LayoutInsetsF0V AF0g7ScalingF0V AF017GaugeTintVibrancyF0V AF017ColorSchemePolicyF0V AF0g5IdiomF0V
+- _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGGAEy_____SgGG_____G_____G_____G_____G_____G_____G_____G_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit015CommonArchivingg11EnvironmentF0V AA01_k10KeyWritingF0V AA14FontDefinitionP AA8MaterialV AF07Assuredg8MetadataF0V AF0gd7MarginsF0V AF0g10BackgroundF0V AF0g14ContainerShapeF0V AF0g12LayoutInsetsF0V AF0g7ScalingF0V AF017GaugeTintVibrancyF0V AF017ColorSchemePolicyF0V AF0g5IdiomF0V
+- _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGGAEy_____SgGG_____G_____G_____G_____G_____G_____G_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit015CommonArchivingg11EnvironmentF0V AA01_k10KeyWritingF0V AA14FontDefinitionP AA8MaterialV AF07Assuredg8MetadataF0V AF0gd7MarginsF0V AF0g10BackgroundF0V AF0g14ContainerShapeF0V AF0g12LayoutInsetsF0V AF0g7ScalingF0V AF017GaugeTintVibrancyF0V AF017ColorSchemePolicyF0V
+- _symbolic _____yAAy_____y_____G_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit017ColorSchemePolicyF0V AA022_EnvironmentKeyWritingF0V AA0iJ0O AA017_PreferenceActionF0V AA09PreferredijM0V
+- _symbolic _____y_____G 19CollectionsInternal10OrderedSetV 7SwiftUI11ColorSchemeO
+- _symbolic _____y_____G 7SwiftUI11EnvironmentV 9WidgetKit25ResolvedColorSchemePolicyV
+- _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 9WidgetKit017ColorSchemePolicyD0V
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit25ResolvedColorSchemePolicyV10CodingKeys33_5C416018783F5B00E6FE6B9F59DF37CDLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit25ResolvedColorSchemePolicyV10CodingKeys33_5C416018783F5B00E6FE6B9F59DF37CDLLO
+- _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO 9WidgetKit25ResolvedColorSchemePolicyV
+- _symbolic _____y_____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGGAEy_____SgGG_____G_____G_____G_____G_____G_____G_____G_____G_____GAEySo9CHSWidgetCSgGGAEy_____GG_Qo_ 7SwiftUI4ViewPAAE22_addingBackgroundLayerQryFQO AA15ModifiedContentV AA01_c9Modifier_H0V 9WidgetKit015CommonArchivingj11EnvironmentI0V AA01_n10KeyWritingI0V AA14FontDefinitionP AA8MaterialV AI07Assuredj8MetadataI0V AI0jh7MarginsI0V AI0jeI0V AI0j14ContainerShapeI0V AI0j12LayoutInsetsI0V AI0j7ScalingI0V AI017GaugeTintVibrancyI0V AI017ColorSchemePolicyI0V AI0j5IdiomI0V AA13OpenURLActionV
+- _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit017ColorSchemePolicyF0V AA022_EnvironmentKeyWritingF0V AA0iJ0O
+- _symbolic _____y_____y_____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGGAEy_____SgGG_____G_____G_____G_____G_____G_____G_____G_____G_____GAEySo9CHSWidgetCSgGGAEy_____GG_Qo__Qo_ 7SwiftUI4ViewPAAE38addingHandGestureShortcutPlatformLayerQryFQO AcAE01_d10BackgroundI0QryFQO AA15ModifiedContentV AA01_c9Modifier_L0V 9WidgetKit015CommonArchivingn11EnvironmentM0V AA01_r10KeyWritingM0V AA14FontDefinitionP AA8MaterialV AJ07Assuredn8MetadataM0V AJ0nl7MarginsM0V AJ0njM0V AJ0n14ContainerShapeM0V AJ0n12LayoutInsetsM0V AJ0n7ScalingM0V AJ017GaugeTintVibrancyM0V AJ017ColorSchemePolicyM0V AJ0n5IdiomM0V AA13OpenURLActionV
+- _type_layout_string So15CHSColorSchemesV
+- get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy9WidgetKit017ColorSchemePolicyF0VGAA022_EnvironmentKeyWritingF0VyAA0iJ0OGGAA017_PreferenceActionF0VyAA09PreferredijM0VGGAA0E0HPAoaVHPAiaVHPyHC_AnA0eF0HPyHCHC_AtaWHPyHCHC
+- get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE38addingHandGestureShortcutPlatformLayerQryFQOyAcAE01_d10BackgroundI0QryFQOyAA15ModifiedContentVyAGyAGyAGyAGyAGyAGyAGyAGyAGyAGyAGyAGyAA01_c9Modifier_L0Vy9WidgetKit015CommonArchivingn11EnvironmentM0VGAA01_r10KeyWritingM0VyAA14FontDefinition_pXpGGAOyAA8MaterialVSgGGAJ07Assuredn8MetadataM0VGAJ0nl7MarginsM0VGAJ0njM0VGAJ0n14ContainerShapeM0VGAJ0n12LayoutInsetsM0VGAJ0n7ScalingM0VGAJ017GaugeTintVibrancyM0VGAJ017ColorSchemePolicyM0VGAJ0n5IdiomM0VGAOySo9CHSWidgetCSgGGAOyAA13OpenURLActionVGG_Qo__Qo_HO
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/API/Controls/Configuration/AppIntentControlConfiguration.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/API/Controls/Configuration/StaticControlConfiguration.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/API/Controls/XPC/ControlCenterClient.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/API/Widgets/WidgetCenter.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/API/Widgets/WidgetFamilyKey.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Environment/Environment Keys/ColorSchemeContrastKey.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Environment/Environment Keys/ColorSchemeKey.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Environment/Environment Keys/ContentSizeCategoryKey.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Environment/Environment Keys/DisplayGamutKey.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Environment/Environment Keys/LegibilityWeightKey.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Environment/WidgetEnvironment.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Live Activities/ActivityArchivedViewCollection.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/SPI/WidgetHost.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Widgets/Archiving/WidgetArchiver+Archiving.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Widgets/Archiving/WidgetArchiverAssertionTracker.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/XPC/ActivityWidgetRequest.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/XPC/Extension/WidgetExtensionXPCServer.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/XPC/Host/WidgetExtensionSessionFactory.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.VmSc3k/Sources/Chrono_UI_iosmac/WidgetKit/Xcode Previews/WidgetPreviewAgent.swift"
++ "WidgetKit/WidgetPreferredColorSchemeModifier.swift"
++ "_allowsContentPreferredColorScheme"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/API/Controls/Configuration/AppIntentControlConfiguration.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/API/Controls/Configuration/StaticControlConfiguration.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/API/Controls/XPC/ControlCenterClient.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/API/Widgets/WidgetCenter.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/API/Widgets/WidgetFamilyKey.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Environment/Environment Keys/ColorSchemeContrastKey.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Environment/Environment Keys/ColorSchemeKey.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Environment/Environment Keys/ContentSizeCategoryKey.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Environment/Environment Keys/DisplayGamutKey.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Environment/Environment Keys/LegibilityWeightKey.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Environment/WidgetEnvironment.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Live Activities/ActivityArchivedViewCollection.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/SPI/WidgetHost.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Widgets/Archiving/WidgetArchiver+Archiving.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/SPI/Widgets/Archiving/WidgetArchiverAssertionTracker.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/XPC/ActivityWidgetRequest.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/XPC/Extension/WidgetExtensionXPCServer.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/XPC/Host/WidgetExtensionSessionFactory.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.D4z4Qg/Sources/Chrono_UI_iosmac/WidgetKit/Xcode Previews/WidgetPreviewAgent.swift"
+- ": colorScheme="
+- "; allowsContentPreferredColorScheme="
+- "Getter invoked on deprecated WidgetEnvironment key: %s"
+- "Setting WidgetEnvironment.colorScheme is disallowed. Use WidgetEnvironment.colorSchemePolicy instead."
+- "WidgetKit/ColorSchemePolicyModifier.swift"
+- "colorSchemePolicy"
+
+```

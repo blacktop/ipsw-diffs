@@ -1,0 +1,224 @@
+## SiriGeoSnippetProviderPlugin
+
+> `/System/Library/FlowTools/SnippetService/ResponsePlugins/SiriGeoSnippetProviderPlugin.bundle/Contents/MacOS/SiriGeoSnippetProviderPlugin`
+
+```diff
+
+-  __TEXT.__text: 0x4b4fc
+-  __TEXT.__auth_stubs: 0x18d0
+-  __TEXT.__objc_stubs: 0xf00
+-  __TEXT.__const: 0x2e60
+-  __TEXT.__swift5_typeref: 0xd12
+-  __TEXT.__oslogstring: 0x12fc
+-  __TEXT.__cstring: 0xa18
++  __TEXT.__text: 0x4dbec
++  __TEXT.__auth_stubs: 0x1980
++  __TEXT.__objc_stubs: 0xf60
++  __TEXT.__const: 0x2ec8
++  __TEXT.__swift5_typeref: 0xd74
++  __TEXT.__oslogstring: 0x135c
++  __TEXT.__cstring: 0xa38
+   __TEXT.__constg_swiftt: 0x810
+   __TEXT.__objc_classname: 0x2d1
+-  __TEXT.__swift5_fieldmd: 0xbd0
++  __TEXT.__swift5_fieldmd: 0xbf4
+   __TEXT.__swift5_types: 0xd4
+   __TEXT.__swift_as_entry: 0x84
+   __TEXT.__swift_as_ret: 0x64
+   __TEXT.__swift_as_cont: 0x78
+-  __TEXT.__swift5_reflstr: 0xa3f
++  __TEXT.__swift5_reflstr: 0xa6f
+   __TEXT.__swift5_proto: 0x22c
+   __TEXT.__swift5_assocty: 0x138
+   __TEXT.__swift5_builtin: 0x28
+   __TEXT.__swift5_mpenum: 0x1c
+-  __TEXT.__objc_methname: 0x8af
++  __TEXT.__objc_methname: 0x90c
+   __TEXT.__objc_methtype: 0x30
+-  __TEXT.__swift5_capture: 0x40
++  __TEXT.__swift5_capture: 0x50
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0xc08
++  __TEXT.__unwind_info: 0xc28
+   __TEXT.__eh_frame: 0xab0
+-  __DATA_CONST.__const: 0x1e98
++  __DATA_CONST.__const: 0x1f10
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__auth_got: 0xc70
+-  __DATA_CONST.__got: 0x650
+-  __DATA_CONST.__auth_ptr: 0x5c8
++  __DATA_CONST.__auth_got: 0xcc8
++  __DATA_CONST.__got: 0x680
++  __DATA_CONST.__auth_ptr: 0x5d8
+   __DATA.__objc_const: 0x590
+-  __DATA.__objc_selrefs: 0x3c0
++  __DATA.__objc_selrefs: 0x3d8
+   __DATA.__objc_data: 0x1f8
+-  __DATA.__data: 0xf78
++  __DATA.__data: 0xfb0
+   __DATA.__common: 0x150
+   __DATA.__bss: 0x3f00
+   - /System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1330
+-  Symbols:   10902
+-  CStrings:  291
++  Functions: 1344
++  Symbols:   11057
++  CStrings:  296
+ 
+Sections:
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_types : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA.__objc_const : content changed
+~ __DATA.__objc_data : content changed
+~ __DATA.__bss : content changed
+Symbols:
++ $s28SiriGeoSnippetProviderPlugin15PlaceAttributesV16sequentialNumberSiSgvM.resume
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/AppIntentRepresentations.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/CATWrappers.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/EmergencyServices.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/Enums+Constants.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/Extensions.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/GeoCATModel.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/GeoCarplaySnippetHandler.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/GetCurrentLocationSnippetHandler.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/IFGeoFeatureFlags.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/Logger.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/NavigationSessionEntitySnippetHandler.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/PlaceEntityCardBuilder.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/PlaceInformSnippetHandler.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/SiriGeoSnippetProviderPlugin.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/SiriGeoSnippetProviderPlugin.swiftmodule
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/SiriGeoSnippetProviderPlugin_vers.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Sources/SiriGeo/GeoFlowDelegatePlugin/Services/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Sources/SiriGeo/SiriGeoSnippetProviderPlugin/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.CQESkd/Sources/SiriGeo/SiriGeoSnippetProviderPlugin/helper/
++ _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
++ _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
++ _$s14GeoUIFramework0A10DataModelsO017SinglePlaceInformC5ModelV04cardC0AE10Foundation0C0V_tcfC
++ _$s14GeoUIFramework0A10DataModelsO022PlaceDisambiguationMapC5ModelV07orderedG15ItemIdentifiers17showsUserLocation12tapURLStringAESaySo05MKMapJ10IdentifierCG_SbSStcfC
++ _$s14GeoUIFramework0A10DataModelsO022PlaceDisambiguationMapC5ModelV16placeDescriptors7ordered17showsUserLocation12tapURLStringAESay0A7Toolbox0E10DescriptorVG_SbSgSbSStcfC
++ _$s14GeoUIFramework0A10DataModelsO17singlePlaceInformyA2C06SinglefgC5ModelVcACmFWC
++ _$s16IntelligenceFlow14SystemResponseV0D4TypeO7ConfirmV13negativeLabelSSvg
++ _$s16IntelligenceFlow14SystemResponseV0D4TypeO7ConfirmV16affirmativeLabelSSvg
++ _$s16IntelligenceFlow14SystemResponseV0D4TypeO7ConfirmV19isDestructiveActionSbvg
++ _$s16IntelligenceFlow14SystemResponseV0D4TypeO7ConfirmVMn
++ _$s16IntelligenceFlow14SystemResponseV0D4TypeO7ConfirmVSgMR
++ _$s16IntelligenceFlow14SystemResponseV0D4TypeO7ConfirmVSgMd
++ _$s18AppIntentsServices0A20IntentPerformOptionsV19allowLiveActivities019allowsPrepareBeforeE024assistantDismissalPolicy21confirmationCondition26connectionOperationTimeout18donateToTranscript19executionIdentifier19exportedContentType15interactionMode4kind015preferredBundleY024preferNoticePresentation21requestUnlockIfNeeded18snippetEnvironmentACSb_SbSo011LNAssistantnO0VSgSo029LNActionExecutionConfirmationQ0VSdSbSg10Foundation4UUIDVSg22UniformTypeIdentifiers6UTTypeVSgSo17LNInteractionModeVSo22LNTranscriptActionKindVSSSgS2bAA18SnippetEnvironmentVSgtcfC
++ _$s23FlowToolsSnippetService0cD13UIPluginModelO12confirmationyAcA0cd12ConfirmationF0VcACmFWC
++ _$s23FlowToolsSnippetService0cD17ConfirmationModelV16affirmativeLabel08negativeH019isDestructiveAction5items11headerItems06footerO0ACSS_SSSbSayAA0cD11DisplayItemOGA2LtcfC
++ _$s28SiriGeoSnippetProviderPlugin011PlaceInformC7HandlerV6handle7payload7context0A7KitFlow6Output_p012IntelligenceM014SystemResponseV_0m5ToolsC7Service0cS7ContextVtYaFSbyXEfU2_Tf4nd_n
++ _$s28SiriGeoSnippetProviderPlugin011PlaceInformC7HandlerV6handle7payload7context0A7KitFlow6Output_p012IntelligenceM014SystemResponseV_0m5ToolsC7Service0cS7ContextVtYaFTv8_r
++ _$s28SiriGeoSnippetProviderPlugin011PlaceInformC7HandlerV6handle7payload7context0A7KitFlow6Output_p012IntelligenceM014SystemResponseV_0m5ToolsC7Service0cS7ContextVtYaFTv9_r
++ _$s28SiriGeoSnippetProviderPlugin15PlaceAttributesV16sequentialNumberSiSgvM
++ _$s28SiriGeoSnippetProviderPlugin15PlaceAttributesV16sequentialNumberSiSgvg
++ _$s28SiriGeoSnippetProviderPlugin15PlaceAttributesV16sequentialNumberSiSgvpMV
++ _$s28SiriGeoSnippetProviderPlugin15PlaceAttributesV16sequentialNumberSiSgvs
++ _$s28SiriGeoSnippetProviderPlugin15PlaceAttributesV19makeSymbolThumbnail33_66640474E5505F154D76FCA10FB9F8E5LL4name5colorSo16RFVisualPropertyCSS_So7RFColorCSgtF
++ _$s28SiriGeoSnippetProviderPlugin15PlaceAttributesV8entityId4name8category0K3Ids7address9placemark7mapItem8distance15isChainBusiness6rating17hoursTextElements11phoneNumber0oP10Identifier14muidComponents17thumbnailPhotoURL4note8parkedAt10priceRange9thumbnail20fallbackMarkerSymbol15placeDescriptor010sequentialZ0ACSS_SSSgAZSaySSGAZSo11CLPlacemarkCSgSo05MKMapP0CSg10Foundation11MeasurementVySo12NSUnitLengthCGSgSbAA06RatingG0VSgSaySo011RFFormattedW0CGSgAZSo05MKMapP10IdentifierCSgs6UInt64V4muid_SS06resultD2IDtSgA6_3URLVSgA3zC9ThumbnailOAZ0B7Toolbox0F10DescriptorVSgSiSgtcfC
++ _$s28SiriGeoSnippetProviderPlugin15PlaceAttributesV8entityId4name8category0K3Ids7address9placemark7mapItem8distance15isChainBusiness6rating17hoursTextElements11phoneNumber0oP10Identifier14muidComponents17thumbnailPhotoURL4note8parkedAt10priceRange9thumbnail20fallbackMarkerSymbol15placeDescriptor010sequentialZ0ACSS_SSSgAZSaySSGAZSo11CLPlacemarkCSgSo05MKMapP0CSg10Foundation11MeasurementVySo12NSUnitLengthCGSgSbAA06RatingG0VSgSaySo011RFFormattedW0CGSgAZSo05MKMapP10IdentifierCSgs6UInt64V4muid_SS06resultD2IDtSgA6_3URLVSgA3zC9ThumbnailOAZ0B7Toolbox0F10DescriptorVSgSiSgtcfcfA20_
++ _$s28SiriGeoSnippetProviderPlugin15PlaceAttributesV8entityId4name8category0K3Ids7address9placemark7mapItem8distance15isChainBusiness6rating17hoursTextElements11phoneNumber0oP10Identifier14muidComponents17thumbnailPhotoURL4note8parkedAt10priceRange9thumbnail20fallbackMarkerSymbol15placeDescriptor010sequentialZ0ACSS_SSSgAZSaySSGAZSo11CLPlacemarkCSgSo05MKMapP0CSg10Foundation11MeasurementVySo12NSUnitLengthCGSgSbAA06RatingG0VSgSaySo011RFFormattedW0CGSgAZSo05MKMapP10IdentifierCSgs6UInt64V4muid_SS06resultD2IDtSgA6_3URLVSgA3zC9ThumbnailOAZ0B7Toolbox0F10DescriptorVSgSiSgtcfcfA2_
++ _$s28SiriGeoSnippetProviderPlugin15PlaceAttributesVWOc
++ _$s28SiriGeoSnippetProviderPlugin9ConstantsO22deviceLocationPropertySSvau
++ _$s28SiriGeoSnippetProviderPlugin9ConstantsO22deviceLocationPropertySSvgZ
++ _$s28SiriGeoSnippetProviderPlugin9ConstantsO22deviceLocationPropertySSvpZ
++ _$s28SiriGeoSnippetProviderPlugin9ConstantsO22deviceLocationPropertySSvpZMV
++ _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCs11AnyHashableV_ypTt0g5Tf4g_n
++ _$sSSSHsWP
++ _$sSi6offset_7ToolKit10TypedValueO06EntityE0V7elementtMR
++ _$sSi6offset_7ToolKit10TypedValueO06EntityE0V7elementtMd
++ _$sSi6offset_7ToolKit10TypedValueO06EntityE0V7elementtWOb
++ _$sSiSgML
++ _$sSo13SFCardSectionCMaTm
++ _$ss11AnyHashableV13_rawHashValue4seedS2i_tF
++ _$ss11AnyHashableV2eeoiySbAB_ABtFZ
++ _$ss11AnyHashableVMn
++ _$ss11AnyHashableVN
++ _$ss11AnyHashableVSHsWP
++ _$ss11AnyHashableVWOc
++ _$ss11AnyHashableVWOh
++ _$ss11AnyHashableV_yptMR
++ _$ss11AnyHashableV_yptMd
++ _$ss11AnyHashableVyABxcSHRzlufC
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyp_Tg5
++ _$ss15_arrayForceCastySayq_GSayxGr0_lFSo9MKMapItemC_ypTg5
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMR
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMd
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyp_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5
++ _$ss23_ContiguousArrayStorageCys11AnyHashableV_yptGMR
++ _$ss23_ContiguousArrayStorageCys11AnyHashableV_yptGMd
++ _$ss23_ContiguousArrayStorageCyypGMR
++ _$ss23_ContiguousArrayStorageCyypGMd
++ _MKLaunchOptionsSearchTermsKey
++ _OBJC_CLASS_$_NSKeyedArchiver
++ __swift__destructor
++ _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
++ _objc_msgSend$cardSections
++ _objc_msgSend$urlForMapItems:options:
++ _swift_dynamicCastObjCClass
++ _symbolic Say_____G 28SiriGeoSnippetProviderPlugin15PlaceAttributesV
++ _symbolic Si6offset______7elementt 7ToolKit10TypedValueO06EntityD0V
++ _symbolic _____Sg 16IntelligenceFlow14SystemResponseV0D4TypeO7ConfirmV
++ _symbolic ______ypt s11AnyHashableV
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
++ _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
++ _symbolic _____yypG s23_ContiguousArrayStorageC
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/AppIntentRepresentations.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/CATWrappers.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/EmergencyServices.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/Enums+Constants.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/Extensions.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/GeoCATModel.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/GeoCarplaySnippetHandler.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/GetCurrentLocationSnippetHandler.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/IFGeoFeatureFlags.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/Logger.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/NavigationSessionEntitySnippetHandler.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/PlaceEntityCardBuilder.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/PlaceInformSnippetHandler.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/SiriGeoSnippetProviderPlugin.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/SiriGeoSnippetProviderPlugin.swiftmodule
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Binaries/SiriGeo/install/TempContent/Objects/SiriGeo.build/SiriGeoSnippetProviderPlugin.build/Objects-normal/arm64e/SiriGeoSnippetProviderPlugin_vers.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Sources/SiriGeo/GeoFlowDelegatePlugin/Services/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Sources/SiriGeo/SiriGeoSnippetProviderPlugin/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.S6Rkln/Sources/SiriGeo/SiriGeoSnippetProviderPlugin/helper/
+- _$s14GeoUIFramework0A10DataModelsO022PlaceDisambiguationMapC5ModelV07orderedG15ItemIdentifiers17showsUserLocation11searchQueryAESaySo05MKMapJ10IdentifierCG_SbSStcfC
+- _$s14GeoUIFramework0A10DataModelsO022PlaceDisambiguationMapC5ModelV16placeDescriptors7ordered17showsUserLocation11searchQueryAESay0A7Toolbox0E10DescriptorVG_SbSgSbSStcfC
+- _$s16IntelligenceFlow16StatementOutcomeO7successyAcA13ActionSuccessVcACmFWC
+- _$s16IntelligenceFlow33SingleQuerySearchAndResolveResultV5querySSvg
+- _$s18AppIntentsServices0A20IntentPerformOptionsV19allowLiveActivities019allowsPrepareBeforeE024assistantDismissalPolicy26connectionOperationTimeout18donateToTranscript19executionIdentifier19exportedContentType15interactionMode4kind015preferredBundleW024preferNoticePresentation21requestUnlockIfNeeded18snippetEnvironmentACSb_SbSo011LNAssistantnO0VSgSdSbSg10Foundation4UUIDVSg07UniformZ11Identifiers6UTTypeVSgSo17LNInteractionModeVSo22LNTranscriptActionKindVSSSgS2bAA18SnippetEnvironmentVSgtcfC
+- _$s28SiriGeoSnippetProviderPlugin10CardConfigV0F4TypeOwetTm
+- _$s28SiriGeoSnippetProviderPlugin10CardConfigV0F4TypeOwstTm
+- _$s28SiriGeoSnippetProviderPlugin15PlaceAttributesV8entityId4name8category0K3Ids7address9placemark7mapItem8distance15isChainBusiness6rating17hoursTextElements11phoneNumber0oP10Identifier14muidComponents17thumbnailPhotoURL4note8parkedAt10priceRange9thumbnail20fallbackMarkerSymbol15placeDescriptorACSS_SSSgAYSaySSGAYSo11CLPlacemarkCSgSo05MKMapP0CSg10Foundation11MeasurementVySo12NSUnitLengthCGSgSbAA06RatingG0VSgSaySo011RFFormattedW0CGSgAYSo05MKMapP10IdentifierCSgs6UInt64V4muid_SS06resultD2IDtSgA5_3URLVSgA3yC9ThumbnailOAY0B7Toolbox0F10DescriptorVSgtcfC
+- _$s28SiriGeoSnippetProviderPlugin15PlaceAttributesV8entityId4name8category0K3Ids7address9placemark7mapItem8distance15isChainBusiness6rating17hoursTextElements11phoneNumber0oP10Identifier14muidComponents17thumbnailPhotoURL4note8parkedAt10priceRange9thumbnail20fallbackMarkerSymbol15placeDescriptorACSS_SSSgAYSaySSGAYSo11CLPlacemarkCSgSo05MKMapP0CSg10Foundation11MeasurementVySo12NSUnitLengthCGSgSbAA06RatingG0VSgSaySo011RFFormattedW0CGSgAYSo05MKMapP10IdentifierCSgs6UInt64V4muid_SS06resultD2IDtSgA5_3URLVSgA3yC9ThumbnailOAY0B7Toolbox0F10DescriptorVSgtcfcfA2_
+CStrings:
++ "  sequentialNumber: "
++ "[CardBuilder] thumbnail=.sequentialNumber but sequentialNumber is nil; suppressing thumbnail"
++ "[PlaceInformSnippetHandler] NSKeyedArchiver failed for single-place; falling back to SFCard"
++ "archivedDataWithRootObject:requiringSecureCoding:error:"
++ "cardSections"
++ "urlForMapItems:options:"
+- "[PlaceInformSnippetHandler] rejecting SystemResponse due to unsupported outcome: %s"
+
+```

@@ -1,0 +1,103 @@
+## NewDeviceOutreachMacUI
+
+> `/System/Library/PrivateFrameworks/NewDeviceOutreachMacUI.framework/Versions/A/NewDeviceOutreachMacUI`
+
+```diff
+
+-  __TEXT.__text: 0x38314
++  __TEXT.__text: 0x38914
+   __TEXT.__objc_methlist: 0x2f4
+-  __TEXT.__const: 0x1da4
+-  __TEXT.__swift5_typeref: 0x25de
++  __TEXT.__const: 0x1dc4
++  __TEXT.__swift5_typeref: 0x263a
+   __TEXT.__cstring: 0x55d
+   __TEXT.__oslogstring: 0x8c5
+   __TEXT.__constg_swiftt: 0xba4
+   __TEXT.__swift5_reflstr: 0x532
+-  __TEXT.__swift5_fieldmd: 0x45c
++  __TEXT.__swift5_fieldmd: 0x468
+   __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_assocty: 0x140
+-  __TEXT.__swift5_capture: 0x7ac
++  __TEXT.__swift5_capture: 0x7d0
+   __TEXT.__swift5_proto: 0x58
+   __TEXT.__swift5_types: 0x58
+-  __TEXT.__swift_as_entry: 0x50
+-  __TEXT.__swift_as_cont: 0x6c
++  __TEXT.__swift_as_entry: 0x54
++  __TEXT.__swift_as_cont: 0x70
+   __TEXT.__swift_as_ret: 0x3c
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0xcd8
+-  __TEXT.__eh_frame: 0xed0
++  __TEXT.__unwind_info: 0xd00
++  __TEXT.__eh_frame: 0xf48
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x340
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __DATA_CONST.__got: 0x590
+-  __AUTH_CONST.__const: 0x1610
++  __DATA_CONST.__got: 0x5a8
++  __AUTH_CONST.__const: 0x1660
+   __AUTH_CONST.__objc_const: 0x19c8
+   __AUTH_CONST.__auth_got: 0xac0
+   __AUTH.__objc_data: 0x498
+   __AUTH.__data: 0xd88
+-  __DATA.__data: 0xce8
++  __DATA.__data: 0xd08
+   __DATA.__bss: 0xcf0
+   __DATA.__common: 0x20
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1137
+-  Symbols:   837
++  Functions: 1145
++  Symbols:   842
+   CStrings:  87
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_reflstr : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_types : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+Symbols:
++ __swift_closure_destructor.16Tm
++ _symbolic _____yAAy_____y_____y_____y_____ADG______Qo______G_____GAAyABy_____AHGAMGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE08progressF5StyleyQrqd__AA08ProgressfH0Rd__lFQO AA0iF0V AA05EmptyF0V AA08CircularifH0V AA14_PaddingLayoutV 020NewDeviceOutreachMacB012NDOAMSUIViewV 5NDOUI08NDOErrorF0V
++ _symbolic _____y_____yABy_____y_____y_____y_____AEG______Qo______G_____GAByACy_____AIGANGGG 7SwiftUI5GroupV AA19_ConditionalContentV AA08ModifiedE0V AA4ViewPAAE08progressG5StyleyQrqd__AA08ProgressgI0Rd__lFQO AA0jG0V AA05EmptyG0V AA08CircularjgI0V AA14_PaddingLayoutV 020NewDeviceOutreachMacB012NDOAMSUIViewV 5NDOUI08NDOErrorG0V
++ _symbolic _____y_____y__________GAEG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 5NDOUI12NDOErrorViewV AA14_PaddingLayoutV
++ _symbolic _____y_____y__________GAE_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V 5NDOUI12NDOErrorViewV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____yACyAAy_____y_____y_____AEG______Qo______G_____GACyAAy_____AIGANGGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA4ViewPAAE08progressG5StyleyQrqd__AA08ProgressgI0Rd__lFQO AA0jG0V AA05EmptyG0V AA08CircularjgI0V AA14_PaddingLayoutV 020NewDeviceOutreachMacB012NDOAMSUIViewV 5NDOUI08NDOErrorG0V AA010_FlexFrameN0V
++ _symbolic _____y_____y_____y_____yACyAAy_____y_____y_____AEG______Qo______G_____GACyAAy_____AIGANGGG_____G______yyt_____y_____y_____G_Qo_GSgQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA08ModifiedG0V AA5GroupV AA012_ConditionalG0V AcAE08progressC5StyleyQrqd__AA08ProgresscL0Rd__lFQO AA0mC0V AA05EmptyC0V AA08CircularmcL0V AA14_PaddingLayoutV 020NewDeviceOutreachMacB012NDOAMSUIViewV 5NDOUI08NDOErrorC0V AA010_FlexFrameQ0V AA0F4ItemV AcAE16keyboardShortcutyQrAA16KeyboardShortcutVFQO AA6ButtonV AA4TextV
++ _symbolic _____y_____y_____y_____y_____yACyAAy_____y_____y_____AEG______Qo______G_____GACyAAy_____AIGANGGG_____G______yyt_____y_____y_____G_Qo_GSgQo__Qo_ 7SwiftUI4ViewPAAE21sheetToolbarContainerQryFQO AcAE7toolbar7contentQrqd__yXE_tAA0E7ContentRd__lFQO AA08ModifiedI0V AA5GroupV AA012_ConditionalI0V AcAE08progressC5StyleyQrqd__AA08ProgresscN0Rd__lFQO AA0oC0V AA05EmptyC0V AA08CircularocN0V AA14_PaddingLayoutV 020NewDeviceOutreachMacB012NDOAMSUIViewV 5NDOUI08NDOErrorC0V AA010_FlexFrameS0V AA0E4ItemV AcAE16keyboardShortcutyQrAA16KeyboardShortcutVFQO AA6ButtonV AA4TextV
++ _symbolic _____y_____y_____y_____y_____y_____AEG______Qo______G_____GAByACy_____AIGANG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA4ViewPAAE08progressG5StyleyQrqd__AA08ProgressgI0Rd__lFQO AA0jG0V AA05EmptyG0V AA08CircularjgI0V AA14_PaddingLayoutV 020NewDeviceOutreachMacB012NDOAMSUIViewV 5NDOUI08NDOErrorG0V
++ get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE21sheetToolbarContainerQryFQOyAcAE7toolbar7contentQrqd__yXE_tAA0E7ContentRd__lFQOyAA08ModifiedI0VyAA5GroupVyAA012_ConditionalI0VyAMyAIyAcAE08progressC5StyleyQrqd__AA08ProgresscN0Rd__lFQOyAA0oC0VyAA05EmptyC0VASG_AA08CircularocN0VQo_AA14_PaddingLayoutVG020NewDeviceOutreachMacB012NDOAMSUIViewVGAMyAIy5NDOUI08NDOErrorC0VAYGA6_GGGAA010_FlexFrameS0VG_AA0E4ItemVyytAcAE16keyboardShortcutyQrAA16KeyboardShortcutVFQOyAA6ButtonVyAA4TextVG_Qo_GSgQo__Qo_HO
+- _symbolic _____yAAy_____y_____y_____y_____ADG______Qo______G_____GABy_____AHGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE08progressF5StyleyQrqd__AA08ProgressfH0Rd__lFQO AA0iF0V AA05EmptyF0V AA08CircularifH0V AA14_PaddingLayoutV 020NewDeviceOutreachMacB012NDOAMSUIViewV 5NDOUI08NDOErrorF0V
+- _symbolic _____y_____yABy_____y_____y_____y_____AEG______Qo______G_____GACy_____AIGGG 7SwiftUI5GroupV AA19_ConditionalContentV AA08ModifiedE0V AA4ViewPAAE08progressG5StyleyQrqd__AA08ProgressgI0Rd__lFQO AA0jG0V AA05EmptyG0V AA08CircularjgI0V AA14_PaddingLayoutV 020NewDeviceOutreachMacB012NDOAMSUIViewV 5NDOUI08NDOErrorG0V
+- _symbolic _____y_____y_____yACyAAy_____y_____y_____AEG______Qo______G_____GAAy_____AIGGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA4ViewPAAE08progressG5StyleyQrqd__AA08ProgressgI0Rd__lFQO AA0jG0V AA05EmptyG0V AA08CircularjgI0V AA14_PaddingLayoutV 020NewDeviceOutreachMacB012NDOAMSUIViewV 5NDOUI08NDOErrorG0V AA010_FlexFrameN0V
+- _symbolic _____y_____y_____y_____yACyAAy_____y_____y_____AEG______Qo______G_____GAAy_____AIGGG_____G______yyt_____y_____y_____G_Qo_GSgQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA08ModifiedG0V AA5GroupV AA012_ConditionalG0V AcAE08progressC5StyleyQrqd__AA08ProgresscL0Rd__lFQO AA0mC0V AA05EmptyC0V AA08CircularmcL0V AA14_PaddingLayoutV 020NewDeviceOutreachMacB012NDOAMSUIViewV 5NDOUI08NDOErrorC0V AA010_FlexFrameQ0V AA0F4ItemV AcAE16keyboardShortcutyQrAA16KeyboardShortcutVFQO AA6ButtonV AA4TextV
+- _symbolic _____y_____y_____y_____y_____yACyAAy_____y_____y_____AEG______Qo______G_____GAAy_____AIGGG_____G______yyt_____y_____y_____G_Qo_GSgQo__Qo_ 7SwiftUI4ViewPAAE21sheetToolbarContainerQryFQO AcAE7toolbar7contentQrqd__yXE_tAA0E7ContentRd__lFQO AA08ModifiedI0V AA5GroupV AA012_ConditionalI0V AcAE08progressC5StyleyQrqd__AA08ProgresscN0Rd__lFQO AA0oC0V AA05EmptyC0V AA08CircularocN0V AA14_PaddingLayoutV 020NewDeviceOutreachMacB012NDOAMSUIViewV 5NDOUI08NDOErrorC0V AA010_FlexFrameS0V AA0E4ItemV AcAE16keyboardShortcutyQrAA16KeyboardShortcutVFQO AA6ButtonV AA4TextV
+- _symbolic _____y_____y_____y_____y_____y_____AEG______Qo______G_____GACy_____AIG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA4ViewPAAE08progressG5StyleyQrqd__AA08ProgressgI0Rd__lFQO AA0jG0V AA05EmptyG0V AA08CircularjgI0V AA14_PaddingLayoutV 020NewDeviceOutreachMacB012NDOAMSUIViewV 5NDOUI08NDOErrorG0V
+- get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE21sheetToolbarContainerQryFQOyAcAE7toolbar7contentQrqd__yXE_tAA0E7ContentRd__lFQOyAA08ModifiedI0VyAA5GroupVyAA012_ConditionalI0VyAMyAIyAcAE08progressC5StyleyQrqd__AA08ProgresscN0Rd__lFQOyAA0oC0VyAA05EmptyC0VASG_AA08CircularocN0VQo_AA14_PaddingLayoutVG020NewDeviceOutreachMacB012NDOAMSUIViewVGAIy5NDOUI08NDOErrorC0VAYGGGAA010_FlexFrameS0VG_AA0E4ItemVyytAcAE16keyboardShortcutyQrAA16KeyboardShortcutVFQOyAA6ButtonVyAA4TextVG_Qo_GSgQo__Qo_HO
+
+```

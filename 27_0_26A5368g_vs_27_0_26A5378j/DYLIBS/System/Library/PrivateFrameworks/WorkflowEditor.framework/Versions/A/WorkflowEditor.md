@@ -1,0 +1,571 @@
+## WorkflowEditor
+
+> `/System/Library/PrivateFrameworks/WorkflowEditor.framework/Versions/A/WorkflowEditor`
+
+```diff
+
+-  __TEXT.__text: 0x2838ec
+-  __TEXT.__objc_methlist: 0x6e04
+-  __TEXT.__const: 0x1f240
+-  __TEXT.__swift5_typeref: 0x1fbc4
+-  __TEXT.__swift5_capture: 0x4e24
+-  __TEXT.__cstring: 0x65f8
+-  __TEXT.__constg_swiftt: 0xdd1c
+-  __TEXT.__swift5_reflstr: 0x79b0
+-  __TEXT.__swift5_fieldmd: 0x81ec
+-  __TEXT.__swift5_builtin: 0x488
+-  __TEXT.__swift5_assocty: 0x1dc8
+-  __TEXT.__swift5_proto: 0xc4c
+-  __TEXT.__swift5_types: 0x938
+-  __TEXT.__oslogstring: 0x1ed4
+-  __TEXT.__swift_as_entry: 0x208
+-  __TEXT.__swift_as_cont: 0x494
++  __TEXT.__text: 0x299270
++  __TEXT.__objc_methlist: 0x6f0c
++  __TEXT.__const: 0x20070
++  __TEXT.__swift5_typeref: 0x20442
++  __TEXT.__swift5_capture: 0x5330
++  __TEXT.__cstring: 0x6858
++  __TEXT.__constg_swiftt: 0xe4c0
++  __TEXT.__swift5_reflstr: 0x8030
++  __TEXT.__swift5_fieldmd: 0x86ec
++  __TEXT.__swift5_builtin: 0x49c
++  __TEXT.__swift5_assocty: 0x1ea8
++  __TEXT.__swift5_proto: 0xca0
++  __TEXT.__swift5_types: 0x97c
++  __TEXT.__oslogstring: 0x1f34
++  __TEXT.__swift_as_entry: 0x210
++  __TEXT.__swift_as_cont: 0x4c0
+   __TEXT.__swift5_protos: 0x74
+-  __TEXT.__swift5_mpenum: 0x8c
+-  __TEXT.__swift_as_ret: 0x1fc
++  __TEXT.__swift5_mpenum: 0x9c
++  __TEXT.__swift_as_ret: 0x204
+   __TEXT.__gcc_except_tab: 0xbc
+   __TEXT.__ustring: 0x62
+-  __TEXT.__unwind_info: 0xa698
+-  __TEXT.__eh_frame: 0x7948
++  __TEXT.__unwind_info: 0xabe8
++  __TEXT.__eh_frame: 0x7cd0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x8b8
+-  __DATA_CONST.__objc_classlist: 0x688
++  __DATA_CONST.__const: 0x9a8
++  __DATA_CONST.__objc_classlist: 0x6a8
+   __DATA_CONST.__objc_catlist: 0x178
+   __DATA_CONST.__objc_protolist: 0x470
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4a38
+-  __DATA_CONST.__objc_protorefs: 0x238
++  __DATA_CONST.__objc_selrefs: 0x4bc8
++  __DATA_CONST.__objc_protorefs: 0x240
+   __DATA_CONST.__objc_superrefs: 0x80
+   __DATA_CONST.__objc_arraydata: 0x60
+-  __DATA_CONST.__got: 0x2510
+-  __AUTH_CONST.__const: 0x15a68
++  __DATA_CONST.__got: 0x2668
++  __AUTH_CONST.__const: 0x16da8
+   __AUTH_CONST.__cfstring: 0x880
+-  __AUTH_CONST.__objc_const: 0x10030
++  __AUTH_CONST.__objc_const: 0x106b0
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_intobj: 0x18
+-  __AUTH_CONST.__auth_got: 0x3908
+-  __AUTH.__objc_data: 0xb378
+-  __AUTH.__data: 0x7728
++  __AUTH_CONST.__auth_got: 0x3ab0
++  __AUTH.__objc_data: 0xb8f0
++  __AUTH.__data: 0x7c48
+   __DATA.__objc_ivar: 0x158
+-  __DATA.__data: 0xd3f0
++  __DATA.__data: 0xd850
+   __DATA.__objc_stublist: 0x18
+-  __DATA.__bss: 0x17e48
+-  __DATA.__common: 0x358
++  __DATA.__bss: 0x189b8
++  __DATA.__common: 0x490
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 18431
+-  Symbols:   14688
+-  CStrings:  987
++  Functions: 19180
++  Symbols:   15186
++  CStrings:  1008
+ 
+Sections:
+~ __TEXT.__swift5_protos : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__objc_arraydata : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_dictobj : content changed
+~ __AUTH_CONST.__objc_intobj : content changed
+~ __DATA.__objc_stublist : content changed
+Symbols:
++ _CATransform3DScale
++ _CATransform3DTranslate
++ _CGPathCreateWithRoundedRect
++ _NSMenuDidEndTrackingNotification
++ _OBJC_CLASS_$_CAShapeLayer
++ _OBJC_CLASS_$_NSGestureRecognizer
++ _OBJC_CLASS_$_NSProcessInfo
++ _OBJC_CLASS_$_WFAppleIntelligenceAvailabilityProvider
++ _OBJC_CLASS_$_WFParameterRelationResource
++ _OBJC_CLASS_$_WFResourceWithActiveDependents
++ _OBJC_CLASS_$_WFSlotConjunctionFormatter
++ _OBJC_CLASS_$__NSViewMenuContext
++ _OBJC_METACLASS_$_WFSlotConjunctionFormatter
++ _OBJC_METACLASS_$__TtCV14WorkflowEditorP33_49A69D65FB335F93F048453230B5B4EB20TriggerSeparatorItem20TriggerSeparatorCell
++ _OBJC_METACLASS_$__TtCV14WorkflowEditorP33_98E8746DA99610573EC0300C49B48F9C16HostingViewProbe9ProbeView
++ _OUTLINED_FUNCTION_245
++ _OUTLINED_FUNCTION_246
++ _OUTLINED_FUNCTION_247
++ _OUTLINED_FUNCTION_248
++ _OUTLINED_FUNCTION_249
++ _OUTLINED_FUNCTION_250
++ _OUTLINED_FUNCTION_251
++ _OUTLINED_FUNCTION_252
++ _OUTLINED_FUNCTION_253
++ _OUTLINED_FUNCTION_254
++ _OUTLINED_FUNCTION_255
++ _OUTLINED_FUNCTION_256
++ _OUTLINED_FUNCTION_257
++ _OUTLINED_FUNCTION_258
++ _OUTLINED_FUNCTION_259
++ _OUTLINED_FUNCTION_260
++ _OUTLINED_FUNCTION_261
++ _OUTLINED_FUNCTION_262
++ _OUTLINED_FUNCTION_263
++ _OUTLINED_FUNCTION_264
++ _OUTLINED_FUNCTION_265
++ _OUTLINED_FUNCTION_266
++ _OUTLINED_FUNCTION_267
++ _OUTLINED_FUNCTION_268
++ _OUTLINED_FUNCTION_269
++ _OUTLINED_FUNCTION_270
++ _OUTLINED_FUNCTION_271
++ _OUTLINED_FUNCTION_272
++ _OUTLINED_FUNCTION_273
++ _OUTLINED_FUNCTION_274
++ _OUTLINED_FUNCTION_275
++ _OUTLINED_FUNCTION_276
++ _OUTLINED_FUNCTION_277
++ _OUTLINED_FUNCTION_278
++ _OUTLINED_FUNCTION_279
++ _OUTLINED_FUNCTION_280
++ _OUTLINED_FUNCTION_281
++ _OUTLINED_FUNCTION_282
++ _OUTLINED_FUNCTION_283
++ _OUTLINED_FUNCTION_284
++ _OUTLINED_FUNCTION_285
++ _OUTLINED_FUNCTION_286
++ _OUTLINED_FUNCTION_287
++ _OUTLINED_FUNCTION_288
++ _OUTLINED_FUNCTION_289
++ _OUTLINED_FUNCTION_290
++ _OUTLINED_FUNCTION_291
++ _OUTLINED_FUNCTION_292
++ _OUTLINED_FUNCTION_293
++ _OUTLINED_FUNCTION_294
++ _OUTLINED_FUNCTION_295
++ _OUTLINED_FUNCTION_296
++ _OUTLINED_FUNCTION_297
++ _OUTLINED_FUNCTION_298
++ _OUTLINED_FUNCTION_299
++ _OUTLINED_FUNCTION_300
++ _OUTLINED_FUNCTION_301
++ _OUTLINED_FUNCTION_302
++ _OUTLINED_FUNCTION_303
++ _OUTLINED_FUNCTION_304
++ _OUTLINED_FUNCTION_305
++ _OUTLINED_FUNCTION_306
++ _OUTLINED_FUNCTION_307
++ _OUTLINED_FUNCTION_308
++ _OUTLINED_FUNCTION_309
++ _OUTLINED_FUNCTION_310
++ _OUTLINED_FUNCTION_311
++ _OUTLINED_FUNCTION_312
++ _OUTLINED_FUNCTION_313
++ _OUTLINED_FUNCTION_314
++ _OUTLINED_FUNCTION_315
++ _OUTLINED_FUNCTION_316
++ _OUTLINED_FUNCTION_317
++ _OUTLINED_FUNCTION_318
++ _OUTLINED_FUNCTION_319
++ _OUTLINED_FUNCTION_320
++ _OUTLINED_FUNCTION_321
++ _OUTLINED_FUNCTION_322
++ _OUTLINED_FUNCTION_323
++ _OUTLINED_FUNCTION_324
++ _OUTLINED_FUNCTION_325
++ _OUTLINED_FUNCTION_326
++ _OUTLINED_FUNCTION_327
++ _OUTLINED_FUNCTION_328
++ _OUTLINED_FUNCTION_329
++ _OUTLINED_FUNCTION_330
++ _OUTLINED_FUNCTION_331
++ _OUTLINED_FUNCTION_332
++ _OUTLINED_FUNCTION_333
++ _OUTLINED_FUNCTION_334
++ _OUTLINED_FUNCTION_335
++ _OUTLINED_FUNCTION_336
++ _OUTLINED_FUNCTION_337
++ _OUTLINED_FUNCTION_338
++ _OUTLINED_FUNCTION_339
++ _OUTLINED_FUNCTION_340
++ _OUTLINED_FUNCTION_341
++ _OUTLINED_FUNCTION_342
++ _OUTLINED_FUNCTION_343
++ _OUTLINED_FUNCTION_344
++ _OUTLINED_FUNCTION_345
++ _OUTLINED_FUNCTION_346
++ _OUTLINED_FUNCTION_347
++ _OUTLINED_FUNCTION_348
++ _OUTLINED_FUNCTION_349
++ _OUTLINED_FUNCTION_350
++ _OUTLINED_FUNCTION_351
++ _OUTLINED_FUNCTION_352
++ _OUTLINED_FUNCTION_353
++ _OUTLINED_FUNCTION_354
++ _OUTLINED_FUNCTION_355
++ _OUTLINED_FUNCTION_356
++ _OUTLINED_FUNCTION_357
++ _OUTLINED_FUNCTION_358
++ _OUTLINED_FUNCTION_359
++ _OUTLINED_FUNCTION_360
++ _OUTLINED_FUNCTION_361
++ _OUTLINED_FUNCTION_362
++ _OUTLINED_FUNCTION_363
++ _OUTLINED_FUNCTION_364
++ _OUTLINED_FUNCTION_365
++ _OUTLINED_FUNCTION_366
++ _OUTLINED_FUNCTION_367
++ _OUTLINED_FUNCTION_368
++ _OUTLINED_FUNCTION_369
++ _OUTLINED_FUNCTION_370
++ _OUTLINED_FUNCTION_371
++ _OUTLINED_FUNCTION_372
++ _OUTLINED_FUNCTION_373
++ _OUTLINED_FUNCTION_374
++ _OUTLINED_FUNCTION_375
++ _OUTLINED_FUNCTION_376
++ _OUTLINED_FUNCTION_377
++ _OUTLINED_FUNCTION_378
++ _OUTLINED_FUNCTION_379
++ _OUTLINED_FUNCTION_380
++ _OUTLINED_FUNCTION_381
++ _OUTLINED_FUNCTION_382
++ _OUTLINED_FUNCTION_383
++ _OUTLINED_FUNCTION_384
++ _OUTLINED_FUNCTION_385
++ _OUTLINED_FUNCTION_386
++ _OUTLINED_FUNCTION_387
++ _OUTLINED_FUNCTION_388
++ _OUTLINED_FUNCTION_389
++ _OUTLINED_FUNCTION_390
++ _OUTLINED_FUNCTION_391
++ _OUTLINED_FUNCTION_392
++ _WFShortcutSourceDescribeAShortcut
++ __CLASS_METHODS_WFSlotConjunctionFormatter
++ __DATA_WFSlotConjunctionFormatter
++ __DATA__TtCFC14WorkflowEditor32EditorTouchDragGestureRecognizerP33_EA68CFB5EEAB785310849E90517AC09415fireContextMenuFT2atVSo7CGPoint2inCSo8NSWindow_T_L_14ObserverHolder
++ __DATA__TtCV14WorkflowEditorP33_49A69D65FB335F93F048453230B5B4EB20TriggerSeparatorItem20TriggerSeparatorCell
++ __DATA__TtCV14WorkflowEditorP33_98E8746DA99610573EC0300C49B48F9C16HostingViewProbe9ProbeView
++ __INSTANCE_METHODS_WFSlotConjunctionFormatter
++ __INSTANCE_METHODS__TtCV14WorkflowEditorP33_49A69D65FB335F93F048453230B5B4EB20TriggerSeparatorItem20TriggerSeparatorCell
++ __INSTANCE_METHODS__TtCV14WorkflowEditorP33_98E8746DA99610573EC0300C49B48F9C16HostingViewProbe9ProbeView
++ __IVARS__TtCFC14WorkflowEditor32EditorTouchDragGestureRecognizerP33_EA68CFB5EEAB785310849E90517AC09415fireContextMenuFT2atVSo7CGPoint2inCSo8NSWindow_T_L_14ObserverHolder
++ __IVARS__TtCV14WorkflowEditorP33_49A69D65FB335F93F048453230B5B4EB20TriggerSeparatorItem20TriggerSeparatorCell
++ __IVARS__TtCV14WorkflowEditorP33_98E8746DA99610573EC0300C49B48F9C16HostingViewProbe9ProbeView
++ __METACLASS_DATA_WFSlotConjunctionFormatter
++ __METACLASS_DATA__TtCFC14WorkflowEditor32EditorTouchDragGestureRecognizerP33_EA68CFB5EEAB785310849E90517AC09415fireContextMenuFT2atVSo7CGPoint2inCSo8NSWindow_T_L_14ObserverHolder
++ __METACLASS_DATA__TtCV14WorkflowEditorP33_49A69D65FB335F93F048453230B5B4EB20TriggerSeparatorItem20TriggerSeparatorCell
++ __METACLASS_DATA__TtCV14WorkflowEditorP33_98E8746DA99610573EC0300C49B48F9C16HostingViewProbe9ProbeView
++ __OBJC_PROTOCOL_REFERENCE_$_WFEnumerationSupportingParameterState
++ ___209+[WFEnumerationValuePicker presentWithParameter:state:slotIdentifier:initialCollection:variableProvider:variableUIDelegate:allowsPickingVariables:processing:presentationAnchor:cancelHandler:completionHandler:]_block_invoke
++ ___block_descriptor_48_e8_32s_e35_v32?0"<WFParameterState>"8Q16^B24l
++ ___swift_memcpy152_8
++ ___unnamed_13
++ ___unnamed_65
++ __swift_closure_destructor.125Tm
++ __swift_closure_destructor.150Tm
++ __swift_closure_destructor.152Tm
++ __swift_closure_destructor.167Tm
++ __swift_closure_destructor.266Tm
++ __swift_closure_destructor.493Tm
++ __swift_closure_destructor.60Tm
++ __swift_closure_destructor.62Tm
++ __swift_closure_destructor.75Tm
++ __swift_closure_destructor.97Tm
++ __swift_exist.box.addr_destructor.158Tm
++ _associated conformance 14WorkflowEditor0B26TouchDragGestureRecognizerC15CommittedAction33_EA68CFB5EEAB785310849E90517AC094LLOSHAASQ
++ _associated conformance 14WorkflowEditor13PCCUpsellViewV5StateOSHAASQ
++ _associated conformance 14WorkflowEditor13PCCUpsellViewV7SwiftUI0D0AA4BodyAdEP_AdE
++ _associated conformance 14WorkflowEditor16HostingViewProbe33_98E8746DA99610573EC0300C49B48F9CLLV7SwiftUI0D0AA4BodyAeFP_AeF
++ _associated conformance 14WorkflowEditor16HostingViewProbe33_98E8746DA99610573EC0300C49B48F9CLLV7SwiftUI19NSViewRepresentableAaE0D0
++ _associated conformance 14WorkflowEditor20ShortcutCreationTypeOSHAASQ
++ _associated conformance 14WorkflowEditor20TriggerSeparatorItem33_49A69D65FB335F93F048453230B5B4EBLLVs12IdentifiableAA2IDsAEP_SH
++ _associated conformance 14WorkflowEditor25ActionParameterIdentifier022_C2A3C381B62D57F59A208G9A47950B27LLVSHAASQ
++ _associated conformance 14WorkflowEditor25SummarizationShimmerLabelV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 14WorkflowEditor26ShortcutCreationEntryPointOSHAASQ
++ _associated conformance 14WorkflowEditor29DescribeModelCallResponseType022_C2A3C381B62D57F59A208I9A47950B27LLOSHAASQ
++ _kCALineCapRound
++ _keypath_get_selector_icon
++ _objc_msgSend$_popUpMenuWithContext:forView:
++ _objc_msgSend$activeDependents
++ _objc_msgSend$addTimer:forMode:
++ _objc_msgSend$anchorPoint
++ _objc_msgSend$conjoinedContentForSlots:
++ _objc_msgSend$gestureRecognizers
++ _objc_msgSend$hidesAddButton
++ _objc_msgSend$initWithLocation:source:
++ _objc_msgSend$isAppleIntelligenceEnabled
++ _objc_msgSend$isChineseRegionDevice
++ _objc_msgSend$isEqualTo:
++ _objc_msgSend$isGeneratedByDaS
++ _objc_msgSend$lineWidth
++ _objc_msgSend$moduleSummaryJoinsValueSlotsWithConjunction
++ _objc_msgSend$mouseEventWithType:location:modifierFlags:timestamp:windowNumber:context:eventNumber:clickCount:pressure:
++ _objc_msgSend$presentsCustomEditorImmediately
++ _objc_msgSend$processInfo
++ _objc_msgSend$resource
++ _objc_msgSend$runErrorCodesFromError:
++ _objc_msgSend$setAllowableMovement:
++ _objc_msgSend$setAssociatedAppBundleIdentifier:
++ _objc_msgSend$setConstant:
++ _objc_msgSend$setExcludedStates:
++ _objc_msgSend$setFillColor:
++ _objc_msgSend$setIsGeneratedByDaS:
++ _objc_msgSend$setLineCap:
++ _objc_msgSend$setLineDashPattern:
++ _objc_msgSend$setLineWidth:
++ _objc_msgSend$setMinimumPressDuration:
++ _objc_msgSend$setModifiedUsingDaS:
++ _objc_msgSend$setPath:
++ _objc_msgSend$setSource:
++ _objc_msgSend$setStrokeColor:
++ _objc_msgSend$setSubmenu:
++ _objc_msgSend$setWasAddedInSession:
++ _objc_msgSend$shared
++ _objc_msgSend$subarrayWithRange:
++ _objc_msgSend$systemUptime
++ _objc_msgSend$timerWithTimeInterval:repeats:block:
++ _objc_msgSend$trackDescribeModelCallWithBaseModel:responseType:errorCode:regionEligibility:callType:callIndex:numberOfTriggersAdded:numberOfTriggersModified:numberOfTriggersDeleted:numberOfActionsAdded:numberOfActionsModified:numberOfActionsDeleted:totalActionCount:totalTriggerCount:callLatency:inputTokenLength:inputCharacterLength:outputTokenLength:outputCharacterLength:sessionID:callSucceeded:
++ _objc_msgSend$trackShortcutCreationWithWorkflow:isAppleIntelligenceEnabled:creationType:defaultEntryPoint:userEntryPoint:numberOfUserTurns:numberOfSystemTurns:numberOfTestRuns:numberOfEditorSwitches:dasActionCount:editorActionCount:numberOfSystemQuestions:creationErrorCode:hadCreationError:galleryName:baseModel:abandonmentType:regionEligibility:testRunErrorCode:sessionAverageLatency:sessionMaxLatency:sessionID:
++ _objc_msgSend$unavailableNoticeResourceErrors
++ _objc_msgSend$unavailableResourcesWithActiveDependentsOfClass:
++ _objc_msgSend$updateAssociatedAppBundleIdentifier
++ _objc_msgSend$usesSearchableValueSlots
++ _objc_msgSend$wasAddedInSession
++ _objc_msgSend$wf_errorAsAutomation
++ _objc_msgSend$wf_withPriority:
++ _symbolic SDySS_____GIegr_ 14ShortcutsAgent0B7ToolboxV6ResultV10ToolRenderV
++ _symbolic SDy_____SiG 14WorkflowEditor25ActionParameterIdentifier022_C2A3C381B62D57F59A208G9A47950B27LLV
++ _symbolic SaySo19NSGestureRecognizerCG
++ _symbolic Say_____G 11WorkflowKit12WFNewTriggerC
++ _symbolic Say______pG So37WFEnumerationSupportingParameterStateP
++ _symbolic ScSy_____y______GG 14ShortcutsAgent0B7SessionC5EventO AA017DescribeAShortcutB0V
++ _symbolic ShySJG
++ _symbolic Shy_____G 14ShortcutsAgent12DaSErrorCodeO
++ _symbolic SiIegd_
++ _symbolic SiIegr_
++ _symbolic So12CAShapeLayerCSg
++ _symbolic So14WFWorkflowIconC
++ _symbolic _____ 14ShortcutsAgent017DescribeAShortcutB5EventO17GeneratedShortcutV
++ _symbolic _____ 14ShortcutsAgent0B7ToolboxV6ResultV
++ _symbolic _____ 14ShortcutsAgent10PickOutputO
++ _symbolic _____ 14ShortcutsAgent11PickRequestV
++ _symbolic _____ 14ShortcutsAgent16FindEntitiesToolV6OutputV
++ _symbolic _____ 14ShortcutsAgent16FindEntitiesToolV9ArgumentsV
++ _symbolic _____ 14ShortcutsAgent25DescribeAShortcutResponseV
++ _symbolic _____ 14WorkflowEditor0A8Snapshot022_C2A3C381B62D57F59A208E9A47950B27LLV
++ _symbolic _____ 14WorkflowEditor0B26TouchDragGestureRecognizerC15CommittedAction33_EA68CFB5EEAB785310849E90517AC094LLO
++ _symbolic _____ 14WorkflowEditor0B26TouchDragGestureRecognizerC15fireContextMenu33_EA68CFB5EEAB785310849E90517AC094LL2at2inySo7CGPointV_So8NSWindowCtF14ObserverHolderL_C
++ _symbolic _____ 14WorkflowEditor13PCCUpsellViewV
++ _symbolic _____ 14WorkflowEditor13PCCUpsellViewV5StateO
++ _symbolic _____ 14WorkflowEditor16HostingViewProbe33_98E8746DA99610573EC0300C49B48F9CLLV
++ _symbolic _____ 14WorkflowEditor16HostingViewProbe33_98E8746DA99610573EC0300C49B48F9CLLV0eD0C
++ _symbolic _____ 14WorkflowEditor16SampleCellActionV
++ _symbolic _____ 14WorkflowEditor20ShortcutCreationTypeO
++ _symbolic _____ 14WorkflowEditor20TriggerSeparatorItem33_49A69D65FB335F93F048453230B5B4EBLLV
++ _symbolic _____ 14WorkflowEditor20TriggerSeparatorItem33_49A69D65FB335F93F048453230B5B4EBLLV0cD4CellC
++ _symbolic _____ 14WorkflowEditor25ActionParameterIdentifier022_C2A3C381B62D57F59A208G9A47950B27LLV
++ _symbolic _____ 14WorkflowEditor25SummarizationShimmerLabelV
++ _symbolic _____ 14WorkflowEditor26ShortcutCreationEntryPointO
++ _symbolic _____ 14WorkflowEditor26WFSlotConjunctionFormatterC
++ _symbolic _____ 14WorkflowEditor29DescribeModelCallResponseType022_C2A3C381B62D57F59A208I9A47950B27LLO
++ _symbolic _____ 14WorkflowEditor29GenerativeShortcutSummaryCellC6LayoutV
++ _symbolic _____ 14WorkflowEditor31GenerativeExperienceCoordinatorC23CreationMetricsSnapshotV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV14WorkflowEditorE25ParameterLabelOverrideKey33_BEF3AF68E39DC04FCF61A9D593FD2516LLV
++ _symbolic _____Iegr_ 14ShortcutsAgent25DescribeAShortcutResponseV
++ _symbolic _____Sg 14ShortcutsAgent12DaSErrorCodeO
++ _symbolic _____Sg 14ShortcutsAgent16ModelCallMetricsV
++ _symbolic _____Sg 14WorkflowEditor0A8Snapshot022_C2A3C381B62D57F59A208E9A47950B27LLV
++ _symbolic _____SgXw 14WorkflowEditor0B26TouchDragGestureRecognizerC
++ _symbolic _____SgXwz_Xx 14WorkflowEditor0B26TouchDragGestureRecognizerC
++ _symbolic _____SgXwz_Xx 14WorkflowEditor15ActionViewModelC
++ _symbolic ______p 11WorkflowKit24WFPCCQuotaCheckingActionP
++ _symbolic _____yAAyAAyAAyAAyAAy_____y_____y_____Sg___________QPGG_____y_____SgGG_____GAOG_____yAK_____GGAOGAOG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV AA026_InsettableBackgroundShapeM0V AA7CapsuleV
++ _symbolic _____yAAyAAyAAyAAy__________GACG_____ySSSgGGAFy______pSgGGAFy_____GG 7SwiftUI15ModifiedContentV 14WorkflowEditor16ParameterRowViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV So19WFUserInterfaceHostP AD0f12PresentationL0O
++ _symbolic _____yAAyAAyAAyAAy__________GACG_____y_____SgGGAFy_____SgGGAFy______pSgGG 7SwiftUI15ModifiedContentV 14WorkflowEditor23ActionResourceErrorViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AD0eF7OptionsC AD0eF7ResultsC So19WFUserInterfaceHostP
++ _symbolic _____yAAyAAyAAyAAy_____y_____y_____Sg___________QPGG_____y_____SgGG_____GAOG_____yAK_____GGAOG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV AA026_InsettableBackgroundShapeM0V AA7CapsuleV
++ _symbolic _____yAAyAAyAAy__________GACG_____ySSSgGGAFy______pSgGG 7SwiftUI15ModifiedContentV 14WorkflowEditor16ParameterRowViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV So19WFUserInterfaceHostP
++ _symbolic _____yAAyAAyAAy__________GACG_____y_____SgGGAFy_____SgGG 7SwiftUI15ModifiedContentV 14WorkflowEditor23ActionResourceErrorViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AD0eF7OptionsC AD0eF7ResultsC
++ _symbolic _____yAAyAAyAAy_____y_____y_____Sg___________QPGG_____y_____SgGG_____GAOG_____yAK_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV AA026_InsettableBackgroundShapeM0V AA7CapsuleV
++ _symbolic _____yAAyAAyAAy_____y_____y______AAyAAy__________G_____GQPGG_____y_____SgGGAHGAHG_____yAMGG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingK0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleP0V
++ _symbolic _____yAAyAAy__________GACG_____ySSSgGG 7SwiftUI15ModifiedContentV 14WorkflowEditor16ParameterRowViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____yAAyAAy__________GACG_____y_____SgGG 7SwiftUI15ModifiedContentV 14WorkflowEditor23ActionResourceErrorViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AD0eF7OptionsC
++ _symbolic _____yAAyAAy__________G_____yAAyAD_____yAAyAAyAAy__________G_____GACGGGGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA16_OverlayModifierV AA20_MaskAlignmentEffectV AA14LinearGradientV AA01_gH0V AA07_OffsetM0V AA017_AppearanceActionJ0V
++ _symbolic _____yAAyAAy_____y_____y_____Sg___________QPGG_____y_____SgGG_____GAOG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV
++ _symbolic _____yAAyAAy_____y_____y______AAyAAy__________G_____GQPGG_____y_____SgGGAHGAHG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingK0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA14LinearGradientV AA12_FrameLayoutV AA13_OffsetEffectV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingH0V
++ _symbolic _____yAAy__________G_____yAAyAD_____yAAyAAyAAy__________G_____GACGGGGG 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA16_OverlayModifierV AA20_MaskAlignmentEffectV AA14LinearGradientV AA01_gH0V AA07_OffsetM0V
++ _symbolic _____yAAy_____y_____y_____Sg___________QPGG_____y_____SgGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV
++ _symbolic _____yAAy_____y_____y______AAyAAy__________G_____GQPGG_____y_____SgGGAHG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingK0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____ySJG s11_SetStorageC
++ _symbolic _____ySJG s23_ContiguousArrayStorageC
++ _symbolic _____ySOG s11_SetStorageC
++ _symbolic _____ySSSgG 7SwiftUI11EnvironmentV
++ _symbolic _____ySSSgG 7SwiftUI30_EnvironmentKeyWritingModifierV
++ _symbolic _____ySo16WFAccessResourceCG s11_SetStorageC
++ _symbolic _____y_So10WFWorkflowCSSSgG So8NSObjectC10FoundationE26KeyValueObservingPublisherV
++ _symbolic _____y_So10WFWorkflowCSo0A4IconCG So8NSObjectC10FoundationE26KeyValueObservingPublisherV
++ _symbolic _____y_____G 7SwiftUI13NSHostingViewC 14WorkflowEditor25SummarizationShimmerLabelV
++ _symbolic _____y_____G 7SwiftUI19_BackgroundModifierV 14WorkflowEditor16HostingViewProbe33_98E8746DA99610573EC0300C49B48F9CLLV
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G s11_SetStorageC 14ShortcutsAgent12DaSErrorCodeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14ShortcutsAgent12DaSErrorCodeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14WorkflowEditor16SampleCellActionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI5ColorV
++ _symbolic _____y_____GSg 7SwiftUI13NSHostingViewC 14WorkflowEditor25SummarizationShimmerLabelV
++ _symbolic _____y_____SaySSGG 10Foundation15ListFormatStyleV AA06StringD0V
++ _symbolic _____y_____SaySSG_G 10Foundation15ListFormatStyleV0B4TypeO AA06StringD0V
++ _symbolic _____y_____SaySSG_G 10Foundation15ListFormatStyleV5WidthO AA06StringD0V
++ _symbolic _____y_____SiG s17_NativeDictionaryV 14WorkflowEditor25ActionParameterIdentifier022_C2A3C381B62D57F59A208I9A47950B27LLV
++ _symbolic _____y______G 14ShortcutsAgent0B7SessionC5EventO AA017DescribeAShortcutB0V
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 12CoreGraphics7CGFloatV
++ _symbolic _____y______GSg 14ShortcutsAgent0B7SessionC5EventO AA017DescribeAShortcutB0V
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA14LinearGradientV AA12_FrameLayoutV
++ _symbolic _____y______y_So10WFWorkflowCSSSgGG 7Combine10PublishersO4DropV So8NSObjectC10FoundationE26KeyValueObservingPublisherV
++ _symbolic _____y______y_So10WFWorkflowCSo0A4IconCGG 7Combine10PublishersO4DropV So8NSObjectC10FoundationE26KeyValueObservingPublisherV
++ _symbolic _____y______y______y_So10WFWorkflowCSSSgGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC4DropV So8NSObjectC10FoundationE26KeyValueObservingPublisherV
++ _symbolic _____y______y______y_So10WFWorkflowCSo0A4IconCGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC4DropV So8NSObjectC10FoundationE26KeyValueObservingPublisherV
++ _symbolic _____y_____yAAyAAyAAy_____y_____y______AAyAAy__________G_____GQPGG_____y_____SgGGAHGAHG_____yAMGG_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA05TupleJ0V AA5ImageV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingQ0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleV0V
++ _symbolic _____y_____yAByABy__________G_____G_____GG 7SwiftUI20_MaskAlignmentEffectV AA15ModifiedContentV AA14LinearGradientV AA12_FrameLayoutV AA07_OffsetE0V AA05_FlexjK0V
++ _symbolic _____y_____yABy__________G_____yAByAByABy__________G_____GADGGGG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA20_MaskAlignmentEffectV AA14LinearGradientV AA01_iJ0V AA07_OffsetM0V
++ _symbolic _____y_____y_____Sg___________QPGG 7SwiftUI6HStackV AA12TupleContentV AA5ImageV AA4TextV AA6SpacerV
++ _symbolic _____y_____y______G_G ScS8IteratorV 14ShortcutsAgent0C7SessionC5EventO AC017DescribeAShortcutC0V
++ _symbolic _____y_____y___________yADy__________G_____GQPGG 7SwiftUI6HStackV AA12TupleContentV AA5ImageV AA08ModifiedE0V AA4TextV AA16_FlexFrameLayoutV AA08_PaddingK0V
++ _symbolic _____y_____y_____y_____Sg___________QPGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____y_____y_____y______AAyAAy__________G_____GQPGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingK0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____y_____y_____y_____y_____yABy__________GABy__________GGG______Qo__Qo__Qo_ 7SwiftUI4ViewPAAE14scrollDisabledyQrSbFQO AcAE0D17ContentBackgroundyQrAA10VisibilityOFQO AcAE9formStyleyQrqd__AA04FormJ0Rd__lFQO AA0K0V AA012_ConditionalF0V 14WorkflowEditor024FileTriggerConfigurationC0V AN06FolderpqC0V AN017ExternalDiskMountqC0V AA05EmptyC0V AA07GroupedkJ0V
++ _symbolic _____y_____y_____y_____y_____y_____yACy__________GACy__________GGG______Qo__Qo__Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE14scrollDisabledyQrSbFQO AeAE0fD10BackgroundyQrAA10VisibilityOFQO AeAE9formStyleyQrqd__AA04FormK0Rd__lFQO AA0L0V AA012_ConditionalD0V 14WorkflowEditor024FileTriggerConfigurationE0V AP06FolderqrE0V AP017ExternalDiskMountrE0V AA05EmptyE0V AA07GroupedlK0V AA01_H8ModifierV AP07HostingE5Probe33_98E8746DA99610573EC0300C49B48F9CLLV
++ _symbolic _____yx_____ySSSgGG 7SwiftUI15ModifiedContentV AA30_EnvironmentKeyWritingModifierV
++ _symbolic ySo6NSViewCc
++ _symbolic y_____c 14WorkflowEditor31GenerativeExperienceCoordinatorC
++ _type_layout_string 14WorkflowEditor0A8Snapshot022_C2A3C381B62D57F59A208E9A47950B27LLV
++ _type_layout_string 14WorkflowEditor13PCCUpsellViewV
++ _type_layout_string 14WorkflowEditor16HostingViewProbe33_98E8746DA99610573EC0300C49B48F9CLLV
++ _type_layout_string 14WorkflowEditor16SampleCellActionV
++ _type_layout_string 14WorkflowEditor20TriggerSeparatorItem33_49A69D65FB335F93F048453230B5B4EBLLV
++ _type_layout_string 14WorkflowEditor25ActionParameterIdentifier022_C2A3C381B62D57F59A208G9A47950B27LLV
++ _type_layout_string 14WorkflowEditor29GenerativeShortcutSummaryCellC6LayoutV
++ _type_layout_string 14WorkflowEditor31GenerativeExperienceCoordinatorC23CreationMetricsSnapshotV
++ _type_layout_string So6CGSizeV
++ get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE14scrollDisabledyQrSbFQOyAeAE0fD10BackgroundyQrAA10VisibilityOFQOyAeAE9formStyleyQrqd__AA04FormK0Rd__lFQOyAA0L0VyAA012_ConditionalD0VyAOy14WorkflowEditor024FileTriggerConfigurationE0VAP06FolderqrE0VGAOyAP017ExternalDiskMountrE0VAA05EmptyE0VGGG_AA07GroupedlK0VQo__Qo__Qo_AA01_H8ModifierVyAP07HostingE5Probe33_98E8746DA99610573EC0300C49B48F9CLLVGGAaDHPqd__AaDHD2_A5_HO_A11_AA0eY0HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4TextVAA16_FlexFrameLayoutVGAA16_OverlayModifierVyACyAhA20_MaskAlignmentEffectVyACyACyACyAA14LinearGradientVAA01_gH0VGAA07_OffsetM0VGAGGGGGGAA017_AppearanceActionJ0VGAA4ViewHPAyAA1_HPAhAA1_HPAeAA1_HPyHC_AgA0sJ0HPyHCHC_AxAA2_HPyHCHC_A_AAA2_HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyAA6HStackVyAA05TupleD0VyAA5ImageVSg_AA4TextVAA6SpacerVQPGGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA14_PaddingLayoutVGAYGAA026_InsettableBackgroundShapeM0VyAtA7CapsuleVGGAYGAYGAA4ViewHPA6_AAA8_HPA5_AAA8_HPA_AAA8_HPAzAA8_HPAwAA8_HPApAA8_HPyHC_AvA0uM0HPyHCHC_AyAA9_HPyHCHC_AyAA9_HPyHCHC_A4_AAA9_HPyHCHC_AyAA9_HPyHCHC_AyAA9_HPyHCHC
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySSSgGGAaBHPxAaBHD1__AhA0cI0HPyHCHC
++ get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE12onTapGesture5count7performQrSi_yyctFQOyAA15ModifiedContentVyAHyAHyAHyAA6HStackVyAA05TupleJ0VyAA5ImageV_AHyAHyAA4TextVAA16_FlexFrameLayoutVGAA08_PaddingQ0VGQPGGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAUGAUGAA016_BackgroundStyleV0VyA0_GG_Qo_HO
+- _OBJC_CLASS_$_CADisplayLink
+- _OBJC_CLASS_$_WFLinkEntityProvidingParameter
+- __CATEGORY_CLASS_PROPERTIES_WFContactFieldParameter_$_WorkflowEditor
+- ___unnamed_15
+- ___unnamed_62
+- __swift_closure_destructor.121Tm
+- __swift_closure_destructor.138Tm
+- __swift_closure_destructor.148Tm
+- __swift_closure_destructor.159Tm
+- __swift_closure_destructor.21Tm
+- __swift_closure_destructor.56Tm
+- __swift_closure_destructor.58Tm
+- __swift_closure_destructor.71Tm
+- __swift_closure_destructor.72Tm
+- __swift_exist.box.addr_destructor.129Tm
+- _associated conformance 14WorkflowEditor26ICloudPlusUpsellBannerViewV7SwiftUI0G0AA4BodyAdEP_AdE
+- _objc_msgSend$singleEntryIn:
+- _objc_msgSend$updateDragWithGesture:
+- _swift_willThrowTypedImpl
+- _symbolic _____ 14WorkflowEditor26ICloudPlusUpsellBannerViewV
+- _symbolic _____ 14WorkflowEditor29GenerativeShortcutSummaryCellC6Layout33_949119B89FF6098479C32F06F1D4A258LLV
+- _symbolic _____yAAyAAyAAyAAyAAy_____y_____y________________QPGG_____y_____SgGG_____GANG_____yAJ_____GGANGANG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV AA026_InsettableBackgroundShapeM0V AA7CapsuleV
+- _symbolic _____yAAyAAyAAyAAy_____y_____y________________QPGG_____y_____SgGG_____GANG_____yAJ_____GGANG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV AA026_InsettableBackgroundShapeM0V AA7CapsuleV
+- _symbolic _____yAAyAAyAAy__________GACG_____y______pSgGGAFy_____GG 7SwiftUI15ModifiedContentV 14WorkflowEditor16ParameterRowViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV So19WFUserInterfaceHostP AD0f12PresentationL0O
+- _symbolic _____yAAyAAyAAy_____y_____y________________AAy_____yAAy_____yAAyAAyAAyAE_____G_____y_____SgGGAJy_____SgGGGAJy_____SgGG______Qo_AJy_____GGQPGGAQG_____GA4_G_____yAOGG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA6SpacerV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonL0Rd__lFQO AA0N0V AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA08AnyShapeL0V AA017BorderedProminentnL0V AA0n6BorderY0V AA08_PaddingQ0V AA011_BackgroundlU0V
+- _symbolic _____yAAyAAyAAy_____y_____y________________QPGG_____y_____SgGG_____GANG_____yAJ_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV AA026_InsettableBackgroundShapeM0V AA7CapsuleV
+- _symbolic _____yAAyAAy__________GACG_____y______pSgGG 7SwiftUI15ModifiedContentV 14WorkflowEditor16ParameterRowViewV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV So19WFUserInterfaceHostP
+- _symbolic _____yAAyAAy_____y_____y________________QPGG_____y_____SgGG_____GANG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV
+- _symbolic _____yAAy_____y_____y________________QPGG_____y_____SgGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV
+- _symbolic _____y_____y________________QPGG 7SwiftUI6HStackV AA12TupleContentV AA5ImageV AA4TextV AA6SpacerV
+- _symbolic _____y_____y_____y________________QPGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA5ImageV AA4TextV AA6SpacerV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _type_layout_string 14WorkflowEditor29GenerativeShortcutSummaryCellC6Layout33_949119B89FF6098479C32F06F1D4A258LLV
+- _type_layout_string So7CGPointV
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6HStackVyAA05TupleD0VyAA5ImageV_AA4TextVAA6SpacerVACyAA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonL0Rd__lFQOyACyAA0N0VyACyACyACyAkA16_FixedSizeLayoutVGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAXyAA5ColorVSgGGGAXyAA08AnyShapeL0VSgGG_AA017BorderedProminentnL0VQo_AXyAA0n6BorderY0VGGQPGGA5_GAA08_PaddingQ0VGA24_GAA011_BackgroundlU0VyA3_GGAaNHPA26_AaNHPA25_AaNHPA22_AaNHPA21_AaNHPyHC_A5_AA0jU0HPyHCHC_A24_AAA31_HPyHCHC_A24_AAA31_HPyHCHC_A29_AAA31_HPyHCHC
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyAA6HStackVyAA05TupleD0VyAA5ImageV_AA4TextVAA6SpacerVQPGGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA14_PaddingLayoutVGAXGAA026_InsettableBackgroundShapeM0VyAsA7CapsuleVGGAXGAXGAA4ViewHPA5_AAA7_HPA4_AAA7_HPAzAA7_HPAyAA7_HPAvAA7_HPAoAA7_HPyHC_AuA0uM0HPyHCHC_AxAA8_HPyHCHC_AxAA8_HPyHCHC_A3_AAA8_HPyHCHC_AxAA8_HPyHCHC_AxAA8_HPyHCHC
+- get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE23scrollContentBackgroundyQrAA10VisibilityOFQOyAcAE9formStyleyQrqd__AA04FormI0Rd__lFQOyAA0J0VyAA012_ConditionalE0VyALy14WorkflowEditor024FileTriggerConfigurationC0VAM06FolderopC0VGALyAM017ExternalDiskMountpC0VAA05EmptyC0VGGG_AA07GroupedjI0VQo__Qo_HO
+CStrings:
++ ", suggestedQuery: "
++ "Configure %@ to enable this automation."
++ "Configure this automation."
++ "Disambiguation: Entity"
++ "Disambiguation: Multi-Select"
++ "Disambiguation: System Picker"
++ "Disambiguation: Text"
++ "Finding “%@”…"
++ "Initial State"
++ "Not requesting summarization, since it is not eligible or already populated."
++ "Optional<String>"
++ "Other"
++ "Presenting usage limits KB article from action view"
++ "Shortcut Summary"
++ "Shortcut Summary with Steps"
++ "Show Example Cell"
++ "Show Example Session"
++ "Summarizing shortcut…"
++ "Text Response"
++ "Thinking State"
++ "User Request"
++ "WorkflowEditor.ProbeView"
++ "WorkflowEditor.TriggerSeparatorCell"
++ "You’re approaching your daily Apple Intelligence limit for Shortcuts."
++ "You’ve reached your daily limit for requests to the Cloud Pro model. Using the Cloud Pro model in Shortcuts will be limited for up to 24 hours."
++ "You’ve reached your daily limit for requests to the cloud model. Sign in to iCloud to get more requests."
++ "You’ve reached your daily limit for requests to the cloud model. Upgrade to iCloud+ to get more requests."
++ "You’ve reached your daily limit for requests to the cloud model. Using the cloud model in Shortcuts will be limited for up to 24 hours."
++ "or"
++ "trigger-bottom-spacing"
++ "trigger-or-separator-"
+- "Automation is invalid"
+- "Editor Action Drag: change drag state: %s"
+- "Finding “%@“…"
+- "Upgrade"
+- "You've reached your daily limit for requests to the Cloud Pro model. Using the Cloud Pro model in Shortcuts will be limited for up to 24 hours."
+- "You've reached your daily limit for requests to the cloud model. Sign in to iCloud to get more requests."
+- "You've reached your daily limit for requests to the cloud model. Upgrade to iCloud+ to get more requests."
+- "You've reached your daily limit for requests to the cloud model. Using the cloud model in Shortcuts will be limited for up to 24 hours."
+- "bubble.left.and.bubble.right"
+- "trigger-spacing-"
+
+```

@@ -1,0 +1,153 @@
+## WorkflowUI
+
+> `/System/Library/PrivateFrameworks/WorkflowUI.framework/Versions/A/WorkflowUI`
+
+```diff
+
+-  __TEXT.__text: 0x21260c
++  __TEXT.__text: 0x2116d8
+   __TEXT.__objc_methlist: 0x1d60
+-  __TEXT.__const: 0x27060
++  __TEXT.__const: 0x27000
+   __TEXT.__dlopen_cstrs: 0xb5
+-  __TEXT.__swift5_typeref: 0x26ec6
+-  __TEXT.__cstring: 0x89c2
+-  __TEXT.__constg_swiftt: 0xa058
+-  __TEXT.__swift5_reflstr: 0x675c
++  __TEXT.__swift5_typeref: 0x26dba
++  __TEXT.__cstring: 0x8982
++  __TEXT.__constg_swiftt: 0xa060
++  __TEXT.__swift5_reflstr: 0x676c
+   __TEXT.__swift5_assocty: 0x1dc0
+-  __TEXT.__swift5_fieldmd: 0x806c
++  __TEXT.__swift5_fieldmd: 0x8078
+   __TEXT.__swift5_builtin: 0x528
+   __TEXT.__oslogstring: 0x1969
+   __TEXT.__swift5_capture: 0x2ec0
+
+   __TEXT.__swift5_mpenum: 0x288
+   __TEXT.__swift_as_ret: 0x10c
+   __TEXT.__gcc_except_tab: 0x28
+-  __TEXT.__unwind_info: 0xa020
+-  __TEXT.__eh_frame: 0x8f68
++  __TEXT.__unwind_info: 0x9ff8
++  __TEXT.__eh_frame: 0x8f18
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x70
+   __DATA_CONST.__objc_protolist: 0x2f0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2450
++  __DATA_CONST.__objc_selrefs: 0x2448
+   __DATA_CONST.__objc_protorefs: 0x178
+   __DATA_CONST.__objc_superrefs: 0x10
+   __DATA_CONST.__got: 0x1b10
+
+   __AUTH_CONST.__cfstring: 0x2a0
+   __AUTH_CONST.__objc_const: 0x7790
+   __AUTH_CONST.__objc_intobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x2968
++  __AUTH_CONST.__auth_got: 0x2950
+   __AUTH.__objc_data: 0x2960
+-  __AUTH.__data: 0x5668
++  __AUTH.__data: 0x5670
+   __DATA.__objc_ivar: 0x5c
+-  __DATA.__data: 0xab40
++  __DATA.__data: 0xab10
+   __DATA.__bss: 0x30ec0
+   __DATA.__common: 0x158
+   __DATA_DIRTY.__objc_data: 0x848
+-  __DATA_DIRTY.__data: 0x2688
++  __DATA_DIRTY.__data: 0x2680
+   __DATA_DIRTY.__bss: 0x1938
+   __DATA_DIRTY.__common: 0xb8
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 17679
+-  Symbols:   11037
+-  CStrings:  1128
++  Functions: 17664
++  Symbols:   11028
++  CStrings:  1126
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_capture : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_types : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__objc_intobj : content changed
+~ __AUTH.__objc_data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+Symbols:
++ _symbolic _____yAAy_____y_____y_____yACyAByACy______AAy_____yAAy__________y_____SgGG_Qo_AGy_____SgGG__________QPGG_AAy_____AGySiSgGGAXQPGG_ArAy_____y_____yAUG______Qo______GSgQPGG_____GA8_G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6VStackV AA7AnyViewV AA0I0PAAE10fontWeightyQrAA4FontV0K0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AP AA5ColorV 08WorkflowB0011ActionIconsI033_5D0F3421E3A1794A86EFE17D97B07D1ALLV AA6SpacerV AA4TextV AmAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA023AccessibilityAttachmentQ0V AA14_PaddingLayoutV
++ _symbolic _____y___________y_____yACy_____yACy___________y_____yAGy__________y_____SgGG_Qo_AIy_____SgGG__________QPGG_AGy_____AIySiSgGGAZQPGG_AtGy_____y_____yAWG______Qo______GSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA6VStackV AA0F0V AA03AnyD0V AA08ModifiedI0V AA0D0PAAE10fontWeightyQrAA4FontV0N0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AV AA5ColorV 08WorkflowB0011ActionIconsD033_5D0F3421E3A1794A86EFE17D97B07D1ALLV AA6SpacerV AA4TextV AsAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA023AccessibilityAttachmentT0V
++ _symbolic _____y_____y_____yAByAAyABy___________y_____yAEy__________y_____SgGG_Qo_AGy_____SgGG__________QPGG_AEy_____AGySiSgGGAXQPGG_ArEy_____y_____yAUG______Qo______GSgQPGG 7SwiftUI6HStackV AA12TupleContentV AA6VStackV AA7AnyViewV AA08ModifiedE0V AA0H0PAAE10fontWeightyQrAA4FontV0K0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AP AA5ColorV 08WorkflowB0011ActionIconsH033_5D0F3421E3A1794A86EFE17D97B07D1ALLV AA6SpacerV AA4TextV AmAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA023AccessibilityAttachmentQ0V
++ _symbolic _____y_____y_____yABy___________y_____yAEy__________y_____SgGG_Qo_AGy_____SgGG__________QPGG_AEy_____AGySiSgGGAXQPGG_ArEy_____y_____yAUG______Qo______GSgt 7SwiftUI6VStackV AA12TupleContentV AA6HStackV AA7AnyViewV AA08ModifiedE0V AA0H0PAAE10fontWeightyQrAA4FontV0K0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AP AA5ColorV 08WorkflowB0011ActionIconsH033_5D0F3421E3A1794A86EFE17D97B07D1ALLV AA6SpacerV AA4TextV AmAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA023AccessibilityAttachmentQ0V
++ _symbolic _____y_____y_____y_____G______Qo______GSg 7SwiftUI15ModifiedContentV AA4ViewPAAE11toggleStyleyQrqd__AA06ToggleG0Rd__lFQO AA0H0V AA4TextV AA06SwitchhG0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____y_____yACyAByACy______AAy_____yAAy__________y_____SgGG_Qo_AGy_____SgGG__________QPGG_AAy_____AGySiSgGGAXQPGG_ArAy_____y_____yAUG______Qo______GSgQPGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6VStackV AA7AnyViewV AA0I0PAAE10fontWeightyQrAA4FontV0K0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AP AA5ColorV 08WorkflowB0011ActionIconsI033_5D0F3421E3A1794A86EFE17D97B07D1ALLV AA6SpacerV AA4TextV AmAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA023AccessibilityAttachmentQ0V AA14_PaddingLayoutV
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA05TupleD0VyAA6VStackVyAGyAEyAGyAA7AnyViewV_ACyAA0I0PAAE10fontWeightyQrAA4FontV0K0VSgFQOyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAPSgGG_Qo_AWyAA5ColorVSgGG08WorkflowB0011ActionIconsI033_5D0F3421E3A1794A86EFE17D97B07D1ALLVAA6SpacerVQPGG_ACyAA4TextVAWySiSgGGA17_QPGG_A10_ACyAmAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQOyAA6ToggleVyA14_G_AA17SwitchToggleStyleVQo_AA023AccessibilityAttachmentQ0VGSgQPGGAA14_PaddingLayoutVGA35_GAaLHPA36_AaLHPA33_AaLHPyHC_A35_AA0iQ0HPyHCHC_A35_AAA38_HPyHCHC
+- _OUTLINED_FUNCTION_182
+- _OUTLINED_FUNCTION_183
+- _OUTLINED_FUNCTION_184
+- _OUTLINED_FUNCTION_185
+- _OUTLINED_FUNCTION_186
+- _OUTLINED_FUNCTION_187
+- _OUTLINED_FUNCTION_188
+- _OUTLINED_FUNCTION_189
+- _OUTLINED_FUNCTION_190
+- _OUTLINED_FUNCTION_191
+- _OUTLINED_FUNCTION_192
+- _OUTLINED_FUNCTION_193
+- _OUTLINED_FUNCTION_194
+- _OUTLINED_FUNCTION_195
+- _OUTLINED_FUNCTION_196
+- _OUTLINED_FUNCTION_197
+- _objc_msgSend$quinaryLabelColor
+- _swift_willThrowTypedImpl
+- _symbolic SS_So28WFDeletionAuthorizationStateCt
+- _symbolic So17WFContentLocationC_So18WFSmartPromptStateCt
+- _symbolic _____yAAy_____y_____y_____yACyAByACy______AAy_____yAAy__________y_____SgGG_Qo_AGy_____SgGG__________QPGG_AAy_____AGySiSgGGAXQPGG_ArAy_____y_____yAUG______Qo______GQPGG_____GA7_G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6VStackV AA7AnyViewV AA0I0PAAE10fontWeightyQrAA4FontV0K0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AP AA5ColorV 08WorkflowB0011ActionIconsI033_5D0F3421E3A1794A86EFE17D97B07D1ALLV AA6SpacerV AA4TextV AmAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA023AccessibilityAttachmentQ0V AA14_PaddingLayoutV
+- _symbolic _____ySSSo28WFDeletionAuthorizationStateCG s18_DictionaryStorageC
+- _symbolic _____ySS_So28WFDeletionAuthorizationStateCtG s23_ContiguousArrayStorageC
+- _symbolic _____ySo17WFContentLocationCSo18WFSmartPromptStateCG s18_DictionaryStorageC
+- _symbolic _____ySo17WFContentLocationC_So18WFSmartPromptStateCtG s23_ContiguousArrayStorageC
+- _symbolic _____y___________y_____yACy_____yACy___________y_____yAGy__________y_____SgGG_Qo_AIy_____SgGG__________QPGG_AGy_____AIySiSgGGAZQPGG_AtGy_____y_____yAWG______Qo______GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA6VStackV AA0F0V AA03AnyD0V AA08ModifiedI0V AA0D0PAAE10fontWeightyQrAA4FontV0N0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AV AA5ColorV 08WorkflowB0011ActionIconsD033_5D0F3421E3A1794A86EFE17D97B07D1ALLV AA6SpacerV AA4TextV AsAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA023AccessibilityAttachmentT0V
+- _symbolic _____y_____y_____yAByAAyABy___________y_____yAEy__________y_____SgGG_Qo_AGy_____SgGG__________QPGG_AEy_____AGySiSgGGAXQPGG_ArEy_____y_____yAUG______Qo______GQPGG 7SwiftUI6HStackV AA12TupleContentV AA6VStackV AA7AnyViewV AA08ModifiedE0V AA0H0PAAE10fontWeightyQrAA4FontV0K0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AP AA5ColorV 08WorkflowB0011ActionIconsH033_5D0F3421E3A1794A86EFE17D97B07D1ALLV AA6SpacerV AA4TextV AmAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA023AccessibilityAttachmentQ0V
+- _symbolic _____y_____y_____yABy___________y_____yAEy__________y_____SgGG_Qo_AGy_____SgGG__________QPGG_AEy_____AGySiSgGGAXQPGG_ArEy_____y_____yAUG______Qo______Gt 7SwiftUI6VStackV AA12TupleContentV AA6HStackV AA7AnyViewV AA08ModifiedE0V AA0H0PAAE10fontWeightyQrAA4FontV0K0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AP AA5ColorV 08WorkflowB0011ActionIconsH033_5D0F3421E3A1794A86EFE17D97B07D1ALLV AA6SpacerV AA4TextV AmAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA023AccessibilityAttachmentQ0V
+- _symbolic _____y_____y_____y_____yACyAByACy______AAy_____yAAy__________y_____SgGG_Qo_AGy_____SgGG__________QPGG_AAy_____AGySiSgGGAXQPGG_ArAy_____y_____yAUG______Qo______GQPGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA6VStackV AA7AnyViewV AA0I0PAAE10fontWeightyQrAA4FontV0K0VSgFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AP AA5ColorV 08WorkflowB0011ActionIconsI033_5D0F3421E3A1794A86EFE17D97B07D1ALLV AA6SpacerV AA4TextV AmAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQO AA6ToggleV AA17SwitchToggleStyleV AA023AccessibilityAttachmentQ0V AA14_PaddingLayoutV
+- get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA05TupleD0VyAA6VStackVyAGyAEyAGyAA7AnyViewV_ACyAA0I0PAAE10fontWeightyQrAA4FontV0K0VSgFQOyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAPSgGG_Qo_AWyAA5ColorVSgGG08WorkflowB0011ActionIconsI033_5D0F3421E3A1794A86EFE17D97B07D1ALLVAA6SpacerVQPGG_ACyAA4TextVAWySiSgGGA17_QPGG_A10_ACyAmAE11toggleStyleyQrqd__AA11ToggleStyleRd__lFQOyAA6ToggleVyA14_G_AA17SwitchToggleStyleVQo_AA023AccessibilityAttachmentQ0VGQPGGAA14_PaddingLayoutVGA34_GAaLHPA35_AaLHPA32_AaLHPyHC_A34_AA0iQ0HPyHCHC_A34_AAA37_HPyHCHC
+CStrings:
++ "Change how you answered this shortcut’s import questions."
++ "Resetting this shortcut’s privileges will not modify its actions or your data."
++ "This shortcut cannot be opened because your Shortcuts security settings don’t allow untrusted shortcuts."
++ "“%@” Can’t Be Opened"
+- "Change how you answered this shortcut's import questions."
+- "Duplicate values for key: '"
+- "Resetting this shortcut's privileges will not modify its actions or your data."
+- "Swift/NativeDictionary.swift"
+- "This shortcut cannot be opened because your Shortcuts security settings don't allow untrusted shortcuts."
+- "“%@” Can't Be Opened"
+
+```

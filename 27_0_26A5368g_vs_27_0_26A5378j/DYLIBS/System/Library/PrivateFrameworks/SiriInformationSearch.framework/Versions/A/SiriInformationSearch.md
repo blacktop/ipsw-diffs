@@ -1,0 +1,93 @@
+## SiriInformationSearch
+
+> `/System/Library/PrivateFrameworks/SiriInformationSearch.framework/Versions/A/SiriInformationSearch`
+
+```diff
+
+-  __TEXT.__text: 0x26957c
++  __TEXT.__text: 0x26944c
+   __TEXT.__objc_methlist: 0x7dc
+   __TEXT.__const: 0xaabc
+   __TEXT.__cstring: 0x68e1
+-  __TEXT.__swift5_typeref: 0x4124
++  __TEXT.__swift5_typeref: 0x411e
+   __TEXT.__swift5_fieldmd: 0x4338
+   __TEXT.__constg_swiftt: 0x5fd0
+   __TEXT.__swift5_builtin: 0x168
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 8481
+-  Symbols:   22492
++  Functions: 8480
++  Symbols:   22490
+   CStrings:  1801
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__const : content changed
+~ __TEXT.__swift5_fieldmd : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_types : content changed
+~ __TEXT.__swift5_capture : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__unwind_info : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+~ __DATA_DIRTY.__data : content changed
+Symbols:
+- _swift_runtimeSupportsNoncopyableTypes
+- get_type_metadata 15Synchronization5MutexVy13SiriUtilities15InteractionTypeOSgG noncopyable
+Functions:
+- sub_28a765708
+~ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFs12LazySequenceVySay12SiriNLUTypes0F27_Nlu_External_UserDialogActVGG_Say0F8Ontology7UsoTaskCGTg504$s12f13NLUTypes0A23_h1_i1_j58ParseV0A17InformationSearchE15firstRecipeTask0A8Ontology03n28K0CSgyKFSayAHGAA0a1_c1_d1_E9kL7VKXEfU_Tf1cn_n : 836 -> 824
+~ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFSay12SiriNLUTypes0D23_Nlu_External_UserParseVG_Say0D8Ontology7UsoTaskCGTg504$s21d121InformationSearch31PlayRadioStationPreflightClientC6handle06pommesC7RequestAA06PommescG6ResultOAA0lcK0V_tFSay0A8Ontology7kl18CG0A8NLUTypes0A23_f1_g1_hI7VKXEfU_Tf1cn_n : 836 -> 824
+~ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFSaySo18SEMSpanMatchResultCG_Say21SiriInformationSearch010VocabularyF0CGTg506$sSo14d10MatcherC21ghi16E6searchySayAC16jf8CGSo0A10E23QueryCKFAGSo0aiH0CXEfU_Tf1cn_n : 844 -> 840
+~ _$ss17_NativeDictionaryV6filteryAByxq_GSbx3key_q_5valuet_tqd__YKXEqd__YKs5ErrorRd__lFSS_21SiriInformationSearch7AppDataVs5NeverOTg504$s21gh36Search40LaunchServicesSatisfyingAppsk20ProviderC18uninstallJ81Update33_BF5A3DB9AA12695C8C05F2CCE95F7E87LL9bundleIdsySaySSG_tFSbSS_AA0kH0VtXEfU_SaySSGTf1cn_n : 756 -> 704
+~ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFSay12SiriNLUTypes0D23_Nlu_External_UserParseVG_Say0D8Ontology7UsoTaskCGTg504$s21d124InformationSearch34PlayRestOfThisAlbumPreflightClientC6handle06pommesC7RequestAA06PommescI6ResultOAA0ncM0V_tFSay0A8Ontology7kl18CG0A8NLUTypes0A23_f1_g1_hI7VKXEfU_Tf1cn_n : 836 -> 824
+~ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFs12LazySequenceVySay12SiriNLUTypes0F27_Nlu_External_UserDialogActVGG_Say0F8Ontology7UsoTaskCGTg504$s12f13NLUTypes0A23_h1_i1_j56ParseV0A17InformationSearchE13firstCallTask0A8Ontology03n28K0CSgyKFSayAHGAA0a1_c1_d1_E9kL7VKXEfU_Tf1cn_n : 844 -> 832
+~ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFSay12SiriOntology26UsoEntity_common_PhoneCallCG_SayAF16CodeGenListEntryCyAF0fg1_H6_AgentCGGTg504$s21d19InformationSearch26j87ContactPreflightClientC03hasE033_A96B6028336D894CC4C710B6F2DF76D6LLySbSay0A8Ontology022fg1_h1_i12D0CGFSayAF16klmn12CyAF0st1_U6_O10CGGAHXEfU_Tf1cn_n : 848 -> 836
+~ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFSaySo12NSDictionaryCG_AHTg50151$s21SiriInformationSearch19AppInfoDataProviderC010equivalentdE033_14FFC2B3951240EF1ED99838A8C50046LL4span10PegasusAPI013Apple_Parsec_a9_V2alpha_dE0VSg0s42NLUTypes0A18_Nlu_External_SpanV_tKFSaySo12D10CGAOXEfU2_Tf1cn_n : 1392 -> 1388
+~ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFSay12SiriOntology26UsoEntity_common_MediaItemCG_AITg506$sSa21d30InformationSearch0A8Ontology26fg1_h1_iJ90CRszlE7findAll7options4withSayADGSayAA05AudioE6IntentC16IterationOptionsOG_SbADctFAhDXEfU_Say0dM6Search0wfY0C16IterationOptionsOGAHSbIeggd_Tf1cn_n : 816 -> 804
+~ _$s21SiriInformationSearch9SAMSearchC6search5query8rawQuery14clientEntities7contextAA14PommesResponseCSS_SSSay10PegasusAPI013Apple_Parsec_A21_Context_ClientEntityVGAA0dR0VtYaKFTY2_ : 920 -> 932
+~ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF21SiriInformationSearch18AudioItemCandidateC_Tg504$s21gh8Search11j63RankerC4rank5query15clientCandidate06serverI00H7SignalsSayAA0d4K86I0CGAA0D5QueryC_A2K10PegasusAPI013Apple_Parsec_a15_V2alpha_ClientK0VSgtFSbAJ_AJtXEfU2_Tf1nnnnc_n : 960 -> 964
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF12SiriOntology021UsoEntity_common_UserI0C_Tg5 : 396 -> 392
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF12SiriOntology016UsoEntity_uso_NoI0C_Tg5 : 396 -> 392
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF12SiriOntology29UsoEntity_common_EventTriggerC_Tg5 : 396 -> 392
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF12SiriOntology26UsoEntity_common_PhoneCallC_Tg5 : 396 -> 392
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF12SiriOntology20UsoEntity_common_AppC_Tg5 : 396 -> 392
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF12SiriOntology26UsoEntity_common_MediaItemC_Tg5 : 396 -> 392
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF12SiriOntology29UsoEntity_common_RadioStationC_Tg5 : 396 -> 392
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tFSo8NSObject_So15SEMEntityFilterp_Tg5 : 408 -> 404
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF21SiriInformationSearch10ExperienceC_Tg5 : 396 -> 392
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF21SiriInformationSearch18AudioItemCandidateC_Tg5 : 396 -> 392
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF21SiriInformationSearch11AudioResultC_Tg5 : 396 -> 392
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF21SiriInformationSearch12PommesResultC_Tg5 : 396 -> 392
+~ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tFSo15SAMPMediaEntityC_Tg5 : 396 -> 392
+~ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFSay10PegasusAPI026Apple_Parsec_Siri_V2alpha_hD8ResponseV0H11InstructionVG_Say0H17InformationSearch10ExperienceCGTg5 : 860 -> 840
+~ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFSaySo8INPersonCG_AHTg50128$s21SiriInformationSearch27ContactProfileSliceResolverC14searchContacts33_93CEC19A51F00F19257E9CB35202CC6DLL12contactQuerySaySo8D37CGSgSay0A9Inference0dR0VG_tFAiHXEfU0_Tf1cn_n : 848 -> 844
+~ _$s21SiriInformationSearch12PegasusProxyC16addGroundingInfo33_0480700014A31CC7DAB3D876F233BC35LL2to3fory0D3API013Apple_Parsec_a9_V2alpha_aD7RequestVz_AA06PommescU0VtF : 1144 -> 1124
+~ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSS_Tg5 : 1032 -> 1020
++ _$ss10_NativeSetV12intersectionyAByxGADFSS_Tg5
+- _$ss10_NativeSetV12intersectionyAByxGADFSS_Tg5
+
+```

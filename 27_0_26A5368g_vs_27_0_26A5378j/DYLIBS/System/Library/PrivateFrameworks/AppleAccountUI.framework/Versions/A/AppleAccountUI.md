@@ -1,0 +1,692 @@
+## AppleAccountUI
+
+> `/System/Library/PrivateFrameworks/AppleAccountUI.framework/Versions/A/AppleAccountUI`
+
+```diff
+
+-  __TEXT.__text: 0x4f928
+-  __TEXT.__objc_methlist: 0x77c
+-  __TEXT.__const: 0x4794
+-  __TEXT.__gcc_except_tab: 0x18
+-  __TEXT.__oslogstring: 0x10ad
+-  __TEXT.__cstring: 0x1867
++  __TEXT.__text: 0x601c4
++  __TEXT.__objc_methlist: 0xa74
++  __TEXT.__const: 0x55b4
++  __TEXT.__gcc_except_tab: 0x70
++  __TEXT.__oslogstring: 0x129d
++  __TEXT.__cstring: 0x2150
+   __TEXT.__dlopen_cstrs: 0x48
+-  __TEXT.__swift5_typeref: 0x519a
+-  __TEXT.__swift5_reflstr: 0xe00
+-  __TEXT.__swift5_assocty: 0x4f0
+-  __TEXT.__constg_swiftt: 0x1d1c
+-  __TEXT.__swift5_fieldmd: 0xee0
+-  __TEXT.__swift5_proto: 0x1b0
+-  __TEXT.__swift5_types: 0x13c
++  __TEXT.__swift5_typeref: 0x688c
++  __TEXT.__swift5_reflstr: 0x1100
++  __TEXT.__swift5_assocty: 0x608
++  __TEXT.__constg_swiftt: 0x21c8
++  __TEXT.__swift5_fieldmd: 0x11c4
++  __TEXT.__swift5_proto: 0x1f8
++  __TEXT.__swift5_types: 0x178
+   __TEXT.__swift5_protos: 0x34
+-  __TEXT.__swift5_capture: 0x550
+-  __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift_as_entry: 0x78
+-  __TEXT.__swift_as_ret: 0x68
+-  __TEXT.__swift_as_cont: 0xc8
++  __TEXT.__swift5_builtin: 0xc8
++  __TEXT.__swift5_capture: 0x634
++  __TEXT.__swift_as_entry: 0x90
++  __TEXT.__swift_as_ret: 0x7c
++  __TEXT.__swift_as_cont: 0xe4
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0x18f0
+-  __TEXT.__eh_frame: 0x1090
++  __TEXT.__unwind_info: 0x1de8
++  __TEXT.__eh_frame: 0x1550
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x3e8
+-  __DATA_CONST.__objc_classlist: 0xe8
+-  __DATA_CONST.__objc_protolist: 0x60
++  __DATA_CONST.__const: 0x3f8
++  __DATA_CONST.__objc_classlist: 0x110
++  __DATA_CONST.__objc_catlist: 0x8
++  __DATA_CONST.__objc_protolist: 0x68
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x850
++  __DATA_CONST.__objc_selrefs: 0xc28
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA_CONST.__got: 0x470
+-  __AUTH_CONST.__const: 0x29b0
+-  __AUTH_CONST.__cfstring: 0x5e0
+-  __AUTH_CONST.__objc_const: 0x2380
+-  __AUTH_CONST.__auth_got: 0xf10
+-  __AUTH.__objc_data: 0xc20
+-  __AUTH.__data: 0x1768
+-  __DATA.__objc_ivar: 0x1c
+-  __DATA.__data: 0x1240
+-  __DATA.__bss: 0x3d90
+-  __DATA.__common: 0x460
++  __DATA_CONST.__objc_superrefs: 0x10
++  __DATA_CONST.__objc_arraydata: 0xb0
++  __DATA_CONST.__got: 0x640
++  __AUTH_CONST.__const: 0x3030
++  __AUTH_CONST.__cfstring: 0x10e0
++  __AUTH_CONST.__objc_const: 0x2a00
++  __AUTH_CONST.__objc_arrayobj: 0x48
++  __AUTH_CONST.__auth_got: 0x1250
++  __AUTH.__objc_data: 0xe18
++  __AUTH.__data: 0x1bf0
++  __DATA.__objc_ivar: 0x40
++  __DATA.__data: 0x1690
++  __DATA.__bss: 0x4838
++  __DATA.__common: 0x4a8
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__bss: 0x20
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+   - /System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
++  - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+   - /System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
++  - /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+   - /System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+   - /System/Library/Frameworks/TipKit.framework/Versions/A/TipKit
+   - /System/Library/PrivateFrameworks/AAAFoundation.framework/Versions/A/AAAFoundation
+
+   - /System/Library/PrivateFrameworks/AppleAccount.framework/Versions/A/AppleAccount
+   - /System/Library/PrivateFrameworks/AppleIDSSOAuthentication.framework/Versions/A/AppleIDSSOAuthentication
+   - /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
++  - /System/Library/PrivateFrameworks/AuthKitUI.framework/Versions/A/AuthKitUI
+   - /System/Library/PrivateFrameworks/ContactsFoundation.framework/Versions/A/ContactsFoundation
+   - /System/Library/PrivateFrameworks/ContactsUICore.framework/Versions/A/ContactsUICore
+   - /System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/CoreCDP
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2450
+-  Symbols:   1531
+-  CStrings:  287
++  Functions: 2880
++  Symbols:   1969
++  CStrings:  502
+ 
+Sections:
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+Symbols:
++ +[AAUIMicaPlayer boolFromDictionary:key:defaultValue:]
++ +[AAUIMicaPlayer rootDictForPath:]
++ +[AAUIMicaPlayer updatePublishedObjects:toReferenceLayersInTree:ratherThanLayersInTree:]
++ -[AAUIMicaPlayer .cxx_destruct]
++ -[AAUIMicaPlayer addToLayer:onTop:gravity:]
++ -[AAUIMicaPlayer copyWithZone:]
++ -[AAUIMicaPlayer dealloc]
++ -[AAUIMicaPlayer delegate]
++ -[AAUIMicaPlayer documentDuration]
++ -[AAUIMicaPlayer initWithFileName:retinaScale:]
++ -[AAUIMicaPlayer initWithPath:retinaScale:]
++ -[AAUIMicaPlayer initWithPath:retinaScale:rootLayer:publishedObjects:]
++ -[AAUIMicaPlayer isPlaybackAtEnd]
++ -[AAUIMicaPlayer isPlaying]
++ -[AAUIMicaPlayer isTimerNeeded]
++ -[AAUIMicaPlayer loopDuringPlayback]
++ -[AAUIMicaPlayer moveAndResizeWithinParentLayer:usingGravity:animate:]
++ -[AAUIMicaPlayer notifyDelegateDidChangePlaybackTime]
++ -[AAUIMicaPlayer notifyDelegateDidStartPlaying]
++ -[AAUIMicaPlayer notifyDelegateDidStopPlaying]
++ -[AAUIMicaPlayer path]
++ -[AAUIMicaPlayer pause]
++ -[AAUIMicaPlayer playTimer]
++ -[AAUIMicaPlayer play]
++ -[AAUIMicaPlayer playbackTime]
++ -[AAUIMicaPlayer preferredPlaybackSpeed]
++ -[AAUIMicaPlayer publishedLayerWithKey:required:]
++ -[AAUIMicaPlayer publishedObjectWithKey:required:]
++ -[AAUIMicaPlayer publishedObjects]
++ -[AAUIMicaPlayer removeFromSuperlayer]
++ -[AAUIMicaPlayer retinaScale]
++ -[AAUIMicaPlayer rootLayer]
++ -[AAUIMicaPlayer runPlayTimer:]
++ -[AAUIMicaPlayer setDelegate:]
++ -[AAUIMicaPlayer setDocumentDuration:]
++ -[AAUIMicaPlayer setLoopDuringPlayback:]
++ -[AAUIMicaPlayer setPath:]
++ -[AAUIMicaPlayer setPlayTimer:]
++ -[AAUIMicaPlayer setPlaybackTime:]
++ -[AAUIMicaPlayer setPreferredPlaybackSpeed:]
++ -[AAUIMicaPlayer setPublishedObjects:]
++ -[AAUIMicaPlayer setRetinaScale:]
++ -[AAUIMicaPlayer setRootLayer:]
++ -[AAUIMicaPlayer startPlayTimerIfNeeded]
++ -[AAUIMicaPlayer stopPlayTimer]
++ -[CALayer(AAUIMicaPlayerAdditions) mp_addLayerAndSublayersToArray:allowHiddenLayers:]
++ -[CALayer(AAUIMicaPlayerAdditions) mp_allAnimationsInTree]
++ -[CALayer(AAUIMicaPlayerAdditions) mp_allLayersInTree]
++ -[CALayer(AAUIMicaPlayerAdditions) mp_allLayersWhoseNamesContainString:]
++ -[CALayer(AAUIMicaPlayerAdditions) mp_basicPropertiesToCopy]
++ -[CALayer(AAUIMicaPlayerAdditions) mp_deepCopyLayer]
++ -[CALayer(AAUIMicaPlayerAdditions) mp_moveAndResizeWithinParentLayer:usingGravity:geometryFlipped:retinaScale:animate:]
++ -[CALayer(AAUIMicaPlayerAdditions) mp_propertiesToCopy]
++ GCC_except_table25
++ GCC_except_table6
++ OBJC_IVAR_$_AAUIMicaPlayer._delegate
++ OBJC_IVAR_$_AAUIMicaPlayer._documentDuration
++ OBJC_IVAR_$_AAUIMicaPlayer._loopDuringPlayback
++ OBJC_IVAR_$_AAUIMicaPlayer._path
++ OBJC_IVAR_$_AAUIMicaPlayer._playTimer
++ OBJC_IVAR_$_AAUIMicaPlayer._preferredPlaybackSpeed
++ OBJC_IVAR_$_AAUIMicaPlayer._publishedObjects
++ OBJC_IVAR_$_AAUIMicaPlayer._retinaScale
++ OBJC_IVAR_$_AAUIMicaPlayer._rootLayer
++ _CACurrentMediaTime
++ _CATransform3DMakeScale
++ _CGColorCreateGenericGray
++ _CGPointZero
++ _NSClassFromString
++ _NSLog
++ _NSTextContentTypeOneTimeCode
++ _OBJC_CLASS_$_AAUIMicaPlayer
++ _OBJC_CLASS_$_AKProximityAuthViewController
++ _OBJC_CLASS_$_CAAnimation
++ _OBJC_CLASS_$_CALayer
++ _OBJC_CLASS_$_CAScrollLayer
++ _OBJC_CLASS_$_CATextLayer
++ _OBJC_CLASS_$_CATiledLayer
++ _OBJC_CLASS_$_CATransaction
++ _OBJC_CLASS_$_NSConstantArray
++ _OBJC_CLASS_$_NSData
++ _OBJC_CLASS_$_NSKeyedUnarchiver
++ _OBJC_CLASS_$_NSMutableArray
++ _OBJC_CLASS_$_NSMutableDictionary
++ _OBJC_CLASS_$_NSMutableSet
++ _OBJC_CLASS_$_NSString
++ _OBJC_CLASS_$_NSTimer
++ _OBJC_CLASS_$_NSURL
++ _OBJC_CLASS_$__TtCV14AppleAccountUI30ProximityRecoveryAnimationView10PlayerView
++ _OBJC_EHTYPE_$_NSException
++ _OBJC_METACLASS_$_AAUIMicaPlayer
++ _OBJC_METACLASS_$_NSView
++ _OBJC_METACLASS_$__TtCV14AppleAccountUI30ProximityRecoveryAnimationView10PlayerView
++ __DATA__TtC14AppleAccountUI22CodeEntryPaneViewModel
++ __DATA__TtC14AppleAccountUI26RecoveryCodeEntryViewModel
++ __DATA__TtC14AppleAccountUI35CustodianOwnerRecoveryCodeViewModel
++ __DATA__TtCV14AppleAccountUI30ProximityRecoveryAnimationView10PlayerView
++ __INSTANCE_METHODS__TtCV14AppleAccountUI30ProximityRecoveryAnimationView10PlayerView
++ __IVARS__TtC14AppleAccountUI22CodeEntryPaneViewModel
++ __IVARS__TtC14AppleAccountUI26RecoveryCodeEntryViewModel
++ __IVARS__TtC14AppleAccountUI35CustodianOwnerRecoveryCodeViewModel
++ __IVARS__TtCV14AppleAccountUI30ProximityRecoveryAnimationView10PlayerView
++ __METACLASS_DATA__TtC14AppleAccountUI22CodeEntryPaneViewModel
++ __METACLASS_DATA__TtC14AppleAccountUI26RecoveryCodeEntryViewModel
++ __METACLASS_DATA__TtC14AppleAccountUI35CustodianOwnerRecoveryCodeViewModel
++ __METACLASS_DATA__TtCV14AppleAccountUI30ProximityRecoveryAnimationView10PlayerView
++ __MergedGlobals
++ __OBJC_$_CATEGORY_CALayer_$_AAUIMicaPlayerAdditions
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_CALayer_$_AAUIMicaPlayerAdditions
++ __OBJC_$_CLASS_METHODS_AAUIMicaPlayer
++ __OBJC_$_INSTANCE_METHODS_AAUIMicaPlayer
++ __OBJC_$_INSTANCE_VARIABLES_AAUIMicaPlayer
++ __OBJC_$_PROP_LIST_AAUIMicaPlayer
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
++ __OBJC_CLASS_PROTOCOLS_$_AAUIMicaPlayer
++ __OBJC_CLASS_RO_$_AAUIMicaPlayer
++ __OBJC_LABEL_PROTOCOL_$_NSCopying
++ __OBJC_METACLASS_RO_$_AAUIMicaPlayer
++ __OBJC_PROTOCOL_$_NSCopying
++ ___40-[AAUIMicaPlayer startPlayTimerIfNeeded]_block_invoke
++ ___assert_rtn
++ ___block_descriptor_40_e8_32w_e17_v16?0"NSTimer"8l
++ ___copy_helper_block_e8_32w
++ ___destroy_helper_block_e8_32w
++ ___isOSVersionAtLeast
++ ___isPlatformOrVariantPlatformVersionAtLeast
++ ___isPlatformVersionAtLeast
++ ___swift_memcpy64_8
++ ___swift_memcpy73_8
++ __availability_version_check
++ __initializeAvailabilityCheck
++ __isPlatformOrVariantPlatformVersionAtLeast
++ __swift_closure_destructor.24Tm
++ __swift_exist.box.addr_destructor
++ _associated conformance 14AppleAccountUI13DustCloudViewV05SwiftC00F0AA4BodyAdEP_AdE
++ _associated conformance 14AppleAccountUI16MacDustCloudHost33_A7608660E38EDB4518A7959D33337E03LLV05SwiftC029NSViewControllerRepresentableAaE4View
++ _associated conformance 14AppleAccountUI16MacDustCloudHost33_A7608660E38EDB4518A7959D33337E03LLV05SwiftC04ViewAA4BodyAeFP_AeF
++ _associated conformance 14AppleAccountUI17CodeEntryPaneViewV05SwiftC00G0AA4BodyAdEP_AdE
++ _associated conformance 14AppleAccountUI20CodeValidationResultOSHAASQ
++ _associated conformance 14AppleAccountUI21RecoveryCodeEntryViewV05SwiftC00G0AA4BodyAdEP_AdE
++ _associated conformance 14AppleAccountUI21RecoveryCodeEntryViewV0deF9Container33_24E3B2D6C26F24A8D0983C8C922DAF25LLV05SwiftC00G0AA4BodyAgHP_AgH
++ _associated conformance 14AppleAccountUI30CustodianOwnerRecoveryCodeViewV05SwiftC00H0AA4BodyAdEP_AdE
++ _associated conformance 14AppleAccountUI30ProximityRecoveryAnimationViewV05SwiftC00G0AA4BodyAdEP_AdE
++ _associated conformance 14AppleAccountUI30ProximityRecoveryAnimationViewV05SwiftC019NSViewRepresentableAaD0G0
++ _associated conformance 14AppleAccountUI35CustodianOwnerRecoveryCodeViewModelCAA017OnboardingContentH0AA06CustomH0AaDP_05SwiftC00H0
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _fclose
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _initializeAvailabilityCheck
++ _kAAAnalyticsEventSignInAAUISignInVCViewed
++ _kAAAnalyticsEventSignInChildSignInTapped
++ _kCAGravityBottom
++ _kCAGravityBottomLeft
++ _kCAGravityBottomRight
++ _kCAGravityCenter
++ _kCAGravityLeft
++ _kCAGravityResize
++ _kCAGravityResizeAspect
++ _kCAGravityResizeAspectFill
++ _kCAGravityRight
++ _kCAGravityTop
++ _kCAGravityTopLeft
++ _kCAGravityTopRight
++ _kCDPAnalyticsEscapeOffer
++ _kCDPAnalyticsEscapeOfferSelected
++ _kDataAccessContinue
++ _kDataAccessRecoveryContactCodeCantGet
++ _malloc
++ _objc_begin_catch
++ _objc_copyWeak
++ _objc_end_catch
++ _objc_initWeak
++ _objc_msgSend$AAUIMicaPlayerDidChangePlaybackTime:
++ _objc_msgSend$AAUIMicaPlayerDidStartPlaying:
++ _objc_msgSend$AAUIMicaPlayerDidStopPlaying:
++ _objc_msgSend$URLForResource:withExtension:
++ _objc_msgSend$aaf_arrayAsCommaSeperatedString
++ _objc_msgSend$addAnimation:forKey:
++ _objc_msgSend$addObject:
++ _objc_msgSend$addObjectsFromArray:
++ _objc_msgSend$addSublayer:
++ _objc_msgSend$addToLayer:onTop:gravity:
++ _objc_msgSend$allKeys
++ _objc_msgSend$allocWithZone:
++ _objc_msgSend$animationForKey:
++ _objc_msgSend$animationKeys
++ _objc_msgSend$array
++ _objc_msgSend$backingScaleFactor
++ _objc_msgSend$begin
++ _objc_msgSend$beginTime
++ _objc_msgSend$boolFromDictionary:key:defaultValue:
++ _objc_msgSend$bounds
++ _objc_msgSend$commit
++ _objc_msgSend$containsString:
++ _objc_msgSend$copy
++ _objc_msgSend$dataWithContentsOfURL:options:error:
++ _objc_msgSend$delegate
++ _objc_msgSend$description
++ _objc_msgSend$dictionary
++ _objc_msgSend$displayName
++ _objc_msgSend$documentDuration
++ _objc_msgSend$duration
++ _objc_msgSend$fileURLWithPath:
++ _objc_msgSend$frame
++ _objc_msgSend$indexOfObjectIdenticalTo:
++ _objc_msgSend$initWithFrame:
++ _objc_msgSend$initWithLayer:
++ _objc_msgSend$initWithPath:retinaScale:
++ _objc_msgSend$initWithPath:retinaScale:rootLayer:publishedObjects:
++ _objc_msgSend$initWithVerificationCode:
++ _objc_msgSend$insertSublayer:atIndex:
++ _objc_msgSend$invalidate
++ _objc_msgSend$isHidden
++ _objc_msgSend$isPlaybackAtEnd
++ _objc_msgSend$isPlaying
++ _objc_msgSend$isRemovedOnCompletion
++ _objc_msgSend$isTimerNeeded
++ _objc_msgSend$lastPathComponent
++ _objc_msgSend$layer
++ _objc_msgSend$mask
++ _objc_msgSend$moveAndResizeWithinParentLayer:usingGravity:animate:
++ _objc_msgSend$mp_addLayerAndSublayersToArray:allowHiddenLayers:
++ _objc_msgSend$mp_allAnimationsInTree
++ _objc_msgSend$mp_allLayersInTree
++ _objc_msgSend$mp_basicPropertiesToCopy
++ _objc_msgSend$mp_deepCopyLayer
++ _objc_msgSend$mp_moveAndResizeWithinParentLayer:usingGravity:geometryFlipped:retinaScale:animate:
++ _objc_msgSend$mp_propertiesToCopy
++ _objc_msgSend$name
++ _objc_msgSend$needsDisplay
++ _objc_msgSend$needsLayout
++ _objc_msgSend$notifyDelegateDidChangePlaybackTime
++ _objc_msgSend$notifyDelegateDidStartPlaying
++ _objc_msgSend$notifyDelegateDidStopPlaying
++ _objc_msgSend$objectAtIndexedSubscript:
++ _objc_msgSend$path
++ _objc_msgSend$pathForResource:ofType:
++ _objc_msgSend$pause
++ _objc_msgSend$play
++ _objc_msgSend$playbackTime
++ _objc_msgSend$publishedObjectWithKey:required:
++ _objc_msgSend$publishedObjects
++ _objc_msgSend$removeFromSuperlayer
++ _objc_msgSend$retinaScale
++ _objc_msgSend$rootDictForPath:
++ _objc_msgSend$rootLayer
++ _objc_msgSend$runPlayTimer:
++ _objc_msgSend$scheduledTimerWithTimeInterval:repeats:block:
++ _objc_msgSend$secondarySystemFillColor
++ _objc_msgSend$setBackgroundColor:
++ _objc_msgSend$setBeginTime:
++ _objc_msgSend$setDisableActions:
++ _objc_msgSend$setDocumentDuration:
++ _objc_msgSend$setDuration:
++ _objc_msgSend$setFrame:
++ _objc_msgSend$setGeometryFlipped:
++ _objc_msgSend$setMask:
++ _objc_msgSend$setMasksToBounds:
++ _objc_msgSend$setNeedsDisplay
++ _objc_msgSend$setNeedsLayout
++ _objc_msgSend$setObject:forKeyedSubscript:
++ _objc_msgSend$setPath:
++ _objc_msgSend$setPlaybackTime:
++ _objc_msgSend$setPreferredPlaybackSpeed:
++ _objc_msgSend$setPublishedObjects:
++ _objc_msgSend$setRepeatCount:
++ _objc_msgSend$setRetinaScale:
++ _objc_msgSend$setRootLayer:
++ _objc_msgSend$setSpeed:
++ _objc_msgSend$setTimeOffset:
++ _objc_msgSend$setTransform:
++ _objc_msgSend$setValue:forKey:
++ _objc_msgSend$setWantsLayer:
++ _objc_msgSend$setWithObjects:
++ _objc_msgSend$shouldArchiveValueForKey:
++ _objc_msgSend$speed
++ _objc_msgSend$startPlayTimerIfNeeded
++ _objc_msgSend$stopPlayTimer
++ _objc_msgSend$sublayers
++ _objc_msgSend$superlayer
++ _objc_msgSend$timeOffset
++ _objc_msgSend$unarchivedObjectOfClasses:fromData:error:
++ _objc_msgSend$updatePublishedObjects:toReferenceLayersInTree:ratherThanLayersInTree:
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$window
++ _objc_opt_isKindOfClass
++ _objc_opt_respondsToSelector
++ _rewind
++ _sscanf
++ _swift_getFunctionTypeMetadata0
++ _swift_projectBox
++ _symbolic $s7SwiftUI19NSViewRepresentableP
++ _symbolic SJSg
++ _symbolic SaySi6offset_SJ7elementtG
++ _symbolic SaySi6offset_SJSg7elementtG
++ _symbolic ScM
++ _symbolic ScSySSG
++ _symbolic Si6offset_SJ7elementt
++ _symbolic Si6offset_SJSg7elementt
++ _symbolic SiSJSg_____yABy_____y__________G_____G_____y_____GGIegygr_ 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA16RoundedRectangleV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA4TextV
++ _symbolic So14AAUIMicaPlayerCSg
++ _symbolic So29AKProximityAuthViewControllerC
++ _symbolic So6NSViewC
++ _symbolic So8NSStringC3key_yp5valuet
++ _symbolic So8NSStringC_ypt
++ _symbolic Su
++ _symbolic _____ 12AppleAccount20IdentityLoadingStateO
++ _symbolic _____ 14AppleAccountUI13DustCloudViewV
++ _symbolic _____ 14AppleAccountUI16MacDustCloudHost33_A7608660E38EDB4518A7959D33337E03LLV
++ _symbolic _____ 14AppleAccountUI17CodeEntryPaneViewV
++ _symbolic _____ 14AppleAccountUI17CodeEntryPaneViewV5StyleV
++ _symbolic _____ 14AppleAccountUI20CodeValidationResultO
++ _symbolic _____ 14AppleAccountUI21RecoveryCodeEntryViewV
++ _symbolic _____ 14AppleAccountUI21RecoveryCodeEntryViewV0deF9Container33_24E3B2D6C26F24A8D0983C8C922DAF25LLV
++ _symbolic _____ 14AppleAccountUI22CodeEntryPaneViewModelC
++ _symbolic _____ 14AppleAccountUI26RecoveryCodeEntryViewModelC
++ _symbolic _____ 14AppleAccountUI30CustodianOwnerRecoveryCodeViewV
++ _symbolic _____ 14AppleAccountUI30ProximityRecoveryAnimationViewV
++ _symbolic _____ 14AppleAccountUI30ProximityRecoveryAnimationViewV06PlayerG0C
++ _symbolic _____ 14AppleAccountUI35CustodianOwnerRecoveryCodeViewModelC
++ _symbolic _____ 7SwiftUI4FontV
++ _symbolic _____ 7SwiftUI5ColorV
++ _symbolic _____ So14OBTemplateTypeV
++ _symbolic _____ So6CGSizeV
++ _symbolic _____SSYac 14AppleAccountUI20CodeValidationResultO
++ _symbolic _____Sg 7SwiftUI4FontV
++ _symbolic _____Sg 7SwiftUI4FontV6DesignO
++ _symbolic _____yAAyAAyAAyAAyAAy_____y_____y_____y_____G_Qo_______Qo______ySSSgGG_____y_____GGAHyAMSgGG_____G_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TextgH0Rd__lFQO AeAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0iG0V AA0I0V AA05PlainigH0V AA30_EnvironmentKeyWritingModifierV AA011_ForegroundhR0V AA5ColorV AA12_FrameLayoutV AA14_OpacityEffectV AA023AccessibilityAttachmentR0V
++ _symbolic _____yAAyAAyAAyAAyAAy_____y_____y_____y_____G_Qo_______Qo______ySSSgGG_____y_____GGAHyAMSgGG_____G_____G_____G______y_____ySaySi6offset_SJSg7elementtGSiAAyAAy_____y_____AMGASG_____yACGGGGt 7SwiftUI15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TextgH0Rd__lFQO AeAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0iG0V AA0I0V AA05PlainigH0V AA30_EnvironmentKeyWritingModifierV AA011_ForegroundhR0V AA5ColorV AA12_FrameLayoutV AA14_OpacityEffectV AA023AccessibilityAttachmentR0V AA6HStackV AA7ForEachV AA06_ShapeE0V AA16RoundedRectangleV AA08_OverlayR0V
++ _symbolic _____yAAyAAyAAyAAy_____y_____y_____y_____G_Qo_______Qo______ySSSgGG_____y_____GGAHyAMSgGG_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TextgH0Rd__lFQO AeAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0iG0V AA0I0V AA05PlainigH0V AA30_EnvironmentKeyWritingModifierV AA011_ForegroundhR0V AA5ColorV AA12_FrameLayoutV AA14_OpacityEffectV
++ _symbolic _____yAAyAAyAAy_____y_____y_____y_____G_Qo_______Qo______ySSSgGG_____y_____GGAHyAMSgGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TextgH0Rd__lFQO AeAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0iG0V AA0I0V AA05PlainigH0V AA30_EnvironmentKeyWritingModifierV AA011_ForegroundhR0V AA5ColorV AA12_FrameLayoutV
++ _symbolic _____yAAyAAy_____y_____y_____y_____G_Qo_______Qo______ySSSgGG_____y_____GGAHyAMSgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TextgH0Rd__lFQO AeAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0iG0V AA0I0V AA05PlainigH0V AA30_EnvironmentKeyWritingModifierV AA011_ForegroundhR0V AA5ColorV
++ _symbolic _____yAAy_____yABy__________G_____y_____SgGG_____GAAyA2JGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV 14ContactsUICore10AvatarViewV
++ _symbolic _____yAAy_____y_____ACG_____G_____G 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA16_FlexFrameLayoutV AA14_OpacityEffectV
++ _symbolic _____yAAy_____y_____G_____y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleJ0V AA09TintShapeM0V
++ _symbolic _____yAAy_____y__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA16RoundedRectangleV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA4TextV
++ _symbolic _____yAAy_____y_____yAAy_____y_____yAAyAAyAAyAAyAAyAAy_____y_____y_____y_____G_Qo_______Qo______ySSSgGG_____y_____GGAJyAOSgGG_____G_____G_____G______y_____ySaySi6offset_SJSg7elementtGSiAAyAAy_____y_____AOGAUG_____yAEGGGGQPGG_____y_____GG_Qo__Qo_AYG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE12onTapGesture5count7performQrSi_yyctFQO AA6ZStackV AA05TupleD0V AeAE14textFieldStyleyQrqd__AA04TexttU0Rd__lFQO AeAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0vT0V AA0V0V AA05PlainvtU0V AA30_EnvironmentKeyWritingModifierV AA011_ForegroundU8ModifierV AA5ColorV AA12_FrameLayoutV AA14_OpacityEffectV AA0I18AttachmentModifierV AA6HStackV AA7ForEachV AA06_ShapeE0V AA16RoundedRectangleV AA16_OverlayModifierV AA01_D13ShapeModifierV AA9RectangleV AA25_AppearanceActionModifierV
++ _symbolic _____yAAy_____y_____ySaySi6offset_SJ7elementtGSi_____GG_____G_____G 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV AA4TextV AA16_FlexFrameLayoutV AA31AccessibilityAttachmentModifierV
++ _symbolic _____yAAy_____y_____ySaySi6offset_SJ7elementtGSi_____GG_____G_____G______t 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV AA4TextV AA16_FlexFrameLayoutV AA31AccessibilityAttachmentModifierV AA6SpacerV
++ _symbolic _____yAAy_____y_____y_____y_____G_Qo_______Qo______ySSSgGG_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TextgH0Rd__lFQO AeAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0iG0V AA0I0V AA05PlainigH0V AA30_EnvironmentKeyWritingModifierV AA011_ForegroundhR0V AA5ColorV
++ _symbolic _____ySJG s23_ContiguousArrayStorageC
++ _symbolic _____ySJSgG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSgG 7SwiftUI30_EnvironmentKeyWritingModifierV
++ _symbolic _____ySS_G ScS12ContinuationV
++ _symbolic _____ySS_G ScS8IteratorV
++ _symbolic _____ySS__G ScS12ContinuationV11YieldResultO
++ _symbolic _____ySS__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic _____ySaySi6offset_SJ7elementtGSi_____G 7SwiftUI7ForEachV AA4TextV
++ _symbolic _____ySaySi6offset_SJ7elementtGSi_____G 7SwiftUI7ForEachV AA9EmptyViewV
++ _symbolic _____ySaySi6offset_SJSg7elementtGSi_____G 7SwiftUI7ForEachV AA9EmptyViewV
++ _symbolic _____ySaySi6offset_SJSg7elementtGSi_____yAFy_____y__________G_____G_____y_____GGG 7SwiftUI7ForEachV AA15ModifiedContentV AA10_ShapeViewV AA16RoundedRectangleV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA4TextV
++ _symbolic _____ySbG 7SwiftUI10FocusStateV
++ _symbolic _____ySi6offset_SJ7elementtG s23_ContiguousArrayStorageC
++ _symbolic _____ySi6offset_SJSg7elementtG s23_ContiguousArrayStorageC
++ _symbolic _____ySo8NSStringC_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySo8NSStringCypG s18_DictionaryStorageC
++ _symbolic _____y_____G 14AppleAccountUI14OnboardingViewV AA026CustodianOwnerRecoveryCodeE5ModelC
++ _symbolic _____y_____G 14AppleAccountUI14OnboardingViewV AA07DefaultdE5ModelC
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____G 7SwiftUI5StateV 012AppleAccountB026RecoveryCodeEntryViewModelC
++ _symbolic _____y_____G 7SwiftUI8BindableV 012AppleAccountB026RecoveryCodeEntryViewModelC
++ _symbolic _____y_____G 7SwiftUI9LazyStateV 012AppleAccountB022CodeEntryPaneViewModelC
++ _symbolic _____y_____G 7SwiftUI9TextFieldV AA0C0V
++ _symbolic _____y_____Gz_Xx 7SwiftUI8BindableV 012AppleAccountB026RecoveryCodeEntryViewModelC
++ _symbolic _____y______G 7SwiftUI9LazyStateV7StorageO 012AppleAccountB022CodeEntryPaneViewModelC
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV AA16RoundedRectangleV AA5ColorV
++ _symbolic _____y___________ySaySi6offset_SJ7elementtGSi_____GG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7ForEachV AA4TextV
++ _symbolic _____y___________ySaySi6offset_SJSg7elementtGSi_____yAHy_____y__________G_____G_____y_____GGGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7ForEachV AA15ModifiedContentV AA06_ShapeD0V AA16RoundedRectangleV AA5ColorV AA06_FrameG0V AA16_OverlayModifierV AA4TextV
++ _symbolic _____y___________y_____yADyADyADyADyADy_____y_____y_____y_____G_Qo_______Qo______ySSSgGG_____y_____GGAKyAPSgGG_____G_____G_____G______y_____ySaySi6offset_SJSg7elementtGSiADyADy_____y_____APGAVG_____yAFGGGGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA0D0PAAE14textFieldStyleyQrqd__AA04TextlM0Rd__lFQO AmAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0nL0V AA0N0V AA05PlainnlM0V AA30_EnvironmentKeyWritingModifierV AA011_ForegroundmW0V AA5ColorV AA06_FrameG0V AA14_OpacityEffectV AA023AccessibilityAttachmentW0V AA6HStackV AA7ForEachV AA06_ShapeD0V AA16RoundedRectangleV AA08_OverlayW0V
++ _symbolic _____y___________y_____yADy_____y_____ySaySi6offset_SJ7elementtGSi_____GG_____G_____G______QPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA6HStackV AA7ForEachV AA4TextV AA010_FlexFrameG0V AA31AccessibilityAttachmentModifierV AA6SpacerV
++ _symbolic _____y___________y_____y_____y______Qo______G_ADyADy_____y_____G_____y_____SgGG_____y_____GGADyADy_____y_____AVG_____G_____GQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA0D0PAAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO 012AppleAccountB0013CodeEntryPaneD0V AA08_PaddingG0V AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleZ0V AA14TintShapeStyleV AA08ProgressD0V AA05EmptyD0V AA010_FlexFrameG0V AA14_OpacityEffectV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y_____yABy__________G_____y_____SgGGAJG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____y_____yABy__________G_____y_____SgGG_____G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV 14ContactsUICore10AvatarViewV
++ _symbolic _____y_____yABy__________G_____y_____SgGG______G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV 14ContactsUICore10AvatarViewV
++ _symbolic _____y_____yABy_____yACy__________G_____y_____SgGG_____GAByA2KGGG 7SwiftUI5GroupV AA19_ConditionalContentV AA08ModifiedE0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV 14ContactsUICore10AvatarViewV
++ _symbolic _____y_____ySaySi6offset_SJ7elementtGSi_____GG 7SwiftUI6HStackV AA7ForEachV AA4TextV
++ _symbolic _____y_____ySaySi6offset_SJSg7elementtGSi_____yAGy_____y__________G_____G_____y_____GGGG 7SwiftUI6HStackV AA7ForEachV AA15ModifiedContentV AA10_ShapeViewV AA16RoundedRectangleV AA5ColorV AA12_FrameLayoutV AA16_OverlayModifierV AA4TextV
++ _symbolic _____y_____y_____ACG_____G 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____G_Qo_ 7SwiftUI4ViewPAAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA9TextFieldV AA0H0V
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV 012AppleAccountB014OnboardingViewV AD026CustodianOwnerRecoveryCodeH5ModelC AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____y______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO 012AppleAccountB0013CodeEntryPaneE0V AA14_PaddingLayoutV
++ _symbolic _____y_____y______Qo______G_AAyAAy_____y_____G_____y_____SgGG_____y_____GGAAyAAy_____y_____ASG_____G_____Gt 7SwiftUI15ModifiedContentV AA4ViewPAAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO 012AppleAccountB0013CodeEntryPaneE0V AA14_PaddingLayoutV AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleV0V AA09TintShapeY0V AA08ProgressE0V AA05EmptyE0V AA010_FlexFrameP0V AA14_OpacityEffectV
++ _symbolic _____y_____y__________G_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA16RoundedRectangleV AA5ColorV AA12_FrameLayoutV
++ _symbolic _____y_____y_____yAAyAAyAAyAAyAAyAAy_____y_____y_____y_____G_Qo_______Qo______ySSSgGG_____y_____GGAJyAOSgGG_____G_____G_____G______y_____ySaySi6offset_SJSg7elementtGSiAAyAAy_____y_____AOGAUG_____yAEGGGGQPGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA4ViewPAAE14textFieldStyleyQrqd__AA04TextiJ0Rd__lFQO AiAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0kI0V AA0K0V AA05PlainkiJ0V AA30_EnvironmentKeyWritingModifierV AA011_ForegroundjT0V AA5ColorV AA12_FrameLayoutV AA14_OpacityEffectV AA023AccessibilityAttachmentT0V AA6HStackV AA7ForEachV AA06_ShapeG0V AA16RoundedRectangleV AA08_OverlayT0V AA01_d5ShapeT0V AA9RectangleV
++ _symbolic _____y_____y_____yAAy_____y______Qo______G_AAyAAy_____y_____G_____y_____SgGG_____y_____GGAAyAAy_____y_____AUG_____G_____GQPGG_____ySbGG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4ViewPAAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO 012AppleAccountB0013CodeEntryPaneG0V AA14_PaddingLayoutV AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleX0V AA14TintShapeStyleV AA08ProgressG0V AA05EmptyG0V AA010_FlexFrameR0V AA14_OpacityEffectV AA01_uv9TransformX0V
++ _symbolic _____y_____y_____yAAy_____y_____yAAyAAyAAyAAyAAyAAy_____y_____y_____y_____G_Qo_______Qo______ySSSgGG_____y_____GGAJyAOSgGG_____G_____G_____G______y_____ySaySi6offset_SJSg7elementtGSiAAyAAy_____y_____AOGAUG_____yAEGGGGQPGG_____y_____GG_Qo__Qo_AYG 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE12onTapGesture5count7performQrSi_yyctFQO AA6ZStackV AA05TupleD0V AeAE14textFieldStyleyQrqd__AA04TexttU0Rd__lFQO AeAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0vT0V AA0V0V AA05PlainvtU0V AA30_EnvironmentKeyWritingModifierV AA011_ForegroundU8ModifierV AA5ColorV AA12_FrameLayoutV AA14_OpacityEffectV AA0I18AttachmentModifierV AA6HStackV AA7ForEachV AA06_ShapeE0V AA16RoundedRectangleV AA16_OverlayModifierV AA01_D13ShapeModifierV AA9RectangleV
++ _symbolic _____y_____y_____yAAy_____y_____yAAy_____y______Qo______G_AAyAAy_____y_____G_____y_____SgGG_____y_____GGAAyAAy_____y_____AUG_____G_____GQPGG_____ySbGG_SSAjIQo__SbQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaDRd_0_AaDRd_1_r1_lFQO AA6VStackV AA05TupleD0V AeAE7focusedyQrAA10FocusStateVAMVySb_GFQO 012AppleAccountB0013CodeEntryPaneE0V AA14_PaddingLayoutV AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA14TintShapeStyleV AA08ProgressE0V AA05EmptyE0V AA16_FlexFrameLayoutV AA14_OpacityEffectV AA32_EnvironmentKeyTransformModifierV AA14_TaskModifier2V
++ _symbolic _____y_____y_____yACyAAyAAy__________G_____y_____SgGG_____GACyA2KGGGAEG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV 14ContactsUICore10AvatarViewV
++ _symbolic _____y_____y_____yACyACyACyACyACy_____y_____y_____y_____G_Qo_______Qo______ySSSgGG_____y_____GGAJyAOSgGG_____G_____G_____G______y_____ySaySi6offset_SJSg7elementtGSiACyACy_____y_____AOGAUG_____yAEGGGGQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V AA4ViewPAAE14textFieldStyleyQrqd__AA04TextiJ0Rd__lFQO AiAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0kI0V AA0K0V AA05PlainkiJ0V AA30_EnvironmentKeyWritingModifierV AA011_ForegroundjT0V AA5ColorV AA12_FrameLayoutV AA14_OpacityEffectV AA023AccessibilityAttachmentT0V AA6HStackV AA7ForEachV AA06_ShapeG0V AA16RoundedRectangleV AA08_OverlayT0V
++ _symbolic _____y_____y_____yACy__________G_____y_____SgGG_____GAByA2KG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV 14ContactsUICore10AvatarViewV
++ _symbolic _____y_____y_____yACy_____y_____ySaySi6offset_SJ7elementtGSi_____GG_____G_____G______QPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA6HStackV AA7ForEachV AA4TextV AA16_FlexFrameLayoutV AA31AccessibilityAttachmentModifierV AA6SpacerV
++ _symbolic _____y_____y_____ySaySi6offset_SJ7elementtGSi_____GG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____G_Qo_______Qo_ 7SwiftUI4ViewPAAE14textFieldStyleyQrqd__AA04TexteF0Rd__lFQO AcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0gE0V AA0G0V AA05PlaingeF0V
++ _symbolic _____y_____y_____y_____yAAyAAyAAyAAyAAyAAy_____y_____y_____y_____G_Qo_______Qo______ySSSgGG_____y_____GGAJyAOSgGG_____G_____G_____G______y_____ySaySi6offset_SJSg7elementtGSiAAyAAy_____y_____AOGAUG_____yAEGGGGQPGG_____y_____GG_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6ZStackV AA05TupleJ0V AcAE14textFieldStyleyQrqd__AA04TextnO0Rd__lFQO AcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0pN0V AA0P0V AA05PlainpnO0V AA30_EnvironmentKeyWritingModifierV AA011_ForegroundoY0V AA5ColorV AA12_FrameLayoutV AA14_OpacityEffectV AA023AccessibilityAttachmentY0V AA6HStackV AA7ForEachV AA06_ShapeC0V AA16RoundedRectangleV AA08_OverlayY0V AA01_j5ShapeY0V AA9RectangleV
++ _symbolic _____y_____y_____y_____yAAy_____y______Qo______G_AAyAAy_____y_____G_____y_____SgGG_____y_____GGAAyAAy_____y_____AUG_____G_____GQPGG_____ySbGG_SSAjIQo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AA15ModifiedContentV AA6VStackV AA05TupleK0V AcAE7focusedyQrAA10FocusStateVAHVySb_GFQO 012AppleAccountB0013CodeEntryPaneC0V AA14_PaddingLayoutV AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA14TintShapeStyleV AA08ProgressC0V AA05EmptyC0V AA010_FlexFrameW0V AA14_OpacityEffectV AA01_Z20KeyTransformModifierV
++ _symbolic _____y_____y_____y_____y_____G_Qo_______Qo______ySSSgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TextgH0Rd__lFQO AeAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0iG0V AA0I0V AA05PlainigH0V AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____y_____y_____y_____y______Qo______G_ACyACy_____y_____G_____y_____SgGG_____y_____GGACyACy_____y_____AUG_____G_____GQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA4ViewPAAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO 012AppleAccountB0013CodeEntryPaneG0V AA14_PaddingLayoutV AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleX0V AA14TintShapeStyleV AA08ProgressG0V AA05EmptyG0V AA010_FlexFrameR0V AA14_OpacityEffectV
++ _symbolic _____y_____y_____y_____y_____yAAyAAyAAyAAyAAyAAy_____y_____y_____y_____G_Qo_______Qo______ySSSgGG_____y_____GGAJyAOSgGG_____G_____G_____G______y_____ySaySi6offset_SJSg7elementtGSiAAyAAy_____y_____AOGAUG_____yAEGGGGQPGG_____y_____GG_Qo__Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AcAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6ZStackV AA05TupleP0V AcAE14textFieldStyleyQrqd__AA04TexttU0Rd__lFQO AcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA0vT0V AA0V0V AA05PlainvtU0V AA30_EnvironmentKeyWritingModifierV AA011_ForegroundU8ModifierV AA5ColorV AA12_FrameLayoutV AA14_OpacityEffectV AA0G18AttachmentModifierV AA6HStackV AA7ForEachV AA06_ShapeC0V AA16RoundedRectangleV AA16_OverlayModifierV AA01_P13ShapeModifierV AA9RectangleV
++ _symbolic _____y_____y_____y_____y_____yAAy_____y______Qo______G_AAyAAy_____y_____G_____y_____SgGG_____y_____GGAAyAAy_____y_____AUG_____G_____GQPGG_____ySbGG_SSAjIQo__SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AA15ModifiedContentV AA6VStackV AA05TupleO0V AcAE7focusedyQrAA10FocusStateVAKVySb_GFQO 012AppleAccountB0013CodeEntryPaneC0V AA14_PaddingLayoutV AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA14TintShapeStyleV AA08ProgressC0V AA05EmptyC0V AA16_FlexFrameLayoutV AA14_OpacityEffectV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____y_____y_____y_____yAAy_____y______Qo______G_AAyAAy_____y_____G_____y_____SgGG_____y_____GGAAyAAy_____y_____AUG_____G_____GQPGG_____ySbGG_SSAjIQo__SbQo__Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AA15ModifiedContentV AA6VStackV AA05TupleT0V AcAE7focusedyQrAA10FocusStateVAQVySb_GFQO 012AppleAccountB0013CodeEntryPaneC0V AA14_PaddingLayoutV AA6ButtonV AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA24_ForegroundStyleModifierV AA14TintShapeStyleV AA08ProgressC0V AA05EmptyC0V AA16_FlexFrameLayoutV AA14_OpacityEffectV AA32_EnvironmentKeyTransformModifierV
++ _symbolic yyScMYcc
++ _type_layout_string 14AppleAccountUI13DustCloudViewV
++ _type_layout_string 14AppleAccountUI17CodeEntryPaneViewV
++ _type_layout_string 14AppleAccountUI17CodeEntryPaneViewV5StyleV
++ _type_layout_string 14AppleAccountUI21RecoveryCodeEntryViewV
++ _type_layout_string 14AppleAccountUI30CustodianOwnerRecoveryCodeViewV
++ _type_layout_string So6CGSizeV
++ get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr
++ get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC
++ get_witness_table 14AppleAccountUI14OnboardingViewVyAA07DefaultdE5ModelCG05SwiftC00E0HPyHC
++ get_witness_table 7SwiftUI15ModifiedContentVy012AppleAccountB014OnboardingViewVyAD026CustodianOwnerRecoveryCodeH5ModelCGAA30_SafeAreaRegionsIgnoringLayoutVGAA0H0HPAiaMHPyHC_AkA0H8ModifierHPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA012_ConditionalD0VyAGyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG14ContactsUICore10AvatarViewVGAGyA2SGGGAKGAA0S0HPAzAA0_HPAyAA0_HPAwAA0_HPAsAA0_HPAlAA0_HPAiAA0_HPyHC_AkA0sN0HPyHCHC_ArAA1_HPyHCHC_AvAA0_HPyHCHC_AxAA0_HPAsAA0_HPAlAA0_HPAiAA0_HPyHC_AkAA1_HPyHCHC_ArAA1_HPyHCHC_AsAA0_HPAlAA0_HPAiAA0_HPyHC_AkAA1_HPyHCHC_ArAA1_HPyHCHCHCHC_HC_AkAA1_HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAeAE12onTapGesture5count7performQrSi_yyctFQOyACyAA6ZStackVyAA05TupleD0VyACyACyACyACyACyACyAeAE14textFieldStyleyQrqd__AA04TexttU0Rd__lFQOyAeAE7focusedyQrAA10FocusStateV7BindingVySb_GFQOyAA0vT0VyAA0V0VG_Qo__AA05PlainvtU0VQo_AA30_EnvironmentKeyWritingModifierVySSSgGGAA011_ForegroundU8ModifierVyAA5ColorVGGA7_yA14_SgGGAA12_FrameLayoutVGAA14_OpacityEffectVGAA0I18AttachmentModifierVG_AA6HStackVyAA7ForEachVySaySi6offset_SJSg7elementtGSiACyACyAA06_ShapeE0VyAA16RoundedRectangleVA14_GA21_GAA16_OverlayModifierVyA0_GGGGQPGGAA01_D13ShapeModifierVyAA9RectangleVGG_Qo__Qo_A27_GAA25_AppearanceActionModifierVGAaDHPA59_AaDHPqd__AaDHD2_A58_HO_A27_AA0E8ModifierHPyHCHC_A61_AAA63_HPyHCHC
++ get_witness_table 7SwiftUI6VStackVyAA12TupleContentVyAA08ModifiedE0VyAGyAA6HStackVyAA7ForEachVySaySi6offset_SJ7elementtGSiAA4TextVGGAA16_FlexFrameLayoutVGAA31AccessibilityAttachmentModifierVG_AA6SpacerVQPGGAA4ViewHPyHC
++ get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAcAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAA15ModifiedContentVyAA6VStackVyAA05TupleT0VyAUyAcAE7focusedyQrAA10FocusStateVAQVySb_GFQOy012AppleAccountB0013CodeEntryPaneC0V_Qo_AA14_PaddingLayoutVG_AUyAUyAA6ButtonVyAA4TextVGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA24_ForegroundStyleModifierVyAA14TintShapeStyleVGGAUyAUyAA08ProgressC0VyAA05EmptyC0VA31_GAA16_FlexFrameLayoutVGAA14_OpacityEffectVGQPGGAA32_EnvironmentKeyTransformModifierVySbGG_SSA14_A13_Qo__SbQo__Qo_HO
++ mp_propertiesToCopy.sCAShapeLayerClass
+- ___swift_memcpy8_8
+- _symbolic _____Sg 12AppleAccount8IdentityC
+- _symbolic _____y__________yACy__________G_____y_____SgGGG 7SwiftUI19_ConditionalContentV 14ContactsUICore10AvatarViewV AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y__________yACy__________G_____y_____SgGG_G 7SwiftUI19_ConditionalContentV7StorageO 14ContactsUICore10AvatarViewV AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y_____y__________yADy__________G_____y_____SgGGGG 7SwiftUI5GroupV AA19_ConditionalContentV 14ContactsUICore10AvatarViewV AA08ModifiedE0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y_____y_____y_____AAyAAy__________G_____y_____SgGGGGAFG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 14ContactsUICore10AvatarViewV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA5ColorV
+- _type_layout_string 14AppleAccountUI12IdentityViewV
+- get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA012_ConditionalD0Vy14ContactsUICore10AvatarViewVACyACyAA5ImageVAA18_AspectRatioLayoutVGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGGGANGAA0J0HPAxaZHPAwaZHPAjaZHPyHC_AvaZHPAoaZHPAlaZHPyHC_AnA0jR0HPyHCHC_AuAA_HPyHCHCHC_HC_AnAA_HPyHCHC
+CStrings:
++ "\"\""
++ "%d.%d.%d"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "CAShapeLayer"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "CUSTODIAN_RECOVERY_CODE_PROMPT_ESCAPE_TITLE"
++ "CUSTODIAN_RECOVERY_CODE_PROMPT_MESSAGE"
++ "CUSTODIAN_RECOVERY_CODE_PROMPT_TITLE"
++ "Failed to build analytics event %s (altDSID nil: %{bool}d, flowID empty: %{bool}d)"
++ "INCORRECT_CODE_TRY_AGAIN_ALERT"
++ "INCORRECT_CODE_TRY_AGAIN_ALERT_TITLE"
++ "Missing published object '%@' in Mica document '%@'"
++ "PROXIMITY_CUSTODIAN_RECOVERY_DUST_CLOUD_DETAIL"
++ "PROXIMITY_CUSTODIAN_RECOVERY_DUST_CLOUD_TITLE"
++ "Platform2 == PLATFORM_MACOS && \"unexpected platform\""
++ "ProductVersion"
++ "ProximityRecovery"
++ "ProximityRecoveryAnimationView: failed to find ProximityRecovery.caar"
++ "ProximityRecoveryAnimationView: failed to initialize AAUIMicaPlayer"
++ "RECOVERY_CODE_ACCESSIBILITY_LABEL"
++ "RECOVERY_CODE_DESCRIPTION"
++ "RECOVERY_CODE_TITLE"
++ "Recovery code entered (%ld digits), starting validation"
++ "Recovery code validation failed — incorrect code"
++ "Recovery code validation failed — unrecoverable error"
++ "Recovery code validation succeeded"
++ "Unable to copy AAUIMicaPlayer. Error = %@"
++ "Unable to find Mica document: %@"
++ "Unable to load Mica document with path: %@"
++ "Unable to open Mica file: %@"
++ "Unknown gravity: %@"
++ "View.task @ AppleAccountUI/RecoveryCodeEntryView.swift:"
++ "__isPlatformOrVariantPlatformVersionAtLeast"
++ "actions"
++ "alignmentMode"
++ "anchorPoint"
++ "anchorPointZ"
++ "autoreverses"
++ "backgroundColor"
++ "backgroundFilters"
++ "beginTime"
++ "borderColor"
++ "borderWidth"
++ "bounds"
++ "caar"
++ "com.apple.appleaccount.signIn.aauiSignInVCViewed"
++ "com.apple.appleaccount.signIn.childSignInTapped"
++ "compositingFilter"
++ "contents"
++ "contentsCenter"
++ "contentsGravity"
++ "contentsRect"
++ "contentsScale"
++ "cornerRadius"
++ "doubleSided"
++ "duration"
++ "edgeAntialiasingMask"
++ "error = %@"
++ "fillColor"
++ "fillMode"
++ "fillRule"
++ "filters"
++ "font"
++ "fontSize"
++ "foregroundColor"
++ "geometryFlipped"
++ "hidden"
++ "id-recovery-code"
++ "invertsShadow"
++ "kCFAllocatorNull"
++ "levelsOfDetail"
++ "levelsOfDetailBias"
++ "lineCap"
++ "lineDashPattern"
++ "lineDashPhase"
++ "lineJoin"
++ "lineWidth"
++ "magnificationFilter"
++ "mask"
++ "masksToBounds"
++ "minificationFilter"
++ "minificationFilterBias"
++ "miterLimit"
++ "name"
++ "needsDisplayOnBoundsChange"
++ "opacity"
++ "opaque"
++ "os_version_check.c"
++ "path"
++ "position"
++ "publishedObjects"
++ "r"
++ "rasterizationScale"
++ "repeatCount"
++ "repeatDuration"
++ "rootLayer"
++ "scrollMode"
++ "shadowColor"
++ "shadowOffset"
++ "shadowOpacity"
++ "shadowPath"
++ "shadowPathIsBounds"
++ "shadowRadius"
++ "shouldRasterize"
++ "speed"
++ "string"
++ "strokeColor"
++ "strokeEnd"
++ "strokeStart"
++ "style"
++ "sublayerTransform"
++ "sublayers"
++ "tileSize"
++ "timeOffset"
++ "transform"
++ "truncationMode"
++ "v16@?0@\"NSTimer\"8"
++ "wrapped"
++ "zPosition"
+
+```

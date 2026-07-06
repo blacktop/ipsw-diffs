@@ -1,0 +1,187 @@
+## CoreText
+
+> `/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText`
+
+```diff
+
+-  __TEXT.__text: 0x1691ac
++  __TEXT.__text: 0x168a5c
+   __TEXT.__delay_stubs: 0x440
+   __TEXT.__delay_helper: 0x308
+   __TEXT.__objc_methlist: 0x119c
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__const : content changed
+~ __TEXT.__swift5_typeref : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__gcc_except_tab : content changed
+~ __TEXT.__dof_CoreText : content changed
+~ __TEXT.__unwind_info : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__objc_arraydata : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __AUTH_CONST.__objc_intobj : content changed
+~ __AUTH_CONST.__objc_dictobj : content changed
+~ __AUTH_CONST.__objc_arrayobj : content changed
+~ __AUTH_CONST.__objc_doubleobj : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__objc_dataobj : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+~ __DATA_DIRTY.__data : content changed
+Functions:
+~ __ZN18TPerThreadLRUCacheI17TRequestCacheNodeL17ThreadSpecificKey3ELm16EEC2Ev : 284 -> 276
+~ __ZL8GetTablev : 248 -> 244
+~ __ZN18TPerThreadLRUCacheI17TRequestCacheNodeL17ThreadSpecificKey3ELm16EE12DestroyCacheEPv : 172 -> 156
+~ __ZN12_GLOBAL__N_126TSingleAttrDescriptorCacheC1Ev : 476 -> 468
+~ __ZN18TPerThreadLRUCacheIN12_GLOBAL__N_121TSingleAttrDescriptorEL17ThreadSpecificKey2ELm12EE12DestroyCacheEPv : 184 -> 172
+~ __ZL33CreateTraitsByStyleGlossaryStringPK10__CFString : 432 -> 448
+~ __ZL31CGFontVariationFromDictCallbackPKvS0_Pv : 412 -> 392
+~ __ZN13TAATTrakTable26UnscaledTrackAmountForSizeEPK8__CFDatadbd : 1308 -> 1316
+~ __ZNK5TFont17InitShapingGlyphsEv : 1876 -> 1868
+~ __ZN3OTL7GCommon20IterateFeatureTablesEPKNS0_6HeaderEPKNS_16FeatureListTableEPKvNSt3__18functionIFbjPKNS_12FeatureTableERbEEE : 508 -> 492
+~ __Z20CreateOTFeatureTableRK9TBaseFont : 2636 -> 2608
+~ __ZN3OTL7GCommon20IgnoreScriptAnalysisEPKNS0_6HeaderEPKv : 1228 -> 1256
+~ __ZN5TLine15CopyStringRangeERKS_7CFRange : 1780 -> 1776
+~ __ZNK3OTL8Coverage16SearchFmt2LinearEt : 216 -> 208
+~ __ZN13TGlyphEncoder11EncodeCharsE7CFRangeRK11TAttributesNS_9FallbacksE : 3272 -> 3248
+~ __ZN13TCompactArrayItLm8ELm3EE6assignIPjEEvT_S3_ : 504 -> 480
+~ __ZNK4TRun10DrawGlyphsEP9CGContext7CFRange : 1008 -> 1004
+~ __ZNK5TLine23GetUnanchoredGlyphRangeE7CFRange : 628 -> 632
+~ __Z24CopyFeatureSettingForTagPK10__CFStringjPK9TBaseFontPbPj : 1140 -> 1156
+~ __ZN14TAATKernEngine8KernRunsER9SyncStateR13KerningStatus : 3400 -> 3368
+~ __ZN17TDescriptorSource18FontNamesForFamilyEPK10__CFStringRm : 812 -> 816
+~ __ZNK14TAATMorphChain25FlagsForOptionalLigaturesEv : 120 -> 112
+~ __ZN17TDescriptorSource27FindFontNameForNameAndTraitEPK10__CFStringjjj : 3612 -> 3616
+~ __ZN5TLine13DoGlyphFixupsEv : 748 -> 788
+~ __Z21NumberOfGlyphVariantsRK9TBaseFontj : 1244 -> 1240
+~ __ZN15TASCIIDataCache16InitC0WhitespaceEv : 360 -> 356
+~ __ZN14TAATKerxEngine8KernRunsER9SyncStateR13KerningStatus : 5004 -> 4948
+~ __ZNK12_GLOBAL__N_121BaselineRunComparator11RunsSimilarERK4TRunS3_ : 352 -> 336
+~ _CTParagraphStyleCreate : 976 -> 968
+~ __ZNK9TBaseFont18GetUnicodeEncodingEv : 716 -> 720
+~ __Z17IndexesBracketingIPKddENSt3__19enable_ifIXsr3stdE19is_floating_point_vIT0_EENS2_4pairIttEEE4typeET_S9_S4_S4_ : 184 -> 188
+~ __ZNSt3__16vectorI7CFRange22TInlineBufferAllocatorIS1_Lm4EEEC2B9fqn220106INS_11__wrap_iterIPKS1_EELi0EEET_SA_ : 124 -> 112
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqn220106I22TInlineBufferAllocatorIN3OTL12GlyphLookups12LookupRangesELm30EEPS4_EEvRT_T0_S9_S9_ : 160 -> 144
+~ __ZN21TAATMorphSubtableMorx8ProcessTIN8TRunGlue14TGlyphInVectorEEE21MorphActionResultCodeRS1_7CFRangej : 3336 -> 3276
+~ __ZN21TAATMorphSubtableMorx8ProcessTIN8TRunGlue17TGlyphInSingleRunEEE21MorphActionResultCodeRS1_7CFRangej : 3280 -> 3252
+~ __ZN21TAATMorphSubtableMorx8ProcessTIN8TRunGlue6TGlyphEEE21MorphActionResultCodeRS1_7CFRangej : 3416 -> 3348
+~ __ZZN21TAATMorphSubtableMorx16DoLigatureActionIN8TRunGlue14TGlyphInVectorEEE21MorphActionResultCodeRS1_tPNS_17MorxLigatureStateEENKUlvE_clEv : 452 -> 440
+~ __ZNK4TRun29DrawGlyphsAtPositionsInternalEP9CGContext7CFRangePK7CGPointbPK11TAttributesb : 900 -> 888
+~ __ZN4TRun11DeleteCharsElPKll : 688 -> 676
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_7greaterIlEEPlLb1EEEvT1_S6_T0_NS_15iterator_traitsIS6_E15difference_typeEb : 3052 -> 3044
+~ __ZNSt3__127__insertion_sort_incompleteB9fqn220106INS_17_ClassicAlgPolicyERNS_7greaterIlEEPlEEbT1_S6_T0_ : 656 -> 640
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyER17LessByStringIndexPlLb0EEEvT1_S5_T0_NS_15iterator_traitsIS5_E15difference_typeEb : 2612 -> 2596
+~ __ZNSt3__127__insertion_sort_incompleteB9fqn220106INS_17_ClassicAlgPolicyER17LessByStringIndexPlEEbT1_S5_T0_ : 712 -> 696
+~ __ZN14TShapingEngine18ApplyVerticalFormsEPK8__CTFontPKtPtl : 1624 -> 1612
+~ __ZNSt3__18__uniqueB9fqn220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPlEES4_RNS_10__equal_toEEENS_4pairIT0_S8_EES8_T1_OT2_ : 116 -> 100
+~ __ZNK5TLine21EnumerateCaretOffsetsENSt3__18functionIFvdlbPbEEE : 3968 -> 3972
+~ __ZZNK5TLine21EnumerateCaretOffsetsENSt3__18functionIFvdlbPbEEEENK3$_0clEmi : 484 -> 472
+~ __ZNSt3__113__stable_sortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZZNK5TLine21EnumerateCaretOffsetsENS_8functionIFvdlbPbEEEENK3$_0clEmiE9CaretPairEEvT1_SD_T0_NS_15iterator_traitsISD_E15difference_typeEPNSG_10value_typeEl : 640 -> 636
+~ __ZNSt3__115__inplace_mergeINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZZNK5TLine21EnumerateCaretOffsetsENS_8functionIFvdlbPbEEEENK3$_0clEmiE9CaretPairEEvT1_SD_SD_OT0_NS_15iterator_traitsISD_E15difference_typeESI_PNSH_10value_typeEl : 1276 -> 1224
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN5TLine26SeparateCharWithGlyphIndexEPllE3$_0PP4TRunLb0EEEvT1_S9_T0_NS_15iterator_traitsIS9_E15difference_typeEb : 2544 -> 2528
+~ __ZNSt3__127__insertion_sort_incompleteB9fqn220106INS_17_ClassicAlgPolicyERZN5TLine26SeparateCharWithGlyphIndexEPllE3$_0PP4TRunEEbT1_S9_T0_ : 680 -> 664
+~ __ZNSt3__113__stable_sortINS_17_ClassicAlgPolicyERZNK5TLine21EnumerateCaretOffsetsENS_8functionIFvdlbPbEEEE3$_2PNS2_9CaretInfoEEEvT1_SB_T0_NS_15iterator_traitsISB_E15difference_typeEPNSE_10value_typeEl : 548 -> 544
+~ __ZNSt3__115__inplace_mergeINS_17_ClassicAlgPolicyERZNK5TLine21EnumerateCaretOffsetsENS_8functionIFvdlbPbEEEE3$_2PNS2_9CaretInfoEEEvT1_SB_SB_OT0_NS_15iterator_traitsISB_E15difference_typeESG_PNSF_10value_typeEl : 1288 -> 1236
+~ __ZN14TGlyphIterator16DoGlyphInsertionEjPK15BigEndianScalarItE : 380 -> 356
+~ _CTFontCreateWithQuickdrawInstance : 1264 -> 1272
+~ __ZZL21DrawGlyphsAtPositionsPK5TFontPKtPK7CGPointmP9CGContextRKN12_GLOBAL__N_123DrawGlyphsConfigurationEENK3$_0clE17CGAffineTransform : 772 -> 748
+~ __ZZL21DrawGlyphsAtPositionsPK5TFontPKtPK7CGPointmP9CGContextRKN12_GLOBAL__N_123DrawGlyphsConfigurationEENK3$_1clE17CGAffineTransform : 740 -> 716
+~ __ZNK5TFont16GetControlPointsEtj : 328 -> 348
+~ __ZNK5TFont24GetControlPointPositionsEtPKsPdm : 464 -> 456
+~ __ZL24GetGlyphAdvancesForStyleP6CGFontPK17CGAffineTransformjPKtlPd13AdvanceStride : 320 -> 316
+~ __ZNK5TFont14CopyDescriptorEb : 4496 -> 4484
+~ __ZNK18ItemVariationStore16ValueForDeltaSetEttNSt3__17variantIJNS0_4spanIKsLm18446744073709551615EEENS2_IKdLm18446744073709551615EEEEEE : 1044 -> 1024
+~ __ZNK13TFontFeatures11HandleAliasERK15TFeatureSettingbR15TCFMutableArrayS4_ : 1108 -> 1116
+~ __Z17IndexesBracketingIPKfdENSt3__19enable_ifIXsr3stdE19is_floating_point_vIT0_EENS2_4pairIttEEE4typeET_S9_S4_S4_ : 200 -> 204
+~ __ZL25HasRequiredSymbolicTraitsPK10__CFStringj : 120 -> 128
+~ __Z20MakeSpliceDescriptorPK10__CFStringmS1_S1_PK10__CFNumberS4_j23CTFontTextStylePlatformjS4_S4_22CTFontLegibilityWeightPK11__CFBooleanPKvS1_ : 12628 -> 12640
+~ __ZNK11COLRv1Table15ClipBoxForGlyphEt : 740 -> 728
+~ __ZNK11COLRv1Table11RenderPaintEPKNS_5PaintERNS_11RenderStateE : 12184 -> 12112
+~ __ZNK6COLRv114PaintTransform14ApplyVariationERK11COLRv1TablePKv7CGPoint : 480 -> 472
+~ __ZN3OTL15TableFromOffsetIN6COLRv15PaintE17BigEndianScalar24EEPKT_PKvS8_RKNS_8OffsetToIS4_T0_EE : 152 -> 140
+~ __ZNK11COLRv1Table16UnpackColorStopsEPKNS_5PaintERNS_11RenderStateEPNSt3__16vectorIdNS5_9allocatorIdEEEEPNS6_I6TCFRefIP7CGColorENS7_ISE_EEEEPNS_6ExtendE : 1228 -> 1212
+~ __Z31EnumerateGlyphsWithLayerRecordsPK8__CFDataU13block_pointerFv7CFRangeE : 212 -> 196
+~ __ZN11TJustEngine18GenerateMaximaListERK5TLineRK11TCharStream7CFRanged12DistributionmRNSt3__16vectorI19JustLeftRightMaximaNS8_9allocatorISA_EEEERNS9_INS8_5tupleIJlNS8_10unique_ptrINS9_ItNSB_ItEEEENS8_14default_deleteISI_EEEE6TCFRefIPK8__CFDataEEEENSB_ISR_EEEE : 1964 -> 1932
+~ __ZN11TJustEngine13DistributeGapENSt3__111__wrap_iterIPP5CTRunEES5_7CFRanged12DistributionmPNS0_6vectorI19JustLeftRightMaximaNS0_9allocatorIS9_EEEEPNS8_IdNSA_IdEEEEPNS0_4pairIddEE : 1288 -> 1292
+~ __ZN14TAATJustEngine15GenerateMaximasERK5TLineRK11TCharStream7CFRangeRNSt3__16vectorI19JustLeftRightMaximaNS7_9allocatorIS9_EEEElb12DistributionRb : 856 -> 860
+~ __ZN16TCombiningEngine30ComposeHebrewPresentationFormsERKNSt3__16vectorItNS0_9allocatorItEEEEPS4_RK5TFont : 996 -> 1004
+~ __ZL35AdjustIndexesForPairwiseCompositionPNSt3__16vectorIlNS_9allocatorIlEEEE : 276 -> 292
+~ __ZL29ApplyModifiedCombiningClassesmRKNSt3__16vectorItNS_9allocatorItEEEEbPNS0_IlNS1_IlEEEEPS3_ : 1204 -> 1192
+~ __ZZL28ModifyArabicCombiningClassesRKNSt3__16vectorItNS_9allocatorItEEEERNS0_IhNS1_IhEEEEENK3$_1clEhh : 496 -> 504
+~ __ZN14TGlyphComposer13ComposeGlyphsElRKNSt3__16vectorItNS0_9allocatorItEEEERKNS1_IlNS2_IlEEEE : 3860 -> 3868
+~ __ZNSt3__134__uninitialized_allocator_relocateB9fqn220106INS_9allocatorINS_8functionIFvR11TAttributesEEEEEPS6_EEvRT_T0_SB_SB_ : 192 -> 176
+~ __ZL27SecondaryScaleRecipeForFontPK8__CTFontPK10__CFStringdS4_dNSt3__18optionalIdEE : 800 -> 804
+~ __ZNK3OTL4GPOS21ApplyPosLookupRecordsEPKNS_14LookupSubtableEPKNS_15PosLookupRecordEjR14TGlyphIteratorPlmm : 360 -> 328
+~ __ZN14TGlyphIterator25MatchCoverSequenceAndNoteEjPKN3OTL8OffsetToINS0_8Coverage5TableE15BigEndianScalarItEEEPlPKvSB_ : 348 -> 344
+~ __ZNK3OTL4GPOS27ApplyChainContextPosFormat1EPKNS_14LookupSubtableER14TGlyphIteratorjm : 1200 -> 1168
+~ __ZNK3OTL4GPOS27ApplyChainContextPosFormat2EPKNS_14LookupSubtableER14TGlyphIteratorm : 1384 -> 1344
+~ __Z20EqualSequenceAndNoteI15BigEndianScalarItEEPKT_S4_S4_R14TGlyphIteratorPl : 152 -> 128
+~ __Z25EqualClassSequenceAndNoteI15BigEndianScalarItEEPKT_PKN3OTL13ClassDefTableES4_S4_R14TGlyphIteratorPl : 168 -> 152
+~ __ZNK3OTL4GSUB28WouldSubstituteChainContext1EPKNS_14LookupSubtableEjPKtj : 492 -> 488
+~ __ZNK3OTL4GSUB28WouldSubstituteChainContext2EPKNS_14LookupSubtableEPKtj : 572 -> 552
+~ __ZNK3OTL7GCommon10GetLookupsERKNS_13FeatureBufferEPNSt3__16vectorINS4_4pairIttEENS4_9allocatorIS7_EEEEb : 640 -> 636
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIttEELb0EEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEb : 4188 -> 4164
+~ __ZNSt3__127__insertion_sort_incompleteB9fqn220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIttEEEEbT1_S8_T0_ : 1140 -> 1100
+~ __ZN8TRunGlue13ReorderGlyphsERK11TCharStream : 868 -> 808
+~ __ZNK8TRunGlue22GetGlyphIDForCharIndexEl : 208 -> 212
+~ __ZN8TRunGlue26ReplaceCharRangeWithGlyphsE7CFRangeRKNSt3__16vectorItNS1_9allocatorItEEEES7_PKl : 1452 -> 1484
+~ __ZN8TRunGlue16DoGlyphInsertionEPKttbbllbPb : 1268 -> 1252
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN8TRunGlue30SeparateCharactersInGlyphRangeE7CFRangeE3$_0PNS_4pairIllEELb0EEEvT1_S9_T0_NS_15iterator_traitsIS9_E15difference_typeEb : 3000 -> 2988
+~ __ZNSt3__127__insertion_sort_incompleteB9fqn220106INS_17_ClassicAlgPolicyERZN8TRunGlue30SeparateCharactersInGlyphRangeE7CFRangeE3$_0PNS_4pairIllEEEEbT1_S9_T0_ : 760 -> 744
+~ _vImageCompressionDecode_BGRA8888 : 4228 -> 4156
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN3OTL12GlyphLookups11SortLookupsEvEUlRKNS3_12LookupRangesES6_E_PS4_Lb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb : 4076 -> 4004
+~ __ZNSt3__127__insertion_sort_incompleteB9fqn220106INS_17_ClassicAlgPolicyERZN3OTL12GlyphLookups11SortLookupsEvEUlRKNS3_12LookupRangesES6_E_PS4_EEbT1_SA_T0_ : 904 -> 856
+~ __ZL11HasAnusvaraRN8TRunGlue6TGlyphES0_ : 208 -> 212
+~ __ZN20MyanmarShapingEngine18ApplyScriptShapingERKN3OTL4GSUBEPNS0_12GlyphLookupsE : 4512 -> 4540
+~ __ZN26TOpenTypePositioningEngineC2ER8TRunGluePK11TCharStream16ScriptAndLangSysP7CFRange : 628 -> 624
+~ __ZZNK14TDecorationRun27CalculateGlyphIntersectionsE17CGAffineTransformRK4TRunddRKNSt3__18functionIFvddEEEEN3$_18__invokeEPvPK13CGPathElement : 832 -> 828
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN12_GLOBAL__N_112PathObserver12IntersectionELb0EEEvT1_S9_T0_NS_15iterator_traitsIS9_E15difference_typeEb : 3376 -> 3352
+~ __ZNSt3__127__insertion_sort_incompleteB9fqn220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN12_GLOBAL__N_112PathObserver12IntersectionEEEbT1_S9_T0_ : 760 -> 736
+~ __Z26CopyLocalizedOTFeatureNamePK10__CFString : 140 -> 144
+~ __Z31DefaultSettingForAATFeatureTypet : 116 -> 128
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEP13PseudoFeatureLb0EEEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeEb : 3796 -> 3764
+~ __ZNSt3__127__insertion_sort_incompleteB9fqn220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEP13PseudoFeatureEEbT1_S7_T0_ : 1020 -> 1004
+~ __ZNSt3__115__inplace_mergeINS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPjEEEEvT1_S8_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeESD_PNSC_10value_typeEl : 1244 -> 1224
+~ __Z38GetLanguageAwareOutsetIndexForFontNamePK10__CFStringRdS2_S2_S2_S1_ : 1072 -> 1060
+~ __ZNK9TBaseFont19GetUnscaledAdvancesEPKtPd13AdvanceStridel : 392 -> 388
+~ __ZNK14TComponentFont19GetUnscaledAdvancesEPKtPd13AdvanceStridel : 252 -> 264
+~ __Z35CreateVariationDictFromGraphicsFontP6CGFontPK14__CFDictionary : 488 -> 464
+~ __Z42VariationsForGraphicsFontByAddingVariationP6CGFontPK14__CFDictionary : 580 -> 564
+~ __ZN17TArabicJustEngine15GenerateMaximasERK5TLineRK11TCharStream7CFRangeRNSt3__16vectorI19JustLeftRightMaximaNS7_9allocatorIS9_EEEElb12DistributionRb : 4836 -> 4824
+~ __ZN12_GLOBAL__N_116MorxTableBuilder4FromERK9TBaseFontPKN3OTL7GCommon6HeaderEPKvRNS_13OTFeaturesMapE : 16912 -> 16792
+~ __ZNSt3__110__function6__funcIZL16BuildFeaturesMapPKN3OTL7GCommon6HeaderEPKvRN12_GLOBAL__N_113OTFeaturesMapEE3$_3FbjPKNS2_12FeatureTableERbEEclEOjOSF_SG_ : 2852 -> 2872
+~ __ZL29AddPrevLigaturesFromLigInputsRN12_GLOBAL__N_113ArabicLookupsERKNSt3__16vectorINS_8LigInputENS2_9allocatorIS4_EEEE : 460 -> 412
+~ __ZN12_GLOBAL__N_117ParseSubstFormat3EPKN3OTL24ChainContextSubstFormat3EPKvRKNSt3__16vectorItNS6_9allocatorItEEEEPNS_12SubstFormat3E : 940 -> 960
+~ __ZNSt3__123__stable_partition_implINS_17_ClassicAlgPolicyERZN12_GLOBAL__N_116MorxTableBuilder4FromERK9TBaseFontPKN3OTL7GCommon6HeaderEPKvRNS2_13OTFeaturesMapEE3$_4NS_11__wrap_iterIPNS2_10LookupInfoEEElNS_4pairISK_lEEEET1_SO_SO_T0_T2_T3_NS_26bidirectional_iterator_tagE : 852 -> 804
+~ __ZNSt3__123__stable_partition_implINS_17_ClassicAlgPolicyERZN12_GLOBAL__N_116MorxTableBuilder4FromERK9TBaseFontPKN3OTL7GCommon6HeaderEPKvRNS2_13OTFeaturesMapEE3$_7NS_11__wrap_iterIPNS2_10LookupInfoEEElNS_4pairISK_lEEEET1_SO_SO_T0_T2_T3_NS_26bidirectional_iterator_tagE : 756 -> 744
+~ __ZNSt3__116allocator_traitsINS_9allocatorIN12_GLOBAL__N_19StateInfoEEEE9constructB9fqn220106IS3_JRKS3_ELi0EEEvRS4_PT_DpOT0_ : 248 -> 212
+~ __ZL27AddGlyphClassesByAppearance9LKTHandletRKNSt3__16vectorINS0_4pairItjEENS0_9allocatorIS3_EEEE : 440 -> 428
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN12_GLOBAL__N_129MorxContextualSubtableBuilder16FromSubstitutionEljjRKNS_6vectorINS4_ItNS_9allocatorItEEEENS5_IS7_EEEESB_PK8__CFDataRKS7_E3$_1PNS_4pairItjEELb0EEEvT1_SM_T0_NS_15iterator_traitsISM_E15difference_typeEb : 3240 -> 3212
+~ __ZNSt3__127__insertion_sort_incompleteB9fqn220106INS_17_ClassicAlgPolicyERZN12_GLOBAL__N_129MorxContextualSubtableBuilder16FromSubstitutionEljjRKNS_6vectorINS4_ItNS_9allocatorItEEEENS5_IS7_EEEESB_PK8__CFDataRKS7_E3$_1PNS_4pairItjEEEEbT1_SM_T0_ : 968 -> 936
+~ __ZN12_GLOBAL__N_129MorxContextualSubtableBuilder23PrepareArabicStateTableERK9TBaseFontlNSt3__16vectorINS_8LigInputENS4_9allocatorIS6_EEEERKNS5_ItNS7_ItEEEE : 1424 -> 1416
+~ __ZNSt3__16vectorIN12_GLOBAL__N_18LigInputENS_9allocatorIS2_EEEC1B9fqn220106ERKS5_ : 168 -> 140
+~ __ZNSt3__116allocator_traitsINS_9allocatorIN12_GLOBAL__N_116MorxChainBuilderEEEE9constructB9fqn220106IS3_JRKS3_ELi0EEEvRS4_PT_DpOT0_ : 356 -> 348
+~ __ZN19SyriacShapingEngine11SetFeaturesERKN3OTL4GSUBERNS0_12GlyphLookupsE : 1128 -> 1112
+~ __ZN14PostGSUBFixups5applyER8TRunGluetRK15IndicClassTablej : 2000 -> 1980
+~ __ZN21IndicReorderingOutput12finishMatrasElb : 704 -> 680
+~ __ZN22UniversalShapingEngine18ApplyScriptShapingERKN3OTL4GSUBEPNS0_12GlyphLookupsE : 8824 -> 8816
+~ __ZN23TOpenTypeBaselineEngine15GetBaselineInfoERKN3OTL4BASEERK5TFontjP13TBaselineInfoP13BaselineClass : 3160 -> 3168
+~ __ZNK3OTL4BASE11ValueForTagERK5TFontjj : 876 -> 884
+~ __ZNK19UniversalClassTable12getCharClassEj : 136 -> 148
+~ __ZL21DrawGlyphsAtPositionsPK5TFontPKtPK7CGPointmP9CGContextRKN12_GLOBAL__N_123DrawGlyphsConfigurationE : 4860 -> 4856
+~ __ZL16CustomOTFeaturesRK9TBaseFontjb : 596 -> 588
+~ __ZL19FeatureParamsForTagIN3OTL29CharacterVariantFeatureParamsEEPKT_PK8__CFDataj : 504 -> 500
+~ __ZL19FeatureParamsForTagIN3OTL25StylisticSetFeatureParamsEEPKT_PK8__CFDataj : 504 -> 500
+
+```

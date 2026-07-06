@@ -1,0 +1,461 @@
+## CryptexServer
+
+> `/System/Library/PrivateFrameworks/CryptexServer.framework/Versions/A/CryptexServer`
+
+```diff
+
+-  __TEXT.__text: 0x2f3130
++  __TEXT.__text: 0x2f34d4
+   __TEXT.__objc_methlist: 0x104
+-  __TEXT.__const: 0x583e6
++  __TEXT.__const: 0x58416
+   __TEXT.__cstring: 0x1d2c3
+   __TEXT.__swift5_typeref: 0x44cd
+   __TEXT.__oslogstring: 0x168a
+
+   __TEXT.__swift5_builtin: 0x26c
+   __TEXT.__swift5_mpenum: 0xa8
+   __TEXT.__gcc_except_tab: 0x30f4
+-  __TEXT.__unwind_info: 0xc600
+-  __TEXT.__eh_frame: 0x19a9c
++  __TEXT.__unwind_info: 0xc618
++  __TEXT.__eh_frame: 0x19c04
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 14995
+-  Symbols:   31242
++  Functions: 14977
++  Symbols:   31239
+   CStrings:  3705
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__cstring : content changed
+~ __TEXT.__swift5_typeref : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_fieldmd : content changed
+~ __TEXT.__swift5_capture : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__gcc_except_tab : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+~ __DATA_DIRTY.__data : content changed
+Symbols:
++ _$s10Foundation15ContiguousBytesP04withC0yqd__qd__s7RawSpanVqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFTq
++ _$s10Foundation15ContiguousBytesPAARi_zRi0_zrlE04withC0yqd__qd__s7RawSpanVqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lF
++ _$s10Foundation15ContiguousBytesPAARi_zRi0_zrlE04withC0yqd__qd__s7RawSpanVqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFqd__SWKXEfU_
++ _$s10Foundation15ContiguousBytesPAARi_zRi0_zrlE04withC0yqd__qd__s7RawSpanVqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFqd__SWKXEfU_TA
++ _$s12CryptoExtras22BoringSSLRSAPrivateKeyV7Backing33_207EAA3F6E17E9956D23C900B2D04ED1LLC20verifyBlindSignature_3foryAA4_RSAO0Q7SigningO0qR0V_xtK10Foundation15ContiguousBytesRzlFySWKXEfU_ySWKXEfU_ySwKXEfU_
++ _$s12CryptoExtras4_RSAO12BlindSigningO0D9SignatureV10Foundation15ContiguousBytesAahIP04withI0yqd__qd__s7RawSpanVqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFTW
++ _$s12CryptoExtras4_RSAO7SigningO12RSASignatureV10Foundation15ContiguousBytesAahIP04withH0yqd__qd__s7RawSpanVqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFTW
++ _$s9CryptoKit3AESO0A6ExtrasE4CMACV3MACV10Foundation15ContiguousBytesAdiJP04withI0yqd__qd__s7RawSpanVqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFTW
++ _$s9CryptoKit3AESO3GCMO0A6ExtrasE4_SIVO5NonceV10Foundation15ContiguousBytesAfkLP04withJ0yqd__qd__s7RawSpanVqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFTW
++ _$s9CryptoKit8InsecureO0A6ExtrasE11ChaCha20CTRO5NonceV10Foundation15ContiguousBytesAdiJP04withK0yqd__qd__s7RawSpanVqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFTW
++ _$s9CryptoKit8InsecureO0A6ExtrasE11ChaCha20CTRO7CounterV10Foundation15ContiguousBytesAdiJP04withK0yqd__qd__s7RawSpanVqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFTW
++ _swift_willThrowTyped
+- _$s12CryptoExtras19BlindSigningHelpersO15RSASSAPSSVerify33_207EAA3F6E17E9956D23C900B2D04ED1LL12rsaPublicKey16modulusByteCount7message9signature10parametersSbs13OpaquePointerVSg_SiAA4_RSAO0cD0O15PreparedMessageVAO0D0O12RSASignatureVAQ10ParametersVy__xGtK0A3Kit12HashFunctionRzlFZSbSWXEfU_SbSwXEfU_TA
+- _$s4X50915NameConstraintsV8DNSNamesVSlAASly11SubSequenceQzSny5IndexQzGcigTWTm
+- _$s9CryptoKit3AESO0A6ExtrasE4CMACV7Backing33_E2A917D6E59EAC3BCE6B5A2E3A859277LLC8finalizeAF3MACVyF
+- _$sSlsE7isEmptySbvg4X50915NameConstraintsV10URIDomainsV_Tgq5
+- _$sSlsE7isEmptySbvg4X50915NameConstraintsV14EmailAddressesV_Tgq5
+- _$sSlsE7isEmptySbvg4X50915NameConstraintsV8DNSNamesV_Tgq5
+- _$sSlsE7isEmptySbvg4X50915NameConstraintsV8IPRangesV_Tgq5
+- _$sSlss5SliceVyxG11SubSequenceRtzrlEyACSny5IndexQzGcig4X50915NameConstraintsV10URIDomainsV_Tgq5Tf4nn_g
+- _$sSlss5SliceVyxG11SubSequenceRtzrlEyACSny5IndexQzGcig4X50915NameConstraintsV14EmailAddressesV_Tgq5Tf4nn_g
+- _$sSlss5SliceVyxG11SubSequenceRtzrlEyACSny5IndexQzGcig4X50915NameConstraintsV8DNSNamesV_Tgq5Tf4nn_g
+- _$sSlss5SliceVyxG11SubSequenceRtzrlEyACSny5IndexQzGcig4X50915NameConstraintsV8IPRangesV_Tgq5Tf4nn_g
+- _$ss29withUnsafeTemporaryAllocation9byteCount9alignment_xSi_SixSwq_YKXEtq_YKs5ErrorR_Ri_zr0_lFs6ResultOyxq_GBpXEfU_yt_sAD_pTg5203$s12CryptoExtras22BoringSSLRSAPrivateKeyV7Backing33_207EAA3F6E17E9956D23C900B2D04ED1LLC20verifyBlindSignature_3foryAA4_RSAO0Q7SigningO0qR0V_xtK10Foundation15ContiguousBytesRzlFySWKXEfU_ySWKXEfU_ySwKXEfU_0K6Extras0mnO0V7Backing04_207rstuvwxyZ0LLCS2WTf1nnc_n
+- _$ss6ResultOy12CryptoExtras4_RSAO12BlindSigningO0E9SignatureVs5Error_pGWOe
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Binaries/libcryptex/install/Symbols/CryptexServer"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/../bytestring/internal.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_bitstr.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_bool.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_d2i_fp.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_gentm.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_i2d_fp.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_int.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_mbstr.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_object.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_strex.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_strnid.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_time.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_type.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_utctm.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/asn1_lib.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/asn_pack.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/tasn_dec.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/tasn_enc.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/tasn_new.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/tasn_utl.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bio/bio.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bio/bio_mem.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bio/file.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bio/pair.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bn/bn_asn1.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bn/convert.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bn/exponentiation.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bn/sqrt.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/buf/buf.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bytestring/cbb.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/cipher/e_aesctrhmac.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/cipher/e_aeseax.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/cipher/e_aesgcmsiv.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/cipher/e_chacha20poly1305.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/cipher/e_tls.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/cms/cms.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/conf/conf.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/dh/../bytestring/internal.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/dh/dh_asn1.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/dh/params.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/digest/digest_extra.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/dsa/../bytestring/internal.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/dsa/dsa.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/dsa/dsa_asn1.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ec/../bytestring/internal.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ec/ec_asn1.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ec/ec_derive.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ec/hash_to_curve.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ecdh/ecdh.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ecdsa/../bytestring/internal.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ecdsa/ecdsa_asn1.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/../bytestring/internal.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/evp.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/evp_asn1.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/evp_ctx.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_dh.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_dh_asn1.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_dsa_asn1.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_ec.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_ec_asn1.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_ed25519.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_ed25519_asn1.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_hkdf.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_rsa.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_rsa_asn1.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_x25519.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_x25519_asn1.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/print.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/scrypt.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ex_data.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/../../mem_internal.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/add.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/bn.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/ctx.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/div.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/exponentiation.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/gcd.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/gcd_extra.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/jacobi.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/montgomery.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/mul.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/prime.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/random.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/shift.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/sqrt.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/cipher/aead.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/cipher/cipher.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/cipher/e_aes.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/cipher/e_aesccm.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/dh/check.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/dh/dh.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/digest/digest.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/digestsign/digestsign.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/ec.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/ec_key.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/ec_montgomery.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/felem.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/oct.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/p224-64.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/p256-nistz.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/p256.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/scalar.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/simple.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ecdh/ecdh.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ecdsa/ecdsa.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/hkdf/hkdf.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/rsa/blinding.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/rsa/padding.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/rsa/rsa.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/rsa/rsa_impl.cc.inc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/hpke/hpke.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/mem.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/obj/obj.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pem/pem_all.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pem/pem_info.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pem/pem_lib.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pem/pem_oth.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pem/pem_pk8.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pem/pem_pkey.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pkcs7/pkcs7.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pkcs7/pkcs7_x509.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pkcs8/p5_pbev2.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pkcs8/pkcs8.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pkcs8/pkcs8_x509.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/rsa/../bytestring/internal.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/rsa/rsa_asn1.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/rsa/rsa_crypt.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/spake2plus/spake2plus.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/stack/stack.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/trust_token/pmbtoken.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/trust_token/trust_token.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/trust_token/voprf.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/../bytestring/internal.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/a_sign.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/a_verify.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/algorithm.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/asn1_gen.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/by_dir.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/by_file.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/i2d_pr.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/policy.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/rsa_pss.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/t_crl.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/t_req.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/t_x509.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_akey.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_alt.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_bcons.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_bitst.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_conf.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_cpols.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_crld.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_extku.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_ia5.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_info.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_lib.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_ncons.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_pcons.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_pmaps.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_prn.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_skey.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_utl.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_att.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_cmp.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_obj.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_req.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_set.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_v3.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_vfy.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_vpm.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509cset.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509name.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509rset.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509spki.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x_algor.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x_all.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x_crl.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x_name.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x_pubkey.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x_req.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wGzaFd/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x_x509.cc"
++ "761.0.1"
++ "@(#)VERSION:Darwin Cryptex Server Framework Version 1.0.0: Fri Jun 26 22:08:54 PDT 2026; root:libcryptex-761.0.1~15/CryptexServer/RELEASE_ARM64E"
++ "Darwin Cryptex Server Framework Version 1.0.0: Fri Jun 26 22:08:54 PDT 2026; root:libcryptex-761.0.1~15/CryptexServer/RELEASE_ARM64E"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Binaries/libcryptex/install/Symbols/CryptexServer"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/../bytestring/internal.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_bitstr.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_bool.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_d2i_fp.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_gentm.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_i2d_fp.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_int.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_mbstr.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_object.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_strex.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_strnid.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_time.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_type.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/a_utctm.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/asn1_lib.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/asn_pack.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/tasn_dec.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/tasn_enc.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/tasn_new.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/asn1/tasn_utl.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bio/bio.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bio/bio_mem.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bio/file.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bio/pair.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bn/bn_asn1.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bn/convert.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bn/exponentiation.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bn/sqrt.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/buf/buf.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/bytestring/cbb.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/cipher/e_aesctrhmac.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/cipher/e_aeseax.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/cipher/e_aesgcmsiv.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/cipher/e_chacha20poly1305.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/cipher/e_tls.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/cms/cms.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/conf/conf.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/dh/../bytestring/internal.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/dh/dh_asn1.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/dh/params.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/digest/digest_extra.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/dsa/../bytestring/internal.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/dsa/dsa.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/dsa/dsa_asn1.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ec/../bytestring/internal.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ec/ec_asn1.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ec/ec_derive.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ec/hash_to_curve.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ecdh/ecdh.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ecdsa/../bytestring/internal.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ecdsa/ecdsa_asn1.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/../bytestring/internal.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/evp.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/evp_asn1.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/evp_ctx.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_dh.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_dh_asn1.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_dsa_asn1.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_ec.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_ec_asn1.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_ed25519.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_ed25519_asn1.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_hkdf.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_rsa.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_rsa_asn1.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_x25519.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/p_x25519_asn1.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/print.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/evp/scrypt.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/ex_data.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/../../mem_internal.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/add.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/bn.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/ctx.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/div.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/exponentiation.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/gcd.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/gcd_extra.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/jacobi.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/montgomery.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/mul.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/prime.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/random.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/shift.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/bn/sqrt.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/cipher/aead.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/cipher/cipher.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/cipher/e_aes.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/cipher/e_aesccm.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/dh/check.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/dh/dh.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/digest/digest.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/digestsign/digestsign.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/ec.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/ec_key.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/ec_montgomery.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/felem.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/oct.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/p224-64.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/p256-nistz.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/p256.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/scalar.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ec/simple.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ecdh/ecdh.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/ecdsa/ecdsa.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/hkdf/hkdf.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/rsa/blinding.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/rsa/padding.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/rsa/rsa.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/fipsmodule/rsa/rsa_impl.cc.inc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/hpke/hpke.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/mem.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/obj/obj.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pem/pem_all.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pem/pem_info.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pem/pem_lib.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pem/pem_oth.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pem/pem_pk8.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pem/pem_pkey.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pkcs7/pkcs7.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pkcs7/pkcs7_x509.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pkcs8/p5_pbev2.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pkcs8/pkcs8.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/pkcs8/pkcs8_x509.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/rsa/../bytestring/internal.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/rsa/rsa_asn1.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/rsa/rsa_crypt.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/spake2plus/spake2plus.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/stack/stack.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/trust_token/pmbtoken.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/trust_token/trust_token.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/trust_token/voprf.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/../bytestring/internal.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/a_sign.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/a_verify.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/algorithm.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/asn1_gen.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/by_dir.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/by_file.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/i2d_pr.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/policy.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/rsa_pss.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/t_crl.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/t_req.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/t_x509.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_akey.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_alt.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_bcons.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_bitst.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_conf.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_cpols.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_crld.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_extku.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_ia5.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_info.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_lib.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_ncons.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_pcons.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_pmaps.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_prn.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_skey.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/v3_utl.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_att.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_cmp.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_obj.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_req.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_set.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_v3.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_vfy.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509_vpm.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509cset.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509name.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509rset.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x509spki.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x_algor.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x_all.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x_crl.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x_name.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x_pubkey.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x_req.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zqiwBm/Sources/libcryptex/vendor/checkouts/swift-crypto/Sources/CCryptoBoringSSL/crypto/x509/x_x509.cc"
+- "757"
+- "@(#)VERSION:Darwin Cryptex Server Framework Version 1.0.0: Sat Jun 13 22:43:34 PDT 2026; root:libcryptex-757~443/CryptexServer/RELEASE_ARM64E"
+- "Darwin Cryptex Server Framework Version 1.0.0: Sat Jun 13 22:43:34 PDT 2026; root:libcryptex-757~443/CryptexServer/RELEASE_ARM64E"
+
+```

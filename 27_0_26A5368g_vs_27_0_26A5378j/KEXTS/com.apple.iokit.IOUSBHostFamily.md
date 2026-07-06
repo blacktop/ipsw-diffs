@@ -1,0 +1,92 @@
+## com.apple.iokit.IOUSBHostFamily
+
+> `com.apple.iokit.IOUSBHostFamily`
+
+```diff
+
+-  __TEXT.__cstring: 0xa5e4
+-  __TEXT.__os_log: 0x883e
+-  __TEXT.__const: 0x2008
+-  __TEXT_EXEC.__text: 0x9adf8
++  __TEXT.__cstring: 0xa538
++  __TEXT.__os_log: 0x87c2
++  __TEXT.__const: 0x2018
++  __TEXT_EXEC.__text: 0x9ac74
+   __TEXT_EXEC.__auth_stubs: 0xd50
+   __DATA.__data: 0x1f0
+   __DATA.__common: 0x970
+   __DATA.__bss: 0x10
+   __DATA_CONST.__mod_init_func: 0xf0
+   __DATA_CONST.__mod_term_func: 0xe8
+-  __DATA_CONST.__const: 0x14a58
++  __DATA_CONST.__const: 0x14a60
+   __DATA_CONST.__kalloc_type: 0x1b80
+   __DATA_CONST.__kalloc_var: 0x280
+   __DATA_CONST.__auth_got: 0x6a8
+   __DATA_CONST.__got: 0x1f0
+-  Functions: 2332
+-  Symbols:   4265
+-  CStrings:  1667
++  Functions: 2334
++  Symbols:   4264
++  CStrings:  1662
+ 
+Sections:
+~ __DATA.__data : content changed
+~ __DATA_CONST.__mod_init_func : content changed
+~ __DATA_CONST.__mod_term_func : content changed
+~ __DATA_CONST.__kalloc_type : content changed
+~ __DATA_CONST.__kalloc_var : content changed
+~ __DATA_CONST.__auth_got : content changed
+~ __DATA_CONST.__got : content changed
+Symbols:
++ __ZN22AppleUSBHostController18addMapperReferenceEv
++ __ZN22AppleUSBHostController19deferBufferTeardownEP24IOBufferMemoryDescriptor
++ __ZN22AppleUSBHostController20blockMapperReferenceEv
++ __ZN22AppleUSBHostController21tryAddMapperReferenceEv
++ __ZN22AppleUSBHostController22unblockMapperReferenceEv
++ __ZZN22AppleUSBHostController11createPortsEvE21kalloc_type_view_3028
++ __ZZN22AppleUSBHostController12didTerminateEP9IOServicejPbE20kalloc_type_view_829
++ __ZZN22AppleUSBHostController12didTerminateEP9IOServicejPbE20kalloc_type_view_848
++ __ZZN22AppleUSBHostController12didTerminateEP9IOServicejPbE20kalloc_type_view_858
++ __ZZN22AppleUSBHostController18addMapperReferenceEvE11_os_log_fmt
++ __ZZN22AppleUSBHostController21tryAddMapperReferenceEvE11_os_log_fmt
++ __ZZN22AppleUSBHostController22didTerminateThreadCallEPNS_32tControllerDidTerminateArgumentsEE20kalloc_type_view_880
++ __ZZN22AppleUSBHostController26powerStateDidChangeToGatedEmmP9IOServiceE11_os_log_fmt
++ __ZZN22AppleUSBHostController4freeEvE20kalloc_type_view_549
++ __ZZZN22AppleUSBHostController18systemWillShutdownEjEUb0_E11_os_log_fmt
++ __ZZZN22AppleUSBHostController18systemWillShutdownEjEUb0_E11_os_log_fmt_0
++ ____ZN22AppleUSBHostController19deferBufferTeardownEP24IOBufferMemoryDescriptor_block_invoke
+- __ZN22AppleUSBHostController14registerBufferEP24IOBufferMemoryDescriptor
+- __ZN22AppleUSBHostController16unregisterBufferEP24IOBufferMemoryDescriptor
+- __ZN22AppleUSBHostController18addMapperReferenceEb
+- __ZZN22AppleUSBHostController11createPortsEvE21kalloc_type_view_3003
+- __ZZN22AppleUSBHostController12didTerminateEP9IOServicejPbE20kalloc_type_view_832
+- __ZZN22AppleUSBHostController12didTerminateEP9IOServicejPbE20kalloc_type_view_851
+- __ZZN22AppleUSBHostController12didTerminateEP9IOServicejPbE20kalloc_type_view_861
+- __ZZN22AppleUSBHostController18addMapperReferenceEbE11_os_log_fmt
+- __ZZN22AppleUSBHostController18setPowerStateGatedEmP9IOServiceE11_os_log_fmt_2
+- __ZZN22AppleUSBHostController22didTerminateThreadCallEPNS_32tControllerDidTerminateArgumentsEE20kalloc_type_view_883
+- __ZZN22AppleUSBHostController4freeEvE20kalloc_type_view_552
+- __ZZN22AppleUSBHostController5startEP9IOServiceE11_os_log_fmt_8
+- __ZZN40AppleUSBHostClientBufferMemoryDescriptor31initForServiceInTaskWithOptionsEP9IOServiceP4taskjmE11_os_log_fmt
+- __ZZZN22AppleUSBHostController18systemWillShutdownEjEUb1_E11_os_log_fmt
+- __ZZZN22AppleUSBHostController18systemWillShutdownEjEUb1_E11_os_log_fmt_0
+- __ZZZN22AppleUSBHostController22powerStateWillChangeToEmmP9IOServiceEUb0_E11_os_log_fmt
+- ____ZN22AppleUSBHostController14registerBufferEP24IOBufferMemoryDescriptor_block_invoke
+- ____ZN22AppleUSBHostController16unregisterBufferEP24IOBufferMemoryDescriptor_block_invoke
+- ____ZN22AppleUSBHostController22powerStateWillChangeToEmmP9IOService_block_invoke
+CStrings:
++ "%s@%s: %s::%s: blocked\n"
++ "121111121222121211211111222222222222222222222222222222222222222222222222222222222222222212121121111122222222222222221211222222222222222222222222222222222222222222222222212111111111222122222222"
++ "12111112122212121121111122222222222222222222222222222222222222222222222222222222222222221212112111112222222222222222121122222222222222222222222222222222222222222222222221211111111122212222222221212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121211"
++ "tryAddMapperReference"
+- "%s: %s::%s: failed to find AppleUSBHostController\n"
+- "%s@%s: %s::%s: failed to create _bufferCollection\n"
+- "%s@%s: %s::%s: flushed %u IO buffer mappings\n"
+- "1211111212221212112111112222222222222222222222222222222222222222222222222222222222222222121211211111222222222222222212112222222222222222222222222222222222222222222222222121111111112221122222222"
+- "121111121222121211211111222222222222222222222222222222222222222222222222222222222222222212121121111122222222222222221211222222222222222222222222222222222222222222222222212111111111222112222222221212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121211"
+- "initForServiceInTaskWithOptions"
+- "powerStateWillChangeTo_block_invoke"
+
+```

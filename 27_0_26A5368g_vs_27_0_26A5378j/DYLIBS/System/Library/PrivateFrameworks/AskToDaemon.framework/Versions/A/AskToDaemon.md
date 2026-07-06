@@ -1,0 +1,139 @@
+## AskToDaemon
+
+> `/System/Library/PrivateFrameworks/AskToDaemon.framework/Versions/A/AskToDaemon`
+
+```diff
+
+-  __TEXT.__text: 0x98ce8
+-  __TEXT.__objc_methlist: 0x608
+-  __TEXT.__const: 0x3408
+-  __TEXT.__swift5_typeref: 0x1a78
+-  __TEXT.__swift5_fieldmd: 0xea4
+-  __TEXT.__constg_swiftt: 0x1290
+-  __TEXT.__swift5_reflstr: 0x1054
++  __TEXT.__text: 0x9bad0
++  __TEXT.__objc_methlist: 0x618
++  __TEXT.__const: 0x35b8
++  __TEXT.__swift5_typeref: 0x1aea
++  __TEXT.__swift5_fieldmd: 0xef4
++  __TEXT.__constg_swiftt: 0x12d4
++  __TEXT.__swift5_reflstr: 0x10a4
+   __TEXT.__swift5_builtin: 0xa0
+   __TEXT.__swift5_assocty: 0xd8
+-  __TEXT.__cstring: 0x2447
+-  __TEXT.__swift5_protos: 0x88
+-  __TEXT.__swift5_proto: 0x1d0
+-  __TEXT.__swift5_types: 0x120
+-  __TEXT.__oslogstring: 0x56be
+-  __TEXT.__swift_as_entry: 0x194
+-  __TEXT.__swift_as_cont: 0x480
+-  __TEXT.__swift5_capture: 0x6f0
++  __TEXT.__cstring: 0x24a7
++  __TEXT.__swift5_protos: 0x8c
++  __TEXT.__swift5_proto: 0x1e0
++  __TEXT.__swift5_types: 0x128
++  __TEXT.__oslogstring: 0x58fe
++  __TEXT.__swift_as_entry: 0x1a4
++  __TEXT.__swift_as_cont: 0x4a8
++  __TEXT.__swift5_capture: 0x798
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__swift_as_ret: 0x210
+-  __TEXT.__unwind_info: 0x1858
+-  __TEXT.__eh_frame: 0x4a20
++  __TEXT.__swift_as_ret: 0x224
++  __TEXT.__unwind_info: 0x18f0
++  __TEXT.__eh_frame: 0x4b8c
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x90
+   __DATA_CONST.__objc_protolist: 0xa8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x718
++  __DATA_CONST.__objc_selrefs: 0x6e8
+   __DATA_CONST.__objc_protorefs: 0x60
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x28b8
+-  __AUTH_CONST.__objc_const: 0x1740
+-  __AUTH_CONST.__auth_got: 0x1258
++  __AUTH_CONST.__const: 0x2b20
++  __AUTH_CONST.__objc_const: 0x1768
++  __AUTH_CONST.__auth_got: 0x1230
+   __AUTH.__objc_data: 0x328
+-  __AUTH.__data: 0xf40
+-  __DATA.__data: 0x1048
+-  __DATA.__bss: 0x2880
+-  __DATA.__common: 0x230
++  __AUTH.__data: 0xf48
++  __DATA.__data: 0x1058
++  __DATA.__bss: 0x2a00
++  __DATA.__common: 0x280
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1630
+-  Symbols:   1307
+-  CStrings:  567
++  Functions: 1677
++  Symbols:   1322
++  CStrings:  576
+ 
+Sections:
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __AUTH.__objc_data : content changed
+Symbols:
++ __swift_closure_destructor.11Tm
++ __swift_closure_destructor.16Tm
++ __swift_closure_destructor.17Tm
++ __swift_closure_destructor.28Tm
++ __swift_closure_destructor.52Tm
++ _associated conformance 11AskToDaemon29MessagesPayloadProvidingErrorOSHAASQ
++ _get_enum_tag_for_layout_string 11AskToDaemon24MessagesPayloadProviding_pSg
++ _objc_msgSend$extensionPayloadURL
++ _symbolic $s11AskToDaemon22MessagesBubbleUpdatingP
++ _symbolic ScCy_____Sg_____G 9AskToCore9ATPayloadC s5NeverO
++ _symbolic So8NSNumberCSg
++ _symbolic _____ 11AskToDaemon29MessagesPayloadProvidingErrorO
++ _symbolic _____ 9AskToCore25AcknowledgmentAlertActionO
++ _symbolic _____Sg 9AskToCore9ATPayloadC
++ _symbolic ______p 11AskToDaemon22MessagesBubbleUpdatingP
++ _symbolic ______pSg 11AskToDaemon24MessagesPayloadProvidingP
++ _type_layout_string 11AskToDaemon21MessagesBubbleUpdaterV
+- __swift_closure_destructor.25Tm
+- __swift_closure_destructor.31Tm
+- __swift_closure_destructor.7Tm
+- _objc_msgSend$setFamilyName:
+- _objc_msgSend$setMiddleName:
+- _objc_msgSend$setNamePrefix:
+- _objc_msgSend$setNameSuffix:
+- _objc_msgSend$setNickname:
+- _objc_msgSend$setPhoneticFamilyName:
+- _objc_msgSend$setPhoneticGivenName:
+- _objc_msgSend$setPhoneticMiddleName:
+- _symbolic _____Sg 10Foundation20PersonNameComponentsV
+CStrings:
++ "%s has no active IDS endpoints and will not be considered iMessage-capable."
++ "ATURL.create returned nil for payload %s; cannot forward URL to AskToExtension"
++ "Client has no response tasks"
++ "Could not parse ATPayload for message GUID %s: %@"
++ "Error calling acknowledgmentAlertButtonTapped on client with id %s: %@"
++ "No IMSPIMessage or extensionPayloadURL for GUID %s; stashedIcon recovery skipped"
++ "Resolved %ld iMessage-capable send destination(s) from %ld parent(s)/guardian(s)."
++ "Successfully called acknowledgmentAlertButtonTapped on client with id %s"
++ "The following family members have no iMessage-capable handles and will be dropped from the recipient group: %s"
++ "_acknowledgmentAlertButtonTapped(question:action:)"
++ "storedPayload(forMessageGUID:)"
+- "Client is an AskTo-owned process. Returning no response tasks."
+- "Failed to get the new Messages payload from the extension. error: %@"
+
+```

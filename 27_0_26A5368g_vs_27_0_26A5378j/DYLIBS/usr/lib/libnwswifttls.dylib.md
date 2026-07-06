@@ -1,0 +1,116 @@
+## libnwswifttls.dylib
+
+> `/usr/lib/libnwswifttls.dylib`
+
+```diff
+
+-  __TEXT.__text: 0x100be4
++  __TEXT.__text: 0xff39c
+   __TEXT.__objc_methlist: 0x53c
+-  __TEXT.__const: 0x7194
++  __TEXT.__const: 0x7184
+   __TEXT.__cstring: 0x1776
+   __TEXT.__gcc_except_tab: 0xd8
+   __TEXT.__oslogstring: 0x52bb
+-  __TEXT.__swift5_typeref: 0xf87
++  __TEXT.__swift5_typeref: 0xf6f
+   __TEXT.__swift5_capture: 0x134
+   __TEXT.__constg_swiftt: 0x1668
+   __TEXT.__swift5_proto: 0x2f4
+
+   __TEXT.__swift5_mpenum: 0x68
+   __TEXT.__swift5_protos: 0x14
+   __TEXT.__swift5_types2: 0x10
+-  __TEXT.__unwind_info: 0x2968
+-  __TEXT.__eh_frame: 0x4160
++  __TEXT.__unwind_info: 0x28e0
++  __TEXT.__eh_frame: 0x3f60
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x2b8
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__got: 0x370
++  __DATA_CONST.__got: 0x368
+   __AUTH_CONST.__const: 0x3318
+   __AUTH_CONST.__cfstring: 0x40
+   __AUTH_CONST.__objc_const: 0x1dc0
+-  __AUTH_CONST.__auth_got: 0x1000
++  __AUTH_CONST.__auth_got: 0xff8
+   __AUTH.__objc_data: 0x308
+   __AUTH.__data: 0x14b8
+   __DATA.__objc_ivar: 0x16c
+-  __DATA.__data: 0xc18
++  __DATA.__data: 0xc20
+   __DATA.__bss: 0x5480
+   __DATA.__common: 0x8
+   __DATA_DIRTY.__objc_data: 0x140
+-  __DATA_DIRTY.__data: 0x18f8
++  __DATA_DIRTY.__data: 0x18d8
+   __DATA_DIRTY.__common: 0x38
+   __DATA_DIRTY.__bss: 0x1a0
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 3707
+-  Symbols:   8492
++  Functions: 3682
++  Symbols:   8465
+   CStrings:  530
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__swift5_capture : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_fieldmd : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift5_types2 : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+Symbols:
+- _$s15SwiftTLSLibrary11InputBufferV18readLengthPrefixed8lengthAs_q_Sgxm_AfCzq0_YKXEtq0_YKs15BitwiseCopyableRzs17FixedWidthIntegerRzs5ErrorR0_Ri__r1_lFs6UInt64V_9CryptoKit12SymmetricKeyVs5NeverOTg504$s15a70TLSLibrary13SessionTicketV10serializedACs7RawSpanV_tAA8TLSErrorOYKcfc9q5Kit12st7VSgAA11cD8VzXEfU1_Tf1nncn_n
+- _$s15SwiftTLSLibrary11InputBufferV18readLengthPrefixed8lengthAs_q_Sgxm_AfCzq0_YKXEtq0_YKs15BitwiseCopyableRzs17FixedWidthIntegerRzs5ErrorR0_Ri__r1_lFs6UInt64V_9CryptoKit4P256O7SigningO9PublicKeyVsAI_pTg504$s15a12TLSLibrary11cd55V25readPeerCertificateBundleAA0fgH0VSgyAA8TLSErrorOYKF9q4Kit4s2O7t2O9uV20VSgyKXEfU_AqCzKXEfU_Tf1nncn_n
+- _$s15SwiftTLSLibrary11InputBufferV19readCertificateType07messageG0AA9ExtensionO0fG3ExtOAA09HandshakeG0V_tAA8TLSErrorOYKFSayAA0fG0VGACzXEfU_
+- _$s15SwiftTLSLibrary11InputBufferV21readSupportedVersions11messageTypeAA9ExtensionO0fG0OAA09HandshakeI0V_tAA8TLSErrorOYKFSayAA15ProtocolVersionVGACzXEfU_
+- _$s15SwiftTLSLibrary11InputBufferV24readVariableLengthVector15lengthFieldType_q_Sgxm_q_ACzAA8TLSErrorOYKXEtAHYKs15BitwiseCopyableRzs17FixedWidthIntegerRzRi__r0_lFAfCzAHYKXEfU_s5UInt8V_AA15LegacySessionIDVTg504$s15a12TLSLibrary11cd7V19readst16IDAA0fgH0VSgyAA8L17OYKFAfCzAIYKXEfU_Tf1nc_n
+- _$s15SwiftTLSLibrary11InputBufferV24readVariableLengthVector15lengthFieldType_q_Sgxm_q_ACzAA8TLSErrorOYKXEtAHYKs15BitwiseCopyableRzs17FixedWidthIntegerRzRi__r0_lFAfCzAHYKXEfU_s5UInt8V_SayAA011CertificateK0VGTg504$s15a12TLSLibrary11cd7V19reads49Type07messageG0AA9ExtensionO0fG3ExtOAA09Handshakex6V_tAA8l11OYKFSayAA0fX10VGACzXEfU_Tf1nc_n
+- _$s15SwiftTLSLibrary11InputBufferV24readVariableLengthVector15lengthFieldType_q_Sgxm_q_ACzAA8TLSErrorOYKXEtAHYKs15BitwiseCopyableRzs17FixedWidthIntegerRzRi__r0_lFAfCzAHYKXEfU_s5UInt8V_SayAA15ProtocolVersionVGTg504$s15a12TLSLibrary11cd33V21readSupportedVersions11messagek39AA9ExtensionO0fG0OAA09HandshakeI0V_tAA8l11OYKFSayAA15sT10VGACzXEfU_Tf1nc_n
+- _$s15SwiftTLSLibrary11InputBufferV24readVariableLengthVector15lengthFieldType_q_Sgxm_q_ACzAA8TLSErrorOYKXEtAHYKs15BitwiseCopyableRzs17FixedWidthIntegerRzRi__r0_lFAfCzAHYKXEfU_s5UInt8V_SayAA15ProtocolVersionVGTg504$s15a12TLSLibrary11cd33V21readSupportedVersions11messagek39AA9ExtensionO0fG0OAA09HandshakeI0V_tAA8l11OYKFSayAA15sT10VGACzXEfU_Tf1nc_nTm
+- _$s15SwiftTLSLibrary11InputBufferV24readVariableLengthVector15lengthFieldType_q_Sgxm_q_ACzAA8TLSErrorOYKXEtAHYKs15BitwiseCopyableRzs17FixedWidthIntegerRzRi__r0_lFAfCzAHYKXEfU_s5UInt8V_SayAA9ExtensionO20PreSharedKeyKexModesV4ModeVGTg504$s15a12TLSLibrary11cd7V24readtuvw14Modes11messagek3AA9s30O0fghiJ0VAA09HandshakeL0V_tAA8l10OYKFSayAI4Y10VGACzXEfU_Tf1nc_n
+- _$s15SwiftTLSLibrary11InputBufferV24readVariableLengthVector15lengthFieldType_q_Sgxm_q_ACzAA8TLSErrorOYKXEtAHYKs15BitwiseCopyableRzs17FixedWidthIntegerRzRi__r0_lFAfCzAHYKXEfU_s5UInt8V_SayALGTg504$s15a35TLSLibrary11ClientHelloV5bytesAcA11cd7Vz_tAA8l11OYKcfcSays5R15VGAFzAHYKXEfU0_Tf1nc_n
+- _$s15SwiftTLSLibrary11InputBufferV24readVariableLengthVector15lengthFieldType_q_Sgxm_q_ACzAA8TLSErrorOYKXEtAHYKs15BitwiseCopyableRzs17FixedWidthIntegerRzRi__r0_lFAfCzAHYKXEfU_s6UInt16V_AA04ByteD0VTg504$s15a12TLSLibrary11cd48V16readPAKEShareRFCAA9ExtensionO4PAKEO0F0VSgyAA8l8OYKFAA04S11D0VACzXEfU_Tf1nnc_n
+- _$s15SwiftTLSLibrary11InputBufferV4read2asxSgxm_ts15BitwiseCopyableRzlFAFSwXEfU_AA6RandomV_Tg5
+- _$s15SwiftTLSLibrary11InputBufferV4read2asxSgxm_ts15BitwiseCopyableRzlFAFSwXEfU_TA
+- _$s15SwiftTLSLibrary11InputBufferV4read2asxSgxm_ts15BitwiseCopyableRzlFAFSwXEfU_s5UInt8V_Tg5
+- _$s15SwiftTLSLibrary11InputBufferV4read2asxSgxm_ts15BitwiseCopyableRzlFAFSwXEfU_s6UInt16V_Tg5
+- _$s15SwiftTLSLibrary11InputBufferV4read2asxSgxm_ts15BitwiseCopyableRzlFAFSwXEfU_s6UInt32V_Tg5
+- _$s15SwiftTLSLibrary11InputBufferV4read2asxSgxm_ts15BitwiseCopyableRzlFAFSwXEfU_s6UInt64V_Tg5
+- _$s15SwiftTLSLibrary13SessionTicketV10serializedACs7RawSpanV_tAA8TLSErrorOYKcfc9CryptoKit12SymmetricKeyVSgAA11InputBufferVzXEfU1_
+- _$s15Synchronization5MutexVySDy15SwiftTLSLibrary14PAKECredentialVs6UInt32VGGMR
+- _$s15Synchronization5MutexVySDy15SwiftTLSLibrary14PAKECredentialVs6UInt32VGGMd
+- _$ss29withUnsafeTemporaryAllocation9byteCount9alignment_xSi_SixSwq_YKXEtq_YKs5ErrorR_Ri_zr0_lFs6ResultOyxq_GBpXEfU_
+- _$ss6ResultOMa
+- _swift_runtimeSupportsNoncopyableTypes
+- get_type_metadata 15SwiftTLSLibrary15TLSRecordParserV noncopyable
+- get_type_metadata 15SwiftTLSLibrary16TLSRecordHandlerV noncopyable
+- get_type_metadata 15SwiftTLSLibrary18TLSRecordProtectorV noncopyable
+- get_type_metadata 15Synchronization5MutexVySDy15SwiftTLSLibrary14PAKECredentialVs6UInt32VGG noncopyable
+
+```

@@ -1,0 +1,59 @@
+## libskit.dylib
+
+> `/usr/lib/libskit.dylib`
+
+```diff
+
+-  __TEXT.__text: 0x239cc
++  __TEXT.__text: 0x235e4
+   __TEXT.__const: 0xc31
+   __TEXT.__gcc_except_tab: 0xd68
+   __TEXT.__oslogstring: 0x21d5
+   __TEXT.__cstring: 0x215
+   __TEXT.__ustring: 0x398
+-  __TEXT.__unwind_info: 0x8d8
++  __TEXT.__unwind_info: 0x8c8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_methname: 0x0
+Sections:
+~ __TEXT.__gcc_except_tab : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+Functions:
+~ __ZNK4skit18FieldSpanMatcherV311merge_fieldERNS_8internal14MergeStateImplINS1_20MergedFieldMatchImplINS1_14FieldMatchImplINS1_16FieldMatchesImplINS_11SpanMatchV3EEEEEEEEERKS7_b : 648 -> 624
+~ __ZN4skit11SmallVectorINS_14AliasSpanMatchELj4ELb1EED2Ev : 124 -> 116
+~ __ZN4skit11SmallVectorINS_10AliasMatchELj2ELb1EED2Ev : 124 -> 116
+~ __ZN4skit11SmallVectorINS_10AliasMatchELj2ELb1EE5eraseEPKS1_ : 208 -> 188
+~ __ZN4skit11SmallVectorINS_10AliasMatchELj2ELb1EE13_reserve_moreEj : 360 -> 344
+~ __ZN4skit11SmallVectorINSt3__15tupleIJNS1_12basic_stringIDsNS1_11char_traitsIDsEENS1_9allocatorIDsEEEENS_7GroupIdEEEELj2ELb1EE13_reserve_moreEj : 332 -> 316
+~ __ZN4skit11SpanMatchV35mergeERKS0_ : 404 -> 384
+~ __ZN4skit11SmallVectorINS_11SpanMatchV3ELj4ELb1EE5eraseEPKS1_ : 184 -> 168
+~ __ZNK4skit8internal20FieldSpanMatcherImpl21combine_alias_matchesERNS_11SmallVectorIPKNS_10AliasMatchELj8ELb0EEERKNS_11TokenStreamESA_NS_13ExternalAliasERNS2_IS3_Lj2ELb1EEERKSC_ : 1884 -> 1872
+~ __ZN4skit8internal20FieldSpanMatcherImpl18alias_span_matcherENS_5AliasEhRKNS_11SmallVectorIhLj8ELb0EEERKNS3_INS_10AliasMatchELj2ELb1EEERKNS_11TokenStreamENS_13ExternalAliasE : 720 -> 712
+~ __ZN4skit8internal20FieldSpanMatcherImpl13alias_filtersEhRKNS_11SmallVectorIhLj8ELb0EEE : 1516 -> 1488
+~ __ZN4skit8internal20FieldSpanMatcherImpl24clear_alias_span_matcherEv : 232 -> 216
+~ __ZNK4skit8internal20FieldSpanMatcherImpl5matchERNS0_16FieldMatchesImplINS_11SpanMatchV3EEERKNS_11TokenStreamERKNS_11SmallVectorINS_10AliasMatchELj2ELb1EEENS_13ExternalAliasEtj : 5324 -> 5304
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN4skit8internal12_GLOBAL__N_117merge_token_spansENS_17basic_string_viewIDsNS_11char_traitsIDsEEEEtRNS2_11SmallVectorINS2_11SpanMatchV3ELj8ELb1EEEjEUlRKT_RKT0_E_PSA_Lb0EEEvT1_SM_SG_NS_15iterator_traitsISM_E15difference_typeEb : 4740 -> 4492
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERZN4skit8internal12_GLOBAL__N_117merge_token_spansENS_17basic_string_viewIDsNS_11char_traitsIDsEEEEtRNS2_11SmallVectorINS2_11SpanMatchV3ELj8ELb1EEEjEUlRKT_RKT0_E_PSA_EEbT1_SM_SG_ : 1028 -> 972
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERN4skit8internal12_GLOBAL__N_114AliasMatchLessEPPKNS2_10AliasMatchELb0EEEvT1_SB_T0_NS_15iterator_traitsISB_E15difference_typeEb : 2856 -> 2824
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERN4skit8internal12_GLOBAL__N_114AliasMatchLessEPPKNS2_10AliasMatchEEEbT1_SB_T0_ : 708 -> 684
+~ __ZN4skit11SmallVectorINS_14AliasSpanMatchELj4ELb1EE13_reserve_moreEj : 384 -> 368
+~ __ZNSt3__118uninitialized_copyB9fqe220106IPKN4skit8internal14FieldMatchImplINS2_16FieldMatchesImplINS1_11SpanMatchV3EEEEEPS7_EET0_T_SC_SB_ : 236 -> 180
+~ __ZNSt3__118uninitialized_copyB9fqe220106IPKN4skit12FieldMatchV2EPS2_EET0_T_S7_S6_ : 224 -> 212
+~ __ZNKSt3__122__unordered_map_hasherIN4skit8internal4TermENS_4pairIKS3_NS2_20PostingListMemImplV2EEENS_4hashIS3_EENS_8equal_toIS3_EEEclB9fqe220106ERS5_ : 1096 -> 1084
+~ __ZN4skit8internal12MultiIndexV26appendERKNS_11TokenStreamEfNS_4UuidEPK5iovecib : 3928 -> 3916
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4__fs10filesystem4pathELb0EEEvT1_S9_T0_NS_15iterator_traitsIS9_E15difference_typeEb : 4360 -> 4320
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4__fs10filesystem4pathEEEbT1_S9_T0_ : 1116 -> 1068
+~ __ZNK4skit8internal14IndexMemImplV23getERKNS0_4TermE : 832 -> 812
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN4skit8Analyzer5dedupENS2_11TokenStreamEE3$_0PNS2_5TokenELb0EEEvT1_S9_T0_NS_15iterator_traitsIS9_E15difference_typeEb : 4164 -> 4092
+~ __ZNSt3__127__insertion_sort_incompleteB9fqe220106INS_17_ClassicAlgPolicyERZN4skit8Analyzer5dedupENS2_11TokenStreamEE3$_0PNS2_5TokenEEEbT1_S9_T0_ : 672 -> 620
+~ __ZN4skit8internal14MergeStateImplINS0_20MergedFieldMatchImplINS0_14FieldMatchImplINS0_16FieldMatchesImplINS_11SpanMatchV3EEEEEEEE5clearEv : 136 -> 128
+~ __ZNKSt3__117basic_string_viewIDsNS_11char_traitsIDsEEE4findB9fqe220106ES3_m : 192 -> 176
+~ __ZN4skit10strip_bidiEPDsmb : 208 -> 172
+~ _skitRemoveBidiCharacters : 720 -> 692
+
+```

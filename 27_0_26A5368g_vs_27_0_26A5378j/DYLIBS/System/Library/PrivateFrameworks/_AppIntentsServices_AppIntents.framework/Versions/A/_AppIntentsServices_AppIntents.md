@@ -1,0 +1,8 @@
+## _AppIntentsServices_AppIntents
+
+> `/System/Library/PrivateFrameworks/_AppIntentsServices_AppIntents.framework/Versions/A/_AppIntentsServices_AppIntents`
+
+Sections:
+~ __TEXT.__swift5_typeref : content changed
+~ __TEXT.__const : content changed
+~ __DATA_CONST.__objc_selrefs : content changed

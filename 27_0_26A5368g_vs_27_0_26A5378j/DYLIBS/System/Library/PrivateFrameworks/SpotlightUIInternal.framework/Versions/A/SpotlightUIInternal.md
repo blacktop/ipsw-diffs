@@ -1,0 +1,341 @@
+## SpotlightUIInternal
+
+> `/System/Library/PrivateFrameworks/SpotlightUIInternal.framework/Versions/A/SpotlightUIInternal`
+
+```diff
+
+-  __TEXT.__text: 0x15cb4c
+-  __TEXT.__objc_methlist: 0x3c30
+-  __TEXT.__const: 0xb874
+-  __TEXT.__cstring: 0x323f
++  __TEXT.__text: 0x16cc78
++  __TEXT.__objc_methlist: 0x3c78
++  __TEXT.__const: 0xc394
++  __TEXT.__cstring: 0x327f
+   __TEXT.__ustring: 0x6
+   __TEXT.__gcc_except_tab: 0x10
+-  __TEXT.__oslogstring: 0x24ef
+-  __TEXT.__swift5_typeref: 0xbd32
+-  __TEXT.__swift5_capture: 0x1494
+-  __TEXT.__constg_swiftt: 0x7dd8
+-  __TEXT.__swift5_reflstr: 0x3eab
+-  __TEXT.__swift5_fieldmd: 0x38cc
+-  __TEXT.__swift5_types: 0x46c
++  __TEXT.__oslogstring: 0x29df
++  __TEXT.__swift5_typeref: 0xc3ce
++  __TEXT.__swift5_capture: 0x156c
++  __TEXT.__constg_swiftt: 0x806c
++  __TEXT.__swift5_reflstr: 0x417b
++  __TEXT.__swift5_fieldmd: 0x3b54
++  __TEXT.__swift5_types: 0x484
+   __TEXT.__swift_as_entry: 0x10c
+   __TEXT.__swift_as_ret: 0x140
+   __TEXT.__swift_as_cont: 0x2a0
+-  __TEXT.__swift5_builtin: 0x17c
+-  __TEXT.__swift5_proto: 0x544
+-  __TEXT.__swift5_assocty: 0x868
++  __TEXT.__swift5_assocty: 0x938
++  __TEXT.__swift5_builtin: 0x190
++  __TEXT.__swift5_proto: 0x588
+   __TEXT.__swift5_protos: 0x8c
+-  __TEXT.__swift5_mpenum: 0x30
+-  __TEXT.__unwind_info: 0x4fc8
+-  __TEXT.__eh_frame: 0x3e78
++  __TEXT.__swift5_mpenum: 0x38
++  __TEXT.__unwind_info: 0x5278
++  __TEXT.__eh_frame: 0x4044
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x528
+-  __DATA_CONST.__objc_classlist: 0x398
++  __DATA_CONST.__const: 0x548
++  __DATA_CONST.__objc_classlist: 0x3a8
+   __DATA_CONST.__objc_catlist: 0x50
+   __DATA_CONST.__objc_catlist2: 0x8
+   __DATA_CONST.__objc_protolist: 0x280
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3090
++  __DATA_CONST.__objc_selrefs: 0x30e8
+   __DATA_CONST.__objc_protorefs: 0x138
+   __DATA_CONST.__objc_superrefs: 0xb0
+   __DATA_CONST.__objc_arraydata: 0x148
+-  __DATA_CONST.__got: 0x14b8
+-  __AUTH_CONST.__const: 0x7398
+-  __AUTH_CONST.__cfstring: 0xea0
+-  __AUTH_CONST.__objc_const: 0x9a10
++  __DATA_CONST.__got: 0x1548
++  __AUTH_CONST.__const: 0x7810
++  __AUTH_CONST.__cfstring: 0xe80
++  __AUTH_CONST.__objc_const: 0x9d28
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x27d0
+-  __AUTH.__objc_data: 0x6530
+-  __AUTH.__data: 0x4ca8
++  __AUTH_CONST.__auth_got: 0x28e8
++  __AUTH.__objc_data: 0x6400
++  __AUTH.__data: 0x4e40
+   __DATA.__objc_ivar: 0x1dc
+-  __DATA.__data: 0x3c50
++  __DATA.__data: 0x3d88
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x9a38
+-  __DATA.__common: 0x260
++  __DATA.__bss: 0xa388
++  __DATA.__common: 0x270
++  __DATA_DIRTY.__objc_data: 0x200
++  __DATA_DIRTY.__data: 0x88
++  __DATA_DIRTY.__bss: 0xa0
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary
+   - /System/Library/PrivateFrameworks/BiomeStreams.framework/Versions/A/BiomeStreams
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
++  - /System/Library/PrivateFrameworks/FrontBoardServices.framework/Versions/A/FrontBoardServices
+   - /System/Library/PrivateFrameworks/GenerativePartnerService.framework/Versions/A/GenerativePartnerService
++  - /System/Library/PrivateFrameworks/GenerativePartnerServiceUI.framework/Versions/A/GenerativePartnerServiceUI
+   - /System/Library/PrivateFrameworks/GraphicsServices.framework/Versions/A/GraphicsServices
+   - /System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+   - /System/Library/PrivateFrameworks/People.framework/Versions/A/People
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7393
+-  Symbols:   5375
+-  CStrings:  674
++  Functions: 7627
++  Symbols:   5494
++  CStrings:  689
+ 
+Sections:
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_catlist2 : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__objc_arraydata : content changed
+~ __AUTH_CONST.__objc_dictobj : content changed
+~ __AUTH_CONST.__objc_intobj : content changed
+~ __AUTH_CONST.__objc_arrayobj : content changed
+~ __DATA.__objc_ivar : content changed
+~ __DATA.__objc_stublist : content changed
+Symbols:
++ -[SPUISpotlightMenuItem invalidate]
++ GCC_except_table50
++ _OBJC_CLASS_$_FBSDisplayLayoutElement
++ _OBJC_CLASS_$_FBSDisplayLayoutMonitor
++ _OBJC_CLASS_$_FBSDisplayLayoutMonitorConfiguration
++ _OBJC_CLASS_$_SPUIForegroundAppMonitor
++ _OBJC_CLASS_$_SPUISAskSiriResultBuilder
++ _OBJC_CLASS_$__TtC19SpotlightUIInternal22ContactWindowViewModel
++ _OBJC_METACLASS_$_SPUIForegroundAppMonitor
++ _OBJC_METACLASS_$__TtC19SpotlightUIInternal22ContactWindowViewModel
++ __CLASS_METHODS_SPUIForegroundAppMonitor
++ __CLASS_PROPERTIES_SPUIForegroundAppMonitor
++ __DATA_SPUIForegroundAppMonitor
++ __DATA__TtC19SpotlightUIInternal22ContactWindowPresenter
++ __DATA__TtC19SpotlightUIInternal22ContactWindowViewModel
++ __DATA__TtC19SpotlightUIInternalP33_B6E294A63AA25D228FDD0F84ABC6674427ContactQueryContextProvider
++ __INSTANCE_METHODS_SPUIForegroundAppMonitor
++ __IVARS_SPUIForegroundAppMonitor
++ __IVARS__TtC19SpotlightUIInternal22ContactWindowPresenter
++ __IVARS__TtC19SpotlightUIInternal22ContactWindowViewModel
++ __METACLASS_DATA_SPUIForegroundAppMonitor
++ __METACLASS_DATA__TtC19SpotlightUIInternal22ContactWindowPresenter
++ __METACLASS_DATA__TtC19SpotlightUIInternal22ContactWindowViewModel
++ __METACLASS_DATA__TtC19SpotlightUIInternalP33_B6E294A63AA25D228FDD0F84ABC6674427ContactQueryContextProvider
++ __OBJC_$_INSTANCE_METHODS__TtC19SpotlightUIInternal22ContactWindowViewModel(SpotlightUIInternal)
++ __OBJC_CLASS_PROTOCOLS_$__TtC19SpotlightUIInternal22ContactWindowViewModel(SpotlightUIInternal)
++ __PROPERTIES_SPUIForegroundAppMonitor
++ ___46+[SPUISpotlightMenuItem spotlightUserDefaults]_block_invoke
++ ___swift_memcpy28_8
++ ___swift_memcpy72_8
++ __swift_closure_destructor.179Tm
++ __swift_closure_destructor.17Tm
++ __swift_closure_destructor.40Tm
++ _associated conformance 19SpotlightUIInternal16SessionAnalyticsC18GestureInputSourceOSHAASQ
++ _associated conformance 19SpotlightUIInternal18ContactContentViewV7SwiftUI0E0AA4BodyAdEP_AdE
++ _associated conformance 19SpotlightUIInternal18ContactResultsView33_6F622C9BD2B23DB008A97845D56337BALLV7SwiftUI0E0AA4BodyAeFP_AeF
++ _associated conformance 19SpotlightUIInternal18ContactResultsView33_6F622C9BD2B23DB008A97845D56337BALLV7SwiftUI29NSViewControllerRepresentableAaE0E0
++ _associated conformance 19SpotlightUIInternal18ContactWindowStateVAA016ContentProvidingdE0AA0F0AaDP_7SwiftUI4View
++ _associated conformance 19SpotlightUIInternal18ContactWindowStateVSHAASQ
++ _associated conformance 19SpotlightUIInternal21ContactBackgroundView33_6F622C9BD2B23DB008A97845D56337BALLV7SwiftUI0E0AA4BodyAeFP_AeF
++ _associated conformance 19SpotlightUIInternal21ContactBackgroundView33_6F622C9BD2B23DB008A97845D56337BALLV7SwiftUI19NSViewRepresentableAaE0E0
++ _get_enum_tag_for_layout_string 19SpotlightUIInternal13WindowTriggerO
++ _get_enum_tag_for_layout_string 19SpotlightUIInternal13WindowTriggerO6TargetO
++ _objc_msgSend$_usesNonVibrantAppearance
++ _objc_msgSend$cancelOperation:
++ _objc_msgSend$configurationForDefaultMainDisplayMonitor
++ _objc_msgSend$elements
++ _objc_msgSend$elevatedResultShouldInvokeSiri:
++ _objc_msgSend$level
++ _objc_msgSend$monitorWithConfiguration:
++ _objc_msgSend$reflectScrolledClipView:
++ _objc_msgSend$setApplicationBundleIdPullDown:
++ _objc_msgSend$setHorizontalScrollElasticity:
++ _objc_msgSend$setTransitionHandler:
++ _objc_msgSend$setVerticalScrollElasticity:
++ _objc_msgSend$syntheticAskSiriResultForQueryContext:
++ _symbolic SS10identifier_t
++ _symbolic SS6client______t 19SpotlightUIInternal13WindowTriggerO6TargetO
++ _symbolic SaySo23FBSDisplayLayoutElementCG
++ _symbolic Say_____y_____GG 17SpotlightUIShared7WeakBoxV 0A10UIInternal26WindowAnimationCoordinatorC
++ _symbolic So19SFImageDerivedColorC
++ _symbolic So23FBSDisplayLayoutMonitorCSg
++ _symbolic So6NSLockC
++ _symbolic So7NSColorC
++ _symbolic So7NSColorCSg
++ _symbolic _____ 17SpotlightUIShared19WindowDisplayPolicyC
++ _symbolic _____ 19SpotlightUIInternal13WindowTriggerO
++ _symbolic _____ 19SpotlightUIInternal13WindowTriggerO6TargetO
++ _symbolic _____ 19SpotlightUIInternal16SessionAnalyticsC18GestureInputSourceO
++ _symbolic _____ 19SpotlightUIInternal17DiagnosticsLoggerV
++ _symbolic _____ 19SpotlightUIInternal18ContactContentViewV
++ _symbolic _____ 19SpotlightUIInternal18ContactResultsView33_6F622C9BD2B23DB008A97845D56337BALLV
++ _symbolic _____ 19SpotlightUIInternal18ContactWindowStateV
++ _symbolic _____ 19SpotlightUIInternal20ForegroundAppMonitorC
++ _symbolic _____ 19SpotlightUIInternal21ContactBackgroundView33_6F622C9BD2B23DB008A97845D56337BALLV
++ _symbolic _____ 19SpotlightUIInternal22ContactWindowPresenterC
++ _symbolic _____ 19SpotlightUIInternal22ContactWindowViewModelC
++ _symbolic _____ 19SpotlightUIInternal27ContactQueryContextProvider33_B6E294A63AA25D228FDD0F84ABC66744LLC
++ _symbolic _____Iegn_ 17SpotlightUIShared12DisplayStateO
++ _symbolic _____Sg 17SpotlightUIShared12DisplayStateO
++ _symbolic _____Sg 17SpotlightUIShared17ResultQualityTierO
++ _symbolic _____Sg 19SpotlightUIInternal16SessionAnalyticsC18GestureInputSourceO
++ _symbolic _____Sg 19SpotlightUIInternal18ContactWindowStateV
++ _symbolic _____Sg 19SpotlightUIInternal20IslandFTECoordinatorC
++ _symbolic _____SgXw 19SpotlightUIInternal20ForegroundAppMonitorC
++ _symbolic _____SgXw 19SpotlightUIInternal22ContactWindowPresenterC
++ _symbolic _____SgXw 19SpotlightUIInternal22ContactWindowViewModelC
++ _symbolic _____SgXwz_Xx 19SpotlightUIInternal22ContactWindowPresenterC
++ _symbolic _____SgXwz_Xx 19SpotlightUIInternal22ContactWindowViewModelC
++ _symbolic _____Sg_ABt 17SpotlightUIShared17ResultQualityTierO
++ _symbolic ______AAt 19SpotlightUIInternal13WindowTriggerO
++ _symbolic ________________yACyACy_____y_____y_____yACy__________GG_Qo_______Qo______G_____GANGt 19SpotlightUIInternal21ContactBackgroundView33_6F622C9BD2B23DB008A97845D56337BALLV AA0c7ResultsE0ACLLV 7SwiftUI15ModifiedContentV AG0E0PAGE11buttonStyleyQrqd__AG015PrimitiveButtonT0Rd__lFQO AK06SearchP0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AG0V0V AG5ImageV AG12_FrameLayoutV AG05PlainvT0V AG31AccessibilityAttachmentModifierV AG14_PaddingLayoutV
++ _symbolic ______pSg 17SpotlightUIShared13BrowsingQueryP
++ _symbolic _____yAAyAAy__________y_____y_____G_____GGADyAAy_____ACyAeGGGGGAAyADyAAy_____AKGGAFGG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal0eD4ViewV AA08ModifiedD0V AD20FluidWindowContainerV AD0jd5ErrorG033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AD07ContactdG0V AA03AnyG0V
++ _symbolic _____yAAyAAy_____y_____G_____y_____GG_____GAIG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 19SpotlightUIInternal026WindowAnimationCoordinatorF033_5F76C2076713132FD8341A851BF79C5ALLV AA022_EnvironmentKeyWritingF0V AF0ijK0C AA017_AppearanceActionF0V
++ _symbolic _____yAAyAAy_____y_____y_____yAAy__________GG_Qo_______Qo______G_____GALG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AE06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA0I0V AA5ImageV AA12_FrameLayoutV AA05PlainiG0V AA31AccessibilityAttachmentModifierV AA08_PaddingP0V
++ _symbolic _____yAAy__________y_____y_____G_____GGADyAAy_____ACyAeGGGGG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal0eD4ViewV AA08ModifiedD0V AD20FluidWindowContainerV AD0jd5ErrorG033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AD07ContactdG0V
++ _symbolic _____yAAy_____y_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 19SpotlightUIInternal026WindowAnimationCoordinatorF033_5F76C2076713132FD8341A851BF79C5ALLV AA022_EnvironmentKeyWritingF0V AF0ijK0C AA017_AppearanceActionF0V
++ _symbolic _____yAAy_____y_____y_____yAAy__________GG_Qo_______Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AE06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA0I0V AA5ImageV AA12_FrameLayoutV AA05PlainiG0V AA31AccessibilityAttachmentModifierV AA08_PaddingP0V
++ _symbolic _____yAAy_____y_____y_____y_____y___________AAyAAyAAy_____y_____y_____yAAy__________GG_Qo_______Qo______G_____GAPGQPGG______Qo_______Qo______GAYG 7SwiftUI15ModifiedContentV AA4ViewPAAE7gesture_9includingQrqd___AA11GestureMaskVtAA0H0Rd__lFQO AeAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AA6ZStackV AA05TupleD0V 19SpotlightUIInternal017ContactBackgroundE033_6F622C9BD2B23DB008A97845D56337BALLV AT0s7ResultsE0AVLLV AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AE06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA6ButtonV AA5ImageV AA12_FrameLayoutV AA16PlainButtonStyleV AA31AccessibilityAttachmentModifierV AA14_PaddingLayoutV AA16RoundedRectangleV AA010WindowDragH0V AA25_AppearanceActionModifierV
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G 17SpotlightUIShared7WeakBoxV 0A10UIInternal26WindowAnimationCoordinatorC
++ _symbolic _____y___________y________________yAFyAFy_____y_____y_____yAFy__________GG_Qo_______Qo______G_____GAQGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV 19SpotlightUIInternal017ContactBackgroundD033_6F622C9BD2B23DB008A97845D56337BALLV AJ0l7ResultsD0ALLLV AA08ModifiedI0V AA0D0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonY0Rd__lFQO AS06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA6ButtonV AA5ImageV AA06_FrameG0V AA011PlainButtonY0V AA31AccessibilityAttachmentModifierV AA08_PaddingG0V
++ _symbolic _____y__________y__________G_G 7SwiftUI19_ConditionalContentV7StorageO 19SpotlightUIInternal07ContactD4ViewV AA08ModifiedD0V AF06Windowd5ErrorI033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV
++ _symbolic _____y_____yAAy__________y__________GGGAByAEGG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal20FluidWindowContainerV AA7AnyViewV AA08ModifiedD0V AD0hd5ErrorK033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV
++ _symbolic _____y_____yABy__________y_____y_____G_____GGAEyABy_____ADyAfHGGGGAByAEyABy_____ALGGAGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 19SpotlightUIInternal0fD4ViewV AA08ModifiedD0V AF20FluidWindowContainerV AF0kd5ErrorH033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AF07ContactdH0V AA03AnyH0V
++ _symbolic _____y_____y_____GAAyAAyAAy__________yABy_____G_____GGAByAAy_____AFyAgIGGGGAAyAByAAyAcMGGAHGGG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal20FluidWindowContainerV AA7AnyViewV AD0edK0V AA08ModifiedD0V AD0hd5ErrorK033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AD07ContactdK0V
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 17SpotlightUIShared7WeakBoxV 0D10UIInternal26WindowAnimationCoordinatorC
++ _symbolic _____y_____y_____G_____yAEyAEy__________yABy_____G_____GGAByAEy_____AGyAhJGGGGAEyAByAEyAcNGGAIGG_G 7SwiftUI19_ConditionalContentV7StorageO 19SpotlightUIInternal20FluidWindowContainerV AA7AnyViewV AC AF0fdL0V AA08ModifiedD0V AF0id5ErrorL033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AF07ContactdL0V
++ _symbolic _____y_____y__________GG 7SwiftUI6ButtonV AA15ModifiedContentV AA5ImageV AA12_FrameLayoutV
++ _symbolic _____y_____y________________yAEyAEy_____y_____y_____yAEy__________GG_Qo_______Qo______G_____GAPGQPGG 7SwiftUI6ZStackV AA12TupleContentV 19SpotlightUIInternal21ContactBackgroundView33_6F622C9BD2B23DB008A97845D56337BALLV AF0h7ResultsJ0AHLLV AA08ModifiedE0V AA0J0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonV0Rd__lFQO AO06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA0X0V AA5ImageV AA12_FrameLayoutV AA05PlainxV0V AA31AccessibilityAttachmentModifierV AA14_PaddingLayoutV
++ _symbolic _____y_____y__________y__________GGG 19SpotlightUIInternal20FluidWindowContainerV 7SwiftUI19_ConditionalContentV AA07ContactI4ViewV AD08ModifiedI0V AA0di5ErrorK033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AD12_FrameLayoutV
++ _symbolic _____y_____y__________y_____y_____G_____GGAEyABy_____ADyAfHGGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 19SpotlightUIInternal0fD4ViewV AA08ModifiedD0V AF20FluidWindowContainerV AF0kd5ErrorH033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AF07ContactdH0V
++ _symbolic _____y_____y_____y__________GG_Qo_ 7SwiftUI4ViewP06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA6ButtonV AA15ModifiedContentV AA5ImageV AA12_FrameLayoutV
++ _symbolic _____y_____y_____y________________yAEyAEy_____y_____y_____yAEy__________GG_Qo_______Qo______G_____GAPGQPGG______Qo_ 7SwiftUI4ViewPAAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AA6ZStackV AA12TupleContentV 19SpotlightUIInternal017ContactBackgroundC033_6F622C9BD2B23DB008A97845D56337BALLV AM0n7ResultsC0AOLLV AA08ModifiedK0V AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AC06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA6ButtonV AA5ImageV AA12_FrameLayoutV AA16PlainButtonStyleV AA31AccessibilityAttachmentModifierV AA14_PaddingLayoutV AA16RoundedRectangleV
++ _symbolic _____y_____y_____y_____y__________GG_Qo_______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AC06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA0G0V AA15ModifiedContentV AA5ImageV AA12_FrameLayoutV AA05PlaingE0V
++ _symbolic _____y_____y_____y_____y_____y___________AAyAAyAAy_____y_____y_____yAAy__________GG_Qo_______Qo______G_____GAPGQPGG______Qo_______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE7gesture_9includingQrqd___AA11GestureMaskVtAA0H0Rd__lFQO AeAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQO AA6ZStackV AA05TupleD0V 19SpotlightUIInternal017ContactBackgroundE033_6F622C9BD2B23DB008A97845D56337BALLV AT0s7ResultsE0AVLLV AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AE06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA6ButtonV AA5ImageV AA12_FrameLayoutV AA16PlainButtonStyleV AA31AccessibilityAttachmentModifierV AA14_PaddingLayoutV AA16RoundedRectangleV AA010WindowDragH0V AA25_AppearanceActionModifierV
++ _symbolic _____ytIegnr_ 17SpotlightUIShared12DisplayStateO
++ _symbolic y_____cSg 17SpotlightUIShared12DisplayStateO
++ _type_layout_string 19SpotlightUIInternal13WindowTriggerO
++ _type_layout_string 19SpotlightUIInternal13WindowTriggerO6TargetO
++ _type_layout_string 19SpotlightUIInternal18ContactResultsView33_6F622C9BD2B23DB008A97845D56337BALLV
++ _type_layout_string 19SpotlightUIInternal18ContactWindowStateV
++ _type_layout_string 19SpotlightUIInternal21ContactBackgroundView33_6F622C9BD2B23DB008A97845D56337BALLV
++ get_witness_table 19SpotlightUIInternal18ContactContentViewV7SwiftUI0E0HPyHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE7gesture_9includingQrqd___AA11GestureMaskVtAA0H0Rd__lFQOyAeAE11glassEffect_2inQrAA5GlassV_qd__tAA5ShapeRd__lFQOyAA6ZStackVyAA05TupleD0Vy19SpotlightUIInternal017ContactBackgroundE033_6F622C9BD2B23DB008A97845D56337BALLV_AT0s7ResultsE0AVLLVACyACyACyAeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAE06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQOyAA6ButtonVyACyAA5ImageVAA12_FrameLayoutVGG_Qo__AA16PlainButtonStyleVQo_AA31AccessibilityAttachmentModifierVGAA14_PaddingLayoutVGA20_GQPGG_AA16RoundedRectangleVQo__AA010WindowDragH0VQo_AA25_AppearanceActionModifierVGA32_GAaDHPA33_AaDHPqd0__AaDHD3_A30_HO_A32_AA0E8ModifierHPyHCHC_A32_AAA35_HPyHCHC
++ get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA014_ViewModifier_D0Vy19SpotlightUIInternal026WindowAnimationCoordinatorF033_5F76C2076713132FD8341A851BF79C5ALLVGAA022_EnvironmentKeyWritingF0VyAF0ijK0CGGAA017_AppearanceActionF0VGARGAA0E0HPAsaUHPApaUHPAjaUHPyHC_AoA0eF0HPyHCHC_AraVHPyHCHC_AraVHPyHCHC
++ get_witness_table 7SwiftUI19_ConditionalContentVy19SpotlightUIInternal20FluidWindowContainerVyAA7AnyViewVGACyACyACyAD0edK0VAA08ModifiedD0VyAFyAD0hd5ErrorK033_AC0F0B9A9CECA807EAB5C302FEA18312LLVGAA12_FrameLayoutVGGAFyACyAD07ContactdK0VAMyApSGGGGACyAFyACyAhXGGAQGGGAA0K0HPAiAA5_HPyHC_A3_AAA5_HPA_AAA5_HPAuAA5_HPAkAA5_HPyHC_AtAA5_HPAqAA5_HPyHC_AsA0K8ModifierHPyHCHCHC_AzAA5_HPyHCHC_A2_AAA5_HPA1_AAA5_HPyHC_AqAA5_HPyHCHCHCHC
++ spotlightUserDefaults.defaults
++ spotlightUserDefaults.onceToken
+- GCC_except_table48
+- _OBJC_CLASS_$_OS_dispatch_queue_serial
+- _OBJC_CLASS_$__TtC19SpotlightUIInternal13ContactWindow
+- _OBJC_CLASS_$__TtC19SpotlightUIInternal20ContactWindowManager
+- _OBJC_METACLASS_$_NSWindow
+- _OBJC_METACLASS_$__TtC19SpotlightUIInternal13ContactWindow
+- _OBJC_METACLASS_$__TtC19SpotlightUIInternal20ContactWindowManager
+- __DATA__TtC19SpotlightUIInternal13ContactWindow
+- __DATA__TtC19SpotlightUIInternal20ContactWindowManager
+- __INSTANCE_METHODS__TtC19SpotlightUIInternal13ContactWindow
+- __IVARS__TtC19SpotlightUIInternal20ContactWindowManager
+- __METACLASS_DATA__TtC19SpotlightUIInternal13ContactWindow
+- __METACLASS_DATA__TtC19SpotlightUIInternal20ContactWindowManager
+- __OBJC_$_INSTANCE_METHODS__TtC19SpotlightUIInternal20ContactWindowManager(SpotlightUIInternal|SpotlightUIInternal1)
+- __OBJC_CLASS_PROTOCOLS_$__TtC19SpotlightUIInternal20ContactWindowManager(SpotlightUIInternal|SpotlightUIInternal1)
+- __PROPERTIES__TtC19SpotlightUIInternal13ContactWindow
+- __swift_closure_destructor.16Tm
+- __swift_closure_destructor.39Tm
+- _associated conformance 19SpotlightUIInternal17CanvasWindowStateVSHAASQ
+- _objc_msgSend$constraintEqualToSystemSpacingAfterAnchor:multiplier:
+- _objc_msgSend$constraintEqualToSystemSpacingBelowAnchor:multiplier:
+- _objc_msgSend$dismissSearchWithCompletion:
+- _objc_msgSend$setContentView:
+- _objc_msgSend$setTemplate:
+- _objc_msgSend$windowWithContentViewController:
+- _symbolic Say_____G So24OS_dispatch_queue_serialC8DispatchE10AttributesV
+- _symbolic _____ 19SpotlightUIInternal13ContactWindowC
+- _symbolic _____ 19SpotlightUIInternal17CanvasWindowStateV
+- _symbolic _____ 19SpotlightUIInternal20ContactWindowManagerC
+- _symbolic _____Sg 17SpotlightUIShared13SearchResultsV
+- _symbolic _____Sg So6CGRectV
+- _symbolic _____SgXw 19SpotlightUIInternal21AccessoryStateManagerC
+- _symbolic _____yAAyAAy__________y_____y_____G_____GGADyAAy_____ACyAeGGGGGAFG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal0eD4ViewV AA08ModifiedD0V AD20FluidWindowContainerV AD0jd5ErrorG033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AA03AnyG0V
+- _symbolic _____yAAy__________y_____y_____G_____GGADyAAy_____ACyAeGGGGG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal0eD4ViewV AA08ModifiedD0V AD20FluidWindowContainerV AD0jd5ErrorG033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AA03AnyG0V
+- _symbolic _____y_____yABy__________y_____y_____G_____GGAEyABy_____ADyAfHGGGGAG_G 7SwiftUI19_ConditionalContentV7StorageO AC 19SpotlightUIInternal0fD4ViewV AA08ModifiedD0V AF20FluidWindowContainerV AF0kd5ErrorH033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AA03AnyH0V
+- _symbolic _____y_____y_____GAAyAAyAAy__________yABy_____G_____GGAByAAyAcFyAgIGGGGAHGG 7SwiftUI19_ConditionalContentV 19SpotlightUIInternal20FluidWindowContainerV AA7AnyViewV AD0edK0V AA08ModifiedD0V AD0hd5ErrorK033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV
+- _symbolic _____y_____y_____G_____yAEyAEy__________yABy_____G_____GGAByAEyAcGyAhJGGGGAIG_G 7SwiftUI19_ConditionalContentV7StorageO 19SpotlightUIInternal20FluidWindowContainerV AA7AnyViewV AC AF0fdL0V AA08ModifiedD0V AF0id5ErrorL033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV
+- _symbolic _____y_____y__________y_____y_____G_____GGAEyABy_____ADyAfHGGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 19SpotlightUIInternal0fD4ViewV AA08ModifiedD0V AF20FluidWindowContainerV AF0kd5ErrorH033_AC0F0B9A9CECA807EAB5C302FEA18312LLV AA12_FrameLayoutV AA03AnyH0V
+- _symbolic _____y_____y_____y_____G_____y_____GG_AFQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AA01_c9Modifier_I0V 19SpotlightUIInternal026WindowAnimationCoordinatorJ033_5F76C2076713132FD8341A851BF79C5ALLV AA022_EnvironmentKeyWritingJ0V AK0mnO0C
+- get_witness_table 7SwiftUI19_ConditionalContentVy19SpotlightUIInternal20FluidWindowContainerVyAA7AnyViewVGACyACyACyAD0edK0VAA08ModifiedD0VyAFyAD0hd5ErrorK033_AC0F0B9A9CECA807EAB5C302FEA18312LLVGAA12_FrameLayoutVGGAFyACyAhMyApSGGGGAQGGAA0K0HPAiAA0_HPyHC_AzAA0_HPAyAA0_HPAuAA0_HPAkAA0_HPyHC_AtAA0_HPAqAA0_HPyHC_AsA0K8ModifierHPyHCHCHC_AxAA0_HPyHCHC_AqAA0_HPyHCHCHC
+- get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA15ModifiedContentVyAA01_c9Modifier_I0Vy19SpotlightUIInternal026WindowAnimationCoordinatorJ033_5F76C2076713132FD8341A851BF79C5ALLVGAA022_EnvironmentKeyWritingJ0VyAK0mnO0CGG_ASQo_HO
+CStrings:
++ "%s Skipping launch. State not allowed!"
++ "IslandSearchManager.didReceiveResponse: qid=%llu qualityTier=%ld siriWorthy=%{bool}d hasTopHit=%{bool}d hasResults=%{bool}d finished=%{bool}d priority=%{bool}d currentState=%s"
++ "SpotlightUIInternal.ContactWindowViewModel"
++ "[PadDiag] reclampForScreenChange: NO DELEGATE"
++ "browse: didReceiveResponse bypassing displayPolicy (browseMode=%{bool}d)"
++ "browse: expectedInitialState (browse-derived) -> %s"
++ "browse: expectedState (browse-derived) -> results"
++ "browse: hideBrowseButtons set isSearchHorizontallyExpanded=true"
++ "browse: showBrowseButtonForSizeChange -> hideBrowseButtons (isCollapse=%{bool}d expanded=%{bool}d allows=%{bool}d)"
++ "browse: showBrowseButtonForSizeChange -> keep buttons visible (isCollapse=%{bool}d)"
++ "browse: showBrowseButtonForSizeChange -> showBrowseButtons (isCollapse=%{bool}d)"
++ "browse: showBrowseButtons set isSearchHorizontallyExpanded=false"
++ "browse: showBrowseButtonsIfNeeded allows=%{bool}d expanded=%{bool}d"
++ "browse: willStartQuery bypassing displayPolicy (browseMode=%{bool}d suggestions=%{bool}d qLen=%ld policyState=%s)"
++ "clearingAskSiriCompletion: wasAskSiri=%{bool}d lastActionWasDelete=%{bool}d"
++ "com.apple.Spotlight.Contact"
++ "com.apple.spotlightui"
++ "didUpdateResults: displayState=%s isSiriDeserving=%{bool}d shouldShowAskSiri=%{bool}d qualityTier=%ld queryLen=%ld finished=%{bool}d"
++ "frontmost = %{public}s"
++ "gestureInputSource"
++ "setAskSiriOnCompletionView: displayState=%s queryLen=%ld"
++ "touch"
++ "trackpad"
++ "updateCompletion: setting Ask Siri completion"
++ "updateCompletion: setting non-Ask Siri completion (result=%{bool}d, cardSection=%{bool}d)"
+- "SpotlightUIInternal.ContactWindowManager"
+- "com.apple.AskSiri"
+- "contactShortcutsQueue"
+- "debouncedUpdateAccessoryState triggered (delay: %f, queryLength: %ld)"
+- "debouncedUpdateAccessoryState triggered (delay: instant, queryLength: %ld)"
+- "didReceiveResponse"
+- "didReceiveResponse empty results: short circuiting"
+- "didReceiveResponse forced state or non results: short circuiting"
+- "removing window"
+
+```

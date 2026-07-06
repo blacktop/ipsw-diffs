@@ -1,0 +1,280 @@
+## CharacterPicker
+
+> `/System/Library/PrivateFrameworks/CharacterPicker.framework/Versions/A/CharacterPicker`
+
+```diff
+
+-  __TEXT.__text: 0xb17a4
++  __TEXT.__text: 0xaf514
+   __TEXT.__objc_methlist: 0x7814
+-  __TEXT.__cstring: 0x3efd
+-  __TEXT.__const: 0x5284
+-  __TEXT.__gcc_except_tab: 0x790
+-  __TEXT.__oslogstring: 0x1d75
++  __TEXT.__cstring: 0x3ead
++  __TEXT.__const: 0x51d4
++  __TEXT.__gcc_except_tab: 0x79c
++  __TEXT.__oslogstring: 0x1e85
+   __TEXT.__ustring: 0x6c
+   __TEXT.__dlopen_cstrs: 0x395
+-  __TEXT.__swift5_typeref: 0x55a0
+-  __TEXT.__swift5_capture: 0x814
++  __TEXT.__swift5_typeref: 0x54b4
++  __TEXT.__swift5_capture: 0x794
+   __TEXT.__swift5_reflstr: 0x997
+   __TEXT.__swift5_assocty: 0x610
+-  __TEXT.__constg_swiftt: 0x18ac
+-  __TEXT.__swift5_fieldmd: 0xc44
++  __TEXT.__constg_swiftt: 0x1868
++  __TEXT.__swift5_fieldmd: 0xc1c
+   __TEXT.__swift5_proto: 0x194
+-  __TEXT.__swift5_types: 0x130
++  __TEXT.__swift5_types: 0x12c
+   __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift_as_entry: 0x88
+-  __TEXT.__swift_as_ret: 0x68
+-  __TEXT.__swift_as_cont: 0xbc
++  __TEXT.__swift_as_entry: 0x6c
++  __TEXT.__swift_as_ret: 0x50
++  __TEXT.__swift_as_cont: 0xa4
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x2ff0
+-  __TEXT.__eh_frame: 0x13b0
++  __TEXT.__unwind_info: 0x2f40
++  __TEXT.__eh_frame: 0x1230
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x760
+-  __DATA_CONST.__objc_classlist: 0x350
++  __DATA_CONST.__objc_classlist: 0x348
+   __DATA_CONST.__objc_catlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x100
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x10
+-  __DATA_CONST.__objc_selrefs: 0x5010
++  __DATA_CONST.__objc_selrefs: 0x5020
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x258
+   __DATA_CONST.__objc_arraydata: 0x448
+-  __DATA_CONST.__got: 0xf28
+-  __AUTH_CONST.__const: 0x4560
++  __DATA_CONST.__got: 0xf88
++  __AUTH_CONST.__const: 0x43f8
+   __AUTH_CONST.__cfstring: 0x3ee0
+-  __AUTH_CONST.__objc_const: 0xe058
++  __AUTH_CONST.__objc_const: 0xdf80
+   __AUTH_CONST.__weak_auth_got: 0x18
+   __AUTH_CONST.__objc_arrayobj: 0x258
+   __AUTH_CONST.__objc_intobj: 0x198
+   __AUTH_CONST.__objc_dictobj: 0x410
+-  __AUTH_CONST.__auth_got: 0x1830
++  __AUTH_CONST.__auth_got: 0x17f0
+   __AUTH.__objc_data: 0x2708
+-  __AUTH.__data: 0x710
++  __AUTH.__data: 0x668
+   __DATA.__objc_ivar: 0x78c
+-  __DATA.__data: 0x1ff0
+-  __DATA.__bss: 0x3e98
++  __DATA.__data: 0x1fb0
++  __DATA.__bss: 0x3e88
+   __DATA.__common: 0x68
+   __DATA_DIRTY.__bss: 0x78
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 4754
+-  Symbols:   13313
+-  CStrings:  1367
++  Functions: 4708
++  Symbols:   13197
++  CStrings:  1371
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__swift5_reflstr : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__objc_arraydata : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __AUTH_CONST.__objc_arrayobj : content changed
+~ __AUTH_CONST.__objc_intobj : content changed
+~ __AUTH_CONST.__objc_dictobj : content changed
+~ __AUTH.__objc_data : content changed
+~ __DATA.__objc_ivar : content changed
+Symbols:
++ _$s7SwiftUI19_ConditionalContentVyACyAA4TextVAA5ImageVGAA08ModifiedD0VyAgA24_ForegroundStyleModifierVyAA017HierarchicalShapeI0VGGGACyxq_GAA4ViewA2aSRzAaSR_rlWL
++ _$s7SwiftUI19_ConditionalContentVyACyAA4TextVAA5ImageVGAA08ModifiedD0VyAgA24_ForegroundStyleModifierVyAA017HierarchicalShapeI0VGGGACyxq_GAA4ViewA2aSRzAaSR_rlWl
++ _$s7SwiftUI19_ConditionalContentVyACyAA4TextVAA5ImageVGAA08ModifiedD0VyAgA24_ForegroundStyleModifierVyAA017HierarchicalShapeI0VGGGMR
++ _$s7SwiftUI19_ConditionalContentVyACyAA4TextVAA5ImageVGAA08ModifiedD0VyAgA24_ForegroundStyleModifierVyAA017HierarchicalShapeI0VGGGMd
++ _$sSo21NSAttributedStringKeya_yptWOh
++ _CGRectIntersectsRect
++ _CGRectMakeWithDictionaryRepresentation
++ _CGRectZero
++ _NSUnionRect
++ __CGWindowEntryIsOursOrTrustedPicker
++ ___ObserveEvent_block_invoke_2
++ ____ObserveEvent_block_invoke_2
++ _getpid
++ _kCGWindowBounds
++ _kCGWindowLayer
++ _kCGWindowOwnerPID
++ _objc_msgSend$attachedSheet
++ _objc_msgSend$childWindows
++ _objc_msgSend$intValue
++ _symbolic _____yAAy__________G_____yAC_____y_____GGG 7SwiftUI19_ConditionalContentV AA4TextV AA5ImageV AA08ModifiedD0V AA24_ForegroundStyleModifierV AA017HierarchicalShapeI0V
++ get_witness_table 7SwiftUI19_ConditionalContentVyACyAA4TextVAA5ImageVGAA08ModifiedD0VyAgA24_ForegroundStyleModifierVyAA017HierarchicalShapeI0VGGGAA4ViewHPAhaRHPAeaRHPyHC_AgaRHPyHCHC_ApaRHPAgaRHPyHC_AoA0mJ0HPyHCHCHC
+- $s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLC5image03forC0So7NSImageCSgSo012CPKCharacterC0_p_tFAIyXEfU_TA
+- _$s15CharacterPicker0A12DataProviderC05_dataD033_5345CD15C578FEC5047A8C457B01CD4DLLSo07CPKDataD0CSgvW
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyF
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_TA
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_TATQ0_
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_TATu
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_TQ1_
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_TY0_
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_Tu
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_yScGyytGzYaXEfU_
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_yScGyytGzYaXEfU_TA
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_yScGyytGzYaXEfU_TATQ0_
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_yScGyytGzYaXEfU_TATu
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_yScGyytGzYaXEfU_TY0_
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_yScGyytGzYaXEfU_Tu
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_yScGyytGzYaXEfU_yyYacfU_
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_yScGyytGzYaXEfU_yyYacfU_TA
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_yScGyytGzYaXEfU_yyYacfU_TATQ0_
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_yScGyytGzYaXEfU_yyYacfU_TATu
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_yScGyytGzYaXEfU_yyYacfU_TQ0_
+- _$s15CharacterPicker0A12DataProviderC17preWarmImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLyyFyyYacfU1_yScGyytGzYaXEfU_yyYacfU_Tu
+- _$s15CharacterPicker0A6EntityV11cachedImage7SwiftUI0E0VSgvg
+- _$s15CharacterPicker0A6EntityV5image7SwiftUI5ImageVSgvg
+- _$s15CharacterPicker0A6EntityV5image7SwiftUI5ImageVSgvgTQ1_
+- _$s15CharacterPicker0A6EntityV5image7SwiftUI5ImageVSgvgTY0_
+- _$s15CharacterPicker0A6EntityV5image7SwiftUI5ImageVSgvgTY2_
+- _$s15CharacterPicker0A6EntityV5image7SwiftUI5ImageVSgvgTu
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLC03setD0_03forC0ySo7NSImageC_So012CPKCharacterC0_ptF
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLC03setD0_03forC0ySo7NSImageC_So012CPKCharacterC0_ptFyyYbcfU_TA
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLC5cacheSDySSSo7NSImageCGvpWvd
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLC5clearyyFyyYbcfU_TA
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLC5image03forC0So7NSImageCSgSo012CPKCharacterC0_p_tFAIyXEfU_
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLC5image03forC0So7NSImageCSgSo012CPKCharacterC0_p_tFAIyXEfU_TA
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLC5queueSo012OS_dispatch_M7_serialCvpWvd
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLC6sharedADvpZ
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLC6shared_WZ
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLC6shared_Wz
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLCADycfc
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLCMF
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLCMXX
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLCMa
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLCMf
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLCMm
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLCMn
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLCN
+- _$s15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLCfD
+- _$s7SwiftUI15ModifiedContentVyAA5ImageVAA12_FrameLayoutVGACyxq_GAA4ViewA2aJRzAA0H8ModifierR_rlWL
+- _$s7SwiftUI15ModifiedContentVyAA5ImageVAA12_FrameLayoutVGACyxq_GAA4ViewA2aJRzAA0H8ModifierR_rlWl
+- _$s7SwiftUI15ModifiedContentVyAA5ImageVAA12_FrameLayoutVGMR
+- _$s7SwiftUI15ModifiedContentVyAA5ImageVAA12_FrameLayoutVGMd
+- _$s7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA5ImageVAA12_FrameLayoutVGAEyAgA24_ForegroundStyleModifierVyAA017HierarchicalShapeJ0VGGGACyxq_GAA4ViewA2aSRzAaSR_rlWL
+- _$s7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA5ImageVAA12_FrameLayoutVGAEyAgA24_ForegroundStyleModifierVyAA017HierarchicalShapeJ0VGGGACyxq_GAA4ViewA2aSRzAaSR_rlWl
+- _$s7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA5ImageVAA12_FrameLayoutVGAEyAgA24_ForegroundStyleModifierVyAA017HierarchicalShapeJ0VGGGMR
+- _$s7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA5ImageVAA12_FrameLayoutVGAEyAgA24_ForegroundStyleModifierVyAA017HierarchicalShapeJ0VGGGMd
+- _$s7SwiftUI19_ConditionalContentVyACyAA4TextVAA5ImageVGACyAA08ModifiedD0VyAgA12_FrameLayoutVGAJyAgA24_ForegroundStyleModifierVyAA017HierarchicalShapeK0VGGGGACyxq_GAA4ViewA2aWRzAaWR_rlWL
+- _$s7SwiftUI19_ConditionalContentVyACyAA4TextVAA5ImageVGACyAA08ModifiedD0VyAgA12_FrameLayoutVGAJyAgA24_ForegroundStyleModifierVyAA017HierarchicalShapeK0VGGGGACyxq_GAA4ViewA2aWRzAaWR_rlWl
+- _$s7SwiftUI19_ConditionalContentVyACyAA4TextVAA5ImageVGACyAA08ModifiedD0VyAgA12_FrameLayoutVGAJyAgA24_ForegroundStyleModifierVyAA017HierarchicalShapeK0VGGGGMR
+- _$s7SwiftUI19_ConditionalContentVyACyAA4TextVAA5ImageVGACyAA08ModifiedD0VyAgA12_FrameLayoutVGAJyAgA24_ForegroundStyleModifierVyAA017HierarchicalShapeK0VGGGGMd
+- _$s7SwiftUI5ImageV12ResizingModeO7stretchyA2EmFWC
+- _$s7SwiftUI5ImageV12ResizingModeOMa
+- _$s7SwiftUI5ImageV9resizable9capInsets12resizingModeAcA04EdgeF0V_AC08ResizingH0OtF
+- _$s8Dispatch0A13WorkItemFlagsV7barrierACvgZ
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_So7NSImageCTt0g5Tf4g_n
+- _$sSaySo24OS_dispatch_queue_serialC8DispatchE10AttributesVGMR
+- _$sSaySo24OS_dispatch_queue_serialC8DispatchE10AttributesVGMd
+- _$sSaySo24OS_dispatch_queue_serialC8DispatchE10AttributesVGSayxGSTsWL
+- _$sScP13userInitiatedScPvgZ
+- _$sSccySo7NSImageCSgs5NeverOGMR
+- _$sSccySo7NSImageCSgs5NeverOGMd
+- _$sSo11_STKStickerCSgIeyBhy_ACTz_Tm
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO8workItemyA2EmFWC
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
+- _$sSo17OS_dispatch_queueC8DispatchE4sync7executexxyKXE_tKlF
+- _$sSo18CPKCharacterEntityP15CharacterPickerE9loadImageSo7NSImageCSgyYaF
+- _$sSo18CPKCharacterEntityP15CharacterPickerE9loadImageSo7NSImageCSgyYaFTQ1_
+- _$sSo18CPKCharacterEntityP15CharacterPickerE9loadImageSo7NSImageCSgyYaFTY0_
+- _$sSo18CPKCharacterEntityP15CharacterPickerE9loadImageSo7NSImageCSgyYaFTY2_
+- _$sSo18CPKCharacterEntityP15CharacterPickerE9loadImageSo7NSImageCSgyYaFTu
+- _$sSo21NSAttributedStringKeya_yptWOhTm
+- _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVAEs10SetAlgebraACWL
+- _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVMa
+- _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVMn
+- _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVs10SetAlgebraACMc
+- _$sSo24OS_dispatch_queue_serialC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0E3QoSVAbCE10AttributesVSo0a1_b1_C0CACE011AutoreleaseJ0OANSgtcfC
+- _$sSo24OS_dispatch_queue_serialCML
+- _$sSo7NSImageCSgIeyBhy_ACSo18CPKCharacterEntityRzlTz_
+- _$sSo7NSImageCSgMR
+- _$sSo7NSImageCSgMd
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_So7NSImageCTg5
+- _$ss17_NativeDictionaryV4copyyyFSS_So7NSImageCTg5
+- _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_So7NSImageCTg5
+- _$ss18_DictionaryStorageCySSSo7NSImageCGMR
+- _$ss18_DictionaryStorageCySSSo7NSImageCGMd
+- _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5
+- _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRyt_Tg5
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRyt_Tg5TA
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRyt_Tg5TATQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRyt_Tg5TATu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRyt_Tg5TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzlTRyt_Tg5Tu
+- _MGGetBoolAnswer
+- _OBJC_CLASS_$_OS_dispatch_queue_serial
+- __DATA__TtC15CharacterPickerP33_5345CD15C578FEC5047A8C457B01CD4D16EntityImageCache
+- __IVARS__TtC15CharacterPickerP33_5345CD15C578FEC5047A8C457B01CD4D16EntityImageCache
+- __METACLASS_DATA__TtC15CharacterPickerP33_5345CD15C578FEC5047A8C457B01CD4D16EntityImageCache
+- __swift_closure_destructor.136Tm
+- _objc_msgSend$initWithCGImage:size:
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _symbolic SDySSSo7NSImageCG
+- _symbolic Say_____G So24OS_dispatch_queue_serialC8DispatchE10AttributesV
+- _symbolic SccySo7NSImageCSg_____G s5NeverO
+- _symbolic So24OS_dispatch_queue_serialC
+- _symbolic So7NSImageC
+- _symbolic So7NSImageCSg
+- _symbolic _____ 15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLC
+- _symbolic _____SgXw 15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLC
+- _symbolic _____SgXwz_Xx 15CharacterPicker16EntityImageCache33_5345CD15C578FEC5047A8C457B01CD4DLLC
+- _symbolic _____yAAy__________GAAy_____yAC_____GAEyAC_____y_____GGGG 7SwiftUI19_ConditionalContentV AA4TextV AA5ImageV AA08ModifiedD0V AA12_FrameLayoutV AA24_ForegroundStyleModifierV AA017HierarchicalShapeK0V
+- _symbolic _____ySSSo7NSImageCG s18_DictionaryStorageC
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA12_FrameLayoutV
+- _symbolic _____y_____y__________GAByAC_____y_____GGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA12_FrameLayoutV AA24_ForegroundStyleModifierV AA017HierarchicalShapeJ0V
+- get_witness_table 7SwiftUI19_ConditionalContentVyACyAA4TextVAA5ImageVGACyAA08ModifiedD0VyAgA12_FrameLayoutVGAJyAgA24_ForegroundStyleModifierVyAA017HierarchicalShapeK0VGGGGAA4ViewHPAhaVHPAeaVHPyHC_AgaVHPyHCHC_AtaVHPAmaVHPAgaVHPyHC_AlA0oL0HPyHCHC_AsaVHPAgaVHPyHC_AraWHPyHCHCHCHC
+CStrings:
++ "%{public}@: Image data source unavailable when looking up image glyph type %ld"
++ "%{public}@: Section unavailable for image glyph type %ld"
++ "CPKStickerImageCache: nil identifier for entity %@ glyph %@ stickerUUID %@"
++ "EmojiPicker: Data Source: %@"
++ "EmojiPicker: gmsAvailability: %d"
++ "PhotosPicker"
++ "focus loss attributed to popup menu near popover, not closing"
+- "DeviceSupportsGenerativeModelSystems"
+- "EmojiPicker: hardwareSupported: %d, gmsAvailability: %d, supports: %d"
+- "com.apple.CharacterPicker.imageCache"
+
+```

@@ -1,0 +1,173 @@
+## IntelligenceEngine
+
+> `/System/Library/PrivateFrameworks/IntelligenceEngine.framework/Versions/A/IntelligenceEngine`
+
+```diff
+
+-  __TEXT.__text: 0x1a6294
++  __TEXT.__text: 0x1a59a0
+   __TEXT.__init_offsets: 0x44
+   __TEXT.__objc_methlist: 0xbcc
+   __TEXT.__const: 0x3800
+   __TEXT.__cstring: 0xd8f2
+-  __TEXT.__gcc_except_tab: 0x1bca0
++  __TEXT.__gcc_except_tab: 0x1bc9c
+   __TEXT.__oslogstring: 0x3a9
+   __TEXT.__unwind_info: 0x64b8
+   __TEXT.__objc_stubs: 0x0
+Sections:
+~ __TEXT.__init_offsets : content changed
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__cstring : content changed
+~ __TEXT.__unwind_info : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__weak_got : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__got : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __AUTH.__thread_vars : content changed
+~ __DATA.__data : content changed
+Functions:
+~ __ZNSt3__16vectorIN4siri12intelligence17ExecStateResponseENS_9allocatorIS3_EEE5clearB9nqe220106Ev : 240 -> 212
+~ __ZNSt3__16vectorIN4siri12intelligence8TestCaseENS_9allocatorIS3_EEE22__base_destruct_at_endB9nqe220106EPS3_ : 96 -> 84
+~ __ZNSt3__16vectorIN8protobuf13FlowTest_StepENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe220106Ev : 172 -> 152
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9nqe220106INS_9allocatorIN8protobuf13FlowTest_StepEEEPS3_S5_S5_EET2_RT_T0_T1_S6_ : 184 -> 156
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9nqe220106INS_9allocatorIN4siri12intelligence14TestParseErrorEEEPS4_S6_S6_EET2_RT_T0_T1_S7_ : 252 -> 244
+~ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS0_IS6_S6_NS_4lessIS6_EENS4_INS_4pairIKS6_S6_EEEEEES8_NS4_INS9_ISA_SD_EEEEEC2B9nqe220106ESt16initializer_listISE_ERKS8_ : 440 -> 416
+~ __ZN4siri12intelligence8TestCaseC2EPKN8protobuf13FlowTest_TestERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEESE_ : 868 -> 860
+~ __ZNSt3__15dequeIN4YAML5TokenENS_9allocatorIS2_EEE19__add_back_capacityEv : 480 -> 468
+~ __ZN6google8protobuf2io19EpsCopyOutputStream23WriteStringMaybeAliasedEjRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPh : 304 -> 292
+~ __ZNK8protobuf30Intelligence_KeyValueParameter39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1492 -> 1452
+~ __ZNK8protobuf17Intelligence_Undo39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 400 -> 392
+~ __ZNK8protobuf27Intelligence_DialogResponse39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1648 -> 1616
+~ __ZNK8protobuf29Intelligence_BehaviorResponse39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1096 -> 1080
+~ __ZNK8protobuf30Intelligence_InputGroup_Intent39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 768 -> 760
+~ __ZNK8protobuf29Intelligence_InputGroup_Event39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 620 -> 612
+~ __ZNK8protobuf23Intelligence_InputGroup39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1520 -> 1480
+~ __ZNK8protobuf22Intelligence_Utterance39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 380 -> 372
+~ __ZNK8protobuf21Intelligence_Variable39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1032 -> 1008
+~ __ZNK8protobuf25Intelligence_NLParameters39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 400 -> 392
+~ __ZNK8protobuf18Intelligence_Event39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1184 -> 1168
+~ __ZNK8protobuf19Intelligence_Intent39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 596 -> 580
+~ __ZNK8protobuf25Intelligence_State_Memory39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 456 -> 448
+~ __ZNK8protobuf27Intelligence_State_Response39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 408 -> 400
+~ __ZNK8protobuf39Intelligence_State_ExecutionState_Frame39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 368 -> 360
+~ __ZNK8protobuf33Intelligence_State_ExecutionState39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 664 -> 656
+~ __ZNK8protobuf18Intelligence_State39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 2260 -> 2196
+~ __ZNK8protobuf37Intelligence_Condition_ConditionEntry39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1148 -> 1108
+~ __ZNK8protobuf22Intelligence_Condition39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 356 -> 348
+~ __ZNK8protobuf12Intelligence39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 4396 -> 4236
+~ __ZNSt3__16vectorIN4siri12intelligence16FunctionArgumentENS_9allocatorIS3_EEE16__init_with_sizeB9nqe220106IPKS3_S9_EEvT_T0_m : 288 -> 280
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9nqe220106INS_9allocatorIN4siri12intelligence16FunctionArgumentEEEPS4_S6_S6_EET2_RT_T0_T1_S7_ : 252 -> 236
+~ __ZNKSt3__111__copy_implclB9nqe220106IPN4siri12intelligence16FunctionArgumentES5_S5_Li0EEENS_4pairIT_T1_EES7_T0_S8_ : 120 -> 116
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZNK4siri12intelligence15FunctionHandler18GetAllDescriptionsEvE3$_0PNS3_18FunctionDefinitionELb0EEEvT1_S9_T0_NS_15iterator_traitsIS9_E15difference_typeEb : 5788 -> 5596
+~ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZNK4siri12intelligence15FunctionHandler18GetAllDescriptionsEvE3$_0PNS3_18FunctionDefinitionEEEbT1_S9_T0_ : 948 -> 900
+~ __ZN4siri12intelligenceL22GetBehaviorDefinitionsEv : 6140 -> 6132
+~ __ZNSt3__16vectorIN4siri12intelligence16BehaviorArgumentENS_9allocatorIS3_EEE16__init_with_sizeB9nqe220106IPKS3_S9_EEvT_T0_m : 308 -> 300
+~ __ZNSt3__16vectorIN4siri12intelligence18BehaviorDefinitionENS_9allocatorIS3_EEE16__init_with_sizeB9nqe220106IPKS3_S9_EEvT_T0_m : 348 -> 340
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9nqe220106INS_9allocatorIN4siri12intelligence16BehaviorArgumentEEEPS4_S6_S6_EET2_RT_T0_T1_S7_ : 260 -> 252
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZNK4siri12intelligence15BehaviorHandler18GetAllDescriptionsEvE3$_0PNS3_18BehaviorDefinitionELb0EEEvT1_S9_T0_NS_15iterator_traitsIS9_E15difference_typeEb : 4848 -> 4656
+~ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZNK4siri12intelligence15BehaviorHandler18GetAllDescriptionsEvE3$_0PNS3_18BehaviorDefinitionEEEbT1_S9_T0_ : 852 -> 800
+~ __ZNK4siri12intelligence14ConditionEntry8EvaluateEPNS0_6MemoryERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE : 3048 -> 3032
+~ __ZNSt3__16vectorIN4siri12intelligence14ConditionEntryENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJS3_EEEPS3_DpOT_ : 436 -> 416
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9nqe220106INS_9allocatorIN4siri12intelligence14ConditionEntryEEEPS4_S6_S6_EET2_RT_T0_T1_S7_ : 152 -> 136
+~ __ZNKSt3__111__copy_implclB9nqe220106IPN4siri12intelligence14ConditionEntryES5_S5_Li0EEENS_4pairIT_T1_EES7_T0_S8_ : 288 -> 236
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9nqe220106INS_9allocatorIN4siri12intelligence17ResolvedConditionEEEPS4_S6_S6_EET2_RT_T0_T1_S7_ : 316 -> 308
+~ __ZNK4siri12intelligence6Memory7GetRootERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEb : 1612 -> 1668
+~ __ZNK4siri12intelligence6Memory25ValidateVariableReferenceERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_PNS0_17ValidationResultsEi : 3536 -> 3644
+~ __ZN4siri12intelligence19WriteFileFromStringERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_ : 240 -> 232
+~ __ZN4siri12intelligence32AreFilesEqualIgnoringFirstNLinesERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEES9_i : 440 -> 424
+~ __ZNSt3__16vectorIN4YAML4NodeENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_ : 704 -> 592
+~ __ZN4siri12intelligence14VectorContainsERKNSt3__16vectorINS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEENS6_IS8_EEEERKS8_ : 320 -> 312
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE25__parse_equivalence_classIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE : 472 -> 448
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_character_classIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE : 176 -> 152
+~ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_collating_symbolIPKcEET_S7_S7_RNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE : 228 -> 204
+~ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEE19__add_back_capacityEv : 480 -> 468
+~ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE18__insert_with_sizeB9nqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPKS6_EESE_EENSB_IPS6_EESE_T0_T1_l : 648 -> 632
+~ __ZNSt3__16vectorIN8protobuf30Intelligence_KeyValueParameterENS_9allocatorIS2_EEE16__destroy_vectorclB9nqe220106Ev : 172 -> 152
+~ __ZNSt3__134__uninitialized_allocator_relocateB9nqe220106INS_9allocatorIN8protobuf30Intelligence_KeyValueParameterEEEPS3_EEvRT_T0_S8_S8_ : 144 -> 136
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9nqe220106INS_9allocatorIN4siri12intelligence16ValidationResultEEEPS4_S6_S6_EET2_RT_T0_T1_S7_ : 296 -> 276
+~ __ZNK8protobuf26FlowTest_KeyValueParameter39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 744 -> 728
+~ __ZNK8protobuf19FlowTest_SendIntent39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 428 -> 420
+~ __ZNK8protobuf23FlowTest_AssertResponse39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 696 -> 688
+~ __ZNK8protobuf13FlowTest_Step39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 1012 -> 972
+~ __ZNK8protobuf13FlowTest_Test39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 648 -> 632
+~ __ZNK8protobuf8FlowTest39InternalSerializeWithCachedSizesToArrayEPhPN6google8protobuf2io19EpsCopyOutputStreamE : 400 -> 392
+~ __ZNK4siri12intelligence10Expression4Impl16EvaluateFunctionERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERKNS3_6vectorIS9_NS7_IS9_EEEE : 8900 -> 8884
+~ __ZN4siri12intelligence27IsValidCompoundVariableNameERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE : 196 -> 180
+~ __ZNSt3__16vectorIN4siri12intelligence10TestResultENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_ : 444 -> 432
+~ __ZNSt3__135__uninitialized_allocator_copy_implB9nqe220106INS_9allocatorIN4siri12intelligence10TestResultEEEPS4_S6_S6_EET2_RT_T0_T1_S7_ : 216 -> 208
+~ __ZN4siri12intelligence6Entity8FindNextEv : 272 -> 276
+~ __ZNKSt3__111__copy_implclB9nqe220106IPN4siri12intelligence16ValidationResultES5_S5_Li0EEENS_4pairIT_T1_EES7_T0_S8_ : 128 -> 124
+~ __ZN9rapidjson13GenericReaderINS_4UTF8IcEES2_NS_12CrtAllocatorEE11ParseObjectILj128ENS_19GenericStringStreamIS2_EENS_15GenericDocumentIS2_NS_19MemoryPoolAllocatorIS3_EES3_EEEEvRT0_RT1_ : 832 -> 796
+~ __ZN9rapidjson13GenericReaderINS_4UTF8IcEES2_NS_12CrtAllocatorEE10ParseArrayILj128ENS_19GenericStringStreamIS2_EENS_15GenericDocumentIS2_NS_19MemoryPoolAllocatorIS3_EES3_EEEEvRT0_RT1_ : 640 -> 612
+~ __ZN9rapidjson13GenericReaderINS_4UTF8IcEES2_NS_12CrtAllocatorEE11ParseNumberILj128ENS_19GenericStringStreamIS2_EENS_15GenericDocumentIS2_NS_19MemoryPoolAllocatorIS3_EES3_EEEEvRT0_RT1_ : 1976 -> 1988
+~ __ZN9rapidjson13GenericReaderINS_4UTF8IcEES2_NS_12CrtAllocatorEE9ParseHex4INS_19GenericStringStreamIS2_EEEEjRT_m : 188 -> 180
+~ __ZN4YAML12EncodeBase64EPKhm : 456 -> 460
+~ -[IEValidator validate:srcFilename:] : 1804 -> 1768
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN4siri12intelligence9FlowGraph4SaveEPN8protobuf18Intelligence_StateEmmE3$_0PNS_10shared_ptrINS3_15IntentReferenceEEELb0EEEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeEb : 7556 -> 7444
+~ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN4siri12intelligence9FlowGraph4SaveEPN8protobuf18Intelligence_StateEmmE3$_0PNS_10shared_ptrINS3_15IntentReferenceEEEEEbT1_SE_T0_ : 1304 -> 1236
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN4siri12intelligence9FlowGraph4SaveEPN8protobuf18Intelligence_StateEmmE3$_1PNS_10shared_ptrINS3_12ResponseBaseEEELb0EEEvT1_SE_T0_NS_15iterator_traitsISE_E15difference_typeEb : 4312 -> 4256
+~ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN4siri12intelligence9FlowGraph4SaveEPN8protobuf18Intelligence_StateEmmE3$_1PNS_10shared_ptrINS3_12ResponseBaseEEEEEbT1_SE_T0_ : 840 -> 772
+~ __ZNK4siri12intelligence9ArgParser16GetPositionalArgEm : 296 -> 304
+~ __ZNK4siri12intelligence9ArgParser9HasOptionERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE : 296 -> 280
+~ __ZN4siri12intelligence12Intelligence4Impl18PickResponseRandomERKNSt3__16vectorINS0_9RuleMatchENS3_9allocatorIS5_EEEE : 3296 -> 3304
+~ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN4siri12intelligence12Intelligence4Impl18PickResponseRandomERKNS_6vectorINS3_9RuleMatchENS_9allocatorIS7_EEEEE3$_0PS7_Lb0EEEvT1_SG_T0_NS_15iterator_traitsISG_E15difference_typeEb : 7464 -> 7316
+~ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN4siri12intelligence12Intelligence4Impl18PickResponseRandomERKNS_6vectorINS3_9RuleMatchENS_9allocatorIS7_EEEEE3$_0PS7_EEbT1_SG_T0_ : 1712 -> 1644
+~ __ZNSt3__16vectorIN4siri12intelligence17ExecStateResponseENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_ : 468 -> 448
+~ __ZN4siri12intelligence6YamlIO8ValidateEPNS0_17ValidationResultsERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE : 1028 -> 1004
+~ __ZN6google8protobuf2io19EpsCopyOutputStream30WriteStringMaybeAliasedOutlineEjRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPh : 396 -> 388
+~ __ZN6google8protobuf2io19EpsCopyOutputStream18WriteStringOutlineEjRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEPh : 436 -> 428
+~ __ZN6google8protobuf8internal18EpsCopyInputStream4NextEii : 1064 -> 1068
+~ __ZN6google8protobuf8internal16WireFormatParserINS1_28UnknownFieldLiteParserHelperEEEPKcRT_S5_PNS1_12ParseContextE : 248 -> 252
+~ __ZN6google8protobuf8internal11VarintParseIyEEPKcS4_PT_ : 124 -> 128
+~ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17find_first_not_ofB9nqe220106EPKcm : 144 -> 140
+~ __ZN4siri12intelligenceL24ParseJsonValueToVariableERKN9rapidjson12GenericValueINS1_4UTF8IcEENS1_19MemoryPoolAllocatorINS1_12CrtAllocatorEEEEE : 944 -> 940
+~ __ZN4YAML5Utils12_GLOBAL__N_126GetNextCodePointAndAdvanceERiRNSt3__111__wrap_iterIPKcEES7_ : 296 -> 280
+~ __ZN6google8protobuf8internal16ReadSizeFallbackEPKcj : 120 -> 124
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/arena.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/arena_impl.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/arenastring.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/io/coded_stream.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/message_lite.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/parse_context.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/parse_context.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/repeated_field.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/stubs/common.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/fileformat/intelligence.pb.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/fileformat/intelligence.pb.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/flowtest/flowtest.pb.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yjXwpG/Sources/SiriIntelligenceEngine/flowtest/flowtest.pb.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/arena.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/arena_impl.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/arenastring.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/generated_message_util.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/io/coded_stream.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/message_lite.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/parse_context.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/parse_context.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/repeated_field.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/3rdparty/protobuf/src/google/protobuf/stubs/common.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/fileformat/intelligence.pb.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/fileformat/intelligence.pb.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/flowtest/flowtest.pb.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZcckB2/Sources/SiriIntelligenceEngine/flowtest/flowtest.pb.h"
+
+```

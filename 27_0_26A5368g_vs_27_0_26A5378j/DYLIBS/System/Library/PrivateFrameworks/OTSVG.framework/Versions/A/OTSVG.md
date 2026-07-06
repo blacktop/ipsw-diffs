@@ -1,0 +1,41 @@
+## OTSVG
+
+> `/System/Library/PrivateFrameworks/OTSVG.framework/Versions/A/OTSVG`
+
+```diff
+
+-  __TEXT.__text: 0x3652c
++  __TEXT.__text: 0x36468
+   __TEXT.__objc_methlist: 0x320
+   __TEXT.__const: 0xb60
+   __TEXT.__cstring: 0xb94
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__weak_auth_got : content changed
+~ __DATA.__data : content changed
+~ __DATA_DIRTY.__objc_data : content changed
+Functions:
+~ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9nqn220106EPKvm : 532 -> 520
+~ __ZN3SVGL7enqueueERNSt3__16vectorINS0_7variantIJNS0_17reference_wrapperIKNS_14PatternElementEEENS3_IKNS_11MaskElementEEEEEENS0_9allocatorISA_EEEERNS0_13unordered_setISA_NS_20DependentElementHashENS_25DependentElementPredicateESC_EESJ_RKNS0_13unordered_mapISA_SD_SG_SH_NSB_INS0_4pairIKSA_SD_EEEEEESA_ : 584 -> 580
+~ _OTSVGTableCreateFromData : 532 -> 460
+~ __ZNSt3__16vectorINS_7variantIJmN3SVG6MovetoENS2_6LinetoENS2_16HorizontalLinetoENS2_14VerticalLinetoENS2_7CurvetoENS2_13SmoothCurvetoENS2_22QuadraticBezierCurvetoENS2_28SmoothQuadraticBezierCurvetoENS2_13EllipticalArcEEEENS_9allocatorISC_EEE16__init_with_sizeB9nqn220106IPSC_SH_EEvT_T0_m : 256 -> 244
+~ __ZNSt3__116__variant_detail12__visitation6__base12__dispatcherIJLm5EEE10__dispatchB9nqn220106IONS1_9__variant15__value_visitorIRN3SVG7VisitorIZNS8_L9parsePathERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE3$_0JZNS8_L9parsePathESH_E3$_1ZNS8_L9parsePathESH_E3$_2ZNS8_L9parsePathESH_E3$_3ZNS8_L9parsePathESH_E3$_4ZNS8_L9parsePathESH_E3$_5ZNS8_L9parsePathESH_E3$_6ZNS8_L9parsePathESH_E3$_7ZNS8_L9parsePathESH_E3$_8ZNS8_L9parsePathESH_E3$_9EEEEEJRNS0_6__baseILNS0_6_TraitE1EJmNS8_6MovetoENS8_6LinetoENS8_16HorizontalLinetoENS8_14VerticalLinetoENS8_7CurvetoENS8_13SmoothCurvetoENS8_22QuadraticBezierCurvetoENS8_28SmoothQuadraticBezierCurvetoENS8_13EllipticalArcEEEEEEEDcT_DpT0_ : 260 -> 248
+~ __ZNSt3__115allocate_sharedB9nqn220106IN3SVG11ClipToPaths14ParentClipNodeENS_9allocatorIS3_EEJRS3_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_ : 340 -> 328
+~ __ZNSt3__16vectorIN3SVG18DrawLinearGradientENS_9allocatorIS2_EEE16__destroy_vectorclB9nqn220106Ev : 152 -> 144
+~ __ZNSt3__134__uninitialized_allocator_relocateB9nqn220106INS_9allocatorIN3SVG18DrawLinearGradientEEEPS3_EEvRT_T0_S8_S8_ : 184 -> 160
+~ __ZNSt3__116__variant_detail12__assignmentINS0_8__traitsIJNS_6vectorIN3SVG18DrawLinearGradientENS_9allocatorIS5_EEEENS3_INS4_18DrawRadialGradientENS6_IS9_EEEEEEEE12__assign_altB9nqn220106ILm0ES8_S8_EEvRNS0_5__altIXT_ET0_EEOT1_ : 260 -> 244
+~ __ZNSt3__16vectorIN3SVG18DrawRadialGradientENS_9allocatorIS2_EEE16__destroy_vectorclB9nqn220106Ev : 152 -> 144
+~ __ZNSt3__134__uninitialized_allocator_relocateB9nqn220106INS_9allocatorIN3SVG18DrawRadialGradientEEEPS3_EEvRT_T0_S8_S8_ : 192 -> 168
+~ __ZNSt3__116__variant_detail12__assignmentINS0_8__traitsIJNS_6vectorIN3SVG18DrawLinearGradientENS_9allocatorIS5_EEEENS3_INS4_18DrawRadialGradientENS6_IS9_EEEEEEEE12__assign_altB9nqn220106ILm1ESB_SB_EEvRNS0_5__altIXT_ET0_EEOT1_ : 268 -> 252
+~ __ZN3SVGL8simplifyERKNS_11ClipToPaths12BaseClipNodeEP9CGContext : 2928 -> 2940
+~ __ZN3SVG19consumeColorKeywordERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEm : 476 -> 488
+
+```

@@ -1,0 +1,200 @@
+## SpatialPreviewServices
+
+> `/System/Library/PrivateFrameworks/SpatialPreviewServices.framework/Versions/A/SpatialPreviewServices`
+
+```diff
+
+-  __TEXT.__text: 0xa9cd0
++  __TEXT.__text: 0xa9338
+   __TEXT.__objc_methlist: 0x2bc
+-  __TEXT.__const: 0xb688
++  __TEXT.__const: 0xb678
+   __TEXT.__gcc_except_tab: 0x808
+-  __TEXT.__swift5_typeref: 0x25de
++  __TEXT.__swift5_typeref: 0x273c
+   __TEXT.__constg_swiftt: 0x2b58
+   __TEXT.__swift5_reflstr: 0x129c
+   __TEXT.__swift5_fieldmd: 0x23ec
+
+   __TEXT.__swift5_capture: 0xbd8
+   __TEXT.__swift_as_cont: 0x220
+   __TEXT.__swift5_mpenum: 0x28
+-  __TEXT.__unwind_info: 0x3818
++  __TEXT.__unwind_info: 0x37b8
+   __TEXT.__eh_frame: 0x8848
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x220
+   __DATA_CONST.__objc_protorefs: 0x48
+-  __DATA_CONST.__got: 0x5e0
++  __DATA_CONST.__got: 0x5c0
+   __AUTH_CONST.__const: 0x69a9
+   __AUTH_CONST.__objc_const: 0xf68
+-  __AUTH_CONST.__auth_got: 0x10e8
++  __AUTH_CONST.__auth_got: 0x10e0
+   __AUTH.__objc_data: 0x288
+   __AUTH.__data: 0x2330
+-  __DATA.__data: 0x3420
++  __DATA.__data: 0x3380
+   __DATA.__bss: 0x14d90
+   __DATA.__common: 0x1d0
+   - /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 4056
+-  Symbols:   11719
++  Functions: 4017
++  Symbols:   11675
+   CStrings:  214
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_fieldmd : content changed
+~ __TEXT.__swift5_builtin : content changed
+~ __TEXT.__swift5_proto : content changed
+~ __TEXT.__swift5_types : content changed
+~ __TEXT.__swift5_protos : content changed
+~ __TEXT.__swift5_assocty : content changed
+~ __TEXT.__swift_as_entry : content changed
+~ __TEXT.__swift_as_ret : content changed
+~ __TEXT.__swift5_capture : content changed
+~ __TEXT.__swift_as_cont : content changed
+~ __TEXT.__swift5_mpenum : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+Symbols:
++ $s22SpatialPreviewServices9XPCClientC4sendy5ReplyQyd__qd__YaKAA7MessageRd__lFyScCyAFs5Error_pGXEfU_y3XPC10XPCSessionCKXEfU_ys6ResultOyAJ011XPCReceivedG0VAJ07XPCRichH0VGYbcfU_AA20RSPServicesInterfaceO_AA014DiscoverDeviceG0VTg5TA.305Tm
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.147TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.147Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.340TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.340Tu
++ _$s15Synchronization5MutexVMn
++ _$s15Synchronization6AtomicVMn
++ _$s22SpatialPreviewServices9XPCClientCyAA23RSPServicesCLIInterfaceOGSgMaTm
++ _$s22SpatialPreviewServices9XPCClientCyAA23RSPServicesCLIInterfaceOGSgWOhTm
++ _$s22SpatialPreviewServices9XPCResultOy10Foundation4UUIDVGWOhTm
++ _$sScCy10Foundation4UUIDVs5Error_pGMa
++ _$sScCy22SpatialPreviewServices11RSPEndpointCSgs5Error_pGMa
++ _$sScSy22SpatialPreviewServices10RSPMessageVGScSyxGScisWl
++ _$sScSy22SpatialPreviewServices13RSPAttachmentVGScSyxGScisWl
++ _$sScSy22SpatialPreviewServices18RSPAttachmentEventOGScSyxGScisWl
++ __swift_closure_destructor.127Tm
++ __swift_closure_destructor.137Tm
++ __swift_closure_destructor.16Tm
++ __swift_closure_destructor.172Tm
++ __swift_closure_destructor.303Tm
++ __swift_closure_destructor.35Tm
++ _symbolic _____ySDySS_____yx_G_____nYu___________y14ClientMessages_____QzGtYbcGG 15Synchronization5MutexVAARi_zrlE 22SpatialPreviewServices7XPCHostC12MessageReply33_1229E76344D090A76FB1978D5D0527EDLLO 3XPC011XPCReceivedG0V AJ10XPCSessionC AD15TypedPayloadBoxV AD12XPCInterfaceP
++ _symbolic _____ySDySSy_____nYu______y12HostMessages_____QzGnYutYaYbYCcGG 15Synchronization5MutexVAARi_zrlE 3XPC18XPCReceivedMessageV 22SpatialPreviewServices15TypedPayloadBoxV AG12XPCInterfaceP
++ _symbolic _____ySay_____yxGGG 15Synchronization5MutexVAARi_zrlE 22SpatialPreviewServices17XPCHostConnectionC
++ _symbolic _____ySbG 15Synchronization6AtomicV
++ _symbolic _____ySiG 15Synchronization6AtomicV
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 22SpatialPreviewServices18DeviceCapabilitiesV
++ _symbolic _____y_____y_____GSgG 15Synchronization5MutexVAARi_zrlE 22SpatialPreviewServices9XPCClientC AD20RSPServicesInterfaceO
++ _symbolic _____y_____y_____GSgG 15Synchronization5MutexVAARi_zrlE 22SpatialPreviewServices9XPCClientC AD23RSPServicesCLIInterfaceO
++ _symbolic _____y_____yx_GG 15Synchronization5MutexVAARi_zrlE 22SpatialPreviewServices13AsyncNotifierC5State33_6B8476E8478489C6E83B70946D8216F6LLV
++ _symbolic _____y_____yx_GG 15Synchronization5MutexVAARi_zrlE 22SpatialPreviewServices17XPCHostConnectionC11TaskStorageV
++ _symbolic _____yxSgG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____yy___________S2S_____S2StYbcSgG 15Synchronization5MutexVAARi_zrlE 10Foundation4UUIDV s6UInt64V s6UInt16V
++ _symbolic _____yy___________tYbcSgG 15Synchronization5MutexVAARi_zrlE 10Foundation4UUIDV s6UInt64V
++ _symbolic _____yy______pcSgG 15Synchronization5MutexVAARi_zrlE s5ErrorP
++ _symbolic _____yy_____yxG_______ptcSgG 15Synchronization5MutexVAARi_zrlE 22SpatialPreviewServices17XPCHostConnectionC s5ErrorP
++ _symbolic _____yy_____yxGcSgG 15Synchronization5MutexVAARi_zrlE 22SpatialPreviewServices17XPCHostConnectionC
++ _symbolic _____yytG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____yyyYbcSgG 15Synchronization5MutexVAARi_zrlE
+- $s22SpatialPreviewServices9XPCClientC4sendy5ReplyQyd__qd__YaKAA7MessageRd__lFyScCyAFs5Error_pGXEfU_y3XPC10XPCSessionCKXEfU_ys6ResultOyAJ011XPCReceivedG0VAJ07XPCRichH0VGYbcfU_AA20RSPServicesInterfaceO_AA014DiscoverDeviceG0VTg5TA.310Tm
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.150TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.150Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.345TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.345Tu
+- _$s15Synchronization5MutexVy22SpatialPreviewServices18DeviceCapabilitiesVSgGML
+- _$s15Synchronization5MutexVy22SpatialPreviewServices18DeviceCapabilitiesVSgGMa
+- _$s15Synchronization5MutexVy22SpatialPreviewServices9XPCClientCyAD20RSPServicesInterfaceOGSgGML
+- _$s15Synchronization5MutexVy22SpatialPreviewServices9XPCClientCyAD23RSPServicesCLIInterfaceOGSgGML
+- _$s15Synchronization5MutexVy22SpatialPreviewServices9XPCClientCyAD23RSPServicesCLIInterfaceOGSgGMaTm
+- _$s15Synchronization5MutexVyy10Foundation4UUIDV_s6UInt64VS2Ss6UInt16VS2StYbcSgGML
+- _$s15Synchronization5MutexVyy10Foundation4UUIDV_s6UInt64VtYbcSgGML
+- _$s15Synchronization5MutexVyys5Error_pcSgGML
+- _$s15Synchronization5MutexVyytGML
+- _$s15Synchronization5MutexVyytGMaTm
+- _$s15Synchronization5MutexVyyyYbcSgGML
+- _$s15Synchronization6AtomicVMa
+- _$s15Synchronization6AtomicVySbGML
+- _$s15Synchronization6AtomicVySbGMa
+- _$s15Synchronization6AtomicVySiGML
+- _$s15Synchronization6AtomicVySiGMa
+- _$s22SpatialPreviewServices13RSPAttachmentVSgMa
+- _$s22SpatialPreviewServices18DeviceCapabilitiesVSgML
+- _$s22SpatialPreviewServices25StreamRemovedNotificationVSgMa
+- _$s22SpatialPreviewServices25StreamRequestNotificationVSgMa
+- _$s22SpatialPreviewServices27AttachmentEventNotificationVSgMa
+- _$s22SpatialPreviewServices27IncomingMessageNotificationVSgMa
+- _$s22SpatialPreviewServices30IncomingAttachmentNotificationVSgMa
+- _$s22SpatialPreviewServices9XPCClientCyAA20RSPServicesInterfaceOGSgMa
+- _$s22SpatialPreviewServices9XPCClientCyAA23RSPServicesCLIInterfaceOGSgMa
+- _$s22SpatialPreviewServices9XPCClientCyAA23RSPServicesCLIInterfaceOGSgWOh
+- _$sIegh_SgWOh
+- _$sSb15Synchronization19AtomicRepresentableAAWP
+- _$sScCy10Foundation4UUIDVs5Error_pGMaTm
+- _$sScPSgMa
+- _$sScSy22SpatialPreviewServices10RSPMessageVGMa
+- _$sScSy22SpatialPreviewServices13RSPAttachmentVGMa
+- _$sScSy22SpatialPreviewServices18RSPAttachmentEventOGMa
+- _$sSi15Synchronization19AtomicRepresentableAAWP
+- _$sy10Foundation4UUIDV_s6UInt64VS2Ss6UInt16VS2StYbcML
+- _$sy10Foundation4UUIDV_s6UInt64VS2Ss6UInt16VS2StYbcMa
+- _$sy10Foundation4UUIDV_s6UInt64VS2Ss6UInt16VS2StYbcSgML
+- _$sy10Foundation4UUIDV_s6UInt64VS2Ss6UInt16VS2StYbcSgMa
+- _$sy10Foundation4UUIDV_s6UInt64VtYbcML
+- _$sy10Foundation4UUIDV_s6UInt64VtYbcMa
+- _$sy10Foundation4UUIDV_s6UInt64VtYbcSgML
+- _$sy10Foundation4UUIDV_s6UInt64VtYbcSgMa
+- _$sys5Error_pcML
+- _$sys5Error_pcMa
+- _$sys5Error_pcSgML
+- _$sys5Error_pcSgMa
+- _$syyYbcML
+- _$syyYbcMa
+- _$syyYbcSgML
+- _$syyYbcSgMa
+- _$syycSgMa
+- __swift_closure_destructor.132Tm
+- __swift_closure_destructor.142Tm
+- __swift_closure_destructor.175Tm
+- __swift_closure_destructor.21Tm
+- __swift_closure_destructor.308Tm
+- __swift_closure_destructor.40Tm
+- _swift_runtimeSupportsNoncopyableTypes
+- get_type_metadata 15Synchronization5MutexVy22SpatialPreviewServices18DeviceCapabilitiesVSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVy22SpatialPreviewServices9XPCClientCyAD20RSPServicesInterfaceOGSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVy22SpatialPreviewServices9XPCClientCyAD23RSPServicesCLIInterfaceOGSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVyy10Foundation4UUIDV_s6UInt64VS2Ss6UInt16VS2StYbcSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVyy10Foundation4UUIDV_s6UInt64VtYbcSgG noncopyable
+- get_type_metadata 15Synchronization5MutexVyyyYbcSgG noncopyable
+- get_type_metadata 22SpatialPreviewServices12XPCInterfaceRzl15Synchronization5MutexVyAA17XPCHostConnectionC11TaskStorageVyx_GG noncopyable
+- get_type_metadata 22SpatialPreviewServices12XPCInterfaceRzl15Synchronization5MutexVySDySSAA7XPCHostC12MessageReply33_1229E76344D090A76FB1978D5D0527EDLLOyx_G3XPC011XPCReceivedH0VnYu_AL10XPCSessionCAA15TypedPayloadBoxVy14ClientMessagesQzGtYbcGG noncopyable
+- get_type_metadata 22SpatialPreviewServices12XPCInterfaceRzl15Synchronization5MutexVySDySSy3XPC18XPCReceivedMessageVnYu_AA15TypedPayloadBoxVy12HostMessagesQzGnYutYaYbYCcGG noncopyable
+- get_type_metadata 22SpatialPreviewServices12XPCInterfaceRzl15Synchronization5MutexVySayAA17XPCHostConnectionCyxGGG noncopyable
+- get_type_metadata 22SpatialPreviewServices12XPCInterfaceRzl15Synchronization5MutexVyyAA17XPCHostConnectionCyxG_s5Error_ptcSgG noncopyable
+- get_type_metadata 22SpatialPreviewServices12XPCInterfaceRzl15Synchronization5MutexVyyAA17XPCHostConnectionCyxGcSgG noncopyable
+- get_type_metadata 22SpatialPreviewServices12XPCInterfaceRzl15Synchronization5MutexVyys5Error_pcSgG noncopyable
+- get_type_metadata 22SpatialPreviewServices12XPCInterfaceRzl15Synchronization6AtomicVySbG noncopyable
+- get_type_metadata s8SendableRzl15Synchronization5MutexVy22SpatialPreviewServices13AsyncNotifierC5State33_6B8476E8478489C6E83B70946D8216F6LLVyx_GG noncopyable
+- get_type_metadata s8SendableRzl15Synchronization5MutexVyxSgG noncopyable
+- get_type_metadata s8SendableRzl15Synchronization5MutexVyytG noncopyable
+- get_type_metadata s8SendableRzl15Synchronization6AtomicVySiG noncopyable
+
+```

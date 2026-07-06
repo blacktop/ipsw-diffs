@@ -1,0 +1,745 @@
+## GenerativeSearchAdapter
+
+> `/System/Library/PrivateFrameworks/GenerativeSearchAdapter.framework/Versions/A/GenerativeSearchAdapter`
+
+```diff
+
+-  __TEXT.__text: 0x17007c
+-  __TEXT.__objc_methlist: 0x14
+-  __TEXT.__const: 0x126b4
+-  __TEXT.__swift5_typeref: 0x3b84
+-  __TEXT.__constg_swiftt: 0x2310
+-  __TEXT.__swift5_reflstr: 0x20e7
+-  __TEXT.__swift5_fieldmd: 0x2d54
+-  __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__swift5_mpenum: 0x30
+-  __TEXT.__swift5_types: 0x33c
+-  __TEXT.__cstring: 0x30f1
+-  __TEXT.__oslogstring: 0x127d
+-  __TEXT.__swift5_proto: 0x484
+-  __TEXT.__swift5_assocty: 0x248
+-  __TEXT.__swift_as_entry: 0x4dc
+-  __TEXT.__swift_as_ret: 0x570
+-  __TEXT.__swift5_protos: 0x48
+-  __TEXT.__swift_as_cont: 0xb28
+-  __TEXT.__swift5_capture: 0x68c
+-  __TEXT.__gcc_except_tab: 0xa8
+-  __TEXT.__unwind_info: 0x4f08
+-  __TEXT.__eh_frame: 0xd098
+-  __TEXT.__objc_stubs: 0x0
+-  __TEXT.__auth_stubs: 0x0
+-  __TEXT.__objc_classname: 0x0
+-  __TEXT.__objc_methname: 0x0
+-  __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x352e0
+-  __DATA_CONST.__objc_classlist: 0x40
++  __TEXT.__text: 0x0
++  __TEXT.__const: 0x2
++  __DATA_CONST.__const: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x580
+-  __DATA_CONST.__got: 0x10a8
+-  __AUTH_CONST.__const: 0xfba0
+-  __AUTH_CONST.__cfstring: 0x20
+-  __AUTH_CONST.__objc_const: 0x688
+-  __AUTH_CONST.__auth_got: 0x2170
+-  __AUTH.__objc_data: 0x1e0
+-  __AUTH.__data: 0x2870
+-  __DATA.__data: 0x28c0
+-  __DATA.__bss: 0x78d0
+-  __DATA.__common: 0x601
+-  __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0x730
+-  __DATA_DIRTY.__bss: 0x400
+-  __DATA_DIRTY.__common: 0x48
+-  - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/PrivateFrameworks/GRDBInternal.framework/Versions/A/GRDBInternal
+-  - /System/Library/PrivateFrameworks/GenerativeSearch.framework/Versions/A/GenerativeSearch
+-  - /System/Library/PrivateFrameworks/GenerativeSearchResultRanker.framework/Versions/A/GenerativeSearchResultRanker
+-  - /System/Library/PrivateFrameworks/HybridQueryProcessing.framework/Versions/A/HybridQueryProcessing
++  - /System/Library/PrivateFrameworks/HybridSearch.framework/Versions/A/HybridSearch
++  - /System/Library/PrivateFrameworks/HybridSearchAdapter.framework/Versions/A/HybridSearchAdapter
+   - /usr/lib/libSystem.B.dylib
+-  - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 7268
+-  Symbols:   180
+-  CStrings:  486
++  Functions: 0
++  Symbols:   9
++  CStrings:  0
+ 
+Symbols:
+- _CSItemSummaryTypeAttachment
+- _CSItemSummaryTypeContact
+- _CSItemSummaryTypeDate
+- _CSItemSummaryTypeText
+- _MDItemAdditionalRecipientEmailAddresses
+- _MDItemAuthorEmailAddresses
+- _MDItemDisplayName
+- _MDItemEventType
+- _MDItemExternalID
+- _MDItemHiddenAdditionalRecipientEmailAddresses
+- _MDItemIsFlagged
+- _MDItemIsLikelyJunk
+- _MDItemIsRead
+- _MDItemPrimaryRecipientEmailAddresses
+- _MDItemRecipientEmailAddresses
+- _MDItemSnippet
+- _MDItemSubject
+- _MDItemTextContent
+- _MDMailDateReceived
+- _MDMailFlagged
+- _MDMailRead
+- _MDQueryResultEmbeddingDistances
+- _MDQueryResultMatchingHints
+- _MDQueryResultRetrievalType
+- _OBJC_CLASS_$_CSContactsWrapper
+- _OBJC_CLASS_$_CSPerson
+- _OBJC_CLASS_$_CSSearchableItem
+- _OBJC_CLASS_$_CSSearchableItemAttributeSet
+- _OBJC_CLASS_$_NSLocale
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSRegularExpression
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSUserDefaults
+- _OBJC_CLASS_$_SnowballStemmer
+- _OBJC_CLASS_$__CSSuggestionToken
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$_SnowballStemmer
+- _OBJC_METACLASS_$__TtCs12_SwiftObject
+- __Unwind_Resume
+- ___CFConstantStringClassReference
+- ___NSArray0__struct
+- ___chkstk_darwin
+- ___gxx_personality_v0
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __objc_empty_cache
+- __os_activity_create
+- __os_log_impl
+- __os_signpost_emit_with_name_impl
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftEmptySetSingleton
+- __swiftImmortalRefCount
+- __swift_isClassOrObjCExistentialType
+- __swift_stdlib_bridgeErrorToNSError
+- _bzero
+- _exp2
+- _fputs
+- _free
+- _log2
+- _malloc_size
+- _malloc_type_calloc
+- _malloc_type_malloc
+- _malloc_type_realloc
+- _memcmp
+- _memcpy
+- _memmove
+- _objc_alloc
+- _objc_allocWithZone
+- _objc_autoreleaseReturnValue
+- _objc_claimAutoreleasedReturnValue
+- _objc_enumerationMutation
+- _objc_msgSend
+- _objc_opt_self
+- _objc_release
+- _objc_retain
+- _objc_retainAutorelease
+- _objc_retainAutoreleasedReturnValue
+- _os_activity_scope_enter
+- _os_activity_scope_leave
+- _os_log_type_enabled
+- _os_variant_allows_internal_security_policies
+- _strcmp
+- _swift_allocBox
+- _swift_allocError
+- _swift_allocObject
+- _swift_arrayDestroy
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_asyncLet_begin
+- _swift_asyncLet_finish
+- _swift_asyncLet_get
+- _swift_asyncLet_get_throwing
+- _swift_beginAccess
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain
+- _swift_bridgeObjectRetain_n
+- _swift_checkMetadataState
+- _swift_cvw_allocateGenericValueMetadataWithLayoutString
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_enumFn_getEnumTag
+- _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
+- _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
+- _swift_cvw_initStructMetadataWithLayoutString
+- _swift_cvw_initWithCopy
+- _swift_cvw_initWithTake
+- _swift_cvw_initializeBufferWithCopyOfBuffer
+- _swift_cvw_instantiateLayoutString
+- _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_multiPayloadEnumGeneric_getEnumTag
+- _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
+- _swift_cvw_singlePayloadEnumGeneric_getEnumTag
+- _swift_deallocClassInstance
+- _swift_deallocObject
+- _swift_deletedAsyncMethodErrorTu
+- _swift_deletedMethodError
+- _swift_dynamicCast
+- _swift_dynamicCastClass
+- _swift_endAccess
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_getAtKeyPath
+- _swift_getEnumCaseMultiPayload
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getErrorValue
+- _swift_getExistentialTypeMetadata
+- _swift_getExtendedExistentialTypeMetadata
+- _swift_getFunctionTypeMetadata0
+- _swift_getGenericMetadata
+- _swift_getKeyPath
+- _swift_getObjCClassFromMetadata
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_getSingletonMetadata
+- _swift_getTupleTypeMetadata2
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_initStackObject
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_makeBoxUnique
+- _swift_once
+- _swift_projectBox
+- _swift_release
+- _swift_release_n
+- _swift_retain
+- _swift_retain_n
+- _swift_setDeallocating
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_storeEnumTagMultiPayload
+- _swift_storeEnumTagSinglePayloadGeneric
+- _swift_task_alloc
+- _swift_task_create
+- _swift_task_dealloc
+- _swift_task_switch
+- _swift_unexpectedError
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRetain
+- _swift_updateClassMetadata2
+- _swift_willThrow
+- _swift_willThrowTypedImpl
+CStrings:
+- "  Conversations: "
+- "  ✓ Merged → '"
+- " (duplicate stem '"
+- " < keyword threshold "
+- " < personSuggestions threshold "
+- " <= children sum "
+- " attachment queries\n"
+- " body: skipped — "
+- " candidates from "
+- " expanded term '"
+- " expansion — following words all present in query terms"
+- " extractors active"
+- " is not supported"
+- " is valid for Mail but not in the requested scopes"
+- " is valid for WritingAssistantProfile but not in the requested scopes"
+- " non-person suggestions"
+- " person suggestions → "
+- " person suggestions, "
+- " subject: skipped — "
+- " subjectContains="
+- " suggestions]: ["
+- "%s"
+- "%s %s"
+- "%s Created %s '%s' at index %ld"
+- "%s Created %s '%s' at index %ld (displayName: '%s')"
+- "%s Created senderContains '%s' at index %ld"
+- "%s Created subjectContains '%s' at index %ld"
+- "%s Skipped %s '%s' - limit reached (%ld)"
+- "%s Updated %s '%s' at index %ld - count %ld→%ld"
+- "%s Updated %s '%s' at index %ld - count %ld→%ld, display name updated"
+- "' failed on result "
+- "' pipeline with "
+- "' prepare failed: "
+- "' — already present in prefix"
+- "' — emailCount "
+- "' — emailCount="
+- "' — ends in stop word '"
+- "' — kept (ratio filtering skipped), emailCount="
+- "' — matches current query"
+- "(?:(?<qtyDigit>\\d+)|"
+- "(?:(?<y>\\d{2,4})年)?(?<m>\\d{1,2})月(?<d>\\d{1,2})(?:日|号)?"
+- "(?:[,\\s]+\\d{2,4})?"
+- "(?:[,\\s]+\\d{2,4})?)\\b"
+- "(?:^|\\s)(\\d{1,2})(?:st|nd|rd|th|º|ª|°)?\\s*$"
+- "(?<![0-9:])(?<h>\\d{1,2})(?::(?<m>\\d{1,2}))?(?::(?<s>\\d{1,2}))?\\s*(?<mer>"
+- "(?<![0-9])(?<a>\\d{1,4})"
+- "(?<![0-9])(?<y>\\d{4})(?![0-9])"
+- "(?<![0-9])(?<y>\\d{4})[-/](?<m>\\d{1,2})[-/](?<d>\\d{1,2})(?![0-9])"
+- "(?<![0-9])(?<yy>\\d{4})[-/](?<mm>\\d{1,2})(?![0-9/-])"
+- "(?<![A-Za-z0-9:])(?<l>\\d{1,2})\\s*"
+- "(?<![A-Za-z])(?<h>\\d{1,2}):(?<m>\\d{1,2})(?::(?<s>\\d{1,2}))?(?![A-Za-z])"
+- "(?<![A-Za-z])(?<l>\\d{1,2}(?::\\d{1,2})?(?::\\d{1,2})?\\s*(?:"
+- "(?<![A-Za-z])(?<l>\\d{1,2}:\\d{1,2}(?::\\d{1,2})?)\\s*"
+- "(?<![A-Za-z])(?<l>\\d{1,2}:\\d{1,2})\\s*"
+- "(?<![A-Za-z])(?<qty>\\d+)(?<unit>"
+- "(?<b>\\d{1,2})(?:"
+- "(?<c>\\d{1,4}))?(?![0-9])"
+- "(?<dir>前|后|之前|之后|以前|以后)?"
+- "(?<h>[0-9零〇一二两三四五六七八九十]+)(?:点|时)(?:(?<m>[0-9零〇一二两三四五六七八九十]+)分?|(?<half>半))?(?:(?<s>[0-9零〇一二两三四五六七八九十]+)秒)?"
+- "(?<qty>[0-9]+|[零〇一二两三四五六七八九十百千万亿]{1,12})(?<unit>"
+- "(?<year2>\\d{2,4}))?\\b"
+- "(?<year>\\d{2,4}))?\\b"
+- ") reached, stopping extraction"
+- ") senderContains="
+- ") — limit reached"
+- ")(?:个)?(?<unit>"
+- ")?(?:个)?(?<wd>"
+- ")\\b(?:\\s+(?<modTrail>"
+- ")\\s+(?<dir>after|before)\\s+(?<anchor>"
+- ")\\s+(?<yearY>\\d{4})\\b"
+- ", minResultsForFiltering="
+- ", ratio thresholds ["
+- ",\\s*(?<y>\\d{2,4})\\s*$"
+- "-"
+- ": field result counts — subject="
+- ": no new candidates"
+- ": skipping body ratio filtering — result count "
+- ": skipping subject ratio filtering — result count "
+- "After deduplication: "
+- "After generation: "
+- "Built ComposableQuery<MailContent> from %ld CSSuggestionToken(s)"
+- "Built Query<MailContent> matching \"%s\" with %ld CSSuggestionToken(s)"
+- "Cannot merge filters of different entity types: "
+- "CrossTypeRanker: skipping corrupted conversation %s: %@"
+- "CrossTypeRanker: skipping corrupted turn %s: %@"
+- "DraftMail.queryUnderstanding"
+- "DraftMail.queryUnderstanding.pqa"
+- "DraftMessageEntity"
+- "Duplicate values for key: '"
+- "ExactQueryFilter"
+- "Failed to apply Date filter: does not have valid dateFrom or dateTo"
+- "Failed to apply FlagStatus filter: does not have valid statusValue"
+- "Failed to apply FlagStatus filter: has unknown statusValue %ld"
+- "Failed to apply Person filter: does not have any email address or display name to use for filtering"
+- "Failed to apply Person filter: has unknown scope %ld"
+- "Failed to apply Person filter: has unsupported scope %ld"
+- "Failed to apply ReadStatus filter: does not have valid statusValue"
+- "Failed to apply ReadStatus filter: has unknown statusValue %ld"
+- "Failed to apply SenderContains filter: has empty search string"
+- "Failed to apply SenderContains filter: has unknown scope %ld"
+- "Failed to apply Text filter: has empty text"
+- "Failed to apply Text filter: has unknown scope %ld"
+- "Fatal error"
+- "Flag color token not yet supported: %ld"
+- "GenerativeSearchAdapter/GenerativeSearchClient+MailSuggestionsProcessing.swift"
+- "GenerativeSearchAdapter/RegexCache.swift"
+- "GenerativeSearchAdapter/Suggester.swift"
+- "GenerativeSearchClient"
+- "Invalid filter: "
+- "Invalid number of keys found, expected one."
+- "Mail search override applied [searchType=%s, cosineDistanceThreshold=%s, semanticLimit=%s]"
+- "MailAttachment.queryUnderstanding"
+- "MailAttachment.queryUnderstanding.pqa"
+- "MailAttachmentEntity"
+- "MailFilter should not contain search terms"
+- "MailMessageEntity"
+- "MailSearchClient.%s: Request %s cancelled"
+- "MailSearchClient.%s: Request %s completed. Elapsed time: %s."
+- "MailSearchClient.%s: Request %s started with %ld queries."
+- "MailSearchClient.%s: Request %s. Error thrown: %@"
+- "MailSearchClient.count"
+- "MailSearchClient.count(filter:)"
+- "MailSearchClient.countEmbedding"
+- "MailSearchClient.domainSearch"
+- "MailSearchClient.domainSearch(%s): %s cancelled"
+- "MailSearchClient.domainSearch(%s): %s completed. Elapsed time: %s."
+- "MailSearchClient.domainSearch(%s): %s. Error thrown: %@"
+- "MailSearchClient.init"
+- "MailSearchClient.isReady"
+- "MailSearchClient.liveQuery"
+- "MailSearchClient.liveQuery(query:composableFilter)"
+- "MailSearchClient.liveQueryIntersection"
+- "MailSearchClient.liveQueryIntersection() called with empty queries"
+- "MailSearchClient.liveQueryUnion"
+- "MailSearchClient.liveQueryUnion() called with empty queries"
+- "MailSearchClient.prewarm"
+- "MailSearchClient.queryUnderstanding"
+- "MailSearchClient.queryUnderstanding.pqa"
+- "MailSearchClient.retrieveIdentifiers"
+- "MailSearchClient.retrieveIdentifiers(llmParses:)"
+- "MailSearchClient.retrieveIdentifiers(query:composableFilter:)"
+- "MailSearchClient.scanMail"
+- "MailSearchClient.search() called with empty queries"
+- "MailSearchClient.search(queries:)"
+- "MailSearchClient.search(query:composableFilter:)"
+- "MailSearchClient.search(static)"
+- "MailSearchClient.suggestions"
+- "MailSearchClient: %lld embeddings available for %s"
+- "MailSearchClient: Embedding available for %s, score: %f exists"
+- "MailSearchClient: No mail search client, bypassing embedding query"
+- "MailSearchClient: Not ready since Generative Search feature flags are disabled"
+- "MailSearchClient: Not ready since Mail In App Generative Search feature flag is disabled"
+- "MailSearchClient: Not ready since enablement tracker is not ready."
+- "MailSearchClient: Ready"
+- "MailSearchClient: RetrievalResult %s is not a supported mail type."
+- "MailSearchContext.merge: mismatched filter types (%s, %s)"
+- "MailSearchCosineDistanceThreshold"
+- "MailSearchSemanticLimit"
+- "MailSuggestionLogRedactionEnabled"
+- "MailSuggestionStemmingEnabled"
+- "Message token: %@ has unsupported type: %{public}@"
+- "NineteenSeventy: invalid regex "
+- "Passthrough non-person: "
+- "PeopleDeduplicator"
+- "PeopleSuggestionFull"
+- "PeopleSuggestionSimple"
+- "Performed mailSuggestions in %sms."
+- "Processing result "
+- "RedundantExpansionFilter"
+- "Removing keyword candidate '"
+- "Search queries not supported for the WritingAssistantProfile domain"
+- "SearchHistory: found "
+- "SearchHistorySource: query failed: %@"
+- "SearchHistorySource: queryText='%s' limit=%ld"
+- "Simplified matching queryText='"
+- "Skipping corrupted mail entity at index "
+- "Skipping duplicate "
+- "Starting mailSuggestions based on %ld raw results."
+- "Suggestion limit ("
+- "Swift/NativeDictionary.swift"
+- "TextUnderstandingExtractionSearchClient.%s: Request %s cancelled. Elapsed: %s."
+- "TextUnderstandingExtractionSearchClient.%s: Request %s completed. Results: %ld. Elapsed: %s."
+- "TextUnderstandingExtractionSearchClient.%s: Request %s. Error thrown: %@. Elapsed: %s."
+- "TextUnderstandingExtractionSearchClient.search"
+- "TextUnderstandingExtractionSearchContext.merge: mismatched filter types (%s, %s)"
+- "Transcript search override applied [searchType=%s, cosineDistanceThreshold=%s]"
+- "TranscriptSearchClient.%s: Request %s cancelled. Elapsed time: %s."
+- "TranscriptSearchClient.%s: Request %s completed. Results: %ld. Elapsed time: %s."
+- "TranscriptSearchClient.%s: Request %s. Error thrown: %@. Elapsed time: %s."
+- "TranscriptSearchClient.conversationSearch"
+- "TranscriptSearchClient.conversationSearch(%s): %s cancelled. Elapsed time: %s."
+- "TranscriptSearchClient.conversationSearch(%s): %s completed. Results: %ld. Elapsed time: %s."
+- "TranscriptSearchClient.conversationSearch(%s): %s. Error thrown: %@. Elapsed time: %s."
+- "TranscriptSearchClient.search(static)"
+- "TranscriptSearchClient.search:input"
+- "TranscriptSearchClient.search:query"
+- "TranscriptSearchClient: dropped invalid conversation search — no search terms or predicate"
+- "TranscriptSearchClient: skipping turn %s — payload decode failed: %@"
+- "TranscriptSearchCosineDistanceThreshold"
+- "TranscriptSearchType"
+- "Unexpected multiple prefix matches in "
+- "Unhandled token kind: %ld"
+- "Union-find group ["
+- "Updated senderContains at index "
+- "Updated subjectContains at index "
+- "WritingAssistantProfileSearchContext.merge: mismatched filter types (%s, %s)"
+- "[ContactProvider] Contact lookup complete: found %ld contacts for %ld emails"
+- "[ContactProvider] Failed to look up contacts: %@"
+- "[ContactProvider] Looking up %ld emails"
+- "[ContactProvider] Non-contact entity returned for contact scanning."
+- "[ContactProvider] Page at offset %ld returned %ld contacts"
+- "[Error] Interval already ended"
+- "[MailSuggestions]["
+- "\\s(?<y>\\d{4})\\s*$"
+- "\\s*(?<r>\\d{1,2}(?::\\d{1,2})?(?::\\d{1,2})?\\s*(?:"
+- "\\s*(?<r>\\d{1,2}(?::\\d{1,2})?\\s*(?:"
+- "\\s*(?<r>\\d{1,2}:\\d{1,2}(?::\\d{1,2})?)(?![A-Za-z])"
+- "], minEmailCount="
+- "^[0-9零〇一二两三四五六七八九十]+\\s*(?:点|时|:)"
+- "achtundzwanzigste"
+- "achtundzwanzigsten"
+- "achtundzwanzigster"
+- "achtundzwanzigstes"
+- "alternateContactIdentifiers"
+- "alternateDisplayNames"
+- "alternateEmailAddresses"
+- "am|dem|der|im|in|den|zum"
+- "am|pm|a\\.m\\.|p\\.m\\."
+- "ar"
+- "ara"
+- "arabic"
+- "baq"
+- "basque"
+- "blindCarbonCopy"
+- "body"
+- "body text missing query terms"
+- "ca"
+- "cache lookup failed"
+- "candidate generation"
+- "candidate update"
+- "carbonCopy"
+- "cat"
+- "catalan"
+- "com.apple.GenerativeSearch"
+- "com.apple.HybridSearch"
+- "com.apple.spotlight.events"
+- "contactIdentifier"
+- "containsCorrection"
+- "containsPrefixExpansion"
+- "da"
+- "dan"
+- "danish"
+- "de"
+- "de_DE"
+- "deu"
+- "dreiundzwanzigste"
+- "dreiundzwanzigsten"
+- "dreiundzwanzigster"
+- "dreiundzwanzigstes"
+- "dut"
+- "dutch"
+- "décembre|decembre"
+- "einunddreissigste"
+- "einunddreissigsten"
+- "einunddreissigster"
+- "einunddreissigstes"
+- "einunddreißigste"
+- "einunddreißigsten"
+- "einunddreißigster"
+- "einunddreißigstes"
+- "einundzwanzigste"
+- "einundzwanzigsten"
+- "einundzwanzigster"
+- "einundzwanzigstes"
+- "el"
+- "ell"
+- "el|la|los|las|de|del|en|al"
+- "en"
+- "en este instante"
+- "en_US"
+- "eng"
+- "english"
+- "es"
+- "esl"
+- "eu"
+- "eus"
+- "executeSearch(input:context:)"
+- "expectedSuggestions"
+- "fi"
+- "fin"
+- "finnish"
+- "fr"
+- "fr_FR"
+- "fra"
+- "fre"
+- "french"
+- "fuenfundzwanzigste"
+- "fuenfundzwanzigsten"
+- "fuenfundzwanzigster"
+- "fuenfundzwanzigstes"
+- "full"
+- "février|fevrier"
+- "fünfundzwanzigste"
+- "fünfundzwanzigsten"
+- "fünfundzwanzigster"
+- "fünfundzwanzigstes"
+- "ga"
+- "ger"
+- "german"
+- "gle"
+- "gre"
+- "greek"
+- "hi"
+- "hin"
+- "hindi"
+- "hu"
+- "hun"
+- "hungarian"
+- "id"
+- "ind"
+- "indonesian"
+- "irish"
+- "it"
+- "ita"
+- "italian"
+- "ième|ieme|ème|eme|ère|ere|nde|er"
+- "l2NormalizedRelevanceScores"
+- "l2NormalizedScores"
+- "l2RankingMetadata"
+- "limit=%ld"
+- "lit"
+- "lithuanian"
+- "liveQuery(query:)"
+- "liveQuery(query:filter:vectorLimit:)"
+- "liveQueryIntersection(queries:)"
+- "liveQueryUnion(queries:)"
+- "lt"
+- "mailSuggestions"
+- "makeSearchContext: scopes=%s mailFilter=%s draftFilter=%s attachmentFilter=%s"
+- "match validation failed"
+- "miércoles|miercoles"
+- "ne"
+- "nep"
+- "nepali"
+- "neunundzwanzigste"
+- "neunundzwanzigsten"
+- "neunundzwanzigster"
+- "neunundzwanzigstes"
+- "nl"
+- "nld"
+- "no"
+- "no lexical matches"
+- "no query group"
+- "no stored body or cache hit"
+- "no stored body or retriever"
+- "no term match metadata available"
+- "nor"
+- "normalizedLexicalScores"
+- "norwegian"
+- "offset element "
+- "por"
+- "porter"
+- "portuguese"
+- "pt"
+- "query"
+- "query too short for date suggestions"
+- "query:llmParses"
+- "resultingQueryString"
+- "retrieveIdentifiers(_:filter:vectorLimit:)"
+- "retrieveIdentifiers(_:llmParses:filter:vectorLimit:)"
+- "ro"
+- "romanian"
+- "ron"
+- "ru"
+- "rum"
+- "rus"
+- "russian"
+- "samstag|sonnabend"
+- "search(_:context:)"
+- "search(_:filter:configuration:)"
+- "search(queries:configuration:)"
+- "sechsundzwanzigste"
+- "sechsundzwanzigsten"
+- "sechsundzwanzigster"
+- "sechsundzwanzigstes"
+- "semanticSearchStatus"
+- "sender"
+- "serbian"
+- "siebenundzwanzigste"
+- "siebenundzwanzigsten"
+- "siebenundzwanzigster"
+- "siebenundzwanzigstes"
+- "simplified"
+- "skipRankingWhenShortQuery is deprecated and ignored — L2 ranking runs for all queries with search terms"
+- "spa"
+- "spanish"
+- "sr"
+- "srp"
+- "subject"
+- "subject missing query terms"
+- "sv"
+- "swe"
+- "swedish"
+- "ta"
+- "tam"
+- "tamil"
+- "term match metadata is available"
+- "to"
+- "tr"
+- "trente et unieme"
+- "trente et unième"
+- "trente-et-unieme"
+- "trente-et-unième"
+- "trigesimo primer"
+- "trigesimo primero"
+- "trigésimo primer"
+- "trigésimo primero"
+- "tur"
+- "turkish"
+- "vierundzwanzigste"
+- "vierundzwanzigsten"
+- "vierundzwanzigster"
+- "vierundzwanzigstes"
+- "vigesimo primero"
+- "vigesimo segundo"
+- "vigesimo septimo"
+- "vigesimo tercero"
+- "vigésimo cuarto"
+- "vigésimo noveno"
+- "vigésimo octavo"
+- "vigésimo primer"
+- "vigésimo primero"
+- "vigésimo quinto"
+- "vigésimo segundo"
+- "vigésimo séptimo"
+- "vigésimo tercer"
+- "vigésimo tercero"
+- "vingt cinquième"
+- "vingt et unième"
+- "vingt quatrième"
+- "vingt troisième"
+- "vingt-cinquième"
+- "vingt-et-unième"
+- "vingt-quatrième"
+- "vingt-troisième"
+- "yhdysvaltalainen"
+- "yhdysvaltalaiset"
+- "zh_Hans"
+- "zweiundzwanzigste"
+- "zweiundzwanzigsten"
+- "zweiundzwanzigster"
+- "zweiundzwanzigstes"
+- "à|a|le|la|du|de"
+- "говорить"
+- "กรุงเทพ"
+- "การศึกษา"
+- "การเงิน"
+- "การเมือง"
+- "ต่างประเทศ"
+- "ท่องเที่ยว"
+- "ทําให้"
+- "ธุรกิจ"
+- "บริษัท"
+- "ประกาย"
+- "ประเทศ"
+- "สามารถ"
+- "สุดสัปดาห์"
+- "เรื่อง"
+- "เศรษฐกิจ"
+- "║ Attachment Filter: "
+- "║ Draft Filter: "
+- "║ Mail Filter: "
+- "║ QueryParser Output:\n"
+- "║ Ranking Body Cache: "
+- "║ Ranking Strategy: "
+- "║ Search Limit: "
+- "║ Suggestions Body Cache: "
+- "║ Suggestions Limit: "
+- "星期一|周一|礼拜一|星期1|周1|礼拜1"
+- "星期三|周三|礼拜三|星期3|周3|礼拜3"
+- "星期二|周二|礼拜二|星期2|周2|礼拜2"
+- "星期五|周五|礼拜五|星期5|周5|礼拜5"
+- "星期六|周六|礼拜六|星期6|周6|礼拜6"
+- "星期四|周四|礼拜四|星期4|周4|礼拜4"
+- "星期日|星期天|周日|周天|礼拜日|礼拜天"
+
+```

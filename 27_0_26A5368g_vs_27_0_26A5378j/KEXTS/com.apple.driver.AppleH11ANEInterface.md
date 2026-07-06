@@ -1,0 +1,379 @@
+## com.apple.driver.AppleH11ANEInterface
+
+> `com.apple.driver.AppleH11ANEInterface`
+
+```diff
+
+-  __TEXT.__cstring: 0x10ebb
+-  __TEXT.__os_log: 0x38052
+-  __TEXT.__const: 0xfe4
+-  __TEXT_EXEC.__text: 0x13d578
+-  __TEXT_EXEC.__auth_stubs: 0x1070
+-  __DATA.__data: 0x482c
++  __TEXT.__cstring: 0x1108c
++  __TEXT.__os_log: 0x38d3e
++  __TEXT.__const: 0xfd4
++  __TEXT_EXEC.__text: 0x140eb4
++  __TEXT_EXEC.__auth_stubs: 0x1080
++  __DATA.__data: 0x4828
+   __DATA.__common: 0x7b0
+-  __DATA.__bss: 0x810
+-  __DATA_CONST.__mod_init_func: 0x2e8
++  __DATA.__bss: 0x818
++  __DATA_CONST.__mod_init_func: 0x2f0
+   __DATA_CONST.__mod_term_func: 0x128
+-  __DATA_CONST.__const: 0x17ce0
+-  __DATA_CONST.__kalloc_type: 0x6ac0
+-  __DATA_CONST.__kalloc_var: 0x84d0
+-  __DATA_CONST.__auth_got: 0x838
++  __DATA_CONST.__const: 0x17d80
++  __DATA_CONST.__kalloc_type: 0x6c40
++  __DATA_CONST.__kalloc_var: 0x8750
++  __DATA_CONST.__auth_got: 0x840
+   __DATA_CONST.__got: 0x138
+   __DATA_CONST.__auth_ptr: 0x8
+-  Functions: 4806
+-  Symbols:   10804
+-  CStrings:  4959
++  Functions: 4852
++  Symbols:   10911
++  CStrings:  5025
+ 
+Sections:
+~ __DATA_CONST.__mod_term_func : content changed
+~ __DATA_CONST.__got : content changed
+~ __DATA_CONST.__auth_ptr : content changed
+Symbols:
++ _GLOBAL__sub_I_MTRCluster.cpp
++ __Z20aneVnodeSecureLookupPKcPmPP11vfs_context
++ __Z25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePKcPb
++ __ZN10ANEProcess26prepareKernelSplitSectionsEyj
++ __ZN10MTRCluster18setupRegisterBlockEPK18ANERegisterControl
++ __ZN10MTRCluster22setupInterruptAndTimerEP11ANEHWDeviceP9IOServicejj
++ __ZN10MTRCluster22stopThermalSlewMonitorEv
++ __ZN10MTRCluster23startThermalSlewMonitorEv
++ __ZN10MTRCluster24enableSlewRateMonitoringEv
++ __ZN10MTRCluster25disableSlewRateMonitoringEv
++ __ZN10MTRCluster25handleSlewRateTimer_gatedEP18IOTimerEventSource
++ __ZN10MTRCluster27thermalSlewInterruptOccuredEv
++ __ZN10MTRCluster29handleSlewRateInterrupt_gatedEv
++ __ZN10MTRClusterC1EPKjPA5_S0_
++ __ZN10MTRClusterC2EPKjPA5_S0_
++ __ZN10MTRClusterD1Ev
++ __ZN10MTRClusterD2Ev
++ __ZN11ANEHWDevice13ANE_IsPoweredEv
++ __ZN11ANEHWDevice23aneSlewRateTimerHandlerEP18IOTimerEventSource
++ __ZN11ANEHWDevice27aneSlewRateInterruptHandlerEP22IOInterruptEventSourcei
++ __ZN11ANEHWDevice29aneSlewRateTimerHandler_gatedEP18IOTimerEventSource
++ __ZN11ANEHWDevice33aneSlewRateInterruptHandler_gatedEP22IOInterruptEventSourcei
++ __ZN11ANEWorkLoop16runActionUnGatedIZN18ANEProgramResource36patchClusterMutableInstanceProcedureENSt3__110shared_ptrI10ANEProcessEEjjP37ANEClientProgramInstanceProcedureInfoRNS3_I11ANEResourceEEiRNS2_6vectorIS9_N3ANE12ANEAllocatorIS9_EEEEjE3$_2EEiT_
++ __ZN18ANEDeviceInterface13ANE_IsPoweredEv
++ __ZN18ANEDeviceInterface28getCurrentThrottlePercentageEb
++ __ZN18IOTimerEventSource16timerEventSourceEjP8OSObjectPFvS1_PS_E
++ __ZN9MTRSensor10enableStatEv
++ __ZN9MTRSensor11disableStatEv
++ __ZN9MTRSensor18setupRegisterBlockEPK18ANERegisterControl
++ __ZN9MTRSensor28checkAndClearInterruptStatusEv
++ __ZN9MTRSensor8readRDBKEv
++ __ZN9MTRSensorC1EPKj
++ __ZN9MTRSensorC2EPKj
++ __ZNK10ANEProcess21getBaseModelWiredSizeEv
++ __ZNK10ANEProcess27populatePerProcessResourcesENSt3__110shared_ptrI10ANERequestEE
++ __ZNK11ANEHWDevice26isDynamicPowerGatingActiveEv
++ __ZNK11ANEHWDevice37isDynamicPowerGatingCommandInProgressEv
++ __ZNK11ANEResource10createCopyEv
++ __ZNK16ANEUnionResource24getDeviceAddressWithSizeEjyb
++ __ZNK18ANEDeviceInterface26isDynamicPowerGatingActiveEv
++ __ZNK18ANEDeviceInterface37isDynamicPowerGatingCommandInProgressEv
++ __ZNK21ANEResourceCollectionI22ANEDSKeyedUnorderedSetINSt3__110shared_ptrI11ANEResourceEEy22ANEResourceIDExtractorEE7isEmptyEv
++ __ZNSt3__110unique_ptrI10MTRClusterNS_14default_deleteIS1_EEED1B9fqn220106Ev
++ __ZNSt3__114__split_bufferINS_10unique_ptrI9MTRSensorNS_14default_deleteIS2_EEEERN3ANE12ANEAllocatorIS5_EEED1Ev
++ __ZNSt3__16vectorINS_10unique_ptrI9MTRSensorNS_14default_deleteIS2_EEEEN3ANE12ANEAllocatorIS5_EEED1B9fqn220106Ev
++ __ZNSt3__16vectorINS_5arrayINS_10shared_ptrI11ANEResourceEELm128EEEN3ANE12ANEAllocatorIS5_EEE22__base_destruct_at_endB9fqn220106EPS5_
++ __ZNSt3__16vectorINS_5arrayINS_10shared_ptrI11ANEResourceEELm128EEEN3ANE12ANEAllocatorIS5_EEED1B9fqn220106Ev
++ __ZZ18aneVnodeAppendTextPKcS0_mE20kalloc_type_view_291
++ __ZZ18aneVnodeAppendTextPKcS0_mE20kalloc_type_view_297
++ __ZZ20aneVnodeSecureLookupPKcPmPP11vfs_contextE11_os_log_fmt
++ __ZZ20aneVnodeSecureLookupPKcPmPP11vfs_contextE11_os_log_fmt_0
++ __ZZ20aneVnodeSecureLookupPKcPmPP11vfs_contextE11_os_log_fmt_1
++ __ZZ20aneVnodeSecureLookupPKcPmPP11vfs_contextE11_os_log_fmt_2
++ __ZZ20aneVnodeSecureLookupPKcPmPP11vfs_contextE11_os_log_fmt_3
++ __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePKcPbE11_os_log_fmt
++ __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePKcPbE11_os_log_fmt_0
++ __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePKcPbE11_os_log_fmt_1
++ __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePKcPbE11_os_log_fmt_2
++ __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePKcPbE11_os_log_fmt_3
++ __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePKcPbE11_os_log_fmt_4
++ __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePKcPbE11_os_log_fmt_5
++ __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePKcPbE11_os_log_fmt_6
++ __ZZL21aneVnodeTruncateFrontP5vnodeP11vfs_contextmmE20kalloc_type_view_221
++ __ZZL21aneVnodeTruncateFrontP5vnodeP11vfs_contextmmE20kalloc_type_view_229
++ __ZZN10ANEProcess26prepareKernelSplitSectionsEyjE11_os_log_fmt
++ __ZZN10ANEProcess26prepareKernelSplitSectionsEyjE11_os_log_fmt_0
++ __ZZN10ANEProcess26prepareKernelSplitSectionsEyjE11_os_log_fmt_1
++ __ZZN10ANEProcess26prepareKernelSplitSectionsEyjE11_os_log_fmt_2
++ __ZZN10MTRCluster22setupInterruptAndTimerEP11ANEHWDeviceP9IOServicejjE11_os_log_fmt
++ __ZZN10MTRCluster22setupInterruptAndTimerEP11ANEHWDeviceP9IOServicejjE11_os_log_fmt_0
++ __ZZN10MTRCluster22setupInterruptAndTimerEP11ANEHWDeviceP9IOServicejjE11_os_log_fmt_1
++ __ZZN10MTRCluster22setupInterruptAndTimerEP11ANEHWDeviceP9IOServicejjE11_os_log_fmt_2
++ __ZZN10MTRCluster22setupInterruptAndTimerEP11ANEHWDeviceP9IOServicejjE11_os_log_fmt_3
++ __ZZN10MTRCluster22setupInterruptAndTimerEP11ANEHWDeviceP9IOServicejjE11_os_log_fmt_4
++ __ZZN10MTRCluster22setupInterruptAndTimerEP11ANEHWDeviceP9IOServicejjE11_os_log_fmt_5
++ __ZZN10MTRCluster22setupInterruptAndTimerEP11ANEHWDeviceP9IOServicejjE11_os_log_fmt_6
++ __ZZN10MTRCluster24enableSlewRateMonitoringEvE11_os_log_fmt
++ __ZZN10MTRCluster25disableSlewRateMonitoringEvE11_os_log_fmt
++ __ZZN10MTRCluster25handleSlewRateTimer_gatedEP18IOTimerEventSourceE11_os_log_fmt
++ __ZZN10MTRCluster25handleSlewRateTimer_gatedEP18IOTimerEventSourceE11_os_log_fmt_0
++ __ZZN10MTRCluster27thermalSlewInterruptOccuredEvE11_os_log_fmt
++ __ZZN10MTRCluster27thermalSlewInterruptOccuredEvE11_os_log_fmt_0
++ __ZZN10MTRCluster29handleSlewRateInterrupt_gatedEvE11_os_log_fmt
++ __ZZN10MTRCluster29handleSlewRateInterrupt_gatedEvE11_os_log_fmt_0
++ __ZZN10MTRClusterC1EPKjPA5_S0_E11_os_log_fmt
++ __ZZN10MTRClusterdlEPvmE20kalloc_type_view_163
++ __ZZN11ANEHWDevice24DisableANEClocksAndPowerEbbE11_os_log_fmt_7
++ __ZZN11ANEHWDevice29ANE_AddPersistentClient_gatedEvE11_os_log_fmt_1
++ __ZZN11ANEHWDevice33aneSlewRateInterruptHandler_gatedEP22IOInterruptEventSourceiE11_os_log_fmt
++ __ZZN11ANEHWDevice4stopEP9IOServiceE21kalloc_type_view_4707
++ __ZZN11ANEHWDevice4stopEP9IOServiceE21kalloc_type_view_4710
++ __ZZN11ANEHWDevice5startEP9IOServiceE11_os_log_fmt__102_
++ __ZZN11ANEHWDevice5startEP9IOServiceE11_os_log_fmt__103_
++ __ZZN11ANEHWDevice5startEP9IOServiceE11_os_log_fmt__104_
++ __ZZN11ANEHWDevice5startEP9IOServiceE11_os_log_fmt__105_
++ __ZZN11ANEHWDevice5startEP9IOServiceE11_os_log_fmt__106_
++ __ZZN11ANEHWDevice5startEP9IOServiceE11_os_log_fmt__107_
++ __ZZN11ANEHWDevice5startEP9IOServiceE11_os_log_fmt__108_
++ __ZZN11ANEResourcedlEPvmE20kalloc_type_view_108
++ __ZZN12ANEScheduler22submitInferenceRequestERKNSt3__110shared_ptrI10ANERequestEEE11_os_log_fmt_0
++ __ZZN12ANEScheduler26waitForUnwireThreadToDrainEvE11_os_log_fmt_3
++ __ZZN12ANEScheduler26waitForUnwireThreadToDrainEvE11_os_log_fmt_4
++ __ZZN12ANEScheduler8scheduleER19ANEInferenceRequestE11_os_log_fmt__12_
++ __ZZN16ANEUnionResource22updateMemoryDescriptorEvE11_os_log_fmt_2
++ __ZZN16ANEUnionResource22updateMemoryDescriptorEvE11_os_log_fmt_3
++ __ZZN17ANEHWDeviceConfig22initializeANESoCConfigEPK16AppleARMIODeviceP11ANEHWDeviceE21kalloc_type_view_2114
++ __ZZN17ANEHWDeviceConfig22initializeANESoCConfigEPK16AppleARMIODeviceP11ANEHWDeviceE21kalloc_type_view_2202
++ __ZZN17ANEHWDeviceConfig22initializeANESoCConfigEPK16AppleARMIODeviceP11ANEHWDeviceE21kalloc_type_view_2284
++ __ZZN17ANEHWDeviceConfig22initializeANESoCConfigEPK16AppleARMIODeviceP11ANEHWDeviceE21kalloc_type_view_2421
++ __ZZN17ANEHWDeviceConfig22initializeANESoCConfigEPK16AppleARMIODeviceP11ANEHWDeviceE21kalloc_type_view_3658
++ __ZZN17ANEHWDeviceConfig22initializeANESoCConfigEPK16AppleARMIODeviceP11ANEHWDeviceE21kalloc_type_view_3801
++ __ZZN17ANEHWDeviceConfig22initializeANESoCConfigEPK16AppleARMIODeviceP11ANEHWDeviceE21kalloc_type_view_4057
++ __ZZN17ANEHWDeviceConfig23initializeANEPropertiesEP11ANEHWDeviceE20kalloc_type_view_429
++ __ZZN17ANEHWDeviceConfigdlEPvmE19kalloc_type_view_70
++ __ZZN17ANEHWDeviceConfignwEmE19kalloc_type_view_70
++ __ZZN18ANEProgramResource36patchClusterMutableInstanceProcedureENSt3__110shared_ptrI10ANEProcessEEjjP37ANEClientProgramInstanceProcedureInfoRNS1_I11ANEResourceEEiRNS0_6vectorIS7_N3ANE12ANEAllocatorIS7_EEEEjE11_os_log_fmt__11_
++ __ZZN18ANEProgramResource36patchClusterMutableInstanceProcedureENSt3__110shared_ptrI10ANEProcessEEjjP37ANEClientProgramInstanceProcedureInfoRNS1_I11ANEResourceEEiRNS0_6vectorIS7_N3ANE12ANEAllocatorIS7_EEEEjE11_os_log_fmt__12_
++ __ZZN18ANEProgramResource36patchClusterMutableInstanceProcedureENSt3__110shared_ptrI10ANEProcessEEjjP37ANEClientProgramInstanceProcedureInfoRNS1_I11ANEResourceEEiRNS0_6vectorIS7_N3ANE12ANEAllocatorIS7_EEEEjE11_os_log_fmt__13_
++ __ZZN18ANEProgramResource36patchClusterMutableInstanceProcedureENSt3__110shared_ptrI10ANEProcessEEjjP37ANEClientProgramInstanceProcedureInfoRNS1_I11ANEResourceEEiRNS0_6vectorIS7_N3ANE12ANEAllocatorIS7_EEEEjE21kalloc_type_view_1167
++ __ZZN18ANEProgramResourceD1EvE20kalloc_type_view_222
++ __ZZN18ANEProgramResourceD1EvE20kalloc_type_view_236
++ __ZZN18ANEReqCallbackDatadlEPvmE21kalloc_type_view_1333
++ __ZZN18ANEReqCallbackDatanwEmE21kalloc_type_view_1333
++ __ZZN19ANEClientDeviceCore18ANE_ProgramPrepareEP21ANEProgramPrepareArgsybE11_os_log_fmt_4
++ __ZZN19ANEClientDeviceCore18ANE_ProgramPrepareEP21ANEProgramPrepareArgsybE11_os_log_fmt_5
++ __ZZN19ANEClientDeviceCore18cleanupMappingInfoEP15ANECoalesceInfojjE21kalloc_type_view_3381
++ __ZZN19ANEClientDeviceCore19ANE_DoProgramCreateEP20ANEProgramCreateArgsP26ANEProgramCreateArgsOutputP4taskPvPyE11_os_log_fmt_5
++ __ZZN19ANEClientDeviceCore23ANE_AddClientForProgramEPvP13ANEDeviceInfoP4taskE11_os_log_fmt__21_
++ __ZZN19ANEClientDeviceCore23ANE_AddClientForProgramEPvP13ANEDeviceInfoP4taskE11_os_log_fmt__22_
++ __ZZN19ANEClientDeviceCore25ANE_PopulateProgramOutputEP20ANEProgramCreateArgsP26ANEProgramCreateArgsOutputP4taskPvPyE11_os_log_fmt_4
++ __ZZN19ANEClientDeviceCore25ANE_PopulateProgramOutputEP20ANEProgramCreateArgsP26ANEProgramCreateArgsOutputP4taskPvPyE11_os_log_fmt_5
++ __ZZN19ANEClientDeviceCore25ANE_PopulateProgramOutputEP20ANEProgramCreateArgsP26ANEProgramCreateArgsOutputP4taskPvPyE11_os_log_fmt_6
++ __ZZN19ANEClientDeviceCore27ANE_DoProgramCreateInstanceEP30ANEClientProgramInstanceParamsP26ANEProgramCreateArgsOutputP4taskPvPyE11_os_log_fmt_6
++ __ZZN19ANEClientDeviceCore27ANE_DoProgramCreateInstanceEP30ANEClientProgramInstanceParamsP26ANEProgramCreateArgsOutputP4taskPvPyE11_os_log_fmt__16_
++ __ZZN19ANEClientDeviceCore27ANE_MemoryMapRequest_lockedERK24ANEMemoryMapLockedParamsE21kalloc_type_view_2522
++ __ZZN19ANEClientDeviceCore27ANE_MemoryMapRequest_lockedERK24ANEMemoryMapLockedParamsE21kalloc_type_view_2530
++ __ZZN20ANEProcessCreateArgsdlEPvmE20kalloc_type_view_701
++ __ZZN20ANEProcessCreateArgsnwEmE20kalloc_type_view_701
++ __ZZN20ANEProgramRTResource35buildFirmwareRTInferenceCallRequestER19ANEInferenceRequestjE20kalloc_type_view_717
++ __ZZN20ANEProgramRTResource35buildFirmwareRTInferenceCallRequestER19ANEInferenceRequestjE20kalloc_type_view_736
++ __ZZN21ANECircularBufferInfodlEPvmE20kalloc_type_view_351
++ __ZZN21ANECircularBufferInfonwEmE20kalloc_type_view_351
++ __ZZN3ANE12ANEAllocatorINSt3__110unique_ptrI9MTRSensorNS1_14default_deleteIS3_EEEEE10deallocateEPS6_mE19kalloc_type_view_39
++ __ZZN3ANE12ANEAllocatorINSt3__110unique_ptrI9MTRSensorNS1_14default_deleteIS3_EEEEE8allocateEmE19kalloc_type_view_34
++ __ZZN3ANE12ANEAllocatorINSt3__111__hash_nodeINS1_17__hash_value_typeIyNS1_10shared_ptrI11ANEResourceEEEEPvEEE10deallocateEPS9_mE19kalloc_type_view_39
++ __ZZN3ANE12ANEAllocatorINSt3__111__hash_nodeINS1_17__hash_value_typeIyNS1_10shared_ptrI11ANEResourceEEEEPvEEE8allocateEmE19kalloc_type_view_34
++ __ZZN3ANE12ANEAllocatorIPNSt3__116__hash_node_baseIPNS1_11__hash_nodeINS1_17__hash_value_typeIyNS1_10shared_ptrI11ANEResourceEEEEPvEEEEE10deallocateEPSD_mE19kalloc_type_view_39
++ __ZZN3ANE12ANEAllocatorIPNSt3__116__hash_node_baseIPNS1_11__hash_nodeINS1_17__hash_value_typeIyNS1_10shared_ptrI11ANEResourceEEEEPvEEEEE8allocateEmE19kalloc_type_view_34
++ __ZZN9MTRSensor8readRDBKEvE11_os_log_fmt
++ __ZZN9MTRSensordlEPvmE20kalloc_type_view_110
++ __ZZN9MTRSensornwEmE20kalloc_type_view_110
++ __ZZNK11ANEResource10createCopyEvE11_os_log_fmt
++ __ZZNSt3__16vectorINS_10unique_ptrI9MTRSensorNS_14default_deleteIS2_EEEEN3ANE12ANEAllocatorIS5_EEE12emplace_backIJS5_EEERS5_DpOT_ENKUlvE0_clEv
++ __ZZZN18ANEProgramResource36patchClusterMutableInstanceProcedureENSt3__110shared_ptrI10ANEProcessEEjjP37ANEClientProgramInstanceProcedureInfoRNS1_I11ANEResourceEEiRNS0_6vectorIS7_N3ANE12ANEAllocatorIS7_EEEEjENK3$_0clEvE21kalloc_type_view_1151
++ __ZZZN18ANEProgramResource36patchClusterMutableInstanceProcedureENSt3__110shared_ptrI10ANEProcessEEjjP37ANEClientProgramInstanceProcedureInfoRNS1_I11ANEResourceEEiRNS0_6vectorIS7_N3ANE12ANEAllocatorIS7_EEEEjENK3$_2clEvE11_os_log_fmt
++ __ZZZN19ANEClientDeviceCore22ANE_ProgramSendRequestEP21ANEProgramRequestArgsPyPvbP18ANEReqCallbackDataP4taskP15ANESharedEventsEN9BlockVarsdlES3_mE21kalloc_type_view_1373
++ __ZZZN19ANEClientDeviceCore22ANE_ProgramSendRequestEP21ANEProgramRequestArgsPyPvbP18ANEReqCallbackDataP4taskP15ANESharedEventsEN9BlockVarsnwEmE21kalloc_type_view_1373
++ __ZZZN20ANEProgramRTResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsENK3$_3clERP25ZinComputeProgramInitInfojE20kalloc_type_view_514
++ __ZZZN20ANEProgramRTResource35buildFirmwareRTInferenceCallRequestER19ANEInferenceRequestjENK3$_2clEjPNSt3__110unique_ptrI11SegmentInfoNS3_14default_deleteIS5_EEEEE20kalloc_type_view_995
+- __Z14aneVnodeLookupPKcPmPP11vfs_context
+- __Z25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePb
+- __ZN11ANEWorkLoop16runActionUnGatedIZN18ANEProgramResource36patchClusterMutableInstanceProcedureENSt3__110shared_ptrI10ANEProcessEEjjP37ANEClientProgramInstanceProcedureInfoRNS3_I11ANEResourceEEiRNS2_6vectorIS9_N3ANE12ANEAllocatorIS9_EEEEjE3$_0EEiT_
+- __ZN12ANEScheduler32drainInactiveResourcesOnShutdownEv
+- __ZNK10ANEProcess17populateResourcesENSt3__110shared_ptrI10ANERequestEE
+- __ZZ14aneVnodeLookupPKcPmPP11vfs_contextE11_os_log_fmt
+- __ZZ14aneVnodeLookupPKcPmPP11vfs_contextE11_os_log_fmt_0
+- __ZZ14aneVnodeLookupPKcPmPP11vfs_contextE11_os_log_fmt_1
+- __ZZ14aneVnodeLookupPKcPmPP11vfs_contextE11_os_log_fmt_2
+- __ZZ14aneVnodeLookupPKcPmPP11vfs_contextE11_os_log_fmt_3
+- __ZZ17SelectBestANECoreRK14GlobalANEStatsRK15MappingANEStatsyjRK17ANESelectionHintsE11_os_log_fmt__13_
+- __ZZ17SelectBestANECoreRK14GlobalANEStatsRK15MappingANEStatsyjRK17ANESelectionHintsE20lastPreferredANECore
+- __ZZ18aneVnodeAppendTextPKcS0_mE20kalloc_type_view_278
+- __ZZ18aneVnodeAppendTextPKcS0_mE20kalloc_type_view_284
+- __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePbE11_os_log_fmt
+- __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePbE11_os_log_fmt_0
+- __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePbE11_os_log_fmt_1
+- __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePbE11_os_log_fmt_2
+- __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePbE11_os_log_fmt_3
+- __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePbE11_os_log_fmt_4
+- __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePbE11_os_log_fmt_5
+- __ZZ25aneVnodeTrustVerificationPK17ANEHWDeviceConfigP11vfs_contextP5vnodeP4taski12ANEVnodeTypePbE11_os_log_fmt_6
+- __ZZL21aneVnodeTruncateFrontP5vnodeP11vfs_contextmmE20kalloc_type_view_208
+- __ZZL21aneVnodeTruncateFrontP5vnodeP11vfs_contextmmE20kalloc_type_view_216
+- __ZZN11ANEHWDevice4stopEP9IOServiceE21kalloc_type_view_4554
+- __ZZN11ANEHWDevice4stopEP9IOServiceE21kalloc_type_view_4627
+- __ZZN11ANEResourcedlEPvmE20kalloc_type_view_102
+- __ZZN12ANEScheduler32drainInactiveResourcesOnShutdownEvE11_os_log_fmt
+- __ZZN12ANEScheduler32drainInactiveResourcesOnShutdownEvE11_os_log_fmt_0
+- __ZZN12ANEScheduler32drainInactiveResourcesOnShutdownEvE11_os_log_fmt_1
+- __ZZN12ANEScheduler32schedulerMaintenanceTimerTimeOutEP18IOTimerEventSourceE11_os_log_fmt_3
+- __ZZN17ANEHWDeviceConfig22initializeANESoCConfigEPK16AppleARMIODeviceP11ANEHWDeviceE21kalloc_type_view_2095
+- __ZZN17ANEHWDeviceConfig22initializeANESoCConfigEPK16AppleARMIODeviceP11ANEHWDeviceE21kalloc_type_view_2180
+- __ZZN17ANEHWDeviceConfig22initializeANESoCConfigEPK16AppleARMIODeviceP11ANEHWDeviceE21kalloc_type_view_2262
+- __ZZN17ANEHWDeviceConfig22initializeANESoCConfigEPK16AppleARMIODeviceP11ANEHWDeviceE21kalloc_type_view_2399
+- __ZZN17ANEHWDeviceConfig22initializeANESoCConfigEPK16AppleARMIODeviceP11ANEHWDeviceE21kalloc_type_view_3476
+- __ZZN17ANEHWDeviceConfig22initializeANESoCConfigEPK16AppleARMIODeviceP11ANEHWDeviceE21kalloc_type_view_3619
+- __ZZN17ANEHWDeviceConfig22initializeANESoCConfigEPK16AppleARMIODeviceP11ANEHWDeviceE21kalloc_type_view_3875
+- __ZZN17ANEHWDeviceConfig23initializeANEPropertiesEP11ANEHWDeviceE20kalloc_type_view_428
+- __ZZN17ANEHWDeviceConfigdlEPvmE19kalloc_type_view_62
+- __ZZN17ANEHWDeviceConfignwEmE19kalloc_type_view_62
+- __ZZN18ANEProgramResource36patchClusterMutableInstanceProcedureENSt3__110shared_ptrI10ANEProcessEEjjP37ANEClientProgramInstanceProcedureInfoRNS1_I11ANEResourceEEiRNS0_6vectorIS7_N3ANE12ANEAllocatorIS7_EEEEjE21kalloc_type_view_1130
+- __ZZN18ANEProgramResource36patchClusterMutableInstanceProcedureENSt3__110shared_ptrI10ANEProcessEEjjP37ANEClientProgramInstanceProcedureInfoRNS1_I11ANEResourceEEiRNS0_6vectorIS7_N3ANE12ANEAllocatorIS7_EEEEjE21kalloc_type_view_1282
+- __ZZN18ANEProgramResourceD1EvE20kalloc_type_view_216
+- __ZZN18ANEProgramResourceD1EvE20kalloc_type_view_230
+- __ZZN18ANEReqCallbackDatadlEPvmE21kalloc_type_view_1327
+- __ZZN18ANEReqCallbackDatanwEmE21kalloc_type_view_1327
+- __ZZN19ANEClientDeviceCore18cleanupMappingInfoEP15ANECoalesceInfojjE21kalloc_type_view_3233
+- __ZZN19ANEClientDeviceCore27ANE_DoProgramCreateInstanceEP30ANEClientProgramInstanceParamsP26ANEProgramCreateArgsOutputP4taskPvPyE11_os_log_fmt_7
+- __ZZN19ANEClientDeviceCore27ANE_MemoryMapRequest_lockedERK24ANEMemoryMapLockedParamsE21kalloc_type_view_2374
+- __ZZN19ANEClientDeviceCore27ANE_MemoryMapRequest_lockedERK24ANEMemoryMapLockedParamsE21kalloc_type_view_2382
+- __ZZN20ANEProcessCreateArgsdlEPvmE20kalloc_type_view_698
+- __ZZN20ANEProcessCreateArgsnwEmE20kalloc_type_view_698
+- __ZZN20ANEProgramRTResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE11_os_log_fmt__10_
+- __ZZN20ANEProgramRTResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE11_os_log_fmt__11_
+- __ZZN20ANEProgramRTResource35buildFirmwareRTInferenceCallRequestER19ANEInferenceRequestjE20kalloc_type_view_732
+- __ZZN20ANEProgramRTResource35buildFirmwareRTInferenceCallRequestER19ANEInferenceRequestjE20kalloc_type_view_751
+- __ZZN21ANECircularBufferInfodlEPvmE20kalloc_type_view_349
+- __ZZN21ANECircularBufferInfonwEmE20kalloc_type_view_349
+- __ZZN3ANE12ANEAllocatorINSt3__110shared_ptrI20ANEResourceInterfaceEEE10deallocateEPS4_mE19kalloc_type_view_39
+- __ZZN3ANE12ANEAllocatorINSt3__110shared_ptrI20ANEResourceInterfaceEEE8allocateEmE19kalloc_type_view_34
+- __ZZNSt3__16vectorINS_10shared_ptrI20ANEResourceInterfaceEEN3ANE12ANEAllocatorIS3_EEE12emplace_backIJRKS3_EEERS3_DpOT_ENKUlvE0_clEv
+- __ZZZN18ANEProgramResource36patchClusterMutableInstanceProcedureENSt3__110shared_ptrI10ANEProcessEEjjP37ANEClientProgramInstanceProcedureInfoRNS1_I11ANEResourceEEiRNS0_6vectorIS7_N3ANE12ANEAllocatorIS7_EEEEjENK3$_0clEvE11_os_log_fmt
+- __ZZZN19ANEClientDeviceCore22ANE_ProgramSendRequestEP21ANEProgramRequestArgsPyPvbP18ANEReqCallbackDataP4taskP15ANESharedEventsEN9BlockVarsdlES3_mE21kalloc_type_view_1261
+- __ZZZN19ANEClientDeviceCore22ANE_ProgramSendRequestEP21ANEProgramRequestArgsPyPvbP18ANEReqCallbackDataP4taskP15ANESharedEventsEN9BlockVarsnwEmE21kalloc_type_view_1261
+- __ZZZN20ANEProgramRTResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsENK3$_3clERP25ZinComputeProgramInitInfojE20kalloc_type_view_511
+- __ZZZN20ANEProgramRTResource35buildFirmwareRTInferenceCallRequestER19ANEInferenceRequestjENK3$_2clEjPNSt3__110unique_ptrI11SegmentInfoNS3_14default_deleteIS5_EEEEE21kalloc_type_view_1017
+CStrings:
++ "%s: %s: ANE %u power readiness: %u\n"
++ "%s: %s: ANE_SYS power on after FSD:%u\n"
++ "%s: %s: Client %s has set an entitlement opt out of bonded mode. This request will be honored if there is no explicit user hint in the inference request to allow bonded mode\n"
++ "%s: %s: Core %u, powerReadiness %u, preference %d\n"
++ "%s: %s: Created the thermal slew rate timer event source.\n"
++ "%s: %s: Disabling Thermal Slew Rate monitoring for cluster %d"
++ "%s: %s: Enabling Thermal Slew Rate monitoring for cluster %d"
++ "%s: %s: Initializing thermal slew rate management with 1 cluster\n"
++ "%s: %s: Setup register block for MTR cluster and all sensors\n"
++ "%s: %s: Successfully configured MTR slew rate interrupt for cluster at EDT index %u\n"
++ "%s: %s: Thermal Slew Rate Interrupt Is Valid for cluster ID %d Sensor ID %d"
++ "%s: %s: Thermal Slew Rate interval EDT entry has incorrect length: %u (expected 4)\n"
++ "%s: %s: Thermal Slew Rate interval for timeout EDT entry not found\n"
++ "%s: %s: Thermal Slew Rate interval for timeout from EDT: %u\n"
++ "%s: %s: ane-arg-support is required, set fANERailGatingMode\n"
++ "%s: %s: enterShutdown: kicking maintenance timer to drain %u inactive resource(s) (retry %u/%u)\n"
++ "%s: %s: enterShutdown: waiting for resources to drain (inactive: %s, unwire queue: %u)\n"
++ "%s: %s: waitForUnwireThreadToDrain: timed out, retrying\n"
++ "/.resolve/2%s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.iPChhE/Sources/AppleH11ANEInterface_kexts/ANEResource/ANERTGraphProgramMetaData.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.iPChhE/Sources/AppleH11ANEInterface_kexts/ANEResource/ANERTGraphRuntime.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.iPChhE/Sources/AppleH11ANEInterface_kexts/ANEScheduler/ANEEvent.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.iPChhE/Sources/AppleH11ANEInterface_kexts/polymer/anecommon/ane_loader/ZinComputeProgramLoader.cpp"
++ "/System/Library/AssetsV2/"
++ "/private/var/db/AppleIntelligencePlatform/AppModelAssets/"
++ "1112211112"
++ "11122222111111111221122222111111011112222211112111211222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211222012212021111111"
++ "22221"
++ "MTRCluster"
++ "[ERROR] %s: %s: ANEUnionResource: failed to restore dartMap state result=0x%x\n"
++ "[ERROR] %s: %s: ANEUnionResource: failed to restore wire state result=0x%x\n"
++ "[ERROR] %s: %s: ANE_AddClientForProgram: rejected — shutdown in progress\n"
++ "[ERROR] %s: %s: ANE_DoProgramCreate: rejected — shutdown in progress\n"
++ "[ERROR] %s: %s: ANE_DoProgramCreateInstance: rejected — shutdown in progress\n"
++ "[ERROR] %s: %s: Cannot wire intermediateBuffer at load time programHandle: 0x%llx\n"
++ "[ERROR] %s: %s: Couldn't add timer event source to work loop.\n"
++ "[ERROR] %s: %s: Couldn't create MTRSensor instance %d for cluster %d.\n"
++ "[ERROR] %s: %s: ERROR: Failed to lookup file at %s err=%d\n"
++ "[ERROR] %s: %s: Failed prepareKernelSplitSections for base instance - 0x%llx: 0x%x\n"
++ "[ERROR] %s: %s: Failed to add MTR slew rate interrupt event source for cluster\n"
++ "[ERROR] %s: %s: Failed to allocate anecMutableWeightFileData for %u entries\n"
++ "[ERROR] %s: %s: Failed to allocate instanceKernelSplitSections for programHandle: 0x%llx\n"
++ "[ERROR] %s: %s: Failed to allocate prepare request for base-instance kernel splits - 0x%llx\n"
++ "[ERROR] %s: %s: Failed to allocate symbol storage for %u entries\n"
++ "[ERROR] %s: %s: Failed to allocate wireRequest for intermediateBuffer programHandle: 0x%llx\n"
++ "[ERROR] %s: %s: Failed to copy kernel split section for programHandle: 0x%llx procId: %u\n"
++ "[ERROR] %s: %s: Failed to create MTR slew rate interrupt event source for cluster\n"
++ "[ERROR] %s: %s: Failed to create MTR slew rate timer event source for cluster\n"
++ "[ERROR] %s: %s: Failed to prepare base-instance kernel splits - 0x%llx: 0x%x\n"
++ "[ERROR] %s: %s: Failed to size process procedureKernelSplitSections for programHandle: 0x%llx\n"
++ "[ERROR] %s: %s: Failed to wait for DPG-disable on persistent client: res=0x%08X\n"
++ "[ERROR] %s: %s: MTR cluster is null\n"
++ "[ERROR] %s: %s: MTR slew rate interrupt/timer setup failed: 0x%x\n"
++ "[ERROR] %s: %s: MTRCluster: invalid arguments to setupInterruptAndTimer\n"
++ "[ERROR] %s: %s: MTRCluster: workloop unavailable for slew rate setup\n"
++ "[ERROR] %s: %s: Post-schedule takePowerAssertion failed: 0x%x (continuing; dispatch path will retry)\n"
++ "[ERROR] %s: %s: Process kernel split count exceeds kANEMaxBars for programHandle: 0x%llx procId: %u\n"
++ "[ERROR] %s: %s: createCopy: memoryDescriptor is null\n"
++ "[ERROR] %s: %s: numWeightsBuffer %u exceeds max %u\n"
++ "[ERROR] %s: %s: waitForUnwireThreadToDrain: timed out (inactive: %s, unwire queue: %u)\n"
++ "[INFO] %s: %s: Enabling Thermal Slew Rate cluster\n"
++ "[INFO] %s: %s: Starting timer for disabled cluster\n"
++ "[INFO] %s: %s: Thermal Sensor ID %d - RDBK : 0x%x, Direction: %u, Temperature: %u, MaxDeltaTemp: %u"
++ "[INFO] %s: %s: Thermal Slew Rate Interrupt Occurred for cluster ID %d\n"
++ "[INFO] %s: %s: Thermal Slew Rate interrupt occured for cluster\n"
++ "[INFO] %s: %s: Thermal Slew Rate timer timeout occured\n"
++ "aneSlewRateInterruptHandler_gated"
++ "aneVnodeSecureLookup"
++ "com.apple.ane.singleCopyIntermediateBuffer.allow"
++ "com.apple.ane.wireIntermediateBufferAtLoadTime.allow"
++ "com.apple.private.ane.bonded.allow"
++ "createCopy"
++ "disableSlewRateMonitoring"
++ "enableSlewRateMonitoring"
++ "handleSlewRateInterrupt_gated"
++ "handleSlewRateTimer_gated"
++ "no"
++ "prepareKernelSplitSections"
++ "readRDBK"
++ "setupInterruptAndTimer"
++ "site.MTRCluster"
++ "site.MTRSensor"
++ "thermal-slew-rate-interval"
++ "thermalSlewInterruptOccured"
++ "yes"
+- "%s: %s: ERROR: Failed to lookup macho file at %s\n"
+- "%s: %s: Rotating to next ANE %u with same preference %u\n"
+- "%s: %s: System shutdown in progress, nothing to do \n"
+- "%s: %s: Wrapping around to ANE %u with same preference %u\n"
+- "%s: %s: ane-arg-support is required, set fANEDriverARGSupport\n"
+- "%s: %s: enterShutdown: draining %zu inactive resource(s)\n"
+- "%s: %s: enterShutdown: no inactive resources to drain\n"
+- "%s: %s: enterShutdown: resource 0x%llx no longer inactive, skipping unwire\n"
+- "%s: %s: enterShutdown: waiting for unwire thread to drain %u resource(s)\n"
+- "%s: %s: waitForUnwireThreadToDrain: timed out, retrying (queue size: %u)\n"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.H2qfsx/Sources/AppleH11ANEInterface_kexts/ANEResource/ANERTGraphProgramMetaData.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.H2qfsx/Sources/AppleH11ANEInterface_kexts/ANEResource/ANERTGraphRuntime.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.H2qfsx/Sources/AppleH11ANEInterface_kexts/ANEScheduler/ANEEvent.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.H2qfsx/Sources/AppleH11ANEInterface_kexts/polymer/anecommon/ane_loader/ZinComputeProgramLoader.cpp"
+- "/System/Library/AssetsV2"
+- "/private/var/db/AppleIntelligencePlatform/AppModelAssets"
+- "1112222211111111122112222211111101111222221111211121122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221122201221202"
+- "aneVnodeLookup"
+- "drainInactiveResourcesOnShutdown"
+
+```
