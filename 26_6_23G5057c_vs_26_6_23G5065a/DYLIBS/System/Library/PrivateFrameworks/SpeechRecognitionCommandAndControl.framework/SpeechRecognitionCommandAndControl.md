@@ -1,0 +1,76 @@
+## SpeechRecognitionCommandAndControl
+
+> `/System/Library/PrivateFrameworks/SpeechRecognitionCommandAndControl.framework/SpeechRecognitionCommandAndControl`
+
+```diff
+
+-  __TEXT.__text: 0xab56c
+-  __TEXT.__auth_stubs: 0x20f0
++  __TEXT.__text: 0xab5dc
++  __TEXT.__auth_stubs: 0x2110
+   __TEXT.__objc_methlist: 0xace4
+   __TEXT.__const: 0xe44
+   __TEXT.__oslogstring: 0x2bfc
+
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x2a0
+   __DATA_CONST.__objc_arraydata: 0x8a8
+-  __AUTH_CONST.__auth_got: 0x1088
++  __AUTH_CONST.__auth_got: 0x1098
+   __AUTH_CONST.__const: 0x1948
+   __AUTH_CONST.__cfstring: 0x9000
+   __AUTH_CONST.__objc_const: 0xf198
+
+   __AUTH.__data: 0x288
+   __DATA.__objc_ivar: 0xa48
+   __DATA.__data: 0x1b18
+-  __DATA.__bss: 0x9b0
++  __DATA.__bss: 0x9c0
+   __DATA.__common: 0x1b8
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   Functions: 4291
+-  Symbols:   15132
++  Symbols:   15135
+   CStrings:  8149
+ 
+Sections:
+~ __TEXT.__objc_methlist : content changed
+~ __TEXT.__const : content changed
+~ __TEXT.__cstring : content changed
+~ __TEXT.__gcc_except_tab : content changed
+~ __TEXT.__constg_swiftt : content changed
+~ __TEXT.__swift5_typeref : content changed
+~ __TEXT.__unwind_info : content changed
+~ __TEXT.__eh_frame : content changed
+~ __DATA_CONST.__got : content changed
+~ __DATA_CONST.__const : content changed
+~ __DATA_CONST.__objc_classlist : content changed
+~ __DATA_CONST.__objc_catlist : content changed
+~ __DATA_CONST.__objc_protolist : content changed
+~ __DATA_CONST.__objc_selrefs : content changed
+~ __DATA_CONST.__objc_protorefs : content changed
+~ __DATA_CONST.__objc_superrefs : content changed
+~ __DATA_CONST.__objc_arraydata : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH_CONST.__cfstring : content changed
+~ __AUTH_CONST.__objc_const : content changed
+~ __AUTH_CONST.__objc_intobj : content changed
+~ __AUTH_CONST.__objc_doubleobj : content changed
+~ __AUTH_CONST.__objc_arrayobj : content changed
+~ __AUTH_CONST.__objc_dictobj : content changed
+~ __AUTH.__objc_data : content changed
+~ __AUTH.__data : content changed
+~ __DATA.__data : content changed
+Symbols:
++ __AXShouldDispatchNonMainThreadCallbacksOnMainThreadPopReason
++ __AXShouldDispatchNonMainThreadCallbacksOnMainThreadPushReason
++ _sCACAXMainThreadCallbackBracketLock
+Functions:
+~ ___41-[CACSpokenCommandManager _fetchElements]_block_invoke : 3700 -> 3756
+~ ___41-[CACSpokenCommandManager _fetchElements]_block_invoke_7 : 588 -> 644
+
+```

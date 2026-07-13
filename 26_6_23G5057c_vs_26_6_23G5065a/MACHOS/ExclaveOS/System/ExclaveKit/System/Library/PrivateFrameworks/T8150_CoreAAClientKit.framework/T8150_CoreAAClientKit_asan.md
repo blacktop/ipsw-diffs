@@ -1,0 +1,226 @@
+## T8150_CoreAAClientKit_asan
+
+> `/System/ExclaveKit/System/Library/PrivateFrameworks/T8150_CoreAAClientKit.framework/T8150_CoreAAClientKit_asan`
+
+```diff
+
+   __DATA.__data: 0x978
+   __DATA.__llvm_prf_cnts: 0x6e0
+   __DATA.__llvm_prf_data: 0x2040
+-  __DATA.__llvm_prf_names: 0xaf9
++  __DATA.__llvm_prf_names: 0xafe
+   __DATA.__asan_globals: 0x5500
+   __DATA.__asan_liveness: 0x1540
+   __DATA.__bss: 0x1a0
+Sections:
+~ __TEXT.__const : content changed
+~ __TEXT.__asan_cstring : content changed
+~ __TEXT.__cstring : content changed
+~ __DATA.__llvm_prf_data : content changed
+~ __LLVM_COV.__llvm_covfun : content changed
+~ __LLVM_COV.__llvm_covmap : content changed
+Symbols:
++ ___covrec_11852A1B623B735F
++ ___covrec_1A985457177601F5
++ ___covrec_241946D4562CFCD1
++ ___covrec_2571D592D06FD34
++ ___covrec_26E850B50E3B2F26
++ ___covrec_27367DA6EFDE081B
++ ___covrec_273B725E72C175C0
++ ___covrec_27B6B430EE56DB1F
++ ___covrec_2E577C0E2BB37CFC
++ ___covrec_30A64FB75BD36BB0
++ ___covrec_365621E8D1D34E42
++ ___covrec_365BF779AD56B3A7
++ ___covrec_38B1FCFBBBCC082C
++ ___covrec_394FAE5774EE2C4C
++ ___covrec_3A1A4053EB0D36CF
++ ___covrec_3A7FDB9E0A7190F4
++ ___covrec_3B51CFAC21E98DCF
++ ___covrec_3C3BE161284AAA9F
++ ___covrec_3D9ECCA8719E3D49
++ ___covrec_3E238ECFE2BCC74F
++ ___covrec_3EEFA25447A3AB17
++ ___covrec_430C50D27F190C8B
++ ___covrec_43B136CE9B048901
++ ___covrec_4430A89927D6EA7D
++ ___covrec_448EAFC2F928AFEC
++ ___covrec_462BD098A41AE431
++ ___covrec_539C4AD02FA85CCF
++ ___covrec_548253FD223585E5
++ ___covrec_56C41E8D2EDEB3B2
++ ___covrec_597BA58DC8338C0
++ ___covrec_5AF11B19566E3507
++ ___covrec_5C709FB2E7BDE0D7
++ ___covrec_5CF5F36090436441
++ ___covrec_5EE9F56C01ADFCF9
++ ___covrec_5FDBFDDE34FCBD66
++ ___covrec_603C8105AE4649A4
++ ___covrec_623AEFCFABD0C535
++ ___covrec_68F950ACB600EAE5
++ ___covrec_697E831444DF59F1
++ ___covrec_6B73A4D0A49F9B6B
++ ___covrec_6C99389767930C01
++ ___covrec_6F4AA51001DC27B9
++ ___covrec_724E35D8C700D791
++ ___covrec_75764C409B25C163
++ ___covrec_782B39656C0EFA64
++ ___covrec_78CE6805E4534467
++ ___covrec_7C0FFF65478E85CA
++ ___covrec_7F44E1AAB5871870
++ ___covrec_824EB0C62A0223D6
++ ___covrec_836F7A7AB879716
++ ___covrec_851EFD123E2BF622
++ ___covrec_87740F710018381E
++ ___covrec_879959F4499F9C33
++ ___covrec_88DFDF5743648157
++ ___covrec_8A565B130A6AA63C
++ ___covrec_8ACE0E3D463624FB
++ ___covrec_909E93281BC43AFD
++ ___covrec_94F2B9C96114712C
++ ___covrec_9E794B2F5CF41D29
++ ___covrec_A10E73408D5A6923
++ ___covrec_A74E6963CC0D162D
++ ___covrec_A8CDA70B473360E0
++ ___covrec_AA21A016E0D5A1CA
++ ___covrec_AAA4892756589459
++ ___covrec_AD80BA675D7D1750
++ ___covrec_AF5160B266E0A38D
++ ___covrec_B4AF5DE25F90E556
++ ___covrec_B77A87156FD32D6C
++ ___covrec_B83360ED0CAE4B8B
++ ___covrec_C15040082B6E073
++ ___covrec_C38E511DCAEC7CC7
++ ___covrec_C5150F20C510C368
++ ___covrec_C87F143F03C14F8C
++ ___covrec_CB13517937D931AF
++ ___covrec_CBD17C56E47DD6E6
++ ___covrec_D04CF7F712A836A7
++ ___covrec_D451AACA7D2879D6
++ ___covrec_D4932299C82C13F6
++ ___covrec_D5E3FC4ED015A05A
++ ___covrec_D6B2DB36B2FC3500
++ ___covrec_D6B534F58B9D7149
++ ___covrec_D79D6C518692DE3D
++ ___covrec_D8C519233708FFE1
++ ___covrec_D9199A92E24B88E2
++ ___covrec_DB433104064E43F3
++ ___covrec_DEAB14F565DD8F3
++ ___covrec_DEDCBCF55F442727
++ ___covrec_DF4B679E3FC49B3B
++ ___covrec_DF59549A1E7E3D29
++ ___covrec_E03D32D4DAB395A1
++ ___covrec_E3CB763ADF47F885
++ ___covrec_E9EAE4C6187C781F
++ ___covrec_EB8910467678A7FD
++ ___covrec_F739681B290351F7
++ ___covrec_F781B865BFC9F3F7
++ ___covrec_F7BFAE61DFD2CF91
++ ___covrec_F8E9569AFD4B02A4
++ ___covrec_FAC33E5722C9D732
++ ___covrec_FCF0AC322A843F62
++ ___covrec_FE55A307BE4B4670
++ ___covrec_FFD503C7460822FB
+- ___covrec_1025B159C92C2B57
+- ___covrec_11946BC342416074
+- ___covrec_12EB8CD562618FA6
+- ___covrec_1426B5807E83FDB5
+- ___covrec_166F6FC6066E95E2
+- ___covrec_1758059F47F3A3DD
+- ___covrec_180F2DAA70F0B992
+- ___covrec_19980E3EA83F1DF6
+- ___covrec_19CD3D0470D58EC6
+- ___covrec_1AFF85E9956F5087
+- ___covrec_1F1760B56A94ED69
+- ___covrec_2070F29699D37C99
+- ___covrec_21C3ABCD53C19146
+- ___covrec_2239000A6E43992F
+- ___covrec_2863C80BEB5157EC
+- ___covrec_3618046FA097C9E0
+- ___covrec_3AC6D53CAFDE723D
+- ___covrec_3C202C9BD94E372B
+- ___covrec_3C6ADC6CF5356140
+- ___covrec_3CF1E17CD1343C0D
+- ___covrec_40B6A2E8B2F6C9BD
+- ___covrec_4288345E7D0FC29D
+- ___covrec_435470E98170E182
+- ___covrec_45DFAA5375AD46B8
+- ___covrec_4B6B33865244FE46
+- ___covrec_4E6DCB393CFC2AA2
+- ___covrec_4FCBE0A5C5EA5E75
+- ___covrec_4FD1511618B9C7E1
+- ___covrec_50C40B5C0E822CA0
+- ___covrec_52F84145B2E9672A
+- ___covrec_530F2EA611BD3EAC
+- ___covrec_5A53B3A82385B884
+- ___covrec_5A71A34963C5BD66
+- ___covrec_5B3B8B265CC95AE2
+- ___covrec_5F8BB7D43B9E35C8
+- ___covrec_61FA419F9C986A0B
+- ___covrec_63FA99F76D9DEB2B
+- ___covrec_65CBFF4139851BD
+- ___covrec_66FCC92F3E939AA0
+- ___covrec_697E6FAC7CF45193
+- ___covrec_69EDB9A82B3E77C5
+- ___covrec_6B098A4180A021D6
+- ___covrec_6E2A57CE59FDF707
+- ___covrec_706052F153C1AAD1
+- ___covrec_724C7A2092092182
+- ___covrec_75AB9B8828E43BE5
+- ___covrec_75C9F168D98E04E9
+- ___covrec_7919906C09456CCB
+- ___covrec_7DEF123A9E633604
+- ___covrec_7EDA58545586391D
+- ___covrec_8163F181AFEBB142
+- ___covrec_8228BE547ECAAC1
+- ___covrec_827CAB4155BD013B
+- ___covrec_8578085791746574
+- ___covrec_875D4D740C540E9
+- ___covrec_88653EC74F550E8B
+- ___covrec_8B1EC784E5B5656
+- ___covrec_8D2BA771CCFA29D
+- ___covrec_918D3B59494B3F00
+- ___covrec_9421DF397485A8CF
+- ___covrec_948FF4CE35C9E0B3
+- ___covrec_9944775FC896389C
+- ___covrec_9A41C472A9539A64
+- ___covrec_9B1CA8D508AE12A4
+- ___covrec_9FE1BD0DE2D6616E
+- ___covrec_A60E624612E84445
+- ___covrec_A9CF92449DA507E6
+- ___covrec_AC0250C0C38CDDAC
+- ___covrec_B18B4667E34B84D0
+- ___covrec_B1D5DAD5AD0F5DB7
+- ___covrec_B1E18FF878850363
+- ___covrec_BD9D63FE98CCDB10
+- ___covrec_BEECB8CBA715567D
+- ___covrec_C210F83D65CE84FB
+- ___covrec_C2BFF13E6D448FDB
+- ___covrec_CA367FAEBBBC016E
+- ___covrec_CE0737E52DF9FEA2
+- ___covrec_CF269FA68C742314
+- ___covrec_CF4D400CCEF88B0E
+- ___covrec_D2F6AB47A75D1C31
+- ___covrec_D4B050DB622E7408
+- ___covrec_D736679C1E73B01
+- ___covrec_D753704C8C25214A
+- ___covrec_D8802032F7A50A67
+- ___covrec_DBB7F68DDB899866
+- ___covrec_DC7CBE9B84054120
+- ___covrec_DD61BD41F64AC39D
+- ___covrec_DFBD619CCF61ED0D
+- ___covrec_E4A452EA091A0B64
+- ___covrec_E5FB81EF4E83FDC0
+- ___covrec_E73D4606727C457B
+- ___covrec_E7DE873E70765B0B
+- ___covrec_E884C4779646E22E
+- ___covrec_E9337161863D8993
+- ___covrec_EDF14A0B34BD1075
+- ___covrec_F5BE1780039CA000
+- ___covrec_F91C12F2250C452A
+- ___covrec_F99B9403067A4027
+- ___covrec_FB88505C4E202599
+- ___covrec_FD4EB874333A6214
+- ___covrec_FDEAEB0A84A3C4EE
+
+```

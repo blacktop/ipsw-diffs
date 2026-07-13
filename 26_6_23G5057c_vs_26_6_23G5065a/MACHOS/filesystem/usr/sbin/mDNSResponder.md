@@ -1,0 +1,7 @@
+## mDNSResponder
+
+> `/usr/sbin/mDNSResponder`
+
+Sections:
+~ __TEXT.__const : content changed
+~ __TEXT.__cstring : content changed

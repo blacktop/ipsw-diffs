@@ -1,0 +1,89 @@
+## libswiftPrespecialized.dylib
+
+> `/usr/lib/libswiftPrespecialized.dylib`
+
+```diff
+
+   __TEXT.__text: 0x0
+   __TEXT.__lldb_no_nlist: 0x0
+-  __DATA_CONST.__const: 0x306de8
++  __DATA_CONST.__const: 0x307018
+   __DATA_CONST.__ptrhashtab: 0x17168
+   __DATA_CONST.__ptrhashtabkey: 0x25ed8
+   __AUTH_CONST.__const: 0x4f9f8
+   __AUTH.__data: 0xcb788
+   - /usr/lib/libSystem.B.dylib
+   Functions: 0
+-  Symbols:   152245
++  Symbols:   152278
+   CStrings:  0
+ 
+Sections:
+~ __DATA_CONST.__ptrhashtab : content changed
+~ __DATA_CONST.__ptrhashtabkey : content changed
+~ __AUTH_CONST.__const : content changed
+~ __AUTH.__data : content changed
+Symbols:
++ _$s10CryptexKit15PkgValueDecoderCMn
++ _$s10CryptexKit15PkgValueEncoderCMn
++ _$s10CryptexKit19PkgInvQueryResponseV10CodingKeysOMn
++ _$s10CryptexKit19PkgInvQueryResponseVMn
++ _$s10CryptexKit8PkgIndexV7PackageVMn
++ _$s10CryptexKit8PkgIndexV8IteratorVMn
++ _$s10CryptexKit8PkgIndexVMn
++ _$s11AppStoreKit29InitialViewportDisplayTrackerCMn
++ _$s11AppStoreKit45ThreeDimensionalArtworkGradientBackgroundViewC08gradientI5FrameSo6CGRectVvMTq
++ _$s11WorkflowKit26WFShortcutSharingValidatorCMn
++ _$s11WorkflowKit32WFShortcutSharingRejectionReasonOMn
++ _$s11WorkflowKit32WFShortcutSharingValidationCheckMp
++ _$s11WorkflowKit32WFShortcutSharingValidationErrorVMn
++ _$s11WorkflowKit34WFShortcutSharingValidationContextOMn
++ _$s12GameStoreKit07CurrentA8BundleIDVMn
++ _$s12GameStoreKit20SearchResultsSegmentC2id4name11contextCard7content7message02noE4Link0mE15HidesLargeTitle11pageMetrics0R11RenderEvent012transparencyN0ACSS_SSAA0de7ContextJ0CSgAA0dE7ContentCAA0dE7MessageCSgAA12LinkableTextCSgSb9JetEngine04PageS0VAA04PagetsU0CSgAXtcfCTq
++ _$s12GameStoreKit29InitialViewportDisplayTrackerCMn
++ _$s12MigrationKit6CountsVMn
++ _$s12PhotosUICore35LemonadeSuggestedSearchQueryFetcherC06searchF7Manager9containerACSo08PHSearchfI0C_AA0C19SearchableContainer_pSgtcfCTq
++ _$s12TelephonyKit6CountsVMn
++ _$s12Transparency04CoreA13EnumShimErrorO7_domainSSvpMV
++ _$s16CoreTransparency17MapInclusionErrorOMn
++ _$s16CoreTransparency19CTServerStatusErrorVMn
++ _$s17AccessorySetupKit25ASAccessoryAltMarketplaceCMn
++ _$s17AdPlatformsCommon14AgeAccountTypeOMn
++ _$s17AdPlatformsCommon19AppStoreDaemonProxyCACycfCTq
++ _$s17AdPlatformsCommon24FFIFFeatureAbilitySourceC04ffifF009candidateF0AcA10FFIFSource_p_12APFoundation015CohortCandidateF0_ptcfCTq
++ _$s17AdPlatformsCommon25AgeNoisingBirthYearSourceC08fallbackfgH012noisingStore015personalizedAdsH011diagnosticsAcA06ActualfgH0_p_AA04UserdeK0_pAA012PersonalizedmH0_pAA0dE16RetryDiagnostics_ptcfCTq
++ _$s17AdPlatformsCommon26AgeNoisingRetryDiagnosticsMp
++ _$s17AdPlatformsCommon29DiagnosingUserAgeNoisingStoreCMn
++ _$s17AdPlatformsCommon30UserAgeNoisingStoreDiagnosticsV6AccessOMn
++ _$s17AdPlatformsCommon30UserAgeNoisingStoreDiagnosticsVMn
++ _$s17AdPlatformsCommon31DeviceCapabilityBitFieldBuilderP5build3fors6UInt32V0E9PlacementQz_tFTq
++ _$s17AdPlatformsCommon35UserAgeNoisingStoreDiagnosticsDepotMp
++ _$s17AdPlatformsCommon39CoreAnalyticsAgeNoisingRetryDiagnosticsVMn
++ _$s17AdPlatformsCommon39NullUserAgeNoisingStoreDiagnosticsDepotCMn
++ _$s17AdPlatformsCommon42TracingUserAgeNoisingStoreDiagnosticsDepotCMn
++ _$s17AdPlatformsCommon48CoreAnalyticsUserAgeNoisingStoreDiagnosticsDepotCMn
++ _$s17IMSharedUtilities4LaneC14performAndWaityxxyYaYbcYas8SendableRzlFTq
++ _$s19UnifiedMessagingKit9TextModelV14callAsFunction16defaultAlignment0I4Font0I5Color0iK6Weight9fillWidth9lineLimitQr7SwiftUI0dJ0O_AK0K0VAK0L0VAO0M0VSbSiSgtFQOMQ
++ _$s24AppleAccountTransparency22AATransparencyEventXPCCMo
++ _$s24AppleAccountTransparency24AATransparencyControllerC12wipeDatabaseyyYaKFTq
++ _$s7SwiftUI4ViewP19SoftwareUpdateUIKitE8editMenu_9onPresent0I7DismissQrSaySo8UIActionCGyc_yycSgAKtFQOMQ
++ _$s9BlastDoor19FilteredJSONDecoderCMa
++ _$s9BlastDoor19FilteredJSONDecoderCMn
++ _$s9BlastDoor22DecoderFieldIgnoreListOMn
++ _$s9BlastDoor27FilteredPropertyListDecoderCMn
+- _$s10CryptexKit14PkgListRequestC10CodingKeysOMn
+- _$s10CryptexKit14PkgListRequestCMn
+- _$s10CryptexKit15PkgListResponseC10CodingKeysOMn
+- _$s10CryptexKit15PkgListResponseCMn
+- _$s10CryptexKit19PkgInvQueryResponseC10CodingKeysOMn
+- _$s10CryptexKit19PkgInvQueryResponseCMn
+- _$s12TelephonyKit10EstimationV9XPCHelperC5coderAESgSo7NSCoderC_tcfCTq
+- _$s12Transparency04CoreA15ApplicationShimO8rawValueSivpMV
+- _$s17AdPlatformsCommon25AgeNoisingBirthYearSourceC08fallbackfgH012noisingStore015personalizedAdsH0AcA06ActualfgH0_p_AA04UserdeK0_pAA012PersonalizedmH0_ptcfCTq
+- _$s19UnifiedMessagingKit9TextModelV14callAsFunction16defaultAlignment0I4Font0I5Color0iK6Weight9fillWidthQr7SwiftUI0dJ0O_AJ0K0VAJ0L0VAN0M0VSbtFQOMQ
+- _$s24AppleAccountTransparency0abC6DaemonC7startupyyFTq
+- _$s24AppleAccountTransparency14EpochTimestampV4date10Foundation4DateVvpMV
+- _$s24AppleAccountTransparency22AATransparencyEventXPCC5coderACSgSo7NSCoderC_tcfCTq
+- _$s9BlastDoor10XPCCodableV6encode2toys7Encoder_p_tKF
+
+```
