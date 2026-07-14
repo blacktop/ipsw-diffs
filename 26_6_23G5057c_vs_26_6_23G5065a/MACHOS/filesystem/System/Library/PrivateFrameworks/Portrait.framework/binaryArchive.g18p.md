@@ -2,6 +2,12 @@
 
 > `/System/Library/PrivateFrameworks/Portrait.framework/binaryArchive.g18p`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__metallib`
+- `__TEXT.__fragment`
+- `__TEXT.__compute`
+
 ```diff
 
    __TEXT.__descriptor: 0x3870
@@ -12,9 +18,4 @@
    __TEXT.__reflection: 0x21070
    Functions: 0
    Symbols:   0
-Sections:
-~ __TEXT.__metallib : content changed
-~ __TEXT.__fragment : content changed
-~ __TEXT.__compute : content changed
-
 ```

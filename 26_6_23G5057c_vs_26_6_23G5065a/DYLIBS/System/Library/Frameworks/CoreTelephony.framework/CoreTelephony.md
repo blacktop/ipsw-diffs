@@ -2,6 +2,25 @@
 
 > `/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x1b658c
@@ -80,29 +99,12 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 11607
--  Symbols:   39139
--  CStrings:  17405
+-  Symbols:   24666
+-  CStrings:  12922
 +  Functions: 11533
-+  Symbols:   38836
-+  CStrings:  17338
++  Symbols:   24532
++  CStrings:  12863
  
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH_CONST.__objc_arrayobj : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 - +[CTStewieAnywhereMessage supportsSecureCoding]
 - +[CTStewieDiagMessage supportsSecureCoding]
@@ -302,5 +304,4 @@ CStrings:
 - "v24@?0@\"NSError\"8@\"NSDictionary\"16"
 - "v32@0:8@\"NSData\"16@?<v@?@\"NSError\">24"
 - "v40@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTSMSDataType\"24@?<v@?^@>32"
-
 ```

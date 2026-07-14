@@ -2,6 +2,26 @@
 
 > `/System/Library/PrivateFrameworks/JetCore.framework/Support/jetpackassetd`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__const`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+- `__DATA.__bss`
+
 ```diff
 
 -  __TEXT.__text: 0xaa89c
@@ -26,31 +46,12 @@
    Functions: 2109
 -  Symbols:   1070
 +  Symbols:   1071
-   CStrings:  690
+   CStrings:  685
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__const : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__swift5_entry : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__unwind_info : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_selrefs : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__data : content changed
-~ __DATA.__bss : content changed
 Symbols:
 + _$sSy10FoundationE20replacingOccurrences2of4with7options5rangeSSqd___qd_0_So22NSStringCompareOptionsVSnySS5IndexVGSgtSyRd__SyRd_0_r0_lF
 Functions:
 ~ sub_10005530c : 1668 -> 1864
 ~ sub_100055990 -> sub_100055a54 : 1984 -> 2192
 ~ sub_100057cac -> sub_100057e40 : 3144 -> 3308
-
 ```

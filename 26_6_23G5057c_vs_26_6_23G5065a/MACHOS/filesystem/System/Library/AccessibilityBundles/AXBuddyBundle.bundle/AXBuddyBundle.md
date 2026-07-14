@@ -2,5 +2,6 @@
 
 > `/System/Library/AccessibilityBundles/AXBuddyBundle.bundle/AXBuddyBundle`
 
-Sections:
-~ __TEXT.__cstring : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`

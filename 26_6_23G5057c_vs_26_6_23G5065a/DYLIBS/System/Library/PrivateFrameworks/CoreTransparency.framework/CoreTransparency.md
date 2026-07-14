@@ -2,6 +2,14 @@
 
 > `/System/Library/PrivateFrameworks/CoreTransparency.framework/CoreTransparency`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_types2`
+- `__TEXT.__swift5_capture`
+- `__AUTH.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x4b4b8
@@ -57,18 +65,12 @@
    - /usr/lib/swift/libswift_Builtin_float.dylib
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 2888
--  Symbols:   1612
+-  Symbols:   693
 -  CStrings:  93
 +  Functions: 2966
-+  Symbols:   1660
++  Symbols:   702
 +  CStrings:  97
  
-Sections:
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_types2 : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __AUTH.__data : content changed
 Symbols:
 + _OUTLINED_FUNCTION_40
 + _OUTLINED_FUNCTION_41
@@ -86,5 +88,4 @@ CStrings:
 + "com.apple.CoreTransparency.ServerError"
 + "parseEventsWithoutVerifying: response carried no map proofs"
 + "verifyMapProofs: response carried no map proofs ["
-
 ```

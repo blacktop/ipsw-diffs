@@ -2,11 +2,12 @@
 
 > `/System/Library/Health/FeedItemPlugins/HealthArticles.healthplugin/HealthArticles`
 
-Sections:
-~ __TEXT.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH.__data : content changed
-~ __DATA_DIRTY.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__data`
+- `__DATA_DIRTY.__data`

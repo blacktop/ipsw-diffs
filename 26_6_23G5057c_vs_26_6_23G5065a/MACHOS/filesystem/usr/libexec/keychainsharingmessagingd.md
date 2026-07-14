@@ -2,6 +2,10 @@
 
 > `/usr/libexec/keychainsharingmessagingd`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__eh_frame`
+
 ```diff
 
    __TEXT.__auth_stubs: 0xce0
@@ -12,7 +16,4 @@
    __TEXT.__objc_classname: 0x1a0
    __TEXT.__objc_methname: 0xfed
    __TEXT.__objc_methtype: 0xbc4
-Sections:
-~ __TEXT.__eh_frame : content changed
-
 ```

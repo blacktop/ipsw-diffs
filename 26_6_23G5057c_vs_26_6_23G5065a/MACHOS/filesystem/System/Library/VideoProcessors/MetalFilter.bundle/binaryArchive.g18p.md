@@ -2,6 +2,11 @@
 
 > `/System/Library/VideoProcessors/MetalFilter.bundle/binaryArchive.g18p`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__metallib`
+- `__TEXT.__fragment`
+
 ```diff
 
    __TEXT.__metallib: 0x4380
@@ -12,8 +17,4 @@
    __TEXT.__reflection: 0x14f0
    Functions: 0
    Symbols:   0
-Sections:
-~ __TEXT.__metallib : content changed
-~ __TEXT.__fragment : content changed
-
 ```

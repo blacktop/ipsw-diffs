@@ -2,6 +2,11 @@
 
 > `com.apple.driver.AppleBasebandPCIMAVControl`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA.__data`
+- `__DATA_CONST.__kalloc_var`
+
 ```diff
 
    __TEXT.__const: 0x2477
@@ -33,9 +38,6 @@
 -  CStrings:  732
 +  CStrings:  180
  
-Sections:
-~ __DATA.__data : content changed
-~ __DATA_CONST.__kalloc_var : content changed
 CStrings:
 + "121111121222121212111111111111111111111122122122221111111112222"
 - "\" _treToIOTbl[%d] == %p %s:%u\\n\" @%s:%d"
@@ -591,5 +593,4 @@ CStrings:
 - "~ABPBHIDevice"
 - "~ABPMHIChannel"
 - "~ABPMHIDevice"
-
 ```

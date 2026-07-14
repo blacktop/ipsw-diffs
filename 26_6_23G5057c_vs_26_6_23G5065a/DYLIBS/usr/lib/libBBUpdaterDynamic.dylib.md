@@ -2,6 +2,15 @@
 
 > `/usr/lib/libBBUpdaterDynamic.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH_CONST.__cfstring`
+- `__DATA.__data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x15416c
@@ -46,19 +55,12 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
 -  Functions: 3241
--  Symbols:   10928
--  CStrings:  5151
+-  Symbols:   5917
+-  CStrings:  4794
 +  Functions: 3222
-+  Symbols:   10857
-+  CStrings:  4896
++  Symbols:   5872
++  CStrings:  4539
  
-Sections:
-~ __TEXT.__init_offsets : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 + GCC_except_table349
 + GCC_except_table362
@@ -419,5 +421,4 @@ CStrings:
 - "validateAndCopy"
 - "validateBootupItems"
 - "validateFusingData"
-
 ```

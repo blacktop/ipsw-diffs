@@ -2,6 +2,34 @@
 
 > `/Applications/InCallService.app/InCallService`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+- `__TEXT.__objc_classname`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_catlist2`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+- `__DATA.__objc_stublist`
+- `__DATA.__bss`
+- `__DATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0x27ca98
@@ -52,35 +80,9 @@
 -  Functions: 15015
 +  Functions: 15019
    Symbols:   3219
--  CStrings:  15146
-+  CStrings:  15154
+-  CStrings:  14192
++  CStrings:  14200
  
-Sections:
-~ __TEXT.__cstring : content changed
-~ __TEXT.__objc_classname : content changed
-~ __TEXT.__const : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_catlist2 : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_intobj : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__data : content changed
-~ __DATA.__objc_stublist : content changed
-~ __DATA.__bss : content changed
-~ __DATA.__common : content changed
 CStrings:
 + "@\"<PHAudioRouteControllerProviding>\""
 + "Forcing speaker/audioRoute button to be selected=1 due to 0 audio routes"
@@ -90,5 +92,4 @@ CStrings:
 + "routeControllerProvider"
 + "setEnabled:selected:"
 + "setRouteControllerProvider:"
-
 ```

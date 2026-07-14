@@ -2,5 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CameraColorProcessing.framework/binaryArchive.g18p`
 
-Sections:
-~ __TEXT.__compute : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__compute`

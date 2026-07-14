@@ -2,5 +2,6 @@
 
 > `/usr/lib/system/libsystem_m.dylib`
 
-Sections:
-~ __TEXT.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`

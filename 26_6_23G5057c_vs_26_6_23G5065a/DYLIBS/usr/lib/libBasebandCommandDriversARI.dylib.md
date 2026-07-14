@@ -2,6 +2,13 @@
 
 > `/usr/lib/libBasebandCommandDriversARI.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+
 ```diff
 
 -  __TEXT.__text: 0x9bf14
@@ -38,17 +45,12 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
 -  Functions: 2169
--  Symbols:   7394
--  CStrings:  770
+-  Symbols:   4527
+-  CStrings:  764
 +  Functions: 2166
-+  Symbols:   7378
-+  CStrings:  769
++  Symbols:   4518
++  CStrings:  763
  
-Sections:
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
 Symbols:
 - _CFBooleanGetTypeID
 - _TelephonyBasebandWatchdogStartWithStackshot
@@ -63,5 +65,4 @@ CStrings:
 + "AppleBasebandManager-AppleBasebandServices_Manager-1420"
 - "AppleBasebandManager-AppleBasebandServices_Manager-1419"
 - "Watchdog timed out"
-
 ```

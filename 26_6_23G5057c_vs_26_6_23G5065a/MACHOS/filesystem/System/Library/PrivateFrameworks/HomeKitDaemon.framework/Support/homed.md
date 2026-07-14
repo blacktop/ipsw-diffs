@@ -2,5 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed`
 
-Sections:
-~ __DATA.__objc_selrefs : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA.__objc_selrefs`

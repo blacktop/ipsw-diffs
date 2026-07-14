@@ -2,6 +2,27 @@
 
 > `/System/Library/PrivateFrameworks/TelephonyKit.framework/TelephonyKit`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__cstring`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__objc_classname`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x26a94
@@ -64,30 +85,11 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 861
--  Symbols:   545
+-  Symbols:   482
 +  Functions: 888
-+  Symbols:   555
++  Symbols:   491
    CStrings:  215
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__cstring : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__objc_classname : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH.__objc_data : content changed
-~ __AUTH.__data : content changed
 Symbols:
 + ___swift_memcpy48_8
 + _associated conformance 12TelephonyKit6CountsV10CodingKeys33_6F12B4370F73C7F8E51689709365448CLLOSHAASQ
@@ -98,5 +100,4 @@ Symbols:
 + _symbolic _____y_____G s22KeyedDecodingContainerV 12TelephonyKit6CountsV10CodingKeys33_6F12B4370F73C7F8E51689709365448CLLO
 + _symbolic _____y_____G s22KeyedEncodingContainerV 12TelephonyKit6CountsV10CodingKeys33_6F12B4370F73C7F8E51689709365448CLLO
 + _type_layout_string 12TelephonyKit6CountsV
-
 ```

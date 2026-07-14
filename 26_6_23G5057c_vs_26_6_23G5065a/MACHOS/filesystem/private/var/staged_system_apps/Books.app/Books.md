@@ -2,6 +2,7 @@
 
 > `/private/var/staged_system_apps/Books.app/Books`
 
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__cstring : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__cstring`

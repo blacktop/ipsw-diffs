@@ -2,6 +2,12 @@
 
 > `/System/Library/Frameworks/CoreTelephony.framework/Support/libCommCenterKCommandDrivers.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+
 ```diff
 
 -  __TEXT.__text: 0x1490c4
@@ -32,16 +38,12 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
 -  Functions: 5934
--  Symbols:   19002
--  CStrings:  2644
+-  Symbols:   10889
+-  CStrings:  2636
 +  Functions: 5894
-+  Symbols:   18888
-+  CStrings:  2467
++  Symbols:   10830
++  CStrings:  2459
  
-Sections:
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
 Symbols:
 + GCC_except_table155
 + GCC_except_table184
@@ -298,5 +300,4 @@ CStrings:
 - "kNRServingCellType"
 - "kNone"
 - "kTrafficClass"
-
 ```

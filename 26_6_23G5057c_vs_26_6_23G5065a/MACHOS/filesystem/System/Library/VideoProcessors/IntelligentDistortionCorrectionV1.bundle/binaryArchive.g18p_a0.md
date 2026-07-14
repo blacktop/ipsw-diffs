@@ -2,5 +2,6 @@
 
 > `/System/Library/VideoProcessors/IntelligentDistortionCorrectionV1.bundle/binaryArchive.g18p_a0`
 
-Sections:
-~ __TEXT.__compute : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__compute`

@@ -2,6 +2,7 @@
 
 > `/System/Library/Frameworks/_CoreData_CloudKit.framework/_CoreData_CloudKit`
 
-Sections:
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_selrefs`

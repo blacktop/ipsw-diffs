@@ -2,6 +2,16 @@
 
 > `/System/Library/PrivateFrameworks/BasebandTraceHelper.framework/BasebandTraceHelper`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x4cb24
@@ -33,19 +43,11 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    Functions: 1082
--  Symbols:   3136
--  CStrings:  589
-+  Symbols:   3123
-+  CStrings:  588
+-  Symbols:   2033
+-  CStrings:  588
++  Symbols:   2031
++  CStrings:  587
  
-Sections:
-~ __TEXT.__init_offsets : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
 Symbols:
 - _TelephonyBasebandWatchdogStartWithStackshot
 - _TelephonyBasebandWatchdogStop
@@ -79,5 +81,4 @@ Functions:
 ~ __ZN19TraceFileCollection31updateInfoForSnapshotFiles_syncEjRKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERS6_NS0_10shared_ptrIN3abm5trace9TraceInfoEEE : 4284 -> 4148
 CStrings:
 - "Watchdog timed out"
-
 ```

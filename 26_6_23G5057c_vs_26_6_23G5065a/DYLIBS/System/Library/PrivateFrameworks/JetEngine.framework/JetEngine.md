@@ -2,6 +2,35 @@
 
 > `/System/Library/PrivateFrameworks/JetEngine.framework/JetEngine`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x464790
@@ -9,33 +38,6 @@
    __TEXT.__auth_stubs: 0x5150
    __TEXT.__init_offsets: 0x4
    __TEXT.__objc_methlist: 0x1dd4
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__const : content changed
-~ __TEXT.__gcc_except_tab : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__unwind_info : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH.__objc_data : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
-~ __DATA_DIRTY.__data : content changed
 Functions:
 ~ sub_1ad04637c -> sub_1ad05237c : 1720 -> 1796
 ~ sub_1ad1c0684 -> sub_1ad1cc6d0 : 4960 -> 4996
@@ -53,5 +55,4 @@ Functions:
 ~ sub_1ad25d640 -> sub_1ad269ac4 : 3768 -> 3792
 ~ sub_1ad25e4f8 -> sub_1ad26a994 : 3796 -> 3820
 ~ sub_1ad25f3cc -> sub_1ad26b880 : 1592 -> 1640
-
 ```

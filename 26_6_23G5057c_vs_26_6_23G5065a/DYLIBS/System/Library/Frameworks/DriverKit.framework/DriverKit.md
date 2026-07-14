@@ -2,8 +2,9 @@
 
 > `/System/Library/Frameworks/DriverKit.framework/DriverKit`
 
-Sections:
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__structlayouts : content changed
-~ __DATA_CONST.__osclassinfo : content changed
-~ __AUTH_CONST.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__structlayouts`
+- `__DATA_CONST.__osclassinfo`
+- `__AUTH_CONST.__const`

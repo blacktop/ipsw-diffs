@@ -2,6 +2,13 @@
 
 > `/System/Library/Filesystems/apfs.fs/slurpAPFSMeta`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x36b24
@@ -16,14 +23,9 @@
    - /usr/lib/libSystem.B.dylib
    Functions: 521
    Symbols:   144
--  CStrings:  782
-+  CStrings:  785
+-  CStrings:  772
++  CStrings:  775
  
-Sections:
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
 Functions:
 ~ sub_100019634 : 632 -> 636
 ~ sub_1000258a4 -> sub_1000258a8 : 172 -> 168
@@ -32,5 +34,4 @@ CStrings:
 + "%s:%d: %s Invalid reap list free entry %d\n"
 + "%s:%d: %s reap list object expected %u entries, max %u, but we walked %u\n"
 + "%s:%d: %s reap list object expected %u entries, max %u, but we walked %u + %u = %u\n"
-
 ```

@@ -2,6 +2,7 @@
 
 > `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/libGPUCompiler.dylib`
 
-Sections:
-~ __AUTH_CONST.__auth_got : content changed
-~ __AUTH_CONST.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__AUTH_CONST.__auth_got`
+- `__AUTH_CONST.__const`

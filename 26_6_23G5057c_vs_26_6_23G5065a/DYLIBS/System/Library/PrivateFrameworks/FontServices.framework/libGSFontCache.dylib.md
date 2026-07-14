@@ -2,13 +2,14 @@
 
 > `/System/Library/PrivateFrameworks/FontServices.framework/libGSFontCache.dylib`
 
-Sections:
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_dictobj : content changed
-~ __AUTH_CONST.__objc_arrayobj : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH_CONST.__objc_doubleobj : content changed
-~ __AUTH.__objc_dataobj : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH.__objc_dataobj`

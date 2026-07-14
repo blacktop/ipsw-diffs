@@ -2,5 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.iCloudDriveFileProvider.appex/com.apple.CloudDocs.iCloudDriveFileProvider`
 
-Sections:
-~ __TEXT.__cstring : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`

@@ -2,6 +2,13 @@
 
 > `/System/Library/Filesystems/apfs.fs/sm_stats`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x43290
@@ -16,14 +23,9 @@
    - /usr/lib/libutil.dylib
    Functions: 577
    Symbols:   129
--  CStrings:  1052
-+  CStrings:  1055
+-  CStrings:  1043
++  CStrings:  1046
  
-Sections:
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
 Functions:
 ~ sub_100005254 : 1192 -> 1632
 ~ sub_100026764 -> sub_10002691c : 508 -> 500
@@ -39,5 +41,4 @@ CStrings:
 - "%s:%d: %s reap list object 0x%llx first index %u larger than max %u\n"
 - "%s:%d: %s reap list object 0x%llx free index %u larger than max %u\n"
 - "%s:%d: %s reap list object 0x%llx last index %u larger than max %u\n"
-
 ```

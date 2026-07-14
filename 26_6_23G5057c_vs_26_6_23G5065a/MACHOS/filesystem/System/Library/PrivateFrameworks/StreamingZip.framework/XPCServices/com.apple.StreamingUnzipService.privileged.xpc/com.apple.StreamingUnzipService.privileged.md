@@ -2,13 +2,14 @@
 
 > `/System/Library/PrivateFrameworks/StreamingZip.framework/XPCServices/com.apple.StreamingUnzipService.privileged.xpc/com.apple.StreamingUnzipService.privileged`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
 ```diff
-Sections:
-~ __TEXT.__cstring : content changed
 CStrings:
 + "01:17:18"
 + "Jul  3 2026"
 - "17:39:29"
 - "Jun 26 2026"
-
 ```

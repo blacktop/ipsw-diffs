@@ -2,6 +2,28 @@
 
 > `/System/Library/PrivateFrameworks/CloudAttestation.framework/CloudAttestation`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x149ac0
@@ -53,31 +75,11 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 6893
--  Symbols:   2602
+-  Symbols:   2334
 +  Functions: 6888
-+  Symbols:   2603
++  Symbols:   2335
    CStrings:  470
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH.__objc_data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 + _get_witness_table 16CloudAttestation13PolicyBuilderV05TupleC0Vy_AEy_AA04X509C0V_AC08OptionalC0Vy_AEy_AA023CertificateTransparencyC0V_QPGGAC011ConditionalC0Oy_AEy_AA014SEPAttestationC0V_QPGARGAA08APTicketC0VAA09LocalBootC0VAA08SEPImageC0VAA07CryptexC0VAA012SecureConfigC0VAA0iC0VAA010KeyOptionsC0VAIy_AEy_AA06FusingC0V_QPGGAA010DeviceModeC0VAA010DarwinInitC0VAA011RoutingHintC0VAA015EnsembleMembersC0VQPG_AIy_AEy_AA014ProxiedReleaseC0V_QPGGAIy_AEy_AA011EnvironmentC0V_QPGGQPGAA0bC0HPyHC
 + _symbolic _____Sg 16CloudAttestation0B13PolicyContextV
@@ -86,5 +88,4 @@ Symbols:
 - _get_witness_table 16CloudAttestation13PolicyBuilderV05TupleC0Vy_AEy_AA04X509C0V_AC08OptionalC0Vy_AEy_AA023CertificateTransparencyC0V_QPGGAC011ConditionalC0Oy_AEy_AA014SEPAttestationC0V_QPGARGAA08APTicketC0VAA09LocalBootC0VAA08SEPImageC0VAA07CryptexC0VAA012SecureConfigC0VAA0iC0VAA010KeyOptionsC0VAIy_AEy_AA06FusingC0V_QPGGAA010DeviceModeC0VAA010DarwinInitC0VAA011RoutingHintC0VAA015EnsembleMembersC0VQPG_AIy_AEy_AA014ProxiedReleaseC0V_QPGGAA011EnvironmentC0VQPGAA0bC0HPyHC
 - _symbolic _____y_AAy____________y_AAy_______QPGG_____y_AAy_______QPGAIG___________________________________ACy_AAy_______QPGG____________________QPG_ACy_AAy_______QPGG_____QPG 16CloudAttestation13PolicyBuilderV05TupleC0V AA04X509C0V AC08OptionalC0V AA023CertificateTransparencyC0V AC011ConditionalC0O AA014SEPAttestationC0V AA08APTicketC0V AA09LocalBootC0V AA08SEPImageC0V AA07CryptexC0V AA012SecureConfigC0V AA0iC0V AA010KeyOptionsC0V AA06FusingC0V AA010DeviceModeC0V AA010DarwinInitC0V AA011RoutingHintC0V AA015EnsembleMembersC0V AA014ProxiedReleaseC0V AA011EnvironmentC0V
 - _symbolic _____y____________y_AAy_______QPGG_____y_AAy_______QPGAIG___________________________________ACy_AAy_______QPGG____________________QPG_ACy_AAy_______QPGG_____t 16CloudAttestation13PolicyBuilderV05TupleC0V AA04X509C0V AC08OptionalC0V AA023CertificateTransparencyC0V AC011ConditionalC0O AA014SEPAttestationC0V AA08APTicketC0V AA09LocalBootC0V AA08SEPImageC0V AA07CryptexC0V AA012SecureConfigC0V AA0iC0V AA010KeyOptionsC0V AA06FusingC0V AA010DeviceModeC0V AA010DarwinInitC0V AA011RoutingHintC0V AA015EnsembleMembersC0V AA014ProxiedReleaseC0V AA011EnvironmentC0V
-
 ```

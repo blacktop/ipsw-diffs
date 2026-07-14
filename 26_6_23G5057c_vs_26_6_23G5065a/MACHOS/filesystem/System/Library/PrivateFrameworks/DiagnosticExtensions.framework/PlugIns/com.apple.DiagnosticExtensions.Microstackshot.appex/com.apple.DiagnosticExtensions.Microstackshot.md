@@ -2,5 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/com.apple.DiagnosticExtensions.Microstackshot.appex/com.apple.DiagnosticExtensions.Microstackshot`
 
-Sections:
-~ __TEXT.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`

@@ -2,6 +2,22 @@
 
 > `/System/Library/PrivateFrameworks/BlastDoor.framework/BlastDoor`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__cfstring`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x8537a0
@@ -100,26 +116,12 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 63659
--  Symbols:   19735
--  CStrings:  7490
+-  Symbols:   17386
+-  CStrings:  6603
 +  Functions: 63842
-+  Symbols:   19763
-+  CStrings:  7525
++  Symbols:   17425
++  CStrings:  6637
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__gcc_except_tab : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + _OBJC_CLASS_$_IDSServerBag
 + _OBJC_CLASS_$_NSJSONSerialization
@@ -195,5 +197,4 @@ CStrings:
 + "processInfo"
 + "sharedInstance"
 + "spec"
-
 ```

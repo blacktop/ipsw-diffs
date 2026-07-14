@@ -2,15 +2,16 @@
 
 > `/System/Library/Accounts/Notification/ADAccountsNotificationPlugin.bundle/ADAccountsNotificationPlugin`
 
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`

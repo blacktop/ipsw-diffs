@@ -2,6 +2,7 @@
 
 > `/System/Library/Frameworks/ImageIO.framework/archive.metallib`
 
-Sections:
-~ __TEXT.__compute : content changed
-~ __TEXT.__metallib : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__compute`
+- `__TEXT.__metallib`

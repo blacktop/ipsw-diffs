@@ -2,6 +2,11 @@
 
 > `/System/Library/Frameworks/CoreTelephony.framework/Support/libCommCenterMCommandDrivers.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__DATA_CONST.__got`
+
 ```diff
 
 -  __TEXT.__text: 0x21a434
@@ -36,15 +41,12 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
 -  Functions: 12398
--  Symbols:   37795
--  CStrings:  4266
+-  Symbols:   19228
+-  CStrings:  4249
 +  Functions: 12371
-+  Symbols:   37700
-+  CStrings:  3995
++  Symbols:   19199
++  CStrings:  3979
  
-Sections:
-~ __TEXT.__init_offsets : content changed
-~ __DATA_CONST.__got : content changed
 Symbols:
 + GCC_except_table218
 + GCC_except_table272
@@ -468,5 +470,4 @@ CStrings:
 - "succeeded"
 - "uim::sendSimApdu, block"
 - "uim::sendSimApdu, single cmnd"
-
 ```

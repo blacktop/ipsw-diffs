@@ -2,6 +2,17 @@
 
 > `/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/com.apple.DiagnosticExtensions.Telephony.appex/com.apple.DiagnosticExtensions.Telephony`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x25a3c
@@ -33,24 +44,14 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 292
 -  Symbols:   377
--  CStrings:  267
+-  CStrings:  250
 +  Functions: 291
 +  Symbols:   375
-+  CStrings:  266
++  CStrings:  249
  
-Sections:
-~ __TEXT.__init_offsets : content changed
-~ __TEXT.__objc_methlist : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_selrefs : content changed
-~ __DATA.__objc_data : content changed
 Symbols:
 - _TelephonyBasebandWatchdogStartWithStackshot
 - _TelephonyBasebandWatchdogStop
 CStrings:
 - "Watchdog timed out"
-
 ```

@@ -2,5 +2,6 @@
 
 > `/Applications/DiagnosticsService.app/PlugIns/Diagnostic-6002.appex/Diagnostic-6002`
 
-Sections:
-~ __TEXT.__cstring : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`

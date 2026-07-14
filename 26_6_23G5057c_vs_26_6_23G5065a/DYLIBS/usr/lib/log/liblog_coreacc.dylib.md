@@ -2,8 +2,9 @@
 
 > `/usr/lib/log/liblog_coreacc.dylib`
 
-Sections:
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH_CONST.__cfstring`
+- `__DATA.__data`

@@ -2,5 +2,6 @@
 
 > `/Applications/Screen Time.app/PlugIns/ScreenTimeWidgetExtension.appex/ScreenTimeWidgetExtension`
 
-Sections:
-~ __TEXT.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`

@@ -2,6 +2,34 @@
 
 > `/usr/libexec/icloudwebd`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__const`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+- `__DATA.__bss`
+- `__DATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0x6ea84
@@ -35,41 +63,14 @@
    - /usr/lib/swift/libswiftsimd.dylib
    Functions: 2289
 -  Symbols:   823
--  CStrings:  730
+-  CStrings:  721
 +  Symbols:   824
-+  CStrings:  731
++  CStrings:  722
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__swift5_entry : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_fieldmd : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__unwind_info : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_selrefs : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__data : content changed
-~ __DATA.__bss : content changed
-~ __DATA.__common : content changed
 Symbols:
 + _$sSo13os_log_type_ta0A0E5faultABvgZ
 + _exit
 - _swift_errorInMain
 CStrings:
 + "Failed to initialize SkyBridge daemon: %@"
-
 ```

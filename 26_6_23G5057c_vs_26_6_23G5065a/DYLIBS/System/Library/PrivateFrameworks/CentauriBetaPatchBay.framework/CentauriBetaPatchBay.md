@@ -2,5 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CentauriBetaPatchBay.framework/CentauriBetaPatchBay`
 
-Sections:
-~ __AUTH_CONST.__cfstring : content changed
+### Sections with Same Size but Changed Content
+
+- `__AUTH_CONST.__cfstring`

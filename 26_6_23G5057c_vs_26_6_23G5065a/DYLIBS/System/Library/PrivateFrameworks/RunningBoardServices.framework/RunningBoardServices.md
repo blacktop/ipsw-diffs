@@ -2,6 +2,23 @@
 
 > `/System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x44154
@@ -46,27 +63,12 @@
    - /usr/lib/libbsm.0.dylib
    - /usr/lib/libobjc.A.dylib
 -  Functions: 2334
--  Symbols:   7313
--  CStrings:  3719
+-  Symbols:   4598
+-  CStrings:  2757
 +  Functions: 2337
-+  Symbols:   7324
-+  CStrings:  3726
++  Symbols:   4606
++  CStrings:  2762
  
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__gcc_except_tab : content changed
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH.__objc_data : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + +[RBSExtensionProcessIdentity _extensionIdentityFromDataRepresentation:correctedToInstanceUUID:]
 + -[RBSExtensionProcessIdentity _copyWithCorrectedInstanceUUID:]
@@ -87,5 +89,4 @@ CStrings:
 + "_copyWithCorrectedInstanceUUID:"
 + "_extensionIdentityFromDataRepresentation:correctedToInstanceUUID:"
 + "dataWithJSONObject:options:error:"
-
 ```

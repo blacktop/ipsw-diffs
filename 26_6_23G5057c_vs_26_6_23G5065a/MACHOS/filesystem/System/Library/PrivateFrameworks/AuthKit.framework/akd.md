@@ -2,5 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/AuthKit.framework/akd`
 
-Sections:
-~ __TEXT.__eh_frame : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__eh_frame`

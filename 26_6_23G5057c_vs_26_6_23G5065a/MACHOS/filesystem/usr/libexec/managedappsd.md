@@ -2,6 +2,7 @@
 
 > `/usr/libexec/managedappsd`
 
-Sections:
-~ __TEXT.__eh_frame : content changed
-~ __DATA.__objc_selrefs : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__eh_frame`
+- `__DATA.__objc_selrefs`

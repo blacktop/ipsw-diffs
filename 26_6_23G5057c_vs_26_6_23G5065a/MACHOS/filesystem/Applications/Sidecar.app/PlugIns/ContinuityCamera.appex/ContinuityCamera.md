@@ -2,5 +2,6 @@
 
 > `/Applications/Sidecar.app/PlugIns/ContinuityCamera.appex/ContinuityCamera`
 
-Sections:
-~ __TEXT.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`

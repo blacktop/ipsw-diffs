@@ -2,5 +2,6 @@
 
 > `/System/Library/Extensions/IOGameControllerFamily.kext/IOGameControllerFamily_development`
 
-Sections:
-~ __TEXT.__cstring : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`

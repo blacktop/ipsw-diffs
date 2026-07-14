@@ -2,6 +2,15 @@
 
 > `/System/Library/Frameworks/CoreTelephony.framework/Support/libSystemDetermination.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+
 ```diff
 
 -  __TEXT.__text: 0x60a08
@@ -26,18 +35,11 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    Functions: 1419
--  Symbols:   3396
--  CStrings:  1395
-+  Symbols:   3394
-+  CStrings:  1375
+-  Symbols:   2444
+-  CStrings:  1330
++  Symbols:   2442
++  CStrings:  1310
  
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
 Symbols:
 - _TelephonyUtilIsOversteerEnabled
 - __os_log_debug_impl
@@ -83,5 +85,4 @@ CStrings:
 - "#D WiFiCalling-only mode: true. Baseband booted assertion required. iSimInfoReady: %{bool}d, deviceInfoReady: %{bool}d. BB booted assertion held: %{bool}d"
 - "#D fInCallImsPref is inactive!"
 - "#D handleCountryOfOrigination: mcc INT is: %u"
-
 ```

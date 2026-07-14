@@ -2,5 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/ActionPredictionHeuristics.framework/XPCServices/HeuristicInterpreter.xpc/HeuristicInterpreter`
 
-Sections:
-~ __TEXT.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`

@@ -2,6 +2,30 @@
 
 > `/usr/libexec/deviceaccessd`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+- `__DATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0x94f30
@@ -55,33 +79,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 2533
 -  Symbols:   885
--  CStrings:  4263
+-  CStrings:  3965
 +  Functions: 2534
 +  Symbols:   884
-+  CStrings:  4267
++  CStrings:  3970
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__unwind_info : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __DATA_CONST.__objc_arrayobj : content changed
-~ __DATA_CONST.__objc_intobj : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__data : content changed
-~ __DATA.__common : content changed
 Symbols:
 - _OBJC_CLASS_$_NSSet
 CStrings:
@@ -106,5 +108,4 @@ CStrings:
 - "Successfully fetched app asset for %@: adamID=%@, name=%@, developer=%@, icon=%lu bytes"
 - "_lockupRequestForBundleID:withContext:completionBlock:"
 - "v48@?0@\"NSString\"8@\"NSString\"16@\"NSString\"24@\"NSData\"32@\"NSError\"40"
-
 ```

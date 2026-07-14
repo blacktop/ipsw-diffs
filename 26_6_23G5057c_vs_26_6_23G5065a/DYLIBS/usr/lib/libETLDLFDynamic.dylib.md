@@ -2,6 +2,10 @@
 
 > `/usr/lib/libETLDLFDynamic.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+
 ```diff
 
 -  __TEXT.__text: 0x25c
@@ -21,8 +25,6 @@
 +  Symbols:   7
 +  CStrings:  0
  
-Sections:
-~ __TEXT.__unwind_info : content changed
 Symbols:
 - __ETLDebugPrint
 Functions:
@@ -31,5 +33,4 @@ CStrings:
 - "ETLDLFParse"
 - "Length %u not enough, need %zu\n"
 - "Length %u not whole payload, need %u\n"
-
 ```

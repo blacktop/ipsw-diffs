@@ -2,6 +2,10 @@
 
 > `/usr/lib/libETLDLOADCoreDumpDynamic.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+
 ```diff
 
 -  __TEXT.__text: 0x9f0
@@ -19,12 +23,9 @@
 -  CStrings:  11
 +  CStrings:  10
  
-Sections:
-~ __TEXT.__unwind_info : content changed
 Functions:
 ~ _ETLDLOADCoreDumpCaptureRecord : 940 -> 908
 ~ _ETLDLOADCoreDumpCaptureRecordFast : 1604 -> 1560
 CStrings:
 - "Capture 0x%x, length 0x%x, chunk size 0x%x\n"
-
 ```

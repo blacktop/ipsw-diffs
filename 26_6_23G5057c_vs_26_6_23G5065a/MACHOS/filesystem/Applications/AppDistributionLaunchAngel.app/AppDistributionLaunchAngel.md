@@ -2,6 +2,29 @@
 
 > `/Applications/AppDistributionLaunchAngel.app/AppDistributionLaunchAngel`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_entry`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x4b24c
@@ -29,33 +52,11 @@
    Functions: 1085
 -  Symbols:   832
 +  Symbols:   836
-   CStrings:  885
+   CStrings:  882
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__const : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__swift5_fieldmd : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_entry : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_selrefs : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__data : content changed
 Symbols:
 + _$s14MarketplaceKit0aB5ErrorO18featureUnavailableyA2CmFWC
 + _$s14MarketplaceKit0aB5ErrorOs0C0AAMc
 + _FBSOpenApplicationOptionKeyPromptUnlockDevice
 + _FBSOpenApplicationOptionKeyUnlockDevice
-
 ```

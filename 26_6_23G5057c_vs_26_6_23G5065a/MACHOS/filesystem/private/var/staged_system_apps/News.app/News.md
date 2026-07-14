@@ -2,5 +2,6 @@
 
 > `/private/var/staged_system_apps/News.app/News`
 
-Sections:
-~ __TEXT.__cstring : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`

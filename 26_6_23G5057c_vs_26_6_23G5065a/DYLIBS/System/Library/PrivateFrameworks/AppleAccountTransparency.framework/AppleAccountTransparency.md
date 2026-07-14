@@ -2,6 +2,16 @@
 
 > `/System/Library/PrivateFrameworks/AppleAccountTransparency.framework/AppleAccountTransparency`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x52718
@@ -80,20 +90,12 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 1429
--  Symbols:   1018
+-  Symbols:   748
 -  CStrings:  547
 +  Functions: 1449
-+  Symbols:   1022
++  Symbols:   750
 +  CStrings:  557
  
-Sections:
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __AUTH.__objc_data : content changed
 Symbols:
 + __DATA__TtC24AppleAccountTransparencyP33_E6620FDB736EB60F373829B9563727CB17BGSystemTaskAcker
 + __IVARS__TtC24AppleAccountTransparencyP33_E6620FDB736EB60F373829B9563727CB17BGSystemTaskAcker
@@ -132,5 +134,4 @@ CStrings:
 - "_TtP24AppleAccountTransparency14FlowIDSettable_"
 - "telemetryFlowID"
 - "v24@0:8@\"NSString\"16"
-
 ```

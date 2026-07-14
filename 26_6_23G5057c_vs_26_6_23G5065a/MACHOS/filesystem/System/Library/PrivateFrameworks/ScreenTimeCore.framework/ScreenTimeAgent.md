@@ -2,6 +2,29 @@
 
 > `/System/Library/PrivateFrameworks/ScreenTimeCore.framework/ScreenTimeAgent`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_doubleobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA.__bss`
+- `__DATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0x13624c
@@ -90,32 +113,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 6295
 -  Symbols:   1360
--  CStrings:  8126
+-  CStrings:  7363
 +  Functions: 6305
 +  Symbols:   1363
-+  CStrings:  8138
++  CStrings:  7374
  
-Sections:
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_intobj : content changed
-~ __DATA_CONST.__objc_doubleobj : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __DATA_CONST.__objc_arrayobj : content changed
-~ __DATA_CONST.__objc_dictobj : content changed
-~ __DATA.__bss : content changed
-~ __DATA.__common : content changed
 Symbols:
 + _$sSo10CFErrorRefas5Error10FoundationMc
 + _SecTaskCopySigningIdentifier
@@ -132,5 +134,4 @@ CStrings:
 + "localizedStringForKey:value:table:"
 + "supportedWebBrowserBundleIdentifiersForDeviceFamily:"
 + "webHistoryAccess"
-
 ```

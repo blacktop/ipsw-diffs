@@ -2,7 +2,8 @@
 
 > `/usr/lib/libncurses.5.4.dylib`
 
-Sections:
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __DATA_DIRTY.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__DATA_DIRTY.__data`

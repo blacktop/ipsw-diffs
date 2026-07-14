@@ -2,6 +2,16 @@
 
 > `/System/Library/DataClassMigrators/SystemAppMigrator.migrator/SystemAppMigrator`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x80c8
@@ -24,19 +34,10 @@
    Functions: 127
 -  Symbols:   176
 +  Symbols:   175
-   CStrings:  716
+   CStrings:  540
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__const : content changed
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_data : content changed
 Symbols:
 - _kMISValidationOptionAllowLaunchWarning
 Functions:
 ~ sub_6578 : 548 -> 536
-
 ```

@@ -2,6 +2,16 @@
 
 > `/System/Library/PrivateFrameworks/AGXCompilerCore.framework/AGXCompilerCore`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x228aa8
@@ -27,19 +37,11 @@
    - /usr/lib/libllvm-flatbuffers.dylib
    - /usr/lib/libobjc.A.dylib
    Functions: 7261
--  Symbols:   19336
--  CStrings:  4566
-+  Symbols:   19335
-+  CStrings:  4564
+-  Symbols:   9926
+-  CStrings:  4560
++  Symbols:   9925
++  CStrings:  4558
  
-Sections:
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH.__data : content changed
 Symbols:
 - __ZN4llvm11raw_ostreamlsEm
 Functions:
@@ -55,5 +57,4 @@ CStrings:
 - ": "
 - "First occurrence '"
 - "Type mismatch for duplicate global bindings at binding index "
-
 ```

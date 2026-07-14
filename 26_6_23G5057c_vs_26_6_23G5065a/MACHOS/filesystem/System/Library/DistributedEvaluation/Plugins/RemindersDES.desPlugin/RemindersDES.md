@@ -2,5 +2,6 @@
 
 > `/System/Library/DistributedEvaluation/Plugins/RemindersDES.desPlugin/RemindersDES`
 
-Sections:
-~ __TEXT.__cstring : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`

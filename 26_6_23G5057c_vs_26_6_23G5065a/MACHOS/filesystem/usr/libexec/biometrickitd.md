@@ -2,6 +2,7 @@
 
 > `/usr/libexec/biometrickitd`
 
-Sections:
-~ __TEXT.__cstring : content changed
-~ __DATA.__objc_selrefs : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+- `__DATA.__objc_selrefs`

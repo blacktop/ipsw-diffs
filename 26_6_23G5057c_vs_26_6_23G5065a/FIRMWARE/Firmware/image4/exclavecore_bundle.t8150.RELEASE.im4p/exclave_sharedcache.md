@@ -2,6 +2,35 @@
 
 > `Firmware/image4/exclavecore_bundle.t8150.RELEASE.im4p/exclave_sharedcache`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__chain_fixups`
+- `__DATA.__TIGHTBEAM_VT`
+- `__DATA.__TIGHTBEAM`
+- `__DATA.__data`
+- `__DATA.__mod_init_func`
+- `__DATA.__shared_cache`
+- `__DATA.__got`
+- `__DATA.__thread_vars`
+- `__DATA.__common`
+- `__PDATA.__data`
+- `__PDATA.__const`
+- `__PDATA.__shared_cache`
+- `__PDATA.__mod_init_func`
+- `__PDATA.__auth_ptr`
+- `__PDATA.__bss`
+- `__PDATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0xd2c0d4
@@ -50,36 +79,9 @@
 -  Functions: 50191
 +  Functions: 50204
    Symbols:   1
--  CStrings:  14252
-+  CStrings:  14277
+-  CStrings:  14095
++  CStrings:  14120
  
-Sections:
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_fieldmd : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_entry : content changed
-~ __TEXT.__chain_fixups : content changed
-~ __DATA.__TIGHTBEAM_VT : content changed
-~ __DATA.__TIGHTBEAM : content changed
-~ __DATA.__data : content changed
-~ __DATA.__mod_init_func : content changed
-~ __DATA.__shared_cache : content changed
-~ __DATA.__got : content changed
-~ __DATA.__thread_vars : content changed
-~ __DATA.__common : content changed
-~ __PDATA.__data : content changed
-~ __PDATA.__const : content changed
-~ __PDATA.__shared_cache : content changed
-~ __PDATA.__mod_init_func : content changed
-~ __PDATA.__auth_ptr : content changed
-~ __PDATA.__bss : content changed
-~ __PDATA.__common : content changed
 CStrings:
 + "  %s:"
 + "  frame permissions: read%s%s\n"
@@ -128,5 +130,4 @@ CStrings:
 - "Unexpected L4_Error: %s(%zu) err='L4_Cap_Copy( frame_cap_parent, frame_cap_child)'"
 - "Unexpected L4_Error: %s(%zu) err='L4_Cap_Mint_Untyped( L4_BootInfo_GetSlot(entry), frame_cap_parent, (((L4_Word_t) 1) << (2)) | (((L4_Word_t) 1) << (1)), 0, 0, (((L4_TypeBitmap_t) 1) << (L4_Type_Arm64_FrameLevel0)), ((L4_Word_t) (0)) | (((L4_Word_t) 1) << (0)))'"
 - "init(allocateUntypedSize:with:)"
-
 ```

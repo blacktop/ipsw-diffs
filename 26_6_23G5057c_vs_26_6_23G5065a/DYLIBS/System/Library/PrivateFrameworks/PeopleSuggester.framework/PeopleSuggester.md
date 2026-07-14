@@ -2,6 +2,27 @@
 
 > `/System/Library/PrivateFrameworks/PeopleSuggester.framework/PeopleSuggester`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x1084f8
@@ -50,31 +71,12 @@
    - /usr/lib/libarchive.2.dylib
    - /usr/lib/libobjc.A.dylib
 -  Functions: 4825
--  Symbols:   17026
--  CStrings:  10247
+-  Symbols:   9793
+-  CStrings:  8007
 +  Functions: 4828
-+  Symbols:   17040
-+  CStrings:  10281
++  Symbols:   9803
++  CStrings:  8027
  
-Sections:
-~ __TEXT.__gcc_except_tab : content changed
-~ __TEXT.__unwind_info : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH_CONST.__objc_arrayobj : content changed
-~ __AUTH_CONST.__objc_doubleobj : content changed
-~ __AUTH_CONST.__objc_dictobj : content changed
-~ __AUTH.__objc_data : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + +[_PSAppUsageUtilities _attachmentsContainWebURL:]
 + +[_PSAppUsageUtilities _defaultBrowserAppBundleID]
@@ -121,5 +123,4 @@ CStrings:
 + "mostUsedAppShareExtensionsWithAppBundleIdsToShareExtensionBundleIdsMapping:sourceBundleId:attachments:traceId:parentSpanId:sharesFromSourceToTargetBundle:appUsageDurations:"
 - "boostAppsForSourceBundleId:"
 - "mostUsedAppShareExtensionsWithAppBundleIdsToShareExtensionBundleIdsMapping:sourceBundleId:sharesFromSourceToTargetBundle:appUsageDurations:"
-
 ```

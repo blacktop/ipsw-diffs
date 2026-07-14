@@ -2,6 +2,21 @@
 
 > `/System/Library/CoreServices/powerd.bundle/powerd`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+- `__DATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0x6e2cc
@@ -57,29 +72,15 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 2383
 -  Symbols:   560
--  CStrings:  4706
+-  CStrings:  3760
 +  Functions: 2388
 +  Symbols:   561
-+  CStrings:  4709
++  CStrings:  3763
  
-Sections:
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_intobj : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __DATA_CONST.__objc_dictobj : content changed
-~ __DATA_CONST.__objc_arrayobj : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__data : content changed
-~ __DATA.__common : content changed
 Symbols:
 + _OBJC_CLASS_$_NSSet
 CStrings:
 + "getPowerModeUserInitiatedWithReply:"
 + "setWithObjects:"
 + "v24@0:8@?<v@?B>16"
-
 ```

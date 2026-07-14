@@ -2,6 +2,14 @@
 
 > `/usr/lib/libxml2.2.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0xc5fd0
@@ -21,18 +29,12 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libz.1.dylib
 -  Functions: 2628
--  Symbols:   4067
+-  Symbols:   3098
 -  CStrings:  3983
 +  Functions: 2629
-+  Symbols:   4069
++  Symbols:   3099
 +  CStrings:  3986
  
-Sections:
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 + _xmlSchemaIDCRegisterMatchers
 Functions:
@@ -46,5 +48,4 @@ CStrings:
 + "calling xmlSchemaIDCRegisterMatchers()"
 + "negative `pos` at selector (`depth >= matcher->depth` invariant violated)"
 + "negative `pos` in field handler (`depth >= matcher->depth` invariant violated)"
-
 ```

@@ -2,6 +2,35 @@
 
 > `/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__cstring`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__la_resolver`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x4ee514
@@ -23,38 +52,11 @@
    - /usr/lib/swift/libswiftXPC.dylib
    - /usr/lib/swift/libswift_Builtin_float.dylib
 -  Functions: 13343
--  Symbols:   28181
+-  Symbols:   17571
 +  Functions: 13344
-+  Symbols:   28182
-   CStrings:  14222
++  Symbols:   17572
+   CStrings:  12938
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__const : content changed
-~ __TEXT.__cstring : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__unwind_info : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH_CONST.__objc_dictobj : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH.__objc_data : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__la_resolver : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 + GCC_except_table10082
 + GCC_except_table10087
@@ -693,5 +695,4 @@ Functions:
 ~ _CreateIndexedColorSpace : 432 -> 440
 ~ _CreateICCBasedColorSpace : 528 -> 536
 ~ _CGPDFCMapCreate : 7816 -> 7824
-
 ```

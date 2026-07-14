@@ -2,6 +2,34 @@
 
 > `/System/Library/PrivateFrameworks/WebKitLegacy.framework/WebKitLegacy`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__cstring`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x15c970
@@ -9,32 +37,6 @@
    __TEXT.__auth_stubs: 0x8dc0
    __TEXT.__objc_methlist: 0xf610
    __TEXT.__const: 0x220
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__const : content changed
-~ __TEXT.__gcc_except_tab : content changed
-~ __TEXT.__cstring : content changed
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH_CONST.__objc_dictobj : content changed
-~ __AUTH_CONST.__objc_arrayobj : content changed
-~ __AUTH.__objc_data : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 + __ZN7WebCore19ResourceRequestBase11RequestDataaSEOS1_
 - __ZN7WebCore15ResourceRequestaSEOS0_
@@ -57,5 +59,4 @@ Functions:
 ~ __ZN3WTF20VectorTypeOperationsIN7WebCore14DOMCacheEngine17CrossThreadRecordEE8destructEPS3_S5_ : 720 -> 692
 ~ +[WebCache imageForURL:] : 708 -> 648
 ~ -[WebPDFViewPlaceholder simulateClickOnLinkToURL:] : 1680 -> 1620
-
 ```

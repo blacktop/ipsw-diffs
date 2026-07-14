@@ -2,6 +2,14 @@
 
 > `/System/Library/PrivateFrameworks/WebCore.framework/Frameworks/libANGLE-shared.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH_CONST.__cfstring`
+- `__DATA.__data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x257e3c
@@ -41,17 +49,11 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
    Functions: 8989
--  Symbols:   25319
--  CStrings:  7302
-+  Symbols:   25317
-+  CStrings:  7309
+-  Symbols:   13350
+-  CStrings:  7220
++  Symbols:   13344
++  CStrings:  7227
  
-Sections:
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 + GCC_except_table101
 + GCC_except_table105
@@ -249,5 +251,4 @@ CStrings:
 - "glInvalidateTextureANGLE"
 - "glTexImage2DExternalANGLE"
 - "unsupported shader version"
-
 ```

@@ -2,5 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/WeatherResources.framework/WeatherResources`
 
-Sections:
-~ __AUTH_CONST.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__AUTH_CONST.__const`

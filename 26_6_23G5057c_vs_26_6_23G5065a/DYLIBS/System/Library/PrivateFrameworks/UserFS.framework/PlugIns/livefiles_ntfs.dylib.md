@@ -2,8 +2,9 @@
 
 > `/System/Library/PrivateFrameworks/UserFS.framework/PlugIns/livefiles_ntfs.dylib`
 
-Sections:
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH.__data`
+- `__DATA.__data`

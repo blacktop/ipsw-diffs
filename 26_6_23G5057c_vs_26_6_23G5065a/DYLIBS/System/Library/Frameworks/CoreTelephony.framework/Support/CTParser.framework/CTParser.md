@@ -2,6 +2,13 @@
 
 > `/System/Library/Frameworks/CoreTelephony.framework/Support/CTParser.framework/CTParser`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x59fc
@@ -28,17 +35,12 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
 -  Functions: 226
--  Symbols:   620
+-  Symbols:   452
 -  CStrings:  33
 +  Functions: 224
-+  Symbols:   614
++  Symbols:   450
 +  CStrings:  32
  
-Sections:
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __DATA.__data : content changed
 Symbols:
 + GCC_except_table24
 + GCC_except_table34
@@ -56,5 +58,4 @@ Symbols:
 - __os_log_debug_impl
 CStrings:
 - "#D Received XPC object: %s"
-
 ```

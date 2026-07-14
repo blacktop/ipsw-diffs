@@ -2,6 +2,19 @@
 
 > `com.apple.filesystems.apfs`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA.__data`
+- `__DATA_CONST.__auth_got`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__mod_init_func`
+- `__DATA_CONST.__mod_term_func`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__kalloc_type`
+- `__DATA_CONST.__kalloc_var`
+- `__DATA_CONST.__assert`
+
 ```diff
 
    __TEXT.__const: 0x9a8
@@ -19,17 +32,6 @@
 -  CStrings:  6717
 +  CStrings:  6720
  
-Sections:
-~ __DATA.__data : content changed
-~ __DATA_CONST.__auth_got : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__mod_init_func : content changed
-~ __DATA_CONST.__mod_term_func : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__kalloc_type : content changed
-~ __DATA_CONST.__kalloc_var : content changed
-~ __DATA_CONST.__assert : content changed
 Functions:
 ~ _fetch_particular_snap_extent : 608 -> 620
 ~ _graft_blockmap_lut_tree_insert : 848 -> 868
@@ -50,5 +52,4 @@ CStrings:
 - "2811.160.7"
 - "Jun 28 2026"
 - "apfs-2811.160.7"
-
 ```

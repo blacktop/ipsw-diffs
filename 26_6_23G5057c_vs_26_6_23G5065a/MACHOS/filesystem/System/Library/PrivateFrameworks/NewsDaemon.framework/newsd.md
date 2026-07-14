@@ -2,6 +2,7 @@
 
 > `/System/Library/PrivateFrameworks/NewsDaemon.framework/newsd`
 
-Sections:
-~ __TEXT.__cstring : content changed
-~ __TEXT.__eh_frame : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+- `__TEXT.__eh_frame`

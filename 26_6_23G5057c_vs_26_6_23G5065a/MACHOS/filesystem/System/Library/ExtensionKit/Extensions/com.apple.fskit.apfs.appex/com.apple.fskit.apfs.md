@@ -2,6 +2,17 @@
 
 > `/System/Library/ExtensionKit/Extensions/com.apple.fskit.apfs.appex/com.apple.fskit.apfs`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__data`
+- `__DATA.__bss`
+
 ```diff
 
 -  __TEXT.__text: 0xdf6d0
@@ -19,18 +30,9 @@
    - /usr/lib/libutil.dylib
    Functions: 3170
    Symbols:   1515
--  CStrings:  5294
-+  CStrings:  5297
+-  CStrings:  5254
++  CStrings:  5257
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_selrefs : content changed
-~ __DATA.__data : content changed
-~ __DATA.__bss : content changed
 Functions:
 ~ _omap_get : 628 -> 632
 ~ _nx_reaper_checkpoint_traverse : 1244 -> 1672
@@ -46,5 +48,4 @@ CStrings:
 - "reap list object 0x%llx first index %u larger than max %u\n"
 - "reap list object 0x%llx free index %u larger than max %u\n"
 - "reap list object 0x%llx last index %u larger than max %u\n"
-
 ```

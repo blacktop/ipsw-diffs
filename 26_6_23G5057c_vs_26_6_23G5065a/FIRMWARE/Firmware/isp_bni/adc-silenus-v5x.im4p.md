@@ -2,14 +2,15 @@
 
 > `Firmware/isp_bni/adc-silenus-v5x.im4p`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__cstring`
+- `__DATA.__data`
+- `__DATA.__data_copy`
+
 ```diff
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__cstring : content changed
-~ __DATA.__data : content changed
-~ __DATA.__data_copy : content changed
 CStrings:
 + "00:44:43"
 - "21:20:40"
-
 ```

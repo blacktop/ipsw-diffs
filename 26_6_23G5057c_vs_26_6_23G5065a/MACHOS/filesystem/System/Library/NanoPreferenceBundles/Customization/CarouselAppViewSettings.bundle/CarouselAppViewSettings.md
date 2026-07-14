@@ -2,6 +2,21 @@
 
 > `/System/Library/NanoPreferenceBundles/Customization/CarouselAppViewSettings.bundle/CarouselAppViewSettings`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x24e00
@@ -36,22 +51,9 @@
 -  Functions: 773
 +  Functions: 759
    Symbols:   353
--  CStrings:  1471
-+  CStrings:  1439
+-  CStrings:  1347
++  CStrings:  1316
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__const : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_intobj : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_selrefs : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__data : content changed
 CStrings:
 - "(final)"
 - "WILL move %@ -> %s %@"
@@ -84,5 +86,4 @@ CStrings:
 - "intermediate"
 - "removed %@"
 - "reverted %@ -> %s"
-
 ```

@@ -2,6 +2,13 @@
 
 > `/System/Library/Filesystems/apfs.fs/apfs_condenser`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x4bf60
@@ -16,14 +23,9 @@
    - /usr/lib/libutil.dylib
    Functions: 663
    Symbols:   134
--  CStrings:  1265
-+  CStrings:  1268
+-  CStrings:  1256
++  CStrings:  1259
  
-Sections:
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
 Functions:
 ~ sub_10000791c : 12056 -> 12064
 ~ sub_10000f2c0 -> sub_10000f2c8 : 1192 -> 1632
@@ -40,5 +42,4 @@ CStrings:
 - "%s:%d: %s reap list object 0x%llx free index %u larger than max %u\n"
 - "%s:%d: %s reap list object 0x%llx last index %u larger than max %u\n"
 - "2811.160.7"
-
 ```

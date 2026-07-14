@@ -2,6 +2,11 @@
 
 > `/System/Library/PrivateFrameworks/AppleBasebandServices.framework/AppleBasebandServices`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_selrefs`
+
 ```diff
 
 -  __TEXT.__text: 0x18f34
@@ -42,15 +47,12 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
 -  Functions: 262
--  Symbols:   839
--  CStrings:  65
+-  Symbols:   625
+-  CStrings:  64
 +  Functions: 254
-+  Symbols:   786
++  Symbols:   585
 +  CStrings:  61
  
-Sections:
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
 Symbols:
 - GCC_except_table10
 - GCC_except_table16
@@ -98,5 +100,4 @@ CStrings:
 - "Capability %s returning overridden value"
 - "Watchdog timed out"
 - "com.apple.telephony.capabilities"
-
 ```

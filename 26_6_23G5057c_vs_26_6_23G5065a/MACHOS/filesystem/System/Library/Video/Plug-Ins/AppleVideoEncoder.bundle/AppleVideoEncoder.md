@@ -2,9 +2,11 @@
 
 > `/System/Library/Video/Plug-Ins/AppleVideoEncoder.bundle/AppleVideoEncoder`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
 ```diff
-Sections:
-~ __TEXT.__cstring : content changed
 CStrings:
 + "23:45:36"
 + "23:45:38"
@@ -14,5 +16,4 @@ CStrings:
 - "20:21:16"
 - "20:21:18"
 - "Jun 28 2026"
-
 ```

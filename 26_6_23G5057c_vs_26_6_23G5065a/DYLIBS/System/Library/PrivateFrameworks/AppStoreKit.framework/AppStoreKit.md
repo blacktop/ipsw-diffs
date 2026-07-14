@@ -2,6 +2,26 @@
 
 > `/System/Library/PrivateFrameworks/AppStoreKit.framework/AppStoreKit`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__DATA.__objc_stublist`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x835b74
@@ -94,30 +114,12 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 44506
--  Symbols:   18816
--  CStrings:  9855
+-  Symbols:   14075
+-  CStrings:  9126
 +  Functions: 44610
-+  Symbols:   18842
-+  CStrings:  9875
++  Symbols:   14102
++  CStrings:  9144
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__gcc_except_tab : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH_CONST.__objc_arrayobj : content changed
-~ __AUTH.__objc_data : content changed
-~ __DATA.__objc_stublist : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + __DATA__TtC11AppStoreKit29InitialViewportDisplayTracker
 + __IVARS__TtC11AppStoreKit29InitialViewportDisplayTracker
@@ -183,5 +185,4 @@ CStrings:
 + "toolbarTitles"
 - "B058DCA7-48A0-463E-896B-2F117E53DD82"
 - "performAfterLoading - backing.isLoaded == false, queuing work with id "
-
 ```

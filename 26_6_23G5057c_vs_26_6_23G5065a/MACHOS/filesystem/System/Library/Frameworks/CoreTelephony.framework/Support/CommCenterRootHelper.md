@@ -39,7 +39,7 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 98
 -  Symbols:   132
--  CStrings:  110
+-  CStrings:  104
 +  Functions: 70
 +  Symbols:   97
 +  CStrings:  31
@@ -154,5 +154,4 @@ CStrings:
 - "pdp_ip9"
 - "setupV4RouterForOversteer_sync"
 - "setupV6RouterForOversteer_sync"
-
 ```

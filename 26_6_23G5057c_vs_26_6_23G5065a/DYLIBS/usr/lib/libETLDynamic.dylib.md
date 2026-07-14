@@ -2,6 +2,13 @@
 
 > `/usr/lib/libETLDynamic.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__DATA.__data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x46dec
@@ -32,17 +39,12 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
 -  Functions: 725
--  Symbols:   1054
+-  Symbols:   907
 -  CStrings:  640
 +  Functions: 724
-+  Symbols:   1035
++  Symbols:   891
 +  CStrings:  613
  
-Sections:
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 - GCC_except_table10
 - _TelephonyUtilGetSystemTime
@@ -109,5 +111,4 @@ CStrings:
 - "recv"
 - "send"
 - "w"
-
 ```

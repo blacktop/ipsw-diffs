@@ -2,12 +2,13 @@
 
 > `/System/Library/PrivateFrameworks/SiriAudioIntentUtils.framework/SiriAudioIntentUtils`
 
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__data`

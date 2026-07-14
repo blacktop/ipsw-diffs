@@ -2,15 +2,16 @@
 
 > `/System/Library/PrivateFrameworks/CMCaptureCore.framework/CMCaptureCore`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH_CONST.__cfstring`
+- `__DATA.__data`
+
 ```diff
-Sections:
-~ __TEXT.__cstring : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
 CStrings:
 + "description=CameraCapture_CMCore-665.140.7"
 - "description=CameraCapture_CMCore-665.140.5"
-
 ```

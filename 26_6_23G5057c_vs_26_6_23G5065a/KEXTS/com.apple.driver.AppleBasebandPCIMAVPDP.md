@@ -2,6 +2,13 @@
 
 > `com.apple.driver.AppleBasebandPCIMAVPDP`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA.__data`
+- `__DATA_CONST.__mod_init_func`
+- `__DATA_CONST.__mod_term_func`
+- `__DATA_CONST.__kalloc_type`
+
 ```diff
 
    __TEXT.__const: 0x100
@@ -28,11 +35,6 @@
 -  CStrings:  359
 +  CStrings:  52
  
-Sections:
-~ __DATA.__data : content changed
-~ __DATA_CONST.__mod_init_func : content changed
-~ __DATA_CONST.__mod_term_func : content changed
-~ __DATA_CONST.__kalloc_type : content changed
 CStrings:
 + "121111121222121211111112111211112111111111111121121121121111211211111212222"
 + "12111112122212121111211122222221211111222221212"
@@ -351,5 +353,4 @@ CStrings:
 - "usesQmapControlService"
 - "willTerminate"
 - "willTerminate_block_invoke"
-
 ```

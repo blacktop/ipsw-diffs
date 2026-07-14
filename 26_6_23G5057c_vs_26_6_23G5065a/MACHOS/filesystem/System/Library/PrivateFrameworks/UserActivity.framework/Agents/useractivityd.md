@@ -2,9 +2,11 @@
 
 > `/System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
 ```diff
-Sections:
-~ __TEXT.__cstring : content changed
 CStrings:
 + "04:12:43"
 + "04:13:02"
@@ -12,5 +14,4 @@ CStrings:
 - "23:04:47"
 - "23:05:13"
 - "Jun 26 2026"
-
 ```

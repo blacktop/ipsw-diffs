@@ -2,6 +2,22 @@
 
 > `/usr/libexec/logd`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_nlclslist`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+- `__DATA.__os_assumes_log`
+
 ```diff
 
 -  __TEXT.__text: 0x270a4
@@ -56,25 +72,11 @@
    - /usr/lib/libz.1.dylib
 -  Functions: 508
 -  Symbols:   470
--  CStrings:  656
+-  CStrings:  610
 +  Functions: 509
 +  Symbols:   473
-+  CStrings:  664
++  CStrings:  618
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__const : content changed
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_nlclslist : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_intobj : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__data : content changed
-~ __DATA.__os_assumes_log : content changed
 Symbols:
 + _CFBooleanGetValue
 + _OBJC_CLASS_$_SecureConfigParameters
@@ -88,5 +90,4 @@ CStrings:
 + "logFilteringEnforced"
 + "logFilteringEnforced: %d"
 + "security.mac.amfi.restricted_execution_mode_status"
-
 ```

@@ -2,6 +2,7 @@
 
 > `/System/Library/Filesystems/hfs.fs/fsck_hfs`
 
-Sections:
-~ __TEXT.__const : content changed
-~ __DATA.__common : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__DATA.__common`

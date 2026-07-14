@@ -2,6 +2,13 @@
 
 > `/System/Library/Filesystems/apfs.fs/apfs_vol_converter`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x59ad4
@@ -18,14 +25,9 @@
    - /usr/lib/libutil.dylib
    Functions: 884
    Symbols:   187
--  CStrings:  1700
-+  CStrings:  1703
+-  CStrings:  1611
++  CStrings:  1614
  
-Sections:
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
 Functions:
 ~ sub_10003dc90 : 1192 -> 1632
 ~ sub_10004032c -> sub_1000404e4 : 12056 -> 12064
@@ -42,5 +44,4 @@ CStrings:
 - "%s:%d: %s reap list object 0x%llx free index %u larger than max %u\n"
 - "%s:%d: %s reap list object 0x%llx last index %u larger than max %u\n"
 - "2811.160.7"
-
 ```

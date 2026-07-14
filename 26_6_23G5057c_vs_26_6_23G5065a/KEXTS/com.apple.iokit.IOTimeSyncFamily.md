@@ -2,6 +2,18 @@
 
 > `com.apple.iokit.IOTimeSyncFamily`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA.__data`
+- `__DATA_CONST.__auth_got`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__mod_init_func`
+- `__DATA_CONST.__mod_term_func`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__kalloc_type`
+- `__DATA_CONST.__kalloc_var`
+
 ```diff
 
 -  __TEXT.__cstring: 0x3e62
@@ -18,19 +30,9 @@
    __DATA_CONST.__kalloc_var: 0x280
    Functions: 1483
    Symbols:   0
--  CStrings:  721
-+  CStrings:  724
+-  CStrings:  718
++  CStrings:  721
  
-Sections:
-~ __DATA.__data : content changed
-~ __DATA_CONST.__auth_got : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__mod_init_func : content changed
-~ __DATA_CONST.__mod_term_func : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__kalloc_type : content changed
-~ __DATA_CONST.__kalloc_var : content changed
 Functions:
 ~ __ZN20IOTimeSyncUserClient12initWithTaskEP4taskPvjP12OSDictionary : 276 -> 356
 ~ __ZN32IOTimeSyncClockManagerUserClient12initWithTaskEP4taskPvjP12OSDictionary : 1204 -> 1284
@@ -38,5 +40,4 @@ CStrings:
 + "IOTimeSyncClockManagerUserClient::initWithTask: missing entitlement com.apple.private.timesync.direct-userclient\n"
 + "IOTimeSyncUserClient::initWithTask: missing entitlement com.apple.private.timesync.direct-userclient\n"
 + "com.apple.private.timesync.direct-userclient"
-
 ```

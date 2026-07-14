@@ -2,6 +2,16 @@
 
 > `/usr/lib/system/libsystem_containermanager.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__cstring`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__AUTH.__data`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x2da50
@@ -17,18 +27,10 @@
 
    - /usr/lib/system/libxpc.dylib
    Functions: 588
-   Symbols:   1290
--  CStrings:  895
-+  CStrings:  896
+   Symbols:   960
+-  CStrings:  844
++  CStrings:  845
  
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__cstring : content changed
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
 Functions:
 ~ _container_traverse_directory : 4296 -> 4312
 ~ __container_traverse_parse_attr_buf : 3556 -> 3744
@@ -36,5 +38,4 @@ CStrings:
 + "@(#)VERSION:Container Manager: Jul  2 2026 23:50:00; MobileContainerManager_system-725.160.3~18/arm64e"
 + "Malformed attrlist on entry in [%s]; length (%u) exceeds remaining buffer (%zu); buffer = %p, buffer_end = %p"
 - "@(#)VERSION:Container Manager: Jun 26 2026 15:59:50; MobileContainerManager_system-725.160.2~55/arm64e"
-
 ```

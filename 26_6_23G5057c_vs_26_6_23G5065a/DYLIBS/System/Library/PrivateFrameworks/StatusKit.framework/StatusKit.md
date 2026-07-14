@@ -2,6 +2,32 @@
 
 > `/System/Library/PrivateFrameworks/StatusKit.framework/StatusKit`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x20eac
@@ -29,39 +55,14 @@
 
    - /usr/lib/swift/libswiftos.dylib
    Functions: 900
-   Symbols:   3012
--  CStrings:  1437
-+  CStrings:  1433
+   Symbols:   1779
+-  CStrings:  1267
++  CStrings:  1265
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__const : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH_CONST.__objc_dictobj : content changed
-~ __AUTH_CONST.__objc_arrayobj : content changed
-~ __AUTH.__objc_data : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Functions:
 ~ -[SKPresence assertPresenceOnChannel:withPresencePayload:persistentPayload:serverRoutablePayload:assertionOptions:completion:] : 1052 -> 920
 ~ -[SKPresence retainTransientSubscriptionAssertionOnChannel:completion:] : 1076 -> 940
 CStrings:
 - "Attempted to assert on channel that is not equivalent to active channel"
 - "Attempted to retain subscription on channel that is not equivalent to active channel"
-
 ```

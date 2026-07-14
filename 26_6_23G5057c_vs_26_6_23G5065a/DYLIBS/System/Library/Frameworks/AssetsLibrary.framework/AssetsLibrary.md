@@ -2,6 +2,19 @@
 
 > `/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x9e6c
@@ -56,23 +69,12 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
 -  Functions: 295
--  Symbols:   1244
--  CStrings:  597
+-  Symbols:   938
+-  CStrings:  544
 +  Functions: 297
-+  Symbols:   1256
-+  CStrings:  605
++  Symbols:   947
++  CStrings:  549
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + GCC_except_table150
 + GCC_except_table159
@@ -155,5 +157,4 @@ CStrings:
 - "saveImageRef:orientation:imageData:properties:completionBlock:"
 - "saveVideoAtPath:properties:completionBlock:"
 - "v24@?0@\"NSURL\"8@\"NSError\"16"
-
 ```

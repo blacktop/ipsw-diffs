@@ -2,5 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/BluetoothFirmware.framework/BluetoothFirmware`
 
-Sections:
-~ __DATA.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA.__data`

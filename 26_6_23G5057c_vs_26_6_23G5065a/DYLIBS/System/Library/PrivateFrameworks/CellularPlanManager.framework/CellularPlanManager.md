@@ -2,6 +2,20 @@
 
 > `/System/Library/PrivateFrameworks/CellularPlanManager.framework/CellularPlanManager`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x13bb8
@@ -41,24 +55,12 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
 -  Functions: 688
--  Symbols:   2153
--  CStrings:  1192
+-  Symbols:   1318
+-  CStrings:  921
 +  Functions: 676
-+  Symbols:   2116
-+  CStrings:  1186
++  Symbols:   1300
++  CStrings:  915
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + GCC_except_table134
 + GCC_except_table143
@@ -107,5 +109,4 @@ CStrings:
 - "unable to set show Ui ignoring activation flags %@"
 - "v24@?0d8d16"
 - "v24@?0q8q16"
-
 ```

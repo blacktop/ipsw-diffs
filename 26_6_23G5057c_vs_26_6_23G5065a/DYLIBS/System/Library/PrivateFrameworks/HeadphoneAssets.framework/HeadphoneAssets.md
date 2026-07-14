@@ -2,8 +2,9 @@
 
 > `/System/Library/PrivateFrameworks/HeadphoneAssets.framework/HeadphoneAssets`
 
-Sections:
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__data`

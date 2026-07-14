@@ -2,6 +2,28 @@
 
 > `/System/Library/PrivateFrameworks/CryptexServer.framework/CryptexServer`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__cstring`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_builtin`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x50014
@@ -63,32 +85,12 @@
    - /usr/lib/swift/libswift_DarwinFoundation1.dylib
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 896
--  Symbols:   3134
+-  Symbols:   2389
 -  CStrings:  255
 +  Functions: 878
-+  Symbols:   3092
++  Symbols:   2366
 +  CStrings:  254
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__cstring : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_fieldmd : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH.__objc_data : content changed
-~ __AUTH.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 + _$s10CryptexKit19PkgInvQueryResponseV5indexAcA0C5IndexV_tcfC
 + _$s10CryptexKit8PkgIndexV12makeIteratorAC0F0VyF
@@ -379,5 +381,4 @@ CStrings:
 - "@(#)VERSION:Darwin Cryptex Server Framework Version 1.0.0: Sun Jun 28 20:14:04 PDT 2026; root:libcryptex-662.160.13~18/CryptexServer/RELEASE_ARM64E"
 - "Darwin Cryptex Server Framework Version 1.0.0: Sun Jun 28 20:14:04 PDT 2026; root:libcryptex-662.160.13~18/CryptexServer/RELEASE_ARM64E"
 - "Handling list request"
-
 ```

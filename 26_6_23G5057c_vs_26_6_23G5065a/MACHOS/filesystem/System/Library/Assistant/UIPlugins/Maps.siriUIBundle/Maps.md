@@ -2,6 +2,17 @@
 
 > `/System/Library/Assistant/UIPlugins/Maps.siriUIBundle/Maps`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x1163c
@@ -32,20 +43,11 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 1256
 -  Symbols:   1143
--  CStrings:  3248
+-  CStrings:  2304
 +  Functions: 1257
 +  Symbols:   1144
-+  CStrings:  3250
++  CStrings:  2305
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __DATA_CONST.__objc_arrayobj : content changed
-~ __DATA_CONST.__objc_dictobj : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_selrefs : content changed
-~ __DATA.__data : content changed
 Symbols:
 + _MapsConfig_CustomPOIControllerPrefersEnrichedItemOverOthers
 Functions:
@@ -53,5 +55,4 @@ Functions:
 + sub_4ff0
 CStrings:
 + "CustomPOIControllerPrefersEnrichedItemOverOthers"
-
 ```

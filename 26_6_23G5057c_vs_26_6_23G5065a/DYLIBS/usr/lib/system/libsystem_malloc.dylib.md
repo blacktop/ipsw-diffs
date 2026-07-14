@@ -2,12 +2,13 @@
 
 > `/usr/lib/system/libsystem_malloc.dylib`
 
-Sections:
-~ __TEXT.__cstring : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__auth_got : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH.__data : content changed
-~ __AUTH.__v_zone : content changed
-~ __DATA.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__auth_got`
+- `__AUTH_CONST.__const`
+- `__AUTH.__data`
+- `__AUTH.__v_zone`
+- `__DATA.__data`

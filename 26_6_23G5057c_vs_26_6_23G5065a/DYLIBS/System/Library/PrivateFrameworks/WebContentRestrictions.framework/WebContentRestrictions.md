@@ -2,6 +2,29 @@
 
 > `/System/Library/PrivateFrameworks/WebContentRestrictions.framework/WebContentRestrictions`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0xbb10
@@ -51,33 +74,12 @@
    - /usr/lib/swift/libswift_Builtin_float.dylib
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 312
--  Symbols:   1391
--  CStrings:  684
+-  Symbols:   1081
+-  CStrings:  528
 +  Functions: 309
-+  Symbols:   1382
-+  CStrings:  679
++  Symbols:   1075
++  CStrings:  525
  
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__gcc_except_tab : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH_CONST.__objc_arrayobj : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH.__objc_data : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 - -[WCRBrowserEngineClient _requestOpenScreenTimeSettingsForAgeVerificationWithCompletion:]
 - ___89-[WCRBrowserEngineClient _requestOpenScreenTimeSettingsForAgeVerificationWithCompletion:]_block_invoke
@@ -89,5 +91,4 @@ CStrings:
 - "Failed to connect to WCRUI for age verification Settings navigation: %@"
 - "Failed to open Screen Time Settings for age verification: %@"
 - "_requestOpenScreenTimeSettingsForAgeVerificationWithCompletion:"
-
 ```

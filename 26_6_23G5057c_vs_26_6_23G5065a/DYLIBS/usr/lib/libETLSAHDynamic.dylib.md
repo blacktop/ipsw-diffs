@@ -2,6 +2,11 @@
 
 > `/usr/lib/libETLSAHDynamic.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+
 ```diff
 
 -  __TEXT.__text: 0x2500
@@ -27,9 +32,6 @@
 +  Symbols:   54
 +  CStrings:  67
  
-Sections:
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__const : content changed
 Symbols:
 - __ETLDebugPrintBinaryVerbose
 Functions:
@@ -51,5 +53,4 @@ CStrings:
 - "Error: Given Reserved Length cannot be more than %lu bytes\n"
 - "Got Command of type %u, length %u\n"
 - "Sending command of length %u, type %u\n"
-
 ```

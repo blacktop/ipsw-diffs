@@ -2,6 +2,12 @@
 
 > `/usr/lib/libQMIParserDynamic.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x1b6ac
@@ -27,16 +33,12 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libc++.1.dylib
 -  Functions: 536
--  Symbols:   1192
+-  Symbols:   859
 -  CStrings:  393
 +  Functions: 535
-+  Symbols:   1187
++  Symbols:   856
 +  CStrings:  392
  
-Sections:
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 + __ZNSt3__110shared_ptrIN3qmi17SerializedMessageEED2B9nqe210106Ev
 - __ZN3qmi16createRawRequestEhNS_11buffer_viewEm
@@ -49,5 +51,4 @@ Functions:
 - __ZN3qmi16createRawRequestEhNS_11buffer_viewEm
 CStrings:
 - "This API cannot be called for raw messages"
-
 ```

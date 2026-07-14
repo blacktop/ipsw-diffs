@@ -2,6 +2,11 @@
 
 > `/System/Library/NanoTimeKit/FaceBundles/KaleidoscopeFaceBundle.bundle/NTKKaleidoscopeShaders.metallib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__vertex`
+- `__TEXT.__metallib`
+
 ```diff
 
    __TEXT.__reflection: 0x2a30
@@ -11,8 +16,4 @@
    __TEXT.__descriptor: 0x7e0
    __TEXT.__metallib: 0x2b290
    Functions: 0
-Sections:
-~ __TEXT.__vertex : content changed
-~ __TEXT.__metallib : content changed
-
 ```

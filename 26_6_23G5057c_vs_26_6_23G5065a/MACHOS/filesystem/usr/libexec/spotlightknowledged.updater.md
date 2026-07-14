@@ -2,5 +2,6 @@
 
 > `/usr/libexec/spotlightknowledged.updater`
 
-Sections:
-~ __TEXT.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`

@@ -2,6 +2,32 @@
 
 > `/usr/bin/searchdiagnose`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__oslogstring`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__const`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x2ae00
@@ -38,35 +64,10 @@
 +  Symbols:   579
 +  CStrings:  212
  
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_fieldmd : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__oslogstring : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift5_entry : content changed
-~ __TEXT.__unwind_info : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_selrefs : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__data : content changed
 Symbols:
 + _$s10Foundation4DateV11distantPastACvgZ
 + _objc_retain_x24
 CStrings:
 + "Failed to reset timestamp on "
 + "search: Failed to reset timestamp on photo_search.log: "
-
 ```

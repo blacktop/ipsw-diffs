@@ -2,6 +2,19 @@
 
 > `/System/ExclaveKit/System/Library/Frameworks/T8150_IR_ISP_EK_Component.framework/T8150_IR_ISP_EK_Component_asan`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__cstring`
+- `__TEXT.__asan_cstring`
+- `__AUTH_CONST.__objc_const`
+- `__DATA.__llvm_prf_data`
+- `__DATA.__asan_globals`
+- `__DATA.__asan_liveness`
+- `__DATA.__common`
+- `__DATA.__bss`
+- `__LLVM_COV.__llvm_covfun`
+
 ```diff
 
    __DATA.__TIGHTBEAM: 0x10
@@ -19,17 +32,6 @@
    - /System/ExclaveKit/System/Library/Frameworks/Accelerate.framework/Accelerate
    - /System/ExclaveKit/System/Library/Frameworks/EXDataLoader.framework/EXDataLoader
    - /System/ExclaveKit/System/Library/Frameworks/EXSimpleFileIO.framework/EXSimpleFileIO
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__cstring : content changed
-~ __TEXT.__asan_cstring : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __DATA.__llvm_prf_data : content changed
-~ __DATA.__asan_globals : content changed
-~ __DATA.__asan_liveness : content changed
-~ __DATA.__common : content changed
-~ __DATA.__bss : content changed
-~ __LLVM_COV.__llvm_covfun : content changed
 Symbols:
 + .str.40.Build Date: Thu Jul  9 00:11:01 PDT 2026
 + ___covrec_100E53DDB3D22288
@@ -8888,5 +8890,4 @@ CStrings:
 - ".str.17.Commit SHA: 5.602"
 - ".str.27.Base Tag: ExclaveSISP-5.602"
 - ".str.40.Build Date: Fri Jun 26 20:06:18 PDT 2026"
-
 ```

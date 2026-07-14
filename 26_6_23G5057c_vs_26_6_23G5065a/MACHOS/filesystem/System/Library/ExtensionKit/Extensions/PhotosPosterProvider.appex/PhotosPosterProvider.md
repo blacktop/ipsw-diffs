@@ -2,10 +2,13 @@
 
 > `/System/Library/ExtensionKit/Extensions/PhotosPosterProvider.appex/PhotosPosterProvider`
 
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__unwind_info : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__unwind_info`
+
+```text
 Functions:
 ~ sub_100002544 : 20 -> 4
 ~ sub_100002558 -> sub_100002548 : 20 -> 72
@@ -15,3 +18,4 @@ Functions:
 ~ sub_100002604 -> sub_10000270c : 4 -> 20
 ~ sub_100002608 -> sub_100002720 : 188 -> 20
 ~ sub_1000026c4 -> sub_100002734 : 188 -> 76
+```

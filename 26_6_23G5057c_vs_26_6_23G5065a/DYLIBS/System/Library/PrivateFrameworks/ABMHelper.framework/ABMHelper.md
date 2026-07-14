@@ -2,6 +2,18 @@
 
 > `/System/Library/PrivateFrameworks/ABMHelper.framework/ABMHelper`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x15fa30
@@ -58,22 +70,12 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libsysdiagnose.dylib
 -  Functions: 3814
--  Symbols:   10902
--  CStrings:  2473
+-  Symbols:   6099
+-  CStrings:  2399
 +  Functions: 3805
-+  Symbols:   10845
-+  CStrings:  2448
++  Symbols:   6077
++  CStrings:  2378
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH_CONST.__objc_dictobj : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 - _CFUserNotificationCancel
 - _CFUserNotificationDisplayNotice
@@ -119,5 +121,4 @@ CStrings:
 - "Restart the device before continuing to use the baseband trace"
 - "To control notifications please go to:\n\nSettings > Carrier Settings > Baseband Manager > Logging Settings > Radar Notifications"
 - "com.apple.telephony.capabilities"
-
 ```

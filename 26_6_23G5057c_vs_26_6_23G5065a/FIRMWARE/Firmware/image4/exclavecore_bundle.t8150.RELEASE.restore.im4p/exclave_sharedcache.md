@@ -2,6 +2,32 @@
 
 > `Firmware/image4/exclavecore_bundle.t8150.RELEASE.restore.im4p/exclave_sharedcache`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_entry`
+- `__DATA.__TIGHTBEAM_VT`
+- `__DATA.__data`
+- `__DATA.__const`
+- `__DATA.__mod_init_func`
+- `__DATA.__auth_ptr`
+- `__DATA.__shared_cache`
+- `__DATA.__got`
+- `__DATA.__thread_vars`
+- `__DATA.__bss`
+- `__DATA.__common`
+- `__PDATA.__data`
+- `__PDATA.__const`
+- `__PDATA.__shared_cache`
+- `__PDATA.__mod_init_func`
+- `__PDATA.__auth_ptr`
+- `__PDATA.__bss`
+- `__PDATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0x5d5be8
@@ -28,34 +54,9 @@
 -  Functions: 23506
 +  Functions: 23508
    Symbols:   1
--  CStrings:  6796
-+  CStrings:  6797
+-  CStrings:  6792
++  CStrings:  6793
  
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_entry : content changed
-~ __DATA.__TIGHTBEAM_VT : content changed
-~ __DATA.__data : content changed
-~ __DATA.__const : content changed
-~ __DATA.__mod_init_func : content changed
-~ __DATA.__auth_ptr : content changed
-~ __DATA.__shared_cache : content changed
-~ __DATA.__got : content changed
-~ __DATA.__thread_vars : content changed
-~ __DATA.__bss : content changed
-~ __DATA.__common : content changed
-~ __PDATA.__data : content changed
-~ __PDATA.__const : content changed
-~ __PDATA.__shared_cache : content changed
-~ __PDATA.__mod_init_func : content changed
-~ __PDATA.__auth_ptr : content changed
-~ __PDATA.__bss : content changed
-~ __PDATA.__common : content changed
 CStrings:
 + "freed slot was not most recently allocated"
-
 ```

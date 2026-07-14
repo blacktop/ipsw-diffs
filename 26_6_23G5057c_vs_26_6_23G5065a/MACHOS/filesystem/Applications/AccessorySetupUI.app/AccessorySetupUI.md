@@ -2,6 +2,21 @@
 
 > `/Applications/AccessorySetupUI.app/AccessorySetupUI`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0xa07c8
@@ -76,24 +91,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 2485
 -  Symbols:   879
--  CStrings:  1666
+-  CStrings:  1664
 +  Functions: 2527
 +  Symbols:   880
-+  CStrings:  1674
++  CStrings:  1672
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift5_entry : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA.__common : content changed
 Symbols:
 + _OBJC_CLASS_$_UIApplication
 CStrings:
@@ -107,5 +109,4 @@ CStrings:
 + "sharedApplication"
 + "shouldUseManufacturerURLFallback"
 - "fetched asset with adamId: %s, appName: %s"
-
 ```

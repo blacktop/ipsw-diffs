@@ -2,6 +2,26 @@
 
 > `/System/Library/PrivateFrameworks/ShimGameServices.framework/ShimGameServices`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+
 ```diff
 
    __TEXT.__text: 0x3cfa8
@@ -40,28 +60,10 @@
 
    - /usr/lib/swift/libswiftsimd.dylib
    Functions: 1528
-   Symbols:   2037
--  CStrings:  537
-+  CStrings:  543
+   Symbols:   798
+-  CStrings:  533
++  CStrings:  539
  
-Sections:
-~ __TEXT.__cstring : content changed
-~ __TEXT.__const : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH.__objc_data : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
 CStrings:
 + "Vv48@0:8@\"NSString\"16q24@\"NSString\"32@?<v@?@\"NSArray\"q@\"NSError\">40"
 + "Vv48@0:8@16q24@32@?40"
@@ -69,5 +71,4 @@ CStrings:
 + "Vv64@0:8@16q24q32q40@48@?56"
 + "setPlayerNickname:suggestionsCount:gameBundleId:handler:"
 + "setPlayerNickname:suggestionsCount:minSuggestionLength:maxSuggestionLength:gameBundleId:handler:"
-
 ```

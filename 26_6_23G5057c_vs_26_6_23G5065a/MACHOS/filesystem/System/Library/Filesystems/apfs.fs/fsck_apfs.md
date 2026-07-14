@@ -2,6 +2,14 @@
 
 > `/System/Library/Filesystems/apfs.fs/fsck_apfs`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__data`
+- `__DATA.__bss`
+
 ```diff
 
    __TEXT.__text: 0x53e64
@@ -11,12 +19,6 @@
    __TEXT.__const: 0x8710
    __TEXT.__unwind_info: 0xb58
    __DATA_CONST.__auth_got: 0x5e8
-Sections:
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
-~ __DATA.__bss : content changed
 CStrings:
 + "2811.160.7.0.4"
 + "reap list object 0x%llx first index %u larger than max index %u\n"
@@ -26,5 +28,4 @@ CStrings:
 - "reap list object 0x%llx first index %u larger than max %u\n"
 - "reap list object 0x%llx free index %u larger than max %u\n"
 - "reap list object 0x%llx last index %u larger than max %u\n"
-
 ```

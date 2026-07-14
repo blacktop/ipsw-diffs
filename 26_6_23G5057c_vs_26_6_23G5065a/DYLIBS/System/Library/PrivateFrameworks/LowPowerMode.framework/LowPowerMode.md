@@ -2,6 +2,16 @@
 
 > `/System/Library/PrivateFrameworks/LowPowerMode.framework/LowPowerMode`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x5e34
@@ -49,20 +59,12 @@
    - /usr/lib/libSystem.B.dylib
    - /usr/lib/libobjc.A.dylib
 -  Functions: 219
--  Symbols:   856
--  CStrings:  371
+-  Symbols:   520
+-  CStrings:  340
 +  Functions: 222
-+  Symbols:   866
-+  CStrings:  377
++  Symbols:   526
++  CStrings:  345
  
-Sections:
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + -[_PMLowPowerMode isCurrentPowerModeUserInitiated]
 + GCC_except_table12
@@ -76,5 +78,4 @@ CStrings:
 + "isCurrentPowerModeUserInitiated synchronous connection failed: %@\n"
 + "v12@?0B8"
 + "v24@0:8@?<v@?B>16"
-
 ```

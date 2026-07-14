@@ -2,6 +2,19 @@
 
 > `/System/Library/AccessibilityBundles/UIKit.axbundle/UIKit`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x19a2e4
@@ -65,23 +78,12 @@
    - /usr/lib/libicucore.A.dylib
    - /usr/lib/libobjc.A.dylib
 -  Functions: 5916
--  Symbols:   20194
--  CStrings:  12354
+-  Symbols:   13852
+-  CStrings:  7423
 +  Functions: 5924
-+  Symbols:   20227
-+  CStrings:  12367
++  Symbols:   13875
++  CStrings:  7434
  
-Sections:
-~ __TEXT.__cstring : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH_CONST.__objc_dictobj : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + -[_AXBarButtonReferenceIcon .cxx_destruct]
 + -[_AXBarButtonReferenceIcon identifier]
@@ -118,5 +120,4 @@ CStrings:
 + "initWithIdentifier:kitImageName:"
 + "pngRep"
 + "scale"
-
 ```

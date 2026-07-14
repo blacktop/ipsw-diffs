@@ -43,11 +43,11 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
 -  Functions: 1799
--  Symbols:   4193
--  CStrings:  760
+-  Symbols:   2965
+-  CStrings:  758
 +  Functions: 1388
-+  Symbols:   2230
-+  CStrings:  225
++  Symbols:   1796
++  CStrings:  224
  
 Symbols:
 + GCC_except_table261
@@ -1856,5 +1856,4 @@ CStrings:
 - "updaterinternal::requiresMRCTraining"
 - "updaterinternal::shouldAllowUnfused"
 - "updaterinternal::supportsAudioOverPCIe"
-
 ```

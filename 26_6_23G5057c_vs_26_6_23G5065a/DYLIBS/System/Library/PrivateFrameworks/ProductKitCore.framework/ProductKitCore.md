@@ -2,6 +2,29 @@
 
 > `/System/Library/PrivateFrameworks/ProductKitCore.framework/ProductKitCore`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_acfuncs`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0xbab58
@@ -60,35 +83,13 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 3853
 +  Functions: 3863
-   Symbols:   1406
+   Symbols:   1264
 -  CStrings:  793
 +  CStrings:  794
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift5_acfuncs : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH.__objc_data : content changed
 Symbols:
 + _symbolic _____Sg_ABt 14ProductKitCore9ProxSetupO14AppAssociationV
 - _type_layout_string 14ProductKitCore9ProxSetupO14AppAssociationV
 CStrings:
 + "), manufacturerURL: "
-
 ```

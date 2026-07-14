@@ -2,6 +2,17 @@
 
 > `/System/ExclaveKit/System/Library/PrivateFrameworks/T8150_ExclaveISPSharedLib_exclavekit.framework/T8150_ExclaveISPSharedLib_exclavekit_asan`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__asan_cstring`
+- `__TEXT.__cstring`
+- `__DATA.__llvm_prf_data`
+- `__DATA.__asan_globals`
+- `__DATA.__asan_liveness`
+- `__DATA.__bss`
+- `__LLVM_COV.__llvm_covfun`
+
 ```diff
 
    __AUTH.__data: 0xb650
@@ -20,15 +31,6 @@
    - /System/ExclaveKit/System/Library/Frameworks/Foundation.framework/Foundation
    - /System/ExclaveKit/System/Library/PrivateFrameworks/AppleCVA.framework/AppleCVA
    - /System/ExclaveKit/System/Library/PrivateFrameworks/CoreVideo.framework/CoreVideo
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__asan_cstring : content changed
-~ __TEXT.__cstring : content changed
-~ __DATA.__llvm_prf_data : content changed
-~ __DATA.__asan_globals : content changed
-~ __DATA.__asan_liveness : content changed
-~ __DATA.__bss : content changed
-~ __LLVM_COV.__llvm_covfun : content changed
 Symbols:
 + ___covrec_100BBA502406AD47
 + ___covrec_10154D2BEAE9F6A0
@@ -12882,5 +12884,4 @@ Symbols:
 - ___covrec_FFC8449C387C6CD6
 - ___covrec_FFCDC0E7A95666D6
 - ___covrec_FFEA82BD0AE4C097
-
 ```

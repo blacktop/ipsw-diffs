@@ -2,5 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/UserFS.framework/PlugIns/liblivefiles.plugin.dummy.dylib`
 
-Sections:
-~ __AUTH.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__AUTH.__data`

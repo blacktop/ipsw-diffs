@@ -2,6 +2,27 @@
 
 > `/usr/lib/libBKDM2.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__TEXT.__objc_classname`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x7b018
@@ -50,31 +71,12 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libtailspin.dylib
 -  Functions: 2831
--  Symbols:   8581
--  CStrings:  5492
+-  Symbols:   5253
+-  CStrings:  4452
 +  Functions: 2836
-+  Symbols:   8598
-+  CStrings:  5498
++  Symbols:   5265
++  CStrings:  4457
  
-Sections:
-~ __TEXT.__cstring : content changed
-~ __TEXT.__gcc_except_tab : content changed
-~ __TEXT.__unwind_info : content changed
-~ __TEXT.__eh_frame : content changed
-~ __TEXT.__objc_classname : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH_CONST.__objc_dictobj : content changed
-~ __AUTH_CONST.__objc_arrayobj : content changed
-~ __AUTH.__objc_data : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + -[PearlCoreAnalytics deviceThermalState]
 + -[PearlCoreAnalyticsEnrollEvent deviceThermalState]
@@ -96,5 +98,4 @@ CStrings:
 + "setDeviceThermalState:"
 + "thermalState"
 - "\t"
-
 ```

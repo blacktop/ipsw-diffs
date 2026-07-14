@@ -2,5 +2,6 @@
 
 > `Firmware/ave/AppleAVE2FW_H18.im4p`
 
-Sections:
-~ __TEXT.__cstring : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`

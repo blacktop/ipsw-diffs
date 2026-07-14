@@ -2,6 +2,25 @@
 
 > `/System/Library/PrivateFrameworks/SoftwareUpdateUIKit.framework/SoftwareUpdateUIKit`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x201c84
@@ -79,29 +98,12 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 10819
--  Symbols:   3090
--  CStrings:  1528
+-  Symbols:   2290
+-  CStrings:  1477
 +  Functions: 11030
-+  Symbols:   3121
-+  CStrings:  1531
++  Symbols:   2320
++  CStrings:  1480
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH_CONST.__objc_dictobj : content changed
-~ __AUTH.__objc_data : content changed
 Symbols:
 + _associated conformance 19SoftwareUpdateUIKit15LearnMoreButtonV7SwiftUI4ViewAA4BodyAdEP_AdE
 + _associated conformance 19SoftwareUpdateUIKit24TermsAndConditionsFooter33_7088F5EF216202AAB89547D9F671FFE7LLV7SwiftUI4ViewAA4BodyAeFP_AeF
@@ -237,5 +239,4 @@ CStrings:
 - "If you select Update Tonight, ProductFamilyName will try to update when the device is locked and the battery has enough charge.\n\n"
 - "Learn more…"
 - "User Action: Clicked 'Learn More…' in ReleaseNotesSummaryView"
-
 ```

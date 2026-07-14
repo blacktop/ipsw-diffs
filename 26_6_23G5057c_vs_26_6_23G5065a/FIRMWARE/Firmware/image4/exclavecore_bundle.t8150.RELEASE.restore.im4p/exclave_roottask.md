@@ -2,6 +2,25 @@
 
 > `Firmware/image4/exclavecore_bundle.t8150.RELEASE.restore.im4p/exclave_roottask`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__chain_fixups`
+- `__DATA.__data`
+- `__DATA.__mod_init_func`
+- `__DATA.__got`
+- `__DATA.__thread_vars`
+- `__DATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0x4b7f14
@@ -45,26 +64,9 @@
 -  Functions: 17670
 +  Functions: 17685
    Symbols:   27
--  CStrings:  5884
-+  CStrings:  5918
+-  CStrings:  5882
++  CStrings:  5916
  
-Sections:
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__swift5_entry : content changed
-~ __TEXT.__swift5_fieldmd : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__chain_fixups : content changed
-~ __DATA.__data : content changed
-~ __DATA.__mod_init_func : content changed
-~ __DATA.__got : content changed
-~ __DATA.__thread_vars : content changed
-~ __DATA.__common : content changed
 CStrings:
 + "  %s:"
 + "  frame permissions: read%s%s\n"
@@ -112,5 +114,4 @@ CStrings:
 - "Unexpected L4_Error: %s(%zu) err='L4_Cap_Copy( frame_cap_parent, frame_cap_child)'"
 - "Unexpected L4_Error: %s(%zu) err='L4_Cap_Mint_Untyped( L4_BootInfo_GetSlot(entry), frame_cap_parent, (((L4_Word_t) 1) << (2)) | (((L4_Word_t) 1) << (1)), 0, 0, (((L4_TypeBitmap_t) 1) << (L4_Type_Arm64_FrameLevel0)), ((L4_Word_t) (0)) | (((L4_Word_t) 1) << (0)))'"
 - "init(allocateUntypedSize:with:)"
-
 ```

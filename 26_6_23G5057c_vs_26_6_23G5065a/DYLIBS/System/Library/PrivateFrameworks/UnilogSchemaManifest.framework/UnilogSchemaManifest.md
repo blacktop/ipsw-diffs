@@ -2,8 +2,9 @@
 
 > `/System/Library/PrivateFrameworks/UnilogSchemaManifest.framework/UnilogSchemaManifest`
 
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __AUTH_CONST.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__AUTH_CONST.__const`

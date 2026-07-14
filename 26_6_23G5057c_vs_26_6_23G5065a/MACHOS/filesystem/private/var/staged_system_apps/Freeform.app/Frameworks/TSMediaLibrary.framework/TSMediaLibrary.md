@@ -2,12 +2,13 @@
 
 > `/private/var/staged_system_apps/Freeform.app/Frameworks/TSMediaLibrary.framework/TSMediaLibrary`
 
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__cstring : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__data : content changed
-~ __DATA.__bss : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__cstring`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+- `__DATA.__bss`

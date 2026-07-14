@@ -2,6 +2,23 @@
 
 > `/System/Library/Frameworks/BackgroundAssets.framework/BackgroundAssets`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x63e64
@@ -106,27 +123,12 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 1522
--  Symbols:   2260
--  CStrings:  1277
+-  Symbols:   1572
+-  CStrings:  1115
 +  Functions: 1555
-+  Symbols:   2283
-+  CStrings:  1304
++  Symbols:   1593
++  CStrings:  1141
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__gcc_except_tab : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + -[BADownload wasForegroundDownload]
 + GCC_except_table11
@@ -196,5 +198,4 @@ CStrings:
 - "The asset pack with the ID “%{public}s” was scheduled to be updated."
 - "The download with the ID “%{public}s” is essential and is already foreground; awaiting status updates…"
 - "The download with the ID “%{public}s” was promoted to the foreground."
-
 ```

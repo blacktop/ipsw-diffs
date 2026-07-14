@@ -1108,14 +1108,14 @@
  			(storage-class "Mail")
  			(require-any
 
- 	; assign-storage-class "Lockdown"
+ 	(with assign-storage-class "Lockdown")
  	(subpath "/private/var/root/Library/Lockdown")
  )
 +(allow storage-class-map
-+	; assign-storage-class "LogdPreferencesCache"
++	(with assign-storage-class "LogdPreferencesCache")
 +	(subpath "/private/var/db/diagnostics/logd")
 +)
  (allow storage-class-map
- 	; assign-storage-class "Mail"
+ 	(with assign-storage-class "Mail")
  	(subpath "${FRONT_USER_HOME}/Library/Mail")
 ```

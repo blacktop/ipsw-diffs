@@ -2,6 +2,14 @@
 
 > `/System/Library/Frameworks/CoreTelephony.framework/Support/libCommCenterCommandDrivers.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+
 ```diff
 
 -  __TEXT.__text: 0x364bc
@@ -31,17 +39,11 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
    Functions: 1347
--  Symbols:   3559
--  CStrings:  480
-+  Symbols:   3558
-+  CStrings:  464
+-  Symbols:   2571
+-  CStrings:  474
++  Symbols:   2570
++  CStrings:  458
  
-Sections:
-~ __TEXT.__init_offsets : content changed
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
 Symbols:
 + ___TUAssertTrigger
 - __Z8asString16DataCodingScheme
@@ -78,5 +80,4 @@ CStrings:
 - "#D supportCSDownlinkDtmf: EnableSOSVoiceLoopControl is true in operator bundle on %s"
 - "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/CoreTelephony/CommCenter/CommCenterCommandDrivers/Awd/AwdCommandDriver.cpp"
 - "Assertion failure: ( %s ), in file %s, line: %d"
-
 ```

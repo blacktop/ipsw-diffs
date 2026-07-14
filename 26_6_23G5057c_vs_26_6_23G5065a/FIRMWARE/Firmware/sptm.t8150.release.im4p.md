@@ -2,6 +2,11 @@
 
 > `Firmware/sptm.t8150.release.im4p`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__LATE_CONST.__late_const`
+
 ```diff
 
 -  __TEXT.__cstring: 0x12639
@@ -23,9 +28,6 @@
 -  CStrings:  2317
 +  CStrings:  2321
  
-Sections:
-~ __DATA_CONST.__const : content changed
-~ __LATE_CONST.__late_const : content changed
 Functions:
 ~ sub_fffffff0270cf270 : 956 -> 1120
 ~ sub_fffffff0270d6368 -> sub_fffffff0270d640c : 932 -> 1048
@@ -37,5 +39,4 @@ CStrings:
 + "t8110dart_verify_sid_config"
 + "t8110dart_verify_sid_shadow_config"
 - "SPTM-611.160.18|2026-06-26:15:30:10.716031|"
-
 ```

@@ -2,6 +2,17 @@
 
 > `com.apple.driver.AppleSARService`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA.__data`
+- `__DATA_CONST.__auth_got`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__mod_init_func`
+- `__DATA_CONST.__mod_term_func`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__kalloc_type`
+- `__DATA_CONST.__kalloc_var`
+
 ```diff
 
 -  __TEXT.__os_log: 0xfd12
@@ -21,18 +32,9 @@
 -  Functions: 658
 +  Functions: 659
    Symbols:   0
--  CStrings:  1826
-+  CStrings:  1833
+-  CStrings:  1204
++  CStrings:  1208
  
-Sections:
-~ __DATA.__data : content changed
-~ __DATA_CONST.__auth_got : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__mod_init_func : content changed
-~ __DATA_CONST.__mod_term_func : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__kalloc_type : content changed
-~ __DATA_CONST.__kalloc_var : content changed
 Functions:
 + sub_fffffe0009130294
 CStrings:
@@ -40,5 +42,4 @@ CStrings:
 + "%s::%s:%d: cluster count (%u) must be in [1, %u]"
 + "%s::%s:%d: current index (%u) must be < %u"
 + "isValidCentralHSAR"
-
 ```

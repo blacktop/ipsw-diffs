@@ -2,5 +2,6 @@
 
 > `/private/var/staged_system_apps/Shortcuts.app/PlugIns/QuickLookExtension.appex/QuickLookExtension`
 
-Sections:
-~ __TEXT.__constg_swiftt : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__constg_swiftt`

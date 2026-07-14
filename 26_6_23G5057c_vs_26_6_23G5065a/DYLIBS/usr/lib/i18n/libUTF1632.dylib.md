@@ -2,5 +2,6 @@
 
 > `/usr/lib/i18n/libUTF1632.dylib`
 
-Sections:
-~ __AUTH.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__AUTH.__data`

@@ -2,5 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/DefaultAppsSettings.framework/DefaultAppsSettings`
 
-Sections:
-~ __TEXT.__constg_swiftt : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__constg_swiftt`

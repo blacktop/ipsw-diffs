@@ -2,8 +2,9 @@
 
 > `/usr/lib/libc++abi.dylib`
 
-Sections:
-~ __TEXT.__cstring : content changed
-~ __TEXT.__unwind_info : content changed
-~ __TEXT.__eh_frame : content changed
-~ __AUTH_CONST.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__AUTH_CONST.__const`

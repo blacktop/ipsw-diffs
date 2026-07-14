@@ -2,6 +2,7 @@
 
 > `/usr/lib/swift/libswiftAssetsLibrary.dylib`
 
-Sections:
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __AUTH_CONST.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH_CONST.__const`

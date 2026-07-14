@@ -2,6 +2,26 @@
 
 > `/System/Library/PrivateFrameworks/iCloudWebData.framework/iCloudWebData`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x21344
@@ -44,29 +64,11 @@
    - /usr/lib/swift/libswift_Concurrency.dylib
    - /usr/lib/swift/libswiftos.dylib
    Functions: 639
--  Symbols:   284
+-  Symbols:   269
 -  CStrings:  77
-+  Symbols:   286
++  Symbols:   271
 +  CStrings:  79
  
-Sections:
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__unwind_info : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH.__objc_data : content changed
-~ __AUTH.__data : content changed
 Symbols:
 + _objc_msgSend$removeItemAtURL:error:
 + _objc_retain_x20
@@ -81,5 +83,4 @@ Functions:
 CStrings:
 + "ModelContainer init failed, purging store and retrying: %@"
 + "removeItemAtURL:error:"
-
 ```

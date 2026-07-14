@@ -2,6 +2,15 @@
 
 > `/usr/lib/updaters/libVinylUpdater.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x43240
@@ -31,19 +40,12 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
 -  Functions: 1253
--  Symbols:   3968
--  CStrings:  1402
+-  Symbols:   2092
+-  CStrings:  1285
 +  Functions: 1249
-+  Symbols:   3951
-+  CStrings:  1324
++  Symbols:   2076
++  CStrings:  1207
  
-Sections:
-~ __TEXT.__init_offsets : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
 Symbols:
 - GCC_except_table65
 - GCC_except_table66
@@ -144,5 +146,4 @@ CStrings:
 - "stopRouterServer"
 - "supportsVinylUpdate"
 - "waitForeSIMBoot"
-
 ```

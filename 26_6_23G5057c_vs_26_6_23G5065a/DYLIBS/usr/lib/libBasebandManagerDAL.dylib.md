@@ -2,6 +2,16 @@
 
 > `/usr/lib/libBasebandManagerDAL.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x1a2538
@@ -60,20 +70,12 @@
    - /usr/lib/libprotobuf-lite.dylib
    - /usr/lib/libprotobuf.dylib
 -  Functions: 4693
--  Symbols:   14327
--  CStrings:  2150
+-  Symbols:   8266
+-  CStrings:  2102
 +  Functions: 4683
-+  Symbols:   14252
-+  CStrings:  2124
++  Symbols:   8235
++  CStrings:  2078
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH.__objc_data : content changed
 Symbols:
 + GCC_except_table179
 + GCC_except_table213
@@ -167,5 +169,4 @@ CStrings:
 - "Unexpected behavior may occur. Please upgrade to a newer firmware."
 - "Unsupported ABM profile, check your plist!"
 - "com.apple.telephony.capabilities"
-
 ```

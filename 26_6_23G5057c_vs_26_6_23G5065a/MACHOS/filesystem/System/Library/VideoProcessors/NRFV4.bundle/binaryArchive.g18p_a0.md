@@ -2,6 +2,12 @@
 
 > `/System/Library/VideoProcessors/NRFV4.bundle/binaryArchive.g18p_a0`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__metallib`
+- `__TEXT.__fragment`
+- `__TEXT.__compute`
+
 ```diff
 
    __TEXT.__descriptor: 0x11aa0
@@ -12,9 +18,4 @@
    __TEXT.__reflection: 0x141230
    Functions: 0
    Symbols:   0
-Sections:
-~ __TEXT.__metallib : content changed
-~ __TEXT.__fragment : content changed
-~ __TEXT.__compute : content changed
-
 ```

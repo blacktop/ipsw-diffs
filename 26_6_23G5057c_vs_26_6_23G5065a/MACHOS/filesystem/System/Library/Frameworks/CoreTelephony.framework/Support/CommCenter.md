@@ -2,6 +2,33 @@
 
 > `/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA_CONST.__linkguard`
+- `__DATA.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x183ba70
@@ -74,36 +101,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 115011
 -  Symbols:   8613
--  CStrings:  58178
+-  CStrings:  52914
 +  Functions: 113824
 +  Symbols:   8585
-+  CStrings:  55589
++  CStrings:  50414
  
-Sections:
-~ __TEXT.__init_offsets : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_fieldmd : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_intobj : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __DATA_CONST.__objc_arrayobj : content changed
-~ __DATA_CONST.__objc_dictobj : content changed
-~ __DATA_CONST.__linkguard : content changed
-~ __DATA.__objc_data : content changed
 Symbols:
 + ___TUAssertTrigger
 - _CTCarrierSpaceDataUnitsAsString
@@ -2652,5 +2654,4 @@ CStrings:
 - "v40@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTSMSDataType\"24@?<v@?^@>32"
 - "v48@0:8@16@24@32r^v40"
 - "waitForAck"
-
 ```

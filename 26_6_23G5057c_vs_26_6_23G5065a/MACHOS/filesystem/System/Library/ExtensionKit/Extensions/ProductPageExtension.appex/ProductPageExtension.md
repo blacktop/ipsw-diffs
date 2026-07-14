@@ -2,6 +2,24 @@
 
 > `/System/Library/ExtensionKit/Extensions/ProductPageExtension.appex/ProductPageExtension`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA.__objc_stublist`
+- `__DATA.__bss`
+
 ```diff
 
 -  __TEXT.__text: 0x7337a4
@@ -82,29 +100,12 @@
 -  Functions: 25929
 +  Functions: 26053
    Symbols:   841
--  CStrings:  6793
-+  CStrings:  6797
+-  CStrings:  6784
++  CStrings:  6788
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA.__objc_stublist : content changed
-~ __DATA.__bss : content changed
 CStrings:
 + "$__lazy_storage_$_initialViewportDisplayTracker"
 + "isDecelerating"
 + "lastSelectedTabIdentifier"
 + "pendingPrepareObservers"
-
 ```

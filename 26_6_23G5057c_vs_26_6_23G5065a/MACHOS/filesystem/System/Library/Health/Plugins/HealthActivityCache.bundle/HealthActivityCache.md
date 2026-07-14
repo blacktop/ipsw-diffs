@@ -2,6 +2,20 @@
 
 > `/System/Library/Health/Plugins/HealthActivityCache.bundle/HealthActivityCache`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x224c0
@@ -40,25 +54,12 @@
 -  Functions: 589
 +  Functions: 590
    Symbols:   332
--  CStrings:  1025
-+  CStrings:  1026
+-  CStrings:  970
++  CStrings:  971
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_intobj : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__data : content changed
 Functions:
 ~ sub_131e4 : 1764 -> 1832
 + sub_1390c
 CStrings:
 + "_isZero"
-
 ```

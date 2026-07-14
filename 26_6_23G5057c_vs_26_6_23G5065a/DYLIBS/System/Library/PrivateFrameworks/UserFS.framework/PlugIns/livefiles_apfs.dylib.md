@@ -2,6 +2,15 @@
 
 > `/System/Library/PrivateFrameworks/UserFS.framework/PlugIns/livefiles_apfs.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH.__data`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0xb4c4c
@@ -16,21 +25,12 @@
    __DATA_CONST.__got: 0x40
    __DATA_CONST.__const: 0x3c8
 
-   - /usr/lib/libSystem.B.dylib
    - /usr/lib/libutil.dylib
    Functions: 2541
--  Symbols:   5804
--  CStrings:  2216
-+  Symbols:   5806
-+  CStrings:  2219
+   Symbols:   1499
+-  CStrings:  2207
++  CStrings:  2210
  
-Sections:
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
 Functions:
 ~ _nx_check : 23756 -> 23764
 ~ _omap_get : 632 -> 636
@@ -49,5 +49,4 @@ CStrings:
 - "%s:%d: %s reap list object 0x%llx free index %u larger than max %u\n"
 - "%s:%d: %s reap list object 0x%llx last index %u larger than max %u\n"
 - "2811.160.7"
-
 ```

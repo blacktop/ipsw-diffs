@@ -2,6 +2,15 @@
 
 > `/System/ExclaveKit/System/Library/PrivateFrameworks/T8150_CoreAAClientKit.framework/T8150_CoreAAClientKit_asan`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__asan_cstring`
+- `__TEXT.__cstring`
+- `__DATA.__llvm_prf_data`
+- `__LLVM_COV.__llvm_covfun`
+- `__LLVM_COV.__llvm_covmap`
+
 ```diff
 
    __DATA.__data: 0x978
@@ -12,13 +21,6 @@
    __DATA.__asan_globals: 0x5500
    __DATA.__asan_liveness: 0x1540
    __DATA.__bss: 0x1a0
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__asan_cstring : content changed
-~ __TEXT.__cstring : content changed
-~ __DATA.__llvm_prf_data : content changed
-~ __LLVM_COV.__llvm_covfun : content changed
-~ __LLVM_COV.__llvm_covmap : content changed
 Symbols:
 + ___covrec_11852A1B623B735F
 + ___covrec_1A985457177601F5
@@ -222,5 +224,4 @@ Symbols:
 - ___covrec_FB88505C4E202599
 - ___covrec_FD4EB874333A6214
 - ___covrec_FDEAEB0A84A3C4EE
-
 ```

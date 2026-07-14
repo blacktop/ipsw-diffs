@@ -2,5 +2,6 @@
 
 > `com.apple.AGXFirmwareKextRTBuddy64`
 
-Sections:
-~ __DATA.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA.__data`

@@ -2,6 +2,7 @@
 
 > `/usr/lib/i18n/libISO2022.dylib`
 
-Sections:
-~ __DATA_CONST.__const : content changed
-~ __AUTH.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__AUTH.__data`

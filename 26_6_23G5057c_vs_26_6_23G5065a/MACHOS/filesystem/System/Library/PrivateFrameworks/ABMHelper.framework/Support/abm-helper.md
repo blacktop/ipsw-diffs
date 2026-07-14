@@ -2,6 +2,11 @@
 
 > `/System/Library/PrivateFrameworks/ABMHelper.framework/Support/abm-helper`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+
 ```diff
 
 -  __TEXT.__text: 0xa08
@@ -40,9 +45,6 @@
 +  Symbols:   146
    CStrings:  12
  
-Sections:
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
 Symbols:
 - _CFBooleanGetTypeID
 - _CFGetTypeID
@@ -61,5 +63,4 @@ Symbols:
 - _kCFPreferencesCurrentUser
 - _pthread_mutex_lock
 - _pthread_mutex_unlock
-
 ```

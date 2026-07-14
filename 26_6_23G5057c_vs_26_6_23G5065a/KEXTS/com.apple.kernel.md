@@ -2,6 +2,24 @@
 
 > `com.apple.kernel`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__copyio_vectors`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__kalloc_type`
+- `__DATA_CONST.__kalloc_var`
+- `__DATA_CONST.__exclaves_bt`
+- `__DATA_CONST.__kern_brk_desc`
+- `__DATA_CONST.__mod_init_func`
+- `__DATA_CONST.__auth_ptr`
+- `__LASTDATA_CONST.__mod_init_func`
+- `__KLDDATA.__const`
+- `__KLDDATA.__mod_init_func`
+- `__KLDDATA.__mod_term_func`
+- `__DATA.__data`
+- `__BOOTDATA.__init`
+- `__BOOTDATA.__static_ifinit`
+
 ```diff
 
 -  __TEXT.__const: 0x36400
@@ -46,25 +64,9 @@
 -  Functions: 21345
 +  Functions: 21350
    Symbols:   0
--  CStrings:  20768
-+  CStrings:  20773
+-  CStrings:  20621
++  CStrings:  20626
  
-Sections:
-~ __TEXT.__copyio_vectors : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__kalloc_type : content changed
-~ __DATA_CONST.__kalloc_var : content changed
-~ __DATA_CONST.__exclaves_bt : content changed
-~ __DATA_CONST.__kern_brk_desc : content changed
-~ __DATA_CONST.__mod_init_func : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __LASTDATA_CONST.__mod_init_func : content changed
-~ __KLDDATA.__const : content changed
-~ __KLDDATA.__mod_init_func : content changed
-~ __KLDDATA.__mod_term_func : content changed
-~ __DATA.__data : content changed
-~ __BOOTDATA.__init : content changed
-~ __BOOTDATA.__static_ifinit : content changed
 CStrings:
 + "(%u): HMAC verification failed: %d\n"
 + "(paddr & PAGE_MASK) == 0"
@@ -73,5 +75,4 @@ CStrings:
 + "necp_client.c"
 + "necp_flow_registration_count underflow @%s:%d"
 - "(%u): HMAC verfication failed: %d\n"
-
 ```

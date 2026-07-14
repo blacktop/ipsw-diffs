@@ -2,6 +2,7 @@
 
 > `/System/Library/PrivateFrameworks/MomentsData.framework/MomentsData`
 
-Sections:
-~ __AUTH_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__AUTH_CONST.__cfstring`
+- `__DATA.__data`

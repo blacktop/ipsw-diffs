@@ -2,6 +2,17 @@
 
 > `com.apple.AGXG18P`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA.__data`
+- `__DATA_CONST.__auth_got`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__mod_init_func`
+- `__DATA_CONST.__mod_term_func`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__kalloc_type`
+- `__DATA_CONST.__kalloc_var`
+
 ```diff
 
    __TEXT.__const: 0x42f4
@@ -20,15 +31,6 @@
 -  CStrings:  2096
 +  CStrings:  2099
  
-Sections:
-~ __DATA.__data : content changed
-~ __DATA_CONST.__auth_got : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__mod_init_func : content changed
-~ __DATA_CONST.__mod_term_func : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__kalloc_type : content changed
-~ __DATA_CONST.__kalloc_var : content changed
 Functions:
 ~ sub_fffffe00083216e4 -> sub_fffffe000830d6e4 : 404 -> 452
 ~ sub_fffffe0008321878 -> sub_fffffe000830d8a8 : 224 -> 272
@@ -40,5 +42,4 @@ CStrings:
 + "void AGXCommandBuffer::mergeSubmitEventForStage(uint32_t, const sIOGPUEvent *, const sIOGPUEvent *, uint64_t)"
 + "void AGXCommandBuffer::updateBarrierEvent(uint32_t, sIOGPUEvent *, sIOGPUEvent *, uint64_t)"
 - "Jun 28 2026 20:09:35"
-
 ```

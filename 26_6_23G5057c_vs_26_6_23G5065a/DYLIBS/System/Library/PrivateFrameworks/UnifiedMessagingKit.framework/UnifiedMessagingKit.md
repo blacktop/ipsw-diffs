@@ -2,6 +2,15 @@
 
 > `/System/Library/PrivateFrameworks/UnifiedMessagingKit.framework/UnifiedMessagingKit`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__DATA_CONST.__const`
+- `__DATA.__objc_stublist`
+
 ```diff
 
 -  __TEXT.__text: 0x326bd0
@@ -90,19 +99,12 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 24120
--  Symbols:   21448
--  CStrings:  2378
+-  Symbols:   7681
+-  CStrings:  2352
 +  Functions: 24318
-+  Symbols:   21629
-+  CStrings:  2439
++  Symbols:   7755
++  CStrings:  2413
  
-Sections:
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA.__objc_stublist : content changed
 Symbols:
 + _CTFontCopyFontDescriptor
 + _CTFontCreateWithFontDescriptor
@@ -598,5 +600,4 @@ CStrings:
 + "v56@0:8@\"NSXMLParser\"16@\"NSString\"24@\"NSString\"32@\"NSString\"40@\"NSDictionary\"48"
 + "v56@0:8@\"NSXMLParser\"16@\"NSString\"24@\"NSString\"32@\"NSString\"40@\"NSString\"48"
 + "v56@0:8@16@24@32@40@48"
-
 ```

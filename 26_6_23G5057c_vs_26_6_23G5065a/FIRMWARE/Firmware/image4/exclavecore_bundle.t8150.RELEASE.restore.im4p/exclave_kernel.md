@@ -2,6 +2,10 @@
 
 > `Firmware/image4/exclavecore_bundle.t8150.RELEASE.restore.im4p/exclave_kernel`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__head`
+
 ```diff
 
    __TEXT.__head: 0x1b0
@@ -12,10 +16,7 @@
    __DATA.__data: 0x130
    __DATA.__bss: 0x19b00
    __DATA.__common: 0x50
-Sections:
-~ __TEXT.__head : content changed
 CStrings:
 + "cL4 microkernel (cL4 (679.162.2))"
 - "cL4 microkernel (cL4 (679.100.61))"
-
 ```

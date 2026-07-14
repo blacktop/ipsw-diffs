@@ -2,5 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/CoreUtilsExtras.framework/CoreUtilsExtras`
 
-Sections:
-~ __DATA_CONST.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`

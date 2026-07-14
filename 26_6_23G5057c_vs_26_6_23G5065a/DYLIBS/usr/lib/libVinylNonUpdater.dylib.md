@@ -2,6 +2,15 @@
 
 > `/usr/lib/libVinylNonUpdater.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x52298
@@ -30,19 +39,12 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
 -  Functions: 1627
--  Symbols:   5376
--  CStrings:  1429
+-  Symbols:   3031
+-  CStrings:  1341
 +  Functions: 1622
-+  Symbols:   5360
-+  CStrings:  1308
++  Symbols:   3021
++  CStrings:  1220
  
-Sections:
-~ __TEXT.__init_offsets : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
 Symbols:
 + GCC_except_table63
 + GCC_except_table64
@@ -182,5 +184,4 @@ CStrings:
 - "supportsVinylUpdate"
 - "verifyPairing"
 - "waitForeSIMBoot"
-
 ```

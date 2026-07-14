@@ -2,5 +2,6 @@
 
 > `/System/Library/Frameworks/CoreSpotlight.framework/Support/com.apple.spotlight.IndexAgent`
 
-Sections:
-~ __TEXT.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`

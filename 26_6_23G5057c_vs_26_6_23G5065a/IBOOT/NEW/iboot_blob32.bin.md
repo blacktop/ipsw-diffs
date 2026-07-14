@@ -1,10 +1,10 @@
 ## iboot_blob32.bin
 
-- `fPathChange %d`
-- `BattAbvTh inhbtCurBeforeClosingFET`
+- `charger: Failed to set Vmax_NCC to:%umV rc:%d`
 - `smc/ace.cpp`
+- `fPathChange %d`
 - `ProfSel : TXinfo : %d, prof: %d, fp: %d l`
 - `pmu_workloop`
-- `charger: Failed to set Vmax_NCC to:%umV rc:%d`
 - `A%d SSPS%d`
+- `BattAbvTh inhbtCurBeforeClosingFET`
 - `UpdSS A%d SSPS %d`

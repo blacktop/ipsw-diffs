@@ -2,6 +2,11 @@
 
 > `/System/Library/PrivateFrameworks/RenderBox.framework/archive.metallib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__metallib`
+- `__TEXT.__fragment`
+
 ```diff
 
    __TEXT.__descriptor: 0x1140
@@ -12,8 +17,4 @@
    __TEXT.__reflection: 0x12240
    Functions: 0
    Symbols:   0
-Sections:
-~ __TEXT.__metallib : content changed
-~ __TEXT.__fragment : content changed
-
 ```

@@ -2,6 +2,7 @@
 
 > `/System/Library/Frameworks/MetalPerformanceShaders.framework/MetalPerformanceShaders`
 
-Sections:
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__auth_got : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__auth_got`

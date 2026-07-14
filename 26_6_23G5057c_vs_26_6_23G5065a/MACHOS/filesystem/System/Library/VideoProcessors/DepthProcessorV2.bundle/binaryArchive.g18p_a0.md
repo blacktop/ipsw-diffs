@@ -2,6 +2,10 @@
 
 > `/System/Library/VideoProcessors/DepthProcessorV2.bundle/binaryArchive.g18p_a0`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__metallib`
+
 ```diff
 
    __TEXT.__metallib: 0x2420
@@ -11,7 +15,4 @@
    __TEXT.__reflection: 0xb0d0
    Functions: 0
    Symbols:   0
-Sections:
-~ __TEXT.__metallib : content changed
-
 ```

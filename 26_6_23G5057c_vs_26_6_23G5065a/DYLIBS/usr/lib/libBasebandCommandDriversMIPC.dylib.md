@@ -2,6 +2,13 @@
 
 > `/usr/lib/libBasebandCommandDriversMIPC.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+
 ```diff
 
 -  __TEXT.__text: 0x74820
@@ -38,17 +45,12 @@
    - /usr/lib/libTelephonyUtilDynamic.dylib
    - /usr/lib/libc++.1.dylib
 -  Functions: 1498
--  Symbols:   4912
--  CStrings:  562
+-  Symbols:   3237
+-  CStrings:  559
 +  Functions: 1495
-+  Symbols:   4898
-+  CStrings:  561
++  Symbols:   3230
++  CStrings:  558
  
-Sections:
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
 Symbols:
 - _TelephonyBasebandWatchdogStartWithStackshot
 - _TelephonyBasebandWatchdogStop
@@ -61,5 +63,4 @@ CStrings:
 + "AppleBasebandManager-AppleBasebandServices_Manager-1420"
 - "AppleBasebandManager-AppleBasebandServices_Manager-1419"
 - "Watchdog timed out"
-
 ```

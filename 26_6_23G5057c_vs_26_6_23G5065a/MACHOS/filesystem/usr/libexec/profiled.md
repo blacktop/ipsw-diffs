@@ -2,6 +2,27 @@
 
 > `/usr/libexec/profiled`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0xd20bc
@@ -60,28 +81,9 @@
 -  Functions: 2698
 +  Functions: 2699
    Symbols:   1769
--  CStrings:  6839
-+  CStrings:  6844
+-  CStrings:  5737
++  CStrings:  5741
  
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __DATA_CONST.__objc_arrayobj : content changed
-~ __DATA_CONST.__objc_dictobj : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__data : content changed
 Symbols:
 + _MCFixPermissionsOfManagedConfigurationDirectoryAndContentsFM
 - _MCFixPermissionsOfSystemGroupContainerDirectoryAndContentsFM
@@ -92,5 +94,4 @@ CStrings:
 + "_fixPermissionsOnTheUserProfileStorageDirectoryAndContents"
 + "com.apple.screentime.regulatory"
 - "Failed to fix permissions of device profile library with errors %{public}@"
-
 ```

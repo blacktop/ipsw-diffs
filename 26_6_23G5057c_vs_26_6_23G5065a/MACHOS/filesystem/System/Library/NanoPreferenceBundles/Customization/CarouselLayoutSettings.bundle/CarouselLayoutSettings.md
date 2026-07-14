@@ -2,6 +2,16 @@
 
 > `/System/Library/NanoPreferenceBundles/Customization/CarouselLayoutSettings.bundle/CarouselLayoutSettings`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x238b0
@@ -36,17 +46,9 @@
 -  Functions: 718
 +  Functions: 704
    Symbols:   328
--  CStrings:  1383
-+  CStrings:  1351
+-  CStrings:  1268
++  CStrings:  1237
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__const : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_intobj : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_selrefs : content changed
-~ __DATA.__data : content changed
 CStrings:
 - "(final)"
 - "WILL move %@ -> %s %@"
@@ -79,5 +81,4 @@ CStrings:
 - "intermediate"
 - "removed %@"
 - "reverted %@ -> %s"
-
 ```

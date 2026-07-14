@@ -2,6 +2,27 @@
 
 > `/usr/libexec/gamed`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA.__bss`
+
 ```diff
 
 -  __TEXT.__text: 0x2d382c
@@ -87,30 +108,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 13225
 -  Symbols:   2695
--  CStrings:  12565
+-  CStrings:  10685
 +  Functions: 13429
 +  Symbols:   2696
-+  CStrings:  12616
++  CStrings:  10750
  
-Sections:
-~ __TEXT.__gcc_except_tab : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_intobj : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __DATA_CONST.__objc_dictobj : content changed
-~ __DATA_CONST.__objc_arrayobj : content changed
-~ __DATA.__bss : content changed
 Symbols:
 + _$sSD10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo12NSDictionaryC_SDyxq_GSgztFZ
 CStrings:
@@ -207,5 +209,4 @@ CStrings:
 - "GKLastWelcomeWhatsNewCopyVersionDisplayedForHashedPlayerID_%@"
 - "Unable to retrieve AMP bag for Quick Actions feature flag, defaulting to enabled"
 - "setLastNoticeVersionForSignedInPlayerWithName:lastVersion:"
-
 ```

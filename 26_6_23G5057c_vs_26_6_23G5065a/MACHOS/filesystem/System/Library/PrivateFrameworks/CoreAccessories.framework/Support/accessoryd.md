@@ -2,9 +2,11 @@
 
 > `/System/Library/PrivateFrameworks/CoreAccessories.framework/Support/accessoryd`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
 ```diff
-Sections:
-~ __TEXT.__cstring : content changed
 Symbols:
 + /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/lib/libcorecrypto_static.a(ccm-decrypt-730a62feef8c9af1b9361c4176beb958.o)
 + /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/lib/libcorecrypto_static.a(ccm-encrypt-83902e5d7ff25c4a00ecd75f17c641ec.o)
@@ -34,5 +36,4 @@ Symbols:
 - /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/lib/libcorecrypto_static.a(ccn_sub-2002f209e1821bfc88d946d3c31eafa2.o)
 - /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/lib/libcorecrypto_static.a(ccn_sub-f3dad8eed396d24a8457a8d3a2ec860f.o)
 - /AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.6.Internal.sdk/usr/local/lib/libcorecrypto_static.a(ccn_sub1-f11833f25ae322e0bc3397002ef8d654.o)
-
 ```

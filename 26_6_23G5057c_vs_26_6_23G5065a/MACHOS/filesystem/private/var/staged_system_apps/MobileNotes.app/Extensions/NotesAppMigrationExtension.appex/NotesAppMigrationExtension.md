@@ -2,6 +2,23 @@
 
 > `/private/var/staged_system_apps/MobileNotes.app/Extensions/NotesAppMigrationExtension.appex/NotesAppMigrationExtension`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift_as_entry`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA.__bss`
+- `__DATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0x89cf4
@@ -69,24 +86,9 @@
 -  Functions: 2175
 +  Functions: 2187
    Symbols:   259
--  CStrings:  629
-+  CStrings:  631
+-  CStrings:  618
++  CStrings:  620
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift5_entry : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA.__bss : content changed
-~ __DATA.__common : content changed
 CStrings:
 + "appMigrationImportedNoteCount"
 + "error importing archive in extension: %@"
@@ -102,5 +104,4 @@ CStrings:
 - "fileExistsAtPath:"
 - "group container: %s"
 - "removing existing import file"
-
 ```

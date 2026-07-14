@@ -2,6 +2,13 @@
 
 > `/System/Library/Filesystems/apfs.fs/apfs_checkseal`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x4ece8
@@ -17,14 +24,9 @@
    - /usr/lib/libutil.dylib
    Functions: 729
    Symbols:   133
--  CStrings:  1296
-+  CStrings:  1299
+-  CStrings:  1285
++  CStrings:  1288
  
-Sections:
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
 Functions:
 ~ sub_10002a058 : 1192 -> 1632
 ~ sub_10002c6f4 -> sub_10002c8ac : 12056 -> 12064
@@ -39,5 +41,4 @@ CStrings:
 - "%s:%d: %s reap list object 0x%llx first index %u larger than max %u\n"
 - "%s:%d: %s reap list object 0x%llx free index %u larger than max %u\n"
 - "%s:%d: %s reap list object 0x%llx last index %u larger than max %u\n"
-
 ```

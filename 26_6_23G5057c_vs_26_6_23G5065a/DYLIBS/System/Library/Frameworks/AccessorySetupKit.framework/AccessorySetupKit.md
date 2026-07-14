@@ -2,6 +2,18 @@
 
 > `/System/Library/Frameworks/AccessorySetupKit.framework/AccessorySetupKit`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_proto`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_intobj`
+
 ```diff
 
 -  __TEXT.__text: 0x231ec
@@ -96,22 +108,12 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 821
--  Symbols:   2743
--  CStrings:  1853
+-  Symbols:   1957
+-  CStrings:  1674
 +  Functions: 858
-+  Symbols:   2789
-+  CStrings:  1887
++  Symbols:   1997
++  CStrings:  1702
  
-Sections:
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__objc_arrayobj : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
 Symbols:
 + +[ASAccessoryInfoViewController companionSpecifiersFromList:insertIndex:]
 + -[ASAccessoryCompanionAppInfo distributorBundleID]
@@ -244,5 +246,4 @@ CStrings:
 - "initWithBundleID:name:publisherName:adamID:icon:appIsInstalled:"
 - "loadingCompletionHandler"
 - "setLoadingCompletionHandler:"
-
 ```

@@ -2,6 +2,22 @@
 
 > `/System/Library/Frameworks/CoreTelephony.framework/Support/libCommCenterBase.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0xc257c
@@ -42,25 +58,11 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libobjc.A.dylib
    Functions: 5528
--  Symbols:   12522
--  CStrings:  4721
-+  Symbols:   12517
-+  CStrings:  4688
+-  Symbols:   9161
+-  CStrings:  4380
++  Symbols:   9158
++  CStrings:  4347
  
-Sections:
-~ __TEXT.__init_offsets : content changed
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__const : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 + ___TUAssertTrigger
 - _TelephonyUtilIsOversteerEnabled
@@ -129,5 +131,4 @@ CStrings:
 - "feth8"
 - "feth9"
 - "not active"
-
 ```

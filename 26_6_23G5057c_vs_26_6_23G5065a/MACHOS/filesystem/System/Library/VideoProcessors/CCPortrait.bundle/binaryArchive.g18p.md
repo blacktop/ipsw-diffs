@@ -2,6 +2,7 @@
 
 > `/System/Library/VideoProcessors/CCPortrait.bundle/binaryArchive.g18p`
 
-Sections:
-~ __TEXT.__metallib : content changed
-~ __TEXT.__compute : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__metallib`
+- `__TEXT.__compute`

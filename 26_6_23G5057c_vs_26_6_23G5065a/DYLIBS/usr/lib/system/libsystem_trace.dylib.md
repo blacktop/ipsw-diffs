@@ -2,6 +2,26 @@
 
 > `/usr/lib/system/libsystem_trace.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_nlclslist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x1abb4
@@ -31,30 +51,12 @@
    - /usr/lib/system/libunwind.dylib
    - /usr/lib/system/libxpc.dylib
 -  Functions: 368
--  Symbols:   1085
--  CStrings:  487
+-  Symbols:   877
+-  CStrings:  486
 +  Functions: 369
-+  Symbols:   1087
-+  CStrings:  488
++  Symbols:   879
++  CStrings:  487
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__const : content changed
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_nlclslist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH.__objc_data : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 + __os_trace_preferences_cache_path
 + __os_trace_prefscachedir_path
@@ -63,5 +65,4 @@ Functions:
 + __os_trace_prefscachedir_path
 CStrings:
 + "/private/var/db/diagnostics/logd"
-
 ```

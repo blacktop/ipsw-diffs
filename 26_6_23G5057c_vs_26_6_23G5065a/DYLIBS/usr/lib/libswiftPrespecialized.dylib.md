@@ -2,6 +2,13 @@
 
 > `/usr/lib/libswiftPrespecialized.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__ptrhashtab`
+- `__DATA_CONST.__ptrhashtabkey`
+- `__AUTH_CONST.__const`
+- `__AUTH.__data`
+
 ```diff
 
    __TEXT.__text: 0x0
@@ -18,11 +25,6 @@
 +  Symbols:   152278
    CStrings:  0
  
-Sections:
-~ __DATA_CONST.__ptrhashtab : content changed
-~ __DATA_CONST.__ptrhashtabkey : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH.__data : content changed
 Symbols:
 + _$s10CryptexKit15PkgValueDecoderCMn
 + _$s10CryptexKit15PkgValueEncoderCMn
@@ -85,5 +87,4 @@ Symbols:
 - _$s24AppleAccountTransparency14EpochTimestampV4date10Foundation4DateVvpMV
 - _$s24AppleAccountTransparency22AATransparencyEventXPCC5coderACSgSo7NSCoderC_tcfCTq
 - _$s9BlastDoor10XPCCodableV6encode2toys7Encoder_p_tKF
-
 ```

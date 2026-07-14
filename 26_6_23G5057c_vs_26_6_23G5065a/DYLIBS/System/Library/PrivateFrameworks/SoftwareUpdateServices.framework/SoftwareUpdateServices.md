@@ -2,6 +2,27 @@
 
 > `/System/Library/PrivateFrameworks/SoftwareUpdateServices.framework/SoftwareUpdateServices`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0xc3ca8
@@ -33,31 +54,12 @@
    - /usr/lib/libobjc.A.dylib
    - /usr/lib/libz.1.dylib
 -  Functions: 4703
--  Symbols:   15587
--  CStrings:  10908
+-  Symbols:   10410
+-  CStrings:  8091
 +  Functions: 4704
-+  Symbols:   15589
-+  CStrings:  10910
++  Symbols:   10411
++  CStrings:  8092
  
-Sections:
-~ __TEXT.__gcc_except_tab : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH_CONST.__objc_dictobj : content changed
-~ __AUTH_CONST.__objc_arrayobj : content changed
-~ __AUTH.__objc_data : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + +[SUUtility isDescriptorAutoUpdatable:]
 + +[SUUtility modelSpecificLocalizedStringKeyForKey:]
@@ -88,5 +90,4 @@ Functions:
 ~ -[SUDownloader tryAutoDownload] : 1792 -> 1772
 CStrings:
 + "AUTO_SU_READY_TO_INSTALL_MAJOR"
-
 ```

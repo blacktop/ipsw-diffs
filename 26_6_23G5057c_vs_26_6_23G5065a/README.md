@@ -327,7 +327,7 @@
 
 ### filesystem
 
-#### ⬆️ Updated (580)
+#### ⬆️ Updated (586)
 
 <details>
   <summary><i>View Updated</i></summary>
@@ -360,6 +360,7 @@
 - [/Applications/DiagnosticsService.app/PlugIns/SystemReport.appex/SystemReport](MACHOS/filesystem/Applications/DiagnosticsService.app/PlugIns/SystemReport.appex/SystemReport.md)
 - [/Applications/FamilyControlsAuthenticationUI.app/FamilyControlsAuthenticationUI](MACHOS/filesystem/Applications/FamilyControlsAuthenticationUI.app/FamilyControlsAuthenticationUI.md)
 - [/Applications/InCallService.app/InCallService](MACHOS/filesystem/Applications/InCallService.app/InCallService.md)
+- [/Applications/LocalAuthenticationUIService.app/LocalAuthenticationUIService](MACHOS/filesystem/Applications/LocalAuthenticationUIService.app/LocalAuthenticationUIService.md)
 - [/Applications/MTLReplayer.app/MTLReplayer](MACHOS/filesystem/Applications/MTLReplayer.app/MTLReplayer.md)
 - [/Applications/MobilePhone.app/MobilePhone](MACHOS/filesystem/Applications/MobilePhone.app/MobilePhone.md)
 - [/Applications/PreviewShell.app/PreviewShell](MACHOS/filesystem/Applications/PreviewShell.app/PreviewShell.md)
@@ -444,6 +445,8 @@
 - [/System/Library/DistributedEvaluation/Plugins/RemindersDES.desPlugin/RemindersDES](MACHOS/filesystem/System/Library/DistributedEvaluation/Plugins/RemindersDES.desPlugin/RemindersDES.md)
 - [/System/Library/DriverExtensions/com.apple.AppleUserHIDDrivers.dext/com.apple.AppleUserHIDDrivers](MACHOS/filesystem/System/Library/DriverExtensions/com.apple.AppleUserHIDDrivers.dext/com.apple.AppleUserHIDDrivers.md)
 - [/System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN](MACHOS/filesystem/System/Library/DriverExtensions/com.apple.DriverKit-AppleBCMWLAN.dext/com.apple.DriverKit-AppleBCMWLAN.md)
+- [/System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetE1000.dext/com.apple.DriverKit-AppleEthernetE1000](MACHOS/filesystem/System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetE1000.dext/com.apple.DriverKit-AppleEthernetE1000.md)
+- [/System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetIXGBE.dext/com.apple.DriverKit-AppleEthernetIXGBE](MACHOS/filesystem/System/Library/DriverExtensions/com.apple.DriverKit-AppleEthernetIXGBE.dext/com.apple.DriverKit-AppleEthernetIXGBE.md)
 - [/System/Library/DriverExtensions/com.apple.DriverKit.AppleUserECM.dext/com.apple.DriverKit.AppleUserECM](MACHOS/filesystem/System/Library/DriverExtensions/com.apple.DriverKit.AppleUserECM.dext/com.apple.DriverKit.AppleUserECM.md)
 - [/System/Library/ExtensionKit/Extensions/AmbientPhotoFramePosterProvider.appex/AmbientPhotoFramePosterProvider](MACHOS/filesystem/System/Library/ExtensionKit/Extensions/AmbientPhotoFramePosterProvider.appex/AmbientPhotoFramePosterProvider.md)
 - [/System/Library/ExtensionKit/Extensions/AssistantSettingsControlsExtension.appex/AssistantSettingsControlsExtension](MACHOS/filesystem/System/Library/ExtensionKit/Extensions/AssistantSettingsControlsExtension.appex/AssistantSettingsControlsExtension.md)
@@ -554,6 +557,7 @@
 - [/System/Library/PrivateFrameworks/AppleCVAPhoto.framework/Resources/binaryArchive.g18p](MACHOS/filesystem/System/Library/PrivateFrameworks/AppleCVAPhoto.framework/Resources/binaryArchive.g18p.md)
 - [/System/Library/PrivateFrameworks/AppleCredentialManager.framework/AppleCredentialManagerDaemon](MACHOS/filesystem/System/Library/PrivateFrameworks/AppleCredentialManager.framework/AppleCredentialManagerDaemon.md)
 - [/System/Library/PrivateFrameworks/AppleDeviceQuerySupport.framework/XPCServices/AppleDeviceQueryService.xpc/AppleDeviceQueryService](MACHOS/filesystem/System/Library/PrivateFrameworks/AppleDeviceQuerySupport.framework/XPCServices/AppleDeviceQueryService.xpc/AppleDeviceQueryService.md)
+- [/System/Library/PrivateFrameworks/AppleMediaDiscovery.framework/PlugIns/AppStoreEvalLighthousePlugin.appex/AppStoreEvalLighthousePlugin](MACHOS/filesystem/System/Library/PrivateFrameworks/AppleMediaDiscovery.framework/PlugIns/AppStoreEvalLighthousePlugin.appex/AppStoreEvalLighthousePlugin.md)
 - [/System/Library/PrivateFrameworks/AppleMediaServices.framework/amsaccountsd](MACHOS/filesystem/System/Library/PrivateFrameworks/AppleMediaServices.framework/amsaccountsd.md)
 - [/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd](MACHOS/filesystem/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd.md)
 - [/System/Library/PrivateFrameworks/ApplePushService.framework/apsd](MACHOS/filesystem/System/Library/PrivateFrameworks/ApplePushService.framework/apsd.md)
@@ -633,6 +637,8 @@
 - [/System/Library/PrivateFrameworks/MobileAssetDaemon.framework/XPCServices/com.apple.MobileAsset.DownloadService.Builtin.xpc/com.apple.MobileAsset.DownloadService.Builtin](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileAssetDaemon.framework/XPCServices/com.apple.MobileAsset.DownloadService.Builtin.xpc/com.apple.MobileAsset.DownloadService.Builtin.md)
 - [/System/Library/PrivateFrameworks/MobileBackup.framework/backupd](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileBackup.framework/backupd.md)
 - [/System/Library/PrivateFrameworks/MobileInstallation.framework/XPCServices/com.apple.MobileInstallationHelperService.xpc/com.apple.MobileInstallationHelperService](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileInstallation.framework/XPCServices/com.apple.MobileInstallationHelperService.xpc/com.apple.MobileInstallationHelperService.md)
+- [/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Support/softwareupdated](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Support/softwareupdated.md)
+- [/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/XPCServices/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.xpc/com.apple.MobileSoftwareUpdate.CleanupPreparePathService](MACHOS/filesystem/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/XPCServices/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.xpc/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.md)
 - [/System/Library/PrivateFrameworks/NanoBackup.framework/nanobackupd](MACHOS/filesystem/System/Library/PrivateFrameworks/NanoBackup.framework/nanobackupd.md)
 - [/System/Library/PrivateFrameworks/NanoPassKit.framework/NPKCompanionAgent](MACHOS/filesystem/System/Library/PrivateFrameworks/NanoPassKit.framework/NPKCompanionAgent.md)
 - [/System/Library/PrivateFrameworks/NanoPreferencesSync.framework/nanoprefsyncd](MACHOS/filesystem/System/Library/PrivateFrameworks/NanoPreferencesSync.framework/nanoprefsyncd.md)
@@ -931,8 +937,10 @@
 
 ### ExclaveOS
 
-#### ⬆️ Updated (9)
+#### ⬆️ Updated (11)
 
+- [/System/ExclaveKit/System/Library/Frameworks/CodeCoverageDelegate.framework/CodeCoverageDelegate](MACHOS/ExclaveOS/System/ExclaveKit/System/Library/Frameworks/CodeCoverageDelegate.framework/CodeCoverageDelegate.md)
+- [/System/ExclaveKit/System/Library/Frameworks/IISAudioOutputStreamClientNotifierComponent.framework/IISAudioOutputStreamClientNotifierComponent](MACHOS/ExclaveOS/System/ExclaveKit/System/Library/Frameworks/IISAudioOutputStreamClientNotifierComponent.framework/IISAudioOutputStreamClientNotifierComponent.md)
 - [/System/ExclaveKit/System/Library/Frameworks/T8150_IR_ISP_EK_Component.framework/T8150_IR_ISP_EK_Component_asan](MACHOS/ExclaveOS/System/ExclaveKit/System/Library/Frameworks/T8150_IR_ISP_EK_Component.framework/T8150_IR_ISP_EK_Component_asan.md)
 - [/System/ExclaveKit/System/Library/Frameworks/T8150_RGB_ISP_EK_Component.framework/T8150_RGB_ISP_EK_Component_asan](MACHOS/ExclaveOS/System/ExclaveKit/System/Library/Frameworks/T8150_RGB_ISP_EK_Component.framework/T8150_RGB_ISP_EK_Component_asan.md)
 - [/System/ExclaveKit/System/Library/PrivateFrameworks/SecureAudioPasscodeComponent.framework/SecureAudioPasscodeComponent](MACHOS/ExclaveOS/System/ExclaveKit/System/Library/PrivateFrameworks/SecureAudioPasscodeComponent.framework/SecureAudioPasscodeComponent.md)

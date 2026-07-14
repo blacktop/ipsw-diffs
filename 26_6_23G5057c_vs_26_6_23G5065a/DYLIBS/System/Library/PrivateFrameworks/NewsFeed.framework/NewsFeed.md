@@ -2,6 +2,28 @@
 
 > `/System/Library/PrivateFrameworks/NewsFeed.framework/NewsFeed`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_catlist2`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__objc_stublist`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x18c5b84
@@ -80,32 +102,12 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 117626
--  Symbols:   31042
--  CStrings:  14671
+-  Symbols:   26841
+-  CStrings:  14199
 +  Functions: 117635
-+  Symbols:   31047
-+  CStrings:  14675
++  Symbols:   26844
++  CStrings:  14203
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_catlist2 : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH.__objc_data : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__objc_stublist : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + _symbolic Say_____G 8NewsFeed0B22SponsorshipAdReferenceV
 + _symbolic _____ 8NewsFeed0B29SponsorshipAdReferenceServiceC6ErrorsO
@@ -115,5 +117,4 @@ CStrings:
 + "Feed sponsorship ad reference will attempt to resolve %{public}@"
 + "Feed sponsorship did resolve reference for  %{public}@, sponsorshipAdInfo=%{public}@"
 + "Feed sponsorship failed to resolve reference, %{public}@, error=%{public}@"
-
 ```

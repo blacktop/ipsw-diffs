@@ -2,7 +2,8 @@
 
 > `com.apple.driver.AppleAudioClockLibs`
 
-Sections:
-~ __DATA.__data : content changed
-~ __DATA_CONST.__auth_got : content changed
-~ __DATA_CONST.__got : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA.__data`
+- `__DATA_CONST.__auth_got`
+- `__DATA_CONST.__got`

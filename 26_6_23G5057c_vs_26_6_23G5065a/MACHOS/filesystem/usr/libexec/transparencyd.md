@@ -2,6 +2,34 @@
 
 > `/usr/libexec/transparencyd`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__cstring`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA.__objc_data`
+- `__DATA.__thread_vars`
+- `__DATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0x33eb24
@@ -76,37 +104,11 @@
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 20056
 -  Symbols:   2135
--  CStrings:  13984
+-  CStrings:  11654
 +  Functions: 20039
 +  Symbols:   2141
-+  CStrings:  13986
++  CStrings:  11656
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__cstring : content changed
-~ __TEXT.__gcc_except_tab : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_intobj : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __DATA_CONST.__objc_dictobj : content changed
-~ __DATA_CONST.__objc_arrayobj : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__thread_vars : content changed
-~ __DATA.__common : content changed
 Symbols:
 + _$s10Foundation20PredicateExpressionsO14build_NotEqual3lhs3rhsAC0eF0Vy_xq_Gx_q_tAA0B10ExpressionRzAaJR_SQ6OutputRpzAKQy_ALRSr0_lFZ
 + _$s10Foundation20PredicateExpressionsO8NotEqualVMn
@@ -117,5 +119,4 @@ Symbols:
 CStrings:
 + "populateUnderlyingErrorsStartingWithRootError:"
 + "sender"
-
 ```

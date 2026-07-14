@@ -9,10 +9,9 @@
    Functions: 146
 -  Symbols:   325
 +  Symbols:   323
-   CStrings:  162
+   CStrings:  151
  
 Symbols:
 - _TelephonyBasebandWatchdogStartWithStackshot
 - _TelephonyBasebandWatchdogStop
-
 ```

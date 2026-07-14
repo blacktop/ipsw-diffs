@@ -2,11 +2,12 @@
 
 > `/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
 ```diff
-Sections:
-~ __TEXT.__cstring : content changed
 CStrings:
 + "213"
 - "162"
-
 ```

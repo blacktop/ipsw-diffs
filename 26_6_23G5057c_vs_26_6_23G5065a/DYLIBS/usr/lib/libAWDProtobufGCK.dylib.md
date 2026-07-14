@@ -2,6 +2,7 @@
 
 > `/usr/lib/libAWDProtobufGCK.dylib`
 
-Sections:
-~ __TEXT.__unwind_info : content changed
-~ __AUTH_CONST.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__AUTH_CONST.__const`

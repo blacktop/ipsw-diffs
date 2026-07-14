@@ -2,6 +2,19 @@
 
 > `/System/Library/PrivateFrameworks/CryptexKit.framework/CryptexKit`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__AUTH.__objc_data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x84254
@@ -80,23 +93,12 @@
    - /usr/lib/swift/libswift_DarwinFoundation1.dylib
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 4187
--  Symbols:   14932
--  CStrings:  407
+-  Symbols:   11242
+-  CStrings:  395
 +  Functions: 4554
-+  Symbols:   16128
-+  CStrings:  429
++  Symbols:   12068
++  CStrings:  416
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __AUTH.__objc_data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 + _$s10CryptexKit11DictBuilder33_321C0C1DAEAC292436A10CB42CDEE3CDLLC10codingPathSays9CodingKey_pGvpWvd
 + _$s10CryptexKit11DictBuilder33_321C0C1DAEAC292436A10CB42CDEE3CDLLC12superEncoder6forKeys0M0_px_tF
@@ -1626,5 +1628,4 @@ CStrings:
 - "index"
 - "infoFd"
 - "package/inv/list/1"
-
 ```

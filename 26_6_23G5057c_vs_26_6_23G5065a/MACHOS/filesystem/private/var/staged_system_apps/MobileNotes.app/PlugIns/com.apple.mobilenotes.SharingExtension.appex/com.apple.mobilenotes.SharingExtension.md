@@ -2,6 +2,31 @@
 
 > `/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.SharingExtension.appex/com.apple.mobilenotes.SharingExtension`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__oslogstring`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA.__objc_selrefs`
+- `__DATA.__bss`
+- `__DATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0xb8940
@@ -62,33 +87,9 @@
 -  Functions: 3274
 +  Functions: 3280
    Symbols:   513
--  CStrings:  3471
-+  CStrings:  3472
+-  CStrings:  3223
++  CStrings:  3224
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__oslogstring : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_intobj : content changed
-~ __DATA.__objc_selrefs : content changed
-~ __DATA.__bss : content changed
-~ __DATA.__common : content changed
 CStrings:
 + "appMigrationImportedNoteCount"
-
 ```

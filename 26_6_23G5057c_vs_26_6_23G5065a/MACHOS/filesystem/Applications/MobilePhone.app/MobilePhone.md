@@ -28,5 +28,4 @@ Symbols:
 - /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/VMMessageTranscriptViewModel-8624939116514a65ca41ccf60b651243.o
 - /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/VMMessageTranscriptViewModel-b684dc8f2a24676b655055f40f461fb9.o
 - /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/VVMVoicemailCountSource-7393da4f4eb47653d47eb56866370215.o
-
 ```

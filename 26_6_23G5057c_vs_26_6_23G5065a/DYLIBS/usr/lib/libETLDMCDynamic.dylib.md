@@ -2,6 +2,13 @@
 
 > `/usr/lib/libETLDMCDynamic.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x1ddf0
@@ -19,15 +26,10 @@
 
    - /usr/lib/libxml2.2.dylib
    Functions: 254
-   Symbols:   412
+   Symbols:   378
 -  CStrings:  200
 +  CStrings:  186
  
-Sections:
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __DATA.__data : content changed
 Functions:
 ~ _ETLLOGParseLogHeader : 148 -> 88
 ~ _ETLLOGParseLog : 476 -> 440
@@ -53,5 +55,4 @@ CStrings:
 - "Length %u is greater than buffer size %u\n"
 - "Reading Event %u, length flag %u, timeLength %u, bufferLength %u\n"
 - "Warning: Buffer Length %u is greater than field length %u\n"
-
 ```

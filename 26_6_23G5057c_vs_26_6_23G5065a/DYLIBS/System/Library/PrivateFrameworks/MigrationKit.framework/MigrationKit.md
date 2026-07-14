@@ -2,6 +2,21 @@
 
 > `/System/Library/PrivateFrameworks/MigrationKit.framework/MigrationKit`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_types2`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x8373cc
@@ -100,25 +115,12 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 24871
--  Symbols:   16520
--  CStrings:  9751
+-  Symbols:   12226
+-  CStrings:  8911
 +  Functions: 25233
-+  Symbols:   16633
-+  CStrings:  9819
++  Symbols:   12314
++  CStrings:  8977
  
-Sections:
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_types2 : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH_CONST.__objc_dictobj : content changed
-~ __AUTH_CONST.__objc_arrayobj : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + -[MKHPMInterface forceDeviceModeWithError:]
 + -[MKUSBDevice deregisterExistingMigrationInterface]
@@ -323,5 +325,4 @@ CStrings:
 - "failedItemCount"
 - "networkLost(_:)"
 - "networkLost(_:isCurrent:)"
-
 ```

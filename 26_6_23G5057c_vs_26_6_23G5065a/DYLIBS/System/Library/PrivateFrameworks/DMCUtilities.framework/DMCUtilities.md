@@ -2,6 +2,22 @@
 
 > `/System/Library/PrivateFrameworks/DMCUtilities.framework/DMCUtilities`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
 ```diff
 
 -  __TEXT.__text: 0x385c4
@@ -43,26 +59,12 @@
    - /usr/lib/libmis.dylib
    - /usr/lib/libobjc.A.dylib
 -  Functions: 1411
--  Symbols:   5152
--  CStrings:  3316
+-  Symbols:   3555
+-  CStrings:  2781
 +  Functions: 1412
-+  Symbols:   5155
-+  CStrings:  3319
++  Symbols:   3557
++  CStrings:  2783
  
-Sections:
-~ __TEXT.__gcc_except_tab : content changed
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH.__objc_data : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
 Symbols:
 + +[DMCFeatureOverrides essoDeclarationsWaitTimeoutWithDefaultValue:]
 + _DMCDefaultsKeyESSODeclarationsWaitTimeout
@@ -72,5 +74,4 @@ Functions:
 CStrings:
 + "ESSODeclarationsWaitTimeout"
 + "essoDeclarationsWaitTimeoutWithDefaultValue:"
-
 ```

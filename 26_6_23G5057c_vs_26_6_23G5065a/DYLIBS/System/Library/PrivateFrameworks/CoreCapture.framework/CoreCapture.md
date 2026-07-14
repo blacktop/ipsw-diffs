@@ -2,6 +2,7 @@
 
 > `/System/Library/PrivateFrameworks/CoreCapture.framework/CoreCapture`
 
-Sections:
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
+### Sections with Same Size but Changed Content
+
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`

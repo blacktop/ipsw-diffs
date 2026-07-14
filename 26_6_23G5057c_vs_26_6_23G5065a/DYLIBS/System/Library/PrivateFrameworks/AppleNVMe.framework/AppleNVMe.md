@@ -2,6 +2,7 @@
 
 > `/System/Library/PrivateFrameworks/AppleNVMe.framework/AppleNVMe`
 
-Sections:
-~ __AUTH_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__AUTH_CONST.__cfstring`
+- `__DATA.__data`

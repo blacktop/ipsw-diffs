@@ -2,6 +2,15 @@
 
 > `/System/Library/PrivateFrameworks/APFS.framework/APFS`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__DATA.__data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x532a0
@@ -16,17 +25,10 @@
 
    - /usr/lib/libutil.dylib
    Functions: 881
-   Symbols:   1934
--  CStrings:  1535
-+  CStrings:  1538
+   Symbols:   1103
+-  CStrings:  1388
++  CStrings:  1391
  
-Sections:
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__data : content changed
 Functions:
 ~ _omap_get : 628 -> 632
 ~ _nx_check : 12092 -> 12100
@@ -43,5 +45,4 @@ CStrings:
 - "%s:%d: %s reap list object 0x%llx free index %u larger than max %u\n"
 - "%s:%d: %s reap list object 0x%llx last index %u larger than max %u\n"
 - "2811.160.7"
-
 ```

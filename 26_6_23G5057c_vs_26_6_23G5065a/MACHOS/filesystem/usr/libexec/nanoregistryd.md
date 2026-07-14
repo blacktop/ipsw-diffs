@@ -2,11 +2,12 @@
 
 > `/usr/libexec/nanoregistryd`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
 ```diff
-Sections:
-~ __TEXT.__cstring : content changed
 CStrings:
 + "200"
 - "167"
-
 ```

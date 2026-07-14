@@ -2,6 +2,7 @@
 
 > `/System/ExclaveKit/usr/lib/dyld`
 
-Sections:
-~ __TEXT.__cstring : content changed
-~ __DATA.__bss : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+- `__DATA.__bss`

@@ -2,9 +2,10 @@
 
 > `/System/Library/PrivateFrameworks/MentalHealthUI.framework/archive.metallib`
 
-Sections:
-~ __TEXT.__reflection : content changed
-~ __TEXT.__vertex : content changed
-~ __TEXT.__fragment : content changed
-~ __TEXT.__compute : content changed
-~ __TEXT.__metallib : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__reflection`
+- `__TEXT.__vertex`
+- `__TEXT.__fragment`
+- `__TEXT.__compute`
+- `__TEXT.__metallib`

@@ -2,6 +2,13 @@
 
 > `/usr/lib/libATCommandStudioDynamic.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+
 ```diff
 
 -  __TEXT.__text: 0x560a8
@@ -29,16 +36,11 @@
    - /usr/lib/libc++.1.dylib
    - /usr/lib/libmav_ipc_router_dynamic.dylib
    Functions: 1423
--  Symbols:   3537
+-  Symbols:   2284
 -  CStrings:  540
-+  Symbols:   3538
++  Symbols:   2283
 +  CStrings:  539
  
-Sections:
-~ __TEXT.__init_offsets : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
 Symbols:
 - __ZN3qmi16createRawRequestEhNS_11buffer_viewEm
 Functions:
@@ -50,5 +52,4 @@ Functions:
 ~ __ZNK13QMIServiceMsg9serializeEPvm : 352 -> 284
 CStrings:
 - "#I [%s]: Sending RAW Request: %s"
-
 ```

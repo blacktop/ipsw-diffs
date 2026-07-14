@@ -2,6 +2,7 @@
 
 > `/System/Library/PrivateFrameworks/UserFS.framework/PlugIns/livefiles_msdos.dylib`
 
-Sections:
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __AUTH.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH.__data`

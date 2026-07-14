@@ -2,6 +2,32 @@
 
 > `/usr/lib/swift/libswiftCore.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__TEXT.__objc_methlist`
+- `__TEXT.__cstring`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_nlclslist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x492cf0
@@ -9,30 +35,6 @@
    __TEXT.__auth_stubs: 0xd60
    __TEXT.__delay_stubs: 0x180
    __TEXT.__delay_helper: 0x304
-Sections:
-~ __TEXT.__init_offsets : content changed
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__cstring : content changed
-~ __TEXT.__const : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__unwind_info : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_nlclslist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH.__objc_data : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
-~ __DATA_DIRTY.__data : content changed
 Functions:
 ~ __ZL8getCacheRKN5swift27TargetTypeContextDescriptorINS_9InProcessEEE : 2200 -> 2336
 ~ __ZN5swift16_getWitnessTableEPKNS_35TargetProtocolConformanceDescriptorINS_9InProcessEEEPKNS_14TargetMetadataIS1_EEPKPKv : 5140 -> 5356
@@ -60,5 +62,4 @@ Functions:
 ~ __ZN5swift25ConcurrentReadableHashMapINS_21HashMapElementWrapperINS_17GenericCacheEntryEEENS_5MutexEE27getOrInsertExternallyLockedINS_16MetadataCacheKeyEZNS_38StableAddressConcurrentReadableHashMapIS2_NS_23TaggedMetadataAllocatorILt14EEES4_E11getOrInsertIS7_JRNS_17MetadataWaitQueue6WorkerERNS_15MetadataRequestERPNS_14TargetMetadataINS_9InProcessEEEEEENSt3__14pairIPS2_bEET_DpOT0_EUlPS3_bE_EEvSR_RKT0_ : 564 -> 688
 ~ __ZN5swift25ConcurrentReadableHashMapINS_21HashMapElementWrapperINS_17GenericCacheEntryEEENS_5MutexEE27getOrInsertExternallyLockedINS_16MetadataCacheKeyEZNS_38StableAddressConcurrentReadableHashMapIS2_NS_23TaggedMetadataAllocatorILt14EEES4_E11getOrInsertIS7_JRNS_17MetadataWaitQueue6WorkerERNS_15MetadataRequestERPKNS_27TargetTypeContextDescriptorINS_9InProcessEEERPKPKvEEENSt3__14pairIPS2_bEET_DpOT0_EUlPS3_bE_EEvSX_RKT0_ : 564 -> 688
 ~ __ZN16ConformanceState11cacheResultEPKN5swift14TargetMetadataINS0_9InProcessEEEPKNS0_24TargetProtocolDescriptorIS2_EEN12_GLOBAL__N_123ConformanceLookupResultEmb : 1588 -> 1980
-
 ```

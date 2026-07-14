@@ -12,5 +12,4 @@
    __TEXT.__cstring: 0x15488
    __TEXT.__oslogstring: 0xb0a4
    __TEXT.__swift5_entry: 0x8
-
 ```

@@ -2,7 +2,8 @@
 
 > `com.apple.kec.XrtHostedXnu`
 
-Sections:
-~ __TEXT.__cstring : content changed
-~ __DATA.__data : content changed
-~ __DATA_CONST.__auth_got : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+- `__DATA.__data`
+- `__DATA_CONST.__auth_got`

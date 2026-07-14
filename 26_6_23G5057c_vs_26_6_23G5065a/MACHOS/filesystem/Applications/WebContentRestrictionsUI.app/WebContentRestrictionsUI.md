@@ -2,6 +2,17 @@
 
 > `/Applications/WebContentRestrictionsUI.app/WebContentRestrictionsUI`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methtype`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0xc18
@@ -52,20 +63,11 @@
    - /usr/lib/libobjc.A.dylib
 -  Functions: 40
 -  Symbols:   55
--  CStrings:  117
+-  CStrings:  107
 +  Functions: 42
 +  Symbols:   60
-+  CStrings:  133
++  CStrings:  118
  
-Sections:
-~ __TEXT.__objc_methtype : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__data : content changed
 Symbols:
 + _OBJC_CLASS_$_OSEligibilityQuery
 + __NSConcreteStackBlock
@@ -84,5 +86,4 @@ CStrings:
 + "ineligible"
 + "initWithDomain:error:"
 + "v20@?0B8@\"NSError\"12"
-
 ```

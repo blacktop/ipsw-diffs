@@ -2,7 +2,8 @@
 
 > `/System/Library/PrivateFrameworks/MobileBluetooth.framework/MobileBluetooth`
 
-Sections:
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __DATA_DIRTY.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__DATA_DIRTY.__data`

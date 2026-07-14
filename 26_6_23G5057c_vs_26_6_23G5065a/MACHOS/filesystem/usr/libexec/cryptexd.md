@@ -2,10 +2,12 @@
 
 > `/usr/libexec/cryptexd`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__cstring`
+
 ```diff
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__cstring : content changed
 Symbols:
 + /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~31/cryptexd/RELEASE_ARM64E/DaemonServer.o
 + /Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~31/cryptexd/RELEASE_ARM64E/Logger+init.o
@@ -124,5 +126,4 @@ CStrings:
 - "662.160.13"
 - "@(#)VERSION:Darwin Cryptex Manager Version 2.0.0: Sun Jun 28 20:13:28 PDT 2026; root:libcryptex_executables-662.160.13~18/cryptexd/RELEASE_ARM64E"
 - "Darwin Cryptex Manager Version 2.0.0: Sun Jun 28 20:13:28 PDT 2026; root:libcryptex_executables-662.160.13~18/cryptexd/RELEASE_ARM64E"
-
 ```

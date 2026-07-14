@@ -10,5 +10,4 @@
    __TEXT.__descriptor: 0x4e0
    __TEXT.__metallib: 0x21b70
    Functions: 0
-
 ```

@@ -2,7 +2,8 @@
 
 > `/usr/lib/swift/libswiftSwiftOnoneSupport.dylib`
 
-Sections:
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__swift5_types : content changed
-~ __AUTH_CONST.__const : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_types`
+- `__AUTH_CONST.__const`

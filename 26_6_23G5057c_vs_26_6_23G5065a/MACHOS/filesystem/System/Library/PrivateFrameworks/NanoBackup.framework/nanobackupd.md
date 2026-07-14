@@ -2,11 +2,12 @@
 
 > `/System/Library/PrivateFrameworks/NanoBackup.framework/nanobackupd`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__oslogstring`
+
 ```diff
-Sections:
-~ __TEXT.__oslogstring : content changed
 CStrings:
 + "Launching; \"NanoBackupDaemon-130\" \"24380\""
 - "Launching; \"NanoBackupDaemon-130\" \"24358\""
-
 ```

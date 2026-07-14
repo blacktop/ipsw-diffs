@@ -2,6 +2,35 @@
 
 > `/private/var/staged_system_apps/MobileNotes.app/MobileNotes`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__cstring`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__oslogstring`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA.__objc_stublist`
+- `__DATA.__bss`
+- `__DATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0x50ed30
@@ -68,36 +97,9 @@
 -  Functions: 23320
 +  Functions: 23325
    Symbols:   4285
--  CStrings:  18569
-+  CStrings:  18570
+-  CStrings:  17128
++  CStrings:  17129
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__cstring : content changed
-~ __TEXT.__gcc_except_tab : content changed
-~ __TEXT.__oslogstring : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_intobj : content changed
-~ __DATA.__objc_stublist : content changed
-~ __DATA.__bss : content changed
-~ __DATA.__common : content changed
 CStrings:
 + "appMigrationImportedNoteCount"
 + "fallback import finished"
@@ -108,5 +110,4 @@ CStrings:
 - "local account not found for import"
 - "removed archive directory after import"
 - "running app migration post-launch import"
-
 ```

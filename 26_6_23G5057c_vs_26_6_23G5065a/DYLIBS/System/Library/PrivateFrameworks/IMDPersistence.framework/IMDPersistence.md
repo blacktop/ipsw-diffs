@@ -2,6 +2,33 @@
 
 > `/System/Library/PrivateFrameworks/IMDPersistence.framework/IMDPersistence`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__oslogstring`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_types2`
+- `__TEXT.__objc_methtype`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH.__objc_data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x26769c
@@ -87,36 +114,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 11792
 -  Symbols:   2667
--  CStrings:  12942
+-  CStrings:  10326
 +  Functions: 11807
 +  Symbols:   2671
-+  CStrings:  12946
++  CStrings:  10330
  
-Sections:
-~ __TEXT.__oslogstring : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift5_types2 : content changed
-~ __TEXT.__objc_methtype : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH_CONST.__objc_arrayobj : content changed
-~ __AUTH_CONST.__objc_dictobj : content changed
-~ __AUTH.__objc_data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 + _OBJC_CLASS_$_IMDCoreSpotlightSelectiveReindexingJob
 + _OBJC_METACLASS_$_IMDCoreSpotlightSelectiveReindexingJob
@@ -143,5 +145,4 @@ CStrings:
 - "im_reconcile_ptask_user_info: wrong number of arguments"
 - "supportsDataDetectors"
 - "supportsSpotlight"
-
 ```

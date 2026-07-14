@@ -2,6 +2,14 @@
 
 > `/usr/lib/system/libcopyfile.dylib`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__cstring`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+
 ```diff
 
 -  __TEXT.__text: 0x7940
@@ -18,14 +26,7 @@
    __AUTH_CONST.__const: 0xe0
    __DATA_DIRTY.__bss: 0x10
    - /usr/lib/system/libcompiler_rt.dylib
-Sections:
-~ __TEXT.__const : content changed
-~ __TEXT.__cstring : content changed
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
 Functions:
 ~ _copyfile : 3976 -> 3996
 ~ _copyfile_set_dst_permissions : 476 -> 500
-
 ```

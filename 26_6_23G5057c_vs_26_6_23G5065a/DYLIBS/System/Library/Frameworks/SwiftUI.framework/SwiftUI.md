@@ -2,6 +2,36 @@
 
 > `/System/Library/Frameworks/SwiftUI.framework/SwiftUI`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA.__objc_stublist`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0xfcea40
@@ -46,39 +76,11 @@
    - /usr/lib/swift/libswiftos.dylib
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 90444
--  Symbols:   335701
+-  Symbols:   226903
 +  Functions: 90445
-+  Symbols:   335705
-   CStrings:  6934
++  Symbols:   226906
+   CStrings:  6912
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH.__objc_data : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
-~ __DATA.__objc_stublist : content changed
-~ __DATA_DIRTY.__objc_data : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 + _$s7SwiftUI15ModifiedContentVyAA7SectionVyAA9EmptyViewVAA30ControlGroupStyleConfigurationV0D0VAGGAA07ToolbardhiJ0V09CollapsedG8Modifier33_2B256935BC71D4CF2CEB4E2717C7D01BLLVy_AA4MenuVyAI5LabelVAKGGGACyxq_GAA0G0A2aZRzAA0gN0R_rlWL
 + _$s7SwiftUI15ModifiedContentVyAA7SectionVyAA9EmptyViewVAA30ControlGroupStyleConfigurationV0D0VAGGAA07ToolbardhiJ0V09CollapsedG8Modifier33_2B256935BC71D4CF2CEB4E2717C7D01BLLVy_AA4MenuVyAI5LabelVAKGGGACyxq_GAA0G0A2aZRzAA0gN0R_rlWl
@@ -320,5 +322,4 @@ Symbols:
 Functions:
 + _$s7SwiftUI15ToolbarItemTintVSQAASQ2eeoiySbx_xtFZTW
 ~ _$s7SwiftUI18UIKitBarButtonItemC18updateStyleAndTint33_9FEFF64B5B735CA46CE24D63DF5C11D3LL9isBridged4role06buttonJ0S2b_AA07ToolbarF4RoleVSgAA0xfJ0VSgtF : 1928 -> 1912
-
 ```

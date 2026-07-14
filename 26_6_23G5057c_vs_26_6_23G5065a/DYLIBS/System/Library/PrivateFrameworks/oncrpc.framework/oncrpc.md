@@ -2,9 +2,10 @@
 
 > `/System/Library/PrivateFrameworks/oncrpc.framework/oncrpc`
 
-Sections:
-~ __TEXT.__cstring : content changed
-~ __DATA_CONST.__const : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH.__data : content changed
-~ __DATA.__data : content changed
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+- `__DATA_CONST.__const`
+- `__AUTH_CONST.__const`
+- `__AUTH.__data`
+- `__DATA.__data`

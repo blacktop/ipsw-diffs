@@ -2,6 +2,37 @@
 
 > `/System/Library/PrivateFrameworks/WebCore.framework/WebCore`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__jsc_ops`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x348db9c
@@ -54,41 +85,12 @@
    - /usr/lib/swift/libswift_Builtin_float.dylib
    - /usr/lib/swift/libswiftos.dylib
 -  Functions: 121328
--  Symbols:   274793
--  CStrings:  37205
+-  Symbols:   153385
+-  CStrings:  35916
 +  Functions: 121297
-+  Symbols:   274734
-+  CStrings:  37208
++  Symbols:   153351
++  CStrings:  35919
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_fieldmd : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__const : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_selrefs : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_superrefs : content changed
-~ __DATA_CONST.__jsc_ops : content changed
-~ __DATA_CONST.__objc_arraydata : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
-~ __AUTH_CONST.__objc_const : content changed
-~ __AUTH_CONST.__objc_arrayobj : content changed
-~ __AUTH_CONST.__objc_intobj : content changed
-~ __AUTH_CONST.__objc_doubleobj : content changed
-~ __AUTH_CONST.__objc_dictobj : content changed
-~ __AUTH.__objc_data : content changed
-~ __AUTH.__data : content changed
-~ __DATA_DIRTY.__objc_data : content changed
-~ __DATA_DIRTY.__data : content changed
 Symbols:
 + __ZGVZN7WebCore44jettisonExpensiveObjectsOnTopLevelNavigationEvE20timeOfLastNavigation
 + __ZN3WTF20VectorTypeOperationsIN7WebCore20ServiceWorkerJobDataEE8destructEPS2_S4_
@@ -474,5 +476,4 @@ CStrings:
 + "%p - CachedResourceLoader::canRequest: cross-origin no-cors subresource load to URL scheme handler is not allowed"
 + "%p - CachedResourceLoader::canRequestAfterRedirection: cross-origin no-cors redirect to URL scheme handler is not allowed"
 + "webkit-extension"
-
 ```

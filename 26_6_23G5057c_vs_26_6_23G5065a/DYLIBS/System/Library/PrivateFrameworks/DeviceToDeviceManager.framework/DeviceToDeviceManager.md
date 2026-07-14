@@ -2,5 +2,6 @@
 
 > `/System/Library/PrivateFrameworks/DeviceToDeviceManager.framework/DeviceToDeviceManager`
 
-Sections:
-~ __AUTH_CONST.__cfstring : content changed
+### Sections with Same Size but Changed Content
+
+- `__AUTH_CONST.__cfstring`

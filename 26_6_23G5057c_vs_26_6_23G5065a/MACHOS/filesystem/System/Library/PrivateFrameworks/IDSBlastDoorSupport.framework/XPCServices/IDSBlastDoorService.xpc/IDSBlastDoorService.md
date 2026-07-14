@@ -2,6 +2,15 @@
 
 > `/System/Library/PrivateFrameworks/IDSBlastDoorSupport.framework/XPCServices/IDSBlastDoorService.xpc/IDSBlastDoorService`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_capture`
+- `__DATA.__objc_selrefs`
+
 ```diff
 
 -  __TEXT.__text: 0xbe6a0
@@ -64,12 +73,4 @@
    Symbols:   129
    CStrings:  620
  
-Sections:
-~ __TEXT.__swift5_entry : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __DATA.__objc_selrefs : content changed
-
 ```

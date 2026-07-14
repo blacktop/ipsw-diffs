@@ -2,6 +2,33 @@
 
 > `/System/Library/CoreServices/GameOverlayUI.app/GameOverlayUI`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__bss`
+- `__DATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0xf529c
@@ -59,38 +86,12 @@
 -  Symbols:   2221
 +  Functions: 3658
 +  Symbols:   2226
-   CStrings:  892
+   CStrings:  886
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__const : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_fieldmd : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_entry : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__objc_classlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_selrefs : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__bss : content changed
-~ __DATA.__common : content changed
 Symbols:
 + _$s12GameStoreKit07CurrentA8BundleIDV06bundleF0ACSSSg_tcfC
 + _$s12GameStoreKit07CurrentA8BundleIDVMa
 + _$s12GameStoreKit14BoolSettingKeyV19useStaticSocialPageACvgZ
 + _$s12GameStoreKit15ZoomCoordinatorC24DashboardVisibilityStateO2eeoiySbAE_AEtFZ
 + _$sSo14NSUserDefaultsC12GameStoreKitE9isEnabled12debugSettingSbAC04BoolI3KeyV_tF
-
 ```

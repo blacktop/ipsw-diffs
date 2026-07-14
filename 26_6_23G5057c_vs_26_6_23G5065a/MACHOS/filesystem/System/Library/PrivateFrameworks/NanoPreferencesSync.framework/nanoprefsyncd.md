@@ -2,11 +2,12 @@
 
 > `/System/Library/PrivateFrameworks/NanoPreferencesSync.framework/nanoprefsyncd`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__oslogstring`
+
 ```diff
-Sections:
-~ __TEXT.__oslogstring : content changed
 CStrings:
 + "Launching; \"NanoPreferencesSyncDaemon-323\" \"3570\""
 - "Launching; \"NanoPreferencesSyncDaemon-323\" \"3563\""
-
 ```

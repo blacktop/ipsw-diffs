@@ -2,6 +2,12 @@
 
 > `/System/Library/VideoDecoders/AVD.videodecoder`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+
 ```diff
 
    __TEXT.__const: 0xc013
@@ -15,14 +21,10 @@
 
    - /usr/lib/libc++.1.dylib
    Functions: 3773
-   Symbols:   10011
--  CStrings:  1999
-+  CStrings:  1998
+   Symbols:   3013
+-  CStrings:  1938
++  CStrings:  1937
  
-Sections:
-~ __TEXT.__unwind_info : content changed
-~ __AUTH_CONST.__const : content changed
-~ __AUTH_CONST.__cfstring : content changed
 CStrings:
 + "23:53:55"
 + "23:53:56"
@@ -31,5 +33,4 @@ CStrings:
 - "20:12:37"
 - "20:12:38"
 - "Jun 28 2026"
-
 ```

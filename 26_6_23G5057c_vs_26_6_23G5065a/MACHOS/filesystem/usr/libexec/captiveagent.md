@@ -2,6 +2,19 @@
 
 > `/usr/libexec/captiveagent`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
 ```diff
 
 -  __TEXT.__text: 0x11e34
@@ -31,19 +44,8 @@
    Functions: 316
 -  Symbols:   248
 +  Symbols:   249
-   CStrings:  800
+   CStrings:  730
  
-Sections:
-~ __TEXT.__objc_methlist : content changed
-~ __TEXT.__const : content changed
-~ __TEXT.__gcc_except_tab : content changed
-~ __TEXT.__unwind_info : content changed
-~ __DATA_CONST.__got : content changed
-~ __DATA_CONST.__cfstring : content changed
-~ __DATA.__objc_const : content changed
-~ __DATA.__objc_selrefs : content changed
-~ __DATA.__objc_data : content changed
-~ __DATA.__data : content changed
 Symbols:
 + _objc_retainBlock
 Functions:
@@ -62,5 +64,4 @@ Functions:
 ~ sub_1000087c0 -> sub_1000087dc : 152 -> 160
 ~ sub_100012118 -> sub_10001213c : 68 -> 92
 ~ sub_10001215c -> sub_100012198 : 160 -> 168
-
 ```

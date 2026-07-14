@@ -2,6 +2,30 @@
 
 > `/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/identityservicesd`
 
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_reflstr`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_acfuncs`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_doubleobj`
+- `__DATA.__common`
+
 ```diff
 
 -  __TEXT.__text: 0xa50830
@@ -84,33 +108,11 @@
    - /usr/lib/swift/libswiftsimd.dylib
 -  Functions: 29168
 -  Symbols:   2848
--  CStrings:  42803
+-  CStrings:  32236
 +  Functions: 29213
 +  Symbols:   2851
-+  CStrings:  43089
++  CStrings:  32388
  
-Sections:
-~ __TEXT.__swift5_typeref : content changed
-~ __TEXT.__swift5_capture : content changed
-~ __TEXT.__constg_swiftt : content changed
-~ __TEXT.__swift5_reflstr : content changed
-~ __TEXT.__swift5_fieldmd : content changed
-~ __TEXT.__swift5_proto : content changed
-~ __TEXT.__swift5_types : content changed
-~ __TEXT.__swift_as_entry : content changed
-~ __TEXT.__swift_as_ret : content changed
-~ __TEXT.__swift5_builtin : content changed
-~ __TEXT.__swift5_protos : content changed
-~ __TEXT.__swift5_assocty : content changed
-~ __TEXT.__swift5_acfuncs : content changed
-~ __TEXT.__swift5_mpenum : content changed
-~ __TEXT.__eh_frame : content changed
-~ __DATA_CONST.__auth_ptr : content changed
-~ __DATA_CONST.__objc_catlist : content changed
-~ __DATA_CONST.__objc_protolist : content changed
-~ __DATA_CONST.__objc_protorefs : content changed
-~ __DATA_CONST.__objc_doubleobj : content changed
-~ __DATA.__common : content changed
 Symbols:
 + _IDSSilenceIfUnknownKey
 + _OBJC_CLASS_$_IDSSOSLogger
@@ -272,5 +274,4 @@ CStrings:
 + "unreportedAlertCount"
 - "00:03:02"
 - "Jun 27 2026"
-
 ```
