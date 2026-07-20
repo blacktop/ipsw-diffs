@@ -1,0 +1,7 @@
+## ArticleNotificationExtension
+
+> `/private/var/staged_system_apps/News.app/PlugIns/ArticleNotificationExtension.appex/ArticleNotificationExtension`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`

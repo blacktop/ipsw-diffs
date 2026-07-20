@@ -63,6 +63,7 @@
 <details>
   <summary>View diffs</summary>
 
+- [26.6 beta 5 (23G5065a) .vs 26.6 (23G71)](26_6_23G5065a_vs_26_6_23G71/README.md)
 - [26.6 beta 4 (23G5057c) .vs 26.6 beta 5 (23G5065a)](26_6_23G5057c_vs_26_6_23G5065a/README.md)
 - [26.6 beta 3 (23G5052d) .vs 26.6 beta 4 (23G5057c)](26_6_23G5052d_vs_26_6_23G5057c/README.md)
 - [26.6 beta 2 (23G5043d) .vs 26.6 beta 3 (23G5052d)](26_6_23G5043d_vs_26_6_23G5052d/README.md)
