@@ -47,7 +47,9 @@
 </p>
 
 <a id="ios-27-0-beta"></a>
+
 ### iOS 27.0 beta
+
 <details open>
   <summary>View diffs</summary>
 
@@ -59,11 +61,13 @@
 </details>
 
 <a id="ios-26-6-beta"></a>
+
 ### iOS 26.6 beta
+
 <details>
   <summary>View diffs</summary>
 
-- [26.6 beta 5 (23G5065a) .vs 26.6 (23G71)](26_6_23G5065a_vs_26_6_23G71/README.md)
+- [26.6 beta 5 (23G5065a) .vs 26.6 RC (23G71)](26_6_23G5065a_vs_26_6_23G71/README.md)
 - [26.6 beta 4 (23G5057c) .vs 26.6 beta 5 (23G5065a)](26_6_23G5057c_vs_26_6_23G5065a/README.md)
 - [26.6 beta 3 (23G5052d) .vs 26.6 beta 4 (23G5057c)](26_6_23G5052d_vs_26_6_23G5057c/README.md)
 - [26.6 beta 2 (23G5043d) .vs 26.6 beta 3 (23G5052d)](26_6_23G5043d_vs_26_6_23G5052d/README.md)
@@ -73,7 +77,9 @@
 </details>
 
 <a id="ios-26-5"></a>
+
 ### iOS 26.5
+
 <details>
   <summary>View diffs</summary>
 
@@ -85,20 +91,24 @@
 </details>
 
 <a id="ios-26-5-beta"></a>
+
 ### iOS 26.5 beta
+
 <details>
   <summary>View diffs</summary>
 
 - [26.5 beta 3 (23F5059e) .vs 26.5 beta 4 (23F5069b)](26_5_23F5059e_vs_26_5_23F5069b/README.md)
 - [26.5 beta 2 (23F5054h) .vs 26.5 beta 3 (23F5059e)](26_5_23F5054h_vs_26_5_23F5059e/README.md)
-- [26.5 beta 1 _(v2)_ (23F5043k) .vs 26.5 beta 2 (23F5054h) __OTAs__](26_5_23F5043k_vs_26_5_23F5054h/README.md)
+- [26.5 beta 1 _(v2)_ (23F5043k) .vs 26.5 beta 2 (23F5054h) **OTAs**](26_5_23F5043k_vs_26_5_23F5054h/README.md)
 - [26.5 beta 1 (23F5043g) .vs 26.5 beta 1 _(v2)_ (23F5043k)](26_5_23F5043g__vs_26_5_23F5043k/README.md)
 - [26.4 (23E246) .vs 26.5 beta 1 (23F5043g)](26_4_23E246__vs_26_5_23F5043g/README.md)
 
 </details>
 
 <a id="ios-26-4"></a>
+
 ### iOS 26.4
+
 <details>
   <summary>View diffs</summary>
 
@@ -110,7 +120,9 @@
 </details>
 
 <a id="ios-26-4-beta"></a>
+
 ### iOS 26.4 beta
+
 <details>
   <summary>View diffs</summary>
 
@@ -123,7 +135,9 @@
 </details>
 
 <a id="ios-26-3"></a>
+
 ### iOS 26.3
+
 <details>
   <summary>View diffs</summary>
 
@@ -133,7 +147,9 @@
 </details>
 
 <a id="ios-26-3-beta"></a>
+
 ### iOS 26.3 beta
+
 <details>
   <summary>View diffs</summary>
 
@@ -146,7 +162,9 @@
 </details>
 
 <a id="ios-26-2"></a>
+
 ### iOS 26.2
+
 <details>
   <summary>View diffs</summary>
 
@@ -161,7 +179,9 @@
 </details>
 
 <a id="ios-26-1-beta"></a>
+
 ### iOS 26.1 beta
+
 <details>
   <summary>View diffs</summary>
 
@@ -175,7 +195,9 @@
 </details>
 
 <a id="ios-26-0"></a>
+
 ### iOS 26.0
+
 <details>
   <summary>View diffs</summary>
 
@@ -187,7 +209,9 @@
 </details>
 
 <a id="ios-26-0-beta"></a>
+
 ### iOS 26.0 beta
+
 <details>
   <summary>View diffs</summary>
 
@@ -207,7 +231,9 @@
 </details>
 
 <a id="ios-18-7"></a>
+
 ### iOS 18.7
+
 <details>
   <summary>View diffs</summary>
 
@@ -218,7 +244,9 @@
 </details>
 
 <a id="ios-18-6"></a>
+
 ### iOS 18.6
+
 <details>
   <summary>View diffs</summary>
 
@@ -233,7 +261,9 @@
 </details>
 
 <a id="ios-18-5-beta"></a>
+
 ### iOS 18.5 beta
+
 <details>
   <summary>View diffs</summary>
 
@@ -253,7 +283,9 @@
 - [iPhone 16 Pro Max vs. iPhone 17 Pro](18_1_22B5045g__vs_18_1_22B5045h/README.md)
 
 <a id="ios-18-4"></a>
+
 ### iOS 18.4
+
 <details>
   <summary>View diffs</summary>
 
@@ -262,16 +294,18 @@
 </details>
 
 <a id="ios-18-4-beta"></a>
+
 ### iOS 18.4 beta
+
 <details>
   <summary>View diffs</summary>
 
-#### iPhone17,5 *(iPhone 16e)*
+#### iPhone17,5 _(iPhone 16e)_
 
 - [18.4 beta 2 (22E5216h) .vs 18.4 beta 3 (22E5222f)](iPhone17_5/18_4_22E5216h__vs_18_4_22E5222f/README.md)
 - [18.3.1 (22D8075) .vs 18.4 beta 2 (22E5216h)](18_3_1_22D8075__vs_18_4_22E5216h/README.md)
 
-#### iPhone17,1 *(iPhone 16 Pro)*
+#### iPhone17,1 _(iPhone 16 Pro)_
 
 - [18.4 RC (22E239) .vs 18.4 RC2 (22E240)](18_4_22E239__vs_18_4_22E240/README.md)
 - [18.4 beta 4 (22E5232a) .vs 18.4 RC (22E239)](18_4_22E5232a__vs_18_4_22E239/README.md)
@@ -283,7 +317,9 @@
 </details>
 
 <a id="ios-18-3"></a>
+
 ### iOS 18.3
+
 <details>
   <summary>View diffs</summary>
 
@@ -294,7 +330,9 @@
 </details>
 
 <a id="ios-18-3-beta"></a>
+
 ### iOS 18.3 beta
+
 <details>
   <summary>View diffs</summary>
 
@@ -307,7 +345,9 @@
 </details>
 
 <a id="ios-18-2"></a>
+
 ### iOS 18.2
+
 <details>
   <summary>View diffs</summary>
 
@@ -316,7 +356,9 @@
 </details>
 
 <a id="ios-18-2-beta"></a>
+
 ### iOS 18.2 beta
+
 <details>
   <summary>View diffs</summary>
 
@@ -331,7 +373,9 @@
 </details>
 
 <a id="ios-18-1"></a>
+
 ### iOS 18.1
+
 <details>
   <summary>View diffs</summary>
 
@@ -340,7 +384,9 @@
 </details>
 
 <a id="ios-18-1-beta"></a>
+
 ### iOS 18.1 beta
+
 <details>
   <summary>View diffs</summary>
 
@@ -356,7 +402,9 @@
 </details>
 
 <a id="ios-18-0"></a>
+
 ### iOS 18.0
+
 <details>
   <summary>View diffs</summary>
 
@@ -365,7 +413,9 @@
 </details>
 
 <a id="ios-18-0-beta"></a>
+
 ### iOS 18.0 beta
+
 <details>
   <summary>View diffs</summary>
 
@@ -374,8 +424,8 @@
 - [18.0 beta 6 (22A5338b) .vs 18.0 beta 7 (22A5346a)](18_0_22A5338b__vs_18_0_22A5346a/README.md)
 - [18.0 beta 5 (22A5326f) .vs 18.0 beta 6 (22A5338b)](18_0_22A5326f__vs_18_0_22A5338b/README.md)
 - [18.0 beta 4 (22A5316k) .vs 18.0 beta 5 (22A5326f)](18_0_22A5316k__vs_18_0_22A5326f/TOC.md)
-- [18.0 beta 3 *(revision)* (22A5307i) .vs 18.0 beta 4 (22A5316j)](18_0_22A5307i__vs_18_0_22A5316j/TOC.md)
-- [18.0 beta 3 (22A5307f) .vs 18.0 beta 3 *(revision)* (22A5307i)](18_0_22A5307f__vs_18_0_22A5307i/TOC.md)
+- [18.0 beta 3 _(revision)_ (22A5307i) .vs 18.0 beta 4 (22A5316j)](18_0_22A5307i__vs_18_0_22A5316j/TOC.md)
+- [18.0 beta 3 (22A5307f) .vs 18.0 beta 3 _(revision)_ (22A5307i)](18_0_22A5307f__vs_18_0_22A5307i/TOC.md)
 - [18.0 beta 2 (22A5297f) .vs 18.0 beta 3 (22A5307f)](18_0_22A5297f__vs_18_0_22A5307f/TOC.md)
 - [18.0 beta 1 (22A5282m) .vs 18.0 beta 2 (22A5297f)](18_0_22A5282m__vs_18_0_22A5297f/TOC.md)
 - [17.5.1 (21F90) .vs 18.0 beta 1 (22A5282m)](17_5_1_21F90__vs_18_0_22A5282m/TOC.md)
@@ -383,7 +433,9 @@
 </details>
 
 <a id="ipados-17-7"></a>
+
 ### iPadOS 17.7
+
 <details>
   <summary>View diffs</summary>
 
@@ -393,7 +445,9 @@
 </details>
 
 <a id="ios-17-6-1"></a>
+
 ### iOS 17.6.1
+
 <details>
   <summary>View diffs</summary>
 
@@ -408,7 +462,9 @@
 </details>
 
 <a id="ios-16-7"></a>
+
 ### iOS 16.7
+
 <details>
   <summary>View diffs</summary>
 
@@ -418,7 +474,9 @@
 </details>
 
 <a id="ios-15-8"></a>
+
 ### iOS 15.8
+
 <details>
   <summary>View diffs</summary>
 
@@ -427,7 +485,9 @@
 </details>
 
 <a id="ios-12-5"></a>
+
 ### iOS 12.5
+
 <details>
   <summary>View diffs</summary>
 
@@ -436,7 +496,9 @@
 </details>
 
 <a id="macos-27-0-beta"></a>
+
 ### macOS 27.0 beta
+
 <details open>
   <summary>View diffs</summary>
 
@@ -446,7 +508,9 @@
 </details>
 
 <a id="macos-26-6-beta"></a>
+
 ### macOS 26.6 beta
+
 <details open>
   <summary>View diffs</summary>
 
@@ -455,7 +519,9 @@
 </details>
 
 <a id="macos-26-4"></a>
+
 ### macOS 26.4
+
 <details open>
   <summary>View diffs</summary>
 
@@ -464,7 +530,9 @@
 </details>
 
 <a id="macos-26-3-beta"></a>
+
 ### macOS 26.3 beta
+
 <details>
   <summary>View diffs</summary>
 
@@ -473,7 +541,9 @@
 </details>
 
 <a id="macos-15-5-beta"></a>
+
 ### macOS 15.5 beta
+
 <details>
   <summary>View diffs</summary>
 
@@ -482,7 +552,9 @@
 </details>
 
 <a id="macos-15-4"></a>
+
 ### macOS 15.4
+
 <details>
   <summary>View diffs</summary>
 
@@ -491,14 +563,15 @@
 </details>
 
 <a id="macos-15-0-beta"></a>
+
 ### macOS 15.0 beta
+
 <details>
   <summary>View diffs</summary>
 
 - [15.0 beta 2 (24A5279h) .vs 15.0 beta 3 (24A5289g)](15_0_24A5279h__vs_15_0_24A5289g/TOC.md)
 
 </details>
-
 
 ### Generating Diffs
 
