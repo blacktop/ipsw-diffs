@@ -1,0 +1,36 @@
+## TrackpadAndMouseSettingsIntents
+
+> `FileSystem/System/Library/ExtensionKit/Extensions/TrackpadAndMouseSettingsIntents.appex/Localizable.loctable`
+
+```text
+en.General = "General"
+en.General → Trackpad & Mouse = "General → Trackpad \u0026 Mouse"
+en.General → Trackpad = "General → Trackpad"
+en.Natural Scrolling = "Natural Scrolling"
+en.Open Trackpad & Mouse Settings = "Open Trackpad \u0026 Mouse Settings"
+en.Secondary Click = "Secondary Click"
+en.System Haptics = "System Haptics"
+en.Tap to Click = "Tap to Click"
+en.Tracking Speed = "Tracking Speed"
+en.Trackpad & Mouse = "Trackpad \u0026 Mouse"
+en.Trackpad & Mouse Settings = "Trackpad \u0026 Mouse Settings"
+en.Trackpad = "Trackpad"
+en.Two Finger Secondary Click = "Two Finger Secondary Click"
+en.button = "button"
+en.context menu = "context menu"
+en.cursor = "cursor"
+en.direction = "direction"
+en.fast = "fast"
+en.feedback = "feedback"
+en.left = "left"
+en.pointer = "pointer"
+en.press = "press"
+en.reverse = "reverse"
+en.right = "right"
+en.sensitivity = "sensitivity"
+en.slow = "slow"
+en.swipe = "swipe"
+en.taptic = "taptic"
+en.touch = "touch"
+en.vibration = "vibration"
+```

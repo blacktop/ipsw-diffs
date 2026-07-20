@@ -1,0 +1,56 @@
+## ContactlessReaderUI
+
+> `FileSystem/System/Library/PrivateFrameworks/ContactlessReaderUI.framework/Localizable.loctable`
+
+```diff
+
+ en.ENGAGEMENT_CONNECTED = "Connected"
+ en.ENGAGEMENT_CONNECTING = "Connecting"
+ en.ENGAGEMENT_CONNECTION_FAILED = "Unable to Connect"
++en.ENGAGEMENT_CONNECT_FAILED_AX = "Failed to connect, please try again. %@"
+ en.ENGAGEMENT_CONNECT_TO_CUSTOMER = "Connect to Customer"
+ en.ENGAGEMENT_CUSTOMER_SKIPPED = "Customer Skipped"
+ en.ENGAGEMENT_END = "End"
++en.ENGAGEMENT_FLIP_TO_CUSTOMER_HINT = "Flips the screen to face the customer."
++en.ENGAGEMENT_FLIP_TO_MERCHANT_HINT = "Flips the screen to face you."
+ en.ENGAGEMENT_HOLD_NEAR_CUSTOMER = "Hold near customer phone"
+ en.ENGAGEMENT_HOLD_TO_CONNECT = "Hold Here to Connect"
+-en.ENGAGEMENT_INACTIVITY_BODY = "This session will close if you don't respond."
++en.ENGAGEMENT_HOLD_TO_CONNECT_HINT = "Hold the customer’s iPhone near the top of this iPhone."
++en.ENGAGEMENT_HOLD_TO_CONNECT_TO = "Hold Here to Connect to %@"
++en.ENGAGEMENT_INACTIVITY_BODY = "This session will close if you don’t respond."
+ en.ENGAGEMENT_INACTIVITY_END = "End Session"
+ en.ENGAGEMENT_INACTIVITY_STAY = "Stay Connected"
+ en.ENGAGEMENT_INACTIVITY_TITLE = "Are You Still Using This?"
++en.ENGAGEMENT_MERCHANT = "Merchant"
+ en.ENGAGEMENT_MERCHANT_SHARING = "Sharing with Customer"
++en.ENGAGEMENT_NOT_CONNECTED = "Not Connected"
+ en.ENGAGEMENT_OPEN_VIEW = "View"
++en.ENGAGEMENT_ORIENTATION_FACING_CUSTOMER = "Facing the customer"
++en.ENGAGEMENT_ORIENTATION_FACING_YOU = "Facing you"
+ en.ENGAGEMENT_PAYING_APPLE_PAY = "Paying with Apple Pay"
+ en.ENGAGEMENT_PAYMENT_COMPLETED = "Payment Completed"
+ en.ENGAGEMENT_PAYMENT_OPTIONS = "Payment Options"
+
+ en.QR_CODE_NOT_VALID_TITLE = "Not an ID QR Code"
+ en.QUEBEC_LINK_MARKDOWN = "For Quebec merchants, please [click here](terms://action) for terms."
+ en.RECENT = "Recent"
+-en.RECONNECT_BUTTON = "Reconnect"
+ en.SCAN_QR_CODE_TITLE = "Scan QR Code"
+ en.SCHOOL = "School"
+ en.SEARCH_BAR_PLACEHOLDER = "Search for contact"
+
+ en.SMS_OPT_IN = "Text Message"
+ en.STATE = "State"
+ en.STATE_CONNECTING_TITLE = "Connecting"
+-en.STATE_CONNECTION_FAILED_MESSAGE = "Reconnect to Resume"
+-en.STATE_CONNECTION_FAILED_TITLE = "Connection Ended"
+-en.STATE_DISCONNECTED_MESSAGE = "Reconnect to resume"
+-en.STATE_DISCONNECTED_TITLE = "Connection Ended"
++en.STATE_NOT_CONNECTED_MESSAGE = "Tap merchant device to continue"
++en.STATE_NOT_CONNECTED_TITLE = "Not Connected"
+ en.STATE_SESSION_ENDED_TITLE = "Thanks for Visiting"
+ en.STATUS_CANCELLED_LABEL = "Canceled"
+ en.STATUS_CARDTEAR = "Try Again \u0026 Hold Card Longer"
+
+```

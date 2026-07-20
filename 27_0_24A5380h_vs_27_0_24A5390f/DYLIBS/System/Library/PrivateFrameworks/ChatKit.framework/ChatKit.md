@@ -1,0 +1,1104 @@
+## ChatKit
+
+> `/System/Library/PrivateFrameworks/ChatKit.framework/ChatKit`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH_CONST.__objc_floatobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-1486.100.5.2.1
+-  __TEXT.__text: 0xbfe194
++1487.100.6.2.2
++  __TEXT.__text: 0xc199b0
+   __TEXT.__delay_stubs: 0x1c0
+-  __TEXT.__delay_helper: 0x2f74
+-  __TEXT.__objc_methlist: 0x7268c
+-  __TEXT.__const: 0x41c74
+-  __TEXT.__gcc_except_tab: 0x20900
+-  __TEXT.__cstring: 0x3ee2f
+-  __TEXT.__oslogstring: 0x54847
++  __TEXT.__delay_helper: 0x3050
++  __TEXT.__objc_methlist: 0x72e24
++  __TEXT.__const: 0x427e4
++  __TEXT.__gcc_except_tab: 0x206bc
++  __TEXT.__cstring: 0x3f157
++  __TEXT.__oslogstring: 0x54a57
+   __TEXT.__dlopen_cstrs: 0xab4
+   __TEXT.__ustring: 0x20a
+-  __TEXT.__constg_swiftt: 0x1d8dc
+-  __TEXT.__swift5_typeref: 0x47f94
+-  __TEXT.__swift5_builtin: 0x938
+-  __TEXT.__swift5_reflstr: 0x12803
+-  __TEXT.__swift5_fieldmd: 0x10968
+-  __TEXT.__swift5_assocty: 0x49c8
+-  __TEXT.__swift5_proto: 0x1c94
+-  __TEXT.__swift5_types: 0x1434
+-  __TEXT.__swift5_capture: 0x8ec4
+-  __TEXT.__swift_as_entry: 0x624
+-  __TEXT.__swift_as_ret: 0x5b0
+-  __TEXT.__swift_as_cont: 0xe1c
++  __TEXT.__constg_swiftt: 0x1dd84
++  __TEXT.__swift5_typeref: 0x48754
++  __TEXT.__swift5_builtin: 0x9b0
++  __TEXT.__swift5_reflstr: 0x12c13
++  __TEXT.__swift5_fieldmd: 0x10d40
++  __TEXT.__swift5_assocty: 0x4a70
++  __TEXT.__swift5_proto: 0x1cec
++  __TEXT.__swift5_types: 0x147c
++  __TEXT.__swift5_capture: 0x91d8
++  __TEXT.__swift_as_entry: 0x650
++  __TEXT.__swift_as_ret: 0x5e0
++  __TEXT.__swift_as_cont: 0xe5c
+   __TEXT.__swift5_protos: 0xdc
+-  __TEXT.__swift5_mpenum: 0x130
+-  __TEXT.__unwind_info: 0x31540
+-  __TEXT.__eh_frame: 0x12868
++  __TEXT.__swift5_mpenum: 0x140
++  __TEXT.__unwind_info: 0x31a50
++  __TEXT.__eh_frame: 0x12e68
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xf288
+-  __DATA_CONST.__objc_classlist: 0x2fd0
++  __DATA_CONST.__const: 0xf2b8
++  __DATA_CONST.__objc_classlist: 0x3000
+   __DATA_CONST.__objc_catlist: 0x568
+-  __DATA_CONST.__objc_protolist: 0x13a8
++  __DATA_CONST.__objc_protolist: 0x13e0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x36f58
+-  __DATA_CONST.__objc_protorefs: 0x550
+-  __DATA_CONST.__objc_superrefs: 0x19d8
++  __DATA_CONST.__objc_selrefs: 0x37348
++  __DATA_CONST.__objc_protorefs: 0x578
++  __DATA_CONST.__objc_superrefs: 0x19e0
+   __DATA_CONST.__objc_arraydata: 0xed0
+-  __DATA_CONST.__got: 0x7c08
+-  __AUTH_CONST.__const: 0x3e378
+-  __AUTH_CONST.__cfstring: 0x243a0
+-  __AUTH_CONST.__objc_const: 0x9ca78
++  __DATA_CONST.__got: 0x7ca8
++  __AUTH_CONST.__const: 0x3efc8
++  __AUTH_CONST.__cfstring: 0x24380
++  __AUTH_CONST.__objc_const: 0x9d640
+   __AUTH_CONST.__objc_arrayobj: 0xde0
+   __AUTH_CONST.__objc_intobj: 0xf18
+   __AUTH_CONST.__objc_doubleobj: 0x870
+   __AUTH_CONST.__objc_floatobj: 0x180
+   __AUTH_CONST.__objc_dictobj: 0x1e0
+-  __AUTH_CONST.__auth_got: 0x6b10
+-  __AUTH.__objc_data: 0x2c298
+-  __AUTH.__data: 0x157d8
+-  __DATA.__objc_ivar: 0x499c
+-  __DATA.__data: 0x21ecc
++  __AUTH_CONST.__auth_got: 0x6b88
++  __AUTH.__objc_data: 0x2c730
++  __AUTH.__data: 0x15ae8
++  __DATA.__objc_ivar: 0x49dc
++  __DATA.__data: 0x222e0
+   __DATA.__objc_stublist: 0x38
+-  __DATA.__bss: 0x43ff0
+-  __DATA.__common: 0x1590
+-  __DATA_DIRTY.__objc_data: 0x6558
+-  __DATA_DIRTY.__data: 0x608
++  __DATA.__bss: 0x44b30
++  __DATA.__common: 0x15f0
++  __DATA_DIRTY.__objc_data: 0x65c8
++  __DATA_DIRTY.__data: 0x618
+   __DATA_DIRTY.__bss: 0x520
+   __DATA_DIRTY.__common: 0x48
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /System/Library/PrivateFrameworks/IMSharedUI.framework/IMSharedUI
+   - /System/Library/PrivateFrameworks/IMSharedUtilities.framework/IMSharedUtilities
+   - /System/Library/PrivateFrameworks/IMTranscoding.framework/IMTranscoding
++  - /System/Library/PrivateFrameworks/IconFoundation.framework/IconFoundation
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/ImagePlaygroundInternal.framework/ImagePlaygroundInternal
+   - /System/Library/PrivateFrameworks/InputAnalytics.framework/InputAnalytics
+
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore
+   - /System/Library/PrivateFrameworks/VoiceMemos.framework/VoiceMemos
++  - /System/Library/PrivateFrameworks/_IconServices_SwiftUI.framework/_IconServices_SwiftUI
+   - /System/Library/PrivateFrameworks/iTunesStore.framework/iTunesStore
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libMobileGestalt.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 74142
+-  Symbols:   95946
+-  CStrings:  13168
++  Functions: 74708
++  Symbols:   96314
++  CStrings:  13187
+ 
+Symbols:
++ +[CKKeyTransparencyErrorUtilities _treePopulatingURL]
++ +[CKKeyTransparencyErrorUtilities showTreePopulatingError]
++ +[CKMEPFeatures sharedFeatures]
++ +[CKNicknameUtility appIconBundleIdForUpdate:style:]
++ +[CKUserActivityHandler _appendOrderedContent:toComposition:completion:]
++ +[CKUserActivityHandler _shouldUseOrderedContentFromLaunchEventContext:]
++ -[CKAppCardKeyboardDismissalInputs initWithPresentingCard:presentingInSendMenuPopover:expanded:entryViewFirstResponder:]
++ -[CKAppCardKeyboardDismissalInputs isEntryViewFirstResponder]
++ -[CKAppCardKeyboardDismissalInputs isExpanded]
++ -[CKAppCardKeyboardDismissalInputs isPresentingCard]
++ -[CKAppCardKeyboardDismissalInputs isPresentingInSendMenuPopover]
++ -[CKAppCardKeyboardDismissalInputs setEntryViewFirstResponder:]
++ -[CKAppCardKeyboardDismissalInputs setExpanded:]
++ -[CKAppCardKeyboardDismissalInputs setPresentingCard:]
++ -[CKAppCardKeyboardDismissalInputs setPresentingInSendMenuPopover:]
++ -[CKChatController chatInputController:shouldDismissCardOnKeyboardAppearanceForProposal:inputs:]
++ -[CKChatController messageEntryViewActiveAppCardPopoverMetrics:]
++ -[CKChatControllerCoordinator preferredNavigationBarMinimizeBehaviorForProposedMinimizeBehavior:]
++ -[CKChatControllerCoordinator shouldDismissCardOnKeyboardAppearanceForProposal:inputs:]
++ -[CKChatInputController activeAppCardPopoverMetrics]
++ -[CKChatInputController appCardOverseerModalPresentationStyleDidChange]
++ -[CKChatInputController appCardOverseerPopoverAnchorView]
++ -[CKChatInputController isAppCardInSendMenuPopover]
++ -[CKChatInputController isPresentingAdaptiveAppCard]
++ -[CKChatInputController isPresentingKeyboardHeightAppCard]
++ -[CKChatItemMetricsProvider setWrappedSupportsPreferredStampTextViewFrame:]
++ -[CKChatItemMetricsProvider transcriptStampCell:getPreferredStampTextViewFrame:forProposedStampTextViewFrame:chatItem:]
++ -[CKChatItemMetricsProvider wrappedSupportsPreferredStampTextViewFrame]
++ -[CKComposeAssetExplorerManager setSuppressesShelfStaging:]
++ -[CKComposeAssetExplorerManager suppressesShelfStaging]
++ -[CKConversationListCollectionViewController _shouldSuppressDefaultConversation]
++ -[CKConversationListCollectionViewController _showConversation:withComposition:userInitiated:]
++ -[CKConversationListCollectionViewController _showConversationWithComposition:atIndexPath:userInitiated:]
++ -[CKImageBalloonView displayMeshGradient:gradientColors:wantsPlayButton:]
++ -[CKKeyTransparencyTranscriptCell menuForErrorStillPopulating]
++ -[CKKeyTransparencyTranscriptCell treePopulatingAction]
++ -[CKMEPFeatures .cxx_destruct]
++ -[CKMEPFeatures isRaiseGestureEnabledWithProposal:]
++ -[CKMEPFeatures isRaiseGestureSupportedWithProposal:]
++ -[CKMEPFeatures setWrappedFeatures:]
++ -[CKMEPFeatures wrappedFeatures]
++ -[CKMediaObject shouldDisplayMeshGradient]
++ -[CKMediaObject(Display) fileIsIncoming]
++ -[CKMessageEditingView _keyCommandControlCNoOp:]
++ -[CKMessageEntryView _keyCommandControlCNoOp:]
++ -[CKMessageEntryView sendMenuModalPresentationStyleDidChange:]
++ -[CKMessagesController chatControllerDidReselectConversation:userInitiated:]
++ -[CKModalTranscriptController deferredInsertBlocks]
++ -[CKModalTranscriptController insertCompositionText:]
++ -[CKModalTranscriptController setDeferredInsertBlocks:]
++ -[CKNicknameBannerView initWithStyle:updates:useNamedTitles:avatarImages:contacts:appIconBundleID:titleString:subtitleString:actionButtonTitle:actionButtonHandler:actionButtonMenuItems:xButtonHandler:]
++ -[CKNotificationChatController messageEntryViewActiveAppCardPopoverMetrics:]
++ -[CKProgressView _isUsingMaterial]
++ -[CKProgressView _makeOutlineLayer]
++ -[CKProgressView _resolvedProgressColor]
++ -[CKProgressView _updateMaterialProperties]
++ -[CKProgressView _updateViewHierarchy]
++ -[CKProgressView progressBackdropLayer]
++ -[CKProgressView progressMaterialView]
++ -[CKProgressView setProgressBackdropLayer:]
++ -[CKProgressView setProgressMaterialView:]
++ -[CKProgressView setTrackBackdropLayer:]
++ -[CKProgressView setTrackMaterialView:]
++ -[CKProgressView setTrackOutlineLayer:]
++ -[CKProgressView trackBackdropLayer]
++ -[CKProgressView trackMaterialView]
++ -[CKProgressView trackOutlineLayer]
++ -[CKSMSComposeController insertCompositionText:]
++ -[CKSMSComposeController setSuppressesShelfStaging:]
++ -[CKSMSComposeViewServiceController insertCompositionText:]
++ -[CKSMSComposeViewServiceController setSuppressesShelfStaging:]
++ -[CKSendMenuPopoverContainerViewController(RemoteViewControllerContaining) _containedRemoteViewController]
++ -[CKSendMenuPresentation _applyPopoverChromeToController:]
++ -[CKSendMenuPresentation _popoverZoomTransitionIfEnabled]
++ -[CKSendMenuPresentation isAppCardAdaptedToSheet]
++ -[CKSendMenuPresentation isAppCardCurrentlyInSheet]
++ -[CKSendMenuPresentation isAppCardInPopoverContainer:]
++ -[CKSendMenuPresentation isShowingAppCardInPopover]
++ -[CKSendMenuPresentation presentationController:willPresentWithAdaptiveStyle:transitionCoordinator:]
++ -[CKSendMenuPresentation setIsAppCardAdaptedToSheet:]
++ -[CKTranscriptBalloonCell _ringProgressViewFrameForQuickActionButtonFrame:]
++ -[CKTranscriptCollectionViewController _handleSiriSuggestionsInAppSettingChanged:]
++ -[CKTranscriptCollectionViewController _setUpSiriSuggestionsInAppSettingChangeNotifications]
++ -[CKTranscriptCollectionViewController activeAssistantActionSuggestionActionIdentifier]
++ -[CKTranscriptCollectionViewController activeAssistantActionSuggestionMessagePartGUID]
++ -[CKTranscriptCollectionViewController keyTransparencyTranscriptCellDidSelectTreePopulating:]
++ -[CKTranscriptCollectionViewController setActiveAssistantActionSuggestionActionIdentifier:]
++ -[CKTranscriptCollectionViewController setActiveAssistantActionSuggestionMessagePartGUID:]
++ -[CKTranscriptCollectionViewController shouldUpdateScrollIntentOnViewWillAppear]
++ -[CKTranscriptCollectionViewController transcriptStampCell:getPreferredStampTextViewFrame:forProposedStampTextViewFrame:]
++ -[CKTranscriptStampCell setStampCellLayoutDelegate:]
++ -[CKTranscriptStampCell stampCellLayoutDelegate]
++ -[NSAttributedString(CompositionSanitizing) ck_attributedStringByRemovingNonAdaptiveImageGlyphEmbeds]
++ -[UITraitCollection(CKIconAppearance) ck_homeScreenIconStyleConfiguration]
++ GCC_except_table1001
++ GCC_except_table1003
++ GCC_except_table1005
++ GCC_except_table1011
++ GCC_except_table1016
++ GCC_except_table1022
++ GCC_except_table1028
++ GCC_except_table1032
++ GCC_except_table1033
++ GCC_except_table1034
++ GCC_except_table1039
++ GCC_except_table1040
++ GCC_except_table1045
++ GCC_except_table1049
++ GCC_except_table1075
++ GCC_except_table1081
++ GCC_except_table1088
++ GCC_except_table1119
++ GCC_except_table1121
++ GCC_except_table1144
++ GCC_except_table1149
++ GCC_except_table1151
++ GCC_except_table1196
++ GCC_except_table1198
++ GCC_except_table1200
++ GCC_except_table1205
++ GCC_except_table1206
++ GCC_except_table1213
++ GCC_except_table1215
++ GCC_except_table1217
++ GCC_except_table122
++ GCC_except_table1225
++ GCC_except_table1243
++ GCC_except_table1254
++ GCC_except_table227
++ GCC_except_table237
++ GCC_except_table238
++ GCC_except_table245
++ GCC_except_table263
++ GCC_except_table267
++ GCC_except_table270
++ GCC_except_table271
++ GCC_except_table292
++ GCC_except_table304
++ GCC_except_table309
++ GCC_except_table315
++ GCC_except_table323
++ GCC_except_table326
++ GCC_except_table345
++ GCC_except_table361
++ GCC_except_table362
++ GCC_except_table403
++ GCC_except_table405
++ GCC_except_table407
++ GCC_except_table416
++ GCC_except_table427
++ GCC_except_table439
++ GCC_except_table444
++ GCC_except_table452
++ GCC_except_table470
++ GCC_except_table481
++ GCC_except_table482
++ GCC_except_table492
++ GCC_except_table493
++ GCC_except_table511
++ GCC_except_table512
++ GCC_except_table515
++ GCC_except_table525
++ GCC_except_table526
++ GCC_except_table537
++ GCC_except_table543
++ GCC_except_table546
++ GCC_except_table552
++ GCC_except_table568
++ GCC_except_table572
++ GCC_except_table583
++ GCC_except_table587
++ GCC_except_table590
++ GCC_except_table597
++ GCC_except_table603
++ GCC_except_table604
++ GCC_except_table605
++ GCC_except_table618
++ GCC_except_table619
++ GCC_except_table624
++ GCC_except_table625
++ GCC_except_table629
++ GCC_except_table636
++ GCC_except_table637
++ GCC_except_table638
++ GCC_except_table644
++ GCC_except_table651
++ GCC_except_table655
++ GCC_except_table663
++ GCC_except_table664
++ GCC_except_table670
++ GCC_except_table672
++ GCC_except_table674
++ GCC_except_table676
++ GCC_except_table681
++ GCC_except_table685
++ GCC_except_table689
++ GCC_except_table690
++ GCC_except_table694
++ GCC_except_table698
++ GCC_except_table708
++ GCC_except_table710
++ GCC_except_table711
++ GCC_except_table716
++ GCC_except_table718
++ GCC_except_table724
++ GCC_except_table727
++ GCC_except_table740
++ GCC_except_table742
++ GCC_except_table744
++ GCC_except_table753
++ GCC_except_table760
++ GCC_except_table763
++ GCC_except_table765
++ GCC_except_table769
++ GCC_except_table772
++ GCC_except_table779
++ GCC_except_table780
++ GCC_except_table782
++ GCC_except_table784
++ GCC_except_table791
++ GCC_except_table794
++ GCC_except_table795
++ GCC_except_table796
++ GCC_except_table797
++ GCC_except_table800
++ GCC_except_table826
++ GCC_except_table827
++ GCC_except_table831
++ GCC_except_table856
++ GCC_except_table857
++ GCC_except_table866
++ GCC_except_table872
++ GCC_except_table873
++ GCC_except_table882
++ GCC_except_table896
++ GCC_except_table898
++ GCC_except_table924
++ GCC_except_table944
++ GCC_except_table948
++ GCC_except_table956
++ GCC_except_table960
++ GCC_except_table961
++ GCC_except_table969
++ GCC_except_table971
++ GCC_except_table978
++ GCC_except_table983
++ GCC_except_table988
++ GCC_except_table989
++ GCC_except_table993
++ GCC_except_table995
++ OBJC_IVAR_$_CKTranscriptCollectionViewLayoutAttributes._parentChatItemSize
++ _IMCMMAssetIndexFromIMFileTransferGUID
++ _IMChatRegistryContinuityActivityType
++ _IMRegisterForSiriSuggestionsInAppSettingChanges
++ _IMSiriSuggestionsInAppSettingChangedNotification
++ _OBJC_CLASS_$_CKAppCardKeyboardDismissalInputs
++ _OBJC_CLASS_$_CKIconAppearance
++ _OBJC_CLASS_$_CKMEPFeatures
++ _OBJC_CLASS_$_CKResolvedIconAppearance
++ _OBJC_CLASS_$_IFColor
++ _OBJC_CLASS_$_IMMessageAssistantActionCompletionContext
++ _OBJC_CLASS_$_SBSHomeScreenIconStyleConfiguration
++ _OBJC_CLASS_$_SBSHomeScreenService
++ _OBJC_CLASS_$_SBSUITraitHomeScreenIconStyle
++ _OBJC_CLASS_$_SBSUITraitHomeScreenIconStyle$loadHelper_x8
++ _OBJC_CLASS_$_UIPopoverPresentationController
++ _OBJC_CLASS_$_UIScreenEdgePanGestureRecognizer
++ _OBJC_CLASS_$__TtC7ChatKit29CKHomeScreenIconStyleObserver
++ _OBJC_IVAR_$_CKAppCardKeyboardDismissalInputs._entryViewFirstResponder
++ _OBJC_IVAR_$_CKAppCardKeyboardDismissalInputs._expanded
++ _OBJC_IVAR_$_CKAppCardKeyboardDismissalInputs._presentingCard
++ _OBJC_IVAR_$_CKAppCardKeyboardDismissalInputs._presentingInSendMenuPopover
++ _OBJC_IVAR_$_CKChatItemMetricsProvider._wrappedSupportsPreferredStampTextViewFrame
++ _OBJC_IVAR_$_CKInternalAudioPlayer._cachedDuration
++ _OBJC_IVAR_$_CKMEPFeatures._wrappedFeatures
++ _OBJC_IVAR_$_CKModalTranscriptController._deferredInsertBlocks
++ _OBJC_IVAR_$_CKProgressView._progressBackdropLayer
++ _OBJC_IVAR_$_CKProgressView._progressMaterialView
++ _OBJC_IVAR_$_CKProgressView._trackBackdropLayer
++ _OBJC_IVAR_$_CKProgressView._trackMaterialView
++ _OBJC_IVAR_$_CKProgressView._trackOutlineLayer
++ _OBJC_IVAR_$_CKSendMenuPresentation._isAppCardAdaptedToSheet
++ _OBJC_IVAR_$_CKTranscriptCollectionViewController._activeAssistantActionSuggestionActionIdentifier
++ _OBJC_IVAR_$_CKTranscriptCollectionViewController._activeAssistantActionSuggestionMessagePartGUID
++ _OBJC_IVAR_$_CKTranscriptStampCell._stampCellLayoutDelegate
++ _OBJC_METACLASS_$_CKAppCardKeyboardDismissalInputs
++ _OBJC_METACLASS_$_CKIconAppearance
++ _OBJC_METACLASS_$_CKMEPFeatures
++ _OBJC_METACLASS_$_CKResolvedIconAppearance
++ _OBJC_METACLASS_$__TtC7ChatKit29CKHomeScreenIconStyleObserver
++ __DATA_CKIconAppearance
++ __DATA_CKResolvedIconAppearance
++ __DATA__TtC7ChatKit29CKHomeScreenIconStyleObserver
++ __DATA__TtC7ChatKitP33_37818C609A470A049DBE2F99E30AC45E30ServiceForSendingRefreshWaiter
++ __INSTANCE_METHODS_CKIconAppearance
++ __INSTANCE_METHODS_CKResolvedIconAppearance
++ __IVARS_CKResolvedIconAppearance
++ __IVARS__TtC7ChatKit29CKHomeScreenIconStyleObserver
++ __IVARS__TtC7ChatKitP33_37818C609A470A049DBE2F99E30AC45E30ServiceForSendingRefreshWaiter
++ __MEPDismissCardOnKeyboardAppearanceInputsClass
++ __MEPDismissCardOnKeyboardAppearanceInputsClass.onceToken
++ __MEPDismissCardOnKeyboardAppearanceInputsClass.result
++ __METACLASS_DATA_CKIconAppearance
++ __METACLASS_DATA_CKResolvedIconAppearance
++ __METACLASS_DATA__TtC7ChatKit29CKHomeScreenIconStyleObserver
++ __METACLASS_DATA__TtC7ChatKitP33_37818C609A470A049DBE2F99E30AC45E30ServiceForSendingRefreshWaiter
++ __OBJC_$_CLASS_METHODS_CKIconAppearance(ChatKit)
++ __OBJC_$_CLASS_METHODS_CKMEPFeatures
++ __OBJC_$_CLASS_METHODS__TtC7ChatKit34CKCommunicationSafetyFlowPresenter(ChatKit|ChatKit1)
++ __OBJC_$_CLASS_PROP_LIST_CKMEPFeatures
++ __OBJC_$_INSTANCE_METHODS_CKAppCardKeyboardDismissalInputs
++ __OBJC_$_INSTANCE_METHODS_CKMEPFeatures
++ __OBJC_$_INSTANCE_METHODS_UITraitCollection(ForCoreChatController|CKIconAppearance|ChatKit|ChatKit1|ChatKit2|ChatKit3|ChatKit4)
++ __OBJC_$_INSTANCE_METHODS__TtC7ChatKit29CKHomeScreenIconStyleObserver(ChatKit)
++ __OBJC_$_INSTANCE_METHODS__TtC7ChatKit39CKAssistantActionSuggestionModalManager(ChatKit|ChatKit1|ChatKit2)
++ __OBJC_$_INSTANCE_METHODS__TtC7ChatKit40CKSendMenuPopoverContainerViewController(RemoteViewControllerContaining|ChatKit)
++ __OBJC_$_INSTANCE_VARIABLES_CKAppCardKeyboardDismissalInputs
++ __OBJC_$_INSTANCE_VARIABLES_CKMEPFeatures
++ __OBJC_$_PROP_LIST_CKAppCardKeyboardDismissalInputs
++ __OBJC_$_PROP_LIST_CKMEPFeatures
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CKTranscriptStampCellLayoutDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SBSHomeScreenServiceIconStyleObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__TtP7ChatKit23CKAdaptiveMorphHandling_
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CKTranscriptStampCellLayoutDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SBSHomeScreenServiceIconStyleObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES__TtP7ChatKit23CKAdaptiveMorphHandling_
++ __OBJC_$_PROTOCOL_REFS_CKTranscriptStampCellLayoutDelegate
++ __OBJC_CLASS_PROTOCOLS_$__TtC7ChatKit29CKHomeScreenIconStyleObserver(ChatKit)
++ __OBJC_CLASS_PROTOCOLS_$__TtC7ChatKit39CKAssistantActionSuggestionModalManager(ChatKit|ChatKit1|ChatKit2)
++ __OBJC_CLASS_PROTOCOLS_$__TtC7ChatKit40CKSendMenuPopoverContainerViewController(RemoteViewControllerContaining|ChatKit)
++ __OBJC_CLASS_RO_$_CKAppCardKeyboardDismissalInputs
++ __OBJC_CLASS_RO_$_CKMEPFeatures
++ __OBJC_LABEL_PROTOCOL_$_CKTranscriptStampCellLayoutDelegate
++ __OBJC_LABEL_PROTOCOL_$_SBSHomeScreenServiceIconStyleObserver
++ __OBJC_LABEL_PROTOCOL_$__TtP7ChatKit23CKAdaptiveMorphHandling_
++ __OBJC_METACLASS_RO_$_CKAppCardKeyboardDismissalInputs
++ __OBJC_METACLASS_RO_$_CKMEPFeatures
++ __OBJC_PROTOCOL_$_CKTranscriptStampCellLayoutDelegate
++ __OBJC_PROTOCOL_$_SBSHomeScreenServiceIconStyleObserver
++ __OBJC_PROTOCOL_$__TtP7ChatKit23CKAdaptiveMorphHandling_
++ __OBJC_PROTOCOL_REFERENCE_$__TtP7ChatKit23CKAdaptiveMorphHandling_
++ __PROPERTIES_CKResolvedIconAppearance
++ __PROPERTIES__TtC7ChatKit17ConversationTitle
++ __PROTOCOL_INSTANCE_METHODS_OPT__TtP17CoreSuggestionsUI60SGAssistantActionModalPresentingViewControllerActionDelegate_
++ __PROTOCOL_INSTANCE_METHODS_OPT__TtP7ChatKit40CKAssistantActionSuggestionModalDelegate_
++ __PROTOCOL_INSTANCE_METHODS__TtP7ChatKit23CKAdaptiveMorphHandling_
++ __PROTOCOL_METHOD_TYPES__TtP17CoreSuggestionsUI60SGAssistantActionModalPresentingViewControllerActionDelegate_
++ __PROTOCOL_METHOD_TYPES__TtP7ChatKit23CKAdaptiveMorphHandling_
++ __PROTOCOL_PROTOCOLS__TtP17CoreSuggestionsUI60SGAssistantActionModalPresentingViewControllerActionDelegate_
++ __PROTOCOL__TtP17CoreSuggestionsUI60SGAssistantActionModalPresentingViewControllerActionDelegate_
++ __PROTOCOL__TtP7ChatKit23CKAdaptiveMorphHandling_
++ ___100-[CKSendMenuPresentation presentationController:willPresentWithAdaptiveStyle:transitionCoordinator:]_block_invoke
++ ___100-[CKSendMenuPresentation presentationController:willPresentWithAdaptiveStyle:transitionCoordinator:]_block_invoke_2
++ ___101-[NSAttributedString(CompositionSanitizing) ck_attributedStringByRemovingNonAdaptiveImageGlyphEmbeds]_block_invoke
++ ___101-[NSAttributedString(CompositionSanitizing) ck_attributedStringByRemovingNonAdaptiveImageGlyphEmbeds]_block_invoke_2
++ ___105-[CKConversationListCollectionViewController _showConversationWithComposition:atIndexPath:userInitiated:]_block_invoke
++ ___201-[CKNicknameBannerView initWithStyle:updates:useNamedTitles:avatarImages:contacts:appIconBundleID:titleString:subtitleString:actionButtonTitle:actionButtonHandler:actionButtonMenuItems:xButtonHandler:]_block_invoke
++ ___201-[CKNicknameBannerView initWithStyle:updates:useNamedTitles:avatarImages:contacts:appIconBundleID:titleString:subtitleString:actionButtonTitle:actionButtonHandler:actionButtonMenuItems:xButtonHandler:]_block_invoke_2
++ ___201-[CKNicknameBannerView initWithStyle:updates:useNamedTitles:avatarImages:contacts:appIconBundleID:titleString:subtitleString:actionButtonTitle:actionButtonHandler:actionButtonMenuItems:xButtonHandler:]_block_invoke_3
++ ___31+[CKMEPFeatures sharedFeatures]_block_invoke
++ ___53-[CKModalTranscriptController insertCompositionText:]_block_invoke
++ ___55-[CKKeyTransparencyTranscriptCell treePopulatingAction]_block_invoke
++ ___57-[CKSendMenuPresentation _popoverZoomTransitionIfEnabled]_block_invoke
++ ___62-[CKMessageEntryView sendMenuModalPresentationStyleDidChange:]_block_invoke
++ ___68-[CKChatController verifyCompositionSendForFileProvider:completion:]_block_invoke_3
++ ___80-[CKTranscriptCollectionViewController _showBlockContactSelectionAlertFromView:]_block_invoke_2
++ ___80-[CKTranscriptCollectionViewController _showBlockContactSelectionAlertFromView:]_block_invoke_3
++ ___82-[CKTranscriptCollectionViewController _handleSiriSuggestionsInAppSettingChanged:]_block_invoke
++ ___92-[CKTranscriptCollectionViewController _setUpSiriSuggestionsInAppSettingChangeNotifications]_block_invoke
++ ____MEPDismissCardOnKeyboardAppearanceInputsClass_block_invoke
++ ___block_descriptor_58_e8_32s40s48s_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8ls32l8s40l8s48l8
++ ___swift_closure_destructor.15Tm
++ ___swift_closure_destructor.229Tm
++ ___swift_closure_destructor.40Tm
++ ___swift_closure_destructor.59Tm
++ ___swift_closure_destructor.65Tm
++ ___swift_closure_destructor.72Tm
++ ___swift_closure_destructor.73Tm
++ ___swift_closure_destructor.84Tm
++ ___swift_closure_destructor.93Tm
++ ___swift_memcpy4_1
++ ___swift_memcpy57_8
++ ___swift_memcpy65_8
++ __setUpSiriSuggestionsInAppSettingChangeNotifications.siriSuggestionsBridgeOnceToken
++ _associated conformance 7ChatKit15VideoPlayButton33_B75933A2D31E5D1A0B34F2AA4F243E90LLV7SwiftUI4ViewAA4BodyAeFP_AeF
++ _associated conformance 7ChatKit17BannerAppIconView33_038F8E1D4D749E302934F6DD61BE26BELLV7SwiftUI0F0AA4BodyAeFP_AeF
++ _associated conformance 7ChatKit21SensitiveContentErrorO10Foundation13CustomNSErrorAAs0E0
++ _associated conformance 7ChatKit21SensitiveContentErrorOSHAASQ
++ _associated conformance 7ChatKit23CKRingProgressViewStyleOSHAASQ
++ _associated conformance 7ChatKit24CommunicationLimitsErrorO10Foundation13CustomNSErrorAAs0E0
++ _associated conformance 7ChatKit24CommunicationLimitsErrorOSHAASQ
++ _dlopenHelper$SpringBoardUIServices
++ _dlopenHelperFlag$SpringBoardUIServices
++ _get_enum_tag_for_layout_string 7ChatKit11BannerImageO
++ _get_enum_tag_for_layout_string 7ChatKit11BannerImageOSg
++ _get_enum_tag_for_layout_string 7ChatKit29SensitiveContentGalleryActionO
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy7ChatKit09SensitiveD7ContextVSg_G
++ _get_witness_table 21_IconServices_SwiftUI05AsyncA5ImageVy0cD019_ConditionalContentVyAD0F0VAD9EmptyViewVGGAD0J0HPyHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA14GeometryReaderVyACyACyAA6ZStackVyAA05TupleD0VyACyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGG_AQQPGGAA12_ScaleEffectVGAA15_PositionLayoutVGGAA017_AllowsHitTestingL0VGSgAA4ViewHpA1_AAA3_HPAzAA3_HPyHC_A0_AA0uL0HPyHCHC_HC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicmN0O5BoundRtd__lFQOyAA6VStackVyAA05TupleD0VyACyACyACyACyAA6HStackVyARyAA012_ConditionalD0VyAA05EmptyE0VACyAeAE11buttonStyleyQrqd__AA06ButtonW0Rd__lFQOyAA0X0VyACyAeAE10fontWeightyQrAA4FontV0Z0VSgFQOyAA5ImageV_Qo_AA14_PaddingLayoutVGG_7ChatKit06BannerE0V06CirclexW033_E57D8E23A12CCD91C6F0FE059656E000LLVQo_AA011_ForegroundW8ModifierVyAA017HierarchicalShapeW0VGGGSg_AeAE12onTapGesture5count7performQrSi_yyctFQOyATyARyACyAVyAVyAVyAVyACyA14_013BannerAppIconE033_038F8E1D4D749E302934F6DD61BE26BELLVAA12_FrameLayoutVGACyA8_A36_GGAVyAA03AnyE0VA14_011AvatarStackE0VGGAXGAXGAA0I18AttachmentModifierVG_APyARyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA06_FixedN6LayoutVGSg_A61_QPGGQPGG_Qo_AA6SpacerVAVyACyACyACyAA5GroupVyAVyAeAEA1_yQrA6_FQOyAA4MenuVyACyA52_A11_GAA7ForEachVySayA14_8MenuItemVG10Foundation4UUIDVA0_yAVyACyAA5LabelVyA52_A8_GA54_yAA5ColorVSgGGA52_GGGG_Qo_A14_0X20WithUIViewBackgroundVyA73_GGGA54_yAA08AnyShapeW0VSgGGA16_06BannerxW8ModifierA18_LLVGA54_yAA0X11BorderShapeVGGAXGA28_QPGGA11_GA11_GA11_GA11_G_ACyACyACyACyAVyAA4GridVyAA7GridRowVyA75_ySayA14_06BannerX0VGA81_ACyACyACyAeAEAYyQrqd__AA09PrimitivexW0Rd__lFQOyA70_yAVyA93_A96_yACyACyA52_AA16_FlexFrameLayoutVGA88_GGGG_AA08BorderedxW0VQo_A110_GA54_yA3_SgGGA128_GGGGAXGA11_GA11_GA11_GA11_GSgQPGG_s19PartialRangeThroughVyALGQo__Qo_AA19_BackgroundModifierVyACyACyACyAPyARyA14_010ChromeBlurE0VSg_AA7DividerVSgQPGGAA25_AllowsHitTestingModifierVGAA11_ClipEffectVyAA16RoundedRectangleVGGAA30_SafeAreaRegionsIgnoringLayoutVGGGA14_20GlassPlatterModifierVyA174_GGA11_GA178_GA128_GAaDHPA187_AaDHPA186_AaDHPA185_AaDHPA181_AaDHPqd__AaDHD2_A157_HO_A180_AA0E8ModifierHPyHCHC_A184_AAA189_HPyHCHC_A11_AAA189_HPyHCHC_A178_AAA189_HPyHCHC_A128_AAA189_HPyHCHC
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA6ZStackVyAA05TupleD0Vy7ChatKit29VisualEffectViewRepresentableV_AEyAEyAEyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0N9AlignmentOGGAA010_BlendModeK0VGAA14_PaddingLayoutVGQPGGAA08_OverlayR0VyAEyAEyAEyAJ09Sensitived6ButtonM0VSgAA06_FrameW0VGAYGAYGGGA5_GAA0L0HPA12_AAA14_HPA0_AAA14_HPyHC_A11_AA0lR0HPyHCHC_A5_AAA14_HpA4_AAA14_HPyHC_HCHC
++ _get_witness_table 7SwiftUI6ZStackVyAA12TupleContentVyAA08ModifiedE0VyAA12MeshGradientVAA16_OverlayModifierVy7ChatKit15VideoPlayButton33_B75933A2D31E5D1A0B34F2AA4F243E90LLVSgGG_AGyAGyAGyAL16RingProgressViewANLLVAA12_FrameLayoutVGAA14_PaddingLayoutVGAYGSgQPGGAA4ViewHPyHC
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBP8FeedbackE06inlineD010controller10completionQrAA7BindingVyAD23FBKEvaluationControllerCG_ys6ResultOy0D7Service14FBKSEvaluationCs5Error_pGcSgtFQOyAA15ModifiedContentVyAVyAVyAVyAVy20CommunicationDetails0r6ScrollC0Vy7ChatKit7GalleryV0vcP033_03EA25B3F1ED67DA61C1C78F06DDBB32LLVGAA31AccessibilityAttachmentModifierVGAA30_EnvironmentKeyWritingModifierVyyAZ09SensitivepV6ActionOcSgGGA9_yAZ09SensitiveP7ContextVSgGGA9_ySo019PRUISPosterSnapshotJ0CSgGGA9_y10Foundation4UUIDVSgGG_Qo_HO
++ _objc_msgSend$_applyPopoverChromeToController:
++ _objc_msgSend$_isUsingMaterial
++ _objc_msgSend$_makeOutlineLayer
++ _objc_msgSend$_navigationTitleAlignment
++ _objc_msgSend$_popoverZoomTransitionIfEnabled
++ _objc_msgSend$_reloadChatItemsForSiriSuggestionsSettingChange
++ _objc_msgSend$_resolvedProgressColor
++ _objc_msgSend$_ringProgressViewFrameForQuickActionButtonFrame:
++ _objc_msgSend$_setTitleAlignment:
++ _objc_msgSend$_setUpSiriSuggestionsInAppSettingChangeNotifications
++ _objc_msgSend$_shouldSuppressDefaultConversation
++ _objc_msgSend$_showConversation:withComposition:userInitiated:
++ _objc_msgSend$_showConversationWithComposition:atIndexPath:userInitiated:
++ _objc_msgSend$_treePopulatingURL
++ _objc_msgSend$_updateMaterialProperties
++ _objc_msgSend$_updateViewHierarchy
++ _objc_msgSend$actionCompletionContextByActionIdentifier
++ _objc_msgSend$activeAppCardPopoverMetrics
++ _objc_msgSend$activeAssistantActionSuggestionActionIdentifier
++ _objc_msgSend$activeAssistantActionSuggestionMessagePartGUID
++ _objc_msgSend$adaptivePopoverLayoutMetrics
++ _objc_msgSend$adaptiveSheetPresentationController
++ _objc_msgSend$addHomeScreenIconStyleObserver:
++ _objc_msgSend$analyzeContent:withChatID:isFromMe:completionHandler:
++ _objc_msgSend$analyzeContent:withIdentifier:chatID:isFromMe:completionHandler:
++ _objc_msgSend$appCardOverseerModalPresentationStyleDidChange
++ _objc_msgSend$appCardOverseerPopoverAnchorView
++ _objc_msgSend$appIconBundleIdForUpdate:style:
++ _objc_msgSend$assistantActionSuggestionModalManager:didAddCalendarEventWithIdentifier:
++ _objc_msgSend$assistantActionSuggestions
++ _objc_msgSend$assistantActionSuggestionsForMessagePartIndex:
++ _objc_msgSend$bannerWithTitle:subtitleString:contacts:appIconBundleID:actionButtonObjects:forceImageCentering:xButtonHandler:
++ _objc_msgSend$bannerWithTitle:subtitleString:contacts:avatarImages:actionButtonObjects:forceImageCentering:xButtonHandler:
++ _objc_msgSend$blockHandle:parentViewController:completion:
++ _objc_msgSend$bundleURL
++ _objc_msgSend$calendarItemWithIdentifier:
++ _objc_msgSend$cgPath
++ _objc_msgSend$chatControllerDidReselectConversation:userInitiated:
++ _objc_msgSend$chatInputController:shouldDismissCardOnKeyboardAppearanceForProposal:inputs:
++ _objc_msgSend$ck_attributedStringByRemovingNonAdaptiveImageGlyphEmbeds
++ _objc_msgSend$ck_homeScreenIconStyleConfiguration
++ _objc_msgSend$configurationForColorType:traitCollection:
++ _objc_msgSend$configurationType
++ _objc_msgSend$configureForAdaptiveSheetPresentation
++ _objc_msgSend$contactsAppIconBundleID
++ _objc_msgSend$createdCalendarItemIdentifier
++ _objc_msgSend$defaultStyleConfiguration
++ _objc_msgSend$deferredInsertBlocks
++ _objc_msgSend$displayMeshGradient:gradientColors:wantsPlayButton:
++ _objc_msgSend$fileIsIncoming
++ _objc_msgSend$handleAdaptiveMorph
++ _objc_msgSend$hasActiveDrag
++ _objc_msgSend$hasActiveDrop
++ _objc_msgSend$homeScreenIconStyleConfiguration
++ _objc_msgSend$iconServicesAppearanceUsingDarkInterfaceStyle:
++ _objc_msgSend$iconServicesAppearanceVariantUsingDarkInterfaceStyle:
++ _objc_msgSend$initWithColorValues:progress:wantsPlayButton:
++ _objc_msgSend$initWithPillFrame:cornerRadius:
++ _objc_msgSend$initWithPresentingCard:presentingInSendMenuPopover:expanded:entryViewFirstResponder:
++ _objc_msgSend$initWithStyle:updates:useNamedTitles:avatarImages:contacts:appIconBundleID:titleString:subtitleString:actionButtonTitle:actionButtonHandler:actionButtonMenuItems:xButtonHandler:
++ _objc_msgSend$insertCompositionText:
++ _objc_msgSend$isAppCardCurrentlyInSheet
++ _objc_msgSend$isAppCardInPopoverContainer:
++ _objc_msgSend$isAppCardInSendMenuPopover
++ _objc_msgSend$isIncoming
++ _objc_msgSend$isPresentingAdaptiveAppCard
++ _objc_msgSend$isPresentingAdaptiveCard
++ _objc_msgSend$isPresentingKeyboardHeightAppCard
++ _objc_msgSend$isRaiseGestureEnabledWithProposal:
++ _objc_msgSend$isRaiseGestureSupportedWithProposal:
++ _objc_msgSend$isSensitiveContent:withChatID:isFromMe:completionHandler:
++ _objc_msgSend$isShowingAppCardInPopover
++ _objc_msgSend$keyTransparencyTranscriptCellDidSelectTreePopulating:
++ _objc_msgSend$launchURL
++ _objc_msgSend$menuForErrorStillPopulating
++ _objc_msgSend$messageEntryViewActiveAppCardPopoverMetrics:
++ _objc_msgSend$objectForTrait:
++ _objc_msgSend$originatingItemLaunchURLFor:
++ _objc_msgSend$permanentAttachmentGUID
++ _objc_msgSend$preferredNavigationBarMinimizeBehaviorForProposedMinimizeBehavior:
++ _objc_msgSend$presentBlockContactSelectionForConversation:parentViewController:completion:
++ _objc_msgSend$presentLeaveConfirmationForConversation:parentViewController:completion:
++ _objc_msgSend$presentedCardUsesKeyboardHeightInLandscape
++ _objc_msgSend$sendMenuModalPresentationStyleDidChange:
++ _objc_msgSend$setActiveAssistantActionSuggestionActionIdentifier:
++ _objc_msgSend$setActiveAssistantActionSuggestionMessagePartGUID:
++ _objc_msgSend$setAppearanceVariant:
++ _objc_msgSend$setEligibleForHandoff:
++ _objc_msgSend$setEntryViewFirstResponder:
++ _objc_msgSend$setExpanded:
++ _objc_msgSend$setIgnoresSizeClassForAppCardFollow:
++ _objc_msgSend$setNeedsSave:
++ _objc_msgSend$setPresentingCard:
++ _objc_msgSend$setPresentingInSendMenuPopover:
++ _objc_msgSend$setSkipCollaborationInitiation:
++ _objc_msgSend$setStampCellLayoutDelegate:
++ _objc_msgSend$setSuppressesShelfStaging:
++ _objc_msgSend$setTargetContentIdentifier:
++ _objc_msgSend$setTrackColor:
++ _objc_msgSend$setWrappedFeatures:
++ _objc_msgSend$setWrappedSupportsPreferredStampTextViewFrame:
++ _objc_msgSend$sharedFeatures
++ _objc_msgSend$shouldDismissCardOnKeyboardAppearanceForProposal:inputs:
++ _objc_msgSend$shouldUpdateScrollIntentOnViewWillAppear
++ _objc_msgSend$showTreePopulatingError
++ _objc_msgSend$skipCollaborationInitiation
++ _objc_msgSend$transcriptStampCell:getPreferredStampTextViewFrame:forProposedStampTextViewFrame:
++ _objc_msgSend$transcriptStampCell:getPreferredStampTextViewFrame:forProposedStampTextViewFrame:chatItem:
++ _objc_msgSend$treePopulatingAction
++ _objc_msgSend$updateWithColorValues:wantsPlayButton:
++ _objc_msgSend$urlWithKey:
++ _objc_msgSend$userActivityFor:
++ _objc_release_x5
++ _sharedFeatures.onceToken
++ _sharedFeatures.sharedFeatures
++ _symbolic $s7ChatKit23CKAdaptiveMorphHandlingP
++ _symbolic Sb10showPicker_t
++ _symbolic ScCySb_____G s5NeverO
++ _symbolic ScCyyt_____GSg s5NeverO
++ _symbolic So20SBSHomeScreenServiceC
++ _symbolic So35SBSHomeScreenIconStyleConfigurationC
++ _symbolic So7BSColorCSg
++ _symbolic _____ 26SensitiveContentAnalysisUI20SCUIInterventionKindV
++ _symbolic _____ 7ChatKit11BannerImageO
++ _symbolic _____ 7ChatKit15VideoPlayButton33_B75933A2D31E5D1A0B34F2AA4F243E90LLV
++ _symbolic _____ 7ChatKit16CKIconAppearanceC
++ _symbolic _____ 7ChatKit16MeshGradientViewV9QuadrantsV
++ _symbolic _____ 7ChatKit17BannerAppIconView33_038F8E1D4D749E302934F6DD61BE26BELLV
++ _symbolic _____ 7ChatKit21SensitiveContentErrorO
++ _symbolic _____ 7ChatKit23CKRingProgressViewStyleO
++ _symbolic _____ 7ChatKit23SensitiveContentContextV
++ _symbolic _____ 7ChatKit24CKResolvedIconAppearanceC
++ _symbolic _____ 7ChatKit24CommunicationLimitsErrorO
++ _symbolic _____ 7ChatKit26SensitiveContentContextKeyV
++ _symbolic _____ 7ChatKit28HostedSensitiveContentButtonC13ConfigurationV
++ _symbolic _____ 7ChatKit29CKHomeScreenIconStyleObserverC
++ _symbolic _____ 7ChatKit30ServiceForSendingRefreshWaiter33_37818C609A470A049DBE2F99E30AC45ELLC
++ _symbolic _____ 7ChatKit34CKCommunicationSafetyFlowPresenterC15HelpMenuContextV
++ _symbolic _____ So11CGBlendModeV
++ _symbolic _____ So12IFAppearanceV
++ _symbolic _____ So19IFAppearanceVariantV
++ _symbolic _____Sg 7ChatKit11BannerImageO
++ _symbolic _____Sg 7ChatKit23SensitiveContentContextV
++ _symbolic _____Sg 7ChatKit35SensitiveContentButtonRepresentableV
++ _symbolic _____Sg So10CGColorRefa
++ _symbolic _____SgXw 7ChatKit29CKHomeScreenIconStyleObserverC
++ _symbolic _____SgXw 7ChatKit30ServiceForSendingRefreshWaiter33_37818C609A470A049DBE2F99E30AC45ELLC
++ _symbolic _____SgXwz_Xx 7ChatKit29CKHomeScreenIconStyleObserverC
++ _symbolic _____SgXwz_Xx 7ChatKit30ServiceForSendingRefreshWaiter33_37818C609A470A049DBE2F99E30AC45ELLC
++ _symbolic _____Sg_ABt 7ChatKit33CKAssistantActionSuggestionButtonC17IconConfigurationV
++ _symbolic _____yAAyAAyAAyAAy_____y_____G_____G_____yy_____cSgGGAGy_____SgGGAGySo29PRUISPosterSnapshotControllerCSgGGAGy_____SgGG 7SwiftUI15ModifiedContentV 20CommunicationDetails0F10ScrollViewV 7ChatKit7GalleryV0khD033_03EA25B3F1ED67DA61C1C78F06DDBB32LLV AA31AccessibilityAttachmentModifierV AA022_EnvironmentKeyWritingW0V AG09SensitivedK6ActionO AG09SensitiveD7ContextV 10Foundation4UUIDV
++ _symbolic _____yAAyAAyAAyAAy_____y_____y_____y_____yAAyAAyAAyAAy_____yACy_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yADyACyAAyAEyAEyAEyAEyAAy__________GAAyAhVGGAEy__________GGAFGAFG_____G_AByACyAAyAAy__________ySiSgGG_____GSg_A13_QPGGQPGG_Qo______AEyAAyAAyAAy_____yAEy_____y_____yAAyA6_AJG_____ySay_____G_____AGyAEyAAy_____yA6_AHGA7_y_____SgGGA6_GGGG_Qo______yA22_GGGA7_y_____SgGG_____GA7_y_____GGAFGATQPGGAJGAJGAJGAJG_AAyAAyAAyAAyAEy_____y_____yA23_ySay_____GA26_AAyAAyAAy_____yA20_yAEyA36_A38_yAAyAAyA6______GA31_GGGG______Qo_A49_GA7_y_____SgGGA62_GGGGAFGAJGAJGAJGAJGSgQPGG______y_____GQo__Qo______yAAyAAyAAyAByACy_____Sg______SgQPGG_____G_____y_____GG_____GGG_____yA102_GGAJGA105_GA62_G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicmN0O5BoundRtd__lFQO AA6VStackV AA05TupleD0V AA6HStackV AA012_ConditionalD0V AA05EmptyE0V AeAE11buttonStyleyQrqd__AA06ButtonW0Rd__lFQO AA0X0V AeAE10fontWeightyQrAA4FontV0Z0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerE0V06CirclexW033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundW8ModifierV AA017HierarchicalShapeW0V AeAE12onTapGesture5count7performQrSi_yyctFQO A11_013BannerAppIconE033_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA03AnyE0V A11_011AvatarStackE0V AA0I18AttachmentModifierV AA4TextV AA30_EnvironmentKeyWritingModifierV AA06_FixedN6LayoutV AA6SpacerV AA5GroupV AeAEA1_yQrA6_FQO AA4MenuV AA7ForEachV A11_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A11_0X20WithUIViewBackgroundV AA08AnyShapeW0V A13_06BannerxW8ModifierA15_LLV AA0X11BorderShapeV AA4GridV AA7GridRowV A11_06BannerX0V AeAEAYyQrqd__AA09PrimitivexW0Rd__lFQO AA16_FlexFrameLayoutV AA08BorderedxW0V A3_ s19PartialRangeThroughV AL AA19_BackgroundModifierV A11_010ChromeBlurE0V AA7DividerV AA25_AllowsHitTestingModifierV AA11_ClipEffectV AA16RoundedRectangleV AA30_SafeAreaRegionsIgnoringLayoutV A11_20GlassPlatterModifierV
++ _symbolic _____yAAyAAyAAy_____y_____G_____G_____yy_____cSgGGAGy_____SgGGAGySo29PRUISPosterSnapshotControllerCSgGG 7SwiftUI15ModifiedContentV 20CommunicationDetails0F10ScrollViewV 7ChatKit7GalleryV0khD033_03EA25B3F1ED67DA61C1C78F06DDBB32LLV AA31AccessibilityAttachmentModifierV AA022_EnvironmentKeyWritingW0V AG09SensitivedK6ActionO AG09SensitiveD7ContextV
++ _symbolic _____yAAyAAyAAy_____y__________GABy_____ADGGAAy__________GG_____GAMG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 7ChatKit17BannerAppIconView33_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA5ImageV AA03AnyK0V AF011AvatarStackK0V AA05EmptyK0V
++ _symbolic _____yAAyAAyAAy_____y_____y_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yAByACyAAyADyADyADyADyAAy__________GAAyAgUGGADy__________GGAEGAEG_____G______yACyAAyAAy__________ySiSgGG_____GSg_A13_QPGGQPGG_Qo______ADyAAyAAyAAy_____yADy_____y_____yAAyA6_AIG_____ySay_____G_____AFyADyAAy_____yA6_AGGA7_y_____SgGGA6_GGGG_Qo______yA22_GGGA7_y_____SgGG_____GA7_y_____GGAEGASQPGGAIGAIGAIGAIG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA012_ConditionalD0V AA9EmptyViewV AA0I0PAAE11buttonStyleyQrqd__AA06ButtonK0Rd__lFQO AA0L0V AmAE10fontWeightyQrAA4FontV0N0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerI0V06CirclelK033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundK8ModifierV AA017HierarchicalShapeK0V AmAE12onTapGesture5count7performQrSi_yyctFQO A0_0u7AppIconI033_038F8E1D4D749E302934F6DD61BE26BELLV AA06_FrameR0V AA03AnyI0V A0_011AvatarStackI0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeR0V AA6SpacerV AA5GroupV AmAEARyQrAWFQO AA4MenuV AA7ForEachV A0_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A0_0L20WithUIViewBackgroundV AA08AnyShapeK0V A2_0ulK8ModifierA4_LLV AA0L11BorderShapeV
++ _symbolic _____yAAyAAyAAy_____y_____y_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yAByACyAAyADyADyADyADyAAy__________GAAyAgUGGADy__________GGAEGAEG_____G______yACyAAyAAy__________ySiSgGG_____GSg_A13_QPGGQPGG_Qo______ADyAAyAAyAAy_____yADy_____y_____yAAyA6_AIG_____ySay_____G_____AFyADyAAy_____yA6_AGGA7_y_____SgGGA6_GGGG_Qo______yA22_GGGA7_y_____SgGG_____GA7_y_____GGAEGASQPGGAIGAIGAIGAIG_AAyAAyAAyAAyADy_____y_____yA23_ySay_____GA26_AAyAAyAAy_____yA20_yADyA36_A38_yAAyAAyA6______GA31_GGGG______Qo_A49_GA7_y_____SgGGA62_GGGGAEGAIGAIGAIGAIGSgt 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA012_ConditionalD0V AA9EmptyViewV AA0I0PAAE11buttonStyleyQrqd__AA06ButtonK0Rd__lFQO AA0L0V AmAE10fontWeightyQrAA4FontV0N0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerI0V06CirclelK033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundK8ModifierV AA017HierarchicalShapeK0V AmAE12onTapGesture5count7performQrSi_yyctFQO A0_0u7AppIconI033_038F8E1D4D749E302934F6DD61BE26BELLV AA06_FrameR0V AA03AnyI0V A0_011AvatarStackI0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeR0V AA6SpacerV AA5GroupV AmAEARyQrAWFQO AA4MenuV AA7ForEachV A0_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A0_0L20WithUIViewBackgroundV AA08AnyShapeK0V A2_0ulK8ModifierA4_LLV AA0L11BorderShapeV AA4GridV AA7GridRowV A0_0uL0V AmAEANyQrqd__AA09PrimitivelK0Rd__lFQO AA010_FlexFrameR0V AA08BorderedlK0V AT
++ _symbolic _____yAAyAAyAAy_____y_____y_____y_____yAAyAAyAAyAAy_____yACy_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yADyACyAAyAEyAEyAEyAEyAAy__________GAAyAhVGGAEy__________GGAFGAFG_____G_AByACyAAyAAy__________ySiSgGG_____GSg_A13_QPGGQPGG_Qo______AEyAAyAAyAAy_____yAEy_____y_____yAAyA6_AJG_____ySay_____G_____AGyAEyAAy_____yA6_AHGA7_y_____SgGGA6_GGGG_Qo______yA22_GGGA7_y_____SgGG_____GA7_y_____GGAFGATQPGGAJGAJGAJGAJG_AAyAAyAAyAAyAEy_____y_____yA23_ySay_____GA26_AAyAAyAAy_____yA20_yAEyA36_A38_yAAyAAyA6______GA31_GGGG______Qo_A49_GA7_y_____SgGGA62_GGGGAFGAJGAJGAJGAJGSgQPGG______y_____GQo__Qo______yAAyAAyAAyAByACy_____Sg______SgQPGG_____G_____y_____GG_____GGG_____yA102_GGAJGA105_G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicmN0O5BoundRtd__lFQO AA6VStackV AA05TupleD0V AA6HStackV AA012_ConditionalD0V AA05EmptyE0V AeAE11buttonStyleyQrqd__AA06ButtonW0Rd__lFQO AA0X0V AeAE10fontWeightyQrAA4FontV0Z0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerE0V06CirclexW033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundW8ModifierV AA017HierarchicalShapeW0V AeAE12onTapGesture5count7performQrSi_yyctFQO A11_013BannerAppIconE033_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA03AnyE0V A11_011AvatarStackE0V AA0I18AttachmentModifierV AA4TextV AA30_EnvironmentKeyWritingModifierV AA06_FixedN6LayoutV AA6SpacerV AA5GroupV AeAEA1_yQrA6_FQO AA4MenuV AA7ForEachV A11_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A11_0X20WithUIViewBackgroundV AA08AnyShapeW0V A13_06BannerxW8ModifierA15_LLV AA0X11BorderShapeV AA4GridV AA7GridRowV A11_06BannerX0V AeAEAYyQrqd__AA09PrimitivexW0Rd__lFQO AA16_FlexFrameLayoutV AA08BorderedxW0V A3_ s19PartialRangeThroughV AL AA19_BackgroundModifierV A11_010ChromeBlurE0V AA7DividerV AA25_AllowsHitTestingModifierV AA11_ClipEffectV AA16RoundedRectangleV AA30_SafeAreaRegionsIgnoringLayoutV A11_20GlassPlatterModifierV
++ _symbolic _____yAAyAAy_____Sg_____G_____GAFG 7SwiftUI15ModifiedContentV 7ChatKit09SensitiveD19ButtonRepresentableV AA12_FrameLayoutV AA08_PaddingK0V
++ _symbolic _____yAAyAAy_____y_____G_____G_____yy_____cSgGGAGy_____SgGG 7SwiftUI15ModifiedContentV 20CommunicationDetails0F10ScrollViewV 7ChatKit7GalleryV0khD033_03EA25B3F1ED67DA61C1C78F06DDBB32LLV AA31AccessibilityAttachmentModifierV AA022_EnvironmentKeyWritingW0V AG09SensitivedK6ActionO AG09SensitiveD7ContextV
++ _symbolic _____yAAyAAy_____y__________GABy_____ADGGAAy__________GG_____G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 7ChatKit17BannerAppIconView33_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA5ImageV AA03AnyK0V AF011AvatarStackK0V AA05EmptyK0V
++ _symbolic _____yAAyAAy_____y_____y_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yAByACyAAyADyADyADyADyAAy__________GAAyAgUGGADy__________GGAEGAEG_____G______yACyAAyAAy__________ySiSgGG_____GSg_A13_QPGGQPGG_Qo______ADyAAyAAyAAy_____yADy_____y_____yAAyA6_AIG_____ySay_____G_____AFyADyAAy_____yA6_AGGA7_y_____SgGGA6_GGGG_Qo______yA22_GGGA7_y_____SgGG_____GA7_y_____GGAEGASQPGGAIGAIGAIG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA012_ConditionalD0V AA9EmptyViewV AA0I0PAAE11buttonStyleyQrqd__AA06ButtonK0Rd__lFQO AA0L0V AmAE10fontWeightyQrAA4FontV0N0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerI0V06CirclelK033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundK8ModifierV AA017HierarchicalShapeK0V AmAE12onTapGesture5count7performQrSi_yyctFQO A0_0u7AppIconI033_038F8E1D4D749E302934F6DD61BE26BELLV AA06_FrameR0V AA03AnyI0V A0_011AvatarStackI0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeR0V AA6SpacerV AA5GroupV AmAEARyQrAWFQO AA4MenuV AA7ForEachV A0_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A0_0L20WithUIViewBackgroundV AA08AnyShapeK0V A2_0ulK8ModifierA4_LLV AA0L11BorderShapeV
++ _symbolic _____yAAyAAy_____y_____y_____y_____yAAyAAyAAyAAy_____yACy_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yADyACyAAyAEyAEyAEyAEyAAy__________GAAyAhVGGAEy__________GGAFGAFG_____G_AByACyAAyAAy__________ySiSgGG_____GSg_A13_QPGGQPGG_Qo______AEyAAyAAyAAy_____yAEy_____y_____yAAyA6_AJG_____ySay_____G_____AGyAEyAAy_____yA6_AHGA7_y_____SgGGA6_GGGG_Qo______yA22_GGGA7_y_____SgGG_____GA7_y_____GGAFGATQPGGAJGAJGAJGAJG_AAyAAyAAyAAyAEy_____y_____yA23_ySay_____GA26_AAyAAyAAy_____yA20_yAEyA36_A38_yAAyAAyA6______GA31_GGGG______Qo_A49_GA7_y_____SgGGA62_GGGGAFGAJGAJGAJGAJGSgQPGG______y_____GQo__Qo______yAAyAAyAAyAByACy_____Sg______SgQPGG_____G_____y_____GG_____GGG_____yA102_GGAJG 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicmN0O5BoundRtd__lFQO AA6VStackV AA05TupleD0V AA6HStackV AA012_ConditionalD0V AA05EmptyE0V AeAE11buttonStyleyQrqd__AA06ButtonW0Rd__lFQO AA0X0V AeAE10fontWeightyQrAA4FontV0Z0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerE0V06CirclexW033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundW8ModifierV AA017HierarchicalShapeW0V AeAE12onTapGesture5count7performQrSi_yyctFQO A11_013BannerAppIconE033_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA03AnyE0V A11_011AvatarStackE0V AA0I18AttachmentModifierV AA4TextV AA30_EnvironmentKeyWritingModifierV AA06_FixedN6LayoutV AA6SpacerV AA5GroupV AeAEA1_yQrA6_FQO AA4MenuV AA7ForEachV A11_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A11_0X20WithUIViewBackgroundV AA08AnyShapeW0V A13_06BannerxW8ModifierA15_LLV AA0X11BorderShapeV AA4GridV AA7GridRowV A11_06BannerX0V AeAEAYyQrqd__AA09PrimitivexW0Rd__lFQO AA16_FlexFrameLayoutV AA08BorderedxW0V A3_ s19PartialRangeThroughV AL AA19_BackgroundModifierV A11_010ChromeBlurE0V AA7DividerV AA25_AllowsHitTestingModifierV AA11_ClipEffectV AA16RoundedRectangleV AA30_SafeAreaRegionsIgnoringLayoutV A11_20GlassPlatterModifierV
++ _symbolic _____yAAy_____Sg_____G_____G 7SwiftUI15ModifiedContentV 7ChatKit09SensitiveD19ButtonRepresentableV AA12_FrameLayoutV AA08_PaddingK0V
++ _symbolic _____yAAy_____y__________GABy_____ADGGAAy__________GG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 7ChatKit17BannerAppIconView33_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA5ImageV AA03AnyK0V AF011AvatarStackK0V
++ _symbolic _____yAAy_____y_____y_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yAByACyAAyADyADyADyADyAAy__________GAAyAgUGGADy__________GGAEGAEG_____G______yACyAAyAAy__________ySiSgGG_____GSg_A13_QPGGQPGG_Qo______ADyAAyAAyAAy_____yADy_____y_____yAAyA6_AIG_____ySay_____G_____AFyADyAAy_____yA6_AGGA7_y_____SgGGA6_GGGG_Qo______yA22_GGGA7_y_____SgGG_____GA7_y_____GGAEGASQPGGAIGAIG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA012_ConditionalD0V AA9EmptyViewV AA0I0PAAE11buttonStyleyQrqd__AA06ButtonK0Rd__lFQO AA0L0V AmAE10fontWeightyQrAA4FontV0N0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerI0V06CirclelK033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundK8ModifierV AA017HierarchicalShapeK0V AmAE12onTapGesture5count7performQrSi_yyctFQO A0_0u7AppIconI033_038F8E1D4D749E302934F6DD61BE26BELLV AA06_FrameR0V AA03AnyI0V A0_011AvatarStackI0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeR0V AA6SpacerV AA5GroupV AmAEARyQrAWFQO AA4MenuV AA7ForEachV A0_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A0_0L20WithUIViewBackgroundV AA08AnyShapeK0V A2_0ulK8ModifierA4_LLV AA0L11BorderShapeV
++ _symbolic _____yAAy_____y_____y_____y_____yAAyAAyAAyAAy_____yACy_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yADyACyAAyAEyAEyAEyAEyAAy__________GAAyAhVGGAEy__________GGAFGAFG_____G_AByACyAAyAAy__________ySiSgGG_____GSg_A13_QPGGQPGG_Qo______AEyAAyAAyAAy_____yAEy_____y_____yAAyA6_AJG_____ySay_____G_____AGyAEyAAy_____yA6_AHGA7_y_____SgGGA6_GGGG_Qo______yA22_GGGA7_y_____SgGG_____GA7_y_____GGAFGATQPGGAJGAJGAJGAJG_AAyAAyAAyAAyAEy_____y_____yA23_ySay_____GA26_AAyAAyAAy_____yA20_yAEyA36_A38_yAAyAAyA6______GA31_GGGG______Qo_A49_GA7_y_____SgGGA62_GGGGAFGAJGAJGAJGAJGSgQPGG______y_____GQo__Qo______yAAyAAyAAyAByACy_____Sg______SgQPGG_____G_____y_____GG_____GGG_____yA102_GG 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicmN0O5BoundRtd__lFQO AA6VStackV AA05TupleD0V AA6HStackV AA012_ConditionalD0V AA05EmptyE0V AeAE11buttonStyleyQrqd__AA06ButtonW0Rd__lFQO AA0X0V AeAE10fontWeightyQrAA4FontV0Z0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerE0V06CirclexW033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundW8ModifierV AA017HierarchicalShapeW0V AeAE12onTapGesture5count7performQrSi_yyctFQO A11_013BannerAppIconE033_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA03AnyE0V A11_011AvatarStackE0V AA0I18AttachmentModifierV AA4TextV AA30_EnvironmentKeyWritingModifierV AA06_FixedN6LayoutV AA6SpacerV AA5GroupV AeAEA1_yQrA6_FQO AA4MenuV AA7ForEachV A11_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A11_0X20WithUIViewBackgroundV AA08AnyShapeW0V A13_06BannerxW8ModifierA15_LLV AA0X11BorderShapeV AA4GridV AA7GridRowV A11_06BannerX0V AeAEAYyQrqd__AA09PrimitivexW0Rd__lFQO AA16_FlexFrameLayoutV AA08BorderedxW0V A3_ s19PartialRangeThroughV AL AA19_BackgroundModifierV A11_010ChromeBlurE0V AA7DividerV AA25_AllowsHitTestingModifierV AA11_ClipEffectV AA16RoundedRectangleV AA30_SafeAreaRegionsIgnoringLayoutV A11_20GlassPlatterModifierV
++ _symbolic _____ySb_G ScG8IteratorV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____SgG 7SwiftUI11EnvironmentV 7ChatKit23SensitiveContentContextV
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV 7ChatKit23SensitiveContentContextV
++ _symbolic _____y_____Sg_____G 7SwiftUI15ModifiedContentV 7ChatKit09SensitiveD19ButtonRepresentableV AA12_FrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 7ChatKit17BannerAppIconView33_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV
++ _symbolic _____y__________G 7SwiftUI19_ConditionalContentV AA5ImageV AA9EmptyViewV
++ _symbolic _____y__________G 7SwiftUI19_ConditionalContentV AA7AnyViewV 7ChatKit011AvatarStackF0V
++ _symbolic _____y___________G 7SwiftUI19_ConditionalContentV7StorageO AA7AnyViewV 7ChatKit011AvatarStackG0V
++ _symbolic _____y___________y_____yADyADyADy_____yACy_____y_____ADy_____y_____yADy_____y______Qo______GG______Qo______y_____GGGSg______yAEyACyADyAFyAFyAFyAFyADy__________GADyAiWGGAFy__________GGAGGAGG_____G______yACyADyADy__________ySiSgGG_____GSg_A15_QPGGQPGG_Qo______AFyADyADyADy_____yAFy_____y_____yADyA8_AKG_____ySay_____G_____AHyAFyADy_____yA8_AIGA9_y_____SgGGA8_GGGG_Qo______yA24_GGGA9_y_____SgGG_____GA9_y_____GGAGGAUQPGGAKGAKGAKGAKG_ADyADyADyADyAFy_____y_____yA25_ySay_____GA28_ADyADyADy_____yA22_yAFyA38_A40_yADyADyA8______GA33_GGGG______Qo_A51_GA9_y_____SgGGA64_GGGGAGGAKGAKGAKGAKGSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA6HStackV AA012_ConditionalI0V AA05EmptyD0V AA0D0PAAE11buttonStyleyQrqd__AA06ButtonO0Rd__lFQO AA0P0V AsAE10fontWeightyQrAA4FontV0R0VSgFQO AA5ImageV AA08_PaddingG0V 7ChatKit06BannerD0V06CirclepO033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundO8ModifierV AA017HierarchicalShapeO0V AsAE12onTapGesture5count7performQrSi_yyctFQO A6_0x7AppIconD033_038F8E1D4D749E302934F6DD61BE26BELLV AA06_FrameG0V AA03AnyD0V A6_011AvatarStackD0V AA31AccessibilityAttachmentModifierV AA0F0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeG0V AA6SpacerV AA5GroupV AsAEAXyQrA1_FQO AA4MenuV AA7ForEachV A6_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A6_0P20WithUIViewBackgroundV AA08AnyShapeO0V A8_0xpO8ModifierA10_LLV AA0P11BorderShapeV AA4GridV AA7GridRowV A6_0xP0V AsAEATyQrqd__AA09PrimitivepO0Rd__lFQO AA010_FlexFrameG0V AA08BorderedpO0V AZ
++ _symbolic _____y___________y_____y__________y_____SgGG_ADyADyADy__________G_____GANGSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA08ModifiedI0V AA12MeshGradientV AA16_OverlayModifierV 7ChatKit15VideoPlayButton33_B75933A2D31E5D1A0B34F2AA4F243E90LLV AP012RingProgressD0ARLLV AA06_FrameG0V AA08_PaddingG0V
++ _symbolic _____y___________y_____y__________y_____y_____yAFy_____y______Qo______GG______Qo______y_____GGGSg______y_____yACyAFyADyADyADyADyAFy__________GAFyAhWGGADy__________GGAEGAEG_____G______yACyAFyAFy__________ySiSgGG_____GSg_A15_QPGGQPGG_Qo______ADyAFyAFyAFy_____yADy_____y_____yAFyA8_AJG_____ySay_____G_____AGyADyAFy_____yA8_AHGA9_y_____SgGGA8_GGGG_Qo______yA24_GGGA9_y_____SgGG_____GA9_y_____GGAEGATQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA012_ConditionalI0V AA05EmptyD0V AA08ModifiedI0V AA0D0PAAE11buttonStyleyQrqd__AA06ButtonN0Rd__lFQO AA0O0V AqAE10fontWeightyQrAA4FontV0Q0VSgFQO AA5ImageV AA08_PaddingG0V 7ChatKit06BannerD0V06CircleoN033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundN8ModifierV AA017HierarchicalShapeN0V AqAE12onTapGesture5count7performQrSi_yyctFQO AA0F0V A4_0w7AppIconD033_038F8E1D4D749E302934F6DD61BE26BELLV AA06_FrameG0V AA03AnyD0V A4_011AvatarStackD0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeG0V AA6SpacerV AA5GroupV AqAEAVyQrA_FQO AA4MenuV AA7ForEachV A4_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A4_0O20WithUIViewBackgroundV AA08AnyShapeN0V A6_0woN8ModifierA8_LLV AA0O11BorderShapeV
++ _symbolic _____y___________y_____y_____yAEyAEyAEyADy__________GADy_____AGGGAEy__________GG_____GAPG_____G______yACyADyADy__________ySiSgGG_____GSg_A1_QPGGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA08ModifiedI0V AA012_ConditionalI0V 7ChatKit013BannerAppIconD033_038F8E1D4D749E302934F6DD61BE26BELLV AA06_FrameG0V AA5ImageV AA03AnyD0V AN011AvatarStackD0V AA05EmptyD0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeG0V
++ _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA12MeshGradientV AA16_OverlayModifierV 7ChatKit15VideoPlayButton33_B75933A2D31E5D1A0B34F2AA4F243E90LLV
++ _symbolic _____y__________y_____SgGG_AAyAAyAAy__________G_____GAKGSgt 7SwiftUI15ModifiedContentV AA12MeshGradientV AA16_OverlayModifierV 7ChatKit15VideoPlayButton33_B75933A2D31E5D1A0B34F2AA4F243E90LLV AH16RingProgressViewAJLLV AA12_FrameLayoutV AA14_PaddingLayoutV
++ _symbolic _____y__________y_____y_____yACy_____y______Qo______GG______Qo______y_____GGGSg______y_____y_____yACyAAyAAyAAyAAyACy__________GACyAeUGGAAy__________GGABGABG_____G______yASyACyACy__________ySiSgGG_____GSg_A13_QPGGQPGG_Qo______AAyACyACyACy_____yAAy_____y_____yACyA6_AGG_____ySay_____G_____ADyAAyACy_____yA6_AEGA7_y_____SgGGA6_GGGG_Qo______yA22_GGGA7_y_____SgGG_____GA7_y_____GGABGAQt 7SwiftUI19_ConditionalContentV AA9EmptyViewV AA08ModifiedD0V AA0F0PAAE11buttonStyleyQrqd__AA06ButtonI0Rd__lFQO AA0J0V AiAE10fontWeightyQrAA4FontV0L0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerF0V06CirclejI033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundI8ModifierV AA017HierarchicalShapeI0V AiAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA05TupleD0V AX0s7AppIconF033_038F8E1D4D749E302934F6DD61BE26BELLV AA06_FrameP0V AA03AnyF0V AX011AvatarStackF0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeP0V AA6SpacerV AA5GroupV AiAEANyQrASFQO AA4MenuV AA7ForEachV AX8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV AX0J20WithUIViewBackgroundV AA08AnyShapeI0V AZ0sjI8ModifierA0_LLV AA0J11BorderShapeV
++ _symbolic _____y_____yAAyAAyAAyAAy_____y_____G_____G_____yy_____cSgGGAGy_____SgGGAGySo29PRUISPosterSnapshotControllerCSgGGAGy_____SgGG_Qo_ 7SwiftUI4ViewP8FeedbackE06inlineD010controller10completionQrAA7BindingVyAD23FBKEvaluationControllerCG_ys6ResultOy0D7Service14FBKSEvaluationCs5Error_pGcSgtFQO AA15ModifiedContentV 20CommunicationDetails0r6ScrollC0V 7ChatKit7GalleryV0vcP033_03EA25B3F1ED67DA61C1C78F06DDBB32LLV AA31AccessibilityAttachmentModifierV AA30_EnvironmentKeyWritingModifierV AZ09SensitivepV6ActionO AZ09SensitiveP7ContextV 10Foundation4UUIDV
++ _symbolic _____y_____yAAyAAy_____y_____yAAy__________y_____GG_AIQPGG_____G_____GG_____G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6ZStackV AA05TupleD0V AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA12_ScaleEffectV AA15_PositionLayoutV AA017_AllowsHitTestingL0V
++ _symbolic _____y_____yAAyAAy_____y_____yAAy__________y_____GG_AIQPGG_____G_____GG_____GSg 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA6ZStackV AA05TupleD0V AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA12_ScaleEffectV AA15_PositionLayoutV AA017_AllowsHitTestingL0V
++ _symbolic _____y_____yAByAByAByAAy__________GAAy_____ADGGABy__________GG_____GAMG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V 7ChatKit17BannerAppIconView33_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA5ImageV AA03AnyK0V AF011AvatarStackK0V AA05EmptyK0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____yAByAByAByAAy__________GAAy_____ADGGABy__________GG_____GAMG_____G______y_____yAAyAAy__________ySiSgGG_____GSg_A_QPGGt 7SwiftUI15ModifiedContentV AA012_ConditionalD0V 7ChatKit17BannerAppIconView33_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA5ImageV AA03AnyK0V AF011AvatarStackK0V AA05EmptyK0V AA31AccessibilityAttachmentModifierV AA6VStackV AA05TupleD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeV0V
++ _symbolic _____y_____yAByABy_____Sg_____G_____GAGGG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV 7ChatKit09SensitiveF19ButtonRepresentableV AA12_FrameLayoutV AA08_PaddingM0V
++ _symbolic _____y_____yAByABy_____y__________GACy_____AEGGABy__________GG_____GAN_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V 7ChatKit17BannerAppIconView33_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA5ImageV AA03AnyL0V AH011AvatarStackL0V AA05EmptyL0V
++ _symbolic _____y_____yABy_____y__________GACy_____AEGGABy__________GG______G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V 7ChatKit17BannerAppIconView33_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA5ImageV AA03AnyL0V AH011AvatarStackL0V AA05EmptyL0V
++ _symbolic _____y_____yABy_____y_____yABy__________y_____GG_AIQPGG_____G_____GG 7SwiftUI14GeometryReaderV AA15ModifiedContentV AA6ZStackV AA05TupleF0V AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA12_ScaleEffectV AA15_PositionLayoutV
++ _symbolic _____y_____y__________GABy_____ADGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 7ChatKit17BannerAppIconView33_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA5ImageV
++ _symbolic _____y_____y__________GABy_____ADG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V 7ChatKit17BannerAppIconView33_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA5ImageV
++ _symbolic _____y_____y__________GG 21_IconServices_SwiftUI05AsyncA5ImageV 0cD019_ConditionalContentV AD0F0V AD9EmptyViewV
++ _symbolic _____y_____y_____yAAy__________y_____GG_AHQPGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA12_ScaleEffectV
++ _symbolic _____y_____y_____yACyACyACy_____yABy_____y_____ACy_____y_____yACy_____y______Qo______GG______Qo______y_____GGGSg______yADyAByACyAEyAEyAEyAEyACy__________GACyAhVGGAEy__________GGAFGAFG_____G_AAyAByACyACy__________ySiSgGG_____GSg_A13_QPGGQPGG_Qo______AEyACyACyACy_____yAEy_____y_____yACyA6_AJG_____ySay_____G_____AGyAEyACy_____yA6_AHGA7_y_____SgGGA6_GGGG_Qo______yA22_GGGA7_y_____SgGG_____GA7_y_____GGAFGATQPGGAJGAJGAJGAJG_ACyACyACyACyAEy_____y_____yA23_ySay_____GA26_ACyACyACy_____yA20_yAEyA36_A38_yACyACyA6______GA31_GGGG______Qo_A49_GA7_y_____SgGGA62_GGGGAFGAJGAJGAJGAJGSgQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA6HStackV AA012_ConditionalE0V AA9EmptyViewV AA0J0PAAE11buttonStyleyQrqd__AA06ButtonL0Rd__lFQO AA0M0V AoAE10fontWeightyQrAA4FontV0O0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerJ0V06CirclemL033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundL8ModifierV AA017HierarchicalShapeL0V AoAE12onTapGesture5count7performQrSi_yyctFQO A2_0v7AppIconJ033_038F8E1D4D749E302934F6DD61BE26BELLV AA06_FrameS0V AA03AnyJ0V A2_011AvatarStackJ0V AA31AccessibilityAttachmentModifierV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeS0V AA6SpacerV AA5GroupV AoAEATyQrAYFQO AA4MenuV AA7ForEachV A2_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A2_0M20WithUIViewBackgroundV AA08AnyShapeL0V A4_0vmL8ModifierA6_LLV AA0M11BorderShapeV AA4GridV AA7GridRowV A2_0vM0V AoAEAPyQrqd__AA09PrimitivemL0Rd__lFQO AA010_FlexFrameS0V AA08BorderedmL0V AV
++ _symbolic _____y_____y_____y______AAyAAyAAy__________y_____GG_____G_____GQPGG_____yAAyAAyAAy_____Sg_____GALGALGGG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V 7ChatKit29VisualEffectViewRepresentableV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0M9AlignmentO AA010_BlendModeJ0V AA14_PaddingLayoutV AA08_OverlayQ0V AH09Sensitived6ButtonL0V AA06_FrameV0V
++ _symbolic _____y_____y_____y__________GACy_____AEGGABy__________G_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V 7ChatKit17BannerAppIconView33_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA5ImageV AA03AnyL0V AH011AvatarStackL0V
++ _symbolic _____y_____y_____y__________y_____SgGG_ACyACyACy__________G_____GAMGSgQPGG 7SwiftUI6ZStackV AA12TupleContentV AA08ModifiedE0V AA12MeshGradientV AA16_OverlayModifierV 7ChatKit15VideoPlayButton33_B75933A2D31E5D1A0B34F2AA4F243E90LLV AL16RingProgressViewANLLV AA12_FrameLayoutV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____yACyACyACy_____yABy_____y_____ACy_____y_____yACy_____y______Qo______GG______Qo______y_____GGGSg______yADyAByACyAEyAEyAEyAEyACy__________GACyAhVGGAEy__________GGAFGAFG_____G_AAyAByACyACy__________ySiSgGG_____GSg_A13_QPGGQPGG_Qo______AEyACyACyACy_____yAEy_____y_____yACyA6_AJG_____ySay_____G_____AGyAEyACy_____yA6_AHGA7_y_____SgGGA6_GGGG_Qo______yA22_GGGA7_y_____SgGG_____GA7_y_____GGAFGATQPGGAJGAJGAJGAJG_ACyACyACyACyAEy_____y_____yA23_ySay_____GA26_ACyACyACy_____yA20_yAEyA36_A38_yACyACyA6______GA31_GGGG______Qo_A49_GA7_y_____SgGGA62_GGGGAFGAJGAJGAJGAJGSgQPGG______y_____GQo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lFQO AA6VStackV AA12TupleContentV AA08ModifiedK0V AA6HStackV AA012_ConditionalK0V AA05EmptyC0V AcAE11buttonStyleyQrqd__AA06ButtonQ0Rd__lFQO AA0R0V AcAE10fontWeightyQrAA4FontV0T0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerC0V06CirclerQ033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundQ8ModifierV AA017HierarchicalShapeQ0V AcAE12onTapGesture5count7performQrSi_yyctFQO A7_013BannerAppIconC033_038F8E1D4D749E302934F6DD61BE26BELLV AA06_FrameX0V AA03AnyC0V A7_011AvatarStackC0V AA31AccessibilityAttachmentModifierV AA4TextV AA30_EnvironmentKeyWritingModifierV AA06_FixedfX0V AA6SpacerV AA5GroupV AcAEAYyQrA2_FQO AA4MenuV AA7ForEachV A7_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A7_0R20WithUIViewBackgroundV AA08AnyShapeQ0V A9_06BannerrQ8ModifierA11_LLV AA0R11BorderShapeV AA4GridV AA7GridRowV A7_06BannerR0V AcAEAUyQrqd__AA09PrimitiverQ0Rd__lFQO AA010_FlexFrameX0V AA08BorderedrQ0V A_ s19PartialRangeThroughV AF
++ _symbolic _____y_____y_____y_____yADyADyADyACy__________GACy_____AFGGADy__________GG_____GAOG_____G______yAByACyACy__________ySiSgGG_____GSg_A0_QPGGQPGG 7SwiftUI6HStackV AA12TupleContentV AA08ModifiedE0V AA012_ConditionalE0V 7ChatKit17BannerAppIconView33_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA5ImageV AA03AnyM0V AJ011AvatarStackM0V AA05EmptyM0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeX0V
++ _symbolic _____y_____y_____y_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yAByACyAAyADyADyADyADyAAy__________GAAyAgUGGADy__________GGAEGAEG_____G______yACyAAyAAy__________ySiSgGG_____GSg_A13_QPGGQPGG_Qo______ADyAAyAAyAAy_____yADy_____y_____yAAyA6_AIG_____ySay_____G_____AFyADyAAy_____yA6_AGGA7_y_____SgGGA6_GGGG_Qo______yA22_GGGA7_y_____SgGG_____GA7_y_____GGAEGASQPGGAIG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA012_ConditionalD0V AA9EmptyViewV AA0I0PAAE11buttonStyleyQrqd__AA06ButtonK0Rd__lFQO AA0L0V AmAE10fontWeightyQrAA4FontV0N0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerI0V06CirclelK033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundK8ModifierV AA017HierarchicalShapeK0V AmAE12onTapGesture5count7performQrSi_yyctFQO A0_0u7AppIconI033_038F8E1D4D749E302934F6DD61BE26BELLV AA06_FrameR0V AA03AnyI0V A0_011AvatarStackI0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeR0V AA6SpacerV AA5GroupV AmAEARyQrAWFQO AA4MenuV AA7ForEachV A0_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A0_0L20WithUIViewBackgroundV AA08AnyShapeK0V A2_0ulK8ModifierA4_LLV AA0L11BorderShapeV
++ _symbolic _____y_____y_____y_____y______AByAByABy__________y_____GG_____G_____GQPGG_____yAByAByABy_____Sg_____GAMGAMGGGASG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6ZStackV AA05TupleD0V 7ChatKit29VisualEffectViewRepresentableV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0N9AlignmentO AA010_BlendModeK0V AA14_PaddingLayoutV AA08_OverlayR0V AJ09Sensitived6ButtonM0V AA06_FrameW0V
++ _symbolic _____y_____y_____y_____y______AByAByABy__________y_____GG_____G_____GQPGG_____yAByAByABy_____Sg_____GAMGAMGGGAS_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA6ZStackV AA05TupleD0V 7ChatKit29VisualEffectViewRepresentableV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0O9AlignmentO AA010_BlendModeL0V AA14_PaddingLayoutV AA08_OverlayS0V AL09Sensitived6ButtonN0V AA06_FrameX0V
++ _symbolic _____y_____y_____y_____y_____yAAyAAyAAyAAy_____yACy_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yADyACyAAyAEyAEyAEyAEyAAy__________GAAyAhVGGAEy__________GGAFGAFG_____G_AByACyAAyAAy__________ySiSgGG_____GSg_A13_QPGGQPGG_Qo______AEyAAyAAyAAy_____yAEy_____y_____yAAyA6_AJG_____ySay_____G_____AGyAEyAAy_____yA6_AHGA7_y_____SgGGA6_GGGG_Qo______yA22_GGGA7_y_____SgGG_____GA7_y_____GGAFGATQPGGAJGAJGAJGAJG_AAyAAyAAyAAyAEy_____y_____yA23_ySay_____GA26_AAyAAyAAy_____yA20_yAEyA36_A38_yAAyAAyA6______GA31_GGGG______Qo_A49_GA7_y_____SgGGA62_GGGGAFGAJGAJGAJGAJGSgQPGG______y_____GQo__Qo______yAAyAAyAAyAByACy_____Sg______SgQPGG_____G_____y_____GG_____GGG 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicmN0O5BoundRtd__lFQO AA6VStackV AA05TupleD0V AA6HStackV AA012_ConditionalD0V AA05EmptyE0V AeAE11buttonStyleyQrqd__AA06ButtonW0Rd__lFQO AA0X0V AeAE10fontWeightyQrAA4FontV0Z0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerE0V06CirclexW033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundW8ModifierV AA017HierarchicalShapeW0V AeAE12onTapGesture5count7performQrSi_yyctFQO A11_013BannerAppIconE033_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA03AnyE0V A11_011AvatarStackE0V AA0I18AttachmentModifierV AA4TextV AA30_EnvironmentKeyWritingModifierV AA06_FixedN6LayoutV AA6SpacerV AA5GroupV AeAEA1_yQrA6_FQO AA4MenuV AA7ForEachV A11_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A11_0X20WithUIViewBackgroundV AA08AnyShapeW0V A13_06BannerxW8ModifierA15_LLV AA0X11BorderShapeV AA4GridV AA7GridRowV A11_06BannerX0V AeAEAYyQrqd__AA09PrimitivexW0Rd__lFQO AA16_FlexFrameLayoutV AA08BorderedxW0V A3_ s19PartialRangeThroughV AL AA19_BackgroundModifierV A11_010ChromeBlurE0V AA7DividerV AA25_AllowsHitTestingModifierV AA11_ClipEffectV AA16RoundedRectangleV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y_____y_____y_____yADyADyADyACy__________GACy_____AFGGADy__________GG_____GAOG_____G______yAByACyACy__________ySiSgGG_____GSg_A0_QPGGQPGG_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA12TupleContentV AA08ModifiedK0V AA012_ConditionalK0V 7ChatKit013BannerAppIconC033_038F8E1D4D749E302934F6DD61BE26BELLV AA12_FrameLayoutV AA5ImageV AA03AnyC0V AO011AvatarStackC0V AA05EmptyC0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA16_FixedSizeLayoutV
++ _symbolic yt______pIgrzo_ s5ErrorP
++ _symbolic yySo18SCUIReportEvidenceCSg_______pSgtccSg s5ErrorP
++ _type_layout_string 7ChatKit11BannerImageO
++ _type_layout_string 7ChatKit15VideoPlayButton33_B75933A2D31E5D1A0B34F2AA4F243E90LLV
++ _type_layout_string 7ChatKit16MeshGradientViewV9QuadrantsV
++ _type_layout_string 7ChatKit23SensitiveContentContextV
++ _type_layout_string 7ChatKit34CKCommunicationSafetyFlowPresenterC15HelpMenuContextV
+- +[CKNicknameUtility customImageForUpdate:style:]
+- -[CKConversationListCollectionViewController _showConversation:withComposition:]
+- -[CKConversationListCollectionViewController _showConversationWithComposition:atIndexPath:]
+- -[CKConversationListCollectionViewController isShowingConversationFromCatalystOpenURL]
+- -[CKImageBalloonView displayMeshGradient:gradientColors:]
+- -[CKMessagesController chatControllerDidReselectConversation:]
+- -[CKModalTranscriptController deferredInsertMediaObjectBlocks]
+- -[CKModalTranscriptController setDeferredInsertMediaObjectBlocks:]
+- -[CKNicknameBannerView initWithStyle:updates:useNamedTitles:avatarImages:contacts:customImage:titleString:subtitleString:actionButtonTitle:actionButtonHandler:actionButtonMenuItems:xButtonHandler:]
+- -[CKTranscriptCollectionView _ck_isInteractiveContentPopGesture:]
+- GCC_except_table1002
+- GCC_except_table1007
+- GCC_except_table1008
+- GCC_except_table1019
+- GCC_except_table1025
+- GCC_except_table1026
+- GCC_except_table1030
+- GCC_except_table1031
+- GCC_except_table1036
+- GCC_except_table1042
+- GCC_except_table1046
+- GCC_except_table1069
+- GCC_except_table1078
+- GCC_except_table1085
+- GCC_except_table1116
+- GCC_except_table1118
+- GCC_except_table1141
+- GCC_except_table1146
+- GCC_except_table1148
+- GCC_except_table1193
+- GCC_except_table1195
+- GCC_except_table1197
+- GCC_except_table1199
+- GCC_except_table1203
+- GCC_except_table1207
+- GCC_except_table1209
+- GCC_except_table1214
+- GCC_except_table1222
+- GCC_except_table1240
+- GCC_except_table1251
+- GCC_except_table194
+- GCC_except_table207
+- GCC_except_table222
+- GCC_except_table223
+- GCC_except_table235
+- GCC_except_table242
+- GCC_except_table257
+- GCC_except_table290
+- GCC_except_table305
+- GCC_except_table308
+- GCC_except_table314
+- GCC_except_table337
+- GCC_except_table400
+- GCC_except_table404
+- GCC_except_table415
+- GCC_except_table425
+- GCC_except_table442
+- GCC_except_table450
+- GCC_except_table459
+- GCC_except_table460
+- GCC_except_table468
+- GCC_except_table469
+- GCC_except_table472
+- GCC_except_table474
+- GCC_except_table480
+- GCC_except_table488
+- GCC_except_table491
+- GCC_except_table494
+- GCC_except_table495
+- GCC_except_table508
+- GCC_except_table513
+- GCC_except_table514
+- GCC_except_table517
+- GCC_except_table522
+- GCC_except_table524
+- GCC_except_table530
+- GCC_except_table531
+- GCC_except_table535
+- GCC_except_table550
+- GCC_except_table567
+- GCC_except_table570
+- GCC_except_table581
+- GCC_except_table585
+- GCC_except_table588
+- GCC_except_table589
+- GCC_except_table595
+- GCC_except_table599
+- GCC_except_table601
+- GCC_except_table602
+- GCC_except_table613
+- GCC_except_table621
+- GCC_except_table622
+- GCC_except_table623
+- GCC_except_table632
+- GCC_except_table633
+- GCC_except_table641
+- GCC_except_table649
+- GCC_except_table652
+- GCC_except_table661
+- GCC_except_table665
+- GCC_except_table666
+- GCC_except_table667
+- GCC_except_table673
+- GCC_except_table678
+- GCC_except_table682
+- GCC_except_table686
+- GCC_except_table687
+- GCC_except_table691
+- GCC_except_table695
+- GCC_except_table697
+- GCC_except_table699
+- GCC_except_table702
+- GCC_except_table712
+- GCC_except_table717
+- GCC_except_table719
+- GCC_except_table720
+- GCC_except_table734
+- GCC_except_table735
+- GCC_except_table736
+- GCC_except_table749
+- GCC_except_table752
+- GCC_except_table754
+- GCC_except_table758
+- GCC_except_table762
+- GCC_except_table764
+- GCC_except_table774
+- GCC_except_table776
+- GCC_except_table777
+- GCC_except_table778
+- GCC_except_table783
+- GCC_except_table787
+- GCC_except_table788
+- GCC_except_table789
+- GCC_except_table792
+- GCC_except_table821
+- GCC_except_table823
+- GCC_except_table828
+- GCC_except_table853
+- GCC_except_table854
+- GCC_except_table863
+- GCC_except_table869
+- GCC_except_table870
+- GCC_except_table879
+- GCC_except_table890
+- GCC_except_table895
+- GCC_except_table918
+- GCC_except_table938
+- GCC_except_table942
+- GCC_except_table953
+- GCC_except_table954
+- GCC_except_table958
+- GCC_except_table966
+- GCC_except_table968
+- GCC_except_table972
+- GCC_except_table980
+- GCC_except_table982
+- GCC_except_table986
+- GCC_except_table990
+- GCC_except_table991
+- GCC_except_table992
+- GCC_except_table998
+- _OBJC_IVAR_$_CKModalTranscriptController._deferredInsertMediaObjectBlocks
+- _OBJC_IVAR_$_CKTranscriptCollectionViewLayoutAttributes._parentChatItemSize
+- _SCUIMoreHelpContextMenuShowContentNameKey
+- __CLASS_METHODS__TtC7ChatKit34CKCommunicationSafetyFlowPresenter
+- __INSTANCE_METHODS__TtC7ChatKit40CKSendMenuPopoverContainerViewController
+- __OBJC_$_INSTANCE_METHODS_UITraitCollection(ForCoreChatController|ChatKit|ChatKit1|ChatKit2|ChatKit3|ChatKit4)
+- __OBJC_$_INSTANCE_METHODS__TtC7ChatKit39CKAssistantActionSuggestionModalManager(ChatKit)
+- __OBJC_CLASS_PROTOCOLS_$__TtC7ChatKit39CKAssistantActionSuggestionModalManager(ChatKit)
+- __PROPERTIES__TtC7ChatKit40CKSendMenuPopoverContainerViewController
+- ___197-[CKNicknameBannerView initWithStyle:updates:useNamedTitles:avatarImages:contacts:customImage:titleString:subtitleString:actionButtonTitle:actionButtonHandler:actionButtonMenuItems:xButtonHandler:]_block_invoke
+- ___197-[CKNicknameBannerView initWithStyle:updates:useNamedTitles:avatarImages:contacts:customImage:titleString:subtitleString:actionButtonTitle:actionButtonHandler:actionButtonMenuItems:xButtonHandler:]_block_invoke_2
+- ___33-[CKInternalAudioPlayer duration]_block_invoke_3
+- ___55-[CKTranscriptCollectionViewController viewWillAppear:]_block_invoke_5
+- ___66-[CKSendMenuPresentation _beginPopoverPresentationWithCompletion:]_block_invoke_2
+- ___71-[CKTranscriptCollectionViewController _showLeaveConversationFromView:]_block_invoke_3
+- ___91-[CKConversationListCollectionViewController _showConversationWithComposition:atIndexPath:]_block_invoke
+- ___block_descriptor_56_e8_32s40s48bs_e39_v32?0"NSURL"8"CKShare"16"NSError"24ls48l8s32l8s40l8
+- ___block_descriptor_72_e8_32s40s48s56s64bs_e20_v24?0q8"NSError"16ls32l8s64l8s40l8s48l8s56l8
+- ___swift_closure_destructor.200Tm
+- ___swift_closure_destructor.35Tm
+- ___swift_closure_destructor.55Tm
+- ___swift_closure_destructor.68Tm
+- ___swift_closure_destructor.69Tm
+- ___swift_closure_destructor.80Tm
+- ___swift_closure_destructor.89Tm
+- _get_enum_tag_for_layout_string So21SCSensitivityAnalysisCIegg_Sg
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicmN0O5BoundRtd__lFQOyAA6VStackVyAA05TupleD0VyACyACyACyACyAA6HStackVyARyAA012_ConditionalD0VyAA05EmptyE0VACyAeAE11buttonStyleyQrqd__AA06ButtonW0Rd__lFQOyAA0X0VyACyAeAE10fontWeightyQrAA4FontV0Z0VSgFQOyAA5ImageV_Qo_AA14_PaddingLayoutVGG_7ChatKit06BannerE0V06CirclexW033_E57D8E23A12CCD91C6F0FE059656E000LLVQo_AA011_ForegroundW8ModifierVyAA017HierarchicalShapeW0VGGGSg_AeAE12onTapGesture5count7performQrSi_yyctFQOyATyARyACyAVyAVyACyA8_AA12_FrameLayoutVGAA03AnyE0VGA14_011AvatarStackE0VGSgAA0I18AttachmentModifierVG_APyARyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA06_FixedN6LayoutVGSg_A55_QPGGQPGG_Qo_AA6SpacerVAVyACyACyACyAA5GroupVyAVyAeAEA1_yQrA6_FQOyAA4MenuVyACyA46_A11_GAA7ForEachVySayA14_8MenuItemVG10Foundation4UUIDVA0_yAVyACyAA5LabelVyA46_A8_GA48_yAA5ColorVSgGGA46_GGGG_Qo_A14_0X20WithUIViewBackgroundVyA67_GGGA48_yAA08AnyShapeW0VSgGGA16_06BannerxW8ModifierA18_LLVGA48_yAA0X11BorderShapeVGGAXGA28_QPGGA11_GA11_GA11_GA11_G_ACyACyACyACyAVyAA4GridVyAA7GridRowVyA69_ySayA14_06BannerX0VGA75_ACyACyACyAeAEAYyQrqd__AA09PrimitivexW0Rd__lFQOyA64_yAVyA87_A90_yACyACyA46_AA16_FlexFrameLayoutVGA82_GGGG_AA08BorderedxW0VQo_A104_GA48_yA3_SgGGA122_GGGGAXGA11_GA11_GA11_GA11_GSgQPGG_s19PartialRangeThroughVyALGQo__Qo_AA19_BackgroundModifierVyACyACyACyAPyARyA14_010ChromeBlurE0VSg_AA7DividerVSgQPGGAA25_AllowsHitTestingModifierVGAA11_ClipEffectVyAA16RoundedRectangleVGGAA30_SafeAreaRegionsIgnoringLayoutVGGGA14_20GlassPlatterModifierVyA168_GGA11_GA172_GA122_GAaDHPA181_AaDHPA180_AaDHPA179_AaDHPA175_AaDHPqd__AaDHD2_A151_HO_A174_AA0E8ModifierHPyHCHC_A178_AAA183_HPyHCHC_A11_AAA183_HPyHCHC_A172_AAA183_HPyHCHC_A122_AAA183_HPyHCHC
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA6ZStackVyAA05TupleD0Vy7ChatKit29VisualEffectViewRepresentableV_AEyAEyAEyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0N9AlignmentOGGAA010_BlendModeK0VGAA14_PaddingLayoutVGQPGGAA08_OverlayR0VyAEyAEyAEyAJ09Sensitived6ButtonM0VAA06_FrameW0VGAYGAYGGGA4_GAA0L0HPA11_AAA13_HPA0_AAA13_HPyHC_A10_AA0lR0HPyHCHC_A4_AAA13_HPyHCHC
+- _get_witness_table 7SwiftUI6ZStackVyAA12TupleContentVyAA12MeshGradientV_AA08ModifiedE0VyAIyAIy7ChatKit16RingProgressView33_B75933A2D31E5D1A0B34F2AA4F243E90LLVAA12_FrameLayoutVGAA08_PaddingZ0VGARGSgQPGGAA0M0HPyHC
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBP8FeedbackE06inlineD010controller10completionQrAA7BindingVyAD23FBKEvaluationControllerCG_ys6ResultOy0D7Service14FBKSEvaluationCs5Error_pGcSgtFQOyAA15ModifiedContentVyAVyAVyAVy20CommunicationDetails0r6ScrollC0Vy7ChatKit7GalleryV0vcP033_03EA25B3F1ED67DA61C1C78F06DDBB32LLVGAA31AccessibilityAttachmentModifierVGAA30_EnvironmentKeyWritingModifierVyyAZ09SensitivepV6ActionOcSgGGA9_ySo019PRUISPosterSnapshotJ0CSgGGA9_y10Foundation4UUIDVSgGG_Qo_HO
+- _objc_msgSend$_ck_isInteractiveContentPopGesture:
+- _objc_msgSend$_showConversation:withComposition:
+- _objc_msgSend$_showConversationWithComposition:atIndexPath:
+- _objc_msgSend$analysis
+- _objc_msgSend$analyzeContent:withChatID:completionHandler:
+- _objc_msgSend$analyzeContent:withIdentifier:chatID:completionHandler:
+- _objc_msgSend$bannerWithTitle:subtitleString:avatarImages:contacts:customImage:actionButtonObjects:forceImageCentering:xButtonHandler:
+- _objc_msgSend$chatControllerDidReselectConversation:
+- _objc_msgSend$customImageForUpdate:style:
+- _objc_msgSend$deferredInsertMediaObjectBlocks
+- _objc_msgSend$displayMeshGradient:gradientColors:
+- _objc_msgSend$initWithColorValues:progress:
+- _objc_msgSend$initWithStyle:updates:useNamedTitles:avatarImages:contacts:customImage:titleString:subtitleString:actionButtonTitle:actionButtonHandler:actionButtonMenuItems:xButtonHandler:
+- _objc_msgSend$isSensitiveContent:withChatID:completionHandler:
+- _objc_msgSend$isShowingConversationFromCatalystOpenURL
+- _objc_msgSend$nextResponder
+- _objc_msgSend$quickActionButtonStrokeColor
+- _objc_msgSend$updateColorsWithColorValues:
+- _symbolic Say_____GSg 7ChatKit16AvatarImageModelV
+- _symbolic _____Sg 7SwiftUI7AnyViewV
+- _symbolic ___________yAByABy__________G_____GAFGSgt 7SwiftUI12MeshGradientV AA15ModifiedContentV 7ChatKit16RingProgressView33_B75933A2D31E5D1A0B34F2AA4F243E90LLV AA12_FrameLayoutV AA08_PaddingX0V
+- _symbolic _____yAAyAAyAAyAAy_____y_____y_____y_____yAAyAAyAAyAAy_____yACy_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yADyACyAAyAEyAEyAAyAH_____G_____G_____GSg_____G_AByACyAAyAAy__________ySiSgGG_____GSg_A9_QPGGQPGG_Qo______AEyAAyAAyAAy_____yAEy_____y_____yAAyA2_AJG_____ySay_____G_____AGyAEyAAy_____yA2_AHGA3_y_____SgGGA2_GGGG_Qo______yA18_GGGA3_y_____SgGG_____GA3_y_____GGAFGATQPGGAJGAJGAJGAJG_AAyAAyAAyAAyAEy_____y_____yA19_ySay_____GA22_AAyAAyAAy_____yA16_yAEyA32_A34_yAAyAAyA2______GA27_GGGG______Qo_A45_GA3_y_____SgGGA58_GGGGAFGAJGAJGAJGAJGSgQPGG______y_____GQo__Qo______yAAyAAyAAyAByACy_____Sg______SgQPGG_____G_____y_____GG_____GGG_____yA98_GGAJGA101_GA58_G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicmN0O5BoundRtd__lFQO AA6VStackV AA05TupleD0V AA6HStackV AA012_ConditionalD0V AA05EmptyE0V AeAE11buttonStyleyQrqd__AA06ButtonW0Rd__lFQO AA0X0V AeAE10fontWeightyQrAA4FontV0Z0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerE0V06CirclexW033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundW8ModifierV AA017HierarchicalShapeW0V AeAE12onTapGesture5count7performQrSi_yyctFQO AA12_FrameLayoutV AA03AnyE0V A11_011AvatarStackE0V AA0I18AttachmentModifierV AA4TextV AA30_EnvironmentKeyWritingModifierV AA06_FixedN6LayoutV AA6SpacerV AA5GroupV AeAEA1_yQrA6_FQO AA4MenuV AA7ForEachV A11_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A11_0X20WithUIViewBackgroundV AA08AnyShapeW0V A13_06BannerxW8ModifierA15_LLV AA0X11BorderShapeV AA4GridV AA7GridRowV A11_06BannerX0V AeAEAYyQrqd__AA09PrimitivexW0Rd__lFQO AA16_FlexFrameLayoutV AA08BorderedxW0V A3_ s19PartialRangeThroughV AL AA19_BackgroundModifierV A11_010ChromeBlurE0V AA7DividerV AA25_AllowsHitTestingModifierV AA11_ClipEffectV AA16RoundedRectangleV AA30_SafeAreaRegionsIgnoringLayoutV A11_20GlassPlatterModifierV
+- _symbolic _____yAAyAAyAAy_____y_____G_____G_____yy_____cSgGGAGySo29PRUISPosterSnapshotControllerCSgGGAGy_____SgGG 7SwiftUI15ModifiedContentV 20CommunicationDetails0F10ScrollViewV 7ChatKit7GalleryV0khD033_03EA25B3F1ED67DA61C1C78F06DDBB32LLV AA31AccessibilityAttachmentModifierV AA022_EnvironmentKeyWritingW0V AG09SensitivedK6ActionO 10Foundation4UUIDV
+- _symbolic _____yAAyAAyAAy_____y_____y_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yAByACyAAyADyADyAAyAG_____G_____G_____GSg_____G______yACyAAyAAy__________ySiSgGG_____GSg_A9_QPGGQPGG_Qo______ADyAAyAAyAAy_____yADy_____y_____yAAyA2_AIG_____ySay_____G_____AFyADyAAy_____yA2_AGGA3_y_____SgGGA2_GGGG_Qo______yA18_GGGA3_y_____SgGG_____GA3_y_____GGAEGASQPGGAIGAIGAIGAIG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA012_ConditionalD0V AA9EmptyViewV AA0I0PAAE11buttonStyleyQrqd__AA06ButtonK0Rd__lFQO AA0L0V AmAE10fontWeightyQrAA4FontV0N0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerI0V06CirclelK033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundK8ModifierV AA017HierarchicalShapeK0V AmAE12onTapGesture5count7performQrSi_yyctFQO AA06_FrameR0V AA03AnyI0V A0_011AvatarStackI0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeR0V AA6SpacerV AA5GroupV AmAEARyQrAWFQO AA4MenuV AA7ForEachV A0_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A0_0L20WithUIViewBackgroundV AA08AnyShapeK0V A2_0ulK8ModifierA4_LLV AA0L11BorderShapeV
+- _symbolic _____yAAyAAyAAy_____y_____y_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yAByACyAAyADyADyAAyAG_____G_____G_____GSg_____G______yACyAAyAAy__________ySiSgGG_____GSg_A9_QPGGQPGG_Qo______ADyAAyAAyAAy_____yADy_____y_____yAAyA2_AIG_____ySay_____G_____AFyADyAAy_____yA2_AGGA3_y_____SgGGA2_GGGG_Qo______yA18_GGGA3_y_____SgGG_____GA3_y_____GGAEGASQPGGAIGAIGAIGAIG_AAyAAyAAyAAyADy_____y_____yA19_ySay_____GA22_AAyAAyAAy_____yA16_yADyA32_A34_yAAyAAyA2______GA27_GGGG______Qo_A45_GA3_y_____SgGGA58_GGGGAEGAIGAIGAIGAIGSgt 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA012_ConditionalD0V AA9EmptyViewV AA0I0PAAE11buttonStyleyQrqd__AA06ButtonK0Rd__lFQO AA0L0V AmAE10fontWeightyQrAA4FontV0N0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerI0V06CirclelK033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundK8ModifierV AA017HierarchicalShapeK0V AmAE12onTapGesture5count7performQrSi_yyctFQO AA06_FrameR0V AA03AnyI0V A0_011AvatarStackI0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeR0V AA6SpacerV AA5GroupV AmAEARyQrAWFQO AA4MenuV AA7ForEachV A0_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A0_0L20WithUIViewBackgroundV AA08AnyShapeK0V A2_0ulK8ModifierA4_LLV AA0L11BorderShapeV AA4GridV AA7GridRowV A0_0uL0V AmAEANyQrqd__AA09PrimitivelK0Rd__lFQO AA010_FlexFrameR0V AA08BorderedlK0V AT
+- _symbolic _____yAAyAAyAAy_____y_____y_____y_____yAAyAAyAAyAAy_____yACy_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yADyACyAAyAEyAEyAAyAH_____G_____G_____GSg_____G_AByACyAAyAAy__________ySiSgGG_____GSg_A9_QPGGQPGG_Qo______AEyAAyAAyAAy_____yAEy_____y_____yAAyA2_AJG_____ySay_____G_____AGyAEyAAy_____yA2_AHGA3_y_____SgGGA2_GGGG_Qo______yA18_GGGA3_y_____SgGG_____GA3_y_____GGAFGATQPGGAJGAJGAJGAJG_AAyAAyAAyAAyAEy_____y_____yA19_ySay_____GA22_AAyAAyAAy_____yA16_yAEyA32_A34_yAAyAAyA2______GA27_GGGG______Qo_A45_GA3_y_____SgGGA58_GGGGAFGAJGAJGAJGAJGSgQPGG______y_____GQo__Qo______yAAyAAyAAyAByACy_____Sg______SgQPGG_____G_____y_____GG_____GGG_____yA98_GGAJGA101_G 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicmN0O5BoundRtd__lFQO AA6VStackV AA05TupleD0V AA6HStackV AA012_ConditionalD0V AA05EmptyE0V AeAE11buttonStyleyQrqd__AA06ButtonW0Rd__lFQO AA0X0V AeAE10fontWeightyQrAA4FontV0Z0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerE0V06CirclexW033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundW8ModifierV AA017HierarchicalShapeW0V AeAE12onTapGesture5count7performQrSi_yyctFQO AA12_FrameLayoutV AA03AnyE0V A11_011AvatarStackE0V AA0I18AttachmentModifierV AA4TextV AA30_EnvironmentKeyWritingModifierV AA06_FixedN6LayoutV AA6SpacerV AA5GroupV AeAEA1_yQrA6_FQO AA4MenuV AA7ForEachV A11_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A11_0X20WithUIViewBackgroundV AA08AnyShapeW0V A13_06BannerxW8ModifierA15_LLV AA0X11BorderShapeV AA4GridV AA7GridRowV A11_06BannerX0V AeAEAYyQrqd__AA09PrimitivexW0Rd__lFQO AA16_FlexFrameLayoutV AA08BorderedxW0V A3_ s19PartialRangeThroughV AL AA19_BackgroundModifierV A11_010ChromeBlurE0V AA7DividerV AA25_AllowsHitTestingModifierV AA11_ClipEffectV AA16RoundedRectangleV AA30_SafeAreaRegionsIgnoringLayoutV A11_20GlassPlatterModifierV
+- _symbolic _____yAAyAAy_____y_____G_____G_____yy_____cSgGGAGySo29PRUISPosterSnapshotControllerCSgGG 7SwiftUI15ModifiedContentV 20CommunicationDetails0F10ScrollViewV 7ChatKit7GalleryV0khD033_03EA25B3F1ED67DA61C1C78F06DDBB32LLV AA31AccessibilityAttachmentModifierV AA022_EnvironmentKeyWritingW0V AG09SensitivedK6ActionO
+- _symbolic _____yAAyAAy_____y_____y_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yAByACyAAyADyADyAAyAG_____G_____G_____GSg_____G______yACyAAyAAy__________ySiSgGG_____GSg_A9_QPGGQPGG_Qo______ADyAAyAAyAAy_____yADy_____y_____yAAyA2_AIG_____ySay_____G_____AFyADyAAy_____yA2_AGGA3_y_____SgGGA2_GGGG_Qo______yA18_GGGA3_y_____SgGG_____GA3_y_____GGAEGASQPGGAIGAIGAIG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA012_ConditionalD0V AA9EmptyViewV AA0I0PAAE11buttonStyleyQrqd__AA06ButtonK0Rd__lFQO AA0L0V AmAE10fontWeightyQrAA4FontV0N0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerI0V06CirclelK033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundK8ModifierV AA017HierarchicalShapeK0V AmAE12onTapGesture5count7performQrSi_yyctFQO AA06_FrameR0V AA03AnyI0V A0_011AvatarStackI0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeR0V AA6SpacerV AA5GroupV AmAEARyQrAWFQO AA4MenuV AA7ForEachV A0_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A0_0L20WithUIViewBackgroundV AA08AnyShapeK0V A2_0ulK8ModifierA4_LLV AA0L11BorderShapeV
+- _symbolic _____yAAyAAy_____y_____y_____y_____yAAyAAyAAyAAy_____yACy_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yADyACyAAyAEyAEyAAyAH_____G_____G_____GSg_____G_AByACyAAyAAy__________ySiSgGG_____GSg_A9_QPGGQPGG_Qo______AEyAAyAAyAAy_____yAEy_____y_____yAAyA2_AJG_____ySay_____G_____AGyAEyAAy_____yA2_AHGA3_y_____SgGGA2_GGGG_Qo______yA18_GGGA3_y_____SgGG_____GA3_y_____GGAFGATQPGGAJGAJGAJGAJG_AAyAAyAAyAAyAEy_____y_____yA19_ySay_____GA22_AAyAAyAAy_____yA16_yAEyA32_A34_yAAyAAyA2______GA27_GGGG______Qo_A45_GA3_y_____SgGGA58_GGGGAFGAJGAJGAJGAJGSgQPGG______y_____GQo__Qo______yAAyAAyAAyAByACy_____Sg______SgQPGG_____G_____y_____GG_____GGG_____yA98_GGAJG 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicmN0O5BoundRtd__lFQO AA6VStackV AA05TupleD0V AA6HStackV AA012_ConditionalD0V AA05EmptyE0V AeAE11buttonStyleyQrqd__AA06ButtonW0Rd__lFQO AA0X0V AeAE10fontWeightyQrAA4FontV0Z0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerE0V06CirclexW033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundW8ModifierV AA017HierarchicalShapeW0V AeAE12onTapGesture5count7performQrSi_yyctFQO AA12_FrameLayoutV AA03AnyE0V A11_011AvatarStackE0V AA0I18AttachmentModifierV AA4TextV AA30_EnvironmentKeyWritingModifierV AA06_FixedN6LayoutV AA6SpacerV AA5GroupV AeAEA1_yQrA6_FQO AA4MenuV AA7ForEachV A11_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A11_0X20WithUIViewBackgroundV AA08AnyShapeW0V A13_06BannerxW8ModifierA15_LLV AA0X11BorderShapeV AA4GridV AA7GridRowV A11_06BannerX0V AeAEAYyQrqd__AA09PrimitivexW0Rd__lFQO AA16_FlexFrameLayoutV AA08BorderedxW0V A3_ s19PartialRangeThroughV AL AA19_BackgroundModifierV A11_010ChromeBlurE0V AA7DividerV AA25_AllowsHitTestingModifierV AA11_ClipEffectV AA16RoundedRectangleV AA30_SafeAreaRegionsIgnoringLayoutV A11_20GlassPlatterModifierV
+- _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 7ChatKit09SensitiveD19ButtonRepresentableV AA12_FrameLayoutV AA08_PaddingK0V
+- _symbolic _____yAAy_____y__________G_____G_____G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA12_FrameLayoutV AA7AnyViewV 7ChatKit011AvatarStackJ0V
+- _symbolic _____yAAy_____y__________G_____G_____GSg 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA12_FrameLayoutV AA7AnyViewV 7ChatKit011AvatarStackJ0V
+- _symbolic _____yAAy_____y_____y_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yAByACyAAyADyADyAAyAG_____G_____G_____GSg_____G______yACyAAyAAy__________ySiSgGG_____GSg_A9_QPGGQPGG_Qo______ADyAAyAAyAAy_____yADy_____y_____yAAyA2_AIG_____ySay_____G_____AFyADyAAy_____yA2_AGGA3_y_____SgGGA2_GGGG_Qo______yA18_GGGA3_y_____SgGG_____GA3_y_____GGAEGASQPGGAIGAIG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA012_ConditionalD0V AA9EmptyViewV AA0I0PAAE11buttonStyleyQrqd__AA06ButtonK0Rd__lFQO AA0L0V AmAE10fontWeightyQrAA4FontV0N0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerI0V06CirclelK033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundK8ModifierV AA017HierarchicalShapeK0V AmAE12onTapGesture5count7performQrSi_yyctFQO AA06_FrameR0V AA03AnyI0V A0_011AvatarStackI0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeR0V AA6SpacerV AA5GroupV AmAEARyQrAWFQO AA4MenuV AA7ForEachV A0_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A0_0L20WithUIViewBackgroundV AA08AnyShapeK0V A2_0ulK8ModifierA4_LLV AA0L11BorderShapeV
+- _symbolic _____yAAy_____y_____y_____y_____yAAyAAyAAyAAy_____yACy_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yADyACyAAyAEyAEyAAyAH_____G_____G_____GSg_____G_AByACyAAyAAy__________ySiSgGG_____GSg_A9_QPGGQPGG_Qo______AEyAAyAAyAAy_____yAEy_____y_____yAAyA2_AJG_____ySay_____G_____AGyAEyAAy_____yA2_AHGA3_y_____SgGGA2_GGGG_Qo______yA18_GGGA3_y_____SgGG_____GA3_y_____GGAFGATQPGGAJGAJGAJGAJG_AAyAAyAAyAAyAEy_____y_____yA19_ySay_____GA22_AAyAAyAAy_____yA16_yAEyA32_A34_yAAyAAyA2______GA27_GGGG______Qo_A45_GA3_y_____SgGGA58_GGGGAFGAJGAJGAJGAJGSgQPGG______y_____GQo__Qo______yAAyAAyAAyAByACy_____Sg______SgQPGG_____G_____y_____GG_____GGG_____yA98_GG 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicmN0O5BoundRtd__lFQO AA6VStackV AA05TupleD0V AA6HStackV AA012_ConditionalD0V AA05EmptyE0V AeAE11buttonStyleyQrqd__AA06ButtonW0Rd__lFQO AA0X0V AeAE10fontWeightyQrAA4FontV0Z0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerE0V06CirclexW033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundW8ModifierV AA017HierarchicalShapeW0V AeAE12onTapGesture5count7performQrSi_yyctFQO AA12_FrameLayoutV AA03AnyE0V A11_011AvatarStackE0V AA0I18AttachmentModifierV AA4TextV AA30_EnvironmentKeyWritingModifierV AA06_FixedN6LayoutV AA6SpacerV AA5GroupV AeAEA1_yQrA6_FQO AA4MenuV AA7ForEachV A11_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A11_0X20WithUIViewBackgroundV AA08AnyShapeW0V A13_06BannerxW8ModifierA15_LLV AA0X11BorderShapeV AA4GridV AA7GridRowV A11_06BannerX0V AeAEAYyQrqd__AA09PrimitivexW0Rd__lFQO AA16_FlexFrameLayoutV AA08BorderedxW0V A3_ s19PartialRangeThroughV AL AA19_BackgroundModifierV A11_010ChromeBlurE0V AA7DividerV AA25_AllowsHitTestingModifierV AA11_ClipEffectV AA16RoundedRectangleV AA30_SafeAreaRegionsIgnoringLayoutV A11_20GlassPlatterModifierV
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 7ChatKit09SensitiveD19ButtonRepresentableV AA12_FrameLayoutV
+- _symbolic _____y___________y___________yAEyAEy__________G_____GAIGSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA12TupleContentV AA12MeshGradientV AA08ModifiedI0V 7ChatKit012RingProgressD033_B75933A2D31E5D1A0B34F2AA4F243E90LLV AA06_FrameG0V AA08_PaddingG0V
+- _symbolic _____y___________y_____yADyADyADy_____yACy_____y_____ADy_____y_____yADy_____y______Qo______GG______Qo______y_____GGGSg______yAEyACyADyAFyAFyADyAI_____G_____G_____GSg_____G______yACyADyADy__________ySiSgGG_____GSg_A11_QPGGQPGG_Qo______AFyADyADyADy_____yAFy_____y_____yADyA4_AKG_____ySay_____G_____AHyAFyADy_____yA4_AIGA5_y_____SgGGA4_GGGG_Qo______yA20_GGGA5_y_____SgGG_____GA5_y_____GGAGGAUQPGGAKGAKGAKGAKG_ADyADyADyADyAFy_____y_____yA21_ySay_____GA24_ADyADyADy_____yA18_yAFyA34_A36_yADyADyA4______GA29_GGGG______Qo_A47_GA5_y_____SgGGA60_GGGGAGGAKGAKGAKGAKGSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA6HStackV AA012_ConditionalI0V AA05EmptyD0V AA0D0PAAE11buttonStyleyQrqd__AA06ButtonO0Rd__lFQO AA0P0V AsAE10fontWeightyQrAA4FontV0R0VSgFQO AA5ImageV AA08_PaddingG0V 7ChatKit06BannerD0V06CirclepO033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundO8ModifierV AA017HierarchicalShapeO0V AsAE12onTapGesture5count7performQrSi_yyctFQO AA06_FrameG0V AA03AnyD0V A6_011AvatarStackD0V AA31AccessibilityAttachmentModifierV AA0F0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeG0V AA6SpacerV AA5GroupV AsAEAXyQrA1_FQO AA4MenuV AA7ForEachV A6_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A6_0P20WithUIViewBackgroundV AA08AnyShapeO0V A8_0xpO8ModifierA10_LLV AA0P11BorderShapeV AA4GridV AA7GridRowV A6_0xP0V AsAEATyQrqd__AA09PrimitivepO0Rd__lFQO AA010_FlexFrameG0V AA08BorderedpO0V AZ
+- _symbolic _____y___________y_____y__________y_____y_____yAFy_____y______Qo______GG______Qo______y_____GGGSg______y_____yACyAFyADyADyAFyAH_____G_____G_____GSg_____G______yACyAFyAFy__________ySiSgGG_____GSg_A11_QPGGQPGG_Qo______ADyAFyAFyAFy_____yADy_____y_____yAFyA4_AJG_____ySay_____G_____AGyADyAFy_____yA4_AHGA5_y_____SgGGA4_GGGG_Qo______yA20_GGGA5_y_____SgGG_____GA5_y_____GGAEGATQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA012_ConditionalI0V AA05EmptyD0V AA08ModifiedI0V AA0D0PAAE11buttonStyleyQrqd__AA06ButtonN0Rd__lFQO AA0O0V AqAE10fontWeightyQrAA4FontV0Q0VSgFQO AA5ImageV AA08_PaddingG0V 7ChatKit06BannerD0V06CircleoN033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundN8ModifierV AA017HierarchicalShapeN0V AqAE12onTapGesture5count7performQrSi_yyctFQO AA0F0V AA06_FrameG0V AA03AnyD0V A4_011AvatarStackD0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeG0V AA6SpacerV AA5GroupV AqAEAVyQrA_FQO AA4MenuV AA7ForEachV A4_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A4_0O20WithUIViewBackgroundV AA08AnyShapeN0V A6_0woN8ModifierA8_LLV AA0O11BorderShapeV
+- _symbolic _____y___________y_____y_____yAEyADy__________G_____G_____GSg_____G______yACyADyADy__________ySiSgGG_____GSg_AXQPGGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA08ModifiedI0V AA012_ConditionalI0V AA5ImageV AA06_FrameG0V AA03AnyD0V 7ChatKit011AvatarStackD0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA022_EnvironmentKeyWritingU0V AA010_FixedSizeG0V
+- _symbolic _____y__________y_____y_____yACy_____y______Qo______GG______Qo______y_____GGGSg______y_____y_____yACyAAyAAyACyAE_____G_____G_____GSg_____G______yASyACyACy__________ySiSgGG_____GSg_A9_QPGGQPGG_Qo______AAyACyACyACy_____yAAy_____y_____yACyA2_AGG_____ySay_____G_____ADyAAyACy_____yA2_AEGA3_y_____SgGGA2_GGGG_Qo______yA18_GGGA3_y_____SgGG_____GA3_y_____GGABGAQt 7SwiftUI19_ConditionalContentV AA9EmptyViewV AA08ModifiedD0V AA0F0PAAE11buttonStyleyQrqd__AA06ButtonI0Rd__lFQO AA0J0V AiAE10fontWeightyQrAA4FontV0L0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerF0V06CirclejI033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundI8ModifierV AA017HierarchicalShapeI0V AiAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA05TupleD0V AA06_FrameP0V AA03AnyF0V AX011AvatarStackF0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeP0V AA6SpacerV AA5GroupV AiAEANyQrASFQO AA4MenuV AA7ForEachV AX8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV AX0J20WithUIViewBackgroundV AA08AnyShapeI0V AZ0sjI8ModifierA0_LLV AA0J11BorderShapeV
+- _symbolic _____y_____yAAyAAyAAy_____y_____G_____G_____yy_____cSgGGAGySo29PRUISPosterSnapshotControllerCSgGGAGy_____SgGG_Qo_ 7SwiftUI4ViewP8FeedbackE06inlineD010controller10completionQrAA7BindingVyAD23FBKEvaluationControllerCG_ys6ResultOy0D7Service14FBKSEvaluationCs5Error_pGcSgtFQO AA15ModifiedContentV 20CommunicationDetails0r6ScrollC0V 7ChatKit7GalleryV0vcP033_03EA25B3F1ED67DA61C1C78F06DDBB32LLV AA31AccessibilityAttachmentModifierV AA30_EnvironmentKeyWritingModifierV AZ09SensitivepV6ActionO 10Foundation4UUIDV
+- _symbolic _____y_____yAByAAy__________G_____G_____GSg_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA5ImageV AA12_FrameLayoutV AA7AnyViewV 7ChatKit011AvatarStackJ0V AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____yAByAAy__________G_____G_____GSg_____G______y_____yAAyAAy__________ySiSgGG_____GSg_AVQPGGt 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA5ImageV AA12_FrameLayoutV AA7AnyViewV 7ChatKit011AvatarStackJ0V AA31AccessibilityAttachmentModifierV AA6VStackV AA05TupleD0V AA4TextV AA022_EnvironmentKeyWritingQ0V AA010_FixedSizeH0V
+- _symbolic _____y_____yAByABy__________G_____GAFGG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV 7ChatKit09SensitiveF19ButtonRepresentableV AA12_FrameLayoutV AA08_PaddingM0V
+- _symbolic _____y_____y__________G_____G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA12_FrameLayoutV AA7AnyViewV
+- _symbolic _____y_____y___________yADyADy__________G_____GAHGSgQPGG 7SwiftUI6ZStackV AA12TupleContentV AA12MeshGradientV AA08ModifiedE0V 7ChatKit16RingProgressView33_B75933A2D31E5D1A0B34F2AA4F243E90LLV AA12_FrameLayoutV AA08_PaddingZ0V
+- _symbolic _____y_____y_____yACyACyACy_____yABy_____y_____ACy_____y_____yACy_____y______Qo______GG______Qo______y_____GGGSg______yADyAByACyAEyAEyACyAH_____G_____G_____GSg_____G_AAyAByACyACy__________ySiSgGG_____GSg_A9_QPGGQPGG_Qo______AEyACyACyACy_____yAEy_____y_____yACyA2_AJG_____ySay_____G_____AGyAEyACy_____yA2_AHGA3_y_____SgGGA2_GGGG_Qo______yA18_GGGA3_y_____SgGG_____GA3_y_____GGAFGATQPGGAJGAJGAJGAJG_ACyACyACyACyAEy_____y_____yA19_ySay_____GA22_ACyACyACy_____yA16_yAEyA32_A34_yACyACyA2______GA27_GGGG______Qo_A45_GA3_y_____SgGGA58_GGGGAFGAJGAJGAJGAJGSgQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA6HStackV AA012_ConditionalE0V AA9EmptyViewV AA0J0PAAE11buttonStyleyQrqd__AA06ButtonL0Rd__lFQO AA0M0V AoAE10fontWeightyQrAA4FontV0O0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerJ0V06CirclemL033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundL8ModifierV AA017HierarchicalShapeL0V AoAE12onTapGesture5count7performQrSi_yyctFQO AA06_FrameS0V AA03AnyJ0V A2_011AvatarStackJ0V AA31AccessibilityAttachmentModifierV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeS0V AA6SpacerV AA5GroupV AoAEATyQrAYFQO AA4MenuV AA7ForEachV A2_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A2_0M20WithUIViewBackgroundV AA08AnyShapeL0V A4_0vmL8ModifierA6_LLV AA0M11BorderShapeV AA4GridV AA7GridRowV A2_0vM0V AoAEAPyQrqd__AA09PrimitivemL0Rd__lFQO AA010_FlexFrameS0V AA08BorderedmL0V AV
+- _symbolic _____y_____y_____y______AAyAAyAAy__________y_____GG_____G_____GQPGG_____yAAyAAyAAy__________GALGALGGG 7SwiftUI15ModifiedContentV AA6ZStackV AA05TupleD0V 7ChatKit29VisualEffectViewRepresentableV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0M9AlignmentO AA010_BlendModeJ0V AA14_PaddingLayoutV AA08_OverlayQ0V AH09Sensitived6ButtonL0V AA06_FrameV0V
+- _symbolic _____y_____y_____y__________G_____G______G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA5ImageV AA12_FrameLayoutV AA7AnyViewV 7ChatKit011AvatarStackK0V
+- _symbolic _____y_____y_____y_____yACyACyACy_____yABy_____y_____ACy_____y_____yACy_____y______Qo______GG______Qo______y_____GGGSg______yADyAByACyAEyAEyACyAH_____G_____G_____GSg_____G_AAyAByACyACy__________ySiSgGG_____GSg_A9_QPGGQPGG_Qo______AEyACyACyACy_____yAEy_____y_____yACyA2_AJG_____ySay_____G_____AGyAEyACy_____yA2_AHGA3_y_____SgGGA2_GGGG_Qo______yA18_GGGA3_y_____SgGG_____GA3_y_____GGAFGATQPGGAJGAJGAJGAJG_ACyACyACyACyAEy_____y_____yA19_ySay_____GA22_ACyACyACy_____yA16_yAEyA32_A34_yACyACyA2______GA27_GGGG______Qo_A45_GA3_y_____SgGGA58_GGGGAFGAJGAJGAJGAJGSgQPGG______y_____GQo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lFQO AA6VStackV AA12TupleContentV AA08ModifiedK0V AA6HStackV AA012_ConditionalK0V AA05EmptyC0V AcAE11buttonStyleyQrqd__AA06ButtonQ0Rd__lFQO AA0R0V AcAE10fontWeightyQrAA4FontV0T0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerC0V06CirclerQ033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundQ8ModifierV AA017HierarchicalShapeQ0V AcAE12onTapGesture5count7performQrSi_yyctFQO AA06_FrameX0V AA03AnyC0V A7_011AvatarStackC0V AA31AccessibilityAttachmentModifierV AA4TextV AA30_EnvironmentKeyWritingModifierV AA06_FixedfX0V AA6SpacerV AA5GroupV AcAEAYyQrA2_FQO AA4MenuV AA7ForEachV A7_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A7_0R20WithUIViewBackgroundV AA08AnyShapeQ0V A9_06BannerrQ8ModifierA11_LLV AA0R11BorderShapeV AA4GridV AA7GridRowV A7_06BannerR0V AcAEAUyQrqd__AA09PrimitiverQ0Rd__lFQO AA010_FlexFrameX0V AA08BorderedrQ0V A_ s19PartialRangeThroughV AF
+- _symbolic _____y_____y_____y_____yADyACy__________G_____G_____GSg_____G______yAByACyACy__________ySiSgGG_____GSg_AWQPGGQPGG 7SwiftUI6HStackV AA12TupleContentV AA08ModifiedE0V AA012_ConditionalE0V AA5ImageV AA12_FrameLayoutV AA7AnyViewV 7ChatKit011AvatarStackL0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA022_EnvironmentKeyWritingS0V AA010_FixedSizeJ0V
+- _symbolic _____y_____y_____y_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yAByACyAAyADyADyAAyAG_____G_____G_____GSg_____G______yACyAAyAAy__________ySiSgGG_____GSg_A9_QPGGQPGG_Qo______ADyAAyAAyAAy_____yADy_____y_____yAAyA2_AIG_____ySay_____G_____AFyADyAAy_____yA2_AGGA3_y_____SgGGA2_GGGG_Qo______yA18_GGGA3_y_____SgGG_____GA3_y_____GGAEGASQPGGAIG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA012_ConditionalD0V AA9EmptyViewV AA0I0PAAE11buttonStyleyQrqd__AA06ButtonK0Rd__lFQO AA0L0V AmAE10fontWeightyQrAA4FontV0N0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerI0V06CirclelK033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundK8ModifierV AA017HierarchicalShapeK0V AmAE12onTapGesture5count7performQrSi_yyctFQO AA06_FrameR0V AA03AnyI0V A0_011AvatarStackI0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA30_EnvironmentKeyWritingModifierV AA010_FixedSizeR0V AA6SpacerV AA5GroupV AmAEARyQrAWFQO AA4MenuV AA7ForEachV A0_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A0_0L20WithUIViewBackgroundV AA08AnyShapeK0V A2_0ulK8ModifierA4_LLV AA0L11BorderShapeV
+- _symbolic _____y_____y_____y_____y______AByAByABy__________y_____GG_____G_____GQPGG_____yAByAByABy__________GAMGAMGGGARG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6ZStackV AA05TupleD0V 7ChatKit29VisualEffectViewRepresentableV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0N9AlignmentO AA010_BlendModeK0V AA14_PaddingLayoutV AA08_OverlayR0V AJ09Sensitived6ButtonM0V AA06_FrameW0V
+- _symbolic _____y_____y_____y_____y______AByAByABy__________y_____GG_____G_____GQPGG_____yAByAByABy__________GAMGAMGGGAR_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA6ZStackV AA05TupleD0V 7ChatKit29VisualEffectViewRepresentableV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0O9AlignmentO AA010_BlendModeL0V AA14_PaddingLayoutV AA08_OverlayS0V AL09Sensitived6ButtonN0V AA06_FrameX0V
+- _symbolic _____y_____y_____y_____y_____yAAyAAyAAyAAy_____yACy_____y_____AAy_____y_____yAAy_____y______Qo______GG______Qo______y_____GGGSg______yADyACyAAyAEyAEyAAyAH_____G_____G_____GSg_____G_AByACyAAyAAy__________ySiSgGG_____GSg_A9_QPGGQPGG_Qo______AEyAAyAAyAAy_____yAEy_____y_____yAAyA2_AJG_____ySay_____G_____AGyAEyAAy_____yA2_AHGA3_y_____SgGGA2_GGGG_Qo______yA18_GGGA3_y_____SgGG_____GA3_y_____GGAFGATQPGGAJGAJGAJGAJG_AAyAAyAAyAAyAEy_____y_____yA19_ySay_____GA22_AAyAAyAAy_____yA16_yAEyA32_A34_yAAyAAyA2______GA27_GGGG______Qo_A45_GA3_y_____SgGGA58_GGGGAFGAJGAJGAJGAJGSgQPGG______y_____GQo__Qo______yAAyAAyAAyAByACy_____Sg______SgQPGG_____G_____y_____GG_____GGG 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicmN0O5BoundRtd__lFQO AA6VStackV AA05TupleD0V AA6HStackV AA012_ConditionalD0V AA05EmptyE0V AeAE11buttonStyleyQrqd__AA06ButtonW0Rd__lFQO AA0X0V AeAE10fontWeightyQrAA4FontV0Z0VSgFQO AA5ImageV AA14_PaddingLayoutV 7ChatKit06BannerE0V06CirclexW033_E57D8E23A12CCD91C6F0FE059656E000LLV AA011_ForegroundW8ModifierV AA017HierarchicalShapeW0V AeAE12onTapGesture5count7performQrSi_yyctFQO AA12_FrameLayoutV AA03AnyE0V A11_011AvatarStackE0V AA0I18AttachmentModifierV AA4TextV AA30_EnvironmentKeyWritingModifierV AA06_FixedN6LayoutV AA6SpacerV AA5GroupV AeAEA1_yQrA6_FQO AA4MenuV AA7ForEachV A11_8MenuItemV 10Foundation4UUIDV AA5LabelV AA5ColorV A11_0X20WithUIViewBackgroundV AA08AnyShapeW0V A13_06BannerxW8ModifierA15_LLV AA0X11BorderShapeV AA4GridV AA7GridRowV A11_06BannerX0V AeAEAYyQrqd__AA09PrimitivexW0Rd__lFQO AA16_FlexFrameLayoutV AA08BorderedxW0V A3_ s19PartialRangeThroughV AL AA19_BackgroundModifierV A11_010ChromeBlurE0V AA7DividerV AA25_AllowsHitTestingModifierV AA11_ClipEffectV AA16RoundedRectangleV AA30_SafeAreaRegionsIgnoringLayoutV
+- _symbolic _____y_____y_____y_____y_____yADyACy__________G_____G_____GSg_____G______yAByACyACy__________ySiSgGG_____GSg_AWQPGGQPGG_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA12TupleContentV AA08ModifiedK0V AA012_ConditionalK0V AA5ImageV AA12_FrameLayoutV AA03AnyC0V 7ChatKit011AvatarStackC0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA022_EnvironmentKeyWritingX0V AA010_FixedSizeP0V
+- _type_layout_string 7ChatKit35SensitiveContentButtonRepresentableV
+CStrings:
++ "/System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices"
++ "ASSISTANT_ACTION_SUGGESTION_SHOW_IN_CALENDAR"
++ "App Intent blocked by Communication Limits"
++ "App Intent blocked by Communication Safety: one attachment flagged as sensitive"
++ "CKIconAppearanceDidChangeNotification"
++ "COMMUNICATION_LIMITS_ERROR_BLOCKED"
++ "Calendar event added with identifier %s"
++ "ChatKit.CKResolvedIconAppearance"
++ "ChatKit.HostedSensitiveContentButton"
++ "ChatKit/HostedSensitiveContentButton.swift"
++ "Configuration changed; type=%{public}ld hasTint=%{bool,public}d tint=%{public}s"
++ "Could not access %s for sensitivity scan."
++ "Failed to launch Calendar for event URL"
++ "Failed to resolve calendar event for identifier %s"
++ "Failed to resolve launchURL from EKEvent."
++ "Found %s in file transfers—device must have been rebooted since shelved"
++ "Found part by attachment ordinal %ld (body messagePartIndex: %ld)"
++ "IconServices returned no image for bundle identifier %{public}s"
++ "Initialized; current config type=%{public}ld"
++ "Launching Calendar to event with URL: %s"
++ "MEPDismissCardOnKeyboardAppearanceInputs"
++ "MEPFeatures"
++ "No chat to resolve send service for; sending on best-known service"
++ "Not updating scroll intent on viewWillAppear. currentScrollIntent: %ld"
++ "Optional<SensitiveContentContext>"
++ "Orb tapback send: captured chatItem.guid: %s, tapback: %lld, sendDelay: %f, isRemoval: %{bool}d"
++ "Orb tapback send: chat item %s is no longer in the transcript after sendDelay; skipping send"
++ "Orb tapback send: did perform send on chatItem.message.guid: %s"
++ "PrioritizeAttachment: No metadata found for syndicationIdentifier=%{public}s"
++ "PurgedAttachmentsPrioritize"
++ "Requested blocking, but 1:1 chat has no other recipient."
++ "SCUIMoreHelpMenuController returned %ld updated analyses with a `userOptedToShow` flag"
++ "SENSITIVE_CONTENT_ERROR_BLOCKED"
++ "Send service refresh timed out after %ldms; proceeding on best-known service"
++ "Send service resolved (final) after %ldms; sending"
++ "Sensitivity scan failed: %@"
++ "Skipped pre-warm for transfer: %@, kind: %s"
++ "Successfully launched Calendar via event URL"
++ "Transfer %s has no cached representation for sensitive content analysis"
++ "Waiting up to %llds for send service to resolve before sending"
++ "com.apple.MobileAddressBook"
++ "com.apple.MobileSMS.HomeScreenIconStyleObserver"
++ "configureAdaptivePopover: popoverPresentationController was nil; falling back to the standard sheet path"
++ "didDeselectTapback: nil guid on captured chatItem; skipping send during orb"
++ "didSelectTapback: nil guid on captured chatItem; skipping send during orb"
++ "exclamationmark.shield.fill"
++ "eye.trianglebadge.exclamationmark.fill"
++ "isAttachmentSensitive(at:in:)"
++ "kt-disable-info-url"
++ "messages://open?groupid="
++ "messages://open?message-guid="
++ "presentCommSafetyInterventionIfNecessaryForSticker detected sensitive content"
++ "waitForFinalService(conversation:timeout:)"
+- "  => Preparing to dump conversation from cache: %@"
+- "Adding/incrementing conversation count in cache: %@"
+- "CKAssistant"
+- "CKCurrentConversationsManager"
+- "CKCurrentConversationsManager: Conversation cache size is zero!"
+- "CKCurrentConversationsManager: Not caching conversation with no deviceIndependentID: %@"
+- "CKCurrentConversationsManager: asking to dump conversation with no deviceIndependentID: %@"
+- "Clearing draft store"
+- "ContactsIcon"
+- "Decrementing conversation count in cache: %@"
+- "Found %@ addresses for recipients, but no recent address, selecting first address %@"
+- "Found %@ addresses for recipients, selecting most recent address %@"
+- "Found email %@ for label %@"
+- "Found number %@ for label %@"
+- "Found record for internalGUID %@: %@"
+- "Internal guid of person was nil, could not find address for that person."
+- "Not caching pending conversation: %@"
+- "Pruning conversation cache to size %ld"
+- "Registering for updates (no Photos support) for %s"
+- "Retrieving a draft. Found:\n%@"
+- "Returning sms object:\n%@"
+- "SAFETY_MENU_CONTENT_KIND_BACKGROUND"
+- "Setting %@ as the inspector."
+- "Transfer %s has no cached preflight preview"
+- "Trying to find address for person %@ with internalGUID %@ and desiredLabel %@"
+- "Updating draft store to:\n%@"
+- "_calculateConversationListColumnWidth columnWidth: %f, widthForCurrentOrientation: %f, isFullScreen: %{BOOL}d, minConversationListWidth: %f"
+- "didDeselectTapback: did perform send on chatItem.message.guid: %s, during orb"
+- "didInsertTapback: did perform send on chatItem.message.guid: %s, during orb"
+- "didSelectTapback: did perform send on chatItem.message.guid: %s, during orb"
+- "getAddressesFromPeople returning addresses: %@"
+- "lastPersistedWidth: %f"
+- "presentCommSafetyInterventionIfNecessaryForFileURL detected sensitive content"
+- "setting conversationListWidth: %f"
+```

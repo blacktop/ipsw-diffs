@@ -1,0 +1,107 @@
+## JournalWidgetsSecure
+
+> `FileSystem/private/var/staged_system_apps/Journal.app/PlugIns/JournalWidgetsSecure.appex/Localizable.loctable`
+
+```diff
+
+ en.Delete All = "Delete All"
+ en.Delete All Entries? = "Delete All Entries?"
+ en.Delete Attachment = "Delete Attachment"
++en.Delete Audio Recording = "Delete Audio Recording"
+ en.Delete Entries = "Delete Entries"
+ en.Delete Entries? = "Delete Entries?"
+ en.Delete Entry = "Delete Entry"
+
+ en.Delete Journal Only = "Delete Journal Only"
+ en.Delete Journal swipe action = "Delete"
+ en.Delete Permanently = "Delete Permanently"
+-en.Delete Recording = "Delete Recording"
+ en.Delete Reflection Prompt = "Delete Reflection Prompt"
+ en.Delete Selected = "Delete Selected"
+ en.Delete this attachment = "Delete this attachment"
+
+ en.Dog = "Dog"
+ en.Done = "Done"
+ en.Done Editing = "Done Editing"
++en.Don’t Save = "Don’t Save"
+ en.Double Bed = "Double Bed"
+ en.Double tap to edit entry date = "Double tap to edit entry date"
+ en.Double-tap for less detail.NSStringDeviceSpecificRuleType.mac = "Press for less detail"
+
+ en.Kayaking = "Kayaking"
+ en.Kayaking icon = "kayaking"
+ en.Keep Editing = "Keep Editing"
+-en.Keep Recording = "Keep Recording"
+ en.Keep Your Streak = "Keep Your Streak"
+ en.Keep Your Streak Going = "Keep Your Streak Going"
+ en.Keep your streak = "Keep your streak"
+
+ en.OK = "OK"
+ en.Off = "Off"
+ en.On = "On"
++en.Once support is downloaded, iPhone will be able to create writing prompts for you..NSStringDeviceSpecificRuleType.ipad = "Once support is downloaded, iPad will be able to create writing prompts for you."
++en.Once support is downloaded, iPhone will be able to create writing prompts for you..NSStringDeviceSpecificRuleType.mac = "Once support is downloaded, your Mac will be able to create writing prompts for you."
++en.Once support is downloaded, iPhone will be able to create writing prompts for you..NSStringDeviceSpecificRuleType.other = "Once support is downloaded, iPhone will be able to create writing prompts for you."
+ en.Only %lld of %lld attachments from this suggestion will be added to your entry..NSStringLocalizedFormatKey = "Only %1$#@arg1@ of %2$#@total@ from this suggestion will be added to your entry."
+ en.Only %lld of %lld attachments from this suggestion will be added to your entry..arg1.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ en.Only %lld of %lld attachments from this suggestion will be added to your entry..arg1.NSStringFormatValueTypeKey = "lld"
+
+ en.Sand = "Sand"
+ en.Satisfied feeling = "Satisfied"
+ en.Save = "Save"
++en.Save Audio Recording = "Save Audio Recording"
++en.Save Audio Recording? = "Save Audio Recording?"
+ en.Save To Photos = "Save To Photos"
+ en.Save To Photos for Journal. = "Save To Photos for Journal."
+ en.Save To Photos to update = "Save To Photos to update"
+
+ en.Show Writing Prompts to update on Show Writing Prompts = "Show Writing Prompts to update on Show Writing Prompts"
+ en.Show in All Entries = "Show in All Entries"
+ en.Show in Entry = "Show in Entry"
+-en.Show or don’t show AI generated writing prompts. = "Show or don’t show AI generated writing prompts."
++en.Show or don’t show AI-generated writing prompts. = "Show or don’t show AI-generated writing prompts."
+ en.Show or hide Journaling Suggestions when tapping the new entry button in Journal.NSStringDeviceSpecificRuleType.mac = "Show or hide Journaling Suggestions when clicking the new entry button in Journal"
+ en.Show or hide Journaling Suggestions when tapping the new entry button in Journal.NSStringDeviceSpecificRuleType.other = "Show or hide Journaling Suggestions when tapping the new entry button in Journal"
+ en.Show your current location = "Show your current location"
+
+ en.You can automatically sync your journals with iCloud, so you’ll be able to view, edit, and create entries from any of your devices. Synced entries include any attachments you’ve added such as activity, media, contacts, photos, significant locations, and state of mind. Your data syncs when your Mac is connected to the internet.
+ 
+ You can manage this device’s access in iCloud settings. = "You can automatically sync your journals with iCloud, so you’ll be able to view, edit, and create entries from any of your devices. Synced entries include any attachments you’ve added such as activity, media, contacts, photos, significant locations, and state of mind. Your data syncs when your Mac is connected to the internet.\n\nYou can manage this device’s access in iCloud settings."
++en.You had this turned on before. Keep adding your journaling time to Mindful Minutes in Health. = "You had this turned on before. Keep adding your journaling time to Mindful Minutes in Health."
+ en.You have a daily streak since %@. Write before midnight to extend it. = "You have a daily streak since %@. Write before midnight to extend it."
+ en.You have a weekly streak since %@. Write before Friday midnight to extend it. = "You have a weekly streak since %@. Write before Friday midnight to extend it."
+ en.You have a weekly streak since %@. Write before Monday midnight to extend it. = "You have a weekly streak since %@. Write before Monday midnight to extend it."
+
+ en.You have a weekly streak since %@. Write before Wednesday midnight to extend it. = "You have a weekly streak since %@. Write before Wednesday midnight to extend it."
+ en.You wrote: %@ = "You wrote: %@"
+ en.You've added all prompts for this entry. To explore more, start a new entry. = "You’ve added all prompts for this entry. To explore more, start a new entry."
+-en.Your Apple Account settings need to be updated so this device can use end-to-end-encryption..NSStringDeviceSpecificRuleType.ipad = "Your Apple Account settings need to be updated so this iPad can use end-to-end-encryption."
+-en.Your Apple Account settings need to be updated so this device can use end-to-end-encryption..NSStringDeviceSpecificRuleType.iphone = "Your Apple Account settings need to be updated so this iPhone can use end-to-end-encryption."
+-en.Your Apple Account settings need to be updated so this device can use end-to-end-encryption..NSStringDeviceSpecificRuleType.mac = "Your Apple Account settings need to be updated so this Mac can use end-to-end-encryption."
+-en.Your Apple Account settings need to be updated so this device can use end-to-end-encryption..NSStringDeviceSpecificRuleType.other = "Your Apple Account settings need to be updated so this device can use end-to-end-encryption."
+-en.Your audio recording has not been saved. = "Your audio recording has not been saved."
++en.Your Apple Account settings need to be updated so this device can use end-to-end encryption..NSStringDeviceSpecificRuleType.ipad = "Your Apple Account settings need to be updated so this iPad can use end-to-end encryption."
++en.Your Apple Account settings need to be updated so this device can use end-to-end encryption..NSStringDeviceSpecificRuleType.iphone = "Your Apple Account settings need to be updated so this iPhone can use end-to-end encryption."
++en.Your Apple Account settings need to be updated so this device can use end-to-end encryption..NSStringDeviceSpecificRuleType.mac = "Your Apple Account settings need to be updated so this Mac can use end-to-end encryption."
++en.Your Apple Account settings need to be updated so this device can use end-to-end encryption..NSStringDeviceSpecificRuleType.other = "Your Apple Account settings need to be updated so this device can use end-to-end encryption."
+ en.Your browser does not support the audio element.<no loc> = "Your browser does not support the audio element.\u003cno loc\u003e"
+ en.Your browser does not support the video tag.<no loc> = "Your browser does not support the video tag.\u003cno loc\u003e"
+ en.Your iCloud Storage is Full = "Your iCloud Storage is Full"
+
+ en.contact = "contact"
+ en.drawing = "drawing"
+ en.export_timeline_menu_item = "Export"
+-en.false = "false"
+ en.invite = "invite"
+ en.link = "link"
+ en.live photo = "live photo"
+
+ en.somethingWentWrong = "Something went wrong"
+ en.state of mind = "state of mind"
+ en.title = "title"
+-en.true = "true"
+ en.video = "video"
+ en.visit = "visit"
+ en.walking area = "walking area"
+
+```

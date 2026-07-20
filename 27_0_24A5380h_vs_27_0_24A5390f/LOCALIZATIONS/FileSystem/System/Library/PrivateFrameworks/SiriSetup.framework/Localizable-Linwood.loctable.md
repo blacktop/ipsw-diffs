@@ -1,0 +1,62 @@
+## SiriSetup
+
+> `FileSystem/System/Library/PrivateFrameworks/SiriSetup.framework/Localizable-Linwood.loctable`
+
+```diff
+
+ en.CURIOSITY_TITLE = "Satisfy Your Curiosity"
+ en.CUSTOM_VOICE_SELECTION_SUBTITLE = "Scan around with your finger to find a voice that speaks to you."
+ en.CUSTOM_VOICE_SELECTION_TITLE = "Tune Siri’s Voice"
++en.DATA_SHARING_INTERNAL_DISCLAIMER = "[Internal Only] Devices opted in to Improve Siri and Dictation may also send full IntelligenceFlow transcripts to Apple. This includes unredacted contextual and personal information used in processing requests, including on-screen context, contacts, the content of your Messages or emails, Calendar events, information about personal documents or local search results, and any other information Siri may evaluate as potentially relevant to a request. Some of this data may be used to help develop, design, and improve Siri. The data will be used for evaluation purposes only."
+ en.EXPRESSIVE_VOICE_ACCENT_LABEL = "Accent"
++en.EXPRESSIVE_VOICE_BACK_BUTTON = "Back"
+ en.EXPRESSIVE_VOICE_COMING_SOON_LABEL = "Coming Soon"
+ en.EXPRESSIVE_VOICE_EXPRESSIVITY_LABEL = "Expressivity"
+ en.EXPRESSIVE_VOICE_NUMBERED_NAME = "Voice %lu"
+ en.EXPRESSIVE_VOICE_PACE_LABEL = "Pace"
+ en.EXPRESSIVE_VOICE_SELECTION_SUBTITLE = "You’ll hear this voice in Siri, Maps, and Safari."
+ en.EXPRESSIVE_VOICE_SELECTION_TITLE = "Customize Your Siri Voice"
++en.EXPRESSIVE_VOICE_SELECTION_TITLE_LEGACY = "Select a Siri Voice"
++en.EXPRESSIVE_VOICE_SLIDER_VALUE = "%1$lu of %2$lu"
+ en.EXPRESSIVE_VOICE_VOICE_LABEL = "Voice"
+ en.LINWOOD_INTRO_DESC = "More natural, more personal, and more capable across your apps and data."
+ en.LINWOOD_INTRO_TITLE = "Built on Apple Intelligence"
+
+ en.LINWOOD_UPGRADE_BUTTON_TITLE_WAITLISTED = "Join Waitlist"
+ en.LINWOOD_UPGRADE_CONFIRMATION_CANCEL_BUTTON = "Cancel"
+ en.LINWOOD_UPGRADE_CONFIRMATION_DONE_BUTTON = "Continue"
+-en.LINWOOD_UPGRADE_CONFIRMATION_SUBTITLE = "Your personal data and privacy are protected when using Siri with Intelligence."
++en.LINWOOD_UPGRADE_CONFIRMATION_SUBTITLE = "Your personal data and privacy are protected when using Siri."
+ en.LINWOOD_UPGRADE_CONFIRMATION_TITLE = "Siri with Apple Intelligence"
+ en.LINWOOD_UPGRADE_SUBTITLE = "More conversational, more capable, and deeply personal."
+ en.LINWOOD_UPGRADE_TITLE = "Siri with Apple Intelligence"
+
+ en.MAIN_PLACARD_VIEW_TITLE_LW = "Siri"
+ en.PRIVATE_DESC = "Siri understands your apps and data, and is more secure than ever."
+ en.PRIVATE_TITLE = "Personal and Private"
++en.SIRI_APP_ALERT_CANCEL = "Cancel"
++en.SIRI_APP_ALERT_CONTINUE = "Continue Without Siri AI"
++en.SIRI_APP_ALERT_MESSAGE = "You can turn on Siri AI at any time in Settings."
++en.SIRI_APP_ALERT_TITLE = "Continue without Siri AI?"
++en.SIRI_APP_CONTINUE = "Continue with Siri AI"
++en.SIRI_APP_DESCRIPTION = "A new app for Siri will be added to your Home Screen. Use it to have rich conversations with Siri, find information and take action across apps, and revisit past conversations."
++en.SIRI_APP_LEARN_MORE = "Learn More"
++en.SIRI_APP_SETUP_LATER = "Set Up Later"
++en.SIRI_APP_TITLE = "Siri App"
+ en.SIRI_CAROUSEL_PAGE_ASK_DESCRIPTION = "With a more personal Siri, you can ask Siri anything."
+ en.SIRI_CAROUSEL_PAGE_ASK_TITLE.NSStringDeviceSpecificRuleType.applevision = "Ask Anything"
+ en.SIRI_CAROUSEL_PAGE_ASK_TITLE.NSStringDeviceSpecificRuleType.other = "Ask anything."
+
+ en.SIRI_DISABLEMENT_SHEET_BODY.NSStringDeviceSpecificRuleType.other = "If you’d like to turn off certain features and keep Siri on, you can do so in Siri Settings.\n\nAfter turning Siri off, Siri will no longer be available on this device. In addition, the following features will also no longer be available.\n\nConversations in the Siri App\nYou won’t be able to start or continue conversations. Your existing conversations will still be viewable.\n\nSiri Requests\nYou won’t be able to ask Siri questions, use voice commands, or get suggestions from Siri.\n\nVisual Intelligence\nVisual Intelligence will continue to work but with more limited capabilities.\n\nHomePod\nHomePod speakers in your home will no longer recognize your voice or help with personal content.\n\nFeatures like Writing Tools, Image Playground, and Shortcuts are not affected.\n\nTranscripts of your Siri \u0026 Dictation requests stored on this device will be deleted, along with Siri \u0026 Dictation interactions associated with this device that were sent to Apple servers. The information Siri used to respond to your requests will also be removed from Apple servers. If you turn Siri on later, it will take some time to sync this information again.\n\nData that has been sampled to help improve Siri \u0026 Dictation will not be associated with this device, but may be retained for the ongoing improvement of Siri."
+ en.SIRI_DISABLEMENT_SHEET_GO_TO_REQUESTS_TITLE = "Don’t Turn Off Siri"
+ en.SIRI_ENABLEMENT_DESCRIPTION = "A new version of Siri that’s more personal and helpful, with rich conversations, and a dedicated app."
+-en.SIRI_ENABLEMENT_ROW_TURN_ON_PREVIEW_TITLE = "Try the new Siri (Beta)"
+-en.SIRI_ENABLEMENT_TITLE = "Try the new Siri (Beta)?"
+-en.SIRI_ENABLEMENT_TRY_NEW = "Try the new Siri (Beta)"
++en.SIRI_ENABLEMENT_TITLE = "Try Siri AI (Beta)?"
++en.SIRI_ENABLEMENT_TRY_NEW = "Try Siri AI (Beta)"
+ en.SIRI_ENABLEMENT_USE_PREVIOUS = "Use Previous Version"
+ en.SPEAK_NATURALLY_DESC = "Type or speak to Siri as you would in everyday conversation."
+ en.SPEAK_NATURALLY_TITLE = "Speak Naturally"
+
+```

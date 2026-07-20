@@ -1,0 +1,1148 @@
+## navd
+
+> `/System/Library/PrivateFrameworks/MapsSupport.framework/navd`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__objc_doubleobj`
+- `__DATA_CONST.__objc_floatobj`
+
+```diff
+
+-2972.30.6.12.16
+-  __TEXT.__text: 0x3f694
+-  __TEXT.__auth_stubs: 0xe40
+-  __TEXT.__objc_stubs: 0x7ac0
+-  __TEXT.__objc_methlist: 0x24a0
+-  __TEXT.__const: 0x2e2
++2972.30.6.12.32
++  __TEXT.__text: 0x4ad5c
++  __TEXT.__auth_stubs: 0x1700
++  __TEXT.__objc_stubs: 0x7d60
++  __TEXT.__objc_methlist: 0x3028
++  __TEXT.__const: 0xbf4
+   __TEXT.__gcc_except_tab: 0x4174
+-  __TEXT.__cstring: 0x4cc5
+-  __TEXT.__objc_methname: 0x84ea
+-  __TEXT.__objc_classname: 0x951
+-  __TEXT.__objc_methtype: 0x2066
+-  __TEXT.__oslogstring: 0x5599
+-  __TEXT.__swift5_typeref: 0x9b
+-  __TEXT.__swift5_capture: 0x74
+-  __TEXT.__swift_as_entry: 0xc
+-  __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__swift_as_cont: 0x20
+-  __TEXT.__unwind_info: 0x13a0
+-  __TEXT.__eh_frame: 0x288
+-  __DATA_CONST.__const: 0x31e8
+-  __DATA_CONST.__cfstring: 0x28a0
+-  __DATA_CONST.__objc_classlist: 0x1a8
++  __TEXT.__cstring: 0x4e38
++  __TEXT.__objc_methname: 0xbd69
++  __TEXT.__objc_classname: 0x988
++  __TEXT.__objc_methtype: 0x28e1
++  __TEXT.__oslogstring: 0x5692
++  __TEXT.__swift5_typeref: 0x5e6
++  __TEXT.__swift5_capture: 0x190
++  __TEXT.__constg_swiftt: 0x120
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__swift5_reflstr: 0xf1
++  __TEXT.__swift5_fieldmd: 0xf0
++  __TEXT.__swift5_types: 0x18
++  __TEXT.__swift_as_entry: 0x70
++  __TEXT.__swift_as_ret: 0x74
++  __TEXT.__swift_as_cont: 0x98
++  __TEXT.__swift5_assocty: 0xc8
++  __TEXT.__swift5_proto: 0x54
++  __TEXT.__unwind_info: 0x17c0
++  __TEXT.__eh_frame: 0xf40
++  __DATA_CONST.__const: 0x36f8
++  __DATA_CONST.__cfstring: 0x2900
++  __DATA_CONST.__objc_classlist: 0x1b0
+   __DATA_CONST.__objc_catlist: 0x28
+-  __DATA_CONST.__objc_protolist: 0x110
++  __DATA_CONST.__objc_protolist: 0x128
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x30
++  __DATA_CONST.__objc_protorefs: 0x40
+   __DATA_CONST.__objc_superrefs: 0x170
+-  __DATA_CONST.__objc_intobj: 0xa98
++  __DATA_CONST.__objc_intobj: 0xab0
+   __DATA_CONST.__objc_arraydata: 0x100
+   __DATA_CONST.__objc_arrayobj: 0xf0
+   __DATA_CONST.__objc_doubleobj: 0x4d0
+   __DATA_CONST.__objc_floatobj: 0x50
+-  __DATA_CONST.__auth_got: 0x738
+-  __DATA_CONST.__got: 0x7e0
+-  __DATA_CONST.__auth_ptr: 0x28
+-  __DATA.__objc_const: 0x5490
+-  __DATA.__objc_selrefs: 0x22d0
+-  __DATA.__objc_ivar: 0x3d8
+-  __DATA.__objc_data: 0x1090
+-  __DATA.__data: 0xd58
+-  __DATA.__bss: 0x1b8
++  __DATA_CONST.__auth_got: 0xb98
++  __DATA_CONST.__got: 0x950
++  __DATA_CONST.__auth_ptr: 0x3b0
++  __DATA.__objc_const: 0x6a70
++  __DATA.__objc_selrefs: 0x2ab0
++  __DATA.__objc_ivar: 0x3dc
++  __DATA.__objc_data: 0x1158
++  __DATA.__data: 0x11c0
++  __DATA.__bss: 0xc30
++  __DATA.__common: 0x18
++  - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
++  - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
++  - /System/Library/Frameworks/CoreTransferable.framework/CoreTransferable
+   - /System/Library/Frameworks/ExternalAccessory.framework/ExternalAccessory
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/GeoToolbox.framework/GeoToolbox
+   - /System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
++  - /System/Library/Frameworks/_GeoToolbox_AppIntents.framework/_GeoToolbox_AppIntents
+   - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/PrivateFrameworks/AggregateDictionary.framework/AggregateDictionary
++  - /System/Library/PrivateFrameworks/AppIntentsLiveEntitySupport.framework/AppIntentsLiveEntitySupport
+   - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+   - /System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/BackgroundSystemTasks
+   - /System/Library/PrivateFrameworks/ChronoServices.framework/ChronoServices
+
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/VirtualGarage.framework/VirtualGarage
++  - /System/Library/PrivateFrameworks/_GeoServices_GeoToolbox.framework/_GeoServices_GeoToolbox
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1063
+-  Symbols:   517
+-  CStrings:  2651
++  Functions: 1323
++  Symbols:   817
++  CStrings:  3349
+ 
+Symbols:
++ _$s10AppIntents06UniqueA11EntityQueryMp
++ _$s10AppIntents06UniqueA11EntityQueryP06uniqueD00D0QzyYaKFTq
++ _$s10AppIntents06UniqueA11EntityQueryP0D0AA0dE0P_AA0caD0Tn
++ _$s10AppIntents06UniqueA11EntityQueryPAA010EnumerabledE0Tb
++ _$s10AppIntents06UniqueA11EntityQueryPAAE11allEntitiesSay0D0QzGyYaKF
++ _$s10AppIntents06UniqueA11EntityQueryPAAE11allEntitiesSay0D0QzGyYaKFTu
++ _$s10AppIntents06UniqueA11EntityQueryPAAE17suggestedEntitiesSay0D0QzGyYaKF
++ _$s10AppIntents06UniqueA11EntityQueryPAAE17suggestedEntitiesSay0D0QzGyYaKFTu
++ _$s10AppIntents06UniqueA11EntityQueryPAAE8entities3forSay0D0QzGSayAF_2IDQZG_tYaKF
++ _$s10AppIntents06UniqueA11EntityQueryPAAE8entities3forSay0D0QzGSayAF_2IDQZG_tYaKFTu
++ _$s10AppIntents06UniqueA6EntityMp
++ _$s10AppIntents06UniqueA6EntityP12DefaultQueryAA0aD0P_AA0cadF0Tn
++ _$s10AppIntents06UniqueA6EntityPAA0aD0Tb
++ _$s10AppIntents09_SupportsA12DependenciesMp
++ _$s10AppIntents0A5ValueMp
++ _$s10AppIntents0A5ValuePAA07_IntentC0Tb
++ _$s10AppIntents0A5ValuePAA24PersistentlyIdentifiableTb
++ _$s10AppIntents0A5ValuePAA24TypeDisplayRepresentableTb
++ _$s10AppIntents0A6EntityMp
++ _$s10AppIntents0A6EntityP12DefaultQueryAC_AA0cE0Tn
++ _$s10AppIntents0A6EntityP12defaultQuery07DefaultE0QzvgZTq
++ _$s10AppIntents0A6EntityP2IDs12IdentifiableP_AA0C21IdentifierConvertibleTn
++ _$s10AppIntents0A6EntityPAA0A5ValueTb
++ _$s10AppIntents0A6EntityPAA20DisplayRepresentableTb
++ _$s10AppIntents0A6EntityPAAE28defaultResolverSpecificationAA05EmptyeF0VyxGvgZ
++ _$s10AppIntents0A6EntityPs12IdentifiableTb
++ _$s10AppIntents10IntentFileV4data10Foundation4DataVvg
++ _$s10AppIntents10IntentFileV4data8filename4typeAC10Foundation4DataV_SS22UniformTypeIdentifiers6UTTypeVSgtcfC
++ _$s10AppIntents10IntentFileVAA01_C5ValueAAMc
++ _$s10AppIntents10IntentFileVMa
++ _$s10AppIntents10IntentFileVMn
++ _$s10AppIntents11EntityQueryMp
++ _$s10AppIntents11EntityQueryP0C0AC_AA0aC0Tn
++ _$s10AppIntents11EntityQueryP17suggestedEntities6ResultQzyYaKFTq
++ _$s10AppIntents11EntityQueryP22displayRepresentations3for19requestedComponentsSDy0C0_2IDQZAA21DisplayRepresentationVGSayAIG_AK0I0VtYaKFTq
++ _$s10AppIntents11EntityQueryP22displayRepresentations3forSDy0C0_2IDQZAA21DisplayRepresentationVGSayAHG_tYaKFTq
++ _$s10AppIntents11EntityQueryP23allowedExecutionTargetsAA06IntentfG0VvgZTq
++ _$s10AppIntents11EntityQueryP8entities3forSay0C0QzGSayAF_2IDQZG_tYaKFTq
++ _$s10AppIntents11EntityQueryPAA22DynamicOptionsProviderTb
++ _$s10AppIntents11EntityQueryPAA24PersistentlyIdentifiableTb
++ _$s10AppIntents11EntityQueryPAAE22displayRepresentations3for19requestedComponentsSDy0C0_2IDQZAA21DisplayRepresentationVGSayAIG_AK0I0VtYaKF
++ _$s10AppIntents11EntityQueryPAAE22displayRepresentations3for19requestedComponentsSDy0C0_2IDQZAA21DisplayRepresentationVGSayAIG_AK0I0VtYaKFTu
++ _$s10AppIntents11EntityQueryPAAE22displayRepresentations3forSDy0C0_2IDQZAA21DisplayRepresentationVGSayAHG_tYaKF
++ _$s10AppIntents11EntityQueryPAAE22displayRepresentations3forSDy0C0_2IDQZAA21DisplayRepresentationVGSayAHG_tYaKFTu
++ _$s10AppIntents11EntityQueryPAAE23allowedExecutionTargetsAA06IntentfG0VvgZ
++ _$s10AppIntents11EntityQueryPAAE7results6ResultQzyYaKF
++ _$s10AppIntents11EntityQueryPAAE7results6ResultQzyYaKFTu
++ _$s10AppIntents11EntityQueryPxycfCTq
++ _$s10AppIntents12_IntentValueMp
++ _$s10AppIntents12_IntentValueP0D4TypeAC_AaBTn
++ _$s10AppIntents12_IntentValueP13SpecificationAC_AA08ResolverE0Tn
++ _$s10AppIntents12_IntentValueP13UnwrappedTypeAC_AaBTn
++ _$s10AppIntents12_IntentValueP28defaultResolverSpecification0G0QzvgZTq
++ _$s10AppIntents13IndexedEntityMp
++ _$s10AppIntents13IndexedEntityP12attributeSetSo025CSSearchableItemAttributeF0CvgTq
++ _$s10AppIntents13IndexedEntityP15hideInSpotlightSbvgTq
++ _$s10AppIntents13IndexedEntityPAA0aD0Tb
++ _$s10AppIntents13IndexedEntityPAAE12attributeSetSo025CSSearchableItemAttributeF0Cvg
++ _$s10AppIntents13IndexedEntityPAAE15hideInSpotlightSbvg
++ _$s10AppIntents14EntityPropertyC12wrappedValuexvg
++ _$s10AppIntents14EntityPropertyC12wrappedValuexvs
++ _$s10AppIntents14EntityPropertyCA2A10IntentFileV9ValueTypeRtzrlE5titleACyxG10Foundation23LocalizedStringResourceV_tcfC
++ _$s10AppIntents14EntityPropertyCA2A18_SystemIntentValue0G4TypeRpzrlE5title11indexingKeyACyxG10Foundation23LocalizedStringResourceV_s07PartialK4PathCySo28CSSearchableItemAttributeSetCGtcfC
++ _$s10AppIntents14EntityPropertyCAA10Foundation16AttributedStringV9ValueTypeRtzrlE5title11indexingKeyACyxGAD09LocalizedG8ResourceV_s07PartialL4PathCySo28CSSearchableItemAttributeSetCGtcfC
++ _$s10AppIntents14EntityPropertyCAA10Foundation4DateV9ValueTypeRtzrlE5title11indexingKeyACyxGAD23LocalizedStringResourceV_s07PartialK4PathCySo28CSSearchableItemAttributeSetCGtcfC
++ _$s10AppIntents14EntityPropertyCMa
++ _$s10AppIntents14EntityPropertyCMn
++ _$s10AppIntents15AssistantEntityMp
++ _$s10AppIntents15AssistantEntityPAA0aD0Tb
++ _$s10AppIntents20DisplayRepresentableMp
++ _$s10AppIntents20DisplayRepresentablePAA04TypecD0Tb
++ _$s10AppIntents20DisplayRepresentablePAA08InstancecD0Tb
++ _$s10AppIntents21AssistantSchemaEntityMp
++ _$s10AppIntents21AssistantSchemaEntityP02isC4OnlySbvgZTq
++ _$s10AppIntents21AssistantSchemaEntityPAA0cE0Tb
++ _$s10AppIntents21AssistantSchemaEntityPAAE02isC4OnlySbvgZ
++ _$s10AppIntents21AssistantSchemaEntityPAAE25typeDisplayRepresentationAA04TypegH0VvgZ
++ _$s10AppIntents21DisplayRepresentationV5ImageV4data10isTemplateAE10Foundation4DataV_SbSgtcfC
++ _$s10AppIntents21DisplayRepresentationV5ImageVMa
++ _$s10AppIntents21DisplayRepresentationV5ImageVMn
++ _$s10AppIntents21DisplayRepresentationV5title8subtitle5imageAC10Foundation23LocalizedStringResourceV_AISgAC5ImageVSgtcfC
++ _$s10AppIntents21EnumerableEntityQueryMp
++ _$s10AppIntents21EnumerableEntityQueryP11allEntities6ResultQzyYaKFTq
++ _$s10AppIntents21EnumerableEntityQueryP21findIntentDescriptionAA0gH0VSgvgZTq
++ _$s10AppIntents21EnumerableEntityQueryPAA0dE0Tb
++ _$s10AppIntents21EnumerableEntityQueryPAAE21findIntentDescriptionAA0gH0VSgvgZ
++ _$s10AppIntents22DynamicOptionsProviderMp
++ _$s10AppIntents22DynamicOptionsProviderP12DefaultValueAC_AA07_IntentG0Tn
++ _$s10AppIntents22DynamicOptionsProviderP13defaultResult12DefaultValueQzSgyYaFTq
++ _$s10AppIntents22DynamicOptionsProviderP25useForParameterResolutionSbvgZTq
++ _$s10AppIntents22DynamicOptionsProviderP6ResultAC_AA17ResultsCollectionTn
++ _$s10AppIntents22DynamicOptionsProviderP7results6ResultQzyYaKFTq
++ _$s10AppIntents22DynamicOptionsProviderPAA09_SupportsA12DependenciesTb
++ _$s10AppIntents22DynamicOptionsProviderPAAE13defaultResult12DefaultValueQzSgyYaF
++ _$s10AppIntents22DynamicOptionsProviderPAAE13defaultResult12DefaultValueQzSgyYaFTu
++ _$s10AppIntents22DynamicOptionsProviderPAAE25useForParameterResolutionSbvgZ
++ _$s10AppIntents24PersistentlyIdentifiableMp
++ _$s10AppIntents24PersistentlyIdentifiableP20persistentIdentifierSSvgZTq
++ _$s10AppIntents24PersistentlyIdentifiablePAAE20persistentIdentifierSSvgZ
++ _$s10AppIntents24TypeDisplayRepresentableMp
++ _$s10AppIntents24TypeDisplayRepresentableP04typeD14RepresentationAA0cdG0VvgZTq
++ _$s10AppIntents26EmptyResolverSpecificationVMn
++ _$s10AppIntents26EmptyResolverSpecificationVyxGAA0dE0AAMc
++ _$s10AppIntents28InstanceDisplayRepresentableMp
++ _$s10AppIntents28InstanceDisplayRepresentableP10Foundation40CustomLocalizedStringResourceConvertibleTb
++ _$s10AppIntents28InstanceDisplayRepresentableP21displayRepresentation4withAA0dG0VAG10ComponentsV_tYaFTq
++ _$s10AppIntents28InstanceDisplayRepresentableP21displayRepresentationAA0dG0VvgTq
++ _$s10AppIntents28InstanceDisplayRepresentablePAAE21displayRepresentation4withAA0dG0VAG10ComponentsV_tYaF
++ _$s10AppIntents28InstanceDisplayRepresentablePAAE21displayRepresentation4withAA0dG0VAG10ComponentsV_tYaFTu
++ _$s10AppIntents28InstanceDisplayRepresentablePAAE23localizedStringResource10Foundation09LocalizedgH0Vvg
++ _$s10AppIntents28IntentStandardRepresentationVA2A07_SystemC5ValueR_rlE9exportingACyxq_Gq_xYaYbKc_tcfC
++ _$s10AppIntents28IntentStandardRepresentationVMn
++ _$s10Foundation16AttributedStringV10AppIntents12_IntentValueADMc
++ _$s10Foundation16AttributedStringVMa
++ _$s10Foundation16AttributedStringVMn
++ _$s10Foundation16AttributedStringV_10attributesACSS_AA18AttributeContainerVtcfC
++ _$s10Foundation18AttributeContainerVACycfC
++ _$s10Foundation18AttributeContainerVMa
++ _$s10Foundation23LocalizedStringResourceV13stringLiteralACSS_tcfC
++ _$s10Foundation23LocalizedStringResourceV17BundleDescriptionO4mainyA2EmFWC
++ _$s10Foundation23LocalizedStringResourceV17BundleDescriptionOMa
++ _$s10Foundation23LocalizedStringResourceVMa
++ _$s10Foundation23LocalizedStringResourceVMn
++ _$s10Foundation23LocalizedStringResourceV_5table6locale6bundle7commentACSSAAE17LocalizationValueV_SSSgAA6LocaleVAC17BundleDescriptionOs06StaticC0VSgtcfC
++ _$s10Foundation3URLV16CoreTransferable0D0ADMc
++ _$s10Foundation3URLV6stringACSgSSh_tcfC
++ _$s10Foundation3URLVMa
++ _$s10Foundation3URLVMn
++ _$s10Foundation40CustomLocalizedStringResourceConvertibleMp
++ _$s10Foundation40CustomLocalizedStringResourceConvertibleP09localizeddE0AA0cdE0VvgTq
++ _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
++ _$s10Foundation4DataVMn
++ _$s10Foundation4DateV10AppIntents12_IntentValueADMc
++ _$s10Foundation4DateV17timeIntervalSinceySdACF
++ _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF
++ _$s10Foundation4DateV36_unconditionallyBridgeFromObjectiveCyACSo6NSDateCSgFZ
++ _$s10Foundation4DateVACycfC
++ _$s10Foundation4DateVMa
++ _$s10Foundation4DateVMn
++ _$s10Foundation4UUIDV10AppIntents27EntityIdentifierConvertibleADWP
++ _$s10Foundation4UUIDV10uuidStringACSgSSh_tcfC
++ _$s10Foundation4UUIDV10uuidStringSSvg
++ _$s10Foundation4UUIDV19_bridgeToObjectiveCSo6NSUUIDCyF
++ _$s10Foundation4UUIDV2eeoiySbAC_ACtFZ
++ _$s10Foundation4UUIDV36_unconditionallyBridgeFromObjectiveCyACSo6NSUUIDCSgFZ
++ _$s10Foundation4UUIDVACycfC
++ _$s10Foundation4UUIDVMa
++ _$s10Foundation4UUIDVMn
++ _$s10Foundation4UUIDVSHAAMc
++ _$s10Foundation6LocaleV7currentACvgZ
++ _$s10Foundation6LocaleVMa
++ _$s10GeoToolbox15PlaceDescriptorV01_a9Services_aB0E10geoMapItem14deviceLocationACSgSo06GEOMapH0_p_So10CLLocationCSgtcfC
++ _$s10GeoToolbox15PlaceDescriptorV0C14RepresentationO10coordinateyAESo22CLLocationCoordinate2DVcAEmFWC
++ _$s10GeoToolbox15PlaceDescriptorV0C14RepresentationOMa
++ _$s10GeoToolbox15PlaceDescriptorV0C14RepresentationOMn
++ _$s10GeoToolbox15PlaceDescriptorV10AppIntents12_IntentValue01_ab1_eF0Mc
++ _$s10GeoToolbox15PlaceDescriptorV10AppIntents18_SystemIntentValue01_ab1_eF0Mc
++ _$s10GeoToolbox15PlaceDescriptorV10commonNameSSSgvg
++ _$s10GeoToolbox15PlaceDescriptorV15representations10commonName25supportingRepresentations018internalSupportingI0ACSayAC0C14RepresentationOG_SSSgSayAC0kcL0OGANtcfC
++ _$s10GeoToolbox15PlaceDescriptorV15representations10commonName25supportingRepresentationsACSayAC0C14RepresentationOG_SSSgSayAC010SupportingcJ0OGtcfC
++ _$s10GeoToolbox15PlaceDescriptorV15representationsSayAC0C14RepresentationOGvg
++ _$s10GeoToolbox15PlaceDescriptorV25supportingRepresentationsSayAC010SupportingC14RepresentationOGvg
++ _$s10GeoToolbox15PlaceDescriptorV33internalSupportingRepresentationsSayAC0fC14RepresentationOGvg
++ _$s10GeoToolbox15PlaceDescriptorV4with27appendingServiceIdentifiers0f8InternalgH016overrideExistingA2C_SDyS2SGAHSbtcfC
++ _$s10GeoToolbox15PlaceDescriptorV7addressSSSgvg
++ _$s10GeoToolbox15PlaceDescriptorVMa
++ _$s10GeoToolbox15PlaceDescriptorVMn
++ _$s12DefaultQuery10AppIntents0C6EntityPTl
++ _$s12DefaultValue10AppIntents22DynamicOptionsProviderPTl
++ _$s13Specification10AppIntents12_IntentValuePTl
++ _$s13UnwrappedType10AppIntents12_IntentValuePTl
++ _$s14Representation16CoreTransferable0C0PTl
++ _$s16CoreTransferable0B0Mp
++ _$s16CoreTransferable0B0P14RepresentationAC_AA08TransferC0Tn
++ _$s16CoreTransferable0B0P22transferRepresentation0D0QzvgZTq
++ _$s16CoreTransferable19ProxyRepresentationV9exportingACyxq_Gq_xYbKc_tcfC
++ _$s16CoreTransferable19ProxyRepresentationVMn
++ _$s16CoreTransferable22TransferRepresentationMp
++ _$s16CoreTransferable27TupleTransferRepresentationVMn
++ _$s16CoreTransferable27TupleTransferRepresentationVyACyxq_Gq_cfC
++ _$s16CoreTransferable27TupleTransferRepresentationVyxq_GAA0dE0AAMc
++ _$s22UniformTypeIdentifiers6UTTypeV3pngACvgZ
++ _$s22UniformTypeIdentifiers6UTTypeVMa
++ _$s22UniformTypeIdentifiers6UTTypeVMn
++ _$s27AppIntentsLiveEntitySupport0caD4FeedC6update8entitiesySay0aB00aD0_pG_tYaKF
++ _$s27AppIntentsLiveEntitySupport0caD4FeedC6update8entitiesySay0aB00aD0_pG_tYaKFTu
++ _$s27AppIntentsLiveEntitySupport0caD5FeedsO4MapsO9parkedCarAA0caD4FeedCvgZ
++ _$s2IDs12IdentifiablePTl
++ _$s6Entity10AppIntents0A5QueryPTl
++ _$s6Result10AppIntents22DynamicOptionsProviderPTl
++ _$s6Unique10AppIntents0aB11EntityQueryPTl
++ _$s9ValueType10AppIntents07_IntentA0PTl
++ _$sBOWV
++ _$sSS10FoundationE17LocalizationValueV13stringLiteralACSS_tcfC
++ _$sSS10FoundationE17LocalizationValueVMa
++ _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
++ _$sSS4hash4intoys6HasherVz_tF
++ _$sSS8UTF8ViewV13_foreignCountSiyF
++ _$sSayxG10AppIntents17ResultsCollectionA2B12_IntentValueRzlMc
++ _$sScG4next9isolationxSgScA_pSgYi_tYaF
++ _$sScG4next9isolationxSgScA_pSgYi_tYaFTu
++ _$sScG9cancelAllyyF
++ _$sScM6sharedScMvgZ
++ _$sScMMa
++ _$sScMScAsWP
++ _$sSo13os_log_type_ta0A0E4infoABvgZ
++ _$sSo17CSSearchableIndexC10AppIntentsE05indexC8Entities_8priorityySayxG_SitYaKAC13IndexedEntityRzlF
++ _$sSo17CSSearchableIndexC10AppIntentsE05indexC8Entities_8priorityySayxG_SitYaKAC13IndexedEntityRzlFTu
++ _$sSo17CSSearchableIndexC10AppIntentsE06deleteC8Entities6ofTypeyxm_tYaKAC13IndexedEntityRzlF
++ _$sSo17CSSearchableIndexC10AppIntentsE06deleteC8Entities6ofTypeyxm_tYaKAC13IndexedEntityRzlFTu
++ _$sSqMa
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss11_StringGutsVN
++ _$ss12IdentifiableMp
++ _$ss12IdentifiableP2IDAB_SHTn
++ _$ss12IdentifiableP2id2IDQzvgTq
++ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
++ _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
++ _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lF
++ _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lFTu
++ _$ss15ContinuousClockV7InstantVMa
++ _$ss15ContinuousClockV7InstantVs0C8ProtocolsMc
++ _$ss15ContinuousClockVMa
++ _$ss15ContinuousClockVs0B0sMc
++ _$ss15InstantProtocolP8advanced2byx8DurationQz_tFTj
++ _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
++ _$ss18_DictionaryStorageCMn
++ _$ss20__StaticArrayStorageCN
++ _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
++ _$ss5ClockP3now7InstantQzvgTj
++ _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTj
++ _$ss5ClockP5sleep5until9tolerancey7InstantQz_8DurationQzSgtYaKFTjTu
++ _$ss5ClockPss010ContinuousA0VRszrlE10continuousADvgZ
++ _$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq
++ _$ss5ErrorP5_codeSivgTq
++ _$ss5ErrorP7_domainSSvgTq
++ _$ss5ErrorP9_userInfoyXlSgvgTq
++ _$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF
++ _$ss5ErrorPsE5_codeSivg
++ _$ss5ErrorPsE7_domainSSvg
++ _$ss5ErrorPsE9_userInfoyXlSgvg
++ _$ss5NeverOMn
++ _$ss5NeverON
++ _$ss5NeverOs5ErrorsWP
++ _$ss5UInt8VMn
++ _$ss6HasherV5_seedABSi_tcfC
++ _$ss6HasherV9_finalizeSiyF
++ _$ss8DurationVMn
++ _$sxSg10AppIntents12_IntentValueA2bCRzlMc
++ _$sytWV
++ _OBJC_CLASS_$_CSSearchableIndex
++ _OBJC_CLASS_$_RTVehicleEvent
++ __swiftEmptyArrayStorage
++ __swiftEmptyDictionarySingleton
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftIntents
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ _malloc_size
++ _memcpy
++ _memmove
++ _swift_allocError
++ _swift_beginAccess
++ _swift_bridgeObjectRetain
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_endAccess
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getForeignTypeMetadata
++ _swift_getKeyPath
++ _swift_getOpaqueTypeConformance2
++ _swift_getSingletonMetadata
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_initStackObject
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_release_x20
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x27
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x25
++ _swift_retain_x27
++ _swift_setDeallocating
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_task_isCurrentExecutor
++ _swift_task_reportUnexpectedExecutor
++ _swift_unknownObjectRetain_n
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_updateClassMetadata2
+CStrings:
++ "\f"
++ "5a256da2-9f88-437e-9948-8b81436955c8"
++ "@\"<GEOAnnotatedItemList>\"16@0:8"
++ "@\"<GEOEncyclopedicInfo>\"16@0:8"
++ "@\"<GEOMapItem>\"16@0:8"
++ "@\"<GEOMapItem>\"20@0:8B16"
++ "@\"<GEOMapItemTransitInfo>\"16@0:8"
++ "@\"<GEOMapItemVenueInfo>\"16@0:8"
++ "@\"<GEOTransitAttribution>\"16@0:8"
++ "@\"<GEOTransitVehiclePosition>\"16@0:8"
++ "@\"GEOAddress\"16@0:8"
++ "@\"GEOAddressObject\"16@0:8"
++ "@\"GEOAppleRating\"16@0:8"
++ "@\"GEOAssociatedApp\"16@0:8"
++ "@\"GEOBusinessAssets\"16@0:8"
++ "@\"GEOEVCharger\"16@0:8"
++ "@\"GEOEnclosingPlace\"16@0:8"
++ "@\"GEOEnhancedPlacement\"16@0:8"
++ "@\"GEOEnrichmentData\"16@0:8"
++ "@\"GEOEnrichmentInfo\"16@0:8"
++ "@\"GEOExploreGuides\"16@0:8"
++ "@\"GEOFeatureStyleAttributes\"16@0:8"
++ "@\"GEOHikeSummary\"16@0:8"
++ "@\"GEOInlineRapEnablement\"16@0:8"
++ "@\"GEOLabelGeometry\"16@0:8"
++ "@\"GEOLocalizedString\"16@0:8"
++ "@\"GEOMapItemAdditionalPlaceInfo\"16@0:8"
++ "@\"GEOMapItemClientAttributes\"16@0:8"
++ "@\"GEOMapItemContainedPlace\"16@0:8"
++ "@\"GEOMapItemDetourInfo\"16@0:8"
++ "@\"GEOMapItemIdentifier\"16@0:8"
++ "@\"GEOMapItemPhotosAttribution\"16@0:8"
++ "@\"GEOMapItemPlaceAttribution\"16@0:8"
++ "@\"GEOMapItemReviewsAttribution\"16@0:8"
++ "@\"GEOMapRegion\"16@0:8"
++ "@\"GEOMapRegion\"20@0:8i16"
++ "@\"GEOMessageLink\"16@0:8"
++ "@\"GEOMiniBrowseCategories\"16@0:8"
++ "@\"GEOMuninViewState\"16@0:8"
++ "@\"GEOPDFlyover\"16@0:8"
++ "@\"GEOPDHikeAssociatedInfo\"16@0:8"
++ "@\"GEOPDHikeGeometry\"16@0:8"
++ "@\"GEOPDPlace\"16@0:8"
++ "@\"GEOPDURLData\"16@0:8"
++ "@\"GEOPOIClaim\"16@0:8"
++ "@\"GEOPlace\"16@0:8"
++ "@\"GEOPlaceQuestionnaire\"16@0:8"
++ "@\"GEOPlaceResult\"16@0:8"
++ "@\"GEOPlacecardLayoutData\"16@0:8"
++ "@\"GEOPriceDescription\"16@0:8"
++ "@\"GEORelatedPlaceList\"20@0:8i16"
++ "@\"GEORestaurantFeaturesLink\"16@0:8"
++ "@\"GEOStorefrontInfo\"16@0:8"
++ "@\"GEOStorefrontPresentationInfo\"16@0:8"
++ "@\"GEOStyleAttributes\"16@0:8"
++ "@\"GEOTooltip\"16@0:8"
++ "@\"GEOTrailHead\"16@0:8"
++ "@\"GEOViewportFrame\"16@0:8"
++ "@\"NSArray\"20@0:8I16"
++ "@\"NSData\"16@0:8"
++ "@\"NSDate\"16@0:8"
++ "@\"NSNumber\"16@0:8"
++ "@\"NSSet\"16@0:8"
++ "@\"NSString\"24@0:8@\"NSString\"16"
++ "@\"NSTimeZone\"16@0:8"
++ "@\"NSURL\"16@0:8"
++ "@\"NSURL\"36@0:8{CGSize=dd}16B32"
++ "@\"_TtC4navd28NavdParkedCarDonationManager\""
++ "@20@0:8I16"
++ "@36@0:8{CGSize=dd}16B32"
++ "B20@0:8I16"
++ "B24@0:8@\"<GEOMapItem>\"16"
++ "Donated parked car to spotlight"
++ "GEOMapItem"
++ "I16@0:8"
++ "IntentsLocalizable"
++ "LiveEntity feed updated (%s)"
++ "LiveEntity update failed: %@"
++ "ParkedCarDonationFromNavd"
++ "ParkedCarLiveEntityDonation"
++ "ParkedCarSpotlightDonation"
++ "RAPFlowType"
++ "Removed parked car from spotlight"
++ "Spotlight donation failed: %@"
++ "Started monitoring vehicle events"
++ "T@\"<GEOAnnotatedItemList>\",R,N,G_annotatedItemList"
++ "T@\"<GEOEncyclopedicInfo>\",R,N,G_encyclopedicInfo"
++ "T@\"<GEOMapItemTransitInfo>\",R,N,G_transitInfo"
++ "T@\"<GEOMapItemVenueInfo>\",R,N,G_venueInfo"
++ "T@\"<GEOTransitAttribution>\",R,N,G_transitAttribution"
++ "T@\"<GEOTransitVehiclePosition>\",R,N,G_transitVehiclePosition"
++ "T@\"GEOAddress\",R,N"
++ "T@\"GEOAppleRating\",R,N,G_overallAppleRating"
++ "T@\"GEOAssociatedApp\",R,N,G_associatedApp"
++ "T@\"GEOBusinessAssets\",R,N"
++ "T@\"GEOEVCharger\",R,N,G_evCharger"
++ "T@\"GEOEnclosingPlace\",R,N,G_enclosingPlace"
++ "T@\"GEOEnhancedPlacement\",R,N,G_enhancedPlacement"
++ "T@\"GEOEnrichmentData\",R,N,G_enrichmentData"
++ "T@\"GEOEnrichmentInfo\",R,N,G_enrichmentInfo"
++ "T@\"GEOExploreGuides\",R,N,G_exploreGuides"
++ "T@\"GEOFeatureStyleAttributes\",R,N,G_styleAttributes"
++ "T@\"GEOHikeSummary\",R,N,G_hikeSummary"
++ "T@\"GEOInlineRapEnablement\",R,N,G_inlineRapEnablement"
++ "T@\"GEOLabelGeometry\",R,N,G_labelGeometry"
++ "T@\"GEOLocalizedString\",R,N"
++ "T@\"GEOMapItemClientAttributes\",R,N,G_clientAttributes"
++ "T@\"GEOMapItemContainedPlace\",R,N,G_containedPlace"
++ "T@\"GEOMapItemDetourInfo\",R,N"
++ "T@\"GEOMapItemIdentifier\",R,N"
++ "T@\"GEOMapItemIdentifier\",R,N,G_identifier"
++ "T@\"GEOMapItemPhotosAttribution\",R,N,G_photosAttribution"
++ "T@\"GEOMapItemPlaceAttribution\",R,N,G_attribution"
++ "T@\"GEOMapItemReviewsAttribution\",R,N,G_reviewsAttribution"
++ "T@\"GEOMapRegion\",R,N"
++ "T@\"GEOMessageLink\",R,N,G_messageLink"
++ "T@\"GEOMiniBrowseCategories\",R,N,G_miniBrowseCategories"
++ "T@\"GEOMuninViewState\",R,N,G_muninViewState"
++ "T@\"GEOPDFlyover\",R,N,G_flyover"
++ "T@\"GEOPDHikeAssociatedInfo\",R,N,G_hikeAssociatedInfo"
++ "T@\"GEOPDHikeGeometry\",R,N,G_hikeGeometry"
++ "T@\"GEOPDPlace\",R,N,G_placeData"
++ "T@\"GEOPDURLData\",R,N"
++ "T@\"GEOPOIClaim\",R,N,G_poiClaim"
++ "T@\"GEOPlace\",R,N,G_place"
++ "T@\"GEOPlaceQuestionnaire\",R,N,G_placeQuestionnaire"
++ "T@\"GEOPlaceResult\",R,N,G_placeResult"
++ "T@\"GEOPlacecardLayoutData\",R,N,G_placecardLayoutData"
++ "T@\"GEOPriceDescription\",R,N,G_priceDescription"
++ "T@\"GEORestaurantFeaturesLink\",R,N,G_featureLink"
++ "T@\"GEOStorefrontInfo\",R,N,G_storefrontInfo"
++ "T@\"GEOStorefrontPresentationInfo\",R,N,G_storefrontPresentationInfo"
++ "T@\"GEOStyleAttributes\",R,N,G_walletCategoryStyling"
++ "T@\"GEOStyleAttributes\",R,N,G_walletPlaceStyling"
++ "T@\"GEOTooltip\",R,N,G_tooltip"
++ "T@\"GEOTrailHead\",R,N,G_trailHead"
++ "T@\"GEOViewportFrame\",R,N,G_viewportFrame"
++ "T@\"NSArray\",R,N,G_accolades"
++ "T@\"NSArray\",R,N,G_additionalPlaceInfos"
++ "T@\"NSArray\",R,N,G_allPhotoAttributions"
++ "T@\"NSArray\",R,N,G_alternateMapsCategoryIDs"
++ "T@\"NSArray\",R,N,G_alternateMapsCategoryMUIDs"
++ "T@\"NSArray\",R,N,G_alternateSearchableNames"
++ "T@\"NSArray\",R,N,G_amenities"
++ "T@\"NSArray\",R,N,G_appleRatings"
++ "T@\"NSArray\",R,N,G_browseCategories"
++ "T@\"NSArray\",R,N,G_businessHours"
++ "T@\"NSArray\",R,N,G_captionedPhotoAlbums"
++ "T@\"NSArray\",R,N,G_childItems"
++ "T@\"NSArray\",R,N,G_enrichmentPhotos"
++ "T@\"NSArray\",R,N,G_externalActionLinks"
++ "T@\"NSArray\",R,N,G_identifierHistory"
++ "T@\"NSArray\",R,N,G_linkedServices"
++ "T@\"NSArray\",R,N,G_photos"
++ "T@\"NSArray\",R,N,G_placeCollectionPullQuotes"
++ "T@\"NSArray\",R,N,G_placeCollections"
++ "T@\"NSArray\",R,N,G_placeCollectionsIds"
++ "T@\"NSArray\",R,N,G_quickLinks"
++ "T@\"NSArray\",R,N,G_relatedPlaceLists"
++ "T@\"NSArray\",R,N,G_reviews"
++ "T@\"NSArray\",R,N,G_roadAccessPoints"
++ "T@\"NSArray\",R,N,G_searchResultPhotoCarousel"
++ "T@\"NSArray\",R,N,G_secondaryQuickLinks"
++ "T@\"NSArray\",R,N,G_tips"
++ "T@\"NSData\",R,N"
++ "T@\"NSData\",R,N,G_placeDataAsData"
++ "T@\"NSDate\",R,N"
++ "T@\"NSDictionary\",R,N"
++ "T@\"NSNumber\",R,N,G_mapsCategoryMUID"
++ "T@\"NSSet\",R,N,G_alternateIdentifiers"
++ "T@\"NSString\",R,C,N,G_vendorID"
++ "T@\"NSString\",R,N,G_bestAvailableCountryCode"
++ "T@\"NSString\",R,N,G_businessURL"
++ "T@\"NSString\",R,N,G_disambiguationName"
++ "T@\"NSString\",R,N,G_flyoverAnnouncementMessage"
++ "T@\"NSString\",R,N,G_iso3166CountryCode"
++ "T@\"NSString\",R,N,G_iso3166SubdivisionCode"
++ "T@\"NSString\",R,N,G_mapsCategoryId"
++ "T@\"NSString\",R,N,G_placeDescription"
++ "T@\"NSString\",R,N,G_poiCategory"
++ "T@\"NSString\",R,N,G_poiPinpointURLString"
++ "T@\"NSString\",R,N,G_poiSurveyURLString"
++ "T@\"NSString\",R,N,G_resultSnippetLocationString"
++ "T@\"NSString\",R,N,G_telephone"
++ "T@\"NSString\",R,N,G_walletCategoryIdentifier"
++ "T@\"NSString\",R,N,G_walletCategoryLocalizedString"
++ "T@\"NSString\",R,N,G_walletCategoryLocalizedStringLocale"
++ "T@\"NSString\",R,N,G_walletMapsCategoryIdentifier"
++ "T@\"NSString\",R,N,G_walletPlaceLocalizedString"
++ "T@\"NSString\",R,N,G_walletPlaceLocalizedStringLocale"
++ "T@\"NSTimeZone\",R,N"
++ "T@\"NSURL\",R,C,N,G_providerURL"
++ "T@\"NSURL\",R,C,N,G_webURL"
++ "TB,R,N,G_canDownloadMorePhotos"
++ "TB,R,N,G_enableRAPLightweightFeedback"
++ "TB,R,N,G_hasAnyAccolades"
++ "TB,R,N,G_hasAnyAmenities"
++ "TB,R,N,G_hasAppleRatings"
++ "TB,R,N,G_hasAreaHighlightId"
++ "TB,R,N,G_hasAreaInMeters"
++ "TB,R,N,G_hasBrandMUID"
++ "TB,R,N,G_hasBusinessHours"
++ "TB,R,N,G_hasCaptionedPhotoAlbum"
++ "TB,R,N,G_hasCurrentOperatingHours"
++ "TB,R,N,G_hasEVCharger"
++ "TB,R,N,G_hasEnclosingPlace"
++ "TB,R,N,G_hasEncyclopedicInfo"
++ "TB,R,N,G_hasFeatureLink"
++ "TB,R,N,G_hasFlyover"
++ "TB,R,N,G_hasGroundViewLocationId"
++ "TB,R,N,G_hasLinkedServices"
++ "TB,R,N,G_hasMUID"
++ "TB,R,N,G_hasOperatingHours"
++ "TB,R,N,G_hasPOIClaim"
++ "TB,R,N,G_hasPlaceCollectionPullQuotes"
++ "TB,R,N,G_hasPlaceDescription"
++ "TB,R,N,G_hasPlaceQuestionnaire"
++ "TB,R,N,G_hasPriceRange"
++ "TB,R,N,G_hasResolvablePartialInformation"
++ "TB,R,N,G_hasResultProviderID"
++ "TB,R,N,G_hasSprLandmarkIcon"
++ "TB,R,N,G_hasTelephone"
++ "TB,R,N,G_hasTransit"
++ "TB,R,N,G_hasUserRatingScore"
++ "TB,R,N,G_hasVenueFeatureType"
++ "TB,R,N,G_hasWifiFingerprintConfidence"
++ "TB,R,N,G_hasWifiFingerprintLabelStatusCode"
++ "TB,R,N,G_hasWifiFingerprintLabelType"
++ "TB,R,N,G_isCoordinateDerived"
++ "TB,R,N,G_isInLinkedPlaceRelationship"
++ "TB,R,N,G_isPartiallyClientized"
++ "TB,R,N,G_isStandaloneBrand"
++ "TB,R,N,G_isTransitDisplayFeature"
++ "TB,R,N,G_needsAttribution"
++ "TB,R,N,G_optsOutOfTelephoneAds"
++ "TB,R,N,G_responseStatusIsIncomplete"
++ "TB,R,N,G_showSuggestAnEditButton"
++ "TB,R,N,GisDisputed"
++ "TB,R,N,GisValid"
++ "TI,R,N,G_maxScoreForPriceRange"
++ "TI,R,N,G_priceRange"
++ "TI,R,N,G_resultSnippetDistanceDisplayThreshold"
++ "TI,R,N,G_sampleSizeForUserRatingScore"
++ "TI,R,N,G_wifiFingerprintConfidence"
++ "TQ,R,N,G_areaHighlightId"
++ "TQ,R,N,G_brandMUID"
++ "TQ,R,N,G_customIconID"
++ "TQ,R,N,G_groundViewLocationId"
++ "TQ,R,N,G_muid"
++ "TQ,R,N,G_openingHoursOptions"
++ "TQ,R,N,G_totalPhotoCount"
++ "Td,R,N,G_areaInMeters"
++ "Tf,R,N"
++ "Tf,R,N,G_normalizedUserRatingScore"
++ "Tf,R,N,G_photosMemoryScore"
++ "Ti,R,N,G_RAPFlowType"
++ "Ti,R,N,G_addressGeocodeAccuracy"
++ "Ti,R,N,G_hikeGeometryElevationModel"
++ "Ti,R,N,G_parsecSectionType"
++ "Ti,R,N,G_placeCategoryType"
++ "Ti,R,N,G_placeDisplayStyle"
++ "Ti,R,N,G_placeDisplayType"
++ "Ti,R,N,G_placeType"
++ "Ti,R,N,G_resultProviderID"
++ "Ti,R,N,G_venueFeatureType"
++ "Ti,R,N,G_wifiFingerprintLabelStatusCode"
++ "Ti,R,N,G_wifiFingerprintLabelType"
++ "Tq,R,N"
++ "T{?=dd},R,N"
++ "_RAPFlowType"
++ "_TtC4navd28NavdParkedCarDonationManager"
++ "_accolades"
++ "_additionalPlaceInfos"
++ "_addressGeocodeAccuracy"
++ "_allPhotoAttributions"
++ "_alternateIdentifiers"
++ "_alternateMapsCategoryIDs"
++ "_alternateMapsCategoryMUIDs"
++ "_alternateSearchableNames"
++ "_amenities"
++ "_annotatedItemList"
++ "_appleRatings"
++ "_areaHighlightId"
++ "_areaInMeters"
++ "_arrivalMapRegionForTransportType:"
++ "_asPlaceInfo"
++ "_associatedApp"
++ "_attribution"
++ "_bestAvailableCountryCode"
++ "_bestAvatarBrandIconURLForSize:allowSmaller:"
++ "_bestHeroBrandIconURLForSize:allowSmaller:"
++ "_bestIconForPlaceCardHeaderDisplay:allowSmaller:"
++ "_bestNavbarBrandIconURLForSize:allowSmaller:"
++ "_brandMUID"
++ "_businessHours"
++ "_businessURL"
++ "_canDownloadMorePhotos"
++ "_captionedPhotoAlbums"
++ "_childItems"
++ "_clientAttributes"
++ "_containedPlace"
++ "_customIconID"
++ "_disambiguationName"
++ "_enableRAPLightweightFeedback"
++ "_enclosingPlace"
++ "_encyclopedicInfo"
++ "_enhancedPlacement"
++ "_enrichmentData"
++ "_enrichmentInfo"
++ "_enrichmentPhotos"
++ "_evCharger"
++ "_exploreGuides"
++ "_externalActionLinks"
++ "_featureLink"
++ "_firstRelatedPlaceListForType:"
++ "_flyover"
++ "_flyoverAnnouncementMessage"
++ "_groundViewLocationId"
++ "_hasAnyAccolades"
++ "_hasAnyAmenities"
++ "_hasAppleRatings"
++ "_hasAreaHighlightId"
++ "_hasAreaInMeters"
++ "_hasBrandMUID"
++ "_hasBusinessHours"
++ "_hasCaptionedPhotoAlbum"
++ "_hasCurrentOperatingHours"
++ "_hasEVCharger"
++ "_hasEnclosingPlace"
++ "_hasEncyclopedicInfo"
++ "_hasFeatureLink"
++ "_hasFlyover"
++ "_hasGroundViewLocationId"
++ "_hasLinkedServices"
++ "_hasLocalizedCategoryNamesForType:"
++ "_hasMUID"
++ "_hasOperatingHours"
++ "_hasPOIClaim"
++ "_hasPlaceCollectionPullQuotes"
++ "_hasPlaceDescription"
++ "_hasPlaceQuestionnaire"
++ "_hasPriceRange"
++ "_hasResolvablePartialInformation"
++ "_hasResultProviderID"
++ "_hasSprLandmarkIcon"
++ "_hasTelephone"
++ "_hasTransit"
++ "_hasUserRatingScore"
++ "_hasVenueFeatureType"
++ "_hasWifiFingerprintConfidence"
++ "_hasWifiFingerprintLabelStatusCode"
++ "_hasWifiFingerprintLabelType"
++ "_hikeAssociatedInfo"
++ "_hikeGeometry"
++ "_hikeGeometryElevationModel"
++ "_hikeSummary"
++ "_identifierHistory"
++ "_inlineRapEnablement"
++ "_isCoordinateDerived"
++ "_isInLinkedPlaceRelationship"
++ "_isPartiallyClientized"
++ "_isStandaloneBrand"
++ "_isTransitDisplayFeature"
++ "_iso3166CountryCode"
++ "_iso3166SubdivisionCode"
++ "_labelGeometry"
++ "_linkedServices"
++ "_localizedCategoryNamesForType:"
++ "_mapItemBySettingIsTransitDisplayFeature:"
++ "_mapItemByStrippingOptionalData"
++ "_mapsCategoryId"
++ "_mapsCategoryMUID"
++ "_maxScoreForPriceRange"
++ "_messageLink"
++ "_miniBrowseCategories"
++ "_muninViewState"
++ "_needsAttribution"
++ "_normalizedUserRatingScore"
++ "_openingHoursOptions"
++ "_optsOutOfTelephoneAds"
++ "_overallAppleRating"
++ "_parkedCarDonationManager"
++ "_parsecSectionType"
++ "_photos"
++ "_photosAttribution"
++ "_photosMemoryScore"
++ "_place"
++ "_placeCategoryType"
++ "_placeCollectionPullQuotes"
++ "_placeCollections"
++ "_placeCollectionsIds"
++ "_placeData"
++ "_placeDataAsData"
++ "_placeDescription"
++ "_placeDisplayStyle"
++ "_placeDisplayType"
++ "_placeQuestionnaire"
++ "_placeResult"
++ "_placeType"
++ "_placecardLayoutData"
++ "_poiCategory"
++ "_poiClaim"
++ "_poiPinpointURLString"
++ "_poiSurveyURLString"
++ "_priceDescription"
++ "_priceRange"
++ "_providerURL"
++ "_quickLinks"
++ "_relatedPlaceListForComponentIdentifier:"
++ "_relatedPlaceLists"
++ "_responseStatusIsIncomplete"
++ "_resultProviderID"
++ "_resultSnippetDistanceDisplayThreshold"
++ "_resultSnippetLocationString"
++ "_reviews"
++ "_reviewsAttribution"
++ "_roadAccessPoints"
++ "_sampleSizeForUserRatingScore"
++ "_searchResultPhotoCarousel"
++ "_secondaryQuickLinks"
++ "_showSuggestAnEditButton"
++ "_spokenAddressForLocale:"
++ "_storefrontInfo"
++ "_storefrontPresentationInfo"
++ "_styleAttributes"
++ "_telephone"
++ "_tips"
++ "_tooltip"
++ "_totalPhotoCount"
++ "_trailHead"
++ "_transitAttribution"
++ "_transitInfo"
++ "_transitVehiclePosition"
++ "_vendorID"
++ "_venueFeatureType"
++ "_viewportFrame"
++ "_walletCategoryIdentifier"
++ "_walletCategoryLocalizedString"
++ "_walletCategoryLocalizedStringLocale"
++ "_walletCategoryStyling"
++ "_walletMapsCategoryIdentifier"
++ "_walletPlaceLocalizedString"
++ "_walletPlaceLocalizedStringLocale"
++ "_walletPlaceStyling"
++ "_webURL"
++ "_wifiFingerprintConfidence"
++ "_wifiFingerprintLabelStatusCode"
++ "_wifiFingerprintLabelType"
++ "accolades"
++ "additionalPlaceInfos"
++ "addressDictionary"
++ "addressGeocodeAccuracy"
++ "addressObject"
++ "allPhotoAttributions"
++ "alternateIdentifiers"
++ "alternateMapsCategoryIDs"
++ "alternateMapsCategoryMUIDs"
++ "alternateNames"
++ "alternateSearchableNames"
++ "amenities"
++ "annotatedItemList"
++ "appBundleIDWithVendorID:"
++ "appleRatings"
++ "areaHighlightId"
++ "areaInMeters"
++ "areasOfInterest"
++ "associatedApp"
++ "attribution"
++ "bestAvailableCountryCode"
++ "brandMUID"
++ "browseCategories"
++ "businessAssets"
++ "businessHours"
++ "businessURL"
++ "cachingRadiusMeters"
++ "canDownloadMorePhotos"
++ "captionedPhotoAlbums"
++ "centerCoordinate"
++ "childItems"
++ "clientAttributes"
++ "contactAddressType"
++ "contactIsMe"
++ "contactName"
++ "contactSpokenName"
++ "containedPlace"
++ "contentCreationDate"
++ "customIconID"
++ "defaultSearchableIndex"
++ "detourInfo"
++ "disambiguationName"
++ "disclaimerText"
++ "displayMapRegion"
++ "displayMapRegionOrNil"
++ "displayMaxZoom"
++ "displayMinZoom"
++ "disputed"
++ "enableRAPLightweightFeedback"
++ "enclosingPlace"
++ "enclosingRegionIdentifier"
++ "encodedData"
++ "encyclopedicInfo"
++ "enhancedPlacement"
++ "enrichmentData"
++ "enrichmentInfo"
++ "enrichmentPhotos"
++ "evCharger"
++ "eventDate"
++ "eventName"
++ "exploreGuides"
++ "externalActionLinks"
++ "externalTransitStationCode"
++ "f16@0:8"
++ "featureLink"
++ "fetchLastVehicleEventsWithHandler:"
++ "flyover"
++ "flyoverAnnouncementMessage"
++ "geoAddress"
++ "geoFenceMapRegionOrNil"
++ "geoMapItemHandle"
++ "groundViewLocationId"
++ "hasAnyAccolades"
++ "hasAnyAmenities"
++ "hasAppleRatings"
++ "hasAreaHighlightId"
++ "hasAreaInMeters"
++ "hasBrandMUID"
++ "hasBusinessHours"
++ "hasCaptionedPhotoAlbum"
++ "hasCurrentOperatingHours"
++ "hasDisplayMaxZoom"
++ "hasDisplayMinZoom"
++ "hasEVCharger"
++ "hasEnclosingPlace"
++ "hasEncyclopedicInfo"
++ "hasExpiredComponents"
++ "hasFeatureLink"
++ "hasFlyover"
++ "hasGroundViewLocationId"
++ "hasLinkedServices"
++ "hasMUID"
++ "hasOperatingHours"
++ "hasPOIClaim"
++ "hasPlaceCollectionPullQuotes"
++ "hasPlaceDescription"
++ "hasPlaceQuestionnaire"
++ "hasPriceRange"
++ "hasResolvablePartialInformation"
++ "hasResultProviderID"
++ "hasSprLandmarkIcon"
++ "hasTelephone"
++ "hasTransit"
++ "hasUserRatingScore"
++ "hasVenueCapacity"
++ "hasVenueFeatureType"
++ "hasWifiFingerprintConfidence"
++ "hasWifiFingerprintLabelStatusCode"
++ "hasWifiFingerprintLabelType"
++ "hikeAssociatedInfo"
++ "hikeGeometry"
++ "hikeGeometryElevationModel"
++ "hikeSummary"
++ "https://maps.apple.com/place?place-id=parked-car"
++ "identifierHistory"
++ "imageEmbeddings"
++ "inLinkedPlaceRelationship"
++ "inlineRapEnablement"
++ "isCoordinateDerived"
++ "isDisputed"
++ "isEqualToMapItem:"
++ "isEventAllDay"
++ "isIndexingAvailable"
++ "isMonitoring"
++ "isPartiallyClientized"
++ "isStandAloneBrand"
++ "isTransitDisplayFeature"
++ "isValid"
++ "iso3166CountryCode"
++ "iso3166SubdivisionCode"
++ "iterateGroundViewsWithBlock:"
++ "labelCoordinate"
++ "labelGeometry"
++ "lastWriteback"
++ "latitude"
++ "linkedServices"
++ "longitude"
++ "mapDisplayType"
++ "mapsCategoryId"
++ "mapsCategoryMUID"
++ "maxScoreForPriceRange"
++ "messageLink"
++ "miniBrowseCategories"
++ "monitor error: %@"
++ "muid"
++ "muninViewState"
++ "navd/NavdParkedCarDonationManager.swift"
++ "navd/ParkingLocationDataEntity+VehicleEvent.swift"
++ "needsAttribution"
++ "normalizedUserRatingScore"
++ "notes"
++ "offlineDownloadRegion"
++ "openingHoursOptions"
++ "optsOutOfTelephoneAds"
++ "overallRating"
++ "parsecSectionType"
++ "photo"
++ "photoCarousel"
++ "photos"
++ "photosAttribution"
++ "photosMemoryScore"
++ "place"
++ "placeCategoryType"
++ "placeCollectionPullQuotes"
++ "placeCollections"
++ "placeCollectionsIds"
++ "placeData"
++ "placeDataAsData"
++ "placeDescription"
++ "placeDisplayStyle"
++ "placeDisplayType"
++ "placeQuestionnaire"
++ "placeResult"
++ "placeType"
++ "placecardLayoutData"
++ "poiCategory"
++ "poiClaim"
++ "poiPinpointURLString"
++ "poiSurveyURLString"
++ "priceDescription"
++ "priceRange"
++ "providerURL"
++ "quickLinks"
++ "referenceFrame"
++ "relatedPlaceLists"
++ "resolveGeoMapItem(for:)"
++ "resolveMapItemFromHandle:completionHandler:"
++ "responseStatusIncomplete"
++ "resultProviderID"
++ "resultSnippetDistanceDisplayThreshold"
++ "resultSnippetLocationString"
++ "reviews"
++ "reviewsAttribution"
++ "roadAccessPoints"
++ "sampleSizeForUserRatingScore"
++ "secondaryName"
++ "secondaryQuickLinks"
++ "secondarySpokenName"
++ "setContentCreationDate:"
++ "setPlace:"
++ "setTextContent:"
++ "shortAddress"
++ "showSuggestAnEditButton"
++ "spatialMappedCategories"
++ "spatialMappedPlaceCategories"
++ "spokenNameForLocale:"
++ "startMonitoringVehicleEventsWithHandler:"
++ "stopMonitoringVehicleEvents"
++ "storefrontInfo"
++ "storefrontPresentationInfo"
++ "styleAttributes"
++ "submitWithCompletionHandler:"
++ "supportedTransitPaymentMethods"
++ "supportsOfflineMaps"
++ "telephone"
++ "textContent"
++ "ticketForReverseGeocodeCoordinate:includeEntryPoints:shiftLocationsIfNeeded:preserveOriginalLocation:traits:"
++ "timezone"
++ "tips"
++ "tooltip"
++ "totalPhotoCount"
++ "trailHead"
++ "transitAttribution"
++ "transitInfo"
++ "transitPaymentMethodSuggestions"
++ "transitStationIdentifier"
++ "transitVehiclePosition"
++ "updateVehicleEventWithIdentifier:geoMapItem:"
++ "urlData"
++ "v24@0:8@?<v@?dd@\"NSString\"@\"NSString\"@\"NSString\">16"
++ "valid"
++ "vendorID"
++ "venueCapacity"
++ "venueFeatureType"
++ "venueInfo"
++ "viewportFrame"
++ "visualEvidence"
++ "walletCategoryIdentifier"
++ "walletCategoryLocalizedString"
++ "walletCategoryLocalizedStringLocale"
++ "walletCategoryStyling"
++ "walletMapsCategoryIdentifier"
++ "walletPlaceLocalizedString"
++ "walletPlaceLocalizedStringLocale"
++ "walletPlaceStyling"
++ "weatherDisplayName"
++ "webURL"
++ "wifiFingerprintConfidence"
++ "wifiFingerprintLabelStatusCode"
++ "wifiFingerprintLabelType"
+```

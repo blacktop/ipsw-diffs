@@ -1,0 +1,21 @@
+## iCloudDriveCore
+
+> `FileSystem/System/Library/PrivateFrameworks/iCloudDriveCore.framework/Localizable.loctable`
+
+```diff
+
+ en.ICLOUD_DRIVE_SIMULATOR_WARNING_NOT_SECURE_ALERT_TITLE = "Syncing and Security"
+ en.ICLOUD_DRIVE_SIMULATOR_WARNING_NOT_SECURE_DISABLE = "Cancel"
+ en.ICLOUD_DRIVE_SIMULATOR_WARNING_NOT_SECURE_ENABLE_ANYWAY = "Turn On"
+-en.ICLOUD_DRIVE_USER_NOTIFICATION_REQUEST_ACCESS_APPROVED_BODY = "%@ has shared \"%@\" on iCloud Drive."
++en.ICLOUD_DRIVE_USER_NOTIFICATION_REQUEST_ACCESS_APPROVED_BODY = "%@ has shared “%@” on iCloud Drive."
+ en.ICLOUD_DRIVE_USER_NOTIFICATION_REQUEST_ACCESS_APPROVED_TITLE = "Access Approved"
+-en.ICLOUD_DRIVE_USER_NOTIFICATION_REQUEST_ACCESS_BODY_WITHOUT_NAME = "You received a request for access to \"%@\" on iCloud Drive"
+-en.ICLOUD_DRIVE_USER_NOTIFICATION_REQUEST_ACCESS_BODY_WITH_NAME = "They'd like to access \"%@\" on iCloud Drive."
++en.ICLOUD_DRIVE_USER_NOTIFICATION_REQUEST_ACCESS_BODY_WITHOUT_NAME = "You received a request for access to “%@” on iCloud Drive"
++en.ICLOUD_DRIVE_USER_NOTIFICATION_REQUEST_ACCESS_BODY_WITH_NAME = "They’d like to access “%@” on iCloud Drive."
+ en.ICLOUD_DRIVE_USER_NOTIFICATION_REQUEST_ACCESS_TITLE = "Request from %@"
+ en.ICLOUD_DRIVE_USER_NOTIFICATION_REQUEST_BUTTON_APPROVE = "Approve"
+ en.ICLOUD_DRIVE_USER_NOTIFICATION_REQUEST_BUTTON_DECLINE = "Decline"
+
+```

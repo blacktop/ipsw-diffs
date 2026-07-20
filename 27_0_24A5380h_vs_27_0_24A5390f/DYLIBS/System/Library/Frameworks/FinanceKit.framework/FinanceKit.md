@@ -1,0 +1,486 @@
+## FinanceKit
+
+> `/System/Library/Frameworks/FinanceKit.framework/FinanceKit`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_intobj`
+
+```diff
+
+-365.0.0.0.0
+-  __TEXT.__text: 0x7e593c
+-  __TEXT.__objc_methlist: 0x4c64
+-  __TEXT.__const: 0x8af08
+-  __TEXT.__cstring: 0x1686e
+-  __TEXT.__oslogstring: 0x9999
++366.1.0.0.0
++  __TEXT.__text: 0x7d3940
++  __TEXT.__objc_methlist: 0x4b64
++  __TEXT.__const: 0x8af48
++  __TEXT.__cstring: 0x1666e
++  __TEXT.__oslogstring: 0x8dc9
+   __TEXT.__gcc_except_tab: 0x14
+-  __TEXT.__swift5_typeref: 0x1b67e
+-  __TEXT.__constg_swiftt: 0x18ad8
+-  __TEXT.__swift5_reflstr: 0x12fa7
+-  __TEXT.__swift5_fieldmd: 0x1f098
+-  __TEXT.__swift5_builtin: 0x5dc
+-  __TEXT.__swift5_assocty: 0x3468
+-  __TEXT.__swift5_capture: 0x29b4
+-  __TEXT.__swift5_proto: 0x7a30
+-  __TEXT.__swift5_types: 0x25ac
+-  __TEXT.__swift_as_entry: 0xc04
+-  __TEXT.__swift_as_cont: 0x1f1c
+-  __TEXT.__swift_as_ret: 0xc7c
++  __TEXT.__swift5_typeref: 0x1b6e2
++  __TEXT.__constg_swiftt: 0x18924
++  __TEXT.__swift5_reflstr: 0x12bc7
++  __TEXT.__swift5_fieldmd: 0x1ee70
++  __TEXT.__swift5_builtin: 0x5c8
++  __TEXT.__swift5_assocty: 0x3498
++  __TEXT.__swift5_capture: 0x299c
++  __TEXT.__swift5_proto: 0x7a9c
++  __TEXT.__swift5_types: 0x2594
++  __TEXT.__swift_as_entry: 0xbf8
++  __TEXT.__swift_as_cont: 0x1ee4
++  __TEXT.__swift_as_ret: 0xc60
+   __TEXT.__swift5_protos: 0x234
+-  __TEXT.__swift5_mpenum: 0x234
+-  __TEXT.__unwind_info: 0x23cf0
+-  __TEXT.__eh_frame: 0x38d58
++  __TEXT.__swift5_mpenum: 0x22c
++  __TEXT.__unwind_info: 0x23928
++  __TEXT.__eh_frame: 0x383a8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x62e8
+-  __DATA_CONST.__objc_classlist: 0xb98
++  __DATA_CONST.__const: 0x6238
++  __DATA_CONST.__objc_classlist: 0xb60
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x130
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x53a8
++  __DATA_CONST.__objc_selrefs: 0x5338
+   __DATA_CONST.__objc_protorefs: 0xb8
+-  __DATA_CONST.__objc_superrefs: 0x1e8
+-  __DATA_CONST.__got: 0x1640
+-  __AUTH_CONST.__const: 0x46d30
++  __DATA_CONST.__objc_superrefs: 0x1e0
++  __DATA_CONST.__got: 0x15e8
++  __AUTH_CONST.__const: 0x46e50
+   __AUTH_CONST.__cfstring: 0x500
+-  __AUTH_CONST.__objc_const: 0x179e0
++  __AUTH_CONST.__objc_const: 0x174d0
+   __AUTH_CONST.__objc_intobj: 0x60
+-  __AUTH_CONST.__auth_got: 0x2cd0
+-  __AUTH.__objc_data: 0x3470
+-  __AUTH.__data: 0x8a90
+-  __DATA.__objc_ivar: 0x510
+-  __DATA.__data: 0x13c70
+-  __DATA.__bss: 0xdb6f0
++  __AUTH_CONST.__auth_got: 0x2bf8
++  __AUTH.__objc_data: 0x3308
++  __AUTH.__data: 0x8948
++  __DATA.__objc_ivar: 0x51c
++  __DATA.__data: 0x13d20
++  __DATA.__bss: 0xdc460
+   __DATA.__common: 0x110
+-  __DATA_DIRTY.__objc_data: 0x7460
+-  __DATA_DIRTY.__data: 0xea90
++  __DATA_DIRTY.__objc_data: 0x7138
++  __DATA_DIRTY.__data: 0xe6e0
+   __DATA_DIRTY.__bss: 0x11690
+-  __DATA_DIRTY.__common: 0x198
++  __DATA_DIRTY.__common: 0x180
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+   - /System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/AsyncAlgorithmsInternal
+-  - /System/Library/PrivateFrameworks/CBORLibrary.framework/CBORLibrary
+   - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreODI.framework/CoreODI
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 51249
+-  Symbols:   17770
+-  CStrings:  3053
++  Functions: 50996
++  Symbols:   17714
++  CStrings:  2994
+ 
+Symbols:
++ -[FKApplePayTransactionInsight initWithPaymentHash:transactionDate:transactionSource:cardType:adjustmentSubtype:adjustmentSubtypeReason:merchantName:merchantRawName:industryCategory:industryCode:merchantType:merchantCountryCode:terminalIdentifier:merchantAdditionalData:paymentNetwork:isMerchantTokenTransaction:isCoarseLocation:location:merchantIdentifier:merchantRawCANL:merchantRawCity:merchantRawState:merchantRawCountry:merchantCity:merchantZip:merchantState:merchantCleanConfidenceLevel:rewardsAmount:rewardsCurrency:rewardsEligibilityReason:adamIdentifier:webURL:webMerchantIdentifier:webMerchantName:isIssuerInstallmentTransaction:issuerInstallmentManagementURL:feesJSON:subtotalAmount:subtotalCurrencyCode:amountAddedToAuth:amountAddedToAuthCurrencyCode:rewardsDetailJSON:rewardsInProgressJSON:cardNumberSuffix:transactionDeclinedReason:technologyType:topUpType:interestReassessment:isRecurring:primaryFundingSourceAmount:primaryFundingSourceCurrencyCode:secondaryFundingSourceAmount:secondaryFundingSourceCurrencyCode:secondaryFundingSourceDPANSuffix:secondaryFundingSourceType:peerPaymentFlowType:questionType:questionExpirationDate:questionAnswer:]
++ -[FKApplePayTransactionInsight peerPaymentFlowType]
++ -[FKApplePayTransactionInsight questionAnswer]
++ -[FKApplePayTransactionInsight questionExpirationDate]
++ -[FKApplePayTransactionInsight questionType]
++ _OBJC_IVAR_$_FKApplePayTransactionInsight._peerPaymentFlowType
++ _OBJC_IVAR_$_FKApplePayTransactionInsight._questionAnswer
++ _OBJC_IVAR_$_FKApplePayTransactionInsight._questionExpirationDate
++ _OBJC_IVAR_$_FKApplePayTransactionInsight._questionType
++ __DATA__TtC10FinanceKit34SessionScopedXPCEntitlementChecker
++ __IVARS__TtC10FinanceKit34SessionScopedXPCEntitlementChecker
++ __METACLASS_DATA__TtC10FinanceKit34SessionScopedXPCEntitlementChecker
++ _associated conformance 10FinanceKit0A5StoreC24AppleIntelligenceFeatureO10CodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLOSHAASQ
++ _associated conformance 10FinanceKit0A5StoreC24AppleIntelligenceFeatureO10CodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit0A5StoreC24AppleIntelligenceFeatureO10CodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit0A5StoreC24AppleIntelligenceFeatureO25ExtractedOrdersCodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit0A5StoreC24AppleIntelligenceFeatureO25ExtractedOrdersCodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit0A5StoreC24AppleIntelligenceFeatureO27ExtractedReceiptsCodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit0A5StoreC24AppleIntelligenceFeatureO27ExtractedReceiptsCodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit0A5StoreC24AppleIntelligenceFeatureOSHAASQ
++ _associated conformance 10FinanceKit0A5StoreC7MessageO44SupportedAppleIntelligenceFeaturesCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLOSHAASQ
++ _associated conformance 10FinanceKit0A5StoreC7MessageO44SupportedAppleIntelligenceFeaturesCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit0A5StoreC7MessageO44SupportedAppleIntelligenceFeaturesCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit26ApplePayTransactionInsightV19PeerPaymentFlowTypeOSHAASQ
++ _associated conformance 10FinanceKit26ApplePayTransactionInsightV19PeerPaymentFlowTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 10FinanceKit26ApplePayTransactionInsightV8QuestionV0G4TypeOSHAASQ
++ _associated conformance 10FinanceKit26ApplePayTransactionInsightV8QuestionV0G4TypeOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 10FinanceKit26ApplePayTransactionInsightV8QuestionV0G6AnswerOSHAASQ
++ _associated conformance 10FinanceKit26ApplePayTransactionInsightV8QuestionV0G6AnswerOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 10FinanceKit26ApplePayTransactionInsightV8QuestionV10CodingKeys33_036BD23FD43585CBB1D5DB6BCB41BC50LLOSHAASQ
++ _associated conformance 10FinanceKit26ApplePayTransactionInsightV8QuestionV10CodingKeys33_036BD23FD43585CBB1D5DB6BCB41BC50LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit26ApplePayTransactionInsightV8QuestionV10CodingKeys33_036BD23FD43585CBB1D5DB6BCB41BC50LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit28RawOrderAutomaticUpdatesInfoV15ValidationErrorOSHAASQ
++ _associated conformance 10FinanceKit34ManagedExtractedOrderFusionClusterC0F22InputVersionIdentifierV013ReceiptDetailJ0V10CodingKeys33_3D53EC8DF11CCF4F5D5C220C5283BB81LLOSHAASQ
++ _associated conformance 10FinanceKit34ManagedExtractedOrderFusionClusterC0F22InputVersionIdentifierV013ReceiptDetailJ0V10CodingKeys33_3D53EC8DF11CCF4F5D5C220C5283BB81LLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit34ManagedExtractedOrderFusionClusterC0F22InputVersionIdentifierV013ReceiptDetailJ0V10CodingKeys33_3D53EC8DF11CCF4F5D5C220C5283BB81LLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit34ManagedExtractedOrderFusionClusterC0F22InputVersionIdentifierV013ReceiptDetailJ0VSHAASQ
++ _keypath_get_selector_attestationReference
++ _keypath_get_selector_peerPaymentFlowTypeValue
++ _keypath_get_selector_questionAnswer
++ _keypath_get_selector_questionExpirationDate
++ _keypath_get_selector_questionTypeValue
++ _objc_msgSend$attestationReference
++ _objc_msgSend$initWithPaymentHash:transactionDate:transactionSource:cardType:adjustmentSubtype:adjustmentSubtypeReason:merchantName:merchantRawName:industryCategory:industryCode:merchantType:merchantCountryCode:terminalIdentifier:merchantAdditionalData:paymentNetwork:isMerchantTokenTransaction:isCoarseLocation:location:merchantIdentifier:merchantRawCANL:merchantRawCity:merchantRawState:merchantRawCountry:merchantCity:merchantZip:merchantState:merchantCleanConfidenceLevel:rewardsAmount:rewardsCurrency:rewardsEligibilityReason:adamIdentifier:webURL:webMerchantIdentifier:webMerchantName:isIssuerInstallmentTransaction:issuerInstallmentManagementURL:feesJSON:subtotalAmount:subtotalCurrencyCode:amountAddedToAuth:amountAddedToAuthCurrencyCode:rewardsDetailJSON:rewardsInProgressJSON:cardNumberSuffix:transactionDeclinedReason:technologyType:topUpType:interestReassessment:isRecurring:primaryFundingSourceAmount:primaryFundingSourceCurrencyCode:secondaryFundingSourceAmount:secondaryFundingSourceCurrencyCode:secondaryFundingSourceDPANSuffix:secondaryFundingSourceType:peerPaymentFlowType:questionType:questionExpirationDate:questionAnswer:
++ _objc_msgSend$peerPaymentFlowType
++ _objc_msgSend$peerPaymentFlowTypeValue
++ _objc_msgSend$questionAnswer
++ _objc_msgSend$questionExpirationDate
++ _objc_msgSend$questionType
++ _objc_msgSend$questionTypeValue
++ _objc_msgSend$setAttestationReference:
++ _objc_msgSend$setPeerPaymentFlowTypeValue:
++ _objc_msgSend$setQuestionAnswer:
++ _objc_msgSend$setQuestionExpirationDate:
++ _objc_msgSend$setQuestionTypeValue:
++ _symbolic Say_____G 10FinanceKit26ApplePayTransactionInsightV19PeerPaymentFlowTypeO
++ _symbolic Say_____G 10FinanceKit26ApplePayTransactionInsightV8QuestionV0G4TypeO
++ _symbolic Say_____G 10FinanceKit26ApplePayTransactionInsightV8QuestionV0G6AnswerO
++ _symbolic SccyShy_____G______pG 10FinanceKit0A5StoreC24AppleIntelligenceFeatureO s5ErrorP
++ _symbolic Shy_____G 10FinanceKit34ManagedExtractedOrderFusionClusterC0F22InputVersionIdentifierV013ReceiptDetailJ0V
++ _symbolic _____ 10FinanceKit0A5StoreC24AppleIntelligenceFeatureO
++ _symbolic _____ 10FinanceKit0A5StoreC24AppleIntelligenceFeatureO10CodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLO
++ _symbolic _____ 10FinanceKit0A5StoreC24AppleIntelligenceFeatureO25ExtractedOrdersCodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLO
++ _symbolic _____ 10FinanceKit0A5StoreC24AppleIntelligenceFeatureO27ExtractedReceiptsCodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLO
++ _symbolic _____ 10FinanceKit0A5StoreC7MessageO44SupportedAppleIntelligenceFeaturesCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLO
++ _symbolic _____ 10FinanceKit0A9DataStoreC18TransactionSummary33_BE69DA2BD55F48B6843684F6F172F91ALLV
++ _symbolic _____ 10FinanceKit26ApplePayTransactionInsightV19PeerPaymentFlowTypeO
++ _symbolic _____ 10FinanceKit26ApplePayTransactionInsightV8QuestionV
++ _symbolic _____ 10FinanceKit26ApplePayTransactionInsightV8QuestionV0G4TypeO
++ _symbolic _____ 10FinanceKit26ApplePayTransactionInsightV8QuestionV0G6AnswerO
++ _symbolic _____ 10FinanceKit26ApplePayTransactionInsightV8QuestionV10CodingKeys33_036BD23FD43585CBB1D5DB6BCB41BC50LLO
++ _symbolic _____ 10FinanceKit28RawOrderAutomaticUpdatesInfoV
++ _symbolic _____ 10FinanceKit28RawOrderAutomaticUpdatesInfoV15ValidationErrorO
++ _symbolic _____ 10FinanceKit34ManagedExtractedOrderFusionClusterC0F22InputVersionIdentifierV013ReceiptDetailJ0V
++ _symbolic _____ 10FinanceKit34ManagedExtractedOrderFusionClusterC0F22InputVersionIdentifierV013ReceiptDetailJ0V10CodingKeys33_3D53EC8DF11CCF4F5D5C220C5283BB81LLO
++ _symbolic _____ 10FinanceKit34SessionScopedXPCEntitlementCheckerC
++ _symbolic _____3key______5valuet 10Foundation4UUIDV 10FinanceKit0C9DataStoreC18TransactionSummary33_BE69DA2BD55F48B6843684F6F172F91ALLV
++ _symbolic _____Sg 10FinanceKit15XPCEntitlementsV
++ _symbolic _____Sg 10FinanceKit26ApplePayTransactionInsightV8QuestionV
++ _symbolic _____Sg 10FinanceKit26ApplePayTransactionInsightV8QuestionV0G6AnswerO
++ _symbolic _____Sg_ABt 10FinanceKit26ApplePayTransactionInsightV8QuestionV
++ _symbolic ______AAt 10Foundation4UUIDV
++ _symbolic ______Say_____Gt 10Foundation4UUIDV 10FinanceKit28FinHealthUpcomingTransactionV
++ _symbolic ___________t 10Foundation4UUIDV 10FinanceKit0C9DataStoreC18TransactionSummary33_BE69DA2BD55F48B6843684F6F172F91ALLV
++ _symbolic _____y_Shy_____GG 10FinanceKit0A5StoreC5ReplyO AC24AppleIntelligenceFeatureO
++ _symbolic _____y_____ABG s18_DictionaryStorageC 10Foundation4UUIDV
++ _symbolic _____y_____G s11_SetStorageC 10FinanceKit34ManagedExtractedOrderFusionClusterC0H22InputVersionIdentifierV013ReceiptDetailL0V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit0D5StoreC24AppleIntelligenceFeatureO10CodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit0D5StoreC24AppleIntelligenceFeatureO25ExtractedOrdersCodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit0D5StoreC24AppleIntelligenceFeatureO27ExtractedReceiptsCodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit0D5StoreC7MessageO44SupportedAppleIntelligenceFeaturesCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit26ApplePayTransactionInsightV8QuestionV10CodingKeys33_036BD23FD43585CBB1D5DB6BCB41BC50LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit34ManagedExtractedOrderFusionClusterC0I22InputVersionIdentifierV013ReceiptDetailM0V10CodingKeys33_3D53EC8DF11CCF4F5D5C220C5283BB81LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit0D5StoreC24AppleIntelligenceFeatureO10CodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit0D5StoreC24AppleIntelligenceFeatureO25ExtractedOrdersCodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit0D5StoreC24AppleIntelligenceFeatureO27ExtractedReceiptsCodingKeys33_0A7F7504F7BA3694472C41E23DC33D77LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit0D5StoreC7MessageO44SupportedAppleIntelligenceFeaturesCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit26ApplePayTransactionInsightV8QuestionV10CodingKeys33_036BD23FD43585CBB1D5DB6BCB41BC50LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit34ManagedExtractedOrderFusionClusterC0I22InputVersionIdentifierV013ReceiptDetailM0V10CodingKeys33_3D53EC8DF11CCF4F5D5C220C5283BB81LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit34ManagedExtractedOrderFusionClusterC0I22InputVersionIdentifierV013ReceiptDetailM0V
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 10Foundation4UUIDV 10FinanceKit28FinHealthUpcomingTransactionV
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 10FinanceKit15XPCEntitlementsV
++ _symbolic _____y__________G s18_DictionaryStorageC 10FinanceKit19TransactionCategoryO AC0C9DataStoreC0E7Summary33_BE69DA2BD55F48B6843684F6F172F91ALLV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 10FinanceKit0E9DataStoreC18TransactionSummary33_BE69DA2BD55F48B6843684F6F172F91ALLV
+- -[FKTrillianTransactionImporter .cxx_destruct]
+- -[FKTrillianTransactionImporter init]
+- -[FKTrillianTransactionImporter registerPaymentTransaction:]
+- -[FKTrillianTransactionImporter setWrappedClass:]
+- -[FKTrillianTransactionImporter wrappedClass]
+- _OBJC_CLASS_$_FKTrillianTransactionImporter
+- _OBJC_CLASS_$__TtC10FinanceKit23ManagedUserNotification
+- _OBJC_CLASS_$__TtC10FinanceKit27ManagedDropboxApplePayOrder
+- _OBJC_CLASS_$__TtC10FinanceKit27TrillianTransactionImporter
+- _OBJC_CLASS_$__TtC10FinanceKit45ManagedPendingApplePayTransactionRegistration
+- _OBJC_IVAR_$_FKTrillianTransactionImporter._wrappedClass
+- _OBJC_METACLASS_$_FKTrillianTransactionImporter
+- _OBJC_METACLASS_$__TtC10FinanceKit23ManagedUserNotification
+- _OBJC_METACLASS_$__TtC10FinanceKit27ManagedDropboxApplePayOrder
+- _OBJC_METACLASS_$__TtC10FinanceKit27TrillianTransactionImporter
+- _OBJC_METACLASS_$__TtC10FinanceKit45ManagedPendingApplePayTransactionRegistration
+- _OBJC_METACLASS_$__TtC10FinanceKitP33_82FCA57B9514272BE863607579F9568E15SessionDelegate
+- __CLASS_METHODS__TtC10FinanceKit27TrillianTransactionImporter
+- __DATA__TtC10FinanceKit21PrismWebServiceClient
+- __DATA__TtC10FinanceKit23ManagedUserNotification
+- __DATA__TtC10FinanceKit27ManagedDropboxApplePayOrder
+- __DATA__TtC10FinanceKit27TrillianTransactionImporter
+- __DATA__TtC10FinanceKit42ApplePayTransactionDocumentCredentialVault
+- __DATA__TtC10FinanceKit45ManagedPendingApplePayTransactionRegistration
+- __DATA__TtC10FinanceKitP33_82FCA57B9514272BE863607579F9568E15SessionDelegate
+- __INSTANCE_METHODS__TtC10FinanceKit23ManagedUserNotification
+- __INSTANCE_METHODS__TtC10FinanceKit27ManagedDropboxApplePayOrder
+- __INSTANCE_METHODS__TtC10FinanceKit27TrillianTransactionImporter
+- __INSTANCE_METHODS__TtC10FinanceKit45ManagedPendingApplePayTransactionRegistration
+- __INSTANCE_METHODS__TtC10FinanceKitP33_82FCA57B9514272BE863607579F9568E15SessionDelegate
+- __IVARS__TtC10FinanceKit21PrismWebServiceClient
+- __IVARS__TtC10FinanceKit27ManagedDropboxApplePayOrder
+- __IVARS__TtC10FinanceKit27TrillianTransactionImporter
+- __IVARS__TtC10FinanceKit42ApplePayTransactionDocumentCredentialVault
+- __IVARS__TtC10FinanceKit45ManagedPendingApplePayTransactionRegistration
+- __IVARS__TtC10FinanceKitP33_82FCA57B9514272BE863607579F9568E15SessionDelegate
+- __METACLASS_DATA__TtC10FinanceKit21PrismWebServiceClient
+- __METACLASS_DATA__TtC10FinanceKit23ManagedUserNotification
+- __METACLASS_DATA__TtC10FinanceKit27ManagedDropboxApplePayOrder
+- __METACLASS_DATA__TtC10FinanceKit27TrillianTransactionImporter
+- __METACLASS_DATA__TtC10FinanceKit42ApplePayTransactionDocumentCredentialVault
+- __METACLASS_DATA__TtC10FinanceKit45ManagedPendingApplePayTransactionRegistration
+- __METACLASS_DATA__TtC10FinanceKitP33_82FCA57B9514272BE863607579F9568E15SessionDelegate
+- __OBJC_$_INSTANCE_METHODS_FKTrillianTransactionImporter
+- __OBJC_$_INSTANCE_VARIABLES_FKTrillianTransactionImporter
+- __OBJC_$_PROP_LIST_FKTrillianTransactionImporter
+- __OBJC_CLASS_RO_$_FKTrillianTransactionImporter
+- __OBJC_METACLASS_RO_$_FKTrillianTransactionImporter
+- __PROPERTIES__TtC10FinanceKit23ManagedUserNotification
+- __PROPERTIES__TtC10FinanceKit27ManagedDropboxApplePayOrder
+- __PROPERTIES__TtC10FinanceKit45ManagedPendingApplePayTransactionRegistration
+- __PROTOCOLS__TtC10FinanceKitP33_82FCA57B9514272BE863607579F9568E15SessionDelegate
+- _associated conformance 10FinanceKit20DropboxApplePayOrderV16EncryptionSchemeOSHAASQ
+- _associated conformance 10FinanceKit23ApplePayTransactionInfoV10CodingKeys33_9DB8D45F8574263B4D2E892F822372F0LLOSHAASQ
+- _associated conformance 10FinanceKit23ApplePayTransactionInfoV10CodingKeys33_9DB8D45F8574263B4D2E892F822372F0LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 10FinanceKit23ApplePayTransactionInfoV10CodingKeys33_9DB8D45F8574263B4D2E892F822372F0LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10FinanceKit27ManagedDropboxApplePayOrderC16EncryptionSchemeOSHAASQ
+- _associated conformance 10FinanceKit34ApplePayTransactionTopicIdentifierVSHAASQ
+- _associated conformance 10FinanceKit37ApplePayTransactionDocumentCredentialVs12IdentifiableAA2IDsADP_SH
+- _associated conformance 10FinanceKit41PrismWebServiceRegisterTransactionRequestV8JSONBodyV10CodingKeys33_0FA91442FD6E5647002CBC37508E8866LLOSHAASQ
+- _associated conformance 10FinanceKit41PrismWebServiceRegisterTransactionRequestV8JSONBodyV10CodingKeys33_0FA91442FD6E5647002CBC37508E8866LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 10FinanceKit41PrismWebServiceRegisterTransactionRequestV8JSONBodyV10CodingKeys33_0FA91442FD6E5647002CBC37508E8866LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10FinanceKit41PrismWebServiceRegisterTransactionRequestVAA15JSONHTTPRequestAA8JSONBodyAaDP_SE
+- _associated conformance 10FinanceKit42PrismWebServiceRegisterTransactionResponseOSHAASQ
+- _get_enum_tag_for_layout_string 10FinanceKit27ManagedDropboxApplePayOrderC15ValidationErrorO
+- _kSecAttrCreationDate
+- _kSecMatchLimit
+- _kSecMatchLimitAll
+- _kSecMatchLimitOne
+- _kSecReturnAttributes
+- _keypath_get_selector_attestationRef
+- _keypath_get_selector_content
+- _keypath_get_selector_credentialIdentifier
+- _keypath_get_selector_hasProcessedLinkedReceiptCheck
+- _keypath_get_selector_lastRegistrationAttemptDate
+- _keypath_get_selector_notificationIdentifier
+- _keypath_get_selector_registrationAttemptCount
+- _keypath_get_selector_requiresWallet
+- _keypath_get_selector_transactionInfo
+- _objc_msgSend$attestationRef
+- _objc_msgSend$content
+- _objc_msgSend$credentialIdentifier
+- _objc_msgSend$hasProcessedLinkedReceiptCheck
+- _objc_msgSend$initWithPaymentHash:transactionDate:transactionSource:cardType:adjustmentSubtype:adjustmentSubtypeReason:merchantName:merchantRawName:industryCategory:industryCode:merchantType:merchantCountryCode:terminalIdentifier:merchantAdditionalData:paymentNetwork:isMerchantTokenTransaction:isCoarseLocation:location:merchantIdentifier:merchantRawCANL:merchantRawCity:merchantRawState:merchantRawCountry:merchantCity:merchantZip:merchantState:merchantCleanConfidenceLevel:rewardsAmount:rewardsCurrency:rewardsEligibilityReason:adamIdentifier:webURL:webMerchantIdentifier:webMerchantName:isIssuerInstallmentTransaction:issuerInstallmentManagementURL:feesJSON:subtotalAmount:subtotalCurrencyCode:amountAddedToAuth:amountAddedToAuthCurrencyCode:rewardsDetailJSON:rewardsInProgressJSON:cardNumberSuffix:transactionDeclinedReason:technologyType:topUpType:interestReassessment:isRecurring:primaryFundingSourceAmount:primaryFundingSourceCurrencyCode:secondaryFundingSourceAmount:secondaryFundingSourceCurrencyCode:secondaryFundingSourceDPANSuffix:secondaryFundingSourceType:
+- _objc_msgSend$lastRegistrationAttemptDate
+- _objc_msgSend$notificationIdentifier
+- _objc_msgSend$primitiveEncryptionScheme
+- _objc_msgSend$primitiveEphemeralPublicKey
+- _objc_msgSend$primitivePrivateKey
+- _objc_msgSend$primitiveTransactionIdentifier
+- _objc_msgSend$registerPaymentTransaction:
+- _objc_msgSend$registrationAttemptCount
+- _objc_msgSend$requiresWallet
+- _objc_msgSend$setAttestationRef:
+- _objc_msgSend$setContent:
+- _objc_msgSend$setCredentialIdentifier:
+- _objc_msgSend$setHasProcessedLinkedReceiptCheck:
+- _objc_msgSend$setLastRegistrationAttemptDate:
+- _objc_msgSend$setNotificationIdentifier:
+- _objc_msgSend$setPrimitiveEncryptionScheme:
+- _objc_msgSend$setPrimitiveEphemeralPublicKey:
+- _objc_msgSend$setPrimitivePrivateKey:
+- _objc_msgSend$setPrimitiveTransactionIdentifier:
+- _objc_msgSend$setRegistrationAttemptCount:
+- _objc_msgSend$setRequiresWallet:
+- _objc_msgSend$setTransactionInfo:
+- _objc_msgSend$transactionInfo
+- _symbolic SDy_____ypG So11CFStringRefa
+- _symbolic SaySDy_____ypGG So11CFStringRefa
+- _symbolic Say_____G 10FinanceKit37ApplePayTransactionDocumentCredentialV
+- _symbolic Say_____y_____GG 10Foundation14SortDescriptorV 10FinanceKit37ApplePayTransactionDocumentCredentialV
+- _symbolic _____ 10FinanceKit15SessionDelegate33_82FCA57B9514272BE863607579F9568ELLC
+- _symbolic _____ 10FinanceKit20DropboxApplePayOrderV
+- _symbolic _____ 10FinanceKit20DropboxApplePayOrderV16EncryptionSchemeO
+- _symbolic _____ 10FinanceKit20DropboxApplePayOrderV18TransactionContextV
+- _symbolic _____ 10FinanceKit20DropboxApplePayOrderV8HPKEInfoV
+- _symbolic _____ 10FinanceKit21PrismWebServiceClientC
+- _symbolic _____ 10FinanceKit23ApplePayTransactionInfoV
+- _symbolic _____ 10FinanceKit23ApplePayTransactionInfoV10CodingKeys33_9DB8D45F8574263B4D2E892F822372F0LLO
+- _symbolic _____ 10FinanceKit23ManagedUserNotificationC
+- _symbolic _____ 10FinanceKit25PrismWebServiceClientInfoV
+- _symbolic _____ 10FinanceKit27ManagedDropboxApplePayOrderC
+- _symbolic _____ 10FinanceKit27ManagedDropboxApplePayOrderC15ValidationErrorO
+- _symbolic _____ 10FinanceKit27ManagedDropboxApplePayOrderC16EncryptionSchemeO
+- _symbolic _____ 10FinanceKit27TrillianTransactionImporterC
+- _symbolic _____ 10FinanceKit34ApplePayTransactionTopicIdentifierV
+- _symbolic _____ 10FinanceKit37ApplePayTransactionDocumentCredentialV
+- _symbolic _____ 10FinanceKit41PrismWebServiceRegisterTransactionRequestV
+- _symbolic _____ 10FinanceKit41PrismWebServiceRegisterTransactionRequestV8JSONBodyV
+- _symbolic _____ 10FinanceKit41PrismWebServiceRegisterTransactionRequestV8JSONBodyV10CodingKeys33_0FA91442FD6E5647002CBC37508E8866LLO
+- _symbolic _____ 10FinanceKit42ApplePayTransactionDocumentCredentialVaultC
+- _symbolic _____ 10FinanceKit42PrismWebServiceRegisterTransactionResponseO
+- _symbolic _____ 10FinanceKit45ManagedPendingApplePayTransactionRegistrationC
+- _symbolic _____ 9CryptoKit12SymmetricKeyV
+- _symbolic _____ 9CryptoKit4P256O12KeyAgreementO06PublicD0V
+- _symbolic _____ 9CryptoKit4P256O12KeyAgreementO07PrivateD0V
+- _symbolic _____3key_Say_____G5valuet 10Foundation4UUIDV 10FinanceKit26ManagedInternalTransactionC
+- _symbolic _____Sg 10FinanceKit15SpendingSummaryV0C10BreakdownsV14GroupBreakdownV
+- _symbolic _____Sg 9CryptoKit4P256O12KeyAgreementO06PublicD0V
+- _symbolic ______p 10FinanceKit20SecureElementSigningP
+- _symbolic _____y_____G 10FinanceKit30HTTPRequestWithAppleClientInfoV AA41PrismWebServiceRegisterTransactionRequestV
+- _symbolic _____y_____G 10Foundation14SortDescriptorV 10FinanceKit37ApplePayTransactionDocumentCredentialV
+- _symbolic _____y_____G 9CryptoKit24HashedAuthenticationCodeV AA6SHA256V
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit23ApplePayTransactionInfoV10CodingKeys33_9DB8D45F8574263B4D2E892F822372F0LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit41PrismWebServiceRegisterTransactionRequestV8JSONBodyV10CodingKeys33_0FA91442FD6E5647002CBC37508E8866LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit23ApplePayTransactionInfoV10CodingKeys33_9DB8D45F8574263B4D2E892F822372F0LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit41PrismWebServiceRegisterTransactionRequestV8JSONBodyV10CodingKeys33_0FA91442FD6E5647002CBC37508E8866LLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10FinanceKit37ApplePayTransactionDocumentCredentialV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC So9NSDecimala
+- _symbolic _____y_____Say_____GG s18_DictionaryStorageC 10FinanceKit19TransactionCategoryO AC015ManagedInternalE0C
+- _symbolic _____y______G Sh5IndexV 10FinanceKit35ManagedFinHealthUpcomingTransactionC
+- _symbolic _____y_____y_____GG 10FinanceKit33HTTPRequestWithApplePayClientInfoV AA0cdegH0V AA41PrismWebServiceRegisterTransactionRequestV
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10Foundation14SortDescriptorV 10FinanceKit37ApplePayTransactionDocumentCredentialV
+- _symbolic _____y_____y_____y_____GGG 10FinanceKit39HTTPRequestWithAppleWebServiceSessionIDV AA0cdE13PayClientInfoV AA0cdekL0V AA05PrismfG26RegisterTransactionRequestV
+- _symbolic _____y_____y_____y_____y_____GGGG 10FinanceKit24HTTPRequestWithRequestIDV AA0cd22AppleWebServiceSessionF0V AA0cdG13PayClientInfoV AA0cdglM0V AA05Prismhi19RegisterTransactionE0V
+- _symbolic _____y_____y_____y_____y_____y_____GGGGG 10FinanceKit38HTTPRequestWithGrandSlamAuthenticationV AA0cD9RequestIDV AA0cd22AppleWebServiceSessionI0V AA0cdJ13PayClientInfoV AA0cdjoP0V AA05Prismkl19RegisterTransactionH0V
+- _type_layout_string 10FinanceKit20DropboxApplePayOrderV18TransactionContextV
+- _type_layout_string 10FinanceKit20DropboxApplePayOrderV8HPKEInfoV
+- _type_layout_string 10FinanceKit27ManagedDropboxApplePayOrderC15ValidationErrorO
+- _type_layout_string 10FinanceKit34ApplePayTransactionTopicIdentifierV
+CStrings:
++ "At least one of available and booked must be provided"
++ "Failed to find an account for %s"
++ "accountObject.publicAccountObject"
++ "applePayPrimaryAccountIdentifier == %@"
++ "automaticallyInferredCategoryObject"
++ "extractedReceipts"
++ "fusionCluster.%K.@count > 0"
++ "insightsObject.contactInsightObject"
++ "no"
++ "peerPaymentFlowType"
++ "receiptDetailIdentifiers"
++ "receiptDetailsObjects"
++ "recurringPaymentID"
++ "supportedAppleIntelligenceFeatures"
++ "upcomingTransactionsInsightObject.id"
++ "upcomingTransactionsInsightObject.id IN %@"
++ "yes"
+- "APPLE-HPKE-v1"
+- "Added transaction document credential %s to keychain"
+- "Added transaction document credential %s to satisfy search criteria"
+- "Adding transaction document credential %s to keychain"
+- "Allowing any HTTP certificate for host: %s"
+- "Apple Pay Transaction Document Credential: "
+- "ApplePayOrder_1.0"
+- "At least one of availableCredit and currentBalance must be provided"
+- "Cloud mirroring enabled, setting mirroring delegate for dropbox"
+- "Could not create dropbox database URL. This is an unrecoverable error."
+- "Creating new pending registration for transaction %s"
+- "Current transaction document credential %s expires after %s, doesn't satisfy search criteria"
+- "Current transaction document credential %s expires after %s, satisfies search criteria"
+- "Current transaction document credential not found"
+- "Deleted transaction document credential %s from keychain"
+- "Deleting all transaction document credentials"
+- "Deleting all transaction document credentials expired before %s"
+- "Deleting expired transaction document credential %s"
+- "Deleting transaction document credential %s from keychain"
+- "Dropbox"
+- "DropboxApplePayOrder"
+- "Error initializing TrillianTransactionImporter"
+- "Failed to add item to keychain with status: %d"
+- "Failed to create recipient context with error: %@"
+- "Failed to create sealed box from combined data with error: %@"
+- "Failed to create sender context with error: %@"
+- "Failed to decode transaction identifier"
+- "Failed to decode transaction info with error: %@"
+- "Failed to decrypt or decode transaction info with error: %@"
+- "Failed to decrypt order package with error: %@"
+- "Failed to decrypt transaction info with error: %@"
+- "Failed to delete item from keychain with status: %d"
+- "Failed to encode info parameter with error: %@"
+- "Failed to encode or encrypt transaction info with error: %@"
+- "Failed to encode transaction info with error: %@"
+- "Failed to encrypt order package with error: %@"
+- "Failed to encrypt transaction info with error: %@"
+- "Failed to find an account"
+- "Failed to recover encapsulated key with error: %@"
+- "Failed to save pending registration with error: %@"
+- "Failed to search for item in keychain with status: %d"
+- "Failed to search for items in keychain with status: %d"
+- "FinanceKit/TrillianTransactionImporter.swift"
+- "Found %ld transaction document credential(s) in keychain"
+- "Found transaction document credential %s in keychain"
+- "Invalidating Prism web service client session"
+- "No past transactions for %s"
+- "No transaction document credentials found in keychain"
+- "Prism web service client session did become invalid"
+- "Prism web service client session did become invalid already"
+- "Prism web service client session did become invalid with error: %@"
+- "PrismWebServiceClient-sessionDelegateQueue"
+- "Recovered info for transaction %s"
+- "Retrieving transaction document credential valid until %s"
+- "SUBQUERY(fusionCluster.orderEmailObjects, $orderEmail, SUBQUERY($orderEmail.receiptEmailsObjects, $receiptEmail, $receiptEmail.mailItemReceiptDetails != nil).@count > 0).@count > 0"
+- "Saved pending registration %@ for transaction %s"
+- "Searching for transaction document credential %s in keychain"
+- "Searching for transaction document credentials in keychain"
+- "Transaction document credential %s not found in keychain"
+- "Transaction does not have a payment hash, skipping Trillian registration"
+- "com.apple.pay.document-delivery"
+- "com.apple.pay.finance.dropbox"
+- "com.apple.pay.finance.dropbox.development"
+- "credentialIdentifier"
+- "dropboxHistoryToken"
+- "encryptionScheme"
+- "ephemeralPublicKey"
+- "finance_dropbox.db"
+- "hasProcessedLinkedReceiptCheck"
+- "kSecAttrAccount is not a UUID"
+- "maximumSupportedCloudKitSchemaVersion"
+- "privateKey"
+- "result is not an array of items"
+- "result is not an item"
+- "supportedEncryptionSchemes"
+- "transactionIdentifier = %@"
+```

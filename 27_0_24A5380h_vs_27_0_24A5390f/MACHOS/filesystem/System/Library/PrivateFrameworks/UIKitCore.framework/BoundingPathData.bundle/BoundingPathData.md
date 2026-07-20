@@ -1,0 +1,16 @@
+## BoundingPathData
+
+> `/System/Library/PrivateFrameworks/UIKitCore.framework/BoundingPathData.bundle/BoundingPathData`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-9127.0.75.1.101
++9127.0.79.1.102
+   __TEXT.__text: 0x0
+   __TEXT.__const: 0x48
+   - /usr/lib/libSystem.B.dylib
+```

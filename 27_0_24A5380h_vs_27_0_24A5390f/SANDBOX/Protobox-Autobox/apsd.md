@@ -1,0 +1,117 @@
+## apsd
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 
+ (deny generic-issue-extension)
+ 
+-(deny iokit-issue-extension)
++(deny iokit-get-properties)
+ 
+-(deny iokit-open-user-client)
+-(allow iokit-open-user-client
++(deny iokit-open*)
++(allow iokit-open*
+ 	(require-any
+ 		(iokit-registry-entry-class "${ENTITLEMENT:com.apple.security.exception.iokit-user-client-class}")
+ 		(iokit-registry-entry-class "${ENTITLEMENT:com.apple.security.iokit-user-client-class}")
+
+ 	)
+ )
+ 
+-(deny iokit-open-service)
+-(allow iokit-open-service
++(deny iokit-open-user-client)
++(allow iokit-open-user-client
+ 	(require-any
+ 		(iokit-registry-entry-class "AFKEPInterfaceKextV2")
+ 		(iokit-registry-entry-class "AFKMailboxEndpointInterface")
+
+ 	)
+ )
+ 
++(deny iokit-open-service)
++
+ (deny iokit-set-properties)
+ 
+ (deny ipc*)
+ 
+-(deny job-creation)
++(allow ipc-sysv-shm)
+ 
+-(deny mach-issue-extension)
++(deny isp-command-send)
+ 
+-(deny mach-lookup
++(deny mach-host-special-port-set)
++
++(deny mach-issue-extension
+ 	(require-all
+ 		(global-name "com.apple.dt.testmanagerd.uiprocess")
+ 		(require-not (global-name "com.apple.biome.access.user"))
+
+ 		(require-not (global-name "com.apple.diagnosticd"))
+ 		(require-not (global-name "com.apple.CoreServices.coreservicesd"))
+ 		(require-not (global-name "com.apple.networkscored"))
++		(require-not (global-name "com.apple.mobileactivationd"))
++		(require-not (global-name "com.apple.system.libinfo.muser"))
++		(require-not (global-name "com.apple.timed.xpc"))
++		(require-not (global-name "com.apple.powerd.coresmartpowernap"))
++		(require-not (global-name "com.apple.biome.compute.source.user"))
++		(require-not (global-name "com.apple.momentsd"))
++		(require-not (global-name "com.apple.ctkd.token-client"))
++		(require-not (global-name "com.apple.cfprefsd.daemon.system"))
++		(require-not (global-name "com.apple.containermanagerd"))
++		(require-not (global-name "com.apple.facetimemessagestored.service"))
++		(require-not (global-name "com.apple.runningboard"))
++		(require-not (global-name "com.apple.safetyalerts"))
++		(require-not (global-name "com.apple.private.corewifi.mobilewifi-xpc"))
++		(require-not (global-name "com.apple.jetpackassetd.xpc"))
+ 		(require-not (require-any
+ 			(global-name "${ANY_UUID}")
+ 			(global-name "DeviceSpecificTopic1")
+
+ 			(global-name "com.apple.power.abc")
+ 			(global-name "com.apple.progressd.aps")
+ 			(global-name "com.apple.securemessagingagent.aps")
++			(global-name "com.apple.security.poc.c010")
+ 			(global-name "com.apple.securityd.aps")
+ 			(global-name "com.apple.seld.aps")
+ 			(global-name "com.apple.siriknowledged.aps")
+
+ 			(global-name "com.apple.wte.aesd")
+ 			(global-name "dummy.delegate.port")
+ 		))
+-		(require-not (global-name "com.apple.mobileactivationd"))
+-		(require-not (global-name "com.apple.system.libinfo.muser"))
+-		(require-not (global-name "com.apple.timed.xpc"))
+-		(require-not (global-name "com.apple.powerd.coresmartpowernap"))
+-		(require-not (global-name "com.apple.biome.compute.source.user"))
+-		(require-not (global-name "com.apple.momentsd"))
+-		(require-not (global-name "com.apple.ctkd.token-client"))
+-		(require-not (global-name "com.apple.cfprefsd.daemon.system"))
+-		(require-not (global-name "com.apple.containermanagerd"))
+-		(require-not (global-name "com.apple.facetimemessagestored.service"))
+-		(require-not (global-name "com.apple.runningboard"))
+-		(require-not (global-name "com.apple.safetyalerts"))
+-		(require-not (global-name "com.apple.private.corewifi.mobilewifi-xpc"))
+-		(require-not (global-name "com.apple.jetpackassetd.xpc"))
+ 		(require-not (global-name "com.apple.diagd"))
+ 		(require-not (global-name "com.apple.logd.events"))
+ 		(require-not (global-name "com.apple.nesessionmanager.content-filter"))
+
+ 	)
+ )
+ 
++(deny process-codesigning)
++
+ (deny process-exec*)
+ 
++(allow process-exec-interpreter)
++
+ (deny socket-ioctl)
+ (allow socket-ioctl
+ 	(ioctl-command
+```

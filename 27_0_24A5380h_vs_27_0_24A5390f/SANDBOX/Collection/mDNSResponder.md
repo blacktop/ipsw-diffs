@@ -1,0 +1,105 @@
+## mDNSResponder
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 
+ (allow fs-snapshot-mount)
+ 
+-(allow iokit-get-properties)
++(allow iokit*)
+ 
+-(allow iokit-open-user-client
++(allow iokit-open*
+ 	(require-any
+ 		(extension "com.apple.security.exception.iokit-user-client-class")
+ 		(iokit-registry-entry-class "AppleMobileFileIntegrityUserClient")
+
+ 	)
+ )
+ 
+-(allow iokit-open-service)
++(allow ipc-posix-sem-wait)
+ 
+ (allow ipc-posix-shm*)
+ 
+-(allow isp-command-send)
++(allow ipc-sysv-shm)
+ 
+-(deny job-creation)
++(deny isp-command-send)
+ 
+-(deny lsopen
++(deny job-creation
+ 	(profile-flag "deny-lsopen")
+ )
+ 
+-(allow mach-bootstrap)
++(allow mach*)
+ 
+-(allow mach-cross-domain-lookup)
+-
+-(allow mach-derive-port)
+-
+-(allow mach-lookup
++(allow mach-issue-extension
+ 	(require-any
+ 		(extension "com.apple.security.exception.mach-lookup.global-name")
+ 		(extension "com.apple.security.exception.mach-lookup.local-name")
+
+ 		(xpc-service-name "*")
+ 	)
+ )
+-(deny mach-lookup
++(deny mach-issue-extension
+ 	(xpc-service-name "com.apple.WebKit.*")
+ )
+ 
+-(allow mach-register
++(allow mach-priv-task-port
+ 	(require-any
+ 		(extension "com.apple.security.exception.mach-register.global-name")
+ 		(global-name "com.apple.d2d.ipc")
+ 	)
+ )
+ 
+-(allow mach-task-exception-port-set)
++(allow mach-task-exception-port-set
++	(target self)
++)
+ 
+ (allow mach-task-inspect
+ 	(target self)
+
+ 	(target self)
+ )
+ 
+-(allow mach-task-read
+-	(target self)
+-)
+-
+-(allow mach-task-special-port*)
+-
+ (allow necp-client-open)
+ 
+ (allow network*)
+ 
+ (allow nvram*)
+ 
+-(allow process-codesigning)
+-
+-(allow process-info*)
+-
+-(allow process-iopolicy*)
++(allow process*)
+ 
+ (allow sandbox-check)
+ 
+
+ )
+ 
+ (allow exception-entitlement)
+-
+-(allow process-exec-update-label)
+```

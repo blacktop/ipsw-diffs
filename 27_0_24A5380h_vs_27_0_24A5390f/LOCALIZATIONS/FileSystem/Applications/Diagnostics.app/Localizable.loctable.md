@@ -1,0 +1,24 @@
+## Diagnostics
+
+> `FileSystem/Applications/Diagnostics.app/Localizable.loctable`
+
+```diff
+
+ en.CANCEL = "Cancel"
+ en.CANNOT_START_DIAGNOSTICS = "Cannot Start Diagnostics"
+ en.CERAMIC = "Ceramic"
++en.CHECKING_AVAILABLE_OPTIONS = "Checking Available Options…"
+ en.CLOSE = "Close"
+ en.CLOSE_DIAGNOSTICS = "Close Diagnostics"
+ en.CONNECTING = "Connecting…"
+
+ en.START_DIAGNOSTICS_TV = "Select Agree below to start diagnostics on Apple TV."
+ en.SUITE_COMPLETED_TITLE = "Completed"
+ en.TERMS_AND_CONDITIONS_CB = "By tapping “Agree,” you agree that Apple may collect and retain for a limited time the following diagnostic data from this device: identifiers related to the device such as serial numbers, SEID, IMEI and MEID; identifiers related to parts and paired accessories; and performance data from the device, parts, and paired accessories. Apple and its partners may use the diagnostic data to: troubleshoot issues; verify, calibrate, and link parts to your device to optimize part performance, provide part information to you, and prevent fraud against you or Apple; ensure security of your device and parts; determine warranty coverage; and improve Apple products and services.\nFor information on Apple’s Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/."
+-en.TERMS_AND_CONDITIONS_MULTI = "By tapping “Agree,” you agree that Apple may collect and retain for a limited time, for the purposes described in this consent and related consents, the following diagnostic data from this device: identifiers related to the device such as serial numbers, SEID, IMEI and MEID; identifiers related to parts and paired accessories; performance data from the device, parts, and paired accessories; device name; connected wireless and wired networks; daily count of call attempts; call duration; and app usage data. Apple and its partners may use the diagnostic data to: troubleshoot issues; verify, calibrate, and link parts to your device to optimize part performance, provide part information to you, and prevent fraud against you or Apple; ensure security of your device and parts; determine warranty coverage; and improve Apple products and services. If the device is being inspected for trade-in, Apple will additionally collect photos of the device’s physical condition, which may be linked to the device serial number and diagnostic data, to determine the device’s trade-in value and to improve Apple products and services. You may also send diagnostic logs to Apple to troubleshoot issues with applications and features on your device and to help improve Apple products and services.\nFor information on Apple’s Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/."
++en.TERMS_AND_CONDITIONS_MULTI = "By tapping “Agree,” you agree that Apple may collect and retain for a limited time, for the purposes described in this consent and related consents, the following diagnostic data from this device: identifiers related to the device such as serial numbers, SEID, IMEI and MEID; identifiers related to parts and paired accessories; performance data from the device, parts, and paired accessories; device name; connected wireless and wired networks; daily count of call attempts; call duration; and app usage data. For Apple Vision Pro, Apple may also collect data related to your positioning in the device. Apple and its partners may use the diagnostic data to: troubleshoot issues; verify, calibrate, and link parts to your device to optimize part performance, provide part information to you, and prevent fraud against you or Apple; ensure security of your device and parts; determine warranty coverage; and improve Apple products and services. If the device is being inspected for trade-in, Apple will additionally collect photos of the device’s physical condition, which may be linked to the device serial number and diagnostic data, to determine the device’s trade-in value and to improve Apple products and services. Apple may also collect diagnostic logs to troubleshoot issues with applications and features on your device and to help improve Apple products and services.\nFor information on Apple’s Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/."
+ en.TERMS_AND_CONDITIONS_TV = "By selecting “Agree” you agree that Apple may collect diagnostic data from this device, including the device serial number, device name, information about wireless and wired networks you connect to, and information about app usage data. The data collected will be used by Apple and its partners to troubleshoot issues with your device, to improve our products and services, and for anti-fraud purposes.\nFor information on Apple’s Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/."
+ en.TESTING_FINAL_ERROR = "An error occurred while running Diagnostics."
+ en.TESTING_ON_DEVICE = "Running on Apple Watch"
+
+```

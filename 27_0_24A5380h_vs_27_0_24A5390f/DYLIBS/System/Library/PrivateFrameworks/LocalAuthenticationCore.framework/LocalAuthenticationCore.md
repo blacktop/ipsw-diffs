@@ -1,0 +1,210 @@
+## LocalAuthenticationCore
+
+> `/System/Library/PrivateFrameworks/LocalAuthenticationCore.framework/LocalAuthenticationCore`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__objc_ivar`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+-2319.0.33.0.1
+-  __TEXT.__text: 0x194f2c
+-  __TEXT.__objc_methlist: 0xd3d8
+-  __TEXT.__const: 0xade4
++2319.0.46.0.0
++  __TEXT.__text: 0x1952e4
++  __TEXT.__objc_methlist: 0xd410
++  __TEXT.__const: 0xae4c
+   __TEXT.__gcc_except_tab: 0x1790
+-  __TEXT.__oslogstring: 0xb0a5
+-  __TEXT.__cstring: 0x1093a
++  __TEXT.__oslogstring: 0xb0c5
++  __TEXT.__cstring: 0x109d8
+   __TEXT.__dlopen_cstrs: 0x705
+   __TEXT.__swift5_typeref: 0x40f8
+   __TEXT.__swift5_reflstr: 0x206e
+
+   __TEXT.__swift_as_cont: 0x1f0
+   __TEXT.__swift_as_ret: 0x134
+   __TEXT.__swift5_mpenum: 0x2c
+-  __TEXT.__unwind_info: 0x6ae8
++  __TEXT.__unwind_info: 0x6af0
+   __TEXT.__eh_frame: 0x31a8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x55f0
++  __DATA_CONST.__const: 0x5600
+   __DATA_CONST.__objc_classlist: 0xc28
+   __DATA_CONST.__objc_protolist: 0xa50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x49e8
++  __DATA_CONST.__objc_selrefs: 0x49f0
+   __DATA_CONST.__objc_protorefs: 0x4d0
+   __DATA_CONST.__objc_superrefs: 0x528
+   __DATA_CONST.__objc_arraydata: 0x40
+   __DATA_CONST.__got: 0xd28
+   __AUTH_CONST.__const: 0x8998
+-  __AUTH_CONST.__cfstring: 0x7660
+-  __AUTH_CONST.__objc_const: 0x590d0
++  __AUTH_CONST.__cfstring: 0x76c0
++  __AUTH_CONST.__objc_const: 0x59170
+   __AUTH_CONST.__objc_intobj: 0x360
+   __AUTH_CONST.__objc_arrayobj: 0x78
+   __AUTH_CONST.__auth_got: 0x1578
+   __AUTH.__objc_data: 0x76c0
+   __AUTH.__data: 0x24b0
+   __DATA.__objc_ivar: 0x8ac
+-  __DATA.__data: 0x76f8
++  __DATA.__data: 0x7720
+   __DATA.__bss: 0x71a1
+   __DATA.__common: 0x38
+   __DATA_DIRTY.__objc_data: 0xe38
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 10884
+-  Symbols:   23841
+-  CStrings:  3117
++  Functions: 10889
++  Symbols:   23860
++  CStrings:  3123
+ 
+Symbols:
++ -[LACDTOFeatureController fetchEnablementModeWithCompletion:]
++ -[LACDTOMutableFeatureState .cxx_destruct]
++ -[LACDTOMutableFeatureState enablementMode]
++ -[LACDTOMutableFeatureState setEnablementMode:]
++ GCC_except_table30
++ _$s23LocalAuthenticationCore011LACAutoLockC16AnalyticsServiceC15contextProvider17analyticsReporter14dailySchedulerAcA0dE16ContextProviding_p_So21LACAnalyticsReporting_pAA0dE26DailyAggregationScheduling_ptcfC
++ _$s23LocalAuthenticationCore011LACAutoLockC16AnalyticsServiceC15contextProvider17analyticsReporter14dailySchedulerAcA0dE16ContextProviding_p_So21LACAnalyticsReporting_pAA0dE26DailyAggregationScheduling_ptcfCTfq4eeen_nTf4gnnn_n
++ _$s23LocalAuthenticationCore011LACAutoLockC16AnalyticsServiceC15contextProvider17analyticsReporter14dailySchedulerAcA0dE16ContextProviding_p_So21LACAnalyticsReporting_pAA0dE26DailyAggregationScheduling_ptcfCTj
++ _$s23LocalAuthenticationCore011LACAutoLockC16AnalyticsServiceC15contextProvider17analyticsReporter14dailySchedulerAcA0dE16ContextProviding_p_So21LACAnalyticsReporting_pAA0dE26DailyAggregationScheduling_ptcfCTq
++ _$s23LocalAuthenticationCore011LACAutoLockC16AnalyticsServiceC15contextProvider17analyticsReporter14dailySchedulerAcA0dE16ContextProviding_p_So21LACAnalyticsReporting_pAA0dE26DailyAggregationScheduling_ptcfc
++ _$s23LocalAuthenticationCore011LACAutoLockC16AnalyticsServiceC15contextProvider17analyticsReporter14dailySchedulerAcA0dE16ContextProviding_p_So21LACAnalyticsReporting_pAA0dE26DailyAggregationScheduling_ptcfcTf4eeen_n
++ _$s23LocalAuthenticationCore011LACAutoLockC16AnalyticsServiceC17analyticsReporter33_0E650F85BF611BDB0F830DF5043E90ECLLSo21LACAnalyticsReporting_pvpWvd
++ _$s23LocalAuthenticationCore30LACCredentialAnalyticsReporterC09analyticsF015isInternalBuildACSo21LACAnalyticsReporting_p_SbtcfC
++ _$s23LocalAuthenticationCore30LACCredentialAnalyticsReporterC09analyticsF015isInternalBuildACSo21LACAnalyticsReporting_p_SbtcfCTj
++ _$s23LocalAuthenticationCore30LACCredentialAnalyticsReporterC09analyticsF015isInternalBuildACSo21LACAnalyticsReporting_p_SbtcfCTq
++ _$s23LocalAuthenticationCore30LACCredentialAnalyticsReporterC09analyticsF015isInternalBuildACSo21LACAnalyticsReporting_p_Sbtcfc
++ _$s23LocalAuthenticationCore30LACCredentialAnalyticsReporterC09analyticsF015isInternalBuildACSo21LACAnalyticsReporting_p_SbtcfcfA0_
++ _$s23LocalAuthenticationCore30LACCredentialAnalyticsReporterC09analyticsF015isInternalBuildACSo21LACAnalyticsReporting_p_SbtcfcfA_
++ _$s23LocalAuthenticationCore30LACCredentialAnalyticsReporterC09analyticsF033_9FFC9F65EC0427A67D0155E367D7678BLLSo21LACAnalyticsReporting_pvpWvd
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0014_A90692431F3D3K17C560F240C9A719F89LLSo0D9Reporting_pvpWvd
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0D9Reporting_p_tcfC
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0D9Reporting_p_tcfCTfq4en_n
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0D9Reporting_p_tcfCTj
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0D9Reporting_p_tcfCTq
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0D9Reporting_p_tcfc
++ _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0D9Reporting_p_tcfcTf4en_n
++ _LACEntitlementStorageSetThumbAndPayEnabled
++ _LACPolicyDoublePressAndBiometrics
++ _LACStorageKeyThumbAndPayEnabled
++ _OBJC_IVAR_$_LACDTOMutableFeatureState._enablementMode
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_LACAnalyticsReporting
++ __OBJC_$_PROTOCOL_METHOD_TYPES_LACAnalyticsReporting
++ __OBJC_$_PROTOCOL_REFS_LACAnalyticsReporting
++ __OBJC_LABEL_PROTOCOL_$_LACAnalyticsReporting
++ __OBJC_PROTOCOL_$_LACAnalyticsReporting
++ ___61-[LACDTOFeatureController fetchEnablementModeWithCompletion:]_block_invoke
++ ___block_descriptor_45_e8_32s_e32_"LACDTOMutableFeatureState"8?0ls32l8
++ ___block_descriptor_50_e8_32s40bs_e51_v24?0"<LACDTOFeatureEnablementMode>"8"NSError"16ls32l8s40l8
++ ___block_descriptor_58_e8_32s40s48bs_e20_v20?0B8"NSError"12ls32l8s48l8s40l8
++ ___block_descriptor_59_e8_32s40s48bs_e20_v20?0B8"NSError"12ls32l8s48l8s40l8
++ ___block_descriptor_60_e8_32s40s48bs_e20_v20?0B8"NSError"12ls32l8s48l8s40l8
++ ___der_key_last_mesa_auth
++ ___der_key_last_mesa_unlock
++ ___der_key_last_passcode_auth
++ ___der_key_last_passcode_unlock
++ ___der_key_sks_heap_stats
++ _aks_get_convenience_bio_state
++ _aks_get_sks_heap_stats
++ _der_key_last_mesa_auth
++ _der_key_last_mesa_unlock
++ _der_key_last_passcode_auth
++ _der_key_last_passcode_unlock
++ _der_key_sks_heap_stats
++ _flat unique So21LACAnalyticsReporting_p
++ _objc_msgSend$enablementMode
++ _objc_msgSend$fetchEnablementModeWithCompletion:
++ _objc_msgSend$setEnablementMode:
++ _symbolic ______p So21LACAnalyticsReportingP
+- -[LACDTOFeatureController _checkIsFeatureEnabledWithCompletion:]
+- -[LACDTOMutableFeatureState setIsEnabled:]
+- _$s23LocalAuthenticationCore011LACAutoLockC16AnalyticsServiceC15contextProvider17analyticsReporter14dailySchedulerAcA0dE16ContextProviding_p_So012LACAnalyticsK0_pAA0dE26DailyAggregationScheduling_ptcfC
+- _$s23LocalAuthenticationCore011LACAutoLockC16AnalyticsServiceC15contextProvider17analyticsReporter14dailySchedulerAcA0dE16ContextProviding_p_So012LACAnalyticsK0_pAA0dE26DailyAggregationScheduling_ptcfCTfq4eeen_nTf4gnnn_n
+- _$s23LocalAuthenticationCore011LACAutoLockC16AnalyticsServiceC15contextProvider17analyticsReporter14dailySchedulerAcA0dE16ContextProviding_p_So012LACAnalyticsK0_pAA0dE26DailyAggregationScheduling_ptcfCTj
+- _$s23LocalAuthenticationCore011LACAutoLockC16AnalyticsServiceC15contextProvider17analyticsReporter14dailySchedulerAcA0dE16ContextProviding_p_So012LACAnalyticsK0_pAA0dE26DailyAggregationScheduling_ptcfCTq
+- _$s23LocalAuthenticationCore011LACAutoLockC16AnalyticsServiceC15contextProvider17analyticsReporter14dailySchedulerAcA0dE16ContextProviding_p_So012LACAnalyticsK0_pAA0dE26DailyAggregationScheduling_ptcfc
+- _$s23LocalAuthenticationCore011LACAutoLockC16AnalyticsServiceC15contextProvider17analyticsReporter14dailySchedulerAcA0dE16ContextProviding_p_So012LACAnalyticsK0_pAA0dE26DailyAggregationScheduling_ptcfcTf4eeen_n
+- _$s23LocalAuthenticationCore011LACAutoLockC16AnalyticsServiceC17analyticsReporter33_0E650F85BF611BDB0F830DF5043E90ECLLSo012LACAnalyticsI0_pvpWvd
+- _$s23LocalAuthenticationCore30LACCredentialAnalyticsReporterC09analyticsF015isInternalBuildACSo012LACAnalyticsF0_p_SbtcfC
+- _$s23LocalAuthenticationCore30LACCredentialAnalyticsReporterC09analyticsF015isInternalBuildACSo012LACAnalyticsF0_p_SbtcfCTj
+- _$s23LocalAuthenticationCore30LACCredentialAnalyticsReporterC09analyticsF015isInternalBuildACSo012LACAnalyticsF0_p_SbtcfCTq
+- _$s23LocalAuthenticationCore30LACCredentialAnalyticsReporterC09analyticsF015isInternalBuildACSo012LACAnalyticsF0_p_Sbtcfc
+- _$s23LocalAuthenticationCore30LACCredentialAnalyticsReporterC09analyticsF015isInternalBuildACSo012LACAnalyticsF0_p_SbtcfcfA0_
+- _$s23LocalAuthenticationCore30LACCredentialAnalyticsReporterC09analyticsF015isInternalBuildACSo012LACAnalyticsF0_p_SbtcfcfA_
+- _$s23LocalAuthenticationCore30LACCredentialAnalyticsReporterC09analyticsF033_9FFC9F65EC0427A67D0155E367D7678BLLSo012LACAnalyticsF0_pvpWvd
+- _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0014_A90692431F3D3K17C560F240C9A719F89LLSo0dG0_pvpWvd
+- _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0dG0_p_tcfC
+- _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0dG0_p_tcfCTfq4en_n
+- _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0dG0_p_tcfCTj
+- _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0dG0_p_tcfCTq
+- _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0dG0_p_tcfc
+- _$s23LocalAuthenticationCore37LACAnalyticsContextManagementReporterC09analyticsG0ACSo0dG0_p_tcfcTf4en_n
+- _OBJC_IVAR_$_LACDTOMutableFeatureState._isEnabled
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_LACAnalyticsReporter
+- __OBJC_$_PROTOCOL_METHOD_TYPES_LACAnalyticsReporter
+- __OBJC_$_PROTOCOL_REFS_LACAnalyticsReporter
+- __OBJC_LABEL_PROTOCOL_$_LACAnalyticsReporter
+- __OBJC_PROTOCOL_$_LACAnalyticsReporter
+- ___64-[LACDTOFeatureController _checkIsFeatureEnabledWithCompletion:]_block_invoke
+- ___block_descriptor_38_e32_"LACDTOMutableFeatureState"8?0l
+- ___block_descriptor_50_e8_32s40bs_e20_v20?0B8"NSError"12ls32l8s40l8
+- ___block_descriptor_51_e8_32s40bs_e20_v20?0B8"NSError"12ls32l8s40l8
+- ___block_descriptor_52_e8_32s40bs_e20_v20?0B8"NSError"12ls32l8s40l8
+- ___block_descriptor_53_e8_32s40bs_e20_v20?0B8"NSError"12ls32l8s40l8
+- _flat unique So20LACAnalyticsReporter_p
+- _objc_msgSend$_checkIsFeatureEnabledWithCompletion:
+- _objc_msgSend$setIsEnabled:
+- _symbolic ______p So20LACAnalyticsReporterP
+CStrings:
++ "DoublePressAndBio"
++ "LACPolicyDoublePressAndBiometrics"
++ "aks_get_convenience_bio_state"
++ "com.apple.private.LocalAuthentication.Storage.SetThumbAndPayEnabled"
++ "enablementMode: %@"
++ "fetchEnablementMode: %{public}@ (flags: %@)"
++ "fetchEnablementMode: NO (%{public}@)"
+- "isFeatureEnabled: %{public}@ (flags: %@)"
+```

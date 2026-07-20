@@ -1,0 +1,110 @@
+## SleepHealthUI
+
+> `/System/Library/PrivateFrameworks/SleepHealthUI.framework/SleepHealthUI`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__objc_stublist`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+-7027.0.64.0.0
+-  __TEXT.__text: 0x1a4da8
++7027.0.67.2.1
++  __TEXT.__text: 0x1a5b1c
+   __TEXT.__objc_methlist: 0x2804
+   __TEXT.__const: 0xe640
+   __TEXT.__constg_swiftt: 0x7a9c
+-  __TEXT.__swift5_typeref: 0x4f6c
++  __TEXT.__swift5_typeref: 0x4f84
+   __TEXT.__swift5_builtin: 0x2a8
+-  __TEXT.__swift5_reflstr: 0x50c2
+-  __TEXT.__swift5_fieldmd: 0x4964
++  __TEXT.__swift5_reflstr: 0x50d2
++  __TEXT.__swift5_fieldmd: 0x4970
+   __TEXT.__swift5_assocty: 0x12a0
+   __TEXT.__cstring: 0x60b1
+   __TEXT.__swift5_proto: 0x884
+   __TEXT.__swift5_types: 0x54c
+-  __TEXT.__swift5_capture: 0x1624
++  __TEXT.__swift5_capture: 0x1634
+   __TEXT.__oslogstring: 0x52d0
+   __TEXT.__swift5_protos: 0xc0
+   __TEXT.__swift5_mpenum: 0x34
+   __TEXT.__swift_as_entry: 0x50
+   __TEXT.__swift_as_cont: 0x64
+   __TEXT.__swift_as_ret: 0x1c
+-  __TEXT.__unwind_info: 0x5780
++  __TEXT.__unwind_info: 0x5798
+   __TEXT.__eh_frame: 0x1308
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x178
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x22b0
++  __DATA_CONST.__objc_selrefs: 0x22c0
+   __DATA_CONST.__objc_protorefs: 0xc0
+   __DATA_CONST.__objc_superrefs: 0x40
+-  __DATA_CONST.__got: 0x1c98
+-  __AUTH_CONST.__const: 0xaaa0
++  __DATA_CONST.__got: 0x1ca0
++  __AUTH_CONST.__const: 0xaac8
+   __AUTH_CONST.__cfstring: 0x340
+   __AUTH_CONST.__objc_const: 0x7148
+-  __AUTH_CONST.__auth_got: 0x2e90
++  __AUTH_CONST.__auth_got: 0x2e98
+   __AUTH.__objc_data: 0x4fb8
+   __AUTH.__data: 0x30f8
+   __DATA.__objc_ivar: 0x50
+-  __DATA.__data: 0x4430
++  __DATA.__data: 0x4460
+   __DATA.__objc_stublist: 0x10
+   __DATA.__bss: 0xcaf0
+   __DATA.__common: 0x408
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 9325
+-  Symbols:   3903
++  Functions: 9332
++  Symbols:   3907
+   CStrings:  918
+ 
+Symbols:
++ ___swift_closure_destructor.6Tm
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE16keyframeAnimator12initialValue7trigger7content9keyframesQrqd___qd_0_qd_1_AA011PlaceholderdE0VyxG_qd__tYbcqd_2_qd__ct0I0Qyd_2_Rsd__SQRd_0_AaDRd_1_AA9KeyframesRd_2_r2_lFQOyAA06_ShapeE0VyAA6CircleVAA5ColorVG_011SleepHealthB00R19ScoreAnimationStateVSiACyALyAWGAA16_OverlayModifierVyACyACyAX06StaticrT13VisualizationVAA022_EnvironmentKeyWritingX0VyAX0rtZ4SpecVGGAA012_TransactionX0VGGGAA0N7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tANQyd__RszAaPRd__AaPRd_0_ANQyd_0_A20_RSr0_lFZQOyAZ_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaPRd__AaPRd_0_A21_A20_RSr0_lFZQOyAZ_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaPRd__AaPRd_0_A21_A20_RSr0_lFZQOyAZ_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaPRd__AaPRd_0_A21_A20_RSr0_lFZQOyAZ_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaPRd__AaPRd_0_A21_A20_RSr0_lFZQOyAZ_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaPRd__AaPRd_0_A21_A20_RSr0_lFZQOyAZ_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaPRd__AaPRd_0_A21_A20_RSr0_lFZQOyAZ_AA13KeyframeTrackVyAZSdAA14LinearKeyframeVySdGGA27_Qo_A23_yAZSdAA013KeyframeTrackD7BuilderVA17_A18_A19_Qrqd___qd_0_tA20_RszAA013KeyframeTrackD0Rd__AAA31_Rd_0_A21_A20_RSr0_lFZQOySd_A26_A26_Qo_GQo_A33_Qo_A33_Qo_A33_Qo_A33_Qo_A33_Qo_Qo_AA017_AppearanceActionX0VGAaDHPqd0__AaDHD5_A40_HO_A42_AA0eX0HPyHCHC
++ _objc_msgSend$systemMinimumLayoutMargins
++ _objc_msgSend$widthDesignation
++ _symbolic _____y_____SgG 7SwiftUI9LazyStateV 011SleepHealthB014AnimationPhaseO
++ _symbolic _____y_____y_____y__________G______SiAAy_____yAEG_____yAAyAAy__________y_____GG_____GGG_____yAF______yAF______yAF______yAF______yAF______yAF______yAF______yAFSd_____ySdGGAVQo_ASyAFSd_____ySd_A2UQo_GQo_AYQo_AYQo_AYQo_AYQo_AYQo_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE16keyframeAnimator12initialValue7trigger7content9keyframesQrqd___qd_0_qd_1_AA011PlaceholderdE0VyxG_qd__tYbcqd_2_qd__ct0I0Qyd_2_Rsd__SQRd_0_AaDRd_1_AA9KeyframesRd_2_r2_lFQO AA06_ShapeE0V AA6CircleV AA5ColorV 011SleepHealthB00R19ScoreAnimationStateV AL AA16_OverlayModifierV AW06StaticrT13VisualizationV AA022_EnvironmentKeyWritingX0V AW0rtZ4SpecV AA012_TransactionX0V AA0N7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tANQyd__RszAaPRd__AaPRd_0_ANQyd_0_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaPRd__AaPRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaPRd__AaPRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaPRd__AaPRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaPRd__AaPRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaPRd__AaPRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaPRd__AaPRd_0_A14_A13_RSr0_lFZQO AA13KeyframeTrackV AA14LinearKeyframeV AA013KeyframeTrackD7BuilderVA10_A11_A12_Qrqd___qd_0_tA13_RszAA013KeyframeTrackD0Rd__AAA21_Rd_0_A14_A13_RSr0_lFZQO AA017_AppearanceActionX0V
+- _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE16keyframeAnimator12initialValue7trigger7content9keyframesQrqd___qd_0_qd_1_AA018PlaceholderContentC0VyxG_qd__tYbcqd_2_qd__ct0G0Qyd_2_Rsd__SQRd_0_AaBRd_1_AA9KeyframesRd_2_r2_lFQOyAA06_ShapeC0VyAA6CircleVAA5ColorVG_011SleepHealthB00Q19ScoreAnimationStateVSbAA08ModifiedL0VyAJyAUGAA16_OverlayModifierVyAZyAZyAV06StaticqS13VisualizationVAA022_EnvironmentKeyWritingX0VyAV0qsZ4SpecVGGAA012_TransactionX0VGGGAA0M7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tALQyd__RszAaNRd__AaNRd_0_ALQyd_0_A20_RSr0_lFZQOyAX_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaNRd__AaNRd_0_A21_A20_RSr0_lFZQOyAX_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaNRd__AaNRd_0_A21_A20_RSr0_lFZQOyAX_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaNRd__AaNRd_0_A21_A20_RSr0_lFZQOyAX_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaNRd__AaNRd_0_A21_A20_RSr0_lFZQOyAX_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaNRd__AaNRd_0_A21_A20_RSr0_lFZQOyAX_A16_A17_A18_A19_Qrqd___qd_0_tA20_RszAaNRd__AaNRd_0_A21_A20_RSr0_lFZQOyAX_AA13KeyframeTrackVyAXSdAA14LinearKeyframeVySdGGA27_Qo_A23_yAXSdAA013KeyframeTrackL7BuilderVA17_A18_A19_Qrqd___qd_0_tA20_RszAA013KeyframeTrackL0Rd__AAA31_Rd_0_A21_A20_RSr0_lFZQOySd_A26_A26_Qo_GQo_A33_Qo_A33_Qo_A33_Qo_A33_Qo_A33_Qo_Qo_HO
+- _symbolic _____y_____y__________G______Sb_____y_____yADG_____yAFyAFy__________y_____GG_____GGG_____yAE______yAE______yAE______yAE______yAE______yAE______yAE______yAESd_____ySdGGAVQo_ASyAESd_____ySd_A2UQo_GQo_AYQo_AYQo_AYQo_AYQo_AYQo_Qo_ 7SwiftUI4ViewPAAE16keyframeAnimator12initialValue7trigger7content9keyframesQrqd___qd_0_qd_1_AA018PlaceholderContentC0VyxG_qd__tYbcqd_2_qd__ct0G0Qyd_2_Rsd__SQRd_0_AaBRd_1_AA9KeyframesRd_2_r2_lFQO AA06_ShapeC0V AA6CircleV AA5ColorV 011SleepHealthB00Q19ScoreAnimationStateV AA08ModifiedL0V AJ AA16_OverlayModifierV AU06StaticqS13VisualizationV AA022_EnvironmentKeyWritingX0V AU0qsZ4SpecV AA012_TransactionX0V AA0M7BuilderV17buildPartialBlock11accumulated4nextQrqd___qd_0_tALQyd__RszAaNRd__AaNRd_0_ALQyd_0_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaNRd__AaNRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaNRd__AaNRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaNRd__AaNRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaNRd__AaNRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaNRd__AaNRd_0_A14_A13_RSr0_lFZQO A9_A10_A11_A12_Qrqd___qd_0_tA13_RszAaNRd__AaNRd_0_A14_A13_RSr0_lFZQO AA13KeyframeTrackV AA14LinearKeyframeV AA013KeyframeTrackL7BuilderVA10_A11_A12_Qrqd___qd_0_tA13_RszAA013KeyframeTrackL0Rd__AAA21_Rd_0_A14_A13_RSr0_lFZQO
+```

@@ -1,0 +1,57 @@
+## PrivacySettingsUI
+
+> `FileSystem/System/Library/PrivateFrameworks/Settings/PrivacySettingsUI.framework/LockdownMode.loctable`
+
+```diff
+
+ en.CELLULAR_ALERT_ENABLE_BUTTON = "Turn On"
+ en.CELLULAR_ALERT_ENABLE_MESSAGE = "Turning on 2G and 3G connectivity increases security risks."
+ en.CELLULAR_ALERT_ENABLE_TITLE = "Are you sure you want to turn on 2G and 3G connectivity while in Lockdown Mode?"
+-en.CONFIGURE_MESSAGES = "Configure Messages"
+ en.CONFIRM_ALERT_DISABLE_ALL_DEVICES_MESSAGE = "For complete protection, Lockdown Mode has to be enabled on all of your devices.\n\nTurning off Lockdown Mode requires %@ to restart."
+ en.CONFIRM_ALERT_DISABLE_ALL_DEVICES_WITH_WATCH_MESSAGE = "For complete protection, Lockdown Mode has to be enabled on all of your devices.\n\nTurning off Lockdown Mode requires %@ and Apple Watch to restart."
+-en.CONFIRM_ALERT_DISABLE_BUTTON = "Turn Off \u0026 Restart"
+-en.CONFIRM_ALERT_DISABLE_MESSAGE = "Turning off Lockdown Mode requires %@ to restart."
+-en.CONFIRM_ALERT_DISABLE_TITLE = "Turn Off Lockdown Mode?"
++en.CONFIRM_ALERT_DISABLE_BUTTON = "Turn Off Lockdown Mode"
++en.CONFIRM_ALERT_DISABLE_MESSAGE = "You can keep Lockdown Mode on and make exceptions for specific contacts in Messages, websites in Safari, and more.\n\nIf you turn off Lockdown Mode, security limits reducing your exposure to digital threats will be removed from your %@. This will not turn off Lockdown Mode on your other Apple devices."
++en.CONFIRM_ALERT_DISABLE_THREAT_MESSAGE = "You turned on Lockdown Mode after Apple detected you were being targeted in a mercenary spyware attack. You can keep Lockdown Mode on and make exceptions for specific contacts in Messages, websites in Safari, and more.\n\nIf you turn off Lockdown Mode, security limits reducing your exposure to digital threats will be removed from your %@. This will not turn off Lockdown Mode on your other Apple devices."
++en.CONFIRM_ALERT_DISABLE_TITLE = "Turn off Lockdown Mode?"
+ en.CONFIRM_ALERT_DISABLE_WITH_WATCH_MESSAGE = "Turning off Lockdown Mode requires %@ and Apple Watch to restart."
+ en.CONFIRM_ALERT_ENABLE_ALL_DEVICES_MESSAGE = "For complete protection, Lockdown Mode has to be enabled on all your devices.\n\nLockdown Mode requires %@ to restart."
+ en.CONFIRM_ALERT_ENABLE_ALL_DEVICES_WITH_WATCH_MESSAGE = "For complete protection, Lockdown Mode has to be turned on for all your devices.\n\nLockdown Mode requires %@ and Apple Watch to restart."
+
+ en.CONFIRM_ALERT_ENABLE_TITLE = "Turn On Lockdown Mode?"
+ en.CONFIRM_ALERT_ENABLE_WITH_WATCH_MESSAGE = "Lockdown Mode requires %@ and Apple Watch restart."
+ en.CONTINUE = "Continue"
++en.CUSTOMIZE_CONTACTS = "Customize Contacts"
++en.CUSTOMIZE_WEBSITES = "Customize Web Sites"
+ en.DISABLE_LOCKDOWN_MODE = "Turn Off Lockdown Mode"
+ en.ENABLE_CELLULAR = "2G/3G Cellular Connectivity"
+ en.ENABLE_CELLULAR_FOOTER = "For enhanced security, 2G and 3G are turned off when in Lockdown Mode. You can still turn on 2G and 3G if needed for connectivity."
+ en.ENABLE_LOCKDOWN_MODE = "Turn On Lockdown Mode"
+-en.ERROR_ALERT_DISABLE_MESSAGE = "There was an issue turning off Lockdown Mode. Try again or visit https://support.apple.com/kb/HT212650 for more information."
++en.ERROR_ALERT_DISABLE_MESSAGE = "There was an issue turning off Lockdown Mode. Try again or visit https://support.apple.com/105120 for more information."
+ en.ERROR_ALERT_DISABLE_TITLE = "Unable to turn off Lockdown Mode"
+-en.ERROR_ALERT_ENABLE_MESSAGE = "There was an issue turning on Lockdown Mode. Try again or visit https://support.apple.com/kb/HT212650 for more information."
++en.ERROR_ALERT_ENABLE_MESSAGE = "There was an issue turning on Lockdown Mode. Try again or visit https://support.apple.com/105120 for more information."
+ en.ERROR_ALERT_ENABLE_TITLE = "Unable to turn on Lockdown Mode"
+ en.LOCKDOWN_MODE = "Lockdown Mode"
+ en.OK = "OK"
+-en.ONBOARDING_CELL_DETAIL = "Turn on this extreme protection if you believe you’re being targeted in a cyberattack. Apps, websites, and feature functionality will be limited and some experiences may be completely unavailable."
++en.ONBOARDING_CELL_DETAIL = "Lockdown Mode offers the strongest protection for your %@ and data by reducing your exposure to current and future digital threats. This is intended for anyone in high-risk situations, such as journalists, activists, leaders, public figures, and abuse survivors."
+ en.ONBOARDING_CELL_LINK = "Learn more…"
+ en.ONBOARDING_UI_DETAIL = "When %@ is in Lockdown Mode, apps, websites, and features will be strictly limited for security, and some experiences will be completely unavailable."
+ en.SECTION_FACETIME_CONTENT = "Incoming FaceTime calls from people you have not previously called are blocked. Features such as SharePlay and Live Photos are unavailable."
+
+ en.SECTION_WIRELESS_CONNECTIVITY_WITH_CELLULAR_CONTENT_WLAN = "Automatically joining non-secure WLAN networks and 2G/3G Cellular Connectivity are blocked."
+ en.STATE_SPECIFIER_TURN_OFF = "Turn Off Lockdown Mode"
+ en.STATE_SPECIFIER_TURN_ON = "Turn On Lockdown Mode"
++en.THREAT_NOTIFICATION_BODY = "On %1$@, Apple notified you of a mercenary spyware attack targeted at your %2$@."
++en.THREAT_NOTIFICATION_LINK = "Learn more…"
++en.THREAT_NOTIFICATION_TITLE = "Apple Threat Notification"
+ en.WEBSITES = "Excluded Safari Websites"
+-en.WEB_CONTENT = "Configure Web Browsing"
+ en.WEB_CONTENT_FOOTER = "This %@ is in Lockdown Mode. Apps, websites, and features are strictly limited for security, and some experiences are completely unavailable."
+
+```

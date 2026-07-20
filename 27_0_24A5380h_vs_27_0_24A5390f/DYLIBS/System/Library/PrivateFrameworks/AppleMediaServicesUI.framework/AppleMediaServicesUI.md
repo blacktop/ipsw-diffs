@@ -1,0 +1,220 @@
+## AppleMediaServicesUI
+
+> `/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/AppleMediaServicesUI`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__DATA.__objc_stublist`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+-8.0.43.0.0
+-  __TEXT.__text: 0x23a820
++8.0.45.0.0
++  __TEXT.__text: 0x23b8a0
+   __TEXT.__delay_helper: 0x114
+-  __TEXT.__objc_methlist: 0x1130c
+-  __TEXT.__const: 0x10714
+-  __TEXT.__gcc_except_tab: 0x1518
++  __TEXT.__objc_methlist: 0x113a4
++  __TEXT.__const: 0x107e4
++  __TEXT.__gcc_except_tab: 0x1504
+   __TEXT.__oslogstring: 0xa6bb
+-  __TEXT.__cstring: 0xff87
++  __TEXT.__cstring: 0xffe7
+   __TEXT.__dlopen_cstrs: 0xe35
+   __TEXT.__ustring: 0x13a
+-  __TEXT.__constg_swiftt: 0x6db8
+-  __TEXT.__swift5_typeref: 0x16734
++  __TEXT.__constg_swiftt: 0x6dd4
++  __TEXT.__swift5_typeref: 0x16778
+   __TEXT.__swift5_builtin: 0x21c
+-  __TEXT.__swift5_reflstr: 0x39e5
+-  __TEXT.__swift5_fieldmd: 0x3f90
++  __TEXT.__swift5_reflstr: 0x3a15
++  __TEXT.__swift5_fieldmd: 0x3fa0
+   __TEXT.__swift5_assocty: 0x1410
+-  __TEXT.__swift5_proto: 0x5f8
+-  __TEXT.__swift5_types: 0x504
+-  __TEXT.__swift5_capture: 0x1e0c
++  __TEXT.__swift5_proto: 0x604
++  __TEXT.__swift5_types: 0x508
++  __TEXT.__swift5_capture: 0x1e2c
+   __TEXT.__swift5_protos: 0x34
+   __TEXT.__swift_as_entry: 0x26c
+   __TEXT.__swift_as_ret: 0x2f8
+   __TEXT.__swift_as_cont: 0x74c
+   __TEXT.__swift5_mpenum: 0x50
+-  __TEXT.__unwind_info: 0x97d8
+-  __TEXT.__eh_frame: 0x8cb0
++  __TEXT.__unwind_info: 0x9818
++  __TEXT.__eh_frame: 0x8c60
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x3f60
++  __DATA_CONST.__const: 0x3fa8
+   __DATA_CONST.__objc_classlist: 0xb58
+   __DATA_CONST.__objc_catlist: 0xa0
+   __DATA_CONST.__objc_protolist: 0x428
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x9290
++  __DATA_CONST.__objc_selrefs: 0x92f8
+   __DATA_CONST.__objc_protorefs: 0x160
+   __DATA_CONST.__objc_superrefs: 0x688
+   __DATA_CONST.__objc_arraydata: 0x340
+   __DATA_CONST.__got: 0x2078
+-  __AUTH_CONST.__const: 0xb058
+-  __AUTH_CONST.__cfstring: 0xb240
+-  __AUTH_CONST.__objc_const: 0x228f8
++  __AUTH_CONST.__const: 0xb1a0
++  __AUTH_CONST.__cfstring: 0xb2c0
++  __AUTH_CONST.__objc_const: 0x22930
+   __AUTH_CONST.__objc_intobj: 0x408
+   __AUTH_CONST.__objc_dictobj: 0x258
+   __AUTH_CONST.__objc_doubleobj: 0x60
+   __AUTH_CONST.__objc_arrayobj: 0x108
+-  __AUTH_CONST.__auth_got: 0x2df8
+-  __AUTH.__objc_data: 0x90c0
+-  __AUTH.__data: 0x6940
+-  __DATA.__objc_ivar: 0x1104
+-  __DATA.__data: 0x7d7c
++  __AUTH_CONST.__auth_got: 0x2e50
++  __AUTH.__objc_data: 0x90b0
++  __AUTH.__data: 0x6950
++  __DATA.__objc_ivar: 0x1108
++  __DATA.__data: 0x7dcc
+   __DATA.__objc_stublist: 0x20
+-  __DATA.__bss: 0xc6f0
+-  __DATA.__common: 0x42a
++  __DATA.__bss: 0xc870
++  __DATA.__common: 0x41a
+   __DATA_DIRTY.__objc_data: 0xfe8
+   __DATA_DIRTY.__data: 0x150
+   __DATA_DIRTY.__bss: 0xc8
+
+   - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftSpriteKit.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 16236
+-  Symbols:   17081
+-  CStrings:  3069
++  Functions: 16278
++  Symbols:   17116
++  CStrings:  3074
+ 
+Symbols:
++ +[AMSUIWebView _runAction:context:depth:completion:]
++ +[AMSUIWebView runAction:context:completion:]
++ -[AMSUIToastPresentationController _accessibilityElement:isWithinView:]
++ -[AMSUIToastPresentationController _beginObservingVoiceOverFocus]
++ -[AMSUIToastPresentationController _endObservingVoiceOverFocus]
++ -[AMSUIToastPresentationController _isVoiceOverFocusedOnToast]
++ -[AMSUIToastPresentationController _voiceOverFocusDidChange:]
++ -[AMSUIToastPresentationController _voiceOverStatusDidChange:]
++ -[AMSUIToastPresentationController dealloc]
++ -[AMSUIToastPresentationController isDismissalPausedForVoiceOver]
++ -[AMSUIToastPresentationController setDismissalPausedForVoiceOver:]
++ GCC_except_table39
++ GCC_except_table51
++ _AudioServicesCreateSystemSoundID
++ _AudioServicesDisposeSystemSoundID
++ _OBJC_IVAR_$_AMSUIToastPresentationController._dismissalPausedForVoiceOver
++ _UIAccessibilityElementFocusedNotification
++ _UIAccessibilityFocusedElement
++ _UIAccessibilityFocusedElementKey
++ _UIAccessibilityNotificationVoiceOverIdentifier
++ ___46-[AMSUIWebFetchTreatmentAreasAction runAction]_block_invoke_5
++ ___52+[AMSUIWebView _runAction:context:depth:completion:]_block_invoke
++ ___block_descriptor_32_e15_16?0"NSSet"8l
++ ___block_descriptor_72_e8_32s40s48bs_e20_v24?08"NSError"16ls32l8s48l8s40l8
++ ___swift_closure_destructor.136Tm
++ ___swift_closure_destructor.56Tm
++ _associated conformance 20AppleMediaServicesUI26ReviewExtensionHostServiceC0G5Error33_18C8CE08C0219173CFCAE077BAD3B917LLOSHAASQ
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQOyAcAE0dF0yQrqd__SyRd__lFQOyAA15ModifiedContentVyAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAKyAcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA5GroupVyAA012_ConditionalL0VyAXyAKyAKyAA08ProgressC0VyAA05EmptyC0VA0_GAA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGGAA16_FlexFrameLayoutVGAA0l11UnavailableC0VyAA5LabelVyAA4TextVAA5ImageVGA16_AA6ButtonVyA16_GGGAA4FormVyAA05TupleL0VyAA7SectionVyA0_A22_A16_GSg_AA7ForEachVySay018AppleMediaServicesB019NotificationSectionVG10Foundation4UUIDVA30_yA16_SgA34_ySayA35_012NotificationJ0CGA41_AA6ToggleVyA16_GGA42_GGQPGGGG_AA10ScenePhaseOQo_A35_017AuthenticateSheetC8ModifierVG_Qo_AA25_AppearanceActionModifierVG_SSQo__Qo_HO
++ _objc_msgSend$_accessibilityElement:isWithinView:
++ _objc_msgSend$_beginObservingVoiceOverFocus
++ _objc_msgSend$_endObservingVoiceOverFocus
++ _objc_msgSend$_isVoiceOverFocusedOnToast
++ _objc_msgSend$_runAction:context:depth:completion:
++ _objc_msgSend$accessibilityContainer
++ _objc_msgSend$accountWithIdentifier:
++ _objc_msgSend$allObjects
++ _objc_msgSend$isDescendantOfView:
++ _objc_msgSend$isDismissalPausedForVoiceOver
++ _objc_msgSend$runAction:context:completion:
++ _objc_msgSend$setDismissalPausedForVoiceOver:
++ _objc_msgSend$setTokenProtocol:
++ _objc_msgSend$setTokenTrigger:
++ _symbolic Say_____G s6UInt32V
++ _symbolic _____ 18AppleMediaServices24AMSPaymentExpandableInfoC
++ _symbolic _____ 20AppleMediaServicesUI26ReviewExtensionHostServiceC0G5Error33_18C8CE08C0219173CFCAE077BAD3B917LLO
++ _symbolic _____SgXw 20AppleMediaServicesUI26ReviewExtensionHostServiceC
++ _symbolic _____yAAy_____y_____y_____yACyAAyAAy_____y_____AEG_____y_____GG_____G_____y_____y__________GAO_____yAOGGG_____y_____y_____yAesOGSg______ySay_____G_____AXyAOSgA_ySay_____GA2______yAOGGA3_GGQPGGGG______Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV AA0d11UnavailableE0V AA5LabelV AA4TextV AA5ImageV AA6ButtonV AA4FormV AA05TupleD0V AA7SectionV AA7ForEachV 018AppleMediaServicesB019NotificationSectionV 10Foundation4UUIDV A13_16NotificationItemC AA6ToggleV AA10ScenePhaseO A13_017AuthenticateSheeteQ0V AA14_TaskModifier2V
++ _symbolic _____yScCy___________pGSgG 15Synchronization5MutexVAARi_zrlE 20AppleMediaServicesUI12ReviewResultO s5ErrorP
++ _symbolic _____yScCy___________pGSgG 15Synchronization5_CellVAARi_zrlE 20AppleMediaServicesUI12ReviewResultO s5ErrorP
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s6UInt32V
++ _symbolic _____y_____yAAy_____y_____y_____yACyAAyAAy_____y_____AEG_____y_____GG_____G_____y_____y__________GAO_____yAOGGG_____y_____y_____yAesOGSg______ySay_____G_____AXyAOSgA_ySay_____GA2______yAOGGA3_GGQPGGGG______Qo______G_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV AA0d11UnavailableE0V AA5LabelV AA4TextV AA5ImageV AA6ButtonV AA4FormV AA05TupleD0V AA7SectionV AA7ForEachV 018AppleMediaServicesB019NotificationSectionV 10Foundation4UUIDV A19_16NotificationItemC AA6ToggleV AA10ScenePhaseO A19_017AuthenticateSheeteV0V AA017_AppearanceActionV0V
++ _symbolic _____y_____y_____yAAy_____y_____y_____yACyAAyAAy_____y_____AEG_____y_____GG_____G_____y_____y__________GAO_____yAOGGG_____y_____y_____yAesOGSg______ySay_____G_____AXyAOSgA_ySay_____GA2______yAOGGA3_GGQPGGGG______Qo______G_Qo______G_SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AA15ModifiedContentV AcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA012_ConditionalG0V AA08ProgressC0V AA05EmptyC0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV AA0g11UnavailableC0V AA5LabelV AA4TextV AA5ImageV AA6ButtonV AA4FormV AA05TupleG0V AA7SectionV AA7ForEachV 018AppleMediaServicesB019NotificationSectionV 10Foundation4UUIDV A20_16NotificationItemC AA6ToggleV AA10ScenePhaseO A20_017AuthenticateSheetcX0V AA017_AppearanceActionX0V
++ _symbolic _____y_____y_____y_____yAAy_____y_____y_____yACyAAyAAy_____y_____AEG_____y_____GG_____G_____y_____y__________GAO_____yAOGGG_____y_____y_____yAesOGSg______ySay_____G_____AXyAOSgA_ySay_____GA2______yAOGGA3_GGQPGGGG______Qo______G_Qo______G_SSQo__Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AcAE0dF0yQrqd__SyRd__lFQO AA15ModifiedContentV AcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA012_ConditionalL0V AA08ProgressC0V AA05EmptyC0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV AA0l11UnavailableC0V AA5LabelV AA4TextV AA5ImageV AA6ButtonV AA4FormV AA05TupleL0V AA7SectionV AA7ForEachV 018AppleMediaServicesB019NotificationSectionV 10Foundation4UUIDV A25_012NotificationJ0C AA6ToggleV AA10ScenePhaseO A25_017AuthenticateSheetC8ModifierV AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____y_____yACyAAyAAy_____y_____AEG_____y_____GG_____G_____y_____y__________GAO_____yAOGGG_____y_____y_____yAesOGSg______ySay_____G_____AXyAOSgA_ySay_____GA2______yAOGGA3_GGQPGGGG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV AA0d11UnavailableE0V AA5LabelV AA4TextV AA5ImageV AA6ButtonV AA4FormV AA05TupleD0V AA7SectionV AA7ForEachV 018AppleMediaServicesB019NotificationSectionV 10Foundation4UUIDV A13_16NotificationItemC AA6ToggleV AA10ScenePhaseO A13_017AuthenticateSheeteQ0V
+- GCC_except_table36
+- GCC_except_table45
+- _OBJC_CLASS_$_AVAudioPlayer
+- _OBJC_CLASS_$_NSDataAsset
+- ___swift_closure_destructor.10Tm
+- ___swift_closure_destructor.69Tm
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyACyAeAE29navigationBarTitleDisplayModeyQrAA010NavigationL4ItemV0mnO0OFQOyAeAE0kM0yQrqd__SyRd__lFQOyAeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA5GroupVyAA012_ConditionalD0VyAXyACyACyAA08ProgressE0VyAA05EmptyE0VA0_GAA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGGAA16_FlexFrameLayoutVGAA0d11UnavailableE0VyAA5LabelVyAA4TextVAA5ImageVGA16_AA6ButtonVyA16_GGGAA4FormVyAA05TupleD0VyAA7SectionVyA0_A22_A16_GSg_AA7ForEachVySay018AppleMediaServicesB019NotificationSectionVG10Foundation4UUIDVA30_yA16_SgA34_ySayA35_012NotificationQ0CGA41_AA6ToggleVyA16_GGA42_GGQPGGGG_AA10ScenePhaseOQo__SSQo__Qo_A35_017AuthenticateSheetE8ModifierVG_Qo_AA25_AppearanceActionModifierVGAaDHPqd__AaDHD2_A64_HO_A66_AA0E8ModifierHPyHCHC
+- _objc_msgSend$initWithData:fileTypeHint:error:
+- _objc_msgSend$initWithName:bundle:
+- _objc_msgSend$prepareToPlay
+- _objc_msgSend$setCurrentTime:
+- _symbolic SaySo13AVAudioPlayerCG
+- _symbolic Say_____G 18AppleMediaServices31AMSPaymentExpandableInfoDetailsC
+- _symbolic So13AVAudioPlayerC
+- _symbolic _____yAAy_____y_____y_____y_____y_____yACyAAyAAy_____y_____AEG_____y_____GG_____G_____y_____y__________GAO_____yAOGGG_____y_____y_____yAesOGSg______ySay_____G_____AXyAOSgA_ySay_____GA2______yAOGGA3_GGQPGGGG______Qo__SSQo__Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationG4ItemV0hiJ0OFQO AeAE0fH0yQrqd__SyRd__lFQO AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV AA0d11UnavailableE0V AA5LabelV AA4TextV AA5ImageV AA6ButtonV AA4FormV AA05TupleD0V AA7SectionV AA7ForEachV 018AppleMediaServicesB019NotificationSectionV 10Foundation4UUIDV A19_012NotificationL0C AA6ToggleV AA10ScenePhaseO A19_017AuthenticateSheeteX0V AA14_TaskModifier2V
+- _symbolic _____y_____yAAy_____y_____y_____y_____y_____yACyAAyAAy_____y_____AEG_____y_____GG_____G_____y_____y__________GAO_____yAOGGG_____y_____y_____yAesOGSg______ySay_____G_____AXyAOSgA_ySay_____GA2______yAOGGA3_GGQPGGGG______Qo__SSQo__Qo______G_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AeAE29navigationBarTitleDisplayModeyQrAA010NavigationL4ItemV0mnO0OFQO AeAE0kM0yQrqd__SyRd__lFQO AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV AA0d11UnavailableE0V AA5LabelV AA4TextV AA5ImageV AA6ButtonV AA4FormV AA05TupleD0V AA7SectionV AA7ForEachV 018AppleMediaServicesB019NotificationSectionV 10Foundation4UUIDV A25_012NotificationQ0C AA6ToggleV AA10ScenePhaseO A25_017AuthenticateSheetE8ModifierV AA25_AppearanceActionModifierV
+- _symbolic _____y_____y_____yABy_____yACy_____y_____AEG_____y_____GG_____G_____y_____y__________GAO_____yAOGGG_____y_____y_____yAesOGSg______ySay_____G_____AXyAOSgA_ySay_____GA2______yAOGGA3_GGQPGGGG______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA19_ConditionalContentV AA08ModifiedJ0V AA08ProgressC0V AA05EmptyC0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV AA0j11UnavailableC0V AA5LabelV AA4TextV AA5ImageV AA6ButtonV AA4FormV AA05TupleJ0V AA7SectionV AA7ForEachV 018AppleMediaServicesB019NotificationSectionV 10Foundation4UUIDV A13_16NotificationItemC AA6ToggleV AA10ScenePhaseO
+- _symbolic _____y_____y_____y_____yABy_____yACy_____y_____AEG_____y_____GG_____G_____y_____y__________GAO_____yAOGGG_____y_____y_____yAesOGSg______ySay_____G_____AXyAOSgA_ySay_____GA2______yAOGGA3_GGQPGGGG______Qo__SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA19_ConditionalContentV AA08ModifiedL0V AA08ProgressC0V AA05EmptyC0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV AA0l11UnavailableC0V AA5LabelV AA4TextV AA5ImageV AA6ButtonV AA4FormV AA05TupleL0V AA7SectionV AA7ForEachV 018AppleMediaServicesB019NotificationSectionV 10Foundation4UUIDV A14_16NotificationItemC AA6ToggleV AA10ScenePhaseO
+- _symbolic _____y_____y_____y_____y_____y_____yACyAAyAAy_____y_____AEG_____y_____GG_____G_____y_____y__________GAO_____yAOGGG_____y_____y_____yAesOGSg______ySay_____G_____AXyAOSgA_ySay_____GA2______yAOGGA3_GGQPGGGG______Qo__SSQo__Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationG4ItemV0hiJ0OFQO AeAE0fH0yQrqd__SyRd__lFQO AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV AA0d11UnavailableE0V AA5LabelV AA4TextV AA5ImageV AA6ButtonV AA4FormV AA05TupleD0V AA7SectionV AA7ForEachV 018AppleMediaServicesB019NotificationSectionV 10Foundation4UUIDV A19_012NotificationL0C AA6ToggleV AA10ScenePhaseO A19_017AuthenticateSheeteX0V
+CStrings:
++ "Could not create system sound. Status: "
++ "Could not find sound in bundle. Sound Name: "
++ "Maximum chain depth exceeded"
++ "failureAction"
++ "loadTerms: clientInfo="
++ "nextAction"
++ "successAction"
+- "Could not create AVAudioPlayer with error: "
+- "Could not load sound from bundle. Sound Name: "
+```

@@ -1,0 +1,76 @@
+## followupd
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 
+ (deny generic-issue-extension)
+ 
+-(deny iokit-issue-extension)
++(deny iokit-get-properties)
+ 
+-(deny iokit-open-user-client)
+-(allow iokit-open-user-client
++(deny iokit-open*)
++(allow iokit-open*
+ 	(require-any
+ 		(iokit-registry-entry-class "${ENTITLEMENT:com.apple.security.exception.iokit-user-client-class}")
+ 		(iokit-registry-entry-class "${ENTITLEMENT:com.apple.security.iokit-user-client-class}")
+ 	)
+ )
+ 
++(deny iokit-open-user-client)
++
+ (deny iokit-open-service)
+ 
+ (deny iokit-set-properties)
+ 
+ (deny ipc*)
+ 
+-(deny ipc-posix-shm-read-data)
+-(allow ipc-posix-shm-read-data
++(deny ipc-posix-shm*)
++(allow ipc-posix-shm*
+ 	(require-any
+ 		(ipc-posix-name "apple.cfprefs.*")
+ 		(ipc-posix-name "apple.cfprefs.daemonv1")
+
+ 	)
+ )
+ 
+-(deny job-creation)
++(allow ipc-sysv-shm)
+ 
+-(deny mach-issue-extension)
++(deny isp-command-send)
+ 
+-(deny mach-lookup
++(deny mach-host-special-port-set)
++
++(deny mach-issue-extension
+ 	(require-all
+ 		(require-not (global-name "com.apple.lsd.mapdb"))
+ 		(require-not (global-name "com.apple.system.notification_center"))
+
+ 		(require-not (global-name "com.apple.aggregated"))
+ 		(require-not (global-name "com.apple.lsd.open"))
+ 		(require-not (require-any
++			(xpc-service-name "com.apple.AppleAccountUI.AAUIFollowUpExtension")
+ 			(xpc-service-name "com.apple.NewDeviceOutreach.TVExtension")
+ 			(xpc-service-name "com.apple.health.HealthAppSupport.HealthFollowUpExtension")
+ 			(xpc-service-name "com.apple.iCloudQuota.ICQFollowup")
+
+ 	)
+ )
+ 
++(deny process-codesigning)
++
+ (deny process-exec*)
+ 
++(allow process-exec-interpreter)
++
+ (deny socket-ioctl)
+ 
+ (deny syscall-unix)
+```

@@ -1,0 +1,48 @@
+## PerimenopauseArticleLocalizable
+
+> `FileSystem/System/Library/Health/FeedItemPlugins/MenstrualCyclesAppPlugin.healthplugin/PerimenopauseArticleLocalizable.loctable`
+
+```diff
+
+ en.ARTICLE_DESCRIPTION = "Hormone shifts can impact your mood, sleep, and more."
+ en.ARTICLE_TITLE = "How Your Body Changes During Perimenopause"
+-en.SECTION1_PARAGRAPH1 = "When you’re in perimenopause, your hormones are often in flux. Everyone experiences this differently. Some people may have hot flashes and irregular periods, but no other symptoms. Others may feel like a stranger in their own bodies."
+-en.SECTION1_PARAGRAPH2 = "This unpredictability might catch you off guard, but it’s normal as your body begins to transition to menopause. Fortunately, there are things you can do to feel more like yourself."
++en.SECTION1_PARAGRAPH1 = "Perimenopause looks different for everyone. Some people may have hot flashes and irregular periods, but no other symptoms. Others may feel like a stranger in their own bodies."
++en.SECTION1_PARAGRAPH2 = "It can be hard to know when perimenopause has started and what to expect next. That unpredictability might catch you off guard, but it’s normal as your body begins to transition to menopause. And there are things you can do to feel more like yourself again."
+ en.SECTION2_HEADER = "What happens during perimenopause"
+ en.SECTION2_PARAGRAPH1 = "First, a quick refresher on how your menstrual cycle works. Before perimenopause, your ovaries produce the hormones estrogen and progesterone in a fairly predictable way."
+ en.SECTION2_PARAGRAPH2 = "Every month, these hormones help mature an egg and prepare your uterus for possible pregnancy. Around mid-cycle, during ovulation, that egg gets released. If it doesn’t get fertilized, hormone levels shift again, and you get your period."
+ en.SECTION2_PARAGRAPH3 = "For most people, this rhythm is consistent from puberty into your 40s. But when perimenopause starts, your hormone levels become more erratic as your ovaries release fewer eggs. Your periods may become longer or shorter, heavier or lighter, or you might skip a month entirely. You’re still ovulating, so it’s still possible to get pregnant."
+-en.SECTION2_PARAGRAPH4 = "Perimenopause can start anywhere from your late 30s to your early 50s, and typically can last three to seven years. For some, it may be shorter or longer."
++en.SECTION2_PARAGRAPH4 = "Perimenopause can start anywhere from your late 30s to your early 50s, and typically can last 4 to 7 years. For some, it may be shorter or longer."
+ en.SECTION2_PARAGRAPH5 = "The transition culminates at menopause, which is the single point in time when you haven’t had a period for 12 consecutive months. Menopause can also happen suddenly, like when someone has their ovaries removed or they get certain treatments like chemotherapy."
+ en.SECTION2_PARAGRAPH6 = "If you don’t have regular cycles for another reason—like hormonal birth control or a hysterectomy—your period won’t be a clear sign you’ve hit menopause. But your doctor can guide you based on your age and symptoms."
+ en.SECTION3_HEADER = "Common perimenopause symptoms"
++en.SECTION3_LIST_ITEM1 = "Increased abdominal fat"
++en.SECTION3_LIST_ITEM2 = "Muscle loss"
++en.SECTION3_LIST_ITEM3 = "Dry eyes or skin"
++en.SECTION3_LIST_ITEM4 = "Frozen shoulder or joint pain"
++en.SECTION3_LIST_ITEM5 = "Hair loss or thinning"
++en.SECTION3_LIST_ITEM6 = "More frequent or severe headaches, especially around your period"
+ en.SECTION3_MDPARAGRAPH1 = "**Hot flashes and night sweats**  \nShifting hormone levels can throw off your body’s internal thermostat, leaving you suddenly feeling hot and sweaty. Night sweats are essentially the same as hot flashes—they just hit while you’re asleep. Both can last for years, even after menopause."
+-en.SECTION3_MDPARAGRAPH2 = "**Mood swings, brain fog, and trouble sleeping**  \nHormonal shifts can have you feeling fine one moment and irritated, weepy, or anxious the next. You might also struggle to focus, become more forgetful, and find it harder to fall—and stay—asleep."
+-en.SECTION3_MDPARAGRAPH3 = "**Urinary and sexual health changes**  \nWith lower estrogen levels, bladder and vaginal tissue thins and weakens. This can cause you to feel like you need to pee more often or more urgently. Your risk for UTIs goes up. Sex can also feel less comfortable, and your sex drive may drop off."
+-en.SECTION3_PARAGRAPH1 = "Changes to your cycle are often the first sign of perimenopause, but you can experience a whole range of other symptoms. Some of the most common include:"
+-en.SECTION3_PARAGRAPH2 = "Symptoms and their severity can vary person to person. You might also experience joint pain, body aches, changes to your skin and hair, and more."
+-en.SECTION3_PARAGRAPH3 = "Ongoing changes to your body and your cycles are the norm during perimenopause, and it’s important to tell your doctor about symptoms at your check-ups."
+-en.SECTION3_PARAGRAPH4 = "But, whether you’re in perimenopause or not, some things need immediate attention. Seek help if you notice pain, burning, or blood when you pee or after you have sex, or if your period lasts longer than a week or is very heavy."
++en.SECTION3_MDPARAGRAPH2 = "**Mood and memory changes**  \nPerimenopause can also affect how you think and feel. Anxiety is one of the most common experiences—sometimes showing up as worry, irritability, or a racing mind. You may also notice moments of forgetfulness—losing a name or a word mid-sentence, or feeling like the right word is just out of reach. Both tend to improve as hormone levels settle after menopause."
++en.SECTION3_MDPARAGRAPH3 = "**Shifts in sleep**  \nNight sweats are a common cause of sleep disruption, but rest can suffer even without them. Changing hormone levels also influence how your brain regulates sleep, so you may find yourself taking longer to fall asleep or waking up more often during the night."
++en.SECTION3_MDPARAGRAPH4 = "**Urinary and sexual health changes**  \nWith lower estrogen levels, bladder and vaginal tissue thins and weakens. This can cause you to feel like you need to pee more often or more urgently. Your risk for UTIs goes up. Sex can also feel less comfortable, and your sex drive may drop off."
++en.SECTION3_PARAGRAPH1 = "Perimenopause has a wide range of potential symptoms, from well-known ones like hot flashes to lesser-known ones like joint pain. A shift in your menstrual patterns is often the first sign, but other symptoms, such as hot flashes, can appear even before you notice any cycle changes."
++en.SECTION3_PARAGRAPH2 = "Some of the most commonly experienced symptoms include:"
++en.SECTION3_PARAGRAPH3 = "How all of this shows up—and how much it affects you—can vary a lot from person to person. You may notice many of these changes, or your experiences might be quite different."
++en.SECTION3_PARAGRAPH4 = "Other symptoms can include:"
++en.SECTION3_PARAGRAPH5 = "Ongoing changes to your body and your cycles are the norm during perimenopause, and it’s important to tell your doctor about symptoms at your check-ups."
++en.SECTION3_PARAGRAPH6 = "But, whether you’re in perimenopause or not, some things need immediate attention. Seek help if you notice pain, burning, or blood when you pee or after you have sex, or if your period lasts longer than a week or is very heavy."
+ en.SECTION4_HEADER = "Getting some relief"
+ en.SECTION4_MDPARAGRAPH1 = "**Start with your daily habits**  \nGetting regular exercise, especially heart-revving cardio, can help with everything from hot flashes to insomnia. Mix in strength training a couple times a week to preserve muscle mass and keep your metabolism humming."
+ en.SECTION4_MDPARAGRAPH2 = "**Look into hormone replacement therapy (HRT)**  \nHRT comes in several forms—including pills, patches, gels, and creams— and supplements your body’s declining estrogen and progesterone. It can help relieve hot flashes and mood swings, while also helping to protect your bones and brain as you age."
+
+```

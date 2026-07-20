@@ -1,0 +1,93 @@
+## ShortcutsActions
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 
+ (deny generic-issue-extension)
+ 
+-(deny iokit-issue-extension)
++(deny iokit-get-properties)
+ 
+-(deny iokit-open-user-client)
+-(allow iokit-open-user-client
++(deny iokit-open*)
++(allow iokit-open*
+ 	(require-any
+ 		(iokit-registry-entry-class "${ENTITLEMENT:com.apple.security.exception.iokit-user-client-class}")
+ 		(iokit-registry-entry-class "${ENTITLEMENT:com.apple.security.iokit-user-client-class}")
+
+ 	)
+ )
+ 
+-(deny iokit-open-service)
+-(allow iokit-open-service
++(deny iokit-open-user-client)
++(allow iokit-open-user-client
+ 	(require-any
+ 		(iokit-registry-entry-class "AGXAccelerator")
+ 		(iokit-registry-entry-class "AppleKeyStore")
+
+ 	)
+ )
+ 
++(deny iokit-open-service)
++
+ (deny iokit-set-properties)
+ 
+ (deny ipc*)
+ 
+-(deny ipc-posix-sem-open)
+-(allow ipc-posix-sem-open
++(deny ipc-posix-sem-create)
++(allow ipc-posix-sem-create
+ 	(ipc-posix-name "hangtelemetryd.onceatboot")
+ )
+ 
+-(deny ipc-posix-shm-read-data)
+-(allow ipc-posix-shm-read-data
++(deny ipc-posix-shm*)
++(allow ipc-posix-shm*
+ 	(require-any
+ 		(ipc-posix-name "apple.cfprefs.daemonv1")
+ 		(ipc-posix-name "apple.cfprefs.system.daemonv1")
+
+ 	)
+ )
+ 
+-(deny job-creation)
++(allow ipc-sysv-shm)
+ 
+-(deny mach-issue-extension)
++(deny isp-command-send)
+ 
+-(deny mach-lookup
++(deny mach-host-special-port-set)
++
++(deny mach-issue-extension
+ 	(require-all
+ 		(global-name "com.apple.dt.testmanagerd.uiprocess")
+ 		(require-not (global-name "com.apple.TextInput"))
+
+ 		(require-not (global-name "com.apple.PointerUI.pointeruid.service"))
+ 		(require-not (global-name "com.apple.usymptomsd"))
+ 		(require-not (global-name "com.apple.PowerManagement.control"))
++		(require-not (global-name "com.apple.lsd.advertisingidentifiers"))
+ 		(require-not (global-name "com.apple.SystemConfiguration.NetworkInformation"))
+ 		(require-not (global-name "com.apple.iphone.axserver-systemwide"))
+ 		(require-not (global-name "com.apple.hangtracermonitor"))
+
+ 	)
+ )
+ 
++(deny process-codesigning)
++
+ (deny process-exec*)
+ 
++(allow process-exec-interpreter)
++
+ (deny socket-ioctl)
+ 
+ (deny syscall-unix)
+```

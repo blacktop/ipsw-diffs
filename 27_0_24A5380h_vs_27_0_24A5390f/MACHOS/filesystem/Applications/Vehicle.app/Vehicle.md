@@ -1,0 +1,46 @@
+## Vehicle
+
+> `/Applications/Vehicle.app/Vehicle`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__cstring`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-337.2.0.0.0
+-  __TEXT.__text: 0x222dc
++340.0.0.0.0
++  __TEXT.__text: 0x222e4
+   __TEXT.__auth_stubs: 0x1d90
+   __TEXT.__objc_stubs: 0x12a0
+   __TEXT.__objc_methlist: 0xd60
+Symbols:
++ _$s5CAFUI23CAFUITileViewControllerC10carSession19prominentCategories9listItems16settingsSections0K5Cache12assetManager014requestContentO025preventVolumeNotification15sharedAudioLogoACSo10CARSessionC_SaySo19CAFSettingsCategoryVGSayAA17CAFUIDataListItemCGSayAA29CAFUIAutomakerSettingsSectionVGAA013CAFUISettingsM0VSg13CarAssetUtils015CAUAssetLibraryO0CAA012CAFUIRequestqO0CSgS2b9isVisible_So15UIBarButtonItemCSg4itemtSgtcfCTq
++ _$s5CAFUI23CAFUITileViewControllerC10carSession19prominentCategories9listItems16settingsSections0K5Cache12assetManager014requestContentO025preventVolumeNotification15sharedAudioLogoACSo10CARSessionC_SaySo19CAFSettingsCategoryVGSayAA17CAFUIDataListItemCGSayAA29CAFUIAutomakerSettingsSectionVGAA013CAFUISettingsM0VSg13CarAssetUtils015CAUAssetLibraryO0CAA012CAFUIRequestqO0CSgS2b9isVisible_So15UIBarButtonItemCSg4itemtSgtcfc
+- _$s5CAFUI23CAFUITileViewControllerC10carSession19prominentCategories9listItems16settingsSections0K5Cache12assetManager014requestContentO025preventVolumeNotification014rightBarButtonJ0ACSo10CARSessionC_SaySo19CAFSettingsCategoryVGSayAA17CAFUIDataListItemCGSayAA29CAFUIAutomakerSettingsSectionVGAA013CAFUISettingsM0VSg13CarAssetUtils015CAUAssetLibraryO0CAA012CAFUIRequestqO0CSgSbSaySo05UIBarW4ItemCGSgtcfCTq
+- _$s5CAFUI23CAFUITileViewControllerC10carSession19prominentCategories9listItems16settingsSections0K5Cache12assetManager014requestContentO025preventVolumeNotification014rightBarButtonJ0ACSo10CARSessionC_SaySo19CAFSettingsCategoryVGSayAA17CAFUIDataListItemCGSayAA29CAFUIAutomakerSettingsSectionVGAA013CAFUISettingsM0VSg13CarAssetUtils015CAUAssetLibraryO0CAA012CAFUIRequestqO0CSgSbSaySo05UIBarW4ItemCGSgtcfc
+Functions:
+~ sub_10001a134 : 3292 -> 3296
+~ sub_10001ed5c -> sub_10001ed60 : 1420 -> 1424
+CStrings:
++ "init(carSession:prominentCategories:listItems:settingsSections:settingsCache:assetManager:requestContentManager:preventVolumeNotification:sharedAudioLogo:)"
+- "init(carSession:prominentCategories:listItems:settingsSections:settingsCache:assetManager:requestContentManager:preventVolumeNotification:rightBarButtonItems:)"
+```

@@ -1,0 +1,112 @@
+## HeadphoneConfigs
+
+> `/System/Library/PrivateFrameworks/HeadphoneConfigs.framework/HeadphoneConfigs`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__objc_ivar`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-2700.15.0.0.0
+-  __TEXT.__text: 0xc92f0
+-  __TEXT.__objc_methlist: 0x4f98
++2700.16.0.0.0
++  __TEXT.__text: 0xc9614
++  __TEXT.__objc_methlist: 0x4fa8
+   __TEXT.__const: 0x2414
+-  __TEXT.__cstring: 0x9623
+-  __TEXT.__oslogstring: 0xa3ab
++  __TEXT.__cstring: 0x9643
++  __TEXT.__oslogstring: 0xa3db
+   __TEXT.__gcc_except_tab: 0x7ec
+   __TEXT.__dlopen_cstrs: 0x68
+   __TEXT.__constg_swiftt: 0x12b0
+
+   __TEXT.__swift5_proto: 0xe4
+   __TEXT.__swift5_protos: 0x8
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x2420
++  __TEXT.__unwind_info: 0x2428
+   __TEXT.__eh_frame: 0x3e8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x40
+   __DATA_CONST.__objc_protolist: 0xa8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3668
++  __DATA_CONST.__objc_selrefs: 0x3680
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0x160
+   __DATA_CONST.__objc_arraydata: 0x1d0
+   __DATA_CONST.__got: 0xba0
+   __AUTH_CONST.__const: 0x22a0
+-  __AUTH_CONST.__cfstring: 0x95a0
++  __AUTH_CONST.__cfstring: 0x95e0
+   __AUTH_CONST.__objc_const: 0xa7a8
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_arrayobj: 0xd8
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 4193
+-  Symbols:   4896
+-  CStrings:  2245
++  Functions: 4195
++  Symbols:   4900
++  CStrings:  2248
+ 
+Symbols:
++ -[BTSDeviceConfigController deviceAccessCompanionAppResolved:]
++ GCC_except_table131
++ GCC_except_table135
++ GCC_except_table165
++ GCC_except_table202
++ GCC_except_table203
++ GCC_except_table207
++ GCC_except_table208
++ GCC_except_table244
++ ___62-[BTSDeviceConfigController deviceAccessCompanionAppResolved:]_block_invoke
++ _objc_msgSend$containsString:
++ _objc_msgSend$insertContiguousSpecifiers:atIndex:animated:
+- GCC_except_table129
+- GCC_except_table133
+- GCC_except_table163
+- GCC_except_table200
+- GCC_except_table201
+- GCC_except_table205
+- GCC_except_table206
+- GCC_except_table242
+CStrings:
++ "ASAccessoryCompanionAppResolved"
++ "Headphone Configs: companion app resolved. %@"
++ "companionApp"
+```

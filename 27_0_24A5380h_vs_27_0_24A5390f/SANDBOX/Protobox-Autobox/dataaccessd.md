@@ -1,0 +1,75 @@
+## dataaccessd
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 
+ (deny generic-issue-extension)
+ 
+-(deny iokit-issue-extension)
++(deny iokit-get-properties)
+ 
+-(deny iokit-open-user-client)
+-(allow iokit-open-user-client
++(deny iokit-open*)
++(allow iokit-open*
+ 	(require-any
+ 		(iokit-registry-entry-class "${ENTITLEMENT:com.apple.security.exception.iokit-user-client-class}")
+ 		(iokit-registry-entry-class "${ENTITLEMENT:com.apple.security.iokit-user-client-class}")
+
+ 	)
+ )
+ 
+-(deny iokit-open-service)
+-(allow iokit-open-service
++(deny iokit-open-user-client)
++(allow iokit-open-user-client
+ 	(require-any
+ 		(iokit-registry-entry-class "AGXAccelerator")
+ 		(iokit-registry-entry-class "AppleJPEGDriver")
+
+ 	)
+ )
+ 
++(deny iokit-open-service)
++
+ (deny iokit-set-properties)
+ 
+ (deny ipc*)
+ 
+-(deny job-creation)
++(allow ipc-sysv-shm)
+ 
+-(deny mach-issue-extension)
++(deny isp-command-send)
+ 
+-(deny mach-lookup
++(deny mach-host-special-port-set)
++
++(deny mach-issue-extension
+ 	(require-all
+ 		(require-not (global-name "com.apple.biome.access.user"))
+ 		(require-not (global-name "com.apple.linkd.registry"))
+
+ 	)
+ )
+ 
++(deny process-codesigning)
++
+ (deny process-exec*)
+ 
++(allow process-exec-interpreter)
++
+ (deny socket-ioctl)
+ (allow socket-ioctl
+ 	(ioctl-command
+
+ 		SYS_clonefileat
+ 		SYS_openat
+ 		SYS_openat_nocancel
++		SYS_renameat
+ 		SYS_faccessat
+ 		SYS_fchmodat
+ 		SYS_fstatat
+```

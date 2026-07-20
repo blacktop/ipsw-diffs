@@ -1,0 +1,252 @@
+## SafariShared
+
+> `/System/Library/PrivateFrameworks/SafariShared.framework/SafariShared`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__weak_got`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__weak_auth_got`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-625.1.22.10.3
+-  __TEXT.__text: 0x29fe8c
+-  __TEXT.__objc_methlist: 0x15f34
+-  __TEXT.__const: 0x981f4
+-  __TEXT.__gcc_except_tab: 0x1ead0
+-  __TEXT.__cstring: 0x233b7
++625.1.24.10.1
++  __TEXT.__text: 0x2a6a40
++  __TEXT.__objc_methlist: 0x15f6c
++  __TEXT.__const: 0x9a814
++  __TEXT.__gcc_except_tab: 0x1ea40
++  __TEXT.__cstring: 0x23607
+   __TEXT.__ustring: 0xcec0
+-  __TEXT.__oslogstring: 0x154b2
++  __TEXT.__oslogstring: 0x15642
+   __TEXT.__dlopen_cstrs: 0x2b7
+-  __TEXT.__swift5_typeref: 0x3524
+-  __TEXT.__swift5_fieldmd: 0x164c
+-  __TEXT.__constg_swiftt: 0x2050
+-  __TEXT.__swift5_builtin: 0x12c
+-  __TEXT.__swift5_reflstr: 0x1458
++  __TEXT.__swift5_typeref: 0x3650
++  __TEXT.__swift5_fieldmd: 0x1700
++  __TEXT.__constg_swiftt: 0x2104
++  __TEXT.__swift5_builtin: 0x140
++  __TEXT.__swift5_reflstr: 0x14a8
+   __TEXT.__swift5_assocty: 0x450
+   __TEXT.__swift5_protos: 0x38
+-  __TEXT.__swift5_proto: 0x3e8
+-  __TEXT.__swift5_types: 0x18c
+-  __TEXT.__swift5_capture: 0xbfc
+-  __TEXT.__swift_as_entry: 0x17c
+-  __TEXT.__swift_as_ret: 0x164
+-  __TEXT.__swift_as_cont: 0x2e8
+-  __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__unwind_info: 0xed50
+-  __TEXT.__eh_frame: 0x5218
++  __TEXT.__swift5_proto: 0x400
++  __TEXT.__swift5_types: 0x198
++  __TEXT.__swift5_capture: 0xc30
++  __TEXT.__swift_as_entry: 0x180
++  __TEXT.__swift_as_ret: 0x168
++  __TEXT.__swift_as_cont: 0x2ec
++  __TEXT.__swift5_mpenum: 0x28
++  __TEXT.__unwind_info: 0xedd8
++  __TEXT.__eh_frame: 0x53d0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x16530
++  __DATA_CONST.__const: 0x16520
+   __DATA_CONST.__objc_classlist: 0xcb8
+   __DATA_CONST.__objc_catlist: 0x90
+   __DATA_CONST.__objc_protolist: 0x2c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc038
++  __DATA_CONST.__objc_selrefs: 0xc060
+   __DATA_CONST.__objc_protorefs: 0xc0
+   __DATA_CONST.__objc_superrefs: 0x958
+   __DATA_CONST.__objc_arraydata: 0xb00
+-  __DATA_CONST.__got: 0x1fa8
+-  __AUTH_CONST.__const: 0xa640
+-  __AUTH_CONST.__cfstring: 0x1afe0
+-  __AUTH_CONST.__objc_const: 0x28470
++  __DATA_CONST.__got: 0x2000
++  __AUTH_CONST.__const: 0xa860
++  __AUTH_CONST.__cfstring: 0x1b0a0
++  __AUTH_CONST.__objc_const: 0x284a8
+   __AUTH_CONST.__weak_auth_got: 0x28
+   __AUTH_CONST.__objc_intobj: 0x750
+   __AUTH_CONST.__objc_arrayobj: 0x360
+   __AUTH_CONST.__objc_dictobj: 0x140
+   __AUTH_CONST.__objc_doubleobj: 0xa0
+-  __AUTH_CONST.__auth_got: 0x2b38
++  __AUTH_CONST.__auth_got: 0x2bc8
+   __AUTH.__objc_data: 0x7c88
+   __AUTH.__data: 0x17c0
+-  __DATA.__objc_ivar: 0x191c
+-  __DATA.__data: 0x5598
+-  __DATA.__bss: 0x7740
++  __DATA.__objc_ivar: 0x1920
++  __DATA.__data: 0x5708
++  __DATA.__bss: 0x7a30
+   __DATA.__common: 0xa0
+   __DATA_DIRTY.__objc_data: 0x320
+   __DATA_DIRTY.__bss: 0x9
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 14472
+-  Symbols:   23701
+-  CStrings:  6103
++  Functions: 14553
++  Symbols:   23730
++  CStrings:  6125
+ 
+Symbols:
++ -[NSExtension(SafariSharedExtras) safari_sourceDisplayName]
++ -[WBSFormControlMetadata looksLikeIMEI1Field]
++ -[WBSFormControlMetadata looksLikeIMEI2Field]
++ -[WBSFormControlMetadata looksLikeNALField]
++ -[WBSPageContext setPageLanguage:]
++ -[WBSParsecDFeedbackDispatcher postFeedbackForSearchEngineChoiceForQueryID:endpoint:]
++ _OBJC_CLASS_$_SFEndNetworkSearchFeedback
++ _OBJC_IVAR_$_WBSHistoryItem._lastVisitLock
++ _WBSDeviceIMEI1ClassificationToken
++ _WBSDeviceIMEI2ClassificationToken
++ _WBSDeviceNALClassificationToken
++ __ZN12SafariSharedL23jsReportSummaryFeedbackEPK15OpaqueJSContextP13OpaqueJSValueS4_mPKPKS3_PS6_
++ ___block_descriptor_48_ea8_32s40r_e42_"WBSHistoryVisit"16?0"WBSHistoryVisit"8ls32l8r40l8
++ ___swift_closure_destructor.321Tm
++ ___swift_closure_destructor.57Tm
++ ___swift_memcpy40_8
++ ___swift_memcpy48_8
++ ___unnamed_39
++ ___unnamed_61
++ _associated conformance 12SafariShared18WBSAgentControllerC21ImageMetricsRedaction33_BB0CD2D0C8036A089F40018934D354B9LLV10CodingKeysOyx__GSHAASQ
++ _associated conformance 12SafariShared18WBSAgentControllerC21ImageMetricsRedaction33_BB0CD2D0C8036A089F40018934D354B9LLV10CodingKeysOyx__Gs0P3KeyAAs23CustomStringConvertible
++ _associated conformance 12SafariShared18WBSAgentControllerC21ImageMetricsRedaction33_BB0CD2D0C8036A089F40018934D354B9LLV10CodingKeysOyx__Gs0P3KeyAAs28CustomDebugStringConvertible
++ _get_enum_tag_for_layout_string 12SafariShared13WBSAgentToolsO16ForbiddenPatternO
++ _get_witness_table 12SafariShared23WBSBookmarksClusterItemRzl7SwiftUI16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAEyAjC15NavigationStackVyAC0N4PathVAC0I0PACE7toolbar7contentQrqd__yXE_tAC14ToolbarContentRd__lFQOyApCE29navigationBarTitleDisplayModeyQrAC0nvE0V0wxY0OFQOyApCE0uW0yQrAC18LocalizedStringKeyVFQOyApCE9formStyleyQrqd__AC9FormStyleRd__lFQOyAC4FormVyAC05TupleT0VyAC7SectionVyAC05EmptyI0VAC08ModifiedT0VyApCEA0_yQrqd__ACA1_Rd__lFQOyA11_yA3_yA5_yAC07LabeledT0VyAC4TextVAC012_ConditionalT0VyA15_A15_GG_A13_yA15_A15_GA20_A20_A20_A20_A20_QPGGAC30_EnvironmentKeyWritingModifierVyAC4FontVSgGG_AC16ColumnsFormStyleVQo_AC16_FlexFrameLayoutVGA9_G_A7_yA15_ApCE13listRowInsetsyQrAC4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyA11_yA11_yApCE20listSectionSeparator_5edgesQrAC10VisibilityO_AC12VerticalEdgeOA40_VtFQOyApCE9listStyleyQrqd__AC9ListStyleRd__lFQOyAC4ListVys5NeverOAC7ForEachVys18EnumeratedSequenceVySayxGGSSA11_yA11_yApCE11contextMenu9menuItemsQrqd__yXE_tAcORd__lFQOyAC6VStackVyA5_yAC6HStackVyA5_yA11_yA11_yAC6ZStackVyA5_yA11_yA15_AC15_HiddenModifierVG_A15_QPGGAC24_ForegroundStyleModifierVyAC22HierarchicalShapeStyleVGGAC21_TraitWritingModifierVyAC22LayoutPriorityTraitKeyVGGSg_A17_yA11_yA11_yA11_yA15_AC25_AlignmentWritingModifierVGA92_GA24_ySiSgGGA11_yA15_A96_GGAC6SpacerVA11_yA11_yAA5Badge33_6B35E660B29A4C294379B63C6CCC60D6LLVA88_GA79_yAC15BackgroundStyleVGGSgQPGG_A93_SgQPGG_AC4MenuVyAC5LabelVyA15_AC5ImageVGA5_yAC6ButtonVyA122_G_AC9ShareLinkVys15CollectionOfOneVySSGA58_A58_A122_GQPGGSgQo_AC14_PaddingLayoutVGA85_yAC25ListRowBackgroundTraitKeyVGGGG_AC14PlainListStyleVQo__Qo_A92_GAC12_FrameLayoutVG_Qo_A9_GA7_yA15_A56_yA58_AC12OutlineGroupVySayAA0cD7ManagerC14InspectorStateV07OutlineE0A103_LLOyx__GGs11AnyHashableVA17_yA68_yA5_yA15__A15_QPGGA135_GA169_AC15DisclosureGroupVyA169_AC23OutlineSubgroupChildrenVGGGA9_GQPGG_AC16GroupedFormStyleVQo__Qo__Qo__AC05TuplesT0VyAC0sE0VyytA124_yA121_GG_A188_yytA124_yA5_yA11_yA121_AC29_DiscreteSymbolEffectModifierVySbGG_A15_QPGGGAC0S6SpacerVA188_yytA117_yA121_A125_GGtGQo_GGGAcOHPyHC
++ _objc_msgSend$initWithStartSearch:responseSize:statusCode:networkTimingData:
++ _objc_msgSend$safari_localizedContainingAppDisplayName
++ _swift_unexpectedError
++ _symbolic SDySSSay_____GG 10SafariCore23WBSAnySendableEncodableV
++ _symbolic SDySS_____G 10SafariCore23WBSAnySendableEncodableV
++ _symbolic SS_Say_____Gt 10SafariCore23WBSAnySendableEncodableV
++ _symbolic SS______t 10SafariCore23WBSAnySendableEncodableV
++ _symbolic SaySo11NSExtensionCG5added_AC7updatedAC7deletedtSg
++ _symbolic SaySo11NSExtensionCG5added_AC7updatedAC7deletedtSgIeAgHr_
++ _symbolic So32WBSUsageRetentionDonationManagerCXDXMT
++ _symbolic _____ 12SafariShared13WBSAgentToolsO16ForbiddenPatternO
++ _symbolic _____ 12SafariShared18WBSAgentControllerC21ImageMetricsRedaction33_BB0CD2D0C8036A089F40018934D354B9LLV
++ _symbolic _____ 12SafariShared18WBSAgentControllerC21ImageMetricsRedaction33_BB0CD2D0C8036A089F40018934D354B9LLV10CodingKeysO
++ _symbolic _____ 25UnilogSafariSearchLibrary0C9EventNameO
++ _symbolic _____Sg 12SafariShared23WBSAgentControllerModelO
++ _symbolic _____ySDySSypGG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 10SafariCore23WBSAnySendableEncodableV
++ _symbolic _____ySS_Say_____GtG s23_ContiguousArrayStorageC 10SafariCore23WBSAnySendableEncodableV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 10SafariCore23WBSAnySendableEncodableV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 10SafariCore23WBSAnySendableEncodableV
++ _symbolic _____y_____AAyAB_____y__________y_____y_____y_____y_____y_____y_____y__________y_____yAIyAEyAFy_____y__________yA2KGG_AJyA2KGA5OQPGG_____y_____SgGG______Qo______GAHG_AGyAK_____yAIyAIy_____y_____y_____y__________y_____ySayxGGSSAIyAIy_____y_____yAFy_____yAFyAIyAIy_____yAFyAIyAK_____G_AKQPGG_____y_____GG_____y_____GGSg_ALyAIyAIyAIyAK_____GA22_GARySiSgGGAIyAKA26_GG_____AIyAIy_____A19_GA13_y_____GGSgQPGG_A23_SgQPGG______y_____yAK_____GAFy_____yA45_G______y_____ySSGA1_A1_A45_GQPGGSgQo______GA17_y_____GGGG______Qo__Qo_A22_G_____G_Qo_AHGAGyAKA0_yA1______ySay_____yx__GG_____ALyA6_yAFyAK_AKQPGGA55_GA78______yA78______GGGAHGQPGG______Qo__Qo__Qo_______y_____yytA46_yA44_GG_A92_yytA46_yAFyAIyA44______ySbGG_AKQPGGG_____A92_yytA42_yA44_A47_GGtGQo_GGG 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15NavigationStackV AA0I4PathV AA0D0PAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AnAE29navigationBarTitleDisplayModeyQrAA0iQ4ItemV0rsT0OFQO AnAE0pR0yQrAA18LocalizedStringKeyVFQO AnAE9formStyleyQrqd__AA04FormZ0Rd__lFQO AA4FormV AA05TupleO0V AA7SectionV AA05EmptyD0V AA08ModifiedO0V AnAEAZyQrqd__AAA_Rd__lFQO AA07LabeledO0V AA4TextV AA012_ConditionalO0V AA012_EnvironmentX15WritingModifierV AA4FontV AA011ColumnsFormZ0V AA16_FlexFrameLayoutV AnAE13listRowInsetsyQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQO AnAE20listSectionSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeOA27_VtFQO AnAE04listZ0yQrqd__AA04ListZ0Rd__lFQO AA4ListV s5NeverO AA7ForEachV s18EnumeratedSequenceV AnAE11contextMenu9menuItemsQrqd__yXE_tAaMRd__lFQO AA6VStackV AA6HStackV AA6ZStackV AA15_HiddenModifierV AA011_ForegroundZ8ModifierV AA017HierarchicalShapeZ0V AA21_TraitWritingModifierV AA019LayoutPriorityTraitX0V AA25_AlignmentWritingModifierV AA6SpacerV 12SafariShared5Badge33_6B35E660B29A4C294379B63C6CCC60D6LLV AA010BackgroundZ0V AA4MenuV AA5LabelV AA5ImageV AA6ButtonV AA9ShareLinkV s15CollectionOfOneV AA14_PaddingLayoutV AA022ListRowBackgroundTraitX0V AA09PlainListZ0V AA12_FrameLayoutV AA12OutlineGroupV A72_26WBSBookmarksClusterManagerC14InspectorStateV07OutlineU0A74_LLO s11AnyHashableV AA15DisclosureGroupV AA23OutlineSubgroupChildrenV AA011GroupedFormZ0V AA05TuplenO0V AA0nU0V AA29_DiscreteSymbolEffectModifierV AA0N6SpacerV
++ _symbolic _____y_____G s11_SetStorageC s7UnicodeO15GeneralCategoryO
++ _symbolic _____y_____G s11_SetStorageC s7UnicodeO6ScalarV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s7UnicodeO15GeneralCategoryO
++ _symbolic _____y__________yA2BGG_AAyA2BGA5Ft 7SwiftUI14LabeledContentV AA4TextV AA012_ConditionalD0V
++ _symbolic _____y__________y_____yACy_____y_____y_____y__________yA2GGG_AFyA2GGA5KQPGG_____y_____SgGG______Qo______GABG 7SwiftUI7SectionV AA9EmptyViewV AA15ModifiedContentV AA0E0PAAE9formStyleyQrqd__AA04FormI0Rd__lFQO AA0J0V AA05TupleG0V AA07LabeledG0V AA4TextV AA012_ConditionalG0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA07ColumnsjI0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____yAAy_____y_____y_____y__________yA2EGG_ADyA2EGA5IQPGG_____y_____SgGG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE9formStyleyQrqd__AA04FormG0Rd__lFQO AA0H0V AA05TupleD0V AA07LabeledD0V AA4TextV AA012_ConditionalD0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA07ColumnshG0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y__________yA2CGG_AByA2CGA5GQPG 7SwiftUI12TupleContentV AA07LabeledD0V AA4TextV AA012_ConditionalD0V
++ _symbolic _____y_____y_____y__________yA2DGG_ACyA2DGA5HQPGG 7SwiftUI4FormV AA12TupleContentV AA07LabeledE0V AA4TextV AA012_ConditionalE0V
++ _symbolic _____y_____y_____y_____y__________yA2EGG_ADyA2EGA5IQPGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA4FormV AA05TupleD0V AA07LabeledD0V AA4TextV AA012_ConditionalD0V AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____y_____y_____y_____y__________yA2EGG_ADyA2EGA5IQPGG_____y_____SgGG______Qo_ 7SwiftUI4ViewPAAE9formStyleyQrqd__AA04FormE0Rd__lFQO AA15ModifiedContentV AA0F0V AA05TupleH0V AA07LabeledH0V AA4TextV AA012_ConditionalH0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA07ColumnsfE0V
++ _type_layout_string 12SafariShared13WBSAgentToolsO16ForbiddenPatternO
++ _type_layout_string 29GenerativeFunctionsFoundation9GenerableRzl12SafariShared18WBSAgentControllerC21ImageMetricsRedaction33_BB0CD2D0C8036A089F40018934D354B9LLVyx_G
+- -[WBSFormMetadataController formSubmissionURLStringForSearchTextField:inFrame:useStrictDetection:]
+- -[WBSFormMetadataController visibleNonEmptyTextFieldsInForm:inFrame:]
+- __ZL28WBSHistoryItemLastVisitQueue
+- ___27-[WBSHistoryItem lastVisit]_block_invoke
+- ___34-[WBSHistoryItem updateLastVisit:]_block_invoke
+- ___68-[WBSStartPageSectionManager setSectionsIdentifiers:enabledIndexes:]_block_invoke_2
+- ___68-[WBSStartPageSectionManager setSectionsIdentifiers:enabledIndexes:]_block_invoke_3
+- ___block_descriptor_33_e49_"NSString"16?0"WBSStartPageSectionDescriptor"8l
+- ___block_descriptor_64_ea8_32s40s48r56r_e5_v8?0lr48l8s32l8r56l8s40l8
+- ___swift_closure_destructor.311Tm
+- ___swift_closure_destructor.55Tm
+- ___swift_memcpy64_8
+- ___unnamed_35
+- _get_witness_table 12SafariShared23WBSBookmarksClusterItemRzl7SwiftUI16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAEyAjC15NavigationStackVyAC0N4PathVAC0I0PACE7toolbar7contentQrqd__yXE_tAC14ToolbarContentRd__lFQOyApCE29navigationBarTitleDisplayModeyQrAC0nvE0V0wxY0OFQOyApCE0uW0yQrAC18LocalizedStringKeyVFQOyApCE9formStyleyQrqd__AC9FormStyleRd__lFQOyAC4FormVyAC05TupleT0VyAC7SectionVyAC05EmptyI0VAC08ModifiedT0VyApCEA0_yQrqd__ACA1_Rd__lFQOyA11_yA3_yA5_yAC07LabeledT0VyAC4TextVAC012_ConditionalT0VyA15_A15_GG_A13_yA15_A15_GA20_A20_A20_QPGGAC30_EnvironmentKeyWritingModifierVyAC4FontVSgGG_AC16ColumnsFormStyleVQo_AC16_FlexFrameLayoutVGA9_G_A7_yA15_ApCE13listRowInsetsyQrAC4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyA11_yA11_yApCE20listSectionSeparator_5edgesQrAC10VisibilityO_AC12VerticalEdgeOA40_VtFQOyApCE9listStyleyQrqd__AC9ListStyleRd__lFQOyAC4ListVys5NeverOAC7ForEachVys18EnumeratedSequenceVySayxGGSSA11_yA11_yApCE11contextMenu9menuItemsQrqd__yXE_tAcORd__lFQOyAC6VStackVyA5_yAC6HStackVyA5_yA11_yA11_yAC6ZStackVyA5_yA11_yA15_AC15_HiddenModifierVG_A15_QPGGAC24_ForegroundStyleModifierVyAC22HierarchicalShapeStyleVGGAC21_TraitWritingModifierVyAC22LayoutPriorityTraitKeyVGGSg_A17_yA11_yA11_yA11_yA15_AC25_AlignmentWritingModifierVGA92_GA24_ySiSgGGA11_yA15_A96_GGAC6SpacerVA11_yA11_yAA5Badge33_6B35E660B29A4C294379B63C6CCC60D6LLVA88_GA79_yAC15BackgroundStyleVGGSgQPGG_A93_SgQPGG_AC4MenuVyAC5LabelVyA15_AC5ImageVGA5_yAC6ButtonVyA122_G_AC9ShareLinkVys15CollectionOfOneVySSGA58_A58_A122_GQPGGSgQo_AC14_PaddingLayoutVGA85_yAC25ListRowBackgroundTraitKeyVGGGG_AC14PlainListStyleVQo__Qo_A92_GAC12_FrameLayoutVG_Qo_A9_GA7_yA15_A56_yA58_AC12OutlineGroupVySayAA0cD7ManagerC14InspectorStateV07OutlineE0A103_LLOyx__GGs11AnyHashableVA17_yA68_yA5_yA15__A15_QPGGA135_GA169_AC15DisclosureGroupVyA169_AC23OutlineSubgroupChildrenVGGGA9_GQPGG_AC16GroupedFormStyleVQo__Qo__Qo__AC05TuplesT0VyAC0sE0VyytA124_yA121_GG_A188_yytA124_yA5_yA11_yA121_AC29_DiscreteSymbolEffectModifierVySbGG_A15_QPGGGAC0S6SpacerVA188_yytA117_yA121_A125_GGtGQo_GGGAcOHPyHC
+- _symbolic SDySSSay_____GG 9PromptKit0A0V9ComponentV5ValueO
+- _symbolic SS_Say_____Gt 9PromptKit0A0V9ComponentV5ValueO
+- _symbolic Say_____G 9PromptKit0A0V9ComponentV5ValueO
+- _symbolic _____ySSSay_____GG s18_DictionaryStorageC 9PromptKit0C0V9ComponentV5ValueO
+- _symbolic _____ySS_Say_____GtG s23_ContiguousArrayStorageC 9PromptKit0D0V9ComponentV5ValueO
+- _symbolic _____y_____AAyAB_____y__________y_____y_____y_____y_____y_____y_____y__________y_____yAIyAEyAFy_____y__________yA2KGG_AJyA2KGA3OQPGG_____y_____SgGG______Qo______GAHG_AGyAK_____yAIyAIy_____y_____y_____y__________y_____ySayxGGSSAIyAIy_____y_____yAFy_____yAFyAIyAIy_____yAFyAIyAK_____G_AKQPGG_____y_____GG_____y_____GGSg_ALyAIyAIyAIyAK_____GA22_GARySiSgGGAIyAKA26_GG_____AIyAIy_____A19_GA13_y_____GGSgQPGG_A23_SgQPGG______y_____yAK_____GAFy_____yA45_G______y_____ySSGA1_A1_A45_GQPGGSgQo______GA17_y_____GGGG______Qo__Qo_A22_G_____G_Qo_AHGAGyAKA0_yA1______ySay_____yx__GG_____ALyA6_yAFyAK_AKQPGGA55_GA78______yA78______GGGAHGQPGG______Qo__Qo__Qo_______y_____yytA46_yA44_GG_A92_yytA46_yAFyAIyA44______ySbGG_AKQPGGG_____A92_yytA42_yA44_A47_GGtGQo_GGG 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15NavigationStackV AA0I4PathV AA0D0PAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AnAE29navigationBarTitleDisplayModeyQrAA0iQ4ItemV0rsT0OFQO AnAE0pR0yQrAA18LocalizedStringKeyVFQO AnAE9formStyleyQrqd__AA04FormZ0Rd__lFQO AA4FormV AA05TupleO0V AA7SectionV AA05EmptyD0V AA08ModifiedO0V AnAEAZyQrqd__AAA_Rd__lFQO AA07LabeledO0V AA4TextV AA012_ConditionalO0V AA012_EnvironmentX15WritingModifierV AA4FontV AA011ColumnsFormZ0V AA16_FlexFrameLayoutV AnAE13listRowInsetsyQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQO AnAE20listSectionSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeOA27_VtFQO AnAE04listZ0yQrqd__AA04ListZ0Rd__lFQO AA4ListV s5NeverO AA7ForEachV s18EnumeratedSequenceV AnAE11contextMenu9menuItemsQrqd__yXE_tAaMRd__lFQO AA6VStackV AA6HStackV AA6ZStackV AA15_HiddenModifierV AA011_ForegroundZ8ModifierV AA017HierarchicalShapeZ0V AA21_TraitWritingModifierV AA019LayoutPriorityTraitX0V AA25_AlignmentWritingModifierV AA6SpacerV 12SafariShared5Badge33_6B35E660B29A4C294379B63C6CCC60D6LLV AA010BackgroundZ0V AA4MenuV AA5LabelV AA5ImageV AA6ButtonV AA9ShareLinkV s15CollectionOfOneV AA14_PaddingLayoutV AA022ListRowBackgroundTraitX0V AA09PlainListZ0V AA12_FrameLayoutV AA12OutlineGroupV A72_26WBSBookmarksClusterManagerC14InspectorStateV07OutlineU0A74_LLO s11AnyHashableV AA15DisclosureGroupV AA23OutlineSubgroupChildrenV AA011GroupedFormZ0V AA05TuplenO0V AA0nU0V AA29_DiscreteSymbolEffectModifierV AA0N6SpacerV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 9PromptKit0D0V9ComponentV5ValueO
+- _symbolic _____y__________yA2BGG_AAyA2BGA3Ft 7SwiftUI14LabeledContentV AA4TextV AA012_ConditionalD0V
+- _symbolic _____y__________y_____yACy_____y_____y_____y__________yA2GGG_AFyA2GGA3KQPGG_____y_____SgGG______Qo______GABG 7SwiftUI7SectionV AA9EmptyViewV AA15ModifiedContentV AA0E0PAAE9formStyleyQrqd__AA04FormI0Rd__lFQO AA0J0V AA05TupleG0V AA07LabeledG0V AA4TextV AA012_ConditionalG0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA07ColumnsjI0V AA16_FlexFrameLayoutV
+- _symbolic _____y_____yAAy_____y_____y_____y__________yA2EGG_ADyA2EGA3IQPGG_____y_____SgGG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE9formStyleyQrqd__AA04FormG0Rd__lFQO AA0H0V AA05TupleD0V AA07LabeledD0V AA4TextV AA012_ConditionalD0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA07ColumnshG0V AA16_FlexFrameLayoutV
+- _symbolic _____y_____y__________yA2CGG_AByA2CGA3GQPG 7SwiftUI12TupleContentV AA07LabeledD0V AA4TextV AA012_ConditionalD0V
+- _symbolic _____y_____y_____y__________yA2DGG_ACyA2DGA3HQPGG 7SwiftUI4FormV AA12TupleContentV AA07LabeledE0V AA4TextV AA012_ConditionalE0V
+- _symbolic _____y_____y_____y_____y__________yA2EGG_ADyA2EGA3IQPGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA4FormV AA05TupleD0V AA07LabeledD0V AA4TextV AA012_ConditionalD0V AA30_EnvironmentKeyWritingModifierV AA4FontV
+- _symbolic _____y_____y_____y_____y_____y__________yA2EGG_ADyA2EGA3IQPGG_____y_____SgGG______Qo_ 7SwiftUI4ViewPAAE9formStyleyQrqd__AA04FormE0Rd__lFQO AA15ModifiedContentV AA0F0V AA05TupleH0V AA07LabeledH0V AA4TextV AA012_ConditionalH0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA07ColumnsfE0V
+CStrings:
++ "(?:\\??\\.[\\w$]+|(?<=[\\w$)\\].])\\[[^\\]]*\\])\\s*(?:(?:\\+|-|\\*\\*|\\*|\\/|%|\\^|<<|>>>|>>|\\|\\||&&|\\?\\?|\\||&)?=[^=]|\\+\\+|--)"
++ "(?:\\s*\\?\\.)?\\s*\\("
++ "8625.1.24.10.1"
++ "ControlLooksLikeIMEI1Field"
++ "ControlLooksLikeIMEI2Field"
++ "ControlLooksLikeNALField"
++ "Requested model %s is being overridden by %s."
++ "SafariShared/WBSAgentTools.swift"
++ "Sending search engine suggestions search end feedback to parsecd: %p (paired with search start feedback: %p)"
++ "Sending search engine suggestions search end feedback to parsecd: %{private}@ (paired with search start feedback: %{private}@)"
++ "Skipping app-foreground donation: last donation was %{public}s ago, which is within the %{public}ld-minute throttle window."
++ "\\\\u[0-9a-fA-F]{4}"
++ "\\\\u\\{[0-9a-fA-F]{1,6}\\}"
++ "cachedTokenCount"
++ "com.apple.Safari.UsageRetentionDonation"
++ "completionTokenCount"
++ "device-imei1"
++ "device-imei2"
++ "device-nal"
++ "fetch failed (permanent)"
++ "internal"
++ "less than a minute"
++ "no summary (pending retry)"
++ "permanent failures:"
++ "promptTokenCount"
++ "property assignment"
++ "reportSummaryFeedback"
++ "summaryFeedbackButtonMode"
++ "thoughtTokenCount"
++ "|\\s*(?:\\?\\.)?\\s*\\["
+- "8625.1.22.10.3"
+- "com.apple.Safari.web-extension"
+- "com.apple.SafariShared.WBSHistoryItem.LastVisit"
+- "completionTokensCount"
+- "promptTokensCount"
+- "search engine"
+- "searchTextFieldFormSubmissionURLString"
+- "visibleNonEmptyFormTextControlsInForm"
+```

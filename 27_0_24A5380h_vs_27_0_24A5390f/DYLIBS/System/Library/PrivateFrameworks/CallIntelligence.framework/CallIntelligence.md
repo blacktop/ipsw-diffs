@@ -1,0 +1,1257 @@
+## CallIntelligence
+
+> `/System/Library/PrivateFrameworks/CallIntelligence.framework/CallIntelligence`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_catlist`
+
+```diff
+
+-145.100.7.2.1
+-  __TEXT.__text: 0xe2944
+-  __TEXT.__objc_methlist: 0xef0
+-  __TEXT.__const: 0xe6d0
+-  __TEXT.__constg_swiftt: 0x2f8c
+-  __TEXT.__swift5_typeref: 0x3ae3
+-  __TEXT.__swift5_builtin: 0x118
+-  __TEXT.__swift5_reflstr: 0x2c18
+-  __TEXT.__swift5_fieldmd: 0x35d0
+-  __TEXT.__swift5_assocty: 0x5d0
+-  __TEXT.__swift5_proto: 0xb7c
+-  __TEXT.__swift5_types: 0x404
+-  __TEXT.__cstring: 0x2691
+-  __TEXT.__swift_as_entry: 0x2a8
+-  __TEXT.__swift_as_ret: 0x288
+-  __TEXT.__swift_as_cont: 0x4c4
+-  __TEXT.__swift5_mpenum: 0x38
+-  __TEXT.__oslogstring: 0x38f3
+-  __TEXT.__swift5_capture: 0xb94
+-  __TEXT.__swift5_protos: 0x4c
+-  __TEXT.__unwind_info: 0x39e0
+-  __TEXT.__eh_frame: 0x80d0
++147.100.5.2.1
++  __TEXT.__text: 0x77af4
++  __TEXT.__objc_methlist: 0xbd4
++  __TEXT.__const: 0xaa78
++  __TEXT.__constg_swiftt: 0x1a2c
++  __TEXT.__swift5_typeref: 0x2426
++  __TEXT.__swift5_builtin: 0x64
++  __TEXT.__swift5_reflstr: 0x1787
++  __TEXT.__swift5_fieldmd: 0x22e8
++  __TEXT.__swift5_types: 0x2b8
++  __TEXT.__cstring: 0xb11
++  __TEXT.__swift5_assocty: 0x510
++  __TEXT.__swift5_proto: 0x9c0
++  __TEXT.__swift_as_entry: 0xdc
++  __TEXT.__swift_as_ret: 0xbc
++  __TEXT.__swift_as_cont: 0x1b4
++  __TEXT.__swift5_mpenum: 0x20
++  __TEXT.__oslogstring: 0xd80
++  __TEXT.__swift5_capture: 0x4cc
++  __TEXT.__swift5_protos: 0x20
++  __TEXT.__unwind_info: 0x22e0
++  __TEXT.__eh_frame: 0x3a94
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x120
+-  __DATA_CONST.__objc_classlist: 0x128
++  __DATA_CONST.__objc_classlist: 0x48
+   __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x70
++  __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xeb0
+-  __DATA_CONST.__objc_protorefs: 0x38
+-  __DATA_CONST.__got: 0xa60
+-  __AUTH_CONST.__const: 0x7eb0
+-  __AUTH_CONST.__objc_const: 0x82f0
+-  __AUTH_CONST.__auth_got: 0x13b8
+-  __AUTH.__objc_data: 0x90
+-  __AUTH.__data: 0x6b0
+-  __DATA.__data: 0x22b0
+-  __DATA.__bss: 0x13550
+-  __DATA.__common: 0x68
+-  __DATA_DIRTY.__objc_data: 0x580
+-  __DATA_DIRTY.__data: 0x34e0
+-  __DATA_DIRTY.__bss: 0x3000
+-  __DATA_DIRTY.__common: 0x188
++  __DATA_CONST.__objc_selrefs: 0xad8
++  __DATA_CONST.__objc_protorefs: 0x18
++  __DATA_CONST.__got: 0x0
++  __AUTH_CONST.__const: 0x5198
++  __AUTH_CONST.__objc_const: 0x4c18
++  __AUTH_CONST.__auth_got: 0xbc0
++  __AUTH.__objc_data: 0x48
++  __AUTH.__data: 0x380
++  __DATA.__data: 0x1758
++  __DATA.__bss: 0x10380
++  __DATA.__common: 0x28
++  __DATA_DIRTY.__objc_data: 0x170
++  __DATA_DIRTY.__data: 0x16e0
++  __DATA_DIRTY.__bss: 0x2f80
++  __DATA_DIRTY.__common: 0x80
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreML.framework/CoreML
+   - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+   - /System/Library/Frameworks/FinanceKit.framework/FinanceKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/FoundationModels.framework/FoundationModels
+   - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
+   - /System/Library/Frameworks/Speech.framework/Speech
+-  - /System/Library/Frameworks/SwiftData.framework/SwiftData
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+-  - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+-  - /System/Library/PrivateFrameworks/AVConference.framework/AVConference
+-  - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+   - /System/Library/PrivateFrameworks/CallsUtilities.framework/CallsUtilities
+   - /System/Library/PrivateFrameworks/CallsXPC.framework/CallsXPC
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers
+   - /System/Library/PrivateFrameworks/FTServices.framework/FTServices
+-  - /System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/FaceTimeMessageStore
+-  - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+   - /System/Library/PrivateFrameworks/IMSharedUtilities.framework/IMSharedUtilities
+-  - /System/Library/PrivateFrameworks/MediaExperience.framework/MediaExperience
+-  - /System/Library/PrivateFrameworks/ModelCatalog.framework/ModelCatalog
+-  - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+-  - /System/Library/PrivateFrameworks/SiriTTSService.framework/SiriTTSService
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+-  - /System/Library/PrivateFrameworks/TextUnderstanding.framework/TextUnderstanding
+-  - /System/Library/PrivateFrameworks/Trial.framework/Trial
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+-  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 4502
+-  Symbols:   2228
+-  CStrings:  483
++  Functions: 3024
++  Symbols:   1494
++  CStrings:  150
+ 
+Symbols:
++ ___swift_memcpy34_8
++ _associated conformance 16CallIntelligence0A11ContextCardV4ItemO4KindOSHAASQ
++ _associated conformance 16CallIntelligence0A12ContextFlagsVs10SetAlgebraAASQ
++ _associated conformance 16CallIntelligence0A12ContextFlagsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 16CallIntelligence0A12ContextFlagsVs9OptionSetAASY
++ _associated conformance 16CallIntelligence0A12ContextFlagsVs9OptionSetAAs0F7Algebra
++ _objc_retain_x28
++ _symbolic $ss10SetAlgebraP
++ _symbolic $ss25ExpressibleByArrayLiteralP
++ _symbolic $ss9OptionSetP
++ _symbolic _____ 16CallIntelligence0A11ContextCardV4ItemO4KindO
++ _symbolic _____ 16CallIntelligence0A12ContextFlagsV
++ _symbolic _____y_____G s11_SetStorageC 16CallIntelligence0C11ContextCardV4ItemO4KindO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16CallIntelligence0D11ContextCardV4ItemO4KindO
++ _type_layout_string 16CallIntelligence0A12ContextFlagsV
+- _AVSystemController_CallIsActiveDidChangeNotification
+- _AVSystemController_SubscribeToNotificationsAttribute
+- _NSProcessInfoPowerStateDidChangeNotification
+- _NSTemporaryDirectory
+- _OBJC_CLASS_$_AFPreferences
+- _OBJC_CLASS_$_AVCAnsweringMachine
+- _OBJC_CLASS_$_AVCAnsweringMachineConfiguration
+- _OBJC_CLASS_$_AVCCaptionsClient
+- _OBJC_CLASS_$_AVCCaptionsConfig
+- _OBJC_CLASS_$_AVCMediaAnalyzer
+- _OBJC_CLASS_$_AVCMediaAnalyzerResult
+- _OBJC_CLASS_$_AVSystemController
+- _OBJC_CLASS_$_MLFeatureValue
+- _OBJC_CLASS_$_NLModel
+- _OBJC_CLASS_$_NSBundle
+- _OBJC_CLASS_$_NSDateFormatter
+- _OBJC_CLASS_$_NSFileHandle
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSNotificationCenter
+- _OBJC_CLASS_$_NSOperationQueue
+- _OBJC_CLASS_$_NSProcessInfo
+- _OBJC_CLASS_$_SFEntitledAssetConfig
+- _OBJC_CLASS_$_TRIClient
+- _OBJC_CLASS_$_TUCall
+- _OBJC_CLASS_$_TUCallCenter
+- _OBJC_CLASS_$_TUSmartHoldingSession
+- _OBJC_CLASS_$_TUSmartHoldingSessionUpdateRequest
+- _OBJC_CLASS_$_UNMutableNotificationContent
+- _OBJC_CLASS_$_UNNotificationRequest
+- _OBJC_CLASS_$_UNNotificationSettings
+- _OBJC_CLASS_$_UNUserNotificationCenter
+- _OBJC_CLASS_$__TtC16CallIntelligence15CaptionProvider
+- _OBJC_CLASS_$__TtC16CallIntelligence34SoundClassificationResultsProvider
+- _OBJC_CLASS_$__TtC16CallIntelligence34WrappedAVCAnsweringMachineDelegate
+- _OBJC_METACLASS_$__TtC16CallIntelligence15CaptionProvider
+- _OBJC_METACLASS_$__TtC16CallIntelligence34SoundClassificationResultsProvider
+- _OBJC_METACLASS_$__TtC16CallIntelligence34WrappedAVCAnsweringMachineDelegate
+- _PPSCreateTelemetryIdentifier
+- _PPSSendTelemetry
+- _TUCallCenterCallContinuityStateChangedNotification
+- _TUCallCenterCallStatusChangedNotification
+- _TUCallSmartHoldingSessionChangedNotification
+- _TUCallSubtypeChangedNotification
+- _TUCurrentLocaleIdentifier
+- __DATA__TtC16CallIntelligence12AssetManager
+- __DATA__TtC16CallIntelligence12TrialManager
+- __DATA__TtC16CallIntelligence14TrialInterface
+- __DATA__TtC16CallIntelligence15CaptionProvider
+- __DATA__TtC16CallIntelligence16HoldAssistServer
+- __DATA__TtC16CallIntelligence16PowerLogReporter
+- __DATA__TtC16CallIntelligence16WaitTimeProvider
+- __DATA__TtC16CallIntelligence17WaitOnHoldSession
+- __DATA__TtC16CallIntelligence19DisclosureGenerator
+- __DATA__TtC16CallIntelligence20ReturnToCallDetector
+- __DATA__TtC16CallIntelligence22ReturnToCallClassifier
+- __DATA__TtC16CallIntelligence22StoredCallWaitTimeInfo
+- __DATA__TtC16CallIntelligence22WaitOnHoldStateMachine
+- __DATA__TtC16CallIntelligence24ReturnToCallClassifierCJ
+- __DATA__TtC16CallIntelligence26AnsweringMachineController
+- __DATA__TtC16CallIntelligence26StoredCallWaitTimeMetadata
+- __DATA__TtC16CallIntelligence27CallWaitTimeAnalyticsHelper
+- __DATA__TtC16CallIntelligence27ReturnToCallClassifierInput
+- __DATA__TtC16CallIntelligence28ReturnToCallClassifierEnUsCa
+- __DATA__TtC16CallIntelligence28ReturnToCallClassifierOutput
+- __DATA__TtC16CallIntelligence29ReturnToCallClassifierCJInput
+- __DATA__TtC16CallIntelligence30ReturnToCallClassifierCJOutput
+- __DATA__TtC16CallIntelligence33ReturnToCallClassifierEnUsCaInput
+- __DATA__TtC16CallIntelligence34ReturnToCallClassifierEnUsCaOutput
+- __DATA__TtC16CallIntelligence34SoundClassificationResultsProvider
+- __DATA__TtC16CallIntelligence34WrappedAVCAnsweringMachineDelegate
+- __DATA__TtC16CallIntelligence6Daemon
+- __DATA__TtC16CallIntelligenceP33_04CE32CE862EDE7BD0687D12E471449811BundleClass
+- __INSTANCE_METHODS__TtC16CallIntelligence27ReturnToCallClassifierInput
+- __INSTANCE_METHODS__TtC16CallIntelligence28ReturnToCallClassifierOutput
+- __INSTANCE_METHODS__TtC16CallIntelligence29ReturnToCallClassifierCJInput
+- __INSTANCE_METHODS__TtC16CallIntelligence30ReturnToCallClassifierCJOutput
+- __INSTANCE_METHODS__TtC16CallIntelligence33ReturnToCallClassifierEnUsCaInput
+- __INSTANCE_METHODS__TtC16CallIntelligence34ReturnToCallClassifierEnUsCaOutput
+- __IVARS__TtC16CallIntelligence12AssetManager
+- __IVARS__TtC16CallIntelligence12TrialManager
+- __IVARS__TtC16CallIntelligence14TrialInterface
+- __IVARS__TtC16CallIntelligence15CaptionProvider
+- __IVARS__TtC16CallIntelligence16HoldAssistServer
+- __IVARS__TtC16CallIntelligence16PowerLogReporter
+- __IVARS__TtC16CallIntelligence16WaitTimeProvider
+- __IVARS__TtC16CallIntelligence17WaitOnHoldSession
+- __IVARS__TtC16CallIntelligence19DisclosureGenerator
+- __IVARS__TtC16CallIntelligence20ReturnToCallDetector
+- __IVARS__TtC16CallIntelligence22ReturnToCallClassifier
+- __IVARS__TtC16CallIntelligence22StoredCallWaitTimeInfo
+- __IVARS__TtC16CallIntelligence22WaitOnHoldStateMachine
+- __IVARS__TtC16CallIntelligence24ReturnToCallClassifierCJ
+- __IVARS__TtC16CallIntelligence26AnsweringMachineController
+- __IVARS__TtC16CallIntelligence26StoredCallWaitTimeMetadata
+- __IVARS__TtC16CallIntelligence27CallWaitTimeAnalyticsHelper
+- __IVARS__TtC16CallIntelligence27ReturnToCallClassifierInput
+- __IVARS__TtC16CallIntelligence28ReturnToCallClassifierEnUsCa
+- __IVARS__TtC16CallIntelligence28ReturnToCallClassifierOutput
+- __IVARS__TtC16CallIntelligence29ReturnToCallClassifierCJInput
+- __IVARS__TtC16CallIntelligence30ReturnToCallClassifierCJOutput
+- __IVARS__TtC16CallIntelligence33ReturnToCallClassifierEnUsCaInput
+- __IVARS__TtC16CallIntelligence34ReturnToCallClassifierEnUsCaOutput
+- __IVARS__TtC16CallIntelligence34SoundClassificationResultsProvider
+- __IVARS__TtC16CallIntelligence34WrappedAVCAnsweringMachineDelegate
+- __IVARS__TtC16CallIntelligence6Daemon
+- __METACLASS_DATA__TtC16CallIntelligence12AssetManager
+- __METACLASS_DATA__TtC16CallIntelligence12TrialManager
+- __METACLASS_DATA__TtC16CallIntelligence14TrialInterface
+- __METACLASS_DATA__TtC16CallIntelligence15CaptionProvider
+- __METACLASS_DATA__TtC16CallIntelligence16HoldAssistServer
+- __METACLASS_DATA__TtC16CallIntelligence16PowerLogReporter
+- __METACLASS_DATA__TtC16CallIntelligence16WaitTimeProvider
+- __METACLASS_DATA__TtC16CallIntelligence17WaitOnHoldSession
+- __METACLASS_DATA__TtC16CallIntelligence19DisclosureGenerator
+- __METACLASS_DATA__TtC16CallIntelligence20ReturnToCallDetector
+- __METACLASS_DATA__TtC16CallIntelligence22ReturnToCallClassifier
+- __METACLASS_DATA__TtC16CallIntelligence22StoredCallWaitTimeInfo
+- __METACLASS_DATA__TtC16CallIntelligence22WaitOnHoldStateMachine
+- __METACLASS_DATA__TtC16CallIntelligence24ReturnToCallClassifierCJ
+- __METACLASS_DATA__TtC16CallIntelligence26AnsweringMachineController
+- __METACLASS_DATA__TtC16CallIntelligence26StoredCallWaitTimeMetadata
+- __METACLASS_DATA__TtC16CallIntelligence27CallWaitTimeAnalyticsHelper
+- __METACLASS_DATA__TtC16CallIntelligence27ReturnToCallClassifierInput
+- __METACLASS_DATA__TtC16CallIntelligence28ReturnToCallClassifierEnUsCa
+- __METACLASS_DATA__TtC16CallIntelligence28ReturnToCallClassifierOutput
+- __METACLASS_DATA__TtC16CallIntelligence29ReturnToCallClassifierCJInput
+- __METACLASS_DATA__TtC16CallIntelligence30ReturnToCallClassifierCJOutput
+- __METACLASS_DATA__TtC16CallIntelligence33ReturnToCallClassifierEnUsCaInput
+- __METACLASS_DATA__TtC16CallIntelligence34ReturnToCallClassifierEnUsCaOutput
+- __METACLASS_DATA__TtC16CallIntelligence34SoundClassificationResultsProvider
+- __METACLASS_DATA__TtC16CallIntelligence34WrappedAVCAnsweringMachineDelegate
+- __METACLASS_DATA__TtC16CallIntelligence6Daemon
+- __METACLASS_DATA__TtC16CallIntelligenceP33_04CE32CE862EDE7BD0687D12E471449811BundleClass
+- __OBJC_$_INSTANCE_METHODS__TtC16CallIntelligence15CaptionProvider(CallIntelligence)
+- __OBJC_$_INSTANCE_METHODS__TtC16CallIntelligence34SoundClassificationResultsProvider(CallIntelligence)
+- __OBJC_$_INSTANCE_METHODS__TtC16CallIntelligence34WrappedAVCAnsweringMachineDelegate(CallIntelligence)
+- __OBJC_$_PROP_LIST_MLFeatureProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVCAnsweringMachineDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVCMediaAnalyzerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_MLFeatureProvider
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCCaptionsClientDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCMediaAnalyzerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AVCAnsweringMachineDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AVCCaptionsClientDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AVCMediaAnalyzerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MLFeatureProvider
+- __OBJC_$_PROTOCOL_REFS_AVCAnsweringMachineDelegate
+- __OBJC_$_PROTOCOL_REFS_AVCCaptionsClientDelegate
+- __OBJC_$_PROTOCOL_REFS_AVCMediaAnalyzerDelegate
+- __OBJC_CLASS_PROTOCOLS_$__TtC16CallIntelligence15CaptionProvider(CallIntelligence)
+- __OBJC_CLASS_PROTOCOLS_$__TtC16CallIntelligence34SoundClassificationResultsProvider(CallIntelligence)
+- __OBJC_CLASS_PROTOCOLS_$__TtC16CallIntelligence34WrappedAVCAnsweringMachineDelegate(CallIntelligence)
+- __OBJC_LABEL_PROTOCOL_$_AVCAnsweringMachineDelegate
+- __OBJC_LABEL_PROTOCOL_$_AVCCaptionsClientDelegate
+- __OBJC_LABEL_PROTOCOL_$_AVCMediaAnalyzerDelegate
+- __OBJC_LABEL_PROTOCOL_$_MLFeatureProvider
+- __OBJC_PROTOCOL_$_AVCAnsweringMachineDelegate
+- __OBJC_PROTOCOL_$_AVCCaptionsClientDelegate
+- __OBJC_PROTOCOL_$_AVCMediaAnalyzerDelegate
+- __OBJC_PROTOCOL_$_MLFeatureProvider
+- __PROPERTIES__TtC16CallIntelligence27ReturnToCallClassifierInput
+- __PROPERTIES__TtC16CallIntelligence28ReturnToCallClassifierOutput
+- __PROPERTIES__TtC16CallIntelligence29ReturnToCallClassifierCJInput
+- __PROPERTIES__TtC16CallIntelligence30ReturnToCallClassifierCJOutput
+- __PROPERTIES__TtC16CallIntelligence33ReturnToCallClassifierEnUsCaInput
+- __PROPERTIES__TtC16CallIntelligence34ReturnToCallClassifierEnUsCaOutput
+- __PROTOCOLS__TtC16CallIntelligence27ReturnToCallClassifierInput
+- __PROTOCOLS__TtC16CallIntelligence28ReturnToCallClassifierOutput
+- __PROTOCOLS__TtC16CallIntelligence29ReturnToCallClassifierCJInput
+- __PROTOCOLS__TtC16CallIntelligence30ReturnToCallClassifierCJOutput
+- __PROTOCOLS__TtC16CallIntelligence33ReturnToCallClassifierEnUsCaInput
+- __PROTOCOLS__TtC16CallIntelligence34ReturnToCallClassifierEnUsCaOutput
+- ___swift_allocate_boxed_opaque_existential_0
+- ___swift_assign_boxed_opaque_existential_1
+- ___swift_closure_destructor.17Tm
+- ___swift_destroy_boxed_opaque_existential_0Tm
+- ___swift_exist.box.addr_destructor
+- ___swift_instantiateGenericMetadata
+- ___swift_memcpy104_8
+- ___swift_memcpy176_8
+- ___swift_memcpy233_8
+- ___swift_memcpy24_8
+- ___swift_memcpy49_8
+- ___swift_memcpy56_8
+- ___swift_memcpy80_8
+- ___swift_project_boxed_opaque_existential_0
+- ___swift_project_boxed_opaque_existential_0Tm
+- ___swift_project_boxed_opaque_existential_1Tm
+- ___unnamed_1
+- __set_user_dir_suffix
+- _associated conformance 16CallIntelligence06StoredA12WaitTimeInfoC9SwiftData15PersistentModelAA11Observation10Observable
+- _associated conformance 16CallIntelligence06StoredA12WaitTimeInfoC9SwiftData15PersistentModelAA4RootAdEP_AdE
+- _associated conformance 16CallIntelligence06StoredA12WaitTimeInfoC9SwiftData15PersistentModelAASH
+- _associated conformance 16CallIntelligence06StoredA12WaitTimeInfoC9SwiftData15PersistentModelAAs12Identifiable
+- _associated conformance 16CallIntelligence06StoredA12WaitTimeInfoCSHAASQ
+- _associated conformance 16CallIntelligence06StoredA12WaitTimeInfoCs12IdentifiableAA2IDsADP_SH
+- _associated conformance 16CallIntelligence06StoredA16WaitTimeMetadataC9SwiftData15PersistentModelAA11Observation10Observable
+- _associated conformance 16CallIntelligence06StoredA16WaitTimeMetadataC9SwiftData15PersistentModelAA4RootAdEP_AdE
+- _associated conformance 16CallIntelligence06StoredA16WaitTimeMetadataC9SwiftData15PersistentModelAASH
+- _associated conformance 16CallIntelligence06StoredA16WaitTimeMetadataC9SwiftData15PersistentModelAAs12Identifiable
+- _associated conformance 16CallIntelligence06StoredA16WaitTimeMetadataCSHAASQ
+- _associated conformance 16CallIntelligence06StoredA16WaitTimeMetadataCs12IdentifiableAA2IDsADP_SH
+- _associated conformance 16CallIntelligence08ReturnToA21DetectorConfigurationV10CodingKeys33_52311BD327115F05702B20F90B02B85ELLOSHAASQ
+- _associated conformance 16CallIntelligence08ReturnToA21DetectorConfigurationV10CodingKeys33_52311BD327115F05702B20F90B02B85ELLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 16CallIntelligence08ReturnToA21DetectorConfigurationV10CodingKeys33_52311BD327115F05702B20F90B02B85ELLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16CallIntelligence08ReturnToA21DetectorConfigurationVSHAASQ
+- _associated conformance 16CallIntelligence0A12WaitTimeInfoV10CodingKeys33_F8A48912C7721516A47ED028058ED974LLOSHAASQ
+- _associated conformance 16CallIntelligence0A12WaitTimeInfoV10CodingKeys33_F8A48912C7721516A47ED028058ED974LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 16CallIntelligence0A12WaitTimeInfoV10CodingKeys33_F8A48912C7721516A47ED028058ED974LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16CallIntelligence0A12WaitTimeInfoV9DayOfWeekOSHAASQ
+- _associated conformance 16CallIntelligence0A12WaitTimeInfoVSHAASQ
+- _associated conformance 16CallIntelligence12SandboxErrorOSHAASQ
+- _associated conformance 16CallIntelligence13TranscriptLog33_E4C2DA70A4A98CAFF39DC3D44A128CC2LLV10CodingKeysOSHAASQ
+- _associated conformance 16CallIntelligence13TranscriptLog33_E4C2DA70A4A98CAFF39DC3D44A128CC2LLV10CodingKeysOs0O3KeyAAs23CustomStringConvertible
+- _associated conformance 16CallIntelligence13TranscriptLog33_E4C2DA70A4A98CAFF39DC3D44A128CC2LLV10CodingKeysOs0O3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16CallIntelligence15WaitOnHoldErrorOSHAASQ
+- _associated conformance 16CallIntelligence17WaitTimeAFMResultV16FoundationModels29ConvertibleToGeneratedContentAaD19PromptRepresentable
+- _associated conformance 16CallIntelligence17WaitTimeAFMResultV16FoundationModels29ConvertibleToGeneratedContentAaD25InstructionsRepresentable
+- _associated conformance 16CallIntelligence17WaitTimeAFMResultV16FoundationModels9GenerableAA18PartiallyGeneratedAdEP_AD015ConvertibleFromJ7Content
+- _associated conformance 16CallIntelligence17WaitTimeAFMResultV16FoundationModels9GenerableAaD29ConvertibleToGeneratedContent
+- _associated conformance 16CallIntelligence17WaitTimeAFMResultV16FoundationModels9GenerableAaD31ConvertibleFromGeneratedContent
+- _associated conformance 16CallIntelligence17WaitTimeAFMResultV18PartiallyGeneratedVs12IdentifiableAA2IDsAFP_SH
+- _associated conformance 16CallIntelligence20SoundAnalyzerUseCaseOSHAASQ
+- _associated conformance 16CallIntelligence21AnsweringMachineErrorOSHAASQ
+- _associated conformance 16CallIntelligence22LanguageDetectorResultVSHAASQ
+- _associated conformance 16CallIntelligence23HoldAssistConfigurationV10CodingKeys33_645D9E6BE143E7F24D0B431DBB7D34A1LLOSHAASQ
+- _associated conformance 16CallIntelligence23HoldAssistConfigurationV10CodingKeys33_645D9E6BE143E7F24D0B431DBB7D34A1LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 16CallIntelligence23HoldAssistConfigurationV10CodingKeys33_645D9E6BE143E7F24D0B431DBB7D34A1LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16CallIntelligence23HoldAssistConfigurationVSHAASQ
+- _associated conformance 16CallIntelligence23SoundAnalyzerPredictionOSHAASQ
+- _associated conformance 16CallIntelligence25CrowdSourcedWaitTimeEventV11TriggerTypeOSHAASQ
+- _associated conformance 16CallIntelligence26SoundAnalyzerConfigurationV10CodingKeys33_B055381C94D43A016C50FFC8A661CEB9LLOSHAASQ
+- _associated conformance 16CallIntelligence26SoundAnalyzerConfigurationV10CodingKeys33_B055381C94D43A016C50FFC8A661CEB9LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 16CallIntelligence26SoundAnalyzerConfigurationV10CodingKeys33_B055381C94D43A016C50FFC8A661CEB9LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16CallIntelligence26SoundAnalyzerConfigurationVSHAASQ
+- _associated conformance 16CallIntelligence29CaptionsProviderConfigurationV10CodingKeys33_C78B54ECA12190F9D410ED30D11840B0LLOSHAASQ
+- _associated conformance 16CallIntelligence29CaptionsProviderConfigurationV10CodingKeys33_C78B54ECA12190F9D410ED30D11840B0LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 16CallIntelligence29CaptionsProviderConfigurationV10CodingKeys33_C78B54ECA12190F9D410ED30D11840B0LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16CallIntelligence29CaptionsProviderConfigurationVSHAASQ
+- _associated conformance 16CallIntelligence36SoundClassificationResultsAggregatorV8CategoryOSHAASQ
+- _associated conformance So18NSNotificationNameaSHSCSQ
+- _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _clock_gettime_nsec_np
+- _confstr
+- _flat unique 9SwiftData07BackingB0_px5ModelAaBPRts_XP
+- _flat unique So17MLFeatureProvider_p
+- _flat unique So25AVCCaptionsClientDelegate_p
+- _flat unique So27AVCAnsweringMachineDelegate_p
+- _free
+- _get_enum_tag_for_layout_string 16CallIntelligence16CaptionProviding_pSg
+- _get_enum_tag_for_layout_string 16CallIntelligence16HoldAssistServerC5StateO
+- _get_witness_table 9SwiftData15PersistentModelRzl16CallIntelligence06StoredE16WaitTimeMetadataCAaBHPyHC
+- _memset
+- _objc_msgSend$URLForResource:withExtension:
+- _objc_msgSend$_loadWithError:
+- _objc_msgSend$_performSmartHoldingRequest:completion:
+- _objc_msgSend$addAnnouncementAsset:
+- _objc_msgSend$addNotificationRequest:withCompletionHandler:
+- _objc_msgSend$addObserverForName:object:queue:usingBlock:
+- _objc_msgSend$analysisResult
+- _objc_msgSend$authorizationStatus
+- _objc_msgSend$bundleForClass:
+- _objc_msgSend$callSubType
+- _objc_msgSend$callWithUniqueProxyIdentifier:
+- _objc_msgSend$client
+- _objc_msgSend$configureCaptions:
+- _objc_msgSend$createDirectoryAtURL:withIntermediateDirectories:attributes:error:
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$defaultManager
+- _objc_msgSend$deploymentId
+- _objc_msgSend$disconnectedReason
+- _objc_msgSend$displayName
+- _objc_msgSend$dominantLocale
+- _objc_msgSend$dominantLocaleConfidence
+- _objc_msgSend$downlinkStreamToken
+- _objc_msgSend$enableCaptions:
+- _objc_msgSend$enableMediaAnalyzer:
+- _objc_msgSend$experimentIdentifiersWithNamespaceName:
+- _objc_msgSend$factorPackId
+- _objc_msgSend$featureNames
+- _objc_msgSend$featureValueForName:
+- _objc_msgSend$featureValueWithString:
+- _objc_msgSend$fetchAssetWithConfig:clientIdentifier:progress:completion:
+- _objc_msgSend$fetchCurrentCalls
+- _objc_msgSend$fileExistsAtPath:
+- _objc_msgSend$fileExistsAtPath:isDirectory:
+- _objc_msgSend$fileHandleForWritingToURL:error:
+- _objc_msgSend$fileValue
+- _objc_msgSend$getNotificationSettingsWithCompletionHandler:
+- _objc_msgSend$handle
+- _objc_msgSend$holdAssistQfaDynamicTipsThresholdEnabled
+- _objc_msgSend$holdAssistQfaLocaleExpansionEnabled
+- _objc_msgSend$holdAssistQfaMusicUIEnabled
+- _objc_msgSend$initWithBundleIdentifier:
+- _objc_msgSend$initWithCallUUID:session:
+- _objc_msgSend$initWithConfiguration:delegate:delegateQueue:
+- _objc_msgSend$initWithDelegate:delegateQueue:analysisType:streamToken:
+- _objc_msgSend$initWithDelegate:streamToken:
+- _objc_msgSend$initWithLanguage:assetType:
+- _objc_msgSend$initWithUUID:state:events:requiresUserAttentionReason:hostedOnCurrentDevice:
+- _objc_msgSend$isEndpointOnCurrentDevice
+- _objc_msgSend$isFaceTimeProvider
+- _objc_msgSend$isHostedOnCurrentDevice
+- _objc_msgSend$isLowPowerModeEnabled
+- _objc_msgSend$isTelephonyProvider
+- _objc_msgSend$isUsingBaseband
+- _objc_msgSend$isoCountryCode
+- _objc_msgSend$languageCode
+- _objc_msgSend$levelForFactor:withNamespaceName:
+- _objc_msgSend$mainQueue
+- _objc_msgSend$messageAudioToken
+- _objc_msgSend$modelWithContentsOfURL:error:
+- _objc_msgSend$moveItemAtURL:toURL:error:
+- _objc_msgSend$name
+- _objc_msgSend$outputVoice
+- _objc_msgSend$path
+- _objc_msgSend$pathForResource:ofType:
+- _objc_msgSend$pathToAssetWithConfig:clientIdentifier:completion:
+- _objc_msgSend$processInfo
+- _objc_msgSend$provider
+- _objc_msgSend$rampId
+- _objc_msgSend$refresh
+- _objc_msgSend$remoteParticipantHandles
+- _objc_msgSend$removeItemAtURL:error:
+- _objc_msgSend$removeObserver:
+- _objc_msgSend$removeObserver:name:object:
+- _objc_msgSend$requestEmbeddingAssetsWithCompletionHandler:
+- _objc_msgSend$requestWithIdentifier:content:trigger:
+- _objc_msgSend$rolloutId
+- _objc_msgSend$rolloutIdentifiersWithNamespaceName:
+- _objc_msgSend$setAttribute:forKey:error:
+- _objc_msgSend$setBody:
+- _objc_msgSend$setDateStyle:
+- _objc_msgSend$setFormatForNewLinesEnabled:
+- _objc_msgSend$setInterruptionLevel:
+- _objc_msgSend$setIsMessageCaptioningEnabled:
+- _objc_msgSend$setLanguageDetectorEnabled:
+- _objc_msgSend$setLanguageDetectorReportingFrequency:
+- _objc_msgSend$setLocale:
+- _objc_msgSend$setSource:
+- _objc_msgSend$setTaskHint:
+- _objc_msgSend$setTimeStyle:
+- _objc_msgSend$setTitle:
+- _objc_msgSend$setUsage:
+- _objc_msgSend$setValue:forKey:
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$sharedPreferences
+- _objc_msgSend$smartHoldingSession
+- _objc_msgSend$state
+- _objc_msgSend$status
+- _objc_msgSend$stop
+- _objc_msgSend$stringFromDate:
+- _objc_msgSend$temporaryDirectory
+- _objc_msgSend$text
+- _objc_msgSend$tokens
+- _objc_msgSend$tu_defaults
+- _objc_msgSend$uniqueProxyIdentifierUUID
+- _objc_msgSend$unload
+- _objc_msgSend$utteranceComplete
+- _objc_msgSend$value
+- _objc_msgSend$waitOnHoldLoggingEnabled
+- _objc_release_x9
+- _objc_retain
+- _objc_retain_x2
+- _objc_retain_x24
+- _objc_retain_x27
+- _realpath$DARWIN_EXTSN
+- _sandbox_extension_consume
+- _sandbox_extension_release
+- _swift_continuation_resume
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+- _swift_coroFrameAlloc
+- _swift_cvw_allocateGenericValueMetadataWithLayoutString
+- _swift_cvw_instantiateLayoutString
+- _swift_getExistentialTypeMetadata
+- _swift_getGenericMetadata
+- _swift_getKeyPath
+- _swift_getObjCClassFromMetadata
+- _swift_getOpaqueTypeConformance2
+- _swift_getTupleTypeMetadata2
+- _swift_release_n
+- _swift_release_x12
+- _swift_release_x28
+- _swift_release_x9
+- _swift_retain_n
+- _swift_retain_x22
+- _swift_retain_x24
+- _swift_retain_x25
+- _swift_task_isCurrentExecutor
+- _swift_task_reportUnexpectedExecutor
+- _swift_willThrowTypedImpl
+- _symbolic $s16CallIntelligence08ReturnToA11ClassifyingP
+- _symbolic $s16CallIntelligence08ReturnToA9DetectingP
+- _symbolic $s16CallIntelligence13AssetManagingP
+- _symbolic $s16CallIntelligence13ModelProtocolP
+- _symbolic $s16CallIntelligence15TrialParametersP
+- _symbolic $s16CallIntelligence16CaptionProvidingP
+- _symbolic $s16CallIntelligence18ContainerProvidingP
+- _symbolic $s16CallIntelligence19AudioCaptionsClientP
+- _symbolic $s16CallIntelligence20DisclosureGeneratingP
+- _symbolic $s16CallIntelligence20NotificationManagingP
+- _symbolic $s16CallIntelligence20_SmartHoldingSessionP
+- _symbolic $s16FoundationModels9GenerableP
+- _symbolic $s9SwiftData15PersistentModelP
+- _symbolic $ss12IdentifiableP
+- _symbolic $ss21_ObjectiveCBridgeableP
+- _symbolic 5Model_____Qyd__ 9SwiftData07BackingB0P
+- _symbolic B0
+- _symbolic IeghH_
+- _symbolic SDySS_____G 16CallIntelligence08ReturnToA8RequiredO
+- _symbolic SDy_____SdG 16CallIntelligence36SoundClassificationResultsAggregatorV8CategoryO
+- _symbolic SS4name_______p5valuet 16FoundationModels29ConvertibleToGeneratedContentP
+- _symbolic SS_SaySSGt
+- _symbolic SS_Sbt
+- _symbolic SS_______pt 16FoundationModels29ConvertibleToGeneratedContentP
+- _symbolic SaySS_______ptG 16FoundationModels29ConvertibleToGeneratedContentP
+- _symbolic Say_____G 16CallIntelligence06StoredA12WaitTimeInfoC
+- _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
+- _symbolic Say_____G So19SFEntitledAssetTypeV
+- _symbolic Say_____GSg 16CallIntelligence06StoredA12WaitTimeInfoC
+- _symbolic SayxG
+- _symbolic Sb9isInitial______9clockTimet 10Foundation4DateV
+- _symbolic ScCySSSg_____G s5NeverO
+- _symbolic ScCySS______pG s5ErrorP
+- _symbolic ScCySo22UNNotificationSettingsC_____G s5NeverO
+- _symbolic ScCy___________pG So33NLContextualEmbeddingAssetsResultV s5ErrorP
+- _symbolic ScCyyt______pG s5ErrorP
+- _symbolic ScSySo22AVCMediaAnalyzerResultCG
+- _symbolic ScSy_____G 16CallIntelligence12CaptionEventO
+- _symbolic ScSy_____G 16CallIntelligence23SoundAnalyzerPredictionO
+- _symbolic ScSyyyYaYbcG
+- _symbolic ScTyyt_____GSg s5NeverO
+- _symbolic ScTyyt______pGSg s5ErrorP
+- _symbolic Sccyx_____G s5NeverO
+- _symbolic Sccyx______pG s5ErrorP
+- _symbolic So11FTServerBagC
+- _symbolic So12NSFileHandleCSg
+- _symbolic So12TUCallCenterC
+- _symbolic So13AFPreferencesC
+- _symbolic So16AVCMediaAnalyzerCSg
+- _symbolic So18AVSystemControllerC
+- _symbolic So19AVCAnsweringMachineC
+- _symbolic So19AVCAnsweringMachineCSgSo0aB13ConfigurationC_______pSo17OS_dispatch_queueCSgtYbc So27AVCAnsweringMachineDelegateP
+- _symbolic So34TUSmartHoldingSessionUpdateRequestC
+- _symbolic So7MLModelC
+- _symbolic So8NSStringC
+- _symbolic So9TRIClientC
+- _symbolic Su
+- _symbolic _____ 10Foundation6LocaleV
+- _symbolic _____ 11Observation0A9RegistrarV
+- _symbolic _____ 14SiriTTSService13DaemonSessionC
+- _symbolic _____ 16CallIntelligence05AppleB7ManagerO
+- _symbolic _____ 16CallIntelligence06StoredA12WaitTimeInfoC
+- _symbolic _____ 16CallIntelligence06StoredA12WaitTimeInfoC16_SwiftDataNoTypeV
+- _symbolic _____ 16CallIntelligence06StoredA16WaitTimeMetadataC
+- _symbolic _____ 16CallIntelligence06StoredA16WaitTimeMetadataC16_SwiftDataNoTypeV
+- _symbolic _____ 16CallIntelligence08ReturnToA10ClassifierC
+- _symbolic _____ 16CallIntelligence08ReturnToA12ClassifierCJC
+- _symbolic _____ 16CallIntelligence08ReturnToA15ClassifierInputC
+- _symbolic _____ 16CallIntelligence08ReturnToA16ClassifierEnUsCaC
+- _symbolic _____ 16CallIntelligence08ReturnToA16ClassifierOutputC
+- _symbolic _____ 16CallIntelligence08ReturnToA17ClassifierCJInputC
+- _symbolic _____ 16CallIntelligence08ReturnToA18ClassifierCJOutputC
+- _symbolic _____ 16CallIntelligence08ReturnToA21ClassifierEnUsCaInputC
+- _symbolic _____ 16CallIntelligence08ReturnToA21DetectorConfigurationV
+- _symbolic _____ 16CallIntelligence08ReturnToA21DetectorConfigurationV10CodingKeys33_52311BD327115F05702B20F90B02B85ELLO
+- _symbolic _____ 16CallIntelligence08ReturnToA22ClassifierEnUsCaOutputC
+- _symbolic _____ 16CallIntelligence08ReturnToA8DetectorC
+- _symbolic _____ 16CallIntelligence0A12WaitTimeInfoV
+- _symbolic _____ 16CallIntelligence0A12WaitTimeInfoV10CodingKeys33_F8A48912C7721516A47ED028058ED974LLO
+- _symbolic _____ 16CallIntelligence0A12WaitTimeInfoV9DayOfWeekO
+- _symbolic _____ 16CallIntelligence0A15WaitTimeManagerV
+- _symbolic _____ 16CallIntelligence0A23WaitTimeAnalyticsHelperC
+- _symbolic _____ 16CallIntelligence0A23WaitTimeAnalyticsHelperC0cdE5StateV
+- _symbolic _____ 16CallIntelligence0A25WaitTimeContainerProviderV
+- _symbolic _____ 16CallIntelligence0A7Details33_D7394B2BFCBEFC93EBFDF4199876DA1FLLV
+- _symbolic _____ 16CallIntelligence11BundleClass33_04CE32CE862EDE7BD0687D12E4714498LLC
+- _symbolic _____ 16CallIntelligence12AssetManagerC
+- _symbolic _____ 16CallIntelligence12CaptionEventO
+- _symbolic _____ 16CallIntelligence12CaptionState33_262AB91A6FBC43E0CEF608EF8F2D800DLLV
+- _symbolic _____ 16CallIntelligence12SandboxErrorO
+- _symbolic _____ 16CallIntelligence12TrialManagerC
+- _symbolic _____ 16CallIntelligence13TranscriptLog33_E4C2DA70A4A98CAFF39DC3D44A128CC2LLV
+- _symbolic _____ 16CallIntelligence13TranscriptLog33_E4C2DA70A4A98CAFF39DC3D44A128CC2LLV10CodingKeysO
+- _symbolic _____ 16CallIntelligence14CircularBufferV
+- _symbolic _____ 16CallIntelligence14ContainerStateO
+- _symbolic _____ 16CallIntelligence14TrialInterfaceC
+- _symbolic _____ 16CallIntelligence15CaptionProviderC
+- _symbolic _____ 16CallIntelligence15WaitOnHoldErrorO
+- _symbolic _____ 16CallIntelligence16AsyncSerialQueueV
+- _symbolic _____ 16CallIntelligence16HoldAssistServerC
+- _symbolic _____ 16CallIntelligence16HoldAssistServerC5StateO
+- _symbolic _____ 16CallIntelligence16PowerLogReporterC
+- _symbolic _____ 16CallIntelligence16WaitTimeProviderC
+- _symbolic _____ 16CallIntelligence17WaitOnHoldSessionC
+- _symbolic _____ 16CallIntelligence17WaitTimeAFMResultV
+- _symbolic _____ 16CallIntelligence17WaitTimeAFMResultV18PartiallyGeneratedV
+- _symbolic _____ 16CallIntelligence18HoldDetectionState33_D7394B2BFCBEFC93EBFDF4199876DA1FLLV
+- _symbolic _____ 16CallIntelligence19DisclosureGeneratorC
+- _symbolic _____ 16CallIntelligence19NotificationManagerV
+- _symbolic _____ 16CallIntelligence20SoundAnalyzerUseCaseO
+- _symbolic _____ 16CallIntelligence21AnsweringMachineErrorO
+- _symbolic _____ 16CallIntelligence21AnsweringMachineStateO
+- _symbolic _____ 16CallIntelligence22LanguageDetectorResultV
+- _symbolic _____ 16CallIntelligence22WaitOnHoldStateMachineC
+- _symbolic _____ 16CallIntelligence23HoldAssistConfigurationV
+- _symbolic _____ 16CallIntelligence23HoldAssistConfigurationV10CodingKeys33_645D9E6BE143E7F24D0B431DBB7D34A1LLO
+- _symbolic _____ 16CallIntelligence23SoundAnalyzerPredictionO
+- _symbolic _____ 16CallIntelligence24PersistenceConfigurationV
+- _symbolic _____ 16CallIntelligence25CrowdSourcedWaitTimeEventV
+- _symbolic _____ 16CallIntelligence25CrowdSourcedWaitTimeEventV11TriggerTypeO
+- _symbolic _____ 16CallIntelligence25HoldAssistTrialParametersV
+- _symbolic _____ 16CallIntelligence25SoundAnalyzerCustomConfigV
+- _symbolic _____ 16CallIntelligence25WaitTimeProviderTelemetryV
+- _symbolic _____ 16CallIntelligence26AnsweringMachineControllerC
+- _symbolic _____ 16CallIntelligence26SoundAnalyzerConfigurationV
+- _symbolic _____ 16CallIntelligence26SoundAnalyzerConfigurationV10CodingKeys33_B055381C94D43A016C50FFC8A661CEB9LLO
+- _symbolic _____ 16CallIntelligence26WaitOnHoldTranscriptLoggerV
+- _symbolic _____ 16CallIntelligence27ActiveAnsweringMachineStateV
+- _symbolic _____ 16CallIntelligence29CaptionsProviderConfigurationV
+- _symbolic _____ 16CallIntelligence29CaptionsProviderConfigurationV10CodingKeys33_C78B54ECA12190F9D410ED30D11840B0LLO
+- _symbolic _____ 16CallIntelligence29WaitTimeProviderConfigurationV
+- _symbolic _____ 16CallIntelligence34SoundClassificationResultsProviderC
+- _symbolic _____ 16CallIntelligence34WrappedAVCAnsweringMachineDelegateC
+- _symbolic _____ 16CallIntelligence36SoundClassificationResultsAggregatorV
+- _symbolic _____ 16CallIntelligence36SoundClassificationResultsAggregatorV0cD5ScoreV
+- _symbolic _____ 16CallIntelligence36SoundClassificationResultsAggregatorV8CategoryO
+- _symbolic _____ 16CallIntelligence6DaemonC
+- _symbolic _____ 16CallIntelligence9ServerBagV
+- _symbolic _____ 16FoundationModels12GenerationIDV
+- _symbolic _____ 16FoundationModels20LanguageModelSessionC
+- _symbolic _____ 9SwiftData14ModelContainerC
+- _symbolic _____ 9SwiftData20PersistentIdentifierV
+- _symbolic _____ So17AVCCaptionsReasonV
+- _symbolic _____ So18NSNotificationNamea
+- _symbolic _____ So19SFEntitledAssetTypeV
+- _symbolic _____ So20TRIProject_ProjectIdV
+- _symbolic _____ So24TUCallDisconnectedReasonV
+- _symbolic _____ So29AVCAnsweringMachineCallSourceV
+- _symbolic _____ So33NLContextualEmbeddingAssetsResultV
+- _symbolic _____ s8DurationV
+- _symbolic _____SS_SStYaYbKcSg 16CallIntelligence17WaitTimeAFMResultV
+- _symbolic _____Sg 10Foundation12NotificationV
+- _symbolic _____Sg 16CallIntelligence06StoredA16WaitTimeMetadataC16_SwiftDataNoTypeV
+- _symbolic _____Sg 16CallIntelligence0A12WaitTimeInfoV9DayOfWeekO
+- _symbolic _____Sg 16CallIntelligence0A15WaitTimeManagerV
+- _symbolic _____Sg 16CallIntelligence12CaptionEventO
+- _symbolic _____Sg 16CallIntelligence12CaptionState33_262AB91A6FBC43E0CEF608EF8F2D800DLLV
+- _symbolic _____Sg 16CallIntelligence14AudioHistEventV
+- _symbolic _____Sg 16CallIntelligence26WaitOnHoldTranscriptLoggerV
+- _symbolic _____Sg 16FoundationModels12GenerationIDV
+- _symbolic _____Sg 16FoundationModels17GenerationOptionsV12SamplingModeV
+- _symbolic _____Sg 16FoundationModels6PromptV
+- _symbolic _____Sg s13OpaquePointerV
+- _symbolic _____SgXw 16CallIntelligence0A23WaitTimeAnalyticsHelperC
+- _symbolic _____SgXw 16CallIntelligence17WaitOnHoldSessionC
+- _symbolic _____SgXw 16CallIntelligence26AnsweringMachineControllerC
+- _symbolic _____SgXw 16CallIntelligence6DaemonC
+- _symbolic _____SgXwz_Xx 16CallIntelligence0A23WaitTimeAnalyticsHelperC
+- _symbolic _____SgXwz_Xx 16CallIntelligence17WaitOnHoldSessionC
+- _symbolic _____SgXwz_Xx 16CallIntelligence6DaemonC
+- _symbolic _____XDXMT 16CallIntelligence0A23WaitTimeAnalyticsHelperC
+- _symbolic ______Sdt 10Foundation6LocaleV12LanguageCodeV
+- _symbolic __________Xj l9SwiftData07BackingB0_px5ModelRts_XPXGMq 16CallIntelligence06StoredE12WaitTimeInfoC
+- _symbolic __________Xj l9SwiftData07BackingB0_px5ModelRts_XPXGMq 16CallIntelligence06StoredE16WaitTimeMetadataC
+- _symbolic ______p 16CallIntelligence08ReturnToA11ClassifyingP
+- _symbolic ______p 16CallIntelligence08ReturnToA9DetectingP
+- _symbolic ______p 16CallIntelligence13AssetManagingP
+- _symbolic ______p 16CallIntelligence18ContainerProvidingP
+- _symbolic ______p 16CallIntelligence18ServerBagProvidingP
+- _symbolic ______p 16CallIntelligence19TransactionManagingP
+- _symbolic ______p 16CallIntelligence20NotificationManagingP
+- _symbolic ______p 16CallIntelligence20_SmartHoldingSessionP
+- _symbolic ______p So17MLFeatureProviderP
+- _symbolic ______pSg 16CallIntelligence08ReturnToA11ClassifyingP
+- _symbolic ______pSg 16CallIntelligence08ReturnToA9DetectingP
+- _symbolic ______pSg 16CallIntelligence16CaptionProvidingP
+- _symbolic ______pSg 16CallIntelligence20DisclosureGeneratingP
+- _symbolic ______pSg______p_SitYbcSg 16CallIntelligence16CaptionProvidingP So25AVCCaptionsClientDelegateP
+- _symbolic ______p___________tKc 16CallIntelligence20_SmartHoldingSessionP 10Foundation4UUIDV AA23HoldAssistConfigurationV
+- _symbolic ______ypt s11AnyHashableV
+- _symbolic _____ySS4name_______p5valuetG s23_ContiguousArrayStorageC 16FoundationModels29ConvertibleToGeneratedContentP
+- _symbolic _____ySSSaySSGG s18_DictionaryStorageC
+- _symbolic _____ySSSo8NSNumberCG s18_DictionaryStorageC
+- _symbolic _____ySS_____G s18_DictionaryStorageC 16CallIntelligence08ReturnToC8RequiredO
+- _symbolic _____ySS_______ptG s23_ContiguousArrayStorageC 16FoundationModels29ConvertibleToGeneratedContentP
+- _symbolic _____ySb9isInitial______9clockTimetG 2os21OSAllocatedUnfairLockV 10Foundation4DateV
+- _symbolic _____ySb9isInitial______9clockTimet_____G s13ManagedBufferCsRi__rlE 10Foundation4DateV So16os_unfair_lock_sV
+- _symbolic _____yScTyyt______pGSgG 15Synchronization5MutexVAARi_zrlE s5ErrorP
+- _symbolic _____ySdG s23_ContiguousArrayStorageC
+- _symbolic _____ySo14NSUserDefaultsCG 2os21OSAllocatedUnfairLockV
+- _symbolic _____ySo14NSUserDefaultsC_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
+- _symbolic _____ySo16AVCMediaAnalyzerCSgG 15Synchronization5MutexVAARi_zrlE
+- _symbolic _____ySo22AVCMediaAnalyzerResultC_G ScS12ContinuationV
+- _symbolic _____ySo22AVCMediaAnalyzerResultC_G ScS8IteratorV
+- _symbolic _____ySo22AVCMediaAnalyzerResultC__G ScS12ContinuationV11YieldResultO
+- _symbolic _____ySo22AVCMediaAnalyzerResultC__G ScS12ContinuationV15BufferingPolicyO
+- _symbolic _____y_AAy_AAy______y______y_ACy______y______G_____G_____G_____y_AIGGABy_ACy_AFSSGAKy_SSGGGABy_ACy_AFSiGACy_AKy______GSiGGGABy_ArKy_SiGGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC7KeyPathV AC8VariableV 16CallIntelligence06StoredI12WaitTimeInfoC AL0kilM8MetadataC 9SwiftData20PersistentIdentifierV AC5ValueV AL0ilmN0V9DayOfWeekO
+- _symbolic _____y_AAy______y______G_____G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 16CallIntelligence06StoredG12WaitTimeInfoC AH0igjK8MetadataC 9SwiftData20PersistentIdentifierV
+- _symbolic _____y_AAy______y______y_ACy______y______G_____G_____G_____y_AIGGABy_ACy_AFSSGAKy_SSGGGABy_ACy_AFSiGACy_AKy______GSiGGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC7KeyPathV AC8VariableV 16CallIntelligence06StoredI12WaitTimeInfoC AL0kilM8MetadataC 9SwiftData20PersistentIdentifierV AC5ValueV AL0ilmN0V9DayOfWeekO
+- _symbolic _____y_SSG 10Foundation20PredicateExpressionsO5ValueV
+- _symbolic _____y_SiG 10Foundation20PredicateExpressionsO5ValueV
+- _symbolic _____y_____10prediction_Si28nonMusicCategoryRunningCounttG 2os21OSAllocatedUnfairLockV 16CallIntelligence23SoundAnalyzerPredictionO
+- _symbolic _____y_____10prediction_Si28nonMusicCategoryRunningCountt_____G s13ManagedBufferCsRi__rlE 16CallIntelligence23SoundAnalyzerPredictionO So16os_unfair_lock_sV
+- _symbolic _____y_____G 10Foundation14SortDescriptorV 16CallIntelligence06StoredD16WaitTimeMetadataC
+- _symbolic _____y_____G 10Foundation17AsyncLineSequenceV AA3URLV0B5BytesV
+- _symbolic _____y_____G 16CallIntelligence14CircularBufferV AA08ReturnToA8RequiredO
+- _symbolic _____y_____G 16CallIntelligence14CircularBufferV AA36SoundClassificationResultsAggregatorV0eF5ScoreV
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 16CallIntelligence0E23WaitTimeAnalyticsHelperC0ghI5StateV
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 16CallIntelligence14ContainerStateO
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 16CallIntelligence15WaitOnHoldStateO
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 16CallIntelligence18HoldDetectionState33_D7394B2BFCBEFC93EBFDF4199876DA1FLLV
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 16CallIntelligence21AnsweringMachineStateO
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 16CallIntelligence25SoundAnalyzerCustomConfigV
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 16CallIntelligence25WaitTimeProviderTelemetryV
+- _symbolic _____y_____G 8CallsXPC15ReceivedMessageV 16CallIntelligence028SmartHolding_XPCMessage_StopgH0V
+- _symbolic _____y_____G 8CallsXPC15ReceivedMessageV 16CallIntelligence029SmartHolding_XPCMessage_StartgH0V
+- _symbolic _____y_____G 8CallsXPC15ReceivedMessageV 16CallIntelligence28SmartHolding_XPCMessage_PingV
+- _symbolic _____y_____G 8CallsXPC15ReceivedMessageV 16CallIntelligence31SmartHolding_XPCMessage_PrewarmV
+- _symbolic _____y_____G 8CallsXPC15ReceivedMessageV 16CallIntelligence35SmartHolding_XPCMessage_GetWaitTimeV
+- _symbolic _____y_____G 8CallsXPC15ReceivedMessageV 16CallIntelligence41SmartHolding_XPCMessage_StopHoldDetectionV
+- _symbolic _____y_____G 8CallsXPC15ReceivedMessageV 16CallIntelligence42SmartHolding_XPCMessage_StartHoldDetectionV
+- _symbolic _____y_____G 8CallsXPC15ReceivedMessageV 16CallIntelligence44SmartHolding_XPCMessage_CrowdSourcedWaitTimeV
+- _symbolic _____y_____G 8CallsXPC15ReceivedMessageV 16CallIntelligence60SmartHolding_XPCMessage_PopulateCrowdSourcedWaitTimeDatabaseV
+- _symbolic _____y_____G 8CallsXPC7XPCHostC 16CallIntelligence15DaemonInterfaceV
+- _symbolic _____y_____G 9SwiftData15FetchDescriptorV 16CallIntelligence06StoredE12WaitTimeInfoC
+- _symbolic _____y_____G 9SwiftData15FetchDescriptorV 16CallIntelligence06StoredE16WaitTimeMetadataC
+- _symbolic _____y_____G s11_SetStorageC 10Foundation6LocaleV12LanguageCodeV
+- _symbolic _____y_____G s11_SetStorageC 10Foundation8CalendarV9ComponentO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16CallIntelligence08ReturnToD21DetectorConfigurationV10CodingKeys33_52311BD327115F05702B20F90B02B85ELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16CallIntelligence0D12WaitTimeInfoV10CodingKeys33_F8A48912C7721516A47ED028058ED974LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16CallIntelligence23HoldAssistConfigurationV10CodingKeys33_645D9E6BE143E7F24D0B431DBB7D34A1LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16CallIntelligence26SoundAnalyzerConfigurationV10CodingKeys33_B055381C94D43A016C50FFC8A661CEB9LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16CallIntelligence29CaptionsProviderConfigurationV10CodingKeys33_C78B54ECA12190F9D410ED30D11840B0LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16CallIntelligence08ReturnToD21DetectorConfigurationV10CodingKeys33_52311BD327115F05702B20F90B02B85ELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16CallIntelligence0D12WaitTimeInfoV10CodingKeys33_F8A48912C7721516A47ED028058ED974LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16CallIntelligence13TranscriptLog33_E4C2DA70A4A98CAFF39DC3D44A128CC2LLV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16CallIntelligence23HoldAssistConfigurationV10CodingKeys33_645D9E6BE143E7F24D0B431DBB7D34A1LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16CallIntelligence26SoundAnalyzerConfigurationV10CodingKeys33_B055381C94D43A016C50FFC8A661CEB9LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16CallIntelligence29CaptionsProviderConfigurationV10CodingKeys33_C78B54ECA12190F9D410ED30D11840B0LLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation6LocaleV12LanguageCodeV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation8CalendarV9ComponentO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 16CallIntelligence08ReturnToD8RequiredO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 16CallIntelligence15HoldAssistEventV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 16CallIntelligence36SoundClassificationResultsAggregatorV0fG5ScoreV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 16FoundationModels16GenerationSchemaV8PropertyV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 9SwiftData6SchemaC16PropertyMetadataV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC So18NSNotificationNamea
+- _symbolic _____y_____GSg 8CallsXPC7XPCHostC 16CallIntelligence15DaemonInterfaceV
+- _symbolic _____y_____G_____IeghHnd_ 8CallsXPC15ReceivedMessageV 16CallIntelligence28SmartHolding_XPCMessage_PingV AD0gh1_I5_PongV
+- _symbolic _____y_____G_____IeghHnr_ 8CallsXPC15ReceivedMessageV 16CallIntelligence39SmartHolding_XPCMessage_GetCurrentStateV AD0gh1_i1_jkL6_ReplyV
+- _symbolic _____y_____G___________pIeghHndzo_ 8CallsXPC15ReceivedMessageV 16CallIntelligence028SmartHolding_XPCMessage_StopgH0V AD11CodableVoidV s5ErrorP
+- _symbolic _____y_____G___________pIeghHndzo_ 8CallsXPC15ReceivedMessageV 16CallIntelligence029SmartHolding_XPCMessage_StartgH0V AD11CodableVoidV s5ErrorP
+- _symbolic _____y_____G___________pIeghHndzo_ 8CallsXPC15ReceivedMessageV 16CallIntelligence28SmartHolding_XPCMessage_PingV AD0gh1_I5_PongV s5ErrorP
+- _symbolic _____y_____G___________pIeghHndzo_ 8CallsXPC15ReceivedMessageV 16CallIntelligence31SmartHolding_XPCMessage_PrewarmV AD11CodableVoidV s5ErrorP
+- _symbolic _____y_____G___________pIeghHndzo_ 8CallsXPC15ReceivedMessageV 16CallIntelligence41SmartHolding_XPCMessage_StopHoldDetectionV AD11CodableVoidV s5ErrorP
+- _symbolic _____y_____G___________pIeghHndzo_ 8CallsXPC15ReceivedMessageV 16CallIntelligence42SmartHolding_XPCMessage_StartHoldDetectionV AD11CodableVoidV s5ErrorP
+- _symbolic _____y_____G___________pIeghHndzo_ 8CallsXPC15ReceivedMessageV 16CallIntelligence44SmartHolding_XPCMessage_CrowdSourcedWaitTimeV AD0gh1_i1_jklM6_ReplyV s5ErrorP
+- _symbolic _____y_____G___________pIeghHndzo_ 8CallsXPC15ReceivedMessageV 16CallIntelligence60SmartHolding_XPCMessage_PopulateCrowdSourcedWaitTimeDatabaseV AD0gh1_i1_jklmnO6_ReplyV s5ErrorP
+- _symbolic _____y_____SdG s18_DictionaryStorageC 16CallIntelligence36SoundClassificationResultsAggregatorV8CategoryO
+- _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 16CallIntelligence12CaptionState33_262AB91A6FBC43E0CEF608EF8F2D800DLLV
+- _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 16CallIntelligence12CaptionState33_262AB91A6FBC43E0CEF608EF8F2D800DLLV So16os_unfair_lock_sV
+- _symbolic _____y______AAQo_ 9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZQO 16CallIntelligence06StoredG12WaitTimeInfoC
+- _symbolic _____y______AAQo_ 9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZQO 16CallIntelligence06StoredG16WaitTimeMetadataC
+- _symbolic _____y______G 10Foundation17AsyncLineSequenceV0B8IteratorV AA3URLV0B5BytesV
+- _symbolic _____y______G 10Foundation20PredicateExpressionsO5ValueV 16CallIntelligence0E12WaitTimeInfoV9DayOfWeekO
+- _symbolic _____y______G 10Foundation20PredicateExpressionsO5ValueV 9SwiftData20PersistentIdentifierV
+- _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 16CallIntelligence06StoredE12WaitTimeInfoC
+- _symbolic _____y______G 16FoundationModels20LanguageModelSessionC8ResponseV 16CallIntelligence17WaitTimeAFMResultV
+- _symbolic _____y______G 8CallsXPC7XPCHostC17ConnectionRequestV 16CallIntelligence15DaemonInterfaceV
+- _symbolic _____y______G ScS12ContinuationV 16CallIntelligence12CaptionEventO
+- _symbolic _____y______G ScS12ContinuationV 16CallIntelligence23SoundAnalyzerPredictionO
+- _symbolic _____y______G ScS8IteratorV 16CallIntelligence12CaptionEventO
+- _symbolic _____y______G ScS8IteratorV 16CallIntelligence23SoundAnalyzerPredictionO
+- _symbolic _____y______QPG 10Foundation9PredicateV 16CallIntelligence06StoredC12WaitTimeInfoC
+- _symbolic _____y______QPG 10Foundation9PredicateV 16CallIntelligence06StoredC16WaitTimeMetadataC
+- _symbolic _____y______QPGSg 10Foundation9PredicateV 16CallIntelligence06StoredC12WaitTimeInfoC
+- _symbolic _____y______QPGSg 10Foundation9PredicateV 16CallIntelligence06StoredC16WaitTimeMetadataC
+- _symbolic _____y______SdtG 16CallIntelligence14CircularBufferV 10Foundation6LocaleV12LanguageCodeV
+- _symbolic _____y______SdtG s23_ContiguousArrayStorageC 10Foundation6LocaleV12LanguageCodeV
+- _symbolic _____y_______G ScS12ContinuationV11YieldResultO 16CallIntelligence12CaptionEventO
+- _symbolic _____y_______G ScS12ContinuationV11YieldResultO 16CallIntelligence23SoundAnalyzerPredictionO
+- _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 16CallIntelligence12CaptionEventO
+- _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 16CallIntelligence23SoundAnalyzerPredictionO
+- _symbolic _____y__________G s13ManagedBufferCsRi__rlE 16CallIntelligence0C23WaitTimeAnalyticsHelperC0efG5StateV So16os_unfair_lock_sV
+- _symbolic _____y__________G s13ManagedBufferCsRi__rlE 16CallIntelligence14ContainerStateO So16os_unfair_lock_sV
+- _symbolic _____y__________G s13ManagedBufferCsRi__rlE 16CallIntelligence15WaitOnHoldStateO So16os_unfair_lock_sV
+- _symbolic _____y__________G s13ManagedBufferCsRi__rlE 16CallIntelligence18HoldDetectionState33_D7394B2BFCBEFC93EBFDF4199876DA1FLLV So16os_unfair_lock_sV
+- _symbolic _____y__________G s13ManagedBufferCsRi__rlE 16CallIntelligence21AnsweringMachineStateO So16os_unfair_lock_sV
+- _symbolic _____y__________G s13ManagedBufferCsRi__rlE 16CallIntelligence25SoundAnalyzerCustomConfigV So16os_unfair_lock_sV
+- _symbolic _____y__________G s13ManagedBufferCsRi__rlE 16CallIntelligence25WaitTimeProviderTelemetryV So16os_unfair_lock_sV
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 9SwiftData0E18StoreConfigurationP
+- _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
+- _symbolic _____y______pXpG s23_ContiguousArrayStorageC 9SwiftData15PersistentModelP
+- _symbolic _____y______y_ABy______y______G_____G_____G_____y_AHGG 10Foundation20PredicateExpressionsO5EqualV AC7KeyPathV AC8VariableV 16CallIntelligence06StoredH12WaitTimeInfoC AJ0jhkL8MetadataC 9SwiftData20PersistentIdentifierV AC5ValueV
+- _symbolic _____y______y______GSSG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 16CallIntelligence06StoredG12WaitTimeInfoC
+- _symbolic _____y______y______GSiG 10Foundation20PredicateExpressionsO7KeyPathV AC5ValueV 16CallIntelligence0G12WaitTimeInfoV9DayOfWeekO
+- _symbolic _____y______y______GSiG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 16CallIntelligence06StoredG12WaitTimeInfoC
+- _symbolic _____y______y______G_____G 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 16CallIntelligence06StoredG12WaitTimeInfoC AH0igjK8MetadataC
+- _symbolic _____y______y______y_ACy______y______G_____G_____G_____y_AIGGABy_ACy_AFSSGAKy_SSGGG 10Foundation20PredicateExpressionsO11ConjunctionV AC5EqualV AC7KeyPathV AC8VariableV 16CallIntelligence06StoredI12WaitTimeInfoC AL0kilM8MetadataC 9SwiftData20PersistentIdentifierV AC5ValueV
+- _symbolic _____y______y______y______GSSG_____y_SSGG 10Foundation20PredicateExpressionsO5EqualV AC7KeyPathV AC8VariableV 16CallIntelligence06StoredH12WaitTimeInfoC AC5ValueV
+- _symbolic _____y______y______y______GSiGABy______y______GSiGG 10Foundation20PredicateExpressionsO5EqualV AC7KeyPathV AC8VariableV 16CallIntelligence06StoredH12WaitTimeInfoC AC5ValueV AJ0hklM0V9DayOfWeekO
+- _symbolic _____y______y______y______GSiG_____y_SiGG 10Foundation20PredicateExpressionsO5EqualV AC7KeyPathV AC8VariableV 16CallIntelligence06StoredH12WaitTimeInfoC AC5ValueV
+- _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 10Foundation14SortDescriptorV 16CallIntelligence06StoredG16WaitTimeMetadataC
+- _symbolic _____y_____y______SdtGG 15Synchronization5MutexVAARi_zrlE 16CallIntelligence14CircularBufferV 10Foundation6LocaleV12LanguageCodeV
+- _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
+- _symbolic _____yypSgG 2os21OSAllocatedUnfairLockV
+- _symbolic _____yypSg_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
+- _symbolic _____yyyYaYbc_G ScS12ContinuationV
+- _symbolic _____yyyYaYbc_G ScS8IteratorV
+- _symbolic _____yyyYaYbc_GSg ScS12ContinuationV
+- _symbolic _____yyyYaYbc__G ScS12ContinuationV11YieldResultO
+- _symbolic _____yyyYaYbc__G ScS12ContinuationV15BufferingPolicyO
+- _symbolic qd__
+- _symbolic x
+- _symbolic xIeghHr_
+- _symbolic x______pIeghHrzo_ s5ErrorP
+- _symbolic ySb_______pSgtc s5ErrorP
+- _symbolic ytSg
+- _symbolic ytSgIeAgHr_
+- _symbolic yyYaYbc
+- _type_layout_string 16CallIntelligence08ReturnToA21DetectorConfigurationV
+- _type_layout_string 16CallIntelligence0A12WaitTimeInfoV
+- _type_layout_string 16CallIntelligence0A15WaitTimeManagerV
+- _type_layout_string 16CallIntelligence0A7Details33_D7394B2BFCBEFC93EBFDF4199876DA1FLLV
+- _type_layout_string 16CallIntelligence12CaptionState33_262AB91A6FBC43E0CEF608EF8F2D800DLLV
+- _type_layout_string 16CallIntelligence14ContainerStateO
+- _type_layout_string 16CallIntelligence16HoldAssistServerC5StateO
+- _type_layout_string 16CallIntelligence17WaitTimeAFMResultV
+- _type_layout_string 16CallIntelligence18HoldDetectionState33_D7394B2BFCBEFC93EBFDF4199876DA1FLLV
+- _type_layout_string 16CallIntelligence23HoldAssistConfigurationV
+- _type_layout_string 16CallIntelligence25CrowdSourcedWaitTimeEventV
+- _type_layout_string 16CallIntelligence25HoldAssistTrialParametersV
+- _type_layout_string 16CallIntelligence25SoundAnalyzerCustomConfigV
+- _type_layout_string 16CallIntelligence25WaitTimeProviderTelemetryV
+- _type_layout_string 16CallIntelligence26SoundAnalyzerConfigurationV
+- _type_layout_string 16CallIntelligence29CaptionsProviderConfigurationV
+- _type_layout_string 16CallIntelligence29WaitTimeProviderConfigurationV
+- _type_layout_string 16CallIntelligence36SoundClassificationResultsAggregatorV
+- _type_layout_string 16CallIntelligence36SoundClassificationResultsAggregatorV0cD5ScoreV
+- _type_layout_string 16CallIntelligence9ServerBagV
+- _type_layout_string So18NSNotificationNamea
+- _type_layout_string s8SendableRzl16CallIntelligence14CircularBufferVyxG
+- _xpc_dictionary_get_string
+- _xpc_get_type
+- _xpc_set_event_stream_handler
+CStrings:
++ "Dropping associated item: type not in primary results and business name not found"
++ "Received user context fetch request for: %{private}s, contact available: %{bool}d, isMerchantOnly %{bool}d, includeDuplicates: %{bool}d"
++ "runQuery(queryString:atTime:disableMinimumFieldRequirements:queryContainsName:searchedBusinessNames:flags:)"
+- "%s"
+- "%s AVCMediaAnalyzer server has died"
+- "%s didFinishAnnouncement: %{bool}d error: %s"
+- "%s didStart: %{bool}d error: %s"
+- "%s didStop: %{bool}d messageRecordingURL: %s error: %s"
+- "%s dominantLocale=%s dominantLocaleConfidence=%f"
+- "%s enabled=%{bool}d"
+- "%s enabled=%{bool}d error=%s"
+- "%s error: %s"
+- "%s error=%s"
+- "%s gibberish=%{bool}d"
+- "%s ignoring error trying to start answering machine %s"
+- "%s isoCountryCode is nil"
+- "%s processing prediction: %s"
+- "%s reason=%s"
+- "%s should update call center=%{bool}d"
+- "%s task added"
+- "%s task cancelled"
+- "%s token %ld"
+- "%s with music"
+- "%s: unknown callID in the request. Ignoring."
+- "%s=%{bool}d"
+- "ASR asset download progress=%{public}ld, %s"
+- "Adding utterance to cached Utterances"
+- "Asset available: naturalLanguageAvailable=%{bool}d asrAvailable=%{bool}d"
+- "Asset download already in progress, skipping duplicate request"
+- "Asset import failed: zero records inserted"
+- "Average classification score %s: %f"
+- "Both wait time and queue position flags enabled which is unhandled"
+- "Bundle path not found - returning nil."
+- "CALL_INTELLIGENCE_HOLD_ASSIST_ASSETS"
+- "CallIntelligence.CaptionProvider"
+- "CallIntelligence.SoundClassificationResultsProvider"
+- "CallIntelligence/WaitOnHoldSession.swift"
+- "CallIntelligenceDefaultParameters"
+- "Can't reconfigure the answering machine, it's already idle"
+- "Can't transition to remoteAgentDetected from %s"
+- "Captions text is nil. Returning."
+- "Compiling NLContextualEmbedding model if needed"
+- "Continue detecting wait on hold"
+- "Could not retrieve wait time: No entry in database"
+- "Couldn't play return to call disclosure - no active answering machine"
+- "Creating transcription logger"
+- "Current Siri voice = %s"
+- "Deleting table because of empty asset."
+- "Disabling MediaAnalyzer client"
+- "Downloading ASR assets"
+- "Downloading NaturalLanguage assets"
+- "Dropping announcement finish notification as it was for the boop"
+- "Dropping announcement finish notification as we're now idle"
+- "Dropping language detection event"
+- "Dropping media tokens changed for call due to UUID mismatch, expected=%s, actual=%s"
+- "Dropping notification "
+- "Duty cycling status enabled=%{bool}d"
+- "Duty cycling task is cancelled"
+- "Ending WaitOnHoldSession for call %s"
+- "Entering sandbox"
+- "Error checking availability of ASR assets because language code is nil"
+- "Error downloading ASR assets: %{public}s, %s"
+- "Error downloading Natural Language assets: %{public}s"
+- "Error ending WaitOnHoldSession for call %s %s"
+- "Error extracting dayOfWeek from dateComponent=%s. Returning."
+- "Error extracting hour from dateComponent=%s. Returning."
+- "Error generating prediction: %s"
+- "Error getting url for assset %s.caf"
+- "Error handling caption event"
+- "Error loading contents of asset at %s. Error: %s"
+- "Error logging call transcript: %s"
+- "Error performing %{public}s %{public}s"
+- "Error performing TUSmartHoldingRequest %{public}s"
+- "Error playing asset  - %s"
+- "Error posting notification: %s"
+- "Error reconfiguring session after media token change %s"
+- "Error setting up log directory structure: %s"
+- "Error setting up logger: %s"
+- "Error starting answering machine for call %s"
+- "Error triggering ASR asset download because language code is nil"
+- "Error trying to force end session %s"
+- "Error updating callservicesd about session failure %s"
+- "Error: Buffer size lesser than threshold"
+- "Failed to compile NLContextualEmbedding model (though this might be expected according to the NLP team): %s"
+- "Failed to construct a language for identifier %{public}s"
+- "Failed to create an AVCAnsweringMachine"
+- "Failed to create directory structure with error %s"
+- "Failed to decode data in file"
+- "Failed to decode plist: %@. Returning nil."
+- "Failed to delete entries from table: %@"
+- "Failed to enter sandbox with error %s"
+- "Failed to generate disclosure %s"
+- "Failed to get data for line \"%s\", skipping"
+- "Failed to initializer ReturnToCallDetectorModel with error %s"
+- "Failed to insert line \"%s\". Error: %@. Skipping"
+- "Failed to move disclosure %s"
+- "Failed to remove existing disclosure at url %s"
+- "Failed to retrieve asset identifier from database: %@"
+- "Failed to retrieve wait time from database: %@"
+- "Failed to start answering machine - we already have an active one"
+- "Failed to start call intelligence daemon with error %s"
+- "Failed to stop answering machine - we don't have an active one"
+- "Failed to update database from asset: %@"
+- "Failed to verify asset: %@"
+- "Finished updating asset with identifier %s. Result %{bool}d"
+- "Generating disclosure for string \"%s\" at url %s"
+- "Generating disclosure if needed"
+- "HOLD_ASSIST_NOTIFICATION_HUNGUP"
+- "HOLD_ASSIST_NOTIFICATION_OTHER_DISCONNECTED"
+- "HOLD_ASSIST_REMOTE_DISCLOSURE"
+- "Handling incoming SmartHolding_XPCMessage_CrowdSourcedWaitTime %s"
+- "Handling incoming SmartHolding_XPCMessage_GetWaitTime %s"
+- "Handling incoming SmartHolding_XPCMessage_Ping message"
+- "Handling incoming SmartHolding_XPCMessage_PopulateCrowdSourcedWaitTimeDatabase %s"
+- "Handling incoming SmartHolding_XPCMessage_Prewarm %{public}s"
+- "Handling incoming SmartHolding_XPCMessage_StartHoldDetection %{public}s"
+- "Handling incoming SmartHolding_XPCMessage_StopHoldDetection %{public}s"
+- "Handling incoming end request"
+- "Handling incoming start request"
+- "Handling notification for TUCallCenterCallContinuityStateChanged %s"
+- "Handling notification for TUCallCenterCallStatusChanged %s"
+- "Handling notification for TUCallSmartHoldingSessionChanged %s"
+- "Handling notification for power state did change isLPMEnabled: %{bool}d"
+- "Hold Detection delay completed, starting sound analysis"
+- "HoldAssistParameters"
+- "Identifier hasn't changed: %s. Returning..."
+- "Ignoring unknown error: %s in caption event stream"
+- "Initial Hold Detection task cancelled"
+- "Initialising call intelligence daemon"
+- "Initializing CallWaitTimeManager"
+- "Invalid downlink stream token %s"
+- "Invalid language code"
+- "Invalid prediction result: %s"
+- "Invalid transition: attemptedState=%{public}s currentState=%{public}s"
+- "Language Model Unavailable"
+- "Loaded configuration from path: %s"
+- "Loaded details for call %s: %s"
+- "Logging transcript"
+- "Maximum Hold Detection duration reached"
+- "Maximum Hold Detection duration task cancelled"
+- "Media analysis duty cycling failed with error %s"
+- "MediaAnalyzer client successfully created"
+- "MediaAnalyzer is nil"
+- "Moving disclosure to permanent location"
+- "NLContextualEmbedding model already compiled and available"
+- "No active session"
+- "No asset identifier in DB"
+- "No data in asset"
+- "No existing disclosure file on disk"
+- "No existing disclosure hash"
+- "No need to perform updates: Trial Rollout call wait time disabled by server bag"
+- "No remote participants in call"
+- "No wait time keywords found in utterance."
+- "Not creating transcript logger - _TUIsInternalInstall: %{bool}d, waitOnHoldLoggingEnabled: %{bool}d"
+- "Not generating disclosure since disclosureGenerator isn't initialized"
+- "Notification"
+- "Notifications not authorized"
+- "Performing wait time database maintenance checks."
+- "Playing return to call disclosure"
+- "Posting notification to inform user of error %s"
+- "Posting session to callservicesd %s"
+- "Predicted ReturnToCallRequired: %s, confidence: %f, isValid: %{bool}d"
+- "Prompt user to Enable Wait on Hold"
+- "Queue position found is true but queue position is nil."
+- "ROLLOUT_IDENTIFIERS_"
+- "Received TUCallSubtypeChanged notification"
+- "Received an xpc event %s"
+- "Received incoming XPC connection request processEntitlements=%s"
+- "Received nil dateComponent from calendar. Returning."
+- "Received user context fetch request for: %{private}s, contact available: %{bool}d, includeDuplicates: %{bool}d"
+- "Reconfiguring answering machine from active state"
+- "Reconfiguring captions client for stream token %ld"
+- "Reconfiguring session with new media tokens"
+- "Retrieving wait time for phone number %{private}s, day %ld, hour %ld"
+- "Running classification score: %s"
+- "Sandbox: _set_user_dir_suffix returned nil"
+- "Sandbox: confstr(_CS_DARWIN_USER_TEMP_DIR) failed"
+- "Sandboxing passed"
+- "Session not in hold detection state. Returning."
+- "Skipping return to call disclosure it was played recently"
+- "Sound analysis prediction: %s"
+- "Started call intelligence daemon"
+- "Starting MediaAnalyzer client for stream token %ld, useCase: %{public}s"
+- "Starting WaitOnHoldSession for call %s"
+- "Starting answering machine"
+- "Starting asset download"
+- "Starting captions client for stream token %ld"
+- "Starting hold detection for call %{public}s"
+- "Starting initial hold detection delay of %{public}s seconds"
+- "Starting media analysis duty cycling"
+- "State transitioned to .finished"
+- "State transitioned to .requiresUserInput"
+- "State transitioned to .screening"
+- "Stopping MediaAnalyzer client"
+- "Stopping answering machine"
+- "Stopping captions client"
+- "Stopping hold detection for call %{public}s"
+- "Stopping media analysis duty cycling"
+- "Successfully decoded first line in asset"
+- "Successfully deleted entries from wait time table."
+- "Successfully downloaded ASR assets"
+- "Successfully downloaded Natural Language assets %{public}s"
+- "Successfully ended WaitOnHoldSession for call %s"
+- "Successfully generated disclosure at url %s"
+- "Successfully ingested %ld items into the DB. Failure count: %ld"
+- "Successfully retrieved wait time: %ld"
+- "Successfully started WaitOnHoldSession for call %s"
+- "Text field represents spoken utterance during a phone call. The text might contain information on the expected wait time for the caller or the callers position in the queue. Your task is to extract this information. Utterance may mention queue position, wait time, or neither.\nOutput must be a JSON with 4 fields:\nisWaitTimeAvailable: This is a boolean flag to indicate if utterance mentions wait time in minutes\nisQueuePositionAvailable: This is a boolean flag to indicate if utterance mentions queue position or number of callers\nwaitTimeLowerBound: The estimated wait time in minutes.\nwaitTimeUpperBound: If the utterance gives a time range, then populate this field with the upper bound in minutes. Otherwise populate field as None.\nqueuePosition: The number of callers in the queue at the moment\nAnalyze each text independently.\n\nText: \"Your estimated wait time is five minutes.\"\nAnswer: { isWaitTimeAvailable: True, isQueuePositionAvailable: False, waitTimeLowerBound: 5, waitTimeUpperBound: None, queuePosition: None}\n\nText: \"There are 6 customers in the queue\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: True, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: 6}\n\nText: \"There are 2 callers ahead of you.\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: True, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: 2}\n\nText: \"Your expected hold time is between 24 minutes to 30 minutes.\"\nAnswer: { isWaitTimeAvailable: True, isQueuePositionAvailable: False, waitTimeLowerBound: 24, waitTimeUpperBound: 30, queuePosition: None}\n\nText: \"We will answer your call in a few minutes.\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None}\n\nText: \"Please remain on the line, and a representative will be with you shortly.\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None}\n\nText: \"To hold your place in the queue and receive a callback from the next available specialist, please press 9.\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None}\n\nText: \"The survey should only take two or three minutes;\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None}"
+- "TimeZone for identifier=%s returned nil."
+- "Trial Rollout call wait time disabled by server bag. Returning nil."
+- "Trial experiments disabled by server bag - returning config from defaultFactorPath."
+- "Trial experiments inactive - returning config from defaultFactorPath."
+- "Trial factor paths not found - returning config from defaultFactorPath."
+- "TrialManager returned nil. Returning config from initializer."
+- "Unable to create temp directory"
+- "Unexpected error while stopping hold detection: %@"
+- "Unexpected lower bound is nil when wait time is available: %s"
+- "Unknown callUUID %s"
+- "Unsupported locale %s for ReturnToCallDetectorModel"
+- "Updating DB using records from input asset at path: %s"
+- "Utterance is cached, skipping calling the CoreML model"
+- "Utterance is not cached, calling the CoreML model"
+- "Validate asset check failed for identifier %s. Returning..."
+- "WAIT_TIME_GATING_AHEADOF"
+- "WAIT_TIME_GATING_HOLDTIME"
+- "WAIT_TIME_GATING_INFRONTOF"
+- "WAIT_TIME_GATING_LINE"
+- "WAIT_TIME_GATING_MINUTE"
+- "WAIT_TIME_GATING_MINUTES"
+- "WAIT_TIME_GATING_QUEUE"
+- "WAIT_TIME_GATING_WAITINGTIME"
+- "WAIT_TIME_GATING_WAITTIME"
+- "WE GOT A NOTIFICATION %s"
+- "WIRELESS_DATA_ANALYTICS_CALLINTELLIGENCE_EXPERIMENTATION"
+- "Wait time asset update with asset identifier %s and assetURL %s"
+- "WaitTimeProvider not processing utterance. isLanguageModelAvailable=%{bool}d serverBagEnabled=%{bool}d"
+- "WaitTimeProvider: wait time bounds (lower=%ld, upper=%ld) exceed plausible range"
+- "_NO_ROLLOUT_ACTIVE"
+- "_createCheckedContinuation(_:)"
+- "_createCheckedThrowingContinuation(_:)"
+- "answeringMachine(_:didFinishAnnouncement:error:)"
+- "answeringMachine(_:didStart:error:)"
+- "answeringMachine(_:didStop:messageRecording:error:)"
+- "call-intelligence-international-country-code-prefixes"
+- "call-intelligence-toll-free-prefixes"
+- "call-intelligence-trial-experiments-enabled"
+- "call-intelligence-trial-rollout-wait-time-enabled"
+- "call-intelligence-wait-time-provider-enabled"
+- "call_start_to_hold_assist_end_time"
+- "captionsClient(_:didDetectGibberish:)"
+- "captionsClient(_:didDisableCaptions:error:)"
+- "captionsClient(_:didEnableCaptions:error:)"
+- "captionsClient(_:didStartCaptioningWith:)"
+- "captionsClient(_:didStopCaptioningWith:)"
+- "captionsClient(_:didStopLanguageDetectorWithError:)"
+- "captionsClient(_:didUpdateCaptions:source:)"
+- "captionsProvider"
+- "captionsServerDidDie(_:)"
+- "captions_latency"
+- "com.apple.CallIntelligence.crowdSourcedWaitTimeInfo"
+- "com.apple.callintelligenced"
+- "com.apple.fm.language.instruct_3b.holdassistwaittime"
+- "com.apple.notifyd.matching"
+- "com.apple.trial.NamespaceUpdate.CALL_INTELLIGENCE_HOLD_ASSIST_ASSETS"
+- "confidence_score"
+- "currentDisclosureHash=%s"
+- "current_remote_disclosure"
+- "dominantLocaleConfidenceThreshold"
+- "endScreening(callUUID:)"
+- "endScreeningDueToError(callUUID:)"
+- "endSession(callUUID:)"
+- "getCurrentState()"
+- "handleHoldDurationUtterance(_:)"
+- "handleLanguageDetection(_:_:)"
+- "handleMusicDetectionEvent(event:)"
+- "handleProducedLanguageHypothesis(_:)"
+- "handleTipDetectionEvent(event:)"
+- "handleUtteranceEvent(utterance:isUtteranceComplete:)"
+- "hold_assist_disclosure.caf"
+- "hold_assist_wait_time"
+- "inactiveTaskFailed"
+- "invalidDownlinkMediaToken"
+- "invalidState"
+- "isBusinessCall(callUUID:)"
+- "isGenerationNeeded=%{bool,public}d"
+- "isQueuePositionAvailable"
+- "isWaitTimeAvailable"
+- "is_utterance_complete"
+- "limit on number Of cached utterances reached, not adding utterance to cached utterances"
+- "maxAllowedInvalidLocaleCount"
+- "maxAllowedSpeechCount"
+- "maxUtteranceCacheSize"
+- "mediaAnalyzer(_:didEnable:error:)"
+- "mediaAnalyzer(_:didProduceMediaAnalysisResult:streamToken:)"
+- "mediaAnalyzerServerDidDie(_:)"
+- "minCountForPartialUtterance"
+- "modelResultBufferSize"
+- "modelYesResultThreshold"
+- "model_unavailable_count"
+- "music_probability"
+- "newDisclosureHash=%s"
+- "nospeech_probability"
+- "notification.object is not a TUCall %s"
+- "other_probability"
+- "predictReturnToCallRequired(caption:isCompleteUtterance:)"
+- "predicted_error_call_start"
+- "predicted_error_hold_start"
+- "prediction_error"
+- "prediction_latency"
+- "predictions_failed_count"
+- "predictions_requested_count"
+- "queue_position_predictions_count"
+- "remoteDisclosureMinimumWait"
+- "returnToCallClassifier"
+- "ringbackDuration"
+- "runQuery(queryString:atTime:disableMinimumFieldRequirements:queryContainsName:searchedBusinessNames:)"
+- "screeningTaskFailed"
+- "serverDidDisconnect(for:)"
+- "shouldUpdateCallCenter: %{bool}d, isUtteranceComplete: %{bool}d, isFirstTimePredictionStateTransition: %{bool}d"
+- "silence_probability"
+- "soundAnalyzerSongs"
+- "soundAnalyzerTipsDefault"
+- "soundAnalyzerTipsTollFree"
+- "speech_probability"
+- "startScreening(callUUID:)"
+- "startSoundAnalyzerEventStreamHandling(analysisType:)"
+- "synthesize(request:)"
+- "taskFailed"
+- "unknownCallUUID"
+- "updateCallCenter(callUUID:)"
+- "userInputTaskFailed"
+- "utteranceSatifiesCountCriteria(_:)"
+- "utterances_received_count"
+- "waitTime.sqlitedb"
+- "waitTimeForNewUtterances"
+- "waitTimeLowerBound"
+- "waitTimeUpperBound"
+- "wait_time_not_found_in_utterance_count"
+- "wait_time_predictions_count"
+```

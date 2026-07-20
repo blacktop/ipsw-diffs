@@ -1,0 +1,107 @@
+## nanoregistryd
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 
+ (deny generic-issue-extension)
+ 
+-(deny iokit-issue-extension)
++(deny iokit-get-properties)
+ 
+-(deny iokit-open-user-client)
+-(allow iokit-open-user-client
++(deny iokit-open*)
++(allow iokit-open*
+ 	(require-any
+ 		(iokit-registry-entry-class "${ENTITLEMENT:com.apple.security.exception.iokit-user-client-class}")
+ 		(iokit-registry-entry-class "${ENTITLEMENT:com.apple.security.iokit-user-client-class}")
+
+ 	)
+ )
+ 
+-(deny iokit-open-service)
+-(allow iokit-open-service
++(deny iokit-open-user-client)
++(allow iokit-open-user-client
+ 	(require-any
+ 		(iokit-registry-entry-class "AppleKeyStore")
+ 		(iokit-registry-entry-class "AppleSSE")
+
+ 	)
+ )
+ 
++(deny iokit-open-service)
++
+ (deny iokit-set-properties)
+ 
+ (deny ipc*)
+ 
+-(deny ipc-posix-sem-open)
+-(allow ipc-posix-sem-open
++(deny ipc-posix-sem-create)
++(allow ipc-posix-sem-create
+ 	(ipc-posix-name "purplebuddy.sentinel")
+ )
+ 
+-(deny ipc-posix-shm-read-data)
+-(allow ipc-posix-shm-read-data
++(deny ipc-posix-shm*)
++(allow ipc-posix-shm*
+ 	(require-any
+ 		(ipc-posix-name "apple.cfprefs.daemonv1")
+ 		(ipc-posix-name "apple.cfprefs.system.daemonv1")
+
+ 	)
+ )
+ 
+-(deny job-creation)
++(allow ipc-sysv-shm)
+ 
+-(deny mach-issue-extension)
++(deny isp-command-send)
+ 
+-(deny mach-lookup
++(deny mach-host-special-port-set)
++
++(deny mach-issue-extension
+ 	(require-all
+ 		(global-name "com.apple.dt.testmanagerd.uiprocess")
+ 		(require-not (global-name "com.apple.mobilegestalt.xpc"))
+
+ 	)
+ )
+ 
++(deny process-codesigning)
++
+ (deny process-exec*)
+ 
++(allow process-exec-interpreter)
++
+ (deny socket-ioctl)
+ (allow socket-ioctl
+ 	(ioctl-command
+
+ 		SYS_sysctl
+ 		SYS_getumask
+ 		SYS_open_dprotected_np
++		SYS_openat_dprotected_np
+ 		SYS_getattrlist
+ 		SYS_fgetattrlist
+ 		SYS_setxattr
+
+ 		SYS_connectx
+ 		SYS_getattrlistbulk
+ 		SYS_openat
++		SYS_renameat
+ 		SYS_faccessat
+ 		SYS_fstatat
+ 		SYS_fstatat64
+ 		SYS_mkdirat
+ 		SYS_bsdthread_ctl
++		SYS_guarded_open_dprotected_np
+ 		SYS_persona
+ 		SYS_getentropy
+ 		SYS_necp_open
+```

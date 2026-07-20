@@ -1,0 +1,168 @@
+## com.apple.driverkitd
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 
+ (allow fs-quota*)
+ 
+-(allow iokit-get-properties
++(allow iokit*
+ 	(require-all
+ 		(iokit-property "supports-third-party-drivers")
+ 		(iokit-registry-entry-class "IOPlatformDevice")
+ 	)
+ )
+-(allow iokit-get-properties
++(allow iokit*
+ 	(require-any
+ 		(iokit-property "OSKernelCPUSubtype")
+ 		(iokit-property "OSKernelCPUType")
+ 	)
+ )
+ 
+-(allow iokit-open-user-client
++(allow iokit-open*
+ 	(extension "com.apple.security.exception.iokit-user-client-class")
+ )
+ 
+-(allow iokit-open-service
++(allow iokit-open-user-client
+ 	(%entitlement-is-present "com.apple.security.exception.iokit-user-client-class")
+ )
+ 
+-(allow iokit-set-properties
++(allow iokit-open-service
+ 	(iokit-registry-entry-class "IOUserResources")
+ )
+ 
+-(allow ipc-posix-shm-read-data
++(allow ipc-posix-shm*
+ 	(require-all
+ 		(ipc-posix-name "apple.shm.notification_center")
+ 		(require-not (%entitlement-is-bool-true "com.apple.security.on-demand-install-capable"))
+ 	)
+ )
+ 
++(allow ipc-sysv-shm)
++
+ (allow isp-command-send)
+ 
+-(allow job-creation)
+-
+-(deny lsopen
++(deny job-creation
+ 	(profile-flag "deny-lsopen")
+ )
+ 
+-(allow mach-derive-port)
++(allow mach-cross-domain-lookup)
+ 
+-(allow mach-lookup
++(allow mach-issue-extension
+ 	(require-all
+ 		(global-name "com.apple.system.notification_center")
+ 		(%entitlement-is-bool-true "com.apple.security.on-demand-install-capable")
+ 	)
+ )
+-(allow mach-lookup
++(allow mach-issue-extension
+ 	(require-any
+ 		(extension "com.apple.security.exception.mach-lookup.global-name")
+ 		(extension "com.apple.security.exception.mach-lookup.local-name")
+
+ 		(xpc-service-name "*")
+ 	)
+ )
+-(deny mach-lookup
++(deny mach-issue-extension
+ 	(require-any
+ 		(xpc-service-name "com.apple.CoreGraphics.CGPDFService")
+ 		(xpc-service-name "com.apple.WebKit.*")
+ 	)
+ )
+ 
+-(allow mach-priv-host-port)
++(allow mach-priv*)
+ 
+-(allow mach-register
++(allow mach-priv-task-port
+ 	(extension "com.apple.security.exception.mach-register.global-name")
+ )
+ 
+-(allow mach-task-exception-port-set)
++(allow mach-task*)
++
++(allow mach-task-exception-port-set
++	(target self)
++)
+ 
+ (allow mach-task-inspect
+ 	(target self)
+
+ 	(target self)
+ )
+ 
+-(allow mach-task-read
++(allow process*)
++
++(allow process-fork
+ 	(target self)
+ )
+ 
+-(allow mach-task-special-port*)
+-
+-(allow necp-client-open)
+-
+-(allow process-codesigning)
+-
+-(allow process-info*
++(allow process-info-codesignature
+ 	(target self)
+ )
+ 
+-(allow process-info-codesignature)
++(allow process-info-dirtycontrol
++	(target self)
++)
+ 
+-(allow process-info-pidinfo)
++(allow process-info-ledger
++	(target self)
++)
+ 
+-(allow process-iopolicy*)
++(allow process-info-pidinfo
++	(target self)
++)
++
++(allow process-info-pidfdinfo
++	(target self)
++)
++
++(allow process-info-pidfileportinfo
++	(target self)
++)
++
++(allow process-info-sandbox-container
++	(target self)
++)
+ 
+ (allow sandbox-check)
+ 
+
+ 		SYS_getattrlistbulk
+ 		SYS_openat
+ 		SYS_openat_nocancel
++		SYS_renameat
+ 		SYS_faccessat
+ 		SYS_fchmodat
+ 		SYS_fchownat
+
+ (allow system-privilege)
+ 
+ (allow exception-entitlement)
+-
+-(allow process-exec-update-label)
+```
