@@ -1,0 +1,114 @@
+## AccessibilityReadingUI
+
+> `/System/Library/PrivateFrameworks/AccessibilityReadingUI.framework/Versions/A/AccessibilityReadingUI`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__data`
+
+```diff
+
+-3234.2.0.0.0
+-  __TEXT.__text: 0x8a8b8
++3237.0.0.0.0
++  __TEXT.__text: 0x8b1ec
+   __TEXT.__objc_methlist: 0x668
+-  __TEXT.__const: 0x5384
+-  __TEXT.__swift5_typeref: 0xc2da
+-  __TEXT.__swift5_capture: 0xee0
+-  __TEXT.__constg_swiftt: 0x20e8
++  __TEXT.__const: 0x53a4
++  __TEXT.__swift5_typeref: 0xc2b4
++  __TEXT.__swift5_capture: 0xf70
++  __TEXT.__constg_swiftt: 0x20f0
+   __TEXT.__swift5_reflstr: 0x17fa
+   __TEXT.__swift5_assocty: 0x6b8
+   __TEXT.__swift5_fieldmd: 0x1540
+   __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_proto: 0x184
+   __TEXT.__swift5_types: 0x15c
+-  __TEXT.__cstring: 0x16ab
+-  __TEXT.__oslogstring: 0x23a
++  __TEXT.__cstring: 0x16bb
++  __TEXT.__oslogstring: 0x235
+   __TEXT.__swift_as_entry: 0x34
+   __TEXT.__swift_as_cont: 0x8c
+   __TEXT.__swift_as_ret: 0x34
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x19e8
++  __TEXT.__unwind_info: 0x19f0
+   __TEXT.__eh_frame: 0xfc4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x98
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xa38
++  __DATA_CONST.__objc_selrefs: 0xa68
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x3b90
++  __AUTH_CONST.__const: 0x3d70
+   __AUTH_CONST.__objc_const: 0x12d0
+-  __AUTH_CONST.__auth_got: 0x1c18
+-  __AUTH.__objc_data: 0x1120
++  __AUTH_CONST.__auth_got: 0x1c30
++  __AUTH.__objc_data: 0x1128
+   __AUTH.__data: 0x12f8
+-  __DATA.__data: 0x2ce0
++  __DATA.__data: 0x2cf0
+   __DATA.__bss: 0x3208
+   __DATA.__common: 0x58
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2395
+-  Symbols:   1727
++  Functions: 2415
++  Symbols:   1736
+   CStrings:  167
+ 
+Symbols:
++ _NSParagraphStyleAttributeName
++ _OBJC_CLASS_$_NSMutableParagraphStyle
++ _OBJC_CLASS_$_NSParagraphStyle
++ _objc_msgSend$mutableCopy
++ _objc_msgSend$selectedRange
++ _objc_msgSend$setFirstLineHeadIndent:
++ _objc_msgSend$setHeadIndent:
++ _objc_msgSend$setSelectedRange:
++ _objc_msgSend$setTailIndent:
++ _symbolic So13NSTextStorageC
++ _symbolic ___________y_____y_____y_____y_____y_____yAA__________ySayADGSSABy_____y______ADQo______GGG_Qo_AIG_Qo_______Qo__Qo_t 7SwiftUI4TextV AA4ViewPAAE12buttonSizingyQrAA06ButtonF0VFQO AeAE11pickerStyleyQrqd__AA06PickerI0Rd__lFQO AeAE12labelsHiddenQryFQO AA15ModifiedContentV AeAE17automationElementQryFQO AA0J0V 23AccessibilityReaderData20AXRTextSpacingOptionO AA7ForEachV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA5ImageV AA0Q18AttachmentModifierV AA09SegmentedjI0V
++ _symbolic _____y___________y___________y_____y_____y_____y_____y_____yAD__________ySayAGGSSAEy_____y______AGQo______GGG_Qo_ALG_Qo_______Qo__Qo_QPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA4TextV AA0D0PAAE12buttonSizingyQrAA06ButtonL0VFQO AmAE11pickerStyleyQrqd__AA06PickerO0Rd__lFQO AmAE12labelsHiddenQryFQO AA08ModifiedI0V AmAE17automationElementQryFQO AA0P0V 23AccessibilityReaderData20AXRTextSpacingOptionO AA7ForEachV AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA5ImageV AA0V18AttachmentModifierV AA09SegmentedpO0V
++ _symbolic _____y_____y___________y_____y_____y_____y_____y_____yAC__________ySayAFGSSADy_____y______AFQo______GGG_Qo_AKG_Qo_______Qo__Qo_QPGG 7SwiftUI6VStackV AA12TupleContentV AA4TextV AA4ViewPAAE12buttonSizingyQrAA06ButtonI0VFQO AiAE11pickerStyleyQrqd__AA06PickerL0Rd__lFQO AiAE12labelsHiddenQryFQO AA08ModifiedE0V AiAE17automationElementQryFQO AA0M0V 23AccessibilityReaderData20AXRTextSpacingOptionO AA7ForEachV AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA5ImageV AA0S18AttachmentModifierV AA09SegmentedmL0V
++ _symbolic _____y_____y_____y_____y_____y_____y_______________ySayADGSSAAy_____y______ADQo______GGG_Qo_AIG_Qo_______Qo__Qo_ 7SwiftUI4ViewPAAE12buttonSizingyQrAA06ButtonE0VFQO AcAE11pickerStyleyQrqd__AA06PickerH0Rd__lFQO AcAE12labelsHiddenQryFQO AA15ModifiedContentV AcAE17automationElementQryFQO AA0I0V AA4TextV 23AccessibilityReaderData20AXRTextSpacingOptionO AA7ForEachV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA5ImageV AA0Q18AttachmentModifierV AA09SegmentediH0V
++ get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyACyACyAA5ColorVAA16_FlexFrameLayoutVGAA25_AllowsHitTestingModifierVGGAA017_AppearanceActionM0VGAA4ViewHPAnaRHPyHC_ApA0pM0HPyHCHC
++ get_witness_table 7SwiftUI6VStackVyAA12TupleContentVyAA4TextV_AA4ViewPAAE12buttonSizingyQrAA06ButtonI0VFQOyAiAE11pickerStyleyQrqd__AA06PickerL0Rd__lFQOyAiAE12labelsHiddenQryFQOyAA08ModifiedE0VyAiAE17automationElementQryFQOyAA0M0VyAG23AccessibilityReaderData20AXRTextSpacingOptionOAA7ForEachVySayAWGSSAQyAiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAA5ImageV_AWQo_AA0S18AttachmentModifierVGGG_Qo_A5_G_Qo__AA09SegmentedmL0VQo__Qo_QPGGAaHHPyHC
+- _symbolic ___________y_____y_____y_____y_____y_____yAA__________ySayADGSSABy_____y______ADQo______GGG_Qo_AIG_Qo_______Qo__Qo_t 7SwiftUI4TextV AA4ViewPAAE22_controlSizingBehavioryQrAA07ControlfG3_v0VFQO AeAE11pickerStyleyQrqd__AA06PickerK0Rd__lFQO AeAE12labelsHiddenQryFQO AA15ModifiedContentV AeAE17automationElementQryFQO AA0L0V 23AccessibilityReaderData20AXRTextSpacingOptionO AA7ForEachV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA5ImageV AA0S18AttachmentModifierV AA09SegmentedlK0V
+- _symbolic _____y___________y___________y_____y_____y_____y_____y_____yAD__________ySayAGGSSAEy_____y______AGQo______GGG_Qo_ALG_Qo_______Qo__Qo_QPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA4TextV AA0D0PAAE22_controlSizingBehavioryQrAA07ControllM3_v0VFQO AmAE11pickerStyleyQrqd__AA06PickerQ0Rd__lFQO AmAE12labelsHiddenQryFQO AA08ModifiedI0V AmAE17automationElementQryFQO AA0R0V 23AccessibilityReaderData20AXRTextSpacingOptionO AA7ForEachV AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA5ImageV AA0X18AttachmentModifierV AA09SegmentedrQ0V
+- _symbolic _____y_____y___________y_____y_____y_____y_____y_____yAC__________ySayAFGSSADy_____y______AFQo______GGG_Qo_AKG_Qo_______Qo__Qo_QPGG 7SwiftUI6VStackV AA12TupleContentV AA4TextV AA4ViewPAAE22_controlSizingBehavioryQrAA07ControliJ3_v0VFQO AiAE11pickerStyleyQrqd__AA06PickerN0Rd__lFQO AiAE12labelsHiddenQryFQO AA08ModifiedE0V AiAE17automationElementQryFQO AA0O0V 23AccessibilityReaderData20AXRTextSpacingOptionO AA7ForEachV AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA5ImageV AA0U18AttachmentModifierV AA09SegmentedoN0V
+- _symbolic _____y_____y_____yAAyAAy__________G_____GG_____G______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA15ModifiedContentV AA6ZStackV AA5ColorV AA16_FlexFrameLayoutV AA25_AllowsHitTestingModifierV AA017_AppearanceActionR0V AA10ScenePhaseO
+- _symbolic _____y_____y_____y_____y_____y_____y_______________ySayADGSSAAy_____y______ADQo______GGG_Qo_AIG_Qo_______Qo__Qo_ 7SwiftUI4ViewPAAE22_controlSizingBehavioryQrAA07ControleF3_v0VFQO AcAE11pickerStyleyQrqd__AA06PickerJ0Rd__lFQO AcAE12labelsHiddenQryFQO AA15ModifiedContentV AcAE17automationElementQryFQO AA0K0V AA4TextV 23AccessibilityReaderData20AXRTextSpacingOptionO AA7ForEachV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA5ImageV AA0S18AttachmentModifierV AA09SegmentedkJ0V
+- get_witness_table 7SwiftUI6VStackVyAA12TupleContentVyAA4TextV_AA4ViewPAAE22_controlSizingBehavioryQrAA07ControliJ3_v0VFQOyAiAE11pickerStyleyQrqd__AA06PickerN0Rd__lFQOyAiAE12labelsHiddenQryFQOyAA08ModifiedE0VyAiAE17automationElementQryFQOyAA0O0VyAG23AccessibilityReaderData20AXRTextSpacingOptionOAA7ForEachVySayAWGSSAQyAiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAA5ImageV_AWQo_AA0U18AttachmentModifierVGGG_Qo_A5_G_Qo__AA09SegmentedoN0VQo__Qo_QPGGAaHHPyHC
+- get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA15ModifiedContentVyAA6ZStackVyAHyAHyAA5ColorVAA16_FlexFrameLayoutVGAA25_AllowsHitTestingModifierVGGAA017_AppearanceActionR0VG_AA10ScenePhaseOQo_HO
+```

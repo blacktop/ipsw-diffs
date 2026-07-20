@@ -1,0 +1,127 @@
+## SiriTTSTraining
+
+> `/System/Library/PrivateFrameworks/SiriTTSTraining.framework/Versions/A/SiriTTSTraining`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__cstring`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__weak_got`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+
+```diff
+
+-3600.8.1.0.0
++3600.8.2.0.0
+   __TEXT.__text: 0x20ab7c
+   __TEXT.__init_offsets: 0x4
+   __TEXT.__objc_methlist: 0x7a4
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/base/io-funcs.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/base/kaldi-math.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/base/random-number.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/cudamatrix/cu-math.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/cudamatrix/cu-matrix.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/cudamatrix/cu-rand.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/cudamatrix/cu-vector.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/cudamatrix/cu-workspace.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/decoder/decodable-matrix.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/decoder/faster-decoder.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/decoder/training-graph-compiler.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/feat/feature-fbank.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/feat/feature-functions.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/feat/mel-computations.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/hmm/hmm-topology.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/hmm/hmm-utils.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/hmm/transition-model.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/matrix/compressed-matrix.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/matrix/kaldi-matrix.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/matrix/kaldi-matrix.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/matrix/kaldi-quantized-matrix.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/matrix/kaldi-vector.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/matrix/matrix-functions.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/matrix/srfft.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-attention-component.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-birnn.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-component.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-convolutional-2d-component.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-convolutional-maxpooling-component.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-fixed-attention-component.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-global-attention-component.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-global-recurrent-attention.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-gru.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-layer-norm-component.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-linear-transform.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-lstm.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-moving-attention-component.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-nnet.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-pdf-prior.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-ssru.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-word-multivec-component.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/tree/context-dep.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/tree/event-map.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zrBu4v/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/util/kaldi-io.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/base/io-funcs.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/base/kaldi-math.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/base/random-number.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/cudamatrix/cu-math.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/cudamatrix/cu-matrix.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/cudamatrix/cu-rand.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/cudamatrix/cu-vector.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/cudamatrix/cu-workspace.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/decoder/decodable-matrix.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/decoder/faster-decoder.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/decoder/training-graph-compiler.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/feat/feature-fbank.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/feat/feature-functions.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/feat/mel-computations.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/hmm/hmm-topology.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/hmm/hmm-utils.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/hmm/transition-model.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/matrix/compressed-matrix.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/matrix/kaldi-matrix.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/matrix/kaldi-matrix.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/matrix/kaldi-quantized-matrix.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/matrix/kaldi-vector.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/matrix/matrix-functions.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/matrix/srfft.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-attention-component.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-birnn.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-component.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-convolutional-2d-component.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-convolutional-maxpooling-component.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-fixed-attention-component.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-global-attention-component.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-global-recurrent-attention.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-gru.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-layer-norm-component.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-linear-transform.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-lstm.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-moving-attention-component.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-nnet.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-pdf-prior.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-ssru.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/nnet/nnet-word-multivec-component.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/tree/context-dep.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/tree/event-map.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.uqanOr/Sources/SiriTTSTraining/tts-speech-feature/subproject/libquasar/libkaldi/src/util/kaldi-io.cc"
+```

@@ -1,0 +1,1275 @@
+## GPUToolsReplay
+
+> `/System/Library/PrivateFrameworks/GPUToolsReplay.framework/Versions/A/GPUToolsReplay`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH.__data`
+- `__AUTH.__thread_vars`
+
+```diff
+
+-2027.0.33.0.0
+-  __TEXT.__text: 0x419a50
++2027.0.35.0.0
++  __TEXT.__text: 0x413014
+   __TEXT.__init_offsets: 0x10
+-  __TEXT.__objc_methlist: 0x7f7c
+-  __TEXT.__const: 0xa4d0
+-  __TEXT.__oslogstring: 0x19e6
+-  __TEXT.__cstring: 0x111141
+-  __TEXT.__gcc_except_tab: 0x17e70
++  __TEXT.__objc_methlist: 0x7e54
++  __TEXT.__const: 0xa4e0
++  __TEXT.__oslogstring: 0x18ce
++  __TEXT.__cstring: 0x110a4c
++  __TEXT.__gcc_except_tab: 0x178ac
+   __TEXT.__ustring: 0x4f6
+-  __TEXT.__unwind_info: 0x5be8
++  __TEXT.__unwind_info: 0x5ad0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x33c798
+-  __DATA_CONST.__objc_classlist: 0x2a0
++  __DATA_CONST.__const: 0x33c740
++  __DATA_CONST.__objc_classlist: 0x298
+   __DATA_CONST.__objc_catlist: 0x30
+-  __DATA_CONST.__objc_protolist: 0x1b0
++  __DATA_CONST.__objc_protolist: 0x1a0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6bb8
+-  __DATA_CONST.__objc_protorefs: 0xd8
+-  __DATA_CONST.__objc_superrefs: 0x278
++  __DATA_CONST.__objc_selrefs: 0x6ae0
++  __DATA_CONST.__objc_protorefs: 0xc8
++  __DATA_CONST.__objc_superrefs: 0x270
+   __DATA_CONST.__objc_arraydata: 0xba0
+-  __DATA_CONST.__got: 0x9a8
+-  __AUTH_CONST.__const: 0x3c38
+-  __AUTH_CONST.__cfstring: 0xff00
+-  __AUTH_CONST.__objc_const: 0xc280
++  __DATA_CONST.__got: 0x990
++  __AUTH_CONST.__const: 0x38e8
++  __AUTH_CONST.__cfstring: 0xf9a0
++  __AUTH_CONST.__objc_const: 0xc090
+   __AUTH_CONST.__weak_auth_got: 0x30
+-  __AUTH_CONST.__objc_intobj: 0x738
++  __AUTH_CONST.__objc_intobj: 0x720
+   __AUTH_CONST.__objc_arrayobj: 0x270
+   __AUTH_CONST.__objc_dictobj: 0x820
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__auth_got: 0xd90
+-  __AUTH.__objc_data: 0x1a40
++  __AUTH.__objc_data: 0x19f0
+   __AUTH.__data: 0x20
+   __AUTH.__thread_vars: 0x78
+   __AUTH.__thread_bss: 0x1088
+-  __DATA.__objc_ivar: 0x7b0
+-  __DATA.__data: 0x2728
+-  __DATA.__bss: 0x1530
++  __DATA.__objc_ivar: 0x794
++  __DATA.__data: 0x2668
++  __DATA.__bss: 0x1528
+   __DATA.__common: 0x51
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 7568
+-  Symbols:   12486
+-  CStrings:  18466
++  Functions: 7500
++  Symbols:   12347
++  CStrings:  18402
+ 
+Symbols:
++ GCC_except_table1283
++ GCC_except_table1286
++ GCC_except_table1288
++ GCC_except_table1323
++ GCC_except_table1325
++ GCC_except_table1331
++ GCC_except_table1343
++ GCC_except_table1351
++ GCC_except_table1357
++ GCC_except_table1372
++ GCC_except_table1380
++ GCC_except_table1388
++ GCC_except_table1393
++ GCC_except_table1397
++ GCC_except_table1411
++ GCC_except_table1416
++ GCC_except_table1420
++ GCC_except_table1427
++ GCC_except_table1433
++ GCC_except_table1440
++ GCC_except_table1443
++ GCC_except_table1447
++ GCC_except_table1457
++ GCC_except_table1461
++ GCC_except_table1470
++ GCC_except_table1478
++ GCC_except_table1481
++ GCC_except_table1490
++ GCC_except_table1492
++ GCC_except_table1495
++ GCC_except_table1498
++ GCC_except_table1510
++ GCC_except_table1513
++ GCC_except_table1518
++ GCC_except_table1522
++ GCC_except_table1524
++ GCC_except_table1526
++ GCC_except_table1532
++ GCC_except_table1545
++ GCC_except_table1548
++ GCC_except_table1552
++ GCC_except_table1566
++ GCC_except_table1597
++ GCC_except_table1610
++ GCC_except_table1614
++ GCC_except_table1626
++ GCC_except_table1694
++ GCC_except_table1811
++ GCC_except_table1835
++ GCC_except_table1891
++ GCC_except_table1916
++ GCC_except_table1947
++ GCC_except_table1956
++ GCC_except_table1968
++ GCC_except_table1970
++ GCC_except_table1972
++ GCC_except_table1974
++ GCC_except_table1976
++ GCC_except_table1985
++ GCC_except_table2011
++ GCC_except_table2016
++ GCC_except_table2018
++ GCC_except_table2127
++ GCC_except_table2130
++ GCC_except_table2132
++ GCC_except_table2140
++ GCC_except_table2145
++ GCC_except_table2151
++ GCC_except_table2156
++ GCC_except_table2158
++ GCC_except_table2163
++ GCC_except_table2168
++ GCC_except_table2212
++ GCC_except_table2234
++ GCC_except_table2235
++ GCC_except_table2236
++ GCC_except_table2312
++ GCC_except_table2322
++ GCC_except_table2323
++ GCC_except_table2324
++ GCC_except_table2352
++ GCC_except_table2353
++ GCC_except_table2371
++ GCC_except_table2372
++ GCC_except_table2380
++ GCC_except_table2383
++ GCC_except_table2394
++ GCC_except_table2395
++ GCC_except_table2400
++ GCC_except_table2401
++ GCC_except_table2404
++ GCC_except_table2407
++ GCC_except_table2408
++ GCC_except_table2417
++ GCC_except_table2420
++ GCC_except_table2456
++ GCC_except_table2458
++ GCC_except_table2460
++ GCC_except_table2461
++ GCC_except_table2463
++ GCC_except_table2465
++ GCC_except_table2480
++ GCC_except_table2497
++ GCC_except_table2500
++ GCC_except_table2509
++ GCC_except_table2513
++ GCC_except_table2519
++ GCC_except_table2522
++ GCC_except_table2532
++ GCC_except_table2539
++ GCC_except_table2541
++ GCC_except_table2542
++ GCC_except_table2543
++ GCC_except_table2549
++ GCC_except_table2550
++ GCC_except_table2551
++ GCC_except_table2561
++ GCC_except_table2562
++ GCC_except_table2577
++ GCC_except_table2578
++ GCC_except_table2579
++ GCC_except_table2581
++ GCC_except_table2588
++ GCC_except_table2589
++ GCC_except_table2590
++ GCC_except_table2601
++ GCC_except_table2604
++ GCC_except_table2608
++ GCC_except_table2610
++ GCC_except_table2611
++ GCC_except_table2612
++ GCC_except_table2623
++ GCC_except_table2630
++ GCC_except_table2639
++ GCC_except_table2645
++ GCC_except_table2646
++ GCC_except_table2647
++ GCC_except_table2648
++ GCC_except_table2664
++ GCC_except_table3090
++ GCC_except_table3094
++ GCC_except_table3098
++ GCC_except_table3101
++ GCC_except_table3121
++ GCC_except_table3133
++ GCC_except_table3143
++ GCC_except_table3145
++ GCC_except_table3147
++ GCC_except_table3149
++ GCC_except_table3150
++ GCC_except_table3152
++ GCC_except_table3154
++ GCC_except_table3169
++ GCC_except_table3185
++ GCC_except_table3202
++ GCC_except_table3231
++ GCC_except_table3240
++ GCC_except_table3241
++ GCC_except_table3243
++ GCC_except_table3244
++ GCC_except_table3245
++ GCC_except_table3267
++ GCC_except_table3269
++ GCC_except_table3270
++ GCC_except_table3271
++ GCC_except_table3282
++ GCC_except_table3283
++ GCC_except_table3284
++ GCC_except_table3314
++ GCC_except_table3317
++ GCC_except_table3318
++ GCC_except_table3319
++ GCC_except_table3320
++ GCC_except_table3321
++ GCC_except_table3322
++ GCC_except_table3329
++ GCC_except_table3341
++ GCC_except_table3374
++ GCC_except_table3379
++ GCC_except_table3380
++ GCC_except_table3521
++ _DYTraceDecode_MTLDevice_newSharedEventWithOptions
++ _GTMTLReplayController_currentICBSubCommand
++ _MTLHeap_newBufferWithLength_options
++ __ZNSt3__113unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEEC2ESt16initializer_listIS6_E
++ ___30-[GTMTLReplayService profile:]_block_invoke_3
++ _objc_msgSend$newSharedEventWithOptions:
+- +[GTPMController stateFromWeightedAverage:]
+- -[GTPMController .cxx_destruct]
+- -[GTPMController _initGTPM]
+- -[GTPMController clearStateOccupancy]
+- -[GTPMController connectionToService]
+- -[GTPMController getStateOccupancy]
+- -[GTPMController initWithGPUFamily:]
+- -[GTPMController serviceLaunched]
+- -[GTPMController setConnectionToService:]
+- -[GTPMController setPerfState:]
+- -[GTPMController tearDown]
+- GCC_except_table1284
+- GCC_except_table1287
+- GCC_except_table1289
+- GCC_except_table1324
+- GCC_except_table1327
+- GCC_except_table1332
+- GCC_except_table1344
+- GCC_except_table1352
+- GCC_except_table1358
+- GCC_except_table1373
+- GCC_except_table1384
+- GCC_except_table1390
+- GCC_except_table1394
+- GCC_except_table1400
+- GCC_except_table1412
+- GCC_except_table1417
+- GCC_except_table1425
+- GCC_except_table1429
+- GCC_except_table1435
+- GCC_except_table1442
+- GCC_except_table1444
+- GCC_except_table1454
+- GCC_except_table1458
+- GCC_except_table1463
+- GCC_except_table1471
+- GCC_except_table1479
+- GCC_except_table1488
+- GCC_except_table1491
+- GCC_except_table1493
+- GCC_except_table1497
+- GCC_except_table1499
+- GCC_except_table1511
+- GCC_except_table1516
+- GCC_except_table1520
+- GCC_except_table1523
+- GCC_except_table1525
+- GCC_except_table1528
+- GCC_except_table1533
+- GCC_except_table1546
+- GCC_except_table1550
+- GCC_except_table1562
+- GCC_except_table1567
+- GCC_except_table1598
+- GCC_except_table1611
+- GCC_except_table1615
+- GCC_except_table1627
+- GCC_except_table1695
+- GCC_except_table1812
+- GCC_except_table1837
+- GCC_except_table1892
+- GCC_except_table1917
+- GCC_except_table1955
+- GCC_except_table1957
+- GCC_except_table1969
+- GCC_except_table1971
+- GCC_except_table1973
+- GCC_except_table1975
+- GCC_except_table1977
+- GCC_except_table1986
+- GCC_except_table2014
+- GCC_except_table2017
+- GCC_except_table2019
+- GCC_except_table2128
+- GCC_except_table2131
+- GCC_except_table2136
+- GCC_except_table2142
+- GCC_except_table2146
+- GCC_except_table2155
+- GCC_except_table2157
+- GCC_except_table2162
+- GCC_except_table2164
+- GCC_except_table2169
+- GCC_except_table2216
+- GCC_except_table2240
+- GCC_except_table2241
+- GCC_except_table2245
+- GCC_except_table2315
+- GCC_except_table2326
+- GCC_except_table2327
+- GCC_except_table2328
+- GCC_except_table2354
+- GCC_except_table2355
+- GCC_except_table2376
+- GCC_except_table2377
+- GCC_except_table2384
+- GCC_except_table2385
+- GCC_except_table2396
+- GCC_except_table2397
+- GCC_except_table2402
+- GCC_except_table2403
+- GCC_except_table2406
+- GCC_except_table2411
+- GCC_except_table2412
+- GCC_except_table2419
+- GCC_except_table2422
+- GCC_except_table2468
+- GCC_except_table2471
+- GCC_except_table2472
+- GCC_except_table2474
+- GCC_except_table2475
+- GCC_except_table2485
+- GCC_except_table2502
+- GCC_except_table2505
+- GCC_except_table2514
+- GCC_except_table2518
+- GCC_except_table2527
+- GCC_except_table2534
+- GCC_except_table2537
+- GCC_except_table2544
+- GCC_except_table2546
+- GCC_except_table2547
+- GCC_except_table2554
+- GCC_except_table2556
+- GCC_except_table2558
+- GCC_except_table2560
+- GCC_except_table2566
+- GCC_except_table2572
+- GCC_except_table2583
+- GCC_except_table2584
+- GCC_except_table2596
+- GCC_except_table2598
+- GCC_except_table2599
+- GCC_except_table2605
+- GCC_except_table2606
+- GCC_except_table2607
+- GCC_except_table2614
+- GCC_except_table2618
+- GCC_except_table2620
+- GCC_except_table2621
+- GCC_except_table2635
+- GCC_except_table2637
+- GCC_except_table2638
+- GCC_except_table2644
+- GCC_except_table2658
+- GCC_except_table2660
+- GCC_except_table2661
+- GCC_except_table2662
+- GCC_except_table2669
+- GCC_except_table3095
+- GCC_except_table3100
+- GCC_except_table3104
+- GCC_except_table3107
+- GCC_except_table3129
+- GCC_except_table3141
+- GCC_except_table3158
+- GCC_except_table3159
+- GCC_except_table3160
+- GCC_except_table3161
+- GCC_except_table3162
+- GCC_except_table3163
+- GCC_except_table3165
+- GCC_except_table3176
+- GCC_except_table3181
+- GCC_except_table3191
+- GCC_except_table3194
+- GCC_except_table3203
+- GCC_except_table3212
+- GCC_except_table3228
+- GCC_except_table3232
+- GCC_except_table3248
+- GCC_except_table3249
+- GCC_except_table3295
+- GCC_except_table3304
+- GCC_except_table3305
+- GCC_except_table3307
+- GCC_except_table3308
+- GCC_except_table3309
+- GCC_except_table3330
+- GCC_except_table3331
+- GCC_except_table3333
+- GCC_except_table3334
+- GCC_except_table3335
+- GCC_except_table3346
+- GCC_except_table3347
+- GCC_except_table3348
+- GCC_except_table3378
+- GCC_except_table3381
+- GCC_except_table3382
+- GCC_except_table3383
+- GCC_except_table3384
+- GCC_except_table3385
+- GCC_except_table3386
+- GCC_except_table3393
+- GCC_except_table3400
+- GCC_except_table3405
+- GCC_except_table3438
+- GCC_except_table3443
+- GCC_except_table3444
+- GCC_except_table3585
+- OBJC_IVAR_$_GTPMController._connected
+- OBJC_IVAR_$_GTPMController._connectionToService
+- OBJC_IVAR_$_GTPMController._gpuFamily
+- OBJC_IVAR_$_GTPMController._gpuVendor
+- OBJC_IVAR_$_GTPMController._initialized
+- OBJC_IVAR_$_GTPMController._perfState
+- OBJC_IVAR_$_GTPMController._semaphore
+- _CollectFrameCounters
+- _CommandBufferTimeInfo_compare
+- _GTFenum_isSampleCall
+- _GTICBSubCommand_isValid
+- _GTICBSubCommand_next
+- _GTICB_firstCommand
+- _GTMTLReplayClient_derivedCounterData
+- _GTMTLReplayClient_loadDerivedCounterInfo
+- _GTMTLReplayClient_mergeDerivedCounterInfo
+- _GTMTLReplayClient_queryShaderInfo
+- _GTMTLReplayController_currentICB
+- _GTMTLReplayController_restoreAnyCommandEncoder
+- _GTMTLReplayController_restoreParallelRenderCommandEncoder
+- _GetRenderPassDescriptor
+- _OBJC_CLASS_$_GTPMController
+- _OBJC_CLASS_$_NSMutableIndexSet
+- _OBJC_CLASS_$_NSXPCConnection
+- _OBJC_CLASS_$_NSXPCInterface
+- _OBJC_METACLASS_$_GTPMController
+- _ProfileFrameWithCounterListsForProfileInfo
+- _RenderPassDescriptorContainsClear
+- _SoftwareCounterForFunc
+- _SoftwareCounterForIndirectCommand
+- _WriteToCSVFromCounterData
+- _WriteToPlistFromCounterData
+- __27-[GTPMController _initGTPM]_block_invoke
+- __CollectFrameCounters_block_invoke
+- __GTMTLReplayClient_queryShaderInfo_block_invoke
+- __OBJC_$_CLASS_METHODS_GTPMController
+- __OBJC_$_INSTANCE_METHODS_GTPMController
+- __OBJC_$_INSTANCE_VARIABLES_GTPMController
+- __OBJC_$_PROP_LIST_GTPMController
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_GTAMDPMServiceProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_GTPMServiceProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_GTAMDPMServiceProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_GTPMServiceProtocol
+- __OBJC_CLASS_RO_$_GTPMController
+- __OBJC_LABEL_PROTOCOL_$_GTAMDPMServiceProtocol
+- __OBJC_LABEL_PROTOCOL_$_GTPMServiceProtocol
+- __OBJC_METACLASS_RO_$_GTPMController
+- __OBJC_PROTOCOL_$_GTAMDPMServiceProtocol
+- __OBJC_PROTOCOL_$_GTPMServiceProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_GTAMDPMServiceProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_GTPMServiceProtocol
+- ___26-[GTPMController tearDown]_block_invoke
+- ___26-[GTPMController tearDown]_block_invoke_2
+- ___27-[GTPMController _initGTPM]_block_invoke
+- ___31-[GTPMController setPerfState:]_block_invoke
+- ___31-[GTPMController setPerfState:]_block_invoke_2
+- ___35-[GTPMController getStateOccupancy]_block_invoke
+- ___35-[GTPMController getStateOccupancy]_block_invoke_2
+- ___36-[GTPMController initWithGPUFamily:]_block_invoke
+- ___37-[GTPMController clearStateOccupancy]_block_invoke
+- ___37-[GTPMController clearStateOccupancy]_block_invoke_2
+- ___CollectCounterData_block_invoke
+- ___CollectFrameCounters_block_invoke
+- ___GTMTLReplayClient_queryShaderInfo_block_invoke
+- ___ProfileFrameWithCounterListsForProfileInfo_block_invoke
+- ___ProfileFrame_block_invoke
+- ___RemoveEmptyEncoders_block_invoke
+- ___SubdivideCounterList_block_invoke
+- ___block_descriptor_112_e8_32s40s48s56s_e5_v8?0l
+- ___block_descriptor_32_e17_v16?0"NSError"8l
+- ___block_descriptor_32_e8_v12?0B8l
+- ___block_descriptor_40_e8_32s_e17_v16?0"NSError"8l
+- ___block_descriptor_40_e8_32s_e42_v32?0"<MTLCommandBuffer>"8"NSData"16Q24l
+- ___block_descriptor_40_e8_32w_e21_v20?0B8"NSString"12l
+- ___block_descriptor_40_e8_32w_e5_v8?0l
+- ___block_descriptor_40_e8_32w_e8_v12?0B8l
+- ___block_descriptor_48_e8_32r40w_e11_v20?0B8d12l
+- ___block_descriptor_48_e8_32r_e5_v8?0l
+- ___block_descriptor_56_e8_32s40s48r_e5_v8?0l
+- ___block_descriptor_56_e8_32s40s48w_e8_v12?0B8l
+- ___block_descriptor_57_e8_32s40bs_e36_v16?0^{GTCoreOperation=Q^?^?B[7c]}8l
+- ___block_descriptor_64_e8_32s40s48s56s_e5_v8?0l
+- ___block_descriptor_64_e8_32s40s48s_e5_v8?0l
+- ___block_descriptor_72_e8_32s40s_e5_v8?0l
+- ___block_descriptor_88_e8_32s40s48s56s64r_e5_v8?0l
+- ___copy_helper_block_e8_32r
+- ___copy_helper_block_e8_32r40w
+- ___copy_helper_block_e8_32s40s48r
+- ___copy_helper_block_e8_32s40s48s56s64r
+- ___destroy_helper_block_e8_32r
+- ___destroy_helper_block_e8_32r40w
+- ___destroy_helper_block_e8_32s40s48s56s64r
+- ___performFrameTimingDesktop_block_invoke
+- __performFrameTimingDesktop_block_invoke
+- _compareSampleData
+- _isBlitSamplingSupported
+- _objc_msgSend$_initGTPM
+- _objc_msgSend$addIndex:
+- _objc_msgSend$clearOccupancyWithReply:
+- _objc_msgSend$enterCollectCounters:statLocations:withIndex:
+- _objc_msgSend$enterPerformFrameTimingForIndex:
+- _objc_msgSend$getOccupancyWithReply:
+- _objc_msgSend$getStateOccupancy
+- _objc_msgSend$initGPU:withReply:
+- _objc_msgSend$initWithContentsOfFile:
+- _objc_msgSend$initWithGPUFamily:
+- _objc_msgSend$initWithObjects:forKeys:
+- _objc_msgSend$initWithServiceName:
+- _objc_msgSend$interfaceWithProtocol:
+- _objc_msgSend$isEqualToArray:
+- _objc_msgSend$remoteObjectProxyWithErrorHandler:
+- _objc_msgSend$removeAllIndexes
+- _objc_msgSend$removeObjectsAtIndexes:
+- _objc_msgSend$serviceLaunched
+- _objc_msgSend$setControlMode:withReply:
+- _objc_msgSend$setInterruptionHandler:
+- _objc_msgSend$setPerfState:
+- _objc_msgSend$setRemoteObjectInterface:
+- _objc_msgSend$setState:withReply:
+- _objc_msgSend$sortUsingComparator:
+- _objc_msgSend$stateFromWeightedAverage:
+- _objc_msgSend$tearDown
+- _objc_msgSend$writeToURL:error:
+- _validateSubdividedCounterLists
+- _verifyPerCounterCommandData
+- performFrameTimingDesktop.signalCounter
+CStrings:
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_100_89"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_101_90"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_102_91"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_103_92"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_104_93"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_105_94"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_106_95"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_107_96"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_108_97"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_109_98"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_10_1"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_110_99"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_111_100"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_112_101"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_113_102"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_114_103"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_115_104"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_116_105"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_117_106"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_118_107"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_119_108"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_11_2"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_120_109"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_121_110"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_122_111"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_123_112"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_124_113"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_125_114"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_126_115"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_127_116"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_128_117"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_129_118"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_12_3"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_130_119"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_131_120"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_132_121"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_133_122"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_134_123"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_135_124"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_136_125"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_137_126"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_138_127"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_139_128"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_13_4"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_140_129"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_141_130"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_142_131"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_143_132"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_144_133"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_145_134"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_146_135"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_147_136"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_148_137"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_149_138"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_14_5"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_150_139"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_151_140"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_152_141"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_153_142"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_154_143"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_155_144"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_156_145"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_157_146"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_158_147"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_159_148"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_15_6"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_160_149"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_161_150"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_162_151"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_166_155"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_167_156"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_168_157"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_169_158"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_16_7"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_170_159"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_171_160"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_172_161"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_173_162"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_174_163"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_175_164"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_176_165"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_177_166"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_178_167"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_179_168"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_17_8"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_181_169"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_182_170"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_183_171"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_184_172"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_185_173"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_187_174"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_188_175"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_18_9"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_19_10"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_20_11"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_21_12"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_22_13"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_23_14"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_24_15"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_25_16"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_26_17"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_27_18"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_28_19"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_29_20"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_30_21"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_31_22"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_32_23"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_33_24"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_34_25"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_35_26"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_36_27"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_37_28"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_38_29"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_39_30"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_40_31"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_41_32"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_42_33"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_43_34"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_44_35"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_45_36"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_46_37"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_47_38"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_48_39"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_49_40"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_50_41"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_51_42"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_52_43"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_53_44"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_54_45"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_55_46"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_56_47"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_57_48"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_58_49"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_59_50"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_60_51"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_61_52"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_62_53"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_63_54"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_64_55"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_65_56"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_68_57"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_69_58"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_70_59"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_71_60"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_72_61"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_74_63"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_75_64"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_76_65"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_77_66"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_78_67"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_80_69"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_81_70"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_82_71"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_83_72"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_84_73"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_85_74"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_86_75"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_87_76"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_88_77"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_89_78"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_90_79"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_91_80"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_92_81"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_93_82"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_94_83"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_95_84"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_96_85"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_97_86"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_98_87"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_99_88"
++ "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_9_0"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/AGXPSCounters.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/APS/AGXPSAPSParserGen1.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/APS/AGXPSAPSProfileData.hpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GPUToolsDevice/data_source/GTDataSource_argumentBuffers.c:216"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GPUToolsDevice/data_source/GTDataSource_load.m:303"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GPUToolsDevice/data_source/GTDataSource_load.m:317"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GPUToolsDevice/data_source/GTDataSource_load.m:726"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GPUToolsDevice/data_source/GTDataSource_load.m:747"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GPUToolsDevice/data_source/GTDataSource_restores.c:314"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GPUToolsDevice/data_source/GTDataSource_utils.c:95"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_hash.c:95"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_tables.c:271"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_tables.c:70"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_thread_mutex.c:50"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/capture/GTMTLCaptureEnvironment_serialize.h:84"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/core/GTCoreMetal.m:456"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/launcher/DYJavaScriptHelper.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/net/GTCaptureArchive.c:278"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/net/GTCaptureArchive.c:408"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/net/GTCaptureArchive.c:685"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_CLI.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_accessTracking.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_accessTracking.mm:7100"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_accessTracking.mm:7123"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_argumentBuffers.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_argumentBuffers.m:2083"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_controller.m:1698"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_controller.m:1704"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_frameProfiler.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_harvestResource.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_hazardTracker.m:21"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_indirectResources.mm:109"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_loadArchive.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_loadArchive.m:100"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_loadArchive.m:2452"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_service.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_shaderDebugger.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_shaderDebugger_internal.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_shaderDebugger_internal.m:2183"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_shaderDebugger_internal.m:5986"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func.c:1137"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func.c:1559"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func.c:478"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:295"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:298"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:356"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:359"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:362"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:532"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:535"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:902"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:905"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10010"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10021"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10043"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10285"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10318"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10351"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10362"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10384"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10406"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10516"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10527"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10571"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10604"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10615"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10637"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10659"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10758"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10769"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10802"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10813"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:11104"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:11171"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2356"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2378"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2773"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2795"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2817"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2839"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2878"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2900"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2922"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2944"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:394"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4097"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:416"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4354"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:438"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4387"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4447"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:449"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4547"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:460"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4796"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4906"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4917"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4983"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:5033"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:5044"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:5099"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:516"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:5165"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:5209"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:5231"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:538"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:6626"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:8437"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:8459"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9377"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9652"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9685"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9718"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9729"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9762"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9784"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9856"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9900"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9911"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9933"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9966"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/profile/GTApplePMPPerfStateControl.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/profile/GTUSCSamplingStreamingManager.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/sm/GTSMMTLBuilder.c:2613"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trace/GTTraceContext.c:162"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trackers/GTResourceBinding.m:157"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trackers/GTResourceBinding.m:3012"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XWjPwT/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trackers/GTResourceTracker.c:232"
++ "MTLREPLAYER_DISABLE_AUTOMATIC_HEAPS"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_100_89"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_101_90"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_102_91"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_103_92"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_104_93"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_105_94"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_106_95"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_107_96"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_108_97"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_109_98"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_10_1"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_110_99"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_111_100"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_112_101"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_113_102"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_114_103"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_115_104"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_116_105"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_117_106"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_118_107"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_119_108"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_11_2"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_120_109"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_121_110"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_122_111"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_123_112"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_124_113"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_125_114"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_126_115"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_127_116"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_128_117"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_129_118"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_12_3"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_130_119"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_131_120"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_132_121"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_133_122"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_134_123"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_135_124"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_136_125"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_137_126"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_138_127"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_139_128"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_13_4"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_140_129"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_141_130"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_142_131"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_143_132"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_144_133"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_145_134"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_146_135"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_147_136"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_148_137"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_149_138"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_14_5"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_150_139"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_151_140"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_152_141"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_153_142"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_154_143"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_155_144"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_156_145"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_157_146"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_158_147"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_159_148"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_15_6"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_160_149"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_161_150"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_162_151"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_166_155"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_167_156"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_168_157"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_169_158"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_16_7"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_170_159"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_171_160"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_172_161"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_173_162"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_174_163"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_175_164"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_176_165"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_177_166"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_178_167"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_179_168"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_17_8"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_181_169"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_182_170"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_183_171"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_184_172"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_185_173"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_187_174"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_188_175"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_18_9"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_19_10"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_20_11"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_21_12"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_22_13"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_23_14"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_24_15"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_25_16"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_26_17"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_27_18"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_28_19"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_29_20"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_30_21"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_31_22"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_32_23"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_33_24"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_34_25"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_35_26"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_36_27"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_37_28"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_38_29"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_39_30"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_40_31"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_41_32"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_42_33"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_43_34"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_44_35"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_45_36"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_46_37"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_47_38"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_48_39"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_49_40"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_50_41"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_51_42"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_52_43"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_53_44"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_54_45"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_55_46"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_56_47"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_57_48"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_58_49"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_59_50"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_60_51"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_61_52"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_62_53"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_63_54"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_64_55"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_65_56"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_68_57"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_69_58"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_70_59"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_71_60"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_72_61"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_74_63"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_75_64"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_76_65"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_77_66"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_78_67"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_80_69"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_81_70"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_82_71"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_83_72"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_84_73"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_85_74"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_86_75"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_87_76"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_88_77"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_89_78"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_90_79"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_91_80"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_92_81"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_93_82"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_94_83"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_95_84"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_96_85"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_97_86"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_98_87"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_99_88"
+- "\"/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/DerivedCounters/AGXPSLimiters.inl\"_9_0"
+- "%s%s %u: CollectCounterData requestCounters on index %d failed with error %d\n"
+- "%s%s %u: Counter %@ had incorrect number of results when validating %@ dictionary, size was %lu should be %lu\n"
+- "%s%s %u: Counter %@ missing from subdivided counter list\n"
+- "%s%s %u: Counter %@ not found when validating %@ dictionary\n"
+- "%s%s %u: Dictionary %@ not found in JSON dictionary\n"
+- "%s%s %u: No raw counters remain from derived counter list: %@\n"
+- "%s%s %u: encoderData is nil\n"
+- "%s:%u: WARNING: Could not find matching GPU revision. Falling back to an earlier revision because agxps_gpu_flags_allow_aps_revision_fallback was specified"
+- ".plist"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/AGXPSCounters.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/AGXPSGPU.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/APS/AGXPSAPSParserGen1.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/Dependencies/AGXProfilingSupport/AGXProfilingSupport/APS/AGXPSAPSProfileData.hpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GPUToolsDevice/data_source/GTDataSource_argumentBuffers.c:216"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GPUToolsDevice/data_source/GTDataSource_load.m:303"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GPUToolsDevice/data_source/GTDataSource_load.m:317"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GPUToolsDevice/data_source/GTDataSource_load.m:726"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GPUToolsDevice/data_source/GTDataSource_load.m:747"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GPUToolsDevice/data_source/GTDataSource_restores.c:314"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GPUToolsDevice/data_source/GTDataSource_utils.c:95"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_hash.c:95"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_tables.c:271"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_tables.c:70"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/apr/apr_thread_mutex.c:50"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/capture/GTMTLCaptureEnvironment_serialize.h:84"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/core/GTCoreMetal.m:456"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/launcher/DYJavaScriptHelper.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/net/GTCaptureArchive.c:278"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/net/GTCaptureArchive.c:408"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/net/GTCaptureArchive.c:685"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_CLI.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_accessTracking.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_accessTracking.mm:7100"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_accessTracking.mm:7123"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_argumentBuffers.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_argumentBuffers.m:2083"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_controller.m:1698"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_controller.m:1704"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_frameProfiler.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_harvestResource.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_hazardTracker.m:21"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_indirectResources.mm:109"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_loadArchive.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_loadArchive.m:100"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_loadArchive.m:2452"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_service.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_shaderDebugger.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_shaderDebugger_internal.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_shaderDebugger_internal.m:2183"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTMTLReplay_shaderDebugger_internal.m:5986"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func.c:1137"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func.c:1559"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func.c:478"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:295"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:298"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:356"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:359"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:362"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:532"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:535"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:902"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mps.c.inl:905"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10010"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10032"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10274"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10307"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10340"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10351"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10373"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10395"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10505"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10516"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10560"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10593"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10604"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10626"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10648"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10747"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10758"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10791"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:10802"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:11093"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:11160"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2356"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2378"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2773"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2795"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2817"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2839"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2878"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2900"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2922"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:2944"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:394"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4097"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:416"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4354"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:438"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4387"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4447"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:449"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4547"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:460"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4796"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4906"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4917"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:4983"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:5033"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:5044"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:5099"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:516"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:5165"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:5209"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:5231"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:538"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:6626"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:8426"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:8448"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9366"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9641"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9674"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9707"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9718"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9751"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9773"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9845"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9889"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9900"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9922"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9955"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/GTTraceFbuf2Func_mtl.c.inl:9999"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/profile/GTApplePMPPerfStateControl.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/replayer/profile/GTUSCSamplingStreamingManager.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/sm/GTSMMTLBuilder.c:2612"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trace/GTTraceContext.c:162"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trackers/GTResourceBinding.m:157"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trackers/GTResourceBinding.m:3012"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.THTUEH/Sources/GPUToolsDevice/GPUTools/GTMTLCapture/trackers/GTResourceTracker.c:232"
+- "AMD"
+- "BatchingFilteringAvailable"
+- "Can't Invoke Remote Object %@"
+- "CollectCounterData"
+- "CollectCounterData %lu/%lu"
+- "CollectFrameCounters"
+- "Command Buffer %llu"
+- "Command Encoder %llu"
+- "Draw Call %llu"
+- "EG"
+- "EncoderData"
+- "FormatSampleData"
+- "Frame 0"
+- "Frame End 1"
+- "Frame Start 1"
+- "GPU Time = %@"
+- "IG"
+- "Index"
+- "Intel"
+- "MergeCounterData"
+- "NVidia"
+- "Occupancy Cleared semaphore"
+- "PerCounterDrawCallData"
+- "ProcessFrameData"
+- "QueryShaderInfo - subdividing counter list"
+- "Required counters: %@, divided list: %@"
+- "Service crashed, trying to restart the service %p"
+- "SortCounterData %lu/%lu"
+- "SubdivideCounterList - subdividing counter list"
+- "Timing Data"
+- "_allCountersInfo.plist"
+- "_derivedCounterInfoResult.plist"
+- "_encoder_derivedComputedData.plist"
+- "all"
+- "com.apple.gputools.GTAMDPMService"
+- "com.apple.gputools.GTPMService"
+- "frame counters"
+- "frame profile data"
+- "frameGPUTime"
+- "frameProfile"
+- "frametime"
+- "isLegacy"
+- "max"
+- "mid"
+- "min"
+- "mixed"
+- "performFrameTiming %d"
+- "v12@?0B8"
+- "v20@?0B8@\"NSString\"12"
+- "v20@?0B8d12"
+- "validateSubdividedCounterLists"
+- "verifyPerCounterCommandData"
+- "void CollectCounterData(GTMTLReplayController *, NSArray *__strong, uint64_t, NSArray *__strong, NSUInteger)"
+- "void validateSubdividedCounterLists(NSArray *__strong, NSArray *__strong)"
+- "void verifyPerCounterCommandData(NSDictionary *__strong, NSString *__strong, NSArray *__strong, NSUInteger)"
+```

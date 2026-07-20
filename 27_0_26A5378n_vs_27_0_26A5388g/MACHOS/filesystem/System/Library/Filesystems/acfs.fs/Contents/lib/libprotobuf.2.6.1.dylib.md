@@ -1,0 +1,146 @@
+## libprotobuf.2.6.1.dylib
+
+> `/System/Library/Filesystems/acfs.fs/Contents/lib/libprotobuf.2.6.1.dylib`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
+```diff
+
+-816.0.0.0.0
++817.0.0.0.0
+   __TEXT.__text: 0x7be80
+   __TEXT.__auth_stubs: 0x520
+   __TEXT.__init_offsets: 0x10
+Symbols:
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/compiler/importer.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/compiler/parser.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/descriptor.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/descriptor.pb.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/descriptor_database.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/dynamic_message.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/extension_set.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/extension_set_heavy.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/generated_message_reflection.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/generated_message_util.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/coded_stream.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/gzip_stream.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/printer.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/strtod.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/tokenizer.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/zero_copy_stream.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/zero_copy_stream_impl.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/message.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/message_lite.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/reflection_ops.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/repeated_field.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/stubs/common.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/stubs/once.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/stubs/stringprintf.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/stubs/structurally_valid.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/stubs/strutil.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/stubs/substitute.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/text_format.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/unknown_field_set.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/wire_format.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/wire_format_lite.cc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/compiler/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/stubs/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/compiler/importer.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/compiler/parser.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/descriptor.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/descriptor.pb.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/descriptor_database.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/dynamic_message.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/extension_set.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/extension_set_heavy.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/generated_message_reflection.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/generated_message_util.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/coded_stream.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/gzip_stream.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/printer.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/strtod.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/tokenizer.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/zero_copy_stream.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/zero_copy_stream_impl.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/message.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/message_lite.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/reflection_ops.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/repeated_field.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/stubs/common.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/stubs/once.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/stubs/stringprintf.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/stubs/structurally_valid.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/stubs/strutil.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/stubs/substitute.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/text_format.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/unknown_field_set.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/wire_format.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Binaries/XsanFS/install/TempContent/Objects/lib/libproto/protobuf-2.6.1/CMakeFiles/protobuf.dir/src/google/protobuf/wire_format_lite.cc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/compiler/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/stubs/
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/compiler/parser.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/descriptor.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/descriptor.pb.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/descriptor_database.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/dynamic_message.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/extension_set.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/extension_set_heavy.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/generated_message_reflection.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/coded_stream.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/gzip_stream.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/printer.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/strtod.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/tokenizer.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/zero_copy_stream.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/zero_copy_stream_impl.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/zero_copy_stream_impl_lite.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/message.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/message_lite.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/reflection_ops.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/repeated_field.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/stubs/common.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/stubs/common.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/stubs/stringprintf.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/stubs/strutil.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/stubs/substitute.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/text_format.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/wire_format.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.IKlnXU/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/wire_format_lite.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/compiler/parser.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/descriptor.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/descriptor.pb.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/descriptor_database.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/dynamic_message.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/extension_set.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/extension_set_heavy.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/generated_message_reflection.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/coded_stream.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/gzip_stream.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/printer.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/strtod.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/tokenizer.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/zero_copy_stream.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/zero_copy_stream_impl.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/io/zero_copy_stream_impl_lite.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/message.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/message_lite.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/reflection_ops.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/repeated_field.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/stubs/common.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/stubs/common.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/stubs/stringprintf.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/stubs/strutil.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/stubs/substitute.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/text_format.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/wire_format.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.f7JD4j/Sources/XsanFS/lib/libproto/protobuf-2.6.1/src/google/protobuf/wire_format_lite.cc"
+```

@@ -1,0 +1,135 @@
+## NewsToday
+
+> `/System/Library/PrivateFrameworks/NewsToday.framework/Versions/A/NewsToday`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__cstring`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+-5923.0.0.0.0
++5926.0.0.0.0
+   __TEXT.__text: 0x4beac
+   __TEXT.__objc_methlist: 0x652c
+   __TEXT.__const: 0xd08
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Classes/FRRingBuffer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Extensions/FeldsparToday/NTPBTodayPersonalizationEvent+FTAdditions.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTArticleIDsSectionFetchDescriptor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTArticleListSectionFetchDescriptor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTCatchUpOperation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTCatchUpOperationRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTFeedTransformationFeedItem.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTFeedTransformationHeadlineItem.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTFeedTransformationIncrementalPersonalizedDiversifiedLimit.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTFeedTransformationUtilities.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTForYouRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTForYouSectionFetchDescriptor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTHeadline.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTHeadlinePersonalizationMetadata.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTItemsSectionFetchDescriptor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTLocalNewsPromotionTransformation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNewsModuleDescriptorsOperation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNewsSourceAvailabilityEntry.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNewsTodayResultOperation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNewsTodayResultsContentFillAggregator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNewsTodayResultsExplicitAllocationAggregator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNewsTodayResultsSourceFetchHelper.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNewsTodayResultsSourceUtilities.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNoContentModuleDescriptorsOperation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNoContentTodayResultOperation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTPBTodaySectionConfig+NTAdditions.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTPersonalizedSectionFetchDescriptor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTPersonalizedSectionTransformations.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTQueueConfigSectionQueueDescriptor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTSectionConfigSectionDescriptor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTSectionFeedFilterTransformation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTSectionPlaceholderDescriptor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTSourceAvailabilityManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTStabilizingTransformation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTagSectionFetchDescriptor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayConfig+Mastering.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayConfigConversionOperation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayConfigOperation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayContext.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayHeadlineProtoitem.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayHeadlineProtoitemUtilities.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayItemOperation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayPrivateData.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayResults.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayResultsSource.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.UNcyPP/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTWidgetConfigDataOperation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Classes/FRRingBuffer.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Extensions/FeldsparToday/NTPBTodayPersonalizationEvent+FTAdditions.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTArticleIDsSectionFetchDescriptor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTArticleListSectionFetchDescriptor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTCatchUpOperation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTCatchUpOperationRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTFeedTransformationFeedItem.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTFeedTransformationHeadlineItem.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTFeedTransformationIncrementalPersonalizedDiversifiedLimit.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTFeedTransformationUtilities.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTForYouRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTForYouSectionFetchDescriptor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTHeadline.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTHeadlinePersonalizationMetadata.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTItemsSectionFetchDescriptor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTLocalNewsPromotionTransformation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNewsModuleDescriptorsOperation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNewsSourceAvailabilityEntry.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNewsTodayResultOperation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNewsTodayResultsContentFillAggregator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNewsTodayResultsExplicitAllocationAggregator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNewsTodayResultsSourceFetchHelper.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNewsTodayResultsSourceUtilities.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNoContentModuleDescriptorsOperation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTNoContentTodayResultOperation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTPBTodaySectionConfig+NTAdditions.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTPersonalizedSectionFetchDescriptor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTPersonalizedSectionTransformations.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTQueueConfigSectionQueueDescriptor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTSectionConfigSectionDescriptor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTSectionFeedFilterTransformation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTSectionPlaceholderDescriptor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTSourceAvailabilityManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTStabilizingTransformation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTagSectionFetchDescriptor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayConfig+Mastering.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayConfigConversionOperation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayConfigOperation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayContext.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayHeadlineProtoitem.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayHeadlineProtoitemUtilities.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayItemOperation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayPrivateData.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayResults.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTTodayResultsSource.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.5YbEgK/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsToday/NTWidgetConfigDataOperation.m"
+```

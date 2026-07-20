@@ -1,0 +1,95 @@
+## SiriLinkSuggestionsPlugin
+
+> `/System/Library/Siri/DM/SiriSuggestions/Owners/SiriLinkSuggestionsPlugin.bundle/Contents/MacOS/SiriLinkSuggestionsPlugin`
+
+```diff
+
+-3600.8.4.0.0
++3600.8.7.0.0
+   __TEXT.__text: 0x3e554
+   __TEXT.__auth_stubs: 0x1640
+   __TEXT.__objc_stubs: 0x720
+Symbols:
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/AppIntentsDialogProvider.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/AppIntentsSuggestions.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/AutoShortcutsSuggestions.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/DataTypes.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkActionResolver.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkClient.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkClientResolver.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkDialogIdProvider.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkInvocationActionProvider.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkLoggingActionKeyMapper.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkRegistryObserver.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkSuggestedAction.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkSuggestedActionsRequest.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkSuggestionsGenerator.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkSuggestionsOwnerDefinition.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkSuggestionsOwnerDefinitionFactory.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkSuggestionsOwners.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkSuggestionsRepository.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkViewProvider.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/Logger.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/MetaDataSourcedAppIntentResolver.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/PhraseUtils.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/Signals+AppIntents.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/SiriLinkSuggestionsConstants.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/SiriLinkSuggestionsFeatureFlags.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/SiriLinkSuggestionsPlugin.swiftmodule
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/SiriLinkSuggestionsPlugin_vers.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/ToolClient.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Sources/SiriLinkFlow/SiriLinkFlowPlugin/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkClient/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/AppIntents/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/AppIntents/Dialog/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/AppIntents/Resolvers/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/AppIntents/Utils/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/AutoShortcuts/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/Dialog/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/Owner/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/ToolClient/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.10wPUN/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/Utility/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/AppIntentsDialogProvider.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/AppIntentsSuggestions.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/AutoShortcutsSuggestions.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/DataTypes.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkActionResolver.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkClient.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkClientResolver.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkDialogIdProvider.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkInvocationActionProvider.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkLoggingActionKeyMapper.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkRegistryObserver.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkSuggestedAction.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkSuggestedActionsRequest.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkSuggestionsGenerator.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkSuggestionsOwnerDefinition.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkSuggestionsOwnerDefinitionFactory.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkSuggestionsOwners.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkSuggestionsRepository.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/LinkViewProvider.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/Logger.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/MetaDataSourcedAppIntentResolver.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/PhraseUtils.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/Signals+AppIntents.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/SiriLinkSuggestionsConstants.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/SiriLinkSuggestionsFeatureFlags.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/SiriLinkSuggestionsPlugin.swiftmodule
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/SiriLinkSuggestionsPlugin_vers.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Binaries/SiriLinkFlow/install/TempContent/Objects/SiriLinkFlow.build/SiriLinkSuggestionsPlugin.build/Objects-normal/arm64e/ToolClient.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Sources/SiriLinkFlow/SiriLinkFlowPlugin/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkClient/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/AppIntents/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/AppIntents/Dialog/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/AppIntents/Resolvers/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/AppIntents/Utils/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/AutoShortcuts/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/Dialog/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/LinkSuggestionsPlugin/Owner/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/ToolClient/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QjTwfe/Sources/SiriLinkFlow/SiriLinkSuggestionsPlugin/Utility/
+```

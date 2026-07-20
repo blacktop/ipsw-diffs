@@ -1,0 +1,153 @@
+## kadmind
+
+> `/System/Library/PrivateFrameworks/Heimdal.framework/Helpers/kadmind`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-725.0.8.0.0
++725.0.10.0.0
+   __TEXT.__text: 0x39bdc
+   __TEXT.__auth_stubs: 0x14a0
+   __TEXT.__const: 0xaa
+Symbols:
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/Derived/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libasn1-hdb.a(asn1_hdb_asn1.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/liberror-tables.a(hdb_err.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/liberror-tables.a(kadm5_err.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(common.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(db.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(dbinfo.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(ext.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(hdb-keytab.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(hdb-mitdb.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(hdb-od.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(hdb.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(keys.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(keytab.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(mkey.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(ndbm.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5clnt.a(common_glue.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5clnt.a(free.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5clnt.a(marshall.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5clnt.a(send_recv.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(acl.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(bump_pw_expire.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(chpass_s.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(context_s.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(create_s.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(delete_s.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(destroy_s.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(ent_setup.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(error.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(flush_s.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(get_princs_s.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(get_s.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(init_s.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(keys.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(log.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(modify_s.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(password_quality.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(privs_s.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(randkey_s.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(rename_s.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(set_keys.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(set_modifier.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(closefrom.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(get_window_size.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(getarg.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(mini_inetd.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(rand.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(simple_exec.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(strcollect.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(write_pid.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken.a(base64.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken.a(parse_units.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken.a(rkcf.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken.a(socket.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken.a(strlwr.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken.a(strsep_copy.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken.a(strupr.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libvers.a(print_version.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kadmind.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kadmind.build/Objects-normal/arm64e/kadm_conn.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kadmind.build/Objects-normal/arm64e/kadmind.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kadmind.build/Objects-normal/arm64e/kadmind_vers.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kadmind.build/Objects-normal/arm64e/server.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Sources/HeimdalExecutables/kadmin/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Sources/HeimdalExecutables/lib/hdb/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Sources/HeimdalExecutables/lib/kadm5/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Sources/HeimdalExecutables/lib/roken/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.zOfjKb/Sources/HeimdalExecutables/lib/vers/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/Derived/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libasn1-hdb.a(asn1_hdb_asn1.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/liberror-tables.a(hdb_err.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/liberror-tables.a(kadm5_err.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(common.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(db.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(dbinfo.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(ext.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(hdb-keytab.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(hdb-mitdb.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(hdb-od.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(hdb.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(keys.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(keytab.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(mkey.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libhdb.a(ndbm.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5clnt.a(common_glue.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5clnt.a(free.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5clnt.a(marshall.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5clnt.a(send_recv.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(acl.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(bump_pw_expire.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(chpass_s.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(context_s.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(create_s.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(delete_s.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(destroy_s.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(ent_setup.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(error.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(flush_s.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(get_princs_s.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(get_s.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(init_s.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(keys.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(log.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(modify_s.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(password_quality.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(privs_s.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(randkey_s.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(rename_s.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(set_keys.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libkadm5srv.a(set_modifier.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(closefrom.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(get_window_size.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(getarg.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(mini_inetd.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(rand.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(simple_exec.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(strcollect.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken-application.a(write_pid.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken.a(base64.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken.a(parse_units.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken.a(rkcf.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken.a(socket.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken.a(strlwr.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken.a(strsep_copy.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libroken.a(strupr.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/Symbols/BuiltProducts/libvers.a(print_version.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kadmind.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kadmind.build/Objects-normal/arm64e/kadm_conn.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kadmind.build/Objects-normal/arm64e/kadmind.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kadmind.build/Objects-normal/arm64e/kadmind_vers.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Binaries/HeimdalExecutables/install/TempContent/Objects/Heimdal.build/kadmind.build/Objects-normal/arm64e/server.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Sources/HeimdalExecutables/kadmin/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Sources/HeimdalExecutables/lib/hdb/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Sources/HeimdalExecutables/lib/kadm5/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Sources/HeimdalExecutables/lib/roken/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ToiXB9/Sources/HeimdalExecutables/lib/vers/
+```

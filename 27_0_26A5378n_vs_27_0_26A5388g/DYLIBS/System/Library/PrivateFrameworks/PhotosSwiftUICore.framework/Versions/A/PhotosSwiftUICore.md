@@ -1,0 +1,139 @@
+## PhotosSwiftUICore
+
+> `/System/Library/PrivateFrameworks/PhotosSwiftUICore.framework/Versions/A/PhotosSwiftUICore`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+
+```diff
+
+-910.28.103.0.0
+-  __TEXT.__text: 0x25fcc8
++910.34.101.0.0
++  __TEXT.__text: 0x26018c
+   __TEXT.__objc_methlist: 0x1a44
+-  __TEXT.__swift5_typeref: 0x27f16
+-  __TEXT.__const: 0x27a24
+-  __TEXT.__constg_swiftt: 0x1476c
+-  __TEXT.__swift5_reflstr: 0x9ebe
++  __TEXT.__swift5_typeref: 0x27f96
++  __TEXT.__const: 0x27a64
++  __TEXT.__constg_swiftt: 0x14774
++  __TEXT.__swift5_reflstr: 0x9f0e
+   __TEXT.__swift5_assocty: 0x2d08
+-  __TEXT.__swift5_fieldmd: 0xa03c
++  __TEXT.__swift5_fieldmd: 0xa060
+   __TEXT.__swift5_builtin: 0x320
+   __TEXT.__cstring: 0x2841
+   __TEXT.__swift5_proto: 0x1038
+
+   __TEXT.__swift_as_ret: 0x44
+   __TEXT.__swift_as_cont: 0x8c
+   __TEXT.__unwind_info: 0xb170
+-  __TEXT.__eh_frame: 0x5068
++  __TEXT.__eh_frame: 0x50a0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x120
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1488
++  __DATA_CONST.__objc_selrefs: 0x14a8
+   __DATA_CONST.__objc_protorefs: 0x90
+-  __DATA_CONST.__got: 0x1820
+-  __AUTH_CONST.__const: 0x14148
++  __DATA_CONST.__got: 0x1840
++  __AUTH_CONST.__const: 0x14158
+   __AUTH_CONST.__objc_const: 0x8a00
+-  __AUTH_CONST.__auth_got: 0x3208
++  __AUTH_CONST.__auth_got: 0x3218
+   __AUTH.__objc_data: 0x798
+   __AUTH.__data: 0x19b8
+   __DATA.__data: 0x6b20
+-  __DATA.__bss: 0x9878
++  __DATA.__bss: 0x9888
+   __DATA.__common: 0x20
+-  __DATA_DIRTY.__objc_data: 0x3260
+-  __DATA_DIRTY.__data: 0x10888
++  __DATA_DIRTY.__objc_data: 0x3288
++  __DATA_DIRTY.__data: 0x108b8
+   __DATA_DIRTY.__bss: 0x176b0
+   __DATA_DIRTY.__common: 0x178
+   - /System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+
+   - /System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/Metal.framework/Versions/A/Metal
++  - /System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/MetalPerformanceShaders
+   - /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+   - /System/Library/Frameworks/SensitiveContentAnalysis.framework/Versions/A/SensitiveContentAnalysis
+   - /System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 20726
+-  Symbols:   6008
++  Functions: 20730
++  Symbols:   6016
+   CStrings:  353
+ 
+Symbols:
++ _OBJC_CLASS_$_MPSImageBilinearScale
++ _OBJC_CLASS_$_MPSImageGaussianBlur
++ ___swift_memcpy68_8
++ _kCIInputRadiusKey
++ _objc_msgSend$encodeToCommandBuffer:sourceTexture:destinationTexture:
++ _objc_msgSend$initWithDevice:
++ _objc_msgSend$initWithDevice:sigma:
++ _objc_msgSend$pixelFormat
++ _objc_msgSend$setEdgeMode:
++ _symbolic _____ 17PhotosSwiftUICore24GenerativeEditEffectViewC20SemanticMaskCacheKey33_787A8EAEF3EEAF22100EE4D2528F6E02LLV
++ _symbolic _____3key______6resulttSg 17PhotosSwiftUICore24GenerativeEditEffectViewC20SemanticMaskCacheKey33_787A8EAEF3EEAF22100EE4D2528F6E02LLV So10CGImageRefa
++ _symbolic _____y___________y_____y_____y__________y_____AHGGAFGSg_AEy__________y_____GGSgAEyAF_____GSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA012_ConditionalI0V AA08ModifiedI0V AA5ImageV AA25_ForegroundStyleModifier2V AA5ColorV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentU0V
++ _symbolic _____y_____y__________y_____AEGGACGSg_ABy__________y_____GGSgAByAC_____GSgt 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA25_ForegroundStyleModifier2V AA5ColorV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentO0V
++ _symbolic _____y_____y_____y_____y__________y_____AGGGAEGSg_ADy__________y_____GGSgADyAE_____GSgQPGG 7SwiftUI6HStackV AA12TupleContentV AA012_ConditionalE0V AA08ModifiedE0V AA5ImageV AA25_ForegroundStyleModifier2V AA5ColorV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentQ0V
++ _symbolic _____y_____y_____y_____y_____yAAy_____y__________y_____AHGGAFGSg_AEy__________y_____GGSgAEyAF_____GSgQPGGG______Qo_AWG 7SwiftUI19_ConditionalContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA6HStackV AA05TupleD0V AA08ModifiedD0V AA5ImageV AA011_ForegroundG9Modifier2V AA5ColorV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentU0V AA05PlainiG0V
++ _symbolic _____y_____y_____y_____y_____y__________y_____AHGGAFGSg_AEy__________y_____GGSgAEyAF_____GSgQPGGG 7SwiftUI6ButtonV AA6HStackV AA12TupleContentV AA012_ConditionalF0V AA08ModifiedF0V AA5ImageV AA25_ForegroundStyleModifier2V AA5ColorV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentR0V
++ _symbolic _____y_____y_____y_____y_____y_____yABy_____y__________y_____AIGGAGGSg_AFy__________y_____GGSgAFyAG_____GSgQPGGG______Qo_AXGG 7SwiftUI5GroupV AA19_ConditionalContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonH0Rd__lFQO AA0J0V AA6HStackV AA05TupleE0V AA08ModifiedE0V AA5ImageV AA011_ForegroundH9Modifier2V AA5ColorV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentV0V AA05PlainjH0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____yACyAAy__________y_____AIGGAGGSg_AAy__________y_____GGSgAAyAG_____GSgQPGGG______Qo_AXGGATG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQO AA0K0V AA6HStackV AA05TupleD0V AA5ImageV AA011_ForegroundI9Modifier2V AA5ColorV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentV0V AA05PlainkI0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____y__________y_____AIGGAGGSg_AFy__________y_____GGSgAFyAG_____GSgQPGGG______Qo_AX_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonH0Rd__lFQO AA0J0V AA6HStackV AA05TupleD0V AC AA08ModifiedD0V AA5ImageV AA011_ForegroundH9Modifier2V AA5ColorV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV AA023AccessibilityAttachmentV0V AA05PlainjH0V
++ _type_layout_string 17PhotosSwiftUICore24GenerativeEditEffectViewC20SemanticMaskCacheKey33_787A8EAEF3EEAF22100EE4D2528F6E02LLV
++ get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA012_ConditionalD0VyAA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQOyAA0K0VyAA6HStackVyAA05TupleD0VyAGyACyAA5ImageVAA011_ForegroundI9Modifier2VyAA5ColorVAWGGASGSg_ACyAA4TextVAA30_EnvironmentKeyWritingModifierVy12CoreGraphics7CGFloatVGGSgACyAsA023AccessibilityAttachmentV0VGSgQPGGG_AA05PlainkI0VQo_A15_GGA11_GAaHHPA21_AaHHPA20_AaHHPqd0__AaHHD3_A19_HO_A15_AaHHPyHCHC_HC_A11_AA0gV0HPyHCHC
+- ___swift_memcpy60_8
+- _symbolic _____ 17PhotosSwiftUICore24GenerativeEditEffectViewC22ForegroundMaskCacheKey33_787A8EAEF3EEAF22100EE4D2528F6E02LLV
+- _symbolic _____3key______6resulttSg 17PhotosSwiftUICore24GenerativeEditEffectViewC22ForegroundMaskCacheKey33_787A8EAEF3EEAF22100EE4D2528F6E02LLV So10CGImageRefa
+- _symbolic _____y___________y_____y_____y__________y_____AHGGAFGSg______SgAEyAF_____GSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA012_ConditionalI0V AA08ModifiedI0V AA5ImageV AA25_ForegroundStyleModifier2V AA5ColorV AA4TextV AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____y__________y_____AEGGACGSg______SgAByAC_____GSgt 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA25_ForegroundStyleModifier2V AA5ColorV AA4TextV AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____y_____y_____y__________y_____AGGGAEGSg______SgADyAE_____GSgQPGG 7SwiftUI6HStackV AA12TupleContentV AA012_ConditionalE0V AA08ModifiedE0V AA5ImageV AA25_ForegroundStyleModifier2V AA5ColorV AA4TextV AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____y_____y_____y_____yAAy_____y__________y_____AHGGAFGSg______SgAEyAF_____GSgQPGGG______Qo_ASG 7SwiftUI19_ConditionalContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA6HStackV AA05TupleD0V AA08ModifiedD0V AA5ImageV AA011_ForegroundG9Modifier2V AA5ColorV AA4TextV AA31AccessibilityAttachmentModifierV AA05PlainiG0V
+- _symbolic _____y_____y_____y_____y_____y__________y_____AHGGAFGSg______SgAEyAF_____GSgQPGGG 7SwiftUI6ButtonV AA6HStackV AA12TupleContentV AA012_ConditionalF0V AA08ModifiedF0V AA5ImageV AA25_ForegroundStyleModifier2V AA5ColorV AA4TextV AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____y_____y_____y_____y_____yABy_____y__________y_____AIGGAGGSg______SgAFyAG_____GSgQPGGG______Qo_ATGG 7SwiftUI5GroupV AA19_ConditionalContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonH0Rd__lFQO AA0J0V AA6HStackV AA05TupleE0V AA08ModifiedE0V AA5ImageV AA011_ForegroundH9Modifier2V AA5ColorV AA4TextV AA31AccessibilityAttachmentModifierV AA05PlainjH0V
+- _symbolic _____y_____y_____y_____y_____y_____y_____yACyAAy__________y_____AIGGAGGSg______SgAAyAG_____GSgQPGGG______Qo_ATGGAPG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQO AA0K0V AA6HStackV AA05TupleD0V AA5ImageV AA011_ForegroundI9Modifier2V AA5ColorV AA4TextV AA31AccessibilityAttachmentModifierV AA05PlainkI0V
+- _symbolic _____y_____y_____y_____y_____y_____y_____y__________y_____AIGGAGGSg______SgAFyAG_____GSgQPGGG______Qo_AT_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonH0Rd__lFQO AA0J0V AA6HStackV AA05TupleD0V AC AA08ModifiedD0V AA5ImageV AA011_ForegroundH9Modifier2V AA5ColorV AA4TextV AA31AccessibilityAttachmentModifierV AA05PlainjH0V
+- _type_layout_string 17PhotosSwiftUICore24GenerativeEditEffectViewC22ForegroundMaskCacheKey33_787A8EAEF3EEAF22100EE4D2528F6E02LLV
+- get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA012_ConditionalD0VyAA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQOyAA0K0VyAA6HStackVyAA05TupleD0VyAGyACyAA5ImageVAA011_ForegroundI9Modifier2VyAA5ColorVAWGGASGSg_AA4TextVSgACyAsA31AccessibilityAttachmentModifierVGSgQPGGG_AA05PlainkI0VQo_A8_GGA4_GAaHHPA14_AaHHPA13_AaHHPqd0__AaHHD3_A12_HO_A8_AaHHPyHCHC_HC_A4_AA0gU0HPyHCHC
+```

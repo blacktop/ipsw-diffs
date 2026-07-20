@@ -1,0 +1,211 @@
+## AppleIntelligenceReporting
+
+> `/System/Library/PrivateFrameworks/AppleIntelligenceReporting.framework/Versions/A/AppleIntelligenceReporting`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__data`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-212.0.0.0.0
+-  __TEXT.__text: 0x767ec
+-  __TEXT.__const: 0xec1c
+-  __TEXT.__swift5_typeref: 0x2e0f
++220.0.0.0.0
++  __TEXT.__text: 0x77d4c
++  __TEXT.__const: 0xed9c
++  __TEXT.__swift5_typeref: 0x2e25
+   __TEXT.__oslogstring: 0x5eb
+-  __TEXT.__constg_swiftt: 0x2370
+-  __TEXT.__swift5_reflstr: 0x210d
+-  __TEXT.__swift5_fieldmd: 0x3538
+-  __TEXT.__cstring: 0x1766
+-  __TEXT.__swift5_proto: 0xe7c
+-  __TEXT.__swift5_types: 0x3d8
++  __TEXT.__constg_swiftt: 0x238c
++  __TEXT.__swift5_reflstr: 0x222d
++  __TEXT.__swift5_fieldmd: 0x3614
++  __TEXT.__cstring: 0x1866
++  __TEXT.__swift5_proto: 0xe90
++  __TEXT.__swift5_types: 0x3dc
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__swift5_assocty: 0x168
++  __TEXT.__swift5_assocty: 0x180
+   __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_mpenum: 0x278
++  __TEXT.__swift5_mpenum: 0x2a0
+   __TEXT.__swift5_capture: 0x170
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0xc
+   __TEXT.__swift_as_cont: 0x20
+-  __TEXT.__unwind_info: 0x28b0
+-  __TEXT.__eh_frame: 0x32e0
++  __TEXT.__unwind_info: 0x2900
++  __TEXT.__eh_frame: 0x3340
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x30
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x6508
++  __AUTH_CONST.__const: 0x6640
+   __AUTH_CONST.__objc_const: 0x650
+-  __AUTH_CONST.__auth_got: 0x1680
++  __AUTH_CONST.__auth_got: 0x1698
+   __AUTH.__data: 0x1a8
+-  __DATA.__data: 0x2550
+-  __DATA.__bss: 0x1c690
++  __DATA.__data: 0x2568
++  __DATA.__bss: 0x1c910
+   __DATA.__common: 0x30
+   __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0xe68
++  __DATA_DIRTY.__data: 0xe70
+   __DATA_DIRTY.__common: 0x30
+   __DATA_DIRTY.__bss: 0x780
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 5097
+-  Symbols:   14211
+-  CStrings:  202
++  Functions: 5144
++  Symbols:   14306
++  CStrings:  212
+ 
+Symbols:
++ $s26AppleIntelligenceReporting17InferenceMetadataV18thinkingTokenCounts6UInt32VSgvM.resume
++ $s26AppleIntelligenceReporting17InferenceMetadataV28requestQueueTimeMillisecondss6UInt32VSgvM.resume
++ $s26AppleIntelligenceReporting17InferenceMetadataV30timePerOutputTokenMillisecondss6UInt32VSgvM.resume
++ $s26AppleIntelligenceReporting17InferenceMetadataV31prefixTrieTokensHitCountFromGpus6UInt32VSgvM.resume
++ $s26AppleIntelligenceReporting17InferenceMetadataV32prefixTrieTokensHitCountFromDrams6UInt32VSgvM.resume
++ _$s26AppleIntelligenceReporting0aB14InferenceEventV15requestPriorityAA07RequestG0OSgvg
++ _$s26AppleIntelligenceReporting0aB14InferenceEventV15requestPriorityAA07RequestG0OSgvpMV
++ _$s26AppleIntelligenceReporting0aB14InferenceEventV15routingDecisionSSSgvg
++ _$s26AppleIntelligenceReporting0aB14InferenceEventV15routingDecisionSSSgvpMV
++ _$s26AppleIntelligenceReporting0aB14InferenceEventV23internalRequestPriorityAA0gH0OSgvg
++ _$s26AppleIntelligenceReporting0aB14InferenceEventV23internalRequestPriorityAA0gH0OSgvpMV
++ _$s26AppleIntelligenceReporting0aB14InferenceEventV23internalRoutingDecisionSSSgvg
++ _$s26AppleIntelligenceReporting0aB14InferenceEventV23internalRoutingDecisionSSSgvgTm
++ _$s26AppleIntelligenceReporting0aB14InferenceEventV23internalRoutingDecisionSSSgvpMV
++ _$s26AppleIntelligenceReporting0aB14InferenceEventV9subsystem17sessionIdentifier04stepH0017invocationRequestH006clientkH0012modelManagerkH06errors07useCaseH0013additionalUseQ11Identifiers015requestorBundleH0010onBehalfOfvH0017inferenceProviderH005assetvH06assets8metadata11spanContext9timestamp18monotonicTimestamp19underlyingErrorCode21underlyingErrorDomain15routingDecisionACSS_10Foundation4UUIDVSgSSSgAA14UUIDIdentifierVSgA0_A0_SayAA0aB5Error_pGAA0absQ0VSgSayA8_GA1_A1_A1_A1_SayAA0aB5AssetVGAA0abC8MetadataOSgAA0abC11SpanContextVSgAY4DateVSg0B15PlatformLibrary18MonotonicTimestampVSgSiSgA1_A1_tcfC
++ _$s26AppleIntelligenceReporting0aB14InferenceEventV9subsystem17sessionIdentifier04stepH0017invocationRequestH006clientkH0012modelManagerkH06errors07useCaseH0013additionalUseQ11Identifiers015requestorBundleH0010onBehalfOfvH0017inferenceProviderH015requestPriority05assetvH06assets8metadata11spanContext9timestamp18monotonicTimestampACSS_10Foundation4UUIDVSgSSSgAA14UUIDIdentifierVSgA2ZSayAA0aB5Error_pGAA0absQ0VSgSayA6_GA_A_A_AA0K8PriorityOSgA_SayAA0aB5AssetVGAA0abC8MetadataOSgAA0abC11SpanContextVSgAW4DateVSg0B15PlatformLibrary18MonotonicTimestampVSgtcfC
++ _$s26AppleIntelligenceReporting15RequestPriorityO10backgroundyA2CmFWC
++ _$s26AppleIntelligenceReporting15RequestPriorityO10foregroundyA2CmFWC
++ _$s26AppleIntelligenceReporting15RequestPriorityO13userInitiatedyA2CmFWC
++ _$s26AppleIntelligenceReporting15RequestPriorityO7unknownyA2CmFWC
++ _$s26AppleIntelligenceReporting15RequestPriorityO8rawValueACSgSS_tcfC
++ _$s26AppleIntelligenceReporting15RequestPriorityO8rawValueACSgSS_tcfCTv_r
++ _$s26AppleIntelligenceReporting15RequestPriorityO8rawValueSSvg
++ _$s26AppleIntelligenceReporting15RequestPriorityO8rawValueSSvpMV
++ _$s26AppleIntelligenceReporting15RequestPriorityOACSQAAWL
++ _$s26AppleIntelligenceReporting15RequestPriorityOACSQAAWl
++ _$s26AppleIntelligenceReporting15RequestPriorityOACSYAAWL
++ _$s26AppleIntelligenceReporting15RequestPriorityOACSYAAWl
++ _$s26AppleIntelligenceReporting15RequestPriorityOMF
++ _$s26AppleIntelligenceReporting15RequestPriorityOMa
++ _$s26AppleIntelligenceReporting15RequestPriorityOMf
++ _$s26AppleIntelligenceReporting15RequestPriorityOMn
++ _$s26AppleIntelligenceReporting15RequestPriorityON
++ _$s26AppleIntelligenceReporting15RequestPriorityOSEAAMc
++ _$s26AppleIntelligenceReporting15RequestPriorityOSEAAMcMK
++ _$s26AppleIntelligenceReporting15RequestPriorityOSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s26AppleIntelligenceReporting15RequestPriorityOSHAAMc
++ _$s26AppleIntelligenceReporting15RequestPriorityOSHAAMcMK
++ _$s26AppleIntelligenceReporting15RequestPriorityOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s26AppleIntelligenceReporting15RequestPriorityOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s26AppleIntelligenceReporting15RequestPriorityOSHAASH9hashValueSivgTW
++ _$s26AppleIntelligenceReporting15RequestPriorityOSHAASQWb
++ _$s26AppleIntelligenceReporting15RequestPriorityOSQAAMc
++ _$s26AppleIntelligenceReporting15RequestPriorityOSQAAMcMK
++ _$s26AppleIntelligenceReporting15RequestPriorityOSQAASQ2eeoiySbx_xtFZTW
++ _$s26AppleIntelligenceReporting15RequestPriorityOSYAAMA
++ _$s26AppleIntelligenceReporting15RequestPriorityOSYAAMc
++ _$s26AppleIntelligenceReporting15RequestPriorityOSYAAMcMK
++ _$s26AppleIntelligenceReporting15RequestPriorityOSYAASY8rawValue03RawG0QzvgTW
++ _$s26AppleIntelligenceReporting15RequestPriorityOSYAASY8rawValuexSg03RawG0Qz_tcfCTW
++ _$s26AppleIntelligenceReporting15RequestPriorityOSeAAMc
++ _$s26AppleIntelligenceReporting15RequestPriorityOSeAAMcMK
++ _$s26AppleIntelligenceReporting15RequestPriorityOSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s26AppleIntelligenceReporting15RequestPriorityOSgML
++ _$s26AppleIntelligenceReporting15RequestPriorityOWV
++ _$s26AppleIntelligenceReporting15RequestPriorityOwet
++ _$s26AppleIntelligenceReporting15RequestPriorityOwetTm
++ _$s26AppleIntelligenceReporting15RequestPriorityOwst
++ _$s26AppleIntelligenceReporting15RequestPriorityOwstTm
++ _$s26AppleIntelligenceReporting15RequestPriorityOwug
++ _$s26AppleIntelligenceReporting15RequestPriorityOwui
++ _$s26AppleIntelligenceReporting15RequestPriorityOwup
++ _$s26AppleIntelligenceReporting17InferenceMetadataV18thinkingTokenCounts6UInt32VSgvM
++ _$s26AppleIntelligenceReporting17InferenceMetadataV18thinkingTokenCounts6UInt32VSgvg
++ _$s26AppleIntelligenceReporting17InferenceMetadataV18thinkingTokenCounts6UInt32VSgvpMV
++ _$s26AppleIntelligenceReporting17InferenceMetadataV18thinkingTokenCounts6UInt32VSgvs
++ _$s26AppleIntelligenceReporting17InferenceMetadataV28requestQueueTimeMillisecondss6UInt32VSgvM
++ _$s26AppleIntelligenceReporting17InferenceMetadataV28requestQueueTimeMillisecondss6UInt32VSgvg
++ _$s26AppleIntelligenceReporting17InferenceMetadataV28requestQueueTimeMillisecondss6UInt32VSgvpMV
++ _$s26AppleIntelligenceReporting17InferenceMetadataV28requestQueueTimeMillisecondss6UInt32VSgvs
++ _$s26AppleIntelligenceReporting17InferenceMetadataV30timePerOutputTokenMillisecondss6UInt32VSgvM
++ _$s26AppleIntelligenceReporting17InferenceMetadataV30timePerOutputTokenMillisecondss6UInt32VSgvg
++ _$s26AppleIntelligenceReporting17InferenceMetadataV30timePerOutputTokenMillisecondss6UInt32VSgvpMV
++ _$s26AppleIntelligenceReporting17InferenceMetadataV30timePerOutputTokenMillisecondss6UInt32VSgvs
++ _$s26AppleIntelligenceReporting17InferenceMetadataV31prefixTrieTokensHitCountFromGpus6UInt32VSgvM
++ _$s26AppleIntelligenceReporting17InferenceMetadataV31prefixTrieTokensHitCountFromGpus6UInt32VSgvg
++ _$s26AppleIntelligenceReporting17InferenceMetadataV31prefixTrieTokensHitCountFromGpus6UInt32VSgvpMV
++ _$s26AppleIntelligenceReporting17InferenceMetadataV31prefixTrieTokensHitCountFromGpus6UInt32VSgvs
++ _$s26AppleIntelligenceReporting17InferenceMetadataV32prefixTrieTokensHitCountFromDrams6UInt32VSgvM
++ _$s26AppleIntelligenceReporting17InferenceMetadataV32prefixTrieTokensHitCountFromDrams6UInt32VSgvg
++ _$s26AppleIntelligenceReporting17InferenceMetadataV32prefixTrieTokensHitCountFromDrams6UInt32VSgvpMV
++ _$s26AppleIntelligenceReporting17InferenceMetadataV32prefixTrieTokensHitCountFromDrams6UInt32VSgvs
++ _$s27IntelligencePlatformLibrary05AppleA23ReportingInvocationStepV15requestPrioritySSSgvs
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV25inputStreamStepIdentifiers6UInt32VSgvg
++ _$s27IntelligencePlatformLibrary05AppleA25ReportingInferenceMetricsV25inputStreamStepIdentifiers6UInt32VSgvs
++ _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg26AppleIntelligenceReporting15RequestPriorityO_TB5Tm
++ _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF26AppleIntelligenceReporting0fgH15StepIdentifiersO_TB5Tm
++ _$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF26AppleIntelligenceReporting15RequestPriorityO_TB5
++ _OUTLINED_FUNCTION_341
++ _OUTLINED_FUNCTION_342
++ _OUTLINED_FUNCTION_343
++ _OUTLINED_FUNCTION_344
++ _OUTLINED_FUNCTION_345
++ _OUTLINED_FUNCTION_346
++ _OUTLINED_FUNCTION_347
++ _OUTLINED_FUNCTION_348
++ _OUTLINED_FUNCTION_349
++ ___swift_memcpy761_8
++ _associated conformance 26AppleIntelligenceReporting15RequestPriorityOSHAASQ
++ _symbolic _____ 26AppleIntelligenceReporting15RequestPriorityO
++ _symbolic _____Sg 26AppleIntelligenceReporting15RequestPriorityO
+- _$s26AppleIntelligenceReporting0aB14InferenceEventV9subsystem17sessionIdentifier04stepH0017invocationRequestH006clientkH0012modelManagerkH06errors07useCaseH0013additionalUseQ11Identifiers015requestorBundleH0010onBehalfOfvH0017inferenceProviderH005assetvH06assets8metadata11spanContext9timestamp18monotonicTimestamp19underlyingErrorCode21underlyingErrorDomainACSS_10Foundation4UUIDVSgSSSgAA14UUIDIdentifierVSgA_A_SayAA0aB5Error_pGAA0absQ0VSgSayA7_GA0_A0_A0_A0_SayAA0aB5AssetVGAA0abC8MetadataOSgAA0abC11SpanContextVSgAX4DateVSg0B15PlatformLibrary18MonotonicTimestampVSgSiSgA0_tcfC
+- _$s26AppleIntelligenceReporting0abC15StepIdentifiersOwetTm
+- _$s26AppleIntelligenceReporting0abC15StepIdentifiersOwstTm
+- _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg26AppleIntelligenceReporting0deF15StepIdentifiersO_TB5
+- _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF26AppleIntelligenceReporting0fgH15StepIdentifiersO_TB5
+- ___swift_memcpy721_8
+CStrings:
++ "background"
++ "foreground"
++ "internalRoutingDecision"
++ "prefixTrieTokensHitCountFromDram"
++ "prefixTrieTokensHitCountFromGpu"
++ "requestQueueTimeMilliseconds"
++ "thinkingTokenCount"
++ "timePerOutputTokenMilliseconds"
++ "unknown"
++ "userInitiated"
+```

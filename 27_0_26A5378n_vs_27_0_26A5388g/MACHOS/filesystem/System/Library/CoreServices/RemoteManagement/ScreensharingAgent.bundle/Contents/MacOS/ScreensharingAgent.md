@@ -1,0 +1,91 @@
+## ScreensharingAgent
+
+> `/System/Library/CoreServices/RemoteManagement/ScreensharingAgent.bundle/Contents/MacOS/ScreensharingAgent`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
+```diff
+
+-756.33.0.0.0
++756.34.0.0.0
+   __TEXT.__text: 0x489b8
+   __TEXT.__auth_stubs: 0x1b90
+   __TEXT.__objc_stubs: 0x2ac0
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/LockScreen/LockScreenCommon.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBCommon/CheckScreenSharingEntitlement.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBCommon/Clipboard.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBCommon/HEVCFrameRate.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBCommon/KeyMap.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBCommon/MouseEventUtils.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBCommon/RFBCommon.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBServer/AutoPasteboardTimer.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBServer/DisplayNotification.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBServer/EncodeMultiVariant.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBServer/EncodeMultiVariantCL.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBServer/HuffmanEncode.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBServer/OpenGLUtils.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBServer/RFBServerUtils.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBServer/SSAgentScreenCapture.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBServer/ScreenWake.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBServer/SendFrameBufferOpenCL.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/RFBServer/hidpi.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/SSAssistanceCursor/SSAssistanceCursorIPC.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/SSPasteboardHelper/SSPasteboardHelperIPC.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/ScreensharingAgent/AgentGuestAccessIPC.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/ScreensharingAgent/AgentScrapIPC.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/ScreensharingAgent/AgentScreenState.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/ScreensharingAgent/AgentViewer.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/ScreensharingAgent/SSAgentVirtualDisplay.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/ScreensharingAgent/SSUDPSender.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/ScreensharingAgent/ScreensharingAgent.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/ScreensharingAgent/WindowserverCommunication.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/common/CommonUtilities.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/common/Log.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/common/MenuExtraHelper.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/common/OSVersionUtils.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/common/RDSemaphore.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/common/RDSemaphore.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/common/RDThread.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/common/SSSignposts.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.W9bmVy/Sources/RemoteDesktop/common/SSTimebase.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/LockScreen/LockScreenCommon.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBCommon/CheckScreenSharingEntitlement.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBCommon/Clipboard.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBCommon/HEVCFrameRate.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBCommon/KeyMap.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBCommon/MouseEventUtils.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBCommon/RFBCommon.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBServer/AutoPasteboardTimer.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBServer/DisplayNotification.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBServer/EncodeMultiVariant.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBServer/EncodeMultiVariantCL.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBServer/HuffmanEncode.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBServer/OpenGLUtils.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBServer/RFBServerUtils.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBServer/SSAgentScreenCapture.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBServer/ScreenWake.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBServer/SendFrameBufferOpenCL.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/RFBServer/hidpi.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/SSAssistanceCursor/SSAssistanceCursorIPC.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/SSPasteboardHelper/SSPasteboardHelperIPC.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/ScreensharingAgent/AgentGuestAccessIPC.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/ScreensharingAgent/AgentScrapIPC.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/ScreensharingAgent/AgentScreenState.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/ScreensharingAgent/AgentViewer.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/ScreensharingAgent/SSAgentVirtualDisplay.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/ScreensharingAgent/SSUDPSender.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/ScreensharingAgent/ScreensharingAgent.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/ScreensharingAgent/WindowserverCommunication.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/common/CommonUtilities.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/common/Log.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/common/MenuExtraHelper.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/common/OSVersionUtils.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/common/RDSemaphore.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/common/RDSemaphore.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/common/RDThread.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/common/SSSignposts.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.XY1mEG/Sources/RemoteDesktop/common/SSTimebase.m"
+```

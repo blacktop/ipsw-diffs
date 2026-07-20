@@ -1,0 +1,148 @@
+## JetUI
+
+> `/System/Library/PrivateFrameworks/JetUI.framework/Versions/A/JetUI`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__cfstring`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-10.0.42.0.0
+-  __TEXT.__text: 0xb6b0c
+-  __TEXT.__objc_methlist: 0x1718
+-  __TEXT.__const: 0xb558
+-  __TEXT.__cstring: 0x1d1f
+-  __TEXT.__constg_swiftt: 0x37f4
+-  __TEXT.__swift5_typeref: 0x2cbe
++10.0.43.0.0
++  __TEXT.__text: 0xbb0b0
++  __TEXT.__objc_methlist: 0x17c0
++  __TEXT.__const: 0xb738
++  __TEXT.__cstring: 0x1e6f
++  __TEXT.__constg_swiftt: 0x3880
++  __TEXT.__swift5_typeref: 0x2d68
+   __TEXT.__swift5_builtin: 0x2bc
+-  __TEXT.__swift5_reflstr: 0x274d
+-  __TEXT.__swift5_fieldmd: 0x34f8
++  __TEXT.__swift5_reflstr: 0x280d
++  __TEXT.__swift5_fieldmd: 0x359c
+   __TEXT.__swift5_assocty: 0xc10
+   __TEXT.__swift5_proto: 0x894
+-  __TEXT.__swift5_types: 0x414
++  __TEXT.__swift5_types: 0x41c
+   __TEXT.__swift5_capture: 0xc88
+   __TEXT.__swift5_protos: 0x90
+   __TEXT.__swift5_mpenum: 0x58
+   __TEXT.__swift_as_entry: 0x10
+   __TEXT.__swift_as_ret: 0x10
+   __TEXT.__swift_as_cont: 0xc
+-  __TEXT.__unwind_info: 0x32e8
++  __TEXT.__unwind_info: 0x3350
+   __TEXT.__eh_frame: 0x1598
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x750
+-  __DATA_CONST.__objc_classlist: 0x160
++  __DATA_CONST.__objc_classlist: 0x170
+   __DATA_CONST.__objc_catlist: 0x70
+   __DATA_CONST.__objc_protolist: 0xd8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x10c8
+   __DATA_CONST.__objc_protorefs: 0x70
+   __DATA_CONST.__objc_superrefs: 0x28
+-  __DATA_CONST.__got: 0x8a8
+-  __AUTH_CONST.__const: 0x9728
++  __DATA_CONST.__got: 0x988
++  __AUTH_CONST.__const: 0x9730
+   __AUTH_CONST.__cfstring: 0x420
+-  __AUTH_CONST.__objc_const: 0x6c40
+-  __AUTH_CONST.__auth_got: 0x12d0
+-  __AUTH.__objc_data: 0x9a0
+-  __AUTH.__data: 0x980
++  __AUTH_CONST.__objc_const: 0x72e0
++  __AUTH_CONST.__auth_got: 0x1410
++  __AUTH.__objc_data: 0xaa0
++  __AUTH.__data: 0xa50
+   __DATA.__objc_ivar: 0x18
+-  __DATA.__data: 0x22d8
+-  __DATA.__bss: 0xb1d0
+-  __DATA.__common: 0x40
++  __DATA.__data: 0x2408
++  __DATA.__bss: 0xb200
++  __DATA.__common: 0x48
+   __DATA_DIRTY.__objc_data: 0x14e0
+-  __DATA_DIRTY.__data: 0x1660
++  __DATA_DIRTY.__data: 0x1670
+   __DATA_DIRTY.__bss: 0x1220
+   __DATA_DIRTY.__common: 0x48
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5548
+-  Symbols:   2416
+-  CStrings:  221
++  Functions: 5602
++  Symbols:   2448
++  CStrings:  224
+ 
+Symbols:
++ _OBJC_CLASS_$__TtC5JetUI29NQMLAttributedStringGenerator
++ _OBJC_METACLASS_$__TtC5JetUI29NQMLAttributedStringGenerator
++ _PROTOCOLS__TtC5JetUI29NQMLAttributedStringGenerator
++ __DATA__TtC5JetUI29NQMLAttributedStringGenerator
++ __DATA__TtC5JetUIP33_E0AC8E89C7CE0B680760ED2541D15C3F18OrderedListTracker
++ __INSTANCE_METHODS__TtC5JetUI29NQMLAttributedStringGenerator
++ __IVARS__TtC5JetUI29NQMLAttributedStringGenerator
++ __IVARS__TtC5JetUIP33_E0AC8E89C7CE0B680760ED2541D15C3F18OrderedListTracker
++ __METACLASS_DATA__TtC5JetUI29NQMLAttributedStringGenerator
++ __METACLASS_DATA__TtC5JetUIP33_E0AC8E89C7CE0B680760ED2541D15C3F18OrderedListTracker
++ __PROTOCOLS__TtC5JetUI29NQMLAttributedStringGenerator
++ ___swift_memcpy89_8
++ _symbolic Say_____G 10Foundation18AttributeContainerV
++ _symbolic Sny_____G 10Foundation16AttributedStringV5IndexV
++ _symbolic _____ 10Foundation15AttributeScopesO
++ _symbolic _____ 10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV
++ _symbolic _____ 10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV014UnderlineStyleB0O
++ _symbolic _____ 10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV015ForegroundColorB0O
++ _symbolic _____ 10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV018StrikethroughStyleB0O
++ _symbolic _____ 10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV04FontB0O
++ _symbolic _____ 10Foundation16AttributedStringV
++ _symbolic _____ 5JetUI18OrderedListTracker33_E0AC8E89C7CE0B680760ED2541D15C3FLLC
++ _symbolic _____ 5JetUI29NQMLAttributedStringGeneratorC
++ _symbolic _____ 7SwiftUI4FontV
++ _symbolic _____5lower_AA5uppert 10Foundation16AttributedStringV5IndexV
++ _symbolic _____Sg 10Foundation16AttributedStringV5IndexV
++ _symbolic _____Sg 5JetUI18OrderedListTracker33_E0AC8E89C7CE0B680760ED2541D15C3FLLC
++ _symbolic _____Sg 7SwiftUI4FontV
++ _symbolic _____Sg 7SwiftUI4TextV9LineStyleV
++ _symbolic _____m 10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV
++ _symbolic _____y_____G 10Foundation24ScopedAttributeContainerV AA0C6ScopesO7SwiftUIE0F12UIAttributesV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation18AttributeContainerV
+CStrings:
++ "JetUI.NQMLAttributedStringGenerator"
++ "NQML font-name/font-size tag attributes are not supported on the SwiftUI.Font path; ignoring"
++ "NQMLConfiguration was created with a SwiftUI Font but used with the NSAttributedString path; the SwiftUI font is ignored. Use AttributedString.init(ju_nqml:configuration:) instead."
+```

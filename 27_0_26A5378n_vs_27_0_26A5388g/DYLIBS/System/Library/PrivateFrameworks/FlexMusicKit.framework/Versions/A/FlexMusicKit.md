@@ -1,0 +1,45 @@
+## FlexMusicKit
+
+> `/System/Library/PrivateFrameworks/FlexMusicKit.framework/Versions/A/FlexMusicKit`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_intobj`
+- `__DATA.__data`
+
+```diff
+
+   __DATA_CONST.__objc_selrefs: 0x1848
+   __DATA_CONST.__objc_superrefs: 0x110
+   __DATA_CONST.__objc_arraydata: 0x20
+-  __DATA_CONST.__got: 0x2e0
++  __DATA_CONST.__got: 0x2e8
+   __AUTH_CONST.__const: 0x970
+   __AUTH_CONST.__cfstring: 0x3920
+   __AUTH_CONST.__objc_const: 0x4760
+   __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__objc_intobj: 0xa8
+   __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x370
+   __DATA.__objc_ivar: 0x30c
+   __DATA.__data: 0x248
+   __DATA.__bss: 0x48
+-  __DATA_DIRTY.__objc_data: 0xa50
++  __DATA_DIRTY.__objc_data: 0xdc0
+   __DATA_DIRTY.__bss: 0x38
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+```

@@ -1,0 +1,1258 @@
+## DesktopServicesPriv
+
+> `/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__weak_got`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-1852.0.300.0.0
+-  __TEXT.__text: 0x218188
+-  __TEXT.__objc_methlist: 0x3b14
+-  __TEXT.__gcc_except_tab: 0x327d8
+-  __TEXT.__const: 0x8150
+-  __TEXT.__cstring: 0x8d24
+-  __TEXT.__oslogstring: 0x8406
++1854.0.0.0.0
++  __TEXT.__text: 0x21db54
++  __TEXT.__objc_methlist: 0x3b44
++  __TEXT.__gcc_except_tab: 0x3327c
++  __TEXT.__const: 0x8280
++  __TEXT.__cstring: 0x9422
++  __TEXT.__oslogstring: 0x85ef
+   __TEXT.__ustring: 0x28
+-  __TEXT.__unwind_info: 0xfe70
++  __TEXT.__unwind_info: 0x10100
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_protolist: 0x88
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x10
+-  __DATA_CONST.__objc_selrefs: 0x2598
++  __DATA_CONST.__objc_selrefs: 0x25b0
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__objc_superrefs: 0x160
+   __DATA_CONST.__objc_arraydata: 0x40
+   __DATA_CONST.__got: 0xcc0
+-  __AUTH_CONST.__const: 0xb448
+-  __AUTH_CONST.__cfstring: 0x45e0
+-  __AUTH_CONST.__objc_const: 0x6350
++  __AUTH_CONST.__const: 0xb578
++  __AUTH_CONST.__cfstring: 0x4640
++  __AUTH_CONST.__objc_const: 0x6390
+   __AUTH_CONST.__weak_auth_got: 0x28
+   __AUTH_CONST.__objc_intobj: 0x108
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH_CONST.__auth_got: 0x18f8
++  __AUTH_CONST.__auth_got: 0x1900
+   __AUTH.__objc_data: 0x11d0
+-  __AUTH.__data: 0xd0
+-  __DATA.__objc_ivar: 0x300
++  __AUTH.__data: 0x20
++  __DATA.__objc_ivar: 0x308
+   __DATA.__data: 0x898
+-  __DATA.__bss: 0xef0
++  __DATA.__bss: 0x1148
+   __DATA.__common: 0xe1
+   __DATA_DIRTY.__objc_data: 0xa50
+-  __DATA_DIRTY.__data: 0x550
+-  __DATA_DIRTY.__bss: 0x10a8
++  __DATA_DIRTY.__data: 0x4d8
++  __DATA_DIRTY.__bss: 0x1028
+   __DATA_DIRTY.__common: 0x158
+   - /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libfakelink.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 9636
+-  Symbols:   16478
+-  CStrings:  2261
++  Functions: 9675
++  Symbols:   16554
++  CStrings:  2276
+ 
+Symbols:
++ -[FIOperation progressUpdateQueue]
++ -[FIOperation startEstimatingTimeRemaining]
++ -[FIOperation startFractionCompletedObserver]
++ -[FIOperation startUpdateTimeRemainingTimer]
++ GCC_except_table1006
++ GCC_except_table1010
++ GCC_except_table1015
++ GCC_except_table1020
++ GCC_except_table1022
++ GCC_except_table1025
++ GCC_except_table1026
++ GCC_except_table1036
++ GCC_except_table1038
++ GCC_except_table1040
++ GCC_except_table1044
++ GCC_except_table1053
++ GCC_except_table1054
++ GCC_except_table1055
++ GCC_except_table1059
++ GCC_except_table1069
++ GCC_except_table1073
++ GCC_except_table1074
++ GCC_except_table1076
++ GCC_except_table1078
++ GCC_except_table1087
++ GCC_except_table1091
++ GCC_except_table1093
++ GCC_except_table1101
++ GCC_except_table1104
++ GCC_except_table1114
++ GCC_except_table1119
++ GCC_except_table1121
++ GCC_except_table1123
++ GCC_except_table1129
++ GCC_except_table1130
++ GCC_except_table1131
++ GCC_except_table1132
++ GCC_except_table1133
++ GCC_except_table1139
++ GCC_except_table1147
++ GCC_except_table1149
++ GCC_except_table1150
++ GCC_except_table1158
++ GCC_except_table1159
++ GCC_except_table1160
++ GCC_except_table1167
++ GCC_except_table1190
++ GCC_except_table1197
++ GCC_except_table1201
++ GCC_except_table1202
++ GCC_except_table1203
++ GCC_except_table1205
++ GCC_except_table1212
++ GCC_except_table1214
++ GCC_except_table1218
++ GCC_except_table1227
++ GCC_except_table1237
++ GCC_except_table1244
++ GCC_except_table1249
++ GCC_except_table1257
++ GCC_except_table1261
++ GCC_except_table1269
++ GCC_except_table1274
++ GCC_except_table1277
++ GCC_except_table1280
++ GCC_except_table1281
++ GCC_except_table1285
++ GCC_except_table1291
++ GCC_except_table1293
++ GCC_except_table1294
++ GCC_except_table1313
++ GCC_except_table1323
++ GCC_except_table1324
++ GCC_except_table1333
++ GCC_except_table1334
++ GCC_except_table1339
++ GCC_except_table1342
++ GCC_except_table1352
++ GCC_except_table1353
++ GCC_except_table1368
++ GCC_except_table1371
++ GCC_except_table1372
++ GCC_except_table1380
++ GCC_except_table1384
++ GCC_except_table1387
++ GCC_except_table1388
++ GCC_except_table1394
++ GCC_except_table1395
++ GCC_except_table1406
++ GCC_except_table1407
++ GCC_except_table1408
++ GCC_except_table1409
++ GCC_except_table1410
++ GCC_except_table1411
++ GCC_except_table1412
++ GCC_except_table1423
++ GCC_except_table1429
++ GCC_except_table1431
++ GCC_except_table1435
++ GCC_except_table1441
++ GCC_except_table1445
++ GCC_except_table1450
++ GCC_except_table1451
++ GCC_except_table1455
++ GCC_except_table1463
++ GCC_except_table1465
++ GCC_except_table1466
++ GCC_except_table1467
++ GCC_except_table1471
++ GCC_except_table1475
++ GCC_except_table1485
++ GCC_except_table1486
++ GCC_except_table1496
++ GCC_except_table1497
++ GCC_except_table1501
++ GCC_except_table1505
++ GCC_except_table1523
++ GCC_except_table1524
++ GCC_except_table1532
++ GCC_except_table1533
++ GCC_except_table1534
++ GCC_except_table1535
++ GCC_except_table1536
++ GCC_except_table1546
++ GCC_except_table1563
++ GCC_except_table1564
++ GCC_except_table1567
++ GCC_except_table1572
++ GCC_except_table1575
++ GCC_except_table1586
++ GCC_except_table1602
++ GCC_except_table1615
++ GCC_except_table1616
++ GCC_except_table1618
++ GCC_except_table1619
++ GCC_except_table1620
++ GCC_except_table1621
++ GCC_except_table1624
++ GCC_except_table339
++ GCC_except_table398
++ GCC_except_table411
++ GCC_except_table433
++ GCC_except_table468
++ GCC_except_table481
++ GCC_except_table484
++ GCC_except_table487
++ GCC_except_table509
++ GCC_except_table529
++ GCC_except_table536
++ GCC_except_table550
++ GCC_except_table557
++ GCC_except_table560
++ GCC_except_table562
++ GCC_except_table569
++ GCC_except_table611
++ GCC_except_table615
++ GCC_except_table628
++ GCC_except_table641
++ GCC_except_table649
++ GCC_except_table652
++ GCC_except_table665
++ GCC_except_table666
++ GCC_except_table693
++ GCC_except_table694
++ GCC_except_table699
++ GCC_except_table702
++ GCC_except_table716
++ GCC_except_table722
++ GCC_except_table734
++ GCC_except_table742
++ GCC_except_table759
++ GCC_except_table762
++ GCC_except_table766
++ GCC_except_table771
++ GCC_except_table777
++ GCC_except_table780
++ GCC_except_table783
++ GCC_except_table786
++ GCC_except_table789
++ GCC_except_table796
++ GCC_except_table805
++ GCC_except_table806
++ GCC_except_table807
++ GCC_except_table812
++ GCC_except_table817
++ GCC_except_table822
++ GCC_except_table823
++ GCC_except_table829
++ GCC_except_table830
++ GCC_except_table833
++ GCC_except_table834
++ GCC_except_table840
++ GCC_except_table843
++ GCC_except_table848
++ GCC_except_table851
++ GCC_except_table861
++ GCC_except_table864
++ GCC_except_table868
++ GCC_except_table874
++ GCC_except_table878
++ GCC_except_table883
++ GCC_except_table884
++ GCC_except_table889
++ GCC_except_table892
++ GCC_except_table893
++ GCC_except_table898
++ GCC_except_table899
++ GCC_except_table905
++ GCC_except_table910
++ GCC_except_table916
++ GCC_except_table921
++ GCC_except_table929
++ GCC_except_table931
++ GCC_except_table935
++ GCC_except_table937
++ GCC_except_table942
++ GCC_except_table964
++ GCC_except_table967
++ GCC_except_table975
++ GCC_except_table985
++ GCC_except_table987
++ GCC_except_table992
++ GCC_except_table993
++ GCC_except_table998
++ OBJC_IVAR_$_FIOperation._progressObserver
++ OBJC_IVAR_$_FIOperation._updateTimeRemainingTimer
++ __Z11DescriptionIP26TDSHelperCopyMoveOperationENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKT_PNS2_9enable_ifIXaaaasr3stdE11is_scalar_vIS9_Entsr18type_traits_extrasE15is_enum_class_vIS9_Entsr3stdE16is_convertible_vIS9_P8NSObjectEEvE4typeE
++ __Z11DescriptionIU8__strongP16FIProviderDomainENSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERKT_
++ __Z11make_nsweakI10NSProgressE10TNSWeakPtrIT_EPS2_
++ __Z13FormatDetailsIP26TDSHelperCopyMoveOperationJEENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_17basic_string_viewIcS5_EERKT_DpRKT0_
++ __Z13FormatDetailsIPKcJS1_S1_EENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_17basic_string_viewIcS5_EERKT_DpRKT0_
++ __Z13FormatDetailsIU8__strongP16FIProviderDomainJEENSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERKNS3_17basic_string_viewIcS6_EERKT_DpRKT0_
++ __Z13FormatDetailsIU8__strongP6FINodeJS2_U8__strongP8NSStringPKcS7_S7_EENSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEERKNS8_17basic_string_viewIcSB_EERKT_DpRKT0_
++ __Z13FormatDetailsIU8__strongP6FINodeJU8__strongP8NSStringPKcS7_S7_EENSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEERKNS8_17basic_string_viewIcSB_EERKT_DpRKT0_
++ __Z13FormatDetailsIU8__strongP8NSStringJPKcS4_S4_EENSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERKNS5_17basic_string_viewIcS8_EERKT_DpRKT0_
++ __Z13FormatDetailsIU8__strongP8NSStringJU8__strongP16FIProviderDomainEENSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEERKNS6_17basic_string_viewIcS9_EERKT_DpRKT0_
++ __Z13FormatDetailsIU8__strongP8NSStringJbPKcEENSt3__112basic_stringIcNS5_11char_traitsIcEENS5_9allocatorIcEEEERKNS5_17basic_string_viewIcS8_EERKT_DpRKT0_
++ __Z13FormatDetailsIbJEENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERKNS0_17basic_string_viewIcS3_EERKT_DpRKT0_
++ __Z13FormatDetailsIbJPKcEENSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERKNS2_17basic_string_viewIcS5_EERKT_DpRKT0_
++ __Z14ALLOC_FPItemIDv
++ __Z16FormatOneDetailsIP26TDSHelperCopyMoveOperationENSt3__14pairI15FormatOneResult11PrintFormatEERNS2_17basic_string_viewIcNS2_11char_traitsIcEEEERNS2_12basic_stringIcS9_NS2_9allocatorIcEEEERKT_
++ __Z16FormatOneDetailsIU8__strongP16FIProviderDomainENSt3__14pairI15FormatOneResult11PrintFormatEERNS3_17basic_string_viewIcNS3_11char_traitsIcEEEERNS3_12basic_stringIcSA_NS3_9allocatorIcEEEERKT_
++ __Z16FormatOneDetailsIbENSt3__14pairI15FormatOneResult11PrintFormatEERNS0_17basic_string_viewIcNS0_11char_traitsIcEEEERNS0_12basic_stringIcS7_NS0_9allocatorIcEEEERKT_
++ __Z17ALLOC_CSUserQueryv
++ __Z17CalcTimeRemainingP10NSProgress
++ __Z19ALLOC_CSSearchQueryv
++ __Z19UpdateTimeRemainingP10NSProgress
++ __Z19kTStringLiteralDataIJLc10ELc10ELc45ELc9ELc32EEE
++ __Z21ALLOC_FPCopyOperationv
++ __Z21ALLOC_FPMoveOperationv
++ __Z22ALLOC_FPTrashOperationv
++ __Z23ALLOC_FPDeleteOperationv
++ __Z23ALLOC_FPRenameOperationv
++ __Z23ALLOC_SWHighlightCenterv
++ __Z24ALLOC_CSUserQueryContextv
++ __Z24ALLOC_FPUntrashOperationv
++ __Z24STMFreeSpaceRequestClassv
++ __Z26ALLOC_CSSearchQueryContextv
++ __Z29ALLOC_FPCreateFolderOperationv
++ __Z30ALLOC_SWCollaborationHighlightv
++ __Z5as_nsI7TStringEDaRKT_
++ __ZGVZL13getFPTagClassvE10classFPTag
++ __ZGVZL14SynapseLibraryvE16frameworkLibrary
++ __ZGVZL14getFPItemClassvE11classFPItem
++ __ZGVZL15ContactsLibraryvE16frameworkLibrary
++ __ZGVZL16CloudDocsLibraryvE16frameworkLibrary
++ __ZGVZL16getFPItemIDClassvE13classFPItemID
++ __ZGVZL17AMPDevicesLibraryvE16frameworkLibrary
++ __ZGVZL17ContactsUILibraryvE16frameworkLibrary
++ __ZGVZL17getCNContactClassvE14classCNContact
++ __ZGVZL18CacheDeleteLibraryvE16frameworkLibrary
++ __ZGVZL18SocialLayerLibraryvE16frameworkLibrary
++ __ZGVZL19FileProviderLibraryvE16frameworkLibrary
++ __ZGVZL19getBRContainerClassvE16classBRContainer
++ __ZGVZL19getCSUserQueryClassvE16classCSUserQuery
++ __ZGVZL20CoreSpotlightLibraryvE16frameworkLibrary
++ __ZGVZL20SharedWithYouLibraryvE16frameworkLibrary
++ __ZGVZL21getCSSearchQueryClassvE18classCSSearchQuery
++ __ZGVZL21getFPItemManagerClassvE18classFPItemManager
++ __ZGVZL22getCNContactStoreClassvE19classCNContactStore
++ __ZGVZL23DeviceManagementLibraryvE16frameworkLibrary
++ __ZGVZL23SystemExtensionsLibraryvE16frameworkLibrary
++ __ZGVZL23getFPCopyOperationClassvE20classFPCopyOperation
++ __ZGVZL23getFPMoveOperationClassvE20classFPMoveOperation
++ __ZGVZL24StorageManagementLibraryvE16frameworkLibrary
++ __ZGVZL24getDeviceCollectionClassvE21classDeviceCollection
++ __ZGVZL24getFPProviderDomainClassvE21classFPProviderDomain
++ __ZGVZL24getFPTrashOperationClassvE21classFPTrashOperation
++ __ZGVZL25getFPDeleteOperationClassvE22classFPDeleteOperation
++ __ZGVZL25getFPRenameOperationClassvE22classFPRenameOperation
++ __ZGVZL25getSWHighlightCenterClassvE22classSWHighlightCenter
++ __ZGVZL26getBRDaemonConnectionClassvE23classBRDaemonConnection
++ __ZGVZL26getCNContactFormatterClassvE23classCNContactFormatter
++ __ZGVZL26getCSUserQueryContextClassvE23classCSUserQueryContext
++ __ZGVZL26getFPUntrashOperationClassvE23classFPUntrashOperation
++ __ZGVZL27getSTMFreeSpaceRequestClassvE24classSTMFreeSpaceRequest
++ __ZGVZL27getSYDocumentWorkflowsClassvE24classSYDocumentWorkflows
++ __ZGVZL28getBRFileProviderHelperClassvE25classBRFileProviderHelper
++ __ZGVZL28getCSSearchQueryContextClassvE25classCSSearchQueryContext
++ __ZGVZL28getSYDocumentAttributesClassvE25classSYDocumentAttributes
++ __ZGVZL29getCNContactFetchRequestClassvE26classCNContactFetchRequest
++ __ZGVZL30getCNAvatarViewControllerClassvE27classCNAvatarViewController
++ __ZGVZL31getFPCreateFolderOperationClassvE28classFPCreateFolderOperation
++ __ZGVZL31getOSSystemExtensionClientClassvE28classOSSystemExtensionClient
++ __ZGVZL32getSLCoreSpotlightUtilitiesClassvE29classSLCoreSpotlightUtilities
++ __ZGVZL32getSWCollaborationHighlightClassvE29classSWCollaborationHighlight
++ __ZGVZL35getDMFApplicationPolicyMonitorClassvE32classDMFApplicationPolicyMonitor
++ __ZL14getFPItemClassv
++ __ZL16CloudDocsLibraryv
++ __ZL18CacheDeleteLibraryv
++ __ZL19FileProviderLibraryv
++ __ZL22getCNContactStoreClassv
++ __ZL26getBRDaemonConnectionClassv
++ __ZL26getCNContactFormatterClassv
++ __ZL27getSYDocumentWorkflowsClassv
++ __ZL28getSYDocumentAttributesClassv
++ __ZL31getOSSystemExtensionClientClassv
++ __ZL32getSLCoreSpotlightUtilitiesClassv
++ __ZN25HexDescriptionPrinterGlueIP26TDSHelperCopyMoveOperationvE4dumpERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERKS1_
++ __ZN25HexDescriptionPrinterGlueIU8__strongP16FIProviderDomainvE4dumpERKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEERU8__strongKS1_
++ __ZN25HexDescriptionPrinterGlueIbvE4dumpERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKb
++ __ZN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_22vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEED0Ev
++ __ZN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_22vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEED1Ev
++ __ZN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_22vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEclES7_SA_
++ __ZN5TNode34ReconcileDetachedSyncRootsIfNeededE18NodeRequestOptions
++ __ZN7StDeferIZN26TDSHelperCopyMoveOperation4MoveERK8TNodePtrS3_PK7TStringbbbRS4_RbE3$_0ED1Ev
++ __ZN7StDeferIZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_23clEvEUlvE_ED1Ev
++ __ZNK10TCFURLInfo14GetLogicalSizeEv
++ __ZNK10TCFURLInfo21CopyDataUsingCopyfileERKNSt3__110shared_ptrIKS_EERK7TStringRNS1_IS_EE
++ __ZNK10TNSWeakPtrI10NSProgressE4LockEv
++ __ZNK4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_22vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEE9has_valueEv
++ __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEPNS0_6__baseISA_EE
++ __ZNKSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18FvP12NSDictionaryIP8NSStringP8NSObjectEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18FvP12NSDictionaryIP8NSStringP8NSObjectEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEPNS0_6__baseISA_EE
++ __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEv
++ __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEED0Ev
++ __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEED1Ev
++ __ZNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEEclEv
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEED0Ev
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEED1Ev
++ __ZNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEEclEOU8__strongS9_
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEED0Ev
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEED1Ev
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEEclEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18FvP12NSDictionaryIP8NSStringP8NSObjectEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18FvP12NSDictionaryIP8NSStringP8NSObjectEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18FvP12NSDictionaryIP8NSStringP8NSObjectEEEC1B9nqe220106ERKS2_
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18FvP12NSDictionaryIP8NSStringP8NSObjectEEED0Ev
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18FvP12NSDictionaryIP8NSStringP8NSObjectEEED1Ev
++ __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18FvP12NSDictionaryIP8NSStringP8NSObjectEEEclEOU8__strongS9_
++ __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEb
++ __ZNSt3__16vectorI8TNodePtrNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRS1_EEEPS1_DpOT_
++ __ZTIN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_22vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEE
++ __ZTINSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEEE
++ __ZTINSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTINSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEEE
++ __ZTINSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTIZ32-[FIOperation configureProgress]E4$_19
++ __ZTIZ45-[FIOperation startFractionCompletedObserver]E3$_7
++ __ZTIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18
++ __ZTSN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_22vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEE
++ __ZTSNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEEE
++ __ZTSNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTSNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEEE
++ __ZTSNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTSZ32-[FIOperation configureProgress]E4$_19
++ __ZTSZ45-[FIOperation startFractionCompletedObserver]E3$_7
++ __ZTSZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18
++ __ZTVN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_22vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEE
++ __ZTVNSt3__110__function6__funcIZ32-[FIOperation configureProgress]E4$_19FvvEEE
++ __ZTVNSt3__110__function6__funcIZ45-[FIOperation startFractionCompletedObserver]E3$_7FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZTVNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvvEEE
++ __ZTVNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_18FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
++ __ZZ27-[FIOperation initIterator]EN4$_338__invokeEP19OpaqueOperationData
++ __ZZ27-[FIOperation initIterator]EN4$_348__invokeEP19OpaqueOperationData
++ __ZZ31-[FIOperation cancelWithError:]EN4$_30D1Ev
++ __ZZ40-[FIOperation updateCountsFromOpStatus:]EN4$_618__invokeEP10NSProgressx
++ __ZZ40-[FIOperation updateCountsFromOpStatus:]EN4$_628__invokeEP10NSProgressx
++ __ZZ50-[FIOperation updateTotalCountsFromChildProgress:]EN4$_538__invokeEP10NSProgressx
++ __ZZ50-[FIOperation updateTotalCountsFromChildProgress:]EN4$_568__invokeEP10NSProgressx
++ __ZZ52-[FIOperation registerChildProgress:subscribedNode:]EN4$_18D1Ev
++ __ZZ52-[FIOperation registerChildProgress:subscribedNode:]ENK4$_75clEP8NSNumberS1_14ProgressUpdate
++ __ZZ54-[FIOperation updateCompletedCountsFromChildProgress:]EN4$_688__invokeEP10NSProgressx
++ __ZZ54-[FIOperation updateCompletedCountsFromChildProgress:]EN4$_718__invokeEP10NSProgressx
++ __ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]EN4$_22D1Ev
++ __ZZL13getFPTagClassvE10classFPTag
++ __ZZL13getFPTagClassvENK3$_0clEv
++ __ZZL14getFPItemClassvE11classFPItem
++ __ZZL14getFPItemClassvENK3$_0clEv
++ __ZZL16getFPItemIDClassvE13classFPItemID
++ __ZZL16getFPItemIDClassvENK3$_0clEv
++ __ZZL17getCNContactClassvE14classCNContact
++ __ZZL17getCNContactClassvENK3$_0clEv
++ __ZZL19getBRContainerClassvE16classBRContainer
++ __ZZL19getBRContainerClassvENK3$_0clEv
++ __ZZL19getCSUserQueryClassvE16classCSUserQuery
++ __ZZL19getCSUserQueryClassvENK3$_0clEv
++ __ZZL21getCSSearchQueryClassvE18classCSSearchQuery
++ __ZZL21getCSSearchQueryClassvENK3$_0clEv
++ __ZZL21getFPItemManagerClassvE18classFPItemManager
++ __ZZL21getFPItemManagerClassvENK3$_0clEv
++ __ZZL22getCNContactStoreClassvE19classCNContactStore
++ __ZZL22getCNContactStoreClassvENK3$_0clEv
++ __ZZL23getFPCopyOperationClassvE20classFPCopyOperation
++ __ZZL23getFPCopyOperationClassvENK3$_0clEv
++ __ZZL23getFPMoveOperationClassvE20classFPMoveOperation
++ __ZZL23getFPMoveOperationClassvENK3$_0clEv
++ __ZZL24getDeviceCollectionClassvE21classDeviceCollection
++ __ZZL24getDeviceCollectionClassvENK3$_0clEv
++ __ZZL24getFPProviderDomainClassvE21classFPProviderDomain
++ __ZZL24getFPProviderDomainClassvENK3$_0clEv
++ __ZZL24getFPTrashOperationClassvE21classFPTrashOperation
++ __ZZL24getFPTrashOperationClassvENK3$_0clEv
++ __ZZL25getFPDeleteOperationClassvE22classFPDeleteOperation
++ __ZZL25getFPDeleteOperationClassvENK3$_0clEv
++ __ZZL25getFPRenameOperationClassvE22classFPRenameOperation
++ __ZZL25getFPRenameOperationClassvENK3$_0clEv
++ __ZZL25getSWHighlightCenterClassvE22classSWHighlightCenter
++ __ZZL25getSWHighlightCenterClassvENK3$_0clEv
++ __ZZL26getBRDaemonConnectionClassvE23classBRDaemonConnection
++ __ZZL26getBRDaemonConnectionClassvENK3$_0clEv
++ __ZZL26getCNContactFormatterClassvE23classCNContactFormatter
++ __ZZL26getCNContactFormatterClassvENK3$_0clEv
++ __ZZL26getCSUserQueryContextClassvE23classCSUserQueryContext
++ __ZZL26getCSUserQueryContextClassvENK3$_0clEv
++ __ZZL26getFPUntrashOperationClassvE23classFPUntrashOperation
++ __ZZL26getFPUntrashOperationClassvENK3$_0clEv
++ __ZZL27getSTMFreeSpaceRequestClassvE24classSTMFreeSpaceRequest
++ __ZZL27getSTMFreeSpaceRequestClassvENK3$_0clEv
++ __ZZL27getSYDocumentWorkflowsClassvE24classSYDocumentWorkflows
++ __ZZL27getSYDocumentWorkflowsClassvENK3$_0clEv
++ __ZZL28getBRFileProviderHelperClassvE25classBRFileProviderHelper
++ __ZZL28getBRFileProviderHelperClassvENK3$_0clEv
++ __ZZL28getCSSearchQueryContextClassvE25classCSSearchQueryContext
++ __ZZL28getCSSearchQueryContextClassvENK3$_0clEv
++ __ZZL28getSYDocumentAttributesClassvE25classSYDocumentAttributes
++ __ZZL28getSYDocumentAttributesClassvENK3$_0clEv
++ __ZZL29getCNContactFetchRequestClassvE26classCNContactFetchRequest
++ __ZZL29getCNContactFetchRequestClassvENK3$_0clEv
++ __ZZL30getCNAvatarViewControllerClassvE27classCNAvatarViewController
++ __ZZL30getCNAvatarViewControllerClassvENK3$_0clEv
++ __ZZL31getFPCreateFolderOperationClassvE28classFPCreateFolderOperation
++ __ZZL31getFPCreateFolderOperationClassvENK3$_0clEv
++ __ZZL31getOSSystemExtensionClientClassvE28classOSSystemExtensionClient
++ __ZZL31getOSSystemExtensionClientClassvENK3$_0clEv
++ __ZZL32getSLCoreSpotlightUtilitiesClassvE29classSLCoreSpotlightUtilities
++ __ZZL32getSLCoreSpotlightUtilitiesClassvENK3$_0clEv
++ __ZZL32getSWCollaborationHighlightClassvE29classSWCollaborationHighlight
++ __ZZL32getSWCollaborationHighlightClassvENK3$_0clEv
++ __ZZL35getDMFApplicationPolicyMonitorClassvE32classDMFApplicationPolicyMonitor
++ __ZZL35getDMFApplicationPolicyMonitorClassvENK3$_0clEv
++ __ZZN26TDSHelperCopyMoveOperation4MoveERK8TNodePtrS2_PK7TStringbbbRS3_RbEN3$_1clEv
++ __ZZZN26TDSHelperCopyMoveOperation4MoveERK8TNodePtrS2_PK7TStringbbbRS3_RbENK3$_0clEvENKUlvE_clEv
++ ___44-[FIOperation startUpdateTimeRemainingTimer]_block_invoke
++ ____ZZ29-[FIOperation createProgress]ENK4$_25clEv_block_invoke
++ ____ZZ29-[FIOperation createProgress]ENK4$_25cvU13block_pointerFvvEEv_block_invoke
++ ____ZZ29-[FIOperation createProgress]ENK4$_26clEv_block_invoke
++ ____ZZ29-[FIOperation createProgress]ENK4$_26cvU13block_pointerFvvEEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_41clE15OperationStatus_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_41cvU13block_pointerFv15OperationStatusEEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_42clEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_42cvU13block_pointerFvvEEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_43clEP20OperationErrorRecordPK17OperationIterator_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_43cvU13block_pointerFvP20OperationErrorRecordPK17OperationIteratorEEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_44clEP20OperationErrorRecordPK17OperationIterator_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_44cvU13block_pointerFvP20OperationErrorRecordPK17OperationIteratorEEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_45clEP20OperationErrorRecord_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_45cvU13block_pointerFvP20OperationErrorRecordEEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_46clE16NodeSuboperation_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_46cvU13block_pointerFv16NodeSuboperationEEv_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_47clE16NodeSuboperationP13OpaqueNodeRef_block_invoke
++ ____ZZ33-[FIOperation executeDSOperation]ENK4$_47cvU13block_pointerFv16NodeSuboperationP13OpaqueNodeRefEEv_block_invoke
++ ____ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_80clEbP7NSError_block_invoke
++ ____ZZZ32-[FIOperation configureProgress]ENK4$_77clEP10NSProgressP6FINodeENKUlvE_cvU13block_pointerFvvEEv_block_invoke
++ ___block_descriptor_40_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_25_e5_v8?0l
++ ___block_descriptor_40_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_26_e5_v8?0l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_41_e56_v584?0{OperationStatus=I{HFSUniStr255=S[255S]}qqqqqqq}8l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_42_e5_v8?0l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_43_e93_v24?0^{OperationErrorRecord=iII[1024c]B}8r^{OperationIterator=^{OpaqueOperationData}^?^?}16l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_44_e93_v24?0^{OperationErrorRecord=iII[1024c]B}8r^{OperationIterator=^{OpaqueOperationData}^?^?}16l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_45_e43_v16?0^{OperationErrorRecord=iII[1024c]B}8l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_46_e8_v12?0I8l
++ ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_47_e27_v20?0I8^{OpaqueNodeRef=}12l
++ ___block_descriptor_40_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_31_e5_v8?0l
++ ___block_descriptor_40_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_32_e5_v8?0l
++ ___block_descriptor_40_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_25clEvEUlvE__e5_v8?0l
++ ___block_descriptor_40_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_26clEvEUlvE__e5_v8?0l
++ ___block_descriptor_40_ea8_32c58_ZTSKZ44-[FIOperation configureProgressUpdateSource]E4$_73_e5_v8?0l
++ ___block_descriptor_40_ea8_32c58_ZTSKZ44-[FIOperation startUpdateTimeRemainingTimer]E4$_72_e5_v8?0l
++ ___block_descriptor_40_ea8_32c60_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_42clEvEUlvE__e5_v8?0l
++ ___block_descriptor_48_ea8_32c46_ZTSKZ32-[FIOperation configureProgress]E4$_78_e26_?<v?>16?0"NSProgress"8l
++ ___block_descriptor_48_ea8_32c77_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_46clE16NodeSuboperationEUlvE__e5_v8?0l
++ ___block_descriptor_48_ea8_32c82_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_45clEP20OperationErrorRecordEUlvE__e5_v8?0l
++ ___block_descriptor_56_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_43clEP20OperationErrorRecordPK17OperationIteratorEUlvE__e5_v8?0l
++ ___block_descriptor_56_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_44clEP20OperationErrorRecordPK17OperationIteratorEUlvE__e5_v8?0l
++ ___block_descriptor_56_ea8_32c45_ZTSKZ31-[FIOperation cancelWithError:]E4$_30_e5_v8?0l
++ ___block_descriptor_56_ea8_32c69_ZTSKZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_23_e5_v8?0l
++ ___block_descriptor_56_ea8_32c79_ZTSKZZ32-[FIOperation configureProgress]ENK4$_77clEP10NSProgressP6FINodeEUlvE__e5_v8?0l
++ ___block_descriptor_56_ea8_32c91_ZTSKZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_80clEbP7NSErrorEUlvE__e5_v8?0l
++ ___block_descriptor_56_ea8_32c93_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_47clE16NodeSuboperationP13OpaqueNodeRefEUlvE__e5_v8?0l
++ ___block_descriptor_616_ea8_32c76_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_41clE15OperationStatusEUlvE__e5_v8?0l
++ ___copy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_43clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
++ ___copy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_44clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
++ ___copy_helper_block_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_25
++ ___copy_helper_block_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_26
++ ___copy_helper_block_ea8_32c45_ZTSKZ31-[FIOperation cancelWithError:]E4$_30
++ ___copy_helper_block_ea8_32c46_ZTSKZ32-[FIOperation configureProgress]E4$_78
++ ___copy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_46
++ ___copy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_47
++ ___copy_helper_block_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_31
++ ___copy_helper_block_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_32
++ ___copy_helper_block_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_25clEvEUlvE_
++ ___copy_helper_block_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_26clEvEUlvE_
++ ___copy_helper_block_ea8_32c58_ZTSKZ44-[FIOperation configureProgressUpdateSource]E4$_73
++ ___copy_helper_block_ea8_32c58_ZTSKZ44-[FIOperation startUpdateTimeRemainingTimer]E4$_72
++ ___copy_helper_block_ea8_32c60_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_42clEvEUlvE_
++ ___copy_helper_block_ea8_32c69_ZTSKZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_23
++ ___copy_helper_block_ea8_32c76_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_41clE15OperationStatusEUlvE_
++ ___copy_helper_block_ea8_32c77_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_46clE16NodeSuboperationEUlvE_
++ ___copy_helper_block_ea8_32c79_ZTSKZZ32-[FIOperation configureProgress]ENK4$_77clEP10NSProgressP6FINodeEUlvE_
++ ___copy_helper_block_ea8_32c82_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_45clEP20OperationErrorRecordEUlvE_
++ ___copy_helper_block_ea8_32c91_ZTSKZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_80clEbP7NSErrorEUlvE_
++ ___copy_helper_block_ea8_32c93_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_47clE16NodeSuboperationP13OpaqueNodeRefEUlvE_
++ ___destroy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_43clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
++ ___destroy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_44clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
++ ___destroy_helper_block_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_25
++ ___destroy_helper_block_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_26
++ ___destroy_helper_block_ea8_32c45_ZTSKZ31-[FIOperation cancelWithError:]E4$_30
++ ___destroy_helper_block_ea8_32c46_ZTSKZ32-[FIOperation configureProgress]E4$_78
++ ___destroy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_46
++ ___destroy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_47
++ ___destroy_helper_block_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_31
++ ___destroy_helper_block_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_32
++ ___destroy_helper_block_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_25clEvEUlvE_
++ ___destroy_helper_block_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_26clEvEUlvE_
++ ___destroy_helper_block_ea8_32c58_ZTSKZ44-[FIOperation configureProgressUpdateSource]E4$_73
++ ___destroy_helper_block_ea8_32c58_ZTSKZ44-[FIOperation startUpdateTimeRemainingTimer]E4$_72
++ ___destroy_helper_block_ea8_32c60_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_42clEvEUlvE_
++ ___destroy_helper_block_ea8_32c69_ZTSKZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_23
++ ___destroy_helper_block_ea8_32c76_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_41clE15OperationStatusEUlvE_
++ ___destroy_helper_block_ea8_32c77_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_46clE16NodeSuboperationEUlvE_
++ ___destroy_helper_block_ea8_32c79_ZTSKZZ32-[FIOperation configureProgress]ENK4$_77clEP10NSProgressP6FINodeEUlvE_
++ ___destroy_helper_block_ea8_32c82_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_45clEP20OperationErrorRecordEUlvE_
++ ___destroy_helper_block_ea8_32c91_ZTSKZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_80clEbP7NSErrorEUlvE_
++ ___destroy_helper_block_ea8_32c93_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_47clE16NodeSuboperationP13OpaqueNodeRefEUlvE_
++ _objc_msgSend$progressUpdateQueue
++ _objc_msgSend$startEstimatingTimeRemaining
++ _objc_msgSend$startFractionCompletedObserver
++ _objc_msgSend$startUpdateTimeRemainingTimer
+- GCC_except_table1001
+- GCC_except_table1002
+- GCC_except_table1003
+- GCC_except_table1009
+- GCC_except_table1012
+- GCC_except_table1017
+- GCC_except_table1019
+- GCC_except_table1023
+- GCC_except_table1029
+- GCC_except_table1030
+- GCC_except_table1041
+- GCC_except_table1042
+- GCC_except_table1049
+- GCC_except_table1050
+- GCC_except_table1058
+- GCC_except_table1065
+- GCC_except_table1068
+- GCC_except_table1070
+- GCC_except_table1080
+- GCC_except_table1081
+- GCC_except_table1090
+- GCC_except_table1096
+- GCC_except_table1097
+- GCC_except_table1107
+- GCC_except_table1109
+- GCC_except_table1110
+- GCC_except_table1111
+- GCC_except_table1112
+- GCC_except_table1113
+- GCC_except_table1116
+- GCC_except_table1122
+- GCC_except_table1125
+- GCC_except_table1126
+- GCC_except_table1134
+- GCC_except_table1135
+- GCC_except_table1136
+- GCC_except_table1137
+- GCC_except_table1138
+- GCC_except_table1144
+- GCC_except_table1151
+- GCC_except_table1152
+- GCC_except_table1154
+- GCC_except_table1163
+- GCC_except_table1164
+- GCC_except_table1165
+- GCC_except_table1172
+- GCC_except_table1188
+- GCC_except_table1193
+- GCC_except_table1198
+- GCC_except_table1199
+- GCC_except_table1208
+- GCC_except_table1219
+- GCC_except_table1220
+- GCC_except_table1221
+- GCC_except_table1222
+- GCC_except_table1223
+- GCC_except_table1233
+- GCC_except_table1239
+- GCC_except_table1247
+- GCC_except_table1260
+- GCC_except_table1263
+- GCC_except_table1272
+- GCC_except_table1278
+- GCC_except_table1279
+- GCC_except_table1282
+- GCC_except_table1283
+- GCC_except_table1286
+- GCC_except_table1299
+- GCC_except_table1302
+- GCC_except_table1303
+- GCC_except_table1305
+- GCC_except_table1306
+- GCC_except_table1311
+- GCC_except_table1315
+- GCC_except_table1316
+- GCC_except_table1325
+- GCC_except_table1326
+- GCC_except_table1328
+- GCC_except_table1329
+- GCC_except_table1337
+- GCC_except_table1338
+- GCC_except_table1350
+- GCC_except_table1351
+- GCC_except_table1355
+- GCC_except_table1356
+- GCC_except_table1370
+- GCC_except_table1378
+- GCC_except_table1382
+- GCC_except_table1383
+- GCC_except_table1386
+- GCC_except_table1392
+- GCC_except_table1393
+- GCC_except_table1398
+- GCC_except_table1399
+- GCC_except_table1415
+- GCC_except_table1416
+- GCC_except_table1417
+- GCC_except_table1427
+- GCC_except_table1428
+- GCC_except_table1438
+- GCC_except_table1443
+- GCC_except_table1444
+- GCC_except_table1448
+- GCC_except_table1452
+- GCC_except_table1456
+- GCC_except_table1458
+- GCC_except_table1460
+- GCC_except_table1464
+- GCC_except_table1468
+- GCC_except_table1478
+- GCC_except_table1479
+- GCC_except_table1487
+- GCC_except_table1489
+- GCC_except_table1490
+- GCC_except_table1491
+- GCC_except_table1509
+- GCC_except_table1510
+- GCC_except_table1511
+- GCC_except_table1519
+- GCC_except_table1520
+- GCC_except_table1528
+- GCC_except_table1529
+- GCC_except_table1539
+- GCC_except_table1544
+- GCC_except_table1555
+- GCC_except_table1556
+- GCC_except_table1557
+- GCC_except_table1560
+- GCC_except_table1568
+- GCC_except_table1574
+- GCC_except_table1577
+- GCC_except_table1578
+- GCC_except_table1579
+- GCC_except_table1580
+- GCC_except_table1582
+- GCC_except_table1593
+- GCC_except_table1609
+- GCC_except_table321
+- GCC_except_table391
+- GCC_except_table418
+- GCC_except_table434
+- GCC_except_table443
+- GCC_except_table482
+- GCC_except_table485
+- GCC_except_table488
+- GCC_except_table530
+- GCC_except_table539
+- GCC_except_table545
+- GCC_except_table558
+- GCC_except_table559
+- GCC_except_table563
+- GCC_except_table566
+- GCC_except_table568
+- GCC_except_table588
+- GCC_except_table593
+- GCC_except_table607
+- GCC_except_table613
+- GCC_except_table616
+- GCC_except_table617
+- GCC_except_table625
+- GCC_except_table642
+- GCC_except_table650
+- GCC_except_table658
+- GCC_except_table667
+- GCC_except_table695
+- GCC_except_table700
+- GCC_except_table717
+- GCC_except_table746
+- GCC_except_table750
+- GCC_except_table755
+- GCC_except_table756
+- GCC_except_table770
+- GCC_except_table779
+- GCC_except_table782
+- GCC_except_table784
+- GCC_except_table793
+- GCC_except_table797
+- GCC_except_table798
+- GCC_except_table801
+- GCC_except_table809
+- GCC_except_table810
+- GCC_except_table818
+- GCC_except_table819
+- GCC_except_table826
+- GCC_except_table827
+- GCC_except_table831
+- GCC_except_table832
+- GCC_except_table836
+- GCC_except_table841
+- GCC_except_table844
+- GCC_except_table847
+- GCC_except_table859
+- GCC_except_table860
+- GCC_except_table866
+- GCC_except_table872
+- GCC_except_table876
+- GCC_except_table879
+- GCC_except_table882
+- GCC_except_table886
+- GCC_except_table887
+- GCC_except_table891
+- GCC_except_table895
+- GCC_except_table896
+- GCC_except_table901
+- GCC_except_table908
+- GCC_except_table909
+- GCC_except_table912
+- GCC_except_table918
+- GCC_except_table923
+- GCC_except_table924
+- GCC_except_table938
+- GCC_except_table939
+- GCC_except_table944
+- GCC_except_table947
+- GCC_except_table965
+- GCC_except_table971
+- GCC_except_table974
+- GCC_except_table980
+- GCC_except_table984
+- __ZL10classFPTag
+- __ZL10initFPItemv
+- __ZL11classFPItem
+- __ZL12initFPItemIDv
+- __ZL13FPTagFunctionv
+- __ZL13classFPItemID
+- __ZL13getFPTagClass
+- __ZL13initCNContactv
+- __ZL14FPItemFunctionv
+- __ZL14classCNContact
+- __ZL14getFPItemClass
+- __ZL15initBRContainerv
+- __ZL15initCSUserQueryv
+- __ZL16FPItemIDFunctionv
+- __ZL16classBRContainer
+- __ZL16classCSUserQuery
+- __ZL16getFPItemIDClass
+- __ZL17CNContactFunctionv
+- __ZL17getCNContactClass
+- __ZL17initCSSearchQueryv
+- __ZL17initFPItemManagerv
+- __ZL18classCSSearchQuery
+- __ZL18classFPItemManager
+- __ZL18initCNContactStorev
+- __ZL19BRContainerFunctionv
+- __ZL19CSUserQueryFunctionv
+- __ZL19classCNContactStore
+- __ZL19getBRContainerClass
+- __ZL19getCSUserQueryClass
+- __ZL19initFPCopyOperationv
+- __ZL19initFPMoveOperationv
+- __ZL20classFPCopyOperation
+- __ZL20classFPMoveOperation
+- __ZL20initDeviceCollectionv
+- __ZL20initFPProviderDomainv
+- __ZL20initFPTrashOperationv
+- __ZL21CSSearchQueryFunctionv
+- __ZL21FPItemManagerFunctionv
+- __ZL21classDeviceCollection
+- __ZL21classFPProviderDomain
+- __ZL21classFPTrashOperation
+- __ZL21getCSSearchQueryClass
+- __ZL21getFPItemManagerClass
+- __ZL21initFPDeleteOperationv
+- __ZL21initFPRenameOperationv
+- __ZL21initSWHighlightCenterv
+- __ZL22CNContactStoreFunctionv
+- __ZL22classFPDeleteOperation
+- __ZL22classFPRenameOperation
+- __ZL22classSWHighlightCenter
+- __ZL22getCNContactStoreClass
+- __ZL22initBRDaemonConnectionv
+- __ZL22initCNContactFormatterv
+- __ZL22initCSUserQueryContextv
+- __ZL22initFPUntrashOperationv
+- __ZL23FPCopyOperationFunctionv
+- __ZL23FPMoveOperationFunctionv
+- __ZL23classBRDaemonConnection
+- __ZL23classCNContactFormatter
+- __ZL23classCSUserQueryContext
+- __ZL23classFPUntrashOperation
+- __ZL23getFPCopyOperationClass
+- __ZL23getFPMoveOperationClass
+- __ZL23initSTMFreeSpaceRequestv
+- __ZL23initSYDocumentWorkflowsv
+- __ZL24DeviceCollectionFunctionv
+- __ZL24FPProviderDomainFunctionv
+- __ZL24FPTrashOperationFunctionv
+- __ZL24classSTMFreeSpaceRequest
+- __ZL24classSYDocumentWorkflows
+- __ZL24getDeviceCollectionClass
+- __ZL24getFPProviderDomainClass
+- __ZL24getFPTrashOperationClass
+- __ZL24initBRFileProviderHelperv
+- __ZL24initCSSearchQueryContextv
+- __ZL24initSYDocumentAttributesv
+- __ZL25FPDeleteOperationFunctionv
+- __ZL25FPRenameOperationFunctionv
+- __ZL25SWHighlightCenterFunctionv
+- __ZL25classBRFileProviderHelper
+- __ZL25classCSSearchQueryContext
+- __ZL25classSYDocumentAttributes
+- __ZL25getFPDeleteOperationClass
+- __ZL25getFPRenameOperationClass
+- __ZL25getSWHighlightCenterClass
+- __ZL25initCNContactFetchRequestv
+- __ZL26BRDaemonConnectionFunctionv
+- __ZL26CNContactFormatterFunctionv
+- __ZL26CSUserQueryContextFunctionv
+- __ZL26FPUntrashOperationFunctionv
+- __ZL26classCNContactFetchRequest
+- __ZL26getBRDaemonConnectionClass
+- __ZL26getCNContactFormatterClass
+- __ZL26getCSUserQueryContextClass
+- __ZL26getFPUntrashOperationClass
+- __ZL26initCNAvatarViewControllerv
+- __ZL27STMFreeSpaceRequestFunctionv
+- __ZL27SYDocumentWorkflowsFunctionv
+- __ZL27classCNAvatarViewController
+- __ZL27getSTMFreeSpaceRequestClass
+- __ZL27getSYDocumentWorkflowsClass
+- __ZL27initFPCreateFolderOperationv
+- __ZL27initOSSystemExtensionClientv
+- __ZL28BRFileProviderHelperFunctionv
+- __ZL28CSSearchQueryContextFunctionv
+- __ZL28SYDocumentAttributesFunctionv
+- __ZL28classFPCreateFolderOperation
+- __ZL28classOSSystemExtensionClient
+- __ZL28getBRFileProviderHelperClass
+- __ZL28getCSSearchQueryContextClass
+- __ZL28getSYDocumentAttributesClass
+- __ZL28initSLCoreSpotlightUtilitiesv
+- __ZL28initSWCollaborationHighlightv
+- __ZL29CNContactFetchRequestFunctionv
+- __ZL29classSLCoreSpotlightUtilities
+- __ZL29classSWCollaborationHighlight
+- __ZL29getCNContactFetchRequestClass
+- __ZL30CNAvatarViewControllerFunctionv
+- __ZL30getCNAvatarViewControllerClass
+- __ZL31FPCreateFolderOperationFunctionv
+- __ZL31OSSystemExtensionClientFunctionv
+- __ZL31getFPCreateFolderOperationClass
+- __ZL31getOSSystemExtensionClientClass
+- __ZL31initDMFApplicationPolicyMonitorv
+- __ZL32SLCoreSpotlightUtilitiesFunctionv
+- __ZL32SWCollaborationHighlightFunctionv
+- __ZL32classDMFApplicationPolicyMonitor
+- __ZL32getSLCoreSpotlightUtilitiesClass
+- __ZL32getSWCollaborationHighlightClass
+- __ZL35DMFApplicationPolicyMonitorFunctionv
+- __ZL35getDMFApplicationPolicyMonitorClass
+- __ZL9initFPTagv
+- __ZN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_20vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEED0Ev
+- __ZN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_20vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEED1Ev
+- __ZN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_20vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEclES7_SA_
+- __ZN7StDeferIZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_21clEvEUlvE_ED1Ev
+- __ZNK4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_20vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEE9has_valueEv
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E3$_9FvvEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E3$_9FvvEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E3$_9FvvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E3$_9FvvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvP12NSDictionaryIP8NSStringP8NSObjectEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvP12NSDictionaryIP8NSStringP8NSObjectEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEPNS0_6__baseISA_EE
+- __ZNKSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvP12NSDictionaryIP8NSStringP8NSObjectEEE7__cloneEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E3$_9FvvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E3$_9FvvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E3$_9FvvEED0Ev
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E3$_9FvvEED1Ev
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E3$_9FvvEEclEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvP12NSDictionaryIP8NSStringP8NSObjectEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvP12NSDictionaryIP8NSStringP8NSObjectEEE7destroyEv
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvP12NSDictionaryIP8NSStringP8NSObjectEEED0Ev
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvP12NSDictionaryIP8NSStringP8NSObjectEEED1Ev
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvP12NSDictionaryIP8NSStringP8NSObjectEEEclEOU8__strongS9_
+- __ZNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_17FvP12NSDictionaryIP8NSStringP8NSObjectEEEC1B9nqe220106ERKS2_
+- __ZNSt3__112__hash_tableIU8__strongP5NSURLNS_4hashIS3_EENS_8equal_toIS3_EENS_9allocatorIS3_EEE15__assign_uniqueIPU8__strongKS2_EEvT_SE_
+- __ZNSt3__112__hash_tableIU8__strongP5NSURLNS_4hashIS3_EENS_8equal_toIS3_EENS_9allocatorIS3_EEE20__node_insert_uniqueEPNS_11__hash_nodeIS3_PvEE
+- __ZNSt3__112__hash_tableIU8__strongP5NSURLNS_4hashIS3_EENS_8equal_toIS3_EENS_9allocatorIS3_EEE28__node_insert_unique_performB9nqe220106EPNS_11__hash_nodeIS3_PvEE
+- __ZNSt3__112__hash_tableIU8__strongP5NSURLNS_4hashIS3_EENS_8equal_toIS3_EENS_9allocatorIS3_EEE28__node_insert_unique_prepareB9nqe220106EmRS3_
+- __ZTIN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_20vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEE
+- __ZTINSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E3$_9FvvEEE
+- __ZTINSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZTIZ52-[FIOperation registerChildProgress:subscribedNode:]E3$_9
+- __ZTSN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_20vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEE
+- __ZTSNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E3$_9FvvEEE
+- __ZTSNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZTSZ52-[FIOperation registerChildProgress:subscribedNode:]E3$_9
+- __ZTVN4fstd16callable_details15callable_holderIZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_20vJU8__strongP7NSArrayIP6FINodeEU8__strongP7NSErrorEEE
+- __ZTVNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E3$_9FvvEEE
+- __ZTVNSt3__110__function6__funcIZ52-[FIOperation registerChildProgress:subscribedNode:]E4$_10FvP12NSDictionaryIP8NSStringP8NSObjectEEEE
+- __ZZ27-[FIOperation initIterator]EN4$_318__invokeEP19OpaqueOperationData
+- __ZZ27-[FIOperation initIterator]EN4$_328__invokeEP19OpaqueOperationData
+- __ZZ31-[FIOperation cancelWithError:]EN4$_28D1Ev
+- __ZZ40-[FIOperation updateCountsFromOpStatus:]EN4$_598__invokeEP10NSProgressx
+- __ZZ40-[FIOperation updateCountsFromOpStatus:]EN4$_608__invokeEP10NSProgressx
+- __ZZ50-[FIOperation updateTotalCountsFromChildProgress:]EN4$_498__invokeEP10NSProgressx
+- __ZZ50-[FIOperation updateTotalCountsFromChildProgress:]EN4$_528__invokeEP10NSProgressx
+- __ZZ52-[FIOperation registerChildProgress:subscribedNode:]EN4$_17D1Ev
+- __ZZ52-[FIOperation registerChildProgress:subscribedNode:]ENK4$_72clEP8NSNumberS1_14ProgressUpdate
+- __ZZ54-[FIOperation updateCompletedCountsFromChildProgress:]EN4$_648__invokeEP10NSProgressx
+- __ZZ54-[FIOperation updateCompletedCountsFromChildProgress:]EN4$_678__invokeEP10NSProgressx
+- __ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]EN4$_20D1Ev
+- ____ZZ29-[FIOperation createProgress]ENK4$_22clEv_block_invoke
+- ____ZZ29-[FIOperation createProgress]ENK4$_22cvU13block_pointerFvvEEv_block_invoke
+- ____ZZ29-[FIOperation createProgress]ENK4$_23clEv_block_invoke
+- ____ZZ29-[FIOperation createProgress]ENK4$_23cvU13block_pointerFvvEEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_39clE15OperationStatus_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_39cvU13block_pointerFv15OperationStatusEEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_40clEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_40cvU13block_pointerFvvEEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_41clEP20OperationErrorRecordPK17OperationIterator_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_41cvU13block_pointerFvP20OperationErrorRecordPK17OperationIteratorEEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_42clEP20OperationErrorRecordPK17OperationIterator_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_42cvU13block_pointerFvP20OperationErrorRecordPK17OperationIteratorEEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_43clEP20OperationErrorRecord_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_43cvU13block_pointerFvP20OperationErrorRecordEEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_44clE16NodeSuboperation_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_44cvU13block_pointerFv16NodeSuboperationEEv_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_45clE16NodeSuboperationP13OpaqueNodeRef_block_invoke
+- ____ZZ33-[FIOperation executeDSOperation]ENK4$_45cvU13block_pointerFv16NodeSuboperationP13OpaqueNodeRefEEv_block_invoke
+- ____ZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_77clEbP7NSError_block_invoke
+- ____ZZZ32-[FIOperation configureProgress]ENK4$_74clEP10NSProgressP6FINodeENKUlvE_cvU13block_pointerFvvEEv_block_invoke
+- ___block_descriptor_40_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_22_e5_v8?0l
+- ___block_descriptor_40_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_23_e5_v8?0l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_39_e56_v584?0{OperationStatus=I{HFSUniStr255=S[255S]}qqqqqqq}8l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_40_e5_v8?0l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_41_e93_v24?0^{OperationErrorRecord=iII[1024c]B}8r^{OperationIterator=^{OpaqueOperationData}^?^?}16l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_42_e93_v24?0^{OperationErrorRecord=iII[1024c]B}8r^{OperationIterator=^{OpaqueOperationData}^?^?}16l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_43_e43_v16?0^{OperationErrorRecord=iII[1024c]B}8l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_44_e8_v12?0I8l
+- ___block_descriptor_40_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_45_e27_v20?0I8^{OpaqueNodeRef=}12l
+- ___block_descriptor_40_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_29_e5_v8?0l
+- ___block_descriptor_40_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_30_e5_v8?0l
+- ___block_descriptor_40_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_22clEvEUlvE__e5_v8?0l
+- ___block_descriptor_40_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_23clEvEUlvE__e5_v8?0l
+- ___block_descriptor_40_ea8_32c58_ZTSKZ44-[FIOperation configureProgressUpdateSource]E4$_70_e5_v8?0l
+- ___block_descriptor_40_ea8_32c60_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_40clEvEUlvE__e5_v8?0l
+- ___block_descriptor_48_ea8_32c46_ZTSKZ32-[FIOperation configureProgress]E4$_75_e26_?<v?>16?0"NSProgress"8l
+- ___block_descriptor_48_ea8_32c77_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_44clE16NodeSuboperationEUlvE__e5_v8?0l
+- ___block_descriptor_48_ea8_32c82_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_43clEP20OperationErrorRecordEUlvE__e5_v8?0l
+- ___block_descriptor_56_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_41clEP20OperationErrorRecordPK17OperationIteratorEUlvE__e5_v8?0l
+- ___block_descriptor_56_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_42clEP20OperationErrorRecordPK17OperationIteratorEUlvE__e5_v8?0l
+- ___block_descriptor_56_ea8_32c45_ZTSKZ31-[FIOperation cancelWithError:]E4$_28_e5_v8?0l
+- ___block_descriptor_56_ea8_32c69_ZTSKZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_21_e5_v8?0l
+- ___block_descriptor_56_ea8_32c79_ZTSKZZ32-[FIOperation configureProgress]ENK4$_74clEP10NSProgressP6FINodeEUlvE__e5_v8?0l
+- ___block_descriptor_56_ea8_32c91_ZTSKZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_77clEbP7NSErrorEUlvE__e5_v8?0l
+- ___block_descriptor_56_ea8_32c93_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_45clE16NodeSuboperationP13OpaqueNodeRefEUlvE__e5_v8?0l
+- ___block_descriptor_616_ea8_32c76_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_39clE15OperationStatusEUlvE__e5_v8?0l
+- ___copy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_41clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
+- ___copy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_42clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
+- ___copy_helper_block_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_22
+- ___copy_helper_block_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_23
+- ___copy_helper_block_ea8_32c45_ZTSKZ31-[FIOperation cancelWithError:]E4$_28
+- ___copy_helper_block_ea8_32c46_ZTSKZ32-[FIOperation configureProgress]E4$_75
+- ___copy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_39
+- ___copy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_40
+- ___copy_helper_block_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_29
+- ___copy_helper_block_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_30
+- ___copy_helper_block_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_22clEvEUlvE_
+- ___copy_helper_block_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_23clEvEUlvE_
+- ___copy_helper_block_ea8_32c58_ZTSKZ44-[FIOperation configureProgressUpdateSource]E4$_70
+- ___copy_helper_block_ea8_32c60_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_40clEvEUlvE_
+- ___copy_helper_block_ea8_32c69_ZTSKZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_21
+- ___copy_helper_block_ea8_32c76_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_39clE15OperationStatusEUlvE_
+- ___copy_helper_block_ea8_32c77_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_44clE16NodeSuboperationEUlvE_
+- ___copy_helper_block_ea8_32c79_ZTSKZZ32-[FIOperation configureProgress]ENK4$_74clEP10NSProgressP6FINodeEUlvE_
+- ___copy_helper_block_ea8_32c82_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_43clEP20OperationErrorRecordEUlvE_
+- ___copy_helper_block_ea8_32c91_ZTSKZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_77clEbP7NSErrorEUlvE_
+- ___copy_helper_block_ea8_32c93_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_45clE16NodeSuboperationP13OpaqueNodeRefEUlvE_
+- ___destroy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_41clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
+- ___destroy_helper_block_ea8_32c103_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_42clEP20OperationErrorRecordPK17OperationIteratorEUlvE_
+- ___destroy_helper_block_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_22
+- ___destroy_helper_block_ea8_32c43_ZTSKZ29-[FIOperation createProgress]E4$_23
+- ___destroy_helper_block_ea8_32c45_ZTSKZ31-[FIOperation cancelWithError:]E4$_28
+- ___destroy_helper_block_ea8_32c46_ZTSKZ32-[FIOperation configureProgress]E4$_75
+- ___destroy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_39
+- ___destroy_helper_block_ea8_32c47_ZTSKZ33-[FIOperation executeDSOperation]E4$_40
+- ___destroy_helper_block_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_29
+- ___destroy_helper_block_ea8_32c49_ZTSKZ35-[FIOperation setQualityOfService:]E4$_30
+- ___destroy_helper_block_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_22clEvEUlvE_
+- ___destroy_helper_block_ea8_32c56_ZTSKZZ29-[FIOperation createProgress]ENK4$_23clEvEUlvE_
+- ___destroy_helper_block_ea8_32c58_ZTSKZ44-[FIOperation configureProgressUpdateSource]E4$_70
+- ___destroy_helper_block_ea8_32c60_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_40clEvEUlvE_
+- ___destroy_helper_block_ea8_32c69_ZTSKZ55-[FIOperation configureCompletionHandlers:fpOperation:]E4$_21
+- ___destroy_helper_block_ea8_32c76_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_39clE15OperationStatusEUlvE_
+- ___destroy_helper_block_ea8_32c77_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_44clE16NodeSuboperationEUlvE_
+- ___destroy_helper_block_ea8_32c79_ZTSKZZ32-[FIOperation configureProgress]ENK4$_74clEP10NSProgressP6FINodeEUlvE_
+- ___destroy_helper_block_ea8_32c82_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_43clEP20OperationErrorRecordEUlvE_
+- ___destroy_helper_block_ea8_32c91_ZTSKZZ55-[FIOperation configureCompletionHandlers:fpOperation:]ENK4$_77clEbP7NSErrorEUlvE_
+- ___destroy_helper_block_ea8_32c93_ZTSKZZ33-[FIOperation executeDSOperation]ENK4$_45clE16NodeSuboperationP13OpaqueNodeRefEUlvE_
+- _objc_msgSend$stringByAbbreviatingWithTildeInPath
+CStrings:
++ "\t nodeToMove: %{public}@\n\t destination: %{public}@\n\t optionalNewName: %{public}@\n\t movingAppWithKEXTs: %{public}s\n\t movingToTrash: %{public}s\n\t needsAuthentication: %{public}s\n"
++ "\t resultingPath: %{public}@\n\t translocationChanged: %{bool}d\n\t status: %{public}s"
++ "\n\n-\t "
++ "%{public}@, provider: %{public}@"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.TPzWTh/Sources/DesktopServices/Shared/PropertyInfo.cp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.TPzWTh/Sources/DesktopServices/VTwin/Storage/BTree.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.TPzWTh/Sources/DesktopServices/VTwin/Storage/BuddyStorage.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.TPzWTh/Sources/DesktopServices/VTwin/Storage/IAStorage.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.TPzWTh/Sources/DesktopServices/VTwin/Storage/IAStoreStream.cpp"
++ "About to rename\n\t old: `%{public}@`\n\t new: `%{public}@`"
++ "Clone-link copy fallback failed. status=%d"
++ "Couldn't find node for detached url %{public}@, status: %{public}s"
++ "Couldn't get paths and/or name for move operation\n\t src: %{public}@\n\t src parent: %{public}@\n\t optionalNewName: %{public}@\n\t dest: %{public}@\n"
++ "Failed to force fetch FPItem for node: %{public}@\n\t error: %{public}@"
++ "Force fetch FPItems for %lu nodes:\n-\t %{public}s"
++ "Force fetching node since detachment state changed. isDetached: %{bool}d\n\t %{public}@"
++ "Preserved clone link denied (status=%d); falling back to a copy for %{public}s"
++ "StartTime_CalcTimeRemaining"
++ "Successfully force fetched FPItems for %lu nodes\n-\t %{public}s"
++ "TDSHelperCopyMoveOperation::Move -- END %p\n"
++ "TDSHelperCopyMoveOperation::Move -- START %p\n%{public}s"
++ "auto getBRContainerClass()::(anonymous class)::operator()() const"
++ "auto getBRDaemonConnectionClass()::(anonymous class)::operator()() const"
++ "auto getBRFileProviderHelperClass()::(anonymous class)::operator()() const"
++ "auto getCNAvatarViewControllerClass()::(anonymous class)::operator()() const"
++ "auto getCNContactClass()::(anonymous class)::operator()() const"
++ "auto getCNContactFetchRequestClass()::(anonymous class)::operator()() const"
++ "auto getCNContactFormatterClass()::(anonymous class)::operator()() const"
++ "auto getCNContactStoreClass()::(anonymous class)::operator()() const"
++ "auto getCSSearchQueryClass()::(anonymous class)::operator()() const"
++ "auto getCSSearchQueryContextClass()::(anonymous class)::operator()() const"
++ "auto getCSUserQueryClass()::(anonymous class)::operator()() const"
++ "auto getCSUserQueryContextClass()::(anonymous class)::operator()() const"
++ "auto getDMFApplicationPolicyMonitorClass()::(anonymous class)::operator()() const"
++ "auto getDeviceCollectionClass()::(anonymous class)::operator()() const"
++ "auto getFPCopyOperationClass()::(anonymous class)::operator()() const"
++ "auto getFPCreateFolderOperationClass()::(anonymous class)::operator()() const"
++ "auto getFPDeleteOperationClass()::(anonymous class)::operator()() const"
++ "auto getFPItemClass()::(anonymous class)::operator()() const"
++ "auto getFPItemIDClass()::(anonymous class)::operator()() const"
++ "auto getFPItemManagerClass()::(anonymous class)::operator()() const"
++ "auto getFPMoveOperationClass()::(anonymous class)::operator()() const"
++ "auto getFPProviderDomainClass()::(anonymous class)::operator()() const"
++ "auto getFPRenameOperationClass()::(anonymous class)::operator()() const"
++ "auto getFPTagClass()::(anonymous class)::operator()() const"
++ "auto getFPTrashOperationClass()::(anonymous class)::operator()() const"
++ "auto getFPUntrashOperationClass()::(anonymous class)::operator()() const"
++ "auto getOSSystemExtensionClientClass()::(anonymous class)::operator()() const"
++ "auto getSLCoreSpotlightUtilitiesClass()::(anonymous class)::operator()() const"
++ "auto getSTMFreeSpaceRequestClass()::(anonymous class)::operator()() const"
++ "auto getSWCollaborationHighlightClass()::(anonymous class)::operator()() const"
++ "auto getSWHighlightCenterClass()::(anonymous class)::operator()() const"
++ "auto getSYDocumentAttributesClass()::(anonymous class)::operator()() const"
++ "auto getSYDocumentWorkflowsClass()::(anonymous class)::operator()() const"
++ "copyfile failed cross volume copy: %{errno}d\n\t src: `%{public}@`\n\t dst: `%{public}@`"
++ "nil"
++ "rename failed: %{errno}d\n\t old: `%{public}@`\n\t new: `%{public}@`"
++ "sourceName"
++ "sourceParentPath"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.SlUt8g/Sources/DesktopServices/Shared/PropertyInfo.cp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.SlUt8g/Sources/DesktopServices/VTwin/Storage/BTree.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.SlUt8g/Sources/DesktopServices/VTwin/Storage/BuddyStorage.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.SlUt8g/Sources/DesktopServices/VTwin/Storage/IAStorage.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.SlUt8g/Sources/DesktopServices/VTwin/Storage/IAStoreStream.cpp"
+- "After force fetch of %{public}@\nitem=%{public}@\nprovider=%{public}@"
+- "Class initBRContainer()"
+- "Class initBRDaemonConnection()"
+- "Class initBRFileProviderHelper()"
+- "Class initCNAvatarViewController()"
+- "Class initCNContact()"
+- "Class initCNContactFetchRequest()"
+- "Class initCNContactFormatter()"
+- "Class initCNContactStore()"
+- "Class initCSSearchQuery()"
+- "Class initCSSearchQueryContext()"
+- "Class initCSUserQuery()"
+- "Class initCSUserQueryContext()"
+- "Class initDMFApplicationPolicyMonitor()"
+- "Class initDeviceCollection()"
+- "Class initFPCopyOperation()"
+- "Class initFPCreateFolderOperation()"
+- "Class initFPDeleteOperation()"
+- "Class initFPItem()"
+- "Class initFPItemID()"
+- "Class initFPItemManager()"
+- "Class initFPMoveOperation()"
+- "Class initFPProviderDomain()"
+- "Class initFPRenameOperation()"
+- "Class initFPTag()"
+- "Class initFPTrashOperation()"
+- "Class initFPUntrashOperation()"
+- "Class initOSSystemExtensionClient()"
+- "Class initSLCoreSpotlightUtilities()"
+- "Class initSTMFreeSpaceRequest()"
+- "Class initSWCollaborationHighlight()"
+- "Class initSWHighlightCenter()"
+- "Class initSYDocumentAttributes()"
+- "Class initSYDocumentWorkflows()"
+- "Couldn't find node for detached url %{public}@ status=%d"
+- "Failed to find fpitem for %{public}@"
+- "Force fetch of fpitem of %{public}@\nitem=%{public}@\nprovider=%{public}@"
+- "Force fetching node for %{public}@ since detachment state changed"
+- "Path is empty for source of move operation src=%{public}@ dst=%{public}@"
+```

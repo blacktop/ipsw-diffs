@@ -1,0 +1,589 @@
+## MicroLocationDaemon
+
+> `/System/Library/PrivateFrameworks/MicroLocationDaemon.framework/Versions/A/MicroLocationDaemon`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_reflstr`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__weak_got`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__weak_auth_got`
+- `__AUTH_CONST.__objc_floatobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+-116.0.0.0.0
+-  __TEXT.__text: 0x2eed94
+-  __TEXT.__objc_methlist: 0x7ed4
+-  __TEXT.__const: 0x16020
+-  __TEXT.__gcc_except_tab: 0x32588
+-  __TEXT.__cstring: 0x17cfb
+-  __TEXT.__oslogstring: 0x38400
++117.0.1.1.2
++  __TEXT.__text: 0x2f87b0
++  __TEXT.__objc_methlist: 0x7fcc
++  __TEXT.__const: 0x16160
++  __TEXT.__gcc_except_tab: 0x330d4
++  __TEXT.__cstring: 0x1828b
++  __TEXT.__oslogstring: 0x39060
++  __TEXT.__constg_swiftt: 0x11ac
+   __TEXT.__swift5_typeref: 0xdad
++  __TEXT.__swift5_fieldmd: 0xdb0
++  __TEXT.__swift5_builtin: 0xdc
+   __TEXT.__swift5_reflstr: 0x8ca
+   __TEXT.__swift5_assocty: 0x138
+-  __TEXT.__constg_swiftt: 0x11ac
+-  __TEXT.__swift5_builtin: 0xdc
+-  __TEXT.__swift5_fieldmd: 0xdb0
+   __TEXT.__swift5_proto: 0x18c
+   __TEXT.__swift5_types: 0x15c
+   __TEXT.__swift5_protos: 0x1c
+   __TEXT.__swift5_capture: 0x180
+   __TEXT.__swift_as_entry: 0x1c
+   __TEXT.__swift_as_ret: 0xc
+-  __TEXT.__unwind_info: 0x102c8
++  __TEXT.__unwind_info: 0x10588
+   __TEXT.__eh_frame: 0x1220
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x5e0
+-  __DATA_CONST.__objc_classlist: 0x728
++  __DATA_CONST.__const: 0x5e8
++  __DATA_CONST.__objc_classlist: 0x738
+   __DATA_CONST.__objc_catlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x168
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x20
+-  __DATA_CONST.__objc_selrefs: 0x4188
++  __DATA_CONST.__objc_selrefs: 0x41f0
+   __DATA_CONST.__objc_protorefs: 0x70
+   __DATA_CONST.__objc_superrefs: 0x270
+   __DATA_CONST.__objc_arraydata: 0xbd0
+   __DATA_CONST.__got: 0xae0
+-  __AUTH_CONST.__const: 0x11150
+-  __AUTH_CONST.__cfstring: 0x5a00
+-  __AUTH_CONST.__objc_const: 0x10238
++  __AUTH_CONST.__const: 0x112a0
++  __AUTH_CONST.__cfstring: 0x5ca0
++  __AUTH_CONST.__objc_const: 0x10440
+   __AUTH_CONST.__weak_auth_got: 0x38
+-  __AUTH_CONST.__objc_intobj: 0x20a0
+-  __AUTH_CONST.__objc_doubleobj: 0x1070
++  __AUTH_CONST.__objc_intobj: 0x20d0
++  __AUTH_CONST.__objc_doubleobj: 0x1130
+   __AUTH_CONST.__objc_floatobj: 0x370
+   __AUTH_CONST.__objc_dictobj: 0x8e8
+   __AUTH_CONST.__objc_arrayobj: 0x60
+   __AUTH_CONST.__auth_got: 0x1388
+-  __AUTH.__objc_data: 0xfe8
++  __AUTH.__objc_data: 0x1088
+   __AUTH.__data: 0x8b0
+-  __DATA.__objc_ivar: 0x598
++  __DATA.__objc_ivar: 0x59c
+   __DATA.__data: 0x1000
+   __DATA.__bss: 0x2c40
+   __DATA.__common: 0x70
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 13014
+-  Symbols:   19906
+-  CStrings:  5148
++  Functions: 13133
++  Symbols:   20074
++  CStrings:  5212
+ 
+Symbols:
++ +[ULHomeSlamLearningHistoryMO createFromDO:loiMO:inManagedObjectContext:]
++ +[ULHomeSlamLearningHistoryMO(CoreDataProperties) fetchRequest]
++ +[ULHomeSlamLearningHistoryStore MOClass]
++ +[ULHomeSlamLearningHistoryStore defaultSortProperty]
++ +[ULHomeSlamLearningHistoryStore maxEntriesInTable]
++ -[ULAltitudeProvider hasDeliveredNonZeroStatus]
++ -[ULAltitudeProvider setHasDeliveredNonZeroStatus:]
++ -[ULHomeSlamLearningHistoryMO convertToDO]
++ -[ULHomeSlamLearningHistoryStore _fetchWithPredicates:sortDescriptors:andLimit:]
++ -[ULHomeSlamLearningHistoryStore _predicateForLoiGroupId:]
++ -[ULHomeSlamLearningHistoryStore deleteRowsOlderThan:]
++ -[ULHomeSlamLearningHistoryStore fetchRowsAtLoiGroupId:fromTimestamp:excludingTimestamp:]
++ -[ULHomeSlamLearningHistoryStore fetchTwoMostRecentSuccessfulAtLoiGroupId:excludingTimestamp:]
++ -[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]
++ -[ULHomeSlamLearningHistoryStore mostRecentSuccessfulTimestampAtLoiGroupId:excludingTimestamp:]
++ -[ULHomeSlamLearningHistoryStore oldestTimestampAtLoiGroupId:]
++ -[ULLabelStore oldestHomeKitAnchorTimestampForLoiGroupId:]
++ GCC_except_table171
++ GCC_except_table183
++ GCC_except_table189
++ GCC_except_table212
++ GCC_except_table229
++ GCC_except_table248
++ GCC_except_table254
++ GCC_except_table270
++ GCC_except_table293
++ GCC_except_table297
++ GCC_except_table353
++ GCC_except_table384
++ GCC_except_table390
++ GCC_except_table394
++ GCC_except_table417
++ GCC_except_table435
++ GCC_except_table438
++ GCC_except_table458
++ GCC_except_table461
++ GCC_except_table475
++ GCC_except_table490
++ GCC_except_table493
++ GCC_except_table496
++ GCC_except_table497
++ GCC_except_table505
++ GCC_except_table507
++ GCC_except_table516
++ GCC_except_table525
++ GCC_except_table531
++ GCC_except_table532
++ GCC_except_table534
++ GCC_except_table543
++ GCC_except_table552
++ GCC_except_table619
++ GCC_except_table654
++ OBJC_IVAR_$_ULAltitudeProvider._hasDeliveredNonZeroStatus
++ _OBJC_CLASS_$_ULHomeSlamLearningHistoryMO
++ _OBJC_CLASS_$_ULHomeSlamLearningHistoryStore
++ _OBJC_METACLASS_$_ULHomeSlamLearningHistoryMO
++ _OBJC_METACLASS_$_ULHomeSlamLearningHistoryStore
++ _ZN12_GLOBAL__N_116getParticleCountER24ULHomeSlamLocalizerState
++ _ZN17ULOdometryCleanup17cleanupSinglePairERKNS_16DisconnectedPairERKNSt3__16vectorI12ULOdometryDONS3_9allocatorIS5_EEEEP15ULOdometryStoreRKN5boost5uuids4uuidE20ULOdometrySourceTypelRb
++ _ZN30ULHomeSlamLocalizationPipeline13moveParticlesERK24ULHomeSlamIOUpdateInputsRNSt3__16vectorI10ULParticleNS3_9allocatorIS5_EEEEjRK18ULHomeSlamSettingsNS3_8optionalIfEERKNSD_I42ULHomeSlamLocalizerNorthAlignmentDistStateEERK28ULAltimeterAccumulationState
++ _ZN30ULHomeSlamLocalizationPipeline30tryReplayRecoveryIfAppropriateE35ULHomeSlamLocalizerConvergenceStateS0_R24ULHomeSlamLocalizerStateRK15ULHomeSlamModel
++ _ZN30ULHomeSlamLocalizationPipeline40handleNorthAlignmentReconvergingIOUpdateERK24ULHomeSlamIOUpdateInputsR24ULHomeSlamLocalizerStateRK15ULHomeSlamModel
++ _ZN32ULHomeSlamLearningCAEventBuilder9sendEventERK7ULLoiDORK15ULHomeSlamModelRK22ULHomeSlamMapperCADataNSt3__16chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENSA_8durationIeNS9_5ratioILl1ELl1EEEEEEER24ULDatabaseStoreInterface20ULOdometrySourceTypebbb
++ _ZN9ULDBUtils34convertManagedObjectsToDataObjectsI27ULHomeSlamLearningHistoryDO27ULHomeSlamLearningHistoryMOEENSt3__16vectorIT_NS3_9allocatorIS5_EEEEP7NSArrayIP15NSManagedObjectE
++ _ZNSt3__116__if_likely_elseB9nqe220106IZNS_6vectorINS_4pairINS_6chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS3_8durationIeNS_5ratioILl1ELl1EEEEEEESC_EENS_9allocatorISD_EEE12emplace_backIJRKSC_RSC_EEERSD_DpOT_EUlvE_ZNSH_IJSJ_SK_EEESL_SO_EUlvE0_EEvbT_T0_
++ _ZNSt3__116__if_likely_elseB9nqe220106IZNS_6vectorINS_4pairINS_6chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS3_8durationIeNS_5ratioILl1ELl1EEEEEEESC_EENS_9allocatorISD_EEE12emplace_backIJRKSC_SJ_EEERSD_DpOT_EUlvE_ZNSH_IJSJ_SJ_EEESK_SN_EUlvE0_EEvbT_T0_
++ __OBJC_$_CLASS_METHODS_ULHomeSlamLearningHistoryMO(CoreDataProperties)
++ __OBJC_$_CLASS_METHODS_ULHomeSlamLearningHistoryStore
++ __OBJC_$_INSTANCE_METHODS_ULHomeSlamLearningHistoryMO
++ __OBJC_$_INSTANCE_METHODS_ULHomeSlamLearningHistoryStore
++ __OBJC_$_PROP_LIST_ULHomeSlamLearningHistoryStore
++ __OBJC_CLASS_PROTOCOLS_$_ULHomeSlamLearningHistoryStore
++ __OBJC_CLASS_RO_$_ULHomeSlamLearningHistoryMO
++ __OBJC_CLASS_RO_$_ULHomeSlamLearningHistoryStore
++ __OBJC_METACLASS_RO_$_ULHomeSlamLearningHistoryMO
++ __OBJC_METACLASS_RO_$_ULHomeSlamLearningHistoryStore
++ __ZN10ULDatabase28homeSlamLearningHistoryStoreEv
++ __ZN10ULSettingsL3getINS_15ForceLowLatencyEEEDav
++ __ZN10ULSettingsL3getINS_23ForceHomeSlamEnablementEEEDav
++ __ZN12_GLOBAL__N_116getParticleCountER24ULHomeSlamLocalizerState
++ __ZN12_GLOBAL__N_124sumMergedIntervalSecondsENSt3__16vectorINS0_4pairINS0_6chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS3_8durationIeNS0_5ratioILl1ELl1EEEEEEESC_EENS0_9allocatorISD_EEEE
++ __ZN16ULServiceManager17isHomeSlamEnabledEv
++ __ZN16ULServiceManager19isLowLatencyEnabledEv
++ __ZN16ULServiceManager32notifyServicesRegisteredOnLayersERKNSt3__113unordered_setI18ULContextLayerEnumNS0_4hashIS2_EENS0_8equal_toIS2_EENS0_9allocatorIS2_EEEE
++ __ZN17ULOdometryCleanup17cleanupSinglePairERKNS_16DisconnectedPairERKNSt3__16vectorI12ULOdometryDONS3_9allocatorIS5_EEEEP15ULOdometryStoreRKN5boost5uuids4uuidE20ULOdometrySourceTypelRb
++ __ZN18ULHomeSlamSettingsC1ERKS_
++ __ZN18ULLogicAdapterImpl17isHomeSlamEnabledEv
++ __ZN18ULLogicAdapterImpl19isLowLatencyEnabledEv
++ __ZN21ULHomeSlamReanchoring12StepObserver35onReanchoringOdometryBatchProcessedERKN5boost5uuids4uuidERKNSt3__16vectorI12ULOdometryDONS6_9allocatorIS8_EEEE
++ __ZN22CLMicroLocationLearner34getReanchoringEndDateForLoiGroupIdEN5boost5uuids4uuidE
++ __ZN24ULHomeSlamLocalizerStateC1ERKS_
++ __ZN24ULHomeSlamLocalizerStateaSERKS_
++ __ZN27ULHomeSlamLearningHistoryDOC1ENSt3__16chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS1_8durationIeNS0_5ratioILl1ELl1EEEEEEEbRKN5boost5uuids4uuidE
++ __ZN30ULHomeSlamLocalizationPipeline13moveParticlesERK24ULHomeSlamIOUpdateInputsRNSt3__16vectorI10ULParticleNS3_9allocatorIS5_EEEEjRK18ULHomeSlamSettingsNS3_8optionalIfEERKNSD_I42ULHomeSlamLocalizerNorthAlignmentDistStateEERK28ULAltimeterAccumulationState
++ __ZN30ULHomeSlamLocalizationPipeline20onParticleDivergenceER24ULHomeSlamLocalizerStateRK15ULHomeSlamModel15ULDivergeReason
++ __ZN30ULHomeSlamLocalizationPipeline21appendIORecoveryEntryER24ULHomeSlamLocalizerStateRK24ULHomeSlamIOUpdateInputs
++ __ZN30ULHomeSlamLocalizationPipeline21appendRFRecoveryEntryER24ULHomeSlamLocalizerStateRK26CLMicroLocationFingerprint
++ __ZN30ULHomeSlamLocalizationPipeline30tryReplayRecoveryIfAppropriateE35ULHomeSlamLocalizerConvergenceStateS0_R24ULHomeSlamLocalizerStateRK15ULHomeSlamModel
++ __ZN30ULHomeSlamLocalizationPipeline40handleNorthAlignmentReconvergingIOUpdateERK24ULHomeSlamIOUpdateInputsR24ULHomeSlamLocalizerStateRK15ULHomeSlamModel
++ __ZN32ULHomeSlamLearningCAEventBuilder18calculateMapAreaM2ERKNSt3__16vectorI5ULROINS0_9allocatorIS2_EEEE
++ __ZN32ULHomeSlamLearningCAEventBuilder20buildEventDictionaryERK7ULLoiDORK15ULHomeSlamModelRK22ULHomeSlamMapperCADataNSt3__16chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENSA_8durationIeNS9_5ratioILl1ELl1EEEEEEER24ULDatabaseStoreInterface20ULOdometrySourceTypebbb
++ __ZN32ULHomeSlamLearningCAEventBuilder23calculateNumberOfFloorsERKNSt3__16vectorI5ULROINS0_9allocatorIS2_EEEE
++ __ZN32ULHomeSlamLearningCAEventBuilder33hasOdometrySinceLastHomeSlamModelERKN5boost5uuids4uuidER24ULDatabaseStoreInterface20ULOdometrySourceTypeNSt3__16chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS9_8durationIeNS8_5ratioILl1ELl1EEEEEEE
++ __ZN32ULHomeSlamLearningCAEventBuilder35calculateTimeSpentStaticSinceCutoffERKNSt3__16vectorI24ULStaticIntervalMetaDataNS0_9allocatorIS2_EEEENS0_6chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS8_8durationIeNS0_5ratioILl1ELl1EEEEEEE
++ __ZN32ULHomeSlamLearningCAEventBuilder35computeHomeSlamLearningSuccessStatsERKN5boost5uuids4uuidER24ULDatabaseStoreInterfaceNSt3__16chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS8_8durationIeNS7_5ratioILl1ELl1EEEEEEESH_j
++ __ZN32ULHomeSlamLearningCAEventBuilder36calculateTimeSpentWalkingSinceCutoffERKNSt3__16vectorI17ULSegmentMetaDataNS0_9allocatorIS2_EEEENS0_6chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS8_8durationIeNS0_5ratioILl1ELl1EEEEEEE
++ __ZN32ULHomeSlamLearningCAEventBuilder37calculateDaysSinceOldestHomeKitAnchorERKN5boost5uuids4uuidER24ULDatabaseStoreInterfaceNSt3__16chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS8_8durationIeNS7_5ratioILl1ELl1EEEEEEE
++ __ZN32ULHomeSlamLearningCAEventBuilder9sendEventERK7ULLoiDORK15ULHomeSlamModelRK22ULHomeSlamMapperCADataNSt3__16chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENSA_8durationIeNS9_5ratioILl1ELl1EEEEEEER24ULDatabaseStoreInterface20ULOdometrySourceTypebbb
++ __ZN9ULDBUtils16fetchDataObjectsI27ULHomeSlamLearningHistoryDO27ULHomeSlamLearningHistoryMOEENSt3__16vectorIT_NS3_9allocatorIS5_EEEEP7ULStoreP7NSArrayIP11NSPredicateEPSB_IP16NSSortDescriptorEm
++ __ZN9ULDBUtils17insertDataObjectsI27ULHomeSlamLearningHistoryDO27ULHomeSlamLearningHistoryMOEEbP7ULStoreRKNSt3__16vectorIT_NS5_9allocatorIS7_EEEENS5_8functionIFPT0_RKS7_EEE
++ __ZN9ULDBUtils34convertManagedObjectsToDataObjectsI27ULHomeSlamLearningHistoryDO27ULHomeSlamLearningHistoryMOEENSt3__16vectorIT_NS3_9allocatorIS5_EEEEP7NSArrayIP15NSManagedObjectE
++ __ZNK16ULServiceManager32shouldLocalizeWithRecordingEventEv
++ __ZNKSt3__110__function6__funcIZ61-[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]E3$_0FP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ61-[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]E3$_0FP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ61-[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]E3$_0FP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEE7__cloneEPNS0_6__baseIS8_EE
++ __ZNKSt3__110__function6__funcIZ61-[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]E3$_0FP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEE7__cloneEv
++ __ZNKSt3__111__copy_implclB9nqe220106IPK39ULHomeSlamLocalizerHistoryBufferElementNS_16__deque_iteratorIS2_PS2_RS2_PS6_lLl16EEELi0EEENS_4pairIT_T0_EESB_SB_SC_
++ __ZNSt3__110__function12__value_funcIFP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEEC2B9nqe220106ERKS8_
++ __ZNSt3__110__function12__value_funcIFP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEED2B9nqe220106Ev
++ __ZNSt3__110__function6__funcIZ61-[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]E3$_0FP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ61-[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]E3$_0FP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEE7destroyEv
++ __ZNSt3__110__function6__funcIZ61-[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]E3$_0FP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEED0Ev
++ __ZNSt3__110__function6__funcIZ61-[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]E3$_0FP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEED1Ev
++ __ZNSt3__110__function6__funcIZ61-[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]E3$_0FP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEEclES7_
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN12_GLOBAL__N_124sumMergedIntervalSecondsENS_6vectorINS_4pairINS_6chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS5_8durationIeNS_5ratioILl1ELl1EEEEEEESE_EENS_9allocatorISF_EEEEE3$_0PSF_Lb0EEEvT1_SM_T0_NS_15iterator_traitsISM_E15difference_typeEb
++ __ZNSt3__114__split_bufferIP39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS2_EEE12emplace_backIJRS2_EEEvDpOT_
++ __ZNSt3__114__split_bufferIP39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS2_EEE12emplace_backIJS2_EEEvDpOT_
++ __ZNSt3__114__split_bufferIP39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS2_EEE13emplace_frontIJS2_EEEvDpOT_
++ __ZNSt3__114__split_bufferIP39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS2_EEE13shrink_to_fitEv
++ __ZNSt3__114__split_bufferIP39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS2_EEED2Ev
++ __ZNSt3__114__split_bufferIP39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS2_EEEaSEOS5_
++ __ZNSt3__114__split_bufferIP39ULHomeSlamLocalizerHistoryBufferElementRNS_9allocatorIS2_EEE12emplace_backIJRS2_EEEvDpOT_
++ __ZNSt3__114__split_bufferIP39ULHomeSlamLocalizerHistoryBufferElementRNS_9allocatorIS2_EEE12emplace_backIJS2_EEEvDpOT_
++ __ZNSt3__114__split_bufferIP39ULHomeSlamLocalizerHistoryBufferElementRNS_9allocatorIS2_EEE13emplace_frontIJRS2_EEEvDpOT_
++ __ZNSt3__116__deque_iteratorI39ULHomeSlamLocalizerHistoryBufferElementPKS1_RS2_PKS3_lLl16EEpLB9nqe220106El
++ __ZNSt3__116__deque_iteratorI39ULHomeSlamLocalizerHistoryBufferElementPS1_RS1_PS2_lLl16EEpLB9nqe220106El
++ __ZNSt3__116__if_likely_elseB9nqe220106IZNS_6vectorINS_4pairINS_6chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS3_8durationIeNS_5ratioILl1ELl1EEEEEEESC_EENS_9allocatorISD_EEE12emplace_backIJRKSC_RSC_EEERSD_DpOT_EUlvE_ZNSH_IJSJ_SK_EEESL_SO_EUlvE0_EEvbT_T0_
++ __ZNSt3__116__if_likely_elseB9nqe220106IZNS_6vectorINS_4pairINS_6chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS3_8durationIeNS_5ratioILl1ELl1EEEEEEESC_EENS_9allocatorISD_EEE12emplace_backIJRKSC_SJ_EEERSD_DpOT_EUlvE_ZNSH_IJSJ_SJ_EEESK_SN_EUlvE0_EEvbT_T0_
++ __ZNSt3__116allocator_traitsINS_9allocatorI39ULHomeSlamLocalizerHistoryBufferElementEEE7destroyB9nqe220106IS2_Li0EEEvRS3_PT_
++ __ZNSt3__118__for_each_segmentB9nqe220106INS_16__deque_iteratorI39ULHomeSlamLocalizerHistoryBufferElementPKS2_RS3_PKS4_lLl16EEEZNKS_11__copy_implclB9nqe220106IS8_NS1_IS2_PS2_RS2_PSB_lLl16EEELi0EEENS_4pairIT_T0_EESG_SG_SH_EUlS4_S4_E_EEvSG_SG_SH_
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorI27ULHomeSlamLearningHistoryDOEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9nqe220106INS_9allocatorIP39ULHomeSlamLocalizerHistoryBufferElementEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__121__minmax_element_implB9nqe220106INS_11__wrap_iterIPfEES3_NS_10__identityENS_6__lessIvvEEEENS_4pairIT_S8_EES8_T0_RT2_RT1_
++ __ZNSt3__123__optional_storage_baseI26CLMicroLocationFingerprintLb0EE13__assign_fromB9nqe220106IRKNS_27__optional_copy_assign_baseIS1_Lb0EEEEEvOT_
++ __ZNSt3__127__insertion_sort_incompleteB9nqe220106INS_17_ClassicAlgPolicyERZN12_GLOBAL__N_124sumMergedIntervalSecondsENS_6vectorINS_4pairINS_6chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS5_8durationIeNS_5ratioILl1ELl1EEEEEEESE_EENS_9allocatorISF_EEEEE3$_0PSF_EEbT1_SM_T0_
++ __ZNSt3__128__exception_guard_exceptionsIZNS_5dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS2_EEE19__add_back_capacityEmEUlvE_ED1B9nqe220106Ev
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE12emplace_backIJRK24ULHomeSlamIOUpdateInputsRKNS_9nullopt_tERKdRKfRfEEERS1_DpOT_
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE12emplace_backIJRKNS_9nullopt_tERK26CLMicroLocationFingerprintdffEEERS1_DpOT_
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE13__move_assignERS4_NS_17integral_constantIbLb1EEE
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE13shrink_to_fitEv
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE14__erase_to_endENS_16__deque_iteratorIS1_PKS1_RS6_PKS7_lLl16EEE
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE18__append_with_sizeB9nqe220106INS_16__deque_iteratorIS1_PKS1_RS7_PKS8_lLl16EEEEEvT_m
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE19__add_back_capacityEm
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE19__add_back_capacityEv
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE25__maybe_remove_back_spareB9nqe220106Eb
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE26__maybe_remove_front_spareB9nqe220106Eb
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE32__assign_with_size_random_accessB9nqe220106INS_16__deque_iteratorIS1_PKS1_RS7_PKS8_lLl16EEEEEvT_l
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE5clearEv
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE6assignINS_16__deque_iteratorIS1_PKS1_RS7_PKS8_lLl16EEELi0EEEvT_SD_
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE8__appendINS_16__deque_iteratorIS1_PKS1_RS7_PKS8_lLl16EEELi0EEEvT_SD_
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEE9pop_frontEv
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEEC2ERKS4_
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEED2B9nqe220106Ev
++ __ZNSt3__15dequeI39ULHomeSlamLocalizerHistoryBufferElementNS_9allocatorIS1_EEEaSERKS4_
++ __ZNSt3__16vectorI10ULParticleNS_9allocatorIS1_EEE6insertENS_11__wrap_iterIPKS1_EEmRS6_
++ __ZNSt3__16vectorI27ULHomeSlamLearningHistoryDONS_9allocatorIS1_EEE11__vallocateB9nqe220106Em
++ __ZNSt3__16vectorI27ULHomeSlamLearningHistoryDONS_9allocatorIS1_EEE16__init_with_sizeB9nqe220106IPKS1_S7_EEvT_T0_m
++ __ZNSt3__16vectorI27ULHomeSlamLearningHistoryDONS_9allocatorIS1_EEE20__throw_length_errorB9nqe220106Ev
++ __ZNSt3__16vectorI27ULHomeSlamLearningHistoryDONS_9allocatorIS1_EEE24__emplace_back_slow_pathIJS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI27ULHomeSlamLearningHistoryDONS_9allocatorIS1_EEE7reserveEm
++ __ZNSt3__16vectorINS_4pairINS_6chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS2_8durationIeNS_5ratioILl1ELl1EEEEEEESB_EENS_9allocatorISC_EEE24__emplace_back_slow_pathIJRKSB_RSB_EEEPSC_DpOT_
++ __ZNSt3__16vectorINS_4pairINS_6chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS2_8durationIeNS_5ratioILl1ELl1EEEEEEESB_EENS_9allocatorISC_EEE24__emplace_back_slow_pathIJRKSB_SI_EEEPSC_DpOT_
++ __ZNSt3__16vectorINS_4pairINS_6chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS2_8durationIeNS_5ratioILl1ELl1EEEEEEESB_EENS_9allocatorISC_EEE7reserveEm
++ __ZNSt3__17__sort4B9nqe220106INS_17_ClassicAlgPolicyERZN12_GLOBAL__N_124sumMergedIntervalSecondsENS_6vectorINS_4pairINS_6chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENS5_8durationIeNS_5ratioILl1ELl1EEEEEEESE_EENS_9allocatorISF_EEEEE3$_0PSF_Li0EEEvT1_SM_SM_SM_T0_
++ __ZNSt3__18__copy_nB9nqe220106INS_17_ClassicAlgPolicyENS_16__deque_iteratorI39ULHomeSlamLocalizerHistoryBufferElementPKS3_RS4_PKS5_lLl16EEENS2_IS3_PS3_RS3_PSA_lLl16EEELi0EEENS_4pairIT0_T1_EESF_NS_8_IterOpsIT_E17__difference_typeISF_EESG_
++ __ZNSt3__18optionalI9ULModelDOED2Ev
++ __ZTINSt3__110__function6__baseIFP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEEE
++ __ZTINSt3__110__function6__funcIZ61-[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]E3$_0FP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEEE
++ __ZTIZ61-[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]E3$_0
++ __ZTSNSt3__110__function6__baseIFP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEEE
++ __ZTSNSt3__110__function6__funcIZ61-[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]E3$_0FP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEEE
++ __ZTSZ61-[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]E3$_0
++ __ZTVNSt3__110__function6__funcIZ61-[ULHomeSlamLearningHistoryStore insertDataObject:atLoiUUID:]E3$_0FP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEEE
++ __ZThn8_N16ULServiceManager17isHomeSlamEnabledEv
++ __ZThn8_N16ULServiceManager19isLowLatencyEnabledEv
++ __ZThn8_N18ULLogicAdapterImpl17isHomeSlamEnabledEv
++ __ZThn8_N18ULLogicAdapterImpl19isLowLatencyEnabledEv
++ ___ZN9ULDBUtils17insertDataObjectsI27ULHomeSlamLearningHistoryDO27ULHomeSlamLearningHistoryMOEEbP7ULStoreRKNSt3__16vectorIT_NS5_9allocatorIS7_EEEENS5_8functionIFPT0_RKS7_EEE_block_invoke
++ ____ZN9ULDBUtils16fetchDataObjectsI27ULHomeSlamLearningHistoryDO27ULHomeSlamLearningHistoryMOEENSt3__16vectorIT_NS3_9allocatorIS5_EEEEP7ULStoreP7NSArrayIP11NSPredicateEPSB_IP16NSSortDescriptorEm_block_invoke
++ ____ZN9ULDBUtils17insertDataObjectsI27ULHomeSlamLearningHistoryDO27ULHomeSlamLearningHistoryMOEEbP7ULStoreRKNSt3__16vectorIT_NS5_9allocatorIS7_EEEENS5_8functionIFPT0_RKS7_EEE_block_invoke
++ ___block_descriptor_88_ea8_32s40r56c86_ZTSNSt3__18functionIFP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEEE_e5_v8?0l
++ ___copy_helper_block_ea8_32s40r56c86_ZTSNSt3__18functionIFP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEEE
++ ___destroy_helper_block_ea8_32s40r56c86_ZTSNSt3__18functionIFP27ULHomeSlamLearningHistoryMORK27ULHomeSlamLearningHistoryDOEEE
++ _objc_msgSend$_fetchWithPredicates:sortDescriptors:andLimit:
++ _objc_msgSend$_predicateForLoiGroupId:
++ _objc_msgSend$deleteRowsOlderThan:
++ _objc_msgSend$fetchRowsAtLoiGroupId:fromTimestamp:excludingTimestamp:
++ _objc_msgSend$fetchTwoMostRecentSuccessfulAtLoiGroupId:excludingTimestamp:
++ _objc_msgSend$getMostRecentOdometryTimeForLoiGroupId:odometrySource:
++ _objc_msgSend$hasDeliveredNonZeroStatus
++ _objc_msgSend$insertDataObject:atLoiUUID:
++ _objc_msgSend$isValid
++ _objc_msgSend$mostRecentSuccessfulTimestampAtLoiGroupId:excludingTimestamp:
++ _objc_msgSend$oldestHomeKitAnchorTimestampForLoiGroupId:
++ _objc_msgSend$oldestTimestampAtLoiGroupId:
++ _objc_msgSend$setHasDeliveredNonZeroStatus:
++ _objc_msgSend$setIsValid:
+- GCC_except_table181
+- GCC_except_table191
+- GCC_except_table207
+- GCC_except_table262
+- GCC_except_table267
+- GCC_except_table268
+- GCC_except_table272
+- GCC_except_table325
+- GCC_except_table381
+- GCC_except_table397
+- GCC_except_table401
+- GCC_except_table421
+- GCC_except_table424
+- GCC_except_table447
+- GCC_except_table450
+- GCC_except_table470
+- GCC_except_table482
+- GCC_except_table483
+- GCC_except_table486
+- GCC_except_table489
+- GCC_except_table491
+- GCC_except_table502
+- GCC_except_table511
+- GCC_except_table520
+- GCC_except_table529
+- GCC_except_table538
+- GCC_except_table547
+- GCC_except_table607
+- GCC_except_table649
+- _ZN17ULOdometryCleanup17cleanupSinglePairERKNS_16DisconnectedPairERKNSt3__16vectorI12ULOdometryDONS3_9allocatorIS5_EEEEP15ULOdometryStoreRKN5boost5uuids4uuidE20ULOdometrySourceTypel
+- _ZN30ULHomeSlamLocalizationPipeline13moveParticlesERK24ULHomeSlamIOUpdateInputsRNSt3__16vectorI10ULParticleNS3_9allocatorIS5_EEEEjRK18ULHomeSlamSettingsNS3_8optionalIfEERKNSD_I42ULHomeSlamLocalizerNorthAlignmentDistStateEEfb
+- _ZN32ULHomeSlamLearningCAEventBuilder9sendEventERK7ULLoiDORK15ULHomeSlamModelRK22ULHomeSlamMapperCADataNSt3__16chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENSA_8durationIeNS9_5ratioILl1ELl1EEEEEEER24ULDatabaseStoreInterface20ULOdometrySourceTypeb
+- __ZN10ULSettingsL3getINS_38NpdrLocalizerNorthAlignmentWarmupCountEEEDav
+- __ZN17ULOdometryCleanup17cleanupSinglePairERKNS_16DisconnectedPairERKNSt3__16vectorI12ULOdometryDONS3_9allocatorIS5_EEEEP15ULOdometryStoreRKN5boost5uuids4uuidE20ULOdometrySourceTypel
+- __ZN30ULHomeSlamLocalizationPipeline13moveParticlesERK24ULHomeSlamIOUpdateInputsRNSt3__16vectorI10ULParticleNS3_9allocatorIS5_EEEEjRK18ULHomeSlamSettingsNS3_8optionalIfEERKNSD_I42ULHomeSlamLocalizerNorthAlignmentDistStateEEfb
+- __ZN32ULHomeSlamLearningCAEventBuilder20buildEventDictionaryERK7ULLoiDORK15ULHomeSlamModelRK22ULHomeSlamMapperCADataNSt3__16chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENSA_8durationIeNS9_5ratioILl1ELl1EEEEEEER24ULDatabaseStoreInterface20ULOdometrySourceTypeb
+- __ZN32ULHomeSlamLearningCAEventBuilder9sendEventERK7ULLoiDORK15ULHomeSlamModelRK22ULHomeSlamMapperCADataNSt3__16chrono10time_pointIN2cl6chrono19CFAbsoluteTimeClockENSA_8durationIeNS9_5ratioILl1ELl1EEEEEEER24ULDatabaseStoreInterface20ULOdometrySourceTypeb
+- __ZNSt3__16vectorI9ULModelDONS_9allocatorIS1_EEE5clearB9nqe220106Ev
+- _objc_msgSend$fetchModelsAtLoiGroupId:andLimit:
+CStrings:
++ "!(useLargeCloud && (state == ULHomeSlamLocalizerConvergenceState::Converged || state == ULHomeSlamLocalizerConvergenceState::OffMap))"
++ "#HomeSlam, [ingestValidFingerprintUpdate, State=%@] diverged due to RF update, recovery enabled, newState=%@"
++ "#HomeSlam, [ingestValidFingerprintUpdate, State=%@] lost convergence, recovery enabled, newState=%@"
++ "#HomeSlam, [ingestValidFingerprintUpdate, State=BeforeFirstFP] minRFDistance=%.3f, thr=%.3f, recovery enabled, newState=%@"
++ "#HomeSlam, [ingestValidFingerprintUpdate, State=NorthAlignmentReconverging] diverged due to RF update, recovery disabled, newState=%@"
++ "#HomeSlam, [ingestValidFingerprintUpdate, State=NorthAlignmentReconverging] localizing RF update"
++ "#HomeSlam, [ingestValidIOUpdate, State=%@] diverged due to IO update, recovery enabled, newState=%@"
++ "#HomeSlam, [ingestValidIOUpdate, State=%@] lost convergence, recovery enabled, newState=%@"
++ "#HomeSlam, [ingestValidIOUpdate, State=%@] north-alignment diverged, newState=NorthAlignmentReconverging"
++ "#HomeSlam, [ingestValidIOUpdate, State=NorthAlignmentReconverging] diverged due to IO update, recovery disabled, newState=%@"
++ "#HomeSlam, [ingestValidIOUpdate, State=NorthAlignmentReconverging] localizing IO update"
++ "#HomeSlam, [ingestValidIOUpdate, State=NorthAlignmentReconverging] no blue dot at Kalman convergence, recovery enabled, newState=%@"
++ "#HomeSlam, [ingestValidIOUpdate, State=NorthAlignmentReconverging] reconverged Off-Map, newState=OffMap"
++ "#HomeSlam, [ingestValidIOUpdate, State=NorthAlignmentReconverging] reconverged On-Map, newState=Converged"
++ "#HomeSlam, [recovery] backward step %lu: replayed %{public}s, state=%{public}s, consumed %lu IO + %lu FP, %.2fm"
++ "#HomeSlam, [recovery] buffered backward distance %.2fm below minimum %.2fm, skipping"
++ "#HomeSlam, [recovery] forward step %lu/%lu: replayed %{public}s, state=%{public}s, consumed %lu IO + %lu FP, %.2fm"
++ "#HomeSlam, [recovery] only %.2fm since last attempt (min %.2fm), throttling"
++ "#HomeSlam, [recovery] replay aborted on diverge edge, rolled back (triggerTimestamp=%f, restoredState=%{public}s, consumed %.1fm / %lu FPs over backward %lu + forward %lu events)"
++ "#HomeSlam, [recovery] replay finished (triggerTimestamp=%f, finalState=%{public}s, recovered=%{public}s, consumed %.1fm / %lu FPs over backward %lu + forward %lu events)"
++ "#HomeSlam, [recovery] starting: triggerTimestamp=%f, %lu buffered events, prevState=%{public}s, newState=%{public}s"
++ "#HomeSlam, [recovery] trigger edge but buffer empty, skipping"
++ "#HomeSlam, altitude status non-healthy (statusInfo=%{public}ld), marking altimeter unhealthy and skipping deltaZ accumulation"
++ "#HomeSlam, fOnMapMaxDistFromTrajectories must be >= fDirectionalPenaltyMaxDistFromTrajectories"
++ "#HomeSlam, fOnMapMaxDistFromTrajectoriesZ must be >= fDirectionalPenaltyMaxDistFromTrajectoriesZ"
++ "#HomeSlam, large particle count must not be used in Converged/OffMap"
++ "%K == YES"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Localizer/ULHomeSlamLocalizationPipeline.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULEndpointClusteringAlgorithm.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULEndpointPlacementGenerator.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULHomeSlamMapper.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULHomeSlamMappingLoopClosureDetector.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULHomeSlamTrajectoryShapeSimilarity.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULLoopClosureAlignmentSolver.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULRFGroupGenerator.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULSegmentGenerator.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULWalkwayGenerator.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/MathUtil/ULPointCloudRegistration.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/ULHomeSlamTypes.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationBlueAtlasAlgorithms.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationBlueAtlasAlgorithms.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationFingerprint.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationFingerprintDistanceFunction.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationLearner.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationModel.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationProtobufHelper.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationPublishHelper.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationStateMachine.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationTimeUtils.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/FiniteStateMachine/ULStateMachineImple.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Localizer/Algorithms/ULBinaryRoiNullSpaceLocalizationAlgorithm.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Localizer/Algorithms/ULBlueAtlasLocalizationAlgorithm.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Localizer/Algorithms/ULCosineSimilarityLocalizationAlgorithm.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Localizer/Algorithms/ULNullSpaceLocalizationAlgorithm.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Localizer/ULHomeSlamLocalizer.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Localizer/ULLocalizationController.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Localizer/ULRfClusterLocalizer.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/LogicAdapter/ULLogicAdapter.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/MachineLearning/CLHierarchicalClustering.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/MapTransformationManager/ULMapTransformationManager.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/DataMigration/CLSqlite/CLSqliteDatabase.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/DataMigration/CLSqlite/CLSqliteDatabaseManager.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/DataMigration/CLSqlite/Utilities/CLMachThreadSupport.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/DataObjects/ULLabelDO.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/DataObjects/ULModelDO.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/DataStores/ULMapLabelStore.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/ManagedObjects/ULMapLabelMO+CoreDataClass.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/ManagedObjects/ULModelMO+CoreDataClass.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/ULDBUtils.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/MotionAndObstructionDetector/ULMotionAndObstructionDetector.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/MotionAndObstructionDetector/ULMotionAndObstructionMotionSM.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/ULProfileGenerator.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/ULScanServiceUtilities.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/ULScanningProfile.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/ULSchedulingProfileManager.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/ULSensorsDataHandler.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/ULSensorsManager.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/ULTriggerEngineFSM.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Sensors/Attitude/ULAttitudeProvider.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Sensors/Odometer/ULOdometryUtils.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Sensors/UWB/ULUWBBridge.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ServiceManager/ULContextLayerAccess.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ServiceManager/ULModelLoader.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ServiceManager/ULService.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ServiceManager/ULServiceManager.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Settings/ULSettings.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ULAlgorithms.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ULCustomLoiRecordingMonitor.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ULDendrogramAlgorithm.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ULHomeSlamReanchoring.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.YXeZXN/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/proto/microlocation.pb.cc"
++ "5.0.23"
++ "FP"
++ "IO"
++ "NorthAlignmentReconverging"
++ "ULHomeSlamDirectionalPenaltyMaxDistFromTrajectories"
++ "ULHomeSlamDirectionalPenaltyMaxDistFromTrajectoriesZ"
++ "ULHomeSlamDivergeRecoveryEnabledRealtime"
++ "ULHomeSlamDivergeRecoveryEnabledReanchoring"
++ "ULHomeSlamDivergeRecoveryMaxBackwardDistanceMeters"
++ "ULHomeSlamDivergeRecoveryMaxBackwardDurationSeconds"
++ "ULHomeSlamDivergeRecoveryMinBackwardDistanceMeters"
++ "ULHomeSlamDivergeRecoveryMinPathSinceLastAttemptMeters"
++ "ULHomeSlamLearningHistoryMO"
++ "ULHomeSlamLearningHistoryRetentionDays"
++ "ULHomeSlamLearningHistoryTableMaxRows"
++ "ULHomeSlamLocalizerPenalizeDirectionalityBeyondDirectionalPenaltyRange"
++ "ULHomeSlamMapper expected to return at most 1 model — analytics aggregation assumes this"
++ "ULHomeSlamNpdrZAxisProbability"
++ "ULLocalizeWithRecordingMeasurements"
++ "ULNpdrLocalizerNorthAlignmentParticleDivergenceMinUpdates"
++ "[ULAltitudeProvider]: sending altitude update with date: %{private}@, altitude: %{private}.3fm, statusInfo: %ld, recovery: %d, uuid: %{private}@"
++ "anchorsReanchoredPortion"
++ "convertToDO: HomeSlam learning history modelUUID has no value"
++ "daysSinceLastSuccessfulLearning"
++ "daysSinceOldestHomeKitAnchor"
++ "getParticleCount"
++ "homeslamLearningSuccessRateLast10Days"
++ "homeslamModels.size() <= 1"
++ "insertDataObject: HomeSlam learning history row dropped — no LOI for uuid %{private}s"
++ "isLowLatencyEnabled"
++ "mapArea"
++ "mapAreaMultifloor"
++ "nonReanchoringDuration"
++ "numConsumedStaticIntervalsNonFingerprinted"
++ "numFailedLearningsLast10Days"
++ "numOutOfHomeEventsDetectionsDuringLearn"
++ "numStaticIntervalsConsumed"
++ "numStaticIntervalsMapped"
++ "numSuccessfulLearningsLast10Days"
++ "numberOfFloors"
++ "reanchoringDuration"
++ "reanchoringDurationToTotalRatio"
++ "settings.fMaxDistFromTrajectories >= settings.fDirectionalPenaltyMaxDistFromTrajectories"
++ "settings.fMaxDistFromTrajectoriesZ >= settings.fDirectionalPenaltyMaxDistFromTrajectoriesZ"
++ "{\"msg%{public}.0s\":\"#HomeSlam, fOnMapMaxDistFromTrajectories must be >= fDirectionalPenaltyMaxDistFromTrajectories\", \"event\":%{public, location:escape_only}s, \"condition\":%{private, location:escape_only}s}"
++ "{\"msg%{public}.0s\":\"#HomeSlam, fOnMapMaxDistFromTrajectoriesZ must be >= fDirectionalPenaltyMaxDistFromTrajectoriesZ\", \"event\":%{public, location:escape_only}s, \"condition\":%{private, location:escape_only}s}"
++ "{\"msg%{public}.0s\":\"#HomeSlam, large particle count must not be used in Converged/OffMap\", \"event\":%{public, location:escape_only}s, \"condition\":%{private, location:escape_only}s}"
++ "{\"msg%{public}.0s\":\"ULHomeSlamMapper expected to return at most 1 model — analytics aggregation assumes this\", \"event\":%{public, location:escape_only}s, \"condition\":%{private, location:escape_only}s}"
++ "{\"msg%{public}.0s\":\"ULHomeSlamMapper, generateModel, fallback model created with preserved metadata\", \"Submap Inx\":%{public}d, \"numInputValidFingerprints\":%{public}lu, \"numClusteredFingerprints\":%{public}lu, \"numMappedFingerprints\":%{public}lu, \"numMappedMeasurements\":%{public}lu, \"numInputStaticIntervals\":%{public}lu, \"numConsumedStaticIntervals\":%{public}lu, \"numNonFingerprintedStaticIntervals\":%{public}lu, \"numMappedStaticIntervals\":%{public}lu, \"numFinalSegments\":%{public}lu, \"numInputSegments\":%{public}lu, \"numInputOdometryEntries\":%{public}lu, \"numROIs\":%{public}lu, \"numUniqueWifiSources\":%{public}lu, \"numUniqueBLESources\":%{public}lu, \"numUniqueUWBSources\":%{public}lu}"
++ "{\"msg%{public}.0s\":\"ULHomeSlamMapper, generateModel, submap created\", \"Submap Inx\":%{public}d, \"numInputValidFingerprints\":%{public}lu, \"numClusteredFingerprints\":%{public}lu, \"numMappedFingerprints\":%{public}lu, \"numMappedMeasurements\":%{public}lu, \"numInputStaticIntervals\":%{public}lu, \"numConsumedStaticIntervals\":%{public}lu, \"numNonFingerprintedStaticIntervals\":%{public}lu, \"numMappedStaticIntervals\":%{public}lu, \"numFinalSegments\":%{public}lu, \"numInputSegments\":%{public}lu, \"numInputOdometryEntries\":%{public}lu, \"numTrajectoryPoints\":%{public}lu, \"numROIs\":%{public}lu, \"numUniqueWifiSources\":%{public}lu, \"numUniqueBLESources\":%{public}lu, \"numUniqueUWBSources\":%{public}lu}"
+- "#HomeSlam, [ingestValidFingerprintUpdate, State=%@] diverged due to RF update, newState=BeforeFirstFP"
+- "#HomeSlam, [ingestValidFingerprintUpdate, State=%@] lost convergence, newState=Converging"
+- "#HomeSlam, [ingestValidFingerprintUpdate, State=BeforeFirstFP] minRFDistance=%.3f, thr=%.3f, transitioning to Converging"
+- "#HomeSlam, [ingestValidIOUpdate, State=%@] diverged due to IO update, newState=BeforeFirstFP"
+- "#HomeSlam, [ingestValidIOUpdate, State=%@] lost convergence, newState=Converging"
+- "#HomeSlam, altitude status non-healthy (statusInfo=%{public}ld), clearing previousAltitude and skipping deltaZ accumulation"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Localizer/ULHomeSlamLocalizationPipeline.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULEndpointClusteringAlgorithm.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULEndpointPlacementGenerator.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULHomeSlamMapper.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULHomeSlamMappingLoopClosureDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULHomeSlamTrajectoryShapeSimilarity.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULLoopClosureAlignmentSolver.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULRFGroupGenerator.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULSegmentGenerator.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/Mapper/ULWalkwayGenerator.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/MathUtil/ULPointCloudRegistration.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/HomeSlam/ULHomeSlamTypes.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationBlueAtlasAlgorithms.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationBlueAtlasAlgorithms.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationFingerprint.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationFingerprintDistanceFunction.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationLearner.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationModel.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationProtobufHelper.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationPublishHelper.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationStateMachine.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/CLMicroLocationTimeUtils.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/FiniteStateMachine/ULStateMachineImple.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Localizer/Algorithms/ULBinaryRoiNullSpaceLocalizationAlgorithm.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Localizer/Algorithms/ULBlueAtlasLocalizationAlgorithm.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Localizer/Algorithms/ULCosineSimilarityLocalizationAlgorithm.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Localizer/Algorithms/ULNullSpaceLocalizationAlgorithm.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Localizer/ULHomeSlamLocalizer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Localizer/ULLocalizationController.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Localizer/ULRfClusterLocalizer.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/LogicAdapter/ULLogicAdapter.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/MachineLearning/CLHierarchicalClustering.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/MapTransformationManager/ULMapTransformationManager.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/DataMigration/CLSqlite/CLSqliteDatabase.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/DataMigration/CLSqlite/CLSqliteDatabaseManager.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/DataMigration/CLSqlite/Utilities/CLMachThreadSupport.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/DataObjects/ULLabelDO.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/DataObjects/ULModelDO.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/DataStores/ULMapLabelStore.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/ManagedObjects/ULMapLabelMO+CoreDataClass.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/ManagedObjects/ULModelMO+CoreDataClass.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Persistence/ULDBUtils.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/MotionAndObstructionDetector/ULMotionAndObstructionDetector.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/MotionAndObstructionDetector/ULMotionAndObstructionMotionSM.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/ULProfileGenerator.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/ULScanServiceUtilities.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/ULScanningProfile.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/ULSchedulingProfileManager.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/ULSensorsDataHandler.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/ULSensorsManager.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ScanService/ULTriggerEngineFSM.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Sensors/Attitude/ULAttitudeProvider.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Sensors/Odometer/ULOdometryUtils.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Sensors/UWB/ULUWBBridge.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ServiceManager/ULContextLayerAccess.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ServiceManager/ULModelLoader.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ServiceManager/ULService.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ServiceManager/ULServiceManager.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/Settings/ULSettings.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ULAlgorithms.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ULCustomLoiRecordingMonitor.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ULDendrogramAlgorithm.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/ULHomeSlamReanchoring.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ihcmV4/Sources/MicroLocation/MicroLocationDaemon/MicroLocationLogic/proto/microlocation.pb.cc"
+- "5.0.22"
+- "ULHomeSlamAltimeterZAxisProbability"
+- "ULHomeSlamLocalizerPenalizeDirectionalityInOffMap"
+- "ULNpdrLocalizerNorthAlignmentWarmupCount"
+- "[ULAltitudeProvider]: sending altitude update with date: %{private}@, altitude: %{private}.3fm, uuid: %{private}@"
+- "{\"msg%{public}.0s\":\"ULHomeSlamMapper, generateModel, fallback model created with preserved metadata\", \"Submap Inx\":%{public}d, \"numInputValidFingerprints\":%{public}lu, \"numClusteredFingerprints\":%{public}lu, \"numMappedFingerprints\":%{public}lu, \"numMappedMeasurements\":%{public}lu, \"numInputStaticIntervals\":%{public}lu, \"numSelectedStaticIntervals\":%{public}lu, \"numNonFingerprintedStaticIntervals\":%{public}lu, \"numMappedStaticIntervals\":%{public}lu, \"numFinalSegments\":%{public}lu, \"numInputSegments\":%{public}lu, \"numInputOdometryEntries\":%{public}lu, \"numROIs\":%{public}lu, \"numUniqueWifiSources\":%{public}lu, \"numUniqueBLESources\":%{public}lu, \"numUniqueUWBSources\":%{public}lu}"
+- "{\"msg%{public}.0s\":\"ULHomeSlamMapper, generateModel, submap created\", \"Submap Inx\":%{public}d, \"numInputValidFingerprints\":%{public}lu, \"numClusteredFingerprints\":%{public}lu, \"numMappedFingerprints\":%{public}lu, \"numMappedMeasurements\":%{public}lu, \"numInputStaticIntervals\":%{public}lu, \"numSelectedStaticIntervals\":%{public}lu, \"numNonFingerprintedStaticIntervals\":%{public}lu, \"numMappedStaticIntervals\":%{public}lu, \"numFinalSegments\":%{public}lu, \"numInputSegments\":%{public}lu, \"numInputOdometryEntries\":%{public}lu, \"numTrajectoryPoints\":%{public}lu, \"numROIs\":%{public}lu, \"numUniqueWifiSources\":%{public}lu, \"numUniqueBLESources\":%{public}lu, \"numUniqueUWBSources\":%{public}lu}"
+```

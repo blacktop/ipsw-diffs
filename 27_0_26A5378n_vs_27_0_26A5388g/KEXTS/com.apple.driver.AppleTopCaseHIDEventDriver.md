@@ -1,0 +1,29 @@
+## com.apple.driver.AppleTopCaseHIDEventDriver
+
+> `com.apple.driver.AppleTopCaseHIDEventDriver`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA.__data`
+- `__DATA_CONST.__mod_init_func`
+- `__DATA_CONST.__mod_term_func`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__kalloc_type`
+- `__DATA_CONST.__auth_got`
+- `__DATA_CONST.__got`
+
+```diff
+
+-9470.17.0.0.0
++10400.22.0.0.0
+   __TEXT.__cstring: 0xab0
+   __TEXT.__os_log: 0x12e7
+   __TEXT.__const: 0x7b
+-  __TEXT_EXEC.__text: 0x9454
++  __TEXT_EXEC.__text: 0x9458
+   __TEXT_EXEC.__auth_stubs: 0x2c0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0xb0
+Functions:
+~ __ZN34AppleMultitouchMouseHIDEventDriver21handleInterruptReportEyP18IOMemoryDescriptor15IOHIDReportTypej : 1188 -> 1192
+```

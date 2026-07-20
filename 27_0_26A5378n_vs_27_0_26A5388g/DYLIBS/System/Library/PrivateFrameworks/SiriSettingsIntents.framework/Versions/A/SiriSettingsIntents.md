@@ -1,0 +1,1368 @@
+## SiriSettingsIntents
+
+> `/System/Library/PrivateFrameworks/SiriSettingsIntents.framework/Versions/A/SiriSettingsIntents`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__objc_classlist`
+- `__AUTH.__objc_data`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-3600.35.4.0.0
+-  __TEXT.__text: 0x2bbe70
+-  __TEXT.__objc_methlist: 0x6cc
+-  __TEXT.__const: 0x12514
+-  __TEXT.__cstring: 0x142fe
+-  __TEXT.__swift5_typeref: 0x33c8
+-  __TEXT.__constg_swiftt: 0x7a80
+-  __TEXT.__swift5_fieldmd: 0x6740
+-  __TEXT.__swift5_builtin: 0x17c
+-  __TEXT.__swift5_reflstr: 0x6a5b
+-  __TEXT.__swift5_assocty: 0x11a8
+-  __TEXT.__swift5_proto: 0xba4
+-  __TEXT.__swift5_types: 0x6d8
+-  __TEXT.__swift5_capture: 0x2b94
+-  __TEXT.__oslogstring: 0x1034
++3600.35.7.0.0
++  __TEXT.__text: 0x124608
++  __TEXT.__objc_methlist: 0x5ec
++  __TEXT.__const: 0xc194
++  __TEXT.__constg_swiftt: 0x6a78
++  __TEXT.__swift5_typeref: 0x2c42
++  __TEXT.__swift5_fieldmd: 0x43bc
++  __TEXT.__swift5_builtin: 0x8c
++  __TEXT.__swift5_reflstr: 0x4443
++  __TEXT.__swift5_assocty: 0x818
++  __TEXT.__cstring: 0x107ff
++  __TEXT.__swift5_proto: 0x6fc
++  __TEXT.__swift5_types: 0x4b0
++  __TEXT.__swift5_capture: 0xb60
++  __TEXT.__oslogstring: 0xfa9
+   __TEXT.__swift5_protos: 0x50
+-  __TEXT.__swift_as_entry: 0x994
+-  __TEXT.__swift_as_ret: 0xc00
+-  __TEXT.__swift_as_cont: 0x1090
++  __TEXT.__swift_as_entry: 0x6c8
++  __TEXT.__swift_as_ret: 0x918
++  __TEXT.__swift_as_cont: 0xa98
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x44f8
+-  __TEXT.__eh_frame: 0x6ad8
++  __TEXT.__unwind_info: 0x4eb8
++  __TEXT.__eh_frame: 0xcfc0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xf0
++  __DATA_CONST.__const: 0x110
+   __DATA_CONST.__objc_classlist: 0x580
+-  __DATA_CONST.__objc_protolist: 0x120
++  __DATA_CONST.__objc_protolist: 0x110
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x770
+-  __DATA_CONST.__objc_protorefs: 0x90
++  __DATA_CONST.__objc_selrefs: 0x690
++  __DATA_CONST.__objc_protorefs: 0x88
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xdb88
+-  __AUTH_CONST.__objc_const: 0xc4c0
+-  __AUTH_CONST.__auth_got: 0x18b0
++  __AUTH_CONST.__const: 0x7368
++  __AUTH_CONST.__objc_const: 0xc420
++  __AUTH_CONST.__auth_got: 0x15d8
+   __AUTH.__objc_data: 0xaa8
+-  __AUTH.__data: 0x6688
+-  __DATA.__data: 0x3a00
+-  __DATA.__common: 0x1328
+-  __DATA.__bss: 0x11d00
++  __AUTH.__data: 0x6568
++  __DATA.__data: 0x2838
++  __DATA.__bss: 0x8800
++  __DATA.__common: 0x440
+   __DATA_DIRTY.__objc_data: 0x380
+-  __DATA_DIRTY.__data: 0x44e0
++  __DATA_DIRTY.__data: 0x4368
+   __DATA_DIRTY.__bss: 0x1080
+-  __DATA_DIRTY.__common: 0x400
++  __DATA_DIRTY.__common: 0x300
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/CoreTelephony.framework/Versions/A/CoreTelephony
+-  - /System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/Intents.framework/Versions/A/Intents
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/Versions/A/AccessibilityUtilities
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 9833
+-  Symbols:   2342
+-  CStrings:  1794
++  Functions: 7016
++  Symbols:   2294
++  CStrings:  1313
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_10
++ _OUTLINED_FUNCTION_100
++ _OUTLINED_FUNCTION_101
++ _OUTLINED_FUNCTION_102
++ _OUTLINED_FUNCTION_103
++ _OUTLINED_FUNCTION_104
++ _OUTLINED_FUNCTION_105
++ _OUTLINED_FUNCTION_106
++ _OUTLINED_FUNCTION_107
++ _OUTLINED_FUNCTION_108
++ _OUTLINED_FUNCTION_109
++ _OUTLINED_FUNCTION_11
++ _OUTLINED_FUNCTION_110
++ _OUTLINED_FUNCTION_111
++ _OUTLINED_FUNCTION_112
++ _OUTLINED_FUNCTION_113
++ _OUTLINED_FUNCTION_114
++ _OUTLINED_FUNCTION_115
++ _OUTLINED_FUNCTION_116
++ _OUTLINED_FUNCTION_117
++ _OUTLINED_FUNCTION_118
++ _OUTLINED_FUNCTION_119
++ _OUTLINED_FUNCTION_12
++ _OUTLINED_FUNCTION_120
++ _OUTLINED_FUNCTION_121
++ _OUTLINED_FUNCTION_122
++ _OUTLINED_FUNCTION_123
++ _OUTLINED_FUNCTION_124
++ _OUTLINED_FUNCTION_125
++ _OUTLINED_FUNCTION_126
++ _OUTLINED_FUNCTION_127
++ _OUTLINED_FUNCTION_128
++ _OUTLINED_FUNCTION_129
++ _OUTLINED_FUNCTION_13
++ _OUTLINED_FUNCTION_130
++ _OUTLINED_FUNCTION_131
++ _OUTLINED_FUNCTION_132
++ _OUTLINED_FUNCTION_133
++ _OUTLINED_FUNCTION_134
++ _OUTLINED_FUNCTION_135
++ _OUTLINED_FUNCTION_136
++ _OUTLINED_FUNCTION_137
++ _OUTLINED_FUNCTION_138
++ _OUTLINED_FUNCTION_139
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_140
++ _OUTLINED_FUNCTION_141
++ _OUTLINED_FUNCTION_142
++ _OUTLINED_FUNCTION_143
++ _OUTLINED_FUNCTION_144
++ _OUTLINED_FUNCTION_145
++ _OUTLINED_FUNCTION_146
++ _OUTLINED_FUNCTION_147
++ _OUTLINED_FUNCTION_148
++ _OUTLINED_FUNCTION_149
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_150
++ _OUTLINED_FUNCTION_151
++ _OUTLINED_FUNCTION_152
++ _OUTLINED_FUNCTION_153
++ _OUTLINED_FUNCTION_154
++ _OUTLINED_FUNCTION_155
++ _OUTLINED_FUNCTION_156
++ _OUTLINED_FUNCTION_157
++ _OUTLINED_FUNCTION_158
++ _OUTLINED_FUNCTION_159
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_160
++ _OUTLINED_FUNCTION_161
++ _OUTLINED_FUNCTION_162
++ _OUTLINED_FUNCTION_163
++ _OUTLINED_FUNCTION_164
++ _OUTLINED_FUNCTION_165
++ _OUTLINED_FUNCTION_166
++ _OUTLINED_FUNCTION_167
++ _OUTLINED_FUNCTION_168
++ _OUTLINED_FUNCTION_169
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_170
++ _OUTLINED_FUNCTION_171
++ _OUTLINED_FUNCTION_172
++ _OUTLINED_FUNCTION_173
++ _OUTLINED_FUNCTION_174
++ _OUTLINED_FUNCTION_175
++ _OUTLINED_FUNCTION_176
++ _OUTLINED_FUNCTION_177
++ _OUTLINED_FUNCTION_178
++ _OUTLINED_FUNCTION_179
++ _OUTLINED_FUNCTION_18
++ _OUTLINED_FUNCTION_180
++ _OUTLINED_FUNCTION_181
++ _OUTLINED_FUNCTION_182
++ _OUTLINED_FUNCTION_183
++ _OUTLINED_FUNCTION_184
++ _OUTLINED_FUNCTION_185
++ _OUTLINED_FUNCTION_186
++ _OUTLINED_FUNCTION_187
++ _OUTLINED_FUNCTION_188
++ _OUTLINED_FUNCTION_189
++ _OUTLINED_FUNCTION_19
++ _OUTLINED_FUNCTION_190
++ _OUTLINED_FUNCTION_191
++ _OUTLINED_FUNCTION_192
++ _OUTLINED_FUNCTION_193
++ _OUTLINED_FUNCTION_194
++ _OUTLINED_FUNCTION_195
++ _OUTLINED_FUNCTION_196
++ _OUTLINED_FUNCTION_197
++ _OUTLINED_FUNCTION_198
++ _OUTLINED_FUNCTION_199
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_20
++ _OUTLINED_FUNCTION_200
++ _OUTLINED_FUNCTION_201
++ _OUTLINED_FUNCTION_202
++ _OUTLINED_FUNCTION_203
++ _OUTLINED_FUNCTION_204
++ _OUTLINED_FUNCTION_205
++ _OUTLINED_FUNCTION_206
++ _OUTLINED_FUNCTION_207
++ _OUTLINED_FUNCTION_208
++ _OUTLINED_FUNCTION_209
++ _OUTLINED_FUNCTION_21
++ _OUTLINED_FUNCTION_210
++ _OUTLINED_FUNCTION_211
++ _OUTLINED_FUNCTION_212
++ _OUTLINED_FUNCTION_213
++ _OUTLINED_FUNCTION_214
++ _OUTLINED_FUNCTION_215
++ _OUTLINED_FUNCTION_216
++ _OUTLINED_FUNCTION_217
++ _OUTLINED_FUNCTION_218
++ _OUTLINED_FUNCTION_219
++ _OUTLINED_FUNCTION_22
++ _OUTLINED_FUNCTION_220
++ _OUTLINED_FUNCTION_221
++ _OUTLINED_FUNCTION_222
++ _OUTLINED_FUNCTION_223
++ _OUTLINED_FUNCTION_224
++ _OUTLINED_FUNCTION_225
++ _OUTLINED_FUNCTION_226
++ _OUTLINED_FUNCTION_227
++ _OUTLINED_FUNCTION_228
++ _OUTLINED_FUNCTION_229
++ _OUTLINED_FUNCTION_23
++ _OUTLINED_FUNCTION_230
++ _OUTLINED_FUNCTION_231
++ _OUTLINED_FUNCTION_232
++ _OUTLINED_FUNCTION_233
++ _OUTLINED_FUNCTION_234
++ _OUTLINED_FUNCTION_235
++ _OUTLINED_FUNCTION_236
++ _OUTLINED_FUNCTION_237
++ _OUTLINED_FUNCTION_238
++ _OUTLINED_FUNCTION_239
++ _OUTLINED_FUNCTION_24
++ _OUTLINED_FUNCTION_240
++ _OUTLINED_FUNCTION_241
++ _OUTLINED_FUNCTION_242
++ _OUTLINED_FUNCTION_243
++ _OUTLINED_FUNCTION_244
++ _OUTLINED_FUNCTION_245
++ _OUTLINED_FUNCTION_246
++ _OUTLINED_FUNCTION_247
++ _OUTLINED_FUNCTION_248
++ _OUTLINED_FUNCTION_249
++ _OUTLINED_FUNCTION_25
++ _OUTLINED_FUNCTION_250
++ _OUTLINED_FUNCTION_251
++ _OUTLINED_FUNCTION_252
++ _OUTLINED_FUNCTION_253
++ _OUTLINED_FUNCTION_254
++ _OUTLINED_FUNCTION_255
++ _OUTLINED_FUNCTION_256
++ _OUTLINED_FUNCTION_257
++ _OUTLINED_FUNCTION_26
++ _OUTLINED_FUNCTION_27
++ _OUTLINED_FUNCTION_28
++ _OUTLINED_FUNCTION_29
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_30
++ _OUTLINED_FUNCTION_31
++ _OUTLINED_FUNCTION_32
++ _OUTLINED_FUNCTION_33
++ _OUTLINED_FUNCTION_34
++ _OUTLINED_FUNCTION_35
++ _OUTLINED_FUNCTION_36
++ _OUTLINED_FUNCTION_37
++ _OUTLINED_FUNCTION_38
++ _OUTLINED_FUNCTION_39
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_40
++ _OUTLINED_FUNCTION_41
++ _OUTLINED_FUNCTION_42
++ _OUTLINED_FUNCTION_43
++ _OUTLINED_FUNCTION_44
++ _OUTLINED_FUNCTION_45
++ _OUTLINED_FUNCTION_46
++ _OUTLINED_FUNCTION_47
++ _OUTLINED_FUNCTION_48
++ _OUTLINED_FUNCTION_49
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_50
++ _OUTLINED_FUNCTION_51
++ _OUTLINED_FUNCTION_52
++ _OUTLINED_FUNCTION_53
++ _OUTLINED_FUNCTION_54
++ _OUTLINED_FUNCTION_55
++ _OUTLINED_FUNCTION_56
++ _OUTLINED_FUNCTION_57
++ _OUTLINED_FUNCTION_58
++ _OUTLINED_FUNCTION_59
++ _OUTLINED_FUNCTION_6
++ _OUTLINED_FUNCTION_60
++ _OUTLINED_FUNCTION_61
++ _OUTLINED_FUNCTION_62
++ _OUTLINED_FUNCTION_63
++ _OUTLINED_FUNCTION_64
++ _OUTLINED_FUNCTION_65
++ _OUTLINED_FUNCTION_66
++ _OUTLINED_FUNCTION_67
++ _OUTLINED_FUNCTION_68
++ _OUTLINED_FUNCTION_69
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_70
++ _OUTLINED_FUNCTION_71
++ _OUTLINED_FUNCTION_72
++ _OUTLINED_FUNCTION_73
++ _OUTLINED_FUNCTION_74
++ _OUTLINED_FUNCTION_75
++ _OUTLINED_FUNCTION_76
++ _OUTLINED_FUNCTION_77
++ _OUTLINED_FUNCTION_78
++ _OUTLINED_FUNCTION_79
++ _OUTLINED_FUNCTION_8
++ _OUTLINED_FUNCTION_80
++ _OUTLINED_FUNCTION_81
++ _OUTLINED_FUNCTION_82
++ _OUTLINED_FUNCTION_83
++ _OUTLINED_FUNCTION_84
++ _OUTLINED_FUNCTION_85
++ _OUTLINED_FUNCTION_86
++ _OUTLINED_FUNCTION_87
++ _OUTLINED_FUNCTION_88
++ _OUTLINED_FUNCTION_89
++ _OUTLINED_FUNCTION_9
++ _OUTLINED_FUNCTION_90
++ _OUTLINED_FUNCTION_91
++ _OUTLINED_FUNCTION_92
++ _OUTLINED_FUNCTION_93
++ _OUTLINED_FUNCTION_94
++ _OUTLINED_FUNCTION_95
++ _OUTLINED_FUNCTION_96
++ _OUTLINED_FUNCTION_97
++ _OUTLINED_FUNCTION_98
++ _OUTLINED_FUNCTION_99
++ ___swift_closure_destructorTm
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_getEnumTagSinglePayload
++ ___swift_get_extra_inhabitant_indexTm
++ ___swift_mutable_project_boxed_opaque_existential_1
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___swift_storeEnumTagSinglePayload
++ ___swift_store_extra_inhabitant_indexTm
++ ___unnamed_12
++ ___unnamed_2
++ ___unnamed_24
++ ___unnamed_3
++ __swiftEmptyDictionarySingleton
++ __swiftEmptySetSingleton
++ __swiftImmortalRefCount
++ __swift_closure_destructor.13Tm
++ __swift_closure_destructor.166Tm
++ __swift_closure_destructor.172Tm
++ __swift_closure_destructor.175Tm
++ __swift_closure_destructor.62Tm
++ __swift_get_extra_inhabitant_index.103Tm
++ __swift_get_extra_inhabitant_index.112Tm
++ __swift_get_extra_inhabitant_index.27Tm
++ __swift_get_extra_inhabitant_index.82Tm
++ __swift_get_extra_inhabitant_index.91Tm
++ __swift_get_extra_inhabitant_index.94Tm
++ __swift_stdlib_reportUnimplementedInitializer
++ __swift_stdlib_strtof_clocale
++ __swift_store_extra_inhabitant_index.104Tm
++ __swift_store_extra_inhabitant_index.113Tm
++ __swift_store_extra_inhabitant_index.28Tm
++ __swift_store_extra_inhabitant_index.83Tm
++ __swift_store_extra_inhabitant_index.92Tm
++ __swift_store_extra_inhabitant_index.95Tm
++ _bzero
++ _objc_msgSend$description
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain_n
++ _swift_deletedAsyncMethodErrorTu
++ _swift_deletedMethodError
++ _swift_initStaticObject
++ _swift_makeBoxUnique
++ _swift_release_n
++ _swift_retain_n
++ _swift_setDeallocating
++ _swift_slowDealloc
++ _symbolic _____Sg 19SiriSettingsIntents0B32IntentConfirmationConfigProviderC013BinarySettingeF0V
++ _symbolic ______pSg 11SiriKitFlow0C8ActivityP
++ _symbolic ______pSg 19SiriSettingsIntents10GetHandlerP
++ _symbolic ______pSg 19SiriSettingsIntents12SettingModelP
++ _symbolic ______pSg 19SiriSettingsIntents16SetBinaryHandlerP
++ _symbolic ______pSg 19SiriSettingsIntents17SetLabeledHandlerP
++ _symbolic ______pSg 19SiriSettingsIntents17SetNumericHandlerP
++ _symbolic _____yS2SSgG s17_NativeDictionaryV
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSgG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_______ptG s23_ContiguousArrayStorageC 19SiriSettingsIntents10GetHandlerP
++ _symbolic _____ySS______pG s17_NativeDictionaryV 19SiriSettingsIntents10GetHandlerP
++ _symbolic _____ySS_ypSgtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySo18INGetSettingIntentCSo0abC8ResponseC_G 19SiriSettingsIntents27GetSettingTemplatingServiceC0d6BinaryE6ParamsV
++ _symbolic _____ySo19INOpenSettingIntentCSo0abC8ResponseC_G 19SiriSettingsIntents28OpenSettingTemplatingServiceC0defG5ErrorO
++ _symbolic _____ySo19INOpenSettingIntentCSo0abC8ResponseC_G 19SiriSettingsIntents28OpenSettingTemplatingServiceC19AppPunchoutProviderC
++ _symbolic _____ySo24INSetBinarySettingIntentCSo0abcD8ResponseC_G 19SiriSettingsIntents33SetBinarySettingTemplatingServiceC0deF6ParamsV
++ _symbolic _____ySo24INSetBinarySettingIntentCSo0abcD8ResponseC_GSg 19SiriSettingsIntents33SetBinarySettingTemplatingServiceC0deF6ParamsV
++ _symbolic _____y_____G s11_SetStorageC 19SiriSettingsIntents23BinarySettingIdentifierO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11SiriKitFlow06CommonF5GuardV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12SiriNLUTypes0D29_Nlu_External_SystemDialogActV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12SiriOntology13UsoIdentifierV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19SiriSettingsIntents22MultiSettingIdentifierO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19SiriSettingsIntents23BinarySettingIdentifierO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19SiriSettingsIntents24NumericSettingIdentifierO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 32SiriReferenceResolutionDataModel8RREntityV
++ _symbolic _____y______SStG s23_ContiguousArrayStorageC 19SiriSettingsIntents23BinarySettingIdentifierO
++ _symbolic _____y______SStG s23_ContiguousArrayStorageC 19SiriSettingsIntents24NumericSettingIdentifierO
++ _symbolic _____y____________ptG s23_ContiguousArrayStorageC 19SiriSettingsIntents23BinarySettingIdentifierO AC03SetG7HandlerP
++ _symbolic _____y____________ptG s23_ContiguousArrayStorageC 19SiriSettingsIntents24LabeledSettingIdentifierO AC03SetG7HandlerP
++ _symbolic _____y____________ptG s23_ContiguousArrayStorageC 19SiriSettingsIntents24NumericSettingIdentifierO AC03SetG7HandlerP
++ _symbolic _____y___________pG s17_NativeDictionaryV 19SiriSettingsIntents23BinarySettingIdentifierO AC03SetF7HandlerP
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 12SiriOntology23UsoEntity_common_NumberC13DefinedValuesO So21INBoundedSettingValueV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 19SiriSettingsIntents23BinarySettingIdentifierO AC0E32IntentConfirmationConfigProviderC0ghkL0V
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 19SiriSettingsIntents24NumericSettingIdentifierO AC0E32IntentConfirmationConfigProviderC0ghkL0V
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 12SiriOntology0E4NodeP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
++ _symbolic _____yySpy_____Gz_SpySo8NSObjectCSgGSgzSpyypGSgztcG s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic yyc
+- _CFGetTypeID
+- _CFStringGetTypeID
+- _MGGetProductType
+- _OBJC_CLASS_$_AFBluetoothDeviceBooleanSettingResponse
+- _OBJC_CLASS_$_INIntent
+- _OBJC_CLASS_$_INIntentResponse
+- _OBJC_CLASS_$_NSProcessInfo
+- _OBJC_CLASS_$_SAAceView
+- _OBJC_CLASS_$_SABaseClientBoundCommand
+- _OBJC_CLASS_$_SACommandSucceeded
+- _OBJC_CLASS_$_SASettingGetMidnightMode
+- _OBJC_CLASS_$_SASettingSetBrightness
+- _OBJC_CLASS_$_SASettingSetFloat
+- _OBJC_CLASS_$_SASettingSetMidnightMode
+- _OBJC_CLASS_$_SATTSGetSpeechSynthesisVolume
+- _OBJC_CLASS_$_SATTSGetSpeechSynthesisVolumeResponse
+- _OBJC_CLASS_$_SATTSSetSpeechSynthesisVolume
+- _SASettingKeyMuteOutputValue
+- _SATTSSpeechVolumeActionTypeDECREASEValue
+- _SATTSSpeechVolumeActionTypeENABLE_OFFSET_AND_DECREASEValue
+- _SATTSSpeechVolumeActionTypeENABLE_OFFSET_AND_INCREASEValue
+- _SATTSSpeechVolumeActionTypeINCREASEValue
+- _SATTSSpeechVolumeActionTypeSETValue
+- __AXDarkenSystemColors
+- __AXSCommandAndControlCarPlayEnabled
+- __AXSCommandAndControlCarPlaySetEnabled
+- __AXSCommandAndControlEnabled
+- __AXSCommandAndControlSetEnabled
+- __AXSInvertColorsEnabled
+- __AXSInvertColorsSetEnabled
+- __AXSSetDarkenSystemColors
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_AFServiceHelper
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AFServiceHelper
+- __OBJC_$_PROTOCOL_METHOD_TYPES_AFServiceHelper
+- __OBJC_$_PROTOCOL_REFS_AFServiceHelper
+- __OBJC_LABEL_PROTOCOL_$_AFServiceHelper
+- __OBJC_PROTOCOL_$_AFServiceHelper
+- ___swift_assign_boxed_opaque_existential_1
+- ___swift_memcpy16_8
+- ___swift_memcpy24_8
+- ___swift_memcpy2_1
+- ___swift_memcpy48_8
+- ___swift_memcpy8_8
+- ___swift_project_boxed_opaque_existential_0
+- ___unnamed_10
+- ___unnamed_21
+- ___unnamed_27
+- __swift_stdlib_has_malloc_size
+- __swift_stdlib_reportUnimplementedInitializerInFile
+- _associated conformance 19SiriSettingsIntents0B10FlowErrorsOSHAASQ
+- _associated conformance 19SiriSettingsIntents0B15NativeApiClientC11VolumeErrorOSHAASQ
+- _associated conformance 19SiriSettingsIntents0B15NativeApiClientC15ConnectedDeviceOSHAASQ
+- _associated conformance 19SiriSettingsIntents0B15NativeApiClientC16EnvironmentErrorOSHAASQ
+- _associated conformance 19SiriSettingsIntents0B19IntentDelegateErrorOSHAASQ
+- _associated conformance 19SiriSettingsIntents0B31ToggleDirectInvocationFlowEventOSHAASQ
+- _associated conformance 19SiriSettingsIntents0B38ToggleDirectInvocationFlowStatusReasonOSHAASQ
+- _associated conformance 19SiriSettingsIntents0B8NLIntentV26PersonalHotspotIdentifiersO0A8Ontology21TerminalNodeValueTypeAASH
+- _associated conformance 19SiriSettingsIntents0B8NLIntentV26PersonalHotspotIdentifiersO0A8Ontology32TerminalNodeBoundedSemanticValueAaF0ijM4Type
+- _associated conformance 19SiriSettingsIntents0B8NLIntentV26PersonalHotspotIdentifiersOSHAASQ
+- _associated conformance 19SiriSettingsIntents0B8NLIntentV26PersonalHotspotIdentifiersOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 19SiriSettingsIntents0aB18STCLoggingConstantOSHAASQ
+- _associated conformance 19SiriSettingsIntents12SettingVerbsOSHAASQ
+- _associated conformance 19SiriSettingsIntents14AutoBugCaptureO12ErrorSubTypeOSHAASQ
+- _associated conformance 19SiriSettingsIntents14AutoBugCaptureO9ErrorTypeOSHAASQ
+- _associated conformance 19SiriSettingsIntents19ClarityUIIntentCATsC10PropertiesOSHAASQ
+- _associated conformance 19SiriSettingsIntents20UndoDirectInvocationC3KeyOSHAASQ
+- _associated conformance 19SiriSettingsIntents20UndoDirectInvocationC3URIOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC026DeviceDoesNotSupportBinaryD9DialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC027DeviceDoesNotSupportNumericD9DialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC028ResourceNotDownloaded_DialogK3IdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC05MultiD13NameDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC05MultiD19ButtonTextDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC05MultiD29NavigationButtonTextDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC06BinaryD13NameDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC06BinaryD17PageNameDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC06BinaryD19ButtonTextDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC07DisplayB31DisabledForCurrentModeDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC07NumericD13NameDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC07NumericD19ButtonTextDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC0B20StaticLabelDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC0D29NavigationButtonTextDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC0a12CannotChangeD9DialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC0a17CannotChangeMultiD9DialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC0a19CannotChangeNumericD9DialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC10PropertiesOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC16StandByDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC17CannotDoDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC25NotPermittedToDoDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC27FocusNotConfiguredDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC29FlashlightOverheatedDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents23SettingIntentCATsSimpleC30FlashlightUnavailableDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents25HomeAutomationNLNamespaceOSHAASQ
+- _associated conformance 19SiriSettingsIntents25HomeAutomationNLNamespaceOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 19SiriSettingsIntents26GetSettingIntentCATsSimpleC013DescribeMultiE14StateDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents26GetSettingIntentCATsSimpleC014DescribeBinaryE14StateDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents26GetSettingIntentCATsSimpleC015DescribeNumericE14StateDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents26GetSettingIntentCATsSimpleC015DescribeNumericE24StateSpokenOnlyDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents26GetSettingIntentCATsSimpleC0a12CannotChangeE9DialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents26GetSettingIntentCATsSimpleC10PropertiesOSHAASQ
+- _associated conformance 19SiriSettingsIntents26GetSettingIntentCATsSimpleC37HotspotDiscoverabilityPromptDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents26GetSettingIntentCATsSimpleC40TargetDeviceNotFoundReadBatteryDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC012ChangedMultiF16ValueToDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC012ChangedMultiF26ValueToSpokenOnlyDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC014NoNeedToChangee5ValueL9DialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC016RetainingCurrentE14ValueDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC019NoNeedToChangeMultif5ValueL9DialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC029UnspecifiedActionForSupportedeF9DialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC033ConfirmBeforeSeveringConnectionToA9DialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC034UnspecifiedActionForSupportedMultiF9DialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC07ChangedE16ValueToDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC07ChangedE26ValueToSpokenOnlyDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC07ConfirmeF15ChangeDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC0A28CannotDisableItselfDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC0A41CanOnlyAnnounceMessagesInCarPlayDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC0E23ValueWasUndoneDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC10PropertiesOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC29MissingSIMOrCellularDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC35CannotConnectToWiFiNetworkDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC39DescribeHotspotDiscoverabilityDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC40ApplicableDevicesNeverConnectedDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC48AppNotInstalledForAnnounceNotificationsDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC48CannotTemporarilyEnableAnnounceMessagesDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC48ConfirmBeforeTurningOffLocationServicesDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC53ConfirmBeforeTurningOffAnnounceNotificationsDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC53HotspotAirplaneModeEnabledOrCellularDisabledDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents33SetLabeledSettingIntentCATsSimpleC10PropertiesOSHAASQ
+- _associated conformance 19SiriSettingsIntents33SetLabeledSettingIntentCATsSimpleC22ConnectToWifiDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents33SetLabeledSettingIntentCATsSimpleC26EnvironmentErrorsDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC014NoNeedToChangee5ValueL9DialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC016RetainingCurrentE14ValueDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC029UnspecifiedActionForSupportedeF9DialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC07ChangedE16ValueToDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC07ChangedE26ValueToSpokenOnlyDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC0E23ValueWasUndoneDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC10PropertiesOSHAASQ
+- _associated conformance 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC29ConfirmMaximumVolumeDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC34ConfirmDisableSmartVolumeDialogIdsOSHAASQ
+- _associated conformance 19SiriSettingsIntents35SettingIntentCATPatternsIdentifiersOSHAASQ
+- _associated conformance 19SiriSettingsIntents38GetSettingIntentCATPatternsIdentifiersOSHAASQ
+- _associated conformance 19SiriSettingsIntents39OpenSettingIntentCATPatternsIdentifiersOSHAASQ
+- _associated conformance 19SiriSettingsIntents39SetLabeledSettingTemplatingServiceErrorOSHAASQ
+- _associated conformance 19SiriSettingsIntents44SetBinarySettingIntentCATPatternsIdentifiersOSHAASQ
+- _associated conformance 19SiriSettingsIntents45SetNumericSettingIntentCATPatternsIdentifiersOSHAASQ
+- _associated conformance So20NSJSONReadingOptionsVs10SetAlgebraSCSQ
+- _associated conformance So20NSJSONReadingOptionsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
+- _associated conformance So20NSJSONReadingOptionsVs9OptionSetSCSY
+- _associated conformance So20NSJSONReadingOptionsVs9OptionSetSCs0D7Algebra
+- _associated conformance So20NSJSONWritingOptionsVs10SetAlgebraSCSQ
+- _associated conformance So20NSJSONWritingOptionsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
+- _associated conformance So20NSJSONWritingOptionsVs9OptionSetSCSY
+- _associated conformance So20NSJSONWritingOptionsVs9OptionSetSCs0D7Algebra
+- _flat unique So15AFServiceHelper_p
+- _free
+- _memset
+- _objc_msgSend$_intentResponseCode
+- _objc_msgSend$addObserver:selector:name:object:
+- _objc_msgSend$compare:
+- _objc_msgSend$processInfo
+- _objc_msgSend$processName
+- _objc_msgSend$setActionType:
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setVolumeValue:
+- _objc_msgSend$startDate
+- _objc_msgSend$volumeLevel
+- _objc_msgSend$wrapCommandInStartLocalRequest:
+- _round
+- _swift_coroFrameAlloc
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _symbolic $ss10SetAlgebraP
+- _symbolic $ss25ExpressibleByArrayLiteralP
+- _symbolic $ss9OptionSetP
+- _symbolic B2
+- _symbolic SDyS2SG
+- _symbolic SDyS2SSgG
+- _symbolic SS_SSSgt
+- _symbolic SS_SSt
+- _symbolic SS_______pt 19SiriSettingsIntents10GetHandlerP
+- _symbolic SS______t So16INDeviceCategoryV
+- _symbolic SS_ypSgt
+- _symbolic SS_ypt
+- _symbolic SaySSSgG
+- _symbolic SaySo13DialogElementCG
+- _symbolic SaySo24INGetSettingResponseDataCG
+- _symbolic SaySo9SAAceViewCG
+- _symbolic Say_____G 12SiriNLUTypes0A27_Nlu_External_UserDialogActV
+- _symbolic Say_____G 12SiriOntology13UsoIdentifierV
+- _symbolic Say_____G 12SiriOntology7UsoTaskC
+- _symbolic Say_____G 19SiriSettingsIntents0B8NLIntentV26PersonalHotspotIdentifiersO
+- _symbolic Say_____G 19SiriSettingsIntents13SnippetModelsO10CodingKeys33_3CA7C97558B131C3E2D38E7B630D9E68LLO
+- _symbolic Say_____G 19SiriSettingsIntents25HomeAutomationNLNamespaceO
+- _symbolic Say_____G 21SiriInformationSearch10ExperienceC
+- _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
+- _symbolic Say_____SgG 19SiriSettingsIntents23BinarySettingIdentifierO
+- _symbolic Say_____SgG So16INDeviceCategoryV
+- _symbolic Say_____y_____GG 12SiriOntology16CodeGenListEntryC AA021UsoEntity_common_UserH0C
+- _symbolic Say_____y_____GG 12SiriOntology16CodeGenListEntryC AA34UsoEntity_common_DurationComponentC
+- _symbolic SbIegy_
+- _symbolic SbytIegnr_
+- _symbolic ScTyyt_____G s5NeverO
+- _symbolic SdSgz_Xx
+- _symbolic Sf
+- _symbolic SiIegd_
+- _symbolic SiIegr_
+- _symbolic So12NSDictionaryCSgIeyBy_Sg______pSgIegyy_ So15AFServiceHelperP
+- _symbolic So19INOpenSettingIntentCSg
+- _symbolic So21DialogExecutionResultC
+- _symbolic So21INNumericSettingValueC
+- _symbolic So21SASettingShowPasswordC
+- _symbolic So33INSetLabeledSettingIntentResponseCSg
+- _symbolic So8NSNumberCSg
+- _symbolic So8NSNumberCSgIegg_
+- _symbolic Su
+- _symbolic _____ 12SiriOntology13UsoIdentifierV
+- _symbolic _____ 19SiriSettingsIntents017OpenSettingIntentdE20SpokenOnlyParametersV
+- _symbolic _____ 19SiriSettingsIntents04NLToA27KitIntentConverterConstantsO
+- _symbolic _____ 19SiriSettingsIntents052SetNumericSettingIntentUnspecifiedActionForSupportedeF10ParametersV
+- _symbolic _____ 19SiriSettingsIntents06NLv3ToA18KitIntentConverterO
+- _symbolic _____ 19SiriSettingsIntents06NLv4ToA18KitIntentConverterO
+- _symbolic _____ 19SiriSettingsIntents0B10FlowErrorsO
+- _symbolic _____ 19SiriSettingsIntents0B15NativeApiClientC11VolumeErrorO
+- _symbolic _____ 19SiriSettingsIntents0B15NativeApiClientC15ConnectedDeviceO
+- _symbolic _____ 19SiriSettingsIntents0B15NativeApiClientC16EnvironmentErrorO
+- _symbolic _____ 19SiriSettingsIntents0B16DeviceUnlockUtilO
+- _symbolic _____ 19SiriSettingsIntents0B19IntentDelegateErrorO
+- _symbolic _____ 19SiriSettingsIntents0B31ToggleDirectInvocationFlowEventO
+- _symbolic _____ 19SiriSettingsIntents0B32IntentConfirmationConfigProviderC013UnsafeRequesteF0V
+- _symbolic _____ 19SiriSettingsIntents0B38ToggleDirectInvocationFlowStatusReasonO
+- _symbolic _____ 19SiriSettingsIntents0B8NLIntentV26PersonalHotspotIdentifiersO
+- _symbolic _____ 19SiriSettingsIntents0aB18STCLoggingConstantO
+- _symbolic _____ 19SiriSettingsIntents10GetSettingO
+- _symbolic _____ 19SiriSettingsIntents11OpenSettingO
+- _symbolic _____ 19SiriSettingsIntents12DIIdentifierV
+- _symbolic _____ 19SiriSettingsIntents12SettingVerbsO
+- _symbolic _____ 19SiriSettingsIntents13MobileGestaltO
+- _symbolic _____ 19SiriSettingsIntents14AutoBugCaptureO
+- _symbolic _____ 19SiriSettingsIntents14AutoBugCaptureO12ErrorSubTypeO
+- _symbolic _____ 19SiriSettingsIntents14AutoBugCaptureO9ErrorTypeO
+- _symbolic _____ 19SiriSettingsIntents14ConverterUtilsO
+- _symbolic _____ 19SiriSettingsIntents14SFSymbolStruct33_7E02018F0EDA9B3E63614045FEB035D6LLV
+- _symbolic _____ 19SiriSettingsIntents15TemplatingUtilsO
+- _symbolic _____ 19SiriSettingsIntents16SetBinarySettingO
+- _symbolic _____ 19SiriSettingsIntents17SetLabeledSettingO
+- _symbolic _____ 19SiriSettingsIntents17SetNumericSettingO
+- _symbolic _____ 19SiriSettingsIntents17StandByParametersV
+- _symbolic _____ 19SiriSettingsIntents18UsoResolutionUtilsO
+- _symbolic _____ 19SiriSettingsIntents19ClarityUIIntentCATsC10PropertiesO
+- _symbolic _____ 19SiriSettingsIntents20GetIntentHandlerUtilO
+- _symbolic _____ 19SiriSettingsIntents20UndoDirectInvocationC3KeyO
+- _symbolic _____ 19SiriSettingsIntents20UndoDirectInvocationC3URIO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC026DeviceDoesNotSupportBinaryD9DialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC027DeviceDoesNotSupportNumericD9DialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC028ResourceNotDownloaded_DialogK3IdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC05MultiD13NameDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC05MultiD19ButtonTextDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC05MultiD29NavigationButtonTextDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC06BinaryD13NameDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC06BinaryD17PageNameDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC06BinaryD19ButtonTextDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC07DisplayB31DisabledForCurrentModeDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC07NumericD13NameDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC07NumericD19ButtonTextDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC0B20StaticLabelDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC0D29NavigationButtonTextDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC0a12CannotChangeD9DialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC0a17CannotChangeMultiD9DialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC0a19CannotChangeNumericD9DialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC10PropertiesO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC16StandByDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC17CannotDoDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC25NotPermittedToDoDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC27FocusNotConfiguredDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC29FlashlightOverheatedDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents23SettingIntentCATsSimpleC30FlashlightUnavailableDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents25HomeAutomationNLNamespaceO
+- _symbolic _____ 19SiriSettingsIntents26GetSettingIntentCATsSimpleC013DescribeMultiE14StateDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents26GetSettingIntentCATsSimpleC014DescribeBinaryE14StateDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents26GetSettingIntentCATsSimpleC015DescribeNumericE14StateDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents26GetSettingIntentCATsSimpleC015DescribeNumericE24StateSpokenOnlyDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents26GetSettingIntentCATsSimpleC0a12CannotChangeE9DialogIdsO
+- _symbolic _____ 19SiriSettingsIntents26GetSettingIntentCATsSimpleC10PropertiesO
+- _symbolic _____ 19SiriSettingsIntents26GetSettingIntentCATsSimpleC37HotspotDiscoverabilityPromptDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents26GetSettingIntentCATsSimpleC40TargetDeviceNotFoundReadBatteryDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents26SetBinaryIntentHandlerUtilO
+- _symbolic _____ 19SiriSettingsIntents26UndoBinarySettingConstants33_60074361E4A1475A55167D05F86512ADLLO
+- _symbolic _____ 19SiriSettingsIntents27GetSettingTemplatingServiceC0d7NumericE6ParamsV
+- _symbolic _____ 19SiriSettingsIntents27SetLabeledIntentHandlerUtilO
+- _symbolic _____ 19SiriSettingsIntents27SetNumericIntentHandlerUtilO
+- _symbolic _____ 19SiriSettingsIntents31SettingIntentCannotDoParametersV
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC012ChangedMultiF16ValueToDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC012ChangedMultiF26ValueToSpokenOnlyDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC014NoNeedToChangee5ValueL9DialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC016RetainingCurrentE14ValueDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC019NoNeedToChangeMultif5ValueL9DialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC029UnspecifiedActionForSupportedeF9DialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC033ConfirmBeforeSeveringConnectionToA9DialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC034UnspecifiedActionForSupportedMultiF9DialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC07ChangedE16ValueToDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC07ChangedE26ValueToSpokenOnlyDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC07ConfirmeF15ChangeDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC0A28CannotDisableItselfDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC0A41CanOnlyAnnounceMessagesInCarPlayDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC0E23ValueWasUndoneDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC10PropertiesO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC29MissingSIMOrCellularDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC35CannotConnectToWiFiNetworkDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC39DescribeHotspotDiscoverabilityDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC40ApplicableDevicesNeverConnectedDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC48AppNotInstalledForAnnounceNotificationsDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC48CannotTemporarilyEnableAnnounceMessagesDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC48ConfirmBeforeTurningOffLocationServicesDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC53ConfirmBeforeTurningOffAnnounceNotificationsDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents32SetBinarySettingIntentCATsSimpleC53HotspotAirplaneModeEnabledOrCellularDisabledDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents33SetLabeledSettingIntentCATsSimpleC10PropertiesO
+- _symbolic _____ 19SiriSettingsIntents33SetLabeledSettingIntentCATsSimpleC22ConnectToWifiDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents33SetLabeledSettingIntentCATsSimpleC26EnvironmentErrorsDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC014NoNeedToChangee5ValueL9DialogIdsO
+- _symbolic _____ 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC016RetainingCurrentE14ValueDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC029UnspecifiedActionForSupportedeF9DialogIdsO
+- _symbolic _____ 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC07ChangedE16ValueToDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC07ChangedE26ValueToSpokenOnlyDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC0E23ValueWasUndoneDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC10PropertiesO
+- _symbolic _____ 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC29ConfirmMaximumVolumeDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents33SetNumericSettingIntentCATsSimpleC34ConfirmDisableSmartVolumeDialogIdsO
+- _symbolic _____ 19SiriSettingsIntents34SetNumericSettingTemplatingServiceC0deF6ParamsV
+- _symbolic _____ 19SiriSettingsIntents35SettingIntentCATPatternsIdentifiersO
+- _symbolic _____ 19SiriSettingsIntents38GetSettingIntentCATPatternsIdentifiersO
+- _symbolic _____ 19SiriSettingsIntents39OpenSettingIntentCATPatternsIdentifiersO
+- _symbolic _____ 19SiriSettingsIntents39SetLabeledSettingTemplatingServiceErrorO
+- _symbolic _____ 19SiriSettingsIntents44SetBinarySettingIntentCATPatternsIdentifiersO
+- _symbolic _____ 19SiriSettingsIntents44SettingIntentResourceNotDownloadedParametersV
+- _symbolic _____ 19SiriSettingsIntents45SetNumericSettingIntentCATPatternsIdentifiersO
+- _symbolic _____ 19SiriSettingsIntents53SetNumericSettingIntentConfirmMaximumVolumeParametersV
+- _symbolic _____ 19SiriSettingsIntents58SetNumericSettingIntentConfirmDisableSmartVolumeParametersV
+- _symbolic _____ 19SiriSettingsIntents71SetBinarySettingIntentAppNotInstalledForAnnounceNotificationsParametersV
+- _symbolic _____ 19SiriSettingsIntents71SetBinarySettingIntentCannotTemporarilyEnableAnnounceMessagesParametersV
+- _symbolic _____ 19SiriSettingsIntents8SignpostO
+- _symbolic _____ 32SiriReferenceResolutionDataModel11RRCandidateV
+- _symbolic _____ So13MGProductTypea
+- _symbolic _____ So15INSettingActionV
+- _symbolic _____ So18NSComparisonResultV
+- _symbolic _____ So20INIntentResponseCodeV
+- _symbolic _____ So20INNumericSettingUnitV
+- _symbolic _____ So20NSJSONReadingOptionsV
+- _symbolic _____ So20NSJSONWritingOptionsV
+- _symbolic _____ So25INSetNumericSettingIntentC19SiriSettingsIntentsE0C13BoundedActionV
+- _symbolic _____ So30INGetSettingIntentResponseCodeV
+- _symbolic _____ So36AFBluetoothDeviceSettingBooleanValueV
+- _symbolic _____ So36INSetBinarySettingIntentResponseCodeV
+- _symbolic _____ So37INSetNumericSettingIntentResponseCodeV
+- _symbolic _____ So38AFBluetoothDeviceSettingResponseStatusV
+- _symbolic _____ s5UInt8V
+- _symbolic _____Iegy_ 19SiriSettingsIntents31SetAnnounceNotificationsHandlerC16ConfirmationModeO
+- _symbolic _____Sg 12SiriNLUTypes0A22_Nlu_External_UsoGraphV
+- _symbolic _____Sg 19SiriSettingsIntents0B7SettingC
+- _symbolic _____Sg 19SiriSettingsIntents23BinarySettingIdentifierO
+- _symbolic _____Sg So16INDeviceCategoryV
+- _symbolic _____Sg_ABt 10Foundation4DateV
+- _symbolic _____Sgz_Xx 10Foundation4DateV
+- _symbolic ______SSt 19SiriSettingsIntents23BinarySettingIdentifierO
+- _symbolic ______SSt 19SiriSettingsIntents24NumericSettingIdentifierO
+- _symbolic ______SSt So21INIntentSlotValueTypeV
+- _symbolic ______Say_____Gt 19SiriSettingsIntents23BinarySettingIdentifierO So08INBinaryE5ValueV
+- _symbolic ____________pt 19SiriSettingsIntents23BinarySettingIdentifierO AA03SetD7HandlerP
+- _symbolic ____________pt 19SiriSettingsIntents24LabeledSettingIdentifierO AA03SetD7HandlerP
+- _symbolic ____________pt 19SiriSettingsIntents24NumericSettingIdentifierO AA03SetD7HandlerP
+- _symbolic ___________t 19SiriSettingsIntents23BinarySettingIdentifierO AA0B32IntentConfirmationConfigProviderC0dehI0V
+- _symbolic ___________t 19SiriSettingsIntents23BinarySettingIdentifierO AA24UsageCountConfigProviderC03SetdgheI0V
+- _symbolic ___________t 19SiriSettingsIntents24NumericSettingIdentifierO AA0B32IntentConfirmationConfigProviderC0dehI0V
+- _symbolic ___________t s5Int32V So16INDeviceCategoryV
+- _symbolic ______p 12SiriOntology0B4NodeP
+- _symbolic ______p s7CVarArgP
+- _symbolic ______pSg s5ErrorP
+- _symbolic ______pSgIegg_ s5ErrorP
+- _symbolic ______ypt s11AnyHashableV
+- _symbolic _____ySaySSGG s16IndexingIteratorV
+- _symbolic _____ySay_____GG s16IndexingIteratorV 12SiriOntology13UsoIdentifierV
+- _symbolic _____ySay_____y_____GGG s16IndexingIteratorV 12SiriOntology16CodeGenListEntryC AC34UsoEntity_common_DurationComponentC
+- _symbolic _____ySb_____G s6ResultOsRi_zRi0_zrlE 19SiriSettingsIntents0C15NativeApiClientC27BluetoothDeviceSettingErrorO
+- _symbolic _____y_____G s10ArraySliceV 19SiriSettingsIntents13SnippetModelsO10CodingKeys33_3CA7C97558B131C3E2D38E7B630D9E68LLO
+- _symbolic _____yc So20INBinarySettingValueV
+- _symbolic qd__
+- _symbolic xIeAgHr_
+- _symbolic ySpy_____Gz_SpySo8NSObjectCSgGSgzSpyypGSgztc s5UInt8V
+- _type_layout_string 19SiriSettingsIntents017OpenSettingIntentdE20SpokenOnlyParametersV
+- _type_layout_string 19SiriSettingsIntents052SetNumericSettingIntentUnspecifiedActionForSupportedeF10ParametersV
+- _type_layout_string 19SiriSettingsIntents0B32IntentConfirmationConfigProviderC013UnsafeRequesteF0V
+- _type_layout_string 19SiriSettingsIntents12DIIdentifierV
+- _type_layout_string 19SiriSettingsIntents14SFSymbolStruct33_7E02018F0EDA9B3E63614045FEB035D6LLV
+- _type_layout_string 19SiriSettingsIntents15AppearanceUtilsC0D0V
+- _type_layout_string 19SiriSettingsIntents31SettingIntentCannotDoParametersV
+- _type_layout_string 19SiriSettingsIntents53SetNumericSettingIntentConfirmMaximumVolumeParametersV
+- _type_layout_string 19SiriSettingsIntents58SetNumericSettingIntentConfirmDisableSmartVolumeParametersV
+- _type_layout_string 19SiriSettingsIntents71SetBinarySettingIntentAppNotInstalledForAnnounceNotificationsParametersV
+- _type_layout_string 19SiriSettingsIntents71SetBinarySettingIntentCannotTemporarilyEnableAnnounceMessagesParametersV
+- _type_layout_string So20NSJSONReadingOptionsV
+- _type_layout_string So25INSetNumericSettingIntentC19SiriSettingsIntentsE0C13BoundedActionV
+- _type_layout_string So8INIntentCRbzSo0A8ResponseCRb_r0_l19SiriSettingsIntents27GetSettingTemplatingServiceC0f7NumericG6ParamsVyxq__G
+- _type_layout_string So8INIntentCRbzSo0A8ResponseCRb_r0_l19SiriSettingsIntents34SetNumericSettingTemplatingServiceC0fgH6ParamsVyxq__G
+CStrings:
++ "ToggleBinarySetting"
++ "[NLv4ToSiriKitIntentConverter.filterIdentifier] exclude identifier based on its namespace [%{public}s/%{public}s]"
++ "[NLv4ToSiriKitIntentConverter.getOpenSettingIdentifierValue]    %{public}s/%{public}s"
++ "[NLv4ToSiriKitIntentConverter.getOpenSettingIdentifierValue] All setting identifiers..."
++ "[NLv4ToSiriKitIntentConverter.getOpenSettingIntent] Setting identifier: %{public}s"
++ "x-apple.systempreferences:com.apple.BluetoothSettings"
++ "x-apple.systempreferences:com.apple.preference.keyboard?Dictation"
++ "x-apple.systempreferences:com.apple.preference.universalaccess?Audio"
++ "x-apple.systempreferences:com.apple.preference.universalaccess?Seeing_Display"
++ "x-apple.systempreferences:com.apple.preference.universalaccess?Seeing_Zoom"
+- "#3378F6FF"
+- "#5856CEFF"
+- "#59ADC4FF"
+- "#5AC4BDFF"
+- "#65C465FF"
+- "#7A81FFFF"
+- "#A257D7FF"
+- "#EB445AFF"
+- "#F09937FF"
+- "%@ get boolean value using GetBooleanAceCommand Exception while getting response: %@"
+- "%@ set using SetBooleanAceCommand Exception while getting response: %@"
+- "-"
+- "."
+- "<nil>"
+- "ABC result: %s"
+- "AMEnableAmbientMode"
+- "Accessibility"
+- "Adjusting display brightness is not supported in ambient mode"
+- "Adjusting display brightness is not supported in ambinet mode"
+- "Adjusting voice volume with actionType: %@, value: %@"
+- "Airplane mode is enabled. Offer to disable it and then enable personal hotspot."
+- "AirplaneMode"
+- "AnnounceNotificationsAppDisableHint.IsDisabled"
+- "Applications"
+- "AuthenticationSupportFlow"
+- "AutoBugCapture"
+- "BLUE"
+- "BatteryUsage"
+- "BinarySettingView"
+- "Bluetooth"
+- "BluetoothManager is not available, setup notification"
+- "Can not turn on cellular data when Airplane mode is on."
+- "Cellular data is disabled. Offer to enable it and then enable personal hotspot."
+- "CellularData"
+- "ConverterUtils isNounlessSettingsTask | no nouns found on task"
+- "DND"
+- "Dark"
+- "Dictation"
+- "Display"
+- "DisplayBrightness"
+- "Double value cannot be converted to Int because it is either infinite or NaN"
+- "Double value cannot be converted to Int because the result would be greater than Int.max"
+- "Double value cannot be converted to Int because the result would be less than Int.min"
+- "EnableBassReduction"
+- "Error while getting response of Ace Command: %@"
+- "Exception while getting response: %@"
+- "Failed"
+- "Failed to get boolean value using SASettingGetMidnightMode"
+- "Failed to set flashlight."
+- "Failure getting response object: %@"
+- "Fatal error"
+- "Flashlight failed: %@"
+- "Flashlight set successfully."
+- "Float value cannot be converted to Int because it is either infinite or NaN"
+- "Float value cannot be converted to Int because the result would be greater than Int.max"
+- "Float value cannot be converted to Int because the result would be less than Int.min"
+- "FlowProviderLog"
+- "GRAY"
+- "General"
+- "Get boolean value using SASettingGetMidnightMode Exception while getting response: %@"
+- "Get boolean value using SASettingGetMidnightMode failed with result: %@"
+- "Get boolean value using SASettingGetMidnightMode successfully. Value is %@"
+- "GetAXIncreaseContrast"
+- "GetAXMotionCues"
+- "GetBattery"
+- "GetCellularData"
+- "GetFlashlight"
+- "GetHotspot"
+- "GetLiveCaption"
+- "GetLiveSpeech"
+- "GetReduceBass"
+- "GetReduceLoudSounds"
+- "GetSettingHandleIntentFlowStrategy: makeSiriKitIntentHandler."
+- "GetSettingTemplatingService makeIntentConfirmationCancelledDialogRF2 | RetainingCurrentBinaryValue cat execution error %@"
+- "GetSettingTemplatingService makeIntentConfirmationDialogRF2 | HotspotDiscoverabilityPrompt cat execution error %@"
+- "GetSettingTemplatingService makeIntentConfirmationDialogRF2 | INGetSettingIntent requires confirmation %@"
+- "GetSiriVolume"
+- "GetSiriVolumeHandler.handleGetSidekickSiriVolumeRequest | Unable to determine current value of the smart siri volume setting."
+- "GetSiriVolumeHandler.handleGetSidekickSiriVolumeRequest | start."
+- "GetSiriVolumeHandler.handleGetSidekickSiriVolumeRequestAsync | Unable to determine current value of the smart siri volume setting."
+- "GetSiriVolumeHandler.handleGetSidekickSiriVolumeRequestAsync | start."
+- "GuardFlowLog"
+- "HandleIntentStrategy: makeSiriKitIntentHandler."
+- "HandleLabeledSettingFlowStrategy: could not render punchout button."
+- "HandleLabeledSettingFlowStrategy: rendered punchout button: %s"
+- "HandleNumericSettingFlowStrategy: makeSiriKitIntentHandler."
+- "Hotspot already on, making sure it's set to be discoverable"
+- "INOpenSettingIntent"
+- "INSetBinarySettingIntent"
+- "Immersion"
+- "Index out of range"
+- "Insufficient space allocated to copy array contents"
+- "Insufficient space allocated to copy string contents"
+- "IntentHandler"
+- "InvertColors"
+- "LabeledSettingView"
+- "Light"
+- "Location"
+- "Min/Max volumes for sidekick: %f/%f."
+- "Modifying this setting is disabled via profile"
+- "NLConverter"
+- "NLConverter_GetSettingIntent"
+- "NO ID"
+- "Negative value is not representable"
+- "Not enough bits to represent a signed value"
+- "Not enough bits to represent the passed value"
+- "NumericSettingView"
+- "OpenSettingHandleIntentFlowStrategy: makeSiriKitIntentHandler."
+- "OpenSettingIntent#OpenSettingSpokenOnly"
+- "OutputVolume"
+- "PRIMARY"
+- "Passcode"
+- "PersonalHotspot"
+- "Privacy"
+- "Range requires lowerBound <= upperBound"
+- "Response"
+- "Result not a SATTSGetSpeechSynthesisVolumeResponse: %@"
+- "SECONDARY"
+- "Set Siri Volume Ace Command failed with error: %@"
+- "Set sidekick siri volume to %@ via Ace Command."
+- "SetAXMotionCues"
+- "SetAnnounceNotificationsHandler announce is on, but is muted, treat as unmute"
+- "SetAnnounceNotificationsHandler announce messages for app status: %@"
+- "SetAnnounceNotificationsHandler handling global feature mutation."
+- "SetAnnounceNotificationsHandler handling mutation of app based feature for date %@"
+- "SetAnnounceNotificationsHandler marking notifications user default for application disablement"
+- "SetAnnounceNotificationsHandler: confirmation mode is %@."
+- "SetBinaryAirplaneMode"
+- "SetBinaryCellularData"
+- "SetBinaryFlashlight"
+- "SetBinaryHotspot"
+- "SetBinaryReduceBass"
+- "SetBoldText"
+- "SetButtonShapes"
+- "SetLabeledSettingHandleIntentFlowStrategy: makeSiriKitIntentHandler."
+- "SetLabeledSettingIntent#ConnectToWifi"
+- "SetLabeledSettingIntentResponse does not exist"
+- "SetLabeledSettingTemplatingService"
+- "SetLiveCaptions"
+- "SetLiveSpeech"
+- "SetNumericImmersionLevel"
+- "SetNumericSettingIntent#ConfirmDisableSmartVolume"
+- "SetNumericSettingTemplatingService handleOtherFailureReasonRF2 | SiriCannotChangeNumericSetting execution error %@"
+- "SetNumericSettingTemplatingService handleOtherFailureReasonRF2 | deviceDoesNotSupportNumericSetting execution error %@"
+- "SetNumericSettingTemplatingService handleOtherFailureReasonRF2 | displaySettingsDisabledForCurrentMode execution error %@"
+- "SetNumericSettingTemplatingService handleOtherFailureReasonRF2 | intent response 'other reason' error code contains unsupported error detail: %@"
+- "SetNumericSettingTemplatingService handleOtherFailureReasonRF2 | intent response contains error code 'other reason' but no details: %@"
+- "SetNumericSettingTemplatingService makeFailureHandlingIntentDialogSyncRF2 | intent response contains unsupported error code: %@"
+- "SetNumericSettingTemplatingService makeFailureHandlingIntentDialogSyncRF2 | intent response does not exist"
+- "SetOnOffLabels"
+- "SetPersonalHotspotHandler cannot handle unsupported setting: %@"
+- "SetReduceLoudSounds"
+- "SetReduceTransparency"
+- "SetSiriVolumeHandler.handleSidekickSiriVolumeRequest requested value: %f."
+- "SetSiriVolumeHandler.handleSidekickSiriVolumeRequest start."
+- "SetSiriVolumeHandler.handleSidekickSiriVolumeRequest | Unable to determine current value of the sidekick volume setting."
+- "SetSiriVolumeHandler.handleSidekickSiriVolumeRequest | Unable to determine the requested value of the sidekick siri volume setting."
+- "SettingDIFlow"
+- "SettingExtensionSearch"
+- "SettingIntent#BinarySettingButtonText"
+- "SettingIntent#MultiSettingButtonText"
+- "SettingIntent#MultiSettingNavigationButtonText"
+- "SettingIntent#ResourceNotDownloaded"
+- "SettingIntent#ResourceNotDownloaded_Dialog"
+- "SettingIntent#SettingsStaticLabel"
+- "SettingRCHWrapper"
+- "Settings"
+- "SettingsAppResolutionService"
+- "ShakeMouse"
+- "Sidekick Siri volume before adjustment: %f."
+- "Sidekick siri volume after set: %@."
+- "Sidekick siri volume read via Ace command: %@."
+- "Siri"
+- "SiriCorrections"
+- "SiriSettingsIntents.Builder"
+- "SiriSettingsIntents.SettingsBinarySetting"
+- "SiriSettingsIntents.SettingsMultiSetting"
+- "SiriSettingsIntents.SettingsNumericSetting"
+- "SiriSettingsIntents/ConverterUtils.swift"
+- "SiriSettingsIntents/GetSettingAceViewProvider.swift"
+- "SiriSettingsIntents/GetSettingTemplatingService.swift"
+- "SiriSettingsIntents/MacNavigationHandler.swift"
+- "SiriSettingsIntents/OpenIntentHandler.swift"
+- "SiriSettingsIntents/OpenSettingTemplatingService.swift"
+- "SiriSettingsIntents/SetBinaryIntentHandler.swift"
+- "SiriSettingsIntents/SetBinaryIntentHandlerUtil.swift"
+- "SiriSettingsIntents/SetBinarySettingAceViewProvider.swift"
+- "SiriSettingsIntents/SetBinarySettingTemplatingService.swift"
+- "SiriSettingsIntents/SetLabeledIntentHandler.swift"
+- "SiriSettingsIntents/SetLabeledSettingTemplatingService.swift"
+- "SiriSettingsIntents/SetNumericIntentHandler.swift"
+- "SiriSettingsIntents/SetNumericSettingAceViewProvider.swift"
+- "SiriSettingsIntents/SetNumericSettingTemplatingService.swift"
+- "SiriSettingsIntents/SettingsBinarySetting.swift"
+- "SiriSettingsIntents/SettingsMultiSetting.swift"
+- "SiriSettingsIntents/SettingsNativeApiClient.swift"
+- "SiriSettingsIntents/SettingsNumericSetting.swift"
+- "SiriSettingsIntents/SiriKitApp.swift"
+- "Sounds"
+- "SpeechRecognition"
+- "StaticString should have Unicode scalar representation"
+- "Status"
+- "String index is out of bounds"
+- "Success"
+- "SupportedFlowDomainProvider isIntelligenceFlowParse | found Siri X namespace %s on identifier %s"
+- "SupportedFlowDomainProvider isIntelligenceFlowParse | found no namespace on identifier %s"
+- "Swift/Array.swift"
+- "Swift/ArrayShared.swift"
+- "Swift/AssertCommon.swift"
+- "Swift/ContiguousArrayBuffer.swift"
+- "Swift/FloatingPointTypes.swift"
+- "Swift/IntegerTypes.swift"
+- "Swift/Integers.swift"
+- "Swift/Range.swift"
+- "Swift/StaticString.swift"
+- "Swift/StringTesting.swift"
+- "Swift/StringUTF8View.swift"
+- "Swift/UnsafeBufferPointer.swift"
+- "Swift/UnsafePointer.swift"
+- "Swift/UnsafeRawBufferPointer.swift"
+- "Swift/UnsafeRawPointer.swift"
+- "TemplatingUtils"
+- "The flashlight is overheated."
+- "The flashlight is unavailable."
+- "TouchID"
+- "Unable to determine current value of the smart siri volume setting after setting it."
+- "Unable to determine the current Reduce Bass value"
+- "Unable to determine the current bass value"
+- "Unexpectedly found nil while implicitly unwrapping an Optional value"
+- "Unexpectedly found nil while unwrapping an Optional value"
+- "UnsafeBufferPointer with negative count"
+- "UnsafeMutableBufferPointer with negative count"
+- "UnsafeMutablePointer.initialize overlapping range"
+- "UnsafeMutablePointer.initialize with negative count"
+- "UnsafeMutablePointer.moveInitialize with negative count"
+- "UnsafeMutableRawBufferPointer with negative count"
+- "UnsafeMutableRawPointer.initializeMemory overlapping range"
+- "UnsafeMutableRawPointer.initializeMemory with negative count"
+- "UnsafeRawBufferPointer with negative count"
+- "User requested to set hotspot discoverability state."
+- "User requested to set hotspot enablement state."
+- "VPN"
+- "ViewProvider"
+- "VoiceControl"
+- "WiFi"
+- "YELLOW"
+- "Zoom"
+- "[handleNumericSettingIntent] Failed to execute set value callback."
+- "_"
+- "_0"
+- "_Concurrency/arm64e-apple-macos.private.swiftinterface"
+- "action"
+- "afternoon"
+- "all1#dialog1"
+- "all1#dialog2"
+- "all1#first1#dialog1"
+- "all1#first1#dialog2"
+- "all1#first1#dialog3"
+- "all1#first1#dialog4"
+- "all1#first1#dialog5"
+- "all1#first1#dialog6"
+- "all2#dialog1"
+- "all2#dialog2"
+- "all2#first1#dialog1"
+- "all2#first1#dialog2"
+- "answerProduct"
+- "app"
+- "appName"
+- "appSetting"
+- "appSettingVerb"
+- "atmosphereName"
+- "battery.50"
+- "bed.double.fill"
+- "binarySetting"
+- "binarySettingId"
+- "boolSetting"
+- "boolSettingName"
+- "boolSettingVerb"
+- "buttonExists"
+- "buttonLabel"
+- "car.fill"
+- "carPlay1"
+- "carPlay2"
+- "carPlay3"
+- "carplay"
+- "checkExistence"
+- "choosing .deviceExpertSetting for decraseByTask"
+- "choosing .deviceExpertSetting for increaseByTask"
+- "code"
+- "com."
+- "com.apple.Home"
+- "com.apple.audio.puffin"
+- "decreaseBy"
+- "deviceCategory"
+- "deviceExpertSettingName"
+- "deviceState"
+- "deviceTypeName"
+- "dialog1"
+- "dialog10"
+- "dialog11"
+- "dialog12"
+- "dialog13"
+- "dialog14"
+- "dialog2"
+- "dialog3"
+- "dialog4"
+- "dialog5"
+- "dialog6"
+- "dialog7"
+- "dialog8"
+- "dialog9"
+- "disable"
+- "discoverability"
+- "driving"
+- "enable"
+- "enabled"
+- "evening"
+- "failed to to generate a Direct Invocation Object to launch env picker"
+- "figure.run"
+- "first1#all1#first1#dialog1"
+- "first1#all1#first1#dialog2"
+- "first1#all1#first1#dialog3"
+- "first1#all1#first1#dialog4"
+- "first1#all1#first1#dialog5"
+- "first1#all1#first1#random1#dialog1"
+- "first1#all1#first1#random1#dialog2"
+- "first1#all1#first1#random2#dialog1"
+- "first1#all1#first1#random2#dialog2"
+- "first1#dialog1"
+- "first1#dialog2"
+- "first1#dialog3"
+- "first1#dialog4"
+- "first1#dialog5"
+- "first1#first1#dialog1"
+- "first1#first1#dialog2"
+- "first1#first1#dialog3"
+- "first1#first1#dialog4"
+- "first1#first2#dialog1"
+- "first1#first2#dialog2"
+- "first1#first2#dialog3"
+- "first1#first2#dialog4"
+- "first1#first2#first1#dialog1"
+- "first1#first2#first1#dialog2"
+- "first1#first2#first1#dialog3"
+- "first1#first3#dialog1"
+- "first1#first3#dialog2"
+- "first1#random1#dialog1"
+- "first1#random1#dialog2"
+- "first1#random2#dialog1"
+- "first1#random2#dialog2"
+- "first2#dialog1"
+- "first2#dialog2"
+- "first2#dialog3"
+- "first2#dialog4"
+- "first2#dialog5"
+- "first2#random1#dialog1"
+- "first2#random1#dialog2"
+- "first2#random2#dialog1"
+- "first2#random2#dialog2"
+- "first3#all1#dialog1"
+- "first3#all1#dialog2"
+- "first3#all2#dialog1"
+- "first3#all2#dialog2"
+- "first3#dialog1"
+- "first3#dialog10"
+- "first3#dialog11"
+- "first3#dialog12"
+- "first3#dialog2"
+- "first3#dialog3"
+- "first3#dialog4"
+- "first3#dialog5"
+- "first3#dialog6"
+- "first3#dialog7"
+- "first3#dialog8"
+- "first3#dialog9"
+- "first3#first1#dialog1"
+- "first3#first1#dialog2"
+- "first3#first1#dialog3"
+- "first4#dialog1"
+- "first4#dialog2"
+- "first4#dialog3"
+- "first4#random1#dialog1"
+- "first4#random1#dialog2"
+- "first5#all1#dialog1"
+- "first5#all1#dialog2"
+- "first5#all2#dialog1"
+- "first5#all2#dialog2"
+- "first5#dialog1"
+- "first5#dialog2"
+- "first6#dialog1"
+- "first6#dialog10"
+- "first6#dialog11"
+- "first6#dialog12"
+- "first6#dialog2"
+- "first6#dialog3"
+- "first6#dialog4"
+- "first6#dialog5"
+- "first6#dialog6"
+- "first6#dialog7"
+- "first6#dialog8"
+- "first6#dialog9"
+- "first7#dialog1"
+- "first7#random1#dialog1"
+- "first7#random1#dialog2"
+- "floatSetting"
+- "focus"
+- "graphicIcon"
+- "iconBundlePath"
+- "iconName"
+- "increaseBy"
+- "init(builder:)"
+- "init(identifier:)"
+- "intent_failed"
+- "invalid Collection: count differed in successive traversals"
+- "invalid Collection: less than 'count' elements in collection"
+- "invalid Collection: more than 'count' elements in collection"
+- "isCarPlay"
+- "isFocus"
+- "isMessages"
+- "isOtherOS"
+- "isRestricted"
+- "isTimeNextDay"
+- "item_id"
+- "label"
+- "leftIconName"
+- "localizedMultipleSettingsName"
+- "localizedNameWithWordSettings"
+- "localizedSettingsName"
+- "maxValue"
+- "mic.fill"
+- "minValue"
+- "minus"
+- "mode"
+- "moon.fill"
+- "morning"
+- "multiSetting"
+- "nameOnly"
+- "names"
+- "newElements.underestimatedCount was an overestimate"
+- "nightshift"
+- "not"
+- "numericSetting"
+- "oldValue"
+- "open"
+- "other_failure"
+- "partOfDay"
+- "person.fill"
+- "plus"
+- "prefs:root"
+- "prefs:root=Audio&path=#SilentMode"
+- "prefs:root=SIRI"
+- "punchOutUrl"
+- "random1#dialog1"
+- "random1#dialog2"
+- "request"
+- "requestedValue"
+- "rightIconName"
+- "rocket.fill"
+- "secondLabel"
+- "semantic_value"
+- "setDuration"
+- "setFlashlightHandler"
+- "setLabel"
+- "setMeasurement"
+- "setNumber"
+- "setting"
+- "settingId"
+- "settingMisc"
+- "settingName"
+- "settingType"
+- "shouldHideSash"
+- "sidekick"
+- "sliderModel"
+- "state"
+- "step"
+- "success"
+- "summarise"
+- "sun.max.fill"
+- "sun.min.fill"
+- "switchingToOppositeDisplayMode"
+- "symbolName"
+- "text1"
+- "titleTextNumericSettings"
+- "titleTextNumericSettingsNameOnly"
+- "unknown-setting"
+- "updatedValue"
+- "url"
+- "useCase"
+- "userInteractive"
+- "verbose"
+- "view_data"
+```

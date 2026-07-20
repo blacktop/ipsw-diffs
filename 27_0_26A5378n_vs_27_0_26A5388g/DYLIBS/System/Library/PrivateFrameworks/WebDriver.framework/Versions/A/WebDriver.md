@@ -1,0 +1,1309 @@
+## WebDriver
+
+> `/System/Library/PrivateFrameworks/WebDriver.framework/Versions/A/WebDriver`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_catlist`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_arrayobj`
+
+```diff
+
+-625.1.22.11.4
+-  __TEXT.__text: 0xb3e18
+-  __TEXT.__objc_methlist: 0x5f9c
+-  __TEXT.__gcc_except_tab: 0x7d5c
+-  __TEXT.__cstring: 0xb270
+-  __TEXT.__oslogstring: 0x462a
+-  __TEXT.__const: 0x73e2
++625.1.24.11.2
++  __TEXT.__text: 0x12d3e0
++  __TEXT.__objc_methlist: 0x6354
++  __TEXT.__gcc_except_tab: 0x84e4
++  __TEXT.__cstring: 0xe7ef
++  __TEXT.__oslogstring: 0x50ba
++  __TEXT.__const: 0xdb52
+   __TEXT.__ustring: 0x4
+-  __TEXT.__constg_swiftt: 0x810
+-  __TEXT.__swift5_typeref: 0x8b7
+-  __TEXT.__swift5_reflstr: 0x78e
+-  __TEXT.__swift5_fieldmd: 0x884
+-  __TEXT.__swift5_assocty: 0x138
+-  __TEXT.__swift5_proto: 0x1bc
+-  __TEXT.__swift5_types: 0x8c
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__swift5_capture: 0x150
+-  __TEXT.__swift_as_entry: 0x1c
+-  __TEXT.__swift_as_ret: 0x20
+-  __TEXT.__swift_as_cont: 0x44
+-  __TEXT.__swift5_protos: 0x4
++  __TEXT.__constg_swiftt: 0x1830
++  __TEXT.__swift5_typeref: 0x1c5b
++  __TEXT.__swift5_reflstr: 0x153e
++  __TEXT.__swift5_fieldmd: 0x2530
++  __TEXT.__swift5_assocty: 0x528
++  __TEXT.__swift5_proto: 0x668
++  __TEXT.__swift5_types: 0x210
++  __TEXT.__swift5_builtin: 0xa0
++  __TEXT.__swift5_mpenum: 0x40
++  __TEXT.__swift5_capture: 0xb04
++  __TEXT.__swift_as_entry: 0x1ac
++  __TEXT.__swift_as_ret: 0x250
++  __TEXT.__swift_as_cont: 0x444
++  __TEXT.__swift5_protos: 0x8
+   __TEXT.SandboxProfile: 0x0
+-  __TEXT.__unwind_info: 0x32b0
+-  __TEXT.__eh_frame: 0xf20
++  __TEXT.__unwind_info: 0x5410
++  __TEXT.__eh_frame: 0x6f58
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x1758
+-  __DATA_CONST.__objc_classlist: 0x338
++  __DATA_CONST.__const: 0x1798
++  __DATA_CONST.__objc_classlist: 0x3f0
+   __DATA_CONST.__objc_catlist: 0x40
+-  __DATA_CONST.__objc_protolist: 0xd0
++  __DATA_CONST.__objc_protolist: 0xe0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3718
+-  __DATA_CONST.__objc_protorefs: 0x30
+-  __DATA_CONST.__objc_superrefs: 0x2b0
+-  __DATA_CONST.__objc_arraydata: 0x280
+-  __DATA_CONST.__got: 0x7d8
+-  __AUTH_CONST.__const: 0x3998
+-  __AUTH_CONST.__cfstring: 0x9a80
+-  __AUTH_CONST.__objc_const: 0x9b00
++  __DATA_CONST.__objc_selrefs: 0x3828
++  __DATA_CONST.__objc_protorefs: 0x40
++  __DATA_CONST.__objc_superrefs: 0x2b8
++  __DATA_CONST.__objc_arraydata: 0x2a0
++  __DATA_CONST.__got: 0x8d8
++  __AUTH_CONST.__const: 0xc968
++  __AUTH_CONST.__cfstring: 0x9ea0
++  __AUTH_CONST.__objc_const: 0xb698
+   __AUTH_CONST.__weak_auth_got: 0x10
++  __AUTH_CONST.__objc_dictobj: 0xa0
+   __AUTH_CONST.__objc_intobj: 0x498
+   __AUTH_CONST.__objc_arrayobj: 0x1b0
+-  __AUTH_CONST.__objc_dictobj: 0x78
+-  __AUTH_CONST.__auth_got: 0xf50
+-  __AUTH.__objc_data: 0x2440
+-  __AUTH.__data: 0x2a8
+-  __DATA.__objc_ivar: 0x6d0
+-  __DATA.__data: 0xf10
+-  __DATA.__bss: 0x3850
++  __AUTH_CONST.__auth_got: 0x1238
++  __AUTH.__objc_data: 0x2680
++  __AUTH.__data: 0x12c8
++  __DATA.__objc_ivar: 0x720
++  __DATA.__data: 0x1e80
++  __DATA.__bss: 0xcd00
++  __DATA.__common: 0x18
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3442
+-  Symbols:   6244
+-  CStrings:  1767
++  Functions: 5702
++  Symbols:   7086
++  CStrings:  2086
+ 
+Symbols:
++ -[WDDiagnosticUtilities logMCPLifecycleEvent:detail:]
++ -[WDDiagnosticUtilities logMCPMessageReceive:]
++ -[WDDiagnosticUtilities logMCPMessageSend:]
++ -[WDDiagnosticUtilities mcpDiagnosticsEnabled]
++ -[WDDiagnosticUtilities setMcpDiagnosticsEnabled:]
++ -[WDMCPGlobalDiagnosticLogFileManager .cxx_destruct]
++ -[WDMCPGlobalDiagnosticLogFileManager createNewLogFile]
++ -[WDMCPGlobalDiagnosticLogFileManager initWithLogsDirectory:]
++ -[WDMCPGlobalDiagnosticLogFileManager isLogFile:]
++ -[WDMCPGlobalDiagnosticLogFileManager logFilePrefix]
++ -[WDMCPService .cxx_destruct]
++ -[WDMCPService _addDriverClient:]
++ -[WDMCPService _allowIncomingClientConnection:]
++ -[WDMCPService _createMCPSessionYieldingBridge:]
++ -[WDMCPService _defaultErrorHandler]
++ -[WDMCPService _ensureDriverManaged]
++ -[WDMCPService _handleRWINotification:]
++ -[WDMCPService _registerForRWINotifications]
++ -[WDMCPService _removeDriverClient:]
++ -[WDMCPService _terminateCleanly]
++ -[WDMCPService _unregisterForRWINotifications]
++ -[WDMCPService _updateAgentName:]
++ -[WDMCPService clientConnection]
++ -[WDMCPService configureWithOptions:completionHandler:]
++ -[WDMCPService fetchAttributesOfLocalFiles:completionHandler:]
++ -[WDMCPService fetchContentsOfLocalFiles:completionHandler:]
++ -[WDMCPService launchApplication:withArguments:environment:forHost:completionHandler:]
++ -[WDMCPService listener:shouldAcceptNewConnection:]
++ -[WDMCPService processMessage:completionHandler:]
++ -[WDMCPService requestDriver:shouldBeActive:]
++ -[WDMCPService setClientConnection:]
++ -[WDMCPService startServerWithCompletionHandler:]
++ -[WDMCPService stopServerWithCompletionHandler:]
++ -[WDMCPService terminateApplicationWithProcessIdentifier:forHost:completionHandler:]
++ -[WDMCPService writeData:toLocalFile:completionHandler:]
++ -[WDMCPServiceXPCClient .cxx_destruct]
++ -[WDMCPServiceXPCClient _defaultErrorHandler]
++ -[WDMCPServiceXPCClient _emitInteractiveHintForResponse:]
++ -[WDMCPServiceXPCClient _forwardMessage:]
++ -[WDMCPServiceXPCClient _installSIGTERMHandler]
++ -[WDMCPServiceXPCClient _printInteractiveBanner]
++ -[WDMCPServiceXPCClient _processBufferedLines]
++ -[WDMCPServiceXPCClient _startReadingStdin]
++ -[WDMCPServiceXPCClient _terminateLaunchedSafariIfNeeded]
++ -[WDMCPServiceXPCClient fetchAttributesOfFiles:completionHandler:]
++ -[WDMCPServiceXPCClient fetchContentsOfFiles:completionHandler:]
++ -[WDMCPServiceXPCClient issueSandboxExtensionForWritingFile:completionHandler:]
++ -[WDMCPServiceXPCClient launchApplication:withArguments:environment:completionHandler:]
++ -[WDMCPServiceXPCClient runMCPServerCapturingDiagnostics:]
++ -[WDMCPServiceXPCClient serverReadyForMessages]
++ -[WDMCPServiceXPCClient serverStarted]
++ -[WDMCPServiceXPCClient serverStopped]
++ -[WDMCPServiceXPCClient setWebDriverServiceConnection:]
++ -[WDMCPServiceXPCClient stopServerForTermination]
++ -[WDMCPServiceXPCClient terminateApplicationWithProcessIdentifier:completionHandler:]
++ -[WDMCPServiceXPCClient webDriverServiceConnection]
++ OBJC_IVAR_$_WDDiagnosticUtilities._fileLoggerForMCPDiagnostics
++ OBJC_IVAR_$_WDDiagnosticUtilities._mcpDiagnosticsEnabled
++ OBJC_IVAR_$_WDMCPGlobalDiagnosticLogFileManager._launchTimestamp
++ OBJC_IVAR_$_WDMCPGlobalDiagnosticLogFileManager._logFilePrefix
++ OBJC_IVAR_$_WDMCPService._agentNameOverride
++ OBJC_IVAR_$_WDMCPService._clientConnection
++ OBJC_IVAR_$_WDMCPService._clientTransaction
++ OBJC_IVAR_$_WDMCPService._driverConfiguration
++ OBJC_IVAR_$_WDMCPService._driverInterface
++ OBJC_IVAR_$_WDMCPService._machineTarget
++ OBJC_IVAR_$_WDMCPService._mcpServerStarted
++ OBJC_IVAR_$_WDMCPService._notificationHandlerID
++ OBJC_IVAR_$_WDMCPService._pendingMessages
++ OBJC_IVAR_$_WDMCPService._sessionManager
++ OBJC_IVAR_$_WDMCPServiceXPCClient._launchedSafariPID
++ OBJC_IVAR_$_WDMCPServiceXPCClient._sigtermSource
++ OBJC_IVAR_$_WDMCPServiceXPCClient._stdinBuffer
++ OBJC_IVAR_$_WDMCPServiceXPCClient._stdinIsInteractive
++ OBJC_IVAR_$_WDMCPServiceXPCClient._stdinSource
++ OBJC_IVAR_$_WDMCPServiceXPCClient._webDriverServiceConnection
++ _APP_SANDBOX_READ_WRITE
++ _NSDebugDescriptionErrorKey
++ _OBJC_CLASS_$_NSISO8601DateFormatter
++ _OBJC_CLASS_$_WBSFeatureAvailability
++ _OBJC_CLASS_$_WDMCPEntryPoint
++ _OBJC_CLASS_$_WDMCPGlobalDiagnosticLogFileManager
++ _OBJC_CLASS_$_WDMCPService
++ _OBJC_CLASS_$_WDMCPServiceXPCClient
++ _OBJC_METACLASS_$_WDMCPEntryPoint
++ _OBJC_METACLASS_$_WDMCPGlobalDiagnosticLogFileManager
++ _OBJC_METACLASS_$_WDMCPService
++ _OBJC_METACLASS_$_WDMCPServiceXPCClient
++ _SANDBOX_EXTENSION_DEFAULT
++ _ZL19setUpSignalHandlersP11objc_object
++ __36-[WDMCPService _defaultErrorHandler]_block_invoke
++ __39-[WDMCPService _handleRWINotification:]_block_invoke
++ __39-[WDMCPService _handleRWINotification:]_block_invoke_2
++ __41-[WDMCPServiceXPCClient _forwardMessage:]_block_invoke
++ __43-[WDMCPServiceXPCClient _startReadingStdin]_block_invoke
++ __45-[WDMCPServiceXPCClient _defaultErrorHandler]_block_invoke
++ __48-[WDMCPService _createMCPSessionYieldingBridge:]_block_invoke
++ __49-[WDMCPService processMessage:completionHandler:]_block_invoke
++ __51-[WDMCPService listener:shouldAcceptNewConnection:]_block_invoke
++ __51-[WDMCPServiceXPCClient webDriverServiceConnection]_block_invoke
++ __56-[WDMCPService writeData:toLocalFile:completionHandler:]_block_invoke
++ __58-[WDMCPServiceXPCClient runMCPServerCapturingDiagnostics:]_block_invoke
++ __58-[WDMCPServiceXPCClient runMCPServerCapturingDiagnostics:]_block_invoke_2
++ __87-[WDMCPServiceXPCClient launchApplication:withArguments:environment:completionHandler:]_block_invoke
++ __CLASS_METHODS_WDMCPEntryPoint
++ __DATA_WDMCPEntryPoint
++ __DATA__TtC9WebDriver14WDEntryPreview
++ __DATA__TtC9WebDriver14WDRemoteObject
++ __DATA__TtC9WebDriver15WDObjectPreview
++ __DATA__TtC9WebDriver16WDInspectorAgent
++ __DATA__TtC9WebDriver17WDMCPRouteHandler
++ __DATA__TtC9WebDriver17WDMCPToolRegistry
++ __DATA__TtC9WebDriver17WDPropertyPreview
++ __DATA__TtC9WebDriver18WDInspectorBackend
++ __DATA__TtC9WebDriver19WDMCPBackendAdapter
++ __DATA__TtC9WebDriver19WDMCPStdioTransport
++ __DATA__TtC9WebDriver20WDInspectorPageAgent
++ __DATA__TtC9WebDriver20WDMCPDeferredBackend
++ __DATA__TtC9WebDriver21WDInspectorConnection
++ __DATA__TtC9WebDriver22WDInspectorTargetAgent
++ __DATA__TtC9WebDriver23WDInspectorConsoleAgent
++ __DATA__TtC9WebDriver23WDInspectorNetworkAgent
++ __DATA__TtC9WebDriver24WDMCPConsoleLogCollector
++ __DATA__TtC9WebDriver27WDMCPNetworkRecordCollector
++ __DATA__TtC9WebDriverP33_2A1BB7954622DDCB2D6DF77EA7DF2B9D19StackTraceParentBox
++ __INSTANCE_METHODS_WDMCPEntryPoint
++ __IVARS__TtC9WebDriver14WDEntryPreview
++ __IVARS__TtC9WebDriver14WDRemoteObject
++ __IVARS__TtC9WebDriver15WDObjectPreview
++ __IVARS__TtC9WebDriver16WDInspectorAgent
++ __IVARS__TtC9WebDriver16WDMCPEventBuffer
++ __IVARS__TtC9WebDriver17WDMCPRouteHandler
++ __IVARS__TtC9WebDriver17WDMCPToolRegistry
++ __IVARS__TtC9WebDriver17WDPropertyPreview
++ __IVARS__TtC9WebDriver18WDInspectorBackend
++ __IVARS__TtC9WebDriver19WDMCPBackendAdapter
++ __IVARS__TtC9WebDriver19WDMCPStdioTransport
++ __IVARS__TtC9WebDriver20WDMCPDeferredBackend
++ __IVARS__TtC9WebDriver21WDInspectorConnection
++ __IVARS__TtC9WebDriver24WDMCPConsoleLogCollector
++ __IVARS__TtC9WebDriver27WDMCPNetworkRecordCollector
++ __IVARS__TtC9WebDriverP33_2A1BB7954622DDCB2D6DF77EA7DF2B9D19StackTraceParentBox
++ __METACLASS_DATA_WDMCPEntryPoint
++ __METACLASS_DATA__TtC9WebDriver14WDEntryPreview
++ __METACLASS_DATA__TtC9WebDriver14WDRemoteObject
++ __METACLASS_DATA__TtC9WebDriver15WDObjectPreview
++ __METACLASS_DATA__TtC9WebDriver16WDInspectorAgent
++ __METACLASS_DATA__TtC9WebDriver17WDMCPRouteHandler
++ __METACLASS_DATA__TtC9WebDriver17WDMCPToolRegistry
++ __METACLASS_DATA__TtC9WebDriver17WDPropertyPreview
++ __METACLASS_DATA__TtC9WebDriver18WDInspectorBackend
++ __METACLASS_DATA__TtC9WebDriver19WDMCPBackendAdapter
++ __METACLASS_DATA__TtC9WebDriver19WDMCPStdioTransport
++ __METACLASS_DATA__TtC9WebDriver20WDInspectorPageAgent
++ __METACLASS_DATA__TtC9WebDriver20WDMCPDeferredBackend
++ __METACLASS_DATA__TtC9WebDriver21WDInspectorConnection
++ __METACLASS_DATA__TtC9WebDriver22WDInspectorTargetAgent
++ __METACLASS_DATA__TtC9WebDriver23WDInspectorConsoleAgent
++ __METACLASS_DATA__TtC9WebDriver23WDInspectorNetworkAgent
++ __METACLASS_DATA__TtC9WebDriver24WDMCPConsoleLogCollector
++ __METACLASS_DATA__TtC9WebDriver27WDMCPNetworkRecordCollector
++ __METACLASS_DATA__TtC9WebDriverP33_2A1BB7954622DDCB2D6DF77EA7DF2B9D19StackTraceParentBox
++ __OBJC_$_INSTANCE_METHODS_WDMCPGlobalDiagnosticLogFileManager
++ __OBJC_$_INSTANCE_METHODS_WDMCPService
++ __OBJC_$_INSTANCE_METHODS_WDMCPServiceXPCClient
++ __OBJC_$_INSTANCE_VARIABLES_WDMCPGlobalDiagnosticLogFileManager
++ __OBJC_$_INSTANCE_VARIABLES_WDMCPService
++ __OBJC_$_INSTANCE_VARIABLES_WDMCPServiceXPCClient
++ __OBJC_$_PROP_LIST_WDMCPService
++ __OBJC_$_PROP_LIST_WDMCPServiceXPCClient
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_WDMCPServiceXPCClient
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_WDMCPServiceXPCServer
++ __OBJC_$_PROTOCOL_METHOD_TYPES_WDMCPServiceXPCClient
++ __OBJC_$_PROTOCOL_METHOD_TYPES_WDMCPServiceXPCServer
++ __OBJC_CLASS_PROTOCOLS_$_WDMCPService
++ __OBJC_CLASS_PROTOCOLS_$_WDMCPServiceXPCClient
++ __OBJC_CLASS_RO_$_WDMCPGlobalDiagnosticLogFileManager
++ __OBJC_CLASS_RO_$_WDMCPService
++ __OBJC_CLASS_RO_$_WDMCPServiceXPCClient
++ __OBJC_LABEL_PROTOCOL_$_WDMCPServiceXPCClient
++ __OBJC_LABEL_PROTOCOL_$_WDMCPServiceXPCServer
++ __OBJC_METACLASS_RO_$_WDMCPGlobalDiagnosticLogFileManager
++ __OBJC_METACLASS_RO_$_WDMCPService
++ __OBJC_METACLASS_RO_$_WDMCPServiceXPCClient
++ __OBJC_PROTOCOL_$_WDMCPServiceXPCClient
++ __OBJC_PROTOCOL_$_WDMCPServiceXPCServer
++ __OBJC_PROTOCOL_REFERENCE_$_WDMCPServiceXPCClient
++ __OBJC_PROTOCOL_REFERENCE_$_WDMCPServiceXPCServer
++ __ZL19setUpSignalHandlersP11objc_object
++ __ZZL35mcpDiagnosticsEnabledViaEnvironmentvE4once
++ __ZZL35mcpDiagnosticsEnabledViaEnvironmentvE7enabled
++ __ZZL36mcpDiagnosticsEnabledViaUserDefaultsvE4once
++ __ZZL36mcpDiagnosticsEnabledViaUserDefaultsvE7enabled
++ ___36-[WDMCPService _defaultErrorHandler]_block_invoke
++ ___39-[WDMCPService _handleRWINotification:]_block_invoke
++ ___39-[WDMCPService _handleRWINotification:]_block_invoke_2
++ ___41-[WDMCPServiceXPCClient _forwardMessage:]_block_invoke
++ ___41-[WDMCPServiceXPCClient _forwardMessage:]_block_invoke_2
++ ___43-[WDMCPServiceXPCClient _startReadingStdin]_block_invoke
++ ___44-[WDMCPService _registerForRWINotifications]_block_invoke
++ ___45-[WDMCPServiceXPCClient _defaultErrorHandler]_block_invoke
++ ___47-[WDMCPServiceXPCClient _installSIGTERMHandler]_block_invoke
++ ___48-[WDMCPService _createMCPSessionYieldingBridge:]_block_invoke
++ ___49-[WDMCPService processMessage:completionHandler:]_block_invoke
++ ___49-[WDMCPServiceXPCClient stopServerForTermination]_block_invoke
++ ___51-[WDMCPService listener:shouldAcceptNewConnection:]_block_invoke
++ ___51-[WDMCPServiceXPCClient webDriverServiceConnection]_block_invoke
++ ___55-[WDMCPService configureWithOptions:completionHandler:]_block_invoke
++ ___56-[WDMCPService writeData:toLocalFile:completionHandler:]_block_invoke
++ ___58-[WDMCPServiceXPCClient runMCPServerCapturingDiagnostics:]_block_invoke
++ ___58-[WDMCPServiceXPCClient runMCPServerCapturingDiagnostics:]_block_invoke_2
++ ___87-[WDMCPServiceXPCClient launchApplication:withArguments:environment:completionHandler:]_block_invoke
++ ____ZL35mcpDiagnosticsEnabledViaEnvironmentv_block_invoke
++ ____ZL36mcpDiagnosticsEnabledViaUserDefaultsv_block_invoke
++ ___block_descriptor_40_e8_32s_e16_v16?0"NSData"8l
++ ___block_descriptor_40_ea8_32bs_e16_v16?0"NSData"8l
++ ___block_descriptor_40_ea8_32bs_e17_v16?0"NSError"8l
++ ___block_descriptor_40_ea8_32s_e18_v16?0"NSString"8l
++ ___block_descriptor_40_ea8_32s_e48_v16?0?<v?"WDMCPAutomationBridge""NSError">8l
++ ___block_descriptor_40_ea8_32w_e48_v32?0"NSData"8"NSString"16?<v?"NSError">24l
++ ___block_descriptor_48_ea8_32bs40r_e17_v16?0"NSError"8l
++ ___block_descriptor_48_ea8_32s40bs_e33_v24?0"NSError"8"<WDSession>"16l
++ ___block_descriptor_48_ea8_32s40s_e5_v8?0l
++ ___block_descriptor_56_e8_32s40s48bs_e42_v24?0"NSRunningApplication"8"NSError"16l
++ ___block_descriptor_56_ea8_32s40s48bs_e43_v32?0"NSString"8"NSString"16"NSError"24l
++ ___block_descriptor_80_e8_32s40s48s56s64bs72r_e24_v16?0"NSNotification"8l
++ ___copy_helper_block_e8_32s40s48b
++ ___copy_helper_block_e8_32s40s48s56s64b72r
++ ___copy_helper_block_ea8_32b40r
++ ___copy_helper_block_ea8_32s40s
++ ___destroy_helper_block_e8_32s40s48s56s64s72r
++ ___destroy_helper_block_ea8_32s40r
++ ___stdoutWriteQueue_block_invoke
++ ___swift_allocate_value_buffer
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy128_8
++ ___swift_memcpy136_8
++ ___swift_memcpy152_8
++ ___swift_memcpy16_8
++ ___swift_memcpy176_8
++ ___swift_memcpy200_8
++ ___swift_memcpy320_8
++ ___swift_memcpy360_8
++ ___swift_memcpy41_8
++ ___swift_memcpy49_8
++ ___swift_memcpy57_8
++ ___swift_memcpy72_8
++ ___swift_memcpy73_8
++ ___swift_memcpy74_8
++ ___swift_memcpy80_8
++ ___swift_memcpy81_8
++ ___swift_project_value_buffer
++ ___unnamed_1
++ __swift_closure_destructor.202Tm
++ __swift_closure_destructor.22Tm
++ __swift_closure_destructor.46Tm
++ __swift_closure_destructor.7Tm
++ __swift_closure_destructor.99Tm
++ _associated conformance 9WebDriver10StackTraceV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLOSHAASQ
++ _associated conformance 9WebDriver10StackTraceV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver10StackTraceV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver10StackTraceV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 9WebDriver10WDMCPErrorV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLOSHAASQ
++ _associated conformance 9WebDriver10WDMCPErrorV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver10WDMCPErrorV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver12WDMCPRequestV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLOSHAASQ
++ _associated conformance 9WebDriver12WDMCPRequestV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver12WDMCPRequestV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver13WDMCPResponseV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLOSHAASQ
++ _associated conformance 9WebDriver13WDMCPResponseV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver13WDMCPResponseV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver14ConsoleMessageV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLOSHAASQ
++ _associated conformance 9WebDriver14ConsoleMessageV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver14ConsoleMessageV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver14ConsoleMessageV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 9WebDriver14WDAnyStringKey33_4EBE26A19DE786776FA604D3D057DEA4LLVs06CodingE0AAs011CustomDebugD11Convertible
++ _associated conformance 9WebDriver14WDAnyStringKey33_4EBE26A19DE786776FA604D3D057DEA4LLVs06CodingE0AAs06CustomD11Convertible
++ _associated conformance 9WebDriver14WDEntryPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOSHAASQ
++ _associated conformance 9WebDriver14WDEntryPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver14WDEntryPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver14WDEntryPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 9WebDriver14WDMCPRequestIDOSHAASQ
++ _associated conformance 9WebDriver14WDRemoteObjectC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOSHAASQ
++ _associated conformance 9WebDriver14WDRemoteObjectC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver14WDRemoteObjectC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver14WDRemoteObjectC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 9WebDriver15WDObjectPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOSHAASQ
++ _associated conformance 9WebDriver15WDObjectPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver15WDObjectPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver15WDObjectPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 9WebDriver16WDNetworkRequestV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOSHAASQ
++ _associated conformance 9WebDriver16WDNetworkRequestV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver16WDNetworkRequestV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver16WDNetworkRequestV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 9WebDriver17WDMCPMessageErrorOSHAASQ
++ _associated conformance 9WebDriver17WDMCPNotificationV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLOSHAASQ
++ _associated conformance 9WebDriver17WDMCPNotificationV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver17WDMCPNotificationV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver17WDNetworkResponseV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOSHAASQ
++ _associated conformance 9WebDriver17WDNetworkResponseV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver17WDNetworkResponseV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver17WDNetworkResponseV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 9WebDriver17WDNetworkSecurityV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOSHAASQ
++ _associated conformance 9WebDriver17WDNetworkSecurityV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver17WDNetworkSecurityV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver17WDNetworkSecurityV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 9WebDriver17WDPropertyPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOSHAASQ
++ _associated conformance 9WebDriver17WDPropertyPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver17WDPropertyPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver17WDPropertyPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 9WebDriver18WDMCPErrorResponseV10CodingKeysOSHAASQ
++ _associated conformance 9WebDriver18WDMCPErrorResponseV10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver18WDMCPErrorResponseV10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver18WDMCPNetworkRecordV10CodingKeysOSHAASQ
++ _associated conformance 9WebDriver18WDMCPNetworkRecordV10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver18WDMCPNetworkRecordV10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver18WDMCPNetworkRecordV13InitiatorTypeOSHAASQ
++ _associated conformance 9WebDriver18WDMCPNetworkRecordV6TimingV10CodingKeysOSHAASQ
++ _associated conformance 9WebDriver18WDMCPNetworkRecordV6TimingV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver18WDMCPNetworkRecordV6TimingV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver18WDMCPNetworkRecordV8SecurityV10CodingKeys021_B47F66CBCF335F2611E6L10B29A6A39F6LLOSHAASQ
++ _associated conformance 9WebDriver18WDMCPNetworkRecordV8SecurityV10CodingKeys021_B47F66CBCF335F2611E6L10B29A6A39F6LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver18WDMCPNetworkRecordV8SecurityV10CodingKeys021_B47F66CBCF335F2611E6L10B29A6A39F6LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver18WDMCPNetworkRecordV9InitiatorV10CodingKeys021_B47F66CBCF335F2611E6L10B29A6A39F6LLOSHAASQ
++ _associated conformance 9WebDriver18WDMCPNetworkRecordV9InitiatorV10CodingKeys021_B47F66CBCF335F2611E6L10B29A6A39F6LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver18WDMCPNetworkRecordV9InitiatorV10CodingKeys021_B47F66CBCF335F2611E6L10B29A6A39F6LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver18WDNetworkInitiatorV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOSHAASQ
++ _associated conformance 9WebDriver18WDNetworkInitiatorV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver18WDNetworkInitiatorV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver18WDNetworkInitiatorV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 9WebDriver20WDMCPIncomingMessageO5parse4fromAC10Foundation4DataV_tKFZ4PeekL_V10CodingKeysOSHAASQ
++ _associated conformance 9WebDriver20WDMCPIncomingMessageO5parse4fromAC10Foundation4DataV_tKFZ4PeekL_V10CodingKeysOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver20WDMCPIncomingMessageO5parse4fromAC10Foundation4DataV_tKFZ4PeekL_V10CodingKeysOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver21WDConsoleAnyStringKey33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLVs06CodingF0AAs011CustomDebugE11Convertible
++ _associated conformance 9WebDriver21WDConsoleAnyStringKey33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLVs06CodingF0AAs06CustomE11Convertible
++ _associated conformance 9WebDriver21WDMCPConsoleLogRecordV10CodingKeys33_29B411F0D3F57537624F061165E82EA2LLOSHAASQ
++ _associated conformance 9WebDriver21WDMCPConsoleLogRecordV10CodingKeys33_29B411F0D3F57537624F061165E82EA2LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver21WDMCPConsoleLogRecordV10CodingKeys33_29B411F0D3F57537624F061165E82EA2LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver21WDMCPNetworkDetailDTO33_ECE85047A8DE33202050D097E8BE8249LLV10CodingKeysOSHAASQ
++ _associated conformance 9WebDriver21WDMCPNetworkDetailDTO33_ECE85047A8DE33202050D097E8BE8249LLV10CodingKeysOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver21WDMCPNetworkDetailDTO33_ECE85047A8DE33202050D097E8BE8249LLV10CodingKeysOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver21WDNetworkAnyStringKey33_7BCD678BED1AC1A7B57B59FED25A51F4LLVs06CodingF0AAs011CustomDebugE11Convertible
++ _associated conformance 9WebDriver21WDNetworkAnyStringKey33_7BCD678BED1AC1A7B57B59FED25A51F4LLVs06CodingF0AAs06CustomE11Convertible
++ _associated conformance 9WebDriver22WDMCPNetworkSummaryDTO33_2E3A85D5158B552FE748C097CBDD19F9LLV10CodingKeysOSHAASQ
++ _associated conformance 9WebDriver22WDMCPNetworkSummaryDTO33_2E3A85D5158B552FE748C097CBDD19F9LLV10CodingKeysOs0N3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver22WDMCPNetworkSummaryDTO33_2E3A85D5158B552FE748C097CBDD19F9LLV10CodingKeysOs0N3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver22WDNetworkInitiatorTypeOSHAASQ
++ _associated conformance 9WebDriver22WDNetworkInitiatorTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9WebDriver23WDNetworkResourceTimingV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOSHAASQ
++ _associated conformance 9WebDriver23WDNetworkResourceTimingV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver23WDNetworkResourceTimingV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver23WDNetworkResourceTimingV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 9WebDriver25WDNetworkResponseReceivedV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOSHAASQ
++ _associated conformance 9WebDriver25WDNetworkResponseReceivedV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver25WDNetworkResponseReceivedV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver25WDNetworkResponseReceivedV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 9WebDriver26WDMCPNetworkDetailEnvelope33_ECE85047A8DE33202050D097E8BE8249LLV10CodingKeysOSHAASQ
++ _associated conformance 9WebDriver26WDMCPNetworkDetailEnvelope33_ECE85047A8DE33202050D097E8BE8249LLV10CodingKeysOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver26WDMCPNetworkDetailEnvelope33_ECE85047A8DE33202050D097E8BE8249LLV10CodingKeysOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver26WDNetworkRequestWillBeSentV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOSHAASQ
++ _associated conformance 9WebDriver26WDNetworkRequestWillBeSentV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver26WDNetworkRequestWillBeSentV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver26WDNetworkRequestWillBeSentV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 9WebDriver27WDMCPNetworkSummaryEnvelope33_2E3A85D5158B552FE748C097CBDD19F9LLV10CodingKeysOSHAASQ
++ _associated conformance 9WebDriver27WDMCPNetworkSummaryEnvelope33_2E3A85D5158B552FE748C097CBDD19F9LLV10CodingKeysOs0N3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver27WDMCPNetworkSummaryEnvelope33_2E3A85D5158B552FE748C097CBDD19F9LLV10CodingKeysOs0N3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver9CallFrameV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLOSHAASQ
++ _associated conformance 9WebDriver9CallFrameV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WebDriver9CallFrameV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WebDriver9CallFrameV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLOs12CaseIterableAA8AllCasessAGP_Sl
++ _get_enum_tag_for_layout_string 10Foundation4DataV15_RepresentationO
++ _get_enum_tag_for_layout_string 9WebDriver10StackTraceVSg
++ _get_enum_tag_for_layout_string 9WebDriver11MessageTypeO
++ _get_enum_tag_for_layout_string 9WebDriver11MessageTypeOSg
++ _get_enum_tag_for_layout_string 9WebDriver11WDJSONValueOSg
++ _get_enum_tag_for_layout_string 9WebDriver12MessageLevelO
++ _get_enum_tag_for_layout_string 9WebDriver13MessageSourceO
++ _get_enum_tag_for_layout_string 9WebDriver14WDMCPRequestIDO
++ _get_enum_tag_for_layout_string 9WebDriver14WDMCPRequestIDOSg
++ _get_enum_tag_for_layout_string 9WebDriver14WDMCPToolErrorO
++ _get_enum_tag_for_layout_string 9WebDriver17WDNetworkSecurityVSg
++ _get_enum_tag_for_layout_string 9WebDriver18WDMCPNetworkRecordV8SecurityVSg
++ _get_enum_tag_for_layout_string 9WebDriver18WDMCPNetworkRecordV9InitiatorVSg
++ _get_enum_tag_for_layout_string 9WebDriver18WDMCPProtocolErrorO
++ _get_enum_tag_for_layout_string 9WebDriver18WDRemoteObjectTypeO
++ _get_enum_tag_for_layout_string 9WebDriver20WDMCPIncomingMessageO
++ _get_enum_tag_for_layout_string 9WebDriver21WDPropertyPreviewTypeO
++ _get_enum_tag_for_layout_string 9WebDriver21WDRemoteObjectSubtypeO
++ _get_enum_tag_for_layout_string 9WebDriver27WDMCPNetworkRecordCollectorC15BodyFetchResultO
++ _isatty
++ _memchr
++ _objc_msgSend$_createMCPSessionYieldingBridge:
++ _objc_msgSend$_emitInteractiveHintForResponse:
++ _objc_msgSend$_ensureDriverManaged
++ _objc_msgSend$_forwardMessage:
++ _objc_msgSend$_installSIGTERMHandler
++ _objc_msgSend$_printInteractiveBanner
++ _objc_msgSend$_processBufferedLines
++ _objc_msgSend$_startReadingStdin
++ _objc_msgSend$_terminateLaunchedSafariIfNeeded
++ _objc_msgSend$_updateAgentName:
++ _objc_msgSend$configureWithOptions:completionHandler:
++ _objc_msgSend$currentBrowsingContextHandle
++ _objc_msgSend$currentConnection
++ _objc_msgSend$dateFromString:
++ _objc_msgSend$getBrowsingContextsWithCompletionHandler:
++ _objc_msgSend$initWithBackendProxy:
++ _objc_msgSend$initWithConfiguration:
++ _objc_msgSend$isInternalInstall
++ _objc_msgSend$issueSandboxExtensionForWritingFile:completionHandler:
++ _objc_msgSend$localeWithLocaleIdentifier:
++ _objc_msgSend$logMCPLifecycleEvent:detail:
++ _objc_msgSend$logMCPMessageReceive:
++ _objc_msgSend$logMCPMessageSend:
++ _objc_msgSend$processMessage:completionHandler:
++ _objc_msgSend$replaceBytesInRange:withBytes:length:
++ _objc_msgSend$runMCPServerCapturingDiagnostics:
++ _objc_msgSend$sendCommand:parameters:completionHandler:
++ _objc_msgSend$sendInspectorCommand:parameters:browsingContextHandle:completionHandler:
++ _objc_msgSend$serverReadyForMessages
++ _objc_msgSend$setConfiguration:
++ _objc_msgSend$setCurrentBrowsingContextHandle:
++ _objc_msgSend$setFileWriteHandler:
++ _objc_msgSend$setFormatOptions:
++ _objc_msgSend$setMcpDiagnosticsEnabled:
++ _objc_msgSend$setWindowFrameOfBrowsingContext:width:height:completionHandler:
++ _objc_msgSend$setupMCPServerDeferredWithSessionProvider:agentNameHandler:
++ _objc_msgSend$stringByExpandingTildeInPath
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$writeData:toFile:completionHandler:
++ _objc_msgSend$writeData:toLocalFile:completionHandler:
++ _objc_msgSend$writeToURL:options:error:
++ _sandbox_extension_consume
++ _sandbox_extension_issue_file_to_process
++ _sandbox_extension_release
++ _signal
++ _strrchr
++ _swift_allocateGenericClassMetadata
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_checkMetadataState
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithTake
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_deallocPartialClassInstance
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_getEnumCaseMultiPayload
++ _swift_getGenericMetadata
++ _swift_getSingletonMetadata
++ _swift_getTupleTypeMetadata2
++ _swift_initClassMetadata2
++ _swift_initStackObject
++ _swift_isEscapingClosureAtFileLocation
++ _swift_isUniquelyReferenced_native
++ _swift_once
++ _swift_release_n
++ _swift_retain_n
++ _swift_storeEnumTagMultiPayload
++ _swift_task_future_wait_throwing
++ _swift_task_getMainExecutor
++ _swift_task_isCurrentExecutor
++ _swift_updateClassMetadata2
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _symbolic $s9WebDriver12WDMCPBackendP
++ _symbolic BD
++ _symbolic SDyS2SG
++ _symbolic SDySSSDySO_____GG 9WebDriver16WDInspectorAgentC
++ _symbolic SDySSSay_____yx_GGG 9WebDriver16WDMCPEventBufferC5Entry33_1564727476B6A7ED7B8BB1018369337DLLV
++ _symbolic SDySSSayySDySSypGScMYccGG
++ _symbolic SDySSScTy__________GG 9WebDriver27WDMCPNetworkRecordCollectorC15BodyFetchResultO s5NeverO
++ _symbolic SDySSSd9timestamp_Sd8walltimetG
++ _symbolic SDySSSiG
++ _symbolic SDySS_____G 9WebDriver18WDMCPNetworkRecordV
++ _symbolic SDySS_____G 9WebDriver19WDMCPToolDefinitionV
++ _symbolic SDySS_____G 9WebDriver21WDInspectorConnectionC
++ _symbolic SDySS_____GAA______pIeghHgozo_ 9WebDriver11WDJSONValueO s5ErrorP
++ _symbolic SDySS_____SDySSAAGYaYbKcG 9WebDriver11WDJSONValueO
++ _symbolic SDySS___________SStYaYbKcG 9WebDriver11WDJSONValueO AA12WDMCPRequestV
++ _symbolic SDySSy______SStYaYbcG 9WebDriver17WDMCPNotificationV
++ _symbolic SDySSypG5event_SS6handlet
++ _symbolic SDySSypGIegg_
++ _symbolic SDySSypGSS_AASStYaKc
++ _symbolic SDySiScCySDySSypG______pGG s5ErrorP
++ _symbolic SS6reason_SiSg9totalSizeSSSg8mimeTypet
++ _symbolic SS9requestId______5bytest 10Foundation4DataV
++ _symbolic SSSgyYac
++ _symbolic SS_SSt
++ _symbolic SS_ypt
++ _symbolic SaySDySSypGG
++ _symbolic SaySS9requestId______5bytestG 10Foundation4DataV
++ _symbolic SayScCyyt______pGG s5ErrorP
++ _symbolic Say_____G 9WebDriver10StackTraceV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLO
++ _symbolic Say_____G 9WebDriver14ConsoleMessageV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLO
++ _symbolic Say_____G 9WebDriver14WDEntryPreviewC
++ _symbolic Say_____G 9WebDriver14WDEntryPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic Say_____G 9WebDriver14WDRemoteObjectC
++ _symbolic Say_____G 9WebDriver14WDRemoteObjectC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic Say_____G 9WebDriver15WDObjectPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic Say_____G 9WebDriver16WDNetworkRequestV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic Say_____G 9WebDriver17WDNetworkResponseV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic Say_____G 9WebDriver17WDNetworkSecurityV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic Say_____G 9WebDriver17WDPropertyPreviewC
++ _symbolic Say_____G 9WebDriver17WDPropertyPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic Say_____G 9WebDriver18WDNetworkInitiatorV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic Say_____G 9WebDriver21WDMCPConsoleLogRecordV
++ _symbolic Say_____G 9WebDriver22WDMCPNetworkSummaryDTO33_2E3A85D5158B552FE748C097CBDD19F9LLV
++ _symbolic Say_____G 9WebDriver22WDNetworkInitiatorTypeO
++ _symbolic Say_____G 9WebDriver23WDNetworkResourceTimingV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic Say_____G 9WebDriver25WDNetworkResponseReceivedV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic Say_____G 9WebDriver26WDNetworkRequestWillBeSentV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic Say_____G 9WebDriver9CallFrameV
++ _symbolic Say_____G 9WebDriver9CallFrameV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLO
++ _symbolic Say_____GSg 9WebDriver11WDJSONValueO
++ _symbolic Say_____GSg 9WebDriver14WDEntryPreviewC
++ _symbolic Say_____GSg 9WebDriver14WDRemoteObjectC
++ _symbolic Say_____GSg 9WebDriver17WDPropertyPreviewC
++ _symbolic SbSg
++ _symbolic ScCySDySSypG______pG s5ErrorP
++ _symbolic ScCySDySSypG______pGSg s5ErrorP
++ _symbolic ScCySaySDySSypGG______pG s5ErrorP
++ _symbolic ScCySo21WDMCPAutomationBridgeC______pG s5ErrorP
++ _symbolic ScCyyt_____G s5NeverO
++ _symbolic ScCyyt______pG s5ErrorP
++ _symbolic ScGy_____G 9WebDriver27WDMCPNetworkRecordCollectorC15BodyFetchResultO
++ _symbolic ScSy_____G 9WebDriver24WDMCPConsoleLogCollectorC0E4Work33_8BB5A6A6574F65DA2D64C848563DCF01LLO
++ _symbolic ScSy_____G 9WebDriver27WDMCPNetworkRecordCollectorC0E4Work33_C1E9097A1CB33C18D917FA908A3F178BLLO
++ _symbolic ScTy__________G 9WebDriver27WDMCPNetworkRecordCollectorC15BodyFetchResultO s5NeverO
++ _symbolic ScTy___________pGSg 9WebDriver19WDMCPBackendAdapterC s5ErrorP
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic SdSg
++ _symbolic Si_ScCySDySSypG______pGt s5ErrorP
++ _symbolic SixYbc
++ _symbolic So21WDMCPAutomationBridgeC
++ _symbolic So21WDMCPAutomationBridgeCSgSo7NSErrorCSgIeyByy_IeyBy_
++ _symbolic So21WDMCPAutomationBridgeCSg______pSgIeggg_Iegg_ s5ErrorP
++ _symbolic So6NSDataCSgIeyBy_
++ _symbolic So8NSStringCIeyBy_
++ _symbolic _____ 10Foundation11JSONEncoderC
++ _symbolic _____ 9WebDriver10StackTraceV
++ _symbolic _____ 9WebDriver10StackTraceV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLO
++ _symbolic _____ 9WebDriver10WDMCPErrorV
++ _symbolic _____ 9WebDriver10WDMCPErrorV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLO
++ _symbolic _____ 9WebDriver11MessageTypeO
++ _symbolic _____ 9WebDriver12MessageLevelO
++ _symbolic _____ 9WebDriver12WDMCPRequestV
++ _symbolic _____ 9WebDriver12WDMCPRequestV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLO
++ _symbolic _____ 9WebDriver13MessageSourceO
++ _symbolic _____ 9WebDriver13WDMCPResponseV
++ _symbolic _____ 9WebDriver13WDMCPResponseV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLO
++ _symbolic _____ 9WebDriver14ConsoleMessageV
++ _symbolic _____ 9WebDriver14ConsoleMessageV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLO
++ _symbolic _____ 9WebDriver14WDAnyStringKey33_4EBE26A19DE786776FA604D3D057DEA4LLV
++ _symbolic _____ 9WebDriver14WDEntryPreviewC
++ _symbolic _____ 9WebDriver14WDEntryPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic _____ 9WebDriver14WDMCPRequestIDO
++ _symbolic _____ 9WebDriver14WDMCPToolErrorO
++ _symbolic _____ 9WebDriver14WDRemoteObjectC
++ _symbolic _____ 9WebDriver14WDRemoteObjectC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic _____ 9WebDriver15WDMCPEntryPointC
++ _symbolic _____ 9WebDriver15WDObjectPreviewC
++ _symbolic _____ 9WebDriver15WDObjectPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic _____ 9WebDriver16WDInspectorAgentC
++ _symbolic _____ 9WebDriver16WDMCPEventBufferC
++ _symbolic _____ 9WebDriver16WDMCPEventBufferC5Entry33_1564727476B6A7ED7B8BB1018369337DLLV
++ _symbolic _____ 9WebDriver16WDNetworkRequestV
++ _symbolic _____ 9WebDriver16WDNetworkRequestV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____ 9WebDriver17WDMCPMessageErrorO
++ _symbolic _____ 9WebDriver17WDMCPNotificationV
++ _symbolic _____ 9WebDriver17WDMCPNotificationV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLO
++ _symbolic _____ 9WebDriver17WDMCPRouteHandlerC
++ _symbolic _____ 9WebDriver17WDMCPToolRegistryC
++ _symbolic _____ 9WebDriver17WDNetworkResponseV
++ _symbolic _____ 9WebDriver17WDNetworkResponseV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____ 9WebDriver17WDNetworkSecurityV
++ _symbolic _____ 9WebDriver17WDNetworkSecurityV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____ 9WebDriver17WDPropertyPreviewC
++ _symbolic _____ 9WebDriver17WDPropertyPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic _____ 9WebDriver18WDInspectorBackendC
++ _symbolic _____ 9WebDriver18WDMCPErrorResponseV
++ _symbolic _____ 9WebDriver18WDMCPErrorResponseV10CodingKeysO
++ _symbolic _____ 9WebDriver18WDMCPNetworkRecordV
++ _symbolic _____ 9WebDriver18WDMCPNetworkRecordV10CodingKeysO
++ _symbolic _____ 9WebDriver18WDMCPNetworkRecordV13InitiatorTypeO
++ _symbolic _____ 9WebDriver18WDMCPNetworkRecordV6TimingV
++ _symbolic _____ 9WebDriver18WDMCPNetworkRecordV6TimingV10CodingKeysO
++ _symbolic _____ 9WebDriver18WDMCPNetworkRecordV8SecurityV
++ _symbolic _____ 9WebDriver18WDMCPNetworkRecordV8SecurityV10CodingKeys021_B47F66CBCF335F2611E6L10B29A6A39F6LLO
++ _symbolic _____ 9WebDriver18WDMCPNetworkRecordV9InitiatorV
++ _symbolic _____ 9WebDriver18WDMCPNetworkRecordV9InitiatorV10CodingKeys021_B47F66CBCF335F2611E6L10B29A6A39F6LLO
++ _symbolic _____ 9WebDriver18WDMCPProtocolErrorO
++ _symbolic _____ 9WebDriver18WDNetworkInitiatorV
++ _symbolic _____ 9WebDriver18WDNetworkInitiatorV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____ 9WebDriver18WDRemoteObjectTypeO
++ _symbolic _____ 9WebDriver19StackTraceParentBox33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLC
++ _symbolic _____ 9WebDriver19WDMCPBackendAdapterC
++ _symbolic _____ 9WebDriver19WDMCPStdioTransportC
++ _symbolic _____ 9WebDriver19WDMCPToolDefinitionV
++ _symbolic _____ 9WebDriver20WDInspectorPageAgentC
++ _symbolic _____ 9WebDriver20WDMCPDeferredBackendC
++ _symbolic _____ 9WebDriver20WDMCPIncomingMessageO
++ _symbolic _____ 9WebDriver20WDMCPIncomingMessageO5parse4fromAC10Foundation4DataV_tKFZ4PeekL_V
++ _symbolic _____ 9WebDriver20WDMCPIncomingMessageO5parse4fromAC10Foundation4DataV_tKFZ4PeekL_V10CodingKeysO
++ _symbolic _____ 9WebDriver21WDConsoleAnyStringKey33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLV
++ _symbolic _____ 9WebDriver21WDInspectorConnectionC
++ _symbolic _____ 9WebDriver21WDMCPConsoleLogRecordV
++ _symbolic _____ 9WebDriver21WDMCPConsoleLogRecordV10CodingKeys33_29B411F0D3F57537624F061165E82EA2LLO
++ _symbolic _____ 9WebDriver21WDMCPNetworkDetailDTO33_ECE85047A8DE33202050D097E8BE8249LLV
++ _symbolic _____ 9WebDriver21WDMCPNetworkDetailDTO33_ECE85047A8DE33202050D097E8BE8249LLV10CodingKeysO
++ _symbolic _____ 9WebDriver21WDNetworkAnyStringKey33_7BCD678BED1AC1A7B57B59FED25A51F4LLV
++ _symbolic _____ 9WebDriver21WDPropertyPreviewTypeO
++ _symbolic _____ 9WebDriver21WDRemoteObjectSubtypeO
++ _symbolic _____ 9WebDriver22WDInspectorTargetAgentC
++ _symbolic _____ 9WebDriver22WDMCPNetworkSummaryDTO33_2E3A85D5158B552FE748C097CBDD19F9LLV
++ _symbolic _____ 9WebDriver22WDMCPNetworkSummaryDTO33_2E3A85D5158B552FE748C097CBDD19F9LLV10CodingKeysO
++ _symbolic _____ 9WebDriver22WDNetworkInitiatorTypeO
++ _symbolic _____ 9WebDriver23WDInspectorConsoleAgentC
++ _symbolic _____ 9WebDriver23WDInspectorNetworkAgentC
++ _symbolic _____ 9WebDriver23WDNetworkResourceTimingV
++ _symbolic _____ 9WebDriver23WDNetworkResourceTimingV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____ 9WebDriver24WDMCPConsoleLogCollectorC
++ _symbolic _____ 9WebDriver24WDMCPConsoleLogCollectorC0E4Work33_8BB5A6A6574F65DA2D64C848563DCF01LLO
++ _symbolic _____ 9WebDriver25WDNetworkResponseReceivedV
++ _symbolic _____ 9WebDriver25WDNetworkResponseReceivedV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____ 9WebDriver26WDMCPNetworkDetailEnvelope33_ECE85047A8DE33202050D097E8BE8249LLV
++ _symbolic _____ 9WebDriver26WDMCPNetworkDetailEnvelope33_ECE85047A8DE33202050D097E8BE8249LLV10CodingKeysO
++ _symbolic _____ 9WebDriver26WDNetworkRequestWillBeSentV
++ _symbolic _____ 9WebDriver26WDNetworkRequestWillBeSentV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____ 9WebDriver27WDMCPNetworkRecordCollectorC
++ _symbolic _____ 9WebDriver27WDMCPNetworkRecordCollectorC0E4Work33_C1E9097A1CB33C18D917FA908A3F178BLLO
++ _symbolic _____ 9WebDriver27WDMCPNetworkRecordCollectorC10ListFilterV
++ _symbolic _____ 9WebDriver27WDMCPNetworkRecordCollectorC15BodyFetchResultO
++ _symbolic _____ 9WebDriver27WDMCPNetworkSummaryEnvelope33_2E3A85D5158B552FE748C097CBDD19F9LLV
++ _symbolic _____ 9WebDriver27WDMCPNetworkSummaryEnvelope33_2E3A85D5158B552FE748C097CBDD19F9LLV10CodingKeysO
++ _symbolic _____ 9WebDriver9CallFrameV
++ _symbolic _____ 9WebDriver9CallFrameV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLO
++ _symbolic _____IeAgHr_ 9WebDriver27WDMCPNetworkRecordCollectorC15BodyFetchResultO
++ _symbolic _____SS___________pIeghHngozo_ 9WebDriver12WDMCPRequestV AA11WDJSONValueO s5ErrorP
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic _____Sg 9WebDriver10StackTraceV
++ _symbolic _____Sg 9WebDriver11MessageTypeO
++ _symbolic _____Sg 9WebDriver11WDJSONValueO
++ _symbolic _____Sg 9WebDriver14WDMCPRequestIDO
++ _symbolic _____Sg 9WebDriver14WDRemoteObjectC
++ _symbolic _____Sg 9WebDriver15WDObjectPreviewC
++ _symbolic _____Sg 9WebDriver17WDNetworkSecurityV
++ _symbolic _____Sg 9WebDriver18WDMCPNetworkRecordV
++ _symbolic _____Sg 9WebDriver18WDMCPNetworkRecordV6TimingV
++ _symbolic _____Sg 9WebDriver18WDMCPNetworkRecordV8SecurityV
++ _symbolic _____Sg 9WebDriver18WDMCPNetworkRecordV9InitiatorV
++ _symbolic _____Sg 9WebDriver19StackTraceParentBox33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLC
++ _symbolic _____Sg 9WebDriver21WDMCPConsoleLogRecordV
++ _symbolic _____Sg 9WebDriver21WDRemoteObjectSubtypeO
++ _symbolic _____Sg 9WebDriver23WDNetworkResourceTimingV
++ _symbolic _____Sg 9WebDriver24WDMCPConsoleLogCollectorC0E4Work33_8BB5A6A6574F65DA2D64C848563DCF01LLO
++ _symbolic _____Sg 9WebDriver25WDNetworkResponseReceivedV
++ _symbolic _____Sg 9WebDriver26WDNetworkRequestWillBeSentV
++ _symbolic _____Sg 9WebDriver27WDMCPNetworkRecordCollectorC0E4Work33_C1E9097A1CB33C18D917FA908A3F178BLLO
++ _symbolic _____SgIegHo_ 9WebDriver24WDMCPConsoleLogCollectorC
++ _symbolic _____SgIegHo_ 9WebDriver27WDMCPNetworkRecordCollectorC
++ _symbolic _____SgIegg_ 10Foundation4DataV
++ _symbolic _____SgXw 9WebDriver17WDMCPRouteHandlerC
++ _symbolic _____SgXw 9WebDriver18WDInspectorBackendC
++ _symbolic _____SgXw 9WebDriver21WDInspectorConnectionC
++ _symbolic _____SgXw 9WebDriver24WDMCPConsoleLogCollectorC
++ _symbolic _____SgXw 9WebDriver27WDMCPNetworkRecordCollectorC
++ _symbolic _____SgXwz_Xx 9WebDriver21WDInspectorConnectionC
++ _symbolic _____SgXwz_Xx 9WebDriver24WDMCPConsoleLogCollectorC
++ _symbolic _____SgXwz_Xx 9WebDriver27WDMCPNetworkRecordCollectorC
++ _symbolic _____XDXMT 9WebDriver21WDInspectorConnectionC
++ _symbolic _____XMT 9WebDriver15WDMCPEntryPointC
++ _symbolic ______Sb13base64EncodedSSSg8mimeTypet 10Foundation4DataV
++ _symbolic ______p 9WebDriver12WDMCPBackendP
++ _symbolic ______p______t s9CodingKeyP s13DecodingErrorO7ContextV
++ _symbolic _____yS2SG s18_DictionaryStorageC
++ _symbolic _____ySO_____G s18_DictionaryStorageC 9WebDriver16WDInspectorAgentC
++ _symbolic _____ySS9requestId______5bytestG s23_ContiguousArrayStorageC 10Foundation4DataV
++ _symbolic _____ySSSDySO_____GG s18_DictionaryStorageC 9WebDriver16WDInspectorAgentC
++ _symbolic _____ySSSay_____y______GGG s18_DictionaryStorageC 9WebDriver16WDMCPEventBufferC5Entry33_1564727476B6A7ED7B8BB1018369337DLLV AC18WDMCPNetworkRecordV
++ _symbolic _____ySSSay_____y______GGG s18_DictionaryStorageC 9WebDriver16WDMCPEventBufferC5Entry33_1564727476B6A7ED7B8BB1018369337DLLV AC21WDMCPConsoleLogRecordV
++ _symbolic _____ySSSayySDySSypGScMYccGG s18_DictionaryStorageC
++ _symbolic _____ySSScTy__________GG s18_DictionaryStorageC 9WebDriver27WDMCPNetworkRecordCollectorC15BodyFetchResultO s5NeverO
++ _symbolic _____ySSSd9timestamp_Sd8walltimetG s18_DictionaryStorageC
++ _symbolic _____ySSSiG s18_DictionaryStorageC
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 9WebDriver18WDMCPNetworkRecordV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 9WebDriver19WDMCPToolDefinitionV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 9WebDriver21WDInspectorConnectionC
++ _symbolic _____ySS_____SDySSABGYaYbKcG s18_DictionaryStorageC 9WebDriver11WDJSONValueO
++ _symbolic _____ySS___________SStYaYbKcG s18_DictionaryStorageC 9WebDriver11WDJSONValueO AC12WDMCPRequestV
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySSy______SStYaYbcG s18_DictionaryStorageC 9WebDriver17WDMCPNotificationV
++ _symbolic _____yScCyyt______pGG s23_ContiguousArrayStorageC s5ErrorP
++ _symbolic _____ySiScCySDySSypG______pGG s18_DictionaryStorageC s5ErrorP
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G 9WebDriver16WDMCPEventBufferC AA18WDMCPNetworkRecordV
++ _symbolic _____y_____G 9WebDriver16WDMCPEventBufferC AA21WDMCPConsoleLogRecordV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver10StackTraceV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver10WDMCPErrorV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver12WDMCPRequestV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver13WDMCPResponseV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver14ConsoleMessageV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver14WDAnyStringKey33_4EBE26A19DE786776FA604D3D057DEA4LLV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver14WDEntryPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver14WDRemoteObjectC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver15WDObjectPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver16WDNetworkRequestV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver17WDMCPNotificationV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver17WDNetworkResponseV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver17WDNetworkSecurityV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver17WDPropertyPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver18WDMCPErrorResponseV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver18WDMCPNetworkRecordV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver18WDMCPNetworkRecordV6TimingV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver18WDMCPNetworkRecordV8SecurityV10CodingKeys021_B47F66CBCF335F2611E6O10B29A6A39F6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver18WDMCPNetworkRecordV9InitiatorV10CodingKeys021_B47F66CBCF335F2611E6O10B29A6A39F6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver18WDNetworkInitiatorV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver20WDMCPIncomingMessageO5parse4fromAE10Foundation4DataV_tKFZ4PeekL_V10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver21WDConsoleAnyStringKey33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver21WDMCPConsoleLogRecordV10CodingKeys33_29B411F0D3F57537624F061165E82EA2LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver21WDMCPNetworkDetailDTO33_ECE85047A8DE33202050D097E8BE8249LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver21WDNetworkAnyStringKey33_7BCD678BED1AC1A7B57B59FED25A51F4LLV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver22WDMCPNetworkSummaryDTO33_2E3A85D5158B552FE748C097CBDD19F9LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver23WDNetworkResourceTimingV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver25WDNetworkResponseReceivedV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver26WDMCPNetworkDetailEnvelope33_ECE85047A8DE33202050D097E8BE8249LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver26WDNetworkRequestWillBeSentV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver27WDMCPNetworkSummaryEnvelope33_2E3A85D5158B552FE748C097CBDD19F9LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WebDriver9CallFrameV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver10StackTraceV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver10WDMCPErrorV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver12WDMCPRequestV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver13WDMCPResponseV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver14ConsoleMessageV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver14WDAnyStringKey33_4EBE26A19DE786776FA604D3D057DEA4LLV
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver14WDEntryPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver14WDRemoteObjectC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver15WDObjectPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver16WDNetworkRequestV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver17WDMCPNotificationV10CodingKeys33_7535F216F7606B0488288856AC6591ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver17WDNetworkResponseV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver17WDNetworkSecurityV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver17WDPropertyPreviewC10CodingKeys33_4EBE26A19DE786776FA604D3D057DEA4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver18WDMCPErrorResponseV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver18WDMCPNetworkRecordV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver18WDMCPNetworkRecordV6TimingV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver18WDMCPNetworkRecordV8SecurityV10CodingKeys021_B47F66CBCF335F2611E6O10B29A6A39F6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver18WDMCPNetworkRecordV9InitiatorV10CodingKeys021_B47F66CBCF335F2611E6O10B29A6A39F6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver18WDNetworkInitiatorV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver21WDConsoleAnyStringKey33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLV
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver21WDMCPConsoleLogRecordV10CodingKeys33_29B411F0D3F57537624F061165E82EA2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver21WDMCPNetworkDetailDTO33_ECE85047A8DE33202050D097E8BE8249LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver21WDNetworkAnyStringKey33_7BCD678BED1AC1A7B57B59FED25A51F4LLV
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver22WDMCPNetworkSummaryDTO33_2E3A85D5158B552FE748C097CBDD19F9LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver23WDNetworkResourceTimingV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver25WDNetworkResponseReceivedV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver26WDMCPNetworkDetailEnvelope33_ECE85047A8DE33202050D097E8BE8249LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver26WDNetworkRequestWillBeSentV10CodingKeys33_7BCD678BED1AC1A7B57B59FED25A51F4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver27WDMCPNetworkSummaryEnvelope33_2E3A85D5158B552FE748C097CBDD19F9LLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WebDriver9CallFrameV10CodingKeys33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WebDriver18WDMCPNetworkRecordV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WebDriver19WDMCPToolDefinitionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WebDriver21WDMCPConsoleLogRecordV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WebDriver22WDMCPNetworkSummaryDTO33_2E3A85D5158B552FE748C097CBDD19F9LLV
++ _symbolic _____y______G 9WebDriver16WDMCPEventBufferC5Entry33_1564727476B6A7ED7B8BB1018369337DLLV AA18WDMCPNetworkRecordV
++ _symbolic _____y______G 9WebDriver16WDMCPEventBufferC5Entry33_1564727476B6A7ED7B8BB1018369337DLLV AA21WDMCPConsoleLogRecordV
++ _symbolic _____y______G ScS12ContinuationV 9WebDriver24WDMCPConsoleLogCollectorC0F4Work33_8BB5A6A6574F65DA2D64C848563DCF01LLO
++ _symbolic _____y______G ScS12ContinuationV 9WebDriver27WDMCPNetworkRecordCollectorC0F4Work33_C1E9097A1CB33C18D917FA908A3F178BLLO
++ _symbolic _____y______G ScS8IteratorV 9WebDriver24WDMCPConsoleLogCollectorC0F4Work33_8BB5A6A6574F65DA2D64C848563DCF01LLO
++ _symbolic _____y______G ScS8IteratorV 9WebDriver27WDMCPNetworkRecordCollectorC0F4Work33_C1E9097A1CB33C18D917FA908A3F178BLLO
++ _symbolic _____y______GSg 9WebDriver16WDMCPEventBufferC5Entry33_1564727476B6A7ED7B8BB1018369337DLLV AA18WDMCPNetworkRecordV
++ _symbolic _____y______GSg 9WebDriver16WDMCPEventBufferC5Entry33_1564727476B6A7ED7B8BB1018369337DLLV AA21WDMCPConsoleLogRecordV
++ _symbolic _____y______GSg ScS12ContinuationV 9WebDriver24WDMCPConsoleLogCollectorC0F4Work33_8BB5A6A6574F65DA2D64C848563DCF01LLO
++ _symbolic _____y______GSg ScS12ContinuationV 9WebDriver27WDMCPNetworkRecordCollectorC0F4Work33_C1E9097A1CB33C18D917FA908A3F178BLLO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 9WebDriver24WDMCPConsoleLogCollectorC0H4Work33_8BB5A6A6574F65DA2D64C848563DCF01LLO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 9WebDriver27WDMCPNetworkRecordCollectorC0H4Work33_C1E9097A1CB33C18D917FA908A3F178BLLO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 9WebDriver24WDMCPConsoleLogCollectorC0H4Work33_8BB5A6A6574F65DA2D64C848563DCF01LLO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 9WebDriver27WDMCPNetworkRecordCollectorC0H4Work33_C1E9097A1CB33C18D917FA908A3F178BLLO
++ _symbolic _____y_______GSg ScS12ContinuationV11YieldResultO 9WebDriver24WDMCPConsoleLogCollectorC0H4Work33_8BB5A6A6574F65DA2D64C848563DCF01LLO
++ _symbolic _____y_______GSg ScS12ContinuationV11YieldResultO 9WebDriver27WDMCPNetworkRecordCollectorC0H4Work33_C1E9097A1CB33C18D917FA908A3F178BLLO
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 9WebDriver16WDMCPEventBufferC5Entry33_1564727476B6A7ED7B8BB1018369337DLLV AC18WDMCPNetworkRecordV
++ _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 9WebDriver16WDMCPEventBufferC5Entry33_1564727476B6A7ED7B8BB1018369337DLLV AC21WDMCPConsoleLogRecordV
++ _symbolic _____yySDySSypGScMYccG s23_ContiguousArrayStorageC
++ _symbolic x
++ _symbolic ySScSg
++ _symbolic ytSg______pIgrzo_ s5ErrorP
++ _symbolic yySo21WDMCPAutomationBridgeCSg_______pSgtcc s5ErrorP
++ _symbolic yyc
++ _type_layout_string 9WebDriver10StackTraceV
++ _type_layout_string 9WebDriver10WDMCPErrorV
++ _type_layout_string 9WebDriver11MessageTypeO
++ _type_layout_string 9WebDriver12MessageLevelO
++ _type_layout_string 9WebDriver12WDMCPRequestV
++ _type_layout_string 9WebDriver13MessageSourceO
++ _type_layout_string 9WebDriver13WDMCPResponseV
++ _type_layout_string 9WebDriver14ConsoleMessageV
++ _type_layout_string 9WebDriver14WDAnyStringKey33_4EBE26A19DE786776FA604D3D057DEA4LLV
++ _type_layout_string 9WebDriver14WDMCPRequestIDO
++ _type_layout_string 9WebDriver14WDMCPToolErrorO
++ _type_layout_string 9WebDriver16WDNetworkRequestV
++ _type_layout_string 9WebDriver17WDMCPNotificationV
++ _type_layout_string 9WebDriver17WDNetworkResponseV
++ _type_layout_string 9WebDriver17WDNetworkSecurityV
++ _type_layout_string 9WebDriver18WDMCPErrorResponseV
++ _type_layout_string 9WebDriver18WDMCPNetworkRecordV
++ _type_layout_string 9WebDriver18WDMCPNetworkRecordV6TimingV
++ _type_layout_string 9WebDriver18WDMCPNetworkRecordV8SecurityV
++ _type_layout_string 9WebDriver18WDMCPNetworkRecordV9InitiatorV
++ _type_layout_string 9WebDriver18WDMCPProtocolErrorO
++ _type_layout_string 9WebDriver18WDNetworkInitiatorV
++ _type_layout_string 9WebDriver18WDRemoteObjectTypeO
++ _type_layout_string 9WebDriver19WDMCPToolDefinitionV
++ _type_layout_string 9WebDriver20WDMCPIncomingMessageO
++ _type_layout_string 9WebDriver20WDMCPIncomingMessageO5parse4fromAC10Foundation4DataV_tKFZ4PeekL_V
++ _type_layout_string 9WebDriver21WDConsoleAnyStringKey33_2A1BB7954622DDCB2D6DF77EA7DF2B9DLLV
++ _type_layout_string 9WebDriver21WDMCPConsoleLogRecordV
++ _type_layout_string 9WebDriver21WDMCPNetworkDetailDTO33_ECE85047A8DE33202050D097E8BE8249LLV
++ _type_layout_string 9WebDriver21WDNetworkAnyStringKey33_7BCD678BED1AC1A7B57B59FED25A51F4LLV
++ _type_layout_string 9WebDriver21WDPropertyPreviewTypeO
++ _type_layout_string 9WebDriver21WDRemoteObjectSubtypeO
++ _type_layout_string 9WebDriver22WDMCPNetworkSummaryDTO33_2E3A85D5158B552FE748C097CBDD19F9LLV
++ _type_layout_string 9WebDriver23WDNetworkResourceTimingV
++ _type_layout_string 9WebDriver25WDNetworkResponseReceivedV
++ _type_layout_string 9WebDriver26WDMCPNetworkDetailEnvelope33_ECE85047A8DE33202050D097E8BE8249LLV
++ _type_layout_string 9WebDriver26WDNetworkRequestWillBeSentV
++ _type_layout_string 9WebDriver27WDMCPNetworkRecordCollectorC10ListFilterV
++ _type_layout_string 9WebDriver27WDMCPNetworkRecordCollectorC15BodyFetchResultO
++ _type_layout_string 9WebDriver27WDMCPNetworkSummaryEnvelope33_2E3A85D5158B552FE748C097CBDD19F9LLV
++ _type_layout_string 9WebDriver9CallFrameV
++ _writeAllToStdout
++ _writeStringToStderr
++ stdoutWriteQueue.onceToken
++ stdoutWriteQueue.queue
+CStrings:
++ "\t                          transport. Reads JSON-RPC from stdin, writes to stdout."
++ "\t--mcp                     Run as an MCP (Model Context Protocol) server using stdio"
++ "\tDriver name: %{public}@"
++ "  %@\n"
++ "  example: {\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}\n"
++ "%@%@.txt"
++ "' on an empty domain."
++ "'timeout_seconds' must be non-negative"
++ "(unset)"
++ "). Use the Read tool to view its contents."
++ ".txt"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.P4xJmd/Sources/Safari/Mac/Safari/WebDriver/External/HTTPServer/CocoaHTTPServer/Core/HTTPConnection.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.P4xJmd/Sources/Safari/Mac/Safari/WebDriver/External/HTTPServer/CocoaHTTPServer/Core/HTTPServer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.P4xJmd/Sources/Safari/Mac/Safari/WebDriver/External/HTTPServer/CocoaHTTPServer/Core/Mime/MultipartFormDataParser.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.P4xJmd/Sources/Safari/Mac/Safari/WebDriver/External/HTTPServer/CocoaHTTPServer/Core/Mime/MultipartMessageHeader.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.P4xJmd/Sources/Safari/Mac/Safari/WebDriver/External/HTTPServer/CocoaHTTPServer/Core/Mime/MultipartMessageHeaderField.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.P4xJmd/Sources/Safari/Mac/Safari/WebDriver/External/HTTPServer/CocoaHTTPServer/Core/Responses/HTTPAsyncFileResponse.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.P4xJmd/Sources/Safari/Mac/Safari/WebDriver/External/HTTPServer/CocoaHTTPServer/Core/Responses/HTTPFileResponse.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.P4xJmd/Sources/Safari/Mac/Safari/WebDriver/Framework/WDDiagnosticUtilities.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.P4xJmd/Sources/Safari/Mac/Safari/WebDriver/Framework/WDRemoteSessionHost.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.P4xJmd/Sources/Safari/Mac/Safari/WebDriver/Framework/WDSafariDriverMain.mm"
++ "1.0.0"
++ "22625.1.24.11.2"
++ "Action to perform."
++ "Added MCP driver client: %{public}@"
++ "Also extract content from cross-origin subframes (default: false)."
++ "Attempting to establish XPC connection to com.apple.WebDriver.MCPService."
++ "Browsing-context handle. Defaults to active tab."
++ "CSS media type to emulate, e.g. \"screen\" or \"print\". Empty string clears the override."
++ "Capture a screenshot of the current page and save it as a PNG. Returns the file path (never inline base64). Defaults to the visible viewport; pass `full_page: true` for the entire scrollable page. Pass `savePath` to write to a specific location, otherwise the PNG is saved to a temporary file. Prefer get_page_content for reading a page — its text extraction is cheaper and more reliable than reading a screenshot. Use this only when the visual rendering itself matters (e.g. layout, charts, or verifying appearance)."
++ "Capture the entire scrollable page instead of just the viewport."
++ "Case-insensitive substring match on URL."
++ "Close a browser tab by its handle."
++ "Command failed: "
++ "Configuring MCP service."
++ "Console log collection is unavailable for this session."
++ "Console.messageAdded"
++ "Could not create the directory for the requested savePath."
++ "Could not issue a sandbox extension for the requested savePath."
++ "Could not obtain permission to write the requested savePath."
++ "Could not resolve the directory for the requested savePath."
++ "Create a new browser tab, optionally loading a URL. Returns the UUID and info of the new tab."
++ "Dialog dismissed"
++ "Draining %lu pending messages."
++ "Dropped malformed Console.messageAdded payload: missing required fields"
++ "Dropped malformed Target.dispatchMessageFromTarget payload"
++ "Each line must be a complete JSON-RPC 2.0 request object with a \"method\" field."
++ "Emulate a CSS media type (e.g. \"screen\" or \"print\") for responsive-design testing."
++ "Emulated media set to "
++ "Error processing MCP service message: %{public}@"
++ "Exact HTTP method match (case-insensitive)."
++ "Execute a JavaScript function body within the page. The script may contain multiple statements; add an explicit `return` for any value you want back. Use `$uid(N)` to reference DOM elements by their UID from get_page_content output (e.g. `return $uid(42).href`). When `frameId` is set, runs inside that iframe. Prefer get_page_content for reading page text or structure — reach for it with `region: \"entire_page\"` or relaxed filters before scripting a DOM scrape here. Reserve this tool for actions or computations that text extraction can't express."
++ "Extract the text content of a page using WebKit's text extraction. This is the preferred way to read a page — favor it over screenshots or scripting the DOM with evaluate_javascript. If the content you need is missing, widen the extraction (e.g. `region: \"entire_page\"`, a larger `maxWordsPerParagraph`, or relaxed node/URL filters) before reaching for those tools. Use the returned node UIDs (e.g. `uid=42`) with `page_interactions` and `evaluate_javascript` (`$uid(42)`). Output ≥ 32 kB is saved to a temp file; the path is returned. Pass `savePath` to always write to disk."
++ "Extraction region (default: \"viewport\"). Use \"entire_page\" to capture beyond the visible scrollport."
++ "Failed to encode JSON-RPC message."
++ "Failed to encode inner Inspector command '"
++ "Failed to write screenshot to '"
++ "Fatal error"
++ "File path to write the PNG to. If omitted, the PNG is written to a temporary file."
++ "File path to write the extraction to. When set, the path is returned instead of inline content."
++ "Find-in-page query, scroll search term, or menu item label. Optional when `node` is provided."
++ "For `type`: replace existing field text instead of appending (default: false)."
++ "For `type`: simulate Return after typing to submit (default: false)."
++ "Get information about the current page including URL, title, and loading state."
++ "Handle of the tab to close."
++ "Handle of the tab to switch to."
++ "ISO8601 timestamp; only requests started at or after this time are returned."
++ "If true, clear buffer after returning. Default true."
++ "If true, drain and reset the per-tab buffer."
++ "Include URL attributes like href/src (default: true)."
++ "Include accessibility attributes like role/aria-label (default: true)."
++ "Include bounding rects for text nodes (default: false)."
++ "Include click/hover/touch event listener info (default: false)."
++ "Include options for <select> elements (default: false)."
++ "Inclusive lower bound on response status."
++ "Inclusive upper bound on response status."
++ "Incorrect actor executor assumption; Expected same executor as "
++ "Inspector backend is unavailable for this session."
++ "Inspector request id, as returned by list_network_requests."
++ "Inspector target error"
++ "InspectorConnection"
++ "Invalid JSON-RPC 2.0 request."
++ "Invalid arguments: "
++ "JSON-RPC message is missing required 'method' field."
++ "JavaScript code to evaluate, treated as a function body. Use an explicit `return` for a value. Supports $uid(N) macros."
++ "List all open browser tabs with their handles, titles, and URLs."
++ "List and respond to browser dialogs. Actions: \"list\" to query, \"respond\" to accept, \"dismiss\" to cancel. For JS prompt dialogs, provide inputText."
++ "List network request summaries (URL, method, status, timing) recorded by Inspector for the current or specified tab."
++ "MCP Service launched."
++ "MCP client connection interrupted, it may have crashed or exited."
++ "MCP client connection invalidated."
++ "MCP client connection rejected (PID: %d), does not have correct entitlements."
++ "MCP service ready for messages, starting stdin read loop."
++ "MCP service shutting down: connection to webinspectord was closed."
++ "MCP service start requested. Waiting for machine target."
++ "MCP service started."
++ "MCP service stopped, now exiting."
++ "MCP service stopped, now exiting.\n"
++ "MCP service terminating cleanly."
++ "MCP session created: %{public}@"
++ "MCP session creation failed"
++ "MCP session creation failed: %{public}@"
++ "MCP: Could not create directory '%{public}@' for screenshot savePath: %{public}@"
++ "MCP: Could not issue a sandbox extension for '%{public}s': errno %d"
++ "MCP: Could not resolve directory '%{public}@' for screenshot savePath: errno %d"
++ "MCP: LIFECYCLE %{public}@"
++ "MCP: Launched Safari (pid %d) already gone at client teardown."
++ "MCP: RECV %{public}@"
++ "MCP: Refusing to terminate pid %d at client teardown; bundle identifier '%{public}@' is not allowed."
++ "MCP: SEND %{public}@"
++ "MCP: Terminating launched Safari (pid %d) on client teardown."
++ "MCP: Trying to launch application from URL: %{public}@"
++ "MCP: Trying to terminate application with pid: %d"
++ "MCP: failed to consume the write sandbox extension: errno %d"
++ "MCP: failed to write %lu bytes to '%{public}@': %{public}@"
++ "MCP: requesting a write sandbox extension from the launcher failed: %{public}@"
++ "MCP: reusing already-launched Safari (pid %d); skipping second launch."
++ "MCPDiagnosticsEnabled"
++ "Max entries returned (default 100, max 500)."
++ "Maximum seconds to wait (default: 30)."
++ "Message received before MCP server ready, queueing."
++ "Method not found: "
++ "Missing or empty 'request_id'"
++ "Missing required 'action'"
++ "Missing required 'expression'"
++ "Missing required 'handle'"
++ "Missing required 'media'"
++ "Missing required 'url'"
++ "Missing required 'width' and 'height'"
++ "Missing tool name"
++ "Naming MCP agent from handshake clientInfo: %{public}@"
++ "Navigate to a URL and return the loaded page's extracted content. Auto-creates a tab if none is open, waits for the navigation to complete, and uses the format/options from the most recent get_page_content call (or sensible defaults). Output ≥ 32 kB is saved to a temp file."
++ "Network request recording is unavailable for this session."
++ "Network.dataReceived"
++ "Network.getResponseBody"
++ "Network.loadingFailed"
++ "Network.loadingFinished"
++ "Network.requestWillBeSent"
++ "Network.responseReceived"
++ "No active browsing context"
++ "No browsing context available"
++ "No current browsing context. Call navigate_to_url first to open a page."
++ "No current browsing context. Call navigate_to_url first."
++ "No page target was vended (the inspector primer may have failed)."
++ "No screenshot data returned"
++ "Node UID from get_page_content output to capture only that element. (Currently no-op pending dispatcher support; falls back to viewport.)"
++ "Node UID from get_page_content output. When omitted, `text` is treated as a find-in-page search; when both are set, the search is scoped to the subtree under `node`."
++ "Optional URL to load in the new tab."
++ "Optional; defaults to current browsing context."
++ "Output format (default: \"textTree\"). \"text\" is an alias for \"textTree\"."
++ "Page.setEmulatedMedia"
++ "Perform DOM interactions in sequence. Actions: click, type, keyPress, scroll, selectText, selectMenuItem, hover, highlightText. **Prefer batch mode** whenever possible — provide all related interactions in a single call instead of separate calls (faster, single round-trip, single diff). Returns a diff of page changes after the batch (or full text if >50% changed); pass `fullText: true` to disable diffing. If a click triggers a navigation, the tool waits for it to finish and returns the loaded page's content. The diff/full text uses the format set by the most recent `get_page_content` call. Output ≥ 32 kB is saved to a temp file. Reference elements by node UID from `get_page_content`; fall back to `text` for find-in-page when no UID is available."
++ "Received SIGTERM, terminating launched Safari and shutting down."
++ "Removed MCP driver client: %{public}@"
++ "Request ID must be a string or integer"
++ "Return buffered console logs for the current or specified tab. Clear-and-return by default."
++ "Return full detail for a single recorded network request (headers, body when text and within size cap, timing)."
++ "Return the full updated page text instead of a diff (default: false)."
++ "SAFARI_MCP_AGENT_NAME"
++ "SAFARI_MCP_DIAGNOSE"
++ "Saved large output to '"
++ "Saved output to '"
++ "Saved screenshot to '"
++ "Scroll the target element into view before interacting (default: false)."
++ "Sequence of interactions, executed sequentially with a 400 ms settle between each."
++ "Set the browser viewport size in CSS pixels."
++ "Short description of the intended outcome."
++ "Starting MCP server mode."
++ "Stdin closed (EOF), shutting down."
++ "Stdin dispatch source cancelled."
++ "Stopping MCP service."
++ "Strip query params and noise from URLs (default: true)."
++ "Switch to a different browser tab by its handle."
++ "Switched to tab "
++ "Target.dispatchMessageFromTarget"
++ "Target.sendMessageToTarget"
++ "Target.setPauseOnStart"
++ "Target.targetCreated"
++ "Target.targetDestroyed"
++ "Text for JS prompt dialogs."
++ "Text to type, or key name to press."
++ "The MCP service is no longer available."
++ "The URL to navigate to."
++ "Timed out awaiting the inspector target reply for '"
++ "Timed out awaiting the page target."
++ "Too many messages queued before MCP server ready, dropping message."
++ "Tool not found: "
++ "Truncate paragraphs to this many words (default: 15). Use a larger value when you need full prose; smaller saves tokens."
++ "UID of an iframe element from get_page_content output. When set, the expression runs inside that iframe instead of the main frame."
++ "UTC"
++ "UUID of the tab to navigate. If omitted, uses the active tab."
++ "Unable to cleanly shut down the MCP service: %{public}@"
++ "Unable to configure the MCP service: %s\n"
++ "Unable to start the MCP service: %s\n"
++ "Unexpected nested Target.* event in dispatchMessageFromTarget; dropping"
++ "Unknown action: "
++ "Viewport coordinates. Last resort when node and text are unavailable."
++ "Viewport height in CSS pixels."
++ "Viewport set to "
++ "Viewport width in CSS pixels."
++ "WDInspectorAgent subclass must override `domain`; cannot route '"
++ "Wait for the current page to finish loading. Returns the final URL and title."
++ "WebDriver/WDMCPBackendAdapter.swift"
++ "Which nodes get UIDs (default: \"interactive\"; ignored when format is \"markdown\" or \"plainText\")."
++ "XPC connection to com.apple.WebDriver.MCPService was interrupted."
++ "XPC connection to com.apple.WebDriver.MCPService was invalidated."
++ "agent-name"
++ "browser_console_messages"
++ "browsing_context_handle"
++ "callFrames"
++ "cipher"
++ "className"
++ "classPrototype"
++ "columnNumber"
++ "com.apple.WebDriver.MCPService"
++ "com.apple.WebDriver.MCPService for safaridriver (%@)"
++ "com.apple.WebDriver.MCPService.stdout-writer"
++ "connectEnd"
++ "connect_ms"
++ "content_download_ms"
++ "description"
++ "dns_ms"
++ "domainLookupEnd"
++ "duration_ms"
++ "en_US_POSIX"
++ "ensureEnabled(forHandle:)"
++ "entries"
++ "error: %@\n"
++ "evaluate_javascript"
++ "event"
++ "event handle "
++ "function() { return document.title; }"
++ "functionName"
++ "getBrowsingContexts()"
++ "getBrowsingContexts: "
++ "get_network_request"
++ "get_page_content"
++ "hdp:b:m"
++ "headers"
++ "includeAccessibilityAttributes"
++ "includeEventListeners"
++ "includeSelectOptions"
++ "includeSubframes"
++ "initiator"
++ "isPrivate"
++ "jsonrpc"
++ "level"
++ "lineNumber"
++ "list_network_requests"
++ "loading_failed_reason"
++ "loading_finished"
++ "lossless"
++ "machine_target_added"
++ "machine_target_removed"
++ "maxWordsPerParagraph"
++ "mcp"
++ "mcp-"
++ "mcp-%d-"
++ "mimeType"
++ "mime_type"
++ "notifications/initialized"
++ "objectId"
++ "other"
++ "overflow"
++ "page_interactions"
++ "parentStackTrace"
++ "parser"
++ "performApplicationCommand"
++ "preview"
++ "primer FAILED: %{public}s"
++ "primer OK"
++ "priming target discovery via handle=%{public}s"
++ "private-click-measurement"
++ "properties"
++ "reason"
++ "request"
++ "requestId"
++ "request_body"
++ "request_headers"
++ "request_id"
++ "request_id not found: "
++ "resolvedAdapter()"
++ "resolvedPageTargetId()"
++ "responseEnd"
++ "responseStart"
++ "response_body"
++ "response_body_fetch_failed"
++ "response_body_size_bytes"
++ "response_headers"
++ "response_mime_type"
++ "response_size_bytes"
++ "safaridriver --mcp: Model Context Protocol server speaking JSON-RPC 2.0 on stdin.\nNormally driven by an MCP client; type a JSON-RPC request or press Ctrl-D to exit.\n  example: {\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}\n"
++ "safarimcp"
++ "scriptId"
++ "secureConnectionStart"
++ "security"
++ "send method=%{public}s domain=%{public}s direct=%{bool,public}d pageTargetId=%{public}s SI=%{bool,public}d"
++ "send(_:parameters:hostedOnDomainOf:)"
++ "sendCommand(_:parameters:)"
++ "sendInspectorCommand(_:parameters:browsingContextHandle:)"
++ "session_created"
++ "session_creation_failed"
++ "setWindowFrame(width:height:forBrowsingContext:)"
++ "setWindowFrameOfBrowsingContext: "
++ "set_emulated_media"
++ "set_viewport_size"
++ "source"
++ "ssl_ms"
++ "stackTrace"
++ "startGroupCollapsed"
++ "started_at_iso8601"
++ "status"
++ "subtype"
++ "targetCreated id=%{public}s type=%{public}s"
++ "timestamp"
++ "timing"
++ "topCallFrameIsBoundary"
++ "truncated"
++ "ttfb_ms"
++ "v16@?0@\"NSData\"8"
++ "v16@?0@?<v@?@\"WDMCPAutomationBridge\"@\"NSError\">8"
++ "v32@?0@\"NSData\"8@\"NSString\"16@?<v@?@\"NSError\">24"
++ "v32@?0@\"NSString\"8@\"NSString\"16@\"NSError\"24"
++ "valuePreview"
++ "wait_for_navigation"
++ "walltime"
++ "writeFile(_:toPath:)"
++ "yyyy-MM-dd'T'HH-mm-ss'Z'"
++ "{\"dialogs\": [{\"message\": \""
++ "{\"event\":\"%@\"}"
++ "{\"title\": \"\", \"url\": \"\"}"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Lg58M3/Sources/Safari/Mac/Safari/WebDriver/External/HTTPServer/CocoaHTTPServer/Core/HTTPConnection.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Lg58M3/Sources/Safari/Mac/Safari/WebDriver/External/HTTPServer/CocoaHTTPServer/Core/HTTPServer.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Lg58M3/Sources/Safari/Mac/Safari/WebDriver/External/HTTPServer/CocoaHTTPServer/Core/Mime/MultipartFormDataParser.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Lg58M3/Sources/Safari/Mac/Safari/WebDriver/External/HTTPServer/CocoaHTTPServer/Core/Mime/MultipartMessageHeader.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Lg58M3/Sources/Safari/Mac/Safari/WebDriver/External/HTTPServer/CocoaHTTPServer/Core/Mime/MultipartMessageHeaderField.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Lg58M3/Sources/Safari/Mac/Safari/WebDriver/External/HTTPServer/CocoaHTTPServer/Core/Responses/HTTPAsyncFileResponse.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Lg58M3/Sources/Safari/Mac/Safari/WebDriver/External/HTTPServer/CocoaHTTPServer/Core/Responses/HTTPFileResponse.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Lg58M3/Sources/Safari/Mac/Safari/WebDriver/Framework/WDDiagnosticUtilities.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Lg58M3/Sources/Safari/Mac/Safari/WebDriver/Framework/WDRemoteSessionHost.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Lg58M3/Sources/Safari/Mac/Safari/WebDriver/Framework/WDSafariDriverMain.mm"
+- "22625.1.22.11.4"
+- "hdp:b:"
+```

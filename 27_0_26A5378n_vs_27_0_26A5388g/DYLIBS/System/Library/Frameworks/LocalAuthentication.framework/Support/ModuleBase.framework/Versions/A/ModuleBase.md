@@ -1,0 +1,35 @@
+## ModuleBase
+
+> `/System/Library/Frameworks/LocalAuthentication.framework/Support/ModuleBase.framework/Versions/A/ModuleBase`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-2319.0.33.0.1
++2319.0.46.0.0
+   __TEXT.__text: 0x8378
+   __TEXT.__objc_methlist: 0xafc
+-  __TEXT.__const: 0xf0
++  __TEXT.__const: 0xe8
+   __TEXT.__cstring: 0xa1e
+   __TEXT.__oslogstring: 0x7f6
+   __TEXT.__ustring: 0xc
+```

@@ -1,0 +1,1708 @@
+## StartupDiskWidgetExtension
+
+> `/System/Library/ExtensionKit/Extensions/StartupDiskWidgetExtension.appex/Contents/MacOS/StartupDiskWidgetExtension`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_entry`
+
+```diff
+
+-909.0.0.0.0
+-  __TEXT.__text: 0x26d1c
+-  __TEXT.__auth_stubs: 0xd80
+-  __TEXT.__objc_stubs: 0x41a0
+-  __TEXT.__objc_methlist: 0x163c
+-  __TEXT.__const: 0xb19
+-  __TEXT.__gcc_except_tab: 0x948
+-  __TEXT.__objc_methname: 0x47d7
+-  __TEXT.__cstring: 0x1e0f
+-  __TEXT.__oslogstring: 0x198f
+-  __TEXT.__objc_classname: 0x2da
+-  __TEXT.__objc_methtype: 0x844
+-  __TEXT.__ustring: 0x16
+-  __TEXT.__swift5_typeref: 0x424
+-  __TEXT.__swift5_reflstr: 0x112
+-  __TEXT.__swift5_assocty: 0xe0
+-  __TEXT.__constg_swiftt: 0x2bc
+-  __TEXT.__swift5_fieldmd: 0x11c
+-  __TEXT.__swift5_proto: 0x78
+-  __TEXT.__swift5_types: 0x2c
+-  __TEXT.__swift_as_entry: 0x14
+-  __TEXT.__swift_as_ret: 0xc
+-  __TEXT.__swift_as_cont: 0x10
++912.0.0.0.0
++  __TEXT.__text: 0x8730
++  __TEXT.__auth_stubs: 0x890
++  __TEXT.__objc_stubs: 0xa0
++  __TEXT.__objc_methlist: 0x1b4
++  __TEXT.__swift5_typeref: 0x62e
++  __TEXT.__const: 0x12b4
++  __TEXT.__swift5_reflstr: 0x1c1
++  __TEXT.__swift5_assocty: 0x1c8
++  __TEXT.__constg_swiftt: 0x2c0
++  __TEXT.__swift5_fieldmd: 0x17c
++  __TEXT.__cstring: 0x706
++  __TEXT.__swift5_proto: 0xec
++  __TEXT.__swift5_types: 0x38
++  __TEXT.__swift_as_entry: 0x50
++  __TEXT.__swift_as_ret: 0x34
++  __TEXT.__swift_as_cont: 0x24
++  __TEXT.__objc_classname: 0x11a
++  __TEXT.__objc_methname: 0x307
++  __TEXT.__objc_methtype: 0xe4
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0x918
+-  __TEXT.__eh_frame: 0x1a0
+-  __DATA_CONST.__const: 0xc58
+-  __DATA_CONST.__cfstring: 0x13c0
+-  __DATA_CONST.__objc_classlist: 0xa8
+-  __DATA_CONST.__objc_protolist: 0x58
++  __TEXT.__unwind_info: 0x448
++  __TEXT.__eh_frame: 0x3d8
++  __DATA_CONST.__const: 0x498
++  __DATA_CONST.__objc_classlist: 0x20
++  __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__objc_superrefs: 0x60
+-  __DATA_CONST.__objc_intobj: 0x78
+-  __DATA_CONST.__objc_arraydata: 0x60
+-  __DATA_CONST.__objc_arrayobj: 0x78
+-  __DATA_CONST.__auth_got: 0x6d0
+-  __DATA_CONST.__got: 0x450
+-  __DATA_CONST.__auth_ptr: 0x470
+-  __DATA.__objc_const: 0x2250
+-  __DATA.__objc_selrefs: 0x13c0
+-  __DATA.__objc_ivar: 0x180
+-  __DATA.__objc_data: 0x670
+-  __DATA.__data: 0x7ba
+-  __DATA.__common: 0x80
+-  __DATA.__bss: 0xf80
++  __DATA_CONST.__objc_protorefs: 0x10
++  __DATA_CONST.__auth_got: 0x450
++  __DATA_CONST.__got: 0x120
++  __DATA_CONST.__auth_ptr: 0x620
++  __DATA.__objc_const: 0x3e0
++  __DATA.__objc_selrefs: 0x110
++  __DATA.__objc_data: 0x120
++  __DATA.__data: 0x660
++  __DATA.__bss: 0x1da0
++  __DATA.__common: 0xa8
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+-  - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+-  - /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+-  - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+-  - /System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
++  - /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+-  - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+-  - /System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication
+-  - /System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+-  - /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+-  - /System/Library/Frameworks/Security.framework/Versions/A/Security
+-  - /System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+-  - /System/Library/Frameworks/WidgetKit.framework/Versions/A/WidgetKit
+   - /System/Library/PrivateFrameworks/Bootability.framework/Versions/A/Bootability
+   - /System/Library/PrivateFrameworks/ConfigurationProfiles.framework/Versions/A/ConfigurationProfiles
+-  - /System/Library/PrivateFrameworks/DiskManagement.framework/Versions/A/DiskManagement
+   - /System/Library/PrivateFrameworks/IASUtilities.framework/Versions/A/IASUtilities
+-  - /System/Library/PrivateFrameworks/IASUtilitiesCore.framework/Versions/A/IASUtilitiesCore
+-  - /System/Library/PrivateFrameworks/LocalAuthenticationRecoveryUI.framework/Versions/A/LocalAuthenticationRecoveryUI
+   - /System/Library/PrivateFrameworks/Settings.framework/Versions/A/Settings
+   - /System/Library/PrivateFrameworks/StorageKit.framework/Versions/A/StorageKit
+   - /System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration
+
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIOKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 832
+-  Symbols:   350
+-  CStrings:  1364
++  Functions: 320
++  Symbols:   73
++  CStrings:  101
+ 
+Symbols:
++ _malloc_size
++ _memmove
++ _swift_arrayInitWithCopy
++ _swift_errorInMain
++ _swift_errorRelease
++ _swift_isUniquelyReferenced_nonNull_native
+- OBJC_IVAR_$_SDSystem._bootCurrentlyInProgress
+- _ACMContextCreateWithExternalForm
+- _ACMContextDelete
+- _ACMKernelControl
+- _BYBootOptionAllowLocalAuthenticationPrompt
+- _BYBootOptionForceCreateLocalPolicy
+- _BYBootOptionForceInstallBootObjects
+- _BYBootOptionForcePersonalization
+- _BYBootOptionSecurityMode
+- _BYBootOptionSetBoot
+- _BYBootOptionSetBootOnce
+- _BYBootOptionSkipVerification
+- _CFBooleanGetTypeID
+- _CFBooleanGetValue
+- _CFBundleCreate
+- _CFDictionaryGetValue
+- _CFGetTypeID
+- _CFRelease
+- _DADiskCreateFromBSDName
+- _DASessionCreate
+- _DUUnlockVolumeWithOptions
+- _IASNVRAMNamespaceSystem
+- _IOBSDNameMatching
+- _IOConnectCallScalarMethod
+- _IOConnectCallStructMethod
+- _IOObjectConformsTo
+- _IOObjectRelease
+- _IORegistryEntryCreateCFProperty
+- _IORegistryEntrySearchCFProperty
+- _IOServiceGetMatchingService
+- _IOServiceMatching
+- _IOServiceOpen
+- _LibCall_ACMContextCreateWithExternalForm
+- _LibCall_ACMContextDelete
+- _LibCall_ACMKernelControl
+- _LibCall_ACMKernelControl_Block
+- _LibCall_BuildCommand
+- _NSApp
+- _NSEqualRects
+- _NSImageNameComputer
+- _NSIsEmptyRect
+- _NSLocalizedFailureErrorKey
+- _NSLocalizedRecoverySuggestionErrorKey
+- _NSPOSIXErrorDomain
+- _NSStringFromRect
+- _NSTemporaryDirectory
+- _NSUnderlyingErrorKey
+- _NSZeroPoint
+- _NSZeroRect
+- _NSZeroSize
+- _OBJC_CLASS_$_AdminAuthenticator
+- _OBJC_CLASS_$_AuthenticatedOperation
+- _OBJC_CLASS_$_AuthenticationConfiguration
+- _OBJC_CLASS_$_CATransaction
+- _OBJC_CLASS_$_DMManager
+- _OBJC_CLASS_$_IASNVRAM
+- _OBJC_CLASS_$_IASPickerViewController
+- _OBJC_CLASS_$_LAContext
+- _OBJC_CLASS_$_LARUIAuthenticationDialog
+- _OBJC_CLASS_$_NSAlert
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSAttributedString
+- _OBJC_CLASS_$_NSBezierPath
+- _OBJC_CLASS_$_NSBundle
+- _OBJC_CLASS_$_NSCollectionViewItem
+- _OBJC_CLASS_$_NSColor
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSData
+- _OBJC_CLASS_$_NSDate
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSDistributedNotificationCenter
+- _OBJC_CLASS_$_NSError
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSFont
+- _OBJC_CLASS_$_NSGraphicsContext
+- _OBJC_CLASS_$_NSHelpManager
+- _OBJC_CLASS_$_NSImage
+- _OBJC_CLASS_$_NSIndexSet
+- _OBJC_CLASS_$_NSLayoutConstraint
+- _OBJC_CLASS_$_NSLocale
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableAttributedString
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSMutableSet
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSPropertyListSerialization
+- _OBJC_CLASS_$_NSResponder
+- _OBJC_CLASS_$_NSSet
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSTask
+- _OBJC_CLASS_$_NSTextAttachment
+- _OBJC_CLASS_$_NSTimer
+- _OBJC_CLASS_$_NSURL
+- _OBJC_CLASS_$_NSUUID
+- _OBJC_CLASS_$_NSUserDefaults
+- _OBJC_CLASS_$_NSView
+- _OBJC_CLASS_$_NSViewController
+- _OBJC_CLASS_$_NSWindowController
+- _OBJC_CLASS_$_NSXPCConnection
+- _OBJC_CLASS_$_NSXPCInterface
+- _OBJC_CLASS_$_ODNode
+- _OBJC_CLASS_$_ODQuery
+- _OBJC_CLASS_$_ODSession
+- _OBJC_CLASS_$_SDAuthenticationManager
+- _OBJC_CLASS_$_SDDiskSystem
+- _OBJC_CLASS_$_SDError
+- _OBJC_CLASS_$_SDHelperClient
+- _OBJC_CLASS_$_SDInstallMediaSystem
+- _OBJC_CLASS_$_SDKeyGrabber
+- _OBJC_CLASS_$_SDODDatabase
+- _OBJC_CLASS_$_SDOwnerUserPicker
+- _OBJC_CLASS_$_SDPickerController
+- _OBJC_CLASS_$_SDSecurityPolicy
+- _OBJC_CLASS_$_SDSystem
+- _OBJC_CLASS_$_SDTRMConfigPolicyViewController
+- _OBJC_CLASS_$_SDTargetSelectViewItem
+- _OBJC_CLASS_$_SDUser
+- _OBJC_CLASS_$_SDUserPasswordPrompt
+- _OBJC_CLASS_$_SDUserPickerController
+- _OBJC_CLASS_$_SDUtilities
+- _OBJC_CLASS_$_SKAPFSSnapshotDisk
+- _OBJC_CLASS_$_SKBindableDisk
+- _OBJC_CLASS_$_SKCSDisk
+- _OBJC_METACLASS_$_NSCollectionViewItem
+- _OBJC_METACLASS_$_NSError
+- _OBJC_METACLASS_$_NSResponder
+- _OBJC_METACLASS_$_NSViewController
+- _OBJC_METACLASS_$_NSWindowController
+- _OBJC_METACLASS_$_SDAuthenticationManager
+- _OBJC_METACLASS_$_SDDiskSystem
+- _OBJC_METACLASS_$_SDError
+- _OBJC_METACLASS_$_SDHelperClient
+- _OBJC_METACLASS_$_SDInstallMediaSystem
+- _OBJC_METACLASS_$_SDKeyGrabber
+- _OBJC_METACLASS_$_SDODDatabase
+- _OBJC_METACLASS_$_SDOwnerUserPicker
+- _OBJC_METACLASS_$_SDPickerController
+- _OBJC_METACLASS_$_SDSecurityPolicy
+- _OBJC_METACLASS_$_SDSystem
+- _OBJC_METACLASS_$_SDTRMConfigPolicyViewController
+- _OBJC_METACLASS_$_SDTargetSelectViewItem
+- _OBJC_METACLASS_$_SDUser
+- _OBJC_METACLASS_$_SDUserPasswordPrompt
+- _OBJC_METACLASS_$_SDUserPickerController
+- _OBJC_METACLASS_$_SDUtilities
+- _SACLORegisterLogoutStatusCallbacks
+- _SACLOStartLogout
+- _SDErrorDomain
+- _SDErrorIsLocalAuthenticationRequired
+- _SDErrorIsSystemHasNoOwners
+- _SDErrorIsUnmountedVolumeHasNoOwners
+- _SDErrorIsVolumeHasNoOwners
+- _SDLogObject
+- _SDShouldLogToInstallLog
+- _SDSystemErrorDomain
+- _SKAPFSVolumeRoleData
+- _SKAPFSVolumeRolePreboot
+- _SKAPFSVolumeRoleSystem
+- _SKAPFSVolumeRoleVM
+- _SecGenericPasswordCreate
+- _SecPasswordAction
+- _TISCopyCurrentKeyboardInputSource
+- _TISGetInputSourceProperty
+- __Block_object_assign
+- __Block_object_dispose
+- __NSConcreteGlobalBlock
+- __NSConcreteStackBlock
+- __NSDictionaryOfVariableBindings
+- __Unwind_Resume
+- ___CFConstantStringClassReference
+- ___NSDictionary0__struct
+- ___assert_rtn
+- ___kCFBooleanFalse
+- ___kCFBooleanTrue
+- ___objc_personality_v0
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __dispatch_main_q
+- __kCFSystemVersionBuildVersionKey
+- __kCFSystemVersionProductVersionExtraKey
+- __kCFSystemVersionProductVersionKey
+- __os_log_debug_impl
+- __os_log_default
+- __os_log_error_impl
+- __os_log_impl
+- __os_log_send_and_compose_impl
+- __swift_FORCE_LOAD_$_swiftCoreMIDI
+- _acm_mem_alloc
+- _acm_mem_alloc_data
+- _acm_mem_alloc_info
+- _acm_mem_free
+- _acm_mem_free_data
+- _acm_mem_free_info
+- _audit_token_to_auid
+- _audit_token_to_ruid
+- _bootpolicy_default_policy_volume_path_value
+- _bootpolicy_default_sfr_manifest_path_value
+- _bootpolicy_get_current_os_type
+- _bootpolicy_get_current_os_type_restrictions_override_status
+- _bootpolicy_get_local_policy_boolean_tag
+- _bootpolicy_get_local_policy_pairing_status
+- _bootpolicy_get_security_mode
+- _bootpolicy_has_local_policy_support
+- _bootpolicy_mdm_is_dep_managed
+- _bootpolicy_mdm_update_user_enrolled_mode
+- _bootpolicy_os_type_to_string
+- _bootpolicy_update_local_policy_boolean_tag
+- _bootpolicy_update_local_policy_nonce_begin
+- _bootpolicy_update_local_policy_nonce_end
+- _bootpolicy_update_local_policy_nonce_reset
+- _bzero
+- _calloc
+- _dispatch_after
+- _dispatch_async
+- _dispatch_get_global_queue
+- _dispatch_once
+- _dispatch_queue_attr_make_with_qos_class
+- _dispatch_queue_create
+- _dispatch_semaphore_create
+- _dispatch_semaphore_signal
+- _dispatch_semaphore_wait
+- _dispatch_sync
+- _dispatch_time
+- _gACMLoggingLevel
+- _gStartupSecurityUtilityMode
+- _getenv
+- _getpid
+- _getuid
+- _kCFAllocatorDefault
+- _kCFBooleanTrue
+- _kIOMainPortDefault
+- _kIOMasterPortDefault
+- _kODAttributeTypeGUID
+- _kODAttributeTypeStandardOnly
+- _kODAttributeTypeUniqueID
+- _kODRecordTypeUsers
+- _kODSessionLocalPath
+- _kSKDiskFileSystemAPFS
+- _kSKDiskMountOptionMountPoint
+- _kSKDiskMountOptionToolOptions
+- _kSKDiskRoleBooter
+- _kSKDiskRoleSnapshot
+- _kSKDiskTypeAPFSLV
+- _kTISPropertyKeyLayoutNumber
+- _mach_task_self_
+- _memcpy
+- _memset_s
+- _objc_alloc
+- _objc_alloc_init
+- _objc_autorelease
+- _objc_autoreleaseReturnValue
+- _objc_begin_catch
+- _objc_claimAutoreleasedReturnValue
+- _objc_destroyWeak
+- _objc_end_catch
+- _objc_enumerationMutation
+- _objc_exception_rethrow
+- _objc_getProperty
+- _objc_initWeak
+- _objc_loadWeakRetained
+- _objc_opt_class
+- _objc_opt_isKindOfClass
+- _objc_opt_new
+- _objc_opt_respondsToSelector
+- _objc_retainAutorelease
+- _objc_retainAutoreleaseReturnValue
+- _objc_setProperty_atomic
+- _objc_setProperty_atomic_copy
+- _objc_storeStrong
+- _objc_storeWeak
+- _objc_sync_enter
+- _objc_sync_exit
+- _objc_terminate
+- _objc_unsafeClaimAutoreleasedReturnValue
+- _os_log_create
+- _os_log_type_enabled
+- _os_variant_is_basesystem
+- _os_variant_is_recovery
+- _printf
+- _qos_class_self
+- _syslog$DARWIN_EXTSN
+- _task_info
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.txv2K0/Sources/StartupDisk/StartupDiskWidgetExtension/AppIntents/GetStartupDiskIntent.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.txv2K0/Sources/StartupDisk/StartupDiskWidgetExtension/SDDiskDelegate.swift"
++ "?StartupSearchGroup"
++ "General → Startup Disk"
++ "Target Disk Mode"
++ "com.apple.Settings"
++ "com.apple.Startup-Disk-Settings.extension"
++ "settings-navigation://com.apple.Settings.StartupDisk"
++ "startupDisk"
++ "targetDiskMode"
+- ""
+- " "
+- " %@"
+- "!"
+- "\""
+- "%"
+- "%@ %@"
+- "%@: Setting version from cached preboot info after disk changed"
+- "%@:%ld"
+- "%d"
+- "%d.%d.%d"
+- "%li"
+- "%s"
+- "%s failed because group UUID is nil (not an APFS disk?)"
+- "%s failed with error %s"
+- "%s is not APFS. Does not qualify for pairing check."
+- "%s,%s: GoldenGate volume, ignoring potentially erroneous VolBootable flag."
+- "%s,%s: VolBootable flag = %s."
+- "%s,%s: failed to read bootcaches."
+- "%s,%s: not macOS because bootcaches.plist does not exist."
+- "%s,%s: not macOS because isMacOSBootableSystem returned NO."
+- "%s: %s: CS[%u] acquired.\n"
+- "%s: %s: CS[%u] deleted (contextDestroyed=%s).\n"
+- "%s: %s: Server version is %d.\n"
+- "%s: %s: called.\n"
+- "%s: %s: cmd(%u) on CS[%u] -> err 0x%x (%d).\n"
+- "%s: %s: cmd(%u) on CS[%u] -> ok.\n"
+- "%s: %s: log level set to %d.\n"
+- "%s: %s: mem: type=%s ptr=%p size=%u (total=%u raw=%u data=%u types=%u) %s:%d (%s).\n"
+- "%s: %s: returning, -> ctx = %p.\n"
+- "%s: %s: returning, err = %ld, code=%u.\n"
+- "%s: %s: returning, err = %ld.\n"
+- "%s: %s: returning.\n"
+- "%s: Active passcode event, showing recovery auth dialog"
+- "%s: Authentication failed"
+- "%s: Closing dialog and calling event reply block"
+- "%s: Externalized local authentication context is nil"
+- "%s: Failed to evaluate LAPolicyBoot: %@"
+- "%s: In the recovery OS, setting a recovery UI delegate"
+- "%s: Not active passcode event, calling reply block"
+- "%s: event = %@, params = %@"
+- "%s: local authentication context = %i, verification = %i"
+- "%s: result = %@"
+- "%s: volume with identifier %s has an invalid volume group UUID."
+- "%s: volume with identifier %s is not APFS"
+- "***ERROR***"
+- "-[SDAuthenticationManager authenticationDialogFinishedWithResult:]"
+- "-[SDAuthenticationManager event:params:reply:]"
+- "-[SDAuthenticationManager init]"
+- "-[SDAuthenticationManager obtainLocalAuthenticationWithError:]"
+- "-[SDDiskSystem _setBootWithLocalAuthenticationContext:verification:ignoreOwners:error:]"
+- "-[SDHelperClient allOwners:onDeviceWithError:]_block_invoke"
+- "-[SDHelperClient clearForcedRecoveryKeys]_block_invoke"
+- "-[SDHelperClient grantOwnershipToUser:fromUser:error:]_block_invoke"
+- "-[SDHelperClient hardReboot]_block_invoke"
+- "-[SDHelperClient hardShutdown]_block_invoke"
+- "-[SDHelperClient makeBootableWithGroupUUID:localAuthenticationContext:options:error:]_block_invoke"
+- "-[SDHelperClient mountDevNode:]_block_invoke"
+- "-[SDHelperClient setBootCommand:bootOnce:rebootOnSuccess:]_block_invoke"
+- "-[SDHelperClient setPrevLangAndKbd]_block_invoke"
+- "-[SDHelperClient setRecoveryModeBoot]_block_invoke"
+- "-[SDHelperClient setRecoveryModeSFRUpdateForVolumeGroupUUID:]"
+- "-[SDHelperClient setRecoveryModeSFRUpdateForVolumeGroupUUID:]_block_invoke"
+- "-[SDHelperClient systemHasOwners]_block_invoke"
+- "-[SDHelperClient unlockDevNode:forUUID:password:]_block_invoke"
+- "-[SDHelperClient usersForMountPoint:outUsers:error:]_block_invoke"
+- "-[SDHelperClient usersForVolumeWithBSDName:outUsers:error:]_block_invoke"
+- "-[SDSecurityPolicy getAPFSVolumeGroupUUIDBytes:]"
+- "-r"
+- "."
+- ".IAPhysicalMedia"
+- ".VolumeIcon.icns"
+- "/"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oe00L5/Sources/StartupDisk/StartupDiskWidgetExtension/AppIntents/GetStartupDiskIntent.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.oe00L5/Sources/StartupDisk/StartupDiskWidgetExtension/SDDiskDelegate.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wifYPg/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.wifYPg/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
+- "/Local/Default"
+- "/Local/Target"
+- "/System/Volumes/Data"
+- "/private/var/db/dslocal/nodes/Default"
+- "/sbin/shutdown"
+- "/usr/standalone/bootcaches.plist"
+- "11."
+- "11.3.0"
+- "2"
+- ":"
+- "<data>"
+- "@\"<SDKeyGrabberDelegate>\""
+- "@\"<SDPickerControllerDelegate>\""
+- "@\"DMManager\""
+- "@\"IASPickerViewController\""
+- "@\"LAContext\""
+- "@\"LARUIAuthenticationDialog\""
+- "@\"NSArray\""
+- "@\"NSArrayController\""
+- "@\"NSBox\""
+- "@\"NSButton\""
+- "@\"NSData\""
+- "@\"NSDictionary\""
+- "@\"NSImage\""
+- "@\"NSLayoutConstraint\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableSet\""
+- "@\"NSNumber\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSPopUpButton\""
+- "@\"NSProgressIndicator\""
+- "@\"NSSet\""
+- "@\"NSString\""
+- "@\"NSTextField\""
+- "@\"NSTimer\""
+- "@\"NSURL\""
+- "@\"NSView\""
+- "@\"NSWindow\""
+- "@\"NSXPCConnection\""
+- "@\"ODNode\""
+- "@\"ODSession\""
+- "@\"SDAuthenticationManager\""
+- "@\"SDDiskSystem\""
+- "@\"SDKeyGrabber\""
+- "@\"SDSecurityPolicyViewController\""
+- "@\"SDTRMConfigPolicyViewController\""
+- "@\"SDUserPickerDelegate\""
+- "@\"SKBindableDisk\""
+- "@20@0:8i16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8@?16"
+- "@24@0:8Q16"
+- "@24@0:8^@16"
+- "@28@0:8I16^@20"
+- "@32@0:8@16@24"
+- "@32@0:8@16^@24"
+- "@32@0:8q16@24"
+- "@40@0:8@16@24@32"
+- "@40@0:8q16q24@32"
+- "@?"
+- "@?16@0:8"
+- "AB"
+- "ACM"
+- "ACMContextCreateWithExternalForm"
+- "ACMContextDelete"
+- "ACMHandleWithPayload"
+- "ACMKernelControl"
+- "ACMLib"
+- "ACMTRMConfigProxy_PolicyModePresentationFlags_Get failed in _initPopupButton. Error code %d"
+- "ACMTRMConfigProxy_PolicyModePresentationFlags_Get failed. Error code %d"
+- "APFS disk %s has no container"
+- "APFS volume group UUID for %s was nil. Recovery pairing check failed."
+- "AUTH_COLLECT_PASSWORD_INCORRECT"
+- "AUTH_COLLECT_PASSWORD_PROMPT"
+- "An attached installer is older than the minimum of 11.3 which we support. (Attached Version: %@)"
+- "AppName"
+- "AppleAPFSVolume"
+- "AppleCredentialManager"
+- "AppleLanguages"
+- "Authentication returned error: %s"
+- "Authentication succeeded."
+- "Authorize Users..."
+- "Authorize…"
+- "B"
+- "B24@0:8[16C]16"
+- "B24@0:8^@16"
+- "B28@0:8B16^@20"
+- "B32@0:8@16B24B28"
+- "B32@0:8@16^@24"
+- "B32@0:8@16^B24"
+- "B32@0:8^@16^@24"
+- "B40@0:8@16@24^@32"
+- "B40@0:8@16B24B28^@32"
+- "B40@0:8@16^@24^@32"
+- "B48@0:8@16@24@32^@40"
+- "Bless failed: %@"
+- "Bootability operation failed: %@"
+- "Bootability operation succeeded. Proceeding to set allowKexts to %d and allowRemoteManagement to %d"
+- "Cancel"
+- "Clear Password"
+- "Configuration profile changed, %@ing changes to the startup disk."
+- "Container %s has no preboot volume in container.volumes yet"
+- "Container for APFS disk %s has no disk identifier"
+- "Continue"
+- "Could not bless disk: %@"
+- "DESCRIPTION"
+- "DISABLED: %s,%s REASON: Not paired to current recovery"
+- "Data Dev Node"
+- "Data Mount Point"
+- "Deferring %s pending preboot info"
+- "Device Characteristics"
+- "Discarding %s: container preboot probed but no version info for this volume"
+- "Dismiss"
+- "ERROR_AUTHENTICATION"
+- "ERROR_BLESS_FAILED"
+- "ERROR_BLESS_VERSION_UNSUPPORTED_DESCRIPTION"
+- "ERROR_BLESS_VERSION_UNSUPPORTED_TITLE"
+- "ERROR_MEDIUM_SECURITY_OFFER_DESCRIPTION"
+- "ERROR_MEDIUM_SECURITY_OFFER_TITLE"
+- "ERROR_NETWORK_REQUIRED_DESCRIPTION"
+- "ERROR_NETWORK_REQUIRED_TITLE"
+- "ERROR_NULL_DISK"
+- "ERROR_SET_SD_PROMPT"
+- "ERROR_SYSTEM_HAS_NO_OWNERS"
+- "ERROR_SYSTEM_HAS_NO_OWNERS_DESCRIPTION"
+- "ERROR_TATSU_REFUSED_DESCRIPTION"
+- "ERROR_TATSU_REFUSED_TITLE"
+- "ERROR_TATSU_REFUSED_TRY_RECOVERY_OS_DESCRIPTION"
+- "ERROR_TATSU_REFUSED_TRY_RECOVERY_OS_TITLE"
+- "ERROR_UNMOUNTED_VOLUME_HAS_NO_OWNERS_DESCRIPTION"
+- "ERROR_VOLUME_HAS_NO_OWNERS"
+- "ERROR_VOLUME_HAS_NO_OWNERS_DESCRIPTION"
+- "ERROR_VOLUME_HAS_NO_OWNERS_IS_BOOTED"
+- "ERROR_VOLUME_INVALID_DESCRIPTION"
+- "ERROR_VOLUME_INVALID_TITLE"
+- "Encrypted Disk"
+- "Error mounting preboot (%@): %@"
+- "Failed to acquire the existing TRM/HIDRM policy mode. Error code %d"
+- "Failed to create temporary directory: %@"
+- "Failed to ensure that all recovery boot keys were cleared."
+- "Failed to get UUID for currnt user UID. Error: %s"
+- "Failed to get system owners with error.\nError: %s"
+- "Failed to get the audit token for current task, falling back to getuid()."
+- "Failed to get users for mount point %s. Error: %s"
+- "Failed to get users for system data volume. Error: %s"
+- "Failed to grant ownership from %s to %s.\nError: %s"
+- "Failed to instantiate .IAPhysicalMedia into an NSDictionary."
+- "Failed to obtain local authentication. %@"
+- "Failed to obtain local authentication: %@"
+- "Failed to od node. Error: %s"
+- "Failed to open OD Database: %s"
+- "Failed to open OD database"
+- "Failed to set one-time-boot-command to 'fsboot-safe'."
+- "Failed to set the TRM/HIDRM policy mode. Error code %d"
+- "Failed to unmount preboot (%@): %@"
+- "FireWire"
+- "Granted ownership from %s to %s."
+- "H:|[diskPickerView]|"
+- "HIDE: %s,%s REASON: FireWire volume."
+- "HIDE: %s,%s REASON: VM volume."
+- "HIDE: %s,%s REASON: data volume."
+- "HIDE: %s,%s REASON: disk image."
+- "HIDE: %s,%s REASON: has invalid startup key"
+- "HIDE: %s,%s REASON: preboot volume."
+- "Helper connection offline"
+- "Hiding livefs parent of bootable snapshot: %@ (%@)"
+- "I"
+- "I16@0:8"
+- "I24@0:8Q16"
+- "IOService"
+- "Invalid Startup Disk"
+- "Invalid configuration! level == BYBootSecurityModeFull and allowKexts == YES"
+- "Invalid configuration! level == BYBootSecurityModeFull and allowRemoteManagement == YES"
+- "Is Admin"
+- "Is Owner"
+- "Is Secure Token"
+- "LARUIAuthenticationDialogDelegate"
+- "LAUIDelegate"
+- "LibCall.c"
+- "LibCall_ACMContextCreateWithExternalForm"
+- "LibCall_ACMContextDelete"
+- "LibCall_ACMKernelControl"
+- "LibCall_ACMKernelControl_Block"
+- "LibCall_BuildCommand"
+- "Localizable"
+- "Mounting preboot (%@) on %@"
+- "NO"
+- "NSCoding"
+- "NSSecureCoding"
+- "NULL"
+- "Name: %@\nShort Name: %@\nUUID: %@\nAdmin: %s\nOwner: %s\nSecure Token: %s\nVolume Name: %@"
+- "Obtained version information from %@: %@"
+- "Ownership could not be granted for an existing owner, falling back to all owners."
+- "PIDtoQuitLast"
+- "Password validation for AdminWithST: %s - Failure\nError: %s"
+- "Password validation for AdminWithST: %s - Success"
+- "PolicyMode presentation flags: 0x%x"
+- "Preboot mountpoint unexpectedly nil (%@)"
+- "Proceeding to call bootpolicy_mdm_update_user_enrolled_mode."
+- "Proceeding to call bootpolicy_update_local_policy_boolean_tag."
+- "ProductBuildVersion"
+- "ProductBuildVersionOverride"
+- "ProductVersion"
+- "Q"
+- "Query failed. Error: %s"
+- "RECOVERY_BOOT_MSG"
+- "RESTART_MSG"
+- "RESTART_PROMPT"
+- "Restart"
+- "Restart result: %i"
+- "Restart..."
+- "Restarting..."
+- "Retrying with local authentication"
+- "SD is locked, will not allow bless."
+- "SDAuthenticationManager"
+- "SDDiskSystem"
+- "SDDiskView"
+- "SDError"
+- "SDErrorDomain"
+- "SDErrorTypeBootPicker"
+- "SDErrorTypeDefault"
+- "SDErrorTypeStartupSecurityUtility"
+- "SDError_%ld"
+- "SDError_Title_%ld"
+- "SDHelperClient"
+- "SDHelperProtocol"
+- "SDInstallMediaSystem"
+- "SDKeyGrabber"
+- "SDKeyGrabberDelegate"
+- "SDODDatabase"
+- "SDOwnerUserPicker"
+- "SDOwnerUserPickerView"
+- "SDPickerController"
+- "SDProfileRestrictionsObserverDelegate"
+- "SDSecurityPolicy"
+- "SDSecurityPolicy setting securityLevel: %lu, allowKernelExtensions: %d, allowRemoteManagement: %d"
+- "SDSystem"
+- "SDSystemErrorDomain"
+- "SDTRMConfigPolicyViewController"
+- "SDTargetSelectViewItem"
+- "SDUser"
+- "SDUserPasswordPrompt"
+- "SDUserPickerController"
+- "SDUserPickerView"
+- "SDUtilities"
+- "SECURITY_POLICY_BUTTON_TITLE"
+- "SEC_POLICY_INVALID_ENVIRONMENT_BUTTON"
+- "SEC_POLICY_INVALID_ENVIRONMENT_MESSAGE"
+- "SEC_POLICY_INVALID_ENVIRONMENT_TITLE"
+- "SELECT_OWNER_POPUP_FORMAT"
+- "SELECT_OWNER_PROMPT"
+- "SELECT_OWNER_PROMPT_INFO"
+- "SHOW: %s,%s REASON: locked."
+- "SHOW: %s,%s REASON: macOS"
+- "STARTUP_DISK_ENCRYPTED_DISK_TOOLTIP"
+- "STARTUP_DISK_NOT_PAIRED_DISK_DESCRIPTION"
+- "STARTUP_DISK_NOT_PAIRED_DISK_TOOLTIP"
+- "STARTUP_DISK_WINDOW_PRIMARY_LABEL"
+- "STARTUP_DISK_WINDOW_PRIMARY_LABEL_DISABLED_TOOLTIP"
+- "STARTUP_DISK_WINDOW_TITLE"
+- "STARTUP_SECURITY_UTILITY_ENCRYPTED_DISK_TOOLTIP"
+- "STARTUP_SECURITY_UTILITY_WINDOW_PRIMARY_LABEL"
+- "STARTUP_SECURITY_UTILITY_WINDOW_TITLE"
+- "Setting version information for %@: %@"
+- "Short Name"
+- "Skipping bootpolicy_mdm_update_user_enrolled_mode because allowRemoteManagement is unchanged."
+- "Skipping bootpolicy_update_local_policy_boolean_tag because allowKexts is unchanged."
+- "Starting Bootability operation for %@ with options: %@"
+- "StartupDisk"
+- "Successfully blessed disk"
+- "Successfully set startup disk: %@"
+- "System is in overriden state, allowing modifications of security settings."
+- "System not booted in 1TR, running in os-type: '%s'"
+- "System/Library/CoreServices/SystemVersion.plist"
+- "T@\"<SDKeyGrabberDelegate>\",W,V_delegate"
+- "T@\"<SDPickerControllerDelegate>\",W,V_delegate"
+- "T@\"DMManager\",&,N,V_dmManager"
+- "T@\"IASPickerViewController\",&,V_diskPickerController"
+- "T@\"LAContext\",&,V_context"
+- "T@\"LARUIAuthenticationDialog\",&,V_recoveryAuthDialog"
+- "T@\"NSArray\",&,V_userList"
+- "T@\"NSArrayController\",W,V_arrayController"
+- "T@\"NSBox\",W,V_box"
+- "T@\"NSBox\",W,V_disabledTooltipBox"
+- "T@\"NSBox\",W,V_mainViewBottomDividerLineBox"
+- "T@\"NSBox\",W,V_mainViewBox"
+- "T@\"NSBox\",W,V_mainViewTopTitleDividerLineBox"
+- "T@\"NSBox\",W,V_selectionBox"
+- "T@\"NSButton\",W,V_helpButton"
+- "T@\"NSButton\",W,V_restartButton"
+- "T@\"NSButton\",W,V_securityPolicyButton"
+- "T@\"NSData\",&,V_userPictureData"
+- "T@\"NSDictionary\",&,N,V_physicalMediaDictionary"
+- "T@\"NSImage\",&,V_userPictureImage"
+- "T@\"NSLayoutConstraint\",&,V_containingContentHeightConstraint"
+- "T@\"NSLayoutConstraint\",&,V_disabledTooltipContainerHeightConstraint"
+- "T@\"NSLayoutConstraint\",W,V_disabledTooltipContainerTopConstraint"
+- "T@\"NSLayoutConstraint\",W,V_helpButtonBottomConstraint"
+- "T@\"NSMutableArray\",&,V_allSystems"
+- "T@\"NSMutableArray\",&,V_pendingDisks"
+- "T@\"NSMutableDictionary\",&,V_cachedPrebootVersionsByUUID"
+- "T@\"NSMutableSet\",&,V_probedContainerIDs"
+- "T@\"NSNumber\",&,N,V_diskPairedToRecoveryLocalPolicyCache"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_bootabilityQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_diskDiscoveryQueue"
+- "T@\"NSPopUpButton\",W,V_popupButton"
+- "T@\"NSProgressIndicator\",W,V_spinner"
+- "T@\"NSSet\",&,V_validBootOptions"
+- "T@\"NSString\",&,V_clearPassword"
+- "T@\"NSString\",&,V_currentStartupDiskVolumeUUID"
+- "T@\"NSString\",&,V_dataVolumeDevNode"
+- "T@\"NSString\",&,V_dataVolumeMountPoint"
+- "T@\"NSString\",&,V_lastPasswordWasIncorrectPrompt"
+- "T@\"NSString\",&,V_productBuildVersion"
+- "T@\"NSString\",&,V_prompt"
+- "T@\"NSString\",&,V_shortName"
+- "T@\"NSString\",&,V_shortVersionString"
+- "T@\"NSString\",&,V_userName"
+- "T@\"NSString\",&,V_uuid"
+- "T@\"NSString\",&,V_volumeName"
+- "T@\"NSString\",C,V_volumeUUID"
+- "T@\"NSString\",R"
+- "T@\"NSTextField\",W,V_applicationTitleLabel"
+- "T@\"NSTextField\",W,V_currentStartupDiskDescription"
+- "T@\"NSTextField\",W,V_disabledTooltipLabel"
+- "T@\"NSTextField\",W,V_diskDescriptionTextField"
+- "T@\"NSTimer\",&,V_helpTimer"
+- "T@\"NSURL\",&,N,V_applicationPath"
+- "T@\"NSView\",&,V_mainContainer"
+- "T@\"NSView\",W,V_containingContentView"
+- "T@\"NSView\",W,V_disabledTooltipContainer"
+- "T@\"NSView\",W,V_disabledTooltipView"
+- "T@\"NSView\",W,V_diskPickerPlaceholderView"
+- "T@\"NSView\",W,V_mainViewContainer"
+- "T@\"NSWindow\",W,V_sheetWindow"
+- "T@\"NSXPCConnection\",&,V_connection"
+- "T@\"ODNode\",&,V_node"
+- "T@\"ODSession\",&,V_session"
+- "T@\"SDAuthenticationManager\",&,V_authenticationManager"
+- "T@\"SDDiskSystem\",&,V_diskSystem"
+- "T@\"SDKeyGrabber\",&,V_keyGrabber"
+- "T@\"SDSecurityPolicyViewController\",W,V_securityPolicyViewController"
+- "T@\"SDTRMConfigPolicyViewController\",W,V_TRMConfigController"
+- "T@\"SDUserPickerDelegate\",W,V_pickerDelegate"
+- "T@\"SKBindableDisk\",&,V_disk"
+- "T@?,C,V_completionHandler"
+- "T@?,C,V_recoveryAuthEventReply"
+- "TB,R"
+- "TB,R,N"
+- "TB,V_allowKernelExtensions"
+- "TB,V_allowRemoteManagement"
+- "TB,V_allowStartupDiskChanges"
+- "TB,V_authenticated"
+- "TB,V_helpTimerFired"
+- "TB,V_isAdmin"
+- "TB,V_isDEPEnrolled"
+- "TB,V_isOwner"
+- "TB,V_isSecureToken"
+- "TB,V_optionHeld"
+- "TB,V_restarting"
+- "TB,V_showTRMConfigView"
+- "TB,V_uiBusy"
+- "TI,N,V_presentationFlags"
+- "TOOLTIP_STRING_FORMAT"
+- "TQ,V_level"
+- "TRM/HIDRM Policy is enabled with presentation flags: 0x%x"
+- "TRM/HIDRM selector is not visible. Presentation flags: 0x%x"
+- "TRMConfigController"
+- "TRM_CONFIG_POLICY_ALWAYS_ALLOW"
+- "TRM_CONFIG_POLICY_ASK_EVERY_TIME"
+- "TRM_CONFIG_POLICY_ASK_FOR_NEW_ACCESSORIES"
+- "TRM_CONFIG_POLICY_ASK_FOR_NEW_CONTROL_ACCESSORIES"
+- "TRM_CONFIG_POLICY_AUTOMATICALLY_ALLOW_WHEN_UNLOCKED"
+- "There is no AppName specified in .IAPhysicalMedia."
+- "Ti,N,V_selectedPolicyMode"
+- "Ti,V_keyCount"
+- "Timed out mounting preboot (%@)"
+- "Tq,V_errorType"
+- "UID from audit token is invalid, using ruid."
+- "UTF8String"
+- "UUID"
+- "UUIDString"
+- "Unable to get pairing status for volume %s. Error: %i"
+- "Unexpected PolicyMode string description='%s' - mapping doesn't exist."
+- "Unexpected PolicyMode='%d' - mapping doesn't exist."
+- "Unlock for volume UUID (%@) took %f seconds."
+- "Unlock..."
+- "Unmounted preboot (%@)"
+- "Updated PolicyMode from '%s' to '%s'."
+- "User Name"
+- "User Picture Data"
+- "User canceled authorizing owner."
+- "User failed to unlock disk"
+- "User volume is mounted at %s"
+- "User volume is not mounted. Will attempt to mount."
+- "User volume was unlocked and mounted at %s"
+- "UsersPopupButton"
+- "V:|[diskPickerView]|"
+- "VolBootable"
+- "Volume Name"
+- "WindowRect"
+- "YES"
+- "^{__DADisk=}"
+- "^{__DASession=}"
+- "_TRMConfigController"
+- "__OSINSTALL_ENVIRONMENT"
+- "_allDiskSystemClasses"
+- "_allSystems"
+- "_allowKernelExtensions"
+- "_allowRemoteManagement"
+- "_allowStartupDiskChanges"
+- "_applicationPath"
+- "_applicationTitleLabel"
+- "_arrayController"
+- "_authenticated"
+- "_authenticationManager"
+- "_bootCurrentlyInProgress"
+- "_bootOption"
+- "_bootabilityQueue"
+- "_box"
+- "_buildConnection"
+- "_buildDisabledTooltipLabelString"
+- "_cachedPrebootVersionsByUUID"
+- "_clearPassword"
+- "_completionHandler"
+- "_connection"
+- "_containingContentHeightConstraint"
+- "_containingContentView"
+- "_context"
+- "_currentStartupDiskDescription"
+- "_currentStartupDiskVolumeUUID"
+- "_daDiskRef"
+- "_daSession"
+- "_dataVolumeDevNode"
+- "_dataVolumeMountPoint"
+- "_delegate"
+- "_disabledTooltipBox"
+- "_disabledTooltipContainer"
+- "_disabledTooltipContainerHeightConstraint"
+- "_disabledTooltipContainerTopConstraint"
+- "_disabledTooltipLabel"
+- "_disabledTooltipView"
+- "_disk"
+- "_diskDescriptionTextField"
+- "_diskDiscoveryQueue"
+- "_diskPairedToRecoveryLocalPolicyCache"
+- "_diskPickerController"
+- "_diskPickerPlaceholderView"
+- "_diskSystem"
+- "_displayTRMConfigView"
+- "_dmManager"
+- "_doRecoveryButtonAction"
+- "_ensurePrebootProbedForDisk:"
+- "_errorType"
+- "_getExistingPolicyFromDevice"
+- "_guiSetBoot"
+- "_hasInvalidStartupDiskKey:"
+- "_helpButton"
+- "_helpButtonBottomConstraint"
+- "_helpTimer"
+- "_helpTimerFired"
+- "_helpTimerFired:"
+- "_initPopupButton"
+- "_invalidateHelpTimer"
+- "_isAdmin"
+- "_isContainerProbed:"
+- "_isDEPEnrolled"
+- "_isGoldenGateSystem"
+- "_isOwner"
+- "_isPrebootVolume:"
+- "_isSecureToken"
+- "_isSystemRoleVolume:"
+- "_keyCount"
+- "_keyGrabber"
+- "_lastPasswordWasIncorrectPrompt"
+- "_level"
+- "_mainContainer"
+- "_mainViewBottomDividerLineBox"
+- "_mainViewBox"
+- "_mainViewContainer"
+- "_mainViewTopTitleDividerLineBox"
+- "_node"
+- "_onPopupButtonClick:"
+- "_optionHeld"
+- "_pendingDisks"
+- "_physicalMediaDictionary"
+- "_pickerDelegate"
+- "_policyModeFromStringDescription:"
+- "_policyModeToStringDescription:"
+- "_popupButton"
+- "_prebootVersionInfoForDisk:"
+- "_presentationFlags"
+- "_probedContainerIDs"
+- "_productBuildVersion"
+- "_prompt"
+- "_reboot"
+- "_recoveryAuthDialog"
+- "_recoveryAuthEventReply"
+- "_restartButton"
+- "_restarting"
+- "_securityPolicyButton"
+- "_securityPolicyViewController"
+- "_selectedPolicyMode"
+- "_selectionBox"
+- "_session"
+- "_setAllowStartupDiskChanges:"
+- "_setBootIgnoringOwners:"
+- "_setBootWithLocalAuthenticationContext:verification:ignoreOwners:error:"
+- "_setPolicyMode:"
+- "_sheetWindow"
+- "_shortName"
+- "_shortVersionString"
+- "_showTRMConfigView"
+- "_spinner"
+- "_systemType"
+- "_systemVersionsByUUIDFromPrebootDisk:"
+- "_uiBusy"
+- "_unlockWithSystem:windowRect:completion:"
+- "_updateAllSystemsWithVersions:"
+- "_updatePopupButtonWithPolicyMode:"
+- "_userList"
+- "_userName"
+- "_userPictureData"
+- "_userPictureImage"
+- "_uuid"
+- "_validBootOptions"
+- "_versionInfoForDisk:inCache:"
+- "_volumeName"
+- "_volumeUUID"
+- "acm_mem_alloc_info"
+- "acm_mem_free_info"
+- "addButtonWithTitle:"
+- "addClip"
+- "addConstraints:"
+- "addEntriesFromDictionary:"
+- "addItemWithTitle:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addObserver:forKeyPath:options:context:"
+- "addSubview:"
+- "alertWithError:"
+- "allOwners:onDeviceWithError:"
+- "allOwnersOnSystemWithReply:"
+- "allSystems"
+- "allow"
+- "allowKernelExtensions"
+- "allowRemoteManagement"
+- "allowStartupDiskChanges"
+- "apfsVolumeGroupUUID"
+- "appendAttributedString:"
+- "applicationPath"
+- "applicationTitleLabel"
+- "arrangedObjects"
+- "array"
+- "arrayController"
+- "arrayForKey:"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "attributedStringWithAttachment:"
+- "authenticateIfNecessaryWithCompletion:"
+- "authenticated"
+- "authenticationDialogFinishedWithResult:"
+- "authenticationManager"
+- "awakeFromNib"
+- "beginCriticalSheet:completionHandler:"
+- "beginSheetModalForWindow:completionHandler:"
+- "bezierPathWithOvalInRect:"
+- "bind:toObject:withKeyPath:options:"
+- "boolValue"
+- "boot-volume"
+- "bootabilityQueue"
+- "bootpolicy_get_current_os_type returned error %d"
+- "bootpolicy_get_current_os_type_restrictions_override_status returned error %d"
+- "bootpolicy_get_local_policy_boolean_tag returned BOOTPOLICY_SUCCESS. allowKexts = %d, allowRemoteManagement = %d, depEnrolled: %d"
+- "bootpolicy_get_local_policy_boolean_tag returned error %d"
+- "bootpolicy_get_security_mode returned error %d"
+- "bootpolicy_has_local_policy_support returned error %d"
+- "bootpolicy_mdm_update_dep_mode returned error %d"
+- "bootpolicy_update_local_policy_boolean_tag returned error %d"
+- "bootpolicy_update_local_policy_nonce_begin returned error %d"
+- "bootpolicy_update_local_policy_nonce_end returned error %d"
+- "bootpolicy_update_local_policy_nonce_reset returned error %d"
+- "bottomAnchor"
+- "bounds"
+- "box"
+- "bundleForClass:"
+- "bytes"
+- "cachedPrebootVersionsByUUID"
+- "canonicalLocaleIdentifierFromString:"
+- "charactersIgnoringModifiers"
+- "checkMacOSXBootability:isBootable:"
+- "checkmark.seal.fill"
+- "clearForcedRecoveryKeys"
+- "clearForcedRecoveryKeysWithReply:"
+- "clearPassword"
+- "close"
+- "code"
+- "collectionView"
+- "colorWithAlphaComponent:"
+- "com.apple.StartupDisk.Bootability_Queue"
+- "com.apple.StartupDisk.DiskDiscovery_Queue"
+- "com.apple.mac.install"
+- "com.apple.machelp"
+- "com.apple.startupdisk"
+- "com.apple.startupdisk.didchangestartupdisk"
+- "com.apple.startupdisk.didfailtochangestartupdisk"
+- "com.apple.startupdiskhelper"
+- "com.apple.systempreferences"
+- "com.applestartupdisk.didfailtopersonalize"
+- "commandCursor == commandBuffer + sizeof(commandBuffer)"
+- "compare:"
+- "completionHandler"
+- "componentsSeparatedByString:"
+- "connection"
+- "constraintEqualToAnchor:constant:"
+- "constraintEqualToConstant:"
+- "constraintsWithVisualFormat:options:metrics:views:"
+- "container"
+- "containingContentHeightConstraint"
+- "containingContentView"
+- "containsObject:"
+- "content"
+- "contentsOfDirectoryAtPath:error:"
+- "context"
+- "controlTextColor"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "createSharedConfiguration:authorizationStrings:"
+- "cryptex1/current/SystemVersion.plist"
+- "csDiskUUID"
+- "currentContext"
+- "currentStartupDisk"
+- "currentStartupDiskDescription"
+- "currentStartupDiskVolumeUUID"
+- "d16@0:8"
+- "dataVolumeDevNode"
+- "dataVolumeForDisk:"
+- "dataVolumeMountPoint"
+- "date"
+- "decodeBoolForKey:"
+- "decodeObjectOfClass:forKey:"
+- "defaultCenter"
+- "defaultManager"
+- "defaultVisibleRoles"
+- "dictionary"
+- "dictionaryWithCapacity:"
+- "dictionaryWithContentsOfFile:"
+- "dictionaryWithObjects:forKeys:count:"
+- "didChangeValueForKey:"
+- "disabledControlTextColor"
+- "disabledTooltipBox"
+- "disabledTooltipContainer"
+- "disabledTooltipContainerHeightConstraint"
+- "disabledTooltipContainerTopConstraint"
+- "disabledTooltipLabel"
+- "disabledTooltipView"
+- "disk"
+- "disk.diskIcon"
+- "disk.isLocked"
+- "disk.mountPoint"
+- "disk.volumeName"
+- "diskDescriptionFontSize"
+- "diskDescriptionTextField"
+- "diskDiscoveryQueue"
+- "diskIcon"
+- "diskIdentifier"
+- "diskPairedToRecoveryLocalPolicy"
+- "diskPairedToRecoveryLocalPolicyCache"
+- "diskPickerController"
+- "diskPickerPlaceholderView"
+- "diskPickerView"
+- "diskSystem"
+- "disksByRemovingSnapshotParents:"
+- "dismissWindow"
+- "dmManager"
+- "domain"
+- "drawInRect:fromRect:operation:fraction:"
+- "dsAttrTypeStandard:GeneratedUID"
+- "encodeBool:forKey:"
+- "encodeObject:forKey:"
+- "encodeWithCoder:"
+- "endSheet:"
+- "errorType"
+- "errorWithCode:underlyingError:"
+- "errorWithCode:withBootPolicyError:"
+- "errorWithDomain:code:userInfo:"
+- "errorWithType:errorCode:underlyingError:"
+- "errorWithType:errorCode:userInfo:"
+- "evaluatePolicy:options:error:"
+- "event:params:reply:"
+- "expansionFrameWithFrame:"
+- "expireCacheWithCompletionBlock:"
+- "externalizedContext"
+- "fileExistsAtPath:"
+- "fileSystemRepresentation"
+- "fileURLWithPath:isDirectory:"
+- "filesystemType"
+- "firstIndex"
+- "flagsChanged:"
+- "flush"
+- "frame"
+- "fsboot-safe"
+- "getAPFSVolumeGroupUUIDBytes:"
+- "getAPFSVolumeRole"
+- "getServerVersion"
+- "getUUIDBytes:"
+- "grantOwnershipToUser:fromUser:error:"
+- "grantOwnershipToUser:fromUser:withReply:"
+- "handleBlessFailure:"
+- "hardReboot"
+- "hardReboot:"
+- "hardShutdown"
+- "hardShutdown:"
+- "hasPrefix:"
+- "heightAnchor"
+- "helpButton"
+- "helpButtonBottomConstraint"
+- "helpButtonClicked:"
+- "helpKeyHeld"
+- "helpKeyReleased"
+- "helpTimer"
+- "helpTimerFired"
+- "hideDisabledTooltip"
+- "i"
+- "i16@0:8"
+- "i24@0:8@16"
+- "identifier"
+- "imageNamed:"
+- "imageWithSystemSymbolName:accessibilityDescription:"
+- "indexOfSelectedItem"
+- "indexSet"
+- "indexSetWithIndex:"
+- "initWithBytesNoCopy:length:encoding:freeWhenDone:"
+- "initWithCoder:"
+- "initWithContentsOfFile:"
+- "initWithContext:"
+- "initWithData:"
+- "initWithDataMountPoint:"
+- "initWithDisk:"
+- "initWithDisk:prebootVersionInfo:"
+- "initWithDiskSystem:withError:"
+- "initWithMachServiceName:options:"
+- "initWithNibName:bundle:"
+- "initWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error:"
+- "initWithOptions:error:"
+- "initWithRepresentedDisk:"
+- "initWithSession:name:error:"
+- "initWithSize:"
+- "initWithString:"
+- "initWithType:"
+- "initWithUUIDString:"
+- "initWithWindowNibName:"
+- "installIn:"
+- "intValue"
+- "interfaceWithProtocol:"
+- "invalidate"
+- "ioKitTransport"
+- "isARepeat"
+- "isAdmin"
+- "isDEPEnrolled"
+- "isDiskImage"
+- "isEqualToString:"
+- "isHidden"
+- "isInstallMedia"
+- "isLocked"
+- "isOwner"
+- "isRunningInRecovery"
+- "isSecureToken"
+- "isSelected"
+- "isStartupDisk:"
+- "isTRMPolicySupported"
+- "isValid"
+- "isValidMacSystem"
+- "isValidSystem"
+- "isValidSystem:"
+- "itemArrayController"
+- "kSDLocalizeableStringNotFound"
+- "keyCount"
+- "keyDown:"
+- "keyGrabber"
+- "keyPathsForValuesAffectingShouldDrawSelected"
+- "keyPathsForValuesAffectingSystemDescription"
+- "keyPathsForValuesAffectingSystemDescriptionString"
+- "keyPathsForValuesAffectingSystemIcon"
+- "keyPathsForValuesAffectingSystemName"
+- "keyPathsForValuesAffectingTextColor"
+- "keyPathsForValuesAffectingToolTipString"
+- "keyUp:"
+- "lastObject"
+- "lastPasswordWasIncorrectPrompt"
+- "launch"
+- "leadingAnchor"
+- "length"
+- "level"
+- "loadPolicyWithError:"
+- "localizedDescription"
+- "localizedStringForKey:value:table:"
+- "lockFocus"
+- "longValue"
+- "macOS"
+- "macOS %@"
+- "mainBundle"
+- "mainContainer"
+- "mainViewBottomDividerLineBox"
+- "mainViewBox"
+- "mainViewContainer"
+- "mainViewTopTitleDividerLineBox"
+- "mainWindow"
+- "makeBootableWithGroupUUID:localAuthenticationContext:options:error:"
+- "makeBootableWithGroupUUID:localAuthenticationContext:options:withReply:"
+- "makeFirstResponder:"
+- "mchl316386f7"
+- "modifierFlags"
+- "mountDevNode:"
+- "mountDevNode:withReply:"
+- "mountPoint"
+- "mountWithCompletionBlock:"
+- "mountWithOptionsDictionary:withCompletionBlock:"
+- "mutableCopy"
+- "nextResponder"
+- "nobrowse"
+- "node"
+- "now"
+- "numberWithBool:"
+- "numberWithInt:"
+- "numberWithInteger:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedInteger:"
+- "objectAtIndex:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "observeValueForKeyPath:ofObject:change:context:"
+- "obtainLocalAuthenticationWithError:"
+- "openHelpAnchor:inBook:"
+- "optionHeld"
+- "optionKeyHeld"
+- "optionKeyReleased"
+- "orderOut:"
+- "pendingDisks"
+- "performCommand"
+- "performForWindowID:withAuthorization:"
+- "person.crop.circle"
+- "physicalMediaDictionary"
+- "pickerDelegate"
+- "popupButton"
+- "postNotificationName:object:"
+- "postNotificationName:object:userInfo:deliverImmediately:"
+- "presentSheetForSecurityPolicy:forVolume:onWindow:"
+- "presentationFlags"
+- "pressedCancel:"
+- "pressedContinue:"
+- "probedContainerIDs"
+- "productBuildVersion"
+- "profileRestrictionsDidChange"
+- "prompt"
+- "propertyListWithData:options:format:error:"
+- "protocol"
+- "q"
+- "q16@0:8"
+- "q24@0:8@16"
+- "r"
+- "rdonly"
+- "recoveryAuthDialog"
+- "recoveryAuthEventReply"
+- "recoveryBootKeyHeld"
+- "recoveryBootKeyReleased"
+- "removeAllItems"
+- "removeAllObjects"
+- "removeItemAtPath:error:"
+- "removeObject:"
+- "representations"
+- "representedDisk"
+- "resetSelectionToBlessedDisk"
+- "restartButton"
+- "restartButtonClicked:"
+- "restartToRecoveryButtonClicked:"
+- "restarting"
+- "restore/SystemVersion.plist"
+- "resultsAllowingPartial:error:"
+- "resume"
+- "role"
+- "runModal"
+- "scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:"
+- "scroller"
+- "securityLevel"
+- "securityModeForLevel:"
+- "securityModeForLevel: unknown BYBootSecurityMode %lu"
+- "securityPolicyButton"
+- "securityPolicyButtonClicked:"
+- "securityPolicyViewController"
+- "selectItemWithTitle:"
+- "selected"
+- "selectedPolicyMode"
+- "selectedSystem"
+- "selectionBox"
+- "selectionIndexes"
+- "session"
+- "set"
+- "set security mode to BYBootSecurityModeFull, so no need to set kImg4Tag_smb2."
+- "setAccessoryView:"
+- "setActive:"
+- "setAdminsOnly:"
+- "setAlertStyle:"
+- "setAllSystems:"
+- "setAllowKernelExtensions:"
+- "setAllowRemoteManagement:"
+- "setAllowStartupDiskChanges:"
+- "setApplicationPath:"
+- "setApplicationTitleLabel:"
+- "setArguments:"
+- "setArrayController:"
+- "setAttributedStringValue:"
+- "setAuthenticated:"
+- "setAuthenticationManager:"
+- "setBackgroundColors:"
+- "setBoot:"
+- "setBootCommand:bootOnce:rebootOnSuccess:"
+- "setBootCommand:bootOnce:withReply:"
+- "setBootIgnoringOwners:error:"
+- "setBootWithDiskSystem:"
+- "setBootWithLocalAuthenticationContext:error:"
+- "setBootWithoutVerification:"
+- "setBootabilityQueue:"
+- "setBorderWidth:"
+- "setBox:"
+- "setBoxType:"
+- "setCachedPrebootVersionsByUUID:"
+- "setCanBecomeVisibleWithoutLogin:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setClearPassword:"
+- "setCompletionHandler:"
+- "setConnection:"
+- "setConstant:"
+- "setContainingContentHeightConstraint:"
+- "setContainingContentView:"
+- "setContentHuggingPriority:forOrientation:"
+- "setContext:"
+- "setContinueEnabled:"
+- "setCornerRadius:"
+- "setCurrentStartupDiskDescription:"
+- "setCurrentStartupDiskVolumeUUID:"
+- "setDataVolumeDevNode:"
+- "setDataVolumeMountPoint:"
+- "setDefaultDASession:"
+- "setDelegate:"
+- "setDisabledTooltipBox:"
+- "setDisabledTooltipContainer:"
+- "setDisabledTooltipContainerHeightConstraint:"
+- "setDisabledTooltipContainerTopConstraint:"
+- "setDisabledTooltipLabel:"
+- "setDisabledTooltipView:"
+- "setDisk:"
+- "setDiskDescriptionTextField:"
+- "setDiskDiscoveryQueue:"
+- "setDiskPairedToRecoveryLocalPolicyCache:"
+- "setDiskPickerController:"
+- "setDiskPickerPlaceholderView:"
+- "setDiskSystem:"
+- "setDmManager:"
+- "setDrawsBackground:"
+- "setEnabled:"
+- "setErrorType:"
+- "setFillColor:"
+- "setHelpButton:"
+- "setHelpButtonBottomConstraint:"
+- "setHelpTimer:"
+- "setHelpTimerFired:"
+- "setHidden:"
+- "setImage:"
+- "setImageInterpolation:"
+- "setInformativeText:"
+- "setInterruptionHandler:"
+- "setInvalidationHandler:"
+- "setIsAdmin:"
+- "setIsDEPEnrolled:"
+- "setIsOwner:"
+- "setIsSecureToken:"
+- "setItemPrototype:"
+- "setKeyCount:"
+- "setKeyGrabber:"
+- "setLastPasswordWasIncorrectPrompt:"
+- "setLaunchPath:"
+- "setLevel:"
+- "setMainContainer:"
+- "setMainViewBottomDividerLineBox:"
+- "setMainViewBox:"
+- "setMainViewContainer:"
+- "setMainViewTopTitleDividerLineBox:"
+- "setMaximumNumberOfLines:"
+- "setMessageText:"
+- "setNeedsLayout:"
+- "setNextResponder:"
+- "setNode:"
+- "setObject:forKey:"
+- "setObject:forKeyedSubscript:"
+- "setOptionHeld:"
+- "setOptionUserId:"
+- "setOwnersOnly:"
+- "setPendingDisks:"
+- "setPhysicalMediaDictionary:"
+- "setPickerDelegate:"
+- "setPopupButton:"
+- "setPresentationFlags:"
+- "setPrevLangAndKbd"
+- "setPrevLangKbd:withReply:"
+- "setPriority:"
+- "setProbedContainerIDs:"
+- "setProductBuildVersion:"
+- "setPrompt:"
+- "setRecoveryAuthDialog:"
+- "setRecoveryAuthEventReply:"
+- "setRecoveryModeBoot"
+- "setRecoveryModeBoot:"
+- "setRecoveryModeSFRUpdateForVolumeGroupUUID:"
+- "setRecoveryModeSFRUpdateForVolumeGroupUUID:withReply:"
+- "setRemoteObjectInterface:"
+- "setRestartButton:"
+- "setRestarting:"
+- "setSecurityLevel:allowKernelExtensions:allowRemoteManagement:authContext:completionBlock:"
+- "setSecurityPolicyButton:"
+- "setSecurityPolicyViewController:"
+- "setSelectable:"
+- "setSelectedPolicyMode:"
+- "setSelectionBox:"
+- "setSelectionIndexes:"
+- "setSession:"
+- "setSheetWindow:"
+- "setShortName:"
+- "setShortVersionString:"
+- "setShowTRMConfigView:"
+- "setSizingBehavior:"
+- "setSpinner:"
+- "setStringValue:"
+- "setSystemBootOption:"
+- "setSystemVersion:"
+- "setTRMConfigController:"
+- "setTitle:"
+- "setTranslatesAutoresizingMaskIntoConstraints:"
+- "setUiBusy:"
+- "setUiDelegate:"
+- "setUseBootPasswordCredential:"
+- "setUserList:"
+- "setUserName:"
+- "setUserPictureData:"
+- "setUserPictureImage:"
+- "setUuid:"
+- "setValidBootOptions:"
+- "setVolumeName:"
+- "setVolumeUUID:"
+- "setVolumeUuid:"
+- "setWithArray:"
+- "setWithObject:"
+- "setWithObjects:"
+- "sharedAuthenticator"
+- "sharedClient"
+- "sharedHelpManager"
+- "sharedManager"
+- "sheetWindow"
+- "shortName"
+- "shortVersionString"
+- "shouldAppearEnabled"
+- "shouldDrawSelected"
+- "shouldShowStartupSecurityUtilityMode"
+- "showDisabledTooltip"
+- "showForUsers:overWindow:withCompletionHandler:"
+- "showModalForWindow:forUsers:withCompletionHandler:"
+- "showPromptForUser:"
+- "showTRMConfigView"
+- "showWindow:"
+- "size"
+- "smallSystemFontSize"
+- "spinner"
+- "standardUserDefaults"
+- "standardizedTupleVersionString:"
+- "startAnimation:"
+- "startMonitoringDisks"
+- "startup-disk-mount-%@"
+- "stopObserving"
+- "stringByAppendingFormat:"
+- "stringByAppendingPathComponent:"
+- "stringForKey:withNamespace:"
+- "stringWithFormat:"
+- "subviews"
+- "supportsSecureCoding"
+- "synchronousRemoteObjectProxyWithErrorHandler:"
+- "system.preferences.startupdisk"
+- "systemBootOption"
+- "systemDescription"
+- "systemDescriptionString"
+- "systemFontSize"
+- "systemHasOwners"
+- "systemHasOwnersWithReply:"
+- "systemIcon"
+- "systemName"
+- "systemSupportsChangingSecuritySettings"
+- "systemSupportsLocalPolicies"
+- "systemType"
+- "systemVersionPlistForMountPoint:"
+- "systemWithDisk:"
+- "terminate:"
+- "terminationStatus"
+- "textBackgroundColor"
+- "textColor"
+- "timeIntervalSinceDate:"
+- "titleOfSelectedItem"
+- "toolTipString"
+- "topAnchor"
+- "trailingAnchor"
+- "type"
+- "uiBusy"
+- "uidFromCurrentAuditToken"
+- "unable to determine APFS volume group UUID"
+- "unable to get apfs volume group UUID for boot volume"
+- "unemphasizedSelectedContentBackgroundColor"
+- "unknown bootpolicy security mode %d"
+- "unlockDevNode:forUUID:password:"
+- "unlockDevNode:forUUID:password:withReply:"
+- "unlockFocus"
+- "unmountWithOptions:error:"
+- "updateButtonsBasedOnSelection"
+- "updateDisksAppearance"
+- "updateLogLevelFromKext"
+- "updateStartupDiskBasedOnSelection"
+- "updateStartupDiskLabelBasedOnSelection"
+- "userList"
+- "userName"
+- "userPicture"
+- "userPictureData"
+- "userPictureImage"
+- "usersForMountPoint:outUsers:error:"
+- "usersForVolumeAtMountPoint:withReply:"
+- "usersForVolumeWithBSDName:outUsers:error:"
+- "usersForVolumeWithBSDName:withReply:"
+- "uuid"
+- "uuidForUID:error:"
+- "v"
+- "v12@?0B8"
+- "v16@?0@\"NSError\"8"
+- "v16@?0^{__CFDictionary=}8"
+- "v16@?0q8"
+- "v20@0:8B16"
+- "v20@0:8I16"
+- "v20@0:8i16"
+- "v20@?0B8@\"NSError\"12"
+- "v20@?0B8@\"NSString\"12"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@?16"
+- "v24@0:8@?<v@?B>16"
+- "v24@0:8@?<v@?B@\"NSArray\"@\"NSError\">16"
+- "v24@0:8Q16"
+- "v24@0:8q16"
+- "v24@?0@\"SFAuthorization\"8@\"NSError\"16"
+- "v24@?0q8@\"SDUser\"16"
+- "v24@?0r^v8Q16"
+- "v28@?0B8@\"NSArray\"12@\"NSError\"20"
+- "v32@0:8@\"NSString\"16@?<v@?B>24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?B@\"NSString\">24"
+- "v32@0:8@16@?24"
+- "v36@0:8@\"NSString\"16B24@?<v@?B>28"
+- "v36@0:8@16B24@?28"
+- "v40@0:8@\"SDUser\"16@\"SDUser\"24@?<v@?B@\"NSError\">32"
+- "v40@0:8@16@24@?32"
+- "v40@0:8q16@\"NSDictionary\"24@?<v@?@\"NSDictionary\"@\"NSError\">32"
+- "v40@0:8q16@24@?32"
+- "v48@0:8@\"NSString\"16@\"NSData\"24@\"NSDictionary\"32@?<v@?B@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?B@\"NSString\">40"
+- "v48@0:8@16@24@32@?40"
+- "v48@0:8@16@24@32^v40"
+- "v48@0:8Q16B24B28@32@?40"
+- "v64@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24@?56"
+- "v8@?0"
+- "validBootOptions"
+- "validatePassword:error:"
+- "validatePassword:password:error:"
+- "valuesForAttribute:error:"
+- "verboseBootKeyHeld"
+- "verboseBootKeyReleased"
+- "verifyPassword:error:"
+- "view"
+- "viewDidLoad"
+- "volumeBootableFlagExistsForDisk:outBootable:"
+- "volumeGroupUUID"
+- "volumeGroupUUIDForSystem:"
+- "volumeUUID"
+- "volumes"
+- "volumesExcludingSnapshots"
+- "waitUntilExit"
+- "willChangeValueForKey:"
+- "window"
+- "windowDidLoad"
+- "windowNumber"
+```

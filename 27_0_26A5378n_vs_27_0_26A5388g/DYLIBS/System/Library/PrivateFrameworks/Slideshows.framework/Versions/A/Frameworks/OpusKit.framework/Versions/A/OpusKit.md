@@ -1,0 +1,95 @@
+## OpusKit
+
+> `/System/Library/PrivateFrameworks/Slideshows.framework/Versions/A/Frameworks/OpusKit.framework/Versions/A/OpusKit`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__cstring`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH_CONST.__objc_floatobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Clusters/OKMediaClusterPredicate.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Clusters/OKMediaEventClusterPredicate.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Document/OKDocument.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Document/OKDocumentMovieExporter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Document/OKDocumentViewController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Document/OKDocumentsManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Gestures/OKActionBinding.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Javascript/OKJavaScriptConsole.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Javascript/OKJavaScriptContext.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Media/FileSystem/OKMediaFileSystemItem.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Media/OKMediaItem.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Media/OKMediaItemMetadata.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Media/Producer/OKMediaProducerItem.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Model/OKDocumentCanvas.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Model/OKDocumentCouch.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Model/OKDocumentCouchStep.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Model/OKDocumentNavigator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Model/OKDocumentPage.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Model/OKDocumentWidget.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Navigators/OKNavigatorViewController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Pages/OKPageViewController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Producer/OKProducer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Producer/OKProducerManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Producer/OKProducerPlugin.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Settings/OKSettings.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Settings/OKSettingsUtility.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Widgets/OKWidgetMediaView.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Widgets/OKWidgetMicaDocument.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Widgets/OKWidgetSpriteEmitterView.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Widgets/OKWidgetView.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.6YQqdo/Sources/SlideshowOSX/OpusKit/Framework/Widgets/OKWidgetWebView.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Clusters/OKMediaClusterPredicate.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Clusters/OKMediaEventClusterPredicate.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Document/OKDocument.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Document/OKDocumentMovieExporter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Document/OKDocumentViewController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Document/OKDocumentsManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Gestures/OKActionBinding.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Javascript/OKJavaScriptConsole.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Javascript/OKJavaScriptContext.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Media/FileSystem/OKMediaFileSystemItem.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Media/OKMediaItem.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Media/OKMediaItemMetadata.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Media/Producer/OKMediaProducerItem.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Model/OKDocumentCanvas.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Model/OKDocumentCouch.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Model/OKDocumentCouchStep.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Model/OKDocumentNavigator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Model/OKDocumentPage.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Model/OKDocumentWidget.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Navigators/OKNavigatorViewController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Pages/OKPageViewController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Producer/OKProducer.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Producer/OKProducerManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Producer/OKProducerPlugin.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Settings/OKSettings.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Settings/OKSettingsUtility.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Widgets/OKWidgetMediaView.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Widgets/OKWidgetMicaDocument.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Widgets/OKWidgetSpriteEmitterView.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Widgets/OKWidgetView.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Rpu1hV/Sources/SlideshowOSX/OpusKit/Framework/Widgets/OKWidgetWebView.m"
+```

@@ -1,0 +1,20 @@
+## eci.dylib
+
+> `/System/Library/PrivateFrameworks/TextToSpeechKonaSupport.framework/Versions/Current/Frameworks/eci.dylib`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__weak_got`
+- `__AUTH_CONST.__const`
+- `__AUTH.__data`
+
+```diff
+
+-678.0.0.0.0
++680.0.0.0.0
+   __TEXT.__text: 0x1995c
+   __TEXT.__init_offsets: 0x10
+   __TEXT.__gcc_except_tab: 0x11a0
+```

@@ -1,0 +1,506 @@
+## GameControllerServer
+
+> `/System/Library/PrivateFrameworks/GameControllerServer.framework/Versions/A/GameControllerServer`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-14.0.19.0.0
+-  __TEXT.__text: 0x11b40
+-  __TEXT.__objc_methlist: 0x1004
+-  __TEXT.__const: 0x222
+-  __TEXT.__gcc_except_tab: 0x195c
+-  __TEXT.__cstring: 0xaa3
++14.0.21.0.0
++  __TEXT.__text: 0x16174
++  __TEXT.__objc_methlist: 0x10e4
++  __TEXT.__const: 0x522
++  __TEXT.__gcc_except_tab: 0x1968
++  __TEXT.__cstring: 0xb14
+   __TEXT.__oslogstring: 0x12b9
+-  __TEXT.__unwind_info: 0x770
++  __TEXT.__swift5_typeref: 0x392
++  __TEXT.__swift5_capture: 0x9c
++  __TEXT.__constg_swiftt: 0x58
++  __TEXT.__swift5_builtin: 0x28
++  __TEXT.__swift5_reflstr: 0x3a
++  __TEXT.__swift5_fieldmd: 0x38
++  __TEXT.__swift5_assocty: 0x30
++  __TEXT.__swift5_proto: 0x18
++  __TEXT.__swift5_types: 0x8
++  __TEXT.__swift_as_entry: 0xc
++  __TEXT.__swift_as_ret: 0xc
++  __TEXT.__swift_as_cont: 0x10
++  __TEXT.__unwind_info: 0x8b8
++  __TEXT.__eh_frame: 0x238
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x118
+-  __DATA_CONST.__objc_classlist: 0x88
++  __DATA_CONST.__objc_classlist: 0x90
+   __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x38
++  __DATA_CONST.__objc_protolist: 0x68
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xa68
+-  __DATA_CONST.__objc_protorefs: 0x20
++  __DATA_CONST.__objc_selrefs: 0xac8
++  __DATA_CONST.__objc_protorefs: 0x40
+   __DATA_CONST.__objc_superrefs: 0x88
+   __DATA_CONST.__objc_arraydata: 0x48
+-  __DATA_CONST.__got: 0x190
+-  __AUTH_CONST.__const: 0x5e8
++  __DATA_CONST.__got: 0x220
++  __AUTH_CONST.__const: 0x7a8
+   __AUTH_CONST.__cfstring: 0x960
+-  __AUTH_CONST.__objc_const: 0x2468
++  __AUTH_CONST.__objc_const: 0x2948
+   __AUTH_CONST.__weak_auth_got: 0x8
+   __AUTH_CONST.__objc_intobj: 0xa8
+   __AUTH_CONST.__objc_doubleobj: 0x10
+   __AUTH_CONST.__objc_arrayobj: 0x90
+-  __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x500
+-  __DATA.__objc_ivar: 0x1ec
+-  __DATA.__data: 0x2a8
+-  __DATA.__bss: 0x40
++  __AUTH_CONST.__auth_got: 0x600
++  __AUTH.__objc_data: 0x570
++  __AUTH.__data: 0x28
++  __DATA.__objc_ivar: 0x1f0
++  __DATA.__data: 0x4d0
++  __DATA.__bss: 0x350
+   __DATA_DIRTY.__objc_data: 0x50
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard
+   - /System/Library/PrivateFrameworks/GameControllerFoundation.framework/Versions/A/GameControllerFoundation
+   - /System/Library/PrivateFrameworks/GameControllerIO.framework/Versions/A/GameControllerIO
++  - /System/Library/PrivateFrameworks/GameControllerSettings.framework/Versions/A/GameControllerSettings
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 401
+-  Symbols:   1192
+-  CStrings:  214
++  Functions: 493
++  Symbols:   1575
++  CStrings:  217
+ 
+Symbols:
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.29TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.29Tu
++ -[GCXApplicationServicesApplicationTarget displayName]
++ OBJC_IVAR_$_GCXApplicationServicesApplicationTarget.__cachedDisplayName
++ _$s10Foundation27_KeyValueCodingAndObservingPAAE010willChangeC03forys0B4PathCyxqd__Gn_tlF
++ _$s10Foundation27_KeyValueCodingAndObservingPAAE09didChangeC03forys0B4PathCyxqd__Gn_tlF
++ _$s10Foundation4UUIDVMa
++ _$s10Foundation4UUIDVMn
++ _$s15_ObjectiveCTypes01_A11CBridgeablePTl
++ _$s22GameControllerSettings17GCSGameParametersV16bundleIdentifier5title27controllerToProfileMappings0ij17CompatibilityModeL00I14ShortcutGrantsACSS_SSSDySS10Foundation4UUIDVGSDySSSo016GCSCompatibilityN0aGSo0dbO5GrantVtcfC
++ _$s22GameControllerSettings17GCSGameParametersV24controllerShortcutGrantsSo0dbG5GrantVvM
++ _$s22GameControllerSettings17GCSGameParametersV4gameSo0D0Cvg
++ _$s22GameControllerSettings17GCSGameParametersVMa
++ _$s22GameControllerSettings17GCSGameParametersVyACSo0D0CcfC
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC12userDefaultsACSo06GCUserH0_p_tcfc
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC26systemButtonActionsEnabledSbvg
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC27$systemButtonActionsEnabledAC7SettingVy_SbGvg
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC27systemButtonLongPressActionAA021GCSControllerShortcutijK0Ovg
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC5gamesSaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonestvg
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC5gamesSaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonestvs
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC6$gamesAC7SettingVy_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonestGvg
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV6UpdateVMn
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV6UpdateVy_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonest_GMR
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV6UpdateVy_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonest_GMd
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV6UpdateVy_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonest_GSgMR
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV6UpdateVy_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonest_GSgMd
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV6UpdateVy_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonest_GSgWOhTm
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV6UpdateVy_Sb_GMR
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV6UpdateVy_Sb_GMd
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV6UpdateVy_Sb_GSgMR
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV6UpdateVy_Sb_GSgMd
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV7updatesQrvg
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV7updatesQrvpQOMQ
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV7updatesQrvpQOy_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonest_Qo_13AsyncIteratorSciQxMR
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV7updatesQrvpQOy_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonest_Qo_13AsyncIteratorSciQxMd
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV7updatesQrvpQOy_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonest_Qo_MR
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV7updatesQrvpQOy_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonest_Qo_Md
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV7updatesQrvpQOy_Sb_Qo_13AsyncIteratorSciQxMR
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV7updatesQrvpQOy_Sb_Qo_13AsyncIteratorSciQxMd
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV7updatesQrvpQOy_Sb_Qo_MR
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV7updatesQrvpQOy_Sb_Qo_Md
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingVMn
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingVy_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonestGMR
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingVy_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonestGMd
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingVy_SbGMR
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreC7SettingVy_SbGMd
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreCMa
++ _$s22GameControllerSettings21GCSSettingsSwiftStoreCMn
++ _$s22GameControllerSettings36GCSControllerShortcutLongPressActionO8rawValueSSvg
++ _$s22GameControllerSettings36GCSControllerShortcutLongPressActionOMa
++ _$s22GameControllerSettingsMXM
++ _$s8RawValueSYTl
++ _$sBOWV
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_10Foundation4UUIDVTt0gq5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_So20GCSCompatibilityModeaTt0gq5Tf4g_n
++ _$sSH13_rawHashValue4seedS2i_tFTq
++ _$sSH4hash4intoys6HasherVz_tFTq
++ _$sSH9hashValueSivgTq
++ _$sSHMp
++ _$sSHSQTb
++ _$sSQ2eeoiySbx_xtFZTq
++ _$sSQMp
++ _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
++ _$sSS10FoundationE26_forceBridgeFromObjectiveC_6resultySo8NSStringC_SSSgztFZ
++ _$sSS10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo8NSStringC_SSSgztFZ
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
++ _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
++ _$sSS4hash4intoys6HasherVz_tF
++ _$sSS9hashValueSivg
++ _$sSSN
++ _$sSSSHsWP
++ _$sSS_10Foundation4UUIDVtMR
++ _$sSS_10Foundation4UUIDVtMd
++ _$sSY8rawValue03RawB0QzvgTq
++ _$sSY8rawValuexSg03RawB0Qz_tcfCTq
++ _$sSYMp
++ _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFyXl_Ts5
++ _$sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
++ _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntFyXl_Ts5
++ _$sSaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonestMR
++ _$sSaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonestMd
++ _$sSbN
++ _$sScA15unownedExecutorScevgTj
++ _$sScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTj
++ _$sScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTjTu
++ _$sScM6sharedScMvgZ
++ _$sScMMa
++ _$sScMScAsWP
++ _$sScP8rawValues5UInt8Vvg
++ _$sScPMa
++ _$sScPSgMR
++ _$sScPSgMd
++ _$sScT6cancelyyF
++ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2g5
++ _$sSci13AsyncIteratorSci_ScITn
++ _$sSci17makeAsyncIterator0bC0QzyFTj
++ _$sSciTL
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSS_Tg5
++ _$sSh8containsySbxFSS_Tg5
++ _$sSo16os_unfair_lock_sVMB
++ _$sSo16os_unfair_lock_sVMF
++ _$sSo16os_unfair_lock_sVML
++ _$sSo16os_unfair_lock_sVMa
++ _$sSo16os_unfair_lock_sVMaTm
++ _$sSo16os_unfair_lock_sVMf
++ _$sSo16os_unfair_lock_sVMn
++ _$sSo16os_unfair_lock_sVWV
++ _$sSo16os_unfair_lock_sVwet
++ _$sSo16os_unfair_lock_sVwst
++ _$sSo20GCSCompatibilityModeaABSHSCWL
++ _$sSo20GCSCompatibilityModeaABSQSCWL
++ _$sSo20GCSCompatibilityModeaABSYSCWL
++ _$sSo20GCSCompatibilityModeaABSYSCWlTm
++ _$sSo20GCSCompatibilityModeaABs20_SwiftNewtypeWrapperSCWL
++ _$sSo20GCSCompatibilityModeaABs35_HasCustomAnyHashableRepresentationSCWL
++ _$sSo20GCSCompatibilityModeaMB
++ _$sSo20GCSCompatibilityModeaMF
++ _$sSo20GCSCompatibilityModeaML
++ _$sSo20GCSCompatibilityModeaMa
++ _$sSo20GCSCompatibilityModeaMf
++ _$sSo20GCSCompatibilityModeaMn
++ _$sSo20GCSCompatibilityModeaSHSCMc
++ _$sSo20GCSCompatibilityModeaSHSCMcMK
++ _$sSo20GCSCompatibilityModeaSHSCSH13_rawHashValue4seedS2i_tFTW
++ _$sSo20GCSCompatibilityModeaSHSCSH4hash4intoys6HasherVz_tFTW
++ _$sSo20GCSCompatibilityModeaSHSCSH9hashValueSivgTW
++ _$sSo20GCSCompatibilityModeaSHSCSQWb
++ _$sSo20GCSCompatibilityModeaSQSCMc
++ _$sSo20GCSCompatibilityModeaSQSCMcMK
++ _$sSo20GCSCompatibilityModeaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo20GCSCompatibilityModeaSYSCMA
++ _$sSo20GCSCompatibilityModeaSYSCMc
++ _$sSo20GCSCompatibilityModeaSYSCMcMK
++ _$sSo20GCSCompatibilityModeaSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo20GCSCompatibilityModeaSYSCSY8rawValuexSg03RawD0Qz_tcfCTW
++ _$sSo20GCSCompatibilityModeas20_SwiftNewtypeWrapperSCMc
++ _$sSo20GCSCompatibilityModeas20_SwiftNewtypeWrapperSCMcMK
++ _$sSo20GCSCompatibilityModeas20_SwiftNewtypeWrapperSCSYWb
++ _$sSo20GCSCompatibilityModeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb
++ _$sSo20GCSCompatibilityModeas21_ObjectiveCBridgeableSCMA
++ _$sSo20GCSCompatibilityModeas21_ObjectiveCBridgeableSCMc
++ _$sSo20GCSCompatibilityModeas21_ObjectiveCBridgeableSCMcMK
++ _$sSo20GCSCompatibilityModeas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromC1C_6resulty01_C5CTypeQz_xSgztFZTW
++ _$sSo20GCSCompatibilityModeas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromC1C_6resultSb01_C5CTypeQz_xSgztFZTW
++ _$sSo20GCSCompatibilityModeas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromC1Cyx01_C5CTypeQzSgFZTW
++ _$sSo20GCSCompatibilityModeas21_ObjectiveCBridgeableSCsACP09_bridgeToC1C01_C5CTypeQzyFTW
++ _$sSo20GCSCompatibilityModeas35_HasCustomAnyHashableRepresentationSCMc
++ _$sSo20GCSCompatibilityModeas35_HasCustomAnyHashableRepresentationSCMcMK
++ _$sSo20GCSCompatibilityModeas35_HasCustomAnyHashableRepresentationSCsACP03_todeF0s0eF0VSgyFTW
++ _$sSo26GCUserNotificationResponseCIegg_ABIeyBy_TR
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfC
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfc
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcTo
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU0_
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU0_TA
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU0_TATQ0_
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU0_TATu
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU0_TQ1_
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU0_TY0_
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU0_TY2_
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU0_Tu
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU_
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU_TA
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU_TATQ0_
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU_TATu
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU_TQ1_
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU_TY0_
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU_TY2_
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E12userDefaultsABSo06GCUserH0_p_tcfcyyYacfU_Tu
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E13_promptedApps33_0F116266038DF2EB76D92A7B7F6A1E0BLLShySSGvpWvd
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E13_promptedApps33_0F116266038DF2EB76D92A7B7F6A1E0BLLShySSGvpfi
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E14_settingsStore33_0F116266038DF2EB76D92A7B7F6A1E0BLL0eF8Settings016GCSSettingsSwiftH0CvpWvd
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E14checkException6forApp6parentSbSS_SSSgtF
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E14checkException6forApp6parentSbSS_SSSgtFTo
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E14promptIfNeeded6forApp6parentSbSo39GCXApplicationServicesApplicationTargetC_AHSgtF
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E14promptIfNeeded6forApp6parentSbSo39GCXApplicationServicesApplicationTargetC_AHSgtFTo
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E15_gameUpdateTask33_0F116266038DF2EB76D92A7B7F6A1E0BLLScTyyts5NeverOGSgvpWvd
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E15_gameUpdateTask33_0F116266038DF2EB76D92A7B7F6A1E0BLLScTyyts5NeverOGSgvpfi
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E18settingsGenerationSivg
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E18settingsGenerationSivgTo
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E19_settingsGeneration33_0F116266038DF2EB76D92A7B7F6A1E0BLLSivpWvd
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E19_settingsGeneration33_0F116266038DF2EB76D92A7B7F6A1E0BLLSivpfi
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E19systemGestureActionSSyF
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E19systemGestureActionSSyFTo
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E25checkSystemGestureEnabledSbyF
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E25checkSystemGestureEnabledSbyFTo
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E27_shortcutsEnabledUpdateTask33_0F116266038DF2EB76D92A7B7F6A1E0BLLScTyyts5NeverOGSgvpWvd
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E27_shortcutsEnabledUpdateTask33_0F116266038DF2EB76D92A7B7F6A1E0BLLScTyyts5NeverOGSgvpfi
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E5_lock33_0F116266038DF2EB76D92A7B7F6A1E0BLL2os21OSAllocatedUnfairLockVyytGvpWvd
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E5_lock33_0F116266038DF2EB76D92A7B7F6A1E0BLL2os21OSAllocatedUnfairLockVyytGvpfi
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E9tryPrompt33_0F116266038DF2EB76D92A7B7F6A1E0BLL3forSbSgSo39GCXApplicationServicesApplicationTargetC_tF
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E9tryPrompt33_0F116266038DF2EB76D92A7B7F6A1E0BLL3forSbSgSo39GCXApplicationServicesApplicationTargetC_tFySo26GCUserNotificationResponseCcfU1_
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0E9tryPrompt33_0F116266038DF2EB76D92A7B7F6A1E0BLL3forSbSgSo39GCXApplicationServicesApplicationTargetC_tFySo26GCUserNotificationResponseCcfU1_TA
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0EABycfC
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0EABycfc
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0EABycfcTo
++ _$sSo31GCSystemButtonArbitrationServerC014GameControllerD0EfDTo
++ _$sSo31GCSystemButtonArbitrationServerC18settingsGenerationSivpABTK
++ _$sSo31GCSystemButtonArbitrationServerCML
++ _$sSo31GCSystemButtonArbitrationServerCMa
++ _$sSo31GCSystemButtonArbitrationServerCfETo
++ _$sSo8NSObjectC10Foundation27_KeyValueCodingAndObservingACWP
++ _$sSoMXM
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV4copyyyFSS_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSS_Tg5
++ _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
++ _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
++ _$ss11_SetStorageCMn
++ _$ss11_SetStorageCySSGMR
++ _$ss11_SetStorageCySSGMd
++ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
++ _$ss13ManagedBufferCMn
++ _$ss13ManagedBufferCyytSo16os_unfair_lock_sVGMR
++ _$ss13ManagedBufferCyytSo16os_unfair_lock_sVGMd
++ _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFyXl_Ts5
++ _$ss15ContiguousArrayV12_endMutationyyFyXl_Ts5
++ _$ss15ContiguousArrayV15reserveCapacityyySiFyXl_Ts5
++ _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFyXl_Ts5
++ _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFyXl_Ts5
++ _$ss18_CocoaArrayWrapperV8endIndexSivg
++ _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
++ _$ss18_DictionaryStorageCMn
++ _$ss18_DictionaryStorageCySS10Foundation4UUIDVGMR
++ _$ss18_DictionaryStorageCySS10Foundation4UUIDVGMd
++ _$ss18_DictionaryStorageCySSSo20GCSCompatibilityModeaGMR
++ _$ss18_DictionaryStorageCySSSo20GCSCompatibilityModeaGMd
++ _$ss20_SwiftNewtypeWrapperMp
++ _$ss20_SwiftNewtypeWrapperPSYTb
++ _$ss20_SwiftNewtypeWrapperPs35_HasCustomAnyHashableRepresentationTb
++ _$ss20_SwiftNewtypeWrapperPsSHRzSH8RawValueSYRpzrlE20_toCustomAnyHashables0hI0VSgyF
++ _$ss21_ObjectiveCBridgeableMp
++ _$ss21_ObjectiveCBridgeableP016_forceBridgeFromA1C_6resulty01_A5CTypeQz_xSgztFZTq
++ _$ss21_ObjectiveCBridgeableP024_conditionallyBridgeFromA1C_6resultSb01_A5CTypeQz_xSgztFZTq
++ _$ss21_ObjectiveCBridgeableP026_unconditionallyBridgeFromA1Cyx01_A5CTypeQzSgFZTq
++ _$ss21_ObjectiveCBridgeableP09_bridgeToA1C01_A5CTypeQzyFTq
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tgq5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tgq5
++ _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
++ _$ss35_HasCustomAnyHashableRepresentationMp
++ _$ss35_HasCustomAnyHashableRepresentationP03_tobcD0s0cD0VSgyFTq
++ _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$ss5NeverON
++ _$ss5NeverOs5ErrorsWP
++ _$ss6HasherV5_seedABSi_tcfC
++ _$ss6HasherV9_finalizeSiyF
++ _$ss6UInt32VMn
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TATQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TATu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5Tu
++ _$sytN
++ _GCLookupUserNotificationService
++ _OBJC_CLASS_$_GCHomeButtonPermissionUserNotification
++ _OBJC_CLASS_$_GCSystemButtonArbitrationServer
++ _OBJC_METACLASS_$_GCSystemButtonArbitrationServer
++ _PROTOCOLS_GCSystemButtonArbitrationServer
++ __Block_copy
++ __Block_release
++ __DATA_GCSystemButtonArbitrationServer
++ __INSTANCE_METHODS_GCSystemButtonArbitrationServer
++ __IVARS_GCSystemButtonArbitrationServer
++ __METACLASS_DATA_GCSystemButtonArbitrationServer
++ __OBJC_$_PROP_LIST_GCSystemButtonArbitrationService
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_GCSystemButtonArbitrationService
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_GCUserNotificationService
++ __OBJC_$_PROTOCOL_METHOD_TYPES_GCSystemButtonArbitrationService
++ __OBJC_$_PROTOCOL_METHOD_TYPES_GCUserNotificationService
++ __OBJC_$_PROTOCOL_REFS_GCService
++ __OBJC_$_PROTOCOL_REFS_GCSystemButtonArbitrationService
++ __OBJC_$_PROTOCOL_REFS_GCUserNotificationService
++ __OBJC_LABEL_PROTOCOL_$_GCService
++ __OBJC_LABEL_PROTOCOL_$_GCSystemButtonArbitrationService
++ __OBJC_LABEL_PROTOCOL_$_GCUserNotificationService
++ __OBJC_PROTOCOL_$_GCService
++ __OBJC_PROTOCOL_$_GCSystemButtonArbitrationService
++ __OBJC_PROTOCOL_$_GCUserNotificationService
++ __OBJC_PROTOCOL_REFERENCE_$_GCUserNotificationService
++ __PROPERTIES_GCSystemButtonArbitrationServer
++ __PROTOCOLS_GCSystemButtonArbitrationServer
++ ___67-[GCXApplicationServicesApplicationTarget updateCachedInformation:]_block_invoke_3
++ ___chkstk_darwin
++ ___swift__destructor
++ ___swift_async_cont_functlets
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructorTm
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
++ ___swift_memcpy4_4
++ ___swift_noop_void_return
++ __kLSDisplayNameKey
++ __swiftEmptyArrayStorage
++ __swiftEmptyDictionarySingleton
++ __swiftEmptySetSingleton
++ __swift_closure_destructor
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance So20GCSCompatibilityModeaSHSCSQ
++ _associated conformance So20GCSCompatibilityModeas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So20GCSCompatibilityModeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper
++ _block_descriptor
++ _block_destroy_helper
++ _bzero
++ _keypath_get_selector_settingsGeneration
++ _memmove
++ _objc_allocWithZone
++ _objc_msgSend$checkUserResponse:
++ _objc_msgSend$controllerShortcutGrants
++ _objc_msgSend$displayName
++ _objc_msgSend$init
++ _objc_msgSend$initWithBundleIdentifier:
++ _objc_msgSend$initWithUserDefaults:
++ _objc_msgSend$observeSuccess:
++ _objc_msgSend$presentUserNotificationForRequest:
++ _objc_msgSend$settingsGeneration
++ _objc_opt_self
++ _objc_retainAutoreleasedReturnValue
++ _swift_allocObject
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRetain
++ _swift_deallocObject
++ _swift_getAssociatedConformanceWitness
++ _swift_getForeignTypeMetadata
++ _swift_getKeyPath
++ _swift_getObjCClassFromMetadata
++ _swift_getObjCClassMetadata
++ _swift_getObjectType
++ _swift_getOpaqueTypeConformance2
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_release
++ _swift_retain
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _symbolic $sSY
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic SS
++ _symbolic SS______t 10Foundation4UUIDV
++ _symbolic SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonest
++ _symbolic ScA_pSg
++ _symbolic ScPSg
++ _symbolic Si
++ _symbolic So31GCSystemButtonArbitrationServerC
++ _symbolic So31GCSystemButtonArbitrationServerCSgXw
++ _symbolic So31GCSystemButtonArbitrationServerCSgXwz_Xx
++ _symbolic So38GCHomeButtonPermissionUserNotificationC
++ _symbolic So8NSStringC
++ _symbolic _____ 22GameControllerSettings21GCSSettingsSwiftStoreC
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____ So20GCSCompatibilityModea
++ _symbolic _____ s6UInt32V
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 10Foundation4UUIDV
++ _symbolic _____ySS_____G s18_DictionaryStorageC So20GCSCompatibilityModea
++ _symbolic _____y_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonestG 22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV
++ _symbolic _____y_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonest_G 22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV6UpdateV
++ _symbolic _____y_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonest_GSg 22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV6UpdateV
++ _symbolic _____y_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonest_Qo_ 22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV7updatesQrvpQO
++ _symbolic _____y_SaySo7GCSGameCG10collection_SaySo12GCSTombstoneCGSg10tombstonest_Qo_13AsyncIteratorSciQx 22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV7updatesQrvpQO
++ _symbolic _____y_SbG 22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV
++ _symbolic _____y_Sb_G 22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV6UpdateV
++ _symbolic _____y_Sb_GSg 22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV6UpdateV
++ _symbolic _____y_Sb_Qo_ 22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV7updatesQrvpQO
++ _symbolic _____y_Sb_Qo_13AsyncIteratorSciQx 22GameControllerSettings21GCSSettingsSwiftStoreC7SettingV7updatesQrvpQO
++ _symbolic _____yyt_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic ytIeAgHr_
++ _type_layout_string So16os_unfair_lock_sV
++ _type_layout_string So20GCSCompatibilityModea
+CStrings:
++ "#"
++ "GameControllerServer_Private.GCSystemButtonArbitrationServer"
++ "Monitor Shortcuts"
++ "init()"
+- "\""
+```

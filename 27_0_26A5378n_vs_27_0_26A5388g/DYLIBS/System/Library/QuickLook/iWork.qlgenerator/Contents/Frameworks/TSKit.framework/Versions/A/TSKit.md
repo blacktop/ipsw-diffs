@@ -1,0 +1,160 @@
+## TSKit
+
+> `/System/Library/QuickLook/iWork.qlgenerator/Contents/Frameworks/TSKit.framework/Versions/A/TSKit`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__cstring`
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__weak_got`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+   __DATA_CONST.__objc_protorefs: 0x50
+   __DATA_CONST.__objc_superrefs: 0x260
+   __DATA_CONST.__objc_arraydata: 0xc0
+-  __DATA_CONST.__got: 0x858
++  __DATA_CONST.__got: 0x880
+   __AUTH_CONST.__const: 0x4a58
+   __AUTH_CONST.__cfstring: 0xb400
+   __AUTH_CONST.__objc_const: 0x9988
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/messages/src/TSKArchives.pb.cc"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/Annotations/PencilKit/TSKPKDrawing.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/Annotations/PencilKit/TSKPKFactory.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/Annotations/PencilKit/TSKPKStroke.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/CGImage_TSKCVPixelBufferAdditions.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/PencilAnnotations/TSKPencilAnnotationUIState.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKAVPlayerController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKAccessController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKAccessControllerHelper.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKAccessControllerWriterQueueItem.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKAnimatedGIFController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKAnimatedGIFLayer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKAnimatedGIFMovieExporter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKAnimatedImageConverter.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKAnnotationAuthor.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKAnnotationAuthorStorage.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKApplicationDelegate.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKApplicationICloudPreferences.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKApplicationPropertiesProvider.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKArchivedDocumentSelection.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKAuthorColors.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKAuthorUtilities.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKBackgroundRunLoopManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOAbstractOperation.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOAbstractOperationCore.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOAddressUtil.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementAddOperation.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementAddOperationCore.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementBaseOperation.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementBaseOperationCore.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementPlacementOperationCore.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementRearrangeOperation.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementRearrangeOperationCore.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementRemoveOperation.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementRemoveOperationCore.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOReplaceRangeOperationCore.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOReplaceRangeOperationCore.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOTransformOperationContext.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOUpdateRangeOperation.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCOUpdateRangeOperationCore.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKChangeCollector.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKCustomFormatList.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKDocumentModelEnumerator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKDocumentRoot.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKDocumentSelection.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKFormat.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKFormatControlClasses.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKFormatCustomClasses.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKFormatDateDurationClasses.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKFormatNumberClasses.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKFormatUtilities.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKFormat_PreARC.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKOperationProperties.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKRulerUnits.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKSelection.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKSelectionPath.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKShuffleMapping.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.PQTXLX/Sources/iWorkGenerator/shared/kit/TSKThreadDispatcher.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/messages/src/TSKArchives.pb.cc"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/Annotations/PencilKit/TSKPKDrawing.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/Annotations/PencilKit/TSKPKFactory.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/Annotations/PencilKit/TSKPKStroke.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/CGImage_TSKCVPixelBufferAdditions.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/PencilAnnotations/TSKPencilAnnotationUIState.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKAVPlayerController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKAccessController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKAccessControllerHelper.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKAccessControllerWriterQueueItem.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKAnimatedGIFController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKAnimatedGIFLayer.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKAnimatedGIFMovieExporter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKAnimatedImageConverter.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKAnnotationAuthor.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKAnnotationAuthorStorage.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKApplicationDelegate.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKApplicationICloudPreferences.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKApplicationPropertiesProvider.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKArchivedDocumentSelection.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKAuthorColors.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKAuthorUtilities.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKBackgroundRunLoopManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOAbstractOperation.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOAbstractOperationCore.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOAddressUtil.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementAddOperation.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementAddOperationCore.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementBaseOperation.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementBaseOperationCore.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementPlacementOperationCore.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementRearrangeOperation.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementRearrangeOperationCore.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementRemoveOperation.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOIdPlacementRemoveOperationCore.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOReplaceRangeOperationCore.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOReplaceRangeOperationCore.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOTransformOperationContext.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOUpdateRangeOperation.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCOUpdateRangeOperationCore.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKChangeCollector.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKCustomFormatList.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKDocumentModelEnumerator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKDocumentRoot.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKDocumentSelection.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKFormat.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKFormatControlClasses.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKFormatCustomClasses.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKFormatDateDurationClasses.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKFormatNumberClasses.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKFormatUtilities.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKFormat_PreARC.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKOperationProperties.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKRulerUnits.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKSelection.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKSelectionPath.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKShuffleMapping.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8U92vS/Sources/iWorkGenerator/shared/kit/TSKThreadDispatcher.m"
+```

@@ -1,0 +1,454 @@
+## MusicKitInternal
+
+> `/System/Library/PrivateFrameworks/MusicKitInternal.framework/Versions/A/MusicKitInternal`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_acfuncs`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_types2`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_intobj`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-4026.100.85.0.0
+-  __TEXT.__text: 0x745814
++4026.100.89.0.0
++  __TEXT.__text: 0x76e798
+   __TEXT.__objc_methlist: 0x26ac
+-  __TEXT.__const: 0x695e4
++  __TEXT.__const: 0x6a954
+   __TEXT.__gcc_except_tab: 0x99c
+-  __TEXT.__cstring: 0x17125
++  __TEXT.__cstring: 0x17245
+   __TEXT.__dlopen_cstrs: 0xcd9
+-  __TEXT.__constg_swiftt: 0xfb88
+-  __TEXT.__swift5_typeref: 0x16eb8
+-  __TEXT.__swift5_fieldmd: 0x13abc
++  __TEXT.__constg_swiftt: 0xfeac
++  __TEXT.__swift5_typeref: 0x172ea
++  __TEXT.__swift5_fieldmd: 0x13e94
+   __TEXT.__swift5_builtin: 0x370
+-  __TEXT.__swift5_reflstr: 0xfc6a
+-  __TEXT.__swift5_assocty: 0x3950
+-  __TEXT.__swift5_proto: 0x5b10
+-  __TEXT.__swift5_types: 0x14e8
+-  __TEXT.__oslogstring: 0x9ca7
+-  __TEXT.__swift5_capture: 0x5da4
++  __TEXT.__swift5_reflstr: 0xfeaa
++  __TEXT.__swift5_assocty: 0x3998
++  __TEXT.__swift5_proto: 0x5bf4
++  __TEXT.__swift5_types: 0x1530
++  __TEXT.__oslogstring: 0x9f07
++  __TEXT.__swift5_capture: 0x5fd4
+   __TEXT.__swift5_protos: 0x1e8
+-  __TEXT.__swift_as_entry: 0x121c
+-  __TEXT.__swift_as_ret: 0x1328
+-  __TEXT.__swift_as_cont: 0x1eec
++  __TEXT.__swift_as_entry: 0x1284
++  __TEXT.__swift_as_ret: 0x13a4
++  __TEXT.__swift_as_cont: 0x1f8c
+   __TEXT.__swift5_acfuncs: 0x154
+   __TEXT.__swift5_mpenum: 0xe0
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x1e498
+-  __TEXT.__eh_frame: 0x2fc10
++  __TEXT.__unwind_info: 0x1f018
++  __TEXT.__eh_frame: 0x30af8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x17a0
+-  __DATA_CONST.__objc_classlist: 0x310
++  __DATA_CONST.__const: 0x17b0
++  __DATA_CONST.__objc_classlist: 0x330
+   __DATA_CONST.__objc_catlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x180
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x20c8
+   __DATA_CONST.__objc_protorefs: 0x98
+   __DATA_CONST.__objc_superrefs: 0x140
+-  __DATA_CONST.__got: 0x3788
+-  __AUTH_CONST.__const: 0x2ed70
++  __DATA_CONST.__got: 0x37b8
++  __AUTH_CONST.__const: 0x2f7c0
+   __AUTH_CONST.__cfstring: 0x260
+-  __AUTH_CONST.__objc_const: 0x8260
++  __AUTH_CONST.__objc_const: 0x8528
+   __AUTH_CONST.__objc_intobj: 0x30
+-  __AUTH_CONST.__auth_got: 0x62f0
+-  __AUTH.__objc_data: 0x220
+-  __AUTH.__data: 0x51e0
++  __AUTH_CONST.__auth_got: 0x6318
++  __AUTH.__objc_data: 0x270
++  __AUTH.__data: 0x5698
+   __DATA.__objc_ivar: 0x140
+-  __DATA.__data: 0x12da8
+-  __DATA.__bss: 0x92410
+-  __DATA.__common: 0x9f8
++  __DATA.__data: 0x130d0
++  __DATA.__bss: 0x94030
++  __DATA.__common: 0xa10
+   __DATA_DIRTY.__objc_data: 0x1720
+-  __DATA_DIRTY.__data: 0x10df8
++  __DATA_DIRTY.__data: 0x10e18
+   __DATA_DIRTY.__bss: 0x1cfb0
+   __DATA_DIRTY.__common: 0x640
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 51973
+-  Symbols:   11930
+-  CStrings:  2460
++  Functions: 52776
++  Symbols:   12236
++  CStrings:  2475
+ 
+Symbols:
++ _OUTLINED_FUNCTION_533
++ _OUTLINED_FUNCTION_534
++ _OUTLINED_FUNCTION_535
++ _OUTLINED_FUNCTION_536
++ _OUTLINED_FUNCTION_537
++ _OUTLINED_FUNCTION_538
++ _OUTLINED_FUNCTION_539
++ _OUTLINED_FUNCTION_540
++ _OUTLINED_FUNCTION_541
++ _OUTLINED_FUNCTION_542
++ _OUTLINED_FUNCTION_543
++ _OUTLINED_FUNCTION_544
++ _OUTLINED_FUNCTION_545
++ _OUTLINED_FUNCTION_546
++ _OUTLINED_FUNCTION_547
++ _OUTLINED_FUNCTION_548
++ _OUTLINED_FUNCTION_549
++ _OUTLINED_FUNCTION_550
++ _OUTLINED_FUNCTION_551
++ _OUTLINED_FUNCTION_552
++ _OUTLINED_FUNCTION_553
++ _OUTLINED_FUNCTION_554
++ _OUTLINED_FUNCTION_555
++ _OUTLINED_FUNCTION_556
++ _OUTLINED_FUNCTION_557
++ _OUTLINED_FUNCTION_558
++ _OUTLINED_FUNCTION_559
++ _OUTLINED_FUNCTION_560
++ _OUTLINED_FUNCTION_561
++ _OUTLINED_FUNCTION_562
++ _OUTLINED_FUNCTION_563
++ _OUTLINED_FUNCTION_564
++ _OUTLINED_FUNCTION_565
++ _OUTLINED_FUNCTION_566
++ _OUTLINED_FUNCTION_567
++ _OUTLINED_FUNCTION_568
++ _OUTLINED_FUNCTION_569
++ _OUTLINED_FUNCTION_570
++ _OUTLINED_FUNCTION_571
++ _OUTLINED_FUNCTION_572
++ _OUTLINED_FUNCTION_573
++ _OUTLINED_FUNCTION_574
++ _OUTLINED_FUNCTION_575
++ _OUTLINED_FUNCTION_576
++ _OUTLINED_FUNCTION_577
++ _OUTLINED_FUNCTION_578
++ _OUTLINED_FUNCTION_579
++ _OUTLINED_FUNCTION_580
++ _OUTLINED_FUNCTION_581
++ _OUTLINED_FUNCTION_582
++ _OUTLINED_FUNCTION_583
++ _OUTLINED_FUNCTION_584
++ _OUTLINED_FUNCTION_585
++ _OUTLINED_FUNCTION_586
++ _OUTLINED_FUNCTION_587
++ _OUTLINED_FUNCTION_588
++ _OUTLINED_FUNCTION_589
++ _OUTLINED_FUNCTION_590
++ _OUTLINED_FUNCTION_591
++ _OUTLINED_FUNCTION_592
++ _OUTLINED_FUNCTION_593
++ _OUTLINED_FUNCTION_594
++ _OUTLINED_FUNCTION_595
++ _OUTLINED_FUNCTION_596
++ _OUTLINED_FUNCTION_597
++ _OUTLINED_FUNCTION_598
++ _OUTLINED_FUNCTION_599
++ _OUTLINED_FUNCTION_600
++ _OUTLINED_FUNCTION_601
++ _OUTLINED_FUNCTION_602
++ _OUTLINED_FUNCTION_603
++ _OUTLINED_FUNCTION_604
++ _OUTLINED_FUNCTION_605
++ _OUTLINED_FUNCTION_606
++ _OUTLINED_FUNCTION_607
++ _OUTLINED_FUNCTION_608
++ _OUTLINED_FUNCTION_609
++ _OUTLINED_FUNCTION_610
++ _OUTLINED_FUNCTION_611
++ _OUTLINED_FUNCTION_612
++ _OUTLINED_FUNCTION_613
++ _OUTLINED_FUNCTION_614
++ _OUTLINED_FUNCTION_615
++ _OUTLINED_FUNCTION_616
++ _OUTLINED_FUNCTION_617
++ _OUTLINED_FUNCTION_618
++ _OUTLINED_FUNCTION_619
++ _OUTLINED_FUNCTION_620
++ _OUTLINED_FUNCTION_621
++ _OUTLINED_FUNCTION_622
++ _OUTLINED_FUNCTION_623
++ _OUTLINED_FUNCTION_624
++ _OUTLINED_FUNCTION_625
++ _OUTLINED_FUNCTION_626
++ _OUTLINED_FUNCTION_627
++ _OUTLINED_FUNCTION_628
++ _OUTLINED_FUNCTION_629
++ _OUTLINED_FUNCTION_630
++ _OUTLINED_FUNCTION_631
++ _OUTLINED_FUNCTION_632
++ _OUTLINED_FUNCTION_633
++ _OUTLINED_FUNCTION_634
++ _OUTLINED_FUNCTION_635
++ _OUTLINED_FUNCTION_636
++ _OUTLINED_FUNCTION_637
++ _OUTLINED_FUNCTION_638
++ _OUTLINED_FUNCTION_639
++ _OUTLINED_FUNCTION_640
++ _OUTLINED_FUNCTION_641
++ _OUTLINED_FUNCTION_642
++ _OUTLINED_FUNCTION_643
++ _OUTLINED_FUNCTION_644
++ _OUTLINED_FUNCTION_645
++ _OUTLINED_FUNCTION_646
++ _OUTLINED_FUNCTION_647
++ _OUTLINED_FUNCTION_648
++ _OUTLINED_FUNCTION_649
++ _OUTLINED_FUNCTION_650
++ _OUTLINED_FUNCTION_651
++ _OUTLINED_FUNCTION_652
++ _OUTLINED_FUNCTION_653
++ _OUTLINED_FUNCTION_654
++ _OUTLINED_FUNCTION_655
++ _OUTLINED_FUNCTION_656
++ _OUTLINED_FUNCTION_657
++ _OUTLINED_FUNCTION_658
++ _OUTLINED_FUNCTION_659
++ _OUTLINED_FUNCTION_660
++ _OUTLINED_FUNCTION_661
++ _OUTLINED_FUNCTION_662
++ _OUTLINED_FUNCTION_663
++ _OUTLINED_FUNCTION_664
++ _OUTLINED_FUNCTION_665
++ _OUTLINED_FUNCTION_666
++ _OUTLINED_FUNCTION_667
++ _OUTLINED_FUNCTION_668
++ _OUTLINED_FUNCTION_669
++ _OUTLINED_FUNCTION_670
++ _OUTLINED_FUNCTION_671
++ _OUTLINED_FUNCTION_672
++ _OUTLINED_FUNCTION_673
++ _OUTLINED_FUNCTION_674
++ _OUTLINED_FUNCTION_675
++ _OUTLINED_FUNCTION_676
++ _OUTLINED_FUNCTION_677
++ _OUTLINED_FUNCTION_678
++ _OUTLINED_FUNCTION_679
++ _OUTLINED_FUNCTION_680
++ _OUTLINED_FUNCTION_681
++ _OUTLINED_FUNCTION_682
++ _OUTLINED_FUNCTION_683
++ _OUTLINED_FUNCTION_684
++ _OUTLINED_FUNCTION_685
++ _OUTLINED_FUNCTION_686
++ _OUTLINED_FUNCTION_687
++ _OUTLINED_FUNCTION_688
++ _OUTLINED_FUNCTION_689
++ _OUTLINED_FUNCTION_690
++ _OUTLINED_FUNCTION_691
++ _OUTLINED_FUNCTION_692
++ _OUTLINED_FUNCTION_693
++ _OUTLINED_FUNCTION_694
++ _OUTLINED_FUNCTION_695
++ _OUTLINED_FUNCTION_696
++ _OUTLINED_FUNCTION_697
++ _OUTLINED_FUNCTION_698
++ _OUTLINED_FUNCTION_699
++ _OUTLINED_FUNCTION_700
++ _OUTLINED_FUNCTION_701
++ _OUTLINED_FUNCTION_702
++ _OUTLINED_FUNCTION_703
++ _OUTLINED_FUNCTION_704
++ _OUTLINED_FUNCTION_705
++ _OUTLINED_FUNCTION_706
++ _OUTLINED_FUNCTION_707
++ _OUTLINED_FUNCTION_708
++ _OUTLINED_FUNCTION_709
++ _OUTLINED_FUNCTION_710
++ _OUTLINED_FUNCTION_711
++ _OUTLINED_FUNCTION_712
++ _OUTLINED_FUNCTION_713
++ _OUTLINED_FUNCTION_714
++ _OUTLINED_FUNCTION_715
++ _OUTLINED_FUNCTION_716
++ _OUTLINED_FUNCTION_717
++ _OUTLINED_FUNCTION_718
++ _OUTLINED_FUNCTION_719
++ _OUTLINED_FUNCTION_720
++ _OUTLINED_FUNCTION_721
++ _OUTLINED_FUNCTION_722
++ _OUTLINED_FUNCTION_723
++ _OUTLINED_FUNCTION_724
++ _OUTLINED_FUNCTION_725
++ _OUTLINED_FUNCTION_726
++ _OUTLINED_FUNCTION_727
++ _OUTLINED_FUNCTION_728
++ _OUTLINED_FUNCTION_729
++ _OUTLINED_FUNCTION_730
++ _OUTLINED_FUNCTION_731
++ __DATA__TtC16MusicKitInternal32MusicCatalogAlbumDetailViewModel
++ __DATA__TtCCE16MusicKitInternalV8MusicKit5Album17PushUpdateService17RegistrationToken
++ __DATA__TtCE16MusicKitInternalV8MusicKit5Album17PushUpdateService
++ __DATA__TtCE16MusicKitInternalV8MusicKit5Album21PushUpdateInvalidator
++ __IVARS__TtC16MusicKitInternal32MusicCatalogAlbumDetailViewModel
++ __IVARS__TtCE16MusicKitInternalV8MusicKit5Album21PushUpdateInvalidator
++ __METACLASS_DATA__TtC16MusicKitInternal32MusicCatalogAlbumDetailViewModel
++ __METACLASS_DATA__TtCCE16MusicKitInternalV8MusicKit5Album17PushUpdateService17RegistrationToken
++ __METACLASS_DATA__TtCE16MusicKitInternalV8MusicKit5Album17PushUpdateService
++ __METACLASS_DATA__TtCE16MusicKitInternalV8MusicKit5Album21PushUpdateInvalidator
++ ___swift_memcpy248_8
++ __swift_closure_destructor.131Tm
++ __swift_closure_destructor.256Tm
++ __swift_closure_destructor.379Tm
++ __swift_closure_destructor.386Tm
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV19CloneSessionRequestVSHAASQ
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV20CloneSessionResponseV4ItemVSHAASQ
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV20CloneSessionResponseVSHAASQ
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOSHAASQ
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatE0V10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOSHAASQ
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatE0V10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatE0V10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatE0V5TrackV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOSHAASQ
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatE0V5TrackV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOs0N3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatE0V5TrackV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOs0N3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatE0V5TrackVSHAASQ
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatE0VSHAASQ
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV0H0V10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOSHAASQ
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV0H0V10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV0H0V10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV0H0VSHAASQ
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOSHAASQ
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsVSHAASQ
++ _associated conformance 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseVSHAASQ
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE21PushUpdateInvalidatorC7Combine16ObservableObjectAD0J19WillChangePublisherAgHP_AG0M0
++ _associated conformance 8MusicKit5AlbumV0aB8InternalE21PushUpdateInvalidatorCAD0a20AutoupdatableRequestG0AD0I4TypeAdGP_AD0ahI0
++ _symbolic Say_____G 16MusicKitInternal0A18GenerativePlaylistV20CloneSessionResponseV4ItemV
++ _symbolic Say_____G 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatE0V5TrackV
++ _symbolic Say_____y_____GG 8MusicKit07PartialA13AsyncPropertyC AA5AlbumV
++ _symbolic Si6offset____________t7elementt 16MusicKitInternal0A18GenerativePlaylistV20CloneSessionResponseV4ItemV AA07GenericaI0O
++ _symbolic _____ 16MusicKitInternal0A18GenerativePlaylistV19CloneSessionRequestV
++ _symbolic _____ 16MusicKitInternal0A18GenerativePlaylistV20CloneSessionResponseV
++ _symbolic _____ 16MusicKitInternal0A18GenerativePlaylistV20CloneSessionResponseV4ItemV
++ _symbolic _____ 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV
++ _symbolic _____ 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____ 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV
++ _symbolic _____ 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatE0V
++ _symbolic _____ 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatE0V10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____ 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatE0V5TrackV
++ _symbolic _____ 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatE0V5TrackV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____ 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV0H0V
++ _symbolic _____ 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV0H0V10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____ 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____ 16MusicKitInternal0A19CatalogAlbumRequestV
++ _symbolic _____ 16MusicKitInternal0A27CatalogAlbumDetailViewModelC
++ _symbolic _____ 8MusicKit09ForgivingA6ItemIDV
++ _symbolic _____ 8MusicKit5AlbumV0aB8InternalE17PushUpdateServiceC
++ _symbolic _____ 8MusicKit5AlbumV0aB8InternalE17PushUpdateServiceC17RegistrationTokenC
++ _symbolic _____ 8MusicKit5AlbumV0aB8InternalE21PushUpdateInvalidatorC
++ _symbolic _____Iegr_ 8MusicKit0A6ItemIDV
++ _symbolic _____Sbx_____y______G______p_____Rz_____RzlIetMHnTyTgrzo_ 16MusicKitInternal0A27ConcertsNotificationPayloadV AA0A6DaemonV6ResultO AE11CodableVoidV s5ErrorP 11Distributed01_L9ActorStubP AA0aD16RankingInterfaceP
++ _symbolic _____Sbx_____y______G______p_____RzlIetWHnTyTgrzo_ 16MusicKitInternal0A27ConcertsNotificationPayloadV AA0A6DaemonV6ResultO AE11CodableVoidV s5ErrorP AA0aD16RankingInterfaceP
++ _symbolic _____Sg 16MusicKitInternal0A24LibraryPlaylistViewModelC12CloneContextV
++ _symbolic _____Sg 8MusicKit5AlbumV0aB8InternalE17PushUpdateServiceC17RegistrationTokenC
++ _symbolic _____SgXw 16MusicKitInternal0A27CatalogAlbumDetailViewModelC
++ _symbolic _____SgXw 8MusicKit5AlbumV0aB8InternalE21PushUpdateInvalidatorC
++ _symbolic _____Sg_ABt 8MusicKit5AlbumV
++ _symbolic __________Xj l16MusicKitInternal0A31AutoupdatableRequestInvalidator_px0E4TypeRts_XPXGMq AA0a12CatalogAlbumE0V
++ _symbolic ___________t 16MusicKitInternal0A18GenerativePlaylistV20CloneSessionResponseV4ItemV AA07GenericaI0O
++ _symbolic ______p 8MusicKit11AlbumFilterP
++ _symbolic _____ySbG 11Distributed18RemoteCallArgumentV
++ _symbolic _____y_____G 16MusicKitInternal0A20AutoupdatingResponseC AA0A19CatalogAlbumRequestV
++ _symbolic _____y_____G 16MusicKitInternal0A38AutoupdatableRequestInvalidationResultO AA0a12CatalogAlbumE0V
++ _symbolic _____y_____G 8MusicKit0A22CatalogResourceRequestV AA5AlbumV
++ _symbolic _____y_____G 8MusicKit0A23CatalogResourceResponseV AA5AlbumV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D18GenerativePlaylistV28CloudCloneSessionRawResponseV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatH0V10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatH0V5TrackV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV0K0V10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D18GenerativePlaylistV28CloudCloneSessionRawResponseV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatH0V10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatH0V5TrackV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV0K0V10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV10CodingKeys33_D1834C9AC483A2E71145BCC97F0B18EBLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16MusicKitInternal0D18GenerativePlaylistV20CloneSessionResponseV4ItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16MusicKitInternal0D18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatH0V5TrackV
++ _symbolic _____y_____GSg 8MusicKit0A23CatalogResourceResponseV AA5AlbumV
++ _symbolic _____y_____GSgXw 16MusicKitInternal0A20AutoupdatingResponseC AA0A19CatalogAlbumRequestV
++ _symbolic _____y______G 16MusicKitInternal0A20AutoupdatingResponseC12ReloadReason33_C23B0F59176BD2FAD08E3138CA488B68LLO AA0A19CatalogAlbumRequestV
++ _symbolic _____y______G 16MusicKitInternal0A20AutoupdatingResponseC6StatusO AA0A19CatalogAlbumRequestV
++ _symbolic _____y______GSg 16MusicKitInternal0A20AutoupdatingResponseC6StatusO AA0A19CatalogAlbumRequestV
++ _symbolic _____y__________XjG s23_ContiguousArrayStorageC l16MusicKitInternal0D31AutoupdatableRequestInvalidator_px0H4TypeRts_XPXGMq AC0d12CatalogAlbumH0V
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 16MusicKitInternal0D18GenerativePlaylistV20CloneSessionResponseV4ItemV AC07GenericdL0O
++ _symbolic _____y_____y_____GG 8MusicKit24UncheckedSendableWrapperV AA0A23CatalogResourceResponseV AA5AlbumV
++ _symbolic _____y_____y_____GG s11_SetStorageC 8MusicKit07PartialC13AsyncPropertyC AC5AlbumV
++ _symbolic _____y_____y_____GSgG 7Combine9PublishedV 8MusicKit0C23CatalogResourceResponseV AD5AlbumV
++ _symbolic _____y_____y_____GSg_G 7Combine9PublishedV9PublisherV 8MusicKit0D23CatalogResourceResponseV AF5AlbumV
++ _symbolic _____y_____y______GG 8MusicKit24UncheckedSendableWrapperV 0aB8Internal0A20AutoupdatingResponseC6StatusO AD0A19CatalogAlbumRequestV
++ _symbolic _____y_____y______GGSg 8MusicKit24UncheckedSendableWrapperV 0aB8Internal0A20AutoupdatingResponseC6StatusO AD0A19CatalogAlbumRequestV
++ _symbolic _____yxGSgXwz____________RzlXX 16MusicKitInternal0A20AutoupdatingResponseC AA0A19CatalogAlbumRequestV AA0a13AutoupdatableH0P
++ _type_layout_string 16MusicKitInternal0A18GenerativePlaylistV20CloneSessionResponseV
++ _type_layout_string 16MusicKitInternal0A18GenerativePlaylistV20CloneSessionResponseV4ItemV
++ _type_layout_string 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV
++ _type_layout_string 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV
++ _type_layout_string 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV04FlatE0V
++ _type_layout_string 16MusicKitInternal0A18GenerativePlaylistV28CloudCloneSessionRawResponseV7ResultsV0H0V
+- __swift_closure_destructor.121Tm
+- __swift_closure_destructor.241Tm
+- _symbolic _____x_____y______G______p_____Rz_____RzlIetMHnTgrzo_ 16MusicKitInternal0A27ConcertsNotificationPayloadV AA0A6DaemonV6ResultO AE11CodableVoidV s5ErrorP 11Distributed01_L9ActorStubP AA0aD16RankingInterfaceP
+- _symbolic _____x_____y______G______p_____RzlIetWHnTgrzo_ 16MusicKitInternal0A27ConcertsNotificationPayloadV AA0A6DaemonV6ResultO AE11CodableVoidV s5ErrorP AA0aD16RankingInterfaceP
+CStrings:
++ "%{public}s Cloned intelligence session: %{public}s at revision %{public}s -> new session %{public}s."
++ "%{public}s Failed to load intelligence session configuration; falling back to defaults. error=%{public}@"
++ "%{public}s Initialized underlying playlist edit view model with clone context for session: %{public}s."
++ ",\n  requestedLimit: "
++ "AlbumPushUpdateInvalidator"
++ "AlbumPushUpdateService"
++ "Cloning session for endpoint: %s"
++ "MusicKitInternal/AlbumPushUpdateInvalidator.swift"
++ "Received clone response for endpoint: %s with response: %s"
++ "Register for %{public}s"
++ "Unable to process clone item at offset %{public}ld due to missing embedded resource for catalogID %{public}s."
++ "Unregister"
++ "Use init(catalogID:) instead."
++ "forgetNotifiedConcerts"
++ "processNotificationCandidates(_:forgetNotifiedConcerts:)"
++ "🟦    Received Clone Response\n"
+- "processNotificationCandidates(_:)"
+```

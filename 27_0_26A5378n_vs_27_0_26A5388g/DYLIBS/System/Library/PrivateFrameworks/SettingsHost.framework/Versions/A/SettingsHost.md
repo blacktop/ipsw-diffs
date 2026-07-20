@@ -1,0 +1,291 @@
+## SettingsHost
+
+> `/System/Library/PrivateFrameworks/SettingsHost.framework/Versions/A/SettingsHost`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__AUTH.__objc_data`
+
+```diff
+
+-2027.0.2.0.0
+-  __TEXT.__text: 0x7d338
++2027.0.5.0.0
++  __TEXT.__text: 0x94ae8
+   __TEXT.__objc_methlist: 0x13c
+-  __TEXT.__const: 0x4fb8
+-  __TEXT.__swift5_typeref: 0x16d2
+-  __TEXT.__swift5_fieldmd: 0x1590
+-  __TEXT.__constg_swiftt: 0x13e0
+-  __TEXT.__swift5_builtin: 0xb4
+-  __TEXT.__swift5_reflstr: 0x160e
+-  __TEXT.__swift5_assocty: 0x3b0
+-  __TEXT.__swift5_protos: 0x30
+-  __TEXT.__swift5_proto: 0x318
+-  __TEXT.__swift5_types: 0x158
++  __TEXT.__const: 0x6888
++  __TEXT.__swift5_typeref: 0x1b84
++  __TEXT.__swift5_fieldmd: 0x1bc4
++  __TEXT.__constg_swiftt: 0x1890
++  __TEXT.__swift5_builtin: 0xc8
++  __TEXT.__swift5_reflstr: 0x189e
++  __TEXT.__swift5_assocty: 0x3f8
++  __TEXT.__swift5_protos: 0x38
++  __TEXT.__swift5_proto: 0x498
++  __TEXT.__swift5_types: 0x1c0
+   __TEXT.__swift5_mpenum: 0x68
+-  __TEXT.__swift5_capture: 0x3ac
+-  __TEXT.__oslogstring: 0x1fc4
+-  __TEXT.__swift_as_entry: 0xb0
+-  __TEXT.__swift_as_ret: 0xa4
+-  __TEXT.__swift_as_cont: 0x154
+-  __TEXT.__cstring: 0x3ac8
+-  __TEXT.__unwind_info: 0x15e0
+-  __TEXT.__eh_frame: 0x20e8
++  __TEXT.__swift5_capture: 0x474
++  __TEXT.__oslogstring: 0x2414
++  __TEXT.__swift_as_entry: 0xb8
++  __TEXT.__swift_as_ret: 0xb4
++  __TEXT.__swift_as_cont: 0x174
++  __TEXT.__cstring: 0x3c18
++  __TEXT.__unwind_info: 0x1b38
++  __TEXT.__eh_frame: 0x27e8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x148
+-  __DATA_CONST.__objc_classlist: 0x30
++  __DATA_CONST.__const: 0x168
++  __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x368
++  __DATA_CONST.__objc_selrefs: 0x3b8
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x4400
+-  __AUTH_CONST.__objc_const: 0xc08
+-  __AUTH_CONST.__auth_got: 0xdc0
++  __AUTH_CONST.__const: 0x50e0
++  __AUTH_CONST.__objc_const: 0xcd8
++  __AUTH_CONST.__auth_got: 0xf28
+   __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x220
+-  __DATA.__data: 0x738
+-  __DATA.__bss: 0x3bd0
+-  __DATA.__common: 0x48
+-  __DATA_DIRTY.__objc_data: 0xa0
+-  __DATA_DIRTY.__data: 0x16e0
+-  __DATA_DIRTY.__bss: 0x2080
+-  __DATA_DIRTY.__common: 0xb0
++  __AUTH.__data: 0x298
++  __DATA.__data: 0xcc0
++  __DATA.__bss: 0x6a50
++  __DATA.__common: 0x38
++  __DATA_DIRTY.__objc_data: 0xf0
++  __DATA_DIRTY.__data: 0x1850
++  __DATA_DIRTY.__bss: 0x2200
++  __DATA_DIRTY.__common: 0xe0
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /System/Library/PrivateFrameworks/LinkMetadata.framework/Versions/A/LinkMetadata
+   - /System/Library/PrivateFrameworks/LinkServices.framework/Versions/A/LinkServices
+   - /System/Library/PrivateFrameworks/Settings.framework/Versions/A/Settings
++  - /System/Library/PrivateFrameworks/SettingsServices.framework/Versions/A/SettingsServices
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 2038
+-  Symbols:   872
+-  CStrings:  561
++  Functions: 2589
++  Symbols:   1019
++  CStrings:  584
+ 
+Symbols:
++ _NSTemporaryDirectory
++ _NSURLIsDirectoryKey
++ _OBJC_CLASS_$_NSFileManager
++ __DATA__TtC12SettingsHost28SettingsHostDiagnosticsStore
++ __IVARS__TtC12SettingsHost28SettingsHostDiagnosticsStore
++ __METACLASS_DATA__TtC12SettingsHost28SettingsHostDiagnosticsStore
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_memcpy104_8
++ ___swift_memcpy64_8
++ ___swift_memcpy80_8
++ _associated conformance 12SettingsHost0A26SearchIndexGenerationTokenV10CodingKeys33_9CD187E4404BEB3B05B48F48E111B743LLOSHAASQ
++ _associated conformance 12SettingsHost0A26SearchIndexGenerationTokenV10CodingKeys33_9CD187E4404BEB3B05B48F48E111B743LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12SettingsHost0A26SearchIndexGenerationTokenV10CodingKeys33_9CD187E4404BEB3B05B48F48E111B743LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SettingsHost0aB16DiagnosticsStoreC8Envelope33_13A89FBD6E9E307679DEFE99CFB21591LLV10CodingKeysOy_x_GSHAASQ
++ _associated conformance 12SettingsHost0aB16DiagnosticsStoreC8Envelope33_13A89FBD6E9E307679DEFE99CFB21591LLV10CodingKeysOy_x_Gs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 12SettingsHost0aB16DiagnosticsStoreC8Envelope33_13A89FBD6E9E307679DEFE99CFB21591LLV10CodingKeysOy_x_Gs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOSHAASQ
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV12DomainResultV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOSHAASQ
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV12DomainResultV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV12DomainResultV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOSHAASQ
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO17SkippedCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO17SkippedCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO18CompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO18CompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO20IncompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO20IncompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeOSHAASQ
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV5IssueV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOSHAASQ
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV5IssueV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV5IssueV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV5IssueV8SeverityOSHAASQ
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOSHAASQ
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO16FailedCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOSHAASQ
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO16FailedCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO16FailedCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO18CompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO18CompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO20IncompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO20IncompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV7SummaryV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOSHAASQ
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV7SummaryV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12SettingsHost32SearchIndexingDiagnosticSnapshotV7SummaryV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance So16NSURLResourceKeyaSHSCSQ
++ _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _get_enum_tag_for_layout_string 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO
++ _objc_msgSend$beginIndexBatch
++ _objc_msgSend$containerURLForSecurityApplicationGroupIdentifier:
++ _objc_msgSend$contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:
++ _objc_msgSend$copyItemAtURL:toURL:error:
++ _objc_msgSend$createDirectoryAtURL:withIntermediateDirectories:attributes:error:
++ _objc_msgSend$defaultManager
++ _objc_msgSend$endIndexBatchWithExpectedClientState:newClientState:critical:completionHandler:
++ _objc_msgSend$fetchLastClientStateWithCompletionHandler:
++ _objc_msgSend$fileExistsAtPath:
++ _objc_msgSend$removeItemAtURL:error:
++ _swift_getMetatypeMetadata
++ _symbolic $s12SettingsHost0aB16DiagnosticDomainP
++ _symbolic $s12SettingsHost9PrismaticP
++ _symbolic SDySS_____G 12SettingsHost32SearchIndexingDiagnosticSnapshotV12DomainResultV
++ _symbolic SS3key______5valuet 12SettingsHost32SearchIndexingDiagnosticSnapshotV12DomainResultV
++ _symbolic Say_____G 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic Say_____G 12SettingsHost32SearchIndexingDiagnosticSnapshotV5IssueV
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic ScCy___________pG 10Foundation4DataV s5ErrorP
++ _symbolic SiSg
++ _symbolic _____ 10Foundation4DateV
++ _symbolic _____ 12SettingsHost0A26SearchIndexGenerationTokenV
++ _symbolic _____ 12SettingsHost0A26SearchIndexGenerationTokenV10CodingKeys33_9CD187E4404BEB3B05B48F48E111B743LLO
++ _symbolic _____ 12SettingsHost0aB16DiagnosticsStoreC
++ _symbolic _____ 12SettingsHost0aB16DiagnosticsStoreC8Envelope33_13A89FBD6E9E307679DEFE99CFB21591LLV
++ _symbolic _____ 12SettingsHost0aB16DiagnosticsStoreC8Envelope33_13A89FBD6E9E307679DEFE99CFB21591LLV10CodingKeysO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV12DomainResultV
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV12DomainResultV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO17SkippedCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO18CompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO20IncompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV5IssueV
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV5IssueV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV5IssueV8SeverityO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO16FailedCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO18CompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO20IncompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV7SummaryV
++ _symbolic _____ 12SettingsHost32SearchIndexingDiagnosticSnapshotV7SummaryV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____ 12SettingsHost5PrismV
++ _symbolic _____ So16NSURLResourceKeya
++ _symbolic _____Sg 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO
++ _symbolic _____Sg 12SettingsHost32SearchIndexingDiagnosticSnapshotV7SummaryV
++ _symbolic _____Sg_ABt 10Foundation4DateV
++ _symbolic _____XDXMT 12SettingsHost0aB16DiagnosticsStoreC
++ _symbolic _____m 12SettingsHost32SearchIndexingDiagnosticSnapshotV
++ _symbolic _____ySSG s10ArraySliceV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12SettingsHost32SearchIndexingDiagnosticSnapshotV12DomainResultV
++ _symbolic _____y_____G s11_SetStorageC So16NSURLResourceKeya
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SettingsHost0D26SearchIndexGenerationTokenV10CodingKeys33_9CD187E4404BEB3B05B48F48E111B743LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV12DomainResultV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO17SkippedCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO18CompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO20IncompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV5IssueV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO16FailedCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO18CompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO20IncompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV7SummaryV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SettingsHost0D26SearchIndexGenerationTokenV10CodingKeys33_9CD187E4404BEB3B05B48F48E111B743LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV12DomainResultV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO17SkippedCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO18CompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV13DomainOutcomeO20IncompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV5IssueV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO16FailedCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO18CompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO20IncompleteCodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12SettingsHost32SearchIndexingDiagnosticSnapshotV7SummaryV10CodingKeys33_85D47D187E8AD0B466812DB06C0F1F88LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation3URLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12SettingsHost32SearchIndexingDiagnosticSnapshotV5IssueV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So16NSURLResourceKeya
++ _symbolic _____y______G 12SettingsHost0aB16DiagnosticsStoreC8Envelope33_13A89FBD6E9E307679DEFE99CFB21591LLV AA32SearchIndexingDiagnosticSnapshotV
++ _symbolic _____yq_qd__G 12SettingsHost5PrismV
++ _symbolic _____yxq_G 12SettingsHost5PrismV
++ _type_layout_string 12SettingsHost0A26SearchIndexGenerationTokenV
++ _type_layout_string 12SettingsHost32SearchIndexingDiagnosticSnapshotV12DomainResultV
++ _type_layout_string 12SettingsHost32SearchIndexingDiagnosticSnapshotV5IssueV
++ _type_layout_string 12SettingsHost32SearchIndexingDiagnosticSnapshotV7OutcomeO
++ _type_layout_string 12SettingsHost32SearchIndexingDiagnosticSnapshotV7SummaryV
++ _type_layout_string r0_l12SettingsHost5PrismVyxq_G
+CStrings:
++ "Adopting existing index generation '%{public}s' for index '%{public}s'."
++ "Diagnostic domain %{public}s has an empty identifier; falling back to its type name."
++ "Diagnostics container '%{public}s' is unavailable; falling back to the temporary directory."
++ "Failed to %{public}s diagnostics '%{public}s': %{public}s"
++ "Failed to fetch clientState for index '%{public}s': %{public}@. Treating as a dropped index and minting a new generation."
++ "Failed to get container URL for app group '%{public}s'."
++ "Failed to persist generation token for index '%{public}s': %{public}@."
++ "Failed to remove diagnostics '%{public}s': %{public}s"
++ "Failed to write diagnostic '%{public}s': %{public}s"
++ "Index '%{public}s' generation token build/locale changed; minting generation '%{public}s'."
++ "No clientState generation token for index '%{public}s' (index was dropped or never written); minting generation '%{public}s' and forcing full reindex."
++ "Persisted generation '%{public}s' to clientState for index '%{public}s' (%{public}ld bytes)."
++ "Recorded successful indexing for domain '%{public}s' with build, language, and generation '%{public}s'"
++ "com.apple.settings.search.indexing"
++ "com.apple.settingshost.diagnostics"
++ "com.apple.settingshost.diagnostics.io"
++ "coreSpotlightError"
++ "domainsIncomplete"
++ "domainsProcessed"
++ "important"
++ "informational"
++ "linkServicesError"
++ "postIndexingCleanup"
++ "severe"
+- "Recorded successful indexing for domain '%{public}s' with build and language '%{public}s'"
+```

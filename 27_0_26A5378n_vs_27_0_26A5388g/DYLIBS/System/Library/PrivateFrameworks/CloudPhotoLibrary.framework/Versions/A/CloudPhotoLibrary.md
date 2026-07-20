@@ -1,0 +1,646 @@
+## CloudPhotoLibrary
+
+> `/System/Library/PrivateFrameworks/CloudPhotoLibrary.framework/Versions/A/CloudPhotoLibrary`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_floatobj`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-910.28.103.0.0
+-  __TEXT.__text: 0x1e51e4
+-  __TEXT.__objc_methlist: 0x15c54
++910.34.101.0.0
++  __TEXT.__text: 0x1e5acc
++  __TEXT.__objc_methlist: 0x15cbc
+   __TEXT.__const: 0x328
+   __TEXT.__gcc_except_tab: 0x4d80
+-  __TEXT.__oslogstring: 0x16ad2
+-  __TEXT.__cstring: 0x18c54
+-  __TEXT.__unwind_info: 0x6d70
++  __TEXT.__oslogstring: 0x16b50
++  __TEXT.__cstring: 0x18c7c
++  __TEXT.__unwind_info: 0x6d78
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x90
+   __DATA_CONST.__objc_protolist: 0x1b0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x9280
++  __DATA_CONST.__objc_selrefs: 0x92a0
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x948
+   __DATA_CONST.__objc_arraydata: 0x1438
+   __DATA_CONST.__got: 0xb40
+   __AUTH_CONST.__const: 0x9820
+-  __AUTH_CONST.__cfstring: 0x17960
+-  __AUTH_CONST.__objc_const: 0x238b0
++  __AUTH_CONST.__cfstring: 0x179a0
++  __AUTH_CONST.__objc_const: 0x239b0
+   __AUTH_CONST.__objc_intobj: 0x768
+   __AUTH_CONST.__objc_arrayobj: 0x78
+   __AUTH_CONST.__objc_dictobj: 0x140
+   __AUTH_CONST.__objc_floatobj: 0x50
+   __AUTH_CONST.__auth_got: 0x5d8
+   __AUTH.__objc_data: 0x50
+-  __DATA.__objc_ivar: 0x1c08
++  __DATA.__objc_ivar: 0x1c24
+   __DATA.__data: 0x1600
+   __DATA.__bss: 0xb48
+   __DATA.__common: 0x28
+
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/Versions/A/ProtocolBuffer
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 9893
+-  Symbols:   19320
+-  CStrings:  5100
++  Functions: 9901
++  Symbols:   19338
++  CStrings:  5105
+ 
+Symbols:
++ -[CPLAlbumChange unitsInMemory]
++ -[CPLExtractedBatch maximumUnitsInMemory]
++ -[CPLExtractedBatch setMaximumUnitsInMemory:]
++ -[CPLExtractedBatch unitsInMemory]
++ -[CPLFaceCropChange unitsInMemory]
++ -[CPLMemoryChange unitsInMemory]
++ -[CPLRecordChange unitsInMemory]
++ -[CPLShareParticipant isApprovedRequester]
++ -[CPLShareParticipant setIsApprovedRequester:]
++ GCC_except_table2285
++ GCC_except_table2289
++ GCC_except_table2296
++ GCC_except_table2300
++ GCC_except_table2327
++ GCC_except_table2334
++ GCC_except_table2347
++ GCC_except_table2536
++ GCC_except_table2637
++ GCC_except_table2703
++ GCC_except_table2711
++ GCC_except_table2752
++ GCC_except_table2844
++ GCC_except_table2851
++ GCC_except_table3004
++ GCC_except_table3093
++ GCC_except_table3383
++ GCC_except_table3385
++ GCC_except_table3489
++ GCC_except_table3500
++ GCC_except_table3555
++ GCC_except_table3557
++ GCC_except_table3668
++ GCC_except_table3692
++ GCC_except_table3786
++ GCC_except_table3790
++ GCC_except_table3792
++ GCC_except_table3794
++ GCC_except_table3798
++ GCC_except_table3959
++ GCC_except_table4008
++ GCC_except_table4253
++ GCC_except_table4338
++ GCC_except_table4342
++ GCC_except_table4344
++ GCC_except_table4353
++ GCC_except_table4558
++ GCC_except_table4572
++ GCC_except_table4732
++ GCC_except_table4762
++ GCC_except_table4799
++ GCC_except_table4817
++ GCC_except_table4830
++ GCC_except_table4838
++ GCC_except_table4840
++ GCC_except_table4854
++ GCC_except_table4859
++ GCC_except_table5231
++ GCC_except_table5264
++ GCC_except_table5266
++ GCC_except_table5292
++ GCC_except_table5426
++ GCC_except_table5436
++ GCC_except_table5497
++ GCC_except_table5675
++ GCC_except_table5685
++ GCC_except_table5777
++ GCC_except_table5781
++ GCC_except_table5787
++ GCC_except_table5795
++ GCC_except_table5810
++ GCC_except_table5811
++ GCC_except_table5817
++ GCC_except_table5864
++ GCC_except_table5871
++ GCC_except_table5875
++ GCC_except_table5901
++ GCC_except_table5906
++ GCC_except_table5908
++ GCC_except_table5910
++ GCC_except_table5912
++ GCC_except_table5914
++ GCC_except_table5916
++ GCC_except_table5921
++ GCC_except_table5928
++ GCC_except_table5933
++ GCC_except_table5935
++ GCC_except_table5980
++ GCC_except_table5982
++ GCC_except_table5984
++ GCC_except_table5996
++ GCC_except_table6148
++ GCC_except_table6190
++ GCC_except_table6200
++ GCC_except_table6201
++ GCC_except_table6260
++ GCC_except_table6263
++ GCC_except_table6348
++ GCC_except_table6350
++ GCC_except_table6366
++ GCC_except_table6389
++ GCC_except_table6405
++ GCC_except_table6407
++ GCC_except_table6567
++ GCC_except_table6595
++ GCC_except_table6638
++ GCC_except_table6660
++ GCC_except_table6694
++ GCC_except_table6706
++ GCC_except_table6735
++ GCC_except_table6766
++ GCC_except_table6792
++ GCC_except_table6824
++ GCC_except_table6865
++ GCC_except_table6930
++ GCC_except_table6960
++ GCC_except_table6969
++ GCC_except_table6987
++ GCC_except_table7000
++ GCC_except_table7005
++ GCC_except_table7014
++ GCC_except_table7015
++ GCC_except_table7029
++ GCC_except_table7087
++ GCC_except_table7213
++ GCC_except_table7227
++ GCC_except_table7230
++ GCC_except_table7359
++ GCC_except_table7365
++ GCC_except_table7368
++ GCC_except_table7742
++ GCC_except_table7788
++ GCC_except_table7790
++ GCC_except_table7805
++ GCC_except_table7811
++ GCC_except_table7819
++ GCC_except_table7829
++ GCC_except_table7837
++ GCC_except_table7840
++ GCC_except_table7860
++ GCC_except_table7867
++ GCC_except_table7890
++ GCC_except_table7925
++ GCC_except_table7956
++ GCC_except_table7967
++ GCC_except_table7989
++ GCC_except_table7994
++ GCC_except_table7996
++ GCC_except_table8027
++ GCC_except_table8077
++ GCC_except_table8221
++ GCC_except_table8244
++ GCC_except_table8274
++ GCC_except_table8424
++ GCC_except_table8426
++ GCC_except_table8456
++ GCC_except_table8465
++ GCC_except_table8470
++ GCC_except_table8486
++ GCC_except_table8501
++ GCC_except_table8513
++ GCC_except_table8518
++ GCC_except_table8602
++ GCC_except_table8691
++ GCC_except_table8750
++ GCC_except_table8828
++ GCC_except_table8843
++ GCC_except_table8871
++ GCC_except_table8890
++ GCC_except_table8900
++ GCC_except_table8942
++ GCC_except_table8945
++ GCC_except_table8949
++ GCC_except_table8953
++ GCC_except_table9036
++ OBJC_IVAR_$_CPLExtractedBatch._maximumUnitsInMemory
++ OBJC_IVAR_$_CPLExtractedBatch._unitsInMemory
++ OBJC_IVAR_$_CPLPushSessionTracker._mutableDeletedScopeIdentifiers
++ OBJC_IVAR_$_CPLShareParticipant._isApprovedRequester
++ OBJC_IVAR_$_CPLUnacknowledgedChangeStorage._invalidScopeIdentifiers
++ OBJC_IVAR_$_CPLUnacknowledgedChangeStorage._scopes
++ OBJC_IVAR_$_CPLUnacknowledgedChangeStorage._validScopeIdentifiers
++ _objc_msgSend$setIsApprovedRequester:
++ _objc_msgSend$setMaximumUnitsInMemory:
++ _objc_msgSend$unitsInMemory
+- -[CPLExtractedBatch resourceSize]
+- GCC_except_table2282
+- GCC_except_table2283
+- GCC_except_table2293
+- GCC_except_table2297
+- GCC_except_table2324
+- GCC_except_table2331
+- GCC_except_table2341
+- GCC_except_table2533
+- GCC_except_table2634
+- GCC_except_table2700
+- GCC_except_table2708
+- GCC_except_table2749
+- GCC_except_table2841
+- GCC_except_table2848
+- GCC_except_table3001
+- GCC_except_table3090
+- GCC_except_table3380
+- GCC_except_table3382
+- GCC_except_table3486
+- GCC_except_table3497
+- GCC_except_table3552
+- GCC_except_table3554
+- GCC_except_table3665
+- GCC_except_table3689
+- GCC_except_table3783
+- GCC_except_table3787
+- GCC_except_table3789
+- GCC_except_table3791
+- GCC_except_table3795
+- GCC_except_table3956
+- GCC_except_table4005
+- GCC_except_table4250
+- GCC_except_table4335
+- GCC_except_table4339
+- GCC_except_table4341
+- GCC_except_table4350
+- GCC_except_table4555
+- GCC_except_table4569
+- GCC_except_table4729
+- GCC_except_table4759
+- GCC_except_table4796
+- GCC_except_table4814
+- GCC_except_table4827
+- GCC_except_table4835
+- GCC_except_table4837
+- GCC_except_table4851
+- GCC_except_table4853
+- GCC_except_table5228
+- GCC_except_table5261
+- GCC_except_table5263
+- GCC_except_table5289
+- GCC_except_table5423
+- GCC_except_table5433
+- GCC_except_table5491
+- GCC_except_table5672
+- GCC_except_table5682
+- GCC_except_table5774
+- GCC_except_table5778
+- GCC_except_table5784
+- GCC_except_table5792
+- GCC_except_table5807
+- GCC_except_table5808
+- GCC_except_table5814
+- GCC_except_table5861
+- GCC_except_table5868
+- GCC_except_table5872
+- GCC_except_table5898
+- GCC_except_table5903
+- GCC_except_table5905
+- GCC_except_table5907
+- GCC_except_table5909
+- GCC_except_table5911
+- GCC_except_table5913
+- GCC_except_table5915
+- GCC_except_table5925
+- GCC_except_table5927
+- GCC_except_table5929
+- GCC_except_table5977
+- GCC_except_table5979
+- GCC_except_table5981
+- GCC_except_table5993
+- GCC_except_table6144
+- GCC_except_table6186
+- GCC_except_table6196
+- GCC_except_table6197
+- GCC_except_table6256
+- GCC_except_table6259
+- GCC_except_table6344
+- GCC_except_table6346
+- GCC_except_table6362
+- GCC_except_table6385
+- GCC_except_table6401
+- GCC_except_table6403
+- GCC_except_table6563
+- GCC_except_table6591
+- GCC_except_table6634
+- GCC_except_table6656
+- GCC_except_table6690
+- GCC_except_table6702
+- GCC_except_table6731
+- GCC_except_table6758
+- GCC_except_table6788
+- GCC_except_table6820
+- GCC_except_table6861
+- GCC_except_table6926
+- GCC_except_table6952
+- GCC_except_table6965
+- GCC_except_table6983
+- GCC_except_table6996
+- GCC_except_table7001
+- GCC_except_table7010
+- GCC_except_table7011
+- GCC_except_table7025
+- GCC_except_table7083
+- GCC_except_table7209
+- GCC_except_table7223
+- GCC_except_table7226
+- GCC_except_table7353
+- GCC_except_table7355
+- GCC_except_table7364
+- GCC_except_table7738
+- GCC_except_table7780
+- GCC_except_table7786
+- GCC_except_table7801
+- GCC_except_table7807
+- GCC_except_table7815
+- GCC_except_table7821
+- GCC_except_table7833
+- GCC_except_table7836
+- GCC_except_table7856
+- GCC_except_table7863
+- GCC_except_table7886
+- GCC_except_table7921
+- GCC_except_table7952
+- GCC_except_table7963
+- GCC_except_table7985
+- GCC_except_table7988
+- GCC_except_table7990
+- GCC_except_table8023
+- GCC_except_table8073
+- GCC_except_table8217
+- GCC_except_table8240
+- GCC_except_table8270
+- GCC_except_table8418
+- GCC_except_table8420
+- GCC_except_table8450
+- GCC_except_table8459
+- GCC_except_table8464
+- GCC_except_table8480
+- GCC_except_table8495
+- GCC_except_table8507
+- GCC_except_table8512
+- GCC_except_table8596
+- GCC_except_table8685
+- GCC_except_table8744
+- GCC_except_table8822
+- GCC_except_table8837
+- GCC_except_table8859
+- GCC_except_table8884
+- GCC_except_table8894
+- GCC_except_table8936
+- GCC_except_table8939
+- GCC_except_table8943
+- GCC_except_table8947
+- GCC_except_table9029
+CStrings:
++ "%@ has been deleted"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLBackgroundActivity.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLBeforeUploadCheckItems.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLCallObserver.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLDirectUploadTask.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineDerivativesCache.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineForceSyncTask.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineLibrary.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineScheduler.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineSyncManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineSyncTask.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineSystemMonitor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineTransport.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineUIObservationCenter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLFileWatcher.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLGenerateDerivativesSubtask.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLMingleChangesTask.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLMingleUtility.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLNetworkWatcher.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLPowerAssertion.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLProcessStagedScopesTask.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLPullFromTransportTask.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLPushToTransportTask.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLScopeUpdateTask.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLSyncSession.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLSyncStep.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLTransaction.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLTransportScopeMapping.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUIObservedSource.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUIRecordObservedSource.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUIScopeObservedSource.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUISyncActivityObservedSource.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUIUploadProgressHub.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUploadComputeStatesAccumulator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUploadComputeStatesTask.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUploadPushedChangesTask.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Feedback/CPLEngineFeedbackManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Feedback/CPLFeedbackMessage.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLBatchExtractionStep.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLBatchExtractionStrategy.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLChangeBatchChangeStorage.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLChangeSessionUpdate.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLChangedRecordStorageView.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLClientCacheView_Extensions.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineCloudCache.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineFileStorage.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineIDMapping.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineOutgoingResources.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEnginePushRepository.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineResourceDownloadQueue.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineResourceStorage.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineScope.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineScopeStorage.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineStorage.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineStorageViews.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineStore.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineTransientRepository.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineTransientRepositoryBatchStorage.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLExtractedBatch.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLFeature.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLRecordStorageView.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLSharedBatchStorage.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLAlbumChange.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLAssetChange.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLBase.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLChangeBatch.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLChangeSession.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLCommentChange.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLConfiguration.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLConfigurationDictionary.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLContainerChange.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLErrors.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLFaceAnalysisReference.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLFaceCropChange.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLFingerprintContext.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLFingerprintScheme.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLForceSyncTask.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLItemChange.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLLibraryManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLLibraryParameters.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLMasterChange.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLPersonChange.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLPlatform.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLPullChangeSession.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLPushChangeSession.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLPushSessionTracker.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLRecordChange.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLRecordTarget.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLResource.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLResourceIdentity.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLResourceTransferTask.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLSchemaFilter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLScopeChange.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLScopedIdentifier.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLSocialGroupChange.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLStatus.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLTransportContainerConfiguration.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLTurboSyncObserver.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLUIObserver.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLUIRecordObserver.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLUIScopeObserver.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/NSObject+CPLCodingProxy.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Implementations/Daemon/CPLProxyLibraryManager.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/cloudphotolibrary/Implementations/Daemon/CPLProxySession.m"
++ "Client pushes a scope change for deleted %@ - ignoring"
++ "CloudPhotoLibrary-910.34.101"
++ "Ignoring %@ for deleted scope"
++ "Transport scope update for %@ failed: %@"
++ "isApprovedRequester"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLBackgroundActivity.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLBeforeUploadCheckItems.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLCallObserver.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLDirectUploadTask.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineDerivativesCache.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineForceSyncTask.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineLibrary.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineScheduler.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineSyncManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineSyncTask.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineSystemMonitor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineTransport.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineUIObservationCenter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLFileWatcher.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLGenerateDerivativesSubtask.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLMingleChangesTask.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLMingleUtility.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLNetworkWatcher.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLPowerAssertion.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLProcessStagedScopesTask.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLPullFromTransportTask.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLPushToTransportTask.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLScopeUpdateTask.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLSyncSession.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLSyncStep.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLTransaction.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLTransportScopeMapping.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUIObservedSource.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUIRecordObservedSource.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUIScopeObservedSource.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUISyncActivityObservedSource.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUIUploadProgressHub.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUploadComputeStatesAccumulator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUploadComputeStatesTask.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLUploadPushedChangesTask.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Feedback/CPLEngineFeedbackManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Feedback/CPLFeedbackMessage.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLBatchExtractionStep.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLBatchExtractionStrategy.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLChangeBatchChangeStorage.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLChangeSessionUpdate.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLChangedRecordStorageView.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLClientCacheView_Extensions.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineCloudCache.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineFileStorage.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineIDMapping.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineOutgoingResources.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEnginePushRepository.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineResourceDownloadQueue.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineResourceStorage.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineScope.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineScopeStorage.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineStorage.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineStorageViews.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineStore.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineTransientRepository.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineTransientRepositoryBatchStorage.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLExtractedBatch.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLFeature.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLRecordStorageView.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLSharedBatchStorage.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLAlbumChange.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLAssetChange.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLBase.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLChangeBatch.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLChangeSession.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLCommentChange.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLConfiguration.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLConfigurationDictionary.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLContainerChange.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLErrors.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLFaceAnalysisReference.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLFaceCropChange.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLFingerprintContext.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLFingerprintScheme.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLForceSyncTask.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLItemChange.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLLibraryManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLLibraryParameters.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLMasterChange.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLPersonChange.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLPlatform.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLPullChangeSession.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLPushChangeSession.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLPushSessionTracker.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLRecordChange.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLRecordTarget.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLResource.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLResourceIdentity.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLResourceTransferTask.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLSchemaFilter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLScopeChange.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLScopedIdentifier.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLSocialGroupChange.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLStatus.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLTransportContainerConfiguration.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLTurboSyncObserver.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLUIObserver.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLUIRecordObserver.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLUIScopeObserver.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/NSObject+CPLCodingProxy.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Implementations/Daemon/CPLProxyLibraryManager.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/cloudphotolibrary/Implementations/Daemon/CPLProxySession.m"
+- "CloudPhotoLibrary-910.28.103"
+```

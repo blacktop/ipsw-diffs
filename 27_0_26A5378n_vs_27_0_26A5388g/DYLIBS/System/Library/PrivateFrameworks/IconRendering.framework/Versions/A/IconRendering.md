@@ -1,0 +1,203 @@
+## IconRendering
+
+> `/System/Library/PrivateFrameworks/IconRendering.framework/Versions/A/IconRendering`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-115.0.0.0.0
+-  __TEXT.__text: 0x8ca7c
++116.0.0.0.0
++  __TEXT.__text: 0x8ee00
+   __TEXT.__objc_methlist: 0x2ac8
+-  __TEXT.__const: 0xaa88
+-  __TEXT.__swift5_typeref: 0x21ae
+-  __TEXT.__constg_swiftt: 0x1ecc
++  __TEXT.__const: 0xaa68
++  __TEXT.__swift5_typeref: 0x219c
++  __TEXT.__constg_swiftt: 0x1e8c
+   __TEXT.__swift5_builtin: 0x244
+-  __TEXT.__swift5_reflstr: 0x1f66
+-  __TEXT.__swift5_fieldmd: 0x3064
++  __TEXT.__swift5_reflstr: 0x20d6
++  __TEXT.__swift5_fieldmd: 0x314c
+   __TEXT.__swift5_assocty: 0x360
+-  __TEXT.__cstring: 0x1435
++  __TEXT.__cstring: 0x1555
+   __TEXT.__oslogstring: 0xbac
+-  __TEXT.__swift5_capture: 0x350
+-  __TEXT.__swift5_proto: 0x8b4
+-  __TEXT.__swift5_types: 0x32c
++  __TEXT.__swift5_capture: 0x334
++  __TEXT.__swift5_proto: 0x8b0
++  __TEXT.__swift5_types: 0x328
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift_as_entry: 0x4c
+   __TEXT.__swift_as_ret: 0x40
+   __TEXT.__swift_as_cont: 0x7c
+   __TEXT.__swift5_mpenum: 0x120
+-  __TEXT.__unwind_info: 0x2198
+-  __TEXT.__eh_frame: 0x26c8
++  __TEXT.__unwind_info: 0x2190
++  __TEXT.__eh_frame: 0x2780
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xd0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1ec0
++  __DATA_CONST.__objc_selrefs: 0x1ec8
+   __DATA_CONST.__objc_protorefs: 0x68
+-  __DATA_CONST.__got: 0x438
+-  __AUTH_CONST.__const: 0x6758
++  __DATA_CONST.__got: 0x440
++  __AUTH_CONST.__const: 0x66e0
+   __AUTH_CONST.__objc_const: 0x4770
+-  __AUTH_CONST.__auth_got: 0xce8
++  __AUTH_CONST.__auth_got: 0xce0
+   __AUTH.__objc_data: 0x480
+   __AUTH.__data: 0x20
+   __DATA.__data: 0x1ad8
+   __DATA.__bss: 0xea80
+   __DATA.__common: 0x121
+   __DATA_DIRTY.__objc_data: 0x640
+-  __DATA_DIRTY.__data: 0x1548
+-  __DATA_DIRTY.__bss: 0x2700
++  __DATA_DIRTY.__data: 0x1538
++  __DATA_DIRTY.__bss: 0x2680
+   __DATA_DIRTY.__common: 0x100
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+   - /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+   - /System/Library/PrivateFrameworks/CoreSVG.framework/Versions/A/CoreSVG
+   - /System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+-  - /System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+   - /System/Library/PrivateFrameworks/RenderBox.framework/Versions/A/RenderBox
+   - /System/Library/PrivateFrameworks/TextureIO.framework/Versions/A/TextureIO
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3914
+-  Symbols:   1758
+-  CStrings:  206
++  Functions: 3955
++  Symbols:   1756
++  CStrings:  213
+ 
+Symbols:
++ _RBImageRendererSynchronousRendering
++ ___swift_memcpy129_8
++ ___swift_memcpy17968_8
++ ___swift_memcpy200_8
++ ___swift_memcpy796_8
++ ___swift_memcpy884_8
++ _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOSHAASQ
++ _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO16PixelsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO16PixelsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO16PointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO16PointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO17ClassicCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO17ClassicCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO28PixelRoundedPointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO28PixelRoundedPointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingOSHAASQ
++ _objc_msgSend$addColorMultiplyFilterWithColor:
++ _symbolic _____ 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO
++ _symbolic _____ 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____ 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO16PixelsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____ 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO16PointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____ 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO17ClassicCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____ 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO28PixelRoundedPointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO16PixelsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO16PointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO17ClassicCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO28PixelRoundedPointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO16PixelsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO16PointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO17ClassicCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV6SizingO28PixelRoundedPointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- ___swift_memcpy170_8
+- ___swift_memcpy17904_8
+- ___swift_memcpy755_8
+- ___swift_memcpy843_8
+- ___swift_memcpy98_8
+- _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOSHAASQ
+- _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO16PixelsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO16PixelsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO16PointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO16PointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO17ClassicCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO17ClassicCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO28PixelRoundedPointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO28PixelRoundedPointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeOSHAASQ
+- _symbolic _____ 13IconRendering12FeatureFlagsO
+- _symbolic _____ 13IconRendering12FeatureFlagsO3Key33_21A2B4725B4402251AFAD9EF8A8B73FCLLV
+- _symbolic _____ 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO
+- _symbolic _____ 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _symbolic _____ 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO16PixelsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _symbolic _____ 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO16PointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _symbolic _____ 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO17ClassicCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _symbolic _____ 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO28PixelRoundedPointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _symbolic _____ s12StaticStringV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO16PixelsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO16PointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO17ClassicCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO28PixelRoundedPointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO10CodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO16PixelsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO16PointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO17ClassicCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13IconRendering22ICRRenderingParametersV8OutlinesV4ModeO28PixelRoundedPointsCodingKeys33_98A1FB5E3DCF01EF6F78F94953B55A3BLLO
+- _type_layout_string 13IconRendering12FeatureFlagsO3Key33_21A2B4725B4402251AFAD9EF8A8B73FCLLV
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ZAbasG/Sources/IconRendering/IconRendering/FinalizedIcon+Serialization.swift"
++ "luminanceRangeOnBright"
++ "luminanceRangeOnDim"
++ "minNeutralKnockoutStrength"
++ "minVibrantKnockoutStrength"
++ "recreateRadar153477135"
++ "replicateBadSmoothing"
++ "translucencyForLeastKnockout"
++ "useDynamicOpacity"
++ "vibrantBrightness"
++ "vibrantDarkBlendMode"
++ "vibrantLightBlendMode"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ccLpcM/Sources/IconRendering/IconRendering/FinalizedIcon+Serialization.swift"
+- "Calistoga"
+- "IconServices"
+- "SwiftUI"
+- "vibrantBlendMode"
+```

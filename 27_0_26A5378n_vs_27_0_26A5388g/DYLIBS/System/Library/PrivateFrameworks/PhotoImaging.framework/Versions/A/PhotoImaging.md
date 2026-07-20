@@ -1,0 +1,857 @@
+## PhotoImaging
+
+> `/System/Library/PrivateFrameworks/PhotoImaging.framework/Versions/A/PhotoImaging`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__weak_got`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_floatobj`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+-910.28.103.0.0
+-  __TEXT.__text: 0x2a1cc4
++910.34.101.0.0
++  __TEXT.__text: 0x2a2b7c
+   __TEXT.__delay_helper: 0x1f4
+-  __TEXT.__objc_methlist: 0x16448
++  __TEXT.__objc_methlist: 0x16470
+   __TEXT.__const: 0x8bf8
+   __TEXT.__dlopen_cstrs: 0x2a2
+   __TEXT.__swift5_typeref: 0x2e9
+-  __TEXT.__cstring: 0x4861f
++  __TEXT.__cstring: 0x48637
+   __TEXT.__constg_swiftt: 0x210
+   __TEXT.__swift5_reflstr: 0x35f
+   __TEXT.__swift5_fieldmd: 0x3b8
+   __TEXT.__swift5_builtin: 0x64
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_assocty: 0x48
+-  __TEXT.__oslogstring: 0x6b47
++  __TEXT.__oslogstring: 0x6bc9
+   __TEXT.__swift5_proto: 0x7c
+   __TEXT.__swift5_types: 0x34
+   __TEXT.__swift_as_entry: 0x14
+
+   __TEXT.__swift_as_cont: 0x28
+   __TEXT.__swift5_capture: 0xf0
+   __TEXT.__gcc_except_tab: 0x4bc8
+-  __TEXT.__unwind_info: 0x5918
++  __TEXT.__unwind_info: 0x5938
+   __TEXT.__eh_frame: 0x9f0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_protolist: 0x190
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__weak_got: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xb480
++  __DATA_CONST.__objc_selrefs: 0xb4b8
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x708
+-  __DATA_CONST.__objc_arraydata: 0x9330
+-  __DATA_CONST.__got: 0x25a0
+-  __AUTH_CONST.__const: 0x8b40
+-  __AUTH_CONST.__cfstring: 0x26ca0
+-  __AUTH_CONST.__objc_const: 0x282a0
++  __DATA_CONST.__objc_arraydata: 0x9340
++  __DATA_CONST.__got: 0x25a8
++  __AUTH_CONST.__const: 0x8c40
++  __AUTH_CONST.__cfstring: 0x26d00
++  __AUTH_CONST.__objc_const: 0x282b0
+   __AUTH_CONST.__weak_auth_got: 0x18
+   __AUTH_CONST.__objc_intobj: 0x14d0
+-  __AUTH_CONST.__objc_dictobj: 0x5ac8
++  __AUTH_CONST.__objc_dictobj: 0x5af0
+   __AUTH_CONST.__objc_doubleobj: 0xe10
+   __AUTH_CONST.__objc_arrayobj: 0x558
+   __AUTH_CONST.__objc_floatobj: 0xd0
+-  __AUTH_CONST.__auth_got: 0x13b0
++  __AUTH_CONST.__auth_got: 0x13d8
+   __AUTH.__objc_data: 0x288
+   __DATA.__objc_ivar: 0x1560
+   __DATA.__data: 0x16ec
+
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+-  - /System/Library/Frameworks/CoreML.framework/Versions/A/CoreML
+   - /System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+   - /System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+   - /System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 9228
+-  Symbols:   20678
+-  CStrings:  7086
++  Functions: 9238
++  Symbols:   20695
++  CStrings:  7089
+ 
+Symbols:
++ +[PICinematicVideoUtilities cinematicDisparityResourcesReadyForAsset:]
++ +[PIPipelineFilters cinematicVideoHighQuality]
++ +[PIPipelineFilters cinematicVideoUseRefinedCinematography]
++ -[PICinematicVideo_v2 _buildPipeline:primary:adjustment:cinematography:highQuality:useRefinedCinematography:error:]
++ -[PISemanticStyleNode useProvidedInputsOnly]
++ GCC_except_table1117
++ GCC_except_table1717
++ GCC_except_table1731
++ GCC_except_table1899
++ GCC_except_table2077
++ GCC_except_table2231
++ GCC_except_table2243
++ GCC_except_table2249
++ GCC_except_table2259
++ GCC_except_table2266
++ GCC_except_table2276
++ GCC_except_table2356
++ GCC_except_table2396
++ GCC_except_table2425
++ GCC_except_table2432
++ GCC_except_table2447
++ GCC_except_table2465
++ GCC_except_table2470
++ GCC_except_table2566
++ GCC_except_table2788
++ GCC_except_table3137
++ GCC_except_table3145
++ GCC_except_table3176
++ GCC_except_table3183
++ GCC_except_table3185
++ GCC_except_table3187
++ GCC_except_table3189
++ GCC_except_table319
++ GCC_except_table3196
++ GCC_except_table3201
++ GCC_except_table3210
++ GCC_except_table3304
++ GCC_except_table3369
++ GCC_except_table3370
++ GCC_except_table3478
++ GCC_except_table3522
++ GCC_except_table3530
++ GCC_except_table3582
++ GCC_except_table3794
++ GCC_except_table3807
++ GCC_except_table3808
++ GCC_except_table3820
++ GCC_except_table3867
++ GCC_except_table3876
++ GCC_except_table3904
++ GCC_except_table3929
++ GCC_except_table4160
++ GCC_except_table4414
++ GCC_except_table4517
++ GCC_except_table4541
++ GCC_except_table4545
++ GCC_except_table4664
++ GCC_except_table4702
++ GCC_except_table4710
++ GCC_except_table4712
++ GCC_except_table4740
++ GCC_except_table4762
++ GCC_except_table4985
++ GCC_except_table5009
++ GCC_except_table5016
++ GCC_except_table5020
++ GCC_except_table5031
++ GCC_except_table5038
++ GCC_except_table507
++ GCC_except_table5185
++ GCC_except_table5277
++ GCC_except_table5338
++ GCC_except_table5341
++ GCC_except_table5353
++ GCC_except_table5360
++ GCC_except_table5362
++ GCC_except_table5367
++ GCC_except_table5375
++ GCC_except_table5468
++ GCC_except_table5816
++ GCC_except_table5835
++ GCC_except_table5836
++ GCC_except_table5846
++ GCC_except_table5851
++ GCC_except_table5908
++ GCC_except_table5909
++ GCC_except_table5919
++ GCC_except_table5921
++ GCC_except_table5947
++ GCC_except_table5948
++ GCC_except_table5955
++ GCC_except_table5965
++ GCC_except_table5966
++ GCC_except_table5967
++ GCC_except_table5969
++ GCC_except_table5974
++ GCC_except_table6007
++ GCC_except_table6111
++ GCC_except_table6150
++ GCC_except_table6224
++ GCC_except_table6543
++ GCC_except_table6794
++ GCC_except_table6795
++ GCC_except_table6888
++ GCC_except_table6892
++ GCC_except_table6897
++ GCC_except_table6898
++ GCC_except_table6900
++ GCC_except_table6906
++ GCC_except_table6919
++ GCC_except_table6936
++ GCC_except_table6990
++ GCC_except_table7042
++ GCC_except_table7043
++ GCC_except_table7044
++ GCC_except_table7045
++ GCC_except_table7076
++ GCC_except_table7081
++ GCC_except_table7149
++ GCC_except_table7159
++ GCC_except_table7263
++ GCC_except_table7316
++ GCC_except_table7318
++ GCC_except_table7418
++ GCC_except_table7426
++ GCC_except_table7427
++ GCC_except_table7435
++ GCC_except_table7442
++ GCC_except_table7444
++ GCC_except_table7445
++ GCC_except_table7446
++ GCC_except_table7447
++ GCC_except_table7449
++ GCC_except_table7507
++ GCC_except_table7518
++ GCC_except_table7532
++ GCC_except_table7533
++ GCC_except_table7534
++ GCC_except_table7568
++ GCC_except_table7569
++ GCC_except_table7573
++ GCC_except_table7576
++ GCC_except_table7622
++ GCC_except_table7766
++ GCC_except_table7783
++ GCC_except_table7784
++ GCC_except_table7785
++ GCC_except_table7786
++ GCC_except_table7787
++ GCC_except_table7788
++ GCC_except_table7789
++ GCC_except_table780
++ GCC_except_table7832
++ GCC_except_table791
++ GCC_except_table801
++ GCC_except_table8018
++ GCC_except_table821
++ GCC_except_table8246
++ GCC_except_table8248
++ GCC_except_table8249
++ GCC_except_table8311
++ GCC_except_table8313
++ GCC_except_table8315
++ GCC_except_table8385
++ GCC_except_table8421
++ GCC_except_table8430
++ GCC_except_table8432
++ GCC_except_table8434
++ GCC_except_table8437
++ GCC_except_table8441
++ GCC_except_table8444
++ GCC_except_table8455
++ GCC_except_table8476
++ GCC_except_table8477
++ GCC_except_table8481
++ GCC_except_table8490
++ GCC_except_table8500
++ GCC_except_table8501
++ GCC_except_table8506
++ GCC_except_table8510
++ GCC_except_table8512
++ GCC_except_table8513
++ GCC_except_table8525
++ GCC_except_table871
++ GCC_except_table872
++ _NUMediaCharacteristicOriginalStyleLinear
++ __58-[PIPrivatePhotosPipeline_v0 _addLivePhotoEffectPipeline:]_block_invoke
++ ___46+[PIPipelineFilters cinematicVideoHighQuality]_block_invoke
++ ___57+[PIAssetLoader evaluateLivePhotoVideoAssetCapabilities:]_block_invoke
++ ___57+[PIAssetLoader evaluateLivePhotoVideoAssetCapabilities:]_block_invoke_2
++ ___57+[PIAssetLoader evaluateLivePhotoVideoAssetCapabilities:]_block_invoke_3
++ ___59+[PIPipelineFilters cinematicVideoUseRefinedCinematography]_block_invoke
++ ___block_descriptor_40_e8_32s_e18_B16?0"NSString"8l
++ ___block_descriptor_40_e8_32s_e31_B16?0"NUVideoCorruptionInfo"8l
++ ___block_descriptor_56_e8_32s40s48s_e44_"NUChannelPortRef"16?0"NUChannelPortRef"8l
++ ___block_descriptor_80_e8_32s40s48s56s64s72s_e72_"NUChannelPortRef"32?0"<NUMutablePipeline>"8"NUChannelPortRef"16^24l
++ ___copy_helper_block_e8_32s40s48s56s64s72s
++ _objc_msgSend$_buildPipeline:primary:adjustment:cinematography:highQuality:useRefinedCinematography:error:
++ _objc_msgSend$_buildRenderNodePipelineForClass:baseSettings:error:
++ _objc_msgSend$insufficientlyCoveredFrameCount
++ _objc_msgSend$totalMainFrameCount
++ _objc_msgSend$trackMediaCharacteristic
++ _objc_msgSend$useProvidedInputsOnly
+- +[PIPipelineFilters cinematicVideoExportMode]
+- -[PICinematicVideo_v2 _buildPipeline:primary:adjustment:cinematography:highQuality:error:]
+- GCC_except_table1114
+- GCC_except_table1714
+- GCC_except_table1728
+- GCC_except_table1896
+- GCC_except_table2074
+- GCC_except_table2228
+- GCC_except_table2240
+- GCC_except_table2246
+- GCC_except_table2256
+- GCC_except_table2263
+- GCC_except_table2273
+- GCC_except_table2353
+- GCC_except_table2393
+- GCC_except_table2422
+- GCC_except_table2429
+- GCC_except_table2444
+- GCC_except_table2462
+- GCC_except_table2467
+- GCC_except_table2563
+- GCC_except_table2785
+- GCC_except_table3134
+- GCC_except_table3142
+- GCC_except_table316
+- GCC_except_table3173
+- GCC_except_table3177
+- GCC_except_table3179
+- GCC_except_table3184
+- GCC_except_table3186
+- GCC_except_table3193
+- GCC_except_table3198
+- GCC_except_table3207
+- GCC_except_table3301
+- GCC_except_table3366
+- GCC_except_table3367
+- GCC_except_table3474
+- GCC_except_table3518
+- GCC_except_table3526
+- GCC_except_table3578
+- GCC_except_table3790
+- GCC_except_table3800
+- GCC_except_table3803
+- GCC_except_table3816
+- GCC_except_table3863
+- GCC_except_table3872
+- GCC_except_table3900
+- GCC_except_table3925
+- GCC_except_table4156
+- GCC_except_table4408
+- GCC_except_table4511
+- GCC_except_table4535
+- GCC_except_table4539
+- GCC_except_table4658
+- GCC_except_table4696
+- GCC_except_table4704
+- GCC_except_table4706
+- GCC_except_table4734
+- GCC_except_table4756
+- GCC_except_table4979
+- GCC_except_table5003
+- GCC_except_table5010
+- GCC_except_table5014
+- GCC_except_table5025
+- GCC_except_table5032
+- GCC_except_table504
+- GCC_except_table5179
+- GCC_except_table5271
+- GCC_except_table5332
+- GCC_except_table5335
+- GCC_except_table5347
+- GCC_except_table5348
+- GCC_except_table5355
+- GCC_except_table5356
+- GCC_except_table5369
+- GCC_except_table5462
+- GCC_except_table5810
+- GCC_except_table5829
+- GCC_except_table5830
+- GCC_except_table5840
+- GCC_except_table5845
+- GCC_except_table5897
+- GCC_except_table5902
+- GCC_except_table5913
+- GCC_except_table5915
+- GCC_except_table5939
+- GCC_except_table5941
+- GCC_except_table5942
+- GCC_except_table5943
+- GCC_except_table5954
+- GCC_except_table5959
+- GCC_except_table5961
+- GCC_except_table5968
+- GCC_except_table6001
+- GCC_except_table6105
+- GCC_except_table6143
+- GCC_except_table6217
+- GCC_except_table6536
+- GCC_except_table6787
+- GCC_except_table6788
+- GCC_except_table6878
+- GCC_except_table6881
+- GCC_except_table6886
+- GCC_except_table6890
+- GCC_except_table6891
+- GCC_except_table6899
+- GCC_except_table6912
+- GCC_except_table6929
+- GCC_except_table6984
+- GCC_except_table7036
+- GCC_except_table7037
+- GCC_except_table7038
+- GCC_except_table7039
+- GCC_except_table7070
+- GCC_except_table7075
+- GCC_except_table7143
+- GCC_except_table7153
+- GCC_except_table7257
+- GCC_except_table7310
+- GCC_except_table7312
+- GCC_except_table7406
+- GCC_except_table7417
+- GCC_except_table7419
+- GCC_except_table7420
+- GCC_except_table7421
+- GCC_except_table7428
+- GCC_except_table7430
+- GCC_except_table7433
+- GCC_except_table7438
+- GCC_except_table7441
+- GCC_except_table7501
+- GCC_except_table7512
+- GCC_except_table7526
+- GCC_except_table7527
+- GCC_except_table7528
+- GCC_except_table7562
+- GCC_except_table7563
+- GCC_except_table7564
+- GCC_except_table7567
+- GCC_except_table7616
+- GCC_except_table7758
+- GCC_except_table7768
+- GCC_except_table777
+- GCC_except_table7775
+- GCC_except_table7777
+- GCC_except_table7778
+- GCC_except_table7779
+- GCC_except_table7780
+- GCC_except_table7781
+- GCC_except_table7824
+- GCC_except_table788
+- GCC_except_table798
+- GCC_except_table8010
+- GCC_except_table818
+- GCC_except_table8238
+- GCC_except_table8240
+- GCC_except_table8241
+- GCC_except_table8303
+- GCC_except_table8305
+- GCC_except_table8307
+- GCC_except_table8377
+- GCC_except_table8413
+- GCC_except_table8422
+- GCC_except_table8424
+- GCC_except_table8426
+- GCC_except_table8429
+- GCC_except_table8433
+- GCC_except_table8436
+- GCC_except_table8447
+- GCC_except_table8460
+- GCC_except_table8469
+- GCC_except_table8473
+- GCC_except_table8474
+- GCC_except_table8492
+- GCC_except_table8493
+- GCC_except_table8496
+- GCC_except_table8498
+- GCC_except_table8502
+- GCC_except_table8505
+- GCC_except_table8517
+- GCC_except_table865
+- GCC_except_table869
+- ___45+[PIPipelineFilters cinematicVideoExportMode]_block_invoke
+- ___58-[PIPrivatePhotosPipeline_v0 _addLivePhotoEffectPipeline:]_block_invoke_3
+- ___58-[PIPrivatePhotosPipeline_v0 _addLivePhotoEffectPipeline:]_block_invoke_4
+- _objc_msgSend$_buildPipeline:primary:adjustment:cinematography:highQuality:error:
+CStrings:
++ "+[PICinematicVideoUtilities cinematicDisparityResourcesReadyForAsset:]"
++ "../portraitBypass:>output"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/ApertureRedEye/PIApertureRedEye.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/ApertureRedEye/PIApertureRedEyeFilter.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/HDR/PIFalseColorHDRDebug.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/HDR/PILevelsFilterHDR.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/HDR/PIPhotoEffectHDR.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/HDR/PIPhotoGrainHDR.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PIBilateralFilter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PIColorBalanceFilter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PIColorNormalizationFilter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PICoreImageUtilities.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PICurvesFilter.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PIFakeBoost.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PIHighKey.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PIIPTHueChromaFilter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PILevelsFilter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PINeutralGrayWhiteBalanceFilter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PISpillSuppression.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PITempTintFilter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/Retouch/PIObjectRemoval.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/Retouch/PIRepair.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoop.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopCacheNode.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopFrameNode.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopJob+Analysis.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopJob+Export.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopJob+LongExposure.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopRequests.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopStabVideoNode.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopVideoNode.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIApertureRedEyeAutoCalculator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIAutoCalculators.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIAutoLoopAutoCalculator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PICropAutoCalculator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PICurvesAutoCalculator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIDisparitySampleRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PILevelsAutoCalculator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PILongExposureFusionAutoCalculator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIModularAutoCalculator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIPerspectiveAutoCalculator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIPortraitAutoCalculator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PISemanticStyleAutoCalculator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PISensitiveContentAnalysisRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PISmartBlackAndWhiteAutoCalculator.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PITapToTrackRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIVideoStabilizeRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIWhiteBalanceAutoCalculators.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/SliderNet/PISliderNetAdjustmentsRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/SliderNet/PISmartCopyPasteAutoCalculator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/Conversion/PICompositionSerializer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/Conversion/PICompositionSidecarData.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PIAdjustmentController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PICompositionController+AdjustmentExtensions.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PICompositionController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PICropAdjustmentController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PIGenerativeEditsAdjustmentController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PIInpaintAdjustmentController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PIOrientationAdjustmentController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PISemanticStyleAdjustmentController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIADMCleanup.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIADMOutfill.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIADMSpatialRefinementGenerativeProcessor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PICleanupRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIGANCleanup.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIGenerativeProcessor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIGenerativeRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIOutfillPlaceholder.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIRetouchCleanup.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxAsset.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxClockLayoutRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxClockMaterialRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxColorAnalysis.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxColorAnalysisRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxColorPalette.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxColorSuggester.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxCompoundLayerStackRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxFilter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxInactiveStyleEngine.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxInactiveStyleLearnRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxInfillRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxLayerStackRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxLegacyPosterStyle.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxRecipeFilter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxSpatialAnalysisRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxStyle.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxStyleRecipe.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxStyleRecipeArchiver.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxStyleRecipeRegistry.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIPosterInactiveFrameLayoutRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIPosterLayoutHelper.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIPosterLayoutPropertiesRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIPosterLayoutRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIPosterRenderRequest.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIPosterSettlingEffectLoader.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PISegmentation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PISegmentationHelper.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PISegmentationInfillFilter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PISegmentationItem.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PISegmentationLayoutRegions.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PISegmentationLoader.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIAudioMix.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PICinematicVideo.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PICleanup.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PICropAutoProcessor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PICropStraighten.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PICurves.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIDefinition.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIFilterEffect.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIGenerativeEdits.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIGrain.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIHighResolutionFusion.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PILevels.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PILivePhotoEffect.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIMute.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PINoiseReduction.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIOrientation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPhotographicStyleV1.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPhotosPipeline.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPhotosPipeline_v0.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPhotosPipeline_v1.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPipelineModule.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPlaybackRate.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPortrait.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPrivatePhotosPipeline.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPrivatePhotosPipeline_v0.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPrivatePhotosPipeline_v1.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIRedEye.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISelectiveColor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISharpen.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISlowMotion.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISmartBlackAndWhite.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISmartColor.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISmartCopyPaste.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISmartTone.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISpatialReframe.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PITrim.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIVignette.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIWhiteBalance.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIInpaintCacheNode.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIModernPhotosPipeline.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIModularPhotosPipeline.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIPhotosPipelineHelper.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIPipelineFilters.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIPortraitNode.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIRetouchCacheNode.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PISchema.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PICinematicAudioRenderNode.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIInpaintAuxiliaryImageNode.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIInpaintOperation.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIInpaintRendering.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIPortraitVideoDebugDetectionsRenderNode.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIPortraitVideoFilter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIPortraitVideoRenderNode.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIPortraitVideoRenderer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PISemanticStyleFilter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PISemanticStyleRenderNode.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIVideoReframeNode.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PIBrushStrokeHistory.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PICaptureDebugUtilities.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PICinematicVideoUtilities.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PICompositionExporter.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PIHDRUtilities.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PIImageIO.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PIPerfPowerService.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PIPhotoEditHelper.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PIThumbnailGenerator.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.ofBFcT/Sources/Photos/workspaces/neutrino/PhotoImaging/Video Stabilization/PIVideoCrossfadeLoopNode.m"
++ "Failed to load source asset: %{public}@: %{public}@"
++ "Missing linear thumbnail at %{public}@, style won't be applied for this frame"
++ "cinematicVideoHighQuality"
++ "cinematicVideoUseRefinedCinematography"
++ "useProvidedInputsOnly"
++ "useRefinedCinematography"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/ApertureRedEye/PIApertureRedEye.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/ApertureRedEye/PIApertureRedEyeFilter.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/HDR/PIFalseColorHDRDebug.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/HDR/PILevelsFilterHDR.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/HDR/PIPhotoEffectHDR.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/HDR/PIPhotoGrainHDR.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PIBilateralFilter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PIColorBalanceFilter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PIColorNormalizationFilter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PICoreImageUtilities.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PICurvesFilter.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PIFakeBoost.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PIHighKey.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PIIPTHueChromaFilter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PILevelsFilter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PINeutralGrayWhiteBalanceFilter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PISpillSuppression.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PITempTintFilter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/Retouch/PIObjectRemoval.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/Retouch/PIRepair.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoop.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopCacheNode.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopFrameNode.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopJob+Analysis.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopJob+Export.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopJob+LongExposure.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopRequests.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopStabVideoNode.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/AutoLoop/PIAutoLoopVideoNode.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIApertureRedEyeAutoCalculator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIAutoCalculators.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIAutoLoopAutoCalculator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PICropAutoCalculator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PICurvesAutoCalculator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIDisparitySampleRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PILevelsAutoCalculator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PILongExposureFusionAutoCalculator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIModularAutoCalculator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIPerspectiveAutoCalculator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIPortraitAutoCalculator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PISemanticStyleAutoCalculator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PISensitiveContentAnalysisRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PISmartBlackAndWhiteAutoCalculator.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PITapToTrackRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIVideoStabilizeRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/PIWhiteBalanceAutoCalculators.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/SliderNet/PISliderNetAdjustmentsRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Autocalculators/SliderNet/PISmartCopyPasteAutoCalculator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/Conversion/PICompositionSerializer.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/Conversion/PICompositionSidecarData.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PIAdjustmentController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PICompositionController+AdjustmentExtensions.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PICompositionController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PICropAdjustmentController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PIGenerativeEditsAdjustmentController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PIInpaintAdjustmentController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PIOrientationAdjustmentController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Controllers/PISemanticStyleAdjustmentController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIADMCleanup.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIADMOutfill.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIADMSpatialRefinementGenerativeProcessor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PICleanupRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIGANCleanup.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIGenerativeProcessor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIGenerativeRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIOutfillPlaceholder.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Generative/PIRetouchCleanup.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxAsset.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxClockLayoutRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxClockMaterialRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxColorAnalysis.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxColorAnalysisRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxColorPalette.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxColorSuggester.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxCompoundLayerStackRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxFilter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxInactiveStyleEngine.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxInactiveStyleLearnRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxInfillRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxLayerStackRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxLegacyPosterStyle.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxRecipeFilter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxSpatialAnalysisRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxStyle.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxStyleRecipe.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxStyleRecipeArchiver.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIParallaxStyleRecipeRegistry.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIPosterInactiveFrameLayoutRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIPosterLayoutHelper.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIPosterLayoutPropertiesRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIPosterLayoutRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIPosterRenderRequest.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PIPosterSettlingEffectLoader.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PISegmentation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PISegmentationHelper.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PISegmentationInfillFilter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PISegmentationItem.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PISegmentationLayoutRegions.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PISegmentationLoader.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIAudioMix.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PICinematicVideo.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PICleanup.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PICropAutoProcessor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PICropStraighten.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PICurves.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIDefinition.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIFilterEffect.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIGenerativeEdits.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIGrain.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIHighResolutionFusion.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PILevels.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PILivePhotoEffect.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIMute.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PINoiseReduction.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIOrientation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPhotographicStyleV1.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPhotosPipeline.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPhotosPipeline_v0.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPhotosPipeline_v1.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPipelineModule.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPlaybackRate.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPortrait.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPrivatePhotosPipeline.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPrivatePhotosPipeline_v0.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIPrivatePhotosPipeline_v1.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIRedEye.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISelectiveColor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISharpen.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISlowMotion.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISmartBlackAndWhite.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISmartColor.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISmartCopyPaste.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISmartTone.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PISpatialReframe.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PITrim.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIVignette.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/API/PIWhiteBalance.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIInpaintCacheNode.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIModernPhotosPipeline.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIModularPhotosPipeline.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIPhotosPipelineHelper.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIPipelineFilters.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIPortraitNode.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PIRetouchCacheNode.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Pipeline/PISchema.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PICinematicAudioRenderNode.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIInpaintAuxiliaryImageNode.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIInpaintOperation.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIInpaintRendering.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIPortraitVideoDebugDetectionsRenderNode.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIPortraitVideoFilter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIPortraitVideoRenderNode.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIPortraitVideoRenderer.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PISemanticStyleFilter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PISemanticStyleRenderNode.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIVideoReframeNode.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PIBrushStrokeHistory.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PICaptureDebugUtilities.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PICinematicVideoUtilities.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PICompositionExporter.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PIHDRUtilities.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PIImageIO.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PIPerfPowerService.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PIPhotoEditHelper.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Util/PIThumbnailGenerator.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.AnfnE8/Sources/Photos/workspaces/neutrino/PhotoImaging/Video Stabilization/PIVideoCrossfadeLoopNode.m"
+- "LinearThumbnail"
+- "VisualGeneration.PhotosEdit.Infill.1p"
+- "VisualGeneration.PhotosEdit.Outfill.1p"
+- "VisualGeneration.PhotosEdit.SpatialReframing.1p"
+- "cinematicVideoExportMode"
+```

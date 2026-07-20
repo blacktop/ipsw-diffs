@@ -1,0 +1,27 @@
+## TCCSystemMigration
+
+> `/System/Library/PrivateFrameworks/TCCSystemMigration.framework/Versions/A/TCCSystemMigration`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+
+```diff
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x3a0
+   __DATA_CONST.__objc_superrefs: 0x40
+-  __DATA_CONST.__got: 0xc0
++  __DATA_CONST.__got: 0xd0
+   __AUTH_CONST.__const: 0x90
+   __AUTH_CONST.__cfstring: 0x240
+   __AUTH_CONST.__objc_const: 0xd58
+```

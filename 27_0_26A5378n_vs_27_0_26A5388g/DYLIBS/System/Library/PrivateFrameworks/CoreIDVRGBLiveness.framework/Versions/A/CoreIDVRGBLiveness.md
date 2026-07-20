@@ -1,0 +1,93 @@
+## CoreIDVRGBLiveness
+
+> `/System/Library/PrivateFrameworks/CoreIDVRGBLiveness.framework/Versions/A/CoreIDVRGBLiveness`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+
+```diff
+
+-9.36.0.0.0
+-  __TEXT.__text: 0x266c
+-  __TEXT.__const: 0x994
+-  __TEXT.__swift5_typeref: 0x290
++9.38.0.0.0
++  __TEXT.__text: 0x37ac
++  __TEXT.__const: 0xa54
++  __TEXT.__swift5_typeref: 0x786
+   __TEXT.__swift5_fieldmd: 0x474
+-  __TEXT.__constg_swiftt: 0x478
++  __TEXT.__constg_swiftt: 0x4cc
+   __TEXT.__swift5_reflstr: 0x386
+   __TEXT.__swift5_builtin: 0xa0
+   __TEXT.__swift5_assocty: 0x90
+
+   __TEXT.__swift5_proto: 0x58
+   __TEXT.__swift5_types: 0x44
+   __TEXT.__cstring: 0x11
+-  __TEXT.__unwind_info: 0x188
++  __TEXT.__unwind_info: 0x1c0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+
+   __DATA_CONST.__got: 0x0
+   __AUTH_CONST.__const: 0x5f8
+   __AUTH_CONST.__objc_const: 0x3f8
+-  __AUTH_CONST.__auth_got: 0x148
++  __AUTH_CONST.__auth_got: 0x238
+   __AUTH.__objc_data: 0x50
+   __AUTH.__data: 0x350
+-  __DATA.__data: 0x148
++  __DATA.__data: 0x210
+   __DATA.__common: 0x10
+-  __DATA.__bss: 0xb00
++  __DATA.__bss: 0xb10
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+   - /System/Library/PrivateFrameworks/CoreIDVShared.framework/Versions/A/CoreIDVShared
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 201
+-  Symbols:   155
++  Functions: 216
++  Symbols:   176
+   CStrings:  1
+ 
+Symbols:
++ ___chkstk_darwin
++ _swift_getKeyPath
++ _symbolic _____ 7SwiftUI13TextAlignmentO
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAy__________y_____GG_____GAGG_____G_____y__________GGAGGAGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV AA026_InsettableBackgroundShapeI0V AA5ColorV AA16RoundedRectangleV AA06_FrameL0V
++ _symbolic _____yAAyAAyAAyAAyAAyAAy__________y_____GG_____GAGG_____G_____y__________GGAGGAGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV AA026_InsettableBackgroundShapeI0V AA5ColorV AA16RoundedRectangleV
++ _symbolic _____yAAyAAyAAyAAyAAy__________y_____GG_____GAGG_____G_____y__________GGAGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV AA026_InsettableBackgroundShapeI0V AA5ColorV AA16RoundedRectangleV
++ _symbolic _____yAAyAAyAAyAAy__________y_____GG_____GAGG_____G_____y__________GG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV AA026_InsettableBackgroundShapeI0V AA5ColorV AA16RoundedRectangleV
++ _symbolic _____yAAyAAyAAy__________y_____GG_____GAGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV
++ _symbolic _____yAAyAAy__________y_____GG_____GAGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV
++ _symbolic _____yAAyx_____y_____yAAy_____yAAyAAyAAyAAyAAyAAyAAyAAy__________y_____GG_____GAIG_____G_____y__________GGAIGAIG_____GSSG_____y_____GG_Qo_SgGG_____ySSSgGG 7SwiftUI15ModifiedContentV AA16_OverlayModifierV AA4ViewPAAE15dynamicTypeSizeyQrAA07DynamiciJ0OFQO AA6IDViewV AA4TextV AA022_EnvironmentKeyWritingF0V AA0M9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV AA026_InsettableBackgroundShapeF0V AA5ColorV AA16RoundedRectangleV AA06_FrameS0V AA06_TraitpF0V AA015TransitionTraitO0V AA010_AnimationF0V
++ _symbolic _____ySSSgG 7SwiftUI18_AnimationModifierV
++ _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA010TransitionC3KeyV
++ _symbolic _____y__________G 7SwiftUI34_InsettableBackgroundShapeModifierV AA5ColorV AA16RoundedRectangleV
++ _symbolic _____y_____yAAyAAyAAyAAyAAyAAyAAyAAy__________y_____GG_____GAHG_____G_____y__________GGAHGAHG_____GSSG_____y_____GG 7SwiftUI15ModifiedContentV AA6IDViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV AA026_InsettableBackgroundShapeJ0V AA5ColorV AA16RoundedRectangleV AA06_FrameM0V AA06_TraitiJ0V AA010TransitionwH0V
++ _symbolic _____y_____yAByAByAByAByAByAByABy__________y_____GG_____GAHG_____G_____y__________GGAHGAHG_____GSSG 7SwiftUI6IDViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV AA026_InsettableBackgroundShapeJ0V AA5ColorV AA16RoundedRectangleV AA06_FrameM0V
++ _symbolic _____y_____y_____yAAyAAyAAyAAyAAyAAyAAyAAy__________y_____GG_____GAHG_____G_____y__________GGAHGAHG_____GSSG_____y_____GG_Qo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrAA07DynamiceF0OFQO AA15ModifiedContentV AA6IDViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0K9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV AA026_InsettableBackgroundShapeO0V AA5ColorV AA16RoundedRectangleV AA06_FrameR0V AA06_TraitnO0V AA015TransitionTraitM0V
++ _symbolic _____y_____y_____yAAyAAyAAyAAyAAyAAyAAyAAy__________y_____GG_____GAHG_____G_____y__________GGAHGAHG_____GSSG_____y_____GG_Qo_Sg 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrAA07DynamiceF0OFQO AA15ModifiedContentV AA6IDViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0K9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV AA026_InsettableBackgroundShapeO0V AA5ColorV AA16RoundedRectangleV AA06_FrameR0V AA06_TraitnO0V AA015TransitionTraitM0V
++ _symbolic _____y_____y_____y_____yAByAByAByAByAByAByAByABy__________y_____GG_____GAIG_____G_____y__________GGAIGAIG_____GSSG_____y_____GG_Qo_SgG 7SwiftUI16_OverlayModifierV AA4ViewPAAE15dynamicTypeSizeyQrAA07DynamicgH0OFQO AA15ModifiedContentV AA6IDViewV AA4TextV AA022_EnvironmentKeyWritingD0V AA0M9AlignmentO AA14_PaddingLayoutV AA13_ShadowEffectV AA026_InsettableBackgroundShapeD0V AA5ColorV AA16RoundedRectangleV AA06_FrameS0V AA06_TraitpD0V AA015TransitionTraitO0V
++ get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyxAA16_OverlayModifierVyAaBPAAE15dynamicTypeSizeyQrAA07DynamiciJ0OFQOyADyAA6IDViewVyADyADyADyADyADyADyADyADyAA4TextVAA022_EnvironmentKeyWritingG0VyAA0M9AlignmentOGGAA14_PaddingLayoutVGAVGAA13_ShadowEffectVGAA026_InsettableBackgroundShapeG0VyAA5ColorVAA16RoundedRectangleVGGAVGAVGAA06_FrameS0VGSSGAA06_TraitpG0VyAA015TransitionTraitO0VGG_Qo_SgGGAA010_AnimationG0VySSSgGGAaBHPA23_AaBHPxAaBHD1__A22_AA0cG0HPyHCHC_A27_AAA29_HPyHCHC
+```

@@ -1,0 +1,313 @@
+## ScreenTimeUI
+
+> `/System/Library/PrivateFrameworks/ScreenTimeUI.framework/Versions/A/ScreenTimeUI`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift_as_ret`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__cfstring`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-645.1.401.0.0
+-  __TEXT.__text: 0x65700
+-  __TEXT.__objc_methlist: 0x1f10
+-  __TEXT.__const: 0x3104
+-  __TEXT.__cstring: 0x29a5
+-  __TEXT.__gcc_except_tab: 0x3d0
+-  __TEXT.__oslogstring: 0x2f50
++649.0.0.0.0
++  __TEXT.__text: 0x6b8a4
++  __TEXT.__objc_methlist: 0x1fc0
++  __TEXT.__const: 0x3144
++  __TEXT.__cstring: 0x2a05
++  __TEXT.__gcc_except_tab: 0x4a8
++  __TEXT.__oslogstring: 0x3200
+   __TEXT.__ustring: 0x4
+-  __TEXT.__constg_swiftt: 0xdec
+-  __TEXT.__swift5_typeref: 0x584a
+-  __TEXT.__swift5_fieldmd: 0x988
++  __TEXT.__constg_swiftt: 0xe48
++  __TEXT.__swift5_typeref: 0x594c
++  __TEXT.__swift5_fieldmd: 0x9cc
+   __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_reflstr: 0x906
++  __TEXT.__swift5_reflstr: 0x956
+   __TEXT.__swift5_assocty: 0x340
+-  __TEXT.__swift5_proto: 0xe8
+-  __TEXT.__swift5_types: 0xac
+-  __TEXT.__swift5_capture: 0x29c
+-  __TEXT.__swift5_protos: 0xc
+-  __TEXT.__swift_as_entry: 0x3c
++  __TEXT.__swift5_proto: 0xec
++  __TEXT.__swift5_types: 0xb4
++  __TEXT.__swift5_capture: 0x398
++  __TEXT.__swift_as_entry: 0x40
+   __TEXT.__swift_as_ret: 0x50
+-  __TEXT.__swift_as_cont: 0x100
+-  __TEXT.__unwind_info: 0x1580
+-  __TEXT.__eh_frame: 0x1060
++  __TEXT.__swift5_protos: 0xc
++  __TEXT.__swift_as_cont: 0x138
++  __TEXT.__unwind_info: 0x1718
++  __TEXT.__eh_frame: 0x1418
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x330
+-  __DATA_CONST.__objc_classlist: 0xc0
++  __DATA_CONST.__objc_classlist: 0xc8
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x58
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1e50
++  __DATA_CONST.__objc_selrefs: 0x1ec0
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x40
+-  __DATA_CONST.__got: 0xb48
+-  __AUTH_CONST.__const: 0x1c20
++  __DATA_CONST.__got: 0xb70
++  __AUTH_CONST.__const: 0x1fa8
+   __AUTH_CONST.__cfstring: 0x1000
+-  __AUTH_CONST.__objc_const: 0x32a0
+-  __AUTH_CONST.__auth_got: 0x13b0
+-  __AUTH.__objc_data: 0xa38
+-  __AUTH.__data: 0xba8
+-  __DATA.__objc_ivar: 0x1e0
+-  __DATA.__data: 0x1600
+-  __DATA.__bss: 0x1ea0
++  __AUTH_CONST.__objc_const: 0x33d0
++  __AUTH_CONST.__auth_got: 0x1480
++  __AUTH.__objc_data: 0xaf8
++  __AUTH.__data: 0xbd8
++  __DATA.__objc_ivar: 0x1ec
++  __DATA.__data: 0x1628
++  __DATA.__bss: 0x1f10
+   __DATA.__common: 0x50
+   __DATA_DIRTY.__objc_data: 0x50
+   - /System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+
+   - /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+   - /System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
++  - /System/Library/PrivateFrameworks/AskToCore.framework/Versions/A/AskToCore
+   - /System/Library/PrivateFrameworks/Categories.framework/Versions/A/Categories
+   - /System/Library/PrivateFrameworks/DeviceManagement.framework/Versions/A/DeviceManagement
+   - /System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/FamilyCircle
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1972
+-  Symbols:   2678
+-  CStrings:  502
++  Functions: 2051
++  Symbols:   2762
++  CStrings:  514
+ 
+Symbols:
++ -[STBlockingViewController _presentAskForMoreTimeOptions:]
++ -[STBlockingViewController _presentIgnoreLimitOptionsWithoutPasscode]
++ -[STBlockingViewController _refreshShouldAllowOneMoreMinuteWithCompletion:]
++ -[STBlockingViewController askToMessagesComposeCallbackReceiver]
++ -[STBlockingViewController resolvedShouldAllowOneMoreMinute]
++ -[STBlockingViewController resolvingPolicyOptions]
++ -[STBlockingViewController setAskToMessagesComposeCallbackReceiver:]
++ -[STBlockingViewController setResolvedShouldAllowOneMoreMinute:]
++ -[STBlockingViewController setResolvingPolicyOptions:]
++ -[STLockoutPolicyController shouldAllowOneMoreMinuteWithCompletionHandler:]
++ -[STLockoutViewController _presentIgnoreLimitActionSheetAllowingOneMoreMinute:]
++ -[STLockoutViewController _presentUnlockedAskOrApproveActionSheetAllowingOneMoreMinute:]
++ GCC_except_table105
++ GCC_except_table108
++ GCC_except_table111
++ GCC_except_table30
++ GCC_except_table32
++ GCC_except_table35
++ GCC_except_table43
++ GCC_except_table47
++ GCC_except_table53
++ GCC_except_table56
++ GCC_except_table59
++ GCC_except_table66
++ GCC_except_table72
++ GCC_except_table76
++ GCC_except_table79
++ GCC_except_table85
++ GCC_except_table86
++ GCC_except_table88
++ GCC_except_table89
++ GCC_except_table9
++ GCC_except_table98
++ OBJC_IVAR_$_STBlockingViewController._askToMessagesComposeCallbackReceiver
++ OBJC_IVAR_$_STBlockingViewController._resolvedShouldAllowOneMoreMinute
++ OBJC_IVAR_$_STBlockingViewController._resolvingPolicyOptions
++ _OBJC_CLASS_$_STAskToMessagesComposeCallbackReceiver
++ _OBJC_METACLASS_$_STAskToMessagesComposeCallbackReceiver
++ _OUTLINED_FUNCTION_12
++ __75-[STBlockingViewController _refreshShouldAllowOneMoreMinuteWithCompletion:]_block_invoke
++ __75-[STLockoutPolicyController shouldAllowOneMoreMinuteWithCompletionHandler:]_block_invoke
++ __79-[STLockoutViewController _presentIgnoreLimitActionSheetAllowingOneMoreMinute:]_block_invoke
++ __88-[STLockoutViewController _presentUnlockedAskOrApproveActionSheetAllowingOneMoreMinute:]_block_invoke
++ __DATA_STAskToMessagesComposeCallbackReceiver
++ __INSTANCE_METHODS_STAskToMessagesComposeCallbackReceiver
++ __IVARS_STAskToMessagesComposeCallbackReceiver
++ __METACLASS_DATA_STAskToMessagesComposeCallbackReceiver
++ ___55-[STBlockingViewController _showAskForMoreTimeOptions:]_block_invoke
++ ___66-[STBlockingViewController _showIgnoreLimitOptionsWithoutPasscode]_block_invoke
++ ___75-[STBlockingViewController _refreshShouldAllowOneMoreMinuteWithCompletion:]_block_invoke
++ ___75-[STLockoutPolicyController shouldAllowOneMoreMinuteWithCompletionHandler:]_block_invoke
++ ___79-[STLockoutViewController _presentIgnoreLimitActionSheetAllowingOneMoreMinute:]_block_invoke
++ ___88-[STLockoutViewController _presentUnlockedAskOrApproveActionSheetAllowingOneMoreMinute:]_block_invoke
++ ___block_descriptor_40_e8_32bs_e30_v24?0"NSNumber"8"NSError"16l
++ ___block_descriptor_40_e8_32bs_e5_v8?0l
++ ___block_descriptor_40_e8_32s_e28_v24?0"NSUUID"8"NSError"16l
++ ___block_descriptor_40_e8_32w_e8_v12?0B8l
++ ___block_descriptor_41_e8_32bs_e5_v8?0l
++ ___block_descriptor_48_e8_32bs40w_e30_v24?0"NSNumber"8"NSError"16l
++ ___block_descriptor_48_e8_32bs40w_e5_v8?0l
++ ___block_descriptor_49_e8_32bs40w_e5_v8?0l
++ ___block_descriptor_64_e8_32bs40w_e28_v24?0"NSUUID"8"NSError"16l
++ ___copy_helper_block_e8_32b
++ _dispatch_sync
++ _objc_alloc_init
++ _objc_msgSend$UUIDString
++ _objc_msgSend$_presentAskForMoreTimeOptions:
++ _objc_msgSend$_presentIgnoreLimitActionSheetAllowingOneMoreMinute:
++ _objc_msgSend$_presentIgnoreLimitOptionsWithoutPasscode
++ _objc_msgSend$_presentUnlockedAskOrApproveActionSheetAllowingOneMoreMinute:
++ _objc_msgSend$_refreshShouldAllowOneMoreMinuteWithCompletion:
++ _objc_msgSend$askToMessagesComposeCallbackReceiver
++ _objc_msgSend$resolvedShouldAllowOneMoreMinute
++ _objc_msgSend$resolvingPolicyOptions
++ _objc_msgSend$setAskToMessagesComposeCallbackReceiver:
++ _objc_msgSend$setCallbackForQuestionIdentifier:callback:
++ _objc_msgSend$setResolvedShouldAllowOneMoreMinute:
++ _objc_msgSend$setResolvingPolicyOptions:
++ _objc_msgSend$shouldAllowOneMoreMinuteForBundleIdentifier:completionHandler:
++ _objc_msgSend$shouldAllowOneMoreMinuteForCategoryIdentifier:completionHandler:
++ _objc_msgSend$shouldAllowOneMoreMinuteForWebDomain:completionHandler:
++ _objc_msgSend$shouldAllowOneMoreMinuteWithCompletionHandler:
++ _swift_dynamicCast
++ _swift_isEscapingClosureAtFileLocation
++ _swift_task_future_wait_throwing
++ _swift_unknownObjectWeakInit
++ _symbolic Ieg_
++ _symbolic IeyB_
++ _symbolic Ig_
++ _symbolic SDy__________G 10Foundation4UUIDV 9AskToCore25ATDaemonConnectionManagerC
++ _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
++ _symbolic ScTyyt______pGSg s5ErrorP
++ _symbolic So17OS_dispatch_queueC
++ _symbolic _____ 12ScreenTimeUI36AskToMessagesComposeCallbackReceiverC
++ _symbolic _____ 7SwiftUI17VerticalAlignmentV
++ _symbolic _____ 7SwiftUI17VerticalAlignmentV010ScreenTimeB0E11TitleCenter33_93DA6F288E7DC21E6E164569D561530FLLO
++ _symbolic _____ 9AskToCore25ATDaemonConnectionManagerC
++ _symbolic _____Sg 9AskToCore25ATDaemonConnectionManagerC
++ _symbolic _____SgXw 12ScreenTimeUI36AskToMessagesComposeCallbackReceiverC
++ _symbolic _____SgXwz_Xx 12ScreenTimeUI36AskToMessagesComposeCallbackReceiverC
++ _symbolic ___________t 10Foundation4UUIDV 9AskToCore25ATDaemonConnectionManagerC
++ _symbolic ___________y_____y_____y_____y_____y_____y_____AFGGG______Qo______G_AByABy__________GALGQo_t 12ScreenTimeUI0aB14MigrationLabelV 05SwiftC04ViewPADE5sheet11isPresented9onDismiss7contentQrAD7BindingVySbG_yycSgqd__yctAdERd__lFQO AD15ModifiedContentV AfDE11buttonStyleyQrqd__AD015PrimitiveButtonR0Rd__lFQO AD0T0V AD5GroupV AD012_ConditionalP0V AD4TextV AD08BorderedtR0V AD16_FlexFrameLayoutV AA0abD4PaneV AD01_Z6LayoutV
++ _symbolic _____yAAyAAyAAy__________y_____SgGG_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA017HierarchicalShapeL0V AA023AccessibilityAttachmentI0V AA010_AlignmenthI0V
++ _symbolic _____yAAyAAyAAy__________y_____SgGG_____y_____GG_____G_____G______y_____y_____yAAy_____ANG_AAyAS_____GQPGARyAT_AQyAV_____y_____AYGGQPGGGt 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA017HierarchicalShapeL0V AA023AccessibilityAttachmentI0V AA010_AlignmenthI0V AA6VStackV AA012_ConditionalD0V AA05TupleD0V AA4TextV AA14_PaddingLayoutV AA12ProgressViewV AA05EmptyY0V
++ _symbolic _____yAAy__________y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA017HierarchicalShapeL0V
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 9AskToCore25ATDaemonConnectionManagerC
++ _symbolic _____y__________G______yAAyAB_____G_____y_____AIGGt 7SwiftUI15ModifiedContentV AA4TextV AA25_AlignmentWritingModifierV AA012_ConditionalD0V AA14_PaddingLayoutV AA12ProgressViewV AA05EmptyM0V
++ _symbolic _____y___________y_____yADyADyADy__________y_____SgGG_____y_____GG_____G_____G______y_____yACyADy_____AQG_ADyAU_____GQPGACyAV_ATyAX_____y_____A_GGQPGGGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA08ModifiedI0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleO0V AA017HierarchicalShapeR0V AA023AccessibilityAttachmentO0V AA010_AlignmentnO0V AA6VStackV AA012_ConditionalI0V AA4TextV AA08_PaddingG0V AA08ProgressD0V AA05EmptyD0V
++ _symbolic _____y___________y_____y_____y__________G_AEyAF_____GQPGADyAH_ACyAJ_____y_____AMGGQPGGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA19_ConditionalContentV AA05TupleI0V AA08ModifiedI0V AA4TextV AA25_AlignmentWritingModifierV AA08_PaddingG0V AA08ProgressD0V AA05EmptyD0V
++ _symbolic _____y___________y_____y_____y_____y_____y_____y_____AGGGG______Qo______G_ACyACy__________GAMGQo_QPG 7SwiftUI12TupleContentV 010ScreenTimeB00eF14MigrationLabelV AA4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaGRd__lFQO AA08ModifiedD0V AhAE11buttonStyleyQrqd__AA015PrimitiveButtonS0Rd__lFQO AA0U0V AA5GroupV AA012_ConditionalD0V AA4TextV AA08BordereduS0V AA16_FlexFrameLayoutV AD0efG4PaneV AA12_FrameLayoutV
++ _symbolic _____y__________y___________y_____y_____y_____y_____y_____y_____AIGGG______Qo______G_AEyAEy__________GAOGQo_QPGABG 7SwiftUI7SectionV AA9EmptyViewV AA12TupleContentV 010ScreenTimeB00hI14MigrationLabelV AA0E0PAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaKRd__lFQO AA08ModifiedG0V AlAE11buttonStyleyQrqd__AA015PrimitiveButtonU0Rd__lFQO AA0W0V AA5GroupV AA012_ConditionalG0V AA4TextV AA08BorderedwU0V AA16_FlexFrameLayoutV AH0hiJ4PaneV AA12_FrameLayoutV
++ _symbolic _____y_____y_____ACGG 7SwiftUI5GroupV AA19_ConditionalContentV AA4TextV
++ _symbolic _____y_____y__________G_____y_____AGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA14_PaddingLayoutV AA12ProgressViewV AA05EmptyJ0V
++ _symbolic _____y_____y__________G_____y_____AGG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4TextV AA14_PaddingLayoutV AA12ProgressViewV AA05EmptyK0V
++ _symbolic _____y_____y__________y___________y_____y_____y_____y_____y_____y_____AIGGG______Qo______G_AEyAEy__________GAOGQo_QPGABG_Qo_ 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA7SectionV AA05EmptyC0V AA12TupleContentV 010ScreenTimeB00pQ14MigrationLabelV AcAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA08ModifiedO0V AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA5GroupV AA012_ConditionalO0V AA4TextV AA19BorderedButtonStyleV AA16_FlexFrameLayoutV AR0pqR4PaneV AA12_FrameLayoutV
++ _symbolic _____y_____y__________y___________y_____y_____y_____y_____y_____y_____AIGGG______Qo______G_AEyAEy__________GAOGQo_QPGABG_Qo_Sg 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA7SectionV AA05EmptyC0V AA12TupleContentV 010ScreenTimeB00pQ14MigrationLabelV AcAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA08ModifiedO0V AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA5GroupV AA012_ConditionalO0V AA4TextV AA19BorderedButtonStyleV AA16_FlexFrameLayoutV AR0pqR4PaneV AA12_FrameLayoutV
++ _symbolic _____y_____y_____yACyACyACy__________y_____SgGG_____y_____GG_____G_____G______y_____yAByACy_____APG_ACyAT_____GQPGAByAU_ASyAW_____y_____AZGGQPGGGQPGG 7SwiftUI6HStackV AA12TupleContentV AA08ModifiedE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleK0V AA017HierarchicalShapeN0V AA023AccessibilityAttachmentK0V AA010_AlignmentjK0V AA6VStackV AA012_ConditionalE0V AA4TextV AA14_PaddingLayoutV AA12ProgressViewV AA05EmptyZ0V
++ _symbolic _____y_____y_____y_____ADGGG 7SwiftUI6ButtonV AA5GroupV AA19_ConditionalContentV AA4TextV
++ _symbolic _____y_____y_____y__________G_ACyAD_____GQPGAByAF______yAH_____y_____ALGGQPG_G 7SwiftUI19_ConditionalContentV7StorageO AA05TupleD0V AA08ModifiedD0V AA4TextV AA25_AlignmentWritingModifierV AA14_PaddingLayoutV AC AA12ProgressViewV AA05EmptyO0V
++ _symbolic _____y_____y_____y_____y__________G_ADyAE_____GQPGACyAG_AByAI_____y_____ALGGQPGGG 7SwiftUI6VStackV AA19_ConditionalContentV AA05TupleE0V AA08ModifiedE0V AA4TextV AA25_AlignmentWritingModifierV AA14_PaddingLayoutV AA12ProgressViewV AA05EmptyO0V
++ _symbolic _____y_____y_____y_____y_____y_____AEGGG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA5GroupV AA012_ConditionalD0V AA4TextV AA08BorderediG0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____y_____y_____y_____AEGGG______Qo______G_AAyAAy__________GAKGQo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA15ModifiedContentV AcAE11buttonStyleyQrqd__AA015PrimitiveButtonN0Rd__lFQO AA0P0V AA5GroupV AA012_ConditionalL0V AA4TextV AA08BorderedpN0V AA16_FlexFrameLayoutV 010ScreenTimeB00xY13MigrationPaneV AA01_vW0V
++ get_witness_table 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA7SectionVyAA05EmptyC0VAA12TupleContentVy010ScreenTimeB00pQ14MigrationLabelV_AcAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA08ModifiedO0VyAcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAA6ButtonVyAA5GroupVyAA012_ConditionalO0VyAA4TextVA12_GGG_AA19BorderedButtonStyleVQo_AA16_FlexFrameLayoutVG_A2_yA2_yAR0pqR4PaneVAA12_FrameLayoutVGA20_GQo_QPGAOG_Qo_SgAaBHpqd__AaBHD2_A31_HO_HC
++ get_witness_table 7SwiftUI6HStackVyAA12TupleContentVyAA08ModifiedE0VyAGyAGyAGyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA016_ForegroundStyleK0VyAA017HierarchicalShapeN0VGGAA023AccessibilityAttachmentK0VGAA010_AlignmentjK0VG_AA6VStackVyAA012_ConditionalE0VyAEyAGyAA4TextVA_G_AGyA6_AA14_PaddingLayoutVGQPGAEyA7__A4_yA10_AA12ProgressViewVyAA05EmptyZ0VA15_GGQPGGGQPGGAA0Z0HPyHC
+- -[STLockoutPolicyController shouldAllowOneMoreMinute]
+- GCC_except_table101
+- GCC_except_table104
+- GCC_except_table107
+- GCC_except_table26
+- GCC_except_table36
+- GCC_except_table37
+- GCC_except_table48
+- GCC_except_table61
+- GCC_except_table67
+- GCC_except_table70
+- GCC_except_table94
+- __57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke
+- __65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke
+- _objc_msgSend$shouldAllowOneMoreMinuteForBundleIdentifier:error:
+- _objc_msgSend$shouldAllowOneMoreMinuteForCategoryIdentifier:error:
+- _objc_msgSend$shouldAllowOneMoreMinuteForWebDomain:error:
+- _symbolic _____Sg 7SwiftUI5ColorV
+- _symbolic ___________yAA_____y_____ADGGt 7SwiftUI4TextV AA19_ConditionalContentV AA12ProgressViewV AA05EmptyG0V
+- _symbolic ___________y_____yABy_____yABy_____y_____yABy__________GAGGG_____y_____GG______Qo_AJy_____GGAJy_____SgGG_AByABy__________GAFGQo_t 12ScreenTimeUI0aB14MigrationLabelV 05SwiftC04ViewPADE5sheet11isPresented9onDismiss7contentQrAD7BindingVySbG_yycSgqd__yctAdERd__lFQO AD15ModifiedContentV AfDE11buttonStyleyQrqd__AD015PrimitiveButtonR0Rd__lFQO AD0T0V AD012_ConditionalP0V AD4TextV AD16_FlexFrameLayoutV AD30_EnvironmentKeyWritingModifierV AD0T11BorderShapeV AD08BorderedtR0V AD11ControlSizeO AD5ColorV AA0abD4PaneV AD01_xY0V
+- _symbolic _____yAAy_____yAAy_____y_____yAAy__________GAFGG_____y_____GG______Qo_AIy_____GGAIy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA012_ConditionalD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0I11BorderShapeV AA08BorderediG0V AA11ControlSizeO AA5ColorV
+- _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA5ColorV
+- _symbolic _____y______ABQPG 7SwiftUI12TupleContentV AA4TextV
+- _symbolic _____y___________yAB_____y_____AEGGQPG 7SwiftUI12TupleContentV AA4TextV AA012_ConditionalD0V AA12ProgressViewV AA05EmptyH0V
+- _symbolic _____y___________y_____yACy_____yACy_____y_____yACy__________GAHGG_____y_____GG______Qo_AKy_____GGAKy_____SgGG_ACyACy__________GAGGQo_QPG 7SwiftUI12TupleContentV 010ScreenTimeB00eF14MigrationLabelV AA4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaGRd__lFQO AA08ModifiedD0V AhAE11buttonStyleyQrqd__AA015PrimitiveButtonS0Rd__lFQO AA0U0V AA012_ConditionalD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0U11BorderShapeV AA08BordereduS0V AA11ControlSizeO AA5ColorV AD0efG4PaneV AA01_yZ0V
+- _symbolic _____y__________y_____ADGG 7SwiftUI19_ConditionalContentV AA4TextV AA12ProgressViewV AA05EmptyG0V
+- _symbolic _____y__________y_____ADG_G 7SwiftUI19_ConditionalContentV7StorageO AA4TextV AA12ProgressViewV AA05EmptyH0V
+- _symbolic _____y__________y___________y_____yAEy_____yAEy_____y_____yAEy__________GAJGG_____y_____GG______Qo_AMy_____GGAMy_____SgGG_AEyAEy__________GAIGQo_QPGABG 7SwiftUI7SectionV AA9EmptyViewV AA12TupleContentV 010ScreenTimeB00hI14MigrationLabelV AA0E0PAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaKRd__lFQO AA08ModifiedG0V AlAE11buttonStyleyQrqd__AA015PrimitiveButtonU0Rd__lFQO AA0W0V AA012_ConditionalG0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0W11BorderShapeV AA08BorderedwU0V AA11ControlSizeO AA5ColorV AH0hiJ4PaneV AA12_FrameLayoutV
+- _symbolic _____y_____yAAy_____yAAy_____y_____yAAy__________GAFGG_____y_____GG______Qo_AIy_____GGAIy_____SgGG_AAyAAy__________GAEGQo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA15ModifiedContentV AcAE11buttonStyleyQrqd__AA015PrimitiveButtonN0Rd__lFQO AA0P0V AA012_ConditionalL0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0P11BorderShapeV AA08BorderedpN0V AA11ControlSizeO AA5ColorV 010ScreenTimeB023ScreenTimeMigrationPaneV AA01_tU0V
+- _symbolic _____y_____yAAy_____y_____yAAy__________GAFGG_____y_____GG______Qo_AIy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA012_ConditionalD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0I11BorderShapeV AA08BorderediG0V AA11ControlSizeO
+- _symbolic _____y_____y______ACQPGAByAC_AAyAC_____y_____AFGGQPGG 7SwiftUI19_ConditionalContentV AA05TupleD0V AA4TextV AA12ProgressViewV AA05EmptyH0V
+- _symbolic _____y_____y______ACQPGAByAC______yAC_____y_____AGGGQPG_G 7SwiftUI19_ConditionalContentV7StorageO AA05TupleD0V AA4TextV AC AA12ProgressViewV AA05EmptyI0V
+- _symbolic _____y_____y__________GAEG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA16_FlexFrameLayoutV
+- _symbolic _____y_____y__________y___________y_____yAEy_____yAEy_____y_____yAEy__________GAJGG_____y_____GG______Qo_AMy_____GGAMy_____SgGG_AEyAEy__________GAIGQo_QPGABG_Qo_ 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA7SectionV AA05EmptyC0V AA12TupleContentV 010ScreenTimeB00pQ14MigrationLabelV AcAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA08ModifiedO0V AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA012_ConditionalO0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV AA19BorderedButtonStyleV AA11ControlSizeO AA5ColorV AR0pqR4PaneV AA12_FrameLayoutV
+- _symbolic _____y_____y__________y___________y_____yAEy_____yAEy_____y_____yAEy__________GAJGG_____y_____GG______Qo_AMy_____GGAMy_____SgGG_AEyAEy__________GAIGQo_QPGABG_Qo_Sg 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA7SectionV AA05EmptyC0V AA12TupleContentV 010ScreenTimeB00pQ14MigrationLabelV AcAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA08ModifiedO0V AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA012_ConditionalO0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV AA19BorderedButtonStyleV AA11ControlSizeO AA5ColorV AR0pqR4PaneV AA12_FrameLayoutV
+- _symbolic _____y_____y_____yAAy__________GAFGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ButtonV AA012_ConditionalD0V AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0E11BorderShapeV
+- _symbolic _____y_____y_____yACy__________y_____SgGG_____y_____GG______QPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleK0V AA5ColorV AA6SpacerV
+- _symbolic _____y_____y_____y______ADQPGACyAD_AByAD_____y_____AGGGQPGG_____yACy_____yAMy__________y_____SgGG_____y_____GG______QPGGG 7SwiftUI5LabelV AA19_ConditionalContentV AA05TupleE0V AA4TextV AA12ProgressViewV AA05EmptyI0V AA6VStackV AA08ModifiedE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleQ0V AA5ColorV AA6SpacerV
+- _symbolic _____y_____y_____y__________GAFGG 7SwiftUI6ButtonV AA19_ConditionalContentV AA08ModifiedE0V AA4TextV AA16_FlexFrameLayoutV
+- get_witness_table 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA7SectionVyAA05EmptyC0VAA12TupleContentVy010ScreenTimeB00pQ14MigrationLabelV_AcAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA08ModifiedO0VyA2_yAcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyA2_yAA6ButtonVyAA012_ConditionalO0VyA2_yAA4TextVAA16_FlexFrameLayoutVGA13_GGAA30_EnvironmentKeyWritingModifierVyAA17ButtonBorderShapeVGG_AA19BorderedButtonStyleVQo_A17_yAA11ControlSizeOGGA17_yAA5ColorVSgGG_A2_yA2_yAR0pqR4PaneVAA12_FrameLayoutVGA12_GQo_QPGAOG_Qo_SgAaBHpqd__AaBHD2_A43_HO_HC
+- get_witness_table 7SwiftUI5LabelVyAA19_ConditionalContentVyAA05TupleE0VyAA4TextV_AIQPGAGyAI_AEyAiA12ProgressViewVyAA05EmptyI0VANGGQPGGAA6VStackVyAGyAA08ModifiedE0VyAVyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA016_ForegroundStyleQ0VyAA5ColorVGG_AA6SpacerVQPGGGAA0I0HPyHC
+CStrings:
++ "Ask for time finished with no request identifier"
++ "Failed to fetch One More Minute policy: %{public}@"
++ "Failed to prepare view model: %{public}@"
++ "Family devices task cancelled; marking flow as unstarted."
++ "Family devices task finished."
++ "Load Family devices failed: %{public}@"
++ "Request staged request with id %@ successfully, waiting on user feedback to transition to pending state"
++ "Request staged request with id %{public}@ successfully, waiting on user feedback to transition to pending state"
++ "State change isMigrationSectionVisible: %{bool}d, needsToShowDeviceUpdate: %{bool}d, isEligibleForMigration: %{bool}d, childCount: %ld"
++ "Take advantage of simplified screen time management and content protections tailored to each child in your family. To use these controls, all devices in your family using iOS, iPadOS, watchOS, macOS, and visionOS must be upgraded to version 27 or later."
++ "Task was cancelled."
++ "These devices can’t be updated to version 27."
++ "To use the new parental controls, the following devices in your family need to be updated to version 27. Devices that can’t be updated to version 27 won’t have access to these features."
++ "Updating needsToShowDeviceUpdate: %{bool}d, activeDevices: %ld, inactiveDevices: %ld, legacyDevices: %ld"
++ "User sent the request, updating UI for pending ask"
++ "View Family Devices…"
++ "com.apple.screentime.connectionMap"
++ "v24@?0@\"NSNumber\"8@\"NSError\"16"
++ "v24@?0@\"NSUUID\"8@\"NSError\"16"
+- "Failed to fetch One More Minute policy for %{public}@: %{public}@"
+- "Failed to send unblock request: %{public}@"
+- "Take advantage of simplified screen time management and content protections using age-based recommendations for your family. To access these controls, all devices in your family must be upgraded to iOS, iPadOS, macOS, watchOS, and visionOS version 27 or later."
+- "These devices can no longer be updated to the latest version."
+- "To use the new parental controls, all devices in your family must be updated to version 27. Devices that can’t be updated won’t have access to these features."
+- "View Family Devices"
+- "Zero migration devices. Retry in 5 seconds.."
+```

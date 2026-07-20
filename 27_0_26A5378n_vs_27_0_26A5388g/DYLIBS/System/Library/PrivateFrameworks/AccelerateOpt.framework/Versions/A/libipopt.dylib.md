@@ -1,0 +1,97 @@
+## libipopt.dylib
+
+> `/System/Library/PrivateFrameworks/AccelerateOpt.framework/Versions/A/libipopt.dylib`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__cstring`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__weak_got`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH.__thread_vars`
+- `__DATA.__data`
+
+```diff
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpAdaptiveMuUpdate.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpAlgBuilder.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpBacktrackingLSAcceptor.hpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpBacktrackingLineSearch.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpDefaultIterateInitializer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpEquilibrationScaling.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpFilterLSAcceptor.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpGradientScaling.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpIpoptAlg.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpLimMemQuasiNewtonUpdater.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpLowRankSSAugSystemSolver.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpMonotoneMuUpdate.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpNLPBoundsRemover.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpOptErrorConvCheck.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpOrigIpoptNLP.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpPDFullSpaceSolver.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpPenaltyLSAcceptor.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpRestoConvCheck.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpRestoIpoptNLP.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpRestoMinC_1Nrm.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpStdAugSystemSolver.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/LinearSolvers/IpMa27TSolverInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/LinearSolvers/IpMa57TSolverInterface.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Algorithm/LinearSolvers/IpTSymLinearSolver.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Common/IpLibraryLoader.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Common/IpOptionsList.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Common/IpRegOptions.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Interfaces/IpIpoptApplication.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Interfaces/IpStdInterfaceTNLP.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Interfaces/IpTNLP.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/Interfaces/IpTNLPAdapter.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/LinAlg/IpExpandedMultiVectorMatrix.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/LinAlg/IpLowRankUpdateSymMatrix.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/LinAlg/IpMultiVectorMatrix.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/LinAlg/IpScaledMatrix.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/LinAlg/IpSumSymMatrix.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/LinAlg/IpSymScaledMatrix.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/LinAlg/TMatrices/IpTripletHelper.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.FY5xnp/Sources/AccelerateOpt/Ipopt/src/contrib/CGPenalty/IpCGPenaltyLSAcceptor.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpAdaptiveMuUpdate.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpAlgBuilder.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpBacktrackingLSAcceptor.hpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpBacktrackingLineSearch.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpDefaultIterateInitializer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpEquilibrationScaling.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpFilterLSAcceptor.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpGradientScaling.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpIpoptAlg.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpLimMemQuasiNewtonUpdater.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpLowRankSSAugSystemSolver.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpMonotoneMuUpdate.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpNLPBoundsRemover.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpOptErrorConvCheck.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpOrigIpoptNLP.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpPDFullSpaceSolver.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpPenaltyLSAcceptor.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpRestoConvCheck.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpRestoIpoptNLP.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpRestoMinC_1Nrm.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/IpStdAugSystemSolver.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/LinearSolvers/IpMa27TSolverInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/LinearSolvers/IpMa57TSolverInterface.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Algorithm/LinearSolvers/IpTSymLinearSolver.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Common/IpLibraryLoader.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Common/IpOptionsList.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Common/IpRegOptions.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Interfaces/IpIpoptApplication.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Interfaces/IpStdInterfaceTNLP.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Interfaces/IpTNLP.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/Interfaces/IpTNLPAdapter.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/LinAlg/IpExpandedMultiVectorMatrix.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/LinAlg/IpLowRankUpdateSymMatrix.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/LinAlg/IpMultiVectorMatrix.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/LinAlg/IpScaledMatrix.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/LinAlg/IpSumSymMatrix.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/LinAlg/IpSymScaledMatrix.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/LinAlg/TMatrices/IpTripletHelper.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Qn9zsj/Sources/AccelerateOpt/Ipopt/src/contrib/CGPenalty/IpCGPenaltyLSAcceptor.cpp"
+```

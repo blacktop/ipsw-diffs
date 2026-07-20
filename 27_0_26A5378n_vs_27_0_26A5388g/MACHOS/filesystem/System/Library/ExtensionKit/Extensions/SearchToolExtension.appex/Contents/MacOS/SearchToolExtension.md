@@ -1,0 +1,108 @@
+## SearchToolExtension
+
+> `/System/Library/ExtensionKit/Extensions/SearchToolExtension.appex/Contents/MacOS/SearchToolExtension`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+
+```diff
+
+-3600.56.20.0.0
+-  __TEXT.__text: 0x3454
++3600.56.27.0.0
++  __TEXT.__text: 0x34e8
+   __TEXT.__auth_stubs: 0x390
+   __TEXT.__const: 0x23c
+   __TEXT.__swift5_typeref: 0xd8
+
+   __DATA_CONST.__auth_got: 0x1c8
+   __DATA_CONST.__got: 0x48
+   __DATA_CONST.__auth_ptr: 0x128
+-  __DATA.__data: 0x168
++  __DATA.__data: 0x170
+   __DATA.__bss: 0x280
+-  __DATA.__common: 0x279
++  __DATA.__common: 0x291
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+   - /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 188
+-  Symbols:   524
++  Functions: 191
++  Symbols:   530
+   CStrings:  11
+ 
+Symbols:
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.w1BJAE/Binaries/OmniSearch/install/TempContent/Objects/OmniSearch.build/SearchToolExtension.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.w1BJAE/Binaries/OmniSearch/install/TempContent/Objects/OmniSearch.build/SearchToolExtension.build/Objects-normal/arm64e/Logging.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.w1BJAE/Binaries/OmniSearch/install/TempContent/Objects/OmniSearch.build/SearchToolExtension.build/Objects-normal/arm64e/SearchToolExtension.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.w1BJAE/Binaries/OmniSearch/install/TempContent/Objects/OmniSearch.build/SearchToolExtension.build/Objects-normal/arm64e/SearchToolExtension.swiftmodule
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.w1BJAE/Binaries/OmniSearch/install/TempContent/Objects/OmniSearch.build/SearchToolExtension.build/Objects-normal/arm64e/SearchToolExtensionIntent.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.w1BJAE/Binaries/OmniSearch/install/TempContent/Objects/OmniSearch.build/SearchToolExtension.build/Objects-normal/arm64e/SearchToolExtension_lto.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.w1BJAE/Sources/OmniSearch/OmniSearch/Logging/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.w1BJAE/Sources/OmniSearch/SearchToolExtension/
++ _$s19SearchToolExtension7LoggingO19hydrationSignposter2os12OSSignposterVvau
++ _$s19SearchToolExtension7LoggingO19hydrationSignposter2os12OSSignposterVvgZ
++ _$s19SearchToolExtension7LoggingO19hydrationSignposter2os12OSSignposterVvpZ
++ _$s19SearchToolExtension7LoggingO19hydrationSignposter2os12OSSignposterVvpZMV
++ _$s19SearchToolExtension7LoggingO19hydrationSignposter_WZ
++ _$s19SearchToolExtension7LoggingO19hydrationSignposter_Wz
++ _$s19SearchToolExtension7LoggingO21hydrationDebugEnabledSbvau
++ _$s19SearchToolExtension7LoggingO21hydrationDebugEnabledSbvgZ
++ _$s19SearchToolExtension7LoggingO21hydrationDebugEnabledSbvpZ
++ _$s19SearchToolExtension7LoggingO21hydrationDebugEnabledSbvpZMV
++ _$s19SearchToolExtension7LoggingO21hydrationDebugEnabled_WZ
++ _$s19SearchToolExtension7LoggingO21hydrationDebugEnabled_Wz
++ _$s19SearchToolExtension7LoggingO8endpoint2os6LoggerVvau
++ _$s19SearchToolExtension7LoggingO8endpoint2os6LoggerVvgZ
++ _$s19SearchToolExtension7LoggingO8endpoint2os6LoggerVvpZ
++ _$s19SearchToolExtension7LoggingO8endpoint2os6LoggerVvpZMV
++ _$s19SearchToolExtension7LoggingO8endpoint_WZ
++ _$s19SearchToolExtension7LoggingO8endpoint_Wz
++ _$s19SearchToolExtension7LoggingO9hydration2os6LoggerVvau
++ _$s19SearchToolExtension7LoggingO9hydration2os6LoggerVvgZ
++ _$s19SearchToolExtension7LoggingO9hydration2os6LoggerVvpZ
++ _$s19SearchToolExtension7LoggingO9hydration2os6LoggerVvpZMV
++ _$s19SearchToolExtension7LoggingO9hydration_WZ
++ _$s19SearchToolExtension7LoggingO9hydration_Wz
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QRM4im/Binaries/OmniSearch/install/TempContent/Objects/OmniSearch.build/SearchToolExtension.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QRM4im/Binaries/OmniSearch/install/TempContent/Objects/OmniSearch.build/SearchToolExtension.build/Objects-normal/arm64e/Logging.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QRM4im/Binaries/OmniSearch/install/TempContent/Objects/OmniSearch.build/SearchToolExtension.build/Objects-normal/arm64e/SearchToolExtension.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QRM4im/Binaries/OmniSearch/install/TempContent/Objects/OmniSearch.build/SearchToolExtension.build/Objects-normal/arm64e/SearchToolExtension.swiftmodule
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QRM4im/Binaries/OmniSearch/install/TempContent/Objects/OmniSearch.build/SearchToolExtension.build/Objects-normal/arm64e/SearchToolExtensionIntent.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QRM4im/Binaries/OmniSearch/install/TempContent/Objects/OmniSearch.build/SearchToolExtension.build/Objects-normal/arm64e/SearchToolExtension_lto.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QRM4im/Sources/OmniSearch/OmniSearch/Logging/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.QRM4im/Sources/OmniSearch/SearchToolExtension/
+- _$s19SearchToolExtension7LoggingO15answerSynthesis2os6LoggerVvau
+- _$s19SearchToolExtension7LoggingO15answerSynthesis2os6LoggerVvgZ
+- _$s19SearchToolExtension7LoggingO15answerSynthesis2os6LoggerVvpZ
+- _$s19SearchToolExtension7LoggingO15answerSynthesis2os6LoggerVvpZMV
+- _$s19SearchToolExtension7LoggingO15answerSynthesis_WZ
+- _$s19SearchToolExtension7LoggingO15answerSynthesis_Wz
+- _$s19SearchToolExtension7LoggingO25answerSynthesisSignposter2os12OSSignposterVvau
+- _$s19SearchToolExtension7LoggingO25answerSynthesisSignposter2os12OSSignposterVvgZ
+- _$s19SearchToolExtension7LoggingO25answerSynthesisSignposter2os12OSSignposterVvpZ
+- _$s19SearchToolExtension7LoggingO25answerSynthesisSignposter2os12OSSignposterVvpZMV
+- _$s19SearchToolExtension7LoggingO25answerSynthesisSignposter_WZ
+- _$s19SearchToolExtension7LoggingO25answerSynthesisSignposter_Wz
+- _$s19SearchToolExtension7LoggingO27answerSynthesisDebugEnabledSbvau
+- _$s19SearchToolExtension7LoggingO27answerSynthesisDebugEnabledSbvgZ
+- _$s19SearchToolExtension7LoggingO27answerSynthesisDebugEnabledSbvpZ
+- _$s19SearchToolExtension7LoggingO27answerSynthesisDebugEnabledSbvpZMV
+- _$s19SearchToolExtension7LoggingO27answerSynthesisDebugEnabled_WZ
+- _$s19SearchToolExtension7LoggingO27answerSynthesisDebugEnabled_Wz
+```
