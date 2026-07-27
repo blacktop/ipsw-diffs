@@ -1,0 +1,69 @@
+## com.apple.driver.AppleH11ANEInterface
+
+> `com.apple.driver.AppleH11ANEInterface`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+- `__DATA.__data`
+- `__DATA_CONST.__auth_got`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__mod_init_func`
+- `__DATA_CONST.__mod_term_func`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__kalloc_var`
+- `__DATA_CONST.__kalloc_type`
+
+```diff
+
+-9.511.7.0.0
+-  __TEXT.__os_log: 0x36061
++9.512.0.0.0
++  __TEXT.__os_log: 0x36016
+   __TEXT.__cstring: 0xcf7a
+   __TEXT.__const: 0xcf8
+-  __TEXT_EXEC.__text: 0xf2154
++  __TEXT_EXEC.__text: 0xf20c0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x4834
+   __DATA.__common: 0x680
+
+   __DATA_CONST.__kalloc_var: 0x3200
+   __DATA_CONST.__kalloc_type: 0x3b80
+   Functions: 2981
+-  Symbols:   7796
+-  CStrings:  4207
++  Symbols:   7795
++  CStrings:  4206
+ 
+Symbols:
++ __ZZN24ANEProgramLegacyResource10preProcessEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsP26ANEProgramCreateArgsOutputE20kalloc_type_view_352
++ __ZZN24ANEProgramLegacyResource23initSplitKernelSectionsEP26ANEProgramCreateArgsOutputP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE21kalloc_type_view_1258
++ __ZZN24ANEProgramLegacyResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE20kalloc_type_view_575
++ __ZZN24ANEProgramLegacyResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE20kalloc_type_view_725
++ __ZZN24ANEProgramLegacyResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE20kalloc_type_view_824
++ __ZZN24ANEProgramLegacyResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE20kalloc_type_view_904
++ __ZZN24ANEProgramLegacyResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE21kalloc_type_view_1185
++ __ZZN24ANEProgramLegacyResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE21kalloc_type_view_1191
++ __ZZN24ANEProgramLegacyResource25initMutableKernelSectionsEP26ANEProgramCreateArgsOutputP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE21kalloc_type_view_1582
+- __ZZN24ANEProgramLegacyResource10preProcessEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsP26ANEProgramCreateArgsOutputE20kalloc_type_view_335
+- __ZZN24ANEProgramLegacyResource23initSplitKernelSectionsEP26ANEProgramCreateArgsOutputP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE21kalloc_type_view_1218
+- __ZZN24ANEProgramLegacyResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE20kalloc_type_view_542
+- __ZZN24ANEProgramLegacyResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE20kalloc_type_view_692
+- __ZZN24ANEProgramLegacyResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE20kalloc_type_view_791
+- __ZZN24ANEProgramLegacyResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE20kalloc_type_view_871
+- __ZZN24ANEProgramLegacyResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE21kalloc_type_view_1145
+- __ZZN24ANEProgramLegacyResource24programLoadFromMachoFileEP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE21kalloc_type_view_1151
+- __ZZN24ANEProgramLegacyResource25initMutableKernelSectionsEP26ANEProgramCreateArgsOutputP20ANEProgramCreateArgsP32ANEProgramCreateAdditionalParamsE21kalloc_type_view_1528
+- __ZZN24ANEProgramLegacyResource29populateProcedureLiveInParamsEP26ANEProgramCreateArgsOutputjE11_os_log_fmt_9
+Functions:
+~ __ZN24ANEProgramLegacyResource29populateProcedureLiveInParamsEP26ANEProgramCreateArgsOutputj : 3216 -> 3068
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.w5Kvua/Sources/AppleH11ANEInterface_kexts/ANEResource/ANEProgramRTResource.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.w5Kvua/Sources/AppleH11ANEInterface_kexts/ANEScheduler/ANEEvent.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.w5Kvua/Sources/AppleH11ANEInterface_kexts/aneexclave/ANELoader/src/ZinComputeProgramLoader.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rbjF5H/Sources/AppleH11ANEInterface_kexts/ANEResource/ANEProgramRTResource.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rbjF5H/Sources/AppleH11ANEInterface_kexts/ANEScheduler/ANEEvent.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.rbjF5H/Sources/AppleH11ANEInterface_kexts/aneexclave/ANELoader/src/ZinComputeProgramLoader.cpp"
+- "[ERROR] %s: %s: Number of SNE ops exceeded max allowed: %u for procID: %d\n"
+```

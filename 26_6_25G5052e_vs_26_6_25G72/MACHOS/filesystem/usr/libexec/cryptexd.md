@@ -1,0 +1,186 @@
+## cryptexd
+
+> `/usr/libexec/cryptexd`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__cstring`
+- `__DATA.__data`
+
+```diff
+
+-662.160.12.0.0
++662.160.18.0.0
+   __TEXT.__text: 0x6ad18
+   __TEXT.__auth_stubs: 0x2390
+   __TEXT.__objc_stubs: 0x21c0
+Symbols:
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex.build/cryptexd.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex.build/cryptexd.build/DerivedSources/arm64e/normal/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/DaemonServer.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/Logger+init.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/NSLock+With.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/aks.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/amfi.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/apfs.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/authinstall.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/bin_trampoline.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/cf-f845d92150acf5762704252dd553b7a8.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/codex.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/collation_map.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/cryptexd.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/cryptexd.swiftmodule
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/cryptexd_objc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/cryptexd_vers.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/daemon.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/darwin_version.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/devmode_sysctl.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/dyld_shared_region.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/event_server.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/fs.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/hdi-c816f3ff6d6544201d5a5f130fdf004d.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/hdi_graft.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/img4.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/img4_xpc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/iokit.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/launch_util.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/launchd_session.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/path.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/proc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/protex.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/python.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/quire.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/resource.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/restricted_exec_mode_sysctl.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sandboxing.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/session.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sm.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sub.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sub_codex.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sub_codex_xpc.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sub_collation.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sub_daemon.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sub_endpoint_lookup.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sub_mount.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sub_pipeline.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sub_remote_service.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sub_session.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sub_upgrade_abort.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sub_upgrade_lock.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/sub_upgrade_trampoline.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/upgrade_sequencer.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/upgrade_sysctl.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/usermanager.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/view.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/watchdog.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E/xpc_entitlements.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexd/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexd/sm/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexd/sub/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/hlutil/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/swift-shared/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.BT8F6D/Sources/AppleMobileFileIntegrity_libs/libamfi/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.J2lr4T/Sources/AppleMobileFileIntegrity_libs/libamfi/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex.build/cryptexd.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex.build/cryptexd.build/DerivedSources/arm64e/normal/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/DaemonServer.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/Logger+init.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/NSLock+With.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/aks.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/amfi.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/apfs.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/authinstall.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/bin_trampoline.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/cf-e2f4c020f2a61cf2a410ed2b6473c0e4.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/codex.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/collation_map.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/cryptexd.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/cryptexd.swiftmodule
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/cryptexd_objc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/cryptexd_vers.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/daemon.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/darwin_version.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/devmode_sysctl.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/dyld_shared_region.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/event_server.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/fs.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/hdi-c54431decb59aae2a098d16531fa4d12.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/hdi_graft.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/img4.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/img4_xpc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/iokit.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/launch_util.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/launchd_session.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/path.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/proc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/protex.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/python.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/quire.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/resource.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/restricted_exec_mode_sysctl.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sandboxing.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/session.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sm.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sub.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sub_codex.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sub_codex_xpc.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sub_collation.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sub_daemon.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sub_endpoint_lookup.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sub_mount.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sub_pipeline.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sub_remote_service.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sub_session.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sub_upgrade_abort.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sub_upgrade_lock.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/sub_upgrade_trampoline.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/upgrade_sequencer.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/upgrade_sysctl.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/usermanager.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/view.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/watchdog.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/TempContent/Objects/libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E/xpc_entitlements.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/cryptexd/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/cryptexd/sm/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/cryptexd/sub/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/hlutil/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/swift-shared/
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Binaries/libcryptex_executables/install/Symbols/cryptexd"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexd/codex.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexd/event_server.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexd/quire.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexd/sm/launchd_session.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexd/sm/sm.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexd/sm/watchdog.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexd/sub/sub_codex.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexd/sub/sub_codex_xpc.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexd/sub/sub_mount.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexd/sub/sub_remote_service.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/cryptexd/upgrade_sequencer.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/hlutil/amfi.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/hlutil/img4_xpc.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.8AceF2/Sources/libcryptex_executables/util/rpc.c"
++ "662.160.18"
++ "@(#)VERSION:Darwin Cryptex Manager Version 2.0.0: Sat Jul 11 20:34:07 PDT 2026; root:libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E"
++ "Darwin Cryptex Manager Version 2.0.0: Sat Jul 11 20:34:07 PDT 2026; root:libcryptex_executables-662.160.18~56/cryptexd/RELEASE_ARM64E"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Binaries/libcryptex_executables/install/Symbols/cryptexd"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/cryptexd/codex.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/cryptexd/event_server.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/cryptexd/quire.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/cryptexd/sm/launchd_session.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/cryptexd/sm/sm.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/cryptexd/sm/watchdog.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/cryptexd/sub/sub_codex.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/cryptexd/sub/sub_codex_xpc.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/cryptexd/sub/sub_mount.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/cryptexd/sub/sub_remote_service.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/cryptexd/upgrade_sequencer.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/hlutil/amfi.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/hlutil/img4_xpc.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.T8pvY8/Sources/libcryptex_executables/util/rpc.c"
+- "662.160.12"
+- "@(#)VERSION:Darwin Cryptex Manager Version 2.0.0: Wed Jun 17 07:15:21 PDT 2026; root:libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E"
+- "Darwin Cryptex Manager Version 2.0.0: Wed Jun 17 07:15:21 PDT 2026; root:libcryptex_executables-662.160.12~118/cryptexd/RELEASE_ARM64E"
+```

@@ -1,0 +1,123 @@
+## QuartzCore
+
+> `/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__auth_got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_floatobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+   __TEXT.__objc_methlist: 0xc134
+   __TEXT.__const: 0x16598
+   __TEXT.__dlopen_cstrs: 0x1e6
+-  __TEXT.__cstring: 0x25bef
++  __TEXT.__cstring: 0x25bec
+   __TEXT.__gcc_except_tab: 0x79a8
+   __TEXT.__oslogstring: 0xf67c
+   __TEXT.__unwind_info: 0x8df8
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-animation.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-array.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-backdrop-layer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-coding.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-distance-field-layer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-emitter-layer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-filter.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-function.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-gradient-layer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-image-compressed.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-image-queue.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-image.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-key-value.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-layer-host.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-layer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-match-animation.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-media-layer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-mesh-transform.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-misc.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-object.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-path.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-pattern.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-pixel-buffer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-plugin-layer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-portal-layer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-proxy.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-remote-effect.mm"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-replicator-layer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-sdf-layer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-secure-indicator-layer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-shape-layer.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-shmem.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-string.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-surface.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-texture.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-timing.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-vector.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yPIV7e/Sources/QuartzCore/LayerKit/render/render-window-layer.cpp"
++ "25G68"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-animation.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-array.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-backdrop-layer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-coding.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-distance-field-layer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-emitter-layer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-filter.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-function.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-gradient-layer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-image-compressed.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-image-queue.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-image.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-key-value.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-layer-host.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-layer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-match-animation.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-media-layer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-mesh-transform.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-misc.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-object.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-path.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-pattern.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-pixel-buffer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-plugin-layer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-portal-layer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-proxy.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-remote-effect.mm"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-replicator-layer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-sdf-layer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-secure-indicator-layer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-shape-layer.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-shmem.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-string.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-surface.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-texture.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-timing.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-vector.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9mYuKK/Sources/QuartzCore/LayerKit/render/render-window-layer.cpp"
+- "25G5051s"
+```

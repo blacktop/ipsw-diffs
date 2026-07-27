@@ -1,0 +1,52 @@
+## sptm.t6000.release.im4p
+
+> `Firmware/sptm.t6000.release.im4p`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__LATE_CONST.__late_const`
+
+```diff
+
+-611.160.18.0.0
+-  __TEXT.__cstring: 0x125b0
++611.161.3.0.0
++  __TEXT.__cstring: 0x1269c
+   __TEXT.__const: 0xa90
+   __TEXT.__binname: 0x40
+   __TEXT.__chain_starts: 0x24
+   __DATA_CONST.__const: 0x5ce0
+   __LATE_CONST.__late_const: 0x7c330
+-  __TEXT_EXEC.__text: 0x61088
++  __TEXT_EXEC.__text: 0x6119c
+   __LAST.__pinst: 0x8
+   __DATA.__data: 0xf
+   __DATA.__auth_ptr: 0x18
+
+   __BOOTDATA.__data: 0x14000
+   Functions: 392
+   Symbols:   1
+-  CStrings:  2279
++  CStrings:  2283
+ 
+Functions:
+~ sub_fffffff0270d43dc : 872 -> 1036
+~ sub_fffffff0270dad18 -> sub_fffffff0270dadbc : 836 -> 948
+~ sub_fffffff02710105c -> sub_fffffff027101170 : 52 -> 48
+CStrings:
++ "%s: dart %p (%s:%u): DART instance %u: SID_CONFIG[%u] 0x%08x does not match shadow 0x%08x"
++ "%s: dart %p (%s:%u): DART instance %u: TTBR[%u] 0x%08x does not match shadow 0x%08x"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yCgSDZ/Sources/SPTM/sptm/boot/hib/hibernate_restore.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yCgSDZ/Sources/SPTM/sptm/core/sptm_hibentry.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yCgSDZ/Sources/SPTM/sptm/iommu/dart/t6000dart.c"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.yCgSDZ/Sources/SPTM/sptm/iommu/dart/t8110dart.c"
++ "SPTM-611.161.3|2026-07-11:14:35:03.433987|"
++ "t8110dart_verify_sid_config"
++ "t8110dart_verify_sid_shadow_config"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.KvEKdI/Sources/SPTM/sptm/boot/hib/hibernate_restore.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.KvEKdI/Sources/SPTM/sptm/core/sptm_hibentry.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.KvEKdI/Sources/SPTM/sptm/iommu/dart/t6000dart.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.KvEKdI/Sources/SPTM/sptm/iommu/dart/t8110dart.c"
+- "SPTM-611.160.18|2026-06-17:23:54:20.173315|"
+```

@@ -1,0 +1,25 @@
+## AppleIntelligenceReportingSELFIngestor
+
+> `/System/Library/ExtensionKit/Extensions/AppleIntelligenceReportingSELFIngestor.appex/Contents/MacOS/AppleIntelligenceReportingSELFIngestor`
+
+```diff
+Symbols:
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.vGYIbJ/Binaries/AppleIntelligenceReportingExecutables/install/TempContent/Objects/AppleIntelligenceReporting.build/AppleIntelligenceReportingSELFIngestor.build/DerivedSources/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.vGYIbJ/Binaries/AppleIntelligenceReportingExecutables/install/TempContent/Objects/AppleIntelligenceReporting.build/AppleIntelligenceReportingSELFIngestor.build/Objects-normal/arm64e/AppleIntelligenceReportingSELFIngestor.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.vGYIbJ/Binaries/AppleIntelligenceReportingExecutables/install/TempContent/Objects/AppleIntelligenceReporting.build/AppleIntelligenceReportingSELFIngestor.build/Objects-normal/arm64e/AppleIntelligenceReportingSELFIngestor.swiftmodule
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.vGYIbJ/Binaries/AppleIntelligenceReportingExecutables/install/TempContent/Objects/AppleIntelligenceReporting.build/AppleIntelligenceReportingSELFIngestor.build/Objects-normal/arm64e/AppleIntelligenceReportingSELFIngestor_vers.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.vGYIbJ/Binaries/AppleIntelligenceReportingExecutables/install/TempContent/Objects/AppleIntelligenceReporting.build/AppleIntelligenceReportingSELFIngestor.build/Objects-normal/arm64e/FeatureFlag.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.vGYIbJ/Binaries/AppleIntelligenceReportingExecutables/install/TempContent/Objects/AppleIntelligenceReporting.build/AppleIntelligenceReportingSELFIngestor.build/Objects-normal/arm64e/NumericalExtensions.o
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.vGYIbJ/Sources/AppleIntelligenceReportingExecutables/AppleIntelligenceReporting/Utils/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.vGYIbJ/Sources/AppleIntelligenceReportingExecutables/AppleIntelligenceReportingProcessing/Utils/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.vGYIbJ/Sources/AppleIntelligenceReportingExecutables/AppleIntelligenceReportingSELFIngestor/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.pd9A4j/Binaries/AppleIntelligenceReportingExecutables/install/TempContent/Objects/AppleIntelligenceReporting.build/AppleIntelligenceReportingSELFIngestor.build/DerivedSources/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.pd9A4j/Binaries/AppleIntelligenceReportingExecutables/install/TempContent/Objects/AppleIntelligenceReporting.build/AppleIntelligenceReportingSELFIngestor.build/Objects-normal/arm64e/AppleIntelligenceReportingSELFIngestor.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.pd9A4j/Binaries/AppleIntelligenceReportingExecutables/install/TempContent/Objects/AppleIntelligenceReporting.build/AppleIntelligenceReportingSELFIngestor.build/Objects-normal/arm64e/AppleIntelligenceReportingSELFIngestor.swiftmodule
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.pd9A4j/Binaries/AppleIntelligenceReportingExecutables/install/TempContent/Objects/AppleIntelligenceReporting.build/AppleIntelligenceReportingSELFIngestor.build/Objects-normal/arm64e/AppleIntelligenceReportingSELFIngestor_vers.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.pd9A4j/Binaries/AppleIntelligenceReportingExecutables/install/TempContent/Objects/AppleIntelligenceReporting.build/AppleIntelligenceReportingSELFIngestor.build/Objects-normal/arm64e/FeatureFlag.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.pd9A4j/Binaries/AppleIntelligenceReportingExecutables/install/TempContent/Objects/AppleIntelligenceReporting.build/AppleIntelligenceReportingSELFIngestor.build/Objects-normal/arm64e/NumericalExtensions.o
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.pd9A4j/Sources/AppleIntelligenceReportingExecutables/AppleIntelligenceReporting/Utils/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.pd9A4j/Sources/AppleIntelligenceReportingExecutables/AppleIntelligenceReportingProcessing/Utils/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.pd9A4j/Sources/AppleIntelligenceReportingExecutables/AppleIntelligenceReportingSELFIngestor/
+```

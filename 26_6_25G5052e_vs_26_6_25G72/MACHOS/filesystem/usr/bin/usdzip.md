@@ -1,0 +1,99 @@
+## usdzip
+
+> `/usr/bin/usdzip`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__cstring`
+
+```diff
+Symbols:
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(arena.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(cache_aligned_allocator.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(concurrent_hash_map.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(concurrent_monitor.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(concurrent_queue.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(concurrent_queue_v2.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(concurrent_vector.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(concurrent_vector_v2.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(critical_section.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(dynamic_link.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(governor.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(market.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(mutex.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(observer_proxy.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(pipeline.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(private_server.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(queuing_mutex.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(queuing_rw_mutex.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(reader_writer_lock.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(recursive_mutex.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(rml_tbb.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(scheduler.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(spin_mutex.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(spin_rw_mutex.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(spin_rw_mutex_v2.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(task.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(task_group_context.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(task_v2.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(tbb_main.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(tbb_misc.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(tbb_thread.o)
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Sources/USDLib/oneTBB-2020.3/./src/old/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Sources/USDLib/oneTBB-2020.3/./src/rml/client/
++ /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Sources/USDLib/oneTBB-2020.3/./src/tbb/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(arena.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(cache_aligned_allocator.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(concurrent_hash_map.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(concurrent_monitor.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(concurrent_queue.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(concurrent_queue_v2.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(concurrent_vector.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(concurrent_vector_v2.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(critical_section.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(dynamic_link.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(governor.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(market.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(mutex.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(observer_proxy.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(pipeline.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(private_server.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(queuing_mutex.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(queuing_rw_mutex.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(reader_writer_lock.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(recursive_mutex.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(rml_tbb.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(scheduler.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(spin_mutex.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(spin_rw_mutex.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(spin_rw_mutex_v2.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(task.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(task_group_context.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(task_v2.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(tbb_main.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(tbb_misc.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Binaries/USDLib/install/TempContent/Objects/build/Release/PreInstall/lib/libtbb.a(tbb_thread.o)
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Sources/USDLib/oneTBB-2020.3/./src/old/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Sources/USDLib/oneTBB-2020.3/./src/rml/client/
+- /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Sources/USDLib/oneTBB-2020.3/./src/tbb/
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Sources/USDLib/USD/pxr/base/tf/instantiateSingleton.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Sources/USDLib/USD/pxr/base/tf/refPtr.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Sources/USDLib/USD/pxr/base/tf/weakPtrFacade.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Sources/USDLib/USD/pxr/usd/usd/object.h"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Sources/USDLib/USD/pxr/usdValidation/usdValidation/context.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Sources/USDLib/USD/pxr/usdValidation/usdValidation/error.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Sources/USDLib/USD/pxr/usdValidation/usdValidation/registry.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Sources/USDLib/oneTBB-2020.3/./src/tbb/governor.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.0wGZSz/Sources/USDLib/oneTBB-2020.3/./src/tbb/tbb_main.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Sources/USDLib/USD/pxr/base/tf/instantiateSingleton.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Sources/USDLib/USD/pxr/base/tf/refPtr.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Sources/USDLib/USD/pxr/base/tf/weakPtrFacade.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Sources/USDLib/USD/pxr/usd/usd/object.h"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Sources/USDLib/USD/pxr/usdValidation/usdValidation/context.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Sources/USDLib/USD/pxr/usdValidation/usdValidation/error.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Sources/USDLib/USD/pxr/usdValidation/usdValidation/registry.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Sources/USDLib/oneTBB-2020.3/./src/tbb/governor.cpp"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.C1ofqR/Sources/USDLib/oneTBB-2020.3/./src/tbb/tbb_main.cpp"
+```

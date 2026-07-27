@@ -1,0 +1,19 @@
+## shadow_auxprop.so
+
+> `/usr/lib/sasl2/shadow_auxprop.so`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
+```diff
+CStrings:
++ "Out of Memory in /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9EQQaE/Sources/passwordserver_saslplugins/plugin_common.c near line %d"
++ "Out of Memory in /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9EQQaE/Sources/passwordserver_saslplugins/shadow_auxprop.c near line %d"
++ "Parameter Error in /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9EQQaE/Sources/passwordserver_saslplugins/plugin_common.c near line %d"
++ "Parameter Error in /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.9EQQaE/Sources/passwordserver_saslplugins/shadow_auxprop.c near line %d"
+- "Out of Memory in /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.URuSu3/Sources/passwordserver_saslplugins/plugin_common.c near line %d"
+- "Out of Memory in /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.URuSu3/Sources/passwordserver_saslplugins/shadow_auxprop.c near line %d"
+- "Parameter Error in /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.URuSu3/Sources/passwordserver_saslplugins/plugin_common.c near line %d"
+- "Parameter Error in /AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.URuSu3/Sources/passwordserver_saslplugins/shadow_auxprop.c near line %d"
+```
