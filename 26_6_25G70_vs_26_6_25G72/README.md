@@ -5,6 +5,17 @@
 - `UniversalMac_26.6_25G70_Restore.ipsw`
 - `UniversalMac_26.6_25G72_Restore.ipsw`
 
+## Kernel
+
+### Version
+
+| iOS | Version | Build | Date |
+| :-- | :------ | :---- | :--- |
+| 26.6 *(25G70)* | 25.6.0 | 12377.161.13~4 | Sat, 11Jul2026 15:25:34 PDT |
+| 26.6 *(25G72)* | 25.6.0 | 12377.161.13~4 | Sat, 11Jul2026 15:25:34 PDT |
+
+_Kernelcache functionally unchanged; KEXT diff skipped._
+
 ## MachO
 
 ### filesystem
