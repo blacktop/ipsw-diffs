@@ -39,6 +39,7 @@
 <a href="#ios-12-5">iOS 12.5</a> ·
 <a href="#macos-26-6">macOS 26.6</a> ·
 <a href="#macos-27-0-beta">macOS 27.0 beta</a> ·
+<a href="#macos-26-6">macOS 26.6</a> ·
 <a href="#macos-26-6-beta">macOS 26.6 beta</a> ·
 <a href="#macos-26-4">macOS 26.4</a> ·
 <a href="#macos-26-3-beta">macOS 26.3 beta</a> ·
@@ -506,6 +507,17 @@
 - [27.0 beta 3 (26A5378n) .vs 27.0 beta 4 (26A5388g)](27_0_26A5378n_vs_27_0_26A5388g/README.md)
 - [27.0 beta 3 (26A5378j) .vs 27.0 beta 3 (26A5378n)](27_0_26A5378j_vs_27_0_26A5378n/README.md)
 - [27.0 beta 2 (26A5368g) .vs 27.0 beta 3 (26A5378j)](27_0_26A5368g_vs_27_0_26A5378j/README.md)
+
+</details>
+
+<a id="macos-26-6"></a>
+
+### macOS 26.6
+
+<details open>
+  <summary>View diffs</summary>
+
+- [26.6 (25G70) .vs 26.6 (25G72)](26_6_25G70_vs_26_6_25G72/README.md)
 
 </details>
 
