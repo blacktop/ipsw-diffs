@@ -517,6 +517,7 @@
 <details open>
   <summary>View diffs</summary>
 
+- [26.6 (25G72) .vs 26.6.1 (25G76)](26_6_25G72_vs_26_6_1_25G76/README.md)
 - [26.6 (25G70) .vs 26.6 (25G72)](26_6_25G70_vs_26_6_25G72/README.md)
 
 </details>
