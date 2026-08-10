@@ -1,0 +1,95 @@
+## StocksUI
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/StocksUI.framework/Versions/A/StocksUI`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__cstring`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA.__objc_stublist`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Ads/AdAnalyticsJournalEntryProcessor.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Analytics/AudioSessionManager.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Analytics/CampaignLandingPageTracker.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Commands/Handlers/ChangeWatchlistDisplayCommandHandler.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Commands/Handlers/WatchlistMembershipCommandHandler.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Coordinators/Article/ArticleCoordinator.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Coordinators/EndOfArticle/EndOfArticleCoordinator.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Extensions/AccessTracker+StocksUI.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Factories/TipTracker.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Modules/ForYouFeed/ForYouFeedInteractor.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Modules/ForYouFeed/ForYouFeedModule.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Modules/ForYouFeed/ForYouFeedTracker.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Modules/Onboarding/OnboardingTracker.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Modules/StockChart/StockChartInteractor.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Modules/StockFeed/StockFeedInteractor.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Modules/StockFeed/StockFeedModule.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Modules/StockFeed/StockFeedTracker.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Modules/StockList/StockListInteractor.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Modules/StockList/StockListModule.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Modules/StockSearch/StockSearchInteractor.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Modules/Welcome/WelcomeTracker.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Observers/CommandObserver+Saving.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Observers/CommandObserver+SharingComplete.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Observers/CommandObserver+StocksSharingComplete.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Routers/CampaignLandingPageRouter.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Routers/Router+Subscription.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Subscription/PurchaseTransactionTracker.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Trackers/BannerAdTracker.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Trackers/InterstitialAdTracker.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Trackers/PaywallTracker.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/Trackers/VideoAdTracker.swift"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.R1BCTR/Sources/Stocks/StocksUI/WebViewer/WebViewCoordinator.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Ads/AdAnalyticsJournalEntryProcessor.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Analytics/AudioSessionManager.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Analytics/CampaignLandingPageTracker.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Commands/Handlers/ChangeWatchlistDisplayCommandHandler.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Commands/Handlers/WatchlistMembershipCommandHandler.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Coordinators/Article/ArticleCoordinator.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Coordinators/EndOfArticle/EndOfArticleCoordinator.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Extensions/AccessTracker+StocksUI.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Factories/TipTracker.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Modules/ForYouFeed/ForYouFeedInteractor.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Modules/ForYouFeed/ForYouFeedModule.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Modules/ForYouFeed/ForYouFeedTracker.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Modules/Onboarding/OnboardingTracker.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Modules/StockChart/StockChartInteractor.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Modules/StockFeed/StockFeedInteractor.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Modules/StockFeed/StockFeedModule.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Modules/StockFeed/StockFeedTracker.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Modules/StockList/StockListInteractor.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Modules/StockList/StockListModule.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Modules/StockSearch/StockSearchInteractor.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Modules/Welcome/WelcomeTracker.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Observers/CommandObserver+Saving.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Observers/CommandObserver+SharingComplete.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Observers/CommandObserver+StocksSharingComplete.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Routers/CampaignLandingPageRouter.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Routers/Router+Subscription.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Subscription/PurchaseTransactionTracker.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Trackers/BannerAdTracker.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Trackers/InterstitialAdTracker.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Trackers/PaywallTracker.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/Trackers/VideoAdTracker.swift"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.r92OUG/Sources/Stocks/StocksUI/WebViewer/WebViewCoordinator.swift"
+```

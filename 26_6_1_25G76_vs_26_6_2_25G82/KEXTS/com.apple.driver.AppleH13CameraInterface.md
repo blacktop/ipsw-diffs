@@ -1,0 +1,64 @@
+## com.apple.driver.AppleH13CameraInterface
+
+> `com.apple.driver.AppleH13CameraInterface`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA.__data`
+- `__DATA_CONST.__auth_got`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__mod_init_func`
+- `__DATA_CONST.__mod_term_func`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__kalloc_type`
+- `__DATA_CONST.__kalloc_var`
+
+```diff
+
+-10.300.0.0.0
++10.300.1.0.0
+   __TEXT.__const: 0x914
+   __TEXT.__cstring: 0x7549
+   __TEXT.__os_log: 0xd504
+   __TEXT.__ustring: 0x40
+-  __TEXT_EXEC.__text: 0x558e4
++  __TEXT_EXEC.__text: 0x5590c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x188
+   __DATA.__common: 0x2b0
+Symbols:
++ __ZZL10ffw_callocmmE22kalloc_type_view_24967
++ __ZZL8ffw_freePvE22kalloc_type_view_24972
++ __ZZN13AppleH13CamIn22SendBCARDataToFirmwareEjE22kalloc_type_view_25082
++ __ZZN13AppleH13CamIn22SendBCARDataToFirmwareEjE22kalloc_type_view_25092
++ __ZZN13AppleH13CamIn22SendBCTRDataToFirmwareEjE22kalloc_type_view_25047
++ __ZZN13AppleH13CamIn22SendBCTRDataToFirmwareEjE22kalloc_type_view_25056
++ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22542
++ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22566
++ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22579
++ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22595
++ __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22620
++ __ZZN13AppleH13CamIn27SendStrobeCalDataToFirmwareEjE22kalloc_type_view_25011
++ __ZZN13AppleH13CamIn27SendStrobeCalDataToFirmwareEjE22kalloc_type_view_25021
++ __ZZN13AppleH13CamIn32SendLPDPRxPhyEfuseDataToFirmwareEjE22kalloc_type_view_25153
++ __ZZN13AppleH13CamIn32SendLPDPRxPhyEfuseDataToFirmwareEjE22kalloc_type_view_25171
++ __ZZN13AppleH13CamIn39SendSphereExtendedStrokeRangeToFirmwareEjE22kalloc_type_view_25213
+- __ZZL10ffw_callocmmE22kalloc_type_view_24959
+- __ZZL8ffw_freePvE22kalloc_type_view_24964
+- __ZZN13AppleH13CamIn22SendBCARDataToFirmwareEjE22kalloc_type_view_25074
+- __ZZN13AppleH13CamIn22SendBCARDataToFirmwareEjE22kalloc_type_view_25084
+- __ZZN13AppleH13CamIn22SendBCTRDataToFirmwareEjE22kalloc_type_view_25039
+- __ZZN13AppleH13CamIn22SendBCTRDataToFirmwareEjE22kalloc_type_view_25048
+- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22538
+- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22562
+- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22575
+- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22591
+- __ZZN13AppleH13CamIn26ISP_InitialSensorDetectionEvE22kalloc_type_view_22612
+- __ZZN13AppleH13CamIn27SendStrobeCalDataToFirmwareEjE22kalloc_type_view_25003
+- __ZZN13AppleH13CamIn27SendStrobeCalDataToFirmwareEjE22kalloc_type_view_25013
+- __ZZN13AppleH13CamIn32SendLPDPRxPhyEfuseDataToFirmwareEjE22kalloc_type_view_25145
+- __ZZN13AppleH13CamIn32SendLPDPRxPhyEfuseDataToFirmwareEjE22kalloc_type_view_25163
+- __ZZN13AppleH13CamIn39SendSphereExtendedStrokeRangeToFirmwareEjE22kalloc_type_view_25197
+Functions:
+~ __ZN13AppleH13CamIn26ISP_InitialSensorDetectionEv : 7892 -> 7932
+```

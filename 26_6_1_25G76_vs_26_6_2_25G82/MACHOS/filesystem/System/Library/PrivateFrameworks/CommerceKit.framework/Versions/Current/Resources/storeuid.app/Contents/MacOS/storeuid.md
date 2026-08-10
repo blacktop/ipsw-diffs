@@ -1,0 +1,17 @@
+## storeuid
+
+> `/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/Current/Resources/storeuid.app/Contents/MacOS/storeuid`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
+```diff
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.H61O7C/Sources/Commerce/CommerceKit/UIService/AppStoreXPC.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.H61O7C/Sources/Commerce/CommerceKit/UIService/InAppService/StoreReviewController.m"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.H61O7C/Sources/Commerce/CommerceKit/UIService/UIServiceInterface.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.NAlRXY/Sources/Commerce/CommerceKit/UIService/AppStoreXPC.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.NAlRXY/Sources/Commerce/CommerceKit/UIService/InAppService/StoreReviewController.m"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.NAlRXY/Sources/Commerce/CommerceKit/UIService/UIServiceInterface.m"
+```

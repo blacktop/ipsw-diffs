@@ -1,0 +1,19 @@
+## IOAccelerator
+
+> `/System/Library/PrivateFrameworks/IOAccelerator.framework/Versions/A/IOAccelerator`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__cstring`
+- `__DATA_CONST.__objc_selrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.Pfzgi3/Sources/IOAcceleratorFamily/Framework/IOAccelResourceRef.c"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/TemporaryDirectory.cIhR8T/Sources/IOAcceleratorFamily/Framework/IOAccelResourceRef.c"
+```
