@@ -1,0 +1,616 @@
+## libswiftCore.dylib
+
+> `/usr/lib/swift/libswiftCore.dylib`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_types2`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_nlclslist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__weak_auth_got`
+- `__AUTH_CONST.__lazy_load_got`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+-6.4.0.27.101
+-  __TEXT.__text: 0x4b3880
++6.4.0.31.4
++  __TEXT.__text: 0x4aff2c
+   __TEXT.__lazy_helpers: 0x348
+   __TEXT.__init_offsets: 0x18
+   __TEXT.__objc_methlist: 0x1e1c
+-  __TEXT.__cstring: 0x12dc5
+-  __TEXT.__const: 0xbb5eb
++  __TEXT.__cstring: 0x12e25
++  __TEXT.__const: 0xbb66b
+   __TEXT.__oslogstring: 0xb7
+   __TEXT.__gcc_except_tab: 0xd8
+   __TEXT.__lldbsummaries: 0x46
+-  __TEXT.__swift5_typeref: 0x59e7
++  __TEXT.__swift5_typeref: 0x5a5b
+   __TEXT.__swift5_capture: 0x3e8
+-  __TEXT.__swift5_reflstr: 0x1511
+-  __TEXT.__swift5_assocty: 0x5318
+-  __TEXT.__constg_swiftt: 0x9310
+-  __TEXT.__swift5_fieldmd: 0x4b9c
++  __TEXT.__swift5_reflstr: 0x1551
++  __TEXT.__swift5_assocty: 0x53c8
++  __TEXT.__constg_swiftt: 0x9340
++  __TEXT.__swift5_fieldmd: 0x4bc0
+   __TEXT.__swift5_builtin: 0xbcc
+   __TEXT.__swift5_mpenum: 0x8c
+   __TEXT.__swift5_protos: 0x1ac
+-  __TEXT.__swift5_proto: 0x154c
++  __TEXT.__swift5_proto: 0x1558
+   __TEXT.__swift5_types: 0x948
+   __TEXT.__swift5_types2: 0x28
+-  __TEXT.__unwind_info: 0xbca0
+-  __TEXT.__eh_frame: 0x8798
++  __TEXT.__unwind_info: 0xbd00
++  __TEXT.__eh_frame: 0x8840
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __AUTH_CONST.__lazy_load_got: 0x48
+   __AUTH_CONST.__auth_got: 0x698
+   __AUTH.__objc_data: 0x1c8
+-  __AUTH.__data: 0xe658
++  __AUTH.__data: 0xe760
+   __DATA.__objc_ivar: 0x38
+   __DATA.__crash_info: 0x40
+   __DATA.__data: 0xba4
+-  __DATA.__bss: 0xeff8
++  __DATA.__bss: 0xf178
+   __DATA.__common: 0xb0
+   __DATA_DIRTY.__objc_data: 0xe08
+   __DATA_DIRTY.__data: 0x33f8
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libswiftPrespecialized.dylib
+-  Functions: 23212
+-  Symbols:   40176
+-  CStrings:  2769
++  Functions: 23237
++  Symbols:   40227
++  CStrings:  2772
+ 
+Symbols:
++ _$s17BorrowingIterators8IterablePTl
++ _$s7Elements8IterablePTl
++ _$s7Failures25BorrowingIteratorProtocolPTl
++ _$s7Failures8IterablePTl
++ _$sSR8rebasingSRyxGs5SliceVyABG_tcfCTm
++ _$sSTss8IterableRzrlE19underestimatedCountSivpMV
++ _$sSTss8IterableRzrlE21makeBorrowingIterators0cD7AdapterVy0D0STQzGyF
++ _$sSlsEy11SubSequenceQzqd__cSXRd__5BoundQyd__5IndexRtzluigSRys5UInt8VG_s16PartialRangeFromVySiGTg5
++ _$sSlss8IterableRzrlE19underestimatedCountSivpMV
++ _$ss10OutputSpanVsRi_zrlE19underestimatedCountSivg
++ _$ss10OutputSpanVsRi_zrlE21makeBorrowingIterators0B0VsRi_zrlE0dE0Vyx_GyF
++ _$ss10OutputSpanVwstTm
++ _$ss10OutputSpanVyxGs8IterablesRi_zrl17BorrowingIteratorsADP_s0dE8ProtocolPWT
++ _$ss10OutputSpanVyxGs8IterablesRi_zrlMA
++ _$ss10OutputSpanVyxGs8IterablesRi_zrlMc
++ _$ss10OutputSpanVyxGs8IterablesRi_zrlMcMK
++ _$ss10OutputSpanVyxGs8IterablesRi_zrlWp
++ _$ss10OutputSpanVyxGs8IterablesRi_zrlsADP19underestimatedCountSivgTW
++ _$ss10OutputSpanVyxGs8IterablesRi_zrlsADP21makeBorrowingIterator0eF0QzyFTW
++ _$ss10OutputSpanVyxGs8IterablesRi_zrlsADP21makeBorrowingIterator0eF0QzyFTWTm
++ _$ss10OutputSpanVyxGs8IterablesRi_zrlsADP31_customContainsEquatableElementySbSg0G0QzFTW
++ _$ss11InlineArrayVsRi__rlE19underestimatedCountSivgTf4d_n
++ _$ss11InlineArrayVsRi__rlE19underestimatedCountSivpMV
++ _$ss11InlineArrayVsRi__rlE21makeBorrowingIterators4SpanVsRi_zrlE0dE0Vyq__GyF
++ _$ss11InlineArrayVyxq_Gs8IterablesRi__rl17BorrowingIteratorsADP_s0dE8ProtocolPWT
++ _$ss11InlineArrayVyxq_Gs8IterablesRi__rlMA
++ _$ss11InlineArrayVyxq_Gs8IterablesRi__rlMc
++ _$ss11InlineArrayVyxq_Gs8IterablesRi__rlMcMK
++ _$ss11InlineArrayVyxq_Gs8IterablesRi__rlWp
++ _$ss11InlineArrayVyxq_Gs8IterablesRi__rlsADP19underestimatedCountSivgTW
++ _$ss11InlineArrayVyxq_Gs8IterablesRi__rlsADP21makeBorrowingIterator0eF0QzyFTW
++ _$ss11InlineArrayVyxq_Gs8IterablesRi__rlsADP31_customContainsEquatableElementySbSg0G0QzFTW
++ _$ss11MutableSpanVsRi_zrlE21makeBorrowingIterators0B0VsRi_zrlE0dE0Vyx_GyF
++ _$ss11MutableSpanVyxGs8IterablesRi_zrl17BorrowingIteratorsADP_s0dE8ProtocolPWT
++ _$ss11MutableSpanVyxGs8IterablesRi_zrlMA
++ _$ss11MutableSpanVyxGs8IterablesRi_zrlMc
++ _$ss11MutableSpanVyxGs8IterablesRi_zrlMcMK
++ _$ss11MutableSpanVyxGs8IterablesRi_zrlWp
++ _$ss11MutableSpanVyxGs8IterablesRi_zrlsADP19underestimatedCountSivgTW
++ _$ss11MutableSpanVyxGs8IterablesRi_zrlsADP21makeBorrowingIterator0eF0QzyFTW
++ _$ss11MutableSpanVyxGs8IterablesRi_zrlsADP31_customContainsEquatableElementySbSg0G0QzFTW
++ _$ss11UniqueArrayVsRi_zrlE21makeBorrowingIterators4SpanVsRi_zrlE0dE0Vyx_GyF
++ _$ss11UniqueArrayVyxGs8IterablesRi_zrl17BorrowingIteratorsADP_s0dE8ProtocolPWT
++ _$ss11UniqueArrayVyxGs8IterablesRi_zrlMA
++ _$ss11UniqueArrayVyxGs8IterablesRi_zrlMc
++ _$ss11UniqueArrayVyxGs8IterablesRi_zrlMcMK
++ _$ss11UniqueArrayVyxGs8IterablesRi_zrlWp
++ _$ss11UniqueArrayVyxGs8IterablesRi_zrlsADP19underestimatedCountSivgTW
++ _$ss11UniqueArrayVyxGs8IterablesRi_zrlsADP21makeBorrowingIterator0eF0QzyFTW
++ _$ss11UniqueArrayVyxGs8IterablesRi_zrlsADP31_customContainsEquatableElementySbSg0G0QzFTW
++ _$ss11_RigidArrayVsRi_zrlE4_ptrSpyxGvM
++ _$ss11_RigidArrayVsRi_zrlE4_ptrSpyxGvM.resume
++ _$ss11_RigidArrayVsRi_zrlE4_ptrSpyxGvg
++ _$ss11_RigidArrayVsRi_zrlE4_ptrSpyxGvs
++ _$ss11_RigidArrayVsRi_zrlE9_capacitySivM
++ _$ss11_RigidArrayVsRi_zrlE9_capacitySivM.resume
++ _$ss11_RigidArrayVsRi_zrlE9_capacitySivg
++ _$ss11_RigidArrayVsRi_zrlE9_capacitySivs
++ _$ss11_RigidArrayVwetTm
++ _$ss13OutputRawSpanV21makeBorrowingIterators0C0VsRi_zrlE0eF0Vys5UInt8V_GyF
++ _$ss13OutputRawSpanVs8Iterables17BorrowingIteratorsACP_s0eF8ProtocolPWT
++ _$ss13OutputRawSpanVs8IterablesMA
++ _$ss13OutputRawSpanVs8IterablesMc
++ _$ss13OutputRawSpanVs8IterablesMcMK
++ _$ss13OutputRawSpanVs8IterablesWP
++ _$ss13OutputRawSpanVs8IterablessACP19underestimatedCountSivgTW
++ _$ss13OutputRawSpanVs8IterablessACP21makeBorrowingIterator0fG0QzyFTW
++ _$ss13OutputRawSpanVs8IterablessACP31_customContainsEquatableElementySbSg0H0QzFTW
++ _$ss13_SwiftifyInfoO13sizedByOrNullyABs01_A4ExprO_SStcABmFWC
++ _$ss13_SwiftifyInfoO15countedByOrNullyABs01_A4ExprO_SStcABmFWC
++ _$ss14MutableRawSpanVs8Iterables17BorrowingIteratorsACP_s0eF8ProtocolPWT
++ _$ss14MutableRawSpanVs8IterablesMA
++ _$ss14MutableRawSpanVs8IterablesMc
++ _$ss14MutableRawSpanVs8IterablesMcMK
++ _$ss14MutableRawSpanVs8IterablesWP
++ _$ss14MutableRawSpanVs8IterablessACP19underestimatedCountSivgTW
++ _$ss14MutableRawSpanVs8IterablessACP21makeBorrowingIterator0fG0QzyFTW
++ _$ss14MutableRawSpanVs8IterablessACP31_customContainsEquatableElementySbSg0H0QzFTW
++ _$ss24BorrowingIteratorAdapterV13_currentValue7ElementQzSgvM
++ _$ss24BorrowingIteratorAdapterV13_currentValue7ElementQzSgvM.resume
++ _$ss24BorrowingIteratorAdapterV13_currentValue7ElementQzSgvg
++ _$ss24BorrowingIteratorAdapterV13_currentValue7ElementQzSgvgTm
++ _$ss24BorrowingIteratorAdapterV13_currentValue7ElementQzSgvpMV
++ _$ss24BorrowingIteratorAdapterV13_currentValue7ElementQzSgvs
++ _$ss24BorrowingIteratorAdapterV13_currentValue7ElementQzSgvsTm
++ _$ss24BorrowingIteratorAdapterV8nextSpan8maxCounts0E0Vy7ElementQzGSi_tF
++ _$ss24BorrowingIteratorAdapterV9_iteratorxvM
++ _$ss24BorrowingIteratorAdapterV9_iteratorxvM.resume
++ _$ss24BorrowingIteratorAdapterV9_iteratorxvg
++ _$ss24BorrowingIteratorAdapterV9_iteratorxvgTm
++ _$ss24BorrowingIteratorAdapterV9_iteratorxvpMV
++ _$ss24BorrowingIteratorAdapterV9_iteratorxvs
++ _$ss24BorrowingIteratorAdapterV9_iteratorxvsTm
++ _$ss24BorrowingIteratorAdapterVyxGs0aB8Protocols7FailuresADP_s5ErrorPWT
++ _$ss24BorrowingIteratorAdapterVyxGs0aB8ProtocolssADP4skip2byS2i_t7FailureQzYKFTW
++ _$ss24BorrowingIteratorAdapterVyxGs0aB8ProtocolssADP8nextSpan8maxCounts0F0Vy7ElementQzGSi_t7FailureQzYKFTW
++ _$ss25BorrowingIteratorProtocolP4skip2byS2i_t7FailureQzYKF
++ _$ss25BorrowingIteratorProtocolP4skip2byS2i_t7FailureQzYKFTj
++ _$ss25BorrowingIteratorProtocolP4skip2byS2i_t7FailureQzYKFTq
++ _$ss25BorrowingIteratorProtocolP7FailureAB_s5ErrorTN
++ _$ss25BorrowingIteratorProtocolP7FailureAB_s5ErrorTn
++ _$ss25BorrowingIteratorProtocolP8nextSpan8maxCounts0E0Vy7ElementQzGSi_t7FailureQzYKFTj
++ _$ss25BorrowingIteratorProtocolP8nextSpan8maxCounts0E0Vy7ElementQzGSi_t7FailureQzYKFTq
++ _$ss25BorrowingIteratorProtocolPsRi_zRi0_z7ElementRj_zrlE4skip2byS2i_t7FailureQzYKF
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorV4skip2byS2i_tF
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorV5_spanAByxGvM
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorV5_spanAByxGvM.resume
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorV5_spanAByxGvg
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorV5_spanAByxGvs
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorV6_countSivM
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorV6_countSivM.resume
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorV6_countSivg
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorV6_countSivs
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorV6_startSivM
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorV6_startSivM.resume
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorV6_startSivg
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorV6_startSivs
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVMF
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVMI
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVMP
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVMa
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVMi
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVMn
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVMz
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVWV
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVwet
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVwst
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVwstTm
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVyADyx_GAByxGcfC
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVys5UInt8V_GADyx_Gs0bC8ProtocolsRi_zrlWL
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVys5UInt8V_GADyx_Gs0bC8ProtocolsRi_zrlWl
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVys5UInt8V_GMf
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVys5UInt8V_GWV
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVyx_Gs0bC8ProtocolsRi_zrl7FailuresAFP_s5ErrorPWT
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVyx_Gs0bC8ProtocolsRi_zrlMA
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVyx_Gs0bC8ProtocolsRi_zrlMc
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVyx_Gs0bC8ProtocolsRi_zrlMcMK
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVyx_Gs0bC8ProtocolsRi_zrlWp
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVyx_Gs0bC8ProtocolsRi_zrlsAFP04nextA08maxCountABy7ElementQzGSi_t7FailureQzYKFTW
++ _$ss4SpanVsRi_zrlE17BorrowingIteratorVyx_Gs0bC8ProtocolsRi_zrlsAFP4skip2byS2i_t7FailureQzYKFTW
++ _$ss4SpanVsRi_zrlE21makeBorrowingIteratorABsRi_zrlE0cD0Vyx_GyF
++ _$ss4SpanVyxGs8IterablesRi_zrl17BorrowingIteratorsADP_s0cD8ProtocolPWT
++ _$ss4SpanVyxGs8IterablesRi_zrlMA
++ _$ss4SpanVyxGs8IterablesRi_zrlMc
++ _$ss4SpanVyxGs8IterablesRi_zrlMcMK
++ _$ss4SpanVyxGs8IterablesRi_zrlWp
++ _$ss4SpanVyxGs8IterablesRi_zrlsADP19underestimatedCountSivgTW
++ _$ss4SpanVyxGs8IterablesRi_zrlsADP21makeBorrowingIterator0dE0QzyFTW
++ _$ss4SpanVyxGs8IterablesRi_zrlsADP21makeBorrowingIterator0dE0QzyFTWTm
++ _$ss4SpanVyxGs8IterablesRi_zrlsADP31_customContainsEquatableElementySbSg0F0QzFTW
++ _$ss7RawSpanVs8Iterables17BorrowingIteratorsACP_s0dE8ProtocolPWT
++ _$ss7RawSpanVs8IterablesMA
++ _$ss7RawSpanVs8IterablesMc
++ _$ss7RawSpanVs8IterablesMcMK
++ _$ss7RawSpanVs8IterablesWP
++ _$ss7RawSpanVs8IterablessACP19underestimatedCountSivgTW
++ _$ss7RawSpanVs8IterablessACP21makeBorrowingIterator0eF0QzyFTW
++ _$ss7RawSpanVs8IterablessACP31_customContainsEquatableElementySbSg0G0QzFTW
++ _$ss8IterableMp
++ _$ss8IterableP17BorrowingIteratorAB_s0bC8ProtocolTn
++ _$ss8IterableP19underestimatedCountSivg
++ _$ss8IterableP19underestimatedCountSivgTj
++ _$ss8IterableP19underestimatedCountSivgTq
++ _$ss8IterableP21makeBorrowingIterator0cD0QzyFTj
++ _$ss8IterableP21makeBorrowingIterator0cD0QzyFTq
++ _$ss8IterableP31_customContainsEquatableElementySbSg0E0QzF
++ _$ss8IterableP31_customContainsEquatableElementySbSg0E0QzFTj
++ _$ss8IterableP31_customContainsEquatableElementySbSg0E0QzFTq
++ _$ss8IterablePs17BorrowingIteratorABQzRszs8Copyable7Elements0bC8ProtocolPRpzRi0_zrlE04makebC0xyF
++ _$ss8IterablePs17BorrowingIteratorABQzRszs8Copyable7Elements0bC8ProtocolPRpzRi0_zrlE04makebC0xyFTm
++ _$ss8IterablePsRi_zRi0_z7ElementRj_zrlE024_customContainsEquatableB0ySbSgADF
++ _$ss8IterablePsRi_zRi0_z7ElementRj_zrlE19underestimatedCountSivg
++ _$ss8IterablePsRi_zRi0_z7ElementRj_zrlE19underestimatedCountSivpMV
++ _$ss8IterableTL
++ _$ss8Iterable_pMF
++ __ZNK12_GLOBAL__N_121ConformanceCacheEntry11getProtocolEv
++ ___unnamed_1000
++ ___unnamed_1003
++ ___unnamed_1005
++ ___unnamed_1012
++ ___unnamed_1013
++ ___unnamed_1015
++ ___unnamed_1022
++ ___unnamed_1024
++ ___unnamed_1036
++ ___unnamed_1047
++ ___unnamed_1049
++ ___unnamed_1053
++ ___unnamed_1055
++ ___unnamed_1056
++ ___unnamed_1074
++ ___unnamed_1080
++ ___unnamed_1081
++ ___unnamed_1082
++ ___unnamed_1083
++ ___unnamed_1095
++ ___unnamed_1104
++ ___unnamed_1106
++ ___unnamed_1108
++ ___unnamed_1116
++ ___unnamed_1117
++ ___unnamed_1119
++ ___unnamed_1125
++ ___unnamed_1128
++ ___unnamed_1129
++ ___unnamed_1131
++ ___unnamed_1164
++ ___unnamed_1166
++ ___unnamed_1168
++ ___unnamed_1170
++ ___unnamed_1172
++ ___unnamed_1210
++ ___unnamed_1211
++ ___unnamed_1212
++ ___unnamed_1213
++ ___unnamed_1214
++ ___unnamed_1244
++ ___unnamed_1247
++ ___unnamed_1250
++ ___unnamed_1251
++ ___unnamed_1253
++ ___unnamed_1280
++ ___unnamed_1285
++ ___unnamed_1315
++ ___unnamed_1316
++ ___unnamed_1317
++ ___unnamed_1318
++ ___unnamed_1319
++ ___unnamed_1320
++ ___unnamed_1321
++ ___unnamed_1383
++ ___unnamed_833
++ ___unnamed_834
++ ___unnamed_836
++ ___unnamed_848
++ ___unnamed_851
++ ___unnamed_853
++ ___unnamed_859
++ ___unnamed_861
++ ___unnamed_870
++ ___unnamed_877
++ ___unnamed_883
++ ___unnamed_884
++ ___unnamed_892
++ ___unnamed_895
++ ___unnamed_901
++ ___unnamed_902
++ ___unnamed_903
++ ___unnamed_908
++ ___unnamed_918
++ ___unnamed_930
++ ___unnamed_942
++ ___unnamed_947
++ ___unnamed_948
++ ___unnamed_956
++ ___unnamed_966
++ ___unnamed_968
++ ___unnamed_969
++ ___unnamed_971
++ _associated conformance s10OutputSpanVyxGs8IterablesRi_zrl17BorrowingIteratorsADP_s0dE8Protocol
++ _associated conformance s11InlineArrayVyxq_Gs8IterablesRi__rl17BorrowingIteratorsADP_s0dE8Protocol
++ _associated conformance s11MutableSpanVyxGs8IterablesRi_zrl17BorrowingIteratorsADP_s0dE8Protocol
++ _associated conformance s11UniqueArrayVyxGs8IterablesRi_zrl17BorrowingIteratorsADP_s0dE8Protocol
++ _associated conformance s13OutputRawSpanVs8Iterables17BorrowingIteratorsACP_s0eF8Protocol
++ _associated conformance s14MutableRawSpanVs8Iterables17BorrowingIteratorsACP_s0eF8Protocol
++ _associated conformance s24BorrowingIteratorAdapterVyxGs0aB8Protocols7FailuresADP_s5Error
++ _associated conformance s4SpanVsRi_zrlE17BorrowingIteratorVyx_Gs0bC8ProtocolsRi_zrl7FailuresAFP_s5Error
++ _associated conformance s4SpanVyxGs8IterablesRi_zrl17BorrowingIteratorsADP_s0cD8Protocol
++ _associated conformance s7RawSpanVs8Iterables17BorrowingIteratorsACP_s0dE8Protocol
++ _default assoc type _____ s5NeverO
++ _default associated conformance7Failures25BorrowingIteratorProtocolP_s5Error
++ _symbolic $ss8IterableP
++ _symbolic 17BorrowingIterator_____Qz s8IterableP
++ _symbolic 17BorrowingIterator______7Element_____QZ s8IterableP s25BorrowingIteratorProtocolP
++ _symbolic 17BorrowingIterator______7Failure_____QZ s8IterableP s25BorrowingIteratorProtocolP
++ _symbolic 7Element_____Qz s8IterableP
++ _symbolic 7Failure_____Qz s25BorrowingIteratorProtocolP
++ _symbolic 7Failure_____Qz s8IterableP
++ _symbolic _____ s4SpanVsRi_zrlE17BorrowingIteratorV
++ _symbolic _____y______G s4SpanVsRi_zrlE17BorrowingIteratorV s5UInt8V
++ _symbolic _____yq__G s4SpanVsRi_zrlE17BorrowingIteratorV
++ _symbolic _____yx_G s4SpanVsRi_zrlE17BorrowingIteratorV
+- _$s17BorrowingIterators0A8SequencePTl
+- _$s7Elements17BorrowingSequencePTl
+- _$sSTsE4lazys12LazySequenceVyxGvgTm
+- _$sSTss17BorrowingSequenceRzrlE04makeA8Iterators0aD7AdapterVy0D0STQzGyF
+- _$sSTss17BorrowingSequenceRzrlE19underestimatedCountSivg
+- _$sSTss17BorrowingSequenceRzrlE19underestimatedCountSivpMV
+- _$sSTss17BorrowingSequenceRzrlE31_customContainsEquatableElementySbSg0F0STQzF
+- _$sSlsEy11SubSequenceQzqd__cSXRd__5BoundQyd__5IndexRtzluigSRys5UInt8VG_s16PartialRangeFromVySiGTg5Tm
+- _$sSlss17BorrowingSequenceRzrlE19underestimatedCountSivg
+- _$sSlss17BorrowingSequenceRzrlE19underestimatedCountSivpMV
+- _$sSlss17BorrowingSequenceRzrlE31_customContainsEquatableElementySbSg0F0STQzF
+- _$ss11InlineArrayVsRi__rlE21makeBorrowingIterators04SpanE0Vyq_GyF
+- _$ss11InlineArrayVyxq_Gs17BorrowingSequencesRi__rl0C8IteratorsADP_s0cE8ProtocolPWT
+- _$ss11InlineArrayVyxq_Gs17BorrowingSequencesRi__rlMA
+- _$ss11InlineArrayVyxq_Gs17BorrowingSequencesRi__rlMc
+- _$ss11InlineArrayVyxq_Gs17BorrowingSequencesRi__rlMcMK
+- _$ss11InlineArrayVyxq_Gs17BorrowingSequencesRi__rlWp
+- _$ss11InlineArrayVyxq_Gs17BorrowingSequencesRi__rlsADP04makeC8Iterator0cF0QzyFTW
+- _$ss11InlineArrayVyxq_Gs17BorrowingSequencesRi__rlsADP19underestimatedCountSivgTW
+- _$ss11InlineArrayVyxq_Gs17BorrowingSequencesRi__rlsADP31_customContainsEquatableElementySbSg0H0QzFTW
+- _$ss11MutableSpanVsRi_zrlE21makeBorrowingIterators0bE0VyxGyF
+- _$ss11MutableSpanVyxGs17BorrowingSequencesRi_zrl0C8IteratorsADP_s0cE8ProtocolPWT
+- _$ss11MutableSpanVyxGs17BorrowingSequencesRi_zrlMA
+- _$ss11MutableSpanVyxGs17BorrowingSequencesRi_zrlMc
+- _$ss11MutableSpanVyxGs17BorrowingSequencesRi_zrlMcMK
+- _$ss11MutableSpanVyxGs17BorrowingSequencesRi_zrlWp
+- _$ss11MutableSpanVyxGs17BorrowingSequencesRi_zrlsADP04makeC8Iterator0cF0QzyFTW
+- _$ss11MutableSpanVyxGs17BorrowingSequencesRi_zrlsADP19underestimatedCountSivgTW
+- _$ss11MutableSpanVyxGs17BorrowingSequencesRi_zrlsADP31_customContainsEquatableElementySbSg0H0QzFTW
+- _$ss11_RigidArrayVsRi_zrlE8_storageSryxGvM
+- _$ss11_RigidArrayVsRi_zrlE8_storageSryxGvM.resume
+- _$ss11_RigidArrayVsRi_zrlE8_storageSryxGvg
+- _$ss11_RigidArrayVsRi_zrlE8_storageSryxGvs
+- _$ss12SpanIteratorVMF
+- _$ss12SpanIteratorVMI
+- _$ss12SpanIteratorVMP
+- _$ss12SpanIteratorVMa
+- _$ss12SpanIteratorVMi
+- _$ss12SpanIteratorVMn
+- _$ss12SpanIteratorVMz
+- _$ss12SpanIteratorVWV
+- _$ss12SpanIteratorVsRi_zrlE4skip2byS2i_tF
+- _$ss12SpanIteratorVsRi_zrlE5_spans0A0VyxGvM
+- _$ss12SpanIteratorVsRi_zrlE5_spans0A0VyxGvM.resume
+- _$ss12SpanIteratorVsRi_zrlE5_spans0A0VyxGvg
+- _$ss12SpanIteratorVsRi_zrlE5_spans0A0VyxGvs
+- _$ss12SpanIteratorVsRi_zrlE6_countSivM
+- _$ss12SpanIteratorVsRi_zrlE6_countSivM.resume
+- _$ss12SpanIteratorVsRi_zrlE6_countSivg
+- _$ss12SpanIteratorVsRi_zrlE6_countSivs
+- _$ss12SpanIteratorVsRi_zrlE6_startSivM
+- _$ss12SpanIteratorVsRi_zrlE6_startSivM.resume
+- _$ss12SpanIteratorVsRi_zrlE6_startSivg
+- _$ss12SpanIteratorVsRi_zrlE6_startSivs
+- _$ss12SpanIteratorVsRi_zrlEyAByxGs0A0VyxGcfC
+- _$ss12SpanIteratorVwet
+- _$ss12SpanIteratorVwst
+- _$ss12SpanIteratorVwstTm
+- _$ss12SpanIteratorVys5UInt8VGAByxGs09BorrowingB8ProtocolsRi_zrlWL
+- _$ss12SpanIteratorVys5UInt8VGAByxGs09BorrowingB8ProtocolsRi_zrlWl
+- _$ss12SpanIteratorVys5UInt8VGMf
+- _$ss12SpanIteratorVys5UInt8VGWV
+- _$ss12SpanIteratorVyxGs09BorrowingB8ProtocolsRi_zrlMA
+- _$ss12SpanIteratorVyxGs09BorrowingB8ProtocolsRi_zrlMc
+- _$ss12SpanIteratorVyxGs09BorrowingB8ProtocolsRi_zrlMcMK
+- _$ss12SpanIteratorVyxGs09BorrowingB8ProtocolsRi_zrlWp
+- _$ss12SpanIteratorVyxGs09BorrowingB8ProtocolsRi_zrlsADP04nextA012maximumCounts0A0Vy7ElementQzGSi_tFTW
+- _$ss12SpanIteratorVyxGs09BorrowingB8ProtocolsRi_zrlsADP4skip2byS2i_tFTW
+- _$ss14MutableRawSpanV21makeBorrowingIterators0cF0Vys5UInt8VGyF
+- _$ss14MutableRawSpanVs17BorrowingSequences0D8IteratorsACP_s0dF8ProtocolPWT
+- _$ss14MutableRawSpanVs17BorrowingSequencesMA
+- _$ss14MutableRawSpanVs17BorrowingSequencesMc
+- _$ss14MutableRawSpanVs17BorrowingSequencesMcMK
+- _$ss14MutableRawSpanVs17BorrowingSequencesWP
+- _$ss14MutableRawSpanVs17BorrowingSequencessACP04makeD8Iterator0dG0QzyFTW
+- _$ss14MutableRawSpanVs17BorrowingSequencessACP19underestimatedCountSivgTW
+- _$ss14MutableRawSpanVs17BorrowingSequencessACP31_customContainsEquatableElementySbSg0I0QzFTW
+- _$ss17BorrowingSequenceMp
+- _$ss17BorrowingSequenceP04makeA8Iterator0aD0QzyFTj
+- _$ss17BorrowingSequenceP04makeA8Iterator0aD0QzyFTq
+- _$ss17BorrowingSequenceP0A8IteratorAB_s0aC8ProtocolTn
+- _$ss17BorrowingSequenceP19underestimatedCountSivg
+- _$ss17BorrowingSequenceP19underestimatedCountSivgTj
+- _$ss17BorrowingSequenceP19underestimatedCountSivgTq
+- _$ss17BorrowingSequenceP31_customContainsEquatableElementySbSg0F0QzF
+- _$ss17BorrowingSequenceP31_customContainsEquatableElementySbSg0F0QzFTj
+- _$ss17BorrowingSequenceP31_customContainsEquatableElementySbSg0F0QzFTq
+- _$ss17BorrowingSequencePsRi_zRi0_z7ElementRj_zrlE024_customContainsEquatableC0ySbSgADF
+- _$ss17BorrowingSequencePsRi_zRi0_z7ElementRj_zrlE19underestimatedCountSivg
+- _$ss17BorrowingSequencePsRi_zRi0_z7ElementRj_zrlE19underestimatedCountSivpMV
+- _$ss17BorrowingSequenceTL
+- _$ss17BorrowingSequence_pMF
+- _$ss24BorrowingIteratorAdapterV8curValue7ElementQzSgvM
+- _$ss24BorrowingIteratorAdapterV8curValue7ElementQzSgvM.resume
+- _$ss24BorrowingIteratorAdapterV8curValue7ElementQzSgvg
+- _$ss24BorrowingIteratorAdapterV8curValue7ElementQzSgvgTm
+- _$ss24BorrowingIteratorAdapterV8curValue7ElementQzSgvpMV
+- _$ss24BorrowingIteratorAdapterV8curValue7ElementQzSgvs
+- _$ss24BorrowingIteratorAdapterV8curValue7ElementQzSgvsTm
+- _$ss24BorrowingIteratorAdapterV8iteratorxvM
+- _$ss24BorrowingIteratorAdapterV8iteratorxvM.resume
+- _$ss24BorrowingIteratorAdapterV8iteratorxvg
+- _$ss24BorrowingIteratorAdapterV8iteratorxvgTm
+- _$ss24BorrowingIteratorAdapterV8iteratorxvpMV
+- _$ss24BorrowingIteratorAdapterV8iteratorxvs
+- _$ss24BorrowingIteratorAdapterV8iteratorxvsTm
+- _$ss24BorrowingIteratorAdapterV8nextSpan12maximumCounts0E0Vy7ElementQzGSi_tF
+- _$ss24BorrowingIteratorAdapterVyxGs0aB8ProtocolssADP4skip2byS2i_tFTW
+- _$ss24BorrowingIteratorAdapterVyxGs0aB8ProtocolssADP8nextSpan12maximumCounts0F0Vy7ElementQzGSi_tFTW
+- _$ss25BorrowingIteratorProtocolP4skip2byS2i_tF
+- _$ss25BorrowingIteratorProtocolP4skip2byS2i_tFTj
+- _$ss25BorrowingIteratorProtocolP4skip2byS2i_tFTq
+- _$ss25BorrowingIteratorProtocolP8nextSpan12maximumCounts0E0Vy7ElementQzGSi_tFTj
+- _$ss25BorrowingIteratorProtocolP8nextSpan12maximumCounts0E0Vy7ElementQzGSi_tFTq
+- _$ss25BorrowingIteratorProtocolPsRi_zRi0_z7ElementRj_zrlE4skip2byS2i_tF
+- _$ss4SpanVsRi_zrlE21makeBorrowingIterators0aD0VyxGyF
+- _$ss4SpanVsRi_zrlE5countSivg
+- _$ss4SpanVyxGs17BorrowingSequencesRi_zrl0B8IteratorsADP_s0bD8ProtocolPWT
+- _$ss4SpanVyxGs17BorrowingSequencesRi_zrlMA
+- _$ss4SpanVyxGs17BorrowingSequencesRi_zrlMc
+- _$ss4SpanVyxGs17BorrowingSequencesRi_zrlMcMK
+- _$ss4SpanVyxGs17BorrowingSequencesRi_zrlWp
+- _$ss4SpanVyxGs17BorrowingSequencesRi_zrlsADP04makeB8Iterator0bE0QzyFTW
+- _$ss4SpanVyxGs17BorrowingSequencesRi_zrlsADP19underestimatedCountSivgTW
+- _$ss4SpanVyxGs17BorrowingSequencesRi_zrlsADP31_customContainsEquatableElementySbSg0G0QzFTW
+- _$ss7RawSpanV21makeBorrowingIterators0bE0Vys5UInt8VGyF
+- _$ss7RawSpanVs17BorrowingSequences0C8IteratorsACP_s0cE8ProtocolPWT
+- _$ss7RawSpanVs17BorrowingSequencesMA
+- _$ss7RawSpanVs17BorrowingSequencesMc
+- _$ss7RawSpanVs17BorrowingSequencesMcMK
+- _$ss7RawSpanVs17BorrowingSequencesWP
+- _$ss7RawSpanVs17BorrowingSequencessACP04makeC8Iterator0cF0QzyFTW
+- _$ss7RawSpanVs17BorrowingSequencessACP19underestimatedCountSivgTW
+- _$ss7RawSpanVs17BorrowingSequencessACP31_customContainsEquatableElementySbSg0H0QzFTW
+- ___unnamed_1007
+- ___unnamed_1008
+- ___unnamed_1009
+- ___unnamed_1010
+- ___unnamed_1019
+- ___unnamed_1020
+- ___unnamed_1021
+- ___unnamed_1028
+- ___unnamed_1034
+- ___unnamed_1041
+- ___unnamed_1042
+- ___unnamed_1069
+- ___unnamed_1072
+- ___unnamed_1075
+- ___unnamed_1076
+- ___unnamed_1078
+- ___unnamed_1087
+- ___unnamed_1089
+- ___unnamed_1091
+- ___unnamed_1096
+- ___unnamed_1098
+- ___unnamed_1100
+- ___unnamed_1109
+- ___unnamed_1111
+- ___unnamed_1123
+- ___unnamed_1124
+- ___unnamed_1126
+- ___unnamed_1159
+- ___unnamed_1161
+- ___unnamed_1163
+- ___unnamed_1165
+- ___unnamed_1167
+- ___unnamed_1205
+- ___unnamed_1206
+- ___unnamed_1207
+- ___unnamed_1208
+- ___unnamed_1209
+- ___unnamed_1239
+- ___unnamed_1242
+- ___unnamed_1245
+- ___unnamed_1246
+- ___unnamed_1248
+- ___unnamed_1273
+- ___unnamed_1278
+- ___unnamed_1284
+- ___unnamed_1287
+- ___unnamed_1292
+- ___unnamed_1293
+- ___unnamed_1295
+- ___unnamed_1296
+- ___unnamed_1297
+- ___unnamed_1376
+- ___unnamed_829
+- ___unnamed_830
+- ___unnamed_832
+- ___unnamed_840
+- ___unnamed_847
+- ___unnamed_849
+- ___unnamed_855
+- ___unnamed_857
+- ___unnamed_866
+- ___unnamed_868
+- ___unnamed_869
+- ___unnamed_879
+- ___unnamed_881
+- ___unnamed_887
+- ___unnamed_888
+- ___unnamed_894
+- ___unnamed_899
+- ___unnamed_904
+- ___unnamed_914
+- ___unnamed_925
+- ___unnamed_926
+- ___unnamed_927
+- ___unnamed_936
+- ___unnamed_938
+- ___unnamed_946
+- ___unnamed_951
+- ___unnamed_952
+- ___unnamed_960
+- ___unnamed_995
+- ___unnamed_996
+- ___unnamed_997
+- _associated conformance s11InlineArrayVyxq_Gs17BorrowingSequencesRi__rl0C8IteratorsADP_s0cE8Protocol
+- _associated conformance s11MutableSpanVyxGs17BorrowingSequencesRi_zrl0C8IteratorsADP_s0cE8Protocol
+- _associated conformance s14MutableRawSpanVs17BorrowingSequences0D8IteratorsACP_s0dF8Protocol
+- _associated conformance s4SpanVyxGs17BorrowingSequencesRi_zrl0B8IteratorsADP_s0bD8Protocol
+- _associated conformance s7RawSpanVs17BorrowingSequences0C8IteratorsACP_s0cE8Protocol
+- _symbolic $ss17BorrowingSequenceP
+- _symbolic 17BorrowingIterator_____Qz s17BorrowingSequenceP
+- _symbolic 17BorrowingIterator______7Element_____QZ s17BorrowingSequenceP s0A16IteratorProtocolP
+- _symbolic 7Element_____Qz s17BorrowingSequenceP
+- _symbolic SryxG
+- _symbolic _____ s12SpanIteratorVsRi_zrlE
+- _symbolic _____y_____G s12SpanIteratorVsRi_zrlE s5UInt8V
+- _symbolic _____yq_G s12SpanIteratorVsRi_zrlE
+- _symbolic _____yxG s12SpanIteratorVsRi_zrlE
+CStrings:
++ "Can't skip by a negative offset"
++ "Escaping Closure Propagated"
++ "Swift/BorrowingSequence.swift"
+```

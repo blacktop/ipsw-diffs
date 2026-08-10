@@ -1,0 +1,197 @@
+## ServicesPaymentAngel
+
+> `/Applications/ServicesPaymentAngel.app/ServicesPaymentAngel`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__objc_methtype`
+- `__TEXT.__cstring`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+
+```diff
+
+-1.0.24.0.0
+-  __TEXT.__text: 0x2bebc
+-  __TEXT.__auth_stubs: 0x12b0
+-  __TEXT.__objc_stubs: 0x1780
+-  __TEXT.__objc_methlist: 0xb7c
+-  __TEXT.__const: 0x1414
+-  __TEXT.__swift5_typeref: 0xb94
+-  __TEXT.__swift5_fieldmd: 0x854
+-  __TEXT.__constg_swiftt: 0x1178
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_reflstr: 0xa34
++1.0.30.0.0
++  __TEXT.__text: 0x2d2f4
++  __TEXT.__auth_stubs: 0x12e0
++  __TEXT.__objc_stubs: 0x1800
++  __TEXT.__objc_methlist: 0xb9c
++  __TEXT.__const: 0x1454
++  __TEXT.__swift5_typeref: 0xba8
++  __TEXT.__swift5_fieldmd: 0x894
++  __TEXT.__constg_swiftt: 0x121c
++  __TEXT.__swift5_builtin: 0x50
++  __TEXT.__swift5_reflstr: 0xaa4
+   __TEXT.__swift5_assocty: 0x90
+   __TEXT.__swift5_proto: 0x54
+-  __TEXT.__swift5_types: 0x80
++  __TEXT.__swift5_types: 0x84
+   __TEXT.__objc_classname: 0x7c4
+   __TEXT.__objc_methtype: 0x169c
+   __TEXT.__cstring: 0x8d1
+-  __TEXT.__objc_methname: 0x323d
+-  __TEXT.__oslogstring: 0x1e9f
++  __TEXT.__objc_methname: 0x334d
++  __TEXT.__oslogstring: 0x1e7f
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__swift5_capture: 0xa18
++  __TEXT.__swift5_capture: 0xa50
+   __TEXT.__swift_as_entry: 0x48
+   __TEXT.__swift_as_ret: 0x40
+   __TEXT.__swift_as_cont: 0x84
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__unwind_info: 0xad0
++  __TEXT.__unwind_info: 0xaf8
+   __TEXT.__eh_frame: 0xc90
+-  __DATA_CONST.__const: 0x1b90
++  __DATA_CONST.__const: 0x1b68
+   __DATA_CONST.__objc_classlist: 0xb0
+   __DATA_CONST.__objc_protolist: 0xe0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x78
+-  __DATA_CONST.__auth_got: 0x960
+-  __DATA_CONST.__got: 0x358
+-  __DATA_CONST.__auth_ptr: 0x3c8
+-  __DATA.__objc_const: 0x49b8
+-  __DATA.__objc_selrefs: 0xac0
+-  __DATA.__objc_data: 0x1510
+-  __DATA.__data: 0x19c8
++  __DATA_CONST.__auth_got: 0x978
++  __DATA_CONST.__got: 0x360
++  __DATA_CONST.__auth_ptr: 0x3e0
++  __DATA.__objc_const: 0x4a28
++  __DATA.__objc_selrefs: 0xaf0
++  __DATA.__objc_data: 0x15f8
++  __DATA.__data: 0x1a28
+   __DATA.__bss: 0x800
+-  __DATA.__common: 0xf0
++  __DATA.__common: 0xf8
+   - /AppleInternal/Library/Frameworks/TapToRadarKit.framework/TapToRadarKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 966
+-  Symbols:   2708
+-  CStrings:  793
++  Functions: 983
++  Symbols:   2752
++  CStrings:  803
+ 
+Symbols:
++ $s20ServicesPaymentAngel23BaseSystemSceneDelegateC18largeContentDetent33_0DD7D1EF6D97C194B03EA6396057068ALLSo029UISheetPresentationControllerJ0CyF12CoreGraphics7CGFloatVSgSo0rstJ17ResolutionContext_pcfU_TA
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.112TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.112Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.69TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.69Tu
++ _$s17ServicesPaymentUI0B19SheetViewControllerC30supportedInterfaceOrientations3forSo26UIInterfaceOrientationMaskVSo16PKPaymentRequestC_tFZ
++ _$s20ServicesPaymentAngel0B20NavigationControllerC11viewDidLoadyyFTo
++ _$s20ServicesPaymentAngel0B20NavigationControllerC11viewDidLoadyyFyACXD_So17UITraitCollectionCtcfU_Tf4nnd_n
++ _$s20ServicesPaymentAngel0B20NavigationControllerC27viewSafeAreaInsetsDidChangeyyFTo
++ _$s20ServicesPaymentAngel0B20NavigationControllerC29updateHorizontalSafeAreaBleed028_B548154B7658059F5FF77A8BD53O3EACLLyyF
++ _$s20ServicesPaymentAngel0C16ServerObjectBaseC07presentB5Sheet11requestData010auditTokenJ010completiony10Foundation0J0V_AJSgySo8NSNumberC_s5Error_pSgtctF05$sSo8o25CSo7NSErrorCSgIeyByy_ABs5P12_pSgIeggg_TRAMSo0T0CSgIeyByy_Tf1nnEn_n
++ _$s20ServicesPaymentAngel12RemoteHandleC8activate6reason18presentationTarget37initialSupportedInterfaceOrientationsySS_So026SBSRemoteAlertPresentationI0CSgSo26UIInterfaceOrientationMaskVSgtF
++ _$s20ServicesPaymentAngel12RemoteHandleC8activate6reason18presentationTarget37initialSupportedInterfaceOrientationsySS_So026SBSRemoteAlertPresentationI0CSgSo26UIInterfaceOrientationMaskVSgtFTq
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC06windowF0_26didUpdateEffectiveGeometryySo08UIWindowF0C_So0mfL0CtFTf4ddn_n
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC18largeContentDetent33_0DD7D1EF6D97C194B03EA6396057068ALLSo029UISheetPresentationControllerJ0CyF12CoreGraphics7CGFloatVSgSo0rstJ17ResolutionContext_pcfU_
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC18largeContentDetent33_0DD7D1EF6D97C194B03EA6396057068ALLSo029UISheetPresentationControllerJ0CyF12CoreGraphics7CGFloatVSgSo0rstJ17ResolutionContext_pcfU_TA
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycF04$s20ab7Angel23defg23C16keyboardWillHide33_0klmnopQ39ALLyy10Foundation12NotificationVFyycfU_So29UISheetPresentationControllerCACTf1En_n
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycF04$s20ab7Angel23defg23C16keyboardWillShow33_0klmnopQ39ALLyy10Foundation12NotificationVFyycfU_ACSo29UISheetPresentationControllerCTf1En_n
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycF04$s20ab7Angel23defg25C18applyContentHeight33_0klmnopQ24ALL8animatedySb_tFyycfU_ACSgXwz_XxTf1En_n
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC19updateContentHeight_8animatedy12CoreGraphics7CGFloatV_SbtF
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC21lastAppliedWindowSize33_0DD7D1EF6D97C194B03EA6396057068ALLSo6CGSizeVvpWvd
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC24lastAppliedContentHeight33_0DD7D1EF6D97C194B03EA6396057068ALL12CoreGraphics7CGFloatVvpWvd
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC26applyCenteredContentHeight33_0DD7D1EF6D97C194B03EA6396057068ALL5using8animatedyAA0I31FormSheetPresentationControllerC_SbtF
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC41connectTimeSupportedInterfaceOrientations3forSo26UIInterfaceOrientationMaskVSgSo016SBSUIRemoteAlertF0C_tF
++ _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC41connectTimeSupportedInterfaceOrientations3forSo26UIInterfaceOrientationMaskVSgSo016SBSUIRemoteAlertF0C_tFTq
++ _$s20ServicesPaymentAngel24RemoteAlertSceneDelegateC41connectTimeSupportedInterfaceOrientations3forSo26UIInterfaceOrientationMaskVSgSo011SBSUIRemoteeF0C_tF
++ _$s20ServicesPaymentAngel30SharedBackgroundViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvgTo
++ _$s20ServicesPaymentAngel30SharedBackgroundViewControllerC38supportedInterfaceOrientationsOverrideSo26UIInterfaceOrientationMaskVSgvMTq
++ _$s20ServicesPaymentAngel30SharedBackgroundViewControllerC38supportedInterfaceOrientationsOverrideSo26UIInterfaceOrientationMaskVSgvgTq
++ _$s20ServicesPaymentAngel30SharedBackgroundViewControllerC38supportedInterfaceOrientationsOverrideSo26UIInterfaceOrientationMaskVSgvpWvd
++ _$s20ServicesPaymentAngel30SharedBackgroundViewControllerC38supportedInterfaceOrientationsOverrideSo26UIInterfaceOrientationMaskVSgvsTq
++ _$s20ServicesPaymentAngel30SharedBackgroundViewControllerC5coderACSgSo7NSCoderC_tcfc
++ _$s20ServicesPaymentAngel30SharedBackgroundViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc
++ _$s5UIKit17UITraitDefinitionMp
++ _$s5UIKit24UITraitVerticalSizeClassVAA0B10DefinitionAAWP
++ _$s5UIKit24UITraitVerticalSizeClassVMa
++ _$sSo16UIViewControllerC5UIKitE23registerForTraitChanges_7handlerSo25UITraitChangeRegistration_pSayAC0I10Definition_pXpG_yx_So0I10CollectionCtctSo0I11EnvironmentRzlF
++ _$sSo26UIInterfaceOrientationMaskVMB
++ _$sSo26UIInterfaceOrientationMaskVMF
++ _$sSo26UIInterfaceOrientationMaskVML
++ _$sSo26UIInterfaceOrientationMaskVMa
++ _$sSo26UIInterfaceOrientationMaskVMf
++ _$sSo26UIInterfaceOrientationMaskVMn
++ _$sSo45UISheetPresentationControllerDetentIdentifiera20ServicesPaymentAngelE12largeContentABvpZ
++ _$sSo45UISheetPresentationControllerDetentIdentifiera20ServicesPaymentAngelE12largeContent_WZ
++ _$sSo45UISheetPresentationControllerDetentIdentifiera20ServicesPaymentAngelE12largeContent_Wz
++ _$sSo45UISheetPresentationControllerDetentIdentifieraSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo45UISheetPresentationControllerDetentIdentifieraSQSCSQ2eeoiySbx_xtFZTWTm
++ _$sSo45UISheetPresentationControllerDetentIdentifieraSYSCSY8rawValue03RawG0QzvgTW
++ _$sSo6CGSizeVMaTm
++ _$ss23_ContiguousArrayStorageCy5UIKit17UITraitDefinition_pXpGMR
++ _$ss23_ContiguousArrayStorageCy5UIKit17UITraitDefinition_pXpGMd
++ __swift_closure_destructor.105Tm
++ __swift_closure_destructor.234Tm
++ _objc_msgSend$detents
++ _objc_msgSend$selectedDetentIdentifier
++ _objc_msgSend$setInitialSupportedInterfaceOrientations:
++ _objc_msgSend$setPrefersEdgeAttachedInCompactHeight:
++ _symbolic _____ So26UIInterfaceOrientationMaskV
++ _symbolic _____Sg So26UIInterfaceOrientationMaskV
++ _symbolic _____y______pXpG s23_ContiguousArrayStorageC 5UIKit17UITraitDefinitionP
++ _type_layout_string So26UIInterfaceOrientationMaskV
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.110TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.110Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.66TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.66Tu
+- _$s20ServicesPaymentAngel0C16ServerObjectBaseC07presentB5Sheet11requestData010auditTokenJ010completiony10Foundation0J0V_AJSgySo8NSNumberC_s5Error_pSgtctF05$sSo8o25CSo7NSErrorCSgIeyByy_ABs5P12_pSgIeggg_TRAMSo0T0CSgIeyByy_Tf1nncn_n
+- _$s20ServicesPaymentAngel12RemoteHandleC8activate6reason18presentationTargetySS_So026SBSRemoteAlertPresentationI0CSgtF
+- _$s20ServicesPaymentAngel12RemoteHandleC8activate6reason18presentationTargetySS_So026SBSRemoteAlertPresentationI0CSgtFTq
+- _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC18applyContentHeight33_0DD7D1EF6D97C194B03EA6396057068ALL8animatedySb_tF
+- _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycF04$s20ab7Angel23defg23C16keyboardWillHide33_0klmnopQ39ALLyy10Foundation12NotificationVFyycfU_So29UISheetPresentationControllerCACTf1cn_n
+- _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycF04$s20ab7Angel23defg23C16keyboardWillShow33_0klmnopQ39ALLyy10Foundation12NotificationVFyycfU_ACSo29UISheetPresentationControllerCTf1cn_n
+- _$s20ServicesPaymentAngel23BaseSystemSceneDelegateC19animateSheetChanges33_0DD7D1EF6D97C194B03EA6396057068ALLyyyycF04$s20ab7Angel23defg25C18applyContentHeight33_0klmnopQ24ALL8animatedySb_tFyycfU_So29UISheetPresentationControllerCACTf1cn_n
+- _$sSo10CFErrorRefaMaTm
+- _$sSo20UIUserInterfaceIdiomVSQSCSQ2eeoiySbx_xtFZTW
+- _$sSo20UIUserInterfaceIdiomVSYSCSY8rawValue03RawE0QzvgTW
+- __swift_closure_destructor.155Tm
+- __swift_closure_destructor.213Tm
+- _symbolic _____XDXMT 20ServicesPaymentAngel23BaseSystemSceneDelegateC
+- _type_layout_string So34SBUIRemoteAlertServiceButtonEventsV
+CStrings:
++ "Decoded PKPaymentRequest from client was nil"
++ "TQ,N,R"
++ "detents"
++ "lastAppliedContentHeight"
++ "lastAppliedWindowSize"
++ "selectedDetentIdentifier"
++ "setInitialSupportedInterfaceOrientations:"
++ "setPrefersEdgeAttachedInCompactHeight:"
++ "supportedInterfaceOrientations"
++ "supportedInterfaceOrientationsOverride"
++ "viewSafeAreaInsetsDidChange"
+- "Content height changed to %f, clampedHeight=%f, animated=%{bool}d"
+```

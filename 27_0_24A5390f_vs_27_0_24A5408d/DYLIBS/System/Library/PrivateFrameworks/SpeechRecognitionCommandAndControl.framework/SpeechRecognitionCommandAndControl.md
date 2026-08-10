@@ -1,0 +1,338 @@
+## SpeechRecognitionCommandAndControl
+
+> `/System/Library/PrivateFrameworks/SpeechRecognitionCommandAndControl.framework/SpeechRecognitionCommandAndControl`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_reflstr`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH.__data`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-185.0.0.0.0
+-  __TEXT.__text: 0x122c48
+-  __TEXT.__objc_methlist: 0xc004
+-  __TEXT.__const: 0x4854
+-  __TEXT.__oslogstring: 0x41da
+-  __TEXT.__cstring: 0x9617
+-  __TEXT.__gcc_except_tab: 0x2468
++188.0.0.0.0
++  __TEXT.__text: 0x123144
++  __TEXT.__objc_methlist: 0xc0b4
++  __TEXT.__const: 0x4844
++  __TEXT.__oslogstring: 0x442a
++  __TEXT.__cstring: 0x9667
++  __TEXT.__gcc_except_tab: 0x252c
+   __TEXT.__ustring: 0x96
+   __TEXT.__dlopen_cstrs: 0x5e
+-  __TEXT.__constg_swiftt: 0x20e0
+-  __TEXT.__swift5_typeref: 0x92d6
++  __TEXT.__constg_swiftt: 0x20e8
++  __TEXT.__swift5_typeref: 0x92cc
+   __TEXT.__swift5_builtin: 0x104
+   __TEXT.__swift5_reflstr: 0xdb8
+-  __TEXT.__swift5_fieldmd: 0x1020
++  __TEXT.__swift5_fieldmd: 0x1014
+   __TEXT.__swift5_assocty: 0x458
+-  __TEXT.__swift5_capture: 0xac8
++  __TEXT.__swift5_capture: 0xaa8
+   __TEXT.__swift5_proto: 0x164
+   __TEXT.__swift5_types: 0x158
+   __TEXT.__swift_as_entry: 0x3c
+   __TEXT.__swift_as_ret: 0x4c
+   __TEXT.__swift_as_cont: 0x74
+-  __TEXT.__unwind_info: 0x43b8
++  __TEXT.__unwind_info: 0x43e0
+   __TEXT.__eh_frame: 0x1220
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x22f8
++  __DATA_CONST.__const: 0x2348
+   __DATA_CONST.__objc_classlist: 0x540
+   __DATA_CONST.__objc_catlist: 0x40
+   __DATA_CONST.__objc_protolist: 0x1d8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7ed0
++  __DATA_CONST.__objc_selrefs: 0x7f50
+   __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__objc_superrefs: 0x2b0
+   __DATA_CONST.__objc_arraydata: 0x8a0
+-  __DATA_CONST.__got: 0x1548
+-  __AUTH_CONST.__const: 0x4eb8
+-  __AUTH_CONST.__cfstring: 0x98a0
+-  __AUTH_CONST.__objc_const: 0x119e8
++  __DATA_CONST.__got: 0x1550
++  __AUTH_CONST.__const: 0x4e20
++  __AUTH_CONST.__cfstring: 0x9960
++  __AUTH_CONST.__objc_const: 0x11a88
+   __AUTH_CONST.__objc_intobj: 0x390
+   __AUTH_CONST.__objc_doubleobj: 0x70
+   __AUTH_CONST.__objc_arrayobj: 0x120
+   __AUTH_CONST.__objc_dictobj: 0xf0
+-  __AUTH_CONST.__auth_got: 0x1f30
+-  __AUTH.__objc_data: 0x47f0
++  __AUTH_CONST.__auth_got: 0x1f18
++  __AUTH.__objc_data: 0x47f8
+   __AUTH.__data: 0x1710
+-  __DATA.__objc_ivar: 0xab0
+-  __DATA.__data: 0x32f0
++  __DATA.__objc_ivar: 0xabc
++  __DATA.__data: 0x32f8
+   __DATA.__objc_stublist: 0x10
+   __DATA.__bss: 0x32f0
+   __DATA.__common: 0x298
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7339
+-  Symbols:   17688
+-  CStrings:  1848
++  Functions: 7366
++  Symbols:   17723
++  CStrings:  1862
+ 
+Symbols:
++ +[CACSpokenCommandManager _shouldShowEnhancedSiri]
++ -[AXElement(CACScrolling) cacPerformScrollAction:]
++ -[AXElement(CACScrolling) cacPerformScrollAction:completion:]
++ -[CACBannerViewPresenter inSystemSpace]
++ -[CACBannerViewPresenter setInSystemSpace:]
++ -[CACBannerViewPresenter setTvOSBannerTopConstraint:]
++ -[CACBannerViewPresenter tvOSBannerTopConstraint]
++ -[CACSpokenCommand(CACSpokenCommandHardware) openSiriAIApplication]
++ -[CACSpokenCommandManager _cachedScrollables]
++ -[CACSpokenCommandManager _invalidateCachedScrollables]
++ -[CACSpokenCommandManager _screenElementsForScrollView:withAction:]
++ -[CACSpokenCommandManager _scrollDidMoveFromFrames:]
++ -[CACSpokenCommandManager _scrollableChildFramesForScrollView:withAction:]
++ -[CACSpokenCommandManager _scrollables]
++ -[CACSpokenCommandManager set_scrollables:]
++ -[CACSystemAperatureBorderItem interfaceOrientedRectangle]
++ GCC_except_table100
++ GCC_except_table113
++ GCC_except_table114
++ GCC_except_table116
++ GCC_except_table117
++ GCC_except_table126
++ GCC_except_table139
++ GCC_except_table162
++ GCC_except_table163
++ GCC_except_table166
++ GCC_except_table176
++ GCC_except_table179
++ GCC_except_table180
++ GCC_except_table182
++ GCC_except_table183
++ GCC_except_table189
++ GCC_except_table195
++ GCC_except_table196
++ GCC_except_table198
++ GCC_except_table214
++ GCC_except_table223
++ GCC_except_table238
++ GCC_except_table245
++ GCC_except_table261
++ GCC_except_table264
++ GCC_except_table268
++ GCC_except_table277
++ GCC_except_table283
++ GCC_except_table286
++ GCC_except_table287
++ GCC_except_table355
++ GCC_except_table47
++ GCC_except_table48
++ GCC_except_table83
++ GCC_except_table86
++ GCC_except_table92
++ GCC_except_table93
++ GCC_except_table94
++ GCC_except_table96
++ _$s34SpeechRecognitionCommandAndControl15CACVCIAnalyticsC16startTransaction11utteranceID09appBundleJ0ys6UInt64V_SSSgtFZ
++ _$s34SpeechRecognitionCommandAndControl15CACVCIAnalyticsC16startTransaction11utteranceID09appBundleJ0ys6UInt64V_SSSgtFZTo
++ _$s34SpeechRecognitionCommandAndControl15CACVCIAnalyticsC22finalizeVCITransaction11utteranceID9wordCount10actionType05pointL015confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SiAA0f6ActionN0OS2iS2dSSSbtFZ
++ _$s34SpeechRecognitionCommandAndControl15CACVCIAnalyticsC22finalizeVCITransaction11utteranceID9wordCount10actionType05pointL015confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SiAA0f6ActionN0OS2iS2dSSSbtFZTo
++ _$s34SpeechRecognitionCommandAndControl15CACVCIAnalyticsC26finalizeNoMatchTransaction11utteranceIDys6UInt64V_tFZTf4nd_nTm
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID09appBundleP0ys6UInt64V_SSSgtF
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID09appBundleP0ys6UInt64V_SSSgtFyyYacfU_
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID09appBundleP0ys6UInt64V_SSSgtFyyYacfU_TA
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID09appBundleP0ys6UInt64V_SSSgtFyyYacfU_TATQ0_
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID09appBundleP0ys6UInt64V_SSSgtFyyYacfU_TATu
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID09appBundleP0ys6UInt64V_SSSgtFyyYacfU_TQ1_
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID09appBundleP0ys6UInt64V_SSSgtFyyYacfU_TY0_
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID09appBundleP0ys6UInt64V_SSSgtFyyYacfU_TY2_
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID09appBundleP0ys6UInt64V_SSSgtFyyYacfU_TY3_
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID09appBundleP0ys6UInt64V_SSSgtFyyYacfU_Tu
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC19finalizeTransaction11utteranceID014isIntelligenceC010actionType9wordCount05pointV015confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionT0OS3iS2dSSSbtF
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC19finalizeTransaction11utteranceID014isIntelligenceC010actionType9wordCount05pointV015confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionT0OS3iS2dSSSbtFAA07PendingN0ACLLVSgyXEfU_
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC19finalizeTransaction11utteranceID014isIntelligenceC010actionType9wordCount05pointV015confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionT0OS3iS2dSSSbtFSDySSSo8NSObjectCGSgycfU0_
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC19finalizeTransaction11utteranceID014isIntelligenceC010actionType9wordCount05pointV015confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionT0OS3iS2dSSSbtFSDySSSo8NSObjectCGSgycfU0_S2iTf3pSi0pSi0_n
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC19finalizeTransaction11utteranceID014isIntelligenceC010actionType9wordCount05pointV015confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionT0OS3iS2dSSSbtFSDySSSo8NSObjectCGSgycfU0_S2iTf3pSi1pSi0_n
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC19finalizeTransaction11utteranceID014isIntelligenceC010actionType9wordCount05pointV015confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionT0OS3iS2dSSSbtFSDySSSo8NSObjectCGSgycfU0_TA
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC19finalizeTransaction11utteranceID014isIntelligenceC010actionType9wordCount05pointV015confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionT0OS3iS2dSSSbtFSDySSSo8NSObjectCGSgycfU1_
++ _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC19finalizeTransaction11utteranceID014isIntelligenceC010actionType9wordCount05pointV015confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionT0OS3iS2dSSSbtFSDySSSo8NSObjectCGSgycfU1_TA
++ _$s34SpeechRecognitionCommandAndControl21CACUIGroundingMatcherC5match11queryString17commandIdentifier0I9Parameter11utteranceIDAA0fG8ResponseCSS_S2Ss6UInt64VtF6$deferL_yyF
++ _$s34SpeechRecognitionCommandAndControl27finalizeVCIQueryTransaction33_777C9D988DB6376B7022189633876BCELL11utteranceID014isIntelligenceC010actionType9wordCount05pointU015confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionS0OS3iS2dSSSbtF
++ _$s34SpeechRecognitionCommandAndControl37CACLabeledScrollOverlayViewControllerC011setNumberedgI8ElementsyySayAA011CACNumberedgI7ElementCGF05VoiceE2UI08VCScrollO5ModelCAFXEfU_
++ _$sSy12RegexBuilderSs11SubSequenceRtzrlE5split9separator9maxSplits25omittingEmptySubsequencesSaySsGSS_SiSbtF
++ _OBJC_CLASS_$_AXTripleClickHelpers
++ _OBJC_CLASS_$_GMAvailabilityWrapper
++ _OBJC_IVAR_$_CACBannerViewPresenter._inSystemSpace
++ _OBJC_IVAR_$_CACBannerViewPresenter._tvOSBannerTopConstraint
++ _OBJC_IVAR_$_CACSpokenCommandManager.__scrollables
++ __OBJC_$_CLASS_METHODS_AXElement(ScrollingPrivate|CACScrolling|AXElementTextEditing|CACElement|CACElementTests)
++ __OBJC_$_INSTANCE_METHODS_AXElement(ScrollingPrivate|CACScrolling|AXElementTextEditing|CACElement|CACElementTests)
++ ___37-[CACSpokenCommand chooseOverlayItem]_block_invoke
++ ___61-[AXElement(CACScrolling) cacPerformScrollAction:completion:]_block_invoke
++ ___block_descriptor_52_e8_32s40bs_e5_v8?0ls32l8s40l8
++ ___block_descriptor_68_e8_32s40s48bs56r_e5_v8?0lr56l8s32l8s48l8s40l8
++ ___swift_memcpy40_8
++ _kCACCommandContextPreventDuringKeyboardDictation
++ _kCACCommandContextRequiresSiriAIEnabled
++ _objc_msgSend$_cachedScrollables
++ _objc_msgSend$_displayTryEnhancedScrolling
++ _objc_msgSend$_invalidateCachedScrollables
++ _objc_msgSend$_screenElementsForScrollView:withAction:
++ _objc_msgSend$_scrollDidMoveFromFrames:
++ _objc_msgSend$_scrollableChildFramesForScrollView:withAction:
++ _objc_msgSend$_scrollables
++ _objc_msgSend$_shouldShowEnhancedSiri
++ _objc_msgSend$cacPerformScrollAction:
++ _objc_msgSend$elementFrame
++ _objc_msgSend$elementRef
++ _objc_msgSend$mapTableWithKeyOptions:valueOptions:
++ _objc_msgSend$rectWithAXAttribute:
++ _objc_msgSend$set_scrollables:
++ _objc_msgSend$shouldShowEnhancedSiri
++ _objc_msgSend$startTransactionWithUtteranceID:appBundleID:
++ _objc_msgSend$toggleAccessibilityShortcutOption:
+- -[CACSpokenCommandManager _processScrollViews:]
+- GCC_except_table108
+- GCC_except_table109
+- GCC_except_table111
+- GCC_except_table112
+- GCC_except_table121
+- GCC_except_table134
+- GCC_except_table157
+- GCC_except_table158
+- GCC_except_table161
+- GCC_except_table164
+- GCC_except_table171
+- GCC_except_table172
+- GCC_except_table175
+- GCC_except_table184
+- GCC_except_table185
+- GCC_except_table191
+- GCC_except_table193
+- GCC_except_table209
+- GCC_except_table218
+- GCC_except_table233
+- GCC_except_table240
+- GCC_except_table256
+- GCC_except_table259
+- GCC_except_table262
+- GCC_except_table263
+- GCC_except_table278
+- GCC_except_table281
+- GCC_except_table282
+- GCC_except_table78
+- GCC_except_table81
+- GCC_except_table85
+- GCC_except_table87
+- GCC_except_table88
+- GCC_except_table89
+- GCC_except_table91
+- _$s34SpeechRecognitionCommandAndControl15CACVCIAnalyticsC16startTransaction11utteranceID11queryString09appBundleJ0ys6UInt64V_S2SSgtFZ
+- _$s34SpeechRecognitionCommandAndControl15CACVCIAnalyticsC16startTransaction11utteranceID11queryString09appBundleJ0ys6UInt64V_S2SSgtFZTo
+- _$s34SpeechRecognitionCommandAndControl15CACVCIAnalyticsC22finalizeVCITransaction11utteranceID10actionType10pointCount15confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_AA0f6ActionL0OS2iS2dSSSbtFZ
+- _$s34SpeechRecognitionCommandAndControl15CACVCIAnalyticsC22finalizeVCITransaction11utteranceID10actionType10pointCount15confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_AA0f6ActionL0OS2iS2dSSSbtFZTo
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID11queryString09appBundleP0ys6UInt64V_S2SSgtF
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID11queryString09appBundleP0ys6UInt64V_S2SSgtFyyYacfU_
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID11queryString09appBundleP0ys6UInt64V_S2SSgtFyyYacfU_TA
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID11queryString09appBundleP0ys6UInt64V_S2SSgtFyyYacfU_TATQ0_
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID11queryString09appBundleP0ys6UInt64V_S2SSgtFyyYacfU_TATu
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID11queryString09appBundleP0ys6UInt64V_S2SSgtFyyYacfU_TQ1_
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID11queryString09appBundleP0ys6UInt64V_S2SSgtFyyYacfU_TY0_
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID11queryString09appBundleP0ys6UInt64V_S2SSgtFyyYacfU_TY2_
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID11queryString09appBundleP0ys6UInt64V_S2SSgtFyyYacfU_TY3_
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC16startTransaction11utteranceID11queryString09appBundleP0ys6UInt64V_S2SSgtFyyYacfU_Tu
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC19finalizeTransaction11utteranceID014isIntelligenceC010actionType10pointCount15confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionT0OS2iS2dSSSbtF
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC19finalizeTransaction11utteranceID014isIntelligenceC010actionType10pointCount15confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionT0OS2iS2dSSSbtFAA07PendingN0ACLLVSgyXEfU_
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC19finalizeTransaction11utteranceID014isIntelligenceC010actionType10pointCount15confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionT0OS2iS2dSSSbtFSDySSSo8NSObjectCGSgycfU0_
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC19finalizeTransaction11utteranceID014isIntelligenceC010actionType10pointCount15confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionT0OS2iS2dSSSbtFSDySSSo8NSObjectCGSgycfU0_TA
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC19finalizeTransaction11utteranceID014isIntelligenceC010actionType10pointCount15confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionT0OS2iS2dSSSbtFSDySSSo8NSObjectCGSgycfU1_
+- _$s34SpeechRecognitionCommandAndControl17VCIAnalyticsStore33_777C9D988DB6376B7022189633876BCELLC19finalizeTransaction11utteranceID014isIntelligenceC010actionType10pointCount15confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionT0OS2iS2dSSSbtFSDySSSo8NSObjectCGSgycfU1_TA
+- _$s34SpeechRecognitionCommandAndControl27finalizeVCIQueryTransaction33_777C9D988DB6376B7022189633876BCELL11utteranceID014isIntelligenceC010actionType10pointCount15confidenceLevel11meanEntropy7latency12modelVersion18commandWasExecutedys6UInt64V_SbAA021CACVCIAnalyticsActionS0OS2iS2dSSSbtF
+- _$sSS5index5afterSS5IndexVAD_tF
+- _$sSSySJSS5IndexVcig
+- _$sSlsE5split9maxSplits25omittingEmptySubsequences14whereSeparatorSay11SubSequenceQzGSi_S2b7ElementQzKXEtKFSS_Tg5
+- _$sSlsSQ7ElementRpzrlE5split9separator9maxSplits25omittingEmptySubsequencesSay11SubSequenceQzGAB_SiSbtFSbABXEfU_SS_TG5TA
+- _$sSsN
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSs_Tg5
+- _$ss23_ContiguousArrayStorageCySsGMR
+- _$ss23_ContiguousArrayStorageCySsGMd
+- _AXLogCommon
+- __AXSInvertColorsSetEnabled
+- __OBJC_$_CLASS_METHODS_AXElement(ScrollingPrivate|AXElementTextEditing|CACElement|CACElementTests)
+- __OBJC_$_INSTANCE_METHODS_AXElement(ScrollingPrivate|AXElementTextEditing|CACElement|CACElementTests)
+- ___74-[CACSpokenCommand(CACSpokenCommandAccessibility) enableSmartInvertColors]_block_invoke
+- ___75-[CACSpokenCommand(CACSpokenCommandAccessibility) disableSmartInvertColors]_block_invoke
+- _objc_msgSend$_processScrollViews:
+- _objc_msgSend$_scrollAncestorIsSelfForScrollView:scrollAction:resultScrollAncestor:
+- _objc_msgSend$respondsToUserInteraction
+- _objc_msgSend$setClassicInvertColors:
+- _objc_msgSend$setLastSmartInvertColorsEnablement:
+- _objc_msgSend$startTransactionWithUtteranceID:queryString:appBundleID:
+- _symbolic _____ySsG s23_ContiguousArrayStorageC
+CStrings:
++ "Failed to scroll any child element of scroll view."
++ "PreventDuringKeyboardDictation"
++ "Reproduced rdar://132435403.  Fell back to alternate element for scrolling."
++ "RequiresSiriAIEnabled"
++ "Scroll view did not perform scroll action, but the view has no child elements, so there is nothing else to try to scroll."
++ "Scroll view did perform scroll action, but the view has no child elements, so content movement cannot be verified."
++ "Scroll view has no child elements, scrolling view directly."
++ "Scrolling child element failed to moved content."
++ "Scrolling child element of scroll view."
++ "Scrolling child element successfully moved content."
++ "Scrolling child elements failed to perform action."
++ "Scrolling view successfully moved content."
++ "Started transaction utteranceID=%llu"
++ "System.GoBack"
++ "System.ScrollAutoInferredDirection"
++ "com.apple.campo"
++ "gesture"
+- "%s: skipping scroll view: %@, elementFrameIsValid: %@"
+- "-[CACSpokenCommandManager _processScrollViews:]"
+- "Started transaction utteranceID=%llu words=%ld"
+```

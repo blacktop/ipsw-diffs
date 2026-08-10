@@ -1,0 +1,57 @@
+## VDAF
+
+> `/System/Library/PrivateFrameworks/VDAF.framework/VDAF`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+ 35.5.0.0.0
+-  __TEXT.__text: 0xf0a2c
++  __TEXT.__text: 0xf08a4
+   __TEXT.__const: 0x6b30
+   __TEXT.__constg_swiftt: 0x2454
+   __TEXT.__swift5_typeref: 0x1fae
+
+   __TEXT.__swift5_protos: 0x44
+   __TEXT.__swift5_mpenum: 0x74
+   __TEXT.__swift5_capture: 0x3c
+-  __TEXT.__unwind_info: 0x2a68
++  __TEXT.__unwind_info: 0x2a58
+   __TEXT.__eh_frame: 0x74a0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 3918
+-  Symbols:   8782
++  Functions: 3913
++  Symbols:   8776
+   CStrings:  166
+ 
+Symbols:
++ _$s4VDAF5ShareOyAA7Field64VGWOcTm
++ _$sSl4VDAFAA13VDAFEncodable7ElementRpzrlE6encode4intoyqd__z_tSmRd__s5UInt8VACRtd__lFSayAA7Field40VG_SayAHGTg5
+- _$s4VDAF11OutputShareV6encode4intoyqd__z_tSmRd__s5UInt8V7ElementRtd__lFAA7Field64V_SayAGGTB5
+- _$s4VDAF14AggregateShareV6encode4intoyqd__z_tSmRd__s5UInt8V7ElementRtd__lFAA7Field40V_SayAGGTB5Tm
+- _$s4VDAF14AggregateShareV6encode4intoyqd__z_tSmRd__s5UInt8V7ElementRtd__lFAA7Field64V_SayAGGTB5
+- _$s4VDAF14AggregateShareV6encode4intoyqd__z_tSmRd__s5UInt8V7ElementRtd__lFAA7Field64V_SayAGGTB5Tm
+- _$s4VDAF17Prio3PrepareShareV6encode4intoyqd__z_tSmRd__s5UInt8V7ElementRtd__lFAA7Field64V_SayAGGTB5
+- _$s4VDAF4SeedVSgWOcTm
+- _$s4VDAF5ShareO6encode4intoyqd__z_tSmRd__s5UInt8V7ElementRtd__lFAA7Field40V_SayAGGTg5
+- _$s4VDAF5ShareO6encode4intoyqd__z_tSmRd__s5UInt8V7ElementRtd__lFAA7Field64V_SayAGGTg5
+```

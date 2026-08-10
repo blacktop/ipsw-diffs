@@ -1,0 +1,56 @@
+## RTKit.bin
+
+- `nductiveTxLogFreebuf`
+- `nfcHandleMessage: messageType: ironmanMessage_NoPower: state:%d`
+- `ui8NfcState: read`
+- `nfcHandleMessage: messageType:%d`
+- `nfcHandleMessage: messageType: ironmanMessage_ReadyForNfc`
+- `ui8NfcTagsList: read`
+- `smc/panic.cpp`
+- `Unknown panic trigger interrupt #%u`
+- `smc/miscworkloop.cpp`
+- `POP: %s: reset not done; lazy reset`
+- `smc/iphone/nfc.cpp`
+- `ui8NfcControllerReady called for unrecognized key: 0x%X`
+- `ui8NfcControllerReady: write: power:%d, scan`
+- `ui8NfcState called for unrecognized key: 0x%X`
+- `nfcEvent_ScanStarted:%d`
+- `ui8MagnetEvent: write: state:%d`
+- `ui8NfcDisplayState: write: state:%d, power:%d`
+- `ui8NfcDisplayState: write: state:%d, gNfcDisplayOn:%d`
+- `scanTimeoutHandlerstate:%d`
+- `ui8MagnetEvent called for unrecognized key: 0x%X`
+- `nfcEvent_PowerPauseSecondScanTimer`
+- `Remotely triggered SMC panic`
+- `ui8NfcPowerPause: ironmanMessage_RequestPowerPause`
+- `smc/iphone/pmu_adc_amuxa.cpp`
+- `POP: %s: adP=%d pct=%d initPoutMax=%d`
+- `nfcHandleMessage: messageType: ironmanMessage_Power(%d) state:%d`
+- `ui8NfcTagsList called for unrecognized key: 0x%X`
+- `smc/key_tree.cpp`
+- `ui8NfcPowerPause called for unrecognized key: 0x%X`
+- `schedule re-scan for power pause`
+- `ui8NfcDisplayState called for unrecognized key: 0x%X`
+- `POP: ovr:%lld h:%d chg=%d soc:%d t:%d isAL=%d pMax=%d pCalc=%lld thrm=%d%% pCfg=%lld`
+- `ui8NfcPowerPause: write`
+- `getInitialPoutMax`
+- `ui8NfcControllerReady: write: power:%d`
+- `nfcEvent_ScanCompleted: state:%d, gNfcStateAfterScan:%d`
+- `ui8NfcTagsList: write: gNfcTagsList.value:0x%x, gLastMessageType:%d`
+- `Ensuring that AP is awake`
+- `ui8NfcDisplayState: read`
+- `ui8NfcDisplayState: write: state:%d`
+- `PMU: vPmuAdcSensorsReadCycle() failed to read adc 0x%x rc=%d`
+- `nfcEvent_PowerPauseStarted`
+- `ui8NfcControllerReady: write`
+- `ui8NfcState: write`
+- `nfcHandleMessage: messageType: ironmanMessage_Power: idle later`
+- `%s: scan later`
+- `Panic trigger received on interrupt #%u`
+- `nfcHandleMessage: messageType: ironmanMessage_NoPower: scan later`
+- `nfcEvent_NoPowerScanTimer: state:%d`
+- `scan completed outside of power pause`
+- `Unknown panic action %u`
+- `%s: gNfcState:%d`
+- `%s: scan in power pause`
+- `smc/inductive/poutPolicy.cpp`

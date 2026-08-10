@@ -1,0 +1,47 @@
+## com.apple.driver.AppleSPURose
+
+> `com.apple.driver.AppleSPURose`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA.__data`
+- `__DATA_CONST.__mod_init_func`
+- `__DATA_CONST.__mod_term_func`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__kalloc_type`
+- `__DATA_CONST.__auth_got`
+- `__DATA_CONST.__got`
+
+```diff
+
+-1087.0.3.0.0
++1087.0.5.0.0
+   __TEXT.__const: 0x30
+-  __TEXT.__cstring: 0x23b0
++  __TEXT.__cstring: 0x23e8
+   __TEXT.__os_log: 0x1d58
+-  __TEXT_EXEC.__text: 0x17814
++  __TEXT_EXEC.__text: 0x179ec
+   __TEXT_EXEC.__auth_stubs: 0x500
+   __DATA.__data: 0x248
+   __DATA.__common: 0x268
+
+   __DATA_CONST.__kalloc_type: 0x3c0
+   __DATA_CONST.__auth_got: 0x280
+   __DATA_CONST.__got: 0xd0
+-  Functions: 668
++  Functions: 670
+   Symbols:   0
+-  CStrings:  374
++  CStrings:  378
+ 
+CStrings:
++ "121111121222121212222222222222222211111111212121221221221221221221221221221221221221221221221221221222211"
++ "12111112122212121222222222222222221111111121212122122122122122122122122122122122122122122122122122122221111211222222221111212121"
++ "_notifyClientStateTC"
++ "manual-dart"
++ "ret == 0"
++ "setActive"
+- "12111112122212121222222222222222221111111121121221221221221221221221221221221221221221221221221221222211"
+- "12111112122212121222222222222222221111111121121221221221221221221221221221221221221221221221221221222211112112222222211112121"
+```

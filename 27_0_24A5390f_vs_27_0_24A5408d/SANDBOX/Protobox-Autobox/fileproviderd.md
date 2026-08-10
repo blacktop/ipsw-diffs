@@ -1,0 +1,14 @@
+## fileproviderd
+
+> Group: ⬆️ Updated
+
+```diff
+
+ 		F_PATHPKG_CHECK
+ 		F_GETPROTECTIONCLASS
+ 		F_SETPROTECTIONCLASS
++		F_DUPFD_CLOEXEC
+ 		F_MOVEDATAEXTENTS
+ 		F_SINGLE_WRITER
+ 		F_RECYCLE
+```

@@ -1,0 +1,205 @@
+## MailUI
+
+> `/System/Library/PrivateFrameworks/MailUI.framework/MailUI`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__objc_stublist`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-3897.100.8.2.5
+-  __TEXT.__text: 0x3509cc
+-  __TEXT.__objc_methlist: 0x9db4
+-  __TEXT.__cstring: 0xe469
+-  __TEXT.__const: 0x11314
++3901.100.1.2.7
++  __TEXT.__text: 0x358700
++  __TEXT.__objc_methlist: 0x9f1c
++  __TEXT.__cstring: 0xeaf9
++  __TEXT.__const: 0x11484
+   __TEXT.__gcc_except_tab: 0xe38
+-  __TEXT.__oslogstring: 0x7620
++  __TEXT.__oslogstring: 0x76b0
+   __TEXT.__dlopen_cstrs: 0xba
+   __TEXT.__ustring: 0x2e2
+-  __TEXT.__swift5_typeref: 0x18f9a
+-  __TEXT.__swift5_capture: 0x56a4
+-  __TEXT.__constg_swiftt: 0x48c4
++  __TEXT.__swift5_typeref: 0x1939a
++  __TEXT.__swift5_capture: 0x5778
++  __TEXT.__constg_swiftt: 0x4934
+   __TEXT.__swift5_builtin: 0x550
+-  __TEXT.__swift5_reflstr: 0x3ddb
+-  __TEXT.__swift5_fieldmd: 0x3748
++  __TEXT.__swift5_reflstr: 0x3e6b
++  __TEXT.__swift5_fieldmd: 0x3784
+   __TEXT.__swift5_assocty: 0x11e0
+   __TEXT.__swift5_proto: 0x6a0
+-  __TEXT.__swift5_types: 0x570
+-  __TEXT.__swift_as_entry: 0x184
+-  __TEXT.__swift_as_ret: 0x150
+-  __TEXT.__swift_as_cont: 0x250
++  __TEXT.__swift5_types: 0x578
++  __TEXT.__swift_as_entry: 0x188
++  __TEXT.__swift_as_ret: 0x154
++  __TEXT.__swift_as_cont: 0x25c
+   __TEXT.__swift5_protos: 0x28
+   __TEXT.__swift5_mpenum: 0x30
+-  __TEXT.__unwind_info: 0x6be8
+-  __TEXT.__eh_frame: 0x3284
++  __TEXT.__unwind_info: 0x6c30
++  __TEXT.__eh_frame: 0x32c4
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x2fd8
++  __DATA_CONST.__const: 0x2fd0
+   __DATA_CONST.__objc_classlist: 0x598
+   __DATA_CONST.__objc_catlist: 0xc8
+-  __DATA_CONST.__objc_protolist: 0x358
++  __DATA_CONST.__objc_protolist: 0x368
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6598
+-  __DATA_CONST.__objc_protorefs: 0x130
++  __DATA_CONST.__objc_selrefs: 0x6680
++  __DATA_CONST.__objc_protorefs: 0x138
+   __DATA_CONST.__objc_superrefs: 0x288
+   __DATA_CONST.__objc_arraydata: 0x58
+-  __DATA_CONST.__got: 0x1f88
+-  __AUTH_CONST.__const: 0x12888
++  __DATA_CONST.__got: 0x1fc8
++  __AUTH_CONST.__const: 0x12a80
+   __AUTH_CONST.__cfstring: 0x4860
+-  __AUTH_CONST.__objc_const: 0x14378
++  __AUTH_CONST.__objc_const: 0x144c8
+   __AUTH_CONST.__objc_intobj: 0x1c8
+   __AUTH_CONST.__objc_arrayobj: 0x60
+   __AUTH_CONST.__objc_doubleobj: 0x10
+-  __AUTH_CONST.__auth_got: 0x3158
++  __AUTH_CONST.__auth_got: 0x3180
+   __AUTH.__objc_data: 0x1da0
+   __AUTH.__data: 0x14b0
+   __DATA.__objc_ivar: 0x9a8
+-  __DATA.__data: 0x7128
++  __DATA.__data: 0x7288
+   __DATA.__objc_stublist: 0x8
+   __DATA.__bss: 0x7e18
+-  __DATA.__common: 0x3e8
++  __DATA.__common: 0x3f0
+   __DATA_DIRTY.__objc_data: 0x3048
+-  __DATA_DIRTY.__data: 0x35e0
++  __DATA_DIRTY.__data: 0x3648
+   __DATA_DIRTY.__bss: 0x57f0
+   __DATA_DIRTY.__common: 0x40
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
++  - /System/Library/Frameworks/WebKit.framework/WebKit
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+   - /System/Library/PrivateFrameworks/BusinessChatService.framework/BusinessChatService
+   - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 15527
+-  Symbols:   11189
+-  CStrings:  2061
++  Functions: 15629
++  Symbols:   11215
++  CStrings:  2075
+ 
+Symbols:
++ _EMIsEnhancedSiriAvailable
++ _EMUserDefaultAllResultsSearchProximityThreshold
++ _EMUserDefaultGenerativeSearchResultLimit
++ _EMUserDefaultTopHitsAsYouTypeLimit
++ _EMUserDefaultTopHitsMessageListLimit
++ _MFImageGlyphShowCategories
++ _OBJC_CLASS_$_WKContentWorld
++ _OBJC_CLASS_$_WKWebView
++ __OBJC_$_INSTANCE_METHODS_MUIManualSummaryView(MailUI)
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UITextViewDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UITextViewDelegate
++ __OBJC_$_PROTOCOL_REFS_UITextViewDelegate
++ __OBJC_CLASS_PROTOCOLS_$_MUIManualSummaryView(MailUI)
++ __OBJC_LABEL_PROTOCOL_$_UITextViewDelegate
++ __OBJC_PROTOCOL_$_UITextViewDelegate
++ ___swift_memcpy128_8
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA012_ConditionalD0VyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA30_EnvironmentKeyWritingModifierVyAA19SymbolRenderingModeVSgGGAA016_ForegroundStyleM0VyAA017HierarchicalShapeR0VGGAQGALyAA4FontVSgGGALyAG5ScaleOGGAA06_FrameI0VGAA08_PaddingI0VGA10_GAA4ViewHPA11_AAA13_HPA8_AAA13_HPA5_AAA13_HPA1_AAA13_HPAxAA13_HPAwAA13_HPAqAA13_HPAjAA13_HPAgAA13_HPyHC_AiA0yM0HPyHCHC_ApAA14_HPyHCHC_AvAA14_HPyHCHC_AqAA13_HPAjAA13_HPAgAA13_HPyHC_AiAA14_HPyHCHC_ApAA14_HPyHCHCHC_A0_AAA14_HPyHCHC_A4_AAA14_HPyHCHC_A7_AAA14_HPyHCHC_A10_AAA14_HPyHCHC_A10_AAA14_HPyHCHC
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAEyAA5ImageVAA18_AspectRatioLayoutVGAA30_EnvironmentKeyWritingModifierVyAA19SymbolRenderingModeVSgGGAA016_ForegroundStyleM0VyAA017HierarchicalShapeR0VGGAQGAA4ViewHPAwaYHPAqaYHPAjaYHPAgaYHPyHC_AiA0uM0HPyHCHC_ApaZHPyHCHC_AvaZHPyHCHC_AqaYHPAjaYHPAgaYHPyHC_AiaZHPyHCHC_ApaZHPyHCHCHC
++ _get_witness_table 7SwiftUI7SectionVyAA4TextVAA12TupleContentVyAA4ViewPAAE11pickerStyleyQrqd__AA06PickerI0Rd__lFQOyAA0J0VyAESiAA7ForEachVySaySiGSiAiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAE_SiQo_GG_AA04MenujI0VQo__A3XQPGAEGAaHHPAeaHHPyHC_AyaHHPqd0__AaHHD3_AXHO_qd0__AaHHD3_AXHOqd0__AaHHD3_AXHOqd0__AaHHD3_AXHOHX_HCAeaHHPyHCHC
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE9formStyleyQrqd__AA04FormE0Rd__lFQOyAA0F0VyAA12TupleContentVyAA7SectionVyAA4TextVAIyAA6ToggleVyAMGSg_ApIyAcAE06pickerE0yQrqd__AA06PickerE0Rd__lFQOyAA0M0VyAMSiAA7ForEachVySaySS_SitGSiAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAM_SiQo_GG_AA04MenumE0VQo__AcAEARyQrqd__AaSRd__lFQOyAUyAMSSAWySaySS_SStGSSAcAEAY_AZQrqd___SbtSHRd__lFQOyAM_SSQo_GG_A3_Qo_SgQPGSgQPGAMSgG_AKyAmIyAcAEARyQrqd__AaSRd__lFQOyAUyAMSiAWySaySiGSiA_GG_A3_Qo__A19_A19_A19_QPGAMGSgAKyAmIyAA6HStackVyAIyAM_AA6SpacerVAMQPGG_ApMQPGAA05EmptyC0VGAKyAmIyAP_ApcAEARyQrqd__AaSRd__lFQOyAUyAMSiAWySNySiGSiA_GG_A3_Qo_QPGA31_GAKyA31_AA6ButtonVyAMGA31_GAKyAmIyAP_APQPGAMGSgQPGG_AA07GroupedfE0VQo_HO
++ _objc_msgSend$defaultClientWorld
++ _symbolic _____SgXwz_Xx 6MailUI17ManualSummaryViewC
++ _symbolic _____yAAyAAyAAyAAy_____yAAyAAyAAy__________G_____y_____SgGG_____y_____GGAJGAFy_____SgGGAFy_____GG_____G_____GAYG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA016_ForegroundStyleM0V AA017HierarchicalShapeR0V AA4FontV AG5ScaleO AA06_FrameI0V AA08_PaddingI0V
++ _symbolic _____yAAyAAyAAy_____yAAyAAyAAy__________G_____y_____SgGG_____y_____GGAJGAFy_____SgGGAFy_____GG_____G_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA016_ForegroundStyleM0V AA017HierarchicalShapeR0V AA4FontV AG5ScaleO AA06_FrameI0V AA08_PaddingI0V
++ _symbolic _____yAAyAAy__________G_____y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA016_ForegroundStyleL0V AA017HierarchicalShapeQ0V
++ _symbolic _____yAAyAAy_____yAAyAAyAAy__________G_____y_____SgGG_____y_____GGAJGAFy_____SgGGAFy_____GG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA016_ForegroundStyleM0V AA017HierarchicalShapeR0V AA4FontV AG5ScaleO AA06_FrameI0V
++ _symbolic _____yAAy_____yAAyAAyAAy__________G_____y_____SgGG_____y_____GGAJGAFy_____SgGGAFy_____GG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA016_ForegroundStyleM0V AA017HierarchicalShapeR0V AA4FontV AG5ScaleO
++ _symbolic _____ySaySiGSi_____y______SiQo_G 7SwiftUI7ForEachV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV
++ _symbolic _____y_____Si_____ySaySiGSi_____yAB_SiQo_GG 7SwiftUI6PickerV AA4TextV AA7ForEachV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO
++ _symbolic _____y__________y_____yABGSg_AeCy_____y_____yABSi_____ySaySS_SitGSi_____yAB_SiQo_GG______Qo_______yAGyABSSAHySaySS_SStGSS_____yAB_SSQo_GG_AMQo_SgQPGSgQPGABSgG_AAyAbCy_____yAGyABSiAHySaySiGSiAJGG_AMQo__A1_A1_A1_QPGABGSgAAyAbCy_____yACyAB______ABQPGG_AeBQPG_____GAAyAbCyAE_AE_____yAGyABSiAHySNySiGSiAJGG_AMQo_QPGA10_GAAyA10______yABGA10_GAAyAbCyAE_AEQPGABGSgt 7SwiftUI7SectionV AA4TextV AA12TupleContentV AA6ToggleV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerJ0Rd__lFQO AA0K0V AA7ForEachV AkAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenukJ0V AkAEALyQrqd__AaMRd__lFQO AkAEAR_ASQrqd___SbtSHRd__lFQO AkAEALyQrqd__AaMRd__lFQO AA6HStackV AA6SpacerV AA05EmptyH0V AkAEALyQrqd__AaMRd__lFQO AA6ButtonV
++ _symbolic _____y__________y_____y_____yABSi_____ySaySiGSi_____yAB_SiQo_GG______Qo__A3KQPGABG 7SwiftUI7SectionV AA4TextV AA12TupleContentV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerI0Rd__lFQO AA0J0V AA7ForEachV AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenujI0V
++ _symbolic _____y__________y_____y_____yABSi_____ySaySiGSi_____yAB_SiQo_GG______Qo__A3KQPGABGSg 7SwiftUI7SectionV AA4TextV AA12TupleContentV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerI0Rd__lFQO AA0J0V AA7ForEachV AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenujI0V
++ _symbolic _____y_____yAAyAAyAAy__________G_____y_____SgGG_____y_____GGAJGAFy_____SgGG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA016_ForegroundStyleM0V AA017HierarchicalShapeR0V AA4FontV
++ _symbolic _____y_____yAByABy__________G_____y_____SgGG_____y_____GGAJG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA016_ForegroundStyleM0V AA017HierarchicalShapeR0V
++ _symbolic _____y_____yAByABy__________G_____y_____SgGG_____y_____GGAJ_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA016_ForegroundStyleN0V AA017HierarchicalShapeS0V
++ _symbolic _____y_____y_____AAy_____yACGSg_AeAy_____y_____yACSi_____ySaySS_SitGSi_____yAC_SiQo_GG______Qo_______yAGyACSSAHySaySS_SStGSS_____yAC_SSQo_GG_AMQo_SgQPGSgQPGACSgG_AByAcAy_____yAGyACSiAHySaySiGSiAJGG_AMQo__A1_A1_A1_QPGACGSgAByAcAy_____yAAyAC______ACQPGG_AeCQPG_____GAByAcAyAE_AE_____yAGyACSiAHySNySiGSiAJGG_AMQo_QPGA10_GAByA10______yACGA10_GAByAcAyAE_AEQPGACGSgQPG 7SwiftUI12TupleContentV AA7SectionV AA4TextV AA6ToggleV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerJ0Rd__lFQO AA0K0V AA7ForEachV AkAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenukJ0V AkAEALyQrqd__AaMRd__lFQO AkAEAR_ASQrqd___SbtSHRd__lFQO AkAEALyQrqd__AaMRd__lFQO AA6HStackV AA6SpacerV AA05EmptyH0V AkAEALyQrqd__AaMRd__lFQO AA6ButtonV
++ _symbolic _____y_____y_____Si_____ySaySiGSi_____yAB_SiQo_GG______Qo_ 7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQO AA0F0V AA4TextV AA7ForEachV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenufE0V
++ _symbolic _____y_____y_____Si_____ySaySiGSi_____yAB_SiQo_GG______Qo__A3It 7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQO AA0F0V AA4TextV AA7ForEachV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenufE0V
++ _symbolic _____y_____y_____y_____ABy_____yADGSg_AfBy_____y_____yADSi_____ySaySS_SitGSi_____yAD_SiQo_GG______Qo_______yAHyADSSAIySaySS_SStGSS_____yAD_SSQo_GG_ANQo_SgQPGSgQPGADSgG_ACyAdBy_____yAHyADSiAIySaySiGSiAKGG_ANQo__A2_A2_A2_QPGADGSgACyAdBy_____yAByAD______ADQPGG_AfDQPG_____GACyAdByAF_AF_____yAHyADSiAIySNySiGSiAKGG_ANQo_QPGA11_GACyA11______yADGA11_GACyAdByAF_AFQPGADGSgQPGG 7SwiftUI4FormV AA12TupleContentV AA7SectionV AA4TextV AA6ToggleV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerK0Rd__lFQO AA0L0V AA7ForEachV AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenulK0V AmAEANyQrqd__AaORd__lFQO AmAEAT_AUQrqd___SbtSHRd__lFQO AmAEANyQrqd__AaORd__lFQO AA6HStackV AA6SpacerV AA05EmptyI0V AmAEANyQrqd__AaORd__lFQO AA6ButtonV
++ _symbolic _____y_____y_____y_____Si_____ySaySiGSi_____yAC_SiQo_GG______Qo__A3JQPG 7SwiftUI12TupleContentV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA4TextV AA7ForEachV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenuhG0V
++ _symbolic _____y_____y_____y_____y_____ABy_____yADGSg_AfBy_____y_____yADSi_____ySaySS_SitGSi_____yAD_SiQo_GG______Qo_______yAHyADSSAIySaySS_SStGSS_____yAD_SSQo_GG_ANQo_SgQPGSgQPGADSgG_ACyAdBy_____yAHyADSiAIySaySiGSiAKGG_ANQo__A2_A2_A2_QPGADGSgACyAdBy_____yAByAD______ADQPGG_AfDQPG_____GACyAdByAF_AF_____yAHyADSiAIySNySiGSiAKGG_ANQo_QPGA11_GACyA11______yADGA11_GACyAdByAF_AFQPGADGSgQPGG______Qo_ 7SwiftUI4ViewPAAE9formStyleyQrqd__AA04FormE0Rd__lFQO AA0F0V AA12TupleContentV AA7SectionV AA4TextV AA6ToggleV AcAE06pickerE0yQrqd__AA06PickerE0Rd__lFQO AA0M0V AA7ForEachV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenumE0V AcAEAPyQrqd__AaQRd__lFQO AcAEAV_AWQrqd___SbtSHRd__lFQO AcAEAPyQrqd__AaQRd__lFQO AA6HStackV AA6SpacerV AA05EmptyC0V AcAEAPyQrqd__AaQRd__lFQO AA6ButtonV AA07GroupedfE0V
+- _MFImageGlyphCategorizationCheckmark
+- _MFImageGlyphCategorizationEmptyCheckmark
+- __INSTANCE_METHODS_MUIManualSummaryView
+- ___swift_memcpy96_8
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA30_EnvironmentKeyWritingModifierVyAA19SymbolRenderingModeVSgGGAJyAA4FontVSgGGAJyAE5ScaleOGGAA06_FrameH0VGAA08_PaddingH0VGA1_GAA4ViewHPA2_AAA4_HPA_AAA4_HPAxAA4_HPAtAA4_HPAoAA4_HPAhAA4_HPAeAA4_HPyHC_AgA0tL0HPyHCHC_AnAA5_HPyHCHC_AsAA5_HPyHCHC_AwAA5_HPyHCHC_AzAA5_HPyHCHC_A1_AAA5_HPyHCHC_A1_AAA5_HPyHCHC
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE9formStyleyQrqd__AA04FormE0Rd__lFQOyAA0F0VyAA12TupleContentVyAA7SectionVyAA4TextVAIyAA6ToggleVyAMGSg_ApIyAcAE06pickerE0yQrqd__AA06PickerE0Rd__lFQOyAA0M0VyAMSiAA7ForEachVySaySS_SitGSiAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAM_SiQo_GG_AA04MenumE0VQo__AcAEARyQrqd__AaSRd__lFQOyAUyAMSSAWySaySS_SStGSSAcAEAY_AZQrqd___SbtSHRd__lFQOyAM_SSQo_GG_A3_Qo_SgQPGSgQPGAMSgG_AKyAmIyAA6HStackVyAIyAM_AA6SpacerVAMQPGG_ApMQPGAA05EmptyC0VGAKyAmIyAP_ApcAEARyQrqd__AaSRd__lFQOyAUyAMSiAWySNySiGSiA_GG_A3_Qo_QPGA24_GAKyA24_AA6ButtonVyAMGA24_GAKyAmIyAP_APQPGAMGSgQPGG_AA07GroupedfE0VQo_HO
+- _symbolic _____yAAyAAyAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy_____GG_____G_____GASG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA4FontV AE5ScaleO AA06_FrameH0V AA08_PaddingH0V
+- _symbolic _____yAAyAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy_____GG_____G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA4FontV AE5ScaleO AA06_FrameH0V AA08_PaddingH0V
+- _symbolic _____yAAyAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy_____GG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA4FontV AE5ScaleO AA06_FrameH0V
+- _symbolic _____yAAyAAyAAy__________G_____y_____SgGGAEy_____SgGGAEy_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA4FontV AE5ScaleO
+- _symbolic _____yAAyAAy__________G_____y_____SgGGAEy_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV AA4FontV
+- _symbolic _____y__________y_____yABGSg_AeCy_____y_____yABSi_____ySaySS_SitGSi_____yAB_SiQo_GG______Qo_______yAGyABSSAHySaySS_SStGSS_____yAB_SSQo_GG_AMQo_SgQPGSgQPGABSgG_AAyAbCy_____yACyAB______ABQPGG_AeBQPG_____GAAyAbCyAE_AE_____yAGyABSiAHySNySiGSiAJGG_AMQo_QPGA3_GAAyA3______yABGA3_GAAyAbCyAE_AEQPGABGSgt 7SwiftUI7SectionV AA4TextV AA12TupleContentV AA6ToggleV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerJ0Rd__lFQO AA0K0V AA7ForEachV AkAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenukJ0V AkAEALyQrqd__AaMRd__lFQO AkAEAR_ASQrqd___SbtSHRd__lFQO AA6HStackV AA6SpacerV AA05EmptyH0V AkAEALyQrqd__AaMRd__lFQO AA6ButtonV
+- _symbolic _____y_____y_____AAy_____yACGSg_AeAy_____y_____yACSi_____ySaySS_SitGSi_____yAC_SiQo_GG______Qo_______yAGyACSSAHySaySS_SStGSS_____yAC_SSQo_GG_AMQo_SgQPGSgQPGACSgG_AByAcAy_____yAAyAC______ACQPGG_AeCQPG_____GAByAcAyAE_AE_____yAGyACSiAHySNySiGSiAJGG_AMQo_QPGA3_GAByA3______yACGA3_GAByAcAyAE_AEQPGACGSgQPG 7SwiftUI12TupleContentV AA7SectionV AA4TextV AA6ToggleV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerJ0Rd__lFQO AA0K0V AA7ForEachV AkAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenukJ0V AkAEALyQrqd__AaMRd__lFQO AkAEAR_ASQrqd___SbtSHRd__lFQO AA6HStackV AA6SpacerV AA05EmptyH0V AkAEALyQrqd__AaMRd__lFQO AA6ButtonV
+- _symbolic _____y_____y_____y_____ABy_____yADGSg_AfBy_____y_____yADSi_____ySaySS_SitGSi_____yAD_SiQo_GG______Qo_______yAHyADSSAIySaySS_SStGSS_____yAD_SSQo_GG_ANQo_SgQPGSgQPGADSgG_ACyAdBy_____yAByAD______ADQPGG_AfDQPG_____GACyAdByAF_AF_____yAHyADSiAIySNySiGSiAKGG_ANQo_QPGA4_GACyA4______yADGA4_GACyAdByAF_AFQPGADGSgQPGG 7SwiftUI4FormV AA12TupleContentV AA7SectionV AA4TextV AA6ToggleV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerK0Rd__lFQO AA0L0V AA7ForEachV AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenulK0V AmAEANyQrqd__AaORd__lFQO AmAEAT_AUQrqd___SbtSHRd__lFQO AA6HStackV AA6SpacerV AA05EmptyI0V AmAEANyQrqd__AaORd__lFQO AA6ButtonV
+- _symbolic _____y_____y_____y_____y_____ABy_____yADGSg_AfBy_____y_____yADSi_____ySaySS_SitGSi_____yAD_SiQo_GG______Qo_______yAHyADSSAIySaySS_SStGSS_____yAD_SSQo_GG_ANQo_SgQPGSgQPGADSgG_ACyAdBy_____yAByAD______ADQPGG_AfDQPG_____GACyAdByAF_AF_____yAHyADSiAIySNySiGSiAKGG_ANQo_QPGA4_GACyA4______yADGA4_GACyAdByAF_AFQPGADGSgQPGG______Qo_ 7SwiftUI4ViewPAAE9formStyleyQrqd__AA04FormE0Rd__lFQO AA0F0V AA12TupleContentV AA7SectionV AA4TextV AA6ToggleV AcAE06pickerE0yQrqd__AA06PickerE0Rd__lFQO AA0M0V AA7ForEachV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenumE0V AcAEAPyQrqd__AaQRd__lFQO AcAEAV_AWQrqd___SbtSHRd__lFQO AA6HStackV AA6SpacerV AA05EmptyC0V AcAEAPyQrqd__AaQRd__lFQO AA6ButtonV AA07GroupedfE0V
+CStrings:
++ "#SiriMail replaceUserBodyPreservingOriginalContent: callAsyncJavaScript failed (%s)"
++ "All Results Trigger Proximity"
++ "As You Type Limit"
++ "Failed to open settings URL, error: %@"
++ "MailUI/MUIManualSummaryViewManager.swift"
++ "Message List (Top Hits) Limit"
++ "Ranked Result Limit"
++ "Ranked Result Limit caps the All Results head; set it small (e.g. 10) to force the all-results identifiers search. Unlimited restores default (1000) behavior. All Results Trigger Proximity is how many rows from the end that search fires (default 20)."
++ "Search Limits"
++ "Unlimited"
++ "const body = document.body;\nconst preservedSelector = 'blockquote[type=\"cite\"], div#AppleMailSignature';\n// Use querySelector + walk up so we find the body-level ancestor of a preserved\n// node even when MessageUI wraps it in a div (e.g., a blockquote nested inside\n// a `<div>` wrapper in a user-pasted reply). Iterating `body.children` and\n// matching directly would miss those.\nlet firstPreserved = body.querySelector(preservedSelector);\nwhile (firstPreserved && firstPreserved.parentNode !== body) {\n    firstPreserved = firstPreserved.parentNode;\n}\nif (firstPreserved === null) {\n    body.innerHTML = newHTML;\n    return;\n}\nwhile (body.firstChild && body.firstChild !== firstPreserved) {\n    body.removeChild(body.firstChild);\n}\nif (newHTML.length > 0) {\n    // Insert the parsed nodes directly via a <template> so we don't introduce an\n    // extra wrapper <div> — keeping the same DOM shape as the no-preserved-node\n    // path above (which assigns to `body.innerHTML` without a wrapper).\n    const template = document.createElement('template');\n    template.innerHTML = newHTML;\n    body.insertBefore(template.content, firstPreserved);\n}"
++ "newHTML"
++ "rectangle.split.3x1"
++ "settings-navigation://com.apple.Settings.Siri"
+```

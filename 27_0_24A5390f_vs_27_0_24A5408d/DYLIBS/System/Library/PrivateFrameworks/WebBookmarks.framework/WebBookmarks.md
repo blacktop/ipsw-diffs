@@ -1,0 +1,849 @@
+## WebBookmarks
+
+> `/System/Library/PrivateFrameworks/WebBookmarks.framework/WebBookmarks`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__weak_auth_got`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+-625.1.24.10.1
+-  __TEXT.__text: 0xa7c3c
+-  __TEXT.__objc_methlist: 0x8964
+-  __TEXT.__const: 0x336
+-  __TEXT.__gcc_except_tab: 0xc32c
+-  __TEXT.__cstring: 0xfd75
+-  __TEXT.__oslogstring: 0x9ee9
++625.1.29.10.3
++  __TEXT.__text: 0xf122c
++  __TEXT.__objc_methlist: 0x8b80
++  __TEXT.__const: 0x2048
++  __TEXT.__gcc_except_tab: 0xc370
++  __TEXT.__cstring: 0x10160
++  __TEXT.__oslogstring: 0xb38c
+   __TEXT.__dlopen_cstrs: 0xb2
+-  __TEXT.__constg_swiftt: 0x60
+-  __TEXT.__swift5_typeref: 0x9
+-  __TEXT.__swift5_reflstr: 0x1c
+-  __TEXT.__swift5_fieldmd: 0x1c
+-  __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0x4720
++  __TEXT.__constg_swiftt: 0xadc
++  __TEXT.__swift5_typeref: 0xf5e
++  __TEXT.__swift5_reflstr: 0x5c3
++  __TEXT.__swift5_fieldmd: 0x5c8
++  __TEXT.__swift5_builtin: 0x3c
++  __TEXT.__swift5_types: 0x6c
++  __TEXT.__swift5_capture: 0x7bc
++  __TEXT.__swift5_proto: 0xe4
++  __TEXT.__swift_as_entry: 0x184
++  __TEXT.__swift_as_ret: 0x198
++  __TEXT.__swift_as_cont: 0x43c
++  __TEXT.__swift5_protos: 0x8
++  __TEXT.__swift5_assocty: 0xa0
++  __TEXT.__swift5_mpenum: 0x1c
++  __TEXT.__unwind_info: 0x5980
++  __TEXT.__eh_frame: 0x3d68
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x3060
+-  __DATA_CONST.__objc_classlist: 0x238
++  __DATA_CONST.__const: 0x3280
++  __DATA_CONST.__objc_classlist: 0x260
+   __DATA_CONST.__objc_catlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x110
++  __DATA_CONST.__objc_protolist: 0x120
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x50c8
+-  __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x1e8
++  __DATA_CONST.__objc_selrefs: 0x5130
++  __DATA_CONST.__objc_protorefs: 0x18
++  __DATA_CONST.__objc_superrefs: 0x1f0
+   __DATA_CONST.__objc_arraydata: 0x370
+-  __DATA_CONST.__got: 0x818
+-  __AUTH_CONST.__const: 0xfe0
+-  __AUTH_CONST.__cfstring: 0x64c0
+-  __AUTH_CONST.__objc_const: 0x9f50
++  __DATA_CONST.__got: 0xa20
++  __AUTH_CONST.__const: 0x2be8
++  __AUTH_CONST.__cfstring: 0x6500
++  __AUTH_CONST.__objc_const: 0xa828
+   __AUTH_CONST.__weak_auth_got: 0x10
+   __AUTH_CONST.__objc_intobj: 0x3c0
+   __AUTH_CONST.__objc_dictobj: 0x50
+   __AUTH_CONST.__objc_arrayobj: 0xd8
+-  __AUTH_CONST.__auth_got: 0x0
+-  __AUTH.__objc_data: 0x50
+-  __DATA.__objc_ivar: 0x62c
+-  __DATA.__data: 0x10d0
+-  __DATA.__bss: 0x74
++  __AUTH_CONST.__auth_got: 0xf80
++  __AUTH.__objc_data: 0x168
++  __AUTH.__data: 0x460
++  __DATA.__objc_ivar: 0x638
++  __DATA.__data: 0x1b38
++  __DATA.__bss: 0x1d00
+   __DATA_DIRTY.__objc_data: 0x1590
+   __DATA_DIRTY.__data: 0xc8
+   __DATA_DIRTY.__bss: 0x218
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
++  - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreImage.framework/CoreImage
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/GroupActivities.framework/GroupActivities
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/SafariCore.framework/SafariCore
+   - /System/Library/PrivateFrameworks/SafariShared.framework/SafariShared
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+-  - /System/Library/PrivateFrameworks/WebBookmarksSwift.framework/WebBookmarksSwift
++  - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /System/Library/PrivateFrameworks/WebKitLegacy.framework/WebKitLegacy
+   - /usr/lib/libCTGreenTeaLogger.dylib
+   - /usr/lib/libMobileGestalt.dylib
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
++  - /usr/lib/swift/libswiftCoreAudio_Private.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3711
+-  Symbols:   8062
+-  CStrings:  2089
++  Functions: 4938
++  Symbols:   8590
++  CStrings:  2188
+ 
+Symbols:
++ -[WBParticipantPresenceCoordinator .cxx_destruct]
++ -[WBParticipantPresenceCoordinator beginCollaborationForShare:]
++ -[WBParticipantPresenceCoordinator beginDeviceCoordination]
++ -[WBParticipantPresenceCoordinator delegate]
++ -[WBParticipantPresenceCoordinator endCollaborationForShare:]
++ -[WBParticipantPresenceCoordinator endDeviceCoordination]
++ -[WBParticipantPresenceCoordinator getActiveParticipantsInTabGroupWithIdentifier:completionHandler:]
++ -[WBParticipantPresenceCoordinator getActiveParticipantsInTabWithIdentifier:completionHandler:]
++ -[WBParticipantPresenceCoordinator getCurrentConnectionStateWithCompletionHandler:]
++ -[WBParticipantPresenceCoordinator getCurrentLocationIdentifiersForParticipantIdentifier:completionHandler:]
++ -[WBParticipantPresenceCoordinator getTabGroupIdentifierForParticipantIdentifier:completionHandler:]
++ -[WBParticipantPresenceCoordinator getTabIdentifierForParticipantIdentifier:completionHandler:]
++ -[WBParticipantPresenceCoordinator init]
++ -[WBParticipantPresenceCoordinator moveCurrentParticipantToTabIdentifier:inTabGroupIdentifier:withDeviceIdentifier:]
++ -[WBParticipantPresenceCoordinator participantPresenceCoordinator:didUpdateActiveParticipants:inTabGroupWithIdentifier:]
++ -[WBParticipantPresenceCoordinator participantPresenceCoordinator:didUpdateActiveParticipants:inTabWithIdentifier:]
++ -[WBParticipantPresenceCoordinator setDelegate:]
++ -[WBParticipantPresenceCoordinator shareDidUpdate:]
++ -[WebBookmarkCollection _postFeatureTextDidChangeViaSyncNotificationIfNeeded]
++ -[WebBookmarkCollection _postFeatureTextDidChangeViaSync]
++ GCC_except_table435
++ GCC_except_table441
++ GCC_except_table446
++ GCC_except_table464
++ GCC_except_table468
++ GCC_except_table469
++ GCC_except_table470
++ GCC_except_table475
++ GCC_except_table482
++ GCC_except_table498
++ GCC_except_table500
++ GCC_except_table505
++ GCC_except_table516
++ GCC_except_table517
++ GCC_except_table521
++ GCC_except_table522
++ GCC_except_table538
++ GCC_except_table547
++ GCC_except_table548
++ GCC_except_table558
++ GCC_except_table560
++ GCC_except_table562
++ GCC_except_table570
++ GCC_except_table591
++ GCC_except_table592
++ GCC_except_table593
++ GCC_except_table600
++ GCC_except_table607
++ GCC_except_table608
++ GCC_except_table609
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$_TUHandle
++ _OBJC_CLASS_$__WBParticipantPresenceCoordinator
++ _OBJC_IVAR_$_WBParticipantPresenceCoordinator._delegate
++ _OBJC_IVAR_$_WBParticipantPresenceCoordinator._internalCoordinator
++ _OBJC_IVAR_$_WebBookmarkCollection._featureTextChangedViaSyncPendingNotification
++ _OBJC_METACLASS_$_WBParticipantPresenceCoordinator
++ _OBJC_METACLASS_$__WBParticipantPresenceCoordinator
++ _WebBookmarksFeatureTextDidChangeViaSyncNotification
++ __Block_copy
++ __Block_release
++ __DATA__TtC12WebBookmarks20ParticipantHandleMap
++ __DATA__TtC12WebBookmarks24ParticipantPresenceStore
++ __DATA__TtCC12WebBookmarks30ParticipantPresenceCoordinator22ConnectionManagerStore
++ __DATA__WBParticipantPresenceCoordinator
++ __INSTANCE_METHODS__WBParticipantPresenceCoordinator
++ __IVARS__TtC12WebBookmarks18AsyncBufferedQueue
++ __IVARS__TtC12WebBookmarks20ParticipantHandleMap
++ __IVARS__TtC12WebBookmarks24ParticipantPresenceStore
++ __IVARS__TtC12WebBookmarks27CKShareGroupSessionProvider
++ __IVARS__TtC12WebBookmarks30CollaborationConnectionManager
++ __IVARS__TtC12WebBookmarks31GroupSessionMessengerController
++ __IVARS__TtCC12WebBookmarks30ParticipantPresenceCoordinator22ConnectionManagerStore
++ __IVARS__WBParticipantPresenceCoordinator
++ __METACLASS_DATA__TtC12WebBookmarks20ParticipantHandleMap
++ __METACLASS_DATA__TtC12WebBookmarks24ParticipantPresenceStore
++ __METACLASS_DATA__TtCC12WebBookmarks30ParticipantPresenceCoordinator22ConnectionManagerStore
++ __METACLASS_DATA__WBParticipantPresenceCoordinator
++ __OBJC_$_INSTANCE_METHODS_WBParticipantPresenceCoordinator
++ __OBJC_$_INSTANCE_VARIABLES_WBParticipantPresenceCoordinator
++ __OBJC_$_PROP_LIST_WBParticipantPresenceCoordinator
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__WBParticipantPresenceCoordinatorDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES__WBParticipantPresenceCoordinatorDelegate
++ __OBJC_CLASS_PROTOCOLS_$_WBParticipantPresenceCoordinator
++ __OBJC_CLASS_RO_$_WBParticipantPresenceCoordinator
++ __OBJC_LABEL_PROTOCOL_$__WBParticipantPresenceCoordinatorDelegate
++ __OBJC_METACLASS_RO_$_WBParticipantPresenceCoordinator
++ __OBJC_PROTOCOL_$__WBParticipantPresenceCoordinatorDelegate
++ __PROPERTIES__WBParticipantPresenceCoordinator
++ __PROTOCOL_INSTANCE_METHODS__WBParticipantPresenceCoordinatorDelegate
++ __PROTOCOL_METHOD_TYPES__WBParticipantPresenceCoordinatorDelegate
++ __PROTOCOL__WBParticipantPresenceCoordinatorDelegate
++ __ZL27FeatureTextDidChangeViaSyncP22__CFNotificationCenterPvPK10__CFStringPKvPK14__CFDictionary
++ ___100-[WBParticipantPresenceCoordinator getActiveParticipantsInTabGroupWithIdentifier:completionHandler:]_block_invoke
++ ___100-[WBParticipantPresenceCoordinator getActiveParticipantsInTabGroupWithIdentifier:completionHandler:]_block_invoke_2
++ ___100-[WBParticipantPresenceCoordinator getTabGroupIdentifierForParticipantIdentifier:completionHandler:]_block_invoke
++ ___100-[WBParticipantPresenceCoordinator getTabGroupIdentifierForParticipantIdentifier:completionHandler:]_block_invoke_2
++ ___108-[WBParticipantPresenceCoordinator getCurrentLocationIdentifiersForParticipantIdentifier:completionHandler:]_block_invoke
++ ___108-[WBParticipantPresenceCoordinator getCurrentLocationIdentifiersForParticipantIdentifier:completionHandler:]_block_invoke_2
++ ___46-[WBTabGroupSyncAgentProxy _remoteObjectProxy]_block_invoke
++ ___54-[WBTabGroupSyncAgentProxy _setUpSyncObserverIfNeeded]_block_invoke_2
++ ___75-[WBTabGroupSyncAgentProxy beginSharingTabGroupWithUUID:completionHandler:]_block_invoke_2
++ ___83-[WBParticipantPresenceCoordinator getCurrentConnectionStateWithCompletionHandler:]_block_invoke
++ ___83-[WBParticipantPresenceCoordinator getCurrentConnectionStateWithCompletionHandler:]_block_invoke_2
++ ___95-[WBParticipantPresenceCoordinator getActiveParticipantsInTabWithIdentifier:completionHandler:]_block_invoke
++ ___95-[WBParticipantPresenceCoordinator getActiveParticipantsInTabWithIdentifier:completionHandler:]_block_invoke_2
++ ___95-[WBParticipantPresenceCoordinator getTabIdentifierForParticipantIdentifier:completionHandler:]_block_invoke
++ ___95-[WBParticipantPresenceCoordinator getTabIdentifierForParticipantIdentifier:completionHandler:]_block_invoke_2
++ ____ZL27FeatureTextDidChangeViaSyncP22__CFNotificationCenterPvPK10__CFStringPKvPK14__CFDictionary_block_invoke
++ ___block_descriptor_40_e8_32bs_e15_v16?0"NSSet"8ls32l8
++ ___block_descriptor_40_e8_32bs_e18_v16?0"NSString"8ls32l8
++ ___block_descriptor_40_e8_32bs_e22_v16?0"NSDictionary"8ls32l8
++ ___block_descriptor_40_e8_32bs_e31_v24?0"NSString"8"NSString"16ls32l8
++ ___block_descriptor_48_e8_32s40bs_e5_v8?0ls40l8s32l8
++ ___block_descriptor_56_e8_32s40bs48r_e5_v8?0lr48l8s32l8s40l8
++ ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls48l8s32l8s40l8
++ ___chkstk_darwin
++ ___swift__destructor
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_async_cont_functlets
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.16Tm
++ ___swift_closure_destructor.236Tm
++ ___swift_closure_destructor.245Tm
++ ___swift_closure_destructor.302Tm
++ ___swift_closure_destructor.320Tm
++ ___swift_closure_destructor.335Tm
++ ___swift_closure_destructor.359Tm
++ ___swift_closure_destructor.388Tm
++ ___swift_closure_destructor.38Tm
++ ___swift_closure_destructor.433Tm
++ ___swift_closure_destructor.47Tm
++ ___swift_closure_destructor.91Tm
++ ___swift_closure_destructor.95Tm
++ ___swift_closure_destructorTm
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
++ ___swift_instantiateConcreteTypeFromMangledNameV2
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy0_1
++ ___swift_memcpy16_8
++ ___swift_memcpy1_1
++ ___swift_memcpy24_8
++ ___swift_memcpy32_8
++ ___swift_memcpy48_8
++ ___swift_memcpy4_4
++ ___swift_memcpy56_8
++ ___swift_memcpy8_8
++ ___swift_noop_void_return
++ ___swift_project_boxed_opaque_existential_1
++ ___unnamed_1
++ ___unnamed_10
++ ___unnamed_2
++ ___unnamed_3
++ ___unnamed_4
++ __swiftEmptyArrayStorage
++ __swiftEmptyDictionarySingleton
++ __swiftEmptySetSingleton
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAVFoundation_$_WebBookmarks
++ __swift_FORCE_LOAD_$_swiftCoreAudio_Private
++ __swift_FORCE_LOAD_$_swiftCoreAudio_Private_$_WebBookmarks
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_WebBookmarks
++ __swift_FORCE_LOAD_$_swiftNaturalLanguage
++ __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_WebBookmarks
++ __swift_FORCE_LOAD_$_swiftSpatial
++ __swift_FORCE_LOAD_$_swiftSpatial_$_WebBookmarks
++ __swift_FORCE_LOAD_$_swiftUIKit
++ __swift_FORCE_LOAD_$_swiftUIKit_$_WebBookmarks
++ __swift_implicitisolationactor_to_executor_cast
++ __swift_stdlib_bridgeErrorToNSError
++ __swift_stdlib_malloc_size
++ _associated conformance 12WebBookmarks14CRDTGenerationVSLAASQ
++ _associated conformance 12WebBookmarks18AsyncBufferedQueueCyxGSciAA0C8IteratorSci_ScI
++ _associated conformance 12WebBookmarks20ParticipantHandleMapC0C4KindOSHAASQ
++ _associated conformance 12WebBookmarks20ParticipantHandleMapC6ErrorsOSHAASQ
++ _associated conformance 12WebBookmarks21PresenceUpdateMessageV10CodingKeys025_A94E53A0CF2ED28A729D2783J6F38A64LLOSHAASQ
++ _associated conformance 12WebBookmarks21PresenceUpdateMessageV10CodingKeys025_A94E53A0CF2ED28A729D2783J6F38A64LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12WebBookmarks21PresenceUpdateMessageV10CodingKeys025_A94E53A0CF2ED28A729D2783J6F38A64LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12WebBookmarks26PresenceUpdateMessageErrorOSHAASQ
++ _associated conformance 12WebBookmarks27CKShareGroupSessionProviderC6ErrorsOyx_GSHAASQ
++ _associated conformance 12WebBookmarks27CKShareGroupSessionProviderCyxG0D10Activities0deF0AA12ActivityTypeAeFP_AE012IdentifiabledH0
++ _associated conformance 12WebBookmarks27CKShareGroupSessionProviderCyxG0D10Activities0deF0AA2IDs12IdentifiableP_SE
++ _associated conformance 12WebBookmarks27CKShareGroupSessionProviderCyxG0D10Activities0deF0AA2IDs12IdentifiableP_Se
++ _associated conformance 12WebBookmarks27CKShareGroupSessionProviderCyxG0D10Activities0deF0AAs12Identifiable
++ _associated conformance 12WebBookmarks27CKShareGroupSessionProviderCyxGs12IdentifiableAA2IDsAEP_SH
++ _associated conformance 12WebBookmarks28CKShareCollaborationActivityV10CodingKeys33_2DD9BDE9DFFCC7836901DE4E5EA19B2FLLOSHAASQ
++ _associated conformance 12WebBookmarks28CKShareCollaborationActivityV10CodingKeys33_2DD9BDE9DFFCC7836901DE4E5EA19B2FLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12WebBookmarks28CKShareCollaborationActivityV10CodingKeys33_2DD9BDE9DFFCC7836901DE4E5EA19B2FLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12WebBookmarks28CKShareCollaborationActivityV15GroupActivities012IdentifiablefE0AA2IDs0H0P_SE
++ _associated conformance 12WebBookmarks28CKShareCollaborationActivityV15GroupActivities012IdentifiablefE0AA2IDs0H0P_Se
++ _associated conformance 12WebBookmarks28CKShareCollaborationActivityV15GroupActivities012IdentifiablefE0AAs0H0
++ _associated conformance 12WebBookmarks28CKShareCollaborationActivityV15GroupActivities012IdentifiablefE0AaD0fE0
++ _associated conformance 12WebBookmarks28CKShareCollaborationActivityV15GroupActivities0fE0AASE
++ _associated conformance 12WebBookmarks28CKShareCollaborationActivityV15GroupActivities0fE0AASe
++ _associated conformance 12WebBookmarks28CKShareCollaborationActivityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 12WebBookmarks34PersonalDeviceCoordinationActivityV10CodingKeys33_04F5B3896734A31BA7E91E2FA7C0ED77LLOSHAASQ
++ _associated conformance 12WebBookmarks34PersonalDeviceCoordinationActivityV10CodingKeys33_04F5B3896734A31BA7E91E2FA7C0ED77LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12WebBookmarks34PersonalDeviceCoordinationActivityV10CodingKeys33_04F5B3896734A31BA7E91E2FA7C0ED77LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12WebBookmarks34PersonalDeviceCoordinationActivityV15GroupActivities012IdentifiablegF0AA2IDs0I0P_SE
++ _associated conformance 12WebBookmarks34PersonalDeviceCoordinationActivityV15GroupActivities012IdentifiablegF0AA2IDs0I0P_Se
++ _associated conformance 12WebBookmarks34PersonalDeviceCoordinationActivityV15GroupActivities012IdentifiablegF0AAs0I0
++ _associated conformance 12WebBookmarks34PersonalDeviceCoordinationActivityV15GroupActivities012IdentifiablegF0AaD0gF0
++ _associated conformance 12WebBookmarks34PersonalDeviceCoordinationActivityV15GroupActivities0gF0AASE
++ _associated conformance 12WebBookmarks34PersonalDeviceCoordinationActivityV15GroupActivities0gF0AASe
++ _associated conformance 12WebBookmarks34PersonalDeviceCoordinationActivityVs12IdentifiableAA2IDsADP_SH
++ _block_copy_helper
++ _block_descriptor
++ _block_destroy_helper
++ _bzero
++ _flat unique So41_WBParticipantPresenceCoordinatorDelegate_p
++ _get_enum_tag_for_layout_string 12WebBookmarks20FastSyncStateMachineV0E0Oyxq__G
++ _get_enum_tag_for_layout_string 12WebBookmarks21PresenceUpdateMessageV4KindO
++ _keypath_get.1Tm
++ _keypath_set.2Tm
++ _malloc_size
++ _memcpy
++ _memmove
++ _objc_allocWithZone
++ _objc_msgSend$_postFeatureTextDidChangeViaSync
++ _objc_msgSend$_postFeatureTextDidChangeViaSyncNotificationIfNeeded
++ _objc_msgSend$currentUserParticipant
++ _objc_msgSend$emailAddress
++ _objc_msgSend$getTabGroupIdentifierForParticipantIdentifier:completionHandler:
++ _objc_msgSend$getTabIdentifierForParticipantIdentifier:completionHandler:
++ _objc_msgSend$lookupInfo
++ _objc_msgSend$normalizedEmailAddressHandleForValue:
++ _objc_msgSend$normalizedPhoneNumberHandleForValue:isoCountryCode:
++ _objc_msgSend$normalizedValue
++ _objc_msgSend$participantPresenceCoordinator:didUpdateActiveParticipants:inTabGroupWithIdentifier:
++ _objc_msgSend$participantPresenceCoordinator:didUpdateActiveParticipants:inTabWithIdentifier:
++ _objc_msgSend$phoneNumber
++ _objc_release_x11
++ _swift_allocBox
++ _swift_allocError
++ _swift_allocObject
++ _swift_allocateGenericClassMetadata
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_beginAccess
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain
++ _swift_bridgeObjectRetain_n
++ _swift_checkMetadataState
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_coroFrameAlloc
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_cvw_instantiateLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_deallocObject
++ _swift_deallocPartialClassInstance
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_deletedAsyncMethodErrorTu
++ _swift_dynamicCast
++ _swift_endAccess
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getEnumCaseMultiPayload
++ _swift_getForeignTypeMetadata
++ _swift_getFunctionTypeMetadata0
++ _swift_getGenericMetadata
++ _swift_getObjCClassMetadata
++ _swift_getObjectType
++ _swift_getTupleTypeMetadata2
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_initClassMetadata2
++ _swift_initStackObject
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_lookUpClassMethod
++ _swift_once
++ _swift_release
++ _swift_release_n
++ _swift_release_x10
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain
++ _swift_retain_n
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_setDeallocating
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_storeEnumTagMultiPayload
++ _swift_task_addCancellationHandler
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_future_wait_throwing
++ _swift_task_removeCancellationHandler
++ _swift_task_switch
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_unknownObjectWeakAssign
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _swift_willThrow
++ _swift_willThrowTypedImpl
++ _symbolic $s12WebBookmarks15FastSyncMessageP
++ _symbolic $s12WebBookmarks28SendableGroupSessionProviderP
++ _symbolic $s12WebBookmarks38ParticipantPresenceCoordinatorDelegateP
++ _symbolic $s15GroupActivities0A15SessionProviderP
++ _symbolic $sSY
++ _symbolic $sSci
++ _symbolic $ss12IdentifiableP
++ _symbolic 12ActivityType_____Qy_ 15GroupActivities0A15SessionProviderP
++ _symbolic BD
++ _symbolic IeAgH_
++ _symbolic IeghH_
++ _symbolic SDySSShySo18CKShareParticipantCGG
++ _symbolic SDySSSo18CKShareParticipantCG
++ _symbolic SDySSSo7CKShareC5share_Si5counttG
++ _symbolic SDySS_____G 12WebBookmarks20ParticipantHandleMapC0C4KindO
++ _symbolic SDySS_____G 12WebBookmarks21PresenceUpdateMessageV
++ _symbolic SDySS_____G 12WebBookmarks30ParticipantPresenceCoordinatorC22ConnectionManagerStoreC06SharedF0V
++ _symbolic SS18tabGroupIdentifier_SS0aC0t
++ _symbolic SSSg
++ _symbolic SS_SS18tabGroupIdentifier_SS0aC0tt
++ _symbolic SS_ShySo18CKShareParticipantCGt
++ _symbolic SS_So18CKShareParticipantCt
++ _symbolic SS______t 12WebBookmarks20ParticipantHandleMapC0C4KindO
++ _symbolic SaySS______tG 12WebBookmarks20ParticipantHandleMapC0C4KindO
++ _symbolic SayScTyyt_____GG s5NeverO
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
++ _symbolic Say_____yxq_q0_______yShy_____GGGG 12WebBookmarks30CollaborationConnectionManagerC13WeakContainer33_6B66ADCD97034074DFF2F301074CBFA2LLV AA18AsyncBufferedQueueC 15GroupActivities11ParticipantV
++ _symbolic Sb
++ _symbolic ScA_pSg
++ _symbolic ScCyyt_____G s5NeverO
++ _symbolic ScCyyt______pG s5ErrorP
++ _symbolic ScPSg
++ _symbolic ScSyShy_____GG 15GroupActivities11ParticipantV
++ _symbolic ScSy_____G 12WebBookmarks21PresenceUpdateMessageV
++ _symbolic ScSy___________tG 12WebBookmarks21PresenceUpdateMessageV 15GroupActivities0F16SessionMessengerC0E7ContextV
++ _symbolic ScSyxG
++ _symbolic ScTy_____y_____G______pG 12WebBookmarks27CKShareGroupSessionProviderC AA0C21CollaborationActivityV s5ErrorP
++ _symbolic ScTy_____y_____G______pG 15GroupActivities08PersonalA15SessionProviderC 12WebBookmarks0C26DeviceCoordinationActivityV s5ErrorP
++ _symbolic ScTyyt_____G s5NeverO
++ _symbolic Scgyyt______pG s5ErrorP
++ _symbolic Shy_____G 15GroupActivities11ParticipantV
++ _symbolic Si
++ _symbolic So12NSDictionaryCIeyBy_
++ _symbolic So18CKShareParticipantC
++ _symbolic So5NSSetCIeyBy_
++ _symbolic So7CKShareC
++ _symbolic So8NSObjectC
++ _symbolic So8NSObjectCSg
++ _symbolic So8NSStringC
++ _symbolic So8NSStringCSgACIeyByy_
++ _symbolic So8NSStringCSgIeyBy_
++ _symbolic _____ 12WebBookmarks14CRDTGenerationV
++ _symbolic _____ 12WebBookmarks18AsyncBufferedQueueC
++ _symbolic _____ 12WebBookmarks20FastSyncStateMachineV
++ _symbolic _____ 12WebBookmarks20FastSyncStateMachineV0E0O
++ _symbolic _____ 12WebBookmarks20FastSyncStateMachineV14ActivityActionO
++ _symbolic _____ 12WebBookmarks20ParticipantHandleMapC
++ _symbolic _____ 12WebBookmarks20ParticipantHandleMapC0C4KindO
++ _symbolic _____ 12WebBookmarks20ParticipantHandleMapC6ErrorsO
++ _symbolic _____ 12WebBookmarks21PresenceUpdateMessageV
++ _symbolic _____ 12WebBookmarks21PresenceUpdateMessageV10CodingKeys025_A94E53A0CF2ED28A729D2783J6F38A64LLO
++ _symbolic _____ 12WebBookmarks21PresenceUpdateMessageV4KindO
++ _symbolic _____ 12WebBookmarks24ParticipantPresenceStoreC
++ _symbolic _____ 12WebBookmarks26PresenceUpdateMessageErrorO
++ _symbolic _____ 12WebBookmarks27CKShareGroupSessionProviderC
++ _symbolic _____ 12WebBookmarks27CKShareGroupSessionProviderC6ErrorsO
++ _symbolic _____ 12WebBookmarks28CKShareCollaborationActivityV
++ _symbolic _____ 12WebBookmarks28CKShareCollaborationActivityV10CodingKeys33_2DD9BDE9DFFCC7836901DE4E5EA19B2FLLO
++ _symbolic _____ 12WebBookmarks30CollaborationConnectionManagerC
++ _symbolic _____ 12WebBookmarks30CollaborationConnectionManagerC13WeakContainer33_6B66ADCD97034074DFF2F301074CBFA2LLV
++ _symbolic _____ 12WebBookmarks30ParticipantPresenceCoordinatorC
++ _symbolic _____ 12WebBookmarks30ParticipantPresenceCoordinatorC22ConnectionManagerStoreC
++ _symbolic _____ 12WebBookmarks30ParticipantPresenceCoordinatorC22ConnectionManagerStoreC06SharedF0V
++ _symbolic _____ 12WebBookmarks31GroupSessionMessengerControllerC
++ _symbolic _____ 12WebBookmarks34PersonalDeviceCoordinationActivityV
++ _symbolic _____ 12WebBookmarks34PersonalDeviceCoordinationActivityV10CodingKeys33_04F5B3896734A31BA7E91E2FA7C0ED77LLO
++ _symbolic _____ 15GroupActivities0A16SessionMessengerC
++ _symbolic _____ 15GroupActivities0A7SessionC12WebBookmarksE9JoinState33_1395B533318938945A0545FF7B300D51LLO
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____ s5NeverO
++ _symbolic _____ s6UInt32V
++ _symbolic _____Sg 12WebBookmarks30ParticipantPresenceCoordinatorC22ConnectionManagerStoreC06SharedF0V
++ _symbolic _____Sg 15GroupActivities11ParticipantV
++ _symbolic _____Sg 8Dispatch0A8WorkItemC
++ _symbolic _____Sgz_Xx 8Dispatch0A8WorkItemC
++ _symbolic ______ScCyyt______pGt 8Dispatch0A8WorkItemC s5ErrorP
++ _symbolic ___________t 12WebBookmarks21PresenceUpdateMessageV 15GroupActivities0F16SessionMessengerC0E7ContextV
++ _symbolic ___________tSg 12WebBookmarks21PresenceUpdateMessageV 15GroupActivities0F16SessionMessengerC0E7ContextV
++ _symbolic ______p s5ErrorP
++ _symbolic ______pSg 15GroupActivities6MemberP
++ _symbolic ______pSgXw 12WebBookmarks38ParticipantPresenceCoordinatorDelegateP
++ _symbolic _____yS2S18tabGroupIdentifier_SS0aC0tG s18_DictionaryStorageC
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySSShySo18CKShareParticipantCGG s18_DictionaryStorageC
++ _symbolic _____ySSSiG s18_DictionaryStorageC
++ _symbolic _____ySSSo18CKShareParticipantCG s18_DictionaryStorageC
++ _symbolic _____ySSSo7CKShareC5share_Si5counttG s18_DictionaryStorageC
++ _symbolic _____ySS_SS18tabGroupIdentifier_SS0aC0ttG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_ShySo18CKShareParticipantCGtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_So18CKShareParticipantCtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12WebBookmarks20ParticipantHandleMapC0E4KindO
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12WebBookmarks21PresenceUpdateMessageV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12WebBookmarks30ParticipantPresenceCoordinatorC22ConnectionManagerStoreC06SharedH0V
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 12WebBookmarks20ParticipantHandleMapC0F4KindO
++ _symbolic _____ySaySS______tGG s23_ContiguousArrayStorageC 12WebBookmarks20ParticipantHandleMapC0F4KindO
++ _symbolic _____yScTyyt_____GG s23_ContiguousArrayStorageC s5NeverO
++ _symbolic _____yShy_____GG 12WebBookmarks18AsyncBufferedQueueC 15GroupActivities11ParticipantV
++ _symbolic _____yShy_____G_G 7Combine9PublishedV9PublisherV 15GroupActivities11ParticipantV
++ _symbolic _____yShy_____G_G ScS12ContinuationV 15GroupActivities11ParticipantV
++ _symbolic _____yShy_____G_G ScS8IteratorV 15GroupActivities11ParticipantV
++ _symbolic _____yShy_____G_GSg ScS12ContinuationV 15GroupActivities11ParticipantV
++ _symbolic _____yShy_____G__G ScS12ContinuationV11YieldResultO 15GroupActivities11ParticipantV
++ _symbolic _____yShy_____G__G ScS12ContinuationV15BufferingPolicyO 15GroupActivities11ParticipantV
++ _symbolic _____yShy_____G_____G 7Combine19CurrentValueSubjectC 15GroupActivities17AddressableMemberV s5NeverO
++ _symbolic _____ySo18CKShareParticipantCG s11_SetStorageC
++ _symbolic _____y_____G 12WebBookmarks18AsyncBufferedQueueC AA21PresenceUpdateMessageV
++ _symbolic _____y_____G 12WebBookmarks27CKShareGroupSessionProviderC AA0C21CollaborationActivityV
++ _symbolic _____y_____G 15GroupActivities08PersonalA15SessionProviderC 12WebBookmarks0C26DeviceCoordinationActivityV
++ _symbolic _____y_____G 15GroupActivities0A7SessionC 12WebBookmarks28CKShareCollaborationActivityV
++ _symbolic _____y_____G 15GroupActivities0A7SessionC 12WebBookmarks34PersonalDeviceCoordinationActivityV
++ _symbolic _____y_____G s11_SetStorageC 12WebBookmarks20ParticipantHandleMapC0E4KindO
++ _symbolic _____y_____G s11_SetStorageC 15GroupActivities11ParticipantV
++ _symbolic _____y_____G s11_SetStorageC 15GroupActivities17AddressableMemberV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12WebBookmarks21PresenceUpdateMessageV10CodingKeys025_A94E53A0CF2ED28A729D2783M6F38A64LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12WebBookmarks28CKShareCollaborationActivityV10CodingKeys33_2DD9BDE9DFFCC7836901DE4E5EA19B2FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12WebBookmarks34PersonalDeviceCoordinationActivityV10CodingKeys33_04F5B3896734A31BA7E91E2FA7C0ED77LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12WebBookmarks21PresenceUpdateMessageV10CodingKeys025_A94E53A0CF2ED28A729D2783M6F38A64LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12WebBookmarks28CKShareCollaborationActivityV10CodingKeys33_2DD9BDE9DFFCC7836901DE4E5EA19B2FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12WebBookmarks34PersonalDeviceCoordinationActivityV10CodingKeys33_04F5B3896734A31BA7E91E2FA7C0ED77LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12WebBookmarks20ParticipantHandleMapC0F4KindO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 15GroupActivities11ParticipantV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 15GroupActivities17AddressableMemberV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____GIeghHg_ 12WebBookmarks27CKShareGroupSessionProviderC AA0C21CollaborationActivityV
++ _symbolic _____y_____GIeghHg_ 15GroupActivities08PersonalA15SessionProviderC 12WebBookmarks0C26DeviceCoordinationActivityV
++ _symbolic _____y______G 12WebBookmarks27CKShareGroupSessionProviderC6ErrorsO AA0C21CollaborationActivityV
++ _symbolic _____y______G 15GroupActivities0A16SessionMessengerC8MessagesV 12WebBookmarks21PresenceUpdateMessageV
++ _symbolic _____y______G 15GroupActivities0A7SessionC12WebBookmarksE9JoinState33_1395B533318938945A0545FF7B300D51LLO AD28CKShareCollaborationActivityV
++ _symbolic _____y______G 15GroupActivities0A7SessionC12WebBookmarksE9JoinState33_1395B533318938945A0545FF7B300D51LLO AD34PersonalDeviceCoordinationActivityV
++ _symbolic _____y______G 15GroupActivities0A7SessionC5StateO 12WebBookmarks28CKShareCollaborationActivityV
++ _symbolic _____y______G 15GroupActivities0A7SessionC5StateO 12WebBookmarks34PersonalDeviceCoordinationActivityV
++ _symbolic _____y______G 15GroupActivities0A7SessionC8SessionsV 12WebBookmarks28CKShareCollaborationActivityV
++ _symbolic _____y______G 15GroupActivities0A7SessionC8SessionsV 12WebBookmarks34PersonalDeviceCoordinationActivityV
++ _symbolic _____y______G ScS12ContinuationV 12WebBookmarks21PresenceUpdateMessageV
++ _symbolic _____y______G ScS8IteratorV 12WebBookmarks21PresenceUpdateMessageV
++ _symbolic _____y______GSg 15GroupActivities0A7SessionC5StateO 12WebBookmarks28CKShareCollaborationActivityV
++ _symbolic _____y______GSg 15GroupActivities0A7SessionC5StateO 12WebBookmarks34PersonalDeviceCoordinationActivityV
++ _symbolic _____y______GSg ScS12ContinuationV 12WebBookmarks21PresenceUpdateMessageV
++ _symbolic _____y_______G 15GroupActivities0A16SessionMessengerC8MessagesV8IteratorV 12WebBookmarks21PresenceUpdateMessageV
++ _symbolic _____y_______G 15GroupActivities0A7SessionC8SessionsV8IteratorV 12WebBookmarks28CKShareCollaborationActivityV
++ _symbolic _____y_______G 15GroupActivities0A7SessionC8SessionsV8IteratorV 12WebBookmarks34PersonalDeviceCoordinationActivityV
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 12WebBookmarks21PresenceUpdateMessageV
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 12WebBookmarks21PresenceUpdateMessageV
++ _symbolic _____y__________G 12WebBookmarks31GroupSessionMessengerControllerC AA28CKShareCollaborationActivityV AA21PresenceUpdateMessageV
++ _symbolic _____y__________G 12WebBookmarks31GroupSessionMessengerControllerC AA34PersonalDeviceCoordinationActivityV AA21PresenceUpdateMessageV
++ _symbolic _____y__________G 7Combine19CurrentValueSubjectC 15GroupActivities0E20SessionProviderStateO s5NeverO
++ _symbolic _____y___________tG 12WebBookmarks18AsyncBufferedQueueC AA21PresenceUpdateMessageV 15GroupActivities0I16SessionMessengerC0H7ContextV
++ _symbolic _____y___________t_G ScS12ContinuationV 12WebBookmarks21PresenceUpdateMessageV 15GroupActivities0G16SessionMessengerC0F7ContextV
++ _symbolic _____y___________t_G ScS8IteratorV 12WebBookmarks21PresenceUpdateMessageV 15GroupActivities0G16SessionMessengerC0F7ContextV
++ _symbolic _____y___________t_GSg ScS12ContinuationV 12WebBookmarks21PresenceUpdateMessageV 15GroupActivities0G16SessionMessengerC0F7ContextV
++ _symbolic _____y___________t__G ScS12ContinuationV11YieldResultO 12WebBookmarks21PresenceUpdateMessageV 15GroupActivities0I16SessionMessengerC0H7ContextV
++ _symbolic _____y___________t__G ScS12ContinuationV15BufferingPolicyO 12WebBookmarks21PresenceUpdateMessageV 15GroupActivities0I16SessionMessengerC0H7ContextV
++ _symbolic _____y__________yABG_GIeghHg_ 12WebBookmarks20FastSyncStateMachineV14ActivityActionO AA020CKShareCollaborationG0V AA0I20GroupSessionProviderC
++ _symbolic _____y__________yABG_GIeghHg_ 12WebBookmarks20FastSyncStateMachineV14ActivityActionO AA026PersonalDeviceCoordinationG0V 15GroupActivities0iL15SessionProviderC
++ _symbolic _____y__________yABG_____G 12WebBookmarks30CollaborationConnectionManagerC AA07CKShareC8ActivityV AA0F20GroupSessionProviderC AA21PresenceUpdateMessageV
++ _symbolic _____y__________yABG_____G 12WebBookmarks30CollaborationConnectionManagerC AA34PersonalDeviceCoordinationActivityV 15GroupActivities0fJ15SessionProviderC AA21PresenceUpdateMessageV
++ _symbolic _____y__________yABG_____GSg 12WebBookmarks30CollaborationConnectionManagerC AA34PersonalDeviceCoordinationActivityV 15GroupActivities0fJ15SessionProviderC AA21PresenceUpdateMessageV
++ _symbolic _____y__________yABG___________yShy_____GGG 12WebBookmarks30CollaborationConnectionManagerC13WeakContainer33_6B66ADCD97034074DFF2F301074CBFA2LLV AA07CKShareC8ActivityV AA0M20GroupSessionProviderC AA21PresenceUpdateMessageV AA18AsyncBufferedQueueC 0O10Activities11ParticipantV
++ _symbolic _____y__________yABG___________yShy_____GGG 12WebBookmarks30CollaborationConnectionManagerC13WeakContainer33_6B66ADCD97034074DFF2F301074CBFA2LLV AA34PersonalDeviceCoordinationActivityV 15GroupActivities0mQ15SessionProviderC AA21PresenceUpdateMessageV AA18AsyncBufferedQueueC AI11ParticipantV
++ _symbolic _____y_____yShy_____G_GG 7Combine14AsyncPublisherV AA9PublishedV0C0V 15GroupActivities11ParticipantV
++ _symbolic _____y_____yShy_____G_G_G 7Combine14AsyncPublisherV8IteratorV AA9PublishedV0C0V 15GroupActivities11ParticipantV
++ _symbolic _____y_____y______G_G 7Combine9PublishedV9PublisherV 15GroupActivities0D7SessionC5StateO 12WebBookmarks28CKShareCollaborationActivityV
++ _symbolic _____y_____y______G_G 7Combine9PublishedV9PublisherV 15GroupActivities0D7SessionC5StateO 12WebBookmarks34PersonalDeviceCoordinationActivityV
++ _symbolic _____y_____y______G_____G s13ManagedBufferCsRi__rlE 15GroupActivities0C7SessionC12WebBookmarksE9JoinState33_1395B533318938945A0545FF7B300D51LLO AF28CKShareCollaborationActivityV So16os_unfair_lock_sV
++ _symbolic _____y_____y______G_____G s13ManagedBufferCsRi__rlE 15GroupActivities0C7SessionC12WebBookmarksE9JoinState33_1395B533318938945A0545FF7B300D51LLO AF34PersonalDeviceCoordinationActivityV So16os_unfair_lock_sV
++ _symbolic _____y_____y__________yACG___________yShy_____GGGG s23_ContiguousArrayStorageC 12WebBookmarks30CollaborationConnectionManagerC13WeakContainer33_6B66ADCD97034074DFF2F301074CBFA2LLV AC07CKShareF8ActivityV AC0P20GroupSessionProviderC AC21PresenceUpdateMessageV AC18AsyncBufferedQueueC 0R10Activities11ParticipantV
++ _symbolic _____y_____y__________yACG___________yShy_____GGGG s23_ContiguousArrayStorageC 12WebBookmarks30CollaborationConnectionManagerC13WeakContainer33_6B66ADCD97034074DFF2F301074CBFA2LLV AC34PersonalDeviceCoordinationActivityV 15GroupActivities0pT15SessionProviderC AC21PresenceUpdateMessageV AC18AsyncBufferedQueueC AK11ParticipantV
++ _symbolic _____y_____y_____y______G_GG 7Combine14AsyncPublisherV AA9PublishedV0C0V 15GroupActivities0E7SessionC5StateO 12WebBookmarks28CKShareCollaborationActivityV
++ _symbolic _____y_____y_____y______G_GG 7Combine14AsyncPublisherV AA9PublishedV0C0V 15GroupActivities0E7SessionC5StateO 12WebBookmarks34PersonalDeviceCoordinationActivityV
++ _symbolic _____y_____y_____y______G_G_G 7Combine14AsyncPublisherV8IteratorV AA9PublishedV0C0V 15GroupActivities0F7SessionC5StateO 12WebBookmarks28CKShareCollaborationActivityV
++ _symbolic _____y_____y_____y______G_G_G 7Combine14AsyncPublisherV8IteratorV AA9PublishedV0C0V 15GroupActivities0F7SessionC5StateO 12WebBookmarks34PersonalDeviceCoordinationActivityV
++ _symbolic _____yq0_______tG 12WebBookmarks18AsyncBufferedQueueC 15GroupActivities0F16SessionMessengerC14MessageContextV
++ _symbolic _____yq_G 12WebBookmarks18AsyncBufferedQueueC
++ _symbolic _____yq_______tG 12WebBookmarks18AsyncBufferedQueueC 15GroupActivities0F16SessionMessengerC14MessageContextV
++ _symbolic _____yxG 15GroupActivities0A7SessionC
++ _symbolic _____yx_G ScS12ContinuationV
++ _symbolic _____yx_G ScS8IteratorV
++ _symbolic _____yxq0_GSg 12WebBookmarks31GroupSessionMessengerControllerC
++ _symbolic _____yxq_G 12WebBookmarks20FastSyncStateMachineV
++ _symbolic _____yxq__G 12WebBookmarks20FastSyncStateMachineV0E0O
++ _symbolic q0_
++ _symbolic q_
++ _symbolic q_15leavingProvider_ScTyyt_____G9leaveTaskt s5NeverO
++ _symbolic q_15leavingProvider_q_08startingB0ScTyq_______pG21startAfterLeavingTaskt s5ErrorP
++ _symbolic q_8provider_ScTyq_______pG9startTaskt s5ErrorP
++ _symbolic q_8provider_ScTyyt_____G4taskt s5NeverO
++ _symbolic q_8provider_______p5errort s5ErrorP
++ _symbolic q_xKc
++ _symbolic qd__
++ _symbolic qd__SgXw
++ _symbolic x
++ _symbolic ytIeAgHr_
++ _type_layout_string 12ActivityTypeQy_Rsz12WebBookmarks28SendableGroupSessionProviderR_r0_lAC20FastSyncStateMachineV0K0Oyxq__G
++ _type_layout_string 12WebBookmarks14CRDTGenerationV
++ _type_layout_string 12WebBookmarks20ParticipantHandleMapC0C4KindO
++ _type_layout_string 12WebBookmarks21PresenceUpdateMessageV
++ _type_layout_string 12WebBookmarks21PresenceUpdateMessageV4KindO
++ _type_layout_string 12WebBookmarks28CKShareCollaborationActivityV
++ _type_layout_string 12WebBookmarks30ParticipantPresenceCoordinatorC22ConnectionManagerStoreC06SharedF0V
++ _type_layout_string 12WebBookmarks34PersonalDeviceCoordinationActivityV
++ _type_layout_string So16os_unfair_lock_sV
++ _type_layout_string s23CustomStringConvertibleRzs8SendableRz12ActivityTypeQy_Rsz12WebBookmarks0D20GroupSessionProviderR_AE15FastSyncMessageR0_Rld__Cr1__lAE30CollaborationConnectionManagerC13WeakContainer33_6B66ADCD97034074DFF2F301074CBFA2LLVyxq_q0__qd__G
+- GCC_except_table432
+- GCC_except_table436
+- GCC_except_table443
+- GCC_except_table452
+- GCC_except_table453
+- GCC_except_table454
+- GCC_except_table467
+- GCC_except_table471
+- GCC_except_table472
+- GCC_except_table479
+- GCC_except_table481
+- GCC_except_table485
+- GCC_except_table503
+- GCC_except_table504
+- GCC_except_table508
+- GCC_except_table519
+- GCC_except_table525
+- GCC_except_table526
+- GCC_except_table527
+- GCC_except_table541
+- GCC_except_table550
+- GCC_except_table551
+- GCC_except_table563
+- GCC_except_table564
+- GCC_except_table565
+- GCC_except_table579
+- GCC_except_table597
+- GCC_except_table604
+- GCC_except_table605
+CStrings:
++ "; tabIdentifier: "
++ "<PresenceUpdateMessage; kind: join; tabGroupIdentifier: "
++ "<PresenceUpdateMessage; kind: leave; generation: "
++ "@@ %s: Feature text changed via sync, posting notification"
++ "ALTER TABLE bookmarks ADD COLUMN last_selected_child INTEGER DEFAULT NULL REFERENCES bookmarks (id) ON DELETE SET NULL"
++ "Active participants did change in personal device connection"
++ "Adding paused connection for tab group %{public}s"
++ "Already running a device coordination session"
++ "Changed state to invalidated in groupSession for activity %{public}s with error: %@"
++ "Changed state to joined in groupSession for activity %{public}s"
++ "Changed state to waiting in groupSession for activity %{public}s"
++ "Decrementing retain count for paused tab group connection %{public}s"
++ "Decrementing retain count for tab group connection %{public}s"
++ "Did begin group session for activity: %{public}s"
++ "Did begin personal device connection activity"
++ "Did cancel receiving message subscription for activity %{public}s"
++ "Did cancel sending message subscription for activity %{public}s"
++ "Did fail to join groupSessionProvider for activity %{public}s, error: %@"
++ "Did fail to leave groupSessionProvider for activity %{public}s, error: %@"
++ "Did finish observering active participant changes in personal device connection"
++ "Did finish observing active participant changes in shared connection for tab group %{public}s"
++ "Did finish observing activeParticipants changes for activity: %{public}s"
++ "Did finish observing groupSession state changes for activity: %{public}s"
++ "Did finish receiving messages in shared connection for tab group %{public}s"
++ "Did finish running group session for activity: %{public}s"
++ "Did finnish receiving messages in personal device connection"
++ "Did join group session for activity: %{public}s"
++ "Did join groupSessionProvider for activity: %{public}s"
++ "Did leave personal device connection activity"
++ "Did receive message for activity %{public}s"
++ "Did receive message for personal device connection"
++ "Did receive message in shared connection for tab group %{public}s"
++ "Did send message to activity %{public}s"
++ "Duplicate values for key: '"
++ "Ending personal device connection"
++ "FTSYNC: registering Darwin observer for com.apple.bookmarks.FeatureTextChangedViaSync (collection=%p)"
++ "Failed to join group session for activity: %{public}s, error: %@"
++ "Failed to leave activity"
++ "Failed to leave activity for share %s"
++ "Failed to send message to activity %{public}s with error: %@"
++ "Failed to send message to new participants in personal device connection, error: %@"
++ "Failed to send message to new participants in shared connection for tab group %{public}s, error: %@"
++ "Failed to start activity with error %@"
++ "Failed to start shared activity for share: %s with error %@"
++ "Fatal error"
++ "Getting connection manager for tab group %{public}s, has manager: %{bool,public}d"
++ "Ignoring didStartActivity() for a group session provider we've stopped tracking"
++ "Ignoring startActivity(_:didFailWith:) for a group session provider we've stopped tracking %@"
++ "Incrementing retain count for paused tab group connection %{public}s"
++ "Incrementing retain count for tab group connection %{public}s"
++ "Message ignored while there are no active sessions for activity: %{public}s"
++ "No active connections to update for tab group %{public}s"
++ "No paused connections to update for tab group %{public}s"
++ "Opening new connection for tab group %{public}s"
++ "Participant should not be associated with a tab group it has not joined"
++ "Pausing connection for tab group %{public}s with retain count %{public}ld"
++ "Pausing shared connections"
++ "Removing last instance of active connection for tab group %{public}s"
++ "Removing last instance of paused connection for tab group %{public}s"
++ "Retrying after group session for activity: %{public}s unexpectedly failed: %@"
++ "Session is active with message controller for activity %{public}s"
++ "Setting up message subscription tasks for activity %{public}s"
++ "Share %s does not have a currentUserParticipant"
++ "Starting personal device connection"
++ "Swift/NativeDictionary.swift"
++ "Trying to start a collaboration activity with a CKShare not attached to a tab group"
++ "Unpausing connection for tab group %{public}s with retain count %{public}ld"
++ "Unpausing shared connections"
++ "Updating paused connection share for tab group %{public}s"
++ "We should have checked beforehand that the CKShare represented a valid tab group share"
++ "We should only see valid participants at this point"
++ "WebBookmarks/ParticipantPresenceCoordinator.swift"
++ "WebBookmarks/ParticipantPresenceStore.swift"
++ "WebBookmarksFeatureTextDidChangeViaSyncNotification"
++ "Will begin observing active participant changes in personal device connection"
++ "Will begin observing active participant changes in shared connection for tab group %{public}s"
++ "Will begin receiving messages in personal device connection"
++ "Will begin receiving messages in shared connection for tab group %{public}s"
++ "Will join group session for activity: %{public}s"
++ "Will join groupSessionProvider for activity: %{public}s"
++ "Will leave all shared tab groups"
++ "Will move to tab with identifier %{public}s in shared tab group with identifier %{public}s"
++ "Will send message to activity %{public}s"
++ "Will send personal connection message to join tab group identifier %{public}s in tab %{public}s, generation: %{public}s"
++ "Will send personal connection message to leave tab group, generation: %{public}s"
++ "Will send shared connection message to join tab group identifier %{public}s in tab %{public}s, generation: %{public}s"
++ "Will send shared connection message to leave shared tab group with identifier %{public}s, generation: %{public}s"
++ "com.apple.Safari.group-activities.shared-presence-sync"
++ "com.apple.WebBookmarks.group-activities.join-leave-session"
++ "com.apple.WebBookmarks.group-activities.personal-device-coordination"
++ "com.apple.WebBookmarks.syncLockQueue"
++ "com.apple.bookmarks.FeatureTextChangedViaSync"
++ "di"
++ "g"
++ "j"
++ "k"
++ "l"
++ "startingEnqueuedAfterLeaving(\n    leaving "
++ "tg"
++ "tgi"
++ "v16@?0@\"NSDictionary\"8"
++ "v16@?0@\"NSSet\"8"
+- "ALTER TABLE bookmarks ADD COLUMN last_selected_child INTEGER DEFAULT NULL"
+- "ALTER TABLE bookmarks ADD FOREIGN KEY (last_selected_child) REFERENCES bookmarks (id) ON DELETE SET NULL"
+- "come.apple.WebBookmarks.syncLockQueue"
+```

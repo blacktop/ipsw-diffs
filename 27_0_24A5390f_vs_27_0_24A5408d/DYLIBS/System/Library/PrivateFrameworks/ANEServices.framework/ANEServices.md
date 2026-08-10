@@ -1,0 +1,166 @@
+## ANEServices
+
+> `/System/Library/PrivateFrameworks/ANEServices.framework/ANEServices`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__weak_got`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__weak_auth_got`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+-10.16.2.0.0
+-  __TEXT.__text: 0x4a3d8
++10.19.2.0.0
++  __TEXT.__text: 0x49760
+   __TEXT.__objc_methlist: 0x38
+-  __TEXT.__const: 0x2775
+-  __TEXT.__cstring: 0x547b
+-  __TEXT.__gcc_except_tab: 0x186c
+-  __TEXT.__oslogstring: 0x4c88
+-  __TEXT.__unwind_info: 0x13b0
++  __TEXT.__gcc_except_tab: 0x1964
++  __TEXT.__const: 0x279d
++  __TEXT.__oslogstring: 0x4d2b
++  __TEXT.__cstring: 0x538e
++  __TEXT.__unwind_info: 0x1430
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__weak_got: 0x10
+   __DATA_CONST.__objc_selrefs: 0x40
+   __DATA_CONST.__got: 0x1e8
+-  __AUTH_CONST.__const: 0x1e78
++  __AUTH_CONST.__const: 0x1eb0
+   __AUTH_CONST.__cfstring: 0xa0
+   __AUTH_CONST.__objc_const: 0x90
+   __AUTH_CONST.__weak_auth_got: 0xf8
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 2116
+-  Symbols:   2391
+-  CStrings:  895
++  Functions: 1989
++  Symbols:   2441
++  CStrings:  883
+ 
+Symbols:
++ GCC_except_table101
++ GCC_except_table107
++ GCC_except_table110
++ GCC_except_table114
++ GCC_except_table117
++ GCC_except_table279
++ GCC_except_table290
++ GCC_except_table298
++ GCC_except_table306
++ GCC_except_table314
++ GCC_except_table322
++ GCC_except_table34
++ GCC_except_table340
++ GCC_except_table359
++ GCC_except_table38
++ GCC_except_table55
++ GCC_except_table93
++ GCC_except_table97
++ __ZL40ANEProgramCreateArgsOutput_SetupPointersP26ANEProgramCreateArgsOutputyjjj
++ __ZN15rt_kernel_paramD0Ev
++ __ZN15rt_kernel_paramD1Ev
++ __ZN23ZinRtProcedureGraphUtil30IsUnaryExpressionOperationTypeE16RtExpressionType
++ __ZN23ZinRtProcedureGraphUtil31IsBinaryExpressionOperationTypeE16RtExpressionType
++ __ZN23ZinRtProcedureGraphUtil34IsImmediateExpressionOperationTypeE16RtExpressionType
++ __ZN23ZinRtProcedureGraphUtil39ZinComputeProgramTraverseProcedureGraphEP16RtProcedureGraphNSt3__18functionIF23ZinComputeProgramStatusP20RtProcedureGraphNodeEEENS3_IFS4_P20RtOperationGraphNodeEEE
++ __ZN23ZinRtProcedureGraphUtilL38ZinComputeProgramTraverseOperationNodeEP20RtOperationGraphNodeNSt3__18functionIF23ZinComputeProgramStatusS1_EEE
++ __ZN23ZinRtProcedureGraphUtilL39ZinComputeProgramTraverseOperationGraphEP16RtOperationGraphNSt3__18functionIF23ZinComputeProgramStatusP20RtOperationGraphNodeEEE
++ __ZN3ANE16ANEHWDeviceDebug20ANE_ResetTraceBufferEv
++ __ZNKSt3__18functionIF23ZinComputeProgramStatusP20RtOperationGraphNodeEEclES3_
++ __ZNKSt3__18functionIF23ZinComputeProgramStatusP20RtProcedureGraphNodeEEclES3_
++ __ZNSt3__110__function12__value_funcIF23ZinComputeProgramStatusP20RtOperationGraphNodeEEC2B9fqe220106ERKS6_
++ __ZNSt3__110__function12__value_funcIF23ZinComputeProgramStatusP20RtOperationGraphNodeEED2B9fqe220106Ev
++ __ZNSt3__114__split_bufferIPP20RtOperationGraphNodeNS_9allocatorIS3_EEE12emplace_backIJRS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPP20RtOperationGraphNodeNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPP20RtOperationGraphNodeNS_9allocatorIS3_EEE13emplace_frontIJS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPP20RtOperationGraphNodeNS_9allocatorIS3_EEED2Ev
++ __ZNSt3__114__split_bufferIPP20RtOperationGraphNodeRNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPP20RtOperationGraphNodeRNS_9allocatorIS3_EEE13emplace_frontIJRS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPP20RtProcedureGraphNodeNS_9allocatorIS3_EEE12emplace_backIJRS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPP20RtProcedureGraphNodeNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPP20RtProcedureGraphNodeNS_9allocatorIS3_EEE13emplace_frontIJS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPP20RtProcedureGraphNodeNS_9allocatorIS3_EEED2Ev
++ __ZNSt3__114__split_bufferIPP20RtProcedureGraphNodeRNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPP20RtProcedureGraphNodeRNS_9allocatorIS3_EEE13emplace_frontIJRS3_EEEvDpOT_
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIPP20RtOperationGraphNodeEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIPP20RtProcedureGraphNodeEENS_16allocator_traitsIS5_EEEENS_19__allocation_resultINT0_7pointerENS9_9size_typeEEERT_m
++ __ZNSt3__13setIP20RtOperationGraphNodeNS_4lessIS2_EENS_9allocatorIS2_EEE6insertB9fqe220106ERKS2_
++ __ZNSt3__13setIP20RtProcedureGraphNodeNS_4lessIS2_EENS_9allocatorIS2_EEE6insertB9fqe220106ERKS2_
++ __ZNSt3__15dequeIP20RtOperationGraphNodeNS_9allocatorIS2_EEE19__add_back_capacityEv
++ __ZNSt3__15dequeIP20RtOperationGraphNodeNS_9allocatorIS2_EEE25__maybe_remove_back_spareB9fqe220106Eb
++ __ZNSt3__15dequeIP20RtOperationGraphNodeNS_9allocatorIS2_EEE9push_backERKS2_
++ __ZNSt3__15dequeIP20RtOperationGraphNodeNS_9allocatorIS2_EEED2B9fqe220106Ev
++ __ZNSt3__15dequeIP20RtProcedureGraphNodeNS_9allocatorIS2_EEE19__add_back_capacityEv
++ __ZNSt3__15dequeIP20RtProcedureGraphNodeNS_9allocatorIS2_EEE25__maybe_remove_back_spareB9fqe220106Eb
++ __ZNSt3__15dequeIP20RtProcedureGraphNodeNS_9allocatorIS2_EEE9push_backERKS2_
++ __ZNSt3__15dequeIP20RtProcedureGraphNodeNS_9allocatorIS2_EEED2B9fqe220106Ev
++ __ZNSt3__16__treeIP20RtOperationGraphNodeNS_4lessIS2_EENS_9allocatorIS2_EEE14__tree_deleterclB9fqe220106EPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16__treeIP20RtOperationGraphNodeNS_4lessIS2_EENS_9allocatorIS2_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSC_SC_
++ __ZNSt3__16__treeIP20RtOperationGraphNodeNS_4lessIS2_EENS_9allocatorIS2_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16__treeIP20RtProcedureGraphNodeNS_4lessIS2_EENS_9allocatorIS2_EEE14__tree_deleterclB9fqe220106EPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16__treeIP20RtProcedureGraphNodeNS_4lessIS2_EENS_9allocatorIS2_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSC_SC_
++ __ZNSt3__16__treeIP20RtProcedureGraphNodeNS_4lessIS2_EENS_9allocatorIS2_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
++ __ZTI15rt_kernel_param
++ __ZTS15rt_kernel_param
++ __ZTV15rt_kernel_param
+- GCC_except_table286
+- GCC_except_table296
+- GCC_except_table304
+- GCC_except_table312
+- GCC_except_table320
+- GCC_except_table338
+- GCC_except_table357
+- GCC_except_table36
+- GCC_except_table42
+- GCC_except_table53
+- GCC_except_table66
+- GCC_except_table83
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_12
+- __ZL40ANEProgramCreateArgsOutput_SetupPointersP26ANEProgramCreateArgsOutputjjj
+CStrings:
++ "%s: Incompatible RTGraph version %u.%u (loader supports %u.%u)"
++ "%s: rt.version LC_NOTE payload too small (size=%llu)"
++ "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AppleH11ANEInterface/polymer/anecommon/ane_loader_driver_deps/ZinComputeDebugInfoParser.cpp"
++ "ZinComputeProgramStatus ZinComputeProgramRTMakeRuntimeGraph(ZinComputeProgramRT *)"
++ "mach_vm_allocate() failed. error: 0x%x, baseModelWiredMemorySize: 0x%llx, flags: 0x%x\n"
++ "rt.version"
+- "/Library/Caches/com.apple.xbs/<UUID>/TemporaryDirectory.<TMP>/Sources/AppleH11ANEInterface/polymer/anecommon/ane_loader/ZinComputeDebugInfoParser.cpp"
+- "add_immediate_expression_operation"
+- "alloc_operation"
+- "ane_operation"
+- "buffer_map_operation"
+- "expression_operation"
+- "immediate_expression_operation"
+- "io_map_operation"
+- "load_immediate_operation"
+- "load_operation"
+- "mach_vm_allocate() failed. error: 0x%x\n"
+- "map_operation"
+- "padding_operation"
+- "param_operation"
+- "patch_mutable_kernel_operation"
+- "range_expression_operation"
+- "store_immediate_operation"
+- "store_operation"
+```

@@ -1,0 +1,70 @@
+## SiriNetwork
+
+> `/System/Library/PrivateFrameworks/SiriNetwork.framework/SiriNetwork`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+-3600.30.7.0.0
+-  __TEXT.__text: 0x137740
++3600.30.8.0.0
++  __TEXT.__text: 0x137874
+   __TEXT.__objc_methlist: 0x282c
+   __TEXT.__const: 0x9120
+   __TEXT.__cstring: 0x1f83
+
+   __TEXT.__swift_as_ret: 0x340
+   __TEXT.__swift_as_cont: 0x6f4
+   __TEXT.__swift5_acfuncs: 0x14
+-  __TEXT.__unwind_info: 0x4ee8
++  __TEXT.__unwind_info: 0x5048
+   __TEXT.__eh_frame: 0x8420
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 9254
++  Functions: 9255
+   Symbols:   15675
+   CStrings:  833
+ 
+Symbols:
++ _$s11SiriNetwork10ConnectionC34accessPotentiallyActiveConnections33_839B73F5230E73B3991C92D4B2092E5BLLyyyAA010BackgroundC0CSgcF04$s11a9Network10c103C12sendCommands_4withySaySo15SNSessionObject_So10SNThunkingpG_ySoAF_pSg_s5Error_pSgtcSgtFyyYbcfU_yAA010P9C0CSgcfU_SaySo0xY0_So10SNThunkingpGSoAJ_pSgs5Error_pSgIeggg_SgTf1En_n
++ _$s11SiriNetwork10ConnectionC34accessPotentiallyActiveConnections33_839B73F5230E73B3991C92D4B2092E5BLLyyyAA010BackgroundC0CSgcF04$s11a9Network10c88C11sendCommand_4withySo15SNSessionObject_So10SNThunkingp_ys5Error_pSgcSgtFyyYbcfU_yAA010P9C0CSgcfU_So0wX0_So10SNThunkingps5Error_pSgIegg_SgTf1En_n
++ _$s11SiriNetwork20BackgroundConnectionC014fallbackToNextD15MethodWithError_4withys0J0_pSg_yAA0bdJ0OSgctF04$s11a9Network20cd12C014fallbackfg17D6Method5errorys5J22_pSg_tFyAA0bdJ0OSgcfU_ACSgXwz_XxAGTf1nEn_nTm
++ _$s11SiriNetwork20BackgroundConnectionC014fallbackToNextD15MethodWithError_4withys0J0_pSg_yAA0bdJ0OSgctF04$s11a9Network20cd40C5start22proposedFallbackMethod05allowg5f38NewH0yAA0dH0O_SbtKFys6ResultOyytAA0bD5J16OGcfU0_yALSgcfU_ACSgXwz_XxAITf1nEn_nTm
++ _$s11SiriNetwork20BackgroundConnectionC014fallbackToNextD15MethodWithError_4withys0J0_pSg_yAA0bdJ0OSgctF04$s11a9Network20cd51C18connectionProvider_8receivedyAA0dF8Protocol_p_s5J29_pSgtFyyYbcfU_yAA0bdI0OSgcfU_ACSgXwz_XxsAF_pTf1nEn_n
+- _$s11SiriNetwork10ConnectionC34accessPotentiallyActiveConnections33_839B73F5230E73B3991C92D4B2092E5BLLyyyAA010BackgroundC0CSgcF04$s11a9Network10c103C12sendCommands_4withySaySo15SNSessionObject_So10SNThunkingpG_ySoAF_pSg_s5Error_pSgtcSgtFyyYbcfU_yAA010P9C0CSgcfU_SaySo0xY0_So10SNThunkingpGSoAJ_pSgs5Error_pSgIeggg_SgTf1cn_n
+- _$s11SiriNetwork10ConnectionC34accessPotentiallyActiveConnections33_839B73F5230E73B3991C92D4B2092E5BLLyyyAA010BackgroundC0CSgcF04$s11a9Network10c88C11sendCommand_4withySo15SNSessionObject_So10SNThunkingp_ys5Error_pSgcSgtFyyYbcfU_yAA010P9C0CSgcfU_So0wX0_So10SNThunkingps5Error_pSgIegg_SgTf1cn_n
+- _$s11SiriNetwork20BackgroundConnectionC014fallbackToNextD15MethodWithError_4withys0J0_pSg_yAA0bdJ0OSgctF04$s11a9Network20cd12C014fallbackfg17D6Method5errorys5J22_pSg_tFyAA0bdJ0OSgcfU_ACSgXwz_XxAGTf1ncn_nTm
+- _$s11SiriNetwork20BackgroundConnectionC014fallbackToNextD15MethodWithError_4withys0J0_pSg_yAA0bdJ0OSgctF04$s11a9Network20cd40C5start22proposedFallbackMethod05allowg5f38NewH0yAA0dH0O_SbtKFys6ResultOyytAA0bD5J16OGcfU0_yALSgcfU_ACSgXwz_XxAITf1ncn_nTm
+- _$s11SiriNetwork20BackgroundConnectionC014fallbackToNextD15MethodWithError_4withys0J0_pSg_yAA0bdJ0OSgctF04$s11a9Network20cd51C18connectionProvider_8receivedyAA0dF8Protocol_p_s5J29_pSgtFyyYbcfU_yAA0bdI0OSgcfU_ACSgXwz_XxsAF_pTf1ncn_n
+```

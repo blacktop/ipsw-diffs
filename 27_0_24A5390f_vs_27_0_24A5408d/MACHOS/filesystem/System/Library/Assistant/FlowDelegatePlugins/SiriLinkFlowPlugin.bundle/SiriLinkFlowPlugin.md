@@ -1,0 +1,79 @@
+## SiriLinkFlowPlugin
+
+> `/System/Library/Assistant/FlowDelegatePlugins/SiriLinkFlowPlugin.bundle/SiriLinkFlowPlugin`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__cstring`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-3600.8.7.0.0
+-  __TEXT.__text: 0x217228
++3600.8.9.0.0
++  __TEXT.__text: 0x217248
+   __TEXT.__auth_stubs: 0x5540
+   __TEXT.__objc_stubs: 0x5340
+   __TEXT.__objc_methlist: 0xedc
+
+   __TEXT.__swift_as_cont: 0x1738
+   __TEXT.__swift5_protos: 0x90
+   __TEXT.__swift5_mpenum: 0x148
+-  __TEXT.__unwind_info: 0xa480
++  __TEXT.__unwind_info: 0xa478
+   __TEXT.__eh_frame: 0x1a074
+   __DATA_CONST.__const: 0x136b8
+   __DATA_CONST.__cfstring: 0x600
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 13538
+-  Symbols:   29846
++  Functions: 13537
++  Symbols:   29844
+   CStrings:  2865
+ 
+Symbols:
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1nEn_n
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1nEn_nTQ1_
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1nEn_nTY0_
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1nEn_nTu
++ _$ss33_resumeUnsafeThrowingContinuationyySccyxs5Error_pG_xntlFSaySo14LNAutoShortcutCG_Tgq5Tm
++ _$ss42_resumeUnsafeThrowingContinuationWithErroryySccyxs0F0_pG_sAB_pntlFSaySo14LNAutoShortcutCG_Tgq5Tm
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1ncn_n
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1ncn_nTQ1_
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1ncn_nTY0_
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O55F0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_So0ofG0CTf1ncn_nTu
+- _$ss33_resumeUnsafeThrowingContinuationyySccyxs5Error_pG_xntlFSaySo14LNAutoShortcutCG_Tgq5
+- _$ss33_resumeUnsafeThrowingContinuationyySccyxs5Error_pG_xntlFSo8LNActionC_Tgq5
+- _$ss42_resumeUnsafeThrowingContinuationWithErroryySccyxs0F0_pG_sAB_pntlFSaySo14LNAutoShortcutCG_Tgq5
+- _$ss42_resumeUnsafeThrowingContinuationWithErroryySccyxs0F0_pG_sAB_pntlFSo8LNActionC_Tgq5
+Functions:
+~ _$sSo7NSArrayCSgSo7NSErrorCSgIeyBhyy_SaySo14LNAutoShortcutCGTz_ : 152 -> 116
+~ _$s18SiriLinkFlowPlugin09ShortcutsB15RCHFlowStrategyC7flowFor6action21disambiguationRequest14selectedValues0a3KitC008AnyValueC0CyAH12PromptResultOySaySo7LNValueCGGGSo8LNActionC_So016LNDisambiguationL0CAOSgtF : 612 -> 608
+~ _$s18SiriLinkFlowPlugin09ShortcutsB15RCHFlowStrategyC7flowFor6action13choiceRequest0a3KitC008AnyValueC0CyAG12PromptResultOySo14LNChoiceOptionCGGSo8LNActionC_So0rL0CtF : 400 -> 396
+~ _$s18SiriLinkFlowPlugin09ShortcutsB15RCHFlowStrategyC7flowFor6action13successResult16startedSessionId0a3KitC003AnyC0CSo8LNActionC_So09LNSuccessL0CSSSgtF : 2728 -> 2720
+~ _$s18SiriLinkFlowPlugin09ShortcutsB15RCHFlowStrategyC7flowFor5error0a3KitC003AnyC0Cs5Error_p_tFAF6Output_pyYaYbKcfU_TY4_ : 304 -> 308
+~ _$s18SiriLinkFlowPlugin09ShortcutsB15RCHFlowStrategyC40makeOutputForFailureHandlingIntentDialog5error0a3KitC00I0_ps5Error_p_tYaKFTY2_ : 416 -> 420
+~ _$s18SiriLinkFlowPlugin09ShortcutsB15RCHFlowStrategyC16makeCustomOutput11deviceState18isAudioStartAction15responseFactory12dialogResult8manifest8viewData11appBundleId07snippetP011environment0a3KitC00J0_pAN06DeviceL0_p_SbAN18ResponseGenerating_pSo015DialogExecutionT0CAN0J18GenerationManifestV10Foundation0W0VSgSSSo8LNActionCSgSo20LNSnippetEnvironmentCSgtYaFZTY0_ : 680 -> 792
+~ _$ss13_parseInteger5ascii5radixq_Sgx_SitSyRzs010FixedWidthB0R_r0_lFSs_SiTg5 : 1452 -> 1436
+~ _$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5UInt8VGXEfU_Si_SsTG5SiTf3nnpSi10_n : 320 -> 304
+- _$s18SiriLinkFlowPlugin42CustomIntentContinueInAppResponseGeneratorCfd
+```

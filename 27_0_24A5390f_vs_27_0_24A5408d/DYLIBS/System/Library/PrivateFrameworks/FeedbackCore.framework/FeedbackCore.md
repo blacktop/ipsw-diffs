@@ -1,0 +1,216 @@
+## FeedbackCore
+
+> `/System/Library/PrivateFrameworks/FeedbackCore.framework/FeedbackCore`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__objc_stublist`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-232.0.0.0.0
+-  __TEXT.__text: 0x147ccc
+-  __TEXT.__objc_methlist: 0xb89c
+-  __TEXT.__const: 0x3a64
+-  __TEXT.__cstring: 0xa388
++235.0.0.0.0
++  __TEXT.__text: 0x148610
++  __TEXT.__lazy_helpers: 0x2a0
++  __TEXT.__objc_methlist: 0xb91c
++  __TEXT.__const: 0x3a44
++  __TEXT.__cstring: 0xa4c8
+   __TEXT.__oslogstring: 0xb006
+   __TEXT.__ustring: 0xe6
+   __TEXT.__gcc_except_tab: 0x15f0
+   __TEXT.__dlopen_cstrs: 0x62
+-  __TEXT.__constg_swiftt: 0x1f98
+-  __TEXT.__swift5_typeref: 0x3ecc
++  __TEXT.__constg_swiftt: 0x1fc0
++  __TEXT.__swift5_typeref: 0x3ec2
+   __TEXT.__swift5_builtin: 0xdc
+-  __TEXT.__swift5_reflstr: 0xd00
+-  __TEXT.__swift5_fieldmd: 0xe98
++  __TEXT.__swift5_reflstr: 0xd1b
++  __TEXT.__swift5_fieldmd: 0xea4
+   __TEXT.__swift5_assocty: 0x2b8
+   __TEXT.__swift5_proto: 0x174
+   __TEXT.__swift5_types: 0x154
+
+   __TEXT.__swift_as_ret: 0xc
+   __TEXT.__swift_as_cont: 0x24
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x4d98
+-  __TEXT.__eh_frame: 0x1390
++  __TEXT.__unwind_info: 0x4d90
++  __TEXT.__eh_frame: 0x1360
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_catlist: 0xc0
+   __DATA_CONST.__objc_protolist: 0x238
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7788
++  __DATA_CONST.__objc_selrefs: 0x77e0
+   __DATA_CONST.__objc_protorefs: 0x98
+   __DATA_CONST.__objc_superrefs: 0x278
+   __DATA_CONST.__objc_arraydata: 0x580
+-  __DATA_CONST.__got: 0x1208
++  __DATA_CONST.__got: 0x11f8
+   __AUTH_CONST.__const: 0x49a0
+   __AUTH_CONST.__cfstring: 0x9200
+-  __AUTH_CONST.__objc_const: 0x1da40
++  __AUTH_CONST.__objc_const: 0x1db50
++  __AUTH_CONST.__lazy_load_got: 0x40
+   __AUTH_CONST.__objc_intobj: 0x318
+   __AUTH_CONST.__objc_dictobj: 0xa0
+   __AUTH_CONST.__objc_arrayobj: 0x4c8
+-  __AUTH_CONST.__auth_got: 0x1818
++  __AUTH_CONST.__auth_got: 0x1810
+   __AUTH.__objc_data: 0xbb0
+   __AUTH.__data: 0x1f8
+-  __DATA.__objc_ivar: 0x71c
+-  __DATA.__data: 0x2d90
++  __DATA.__objc_ivar: 0x730
++  __DATA.__data: 0x2d84
+   __DATA.__objc_stublist: 0x8
+   __DATA.__bss: 0x31d8
+   __DATA.__common: 0x120
+   __DATA_DIRTY.__objc_data: 0x4678
+-  __DATA_DIRTY.__data: 0xe38
++  __DATA_DIRTY.__data: 0xe68
+   __DATA_DIRTY.__bss: 0x1e0
+   __DATA_DIRTY.__common: 0x40
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /System/Library/PrivateFrameworks/PersonaUI.framework/PersonaUI
+   - /System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet
+-  - /System/Library/PrivateFrameworks/SiriAppIntents.framework/SiriAppIntents
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 7712
+-  Symbols:   10369
+-  CStrings:  2627
++  Functions: 7725
++  Symbols:   10397
++  CStrings:  2632
+ 
+Symbols:
++ -[FBKAttachmentManager initWithMatcherPredicates:pendingFileUrls:pendingExtensions:form:targetDevice:shouldGetSessionStatus:shouldCheckDeferredLogs:attachmentDescriptors:autoGathersDiagnosticExtensions:removesDeletedDEAttachments:]
++ -[FBKAttachmentManager isRemovingAllAttachments]
++ -[FBKAttachmentManager setIsRemovingAllAttachments:]
++ -[FBKBugFormTableViewController disableGatherAndSubmit]
++ -[FBKBugFormTableViewController removesDeletedDEAttachments]
++ -[FBKBugFormTableViewController setDisableGatherAndSubmit:]
++ -[FBKBugFormTableViewController setRemovesDeletedDEAttachments:]
++ -[FBKBugFormTableViewController(DiffableDataSource) clearSnapshotForModelTeardown]
++ -[FBKDECollector removesDeletedDEAttachments]
++ -[FBKDECollector setRemovesDeletedDEAttachments:]
++ -[FBKDeviceDiagnosticsController initWithDeviceManager:delegate:filerForm:pendingFileUrls:pendingURLExtensions:draftDeviceIds:attachmentDescriptors:autoGathersDiagnosticExtensions:removesDeletedDEAttachments:]
++ -[FBKDeviceDiagnosticsController removesDeletedDEAttachments]
++ -[FBKDeviceDiagnosticsController setRemovesDeletedDEAttachments:]
++ _OBJC_IVAR_$_FBKAttachmentManager._isRemovingAllAttachments
++ _OBJC_IVAR_$_FBKBugFormTableViewController._disableGatherAndSubmit
++ _OBJC_IVAR_$_FBKBugFormTableViewController._removesDeletedDEAttachments
++ _OBJC_IVAR_$_FBKDECollector._removesDeletedDEAttachments
++ _OBJC_IVAR_$_FBKDeviceDiagnosticsController._removesDeletedDEAttachments
++ _UIAccessibilityTraitSelected
++ ___209-[FBKDeviceDiagnosticsController initWithDeviceManager:delegate:filerForm:pendingFileUrls:pendingURLExtensions:draftDeviceIds:attachmentDescriptors:autoGathersDiagnosticExtensions:removesDeletedDEAttachments:]_block_invoke
++ ___209-[FBKDeviceDiagnosticsController initWithDeviceManager:delegate:filerForm:pendingFileUrls:pendingURLExtensions:draftDeviceIds:attachmentDescriptors:autoGathersDiagnosticExtensions:removesDeletedDEAttachments:]_block_invoke_2
++ ___231-[FBKAttachmentManager initWithMatcherPredicates:pendingFileUrls:pendingExtensions:form:targetDevice:shouldGetSessionStatus:shouldCheckDeferredLogs:attachmentDescriptors:autoGathersDiagnosticExtensions:removesDeletedDEAttachments:]_block_invoke
++ ___block_descriptor_99_e8_32s40s48s56s64s72s80s88s_e32_v24?0"NSDictionary"8"NSSet"16ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8
++ __dyld_lazy_load
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA05TupleD0VyACyACyAA4ViewPAAE10fontWeightyQrAA4FontV0I0VSgFQOyACyACyACyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGGAA18_AspectRatioLayoutVGAA06_FrameR0VG_Qo_AA08_PaddingR0VGAA013_TraitWritingN0VyAA010TransitionU3KeyVGGSg_ACyACyACyAA6VStackVyAGyAA4TextVSg_ACyAA09_VariadicG0O4TreeVy_AA01_R4RootVy12FeedbackCore013EvenWidthGridR0VGAA7ForEachVySaySo17FBKQuestionChoiceCGA31_ACyAiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAiAE06toggleM0yQrqd__AA06ToggleM0Rd__lFQOyAA6ToggleVyACyA16_AA05_FlexsR0VGG_AA012ButtonToggleM0VQo__A31_Qo_A4_GGGA4_GQPGGA4_GA40_GA0_GQPGGA40_GAaHHPA57_AaHHPyHC_A40_AA0gN0HPyHCHC
++ _lazyLoadFlag$SiriAppIntents
++ _objc_msgSend$applySnapshot:animatingDifferences:
++ _objc_msgSend$clearSnapshotForModelTeardown
++ _objc_msgSend$disableGatherAndSubmit
++ _objc_msgSend$initWithCGImage:scale:orientation:
++ _objc_msgSend$initWithDeviceManager:delegate:filerForm:pendingFileUrls:pendingURLExtensions:draftDeviceIds:attachmentDescriptors:autoGathersDiagnosticExtensions:removesDeletedDEAttachments:
++ _objc_msgSend$initWithMatcherPredicates:pendingFileUrls:pendingExtensions:form:targetDevice:shouldGetSessionStatus:shouldCheckDeferredLogs:attachmentDescriptors:autoGathersDiagnosticExtensions:removesDeletedDEAttachments:
++ _objc_msgSend$isRemovingAllAttachments
++ _objc_msgSend$prepareImageForDescriptor:
++ _objc_msgSend$removesDeletedDEAttachments
++ _objc_msgSend$setDirectionalLayoutMargins:
++ _objc_msgSend$setIsRemovingAllAttachments:
++ _objc_msgSend$setRemovesDeletedDEAttachments:
++ _objc_msgSend$setTableHeaderView:
++ _symbolic _____Sg______y_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAjCy_____y_____y_____yACyAA_____GG______Qo__AJQo______GGGASGt 7SwiftUI4TextV AA15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridI0V AA7ForEachV AA0G0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO ArAE11toggleStyleyQrqd__AA06ToggleV0Rd__lFQO AA0W0V AA010_FlexFrameI0V AA06ButtonwV0V AA08_PaddingI0V
++ _symbolic ______p s7CVarArgP
++ _symbolic _____yAAyAAy_____y_____y_____Sg_AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAlAy_____y_____y_____yAAyAD_____GG______Qo__ALQo______GGGAUGQPGGAUGAOG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA13_VariadicViewO4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridK0V AA7ForEachV AA0I0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AvAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQO AA0Y0V AA010_FlexFrameK0V AA06ButtonyX0V AA08_PaddingK0V AA06_FrameK0V
++ _symbolic _____yAAy_____yAAyAAyAAy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_AAyAAyAAy_____y_____y_____Sg_AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGA1_AAy_____y_____y_____yAAyAU_____GG______Qo__A1_Qo_ALGGGALGQPGGALGA4_GAIGt 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA18_AspectRatioLayoutV AA06_FrameP0V AA08_PaddingP0V AA013_TraitWritingL0V AA010TransitionS3KeyV AA6VStackV AA05TupleD0V AA4TextV AA09_VariadicE0O4TreeV AA01_P4RootV 12FeedbackCore013EvenWidthGridP0V AA7ForEachV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AeAE06toggleK0yQrqd__AA06ToggleK0Rd__lFQO AA6ToggleV AA05_FlexqP0V AA012ButtonToggleK0V
++ _symbolic _____yAAy_____y_____y_____Sg_AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAlAy_____y_____y_____yAAyAD_____GG______Qo__ALQo______GGGAUGQPGGAUGAOG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA13_VariadicViewO4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridK0V AA7ForEachV AA0I0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AvAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQO AA0Y0V AA010_FlexFrameK0V AA06ButtonyX0V AA08_PaddingK0V
++ _symbolic _____y___________y_____Sg______yAAy______y_____G_____ySaySo17FBKQuestionChoiceCGAlFy_____y_____y_____yAFyAD_____GG______Qo__ALQo______GGGAUGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA4TextV AA08ModifiedI0V AA01_G4RootV 12FeedbackCore013EvenWidthGridG0V AA7ForEachV AA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AvAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQO AA0Y0V AA010_FlexFrameG0V AA06ButtonyX0V AA08_PaddingG0V
++ _symbolic _____y___________y_____yADy_____yADyADyADy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_ADyADyADy_____yACy_____Sg_ADyAAy______y_____G_____ySaySo17FBKQuestionChoiceCGA2_ADy_____y_____y_____yADyAW_____GG______Qo__A2_Qo_AOGGGAOGQPGGAOGA5_GALGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA08ModifiedI0V AA0D0PAAE10fontWeightyQrAA4FontV0L0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA012_AspectRatioG0V AA06_FrameG0V AA08_PaddingG0V AA013_TraitWritingQ0V AA010TransitionW3KeyV AA6VStackV AA4TextV AA01_G4RootV 12FeedbackCore013EvenWidthGridG0V AA7ForEachV AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AmAE06toggleP0yQrqd__AA06ToggleP0Rd__lFQO AA6ToggleV AA05_FlexuG0V AA012ButtonToggleP0V
++ _symbolic _____y_____y_____yAAyAAy_____yAAyAAyAAy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_AAyAAyAAy_____yACy_____Sg_AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGA2_AAy_____y_____y_____yAAyAV_____GG______Qo__A2_Qo_ANGGGANGQPGGANGA5_GAKGQPGGA5_G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA4ViewPAAE10fontWeightyQrAA4FontV0I0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA18_AspectRatioLayoutV AA06_FrameR0V AA08_PaddingR0V AA013_TraitWritingN0V AA010TransitionU3KeyV AA6VStackV AA4TextV AA09_VariadicG0O4TreeV AA01_R4RootV 12FeedbackCore013EvenWidthGridR0V AA7ForEachV AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AiAE06toggleM0yQrqd__AA06ToggleM0Rd__lFQO AA6ToggleV AA05_FlexsR0V AA012ButtonToggleM0V
++ _symbolic _____y_____y_____yACy_____yACyACyACy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_ACyACyACy_____yABy_____Sg_ACy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGA2_ACy_____y_____y_____yACyAV_____GG______Qo__A2_Qo_ANGGGANGQPGGANGA5_GAKGQPGG 7SwiftUI6HStackV AA12TupleContentV AA08ModifiedE0V AA4ViewPAAE10fontWeightyQrAA4FontV0I0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA18_AspectRatioLayoutV AA06_FrameR0V AA08_PaddingR0V AA013_TraitWritingN0V AA010TransitionU3KeyV AA6VStackV AA4TextV AA09_VariadicG0O4TreeV AA01_R4RootV 12FeedbackCore013EvenWidthGridR0V AA7ForEachV AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AiAE06toggleM0yQrqd__AA06ToggleM0Rd__lFQO AA6ToggleV AA05_FlexsR0V AA012ButtonToggleM0V
++ _symbolic _____y_____y_____y_____Sg_AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAlAy_____y_____y_____yAAyAD_____GG______Qo__ALQo______GGGAUGQPGGAUG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA13_VariadicViewO4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridK0V AA7ForEachV AA0I0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AvAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQO AA0Y0V AA010_FlexFrameK0V AA06ButtonyX0V AA08_PaddingK0V
+- -[FBKAttachmentManager initWithMatcherPredicates:pendingFileUrls:pendingExtensions:form:targetDevice:shouldGetSessionStatus:shouldCheckDeferredLogs:attachmentDescriptors:autoGathersDiagnosticExtensions:]
+- -[FBKDeviceDiagnosticsController initWithDeviceManager:delegate:filerForm:pendingFileUrls:pendingURLExtensions:draftDeviceIds:attachmentDescriptors:autoGathersDiagnosticExtensions:]
+- ___181-[FBKDeviceDiagnosticsController initWithDeviceManager:delegate:filerForm:pendingFileUrls:pendingURLExtensions:draftDeviceIds:attachmentDescriptors:autoGathersDiagnosticExtensions:]_block_invoke
+- ___181-[FBKDeviceDiagnosticsController initWithDeviceManager:delegate:filerForm:pendingFileUrls:pendingURLExtensions:draftDeviceIds:attachmentDescriptors:autoGathersDiagnosticExtensions:]_block_invoke_2
+- ___203-[FBKAttachmentManager initWithMatcherPredicates:pendingFileUrls:pendingExtensions:form:targetDevice:shouldGetSessionStatus:shouldCheckDeferredLogs:attachmentDescriptors:autoGathersDiagnosticExtensions:]_block_invoke
+- ___block_descriptor_98_e8_32s40s48s56s64s72s80s88s_e32_v24?0"NSDictionary"8"NSSet"16ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA05TupleD0VyACyACyAA4ViewPAAE10fontWeightyQrAA4FontV0I0VSgFQOyACyACyACyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGGAA18_AspectRatioLayoutVGAA06_FrameR0VG_Qo_AA08_PaddingR0VGAA013_TraitWritingN0VyAA010TransitionU3KeyVGGSg_ACyACyACyAA6VStackVyAGyAA4TextV_ACyAA09_VariadicG0O4TreeVy_AA01_R4RootVy12FeedbackCore013EvenWidthGridR0VGAA7ForEachVySaySo17FBKQuestionChoiceCGA30_ACyAiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAiAE06toggleM0yQrqd__AA06ToggleM0Rd__lFQOyAA6ToggleVyACyA16_AA05_FlexsR0VGG_AA012ButtonToggleM0VQo__A30_Qo_A4_GGGA4_GQPGGA4_GA39_GA0_GQPGGA39_GAaHHPA56_AaHHPyHC_A39_AA0gN0HPyHCHC
+- _objc_msgSend$initWithDeviceManager:delegate:filerForm:pendingFileUrls:pendingURLExtensions:draftDeviceIds:attachmentDescriptors:autoGathersDiagnosticExtensions:
+- _objc_msgSend$initWithMatcherPredicates:pendingFileUrls:pendingExtensions:form:targetDevice:shouldGetSessionStatus:shouldCheckDeferredLogs:attachmentDescriptors:autoGathersDiagnosticExtensions:
+- _symbolic _____Sg 14SiriAppIntents0A10TrajectoryO17RedactionCategoryO
+- _symbolic ___________y_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAiBy_____y_____y_____yAByAA_____GG______Qo__AIQo______GGGARGt 7SwiftUI4TextV AA15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridI0V AA7ForEachV AA0G0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO ArAE11toggleStyleyQrqd__AA06ToggleV0Rd__lFQO AA0W0V AA010_FlexFrameI0V AA06ButtonwV0V AA08_PaddingI0V
+- _symbolic _____yAAyAAy_____y_____y______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAkAy_____y_____y_____yAAyAD_____GG______Qo__AKQo______GGGATGQPGGATGANG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA13_VariadicViewO4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridK0V AA7ForEachV AA0I0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AvAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQO AA0Y0V AA010_FlexFrameK0V AA06ButtonyX0V AA08_PaddingK0V AA06_FrameK0V
+- _symbolic _____yAAy_____yAAyAAyAAy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_AAyAAyAAy_____y_____y______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGA0_AAy_____y_____y_____yAAyAU_____GG______Qo__A0_Qo_ALGGGALGQPGGALGA3_GAIGt 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA18_AspectRatioLayoutV AA06_FrameP0V AA08_PaddingP0V AA013_TraitWritingL0V AA010TransitionS3KeyV AA6VStackV AA05TupleD0V AA4TextV AA09_VariadicE0O4TreeV AA01_P4RootV 12FeedbackCore013EvenWidthGridP0V AA7ForEachV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AeAE06toggleK0yQrqd__AA06ToggleK0Rd__lFQO AA6ToggleV AA05_FlexqP0V AA012ButtonToggleK0V
+- _symbolic _____yAAy_____y_____y______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAkAy_____y_____y_____yAAyAD_____GG______Qo__AKQo______GGGATGQPGGATGANG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA13_VariadicViewO4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridK0V AA7ForEachV AA0I0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AvAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQO AA0Y0V AA010_FlexFrameK0V AA06ButtonyX0V AA08_PaddingK0V
+- _symbolic _____y_____G s11_SetStorageC 14SiriAppIntents0C10TrajectoryO17RedactionCategoryO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 14SiriAppIntents0D10TrajectoryO17RedactionCategoryO
+- _symbolic _____y___________y___________yAAy______y_____G_____ySaySo17FBKQuestionChoiceCGAkEy_____y_____y_____yAEyAD_____GG______Qo__AKQo______GGGATGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA4TextV AA08ModifiedI0V AA01_G4RootV 12FeedbackCore013EvenWidthGridG0V AA7ForEachV AA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AvAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQO AA0Y0V AA010_FlexFrameG0V AA06ButtonyX0V AA08_PaddingG0V
+- _symbolic _____y___________y_____yADy_____yADyADyADy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_ADyADyADy_____yACy______ADyAAy______y_____G_____ySaySo17FBKQuestionChoiceCGA1_ADy_____y_____y_____yADyAW_____GG______Qo__A1_Qo_AOGGGAOGQPGGAOGA4_GALGQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA12TupleContentV AA08ModifiedI0V AA0D0PAAE10fontWeightyQrAA4FontV0L0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA012_AspectRatioG0V AA06_FrameG0V AA08_PaddingG0V AA013_TraitWritingQ0V AA010TransitionW3KeyV AA6VStackV AA4TextV AA01_G4RootV 12FeedbackCore013EvenWidthGridG0V AA7ForEachV AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AmAE06toggleP0yQrqd__AA06ToggleP0Rd__lFQO AA6ToggleV AA05_FlexuG0V AA012ButtonToggleP0V
+- _symbolic _____y_____y_____yAAyAAy_____yAAyAAyAAy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_AAyAAyAAy_____yACy______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGA1_AAy_____y_____y_____yAAyAV_____GG______Qo__A1_Qo_ANGGGANGQPGGANGA4_GAKGQPGGA4_G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA4ViewPAAE10fontWeightyQrAA4FontV0I0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA18_AspectRatioLayoutV AA06_FrameR0V AA08_PaddingR0V AA013_TraitWritingN0V AA010TransitionU3KeyV AA6VStackV AA4TextV AA09_VariadicG0O4TreeV AA01_R4RootV 12FeedbackCore013EvenWidthGridR0V AA7ForEachV AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AiAE06toggleM0yQrqd__AA06ToggleM0Rd__lFQO AA6ToggleV AA05_FlexsR0V AA012ButtonToggleM0V
+- _symbolic _____y_____y_____yACy_____yACyACyACy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_ACyACyACy_____yABy______ACy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGA1_ACy_____y_____y_____yACyAV_____GG______Qo__A1_Qo_ANGGGANGQPGGANGA4_GAKGQPGG 7SwiftUI6HStackV AA12TupleContentV AA08ModifiedE0V AA4ViewPAAE10fontWeightyQrAA4FontV0I0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA18_AspectRatioLayoutV AA06_FrameR0V AA08_PaddingR0V AA013_TraitWritingN0V AA010TransitionU3KeyV AA6VStackV AA4TextV AA09_VariadicG0O4TreeV AA01_R4RootV 12FeedbackCore013EvenWidthGridR0V AA7ForEachV AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AiAE06toggleM0yQrqd__AA06ToggleM0Rd__lFQO AA6ToggleV AA05_FlexsR0V AA012ButtonToggleM0V
+- _symbolic _____y_____y_____y______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAkAy_____y_____y_____yAAyAD_____GG______Qo__AKQo______GGGATGQPGGATG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA13_VariadicViewO4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridK0V AA7ForEachV AA0I0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AvAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQO AA0Y0V AA010_FlexFrameK0V AA06ButtonyX0V AA08_PaddingK0V
+CStrings:
++ "DELETE_ATTACHMENTS"
++ "DELETE_RECOMMENDED_ATTACHMENTS_MESSAGE"
++ "DELETE_RECOMMENDED_ATTACHMENTS_TITLE"
++ "SiriRedaction: deleted attachment [%{public}@] has no contentRole; cannot resolve redaction category"
++ "SiriRedaction: gave up after [%d] retries due to persistent race on [%{public}@]"
++ "SiriRedaction: race on [%{public}@]; retrying in 1.0s [attempt %d/%d]"
++ "SiriRedaction: redacted file; dropped category [%{public}@]; url [%{private}@]"
++ "SiriRedaction: redaction failed [%{public}@]; url [%{private}@]"
++ "SiriRedaction: unrecognized redaction category identifier [%{public}@]"
++ "Skipping related-file redaction on removal — removing all attachments for [%{public}@]"
+- "SiriRedaction: could not resolve SiriTrajectory.RedactionCategory for deleted attachment [%{public}@]"
+- "SiriRedaction: gave up after %d retries due to persistent race on [%{public}@]"
+- "SiriRedaction: race on [%{public}@]; retrying in 1.0s (attempt %d/%d)"
+- "SiriRedaction: redacted file (dropped category [%{public}@]); url=[%{private}@]"
+- "SiriRedaction: redaction failed (%{public}@); url=[%{private}@]"
+```

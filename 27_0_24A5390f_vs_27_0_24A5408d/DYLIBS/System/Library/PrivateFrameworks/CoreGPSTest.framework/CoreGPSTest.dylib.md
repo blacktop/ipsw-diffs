@@ -1,0 +1,262 @@
+## CoreGPSTest.dylib
+
+> `/System/Library/PrivateFrameworks/CoreGPSTest.framework/CoreGPSTest.dylib`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__TEXT.__objc_methlist`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__weak_got`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__weak_auth_got`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+
+```diff
+
+-365.0.9.0.0
+-  __TEXT.__text: 0x64e94
++365.0.9.0.1
++  __TEXT.__text: 0x66ca0
+   __TEXT.__init_offsets: 0xc
+   __TEXT.__objc_methlist: 0x164
+-  __TEXT.__const: 0x62e0
+-  __TEXT.__gcc_except_tab: 0x37f8
+-  __TEXT.__oslogstring: 0xa7c0
++  __TEXT.__const: 0x64c0
++  __TEXT.__gcc_except_tab: 0x3988
++  __TEXT.__oslogstring: 0xaa72
+   __TEXT.__constg_swiftt: 0x408
+   __TEXT.__swift5_typeref: 0x18a
+   __TEXT.__swift5_reflstr: 0x8f
+   __TEXT.__swift5_fieldmd: 0x16c
+   __TEXT.__swift5_capture: 0x120
+-  __TEXT.__cstring: 0x528a
++  __TEXT.__cstring: 0x5283
+   __TEXT.__swift5_proto: 0xc
+   __TEXT.__swift5_types: 0x30
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x2758
++  __TEXT.__unwind_info: 0x27f8
+   __TEXT.__eh_frame: 0x640
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+
+   __DATA_CONST.__objc_selrefs: 0x298
+   __DATA_CONST.__objc_superrefs: 0x8
+   __DATA_CONST.__got: 0x228
+-  __AUTH_CONST.__const: 0x5118
++  __AUTH_CONST.__const: 0x5260
+   __AUTH_CONST.__cfstring: 0x13c0
+   __AUTH_CONST.__objc_const: 0x958
+   __AUTH_CONST.__weak_auth_got: 0x20
+   __AUTH_CONST.__objc_intobj: 0x108
+   __AUTH_CONST.__objc_doubleobj: 0x20
+-  __AUTH_CONST.__auth_got: 0xbb0
++  __AUTH_CONST.__auth_got: 0xbb8
+   __AUTH.__objc_data: 0x170
+   __AUTH.__data: 0x748
+   __DATA.__objc_ivar: 0x8
+   __DATA.__data: 0xd0
+-  __DATA.__common: 0x9d588
++  __DATA.__common: 0x9ee28
+   __DATA.__bss: 0x250
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 2655
+-  Symbols:   4333
+-  CStrings:  1360
++  Functions: 2684
++  Symbols:   4382
++  CStrings:  1370
+ 
+Symbols:
++ GCC_except_table101
++ GCC_except_table124
++ GCC_except_table128
++ GCC_except_table151
++ GCC_except_table49
++ GCC_except_table59
++ GCC_except_table62
++ GCC_except_table70
++ GCC_except_table72
++ GCC_except_table78
++ GCC_except_table84
++ GCC_except_table91
++ GCC_except_table94
++ GCC_except_table97
++ __ZL64getGlonassTotalPerFrequencyGroupDelayIncludingExternalToChipFireddRNSt3__16vectorIdNS_9allocatorIdEEEE
++ __ZN12MessageQueueIN6cproto4gpsd7RequestELm32EE4tickEy
++ __ZN12MessageQueueIN6cproto4gpsd7RequestELm32EED0Ev
++ __ZN12MessageQueueIN6cproto4gpsd7RequestELm32EED1Ev
++ __ZN17GnssClientManager14ingressRequestERN6cproto4gpsd7RequestE
++ __ZN17GnssClientManager17setupRequestQueueEv
++ __ZN17GnssDeviceManager14handleRecoveryERN6cproto4gpsd7RequestENSt3__18functionIFvN4gnss6ResultEEEE
++ __ZN17GnssDeviceManager17clearSessionStateEv
++ __ZN17GnssDevicePayload17setRequestHandlerENSt3__18functionIFbRN6cproto4gpsd7RequestEEEENS1_IFvvEEE
++ __ZN17GnssDeviceRequest11sendPendingEv
++ __ZN17GnssDeviceRequest13handleRequestEN6cproto4gpsd7Request4TypeENSt3__18functionIFvN4gnss6ResultEEEE
++ __ZN17GnssDeviceRequest13handleRequestERN6cproto4gpsd7RequestENSt3__18functionIFvN4gnss6ResultEEEE
++ __ZN17GnssDeviceRequest13handleRequestERN6cproto4gpsd7RequestEONSt3__16vectorIhNS4_9allocatorIhEEEENS4_8functionIFvN4gnss6ResultEEEE
++ __ZN17GnssDeviceRequest14PendingRequestD1Ev
++ __ZNK12MessageQueueIN6cproto4gpsd7RequestELm32EE4idleEv
++ __ZNKSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_0FbRN6cproto4gpsd7RequestEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_0FbRN6cproto4gpsd7RequestEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_0FbRN6cproto4gpsd7RequestEEE7__cloneEPNS0_6__baseIS8_EE
++ __ZNKSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_0FbRN6cproto4gpsd7RequestEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_1FvvEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_1FvvEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_1FvvEE7__cloneEPNS0_6__baseIS4_EE
++ __ZNKSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_1FvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEENS3_IFvvEEEE3$_0FbRNS5_10IndicationEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEENS3_IFvvEEEE3$_0FbRNS5_10IndicationEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEENS3_IFvvEEEE3$_0FbRNS5_10IndicationEEE7__cloneEPNS0_6__baseISF_EE
++ __ZNKSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEENS3_IFvvEEEE3$_0FbRNS5_10IndicationEEE7__cloneEv
++ __ZNSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_0FbRN6cproto4gpsd7RequestEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_0FbRN6cproto4gpsd7RequestEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_0FbRN6cproto4gpsd7RequestEEED0Ev
++ __ZNSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_0FbRN6cproto4gpsd7RequestEEED1Ev
++ __ZNSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_0FbRN6cproto4gpsd7RequestEEEclES7_
++ __ZNSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_1FvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_1FvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_1FvvEED0Ev
++ __ZNSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_1FvvEED1Ev
++ __ZNSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_1FvvEEclEv
++ __ZNSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEENS3_IFvvEEEE3$_0FbRNS5_10IndicationEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEENS3_IFvvEEEE3$_0FbRNS5_10IndicationEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEENS3_IFvvEEEE3$_0FbRNS5_10IndicationEEED0Ev
++ __ZNSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEENS3_IFvvEEEE3$_0FbRNS5_10IndicationEEED1Ev
++ __ZNSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEENS3_IFvvEEEE3$_0FbRNS5_10IndicationEEEclESE_
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE24__emplace_back_slow_pathIJRKdEEEPdDpOT_
++ __ZNSt3__16vectorIdNS_9allocatorIdEEEC2B9fqe220106EmRKd
++ __ZNSt3__19to_stringEd
++ __ZTI12MessageQueueIN6cproto4gpsd7RequestELm32EE
++ __ZTINSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_0FbRN6cproto4gpsd7RequestEEEE
++ __ZTINSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_1FvvEEE
++ __ZTINSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEENS3_IFvvEEEE3$_0FbRNS5_10IndicationEEEE
++ __ZTIZN17GnssClientManager17setupRequestQueueEvE3$_0
++ __ZTIZN17GnssClientManager17setupRequestQueueEvE3$_1
++ __ZTIZN17GnssDevicePayload17setRequestHandlerENSt3__18functionIFbRN6cproto4gpsd7RequestEEEENS1_IFvvEEEE3$_0
++ __ZTS12MessageQueueIN6cproto4gpsd7RequestELm32EE
++ __ZTSNSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_0FbRN6cproto4gpsd7RequestEEEE
++ __ZTSNSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_1FvvEEE
++ __ZTSNSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEENS3_IFvvEEEE3$_0FbRNS5_10IndicationEEEE
++ __ZTSZN17GnssClientManager17setupRequestQueueEvE3$_0
++ __ZTSZN17GnssClientManager17setupRequestQueueEvE3$_1
++ __ZTSZN17GnssDevicePayload17setRequestHandlerENSt3__18functionIFbRN6cproto4gpsd7RequestEEEENS1_IFvvEEEE3$_0
++ __ZTV12MessageQueueIN6cproto4gpsd7RequestELm32EE
++ __ZTVNSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_0FbRN6cproto4gpsd7RequestEEEE
++ __ZTVNSt3__110__function6__funcIZN17GnssClientManager17setupRequestQueueEvE3$_1FvvEEE
++ __ZTVNSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEENS3_IFvvEEEE3$_0FbRNS5_10IndicationEEEE
++ __ZThn48_N17GnssDeviceManager10nvStoreIfcEv
++ __ZThn48_N17GnssDeviceManager12bufferLoggerEv
++ __ZThn48_N17GnssDeviceManager18ltlRequestCallbackERKN7GnssHal14ExtensionsOlaf14LtlInfoRequestENSt3__18functionIFvRKNS1_7LtlInfoEEEE
++ __ZThn48_N17GnssDeviceManager21timeTransferPulseMarkEN7GnssHal21TimeTransferPulseMarkE
++ __ZThn48_N17GnssDeviceManager23reportSoftwareExceptionERKN4gnss15ExceptionReportE
++ __ZThn48_N17GnssDeviceManager26handleHardwareUnresponsiveEN4gnss9Exception4TypeE
++ __ZThn48_N17GnssDeviceManager27updateRtcClockAnalyticsDataERKN4gnss21RtcClockAnalyticsDataE
++ __ZThn48_N17GnssDeviceManager28updateBeiDouConsistencyStatsERKN4gnss22BeiDouConsistencyStatsE
++ __ZThn48_N17GnssDeviceManager31updateL5GroupDelayAnalyticsDataERKN4gnss25L5GroupDelayAnalyticsDataE
++ __ZThn48_N17GnssDeviceManager32updateReceiverClockAnalyticsDataERKN4gnss26ReceiverClockAnalyticsDataE
++ __ZThn48_N17GnssDeviceManager5queueEv
++ __ZThn56_N17GnssDeviceManagerD0Ev
++ __ZThn56_N17GnssDeviceManagerD1Ev
++ __ZThn56_N19GnssCommPassthroughD0Ev
++ __ZThn56_N19GnssCommPassthroughD1Ev
++ __ZThn56_N21GnssTestDeviceManagerD0Ev
++ __ZThn56_N21GnssTestDeviceManagerD1Ev
++ _constinit
+- GCC_except_table100
+- GCC_except_table105
+- GCC_except_table109
+- GCC_except_table122
+- GCC_except_table126
+- GCC_except_table149
+- GCC_except_table58
+- GCC_except_table65
+- GCC_except_table71
+- GCC_except_table82
+- GCC_except_table86
+- GCC_except_table87
+- GCC_except_table89
+- __ZN17GnssDevicePayload17setRequestHandlerENSt3__18functionIFbRN6cproto4gpsd7RequestEEEE
+- __ZNKSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEEE3$_0FbRNS5_10IndicationEEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEEE3$_0FbRNS5_10IndicationEEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEEE3$_0FbRNS5_10IndicationEEE7__cloneEPNS0_6__baseISD_EE
+- __ZNKSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEEE3$_0FbRNS5_10IndicationEEE7__cloneEv
+- __ZNSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEEE3$_0FbRNS5_10IndicationEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEEE3$_0FbRNS5_10IndicationEEE7destroyEv
+- __ZNSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEEE3$_0FbRNS5_10IndicationEEED0Ev
+- __ZNSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEEE3$_0FbRNS5_10IndicationEEED1Ev
+- __ZNSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEEE3$_0FbRNS5_10IndicationEEEclESC_
+- __ZNSt3__16vectorIhNS_9allocatorIhEEE18__assign_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPhS6_EEvT0_T1_l
+- __ZTINSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEEE3$_0FbRNS5_10IndicationEEEE
+- __ZTIZN17GnssDevicePayload17setRequestHandlerENSt3__18functionIFbRN6cproto4gpsd7RequestEEEEE3$_0
+- __ZTSNSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEEE3$_0FbRNS5_10IndicationEEEE
+- __ZTSZN17GnssDevicePayload17setRequestHandlerENSt3__18functionIFbRN6cproto4gpsd7RequestEEEEE3$_0
+- __ZTVNSt3__110__function6__funcIZN17GnssDevicePayload17setRequestHandlerENS_8functionIFbRN6cproto4gpsd7RequestEEEEE3$_0FbRNS5_10IndicationEEEE
+- __ZThn16_N17GnssDeviceManager10nvStoreIfcEv
+- __ZThn16_N17GnssDeviceManager12bufferLoggerEv
+- __ZThn16_N17GnssDeviceManager18ltlRequestCallbackERKN7GnssHal14ExtensionsOlaf14LtlInfoRequestENSt3__18functionIFvRKNS1_7LtlInfoEEEE
+- __ZThn16_N17GnssDeviceManager21timeTransferPulseMarkEN7GnssHal21TimeTransferPulseMarkE
+- __ZThn16_N17GnssDeviceManager23reportSoftwareExceptionERKN4gnss15ExceptionReportE
+- __ZThn16_N17GnssDeviceManager26handleHardwareUnresponsiveEN4gnss9Exception4TypeE
+- __ZThn16_N17GnssDeviceManager27updateRtcClockAnalyticsDataERKN4gnss21RtcClockAnalyticsDataE
+- __ZThn16_N17GnssDeviceManager28updateBeiDouConsistencyStatsERKN4gnss22BeiDouConsistencyStatsE
+- __ZThn16_N17GnssDeviceManager31updateL5GroupDelayAnalyticsDataERKN4gnss25L5GroupDelayAnalyticsDataE
+- __ZThn16_N17GnssDeviceManager32updateReceiverClockAnalyticsDataERKN4gnss26ReceiverClockAnalyticsDataE
+- __ZThn16_N17GnssDeviceManager5queueEv
+- __ZThn24_N17GnssDeviceManagerD0Ev
+- __ZThn24_N17GnssDeviceManagerD1Ev
+- __ZThn24_N19GnssCommPassthroughD0Ev
+- __ZThn24_N19GnssCommPassthroughD1Ev
+- __ZThn24_N21GnssTestDeviceManagerD0Ev
+- __ZThn24_N21GnssTestDeviceManagerD1Ev
+CStrings:
++ "#gdm,handleRecovery,dropped,type,%{public}d"
++ "#gdm,handleReset,device,%{public}p"
++ "#gdm,stop,alreadyInFlight,ignore"
++ "#version,CoreGPS-365.0.9.0.1,machContSec,%{public}.3f,BuildTime,{Aug  5 2026,21:57:45}"
++ "21:57:42"
++ "22:00:31"
++ "Aug  5 2026"
++ "GnssClientManager,handleInterrupt,restarting,%{public}llu,ms"
++ "GnssClientManager,ingressRequest,full,type,%{public}d"
++ "GnssClientManager,ingressRequest,restarting,nak,type,%{public}d"
++ "GnssClientManager,ingressRequest,restarting,timedOut,%{public}llu,ms,continue,type,%{public}d"
++ "GnssDeviceMain,handleRequest,park,type,%{public}d"
++ "GnssDevicePayload,loadBuffer,sizeMismatch,got,%{public}zu,expected,%{public}zu"
++ "GnssDeviceRequest,handleRequest,alreadyPending,type,%{public}d"
++ "GnssDeviceRequest,handleRequest,park,type,%{public}d"
++ "glonass,chipCalibrationM,%{public}.2f,externalCalibrationM,%{public}.2f,externalToChipCalibrationM,%{public}.2f,perFcnM,%{public}s"
++ "glonass,invalid vector size,return zeros"
+- "#gdm,handleReset,notBuilt,skip"
+- "#version,CoreGPS-365.0.9,machContSec,%{public}.3f,BuildTime,{Jul 14 2026,21:29:22}"
+- "21:29:17"
+- "21:32:57"
+- "GnssClientManager,gpsdDisconnected,sendingExit"
+- "Jul 14 2026"
+- "glonassExternalCalMeters,%{public}.2f"
+```

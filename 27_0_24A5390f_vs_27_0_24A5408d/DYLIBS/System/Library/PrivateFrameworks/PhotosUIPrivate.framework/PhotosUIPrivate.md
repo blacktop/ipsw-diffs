@@ -1,0 +1,1561 @@
+## PhotosUIPrivate
+
+> `/System/Library/PrivateFrameworks/PhotosUIPrivate.framework/PhotosUIPrivate`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_catlist2`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__vfx_script_tbl`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-910.33.102.0.0
+-  __TEXT.__text: 0x5871d8
+-  __TEXT.__objc_methlist: 0x5034c
+-  __TEXT.__const: 0x196a8
++912.0.111.0.0
++  __TEXT.__text: 0x58abe4
++  __TEXT.__objc_methlist: 0x50564
++  __TEXT.__const: 0x19740
+   __TEXT.__dlopen_cstrs: 0x69b
+-  __TEXT.__swift5_typeref: 0x16578
+-  __TEXT.__constg_swiftt: 0xac10
++  __TEXT.__swift5_typeref: 0x16768
++  __TEXT.__constg_swiftt: 0xac04
+   __TEXT.__swift5_builtin: 0x708
+-  __TEXT.__swift5_reflstr: 0x8497
+-  __TEXT.__swift5_fieldmd: 0x7054
+-  __TEXT.__swift5_assocty: 0x18e8
+-  __TEXT.__swift5_capture: 0x4ce0
++  __TEXT.__swift5_reflstr: 0x8667
++  __TEXT.__swift5_fieldmd: 0x70c8
++  __TEXT.__swift5_assocty: 0x18d0
++  __TEXT.__swift5_capture: 0x4d5c
+   __TEXT.__swift5_proto: 0xc04
+-  __TEXT.__swift5_types: 0x778
+-  __TEXT.__oslogstring: 0x14dd5
+-  __TEXT.__cstring: 0x34af5
+-  __TEXT.__swift_as_entry: 0x260
+-  __TEXT.__swift_as_ret: 0x260
+-  __TEXT.__swift_as_cont: 0x57c
++  __TEXT.__swift5_types: 0x774
++  __TEXT.__oslogstring: 0x14e37
++  __TEXT.__cstring: 0x34b5d
++  __TEXT.__swift_as_entry: 0x264
++  __TEXT.__swift_as_ret: 0x264
++  __TEXT.__swift_as_cont: 0x588
+   __TEXT.__swift5_protos: 0x74
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__gcc_except_tab: 0x87fc
++  __TEXT.__gcc_except_tab: 0x8878
+   __TEXT.__ustring: 0x146
+-  __TEXT.__unwind_info: 0x181c0
+-  __TEXT.__eh_frame: 0x7320
++  __TEXT.__unwind_info: 0x182c8
++  __TEXT.__eh_frame: 0x7408
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0xc428
+-  __DATA_CONST.__objc_classlist: 0x1e40
++  __DATA_CONST.__const: 0xc450
++  __DATA_CONST.__objc_classlist: 0x1e48
+   __DATA_CONST.__objc_catlist: 0x1b0
+   __DATA_CONST.__objc_catlist2: 0x10
+-  __DATA_CONST.__objc_protolist: 0x1448
++  __DATA_CONST.__objc_protolist: 0x1428
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2a540
+-  __DATA_CONST.__objc_protorefs: 0x518
++  __DATA_CONST.__objc_selrefs: 0x2a6d0
++  __DATA_CONST.__objc_protorefs: 0x508
+   __DATA_CONST.__objc_superrefs: 0x10f0
+   __DATA_CONST.__vfx_script_tbl: 0x10
+-  __DATA_CONST.__objc_arraydata: 0x15f0
+-  __DATA_CONST.__got: 0x5740
+-  __AUTH_CONST.__const: 0x17948
+-  __AUTH_CONST.__cfstring: 0x268c0
+-  __AUTH_CONST.__objc_const: 0x85620
++  __DATA_CONST.__objc_arraydata: 0x15f8
++  __DATA_CONST.__got: 0x5760
++  __AUTH_CONST.__const: 0x17a10
++  __AUTH_CONST.__cfstring: 0x26980
++  __AUTH_CONST.__objc_const: 0x858c0
+   __AUTH_CONST.__objc_arrayobj: 0xed0
+-  __AUTH_CONST.__objc_intobj: 0x1620
++  __AUTH_CONST.__objc_intobj: 0x1638
+   __AUTH_CONST.__objc_dictobj: 0x398
+   __AUTH_CONST.__objc_doubleobj: 0x210
+-  __AUTH_CONST.__auth_got: 0x5490
+-  __AUTH.__objc_data: 0x190d8
+-  __AUTH.__data: 0x4fc8
+-  __DATA.__objc_ivar: 0x5cc8
+-  __DATA.__data: 0x14248
++  __AUTH_CONST.__auth_got: 0x54d8
++  __AUTH.__objc_data: 0x19180
++  __AUTH.__data: 0x4fb8
++  __DATA.__objc_ivar: 0x5cdc
++  __DATA.__data: 0x14268
+   __DATA.__objc_stublist: 0x28
+-  __DATA.__bss: 0x18170
++  __DATA.__bss: 0x18110
+   __DATA.__common: 0x358
+-  __DATA_DIRTY.__objc_data: 0x22a0
+-  __DATA_DIRTY.__data: 0x250
++  __DATA_DIRTY.__objc_data: 0x22c0
++  __DATA_DIRTY.__data: 0x220
+   __DATA_DIRTY.__bss: 0x10
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 41688
+-  Symbols:   67517
+-  CStrings:  8022
++  Functions: 41798
++  Symbols:   67614
++  CStrings:  8029
+ 
+Symbols:
++ +[PUOneUpTilingLayout untransformedRectForItemWithAspectRatio:boundingRect:]
++ +[PUPhotoEditLayoutSupport editAIToolPrefersBottomControlsForView:]
++ +[PUPhotoEditLayoutSupport editAIToolPrefersPadLayoutForView:]
++ -[PHAirPlayScreenController isDeactivated]
++ -[PHAirPlayScreenController setIsDeactivated:]
++ -[PUActivityItemSourceController sharedAlbumMetadataPreferences]
++ -[PUAddToLastUsedAlbumActivity sharedAlbumMetadataPreferences]
++ -[PUAddToSharedAlbumActivity sharedAlbumMetadataPreferences]
++ -[PUBrowsingViewModel isFillScreenModeEnabled]
++ -[PUBrowsingViewModel setIsFillScreenModeEnabled:]
++ -[PUBrowsingViewModelChange isFillScreenModeEnabledDidChange]
++ -[PUBrowsingViewModelChange setIsFillScreenModeEnabledDidChange:]
++ -[PUCleanupProgressViewController _prefersBottomControls]
++ -[PUCleanupProgressViewController _prefersPadLayout]
++ -[PUCleanupToolController _isIPadLandscapeLayout]
++ -[PUCleanupToolController _isIPadLayout]
++ -[PUCleanupToolController _prefersBottomControls]
++ -[PUCleanupToolController _prefersPadLayout]
++ -[PUCleanupToolController _updateActionStageText]
++ -[PUCleanupToolController inpaintActionUndoManager]
++ -[PUCleanupToolController interactionModeTipSourceItem]
++ -[PUCleanupToolController prepareTipPopover:tipID:]
++ -[PUCleanupToolController presentationControllerForTipID:]
++ -[PUCleanupToolController sourceItemForTipID:]
++ -[PUCreateSharedAlbumLinkActivity presentCreationAlertWithContext:fromViewController:]
++ -[PUCropButtonTileViewController loadView]
++ -[PUCropToolController _prefersBottomControls]
++ -[PUImportActionCoordinator _continueImportingItems:]
++ -[PUImportActionCoordinator _filterItemsForImport:allowDuplicates:]
++ -[PUOneUpBarsController _handleBarButtonTapWithIdentifier:]
++ -[PUOneUpBarsController _overflowMenuRepresentationForIdentifier:title:image:]
++ -[PUOneUpBarsController _presentReactionPickerFromOverflowMenu]
++ -[PUOneUpTilingLayout _contentRegionForPageRect:]
++ -[PUOneUpTilingLayout _contentRegionMatchesPageRect]
++ -[PUOneUpTilingLayout _cropInsetsForTileAtIndexPath:referenceFrame:]
++ -[PUOneUpTilingLayout _displayTileTransformForItemAtIndexPath:displaySize:contentRegion:secondaryDisplayTransform:options:]
++ -[PUOneUpTilingLayout _untransformedRectForItemAtIndexPath:contentRegion:]
++ -[PUOneUpViewController _setNeedsStatusBarAppearanceUpdateIfRotating]
++ -[PUOneUpViewController imageTileViewController:delegateForGestureRecognizer:]
++ -[PUOneUpViewController imageTileViewControllerViewForAttachingGestureRecognizers:]
++ -[PUOneUpViewController interactiveDismissalControllerCurrentContentIsZoomedIn:]
++ -[PUOneUpViewController isRotating]
++ -[PUOneUpViewController pu_shouldSkipStatusBarVisibilityUpdate]
++ -[PUOneUpViewController setIsRotating:]
++ -[PUOneUpViewController setShouldPositionContentLeadingHalfCentered:]
++ -[PUOneUpViewController shouldPositionContentLeadingHalfCentered]
++ -[PUOneUpViewController userTransformTileViewControllerShouldPauseInteractions:]
++ -[PUPhotoEditViewController _floatingIndicatorCenterXAnchor]
++ -[PUPickerContainerController isShowingEmptyPlaceholder]
++ -[PUUserTransformTileLayoutInfo contentRegion]
++ -[PUUserTransformTileLayoutInfo initWithTileIdentifier:center:size:alpha:transform:zPosition:coordinateSystem:untransformedContentFrame:chromeInsets:contentPixelSize:cropInsets:contentRegion:]
++ -[PUUserTransformTileViewController isFullyZoomedOut]
++ -[PUUserTransformTileViewController updateEnabledInteractions]
++ -[PUUserTransformTileViewController zoomOutToPreferredMinimumScaleAnimated:]
++ -[PUWhatsNewWelcomeViewController _configureAppleIntelligenceWhatsNew]
++ -[PUWhatsNewWelcomeViewController _configureChinaSpecificAppleIntelligenceWhatsNew]
++ -[PUWhatsNewWelcomeViewController _configureChinaSpecificNonAppleIntelligenceWhatsNew]
++ -[PUWhatsNewWelcomeViewController _configureNonAppleIntelligenceWhatsNew]
++ -[UIViewController(PhotosUI) pu_shouldSkipStatusBarVisibilityUpdate]
++ -[_PUCropButtonTileView hitTest:withEvent:]
++ GCC_except_table10010
++ GCC_except_table10014
++ GCC_except_table10036
++ GCC_except_table10203
++ GCC_except_table10220
++ GCC_except_table10231
++ GCC_except_table10232
++ GCC_except_table10262
++ GCC_except_table10330
++ GCC_except_table10370
++ GCC_except_table10372
++ GCC_except_table10379
++ GCC_except_table10383
++ GCC_except_table10389
++ GCC_except_table1047
++ GCC_except_table10486
++ GCC_except_table10544
++ GCC_except_table10577
++ GCC_except_table10841
++ GCC_except_table10843
++ GCC_except_table1092
++ GCC_except_table10958
++ GCC_except_table11065
++ GCC_except_table1109
++ GCC_except_table1116
++ GCC_except_table11228
++ GCC_except_table11269
++ GCC_except_table11298
++ GCC_except_table11306
++ GCC_except_table11350
++ GCC_except_table11351
++ GCC_except_table11353
++ GCC_except_table11354
++ GCC_except_table11357
++ GCC_except_table11361
++ GCC_except_table11382
++ GCC_except_table11694
++ GCC_except_table11724
++ GCC_except_table11730
++ GCC_except_table11734
++ GCC_except_table11803
++ GCC_except_table1195
++ GCC_except_table1205
++ GCC_except_table1206
++ GCC_except_table1208
++ GCC_except_table12145
++ GCC_except_table12146
++ GCC_except_table1216
++ GCC_except_table12197
++ GCC_except_table12201
++ GCC_except_table1234
++ GCC_except_table1246
++ GCC_except_table1248
++ GCC_except_table12492
++ GCC_except_table12509
++ GCC_except_table1251
++ GCC_except_table12522
++ GCC_except_table12536
++ GCC_except_table12556
++ GCC_except_table12605
++ GCC_except_table12760
++ GCC_except_table12778
++ GCC_except_table12783
++ GCC_except_table12786
++ GCC_except_table12789
++ GCC_except_table12800
++ GCC_except_table12850
++ GCC_except_table12863
++ GCC_except_table12903
++ GCC_except_table12939
++ GCC_except_table12955
++ GCC_except_table12957
++ GCC_except_table12993
++ GCC_except_table1302
++ GCC_except_table13086
++ GCC_except_table13091
++ GCC_except_table1310
++ GCC_except_table13359
++ GCC_except_table13434
++ GCC_except_table13448
++ GCC_except_table13455
++ GCC_except_table13471
++ GCC_except_table13472
++ GCC_except_table13475
++ GCC_except_table13482
++ GCC_except_table13596
++ GCC_except_table13598
++ GCC_except_table13660
++ GCC_except_table13702
++ GCC_except_table13764
++ GCC_except_table13789
++ GCC_except_table13805
++ GCC_except_table13820
++ GCC_except_table13844
++ GCC_except_table13872
++ GCC_except_table13904
++ GCC_except_table13917
++ GCC_except_table13938
++ GCC_except_table13947
++ GCC_except_table13960
++ GCC_except_table13972
++ GCC_except_table13977
++ GCC_except_table13979
++ GCC_except_table13984
++ GCC_except_table13985
++ GCC_except_table13986
++ GCC_except_table14006
++ GCC_except_table14053
++ GCC_except_table14277
++ GCC_except_table14417
++ GCC_except_table14520
++ GCC_except_table14559
++ GCC_except_table14562
++ GCC_except_table14570
++ GCC_except_table14572
++ GCC_except_table15021
++ GCC_except_table1518
++ GCC_except_table15454
++ GCC_except_table15455
++ GCC_except_table15464
++ GCC_except_table15467
++ GCC_except_table15470
++ GCC_except_table15478
++ GCC_except_table15513
++ GCC_except_table1553
++ GCC_except_table15548
++ GCC_except_table15626
++ GCC_except_table1563
++ GCC_except_table15704
++ GCC_except_table15710
++ GCC_except_table15714
++ GCC_except_table15754
++ GCC_except_table15804
++ GCC_except_table15812
++ GCC_except_table15817
++ GCC_except_table15819
++ GCC_except_table15871
++ GCC_except_table15873
++ GCC_except_table15877
++ GCC_except_table15880
++ GCC_except_table15884
++ GCC_except_table15887
++ GCC_except_table15891
++ GCC_except_table15896
++ GCC_except_table15922
++ GCC_except_table15926
++ GCC_except_table15937
++ GCC_except_table15948
++ GCC_except_table15996
++ GCC_except_table16069
++ GCC_except_table16073
++ GCC_except_table16187
++ GCC_except_table16190
++ GCC_except_table16196
++ GCC_except_table16228
++ GCC_except_table16245
++ GCC_except_table16303
++ GCC_except_table16333
++ GCC_except_table16390
++ GCC_except_table16411
++ GCC_except_table16426
++ GCC_except_table16509
++ GCC_except_table16526
++ GCC_except_table16535
++ GCC_except_table16542
++ GCC_except_table16549
++ GCC_except_table16555
++ GCC_except_table16565
++ GCC_except_table16572
++ GCC_except_table16756
++ GCC_except_table16770
++ GCC_except_table16772
++ GCC_except_table16779
++ GCC_except_table16781
++ GCC_except_table16783
++ GCC_except_table16786
++ GCC_except_table168
++ GCC_except_table16801
++ GCC_except_table16874
++ GCC_except_table16902
++ GCC_except_table16907
++ GCC_except_table17105
++ GCC_except_table17130
++ GCC_except_table17293
++ GCC_except_table17400
++ GCC_except_table17401
++ GCC_except_table17526
++ GCC_except_table17560
++ GCC_except_table17607
++ GCC_except_table17636
++ GCC_except_table17638
++ GCC_except_table17640
++ GCC_except_table17786
++ GCC_except_table17789
++ GCC_except_table17798
++ GCC_except_table178
++ GCC_except_table17985
++ GCC_except_table17986
++ GCC_except_table18020
++ GCC_except_table18039
++ GCC_except_table18041
++ GCC_except_table18106
++ GCC_except_table18179
++ GCC_except_table18196
++ GCC_except_table18197
++ GCC_except_table18200
++ GCC_except_table18207
++ GCC_except_table18208
++ GCC_except_table18216
++ GCC_except_table18229
++ GCC_except_table18237
++ GCC_except_table18248
++ GCC_except_table18394
++ GCC_except_table18396
++ GCC_except_table18398
++ GCC_except_table18406
++ GCC_except_table18696
++ GCC_except_table18697
++ GCC_except_table18716
++ GCC_except_table18718
++ GCC_except_table1872
++ GCC_except_table18747
++ GCC_except_table18758
++ GCC_except_table18767
++ GCC_except_table18782
++ GCC_except_table18783
++ GCC_except_table18787
++ GCC_except_table18796
++ GCC_except_table18806
++ GCC_except_table18924
++ GCC_except_table18936
++ GCC_except_table18984
++ GCC_except_table18994
++ GCC_except_table19009
++ GCC_except_table19012
++ GCC_except_table19014
++ GCC_except_table19015
++ GCC_except_table19016
++ GCC_except_table19017
++ GCC_except_table19022
++ GCC_except_table19105
++ GCC_except_table19112
++ GCC_except_table19193
++ GCC_except_table19208
++ GCC_except_table19266
++ GCC_except_table19321
++ GCC_except_table19481
++ GCC_except_table19498
++ GCC_except_table19678
++ GCC_except_table1971
++ GCC_except_table19844
++ GCC_except_table19932
++ GCC_except_table19956
++ GCC_except_table20364
++ GCC_except_table20368
++ GCC_except_table20377
++ GCC_except_table20381
++ GCC_except_table20399
++ GCC_except_table20410
++ GCC_except_table20460
++ GCC_except_table20509
++ GCC_except_table20760
++ GCC_except_table20908
++ GCC_except_table20913
++ GCC_except_table21054
++ GCC_except_table21064
++ GCC_except_table21066
++ GCC_except_table21109
++ GCC_except_table21163
++ GCC_except_table21164
++ GCC_except_table21254
++ GCC_except_table21445
++ GCC_except_table21449
++ GCC_except_table21528
++ GCC_except_table21529
++ GCC_except_table21537
++ GCC_except_table21616
++ GCC_except_table21650
++ GCC_except_table21732
++ GCC_except_table21733
++ GCC_except_table21787
++ GCC_except_table2180
++ GCC_except_table2181
++ GCC_except_table2183
++ GCC_except_table21913
++ GCC_except_table2192
++ GCC_except_table22108
++ GCC_except_table22109
++ GCC_except_table22126
++ GCC_except_table22130
++ GCC_except_table22153
++ GCC_except_table22265
++ GCC_except_table2243
++ GCC_except_table22584
++ GCC_except_table2261
++ GCC_except_table22625
++ GCC_except_table22718
++ GCC_except_table22742
++ GCC_except_table22757
++ GCC_except_table22877
++ GCC_except_table22913
++ GCC_except_table22916
++ GCC_except_table22923
++ GCC_except_table22955
++ GCC_except_table22961
++ GCC_except_table23026
++ GCC_except_table23042
++ GCC_except_table2306
++ GCC_except_table2315
++ GCC_except_table2316
++ GCC_except_table2318
++ GCC_except_table2330
++ GCC_except_table23311
++ GCC_except_table23315
++ GCC_except_table23317
++ GCC_except_table23324
++ GCC_except_table23325
++ GCC_except_table23327
++ GCC_except_table23328
++ GCC_except_table23330
++ GCC_except_table23432
++ GCC_except_table2353
++ GCC_except_table23534
++ GCC_except_table23571
++ GCC_except_table23633
++ GCC_except_table23646
++ GCC_except_table2370
++ GCC_except_table23734
++ GCC_except_table23741
++ GCC_except_table23743
++ GCC_except_table23745
++ GCC_except_table2376
++ GCC_except_table23764
++ GCC_except_table23769
++ GCC_except_table23775
++ GCC_except_table2378
++ GCC_except_table23791
++ GCC_except_table23992
++ GCC_except_table24015
++ GCC_except_table24026
++ GCC_except_table2407
++ GCC_except_table24131
++ GCC_except_table24186
++ GCC_except_table24193
++ GCC_except_table24197
++ GCC_except_table24211
++ GCC_except_table24214
++ GCC_except_table24345
++ GCC_except_table24373
++ GCC_except_table24390
++ GCC_except_table2444
++ GCC_except_table24440
++ GCC_except_table24600
++ GCC_except_table24669
++ GCC_except_table24679
++ GCC_except_table24687
++ GCC_except_table24903
++ GCC_except_table24919
++ GCC_except_table276
++ GCC_except_table2772
++ GCC_except_table2774
++ GCC_except_table2830
++ GCC_except_table2834
++ GCC_except_table2837
++ GCC_except_table2925
++ GCC_except_table2929
++ GCC_except_table2950
++ GCC_except_table2951
++ GCC_except_table2959
++ GCC_except_table3011
++ GCC_except_table3069
++ GCC_except_table3072
++ GCC_except_table321
++ GCC_except_table3282
++ GCC_except_table3314
++ GCC_except_table3337
++ GCC_except_table3360
++ GCC_except_table3363
++ GCC_except_table3805
++ GCC_except_table3814
++ GCC_except_table388
++ GCC_except_table389
++ GCC_except_table3943
++ GCC_except_table3991
++ GCC_except_table4011
++ GCC_except_table4049
++ GCC_except_table4052
++ GCC_except_table4053
++ GCC_except_table4054
++ GCC_except_table4057
++ GCC_except_table409
++ GCC_except_table4134
++ GCC_except_table4136
++ GCC_except_table416
++ GCC_except_table417
++ GCC_except_table421
++ GCC_except_table4269
++ GCC_except_table435
++ GCC_except_table4386
++ GCC_except_table4398
++ GCC_except_table4399
++ GCC_except_table4462
++ GCC_except_table4489
++ GCC_except_table4596
++ GCC_except_table4611
++ GCC_except_table4770
++ GCC_except_table4793
++ GCC_except_table4879
++ GCC_except_table5072
++ GCC_except_table5123
++ GCC_except_table5132
++ GCC_except_table5139
++ GCC_except_table5140
++ GCC_except_table5141
++ GCC_except_table5163
++ GCC_except_table5185
++ GCC_except_table5289
++ GCC_except_table5408
++ GCC_except_table5415
++ GCC_except_table552
++ GCC_except_table555
++ GCC_except_table5814
++ GCC_except_table5852
++ GCC_except_table5872
++ GCC_except_table5884
++ GCC_except_table5912
++ GCC_except_table5915
++ GCC_except_table5939
++ GCC_except_table5965
++ GCC_except_table5988
++ GCC_except_table6032
++ GCC_except_table6316
++ GCC_except_table6321
++ GCC_except_table6322
++ GCC_except_table6329
++ GCC_except_table6462
++ GCC_except_table6514
++ GCC_except_table6518
++ GCC_except_table6521
++ GCC_except_table6538
++ GCC_except_table6570
++ GCC_except_table6634
++ GCC_except_table6664
++ GCC_except_table6671
++ GCC_except_table6742
++ GCC_except_table6773
++ GCC_except_table6878
++ GCC_except_table6882
++ GCC_except_table6885
++ GCC_except_table6888
++ GCC_except_table6955
++ GCC_except_table6967
++ GCC_except_table6977
++ GCC_except_table6981
++ GCC_except_table7120
++ GCC_except_table7130
++ GCC_except_table7139
++ GCC_except_table7147
++ GCC_except_table7221
++ GCC_except_table7276
++ GCC_except_table7284
++ GCC_except_table7426
++ GCC_except_table7442
++ GCC_except_table7477
++ GCC_except_table7483
++ GCC_except_table7488
++ GCC_except_table7496
++ GCC_except_table7501
++ GCC_except_table7506
++ GCC_except_table7535
++ GCC_except_table7656
++ GCC_except_table7657
++ GCC_except_table787
++ GCC_except_table8060
++ GCC_except_table808
++ GCC_except_table8133
++ GCC_except_table8245
++ GCC_except_table8252
++ GCC_except_table8258
++ GCC_except_table8323
++ GCC_except_table834
++ GCC_except_table8353
++ GCC_except_table8354
++ GCC_except_table8509
++ GCC_except_table8698
++ GCC_except_table8706
++ GCC_except_table8707
++ GCC_except_table8715
++ GCC_except_table8742
++ GCC_except_table8748
++ GCC_except_table8767
++ GCC_except_table8771
++ GCC_except_table8797
++ GCC_except_table8849
++ GCC_except_table8977
++ GCC_except_table9061
++ GCC_except_table9066
++ GCC_except_table9109
++ GCC_except_table9193
++ GCC_except_table9205
++ GCC_except_table9245
++ GCC_except_table9270
++ GCC_except_table9314
++ GCC_except_table9341
++ GCC_except_table9355
++ GCC_except_table9362
++ GCC_except_table9402
++ GCC_except_table941
++ GCC_except_table9415
++ GCC_except_table9417
++ GCC_except_table9421
++ GCC_except_table9422
++ GCC_except_table944
++ GCC_except_table9488
++ GCC_except_table9491
++ GCC_except_table956
++ GCC_except_table957
++ GCC_except_table9629
++ GCC_except_table9634
++ GCC_except_table9636
++ GCC_except_table9685
++ GCC_except_table975
++ GCC_except_table9759
++ GCC_except_table9768
++ GCC_except_table982
++ GCC_except_table9910
++ GCC_except_table9962
++ _OBJC_CLASS_$_PFEditAIAvailability
++ _OBJC_CLASS_$_PXSharedAlbumMetadataPreferences
++ _OBJC_CLASS_$__PUCropButtonTileView
++ _OBJC_IVAR_$_PHAirPlayScreenController._isDeactivated
++ _OBJC_IVAR_$_PUBrowsingViewModel._isFillScreenModeEnabled
++ _OBJC_IVAR_$_PUBrowsingViewModelChange._isFillScreenModeEnabledDidChange
++ _OBJC_IVAR_$_PUCleanupToolController._interactionModeButtonHiddenForShowOriginal
++ _OBJC_IVAR_$_PUOneUpViewController._isRotating
++ _OBJC_IVAR_$_PUOneUpViewController._shouldPositionContentLeadingHalfCentered
++ _OBJC_IVAR_$_PUUserTransformTileLayoutInfo._contentRegion
++ _OBJC_METACLASS_$__PUCropButtonTileView
++ _PLIsChinaSKU
++ _PUEditAIMinimumMediaHorizontalMargin
++ _PXPeoplePickerSortingTypeKey
++ _PXPreferencesIsZoomPhotosToFillEnabled
++ _UIBarButtonItemVisibilityPriorityLow
++ __OBJC_$_INSTANCE_METHODS__PUCropButtonTileView
++ __OBJC_$_INSTANCE_METHODS__TtC15PhotosUIPrivate26PUPhotoStyleToolController(PhotosUIPrivate|PhotosUIPrivate1|PhotosUIPrivate2|PhotosUIPrivate3)
++ __OBJC_CLASS_PROTOCOLS_$__TtC15PhotosUIPrivate26PUPhotoStyleToolController(PhotosUIPrivate|PhotosUIPrivate1|PhotosUIPrivate2|PhotosUIPrivate3)
++ __OBJC_CLASS_RO_$__PUCropButtonTileView
++ __OBJC_METACLASS_RO_$__PUCropButtonTileView
++ ___52-[PUCleanupToolController previewingOriginalDidStop]_block_invoke
++ ___53-[PUCleanupToolController previewingOriginalDidStart]_block_invoke
++ ___53-[PUImportActionCoordinator _continueImportingItems:]_block_invoke
++ ___53-[PUImportActionCoordinator _continueImportingItems:]_block_invoke_2
++ ___66-[PUOneUpBarsController _newBarButtonItemWithIdentifier:location:]_block_invoke_2
++ ___67-[PUImportActionCoordinator _filterItemsForImport:allowDuplicates:]_block_invoke
++ ___68-[PUPhotosDetailsViewController _configureVisualSearchTopResultItem]_block_invoke_2
++ ___72-[PUPhotosDetailsViewController _configureVisualIntelligenceContentView]_block_invoke_2
++ ___78-[PUOneUpBarsController _overflowMenuRepresentationForIdentifier:title:image:]_block_invoke
++ ___86-[PUCreateSharedAlbumLinkActivity presentCreationAlertWithContext:fromViewController:]_block_invoke
++ ___86-[PUCreateSharedAlbumLinkActivity presentCreationAlertWithContext:fromViewController:]_block_invoke_2
++ ___block_descriptor_32_e41_v16?0"<PXMutablePhotosDetailsContext>"8l
++ ___block_descriptor_64_e8_32s40s48bs56w_e8_v12?0B8lw56l8s48l8s32l8s40l8
++ ___swift_closure_destructor.154Tm
++ ___swift_closure_destructor.33Tm
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA13_VariadicViewO4TreeVy_AA11_LayoutRootVyAA03AnyH0VGAA05TupleD0VyACyACyAA0F0PAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdF0VyxGXEtAaORd__lFQOyACyACyACyACyACy12PhotosUIEdit14PhotoStyleDPadVAA20_GeometryGroupEffectVGAA012_AspectRatioH0VGAA06_FrameH0VGAA01_N8ModifierVySdGGAA32_EnvironmentKeyTransformModifierVySbGG_ACyAWyA16_GAA08_OpacityW0VGQo_AA16_OverlayModifierVyACyApAEAQ_ARQrAU_qd__AXXEtAaORd__lFQOyACyACyAA4TextVA19_GAA010_FixedSizeH0VG_ACyAWyA29_GA19_GQo_AA07_OffsetW0VGSgGGAA21_TraitWritingModifierVyAA14ZIndexTraitKeyVGG_ACyACyACyACyApAEAQ_ARQrAU_qd__AXXEtAaORd__lFQOyACyAA0V0VyAA012_ConditionalD0VyACyAY0rS13PaletteSliderVA7_GSgAA6VStackVyAY16ExpandableSliderVGGSgGA34_G_ACyAWyA61_GA19_GQo_AA25_AllowsHitTestingModifierVGA40_yAA18TransitionTraitKeyVGGA43_GAA25_AppearanceActionModifierVGAA6SpacerVSgQPGGAA05_FlexzH0VGAA30_EnvironmentKeyWritingModifierVyAA0H9DirectionOGGAaOHPA83_AaOHPA80_AaOHPAlA01_ef1_fI0HPyHC_A79_AaOHPA44_AaOHPA38_AaOHPqd0__AaOHD3_A21_HO_A37_AA0F8ModifierHPyHCHC_A43_AAA91_HPyHCHC_A75_AaOHPA72_AaOHPA71_AaOHPA67_AaOHPqd0__AaOHD3_A64_HO_A66_AAA91_HPyHCHC_A70_AAA91_HPyHCHC_A43_AAA91_HPyHCHC_A74_AAA91_HPyHCHCA78_AaOHpA77_AaOHPyHC_HCHX_HCHC_A82_AAA91_HPyHCHC_A88_AAA91_HPyHCHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA4ViewP12PhotosUICoreE22pxReadingAvailableSize2toQrAA7BindingVySo6CGSizeVSgG_tFQOyAgAE010navigationF5StyleyQrqd__AA010NavigationfQ0Rd__lFQOyAA0rF0VyAgHE05largeR18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQOyAgAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyAgAE0pT0yQrqd__SyRd__lFQOyAgAE0p3BarT11DisplayModeyQrAA0R7BarItemV0T11DisplayModeOFQOy0G9UIPrivate016StoryMusicEditordF0V_Qo__SSQo__AA05TupleD0VyAA11ToolbarItemVyytAA6ButtonVyAA18DefaultButtonLabelVGG_A16_yA18_yytAgAE06buttonQ0yQrqd__AA015PrimitiveButtonQ0Rd__lFQOyA20_yACyACyAgAE10fontWeightyQrAA4FontV6WeightVSgFQOyACyACyAA4TextVAA06_FixedL6LayoutVGAA30_EnvironmentKeyWritingModifierVyA29_SgGG_Qo_A39_yAA5ColorVSgGGAA14_PaddingLayoutVGG_AA011PlainButtonQ0VQo_G_AA13ToolbarSpacerVQPGSgA18_yytACyA23_AA32_EnvironmentKeyTransformModifierVySbGGGQPGQo__Qo_G_AA05StackrfQ0VQo__Qo_GAA16_FlexFrameLayoutVGAA30_SafeAreaRegionsIgnoringLayoutVGAA011_BackgroundQ8ModifierVyAA010BackgroundQ0VGGAaFHPA80_AaFHPA77_AaFHPA74_AaFHPyHC_A76_AA0F8ModifierHPyHCHC_A79_AAA87_HPyHCHC_A85_AAA87_HPyHCHC
++ _objc_msgSend$_configureAppleIntelligenceWhatsNew
++ _objc_msgSend$_configureChinaSpecificNonAppleIntelligenceWhatsNew
++ _objc_msgSend$_configureNonAppleIntelligenceWhatsNew
++ _objc_msgSend$_contentRegionForPageRect:
++ _objc_msgSend$_contentRegionMatchesPageRect
++ _objc_msgSend$_continueImportingItems:
++ _objc_msgSend$_cropInsetsForTileAtIndexPath:referenceFrame:
++ _objc_msgSend$_displayTileTransformForItemAtIndexPath:displaySize:contentRegion:secondaryDisplayTransform:options:
++ _objc_msgSend$_filterItemsForImport:allowDuplicates:
++ _objc_msgSend$_floatingIndicatorCenterXAnchor
++ _objc_msgSend$_handleBarButtonTapWithIdentifier:
++ _objc_msgSend$_isIPadLandscapeLayout
++ _objc_msgSend$_isIPadLayout
++ _objc_msgSend$_overflowMenuRepresentationForIdentifier:title:image:
++ _objc_msgSend$_prefersBottomControls
++ _objc_msgSend$_prefersPadLayout
++ _objc_msgSend$_presentReactionPickerFromOverflowMenu
++ _objc_msgSend$_setNeedsStatusBarAppearanceUpdateIfRotating
++ _objc_msgSend$_untransformedRectForItemAtIndexPath:contentRegion:
++ _objc_msgSend$_updateActionStageText
++ _objc_msgSend$addBulletedListItemWithTitle:description:symbolName:
++ _objc_msgSend$cleanupInteractionModeTipID
++ _objc_msgSend$collectionShareRestrictions
++ _objc_msgSend$commandTitleForMostRecentlyUsedAlbumWithPhotoLibrary:
++ _objc_msgSend$contentRegion
++ _objc_msgSend$createAssetCreationOptionsWithMetadataPreferences:removeCaptionData:
++ _objc_msgSend$doubleTapFloorZoomScale
++ _objc_msgSend$editAIToolPrefersBottomControlsForView:
++ _objc_msgSend$editAIToolPrefersPadLayoutForView:
++ _objc_msgSend$focalLengthIn35mm
++ _objc_msgSend$initWithAssets:batchComment:metadataPreferences:selectedPostToAlbumUUID:
++ _objc_msgSend$initWithIncludeAllPhotosData:includeLocationData:includeLivePhotoData:
++ _objc_msgSend$initWithTileIdentifier:center:size:alpha:transform:zPosition:coordinateSystem:untransformedContentFrame:chromeInsets:contentPixelSize:cropInsets:contentRegion:
++ _objc_msgSend$inpaintActionUndoManager
++ _objc_msgSend$interactionModeTipSourceItem
++ _objc_msgSend$interactiveDismissalControllerCurrentContentIsZoomedIn:
++ _objc_msgSend$isDeactivated
++ _objc_msgSend$isFillScreenModeEnabled
++ _objc_msgSend$isFillScreenModeEnabledDidChange
++ _objc_msgSend$isFullyZoomedOut
++ _objc_msgSend$isRotating
++ _objc_msgSend$isShowingEmptyPlaceholder
++ _objc_msgSend$makeBarButtonItem
++ _objc_msgSend$navigationBarMinimization
++ _objc_msgSend$numberOfDaysToExpiration
++ _objc_msgSend$prepareSharedAlbumCreationInPhotoLibrary:presentationEnvironment:completionHandler:
++ _objc_msgSend$presentAssetSharingChecksIfNeededForAssets:presentationEnvironment:completionHandler:
++ _objc_msgSend$presentCreationAlertWithContext:fromViewController:
++ _objc_msgSend$presentReactionPicker:fromView:
++ _objc_msgSend$pu_shouldSkipStatusBarVisibilityUpdate
++ _objc_msgSend$px_symbolImageNamed:withConfiguration:
++ _objc_msgSend$reactionsMenuTitle
++ _objc_msgSend$reportPhotographicStyleCorruptionTelemetryForComposition:item:
++ _objc_msgSend$scaleToDeviceInsetModeMaximumCropFraction
++ _objc_msgSend$setCleanupInteractionModeTipPresentationDelegate:
++ _objc_msgSend$setContentRegionSize:
++ _objc_msgSend$setDoubleTapFloorZoomScale:
++ _objc_msgSend$setIsDeactivated:
++ _objc_msgSend$setIsFillScreenModeEnabledDidChange:
++ _objc_msgSend$setMenuRepresentation:
++ _objc_msgSend$setMinimizationBehavior:
++ _objc_msgSend$setNumber:forKey:
++ _objc_msgSend$setPreferredMinimumZoomScale:animated:
++ _objc_msgSend$setSharesBackground:
++ _objc_msgSend$setShowsGlassEffect:
++ _objc_msgSend$setShowsViewOptionsOnly:
++ _objc_msgSend$sharedAlbumCreationViewControllerWithPreselectedAssets:photoLibrary:metadataPreferences:markInterventionAsAlreadyShown:createAsLegacySharedAlbum:deferredManageStorageHandler:completion:
++ _objc_msgSend$sharedAlbumMetadataPreferences
++ _objc_msgSend$shouldInitiallyZoomContentWithSize:toFillViewWithSize:forAssetMediaType:userInterfaceIdiom:
++ _objc_msgSend$shouldPositionContentLeadingHalfCentered
++ _objc_msgSend$storyResourceSongAsset
++ _objc_msgSend$targetMostRecentlyUsedAlbumInPhotoLibrary:error:
++ _objc_msgSend$untransformedRectForItemWithAspectRatio:boundingRect:
++ _objc_msgSend$updateStatusViewLayoutPropertiesForPadLayout:
++ _objc_msgSend$userTransformTileViewControllerShouldPauseInteractions:
++ _objc_msgSend$visualLookupData
++ _objc_msgSend$zoomOutToPreferredMinimumScale:
++ _objc_msgSend$zoomOutToPreferredMinimumScaleAnimated:
++ _symbolic SbytIegnr_
++ _symbolic _____SgXw 15PhotosUIPrivate27PUPhotoStyleUnifiedControlsC16IntegrationModelC
++ _symbolic _____SgXwz_Xx 15PhotosUIPrivate27PUPhotoStyleUnifiedControlsC16IntegrationModelC
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____G_____ySdGG_____ySbGG 7SwiftUI15ModifiedContentV 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameO0V AA18_AnimationModifierV AA024_EnvironmentKeyTransformR0V
++ _symbolic _____yAAyAAyAAy__________G_____G_____G_____ySdGG 7SwiftUI15ModifiedContentV 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameO0V AA18_AnimationModifierV
++ _symbolic _____yAAyAAyAAy_____yAAy_____y_____yAAy__________GSg_____y_____GGSgG_____G_AAy_____yAOG_____GQo______G_____y_____GGAWy_____GG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdE0VyxGXEtAaDRd__lFQO AA5GroupV AA012_ConditionalD0V 12PhotosUIEdit23PhotoStylePaletteSliderV AA12_FrameLayoutV AA6VStackV AR010ExpandableQ0V AA13_OffsetEffectV AL AA08_OpacityW0V AA25_AllowsHitTestingModifierV AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA14ZIndexTraitKeyV AA25_AppearanceActionModifierV
++ _symbolic _____yAAyAAy_____yAAy_____y_____yAAy__________GSg_____y_____GGSgG_____G_AAy_____yAOG_____GQo______G_____y_____GGAWy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdE0VyxGXEtAaDRd__lFQO AA5GroupV AA012_ConditionalD0V 12PhotosUIEdit23PhotoStylePaletteSliderV AA12_FrameLayoutV AA6VStackV AR010ExpandableQ0V AA13_OffsetEffectV AL AA08_OpacityW0V AA25_AllowsHitTestingModifierV AA21_TraitWritingModifierV AA18TransitionTraitKeyV AA14ZIndexTraitKeyV
++ _symbolic _____yAAyAAy_____y_____y_____y_____y_____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_AGyAHyyt_____yAIyAAyAAy_____yAAyAAy__________G_____y_____SgGG_Qo_APy_____SgGG_____GG______Qo_G______QPGSgAHyytAAyAK_____ySbGGGQPGQo__Qo_G______Qo__Qo_G_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA4ViewP12PhotosUICoreE22pxReadingAvailableSize2toQrAA7BindingVySo6CGSizeVSgG_tFQO AgAE010navigationF5StyleyQrqd__AA010NavigationfQ0Rd__lFQO AA0rF0V AgHE05largeR18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AgAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AgAE0pT0yQrqd__SyRd__lFQO AgAE0p3BarT11DisplayModeyQrAA0R7BarItemV0T11DisplayModeOFQO 0G9UIPrivate016StoryMusicEditordF0V AA05TupleD0V AA11ToolbarItemV AA6ButtonV AA18DefaultButtonLabelV AgAE06buttonQ0yQrqd__AA015PrimitiveButtonQ0Rd__lFQO AgAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA06_FixedL6LayoutV AA30_EnvironmentKeyWritingModifierV A25_ AA5ColorV AA14_PaddingLayoutV AA011PlainButtonQ0V AA13ToolbarSpacerV AA32_EnvironmentKeyTransformModifierV AA05StackrfQ0V AA16_FlexFrameLayoutV AA30_SafeAreaRegionsIgnoringLayoutV AA011_BackgroundQ8ModifierV AA010BackgroundQ0V
++ _symbolic _____yAAy_____yAAyAAyAAyAAyAAy__________G_____G_____G_____ySdGG_____ySbGG_AAy_____yANG_____GQo______yAAy_____yAAyAAy_____AQG_____G_AAyAOyAXGAQGQo______GSgGG_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdE0VyxGXEtAaDRd__lFQO 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameT0V AA01_H8ModifierV AA024_EnvironmentKeyTransformV0V AL AA08_OpacityQ0V AA08_OverlayV0V AeAEAF_AGQrAJ_qd__AMXEtAaDRd__lFQO AA4TextV AA010_FixedSizeT0V AA07_OffsetQ0V AA013_TraitWritingV0V AA011ZIndexTraitX0V
++ _symbolic _____yAAy_____yAAyAAyAAyAAyAAy__________G_____G_____G_____ySdGG_____ySbGG_AAy_____yANG_____GQo______yAAy_____yAAyAAy_____AQG_____G_AAyAOyAXGAQGQo______GSgGG_____y_____GG_AAyAAyAAyAAy_____yAAy_____y_____yAAy_____AGGSg_____y_____GGSgGA0_G_AAyAOyA20_GAQGQo______GA5_y_____GGA7_G_____G_____Sgt 7SwiftUI15ModifiedContentV AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdE0VyxGXEtAaDRd__lFQO 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameT0V AA01_H8ModifierV AA024_EnvironmentKeyTransformV0V AL AA08_OpacityQ0V AA08_OverlayV0V AeAEAF_AGQrAJ_qd__AMXEtAaDRd__lFQO AA4TextV AA010_FixedSizeT0V AA07_OffsetQ0V AA013_TraitWritingV0V AA011ZIndexTraitX0V AeAEAF_AGQrAJ_qd__AMXEtAaDRd__lFQO AA0P0V AA012_ConditionalD0V AN0lM13PaletteSliderV AA6VStackV AN16ExpandableSliderV AA017_AllowsHitTestingV0V AA015TransitionTraitX0V AA017_AppearanceActionV0V AA6SpacerV
++ _symbolic _____yAAy_____yAAy_____y_____yAAy__________GSg_____y_____GGSgG_____G_AAy_____yAOG_____GQo______G_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdE0VyxGXEtAaDRd__lFQO AA5GroupV AA012_ConditionalD0V 12PhotosUIEdit23PhotoStylePaletteSliderV AA12_FrameLayoutV AA6VStackV AR010ExpandableQ0V AA13_OffsetEffectV AL AA08_OpacityW0V AA25_AllowsHitTestingModifierV AA21_TraitWritingModifierV AA18TransitionTraitKeyV
++ _symbolic _____yAAy_____y______y_____G_____yAAyAAy_____yAAyAAyAAyAAyAAy__________G_____G_____G_____ySdGG_____ySbGG_AAy_____yASG_____GQo______yAAy_____yAAyAAy_____AVG_____G_AAyATyA1_GAVGQo______GSgGG_____y_____GG_AAyAAyAAyAAy_____yAAy_____y_____yAAy_____ALGSg_____y_____GGSgGA5_G_AAyATyA25_GAVGQo______GA10_y_____GGA12_G_____G_____SgQPGG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV AA03AnyH0V AA05TupleD0V AA0F0PAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdF0VyxGXEtAaNRd__lFQO 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA012_AspectRatioH0V AA06_FrameH0V AA01_N8ModifierV AA32_EnvironmentKeyTransformModifierV AV AA08_OpacityW0V AA16_OverlayModifierV AoAEAP_AQQrAT_qd__AWXEtAaNRd__lFQO AA4TextV AA010_FixedSizeH0V AA07_OffsetW0V AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AoAEAP_AQQrAT_qd__AWXEtAaNRd__lFQO AA0V0V AA012_ConditionalD0V AX0rS13PaletteSliderV AA6VStackV AX16ExpandableSliderV AA25_AllowsHitTestingModifierV AA18TransitionTraitKeyV AA25_AppearanceActionModifierV AA6SpacerV AA05_FlexzH0V AA30_EnvironmentKeyWritingModifierV AA0H9DirectionO
++ _symbolic _____yAAy_____y_____y_____y_____y_____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_AGyAHyyt_____yAIyAAyAAy_____yAAyAAy__________G_____y_____SgGG_Qo_APy_____SgGG_____GG______Qo_G______QPGSgAHyytAAyAK_____ySbGGGQPGQo__Qo_G______Qo__Qo_G_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA4ViewP12PhotosUICoreE22pxReadingAvailableSize2toQrAA7BindingVySo6CGSizeVSgG_tFQO AgAE010navigationF5StyleyQrqd__AA010NavigationfQ0Rd__lFQO AA0rF0V AgHE05largeR18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AgAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AgAE0pT0yQrqd__SyRd__lFQO AgAE0p3BarT11DisplayModeyQrAA0R7BarItemV0T11DisplayModeOFQO 0G9UIPrivate016StoryMusicEditordF0V AA05TupleD0V AA11ToolbarItemV AA6ButtonV AA18DefaultButtonLabelV AgAE06buttonQ0yQrqd__AA015PrimitiveButtonQ0Rd__lFQO AgAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA06_FixedL6LayoutV AA30_EnvironmentKeyWritingModifierV A25_ AA5ColorV AA14_PaddingLayoutV AA011PlainButtonQ0V AA13ToolbarSpacerV AA32_EnvironmentKeyTransformModifierV AA05StackrfQ0V AA16_FlexFrameLayoutV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____ySdG 7SwiftUI18_AnimationModifierV
++ _symbolic _____y___________y_____y_____y_____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_AGyAHyyt_____yAIy_____yAMy_____yAMyAMy__________G_____y_____SgGG_Qo_AQy_____SgGG_____GG______Qo_G______QPGSgAHyytAMyAK_____ySbGGGQPGQo__Qo_G______Qo__Qo_G 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA0D0P12PhotosUICoreE22pxReadingAvailableSize2toQrAA7BindingVySo6CGSizeVSgG_tFQO AiAE010navigationD5StyleyQrqd__AA010NavigationdR0Rd__lFQO AA0sD0V AiJE05largeS18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AiAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AiAE0qU0yQrqd__SyRd__lFQO AiAE0q3BarU11DisplayModeyQrAA0S7BarItemV0U11DisplayModeOFQO 0H9UIPrivate023StoryMusicEditorContentD0V AA12TupleContentV AA11ToolbarItemV AA6ButtonV AA18DefaultButtonLabelV AiAE06buttonR0yQrqd__AA015PrimitiveButtonR0Rd__lFQO AA15ModifiedContentV AiAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA06_FixedmG0V AA30_EnvironmentKeyWritingModifierV A29_ AA5ColorV AA08_PaddingG0V AA011PlainButtonR0V AA13ToolbarSpacerV AA32_EnvironmentKeyTransformModifierV AA05StacksdR0V
++ _symbolic _____y______y_____G_____y_____yAFy_____yAFyAFyAFyAFyAFy__________G_____G_____G_____ySdGG_____ySbGG_AFy_____yASG_____GQo______yAFy_____yAFyAFy_____AVG_____G_AFyATyA1_GAVGQo______GSgGG_____y_____GG_AFyAFyAFyAFy_____yAFy_____y_____yAFy_____ALGSg_____y_____GGSgGA5_G_AFyATyA25_GAVGQo______GA10_y_____GGA12_G_____G_____SgQPGG 7SwiftUI13_VariadicViewO4TreeV AA11_LayoutRootV AA03AnyF0V AA12TupleContentV AA08ModifiedJ0V AA0D0PAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderjD0VyxGXEtAaNRd__lFQO 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA012_AspectRatioF0V AA06_FrameF0V AA01_N8ModifierV AA32_EnvironmentKeyTransformModifierV AV AA08_OpacityW0V AA16_OverlayModifierV AoAEAP_AQQrAT_qd__AWXEtAaNRd__lFQO AA4TextV AA010_FixedSizeF0V AA07_OffsetW0V AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AoAEAP_AQQrAT_qd__AWXEtAaNRd__lFQO AA0V0V AA012_ConditionalJ0V AX0rS13PaletteSliderV AA6VStackV AX16ExpandableSliderV AA25_AllowsHitTestingModifierV AA18TransitionTraitKeyV AA25_AppearanceActionModifierV AA6SpacerV
++ _symbolic _____y_____yAAyAAyAAyAAyAAy__________G_____G_____G_____ySdGG_____ySbGGG_____G 7SwiftUI15ModifiedContentV AA011PlaceholderD4ViewV 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameQ0V AA18_AnimationModifierV AA024_EnvironmentKeyTransformT0V AA08_OpacityN0V
++ _symbolic _____y_____yAAyAAyAAyAAyAAy__________G_____G_____G_____ySdGG_____ySbGG_AAy_____yANG_____GQo______yAAy_____yAAyAAy_____AQG_____G_AAyAOyAXGAQGQo______GSgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdE0VyxGXEtAaDRd__lFQO 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameT0V AA01_H8ModifierV AA024_EnvironmentKeyTransformV0V AL AA08_OpacityQ0V AA08_OverlayV0V AeAEAF_AGQrAJ_qd__AMXEtAaDRd__lFQO AA4TextV AA010_FixedSizeT0V AA07_OffsetQ0V
++ _symbolic _____y_____yAAy_____y_____yAAy__________GSg_____y_____GGSgG_____GG_____G 7SwiftUI15ModifiedContentV AA011PlaceholderD4ViewV AA5GroupV AA012_ConditionalD0V 12PhotosUIEdit23PhotoStylePaletteSliderV AA12_FrameLayoutV AA6VStackV AJ010ExpandableN0V AA13_OffsetEffectV AA08_OpacityT0V
++ _symbolic _____y_____yAAy_____y_____yAAy__________GSg_____y_____GGSgG_____G_AAy_____yAOG_____GQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdE0VyxGXEtAaDRd__lFQO AA5GroupV AA012_ConditionalD0V 12PhotosUIEdit23PhotoStylePaletteSliderV AA12_FrameLayoutV AA6VStackV AR010ExpandableQ0V AA13_OffsetEffectV AL AA08_OpacityW0V AA25_AllowsHitTestingModifierV
++ _symbolic _____y_____yAByAByAByABy__________G_____G_____G_____ySdGG_____ySbGGG 7SwiftUI22PlaceholderContentViewV AA08ModifiedD0V 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameQ0V AA18_AnimationModifierV AA024_EnvironmentKeyTransformT0V
++ _symbolic _____y_____yABy_____yAByAByAByAByABy__________G_____G_____G_____ySdGG_____ySbGG_ABy_____yAOG_____GQo______yABy_____yAByABy_____ARG_____G_AByAPyAYGARGQo______GSgGG_____y_____GG_AByAByAByABy_____yABy_____y_____yABy_____AHGSg_____y_____GGSgGA1_G_AByAPyA21_GARGQo______GA6_y_____GGA8_G_____G_____SgQPG 7SwiftUI12TupleContentV AA08ModifiedD0V AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdF0VyxGXEtAaFRd__lFQO 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameU0V AA01_I8ModifierV AA024_EnvironmentKeyTransformW0V AN AA08_OpacityR0V AA08_OverlayW0V AgAEAH_AIQrAL_qd__AOXEtAaFRd__lFQO AA4TextV AA010_FixedSizeU0V AA07_OffsetR0V AA013_TraitWritingW0V AA011ZIndexTraitY0V AgAEAH_AIQrAL_qd__AOXEtAaFRd__lFQO AA0Q0V AA012_ConditionalD0V AP0mN13PaletteSliderV AA6VStackV AP16ExpandableSliderV AA017_AllowsHitTestingW0V AA015TransitionTraitY0V AA017_AppearanceActionW0V AA6SpacerV
++ _symbolic _____y_____y______y_____G_____yAAyAAy_____yAAyAAyAAyAAyAAy__________G_____G_____G_____ySdGG_____ySbGG_AAy_____yASG_____GQo______yAAy_____yAAyAAy_____AVG_____G_AAyATyA1_GAVGQo______GSgGG_____y_____GG_AAyAAyAAyAAy_____yAAy_____y_____yAAy_____ALGSg_____y_____GGSgGA5_G_AAyATyA25_GAVGQo______GA10_y_____GGA12_G_____G_____SgQPGG_____G 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV AA03AnyH0V AA05TupleD0V AA0F0PAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdF0VyxGXEtAaNRd__lFQO 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA012_AspectRatioH0V AA06_FrameH0V AA01_N8ModifierV AA32_EnvironmentKeyTransformModifierV AV AA08_OpacityW0V AA16_OverlayModifierV AoAEAP_AQQrAT_qd__AWXEtAaNRd__lFQO AA4TextV AA010_FixedSizeH0V AA07_OffsetW0V AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AoAEAP_AQQrAT_qd__AWXEtAaNRd__lFQO AA0V0V AA012_ConditionalD0V AX0rS13PaletteSliderV AA6VStackV AX16ExpandableSliderV AA25_AllowsHitTestingModifierV AA18TransitionTraitKeyV AA25_AppearanceActionModifierV AA6SpacerV AA05_FlexzH0V
++ _symbolic _____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_ADyAEyyt_____yAFy_____yAJy_____yAJyAJy__________G_____y_____SgGG_Qo_ANy_____SgGG_____GG______Qo_G______QPGSgAEyytAJyAH_____ySbGGGQPGQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AcAE0h3BarI11DisplayModeyQrAA010NavigationJ4ItemV0ikL0OFQO 15PhotosUIPrivate016StoryMusicEditorgC0V AA05TupleG0V AA0fN0V AA6ButtonV AA07DefaultU5LabelV AcAE11buttonStyleyQrqd__AA09PrimitiveuY0Rd__lFQO AA08ModifiedG0V AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV A2_ AA5ColorV AA14_PaddingLayoutV AA05PlainuY0V AA0F6SpacerV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____y_____yABy__________GSg_____y_____GGSgG_____GG 7SwiftUI22PlaceholderContentViewV AA08ModifiedD0V AA5GroupV AA012_ConditionalD0V 12PhotosUIEdit23PhotoStylePaletteSliderV AA12_FrameLayoutV AA6VStackV AJ010ExpandableN0V AA13_OffsetEffectV
++ _symbolic _____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_ADyAEyyt_____yAFy_____yAJy_____yAJyAJy__________G_____y_____SgGG_Qo_ANy_____SgGG_____GG______Qo_G______QPGSgAEyytAJyAH_____ySbGGGQPGQo__Qo_ 7SwiftUI4ViewP12PhotosUICoreE33largeNavigationTitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE010navigationH0yQrqd__SyRd__lFQO AcAE0t3BarH11DisplayModeyQrAA0gU4ItemV0hvW0OFQO 0D9UIPrivate016StoryMusicEditorsC0V AA05TupleS0V AA0rX0V AA6ButtonV AA18DefaultButtonLabelV AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA08ModifiedS0V AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV A11_ AA5ColorV AA14_PaddingLayoutV AA16PlainButtonStyleV AA0R6SpacerV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_AEyAFyyt_____yAGy_____yAKy_____yAKyAKy__________G_____y_____SgGG_Qo_AOy_____SgGG_____GG______Qo_G______QPGSgAFyytAKyAI_____ySbGGGQPGQo__Qo_G 7SwiftUI14NavigationViewV AA0D0P12PhotosUICoreE05largeC18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AeAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AeAE010navigationH0yQrqd__SyRd__lFQO AeAE0t3BarH11DisplayModeyQrAA0cU4ItemV0hvW0OFQO 0E9UIPrivate016StoryMusicEditorsD0V AA05TupleS0V AA0rX0V AA6ButtonV AA18DefaultButtonLabelV AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA08ModifiedS0V AeAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV A13_ AA5ColorV AA14_PaddingLayoutV AA16PlainButtonStyleV AA0R6SpacerV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_AEyAFyyt_____yAGy_____yAKy_____yAKyAKy__________G_____y_____SgGG_Qo_AOy_____SgGG_____GG______Qo_G______QPGSgAFyytAKyAI_____ySbGGGQPGQo__Qo_G______Qo_ 7SwiftUI4ViewPAAE010navigationC5StyleyQrqd__AA010NavigationcE0Rd__lFQO AA0fC0V AC12PhotosUICoreE05largeF18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE0dJ0yQrqd__SyRd__lFQO AcAE0d3BarJ11DisplayModeyQrAA0fV4ItemV0jwX0OFQO 0G9UIPrivate016StoryMusicEditoruC0V AA05TupleU0V AA0tY0V AA6ButtonV AA18DefaultButtonLabelV AcAE06buttonE0yQrqd__AA015PrimitiveButtonE0Rd__lFQO AA08ModifiedU0V AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV A15_ AA5ColorV AA14_PaddingLayoutV AA011PlainButtonE0V AA0T6SpacerV AA32_EnvironmentKeyTransformModifierV AA05StackfcE0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_AFyAGyyt_____yAHy_____yALy_____yALyALy__________G_____y_____SgGG_Qo_APy_____SgGG_____GG______Qo_G______QPGSgAGyytALyAJ_____ySbGGGQPGQo__Qo_G______Qo__Qo_G 7SwiftUI6VStackV AA4ViewP12PhotosUICoreE22pxReadingAvailableSize2toQrAA7BindingVySo6CGSizeVSgG_tFQO AeAE010navigationD5StyleyQrqd__AA010NavigationdO0Rd__lFQO AA0pD0V AeFE05largeP18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AeAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AeAE0nR0yQrqd__SyRd__lFQO AeAE0n3BarR11DisplayModeyQrAA0P7BarItemV0R11DisplayModeOFQO 0E9UIPrivate023StoryMusicEditorContentD0V AA12TupleContentV AA11ToolbarItemV AA6ButtonV AA18DefaultButtonLabelV AeAE06buttonO0yQrqd__AA015PrimitiveButtonO0Rd__lFQO AA15ModifiedContentV AeAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA06_FixedJ6LayoutV AA30_EnvironmentKeyWritingModifierV A25_ AA5ColorV AA14_PaddingLayoutV AA011PlainButtonO0V AA13ToolbarSpacerV AA32_EnvironmentKeyTransformModifierV AA05StackpdO0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_AGyAHyyt_____yAIyAAyAAy_____yAAyAAy__________G_____y_____SgGG_Qo_APy_____SgGG_____GG______Qo_G______QPGSgAHyytAAyAK_____ySbGGGQPGQo__Qo_G______Qo__Qo_G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA4ViewP12PhotosUICoreE22pxReadingAvailableSize2toQrAA7BindingVySo6CGSizeVSgG_tFQO AgAE010navigationF5StyleyQrqd__AA010NavigationfQ0Rd__lFQO AA0rF0V AgHE05largeR18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AgAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AgAE0pT0yQrqd__SyRd__lFQO AgAE0p3BarT11DisplayModeyQrAA0R7BarItemV0T11DisplayModeOFQO 0G9UIPrivate016StoryMusicEditordF0V AA05TupleD0V AA11ToolbarItemV AA6ButtonV AA18DefaultButtonLabelV AgAE06buttonQ0yQrqd__AA015PrimitiveButtonQ0Rd__lFQO AgAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA06_FixedL6LayoutV AA30_EnvironmentKeyWritingModifierV A25_ AA5ColorV AA14_PaddingLayoutV AA011PlainButtonQ0V AA13ToolbarSpacerV AA32_EnvironmentKeyTransformModifierV AA05StackrfQ0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____yyt_____y_____GG_AAyAByyt_____yACy_____yAGy_____yAGyAGy__________G_____y_____SgGG_Qo_AKy_____SgGG_____GG______Qo_G______QPGSgAByytAGyAE_____ySbGGGQPG 7SwiftUI12TupleContentV AA11ToolbarItemV AA6ButtonV AA07DefaultG5LabelV AA4ViewPAAE11buttonStyleyQrqd__AA09PrimitivegL0Rd__lFQO AA08ModifiedD0V AkAE10fontWeightyQrAA4FontV0P0VSgFQO AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AR AA5ColorV AA08_PaddingU0V AA05PlaingL0V AA0E6SpacerV AA01_vw9TransformY0V
++ _symbolic _____yyt_____y_____GG______yAAyyt_____yABy_____yAGy_____yAGyAGy__________G_____y_____SgGG_Qo_AKy_____SgGG_____GG______Qo_G______QPGSgAAyytAGyAD_____ySbGGGt 7SwiftUI11ToolbarItemV AA6ButtonV AA07DefaultE5LabelV AA12TupleContentV AA4ViewPAAE11buttonStyleyQrqd__AA09PrimitiveeL0Rd__lFQO AA08ModifiedI0V AkAE10fontWeightyQrAA4FontV0P0VSgFQO AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AR AA5ColorV AA08_PaddingU0V AA05PlaineL0V AA0C6SpacerV AA01_vw9TransformY0V
++ _symbolic ySbc
+- +[PUOneUpTilingLayout untransformedRectForItemWithAspectRatio:pageRect:safeInsets:]
+- +[PUOneUpTilingLayout untransformedRectForItemWithAspectRatio:pageRect:safeInsets:minimumInsetMargin:]
+- -[PUAddToLastUsedAlbumActivity assetCreationOptions]
+- -[PUAddToSharedAlbumActivity assetCreationOptions]
+- -[PUCleanupToolController _isMediaViewZoomedIn]
+- -[PUCleanupToolController leftPhoneLayoutTrailingPadding]
+- -[PUFlatWhiteInterfaceTheme photoEditingToolbarButtonSmallFont]
+- -[PUModelTileTransform hasUserZoomedOut]
+- -[PUOneUpTilingLayout _cropInsetsForTileAtIndexPath:layoutRect:]
+- -[PUOneUpTilingLayout _displayTileTransformForItemAtIndexPath:pageSize:secondaryDisplayTransform:options:]
+- -[PUOneUpTilingLayout _untransformedRectForItemAtIndexPath:pageRect:]
+- -[PUOneUpTilingLayout minimumMarginForInsetContent]
+- -[PUOneUpTilingLayout setMinimumMarginForInsetContent:]
+- -[PUPhotoEditProtoSettings cleanupUsesAdditionalGuardrails]
+- -[PUPhotoEditProtoSettings setCleanupUsesAdditionalGuardrails:]
+- -[PUUserTransformTileLayoutInfo initWithTileIdentifier:center:size:alpha:transform:zPosition:coordinateSystem:untransformedContentFrame:chromeInsets:contentPixelSize:cropInsets:]
+- GCC_except_table10000
+- GCC_except_table10185
+- GCC_except_table10202
+- GCC_except_table10213
+- GCC_except_table10214
+- GCC_except_table10244
+- GCC_except_table10312
+- GCC_except_table10352
+- GCC_except_table10354
+- GCC_except_table10361
+- GCC_except_table10365
+- GCC_except_table10371
+- GCC_except_table1043
+- GCC_except_table10468
+- GCC_except_table10526
+- GCC_except_table10559
+- GCC_except_table10823
+- GCC_except_table10825
+- GCC_except_table1088
+- GCC_except_table10941
+- GCC_except_table11048
+- GCC_except_table1105
+- GCC_except_table1112
+- GCC_except_table11211
+- GCC_except_table11252
+- GCC_except_table11280
+- GCC_except_table11328
+- GCC_except_table11329
+- GCC_except_table11331
+- GCC_except_table11332
+- GCC_except_table11335
+- GCC_except_table11339
+- GCC_except_table11360
+- GCC_except_table11672
+- GCC_except_table11702
+- GCC_except_table11708
+- GCC_except_table11712
+- GCC_except_table11781
+- GCC_except_table1187
+- GCC_except_table1201
+- GCC_except_table1202
+- GCC_except_table1204
+- GCC_except_table1212
+- GCC_except_table12123
+- GCC_except_table12124
+- GCC_except_table12177
+- GCC_except_table12181
+- GCC_except_table1230
+- GCC_except_table1242
+- GCC_except_table1244
+- GCC_except_table12469
+- GCC_except_table1247
+- GCC_except_table12486
+- GCC_except_table12499
+- GCC_except_table12513
+- GCC_except_table12533
+- GCC_except_table12582
+- GCC_except_table12733
+- GCC_except_table12751
+- GCC_except_table12756
+- GCC_except_table12759
+- GCC_except_table12762
+- GCC_except_table12773
+- GCC_except_table12823
+- GCC_except_table12836
+- GCC_except_table12875
+- GCC_except_table12911
+- GCC_except_table12927
+- GCC_except_table12929
+- GCC_except_table12965
+- GCC_except_table1298
+- GCC_except_table13055
+- GCC_except_table1306
+- GCC_except_table13060
+- GCC_except_table13328
+- GCC_except_table13403
+- GCC_except_table13417
+- GCC_except_table13424
+- GCC_except_table13440
+- GCC_except_table13441
+- GCC_except_table13444
+- GCC_except_table13451
+- GCC_except_table13565
+- GCC_except_table13567
+- GCC_except_table13629
+- GCC_except_table13671
+- GCC_except_table13731
+- GCC_except_table13756
+- GCC_except_table13772
+- GCC_except_table13787
+- GCC_except_table13811
+- GCC_except_table13839
+- GCC_except_table13851
+- GCC_except_table13861
+- GCC_except_table13871
+- GCC_except_table13905
+- GCC_except_table13914
+- GCC_except_table13939
+- GCC_except_table13944
+- GCC_except_table13946
+- GCC_except_table13951
+- GCC_except_table13952
+- GCC_except_table13953
+- GCC_except_table13973
+- GCC_except_table14020
+- GCC_except_table14244
+- GCC_except_table14384
+- GCC_except_table14485
+- GCC_except_table14489
+- GCC_except_table14500
+- GCC_except_table14527
+- GCC_except_table14537
+- GCC_except_table14988
+- GCC_except_table1514
+- GCC_except_table15421
+- GCC_except_table15422
+- GCC_except_table15431
+- GCC_except_table15434
+- GCC_except_table15437
+- GCC_except_table15445
+- GCC_except_table15480
+- GCC_except_table1549
+- GCC_except_table15515
+- GCC_except_table1559
+- GCC_except_table15593
+- GCC_except_table15671
+- GCC_except_table15677
+- GCC_except_table15681
+- GCC_except_table15721
+- GCC_except_table15771
+- GCC_except_table15779
+- GCC_except_table15784
+- GCC_except_table15786
+- GCC_except_table15818
+- GCC_except_table15830
+- GCC_except_table15838
+- GCC_except_table15840
+- GCC_except_table15844
+- GCC_except_table15847
+- GCC_except_table15854
+- GCC_except_table15856
+- GCC_except_table15858
+- GCC_except_table15882
+- GCC_except_table15893
+- GCC_except_table15904
+- GCC_except_table15963
+- GCC_except_table16036
+- GCC_except_table16040
+- GCC_except_table16153
+- GCC_except_table16156
+- GCC_except_table16162
+- GCC_except_table16194
+- GCC_except_table16211
+- GCC_except_table16269
+- GCC_except_table16299
+- GCC_except_table16356
+- GCC_except_table16377
+- GCC_except_table16392
+- GCC_except_table16474
+- GCC_except_table16475
+- GCC_except_table16492
+- GCC_except_table16501
+- GCC_except_table16515
+- GCC_except_table16521
+- GCC_except_table16531
+- GCC_except_table16538
+- GCC_except_table166
+- GCC_except_table16722
+- GCC_except_table16733
+- GCC_except_table16736
+- GCC_except_table16738
+- GCC_except_table16745
+- GCC_except_table16747
+- GCC_except_table16749
+- GCC_except_table16752
+- GCC_except_table16834
+- GCC_except_table16840
+- GCC_except_table16873
+- GCC_except_table17071
+- GCC_except_table17096
+- GCC_except_table17259
+- GCC_except_table17366
+- GCC_except_table17367
+- GCC_except_table174
+- GCC_except_table17492
+- GCC_except_table17524
+- GCC_except_table17566
+- GCC_except_table17571
+- GCC_except_table17600
+- GCC_except_table17604
+- GCC_except_table17750
+- GCC_except_table17753
+- GCC_except_table17762
+- GCC_except_table17949
+- GCC_except_table17950
+- GCC_except_table17984
+- GCC_except_table18003
+- GCC_except_table18005
+- GCC_except_table18070
+- GCC_except_table18143
+- GCC_except_table18160
+- GCC_except_table18161
+- GCC_except_table18164
+- GCC_except_table18171
+- GCC_except_table18172
+- GCC_except_table18180
+- GCC_except_table18193
+- GCC_except_table18201
+- GCC_except_table18212
+- GCC_except_table18358
+- GCC_except_table18360
+- GCC_except_table18362
+- GCC_except_table18370
+- GCC_except_table18660
+- GCC_except_table18661
+- GCC_except_table1868
+- GCC_except_table18680
+- GCC_except_table18682
+- GCC_except_table18711
+- GCC_except_table18722
+- GCC_except_table18730
+- GCC_except_table18745
+- GCC_except_table18746
+- GCC_except_table18750
+- GCC_except_table18759
+- GCC_except_table18769
+- GCC_except_table18887
+- GCC_except_table18899
+- GCC_except_table18947
+- GCC_except_table18957
+- GCC_except_table18972
+- GCC_except_table18975
+- GCC_except_table18977
+- GCC_except_table18978
+- GCC_except_table18979
+- GCC_except_table18980
+- GCC_except_table18985
+- GCC_except_table19068
+- GCC_except_table19075
+- GCC_except_table19156
+- GCC_except_table19171
+- GCC_except_table19229
+- GCC_except_table19284
+- GCC_except_table19444
+- GCC_except_table19461
+- GCC_except_table19641
+- GCC_except_table1967
+- GCC_except_table19807
+- GCC_except_table19895
+- GCC_except_table19919
+- GCC_except_table20327
+- GCC_except_table20331
+- GCC_except_table20340
+- GCC_except_table20344
+- GCC_except_table20362
+- GCC_except_table20373
+- GCC_except_table20423
+- GCC_except_table20472
+- GCC_except_table20723
+- GCC_except_table20871
+- GCC_except_table20876
+- GCC_except_table21017
+- GCC_except_table21027
+- GCC_except_table21029
+- GCC_except_table21072
+- GCC_except_table21126
+- GCC_except_table21127
+- GCC_except_table21217
+- GCC_except_table21408
+- GCC_except_table21412
+- GCC_except_table21491
+- GCC_except_table21492
+- GCC_except_table21500
+- GCC_except_table21579
+- GCC_except_table21613
+- GCC_except_table21695
+- GCC_except_table21696
+- GCC_except_table21750
+- GCC_except_table2176
+- GCC_except_table2177
+- GCC_except_table2179
+- GCC_except_table21876
+- GCC_except_table2188
+- GCC_except_table22071
+- GCC_except_table22072
+- GCC_except_table22089
+- GCC_except_table22093
+- GCC_except_table22116
+- GCC_except_table22228
+- GCC_except_table2239
+- GCC_except_table22547
+- GCC_except_table2257
+- GCC_except_table22588
+- GCC_except_table22681
+- GCC_except_table22705
+- GCC_except_table22720
+- GCC_except_table22840
+- GCC_except_table22876
+- GCC_except_table22879
+- GCC_except_table22881
+- GCC_except_table22886
+- GCC_except_table22924
+- GCC_except_table22989
+- GCC_except_table23005
+- GCC_except_table2302
+- GCC_except_table2310
+- GCC_except_table2311
+- GCC_except_table2312
+- GCC_except_table2326
+- GCC_except_table23275
+- GCC_except_table23279
+- GCC_except_table23281
+- GCC_except_table23288
+- GCC_except_table23289
+- GCC_except_table23291
+- GCC_except_table23292
+- GCC_except_table23294
+- GCC_except_table23396
+- GCC_except_table2349
+- GCC_except_table23498
+- GCC_except_table23535
+- GCC_except_table23597
+- GCC_except_table23610
+- GCC_except_table2366
+- GCC_except_table2368
+- GCC_except_table23698
+- GCC_except_table23705
+- GCC_except_table23707
+- GCC_except_table23709
+- GCC_except_table23728
+- GCC_except_table23733
+- GCC_except_table23739
+- GCC_except_table2374
+- GCC_except_table23755
+- GCC_except_table23952
+- GCC_except_table23975
+- GCC_except_table23986
+- GCC_except_table2403
+- GCC_except_table24091
+- GCC_except_table24146
+- GCC_except_table24153
+- GCC_except_table24157
+- GCC_except_table24171
+- GCC_except_table24174
+- GCC_except_table24305
+- GCC_except_table24333
+- GCC_except_table24350
+- GCC_except_table2440
+- GCC_except_table24400
+- GCC_except_table24448
+- GCC_except_table24557
+- GCC_except_table24626
+- GCC_except_table24636
+- GCC_except_table24644
+- GCC_except_table24860
+- GCC_except_table24876
+- GCC_except_table274
+- GCC_except_table2768
+- GCC_except_table2824
+- GCC_except_table2828
+- GCC_except_table2831
+- GCC_except_table2919
+- GCC_except_table2923
+- GCC_except_table2944
+- GCC_except_table2945
+- GCC_except_table2953
+- GCC_except_table3005
+- GCC_except_table3063
+- GCC_except_table3066
+- GCC_except_table319
+- GCC_except_table3276
+- GCC_except_table3308
+- GCC_except_table3331
+- GCC_except_table3354
+- GCC_except_table3357
+- GCC_except_table3799
+- GCC_except_table3802
+- GCC_except_table386
+- GCC_except_table387
+- GCC_except_table3937
+- GCC_except_table3985
+- GCC_except_table4005
+- GCC_except_table4043
+- GCC_except_table4046
+- GCC_except_table4047
+- GCC_except_table4048
+- GCC_except_table4051
+- GCC_except_table407
+- GCC_except_table4128
+- GCC_except_table413
+- GCC_except_table4130
+- GCC_except_table414
+- GCC_except_table419
+- GCC_except_table4263
+- GCC_except_table431
+- GCC_except_table4380
+- GCC_except_table4392
+- GCC_except_table4393
+- GCC_except_table4456
+- GCC_except_table4483
+- GCC_except_table4590
+- GCC_except_table4605
+- GCC_except_table4763
+- GCC_except_table4786
+- GCC_except_table4871
+- GCC_except_table5062
+- GCC_except_table5113
+- GCC_except_table5122
+- GCC_except_table5129
+- GCC_except_table5130
+- GCC_except_table5131
+- GCC_except_table5153
+- GCC_except_table5175
+- GCC_except_table5279
+- GCC_except_table5398
+- GCC_except_table5405
+- GCC_except_table550
+- GCC_except_table553
+- GCC_except_table5804
+- GCC_except_table5842
+- GCC_except_table5862
+- GCC_except_table5864
+- GCC_except_table5902
+- GCC_except_table5905
+- GCC_except_table5929
+- GCC_except_table5955
+- GCC_except_table5978
+- GCC_except_table6012
+- GCC_except_table6302
+- GCC_except_table6303
+- GCC_except_table6306
+- GCC_except_table6307
+- GCC_except_table6311
+- GCC_except_table6312
+- GCC_except_table6454
+- GCC_except_table6504
+- GCC_except_table6508
+- GCC_except_table6511
+- GCC_except_table6528
+- GCC_except_table6560
+- GCC_except_table6620
+- GCC_except_table6650
+- GCC_except_table6657
+- GCC_except_table6727
+- GCC_except_table6758
+- GCC_except_table6863
+- GCC_except_table6867
+- GCC_except_table6870
+- GCC_except_table6873
+- GCC_except_table6940
+- GCC_except_table6952
+- GCC_except_table6962
+- GCC_except_table6966
+- GCC_except_table7105
+- GCC_except_table7115
+- GCC_except_table7124
+- GCC_except_table7132
+- GCC_except_table7206
+- GCC_except_table7260
+- GCC_except_table7268
+- GCC_except_table7409
+- GCC_except_table7425
+- GCC_except_table7460
+- GCC_except_table7466
+- GCC_except_table7471
+- GCC_except_table7479
+- GCC_except_table7484
+- GCC_except_table7489
+- GCC_except_table7518
+- GCC_except_table7639
+- GCC_except_table7640
+- GCC_except_table785
+- GCC_except_table804
+- GCC_except_table8044
+- GCC_except_table8117
+- GCC_except_table8229
+- GCC_except_table8236
+- GCC_except_table8242
+- GCC_except_table830
+- GCC_except_table8307
+- GCC_except_table8337
+- GCC_except_table8338
+- GCC_except_table8493
+- GCC_except_table8682
+- GCC_except_table8690
+- GCC_except_table8691
+- GCC_except_table8699
+- GCC_except_table8712
+- GCC_except_table8724
+- GCC_except_table8749
+- GCC_except_table8753
+- GCC_except_table8779
+- GCC_except_table8831
+- GCC_except_table8959
+- GCC_except_table9043
+- GCC_except_table9048
+- GCC_except_table9091
+- GCC_except_table9175
+- GCC_except_table9187
+- GCC_except_table9227
+- GCC_except_table9252
+- GCC_except_table9296
+- GCC_except_table9323
+- GCC_except_table9337
+- GCC_except_table9344
+- GCC_except_table9384
+- GCC_except_table939
+- GCC_except_table9397
+- GCC_except_table9399
+- GCC_except_table940
+- GCC_except_table9403
+- GCC_except_table9404
+- GCC_except_table9470
+- GCC_except_table9473
+- GCC_except_table954
+- GCC_except_table9611
+- GCC_except_table9616
+- GCC_except_table9618
+- GCC_except_table9667
+- GCC_except_table972
+- GCC_except_table9741
+- GCC_except_table9750
+- GCC_except_table979
+- GCC_except_table9892
+- GCC_except_table9944
+- GCC_except_table9992
+- GCC_except_table9996
+- _OBJC_CLASS_$_OBBulletedListItemLinkButton
+- _OBJC_CLASS_$_PIModularPhotosPipeline
+- _OBJC_IVAR_$_PUOneUpTilingLayout._minimumMarginForInsetContent
+- _OBJC_IVAR_$_PUPhotoEditProtoSettings._cleanupUsesAdditionalGuardrails
+- _PLDeviceSupportsEnhancedVisualSearch
+- _UISheetPresentationControllerDetentIdentifierLarge
+- __OBJC_$_INSTANCE_METHODS__TtC15PhotosUIPrivate26PUPhotoStyleToolController(PhotosUIPrivate|PhotosUIPrivate1|PhotosUIPrivate2)
+- __OBJC_$_PROP_LIST_NUComputedMedia
+- __OBJC_$_PROP_LIST_NUMedia
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUComputedMedia
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NUMedia
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUComputedMedia
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NUMedia
+- __OBJC_$_PROTOCOL_REFS_NUComputedMedia
+- __OBJC_CLASS_PROTOCOLS_$__TtC15PhotosUIPrivate26PUPhotoStyleToolController(PhotosUIPrivate|PhotosUIPrivate1|PhotosUIPrivate2)
+- __OBJC_LABEL_PROTOCOL_$_NUComputedMedia
+- __OBJC_LABEL_PROTOCOL_$_NUMedia
+- __OBJC_PROTOCOL_$_NUComputedMedia
+- __OBJC_PROTOCOL_$_NUMedia
+- ___52-[PUCleanupToolController _showInpaintErrorMessage:]_block_invoke_2
+- ___52-[PUCleanupToolController _showInpaintErrorMessage:]_block_invoke_3
+- ___58-[PUImportActionCoordinator _importItems:allowDuplicates:]_block_invoke
+- ___58-[PUImportActionCoordinator _importItems:allowDuplicates:]_block_invoke_2
+- ___60-[PUCleanupToolController _showApproachingQuotaLimitMessage]_block_invoke_2
+- ___60-[PUCleanupToolController _showApproachingQuotaLimitMessage]_block_invoke_3
+- ___60-[PUCleanupToolController addUserPromptViewOfType:animated:]_block_invoke_4
+- ___60-[PUCleanupToolController addUserPromptViewOfType:animated:]_block_invoke_5
+- ___60-[PUPickerManagedViewController _updatePreferredDisplayMode]_block_invoke
+- ___61-[PUWhatsNewWelcomeViewController initWithCompletionHandler:]_block_invoke
+- ___88-[PUCreateSharedAlbumLinkActivity _presentActivityOnViewController:animated:completion:]_block_invoke_2
+- ___block_descriptor_32_e45_B16?0"UISheetPresentationControllerDetent"8l
+- ___swift_closure_destructor.41Tm
+- _associated conformance 15PhotosUIPrivate22largeTitleSearchButtonV7SwiftUI4ViewAA4BodyAdEP_AdE
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA13_VariadicViewO4TreeVy_AA11_LayoutRootVyAA03AnyH0VGAA05TupleD0VyACyACyAA0F0PAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdF0VyxGXEtAaORd__lFQOyACyACyACyACy12PhotosUIEdit14PhotoStyleDPadVAA20_GeometryGroupEffectVGAA012_AspectRatioH0VGAA06_FrameH0VGAA32_EnvironmentKeyTransformModifierVySbGG_ACyAWyA12_GAA08_OpacityW0VGQo_AA16_OverlayModifierVyACyApAEAQ_ARQrAU_qd__AXXEtAaORd__lFQOyACyACyAA4TextVA15_GAA010_FixedSizeH0VG_ACyAWyA25_GA15_GQo_AA07_OffsetW0VGSgGGAA21_TraitWritingModifierVyAA14ZIndexTraitKeyVGG_ACyACyACyACyAA0V0VyAA012_ConditionalD0VyACyAY0rS13PaletteSliderVA7_GSgAA6VStackVyAY16ExpandableSliderVGGSgGA30_GA36_yAA18TransitionTraitKeyVGGA39_GAA25_AppearanceActionModifierVGAA6SpacerVSgQPGGAA05_FlexzH0VGAA30_EnvironmentKeyWritingModifierVyAA0H9DirectionOGGAaOHPA73_AaOHPA70_AaOHPAlA01_ef1_fI0HPyHC_A69_AaOHPA40_AaOHPA34_AaOHPqd0__AaOHD3_A17_HO_A33_AA0F8ModifierHPyHCHC_A39_AAA81_HPyHCHC_A65_AaOHPA62_AaOHPA61_AaOHPA57_AaOHPA56_AaOHPA55_AaOHpA54_AaOHPA48_AaOHpA47_AaOHPA46_AaOHPyHC_A7_AAA81_HPyHCHC_HC_A53_AaOHPyHCHC_HC_HC_A30_AAA81_HPyHCHC_A60_AAA81_HPyHCHC_A39_AAA81_HPyHCHC_A64_AAA81_HPyHCHCA68_AaOHpA67_AaOHPyHC_HCHX_HCHC_A72_AAA81_HPyHCHC_A78_AAA81_HPyHCHC
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA4ViewP12PhotosUICoreE22pxReadingAvailableSize2toQrAA7BindingVySo6CGSizeVSgG_tFQOyAgAE010navigationF5StyleyQrqd__AA010NavigationfQ0Rd__lFQOyAA0rF0VyAgHE05largeR18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQOyAgAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyAgAE0pT0yQrqd__SyRd__lFQOyAgAE0p3BarT11DisplayModeyQrAA0R7BarItemV0T11DisplayModeOFQOy0G9UIPrivate016StoryMusicEditordF0V_Qo__SSQo__AA05TupleD0VyAA11ToolbarItemVyytAA6ButtonVyAA18DefaultButtonLabelVGG_A16_yA18_yytAgAE06buttonQ0yQrqd__AA015PrimitiveButtonQ0Rd__lFQOyA20_yACyACyAgAE10fontWeightyQrAA4FontV6WeightVSgFQOyACyACyAA4TextVAA06_FixedL6LayoutVGAA30_EnvironmentKeyWritingModifierVyA29_SgGG_Qo_A39_yAA5ColorVSgGGAA14_PaddingLayoutVGG_AA011PlainButtonQ0VQo_G_AA13ToolbarSpacerVQPGSgA18_yytACyA23_AA32_EnvironmentKeyTransformModifierVySbGGGA18_yytA10_0sT12SearchButtonVGSgQPGQo__Qo_G_AA05StackrfQ0VQo__Qo_GAA16_FlexFrameLayoutVGAA30_SafeAreaRegionsIgnoringLayoutVGAA011_BackgroundQ8ModifierVyAA010BackgroundQ0VGGAaFHPA84_AaFHPA81_AaFHPA78_AaFHPyHC_A80_AA0F8ModifierHPyHCHC_A83_AAA91_HPyHCHC_A89_AAA91_HPyHCHC
+- _get_witness_table 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQOyAA0G0VyAA4TextVG_AA05PlaingE0VQo_SgAaBHpqd0__AaBHD3_AMHO_HC
+- _objc_msgSend$_cropInsetsForTileAtIndexPath:layoutRect:
+- _objc_msgSend$_displayTileTransformForItemAtIndexPath:pageSize:secondaryDisplayTransform:options:
+- _objc_msgSend$_isMediaViewZoomedIn
+- _objc_msgSend$_presentPrivacyOverview
+- _objc_msgSend$_untransformedRectForItemAtIndexPath:pageRect:
+- _objc_msgSend$addBulletedListItemWithTitle:description:image:
+- _objc_msgSend$addBulletedListItemWithTitle:description:image:tintColor:linkButton:
+- _objc_msgSend$assetCreationOptions
+- _objc_msgSend$barButtonItem
+- _objc_msgSend$cleanupUsesAdditionalGuardrails
+- _objc_msgSend$createAssetCreationOptionsWithIncludeAllPhotosData:removeLocationData:flattenLivePhoto:removeCaptionData:
+- _objc_msgSend$detents
+- _objc_msgSend$iCloudPlusHelpArticleURL
+- _objc_msgSend$iCloudPlusURL
+- _objc_msgSend$initWithTileIdentifier:center:size:alpha:transform:zPosition:coordinateSystem:untransformedContentFrame:chromeInsets:contentPixelSize:cropInsets:
+- _objc_msgSend$leftPhoneLayoutTrailingPadding
+- _objc_msgSend$linkButton
+- _objc_msgSend$mediaForComposition:inputs:pipelineOutput:error:
+- _objc_msgSend$minimumMarginForInsetContent
+- _objc_msgSend$px_setMinimizeBehaviorIfPossible:
+- _objc_msgSend$resolveSharedAlbumCreationTypeInPhotoLibrary:presentationEnvironment:completionHandler:
+- _objc_msgSend$setCleanupUsesAdditionalGuardrails:
+- _objc_msgSend$setHorizontalPadding:
+- _objc_msgSend$setMinimumMarginForInsetContent:
+- _objc_msgSend$setMinimumZoomScale:animated:
+- _objc_msgSend$sharedAlbumCreationViewControllerWithPreselectedAssets:photoLibrary:assetCreationOptions:markInterventionAsAlreadyShown:createAsLegacySharedAlbum:deferredManageStorageHandler:completion:
+- _objc_msgSend$shouldInitiallyZoomContentWithSize:toFillViewWithSize:forAssetMediaType:mediaSubtypes:userInterfaceIdiom:
+- _objc_msgSend$shouldWorkAround139627593
+- _objc_msgSend$untransformedRectForItemWithAspectRatio:pageRect:safeInsets:minimumInsetMargin:
+- _objc_msgSend$zoomOutAnimated:
+- _symbolic _____ 15PhotosUIPrivate22largeTitleSearchButtonV
+- _symbolic _____yAAyAAyAAy__________G_____G_____G_____ySbGG 7SwiftUI15ModifiedContentV 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameO0V AA32_EnvironmentKeyTransformModifierV
+- _symbolic _____yAAyAAyAAy_____y_____yAAy__________GSg_____y_____GGSgG_____G_____y_____GGAPy_____GG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 12PhotosUIEdit23PhotoStylePaletteSliderV AA12_FrameLayoutV AA6VStackV AH010ExpandableL0V AA13_OffsetEffectV AA21_TraitWritingModifierV AA010TransitionS3KeyV AA06ZIndexsW0V AA017_AppearanceActionU0V
+- _symbolic _____yAAyAAy_____y_____yAAy__________GSg_____y_____GGSgG_____G_____y_____GGAPy_____GG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 12PhotosUIEdit23PhotoStylePaletteSliderV AA12_FrameLayoutV AA6VStackV AH010ExpandableL0V AA13_OffsetEffectV AA21_TraitWritingModifierV AA010TransitionS3KeyV AA06ZIndexsW0V
+- _symbolic _____yAAyAAy_____y_____y_____y_____y_____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_AGyAHyyt_____yAIyAAyAAy_____yAAyAAy__________G_____y_____SgGG_Qo_APy_____SgGG_____GG______Qo_G______QPGSgAHyytAAyAK_____ySbGGGAHyyt_____GSgQPGQo__Qo_G______Qo__Qo_G_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA4ViewP12PhotosUICoreE22pxReadingAvailableSize2toQrAA7BindingVySo6CGSizeVSgG_tFQO AgAE010navigationF5StyleyQrqd__AA010NavigationfQ0Rd__lFQO AA0rF0V AgHE05largeR18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AgAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AgAE0pT0yQrqd__SyRd__lFQO AgAE0p3BarT11DisplayModeyQrAA0R7BarItemV0T11DisplayModeOFQO 0G9UIPrivate016StoryMusicEditordF0V AA05TupleD0V AA11ToolbarItemV AA6ButtonV AA18DefaultButtonLabelV AgAE06buttonQ0yQrqd__AA015PrimitiveButtonQ0Rd__lFQO AgAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA06_FixedL6LayoutV AA30_EnvironmentKeyWritingModifierV A25_ AA5ColorV AA14_PaddingLayoutV AA011PlainButtonQ0V AA13ToolbarSpacerV AA32_EnvironmentKeyTransformModifierV A10_0sT12SearchButtonV AA05StackrfQ0V AA16_FlexFrameLayoutV AA30_SafeAreaRegionsIgnoringLayoutV AA011_BackgroundQ8ModifierV AA010BackgroundQ0V
+- _symbolic _____yAAy_____yAAyAAyAAyAAy__________G_____G_____G_____ySbGG_AAy_____yAKG_____GQo______yAAy_____yAAyAAy_____ANG_____G_AAyALyAUGANGQo______GSgGG_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdE0VyxGXEtAaDRd__lFQO 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameT0V AA32_EnvironmentKeyTransformModifierV AL AA08_OpacityQ0V AA08_OverlayY0V AeAEAF_AGQrAJ_qd__AMXEtAaDRd__lFQO AA4TextV AA010_FixedSizeT0V AA07_OffsetQ0V AA013_TraitWritingY0V AA011ZIndexTraitW0V
+- _symbolic _____yAAy_____yAAyAAyAAyAAy__________G_____G_____G_____ySbGG_AAy_____yAKG_____GQo______yAAy_____yAAyAAy_____ANG_____G_AAyALyAUGANGQo______GSgGG_____y_____GG_AAyAAyAAyAAy_____y_____yAAy_____AGGSg_____y_____GGSgGAYGA2_y_____GGA4_G_____G_____Sgt 7SwiftUI15ModifiedContentV AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdE0VyxGXEtAaDRd__lFQO 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameT0V AA32_EnvironmentKeyTransformModifierV AL AA08_OpacityQ0V AA08_OverlayY0V AeAEAF_AGQrAJ_qd__AMXEtAaDRd__lFQO AA4TextV AA010_FixedSizeT0V AA07_OffsetQ0V AA013_TraitWritingY0V AA011ZIndexTraitW0V AA0P0V AA012_ConditionalD0V AN0lM13PaletteSliderV AA6VStackV AN16ExpandableSliderV AA015TransitionTraitW0V AA017_AppearanceActionY0V AA6SpacerV
+- _symbolic _____yAAy_____y______y_____G_____yAAyAAy_____yAAyAAyAAyAAy__________G_____G_____G_____ySbGG_AAy_____yAPG_____GQo______yAAy_____yAAyAAy_____ASG_____G_AAyAQyAZGASGQo______GSgGG_____y_____GG_AAyAAyAAyAAy_____y_____yAAy_____ALGSg_____y_____GGSgGA2_GA7_y_____GGA9_G_____G_____SgQPGG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV AA03AnyH0V AA05TupleD0V AA0F0PAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdF0VyxGXEtAaNRd__lFQO 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA012_AspectRatioH0V AA06_FrameH0V AA32_EnvironmentKeyTransformModifierV AV AA08_OpacityW0V AA16_OverlayModifierV AoAEAP_AQQrAT_qd__AWXEtAaNRd__lFQO AA4TextV AA010_FixedSizeH0V AA07_OffsetW0V AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA0V0V AA012_ConditionalD0V AX0rS13PaletteSliderV AA6VStackV AX16ExpandableSliderV AA18TransitionTraitKeyV AA25_AppearanceActionModifierV AA6SpacerV AA05_FlexzH0V AA30_EnvironmentKeyWritingModifierV AA0H9DirectionO
+- _symbolic _____yAAy_____y_____yAAy__________GSg_____y_____GGSgG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 12PhotosUIEdit23PhotoStylePaletteSliderV AA12_FrameLayoutV AA6VStackV AH010ExpandableL0V AA13_OffsetEffectV AA21_TraitWritingModifierV AA010TransitionS3KeyV
+- _symbolic _____yAAy_____y_____y_____y_____y_____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_AGyAHyyt_____yAIyAAyAAy_____yAAyAAy__________G_____y_____SgGG_Qo_APy_____SgGG_____GG______Qo_G______QPGSgAHyytAAyAK_____ySbGGGAHyyt_____GSgQPGQo__Qo_G______Qo__Qo_G_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA4ViewP12PhotosUICoreE22pxReadingAvailableSize2toQrAA7BindingVySo6CGSizeVSgG_tFQO AgAE010navigationF5StyleyQrqd__AA010NavigationfQ0Rd__lFQO AA0rF0V AgHE05largeR18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AgAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AgAE0pT0yQrqd__SyRd__lFQO AgAE0p3BarT11DisplayModeyQrAA0R7BarItemV0T11DisplayModeOFQO 0G9UIPrivate016StoryMusicEditordF0V AA05TupleD0V AA11ToolbarItemV AA6ButtonV AA18DefaultButtonLabelV AgAE06buttonQ0yQrqd__AA015PrimitiveButtonQ0Rd__lFQO AgAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA06_FixedL6LayoutV AA30_EnvironmentKeyWritingModifierV A25_ AA5ColorV AA14_PaddingLayoutV AA011PlainButtonQ0V AA13ToolbarSpacerV AA32_EnvironmentKeyTransformModifierV A10_0sT12SearchButtonV AA05StackrfQ0V AA16_FlexFrameLayoutV AA30_SafeAreaRegionsIgnoringLayoutV
+- _symbolic _____y___________y_____y_____y_____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_AGyAHyyt_____yAIy_____yAMy_____yAMyAMy__________G_____y_____SgGG_Qo_AQy_____SgGG_____GG______Qo_G______QPGSgAHyytAMyAK_____ySbGGGAHyyt_____GSgQPGQo__Qo_G______Qo__Qo_G 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA0D0P12PhotosUICoreE22pxReadingAvailableSize2toQrAA7BindingVySo6CGSizeVSgG_tFQO AiAE010navigationD5StyleyQrqd__AA010NavigationdR0Rd__lFQO AA0sD0V AiJE05largeS18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AiAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AiAE0qU0yQrqd__SyRd__lFQO AiAE0q3BarU11DisplayModeyQrAA0S7BarItemV0U11DisplayModeOFQO 0H9UIPrivate023StoryMusicEditorContentD0V AA12TupleContentV AA11ToolbarItemV AA6ButtonV AA18DefaultButtonLabelV AiAE06buttonR0yQrqd__AA015PrimitiveButtonR0Rd__lFQO AA15ModifiedContentV AiAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA06_FixedmG0V AA30_EnvironmentKeyWritingModifierV A29_ AA5ColorV AA08_PaddingG0V AA011PlainButtonR0V AA13ToolbarSpacerV AA32_EnvironmentKeyTransformModifierV A12_0tU12SearchButtonV AA05StacksdR0V
+- _symbolic _____y______y_____G_____y_____yAFy_____yAFyAFyAFyAFy__________G_____G_____G_____ySbGG_AFy_____yAPG_____GQo______yAFy_____yAFyAFy_____ASG_____G_AFyAQyAZGASGQo______GSgGG_____y_____GG_AFyAFyAFyAFy_____y_____yAFy_____ALGSg_____y_____GGSgGA2_GA7_y_____GGA9_G_____G_____SgQPGG 7SwiftUI13_VariadicViewO4TreeV AA11_LayoutRootV AA03AnyF0V AA12TupleContentV AA08ModifiedJ0V AA0D0PAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderjD0VyxGXEtAaNRd__lFQO 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA012_AspectRatioF0V AA06_FrameF0V AA32_EnvironmentKeyTransformModifierV AV AA08_OpacityW0V AA16_OverlayModifierV AoAEAP_AQQrAT_qd__AWXEtAaNRd__lFQO AA4TextV AA010_FixedSizeF0V AA07_OffsetW0V AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA0V0V AA012_ConditionalJ0V AX0rS13PaletteSliderV AA6VStackV AX16ExpandableSliderV AA18TransitionTraitKeyV AA25_AppearanceActionModifierV AA6SpacerV
+- _symbolic _____y_____yAAyAAyAAyAAy__________G_____G_____G_____ySbGGG_____G 7SwiftUI15ModifiedContentV AA011PlaceholderD4ViewV 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameQ0V AA32_EnvironmentKeyTransformModifierV AA08_OpacityN0V
+- _symbolic _____y_____yAAyAAyAAyAAy__________G_____G_____G_____ySbGG_AAy_____yAKG_____GQo______yAAy_____yAAyAAy_____ANG_____G_AAyALyAUGANGQo______GSgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdE0VyxGXEtAaDRd__lFQO 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameT0V AA32_EnvironmentKeyTransformModifierV AL AA08_OpacityQ0V AA08_OverlayY0V AeAEAF_AGQrAJ_qd__AMXEtAaDRd__lFQO AA4TextV AA010_FixedSizeT0V AA07_OffsetQ0V
+- _symbolic _____y_____yAByAByABy__________G_____G_____G_____ySbGGG 7SwiftUI22PlaceholderContentViewV AA08ModifiedD0V 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameQ0V AA32_EnvironmentKeyTransformModifierV
+- _symbolic _____y_____yABy_____yAByAByAByABy__________G_____G_____G_____ySbGG_ABy_____yALG_____GQo______yABy_____yAByABy_____AOG_____G_AByAMyAVGAOGQo______GSgGG_____y_____GG_AByAByAByABy_____y_____yABy_____AHGSg_____y_____GGSgGAZGA3_y_____GGA5_G_____G_____SgQPG 7SwiftUI12TupleContentV AA08ModifiedD0V AA4ViewPAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdF0VyxGXEtAaFRd__lFQO 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA18_AspectRatioLayoutV AA06_FrameU0V AA32_EnvironmentKeyTransformModifierV AN AA08_OpacityR0V AA08_OverlayZ0V AgAEAH_AIQrAL_qd__AOXEtAaFRd__lFQO AA4TextV AA010_FixedSizeU0V AA07_OffsetR0V AA013_TraitWritingZ0V AA011ZIndexTraitX0V AA0Q0V AA012_ConditionalD0V AP0mN13PaletteSliderV AA6VStackV AP16ExpandableSliderV AA015TransitionTraitX0V AA017_AppearanceActionZ0V AA6SpacerV
+- _symbolic _____y_____y_____G______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA0G0V AA4TextV AA05PlaingE0V
+- _symbolic _____y_____y_____G______Qo_Sg 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA0G0V AA4TextV AA05PlaingE0V
+- _symbolic _____y_____y______y_____G_____yAAyAAy_____yAAyAAyAAyAAy__________G_____G_____G_____ySbGG_AAy_____yAPG_____GQo______yAAy_____yAAyAAy_____ASG_____G_AAyAQyAZGASGQo______GSgGG_____y_____GG_AAyAAyAAyAAy_____y_____yAAy_____ALGSg_____y_____GGSgGA2_GA7_y_____GGA9_G_____G_____SgQPGG_____G 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV AA03AnyH0V AA05TupleD0V AA0F0PAAE9animation_4bodyQrAA9AnimationVSg_qd__AA011PlaceholderdF0VyxGXEtAaNRd__lFQO 12PhotosUIEdit14PhotoStyleDPadV AA20_GeometryGroupEffectV AA012_AspectRatioH0V AA06_FrameH0V AA32_EnvironmentKeyTransformModifierV AV AA08_OpacityW0V AA16_OverlayModifierV AoAEAP_AQQrAT_qd__AWXEtAaNRd__lFQO AA4TextV AA010_FixedSizeH0V AA07_OffsetW0V AA21_TraitWritingModifierV AA14ZIndexTraitKeyV AA0V0V AA012_ConditionalD0V AX0rS13PaletteSliderV AA6VStackV AX16ExpandableSliderV AA18TransitionTraitKeyV AA25_AppearanceActionModifierV AA6SpacerV AA05_FlexzH0V
+- _symbolic _____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_ADyAEyyt_____yAFy_____yAJy_____yAJyAJy__________G_____y_____SgGG_Qo_ANy_____SgGG_____GG______Qo_G______QPGSgAEyytAJyAH_____ySbGGGAEyyt_____GSgQPGQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AcAE0h3BarI11DisplayModeyQrAA010NavigationJ4ItemV0ikL0OFQO 15PhotosUIPrivate016StoryMusicEditorgC0V AA05TupleG0V AA0fN0V AA6ButtonV AA07DefaultU5LabelV AcAE11buttonStyleyQrqd__AA09PrimitiveuY0Rd__lFQO AA08ModifiedG0V AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV A2_ AA5ColorV AA14_PaddingLayoutV AA05PlainuY0V AA0F6SpacerV AA32_EnvironmentKeyTransformModifierV AM05largei6SearchU0V
+- _symbolic _____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_ADyAEyyt_____yAFy_____yAJy_____yAJyAJy__________G_____y_____SgGG_Qo_ANy_____SgGG_____GG______Qo_G______QPGSgAEyytAJyAH_____ySbGGGAEyyt_____GSgQPGQo__Qo_ 7SwiftUI4ViewP12PhotosUICoreE33largeNavigationTitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE010navigationH0yQrqd__SyRd__lFQO AcAE0t3BarH11DisplayModeyQrAA0gU4ItemV0hvW0OFQO 0D9UIPrivate016StoryMusicEditorsC0V AA05TupleS0V AA0rX0V AA6ButtonV AA18DefaultButtonLabelV AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA08ModifiedS0V AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV A11_ AA5ColorV AA14_PaddingLayoutV AA16PlainButtonStyleV AA0R6SpacerV AA32_EnvironmentKeyTransformModifierV AV0fH12SearchButtonV
+- _symbolic _____y_____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_AEyAFyyt_____yAGy_____yAKy_____yAKyAKy__________G_____y_____SgGG_Qo_AOy_____SgGG_____GG______Qo_G______QPGSgAFyytAKyAI_____ySbGGGAFyyt_____GSgQPGQo__Qo_G 7SwiftUI14NavigationViewV AA0D0P12PhotosUICoreE05largeC18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AeAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AeAE010navigationH0yQrqd__SyRd__lFQO AeAE0t3BarH11DisplayModeyQrAA0cU4ItemV0hvW0OFQO 0E9UIPrivate016StoryMusicEditorsD0V AA05TupleS0V AA0rX0V AA6ButtonV AA18DefaultButtonLabelV AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA08ModifiedS0V AeAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV A13_ AA5ColorV AA14_PaddingLayoutV AA16PlainButtonStyleV AA0R6SpacerV AA32_EnvironmentKeyTransformModifierV AX0gH12SearchButtonV
+- _symbolic _____y_____y_____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_AEyAFyyt_____yAGy_____yAKy_____yAKyAKy__________G_____y_____SgGG_Qo_AOy_____SgGG_____GG______Qo_G______QPGSgAFyytAKyAI_____ySbGGGAFyyt_____GSgQPGQo__Qo_G______Qo_ 7SwiftUI4ViewPAAE010navigationC5StyleyQrqd__AA010NavigationcE0Rd__lFQO AA0fC0V AC12PhotosUICoreE05largeF18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE0dJ0yQrqd__SyRd__lFQO AcAE0d3BarJ11DisplayModeyQrAA0fV4ItemV0jwX0OFQO 0G9UIPrivate016StoryMusicEditoruC0V AA05TupleU0V AA0tY0V AA6ButtonV AA18DefaultButtonLabelV AcAE06buttonE0yQrqd__AA015PrimitiveButtonE0Rd__lFQO AA08ModifiedU0V AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV A15_ AA5ColorV AA14_PaddingLayoutV AA011PlainButtonE0V AA0T6SpacerV AA32_EnvironmentKeyTransformModifierV AZ0iJ12SearchButtonV AA05StackfcE0V
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_AFyAGyyt_____yAHy_____yALy_____yALyALy__________G_____y_____SgGG_Qo_APy_____SgGG_____GG______Qo_G______QPGSgAGyytALyAJ_____ySbGGGAGyyt_____GSgQPGQo__Qo_G______Qo__Qo_G 7SwiftUI6VStackV AA4ViewP12PhotosUICoreE22pxReadingAvailableSize2toQrAA7BindingVySo6CGSizeVSgG_tFQO AeAE010navigationD5StyleyQrqd__AA010NavigationdO0Rd__lFQO AA0pD0V AeFE05largeP18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AeAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AeAE0nR0yQrqd__SyRd__lFQO AeAE0n3BarR11DisplayModeyQrAA0P7BarItemV0R11DisplayModeOFQO 0E9UIPrivate023StoryMusicEditorContentD0V AA12TupleContentV AA11ToolbarItemV AA6ButtonV AA18DefaultButtonLabelV AeAE06buttonO0yQrqd__AA015PrimitiveButtonO0Rd__lFQO AA15ModifiedContentV AeAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA06_FixedJ6LayoutV AA30_EnvironmentKeyWritingModifierV A25_ AA5ColorV AA14_PaddingLayoutV AA011PlainButtonO0V AA13ToolbarSpacerV AA32_EnvironmentKeyTransformModifierV A8_0qR12SearchButtonV AA05StackpdO0V
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____y______Qo__SSQo_______y_____yyt_____y_____GG_AGyAHyyt_____yAIyAAyAAy_____yAAyAAy__________G_____y_____SgGG_Qo_APy_____SgGG_____GG______Qo_G______QPGSgAHyytAAyAK_____ySbGGGAHyyt_____GSgQPGQo__Qo_G______Qo__Qo_G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA4ViewP12PhotosUICoreE22pxReadingAvailableSize2toQrAA7BindingVySo6CGSizeVSgG_tFQO AgAE010navigationF5StyleyQrqd__AA010NavigationfQ0Rd__lFQO AA0rF0V AgHE05largeR18TitleConfiguration16horizontalInsets9multilineQr12CoreGraphics7CGFloatVSg_SbSgtFQO AgAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AgAE0pT0yQrqd__SyRd__lFQO AgAE0p3BarT11DisplayModeyQrAA0R7BarItemV0T11DisplayModeOFQO 0G9UIPrivate016StoryMusicEditordF0V AA05TupleD0V AA11ToolbarItemV AA6ButtonV AA18DefaultButtonLabelV AgAE06buttonQ0yQrqd__AA015PrimitiveButtonQ0Rd__lFQO AgAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA06_FixedL6LayoutV AA30_EnvironmentKeyWritingModifierV A25_ AA5ColorV AA14_PaddingLayoutV AA011PlainButtonQ0V AA13ToolbarSpacerV AA32_EnvironmentKeyTransformModifierV A10_0sT12SearchButtonV AA05StackrfQ0V AA16_FlexFrameLayoutV
+- _symbolic _____y_____yyt_____y_____GG_AAyAByyt_____yACy_____yAGy_____yAGyAGy__________G_____y_____SgGG_Qo_AKy_____SgGG_____GG______Qo_G______QPGSgAByytAGyAE_____ySbGGGAByyt_____GSgQPG 7SwiftUI12TupleContentV AA11ToolbarItemV AA6ButtonV AA07DefaultG5LabelV AA4ViewPAAE11buttonStyleyQrqd__AA09PrimitivegL0Rd__lFQO AA08ModifiedD0V AkAE10fontWeightyQrAA4FontV0P0VSgFQO AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AR AA5ColorV AA08_PaddingU0V AA05PlaingL0V AA0E6SpacerV AA01_vw9TransformY0V 15PhotosUIPrivate016largeTitleSearchG0V
+- _symbolic _____yyt_____G 7SwiftUI11ToolbarItemV 15PhotosUIPrivate22largeTitleSearchButtonV
+- _symbolic _____yyt_____GSg 7SwiftUI11ToolbarItemV 15PhotosUIPrivate22largeTitleSearchButtonV
+- _symbolic _____yyt_____y_____GG______yAAyyt_____yABy_____yAGy_____yAGyAGy__________G_____y_____SgGG_Qo_AKy_____SgGG_____GG______Qo_G______QPGSgAAyytAGyAD_____ySbGGGAAyyt_____GSgt 7SwiftUI11ToolbarItemV AA6ButtonV AA07DefaultE5LabelV AA12TupleContentV AA4ViewPAAE11buttonStyleyQrqd__AA09PrimitiveeL0Rd__lFQO AA08ModifiedI0V AkAE10fontWeightyQrAA4FontV0P0VSgFQO AA4TextV AA16_FixedSizeLayoutV AA30_EnvironmentKeyWritingModifierV AR AA5ColorV AA08_PaddingU0V AA05PlaineL0V AA0C6SpacerV AA01_vw9TransformY0V 15PhotosUIPrivate016largeTitleSearchE0V
+- _type_layout_string 15PhotosUIPrivate22largeTitleSearchButtonV
+CStrings:
++ "Cancelled by user during asset sharing checks"
++ "Create Temporary Shared Album: User cancelled during asset sharing checks"
++ "CustomItemIdentifiers"
++ "Leo People Group Debug Playground"
++ "Not showing progress but operations are ongoing: %{public}@"
++ "Outfill failed: %@"
++ "PERF - User pressed cancel button; hasUnsavedChanges? %{BOOL}d"
++ "PUPHOTOBROWSER_BUTTON_SHOWCOMMENTS"
++ "PXProtoLeoPeopleGroupCurationDebugViewControllerFactory"
++ "PickerCustomItemIdentifiersSuggestion"
++ "SaveOutfill"
++ "SensitiveContent"
++ "Share Sheet: User cancelled during asset sharing checks"
++ "Showing progress for the reasons: %{public}@"
++ "WHATS_NEW_APPLE_INTELLIGENCE_CONTENT"
++ "WHATS_NEW_APPLE_INTELLIGENCE_TITLE"
++ "WHATS_NEW_INTELLIGENT_EDITING_CONTENT"
++ "WHATS_NEW_INTELLIGENT_EDITING_TITLE"
++ "WHATS_NEW_ORGANIZE_CONTENT"
++ "WHATS_NEW_ORGANIZE_TITLE"
++ "WHATS_NEW_SHARED_ALBUMS_CONTENT"
++ "WHATS_NEW_SHARED_ALBUMS_TITLE"
++ "WHATS_NEW_SLIDESHOWS_CONTENT"
++ "WHATS_NEW_SLIDESHOWS_TITLE"
++ "cropWindowView"
++ "face.grinning"
++ "isFillScreenModeEnabled"
++ "rectangle.stack.and.person"
++ "spatialReframeMediaView"
+- ": error generating spatial reframe scene: "
+- "Additional Cleanup Guardrails"
+- "B16@?0@\"UISheetPresentationControllerDetent\"8"
+- "Interactive navigation bar transition is skipped due to visible sidebar."
+- "Not showing progress but operations are ongoing: %@"
+- "PERF - User pressed cancel button; hasUnsavedChanges? %@"
+- "SCUISensitiveContentOverlayView"
+- "Showing progress for the reasons: %@"
+- "WHATS_NEW_MORE_CUSTOMIZATION_CONTENT"
+- "WHATS_NEW_MORE_CUSTOMIZATION_TITLE"
+- "WHATS_NEW_SPATIAL_SCENES_CONTENT_IPAD"
+- "WHATS_NEW_SPATIAL_SCENES_CONTENT_IPHONE"
+- "WHATS_NEW_SPATIAL_SCENES_TITLE"
+- "WHATS_NEW_UPDATED_NAVIGATION_CONTENT"
+- "WHATS_NEW_UPDATED_NAVIGATION_TITLE"
+- "WHATS_NEW_VISUAL_SEARCH_CONTENT"
+- "WHATS_NEW_VISUAL_SEARCH_LINK_TITLE"
+- "WHATS_NEW_VISUAL_SEARCH_TITLE"
+- "cleanupUsesAdditionalGuardrails"
+- "mappin.and.ellipse"
+- "spatial.capture"
+- "spatialReframeContextScene"
+```

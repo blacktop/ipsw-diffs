@@ -1,0 +1,192 @@
+## ShelfKit
+
+> `/private/var/staged_system_apps/Podcasts.app/Frameworks/ShelfKit.framework/ShelfKit`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA.__common`
+
+```diff
+
+-4027.100.80.0.0
+-  __TEXT.__text: 0x3be294
+-  __TEXT.__auth_stubs: 0xa1d0
+-  __TEXT.__objc_stubs: 0x5620
++4027.110.1.0.0
++  __TEXT.__text: 0x3c39ac
++  __TEXT.__auth_stubs: 0xa320
++  __TEXT.__objc_stubs: 0x5640
+   __TEXT.__objc_methlist: 0x1a6c
+-  __TEXT.__const: 0x2b0d8
+-  __TEXT.__cstring: 0x9767
+-  __TEXT.__objc_methname: 0x9c15
+-  __TEXT.__objc_classname: 0x22e1
++  __TEXT.__const: 0x2b2e8
++  __TEXT.__cstring: 0x9777
++  __TEXT.__objc_methname: 0x9d35
++  __TEXT.__objc_classname: 0x2311
+   __TEXT.__objc_methtype: 0x25ea
+   __TEXT.__gcc_except_tab: 0x11c
+-  __TEXT.__oslogstring: 0x396f
+-  __TEXT.__swift5_typeref: 0x165e5
+-  __TEXT.__constg_swiftt: 0xc64c
++  __TEXT.__oslogstring: 0x3a1f
++  __TEXT.__swift5_typeref: 0x16997
++  __TEXT.__constg_swiftt: 0xc6c8
+   __TEXT.__swift5_builtin: 0x438
+-  __TEXT.__swift5_reflstr: 0xc162
+-  __TEXT.__swift5_fieldmd: 0xcc2c
++  __TEXT.__swift5_reflstr: 0xc2e2
++  __TEXT.__swift5_fieldmd: 0xcd58
+   __TEXT.__swift5_assocty: 0x28e8
+-  __TEXT.__swift5_proto: 0x1a78
+-  __TEXT.__swift5_types: 0xc64
++  __TEXT.__swift5_proto: 0x1a84
++  __TEXT.__swift5_types: 0xc70
+   __TEXT.__swift5_mpenum: 0x104
+   __TEXT.__swift_as_entry: 0x30c
+-  __TEXT.__swift_as_ret: 0x450
+-  __TEXT.__swift_as_cont: 0x868
+-  __TEXT.__swift5_capture: 0x41b8
++  __TEXT.__swift_as_ret: 0x44c
++  __TEXT.__swift_as_cont: 0x870
++  __TEXT.__swift5_capture: 0x42e4
+   __TEXT.__swift5_protos: 0x164
+-  __TEXT.__unwind_info: 0xcb20
+-  __TEXT.__eh_frame: 0xe5a0
+-  __DATA_CONST.__const: 0x1bd48
++  __TEXT.__unwind_info: 0xcbf8
++  __TEXT.__eh_frame: 0xe580
++  __DATA_CONST.__const: 0x1bf78
+   __DATA_CONST.__cfstring: 0x500
+-  __DATA_CONST.__objc_classlist: 0x600
++  __DATA_CONST.__objc_classlist: 0x608
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x188
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0xc8
+   __DATA_CONST.__objc_superrefs: 0x80
+   __DATA_CONST.__objc_intobj: 0x30
+-  __DATA_CONST.__auth_got: 0x50f8
+-  __DATA_CONST.__got: 0x2260
+-  __DATA_CONST.__auth_ptr: 0x35b8
+-  __DATA.__objc_const: 0x10088
+-  __DATA.__objc_selrefs: 0x1b68
++  __DATA_CONST.__auth_got: 0x51a0
++  __DATA_CONST.__got: 0x2278
++  __DATA_CONST.__auth_ptr: 0x35d0
++  __DATA.__objc_const: 0x10278
++  __DATA.__objc_selrefs: 0x1b70
+   __DATA.__objc_ivar: 0xcc
+-  __DATA.__objc_data: 0x38b8
+-  __DATA.__data: 0x1dde0
+-  __DATA.__bss: 0x31738
++  __DATA.__objc_data: 0x3908
++  __DATA.__data: 0x1e020
++  __DATA.__bss: 0x31838
+   __DATA.__common: 0xf40
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - @rpath/PodcastsAppIntents.framework/PodcastsAppIntents
+   - @rpath/PodcastsPlayback.framework/PodcastsPlayback
+   - @rpath/PodcastsWidgetKit.framework/PodcastsWidgetKit
+-  Functions: 18380
+-  Symbols:   7125
+-  CStrings:  3312
++  Functions: 18461
++  Symbols:   7151
++  CStrings:  3323
+ 
+Symbols:
++ __DATA__TtC8ShelfKit22SearchResultsPaginator
++ __IVARS__TtC8ShelfKit22SearchResultsPaginator
++ __METACLASS_DATA__TtC8ShelfKit22SearchResultsPaginator
++ __swift_closure_destructor.16Tm
++ __swift_closure_destructor.76Tm
++ _associated conformance 8ShelfKit23SeeAllEpisodesPresenterC5RouteOSHAASQ
++ _objc_msgSend$episode
++ _symbolic _____ 8ShelfKit22SearchResultsPaginatorC
++ _symbolic _____ 8ShelfKit23SeeAllEpisodesPresenterC13HeaderContext33_B126DCBDE9BD962C9CAD33580415AA92LLV
++ _symbolic _____ 8ShelfKit23SeeAllEpisodesPresenterC5RouteO
++ _symbolic _____5route______Sg4term_____20recentlySearchedPage_____y_____ySay_____GGG12lockupOutputt 8ShelfKit23SeeAllEpisodesPresenterC5RouteO AA19SearchExtensionTermV AA10ModernPageV 18PodcastsFoundation9FRPOutputV AJ8LoadableO AA0kA0V
++ _symbolic _____7content______Sg8settingst 8ShelfKit11PageContentO 18PodcastsFoundation19EpisodeListSettingsV
++ _symbolic _____S2bSi_____y_____ySay_____GG_____GIegnyyyo_ 18PodcastsFoundation23RecommendationsMetadataV 7Combine12AnyPublisherV AA8LoadableO 8ShelfKit06ModernI0V s5NeverO
++ _symbolic _____Say_____GSg_____Iegngr_ 8ShelfKit13SearchContentO AA06ModernA0V AA04PageD0O
++ _symbolic _____Sg 10PodcastsUI20SearchSessionTrackerC
++ _symbolic _____Sg 8ShelfKit22SearchResultsPaginatorC
++ _symbolic _____Sg 8ShelfKit34ProgressivelyLoadShelvesControllerC
++ _symbolic _____SgXw 8ShelfKit22SearchResultsPaginatorC
++ _symbolic _____SgXwz_Xx 8ShelfKit22SearchResultsPaginatorC
++ _symbolic _____Sg_ABt 9JetEngine6PageIDV
++ _symbolic _____XDXMT 8ShelfKit19LibraryShowProviderC
++ _symbolic ______S2bSit 18PodcastsFoundation23RecommendationsMetadataV
++ _symbolic ______Say_____GSgt 8ShelfKit13SearchContentO AA06ModernA0V
++ _symbolic __________Iegnn_ 8ShelfKit11PageContentO AA23SeeAllEpisodesPresenterC13HeaderContext33_B126DCBDE9BD962C9CAD33580415AA92LLV
++ _symbolic __________SgAC_____y_____GADySayABGG__________SgIegnnnngrr_ 8ShelfKit30LocalShowPageFeedUpdaterStatusO AA06ModernA0V 18PodcastsFoundation8LoadableO AA0D23EpisodesShelvesProviderV6ResultV AA0E7ContentO AF19EpisodeListSettingsV
++ _symbolic _______________y_____ySay_____GGG__________SgAbHIegnnndrrr_ 8ShelfKit23SeeAllEpisodesPresenterC13PipelineStateV AA10ModernPageV 18PodcastsFoundation9FRPOutputV AH8LoadableO AA0iA0V AC5RouteO AA19SearchExtensionTermV
++ _symbolic ___________t 8ShelfKit11PageContentO AA23SeeAllEpisodesPresenterC13HeaderContext33_B126DCBDE9BD962C9CAD33580415AA92LLV
++ _symbolic _____ySay_____GSg_____G 7Combine12AnyPublisherV 8ShelfKit06ModernD0V s5NeverO
++ _symbolic _____ySo17NSManagedObjectIDCG s11_SetStorageC
++ _symbolic _____y___________t_____G 7Combine12AnyPublisherV 8ShelfKit11PageContentO AD23SeeAllEpisodesPresenterC13HeaderContext33_B126DCBDE9BD962C9CAD33580415AA92LLV s5NeverO
++ _symbolic _____y___________t_____G 7Combine5EmptyV 8ShelfKit11PageContentO AD23SeeAllEpisodesPresenterC13HeaderContext33_B126DCBDE9BD962C9CAD33580415AA92LLV s5NeverO
++ _symbolic _____y______y__________GAC______tG 7Combine10PublishersO3MapV AA12AnyPublisherV 8ShelfKit11PageContentO s5NeverO AH23SeeAllEpisodesPresenterC13HeaderContext33_B126DCBDE9BD962C9CAD33580415AA92LLV
++ _symbolic _____y______y__________G_____ySay_____GSgADGG 7Combine10PublishersO0A6LatestV AA19CurrentValueSubjectC 8ShelfKit13SearchContentO s5NeverO AA12AnyPublisherV AH06ModernG0V
++ _symbolic _____y______y__________G_____y______y_ABy_____ySay_____GGADGSbGGABySbADGABySiADGG 7Combine10PublishersO0A7Latest4V AA12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV s5NeverO AC16RemoveDuplicatesV AC3MapV AH9FRPOutputV AH13InterestModelV
++ _symbolic _____y______y___________t_____G_____y______y______y_____AEGAGy______y_AAy_ABySay_____GAEGAGy_ABySay_____GAEGAOGGSo17OS_dispatch_queueCG_____GABy_____y_____ySay_____GGGAEGGAFGG 7Combine10PublishersO14SwitchToLatestV AA12AnyPublisherV 8ShelfKit11PageContentO AH23SeeAllEpisodesPresenterC13HeaderContext33_B126DCBDE9BD962C9CAD33580415AA92LLV s5NeverO AC3MapV AC0A7Latest3V AA19CurrentValueSubjectC AL13PipelineStateV AC9ReceiveOnV AH12LegacyLockupC AH23RecentlySearchedStorageC4ItemV AH06ModernJ0V 18PodcastsFoundation9FRPOutputV A8_8LoadableO AH06ModernH0V
++ _symbolic _____y______y______y__________GAAy______y______y______ySay_____GAEGAAy_AIySay_____GAEGALGGSo17OS_dispatch_queueCG_____GAIy_____y_____ySay_____GGGAEGGAIy___________tAEGG 7Combine10PublishersO3MapV AC0A7Latest3V AA19CurrentValueSubjectC 8ShelfKit23SeeAllEpisodesPresenterC13PipelineStateV s5NeverO AC9ReceiveOnV AC14SwitchToLatestV AA12AnyPublisherV AJ12LegacyLockupC AJ23RecentlySearchedStorageC4ItemV AJ10ModernPageV 18PodcastsFoundation9FRPOutputV A3_8LoadableO AJ06ModernH0V AJ11PageContentO AL13HeaderContext33_B126DCBDE9BD962C9CAD33580415AA92LLV
++ _symbolic _____y______y______y__________GAAy______y______y______ySay_____GAEGAAy_AIySay_____GAEGALGGSo17OS_dispatch_queueCG_____GAIy_____y_____ySay_____GGGAEGG_____5route______Sg4termAU20recentlySearchedPageA0_12lockupOutputtG 7Combine10PublishersO3MapV AC0A7Latest3V AA19CurrentValueSubjectC 8ShelfKit23SeeAllEpisodesPresenterC13PipelineStateV s5NeverO AC9ReceiveOnV AC14SwitchToLatestV AA12AnyPublisherV AJ12LegacyLockupC AJ23RecentlySearchedStorageC4ItemV AJ10ModernPageV 18PodcastsFoundation9FRPOutputV A3_8LoadableO AJ06ModernH0V AL5RouteO AJ19SearchExtensionTermV
++ _symbolic _____y______y______y__________G_____ySay_____GSgAEGG_____G 7Combine10PublishersO3MapV AC0A6LatestV AA19CurrentValueSubjectC 8ShelfKit13SearchContentO s5NeverO AA12AnyPublisherV AJ06ModernH0V AJ04PageK0O
++ _symbolic _____y______y______y___________t_____G_____y______y______y_____AFGAHy_AAy_ABy_ACySay_____GAFGAHy_ACySay_____GAFGAOGGSo17OS_dispatch_queueCG_____GACy_____y_____ySay_____GGGAFGGAGGGAVG 7Combine10PublishersO9ReceiveOnV AC14SwitchToLatestV AA12AnyPublisherV 8ShelfKit11PageContentO AJ23SeeAllEpisodesPresenterC13HeaderContext33_B126DCBDE9BD962C9CAD33580415AA92LLV s5NeverO AC3MapV AC0A7Latest3V AA19CurrentValueSubjectC AN13PipelineStateV AJ12LegacyLockupC AJ23RecentlySearchedStorageC4ItemV AJ06ModernL0V 18PodcastsFoundation9FRPOutputV A8_8LoadableO AJ06ModernJ0V
++ _symbolic _____y______y______y______y______GADy_____Sg_GAiDy_____y_____G_GADyAJySayAGGG_GGSo17OS_dispatch_queueCG_____7content______Sg8settingstG 7Combine10PublishersO3MapV AC8ThrottleV AC18PodcastsFoundationE16PFCombineLatest5V AA9PublishedV9PublisherV 8ShelfKit30LocalShowPageFeedUpdaterStatusO AO06ModernK0V AH8LoadableO AO0N23EpisodesShelvesProviderV6ResultV AO0O7ContentO AH19EpisodeListSettingsV
++ _symbolic _____y______y______y_____ySay_____GG_____GSbGG 7Combine10PublishersO16RemoveDuplicatesV AC3MapV AA12AnyPublisherV 18PodcastsFoundation9FRPOutputV AJ13InterestModelV s5NeverO
++ _symbolic _____y______y______y_____ySay_____GG_____G_____y_ACy_____AHG_____y______y_ACy_____ySay_____GGAHGSbGGACySbAHGACySiAHGGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC7FlatMapV AA12AnyPublisherV 18PodcastsFoundation8LoadableO 8ShelfKit06ModernL0V s5NeverO AC0A7Latest4V AJ23RecommendationsMetadataV AC16RemoveDuplicatesV AC0F0V AJ9FRPOutputV AJ13InterestModelV
++ _symbolic _____y______y_____ySay_____GG_____GSbG 7Combine10PublishersO3MapV AA12AnyPublisherV 18PodcastsFoundation9FRPOutputV AH13InterestModelV s5NeverO
++ _symbolic _____y______y_____ySay_____GG_____G_____y_ABy_____AGG_____y______y_ABy_____ySay_____GGAGGSbGGABySbAGGABySiAGGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV 18PodcastsFoundation8LoadableO 8ShelfKit06ModernJ0V s5NeverO AC0A7Latest4V AH23RecommendationsMetadataV AC16RemoveDuplicatesV AC0D0V AH9FRPOutputV AH13InterestModelV
+- __swift_closure_destructor.62Tm
+- _kEpisodeLocalURLKeyPath
+- _swift_deletedAsyncMethodErrorTu
+- _symbolic SaySo11NSPredicateCG
+- _symbolic _____SbSi_____y_____ySay_____GG_____GIegnyyo_ 18PodcastsFoundation23RecommendationsMetadataV 7Combine12AnyPublisherV AA8LoadableO 8ShelfKit06ModernI0V s5NeverO
+- _symbolic ______SbSit 18PodcastsFoundation23RecommendationsMetadataV
+- _symbolic __________SgAC_____y_____GADySayABGG_____Iegnnnngr_ 8ShelfKit30LocalShowPageFeedUpdaterStatusO AA06ModernA0V 18PodcastsFoundation8LoadableO AA0D23EpisodesShelvesProviderV6ResultV AA0E7ContentO
+- _symbolic _______________y_____ySay_____GGG_____y__________GIegnnno_ 8ShelfKit23SeeAllEpisodesPresenterC13PipelineStateV AA10ModernPageV 18PodcastsFoundation9FRPOutputV AH8LoadableO AA0iA0V 7Combine12AnyPublisherV AA0J7ContentO s5NeverO
+- _symbolic ______pSg 9JetEngine9PageModelP
+- _symbolic _____y______y_____Sg_GACG 7Combine10PublishersO10CompactMapV AA9PublishedV9PublisherV 8ShelfKit13PodcastDetailC
+- _symbolic _____y______y__________GABySbADGABySiADGG 7Combine10PublishersO0A7Latest3V AA12AnyPublisherV 18PodcastsFoundation23RecommendationsMetadataV s5NeverO
+- _symbolic _____y______y__________G_____G 7Combine10PublishersO3MapV AA19CurrentValueSubjectC 8ShelfKit13SearchContentO s5NeverO AH04PageJ0O
+- _symbolic _____y______y__________G_____y______y______y_____ADGAFy______y_AAy_ABySay_____GADGAFy_ABySay_____GADGANGGSo17OS_dispatch_queueCG_____GABy_____y_____ySay_____GGGADGGAEGG 7Combine10PublishersO14SwitchToLatestV AA12AnyPublisherV 8ShelfKit11PageContentO s5NeverO AC3MapV AC0A7Latest3V AA19CurrentValueSubjectC AH23SeeAllEpisodesPresenterC13PipelineStateV AC9ReceiveOnV AH12LegacyLockupC AH23RecentlySearchedStorageC4ItemV AH06ModernJ0V 18PodcastsFoundation9FRPOutputV A5_8LoadableO AH06ModernH0V
+- _symbolic _____y______y______y__________GAAy______y______y______ySay_____GAEGAAy_AIySay_____GAEGALGGSo17OS_dispatch_queueCG_____GAIy_____y_____ySay_____GGGAEGGAIy_____AEGG 7Combine10PublishersO3MapV AC0A7Latest3V AA19CurrentValueSubjectC 8ShelfKit23SeeAllEpisodesPresenterC13PipelineStateV s5NeverO AC9ReceiveOnV AC14SwitchToLatestV AA12AnyPublisherV AJ12LegacyLockupC AJ23RecentlySearchedStorageC4ItemV AJ10ModernPageV 18PodcastsFoundation9FRPOutputV A3_8LoadableO AJ06ModernH0V AJ11PageContentO
+- _symbolic _____y______y______y__________G_____y______y______y_____AEGAGy_AAy_ABy_ACySay_____GAEGAGy_ACySay_____GAEGANGGSo17OS_dispatch_queueCG_____GACy_____y_____ySay_____GGGAEGGAFGGAUG 7Combine10PublishersO9ReceiveOnV AC14SwitchToLatestV AA12AnyPublisherV 8ShelfKit11PageContentO s5NeverO AC3MapV AC0A7Latest3V AA19CurrentValueSubjectC AJ23SeeAllEpisodesPresenterC13PipelineStateV AJ12LegacyLockupC AJ23RecentlySearchedStorageC4ItemV AJ06ModernL0V 18PodcastsFoundation9FRPOutputV A5_8LoadableO AJ06ModernJ0V
+- _symbolic _____y______y______y______y______GADy_____Sg_GAiDy_____y_____G_GADyAJySayAGGG_GGSo17OS_dispatch_queueCG_____G 7Combine10PublishersO3MapV AC8ThrottleV AC18PodcastsFoundationE16PFCombineLatest5V AA9PublishedV9PublisherV 8ShelfKit30LocalShowPageFeedUpdaterStatusO AO06ModernK0V AH8LoadableO AO0N23EpisodesShelvesProviderV6ResultV AO0O7ContentO
+- _symbolic _____y______y______y_____ySay_____GG_____G_____y_ACy_____AHGACySbAHGACySiAHGGGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC7FlatMapV AA12AnyPublisherV 18PodcastsFoundation8LoadableO 8ShelfKit06ModernL0V s5NeverO AC0A7Latest3V AJ23RecommendationsMetadataV
+- _symbolic _____y______y_____ySay_____GG_____G_____y_ABy_____AGGABySbAGGABySiAGGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV 18PodcastsFoundation8LoadableO 8ShelfKit06ModernJ0V s5NeverO AC0A7Latest3V AH23RecommendationsMetadataV
+CStrings:
++ "$__lazy_storage_$_searchPaginator"
++ "Could not load next page of show search results: %s"
++ "[%{public}s] No downloadable asset roots resolved from %ld cache-deleted path(s)"
++ "[%{public}s] No downloaded episodes matched %ld purged asset(s)"
++ "[%{public}s] Removing downloads for %ld cache-deleted episode(s)"
++ "_TtC8ShelfKit22SearchResultsPaginator"
++ "controller"
++ "dispatchContext"
++ "searchPaginator"
++ "searchSessionTracker"
++ "seededPageID"
++ "shelvesSubject"
++ "shelvesSubscription"
+- "[%{public}s] Beginning to updated database for deletions"
+- "[%{public}s] Successfully deleted episodes for batch: %s"
+```

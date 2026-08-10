@@ -1,0 +1,58 @@
+## SettingsCellularUI
+
+> `FileSystem/System/Library/PrivateFrameworks/SettingsCellularUI.framework/Cellular.loctable`
+
+```diff
+
+ en.CELLULAR_PLAN_TRANSFERRED = "Phone Number Transferred"
+ en.CELLULAR_SERVICE_INTERRUPTION = "Mobile Service May Be Down"
+ en.CELLULAR_SERVICE_INTERRUPTION_LEARN_MORE = "Learn More"
+-en.CELLULAR_SERVICE_INTERRUPTION_LEARN_MORE_LINK = "https://support.apple.com/126177"
++en.CELLULAR_SERVICE_INTERRUPTION_LEARN_MORE_LINK = "https://support.apple.com/101582"
+ en.CELLULAR_SERVICE_INTERRUPTION_NETWORK_ANOMALY = "There may be a temporary issue with your network."
+ en.CELLULAR_SERVICE_INTERRUPTION_NETWORK_ANOMALY_FOR_%@ = "There may be a temporary issue with the %@ network."
+ en.CELLULAR_SERVICE_OUTAGE = "Mobile Service Outage"
+
+ en.PRIVACYPROXY = "Limit IP Address Tracking"
+ en.PRIVACYPROXY_FOOTER_SUBSCRIBED = "Limit IP address tracking by hiding your IP address from known trackers in Mail and Safari. When this is turned off, iCloud Private Relay will also be turned off for this network provider."
+ en.PRIVACYPROXY_FOOTER_UNSUBSCRIBED = "Limit IP address tracking by hiding your IP address from known trackers in Mail and Safari."
+-en.QS_ABOUT_NUMBER_MIRRORING_BODY_%@ = "Use your phone number on this iPhone and one other that shares the same service provider account.\n\nYour phone number will automatically switch to whichever iPhone you unlock.\n"
+-en.QS_ABOUT_NUMBER_MIRRORING_TITLE = "Automatic Number Switching"
+-en.QS_AUTOMATIC_NUMBER_SWITCHING = "Automatic Number Switching"
++en.QS_ABOUT_NUMBER_MIRRORING_BODY_%@ = "Use your phone number on this iPhone and one other that shares the same service provider account.\n\nYour phone number will switch to whichever iPhone you unlock.\n"
++en.QS_ABOUT_NUMBER_MIRRORING_TITLE = "iPhone Handoff"
++en.QS_AUTOMATIC_NUMBER_SWITCHING = "iPhone Handoff"
+ en.QS_CARRIER_ESIM = "Service Provider eSIM"
+-en.QS_CARRIER_ESIM_FOOTER_PRIMARY_%@ = "This iPhone has the main eSIM, which is used for Automatic Number Switching and managing your service. To change this, contact your service provider. %@"
+-en.QS_CARRIER_ESIM_FOOTER_SECONDARY_%@ = "This iPhone has the companion eSIM used for Automatic Number Switching. To manage this or your service, use your other iPhone. %@"
++en.QS_CARRIER_ESIM_FOOTER_PRIMARY_%@ = "This iPhone is the main device, which is used for iPhone Handoff and managing your service. To change this, contact your service provider. %@"
++en.QS_CARRIER_ESIM_FOOTER_SECONDARY_%@ = "This iPhone is the companion device for iPhone Handoff. To make changes or manage your service, use your other iPhone. %@"
+ en.QS_CARRIER_ESIM_LEARN_MORE = "Learn more..."
+ en.QS_DELETE_ESIM_ALERT_MESSAGE_PRIMARY_%@_%@ = "Your phone number will no longer be active on this iPhone or switch to \"%@\". Contact %@ for assistance with your mobile plan and subscription."
+ en.QS_DELETE_ESIM_ALERT_MESSAGE_SECONDARY_%@_%@ = "Your phone number will no longer switch to this iPhone, but it will remain active on \"%@\". Contact %@ for assistance with your mobile plan and subscription."
+
+ en.QS_DETAILS_SERIAL_NUMBER = "Serial Number"
+ en.QS_LAST_USED_ON_DEVICE_%@_%@_%@ = "Last used on %@ %@ for %@."
+ en.QS_LEARN_MORE_LINK_%@ = " [Learn more…](%@)"
+-en.QS_NUMBER_MIRRORING_PLACARD = "Automatic Number Switching"
+-en.QS_NUMBER_SHARING_FOOTER_TEXT_%@ = "If you didn't set up automatic number switching, remove the other iPhone from your account and change your Apple Account password. %@"
++en.QS_NUMBER_MIRRORING_PLACARD = "iPhone Handoff"
++en.QS_NUMBER_SHARING_FOOTER_TEXT_%@ = "If you didn't set up iPhone Handoff, remove the other iPhone from your account and change your Apple Account password. %@"
+ en.QS_NUMBER_SHARING_NAME = "Other iPhone"
+-en.QS_NUMBER_SHARING_PLACARD_ENROLLED_NO_LAST_USED_%@ = "Your phone number is set up to automatically switch between this iPhone and %@."
+-en.QS_NUMBER_SHARING_PLACARD_NOT_ENROLLED = "Use your phone number on this iPhone and one other that shares the same service provider account.\n\nYour phone number will automatically switch to whichever iPhone you unlock.\n"
++en.QS_NUMBER_SHARING_PLACARD_ENROLLED_NO_LAST_USED_%@ = "Your phone number is set up to switch between this iPhone and %@."
++en.QS_NUMBER_SHARING_PLACARD_NOT_ENROLLED = "Use your phone number on this iPhone and one other that shares the same service provider account.\n\nYour phone number will switch to whichever iPhone you unlock.\n"
+ en.QS_NUMBER_SHARING_SHOW_IN_ICLOUD = "Show in iCloud"
+-en.QS_ORPHANED_PRIMARY_FOOTER_%@ = "This iPhone has the main eSIM for %@. Automatic Number Switching is not turned on."
++en.QS_ORPHANED_PRIMARY_FOOTER_%@ = "This iPhone has the main eSIM for %@. iPhone Handoff is not turned on."
+ en.QS_ORPHANED_SECONDARY_LEARN_MORE = "Learn more…"
+-en.QS_ORPHANED_SECONDARY_PLACARD_BODY = "The companion eSIM is no longer active. To use Automatic Number Switching on this iPhone, a main eSIM must be active on another iPhone signed in with your Apple Account."
+-en.QS_ORPHANED_SECONDARY_PLACARD_BODY_%@ = "The companion eSIM for %@ is no longer active. To use Automatic Number Switching on this iPhone, a main eSIM must be active on another iPhone signed in with your Apple Account."
++en.QS_ORPHANED_SECONDARY_PLACARD_BODY = "The companion eSIM is no longer active. To use iPhone Handoff on this iPhone, a main eSIM must be active on another iPhone signed in with your Apple Account."
++en.QS_ORPHANED_SECONDARY_PLACARD_BODY_%@ = "The companion eSIM for %@ is no longer active. To use iPhone Handoff on this iPhone, a main eSIM must be active on another iPhone signed in with your Apple Account."
+ en.QS_OTHER_DEVICES = "Other Devices"
+ en.QS_ROLE_PRIMARY = "Main"
+ en.QS_ROLE_SECONDARY = "Companion"
+
+```

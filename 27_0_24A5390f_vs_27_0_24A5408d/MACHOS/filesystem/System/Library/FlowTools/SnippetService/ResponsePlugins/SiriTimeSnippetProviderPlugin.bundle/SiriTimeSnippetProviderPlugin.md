@@ -1,0 +1,137 @@
+## SiriTimeSnippetProviderPlugin
+
+> `/System/Library/FlowTools/SnippetService/ResponsePlugins/SiriTimeSnippetProviderPlugin.bundle/SiriTimeSnippetProviderPlugin`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__cstring`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+
+```diff
+
+-3600.26.11.0.0
+-  __TEXT.__text: 0x39e24
+-  __TEXT.__auth_stubs: 0x1410
++3600.26.13.0.0
++  __TEXT.__text: 0x3b3d8
++  __TEXT.__auth_stubs: 0x1450
+   __TEXT.__objc_stubs: 0x140
+-  __TEXT.__const: 0x1424
+-  __TEXT.__swift5_typeref: 0x46c
++  __TEXT.__const: 0x1444
++  __TEXT.__swift5_typeref: 0x46e
+   __TEXT.__constg_swiftt: 0x8c0
+   __TEXT.__swift5_fieldmd: 0x5bc
+   __TEXT.__swift5_types: 0x4c
+   __TEXT.__swift_as_entry: 0x17c
+   __TEXT.__swift_as_ret: 0x15c
+-  __TEXT.__swift_as_cont: 0xc8
++  __TEXT.__swift_as_cont: 0xc4
+   __TEXT.__cstring: 0xa12
+   __TEXT.__swift5_reflstr: 0x51e
+   __TEXT.__swift5_assocty: 0x120
+   __TEXT.__objc_classname: 0x139
+   __TEXT.__swift5_proto: 0x94
+-  __TEXT.__oslogstring: 0xce8
++  __TEXT.__oslogstring: 0xdc8
+   __TEXT.__swift5_capture: 0x30
+   __TEXT.__objc_methname: 0x213
+   __TEXT.__objc_methtype: 0x1
+   __TEXT.__unwind_info: 0xcb0
+-  __TEXT.__eh_frame: 0x1f18
++  __TEXT.__eh_frame: 0x1ef8
+   __DATA_CONST.__const: 0xff9
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__auth_got: 0xa10
+-  __DATA_CONST.__got: 0x320
+-  __DATA_CONST.__auth_ptr: 0x440
++  __DATA_CONST.__auth_got: 0xa30
++  __DATA_CONST.__got: 0x328
++  __DATA_CONST.__auth_ptr: 0x448
+   __DATA.__objc_const: 0x620
+   __DATA.__objc_selrefs: 0x50
+   __DATA.__objc_data: 0x130
+-  __DATA.__data: 0xa00
++  __DATA.__data: 0xa08
+   __DATA.__bss: 0x1280
+   __DATA.__common: 0x160
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 936
+-  Symbols:   2701
+-  CStrings:  155
++  Functions: 938
++  Symbols:   2710
++  CStrings:  158
+ 
+Symbols:
++ _$s10Foundation8TimeZoneV10identifierACSgSSh_tcfC
++ _$s10Foundation8TimeZoneVMa
++ _$s10Foundation8TimeZoneVMn
++ _$s10Foundation8TimeZoneVSgMR
++ _$s10Foundation8TimeZoneVSgMd
++ _$s10Foundation8TimeZoneVSgWOb
++ _$s10Foundation8TimeZoneVSgWOc
++ _$s16SiriTimeInternal05ClockB12SnippetModelV2id4date07currentB11StaticTitle23timeDescriptiveAbsolute6locale11punchoutURL0L4ZoneACSS_10Foundation4DateVS2SAK6LocaleVAK0Q0VSgAK0bR0VSgtcfC
++ _$s16SiriTimeInternal0A18ClockSnippetModelsO05multiB4ViewyAcA05MultidE5ModelVcACmFWC
++ _$s16SiriTimeInternal0A18ClockSnippetModelsOAC0E3Kit0E11PluginModelAAWlTm
++ _$s16SiriTimeInternal22MultiClockSnippetModelV6clocksACSayAA0ebfG0VG_tcfC
++ _$s29SiriTimeSnippetProviderPlugin03GetbC7HandlerV6handle7payload7context0A7KitFlow6Output_pSay04ToolK010TypedValueO06EntityP0VG_0l5ToolsC7Service0cS7ContextVtYaF
++ _$s29SiriTimeSnippetProviderPlugin03GetbC7HandlerV6handle7payload7context0A7KitFlow6Output_pSay04ToolK010TypedValueO06EntityP0VG_0l5ToolsC7Service0cS7ContextVtYaFTQ1_
++ _$s29SiriTimeSnippetProviderPlugin03GetbC7HandlerV6handle7payload7context0A7KitFlow6Output_pSay04ToolK010TypedValueO06EntityP0VG_0l5ToolsC7Service0cS7ContextVtYaFTY0_
++ _$s29SiriTimeSnippetProviderPlugin03GetbC7HandlerV6handle7payload7context0A7KitFlow6Output_pSay04ToolK010TypedValueO06EntityP0VG_0l5ToolsC7Service0cS7ContextVtYaFTY2_
++ _$s29SiriTimeSnippetProviderPlugin03GetbC7HandlerV6handle7payload7context0A7KitFlow6Output_pSay04ToolK010TypedValueO06EntityP0VG_0l5ToolsC7Service0cS7ContextVtYaFTu
++ _$s29SiriTimeSnippetProviderPlugin03GetbC7HandlerV8supports14systemResponse09FlowToolsC7Service0gJ0OySay7ToolKit10TypedValueO06EntityQ0VGG012IntelligenceK006SystemJ0V_tF
++ _$s29SiriTimeSnippetProviderPlugin05ClockC7FactoryO03getfbC5Model4date0jB13DialogConcept8timeZone0mN5Label9catFamily0aB8Internal0fbcI0V10Foundation4DateV_0aK6Engine0K8CalendarCAM0bN0VSgSSSgAA04ShowF10CATs_AsyncCtYaKFZ
++ _$s29SiriTimeSnippetProviderPlugin05ClockC7FactoryO03getfbC5Model4date0jB13DialogConcept8timeZone0mN5Label9catFamily0aB8Internal0fbcI0V10Foundation4DateV_0aK6Engine0K8CalendarCAM0bN0VSgSSSgAA04ShowF10CATs_AsyncCtYaKFZTQ1_
++ _$s29SiriTimeSnippetProviderPlugin05ClockC7FactoryO03getfbC5Model4date0jB13DialogConcept8timeZone0mN5Label9catFamily0aB8Internal0fbcI0V10Foundation4DateV_0aK6Engine0K8CalendarCAM0bN0VSgSSSgAA04ShowF10CATs_AsyncCtYaKFZTY0_
++ _$s29SiriTimeSnippetProviderPlugin05ClockC7FactoryO03getfbC5Model4date0jB13DialogConcept8timeZone0mN5Label9catFamily0aB8Internal0fbcI0V10Foundation4DateV_0aK6Engine0K8CalendarCAM0bN0VSgSSSgAA04ShowF10CATs_AsyncCtYaKFZTY2_
++ _$s29SiriTimeSnippetProviderPlugin05ClockC7FactoryO03getfbC5Model4date0jB13DialogConcept8timeZone0mN5Label9catFamily0aB8Internal0fbcI0V10Foundation4DateV_0aK6Engine0K8CalendarCAM0bN0VSgSSSgAA04ShowF10CATs_AsyncCtYaKFZTu
++ _$s29SiriTimeSnippetProviderPlugin05ClockC7FactoryO03getfbC5Model4date0jB13DialogConcept8timeZone0mN5Label9catFamily0aB8Internal0fbcI0V10Foundation4DateV_0aK6Engine0K8CalendarCAM0bN0VSgSSSgAA04ShowF10CATs_AsyncCtYaKFZfA3_
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF16SiriTimeInternal05ClockP12SnippetModelV_Tg5
++ _$ss23_ContiguousArrayStorageCy16SiriTimeInternal05ClockE12SnippetModelVGMR
++ _$ss23_ContiguousArrayStorageCy16SiriTimeInternal05ClockE12SnippetModelVGMd
++ _objc_release_x24
++ _symbolic _____Sg 10Foundation8TimeZoneV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 16SiriTimeInternal05ClockE12SnippetModelV
+- _$s16SiriTimeInternal05ClockB12SnippetModelV2id4date07currentB11StaticTitle23timeDescriptiveAbsolute6locale11punchoutURLACSS_10Foundation4DateVS2SAJ6LocaleVAJ0Q0VSgtcfC
+- _$s16SiriTimeInternal0A18ClockSnippetModelsO8timeViewyAcA0dbE5ModelVcACmFWC
+- _$s23FlowToolsSnippetService13HandlerOutputVAC07SiriKitA00F0AAWlTm
+- _$s23FlowToolsSnippetService15HandlerResponseOy7ToolKit10TypedValueO06EntityJ0VGMR
+- _$s23FlowToolsSnippetService15HandlerResponseOy7ToolKit10TypedValueO06EntityJ0VGMd
+- _$s29SiriTimeSnippetProviderPlugin03GetbC7HandlerV6handle7payload7context0A7KitFlow6Output_p04ToolK010TypedValueO06EntityP0V_0l5ToolsC7Service0cS7ContextVtYaF
+- _$s29SiriTimeSnippetProviderPlugin03GetbC7HandlerV6handle7payload7context0A7KitFlow6Output_p04ToolK010TypedValueO06EntityP0V_0l5ToolsC7Service0cS7ContextVtYaFTQ1_
+- _$s29SiriTimeSnippetProviderPlugin03GetbC7HandlerV6handle7payload7context0A7KitFlow6Output_p04ToolK010TypedValueO06EntityP0V_0l5ToolsC7Service0cS7ContextVtYaFTY0_
+- _$s29SiriTimeSnippetProviderPlugin03GetbC7HandlerV6handle7payload7context0A7KitFlow6Output_p04ToolK010TypedValueO06EntityP0V_0l5ToolsC7Service0cS7ContextVtYaFTY2_
+- _$s29SiriTimeSnippetProviderPlugin03GetbC7HandlerV6handle7payload7context0A7KitFlow6Output_p04ToolK010TypedValueO06EntityP0V_0l5ToolsC7Service0cS7ContextVtYaFTu
+- _$s29SiriTimeSnippetProviderPlugin03GetbC7HandlerV8supports14systemResponse09FlowToolsC7Service0gJ0Oy7ToolKit10TypedValueO06EntityQ0VG012IntelligenceK006SystemJ0V_tF
+- _$s29SiriTimeSnippetProviderPlugin05ClockC7FactoryO03getfbC5Model4date0jB13DialogConcept9catFamily0aB8Internal0fbcI0V10Foundation4DateV_0aK6Engine0K8CalendarCAA04ShowF10CATs_AsyncCtYaKFZ
+- _$s29SiriTimeSnippetProviderPlugin05ClockC7FactoryO03getfbC5Model4date0jB13DialogConcept9catFamily0aB8Internal0fbcI0V10Foundation4DateV_0aK6Engine0K8CalendarCAA04ShowF10CATs_AsyncCtYaKFZTQ1_
+- _$s29SiriTimeSnippetProviderPlugin05ClockC7FactoryO03getfbC5Model4date0jB13DialogConcept9catFamily0aB8Internal0fbcI0V10Foundation4DateV_0aK6Engine0K8CalendarCAA04ShowF10CATs_AsyncCtYaKFZTY0_
+- _$s29SiriTimeSnippetProviderPlugin05ClockC7FactoryO03getfbC5Model4date0jB13DialogConcept9catFamily0aB8Internal0fbcI0V10Foundation4DateV_0aK6Engine0K8CalendarCAA04ShowF10CATs_AsyncCtYaKFZTY2_
+- _$s29SiriTimeSnippetProviderPlugin05ClockC7FactoryO03getfbC5Model4date0jB13DialogConcept9catFamily0aB8Internal0fbcI0V10Foundation4DateV_0aK6Engine0K8CalendarCAA04ShowF10CATs_AsyncCtYaKFZTY3_
+- _$s29SiriTimeSnippetProviderPlugin05ClockC7FactoryO03getfbC5Model4date0jB13DialogConcept9catFamily0aB8Internal0fbcI0V10Foundation4DateV_0aK6Engine0K8CalendarCAA04ShowF10CATs_AsyncCtYaKFZTu
+- _$s29SiriTimeSnippetProviderPlugin05ClockC7FactoryO03getfbC5Model4date0jB13DialogConcept9catFamily0aB8Internal0fbcI0V10Foundation4DateV_0aK6Engine0K8CalendarCAA04ShowF10CATs_AsyncCtYaKFZfA1_
+- _symbolic _____ 7ToolKit10TypedValueO06EntityD0V
+- _symbolic _____y_____G 23FlowToolsSnippetService15HandlerResponseO 7ToolKit10TypedValueO06EntityJ0V
+CStrings:
++ "    No matching Live Activity found for entity %s\n    activityStates count: %ld"
++ "responseViewId fallback to createTimer#handled (sourceId=nil)"
++ "responseViewId not set: sourceId %s cannot be mapped to EntitySource"
+```

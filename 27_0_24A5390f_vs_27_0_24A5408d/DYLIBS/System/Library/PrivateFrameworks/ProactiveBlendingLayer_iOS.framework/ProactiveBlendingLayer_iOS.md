@@ -1,0 +1,38 @@
+## ProactiveBlendingLayer_iOS
+
+> `/System/Library/PrivateFrameworks/ProactiveBlendingLayer_iOS.framework/ProactiveBlendingLayer_iOS`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-667.0.0.0.0
++671.0.2.0.0
+   __TEXT.__text: 0x31f0
+   __TEXT.__objc_methlist: 0x2ec
+   __TEXT.__const: 0x70
+   __TEXT.__cstring: 0x3a5
+   __TEXT.__oslogstring: 0x151
+-  __TEXT.__unwind_info: 0xf0
++  __TEXT.__unwind_info: 0xe8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+```

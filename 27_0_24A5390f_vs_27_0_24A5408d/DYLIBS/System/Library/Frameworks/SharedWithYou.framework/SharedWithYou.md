@@ -1,0 +1,122 @@
+## SharedWithYou
+
+> `/System/Library/Frameworks/SharedWithYou.framework/SharedWithYou`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_nlclslist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_intobj`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+-216.100.1.0.0
+-  __TEXT.__text: 0x3d968
+-  __TEXT.__objc_methlist: 0x200c
+-  __TEXT.__const: 0x1f56
++217.100.1.0.0
++  __TEXT.__text: 0x3e874
++  __TEXT.__objc_methlist: 0x2024
++  __TEXT.__const: 0x20c6
+   __TEXT.__cstring: 0x1708
+   __TEXT.__oslogstring: 0x22fc
+   __TEXT.__gcc_except_tab: 0x440
+   __TEXT.__dlopen_cstrs: 0x54
+   __TEXT.__constg_swiftt: 0x570
+-  __TEXT.__swift5_typeref: 0x14d7
++  __TEXT.__swift5_typeref: 0x1525
+   __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__swift5_reflstr: 0x84d
+-  __TEXT.__swift5_fieldmd: 0x610
++  __TEXT.__swift5_reflstr: 0x86d
++  __TEXT.__swift5_fieldmd: 0x61c
+   __TEXT.__swift5_assocty: 0x238
+   __TEXT.__swift5_proto: 0xa0
+   __TEXT.__swift5_types: 0x5c
+
+   __TEXT.__swift_as_ret: 0xc
+   __TEXT.__swift_as_cont: 0x14
+   __TEXT.__swift5_mpenum: 0x24
+-  __TEXT.__unwind_info: 0xf18
++  __TEXT.__unwind_info: 0xf58
+   __TEXT.__eh_frame: 0x318
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x808
++  __DATA_CONST.__const: 0x828
+   __DATA_CONST.__objc_classlist: 0x120
+   __DATA_CONST.__objc_nlclslist: 0x8
+   __DATA_CONST.__objc_catlist: 0x10
+
+   __DATA_CONST.__objc_selrefs: 0x1550
+   __DATA_CONST.__objc_protorefs: 0x60
+   __DATA_CONST.__objc_superrefs: 0xc8
+-  __DATA_CONST.__got: 0x720
++  __DATA_CONST.__got: 0x730
+   __AUTH_CONST.__const: 0x13a8
+   __AUTH_CONST.__cfstring: 0x660
+-  __AUTH_CONST.__objc_const: 0x3cf0
++  __AUTH_CONST.__objc_const: 0x3d20
+   __AUTH_CONST.__objc_intobj: 0x78
+-  __AUTH_CONST.__auth_got: 0xd70
+-  __AUTH.__objc_data: 0xb80
+-  __AUTH.__data: 0x2a0
++  __AUTH_CONST.__auth_got: 0xd88
++  __AUTH.__objc_data: 0xb88
++  __AUTH.__data: 0x2a8
+   __DATA.__objc_ivar: 0x158
+-  __DATA.__data: 0x13f8
+-  __DATA.__bss: 0x1630
++  __DATA.__data: 0x1410
++  __DATA.__bss: 0x1660
+   __DATA.__common: 0x58
+   __DATA_DIRTY.__objc_data: 0x388
+   __DATA_DIRTY.__data: 0x58
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1565
+-  Symbols:   2267
++  Functions: 1594
++  Symbols:   2270
+   CStrings:  273
+ 
+Symbols:
++ ___swift_closure_destructor.90Tm
++ _get_witness_table 7SwiftUI4ViewRzlqd__AaBHD2_AaBPAAE14listSizesToFit9maxHeightQr12CoreGraphics7CGFloatV_tFQOyAA15ModifiedContentVyAcAE0D7PaddingyQrAA4EdgeO3SetV_AHtFQOyAcAEAKyQrAO_AHtFQOyAcAE06scrollN10BackgroundyQrAA10VisibilityOFQOyAA4ListVys5NeverOAA05TupleN0VyAJyAJyAcAE0D14SectionMarginsyQrAO_AHSgtFQOyAA0X0VyAA05EmptyC0VAcAE0D12RowSeparator_5edgesQrAR_AA08VerticalP0OANVtFQOyAJy13SharedWithYou019CollaborationDetailC6HeaderVAA21_TraitWritingModifierVyAA0u3RowS8TraitKeyVGG_Qo_A2_G_Qo_A12_yAA0uX15SpacingTraitKeyVGGAA30_EnvironmentKeyWritingModifierVyAA0uX7SpacingVSgGG_AJyAJyAXyA2_Sg_AA012_ConditionalN0VyAJyAJyAJyA8_0unC13RepresentableVA15_GA12_yAA0U17RowInsetsTraitKeyVGGAA12_FrameLayoutVGxGQPGA22_GA29_GAJyAJyA0_yA2_AcAE9formSheet11isPresented7contentQrAA7BindingVySbG_qd__yctAaBRd__lFQOyAA6ButtonVyAA6HStackVyAXyAA4TextV_AA6SpacerVA33_yA33_yA8_020_CollaborationDetailC0V20PendingRequestsBadge33_572444FAA9386A33C990CA94E8FA794ELLVyx_GAJyAA5ImageVAA25_ForegroundStyleModifier2VyAA5ColorVA73_GGGAJyA69_A25_yA73_SgGGGQPGGG_AJyAJyA33_yA33_yA33_yA8_37UICloudSharingControllerRepresentableVA2_GA33_yA8_40UIDocumentSharingControllerRepresentableVA2_GGA2_GAA01_S13StyleModifierVyA73_GGAA23_SafeAreaIgnoringLayoutVGQo_A2_GSgA22_GA29_GSgQPGG_Qo__Qo__Qo_AA16_FlexFrameLayoutVG_Qo_HO
++ _keypath_get.60Tm
++ _keypath_set.61Tm
++ _symbolic _____Sg 7SwiftUI19SymbolRenderingModeV
++ _symbolic _____y_____ABG 7SwiftUI25_ForegroundStyleModifier2V AA5ColorV
++ _symbolic _____y__________y_____ADGG 7SwiftUI15ModifiedContentV AA5ImageV AA25_ForegroundStyleModifier2V AA5ColorV
++ _symbolic _____y_____y_____y_____y_____y_____y__________yAAyAAy_____y_____y__________yAAy__________y_____GG_Qo_AFG_Qo_AHy_____GG_____y_____SgGG_AAyAAyADyAFSg______yAAyAAyAAy_____AJGAHy_____GG_____GxGQPGAPGAUGAAyAAyAEyAF_____y_____y_____yADy___________AXyAXy_____yx_GAAy__________y_____A16_GGGAAyA14_ARyA16_SgGGGQPGGG_AAyAAyAXyAXyAXy_____AFGAXy_____AFGGAFG_____yA16_GG_____GQo_AFGSgAPGAUGSgQPGG_Qo__Qo__Qo______G_Qo_ 7SwiftUI4ViewPAAE14listSizesToFit9maxHeightQr12CoreGraphics7CGFloatV_tFQO AA15ModifiedContentV AcAE0D7PaddingyQrAA4EdgeO3SetV_AHtFQO AcAEAKyQrAO_AHtFQO AcAE06scrollN10BackgroundyQrAA10VisibilityOFQO AA4ListV s5NeverO AA05TupleN0V AcAE0D14SectionMarginsyQrAO_AHSgtFQO AA0X0V AA05EmptyC0V AcAE0D12RowSeparator_5edgesQrAR_AA08VerticalP0OANVtFQO 13SharedWithYou019CollaborationDetailC6HeaderV AA21_TraitWritingModifierV AA0u3RowS8TraitKeyV AA0uX15SpacingTraitKeyV AA30_EnvironmentKeyWritingModifierV AA0uX7SpacingV AA012_ConditionalN0V A8_0unC13RepresentableV AA0U17RowInsetsTraitKeyV AA12_FrameLayoutV AcAE9formSheet11isPresented7contentQrAA7BindingVySbG_qd__yctAaBRd__lFQO AA6ButtonV AA6HStackV AA4TextV AA6SpacerV A8_020_CollaborationDetailC0V20PendingRequestsBadge33_572444FAA9386A33C990CA94E8FA794ELLV AA5ImageV AA25_ForegroundStyleModifier2V AA5ColorV A8_37UICloudSharingControllerRepresentableV A8_40UIDocumentSharingControllerRepresentableV AA01_S13StyleModifierV AA23_SafeAreaIgnoringLayoutV AA16_FlexFrameLayoutV
+- ___swift_closure_destructor.79Tm
+- _get_witness_table 7SwiftUI4ViewRzlqd__AaBHD2_AaBPAAE14listSizesToFit9maxHeightQr12CoreGraphics7CGFloatV_tFQOyAA15ModifiedContentVyAcAE0D7PaddingyQrAA4EdgeO3SetV_AHtFQOyAcAEAKyQrAO_AHtFQOyAcAE06scrollN10BackgroundyQrAA10VisibilityOFQOyAA4ListVys5NeverOAA05TupleN0VyAJyAJyAcAE0D14SectionMarginsyQrAO_AHSgtFQOyAA0X0VyAA05EmptyC0VAcAE0D12RowSeparator_5edgesQrAR_AA08VerticalP0OANVtFQOyAJy13SharedWithYou019CollaborationDetailC6HeaderVAA21_TraitWritingModifierVyAA0u3RowS8TraitKeyVGG_Qo_A2_G_Qo_A12_yAA0uX15SpacingTraitKeyVGGAA30_EnvironmentKeyWritingModifierVyAA0uX7SpacingVSgGG_AJyAJyAXyA2_Sg_AA012_ConditionalN0VyAJyAJyAJyA8_0unC13RepresentableVA15_GA12_yAA0U17RowInsetsTraitKeyVGGAA12_FrameLayoutVGxGQPGA22_GA29_GAJyAJyA0_yA2_AcAE9formSheet11isPresented7contentQrAA7BindingVySbG_qd__yctAaBRd__lFQOyAA6ButtonVyAA6HStackVyAXyAA4TextV_AA6SpacerVA33_yA8_020_CollaborationDetailC0V20PendingRequestsBadge33_572444FAA9386A33C990CA94E8FA794ELLVyx_GAJyAA5ImageVA25_yAA5ColorVSgGGGQPGGG_AJyAJyA33_yA33_yA33_yA8_37UICloudSharingControllerRepresentableVA2_GA33_yA8_40UIDocumentSharingControllerRepresentableVA2_GGA2_GAA01_S13StyleModifierVyA71_GGAA23_SafeAreaIgnoringLayoutVGQo_A2_GSgA22_GA29_GSgQPGG_Qo__Qo__Qo_AA16_FlexFrameLayoutVG_Qo_HO
+- _keypath_get.42Tm
+- _keypath_set.49Tm
+- _symbolic _____y_____y_____y_____y_____y_____y__________yAAyAAy_____y_____y__________yAAy__________y_____GG_Qo_AFG_Qo_AHy_____GG_____y_____SgGG_AAyAAyADyAFSg______yAAyAAyAAy_____AJGAHy_____GG_____GxGQPGAPGAUGAAyAAyAEyAF_____y_____y_____yADy___________AXy_____yx_GAAy_____ARy_____SgGGGQPGGG_AAyAAyAXyAXyAXy_____AFGAXy_____AFGGAFG_____yA15_GG_____GQo_AFGSgAPGAUGSgQPGG_Qo__Qo__Qo______G_Qo_ 7SwiftUI4ViewPAAE14listSizesToFit9maxHeightQr12CoreGraphics7CGFloatV_tFQO AA15ModifiedContentV AcAE0D7PaddingyQrAA4EdgeO3SetV_AHtFQO AcAEAKyQrAO_AHtFQO AcAE06scrollN10BackgroundyQrAA10VisibilityOFQO AA4ListV s5NeverO AA05TupleN0V AcAE0D14SectionMarginsyQrAO_AHSgtFQO AA0X0V AA05EmptyC0V AcAE0D12RowSeparator_5edgesQrAR_AA08VerticalP0OANVtFQO 13SharedWithYou019CollaborationDetailC6HeaderV AA21_TraitWritingModifierV AA0u3RowS8TraitKeyV AA0uX15SpacingTraitKeyV AA30_EnvironmentKeyWritingModifierV AA0uX7SpacingV AA012_ConditionalN0V A8_0unC13RepresentableV AA0U17RowInsetsTraitKeyV AA12_FrameLayoutV AcAE9formSheet11isPresented7contentQrAA7BindingVySbG_qd__yctAaBRd__lFQO AA6ButtonV AA6HStackV AA4TextV AA6SpacerV A8_020_CollaborationDetailC0V20PendingRequestsBadge33_572444FAA9386A33C990CA94E8FA794ELLV AA5ImageV AA5ColorV A8_37UICloudSharingControllerRepresentableV A8_40UIDocumentSharingControllerRepresentableV AA01_S13StyleModifierV AA23_SafeAreaIgnoringLayoutV AA16_FlexFrameLayoutV
+```

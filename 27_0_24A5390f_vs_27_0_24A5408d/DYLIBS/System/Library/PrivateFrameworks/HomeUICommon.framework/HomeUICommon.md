@@ -1,0 +1,140 @@
+## HomeUICommon
+
+> `/System/Library/PrivateFrameworks/HomeUICommon.framework/HomeUICommon`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH.__objc_data`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-1238.0.0.0.0
+-  __TEXT.__text: 0x34b64
++1241.1.7.1.2
++  __TEXT.__text: 0x34790
+   __TEXT.__objc_methlist: 0xe6c
+-  __TEXT.__const: 0x1c78
+-  __TEXT.__swift5_typeref: 0x19c6
+-  __TEXT.__swift5_reflstr: 0xc7b
++  __TEXT.__const: 0x1c48
++  __TEXT.__swift5_typeref: 0x192a
++  __TEXT.__swift5_reflstr: 0xc6b
+   __TEXT.__swift5_assocty: 0x208
+   __TEXT.__constg_swiftt: 0xdd8
+   __TEXT.__swift5_fieldmd: 0xb04
+
+   __TEXT.__swift5_types: 0x8c
+   __TEXT.__cstring: 0x288c
+   __TEXT.__swift5_capture: 0x208
+-  __TEXT.__swift_as_entry: 0x18
+-  __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__swift_as_cont: 0x44
+-  __TEXT.__oslogstring: 0x9dd
++  __TEXT.__swift_as_entry: 0x1c
++  __TEXT.__swift_as_ret: 0x14
++  __TEXT.__swift_as_cont: 0x4c
++  __TEXT.__oslogstring: 0x99d
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__gcc_except_tab: 0x50
+-  __TEXT.__unwind_info: 0xdc8
+-  __TEXT.__eh_frame: 0x748
++  __TEXT.__unwind_info: 0xdd0
++  __TEXT.__eh_frame: 0x7e8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x528
++  __DATA_CONST.__const: 0x518
+   __DATA_CONST.__objc_classlist: 0xd0
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x60
+
+   __AUTH_CONST.__cfstring: 0xa00
+   __AUTH_CONST.__objc_const: 0x1e60
+   __AUTH_CONST.__objc_intobj: 0x30
+-  __AUTH_CONST.__auth_got: 0xf88
++  __AUTH_CONST.__auth_got: 0xfa0
+   __AUTH.__objc_data: 0x5f8
+-  __AUTH.__data: 0xb20
++  __AUTH.__data: 0xba8
+   __DATA.__objc_ivar: 0x88
+-  __DATA.__data: 0xb78
+-  __DATA.__bss: 0xfa8
++  __DATA.__data: 0xbd8
++  __DATA.__bss: 0x1008
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_ivar: 0x4c
+   __DATA_DIRTY.__objc_data: 0x3e8
+-  __DATA_DIRTY.__data: 0x480
+-  __DATA_DIRTY.__bss: 0x460
++  __DATA_DIRTY.__data: 0x3a0
++  __DATA_DIRTY.__bss: 0x3e0
+   __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1221
++  Functions: 1214
+   Symbols:   1577
+-  CStrings:  342
++  CStrings:  341
+ 
+Symbols:
++ _associated conformance 12HomeUICommon0A26EnergyDashboardContentViewV7SwiftUI0F0AA4BodyAdEP_AdE
++ _get_witness_table 7SwiftUI16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAA15ModifiedContentVyAA6VStackVyAA05TupleJ0VyAJyALyANy010HomeEnergyB0015GridForecastAppD0V_AJyAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAO18InlineEducationTipV_Qo_AA25_AppearanceActionModifierVGSgQPGGA_GSg_AO020UtilityUsageAndRatesD0VSgQPGGA_GGAaRHPyHC
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOy12HomeUICommon0k22EnergyDashboardContentC0V_AA08ModifiedO0VyAL014EducationPanelC10ControllerVAA30_SafeAreaRegionsIgnoringLayoutVGQo_HO
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOy12HomeUICommon0k22EnergyDashboardContentC0V_AL0km14EducationPanelC0VQo_HO
++ _swift_retain_x26
++ _symbolic _____ 12HomeUICommon0A26EnergyDashboardContentViewV
++ _symbolic _____Sg 12HomeEnergyUI24UtilityUsageAndRatesViewV
++ _symbolic _____Sg 17EnergyKitInternal0A4SiteC
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 12HomeUICommon28EducationPanelViewControllerV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y___________Qo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO 12HomeUICommon0k22EnergyDashboardContentC0V AL0km14EducationPanelC0V
++ _symbolic _____y___________y__________GQo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO 12HomeUICommon0k22EnergyDashboardContentC0V AA08ModifiedO0V AL014EducationPanelC10ControllerV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y___________y_____y_____yACy______ADy_____y______Qo______GSgQPGGAIGSg______SgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA0F0V 010HomeEnergyB0015GridForecastAppD0V AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AN18InlineEducationTipV AA25_AppearanceActionModifierV AN020UtilityUsageAndRatesD0V
++ _symbolic _____y__________y_____y_____yACyADyAEy______ACy_____y______Qo______GSgQPGGAIGSg______SgQPGGAIGG 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15ModifiedContentV AA6VStackV AA05TupleJ0V 010HomeEnergyB0015GridForecastAppD0V AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AO18InlineEducationTipV AA25_AppearanceActionModifierV AO020UtilityUsageAndRatesD0V
++ _symbolic _____y_____y_____yAAyAByACy______AAy_____y______Qo______GSgQPGGAGGSg______SgQPGGAGG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 010HomeEnergyB019GridForecastAppViewV AA0L0PAAE12onTapGesture5count7performQrSi_yyctFQO AH18InlineEducationTipV AA25_AppearanceActionModifierV AH020UtilityUsageAndRatesL0V
++ _symbolic _____y_____y_____y______AAy_____y______Qo______GSgQPGGAGGSg______Sgt 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 010HomeEnergyB019GridForecastAppViewV AA0L0PAAE12onTapGesture5count7performQrSi_yyctFQO AH18InlineEducationTipV AA25_AppearanceActionModifierV AH020UtilityUsageAndRatesL0V
+- _associated conformance 12HomeUICommon0A22EnergyDashboardContentV7SwiftUI4ViewAA4BodyAdEP_AdE
+- _get_witness_table 7SwiftUI16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVACyAhA15ModifiedContentVyAA6VStackVyAA05TupleJ0VyAJyALyANy010HomeEnergyB0015GridForecastAppD0V_AJyAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAO18InlineEducationTipV_Qo_AA25_AppearanceActionModifierVGSgQPGGA_GSg_AA6IDViewVyAO020UtilityUsageAndRatesD0VSOSgGSgQPGGA_GGGAaRHPyHC
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOy12HomeUICommon0K22EnergyDashboardContentV_AL014EducationPanelC10ControllerVQo_HO
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOy12HomeUICommon0K22EnergyDashboardContentV_AL0km14EducationPanelC0VQo_HO
+- _symbolic SOSg
+- _symbolic _____ 12HomeUICommon0A22EnergyDashboardContentV
+- _symbolic _____y_____AAyAB_____y_____y_____yACyADyAEy______ACy_____y______Qo______GSgQPGGAIGSg______y_____SOSgGSgQPGGAIGGG 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15ModifiedContentV AA6VStackV AA05TupleJ0V 010HomeEnergyB0015GridForecastAppD0V AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AO18InlineEducationTipV AA25_AppearanceActionModifierV AA6IDViewV AO020UtilityUsageAndRatesD0V
+- _symbolic _____y_____SOSgG 7SwiftUI6IDViewV 010HomeEnergyB024UtilityUsageAndRatesViewV
+- _symbolic _____y_____SOSgGSg 7SwiftUI6IDViewV 010HomeEnergyB024UtilityUsageAndRatesViewV
+- _symbolic _____y___________Qo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO 12HomeUICommon0K22EnergyDashboardContentV AL014EducationPanelC10ControllerV
+- _symbolic _____y___________Qo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO 12HomeUICommon0K22EnergyDashboardContentV AL0km14EducationPanelC0V
+- _symbolic _____y___________y_____y_____yACy______ADy_____y______Qo______GSgQPGGAIGSg______y_____SOSgGSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA0F0V 010HomeEnergyB0015GridForecastAppD0V AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AN18InlineEducationTipV AA25_AppearanceActionModifierV AA6IDViewV AN020UtilityUsageAndRatesD0V
+- _symbolic _____y__________y_____y_____yACyADyAEy______ACy_____y______Qo______GSgQPGGAIGSg______y_____SOSgGSgQPGGAIGG 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15ModifiedContentV AA6VStackV AA05TupleJ0V 010HomeEnergyB0015GridForecastAppD0V AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AO18InlineEducationTipV AA25_AppearanceActionModifierV AA6IDViewV AO020UtilityUsageAndRatesD0V
+- _symbolic _____y_____y_____yAAyAByACy______AAy_____y______Qo______GSgQPGGAGGSg______y_____SOSgGSgQPGGAGG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 010HomeEnergyB019GridForecastAppViewV AA0L0PAAE12onTapGesture5count7performQrSi_yyctFQO AH18InlineEducationTipV AA25_AppearanceActionModifierV AA6IDViewV AH020UtilityUsageAndRatesL0V
+- _symbolic _____y_____y_____y______AAy_____y______Qo______GSgQPGGAGGSg______y_____SOSgGSgt 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V 010HomeEnergyB019GridForecastAppViewV AA0L0PAAE12onTapGesture5count7performQrSi_yyctFQO AH18InlineEducationTipV AA25_AppearanceActionModifierV AA6IDViewV AH020UtilityUsageAndRatesL0V
+CStrings:
+- "handleUtilitySubscriptionChange notification received"
+```

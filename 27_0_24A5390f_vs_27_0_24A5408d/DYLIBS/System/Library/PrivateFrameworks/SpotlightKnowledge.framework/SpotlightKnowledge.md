@@ -1,0 +1,200 @@
+## SpotlightKnowledge
+
+> `/System/Library/PrivateFrameworks/SpotlightKnowledge.framework/SpotlightKnowledge`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH.__objc_data`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-2454.100.0.0.0
+-  __TEXT.__text: 0x86ecc
++2459.102.0.0.0
++  __TEXT.__text: 0x8a404
+   __TEXT.__objc_methlist: 0xf8c
+-  __TEXT.__const: 0x11a60
+-  __TEXT.__cstring: 0x3187
++  __TEXT.__const: 0x12540
++  __TEXT.__cstring: 0x318b
+   __TEXT.__gcc_except_tab: 0x80
+   __TEXT.__oslogstring: 0x853
+-  __TEXT.__swift5_typeref: 0x33b0
+-  __TEXT.__constg_swiftt: 0x2860
+-  __TEXT.__swift5_reflstr: 0x1484
+-  __TEXT.__swift5_fieldmd: 0x30f8
+-  __TEXT.__swift5_builtin: 0x50
++  __TEXT.__swift5_typeref: 0x3562
++  __TEXT.__constg_swiftt: 0x29c8
++  __TEXT.__swift5_reflstr: 0x14e4
++  __TEXT.__swift5_fieldmd: 0x328c
++  __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_capture: 0x160
+-  __TEXT.__swift5_proto: 0x132c
+-  __TEXT.__swift5_types: 0x470
++  __TEXT.__swift5_proto: 0x13f8
++  __TEXT.__swift5_types: 0x49c
+   __TEXT.__swift_as_entry: 0x1c
+   __TEXT.__swift_as_ret: 0x1c
+   __TEXT.__swift_as_cont: 0x28
+-  __TEXT.__swift5_assocty: 0x3a8
++  __TEXT.__swift5_assocty: 0x3d8
+   __TEXT.__swift5_mpenum: 0x14
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x3530
+-  __TEXT.__eh_frame: 0x33c0
++  __TEXT.__unwind_info: 0x3730
++  __TEXT.__eh_frame: 0x34d8
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_classlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xd48
++  __DATA_CONST.__objc_selrefs: 0xd58
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_superrefs: 0x38
+   __DATA_CONST.__objc_arraydata: 0x510
+-  __DATA_CONST.__got: 0x440
+-  __AUTH_CONST.__const: 0x88e8
+-  __AUTH_CONST.__cfstring: 0x4180
++  __DATA_CONST.__got: 0x450
++  __AUTH_CONST.__const: 0x8db0
++  __AUTH_CONST.__cfstring: 0x4120
+   __AUTH_CONST.__objc_const: 0x1510
+   __AUTH_CONST.__objc_intobj: 0x48
+   __AUTH_CONST.__objc_arrayobj: 0x1e0
+-  __AUTH_CONST.__auth_got: 0xba8
++  __AUTH_CONST.__auth_got: 0xba0
+   __AUTH.__objc_data: 0x200
+-  __AUTH.__data: 0x1658
++  __AUTH.__data: 0x16e8
+   __DATA.__objc_ivar: 0x108
+-  __DATA.__data: 0x3680
+-  __DATA.__bss: 0x26730
++  __DATA.__data: 0x3890
++  __DATA.__bss: 0x280b0
+   __DATA_DIRTY.__objc_data: 0x140
+   __DATA_DIRTY.__data: 0x8
+   __DATA_DIRTY.__bss: 0xb8
+
+   - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
++  - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/MetadataUtilities.framework/MetadataUtilities
+   - /System/Library/PrivateFrameworks/SpotlightEmbedding.framework/SpotlightEmbedding
+   - /System/Library/PrivateFrameworks/SpotlightLinguistics.framework/SpotlightLinguistics
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  Functions: 5218
+-  Symbols:   2729
+-  CStrings:  764
++  Functions: 5389
++  Symbols:   2782
++  CStrings:  763
+ 
+Symbols:
++ -[SKGSystemListener isSiriPQAEnabled]
++ _OBJC_CLASS_$_AFPreferences
++ ___swift_memcpy64_8
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV3RowV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOSHAASQ
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV3RowV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV3RowV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV3RowVSHAASQ
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV8ResponseV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOSHAASQ
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV8ResponseV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV8ResponseV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV8ResponseVSHAASQ
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningVAC7MessageAA8ResponseAcFP_SE
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningVAC7MessageAA8ResponseAcFP_SH
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningVAC7MessageAA8ResponseAcFP_Se
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningVSHAASQ
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningV8ResponseV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningV8ResponseV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningV8ResponseVSHAASQ
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningVAC7MessageAA8ResponseAcFP_SE
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningVAC7MessageAA8ResponseAcFP_SH
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningVAC7MessageAA8ResponseAcFP_Se
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningVSHAASQ
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO36FetchPipelineDeadReckoningCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOSHAASQ
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO36FetchPipelineDeadReckoningCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO36FetchPipelineDeadReckoningCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO36ResetPipelineDeadReckoningCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOSHAASQ
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO36ResetPipelineDeadReckoningCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 18SpotlightKnowledge14UpdaterCommandO36ResetPipelineDeadReckoningCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _dlopen
++ _kCFPreferencesAnyHost
++ _objc_msgSend$appleIntelligenceFallbackEnabled
++ _objc_msgSend$sharedPreferences
++ _symbolic Say_____G 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV3RowV
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV3RowV
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV3RowV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV8ResponseV
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV8ResponseV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningV
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningV8ResponseV
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningV8ResponseV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO36FetchPipelineDeadReckoningCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____ 18SpotlightKnowledge14UpdaterCommandO36ResetPipelineDeadReckoningCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV3RowV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV8ResponseV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18SpotlightKnowledge14UpdaterCommandO36FetchPipelineDeadReckoningCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 18SpotlightKnowledge14UpdaterCommandO36ResetPipelineDeadReckoningCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV3RowV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV8ResponseV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18SpotlightKnowledge14UpdaterCommandO26ResetPipelineDeadReckoningV8ResponseV10CodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18SpotlightKnowledge14UpdaterCommandO36FetchPipelineDeadReckoningCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 18SpotlightKnowledge14UpdaterCommandO36ResetPipelineDeadReckoningCodingKeys33_D18E50E6EBB5AE12A47FA0D537BB42B3LLO
++ _type_layout_string 18SpotlightKnowledge14UpdaterCommandO26FetchPipelineDeadReckoningV3RowV
+- -[SKGSystemListener showRelatedContentIsEnabled]
+- ___48-[SKGSystemListener showRelatedContentIsEnabled]_block_invoke
+- _swift_initStackObject
+- _swift_unknownObjectRetain_n
+- _symbolic _____ So16os_unfair_lock_sV
+- _symbolic _____ s6UInt32V
+- _symbolic _____y______pSg_____G s13ManagedBufferCsRi__rlE So14OS_os_activityP So0D14_unfair_lock_sV
+- _type_layout_string So16os_unfair_lock_sV
+CStrings:
++ "/usr/lib/system/libsystem_trace.dylib"
++ "Unschedule"
++ "Unscheduled"
++ "fetchPipelineDeadReckoning"
++ "resetPipelineDeadReckoning"
+- "DOMAIN_PARSEC"
+- "Failed to create OS Activity"
+- "Fatal error"
+- "SBSearchDisabledDomains"
+- "SpotlightKnowledge/OSActivity.swift"
+- "com.apple.spotlightui"
+```

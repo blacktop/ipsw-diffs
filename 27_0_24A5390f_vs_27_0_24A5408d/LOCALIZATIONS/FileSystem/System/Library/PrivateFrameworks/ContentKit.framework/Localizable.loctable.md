@@ -1,0 +1,70 @@
+## ContentKit
+
+> `FileSystem/System/Library/PrivateFrameworks/ContentKit.framework/Localizable.loctable`
+
+```diff
+
+ en.%d Music Items (Pluralization).format_key.NSStringFormatValueTypeKey = "d"
+ en.%d Music Items (Pluralization).format_key.one = "%d Music Item"
+ en.%d Music Items (Pluralization).format_key.other = "%d Music Items"
++en.%d Name Components (Pluralization).NSStringLocalizedFormatKey = "%#@format_key@"
++en.%d Name Components (Pluralization).format_key.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
++en.%d Name Components (Pluralization).format_key.NSStringFormatValueTypeKey = "d"
++en.%d Name Components (Pluralization).format_key.one = "%d Name Components"
++en.%d Name Components (Pluralization).format_key.other = "%d Name Components"
+ en.%d Notifications (Pluralization).NSStringLocalizedFormatKey = "%#@format_key@"
+ en.%d Notifications (Pluralization).format_key.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ en.%d Notifications (Pluralization).format_key.NSStringFormatValueTypeKey = "d"
+
+ en.%d Payment Methods (Pluralization).format_key.NSStringFormatValueTypeKey = "d"
+ en.%d Payment Methods (Pluralization).format_key.one = "%d Payment Method"
+ en.%d Payment Methods (Pluralization).format_key.other = "%d Payment Methods"
+-en.%d Person Name Components (Pluralization).NSStringLocalizedFormatKey = "%#@format_key@"
+-en.%d Person Name Components (Pluralization).format_key.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+-en.%d Person Name Components (Pluralization).format_key.NSStringFormatValueTypeKey = "d"
+-en.%d Person Name Components (Pluralization).format_key.one = "%d Person Name Components"
+-en.%d Person Name Components (Pluralization).format_key.other = "%d Person Name Components"
+ en.%d Phone Numbers (Pluralization).NSStringLocalizedFormatKey = "%#@format_key@"
+ en.%d Phone Numbers (Pluralization).format_key.NSStringFormatSpecTypeKey = "NSStringPluralRuleType"
+ en.%d Phone Numbers (Pluralization).format_key.NSStringFormatValueTypeKey = "d"
+
+ en.FTP directory = "FTP directory"
+ en.Favorites = "Favorites"
+ en.File = "File"
++en.File Archiving = "File Archiving"
+ en.File Extension (Content Property Name) = "File Extension"
+ en.File Path (Content Property Name) = "File Path"
+ en.File Size (Content Property Name) = "File Size"
+
+ en.Music Video (Content Property Possible Value) = "Music Video"
+ en.My Status (Content Property Name) = "My Status"
+ en.Name (Content Property Name) = "Name"
++en.Name Components (multiple) = "Name Components"
++en.Name Components (singular) = "Name Components"
+ en.Name of email = "Email"
+ en.Network Information = "Network Information"
+ en.Nickname (Content Property Name) = "Nickname"
+
+ en.Payment Methods = "Payment Methods"
+ en.Pending (Content Property Possible Value) = "Pending"
+ en.Person (Content Property Possible Value) = "Person"
+-en.Person Name Components (multiple) = "Person Name Components"
+-en.Person Name Components (singular) = "Person Name Components"
+ en.PersonalHotspotPasswordLocation = "Personal Hotspot Password"
+ en.Phone Number (Content Property Name) = "Phone Number"
+ en.Phone Number = "Phone Number"
+
+ en.The Maps URL could not be resolved. = "The Maps URL could not be resolved."
+ en.The PDF was corrupt or could not be read. = "The PDF was corrupt or could not be read."
+ en.The URL “%@” is missing a hostname. = "The URL “%@” is missing a hostname."
++en.The action could not run because Broad World Knowledge is enabled, but web content is restricted by your Screen Time settings. = "The action could not run because Broad World Knowledge is enabled, but web content is restricted by your Screen Time settings."
++en.The action could not run because Broad World Knowledge is restricted by your Screen Time settings. = "The action could not run because Broad World Knowledge is restricted by your Screen Time settings."
+ en.The action could not run because it requires a model provided by an extension, but Personal Siri hasn’t been enabled yet. To run the action, go to Settings > Apple Intelligence & Siri, and enable Personal Siri. = "The action could not run because it requires a model provided by an extension, but Personal Siri hasn’t been enabled yet. To run the action, go to Settings \u003e Apple Intelligence \u0026 Siri, and enable Personal Siri."
+ en.The action could not run because the "%@" extension is not enabled in Settings. You can enable it in Settings > Apple Intelligence & Siri > Extensions. = "The action could not run because the \"%@\" extension is not enabled in Settings. You can enable it in Settings \u003e Apple Intelligence \u0026 Siri \u003e Extensions."
+ en.The action could not run because you must be signed in to an iCloud+ account to use the Cloud Pro model. = "The action could not run because you must be signed in to an iCloud+ account to use the Cloud Pro model."
+-en.The action could not search the web because Web Search Content is restricted on this device. = "The action could not search the web because Web Search Content is restricted on this device."
+ en.The action failed to run because the image attachment ‘%@’ could not be processed. = "The action failed to run because the image attachment ‘%@’ could not be processed."
+ en.The action failed to run because the model took too long to respond. Please try again with a shorter request. = "The action failed to run because the model took too long to respond. Please try again with a shorter request."
+ en.The action failed to run because this device is not supported. = "The action failed to run because this device is not supported."
+
+```

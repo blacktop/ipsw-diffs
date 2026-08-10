@@ -1,0 +1,119 @@
+## sirittsd
+
+> `/System/Library/PrivateFrameworks/SiriTTSService.framework/sirittsd`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__bss`
+
+```diff
+
+-3600.113.1.0.0
+-  __TEXT.__text: 0x5ab8c
+-  __TEXT.__auth_stubs: 0x2eb0
++3600.123.2.11.3
++  __TEXT.__text: 0x5bd10
++  __TEXT.__auth_stubs: 0x2ee0
+   __TEXT.__objc_stubs: 0xde0
+   __TEXT.__objc_methlist: 0x650
+-  __TEXT.__const: 0x1220
+-  __TEXT.__swift5_typeref: 0xb5a
++  __TEXT.__const: 0x1230
++  __TEXT.__swift5_typeref: 0xb78
+   __TEXT.__cstring: 0x8a3
+-  __TEXT.__oslogstring: 0x21cd
++  __TEXT.__oslogstring: 0x225d
+   __TEXT.__swift5_entry: 0x8
+-  __TEXT.__swift5_capture: 0xaa0
+-  __TEXT.__objc_methtype: 0xa59
+-  __TEXT.__constg_swiftt: 0xe20
++  __TEXT.__swift5_capture: 0xa98
++  __TEXT.__objc_methtype: 0xa89
++  __TEXT.__constg_swiftt: 0xe18
+   __TEXT.__swift5_reflstr: 0x57e
+   __TEXT.__swift5_fieldmd: 0x6ac
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_types: 0x78
+   __TEXT.__objc_classname: 0x58b
+-  __TEXT.__objc_methname: 0x1797
++  __TEXT.__objc_methname: 0x17a7
+   __TEXT.__swift5_proto: 0x54
+   __TEXT.__swift5_assocty: 0x20
+   __TEXT.__swift5_protos: 0x20
+   __TEXT.__swift_as_entry: 0xec
+   __TEXT.__swift_as_ret: 0xd8
+   __TEXT.__swift_as_cont: 0x200
+-  __TEXT.__unwind_info: 0xeb8
++  __TEXT.__unwind_info: 0xee8
+   __TEXT.__eh_frame: 0x1ee8
+-  __DATA_CONST.__const: 0x1de8
++  __DATA_CONST.__const: 0x1dc0
+   __DATA_CONST.__objc_classlist: 0xa8
+   __DATA_CONST.__objc_protolist: 0x88
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x58
+-  __DATA_CONST.__auth_got: 0x1760
+-  __DATA_CONST.__got: 0x8f8
++  __DATA_CONST.__auth_got: 0x1778
++  __DATA_CONST.__got: 0x900
+   __DATA_CONST.__auth_ptr: 0x4f0
+   __DATA.__objc_const: 0x1910
+   __DATA.__objc_selrefs: 0x5a8
+   __DATA.__objc_data: 0x408
+-  __DATA.__data: 0x1b98
++  __DATA.__data: 0x1ba8
+   __DATA.__common: 0xa0
+   __DATA.__bss: 0x680
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   Functions: 1107
+-  Symbols:   1137
+-  CStrings:  575
++  Symbols:   1143
++  CStrings:  578
+ 
+Symbols:
++ _$s14SiriTTSService11BaseRequestC13onBehalfOfPIDs5Int32VvgTj
++ _$s14SiriTTSService11BaseRequestC13onBehalfOfPIDs5Int32VvsTj
++ _$s14SiriTTSService15FmDisableActionCAA10ActionableAAWP
++ _$s14SiriTTSService15FmDisableActionCACycfC
++ _$s14SiriTTSService15FmDisableActionCMa
++ _$s14SiriTTSService17ClientIdentifiersO19isAllowedForFmVoiceySbSSFZ
++ _$s14SiriTTSService8TTSErrorV0C4CodeO24fmSpeechGenerationFailedyA2EmFWC
++ _$s14SiriTTSService8TTSErrorV0C4CodeO9cancelledyA2EmFWC
++ _$s14SiriTTSService9LanguagesC017unsupportedOspreyC0ShySSGvgZ
++ _$s14SiriTTSService9LanguagesCMa
+- _$s14SiriTTSService11BaseRequestC13onBehalfOfPIDSivgTj
+- _$s14SiriTTSService11BaseRequestC13onBehalfOfPIDSivsTj
+- _$s14SiriTTSService19AFMModelVersionGateO13startObserveryyFZ
+- _$s14SiriTTSService29TTSAssetFMDetokenizerProviderC17subscribeIfNeeded10completionyys5Error_pSgcSg_tFTj
+CStrings:
++ "#sirittsd ReaderService paragraph preempted by another speech request — pausing"
++ "Language %{public}s is not supported to use Osprey"
++ "Prefer device synthesis for premium vocalizer"
++ "getSynthesisVoiceMatching:clientId:reply:"
++ "v40@0:8@\"SiriTTSSynthesisVoice\"16@\"NSString\"24@?<v@?@\"SiriTTSSynthesisVoice\"@\"NSError\">32"
++ "v40@0:8@16@24@?32"
+- "FMDetokenizer: postInstall subscription error: %@"
+- "getSynthesisVoiceMatching:reply:"
+- "v32@0:8@\"SiriTTSSynthesisVoice\"16@?<v@?@\"SiriTTSSynthesisVoice\"@\"NSError\">24"
+```

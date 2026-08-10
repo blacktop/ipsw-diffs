@@ -1,0 +1,134 @@
+## PeriodicSystemMetricsCore
+
+> `/System/Library/PrivateFrameworks/PeriodicSystemMetricsCore.framework/PeriodicSystemMetricsCore`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__gcc_except_tab`
+- `__TEXT.__unwind_info`
+
+```diff
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   Functions: 689
+-  Symbols:   1574
++  Symbols:   1573
+   CStrings:  572
+ 
+Symbols:
++ GCC_except_table10
++ GCC_except_table105
++ GCC_except_table108
++ GCC_except_table119
++ GCC_except_table127
++ GCC_except_table13
++ GCC_except_table14
++ GCC_except_table144
++ GCC_except_table145
++ GCC_except_table155
++ GCC_except_table156
++ GCC_except_table16
++ GCC_except_table163
++ GCC_except_table165
++ GCC_except_table172
++ GCC_except_table174
++ GCC_except_table180
++ GCC_except_table183
++ GCC_except_table191
++ GCC_except_table192
++ GCC_except_table199
++ GCC_except_table201
++ GCC_except_table210
++ GCC_except_table212
++ GCC_except_table217
++ GCC_except_table218
++ GCC_except_table227
++ GCC_except_table228
++ GCC_except_table238
++ GCC_except_table241
++ GCC_except_table246
++ GCC_except_table248
++ GCC_except_table255
++ GCC_except_table26
++ GCC_except_table267
++ GCC_except_table29
++ GCC_except_table30
++ GCC_except_table303
++ GCC_except_table33
++ GCC_except_table34
++ GCC_except_table36
++ GCC_except_table37
++ GCC_except_table43
++ GCC_except_table44
++ GCC_except_table47
++ GCC_except_table48
++ GCC_except_table53
++ GCC_except_table56
++ GCC_except_table57
++ GCC_except_table66
++ GCC_except_table69
++ GCC_except_table84
++ GCC_except_table87
++ GCC_except_table88
++ GCC_except_table94
++ GCC_except_table97
+- GCC_except_table103
+- GCC_except_table111
+- GCC_except_table133
+- GCC_except_table138
+- GCC_except_table140
+- GCC_except_table149
+- GCC_except_table150
+- GCC_except_table157
+- GCC_except_table160
+- GCC_except_table167
+- GCC_except_table168
+- GCC_except_table170
+- GCC_except_table171
+- GCC_except_table177
+- GCC_except_table178
+- GCC_except_table18
+- GCC_except_table184
+- GCC_except_table187
+- GCC_except_table188
+- GCC_except_table19
+- GCC_except_table195
+- GCC_except_table198
+- GCC_except_table205
+- GCC_except_table206
+- GCC_except_table209
+- GCC_except_table21
+- GCC_except_table215
+- GCC_except_table216
+- GCC_except_table22
+- GCC_except_table223
+- GCC_except_table225
+- GCC_except_table226
+- GCC_except_table233
+- GCC_except_table236
+- GCC_except_table240
+- GCC_except_table244
+- GCC_except_table247
+- GCC_except_table254
+- GCC_except_table257
+- GCC_except_table265
+- GCC_except_table273
+- GCC_except_table302
+- GCC_except_table31
+- GCC_except_table38
+- GCC_except_table39
+- GCC_except_table42
+- GCC_except_table45
+- GCC_except_table46
+- GCC_except_table63
+- GCC_except_table77
+- GCC_except_table79
+- GCC_except_table81
+- GCC_except_table82
+- GCC_except_table83
+- GCC_except_table86
+- GCC_except_table9
+- GCC_except_table96
+```

@@ -1,0 +1,317 @@
+## AudioSession
+
+> `/System/Library/PrivateFrameworks/AudioSession.framework/AudioSession`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH_CONST.__weak_auth_got`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_doubleobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_floatobj`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+- `__DATA_DIRTY.__objc_data`
+
+```diff
+
+-449.105.0.0.0
+-  __TEXT.__text: 0x4e010
++449.107.0.0.0
++  __TEXT.__text: 0x4f07c
+   __TEXT.__realtime: 0x178
+   __TEXT.__objc_methlist: 0x2364
+-  __TEXT.__gcc_except_tab: 0x8e70
+-  __TEXT.__cstring: 0x39df
+-  __TEXT.__const: 0x21f
++  __TEXT.__gcc_except_tab: 0x9010
++  __TEXT.__cstring: 0x3a4f
++  __TEXT.__const: 0x207
+   __TEXT.__oslogstring: 0x47f4
+-  __TEXT.__unwind_info: 0x2f08
++  __TEXT.__unwind_info: 0x2fa0
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__objc_superrefs: 0xd0
+   __DATA_CONST.__objc_arraydata: 0x8
+   __DATA_CONST.__got: 0xb70
+-  __AUTH_CONST.__const: 0x1be0
+-  __AUTH_CONST.__cfstring: 0x2480
++  __AUTH_CONST.__const: 0x1c98
++  __AUTH_CONST.__cfstring: 0x2280
+   __AUTH_CONST.__objc_const: 0x2b40
+   __AUTH_CONST.__weak_auth_got: 0x28
+   __AUTH_CONST.__objc_intobj: 0x180
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 1739
+-  Symbols:   3759
+-  CStrings:  750
++  Functions: 1761
++  Symbols:   3793
++  CStrings:  752
+ 
+Symbols:
++ GCC_except_table214
++ GCC_except_table225
++ GCC_except_table235
++ GCC_except_table243
++ GCC_except_table253
++ GCC_except_table255
++ GCC_except_table258
++ GCC_except_table273
++ GCC_except_table282
++ GCC_except_table283
++ GCC_except_table288
++ GCC_except_table289
++ GCC_except_table291
++ GCC_except_table294
++ GCC_except_table300
++ GCC_except_table303
++ GCC_except_table305
++ GCC_except_table313
++ GCC_except_table321
++ GCC_except_table327
++ GCC_except_table337
++ GCC_except_table339
++ GCC_except_table353
++ GCC_except_table367
++ GCC_except_table368
++ GCC_except_table369
++ GCC_except_table370
++ GCC_except_table371
++ GCC_except_table374
++ GCC_except_table375
++ GCC_except_table376
++ GCC_except_table377
++ GCC_except_table380
++ GCC_except_table390
++ GCC_except_table397
++ GCC_except_table400
++ GCC_except_table429
++ GCC_except_table430
++ GCC_except_table431
++ GCC_except_table438
++ GCC_except_table448
++ GCC_except_table500
++ GCC_except_table509
++ GCC_except_table510
++ GCC_except_table513
++ __ZN4avas6client11KVOPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionE13UpdateIfDirtyERKNSt3__18functionIFS3_vEEE
++ __ZN4avas6client11KVOPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionE13UpdateIfDirtyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEERKNS6_8functionIFS3_vEEE
++ __ZN4avas6client11KVOPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionE15UpdateAndNotifyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEERU8__strongKS3_b
++ __ZN4avas6client11KVOPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionE15UpdateAndNotifyERU8__strongKS3_b
++ __ZN4avas6client11KVOPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionEC2ERN5caulk4mach21unfair_recursive_lockEP14AVAudioSession15KVOPropertyTypeRU8__strongKS3_
++ __ZN4avas6client11KVOPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionED0Ev
++ __ZN4avas6client11KVOPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionED1Ev
++ __ZN4avas6client11KVOPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionED2Ev
++ __ZN4avas6client11KVOPropertyIU8__strongP7NSArrayEC2ERN5caulk4mach21unfair_recursive_lockEP14AVAudioSession15KVOPropertyTypeRU8__strongKS3_
++ __ZN4avas6client11KVOPropertyIdEC2ERN5caulk4mach21unfair_recursive_lockEP14AVAudioSession15KVOPropertyTypeRKd
++ __ZN4avas6client11KVOPropertyIfEC2ERN5caulk4mach21unfair_recursive_lockEP14AVAudioSession15KVOPropertyTypeRKf
++ __ZN4avas6client11KVOPropertyIjEC2ERN5caulk4mach21unfair_recursive_lockEP14AVAudioSession15KVOPropertyTypeRKj
++ __ZN4avas6client19KVONSObjectPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionED0Ev
++ __ZN4avas6client19KVONSObjectPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionED1Ev
++ __ZNK4avas6client11KVOPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionE14ValuesAreEqualERU8__strongKS3_S7_
++ __ZNK4avas6client11KVOPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionE7IsDirtyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEE
++ __ZNK4avas6client19KVONSObjectPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionE14ValuesAreEqualERU8__strongKS3_S7_
++ __ZNKSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_8FdvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_8FdvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ33-[AVAudioSession inputDataSource]E3$_6FP35AVAudioSessionDataSourceDescriptionvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ33-[AVAudioSession inputDataSource]E3$_6FP35AVAudioSessionDataSourceDescriptionvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_13FdvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_13FdvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_9FdvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_9FdvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_7FjvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_7FjvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_14FdvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_14FdvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_10FjvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_10FjvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_11FjvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_11FjvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_12FjvEE7__cloneEPNS0_6__baseIS3_EE
++ __ZNKSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_12FjvEE7__cloneEv
++ __ZNSt3__110__function12__value_funcIFP35AVAudioSessionDataSourceDescriptionvEED2B9fqe220106Ev
++ __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_8FdvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_8FdvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_8FdvEED0Ev
++ __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_8FdvEED1Ev
++ __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_8FdvEEclEv
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputDataSource]E3$_6FP35AVAudioSessionDataSourceDescriptionvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputDataSource]E3$_6FP35AVAudioSessionDataSourceDescriptionvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputDataSource]E3$_6FP35AVAudioSessionDataSourceDescriptionvEED0Ev
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputDataSource]E3$_6FP35AVAudioSessionDataSourceDescriptionvEED1Ev
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputDataSource]E3$_6FP35AVAudioSessionDataSourceDescriptionvEEclEv
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_13FdvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_13FdvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_13FdvEED0Ev
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_13FdvEED1Ev
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_13FdvEEclEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_9FdvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_9FdvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_9FdvEED0Ev
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_9FdvEED1Ev
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_9FdvEEclEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_7FjvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_7FjvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_7FjvEED0Ev
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_7FjvEED1Ev
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_7FjvEEclEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_14FdvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_14FdvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_14FdvEED0Ev
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_14FdvEED1Ev
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_14FdvEEclEv
++ __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_10FjvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_10FjvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_10FjvEED0Ev
++ __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_10FjvEED1Ev
++ __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_10FjvEEclEv
++ __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_11FjvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_11FjvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_11FjvEED0Ev
++ __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_11FjvEED1Ev
++ __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_11FjvEEclEv
++ __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_12FjvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_12FjvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_12FjvEED0Ev
++ __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_12FjvEED1Ev
++ __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_12FjvEEclEv
++ __ZTVN4avas6client11KVOPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionEE
++ __ZTVN4avas6client19KVONSObjectPropertyIU8__strongP35AVAudioSessionDataSourceDescriptionEE
++ __ZTVNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_8FdvEEE
++ __ZTVNSt3__110__function6__funcIZ33-[AVAudioSession inputDataSource]E3$_6FP35AVAudioSessionDataSourceDescriptionvEEE
++ __ZTVNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_13FdvEEE
++ __ZTVNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_9FdvEEE
++ __ZTVNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_7FjvEEE
++ __ZTVNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_14FdvEEE
++ __ZTVNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_10FjvEEE
++ __ZTVNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_11FjvEEE
++ __ZTVNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_12FjvEEE
++ ___block_descriptor_72_ea8_32s40s48s56c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE_e5_v8?0l
++ ___copy_helper_block_ea8_56c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE
++ ___destroy_helper_block_ea8_56c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE
+- GCC_except_table200
+- GCC_except_table216
+- GCC_except_table220
+- GCC_except_table228
+- GCC_except_table244
+- GCC_except_table254
+- GCC_except_table257
+- GCC_except_table259
+- GCC_except_table274
+- GCC_except_table290
+- GCC_except_table292
+- GCC_except_table296
+- GCC_except_table301
+- GCC_except_table304
+- GCC_except_table306
+- GCC_except_table316
+- GCC_except_table326
+- GCC_except_table334
+- GCC_except_table338
+- GCC_except_table340
+- GCC_except_table341
+- GCC_except_table350
+- GCC_except_table351
+- GCC_except_table355
+- GCC_except_table356
+- GCC_except_table357
+- GCC_except_table358
+- GCC_except_table359
+- GCC_except_table360
+- GCC_except_table362
+- GCC_except_table379
+- GCC_except_table389
+- GCC_except_table396
+- GCC_except_table398
+- GCC_except_table428
+- GCC_except_table437
+- GCC_except_table488
+- GCC_except_table489
+- GCC_except_table498
+- GCC_except_table502
+- __ZN4avas6client11KVOPropertyIU8__strongP7NSArrayEC2ERN5caulk4mach21unfair_recursive_lockEP14AVAudioSessionPK8NSStringRU8__strongKS3_
+- __ZNKSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7FdvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7FdvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12FdvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12FdvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8FdvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8FdvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6FjvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6FjvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13FdvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13FdvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9FjvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9FjvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10FjvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10FjvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11FjvEE7__cloneEPNS0_6__baseIS3_EE
+- __ZNKSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11FjvEE7__cloneEv
+- __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7FdvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7FdvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7FdvEED0Ev
+- __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7FdvEED1Ev
+- __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7FdvEEclEv
+- __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12FdvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12FdvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12FdvEED0Ev
+- __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12FdvEED1Ev
+- __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12FdvEEclEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8FdvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8FdvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8FdvEED0Ev
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8FdvEED1Ev
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8FdvEEclEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6FjvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6FjvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6FjvEED0Ev
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6FjvEED1Ev
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6FjvEEclEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13FdvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13FdvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13FdvEED0Ev
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13FdvEED1Ev
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13FdvEEclEv
+- __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9FjvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9FjvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9FjvEED0Ev
+- __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9FjvEED1Ev
+- __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9FjvEEclEv
+- __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10FjvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10FjvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10FjvEED0Ev
+- __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10FjvEED1Ev
+- __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10FjvEEclEv
+- __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11FjvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11FjvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11FjvEED0Ev
+- __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11FjvEED1Ev
+- __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11FjvEEclEv
+- __ZTVNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7FdvEEE
+- __ZTVNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12FdvEEE
+- __ZTVNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8FdvEEE
+- __ZTVNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6FjvEEE
+- __ZTVNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13FdvEEE
+- __ZTVNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9FjvEEE
+- __ZTVNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10FjvEEE
+- __ZTVNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11FjvEEE
+- ___block_descriptor_64_ea8_32s40s48c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE_e5_v8?0l
+CStrings:
++ "assertion failure: keyPath != nullptr. details: KVOProperty requires a single-property key path"
++ "inputDataSource"
+```

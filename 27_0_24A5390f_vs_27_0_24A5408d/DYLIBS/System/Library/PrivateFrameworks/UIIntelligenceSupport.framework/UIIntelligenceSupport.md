@@ -1,0 +1,163 @@
+## UIIntelligenceSupport
+
+> `/System/Library/PrivateFrameworks/UIIntelligenceSupport.framework/UIIntelligenceSupport`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+-9127.0.78.0.0
+-  __TEXT.__text: 0x1111b4
++9127.0.84.0.0
++  __TEXT.__text: 0x1164c0
+   __TEXT.__objc_methlist: 0x1bc
+-  __TEXT.__const: 0x185c6
+-  __TEXT.__swift5_typeref: 0x495e
+-  __TEXT.__swift5_reflstr: 0x2396
++  __TEXT.__const: 0x19056
++  __TEXT.__swift5_typeref: 0x4aee
++  __TEXT.__swift5_reflstr: 0x242b
+   __TEXT.__swift5_assocty: 0x588
+-  __TEXT.__constg_swiftt: 0x3740
+-  __TEXT.__swift5_fieldmd: 0x45e0
++  __TEXT.__constg_swiftt: 0x3898
++  __TEXT.__swift5_fieldmd: 0x47a0
+   __TEXT.__swift5_builtin: 0x118
+-  __TEXT.__swift5_proto: 0x1528
+-  __TEXT.__swift5_types: 0x610
+-  __TEXT.__cstring: 0x395f
+-  __TEXT.__swift5_capture: 0x288
+-  __TEXT.__swift_as_entry: 0x50
+-  __TEXT.__swift_as_ret: 0x38
+-  __TEXT.__swift_as_cont: 0x5c
+-  __TEXT.__oslogstring: 0xef3
++  __TEXT.__swift5_proto: 0x15cc
++  __TEXT.__swift5_types: 0x638
++  __TEXT.__cstring: 0x3a1f
++  __TEXT.__swift5_capture: 0x2b0
++  __TEXT.__swift_as_entry: 0x60
++  __TEXT.__swift_as_ret: 0x40
++  __TEXT.__swift_as_cont: 0x6c
++  __TEXT.__oslogstring: 0x1133
+   __TEXT.__swift5_protos: 0x2c
+   __TEXT.__swift5_mpenum: 0x15c
+-  __TEXT.__unwind_info: 0x48c0
+-  __TEXT.__eh_frame: 0x4b60
++  __TEXT.__unwind_info: 0x4b48
++  __TEXT.__eh_frame: 0x4f68
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+-  __DATA_CONST.__const: 0x8b0
++  __DATA_CONST.__const: 0x8c0
+   __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1c0
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0xb578
++  __AUTH_CONST.__const: 0xbb50
+   __AUTH_CONST.__objc_const: 0xdb8
+   __AUTH_CONST.__auth_got: 0x1240
+   __AUTH.__objc_data: 0x48
+   __AUTH.__data: 0x5e8
+-  __DATA.__data: 0x26c0
+-  __DATA.__bss: 0x1a970
++  __DATA.__data: 0x2840
++  __DATA.__bss: 0x1bdf0
+   __DATA_DIRTY.__objc_data: 0x1b8
+   __DATA_DIRTY.__data: 0x2d90
+   __DATA_DIRTY.__bss: 0xf580
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+-  Functions: 6988
+-  Symbols:   2367
+-  CStrings:  428
++  Functions: 7151
++  Symbols:   2414
++  CStrings:  440
+ 
+Symbols:
++ _associated conformance 21UIIntelligenceSupport15XPCAgentMessageO20AvailableExportTypesV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport15XPCAgentMessageO20AvailableExportTypesV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport15XPCAgentMessageO20AvailableExportTypesV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport15XPCAgentMessageO37RequestAvailableExportTypesCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport15XPCAgentMessageO37RequestAvailableExportTypesCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport15XPCAgentMessageO37RequestAvailableExportTypesCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport16XPCClientMessageO28AvailableExportTypesResponseV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport16XPCClientMessageO28AvailableExportTypesResponseV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport16XPCClientMessageO28AvailableExportTypesResponseV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport16XPCClientMessageO30AvailableExportTypesCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport16XPCClientMessageO30AvailableExportTypesCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport16XPCClientMessageO30AvailableExportTypesCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport20IntelligenceFragmentV13RemoteContextV0F14MenuInvocationV10CodingKeys33_D9A0AB141A627035E63D6B39BD40510DLLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport20IntelligenceFragmentV13RemoteContextV0F14MenuInvocationV10CodingKeys33_D9A0AB141A627035E63D6B39BD40510DLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport20IntelligenceFragmentV13RemoteContextV0F14MenuInvocationV10CodingKeys33_D9A0AB141A627035E63D6B39BD40510DLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport20IntelligenceFragmentV13RemoteContextV0F14MenuInvocationVSHAASQ
++ _associated conformance 21UIIntelligenceSupport43IntelligenceExportableAvailableTypesRequestV10CodingKeys33_F496D88FE7131E64EE2504ECA87DF2BDLLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport43IntelligenceExportableAvailableTypesRequestV10CodingKeys33_F496D88FE7131E64EE2504ECA87DF2BDLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport43IntelligenceExportableAvailableTypesRequestV10CodingKeys33_F496D88FE7131E64EE2504ECA87DF2BDLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _symbolic Say_____GSg 22UniformTypeIdentifiers6UTTypeV
++ _symbolic _____ 21UIIntelligenceSupport15XPCAgentMessageO20AvailableExportTypesV
++ _symbolic _____ 21UIIntelligenceSupport15XPCAgentMessageO20AvailableExportTypesV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____ 21UIIntelligenceSupport15XPCAgentMessageO37RequestAvailableExportTypesCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____ 21UIIntelligenceSupport16XPCClientMessageO28AvailableExportTypesResponseV
++ _symbolic _____ 21UIIntelligenceSupport16XPCClientMessageO28AvailableExportTypesResponseV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____ 21UIIntelligenceSupport16XPCClientMessageO30AvailableExportTypesCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____ 21UIIntelligenceSupport20IntelligenceFragmentV13RemoteContextV0F14MenuInvocationV
++ _symbolic _____ 21UIIntelligenceSupport20IntelligenceFragmentV13RemoteContextV0F14MenuInvocationV10CodingKeys33_D9A0AB141A627035E63D6B39BD40510DLLO
++ _symbolic _____ 21UIIntelligenceSupport43IntelligenceExportableAvailableTypesRequestV
++ _symbolic _____ 21UIIntelligenceSupport43IntelligenceExportableAvailableTypesRequestV10CodingKeys33_F496D88FE7131E64EE2504ECA87DF2BDLLO
++ _symbolic _____Sg 21UIIntelligenceSupport20IntelligenceFragmentV13RemoteContextV0F14MenuInvocationV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport15XPCAgentMessageO20AvailableExportTypesV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport15XPCAgentMessageO37RequestAvailableExportTypesCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport16XPCClientMessageO28AvailableExportTypesResponseV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport16XPCClientMessageO30AvailableExportTypesCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport20IntelligenceFragmentV13RemoteContextV0I14MenuInvocationV10CodingKeys33_D9A0AB141A627035E63D6B39BD40510DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport43IntelligenceExportableAvailableTypesRequestV10CodingKeys33_F496D88FE7131E64EE2504ECA87DF2BDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport15XPCAgentMessageO20AvailableExportTypesV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport15XPCAgentMessageO37RequestAvailableExportTypesCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport16XPCClientMessageO28AvailableExportTypesResponseV10CodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport16XPCClientMessageO30AvailableExportTypesCodingKeys33_E08D440F40FCBB4D34092AACB2EB5311LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport20IntelligenceFragmentV13RemoteContextV0I14MenuInvocationV10CodingKeys33_D9A0AB141A627035E63D6B39BD40510DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport43IntelligenceExportableAvailableTypesRequestV10CodingKeys33_F496D88FE7131E64EE2504ECA87DF2BDLLO
++ _type_layout_string 21UIIntelligenceSupport15XPCAgentMessageO20AvailableExportTypesV
++ _type_layout_string 21UIIntelligenceSupport16XPCClientMessageO28AvailableExportTypesResponseV
++ _type_layout_string 21UIIntelligenceSupport20IntelligenceFragmentV13RemoteContextV0F14MenuInvocationV
++ _type_layout_string 21UIIntelligenceSupport43IntelligenceExportableAvailableTypesRequestV
++ _type_layout_string So6CGSizeV
+- _type_layout_string So7CGPointV
+CStrings:
++ "Available export types are undeterminable for %{public}s; a full export is required"
++ "Error while querying available export types for request %{public}s: %s"
++ "IntelligenceExportableAvailableTypesRequest(requestID: "
++ "No exportable data handler registered for available-export-types request %{public}s"
++ "No primary connection available to send available export types response"
++ "ReceiveAvailableExportTypes"
++ "Reporting %{public}ld available export type(s) for %{public}s"
++ "availableExportTypes"
++ "contextMenuInvocation"
++ "error sending available export types XPC message: %{public}s; underlying error: %{public}s"
++ "missing client session inside sendAvailableExportTypes"
++ "requestAvailableExportTypes"
+```

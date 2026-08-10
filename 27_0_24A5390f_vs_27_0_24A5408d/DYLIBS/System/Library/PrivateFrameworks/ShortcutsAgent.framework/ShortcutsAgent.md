@@ -1,0 +1,241 @@
+## ShortcutsAgent
+
+> `/System/Library/PrivateFrameworks/ShortcutsAgent.framework/ShortcutsAgent`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__swift5_protos`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__DATA_DIRTY.__objc_data`
+- `__DATA_DIRTY.__data`
+
+```diff
+
+-5034.0.12.100.0
+-  __TEXT.__text: 0xa7184
++5037.103.100.0.0
++  __TEXT.__text: 0xa8b00
+   __TEXT.__objc_methlist: 0x320
+-  __TEXT.__const: 0xc120
+-  __TEXT.__cstring: 0x2098
+-  __TEXT.__swift5_typeref: 0x351a
+-  __TEXT.__constg_swiftt: 0x2920
+-  __TEXT.__swift5_reflstr: 0x18b7
+-  __TEXT.__swift5_fieldmd: 0x27c0
++  __TEXT.__const: 0xc3d0
++  __TEXT.__cstring: 0x2268
++  __TEXT.__swift5_typeref: 0x3556
++  __TEXT.__constg_swiftt: 0x292c
++  __TEXT.__swift5_reflstr: 0x19b7
++  __TEXT.__swift5_fieldmd: 0x2878
+   __TEXT.__swift5_builtin: 0x140
+   __TEXT.__swift5_proto: 0x9e0
+-  __TEXT.__swift5_types: 0x348
++  __TEXT.__swift5_types: 0x34c
+   __TEXT.__swift5_assocty: 0x608
+   __TEXT.__swift5_mpenum: 0xa4
+-  __TEXT.__swift5_capture: 0x68c
+-  __TEXT.__oslogstring: 0xd36
++  __TEXT.__swift5_capture: 0x6e8
++  __TEXT.__oslogstring: 0xdd6
+   __TEXT.__swift5_protos: 0x30
+-  __TEXT.__swift_as_entry: 0x138
+-  __TEXT.__swift_as_ret: 0x180
+-  __TEXT.__swift_as_cont: 0x2b8
+-  __TEXT.__unwind_info: 0x3618
+-  __TEXT.__eh_frame: 0x6504
++  __TEXT.__swift_as_entry: 0x140
++  __TEXT.__swift_as_ret: 0x184
++  __TEXT.__swift_as_cont: 0x2c0
++  __TEXT.__unwind_info: 0x3670
++  __TEXT.__eh_frame: 0x6694
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+   __TEXT.__objc_methname: 0x0
+   __TEXT.__objc_methtype: 0x0
+   __DATA_CONST.__const: 0x218
+-  __DATA_CONST.__objc_classlist: 0x68
++  __DATA_CONST.__objc_classlist: 0x70
+   __DATA_CONST.__objc_protolist: 0x90
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x448
++  __DATA_CONST.__objc_selrefs: 0x468
+   __DATA_CONST.__objc_protorefs: 0x48
+   __DATA_CONST.__objc_arraydata: 0x28
+   __DATA_CONST.__got: 0x0
+-  __AUTH_CONST.__const: 0x70a0
++  __AUTH_CONST.__const: 0x7438
+   __AUTH_CONST.__cfstring: 0x120
+-  __AUTH_CONST.__objc_const: 0xf30
++  __AUTH_CONST.__objc_const: 0x1040
+   __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH_CONST.__auth_got: 0x17e8
+-  __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x15b0
+-  __DATA.__data: 0x2ee8
++  __AUTH_CONST.__auth_got: 0x17f0
++  __AUTH.__objc_data: 0xa0
++  __AUTH.__data: 0x13e0
++  __DATA.__data: 0x2ed0
+   __DATA.__bss: 0x12ec0
+   __DATA_DIRTY.__objc_data: 0x140
+   __DATA_DIRTY.__data: 0x898
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 5423
+-  Symbols:   1989
+-  CStrings:  253
++  Functions: 5461
++  Symbols:   2012
++  CStrings:  262
+ 
+Symbols:
++ _NSStringFromClass
++ _OBJC_CLASS_$_WFAccessResource
++ __DATA__TtC14ShortcutsAgent12AgentToolbox
++ __IVARS__TtC14ShortcutsAgent12AgentToolbox
++ __METACLASS_DATA__TtC14ShortcutsAgent12AgentToolbox
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_exist.box.addr_destructor.16Tm
++ ___swift_exist.box.addr_destructor.25Tm
++ ___swift_memcpy112_8
++ ___swift_memcpy152_8
++ ___swift_memcpy73_8
++ ___swift_memcpy89_8
++ _associated conformance 14ShortcutsAgent0B7ToolboxC6ResultV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOSHAASQ
++ _associated conformance 14ShortcutsAgent0B7ToolboxC6ResultV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 14ShortcutsAgent0B7ToolboxC6ResultV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14ShortcutsAgent0B7ToolboxC6ResultV10ToolRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOSHAASQ
++ _associated conformance 14ShortcutsAgent0B7ToolboxC6ResultV10ToolRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14ShortcutsAgent0B7ToolboxC6ResultV10ToolRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14ShortcutsAgent0B7ToolboxC6ResultV10TypeRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOSHAASQ
++ _associated conformance 14ShortcutsAgent0B7ToolboxC6ResultV10TypeRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14ShortcutsAgent0B7ToolboxC6ResultV10TypeRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14ShortcutsAgent0B7ToolboxC6ResultV7BuiltInV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOSHAASQ
++ _associated conformance 14ShortcutsAgent0B7ToolboxC6ResultV7BuiltInV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14ShortcutsAgent0B7ToolboxC6ResultV7BuiltInV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _get_enum_tag_for_layout_string 14ShortcutsAgent0B7ToolboxC6ResultVSg
++ _objc_msgSend$accessResources
++ _objc_msgSend$getContentDestinationWithCompletionHandler:
++ _objc_msgSend$resourceManager
++ _objc_msgSend$setLocale:
++ _objc_msgSend$status
++ _symbolic SDySSSDySS_____GG 14ShortcutsAgent0B7ToolboxC6ResultV
++ _symbolic SDySS_____G 14ShortcutsAgent0B7ToolboxC6ResultV
++ _symbolic SDySS_____G 14ShortcutsAgent0B7ToolboxC6ResultV10ToolRenderV
++ _symbolic SS3key______5valuet 14ShortcutsAgent0B7ToolboxC6ResultV10ToolRenderV
++ _symbolic Say_____G 14ShortcutsAgent0B7ToolboxC6ResultV10TypeRenderV
++ _symbolic Say_____G 14ShortcutsAgent0B7ToolboxC6ResultV7BuiltInV
++ _symbolic ScCyyt_____G s5NeverO
++ _symbolic SccySo17WFContentLocationCSg______pG s5ErrorP
++ _symbolic So16WFAccessResourceC_yyc8callbackt
++ _symbolic _____ 14ShortcutsAgent0B7ToolboxC
++ _symbolic _____ 14ShortcutsAgent0B7ToolboxC6ResultV
++ _symbolic _____ 14ShortcutsAgent0B7ToolboxC6ResultV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
++ _symbolic _____ 14ShortcutsAgent0B7ToolboxC6ResultV10ToolRenderV
++ _symbolic _____ 14ShortcutsAgent0B7ToolboxC6ResultV10ToolRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
++ _symbolic _____ 14ShortcutsAgent0B7ToolboxC6ResultV10TypeRenderV
++ _symbolic _____ 14ShortcutsAgent0B7ToolboxC6ResultV10TypeRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
++ _symbolic _____ 14ShortcutsAgent0B7ToolboxC6ResultV7BuiltInV
++ _symbolic _____ 14ShortcutsAgent0B7ToolboxC6ResultV7BuiltInV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
++ _symbolic _____ 14ShortcutsAgent26RenderedDefinitionRegistryV
++ _symbolic _____Sg 14ShortcutsAgent0B7ToolboxC6ResultV
++ _symbolic _____ySS3key______5valuetG s23_ContiguousArrayStorageC 14ShortcutsAgent0E7ToolboxC6ResultV10ToolRenderV
++ _symbolic _____ySS_SDySS_____GtG s23_ContiguousArrayStorageC 14ShortcutsAgent0E7ToolboxC6ResultV
++ _symbolic _____ySS_____G s17_NativeDictionaryV 14ShortcutsAgent0D7ToolboxC6ResultV10ToolRenderV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 14ShortcutsAgent0D7ToolboxC6ResultV10ToolRenderV
++ _symbolic _____ySS______pG s18_DictionaryStorageC 16FoundationModels29ConvertibleToGeneratedContentP
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 14ShortcutsAgent0E7ToolboxC6ResultV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14ShortcutsAgent0E7ToolboxC6ResultV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14ShortcutsAgent0E7ToolboxC6ResultV10ToolRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14ShortcutsAgent0E7ToolboxC6ResultV10TypeRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14ShortcutsAgent0E7ToolboxC6ResultV7BuiltInV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14ShortcutsAgent0E7ToolboxC6ResultV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14ShortcutsAgent0E7ToolboxC6ResultV10ToolRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14ShortcutsAgent0E7ToolboxC6ResultV10TypeRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14ShortcutsAgent0E7ToolboxC6ResultV7BuiltInV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14ShortcutsAgent0E7ToolboxC6ResultV10TypeRenderV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14ShortcutsAgent0E7ToolboxC6ResultV7BuiltInV
++ _type_layout_string 14ShortcutsAgent013ToolRetrievalC0V
++ _type_layout_string 14ShortcutsAgent017DescribeAShortcutB0V
++ _type_layout_string 14ShortcutsAgent017SummarizeShortcutB0V
++ _type_layout_string 14ShortcutsAgent0B7ToolboxC6ResultV
++ _type_layout_string 14ShortcutsAgent0B7ToolboxC6ResultV10ToolRenderV
++ _type_layout_string 14ShortcutsAgent0B7ToolboxC6ResultV10TypeRenderV
++ _type_layout_string 14ShortcutsAgent20TriggerRetrievalToolV
++ _type_layout_string 14ShortcutsAgent26RenderedDefinitionRegistryV
+- ___swift_exist.box.addr_destructor.10Tm
+- _associated conformance 14ShortcutsAgent0B7ToolboxV6ResultV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOSHAASQ
+- _associated conformance 14ShortcutsAgent0B7ToolboxV6ResultV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 14ShortcutsAgent0B7ToolboxV6ResultV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 14ShortcutsAgent0B7ToolboxV6ResultV10ToolRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOSHAASQ
+- _associated conformance 14ShortcutsAgent0B7ToolboxV6ResultV10ToolRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 14ShortcutsAgent0B7ToolboxV6ResultV10ToolRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 14ShortcutsAgent0B7ToolboxV6ResultV10TypeRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOSHAASQ
+- _associated conformance 14ShortcutsAgent0B7ToolboxV6ResultV10TypeRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 14ShortcutsAgent0B7ToolboxV6ResultV10TypeRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 14ShortcutsAgent0B7ToolboxV6ResultV7BuiltInV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOSHAASQ
+- _associated conformance 14ShortcutsAgent0B7ToolboxV6ResultV7BuiltInV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 14ShortcutsAgent0B7ToolboxV6ResultV7BuiltInV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _get_enum_tag_for_layout_string 14ShortcutsAgent0B7ToolboxV6ResultVSg
+- _objc_msgSend$contentDestinationWithError:
+- _symbolic SDySSSDySS_____GG 14ShortcutsAgent0B7ToolboxV6ResultV
+- _symbolic SDySSSo28WFParameterStateCatalogEntryCG
+- _symbolic SDySS_____G 14ShortcutsAgent0B7ToolboxV6ResultV
+- _symbolic SDySS_____G 14ShortcutsAgent0B7ToolboxV6ResultV10ToolRenderV
+- _symbolic SS3key______5valuet 14ShortcutsAgent0B7ToolboxV6ResultV10ToolRenderV
+- _symbolic Say_____G 14ShortcutsAgent0B7ToolboxV6ResultV10TypeRenderV
+- _symbolic Say_____G 14ShortcutsAgent0B7ToolboxV6ResultV7BuiltInV
+- _symbolic Se_SESQp
+- _symbolic _____ 14ShortcutsAgent0B7ToolboxV
+- _symbolic _____ 14ShortcutsAgent0B7ToolboxV6ResultV
+- _symbolic _____ 14ShortcutsAgent0B7ToolboxV6ResultV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
+- _symbolic _____ 14ShortcutsAgent0B7ToolboxV6ResultV10ToolRenderV
+- _symbolic _____ 14ShortcutsAgent0B7ToolboxV6ResultV10ToolRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
+- _symbolic _____ 14ShortcutsAgent0B7ToolboxV6ResultV10TypeRenderV
+- _symbolic _____ 14ShortcutsAgent0B7ToolboxV6ResultV10TypeRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
+- _symbolic _____ 14ShortcutsAgent0B7ToolboxV6ResultV7BuiltInV
+- _symbolic _____ 14ShortcutsAgent0B7ToolboxV6ResultV7BuiltInV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
+- _symbolic _____Sg 14ShortcutsAgent0B7ToolboxV6ResultV
+- _symbolic _____ySS3key______5valuetG s23_ContiguousArrayStorageC 14ShortcutsAgent0E7ToolboxV6ResultV10ToolRenderV
+- _symbolic _____ySSSe_SESQpG s18_DictionaryStorageC
+- _symbolic _____ySS_SDySS_____GtG s23_ContiguousArrayStorageC 14ShortcutsAgent0E7ToolboxV6ResultV
+- _symbolic _____ySS_____G s17_NativeDictionaryV 14ShortcutsAgent0D7ToolboxV6ResultV10ToolRenderV
+- _symbolic _____ySS______tG s23_ContiguousArrayStorageC 14ShortcutsAgent0E7ToolboxV6ResultV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 14ShortcutsAgent0E7ToolboxV6ResultV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 14ShortcutsAgent0E7ToolboxV6ResultV10ToolRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 14ShortcutsAgent0E7ToolboxV6ResultV10TypeRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 14ShortcutsAgent0E7ToolboxV6ResultV7BuiltInV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 14ShortcutsAgent0E7ToolboxV6ResultV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 14ShortcutsAgent0E7ToolboxV6ResultV10ToolRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 14ShortcutsAgent0E7ToolboxV6ResultV10TypeRenderV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 14ShortcutsAgent0E7ToolboxV6ResultV7BuiltInV10CodingKeys33_AF4227C4831C1248A1D3CFEDEFE64858LLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 14ShortcutsAgent0E7ToolboxV6ResultV10TypeRenderV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 14ShortcutsAgent0E7ToolboxV6ResultV7BuiltInV
+- _type_layout_string 14ShortcutsAgent0B7ToolboxV6ResultV
+- _type_layout_string 14ShortcutsAgent0B7ToolboxV6ResultV10ToolRenderV
+- _type_layout_string 14ShortcutsAgent0B7ToolboxV6ResultV10TypeRenderV
+CStrings:
++ " action(s) matching this query were already retrieved earlier in this conversation and remain available for use in your code."
++ " automation(s) matching this query were already retrieved earlier in this conversation and remain available for use in your code."
++ ", shouldShowStepByStep: "
++ "All %ld action(s) matching this query were already retrieved earlier in this conversation"
++ "Showing short summary because the model says so"
++ "presentPermissionsPrompt"
++ "presentPermissionsPromptsIfNeeded(for:agentEventStream:)"
++ "skippedActionsCount"
++ "skippedAutomationsCount"
+```

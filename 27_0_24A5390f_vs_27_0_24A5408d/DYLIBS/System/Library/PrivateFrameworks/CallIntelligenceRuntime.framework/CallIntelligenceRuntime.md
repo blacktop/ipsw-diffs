@@ -1,0 +1,48 @@
+## CallIntelligenceRuntime
+
+> `/System/Library/PrivateFrameworks/CallIntelligenceRuntime.framework/CallIntelligenceRuntime`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift_as_cont`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__got`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__AUTH.__data`
+- `__DATA.__data`
+
+```diff
+
+-147.100.5.2.1
++153.100.1.2.7
+   __TEXT.__text: 0x77c98
+   __TEXT.__objc_methlist: 0x42c
+   __TEXT.__const: 0x4d74
+
+   __TEXT.__swift5_proto: 0x29c
+   __TEXT.__swift5_types: 0x1a0
+   __TEXT.__swift5_protos: 0x40
+-  __TEXT.__cstring: 0x1e91
++  __TEXT.__cstring: 0x20e1
+   __TEXT.__oslogstring: 0x2d33
+   __TEXT.__swift5_capture: 0x604
+   __TEXT.__swift_as_entry: 0x198
+CStrings:
++ "Text field represents spoken utterance during a phone call. The text might contain information on the expected wait time for the caller or the caller's position in the queue. Your task is to extract this information. Utterance may mention queue position, wait time, or neither.\nOnly report a wait time or queue position when it describes how long the caller must wait on hold to reach a person or have their call answered. Ignore durations that describe how long a survey, form, task, offer, or other activity takes to complete; these are not hold times.\nOutput must be a JSON with 5 fields:\nisWaitTimeAvailable: This is a boolean flag to indicate if utterance mentions wait time in minutes\nisQueuePositionAvailable: This is a boolean flag to indicate if utterance mentions queue position or number of callers\nwaitTimeLowerBound: The estimated wait time in minutes\nwaitTimeUpperBound: If the utterance gives a time range, then populate this field with the upper bound in minutes. Otherwise populate field as None\nqueuePosition: The caller's position in line: the number of callers ahead of the caller, or the number of callers waiting in the queue\nAnalyze each text independently.\n\nText: \"Your estimated wait time is five minutes.\"\nAnswer: { isWaitTimeAvailable: True, isQueuePositionAvailable: False, waitTimeLowerBound: 5, waitTimeUpperBound: None, queuePosition: None }\n\nText: \"Current wait time is 10 minutes.\"\nAnswer: { isWaitTimeAvailable: True, isQueuePositionAvailable: False, waitTimeLowerBound: 10, waitTimeUpperBound: None, queuePosition: None }\n\nText: \"Updated call wait time is 2 minutes.\"\nAnswer: { isWaitTimeAvailable: True, isQueuePositionAvailable: False, waitTimeLowerBound: 2, waitTimeUpperBound: None, queuePosition: None }\n\nText: \"There are 6 customers in the queue.\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: True, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: 6 }\n\nText: \"There are 2 callers ahead of you.\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: True, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: 2 }\n\nText: \"Your expected hold time is between 24 minutes to 30 minutes.\"\nAnswer: { isWaitTimeAvailable: True, isQueuePositionAvailable: False, waitTimeLowerBound: 24, waitTimeUpperBound: 30, queuePosition: None }\n\nText: \"We will answer your call in a few minutes.\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None }\n\nText: \"To hold your place in the queue and receive a callback from the next available specialist, please press 9.\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None }\n\nText: \"The survey should only take two or three minutes.\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None }\n\nText: \"You can answer a few questions and get a personalized plan in less than 5 minutes.\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None }"
+- "Text field represents spoken utterance during a phone call. The text might contain information on the expected wait time for the caller or the callers position in the queue. Your task is to extract this information. Utterance may mention queue position, wait time, or neither.\nOutput must be a JSON with 5 fields:\nisWaitTimeAvailable: This is a boolean flag to indicate if utterance mentions wait time in minutes\nisQueuePositionAvailable: This is a boolean flag to indicate if utterance mentions queue position or number of callers\nwaitTimeLowerBound: The estimated wait time in minutes\nwaitTimeUpperBound: If the utterance gives a time range, then populate this field with the upper bound in minutes. Otherwise populate field as None\nqueuePosition: The number of callers in the queue at the moment\nAnalyze each text independently.\n\nText: \"Your estimated wait time is five minutes.\"\nAnswer: { isWaitTimeAvailable: True, isQueuePositionAvailable: False, waitTimeLowerBound: 5, waitTimeUpperBound: None, queuePosition: None}\n\nText: \"Current wait time is 10 minutes.\"\nAnswer: { isWaitTimeAvailable: True, isQueuePositionAvailable: False, waitTimeLowerBound: 10, waitTimeUpperBound: None, queuePosition: None}\n\nText: \"Updated call wait time is 2 minutes.\"\nAnswer: { isWaitTimeAvailable: True, isQueuePositionAvailable: False, waitTimeLowerBound: 2, waitTimeUpperBound: None, queuePosition: None}\n\nText: \"There are 6 customers in the queue\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: True, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: 6}\n\nText: \"There are 2 callers ahead of you.\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: True, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: 2}\n\nText: \"Your expected hold time is between 24 minutes to 30 minutes.\"\nAnswer: { isWaitTimeAvailable: True, isQueuePositionAvailable: False, waitTimeLowerBound: 24, waitTimeUpperBound: 30, queuePosition: None}\n\nText: \"We will answer your call in a few minutes.\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None}\n\nText: \"To hold your place in the queue and receive a callback from the next available specialist, please press 9.\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None}\n\nText: \"The survey should only take two or three minutes;\"\nAnswer: { isWaitTimeAvailable: False, isQueuePositionAvailable: False, waitTimeLowerBound: None, waitTimeUpperBound: None, queuePosition: None}"
+```

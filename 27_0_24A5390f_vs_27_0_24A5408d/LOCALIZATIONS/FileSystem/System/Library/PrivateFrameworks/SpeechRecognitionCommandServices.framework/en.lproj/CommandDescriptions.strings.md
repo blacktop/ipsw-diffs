@@ -1,0 +1,72 @@
+## SpeechRecognitionCommandServices
+
+> `FileSystem/System/Library/PrivateFrameworks/SpeechRecognitionCommandServices.framework/en.lproj/CommandDescriptions.strings`
+
+```diff
+
+ CommonSection.AvailabilityRequiresTextArea_DESC = "A text area must be active to use this command."
+ CommonSection.AvailabilityRequiresVoiceOver_DESC = "VoiceOver must be enabled to use this command."
+ CommonSection.AvailabilityRequiresZoom_DESC = "The Zoom feature must be enabled to use this command."
+-CommonSection.TextDisambigution_DESC = "When multiple matches are found in the visible text, a number is shown by each match so you can specify which one to select. If you don't want to choose a number, say any other command to continue."
++CommonSection.TextDisambigution_DESC = "When multiple matches are found in the visible text, a number is shown by each match so you can specify which one to select. If you don’t want to choose a number, say any other command to continue."
+ CommonSection.TipsForUsingSpaces_DESC = "To move to a specific space or move windows between spaces, start by opening Mission Control using the “{System.SwitchToApplication}” command.\nTo switch to a specific space, say the number next to the space.\nTo move a window to a specific space, say “{System.OverlayDragFromLabelToLabel}” using the window as the first number and the space as the second number.\nTo delete a space, say “{System.ShowGrid}” then say numbers to position the grid to click the “X” next to the space to be deleted."
+ Dictation.AllCapsDashCase_DESC = "Uppercase dash case combines words by making all words uppercase, separated by dashes.\nExample: “number of nodes” becomes “NUMBER-OF-NODES”"
+ Dictation.AllCapsDashCase_SUMM = "Insert an uppercase dash case programming symbol."
+
+ System.ApplicationShowNext_SUMM = "Move focus to next app."
+ System.ApplicationShowPrevious_SUMM = "Move focus to previous app."
+ System.ApplicationShowWindows_DESC = "To choose a window or recent document, say the number next to the item. To exit without choosing an item, use the “{System.PressKeyWithOptionalModifierAndCount_OSX}” command to press the Escape key."
+-System.ApplicationShowWindows_SUMM = "Show all the app's windows."
++System.ApplicationShowWindows_SUMM = "Show all the app’s windows."
+ System.ArmApplePay_SUMM = "Show your Apple Pay cards or passes."
+ System.CancelGesture_SUMM = "Cancel performing multistep gesture."
+ System.ChooseMenuBarItem_SUMM = "Open a menu by name from the menu bar."
+
+ System.OpenAccessibilityReader_SUMM = "Open Accessibility Reader."
+ System.OpenCommandAndControlPreferences_SUMM = "Open System Settings and show Voice Control settings."
+ System.OpenDocument_SUMM = "Open a document."
++System.OpenSiriAIApplication_SUMM = "Open the dedicated Siri app."
+ System.OverlayChooseAllLabels_DESC = "Use this command after saying specific text editing commands, such as: “{Text.CapitalizePhrase}”, “{Text.FormatBoldPhrase}”, “{Text.ChangePhrase}”, and “{Text.DeletePhrase}”."
+ System.OverlayChooseAllLabels_SUMM = "Perform the previous command on all the numbered words or phrases in a text area when multiple matches were found."
+ System.OverlayChooseLabelWithoutPrefix_DESC = "This command is the same as saying “{System.OverlayPressLabel}” when the number is associated with a numbered item or the numbered grid is at maximum resolution. If this command is unintentionally recognizing numbered items or grid sections, disable it and use “{System.OverlayChooseLabel}” instead.\n{CommonSection.AvailabilityRequiresNumbersOrGridOverlay}"
+
+ System.PressCameraButton_SUMM = "Click the Camera Control."
+ System.PressItemWithoutPrefix_DESC = "If this command is unintentionally recognizing item names, disable it and use “{System.PressItem}” instead."
+ System.PressItemWithoutPrefix_SUMM = "Press an item by saying only its name."
+-System.PressItem_DESC = "If multiple items have the same name, say the number next to the item you want to use. If you don't want to choose a number, say any other command to continue."
++System.PressItem_DESC = "If multiple items have the same name, say the number next to the item you want to use. If you don’t want to choose a number, say any other command to continue."
+ System.PressItem_SUMM = "Press a screen item using its name."
+ System.PressKeyWithOptionalModifierAndCount_DESC = "{CommonSection.AvailabilityRequiresEditableTextArea}"
+ System.PressKeyWithOptionalModifierAndCount_SUMM = "Press a single key, with or without modifier keys."
+
+ System.StartDictationMode_SUMM = "Switch back to Dictation mode."
+ System.StartDragAtItem_DESC = "Say “{System.OverlayEndDragAtLabel}” or “{System.EndDragAtItem}” to finish dragging."
+ System.StartDragAtItem_SUMM = "Start dragging at an item using its name."
+-System.StartRecordingCommands_DESC = "While recording, say a sequence of commands. To stop recording, say “{System.StopRecordingCommands}”. Once recording stops, you'll be prompted to name and save your new command.\nA recorded command is played back as quickly as possible, ignoring any pauses during the recording process. If during playback a recorded command cannot be completed, playback will be stopped and an error alert will be presented."
++System.StartRecordingCommands_DESC = "While recording, say a sequence of commands. To stop recording, say “{System.StopRecordingCommands}”. Once recording stops, you’ll be prompted to name and save your new command.\nA recorded command is played back as quickly as possible, ignoring any pauses during the recording process. If during playback a recorded command cannot be completed, playback will be stopped and an error alert will be presented."
+ System.StartRecordingCommands_SUMM = "Create a custom command that plays back a number of recorded commands."
+-System.StartRecordingGesture_DESC = "While recording, say commands that generate gestures or touch the screen to generate gestures. To stop recording, say “{System.StopRecordingGesture}”. Once recording stops, you'll be prompted to name and save your new command."
++System.StartRecordingGesture_DESC = "While recording, say commands that generate gestures or touch the screen to generate gestures. To stop recording, say “{System.StopRecordingGesture}”. Once recording stops, you’ll be prompted to name and save your new command."
+ System.StartRecordingGesture_SUMM = "Create a custom command that plays back a number of recorded gestures."
+ System.StartSearch_DESC = "If the frontmost app can’t be searched, Spotlight opens and searches for the phrase."
+ System.StartSearch_SUMM = "Search for the specified phrase in the frontmost app."
+
+ System.WakeListeningIdiom_SUMM = "Restore listening for all commands and dictation."
+ System.WakeListening_DESC = "Alternatively, choose {System.WakeListening} from the Voice Control status menu."
+ System.WakeListening_SUMM = "Restore listening for all commands and dictation."
+-System.WindowEnterFullScreen_DESC = "To stop using the window in full-screen mode, say “{System.WindowExitFullScreen}”. To show the menu bar if it isn't visible, say “{System.MenuBarShow}”."
++System.WindowEnterFullScreen_DESC = "To stop using the window in full-screen mode, say “{System.WindowExitFullScreen}”. To show the menu bar if it isn’t visible, say “{System.MenuBarShow}”."
+ System.WindowEnterFullScreen_SUMM = "Start using the frontmost window in full-screen mode."
+ System.WindowExitFullScreen_SUMM = "Stop using the window in full-screen mode."
+-System.WindowShowFullScreenMenu_DESC = "This command does nothing if the window doesn't support full-screen mode."
++System.WindowShowFullScreenMenu_DESC = "This command does nothing if the window doesn’t support full-screen mode."
+ System.WindowShowFullScreenMenu_SUMM = "Show the full screen menu for the frontmost window."
+ System.WindowShowNext_SUMM = "Move focus to the next window."
+ System.WindowShowPrevious_SUMM = "Move focus to the previous window."
+-System.WindowShowZoomMenu_DESC = "This command does nothing if the window doesn't support zoom."
++System.WindowShowZoomMenu_DESC = "This command does nothing if the window doesn’t support zoom."
+ System.WindowShowZoomMenu_SUMM = "Show the zoom menu for the frontmost window."
+ System.WindowToggleZoom_DESC = "To return to the previous window size, say this command again."
+ System.WindowToggleZoom_SUMM = "Maximize the window."
+
+```

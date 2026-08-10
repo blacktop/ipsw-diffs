@@ -1,0 +1,97 @@
+## PasswordManagerUI
+
+> `SystemOS/System/Library/PrivateFrameworks/PasswordManagerUI.framework/en.lproj/Localizable.strings`
+
+```diff
+
+ Are you sure you want to stop sharing this Recovery Key? = "Are you sure you want to stop sharing this Recovery Key?"
+ Are you sure you want to stop sharing this password? = "Are you sure you want to stop sharing this password?"
+ Ascending = "Ascending"
++Authentication Services Testing = "Authentication Services Testing"
+ AutoFill & Passwords (navigation title) = "AutoFill \u0026 Passwords"
+ AutoFill Password (view title) = "AutoFill Password"
+ AutoFill Passwords and Passkeys = "AutoFill Passwords and Passkeys"
+
+ AutoFill will suggest the password for “%@” on these websites and apps. = "AutoFill will suggest the password for “%@” on these websites and apps."
+ AutoFill will suggest the password for “%@” on these websites. = "AutoFill will suggest the password for “%@” on these websites."
+ Automatic Fix Already in Progress = "Automatic Fix Already in Progress"
++Automatic Password Change Developer Mode = "Automatic Password Change Developer Mode"
+ Automatic Password Fixes = "Automatic Password Fixes"
+ Automatic Verification = "Automatic Verification"
+ Automatic protection to keep your passwords safe. = "Automatic protection to keep your passwords safe."
+
+ Do you want to recover this password? = "Do you want to recover this password?"
+ Do you want to save your changes for “%@”? = "Do you want to save your changes for “%@”?"
+ Done = "Done"
+-Don’t Fix = "Don’t Fix"
+ Don’t Save (Uncommitted Changes Dismissal) = "Don’t Save"
+ Each WLAN opens in a separate window. = "Each WLAN opens in a separate window."
+ Each Wi-Fi network opens in a separate window. = "Each Wi-Fi network opens in a separate window."
+
+ Managed WLANs cannot be forgotten. = "Managed WLANs cannot be forgotten."
+ Managed Wi-Fi networks cannot be forgotten. = "Managed Wi-Fi networks cannot be forgotten."
+ Manually Enter Password = "Manually Enter Password"
++Member = "Member"
+ Members in the group “%@” will immediately lose access to this Recovery Key. = "Members in the group “%@” will immediately lose access to this Recovery Key."
+ Members in the group “%@” will immediately lose access to this Sign in with Apple account. = "Members in the group “%@” will immediately lose access to this Sign in with Apple account."
+ Members in the group “%@” will immediately lose access to this passkey and password. = "Members in the group “%@” will immediately lose access to this passkey and password."
+
+ Network Name: %1$@ = "Network Name: %1$@"
+ Network is Managed = "Network is Managed"
+ Never Forget a Password Again = "Never Forget a Password Again"
++Never Suggest to Fix = "Never Suggest to Fix"
+ Never forget a password again. = "Never forget a password again."
+ Never joined = "Never joined"
+ New Group (button title) = "New Group"
+
+ Only you can see history from before you shared this password to the group. = "Only you can see history from before you shared this password to the group."
+ Open %@ = "Open %@"
+ Open (Open many windows confirmation) = "Open"
++Open Commit %@ = "Open Commit %@"
+ Open Passwords (Settings tip) = "Open Passwords"
+ Open Settings = "Open Settings"
+ Open Website = "Open Website"
+
+ Open verification code setup links and QR codes with this app.(picker subtitle) = "Open verification code setup links and QR codes with this app."
+ Open “%@” = "Open “%@”"
+ Optic ID Required = "Optic ID Required"
+-Options = "Options"
+ Other = "Other"
++Other Passwords = "Other Passwords"
+ Other accounts = "Other accounts"
+ Other… = "Other…"
+ Owner = "Owner"
+
+ Password (credentials picker) = "Password"
+ Password (field label) = "Password"
+ Password = "Password"
++Password AutoFill, saving, and generating makes use of app and website-specific rules in the Password Manager Resources open source project. Apple periodically ingests the latest updates and delivers to devices. [Learn More…](https://github.com/apple/password-manager-resources) = "Password AutoFill, saving, and generating makes use of app and website-specific rules in the Password Manager Resources open source project. Apple periodically ingests the latest updates and delivers to devices. [Learn More…](https://github.com/apple/password-manager-resources)"
+ Password Changed (Automatic Password Change) = "Password Changed"
+ Password Changed = "Password Changed"
+ Password Fixed = "Password Fixed"
+
+ Passwords (Table Section Header) = "Passwords"
+ Passwords (app name) = "Passwords"
+ Passwords App Notifications = "Passwords App Notifications"
++Passwords App Testing = "Passwords App Testing"
+ Passwords Is Locked = "Passwords Is Locked"
+ Passwords and passkeys %@ shared with this group will be removed. = "Passwords and passkeys %@ shared with this group will be removed."
+ Passwords and passkeys deleted from “%@” are available here for %@ days. After that time, they will be permanently deleted. = "Passwords and passkeys deleted from “%@” are available here for %@ days. After that time, they will be permanently deleted."
+
+ Select Password or Passkey = "Select Password or Passkey"
+ Select a Destination = "Select a Destination"
+ Select a Source = "Select a Source"
++Select account to fix = "Select account to fix"
+ Serial Number = "Serial Number"
+ Set Up = "Set Up"
+ Set Up Code = "Set Up Code"
+
+ Signing in… = "Signing in…"
+ Some items will not be exported. = "Some items will not be exported."
+ Some of your devices will need to be updated before they can access Shared Password Groups. = "Some of your devices will need to be updated before they can access Shared Password Groups."
++Some passwords were fixed on a device running a newer version of software. = "Some passwords were fixed on a device running a newer version of software."
+ Sort By = "Sort By"
+ Sort Order = "Sort Order"
+ Stolen Device Protection is active. = "Stolen Device Protection is active."
+
+```

@@ -1,0 +1,213 @@
+## FitnessActions
+
+> `/System/Library/PrivateFrameworks/FitnessActions.framework/FitnessActions`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_classlist`
+- `__AUTH_CONST.__objc_const`
+
+```diff
+
+-2027.0.134.0.0
+-  __TEXT.__text: 0xab8e8
++2027.0.146.0.2
++  __TEXT.__text: 0xa94e4
+   __TEXT.__objc_methlist: 0x50
+-  __TEXT.__const: 0x12294
+-  __TEXT.__swift5_typeref: 0x77f0
+-  __TEXT.__swift5_capture: 0xfb0
+-  __TEXT.__swift5_reflstr: 0x2404
+-  __TEXT.__swift5_assocty: 0x678
+-  __TEXT.__constg_swiftt: 0x4294
+-  __TEXT.__swift5_fieldmd: 0x3038
+-  __TEXT.__swift5_proto: 0xdfc
+-  __TEXT.__swift5_types: 0x49c
+-  __TEXT.__cstring: 0x1541
++  __TEXT.__const: 0x122f4
++  __TEXT.__swift5_typeref: 0x7a86
++  __TEXT.__swift5_capture: 0xef0
++  __TEXT.__constg_swiftt: 0x4330
++  __TEXT.__swift5_reflstr: 0x23e4
++  __TEXT.__swift5_assocty: 0x690
++  __TEXT.__swift5_fieldmd: 0x3030
++  __TEXT.__swift5_proto: 0xe00
++  __TEXT.__swift5_types: 0x4a0
++  __TEXT.__cstring: 0x16a6
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__oslogstring: 0x1ce
+-  __TEXT.__swift_as_entry: 0xbc
+-  __TEXT.__swift_as_ret: 0x128
+-  __TEXT.__swift_as_cont: 0x174
++  __TEXT.__oslogstring: 0x17e
++  __TEXT.__swift_as_entry: 0xb0
++  __TEXT.__swift_as_ret: 0x10c
++  __TEXT.__swift_as_cont: 0x158
+   __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_mpenum: 0x38
+-  __TEXT.__unwind_info: 0x3450
+-  __TEXT.__eh_frame: 0x3a34
++  __TEXT.__unwind_info: 0x3358
++  __TEXT.__eh_frame: 0x3754
+   __TEXT.__objc_stubs: 0x0
+   __TEXT.__auth_stubs: 0x0
+   __TEXT.__objc_classname: 0x0
+
+   __DATA_CONST.__const: 0xb8
+   __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc0
+-  __DATA_CONST.__got: 0x620
+-  __AUTH_CONST.__const: 0x8900
++  __DATA_CONST.__objc_selrefs: 0xc8
++  __DATA_CONST.__got: 0x610
++  __AUTH_CONST.__const: 0x8860
+   __AUTH_CONST.__objc_const: 0x2f0
+-  __AUTH_CONST.__auth_got: 0xe50
+-  __AUTH.__data: 0x570
+-  __DATA.__data: 0x3310
+-  __DATA.__bss: 0x16010
++  __AUTH_CONST.__auth_got: 0xe90
++  __AUTH.__objc_data: 0x50
++  __AUTH.__data: 0x628
++  __DATA.__data: 0x3398
++  __DATA.__bss: 0x16098
+   __DATA.__common: 0x18
+-  __DATA_DIRTY.__objc_data: 0x210
+-  __DATA_DIRTY.__data: 0x1fb0
++  __DATA_DIRTY.__objc_data: 0x1c0
++  __DATA_DIRTY.__data: 0x1e48
+   __DATA_DIRTY.__bss: 0x6200
+   __DATA_DIRTY.__common: 0x18
+-  - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 4637
+-  Symbols:   2069
+-  CStrings:  152
++  Functions: 4605
++  Symbols:   2084
++  CStrings:  166
+ 
+Symbols:
++ _OBJC_CLASS_$_UIImage
++ __DATA__TtC14FitnessActions19ProfilePictureStore
++ __IVARS__TtC14FitnessActions19ProfilePictureStore
++ __METACLASS_DATA__TtC14FitnessActions19ProfilePictureStore
++ __MergedGlobals
++ ___isPlatformVersionAtLeast
++ ___stack_chk_fail
++ ___stack_chk_guard
++ __availability_version_check
++ __initializeAvailabilityCheck
++ _associated conformance 14FitnessActions13AccountButtonV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 14FitnessActions19AccountAvatarButtonV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _get_enum_tag_for_layout_string 7SwiftUI11StateObjectV7StorageOy8DataFlow5StoreCy14FitnessActions20AccountButtonFeatureVG_G
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOQr
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOqd__AaBHC
++ _get_witness_table 14FitnessActions19AccountAvatarButtonV7SwiftUI4ViewHPyHC
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQOyAA6ButtonVyAA15ModifiedContentVyAA5GroupVyAA012_ConditionalK0VyAcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQOyAMyAA5ImageVAA18_AspectRatioLayoutVG_AA8SolariumVAMyAzA06_FrameW0VGA3_Qo_AcAEAR_ASQrqd___qd_0_xXEtAaURd__AaBRd_0_r0_lFQOyAMyAMyAMyAwA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGA6_yAA5ColorVSgGGA2_G_AaUPAAE1nopyQrxFZQOyA0__Qo_AMyA17_AA34_InsettableBackgroundShapeModifierVyAA8MaterialVAA6CircleVGGQo_GGAA11_ClipEffectVyA26_GGG_Qo_HO
++ _initializeAvailabilityCheck
++ _malloc
++ _memcmp
++ _objc_msgSend$initWithData:
++ _objc_release_x21
++ _objc_release_x25
++ _objc_release_x9
++ _objc_retain_x21
++ _rewind
++ _sscanf
++ _symbolic ScSy_____SgG 10Foundation4DataV
++ _symbolic ScSy_____SgGyYbc 10Foundation4DataV
++ _symbolic So7UIImageCSg
++ _symbolic _____ 14FitnessActions19AccountAvatarButtonV
++ _symbolic _____ 14FitnessActions19ProfilePictureStoreC
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V
++ _symbolic _____y_____Sg_G ScS8IteratorV 10Foundation4DataV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV
++ _symbolic _____y_____yAAy_____y_____y_____yAAy__________G______AAyAG_____GAJQo______yAAyAAyAAyAE_____y_____SgGGALy_____SgGGAIG______yAH_Qo_AAyAU_____y__________GGQo_GG_____yAYGGG_____G 7SwiftUI15ModifiedContentV AA6ButtonV AA5GroupV AA012_ConditionalD0V AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0H14InputPredicateRd__AaJRd_0_AaJRd_1_r1_lFQO AA5ImageV AA18_AspectRatioLayoutV AA8SolariumV AA06_FrameR0V AkAEAL_AMQrqd___qd_0_xXEtAaORd__AaJRd_0_r0_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AaOPAAE1nopyQrxFZQO AA026_InsettableBackgroundShapeX0V AA8MaterialV AA6CircleV AA11_ClipEffectV AA14_TaskModifier2V
++ _symbolic _____y_____y_____y__________G______AByAE_____GAHQo______yAByAByAByAC_____y_____SgGGAJy_____SgGGAGG______yAF_Qo_AByAS_____y__________GGQo_G 7SwiftUI19_ConditionalContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA8SolariumV AA06_FrameP0V AeAEAF_AGQrqd___qd_0_xXEtAaIRd__AaDRd_0_r0_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AaIPAAE1nopyQrxFZQO AA026_InsettableBackgroundShapeV0V AA8MaterialV AA6CircleV
++ _symbolic _____y_____y_____y__________G______AByAE_____GAHQo______yAByAByAByAC_____y_____SgGGAJy_____SgGGAGG______yAF_Qo_AByAS_____y__________GGQo__G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0F14InputPredicateRd__AaFRd_0_AaFRd_1_r1_lFQO AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA8SolariumV AA06_FrameQ0V AgAEAH_AIQrqd___qd_0_xXEtAaKRd__AaFRd_0_r0_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AaKPAAE1nopyQrxFZQO AA026_InsettableBackgroundShapeW0V AA8MaterialV AA6CircleV
++ _symbolic _____y_____y_____y_____yAAy__________G______AAyAF_____GAIQo______yAAyAAyAAyAD_____y_____SgGGAKy_____SgGGAHG______yAG_Qo_AAyAT_____y__________GGQo_GG_____yAXGG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0G14InputPredicateRd__AaHRd_0_AaHRd_1_r1_lFQO AA5ImageV AA18_AspectRatioLayoutV AA8SolariumV AA06_FrameQ0V AiAEAJ_AKQrqd___qd_0_xXEtAaMRd__AaHRd_0_r0_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AaMPAAE1nopyQrxFZQO AA026_InsettableBackgroundShapeW0V AA8MaterialV AA6CircleV AA11_ClipEffectV
++ _symbolic _____y_____y_____y_____y__________G______ACyAF_____GAIQo______yACyACyACyAD_____y_____SgGGAKy_____SgGGAHG______yAG_Qo_ACyAT_____y__________GGQo_GG 7SwiftUI5GroupV AA19_ConditionalContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0F14InputPredicateRd__AaFRd_0_AaFRd_1_r1_lFQO AA08ModifiedE0V AA5ImageV AA18_AspectRatioLayoutV AA8SolariumV AA06_FrameQ0V AgAEAH_AIQrqd___qd_0_xXEtAaKRd__AaFRd_0_r0_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AaKPAAE1nopyQrxFZQO AA026_InsettableBackgroundShapeW0V AA8MaterialV AA6CircleV
++ _symbolic _____y_____y_____y_____y_____yABy__________G______AByAG_____GAJQo______yAByAByAByAE_____y_____SgGGALy_____SgGGAIG______yAH_Qo_AByAU_____y__________GGQo_GG_____yAYGGG 7SwiftUI6ButtonV AA15ModifiedContentV AA5GroupV AA012_ConditionalE0V AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0H14InputPredicateRd__AaJRd_0_AaJRd_1_r1_lFQO AA5ImageV AA18_AspectRatioLayoutV AA8SolariumV AA06_FrameR0V AkAEAL_AMQrqd___qd_0_xXEtAaORd__AaJRd_0_r0_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AaOPAAE1nopyQrxFZQO AA026_InsettableBackgroundShapeX0V AA8MaterialV AA6CircleV AA11_ClipEffectV
++ _symbolic _____y_____y_____y_____y_____y_____yABy__________G______AByAG_____GAJQo______yAByAByAByAE_____y_____SgGGALy_____SgGGAIG______yAH_Qo_AByAU_____y__________GGQo_GG_____yAYGGG_Qo_ 7SwiftUI4ViewPAAE4task4name8priority4file4line_QrSSSg_ScPSSSiyyYaYAcntFQO AA6ButtonV AA15ModifiedContentV AA5GroupV AA012_ConditionalK0V AcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AA5ImageV AA18_AspectRatioLayoutV AA8SolariumV AA06_FrameW0V AcAEAR_ASQrqd___qd_0_xXEtAaURd__AaBRd_0_r0_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AaUPAAE1nopyQrxFZQO AA34_InsettableBackgroundShapeModifierV AA8MaterialV AA6CircleV AA11_ClipEffectV
++ _symbolic ySo7UIImageCSgYbScMYccSg
++ _symbolic yyc
++ _type_layout_string 14FitnessActions13AccountButtonV
++ _type_layout_string 14FitnessActions19AccountAvatarButtonV
+- _OBJC_CLASS_$_CNContact
+- __DATA__TtC14FitnessActions32AccountButtonContactDataProvider
+- __IVARS__TtC14FitnessActions32AccountButtonContactDataProvider
+- __METACLASS_DATA__TtC14FitnessActions32AccountButtonContactDataProvider
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_mutable_project_boxed_opaque_existential_1
+- _associated conformance 14FitnessActions13AccountButtonVyxG7SwiftUI4ViewAA4BodyAeFP_AeF
+- _flat unique Sci_px7ElementSciRts_q_7FailureSciRtsXP
+- _get_witness_table 7SwiftUI4ViewRzlqd0__AaBHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA6ButtonVyAA15ModifiedContentVyAA5GroupVyAA012_ConditionalJ0VyAcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQOyx_AA8SolariumVAJyxAA12_FrameLayoutVGAWQo_SgAcAEAO_APQrqd___qd_0_xXEtAaRRd__AaBRd_0_r0_lFQOyAJyAJyAJyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGA1_yAA5ColorVSgGGAVG_AaRPAAE1nopyQrxFZQOyAT_Qo_AJyA12_AA026_InsettableBackgroundShapeZ0VyAA8MaterialVAA6CircleVGGQo_GGAA11_ClipEffectVyA21_GGG_SbQo_HO
+- _objc_release_x27
+- _swift_allocBox
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_makeBoxUnique
+- _swift_task_create
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _symbolic 7ElementSciQyd__
+- _symbolic 7FailureSciQyd__
+- _symbolic SayScTyyt_____GG s5NeverO
+- _symbolic ScPSg
+- _symbolic ScTyyt_____G s5NeverO
+- _symbolic So9CNContactCSg
+- _symbolic So9CNContactCxIeggr_
+- _symbolic So9CNContactCxIegnr_
+- _symbolic So9CNContactCyYaKc
+- _symbolic _____ 14FitnessActions32AccountButtonContactDataProviderC
+- _symbolic _____SgXw 14FitnessActions32AccountButtonContactDataProviderC
+- _symbolic _____SgXwz_Xx 14FitnessActions32AccountButtonContactDataProviderC
+- _symbolic _____yScTyyt_____GG s23_ContiguousArrayStorageC s5NeverO
+- _symbolic _____y_____G 7SwiftUI5StateV 14FitnessActions32AccountButtonContactDataProviderC
+- _symbolic _____y_____yAAyAAy__________y_____SgGGACy_____SgGG_____G______y______Qo_AAyAM_____y__________GGQo_ 7SwiftUI4ViewPAAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQO AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA12_FrameLayoutV AaFPAAE1nopyQrxFZQO AA8SolariumV AA026_InsettableBackgroundShapeO0V AA8MaterialV AA6CircleV
+- _symbolic _____y_____y_____y_____y_____y_____yx______AByx_____GAGQo_Sg_____yAByAByABy__________y_____SgGGAKy_____SgGGAFG______yAE_Qo_AByAT_____y__________GGQo_GG_____yAXGGG_SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ButtonV AA15ModifiedContentV AA5GroupV AA012_ConditionalJ0V AcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AA8SolariumV AA12_FrameLayoutV AcAEAO_APQrqd___qd_0_xXEtAaRRd__AaBRd_0_r0_lFQO AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AaRPAAE1nopyQrxFZQO AA026_InsettableBackgroundShapeZ0V AA8MaterialV AA6CircleV AA11_ClipEffectV
+- _symbolic _____yt_____XjIegHr_ r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq s5NeverO
+- _symbolic _____yt_____XjyYac r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq s5NeverO
+- _symbolic _____yxG 14FitnessActions13AccountButtonV
+- _symbolic _____yxSo9CNContactCcG 13FitnessCoreUI15AssumeEquatableV
+- _symbolic ytIeAgHr_
+CStrings:
++ "%d.%d.%d"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "ProductVersion"
++ "View.task @ FitnessActions/AccountAvatarButton.swift:"
++ "kCFAllocatorNull"
++ "r"
+- "[AccountButtonContactDataProvider] Failed fetching user contact: %{public}s"
+```
